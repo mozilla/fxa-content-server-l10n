@@ -1169,7 +1169,7 @@ terms-privacy-agreement-pocket-2 = <pocketTos>Podmienky používania služby</po
 # link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-monitor-3 = <mozSubscriptionTosLink>Podmienky používania služby</mozSubscriptionTosLink> a <mozSubscriptionPrivacyLink>Vyhlásenie o ochrane osobných údajov</mozSubscriptionPrivacyLink> pre Služby predplatného { -brand-mozilla }
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-mozilla = <mozillaAccountsTos>Podmienky používania služby</mozillaAccountsTos> a <mozillaAccountsPrivacy>Vyhlásenie o ochrane osobných údajov</mozillaAccountsPrivacy> pre { -product-mozilla-accounts(capitalization: "lowercase", case: "acc") }
+terms-privacy-agreement-mozilla = <mozillaAccountsTos>Podmienky používania služby</mozillaAccountsTos> a <mozillaAccountsPrivacy>Vyhlásenie o ochrane osobných údajov</mozillaAccountsPrivacy> pre { -product-mozilla-accounts(capitalization: "lower", case: "acc") }
 # links to Mozilla Account's Terms of Service and Privacy Notice
 terms-privacy-agreement-default-2 = Pokračovaním vyjadrujete súhlas s <mozillaAccountsTos>Podmienkami používania služby</mozillaAccountsTos> a <mozillaAccountsPrivacy>Vyhlásením o ochrane osobných údajov</mozillaAccountsPrivacy>.
 
