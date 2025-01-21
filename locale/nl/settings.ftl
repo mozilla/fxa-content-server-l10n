@@ -639,12 +639,18 @@ flow-setup-phone-confirm-code-button = Bevestigen
 # followed by a button to resend a code
 flow-setup-phone-confirm-code-expired = Code verlopen?
 flow-setup-phone-confirm-code-resend-code-button = Code nogmaals versturen
+flow-setup-phone-confirm-code-success-message-v2 = Hersteltelefoonnummer toegevoegd
 
 ## FlowSetupPhoneConfirmCode
 
 flow-setup-phone-submit-number-heading = Verifieer uw telefoonnummer
 # The code is a 6-digit code send by text message/SMS
 flow-setup-phone-verify-number-instruction = U ontvangt een sms van { -brand-mozilla } met een code om uw nummer te verifiëren. Deel deze code met niemand.
+# The initial rollout of the recovery phone is only available to users with US and Canada mobile phone numbers.
+# Voice over Internet Protocol (VoIP), is a technology that uses a broadband Internet connection instead of a regular (or analog) phone line to make calls.
+# Phone mask services (for example Relay) provide a temporary virtual number to avoid providing a real phone number.
+# Both VoIP and phone masks can be unreliable for one-time-passcode (OTP) verification
+flow-setup-phone-submit-number-info-message-v2 = Hersteltelefoonnummers zijn alleen beschikbaar in de Verenigde Staten en Canada. VoIP-nummers en telefoonmaskers worden niet aanbevolen.
 flow-setup-phone-submit-number-legal = Door uw nummer op te geven, gaat u ermee akkoord dat we dit opslaan, zodat we u kunnen sms’en voor uitsluitend accountverificatie. Er kunnen kosten voor berichten en gegevens van toepassing zijn.
 # cliking on the button sends a code by text message to the phone number typed in by the user
 flow-setup-phone-submit-number-button = Code verzenden
@@ -870,6 +876,15 @@ recovery-key-create-back-button-title = Terug naar instellingen
 ## PageRecoveryPhoneRemove
 ## Users reach this page from account settings when they want to remove a backup phone number.
 
+recovery-phone-remove-header = Hersteltelefoonnummer verwijderen
+# Variables:
+#   $formattedFullPhoneNumber (String) - the user's full phone number
+settings-recovery-phone-remove-info = Hierdoor wordt <strong>{ $formattedFullPhoneNumber }</strong> verwijderd als uw hersteltelefoonnummer.
+settings-recovery-phone-remove-recommend = We raden u aan deze methode te behouden, omdat deze eenvoudiger is dan het opslaan van reserve-authenticatiecodes.
+# "Saved backup authentication codes" refers to previously saved backup authentication codes
+settings-recovery-phone-remove-recovery-methods = Als u de add-on verwijdert, zorg er dan voor dat u uw opgeslagen reserve-authenticatiecodes nog hebt. <linkExternal>Herstelmethoden vergelijken</linkExternal>
+settings-recovery-phone-remove-button = Telefoonnummer verwijderen
+settings-recovery-phone-remove-cancel = Annuleren
 
 ## PageSetupRecoveryPhone
 
@@ -1023,6 +1038,9 @@ tfa-row-backup-codes-get-new-cta = Nieuwe codes verkrijgen
 tfa-row-backup-codes-add-cta = Toevoegen
 # 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
 tfa-row-backup-codes-description-2 = Dit is de veiligste herstelmethode als u uw mobiele apparaat of authenticator-app niet kunt gebruiken.
+# Recovery phone is a recovery method for two-step authentication
+# A recovery code can be sent to the user's phone
+tfa-row-backup-phone-title-v2 = Hersteltelefoonnummer
 # Shown with an alert icon to indicate that no recovery phone is configured
 tfa-row-backup-phone-not-available = Geen hersteltelefoonnummer beschikbaar
 # button to change the configured recovery phone
@@ -1031,6 +1049,9 @@ tfa-row-backup-phone-change-cta = Wijzigen
 tfa-row-backup-phone-add-cta = Toevoegen
 # Button to remove a recovery phone from the user's account
 tfa-row-backup-phone-delete-button = Verwijderen
+# Shown in tooltip on delete button or delete icon
+tfa-row-backup-phone-delete-title-v2 = Hersteltelefoonnummer verwijderen
+tfa-row-backup-phone-delete-restriction-v2 = Als u uw hersteltelefoonnummer wilt verwijderen, voeg dan reserve-authenticatiecodes toe of schakel eerst authenticatie in twee stappen uit om te voorkomen dat u geen toegang meer hebt tot uw account.
 # "this" refers to recovery phone
 tfa-row-backup-phone-description = Dit is de eenvoudigere herstelmethode als u uw authenticator-app niet kunt gebruiken.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
@@ -1662,6 +1683,14 @@ signin-recovery-method-code-info = { $numberOfCodes } codes resterend
 
 ## SigninRecoveryPhoneCodeConfirm page
 
+recovery-phone-code-confirm-flow-heading = Aanmelden
+# A recovery code in context of this page is a one time code sent to the user's phone
+recovery-phone-code-confirm-with-code-heading = Voer herstelcode in
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+recovery-phone-code-confirm-code-instruction = Er is per sms een 6-cijferige code verstuurd naar <span>{ $maskedPhoneNumber }</span>. Deze code verloopt na 5 minuten.
+recovery-phone-code-confirm-input-group-label = Voer 6-cijferige code in
+recovery-phone-code-confirm-otp-submit-button = Bevestigen
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
