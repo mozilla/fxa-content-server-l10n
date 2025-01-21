@@ -880,7 +880,7 @@ recovery-phone-remove-header = Dileu'r rhif ffôn adfer
 settings-recovery-phone-remove-info = Bydd hyn yn dileu <strong>{ $formattedFullPhoneNumber }</strong> fel eich ffôn adfer.
 settings-recovery-phone-remove-recommend = Rydym yn argymell eich bod yn cadw'r dull hwn oherwydd ei fod yn haws na chadw codau dilysu wrth gefn.
 # "Saved backup authentication codes" refers to previously saved backup authentication codes
-settings-recovery-phone-remove-recovery-methods = Os byddwch chi'n ei ddileu, gwnewch yn siŵr bod gennych chi o hyd y codau dilysu wrth gefn sydd wedi'u cadw. <linkExternal>Cymharu dulliau adfer</linkExternal>
+settings-recovery-phone-remove-recovery-methods = Os byddwch chi'n ei ddileu, gwnewch yn siŵr bod gennych chi y codau dilysu wrth gefn sydd wedi'u cadw, o hyd. <linkExternal>Cymharu dulliau adfer</linkExternal>
 settings-recovery-phone-remove-button = Dileu rhif ffôn
 settings-recovery-phone-remove-cancel = Diddymu
 
