@@ -1676,6 +1676,12 @@ signin-recovery-method-code-info = { $numberOfCodes } codices remanente
 ## SigninRecoveryPhoneCodeConfirm page
 
 recovery-phone-code-confirm-flow-heading = Aperir session
+# A recovery code in context of this page is a one time code sent to the user's phone
+recovery-phone-code-confirm-with-code-heading = Insere le codice de recuperation
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+recovery-phone-code-confirm-code-instruction = Un codice de sex cifras era inviate a <span>{ $maskedPhoneNumber }</span> per message de texto. Iste codice expira post 5 minutas.
+recovery-phone-code-confirm-input-group-label = Insere le codice de 6 digitos
 recovery-phone-code-confirm-otp-submit-button = Confirmar
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.

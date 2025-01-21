@@ -49,6 +49,7 @@ subplat-legal = Legal
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Confidentialitate
 subplat-privacy-website-plaintext = { subplat-privacy }:
+account-deletion-info-block-support = Si tu ha questiones o besonia de assistentia, contacta nostre <a data-l10n-name="supportLink">equipa de assistentia</a>.
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-android-badge = <img data-l10n-name="google-play-badge" alt="Discarga { $productName } de { -google-play }">
@@ -122,6 +123,9 @@ automatedEmailRecoveryKey-more-info-plaintext = Pro altere informationes, visita
 automated-email-reset =
     Isto es un e-mail automatisate; si tu non autorisava iste action, alora <a data-l10n-name="resetLink">per favor reinitialisa tu contrasigno</a>.
     Pro altere informationes, visita <a data-l10n-name="supportLink">{ -brand-mozilla } Assistentia</a>.
+# Variables:
+#  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
+automated-email-reset-plaintext-v2 = Si tu non autorisa iste action, per favor reinitialisa tu contrasigno ora a { $resetLink }
 brand-banner-message = Sape tu que nos cambiava nostre nomine ab { -product-firefox-accounts } a { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Saper plus</a>
 cancellationSurvey = Per favor adjuta nos a meliorar nostre servicios redigente iste <a data-l10n-name="cancellationSurveyUrl">breve questionario</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
@@ -242,6 +246,8 @@ fraudulentAccountDeletion-contact = Si tu ha questiones, contacta nostre <a data
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Si tu ha questiones, contacta nostre equipa de assistentia: { $mozillaSupportUrl }
+inactiveAccountFinalWarning-subject = Ultime chance pro mantener tu { -product-mozilla-account }
+inactiveAccountFinalWarning-title = Tu conto e datos de { -brand-mozilla } sera delite.
 inactiveAccountFinalWarning-preview = Accede pro mantener tu conto
 inactiveAccountFinalWarning-action = Accede pro mantener tu conto
 # followed by link to sign in
@@ -251,6 +257,7 @@ inactiveAccountFirstWarning-action = Accede pro mantener tu conto
 inactiveAccountFirstWarning-preview = Accede pro mantener tu conto
 # followed by link to sign in
 inactiveAccountFirstWarning-action-plaintext = Accede pro mantener tu conto:
+inactiveAccountSecondWarning-title = Tu conto e datos de { -brand-mozilla } sera delite in 7 dies.
 inactiveAccountSecondWarning-action = Accede pro mantener tu conto
 inactiveAccountSecondWarning-preview = Accede pro mantener tu conto
 # followed by link to sign in
@@ -403,8 +410,11 @@ postRemoveTwoStepAuthentication-action = Gerer le conto
 postRemoveTwoStepAuthentication-not-required-2 = Tu non plus besonia codices de securitate de tu app de authentication quando aperi session
 postSigninRecoveryCode-subject = Codice de authentication de salvamento usate pro acceder
 postSigninRecoveryCode-preview = Confirmar activitate del conto
+postSigninRecoveryCode-title = Tu codice de authentication de salvamento era usate pro acceder
+postSigninRecoveryCode-device = Tu accedeva ab:
 postSigninRecoveryCode-action = Gerer conto
 postSigninRecoveryPhone-preview = Confirma le activitate del conto
+postSigninRecoveryPhone-device = Tu accedeva ab:
 postSigninRecoveryPhone-action = Gerer conto
 postVerify-sub-title-3 = Nos es delectate de vider te!
 postVerify-title-2 = Vole tu vider le mesme scheda sur duo apparatos?
