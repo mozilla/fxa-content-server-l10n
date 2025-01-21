@@ -641,12 +641,18 @@ flow-setup-phone-confirm-code-button = Confirmar
 # followed by a button to resend a code
 flow-setup-phone-confirm-code-expired = Codice expirate?
 flow-setup-phone-confirm-code-resend-code-button = Reinviar le codice
+flow-setup-phone-confirm-code-success-message-v2 = Telephono de recuperation addite
 
 ## FlowSetupPhoneConfirmCode
 
 flow-setup-phone-submit-number-heading = Verifica tu numero de telephono
 # The code is a 6-digit code send by text message/SMS
 flow-setup-phone-verify-number-instruction = Tu recipera un SMS ab { -brand-mozilla } con un codice pro verificar tu numero. Non comparti iste codice con quicunque.
+# The initial rollout of the recovery phone is only available to users with US and Canada mobile phone numbers.
+# Voice over Internet Protocol (VoIP), is a technology that uses a broadband Internet connection instead of a regular (or analog) phone line to make calls.
+# Phone mask services (for example Relay) provide a temporary virtual number to avoid providing a real phone number.
+# Both VoIP and phone masks can be unreliable for one-time-passcode (OTP) verification
+flow-setup-phone-submit-number-info-message-v2 = Le numero de telephono de reserva es solo disponibile in le Statos Unite e Canada. Numeros e mascas de telephono VoIP non es recommendate.
 flow-setup-phone-submit-number-legal = Forniente tu numero, tu concorda con nos de immagazinar lo assi nos pote inviar te SMS pro solo pro verification del conto. Tarifas de messages e datos pote applicar se.
 # cliking on the button sends a code by text message to the phone number typed in by the user
 flow-setup-phone-submit-number-button = Inviar codice
@@ -869,6 +875,9 @@ recovery-key-create-back-button-title = Retornar al configuration
 ## PageRecoveryPhoneRemove
 ## Users reach this page from account settings when they want to remove a backup phone number.
 
+recovery-phone-remove-header = Remover numero de telephono de recuperation?
+settings-recovery-phone-remove-button = Remover numero de telephono
+settings-recovery-phone-remove-cancel = Cancellar
 
 ## PageSetupRecoveryPhone
 
@@ -1022,6 +1031,9 @@ tfa-row-backup-codes-get-new-cta = Obtener nove codices
 tfa-row-backup-codes-add-cta = Adder
 # 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
 tfa-row-backup-codes-description-2 = Isto es le methodo de recuperation plus secur si tu non pote usar a tu apparato mobile o le app de authentication.
+# Recovery phone is a recovery method for two-step authentication
+# A recovery code can be sent to the user's phone
+tfa-row-backup-phone-title-v2 = Telephono de recuperation
 # Shown with an alert icon to indicate that no recovery phone is configured
 tfa-row-backup-phone-not-available = Nulle numero de telephono de recuperation disponibile
 # button to change the configured recovery phone
@@ -1030,6 +1042,9 @@ tfa-row-backup-phone-change-cta = Cambiar
 tfa-row-backup-phone-add-cta = Adder
 # Button to remove a recovery phone from the user's account
 tfa-row-backup-phone-delete-button = Remover
+# Shown in tooltip on delete button or delete icon
+tfa-row-backup-phone-delete-title-v2 = Remover telephono de recuperation
+tfa-row-backup-phone-delete-restriction-v2 = Si tu desira remover tu telephono de recuperation, adde le codices de authentication o primo disactiva le authentication a duo passos pro evitar de perder le accesso de tu conto.
 # "this" refers to recovery phone
 tfa-row-backup-phone-description = Isto es le methodo de recuperation plus facile si tu non pote usar a tu app de authentication.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
@@ -1660,6 +1675,8 @@ signin-recovery-method-code-info = { $numberOfCodes } codices remanente
 
 ## SigninRecoveryPhoneCodeConfirm page
 
+recovery-phone-code-confirm-flow-heading = Aperir session
+recovery-phone-code-confirm-otp-submit-button = Confirmar
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
