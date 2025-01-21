@@ -1681,10 +1681,10 @@ signin-recovery-method-code-info = { $numberOfCodes } códigos restantes
 
 recovery-phone-code-confirm-flow-heading = Iniciar sesión
 # A recovery code in context of this page is a one time code sent to the user's phone
-recovery-phone-code-confirm-with-code-heading = Ingrese el código de recuperación
+recovery-phone-code-confirm-with-code-heading = Ingresá el código de recuperación
 # Text that explains the user should check their phone for a recovery code
 # $maskedPhoneNumber - The users masked phone number
-recovery-phone-code-confirm-code-instruction = Se envió un código de seis dígitos a <span> { $maskedPhoneNumber }</span> por mensaje de texto. Este código caduca después de 5 minutos.
+recovery-phone-code-confirm-code-instruction = Se envió un código de seis dígitos al <span>{ $maskedPhoneNumber }</span> por mensaje de texto. Este código expira después de 5 minutos.
 recovery-phone-code-confirm-input-group-label = Ingresá el código de 6 dígitos
 recovery-phone-code-confirm-otp-submit-button = Confirmar
 
