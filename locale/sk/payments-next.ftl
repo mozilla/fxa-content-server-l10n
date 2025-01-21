@@ -9,6 +9,7 @@ next-basic-error-message = Niečo sa pokazilo. Skúste to znova neskôr.
 
 ## Page
 
+checkout-signin-or-create = 1. Prihláste sa alebo si vytvorte { -product-mozilla-account(case: "lower") }
 next-payment-method-header = Vyberte si spôsob platby
 next-payment-method-first-approve = Najprv musíte schváliť svoje predplatné
 next-payment-confirmation-thanks-heading-account-exists = Ďakujeme, teraz skontrolujte svoj e‑mail!
@@ -24,6 +25,7 @@ next-payment-confirmation-amount = { $amount } za { $interval }
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Karta končiaca číslicami { $last4 }
 next-payment-confirmation-download-button = Pokračovať na stiahnutie
+checkout-error-boundary-retry-button = Skúsiť znova
 
 ## Component - Payment Consent Checkbox
 
@@ -34,6 +36,10 @@ next-payment-confirm-checkbox-error = Pred pokračovaním musíte dokončiť tot
 
 next-new-user-submit = Predplatiť
 next-payment-validate-name-error = Prosím, zadajte svoje meno
+next-pay-with-heading-paypal = Zaplatiť cez { -brand-paypal }
+# Label for the Full Name input
+payment-name-label = Meno tak, ako je uvedené na vašej karte
+payment-name-placeholder = Celé meno
 
 ## Component - CouponForm
 
@@ -45,6 +51,9 @@ next-coupon-promo-code = Promo kód
 next-coupon-promo-code-applied = Promo kód bol použitý
 next-coupon-remove = Odstrániť
 next-coupon-submit = Použiť
+payments-client-loading-spinner =
+    .aria-label = Načítava sa…
+    .alt = Načítava sa…
 
 ## Payment Section
 
@@ -57,6 +66,23 @@ next-plan-details-show-button = Zobraziť podrobnosti
 
 ## Select Tax Location
 
+select-tax-location-title = Poloha
+select-tax-location-edit-button = Upraviť
+select-tax-location-save-button = Uložiť
+select-tax-location-country-code-label = Krajina
+select-tax-location-country-code-placeholder = Zvoľte krajinu
+select-tax-location-error-missing-country-code = Vyberte svoju krajinu
+select-tax-location-postal-code-label = PSČ
+select-tax-location-postal-code =
+    .placeholder = Zadajte svoje poštové smerovacie číslo
+select-tax-location-error-missing-postal-code = Zadajte svoje poštové smerovacie číslo
+select-tax-location-error-invalid-postal-code = Zadajte platné poštové smerovacie číslo
+select-tax-location-successfully-updated = Vaša poloha bola aktualizovaná.
+select-tax-location-error-location-not-updated = Vašu polohu nebolo možné aktualizovať. Skúste to znova.
+signin-form-continue-button = Pokračovať
+signin-form-email-input = Zadajte e-mailovú adresu
+signin-form-email-input-missing = Zadajte svoju e-mailovú adresu
+signin-form-email-input-invalid = Zadajte platnú e-mailovú adresu
 next-new-user-subscribe-product-updates-mdnplus = Chcem dostávať novinky o produktoch od { -product-mdn-plus } a { -brand-mozilla(case: "gen") }
 next-new-user-subscribe-product-updates-mozilla = Chcem dostávať novinky o produktoch { -brand-mozilla(case: "gen") }
 next-new-user-subscribe-product-updates-snp = Chcem dostávať novinky { -brand-mozilla(case: "gen") } týkajúce sa bezpečnosti a ochrany osobných údajov
@@ -72,6 +98,8 @@ next-plan-details-total-label = Celkom
 ## Purchase details - shared by multiple components, including purchase details and payment form
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+list-positive-amount = { $amount }
+list-negative-amount = - { $amount }
 next-coupon-success = Váš plán sa automaticky obnoví za katalógovú cenu.
 # $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
 next-coupon-success-repeating = Váš plán sa automaticky obnoví po { $couponDurationDate } za katalógovú cenu.
@@ -82,6 +110,11 @@ next-coupon-success-repeating = Váš plán sa automaticky obnoví po { $couponD
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+plan-price-interval-daily = { $amount } denne
+plan-price-interval-weekly = { $amount } týždenne
+plan-price-interval-monthly = { $amount } mesačne
+plan-price-interval-6monthly = { $amount } každých 6 mesiacov
+plan-price-interval-yearly = { $amount } ročne
 
 ## Component - SubscriptionTitle
 
