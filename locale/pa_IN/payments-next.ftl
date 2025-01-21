@@ -58,6 +58,7 @@ next-plan-details-show-button = ਵੇਰਵੇ ਦਿਖਾਓ
 select-tax-location-edit-button = ਸੋਧੋ
 select-tax-location-save-button = ਸੰਭਾਲੋ
 select-tax-location-country-code-label = ਦੇਸ਼
+select-tax-location-country-code-placeholder = ਆਪਣਾ ਦੇਸ਼ ਚੁਣੋ
 next-new-user-subscribe-product-updates-mdnplus = ਮੈਂ { -product-mdn-plus } ਅਤੇ { -brand-mozilla } ਤੋਂ ਉਤਪਾਦ ਖ਼ਬਰਾਂ ਅਤੇ ਅੱਪਡੇਟ ਲੈਣਾ ਚਾਹੁੰਦਾ/ਚਾਹੁੰਦੀ ਹਾਂ
 next-new-user-subscribe-product-updates-mozilla = ਮੈਂ { -brand-mozilla } ਤੋਂ ਉਤਪਾਦ ਖ਼ਬਰਾਂ ਅਤੇ ਅੱਪਡੇਟ ਪ੍ਰਾਪਤ ਚਾਹੁੰਦਾ/ਚਾਹੁੰਦੀ ਹਾਂ
 next-new-user-subscribe-product-updates-snp = ਮੈਂ { -brand-mozilla } ਤੋਂ ਸੁਰੱਖਿਆ ਅਤੇ ਪਰਦੇਦਾਰੀ ਖ਼ਬਰਾਂ ਅਤੇ ਅੱਪਡੇਟ ਲੈਣਾ ਚਾਹੁੰਦਾ/ਚਾਹੁੰਦੀ ਹਾਂ
