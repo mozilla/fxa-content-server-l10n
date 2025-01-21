@@ -71,6 +71,15 @@ android-download-plaintext = Scàrrica { $productName } di Google Play:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 ios-download-plaintext = Scàrrica { $productName } di l'App Store:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-device-plaintext = Nzita { $productName } nta n'autru dispusitivu:
+automated-email-change-2 = Si nun fusti tu a fari sta cosa, <a data-l10n-name="passwordChangeLink">cancia sùbbitu a to chiavi</a>.
+automated-email-support = P'aviri cchiù assai nfurmazzioni, vìsita <a data-l10n-name="supportLink">u situ di supportu di { -brand-mozilla }</a>.
+# After the colon, there's a link to https://accounts.firefox.com/settings/change_password
+automated-email-change-plaintext-2 = Si nun fusti tu a fari sta cosa, cancia sùbbitu a to chiavi:
+#  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+automated-email-support-plaintext = P'aviri cchiù assai nfurmazzioni, vìsita u situ di supportu di { -brand-mozilla }:
 
 ## Variables
 ##   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
