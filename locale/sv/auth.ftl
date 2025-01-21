@@ -49,6 +49,10 @@ subplat-legal = Juridisk information
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Sekretess
 subplat-privacy-website-plaintext = { subplat-privacy }:
+account-deletion-info-block-communications = Om ditt konto raderas kommer du fortfarande att få e-postmeddelanden från Mozilla Corporation och Mozilla Foundation, såvida du inte <a data-l10n-name="unsubscribeLink">ber om att avregistrera dig</a>.
+account-deletion-info-block-support = Om du har några frågor eller behöver hjälp är du välkommen att kontakta vårt <a data-l10n-name="supportLink">supportteam</a>.
+account-deletion-info-block-communications-plaintext = Om ditt konto raderas kommer du fortfarande att få e-postmeddelanden från Mozilla Corporation och Mozilla Foundation, såvida du inte ber om att avregistrera dig:
+account-deletion-info-block-support-plaintext = Om du har några frågor eller behöver hjälp är du välkommen att kontakta vårt supportteam:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-android-badge = <img data-l10n-name="google-play-badge" alt="Hämta { $productName } i { -google-play }">
@@ -76,6 +80,7 @@ automated-email-support = För mer information, besök <a data-l10n-name="suppor
 automated-email-change-plaintext-2 = Om du inte vidtog den här åtgärden, ändra ditt lösenord direkt:
 #  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-support-plaintext = För mer information, besök { -brand-mozilla } Support:
+automated-email-inactive-account = Detta är ett automatiskt e-postmeddelande. Du får det för att du har ett { -product-mozilla-account } och det har gått 2 år sedan din senaste inloggning.
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } För mer information, besök <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
 automated-email-no-action-plaintext = Detta är ett automatiskt e-postmeddelande. Om du fick det av misstag behöver du inte göra någonting.
@@ -122,6 +127,9 @@ automatedEmailRecoveryKey-more-info-plaintext = För mer information, besök { -
 automated-email-reset =
     Detta är ett automatiskt e-postmeddelande; om du inte godkände den här åtgärden <a data-l10n-name="resetLink">vänligen återställ ditt lösenord</a>.
     För mer information, besök <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
+# Variables:
+#  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
+automated-email-reset-plaintext-v2 = Om du inte godkände den här åtgärden, vänligen återställ ditt lösenord nu på { $resetLink }
 brand-banner-message = Visste du att vi ändrade vårt namn från { -product-firefox-accounts } till { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Läs mer</a>
 cancellationSurvey = Hjälp oss att förbättra våra tjänster genom att svara på denna <a data-l10n-name="cancellationSurveyUrl">korta undersökning</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
@@ -242,6 +250,36 @@ fraudulentAccountDeletion-contact = Om du har några frågor, kontakta vårt <a 
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Om du har några frågor, vänligen kontakta vårt supportteam: { $mozillaSupportUrl }
+inactiveAccountFinalWarning-subject = Sista chansen att behålla ditt { -product-mozilla-account }
+inactiveAccountFinalWarning-title = Ditt { -brand-mozilla }-konto och data kommer att raderas
+inactiveAccountFinalWarning-preview = Logga in för att behålla ditt konto
+inactiveAccountFinalWarning-account-description = Ditt { -product-mozilla-account } används för att få tillgång till gratis sekretess- och surfprodukter som { -brand-firefox } sync, { -product-mozilla-monitor }, { -product-firefox-relay } och { -product-mdn }.
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+# This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
+inactiveAccountFinalWarning-impact = Den <strong>{ $deletionDate }</strong> raderas ditt konto och dina personuppgifter permanent om du inte loggar in.
+inactiveAccountFinalWarning-action = Logga in för att behålla ditt konto
+# followed by link to sign in
+inactiveAccountFinalWarning-action-plaintext = Logga in för att behålla ditt konto:
+inactiveAccountFirstWarning-subject = Förlora inte ditt konto
+inactiveAccountFirstWarning-title = Vill du behålla ditt { -brand-mozilla }-konto och din data?
+inactiveAccountFirstWarning-account-description-v2 = Ditt { -product-mozilla-account } används för att få tillgång till gratis sekretess- och surfprodukter som { -brand-firefox } sync, { -product-mozilla-monitor }, { -product-firefox-relay } och { -product-mdn }.
+inactiveAccountFirstWarning-inactive-status = Vi har märkt att du inte har loggat in på 2 år.
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+# This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
+inactiveAccountFirstWarning-impact = Ditt konto och dina personuppgifter kommer att raderas permanent den <strong>{ $deletionDate }</strong> eftersom du inte har varit aktiv.
+inactiveAccountFirstWarning-action = Logga in för att behålla ditt konto
+inactiveAccountFirstWarning-preview = Logga in för att behålla ditt konto
+# followed by link to sign in
+inactiveAccountFirstWarning-action-plaintext = Logga in för att behålla ditt konto:
+inactiveAccountSecondWarning-subject = Åtgärd krävs: Kontot raderas inom 7 dagar
+inactiveAccountSecondWarning-title = Ditt { -brand-mozilla }-konto och data kommer att raderas inom 7 dagar
+inactiveAccountSecondWarning-account-description-v2 = Ditt { -product-mozilla-account } används för att få tillgång till gratis sekretess- och surfprodukter som { -brand-firefox } sync, { -product-mozilla-monitor }, { -product-firefox-relay } och { -product-mdn }.
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+inactiveAccountSecondWarning-impact = Ditt konto och dina personuppgifter kommer att raderas permanent den <strong>{ $deletionDate }</strong> eftersom du inte har varit aktiv.
+inactiveAccountSecondWarning-action = Logga in för att behålla ditt konto
+inactiveAccountSecondWarning-preview = Logga in för att behålla ditt konto
+# followed by link to sign in
+inactiveAccountSecondWarning-action-plaintext = Logga in för att behålla ditt konto:
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title-zero = Du har slut på reservautentiseringskoder!
 codes-reminder-title-one = Du är på din sista reservautentiseringskod
@@ -318,6 +356,7 @@ postAddLinkedAccount-subject-2 = Nytt konto länkat till ditt { -product-mozilla
 postAddLinkedAccount-title-2 = Ditt { $providerName }-konto har länkats till ditt { -product-mozilla-account }
 postAddLinkedAccount-action = Hantera konto
 postAddRecoveryPhone-subject = Återställningstelefon tillagd
+postAddRecoveryPhone-preview = Kontot skyddas av tvåstegsautentisering
 postAddRecoveryPhone-title = Du skapade ett återställningstelefonnummer
 # Variables:
 #  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
@@ -345,6 +384,7 @@ postChangePrimary-title = Ny primär e-post
 postChangePrimary-description-2 = Du har ändrat din primära e-postadress till { $email }. Den här adressen är nu ditt användarnamn för att logga in på ditt { -product-mozilla-account }, samt för att ta emot säkerhetsmeddelanden och inloggningsbekräftelser.
 postChangePrimary-action = Hantera konto
 postChangeRecoveryPhone-subject = Återställningstelefon uppdaterad
+postChangeRecoveryPhone-preview = Kontot skyddas av tvåstegsautentisering
 postChangeRecoveryPhone-title = Du har bytt återställningstelefon
 postChangeRecoveryPhone-description = Du har nu en ny återställningstelefon. Ditt tidigare telefonnummer raderades.
 postChangeRecoveryPhone-requested-device = Du har begärt det från:
@@ -368,6 +408,7 @@ postRemoveAccountRecovery-body-part1 = Din kontoåterställningsnyckel krävs f�
 postRemoveAccountRecovery-body-part2 = Om du inte redan har gjort det, skapa en ny kontoåterställningsnyckel i dina kontoinställningar för att förhindra att du förlorar dina sparade lösenord, bokmärken, webbhistorik och mer.
 postRemoveAccountRecovery-action = Hantera konto
 postRemoveRecoveryPhone-subject = Återställningstelefon borttagen
+postRemoveRecoveryPhone-preview = Kontot skyddas av tvåstegsautentisering
 postRemoveRecoveryPhone-title = Återställningstelefon borttagen
 postRemoveRecoveryPhone-description = Din återställningstelefon har tagits bort från dina tvåstegsautentiseringsinställningar. Du har fortfarande dina backup-autentiseringskoder tillgängliga för användning.
 postRemoveRecoveryPhone-requested-device = Du har begärt det från:
@@ -383,6 +424,18 @@ postRemoveTwoStepAuthentication-title-2 = Du stängde av tvåstegsautentisering
 postRemoveTwoStepAuthentication-from-device = Du inaktiverade det från:
 postRemoveTwoStepAuthentication-action = Hantera konto
 postRemoveTwoStepAuthentication-not-required-2 = Du behöver inte längre säkerhetskoder från din autentiseringsapp när du loggar in.
+postSigninRecoveryCode-subject = Reservautentiseringskod används för att logga in
+postSigninRecoveryCode-preview = Bekräfta kontoaktivitet
+postSigninRecoveryCode-title = Din reservautentiseringskod användes för att logga in
+postSigninRecoveryCode-description = Om du inte gjorde det här bör du ändra ditt lösenord omedelbart för att skydda ditt konto.
+postSigninRecoveryCode-device = Du loggade in från:
+postSigninRecoveryCode-action = Hantera konto
+postSigninRecoveryPhone-subject = Återställningstelefon som användes för att logga in
+postSigninRecoveryPhone-preview = Bekräfta kontoaktivitet
+postSigninRecoveryPhone-title = Ditt återställningstelefon användes för att logga in
+postSigninRecoveryPhone-description = Om du inte gjorde det här bör du ändra ditt lösenord omedelbart för att skydda ditt konto.
+postSigninRecoveryPhone-device = Du loggade in från:
+postSigninRecoveryPhone-action = Hantera konto
 postVerify-sub-title-3 = Vi är glada att se dig!
 postVerify-title-2 = Vill du se samma flik på två enheter?
 postVerify-description-2 = Det är lätt! Installera bara { -brand-firefox } på en annan enhet och logga in för att synkronisera. Det är som magi!
@@ -635,6 +688,7 @@ verifySecondaryCode-expiry-notice-2 = Den upphör efter 5 minuter. När adressen
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = Bekräfta ditt konto
+verifyShortCode-preview = Använd den medföljande koden för att bekräfta ditt { -product-mozilla-account }.
 verifyShortCode-title-3 = Öppna internet med { -brand-mozilla }
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = Bekräfta ditt konto och få ut det mesta av { -brand-mozilla } överallt där du loggar in, med början med:
