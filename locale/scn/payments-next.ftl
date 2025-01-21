@@ -92,13 +92,25 @@ signin-form-email-input = Metti u to nnirizzu di posta elittrònica
 signin-form-email-input-missing = Pi favuri metti u to nnirizzu di posta elittrònica
 signin-form-email-input-invalid = Pi favuri metti nu nnirizzu di posta elittrònica vàlitu
 next-new-user-subscribe-product-updates-mdnplus = Vogghiu aviri nutizzi e attualizzi ncapu ê prudutti di { -product-mdn-plus } e { -brand-mozilla }
+next-new-user-subscribe-product-updates-mozilla = Vogghiu aviri nutizzi e attualizzi ncapu ê prudutti di { -brand-mozilla }
+next-new-user-subscribe-product-updates-snp = Vogghiu aviri nutizzi e attualizzi di sicurizza e privatizza di { -brand-mozilla }
+next-new-user-subscribe-product-assurance = Usamu u to nnirizzu di posta elittrònica sulu pi crìari u to cuntu. Nun u vinnemu mai a nuḍḍu.
 
 ## Component - Details
 
+next-plan-details-header = Minutagghi dû pruduttu
+next-plan-details-list-price = Prezzu currenti
+next-plan-details-tax = Tassi e cummissioni
+next-plan-details-total-label = Tutali
 
 ## Purchase details - shared by multiple components, including purchase details and payment form
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+list-positive-amount = { $amount }
+list-negative-amount = - { $amount }
+next-coupon-success = U to chianu veni rinnuvatu di manera atumàtica ô prezzu currenti.
+# $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
+next-coupon-success-repeating = U to chianu veni rinnuvatu di manera atumàtica doppu { $couponDurationDate } ô prezzu currenti.
 
 ## Component - PriceInterval
 
@@ -106,9 +118,24 @@ next-new-user-subscribe-product-updates-mdnplus = Vogghiu aviri nutizzi e attual
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+plan-price-interval-daily = { $amount } ô jornu
+plan-price-interval-weekly = { $amount } â simana
+plan-price-interval-monthly = { $amount } ô misi
+plan-price-interval-6monthly = { $amount } ogni 6 misi
+plan-price-interval-yearly = { $amount } ogni annu
 
 ## Component - SubscriptionTitle
 
+next-subscription-create-title = Cunfijura u to abbunamentu
+next-subscription-success-title = Cunferma di l'abbunamentu
+next-subscription-processing-title = Staju cunfirmannu l'abbunamentu…
+next-subscription-error-title = Cci fu un prubblema mentri chi cunfirmava l'abbunamentu…
 
 ## Component - TermsAndPrivacy
 
+# "Mozilla Accounts" is capitalized in this instance for title case in English
+# This heading is followed by links to Terms of Service and Privacy Notice
+next-subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capitalization: "uppercase") }
+next-terms = Tèrmini di sirbizzu
+next-privacy = Abbisu di privatizza
+next-terms-download = Scàrrica i tèrmini
