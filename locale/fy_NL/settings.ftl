@@ -643,6 +643,7 @@ flow-setup-phone-confirm-code-button = Befêstigje
 # followed by a button to resend a code
 flow-setup-phone-confirm-code-expired = Koade ferrûn?
 flow-setup-phone-confirm-code-resend-code-button = Koade nochris ferstjoere
+flow-setup-phone-confirm-code-success-message-v2 = Wersteltelefoannûmer tafoege
 
 ## FlowSetupPhoneConfirmCode
 
@@ -874,6 +875,7 @@ recovery-key-create-back-button-title = Tebek nei ynstellingen
 ## PageRecoveryPhoneRemove
 ## Users reach this page from account settings when they want to remove a backup phone number.
 
+settings-recovery-phone-remove-cancel = Annulearje
 
 ## PageSetupRecoveryPhone
 
@@ -1027,6 +1029,9 @@ tfa-row-backup-codes-get-new-cta = Nije koaden krije
 tfa-row-backup-codes-add-cta = Tafoegje
 # 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
 tfa-row-backup-codes-description-2 = Dit is de feilichste werstelmetoade as jo jo mobile apparaat of autentikaasje-app net brûke kinne.
+# Recovery phone is a recovery method for two-step authentication
+# A recovery code can be sent to the user's phone
+tfa-row-backup-phone-title-v2 = Wersteltelefoannûmer
 # Shown with an alert icon to indicate that no recovery phone is configured
 tfa-row-backup-phone-not-available = Gjin wersteltelefoannûmer beskikber
 # button to change the configured recovery phone
@@ -1035,6 +1040,8 @@ tfa-row-backup-phone-change-cta = Wizigje
 tfa-row-backup-phone-add-cta = Tafoegje
 # Button to remove a recovery phone from the user's account
 tfa-row-backup-phone-delete-button = Fuortsmite
+# Shown in tooltip on delete button or delete icon
+tfa-row-backup-phone-delete-title-v2 = Wersteltelefoannûmer fuortsmite
 # "this" refers to recovery phone
 tfa-row-backup-phone-description = Dit is de ienfâldigere werstelmetoade as jo jo autentikaasje-app net brûke kinne.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
@@ -1666,6 +1673,11 @@ signin-recovery-method-code-info = { $numberOfCodes } koaden oer
 
 ## SigninRecoveryPhoneCodeConfirm page
 
+recovery-phone-code-confirm-flow-heading = Oanmelde
+# A recovery code in context of this page is a one time code sent to the user's phone
+recovery-phone-code-confirm-with-code-heading = Fier werstelkoade yn
+recovery-phone-code-confirm-input-group-label = Fier 6-siferige koade yn
+recovery-phone-code-confirm-otp-submit-button = Befêstigje
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
