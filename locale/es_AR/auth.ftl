@@ -275,11 +275,11 @@ inactiveAccountSecondWarning-subject = Acción requerida: eliminación de la cue
 inactiveAccountSecondWarning-title = Tu cuenta de { -brand-mozilla } y sus datos se borrarán en 7 días
 inactiveAccountSecondWarning-account-description-v2 = Tu { -product-mozilla-account } se usa para acceder a productos gratuitos de privacidad y navegación como { -brand-firefox } sync, { -product-mozilla-monitor }, { -product-firefox-relay } y { -product-mdn }.
 # $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
-inactiveAccountSecondWarning-impact = Tu cuenta y tus datos personales se eliminarán permanentemente el <strong> { $deletionDate }</strong> porque no has estado activo.
-inactiveAccountSecondWarning-action = Inicia sesión para mantener tu cuenta
-inactiveAccountSecondWarning-preview = Inicia sesión para mantener tu cuenta
+inactiveAccountSecondWarning-impact = Tu cuenta y tus datos personales se eliminarán permanentemente el <strong>{ $deletionDate }</strong> porque no estuviste activo.
+inactiveAccountSecondWarning-action = Iniciá sesión para mantener tu cuenta
+inactiveAccountSecondWarning-preview = Iniciá sesión para mantener tu cuenta
 # followed by link to sign in
-inactiveAccountSecondWarning-action-plaintext = Inicia sesión para mantener tu cuenta:
+inactiveAccountSecondWarning-action-plaintext = Iniciá sesión para mantener tu cuenta:
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title-zero = ¡Ya no tenés códigos de autenticación de respaldo!
 codes-reminder-title-one = Estás en el último código de autenticación de respaldo

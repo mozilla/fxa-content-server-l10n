@@ -874,10 +874,10 @@ recovery-key-create-back-button-title = Volver a ajustes
 recovery-phone-remove-header = Eliminar número de teléfono de recuperación
 # Variables:
 #   $formattedFullPhoneNumber (String) - the user's full phone number
-settings-recovery-phone-remove-info = Esto eliminará <strong> { $formattedFullPhoneNumber }</strong> como tu teléfono de recuperación.
-settings-recovery-phone-remove-recommend = Te recomendamos que conserves este método porque es más fácil que guardar los códigos de autenticación de respaldo.
+settings-recovery-phone-remove-info = Esto eliminará <strong>{ $formattedFullPhoneNumber }</strong> como tu teléfono de recuperación.
+settings-recovery-phone-remove-recommend = Te recomendamos que conservés este método porque es más fácil que guardar los códigos de autenticación de respaldo.
 # "Saved backup authentication codes" refers to previously saved backup authentication codes
-settings-recovery-phone-remove-recovery-methods = Si lo elimina, asegúrese de tener sus códigos de autenticación de respaldo guardados. <linkExternal> Comparar métodos de recuperación </linkExternal>
+settings-recovery-phone-remove-recovery-methods = Si lo borrás, asegurate de tener tus códigos de autenticación de respaldo guardados. <linkExternal>Comparar métodos de recuperación</linkExternal>
 settings-recovery-phone-remove-button = Eliminar número de teléfono
 settings-recovery-phone-remove-cancel = Cancelar
 
@@ -1044,7 +1044,7 @@ tfa-row-backup-phone-add-cta = Agregar
 tfa-row-backup-phone-delete-button = Eliminar
 # Shown in tooltip on delete button or delete icon
 tfa-row-backup-phone-delete-title-v2 = Eliminar teléfono de recuperación
-tfa-row-backup-phone-delete-restriction-v2 = Si deseas eliminar tu teléfono de recuperación, primero agrega códigos de autenticación de respaldo o deshabilita la autenticación de dos pasos para evitar el bloqueo de tu cuenta.
+tfa-row-backup-phone-delete-restriction-v2 = Si querés eliminar tu teléfono de recuperación, primero agregá códigos de autenticación de respaldo o deshabilitá la autenticación de dos pasos para evitar el bloqueo de tu cuenta.
 # "this" refers to recovery phone
 tfa-row-backup-phone-description = Este es el método de recuperación más fácil si no podés usar tu aplicación de autenticación.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
