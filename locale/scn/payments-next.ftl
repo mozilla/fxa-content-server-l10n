@@ -42,18 +42,56 @@ next-payment-confirm-checkbox-error = Hâ cumplitari stu passaggiu prima di jiri
 
 ## Checkout Form
 
+next-new-user-submit = Scrìviti ora
+next-payment-validate-name-error = Metti u to nomu cumpletu
+next-pay-with-heading-paypal = Paga cu { -brand-paypal }
+# Label for the Full Name input
+payment-name-label = U nomu pi comu affaccia nnâ to carta
+payment-name-placeholder = Nomu cumpletu
 
 ## Component - CouponForm
 
+next-coupon-enter-code =
+    .placeholder = Metti u còdici
+# Title of container where a user can input a coupon code to get a discount on a subscription.
+next-coupon-promo-code = Còdici prumuzziunali
+# Title of container showing discount coupon code applied to a subscription.
+next-coupon-promo-code-applied = Còdici prumuzziunali usatu
+next-coupon-remove = Leva
+next-coupon-submit = Riggistra
+payments-client-loading-spinner =
+    .aria-label = Staju carricannu…
+    .alt = Staju carricannu…
 
 ## Payment Section
 
+next-new-user-card-title = Metti i nfurmazzioni dâ to carta
 
 ## Component - PurchaseDetails
 
+next-plan-details-hide-button = Ammuccia i minutagghi
+next-plan-details-show-button = Mustra i minutagghi
 
 ## Select Tax Location
 
+select-tax-location-title = Pusizzioni
+select-tax-location-edit-button = Cancia
+select-tax-location-save-button = Sarba
+select-tax-location-country-code-label = Pajisi
+select-tax-location-country-code-placeholder = Scarta u to pajisi
+select-tax-location-error-missing-country-code = Pi favuri scarta u to pajisi
+select-tax-location-postal-code-label = Còdici pustali
+select-tax-location-postal-code =
+    .placeholder = Metti u to còdici pustali
+select-tax-location-error-missing-postal-code = Pi favuri metti u to còdici pustali
+select-tax-location-error-invalid-postal-code = Pi favuri metti un còdici pustali vàlitu
+select-tax-location-successfully-updated = A to pusizzioni fu attualizzata.
+select-tax-location-error-location-not-updated = Nun potti attualizzari a to pusizzioni. Pi favuri torna a prova.
+signin-form-continue-button = Cuntinua
+signin-form-email-input = Metti u to nnirizzu di posta elittrònica
+signin-form-email-input-missing = Pi favuri metti u to nnirizzu di posta elittrònica
+signin-form-email-input-invalid = Pi favuri metti nu nnirizzu di posta elittrònica vàlitu
+next-new-user-subscribe-product-updates-mdnplus = Vogghiu aviri nutizzi e attualizzi ncapu ê prudutti di { -product-mdn-plus } e { -brand-mozilla }
 
 ## Component - Details
 
