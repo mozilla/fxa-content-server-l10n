@@ -59,6 +59,8 @@ payment-confirmation-thanks-heading-account-exists = Grazzi! Ora cuntrolla a to 
 # $email (string) - The user's email.
 # $productName (String) - The name of the subscribed product.
 payment-confirmation-thanks-subheading = Na littra di cunferma fu mannata ô nnirizzu { $email } chî minutagghi pi principijari cu { $product_name }.
+# $email (string) - The user's email.
+payment-confirmation-thanks-subheading-account-exists = Hâ ricìviri na littra ô nnirizzu { $email } cu l'istruzzioni pi cunfijurari u to cuntu, e chî to minutagghi di pagamentu.
 payment-confirmation-order-heading = Minutagghi di l'ùrdini
 payment-confirmation-invoice-number = Fattura #{ $invoiceNumber }
 # $invoiceDate (Date) - Start date of the latest invoice
@@ -107,6 +109,9 @@ payment-error-manage-subscription-button = Manija u me abbunamentu
 
 ## Component - PaymentErrorView - IAP upgrade errors
 
+# $productName (String) - The name of the subscribed product.
+iap-upgrade-already-subscribed-2 = Già ài n'abbunamentu a { $productName } fattu nta l'app store di { -brand-google } o { -brand-apple }.
+iap-upgrade-no-bundle-support = Pi st'abbunamenti nun suppurtamu l'attualizzi accamora, ma prestu i suppurtaremu.
 iap-upgrade-contact-support = Po' ancora aviri stu pruduttu — pi favuri cuntatta u supportu p'aviri ajutu.
 iap-upgrade-get-help-button = Fatti ajutari
 
@@ -117,32 +122,125 @@ payment-name =
     .label = U nomu pi comu affaccia nnâ to carta
 payment-cc =
     .label = A to carta
+payment-cancel-btn = Sfai
+payment-update-btn = Attualizza
+payment-pay-btn = Paga ora
+payment-pay-with-paypal-btn-2 = Paga cu { -brand-paypal }
+payment-validate-name-error = Pi favuri metti u to nomu
 
 ## Component - PaymentLegalBlurb
 
+payment-legal-copy-stripe-and-paypal-3 = { -brand-mozilla } usa { -brand-name-stripe } e { -brand-paypal } pi prucissari i pagamenti di manera sicura.
+payment-legal-link-stripe-paypal-2 = <stripePrivacyLink>Pulìtica di privatizza di { -brand-name-stripe }</stripePrivacyLink> &nbsp; <paypalPrivacyLink>Pulìtica di privatizza di { -brand-paypal }</paypalPrivacyLink>
+payment-legal-copy-paypal-2 = { -brand-mozilla } usa { -brand-paypal } pi prucissari i pagamenti di manera sicura.
+payment-legal-link-paypal-3 = <paypalPrivacyLink>Pulìtica di privatizza di { -brand-paypal }</paypalPrivacyLink>
+payment-legal-copy-stripe-3 = { -brand-mozilla } usa { -brand-name-stripe } pi prucissari i pagamenti di manera sicura.
+payment-legal-link-stripe-3 = <stripePrivacyLink>Pulìtica di privatizza di { -brand-name-stripe }</stripePrivacyLink>
 
 ## Component - PaymentMethodHeader
 
+payment-method-header = Scarta u to mètudu di pagamentu
+# This message is used to indicate the second step in a multi step process.
+payment-method-header-second-step = 2. { payment-method-header }
+payment-method-first-approve = Pi prima cosa, hâ appruvari u to abbunamentu
 
 ## Component - PaymentProcessing
 
+payment-processing-message = Pi favuri aspetta mentri chi prucissamu u pagamentu…
 
 ## Component - PaymentProviderDetails
 
+payment-confirmation-cc-card-ending-in = Carta chi finisci pi { $last4 }
 
 ## Component - PayPalButton
 
+pay-with-heading-paypal-2 = Paga cu { -brand-paypal }
 
 ## Component - PlanDetails
 
+plan-details-header = Minutagghi dû pruduttu
+plan-details-list-price = Prezzu currenti
+plan-details-show-button = Mustra i minutagghi
+plan-details-hide-button = Ammuccia i minutagghi
+plan-details-total-label = Tutali
+plan-details-tax = Tassi e cummissioni
 
 ## Component - PlanErrorDialog
 
+product-no-such-plan = Nun cc'è nuḍḍu chianu di stu tipu pi stu pruduttu.
 
 ## Price details including tax
 ## $priceAmount (Number) - The amount billed. It will be formatted as currency.
 ## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
+price-details-no-tax = { $priceAmount }
+price-details-tax = { $priceAmount } + { $taxAmount } di tassi
+# $intervalCount (Number) - The interval between payments, in days.
+price-details-no-tax-day =
+    { $intervalCount ->
+        [one] { $priceAmount } ô jornu
+       *[other] { $priceAmount } ogni { $intervalCount } jorna
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } ô jornu
+           *[other] { $priceAmount } ogni { $intervalCount } jorna
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+price-details-no-tax-week =
+    { $intervalCount ->
+        [one] { $priceAmount } â simana
+       *[other] { $priceAmount } ogni { $intervalCount } simani
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } â simana
+           *[other] { $priceAmount } ogni { $intervalCount } simani
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+price-details-no-tax-month =
+    { $intervalCount ->
+        [one] { $priceAmount } ô misi
+       *[other] { $priceAmount } ogni { $intervalCount } misi
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } ô misi
+           *[other] { $priceAmount } ogni { $intervalCount } misi
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+price-details-no-tax-year =
+    { $intervalCount ->
+        [one] { $priceAmount } ogni annu
+       *[other] { $priceAmount } ogni { $intervalCount } anni
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } ogni annu
+           *[other] { $priceAmount } ogni { $intervalCount } anni
+        }
+# $intervalCount (Number) - The interval between payments, in days.
+price-details-tax-day =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } di tassi ô jornu
+       *[other] { $priceAmount } + { $taxAmount } di tassi ogni { $intervalCount } jorna
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } di tassi ô jornu
+           *[other] { $priceAmount } + { $taxAmount } di tassi ogni { $intervalCount } jorna
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+price-details-tax-week =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } di tassi â simana
+       *[other] { $priceAmount } + { $taxAmount } di tassi ogni { $intervalCount } simani
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } di tassi â simana
+           *[other] { $priceAmount } + { $taxAmount } di tassi ogni { $intervalCount } simani
+        }
 
 ## Component - SubscriptionTitle
 
