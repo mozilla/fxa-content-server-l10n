@@ -9,7 +9,7 @@ next-basic-error-message = Niečo sa pokazilo. Skúste to znova neskôr.
 
 ## Page
 
-checkout-signin-or-create = 1. Prihláste sa alebo si vytvorte { -product-mozilla-account(case: "lower") }
+checkout-signin-or-create = 1. Prihláste sa alebo si vytvorte { -product-mozilla-account(capitalization: "lower") }
 next-payment-method-header = Vyberte si spôsob platby
 next-payment-method-first-approve = Najprv musíte schváliť svoje predplatné
 next-payment-confirmation-thanks-heading-account-exists = Ďakujeme, teraz skontrolujte svoj e‑mail!

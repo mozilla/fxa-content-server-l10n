@@ -80,7 +80,7 @@ automated-email-support = Ďalšie informácie nájdete na stránkach <a data-l1
 automated-email-change-plaintext-2 = Ak ste túto akciu neurobili, okamžite si zmeňte heslo:
 #  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-support-plaintext = Ďalšie informácie nájdete na stránkach Podpory { -brand-mozilla(case: "gen") }.
-automated-email-inactive-account = Toto je automatický e‑mail. Dostávate ho, pretože máte { -product-mozilla-account } a od vášho posledného prihlásenia uplynuli 2 roky.
+automated-email-inactive-account = Toto je automatický e‑mail. Dostávate ho, pretože máte { -product-mozilla-account(capitalization: "lower") } a od vášho posledného prihlásenia uplynuli 2 roky.
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } Ďalšie informácie nájdete na stránkach <a data-l10n-name="supportLink">Podpory { -brand-mozilla(case: "gen") }</a>.
 automated-email-no-action-plaintext = Toto je automaticky generovaná správa. Ak ste ju dostali omylom, nemusíte robiť nič.
@@ -250,10 +250,10 @@ fraudulentAccountDeletion-contact = Ak máte nejaké otázky, kontaktujte náš 
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Ak máte nejaké otázky, kontaktujte náš tím podpory: { $mozillaSupportUrl }
-inactiveAccountFinalWarning-subject = Posledná šanca ponechať si svoj { -product-mozilla-account }
+inactiveAccountFinalWarning-subject = Posledná šanca ponechať si svoj { -product-mozilla-account(capitalization: "lower") }
 inactiveAccountFinalWarning-title = Váš účet { -brand-mozilla } a údaje budú vymazané
 inactiveAccountFinalWarning-preview = Ak si chcete ponechať svoj účet, prihláste sa
-inactiveAccountFinalWarning-account-description = Váš { -product-mozilla-account } sa používa na prístup k bezplatným produktom na ochranu súkromia a prehliadanie webu, ako sú synchronizácia v prehliadači { -brand-firefox }, { -product-mozilla-monitor }, { -product-firefox-relay } a { -product-mdn }.
+inactiveAccountFinalWarning-account-description = Váš { -product-mozilla-account(capitalization: "lower") } sa používa na prístup k bezplatným produktom na ochranu súkromia a prehliadanie webu, ako sú synchronizácia v prehliadači { -brand-firefox }, { -product-mozilla-monitor }, { -product-firefox-relay } a { -product-mdn }.
 # $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
 # This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
 inactiveAccountFinalWarning-impact = Pokiaľ sa neprihlásite, dňa <strong>{ $deletionDate }</strong> bude váš účet a vaše osobné údaje natrvalo odstránené.
@@ -262,7 +262,7 @@ inactiveAccountFinalWarning-action = Ak si chcete ponechať svoj účet, prihlá
 inactiveAccountFinalWarning-action-plaintext = Ak si chcete ponechať svoj účet, prihláste sa:
 inactiveAccountFirstWarning-subject = Nestraťte svoj účet
 inactiveAccountFirstWarning-title = Chcete si ponechať svoj účet { -brand-mozilla } a údaje?
-inactiveAccountFirstWarning-account-description-v2 = Váš { -product-mozilla-account } sa používa na prístup k bezplatným produktom na ochranu súkromia a prehliadanie webu, ako sú synchronizácia v prehliadači { -brand-firefox }, { -product-mozilla-monitor }, { -product-firefox-relay } a { -product-mdn }.
+inactiveAccountFirstWarning-account-description-v2 = Váš { -product-mozilla-account(capitalization: "lower") } sa používa na prístup k bezplatným produktom na ochranu súkromia a prehliadanie webu, ako sú synchronizácia v prehliadači { -brand-firefox }, { -product-mozilla-monitor }, { -product-firefox-relay } a { -product-mdn }.
 inactiveAccountFirstWarning-inactive-status = Všimli sme si, že ste sa neprihlásili 2 roky.
 # $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
 # This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
@@ -690,7 +690,7 @@ verifySecondaryCode-expiry-notice-2 = Jeho platnosť vyprší po 5 minútach. Po
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = Potvrďte svoj účet
-verifyShortCode-preview = Pomocou priloženého kódu potvrďte svoj { -product-mozilla-account }.
+verifyShortCode-preview = Pomocou priloženého kódu potvrďte svoj { -product-mozilla-account(capitalization: "lower") }.
 verifyShortCode-title-3 = Poďte na internet vďaka { -brand-mozilla(case: "dat") }
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = Potvrďte svoj účet a vyťažte zo svojej { -brand-mozilla(case: "gen") } čo najviac, začínajúc s:
