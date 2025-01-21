@@ -878,9 +878,9 @@ recovery-phone-remove-header = Dileu'r rhif ffôn adfer
 # Variables:
 #   $formattedFullPhoneNumber (String) - the user's full phone number
 settings-recovery-phone-remove-info = Bydd hyn yn dileu <strong>{ $formattedFullPhoneNumber }</strong> fel eich ffôn adfer.
-settings-recovery-phone-remove-recommend = Rydym yn argymell eich bod yn cadw'r dull hwn oherwydd ei fod yn haws nag arbed codau dilysu wrth gefn.
+settings-recovery-phone-remove-recommend = Rydym yn argymell eich bod yn cadw'r dull hwn oherwydd ei fod yn haws na chadw codau dilysu wrth gefn.
 # "Saved backup authentication codes" refers to previously saved backup authentication codes
-settings-recovery-phone-remove-recovery-methods = Os byddwch chi'n ei ddileu, gwnewch yn siŵr bod gennych chi'ch codau dilysu wrth gefn sydd wedi'u cadw o hyd. <linkExternal>Cymharu dulliau adfer</linkExternal>
+settings-recovery-phone-remove-recovery-methods = Os byddwch chi'n ei ddileu, gwnewch yn siŵr bod gennych chi o hyd y codau dilysu wrth gefn sydd wedi'u cadw. <linkExternal>Cymharu dulliau adfer</linkExternal>
 settings-recovery-phone-remove-button = Dileu rhif ffôn
 settings-recovery-phone-remove-cancel = Diddymu
 
@@ -1046,8 +1046,8 @@ tfa-row-backup-phone-add-cta = Ychwanegu
 # Button to remove a recovery phone from the user's account
 tfa-row-backup-phone-delete-button = Tynnu
 # Shown in tooltip on delete button or delete icon
-tfa-row-backup-phone-delete-title-v2 = Dileu ffôn adfer
-tfa-row-backup-phone-delete-restriction-v2 = Os ydych chi am gael gwared ar eich ffôn adfer, ychwanegwch godau dilysu wrth gefn neu analluoga dilysiad dau gam yn gyntaf er mwyn osgoi cael eich cloi allan o'ch cyfrif.
+tfa-row-backup-phone-delete-title-v2 = Dileu'r ffôn adfer
+tfa-row-backup-phone-delete-restriction-v2 = Os ydych chi am ddileu eich ffôn adfer, ychwanegwch godau dilysu wrth gefn neu analluogu dilysiad dau gam yn gyntaf er mwyn osgoi cael eich cloi allan o'ch cyfrif.
 # "this" refers to recovery phone
 tfa-row-backup-phone-description = Dyma'r dull adfer hawsaf os na allwch ddefnyddio'ch ap dilysu.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
