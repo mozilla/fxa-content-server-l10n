@@ -376,6 +376,8 @@ pay-with-heading-card-only = Paga câ carta
 # The following are not terms because they are not used directly in messages,
 # but rather looked up in code and passed into the message as variables.
 
+brand-name-google-play-2 = { -google-play } Store
+brand-name-apple-app-store-2 = { -app-store }
 
 ## Routes - Product - Subscription upgrade
 
@@ -385,12 +387,18 @@ pay-with-heading-card-only = Paga câ carta
 ## Variables:
 ##   $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 
+sub-update-new-plan-daily = { $productName } (ô jornu)
+sub-update-new-plan-weekly = { $productName } (â simana)
+sub-update-new-plan-monthly = { $productName } (ô misi)
+sub-update-new-plan-yearly = { $productName } (a l'annu)
 
 ##
 
 
 ## Routes - Subscriptions - Cancel
 
+sub-item-cancel-sub = Scancella l'abbunamentu
+sub-item-stay-sub = Arresta abbunatu
 
 ## $name (String) - The name of the subscribed product.
 ## $period (Date) - The last day of product access
