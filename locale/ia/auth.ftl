@@ -331,6 +331,7 @@ postAddLinkedAccount-subject-2 = Nove conto ligate a tu { -product-mozilla-accou
 postAddLinkedAccount-title-2 = Tu conto { $providerName } ha essite ligate a tu { -product-mozilla-account }
 postAddLinkedAccount-action = Gerer le conto
 postAddRecoveryPhone-subject = Telephono de recuperation addite
+postAddRecoveryPhone-preview = Conto protegite per authentication a duo passos
 postAddRecoveryPhone-title = Tu ha create un numero de telephono de recuperation
 # Variables:
 #  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
@@ -358,6 +359,7 @@ postChangePrimary-title = Nove e-mail primari
 postChangePrimary-description-2 = Tu ha correctemente cambiate tu adresse de e-mail primari a { $email }. Iste adresse es ora tu nomine de usator pro aperir session a tu { -product-mozilla-account }, e pro reciper notificationes de securitate e confirmationes de accesso.
 postChangePrimary-action = Gerer le conto
 postChangeRecoveryPhone-subject = Telephono de recuperation actualisate
+postChangeRecoveryPhone-preview = Conto protegite per authentication a duo passos
 postChangeRecoveryPhone-title = Tu cambiava tu telephono de recuperation
 postChangeRecoveryPhone-description =
     Tu ora ha un nove numero de telephono de recuperation.
@@ -383,6 +385,7 @@ postRemoveAccountRecovery-body-part1 = Tu clave de recuperation del conto es nec
 postRemoveAccountRecovery-body-part2 = Si tu jam non lo habeva, crea un nove clave de recuperation del conto in le parametro de tu conto, pro impedir de perder tu contrasignos, marcapaginas, chronologia de navigation, e altero ancora reservate.
 postRemoveAccountRecovery-action = Gerer le conto
 postRemoveRecoveryPhone-subject = Numero de telephono de recuperation removite
+postRemoveRecoveryPhone-preview = Conto protegite per authentication a duo passos
 postRemoveRecoveryPhone-title = Telephono de recuperation removite
 postRemoveRecoveryPhone-description = Tu numero de telephono de recuperation ha essite removite ab le parametros de tu authentication a duo passos. Tu ancora ha tu codices de authentication disponibile a usar.
 postRemoveRecoveryPhone-requested-device = Tu ha requirite illo ab:
