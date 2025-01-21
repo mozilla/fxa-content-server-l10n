@@ -241,9 +241,36 @@ price-details-tax-week =
             [one] { $priceAmount } + { $taxAmount } di tassi â simana
            *[other] { $priceAmount } + { $taxAmount } di tassi ogni { $intervalCount } simani
         }
+# $intervalCount (Number) - The interval between payments, in months.
+price-details-tax-month =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } di tassi ô misi
+       *[other] { $priceAmount } + { $taxAmount } di tassi ogni { $intervalCount } misi
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } di tassi ô misi
+           *[other] { $priceAmount } + { $taxAmount } di tassi ogni { $intervalCount } misi
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+price-details-tax-year =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } di tassi ogni annu
+       *[other] { $priceAmount } + { $taxAmount } di tassi ogni { $intervalCount } anni
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } di tassi ogni annu
+           *[other] { $priceAmount } + { $taxAmount } di tassi ogni { $intervalCount } anni
+        }
 
 ## Component - SubscriptionTitle
 
+subscription-create-title = Cunfijura u to abbunamentu
+subscription-success-title = Cunferma di l'abbunamentu
+subscription-processing-title = Staju cunfirmannu l'abbunamentu…
+subscription-error-title = Cci fu un prubblema mentri chi cunfirmava l'abbunamentu…
+subscription-noplanchange-title = Stu canciu ô chianu d'abbunamentu nun è suppurtatu
 subscription-iapsubscribed-title = Già abbunatu
 
 ## Component - TermsAndPrivacy
@@ -269,22 +296,79 @@ coupon-promo-code = Còdici prumuzziunali
 ## Subscription upgrade plan details - shared by multiple components, including plan details and payment form
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+# $intervalCount (Number) - The interval between payments, in days.
+plan-price-interval-day =
+    { $intervalCount ->
+        [one] { $amount } ô jornu
+       *[other] { $amount } ogni { $intervalCount } jorna
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } ô jornu
+           *[other] { $amount } ogni { $intervalCount } jorna
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+plan-price-interval-week =
+    { $intervalCount ->
+        [one] { $amount } â simana
+       *[other] { $amount } ogni { $intervalCount } simani
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } â simana
+           *[other] { $amount } ogni { $intervalCount } simani
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+plan-price-interval-month =
+    { $intervalCount ->
+        [one] { $amount } ô misi
+       *[other] { $amount } ogni { $intervalCount } misi
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } ô misi
+           *[other] { $amount } ogni { $intervalCount } misi
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+plan-price-interval-year =
+    { $intervalCount ->
+        [one] { $amount } ogni annu
+       *[other] { $amount } ogni { $intervalCount } anni
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } ogni annu
+           *[other] { $amount } ogni { $intervalCount } anni
+        }
 
 ## Error messages
 
+# App error dialog
+general-error-heading = Erruri ginirali di l'applicazzioni
+basic-error-message = Cci fu un prubblema. Pi favuri torna a prova cchiù tardu.
+payment-error-1 = Mmh. Cci fu un prubblema cu l'auturizzazzioni dû to pagamentu. Pi favuri torna a prova o cuntatta cu' ti rilassau a carta.
+payment-error-2 = Mmh. Cci fu un prubblema cu l'auturizzazzioni dû to pagamentu. Pi favuri cuntatta cu' ti rilassau a carta.
+expired-card-error = Parissi chi a to carta scadìu. Prova a usari n'autra carta.
+# $mobileAppStore (String) - "Google Play Store" or "App Store", localized when the translation is available.
+iap-already-subscribed = Già facisti l'abbunamentu pi tràmiti di { $mobileAppStore }.
 
 ## Hooks - coupons
 
 
 ## Routes - Checkout - New user
 
+new-user-step-1-2 = 1. Crìa un { -product-mozilla-account }
+new-user-card-title = Metti i nfurmazzioni dâ to carta
+new-user-submit = Abbònati ora
 
 ## Routes - Product and Subscriptions
 
+sub-update-payment-title = Nfurmazzioni di pagamentu
 
 ## Routes - Product/AcceptedCards
 ## Used in both Routes - Checkout and Product/SubscriptionCreate
 
+pay-with-heading-card-only = Paga câ carta
 
 ## Routes - Product - IapRoadblock
 
@@ -342,9 +426,15 @@ coupon-promo-code = Còdici prumuzziunali
 ## Routes - Subscriptions - Reactivate
 ## $name (String) - The name of the subscribed product.
 
+reactivate-confirm-button = Abbònati arrè
 
 ## $date (Date) - Last day of product access
 
+reactivate-success-copy = Grazzi! Allistemu.
+reactivate-success-button = Chiuji
 
 ## Routes - Subscriptions - Subscription iap item
 
+sub-iap-item-google-purchase-2 = { -brand-google }: accàttiti di l'app
+sub-iap-item-apple-purchase-2 = { -brand-apple }: accàttiti di l'app
+sub-iap-item-manage-button = Manija

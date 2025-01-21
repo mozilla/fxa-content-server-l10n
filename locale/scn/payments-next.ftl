@@ -16,7 +16,7 @@ continue-signin-with-apple-button = Cuntinua cu { -brand-apple }
 next-payment-method-header = Scarta u to mètudu di pagamentu
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step-next = 2. { next-payment-method-header }
-next-payment-method-first-approve = Pi prima cosa, hâ appruvari a to scrizzioni
+next-payment-method-first-approve = Pi prima cosa, hâ appruvari u to abbunamentu
 next-payment-confirmation-thanks-heading-account-exists = Grazzi! Ora cuntrolla a to posta elittrònica.
 # $email (String) - The user's email.
 payment-confirmation-thanks-subheading-account-exists-2 = Hâ ricìviri na littra ô nnirizzu { $email } cu l'istruzzioni ncapu ô to abbunamentu, e chî to minutagghi di pagamentu.
