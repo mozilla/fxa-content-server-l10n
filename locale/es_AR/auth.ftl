@@ -50,9 +50,9 @@ subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Privacidad
 subplat-privacy-website-plaintext = { subplat-privacy }:
 account-deletion-info-block-communications = Si se borra tu cuenta, seguirás recibiendo correos electrónicos de Mozilla Corporation y Mozilla Foundation, a menos que <a data-l10n-name="unsubscribeLink">pidás cancelar la suscripción</a>.
-account-deletion-info-block-support = Si tenés alguna pregunta o necesitás asistencia, no dudés en comunicarse con nuestro <a data-l10n-name="supportLink">equipo de soporte</a>.
-account-deletion-info-block-communications-plaintext = Si se elimina su cuenta, seguirá recibiendo correos electrónicos de Mozilla Corporation y Mozilla Foundation, a menos que solicite cancelar la suscripción:
-account-deletion-info-block-support-plaintext = Si tiene alguna pregunta o necesita ayuda, no dude en ponerse en contacto con nuestro equipo de soporte:
+account-deletion-info-block-support = Si tenés alguna pregunta o necesitás asistencia, no dudés en comunicarte con nuestro <a data-l10n-name="supportLink">equipo de soporte</a>.
+account-deletion-info-block-communications-plaintext = Si se borra tu cuenta, seguirás recibiendo correos electrónicos de Mozilla Corporation y Mozilla Foundation, a menos que pidás cancelar la suscripción.
+account-deletion-info-block-support-plaintext = Si tenés alguna pregunta o necesitás asistencia, no dudés en comunicarte con nuestro equipo de soporte:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-android-badge = <img data-l10n-name="google-play-badge" alt="Descarga { $productName } en { -google-play }">
@@ -80,7 +80,7 @@ automated-email-support = Para obtener más información, visitá <a data-l10n-n
 automated-email-change-plaintext-2 = Si no hiciste esta acción, cambiá tu contraseña de inmediato:
 #  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-support-plaintext = Para más información, visitá Soporte de { -brand-mozilla }:
-automated-email-inactive-account = Este es un correo electrónico automático. Lo recibiste porque tienes una { -product-mozilla-account } y han pasado 2 años desde la última vez que iniciaste sesión.
+automated-email-inactive-account = Este es un correo electrónico automático. Lo recibiste porque tenés una { -product-mozilla-account } y han pasado 2 años desde la última vez que iniciaste sesión.
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } Para más información, visitá <a data-l10n-name="supportLink">Soporte de { -brand-mozilla }</a>.
 automated-email-no-action-plaintext = Este es un correo electrónico automatizado. Si lo recibiste por error, no necesitás hacer nada.
@@ -129,7 +129,7 @@ automated-email-reset =
     Para más información, visitá <a data-l10n-name="supportLink">la ayuda de { -brand-mozilla }</a>.
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
-automated-email-reset-plaintext-v2 = Si no autorizó esta acción, restablezca su contraseña ahora en { $resetLink }
+automated-email-reset-plaintext-v2 = Si no la autorizaste está acción, restablecé tu contraseña ahora mismo en { $resetLink }
 brand-banner-message = ¿Sabías que cambiamos nuestro nombre de { -product-firefox-accounts } a { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Conocer más</a>
 cancellationSurvey = Ayudanos a mejorar nuestros servicios realizando esta <a data-l10n-name="cancellationSurveyUrl">breve encuesta</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
@@ -251,28 +251,28 @@ fraudulentAccountDeletion-contact = Si tenés alguna pregunta, contactá a nuest
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Si tenés alguna pregunta, contactá a nuestro equipo de soporte: { $mozillaSupportUrl }
 inactiveAccountFinalWarning-subject = Última oportunidad de mantener tu { -product-mozilla-account }
-inactiveAccountFinalWarning-title = Se eliminarán tu cuenta de { -brand-mozilla }
-inactiveAccountFinalWarning-preview = Inicia sesión para mantener tu cuenta
+inactiveAccountFinalWarning-title = Tu cuenta de { -brand-mozilla } y sus datos se borrarán
+inactiveAccountFinalWarning-preview = Iniciá sesión para mantener tu cuenta
 inactiveAccountFinalWarning-account-description = Tu { -product-mozilla-account } se usa para acceder a productos gratuitos de privacidad y navegación como { -brand-firefox } sync, { -product-mozilla-monitor }, { -product-firefox-relay } y { -product-mdn }.
 # $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
 # This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
-inactiveAccountFinalWarning-impact = El <strong> { $deletionDate }</strong>, tu cuenta y tus datos personales se eliminarán permanentemente a menos que inicies sesión.
-inactiveAccountFinalWarning-action = Inicia sesión para mantener tu cuenta
+inactiveAccountFinalWarning-impact = El <strong>{ $deletionDate }</strong>, tu cuenta y tus datos personales se eliminarán permanentemente a menos que iniciés sesión.
+inactiveAccountFinalWarning-action = Iniciá sesión para mantener tu cuenta
 # followed by link to sign in
-inactiveAccountFinalWarning-action-plaintext = Inicia sesión para mantener tu cuenta:
-inactiveAccountFirstWarning-subject = No pierdas tu cuenta
-inactiveAccountFirstWarning-title = ¿Quiere conservar su cuenta y sus datos de { -brand-mozilla }?
+inactiveAccountFinalWarning-action-plaintext = Iniciá sesión para mantener tu cuenta:
+inactiveAccountFirstWarning-subject = No perdás tu cuenta
+inactiveAccountFirstWarning-title = ¿Querés mantener tu cuenta de { -brand-mozilla } y sus datos?
 inactiveAccountFirstWarning-account-description-v2 = Tu { -product-mozilla-account } se usa para acceder a productos gratuitos de privacidad y navegación como { -brand-firefox } sync, { -product-mozilla-monitor }, { -product-firefox-relay } y { -product-mdn }.
 inactiveAccountFirstWarning-inactive-status = Hemos detectado que no has iniciado sesión en 2 años.
 # $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
 # This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
 inactiveAccountFirstWarning-impact = Tu cuenta y tus datos personales se eliminarán permanentemente el{ $deletionDate }</strong>porque no estuviste activo.
-inactiveAccountFirstWarning-action = Inicia sesión para mantener tu cuenta
-inactiveAccountFirstWarning-preview = Inicia sesión para mantener tu cuenta
+inactiveAccountFirstWarning-action = Iniciá sesión para mantener tu cuenta
+inactiveAccountFirstWarning-preview = Iniciá sesión para mantener tu cuenta
 # followed by link to sign in
-inactiveAccountFirstWarning-action-plaintext = Inicia sesión para mantener tu cuenta:
+inactiveAccountFirstWarning-action-plaintext = Iniciá sesión para mantener tu cuenta:
 inactiveAccountSecondWarning-subject = Acción requerida: eliminación de la cuenta en 7 días
-inactiveAccountSecondWarning-title = Tu cuenta de { -brand-mozilla } y tus datos se eliminarán en 7 días
+inactiveAccountSecondWarning-title = Tu cuenta de { -brand-mozilla } y sus datos se borrarán en 7 días
 inactiveAccountSecondWarning-account-description-v2 = Tu { -product-mozilla-account } se usa para acceder a productos gratuitos de privacidad y navegación como { -brand-firefox } sync, { -product-mozilla-monitor }, { -product-firefox-relay } y { -product-mdn }.
 # $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
 inactiveAccountSecondWarning-impact = Tu cuenta y tus datos personales se eliminarán permanentemente el <strong> { $deletionDate }</strong> porque no has estado activo.
