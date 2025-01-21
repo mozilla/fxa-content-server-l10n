@@ -26,7 +26,7 @@ subplat-explainer-specific-2 = Stai ricivennu sta littra picchì u nnirizzu { $e
 # Variables:
 #  $email (String) - A user's primary email address
 subplat-explainer-reminder-form-2 = Stai ricivennu sta littra picchì u nnirizzu { $email } è assuciatu c'un { -product-mozilla-account }.
-subplat-explainer-multiple-2 = Stai ricivennu sta littra picchì u nnirizzu { $email } è assuciatu c'un { -product-mozilla-account } e ti scrivisti pi cchiù assai prudutti.
+subplat-explainer-multiple-2 = Stai ricivennu sta littra picchì u nnirizzu { $email } è assuciatu c'un { -product-mozilla-account } e t'abbunasti a cchiù assai prudutti.
 subplat-explainer-was-deleted-2 = Stai ricivennu sta littra picchì u nnirizzu { $email } fu assuciatu c'un { -product-mozilla-account }.
 subplat-manage-account-2 = Manija i mpustazzioni dû to { -product-mozilla-account } nnâ <a data-l10n-name="subplat-account-page">pàggina dû cuntu</a>.
 # Variables:

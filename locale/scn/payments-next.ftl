@@ -2,7 +2,7 @@
 ## Common strings used in multiple checkout pages
 
 next-payment-processing-message = Pi favuri aspetta mentri chi prucissamu u pagamentu…
-next-payment-error-manage-subscription-button = Manija a me scrizzioni
+next-payment-error-manage-subscription-button = Manija u me abbunamentu
 next-iap-upgrade-contact-support = Po' ancora aviri stu pruduttu — pi favuri cuntatta u supportu p'aviri ajutu.
 next-payment-error-retry-button = Prova arrè
 next-basic-error-message = Cci fu un prubblema. Pi favuri torna a prova cchiù tardu.
@@ -19,7 +19,7 @@ payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = Pi prima cosa, hâ appruvari a to scrizzioni
 next-payment-confirmation-thanks-heading-account-exists = Grazzi! Ora cuntrolla a to posta elittrònica.
 # $email (String) - The user's email.
-payment-confirmation-thanks-subheading-account-exists-2 = Hâ ricìviri na littra ô nnirizzu { $email } cu l'istruzzioni ncapu â to scrizzioni, e chî to minutagghi di pagamentu.
+payment-confirmation-thanks-subheading-account-exists-2 = Hâ ricìviri na littra ô nnirizzu { $email } cu l'istruzzioni ncapu ô to abbunamentu, e chî to minutagghi di pagamentu.
 next-payment-confirmation-order-heading = Minutagghi di l'ùrdini
 # $invoiceNumber (String) - Invoice number of the successful payment
 next-payment-confirmation-invoice-number = Fattura #{ $invoiceNumber }
@@ -42,7 +42,7 @@ next-payment-confirm-checkbox-error = Hâ cumplitari stu passaggiu prima di jiri
 
 ## Checkout Form
 
-next-new-user-submit = Scrìviti ora
+next-new-user-submit = Abbònati ora
 next-payment-validate-name-error = Metti u to nomu cumpletu
 next-pay-with-heading-paypal = Paga cu { -brand-paypal }
 # Label for the Full Name input
