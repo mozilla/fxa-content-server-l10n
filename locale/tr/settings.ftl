@@ -644,6 +644,8 @@ flow-setup-phone-confirm-code-success-message-v2 = Kurtarma telefonu eklendi
 ## FlowSetupPhoneConfirmCode
 
 flow-setup-phone-submit-number-heading = Telefon numaranızı doğrulayın
+# The code is a 6-digit code send by text message/SMS
+flow-setup-phone-verify-number-instruction = { -brand-mozilla }’dan numaranızı doğrulamak için bir kod içeren bir SMS alacaksınız. Bu kodu kimseyle paylaşmayın.
 # The initial rollout of the recovery phone is only available to users with US and Canada mobile phone numbers.
 # Voice over Internet Protocol (VoIP), is a technology that uses a broadband Internet connection instead of a regular (or analog) phone line to make calls.
 # Phone mask services (for example Relay) provide a temporary virtual number to avoid providing a real phone number.
@@ -875,6 +877,7 @@ recovery-phone-remove-header = Kurtarma telefon numarasını kaldır
 # Variables:
 #   $formattedFullPhoneNumber (String) - the user's full phone number
 settings-recovery-phone-remove-info = Bu işlem <strong>{ $formattedFullPhoneNumber }</strong> numaralı kurtarma telefonunuzu kaldıracaktır.
+settings-recovery-phone-remove-recommend = Yedek kimlik doğrulama kodlarını kaydetmekten daha kolay olduğu için bu yöntemi kullanmanızı öneriyoruz.
 settings-recovery-phone-remove-button = Telefon numarasını kaldır
 settings-recovery-phone-remove-cancel = Vazgeç
 
@@ -1037,6 +1040,7 @@ tfa-row-backup-phone-add-cta = Ekle
 tfa-row-backup-phone-delete-button = Kaldır
 # Shown in tooltip on delete button or delete icon
 tfa-row-backup-phone-delete-title-v2 = Kurtarma telefonunu kaldır
+tfa-row-backup-phone-delete-restriction-v2 = Kurtarma telefonunuzu kaldırmak istiyorsanız hesabınızın kilitlenmesini önlemek için öncelikle yedek kimlik doğrulama kodlarını ekleyin veya iki aşamalı kimlik doğrulamayı devre dışı bırakın.
 # "this" refers to recovery phone
 tfa-row-backup-phone-description = Kimlik doğrulama uygulamanızı kullanamıyorsanız bu daha kolay bir kurtarma yöntemidir.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier

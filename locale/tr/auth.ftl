@@ -247,18 +247,22 @@ fraudulentAccountDeletion-contact = Herhangi bir sorunuz varsa lütfen <a data-l
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Sorularınız varsa lütfen destek ekibimizle iletişime geçin: { $mozillaSupportUrl }
+inactiveAccountFinalWarning-subject = { -product-mozilla-account }nızı elinizde tutmak için son şansınız
 inactiveAccountFinalWarning-title = { -brand-mozilla } hesabınız ve verileriniz silinecek
 inactiveAccountFinalWarning-preview = Hesabınızı korumak için giriş yapın
+inactiveAccountFinalWarning-account-description = { -product-mozilla-account }nız { -brand-firefox }’u eşitleme, { -product-mozilla-monitor }, { -product-firefox-relay } ve { -product-mdn } gibi ücretsiz gizlilik ve gezinti ürünlerine erişmek için kullanılır.
 # $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
 # This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
 inactiveAccountFinalWarning-impact = <strong>{ $deletionDate }</strong> tarihine kadar giriş yapmazsanız hesabınız ve kişisel verileriniz kalıcı olarak silinecektir.
 inactiveAccountFirstWarning-subject = Hesabınızı kaybetmeyin
+inactiveAccountFirstWarning-account-description-v2 = { -product-mozilla-account }nız { -brand-firefox }’u eşitleme, { -product-mozilla-monitor }, { -product-firefox-relay } ve { -product-mdn } gibi ücretsiz gizlilik ve gezinti ürünlerine erişmek için kullanılır.
 inactiveAccountFirstWarning-inactive-status = İki yıldır giriş yapmadığınızı fark ettik.
 # $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
 # This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
 inactiveAccountFirstWarning-impact = Aktif olmadığınız için <strong>{ $deletionDate }</strong> tarihinde hesabınız ve kişisel verileriniz kalıcı olarak silinecektir.
 inactiveAccountSecondWarning-subject = İşlem gerekiyor: Hesabınız 7 gün sonra silinecek
 inactiveAccountSecondWarning-title = 7 gün sonra { -brand-mozilla } hesabınız ve verileriniz silinecektir
+inactiveAccountSecondWarning-account-description-v2 = { -product-mozilla-account }nız { -brand-firefox }’u eşitleme, { -product-mozilla-monitor }, { -product-firefox-relay } ve { -product-mdn } gibi ücretsiz gizlilik ve gezinti ürünlerine erişmek için kullanılır.
 # $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
 inactiveAccountSecondWarning-impact = Aktif olmadığınız için <strong>{ $deletionDate }</strong> tarihinde hesabınız ve kişisel verileriniz kalıcı olarak silinecektir.
 inactiveAccountSecondWarning-action = Hesabınızı korumak için giriş yapın
@@ -410,11 +414,13 @@ postRemoveTwoStepAuthentication-from-device = Bu cihazdan devre dışı bırakt�
 postRemoveTwoStepAuthentication-action = Hesabı yönet
 postRemoveTwoStepAuthentication-not-required-2 = Artık giriş yaparken kimlik doğrulama uygulamanızın güvenlik kodlarına ihtiyacınız yok.
 postSigninRecoveryCode-subject = Giriş yapmak için kullanılan yedek kimlik doğrulama kodu
+postSigninRecoveryCode-preview = Hesap işlemini onaylayın
 postSigninRecoveryCode-title = Yedek kimlik doğrulama kodunuzla giriş yapıldı
 postSigninRecoveryCode-description = Bunu siz yapmadıysanız hesabınızın güvenliğini sağlamak için parolanızı hemen değiştirmelisiniz.
 postSigninRecoveryCode-device = Bu cihazdan giriş yaptınız:
 postSigninRecoveryCode-action = Hesabı yönet
 postSigninRecoveryPhone-subject = Giriş yapmak için kullanılan kurtarma telefonu
+postSigninRecoveryPhone-preview = Hesap işlemini onaylayın
 postSigninRecoveryPhone-title = Kurtarma telefonunuzla giriş yapıldı
 postSigninRecoveryPhone-description = Bunu siz yapmadıysanız hesabınızın güvenliğini sağlamak için parolanızı hemen değiştirmelisiniz.
 postSigninRecoveryPhone-device = Giriş yaptığınız cihaz:
@@ -671,6 +677,7 @@ verifySecondaryCode-expiry-notice-2 = Kodun geçerlilik süresi 5 dakikadır. Ad
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = Hesabınızı onaylayın
+verifyShortCode-preview = { -product-mozilla-account }nızı onaylamak için bu kodu kullanın.
 verifyShortCode-title-3 = İnternete { -brand-mozilla } ile açılın
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = Hesabınızı doğrulayın, giriş yaptığınız her yerde { -brand-mozilla }’dan daha iyi şekilde yararlanın. Kullandığınız cihaz:
