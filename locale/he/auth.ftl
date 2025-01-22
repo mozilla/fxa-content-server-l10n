@@ -248,6 +248,7 @@ fraudulentAccountDeletion-contact-plaintext = אם יש לך שאלות כלשה
 inactiveAccountFinalWarning-subject = הזדמנות אחרונה לשמור על { -product-mozilla-account(case: "the") } שלך
 inactiveAccountFinalWarning-title = חשבון ה־{ -brand-mozilla } שלך והנתונים שלו יימחקו
 inactiveAccountFinalWarning-preview = יש להיכנס כדי לשמור על החשבון שלך
+inactiveAccountFinalWarning-account-description = { -product-mozilla-account(case: "the") } שלך משמש לקבלת גישה למוצרי פרטיות וגלישה חינמיים כמו סנכרון ב־{ -brand-firefox }, ‏{ -product-mozilla-monitor }, { -product-firefox-relay } ו־{ -product-mdn }.
 # $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
 # This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
 inactiveAccountFinalWarning-impact = בתאריך <strong>{ $deletionDate }</strong>, החשבון והנתונים האישיים שלך יימחקו לצמיתות אלא אם תבוצע כניסה לחשבון.
@@ -256,6 +257,7 @@ inactiveAccountFinalWarning-action = יש להיכנס כדי לשמור על ה
 inactiveAccountFinalWarning-action-plaintext = יש להיכנס כדי לשמור על החשבון שלך:
 inactiveAccountFirstWarning-subject = אל תאבדו את החשבון שלכם
 inactiveAccountFirstWarning-title = האם ברצונך לשמור על חשבון ה־{ -brand-mozilla } שלך והנתונים שלו?
+inactiveAccountFirstWarning-account-description-v2 = { -product-mozilla-account(case: "the") } שלך משמש לקבלת גישה למוצרי פרטיות וגלישה חינמיים כמו סנכרון ב־{ -brand-firefox }, ‏{ -product-mozilla-monitor }, { -product-firefox-relay } ו־{ -product-mdn }.
 inactiveAccountFirstWarning-inactive-status = שמנו לב שלא התחברת כבר שנתיים.
 # $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
 # This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
@@ -266,6 +268,7 @@ inactiveAccountFirstWarning-preview = יש להיכנס כדי לשמור על �
 inactiveAccountFirstWarning-action-plaintext = יש להיכנס כדי לשמור על החשבון שלך:
 inactiveAccountSecondWarning-subject = נדרשת פעולה: מחיקת החשבון בעוד 7 ימים
 inactiveAccountSecondWarning-title = חשבון ה־{ -brand-mozilla } שלך והנתונים שלו יימחקו בעוד 7 ימים
+inactiveAccountSecondWarning-account-description-v2 = { -product-mozilla-account(case: "the") } שלך משמש לקבלת גישה למוצרי פרטיות וגלישה חינמיים כמו סנכרון ב־{ -brand-firefox }, ‏{ -product-mozilla-monitor }, { -product-firefox-relay } ו־{ -product-mdn }.
 # $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
 inactiveAccountSecondWarning-impact = החשבון והנתונים האישיים שלך יימחקו לצמיתות בתאריך <strong>{ $deletionDate }</strong> מכיוון שלא הייתה פעילות בחשבון.
 inactiveAccountSecondWarning-action = יש להיכנס כדי לשמור על החשבון שלך
@@ -396,6 +399,7 @@ postSigninRecoveryCode-description = אם לא ביצעת פעולה זו, על�
 postSigninRecoveryCode-device = התחברת מ:
 postSigninRecoveryCode-action = ניהול חשבון
 postSigninRecoveryPhone-subject = נעשה שימוש בטלפון לשחזור להתחברות
+postSigninRecoveryPhone-preview = אימות פעילות בחשבון
 postSigninRecoveryPhone-title = נעשה שימוש בטלפון השחזור שלך להתחברות
 postSigninRecoveryPhone-description = אם לא ביצעת פעולה זו, עליך לשנות את הססמה שלך באופן מיידי כדי לשמור על בטיחות החשבון שלך.
 postSigninRecoveryPhone-device = התחברת מ:
