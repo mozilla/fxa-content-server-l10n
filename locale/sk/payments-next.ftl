@@ -10,9 +10,16 @@ next-basic-error-message = Niečo sa pokazilo. Skúste to znova neskôr.
 ## Page
 
 checkout-signin-or-create = 1. Prihláste sa alebo si vytvorte { -product-mozilla-account(capitalization: "lower") }
+checkout-create-account = Vytvoriť { -product-mozilla-account(case: "acc", capitalization: "lower") }
+continue-signin-with-google-button = Pokračovať pomocou { -brand-google }
+continue-signin-with-apple-button = Pokračovať pomocou { -brand-apple }
 next-payment-method-header = Vyberte si spôsob platby
+# This message is used to indicate the second step in a multi step process.
+payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = Najprv musíte schváliť svoje predplatné
 next-payment-confirmation-thanks-heading-account-exists = Ďakujeme, teraz skontrolujte svoj e‑mail!
+# $email (String) - The user's email.
+payment-confirmation-thanks-subheading-account-exists-2 = Na adresu { $email } dostanete e‑mail s pokynmi pre vaše predplatné, ako aj s podrobnosťami o platbe.
 next-payment-confirmation-order-heading = Podrobnosti o objednávke
 # $invoiceNumber (String) - Invoice number of the successful payment
 next-payment-confirmation-invoice-number = Faktúra č. { $invoiceNumber }
@@ -26,6 +33,7 @@ next-payment-confirmation-amount = { $amount } za { $interval }
 next-payment-confirmation-cc-card-ending-in = Karta končiaca číslicami { $last4 }
 next-payment-confirmation-download-button = Pokračovať na stiahnutie
 checkout-error-boundary-retry-button = Skúsiť znova
+checkout-error-boundary-basic-error-message = Niečo sa pokazilo. Skúste to znova alebo <contactSupportLink>kontaktujte podporu.</contactSupportLink>
 
 ## Component - Payment Consent Checkbox
 
