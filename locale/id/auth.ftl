@@ -12,7 +12,7 @@ fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Sy
 body-devices-image = <img data-l10n-name="devices-image" alt="Perangkat">
 fxa-privacy-url = Kebijakan Privasi { -brand-mozilla }
 moz-accounts-privacy-url-2 = { -product-mozilla-accounts(capitalization: "uppercase") } Pemberitahuan Privasi
-moz-accounts-terms-url = { -product-mozilla-accounts(capitalization: "uppercase'") } Syarat Layanan
+moz-accounts-terms-url = { -product-mozilla-accounts(capitalization: "uppercase") } Syarat Layanan
 subplat-header-mozilla-logo-2 = <img data-l10n-name="subplat-mozilla-logo" alt="logo { -brand-mozilla }">
 subplat-footer-mozilla-logo-2 = <img data-l10n-name="mozilla-logo-footer" alt="logo { -brand-mozilla }">
 subplat-automated-email = Email ini bersifat otomatis; jika menurut Anda email ini salah alamat, tidak ada tindakan yang harus dilakukan.
