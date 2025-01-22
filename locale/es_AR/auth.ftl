@@ -266,7 +266,7 @@ inactiveAccountFirstWarning-account-description-v2 = Tu { -product-mozilla-accou
 inactiveAccountFirstWarning-inactive-status = Hemos detectado que no has iniciado sesión en 2 años.
 # $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
 # This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
-inactiveAccountFirstWarning-impact = Tu cuenta y tus datos personales se eliminarán permanentemente el{ $deletionDate }</strong>porque no estuviste activo.
+inactiveAccountFirstWarning-impact = Tu cuenta y tus datos personales se eliminarán permanentemente <strong>el { $deletionDate }</strong>porque no estuviste activo.
 inactiveAccountFirstWarning-action = Iniciá sesión para mantener tu cuenta
 inactiveAccountFirstWarning-preview = Iniciá sesión para mantener tu cuenta
 # followed by link to sign in

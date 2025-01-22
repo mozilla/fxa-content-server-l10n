@@ -50,7 +50,7 @@ subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = פרטיות
 subplat-privacy-website-plaintext = { subplat-privacy }:
 account-deletion-info-block-communications = אם החשבון שלך נמחק, עדיין יתקבלו הודעות דוא״ל מ־Mozilla Corporation ומ־Mozilla Foundation, אלא אם <a data-l10n-name="unsubscribeLink">תבקש לבטל את הרישום כמינוי</a>.
-account-deletion-info-block-support = אם יש לך שאלות כלשהן או שיש לך צורך בסיוע, נא ליצור קשר עם <a data-l10n-name="mozillaSupportUrl">צוות התמיכה</a> שלנו.
+account-deletion-info-block-support = אם יש לך שאלות כלשהן או שיש לך צורך בסיוע, נא ליצור קשר עם <a data-l10n-name="supportLink">צוות התמיכה</a> שלנו.
 account-deletion-info-block-communications-plaintext = אם החשבון שלך נמחק, עדיין יתקבלו הודעות דוא״ל מ־Mozilla Corporation ומ־Mozilla Foundation, אלא אם תבקש לבטל את הרישום כמינוי:
 account-deletion-info-block-support-plaintext = אם יש לך שאלות כלשהן או שיש לך צורך בסיוע, נא ליצור קשר עם צוות התמיכה שלנו:
 # Variables:
