@@ -50,7 +50,7 @@ subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Preifatrwydd
 subplat-privacy-website-plaintext = { subplat-privacy }:
 account-deletion-info-block-communications = Os caiff eich cyfrif ei ddileu, byddwch yn dal i dderbyn e-byst gan y Mozilla Corporation a'r Mozilla Foundation, oni bai eich bod <a data-l10n-name="unsubscribeLink">yn gofyn i ddad-danysgrifio</a>.
-account-deletion-info-block-support = Os oes gennych unrhyw gwestiynau, teimlwch yn rydd i gysyllu â'n <a data-l10n-name="mozillaSupportUrl">tîm cymorth</a>.
+account-deletion-info-block-support = Os oes gennych unrhyw gwestiynau, teimlwch yn rydd i gysyllu â'n <a data-l10n-name="supportLink">tîm cymorth</a>.
 account-deletion-info-block-communications-plaintext = Os caiff eich cyfrif ei ddileu, byddwch yn dal i dderbyn e-byst gan y Mozilla Corporation a'r Mozilla Foundation, oni bai eich bod yn gofyn i gael dad-danysgrifio:
 account-deletion-info-block-support-plaintext = Os oes gennych unrhyw gwestiynau neu os oes angen cymorth arnoch, mae croeso i chi gysylltu â'n tîm cymorth:
 # Variables:
