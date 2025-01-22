@@ -80,6 +80,7 @@ automated-email-support = Besykje foar mear ynfo <a data-l10n-name="supportLink"
 automated-email-change-plaintext-2 = As jo dizze aksje net útfierd hawwe, wizigje dan daliks jo wachtwurd:
 #  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-support-plaintext = Besykje foar mear ynfo { -brand-mozilla } Support:
+automated-email-inactive-account = Dit is in automatisearre e-mailberjocht. Jo ûntfange dit omdat jo in { -product-mozilla-account } hawwe en it 2 jier lyn is sûnt jo lêste oanmelding.
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } Gean foar mear ynformaasje nei <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
 automated-email-no-action-plaintext = Dit is in automatisearre berjocht. As jo it mei fersin ûntfongen hawwe, hoege jo neat te dwaan.
@@ -126,6 +127,9 @@ automatedEmailRecoveryKey-more-info-plaintext = Besykje foar mear ynfo { -brand-
 automated-email-reset =
     Dit is in automatisearre e-mailberjocht; as jo dizze aksje net autorisearre hawwe, <a data-l10n-name="resetLink">inisjalisearje dan jo wachtwurd opnij</a>.
     Gean foar mear ynformaasje nei <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
+# Variables:
+#  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
+automated-email-reset-plaintext-v2 = As jo dizze aksje net autorisearre hawwe, stel dan no jo wachtwurd opnij yn op { $resetLink }
 brand-banner-message = Wisten jo dat wy ús namme wizige hawwe fan { -product-firefox-accounts } nei { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Mear ynfo</a>
 cancellationSurvey = Help ús de tsjinstferliening te ferbetterjen troch dizze <a data-l10n-name="cancellationSurveyUrl">koarte enkête</a> yn te foljen.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
@@ -246,16 +250,32 @@ fraudulentAccountDeletion-contact = As jo fragen hawwe, nim dan kontakt op mei �
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = As jo fragen hawwe, nim dan kontakt op mei ús stipeteam: { $mozillaSupportUrl }
+inactiveAccountFinalWarning-subject = Lêste kâns om jo { -product-mozilla-account } te behâlden
+inactiveAccountFinalWarning-title = Jo { -brand-mozilla }-account en -gegevens sille wiske wurde
 inactiveAccountFinalWarning-preview = Meld jo oan om jo account te behâlden
+inactiveAccountFinalWarning-account-description = Jo { -product-mozilla-account } wurdt brûkt om tagong te krijen ta fergeze privacy- en navigaasjeprodukten lykas { -brand-firefox } syngronisaasje, { -product-mozilla-monitor }, { -product-firefox-relay }, en { -product-mdn }.
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+# This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
+inactiveAccountFinalWarning-impact = Op <strong>{ $deletionDate }</strong> wurde jo account en jo persoanlike gegevens permanint wiske, útsein as jo jo oanmelde.
 inactiveAccountFinalWarning-action = Meld jo oan om jo account te behâlden
 # followed by link to sign in
 inactiveAccountFinalWarning-action-plaintext = Meld jo oan om jo account te behâlden:
 inactiveAccountFirstWarning-subject = Ferlies jo account net
 inactiveAccountFirstWarning-title = Wolle jo jo { -brand-mozilla }-account en -gegevens behâlde?
+inactiveAccountFirstWarning-account-description-v2 = Jo { -product-mozilla-account } wurdt brûkt om tagong te krijen ta fergeze privacy- en navigaasjeprodukten lykas { -brand-firefox } syngronisaasje, { -product-mozilla-monitor }, { -product-firefox-relay }, en { -product-mdn }.
+inactiveAccountFirstWarning-inactive-status = Wy hawwe opmurken dat jo jo al 2 jier net oanmeld hawwe.
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+# This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
+inactiveAccountFirstWarning-impact = Jo account en jo persoanlike gegevens wurde permanint wiske op <strong>{ $deletionDate }</strong> omdat jo net aktyf west binne.
 inactiveAccountFirstWarning-action = Meld jo oan om jo account te behâlden
 inactiveAccountFirstWarning-preview = Meld jo oan om jo account te behâlden
 # followed by link to sign in
 inactiveAccountFirstWarning-action-plaintext = Meld jo oan om jo account te behâlden:
+inactiveAccountSecondWarning-subject = Aksje fereaske: accountferwidering oer 7 dagen
+inactiveAccountSecondWarning-title = Jo { -brand-mozilla }-account en -gegevens wurde oer 7 dagen fuortsmiten
+inactiveAccountSecondWarning-account-description-v2 = Jo { -product-mozilla-account } wurdt brûkt om tagong te krijen ta fergeze privacy- en navigaasjeprodukten lykas { -brand-firefox } syngronisaasje, { -product-mozilla-monitor }, { -product-firefox-relay }, en { -product-mdn }.
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+inactiveAccountSecondWarning-impact = Jo account en jo persoanlike gegevens wurde permanint wiske op <strong>{ $deletionDate }</strong> omdat jo net aktyf west binne.
 inactiveAccountSecondWarning-action = Meld jo oan om jo account te behâlden
 inactiveAccountSecondWarning-preview = Meld jo oan om jo account te behâlden
 # followed by link to sign in
@@ -405,7 +425,16 @@ postRemoveTwoStepAuthentication-from-device = Jo hawwe it útskeakele fanôf:
 postRemoveTwoStepAuthentication-action = Account beheare
 postRemoveTwoStepAuthentication-not-required-2 = Jo hawwe gjin befeiligenskoaden fan jo autentikaasje-app mear nedich as jo jo oanmelde.
 postSigninRecoveryCode-subject = Reserve-autentikaasjekoade brûkt om oan te melden
+postSigninRecoveryCode-preview = Accountaktiviteit befêstigje
+postSigninRecoveryCode-title = Jo reserve-kopyautentikaasjekoade is brûkt om oan te melden
+postSigninRecoveryCode-description = As jo dit net dien hawwe, moatte jo jo wachtwurd fuortendaliks wizigje om jo account feilich te hâlden.
+postSigninRecoveryCode-device = Jo binne oanmeld fanôf:
 postSigninRecoveryCode-action = Account beheare
+postSigninRecoveryPhone-subject = Wersteltelefoannûmer brûkt foar oanmelding
+postSigninRecoveryPhone-preview = Accountaktiviteit befêstigje
+postSigninRecoveryPhone-title = Jo wersteltelefoannûmer is brûkt om oan te melden
+postSigninRecoveryPhone-description = As jo dit net dien hawwe, moatte jo jo wachtwurd fuortendaliks wizigje om jo account feilich te hâlden.
+postSigninRecoveryPhone-device = Jo binne oanmeld fanôf:
 postSigninRecoveryPhone-action = Account beheare
 postVerify-sub-title-3 = Wy binne bliid jo te sjen!
 postVerify-title-2 = Wolle jo itselde ljepblêd op twa apparaten sjen?
@@ -659,6 +688,7 @@ verifySecondaryCode-expiry-notice-2 = Dizze ferrint oer 5 minuten. Nei befêstig
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = Befêstigje jo account
+verifyShortCode-preview = Brûk de opnommen koade om jo { -product-mozilla-account } te befêstigjen.
 verifyShortCode-title-3 = Iepenje it ynternet mei { -brand-mozilla }
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = Befêstigje jo account en helje oeral wêr’t jo jo oanmelde it measte út { -brand-mozilla }, te begjinnen mei:
