@@ -650,6 +650,11 @@ flow-setup-phone-confirm-code-success-message-v2 = Wersteltelefoannûmer tafoege
 flow-setup-phone-submit-number-heading = Ferifiearje jo telefoannûmer
 # The code is a 6-digit code send by text message/SMS
 flow-setup-phone-verify-number-instruction = Jo ûntfange in sms fan { -brand-mozilla } mei in koade om jo nûmer te ferifiearjen. Diel dizze koade mei net ien.
+# The initial rollout of the recovery phone is only available to users with US and Canada mobile phone numbers.
+# Voice over Internet Protocol (VoIP), is a technology that uses a broadband Internet connection instead of a regular (or analog) phone line to make calls.
+# Phone mask services (for example Relay) provide a temporary virtual number to avoid providing a real phone number.
+# Both VoIP and phone masks can be unreliable for one-time-passcode (OTP) verification
+flow-setup-phone-submit-number-info-message-v2 = Wersteltelefoannûmers binne allinnich beskikber yn de Ferienige Steaten en Kanada. VoIP-nûmers en telefoanmaskers wurde net oanrekommandearre.
 flow-setup-phone-submit-number-legal = Troch jo nûmer op te jaan, geane jo akkoard dat wy dit bewarje, sadat wy jo allinnich kinne sms’e foar accountferifikaasje. Berjocht- en gegevenstariven kinne fan tapassing wêze.
 # cliking on the button sends a code by text message to the phone number typed in by the user
 flow-setup-phone-submit-number-button = Koade ferstjoere
@@ -875,6 +880,14 @@ recovery-key-create-back-button-title = Tebek nei ynstellingen
 ## PageRecoveryPhoneRemove
 ## Users reach this page from account settings when they want to remove a backup phone number.
 
+recovery-phone-remove-header = Wersteltelefoannûmer fuortsmite
+# Variables:
+#   $formattedFullPhoneNumber (String) - the user's full phone number
+settings-recovery-phone-remove-info = Dit sil <strong>{ $formattedFullPhoneNumber }</strong> fuortsmite as jo wersteltelefoannûmer.
+settings-recovery-phone-remove-recommend = Wy riede jo oan dat jo dizze metoade behâlde, omdat it makliker is as it bewarjen fan reservekopy-autentikaasjekoaden.
+# "Saved backup authentication codes" refers to previously saved backup authentication codes
+settings-recovery-phone-remove-recovery-methods = As jo de add-on fuortsmite, soargje der dan foar dat o jo bewarre reserve-autentikaasjekoaden noch hawwe. <linkExternal>Werstelmetoaden fergelykje</linkExternal>
+settings-recovery-phone-remove-button = Telefoannûmer fuortsmite
 settings-recovery-phone-remove-cancel = Annulearje
 
 ## PageSetupRecoveryPhone
@@ -1042,6 +1055,7 @@ tfa-row-backup-phone-add-cta = Tafoegje
 tfa-row-backup-phone-delete-button = Fuortsmite
 # Shown in tooltip on delete button or delete icon
 tfa-row-backup-phone-delete-title-v2 = Wersteltelefoannûmer fuortsmite
+tfa-row-backup-phone-delete-restriction-v2 = As jo jo wersteltelefoan fuortsmite wolle, foegje dan earst reserve-autentikaasjekoaden ta of skeakelje earst twastapsautentikaasje út om foar te kommen dat jo gjin tagong mear hawwe ta jo account.
 # "this" refers to recovery phone
 tfa-row-backup-phone-description = Dit is de ienfâldigere werstelmetoade as jo jo autentikaasje-app net brûke kinne.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
@@ -1676,6 +1690,9 @@ signin-recovery-method-code-info = { $numberOfCodes } koaden oer
 recovery-phone-code-confirm-flow-heading = Oanmelde
 # A recovery code in context of this page is a one time code sent to the user's phone
 recovery-phone-code-confirm-with-code-heading = Fier werstelkoade yn
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+recovery-phone-code-confirm-code-instruction = Der is per sms in 6-siferige koade ferstjoerd nei <span>{ $maskedPhoneNumber }</span>. Dizze koade ferrint nei 5 minuten.
 recovery-phone-code-confirm-input-group-label = Fier 6-siferige koade yn
 recovery-phone-code-confirm-otp-submit-button = Befêstigje
 
