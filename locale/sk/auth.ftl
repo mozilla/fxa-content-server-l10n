@@ -22,11 +22,11 @@ subplat-update-billing-plaintext = { subplat-update-billing }:
 # Variables:
 #  $email (String) - A user's primary email address
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subplat-explainer-specific-2 = Tento e‑mail ste dostali, pretože na adrese { $email } je registrovaný { -product-mozilla-account(capitalization: "lower") } a zároveň ste si zaregistrovali odber produktu { $productName }.
+subplat-explainer-specific-2 = Tento e‑mail ste dostali, pretože na adrese { $email } je registrovaný { -product-mozilla-account(capitalization: "lower") } a zároveň ste si zaregistrovali predplatné produktu { $productName }.
 # Variables:
 #  $email (String) - A user's primary email address
 subplat-explainer-reminder-form-2 = Tento e‑mail ste dostali, pretože na adrese { $email } je registrovaný { -product-mozilla-account(capitalization: "lower") }.
-subplat-explainer-multiple-2 = Tento e‑mail ste dostali, pretože na adrese { $email } je registrovaný { -product-mozilla-account(capitalization: "lower") } a zároveň ste sa zaregistrovali na odber niekoľkých produktov.
+subplat-explainer-multiple-2 = Tento e‑mail ste dostali, pretože na adrese { $email } je registrovaný { -product-mozilla-account(capitalization: "lower") } a zároveň ste si zaregistrovali predplatné niekoľkých produktov.
 subplat-explainer-was-deleted-2 = Tento e‑mail ste dostali, pretože na adrese { $email } je registrovaný { -product-mozilla-account(capitalization: "lower") }.
 subplat-manage-account-2 = Spravujte svoje nastavenia { -product-mozilla-account(case: "gen", capitalization: "lower") } na <a data-l10n-name="subplat-account-page">stránke účtu</a>.
 # Variables:
@@ -592,9 +592,9 @@ subscriptionRenewalReminder-content-closing = S pozdravom,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = Tím { $productName }
-subscriptionsPaymentExpired-subject-1 = Platnosť platobnej karty pre vaše odbery vyprší alebo jej platnosť čoskoro vyprší
+subscriptionsPaymentExpired-subject-1 = Platnosť platobnej karty pre vaše predplatné vyprší alebo jej platnosť čoskoro vyprší
 subscriptionsPaymentExpired-title-1 = Platnosť vašej platobnej karty vypršala alebo čoskoro vyprší
-subscriptionsPaymentExpired-content-1 = Platnosť platobnej karty, ktorú používate na platby za nasledujúce odbery, vypršala alebo čoskoro vyprší.
+subscriptionsPaymentExpired-content-1 = Platnosť platobnej karty, ktorú používate na platby za nasledujúce predplatné, vypršala alebo čoskoro vyprší.
 subscriptionsPaymentProviderCancelled-subject = Vyžaduje sa aktualizácia platobných údajov pre predplatné produktov { -brand-mozilla(case: "gen") }
 subscriptionsPaymentProviderCancelled-title = Ospravedlňujeme sa, máme problém so zvoleným spôsobom platby
 subscriptionsPaymentProviderCancelled-content-detected = Pri nasledujúcich predplatných sme zistili problém s vaším spôsobom platby.
@@ -623,7 +623,7 @@ subscriptionUpgrade-upgrade-info = Úspešne ste inovovali z { $productNameOld }
 # $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
 # $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 # $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
-subscriptionUpgrade-content-charge-info-different-cycle = Bude vám účtovaný jednorazový poplatok vo výške { $paymentProrated }, ktorý odráža vyššiu cenu vášho odberu oproti { $productPaymentCycleOld }. Počnúc ďalšou faktúrou sa váš poplatok zmení z { $paymentAmountOld } za { $productPaymentCycleOld } na { $paymentAmountNew } za { $productPaymentCycleNew }.
+subscriptionUpgrade-content-charge-info-different-cycle = Bude vám účtovaný jednorazový poplatok vo výške { $paymentProrated }, ktorý odráža vyššiu cenu vášho predplatného oproti { $productPaymentCycleOld }. Počnúc ďalšou faktúrou sa váš poplatok zmení z { $paymentAmountOld } za { $productPaymentCycleOld } na { $paymentAmountNew } za { $productPaymentCycleNew }.
 # Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-install = Ak je k dispozícii nový softvér potrebný na to, aby ste mohli používať { $productName }, dostanete samostatný e‑mail s pokynmi na jeho stiahnutie.
