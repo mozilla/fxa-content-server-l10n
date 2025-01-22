@@ -52,6 +52,7 @@ subplat-privacy-website-plaintext = { subplat-privacy }:
 account-deletion-info-block-communications = Se sua conta for excluída, você ainda receberá emails da Mozilla Corporation e da Fundação Mozilla, a menos que você <a data-l10n-name="unsubscribeLink">peça para cancelar a inscrição</a>.
 account-deletion-info-block-support = Se você tiver alguma dúvida ou precisar de ajuda, entre em contato com nossa <a data-l10n-name="supportLink">equipe de suporte</a>.
 account-deletion-info-block-communications-plaintext = Se sua conta for excluída, você ainda receberá emails da Mozilla Corporation e da Fundação Mozilla, a menos que você peça para cancelar a inscrição:
+account-deletion-info-block-support-plaintext = Se você tiver alguma dúvida ou precisar de ajuda, entre em contato com nossa equipe de suporte:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-android-badge = <img data-l10n-name="google-play-badge" alt="Baixe o { $productName } no { -google-play }">
