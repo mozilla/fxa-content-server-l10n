@@ -391,6 +391,7 @@ postRemoveTwoStepAuthentication-title-2 = כיבית את האימות הדו־�
 postRemoveTwoStepAuthentication-from-device = כיבית אותו מ:
 postRemoveTwoStepAuthentication-action = ניהול חשבון
 postRemoveTwoStepAuthentication-not-required-2 = אין צורך עוד בקודי אבטחה מיישומון האימות שלך בעת הכניסה.
+postSigninRecoveryCode-preview = אימות פעילות בחשבון
 postSigninRecoveryCode-description = אם לא ביצעת פעולה זו, עליך לשנות את הססמה שלך באופן מיידי כדי לשמור על בטיחות החשבון שלך.
 postSigninRecoveryCode-device = התחברת מ:
 postSigninRecoveryCode-action = ניהול חשבון
