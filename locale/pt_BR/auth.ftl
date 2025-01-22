@@ -80,6 +80,7 @@ automated-email-support = Consulte mais informações no <a data-l10n-name="supp
 automated-email-change-plaintext-2 = Se não foi você quem fez esta ação, mude sua senha agora mesmo:
 #  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-support-plaintext = Consulte mais informações no Suporte { -brand-mozilla }:
+automated-email-inactive-account = Este é um email automático. Você recebeu porque tem uma { -product-mozilla-account } e já se passaram 2 anos desde seu último acesso.
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } Para obter mais informações, visite o <a data-l10n-name="supportLink">Suporte { -brand-mozilla }</a>.
 automated-email-no-action-plaintext = Este é um email automático. Se recebeu por engano, não precisa fazer nada.
@@ -126,6 +127,9 @@ automatedEmailRecoveryKey-more-info-plaintext = Consulte mais informações no S
 automated-email-reset =
     Este é um email automático. Se você não autorizou esta ação, <a data-l10n-name="resetLink">redefina sua senha</a>.
     Consulte mais informações no <a data-l10n-name="supportLink">Suporte { -brand-mozilla }</a>.
+# Variables:
+#  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
+automated-email-reset-plaintext-v2 = Se você não autorizou esta ação, redefina sua senha agora em { $resetLink }
 brand-banner-message = Você sabia que mudamos nosso nome de { -product-firefox-accounts } para { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Saiba mais</a>
 cancellationSurvey = Ajude-nos a melhorar nossos serviços participando desta <a data-l10n-name="cancellationSurveyUrl">breve pesquisa de opinião</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
@@ -246,6 +250,7 @@ fraudulentAccountDeletion-contact = Se você tiver alguma dúvida, entre em cont
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Se você tiver alguma dúvida, entre em contato com nossa equipe de suporte: { $mozillaSupportUrl }
+inactiveAccountFinalWarning-subject = Última chance de manter sua { -product-mozilla-account }
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title-zero = Você está sem códigos de autenticação de backup!
 codes-reminder-title-one = Você está com seu último código de autenticação de backup
