@@ -49,6 +49,10 @@ subplat-legal = Juridysk
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Privacy
 subplat-privacy-website-plaintext = { subplat-privacy }:
+account-deletion-info-block-communications = As jo account fuortsmiten is, krije jo noch hieltyd e-mailberjochten fan Mozilla Corporation en Mozilla Foundation, útsein as jo <a data-l10n-name="unsubscribeLink">freegje om ôf te melden</a>.
+account-deletion-info-block-support = As jo fragen hawwe of help nedich binne, nim dan gerêst kontakt op mei ús <a data-l10n-name="supportLink">stipeteam</a>.
+account-deletion-info-block-communications-plaintext = As jo account fuortsmiten is, krije jo noch hieltyd e-mailberjochten fan Mozilla Corporation en Mozilla Foundation, útsein as jo freegje om ôf te melden:
+account-deletion-info-block-support-plaintext = As jo fragen hawwe of help nedich binne, nim dan gerêst kontakt op mei ús stipeteam:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-android-badge = <img data-l10n-name="google-play-badge" alt="{ $productName } downloade op { -google-play }">
