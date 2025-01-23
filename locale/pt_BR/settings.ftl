@@ -635,6 +635,7 @@ flow-setup-phone-confirm-code-button = Confirmar
 # followed by a button to resend a code
 flow-setup-phone-confirm-code-expired = O código expirou?
 flow-setup-phone-confirm-code-resend-code-button = Reenviar código
+flow-setup-phone-confirm-code-success-message-v2 = Celular de recuperação adicionado
 
 ## FlowSetupPhoneConfirmCode
 
@@ -863,6 +864,9 @@ recovery-key-create-back-button-title = Voltar à configuração
 ## PageRecoveryPhoneRemove
 ## Users reach this page from account settings when they want to remove a backup phone number.
 
+recovery-phone-remove-header = Remover número de celular de recuperação
+settings-recovery-phone-remove-button = Remover número de celular
+settings-recovery-phone-remove-cancel = Cancelar
 
 ## PageSetupRecoveryPhone
 
@@ -1008,6 +1012,9 @@ tfa-row-backup-codes-get-new-cta = Obter novos códigos
 tfa-row-backup-codes-add-cta = Adicionar
 # 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
 tfa-row-backup-codes-description-2 = Este é o método de recuperação mais seguro se você não puder usar seu dispositivo móvel ou aplicativo de autenticação.
+# Recovery phone is a recovery method for two-step authentication
+# A recovery code can be sent to the user's phone
+tfa-row-backup-phone-title-v2 = Celular de recuperação
 # Shown with an alert icon to indicate that no recovery phone is configured
 tfa-row-backup-phone-not-available = Nenhum número de celular de recuperação disponível
 # button to change the configured recovery phone
@@ -1016,6 +1023,8 @@ tfa-row-backup-phone-change-cta = Alterar
 tfa-row-backup-phone-add-cta = Adicionar
 # Button to remove a recovery phone from the user's account
 tfa-row-backup-phone-delete-button = Remover
+# Shown in tooltip on delete button or delete icon
+tfa-row-backup-phone-delete-title-v2 = Remover celular de recuperação
 # "this" refers to recovery phone
 tfa-row-backup-phone-description = Este é o método de recuperação mais fácil, caso você não possa usar o aplicativo de autenticação.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
