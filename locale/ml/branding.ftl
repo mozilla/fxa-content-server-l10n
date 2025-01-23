@@ -21,7 +21,26 @@
 # "accounts" can be localized and should be lowercase, "Firefox" must be treated as a brand.
 # "Firefox accounts" refers to the service
 -product-firefox-accounts = Firefox accounts
+# "account" can and should be localized, "Mozilla" must be treated as a brand. Singular "Mozilla account" should be used in most cases.
+-product-mozilla-account = മോസില്ല അക്കൗണ്ടു്
+# "accounts" can and should be localized, "Mozilla" must be treated as a brand. Plural "Mozilla accounts" is used when referring to something affecting all Mozilla accounts, not just the individual's account.
+# "accounts" should be lowercase in almost all cases. Uppercase is reserved for special use cases where headline case is necessary, for example legal document names and references.
+-product-mozilla-accounts =
+    { $capitalization ->
+        [uppercase] മോസില്ല അക്കൗണ്ടുകൾ
+       *[lowercase] മോസില്ല അക്കൗണ്ടുകൾ
+    }
 # "account" should be localized and lowercase, "Firefox" must be treated as a brand.
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
--product-firefox-account = Firefox account
+-product-firefox-account = Firefox അക്കൗണ്ടു്
+-product-mozilla-vpn = Mozilla VPN
+-product-mozilla-hubs = Mozilla Hubs
+# Mozilla Developer Network
+-product-mdn = എം.ഡി.എൻ.
+-product-mdn-plus = എം.ഡി.എൻ. പ്ലസു്
 -product-firefox-cloud = Firefox Cloud
+-product-mozilla-monitor = മോസില്ല മോണിറ്റർ
+-product-firefox-relay = Firefox Relay
+-product-pocket = Pocket
+-brand-apple = Apple
+-brand-google = Google
