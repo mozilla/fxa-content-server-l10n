@@ -15,7 +15,7 @@ moz-accounts-privacy-url-2 = Abbisu di privatizza di { -product-mozilla-accounts
 moz-accounts-terms-url = Tèrmini di sirbizzu dî { -product-mozilla-accounts }
 subplat-header-mozilla-logo-2 = <img data-l10n-name="subplat-mozilla-logo" alt="Mercu di { -brand-mozilla }">
 subplat-footer-mozilla-logo-2 = <img data-l10n-name="mozilla-logo-footer" alt="Mercu di { -brand-mozilla }">
-subplat-automated-email = Chista è na littra mannata di manera atumàtica; si a ricivisti pi sbagghiu nun hâ fari nenti.
+subplat-automated-email = Chista è na littra mannata di manera autumàtica; si a ricivisti pi sbagghiu nun hâ fari nenti.
 subplat-privacy-notice = Abbisu di privatizza
 subplat-privacy-plaintext = Abbisu di privatizza:
 subplat-update-billing-plaintext = { subplat-update-billing }:
@@ -80,6 +80,11 @@ automated-email-support = P'aviri cchiù assai nfurmazzioni, vìsita <a data-l10
 automated-email-change-plaintext-2 = Si nun fusti tu a fari sta cosa, cancia sùbbitu a to chiavi:
 #  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-support-plaintext = P'aviri cchiù assai nfurmazzioni, vìsita u situ di supportu di { -brand-mozilla }:
+# supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+automated-email-no-action = { automated-email-no-action-plaintext } Pi nfurmazzioni superchiu, vìsita l'<a data-l10n-name="supportLink">assistenza di { -brand-mozilla }</a>.
+automated-email-no-action-plaintext = Chista è na littra mannata di manera autumàtica. Si a ricivisti pi sbagghiu, nun hâ fari nenti.
+#  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
+automated-email-not-authorized-plaintext = Chista è na littra mannata di manera autumàtica; si nun l'auturizzasti, allura pi favuri cancia a to chiavi:
 
 ## Variables
 ##   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN

@@ -108,9 +108,9 @@ next-plan-details-total-label = Tutali
 
 list-positive-amount = { $amount }
 list-negative-amount = - { $amount }
-next-coupon-success = U to chianu veni rinnuvatu di manera atumàtica ô prezzu currenti.
+next-coupon-success = U to chianu veni rinnuvatu di manera autumàtica ô prezzu currenti.
 # $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
-next-coupon-success-repeating = U to chianu veni rinnuvatu di manera atumàtica doppu { $couponDurationDate } ô prezzu currenti.
+next-coupon-success-repeating = U to chianu veni rinnuvatu di manera autumàtica doppu { $couponDurationDate } ô prezzu currenti.
 
 ## Component - PriceInterval
 
