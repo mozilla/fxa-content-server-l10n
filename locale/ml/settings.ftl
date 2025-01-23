@@ -346,7 +346,7 @@ nav-email-comm = ഇതപാൽ ആശയവിനിമയങ്ങൾ
 
 ## Two Step Authentication - replace backup authentication code
 
-tfa-replace-code-1-2 = പടി 1/1
+tfa-replace-code-1-2 = പടി 1/2
 tfa-replace-code-2-2 = പടി 2/2
 
 ## Avatar change page
@@ -360,30 +360,88 @@ avatar-page-take-photo = ചിത്രം എടുക്കുക
 avatar-page-take-photo-button =
     .title = { avatar-page-take-photo }
 avatar-page-remove-photo = ചിത്രം മാറ്റുക
+avatar-page-remove-photo-button =
+    .title = { avatar-page-remove-photo }
+avatar-page-retake-photo = ചിത്രം വീണ്ടും എടുക്കുക
+avatar-page-cancel-button = റദ്ദാക്കുക
+avatar-page-save-button = കരുതിവയ്ക്കുക
+avatar-page-saving-button = കരുതിവയ്ക്കുന്നു…
+avatar-page-zoom-out-button =
+    .title = ചെറുതാക്കുക
+avatar-page-zoom-in-button =
+    .title = വലുതാക്കുക
+avatar-page-rotate-button =
+    .title = കറക്കുക
+avatar-page-camera-error = ക്യാമറ ആരംഭിക്കാനായില്ല
+avatar-page-new-avatar =
+    .alt = പുതിയ രൂപരേഖച്ചിത്രം
 
 ##
 
 
 ## Password change page
 
+pw-change-header =
+    .title = രഹസ്യവാക്കു് മാറ്റുക
+pw-not-email = താങ്ങളുടെ ഇതപാൽ വിലാസമല്ല
+pw-commonly-used = സാധാരണമുപയോഗപ്പെട്ട രഹസ്യവാക്കല്ല
+pw-change-cancel-button = റദ്ദാക്കുക
+pw-change-save-button = കരുതിവയ്ക്കുക
+pw-change-forgot-password-link = താങ്ങളുടെ രഹസ്യവാക്കു് മറന്നോ?
+pw-change-current-password =
+    .label = നിലവിലുള്ള രഹസ്യവാക്കു് നല്കുക
+pw-change-new-password =
+    .label = പുതിയ രഹസ്യവാക്കു് നല്കുക
+pw-change-confirm-password =
+    .label = പുതിയ രഹസ്യവാക്കു് ഉറപ്പിക്കുക
+pw-change-success-alert-2 = രഹസ്യവാക്കു് പുതുച്ചു
 
 ##
 
 
 ## Password create page
 
+pw-create-header =
+    .title = രഹസ്യവാക്കു് ഉണ്ടാക്കുക
+pw-create-success-alert-2 = രഹസ്യവാക്കു് സജ്ജം
 
 ##
 
 
 ## Delete account page
 
+delete-account-header =
+    .title = അക്കൗണ്ടു് മായ്ക്കുക
+delete-account-step-1-2 = പടി 1/2
+delete-account-step-2-2 = പടി 2/2
+delete-account-product-mozilla-account = { -product-mozilla-account }
+delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
+delete-account-product-mdn-plus = { -product-mdn-plus }
+delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
+delete-account-product-pocket = { -product-pocket }
+delete-account-product-mozilla-monitor = { -product-mozilla-monitor }
+delete-account-product-firefox-relay = { -product-firefox-relay }
+delete-account-product-firefox-sync = { -brand-firefox } ദത്ത സമന്വയിപ്പിക്കുന്നു
+delete-account-product-firefox-addons = { -brand-firefox } ആഡ് ഓണുകൾ
+delete-account-continue-button = തുടരുക
+delete-account-password-input =
+    .label = രഹസ്യവാക്ക് നല്‍കുക
+delete-account-cancel-button = റദ്ദാക്കുക
+delete-account-delete-button-2 = മായ്ക്കുക
 
 ##
 
 
 ## Display name page
 
+display-name-page-title =
+    .title = പ്രദര്‍ശനപ്പേരു്
+display-name-input =
+    .label = പ്രദൎശനപ്പേരു് നല്കുക
+submit-display-name = കരുതിവയ്ക്കുക
+cancel-display-name = റദ്ദാക്കുക
+display-name-update-error-2 = പ്രദൎശനപ്പേരു് പുതുക്കുന്നതിലൊരു കുഴപ്പമുണ്ടായി
+display-name-success-alert-2 = പ്രദർശനപ്പേരു് പുതുക്കി
 
 ##
 
@@ -392,6 +450,10 @@ avatar-page-remove-photo = ചിത്രം മാറ്റുക
 ## All strings except title indicate an event that occurred from the user's account
 ## These are displayed as a list with the date when the event occured
 
+recent-activity-account-create-v2 = അക്കൗണ്ടു് ഉണ്ടാക്കി
+recent-activity-account-disable-v2 = അക്കൗണ്ടു് പ്രവൎത്തനരഹിതമാക്കി
+recent-activity-account-enable-v2 = അക്കൗണ്ടു് പ്രവൎത്തനക്ഷമമാക്കി
+recent-activity-account-password-changed = രഹസ്യവാക്കു് മാറ്റി
 
 ## PageRecoveryKeyCreate
 
@@ -399,15 +461,27 @@ avatar-page-remove-photo = ചിത്രം മാറ്റുക
 ## PageRecoveryPhoneRemove
 ## Users reach this page from account settings when they want to remove a backup phone number.
 
+settings-recovery-phone-remove-cancel = റദ്ദാക്കുക
 
 ## PageSetupRecoveryPhone
 
 
 ## Add secondary email page
 
+add-secondary-email-step-1 = പടി 1/2
+add-secondary-email-enter-address =
+    .label = ഇതപാൽ വിലാസം നല്കുക
+add-secondary-email-cancel-button = റദ്ദാക്കുക
+add-secondary-email-save-button = കരുതിവയ്ക്കുക
 
 ## Verify secondary email page
 
+verify-secondary-email-page-title =
+    .title = രണ്ടാമത്തെ ഇതപാൽ
+verify-secondary-email-verification-code-2 =
+    .label = ഉറപ്പിക്കൽ-സങ്കേതം നല്കുക
+verify-secondary-email-cancel-button = റദ്ദാക്കുക
+verify-secondary-email-verify-button-2 = ഉറപ്പിക്കുക
 
 ##
 
@@ -435,12 +509,32 @@ avatar-page-remove-photo = ചിത്രം മാറ്റുക
 
 ## SubRow component
 
+# Shown to users who have no backup authentication codes
+# Button to add backup authentication codes when none are configured
+tfa-row-backup-codes-add-cta = ചേർക്കുക
+# button to add/configure a recovery phone
+tfa-row-backup-phone-add-cta = ചേർക്കുക
+# Button to remove a recovery phone from the user's account
+tfa-row-backup-phone-delete-button = മാറ്റുക
+# Shown in tooltip on delete button or delete icon
+tfa-row-backup-phone-delete-title-v2 = വീണ്ടെടുപ്പു് ഫോൺ മായ്ക്കുക
 
 ## Switch component
 
+# Used as "title" attribute when the switch is "on" and interaction turns the switch to "off"
+switch-turn-off = അണച്ചുവയ്ക്കുക
+# Used as "title" attribute when the switch is "off" and interaction turns the switch to "on"
+switch-turn-on = തുടങ്ങിവയ്ക്കുക
+# Used as "title" attribute when switch has been interacted with and form is submitting
+switch-submitting = സമർപ്പിക്കുന്നു…
+switch-is-on = തുടങ്ങിയതു്
+switch-is-off = അണച്ചതു്
 
 ## Sub-section row Defaults
 
+row-defaults-action-add = ചേര്‍ക്കുക
+row-defaults-action-change = മാറ്റുക
+row-defaults-action-disable = പ്രവര്‍ത്തനരഹിതമാക്കുക
 
 ## Account recovery key sub-section on main Settings page
 

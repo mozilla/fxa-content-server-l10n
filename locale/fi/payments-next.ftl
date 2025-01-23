@@ -18,6 +18,8 @@ next-payment-method-header = Valitse maksutapa
 payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = Sinun on ensin hyväksyttävä tilauksesi
 next-payment-confirmation-thanks-heading-account-exists = Kiitos, tarkista nyt sähköpostisi!
+# $email (String) - The user's email.
+payment-confirmation-thanks-subheading-account-exists-2 = Saat sähköpostin osoitteeseen { $email }, jossa on tilaustasi koskevat ohjeet sekä maksutietosi.
 next-payment-confirmation-order-heading = Tilauksen tiedot
 # $invoiceNumber (String) - Invoice number of the successful payment
 next-payment-confirmation-invoice-number = Lasku #{ $invoiceNumber }
@@ -30,6 +32,8 @@ next-payment-confirmation-amount = { $amount } per { $interval }
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Kortti päättyen { $last4 }
 next-payment-confirmation-download-button = Jatka lataamiseen
+checkout-error-boundary-retry-button = Yritä uudelleen
+checkout-error-boundary-basic-error-message = Jotain meni pieleen. Yritä uudelleen tai <contactSupportLink>ota yhteyttä tukeen.</contactSupportLink>
 
 ## Component - Payment Consent Checkbox
 
@@ -40,6 +44,10 @@ next-payment-confirm-checkbox-error = Sinun on suoritettava tämä vaihe, ennen 
 
 next-new-user-submit = Tilaa nyt
 next-payment-validate-name-error = Kirjoita nimesi
+next-pay-with-heading-paypal = Maksa { -brand-paypal }illa
+# Label for the Full Name input
+payment-name-label = Nimi sellaisena kuin se näkyy kortissasi
+payment-name-placeholder = Koko nimi
 
 ## Component - CouponForm
 
@@ -51,6 +59,9 @@ next-coupon-promo-code = Tarjouskoodi
 next-coupon-promo-code-applied = Tarjouskoodi sovellettu
 next-coupon-remove = Poista
 next-coupon-submit = Käytä
+payments-client-loading-spinner =
+    .aria-label = Ladataan…
+    .alt = Ladataan…
 
 ## Payment Section
 
@@ -63,6 +74,23 @@ next-plan-details-show-button = Näytä tiedot
 
 ## Select Tax Location
 
+select-tax-location-title = Sijainti
+select-tax-location-edit-button = Muokkaa
+select-tax-location-save-button = Tallenna
+select-tax-location-country-code-label = Maa
+select-tax-location-country-code-placeholder = Valitse maa
+select-tax-location-error-missing-country-code = Valitse maa
+select-tax-location-postal-code-label = Postinumero
+select-tax-location-postal-code =
+    .placeholder = Kirjoita postinumerosi
+select-tax-location-error-missing-postal-code = Kirjoita postinumerosi
+select-tax-location-error-invalid-postal-code = Kirjoita kelvollinen postinumero
+select-tax-location-successfully-updated = Sijaintisi on päivitetty.
+select-tax-location-error-location-not-updated = Sijaintiasi ei voitu päivittää. Yritä uudelleen.
+signin-form-continue-button = Jatka
+signin-form-email-input = Kirjoita sähköpostiosoitteesi
+signin-form-email-input-missing = Kirjoita sähköpostiosoitteesi
+signin-form-email-input-invalid = Kirjoita kelvollinen sähköpostiosoite
 next-new-user-subscribe-product-updates-mdnplus = Haluan saada tuoteuutisia ja päivityksiä { -product-mdn-plus } -palvelusta ja { -brand-mozilla }lta
 next-new-user-subscribe-product-updates-mozilla = Haluan saada tuoteuutisia ja päivityksiä { -brand-mozilla }lta
 next-new-user-subscribe-product-updates-snp = Haluan saada turvallisuus- ja tietosuojauutisia sekä päivityksiä { -brand-mozilla }lta
@@ -78,6 +106,8 @@ next-plan-details-total-label = Yhteensä
 ## Purchase details - shared by multiple components, including purchase details and payment form
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+list-positive-amount = { $amount }
+list-negative-amount = - { $amount }
 next-coupon-success = Tilauksesi uusitaan automaattisesti listahintaan.
 # $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
 next-coupon-success-repeating = Tilauksesi uusiutuu automaattisesti { $couponDurationDate } listahinnan mukaisesti.
@@ -88,6 +118,11 @@ next-coupon-success-repeating = Tilauksesi uusiutuu automaattisesti { $couponDur
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+plan-price-interval-daily = { $amount } päivittäin
+plan-price-interval-weekly = { $amount } viikottain
+plan-price-interval-monthly = { $amount } kuukausittain
+plan-price-interval-6monthly = { $amount } puolivuosittain
+plan-price-interval-yearly = { $amount } vuosittain
 
 ## Component - SubscriptionTitle
 
