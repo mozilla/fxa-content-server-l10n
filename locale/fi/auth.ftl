@@ -49,6 +49,10 @@ subplat-legal = Lakiasiat
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Tietosuoja
 subplat-privacy-website-plaintext = { subplat-privacy }:
+account-deletion-info-block-communications = Jos tilisi poistetaan, saat edelleen sähköposteja Mozilla Corporationilta ja Mozilla Foundationilta, ellet <a data-l10n-name="unsubscribeLink">pyydä tilauksen peruuttamista</a>.
+account-deletion-info-block-support = Jos sinulla on kysyttävää tai tarvitset apua, ota rohkeasti yhteyttä <a data-l10n-name="supportLink">tukitiimiimme</a>.
+account-deletion-info-block-communications-plaintext = Jos tilisi poistetaan, saat edelleen sähköposteja Mozilla Corporationilta ja Mozilla Foundationilta, ellet pyydä tilauksen peruuttamista:
+account-deletion-info-block-support-plaintext = Jos sinulla on kysyttävää tai tarvitset apua, ota rohkeasti yhteyttä tukitiimiimme:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-android-badge = <img data-l10n-name="google-play-badge" alt="Lataa { $productName } { -google-play }sta">
@@ -76,6 +80,7 @@ automated-email-support = Lisätietoja saat <a data-l10n-name="supportLink">{ -b
 automated-email-change-plaintext-2 = Jos et tehnyt tätä, vaihda salasanasi heti:
 #  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-support-plaintext = Lisätietoja saat { -brand-mozilla }-tuesta:
+automated-email-inactive-account = Tämä on automaattinen sähköposti. Saat sen, koska sinulla on { -product-mozilla-account } ja edellisestä kirjautumisestasi on kulunut kaksi vuotta.
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } Lisätietoja saat <a data-l10n-name="supportLink">{ -brand-mozilla }-tuesta</a>.
 automated-email-no-action-plaintext = Tämä on automaattinen sähköposti. Jos sait sen vahingossa, sinun ei tarvitse tehdä mitään.
@@ -122,6 +127,9 @@ automatedEmailRecoveryKey-more-info-plaintext = Lisätietoja saat { -brand-mozil
 automated-email-reset =
     Tämä on automaattisesti lähetetty viesti. Jos et valtuuttanut tätä toimintoa, <a data-l10n-name="resetLink">vaihda salasanasi</a>.
     Lisätietoja saat <a data-l10n-name="supportLink">{ -brand-mozilla }n tuesta</a>.
+# Variables:
+#  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
+automated-email-reset-plaintext-v2 = Jos et valtuuttanut tätä toimintoa, vaihda salasanasi nyt osoitteessa { $resetLink }
 brand-banner-message = Tiesitkö, että { -product-firefox-accounts } nimettiin uudelleen, ja uusi nimi on { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Lisätietoja</a>
 cancellationSurvey = Auta parantamaan palveluitamme <a data-l10n-name="cancellationSurveyUrl">vastaamalla kyselyyn</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
@@ -242,6 +250,33 @@ fraudulentAccountDeletion-contact = Jos sinulla on kysyttävää, ota yhteys <a 
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Jos sinulla on kysyttävää, ota yhteys tukitiimiimme: { $mozillaSupportUrl }
+inactiveAccountFinalWarning-subject = Viimeinen mahdollisuus säilyttää { -product-mozilla-account }
+inactiveAccountFinalWarning-title = { -brand-mozilla }-tilisi ja tietosi poistetaan
+inactiveAccountFinalWarning-preview = Kirjaudu sisään säilyttääksesi tilisi
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+# This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
+inactiveAccountFinalWarning-impact = <strong>{ $deletionDate }</strong> tilisi ja henkilökohtaiset tietosi poistetaan pysyvästi, ellet kirjaudu sisään.
+inactiveAccountFinalWarning-action = Kirjaudu sisään säilyttääksesi tilisi
+# followed by link to sign in
+inactiveAccountFinalWarning-action-plaintext = Kirjaudu sisään säilyttääksesi tilisi:
+inactiveAccountFirstWarning-subject = Älä menetä tiliäsi
+inactiveAccountFirstWarning-title = Haluatko säilyttää { -brand-mozilla }-tilisi ja tietosi?
+inactiveAccountFirstWarning-inactive-status = Huomasimme, että et ole kirjautunut sisään kahteen vuoteen.
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+# This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
+inactiveAccountFirstWarning-impact = Tilisi ja henkilökohtaiset tietosi poistetaan pysyvästi <strong>{ $deletionDate }</strong>, koska et ole ollut aktiivinen.
+inactiveAccountFirstWarning-action = Kirjaudu sisään säilyttääksesi tilisi
+inactiveAccountFirstWarning-preview = Kirjaudu sisään säilyttääksesi tilisi
+# followed by link to sign in
+inactiveAccountFirstWarning-action-plaintext = Kirjaudu sisään säilyttääksesi tilisi:
+inactiveAccountSecondWarning-subject = Toimenpiteitä vaaditaan: Tilin poistoon 7 päivää
+inactiveAccountSecondWarning-title = { -brand-mozilla }-tilisi ja sen tiedot poistetaan 7 päivän kuluessa
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+inactiveAccountSecondWarning-impact = Tilisi ja henkilökohtaiset tietosi poistetaan pysyvästi <strong>{ $deletionDate }</strong>, koska et ole ollut aktiivinen.
+inactiveAccountSecondWarning-action = Kirjaudu sisään säilyttääksesi tilisi
+inactiveAccountSecondWarning-preview = Kirjaudu sisään säilyttääksesi tilisi
+# followed by link to sign in
+inactiveAccountSecondWarning-action-plaintext = Kirjaudu sisään säilyttääksesi tilisi:
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title-zero = Varatodennuskoodit ovat loppuneet!
 codes-reminder-title-one = Käytät viimeistä varatodennuskoodiasi
@@ -317,6 +352,8 @@ postAddLinkedAccount-subject-2 = Uusi tili yhdistetty { -product-mozilla-account
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = { $providerName }-tilisi on linkitetty { -product-mozilla-account }in
 postAddLinkedAccount-action = Hallinnoi tiliä
+postAddRecoveryPhone-title = Loit palauttamisen puhelinnumeron
+postAddRecoveryPhone-action = Hallinnoi tiliä
 postAddTwoStepAuthentication-subject-2 = Kaksivaiheinen todennus otettu käyttöön
 postAddTwoStepAuthentication-title-2 = Otit kaksivaiheisen todennuksen käyttöön
 # After the colon, there is a description of the device that the user used to enable two-step authentication
@@ -365,6 +402,13 @@ postRemoveTwoStepAuthentication-title-2 = Poistit kaksivaiheisen todennuksen kä
 postRemoveTwoStepAuthentication-from-device = Poistit sen käytöstä käyttäen:
 postRemoveTwoStepAuthentication-action = Hallinnoi tiliä
 postRemoveTwoStepAuthentication-not-required-2 = Et tarvitse enää kertakäyttökoodeja todennussovelluksestasi kirjautuessasi sisään.
+postSigninRecoveryCode-preview = Vahvista tilin toiminta
+postSigninRecoveryCode-title = Varatodennuskoodiasi käytettiin kirjautumiseen
+postSigninRecoveryCode-description = Jos se et ollut sinä, sinun tulee vaihtaa salasanasi välittömästi, jotta tilisi pysyy turvassa.
+postSigninRecoveryCode-action = Hallinnoi tiliä
+postSigninRecoveryPhone-preview = Vahvista tilin toiminta
+postSigninRecoveryPhone-description = Jos se et ollut sinä, sinun tulee vaihtaa salasanasi välittömästi, jotta tilisi pysyy turvassa.
+postSigninRecoveryPhone-action = Hallinnoi tiliä
 postVerify-sub-title-3 = Mukava nähdä sinua!
 postVerify-title-2 = Haluatko nähdä saman välilehden kahdessa laitteessa?
 postVerify-description-2 = Se on helppoa! Asenna { -brand-firefox } toiseen laitteeseen ja kirjaudu sisään synkronointia varten. Se on kuin taikuutta!
@@ -617,6 +661,7 @@ verifySecondaryCode-expiry-notice-2 = Se vanhenee 5 minuutissa. Vahvistamisen j�
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = Vahvista tilisi
+verifyShortCode-preview = Käytä mukana tulevaa koodia vahvistaaksesi { -product-mozilla-account }si.
 verifyShortCode-title-3 = Avaa Internet { -brand-mozilla }lla
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = Vahvista tilisi ja ota kaikki hyöty irti { -brand-mozilla }sta kaikkialla missä kirjaudut sisään, aloittaen tästä:

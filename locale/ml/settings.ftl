@@ -318,24 +318,48 @@ flow-setup-phone-confirm-code-button = ഉറപ്പിക്കുക
 
 ## HeaderLockup component, the header in account settings
 
+header-menu-open = കുറിപ്പടി അടയ്ക്കുക
+header-help = പിന്തുണ
 
 ## Linked Accounts section
 
+la-heading = ഇണച്ച അക്കൗണ്ടുകൾ
 
 ## Modal - Default values for a message directed at the user where the user can typically Confirm or Cancel.
 
+modal-close-title = അടയ്ക്കുക
+modal-cancel-button = റദ്ദാക്കുക
+modal-default-confirm-button = തീര്‍ച്ചപ്പെടുത്തുക
 
 ## Modal Verify Session
 
+mvs-verify-your-email-2 = ഇ-തപാൽ തീൎച്ചപ്പെടുത്തുക
 
 ## Settings Nav
 
+nav-settings = ക്രമീകരണങ്ങൾ
+nav-profile = രൂപരേഖ
+nav-security = സുരക്ഷ
+nav-connected-services = ബന്ധിപ്പിച്ച സേവനങ്ങൾ
+nav-data-collection = ദത്ത പിരിവും ഉപയോഗവും
+nav-email-comm = ഇതപാൽ ആശയവിനിമയങ്ങൾ
 
 ## Two Step Authentication - replace backup authentication code
 
+tfa-replace-code-1-2 = പടി 1/1
+tfa-replace-code-2-2 = പടി 2/2
 
 ## Avatar change page
 
+avatar-page-title =
+    .title = രൂപരേഖച്ചിത്രം
+avatar-page-add-photo = ചിത്രം ചേൎക്കുക
+avatar-page-add-photo-button =
+    .title = { avatar-page-add-photo }
+avatar-page-take-photo = ചിത്രം എടുക്കുക
+avatar-page-take-photo-button =
+    .title = { avatar-page-take-photo }
+avatar-page-remove-photo = ചിത്രം മാറ്റുക
 
 ##
 

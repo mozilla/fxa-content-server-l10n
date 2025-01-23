@@ -9,7 +9,13 @@ next-basic-error-message = Jokin meni pieleen. Yritä uudelleen myöhemmin.
 
 ## Page
 
+checkout-signin-or-create = 1. Kirjaudu sisään tai luo { -product-mozilla-account }
+checkout-create-account = Luo { -product-mozilla-account }
+continue-signin-with-google-button = Jatka käyttämällä { -brand-google }a
+continue-signin-with-apple-button = Jatka käyttämällä { -brand-apple }a
 next-payment-method-header = Valitse maksutapa
+# This message is used to indicate the second step in a multi step process.
+payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = Sinun on ensin hyväksyttävä tilauksesi
 next-payment-confirmation-thanks-heading-account-exists = Kiitos, tarkista nyt sähköpostisi!
 next-payment-confirmation-order-heading = Tilauksen tiedot

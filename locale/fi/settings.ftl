@@ -259,6 +259,8 @@ security-shield-aria-label =
 # Used for an image of a single key.
 recovery-key-image-aria-label =
     .aria-label = Tilin palautusavainta esittävä kuva.
+password-image-aria-label =
+    .aria-label = Kuva esittäen salasanan kirjoittamista.
 lightbulb-aria-label =
     .aria-label = Talletusvihjeen luomista esittävä kuva.
 email-code-image-aria-label =
@@ -267,6 +269,10 @@ recovery-phone-image-description =
     .aria-label = Mobiililaite, joka vastaanottaa koodin tekstiviestillä.
 recovery-phone-code-image-description =
     .aria-label = Koodi vastaanotettu mobiililaitteeseen.
+backup-recovery-phone-image-aria-label =
+    .aria-label = Mobiililaite tekstiviestitoiminnoilla
+backup-authentication-codes-image-aria-label =
+    .aria-label = Laitteen näyttö ja koodeja
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -983,6 +989,8 @@ tfa-row-backup-codes-get-new-cta = Hanki uudet koodit
 tfa-row-backup-codes-add-cta = Lisää
 # Shown with an alert icon to indicate that no recovery phone is configured
 tfa-row-backup-phone-not-available = Palauttamisen puhelinnumeroa ei ole saatavilla
+# button to change the configured recovery phone
+tfa-row-backup-phone-change-cta = Vaihda
 # button to add/configure a recovery phone
 tfa-row-backup-phone-add-cta = Lisää
 # Button to remove a recovery phone from the user's account
@@ -1570,12 +1578,14 @@ signin-recovery-code-required-error = Varatodennuskoodi vaaditaan
 
 signin-recovery-method-header = Kirjaudu sisään
 signin-recovery-method-subheader = Valitse palautustapa
+signin-recovery-method-code = Todennuskoodit
 # Variable: $numberOfCodes (String) - The number of authentication codes the user has left, e.g. 4
 signin-recovery-method-code-info = { $numberOfCodes } koodia jäljellä
 
 ## SigninRecoveryPhoneCodeConfirm page
 
 recovery-phone-code-confirm-flow-heading = Kirjaudu sisään
+recovery-phone-code-confirm-input-group-label = Syötä 6-numeroinen koodi
 recovery-phone-code-confirm-otp-submit-button = Vahvista
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
