@@ -138,6 +138,9 @@ icon-attention-aria-label =
 # Aria-label option for an alert symbol
 icon-warning-aria-label =
     .aria-label = മുന്നറിയിപ്പു്
+# Used to select Canada as country code for phone number
+canadian-flag-icon-aria-label =
+    .aria-label = കനേടിയൻ കൊടി
 # Used to indicate a check mark for an enabled state/option
 checkmark-enabled-icon-aria-label =
     .aria-label = സജ്ജമാണു്
@@ -155,12 +158,22 @@ error-icon-aria-label =
 ## Users see this view when we prompt them to generate an account recovery key
 ## after signing in.
 
+inline-recovery-key-setup-start-button = അക്കൌണ്ടു് വീണ്ടെടുപ്പു് സങ്കേതം ഉണ്ടാക്കുക
+inline-recovery-key-setup-later-button = പിന്നീടു് ചെയ്യുക
 
 ## Input Password
 
+# Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will hide the password.
+input-password-hide = രഹസ്യവാക്കു് മറയ്ക്കുക
+# Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will show the password.
+input-password-show = രഹസ്യവാക്കു് കാണിയ്ക്കുക
 
 ## Phone number component
 
+# This is an aria-label available to screen readers for a selection list that includes country flags, country name and country code
+input-phone-number-country-list-aria-label = രാജ്യം തിരഞ്ഞെടുക്കുക
+# Back button on legal/terms or legal/privacy that takes users to the previous page
+legal-back-button = പുറകോട്ടു്
 
 ## LinkDamaged component
 
@@ -170,6 +183,8 @@ error-icon-aria-label =
 
 ## LinkRememberPassword component
 
+# link navigates to the sign in page
+remember-password-signin-link = പ്രവേശിക്കുക
 
 ## LinkUsed component
 
