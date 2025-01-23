@@ -251,6 +251,19 @@ fraudulentAccountDeletion-contact = Se você tiver alguma dúvida, entre em cont
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Se você tiver alguma dúvida, entre em contato com nossa equipe de suporte: { $mozillaSupportUrl }
 inactiveAccountFinalWarning-subject = Última chance de manter sua { -product-mozilla-account }
+inactiveAccountFinalWarning-title = Sua conta { -brand-mozilla } e seus dados foram excluídos
+inactiveAccountFinalWarning-preview = Entre para manter sua conta
+inactiveAccountFinalWarning-account-description = Sua { -product-mozilla-account } é usada para acessar produtos gratuitos de navegação e privacidade, como a sincronização do { -brand-firefox }, { -product-mozilla-monitor }, { -product-firefox-relay } e { -product-mdn }.
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+# This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
+inactiveAccountFinalWarning-impact = Em <strong>{ $deletionDate }</strong>, sua conta e seus dados pessoais serão excluídos permanentemente, a menos que você entre na conta.
+inactiveAccountFinalWarning-action = Entre para manter sua conta
+# followed by link to sign in
+inactiveAccountFinalWarning-action-plaintext = Entre para manter sua conta:
+inactiveAccountFirstWarning-subject = Não perca sua conta
+inactiveAccountFirstWarning-title = Quer manter sua conta { -brand-mozilla } e seus dados?
+inactiveAccountFirstWarning-account-description-v2 = Sua { -product-mozilla-account } é usada para acessar produtos gratuitos de navegação e privacidade, como a sincronização do { -brand-firefox }, { -product-mozilla-monitor }, { -product-firefox-relay } e { -product-mdn }.
+inactiveAccountFirstWarning-inactive-status = Notamos que você não entra na sua conta há mais de 2 anos.
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title-zero = Você está sem códigos de autenticação de backup!
 codes-reminder-title-one = Você está com seu último código de autenticação de backup
