@@ -534,10 +534,16 @@ switch-is-off = അണച്ചതു്
 
 row-defaults-action-add = ചേര്‍ക്കുക
 row-defaults-action-change = മാറ്റുക
-row-defaults-action-disable = പ്രവര്‍ത്തനരഹിതമാക്കുക
+row-defaults-action-disable = പ്രവൎത്തനരഹിതമാക്കുക
 
 ## Account recovery key sub-section on main Settings page
 
+rk-enabled = പ്രവർത്തനക്ഷമമാക്കിയതു്
+rk-action-create = ഉണ്ടാക്കുക
+# Button to delete the existing account recovery key and create a new one
+rk-action-change-button = മാറ്റുക
+rk-action-remove = മായ്ക്കുക
+rk-key-removed-2 = അക്കൗണ്ടു് വീണ്ടെടുപ്പുക്കട്ടയെ മായച്ചു
 
 ## Secondary email sub-section on main Settings page
 
@@ -555,6 +561,10 @@ row-defaults-action-disable = പ്രവര്‍ത്തനരഹിതമ�
 ## ThirdPartyAuth component
 ## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
 
+# This appears when a user has the option to authenticate via third party accounts in addition to their Firefox account. 
+# Firefox account login appears on top, and third party options appear on bottom. 
+# This string appears as a separation between the two, in the following order: "Enter your password" "Or"(this string) "Continue with Google"(continue-with-google-button) / "Continue with Apple"(continue-with-apple-button)
+third-party-auth-options-or = അല്ലെങ്കിൽ
 
 ## Auth-server based errors that originate from backend service
 
