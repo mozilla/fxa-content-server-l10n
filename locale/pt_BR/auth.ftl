@@ -264,6 +264,22 @@ inactiveAccountFirstWarning-subject = Não perca sua conta
 inactiveAccountFirstWarning-title = Quer manter sua conta { -brand-mozilla } e seus dados?
 inactiveAccountFirstWarning-account-description-v2 = Sua { -product-mozilla-account } é usada para acessar produtos gratuitos de navegação e privacidade, como a sincronização do { -brand-firefox }, { -product-mozilla-monitor }, { -product-firefox-relay } e { -product-mdn }.
 inactiveAccountFirstWarning-inactive-status = Notamos que você não entra na sua conta há mais de 2 anos.
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+# This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
+inactiveAccountFirstWarning-impact = Sua conta e seus dados pessoais serão excluídos permanentemente em <strong>{ $deletionDate }</strong> porque você não tem estado ativo nela.
+inactiveAccountFirstWarning-action = Entre para manter sua conta
+inactiveAccountFirstWarning-preview = Entre para manter sua conta
+# followed by link to sign in
+inactiveAccountFirstWarning-action-plaintext = Entre para manter sua conta:
+inactiveAccountSecondWarning-subject = Ação necessária: Exclusão da conta daqui a 7 dias
+inactiveAccountSecondWarning-title = Sua conta { -brand-mozilla } e seus dados serão excluídos daqui a 7 dias
+inactiveAccountSecondWarning-account-description-v2 = Sua { -product-mozilla-account } é usada para acessar produtos gratuitos de navegação e privacidade, como a sincronização do { -brand-firefox }, { -product-mozilla-monitor }, { -product-firefox-relay } e { -product-mdn }.
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+inactiveAccountSecondWarning-impact = Sua conta e seus dados pessoais serão excluídos permanentemente em <strong>{ $deletionDate }</strong> porque você não tem estado ativo nela.
+inactiveAccountSecondWarning-action = Entre para manter sua conta
+inactiveAccountSecondWarning-preview = Entre para manter sua conta
+# followed by link to sign in
+inactiveAccountSecondWarning-action-plaintext = Entre para manter sua conta:
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title-zero = Você está sem códigos de autenticação de backup!
 codes-reminder-title-one = Você está com seu último código de autenticação de backup
