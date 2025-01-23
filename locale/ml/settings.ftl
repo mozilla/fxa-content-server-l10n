@@ -138,6 +138,14 @@ icon-attention-aria-label =
 # Aria-label option for an alert symbol
 icon-warning-aria-label =
     .aria-label = മുന്നറിയിപ്പു്
+# Used to indicate a check mark for an enabled state/option
+checkmark-enabled-icon-aria-label =
+    .aria-label = സജ്ജമാണു്
+# Used on X icon to dismiss a message such as an alert or banner
+close-icon-aria-label =
+    .aria-label = സന്ദേശം അടയ്ക്കുക
+error-icon-aria-label =
+    .aria-label = പിശകു്
 
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
