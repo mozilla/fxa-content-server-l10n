@@ -80,6 +80,7 @@ automated-email-support = P'aviri cchiù assai nfurmazzioni, vìsita <a data-l10
 automated-email-change-plaintext-2 = Si nun fusti tu a fari sta cosa, cancia sùbbitu a to chiavi:
 #  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-support-plaintext = P'aviri cchiù assai nfurmazzioni, vìsita u situ di supportu di { -brand-mozilla }:
+automated-email-inactive-account = Chista è na littra mannata di manera autumàtica. A stai ricivennu picchì ài un { -product-mozilla-account } e sunnu 2 anni dâ to ùrtima trasuta.
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } Pi nfurmazzioni superchiu, vìsita l'<a data-l10n-name="supportLink">assistenza di { -brand-mozilla }</a>.
 automated-email-no-action-plaintext = Chista è na littra mannata di manera autumàtica. Si a ricivisti pi sbagghiu, nun hâ fari nenti.
@@ -187,6 +188,36 @@ subscriptionFirstInvoice-content-charge = Addibbitatu { $invoiceTotal } u { $inv
 subscriptionSupport = Ài dumanni ncapu ô to abbunamentu? A nostra <a data-l10n-name="subscriptionSupportUrl">squatra di supportu</a> è cca p'ajutàriti.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Ài dumanni ncapu ô to abbunamento? A nostra squatra di supportu è cca p'ajutàriti:
+# Variables:
+#  $uaBrowser (String) - User's browser, e.g. Firefox
+#  $uaOS (String) - User's OS, e.g. Mac OSX
+#  $uaOSVersion (String) - User's OS version, e.g. 10.11
+device-all = { $uaBrowser } pi { $uaOS } { $uaOSVersion }
+# Variables:
+#  $uaBrowser (String) - User's browser, e.g. Firefox
+#  $uaOS (String) - User's OS, e.g. Mac OSX
+device-browser-os = { $uaBrowser } pi { $uaOS }
+view-invoice = <a data-l10n-name="invoiceLink">Vidi a to fattura</a>.
+# Variables:
+#  $invoiceLink (String) - The link to the invoice
+# After the colon, there's a link to https://pay.stripe.com/
+view-invoice-plaintext = Vidi fattura: { $invoiceLink }
+cadReminderFirst-subject-1 = Ricòrdati! Sincrunizza { -brand-firefox }
+cadReminderFirst-action = Sincrunizza n'autru dispusitivu
+cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
+# In the title of the email, "It takes two to sync", "two" refers to syncing two devices
+cadReminderFirst-title-1 = Sèrbinu du' sincrunizzazzioni
+cadReminderSecond-action = Sincrunizza n'autru dispusitivu
+cadReminderSecond-title-2 = Nun ti scurdari di sincrunizzari!
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+downloadSubscription-subject = Bummegna nne { $productName }
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+downloadSubscription-title = Bummegna nne { $productName }
+downloadSubscription-link-action-2 = Accumincia
+fraudulentAccountDeletion-subject-2 = U to { -product-mozilla-account } fu scancillatu
+fraudulentAccountDeletion-title = U to cuntu fu scancillatu
 inactiveAccountFinalWarning-action = Trasi pi mantiniri u to cuntu
 # followed by link to sign in
 inactiveAccountFinalWarning-action-plaintext = Trasi pi mantiniri u to cuntu:
