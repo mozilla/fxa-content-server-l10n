@@ -10,18 +10,30 @@ settings-project-header-title = { -product-mozilla-account }
 
 ## Component - CouponForm
 
+coupon-remove = മാറ്റുക
 
 ## Component - Fields
 
+default-input-error = ഈ തലം പൂരിപ്പിക്കേണ്ടതാണു്
+input-error-is-required = { $label } ആവശ്യമാണു്
 
 ## Component - Header
 
+brand-name-mozilla-logo = { -brand-mozilla } അടയാളം
 
 ## Component - NewUserEmailForm
 
+# "Required" to indicate that the user must use the checkbox below this text to
+# agree to a payment method's terms of service and privacy notice in order to
+# continue.
+new-user-enter-email =
+    .label = താങ്ങളുടെ ഇ-തപാൽ നൽകുക
+new-user-confirm-email =
+    .label = ഇ-തപാൽ സ്ഥിരീകരിക്കുക
 
 ## Component - PaymentConfirmation
 
+payment-confirmation-thanks-heading = നന്ദി
 
 ## Component - PaymentConsentCheckbox
 
