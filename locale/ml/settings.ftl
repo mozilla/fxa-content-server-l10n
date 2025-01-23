@@ -183,6 +183,8 @@ legal-back-button = പുറകോട്ടു്
 
 ## LinkRememberPassword component
 
+# immediately before remember-password-signin-link
+remember-password-text = രഹസ്യവാക്കു് ഓൎമ്മയുണ്ടോ?
 # link navigates to the sign in page
 remember-password-signin-link = പ്രവേശിക്കുക
 
@@ -191,6 +193,7 @@ remember-password-signin-link = പ്രവേശിക്കുക
 
 ## Notification Promo Banner component
 
+account-recovery-notification-cta = നിര്‍മ്മിക്കുക
 
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
@@ -198,28 +201,41 @@ remember-password-signin-link = പ്രവേശിക്കുക
 
 ## PasswordStrengthBalloon component
 
+password-strength-balloon-heading = രഹസ്യവാക്കു് ആവശ്യങ്ങൾ
+password-strength-balloon-not-email = താങ്ങളുടെ ഇതപാൽ വിലാസമല്ല
+password-strength-balloon-not-common = സാധാരണമുപയോഗപ്പെട്ട രഹസ്യവാക്കല്ല
 
 ## PasswordStrengthBalloon component
 
+password-strength-inline-not-email = താങ്ങളുടെ ഇതപാൽ വിലാസമല്ല
+password-strength-inline-not-common = സാധാരണമുപയോഗപ്പെട്ട രഹസ്യവാക്കല്ല
 
 ## Ready component
 
+ready-continue = തുടരുക
+sign-in-complete-header = പ്രവേശിക്കൽ സ്ഥിരീകരിച്ചു
 
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
 
+flow-recovery-key-download-storage-ideas-folder-v2 = സുരക്ഷിത ഉപരണത്തിലായ അറ
 
 ## RecoveryKeySetupHint
 ## This is the final step in the account recovery key creation flow after a Sync signin or in account settings
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
+# The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
+# "Finish" refers to "Finish the account recovery key creation process"
+flow-recovery-key-hint-cta-text = തീൎക്കുക
 
 ## ResetPasswordWarning component
 ## Warning shown to sync users that reset their password without using an account recovery key
 
+password-reset-warning-icon = മുന്നറിയിപ്പു്
 
 ## Alert Bar
 
+alert-bar-close-message = സന്ദേശം അടയ്ക്കുക
 
 ## User's avatar
 
@@ -252,18 +268,26 @@ remember-password-signin-link = പ്രവേശിക്കുക
 
 ##
 
+cs-sign-out-button = പുറത്തുകടക്കുക
 
 ##
 
 
 ## Data collection section
 
+dc-learn-more = കൂടുതല്‍ അറിയുക
 
 # DropDownAvatarMenu component
 
+drop-down-menu-title-2 = { -product-mozilla-account } കുറിപ്പടി
+# This is displayed in the Settings menu after user's click on their profile icon.
+# Following this string on a new line will be their display name (user's name or email)
+drop-down-menu-signed-in-as-v2 = ആയി പ്രവേശിച്ചിരിയ്ക്കുന്നു
+drop-down-menu-sign-out = പുറത്തുകടക്കുക
 
 ## Flow Container
 
+flow-container-back = പുറകോട്ടു്
 
 ## FlowRecoveryKeyConfirmPwd - Second view in the PageRecoveryKeyCreate flow
 ## Users see this view when they are generating a new account recovery key
@@ -282,9 +306,12 @@ remember-password-signin-link = പ്രവേശിക്കുക
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
+# Link to cancel account recovery key change and return to settings
+flow-recovery-key-info-cancel-link = റദ്ദാക്കുക
 
 ## FlowSetupPhoneConfirmCode
 
+flow-setup-phone-confirm-code-button = ഉറപ്പിക്കുക
 
 ## FlowSetupPhoneConfirmCode
 

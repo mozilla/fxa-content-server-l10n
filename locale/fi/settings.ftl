@@ -297,6 +297,8 @@ input-password-sr-only-now-hidden = Salasanasi on nyt piilotettu.
 
 ## Phone number component
 
+# This is an aria-label available to screen readers for a selection list that includes country flags, country name and country code
+input-phone-number-country-list-aria-label = Valitse maa
 input-phone-number-enter-number = Kirjoita puhelinnumero
 input-phone-number-country-united-states = Yhdysvallat
 input-phone-number-country-canada = Kanada
@@ -537,6 +539,9 @@ dc-learn-more = Lue lisää
 # DropDownAvatarMenu component
 
 drop-down-menu-title-2 = { -product-mozilla-account }en valikko
+# This is displayed in the Settings menu after user's click on their profile icon.
+# Following this string on a new line will be their display name (user's name or email)
+drop-down-menu-signed-in-as-v2 = Kirjauduttu tunnuksella
 drop-down-menu-sign-out = Kirjaudu ulos
 drop-down-menu-sign-out-error-2 = Valitettavasti uloskirjautumisen kanssa ilmeni ongelma
 
@@ -590,9 +595,22 @@ flow-recovery-key-info-cancel-link = Peruuta
 
 ## FlowSetupPhoneConfirmCode
 
+# verification code refers to a code sent by text message to confirm phone number ownership
+# and complete setup
+flow-setup-phone-confirm-code-heading = Kirjoita vahvistuskoodi
+flow-setup-phone-confirm-code-input-label = Kirjoita 6-numeroinen koodi
+flow-setup-phone-confirm-code-button = Vahvista
+# button to resend a code by text message to the user's phone
+# followed by a button to resend a code
+flow-setup-phone-confirm-code-expired = Vanheniko koodi?
+flow-setup-phone-confirm-code-resend-code-button = Lähetä koodi uudelleen
+flow-setup-phone-confirm-code-success-message-v2 = Palauttamisen puhelinnumero lisätty
 
 ## FlowSetupPhoneConfirmCode
 
+flow-setup-phone-submit-number-heading = Vahvista puhelinnumerosi
+# cliking on the button sends a code by text message to the phone number typed in by the user
+flow-setup-phone-submit-number-button = Lähetä koodi
 
 ## HeaderLockup component, the header in account settings
 
@@ -814,9 +832,13 @@ recovery-key-create-back-button-title = Takaisin asetuksiin
 ## PageRecoveryPhoneRemove
 ## Users reach this page from account settings when they want to remove a backup phone number.
 
+recovery-phone-remove-header = Poista palauttamisen puhelinnumero
+settings-recovery-phone-remove-button = Poista puhelinnumero
+settings-recovery-phone-remove-cancel = Peruuta
 
 ## PageSetupRecoveryPhone
 
+page-setup-recovery-phone-heading = Lisää palauttamisen puhelinnumero
 
 ## Add secondary email page
 
@@ -959,10 +981,14 @@ tfa-row-backup-codes-get-new-cta = Hanki uudet koodit
 # Shown to users who have no backup authentication codes
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = Lisää
+# Shown with an alert icon to indicate that no recovery phone is configured
+tfa-row-backup-phone-not-available = Palauttamisen puhelinnumeroa ei ole saatavilla
 # button to add/configure a recovery phone
 tfa-row-backup-phone-add-cta = Lisää
 # Button to remove a recovery phone from the user's account
 tfa-row-backup-phone-delete-button = Poista
+# Shown in tooltip on delete button or delete icon
+tfa-row-backup-phone-delete-title-v2 = Poista palauttamisen puhelinnumero
 
 ## Switch component
 
@@ -1527,6 +1553,7 @@ signin-push-code-confirm-link-error = Linkki on vaurioitunut. Yritä uudelleen.
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
 signin-recovery-code-heading = Kirjaudu sisään
+signin-recovery-code-input-label-v2 = Kirjoita 10-merkkinen koodi
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Vahvista
 # Link to return to signin with two-step authentication code
@@ -1541,9 +1568,15 @@ signin-recovery-code-required-error = Varatodennuskoodi vaaditaan
 ## This page is shown to users when they are having trouble signing in with
 ## their password, and they previously had set up an account recovery method.
 
+signin-recovery-method-header = Kirjaudu sisään
+signin-recovery-method-subheader = Valitse palautustapa
+# Variable: $numberOfCodes (String) - The number of authentication codes the user has left, e.g. 4
+signin-recovery-method-code-info = { $numberOfCodes } koodia jäljellä
 
 ## SigninRecoveryPhoneCodeConfirm page
 
+recovery-phone-code-confirm-flow-heading = Kirjaudu sisään
+recovery-phone-code-confirm-otp-submit-button = Vahvista
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
