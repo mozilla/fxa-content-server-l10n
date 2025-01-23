@@ -28,6 +28,9 @@ button-back-title = പുറകോട്ടു്
 recovery-key-download-button-v3 = കരുതിവച്ചിട്ടു് തുടരുക
     .title = കരുതിവച്ചിട്ടു് തുടരുക
 recovery-key-pdf-heading = അക്കൌണ്ടു് വീണ്ടെടുപ്പു് സങ്കേതം
+# Date when the account recovery key was created and this file was downloaded
+# { $date }: formatted date with 'medium' dateStyle format (e.g., for 'en': Jul 31, 2023)
+recovery-key-pdf-download-date = ഉണ്ടാക്കിയതു്: { $date }
 # Shown directly above recovery key value and preceeded by a key icon
 recovery-key-pdf-key-legend = അക്കൌണ്ടു് വീണ്ടെടുപ്പു് സങ്കേതം
 
@@ -38,20 +41,68 @@ recovery-key-pdf-key-legend = അക്കൌണ്ടു് വീണ്ടെ�
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
 
+choose-what-to-sync-option-bookmarks =
+    .label = അടയാളക്കുറിപ്പുകള്‍
+choose-what-to-sync-option-history =
+    .label = നാള്‍വഴി
+choose-what-to-sync-option-passwords =
+    .label = രഹസ്യവാക്കുകൾ
+choose-what-to-sync-option-addons =
+    .label = ആഡ്-ഓണുകള്‍
+# Refers to 'tabs that are open', not the action
+choose-what-to-sync-option-tabs =
+    .label = തുറന്ന ടാബുകള്‍
+choose-what-to-sync-option-prefs =
+    .label = മുന്‍ഗണനകള്‍
+choose-what-to-sync-option-addresses =
+    .label = വിലാസങ്ങള്‍
+choose-what-to-sync-option-paymentmethods =
+    .label = പണമടക്കൽ മുറകൾ
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
+datablock-download =
+    .message = ഇറക്കിവച്ചു
+datablock-copy =
+    .message = പകൎത്തി!
+datablock-print =
+    .message = അച്ചടിച്ചു
 
 ## DeviceInfoBlock component
 ## The strings here are used to display information about the origin of activity happening on a user's account
 ## For example, when connecting another device to the user's account
 
+# Variable { $ipAddress } represents the IP address where the request originated
+# The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
+device-info-ip-address = ഐപി വിലാസം: { $ipAddress }
 
 ## FormPasswordWithBalloons
 
+signup-new-password-label =
+    .label = രഹസ്യവാക്കു്
+signup-confirm-password-label =
+    .label = രഹസ്യവാക്ക് വീണ്ടും എഴുതുക
+signup-submit-button = അക്കൗണ്ടു് ഉണ്ടാക്കുക
+form-reset-password-with-balloon-new-password =
+    .label = പുതിയ രഹസ്യവാക്കു്
+form-reset-password-with-balloon-confirm-password =
+    .label = രഹസ്യവാക്കു് വീണ്ടും നല്കുക:
+form-reset-password-with-balloon-submit-button = രഹസ്യവാക്കു് പുനസജ്ജീകരിക്കുക
+form-reset-password-with-balloon-match-error = രഹസ്യവാക്കുകൾ പൊരുത്തപ്പെടുന്നില്ല
 
 ## FormPasswordInlineCriteria
 
+form-password-with-inline-criteria-signup-new-password-label =
+    .label = രഹസ്യവാക്കു്
+form-password-with-inline-criteria-signup-confirm-password-label =
+    .label = രഹസ്യവാക്കു് വീണ്ടും എഴുതുക
+form-password-with-inline-criteria-signup-submit-button = അക്കൗണ്ടു് ഉണ്ടാക്കുക
+form-password-with-inline-criteria-reset-new-password =
+    .label = പുതിയ രഹസ്യവാക്കു്
+form-password-with-inline-criteria-confirm-password =
+    .label = രഹസ്യവാക്കു് ഉറപ്പിക്കുക
+form-password-with-inline-criteria-reset-submit-button = പുതിയ രഹസ്യവാക്കു് ഉണ്ടാക്കുക
+form-password-with-inline-criteria-match-error = രഹസ്യവാക്കുകൾ പൊരുത്തപ്പെടുന്നില്ല
 
 ## FormVerifyCode
 
@@ -62,10 +113,31 @@ recovery-key-pdf-key-legend = അക്കൌണ്ടു് വീണ്ടെ�
 
 # GetDataTrio component, part of Account Recovery Key flow
 
+get-data-trio-title-firefox = { -brand-firefox }
+get-data-trio-title-firefox-recovery-key = { -brand-firefox } അക്കൌണ്ടു് വീണ്ടെടുപ്പു് സങ്കേതം
+get-data-trio-title-backup-verification-codes = കരുതൽ പകർപ്പു് ആധികാരികമാക്കൽ-സങ്കേതങ്ങൾ
+get-data-trio-download-2 =
+    .title = ഇറക്കിവയ്ക്കുക
+    .aria-label = ഇറക്കിവയ്ക്കുക
+get-data-trio-copy-2 =
+    .title = പകൎത്തുക
+    .aria-label = പകൎത്തുക
+get-data-trio-print-2 =
+    .title = അച്ചടിപ്പിക്കുക
+    .aria-label = അച്ചടിപ്പിക്കുക
 
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
+# Aria-label option for an alert symbol
+alert-icon-aria-label =
+    .aria-label = അറിയിപ്പു്
+# Aria-label option for an alert symbol
+icon-attention-aria-label =
+    .aria-label = ശ്രദ്ധിക്കുക
+# Aria-label option for an alert symbol
+icon-warning-aria-label =
+    .aria-label = മുന്നറിയിപ്പു്
 
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
