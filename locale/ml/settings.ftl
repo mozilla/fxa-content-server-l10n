@@ -565,6 +565,7 @@ verify-secondary-email-verify-button-2 = ഉറപ്പിക്കുക
 
 ## Two Step Authentication
 
+tfa-button-cancel = റദ്ദാക്കുക
 
 ##
 
@@ -667,6 +668,7 @@ third-party-auth-options-or = അല്ലെങ്കിൽ
 
 auth-error-102 = അറിയാത്ത അക്കൗണ്ടു്
 auth-error-103 = തെറ്റായ രഹസ്യവാക്കു്
+auth-error-1001 = പ്രവേശന ശ്രമം റദ്ദാക്കി
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
@@ -693,6 +695,9 @@ connect-another-device-not-now-link = ഇപ്പോഴല്ല
 ## When users are creating an account, they may get pushed to setup 2FA
 ## in this case, they will encounter this page in the signup process (hence calling it "Inline)
 
+# This button allows a user to copy their recovery codes to their clipboard
+# This button allows the user to cancel setup of two-factor authentication for their account
+inline-recovery-cancel-button = റദ്ദാക്കുക
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
