@@ -76,6 +76,7 @@ automated-email-support = დამატებით იხილეთ <a data
 automated-email-change-plaintext-2 = თუ ეს თქვენი ნამოქმედარი არაა, შეცვალეთ პაროლი დაუყოვნებლივ:
 #  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-support-plaintext = დამატებით იხილეთ { -brand-mozilla }-ს მხარდაჭერის გვერდი:
+automated-email-inactive-account = ეს ავტომატური შეტყობინებაა. გამოგეგზავნათ იმიტომ, რომ შექმნილი გაქვთ { -product-mozilla-account } და 2 წელია გასული თქვენი ბოლო შესვლიდან.
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } ვრცლად იხილეთ <a data-l10n-name="supportLink">{ -brand-mozilla }-მხარდაჭერა</a>.
 automated-email-no-action-plaintext = ეს წერილი ავტომატურად იგზავნება. თუ შეცდომით მიიღეთ, საჭირო არაა რამე მოიმოქმედოთ.
@@ -242,6 +243,9 @@ fraudulentAccountDeletion-contact = თუ თქვენ გაქვთ შ�
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = თუ გაქვთ კითხვები, გთხოვთ, დაუკავშირდეთ ჩვენი მხარდაჭერის გუნდს: { $mozillaSupportUrl }
+inactiveAccountFinalWarning-subject = უკანასკნელად გეძლევათ საშუალება, შეინარჩუნოთ { -product-mozilla-account }
+inactiveAccountFinalWarning-title = თქვენი { -brand-mozilla }-ანგარიში და მონაცემები წაიშლება
+inactiveAccountFinalWarning-preview = შედით, რომ შეინარჩუნოთ ანგარიში
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title-zero = ამოიწურა სამარქაფო კოდები შესვლის დასამოწმებლად!
 codes-reminder-title-one = ბოლო სამარქაფო კოდია შესვლის დასამოწმებლად
