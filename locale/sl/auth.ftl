@@ -253,7 +253,7 @@ fraudulentAccountDeletion-contact-plaintext = Če imate kakršnakoli vprašanja,
 inactiveAccountFinalWarning-subject = Zadnja priložnost, da obdržite svoj { -product-mozilla-account(sklon: "tozilnik") }
 inactiveAccountFinalWarning-title = Vaš račun { -brand-mozilla } in podatki bodo izbrisani
 inactiveAccountFinalWarning-preview = Prijavite se, če želite obdržati račun
-inactiveAccountFinalWarning-account-description = Vaš { -product-mozilla-account } se uporablja za dostop do brezplačnih izdelkov za zasebnost in brskanje, kot so { -brand-firefox } sync, { -product-mozilla-monitor }, { -product-firefox-relay } in { -product-mdn }
+inactiveAccountFinalWarning-account-description = { -product-mozilla-account(zacetnica: "velika") } vam daje dostop do brezplačnih izdelkov za zasebnost in brskanje, kot so sinhronizacija { -brand-firefox(sklon: "rodilnik") }, { -product-mozilla-monitor }, { -product-firefox-relay } in { -product-mdn }.
 # $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
 # This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
 inactiveAccountFinalWarning-impact = <strong>{ $deletionDate }</strong> bodo vaš račun in osebni podatki trajno izbrisani, razen če se prijavite vanj.
@@ -273,7 +273,7 @@ inactiveAccountFirstWarning-preview = Prijavite se, če želite obdržati račun
 inactiveAccountFirstWarning-action-plaintext = Prijavite se, če želite obdržati račun:
 inactiveAccountSecondWarning-subject = Potrebno je ukrepanje: račun bo čez 7 dni izbrisan
 inactiveAccountSecondWarning-title = Vaš račun { -brand-mozilla } in podatki v njem bodo po 7 dneh izbrisani
-inactiveAccountSecondWarning-account-description-v2 = Vaš { -product-mozilla-account } se uporablja za dostop do brezplačnih izdelkov za zasebnost in brskanje, kot so { -brand-firefox } sync, { -product-mozilla-monitor }, { -product-firefox-relay } in { -product-mdn }
+inactiveAccountSecondWarning-account-description-v2 = { -product-mozilla-account(zacetnica: "velika") } vam daje dostop do brezplačnih izdelkov za zasebnost in brskanje, kot so sinhronizacija { -brand-firefox(sklon: "rodilnik") }, { -product-mozilla-monitor }, { -product-firefox-relay } in { -product-mdn }.
 # $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
 inactiveAccountSecondWarning-impact = Zaradi nedejavnosti bodo vaš račun in osebni podatki <strong>{ $deletionDate }</strong> trajno izbrisani.
 inactiveAccountSecondWarning-action = Prijavite se, če želite obdržati račun
@@ -436,7 +436,7 @@ postSigninRecoveryCode-device = Prijavili ste se iz:
 postSigninRecoveryCode-action = Upravljanje računa
 postSigninRecoveryPhone-subject = Obnovitvena telefonska številka je bila uporabljena za prijavo
 postSigninRecoveryPhone-preview = Potrdite dejavnost v računu
-postSigninRecoveryPhone-title = Za prijavo je bila uporabljena vaša obnovitvena telefonska številka
+postSigninRecoveryPhone-title = Vaša obnovitvena telefonska številka je bila uporabljena za prijavo
 postSigninRecoveryPhone-description = Če tega niste storili vi, takoj spremenite geslo, da zavarujete račun.
 postSigninRecoveryPhone-device = Prijavili ste se iz:
 postSigninRecoveryPhone-action = Upravljanje računa
