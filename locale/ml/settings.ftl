@@ -7,12 +7,24 @@
 
 resend-code-success-banner-heading = താങ്ങളുടെ ഇതപാലിലേക്കൊരു പുതിയ സൂചിക അയച്ചിട്ടുണ്ടു്
 resend-link-success-banner-heading = താങ്ങളുടെ ഇതപാലിലേക്കൊരു പുതിയ കണ്ണി അയച്ചിട്ടുണ്ടു്
+# $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
+resend-success-banner-description = തടസ്സമില്ലാത്ത വിതരണത്തിനു് { $accountsEmail }-നെ താങ്ങളുടെ വിളിപ്പട്ടികയിലോട്ടു് ചേൎക്കുക
 
 ## Brand Messaging component
 ## Used to show in product messaging about upcoming brand changes
 
+# This aria-label applies to the dismiss/close button of the banner
+# This text is for screen-readers
+brand-banner-dismiss-button-2 =
+    .aria-label = പടക്കൊടി അടയ്ക്കുക
 # This is an extra link element, that directs users to a page where they can learn more about the branding changes.
 brand-learn-more = കൂടുതല്‍ അറിയുക
+# Alt text for close banner image
+brand-close-banner =
+    .alt = പടക്കൊടി അടയ്ക്കുക
+# Alt text for 'm' logo in banner header
+brand-m-logo =
+    .alt = { -brand-mozilla } m അടയാളം
 
 ## ButtonBack component
 ## Allows users to click a back arrow to navigate to the previous page
@@ -43,6 +55,9 @@ recovery-key-pdf-key-legend = അക്കൌണ്ടു് വീണ്ടെ�
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
 
+# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
+# That users can choose to sync
+choose-what-to-sync-prompt-2 = എന്തൊക്കെയാണു് സമന്വയിപ്പിക്കേണ്ടതെന്നു് തിരഞ്ഞെടുക്കുക
 choose-what-to-sync-option-bookmarks =
     .label = അടയാളക്കുറിപ്പുകള്‍
 choose-what-to-sync-option-history =
@@ -74,6 +89,23 @@ datablock-print =
 ## The strings here are used to display information about the origin of activity happening on a user's account
 ## For example, when connecting another device to the user's account
 
+# Variables { $city }, { $region }, { $country } represent the estimated location of the user's device
+# For example, 'Vancouver, British Columbia, Canada (estimated)'
+device-info-block-location-city-region-country = { $city }, { $region }, { $country } (മിക്കവാറും)
+# Variables { $region }, { $country } represent the estimated location of the user's device
+# For example, 'British Columbia, Canada (estimated)'
+device-info-block-location-region-country = { $region }, { $country } (മിക്കവാറും)
+# Variables { $city }, { $country } represent the estimated location of the user's device
+# For example, 'Vancouver, Canada (estimated)'
+device-info-block-location-city-country = { $city }, { $country } (മിക്കവാറും)
+# Variable { $country } represent the estimated location of the user's device
+# For example, 'Canada (estimated)'
+device-info-block-location-country = { $country } (മിക്കവാറും)
+# When an approximate location for the user's device could not be determined
+device-info-block-location-unknown = സ്ഥലം കണ്ടെത്താൻ കഴിഞ്ഞില്ല
+# Variable { $browserName } is the browser that created the request (e.g., Firefox)
+# Variable { $genericOSName } is the name of the operating system that created the request (e.g., MacOS, Windows, iOS)
+device-info-browser-os = { $genericOSName }-ൽ { $browserName }
 # Variable { $ipAddress } represents the IP address where the request originated
 # The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
 device-info-ip-address = ഐപി വിലാസം: { $ipAddress }
@@ -91,6 +123,8 @@ form-reset-password-with-balloon-confirm-password =
     .label = രഹസ്യവാക്കു് വീണ്ടും നല്കുക:
 form-reset-password-with-balloon-submit-button = രഹസ്യവാക്കു് പുനസജ്ജീകരിക്കുക
 form-reset-password-with-balloon-match-error = രഹസ്യവാക്കുകൾ പൊരുത്തപ്പെടുന്നില്ല
+form-password-sr-too-short-message = രഹസ്യവാക്കിൽ 8 പ്രതീകങ്ങളെങ്കിലും ഉണ്ടാവണം.
+form-password-sr-not-email-message = രഹസ്യവാക്കിൽ താങ്ങളുടെ ഇതപാൽവിലാസം ഉൾപ്പെടരുതു്
 
 ## FormPasswordInlineCriteria
 
