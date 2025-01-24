@@ -372,7 +372,7 @@ flow-container-back = പുറകോട്ടു്
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
 # The text of the "submit" button to start creating (or changing) an account recovery key
-flow-recovery-key-info-cta-text-v3 = ഉപയോഗിച്ചു് തുടങ്ങൂ
+flow-recovery-key-info-cta-text-v3 = ഉപയോഗിക്കാൻ തുടങ്ങുക
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = റദ്ദാക്കുക
 
@@ -729,11 +729,16 @@ connect-another-device-not-now-link = ഇപ്പോഴല്ല
 
 ## Pair index page
 
+# Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
+pair-sync-your-device-button = താങ്ങളുടെ ഉപകരണത്തിനെ സമന്വയിപ്പിക്കുക
 # This allows the user to exit the sync/pair flow, and redirects them back to Settings
 pair-not-now-button = ഇപ്പോഴല്ല
+# This initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
+pair-get-started-button = ഉപയോഗിക്കാൻ തുടങ്ങുക
 
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
+pair-success-header-2 = ഉപകരണം ബന്ധിപ്പിച്ചു
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
