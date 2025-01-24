@@ -5,6 +5,8 @@
 
 ## Banner component
 
+resend-code-success-banner-heading = താങ്ങളുടെ ഇതപാലിലേക്കൊരു പുതിയ സൂചിക അയച്ചിട്ടുണ്ടു്
+resend-link-success-banner-heading = താങ്ങളുടെ ഇതപാലിലേക്കൊരു പുതിയ കണ്ണി അയച്ചിട്ടുണ്ടു്
 
 ## Brand Messaging component
 ## Used to show in product messaging about upcoming brand changes
