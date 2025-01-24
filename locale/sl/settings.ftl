@@ -650,7 +650,7 @@ flow-setup-phone-verify-number-instruction = Od { -brand-mozilla(sklon: "rodilni
 # Voice over Internet Protocol (VoIP), is a technology that uses a broadband Internet connection instead of a regular (or analog) phone line to make calls.
 # Phone mask services (for example Relay) provide a temporary virtual number to avoid providing a real phone number.
 # Both VoIP and phone masks can be unreliable for one-time-passcode (OTP) verification
-flow-setup-phone-submit-number-info-message-v2 = Obnovitvena telefonska številka je na voljo samo v Združenih državah in Kanadi. VoIP številke in telefonske maske niso priporočljivi.
+flow-setup-phone-submit-number-info-message-v2 = Telefonska številka za obnovitev je na voljo samo v ZDA in Kanadi. Uporabe številk VoIP in telefonskih mask ne priporočamo.
 flow-setup-phone-submit-number-legal = S predložitvijo vaše številke se strinjate z njeno shranjevanjem, da vam lahko pošiljamo sporočila samo za potrditev računa. Sporočila in prenos podatkov lahko nastanejo.
 # cliking on the button sends a code by text message to the phone number typed in by the user
 flow-setup-phone-submit-number-button = Pošlji kodo
@@ -1046,8 +1046,8 @@ tfa-row-backup-phone-add-cta = Dodaj
 # Button to remove a recovery phone from the user's account
 tfa-row-backup-phone-delete-button = Odstrani
 # Shown in tooltip on delete button or delete icon
-tfa-row-backup-phone-delete-title-v2 = Odstranite obnovitveno telefonsko številko
-tfa-row-backup-phone-delete-restriction-v2 = Če želite odstraniti telefonsko številko za obnovitev, dodajte rezervne kode za overitev ali najprej onemogočite overjanje v dveh korakih, da preprečite izgubo dostopa do računa.
+tfa-row-backup-phone-delete-title-v2 = Odstranite telefonsko številko za obnovitev
+tfa-row-backup-phone-delete-restriction-v2 = Če želite odstraniti telefonsko številko za obnovitev, najprej dodajte rezervne overitvene kode ali onemogočite overjanje v dveh korakih, da preprečite izgubo dostopa do računa.
 # "this" refers to recovery phone
 tfa-row-backup-phone-description = To je preprostejša metoda obnovitve, če nimate možnosti uporabe aplikacije za overitev.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
@@ -1685,7 +1685,7 @@ recovery-phone-code-confirm-flow-heading = Prijava
 recovery-phone-code-confirm-with-code-heading = Vnesite kodo za obnovitev
 # Text that explains the user should check their phone for a recovery code
 # $maskedPhoneNumber - The users masked phone number
-recovery-phone-code-confirm-code-instruction = Šestmestna koda je bila poslana na <span>{ $maskedPhoneNumber }</span> v sporočilu SMS. Koda poteče po 5 minutah.
+recovery-phone-code-confirm-code-instruction = Na <span>{ $maskedPhoneNumber }</span> je bilo poslano sporočilo SMS s šestmestno kodo. Koda poteče po 5 minutah.
 recovery-phone-code-confirm-input-group-label = Vnesite 6-mestno kodo
 recovery-phone-code-confirm-otp-submit-button = Potrdi
 
