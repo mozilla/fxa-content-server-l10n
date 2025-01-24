@@ -125,6 +125,9 @@ form-reset-password-with-balloon-submit-button = രഹസ്യവാക്ക�
 form-reset-password-with-balloon-match-error = രഹസ്യവാക്കുകൾ പൊരുത്തപ്പെടുന്നില്ല
 form-password-sr-too-short-message = രഹസ്യവാക്കിൽ 8 പ്രതീകങ്ങളെങ്കിലും ഉണ്ടാവണം.
 form-password-sr-not-email-message = രഹസ്യവാക്കിൽ താങ്ങളുടെ ഇതപാൽവിലാസം ഉൾപ്പെടരുതു്
+form-password-sr-not-common-message = രഹസ്യവാക്കു് ഒരു സാധാരണമായി ഉപയോഗിക്കപ്പെട്ട രഹസ്യവാക്കു് ആവരുതു്
+form-password-sr-requirements-met = നല്കിയ രഹസ്യവാക്കു് എല്ലാ ആവശ്യങ്ങളെയും പൂൎതീകരിക്കുന്നു.
+form-password-sr-passwords-match = നല്കിയ രഹസ്യവാക്കുകൾ പൊരുത്തപ്പെടുന്നു
 
 ## FormPasswordInlineCriteria
 
@@ -139,13 +142,30 @@ form-password-with-inline-criteria-confirm-password =
     .label = രഹസ്യവാക്കു് ഉറപ്പിക്കുക
 form-password-with-inline-criteria-reset-submit-button = പുതിയ രഹസ്യവാക്കു് ഉണ്ടാക്കുക
 form-password-with-inline-criteria-match-error = രഹസ്യവാക്കുകൾ പൊരുത്തപ്പെടുന്നില്ല
+form-password-with-inline-criteria-sr-too-short-message = രഹസ്യവാക്കിൽ 8 പ്രതീകങ്ങളെങ്കിലും ഉണ്ടാവണം.
+form-password-with-inline-criteria-sr-not-email-message = രഹസ്യവാക്കിൽ താങ്ങളുടെ ഇതപാൽവിലാസം ഉൾപ്പെടരുതു്
+form-password-with-inline-criteria-sr-not-common-message = രഹസ്യവാക്കു് ഒരു സാധാരണമായി ഉപയോഗിക്കപ്പെട്ട രഹസ്യവാക്കു് ആവരുതു്
+form-password-with-inline-criteria-sr-requirements-met = നല്കിയ രഹസ്യവാക്കു് എല്ലാ ആവശ്യങ്ങളെയും പൂൎതീകരിക്കുന്നു.
+form-password-with-inline-criteria-sr-passwords-match = നല്കിയ രഹസ്യവാക്കുകൾ പൊരുത്തപ്പെടുന്നു
 
 ## FormVerifyCode
 
+# Fallback default localized error message for empty input field
+form-verify-code-default-error = ഈ തലം പൂരിപ്പിക്കേണ്ടതാണു്
 
 ## FormVerifyTotp component
 ## Form to enter a time-based one-time-passcode (e.g., 6-digit numeric code or 8-digit alphanumeric code)
 
+# Information explaining why button is disabled, also read to screen readers
+# Submit button is disabled unless a valid code format is entered
+# Used when the code may only contain numbers
+# $codeLength : number of digits in a valid code
+form-verify-totp-disabled-button-title-numeric = തുടരാൻ വേണ്ടി { $codeLength }-അക്കം നീള കോഡു് നല്കുക
+# Information explaining why button is disabled, also read to screen readers
+# Submit button is disabled unless a valid code format is entered
+# Used when the code may contain numbers and/or letters
+# $codeLength : number of characters in a valid code
+form-verify-totp-disabled-button-title-alphanumeric = തുടരാൻ വേണ്ടി { $codeLength }-പ്രതീകം നീള കോഡു് നല്കുക
 
 # GetDataTrio component, part of Account Recovery Key flow
 
@@ -183,8 +203,14 @@ checkmark-enabled-icon-aria-label =
 # Used on X icon to dismiss a message such as an alert or banner
 close-icon-aria-label =
     .aria-label = സന്ദേശം അടയ്ക്കുക
+# Used to decorate a code you enter for verification purposes
+code-icon-aria-label =
+    .aria-label = കോഡ്
 error-icon-aria-label =
     .aria-label = പിശകു്
+# Used as information icon for informative messaging
+info-icon-aria-label =
+    .aria-label = വിവരം
 
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
@@ -248,6 +274,9 @@ password-strength-inline-not-common = സാധാരണമുപയോഗപ്
 
 ## Ready component
 
+manage-your-account-button = താങ്ങളുടെ അക്കൗണ്ടിനെ കൈകാര്യം ചെയ്യുക
+# Message shown when the account is ready but the user is not signed in
+ready-account-ready = താങ്ങളുടെ അക്കൗണ്ടു് തയ്യാറാണ്!
 ready-continue = തുടരുക
 sign-in-complete-header = പ്രവേശിക്കൽ സ്ഥിരീകരിച്ചു
 
@@ -342,12 +371,19 @@ flow-container-back = പുറകോട്ടു്
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
+# The text of the "submit" button to start creating (or changing) an account recovery key
+flow-recovery-key-info-cta-text-v3 = ഉപയോഗിച്ചു് തുടങ്ങൂ
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = റദ്ദാക്കുക
 
 ## FlowSetupPhoneConfirmCode
 
+flow-setup-phone-confirm-code-input-label = 6 അക്ക കോഡ് നൽകുക
 flow-setup-phone-confirm-code-button = ഉറപ്പിക്കുക
+# button to resend a code by text message to the user's phone
+# followed by a button to resend a code
+flow-setup-phone-confirm-code-expired = കോഡ് കാലഹരണപ്പെട്ടോ?
+flow-setup-phone-confirm-code-resend-code-button = കോഡ് വീണ്ടും അയയ്ക്കുക
 
 ## FlowSetupPhoneConfirmCode
 
@@ -355,6 +391,9 @@ flow-setup-phone-confirm-code-button = ഉറപ്പിക്കുക
 ## HeaderLockup component, the header in account settings
 
 header-menu-open = കുറിപ്പടി അടയ്ക്കുക
+header-back-to-top-link =
+    .title = മേൽപോട്ടു് തിരികെ പോവുക
+header-title-2 = { -product-mozilla-account }
 header-help = പിന്തുണ
 
 ## Linked Accounts section
@@ -370,6 +409,8 @@ modal-default-confirm-button = തീര്‍ച്ചപ്പെടുത്�
 ## Modal Verify Session
 
 mvs-verify-your-email-2 = ഇ-തപാൽ തീൎച്ചപ്പെടുത്തുക
+msv-cancel-button = റദ്ദാക്കുക
+msv-submit-button-2 = തീര്‍ച്ചപ്പെടുത്തുക
 
 ## Settings Nav
 
@@ -530,9 +571,18 @@ verify-secondary-email-verify-button-2 = ഉറപ്പിക്കുക
 
 ## Product promotion
 
+# Links out to the Monitor pricing site
+product-promo-monitor-plus-cta = ഉപയോഗിക്കാൻ തുടങ്ങുക
 
 ## Profile section
 
+profile-heading = രൂപരേഖ
+profile-picture =
+    .header = ചിത്രം
+profile-display-name =
+    .header = പ്രദര്‍ശനപ്പേരു്
+profile-primary-email =
+    .header = പ്രാഥമിക ഇതപാൽ
 
 ##
 
@@ -542,12 +592,22 @@ verify-secondary-email-verify-button-2 = ഉറപ്പിക്കുക
 
 ## Security section of Setting
 
+security-heading = സുരക്ഷ
+security-password =
+    .header = രഹസ്യവാക്കു്
+# This is a string that shows when the user's password was created.
+# Variables:
+#   $date (String) - a localized date and time string
+security-password-created-date = ഉണ്ടാക്കിയതു്: { $date }
+security-action-create = നിര്‍മ്മിക്കുക
 
 ## SubRow component
 
 # Shown to users who have no backup authentication codes
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = ചേർക്കുക
+# button to change the configured recovery phone
+tfa-row-backup-phone-change-cta = മാറ്റുക
 # button to add/configure a recovery phone
 tfa-row-backup-phone-add-cta = ചേർക്കുക
 # Button to remove a recovery phone from the user's account
@@ -589,6 +649,7 @@ rk-key-removed-2 = അക്കൗണ്ടു് വീണ്ടെടുപ്
 
 ## Two Step Auth sub-section on Settings main page
 
+tfa-row-action-add = ചേൎക്കുക
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
@@ -604,6 +665,8 @@ third-party-auth-options-or = അല്ലെങ്കിൽ
 
 ## Auth-server based errors that originate from backend service
 
+auth-error-102 = അറിയാത്ത അക്കൗണ്ടു്
+auth-error-103 = തെറ്റായ രഹസ്യവാക്കു്
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
@@ -611,6 +674,10 @@ third-party-auth-options-or = അല്ലെങ്കിൽ
 
 ## Connect Another Device page
 
+# A link for the user to sign in to the current Firefox browser, preceded by a message prompting the user to sign in so as to complete the device sync setup
+connect-another-device-signin-link = പ്രവേശിക്കുക
+# This link cancels the process of connecting another device, and takes the user back to Account Settings
+connect-another-device-not-now-link = ഇപ്പോഴല്ല
 
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
@@ -662,6 +729,8 @@ third-party-auth-options-or = അല്ലെങ്കിൽ
 
 ## Pair index page
 
+# This allows the user to exit the sync/pair flow, and redirects them back to Settings
+pair-not-now-button = ഇപ്പോഴല്ല
 
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
