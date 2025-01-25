@@ -421,6 +421,7 @@ flow-setup-phone-confirm-code-resend-code-button = കോഡ് വീണ്ട�
 ## HeaderLockup component, the header in account settings
 
 header-menu-open = കുറിപ്പടി അടയ്ക്കുക
+header-menu-closed = വെബ്സ്ഥാനവഴിക്കാട്ടൽവ്യവസ്ഥക്കുറിപ്പടി
 header-back-to-top-link =
     .title = മേൽപോട്ടു് തിരികെ പോവുക
 header-title-2 = { -product-mozilla-account }
@@ -429,6 +430,8 @@ header-help = പിന്തുണ
 ## Linked Accounts section
 
 la-heading = ഇണച്ച അക്കൗണ്ടുകൾ
+la-set-password-button = രഹസ്യവാക്കു് വയ്ക്കുക
+nav-linked-accounts = { la-heading }
 
 ## Modal - Default values for a message directed at the user where the user can typically Confirm or Cancel.
 
@@ -439,6 +442,7 @@ modal-default-confirm-button = തീര്‍ച്ചപ്പെടുത്�
 ## Modal Verify Session
 
 mvs-verify-your-email-2 = ഇ-തപാൽ തീൎച്ചപ്പെടുത്തുക
+mvs-enter-verification-code-2 = ഉറപ്പിക്കൽ-സങ്കേതം നല്കുക
 msv-cancel-button = റദ്ദാക്കുക
 msv-submit-button-2 = തീര്‍ച്ചപ്പെടുത്തുക
 
@@ -560,6 +564,11 @@ display-name-success-alert-2 = പ്രദർശനപ്പേരു് പു
 recent-activity-account-create-v2 = അക്കൗണ്ടു് ഉണ്ടാക്കി
 recent-activity-account-disable-v2 = അക്കൗണ്ടു് പ്രവൎത്തനരഹിതമാക്കി
 recent-activity-account-enable-v2 = അക്കൗണ്ടു് പ്രവൎത്തനക്ഷമമാക്കി
+recent-activity-account-two-factor-added = രണ്ടുപ്പടി അധിക്കാരികപ്പെടുത്തൽ പ്രവൎത്തനക്ഷമമാക്കി
+recent-activity-account-two-factor-requested = രണ്ടുപ്പടി അധിക്കാരികപ്പെടുത്തൽ അഭ്യൎത്ഥിച്ചു
+recent-activity-account-two-factor-failure = രണ്ടുപ്പടി അധിക്കാരികപ്പെടുത്തൽ തോറ്റുപോയി
+recent-activity-account-two-factor-success = രണ്ടുപ്പടി അധിക്കാരികപ്പെടുത്തൽ നടന്നു
+recent-activity-account-two-factor-removed = രണ്ടുപ്പടി അധിക്കാരികപ്പെടുത്തൽ മാറ്റി
 recent-activity-account-password-changed = രഹസ്യവാക്കു് മാറ്റി
 
 ## PageRecoveryKeyCreate
@@ -595,6 +604,7 @@ verify-secondary-email-verify-button-2 = ഉറപ്പിക്കുക
 
 ## Two Step Authentication
 
+tfa-title = രണ്ടുപ്പടി അധിക്കാരികപ്പെടുത്തൽ
 tfa-button-cancel = റദ്ദാക്കുക
 
 ##
