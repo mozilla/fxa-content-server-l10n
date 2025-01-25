@@ -35,6 +35,8 @@
 -product-firefox-account = Firefox ਖਾਤਾ
 -product-mozilla-vpn = Mozilla VPN
 -product-mozilla-hubs = Mozilla Hubs
+# Mozilla Developer Network
+-product-mdn = MDN
 -product-mdn-plus = MDN ਪਲੱਸ
 -product-firefox-cloud = Firefox Cloud
 -product-mozilla-monitor = Mozilla Monitor

@@ -231,6 +231,18 @@ fraudulentAccountDeletion-contact = ਜੇ ਤੁਹਾਨੂੰ ਕੋਈ ਵ�
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = ਜੇ ਤੁਹਾਨੂੰ ਕੋਈ ਵੀ ਸਵਾਲ ਹੋਵੇ ਤਾਂ ਸਾਡੀ ਸਹਿਯੋਗੀ ਟੀਮ ਨਾਲ ਸੰਪਰਕ ਕਰੋ: { $mozillaSupportUrl }
+inactiveAccountFinalWarning-subject = ਆਪਣੇ { -product-mozilla-account } ਨੂੰ ਰੱਖਣ ਲਈ ਆਖਰੀ ਮੌਕਾ ਹੈ
+inactiveAccountFinalWarning-title = ਤੁਹਾਡੇ { -brand-mozilla } ਖਾਤੇ ਅਤੇ ਡਾਟੇ ਨੂੰ ਹਟਾਇਆ ਜਾਵੇਗਾ
+inactiveAccountFinalWarning-preview = ਆਪਣੇ ਖਾਤੇ ਨੂੰ ਰੱਖਣ ਲਈ ਸਾਈਨ ਇਨ ਕਰੋ
+inactiveAccountFinalWarning-action = ਆਪਣੇ ਖਾਤੇ ਨੂੰ ਰੱਖਣ ਲਈ ਸਾਈਨ ਇਨ ਕਰੋ
+# followed by link to sign in
+inactiveAccountFinalWarning-action-plaintext = ਆਪਣੇ ਖਾਤੇ ਨੂੰ ਰੱਖਣ ਲਈ ਸਾਈਨ ਇਨ ਕਰੋ:
+inactiveAccountFirstWarning-subject = ਆਪਣੇ ਖਾਤੇ ਨੂੰ ਨਾ ਗੁਆਓ
+inactiveAccountFirstWarning-title = ਕੀ ਤੁਸੀਂ ਆਪਣੇ { -brand-mozilla } ਖਾਤੇ ਅਤੇ ਡਾਟੇ ਨੂੰ ਰੱਖਣਾ ਚਾਹੁੰਦੇ ਹੋ?
+inactiveAccountFirstWarning-inactive-status = ਅਸੀਂ ਦੇਖਿਆ ਹੈ ਕਿ ਤੁਸੀਂ 2 ਸਾਲਾਂ ਤੋਂ ਸਾਈਨ ਇਨ ਨਹੀਂ ਕੀਤਾ ਹੈ।
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+# This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
+inactiveAccountFirstWarning-impact = ਤੁਹਾਡੇ ਖਾਤੇ ਅਤੇ ਤੁਹਾਡੇ ਨਿੱਜੀ ਡਾਟੇ ਨੂੰ ਨਾ-ਸਰਗਰਮੀ ਕਰਕੇ <strong>{ $deletionDate }</strong> ਨੂੰ ਪੱਕੇ ਤੌਰ ਉੱਤੇ ਹਟਾਇਆ ਜਾਵੇਗਾ।
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title-zero = ਤੁਹਾਡੇ ਕੋਲ ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਖਤਮ ਹੋ ਗਏ ਹਨ!
 codes-reminder-title-one = ਤੁਸੀਂ ਆਪਣਾ ਆਖਰੀ ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਵਰਤ ਰਹੇ ਹੋ
