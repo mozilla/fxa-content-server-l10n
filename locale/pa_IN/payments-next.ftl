@@ -32,6 +32,10 @@ next-payment-confirm-checkbox-error = ਅੱਗੇ ਜਾਣ ਤੋਂ ਪਹਿ
 
 next-new-user-submit = ਹੁਣੇ ਮੈਂਬਰ ਬਣੋ
 next-payment-validate-name-error = ਆਪਣਾ ਪੂਰਾ ਨਾਂ ਭਰੋ
+next-pay-with-heading-paypal = { -brand-paypal } ਰਾਹੀਂ ਭੁਗਤਾਨ ਕਰੋ
+# Label for the Full Name input
+payment-name-label = ਨਾਂ, ਜਿਵੇਂ ਤੁਹਾਡੇ ਕਾਰਡ ਉੱਤੇ ਲਿਖਿਆ ਹੋਵੇ
+payment-name-placeholder = ਪੂਰਾ ਨਾਂ
 
 ## Component - CouponForm
 
@@ -43,6 +47,9 @@ next-coupon-promo-code = ਪਰਚਾਰ ਕੋਡ
 next-coupon-promo-code-applied = ਪ੍ਰੋਮੋ ਕੋਡ ਲਾਗੂ ਕੀਤਾ
 next-coupon-remove = ਹਟਾਓ
 next-coupon-submit = ਲਾਗੂ ਕਰੋ
+payments-client-loading-spinner =
+    .aria-label = …ਲੋਡ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ
+    .alt = …ਲੋਡ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ
 
 ## Payment Section
 
@@ -55,6 +62,7 @@ next-plan-details-show-button = ਵੇਰਵੇ ਦਿਖਾਓ
 
 ## Select Tax Location
 
+select-tax-location-title = ਟਿਕਾਣਾ
 select-tax-location-edit-button = ਸੋਧੋ
 select-tax-location-save-button = ਸੰਭਾਲੋ
 select-tax-location-country-code-label = ਦੇਸ਼
@@ -64,6 +72,11 @@ select-tax-location-postal-code-label = ਡਾਕ ਕੋਡ
 select-tax-location-postal-code =
     .placeholder = ਆਪਣਾ ਡਾਕ ਕੋਡ ਦਿਓ
 select-tax-location-error-missing-postal-code = ਆਪਣਾ ਡਾਕ ਦਿਓ ਜੀ
+select-tax-location-error-invalid-postal-code = ਵਾਜਬ ਡਾਕ ਕੋਡ ਦਿਓ
+select-tax-location-successfully-updated = ਤੁਹਾਡੇ ਟਿਕਾਣੇ ਨੂੰ ਅੱਪਡੇਟ ਕੀਤਾ ਜਾ ਚੁੱਕਾ ਹੈ।
+signin-form-continue-button = ਜਾਰੀ ਰੱਖੋ
+signin-form-email-input = ਆਪਣਾ ਈਮੇਲ ਦਿਓ
+signin-form-email-input-missing = ਆਪਣਾ ਈਮੇਲ ਦਿਓ
 next-new-user-subscribe-product-updates-mdnplus = ਮੈਂ { -product-mdn-plus } ਅਤੇ { -brand-mozilla } ਤੋਂ ਉਤਪਾਦ ਖ਼ਬਰਾਂ ਅਤੇ ਅੱਪਡੇਟ ਲੈਣਾ ਚਾਹੁੰਦਾ/ਚਾਹੁੰਦੀ ਹਾਂ
 next-new-user-subscribe-product-updates-mozilla = ਮੈਂ { -brand-mozilla } ਤੋਂ ਉਤਪਾਦ ਖ਼ਬਰਾਂ ਅਤੇ ਅੱਪਡੇਟ ਪ੍ਰਾਪਤ ਚਾਹੁੰਦਾ/ਚਾਹੁੰਦੀ ਹਾਂ
 next-new-user-subscribe-product-updates-snp = ਮੈਂ { -brand-mozilla } ਤੋਂ ਸੁਰੱਖਿਆ ਅਤੇ ਪਰਦੇਦਾਰੀ ਖ਼ਬਰਾਂ ਅਤੇ ਅੱਪਡੇਟ ਲੈਣਾ ਚਾਹੁੰਦਾ/ਚਾਹੁੰਦੀ ਹਾਂ
