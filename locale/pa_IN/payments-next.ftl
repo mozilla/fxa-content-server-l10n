@@ -77,6 +77,7 @@ select-tax-location-successfully-updated = ਤੁਹਾਡੇ ਟਿਕਾਣੇ
 signin-form-continue-button = ਜਾਰੀ ਰੱਖੋ
 signin-form-email-input = ਆਪਣਾ ਈਮੇਲ ਦਿਓ
 signin-form-email-input-missing = ਆਪਣਾ ਈਮੇਲ ਦਿਓ
+signin-form-email-input-invalid = ਵਾਜਬ ਈਮੇਲ ਦਿਓ ਜੀ
 next-new-user-subscribe-product-updates-mdnplus = ਮੈਂ { -product-mdn-plus } ਅਤੇ { -brand-mozilla } ਤੋਂ ਉਤਪਾਦ ਖ਼ਬਰਾਂ ਅਤੇ ਅੱਪਡੇਟ ਲੈਣਾ ਚਾਹੁੰਦਾ/ਚਾਹੁੰਦੀ ਹਾਂ
 next-new-user-subscribe-product-updates-mozilla = ਮੈਂ { -brand-mozilla } ਤੋਂ ਉਤਪਾਦ ਖ਼ਬਰਾਂ ਅਤੇ ਅੱਪਡੇਟ ਪ੍ਰਾਪਤ ਚਾਹੁੰਦਾ/ਚਾਹੁੰਦੀ ਹਾਂ
 next-new-user-subscribe-product-updates-snp = ਮੈਂ { -brand-mozilla } ਤੋਂ ਸੁਰੱਖਿਆ ਅਤੇ ਪਰਦੇਦਾਰੀ ਖ਼ਬਰਾਂ ਅਤੇ ਅੱਪਡੇਟ ਲੈਣਾ ਚਾਹੁੰਦਾ/ਚਾਹੁੰਦੀ ਹਾਂ
