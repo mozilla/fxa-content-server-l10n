@@ -384,7 +384,10 @@ postChangePrimary-title = ახალი მთავარი ელფოს�
 postChangePrimary-description-2 = მთავარი ელფოსტა წარმატებით შეიცვალა მისამართით { $email }. უკვე შეგიძლიათ მისი გამოყენება { -product-mozilla-account(case: "loc") } შესასვლელად, ასევე უსაფრთხოების შესახებ ცნობების მისაღებად და ანგარიშზე შესვლების დასამოწმებლად.
 postChangePrimary-action = ანგარიშის მართვა
 postChangeRecoveryPhone-subject = აღდგენის ტელეფონი განახლებულია
+postChangeRecoveryPhone-preview = ანგარიში დაცულია ორბიჯიანი დამოწმებით შესვლისას
 postChangeRecoveryPhone-title = თქვენ შეცვალეთ აღდგენის ტელეფონი
+postChangeRecoveryPhone-description = თქვენ უკვე გაქვთ მითითებული აღდგენის ახალი ტელეფონი. წინა ტელეფონი წაშლილია.
+postChangeRecoveryPhone-requested-device = მოთხოვნა იყო აქედან:
 postConsumeRecoveryCode-title-2 = გამოყენებულია შესვლის დასამოწმებელი სამარქაფო კოდი
 # After the colon, there is description of the device that the backup authentication code was used on
 postConsumeRecoveryCode-description-2 = გამოყენებულია აქედან:
@@ -404,6 +407,11 @@ postRemoveAccountRecovery-title-3 = თქვენ წაშალეთ ან
 postRemoveAccountRecovery-body-part1 = თქვენი ანგარიშის აღდგენის გასაღები საჭიროა ბრაუზერის დაშიფრული მონაცემების აღსადგენად, თუ დაგავიწყდებათ პაროლი.
 postRemoveAccountRecovery-body-part2 = თუ ჯერ არ გაქვთ, შექმენით ანგარიშის აღდგენის ახალი გასაღები თქვენი ანგარიშის პარამეტრებიდან, რომ აირიდოთ შენახული პაროლების, სანიშნების, ისტორიისა და სხვა მონაცემების დაკარგვა.
 postRemoveAccountRecovery-action = ანგარიშის მართვა
+postRemoveRecoveryPhone-subject = აღდგენის ტელეფონი მოცილებულია
+postRemoveRecoveryPhone-preview = ანგარიში დაცულია ორბიჯიანი დამოწმებით შესვლისას
+postRemoveRecoveryPhone-title = აღდგენის ტელეფონი მოცილებულია
+postRemoveRecoveryPhone-description = თქვენი აღდგენის ტელეფონი მოცილებულია ორბიჯიანი დამოწმების პარამეტრებიდან. თქვენ ჯერ კიდევ გაქვთ შესვლის დამოწმების სამარქაფო კოდები გამოსაყენებლად.
+postRemoveRecoveryPhone-requested-device = მოთხოვნა იყო აქედან:
 postRemoveSecondary-subject = დამატებითი ელფოსტა მოცილებულია
 postRemoveSecondary-title = დამატებითი ელფოსტა მოცილებულია
 # Variables:
@@ -416,6 +424,18 @@ postRemoveTwoStepAuthentication-title-2 = ორბიჯიანი დამ�
 postRemoveTwoStepAuthentication-from-device = გამოირთო აქედან:
 postRemoveTwoStepAuthentication-action = ანგარიშის მართვა
 postRemoveTwoStepAuthentication-not-required-2 = შესვლისას აღარ დაგჭირდებათ უსაფრთხოების კოდები შესვლის დასამოწმებელი აპიდან.
+postSigninRecoveryCode-subject = სამარქაფო კოდია გამოყენებული შესასვლელად
+postSigninRecoveryCode-preview = დაამოწმეთ ანგარიშზე მოქმედება
+postSigninRecoveryCode-title = თქვენი სამარქაფო კოდია გამოყენებული შესასვლელად
+postSigninRecoveryCode-description = თუ ეს თქვენ არ მოგიმოქმედებიათ, დაუყოვნებლივ უნდა შეცვალოთ პაროლი ანგარიშის უსაფრთხოების დასაცავად.
+postSigninRecoveryCode-device = შესული ხართ აქედან:
+postSigninRecoveryCode-action = ანგარიშის მართვა
+postSigninRecoveryPhone-subject = შესასვლელად გამოყენებულია აღდგენის ტელეფონი
+postSigninRecoveryPhone-preview = დაამოწმეთ ანგარიშზე მოქმედება
+postSigninRecoveryPhone-title = თქვენს აღდგენის ტელეფონია გამოყენებული შესასვლელად
+postSigninRecoveryPhone-description = თუ ეს თქვენ არ მოგიმოქმედებიათ, დაუყოვნებლივ უნდა შეცვალოთ პაროლი ანგარიშის უსაფრთხოების დასაცავად.
+postSigninRecoveryPhone-device = შესული ხართ აქედან:
+postSigninRecoveryPhone-action = ანგარიშის მართვა
 postVerify-sub-title-3 = მოხარულნი ვართ თქვენი ნახვით!
 postVerify-title-2 = გსურთ იხილოთ იგივე ჩანართი ორ მოწყობილობაზე?
 postVerify-description-2 = უადვილესია! მხოლოდ დააყენეთ { -brand-firefox } სხვა მოწყობილობაზეც და შედით ანგარიშზე სინქრონიზაციისთვის. ნამდვილი ჯადოქრობაა!
@@ -668,6 +688,7 @@ verifySecondaryCode-expiry-notice-2 = ვადა გაუვა 5 წუთ�
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = დაადასტურეთ თქვენი ანგარიში
+verifyShortCode-preview = გამოიყენეთ თანდართული კოდი, რომ დაამოწმოთ თქვენი { -product-mozilla-account }.
 verifyShortCode-title-3 = შეაღეთ ინტერნეტის კარი { -brand-mozilla }-თი
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = დაამოწმეთ თქვენი ანგარიში, რომ სრულყოფილად გამოიყენოთ { -brand-mozilla }-ს შესაძლებლობები ყველგან:

@@ -621,6 +621,9 @@ flow-recovery-key-info-cancel-link = გაუქმება
 
 ## FlowSetupPhoneConfirmCode
 
+flow-setup-phone-submit-number-heading = ტელეფონის ნომრის დამოწმება
+# The code is a 6-digit code send by text message/SMS
+flow-setup-phone-verify-number-instruction = ტექსტურ შეტყობინებას გამოგიგზავნით { -brand-mozilla } თქვენი ნომრის დამადასტურებელი კოდით. არავის გაუზიაროთ ეგ კოდი.
 
 ## HeaderLockup component, the header in account settings
 

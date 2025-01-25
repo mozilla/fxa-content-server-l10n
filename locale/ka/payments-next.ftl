@@ -57,6 +57,11 @@ next-plan-details-show-button = ვრცლად ჩვენება
 
 ## Select Tax Location
 
+select-tax-location-postal-code-label = საფოსტო ინდექსი
+select-tax-location-postal-code =
+    .placeholder = მიუთითეთ თქვენი საფოსტო კოდი
+select-tax-location-error-missing-postal-code = გთხოვთ შეიყვანოთ თქვენი საფოსტო ინდექსი
+select-tax-location-error-invalid-postal-code = გთხოვთ მიუთითოთ მართებული საფოსტო ინდექსი
 next-new-user-subscribe-product-updates-mdnplus = მსურს შევიტყო, რა სიახლეებსა და ცვლილებებს გვთავაზობს { -product-mdn-plus } და { -brand-mozilla }
 next-new-user-subscribe-product-updates-mozilla = მსურს შევიტყო, რა სიახლეებსა და ცვლილებებს გვთავაზობს { -brand-mozilla }
 next-new-user-subscribe-product-updates-snp = მსურს შევიტყო, რა სიახლეებსა და ცვლილებებს გვთავაზობს პირადულობისა და უსაფრთხოებისთვის { -brand-mozilla }
