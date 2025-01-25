@@ -36,6 +36,8 @@ brand-m-logo =
 ## ButtonBack component
 ## Allows users to click a back arrow to navigate to the previous page
 
+button-back-aria-label = ਪਿੱਛੇ
+button-back-title = ਪਿੱਛੇ
 
 ## ButtonDownloadRecoveryKeyPDF
 ## Clicking on this button downloads a PDF file that contains the user's account recovery key
@@ -277,6 +279,8 @@ security-shield-aria-label =
 # Used for an image of a single key.
 recovery-key-image-aria-label =
     .aria-label = ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਦਰਸਾਉਣ ਵਾਸਤੇ ਮਿਸਾਲ ਹੈ।
+backup-authentication-codes-image-aria-label =
+    .aria-label = ਕੋਡਾਂ ਨਾਲ ਡਿਵਾਈਸ ਸਕਰੀਨ
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -306,6 +310,8 @@ input-password-sr-only-now-hidden = ਤੁਹਾਡਾ ਪਾਸਵਰਡ ਹੁ
 
 ## Phone number component
 
+# This is an aria-label available to screen readers for a selection list that includes country flags, country name and country code
+input-phone-number-country-list-aria-label = ਦੇਸ਼ ਚੁਣੋ
 input-phone-number-enter-number = ਫ਼ੋਨ ਨੰਬਰ ਦਿਓ
 input-phone-number-country-united-states = ਸੰਯਕੁਤ ਰਾਜ ਅਮਰੀਕਾ
 input-phone-number-country-canada = ਕੈਨੇਡਾ

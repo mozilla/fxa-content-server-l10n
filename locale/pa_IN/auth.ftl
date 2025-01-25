@@ -120,6 +120,9 @@ automatedEmailRecoveryKey-notyou-change-pwd-plaintext = ਅਤੇ ਆਪਣਾ �
 # Colon is followed by a URL to Mozilla Support's "I'm having problems with my account" page
 automatedEmailRecoveryKey-more-info-plaintext = ਹੋਰ ਜਾਣਕਾਰੀ ਲਈ { -brand-mozilla } ਸਹਾਇਤਾ ਨੂੰ ਵੇਖੋ:
 automated-email-reset = ਇਹ ਆਟੋਮੈਟਿਕ ਭੇਜੀ ਗਈ ਈਮੇਲ ਹੈ। ਜੇ ਤੁਸੀਂ ਇਹ ਕਾਰਵਾਈ ਨੂੰ ਖੁਦ ਨਹੀਂ ਕੀਤਾ ਸੀ ਤਾਂ <a data-l10n-name="resetLink">ਆਪਣੇ ਪਾਸਵਰਡ ਨੂੰ ਮੁੜ-ਸੈੱਟ ਕਰੋ</a>। ਹੋਰ ਜਾਣਕਾਰੀ ਲਈ <a data-l10n-name="supportLink">{ -brand-mozilla } ਸਹਿਯੋਗ</a> ਨੂੰ ਵੇਖੋ।
+# Variables:
+#  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
+automated-email-reset-plaintext-v2 = ਜੇ ਤੁਸੀਂ ਇਸ ਕਾਰਵਾਈ ਨੂੰ ਪਰਮਾਣਿਤ ਨਹੀਂ ਕੀਤਾ ਹੈ ਤਾਂ ਹੁਣੇ { $resetLink } ਉੱਤੇ ਜਾ ਕੇ ਆਪਣਾ ਪਾਸਵਰਡ ਬਦਲੋ
 brand-banner-message = ਕੀ ਤੁਸੀਂ ਜਾਣਦੇ ਹੋ ਕਿ ਅਸੀਂ ਆਪਣਾ ਨਾਂ { -product-firefox-accounts } ਤੋਂ ਬਦਲ ਕੇ { -product-mozilla-accounts } ਕੀਤਾ ਹੈ? <a data-l10n-name="learnMore">ਹੋਰ ਜਾਣੋ</a>
 cancellationSurvey = ਇਸ <a data-l10n-name="cancellationSurveyUrl">ਸੰਖੇਪ ਜਿਹੇ ਸਰਵੇਖਣ</a> ਨੂੰ ਪੂਰਾ ਕਰਕੇ ਸਾਨੂੰ ਸਾਡੀਆਂ ਸੇਵਾਵਾਂ ਬੇਹਤਰ ਬਣਾਉਣ ਲਈ ਸਾਡੀ ਮਦਦ ਕਰੋ।
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
@@ -243,6 +246,18 @@ inactiveAccountFirstWarning-inactive-status = ਅਸੀਂ ਦੇਖਿਆ ਹ�
 # $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
 # This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
 inactiveAccountFirstWarning-impact = ਤੁਹਾਡੇ ਖਾਤੇ ਅਤੇ ਤੁਹਾਡੇ ਨਿੱਜੀ ਡਾਟੇ ਨੂੰ ਨਾ-ਸਰਗਰਮੀ ਕਰਕੇ <strong>{ $deletionDate }</strong> ਨੂੰ ਪੱਕੇ ਤੌਰ ਉੱਤੇ ਹਟਾਇਆ ਜਾਵੇਗਾ।
+inactiveAccountFirstWarning-action = ਆਪਣੇ ਖਾਤੇ ਨੂੰ ਰੱਖਣ ਲਈ ਸਾਈਨ ਇਨ ਕਰੋ
+inactiveAccountFirstWarning-preview = ਆਪਣੇ ਖਾਤੇ ਨੂੰ ਰੱਖਣ ਲਈ ਸਾਈਨ ਇਨ ਕਰੋ
+# followed by link to sign in
+inactiveAccountFirstWarning-action-plaintext = ਆਪਣੇ ਖਾਤੇ ਨੂੰ ਰੱਖਣ ਲਈ ਸਾਈਨ ਇਨ ਕਰੋ:
+inactiveAccountSecondWarning-subject = ਕਾਰਵਾਈ ਦੀ ਲੋੜ: ਖਾਤਾ 7 ਦਿਨਾਂ ਵਿੱਚ ਹਟਾਇਆ ਜਾਵੇਗਾ
+inactiveAccountSecondWarning-title = ਤੁਹਾਡੇ { -brand-mozilla } ਖਾਤੇ ਅਤੇ ਡਾਟੇ ਨੂੰ 7 ਦਿਨਾਂ ਵਿੱਚ ਹਟਾਇਆ ਜਾਵੇਗਾ
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+inactiveAccountSecondWarning-impact = ਤੁਹਾਡੇ ਖਾਤੇ ਅਤੇ ਤੁਹਾਡੇ ਨਿੱਜੀ ਡਾਟੇ ਨੂੰ ਨਾ-ਸਰਗਰਮੀ ਕਰਕੇ <strong>{ $deletionDate }</strong> ਨੂੰ ਪੱਕੇ ਤੌਰ ਉੱਤੇ ਹਟਾਇਆ ਜਾਵੇਗਾ।
+inactiveAccountSecondWarning-action = ਆਪਣੇ ਖਾਤੇ ਨੂੰ ਰੱਖਣ ਲਈ ਸਾਈਨ ਇਨ ਕਰੋ
+inactiveAccountSecondWarning-preview = ਆਪਣੇ ਖਾਤੇ ਨੂੰ ਰੱਖਣ ਲਈ ਸਾਈਨ ਇਨ ਕਰੋ
+# followed by link to sign in
+inactiveAccountSecondWarning-action-plaintext = ਆਪਣੇ ਖਾਤੇ ਨੂੰ ਰੱਖਣ ਲਈ ਸਾਈਨ ਇਨ ਕਰੋ:
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title-zero = ਤੁਹਾਡੇ ਕੋਲ ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਖਤਮ ਹੋ ਗਏ ਹਨ!
 codes-reminder-title-one = ਤੁਸੀਂ ਆਪਣਾ ਆਖਰੀ ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਵਰਤ ਰਹੇ ਹੋ
@@ -291,6 +306,11 @@ passwordReset-title-2 = ਤੁਹਾਡੇ ਪਾਸਵਰਡ ਨੂੰ ਮੁ�
 passwordReset-description-2 = ਤੁਸੀਂ ਇਸ ਉੱਤੇ ਆਪਣਾ { -product-mozilla-account } ਮੁੜ-ਸੈੱਟ ਕੀਤਾ:
 passwordResetAccountRecovery-subject-2 = ਤੁਹਾਡੇ ਪਾਸਵਰਡ ਨੂੰ ਮੁੜ ਸੈੱਟ ਕੀਤਾ ਗਿਆ ਹੈ
 passwordResetAccountRecovery-title-3 = ਤੁਹਾਡੇ ਪਾਸਵਰਡ ਨੂੰ ਮੁੜ ਸੈੱਟ ਕੀਤਾ ਗਿਆ ਹੈ
+# Followed by details on the device and date/time of the password reset.
+passwordResetAccountRecovery-description-3 = ਤੁਸੀਂ ਆਪਣੇ { -product-mozilla-account } ਪਾਸਵਰਡ ਨੂੰ ਮੁੜ-ਸੈੱਟ ਕਰਨ ਲਈ ਆਪਣੀ ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਨੂੰ ਵਰਤਿਆ ਹੈ:
+passwordResetAccountRecovery-information = ਅਸੀਂ ਤੁਹਾਡੇ ਸਾਰੇ ਸਿੰਕ ਕੀਤੇ ਡਿਵਾਈਸਾਂ ਤੋਂ ਲਾਗ ਆਉਟ ਕਰ ਦਿੱਤਾ ਹੈ। ਅਸੀਂ ਤੁਹਾਡੇ ਵਲੋਂ ਵਰਤੀ ਗਈ ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਲਈ ਨਵੀਂ ਬਣਾਈ ਹੈ। ਤੁਸੀਂ ਆਪਣੀਆਂ ਖਾਤਾ ਸੈਟਿੰਗਾਂ ਵਿੱਚ ਇਸ ਨੂੰ ਬਦਲ ਸਕਦੇ ਹੋ।
+# After the colon there is a link to account settings
+passwordResetAccountRecovery-information-txt = ਅਸੀਂ ਤੁਹਾਡੇ ਸਾਰੇ ਸਿੰਕ ਕੀਤੇ ਡਿਵਾਈਸਾਂ ਤੋਂ ਲਾਗ ਆਉਟ ਕਰ ਦਿੱਤਾ ਹੈ। ਅਸੀਂ ਤੁਹਾਡੇ ਵਲੋਂ ਵਰਤੀ ਗਈ ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਲਈ ਨਵੀਂ ਬਣਾਈ ਹੈ। ਤੁਸੀਂ ਆਪਣੀਆਂ ਖਾਤਾ ਸੈਟਿੰਗਾਂ ਵਿੱਚ ਇਸ ਨੂੰ ਬਦਲ ਸਕਦੇ ਹੋ:
 passwordResetAccountRecovery-action-4 = ਖਾਤੇ ਦਾ ਇੰਤਜ਼ਾਮ ਕਰੋ
 passwordResetWithRecoveryKeyPrompt-subject = ਤੁਹਾਡੇ ਪਾਸਵਰਡ ਨੂੰ ਮੁੜ ਸੈੱਟ ਕੀਤਾ ਗਿਆ ਹੈ
 passwordResetWithRecoveryKeyPrompt-title = ਤੁਹਾਡੇ ਪਾਸਵਰਡ ਨੂੰ ਮੁੜ ਸੈੱਟ ਕੀਤਾ ਗਿਆ ਹੈ
