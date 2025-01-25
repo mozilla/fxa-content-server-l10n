@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-05 20:09+0000\n"
-"PO-Revision-Date: 2025-01-13 13:32+0000\n"
+"PO-Revision-Date: 2025-01-25 23:01+0000\n"
 "Last-Translator: Milo <mail@milotype.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hr\n"
@@ -1945,11 +1945,11 @@ msgstr ""
 
 #: .es5/templates/pair/auth_complete.mustache:4
 msgid "Now you can access your open tabs, passwords, and bookmarks on all your devices."
-msgstr ""
+msgstr "Sada možeš pristupiti tvojim otvorenim karticama, lozinkama i zabilješkama na svim tvojim uređajima."
 
 #: .es5/templates/pair/auth_complete.mustache:5
 msgid "See tabs from synced devices"
-msgstr ""
+msgstr "Pogledaj kartice od sinkroniziranih uređaja"
 
 #: .es5/templates/pair/auth_complete.mustache:7
 msgid "Manage devices"
@@ -1981,11 +1981,11 @@ msgstr "Preuzmi Firefox za mobilne uređaje"
 
 #: .es5/templates/pair/index.mustache:11
 msgid "View your saved passwords, tabs, browsing history and more — across all your devices."
-msgstr ""
+msgstr "Pogledaj svoje spremljene lozinke, kartice, povijest pregledavanja i još mnogo toga – na svim tvojim uređajima."
 
 #: .es5/templates/pair/index.mustache:12
 msgid "Select an option to continue:"
-msgstr ""
+msgstr "Odaberi opciju za nastavljanje:"
 
 #: .es5/templates/pair/index.mustache:13
 msgid "I already have Firefox for mobile"
@@ -1993,7 +1993,7 @@ msgstr "Već imam Firefox za mobilni uređaj"
 
 #: .es5/templates/pair/index.mustache:14
 msgid "Start your sync now if you already have Firefox on your mobile device."
-msgstr ""
+msgstr "Započni sinkronizaciju sada ako već imaš Firefox na svom mobilnom uređaju."
 
 #: .es5/templates/pair/index.mustache:15
 msgid "I don’t have Firefox for mobile"
@@ -2001,7 +2001,7 @@ msgstr "Nemam Firefox za mobilni uređaj"
 
 #: .es5/templates/pair/index.mustache:16
 msgid "Download Firefox on your mobile device, then start your sync."
-msgstr ""
+msgstr "Preuzmi Firefox na svoj mobilni uređaj, zatim pokreni sinkronizaciju."
 
 #: .es5/templates/pair/index.mustache:18 .es5/templates/pair/index.mustache:24
 msgid "Not now"
