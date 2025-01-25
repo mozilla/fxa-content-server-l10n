@@ -49,6 +49,10 @@ subplat-legal = სამართლებრივი
 subplat-legal-plaintext = { subplat-legal }
 subplat-privacy = პირადულობა
 subplat-privacy-website-plaintext = { subplat-privacy }
+account-deletion-info-block-communications = თქვენი ანგარიშის წაშლის შემთხვევაში მაინც მიიღებთ წერილებს Mozilla-კორპორაციისა და Mozilla-ფონდისგან, სანამ <a data-l10n-name="unsubscribeLink">გამოწერის გაუქმებას არ მოითხოვთ</a>.
+account-deletion-info-block-support = თუ გაქვთ კითხვები ან დახმარება გესაჭიროებათ, შეგიძლიათ შეეხმიანოთ <a data-l10n-name="supportLink">მხარდაჭერის გუნდს</a>.
+account-deletion-info-block-communications-plaintext = თქვენი ანგარიშის წაშლის შემთხვევაში მაინც მიიღებთ წერილებს Mozilla-კორპორაციისა და Mozilla-ფონდისგან, სანამ გამოწერის გაუქმებას არ მოითხოვთ.
+account-deletion-info-block-support-plaintext = თუ გაქვთ კითხვები ან დახმარება გესაჭიროებათ, შეგიძლიათ შეეხმიანოთ მხარდაჭერის გუნდს:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-android-badge = <img data-l10n-name="google-play-badge" alt="ჩამოტვირთეთ { $productName } { -google-play }-იდან">
@@ -123,6 +127,9 @@ automatedEmailRecoveryKey-more-info-plaintext = დამატებით ი�
 automated-email-reset =
     ეს ავტომატური შეტყობინებაა; თუ მოცემული მოქმედება, თქვენი ნებართვის გარეშე შესრულდა, მაშინ <a data-l10n-name="resetLink">გთხოვთ, გაანულოთ პაროლი.</a>.
     ვრცლად იხილეთ <a data-l10n-name="supportLink">{ -brand-mozilla } მხარდაჭერის გვერდი</a>.
+# Variables:
+#  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
+automated-email-reset-plaintext-v2 = თუ თქვენ არ მოგიმოქმედებიათ რამე, გთხოვთ, ახლავე გაანულოთ პაროლი ბმულზე { $resetLink }
 brand-banner-message = იცოდით, რომ { -product-firefox-accounts(case: "dat") } სახელი შეეცვლება და ერქმევა { -product-mozilla-accounts }? <a data-l10n-name="learnMore">ვრცლად</a>
 cancellationSurvey = გთხოვთ, დაგვეხმაროთ მომსახურების გაუმჯობესებაში და შეავსოთ ეს <a data-l10n-name="cancellationSurveyUrl">მცირე კითხვარი</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
@@ -246,6 +253,33 @@ fraudulentAccountDeletion-contact-plaintext = თუ გაქვთ კით�
 inactiveAccountFinalWarning-subject = უკანასკნელად გეძლევათ საშუალება, შეინარჩუნოთ { -product-mozilla-account }
 inactiveAccountFinalWarning-title = თქვენი { -brand-mozilla }-ანგარიში და მონაცემები წაიშლება
 inactiveAccountFinalWarning-preview = შედით, რომ შეინარჩუნოთ ანგარიში
+inactiveAccountFinalWarning-account-description = თქვენი { -product-mozilla-account } გამოიყენება უფასო წვდომისთვის პირადულობისა და გვერდების მონახულებისთვის, აგრეთვე ისეთი პროდუქტებისთვის, როგორებიცაა { -brand-firefox }-სინქრონიზაცია, { -product-mozilla-monitor }, { -product-firefox-relay } და { -product-mdn }.
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+# This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
+inactiveAccountFinalWarning-impact = <strong>{ $deletionDate }</strong> თქვენი ანგარიშისა და პირადი მონაცემების სამუდამოდ წაშლის ბოლო ვადაა, ანგარიშზე თუ არ შეხვალთ.
+inactiveAccountFinalWarning-action = შედით, რომ შეინარჩუნოთ ანგარიში
+# followed by link to sign in
+inactiveAccountFinalWarning-action-plaintext = შედით, რომ შეინარჩუნოთ ანგარიში:
+inactiveAccountFirstWarning-subject = ნუ დაკარგავთ ანგარიშს
+inactiveAccountFirstWarning-title = გსურთ, შეინარჩუნოთ თქვენი { -brand-mozilla }-ანგარიში და მონაცემები?
+inactiveAccountFirstWarning-account-description-v2 = თქვენი { -product-mozilla-account } გამოიყენება უფასო წვდომისთვის პირადულობისა და გვერდების მონახულებისთვის, აგრეთვე ისეთი პროდუქტებისთვის, როგორებიცაა { -brand-firefox }-სინქრონიზაცია, { -product-mozilla-monitor }, { -product-firefox-relay } და { -product-mdn }.
+inactiveAccountFirstWarning-inactive-status = შევამჩნიეთ, რომ ანგარიშზე 2 წელია არ შესულხართ.
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+# This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
+inactiveAccountFirstWarning-impact = თქვენი ანგარიშისა და პირადი მონაცემების სამუდამოდ წაშლის ბოლო ვადაა <strong>{ $deletionDate }</strong>, რადგან არ ხართ მოქმედი მომხმარებელი.
+inactiveAccountFirstWarning-action = შედით, რომ შეინარჩუნოთ ანგარიში
+inactiveAccountFirstWarning-preview = შედით, რომ შეინარჩუნოთ ანგარიში
+# followed by link to sign in
+inactiveAccountFirstWarning-action-plaintext = შედით, რომ შეინარჩუნოთ ანგარიში:
+inactiveAccountSecondWarning-subject = საჭიროა მოქმედება: ანგარიში წაიშლება 7 დღეში
+inactiveAccountSecondWarning-title = თქვენი { -brand-mozilla }-ანგარიში და მონაცემები წაიშლება 7 დღეში
+inactiveAccountSecondWarning-account-description-v2 = თქვენი { -product-mozilla-account } გამოიყენება უფასო წვდომისთვის პირადულობისა და გვერდების მონახულებისთვის, აგრეთვე ისეთი პროდუქტებისთვის, როგორებიცაა { -brand-firefox }-სინქრონიზაცია, { -product-mozilla-monitor }, { -product-firefox-relay } და { -product-mdn }.
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+inactiveAccountSecondWarning-impact = თქვენი ანგარიშისა და პირადი მონაცემების სამუდამოდ წაშლის ბოლო ვადაა <strong>{ $deletionDate }</strong>, რადგან არ ხართ მოქმედი მომხმარებელი.
+inactiveAccountSecondWarning-action = შედით, რომ შეინარჩუნოთ ანგარიში
+inactiveAccountSecondWarning-preview = შედით, რომ შეინარჩუნოთ ანგარიში
+# followed by link to sign in
+inactiveAccountSecondWarning-action-plaintext = შედით, რომ შეინარჩუნოთ ანგარიში:
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title-zero = ამოიწურა სამარქაფო კოდები შესვლის დასამოწმებლად!
 codes-reminder-title-one = ბოლო სამარქაფო კოდია შესვლის დასამოწმებლად
@@ -321,6 +355,17 @@ postAddLinkedAccount-subject-2 = ახალი ანგარიში და
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = თქვენი { $providerName } ანგარიში დაუკავშირდა თქვენს { -product-mozilla-account(case: "dat") }
 postAddLinkedAccount-action = ანგარიშის მართვა
+postAddRecoveryPhone-subject = აღდგენის ტელეფონი დამატებულია
+postAddRecoveryPhone-preview = ანგარიში დაცულია ორბიჯიანი დამოწმებით შესვლისას
+postAddRecoveryPhone-title = თქვენ შექმენით აღდგენის ტელეფონის ნომერი
+# Variables:
+#  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
+postAddRecoveryPhone-description = თქვენ დაამატეთ { $maskedLastFourPhoneNumber } თქვენს აღდგენის ტელეფონად
+# Links out to a support article about two factor authentication
+postAddRecoveryPhone-how-protect = როგორ იცავს ეს თქვენს ანგარიშს
+postAddRecoveryPhone-how-protect-plaintext = როგორ იცავს ეს თქვენს ანგარიშს:
+postAddRecoveryPhone-enabled-device = ჩაირთო აქედან:
+postAddRecoveryPhone-action = ანგარიშის მართვა
 postAddTwoStepAuthentication-subject-2 = ორბიჯიანი დამოწმება ჩართულია
 postAddTwoStepAuthentication-title-2 = ორბიჯიანი დამოწმება ჩაირთო
 # After the colon, there is a description of the device that the user used to enable two-step authentication
@@ -338,6 +383,8 @@ postChangePrimary-title = ახალი მთავარი ელფოს�
 #  $email (String) - A user's email address
 postChangePrimary-description-2 = მთავარი ელფოსტა წარმატებით შეიცვალა მისამართით { $email }. უკვე შეგიძლიათ მისი გამოყენება { -product-mozilla-account(case: "loc") } შესასვლელად, ასევე უსაფრთხოების შესახებ ცნობების მისაღებად და ანგარიშზე შესვლების დასამოწმებლად.
 postChangePrimary-action = ანგარიშის მართვა
+postChangeRecoveryPhone-subject = აღდგენის ტელეფონი განახლებულია
+postChangeRecoveryPhone-title = თქვენ შეცვალეთ აღდგენის ტელეფონი
 postConsumeRecoveryCode-title-2 = გამოყენებულია შესვლის დასამოწმებელი სამარქაფო კოდი
 # After the colon, there is description of the device that the backup authentication code was used on
 postConsumeRecoveryCode-description-2 = გამოყენებულია აქედან:
