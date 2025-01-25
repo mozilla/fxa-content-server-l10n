@@ -220,6 +220,7 @@ info-icon-aria-label =
 ## Users see this view when we prompt them to generate an account recovery key
 ## after signing in.
 
+inline-recovery-key-setup-signed-in-firefox-2 = { -brand-firefox }-ലേക്കു് താങ്ങൾ പ്രവേശിച്ചിരിക്കുന്നു
 inline-recovery-key-setup-start-button = അക്കൌണ്ടു് വീണ്ടെടുപ്പു് സങ്കേതം ഉണ്ടാക്കുക
 inline-recovery-key-setup-later-button = പിന്നീടു് ചെയ്യുക
 
@@ -229,19 +230,41 @@ inline-recovery-key-setup-later-button = പിന്നീടു് ചെയ�
 input-password-hide = രഹസ്യവാക്കു് മറയ്ക്കുക
 # Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will show the password.
 input-password-show = രഹസ്യവാക്കു് കാണിയ്ക്കുക
+# Message read by screen readers when focus is on a password input visibility toggle. Expresses current (visible) state of the textbox content.
+input-password-hide-aria-2 = താങ്ങളുടെ രഹസ്യവാക്കു് പ്രതലത്തിൽ നിലവിൽ കാണാം.
+# Message read by screen readers when focus is on a password input visibility toggle. Expresses current (hidden) state of the textbox content.
+input-password-show-aria-2 = താങ്ങളുടെ രഹസ്യവാക്കു് നിലവിൽ മറച്ചിരിക്കുന്നു.
+# Message read by screen readers after clicking on a password input visibility toggle to show the password. Expresses the new (visible) state of the textbox content.
+input-password-sr-only-now-visible = താങ്ങളുടെ രഹസ്യവാക്കു് പ്രതലത്തിൽ ഇപ്പോൾ കാണാം.
+# Message read by screen readers after clicking on a password input visibility toggle to hide the password. Expresses the new (hidden) state of the textbox content.
+input-password-sr-only-now-hidden = താങ്ങളുടെ രഹസ്യവാക്കു് ഇപ്പോൾ മറച്ചിരിക്കുന്നു
 
 ## Phone number component
 
 # This is an aria-label available to screen readers for a selection list that includes country flags, country name and country code
 input-phone-number-country-list-aria-label = രാജ്യം തിരഞ്ഞെടുക്കുക
+input-phone-number-enter-number = ഫോൺ അക്കം നല്കുക
+input-phone-number-country-united-states = യുണൈറ്റഡ്‌ സ്റ്റേറ്റ്‌സ്‌
+input-phone-number-country-canada = കാനട
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = പുറകോട്ടു്
 
 ## LinkDamaged component
 
+# The user followed a password reset link that was received by email
+# but the link is damaged (for example mistyped or broken by the email client)
+reset-pwd-link-damaged-header = രഹസ്യവാക്ക് പുനസജ്ജീകരണ കണ്ണി കേടായി
+# The user followed a link to signin that was received by email
+# but the link was damaged (for example mistyped or broken by the email client).
+signin-link-damaged-header = ഉറപ്പിക്കൽകണ്ണി കേടായി
+# The user followed a link to report an invalid signin attempt that was received by email
+# but the link was damaged (for example mistyped or broken by the email client).
+report-signin-link-damaged-header = കണ്ണി കേടായി
 
 ## LinkExpired component
 
+# Button to request a new link if the previous link that was emailed to the user is expired
+link-expired-new-link-button = പുതിയ കണ്ണിക്കായി ചോദിക്കുക
 
 ## LinkRememberPassword component
 
@@ -264,11 +287,13 @@ account-recovery-notification-cta = നിര്‍മ്മിക്കുക
 ## PasswordStrengthBalloon component
 
 password-strength-balloon-heading = രഹസ്യവാക്കു് ആവശ്യങ്ങൾ
+password-strength-balloon-min-length = 8 പ്രതീകങ്ങളെങ്കിലും
 password-strength-balloon-not-email = താങ്ങളുടെ ഇതപാൽ വിലാസമല്ല
 password-strength-balloon-not-common = സാധാരണമുപയോഗപ്പെട്ട രഹസ്യവാക്കല്ല
 
 ## PasswordStrengthBalloon component
 
+password-strength-inline-min-length = 8 പ്രതീകങ്ങളെങ്കിലും
 password-strength-inline-not-email = താങ്ങളുടെ ഇതപാൽ വിലാസമല്ല
 password-strength-inline-not-common = സാധാരണമുപയോഗപ്പെട്ട രഹസ്യവാക്കല്ല
 
@@ -279,6 +304,7 @@ manage-your-account-button = താങ്ങളുടെ അക്കൗണ്�
 ready-account-ready = താങ്ങളുടെ അക്കൗണ്ടു് തയ്യാറാണ്!
 ready-continue = തുടരുക
 sign-in-complete-header = പ്രവേശിക്കൽ സ്ഥിരീകരിച്ചു
+sign-up-complete-header = അക്കൗണ്ടു് ഉറപ്പിച്ചു
 
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
@@ -310,6 +336,10 @@ alert-bar-close-message = സന്ദേശം അടയ്ക്കുക
 
 # BentoMenu component
 
+bento-menu-vpn-2 = { -product-mozilla-vpn }
+bento-menu-monitor-3 = { -product-mozilla-monitor }
+bento-menu-pocket-2 = { -product-pocket }
+bento-menu-firefox-relay-2 = { -product-firefox-relay }
 
 ## Connect another device promo
 

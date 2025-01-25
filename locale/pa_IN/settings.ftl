@@ -946,6 +946,9 @@ tfa-row-backup-codes-get-new-cta = ਨਵੇਂ ਕੋਡ ਲਵੋ
 # Shown to users who have no backup authentication codes
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = ਜੋੜੋ
+# Recovery phone is a recovery method for two-step authentication
+# A recovery code can be sent to the user's phone
+tfa-row-backup-phone-title-v2 = ਰਿਕਵਰੀ ਫ਼ੋਨ
 # Shown with an alert icon to indicate that no recovery phone is configured
 tfa-row-backup-phone-not-available = ਕੋਈ ਰਿਕਵਰੀ ਫ਼ੋਨ ਨੰਬਰ ਮੌਜੂਦ ਨਹੀਂ ਹੈ
 # button to change the configured recovery phone
@@ -954,6 +957,10 @@ tfa-row-backup-phone-change-cta = ਬਦਲੋ
 tfa-row-backup-phone-add-cta = ਜੋੜੋ
 # Button to remove a recovery phone from the user's account
 tfa-row-backup-phone-delete-button = ਹਟਾਓ
+# Shown in tooltip on delete button or delete icon
+tfa-row-backup-phone-delete-title-v2 = ਰਿਕਵਰੀ ਫ਼ੋਨ ਨੂੰ ਹਟਾਓ
+# "this" refers to recovery phone
+tfa-row-backup-phone-description = ਜੇ ਤੁਸੀਂ ਆਪਣੀ ਪਰਮਾਣੀਕਰਨ ਐਪ ਨੂੰ ਵਰਤ ਨਹੀਂ ਸਕਦੇ ਹੋ ਤਾਂ ਇਹ ਰਿਕਵਰੀ ਦਾ ਸੌਖਾ ਢੰਗ ਹੈ।
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
@@ -1012,6 +1019,7 @@ se-set-primary-error-2 = ਅਫ਼਼ਸੋਸ ਹੈ ਕਿ ਤੁਹਾਡੀ ਮ
 #   $email (String) - the user's email address, which does not need translation.
 se-delete-email-successful-2 = { $email } ਨੂੰ ਕਾਮਯਾਬੀ ਨਾਲ ਹਟਾਇਆ
 se-delete-email-error-2 = ਅਫ਼ਸੋਸ ਹੈ ਕਿ ਇਹ ਈਮੇਲ ਹਟਾਉਣ ਦੌਰਾਨ ਦੌਰਾਨ ਸਮੱਸਿਆ ਆਈ ਸੀ
+se-verify-session-3 = ਇਹ ਕਾਰਵਾਈ ਕਰਨ ਵਾਸਤੇ ਤੁਹਾਨੂ ਆਪਣੇ ਮੌਜੂਦਾ ਸ਼ੈਸ਼ਨ ਦੀ ਤਸਦੀਕ ਕਰਨੀ ਪਵੇਗੀ
 se-verify-session-error-3 = ਅਫ਼ਸੋਸ ਹੈ ਕਿ ਤੁਹਾਡੇ ਸ਼ੈਸ਼ਨ ਨੂੰ ਤਸਦੀਕ ਕਰਨ ਦੌਰਾਨ ਸਮੱਸਿਆ ਆਈ ਸੀ
 # Button to remove the secondary email
 se-remove-email =
@@ -1414,6 +1422,7 @@ confirm-reset-password-otp-different-account-link = ਵੱਖਰੇ ਖਾਤੇ
 
 confirm-totp-reset-password-header = ਆਪਣਾ ਪਾਸਵਰਡ ਮੁੜ-ਸੈੱਟ ਕਰੋ
 confirm-totp-reset-password-subheader-v2 = ਦੋ-ਪੜ੍ਹਾਵੀ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਦਿਓ
+confirm-totp-reset-password-instruction-v2 = ਆਪਣੇ ਪਾਸਵਰਡ ਨੂੰ ਮੁੜ-ਸੈੱਟ ਕਰਨ ਲਈ ਆਪਣੀ <strong>ਪਰਮਾਣੀਕਰਨ ਐਪ</strong> ਦੀ ਜਾਂਚ ਕਰੋ।
 confirm-totp-reset-password-trouble-code = ਕੋਡ ਦਰਜ ਕਰਨ ਲਈ ਸਮੱਸਿਆ ਹੈ?
 confirm-totp-reset-password-confirm-button = ਤਸਦੀਕ
 confirm-totp-reset-password-input-label-v2 = 6-ਅੰਕ ਦਾ ਕੋਡ ਦਿਓ
@@ -1526,9 +1535,23 @@ signin-recovery-code-required-error = ਬੈਕਅੱਪ ਪਰਮਾਣੀਕ�
 ## This page is shown to users when they are having trouble signing in with
 ## their password, and they previously had set up an account recovery method.
 
+signin-recovery-method-header = ਸਾਈਨ ਇਨ
+signin-recovery-method-subheader = ਰਿਕਵਰੀ ਢੰਗ ਚੁਣੋ
+signin-recovery-method-phone = ਰਿਕਵਰੀ ਫ਼ੋਨ
+signin-recovery-method-code = ਪਰਮਾਣੀਕਰਨ ਕੋਡ
+# Variable: $numberOfCodes (String) - The number of authentication codes the user has left, e.g. 4
+signin-recovery-method-code-info = { $numberOfCodes } ਕੋਡ ਬਾਕੀ ਹਨ
 
 ## SigninRecoveryPhoneCodeConfirm page
 
+recovery-phone-code-confirm-flow-heading = ਸਾਈਨ ਇਨ
+# A recovery code in context of this page is a one time code sent to the user's phone
+recovery-phone-code-confirm-with-code-heading = ਰਿਕਵਰੀ ਕੋਡ ਭਰੋ
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+recovery-phone-code-confirm-code-instruction = ਛੇ ਅੱਖਰਾਂ ਦਾ ਕੋਡ <span>{ $maskedPhoneNumber }</span> ਉੱਤੇ ਟੈਕਸਟ ਸੁਨੇਹਾ ਭੇਜਿਆ ਗਿਆ ਸੀ। ਇਹ ਕੋਡ ਦੀ ਮਿਆਦ 5 ਮਿੰਟ ਹੈ।
+recovery-phone-code-confirm-input-group-label = 6-ਅੰਕ ਦਾ ਕੋਡ ਦਿਓ
+recovery-phone-code-confirm-otp-submit-button = ਤਸਦੀਕ
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -1553,6 +1576,7 @@ signin-token-code-code-expired = ਕੋਡ ਦੀ ਮਿਆਦ ਪੁੱਗੀ?
 signin-token-code-resend-code-link = ਨਵਾਂ ਕੋਡ ਈਮੇਲ ਕਰੋ।
 # Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = ਤਸਦੀਕੀ ਕੋਡ ਚਾਹੀਦਾ ਹੈ
+signin-token-code-resend-error = ਕੁਝ ਗਲਤ ਵਾਪਰਿਆ ਹੈ। ਨਵਾਂ ਕੋਡ ਭੇਜਿਆ ਨਹੀਂ ਜਾ ਸਕਿਆ।
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1560,6 +1584,7 @@ signin-token-code-required-error = ਤਸਦੀਕੀ ਕੋਡ ਚਾਹੀਦ�
 
 signin-totp-code-header = ਸਾਈਨ ਇਨ
 signin-totp-code-subheader-v2 = ਦੋ-ਪੜ੍ਹਾਵੀ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਦਿਓ
+signin-totp-code-instruction-v4 = ਆਪਣੇ ਸਾਈਨ-ਇਨ ਦੀ ਤਸਦੀਕ ਕਰਨ ਵਾਸਤੇ ਆਪਣੀ <strong>ਪਰਮਾਣੀਕਰਨ ਐਪ</strong> ਨੂੰ ਵੇਖੋ।
 signin-totp-code-input-label-v4 = 6-ਅੰਕ ਦਾ ਕੋਡ ਦਿਓ
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = ਤਸਦੀਕ
@@ -1612,6 +1637,8 @@ confirm-signup-code-is-required-error = ਤਸਦੀਕੀਕਰਨ ਕੋਡ �
 
 signup-heading = ਆਪਣਾ ਪਾਸਵਰਡ ਲਾਓ
 signup-heading-relay = ਪਾਸਵਰਡ ਬਣਾਓ
+# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
+signup-pocket-info-banner = ਮੈਨੂੰ ਇਹ ਖਾਤਾ ਬਣਾਉਣ ਦੀ ਲੋੜ ਕਿਉਂ ਹੈ?
 # Link included in a dismissible info banner that is only displayed to Pocket clients
 # Link leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
 signup-pocket-info-banner-link = ਇੱਥੇ ਹੋਰ ਲੱਭੋ
