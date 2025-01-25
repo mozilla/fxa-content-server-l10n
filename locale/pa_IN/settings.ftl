@@ -433,7 +433,9 @@ password-reset-warning-icon = ਚੇਤਾਵਨੀ
 password-reset-chevron-expanded = ਸਮੇਟਣ ਦੀ ਚੇਤਾਵਨੀ
 password-reset-chevron-collapsed = ਫੈਲਾਓ ਦੀ ਚੇਤਾਵਨੀ
 password-reset-data-may-not-be-recovered = ਸ਼ਾਇਦ ਤੁਹਾਡੇ ਬਰਾਊਜ਼ਰ ਡਾਟੇ ਨੂੰ ਰਿਕਵਰ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਦਾ
+password-reset-previously-signed-in-device-2 = ਕੋਈ ਡਿਵਾਈਸ ਹੈ, ਜਿਸ ਉੱਤੇ ਤੁਸੀਂ ਪਹਿਲਾਂ ਸਾਈਨ ਇਨ ਕੀਤਾ ਸੀ?
 password-reset-warning-have-key = ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਹੈ?
+password-reset-warning-use-key-link = ਇਸ ਨੂੰ ਹੁਣ ਆਪਣਾ ਪਾਸਵਰਡ ਮੁੜ-ਸੈੱਟ ਕਰਨ ਅਤੇ ਆਪਣਾ ਡਾਟਾ ਰੱਖਣ ਲਈ ਵਰਤੋਂ
 
 ## Alert Bar
 
@@ -534,6 +536,9 @@ dc-learn-more = ਹੋਰ ਜਾਣੋ
 # DropDownAvatarMenu component
 
 drop-down-menu-title-2 = { -product-mozilla-account } ਮੇਨੂ
+# This is displayed in the Settings menu after user's click on their profile icon.
+# Following this string on a new line will be their display name (user's name or email)
+drop-down-menu-signed-in-as-v2 = ਇਸ ਵਜੋਂ ਸਾਈਨ-ਇਨ ਕੀਤਾ
 drop-down-menu-sign-out = ਸਾਈਨ ਆਉਟ
 drop-down-menu-sign-out-error-2 = ਅਫ਼ਸੋਸ ਹੈ ਕਿ ਤੁਹਾਨੂੰ ਸਾਈਨ ਆਉਟ ਕਰਨ ਦੌਰਾਨ ਸਮੱਸਿਆ ਆਈ ਸੀ
 
@@ -585,9 +590,30 @@ flow-recovery-key-info-cancel-link = ਰੱਦ ਕਰੋ
 
 ## FlowSetupPhoneConfirmCode
 
+# verification code refers to a code sent by text message to confirm phone number ownership
+# and complete setup
+flow-setup-phone-confirm-code-heading = ਤਸਦੀਕੀ ਕੋਡ ਦਿਓ
+# $phoneNumber is a partially obfuscated phone number with only the last 4 digits showing (e.g., *** *** 1234)
+# span element applies formatting to ensure the number is always displayed left-to-right
+flow-setup-phone-confirm-code-instruction = ਛੇ ਅੱਖਰਾਂ ਦਾ ਕੋਡ <span>{ $phoneNumber }</span> ਉੱਤੇ ਟੈਕਸਟ ਸੁਨੇਹਾ ਭੇਜਿਆ ਗਿਆ ਸੀ। ਇਹ ਕੋਡ ਦੀ ਮਿਆਦ 5 ਮਿੰਟ ਹੈ।
+flow-setup-phone-confirm-code-input-label = 6-ਅੰਕ ਦਾ ਕੋਡ ਦਿਓ
+flow-setup-phone-confirm-code-button = ਤਸਦੀਕ
+# button to resend a code by text message to the user's phone
+# followed by a button to resend a code
+flow-setup-phone-confirm-code-expired = ਕੋਡ ਦੀ ਮਿਆਦ ਪੁੱਗੀ?
+flow-setup-phone-confirm-code-resend-code-button = ਕੋਡ ਮੁੜ ਕੇ ਭੇਜੋ
+flow-setup-phone-confirm-code-success-message-v2 = ਰਿਕਵਰੀ ਫ਼ੋਨ ਜੋੜਿਆ ਗਿਆ
 
 ## FlowSetupPhoneConfirmCode
 
+flow-setup-phone-submit-number-heading = ਆਪਣੇ ਫ਼ੋਨ ਨੰਬਰ ਦੀ ਜਾਂਚ ਕਰੋ
+# The initial rollout of the recovery phone is only available to users with US and Canada mobile phone numbers.
+# Voice over Internet Protocol (VoIP), is a technology that uses a broadband Internet connection instead of a regular (or analog) phone line to make calls.
+# Phone mask services (for example Relay) provide a temporary virtual number to avoid providing a real phone number.
+# Both VoIP and phone masks can be unreliable for one-time-passcode (OTP) verification
+flow-setup-phone-submit-number-info-message-v2 = ਰਿਕਵਰੀ ਫ਼ੋਨ ਸਿਰਫ਼ ਸੰਯੁਕਤ ਰਾਜ ਅਮਰੀਕਾ ਅਤੇ ਕੈਨੇਡਾ ਵਿੱਚ ਹੀ ਮੌਜੂਦ ਹੈ। voIP ਨੰਬਰ ਅਤੇ ਫ਼ੋਨ ਮਾਸਕਾਂ ਦੀ ਸਿਫ਼ਾਰਸ਼ ਨਹੀਂ ਕੀਤੀ ਜਾਂਦੀ ਹੈ।
+# cliking on the button sends a code by text message to the phone number typed in by the user
+flow-setup-phone-submit-number-button = ਕੋਡ ਭੇਜੋ
 
 ## HeaderLockup component, the header in account settings
 
@@ -793,6 +819,7 @@ recovery-key-create-back-button-title = ਸੈਟਿੰਗਾਂ ‘ਤੇ ਵ�
 
 ## PageSetupRecoveryPhone
 
+page-setup-recovery-phone-heading = ਰਿਕਵਰੀ ਫ਼ੋਨ ਜੋੜੋ
 
 ## Add secondary email page
 
@@ -1012,6 +1039,9 @@ tfa-row-action-add = ਜੋੜੋ
 tfa-row-action-disable = ਅਸਮਰੱਥ ਕਰੋ
 tfa-row-button-refresh =
     .title = ਦੋ-ਪੜ੍ਹਾਵੀਂ ਪਰਮਾਣੀਕਰਨ ਤਾਜ਼ਾ ਕਰੋ
+# "this" refers to two-step authentication
+# Link goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+tfa-row-enabled-info-link = ਇਹ ਤੁਹਾਡੇ ਖਾਤੇ ਨੂੰ ਸੁਰੱਖਿਅਤ ਕਿਵੇਂ ਕਰਦਾ ਹੈ
 tfa-row-cannot-verify-session-4 = ਅਫ਼ਸੋਸ ਹੈ ਕਿ ਤੁਹਾਡੇ ਸ਼ੈਸ਼ਨ ਨੂੰ ਤਸਦੀਕ ਕਰਨ ਦੌਰਾਨ ਸਮੱਸਿਆ ਆਈ ਸੀ
 tfa-row-disable-modal-heading = ਦੋ-ਪੜ੍ਹਾਵੀਂ ਪਰਮਾਣੀਕਰਨ ਅਸਮਰੱਥ ਕਰਨਾ ਹੈ?
 tfa-row-disable-modal-confirm = ਅਸਮਰੱਥ ਕਰੋ
@@ -1056,11 +1086,13 @@ auth-error-114-generic = ਤੁਸੀਂ ਕਾਫੀ ਵਾਰ ਕੋਸ਼ਿ�
 #                          formatting library (momentjs) as a "time from now" and automatically includes
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = ਤੁਸੀਂ ਬਹੁਤ ਵਾਰ ਕੋਸ਼ਿਸ਼ ਕਰ ਚੁੱਕੇ ਹੋ। { $retryAfter } ਫੇਰ ਕੋਸ਼ਿਸ਼ ਕਰਿਓ।
+auth-error-125 = ਸੁਰੱਖਿਆ ਕਾਰਨਾਂ ਕਰਕੇ ਬੇਨਤੀ ਉੱਤੇ ਪਾਬੰਦੀ ਲਾਈ ਗਈ ਸੀ
 auth-error-138-2 = ਨਾ-ਤਸਦੀਕ ਕੀਤਾ ਸ਼ੈਸ਼ਨ
 auth-error-139 = ਸੈਕੰਡਰੀ ਈਮੇਲ ਤੁਹਾਡੇ ਖਾਤੇ ਦੀ ਈਮੇਲ ਤੋਂ ਵੱਖਰੀ ਹੋਣੀ ਚਾਹੀਦੀ ਹੈ
 auth-error-155 = TOTP ਟੋਕ ਨਹੀਂ ਲੱਭਿਆ
 auth-error-159 = ਗਲਤ ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ
 auth-error-183-2 = ਤਸਦੀਕੀ ਕੋਡ ਗਲਤ ਹੈ ਜਾਂ ਮਿਆਦ ਪੁੱਗੀ
+auth-error-206 = ਪਾਸਵਰਡ ਬਣਾਇਆ ਨਹੀਂ ਜਾ ਸਕਦਾ ਹੈ, ਪਾਸਵਰਡ ਪਹਿਲਾਂ ਹੀ ਸੈੱਟ ਹੈ
 auth-error-999 = ਅਣਜਾਣ ਗਲਤੀ
 auth-error-1001 = ਲਾਗਇਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਰੱਦ ਕੀਤੀ
 auth-error-1002 = ਸ਼ੈਸ਼ਨ ਦੀ ਮਿਆਦ ਪੁੱਗੀ। ਜਾਰੀ ਰੱਖਣ ਲਈ ਸਾਇਨ ਇਨ ਕਰੋ।
@@ -1070,6 +1102,7 @@ auth-error-1010 = ਠੀਕ ਪਾਸਵਰਡ ਚਾਹੀਦਾ ਹੈ
 auth-error-1011 = ਢੁੱਕਵੀਂ ਈਮੇਲ ਚਾਹੀਦੀ ਹੈ
 auth-error-1031 = ਸਾਈਨ ਅੱਪ ਲਈ ਤੁਹਾਨੂੰ ਆਪਣੀ ਉਮਰ ਦੇਣੀ ਪਵੇਗੀ
 auth-error-1032 = ਸਾਇਨ ਇਨ ਕਰਨ ਲਈ ਤੁਹਾਨੂੰ ਢੁੱਕਵੀਂ ਉਮਰ ਦੇਣੀ ਚਾਹੀਦੀ ਹੈ
+auth-error-1054 = ਗ਼ਲਤ ਦੋ-ਪੜ੍ਹਾਵੀ ਪਰਮਾਣੀਕਰਨ ਕੋਡ
 auth-error-1062 = ਅਢੁੱਕਵਾਂ ਰੀ-ਡਿਰੈਕਟ
 oauth-error-1000 = ਕੁਝ ਗਲਤ ਹੋ ਗਿਆ ਹੈ। ਇਹ ਟੈਬ ਬੰਦ ਕਰੋ ਅਤੇ ਮੁੜ ਕੋਸ਼ਿਸ਼ ਕਰੋ।
 
@@ -1171,6 +1204,7 @@ inline-recovery-confirmation-header-default = <span>ਖਾਤਾ ਸੈਟਿੰ
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = <span>{ $serviceName } ਨਾਲ ਜਾਰੀ ਰੱਖਣ ਲਈ</span> ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਤਸਦੀਕ ਕਰੋ
+inline-recovery-2fa-enabled-v2 = ਦੋ-ਪੜਾਵੀਂ ਪਰਮਾਣਕਿਤਾ ਨੂੰ ਸਮਰੱਥ ਕੀਤਾ ਗਿਆ ਹੈ
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1322,10 +1356,12 @@ pair-unsupported-message = ਕੀ ਤੁਸੀਂ ਸਿਸਟਮ ਕੈਮਰ�
 ## password to complete their sign-in when they want to login to a service requiring it.
 
 set-password-heading = ਪਾਸਵਰਡ ਬਣਾਓ
+set-password-info = ਤੁਹਾਡੇ ਸਿੰਕ ਡਾਟੇ ਨੂੰ ਤੁਹਾਡੀ ਪਰਦੇਦਾਰੀ ਨੂੰ ਸੁਰੱਖਿਅਤ ਰੱਖਣ ਲਈ ਤੁਹਾਡੇ ਪਾਸਵਰਡ ਨਾਲ ਇੰਕ੍ਰਿਪਟ ਕੀਤਾ ਜਾਂਦਾ ਹੈ।
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
 
+third-party-auth-callback-message = ਕਿਰਪਾ ਕਰਕੇ ਉਡੀਕੋ, ਤੁਹਾਨੂੰ ਪਰਮਾਣ ਕੀਤੀ ਐਪਲੀਕੇਸ਼ਨ ਲਈ ਭੇਜਿਆ ਜਾਵੇਗਾ।
 
 ## AccountRecoveryConfirmKey page
 
@@ -1377,6 +1413,7 @@ confirm-reset-password-otp-different-account-link = ਵੱਖਰੇ ਖਾਤੇ
 ## PasswordResetConfirmTotp Page
 
 confirm-totp-reset-password-header = ਆਪਣਾ ਪਾਸਵਰਡ ਮੁੜ-ਸੈੱਟ ਕਰੋ
+confirm-totp-reset-password-subheader-v2 = ਦੋ-ਪੜ੍ਹਾਵੀ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਦਿਓ
 confirm-totp-reset-password-trouble-code = ਕੋਡ ਦਰਜ ਕਰਨ ਲਈ ਸਮੱਸਿਆ ਹੈ?
 confirm-totp-reset-password-confirm-button = ਤਸਦੀਕ
 confirm-totp-reset-password-input-label-v2 = 6-ਅੰਕ ਦਾ ਕੋਡ ਦਿਓ
