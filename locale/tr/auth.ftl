@@ -50,6 +50,7 @@ subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Gizlilik
 subplat-privacy-website-plaintext = { subplat-privacy }:
 account-deletion-info-block-support = Herhangi bir sorunuz veya yardıma ihtiyacınız varsa <a data-l10n-name="supportLink">destek ekibimizle</a> iletişime geçebilirsiniz.
+account-deletion-info-block-communications-plaintext = Hesabınız silinse bile abonelikten ayrılmak istemediğiniz sürece Mozilla Corporation ve Mozilla Vakfı’ndan e-posta almaya devam edeceksiniz:
 account-deletion-info-block-support-plaintext = Herhangi bir sorunuz veya yardıma ihtiyacınız varsa destek ekibimizle iletişime geçebilirsiniz:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
@@ -78,6 +79,7 @@ automated-email-support = Daha fazla bilgi için <a data-l10n-name="supportLink"
 automated-email-change-plaintext-2 = Bu işlemi siz yapmadıysanız hemen parolanızı değiştirin:
 #  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-support-plaintext = Daha fazla bilgi için { -brand-mozilla } Destek sayfasını ziyaret edin:
+automated-email-inactive-account = Bu otomatik bir e-postadır. Bu e-postayı bir { -product-mozilla-account }nız olduğu ve son oturum açmanızın üzerinden 2 yıl geçtiği için alıyorsunuz.
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } Daha fazla bilgi için <a data-l10n-name="supportLink">{ -brand-mozilla } Destek</a>'i ziyaret edin.
 automated-email-no-action-plaintext = Bu otomatik bir e-postadır. Bu e-postayı yanlışlıkla aldıysanız herhangi bir şey yapmanıza gerek yok.
@@ -254,12 +256,20 @@ inactiveAccountFinalWarning-account-description = { -product-mozilla-account }n�
 # $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
 # This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
 inactiveAccountFinalWarning-impact = <strong>{ $deletionDate }</strong> tarihine kadar giriş yapmazsanız hesabınız ve kişisel verileriniz kalıcı olarak silinecektir.
+inactiveAccountFinalWarning-action = Hesabınızı korumak için giriş yapın
+# followed by link to sign in
+inactiveAccountFinalWarning-action-plaintext = Hesabınızı korumak için giriş yapın:
 inactiveAccountFirstWarning-subject = Hesabınızı kaybetmeyin
+inactiveAccountFirstWarning-title = { -brand-mozilla } hesabınızı ve verilerinizi korumak istiyor musunuz?
 inactiveAccountFirstWarning-account-description-v2 = { -product-mozilla-account }nız { -brand-firefox }’u eşitleme, { -product-mozilla-monitor }, { -product-firefox-relay } ve { -product-mdn } gibi ücretsiz gizlilik ve gezinti ürünlerine erişmek için kullanılır.
 inactiveAccountFirstWarning-inactive-status = İki yıldır giriş yapmadığınızı fark ettik.
 # $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
 # This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
 inactiveAccountFirstWarning-impact = Aktif olmadığınız için <strong>{ $deletionDate }</strong> tarihinde hesabınız ve kişisel verileriniz kalıcı olarak silinecektir.
+inactiveAccountFirstWarning-action = Hesabınızı korumak için giriş yapın
+inactiveAccountFirstWarning-preview = Hesabınızı korumak için giriş yapın
+# followed by link to sign in
+inactiveAccountFirstWarning-action-plaintext = Hesabınızı korumak için giriş yapın:
 inactiveAccountSecondWarning-subject = İşlem gerekiyor: Hesabınız 7 gün sonra silinecek
 inactiveAccountSecondWarning-title = 7 gün sonra { -brand-mozilla } hesabınız ve verileriniz silinecektir
 inactiveAccountSecondWarning-account-description-v2 = { -product-mozilla-account }nız { -brand-firefox }’u eşitleme, { -product-mozilla-monitor }, { -product-firefox-relay } ve { -product-mdn } gibi ücretsiz gizlilik ve gezinti ürünlerine erişmek için kullanılır.

@@ -878,6 +878,8 @@ recovery-phone-remove-header = Kurtarma telefon numarasını kaldır
 #   $formattedFullPhoneNumber (String) - the user's full phone number
 settings-recovery-phone-remove-info = Bu işlem <strong>{ $formattedFullPhoneNumber }</strong> numaralı kurtarma telefonunuzu kaldıracaktır.
 settings-recovery-phone-remove-recommend = Yedek kimlik doğrulama kodlarını kaydetmekten daha kolay olduğu için bu yöntemi kullanmanızı öneriyoruz.
+# "Saved backup authentication codes" refers to previously saved backup authentication codes
+settings-recovery-phone-remove-recovery-methods = Telefon numaranızı silseniz bile kayıtlı yedek kimlik doğrulama kodlarınız olduğundan emin olun. <linkExternal>Kurtarma yöntemlerini karşılaştırın</linkExternal>
 settings-recovery-phone-remove-button = Telefon numarasını kaldır
 settings-recovery-phone-remove-cancel = Vazgeç
 
