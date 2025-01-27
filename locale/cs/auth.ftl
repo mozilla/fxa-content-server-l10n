@@ -263,7 +263,7 @@ inactiveAccountFinalWarning-action-plaintext = Přihlaste se a zachovejte si sv�
 inactiveAccountFirstWarning-subject = Neztraťte svůj účet
 inactiveAccountFirstWarning-title = Chcete si ponechat účet { -brand-mozilla } a data?
 inactiveAccountFirstWarning-account-description-v2 = Váš { -product-mozilla-account } slouží k bezplatnému přístupu k ochraně soukromí a procházení webu jako jsou { -brand-firefox } sync, { -product-mozilla-monitor }, { -product-firefox-relay } a { -product-mdn }.
-inactiveAccountFirstWarning-inactive-status = Všimli jsme si, že jste se nepřihlásili už 2 roky.
+inactiveAccountFirstWarning-inactive-status = Všimli jsme si, že jste se dva roky nepřihlásil(a).
 # $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
 # This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
 inactiveAccountFirstWarning-impact = Váš účet a vaše osobní data budou dne <strong>{ $deletionDate }</strong> trvale smazána, protože nejste aktivní.
