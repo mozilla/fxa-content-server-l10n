@@ -845,6 +845,7 @@ recovery-phone-remove-header = הסרת מספר טלפון לשחזור
 settings-recovery-phone-remove-info = פעולה זו תסיר את <strong>{ $formattedFullPhoneNumber }</strong> כטלפון השחזור שלך.
 settings-recovery-phone-remove-button = הסרת מספר טלפון
 settings-recovery-phone-remove-cancel = ביטול
+settings-recovery-phone-remove-success = הוסר טלפון לשחזור
 
 ## PageSetupRecoveryPhone
 
