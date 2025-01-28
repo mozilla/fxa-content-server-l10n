@@ -1662,7 +1662,7 @@ recovery-phone-code-confirm-flow-heading = Entrar
 recovery-phone-code-confirm-with-code-heading = Insira o código de recuperação
 # Text that explains the user should check their phone for a recovery code
 # $maskedPhoneNumber - The users masked phone number
-recovery-phone-code-confirm-code-instruction = Um código de seis dígitos foi enviado para <span>{ $phoneNumber }</span> por mensagem de texto. Esse código expira após 5 minutos.
+recovery-phone-code-confirm-code-instruction = Um código de seis dígitos foi enviado para <span>{ $maskedPhoneNumber }</span> por mensagem de texto. Esse código expira após 5 minutos.
 recovery-phone-code-confirm-input-group-label = Insira o código de 6 dígitos
 recovery-phone-code-confirm-otp-submit-button = Confirmar
 
