@@ -883,6 +883,7 @@ settings-recovery-phone-remove-recommend = Wir empfehlen Ihnen, diese Methode be
 settings-recovery-phone-remove-recovery-methods = Wenn Sie sie löschen, stellen Sie sicher, dass Sie Ihre gespeicherten Sicherungs-Authentifizierungscodes noch haben. <linkExternal>Wiederherstellungsmethoden vergleichen</linkExternal>
 settings-recovery-phone-remove-button = Telefonnummer entfernen
 settings-recovery-phone-remove-cancel = Abbrechen
+settings-recovery-phone-remove-success = Telefonnummer für Kontowiederherstellung entfernt
 
 ## PageSetupRecoveryPhone
 

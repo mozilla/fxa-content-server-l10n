@@ -881,6 +881,7 @@ settings-recovery-phone-remove-recommend = Nous vous recommandons de conserver c
 settings-recovery-phone-remove-recovery-methods = Si vous supprimez cette méthode, assurez-vous de conserver les codes d’authentification de secours que vous avez enregistrés. <linkExternal>Comparer les méthodes de récupération</linkExternal>
 settings-recovery-phone-remove-button = Supprimer le numéro de téléphone
 settings-recovery-phone-remove-cancel = Annuler
+settings-recovery-phone-remove-success = Le numéro de téléphone de récupération a été supprimé
 
 ## PageSetupRecoveryPhone
 

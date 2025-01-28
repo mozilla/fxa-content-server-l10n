@@ -878,6 +878,7 @@ settings-recovery-phone-remove-recommend = Ti consigliamo di mantenere questo me
 settings-recovery-phone-remove-recovery-methods = Se lo elimini, assicurati di avere ancora i codici di autenticazione di backup salvati. <linkExternal>Confronta i metodi di recupero</linkExternal>
 settings-recovery-phone-remove-button = Rimuovi numero di telefono
 settings-recovery-phone-remove-cancel = Annulla
+settings-recovery-phone-remove-success = Il numero di telefono per il recupero dell’account è stato rimosso
 
 ## PageSetupRecoveryPhone
 

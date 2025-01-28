@@ -80,6 +80,8 @@ select-tax-location-save-button = Mentés
 select-tax-location-country-code-label = Ország
 select-tax-location-country-code-placeholder = Válassza ki az országot
 select-tax-location-error-missing-country-code = Válassza ki az országot
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN
+select-tax-location-product-not-available = A(z) { $productName } nem érhető el ezen a helyen.
 select-tax-location-postal-code-label = Irányítószám
 select-tax-location-postal-code =
     .placeholder = Adja meg az irányítószámát

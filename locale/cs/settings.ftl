@@ -887,6 +887,7 @@ settings-recovery-phone-remove-recommend = Tuto metodu doporučujeme ponechat, p
 settings-recovery-phone-remove-recovery-methods = Pokud ji smažete, ujistěte se, že máte uložené záložní ověřovací kódy. <linkExternal>Porovnání metod obnovení</linkExternal>
 settings-recovery-phone-remove-button = Odebrat telefonní číslo
 settings-recovery-phone-remove-cancel = Zrušit
+settings-recovery-phone-remove-success = Telefon pro obnovení byl odebrán
 
 ## PageSetupRecoveryPhone
 

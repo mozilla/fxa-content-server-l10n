@@ -885,6 +885,7 @@ settings-recovery-phone-remove-recommend = Priporočamo vam, da ohranite to meto
 settings-recovery-phone-remove-recovery-methods = Če ga izbrišete, se prepričajte, da imate še vedno shranjene rezervne overitvene kode. <linkExternal>Primerjajte metode obnovitve</linkExternal>
 settings-recovery-phone-remove-button = Odstrani telefonsko številko
 settings-recovery-phone-remove-cancel = Prekliči
+settings-recovery-phone-remove-success = Telefonska številka za obnovitev je odstranjena
 
 ## PageSetupRecoveryPhone
 

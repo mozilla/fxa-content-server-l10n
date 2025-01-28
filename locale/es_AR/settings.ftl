@@ -880,6 +880,7 @@ settings-recovery-phone-remove-recommend = Te recomendamos que conservés este m
 settings-recovery-phone-remove-recovery-methods = Si lo borrás, asegurate de tener tus códigos de autenticación de respaldo guardados. <linkExternal>Comparar métodos de recuperación</linkExternal>
 settings-recovery-phone-remove-button = Eliminar número de teléfono
 settings-recovery-phone-remove-cancel = Cancelar
+settings-recovery-phone-remove-success = Teléfono de recuperación eliminado
 
 ## PageSetupRecoveryPhone
 

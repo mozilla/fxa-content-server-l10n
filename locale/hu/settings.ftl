@@ -889,6 +889,7 @@ settings-recovery-phone-remove-recommend = Javasoljuk, hogy tartsa meg ezt a mó
 settings-recovery-phone-remove-recovery-methods = Ha törli, győződjön meg róla, hogy megvannak-e még az elmentett tartalék hitelesítési kódjai. <linkExternal>Helyreállítási módszerek összehasonlítása</linkExternal>
 settings-recovery-phone-remove-button = Telefonszám eltávolítása
 settings-recovery-phone-remove-cancel = Mégse
+settings-recovery-phone-remove-success = Helyreállítási telefonszám eltávolítva
 
 ## PageSetupRecoveryPhone
 

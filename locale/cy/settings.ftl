@@ -883,6 +883,7 @@ settings-recovery-phone-remove-recommend = Rydym yn argymell eich bod yn cadw'r 
 settings-recovery-phone-remove-recovery-methods = Os byddwch chi'n ei ddileu, gwnewch yn siŵr bod gennych chi y codau dilysu wrth gefn sydd wedi'u cadw, o hyd. <linkExternal>Cymharu dulliau adfer</linkExternal>
 settings-recovery-phone-remove-button = Dileu rhif ffôn
 settings-recovery-phone-remove-cancel = Diddymu
+settings-recovery-phone-remove-success = Ffôn adfer wedi'i dynnu
 
 ## PageSetupRecoveryPhone
 
