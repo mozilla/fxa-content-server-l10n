@@ -883,6 +883,7 @@ settings-recovery-phone-remove-recommend = Odporúčame vám ponechať si túto 
 settings-recovery-phone-remove-recovery-methods = Ak ho vymažete, uistite sa, že máte stále uložené záložné overovacie kódy. <linkExternal>Porovnať metódy obnovenia</linkExternal>
 settings-recovery-phone-remove-button = Odstrániť telefónne číslo
 settings-recovery-phone-remove-cancel = Zrušiť
+settings-recovery-phone-remove-success = Obnovenie pomocou telefónu bolo zrušené
 
 ## PageSetupRecoveryPhone
 

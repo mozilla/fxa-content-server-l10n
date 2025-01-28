@@ -80,6 +80,8 @@ select-tax-location-save-button = Uložiť
 select-tax-location-country-code-label = Krajina
 select-tax-location-country-code-placeholder = Zvoľte krajinu
 select-tax-location-error-missing-country-code = Vyberte svoju krajinu
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN
+select-tax-location-product-not-available = { $productName } nie je v tejto lokalite k dispozícii.
 select-tax-location-postal-code-label = PSČ
 select-tax-location-postal-code =
     .placeholder = Zadajte svoje poštové smerovacie číslo
