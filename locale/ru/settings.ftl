@@ -883,6 +883,7 @@ settings-recovery-phone-remove-recommend = Мы рекомендуем вам с
 settings-recovery-phone-remove-recovery-methods = Если вы удалите его, убедитесь, что у вас все ещё есть сохранённые резервные коды аутентификации. <linkExternal>Сравните методы восстановления</linkExternal>
 settings-recovery-phone-remove-button = Удалить номер телефона
 settings-recovery-phone-remove-cancel = Отмена
+settings-recovery-phone-remove-success = Телефон для восстановления удалён
 
 ## PageSetupRecoveryPhone
 
