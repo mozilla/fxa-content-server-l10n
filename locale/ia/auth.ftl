@@ -49,7 +49,10 @@ subplat-legal = Legal
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Confidentialitate
 subplat-privacy-website-plaintext = { subplat-privacy }:
+account-deletion-info-block-communications = Si tu conto es delite, ancora tu recipera emails de Mozilla Corporation e Mozilla Foundation, si tu non <a data-l10n-name="unsubscribeLink">demanda de remover le inscription</a>.
 account-deletion-info-block-support = Si tu ha questiones o besonia de assistentia, contacta nostre <a data-l10n-name="supportLink">equipa de assistentia</a>.
+account-deletion-info-block-communications-plaintext = Si tu conto es delite, ancora tu recipera emails de Mozilla Corporation e Mozilla Foundation, si tu non demanda de remover le inscription:
+account-deletion-info-block-support-plaintext = Si tu ha alcun question o tu besonia assistentia, senti te libere de contactar nostre equipa de assistentia:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-android-badge = <img data-l10n-name="google-play-badge" alt="Discarga { $productName } de { -google-play }">
@@ -77,6 +80,7 @@ automated-email-support = Pro altere informationes, visita <a data-l10n-name="su
 automated-email-change-plaintext-2 = Si non es tu qui prendeva iste action, cambia tu contrasigno immediatemente:
 #  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-support-plaintext = Pro plus informationes, visita le sito de supporto de { -brand-mozilla }:
+automated-email-inactive-account = Isto es un email automatisate. Tu recipe illo perque tu ha un { -product-mozilla-account } e il ha passate 2 annos desde tu ultime authentication.
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } Pro altere informationes, visita <a data-l10n-name="supportLink">{ -brand-mozilla } Supporto</a>.
 automated-email-no-action-plaintext = Isto es un email automatisate. Si tu ha recipite illo per error, tu non besonia de facer alco.
@@ -425,9 +429,13 @@ postRemoveTwoStepAuthentication-not-required-2 = Tu non plus besonia codices de 
 postSigninRecoveryCode-subject = Codice de authentication de salvamento usate pro acceder
 postSigninRecoveryCode-preview = Confirmar activitate del conto
 postSigninRecoveryCode-title = Tu codice de authentication de salvamento era usate pro acceder
+postSigninRecoveryCode-description = Si tu non lo face, tu debe cambiar tu contrasigno immediatemente pro mantener tu conto secur.
 postSigninRecoveryCode-device = Tu accedeva ab:
 postSigninRecoveryCode-action = Gerer conto
+postSigninRecoveryPhone-subject = Numero de telephono de recuperation usate pro aperir session
 postSigninRecoveryPhone-preview = Confirma le activitate del conto
+postSigninRecoveryPhone-title = Tu numero de telephono de recuperation era usate pro aperir session
+postSigninRecoveryPhone-description = Si tu non lo face, tu debe cambiar tu contrasigno immediatemente pro mantener tu conto secur.
 postSigninRecoveryPhone-device = Tu accedeva ab:
 postSigninRecoveryPhone-action = Gerer conto
 postVerify-sub-title-3 = Nos es delectate de vider te!

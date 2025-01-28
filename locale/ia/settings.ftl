@@ -878,6 +878,7 @@ recovery-key-create-back-button-title = Retornar al configuration
 recovery-phone-remove-header = Remover numero de telephono de recuperation?
 settings-recovery-phone-remove-button = Remover numero de telephono
 settings-recovery-phone-remove-cancel = Cancellar
+settings-recovery-phone-remove-success = Numero de telephono de recuperation removite
 
 ## PageSetupRecoveryPhone
 
