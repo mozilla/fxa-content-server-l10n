@@ -885,6 +885,7 @@ settings-recovery-phone-remove-recommend = Poručamy, při tutej metodźe wosta�
 settings-recovery-phone-remove-recovery-methods = Jeli je zhašeće, zawěsćće, zo maće swoje składowane awtentifikaciske kody. <linkExternal>Wobnowjenske metody přirunać</linkExternal>
 settings-recovery-phone-remove-button = Telefonowe čisło wotstronić
 settings-recovery-phone-remove-cancel = Přetorhnyć
+settings-recovery-phone-remove-success = Wobnowjenski telefon wotstronjeny
 
 ## PageSetupRecoveryPhone
 

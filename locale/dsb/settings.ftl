@@ -885,6 +885,7 @@ settings-recovery-phone-remove-recommend = Pórucujomy, pśi toś tej metoźe w�
 settings-recovery-phone-remove-recovery-methods = Jolic je lašujośo, zawěsććo, až maśo swóje skłaźone awtentifikaciske kody. <linkExternal>Wótnowjeńske metody pśirownaś</linkExternal>
 settings-recovery-phone-remove-button = Telefonowy numer wótwónoźeś
 settings-recovery-phone-remove-cancel = Pśetergnuś
+settings-recovery-phone-remove-success = Wótnowjeński telefon wótwónoźony
 
 ## PageSetupRecoveryPhone
 

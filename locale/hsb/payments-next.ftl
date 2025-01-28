@@ -80,6 +80,8 @@ select-tax-location-save-button = Składować
 select-tax-location-country-code-label = Kraj
 select-tax-location-country-code-placeholder = Wubjerće swój kraj
 select-tax-location-error-missing-country-code = Prošu wubjerće swój kraj
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN
+select-tax-location-product-not-available = { $productName } na tutym městnje k dispoziciji njeje.
 select-tax-location-postal-code-label = Póstowe wodźenske čisło
 select-tax-location-postal-code =
     .placeholder = Zapodajće swoje póstowe wodźenske čisło
