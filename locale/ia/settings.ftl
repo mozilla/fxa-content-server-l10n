@@ -876,6 +876,9 @@ recovery-key-create-back-button-title = Retornar al configuration
 ## Users reach this page from account settings when they want to remove a backup phone number.
 
 recovery-phone-remove-header = Remover numero de telephono de recuperation?
+# Variables:
+#   $formattedFullPhoneNumber (String) - the user's full phone number
+settings-recovery-phone-remove-info = Isto removera <strong>{ $formattedFullPhoneNumber }</strong> como numero de telephono pro le recuperation del conto.
 settings-recovery-phone-remove-button = Remover numero de telephono
 settings-recovery-phone-remove-cancel = Cancellar
 settings-recovery-phone-remove-success = Numero de telephono de recuperation removite
