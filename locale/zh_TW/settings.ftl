@@ -878,6 +878,7 @@ settings-recovery-phone-remove-recommend = 因為這個方式比保存備用驗�
 settings-recovery-phone-remove-recovery-methods = 請務必先確認已經產生並保存備用驗證碼，再刪除救援號碼。<linkExternal>比較各種救援方式</linkExternal>
 settings-recovery-phone-remove-button = 移除電話號碼
 settings-recovery-phone-remove-cancel = 取消
+settings-recovery-phone-remove-success = 已移除救援電話號碼
 
 ## PageSetupRecoveryPhone
 

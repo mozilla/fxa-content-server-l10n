@@ -80,6 +80,8 @@ select-tax-location-save-button = 儲存
 select-tax-location-country-code-label = 國家
 select-tax-location-country-code-placeholder = 選擇您的國家
 select-tax-location-error-missing-country-code = 請選擇您的國家
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN
+select-tax-location-product-not-available = 此地點無法使用 { $productName }。
 select-tax-location-postal-code-label = 郵遞區號
 select-tax-location-postal-code =
     .placeholder = 請輸入您的郵遞區號
