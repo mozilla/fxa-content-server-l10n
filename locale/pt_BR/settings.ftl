@@ -878,6 +878,7 @@ settings-recovery-phone-remove-recommend = Recomendamos manter este método porq
 settings-recovery-phone-remove-recovery-methods = Se você excluir, certifique-se de ainda ter seus códigos de autenticação de backup salvos. <linkExternal>Comparar métodos de recuperação</linkExternal>
 settings-recovery-phone-remove-button = Remover número de celular
 settings-recovery-phone-remove-cancel = Cancelar
+settings-recovery-phone-remove-success = Celular de recuperação removido
 
 ## PageSetupRecoveryPhone
 
