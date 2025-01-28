@@ -249,15 +249,29 @@ fraudulentAccountDeletion-contact-plaintext = Si tu ha questiones, contacta nost
 inactiveAccountFinalWarning-subject = Ultime chance pro mantener tu { -product-mozilla-account }
 inactiveAccountFinalWarning-title = Tu conto e datos de { -brand-mozilla } sera delite.
 inactiveAccountFinalWarning-preview = Accede pro mantener tu conto
+inactiveAccountFinalWarning-account-description = Tu { -product-mozilla-account } es usate pro acceder productos gratuite pro confidentialitate e navigation como { -brand-firefox } sync, { -product-mozilla-monitor }, { -product-firefox-relay }, e { -product-mdn }.
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+# This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
+inactiveAccountFinalWarning-impact = Le <strong>{ $deletionDate }</strong>, tu conto e tu datos personal sera permanentemente delite si tu non accede.
 inactiveAccountFinalWarning-action = Accede pro mantener tu conto
 # followed by link to sign in
 inactiveAccountFinalWarning-action-plaintext = Accede pro mantener tu conto:
 inactiveAccountFirstWarning-subject = Non perde tu conto
+inactiveAccountFirstWarning-title = Vole tu mantener tu conto { -brand-mozilla } e tu datos?
+inactiveAccountFirstWarning-account-description-v2 = Tu { -product-mozilla-account } es usate pro acceder productos gratuite pro confidentialitate e navigation como { -brand-firefox } sync, { -product-mozilla-monitor }, { -product-firefox-relay }, e { -product-mdn }.
+inactiveAccountFirstWarning-inactive-status = Nos constatava que tu non ha habeva accedite pro 2 annos.
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+# This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
+inactiveAccountFirstWarning-impact = Tu conto e tu datos personal sera permanentemente delite le <strong>{ $deletionDate }</strong> perque tu non ha essite active.
 inactiveAccountFirstWarning-action = Accede pro mantener tu conto
 inactiveAccountFirstWarning-preview = Accede pro mantener tu conto
 # followed by link to sign in
 inactiveAccountFirstWarning-action-plaintext = Accede pro mantener tu conto:
+inactiveAccountSecondWarning-subject = Action necessari: deletion del conto in 7 dies
 inactiveAccountSecondWarning-title = Tu conto e datos de { -brand-mozilla } sera delite in 7 dies.
+inactiveAccountSecondWarning-account-description-v2 = Tu { -product-mozilla-account } es usate pro acceder productos gratuite pro confidentialitate e navigation como { -brand-firefox } sync, { -product-mozilla-monitor }, { -product-firefox-relay }, e { -product-mdn }.
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+inactiveAccountSecondWarning-impact = Tu conto e tu datos personal sera permanentemente delite le <strong>{ $deletionDate }</strong> perque tu non ha essite active.
 inactiveAccountSecondWarning-action = Accede pro mantener tu conto
 inactiveAccountSecondWarning-preview = Accede pro mantener tu conto
 # followed by link to sign in
