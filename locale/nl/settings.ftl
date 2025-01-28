@@ -885,6 +885,7 @@ settings-recovery-phone-remove-recommend = We raden u aan deze methode te behoud
 settings-recovery-phone-remove-recovery-methods = Als u de add-on verwijdert, zorg er dan voor dat u uw opgeslagen reserve-authenticatiecodes nog hebt. <linkExternal>Herstelmethoden vergelijken</linkExternal>
 settings-recovery-phone-remove-button = Telefoonnummer verwijderen
 settings-recovery-phone-remove-cancel = Annuleren
+settings-recovery-phone-remove-success = Hersteltelefoonnummer verwijderd
 
 ## PageSetupRecoveryPhone
 
