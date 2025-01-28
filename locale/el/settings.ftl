@@ -887,6 +887,7 @@ settings-recovery-phone-remove-recommend = Προτείνουμε να διατ�
 settings-recovery-phone-remove-recovery-methods = Εάν το διαγράψετε, βεβαιωθείτε ότι διαθέτετε ακόμα τους αποθηκευμένους εφεδρικούς κωδικούς ταυτοποίησής σας. <linkExternal>Σύγκριση μεθόδων ανάκτησης</linkExternal>
 settings-recovery-phone-remove-button = Αφαίρεση αριθμού τηλεφώνου
 settings-recovery-phone-remove-cancel = Ακύρωση
+settings-recovery-phone-remove-success = Το τηλέφωνο ανάκτησης αφαιρέθηκε
 
 ## PageSetupRecoveryPhone
 

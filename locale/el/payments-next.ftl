@@ -80,6 +80,8 @@ select-tax-location-save-button = Αποθήκευση
 select-tax-location-country-code-label = Χώρα
 select-tax-location-country-code-placeholder = Επιλέξτε τη χώρα σας
 select-tax-location-error-missing-country-code = Επιλέξτε τη χώρα σας
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN
+select-tax-location-product-not-available = Το { $productName } δεν είναι διαθέσιμο σε αυτήν την τοποθεσία.
 select-tax-location-postal-code-label = Ταχυδρομικός κώδικας
 select-tax-location-postal-code =
     .placeholder = Εισαγάγετε τον ταχυδρομικό σας κώδικα
