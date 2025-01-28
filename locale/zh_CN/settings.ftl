@@ -880,6 +880,7 @@ settings-recovery-phone-remove-recommend = 我们推荐您继续使用此方式�
 settings-recovery-phone-remove-recovery-methods = 若您决定删除此方式，请确保自己仍存有备用验证码。<linkExternal>对比不同的恢复方式</linkExternal>
 settings-recovery-phone-remove-button = 移除恢复电话号码
 settings-recovery-phone-remove-cancel = 取消
+settings-recovery-phone-remove-success = 已移除恢复电话号码
 
 ## PageSetupRecoveryPhone
 
