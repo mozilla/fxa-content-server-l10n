@@ -9,9 +9,14 @@ next-basic-error-message = Noget gik galt. Prøv igen senere.
 
 ## Page
 
+checkout-create-account = Opret en { -product-mozilla-account }
 next-payment-method-header = Vælg din betalingsmetode
+# This message is used to indicate the second step in a multi step process.
+payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = Først skal du godkende dit abonnement
 next-payment-confirmation-thanks-heading-account-exists = Tak. Tjek nu din mail!
+# $email (String) - The user's email.
+payment-confirmation-thanks-subheading-account-exists-2 = Du modtager en mail på { $email } med dine betalingsoplysninger og instruktioner om dit abonnement.
 next-payment-confirmation-order-heading = Ordredetaljer
 # $invoiceNumber (String) - Invoice number of the successful payment
 next-payment-confirmation-invoice-number = Faktura #{ $invoiceNumber }
@@ -24,6 +29,8 @@ next-payment-confirmation-amount = { $amount } per { $interval }
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Kort, der ender på { $last4 }
 next-payment-confirmation-download-button = Fortsæt til hentning
+checkout-error-boundary-retry-button = Prøv igen
+checkout-error-boundary-basic-error-message = Noget gik galt. Prøv igen eller <contactSupportLink>kontakt support.</contactSupportLink>
 
 ## Component - Payment Consent Checkbox
 
@@ -34,6 +41,10 @@ next-payment-confirm-checkbox-error = Du skal fuldføre dette, før du går vide
 
 next-new-user-submit = Abonner nu
 next-payment-validate-name-error = Indtast dit navn
+next-pay-with-heading-paypal = Betal med { -brand-paypal }
+# Label for the Full Name input
+payment-name-label = Navn, som det vises på dit kort
+payment-name-placeholder = Fulde navn
 
 ## Component - CouponForm
 
@@ -45,6 +56,9 @@ next-coupon-promo-code = Rabatkode
 next-coupon-promo-code-applied = Rabatkode anvendt
 next-coupon-remove = Fjern
 next-coupon-submit = Anvend
+payments-client-loading-spinner =
+    .aria-label = Indlæser…
+    .alt = Indlæser…
 
 ## Payment Section
 
@@ -57,6 +71,23 @@ next-plan-details-show-button = Vis detaljer
 
 ## Select Tax Location
 
+select-tax-location-title = Placering
+select-tax-location-edit-button = Rediger
+select-tax-location-save-button = Gem
+select-tax-location-country-code-label = Land
+select-tax-location-country-code-placeholder = Vælg dit land
+select-tax-location-error-missing-country-code = Vælg dit land
+select-tax-location-postal-code-label = Postnummer
+select-tax-location-postal-code =
+    .placeholder = Indtast dit postnummer
+select-tax-location-error-missing-postal-code = Indtast dit postnummer
+select-tax-location-error-invalid-postal-code = Indtast et gyldigt postnummer
+select-tax-location-successfully-updated = Din placering er blevet opdateret.
+select-tax-location-error-location-not-updated = Din placering kunne ikke opdateres. Prøv igen.
+signin-form-continue-button = Fortsæt
+signin-form-email-input = Indtast din mailadresse
+signin-form-email-input-missing = Indtast din mailadresse
+signin-form-email-input-invalid = Indtast en gyldig mailadresse
 next-new-user-subscribe-product-updates-mdnplus = Jeg vil gerne modtage nyheder om produkter og opdateringer fra { -product-mdn-plus } og { -brand-mozilla }
 next-new-user-subscribe-product-updates-mozilla = Jeg vil gerne modtage nyheder om produkter og opdateringer fra { -brand-mozilla }
 next-new-user-subscribe-product-updates-snp = Jeg vil gerne modtage nyheder om privatlivsbeskyttelse og opdateringer fra { -brand-mozilla }
@@ -72,6 +103,8 @@ next-plan-details-total-label = I alt
 ## Purchase details - shared by multiple components, including purchase details and payment form
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+list-positive-amount = { $amount }
+list-negative-amount = - { $amount }
 next-coupon-success = Din plan fornys automatisk til listeprisen.
 # $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
 next-coupon-success-repeating = Din plan fornys automatisk til listeprisen efter { $couponDurationDate }.
@@ -82,6 +115,11 @@ next-coupon-success-repeating = Din plan fornys automatisk til listeprisen efter
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+plan-price-interval-daily = { $amount } dagligt
+plan-price-interval-weekly = { $amount } ugentligt
+plan-price-interval-monthly = { $amount } månedligt
+plan-price-interval-6monthly = { $amount } hver 6 måned
+plan-price-interval-yearly = { $amount } årligt
 
 ## Component - SubscriptionTitle
 

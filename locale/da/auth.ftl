@@ -348,9 +348,10 @@ postAddLinkedAccount-subject-2 = Ny konto knyttet til din { -product-mozilla-acc
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = Din { $providerName }-konto er blevet knyttet til din { -product-mozilla-account }
 postAddLinkedAccount-action = Håndter konto
-# Links out to a support article about two factor authentication
-postAddRecoveryPhone-how-protect = Sådan beskytter det dine konto
-postAddRecoveryPhone-how-protect-plaintext = Sådan beskytter det dine konto:
+postAddRecoveryPhone-preview = Konto beskyttet af totrinsgodkendelse
+postAddRecoveryPhone-how-protect-plaintext = Sådan beskytter det din konto:
+postAddRecoveryPhone-enabled-device = Du har aktiveret det fra:
+postAddRecoveryPhone-action = Håndter konto
 postAddTwoStepAuthentication-subject-2 = Totrinsgodkendelse er slået til
 postAddTwoStepAuthentication-title-2 = Du har slået totrinsgodkendelse til
 # After the colon, there is a description of the device that the user used to enable two-step authentication
@@ -368,6 +369,8 @@ postChangePrimary-title = Ny primær mailadresse
 #  $email (String) - A user's email address
 postChangePrimary-description-2 = Du har ændret din primære mailadresse til { $email }. Denne mailadresse fungerer nu som brugernavn, når du skal logge ind på din { -product-mozilla-account }. Vi bruger den også til at sende sikkerhedsmeddelelser og login-bekræftelser.
 postChangePrimary-action = Håndter konto
+postChangeRecoveryPhone-preview = Konto beskyttet af totrinsgodkendelse
+postChangeRecoveryPhone-requested-device = Du har bedt om det fra:
 postConsumeRecoveryCode-title-2 = Du har brugt en reserve-godkendelseskode
 # After the colon, there is description of the device that the backup authentication code was used on
 postConsumeRecoveryCode-description-2 = Den blev brugt på:
@@ -387,6 +390,8 @@ postRemoveAccountRecovery-title-3 = Du slettede din genoprettelsesnøgle til kon
 postRemoveAccountRecovery-body-part1 = Din genoprettelsesnøgle til kontoen er påkrævet for at gendanne dine krypterede browserdata, hvis du glemmer din adgangskode.
 postRemoveAccountRecovery-body-part2 = Hvis du ikke allerede har gjort det, så opret en ny genoprettelsesnøgle til kontoen i dine kontoindstillinger for at forhindre, at du mister dine gemte adgangskoder, bogmærker, browserhistorik med mere.
 postRemoveAccountRecovery-action = Håndter konto
+postRemoveRecoveryPhone-preview = Konto beskyttet af totrinsgodkendelse
+postRemoveRecoveryPhone-requested-device = Du har bedt om det fra:
 postRemoveSecondary-subject = Sekundær mailadresse fjernet
 postRemoveSecondary-title = Sekundær mailadresse fjernet
 # Variables:
@@ -399,6 +404,16 @@ postRemoveTwoStepAuthentication-title-2 = Du har slået totrinsgodkendelse fra
 postRemoveTwoStepAuthentication-from-device = Du har deaktiveret det fra:
 postRemoveTwoStepAuthentication-action = Håndter konto
 postRemoveTwoStepAuthentication-not-required-2 = Du behøver ikke længere sikkerhedskoder fra din godkendelsesapp, når du logger ind.
+postSigninRecoveryCode-subject = Reserve-godkendelseskode brugt til at logge ind
+postSigninRecoveryCode-preview = Bekræft kontoaktivitet
+postSigninRecoveryCode-title = Din reserve-godkendelseskode blev brugt til at logge ind
+postSigninRecoveryCode-description = Hvis det ikke var dig, der gjorde det, bør du skifte din adgangskode med det samme for at holde din konto sikker.
+postSigninRecoveryCode-device = Du loggede ind fra:
+postSigninRecoveryCode-action = Håndter konto
+postSigninRecoveryPhone-preview = Bekræft kontoaktivitet
+postSigninRecoveryPhone-description = Hvis det ikke var dig, der gjorde det, bør du skift din adgangskode med det samme for at holde din konto sikker.
+postSigninRecoveryPhone-device = Du loggede ind fra:
+postSigninRecoveryPhone-action = Håndter konto
 postVerify-sub-title-3 = Vi er glade for at se dig!
 postVerify-title-2 = Vil du se det samme faneblad på to enheder?
 postVerify-description-2 = Det er nemt! Du skal bare installere { -brand-firefox } på en anden enhed og logge ind for at synkronisere. Det er som magi!
@@ -651,6 +666,7 @@ verifySecondaryCode-expiry-notice-2 = Den udløber om 5 minutter. Når denne mai
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = Bekræft din konto
+verifyShortCode-preview = Brug den medfølgende kode til at bekræfte din { -product-mozilla-account }.
 verifyShortCode-title-3 = Åbn internettet med { -brand-mozilla }
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = Bekræft din konto og få mest muligt ud af { -brand-mozilla }, overalt hvor du logger ind:
