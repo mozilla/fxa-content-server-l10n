@@ -1142,6 +1142,7 @@ inline-recovery-cancel-setup = Utzi konfigurazioa
 # Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
 inline-recovery-backup-authentication-code = Babeskopiarako autentifikazio-kodea
 inline-recovery-confirmation-description = Zure konturako sarbidea berreskuratu ahal izango duzula ziurtatzeko, gailua galduz gero, idatzi gordetako babeskopiarako autentifikazio-kodeetako bat.
+inline-recovery-2fa-enabled-v2 = Bi urratseko autentifikazioa gaitu da
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1149,6 +1150,10 @@ inline-recovery-confirmation-description = Zure konturako sarbidea berreskuratu 
 inline-totp-setup-cancel-setup-button = Utzi konfigurazioa
 inline-totp-setup-continue-button = Jarraitu
 inline-totp-setup-ready-button = Prest
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-security-code-placeholder = autentifikazio-kode
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-code-required-error = Autentifikazioa kodea beharrezkoa
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
@@ -1273,13 +1278,17 @@ confirm-totp-reset-password-header = Berrezarri pasahitza
 confirm-totp-reset-password-trouble-code = Arazoak kodea sartzean?
 confirm-totp-reset-password-confirm-button = Berretsi
 confirm-totp-reset-password-use-different-account = Erabili beste kontu bat
+confirm-recovery-code-reset-password-trouble-code = Atzera
 
 ## ResetPassword start page
 
 password-reset-flow-heading = Berrezarri pasahitza
+password-reset-email-input =
+    .label = Idatzi zure helbide elektronikoa
 
 ## ResetPasswordConfirmed
 
+reset-password-with-recovery-key-verified-page-title = Pasahitza ondo berrezarri da
 
 ## CompleteSignin component
 
@@ -1292,6 +1301,12 @@ signin-link-expired-header = Berrespen-lotura iraungita
 
 ## Signin page
 
+signin-subheader-without-logo-default = Jarraitu kontu-ezarpenekin
+signin-button = Hasi saioa
+signin-header = Hasi saioa
+signin-use-a-different-account-link = Erabili beste kontu bat
+signin-forgot-password-link = Pasahitza ahaztu duzu?
+signin-password-button-label = Pasahitza
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
