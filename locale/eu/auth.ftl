@@ -80,6 +80,7 @@ automated-email-support = Informazio gehiago lortzeko, joan<a data-l10n-name="su
 automated-email-change-plaintext-2 = Zuk ez baduzu egin, alda ezazu zure pasahitza orain
 #  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-support-plaintext = Informazio gehiagorako, jo { -brand-mozilla }-ra
+automated-email-inactive-account = Hau posta elektroniko automatiko bat da. { -product-mozilla-account } kontu bat duzulako eta 2 urte igaro dira azken saioa hasi zenuenetik jasotzen ari zara.
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } Informazio gehiago lortzeko, bisitatu <a data-l10n-name="supportLink">{ -brand-mozilla } Laguntza</a>.
 automated-email-no-action-plaintext = Korreo automatiko bat da hau. Akats batengatik jaso baduzu, ez duzu ezer egin beharrik.
@@ -126,6 +127,9 @@ automatedEmailRecoveryKey-more-info-plaintext = edo informazio gehiago, bisitatu
 automated-email-reset =
     Hau posta elektroniko automatizatu bat da; ekintza hau baimendu ez baduzu, <a data-l10n-name="resetLink">berrezarri pasahitza</a>.
     Informazio gehiago lortzeko, bisitatu <a data-l10n-name="supportLink">{ -brand-mozilla } Laguntza</a>.
+# Variables:
+#  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
+automated-email-reset-plaintext-v2 = Ekintza hau baimendu ez bazenuen, berrezarri zure pasahitza orain { $resetLink } helbidean
 brand-banner-message = Ba al zenekien gure izena { -product-firefox-accounts } izatetik { -product-mozilla-accounts } izatera aldatu dugula? <a data-l10n-name="learnMore">Lortu informazio gehiago</a>
 cancellationSurvey = Mesedez, gure zerbitzuak hobetzen lagun iezaguzu honako <a data-l10n-name="cancellationSurveyUrl"> galdetegi motz honi erantzunez</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
@@ -246,6 +250,36 @@ fraudulentAccountDeletion-contact = Galderarik baduzu, jarri harremanetan gure <
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Galderarik baduzu, mesedez, gure laguntza taldearekin jar zaitez harremanetan: { $mozillaSupportUrl }
+inactiveAccountFinalWarning-subject = { -product-mozilla-account } mantentzeko azken aukera
+inactiveAccountFinalWarning-title = Zure { -brand-mozilla } kontua eta datuak ezabatu egingo dira
+inactiveAccountFinalWarning-preview = Hasi saioa zure kontua mantentzeko
+inactiveAccountFinalWarning-account-description = Zure { -product-mozilla-account } doako pribatutasun eta arakatze produktuak atzitzeko erabiltzen da, hala nola { -brand-firefox } sync, { -product-mozilla-monitor }, { -product-firefox-relay } eta { -product-mdn }.
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+# This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
+inactiveAccountFinalWarning-impact = <strong>{ $deletionDate }</strong> egunean, zure kontua eta zure datu pertsonalak betiko ezabatuko dira saioa hasi ezean.
+inactiveAccountFinalWarning-action = Hasi saioa zure kontua mantentzeko
+# followed by link to sign in
+inactiveAccountFinalWarning-action-plaintext = Hasi saioa zure kontua mantentzeko:
+inactiveAccountFirstWarning-subject = Ez galdu zure kontua
+inactiveAccountFirstWarning-title = Zure { -brand-mozilla } kontua eta datuak mantendu nahi dituzu?
+inactiveAccountFirstWarning-account-description-v2 = Zure { -product-mozilla-account } doako pribatutasun eta arakatze produktuak atzitzeko erabiltzen da, hala nola { -brand-firefox } sync, { -product-mozilla-monitor }, { -product-firefox-relay } eta { -product-mdn }.
+inactiveAccountFirstWarning-inactive-status = Konturatu gara 2 urte daramatzazula saioa hasi gabe.
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+# This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
+inactiveAccountFirstWarning-impact = Zure kontua eta zure datu pertsonalak behin betiko ezabatuko dira <strong>{ $deletionDate }</strong> egunean, ez zarelako aktibo egon.
+inactiveAccountFirstWarning-action = Hasi saioa zure kontua mantentzeko
+inactiveAccountFirstWarning-preview = Hasi saioa zure kontua mantentzeko
+# followed by link to sign in
+inactiveAccountFirstWarning-action-plaintext = Hasi saioa zure kontua mantentzeko:
+inactiveAccountSecondWarning-subject = Beharrezko ekintza: 7 egun barru kontua ezabatuko da
+inactiveAccountSecondWarning-title = Zure { -brand-mozilla } kontua eta datuak ezabatu egingo dira 7 egun barru
+inactiveAccountSecondWarning-account-description-v2 = Zure { -product-mozilla-account } doako pribatutasun eta arakatze produktuak atzitzeko erabiltzen da, hala nola { -brand-firefox } sync, { -product-mozilla-monitor }, { -product-firefox-relay } eta { -product-mdn }.
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+inactiveAccountSecondWarning-impact = Zure kontua eta zure datu pertsonalak behin betiko ezabatuko dira <strong>{ $deletionDate }</strong> egunean, ez zarelako aktibo egon.
+inactiveAccountSecondWarning-action = Hasi saioa zure kontua mantentzeko
+inactiveAccountSecondWarning-preview = Hasi saioa zure kontua mantentzeko
+# followed by link to sign in
+inactiveAccountSecondWarning-action-plaintext = Hasi saioa zure kontua mantentzeko:
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title-zero = Babes-kopiarako autentikazio-koderik gabe gelditu zara!
 codes-reminder-title-one = Zure azkeneko babes-kopiarako autentikazio-kodean zaude
@@ -321,6 +355,11 @@ postAddLinkedAccount-subject-2 = Kontu berria zure { -product-mozilla-account }-
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = Zure { $providerName } kontuarekin lotu da zure { -product-mozilla-account }
 postAddLinkedAccount-action = Kudeatu kontua
+postAddRecoveryPhone-subject = Berreskuratze telefonoa gehitu da
+postAddRecoveryPhone-title = Berreskuratze telefono zenbakia sortu duzu
+# Variables:
+#  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
+postAddRecoveryPhone-description = { $maskedLastFourPhoneNumber } gehitu duzu berreskuratzeko telefono gisa
 postAddTwoStepAuthentication-subject-2 = Bi urratseko autentifikazioa aktibatu da
 postAddTwoStepAuthentication-title-2 = Bi urratseko autentifikazioa aktibatu duzu
 # After the colon, there is a description of the device that the user used to enable two-step authentication
