@@ -710,7 +710,6 @@ tfa-create-code-error = Der opstod et problem med at oprette dine reserve-godken
 tfa-replace-code-success-1 =
     Nye koder er blevet oprettet. Opbevar disse engangs-reserve-godkendelseskoder
     et sikkert sted. Du skal bruge dem, hvis mister adgangen til din mobile enhed.
-tfa-replace-code-success-alert-3 = Reserve-godkendelses tilbagekoder til kontoen opdateret
 tfa-replace-code-1-2 = Trin 1 af 2
 tfa-replace-code-2-2 = Trin 2 af 2
 
@@ -1647,29 +1646,6 @@ signin-push-code-confirm-wasnt-me = Det var ikke mig, skift adgangskode.
 signin-push-code-confirm-login-approved = Dit login er blevet godkendt. Luk dette vindue.
 signin-push-code-confirm-link-error = Link er beskadiget. Prøv igen.
 
-## SigninRecoveryCode page
-## Users are prompted to enter a backup authentication code
-## (provided to the user when they first set up two-step authentication)
-## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
-
-signin-recovery-code-heading = Log ind
-signin-recovery-code-sub-heading = Indtast reserve-godkendelseskode
-signin-recovery-code-instruction-v2 = Indtast en af de engangs-reserve-godkendelseskoder, du gemte under opsætningen af totrinsgodkendelse.
-signin-recovery-code-input-label-v2 = Indtast koden på 10 tegn
-# Form button to confirm if the backup authentication code entered by the user is valid
-signin-recovery-code-confirm-button = Bekræft
-# Link to return to signin with two-step authentication code
-signin-recovery-code-back-link = Tilbage
-# External link for support if the user can't use two-step autentication or a backup authentication code
-# https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
-signin-recovery-code-support-link = Er du blevet låst ude?
-# Error displayed in a tooltip when form is submitted witout a code
-signin-recovery-code-required-error = Reserve-godkendelseskode påkrævet
-# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
-# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
-# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
-signin-recovery-code-desktop-relay = { -brand-firefox } vil forsøge at sende dig tilbage, så du kan bruge en mail-maske, når du har logget ind.
-
 ## Signin recovery method page
 ## This page is shown to users when they are having trouble signing in with
 ## their password, and they previously had set up an account recovery method.
@@ -1678,20 +1654,26 @@ signin-recovery-method-header = Log ind
 signin-recovery-method-subheader = Vælg en gendannelsesmetode
 signin-recovery-method-details = Lad os sikre os, at det er dig, der bruger dine gendannelsesmetoder.
 signin-recovery-method-phone = Telefonnummer til gendannelse
-signin-recovery-method-code = Godkendelseskoder
 # Variable: $numberOfCodes (String) - The number of authentication codes the user has left, e.g. 4
 signin-recovery-method-code-info = { $numberOfCodes } koder tilbage
 
-## SigninRecoveryPhoneCodeConfirm page
+## SigninRecoveryCode page
+## Users are prompted to enter a backup authentication code
+## (provided to the user when they first set up two-step authentication)
+## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
-recovery-phone-code-confirm-flow-heading = Log ind
-# A recovery code in context of this page is a one time code sent to the user's phone
-recovery-phone-code-confirm-with-code-heading = Indtast genoprettelseskode
-# Text that explains the user should check their phone for a recovery code
-# $maskedPhoneNumber - The users masked phone number
-recovery-phone-code-confirm-code-instruction = En sekscifret kode blev sendt til <span>{ $maskedPhoneNumber }</span> i en SMS-besked. Denne kode udløber efter 5 minutter.
-recovery-phone-code-confirm-input-group-label = Indtast 6-cifret kode
-recovery-phone-code-confirm-otp-submit-button = Bekræft
+signin-recovery-code-heading = Log ind
+signin-recovery-code-sub-heading = Indtast reserve-godkendelseskode
+# Form button to confirm if the backup authentication code entered by the user is valid
+signin-recovery-code-confirm-button = Bekræft
+# External link for support if the user can't use two-step autentication or a backup authentication code
+# https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+signin-recovery-code-support-link = Er du blevet låst ude?
+# Error displayed in a tooltip when form is submitted witout a code
+signin-recovery-code-required-error = Reserve-godkendelseskode påkrævet
+
+## SigninRecoveryPhone page
+
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 

@@ -709,7 +709,6 @@ tfa-replace-code-success-1 =
     Mae codau newydd wedi'u creu. Cadwch y codau dilysu wrth
     gefn defnydd un-amser hyn mewn man diogel - bydd eu hangen arnoch i gael mynediad i'ch cyfrif os nad yw
     eich dyfais symudol gyda chi.
-tfa-replace-code-success-alert-3 = Diweddarwyd codau dilysu wrth gefn eich cyfrif
 tfa-replace-code-1-2 = Cam 1 o 2
 tfa-replace-code-2-2 = Cam 2 o 2
 
@@ -1637,29 +1636,6 @@ signin-push-code-confirm-wasnt-me = Nid fi oedd hwn, newidiwch y cyfrinair.
 signin-push-code-confirm-login-approved = Mae eich mewngofnodi wedi'i gymeradwyo. Caewch y ffenestr hon.
 signin-push-code-confirm-link-error = Dolen wedi'i difrodi. Ceisiwch eto.
 
-## SigninRecoveryCode page
-## Users are prompted to enter a backup authentication code
-## (provided to the user when they first set up two-step authentication)
-## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
-
-signin-recovery-code-heading = Mewngofnodi
-signin-recovery-code-sub-heading = Rhowch god dilysu wrth gefn
-signin-recovery-code-instruction-v2 = Rhowch un o'r codau dilysu defnydd un-amser wrth gefn y gwnaethoch chi eu cadw yn ystod gosodiad dilysu dau gam.
-signin-recovery-code-input-label-v2 = Rhowch god 10 nod
-# Form button to confirm if the backup authentication code entered by the user is valid
-signin-recovery-code-confirm-button = Cadarnhau
-# Link to return to signin with two-step authentication code
-signin-recovery-code-back-link = Nôl
-# External link for support if the user can't use two-step autentication or a backup authentication code
-# https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
-signin-recovery-code-support-link = Ydych chi wedi'ch cloi allan?
-# Error displayed in a tooltip when form is submitted witout a code
-signin-recovery-code-required-error = Mae angen cod dilysu wrth gefn
-# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
-# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
-# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
-signin-recovery-code-desktop-relay = Bydd { -brand-firefox } yn ceisio eich anfon yn ôl i ddefnyddio e-bost arallenw ar ôl i chi fewngofnodi.
-
 ## Signin recovery method page
 ## This page is shown to users when they are having trouble signing in with
 ## their password, and they previously had set up an account recovery method.
@@ -1668,20 +1644,26 @@ signin-recovery-method-header = Mewngofnodi
 signin-recovery-method-subheader = Dewiswch ddull adfer
 signin-recovery-method-details = Gadewch i ni sicrhau mai chi sy'n defnyddio'ch dulliau adfer.
 signin-recovery-method-phone = Ffôn adfer
-signin-recovery-method-code = Codau dilysu
 # Variable: $numberOfCodes (String) - The number of authentication codes the user has left, e.g. 4
 signin-recovery-method-code-info = { $numberOfCodes } cod yn weddill
 
-## SigninRecoveryPhoneCodeConfirm page
+## SigninRecoveryCode page
+## Users are prompted to enter a backup authentication code
+## (provided to the user when they first set up two-step authentication)
+## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
-recovery-phone-code-confirm-flow-heading = Mewngofnodi
-# A recovery code in context of this page is a one time code sent to the user's phone
-recovery-phone-code-confirm-with-code-heading = Rhowch y cod adfer
-# Text that explains the user should check their phone for a recovery code
-# $maskedPhoneNumber - The users masked phone number
-recovery-phone-code-confirm-code-instruction = Anfonwyd cod chwe digid at <span>{ $maskedPhoneNumber }</span> trwy neges destun. Daw'r cod hwn i ben ar ôl 5 munud.
-recovery-phone-code-confirm-input-group-label = Rhowch y cod 6 digid
-recovery-phone-code-confirm-otp-submit-button = Cadarnhau
+signin-recovery-code-heading = Mewngofnodi
+signin-recovery-code-sub-heading = Rhowch god dilysu wrth gefn
+# Form button to confirm if the backup authentication code entered by the user is valid
+signin-recovery-code-confirm-button = Cadarnhau
+# External link for support if the user can't use two-step autentication or a backup authentication code
+# https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+signin-recovery-code-support-link = Ydych chi wedi'ch cloi allan?
+# Error displayed in a tooltip when form is submitted witout a code
+signin-recovery-code-required-error = Mae angen cod dilysu wrth gefn
+
+## SigninRecoveryPhone page
+
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 

@@ -706,7 +706,6 @@ nav-email-comm = 新闻通讯
 tfa-replace-code-error-3 = 更换您的备用验证码时出现问题
 tfa-create-code-error = 创建备用验证码时出现问题
 tfa-replace-code-success-1 = 已生成新的验证码，请将这些一次性代码保存在安全的地方，当您的移动设备不可用时，可以使用验证码访问账户。
-tfa-replace-code-success-alert-3 = 已更新账户备用验证码
 tfa-replace-code-1-2 = 步骤（1 / 2）
 tfa-replace-code-2-2 = 步骤（2 / 2）
 
@@ -1628,29 +1627,6 @@ signin-push-code-confirm-wasnt-me = 非本人操作，更改密码。
 signin-push-code-confirm-login-approved = 已批准登录，请关闭此窗口。
 signin-push-code-confirm-link-error = 链接已损坏，请重试。
 
-## SigninRecoveryCode page
-## Users are prompted to enter a backup authentication code
-## (provided to the user when they first set up two-step authentication)
-## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
-
-signin-recovery-code-heading = 登录
-signin-recovery-code-sub-heading = 请输入备用验证码
-signin-recovery-code-instruction-v2 = 请输入您在设置两步验证时保存的一次性备用验证码之一。
-signin-recovery-code-input-label-v2 = 请输入由 10 个字符组成的验证码
-# Form button to confirm if the backup authentication code entered by the user is valid
-signin-recovery-code-confirm-button = 确认
-# Link to return to signin with two-step authentication code
-signin-recovery-code-back-link = 上一步
-# External link for support if the user can't use two-step autentication or a backup authentication code
-# https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
-signin-recovery-code-support-link = 被锁定了吗？
-# Error displayed in a tooltip when form is submitted witout a code
-signin-recovery-code-required-error = 需要使用备用验证码
-# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
-# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
-# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
-signin-recovery-code-desktop-relay = { -brand-firefox } 将尝试在您登录后返回原页面，供您使用马甲邮箱。
-
 ## Signin recovery method page
 ## This page is shown to users when they are having trouble signing in with
 ## their password, and they previously had set up an account recovery method.
@@ -1659,20 +1635,26 @@ signin-recovery-method-header = 登录
 signin-recovery-method-subheader = 请选择一项恢复方式
 signin-recovery-method-details = 请协助确认是您本人在使用恢复方法。
 signin-recovery-method-phone = 恢复电话号码
-signin-recovery-method-code = 验证码
 # Variable: $numberOfCodes (String) - The number of authentication codes the user has left, e.g. 4
 signin-recovery-method-code-info = 剩余 { $numberOfCodes } 个验证码
 
-## SigninRecoveryPhoneCodeConfirm page
+## SigninRecoveryCode page
+## Users are prompted to enter a backup authentication code
+## (provided to the user when they first set up two-step authentication)
+## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
-recovery-phone-code-confirm-flow-heading = 登录
-# A recovery code in context of this page is a one time code sent to the user's phone
-recovery-phone-code-confirm-with-code-heading = 请输入恢复验证码
-# Text that explains the user should check their phone for a recovery code
-# $maskedPhoneNumber - The users masked phone number
-recovery-phone-code-confirm-code-instruction = 一个六位数验证码已通过短信发送到 <span>{ $maskedPhoneNumber }</span>，5 分钟内有效。
-recovery-phone-code-confirm-input-group-label = 请输入 6 位验证码
-recovery-phone-code-confirm-otp-submit-button = 确认
+signin-recovery-code-heading = 登录
+signin-recovery-code-sub-heading = 请输入备用验证码
+# Form button to confirm if the backup authentication code entered by the user is valid
+signin-recovery-code-confirm-button = 确认
+# External link for support if the user can't use two-step autentication or a backup authentication code
+# https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+signin-recovery-code-support-link = 被锁定了吗？
+# Error displayed in a tooltip when form is submitted witout a code
+signin-recovery-code-required-error = 需要使用备用验证码
+
+## SigninRecoveryPhone page
+
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 

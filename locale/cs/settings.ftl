@@ -713,7 +713,6 @@ tfa-replace-code-success-1 =
     Byly vytvořeny nové kódy. Tyto jednorázové záložní ověřovací kódy
     si uložte na bezpečné místo — bude je potřebovat pro přístup ke svému
     účtu, pokud nebudete mít po ruce mobilní zařízení
-tfa-replace-code-success-alert-3 = Záložní ověřovací kódy účtu byly aktualizovány
 tfa-replace-code-1-2 = Krok 1 ze 2
 tfa-replace-code-2-2 = Krok 2 ze 2
 
@@ -1637,29 +1636,6 @@ signin-push-code-confirm-wasnt-me = Toto nebylo mé přihlášení, změnit hesl
 signin-push-code-confirm-login-approved = Vaše přihlášení bylo schváleno. Zavřete prosím toto okno.
 signin-push-code-confirm-link-error = Odkaz je poškozen. Zkuste to prosím znovu.
 
-## SigninRecoveryCode page
-## Users are prompted to enter a backup authentication code
-## (provided to the user when they first set up two-step authentication)
-## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
-
-signin-recovery-code-heading = Přihlásit se
-signin-recovery-code-sub-heading = Zadejte záložní ověřovací kód
-signin-recovery-code-instruction-v2 = Zadejte jeden z jednorázových záložních ověřovacích kódů, které jste si uložili při nastavování dvoufázového ověřování.
-signin-recovery-code-input-label-v2 = Zadejte 10místný kód
-# Form button to confirm if the backup authentication code entered by the user is valid
-signin-recovery-code-confirm-button = Potvrdit
-# Link to return to signin with two-step authentication code
-signin-recovery-code-back-link = Zpět
-# External link for support if the user can't use two-step autentication or a backup authentication code
-# https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
-signin-recovery-code-support-link = Ztratili jste přístup?
-# Error displayed in a tooltip when form is submitted witout a code
-signin-recovery-code-required-error = Je vyžadován záložní ověřovací kód
-# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
-# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
-# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
-signin-recovery-code-desktop-relay = { -brand-firefox } se vás pokusí po přihlášení přesměrovat na e-mailovou masku.
-
 ## Signin recovery method page
 ## This page is shown to users when they are having trouble signing in with
 ## their password, and they previously had set up an account recovery method.
@@ -1668,20 +1644,26 @@ signin-recovery-method-header = Přihlásit se
 signin-recovery-method-subheader = Vyberte způsob obnovení
 signin-recovery-method-details = Pojďme se ujistit, že jste to vy pomocí vašich metod obnovení.
 signin-recovery-method-phone = Telefon pro obnovení
-signin-recovery-method-code = Ověřovací kódy
 # Variable: $numberOfCodes (String) - The number of authentication codes the user has left, e.g. 4
 signin-recovery-method-code-info = Zbývajících počet kódů: { $numberOfCodes }
 
-## SigninRecoveryPhoneCodeConfirm page
+## SigninRecoveryCode page
+## Users are prompted to enter a backup authentication code
+## (provided to the user when they first set up two-step authentication)
+## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
-recovery-phone-code-confirm-flow-heading = Přihlásit se
-# A recovery code in context of this page is a one time code sent to the user's phone
-recovery-phone-code-confirm-with-code-heading = Zadejte obnovovací kód
-# Text that explains the user should check their phone for a recovery code
-# $maskedPhoneNumber - The users masked phone number
-recovery-phone-code-confirm-code-instruction = Na číslo <span>{ $maskedPhoneNumber }</span> byl odeslán šestimístný kód jako textová zpráva. Tento kód vyprší po 5 minutách.
-recovery-phone-code-confirm-input-group-label = Zadejte šestimístný kód
-recovery-phone-code-confirm-otp-submit-button = Potvrdit
+signin-recovery-code-heading = Přihlásit se
+signin-recovery-code-sub-heading = Zadejte záložní ověřovací kód
+# Form button to confirm if the backup authentication code entered by the user is valid
+signin-recovery-code-confirm-button = Potvrdit
+# External link for support if the user can't use two-step autentication or a backup authentication code
+# https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+signin-recovery-code-support-link = Ztratili jste přístup?
+# Error displayed in a tooltip when form is submitted witout a code
+signin-recovery-code-required-error = Je vyžadován záložní ověřovací kód
+
+## SigninRecoveryPhone page
+
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 

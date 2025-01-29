@@ -713,7 +713,6 @@ tfa-replace-code-success-1 =
     Δημιουργήθηκαν νέοι κωδικοί. Αποθηκεύστε αυτούς τους εφεδρικούς κωδικούς ταυτοποίησης
     μιας χρήσης σε ένα ασφαλές μέρος, όπου θα έχετε πρόσβαση σε περίπτωση που δεν
     έχετε την κινητή συσκευή σας.
-tfa-replace-code-success-alert-3 = Ενημερώθηκαν οι εφεδρικοί κωδικοί ταυτοποίησης
 tfa-replace-code-1-2 = Βήμα 1 από 2
 tfa-replace-code-2-2 = Βήμα 2 από 2
 
@@ -1653,29 +1652,6 @@ signin-push-code-confirm-wasnt-me = Δεν ήμουν εγώ, αλλαγή κω�
 signin-push-code-confirm-login-approved = Η σύνδεσή σας έχει εγκριθεί. Παρακαλούμε κλείστε αυτό το παράθυρο.
 signin-push-code-confirm-link-error = Ο σύνδεσμος είναι κατεστραμμένος. Παρακαλούμε δοκιμάστε ξανά.
 
-## SigninRecoveryCode page
-## Users are prompted to enter a backup authentication code
-## (provided to the user when they first set up two-step authentication)
-## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
-
-signin-recovery-code-heading = Σύνδεση
-signin-recovery-code-sub-heading = Εισαγάγετε εφεδρικό κωδικό ταυτοποίησης
-signin-recovery-code-instruction-v2 = Εισαγάγετε έναν από τους εφεδρικούς κωδικούς ταυτοποίησης μιας χρήσης που αποθηκεύσατε κατά τη ρύθμιση της ταυτοποίησης δύο παραγόντων.
-signin-recovery-code-input-label-v2 = Εισαγάγετε τον κωδικό 10 χαρακτήρων
-# Form button to confirm if the backup authentication code entered by the user is valid
-signin-recovery-code-confirm-button = Επιβεβαίωση
-# Link to return to signin with two-step authentication code
-signin-recovery-code-back-link = Πίσω
-# External link for support if the user can't use two-step autentication or a backup authentication code
-# https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
-signin-recovery-code-support-link = Έχετε κλειδωθεί;
-# Error displayed in a tooltip when form is submitted witout a code
-signin-recovery-code-required-error = Απαιτείται εφεδρικός κωδικός ταυτοποίησης
-# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
-# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
-# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
-signin-recovery-code-desktop-relay = Το { -brand-firefox } θα προσπαθήσει να σας μεταφέρει στην αρχική καρτέλα για να χρησιμοποιήσετε μια μάσκα email αφού συνδεθείτε.
-
 ## Signin recovery method page
 ## This page is shown to users when they are having trouble signing in with
 ## their password, and they previously had set up an account recovery method.
@@ -1684,20 +1660,26 @@ signin-recovery-method-header = Σύνδεση
 signin-recovery-method-subheader = Επιλέξτε μια μέθοδο ανάκτησης
 signin-recovery-method-details = Ας βεβαιωθούμε ότι είστε εσείς που χρησιμοποιείτε τις μεθόδους ανάκτησής σας.
 signin-recovery-method-phone = Τηλέφωνο ανάκτησης
-signin-recovery-method-code = Κωδικοί ταυτοποίησης
 # Variable: $numberOfCodes (String) - The number of authentication codes the user has left, e.g. 4
 signin-recovery-method-code-info = Απομένουν { $numberOfCodes } κωδικοί
 
-## SigninRecoveryPhoneCodeConfirm page
+## SigninRecoveryCode page
+## Users are prompted to enter a backup authentication code
+## (provided to the user when they first set up two-step authentication)
+## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
-recovery-phone-code-confirm-flow-heading = Σύνδεση
-# A recovery code in context of this page is a one time code sent to the user's phone
-recovery-phone-code-confirm-with-code-heading = Εισαγάγετε τον κωδικό ανάκτησης
-# Text that explains the user should check their phone for a recovery code
-# $maskedPhoneNumber - The users masked phone number
-recovery-phone-code-confirm-code-instruction = Ένας εξαψήφιος κωδικός έχει αποσταλεί στο <span>{ $maskedPhoneNumber }</span> μέσω μηνύματος κειμένου. Αυτός ο κωδικός λήγει μετά από 5 λεπτά.
-recovery-phone-code-confirm-input-group-label = Εισαγάγετε τον εξαψήφιο κωδικό
-recovery-phone-code-confirm-otp-submit-button = Επιβεβαίωση
+signin-recovery-code-heading = Σύνδεση
+signin-recovery-code-sub-heading = Εισαγάγετε εφεδρικό κωδικό ταυτοποίησης
+# Form button to confirm if the backup authentication code entered by the user is valid
+signin-recovery-code-confirm-button = Επιβεβαίωση
+# External link for support if the user can't use two-step autentication or a backup authentication code
+# https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+signin-recovery-code-support-link = Έχετε κλειδωθεί;
+# Error displayed in a tooltip when form is submitted witout a code
+signin-recovery-code-required-error = Απαιτείται εφεδρικός κωδικός ταυτοποίησης
+
+## SigninRecoveryPhone page
+
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 

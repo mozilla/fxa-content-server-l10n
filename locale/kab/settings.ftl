@@ -464,7 +464,6 @@ nav-email-comm = Taywalt s yimayl
 
 ## Two Step Authentication - replace backup authentication code
 
-tfa-replace-code-success-alert-3 = Tingalin n usesteb n uḥraz n umiḍan ttwaleqqment
 tfa-replace-code-1-2 = Asurif 1 seg 2
 tfa-replace-code-2-2 = Asurif 2 seg 2
 
@@ -1098,6 +1097,11 @@ back = Ɣer deffir
 ## SigninPushCodeConfirmPage
 
 
+## Signin recovery method page
+## This page is shown to users when they are having trouble signing in with
+## their password, and they previously had set up an account recovery method.
+
+
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
 ## (provided to the user when they first set up two-step authentication)
@@ -1105,20 +1109,13 @@ back = Ɣer deffir
 
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Sentem
-# Link to return to signin with two-step authentication code
-signin-recovery-code-back-link = Ɣer deffir
 # External link for support if the user can't use two-step autentication or a backup authentication code
 # https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 signin-recovery-code-support-link = Ur tezmireḍ ara ad tkecmeḍ?
 # Error displayed in a tooltip when form is submitted witout a code
 signin-recovery-code-required-error = Tangalt n usesteb n uḥraz tettwasra
 
-## Signin recovery method page
-## This page is shown to users when they are having trouble signing in with
-## their password, and they previously had set up an account recovery method.
-
-
-## SigninRecoveryPhoneCodeConfirm page
+## SigninRecoveryPhone page
 
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.

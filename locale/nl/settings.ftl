@@ -711,7 +711,6 @@ tfa-replace-code-success-1 =
     Er zijn nieuwe codes aangemaakt. Bewaar deze reserve-authenticatiecodes voor eenmalig
     gebruik op een veilige plek – u hebt ze nodig om toegang te krijgen tot uw account als u uw
     mobiele apparaat niet hebt.
-tfa-replace-code-success-alert-3 = Account-reserve-authenticatiecodes bijgewerkt
 tfa-replace-code-1-2 = Stap 1 van 2
 tfa-replace-code-2-2 = Stap 2 van 2
 
@@ -1647,29 +1646,6 @@ signin-push-code-confirm-wasnt-me = Dit was ik niet, wijzig wachtwoord.
 signin-push-code-confirm-login-approved = Uw aanmelding is goedgekeurd. Sluit dit venster.
 signin-push-code-confirm-link-error = Koppeling is beschadigd. Probeer het opnieuw.
 
-## SigninRecoveryCode page
-## Users are prompted to enter a backup authentication code
-## (provided to the user when they first set up two-step authentication)
-## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
-
-signin-recovery-code-heading = Aanmelden
-signin-recovery-code-sub-heading = Voer reserve-authenticatiecode in
-signin-recovery-code-instruction-v2 = Voer een van de reserve-authenticatiecodes voor eenmalig gebruik in die u hebt opgeslagen tijdens het instellen van authenticatie in twee stappen.
-signin-recovery-code-input-label-v2 = Voer code van 10 tekens in
-# Form button to confirm if the backup authentication code entered by the user is valid
-signin-recovery-code-confirm-button = Bevestigen
-# Link to return to signin with two-step authentication code
-signin-recovery-code-back-link = Terug
-# External link for support if the user can't use two-step autentication or a backup authentication code
-# https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
-signin-recovery-code-support-link = Bent u buitengesloten?
-# Error displayed in a tooltip when form is submitted witout a code
-signin-recovery-code-required-error = Reserve-authenticatiecode vereist
-# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
-# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
-# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
-signin-recovery-code-desktop-relay = { -brand-firefox } probeert u terug te sturen om een e-mailmasker te gebruiken nadat u zich hebt aangemeld.
-
 ## Signin recovery method page
 ## This page is shown to users when they are having trouble signing in with
 ## their password, and they previously had set up an account recovery method.
@@ -1678,20 +1654,26 @@ signin-recovery-method-header = Aanmelden
 signin-recovery-method-subheader = Kies een herstelmethode
 signin-recovery-method-details = Laten we controleren dat u het bent die uw herstelmethoden gebruikt.
 signin-recovery-method-phone = Hersteltelefoonnummer
-signin-recovery-method-code = Authenticatiecodes
 # Variable: $numberOfCodes (String) - The number of authentication codes the user has left, e.g. 4
 signin-recovery-method-code-info = { $numberOfCodes } codes resterend
 
-## SigninRecoveryPhoneCodeConfirm page
+## SigninRecoveryCode page
+## Users are prompted to enter a backup authentication code
+## (provided to the user when they first set up two-step authentication)
+## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
-recovery-phone-code-confirm-flow-heading = Aanmelden
-# A recovery code in context of this page is a one time code sent to the user's phone
-recovery-phone-code-confirm-with-code-heading = Voer herstelcode in
-# Text that explains the user should check their phone for a recovery code
-# $maskedPhoneNumber - The users masked phone number
-recovery-phone-code-confirm-code-instruction = Er is per sms een 6-cijferige code verstuurd naar <span>{ $maskedPhoneNumber }</span>. Deze code verloopt na 5 minuten.
-recovery-phone-code-confirm-input-group-label = Voer 6-cijferige code in
-recovery-phone-code-confirm-otp-submit-button = Bevestigen
+signin-recovery-code-heading = Aanmelden
+signin-recovery-code-sub-heading = Voer reserve-authenticatiecode in
+# Form button to confirm if the backup authentication code entered by the user is valid
+signin-recovery-code-confirm-button = Bevestigen
+# External link for support if the user can't use two-step autentication or a backup authentication code
+# https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+signin-recovery-code-support-link = Bent u buitengesloten?
+# Error displayed in a tooltip when form is submitted witout a code
+signin-recovery-code-required-error = Reserve-authenticatiecode vereist
+
+## SigninRecoveryPhone page
+
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 

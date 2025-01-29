@@ -613,7 +613,6 @@ tfa-replace-code-success-1 =
     I gnûfs codiçs a son stâts creâts. Salve intun puest sigûr
     chescj codiçs di autenticazion di backup che si puedin doprâ une volte sole — ti coventaran par 
     acedi al to account se no tu varâs il to dispositîf mobil.
-tfa-replace-code-success-alert-3 = Codiçs di autenticazion di backup dal account inzornâts
 tfa-replace-code-1-2 = Passaç 1 di 2
 tfa-replace-code-2-2 = Passaç 2 di 2
 
@@ -1476,6 +1475,11 @@ signin-push-code-confirm-wasnt-me = No jeri jo, cambie la password.
 signin-push-code-confirm-login-approved = Il to acès al è stât aprovât. Siere chest barcon.
 signin-push-code-confirm-link-error = Il colegament al è rot. Torne prove.
 
+## Signin recovery method page
+## This page is shown to users when they are having trouble signing in with
+## their password, and they previously had set up an account recovery method.
+
+
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
 ## (provided to the user when they first set up two-step authentication)
@@ -1483,20 +1487,13 @@ signin-push-code-confirm-link-error = Il colegament al è rot. Torne prove.
 
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Conferme
-# Link to return to signin with two-step authentication code
-signin-recovery-code-back-link = Indaûr
 # External link for support if the user can't use two-step autentication or a backup authentication code
 # https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 signin-recovery-code-support-link = Sêstu taiât/taiade fûr da to account?
 # Error displayed in a tooltip when form is submitted witout a code
 signin-recovery-code-required-error = Al covente il codiç di autenticazion di backup
 
-## Signin recovery method page
-## This page is shown to users when they are having trouble signing in with
-## their password, and they previously had set up an account recovery method.
-
-
-## SigninRecoveryPhoneCodeConfirm page
+## SigninRecoveryPhone page
 
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.

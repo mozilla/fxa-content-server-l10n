@@ -660,7 +660,6 @@ tfa-create-code-error = 백업 인증 코드를 생성하는 중에 문제가 �
 tfa-replace-code-success-1 =
     새로운 코드가 생성되었습니다. 이 일회용
     백업 인증 코드를 안전한 곳에 저장하세요. 모바일 기기가 없을 때 계정에 접근하는 데 필요합니다.
-tfa-replace-code-success-alert-3 = 계정 백업 인증 코드가 업데이트되었습니다.
 tfa-replace-code-1-2 = 1/2 단계
 tfa-replace-code-2-2 = 2/2 단계
 
@@ -1531,6 +1530,11 @@ signin-push-code-confirm-wasnt-me = 제가 아닙니다. 비밀번호를 변경�
 signin-push-code-confirm-login-approved = 로그인이 승인되었습니다. 이 창을 닫아 주세요.
 signin-push-code-confirm-link-error = 링크가 손상되었습니다. 다시 시도하세요.
 
+## Signin recovery method page
+## This page is shown to users when they are having trouble signing in with
+## their password, and they previously had set up an account recovery method.
+
+
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
 ## (provided to the user when they first set up two-step authentication)
@@ -1538,24 +1542,15 @@ signin-push-code-confirm-link-error = 링크가 손상되었습니다. 다시 �
 
 signin-recovery-code-heading = 로그인
 signin-recovery-code-sub-heading = 백업 인증 코드 입력
-signin-recovery-code-instruction-v2 = 2단계 인증 설정 중에 저장한 일회용 백업 인증 코드 중 하나를 입력하세요.
-signin-recovery-code-input-label-v2 = 10자리 코드 입력
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = 확인
-# Link to return to signin with two-step authentication code
-signin-recovery-code-back-link = 뒤로
 # External link for support if the user can't use two-step autentication or a backup authentication code
 # https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 signin-recovery-code-support-link = 접근이 불가능한 상태이신가요?
 # Error displayed in a tooltip when form is submitted witout a code
 signin-recovery-code-required-error = 백업 인증 코드 필요
 
-## Signin recovery method page
-## This page is shown to users when they are having trouble signing in with
-## their password, and they previously had set up an account recovery method.
-
-
-## SigninRecoveryPhoneCodeConfirm page
+## SigninRecoveryPhone page
 
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.

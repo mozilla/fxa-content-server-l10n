@@ -434,18 +434,18 @@ cs-description = كل ما تستعمله وولجت إليه.
 ## SigninPushCodeConfirmPage
 
 
+## Signin recovery method page
+## This page is shown to users when they are having trouble signing in with
+## their password, and they previously had set up an account recovery method.
+
+
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
 
-## Signin recovery method page
-## This page is shown to users when they are having trouble signing in with
-## their password, and they previously had set up an account recovery method.
-
-
-## SigninRecoveryPhoneCodeConfirm page
+## SigninRecoveryPhone page
 
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.

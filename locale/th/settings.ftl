@@ -677,7 +677,6 @@ nav-email-comm = การติดต่อสื่อสารทางอี
 tfa-replace-code-error-3 = มีปัญหาขณะแทนที่รหัสยืนยันตัวตนสำรองของคุณ
 tfa-create-code-error = มีปัญหาขณะสร้างรหัสยืนยันตัวตนสำรองของคุณ
 tfa-replace-code-success-1 = รหัสใหม่ได้ถูกสร้างขึ้นแล้ว โปรดบันทึกรหัสยืนยันตัวตนสำรองซึ่งใช้ได้ครั้งเดียวเหล่านี้ไว้ในที่ที่ปลอดภัย เพราะคุณจะต้องใช้ในการเข้าถึงบัญชีของคุณหากคุณไม่มีอุปกรณ์มือถือ
-tfa-replace-code-success-alert-3 = ปรับปรุงรหัสยืนยันตัวตนสำรองสำหรับบัญชีแล้ว
 tfa-replace-code-1-2 = ขั้นตอนที่ 1 จาก 2
 tfa-replace-code-2-2 = ขั้นตอนที่ 2 จาก 2
 
@@ -1566,6 +1565,12 @@ signin-push-code-confirm-wasnt-me = นี่ไม่ใช่ฉัน เป�
 signin-push-code-confirm-login-approved = การเข้าสู่ระบบของคุณได้ถูกอนุมัติแล้ว โปรดปิดหน้าต่างนี้
 signin-push-code-confirm-link-error = ลิงก์เสียหาย โปรดลองใหม่อีกครั้ง
 
+## Signin recovery method page
+## This page is shown to users when they are having trouble signing in with
+## their password, and they previously had set up an account recovery method.
+
+signin-recovery-method-header = ลงชื่อเข้า
+
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
 ## (provided to the user when they first set up two-step authentication)
@@ -1573,35 +1578,16 @@ signin-push-code-confirm-link-error = ลิงก์เสียหาย โ�
 
 signin-recovery-code-heading = ลงชื่อเข้า
 signin-recovery-code-sub-heading = ใส่รหัสยืนยันตัวตนสำรอง
-signin-recovery-code-instruction-v2 = ใส่หนึ่งในรหัสยืนยันตัวตนสำรองแบบใช้ครั้งเดียวที่คุณบันทึกไว้ระหว่างการตั้งค่าการยืนยันตัวตนสองขั้นตอน
-signin-recovery-code-input-label-v2 = ใส่รหัส 10 ตัวอักขระ
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = ยืนยัน
-# Link to return to signin with two-step authentication code
-signin-recovery-code-back-link = ย้อนกลับ
 # External link for support if the user can't use two-step autentication or a backup authentication code
 # https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 signin-recovery-code-support-link = คุณถูกล็อกใช่หรือไม่?
 # Error displayed in a tooltip when form is submitted witout a code
 signin-recovery-code-required-error = ต้องใส่รหัสยืนยันตัวตน
-# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
-# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
-# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
-signin-recovery-code-desktop-relay = { -brand-firefox } จะลองนำคุณกลับไปเพื่อใช้ตัวปกปิดอีเมลหลังจากที่คุณลงชื่อเข้า
 
-## Signin recovery method page
-## This page is shown to users when they are having trouble signing in with
-## their password, and they previously had set up an account recovery method.
+## SigninRecoveryPhone page
 
-signin-recovery-method-header = ลงชื่อเข้า
-
-## SigninRecoveryPhoneCodeConfirm page
-
-recovery-phone-code-confirm-flow-heading = ลงชื่อเข้าใช้
-# A recovery code in context of this page is a one time code sent to the user's phone
-recovery-phone-code-confirm-with-code-heading = ป้อนรหัสการกู้คืน
-recovery-phone-code-confirm-input-group-label = ใส่รหัส 6 หลัก
-recovery-phone-code-confirm-otp-submit-button = ยืนยัน
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 

@@ -704,7 +704,6 @@ nav-email-comm = 電子郵件通訊
 tfa-replace-code-error-3 = 取代您的備用驗證碼時發生問題
 tfa-create-code-error = 建立您的備用驗證碼時發生問題
 tfa-replace-code-success-1 = 已產生新的救援碼，請將這些單次使用的備用驗證碼保存在安全的地方，當您無法再使用行動裝置時，可以使用此驗證碼登入帳號。
-tfa-replace-code-success-alert-3 = 已更新帳號備用驗證碼
 tfa-replace-code-1-2 = 第 1 步，共 2 步
 tfa-replace-code-2-2 = 第 2 步，共 2 步
 
@@ -1620,29 +1619,6 @@ signin-push-code-confirm-wasnt-me = 不是我發起的，我要更改密碼。
 signin-push-code-confirm-login-approved = 已允許您登入，可關閉視窗。
 signin-push-code-confirm-link-error = 鏈結毀損，請再試一次。
 
-## SigninRecoveryCode page
-## Users are prompted to enter a backup authentication code
-## (provided to the user when they first set up two-step authentication)
-## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
-
-signin-recovery-code-heading = 登入
-signin-recovery-code-sub-heading = 請輸入備用驗證碼
-signin-recovery-code-instruction-v2 = 請輸入您在設定兩階段驗證時，儲存下來的任一組免洗備用驗證碼。
-signin-recovery-code-input-label-v2 = 請輸入 10 字元長的驗證碼
-# Form button to confirm if the backup authentication code entered by the user is valid
-signin-recovery-code-confirm-button = 確認
-# Link to return to signin with two-step authentication code
-signin-recovery-code-back-link = 返回
-# External link for support if the user can't use two-step autentication or a backup authentication code
-# https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
-signin-recovery-code-support-link = 被鎖住了嗎？
-# Error displayed in a tooltip when form is submitted witout a code
-signin-recovery-code-required-error = 需要使用備用驗證碼
-# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
-# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
-# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
-signin-recovery-code-desktop-relay = 登入後，{ -brand-firefox } 將嘗試使用您的轉寄信箱帶您回到原網站。
-
 ## Signin recovery method page
 ## This page is shown to users when they are having trouble signing in with
 ## their password, and they previously had set up an account recovery method.
@@ -1651,20 +1627,26 @@ signin-recovery-method-header = 登入
 signin-recovery-method-subheader = 選擇救援方式
 signin-recovery-method-details = 請使用您原先設定的救援方式確認身分。
 signin-recovery-method-phone = 救援電話號碼
-signin-recovery-method-code = 驗證碼
 # Variable: $numberOfCodes (String) - The number of authentication codes the user has left, e.g. 4
 signin-recovery-method-code-info = 剩餘 { $numberOfCodes } 組驗證碼
 
-## SigninRecoveryPhoneCodeConfirm page
+## SigninRecoveryCode page
+## Users are prompted to enter a backup authentication code
+## (provided to the user when they first set up two-step authentication)
+## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
-recovery-phone-code-confirm-flow-heading = 登入
-# A recovery code in context of this page is a one time code sent to the user's phone
-recovery-phone-code-confirm-with-code-heading = 請輸入救援碼
-# Text that explains the user should check their phone for a recovery code
-# $maskedPhoneNumber - The users masked phone number
-recovery-phone-code-confirm-code-instruction = 已透過簡訊將六位數的驗證碼發送至尾數為 <span>{ $maskedPhoneNumber }</span> 的門號，此驗證碼將於 5 分鐘後失效。
-recovery-phone-code-confirm-input-group-label = 請輸入六位數的救援碼
-recovery-phone-code-confirm-otp-submit-button = 確認
+signin-recovery-code-heading = 登入
+signin-recovery-code-sub-heading = 請輸入備用驗證碼
+# Form button to confirm if the backup authentication code entered by the user is valid
+signin-recovery-code-confirm-button = 確認
+# External link for support if the user can't use two-step autentication or a backup authentication code
+# https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+signin-recovery-code-support-link = 被鎖住了嗎？
+# Error displayed in a tooltip when form is submitted witout a code
+signin-recovery-code-required-error = 需要使用備用驗證碼
+
+## SigninRecoveryPhone page
+
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 

@@ -1166,6 +1166,11 @@ signin-push-code-confirm-login = Керүне раслау
 signin-push-code-confirm-wasnt-me = Бу мин түгел, серсүзне үзгәртү.
 signin-push-code-confirm-link-error = Сылтамага зыян килгән. Зинһар янәдән тырышып карагыз.
 
+## Signin recovery method page
+## This page is shown to users when they are having trouble signing in with
+## their password, and they previously had set up an account recovery method.
+
+
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
 ## (provided to the user when they first set up two-step authentication)
@@ -1174,18 +1179,11 @@ signin-push-code-confirm-link-error = Сылтамага зыян килгән. 
 signin-recovery-code-heading = Керү
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Раслау
-# Link to return to signin with two-step authentication code
-signin-recovery-code-back-link = Кире
 # External link for support if the user can't use two-step autentication or a backup authentication code
 # https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 signin-recovery-code-support-link = Хисабыгыз биклеме?
 
-## Signin recovery method page
-## This page is shown to users when they are having trouble signing in with
-## their password, and they previously had set up an account recovery method.
-
-
-## SigninRecoveryPhoneCodeConfirm page
+## SigninRecoveryPhone page
 
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.

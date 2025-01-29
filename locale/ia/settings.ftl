@@ -710,7 +710,6 @@ nav-email-comm = Communicationes email
 tfa-replace-code-error-3 = Il habeva un problema a reimplaciar tu codices de authentication de reserva
 tfa-create-code-error = Il habeva un problema a crear tu codices de authentication de reserva
 tfa-replace-code-success-1 = Nove codices ha essite create. Salva iste codices de authentication de reserva provisori in un loco secur: tu besoniara de illos pro acceder a tu conto, si tu non ha tu apparato mobile.
-tfa-replace-code-success-alert-3 = Conto codices de authentication de reserva actualisate
 tfa-replace-code-1-2 = Passo 1de 2
 tfa-replace-code-2-2 = Passo 2 de 2
 
@@ -1645,29 +1644,6 @@ signin-push-code-confirm-wasnt-me = Iste non era io, cambiar contrasigno.
 signin-push-code-confirm-login-approved = Tu accesso ha essite approbate. Claude iste fenestra.
 signin-push-code-confirm-link-error = Ligamine damnificate. Retenta.
 
-## SigninRecoveryCode page
-## Users are prompted to enter a backup authentication code
-## (provided to the user when they first set up two-step authentication)
-## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
-
-signin-recovery-code-heading = Aperir session
-signin-recovery-code-sub-heading = Insere codice de authentication de reserva
-signin-recovery-code-instruction-v2 = Insere un del codices de authentication monouso que tu salvava durante le implementation del authentication a duo passos.
-signin-recovery-code-input-label-v2 = Insere le codice de 10 characteres
-# Form button to confirm if the backup authentication code entered by the user is valid
-signin-recovery-code-confirm-button = Confirmar
-# Link to return to signin with two-step authentication code
-signin-recovery-code-back-link = Retro
-# External link for support if the user can't use two-step autentication or a backup authentication code
-# https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
-signin-recovery-code-support-link = Es tu blocate?
-# Error displayed in a tooltip when form is submitted witout a code
-signin-recovery-code-required-error = Codice de authentication de reserva necessari
-# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
-# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
-# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
-signin-recovery-code-desktop-relay = { -brand-firefox } tentara inviar te retro pro usar un alias email post que tu accede.
-
 ## Signin recovery method page
 ## This page is shown to users when they are having trouble signing in with
 ## their password, and they previously had set up an account recovery method.
@@ -1676,20 +1652,26 @@ signin-recovery-method-header = Aperir session
 signin-recovery-method-subheader = Selige un methodo de recuperation
 signin-recovery-method-details = Que nos verifica que il es tu que usa tu methodos de recuperation.
 signin-recovery-method-phone = Telephono de recuperation
-signin-recovery-method-code = Codices de authentication
 # Variable: $numberOfCodes (String) - The number of authentication codes the user has left, e.g. 4
 signin-recovery-method-code-info = { $numberOfCodes } codices remanente
 
-## SigninRecoveryPhoneCodeConfirm page
+## SigninRecoveryCode page
+## Users are prompted to enter a backup authentication code
+## (provided to the user when they first set up two-step authentication)
+## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
-recovery-phone-code-confirm-flow-heading = Aperir session
-# A recovery code in context of this page is a one time code sent to the user's phone
-recovery-phone-code-confirm-with-code-heading = Insere le codice de recuperation
-# Text that explains the user should check their phone for a recovery code
-# $maskedPhoneNumber - The users masked phone number
-recovery-phone-code-confirm-code-instruction = Un codice de sex cifras era inviate a <span>{ $maskedPhoneNumber }</span> per message de texto. Iste codice expira post 5 minutas.
-recovery-phone-code-confirm-input-group-label = Insere le codice de 6 digitos
-recovery-phone-code-confirm-otp-submit-button = Confirmar
+signin-recovery-code-heading = Aperir session
+signin-recovery-code-sub-heading = Insere codice de authentication de reserva
+# Form button to confirm if the backup authentication code entered by the user is valid
+signin-recovery-code-confirm-button = Confirmar
+# External link for support if the user can't use two-step autentication or a backup authentication code
+# https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+signin-recovery-code-support-link = Es tu blocate?
+# Error displayed in a tooltip when form is submitted witout a code
+signin-recovery-code-required-error = Codice de authentication de reserva necessari
+
+## SigninRecoveryPhone page
+
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 

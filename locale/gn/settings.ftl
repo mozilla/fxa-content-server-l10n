@@ -675,7 +675,6 @@ tfa-replace-code-success-1 =
     Oñemoheñói ayvu pyahu. Eñongatu ko’ã ayvu
     ñemoneĩrã jeykekoha tenda hekorosãvape; eikotevéta eike hag̃ua ne mba’etépe
     ndereguerekóiramo mba’e’oka oku’éva.
-tfa-replace-code-success-alert-3 = Ayvu ñemoneĩrã jeykekoha mba’ete hekopyahúvape
 tfa-replace-code-1-2 = Ku’e 1 2-gui
 tfa-replace-code-2-2 = Ku’e 2 2-gui
 
@@ -1563,6 +1562,11 @@ signin-push-code-confirm-wasnt-me = Kóva ndachéi, emoambue ñe’ẽñemi.
 signin-push-code-confirm-login-approved = Oñemoneĩma ne rembiapo ñepyrũ. Embotykuaáma ko ovetã.
 signin-push-code-confirm-link-error = Pe juajuha imarã. Eha’ã jey ag̃ave.
 
+## Signin recovery method page
+## This page is shown to users when they are having trouble signing in with
+## their password, and they previously had set up an account recovery method.
+
+
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
 ## (provided to the user when they first set up two-step authentication)
@@ -1570,27 +1574,15 @@ signin-push-code-confirm-link-error = Pe juajuha imarã. Eha’ã jey ag̃ave.
 
 signin-recovery-code-heading = Eñepyrũ tembiapo
 signin-recovery-code-sub-heading = Emoinge ayvu ñemoneĩrã jeykekoha
-signin-recovery-code-input-label-v2 = Ehai mba’eñemi 10 taíva
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Moneĩ
-# Link to return to signin with two-step authentication code
-signin-recovery-code-back-link = Tapykue
 # External link for support if the user can't use two-step autentication or a backup authentication code
 # https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 signin-recovery-code-support-link = ¿Rejejokóma?
 # Error displayed in a tooltip when form is submitted witout a code
 signin-recovery-code-required-error = Ayvu ñemoneĩrã jeykekoha jerurepyre
-# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
-# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
-# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
-signin-recovery-code-desktop-relay = { -brand-firefox } orahaukajeýta eimehápe eiporu hag̃ua ñanduti veve rovamo’ãha eñepyrũ rire tembiapo.
 
-## Signin recovery method page
-## This page is shown to users when they are having trouble signing in with
-## their password, and they previously had set up an account recovery method.
-
-
-## SigninRecoveryPhoneCodeConfirm page
+## SigninRecoveryPhone page
 
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.

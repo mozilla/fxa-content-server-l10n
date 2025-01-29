@@ -676,7 +676,6 @@ tfa-replace-code-success-1 =
     Utworzono nowe kody. Zachowaj te zapasowe kody uwierzytelniania
     jednorazowego użytku w bezpiecznym miejscu — będą one potrzebne
     do uzyskania dostępu do konta, jeśli nie masz swojego telefonu.
-tfa-replace-code-success-alert-3 = Zaktualizowano zapasowe kody uwierzytelniania konta
 tfa-replace-code-1-2 = 1. krok z 2
 tfa-replace-code-2-2 = 2. krok z 2
 
@@ -1591,6 +1590,11 @@ signin-push-code-confirm-wasnt-me = To nie ja, zmień hasło.
 signin-push-code-confirm-login-approved = Logowanie zostało zatwierdzone. Zamknij to okno.
 signin-push-code-confirm-link-error = Odnośnik jest uszkodzony. Proszę spróbować ponownie.
 
+## Signin recovery method page
+## This page is shown to users when they are having trouble signing in with
+## their password, and they previously had set up an account recovery method.
+
+
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
 ## (provided to the user when they first set up two-step authentication)
@@ -1598,28 +1602,15 @@ signin-push-code-confirm-link-error = Odnośnik jest uszkodzony. Proszę spróbo
 
 signin-recovery-code-heading = Zaloguj się
 signin-recovery-code-sub-heading = Wpisz zapasowy kod uwierzytelniania
-signin-recovery-code-instruction-v2 = Wpisz jeden z jednorazowych zapasowych kodów uwierzytelniania zachowanych podczas konfiguracji uwierzytelniania dwuetapowego.
-signin-recovery-code-input-label-v2 = Wpisz 10-znakowy kod
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Potwierdź
-# Link to return to signin with two-step authentication code
-signin-recovery-code-back-link = Wstecz
 # External link for support if the user can't use two-step autentication or a backup authentication code
 # https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 signin-recovery-code-support-link = Nie możesz się zalogować?
 # Error displayed in a tooltip when form is submitted witout a code
 signin-recovery-code-required-error = Wymagany jest zapasowy kod uwierzytelniania
-# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
-# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
-# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
-signin-recovery-code-desktop-relay = { -brand-firefox } po zalogowaniu spróbuje odesłać Cię do użycia maski dla adresu e-mail.
 
-## Signin recovery method page
-## This page is shown to users when they are having trouble signing in with
-## their password, and they previously had set up an account recovery method.
-
-
-## SigninRecoveryPhoneCodeConfirm page
+## SigninRecoveryPhone page
 
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.

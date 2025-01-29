@@ -702,7 +702,6 @@ tfa-replace-code-success-1 =
     Жаңа кодтар жасалды. Осы бір рет қолданылатын сақтық көшірме
     аутентификация кодтарын қауіпсіз жерде сақтаңыз — мобильді құрылғыңыз болмаса,
     олар тіркелгіңізге кіру үшін қажет болады.
-tfa-replace-code-success-alert-3 = Тіркелгінің сақтық көшірме аутентификация кодтары жаңартылды
 tfa-replace-code-1-2 = Қадам 1, барлығы 2
 tfa-replace-code-2-2 = Қадам 2, барлығы 2
 
@@ -1600,6 +1599,15 @@ signin-push-code-confirm-wasnt-me = Бұл мен емес едім, парол�
 signin-push-code-confirm-login-approved = Сіздің логиніңіз расталды. Бұл терезені жабыңыз.
 signin-push-code-confirm-link-error = Сілтеме зақымдалған. Қайталап көріңіз.
 
+## Signin recovery method page
+## This page is shown to users when they are having trouble signing in with
+## their password, and they previously had set up an account recovery method.
+
+signin-recovery-method-header = Кіру
+signin-recovery-method-phone = Қалпына келтіру телефоны
+# Variable: $numberOfCodes (String) - The number of authentication codes the user has left, e.g. 4
+signin-recovery-method-code-info = { $numberOfCodes } код қалды
+
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
 ## (provided to the user when they first set up two-step authentication)
@@ -1607,33 +1615,16 @@ signin-push-code-confirm-link-error = Сілтеме зақымдалған. Қ�
 
 signin-recovery-code-heading = Кіру
 signin-recovery-code-sub-heading = Сақтық аутентификация кодын енгізіңіз
-signin-recovery-code-instruction-v2 = Екі қадамды аутентификацияны баптау кезінде сақталған бір рет қолданылатын сақтық көшірме аутентификация кодтарының бірін енгізіңіз.
-signin-recovery-code-input-label-v2 = 10 таңбалы кодты енгізіңіз
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Растау
-# Link to return to signin with two-step authentication code
-signin-recovery-code-back-link = Артқа
 # External link for support if the user can't use two-step autentication or a backup authentication code
 # https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 signin-recovery-code-support-link = Тіркелгі бұғатталған ба?
 # Error displayed in a tooltip when form is submitted witout a code
 signin-recovery-code-required-error = Сақтық аутентификация коды қажет
 
-## Signin recovery method page
-## This page is shown to users when they are having trouble signing in with
-## their password, and they previously had set up an account recovery method.
+## SigninRecoveryPhone page
 
-signin-recovery-method-header = Кіру
-signin-recovery-method-phone = Қалпына келтіру телефоны
-signin-recovery-method-code = Аутентификация кодтары
-# Variable: $numberOfCodes (String) - The number of authentication codes the user has left, e.g. 4
-signin-recovery-method-code-info = { $numberOfCodes } код қалды
-
-## SigninRecoveryPhoneCodeConfirm page
-
-recovery-phone-code-confirm-flow-heading = Кіру
-# A recovery code in context of this page is a one time code sent to the user's phone
-recovery-phone-code-confirm-with-code-heading = Қалпына келтіру кодын енгізіңіз
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 

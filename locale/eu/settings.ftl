@@ -688,7 +688,6 @@ tfa-replace-code-success-1 =
     Kode berriak sortu dira. Gorde erabilera bakarreko autentikazio
     kode segurtasun kopia hauek toki seguruan — Gailu mugikorra ez baduzu zure kontura sartzeko
     beharko dituzu.
-tfa-replace-code-success-alert-3 = Eguneratu dira kontuko autentifikazio-kode babeskopiak
 tfa-replace-code-1-2 = 2tik 1. urratsa
 tfa-replace-code-2-2 = 2tik 2. urratsa
 
@@ -1330,6 +1329,11 @@ signin-push-code-confirm-instruction = Berretsi zure saio hasiera
 signin-push-code-confirm-verifying = Egiaztatzen
 signin-push-code-confirm-login = Berretsi saio hasiera
 
+## Signin recovery method page
+## This page is shown to users when they are having trouble signing in with
+## their password, and they previously had set up an account recovery method.
+
+
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
 ## (provided to the user when they first set up two-step authentication)
@@ -1337,20 +1341,13 @@ signin-push-code-confirm-login = Berretsi saio hasiera
 
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Berretsi
-# Link to return to signin with two-step authentication code
-signin-recovery-code-back-link = Atzera
 # External link for support if the user can't use two-step autentication or a backup authentication code
 # https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 signin-recovery-code-support-link = Blokeatuta zaude?
 # Error displayed in a tooltip when form is submitted witout a code
 signin-recovery-code-required-error = Beharrezkoa da autentifikazio-kodearen babeskopia
 
-## Signin recovery method page
-## This page is shown to users when they are having trouble signing in with
-## their password, and they previously had set up an account recovery method.
-
-
-## SigninRecoveryPhoneCodeConfirm page
+## SigninRecoveryPhone page
 
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.

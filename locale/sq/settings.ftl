@@ -709,7 +709,6 @@ tfa-replace-code-success-1 =
     U krijuan kode të reja. Ruajini këto kode njëpërdorimsh
     mirëfilltësimi kopjeruajtje në një vend të sigurt — do t’ju duhen për të hyrë në llogarinë tuaj nëse s’keni
     pajisjen tuaj celulare.
-tfa-replace-code-success-alert-3 = U përditësuan kode mirëfilltësimi kopjeruajtje llogarie
 tfa-replace-code-1-2 = Hapi 1 nga 2
 tfa-replace-code-2-2 = Hapi 2 nga 2
 
@@ -1645,29 +1644,6 @@ signin-push-code-confirm-wasnt-me = S’qeshë unë, ndryshojeni fjalëkalimin.
 signin-push-code-confirm-login-approved = Hyrja juaj u miratua. Ju lutemi, mbylleni këtë dritare.
 signin-push-code-confirm-link-error = Lidhja është e dëmtuar. Ju lutemi, riprovoni
 
-## SigninRecoveryCode page
-## Users are prompted to enter a backup authentication code
-## (provided to the user when they first set up two-step authentication)
-## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
-
-signin-recovery-code-heading = Hyni
-signin-recovery-code-sub-heading = Jepni kod mirëfilltësimi kopjeruajtjeje
-signin-recovery-code-instruction-v2 = Jepni një nga kodet tuaj për përdorim një here për mirëfilltësim kopjeruajtje, që ruajtët gjatë ujdisjes së mirëfilltësimit dyfaktorësh.
-signin-recovery-code-input-label-v2 = Jepni kodin me 10 shenja
-# Form button to confirm if the backup authentication code entered by the user is valid
-signin-recovery-code-confirm-button = Ripohojeni
-# Link to return to signin with two-step authentication code
-signin-recovery-code-back-link = Mbrapsht
-# External link for support if the user can't use two-step autentication or a backup authentication code
-# https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
-signin-recovery-code-support-link = Jeni kyçur jashtë?
-# Error displayed in a tooltip when form is submitted witout a code
-signin-recovery-code-required-error = Lypset kod mirëfilltësimi kopjeruajtjeje
-# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
-# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
-# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
-signin-recovery-code-desktop-relay = Pasi të bëni hyrjen në llogari, { -brand-firefox }-i do të provojë t’ju dërgojë një maskë email për ta përdorur.
-
 ## Signin recovery method page
 ## This page is shown to users when they are having trouble signing in with
 ## their password, and they previously had set up an account recovery method.
@@ -1676,20 +1652,26 @@ signin-recovery-method-header = Hyni
 signin-recovery-method-subheader = Zgjidhni një metodë rikthimi
 signin-recovery-method-details = Le të sigurohemi se jeni ju ai që po përdorni metodat tuaja të rimarrjes.
 signin-recovery-method-phone = Telefon rimarrjeje
-signin-recovery-method-code = Kode mirëfilltësimi
 # Variable: $numberOfCodes (String) - The number of authentication codes the user has left, e.g. 4
 signin-recovery-method-code-info = Edhe { $numberOfCodes } kode
 
-## SigninRecoveryPhoneCodeConfirm page
+## SigninRecoveryCode page
+## Users are prompted to enter a backup authentication code
+## (provided to the user when they first set up two-step authentication)
+## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
-recovery-phone-code-confirm-flow-heading = Hyni
-# A recovery code in context of this page is a one time code sent to the user's phone
-recovery-phone-code-confirm-with-code-heading = Jepni kod rikthimi
-# Text that explains the user should check their phone for a recovery code
-# $maskedPhoneNumber - The users masked phone number
-recovery-phone-code-confirm-code-instruction = Te <span>{ $maskedPhoneNumber }</span> u dërgua përmes një mesazhi tekst një kod gjashtëshifror. Ky kod skadon pas 5 minutash.
-recovery-phone-code-confirm-input-group-label = Jepni kodin 6-shifror
-recovery-phone-code-confirm-otp-submit-button = Ripohojeni
+signin-recovery-code-heading = Hyni
+signin-recovery-code-sub-heading = Jepni kod mirëfilltësimi kopjeruajtjeje
+# Form button to confirm if the backup authentication code entered by the user is valid
+signin-recovery-code-confirm-button = Ripohojeni
+# External link for support if the user can't use two-step autentication or a backup authentication code
+# https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+signin-recovery-code-support-link = Jeni kyçur jashtë?
+# Error displayed in a tooltip when form is submitted witout a code
+signin-recovery-code-required-error = Lypset kod mirëfilltësimi kopjeruajtjeje
+
+## SigninRecoveryPhone page
+
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 

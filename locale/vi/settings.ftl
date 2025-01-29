@@ -711,7 +711,6 @@ tfa-replace-code-success-1 =
     Mã mới đã được tạo. Lưu các mã xác thực dự phòng một lần này
     ở một nơi an toàn — bạn sẽ cần chúng để truy cập vào tài khoản của mình nếu không
     có thiết bị di động của bạn.
-tfa-replace-code-success-alert-3 = Đã cập nhật mã xác thực dự phòng tài khoản
 tfa-replace-code-1-2 = Bước 1/2
 tfa-replace-code-2-2 = Bước 2/2
 
@@ -1647,29 +1646,6 @@ signin-push-code-confirm-wasnt-me = Không phải tôi, hãy đổi mật khẩu
 signin-push-code-confirm-login-approved = Đăng nhập của bạn đã được phê duyệt. Hãy đóng cửa sổ này lại.
 signin-push-code-confirm-link-error = Liên kết đã bị hỏng. Hãy thử lại.
 
-## SigninRecoveryCode page
-## Users are prompted to enter a backup authentication code
-## (provided to the user when they first set up two-step authentication)
-## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
-
-signin-recovery-code-heading = Đăng nhập
-signin-recovery-code-sub-heading = Nhập mã xác thực dự phòng
-signin-recovery-code-instruction-v2 = Nhập một trong các mã xác thực dự phòng sử dụng một lần mà bạn đã lưu trong quá trình thiết lập xác thực hai bước.
-signin-recovery-code-input-label-v2 = Nhập mã gồm 10 ký tự
-# Form button to confirm if the backup authentication code entered by the user is valid
-signin-recovery-code-confirm-button = Xác nhận
-# Link to return to signin with two-step authentication code
-signin-recovery-code-back-link = Quay lại
-# External link for support if the user can't use two-step autentication or a backup authentication code
-# https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
-signin-recovery-code-support-link = Tài khoản của bạn đang bị khóa?
-# Error displayed in a tooltip when form is submitted witout a code
-signin-recovery-code-required-error = Cần có mã xác thực dự phòng
-# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
-# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
-# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
-signin-recovery-code-desktop-relay = { -brand-firefox } sẽ điều hướng bạn quay trở lại để sử dụng email ẩn danh sau khi bạn đăng nhập.
-
 ## Signin recovery method page
 ## This page is shown to users when they are having trouble signing in with
 ## their password, and they previously had set up an account recovery method.
@@ -1678,20 +1654,26 @@ signin-recovery-method-header = Đăng nhập
 signin-recovery-method-subheader = Chọn phương pháp khôi phục
 signin-recovery-method-details = Hãy đảm bảo rằng bạn chính là người đang sử dụng phương thức khôi phục của mình.
 signin-recovery-method-phone = Số điện thoại khôi phục
-signin-recovery-method-code = Mã xác thực
 # Variable: $numberOfCodes (String) - The number of authentication codes the user has left, e.g. 4
 signin-recovery-method-code-info = { $numberOfCodes } mã còn lại
 
-## SigninRecoveryPhoneCodeConfirm page
+## SigninRecoveryCode page
+## Users are prompted to enter a backup authentication code
+## (provided to the user when they first set up two-step authentication)
+## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
-recovery-phone-code-confirm-flow-heading = Đăng nhập
-# A recovery code in context of this page is a one time code sent to the user's phone
-recovery-phone-code-confirm-with-code-heading = Nhập mã khôi phục
-# Text that explains the user should check their phone for a recovery code
-# $maskedPhoneNumber - The users masked phone number
-recovery-phone-code-confirm-code-instruction = Một mã gồm sáu chữ số đã được gửi đến <span>{ $maskedPhoneNumber }</span> bằng tin nhắn văn bản. Mã này hết hạn sau 5 phút.
-recovery-phone-code-confirm-input-group-label = Nhập mã gồm 6 chữ số
-recovery-phone-code-confirm-otp-submit-button = Xác nhận
+signin-recovery-code-heading = Đăng nhập
+signin-recovery-code-sub-heading = Nhập mã xác thực dự phòng
+# Form button to confirm if the backup authentication code entered by the user is valid
+signin-recovery-code-confirm-button = Xác nhận
+# External link for support if the user can't use two-step autentication or a backup authentication code
+# https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+signin-recovery-code-support-link = Tài khoản của bạn đang bị khóa?
+# Error displayed in a tooltip when form is submitted witout a code
+signin-recovery-code-required-error = Cần có mã xác thực dự phòng
+
+## SigninRecoveryPhone page
+
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 

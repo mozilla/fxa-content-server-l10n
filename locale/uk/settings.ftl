@@ -676,7 +676,6 @@ tfa-replace-code-success-1 =
     Створено нові коди. Збережіть ці одноразові резервні коди автентифікації
     в надійному місці — вам вони знадобляться для доступу до облікового запису
     за відсутності вашого мобільного пристрою.
-tfa-replace-code-success-alert-3 = Резервні коди автентифікації облікового запису оновлено
 tfa-replace-code-1-2 = Крок 1 з 2
 tfa-replace-code-2-2 = Крок 2 з 2
 
@@ -1590,6 +1589,11 @@ signin-push-code-confirm-wasnt-me = Це не я, змінити пароль.
 signin-push-code-confirm-login-approved = Ваш вхід підтверджено. Можете закрити це вікно.
 signin-push-code-confirm-link-error = Посилання пошкоджено. Повторіть спробу.
 
+## Signin recovery method page
+## This page is shown to users when they are having trouble signing in with
+## their password, and they previously had set up an account recovery method.
+
+
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
 ## (provided to the user when they first set up two-step authentication)
@@ -1597,28 +1601,15 @@ signin-push-code-confirm-link-error = Посилання пошкоджено. �
 
 signin-recovery-code-heading = Увійти
 signin-recovery-code-sub-heading = Введіть резервний код автентифікації
-signin-recovery-code-instruction-v2 = Введіть один із одноразових резервних кодів автентифікації, які ви зберегли під час налаштування двоетапної перевірки.
-signin-recovery-code-input-label-v2 = Введіть 10-значний код
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Підтвердити
-# Link to return to signin with two-step authentication code
-signin-recovery-code-back-link = Назад
 # External link for support if the user can't use two-step autentication or a backup authentication code
 # https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 signin-recovery-code-support-link = Ви заблоковані?
 # Error displayed in a tooltip when form is submitted witout a code
 signin-recovery-code-required-error = Потрібен резервний код автентифікації
-# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
-# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
-# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
-signin-recovery-code-desktop-relay = { -brand-firefox } спробує повернути вас назад, щоб ви використали маску е-пошти після входу.
 
-## Signin recovery method page
-## This page is shown to users when they are having trouble signing in with
-## their password, and they previously had set up an account recovery method.
-
-
-## SigninRecoveryPhoneCodeConfirm page
+## SigninRecoveryPhone page
 
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.

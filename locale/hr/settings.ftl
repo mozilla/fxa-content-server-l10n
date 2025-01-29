@@ -1366,37 +1366,25 @@ back = Natrag
 signin-push-code-confirm-instruction = Potvrdi tvoju prijavu
 signin-push-code-confirm-login = Potvrdi prijavu
 
+## Signin recovery method page
+## This page is shown to users when they are having trouble signing in with
+## their password, and they previously had set up an account recovery method.
+
+signin-recovery-method-header = Prijavi se
+# Variable: $numberOfCodes (String) - The number of authentication codes the user has left, e.g. 4
+signin-recovery-method-code-info = Broj preostalih kodova: { $numberOfCodes }
+
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
 signin-recovery-code-heading = Prijavi se
-signin-recovery-code-input-label-v2 = Upiši desetoznamenkasti kod
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Potvrdi
-# Link to return to signin with two-step authentication code
-signin-recovery-code-back-link = Natrag
 
-## Signin recovery method page
-## This page is shown to users when they are having trouble signing in with
-## their password, and they previously had set up an account recovery method.
+## SigninRecoveryPhone page
 
-signin-recovery-method-header = Prijavi se
-signin-recovery-method-code = Kodovi za autentifikaciju
-# Variable: $numberOfCodes (String) - The number of authentication codes the user has left, e.g. 4
-signin-recovery-method-code-info = Broj preostalih kodova: { $numberOfCodes }
-
-## SigninRecoveryPhoneCodeConfirm page
-
-recovery-phone-code-confirm-flow-heading = Prijavi se
-# A recovery code in context of this page is a one time code sent to the user's phone
-recovery-phone-code-confirm-with-code-heading = Upiši ključ za obnavljanje
-# Text that explains the user should check their phone for a recovery code
-# $maskedPhoneNumber - The users masked phone number
-recovery-phone-code-confirm-code-instruction = Tekstualnom porukom je poslan šesteroznamenkasti kod na <span>{ $maskedPhoneNumber }</span>. Ovaj kod isteče nakon 5 minuta.
-recovery-phone-code-confirm-input-group-label = Upiši šesteroznamenkasti kod
-recovery-phone-code-confirm-otp-submit-button = Potvrdi
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 

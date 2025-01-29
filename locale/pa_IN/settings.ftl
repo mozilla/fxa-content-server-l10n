@@ -665,7 +665,6 @@ nav-email-comm = ਈਮੇਲ ਪੱਤਰ-ਵਿਹਾਰ
 
 tfa-replace-code-error-3 = ਤੁਹਾਡੇ ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਬਦਲਣ ਦੌਰਾਨ ਸਮੱਸਿਆ ਆਈ ਸੀ
 tfa-create-code-error = ਤੁਹਾਡੇ ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਬਣਾਉਣ ਦੌਰਾਨ ਸਮੱਸਿਆ ਆਈ ਸੀ
-tfa-replace-code-success-alert-3 = ਖਾਤਾ ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਅੱਪਡੇਟ ਕੀਤੇ ਗਏ
 tfa-replace-code-1-2 = 2 ਚੋਂ 1 ਪੜਾਅ
 tfa-replace-code-2-2 = 2 ਚੋਂ 2 ਪੜਾਅ
 
@@ -1513,24 +1512,6 @@ signin-push-code-confirm-wasnt-me = ਇਹ ਮੈਂ ਨਹੀਂ ਸੀ, ਪਾ
 signin-push-code-confirm-login-approved = ਤੁਹਾਡੇ ਲਾਗਇਨ ਨੂੰ ਮਨਜ਼ੂਰ ਕੀਤਾ ਗਿਆ ਹੈ। ਇਸ ਵਿੰਡੋ ਨੂੰ ਬੰਦ ਕਰੋ।
 signin-push-code-confirm-link-error = ਲਿੰਕ ਨੁਕਾਸਿਆ ਗਿਆ। ਫੇਰ ਕੋਸ਼ਿਸ਼ ਕਰੋ ਜੀ।
 
-## SigninRecoveryCode page
-## Users are prompted to enter a backup authentication code
-## (provided to the user when they first set up two-step authentication)
-## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
-
-signin-recovery-code-heading = ਸਾਈਨ ਇਨ
-signin-recovery-code-sub-heading = ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਦਿਓ
-signin-recovery-code-input-label-v2 = 10-ਅੰਕ ਦਾ ਕੋਡ ਦਿਓ
-# Form button to confirm if the backup authentication code entered by the user is valid
-signin-recovery-code-confirm-button = ਤਸਦੀਕ
-# Link to return to signin with two-step authentication code
-signin-recovery-code-back-link = ਪਿੱਛੇ
-# External link for support if the user can't use two-step autentication or a backup authentication code
-# https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
-signin-recovery-code-support-link = ਕੀ ਤੁਸੀਂ ਲਾਕ-ਆਉਟ ਹੋ ਚੁੱਕੇ ਹੋ?
-# Error displayed in a tooltip when form is submitted witout a code
-signin-recovery-code-required-error = ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਚਾਹੀਦਾ ਹੈ
-
 ## Signin recovery method page
 ## This page is shown to users when they are having trouble signing in with
 ## their password, and they previously had set up an account recovery method.
@@ -1538,20 +1519,26 @@ signin-recovery-code-required-error = ਬੈਕਅੱਪ ਪਰਮਾਣੀਕ�
 signin-recovery-method-header = ਸਾਈਨ ਇਨ
 signin-recovery-method-subheader = ਰਿਕਵਰੀ ਢੰਗ ਚੁਣੋ
 signin-recovery-method-phone = ਰਿਕਵਰੀ ਫ਼ੋਨ
-signin-recovery-method-code = ਪਰਮਾਣੀਕਰਨ ਕੋਡ
 # Variable: $numberOfCodes (String) - The number of authentication codes the user has left, e.g. 4
 signin-recovery-method-code-info = { $numberOfCodes } ਕੋਡ ਬਾਕੀ ਹਨ
 
-## SigninRecoveryPhoneCodeConfirm page
+## SigninRecoveryCode page
+## Users are prompted to enter a backup authentication code
+## (provided to the user when they first set up two-step authentication)
+## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
-recovery-phone-code-confirm-flow-heading = ਸਾਈਨ ਇਨ
-# A recovery code in context of this page is a one time code sent to the user's phone
-recovery-phone-code-confirm-with-code-heading = ਰਿਕਵਰੀ ਕੋਡ ਭਰੋ
-# Text that explains the user should check their phone for a recovery code
-# $maskedPhoneNumber - The users masked phone number
-recovery-phone-code-confirm-code-instruction = ਛੇ ਅੱਖਰਾਂ ਦਾ ਕੋਡ <span>{ $maskedPhoneNumber }</span> ਉੱਤੇ ਟੈਕਸਟ ਸੁਨੇਹਾ ਭੇਜਿਆ ਗਿਆ ਸੀ। ਇਹ ਕੋਡ ਦੀ ਮਿਆਦ 5 ਮਿੰਟ ਹੈ।
-recovery-phone-code-confirm-input-group-label = 6-ਅੰਕ ਦਾ ਕੋਡ ਦਿਓ
-recovery-phone-code-confirm-otp-submit-button = ਤਸਦੀਕ
+signin-recovery-code-heading = ਸਾਈਨ ਇਨ
+signin-recovery-code-sub-heading = ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਦਿਓ
+# Form button to confirm if the backup authentication code entered by the user is valid
+signin-recovery-code-confirm-button = ਤਸਦੀਕ
+# External link for support if the user can't use two-step autentication or a backup authentication code
+# https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+signin-recovery-code-support-link = ਕੀ ਤੁਸੀਂ ਲਾਕ-ਆਉਟ ਹੋ ਚੁੱਕੇ ਹੋ?
+# Error displayed in a tooltip when form is submitted witout a code
+signin-recovery-code-required-error = ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਚਾਹੀਦਾ ਹੈ
+
+## SigninRecoveryPhone page
+
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
