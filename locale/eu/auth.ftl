@@ -356,10 +356,16 @@ postAddLinkedAccount-subject-2 = Kontu berria zure { -product-mozilla-account }-
 postAddLinkedAccount-title-2 = Zure { $providerName } kontuarekin lotu da zure { -product-mozilla-account }
 postAddLinkedAccount-action = Kudeatu kontua
 postAddRecoveryPhone-subject = Berreskuratze telefonoa gehitu da
+postAddRecoveryPhone-preview = Bi urratseko autentifikazioaren bidez babestuta dagoen kontua
 postAddRecoveryPhone-title = Berreskuratze telefono zenbakia sortu duzu
 # Variables:
 #  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
 postAddRecoveryPhone-description = { $maskedLastFourPhoneNumber } gehitu duzu berreskuratzeko telefono gisa
+# Links out to a support article about two factor authentication
+postAddRecoveryPhone-how-protect = Honek zure kontua nola babesten duen
+postAddRecoveryPhone-how-protect-plaintext = Honek zure kontua nola babesten duen:
+postAddRecoveryPhone-enabled-device = Hemendik gaitu duzu:
+postAddRecoveryPhone-action = Kudeatu kontua
 postAddTwoStepAuthentication-subject-2 = Bi urratseko autentifikazioa aktibatu da
 postAddTwoStepAuthentication-title-2 = Bi urratseko autentifikazioa aktibatu duzu
 # After the colon, there is a description of the device that the user used to enable two-step authentication
@@ -377,6 +383,11 @@ postChangePrimary-title = Helbide elektroniko nagusi berria
 #  $email (String) - A user's email address
 postChangePrimary-description-2 = Behar bezala aldatu duzu zure helbide elektroniko nagusia { $email } izatera. Helbide hau zure { -product-mozilla-account }-n saioa hasteko zure erabiltzaile-izena da, baita segurtasun jakinarazpenak eta saioa hasteko berrespenak jasotzeko ere.
 postChangePrimary-action = Kudeatu kontua
+postChangeRecoveryPhone-subject = Berreskuratze telefonoa eguneratu da
+postChangeRecoveryPhone-preview = Bi urratseko autentifikazioaren bidez babestuta dagoen kontua
+postChangeRecoveryPhone-title = Berreskuratzeko telefonoa aldatu duzu
+postChangeRecoveryPhone-description = Orain berreskuratzeko telefono berri bat duzu. Zure aurreko telefono-zenbakia ezabatu egin da.
+postChangeRecoveryPhone-requested-device = Honi eskatu diozu:
 postConsumeRecoveryCode-title-2 = Babeskopiarako autentifikazio-kodea erabili duzu
 # After the colon, there is description of the device that the backup authentication code was used on
 postConsumeRecoveryCode-description-2 = Data honetan erabili zen:
@@ -396,6 +407,11 @@ postRemoveAccountRecovery-title-3 = Kontua berreskuratzeko gakoa ezabatu duzu
 postRemoveAccountRecovery-body-part1 = Zure kontua berreskuratzeko gakoa beharrezkoa da zifratutako arakatze-datuak leheneratzeko pasahitza ahazten baduzu.
 postRemoveAccountRecovery-body-part2 = Oraindik ez baduzu, sortu kontua berreskuratzeko gako berri bat kontuaren ezarpenetan, gordetako pasahitzak, laster-markak, arakatze-historia eta abar ez galtzeko.
 postRemoveAccountRecovery-action = Kudeatu kontua
+postRemoveRecoveryPhone-subject = Berreskuratze telefonoa kendu da
+postRemoveRecoveryPhone-preview = Bi urratseko autentifikazioaren bidez babestuta dagoen kontua
+postRemoveRecoveryPhone-title = Berreskuratze telefonoa kendu da
+postRemoveRecoveryPhone-description = Berreskuratzeko telefonoa bi urratseko autentifikazio-ezarpenetatik kendu da. Oraindik erabilgarri dituzu zure babeskopiko autentifikazio-kodeak erabiltzeko.
+postRemoveRecoveryPhone-requested-device = Honi eskatu diozu:
 postRemoveSecondary-subject = Helbide elektronikoa alternatiboa kenduta
 postRemoveSecondary-title = Helbide elektronikoa alternatiboa kenduta
 # Variables:
@@ -408,6 +424,18 @@ postRemoveTwoStepAuthentication-title-2 = Bi urratseko autentifikazioa desaktiba
 postRemoveTwoStepAuthentication-from-device = Hemendik desgaitu duzu:
 postRemoveTwoStepAuthentication-action = Kudeatu kontua
 postRemoveTwoStepAuthentication-not-required-2 = Jada ez duzu zure autentifikazio-aplikazioko segurtasun-koderik behar saioa hasten duzunean.
+postSigninRecoveryCode-subject = Saioa hasteko autentifikazio-kodearen babeskopia erabili da
+postSigninRecoveryCode-preview = Berretsi kontuaren jarduera
+postSigninRecoveryCode-title = Zure autentifikazio-kodearen babeskopia erabili da saioa hasteko
+postSigninRecoveryCode-description = Hau egin ez baduzu, pasahitza berehala aldatu beharko zenuke kontua seguru mantentzeko.
+postSigninRecoveryCode-device = Hemendik hasi duzu saioa:
+postSigninRecoveryCode-action = Kudeatu kontua
+postSigninRecoveryPhone-subject = Saioa hasteko erabili den berreskuratzeko telefonoa
+postSigninRecoveryPhone-preview = Berretsi kontuaren jarduera
+postSigninRecoveryPhone-title = Saioa hasteko berreskuratzeko telefonoa erabili da
+postSigninRecoveryPhone-description = Hau egin ez baduzu, pasahitza berehala aldatu beharko zenuke kontua seguru mantentzeko.
+postSigninRecoveryPhone-device = Hemendik hasi duzu saioa:
+postSigninRecoveryPhone-action = Kudeatu kontua
 postVerify-sub-title-3 = Pozik gaude zu ikusteaz!
 postVerify-title-2 = Fitxa bera ikusi nahi duzu bi gailutan?
 postVerify-description-2 = Erraza da! Instalatu { -brand-firefox } beste gailu batean eta hasi saioa sinkronizatzeko. Magia bezalakoa da!
@@ -660,6 +688,7 @@ verifySecondaryCode-expiry-notice-2 = 5 minututan iraungiko da. Behin baieztatut
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = Berretsi zure kontua
+verifyShortCode-preview = Erabili sartutako kodea zure { -product-mozilla-account } berresteko.
 verifyShortCode-title-3 = Ireki internet { -brand-mozilla }z
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = Berretsi kontua eta atera etekinik handiena { -brand-mozilla }-ri saioa hasten duzun toki guztietan:

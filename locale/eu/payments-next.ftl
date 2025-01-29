@@ -9,6 +9,9 @@ next-basic-error-message = Zerbait oker joan da. Mesedez, berriro saiatu berandu
 
 ## Page
 
+checkout-create-account = Sortu { -product-mozilla-account } kontua
+continue-signin-with-google-button = { -brand-google }ekin jarraitu
+continue-signin-with-apple-button = { -brand-apple }(e)kin jarraitu
 next-payment-method-header = Hautatu zure ordaiketa metodoa
 next-payment-method-first-approve = Lehenik eta behin zure harpidetza onartu beharko duzu
 next-payment-confirmation-thanks-heading-account-exists = Eskerri asko, begiratu zure posta elektronikoa
@@ -24,6 +27,7 @@ next-payment-confirmation-amount = { $amount } { $interval }-(e)ro
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = { $last4 }-z amaitzen den txartela
 next-payment-confirmation-download-button = Jarraitu deskargara
+checkout-error-boundary-retry-button = Saiatu berriro
 
 ## Component - Payment Consent Checkbox
 
@@ -34,6 +38,10 @@ next-payment-confirm-checkbox-error = Hau osatu behar duzu aurrera egin aurretik
 
 next-new-user-submit = Harpidetu orain
 next-payment-validate-name-error = Idatzi zure izena
+next-pay-with-heading-paypal = Ordaindu { -brand-paypal } erabiliz
+# Label for the Full Name input
+payment-name-label = Izena zure txartelan agertzen den bezala
+payment-name-placeholder = Izen osoa
 
 ## Component - CouponForm
 
@@ -45,6 +53,9 @@ next-coupon-promo-code = Sustapen kodea
 next-coupon-promo-code-applied = Promozio kodea aplikatuta
 next-coupon-remove = Kendu
 next-coupon-submit = Aplikatu
+payments-client-loading-spinner =
+    .aria-label = Kargatzen…
+    .alt = Kargatzen…
 
 ## Payment Section
 
@@ -57,6 +68,13 @@ next-plan-details-show-button = Erakutsi xehetasunak
 
 ## Select Tax Location
 
+select-tax-location-title = Kokalekua
+select-tax-location-edit-button = Editatu
+select-tax-location-save-button = Gorde
+select-tax-location-country-code-label = Herrialdea
+select-tax-location-country-code-placeholder = Hautatu zure herrialdea
+select-tax-location-error-missing-country-code = Mesedez hautatu zure herrialdea
+select-tax-location-postal-code-label = Posta-kodea
 next-new-user-subscribe-product-updates-mdnplus = { -product-mdn-plus } eta { -brand-mozilla } produktuen berri eta eguneraketak jaso nahi ditut
 next-new-user-subscribe-product-updates-mozilla = { -brand-mozilla } produktuen berri eta eguneraketak jaso nahi ditut.
 next-new-user-subscribe-product-updates-snp = { -brand-mozilla } segurtasun eta pribatutasun albisteak eta eguneraketak jaso nahi ditut.
