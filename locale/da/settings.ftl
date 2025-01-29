@@ -619,6 +619,7 @@ flow-recovery-key-info-cancel-link = Annuller
 
 ## FlowSetupPhoneConfirmCode
 
+flow-setup-phone-confirm-code-success-message-v2 = Telefonnummer til gendannelse tilføjet
 
 ## FlowSetupPhoneConfirmCode
 
