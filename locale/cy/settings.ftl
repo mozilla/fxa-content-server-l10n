@@ -637,6 +637,7 @@ flow-setup-phone-confirm-code-button = Cadarnhau
 # followed by a button to resend a code
 flow-setup-phone-confirm-code-expired = Cod wedi dod i ben?
 flow-setup-phone-confirm-code-resend-code-button = Ail-anfon y cod
+flow-setup-phone-confirm-code-resend-code-success = Anfonwyd y cod
 flow-setup-phone-confirm-code-success-message-v2 = Ffôn adfer wedi'i ychwanegu
 
 ## FlowSetupPhoneConfirmCode
@@ -709,6 +710,7 @@ tfa-replace-code-success-1 =
     Mae codau newydd wedi'u creu. Cadwch y codau dilysu wrth
     gefn defnydd un-amser hyn mewn man diogel - bydd eu hangen arnoch i gael mynediad i'ch cyfrif os nad yw
     eich dyfais symudol gyda chi.
+tfa-replace-code-success-alert-4 = Codau dilysu wrth gefn wedi'u diweddaru
 tfa-replace-code-1-2 = Cam 1 o 2
 tfa-replace-code-2-2 = Cam 2 o 2
 
@@ -926,6 +928,8 @@ verify-secondary-email-success-alert-2 = Ychwanegwyd { $email } yn llwyddiannus.
 
 # Link to delete account on main Settings page
 delete-account-link = Dileu Cyfrif
+# Success message displayed in alert bar after the user has successfully confirmed their account is not inactive.
+inactive-update-status-success-alert = Wedi mewngofnodi yn llwyddiannus. Bydd eich { -product-mozilla-account } a data yn aros yn weithredol.
 
 ## Two Step Authentication
 
@@ -1198,12 +1202,21 @@ auth-error-114-generic = Rydych chi wedi ceisio gormod o weithiau. Ceisiwch eto 
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Rydych wedi ceisio gormod o weithiau. Ceisiwch eto'n hwyrach { $retryAfter }.
 auth-error-125 = Cafodd y cais ei rwystro am resymau diogelwch
+auth-error-129 = Rhif ffôn annilys
 auth-error-138-2 = Sesiwn heb ei gadarnhau
 auth-error-139 = Rhaid i'r ail e-bost fod yn wahanol i'ch cyfeiriad e-bost
 auth-error-155 = Heb ganfod tocyn TOTP
+# Error shown when the user submits an invalid backup authentication code
+auth-error-156 = Heb ganfod cod dilysu wrth gefn
 auth-error-159 = Allwedd adfer cyfrif annilys
 auth-error-183-2 = Cod cadarnhau annilys neu wedi dod i ben
+auth-error-202 = Nid yw'r nodwedd wedi ei alluogi
+auth-error-203 = Nid yw'r system ar gael, ceisiwch eto cyn bo hir.
 auth-error-206 = Methu creu cyfrinair, cyfrinair wedi'i osod yn barod
+auth-error-214 = Mae rhif ffôn adfer eisoes yn bodoli
+auth-error-215 = Nid yw'r rhif ffôn adfer yn bodoli
+auth-error-216 = Wedi cyrraedd terfyn neges destun
+auth-error-218 = Methu tynnu ffôn adfer, codau dilysu wrth gefn ar goll.
 auth-error-999 = Gwall anhysbys
 auth-error-1001 = Diddymwyd yr ymgais i fewngofnodi
 auth-error-1002 = Daeth y sesiwn i ben. Mewngofnodwch i barhau.
@@ -1214,6 +1227,7 @@ auth-error-1011 = Mae angen e-bost dilys
 auth-error-1031 = Mae'n rhaid i chi roi eich oed er mwyn cofrestru
 auth-error-1032 = Rhaid rhoi oed dilys er mwyn cofrestru
 auth-error-1054 = Cod dilysu dau gam annilys
+auth-error-1056 = Cod dilysu wrth gefn annilys
 auth-error-1062 = Ailgyfeirio annilys
 oauth-error-1000 = Aeth rhywbeth o'i le. Caewch y tab hwn a cheisio eto.
 
@@ -1644,8 +1658,12 @@ signin-recovery-method-header = Mewngofnodi
 signin-recovery-method-subheader = Dewiswch ddull adfer
 signin-recovery-method-details = Gadewch i ni sicrhau mai chi sy'n defnyddio'ch dulliau adfer.
 signin-recovery-method-phone = Ffôn adfer
+signin-recovery-method-code-v2 = Codau dilysu wrth gefn
 # Variable: $numberOfCodes (String) - The number of authentication codes the user has left, e.g. 4
 signin-recovery-method-code-info = { $numberOfCodes } cod yn weddill
+# Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
+signin-recovery-method-send-code-error-heading = Bu problem wrth anfon cod i'ch ffôn adfer
+signin-recovery-method-send-code-error-description = Ceisiwch eto yn nes ymlaen neu defnyddiwch eich codau dilysu wrth gefn.
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
@@ -1654,16 +1672,41 @@ signin-recovery-method-code-info = { $numberOfCodes } cod yn weddill
 
 signin-recovery-code-heading = Mewngofnodi
 signin-recovery-code-sub-heading = Rhowch god dilysu wrth gefn
+# codes here refers to backup authentication codes
+signin-recovery-code-instruction-v3 = Rhowch un o'r codau un-tro y gwnaethoch chi eu cadw pan wnaethoch chi sefydlu dilysiad dau gam.
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Cadarnhau
+# Link to go to the page to use recovery phone instead
+signin-recovery-code-phone-link = Defnyddiwch ffôn adfer
 # External link for support if the user can't use two-step autentication or a backup authentication code
 # https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 signin-recovery-code-support-link = Ydych chi wedi'ch cloi allan?
 # Error displayed in a tooltip when form is submitted witout a code
 signin-recovery-code-required-error = Mae angen cod dilysu wrth gefn
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-recovery-code-use-phone-failure = Bu problem wrth anfon cod i'ch ffôn adfer
+signin-recovery-code-use-phone-failure-description = Ceisiwch eto'n ddiweddarach.
 
 ## SigninRecoveryPhone page
 
+signin-recovery-phone-flow-heading = Mewngofnodi
+# A recovery code in context of this page is a one time code sent to the user's phone
+signin-recovery-phone-heading = Rhowch y cod adfer
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+signin-recovery-phone-instruction = Anfonwyd cod chwe digid at <span>{ $maskedPhoneNumber }</span> trwy neges destun. Daw'r cod hwn i ben ar ôl 5 munud.
+signin-recovery-phone-input-label = Rhowch y cod 6 digid
+signin-recovery-phone-code-submit-button = Cadarnhau
+signin-recovery-phone-resend-code-button = Ail-anfon y cod
+signin-recovery-phone-resend-success = Anfonwyd y cod
+# links to https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+signin-recovery-phone-locked-out-link = Ydych chi wedi'ch cloi allan?
+signin-recovery-phone-send-code-error-heading = Bu problem wrth anfon cod
+signin-recovery-phone-code-verification-error-heading = Bu problem wrth wirio'ch cod
+# Follows the error message (e.g, "There was a problem sending a code")
+signin-recovery-phone-general-error-description = Ceisiwch eto'n ddiweddarach.
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 

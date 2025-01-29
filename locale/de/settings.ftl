@@ -637,6 +637,7 @@ flow-setup-phone-confirm-code-button = Bestätigen
 # followed by a button to resend a code
 flow-setup-phone-confirm-code-expired = Code abgelaufen?
 flow-setup-phone-confirm-code-resend-code-button = Code erneut senden
+flow-setup-phone-confirm-code-resend-code-success = Code gesendet
 flow-setup-phone-confirm-code-success-message-v2 = Telefonnummer zur Kontowiederherstellung hinzugefügt
 
 ## FlowSetupPhoneConfirmCode
@@ -709,6 +710,7 @@ tfa-replace-code-success-1 =
     Neue Codes wurden erstellt. Speichern Sie diese Sicherungs-Authentifizierungscodes
     zur einmaligen Verwendung an einem sicheren Ort – Sie brauchen sie, um auf Ihr
     Konto zuzugreifen, wenn Sie Ihr Mobilgerät nicht zur Verfügung haben.
+tfa-replace-code-success-alert-4 = Sicherungs-Authentifizierungscodes aktualisiert
 tfa-replace-code-1-2 = Schritt 1 von 2
 tfa-replace-code-2-2 = Schritt 2 von 2
 
@@ -926,6 +928,8 @@ verify-secondary-email-success-alert-2 = { $email } erfolgreich hinzugefügt.
 
 # Link to delete account on main Settings page
 delete-account-link = Konto löschen
+# Success message displayed in alert bar after the user has successfully confirmed their account is not inactive.
+inactive-update-status-success-alert = Erfolgreich angemeldet. Ihr { -product-mozilla-account } und Ihre Daten bleiben aktiv.
 
 ## Two Step Authentication
 
@@ -1198,12 +1202,21 @@ auth-error-114-generic = Sie haben es zu oft versucht. Bitte versuchen Sie es sp
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Sie haben es zu häufig versucht. Versuchen Sie es { $retryAfter } erneut.
 auth-error-125 = Die Anfrage wurde aus Sicherheitsgründen blockiert.
+auth-error-129 = Ungültige Telefonnummer
 auth-error-138-2 = Unbestätigte Sitzung
 auth-error-139 = Die Zweit-E-Mail-Adresse muss sich von der Adresse Ihres Kontos unterscheiden.
 auth-error-155 = TOTP-Token nicht gefunden
+# Error shown when the user submits an invalid backup authentication code
+auth-error-156 = Sicherungs-Authentifizierungscode nicht gefunden
 auth-error-159 = Ungültiger Kontowiederherstellungsschlüssel
 auth-error-183-2 = Ungültiger oder abgelaufener Bestätigungscode
+auth-error-202 = Funktion nicht aktiviert
+auth-error-203 = System nicht verfügbar, versuchen Sie es in Kürze erneut
 auth-error-206 = Passwort kann nicht erstellt werden, Passwort ist bereits gesetzt
+auth-error-214 = Die Telefonnummer zur Wiederherstellung existiert bereits
+auth-error-215 = Die Telefonnummer zur Wiederherstellung existiert nicht
+auth-error-216 = Obergrenze für Textnachrichten erreicht
+auth-error-218 = Die Telefonnummer für die Wiederherstellung konnte nicht entfernt werden, da Sicherungs-Authentifizierungscodes fehlen.
 auth-error-999 = Unerwarteter Fehler
 auth-error-1001 = Anmeldeversuch abgebrochen
 auth-error-1002 = Sitzung abgelaufen. Melden Sie sich an, um fortzufahren.
@@ -1214,6 +1227,7 @@ auth-error-1011 = Gültige E-Mail-Adresse erforderlich
 auth-error-1031 = Zur Registrierung müssen Sie Ihr Alter eingeben.
 auth-error-1032 = Zur Registrierung müssen Sie ein zulässiges Alter eingeben
 auth-error-1054 = Ungültiger Code für Zwei-Schritt-Authentifizierung
+auth-error-1056 = Ungültiger Sicherungs-Authentifizierungscode
 auth-error-1062 = Ungültige Weiterleitung
 oauth-error-1000 = Etwas ist schiefgegangen. Bitte schließen Sie diesen Tab und versuchen Sie es erneut.
 
@@ -1644,8 +1658,12 @@ signin-recovery-method-header = Anmelden
 signin-recovery-method-subheader = Wählen Sie eine Kontowiederherstellungsmethode
 signin-recovery-method-details = Wir prüfen, ob Sie selbst Ihre Kontowiederherstellungsmethode nutzen.
 signin-recovery-method-phone = Telefonnummer zur Kontowiederherstellung
+signin-recovery-method-code-v2 = Sicherungs-Authentifizierungscodes
 # Variable: $numberOfCodes (String) - The number of authentication codes the user has left, e.g. 4
 signin-recovery-method-code-info = { $numberOfCodes } Codes übrig
+# Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
+signin-recovery-method-send-code-error-heading = Beim Senden eines Codes an Ihre Telefonnummer zur Wiederherstellung ist ein Fehler aufgetreten
+signin-recovery-method-send-code-error-description = Bitte versuchen Sie es später erneut oder verwenden Sie Ihre Sicherungs-Authentifizierungscodes.
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
@@ -1654,16 +1672,41 @@ signin-recovery-method-code-info = { $numberOfCodes } Codes übrig
 
 signin-recovery-code-heading = Anmelden
 signin-recovery-code-sub-heading = Sicherungs-Authentifizierungscode eingeben
+# codes here refers to backup authentication codes
+signin-recovery-code-instruction-v3 = Geben Sie einen der Einmalcodes ein, die Sie beim Einrichten der Zwei-Schritt-Authentifizierung gespeichert haben.
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Bestätigen
+# Link to go to the page to use recovery phone instead
+signin-recovery-code-phone-link = Telefonnummer zur Wiederherstellung verwenden
 # External link for support if the user can't use two-step autentication or a backup authentication code
 # https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 signin-recovery-code-support-link = Haben Sie sich ausgesperrt?
 # Error displayed in a tooltip when form is submitted witout a code
 signin-recovery-code-required-error = Sicherungs-Authentifizierungscode erforderlich
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-recovery-code-use-phone-failure = Beim Senden eines Codes an Ihre Telefonnummer zur Wiederherstellung ist ein Fehler aufgetreten
+signin-recovery-code-use-phone-failure-description = Bitte versuchen Sie es später erneut.
 
 ## SigninRecoveryPhone page
 
+signin-recovery-phone-flow-heading = Anmelden
+# A recovery code in context of this page is a one time code sent to the user's phone
+signin-recovery-phone-heading = Wiederherstellungscode eingeben
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+signin-recovery-phone-instruction = Ein sechsstelliger Code wurde per SMS an <span>{ $maskedPhoneNumber }</span> gesendet. Dieser Code läuft nach 5 Minuten ab.
+signin-recovery-phone-input-label = 6-stelligen Code eingeben
+signin-recovery-phone-code-submit-button = Bestätigen
+signin-recovery-phone-resend-code-button = Code erneut senden
+signin-recovery-phone-resend-success = Code gesendet
+# links to https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+signin-recovery-phone-locked-out-link = Haben Sie sich ausgesperrt?
+signin-recovery-phone-send-code-error-heading = Beim Senden eines Codes ist ein Fehler aufgetreten
+signin-recovery-phone-code-verification-error-heading = Beim Bestätigen Ihres Codes ist ein Fehler aufgetreten
+# Follows the error message (e.g, "There was a problem sending a code")
+signin-recovery-phone-general-error-description = Bitte versuchen Sie es später erneut.
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 

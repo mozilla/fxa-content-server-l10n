@@ -643,6 +643,7 @@ flow-setup-phone-confirm-code-button = Megerősítés
 # followed by a button to resend a code
 flow-setup-phone-confirm-code-expired = A kód lejárt?
 flow-setup-phone-confirm-code-resend-code-button = Kód újraküldése
+flow-setup-phone-confirm-code-resend-code-success = Kód elküldve
 flow-setup-phone-confirm-code-success-message-v2 = Helyreállítási telefonszám hozzáadva
 
 ## FlowSetupPhoneConfirmCode
@@ -715,6 +716,7 @@ tfa-replace-code-success-1 =
     Új kódot lettek létrehozva. Mentse ezeket az egyszer használatos
     tartalék hitelesítési kódokat egy biztonságos helyre – szüksége lesz rájuk, ha a mobileszköze
     nélkül kell hozzáférnie a fiókjához.
+tfa-replace-code-success-alert-4 = A tartalék hitelesítési kódok frissítve
 tfa-replace-code-1-2 = 1. / 2. lépés
 tfa-replace-code-2-2 = 2. / 2. lépés
 
@@ -932,6 +934,8 @@ verify-secondary-email-success-alert-2 = A(z) { $email } sikeresen hozzáadva
 
 # Link to delete account on main Settings page
 delete-account-link = Fiók törlése
+# Success message displayed in alert bar after the user has successfully confirmed their account is not inactive.
+inactive-update-status-success-alert = Sikeresen bejelentkezett. A { -product-mozilla-account }ja és adatai aktívak maradnak.
 
 ## Two Step Authentication
 
@@ -1206,12 +1210,21 @@ auth-error-114-generic = Túl sokszor próbálkozott. Próbálja újra később.
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Túl sokszor próbálkozott. Próbálja újra { $retryAfter }.
 auth-error-125 = A kérés biztonsági okokból blokkolva lett
+auth-error-129 = Érvénytelen telefonszám
 auth-error-138-2 = Meg nem erősített munkamenet
 auth-error-139 = A másodlagos e-mail-címnek különböznie kell a fiók e-mail-címétől
 auth-error-155 = A TOTP token nem található
+# Error shown when the user submits an invalid backup authentication code
+auth-error-156 = Nem található tartalék hitelesítési kód
 auth-error-159 = Érvénytelen fiók-helyreállítási kulcs
 auth-error-183-2 = Érvénytelen vagy lejárt megerősítő kód
+auth-error-202 = A funkció nem engedélyezett
+auth-error-203 = A rendszer nem érhető el, próbálja újra később
 auth-error-206 = Nem hozható létre jelszó, mert már be van állítva egy
+auth-error-214 = A helyreállítási telefonszám már létezik
+auth-error-215 = A helyreállítási telefonszám nem létezik
+auth-error-216 = A szöveges üzenetek korlátja elérve
+auth-error-218 = Nem távolítható el a helyreállítási telefonszám, hiányoznak a tartalék hitelesítési kódok.
 auth-error-999 = Nem várt hiba
 auth-error-1001 = Bejelentkezési kísérlet megszakítva
 auth-error-1002 = A munkamenet lejárt. Jelentkezzen be a folytatáshoz.
@@ -1222,6 +1235,7 @@ auth-error-1011 = Érvényes e-mail-cím szükséges
 auth-error-1031 = A regisztrációhoz meg kell adnia az életkorát
 auth-error-1032 = A regisztrációhoz érvényes életkort kell megadnia
 auth-error-1054 = Érvénytelen kétlépcsős hitelesítési kód
+auth-error-1056 = Érvénytelen tartalék hitelesítési kód
 auth-error-1062 = Érvénytelen átirányítás
 oauth-error-1000 = Hiba történt. Zárja be ezt a lapot, és próbálja újra.
 
@@ -1655,8 +1669,12 @@ signin-recovery-method-header = Bejelentkezés
 signin-recovery-method-subheader = Válasszon helyreállítási módot
 signin-recovery-method-details = A helyreállítási módok segítségével meggyőződünk arról, hogy Ön az.
 signin-recovery-method-phone = Helyreállítási telefonszám
+signin-recovery-method-code-v2 = Tartalék hitelesítési kódok
 # Variable: $numberOfCodes (String) - The number of authentication codes the user has left, e.g. 4
 signin-recovery-method-code-info = { $numberOfCodes } kód maradt
+# Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
+signin-recovery-method-send-code-error-heading = Hiba történt a kód helyreállítási telefonra küldésekor
+signin-recovery-method-send-code-error-description = Próbálja meg később, vagy használja a tartalék hitelesítési kódjait.
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
@@ -1665,16 +1683,41 @@ signin-recovery-method-code-info = { $numberOfCodes } kód maradt
 
 signin-recovery-code-heading = Bejelentkezés
 signin-recovery-code-sub-heading = Adjon meg egy tartalék hitelesítési kódot
+# codes here refers to backup authentication codes
+signin-recovery-code-instruction-v3 = Adja meg a kétlépcsős hitelesítés beállításakor mentett egyszer használatos kódok egyikét.
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Megerősítés
+# Link to go to the page to use recovery phone instead
+signin-recovery-code-phone-link = Helyreállítási telefonszám használata
 # External link for support if the user can't use two-step autentication or a backup authentication code
 # https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 signin-recovery-code-support-link = Kizárta magát?
 # Error displayed in a tooltip when form is submitted witout a code
 signin-recovery-code-required-error = Tartalék hitelesítési kód szükséges
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-recovery-code-use-phone-failure = Hiba történt a kód helyreállítási telefonra küldésekor
+signin-recovery-code-use-phone-failure-description = Próbálja meg újra később.
 
 ## SigninRecoveryPhone page
 
+signin-recovery-phone-flow-heading = Bejelentkezés
+# A recovery code in context of this page is a one time code sent to the user's phone
+signin-recovery-phone-heading = Adja meg a helyreállítási kódot
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+signin-recovery-phone-instruction = SMS-ben egy hatjegyű kód lett küldve <span>{ $maskedPhoneNumber }</span> telefonszámra. Ez a kód 5 perc után lejár.
+signin-recovery-phone-input-label = Adja meg a 6 számjegyű kódot
+signin-recovery-phone-code-submit-button = Megerősítés
+signin-recovery-phone-resend-code-button = Kód újraküldése
+signin-recovery-phone-resend-success = Kód elküldve
+# links to https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+signin-recovery-phone-locked-out-link = Kizárta magát?
+signin-recovery-phone-send-code-error-heading = Hiba történt a kód küldésekor
+signin-recovery-phone-code-verification-error-heading = Hiba történt a kód ellenőrzésekor
+# Follows the error message (e.g, "There was a problem sending a code")
+signin-recovery-phone-general-error-description = Próbálja meg újra később.
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
