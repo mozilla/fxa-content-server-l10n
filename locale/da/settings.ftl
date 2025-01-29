@@ -327,6 +327,11 @@ input-password-sr-only-now-hidden = Din adgangskode er nu skjult.
 
 ## Phone number component
 
+# This is an aria-label available to screen readers for a selection list that includes country flags, country name and country code
+input-phone-number-country-list-aria-label = Vælg land
+input-phone-number-enter-number = Indtast telefonnummer
+input-phone-number-country-united-states = USA
+input-phone-number-country-canada = Canada
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Tilbage
 
@@ -566,6 +571,9 @@ dc-learn-more = Læs mere
 # DropDownAvatarMenu component
 
 drop-down-menu-title-2 = { -product-mozilla-account }-menu
+# This is displayed in the Settings menu after user's click on their profile icon.
+# Following this string on a new line will be their display name (user's name or email)
+drop-down-menu-signed-in-as-v2 = Logget ind som
 drop-down-menu-sign-out = Log ud
 drop-down-menu-sign-out-error-2 = Der opstod desværre et problem med at logge dig ud
 
@@ -619,15 +627,33 @@ flow-recovery-key-info-cancel-link = Annuller
 
 ## FlowSetupPhoneConfirmCode
 
+# verification code refers to a code sent by text message to confirm phone number ownership
+# and complete setup
+flow-setup-phone-confirm-code-heading = Indtast bekræftelseskode
+# $phoneNumber is a partially obfuscated phone number with only the last 4 digits showing (e.g., *** *** 1234)
+# span element applies formatting to ensure the number is always displayed left-to-right
+flow-setup-phone-confirm-code-instruction = En sekscifret kode blev sendt til <span>{ $phoneNumber }</span> i en SMS-besked. Denne kode udløber efter 5 minutter.
+flow-setup-phone-confirm-code-input-label = Indtast 6-cifret kode
+flow-setup-phone-confirm-code-button = Bekræft
+# button to resend a code by text message to the user's phone
+# followed by a button to resend a code
+flow-setup-phone-confirm-code-expired = Er koden udløbet?
+flow-setup-phone-confirm-code-resend-code-button = Send kode igen
 flow-setup-phone-confirm-code-success-message-v2 = Telefonnummer til gendannelse tilføjet
 
 ## FlowSetupPhoneConfirmCode
 
+flow-setup-phone-submit-number-heading = Bekræft dit telefonnummer
+# The code is a 6-digit code send by text message/SMS
+flow-setup-phone-verify-number-instruction = Du vil modtage en SMS-besked fra { -brand-mozilla } med en kode til at bekræfte dit nummer. Del ikke denne koden med nogen.
 # The initial rollout of the recovery phone is only available to users with US and Canada mobile phone numbers.
 # Voice over Internet Protocol (VoIP), is a technology that uses a broadband Internet connection instead of a regular (or analog) phone line to make calls.
 # Phone mask services (for example Relay) provide a temporary virtual number to avoid providing a real phone number.
 # Both VoIP and phone masks can be unreliable for one-time-passcode (OTP) verification
 flow-setup-phone-submit-number-info-message-v2 = Telefonnumre til gendannelse er kun tilgængelige i USA og Canada. VoIP-numre og telefon-masker anbefales ikke.
+flow-setup-phone-submit-number-legal = Ved at oplyse dit nummer accepterer du, at vi gemmer det. Vi bruger det kun til at sende SMS-beskeder til dig til kontobekræftelse. Der kan forekomme takster for SMS-beskeder og data.
+# cliking on the button sends a code by text message to the phone number typed in by the user
+flow-setup-phone-submit-number-button = Send kode
 
 ## HeaderLockup component, the header in account settings
 
@@ -853,12 +879,16 @@ recovery-phone-remove-header = Fjern telefonnummer til gendannelse
 # Variables:
 #   $formattedFullPhoneNumber (String) - the user's full phone number
 settings-recovery-phone-remove-info = Dette vil fjerne <strong>{ $formattedFullPhoneNumber }</strong> som telefonnummer til gendannelse.
+settings-recovery-phone-remove-recommend = Vi anbefaler, at du beholder denne metode, da det er lettere end at gemme reserve-godkendelseskoder.
 # "Saved backup authentication codes" refers to previously saved backup authentication codes
 settings-recovery-phone-remove-recovery-methods = Hvis du sletter det, så sørg for, at du stadig har gemte reserve-godkendelseskoder. <linkExternal>Sammenlign gendannelsesmetoder</linkExternal>
+settings-recovery-phone-remove-button = Fjern telefonnummer
+settings-recovery-phone-remove-cancel = Annuller
 settings-recovery-phone-remove-success = Telefonnummer til gendannelse fjernet
 
 ## PageSetupRecoveryPhone
 
+page-setup-recovery-phone-heading = Tilføj telefonnummer til gendannelse
 
 ## Add secondary email page
 
@@ -912,6 +942,7 @@ tfa-incorrect-totp = Forkert kode til totrinsgodkendelse
 tfa-cannot-retrieve-code = Der opstod et problem med at hente din kode.
 tfa-cannot-verify-code-4 = Der opstod et problem med at bekræfte din reserve-godkendelseskode
 tfa-incorrect-recovery-code-1 = Forkert reserve-godkendelseskode
+tfa-enabled-v2 = Totrinsgodkendelse er blevet aktiveret
 tfa-scan-this-code =
     Skan denne QR-kode ved hjælp af en af <linkExternal>disse
     godkendelsesapps</linkExternal>.
@@ -1121,6 +1152,10 @@ tfa-row-cannot-refresh =
     Der opstod desværre et problem med at opdatere
     totrinsgodkendelse.
 tfa-row-enabled-description = Din konto er beskyttet af totrinsgodkendelse. Du skal indtaste en engangskode fra din godkendelsesapp, når du logger ind på din { -product-mozilla-account }.
+# "this" refers to two-step authentication
+# Link goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+tfa-row-enabled-info-link = Sådan beskytter det din konto
+tfa-row-disabled-description-v2 = Beskyt din konto ved at bruge en tredjeparts godkendelsesapp som et andet trin til at logge ind.
 tfa-row-cannot-verify-session-4 = Der opstod desværre et problem med at bekræfte din session
 tfa-row-disable-modal-heading = Deaktiver totrinsgodkendelse?
 tfa-row-disable-modal-confirm = Deaktiver
@@ -1290,6 +1325,7 @@ inline-recovery-confirmation-header-default = Bekræft reserve-godkendelseskode 
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = Bekræft reserve-godkendelseskode <span>for at fortsætte til { $serviceName }</span>
+inline-recovery-2fa-enabled-v2 = Totrinsgodkendelse er blevet aktiveret
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1638,12 +1674,24 @@ signin-recovery-code-desktop-relay = { -brand-firefox } vil forsøge at sende di
 ## This page is shown to users when they are having trouble signing in with
 ## their password, and they previously had set up an account recovery method.
 
+signin-recovery-method-header = Log ind
 signin-recovery-method-subheader = Vælg en gendannelsesmetode
 signin-recovery-method-details = Lad os sikre os, at det er dig, der bruger dine gendannelsesmetoder.
 signin-recovery-method-phone = Telefonnummer til gendannelse
+signin-recovery-method-code = Godkendelseskoder
+# Variable: $numberOfCodes (String) - The number of authentication codes the user has left, e.g. 4
+signin-recovery-method-code-info = { $numberOfCodes } koder tilbage
 
 ## SigninRecoveryPhoneCodeConfirm page
 
+recovery-phone-code-confirm-flow-heading = Log ind
+# A recovery code in context of this page is a one time code sent to the user's phone
+recovery-phone-code-confirm-with-code-heading = Indtast genoprettelseskode
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+recovery-phone-code-confirm-code-instruction = En sekscifret kode blev sendt til <span>{ $maskedPhoneNumber }</span> i en SMS-besked. Denne kode udløber efter 5 minutter.
+recovery-phone-code-confirm-input-group-label = Indtast 6-cifret kode
+recovery-phone-code-confirm-otp-submit-button = Bekræft
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 

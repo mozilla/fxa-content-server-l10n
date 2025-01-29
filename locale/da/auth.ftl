@@ -272,6 +272,8 @@ inactiveAccountFirstWarning-preview = Log ind for at beholde din konto
 # followed by link to sign in
 inactiveAccountFirstWarning-action-plaintext = Log ind for at beholde din konto:
 inactiveAccountSecondWarning-subject = Handling påkrævet: Sletning af konto om 7 dage
+inactiveAccountSecondWarning-title = Din { -brand-mozilla }-konto og tilknyttede data vil blive slettet om 7 dage
+inactiveAccountSecondWarning-account-description-v2 = Din { -product-mozilla-account } bruges til at få adgang til gratis privatlivs- og browsing-produkter som fx synkronisering af { -brand-firefox }, { -product-mozilla-monitor }, { -product-firefox-relay } og { -product-mdn }.
 # $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
 inactiveAccountSecondWarning-impact = Din konto og dine personlige data vil blive permanent slettet den <strong>{ $deletionDate }</strong>, fordi du ikke har været aktiv.
 inactiveAccountSecondWarning-action = Log ind for at beholde din konto
@@ -359,6 +361,8 @@ postAddRecoveryPhone-title = Du har oprettet et telefonnummer til gendannelse af
 # Variables:
 #  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
 postAddRecoveryPhone-description = Du har tilføjet { $maskedLastFourPhoneNumber } som dit telefonnummer til gendannelse
+# Links out to a support article about two factor authentication
+postAddRecoveryPhone-how-protect = Sådan beskytter det din konto
 postAddRecoveryPhone-how-protect-plaintext = Sådan beskytter det din konto:
 postAddRecoveryPhone-enabled-device = Du har aktiveret det fra:
 postAddRecoveryPhone-action = Håndter konto

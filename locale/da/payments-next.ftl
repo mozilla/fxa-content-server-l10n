@@ -9,7 +9,10 @@ next-basic-error-message = Noget gik galt. Prøv igen senere.
 
 ## Page
 
+checkout-signin-or-create = 1. Log ind eller opret en { -product-mozilla-account }
 checkout-create-account = Opret en { -product-mozilla-account }
+continue-signin-with-google-button = Fortsæt med { -brand-google }
+continue-signin-with-apple-button = Fortsæt med { -brand-apple }
 next-payment-method-header = Vælg din betalingsmetode
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step-next = 2. { next-payment-method-header }
@@ -77,6 +80,8 @@ select-tax-location-save-button = Gem
 select-tax-location-country-code-label = Land
 select-tax-location-country-code-placeholder = Vælg dit land
 select-tax-location-error-missing-country-code = Vælg dit land
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN
+select-tax-location-product-not-available = { $productName } er ikke tilgængelig i dette område.
 select-tax-location-postal-code-label = Postnummer
 select-tax-location-postal-code =
     .placeholder = Indtast dit postnummer
