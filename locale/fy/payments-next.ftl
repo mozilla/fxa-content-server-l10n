@@ -80,6 +80,8 @@ select-tax-location-save-button = Bewarje
 select-tax-location-country-code-label = Lân
 select-tax-location-country-code-placeholder = Selektearje jo lân
 select-tax-location-error-missing-country-code = Selektearje jo lân
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN
+select-tax-location-product-not-available = { $productName } is net beskikber op dizze lokaasje.
 select-tax-location-postal-code-label = Postkoade
 select-tax-location-postal-code =
     .placeholder = Fier jo postkoade yn

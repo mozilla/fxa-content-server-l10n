@@ -885,6 +885,7 @@ settings-recovery-phone-remove-recommend = Vi rekommenderar att du behåller den
 settings-recovery-phone-remove-recovery-methods = Om du tar bort den, se till att du fortfarande har kvar dina sparade reservautentiseringskoder. <linkExternal>Jämför återställningsmetoder</linkExternal>
 settings-recovery-phone-remove-button = Ta bort telefonnummer
 settings-recovery-phone-remove-cancel = Avbryt
+settings-recovery-phone-remove-success = Återställningstelefon borttagen
 
 ## PageSetupRecoveryPhone
 
