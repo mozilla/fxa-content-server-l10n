@@ -879,6 +879,9 @@ recovery-phone-remove-header = Remover numero de telephono de recuperation?
 # Variables:
 #   $formattedFullPhoneNumber (String) - the user's full phone number
 settings-recovery-phone-remove-info = Isto removera <strong>{ $formattedFullPhoneNumber }</strong> como numero de telephono pro le recuperation del conto.
+settings-recovery-phone-remove-recommend = Nos te consilia de mantener iste methodo perque illo es plus facile a usar que salvar codices de authentication de reserva.
+# "Saved backup authentication codes" refers to previously saved backup authentication codes
+settings-recovery-phone-remove-recovery-methods = Si tu lo dele, verifica que tu ancora ha tu codices de authentication de reserva salvate. <linkExternal>Comparar le methodos de recuperation</linkExternal>
 settings-recovery-phone-remove-button = Remover numero de telephono
 settings-recovery-phone-remove-cancel = Cancellar
 settings-recovery-phone-remove-success = Numero de telephono de recuperation removite
