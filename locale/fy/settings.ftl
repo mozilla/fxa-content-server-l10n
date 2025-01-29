@@ -889,6 +889,7 @@ settings-recovery-phone-remove-recommend = Wy riede jo oan dat jo dizze metoade 
 settings-recovery-phone-remove-recovery-methods = As jo de add-on fuortsmite, soargje der dan foar dat o jo bewarre reserve-autentikaasjekoaden noch hawwe. <linkExternal>Werstelmetoaden fergelykje</linkExternal>
 settings-recovery-phone-remove-button = Telefoannûmer fuortsmite
 settings-recovery-phone-remove-cancel = Annulearje
+settings-recovery-phone-remove-success = Wersteltelefoannûmer fuortsmiten
 
 ## PageSetupRecoveryPhone
 

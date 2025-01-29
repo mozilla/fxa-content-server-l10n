@@ -80,6 +80,8 @@ select-tax-location-save-button = Spara
 select-tax-location-country-code-label = Land
 select-tax-location-country-code-placeholder = Välj ditt land
 select-tax-location-error-missing-country-code = Välj ditt land
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN
+select-tax-location-product-not-available = { $productName } är inte tillgänglig på den här platsen.
 select-tax-location-postal-code-label = Postnummer
 select-tax-location-postal-code =
     .placeholder = Ange ditt postnummer
