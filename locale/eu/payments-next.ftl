@@ -9,12 +9,17 @@ next-basic-error-message = Zerbait oker joan da. Mesedez, berriro saiatu berandu
 
 ## Page
 
+checkout-signin-or-create = 1. saioa hasi { -product-mozilla-account } kontuan
 checkout-create-account = Sortu { -product-mozilla-account } kontua
 continue-signin-with-google-button = { -brand-google }ekin jarraitu
 continue-signin-with-apple-button = { -brand-apple }(e)kin jarraitu
 next-payment-method-header = Hautatu zure ordaiketa metodoa
+# This message is used to indicate the second step in a multi step process.
+payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = Lehenik eta behin zure harpidetza onartu beharko duzu
 next-payment-confirmation-thanks-heading-account-exists = Eskerri asko, begiratu zure posta elektronikoa
+# $email (String) - The user's email.
+payment-confirmation-thanks-subheading-account-exists-2 = Mezu elektroniko bat jasoko duzu { $email } helbidean zure harpidetzari buruzko argibideekin, baita zure ordainketa xehetasunekin ere.
 next-payment-confirmation-order-heading = Eskaeraren xehetasunak
 # $invoiceNumber (String) - Invoice number of the successful payment
 next-payment-confirmation-invoice-number = Faktura #{ $invoiceNumber }
@@ -28,6 +33,7 @@ next-payment-confirmation-amount = { $amount } { $interval }-(e)ro
 next-payment-confirmation-cc-card-ending-in = { $last4 }-z amaitzen den txartela
 next-payment-confirmation-download-button = Jarraitu deskargara
 checkout-error-boundary-retry-button = Saiatu berriro
+checkout-error-boundary-basic-error-message = Zerbait gaizki joan da. Mesedez, saiatu berriro edo <contactSupportLink>jarri laguntzarekin harremanetan.</contactSupportLink>
 
 ## Component - Payment Consent Checkbox
 
@@ -74,7 +80,19 @@ select-tax-location-save-button = Gorde
 select-tax-location-country-code-label = Herrialdea
 select-tax-location-country-code-placeholder = Hautatu zure herrialdea
 select-tax-location-error-missing-country-code = Mesedez hautatu zure herrialdea
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN
+select-tax-location-product-not-available = { $productName } ez dago eskuragarri kokapen honetan.
 select-tax-location-postal-code-label = Posta-kodea
+select-tax-location-postal-code =
+    .placeholder = Sartu zure posta-kodea
+select-tax-location-error-missing-postal-code = Mesedez sartu zure posta-kodea
+select-tax-location-error-invalid-postal-code = Idatzi baliozko posta-kodea
+select-tax-location-successfully-updated = Zure kokapena eguneratu da.
+select-tax-location-error-location-not-updated = Ezin izan da zure kokapena eguneratu. Mesedez, saiatu berriro.
+signin-form-continue-button = Jarraitu
+signin-form-email-input = Idatzi zure helbide elektronikoa
+signin-form-email-input-missing = Idatzi zure helbide elektronikoa mesedez
+signin-form-email-input-invalid = Mesedez, eman baliozko posta elektroniko bat
 next-new-user-subscribe-product-updates-mdnplus = { -product-mdn-plus } eta { -brand-mozilla } produktuen berri eta eguneraketak jaso nahi ditut
 next-new-user-subscribe-product-updates-mozilla = { -brand-mozilla } produktuen berri eta eguneraketak jaso nahi ditut.
 next-new-user-subscribe-product-updates-snp = { -brand-mozilla } segurtasun eta pribatutasun albisteak eta eguneraketak jaso nahi ditut.
@@ -90,6 +108,8 @@ next-plan-details-total-label = Guztira
 ## Purchase details - shared by multiple components, including purchase details and payment form
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+list-positive-amount = { $amount }
+list-negative-amount = - { $amount }
 next-coupon-success = Zure plana automatikoki berrituko da zerrendako prezioan.
 # $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
 next-coupon-success-repeating = Zure plana automatikoki berrituko da { $couponDurationDate } ondoren zerrendako prezioan.
@@ -100,6 +120,11 @@ next-coupon-success-repeating = Zure plana automatikoki berrituko da { $couponDu
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+plan-price-interval-daily = { $amount } egunero
+plan-price-interval-weekly = { $amount } astero
+plan-price-interval-monthly = { $amount } hilero
+plan-price-interval-6monthly = { $amount } sei hilero
+plan-price-interval-yearly = { $amount } urtero
 
 ## Component - SubscriptionTitle
 

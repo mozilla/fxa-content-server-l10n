@@ -36,6 +36,8 @@ brand-m-logo =
 ## ButtonBack component
 ## Allows users to click a back arrow to navigate to the previous page
 
+button-back-aria-label = Atzera
+button-back-title = Atzera
 
 ## ButtonDownloadRecoveryKeyPDF
 ## Clicking on this button downloads a PDF file that contains the user's account recovery key
@@ -228,6 +230,32 @@ backup-codes-icon-aria-label-v2 =
     .aria-label = Autentifikazio-kodearen babes-kopia gaitua
 backup-codes-disabled-icon-aria-label-v2 =
     .aria-label = Autentifikazio-kodearen babes-kopia desgaitua
+# Used to select Canada as country code for phone number
+canadian-flag-icon-aria-label =
+    .aria-label = Kanadako bandera
+# Used to  indicate a general checkmark, as in something checked off in a list!
+checkmark-icon-aria-label =
+    .aria-label = Markatu
+# Used to  indicate a check mark for a successful state/action
+checkmark-success-icon-aria-label =
+    .aria-label = Ondo burutu da
+# Used to indicate a check mark for an enabled state/option
+checkmark-enabled-icon-aria-label =
+    .aria-label = Gaituta
+# Used on X icon to dismiss a message such as an alert or banner
+close-icon-aria-label =
+    .aria-label = Itxi mezua
+# Used to decorate a code you enter for verification purposes
+code-icon-aria-label =
+    .aria-label = Kodea
+error-icon-aria-label =
+    .aria-label = Errorea
+# Used as information icon for informative messaging
+info-icon-aria-label =
+    .aria-label = Informazioa
+# Used to select United States as a country code for phone number
+usa-flag-icon-aria-label =
+    .aria-label = Estatu Batuetako bandera
 
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
@@ -284,6 +312,10 @@ input-password-sr-only-now-hidden = Zure pasahitza orain ezkutatuta dago.
 
 ## Phone number component
 
+# This is an aria-label available to screen readers for a selection list that includes country flags, country name and country code
+input-phone-number-country-list-aria-label = Hautatu herrialdea
+input-phone-number-country-united-states = Estatu Batuak
+input-phone-number-country-canada = Kanada
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Atzera
 
@@ -303,6 +335,8 @@ reset-pwd-link-damaged-message = Klik egin duzun loturak karaktereak falta ditu;
 
 ## LinkExpired component
 
+# Button to request a new link if the previous link that was emailed to the user is expired
+link-expired-new-link-button = Jaso lotura berria
 
 ## LinkRememberPassword component
 
@@ -527,6 +561,9 @@ dc-learn-more = Argibide gehiago
 # DropDownAvatarMenu component
 
 drop-down-menu-title-2 = { -product-mozilla-account } menua
+# This is displayed in the Settings menu after user's click on their profile icon.
+# Following this string on a new line will be their display name (user's name or email)
+drop-down-menu-signed-in-as-v2 = Saioa hasita:
 drop-down-menu-sign-out = Amaitu saioa
 drop-down-menu-sign-out-error-2 = Barkatu, arazo bat gertatu da zure saioa amaitzean
 
@@ -580,9 +617,20 @@ flow-recovery-key-info-cancel-link = Utzi
 
 ## FlowSetupPhoneConfirmCode
 
+# verification code refers to a code sent by text message to confirm phone number ownership
+# and complete setup
+flow-setup-phone-confirm-code-heading = Idatzi egiaztapen-kodea
+flow-setup-phone-confirm-code-button = Berretsi
+# button to resend a code by text message to the user's phone
+# followed by a button to resend a code
+flow-setup-phone-confirm-code-expired = Kodea iraungita?
+flow-setup-phone-confirm-code-resend-code-button = Birbidali kodea
+flow-setup-phone-confirm-code-success-message-v2 = Berreskuratze telefonoa gehitu da
 
 ## FlowSetupPhoneConfirmCode
 
+# cliking on the button sends a code by text message to the phone number typed in by the user
+flow-setup-phone-submit-number-button = Bidali kodea
 
 ## HeaderLockup component, the header in account settings
 
@@ -802,6 +850,7 @@ recovery-key-create-back-button-title = Itzuli ezarpenetara
 ## PageRecoveryPhoneRemove
 ## Users reach this page from account settings when they want to remove a backup phone number.
 
+settings-recovery-phone-remove-cancel = Utzi
 
 ## PageSetupRecoveryPhone
 
@@ -969,6 +1018,7 @@ se-secondary-email-none = Bat ere ez
 
 tfa-row-header = Bi urratseko autentifikazioa
 tfa-row-enabled = Gaituta
+tfa-row-disabled-status = Desgaituta
 tfa-row-action-add = Gehitu
 tfa-row-action-disable = Desgaitu
 tfa-row-button-refresh =
