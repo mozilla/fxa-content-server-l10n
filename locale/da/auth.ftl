@@ -49,6 +49,10 @@ subplat-legal = Juridisk
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Privatliv
 subplat-privacy-website-plaintext = { subplat-privacy }:
+account-deletion-info-block-communications = Hvis din konto slettes, vil du stadig modtage mails fra Mozilla Corporation og Mozilla Foundation, medmindre du <a data-l10n-name="unsubscribeLink">beder om at blive afmeldt</a>.
+account-deletion-info-block-support = Hvis du har spørgsmål eller brug for hjælp, er du velkommen til at kontakte vores <a data-l10n-name="supportLink">supportteam</a>.
+account-deletion-info-block-communications-plaintext = Hvis din konto slettes, vil du stadig modtage mails fra Mozilla Corporation og Mozilla Foundation, medmindre du beder om at blive afmeldt:
+account-deletion-info-block-support-plaintext = Hvis du har spørgsmål eller brug for hjælp, er du velkommen til at kontakte vores supportteam:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-android-badge = <img data-l10n-name="google-play-badge" alt="Hent { $productName } på { -google-play }">
@@ -122,6 +126,9 @@ automatedEmailRecoveryKey-more-info-plaintext = Besøg { -brand-mozilla } Suppor
 automated-email-reset =
     Denne mail er sendt automatisk; hvis du ikke har godkendt denne handling, så <a data-l10n-name="resetLink">nulstil din adgangskode</a>.
     For mere information, besøg <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
+# Variables:
+#  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
+automated-email-reset-plaintext-v2 = Hvis du ikke har godkendt denne handling, så nulstil din adgangskode nu på { $resetLink }
 brand-banner-message = Vidste du, at vi har ændret vores navn fra { -product-firefox-accounts } til { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Læs mere</a>
 cancellationSurvey = Hjælp os med at forbedre vores tjenester ved at deltage i denne <a data-l10n-name="cancellationSurveyUrl">korte undersøgelse</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
@@ -242,6 +249,30 @@ fraudulentAccountDeletion-contact = Hvis du har spørgsmål, så kontakt vores <
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Hvis du har spørgsmål, så kontakt vores support-team: { $mozillaSupportUrl }
+inactiveAccountFinalWarning-subject = Sidste chance for at beholde din { -product-mozilla-account }
+inactiveAccountFinalWarning-preview = Log ind for at beholde din konto
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+# This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
+inactiveAccountFinalWarning-impact = Den <strong>{ $deletionDate }</strong> vil din konto og dine personlige data blive slettet permanent, medmindre du logger ind.
+inactiveAccountFinalWarning-action = Log ind for at beholde din konto
+# followed by link to sign in
+inactiveAccountFinalWarning-action-plaintext = Log ind for at beholde din konto:
+inactiveAccountFirstWarning-subject = Mist ikke din konto
+inactiveAccountFirstWarning-inactive-status = Vi har bemærket, at du ikke har logget ind i 2 år.
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+# This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
+inactiveAccountFirstWarning-impact = Din konto og dine personlige data vil blive permanent slettet den <strong>{ $deletionDate }</strong>, fordi du ikke har været aktiv.
+inactiveAccountFirstWarning-action = Log ind for at beholde din konto
+inactiveAccountFirstWarning-preview = Log ind for at beholde din konto
+# followed by link to sign in
+inactiveAccountFirstWarning-action-plaintext = Log ind for at beholde din konto:
+inactiveAccountSecondWarning-subject = Handling påkrævet: Sletning af konto om 7 dage
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+inactiveAccountSecondWarning-impact = Din konto og dine personlige data vil blive permanent slettet den <strong>{ $deletionDate }</strong>, fordi du ikke har været aktiv.
+inactiveAccountSecondWarning-action = Log ind for at beholde din konto
+inactiveAccountSecondWarning-preview = Log ind for at beholde din konto
+# followed by link to sign in
+inactiveAccountSecondWarning-action-plaintext = Log ind for at beholde din konto:
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title-zero = Du er løbet tør for reserve-godkendelseskoder!
 codes-reminder-title-one = Du hr kun én reserve-godkendelseskode tilbage
@@ -317,6 +348,9 @@ postAddLinkedAccount-subject-2 = Ny konto knyttet til din { -product-mozilla-acc
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = Din { $providerName }-konto er blevet knyttet til din { -product-mozilla-account }
 postAddLinkedAccount-action = Håndter konto
+# Links out to a support article about two factor authentication
+postAddRecoveryPhone-how-protect = Sådan beskytter det dine konto
+postAddRecoveryPhone-how-protect-plaintext = Sådan beskytter det dine konto:
 postAddTwoStepAuthentication-subject-2 = Totrinsgodkendelse er slået til
 postAddTwoStepAuthentication-title-2 = Du har slået totrinsgodkendelse til
 # After the colon, there is a description of the device that the user used to enable two-step authentication
