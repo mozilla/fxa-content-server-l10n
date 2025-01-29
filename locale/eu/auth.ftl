@@ -49,6 +49,10 @@ subplat-legal = Lege-oharra
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Pribatutasuna
 subplat-privacy-website-plaintext = { subplat-privacy }:
+account-deletion-info-block-communications = Zure kontua ezabatzen bada, Mozilla Corporation eta Mozilla Foundationen mezu elektronikoak jasoko dituzu, <a data-l10n-name="unsubscribeLink">harpidetza kentzeko eskatu arte</a>.
+account-deletion-info-block-support = Galderarik baduzu edo laguntza behar baduzu, jar zaitez harremanetan gure <a data-l10n-name="supportLink">laguntza-taldearekin</a>.
+account-deletion-info-block-communications-plaintext = Zure kontua ezabatzen bada, Mozilla Corporation eta Mozilla Foundation-en mezu elektronikoak jasoko dituzu, harpidetza kentzeko eskatzen ez baduzu behintzat:
+account-deletion-info-block-support-plaintext = Galderarik baduzu edo laguntza behar baduzu, jar zaitez harremanetan gure laguntza-taldearekin:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-android-badge = <img data-l10n-name="google-play-badge" alt="Deskargatu { $productName } { -google-play }tik">
