@@ -641,6 +641,7 @@ flow-setup-phone-confirm-code-button = Confirmar
 # followed by a button to resend a code
 flow-setup-phone-confirm-code-expired = Codice expirate?
 flow-setup-phone-confirm-code-resend-code-button = Reinviar le codice
+flow-setup-phone-confirm-code-resend-code-success = Codice inviate
 flow-setup-phone-confirm-code-success-message-v2 = Telephono de recuperation addite
 
 ## FlowSetupPhoneConfirmCode
