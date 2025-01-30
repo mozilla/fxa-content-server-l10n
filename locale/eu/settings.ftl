@@ -620,6 +620,7 @@ flow-recovery-key-info-cancel-link = Utzi
 # verification code refers to a code sent by text message to confirm phone number ownership
 # and complete setup
 flow-setup-phone-confirm-code-heading = Idatzi egiaztapen-kodea
+flow-setup-phone-confirm-code-input-label = Sartu 6 digituko kodea
 flow-setup-phone-confirm-code-button = Berretsi
 # button to resend a code by text message to the user's phone
 # followed by a button to resend a code
@@ -629,6 +630,7 @@ flow-setup-phone-confirm-code-success-message-v2 = Berreskuratze telefonoa gehit
 
 ## FlowSetupPhoneConfirmCode
 
+flow-setup-phone-submit-number-heading = Egiaztatu zure telefono zenbakia
 # cliking on the button sends a code by text message to the phone number typed in by the user
 flow-setup-phone-submit-number-button = Bidali kodea
 
@@ -849,7 +851,9 @@ recovery-key-create-back-button-title = Itzuli ezarpenetara
 ## PageRecoveryPhoneRemove
 ## Users reach this page from account settings when they want to remove a backup phone number.
 
+settings-recovery-phone-remove-button = Kendu telefono zenbakia
 settings-recovery-phone-remove-cancel = Utzi
+settings-recovery-phone-remove-success = Berreskuratu kendutako telefonoa
 
 ## PageSetupRecoveryPhone
 
@@ -915,12 +919,18 @@ tfa-qa-code =
 tfa-button-cant-scan-qr = Ezin duzu kodea eskaneatu?
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Idatzi gako sekretu hau zure autentifikazio-aplikazioan:
+tfa-input-enter-totp-v2 =
+    .label = Sartu autentifikazio-kodea
+tfa-enter-recovery-code-1 =
+    .label = Sartu babeskopirako autentifikazio-kodea
 
 ##
 
 
 ## Product promotion
 
+product-promo-monitor =
+    .alt = { -product-mozilla-monitor }
 # Links out to the Monitor pricing site
 product-promo-monitor-plus-cta = Hasi erabiltzen
 
@@ -960,6 +970,13 @@ signout-sync-header = Saioa iraungi da
 
 ## SubRow component
 
+# Shown to users who have no backup authentication codes
+# Button to add backup authentication codes when none are configured
+tfa-row-backup-codes-add-cta = Gehitu
+# button to change the configured recovery phone
+tfa-row-backup-phone-change-cta = Aldatu
+# button to add/configure a recovery phone
+tfa-row-backup-phone-add-cta = Gehitu
 
 ## Switch component
 
@@ -991,6 +1008,8 @@ rk-action-remove = Kendu
 rk-key-removed-2 = Kontuaren berreskuratze-gakoa kenduta
 rk-cannot-remove-key = Ezin izan da zure kontuaren berreskuratze-gakoa kendu.
 rk-content-explain = Berrezarri zure informazioa pasahitza ahazten duzunean.
+# Icon button to delete user's account recovery key. Text appears in tooltip on hover and as alt text for screen readers.
+unit-row-recovery-key-delete-icon-button-title = Ezabatu kontua berreskuratzeko gakoa
 
 ## Secondary email sub-section on main Settings page
 
@@ -1004,6 +1023,7 @@ se-remove-email =
 # Button to refresh secondary email status
 se-refresh-email =
     .title = Berritu helbide elektronikoa
+se-unverified-2 = Berretsigabea
 # Button to make secondary email the primary
 se-make-primary = Bihurtu nagusi
 se-default-content = Sartu zure kontura ezin baduzu zure helbide elektroniko nagusiarekin saioa hasi.
@@ -1049,10 +1069,16 @@ auth-error-102 = Kontu ezezaguna
 auth-error-103 = Pasahitz okerra
 auth-error-105-2 = Berrespen-kode baliogabea!
 auth-error-110 = Token baliogabea
+auth-error-129 = Telefono-zenbaki baliogabea
+auth-error-138-2 = Berretsi gabeko saioa
 auth-error-139 = Helbide elektroniko alternatiboak zure kontuaren helbide elektronikoaren desberdina izan behar du
 auth-error-155 = Ez da TOTP tokena aurkitu
+# Error shown when the user submits an invalid backup authentication code
+auth-error-156 = Autentifikazio-kodearen babes-kopia ez da aurkitu
 auth-error-159 = Kontua berreskuratzeko gako baliogabea
 auth-error-183-2 = Berrespen-kode baliogabea edo iraungita
+auth-error-202 = Ezaugarri ez gaitua
+auth-error-203 = Sistema ez dago erabilgarri, saiatu berrio beranduago
 auth-error-999 = Espero gabeko errorea
 auth-error-1001 = Saio-hasiera saiakera utzita
 auth-error-1002 = Saioa iraungita. Jarraitzeko, hasi saioa.
@@ -1061,6 +1087,8 @@ auth-error-1010 = Baliozko pasahitza behar da
 auth-error-1011 = Baliozko helbide elektronikoa behar da
 auth-error-1031 = Zure izena sartu behar duzu erregistratzeko
 auth-error-1032 = Adin egoki bat sartu behar duzu erregistratzeko
+auth-error-1054 = Bi urratseko autentifikazio kode baliogabea
+auth-error-1056 = Babeskopiako autentifikazio-kode baliogabea
 auth-error-1062 = Birbideraketa baliogabea
 oauth-error-1000 = Zerbait gaizki joan da. Itxi fitxa hau eta saiatu berriro.
 
@@ -1207,9 +1235,14 @@ auth-totp-code-required-error = Autentifikazioa kodea beharrezkoa
 ## PairFailure - a view which displays on failure of the device pairing process
 
 pair-failure-header = Parekatzeak kale egin du
+pair-failure-message = Ezarpen prozedura amaitu da.
 
 ## Pair index page
 
+# Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
+pair-sync-your-device-button = Sinkronizatu zure gailua
+# This is a heading element immediately preceded by "Sync your device" and followed by a link and QR code to download Firefox
+pair-or-download-subheader = Edo deskargatu
 # This allows the user to exit the sync/pair flow, and redirects them back to Settings
 pair-not-now-button = Une honetan ez
 pair-take-your-data-message = Eraman zure fitxak, laster-markak eta pasahitzak { -brand-firefox } erabiltzen duzun edonora.
@@ -1243,6 +1276,7 @@ pair-unsupported-header = Parekatzea aplikazioa erabiliz
 ## Third party auth users that do not have a password set yet are prompted for a
 ## password to complete their sign-in when they want to login to a service requiring it.
 
+set-password-heading = Sortu pasahitza
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
@@ -1250,10 +1284,22 @@ pair-unsupported-header = Parekatzea aplikazioa erabiliz
 
 ## AccountRecoveryConfirmKey page
 
+account-recovery-confirm-key-heading = Sartu kontua berreskuratzeko gakoa
+# Clicking this button checks if the recovery key provided by the user is correct and associated with their account
+account-recovery-confirm-key-button-2 = Jarraitu
+# Link that leads to the password reset page (without recovery code)
+account-recovery-lost-recovery-key-link-2 = Ez da aurkitzen zure kontua berreskuratzeko gakoa
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
+complete-reset-pw-header-v2 = Sortu pasahitz berria
+# A new password was successfully set for the user's account
+# Displayed in an alert bar
+complete-reset-password-success-alert = Ezarri pasahitza
+# An error occurred while attempting to set a new password (password reset flow)
+# Displayed in an alert bar
+complete-reset-password-error-alert = Barkatu, arazo bat izan da pasahitza ezartzean
 # Link to go back and use an account recovery key before resetting the password
 complete-reset-pw-recovery-key-link = Erabili kontua berreskuratzeko gakoa
 # A message informing the user that the password reset was successful and reminding them to create another recovery key
@@ -1276,6 +1322,7 @@ confirm-reset-password-otp-different-account-link = Erabili beste kontu bat
 confirm-totp-reset-password-header = Berrezarri pasahitza
 confirm-totp-reset-password-trouble-code = Arazoak kodea sartzean?
 confirm-totp-reset-password-confirm-button = Berretsi
+confirm-totp-reset-password-input-label-v2 = Sartu 6 digituko kodea
 confirm-totp-reset-password-use-different-account = Erabili beste kontu bat
 confirm-recovery-code-reset-password-trouble-code = Atzera
 
@@ -1284,10 +1331,15 @@ confirm-recovery-code-reset-password-trouble-code = Atzera
 password-reset-flow-heading = Berrezarri pasahitza
 password-reset-email-input =
     .label = Idatzi zure helbide elektronikoa
+password-reset-submit-button-2 = Jarraitu
 
 ## ResetPasswordConfirmed
 
+reset-password-complete-header = Zure pasahitza berrezarri egin da
+# $serviceName is a product name such as Monitor, Pocket, Relay
+reset-password-confirmed-cta = Jarraitu { $serviceName } zerbitzura
 reset-password-with-recovery-key-verified-page-title = Pasahitza ondo berrezarri da
+reset-password-complete-new-password-saved = Pasahitz berria gorde da!
 
 ## CompleteSignin component
 
@@ -1300,6 +1352,9 @@ signin-link-expired-header = Berrespen-lotura iraungita
 
 ## Signin page
 
+# $serviceName - the name of the service which the user authenticating for
+# For languages structured like English, the phrase can read "to continue to { $serviceName }"
+signin-subheader-without-logo-with-servicename = Jarraitu { $serviceName } zerbitzura
 signin-subheader-without-logo-default = Jarraitu kontu-ezarpenekin
 signin-button = Hasi saioa
 signin-header = Hasi saioa
@@ -1333,12 +1388,17 @@ signin-push-code-confirm-login = Berretsi saio hasiera
 ## This page is shown to users when they are having trouble signing in with
 ## their password, and they previously had set up an account recovery method.
 
+signin-recovery-method-header = Hasi saioa
+signin-recovery-method-subheader = Aukeratu berreskuratze metodoa
+signin-recovery-method-phone = Berreskuratze telefonoa
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
+signin-recovery-code-heading = Hasi saioa
+signin-recovery-code-sub-heading = Sartu babeskopirako autentifikazio-kodea
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Berretsi
 # External link for support if the user can't use two-step autentication or a backup authentication code
@@ -1352,16 +1412,25 @@ signin-recovery-code-required-error = Beharrezkoa da autentifikazio-kodearen bab
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
+signin-reported-header = Eskerrik asko zure zaintzagatik
+signin-reported-message = Gure taldeari jakinarazi zaio. Horrelako txostenek arrotzak kanpo mantentzen laguntzen digu.
 
 ## SigninTokenCode page
 ## Users see this page during the signin process. In this instance, the confirmation code is
 ## a 6-digit code that is sent to the user's email address.
 
+signin-token-code-input-label-v2 = Sartu 6 digituko kodea
+# Form button to confirm if the confirmation code entered by the user is valid
+signin-token-code-confirm-button = Berretsi
+signin-token-code-code-expired = Kodea iraungita?
+# Link to resend a new code to the user's email.
+signin-token-code-resend-code-link = Posta elektroniko kode berria.
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+signin-totp-code-header = Hasi saioa
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Berretsi
 signin-totp-code-other-account-link = Erabili beste kontu bat
