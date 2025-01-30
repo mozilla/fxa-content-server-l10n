@@ -224,6 +224,7 @@ downloadSubscription-subject = Вітаем у { $productName }
 downloadSubscription-title = Вітаем у { $productName }
 downloadSubscription-content-2 = Давайце пачнём выкарыстоўваць усе функцыі, уключаныя ў вашу падпіску:
 downloadSubscription-link-action-2 = Пачаць
+fraudulentAccountDeletion-subject-2 = Ваш { -product-mozilla-account } быў выдалены
 fraudulentAccountDeletion-title = Ваш уліковы запіс быў выдалены
 fraudulentAccountDeletion-content-part1-v2 = Нядаўна з дапамогай гэтага адраса электроннай пошты быў створаны { -product-mozilla-account } і знята аплата за падпіску. Як і для ўсіх новых уліковых запісаў, мы папрасілі вас пацвердзіць адрас электроннай пошты.
 fraudulentAccountDeletion-content-part2-v2 = Зараз мы бачым, што ўліковы запіс яшчэ не быў пацверджаны. Паколькі гэты крок не быў завершаны, мы не можам быць упэўненымі, што гэта была аўтарызаваная падпіска. У выніку гэтага { -product-mozilla-account }, зарэгістраваны на гэты адрас электроннай пошты, быў выдалены, а ваша падпіска — скасавана са зваротам усіх сродкаў.
@@ -269,7 +270,14 @@ passwordChangeRequired-different-password-plaintext = Важна: Выберыц
 password-forgot-otp-subject = Забылі свой пароль?
 password-forgot-otp-title = Забылі свой пароль?
 password-forgot-otp-request = Мы атрымалі запыт на змену пароля для вашага { -product-mozilla-account } ад:
+password-forgot-otp-expiry-notice = Гэты код дзейнічае 10 хвілін
+passwordReset-subject-2 = Ваш пароль быў скінуты
+passwordReset-title-2 = Ваш пароль быў скінуты
 passwordResetAccountRecovery-subject-2 = Ваш пароль быў скінуты
+passwordResetAccountRecovery-title-3 = Ваш пароль быў скінуты
+passwordResetAccountRecovery-action-4 = Кіраваць уліковым запісам
+passwordResetWithRecoveryKeyPrompt-subject = Ваш пароль быў скінуты
+passwordResetWithRecoveryKeyPrompt-title = Ваш пароль быў скінуты
 postAddAccountRecovery-subject-3 = Створаны новы ключ аднаўлення ўліковага запісу
 postAddAccountRecovery-title2 = Вы стварылі новы ключ аднаўлення ўліковага запісу
 # Key here refers to account recovery key
@@ -279,6 +287,7 @@ postAddAccountRecovery-action = Кіраванне ўліковым запіса
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = Уліковы запіс { $providerName } быў звязаны з вашым { -product-mozilla-account }
 postAddLinkedAccount-action = Кіраваць уліковым запісам
+postAddRecoveryPhone-action = Кіраванне ўліковым запісам
 postAddTwoStepAuthentication-subject-2 = Двухэтапная аўтарызацыя ўключана
 postAddTwoStepAuthentication-title-2 = Вы ўключылі двухэтапную аўтэнтыфікацыю
 # After the colon, there is a description of the device that the user used to enable two-step authentication
