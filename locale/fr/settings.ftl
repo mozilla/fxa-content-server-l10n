@@ -1695,7 +1695,7 @@ signin-recovery-phone-heading = Saisissez le code de récupération
 # Text that explains the user should check their phone for a recovery code
 # $maskedPhoneNumber - The users masked phone number
 signin-recovery-phone-instruction = Un code à six chiffres a été envoyé au <span>{ $maskedPhoneNumber }</span> par SMS. Ce code expire au bout de 5 minutes.
-signin-recovery-phone-input-label = Saisissez le code à 6 chiffres
+signin-recovery-phone-input-label = Saisissez le code à 6 chiffres
 signin-recovery-phone-code-submit-button = Confirmer
 signin-recovery-phone-resend-code-button = Renvoyer le code
 signin-recovery-phone-resend-success = Code envoyé
