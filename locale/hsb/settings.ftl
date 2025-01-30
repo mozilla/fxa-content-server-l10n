@@ -930,6 +930,8 @@ verify-secondary-email-success-alert-2 = { $email } je so wuspěšnje přidała
 
 # Link to delete account on main Settings page
 delete-account-link = Konto zhašeć
+# Success message displayed in alert bar after the user has successfully confirmed their account is not inactive.
+inactive-update-status-success-alert = Wuspěšnje přizjewjeny. Waše { -product-mozilla-account } a daty aktiwne wostanu.
 
 ## Two Step Authentication
 
@@ -1217,6 +1219,7 @@ auth-error-203 = System k dispoziciji njesteji, spytajće za krótki čas hišć
 auth-error-206 = Njeje móžno hesło wutworić, dokelž hesło je hižo nastajene
 auth-error-214 = Čisło wobnowjenskeho telefona hižo eksistuje
 auth-error-215 = Čisło wobnowjenskeho telefona njeeksistuje
+auth-error-216 = Limit tekstoweje powěsće docpěty
 auth-error-999 = Njewočakowany zmylk
 auth-error-1001 = Přizjewjenski pospyt přetorhnjeny
 auth-error-1002 = Posedźenje jo wotběžało. Přizjewće so, zo byšće pokročował.
@@ -1699,6 +1702,7 @@ signin-recovery-phone-resend-code-button = Kod znowa słać
 signin-recovery-phone-resend-success = Kod je so pósłał
 # links to https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 signin-recovery-phone-locked-out-link = Sće wuzamknjeny?
+signin-recovery-phone-send-code-error-heading = Při słanju koda je problem nastał
 signin-recovery-phone-code-verification-error-heading = Při přepruwowanju wašeho koda je problem nastał
 # Follows the error message (e.g, "There was a problem sending a code")
 signin-recovery-phone-general-error-description = Prošu spytaj pozdźišo hišće raz.
