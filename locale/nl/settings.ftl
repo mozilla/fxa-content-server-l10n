@@ -639,6 +639,7 @@ flow-setup-phone-confirm-code-button = Bevestigen
 # followed by a button to resend a code
 flow-setup-phone-confirm-code-expired = Code verlopen?
 flow-setup-phone-confirm-code-resend-code-button = Code nogmaals versturen
+flow-setup-phone-confirm-code-resend-code-success = Code verzonden
 flow-setup-phone-confirm-code-success-message-v2 = Hersteltelefoonnummer toegevoegd
 
 ## FlowSetupPhoneConfirmCode
@@ -711,6 +712,7 @@ tfa-replace-code-success-1 =
     Er zijn nieuwe codes aangemaakt. Bewaar deze reserve-authenticatiecodes voor eenmalig
     gebruik op een veilige plek – u hebt ze nodig om toegang te krijgen tot uw account als u uw
     mobiele apparaat niet hebt.
+tfa-replace-code-success-alert-4 = Reserve-authenticatiecodes bijgewerkt
 tfa-replace-code-1-2 = Stap 1 van 2
 tfa-replace-code-2-2 = Stap 2 van 2
 
@@ -928,6 +930,8 @@ verify-secondary-email-success-alert-2 = { $email } met succes toegevoegd
 
 # Link to delete account on main Settings page
 delete-account-link = Account verwijderen
+# Success message displayed in alert bar after the user has successfully confirmed their account is not inactive.
+inactive-update-status-success-alert = Met succes aangemeld. Uw { -product-mozilla-account } en gegevens blijven actief.
 
 ## Two Step Authentication
 
@@ -1206,12 +1210,21 @@ auth-error-114-generic = U hebt het te vaak geprobeerd. Probeer het later opnieu
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = U hebt het te vaak geprobeerd. Probeer het { $retryAfter } opnieuw.
 auth-error-125 = De aanvraag is om veiligheidsredenen geblokkeerd
+auth-error-129 = Ongeldig telefoonnummer
 auth-error-138-2 = Onbevestigde sessie
 auth-error-139 = Secundair e-mailadres moet anders zijn dan uw account-e-mailadres
 auth-error-155 = TOTP-token niet gevonden
+# Error shown when the user submits an invalid backup authentication code
+auth-error-156 = Reserve-authenticatiecode niet gevonden
 auth-error-159 = Ongeldige accountherstelsleutel
 auth-error-183-2 = Ongeldige of verlopen bevestigingscode
+auth-error-202 = Functie niet ingeschakeld
+auth-error-203 = Systeem niet beschikbaar, probeer het later opnieuw
 auth-error-206 = Kan geen wachtwoord aanmaken, wachtwoord al ingesteld
+auth-error-214 = Hersteltelefoonnummer bestaat al
+auth-error-215 = Hersteltelefoonnummer bestaat niet
+auth-error-216 = Sms-limiet bereikt
+auth-error-218 = Kan hersteltelefoonnummer niet verwijderen; reserve-authenticatiecodes ontbreken.
 auth-error-999 = Onverwachte fout
 auth-error-1001 = Aanmeldingspoging geannuleerd
 auth-error-1002 = Sessie verlopen. Meld u aan om door te gaan.
@@ -1222,6 +1235,7 @@ auth-error-1011 = Geldig e-mailadres vereist
 auth-error-1031 = U moet uw leeftijd invoeren om te registreren
 auth-error-1032 = U moet een geldige leeftijd invoeren om te registreren
 auth-error-1054 = Ongeldige code voor authenticatie in twee stappen
+auth-error-1056 = Ongeldige reserve-authenticatiecode
 auth-error-1062 = Ongeldige omleiding
 oauth-error-1000 = Er is iets misgegaan. Sluit dit tabblad en probeer het opnieuw.
 
@@ -1654,8 +1668,12 @@ signin-recovery-method-header = Aanmelden
 signin-recovery-method-subheader = Kies een herstelmethode
 signin-recovery-method-details = Laten we controleren dat u het bent die uw herstelmethoden gebruikt.
 signin-recovery-method-phone = Hersteltelefoonnummer
+signin-recovery-method-code-v2 = Reserve-authenticatiecodes
 # Variable: $numberOfCodes (String) - The number of authentication codes the user has left, e.g. 4
 signin-recovery-method-code-info = { $numberOfCodes } codes resterend
+# Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
+signin-recovery-method-send-code-error-heading = Er is een probleem opgetreden bij het verzenden van een code naar uw hersteltelefoonnummer
+signin-recovery-method-send-code-error-description = Probeer het later opnieuw of gebruik uw reserve-authenticatiecodes.
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
@@ -1664,16 +1682,41 @@ signin-recovery-method-code-info = { $numberOfCodes } codes resterend
 
 signin-recovery-code-heading = Aanmelden
 signin-recovery-code-sub-heading = Voer reserve-authenticatiecode in
+# codes here refers to backup authentication codes
+signin-recovery-code-instruction-v3 = Voer een van de codes voor eenmalig gebruik in die u hebt opgeslagen bij het instellen van authenticatie in twee stappen.
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Bevestigen
+# Link to go to the page to use recovery phone instead
+signin-recovery-code-phone-link = Hersteltelefoonnummer gebruiken
 # External link for support if the user can't use two-step autentication or a backup authentication code
 # https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 signin-recovery-code-support-link = Bent u buitengesloten?
 # Error displayed in a tooltip when form is submitted witout a code
 signin-recovery-code-required-error = Reserve-authenticatiecode vereist
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-recovery-code-use-phone-failure = Er is een probleem opgetreden bij het verzenden van een code naar uw hersteltelefoonnummer
+signin-recovery-code-use-phone-failure-description = Probeer het later opnieuw.
 
 ## SigninRecoveryPhone page
 
+signin-recovery-phone-flow-heading = Aanmelden
+# A recovery code in context of this page is a one time code sent to the user's phone
+signin-recovery-phone-heading = Voer herstelcode in
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+signin-recovery-phone-instruction = Er is per sms een 6-cijferige code verstuurd naar <span>{ $maskedPhoneNumber }</span>. Deze code verloopt na 5 minuten.
+signin-recovery-phone-input-label = Voer 6-cijferige code in
+signin-recovery-phone-code-submit-button = Bevestigen
+signin-recovery-phone-resend-code-button = Code nogmaals versturen
+signin-recovery-phone-resend-success = Code verzonden
+# links to https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+signin-recovery-phone-locked-out-link = Bent u buitengesloten?
+signin-recovery-phone-send-code-error-heading = Er is een probleem opgetreden bij het verzenden van een code
+signin-recovery-phone-code-verification-error-heading = Er is een probleem opgetreden bij het verifiëren van uw code
+# Follows the error message (e.g, "There was a problem sending a code")
+signin-recovery-phone-general-error-description = Probeer het later opnieuw.
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
