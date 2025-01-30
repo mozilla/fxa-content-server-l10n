@@ -1209,9 +1209,12 @@ auth-error-114-generic = Έχετε προσπαθήσει πάρα πολλές
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Έχετε προσπαθήσει πάρα πολλές φορές. Παρακαλούμε δοκιμάστε ξανά { $retryAfter }.
 auth-error-125 = Το αίτημα αποκλείστηκε για λόγους ασφαλείας
+auth-error-129 = Μη έγκυρος αριθμός τηλεφώνου
 auth-error-138-2 = Μη επιβεβαιωμένη συνεδρία
 auth-error-139 = Το δευτερεύον email πρέπει να είναι διαφορετικό από το email του λογαριασμού σας
 auth-error-155 = Δεν βρέθηκε διακριτικό TOTP
+# Error shown when the user submits an invalid backup authentication code
+auth-error-156 = Δεν βρέθηκε εφεδρικός κωδικός ταυτοποίησης
 auth-error-159 = Μη έγκυρο κλειδί ανάκτησης λογαριασμού
 auth-error-183-2 = Μη έγκυρος ή παλιός κωδικός επιβεβαίωσης
 auth-error-206 = Δεν είναι δυνατή η δημιουργία κωδικού πρόσβασης, έχει ήδη οριστεί κωδικός πρόσβασης
@@ -1680,6 +1683,10 @@ signin-recovery-code-required-error = Απαιτείται εφεδρικός κ
 
 ## SigninRecoveryPhone page
 
+signin-recovery-phone-code-submit-button = Επιβεβαίωση
+signin-recovery-phone-resend-code-button = Αποστολή νέου κωδικού
+# Follows the error message (e.g, "There was a problem sending a code")
+signin-recovery-phone-general-error-description = Δοκιμάστε ξανά αργότερα.
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
