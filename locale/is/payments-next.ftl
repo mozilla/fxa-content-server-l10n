@@ -9,9 +9,17 @@ next-basic-error-message = Eitthvað fór úrskeiðis. Reyndu aftur síðar.
 
 ## Page
 
+checkout-signin-or-create = 1. Skráðu þig inn eða útbúðu { -product-mozilla-account }
+checkout-create-account = Búðu til { -product-mozilla-account }
+continue-signin-with-google-button = Halda áfram með { -brand-google }
+continue-signin-with-apple-button = Halda áfram með { -brand-apple }
 next-payment-method-header = Veldu greiðslumáta þinn
+# This message is used to indicate the second step in a multi step process.
+payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = Fyrst þarftu að samþykkja áskriftina þína
 next-payment-confirmation-thanks-heading-account-exists = Takk, athugaðu nú tölvupóstinn þinn!
+# $email (String) - The user's email.
+payment-confirmation-thanks-subheading-account-exists-2 = Þú munt fá tölvupóst á { $email } með leiðbeiningum varðandi áskriftina þína, sem og greiðsluupplýsingar þínar.
 next-payment-confirmation-order-heading = Upplýsingar um pöntun
 # $invoiceNumber (String) - Invoice number of the successful payment
 next-payment-confirmation-invoice-number = Reikningur #{ $invoiceNumber }
@@ -25,6 +33,7 @@ next-payment-confirmation-amount = { $amount } á { $interval }
 next-payment-confirmation-cc-card-ending-in = Kort sem endar á { $last4 }
 next-payment-confirmation-download-button = Halda áfram í niðurhal
 checkout-error-boundary-retry-button = Reyna aftur
+checkout-error-boundary-basic-error-message = Eitthvað fór úrskeiðis. Reyndu aftur eða <contactSupportLink>hafðu samband við aðstoðarteymið.</contactSupportLink>
 
 ## Component - Payment Consent Checkbox
 

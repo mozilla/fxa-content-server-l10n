@@ -49,6 +49,7 @@ subplat-legal = Lögfræðilegt efni
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Friðhelgi
 subplat-privacy-website-plaintext = { subplat-privacy }:
+account-deletion-info-block-support-plaintext = Ef þú hefur einhverjar spurningar eða þarft aðstoð, skaltu ekki hika við að hafa samband við aðstoðarteymið okkar:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-android-badge = <img data-l10n-name="google-play-badge" alt="Sæktu { $productName } á { -google-play }">
