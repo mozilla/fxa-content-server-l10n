@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-05 20:09+0000\n"
-"PO-Revision-Date: 2025-01-18 17:24+0000\n"
+"PO-Revision-Date: 2025-01-30 13:25+0000\n"
 "Last-Translator: Itiel <itiel_yn8@walla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: he\n"
@@ -420,7 +420,7 @@ msgstr "נדרשת כתובת דוא״ל ראשית כדי להיכנס"
 
 #: .es5/lib/auth-errors.js:182
 msgid "Address in use by another account"
-msgstr "הכתובת בשימוש ע״י חשבון אחר"
+msgstr "הכתובת בשימוש על־ידי חשבון אחר"
 
 #: .es5/lib/auth-errors.js:186
 msgid "Primary account email required for reset"
