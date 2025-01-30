@@ -673,6 +673,7 @@ nav-email-comm = Tölvupóstsamskipti
 tfa-replace-code-error-3 = Vandamál kom upp við að skipta um varaauðkenningarkóðana þína
 tfa-create-code-error = Vandamál kom upp við að útbúa varaauðkenningarkóðana þína
 tfa-replace-code-success-1 = Nýir kóðar hafa verið útbúnir. Vistaðu þessa eins-skiptis varaauðkenningarkóða á öruggum stað - þú þarft þá til að fá aðgang að reikningnum þínum ef þú ert ekki með farsímann þinn.
+tfa-replace-code-success-alert-4 = Varaauðkenningarkóðar uppfærðir
 tfa-replace-code-1-2 = Skref 1 af 2
 tfa-replace-code-2-2 = Skref 2 af 2
 
@@ -837,9 +838,17 @@ recovery-key-create-back-button-title = Til baka í stillingar
 ## PageRecoveryPhoneRemove
 ## Users reach this page from account settings when they want to remove a backup phone number.
 
+recovery-phone-remove-header = Fjarlægja endurheimtusímanúmer
+# Variables:
+#   $formattedFullPhoneNumber (String) - the user's full phone number
+settings-recovery-phone-remove-info = Þetta mun fjarlægja <strong>{ $formattedFullPhoneNumber }</strong> sem endurheimtusímanúmer.
+settings-recovery-phone-remove-button = Fjarlægja símanúmer
+settings-recovery-phone-remove-cancel = Hætta við
+settings-recovery-phone-remove-success = Endurheimtusímanúmer fjarlægt
 
 ## PageSetupRecoveryPhone
 
+page-setup-recovery-phone-heading = Bæta við endurheimtusímanúmeri
 
 ## Add secondary email page
 
@@ -879,6 +888,8 @@ verify-secondary-email-success-alert-2 = Það tókst að bæta við { $email }
 
 # Link to delete account on main Settings page
 delete-account-link = Eyða reikningi
+# Success message displayed in alert bar after the user has successfully confirmed their account is not inactive.
+inactive-update-status-success-alert = Innskráning tókst. { -product-mozilla-account } og tengd gögn verða áfram virk.
 
 ## Two Step Authentication
 
@@ -893,6 +904,7 @@ tfa-incorrect-totp = Rangur tveggja-þrepa auðkenningarkóði
 tfa-cannot-retrieve-code = Vandamál kom upp við að sækja kóðann þinn.
 tfa-cannot-verify-code-4 = Vandamál kom upp við að staðfesta varaauðkenningarkóðann þinn
 tfa-incorrect-recovery-code-1 = Rangur varaauðkenningarkóði
+tfa-enabled-v2 = Tveggja-þrepa auðkenning hefur verið virkjuð
 tfa-scan-this-code =
     Skannaðu þennan QR-kóða með því að nota eitt af 
     <linkExternal>þessum auðkenningarforritum</linkExternal>.
@@ -986,6 +998,9 @@ tfa-row-backup-codes-get-new-cta = Sækja nýja kóða
 tfa-row-backup-codes-add-cta = Bæta við
 # 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
 tfa-row-backup-codes-description-2 = Þetta er öruggasta endurheimtuaðferðin ef þú getur ekki notað farsímann þinn eða auðkenningarforritið.
+# Recovery phone is a recovery method for two-step authentication
+# A recovery code can be sent to the user's phone
+tfa-row-backup-phone-title-v2 = Endurheimtusímanúmer
 # Shown with an alert icon to indicate that no recovery phone is configured
 tfa-row-backup-phone-not-available = Ekkert endurheimtusímanúmer tiltækt
 # button to change the configured recovery phone
@@ -994,6 +1009,9 @@ tfa-row-backup-phone-change-cta = Breyta
 tfa-row-backup-phone-add-cta = Bæta við
 # Button to remove a recovery phone from the user's account
 tfa-row-backup-phone-delete-button = Fjarlægja
+# Shown in tooltip on delete button or delete icon
+tfa-row-backup-phone-delete-title-v2 = Fjarlægja endurheimtusímanúmer
+tfa-row-backup-phone-delete-restriction-v2 = Ef þú vilt fjarlægja endurheimtusímanúmer skaltu bæta við auðkenningarkóðum öryggisafritunar eða slökkva fyrst á tveggja-þrepa auðkenningu til að forðast það að læsast úti á reikningnum þínum.
 # "this" refers to recovery phone
 tfa-row-backup-phone-description = Þetta er auðveldasta endurheimtuaðferðin ef þú getur ekki notað auðkenningarforritið þitt.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
@@ -1094,6 +1112,10 @@ tfa-row-cannot-refresh =
     Því miður kom upp vandamál við að endurnýja tveggja-þrepa
     auðkenningu.
 tfa-row-enabled-description = Reikningurinn þinn er varinn með tveggja-þrepa auðkenningu. Þú þarft að setja einu sinni inn aðgangskóða úr auðkenningarforritinu þínu þegar þú skráir þig inn á { -product-mozilla-account } þinn.
+# "this" refers to two-step authentication
+# Link goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+tfa-row-enabled-info-link = Hvernig þetta verndar reikninginn þinn
+tfa-row-disabled-description-v2 = Hjálpaðu til við að tryggja öryggi reikningsins þíns með því að nota auðkenningararforrit frá utanaðkomandi aðila sem annað þrep til að skrá þig inn.
 tfa-row-cannot-verify-session-4 = Því miður, upp kom vandamál við að sannreyna setuna þína
 tfa-row-disable-modal-heading = Gera tveggja-þrepa auðkenningu óvirka?
 tfa-row-disable-modal-confirm = Gera óvirkt
@@ -1144,12 +1166,20 @@ auth-error-114-generic = Þú hefur prófað of oft. Reyndu aftur síðar.
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Þú hefur prófað of oft. Reyndu aftur { $retryAfter }.
 auth-error-125 = Lokað var á beiðnina af öryggisástæðum
+auth-error-129 = Ógilt símanúmer
 auth-error-138-2 = Óstaðfest seta
 auth-error-139 = Aukatölvupóstfang verður að vera frábrugðið tölvupóstfangi reikningsins þíns
 auth-error-155 = TOTP-teikn fannst ekki
+# Error shown when the user submits an invalid backup authentication code
+auth-error-156 = Varaauðkenningarkóði fannst ekki
 auth-error-159 = Ógildur endurheimtulykill reiknings
 auth-error-183-2 = Ógildur eða útrunninn staðfestingarkóði
+auth-error-202 = Eiginleiki ekki virkur
+auth-error-203 = Kerfi er upptekið, reyndu aftur seinna
 auth-error-206 = Get ekki búið til lykilorð, lykilorð er þegar stillt
+auth-error-214 = Endurheimtusímanúmer er þegar til staðar
+auth-error-215 = Endurheimtusímanúmer er ekki til staðar
+auth-error-216 = Takmörkum textaskilaboða náð
 auth-error-999 = Óvænt villa
 auth-error-1001 = Hætt við tilraun til innskráningar
 auth-error-1002 = Lota rann út. Skráðu þig inn til að halda áfram.
@@ -1160,6 +1190,7 @@ auth-error-1011 = Krafist er gilds tölvupóstfangs
 auth-error-1031 = Þú verður að setja inn aldur þinn til að geta nýskráð þig
 auth-error-1032 = Þú verður að setja inn gildan aldur til að geta nýskráð þig
 auth-error-1054 = Ógildur tveggja-þrepa auðkenningarkóði
+auth-error-1056 = Ógildur varaauðkenningarkóði
 auth-error-1062 = Ógild endurbeining
 oauth-error-1000 = Eitthvað fór úrskeiðis. Lokaðu þessum flipa og prófaðu aftur.
 
@@ -1263,6 +1294,7 @@ inline-recovery-confirmation-header-default = Staðfestu öryggisauðkenningark�
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = Staðfestu öryggisauðkenningarkóða <span>til að halda áfram í { $serviceName }</span>
+inline-recovery-2fa-enabled-v2 = Tveggja-þrepa auðkenning hefur verið virkjuð
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1590,6 +1622,7 @@ signin-push-code-confirm-link-error = Tengillinn er skemmdur. Reyndu aftur.
 ## This page is shown to users when they are having trouble signing in with
 ## their password, and they previously had set up an account recovery method.
 
+signin-recovery-method-header = Innskráning
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code

@@ -38,6 +38,7 @@ next-payment-validate-name-error = Settu inn nafnið þitt
 next-pay-with-heading-paypal = Greiða með { -brand-paypal }
 # Label for the Full Name input
 payment-name-label = Nafn eins og það birtist á kortinu þínu
+payment-name-placeholder = Fullt nafn
 
 ## Component - CouponForm
 
@@ -49,6 +50,9 @@ next-coupon-promo-code = Kynningarkóði
 next-coupon-promo-code-applied = Kynningarkóði notaður
 next-coupon-remove = Fjarlægja
 next-coupon-submit = Virkja
+payments-client-loading-spinner =
+    .aria-label = Hleður…
+    .alt = Hleður…
 
 ## Payment Section
 
@@ -61,6 +65,25 @@ next-plan-details-show-button = Sjá nánari upplýsingar
 
 ## Select Tax Location
 
+select-tax-location-title = Staðsetning
+select-tax-location-edit-button = Breyta
+select-tax-location-save-button = Vista
+select-tax-location-country-code-label = Land
+select-tax-location-country-code-placeholder = Veldu landið þitt
+select-tax-location-error-missing-country-code = Veldu landið þitt
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN
+select-tax-location-product-not-available = { $productName } er ekki í boði á þessum stað.
+select-tax-location-postal-code-label = Póstnúmer
+select-tax-location-postal-code =
+    .placeholder = Settu inn póstnúmerið þitt
+select-tax-location-error-missing-postal-code = Settu inn póstnúmerið þitt
+select-tax-location-error-invalid-postal-code = Settu inn löglegt póstnúmer
+select-tax-location-successfully-updated = Staðsetningin þín hefur verið uppfærð.
+select-tax-location-error-location-not-updated = Ekki var hægt að uppfæra staðsetninguna þína. Endilega reyndu aftur.
+signin-form-continue-button = Halda áfram
+signin-form-email-input = Settu inn tölvupóstfangið þitt
+signin-form-email-input-missing = Settu inn tölvupóstfangið þitt
+signin-form-email-input-invalid = Gefðu upp gilt tölvupóstfang.
 next-new-user-subscribe-product-updates-mdnplus = Ég myndi vilja fá upplýsingar um hugbúnað og uppfærslur frá { -product-mdn-plus } og { -brand-mozilla }
 next-new-user-subscribe-product-updates-mozilla = Ég myndi vilja fá upplýsingar um hugbúnað og uppfærslur frá { -brand-mozilla }
 next-new-user-subscribe-product-updates-snp = Ég myndi vilja fá fréttir um öryggismál og friðhelgi frá { -brand-mozilla }
@@ -76,6 +99,8 @@ next-plan-details-total-label = Samtals
 ## Purchase details - shared by multiple components, including purchase details and payment form
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+list-positive-amount = { $amount }
+list-negative-amount = - { $amount }
 next-coupon-success = Áskriftarleiðin þín mun sjálfkrafa endurnýjast á listaverði.
 # $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
 next-coupon-success-repeating = Áskriftin þín endurnýjast sjálfkrafa eftir { $couponDurationDate } á listaverði.
@@ -86,6 +111,11 @@ next-coupon-success-repeating = Áskriftin þín endurnýjast sjálfkrafa eftir 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+plan-price-interval-daily = { $amount } daglega
+plan-price-interval-weekly = { $amount } vikulega
+plan-price-interval-monthly = { $amount } mánaðarlega
+plan-price-interval-6monthly = { $amount } á 6 mánaða fresti
+plan-price-interval-yearly = { $amount } á ári
 
 ## Component - SubscriptionTitle
 
