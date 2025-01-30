@@ -618,6 +618,7 @@ flow-setup-phone-confirm-code-button = אישור
 # followed by a button to resend a code
 flow-setup-phone-confirm-code-expired = פג תוקף הקוד?
 flow-setup-phone-confirm-code-resend-code-button = שליחת הקוד מחדש
+flow-setup-phone-confirm-code-resend-code-success = הקוד נשלח
 flow-setup-phone-confirm-code-success-message-v2 = נוסף טלפון לשחזור
 
 ## FlowSetupPhoneConfirmCode
@@ -889,6 +890,8 @@ verify-secondary-email-success-alert-2 = הכתובת { $email } נוספה בה
 
 # Link to delete account on main Settings page
 delete-account-link = מחיקת חשבון
+# Success message displayed in alert bar after the user has successfully confirmed their account is not inactive.
+inactive-update-status-success-alert = התחברת בהצלחה. { -product-mozilla-account(case: "the") } שלך והנתונים שלו יישארו פעילים.
 
 ## Two Step Authentication
 
@@ -1139,12 +1142,18 @@ auth-error-114-generic = ניסית  יותר מידי פעמים. נא לנסו
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = ניסית להתחבר יותר מידי פעמים. נא לנסות שוב { $retryAfter }.
 auth-error-125 = הבקשה נחסמה מסיבות אבטחה
+auth-error-129 = מספר טלפון שגוי
 auth-error-138-2 = הפעלה בלתי מאומתת
 auth-error-139 = כתובת הדוא״ל המשנית חייבת להיות שונה מכתובת הדוא״ל של החשבון שלך
 auth-error-155 = אסימון TOTP לא נמצא
 auth-error-159 = מפתח שחזור חשבון שגוי
 auth-error-183-2 = קוד אימות לא חוקי או שפג תוקפו
+auth-error-202 = התכונה אינה מופעלת
+auth-error-203 = המערכת אינה זמינה, נא לנסות שוב במועד מאוחר יותר
 auth-error-206 = לא ניתן ליצור ססמה, הססמה כבר הוגדרה
+auth-error-214 = מספר טלפון לשחזור כבר קיים
+auth-error-215 = מספר טלפון לשחזור לא קיים
+auth-error-216 = מכסת הודעות הטקסט הושגה
 auth-error-999 = שגיאה בלתי צפויה
 auth-error-1001 = ניסיון ההתחברות בוטל
 auth-error-1002 = פג תוקף ההפעלה. יש להתחבר כדי להמשיך.
@@ -1569,6 +1578,8 @@ signin-recovery-method-details = בואו נוודא שזה אתה המשתמש 
 signin-recovery-method-phone = טלפון לשחזור
 # Variable: $numberOfCodes (String) - The number of authentication codes the user has left, e.g. 4
 signin-recovery-method-code-info = נותרו { $numberOfCodes } קודים
+# Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
+signin-recovery-method-send-code-error-heading = הייתה בעיה בשליחת קוד לטלפון השחזור שלך
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
@@ -1578,12 +1589,22 @@ signin-recovery-method-code-info = נותרו { $numberOfCodes } קודים
 signin-recovery-code-heading = כניסה
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = אישור
+# Link to go to the page to use recovery phone instead
+signin-recovery-code-phone-link = שימוש בטלפון לשחזור
 # External link for support if the user can't use two-step autentication or a backup authentication code
 # https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 signin-recovery-code-support-link = ננעלת מחוץ לחשבון?
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-recovery-code-use-phone-failure = הייתה בעיה בשליחת קוד לטלפון השחזור שלך
 
 ## SigninRecoveryPhone page
 
+# links to https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+signin-recovery-phone-locked-out-link = ננעלת מחוץ לחשבון?
+signin-recovery-phone-send-code-error-heading = הייתה בעיה בשליחת קוד
+signin-recovery-phone-code-verification-error-heading = הייתה בעיה באימות הקוד שלך
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
