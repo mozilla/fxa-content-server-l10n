@@ -635,6 +635,7 @@ flow-setup-phone-confirm-code-button = 確認
 # followed by a button to resend a code
 flow-setup-phone-confirm-code-expired = 驗證碼失效？
 flow-setup-phone-confirm-code-resend-code-button = 重寄驗證碼
+flow-setup-phone-confirm-code-resend-code-success = 已傳送驗證碼
 flow-setup-phone-confirm-code-success-message-v2 = 已新增救援電話號碼
 
 ## FlowSetupPhoneConfirmCode
@@ -704,6 +705,7 @@ nav-email-comm = 電子郵件通訊
 tfa-replace-code-error-3 = 取代您的備用驗證碼時發生問題
 tfa-create-code-error = 建立您的備用驗證碼時發生問題
 tfa-replace-code-success-1 = 已產生新的救援碼，請將這些單次使用的備用驗證碼保存在安全的地方，當您無法再使用行動裝置時，可以使用此驗證碼登入帳號。
+tfa-replace-code-success-alert-4 = 已更新備用驗證碼
 tfa-replace-code-1-2 = 第 1 步，共 2 步
 tfa-replace-code-2-2 = 第 2 步，共 2 步
 
@@ -921,6 +923,8 @@ verify-secondary-email-success-alert-2 = 成功加入 { $email }
 
 # Link to delete account on main Settings page
 delete-account-link = 刪除帳號
+# Success message displayed in alert bar after the user has successfully confirmed their account is not inactive.
+inactive-update-status-success-alert = 登入成功。將繼續保留您的 { -product-mozilla-account }與資料。
 
 ## Two Step Authentication
 
@@ -1181,12 +1185,19 @@ auth-error-114-generic = 您已嘗試太多次，請稍候再試。
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = 您已嘗試太多次，請等 { $retryAfter }再試。
 auth-error-125 = 因為安全性因素，已封鎖請求
+auth-error-129 = 電話號碼無效
 auth-error-138-2 = 未驗證的使用階段
 auth-error-139 = 次要信箱必須與您的帳號信箱不同
 auth-error-155 = 找不到 TOTP token
+# Error shown when the user submits an invalid backup authentication code
+auth-error-156 = 找不到備用驗證碼
 auth-error-159 = 帳號救援金鑰無效
 auth-error-183-2 = 驗證碼無效或失效
+auth-error-202 = 功能未啟用
+auth-error-203 = 系統暫時無法使用，請稍後再試一次
 auth-error-206 = 已設定密碼，無法重複設定
+auth-error-214 = 救援電話號碼已存在
+auth-error-215 = 救援電話號碼不存在
 auth-error-999 = 未預期的錯誤
 auth-error-1001 = 已取消登入請求
 auth-error-1002 = 登入階段已失效，請登入以繼續。
@@ -1629,6 +1640,8 @@ signin-recovery-method-details = 請使用您原先設定的救援方式確認�
 signin-recovery-method-phone = 救援電話號碼
 # Variable: $numberOfCodes (String) - The number of authentication codes the user has left, e.g. 4
 signin-recovery-method-code-info = 剩餘 { $numberOfCodes } 組驗證碼
+# Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
+signin-recovery-method-send-code-error-heading = 傳送代碼到您的救援電話號碼時遇到問題
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
@@ -1639,11 +1652,17 @@ signin-recovery-code-heading = 登入
 signin-recovery-code-sub-heading = 請輸入備用驗證碼
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = 確認
+# Link to go to the page to use recovery phone instead
+signin-recovery-code-phone-link = 使用救援電話號碼
 # External link for support if the user can't use two-step autentication or a backup authentication code
 # https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 signin-recovery-code-support-link = 被鎖住了嗎？
 # Error displayed in a tooltip when form is submitted witout a code
 signin-recovery-code-required-error = 需要使用備用驗證碼
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-recovery-code-use-phone-failure = 傳送代碼到您的救援電話號碼時遇到問題
 
 ## SigninRecoveryPhone page
 
