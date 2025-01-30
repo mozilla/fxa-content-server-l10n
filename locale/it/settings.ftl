@@ -1206,10 +1206,10 @@ auth-error-183-2 = Codice di conferma non valido o scaduto
 auth-error-202 = Caratteristica non attiva
 auth-error-203 = Il sistema non è disponibile, riprova tra qualche secondo
 auth-error-206 = Impossibile creare la password, la password è già stata impostata
-auth-error-214 = Il numero di telefono di recupero esiste già
-auth-error-215 = Il numero di telefono di recupero non esiste
+auth-error-214 = Il numero di telefono per il recupero dell’account esiste già
+auth-error-215 = Il numero di telefono per il recupero dell’account non esiste
 auth-error-216 = È stato raggiunto il limite di messaggi di testo
-auth-error-218 = Impossibile rimuovere il numero di telefono di recupero, codici di autenticazione di backup mancanti.
+auth-error-218 = Impossibile rimuovere il numero di telefono per il recupero dell’account, codici di autenticazione di backup non presenti.
 auth-error-999 = Errore imprevisto
 auth-error-1001 = Tentativo di accesso annullato
 auth-error-1002 = La sessione è scaduta. Accedi per continuare.
@@ -1655,8 +1655,8 @@ signin-recovery-method-code-v2 = Codici di autenticazione di backup
 # Variable: $numberOfCodes (String) - The number of authentication codes the user has left, e.g. 4
 signin-recovery-method-code-info = { $numberOfCodes } codici rimanenti
 # Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
-signin-recovery-method-send-code-error-heading = Si è verificato un problema durante l’invio di un codice al telefono di recupero
-signin-recovery-method-send-code-error-description = Riprovare più tardi o utilizzare i codici di autenticazione di backup.
+signin-recovery-method-send-code-error-heading = Si è verificato un problema durante l’invio del codice al telefono per il recupero dell’account
+signin-recovery-method-send-code-error-description = Riprova più tardi o utilizza i codici di autenticazione di backup.
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
@@ -1666,11 +1666,11 @@ signin-recovery-method-send-code-error-description = Riprovare più tardi o util
 signin-recovery-code-heading = Accedi
 signin-recovery-code-sub-heading = Digita il codice di autenticazione di backup
 # codes here refers to backup authentication codes
-signin-recovery-code-instruction-v3 = Inserire uno dei codici monouso salvati durante la configurazione dell’autenticazione in due passaggi.
+signin-recovery-code-instruction-v3 = Inserisci uno dei codici monouso salvati durante la configurazione dell’autenticazione in due passaggi.
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Conferma
 # Link to go to the page to use recovery phone instead
-signin-recovery-code-phone-link = Utilizza il telefono di recupero
+signin-recovery-code-phone-link = Utilizza il telefono per il recupero dell’account
 # External link for support if the user can't use two-step autentication or a backup authentication code
 # https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 signin-recovery-code-support-link = Sei rimasto bloccato fuori dal tuo account?
@@ -1679,8 +1679,8 @@ signin-recovery-code-required-error = È necessario inserire il codice di autent
 # Message to user after they were redirected to the Mozilla account sign-in page in a new browser
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
-signin-recovery-code-use-phone-failure = Si è verificato un problema durante l’invio di un codice al telefono di recupero
-signin-recovery-code-use-phone-failure-description = Riprovare più tardi.
+signin-recovery-code-use-phone-failure = Si è verificato un problema durante l’invio del codice al telefono per il recupero dell’account
+signin-recovery-code-use-phone-failure-description = Riprova più tardi.
 
 ## SigninRecoveryPhone page
 
@@ -1695,11 +1695,11 @@ signin-recovery-phone-code-submit-button = Conferma
 signin-recovery-phone-resend-code-button = Invia di nuovo il codice
 signin-recovery-phone-resend-success = Codice inviato
 # links to https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
-signin-recovery-phone-locked-out-link = Sei bloccato fuori dal tuo account?
-signin-recovery-phone-send-code-error-heading = Si è verificato un problema durante l’invio di un codice
+signin-recovery-phone-locked-out-link = Sei rimasto bloccato fuori dal tuo account?
+signin-recovery-phone-send-code-error-heading = Si è verificato un problema durante l’invio del codice
 signin-recovery-phone-code-verification-error-heading = Si è verificato un problema durante la verifica del codice
 # Follows the error message (e.g, "There was a problem sending a code")
-signin-recovery-phone-general-error-description = Riprovare più tardi.
+signin-recovery-phone-general-error-description = Riprova più tardi.
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 

@@ -242,17 +242,23 @@ fraudulentAccountDeletion-contact = Ef þú ert með einhverjar spurningar skalt
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Ef þú ert með einhverjar spurningar skaltu hafa samband við aðstoðarteymið okkar: { $mozillaSupportUrl }
+inactiveAccountFinalWarning-subject = Síðasti séns til að halda { -product-mozilla-account }-reikningnum þínum
+inactiveAccountFinalWarning-title = { -brand-mozilla }-reikningnum þínum og tengdum gögnum verður eytt
 inactiveAccountFinalWarning-preview = Skráðu þig inn til að halda reikningnum þínum
 inactiveAccountFinalWarning-action = Skráðu þig inn til að halda reikningnum þínum
 # followed by link to sign in
 inactiveAccountFinalWarning-action-plaintext = Skráðu þig inn til að halda reikningnum þínum:
 inactiveAccountFirstWarning-subject = Ekki tapa reikningnum þínum
+inactiveAccountFirstWarning-title = Viltu halda { -brand-mozilla }-reikningnum þínum og tengdum gögnum?
 inactiveAccountFirstWarning-inactive-status = Við höfum tekið eftir því að þú hefur ekki skráð þig inn í 2 ár.
 inactiveAccountFirstWarning-action = Skráðu þig inn til að halda reikningnum þínum
 inactiveAccountFirstWarning-preview = Skráðu þig inn til að halda reikningnum þínum
 # followed by link to sign in
 inactiveAccountFirstWarning-action-plaintext = Skráðu þig inn til að halda reikningnum þínum:
 inactiveAccountSecondWarning-subject = Aðgerðar krafist: Reikningi verður eytt eftir 7 daga
+inactiveAccountSecondWarning-title = { -brand-mozilla }-reikningnum þínum og tengdum gögnum verður eytt eftir 7 daga
+inactiveAccountSecondWarning-action = Skráðu þig inn til að halda reikningnum þínum
+inactiveAccountSecondWarning-preview = Skráðu þig inn til að halda reikningnum þínum
 # followed by link to sign in
 inactiveAccountSecondWarning-action-plaintext = Skráðu þig inn til að halda reikningnum þínum:
 # The user has a low number of valid recovery codes remaining for use
@@ -330,7 +336,12 @@ postAddLinkedAccount-subject-2 = Nýr reikningur tengdur við { -product-mozilla
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = { $providerName } reikningurinn þinn hefur verið tengdur við { -product-mozilla-account }
 postAddLinkedAccount-action = Sýsla með aðgang
+postAddRecoveryPhone-subject = Endurheimtusímanúmeri bætt við
 postAddRecoveryPhone-preview = Reikningur er varinn með tveggja-þrepa auðkenningu
+postAddRecoveryPhone-title = Þú útbjóst endurheimtusímanúmer
+# Variables:
+#  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
+postAddRecoveryPhone-description = Þú bættir { $maskedLastFourPhoneNumber } við sem endurheimtusímanúmeri
 # Links out to a support article about two factor authentication
 postAddRecoveryPhone-how-protect = Hvernig þetta verndar reikninginn þinn
 postAddRecoveryPhone-how-protect-plaintext = Hvernig þetta verndar reikninginn þinn:
@@ -353,7 +364,10 @@ postChangePrimary-title = Nýtt aðaltölvupóstfang
 #  $email (String) - A user's email address
 postChangePrimary-description-2 = Þú hefur náð að breyta aðaltölvupóstfanginu þínu í { $email }. Þetta póstfang er nú notandanafnið sem þú notar til að skrá þig inn á { -product-mozilla-account }, ásamt því að þarna færðu öryggistilkynningar og staðfestingar á innskráningu.
 postChangePrimary-action = Sýsla með reikning
+postChangeRecoveryPhone-subject = Endurheimtusímanúmer uppfært
 postChangeRecoveryPhone-preview = Reikningur er varinn með tveggja-þrepa auðkenningu
+postChangeRecoveryPhone-title = Þú breyttir endurheimtusímanúmerinu þínu
+postChangeRecoveryPhone-description = Þú ert nú með nýtt endurheimtusímanúmer. Fyrra endurheimtusímanúmeri þínu var eytt.
 postChangeRecoveryPhone-requested-device = Þú baðst um það frá:
 postConsumeRecoveryCode-title-2 = Þú notaðir varaauðkenningarkóða
 # After the colon, there is description of the device that the backup authentication code was used on
@@ -374,7 +388,9 @@ postRemoveAccountRecovery-title-3 = Þú eyddir endurheimtulykli fyrir reikningi
 postRemoveAccountRecovery-body-part1 = Endurheimtulykillinn þinn er nauðsynlegur til að endurheimta dulrituðu vafragögnin þín ef þú gleymir lykilorðinu þínu.
 postRemoveAccountRecovery-body-part2 = Ef þú hefur ekki gert það nú þegar skaltu búa til nýjan endurheimtulykil í stillingum reikningsins þíns til að koma í veg fyrir að vistuð lykilorð þín, bókamerki, vafurferill og fleira glatist.
 postRemoveAccountRecovery-action = Sýsla með reikning
+postRemoveRecoveryPhone-subject = Endurheimtusímanúmer fjarlægt
 postRemoveRecoveryPhone-preview = Reikningur er varinn með tveggja-þrepa auðkenningu
+postRemoveRecoveryPhone-title = Endurheimtusímanúmer fjarlægt
 postRemoveRecoveryPhone-requested-device = Þú baðst um það frá:
 postRemoveSecondary-subject = Aukatölvupóstfang fjarlægt
 postRemoveSecondary-title = Aukatölvupóstfang fjarlægt
@@ -391,8 +407,12 @@ postRemoveTwoStepAuthentication-not-required-2 = Þú þarft ekki lengur öryggi
 postSigninRecoveryCode-subject = Varaauðkenningarkóði sem notaður var til innskráningar
 postSigninRecoveryCode-preview = Staðfestu virkni á reikningi
 postSigninRecoveryCode-title = Varaauðkenningarkóðinn þinn var notaður til innskráningar
+postSigninRecoveryCode-device = Þú skráðir þig inn frá:
 postSigninRecoveryCode-action = Sýsla með reikning
+postSigninRecoveryPhone-subject = Endurheimtusímanúmer notað til að skrá inn
 postSigninRecoveryPhone-preview = Staðfestu virkni á reikningi
+postSigninRecoveryPhone-title = Endurheimtusímanúmerið þitt var notað til að skrá inn
+postSigninRecoveryPhone-description = Ef það varst ekki þú sem gerðir það, ættirðu að breyta lykilorðinu þínu strax til að halda reikningnum þínum öruggum.
 postSigninRecoveryPhone-device = Þú skráðir þig inn frá:
 postSigninRecoveryPhone-action = Sýsla með reikning
 postVerify-sub-title-3 = Við erum ánægð að sjá þig!
@@ -647,6 +667,7 @@ verifySecondaryCode-expiry-notice-2 = Hann rennur út eftir 5 mínútur. Eftir a
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = Staðfestu reikninginn þinn
+verifyShortCode-preview = Notaðu meðfylgjandi kóða til að staðfesta { -product-mozilla-account }.
 verifyShortCode-title-3 = Opnaðu internetið með { -brand-mozilla }
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = Staðfestu reikninginn þinn og fáðu sem mest út úr { -brand-mozilla } hvar sem þú skráir þig inn, til dæmis fyrst á:

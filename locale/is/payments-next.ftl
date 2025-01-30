@@ -24,6 +24,7 @@ next-payment-confirmation-amount = { $amount } á { $interval }
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Kort sem endar á { $last4 }
 next-payment-confirmation-download-button = Halda áfram í niðurhal
+checkout-error-boundary-retry-button = Reyna aftur
 
 ## Component - Payment Consent Checkbox
 
@@ -34,6 +35,9 @@ next-payment-confirm-checkbox-error = Þú þarft að ljúka þessu áður en þ
 
 next-new-user-submit = Gerast áskrifandi núna
 next-payment-validate-name-error = Settu inn nafnið þitt
+next-pay-with-heading-paypal = Greiða með { -brand-paypal }
+# Label for the Full Name input
+payment-name-label = Nafn eins og það birtist á kortinu þínu
 
 ## Component - CouponForm
 
