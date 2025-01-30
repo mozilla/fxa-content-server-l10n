@@ -49,9 +49,9 @@ subplat-legal = Právní informace
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Ochrana osobních údajů
 subplat-privacy-website-plaintext = { subplat-privacy }:
-account-deletion-info-block-communications = Pokud bude váš účet smazán, budete stále dostávat e-maily od společností Mozilla Corporation a Mozilla Foundation. Pokud <a data-l10n-name="unsubscribeLink">požádáte o zrušení jejich odběru</a>.
-account-deletion-info-block-support = Pokud máte jakékoliv otázky nebo potřebujete pomoci, neváhejte kontaktovat náš <a data-l10n-name="supportLink">tým podpory</a>.
-account-deletion-info-block-communications-plaintext = Pokud bude váš účet smazán, budete stále dostávat e-maily od Mozilla Corporation a Mozilla Foundation, pokud ovšem nepožádáte o jeho zrušení:
+account-deletion-info-block-communications = Pokud bude váš účet smazán, budete přesto nadále dostávat e-maily od společností Mozilla Corporation a Mozilla Foundation, pokud <a data-l10n-name="unsubscribeLink">nepožádáte o odhlášení</a>.
+account-deletion-info-block-support = Pokud máte jakékoliv otázky nebo potřebujete pomoci, neváhejte kontaktovat <a data-l10n-name="supportLink">náš tým podpory</a>.
+account-deletion-info-block-communications-plaintext = Pokud bude váš účet smazán, budete stále dostávat e-maily od Mozilla Corporation a Mozilla Foundation, pokud ovšem nepožádáte o odhlášení:
 account-deletion-info-block-support-plaintext = Pokud máte jakékoliv otázky nebo potřebujete pomoci, neváhejte se obrátit na náš tým podpory:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
