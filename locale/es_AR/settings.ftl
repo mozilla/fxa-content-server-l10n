@@ -1664,11 +1664,12 @@ signin-recovery-method-header = Iniciar sesión
 signin-recovery-method-subheader = Elegí un método de recuperación
 signin-recovery-method-details = Asegurámonos de que fuiste vos el que usó los métodos de recuperación.
 signin-recovery-method-phone = Teléfono de recuperación
+signin-recovery-method-code-v2 = Códigos de autenticación de respaldo
 # Variable: $numberOfCodes (String) - The number of authentication codes the user has left, e.g. 4
 signin-recovery-method-code-info = { $numberOfCodes } códigos restantes
 # Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
 signin-recovery-method-send-code-error-heading = Hubo un problema al enviar un código a tu teléfono de recuperación
-signin-recovery-method-send-code-error-description = Vuelve a intentarlo más tarde o usa tus códigos de autenticación de respaldo.
+signin-recovery-method-send-code-error-description = Volvé a intentarlo más tarde o usá tus códigos de autenticación de respaldo.
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
@@ -1678,7 +1679,7 @@ signin-recovery-method-send-code-error-description = Vuelve a intentarlo más ta
 signin-recovery-code-heading = Iniciar sesión
 signin-recovery-code-sub-heading = Ingresá el código de autenticación de respaldo
 # codes here refers to backup authentication codes
-signin-recovery-code-instruction-v3 = Ingresa uno de los códigos de un solo uso que guardaste al configurar la autenticación de dos pasos.
+signin-recovery-code-instruction-v3 = Ingresá uno de los códigos de un solo uso que guardaste al configurar la autenticación de dos pasos.
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Confirmar
 # Link to go to the page to use recovery phone instead
@@ -1692,13 +1693,13 @@ signin-recovery-code-required-error = Código de autenticación de respaldo requ
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-recovery-code-use-phone-failure = Hubo un problema al enviar un código a tu teléfono de recuperación
-signin-recovery-code-use-phone-failure-description = Inténtelo de nuevo más tarde.
+signin-recovery-code-use-phone-failure-description = Probá de nuevo más tarde.
 
 ## SigninRecoveryPhone page
 
 signin-recovery-phone-flow-heading = Iniciar sesión
 # A recovery code in context of this page is a one time code sent to the user's phone
-signin-recovery-phone-heading = Ingrese el código de recuperación
+signin-recovery-phone-heading = Ingresá el código de recuperación
 # Text that explains the user should check their phone for a recovery code
 # $maskedPhoneNumber - The users masked phone number
 signin-recovery-phone-instruction = Se envió un código de seis dígitos al <span>{ $maskedPhoneNumber }</span> por mensaje de texto. Este código expira después de 5 minutos.
@@ -1711,7 +1712,7 @@ signin-recovery-phone-locked-out-link = ¿Te dejaron afuera?
 signin-recovery-phone-send-code-error-heading = Hubo un problema enviando un código
 signin-recovery-phone-code-verification-error-heading = Hubo un problema verificando tu código
 # Follows the error message (e.g, "There was a problem sending a code")
-signin-recovery-phone-general-error-description = Inténtelo de nuevo más tarde.
+signin-recovery-phone-general-error-description = Probá de nuevo más tarde.
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
