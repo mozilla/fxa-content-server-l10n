@@ -926,7 +926,7 @@ verify-secondary-email-success-alert-2 = { $email } se agregó correctamente
 # Link to delete account on main Settings page
 delete-account-link = Borrar cuenta
 # Success message displayed in alert bar after the user has successfully confirmed their account is not inactive.
-inactive-update-status-success-alert = Iniciaste sesión correctamente Tu { -product-mozilla-account } y tus datos permanecerán activos.
+inactive-update-status-success-alert = Iniciaste sesión correctamente. Tu { -product-mozilla-account } y tus datos permanecerán activos.
 
 ## Two Step Authentication
 
@@ -1664,7 +1664,6 @@ signin-recovery-method-header = Iniciar sesión
 signin-recovery-method-subheader = Elegí un método de recuperación
 signin-recovery-method-details = Asegurámonos de que fuiste vos el que usó los métodos de recuperación.
 signin-recovery-method-phone = Teléfono de recuperación
-signin-recovery-method-code-v2 = Códigos de autenticación de respaldo
 # Variable: $numberOfCodes (String) - The number of authentication codes the user has left, e.g. 4
 signin-recovery-method-code-info = { $numberOfCodes } códigos restantes
 # Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
