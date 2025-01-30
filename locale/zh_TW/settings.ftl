@@ -1198,6 +1198,8 @@ auth-error-203 = 系統暫時無法使用，請稍後再試一次
 auth-error-206 = 已設定密碼，無法重複設定
 auth-error-214 = 救援電話號碼已存在
 auth-error-215 = 救援電話號碼不存在
+auth-error-216 = 已達簡訊傳送限制
+auth-error-218 = 未建立備用驗證碼，無法移除救援電話驗證號碼。
 auth-error-999 = 未預期的錯誤
 auth-error-1001 = 已取消登入請求
 auth-error-1002 = 登入階段已失效，請登入以繼續。
@@ -1208,6 +1210,7 @@ auth-error-1011 = 請輸入有效的電子郵件信箱
 auth-error-1031 = 您必須輸入年齡才能註冊
 auth-error-1032 = 您必須輸入有效年齡才能註冊
 auth-error-1054 = 無效的兩階段驗證碼
+auth-error-1056 = 備用驗證碼無效
 auth-error-1062 = 重導無效
 oauth-error-1000 = 有些東西不對勁，請關閉此分頁再試一次。
 
@@ -1638,10 +1641,12 @@ signin-recovery-method-header = 登入
 signin-recovery-method-subheader = 選擇救援方式
 signin-recovery-method-details = 請使用您原先設定的救援方式確認身分。
 signin-recovery-method-phone = 救援電話號碼
+signin-recovery-method-code-v2 = 備用驗證碼
 # Variable: $numberOfCodes (String) - The number of authentication codes the user has left, e.g. 4
 signin-recovery-method-code-info = 剩餘 { $numberOfCodes } 組驗證碼
 # Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
 signin-recovery-method-send-code-error-heading = 傳送代碼到您的救援電話號碼時遇到問題
+signin-recovery-method-send-code-error-description = 請稍後再試，或使用您的備用驗證碼。
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
@@ -1650,6 +1655,8 @@ signin-recovery-method-send-code-error-heading = 傳送代碼到您的救援電�
 
 signin-recovery-code-heading = 登入
 signin-recovery-code-sub-heading = 請輸入備用驗證碼
+# codes here refers to backup authentication codes
+signin-recovery-code-instruction-v3 = 請輸入設定兩階段驗證時保存的任一組備用驗證碼。
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = 確認
 # Link to go to the page to use recovery phone instead
@@ -1663,9 +1670,26 @@ signin-recovery-code-required-error = 需要使用備用驗證碼
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-recovery-code-use-phone-failure = 傳送代碼到您的救援電話號碼時遇到問題
+signin-recovery-code-use-phone-failure-description = 請稍候再試。
 
 ## SigninRecoveryPhone page
 
+signin-recovery-phone-flow-heading = 登入
+# A recovery code in context of this page is a one time code sent to the user's phone
+signin-recovery-phone-heading = 請輸入救援碼
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+signin-recovery-phone-instruction = 已透過簡訊將六位數的驗證碼發送至尾數為 <span>{ $maskedPhoneNumber }</span> 的門號，此驗證碼將於 5 分鐘後失效。
+signin-recovery-phone-input-label = 請輸入六位數的驗證碼
+signin-recovery-phone-code-submit-button = 確認
+signin-recovery-phone-resend-code-button = 重寄驗證碼
+signin-recovery-phone-resend-success = 已傳送驗證碼
+# links to https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+signin-recovery-phone-locked-out-link = 被鎖住了嗎？
+signin-recovery-phone-send-code-error-heading = 傳送驗證碼時遇到問題
+signin-recovery-phone-code-verification-error-heading = 確認您輸入的驗證碼時遇到問題
+# Follows the error message (e.g, "There was a problem sending a code")
+signin-recovery-phone-general-error-description = 請稍候再試。
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
