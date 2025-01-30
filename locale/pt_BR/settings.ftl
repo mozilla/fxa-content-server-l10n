@@ -1128,7 +1128,7 @@ tfa-row-action-disable = Desativar
 tfa-row-button-refresh =
     .title = Atualizar autenticação em duas etapas
 tfa-row-cannot-refresh = Desculpe, houve um problema ao atualizar a autenticação em duas etapas.
-tfa-row-enabled-description = Sua conta é protegida pela autenticação em duas etapas. Você precisa inserir uma senha de uso único gerada por seu aplicativo de autenticação, ao entrar na sua { -product-mozilla-account }.
+tfa-row-enabled-description = Sua conta está protegida pela autenticação em duas etapas. Ao entrar na sua { -product-mozilla-account }, você precisa inserir um código de uso único gerado por um aplicativo de autenticação.
 # "this" refers to two-step authentication
 # Link goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
 tfa-row-enabled-info-link = Como isso protege sua conta
