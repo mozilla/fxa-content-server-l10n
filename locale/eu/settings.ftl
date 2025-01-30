@@ -230,6 +230,12 @@ backup-codes-icon-aria-label-v2 =
     .aria-label = Autentifikazio-kodearen babes-kopia gaitua
 backup-codes-disabled-icon-aria-label-v2 =
     .aria-label = Autentifikazio-kodearen babes-kopia desgaitua
+# An icon of phone with text message. A back recovery phone number
+backup-recovery-sms-icon-aria-label =
+    .aria-label = Berreskuratze SMS gaitua
+# Disabled version of backup-recovery-sms-icon-aria-label
+backup-recovery-sms-disabled-icon-aria-label =
+    .aria-label = Berreskuratze SMS desgaitua
 # Used to select Canada as country code for phone number
 canadian-flag-icon-aria-label =
     .aria-label = Kanadako bandera
@@ -1391,6 +1397,7 @@ signin-push-code-confirm-login = Berretsi saio hasiera
 signin-recovery-method-header = Hasi saioa
 signin-recovery-method-subheader = Aukeratu berreskuratze metodoa
 signin-recovery-method-phone = Berreskuratze telefonoa
+signin-recovery-method-code-v2 = Autentifikazio-kodearen babes-kopia
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
@@ -1401,14 +1408,23 @@ signin-recovery-code-heading = Hasi saioa
 signin-recovery-code-sub-heading = Sartu babeskopirako autentifikazio-kodea
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Berretsi
+# Link to go to the page to use recovery phone instead
+signin-recovery-code-phone-link = Erabili berreskuratze telefonoa
 # External link for support if the user can't use two-step autentication or a backup authentication code
 # https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 signin-recovery-code-support-link = Blokeatuta zaude?
 # Error displayed in a tooltip when form is submitted witout a code
 signin-recovery-code-required-error = Beharrezkoa da autentifikazio-kodearen babeskopia
+signin-recovery-code-use-phone-failure-description = Saiatu berriro geroago.
 
 ## SigninRecoveryPhone page
 
+signin-recovery-phone-flow-heading = Hasi saioa
+# A recovery code in context of this page is a one time code sent to the user's phone
+signin-recovery-phone-heading = Sartu berreskuratze kodea
+signin-recovery-phone-input-label = Sartu 6 digituko kodea
+signin-recovery-phone-code-submit-button = Berretsi
+signin-recovery-phone-resend-code-button = Birbidali kodea
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -1431,6 +1447,8 @@ signin-token-code-resend-code-link = Posta elektroniko kode berria.
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
 signin-totp-code-header = Hasi saioa
+signin-totp-code-subheader-v2 = Sartu bi urratseko autentifikazio kodea
+signin-totp-code-input-label-v4 = Sartu 6 digituko kodea
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Berretsi
 signin-totp-code-other-account-link = Erabili beste kontu bat
