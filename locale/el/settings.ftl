@@ -641,6 +641,7 @@ flow-setup-phone-confirm-code-button = Επιβεβαίωση
 # followed by a button to resend a code
 flow-setup-phone-confirm-code-expired = Έληξε ο κωδικός;
 flow-setup-phone-confirm-code-resend-code-button = Αποστολή νέου κωδικού
+flow-setup-phone-confirm-code-resend-code-success = Ο κωδικός απεστάλη
 flow-setup-phone-confirm-code-success-message-v2 = Προστέθηκε τηλέφωνο ανάκτησης
 
 ## FlowSetupPhoneConfirmCode
@@ -713,6 +714,7 @@ tfa-replace-code-success-1 =
     Δημιουργήθηκαν νέοι κωδικοί. Αποθηκεύστε αυτούς τους εφεδρικούς κωδικούς ταυτοποίησης
     μιας χρήσης σε ένα ασφαλές μέρος, όπου θα έχετε πρόσβαση σε περίπτωση που δεν
     έχετε την κινητή συσκευή σας.
+tfa-replace-code-success-alert-4 = Οι εφεδρικοί κωδικοί ταυτοποίησης ενημερώθηκαν
 tfa-replace-code-1-2 = Βήμα 1 από 2
 tfa-replace-code-2-2 = Βήμα 2 από 2
 
@@ -930,6 +932,8 @@ verify-secondary-email-success-alert-2 = Το { $email } προστέθηκε ε
 
 # Link to delete account on main Settings page
 delete-account-link = Διαγραφή λογαριασμού
+# Success message displayed in alert bar after the user has successfully confirmed their account is not inactive.
+inactive-update-status-success-alert = Έγινε επιτυχής σύνδεση. Ο { -product-mozilla-account(case: "nom", capitalization: "lower") } και τα δεδομένα σας θα παραμείνουν ενεργά.
 
 ## Two Step Authentication
 
@@ -1217,7 +1221,13 @@ auth-error-155 = Δεν βρέθηκε διακριτικό TOTP
 auth-error-156 = Δεν βρέθηκε εφεδρικός κωδικός ταυτοποίησης
 auth-error-159 = Μη έγκυρο κλειδί ανάκτησης λογαριασμού
 auth-error-183-2 = Μη έγκυρος ή παλιός κωδικός επιβεβαίωσης
+auth-error-202 = Η λειτουργία δεν είναι ενεργή
+auth-error-203 = Το σύστημα δεν είναι διαθέσιμο, δοκιμάστε ξανά σύντομα
 auth-error-206 = Δεν είναι δυνατή η δημιουργία κωδικού πρόσβασης, έχει ήδη οριστεί κωδικός πρόσβασης
+auth-error-214 = Ο αριθμός τηλεφώνου ανάκτησης υπάρχει ήδη
+auth-error-215 = Ο αριθμός τηλεφώνου ανάκτησης δεν υπάρχει
+auth-error-216 = Έχετε φτάσει το όριο των μηνυμάτων κειμένου
+auth-error-218 = Δεν είναι δυνατή η αφαίρεση του τηλεφώνου ανάκτησης, δεν υπάρχουν εφεδρικοί κωδικοί ταυτοποίησης.
 auth-error-999 = Απροσδόκητο σφάλμα
 auth-error-1001 = Η προσπάθεια σύνδεσης ακυρώθηκε
 auth-error-1002 = Η συνεδρία έληξε. Συνδεθείτε για να συνεχίσετε.
@@ -1228,6 +1238,7 @@ auth-error-1011 = Απαιτείται έγκυρο email
 auth-error-1031 = Πρέπει να εισαγάγετε την ηλικία σας για εγγραφή
 auth-error-1032 = Πρέπει να εισαγάγετε μια έγκυρη ηλικία για εγγραφή
 auth-error-1054 = Μη έγκυρος κωδικός ταυτοποίησης δύο παραγόντων
+auth-error-1056 = Μη έγκυρος εφεδρικός κωδικός ταυτοποίησης
 auth-error-1062 = Μη έγκυρη ανακατεύθυνση
 oauth-error-1000 = Κάτι πήγε στραβά. Παρακαλώ κλείστε αυτήν την καρτέλα και δοκιμάστε ξανά.
 
@@ -1663,8 +1674,12 @@ signin-recovery-method-header = Σύνδεση
 signin-recovery-method-subheader = Επιλέξτε μια μέθοδο ανάκτησης
 signin-recovery-method-details = Ας βεβαιωθούμε ότι είστε εσείς που χρησιμοποιείτε τις μεθόδους ανάκτησής σας.
 signin-recovery-method-phone = Τηλέφωνο ανάκτησης
+signin-recovery-method-code-v2 = Εφεδρικοί κωδικοί ταυτοποίησης
 # Variable: $numberOfCodes (String) - The number of authentication codes the user has left, e.g. 4
 signin-recovery-method-code-info = Απομένουν { $numberOfCodes } κωδικοί
+# Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
+signin-recovery-method-send-code-error-heading = Προέκυψε πρόβλημα κατά την αποστολή κωδικού στο τηλέφωνο ανάκτησής σας
+signin-recovery-method-send-code-error-description = Δοκιμάστε ξανά αργότερα ή χρησιμοποιήστε τους εφεδρικούς κωδικούς ταυτοποίησής σας.
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
@@ -1673,18 +1688,39 @@ signin-recovery-method-code-info = Απομένουν { $numberOfCodes } κωδ�
 
 signin-recovery-code-heading = Σύνδεση
 signin-recovery-code-sub-heading = Εισαγάγετε εφεδρικό κωδικό ταυτοποίησης
+# codes here refers to backup authentication codes
+signin-recovery-code-instruction-v3 = Εισαγάγετε έναν από τους κωδικούς μιας χρήσης που αποθηκεύσατε κατά τη ρύθμιση της ταυτοποίησης δύο παραγόντων.
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Επιβεβαίωση
+# Link to go to the page to use recovery phone instead
+signin-recovery-code-phone-link = Χρήση τηλεφώνου ανάκτησης
 # External link for support if the user can't use two-step autentication or a backup authentication code
 # https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 signin-recovery-code-support-link = Έχετε κλειδωθεί;
 # Error displayed in a tooltip when form is submitted witout a code
 signin-recovery-code-required-error = Απαιτείται εφεδρικός κωδικός ταυτοποίησης
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-recovery-code-use-phone-failure = Προέκυψε πρόβλημα κατά την αποστολή κωδικού στο τηλέφωνο ανάκτησής σας
+signin-recovery-code-use-phone-failure-description = Δοκιμάστε ξανά αργότερα.
 
 ## SigninRecoveryPhone page
 
+signin-recovery-phone-flow-heading = Σύνδεση
+# A recovery code in context of this page is a one time code sent to the user's phone
+signin-recovery-phone-heading = Εισαγάγετε τον κωδικό ανάκτησης
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+signin-recovery-phone-instruction = Ένας εξαψήφιος κωδικός έχει αποσταλεί στο <span>{ $maskedPhoneNumber }</span> μέσω μηνύματος κειμένου. Αυτός ο κωδικός λήγει μετά από 5 λεπτά.
+signin-recovery-phone-input-label = Εισαγάγετε τον εξαψήφιο κωδικό
 signin-recovery-phone-code-submit-button = Επιβεβαίωση
 signin-recovery-phone-resend-code-button = Αποστολή νέου κωδικού
+signin-recovery-phone-resend-success = Ο κωδικός απεστάλη
+# links to https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+signin-recovery-phone-locked-out-link = Έχετε κλειδωθεί;
+signin-recovery-phone-send-code-error-heading = Προέκυψε πρόβλημα κατά την αποστολή του κωδικού
+signin-recovery-phone-code-verification-error-heading = Προέκυψε πρόβλημα κατά την επαλήθευση του κωδικού σας
 # Follows the error message (e.g, "There was a problem sending a code")
 signin-recovery-phone-general-error-description = Δοκιμάστε ξανά αργότερα.
 

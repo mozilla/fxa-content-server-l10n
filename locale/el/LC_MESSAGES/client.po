@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-05 20:09+0000\n"
-"PO-Revision-Date: 2025-01-17 15:02+0000\n"
+"PO-Revision-Date: 2025-01-30 11:06+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: el\n"
@@ -526,7 +526,7 @@ msgstr "Η λειτουργία δεν είναι ενεργή"
 #: .es5/lib/auth-errors.js:294 .es5/lib/auth-errors.js:298 .es5/lib/auth-errors.js:310 .es5/lib/oauth-errors.js:111 .es5/lib/oauth-errors.js:115 .es5/lib/oauth-errors.js:119
 #: .es5/lib/profile-errors.js:37 .es5/lib/profile-errors.js:41 .es5/lib/profile-errors.js:61
 msgid "System unavailable, try again soon"
-msgstr "Μη διαθέσιμο σύστημα, δοκιμάστε πάλι ξανά"
+msgstr "Το σύστημα δεν είναι διαθέσιμο, δοκιμάστε ξανά σύντομα"
 
 #: .es5/lib/auth-errors.js:302
 msgid "This endpoint is no longer supported"
