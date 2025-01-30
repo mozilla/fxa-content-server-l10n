@@ -1605,6 +1605,8 @@ signin-recovery-code-use-phone-failure = הייתה בעיה בשליחת קוד
 signin-recovery-phone-locked-out-link = ננעלת מחוץ לחשבון?
 signin-recovery-phone-send-code-error-heading = הייתה בעיה בשליחת קוד
 signin-recovery-phone-code-verification-error-heading = הייתה בעיה באימות הקוד שלך
+# Follows the error message (e.g, "There was a problem sending a code")
+signin-recovery-phone-general-error-description = נא לנסות שוב מאוחר יותר.
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
