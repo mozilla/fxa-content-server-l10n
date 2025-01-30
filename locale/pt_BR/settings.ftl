@@ -507,7 +507,7 @@ connect-another-app-store-image-2 =
 ## Connected services section
 
 cs-heading = Serviços conectados
-cs-description = Tudo em que você está conectado e usando.
+cs-description = Tudo que você usa ou está conectado.
 cs-cannot-refresh = Desculpe, houve um problema ao atualizar a lista de serviços conectados.
 cs-cannot-disconnect = Cliente não encontrado, não é possível desconectar
 # This string is used in a notification message near the top of the page.
