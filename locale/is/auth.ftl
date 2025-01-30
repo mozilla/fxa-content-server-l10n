@@ -77,6 +77,7 @@ automated-email-support = Til að sjá nánari upplýsingar, skaltu fara á <a d
 automated-email-change-plaintext-2 = Ef það varst ekki þú sem gerðir þessa aðgerð skaltu breyta lykilorðinu þínu strax:
 #  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-support-plaintext = Til að sjá nánari upplýsingar, skaltu fara á { -brand-mozilla } aðstoðargáttina:
+automated-email-inactive-account = Þetta er sjálfvirkur tölvupóstur. Þú ert að fá hann vegna þess að þú ert með { -product-mozilla-account } og að liðin eru 2 ár síðan þú skráðir þig inn síðast.
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext }Til að sjá frekari upplýsingar, skaltu fara á <a data-l10n-name="supportLink">{ -brand-mozilla } aðstoðargáttina</a>.
 automated-email-no-action-plaintext = Þetta er sjálfvirkur tölvupóstur. Ef þú fékkst hann fyrir mistök þarftu ekki að gera neitt.
@@ -123,6 +124,9 @@ automatedEmailRecoveryKey-more-info-plaintext = Til að sjá nánari upplýsinga
 automated-email-reset =
     Þetta er sjálfvirkur tölvupóstur; ef þú heimilaðir ekki þessa aðgerð, skaltu <a data-l10n-name="resetLink">endurstilla lykilorðið þitt</a>.
     Til að sjá frekari upplýsingar, geturðu farið á <a data-l10n-name="supportLink">{ -brand-mozilla } Support aðstoðargáttina</a>.
+# Variables:
+#  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
+automated-email-reset-plaintext-v2 = Ef það varst ekki þú sem leyfðir þessa aðgerð, þá skaltu endurstilla lykilorðið þitt núna á { $resetLink }
 brand-banner-message = Vissir þú að við breyttum nafni okkar úr { -product-firefox-accounts } í { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Frekari upplýsingar</a>
 cancellationSurvey = Hjálpaðu okkur við að bæta þjónustuna með því að taka þátt í <a data-l10n-name="cancellationSurveyUrl">stuttri könnun</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
