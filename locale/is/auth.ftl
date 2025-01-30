@@ -49,6 +49,9 @@ subplat-legal = Lögfræðilegt efni
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Friðhelgi
 subplat-privacy-website-plaintext = { subplat-privacy }:
+account-deletion-info-block-communications = Ef reikningnum þínum er eytt, færðu samt áfram tölvupósta frá Mozilla Corporation og Mozilla Foundation, nema þú <a data-l10n-name="unsubscribeLink">biðjir um að áskriftinni að þeim sé sagt upp</a>.
+account-deletion-info-block-support = Ef þú hefur einhverjar spurningar eða þarft aðstoð, skaltu ekki hika við að hafa samband við <a data-l10n-name="supportLink">aðstoðarteymið okkar</a>.
+account-deletion-info-block-communications-plaintext = Ef reikningnum þínum er eytt, færðu samt áfram tölvupósta frá Mozilla Corporation og Mozilla Foundation, nema þú biðjir um að áskriftinni að þeim sé sagt upp:
 account-deletion-info-block-support-plaintext = Ef þú hefur einhverjar spurningar eða þarft aðstoð, skaltu ekki hika við að hafa samband við aðstoðarteymið okkar:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
@@ -250,18 +253,26 @@ fraudulentAccountDeletion-contact-plaintext = Ef þú ert með einhverjar spurni
 inactiveAccountFinalWarning-subject = Síðasti séns til að halda { -product-mozilla-account }-reikningnum þínum
 inactiveAccountFinalWarning-title = { -brand-mozilla }-reikningnum þínum og tengdum gögnum verður eytt
 inactiveAccountFinalWarning-preview = Skráðu þig inn til að halda reikningnum þínum
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+# This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
+inactiveAccountFinalWarning-impact = Þann <strong>{ $deletionDate }</strong> verður reikningnum þínum og persónulegum gögnum eytt varanlega nema þú skráir þig inn.
 inactiveAccountFinalWarning-action = Skráðu þig inn til að halda reikningnum þínum
 # followed by link to sign in
 inactiveAccountFinalWarning-action-plaintext = Skráðu þig inn til að halda reikningnum þínum:
 inactiveAccountFirstWarning-subject = Ekki tapa reikningnum þínum
 inactiveAccountFirstWarning-title = Viltu halda { -brand-mozilla }-reikningnum þínum og tengdum gögnum?
 inactiveAccountFirstWarning-inactive-status = Við höfum tekið eftir því að þú hefur ekki skráð þig inn í 2 ár.
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+# This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
+inactiveAccountFirstWarning-impact = Reikningnum þínum og persónulegum gögnum verður varanlega eytt þann <strong>{ $deletionDate }</strong> vegna þess að langt er síðan þú hefur notað þetta.
 inactiveAccountFirstWarning-action = Skráðu þig inn til að halda reikningnum þínum
 inactiveAccountFirstWarning-preview = Skráðu þig inn til að halda reikningnum þínum
 # followed by link to sign in
 inactiveAccountFirstWarning-action-plaintext = Skráðu þig inn til að halda reikningnum þínum:
 inactiveAccountSecondWarning-subject = Aðgerðar krafist: Reikningi verður eytt eftir 7 daga
 inactiveAccountSecondWarning-title = { -brand-mozilla }-reikningnum þínum og tengdum gögnum verður eytt eftir 7 daga
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+inactiveAccountSecondWarning-impact = Reikningnum þínum og persónulegum gögnum verður varanlega eytt þann <strong>{ $deletionDate }</strong> vegna þess að langt er síðan þú hefur notað þetta.
 inactiveAccountSecondWarning-action = Skráðu þig inn til að halda reikningnum þínum
 inactiveAccountSecondWarning-preview = Skráðu þig inn til að halda reikningnum þínum
 # followed by link to sign in
@@ -412,6 +423,7 @@ postRemoveTwoStepAuthentication-not-required-2 = Þú þarft ekki lengur öryggi
 postSigninRecoveryCode-subject = Varaauðkenningarkóði sem notaður var til innskráningar
 postSigninRecoveryCode-preview = Staðfestu virkni á reikningi
 postSigninRecoveryCode-title = Varaauðkenningarkóðinn þinn var notaður til innskráningar
+postSigninRecoveryCode-description = Ef það varst ekki þú sem gerðir það, ættirðu að breyta lykilorðinu þínu strax til að halda reikningnum þínum öruggum.
 postSigninRecoveryCode-device = Þú skráðir þig inn frá:
 postSigninRecoveryCode-action = Sýsla með reikning
 postSigninRecoveryPhone-subject = Endurheimtusímanúmer notað til að skrá inn
