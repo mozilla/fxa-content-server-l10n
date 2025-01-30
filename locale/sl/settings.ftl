@@ -652,7 +652,7 @@ flow-setup-phone-verify-number-instruction = Od { -brand-mozilla(sklon: "rodilni
 # Phone mask services (for example Relay) provide a temporary virtual number to avoid providing a real phone number.
 # Both VoIP and phone masks can be unreliable for one-time-passcode (OTP) verification
 flow-setup-phone-submit-number-info-message-v2 = Telefonska številka za obnovitev je na voljo samo v ZDA in Kanadi. Uporabe številk VoIP in telefonskih mask ne priporočamo.
-flow-setup-phone-submit-number-legal = S predložitvijo vaše številke se strinjate z njeno shranjevanjem, da vam lahko pošiljamo sporočila samo za potrditev računa. Sporočila in prenos podatkov lahko nastanejo.
+flow-setup-phone-submit-number-legal = Z vnosom telefonske številke soglašate, da jo shranimo z izključnim namenom pošiljanja sporočil za potrditev računa. Nastanejo lahko stroški sporočil in prenosa podatkov.
 # cliking on the button sends a code by text message to the phone number typed in by the user
 flow-setup-phone-submit-number-button = Pošlji kodo
 
@@ -881,7 +881,7 @@ recovery-phone-remove-header = Odstrani telefonsko številko za obnovitev
 # Variables:
 #   $formattedFullPhoneNumber (String) - the user's full phone number
 settings-recovery-phone-remove-info = S tem boste odstranili telefonsko številko za obnovitev <strong>{ $formattedFullPhoneNumber }</strong>.
-settings-recovery-phone-remove-recommend = Priporočamo vam, da ohranite to metodo, ker je preprostejša kot shranjevanje rezervnih overitvenih kod.
+settings-recovery-phone-remove-recommend = Priporočamo vam, da to metodo ohranite, ker je preprostejša kot shranjevanje rezervnih overitvenih kod.
 # "Saved backup authentication codes" refers to previously saved backup authentication codes
 settings-recovery-phone-remove-recovery-methods = Če ga izbrišete, se prepričajte, da imate še vedno shranjene rezervne overitvene kode. <linkExternal>Primerjajte metode obnovitve</linkExternal>
 settings-recovery-phone-remove-button = Odstrani telefonsko številko
