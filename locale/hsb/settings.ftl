@@ -1220,6 +1220,7 @@ auth-error-206 = Njeje móžno hesło wutworić, dokelž hesło je hižo nastaje
 auth-error-214 = Čisło wobnowjenskeho telefona hižo eksistuje
 auth-error-215 = Čisło wobnowjenskeho telefona njeeksistuje
 auth-error-216 = Limit tekstoweje powěsće docpěty
+auth-error-218 = Njeje móžno wobnowjenski telefon wotstronić, awtentifikaciske kody za zawěsćenje faluja.
 auth-error-999 = Njewočakowany zmylk
 auth-error-1001 = Přizjewjenski pospyt přetorhnjeny
 auth-error-1002 = Posedźenje jo wotběžało. Přizjewće so, zo byšće pokročował.
@@ -1669,6 +1670,9 @@ signin-recovery-method-phone = Wobnowjenski telefon
 signin-recovery-method-code-v2 = Zawěsćenske awtentifikaciske kody
 # Variable: $numberOfCodes (String) - The number of authentication codes the user has left, e.g. 4
 signin-recovery-method-code-info = Zbywace kody: { $numberOfCodes }
+# Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
+signin-recovery-method-send-code-error-heading = Při słanju koda na waš wobnowjenski telefon je problem nastał
+signin-recovery-method-send-code-error-description = Prošu spytajće pozdźišo hišće raz abo wužiwajće swoje awtentifikaciske kody za zawěsćenje.
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
@@ -1677,6 +1681,8 @@ signin-recovery-method-code-info = Zbywace kody: { $numberOfCodes }
 
 signin-recovery-code-heading = Přizjewić
 signin-recovery-code-sub-heading = Zapodajće kod za zawěsćensku awtentifikaciju
+# codes here refers to backup authentication codes
+signin-recovery-code-instruction-v3 = Zapodajće jedyn z kodow za jónkróćne wužiwanje, hdyž dwukročelowu awtentifikaciju konfigurujeće.
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Wobkrućić
 # Link to go to the page to use recovery phone instead
@@ -1686,6 +1692,10 @@ signin-recovery-code-phone-link = Wobnowjenski telefon wužiwać
 signin-recovery-code-support-link = Sće wuzamknjewny?
 # Error displayed in a tooltip when form is submitted witout a code
 signin-recovery-code-required-error = Awtentifikaciski kod za zawěsćenje trěbny
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-recovery-code-use-phone-failure = Při słanju koda na waš wobnowjenski telefon je problem nastał
 signin-recovery-code-use-phone-failure-description = Prošu spytaj pozdźišo hišće raz.
 
 ## SigninRecoveryPhone page
