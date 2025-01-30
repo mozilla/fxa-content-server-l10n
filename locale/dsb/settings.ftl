@@ -639,6 +639,7 @@ flow-setup-phone-confirm-code-button = Wobkšuśiś
 # followed by a button to resend a code
 flow-setup-phone-confirm-code-expired = Kod jo spadnuł?
 flow-setup-phone-confirm-code-resend-code-button = Kod znowego słaś
+flow-setup-phone-confirm-code-resend-code-success = Kod jo se pósłał
 flow-setup-phone-confirm-code-success-message-v2 = Wótnowjeński telefon pśidany
 
 ## FlowSetupPhoneConfirmCode
@@ -711,6 +712,7 @@ tfa-replace-code-success-1 =
     Nowe kody su s napórali. Składujśo toś te kody za zawěsćeńsku awtentifikaciju za jadnorazowe wužywanje
     na wěstem městnje – trjebaśo je za pśistup k swójomu kontoju, jolic njamaśo
     swój mobilny rěd.
+tfa-replace-code-success-alert-4 = Awtentifikaciske kody za zawěsćenje su se zaktualizěrowali
 tfa-replace-code-1-2 = Kšac 1 z 2
 tfa-replace-code-2-2 = Kšac 2 z 2
 
@@ -928,6 +930,8 @@ verify-secondary-email-success-alert-2 = { $email } jo se wuspěšnje pśidała
 
 # Link to delete account on main Settings page
 delete-account-link = Konto wulašowaś
+# Success message displayed in alert bar after the user has successfully confirmed their account is not inactive.
+inactive-update-status-success-alert = Wuspěšnje pśizjawjony. Waše { -product-mozilla-account } a daty aktiwne wóstanu.
 
 ## Two Step Authentication
 
@@ -1200,12 +1204,20 @@ auth-error-114-generic = Sćo to pśecesto wopytał. Wopytajśo pšosym pózdźe
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Sćo wopytał to pśecesto. Wopytajśo za { $retryAfter } hyšći raz.
 auth-error-125 = Napšašowanje jo se z pśicynow wěstoty zablokěrowało
+auth-error-129 = Njepłaśiwe telefonowy numer
 auth-error-138-2 = Njewobkšuśone pósejźenje
 auth-error-139 = Druga e-mailowa adresa musy se wót adrese wašogo konta rozeznaś
 auth-error-155 = TOTP-token njejo se namakał
+# Error shown when the user submits an invalid backup authentication code
+auth-error-156 = Awtentifikaciski kod za zawěsćenje njejo se namakał
 auth-error-159 = Njepłaśiwy kontowy wótnowjeński kluc
 auth-error-183-2 = Njepłaśiwy abo spadnjony wobkšuśeński kod
+auth-error-202 = Funkcija njejo zmóžnjona
+auth-error-203 = System njestoj k dispoziciji, wopytajśo za krotki cas hyšći raz
 auth-error-206 = Njejo móžno gronidło napóraś, dokulaž gronidło jo južo nastajone
+auth-error-214 = Numer wótnowjeńskego telefona južo eksistěrujo
+auth-error-215 = Numer wótnowjeńskego telefona njeeksistěrujo
+auth-error-216 = Limit tekstoweje powěsći dostany
 auth-error-999 = Njewótcakowana zmólka
 auth-error-1001 = Pśizjawjeński wopyt pśetergnjony
 auth-error-1002 = Pósejźenje jo wótběgnuło. Pśizjawśo se, aby pókšacował.
@@ -1216,6 +1228,7 @@ auth-error-1011 = Płaśiwa e-mailowa adresa trjebna
 auth-error-1031 = Musyśo swójo starstwo zapódaś, aby se registrěrował
 auth-error-1032 = Musyśo płaśiwe starstwo zapódaś, aby se registrěrował
 auth-error-1054 = Njepłaśiwy kod za dwójokšacowu awtentifikaciju
+auth-error-1056 = Njepłaśiwy kod za zawěsćeńsku awtentifikaciju
 auth-error-1062 = Njepłaśiwe dalejpósrědnjenje
 oauth-error-1000 = Něco njejo se raźiło. Pšosym zacyńśo toś ten rejtarik a wopytajśo hyšći raz.
 
@@ -1651,6 +1664,7 @@ signin-recovery-method-header = Pśizjawiś
 signin-recovery-method-subheader = Wubjeŕśo wótnowjeńsku metodu
 signin-recovery-method-details = Pśeznańśo se, až wy swóje wótnowjeńske metody wužywaśo.
 signin-recovery-method-phone = Wótnowjeński telefon
+signin-recovery-method-code-v2 = Kody za zawěsćeńsku awtentifikaciju
 # Variable: $numberOfCodes (String) - The number of authentication codes the user has left, e.g. 4
 signin-recovery-method-code-info = Zbywajuce kody: { $numberOfCodes }
 
@@ -1663,14 +1677,33 @@ signin-recovery-code-heading = Pśizjawiś
 signin-recovery-code-sub-heading = Zapódajśo kod za zawěsćeńsku awtentifikaciju
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Wobkšuśiś
+# Link to go to the page to use recovery phone instead
+signin-recovery-code-phone-link = Wótnowjeński telefon wužywaś
 # External link for support if the user can't use two-step autentication or a backup authentication code
 # https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 signin-recovery-code-support-link = Sćo se wuzamknuł?
 # Error displayed in a tooltip when form is submitted witout a code
 signin-recovery-code-required-error = Awtentifikaciski kod za zawěsćenje trjebny
+signin-recovery-code-use-phone-failure-description = Wopytajśo pšosym pózdźej hyšći raz.
 
 ## SigninRecoveryPhone page
 
+signin-recovery-phone-flow-heading = Pśizjawiś
+# A recovery code in context of this page is a one time code sent to the user's phone
+signin-recovery-phone-heading = Wótnowjeński kod zapódaś
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+signin-recovery-phone-instruction = Šesćměstnowy kod jo se pósłał pśez tekstowu powěsć na <span>{ $maskedPhoneNumber }</span>. Toś ten kod za 5 minutow spadnjo.
+signin-recovery-phone-input-label = 6-městnowy kod zapódaś
+signin-recovery-phone-code-submit-button = Wobkšuśiś
+signin-recovery-phone-resend-code-button = Kod znowego słaś
+signin-recovery-phone-resend-success = Kod jo se pósłał
+# links to https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+signin-recovery-phone-locked-out-link = Sćo se wuzamknuł?
+signin-recovery-phone-send-code-error-heading = Pśi słanju koda jo problem nastał
+signin-recovery-phone-code-verification-error-heading = Pśi pśeglědowanju wašogo koda jo problem nastał
+# Follows the error message (e.g, "There was a problem sending a code")
+signin-recovery-phone-general-error-description = Wopytajśo pšosym pózdźej hyšći raz.
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
