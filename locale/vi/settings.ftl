@@ -639,6 +639,7 @@ flow-setup-phone-confirm-code-button = Xác nhận
 # followed by a button to resend a code
 flow-setup-phone-confirm-code-expired = Mã đã hết hạn?
 flow-setup-phone-confirm-code-resend-code-button = Gửi lại mã
+flow-setup-phone-confirm-code-resend-code-success = Đã gửi mã
 flow-setup-phone-confirm-code-success-message-v2 = Đã thêm số điện thoại khôi phục
 
 ## FlowSetupPhoneConfirmCode
@@ -711,6 +712,7 @@ tfa-replace-code-success-1 =
     Mã mới đã được tạo. Lưu các mã xác thực dự phòng một lần này
     ở một nơi an toàn — bạn sẽ cần chúng để truy cập vào tài khoản của mình nếu không
     có thiết bị di động của bạn.
+tfa-replace-code-success-alert-4 = Đã cập nhật mã xác thực dự phòng
 tfa-replace-code-1-2 = Bước 1/2
 tfa-replace-code-2-2 = Bước 2/2
 
@@ -884,6 +886,7 @@ settings-recovery-phone-remove-recommend = Chúng tôi khuyên bạn nên giữ 
 settings-recovery-phone-remove-recovery-methods = Nếu bạn xóa nó, hãy đảm bảo rằng bạn vẫn còn mã xác thực dự phòng đã lưu. <linkExternal>So sánh các phương pháp phục hồi</linkExternal>
 settings-recovery-phone-remove-button = Xoá số điện thoại
 settings-recovery-phone-remove-cancel = Hủy bỏ
+settings-recovery-phone-remove-success = Đã xóa số điện thoại khôi phục
 
 ## PageSetupRecoveryPhone
 
@@ -927,6 +930,8 @@ verify-secondary-email-success-alert-2 = Đã thêm { $email } thành công
 
 # Link to delete account on main Settings page
 delete-account-link = Xóa tài khoản
+# Success message displayed in alert bar after the user has successfully confirmed their account is not inactive.
+inactive-update-status-success-alert = Đã đăng nhập thành công. { -product-mozilla-account } và dữ liệu của bạn sẽ duy trì hoạt động.
 
 ## Two Step Authentication
 
@@ -1203,12 +1208,21 @@ auth-error-114-generic = Bạn đã thử quá nhiều lần. Hãy thử lại s
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Bạn đã thử quá nhiều lần. Vui lòng thử lại { $retryAfter }.
 auth-error-125 = Yêu cầu đã bị chặn vì lý do bảo mật
+auth-error-129 = Số điện thoại không hợp lệ
 auth-error-138-2 = Phiên chưa được xác minh
 auth-error-139 = Email phụ phải khác với email chính của bạn
 auth-error-155 = Không tìm thấy token TOTP
+# Error shown when the user submits an invalid backup authentication code
+auth-error-156 = Không tìm thấy mã xác thực dự phòng
 auth-error-159 = Khóa khôi phục tài khoản không hợp lệ
 auth-error-183-2 = Mã xác minh không hợp lệ hoặc đã hết hạn
+auth-error-202 = Tính năng không được bật
+auth-error-203 = Hệ thống không khả dụng, hãy thử lại sau
 auth-error-206 = Không tạo được mật khẩu, mật khẩu đã được đặt trước đó
+auth-error-214 = Số điện thoại khôi phục đã tồn tại
+auth-error-215 = Số điện thoại khôi phục không tồn tại
+auth-error-216 = Đã đạt giới hạn gửi tin nhắn văn bản
+auth-error-218 = Không thể xóa số điện thoại khôi phục, chưa có mã xác thực dự phòng.
 auth-error-999 = Lỗi không xác định
 auth-error-1001 = Đã hủy đăng nhập
 auth-error-1002 = Phiên đã hết hạn. Đăng nhập để tiếp tục.
@@ -1219,6 +1233,7 @@ auth-error-1011 = Yêu cầu email hợp lệ
 auth-error-1031 = Bạn phải nhập tuổi của bạn để đăng ký
 auth-error-1032 = Bạn phải nhập tuổi hợp lệ để đăng ký
 auth-error-1054 = Mã xác thực hai bước không hợp lệ
+auth-error-1056 = Mã xác thực dự phòng không hợp lệ
 auth-error-1062 = Chuyển hướng không hợp lệ
 oauth-error-1000 = Đã xảy ra lỗi. Vui lòng đóng thẻ này và thử lại.
 
@@ -1654,8 +1669,12 @@ signin-recovery-method-header = Đăng nhập
 signin-recovery-method-subheader = Chọn phương pháp khôi phục
 signin-recovery-method-details = Hãy đảm bảo rằng bạn chính là người đang sử dụng phương thức khôi phục của mình.
 signin-recovery-method-phone = Số điện thoại khôi phục
+signin-recovery-method-code-v2 = Mã xác thực dự phòng
 # Variable: $numberOfCodes (String) - The number of authentication codes the user has left, e.g. 4
 signin-recovery-method-code-info = { $numberOfCodes } mã còn lại
+# Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
+signin-recovery-method-send-code-error-heading = Có sự cố khi gửi mã đến số điện thoại khôi phục của bạn
+signin-recovery-method-send-code-error-description = Vui lòng thử lại sau hoặc sử dụng mã xác thực dự phòng của bạn.
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
@@ -1664,16 +1683,41 @@ signin-recovery-method-code-info = { $numberOfCodes } mã còn lại
 
 signin-recovery-code-heading = Đăng nhập
 signin-recovery-code-sub-heading = Nhập mã xác thực dự phòng
+# codes here refers to backup authentication codes
+signin-recovery-code-instruction-v3 = Nhập một trong các mã sử dụng một lần bạn đã lưu khi bạn thiết lập xác thực hai bước.
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Xác nhận
+# Link to go to the page to use recovery phone instead
+signin-recovery-code-phone-link = Sử dụng số điện thoại khôi phục
 # External link for support if the user can't use two-step autentication or a backup authentication code
 # https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 signin-recovery-code-support-link = Tài khoản của bạn đang bị khóa?
 # Error displayed in a tooltip when form is submitted witout a code
 signin-recovery-code-required-error = Cần có mã xác thực dự phòng
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-recovery-code-use-phone-failure = Có sự cố khi gửi mã đến số điện thoại khôi phục của bạn
+signin-recovery-code-use-phone-failure-description = Vui lòng thử lại sau.
 
 ## SigninRecoveryPhone page
 
+signin-recovery-phone-flow-heading = Đăng nhập
+# A recovery code in context of this page is a one time code sent to the user's phone
+signin-recovery-phone-heading = Nhập mã khôi phục
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+signin-recovery-phone-instruction = Một mã gồm sáu chữ số đã được gửi đến <span>{ $maskedPhoneNumber }</span> bằng tin nhắn văn bản. Mã này hết hạn sau 5 phút.
+signin-recovery-phone-input-label = Nhập mã gồm 6 chữ số
+signin-recovery-phone-code-submit-button = Xác nhận
+signin-recovery-phone-resend-code-button = Gửi lại mã
+signin-recovery-phone-resend-success = Mã đã được gửi
+# links to https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+signin-recovery-phone-locked-out-link = Tài khoản của bạn đang bị khóa?
+signin-recovery-phone-send-code-error-heading = Có vấn đề khi gửi mã
+signin-recovery-phone-code-verification-error-heading = Có vấn đề khi xác minh mã của bạn.
+# Follows the error message (e.g, "There was a problem sending a code")
+signin-recovery-phone-general-error-description = Vui lòng thử lại sau.
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 

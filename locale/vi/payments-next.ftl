@@ -80,6 +80,8 @@ select-tax-location-save-button = Lưu
 select-tax-location-country-code-label = Quốc gia
 select-tax-location-country-code-placeholder = Chọn quốc gia của bạn
 select-tax-location-error-missing-country-code = Vui lòng chọn quốc gia của bạn
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN
+select-tax-location-product-not-available = { $productName } không có sẵn ở vị trí này.
 select-tax-location-postal-code-label = Mã bưu chính
 select-tax-location-postal-code =
     .placeholder = Nhập mã bưu chính của bạn
