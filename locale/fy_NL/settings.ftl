@@ -643,6 +643,7 @@ flow-setup-phone-confirm-code-button = Befêstigje
 # followed by a button to resend a code
 flow-setup-phone-confirm-code-expired = Koade ferrûn?
 flow-setup-phone-confirm-code-resend-code-button = Koade nochris ferstjoere
+flow-setup-phone-confirm-code-resend-code-success = Koade ferstjoerd
 flow-setup-phone-confirm-code-success-message-v2 = Wersteltelefoannûmer tafoege
 
 ## FlowSetupPhoneConfirmCode
@@ -715,6 +716,7 @@ tfa-replace-code-success-1 =
     Der binne nije koaden oanmakke. Bewarje dizze reserve-autentikaasjekoaden foar ien kear gebrûk
     op in feilich plak – jo hawwe se nedich om tagong te krijen ta jo account as jo jo
     mobile apparaat net hawwe.
+tfa-replace-code-success-alert-4 = Reserve-autentikaasjekoaden bywurke
 tfa-replace-code-1-2 = Stap 1 fan 2
 tfa-replace-code-2-2 = Stap 2 fan 2
 
@@ -932,6 +934,8 @@ verify-secondary-email-success-alert-2 = { $email } mei sukses tafoege
 
 # Link to delete account on main Settings page
 delete-account-link = Account fuortsmite
+# Success message displayed in alert bar after the user has successfully confirmed their account is not inactive.
+inactive-update-status-success-alert = Mei sukses oanmeld. Jo { -product-mozilla-account } en gegevens bliuwe aktyf.
 
 ## Two Step Authentication
 
@@ -1210,12 +1214,20 @@ auth-error-114-generic = Jo hawwe te faaks besocht. Probearje letter opnij.
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Jo hawwe it te faak probearre. Probearje it { $retryAfter } opnij.
 auth-error-125 = De oanfraach is om reden fan feilichheid blokkearre
+auth-error-129 = Unjildich telefoannûmer
 auth-error-138-2 = Net-befêstige sesje
 auth-error-139 = Sekundêr e-mailadres moat oars wêze as jo account-e-mailadres
 auth-error-155 = TOTP-token net fûn
+# Error shown when the user submits an invalid backup authentication code
+auth-error-156 = Reserve-autentikaasjekoade net fûn
 auth-error-159 = Unjildige accountwerstelkaai
 auth-error-183-2 = Unjildige of ferrûne befêstigingskoade
+auth-error-202 = Funksje net ynskeakele
+auth-error-203 = Systeem net beskikber, probearje it letter opnij
 auth-error-206 = Kin gjin wachtwurd oanmeitsje, wachtwurd is al ynsteld
+auth-error-214 = Wersteltelefoannûmer bestiet al
+auth-error-215 = Wersteltelefoannûmer bestiet net
+auth-error-216 = SMS-limyt berikt
 auth-error-999 = Unferwachte flater
 auth-error-1001 = Oanmeldbesykjen annulearre
 auth-error-1002 = Sesje ferrûn. Meld jo oan om troch te gean.
