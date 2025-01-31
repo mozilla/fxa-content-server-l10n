@@ -36,6 +36,8 @@ brand-m-logo =
 ## ButtonBack component
 ## Allows users to click a back arrow to navigate to the previous page
 
+button-back-aria-label = Enavos
+button-back-title = Enavos
 
 ## ButtonDownloadRecoveryKeyPDF
 ## Clicking on this button downloads a PDF file that contains the user's account recovery key
@@ -291,6 +293,10 @@ recovery-phone-image-description =
     .aria-label = Apparat mobil che retschaiva in code via SMS.
 recovery-phone-code-image-description =
     .aria-label = Code retschavì sin in apparat mobil.
+backup-recovery-phone-image-aria-label =
+    .aria-label = Apparat mobil cun funcziunalitad dad SMS
+backup-authentication-codes-image-aria-label =
+    .aria-label = Visur da l’apparat cun codes
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -321,6 +327,8 @@ input-password-sr-only-now-hidden = Tes pled-clav è ussa zuppentà.
 
 ## Phone number component
 
+# This is an aria-label available to screen readers for a selection list that includes country flags, country name and country code
+input-phone-number-country-list-aria-label = Tscherna in pajais
 input-phone-number-enter-number = Endatar il numer da telefon
 input-phone-number-country-united-states = Stadis Unids da l’America
 input-phone-number-country-canada = Canada
@@ -567,6 +575,9 @@ dc-learn-more = Ulteriuras infurmaziuns
 # DropDownAvatarMenu component
 
 drop-down-menu-title-2 = Menu { -product-mozilla-account }
+# This is displayed in the Settings menu after user's click on their profile icon.
+# Following this string on a new line will be their display name (user's name or email)
+drop-down-menu-signed-in-as-v2 = Annunzià sco
 drop-down-menu-sign-out = Sortir
 drop-down-menu-sign-out-error-2 = Perstgisa, igl ha dà in problem cun ta deconnectar
 
@@ -620,9 +631,33 @@ flow-recovery-key-info-cancel-link = Interrumper
 
 ## FlowSetupPhoneConfirmCode
 
+# verification code refers to a code sent by text message to confirm phone number ownership
+# and complete setup
+flow-setup-phone-confirm-code-heading = Endatar il code da verificaziun
+# $phoneNumber is a partially obfuscated phone number with only the last 4 digits showing (e.g., *** *** 1234)
+# span element applies formatting to ensure the number is always displayed left-to-right
+flow-setup-phone-confirm-code-instruction = In code da sis cifras è vegnì tramess a <span>{ $phoneNumber }</span> via SMS. Quest code scada en 5 minutas.
+flow-setup-phone-confirm-code-input-label = Endatescha il code da 6 cifras
+flow-setup-phone-confirm-code-button = Confermar
+# button to resend a code by text message to the user's phone
+# followed by a button to resend a code
+flow-setup-phone-confirm-code-expired = Code scadì?
+flow-setup-phone-confirm-code-resend-code-button = Trametter anc ina giada il code
+flow-setup-phone-confirm-code-success-message-v2 = Agiuntà in numer da telefon per la recuperaziun dal conto
 
 ## FlowSetupPhoneConfirmCode
 
+flow-setup-phone-submit-number-heading = Verifitgescha tes numer da telefon
+# The code is a 6-digit code send by text message/SMS
+flow-setup-phone-verify-number-instruction = Ti vegns a retschaiver in messadi da text da { -brand-mozilla } cun in code per verifitgar tes numer. Na cundivida cun nagin quest code.
+# The initial rollout of the recovery phone is only available to users with US and Canada mobile phone numbers.
+# Voice over Internet Protocol (VoIP), is a technology that uses a broadband Internet connection instead of a regular (or analog) phone line to make calls.
+# Phone mask services (for example Relay) provide a temporary virtual number to avoid providing a real phone number.
+# Both VoIP and phone masks can be unreliable for one-time-passcode (OTP) verification
+flow-setup-phone-submit-number-info-message-v2 = La funcziunalitad dal numer da telefon da recuperaziun stat mo a disposiziun en ils Stadis Unids da l’America ed en il Canada. I vegn scusseglià d’utilisar numers VoIP ed alias da numers da telefon.
+flow-setup-phone-submit-number-legal = Cun inditgar tes numer, acceptas ti che nus al memorisain per pudair ta trametter messadis da text, dentant exclusivamain en connex cun la verificaziun dal conto. Quai po chaschunar custs per l’utilisaziun da messadis e datas.
+# cliking on the button sends a code by text message to the phone number typed in by the user
+flow-setup-phone-submit-number-button = Trametter il code
 
 ## HeaderLockup component, the header in account settings
 
@@ -844,9 +879,19 @@ recovery-key-create-back-button-title = Turnar als parameters
 ## PageRecoveryPhoneRemove
 ## Users reach this page from account settings when they want to remove a backup phone number.
 
+recovery-phone-remove-header = Allontanar il numer da telefon da recuperaziun
+# Variables:
+#   $formattedFullPhoneNumber (String) - the user's full phone number
+settings-recovery-phone-remove-info = Il numer da telefon da recuperaziun <strong>{ $formattedFullPhoneNumber }</strong> vegn uschia stizzà.
+settings-recovery-phone-remove-recommend = Nus ta recumandain da restar tar questa metoda perquai ch’igl è pli simpel che memorisar codes d’autentificaziun da backup.
+# "Saved backup authentication codes" refers to previously saved backup authentication codes
+settings-recovery-phone-remove-recovery-methods = Sche ti l’allontaneschas, t’atschertescha che ti has tegnì en salv tes codes d’autentificaziun da backup. <linkExternal>Cumpareglia las metodas da recuperaziun dal conto</linkExternal>
+settings-recovery-phone-remove-button = Allontanar il numer da telefon
+settings-recovery-phone-remove-cancel = Interrumper
 
 ## PageSetupRecoveryPhone
 
+page-setup-recovery-phone-heading = Agiuntar in numer da telefon da recuperaziun
 
 ## Add secondary email page
 
@@ -900,6 +945,7 @@ tfa-incorrect-totp = Code d'autentificaziun en dus pass nuncorrect
 tfa-cannot-retrieve-code = Igl ha dà in problem cun retschaiver tes code.
 tfa-cannot-verify-code-4 = I ha dà in problem cun confermar tes code d'autentificaziun da backup
 tfa-incorrect-recovery-code-1 = Code d'autentificaziun da backup nuncorrect
+tfa-enabled-v2 = L’autentificaziun en dus pass è vegnida activada
 tfa-scan-this-code =
     Scannescha quest code QR cun agid dad in da <linkExternal>questas
     apps d'autentificaziun</linkExternal>.
@@ -995,6 +1041,9 @@ tfa-row-backup-codes-get-new-cta = Retschaiver novs codes
 tfa-row-backup-codes-add-cta = Agiuntar
 # 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
 tfa-row-backup-codes-description-2 = Quai è la metoda da recuperaziun la pli segira sche ti na pos betg utilisar tes apparat mobil u a l’app d’autentificaziun.
+# Recovery phone is a recovery method for two-step authentication
+# A recovery code can be sent to the user's phone
+tfa-row-backup-phone-title-v2 = Numer da telefon da recuperaziun
 # Shown with an alert icon to indicate that no recovery phone is configured
 tfa-row-backup-phone-not-available = Nagin numer da telefon da recuperaziun disponibel
 # button to change the configured recovery phone
@@ -1003,6 +1052,9 @@ tfa-row-backup-phone-change-cta = Modifitgar
 tfa-row-backup-phone-add-cta = Agiuntar
 # Button to remove a recovery phone from the user's account
 tfa-row-backup-phone-delete-button = Allontanar
+# Shown in tooltip on delete button or delete icon
+tfa-row-backup-phone-delete-title-v2 = Allontanar il numer da telefon da recuperaziun
+tfa-row-backup-phone-delete-restriction-v2 = Sche ti vuls allontanar tes numer da telefon da recuperaziun, agiunta l’emprim codes d’autentificaziun da backup u deactivescha l’autentificaziun en dus pass per evitar che ti perdias l’access a tes conto.
 # "this" refers to recovery phone
 tfa-row-backup-phone-description = Quai è la metoda da recuperaziun pli simpla sche ti na pos betg utilisar tia app d’autentificaziun.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
@@ -1103,6 +1155,10 @@ tfa-row-cannot-refresh =
     Perstgisa, igl ha dà in problem cun actualisar l'autentificaziun
     en dus pass.
 tfa-row-enabled-description = Tes conto è protegì cun l’autentificaziun en dus pass. Ti vegns a stuair endatar in code d’access a diever unic da tia app d’autentificaziun cura che ti t’annunzias en tes { -product-mozilla-account }.
+# "this" refers to two-step authentication
+# Link goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+tfa-row-enabled-info-link = Co quai protegia tes conto
+tfa-row-disabled-description-v2 = Protegia tes conto cun utilisar ina app d’autentificaziun d’ina terza partida sco segund pass d’annunzia.
 tfa-row-cannot-verify-session-4 = Perstgisa, igl ha dà in problem cun confermar tia sesida
 tfa-row-disable-modal-heading = Deactivar l'autentificaziun en dus pass?
 tfa-row-disable-modal-confirm = Deactivar
@@ -1272,6 +1328,7 @@ inline-recovery-confirmation-header-default = Conferma il code d'autentificaziun
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = Conferma il code d'autentificaziun da backup per <span>cuntinuar cun { $serviceName }</span>
+inline-recovery-2fa-enabled-v2 = L’autentificaziun en dus pass è vegnida activada
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1599,6 +1656,12 @@ signin-push-code-confirm-link-error = La colliaziun è donnegiada. Emprova per p
 ## This page is shown to users when they are having trouble signing in with
 ## their password, and they previously had set up an account recovery method.
 
+signin-recovery-method-header = S’annunziar
+signin-recovery-method-subheader = Tscherna ina metoda da recuperaziun
+signin-recovery-method-details = Nus verifitgain che ti es la persuna che fa diever da tia metoda da verificaziun.
+signin-recovery-method-phone = Numer da telefon da recuperaziun
+# Variable: $numberOfCodes (String) - The number of authentication codes the user has left, e.g. 4
+signin-recovery-method-code-info = Anc { $numberOfCodes } codes danvanz
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code

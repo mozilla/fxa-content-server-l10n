@@ -9,9 +9,17 @@ next-basic-error-message = Insatge è ì mal. Emprova per plaschair pli tard anc
 
 ## Page
 
+checkout-signin-or-create = 1. T’annunzia u creescha in { -product-mozilla-account }
+checkout-create-account = Crear in { -product-mozilla-account }
+continue-signin-with-google-button = Cuntinuar cun { -brand-google }
+continue-signin-with-apple-button = Cuntinuar cun { -brand-apple }
 next-payment-method-header = Tscherna tia metoda da pajament
+# This message is used to indicate the second step in a multi step process.
+payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = L'emprim stos ti approvar tes abunament
 next-payment-confirmation-thanks-heading-account-exists = Grazia, controllescha ussa tes e-mails!
+# $email (String) - The user's email.
+payment-confirmation-thanks-subheading-account-exists-2 = Ti retschaivas in e-mail adressà a { $email } cun instrucziuns en connex cun tes abunament, sco era tias datas da pajament.
 next-payment-confirmation-order-heading = Detagls da l'empustaziun
 # $invoiceNumber (String) - Invoice number of the successful payment
 next-payment-confirmation-invoice-number = Quint nr. { $invoiceNumber }
@@ -24,6 +32,8 @@ next-payment-confirmation-amount = { $amount } per { $interval }
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Carta che chala cun { $last4 }
 next-payment-confirmation-download-button = Vinavant a la telechargiada
+checkout-error-boundary-retry-button = Empruvar anc ina giada
+checkout-error-boundary-basic-error-message = Igl ha dà in problem. Emprova per plaschair anc ina giada u <contactSupportLink>contactescha l’agid</contactSupportLink>.
 
 ## Component - Payment Consent Checkbox
 
@@ -34,6 +44,10 @@ next-payment-confirm-checkbox-error = Ti stos acceptar quai per pudair cuntinuar
 
 next-new-user-submit = Abunar ussa
 next-payment-validate-name-error = Endatescha per plaschair tes num
+next-pay-with-heading-paypal = Pajar cun { -brand-paypal }
+# Label for the Full Name input
+payment-name-label = Tes num, scrit sco sin tia carta
+payment-name-placeholder = Num cumplet
 
 ## Component - CouponForm
 
@@ -45,6 +59,9 @@ next-coupon-promo-code = Code da promoziun
 next-coupon-promo-code-applied = Applitgà il code da promoziun
 next-coupon-remove = Allontanar
 next-coupon-submit = Applitgar
+payments-client-loading-spinner =
+    .aria-label = Chargiar…
+    .alt = Chargiar…
 
 ## Payment Section
 
@@ -57,6 +74,23 @@ next-plan-details-show-button = Mussar ils detagls
 
 ## Select Tax Location
 
+select-tax-location-title = Posiziun
+select-tax-location-edit-button = Modifitgar
+select-tax-location-save-button = Memorisar
+select-tax-location-country-code-label = Pajais
+select-tax-location-country-code-placeholder = Tscherna tes pajais
+select-tax-location-error-missing-country-code = Tscherna per plaschair tes pajais
+select-tax-location-postal-code-label = Numer postal
+select-tax-location-postal-code =
+    .placeholder = Endatescha tes numer postal
+select-tax-location-error-missing-postal-code = Endatescha per plaschair tes numer postal
+select-tax-location-error-invalid-postal-code = Endatescha per plaschair in numer postal valid
+select-tax-location-successfully-updated = Tia posiziun è vegnida actualisada.
+select-tax-location-error-location-not-updated = I n’è betg reussì d’actualisar tia posiziun. Emprova per plaschair anc ina giada.
+signin-form-continue-button = Cuntinuar
+signin-form-email-input = Endatescha tia adressa dad e-mail
+signin-form-email-input-missing = Endatescha per plaschair tia adressa dad e-mail
+signin-form-email-input-invalid = Inditgescha per plaschair in’adressa dad e-mail valida
 next-new-user-subscribe-product-updates-mdnplus = Jau vi retschaiver novitads davart products ed autras novas da { -product-mdn-plus } e { -brand-mozilla }
 next-new-user-subscribe-product-updates-mozilla = Jau vi retschaiver novitads davart products ed autras novas da { -brand-mozilla }
 next-new-user-subscribe-product-updates-snp = Jau vi retschaiver novitads davart segirezza e protecziun da datas ed autras novas da { -brand-mozilla }
@@ -72,6 +106,8 @@ next-plan-details-total-label = Total
 ## Purchase details - shared by multiple components, including purchase details and payment form
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+list-positive-amount = { $amount }
+list-negative-amount = - { $amount }
 next-coupon-success = Tes plan vegn renovà automaticamain cun il pretsch da catalog.
 # $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
 next-coupon-success-repeating = Tes plan vegn renovà automaticamain suenter ils { $couponDurationDate } tenor il pretsch da catalog.
@@ -82,6 +118,11 @@ next-coupon-success-repeating = Tes plan vegn renovà automaticamain suenter ils
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+plan-price-interval-daily = { $amount } per di
+plan-price-interval-weekly = { $amount } per emna
+plan-price-interval-monthly = { $amount } per mais
+plan-price-interval-6monthly = { $amount } mintga 6 mais
+plan-price-interval-yearly = { $amount } mintg’onn
 
 ## Component - SubscriptionTitle
 

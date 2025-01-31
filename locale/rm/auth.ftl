@@ -356,6 +356,7 @@ postAddLinkedAccount-subject-2 = Nov conto associà cun tes { -product-mozilla-a
 postAddLinkedAccount-title-2 = Tes conto da { $providerName } è vegnì collià cun tes conto da { -product-mozilla-account }
 postAddLinkedAccount-action = Administrar il conto
 postAddRecoveryPhone-subject = Agiuntà in telefon per la recuperaziun dal conto
+postAddRecoveryPhone-preview = Il conto è protegì da l’autentificaziun en dus pass
 postAddRecoveryPhone-title = Ti has creà in numer da telefon per la recuperaziun dal conto
 # Variables:
 #  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
@@ -383,7 +384,10 @@ postChangePrimary-title = Nova adressa dad e-mail principala
 postChangePrimary-description-2 = Tia nova adressa principala è ussa { $email }. Questa adressa è ussa tes num d'utilisader per t'annunziar en tes { -product-mozilla-account }. En pli serva ella per retschaiver avis da segirezza e confermas d'annunzia.
 postChangePrimary-action = Administrar il conto
 postChangeRecoveryPhone-subject = Actualisà il numer da telefon per la recuperaziun dal conto
+postChangeRecoveryPhone-preview = Il conto è protegì da l’autentificaziun en dus pass
 postChangeRecoveryPhone-title = Ti has midà il numer da telefon per la recuperaziun da tes conto
+postChangeRecoveryPhone-description = Ti has ussa in nov numer da telefon per la recuperaziun dal conto. Il numer da telefon precedent è vegnida stizzà.
+postChangeRecoveryPhone-requested-device = Tia dumonda deriva da:
 postConsumeRecoveryCode-title-2 = Ti has utilisà in code d'autentificaziun da backup
 # After the colon, there is description of the device that the backup authentication code was used on
 postConsumeRecoveryCode-description-2 = El è vegnì utilisà sin:
@@ -403,6 +407,11 @@ postRemoveAccountRecovery-title-3 = Ti has stizzà tia clav da recuperaziun dal 
 postRemoveAccountRecovery-body-part1 = Tia clav da recuperaziun dal conto è necessari per recuperar tias datas da navigaziun criptadas sche ti emblidas tes pled-clav.
 postRemoveAccountRecovery-body-part2 = Sche ti n'has anc betg fatg quai, creescha ina nova clav da recuperaziun dal conto en tes parameters dal conto per evitar che ti perdias tes pleds-clav, segnapaginas, la cronologia da navigaziun e dapli.
 postRemoveAccountRecovery-action = Administrar il conto
+postRemoveRecoveryPhone-subject = Allontanà il numer da telefon per la recuperaziun dal conto
+postRemoveRecoveryPhone-preview = Il conto è protegì da l’autentificaziun en dus pass
+postRemoveRecoveryPhone-title = Allontanà il numer da telefon per la recuperaziun dal conto
+postRemoveRecoveryPhone-description = Tes numer da telefon da recuperaziun è vegnì allontanà dals parameters per l’autentificaziun en dus pass. Ti pos anc adina far diever da tes codes d’autentificaziun da backup.
+postRemoveRecoveryPhone-requested-device = Tia dumonda deriva da:
 postRemoveSecondary-subject = Allontanà l’adressa dad e-mail alternativa
 postRemoveSecondary-title = Allontanà l’adressa dad e-mail alternativa
 # Variables:
@@ -415,6 +424,18 @@ postRemoveTwoStepAuthentication-title-2 = Ti has deactivà l'autentificaziun en 
 postRemoveTwoStepAuthentication-from-device = Ti l'has deactivà cun agid da:
 postRemoveTwoStepAuthentication-action = Administrar il conto
 postRemoveTwoStepAuthentication-not-required-2 = Ti na dovras nagins codes da segirezza pli da tia app d'autentificaziun per t'annunziar.
+postSigninRecoveryCode-subject = Utilisà il code d’autentificaziun da backup per l’annunzia
+postSigninRecoveryCode-preview = Confermar l’activitad dal conto
+postSigninRecoveryCode-title = Tes code d’autentificaziun da backup è vegnì utilisà per s’annunziar
+postSigninRecoveryCode-description = Sche ti n’has betg fatg quai, duessas ti midar immediatamain tes pled-clav per mantegnair la segirezza da tes conto.
+postSigninRecoveryCode-device = Ti es t’annunzià da:
+postSigninRecoveryCode-action = Administrar il conto
+postSigninRecoveryPhone-subject = Utilisà il numer da telefon da recuperaziun per s’annunziar
+postSigninRecoveryPhone-preview = Confermar l’activitad dal conto
+postSigninRecoveryPhone-title = Tes numer da telefon da recuperaziun è vegnì utilisà per s’annunziar
+postSigninRecoveryPhone-description = Sche ti n’has betg fatg quai, duessas ti midar immediatamain tes pled-clav per mantegnair la segirezza da tes conto.
+postSigninRecoveryPhone-device = Ti es t’annunzià da:
+postSigninRecoveryPhone-action = Administrar il conto
 postVerify-sub-title-3 = Nus ans allegrain che ti es qua!
 postVerify-title-2 = Vuls ti vesair il medem tab sin dus apparats?
 postVerify-description-2 = Quai è simpel! Installescha simplamain { -brand-firefox } sin in auter apparat e t'annunzia per sincronisar. Sco sch'i fiss magia!
@@ -667,6 +688,7 @@ verifySecondaryCode-expiry-notice-2 = El scada en 5 minutas. Uschespert che ques
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = Conferma tes conto
+verifyShortCode-preview = Utilisescha il code inclus per confermar tes { -product-mozilla-account }.
 verifyShortCode-title-3 = Avra l'internet cun { -brand-mozilla }
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = Conferma tes conto e profitescha al maximum da { -brand-mozilla } – dapertut là nua che ti t’annunzias. L‘emprim pass:
