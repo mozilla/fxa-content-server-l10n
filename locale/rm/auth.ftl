@@ -49,6 +49,10 @@ subplat-legal = Infurmaziuns giuridicas
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Protecziun da datas
 subplat-privacy-website-plaintext = { subplat-privacy }:
+account-deletion-info-block-communications = Sche tes conto è stizzà, vegns ti anc adina a retschaiver e-mails da la Mozilla Corporation e da la Mozilla Foundation, nun che ti <a data-l10n-name="unsubscribeLink">dumondias d’annullar l’abunament</a>.
+account-deletion-info-block-support = Sche ti has ina dumonda u dovras agid, pos ti gugent contactar noss <a data-l10n-name="supportLink">team d’agid</a>.
+account-deletion-info-block-communications-plaintext = Sche tes conto vegn stizzà, vegns ti anc adina a retschaiver e-mails da la Mozilla Corporation e da la Mozilla Foundation, nun che ti dumondias d’annullar l’abunament:
+account-deletion-info-block-support-plaintext = Sche ti has ina dumonda u dovras agid, pos ti gugent contactar noss team d’agid:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-android-badge = <img data-l10n-name="google-play-badge" alt="Telechargiar { $productName } da { -google-play }">
@@ -76,6 +80,7 @@ automated-email-support = Per ulteriuras infurmaziuns, visita <a data-l10n-name=
 automated-email-change-plaintext-2 = Sche ti n'has betg effectuà questa acziun, mida subit tes pled-clav:
 #  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-support-plaintext = Per ulteriuras infurmaziuns, visita l'agid da { -brand-mozilla }:
+automated-email-inactive-account = Quai è in e-mail automatic. Ti al retschaivas perquai che ti has in { -product-mozilla-account } ed igl è gia 2 onns dapi che ti es t’annunzià l’ultima giada.
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } Per ulteriuras infurmaziuns, visita l'<a data-l10n-name="supportLink">agid da { -brand-mozilla }</a>.
 automated-email-no-action-plaintext = Quai è in e-mail automatic. Sche ti al has survegnì per sbagl na stos ti far nagut.
@@ -122,6 +127,9 @@ automatedEmailRecoveryKey-more-info-plaintext = Per ulteriuras infurmaziuns, vis
 automated-email-reset =
     Quai è in e-mail automatic. Sche ti n'has betg autorisà questa acziun, <a data-l10n-name="resetLink">reinizialisescha per plaschair tes pled-clav</a>.
     Per ulteriuras infurmaziuns, per plaschair visitar il <a data-l10n-name="supportLink">support da { -brand-mozilla }</a>.
+# Variables:
+#  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
+automated-email-reset-plaintext-v2 = Sche ti n’has betg autorisà questa acziun, reinizialisescha per plaschair ussa tes pled-clav sin { $resetLink }
 brand-banner-message = Sas ti che nus avain midà noss num da { -product-firefox-accounts } en { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Ulteriuras infurmaziuns</a>
 cancellationSurvey = Ans gida per plaschair da meglierar noss servetschs cun participar a questa <a data-l10n-name="cancellationSurveyUrl">curta enquista</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
@@ -242,6 +250,36 @@ fraudulentAccountDeletion-contact = En cas da dumondas, contactescha per plascha
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = En cas da dumondas, contactescha per plaschair noss team d'agid: { $mozillaSupportUrl }
+inactiveAccountFinalWarning-subject = Ultima schanza da mantegnair tes { -product-mozilla-account }
+inactiveAccountFinalWarning-title = Tes conto { -brand-mozilla } e tias datas vegnan a vegnir stizzadas
+inactiveAccountFinalWarning-preview = T’annunzia per mantegnair tes conto
+inactiveAccountFinalWarning-account-description = Tes { -product-mozilla-account } vegn utilisà per acceder a products gratuits per la protecziun da datas e la navigaziun sco la sincronisaziun da { -brand-firefox }, { -product-mozilla-monitor }, { -product-firefox-relay } e { -product-mdn }.
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+# This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
+inactiveAccountFinalWarning-impact = Ils <strong>{ $deletionDate }</strong>, vegnan tes conto e tias datas persunalas a vegnir stizzadas permanentamain, nun che ti t’annunzias.
+inactiveAccountFinalWarning-action = T’annunzia en tes conto per al mantegnair
+# followed by link to sign in
+inactiveAccountFinalWarning-action-plaintext = T’annunzia en tes conto per al mantegnair:
+inactiveAccountFirstWarning-subject = Na perda betg tes conto
+inactiveAccountFirstWarning-title = Vuls ti mantegnair tes conto { -brand-mozilla } e tias datas?
+inactiveAccountFirstWarning-account-description-v2 = Tes { -product-mozilla-account } serva per acceder a products gratuits per la protecziun da datas e la navigaziun sco la sincronisaziun da { -brand-firefox }, { -product-mozilla-monitor }, { -product-firefox-relay } e { -product-mdn }.
+inactiveAccountFirstWarning-inactive-status = Nus avain fatg stim che ti n’es betg t’annunzià dapi 2 onns.
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+# This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
+inactiveAccountFirstWarning-impact = Tias datas persunalas e tes conto vegnan a vegnir stizzads permanentamain ils <strong>{ $deletionDate }</strong> pervia da tia inactivitad.
+inactiveAccountFirstWarning-action = T’annunzia en tes conto per al mantegnair
+inactiveAccountFirstWarning-preview = T’annunzia en tes conto per al mantegnair
+# followed by link to sign in
+inactiveAccountFirstWarning-action-plaintext = T’annunzia en tes conto per al mantegnair:
+inactiveAccountSecondWarning-subject = Dumonda d’agir: eliminaziun dal conto en 7 dis
+inactiveAccountSecondWarning-title = Tes conto { -brand-mozilla } e tias datas vegnan a vegnir stizzadas en 7 dis
+inactiveAccountSecondWarning-account-description-v2 = Tes { -product-mozilla-account } serva per acceder a products gratuits per la protecziun da datas e la navigaziun sco la sincronisaziun da { -brand-firefox }, { -product-mozilla-monitor }, { -product-firefox-relay } e { -product-mdn }.
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+inactiveAccountSecondWarning-impact = Tias datas persunalas e tes conto vegnan a vegnir stizzads definitivamain ils <strong>{ $deletionDate }</strong> pervia da tia inactivitad.
+inactiveAccountSecondWarning-action = T’annunzia en tes conto per al mantegnair
+inactiveAccountSecondWarning-preview = T’annunzia en tes conto per al mantegnair
+# followed by link to sign in
+inactiveAccountSecondWarning-action-plaintext = T’annunzia en tes conto per al mantegnair:
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title-zero = Ti n'has pli nagins codes d'autentificaziun da backup!
 codes-reminder-title-one = Ti dovras tes ultim code d'autentificaziun da backup
@@ -317,6 +355,16 @@ postAddLinkedAccount-subject-2 = Nov conto associà cun tes { -product-mozilla-a
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = Tes conto da { $providerName } è vegnì collià cun tes conto da { -product-mozilla-account }
 postAddLinkedAccount-action = Administrar il conto
+postAddRecoveryPhone-subject = Agiuntà in telefon per la recuperaziun dal conto
+postAddRecoveryPhone-title = Ti has creà in numer da telefon per la recuperaziun dal conto
+# Variables:
+#  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
+postAddRecoveryPhone-description = Ti has agiuntà { $maskedLastFourPhoneNumber } sco numer da telefon per la recuperaziun da tes conto
+# Links out to a support article about two factor authentication
+postAddRecoveryPhone-how-protect = Co quai protegia tes conto
+postAddRecoveryPhone-how-protect-plaintext = Co quai protegia tes conto:
+postAddRecoveryPhone-enabled-device = Ti l’has activà ord:
+postAddRecoveryPhone-action = Administrar il conto
 postAddTwoStepAuthentication-subject-2 = L'autentificaziun en dus pass è activada
 postAddTwoStepAuthentication-title-2 = Ti has activà l'autentificaziun en dus pass
 # After the colon, there is a description of the device that the user used to enable two-step authentication
@@ -334,6 +382,8 @@ postChangePrimary-title = Nova adressa dad e-mail principala
 #  $email (String) - A user's email address
 postChangePrimary-description-2 = Tia nova adressa principala è ussa { $email }. Questa adressa è ussa tes num d'utilisader per t'annunziar en tes { -product-mozilla-account }. En pli serva ella per retschaiver avis da segirezza e confermas d'annunzia.
 postChangePrimary-action = Administrar il conto
+postChangeRecoveryPhone-subject = Actualisà il numer da telefon per la recuperaziun dal conto
+postChangeRecoveryPhone-title = Ti has midà il numer da telefon per la recuperaziun da tes conto
 postConsumeRecoveryCode-title-2 = Ti has utilisà in code d'autentificaziun da backup
 # After the colon, there is description of the device that the backup authentication code was used on
 postConsumeRecoveryCode-description-2 = El è vegnì utilisà sin:
