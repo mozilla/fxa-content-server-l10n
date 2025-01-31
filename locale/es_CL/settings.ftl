@@ -637,6 +637,7 @@ flow-setup-phone-confirm-code-button = Confirmar
 # followed by a button to resend a code
 flow-setup-phone-confirm-code-expired = ¿Código expirado?
 flow-setup-phone-confirm-code-resend-code-button = Reenviar código
+flow-setup-phone-confirm-code-resend-code-success = Código enviado
 flow-setup-phone-confirm-code-success-message-v2 = Teléfono de recuperación añadido
 
 ## FlowSetupPhoneConfirmCode
@@ -709,6 +710,7 @@ tfa-replace-code-success-1 =
     Se han creado nuevos códigos. Guarda estos códigos de autenticación de respaldo de
     un solo uso en un lugar seguro; los necesitarás para acceder a tu cuenta si no
     cuentas con tu dispositivo móvil.
+tfa-replace-code-success-alert-4 = Códigos de autenticación de respaldo actualizados
 tfa-replace-code-1-2 = Paso 1 de 2
 tfa-replace-code-2-2 = Paso 2 de 2
 
@@ -882,6 +884,7 @@ settings-recovery-phone-remove-recommend = Te recomendamos que mantengas este m�
 settings-recovery-phone-remove-recovery-methods = Si lo eliminas, asegúrate de que aún tengas guardados los códigos de autenticación de respaldo. <linkExternal>Comparar métodos de recuperación</linkExternal>
 settings-recovery-phone-remove-button = Eliminar número de teléfono
 settings-recovery-phone-remove-cancel = Cancelar
+settings-recovery-phone-remove-success = Teléfono de recuperación eliminado
 
 ## PageSetupRecoveryPhone
 
@@ -1195,12 +1198,19 @@ auth-error-114-generic = Has intentado muchas veces. Por favor, vuelve a intenta
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Has intentado muchas veces. Vuelve a intentarlo { $retryAfter }.
 auth-error-125 = La solicitud fue bloqueada por razones de seguridad
+auth-error-129 = Número telefónico inválido
 auth-error-138-2 = Sesión no confirmada
 auth-error-139 = El correo secundario debe ser diferente al correo de tu cuenta
 auth-error-155 = Token TOTP no encontrado
+# Error shown when the user submits an invalid backup authentication code
+auth-error-156 = Código de autenticación de respaldo no encontrado
 auth-error-159 = Clave de recuperación de cuenta inválida
 auth-error-183-2 = Código de confirmación inválido o expirado
+auth-error-202 = Función no activada
+auth-error-203 = Sistema no disponible, vuelve a intentarlo más tarde
 auth-error-206 = No se puede crear la contraseña, contraseña ya configurada
+auth-error-214 = El número de teléfono de recuperación ya existe
+auth-error-215 = El número de teléfono de recuperación no existe
 auth-error-999 = Error inesperado
 auth-error-1001 = Intento de conexión cancelado
 auth-error-1002 = Sesión expirada. Conéctate para continuar.
@@ -1666,6 +1676,15 @@ signin-recovery-code-required-error = Código de autenticación de respaldo requ
 
 ## SigninRecoveryPhone page
 
+signin-recovery-phone-code-submit-button = Confirmar
+signin-recovery-phone-resend-code-button = Reenviar código
+signin-recovery-phone-resend-success = Código enviado
+# links to https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+signin-recovery-phone-locked-out-link = ¿Quedaste sin poder entrar?
+signin-recovery-phone-send-code-error-heading = Hubo un problema al enviar un código
+signin-recovery-phone-code-verification-error-heading = Hubo un problema al verificar tu código
+# Follows the error message (e.g, "There was a problem sending a code")
+signin-recovery-phone-general-error-description = Por favor, vuelve a intentarlo más tarde.
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
