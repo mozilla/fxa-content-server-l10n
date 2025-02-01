@@ -49,6 +49,7 @@ subplat-legal = Hukuki Bilgiler
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Gizlilik
 subplat-privacy-website-plaintext = { subplat-privacy }:
+account-deletion-info-block-communications = Hesabınız silinse bile <a data-l10n-name="unsubscribeLink">abonelikten ayrılmadığınız</a> sürece Mozilla Corporation ve Mozilla Vakfı’ndan e-posta almaya devam edeceksiniz:
 account-deletion-info-block-support = Herhangi bir sorunuz veya yardıma ihtiyacınız varsa <a data-l10n-name="supportLink">destek ekibimizle</a> iletişime geçebilirsiniz.
 account-deletion-info-block-communications-plaintext = Hesabınız silinse bile abonelikten ayrılmak istemediğiniz sürece Mozilla Corporation ve Mozilla Vakfı’ndan e-posta almaya devam edeceksiniz:
 account-deletion-info-block-support-plaintext = Herhangi bir sorunuz veya yardıma ihtiyacınız varsa destek ekibimizle iletişime geçebilirsiniz:

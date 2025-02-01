@@ -639,6 +639,7 @@ flow-setup-phone-confirm-code-button = Onayla
 # followed by a button to resend a code
 flow-setup-phone-confirm-code-expired = Kodun süresi mi doldu?
 flow-setup-phone-confirm-code-resend-code-button = Kodu yeniden gönder
+flow-setup-phone-confirm-code-resend-code-success = Kod gönderildi
 flow-setup-phone-confirm-code-success-message-v2 = Kurtarma telefonu eklendi
 
 ## FlowSetupPhoneConfirmCode
@@ -708,6 +709,7 @@ nav-email-comm = E-posta iletişimi
 tfa-replace-code-error-3 = Yedek kimlik doğrulama kodlarınız değiştirilirken bir sorun oluştu
 tfa-create-code-error = Yedek kimlik doğrulama kodlarınız oluşturulurken bir sorun oluştu
 tfa-replace-code-success-1 = Yeni kodlar oluşturuldu. Bu tek kullanımlık yedek kimlik doğrulama kodlarını güvenli bir yerde saklayın. Mobil cihazınıza ulaşamazsanız hesabınıza erişmek için bunlara ihtiyacınız olacak.
+tfa-replace-code-success-alert-4 = Yedek kimlik doğrulama kodları güncellendi
 tfa-replace-code-1-2 = Adım 1/2
 tfa-replace-code-2-2 = Adım 2/2
 
@@ -881,6 +883,7 @@ settings-recovery-phone-remove-recommend = Yedek kimlik doğrulama kodlarını k
 settings-recovery-phone-remove-recovery-methods = Telefon numaranızı silseniz bile kayıtlı yedek kimlik doğrulama kodlarınız olduğundan emin olun. <linkExternal>Kurtarma yöntemlerini karşılaştırın</linkExternal>
 settings-recovery-phone-remove-button = Telefon numarasını kaldır
 settings-recovery-phone-remove-cancel = Vazgeç
+settings-recovery-phone-remove-success = Kurtarma telefonu kaldırıldı
 
 ## PageSetupRecoveryPhone
 
@@ -924,6 +927,8 @@ verify-secondary-email-success-alert-2 = { $email } başarıyla eklendi
 
 # Link to delete account on main Settings page
 delete-account-link = Hesabı sil
+# Success message displayed in alert bar after the user has successfully confirmed their account is not inactive.
+inactive-update-status-success-alert = Başarıyla giriş yapıldı. { -product-mozilla-account }nız ve verileriniz aktif kalacak.
 
 ## Two Step Authentication
 
@@ -1188,12 +1193,20 @@ auth-error-114-generic = Çok fazla deneme yaptınız. Lütfen daha sonra yenide
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Çok fazla deneme yaptınız. { $retryAfter } yeniden deneyin.
 auth-error-125 = Bu istek güvenlik nedeniyle engellendi
+auth-error-129 = Geçersiz telefon numarası
 auth-error-138-2 = Onaylanmamış oturum
 auth-error-139 = İkinci e-posta, hesap e-posta adresinizden farklı olmalıdır
 auth-error-155 = TOTP jetonu bulunamadı
+# Error shown when the user submits an invalid backup authentication code
+auth-error-156 = Yedek kimlik doğrulama kodu bulunamadı
 auth-error-159 = Geçersiz hesap kurtarma anahtarı
 auth-error-183-2 = Geçersiz veya süresi dolmuş onay kodu
+auth-error-202 = Özellik etkin değil
+auth-error-203 = Sistem şu an kullanılamıyor, daha sonra yeniden deneyin
 auth-error-206 = Parola zaten belirlenmiş olduğu için parola oluşturulamıyor
+auth-error-214 = Kurtarma telefon numarası zaten mevcut
+auth-error-215 = Kurtarma telefon numarası mevcut değil
+auth-error-216 = SMS sınırına ulaşıldı
 auth-error-999 = Beklenmeyen hata
 auth-error-1001 = Giriş denemesi iptal edildi
 auth-error-1002 = Oturum zaman aşımına uğradı. Devam etmek için giriş yapın.
@@ -1654,6 +1667,19 @@ signin-recovery-code-required-error = Yedek kimlik doğrulama kodu gerekli
 
 ## SigninRecoveryPhone page
 
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+signin-recovery-phone-instruction = <span>{ $maskedPhoneNumber }</span> numarasına kısa mesajla altı basamaklı bir kod gönderdik. Bu kodun geçerlilik süresi 5 dakikadır.
+signin-recovery-phone-input-label = 6 basamaklı kodu girin
+signin-recovery-phone-code-submit-button = Onayla
+signin-recovery-phone-resend-code-button = Kodu yeniden gönder
+signin-recovery-phone-resend-success = Kod gönderildi
+# links to https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+signin-recovery-phone-locked-out-link = Hesabınız kilitlendi mi?
+signin-recovery-phone-send-code-error-heading = Kod gönderilirken bir sorun oluştu
+signin-recovery-phone-code-verification-error-heading = Kodunuz doğrulanırken bir sorun oluştu
+# Follows the error message (e.g, "There was a problem sending a code")
+signin-recovery-phone-general-error-description = Lütfen daha sonra yeniden deneyin.
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
