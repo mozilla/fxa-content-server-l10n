@@ -1686,8 +1686,8 @@ signin-recovery-code-required-error = Je vyžadován záložní ověřovací kó
 # Message to user after they were redirected to the Mozilla account sign-in page in a new browser
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
-signin-recovery-code-use-phone-failure = Nepodařilo se odeslat kód na vaše telefonní číslo
-signin-recovery-code-use-phone-failure-description = Prosím zopakujte pokus později
+signin-recovery-code-use-phone-failure = Došlo k problému s odesláním kódu do telefonu pro obnovení
+signin-recovery-code-use-phone-failure-description = Zkuste to prosím později.
 
 ## SigninRecoveryPhone page
 
