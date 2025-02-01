@@ -40,9 +40,11 @@ payment-confirmation-thanks-heading = നന്ദി
 
 ## Component - PaymentErrorView
 
+payment-error-retry-button = വീണ്ടും ശ്രമിയ്ക്കുക
 
 ## Component - PaymentErrorView - IAP upgrade errors
 
+iap-upgrade-get-help-button = സഹായം തേടുക
 
 ## Component - PaymentForm
 
@@ -74,6 +76,7 @@ payment-validate-name-error = ദയവായി താങ്ങളുടെ പ
 
 ## Component - PlanDetails
 
+plan-details-header = ഉൽപ്പന്ന വിശദാംശങ്ങൾ
 plan-details-show-button = വിശദാംശങ്ങൾ കാണിക്കുക
 plan-details-hide-button = വിശദാംശങ്ങള്‍ മറയ്ക്കുക
 plan-details-total-label = മൊത്തം

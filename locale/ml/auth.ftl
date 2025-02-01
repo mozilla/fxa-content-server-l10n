@@ -85,6 +85,8 @@ subscriptionAccountFinishSetup-title = { $productName }-ലേക്കു് �
 subscriptionAccountFinishSetup-action-2 = തുടങ്ങാം
 subscriptionAccountReminderFirst-action = രഹസ്യവാക്കു് ഉണ്ടാക്കുക
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
+subscriptionAccountReminderSecond-title-2 = { -brand-mozilla } ലേക്ക് സ്വാഗതം
+subscriptionAccountReminderSecond-action = രഹസ്യവാക്കു് ഉണ്ടാക്കുക
 
 ## Variables
 ##   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -94,4 +96,8 @@ subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminde
 unblockCode-title = നിങ്ങളാണോ പ്രവേശിക്കുന്നത്?
 unblockCode-prompt = അതെ എങ്കില്‍, ഇതാ നിങ്ങൾക്ക് ആവശ്യമുള്ള അംഗീകരിക്കൽ കോഡ്:
 unblockCode-report-plaintext = ഇല്ലെങ്കിൽ, അത് റിപ്പോർട്ടുചെയ്ത് നുഴഞ്ഞുകയറ്റക്കാരെ തടയാന്‍ ഞങ്ങളെ സഹായിക്കൂ.
+verificationReminderSecond-action-2 = അക്കൗണ്ടു് ഉറപ്പിക്കുക
+verify-action-2 = അക്കൗണ്ടു് ഉറപ്പിക്കുക
 verifyLogin-action = പ്രവേശനം സ്ഥിരീകരിക്കുക
+verifyPrimary-action-2 = ഇതപാൽ ഉറപ്പിക്കുക
+verifySecondaryCode-action-2 = ഇതപാൽ ഉറപ്പിക്കുക
