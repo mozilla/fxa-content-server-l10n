@@ -637,6 +637,7 @@ flow-setup-phone-confirm-code-button = 确认
 # followed by a button to resend a code
 flow-setup-phone-confirm-code-expired = 验证码已过期？
 flow-setup-phone-confirm-code-resend-code-button = 重新发送验证码
+flow-setup-phone-confirm-code-resend-code-success = 验证码已发送
 flow-setup-phone-confirm-code-success-message-v2 = 已添加恢复电话号码
 
 ## FlowSetupPhoneConfirmCode
@@ -706,6 +707,7 @@ nav-email-comm = 新闻通讯
 tfa-replace-code-error-3 = 更换您的备用验证码时出现问题
 tfa-create-code-error = 创建备用验证码时出现问题
 tfa-replace-code-success-1 = 已生成新的验证码，请将这些一次性代码保存在安全的地方，当您的移动设备不可用时，可以使用验证码访问账户。
+tfa-replace-code-success-alert-4 = 备用验证码已更新
 tfa-replace-code-1-2 = 步骤（1 / 2）
 tfa-replace-code-2-2 = 步骤（2 / 2）
 
@@ -923,6 +925,8 @@ verify-secondary-email-success-alert-2 = { $email } 成功添加
 
 # Link to delete account on main Settings page
 delete-account-link = 删除账户
+# Success message displayed in alert bar after the user has successfully confirmed their account is not inactive.
+inactive-update-status-success-alert = 登录成功。您的 { -product-mozilla-account }和数据将保留。
 
 ## Two Step Authentication
 
@@ -1183,12 +1187,21 @@ auth-error-114-generic = 您的尝试次数过多，请稍后再试。
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = 您已尝试太多次，请在 { $retryAfter }再试。
 auth-error-125 = 因为安全性因素，已拦截请求
+auth-error-129 = 无效的电话号码
 auth-error-138-2 = 未验证的会话
 auth-error-139 = 备用邮箱地址必须不同于您的账户邮箱地址
 auth-error-155 = 找不到 TOTP 令牌
+# Error shown when the user submits an invalid backup authentication code
+auth-error-156 = 找不到备用验证码
 auth-error-159 = 账户恢复密钥无效
 auth-error-183-2 = 验证码无效或已过期
+auth-error-202 = 功能未启用
+auth-error-203 = 系统不可用，请稍后再试
 auth-error-206 = 由于已经设置密码，无法再次创建密码
+auth-error-214 = 恢复电话号码已存在
+auth-error-215 = 恢复电话号码不存在
+auth-error-216 = 已达到信息数量上限
+auth-error-218 = 由于缺少备用验证码，无法移除恢复电话号码。
 auth-error-999 = 意外错误
 auth-error-1001 = 登录尝试已取消
 auth-error-1002 = 会话已过期。请登录以继续操作。
@@ -1199,6 +1212,7 @@ auth-error-1011 = 需要有效的邮箱地址
 auth-error-1031 = 您需要输入您的年龄才能注册
 auth-error-1032 = 您需要输入有效年龄才能注册
 auth-error-1054 = 无效的两步验证码
+auth-error-1056 = 备用验证码无效
 auth-error-1062 = 无效重定向
 oauth-error-1000 = 出了点问题。请关闭此标签页，然后再试一次。
 
@@ -1635,8 +1649,12 @@ signin-recovery-method-header = 登录
 signin-recovery-method-subheader = 请选择一项恢复方式
 signin-recovery-method-details = 请协助确认是您本人在使用恢复方法。
 signin-recovery-method-phone = 恢复电话号码
+signin-recovery-method-code-v2 = 备用验证码
 # Variable: $numberOfCodes (String) - The number of authentication codes the user has left, e.g. 4
 signin-recovery-method-code-info = 剩余 { $numberOfCodes } 个验证码
+# Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
+signin-recovery-method-send-code-error-heading = 向恢复电话号码发送验证码时出现问题
+signin-recovery-method-send-code-error-description = 请稍后再试，或改用备用验证码。
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
