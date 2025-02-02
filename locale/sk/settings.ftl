@@ -637,6 +637,7 @@ flow-setup-phone-confirm-code-button = Potvrdiť
 # followed by a button to resend a code
 flow-setup-phone-confirm-code-expired = Platnosť kódu vypršala?
 flow-setup-phone-confirm-code-resend-code-button = Znova odoslať kód
+flow-setup-phone-confirm-code-resend-code-success = Kód bol odoslaný
 flow-setup-phone-confirm-code-success-message-v2 = Obnovenie pomocou telefónu bolo pridané
 
 ## FlowSetupPhoneConfirmCode
@@ -709,6 +710,7 @@ tfa-replace-code-success-1 =
     Boli vytvorené nové kódy. Tieto jednorazové záložné overovacie kódy
     si uložte na bezpečné miesto – budete ich potrebovať na prístup k svojmu
     účtu, ak nemáte mobilné zariadenie.
+tfa-replace-code-success-alert-4 = Záložné overovacie kódy boli aktualizované
 tfa-replace-code-1-2 = Krok 1 z 2
 tfa-replace-code-2-2 = Krok 2 z 2
 
@@ -926,6 +928,8 @@ verify-secondary-email-success-alert-2 = Adresa { $email } bola úspešne pridan
 
 # Link to delete account on main Settings page
 delete-account-link = Odstrániť účet
+# Success message displayed in alert bar after the user has successfully confirmed their account is not inactive.
+inactive-update-status-success-alert = Úspešne ste sa prihlásili. Váš { -product-mozilla-account(capitalization: "lower") } a údaje zostanú aktívne.
 
 ## Two Step Authentication
 
@@ -1199,12 +1203,21 @@ auth-error-114-generic = Vykonali ste príliš veľa pokusov. Skúste to znova n
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Vykonali ste príliš veľa pokusov. Skúste to znova { $retryAfter }.
 auth-error-125 = Z bezpečnostných dôvodov bola požiadavka zablokovaná
+auth-error-129 = Neplatné telefónne číslo
 auth-error-138-2 = Nepotvrdená relácia
 auth-error-139 = Alternatívna e‑mailová adresa musí byť iná ako adresa účtu
 auth-error-155 = Token TOTP sa nenašiel
+# Error shown when the user submits an invalid backup authentication code
+auth-error-156 = Záložný overovací kód sa nenašiel
 auth-error-159 = Neplatný kľúč na obnovenie účtu
 auth-error-183-2 = Neplatný potvrdzovací kód alebo kód s vypršanou platnosťou
+auth-error-202 = Funkcia nie je povolená
+auth-error-203 = Systém nie je dostupný, skúste to znova neskôr.
 auth-error-206 = Nie je možné vytvoriť heslo, heslo je už nastavené
+auth-error-214 = Telefónne číslo na obnovenie už existuje
+auth-error-215 = Telefónne číslo na obnovenie neexistuje
+auth-error-216 = Bol dosiahnutý limit textových správ
+auth-error-218 = Obnovenie pomocou telefónu nie je možné odstrániť, chýbajú záložné overovacie kódy.
 auth-error-999 = Neočakávaná chyba
 auth-error-1001 = Pokus o prihlásenie bol zrušený
 auth-error-1002 = Platnosť relácie vypršala. Ak chcete pokračovať, prihláste sa.
@@ -1215,6 +1228,7 @@ auth-error-1011 = Vyžaduje sa platná e‑mailová adresa
 auth-error-1031 = Ak sa chcete prihlásiť, musíte zadať svoj vek
 auth-error-1032 = Ak sa chcete prihlásiť, musíte zadať platný vek
 auth-error-1054 = Neplatný dvojstupňový overovací kód
+auth-error-1056 = Neplatný záložný overovací kód
 auth-error-1062 = Neplatné presmerovanie
 oauth-error-1000 = Niečo sa pokazilo. Prosím, zatvorte túto kartu a skúste to znova.
 
@@ -1647,8 +1661,12 @@ signin-recovery-method-header = Prihlásiť sa
 signin-recovery-method-subheader = Vyberte spôsob obnovy
 signin-recovery-method-details = Poďme sa, že ste to vy, čo používate svoje metódy obnovy.
 signin-recovery-method-phone = Obnovenie pomocou telefónu
+signin-recovery-method-code-v2 = Záložné overovacie kódy
 # Variable: $numberOfCodes (String) - The number of authentication codes the user has left, e.g. 4
 signin-recovery-method-code-info = Zostávajúce kódy: { $numberOfCodes }
+# Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
+signin-recovery-method-send-code-error-heading = Pri odosielaní kódu na váš telefón na obnovenie sa vyskytol problém
+signin-recovery-method-send-code-error-description = Skúste to znova neskôr alebo použite záložné overovacie kódy.
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
@@ -1657,16 +1675,37 @@ signin-recovery-method-code-info = Zostávajúce kódy: { $numberOfCodes }
 
 signin-recovery-code-heading = Prihlásiť sa
 signin-recovery-code-sub-heading = Zadajte záložný overovací kód
+# codes here refers to backup authentication codes
+signin-recovery-code-instruction-v3 = Zadajte jeden z kódov na jednorazové použitie, ktoré ste si uložili pri nastavovaní dvojstupňového overenia.
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Potvrdiť
+# Link to go to the page to use recovery phone instead
+signin-recovery-code-phone-link = Použiť obnovenie pomocou telefónu
 # External link for support if the user can't use two-step autentication or a backup authentication code
 # https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 signin-recovery-code-support-link = Stratili ste prístup?
 # Error displayed in a tooltip when form is submitted witout a code
 signin-recovery-code-required-error = Vyžaduje sa záložný overovací kód
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-recovery-code-use-phone-failure = Pri odosielaní kódu na váš telefón na obnovenie sa vyskytol problém
+signin-recovery-code-use-phone-failure-description = Skúste to znova neskôr.
 
 ## SigninRecoveryPhone page
 
+signin-recovery-phone-flow-heading = Prihlásiť sa
+# A recovery code in context of this page is a one time code sent to the user's phone
+signin-recovery-phone-heading = Zadajte obnovovací kód
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+signin-recovery-phone-instruction = Na číslo <span>{ $maskedPhoneNumber }</span> bol prostredníctvom textovej správy odoslaný šesťmiestny kód. Platnosť tohto kódu vyprší po 5 minútach.
+signin-recovery-phone-input-label = Zadajte šesťmiestny kód
+signin-recovery-phone-code-submit-button = Potvrdiť
+signin-recovery-phone-resend-code-button = Znova odoslať kód
+signin-recovery-phone-resend-success = Kód bol odoslaný
+# links to https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+signin-recovery-phone-locked-out-link = Stratili ste prístup?
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
