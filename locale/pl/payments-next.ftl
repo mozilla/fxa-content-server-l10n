@@ -33,6 +33,7 @@ next-payment-confirmation-amount = { $amount } co { $interval }
 next-payment-confirmation-cc-card-ending-in = Karta kończąca się na { $last4 }
 next-payment-confirmation-download-button = Kontynuuj, aby pobrać
 checkout-error-boundary-retry-button = Spróbuj ponownie
+checkout-error-boundary-basic-error-message = Coś się nie powiodło. Proszę spróbować ponownie lub <contactSupportLink>skontaktować się z zespołem wsparcia</contactSupportLink>.
 
 ## Component - Payment Consent Checkbox
 
@@ -43,6 +44,10 @@ next-payment-confirm-checkbox-error = Należy to wypełnić, aby móc przejść 
 
 next-new-user-submit = Subskrybuj
 next-payment-validate-name-error = Proszę podać swoje imię i nazwisko
+next-pay-with-heading-paypal = Zapłać za pomocą serwisu { -brand-paypal }
+# Label for the Full Name input
+payment-name-label = Imię i nazwisko, tak jak jest wydrukowane na karcie
+payment-name-placeholder = Imię i nazwisko
 
 ## Component - CouponForm
 
@@ -54,6 +59,9 @@ next-coupon-promo-code = Kod promocyjny
 next-coupon-promo-code-applied = Zastosowano kod promocyjny
 next-coupon-remove = Usuń
 next-coupon-submit = Zastosuj
+payments-client-loading-spinner =
+    .aria-label = Wczytywanie…
+    .alt = Wczytywanie…
 
 ## Payment Section
 
@@ -66,6 +74,25 @@ next-plan-details-show-button = Wyświetl informacje
 
 ## Select Tax Location
 
+select-tax-location-title = Położenie
+select-tax-location-edit-button = Edytuj
+select-tax-location-save-button = Zachowaj
+select-tax-location-country-code-label = Kraj
+select-tax-location-country-code-placeholder = Wybierz kraj
+select-tax-location-error-missing-country-code = Proszę wybrać kraj
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN
+select-tax-location-product-not-available = { $productName } nie jest dostępne w tym położeniu.
+select-tax-location-postal-code-label = Kod pocztowy
+select-tax-location-postal-code =
+    .placeholder = Wpisz kod pocztowy
+select-tax-location-error-missing-postal-code = Proszę wpisać kod pocztowy
+select-tax-location-error-invalid-postal-code = Proszę wpisać prawidłowy kod pocztowy
+select-tax-location-successfully-updated = Położenie zostało zaktualizowane.
+select-tax-location-error-location-not-updated = Nie można zaktualizować położenia. Proszę spróbować ponownie.
+signin-form-continue-button = Kontynuuj
+signin-form-email-input = Wpisz adres e-mail
+signin-form-email-input-missing = Proszę wpisać adres e-mail
+signin-form-email-input-invalid = Proszę podać prawidłowy adres e-mail
 next-new-user-subscribe-product-updates-mdnplus = Chcę otrzymywać aktualności i aktualizacje o produktach od { -product-mdn-plus } i { -brand-mozilla(case: "gen") }
 next-new-user-subscribe-product-updates-mozilla = Chcę otrzymywać aktualności i aktualizacje o produktach od { -brand-mozilla(case: "gen") }
 next-new-user-subscribe-product-updates-snp = Chcę otrzymywać aktualności i aktualizacje na temat bezpieczeństwa i prywatności od { -brand-mozilla(case: "gen") }
@@ -81,6 +108,8 @@ next-plan-details-total-label = Razem
 ## Purchase details - shared by multiple components, including purchase details and payment form
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+list-positive-amount = { $amount }
+list-negative-amount = –{ $amount }
 next-coupon-success = Twój plan będzie automatycznie odnawiany po cenie katalogowej.
 # $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
 next-coupon-success-repeating = Po { $couponDurationDate } Twój plan będzie automatycznie odnawiany po cenie katalogowej.
@@ -91,6 +120,11 @@ next-coupon-success-repeating = Po { $couponDurationDate } Twój plan będzie au
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+plan-price-interval-daily = { $amount } dziennie
+plan-price-interval-weekly = { $amount } tygodniowo
+plan-price-interval-monthly = { $amount } miesięcznie
+plan-price-interval-6monthly = { $amount } co 6 miesięcy
+plan-price-interval-yearly = { $amount } rocznie
 
 ## Component - SubscriptionTitle
 
