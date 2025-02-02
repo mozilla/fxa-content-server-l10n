@@ -1706,6 +1706,10 @@ signin-recovery-phone-resend-code-button = Znova odoslať kód
 signin-recovery-phone-resend-success = Kód bol odoslaný
 # links to https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 signin-recovery-phone-locked-out-link = Stratili ste prístup?
+signin-recovery-phone-send-code-error-heading = Pri odosielaní kódu sa vyskytol problém
+signin-recovery-phone-code-verification-error-heading = Pri overovaní vášho kódu sa vyskytol problém
+# Follows the error message (e.g, "There was a problem sending a code")
+signin-recovery-phone-general-error-description = Skúste to znova neskôr.
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
