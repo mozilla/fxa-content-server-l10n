@@ -84,6 +84,8 @@ select-tax-location-successfully-updated = Plasseringa di er oppdatert
 select-tax-location-error-location-not-updated = Klarte ikkje å oppdatere plasseringa di. Prøv på nytt.
 signin-form-continue-button = Hald fram
 signin-form-email-input = Skriv inn e-postadressa di
+signin-form-email-input-missing = Skriv inn e-postadressa di
+signin-form-email-input-invalid = Skriv inn ei gyldig e-postadresse
 next-new-user-subscribe-product-updates-mdnplus = Eg vil gjerne få produktnyheiter og oppdateringar frå { -product-mdn-plus } og { -brand-mozilla }
 next-new-user-subscribe-product-updates-mozilla = Eg vil gjerne få produktnyheiter og oppdateringar frå { -brand-mozilla }
 next-new-user-subscribe-product-updates-snp = Eg vil gjerne få nyheteir og oppdateringar om sikkerheit og personvern frå { -brand-mozilla }
@@ -99,6 +101,8 @@ next-plan-details-total-label = Totalt
 ## Purchase details - shared by multiple components, including purchase details and payment form
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+list-positive-amount = { $amount }
+list-negative-amount = - { $amount }
 next-coupon-success = Planen din vert fornya automatisk til listeprisen.
 # $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
 next-coupon-success-repeating = Planen din vert fornya automatisk etter { $couponDurationDate } til listeprisen.
@@ -109,6 +113,11 @@ next-coupon-success-repeating = Planen din vert fornya automatisk etter { $coupo
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+plan-price-interval-daily = { $amount } kvar dag
+plan-price-interval-weekly = { $amount } kvar veke
+plan-price-interval-monthly = { $amount } kvar månad
+plan-price-interval-6monthly = { $amount } kvar 6. månad
+plan-price-interval-yearly = { $amount } kvart år
 
 ## Component - SubscriptionTitle
 
