@@ -1704,9 +1704,26 @@ signin-recovery-code-required-error = Wymagany jest zapasowy kod uwierzytelniani
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-recovery-code-use-phone-failure = Wystąpił problem podczas wysyłania kodu do telefonu odzyskiwania
+signin-recovery-code-use-phone-failure-description = Proszę spróbować ponownie później.
 
 ## SigninRecoveryPhone page
 
+signin-recovery-phone-flow-heading = Zaloguj się
+# A recovery code in context of this page is a one time code sent to the user's phone
+signin-recovery-phone-heading = Wpisz kod odzyskiwania
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+signin-recovery-phone-instruction = Sześciocyfrowy kod został wysłany na numer <span>{ $maskedPhoneNumber }</span> za pomocą wiadomości SMS. Ten kod wygasa po 5 minutach.
+signin-recovery-phone-input-label = Wpisz sześciocyfrowy kod
+signin-recovery-phone-code-submit-button = Potwierdź
+signin-recovery-phone-resend-code-button = Wyślij ponownie kod
+signin-recovery-phone-resend-success = Wysłano kod
+# links to https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+signin-recovery-phone-locked-out-link = Nie możesz się zalogować?
+signin-recovery-phone-send-code-error-heading = Wystąpił problem podczas wysyłania kodu
+signin-recovery-phone-code-verification-error-heading = Wystąpił problem podczas weryfikowania kodu
+# Follows the error message (e.g, "There was a problem sending a code")
+signin-recovery-phone-general-error-description = Proszę spróbować ponownie później.
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 

@@ -49,6 +49,10 @@ subplat-legal = Podstawa prawna
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Prywatność
 subplat-privacy-website-plaintext = { subplat-privacy }:
+account-deletion-info-block-communications = Jeśli Twoje konto zostanie usunięte, nadal będziesz otrzymywać wiadomości e-mail od Mozilla Corporation i Mozilla Foundation, chyba że <a data-l10n-name="unsubscribeLink">zrezygnujesz z subskrypcji</a>.
+account-deletion-info-block-support = Jeśli masz pytania lub potrzebujesz pomocy, skontaktuj się z naszym <a data-l10n-name="supportLink">zespołem wsparcia</a>.
+account-deletion-info-block-communications-plaintext = Jeśli Twoje konto zostanie usunięte, nadal będziesz otrzymywać wiadomości e-mail od Mozilla Corporation i Mozilla Foundation, chyba że zrezygnujesz z subskrypcji:
+account-deletion-info-block-support-plaintext = Jeśli masz pytania lub potrzebujesz pomocy, skontaktuj się z naszym zespołem wsparcia:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-android-badge = <img data-l10n-name="google-play-badge" alt="Pobierz program { $productName } z { -google-play }">
@@ -76,6 +80,7 @@ automated-email-support = Więcej informacji można znaleźć w <a data-l10n-na
 automated-email-change-plaintext-2 = Jeśli to nie Twoje działanie, natychmiast zmień hasło:
 #  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-support-plaintext = Więcej informacji można znaleźć w pomocy { -brand-mozilla(case: "gen") }:
+automated-email-inactive-account = Wiadomość wygenerowana automatycznie. Otrzymujesz ją, ponieważ masz { -product-mozilla-account(case: "nom", capitalization: "lower") } i minęły 2 lata od Twojego ostatniego logowania.
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } Więcej informacji można znaleźć w <a data-l10n-name="supportLink">pomocy { -brand-mozilla(case: "gen") }</a>.
 automated-email-no-action-plaintext = Wiadomość wygenerowana automatycznie. Jeżeli otrzymano ją przez pomyłkę, to nic nie trzeba robić.
@@ -122,6 +127,9 @@ automatedEmailRecoveryKey-more-info-plaintext = Więcej informacji można znale�
 automated-email-reset =
     Wiadomość wygenerowana automatycznie. Jeżeli nie upoważniono wykonania tej czynności, to należy <a data-l10n-name="resetLink">zmienić hasło</a>.
     Więcej informacji można znaleźć w <a data-l10n-name="supportLink">pomocy { -brand-mozilla(case: "gen") }</a>.
+# Variables:
+#  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
+automated-email-reset-plaintext-v2 = Jeżeli nie upoważniono wykonania tej czynności, to należy teraz zmienić hasło pod adresem { $resetLink }
 brand-banner-message = Czy wiesz, że zmieniliśmy naszą nazwę z { -product-firefox-accounts(case: "gen", capitalization: "lower") } na { -product-mozilla-accounts(case: "acc", capitalization: "lower") }? <a data-l10n-name="learnMore">Więcej informacji</a>
 cancellationSurvey = Pomóż nam ulepszać nasze usługi wypełniając tę <a data-l10n-name="cancellationSurveyUrl">krótką ankietę</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
