@@ -431,6 +431,18 @@ postRemoveTwoStepAuthentication-title-2 = Wyłączono uwierzytelnianie dwuetapow
 postRemoveTwoStepAuthentication-from-device = Wyłączono je z urządzenia:
 postRemoveTwoStepAuthentication-action = Zarządzaj kontem
 postRemoveTwoStepAuthentication-not-required-2 = Nie potrzebujesz już kodów zabezpieczeń z aplikacji do uwierzytelniania podczas logowania.
+postSigninRecoveryCode-subject = Użyto zapasowego kodu uwierzytelniania do zalogowania
+postSigninRecoveryCode-preview = Potwierdź działania na koncie
+postSigninRecoveryCode-title = Zapasowy kod uwierzytelniania został użyty do zalogowania
+postSigninRecoveryCode-description = Jeśli to nie jest Twoje działanie, to należy natychmiast zmienić hasło, aby zapewnić bezpieczeństwo konta.
+postSigninRecoveryCode-device = Zalogowano z urządzenia:
+postSigninRecoveryCode-action = Zarządzaj kontem
+postSigninRecoveryPhone-subject = Użyto telefonu odzyskiwania do zalogowania
+postSigninRecoveryPhone-preview = Potwierdź działania na koncie
+postSigninRecoveryPhone-title = Telefon odzyskiwania został użyty do zalogowania
+postSigninRecoveryPhone-description = Jeśli to nie jest Twoje działanie, to należy natychmiast zmienić hasło, aby zapewnić bezpieczeństwo konta.
+postSigninRecoveryPhone-device = Zalogowano z urządzenia:
+postSigninRecoveryPhone-action = Zarządzaj kontem
 postVerify-sub-title-3 = Cieszymy się, że Cię widzimy!
 postVerify-title-2 = Chcesz mieć tę samą kartę na dwóch urządzeniach?
 postVerify-description-2 = To łatwe! Wystarczy zainstalować { -brand-firefox(case: "acc") } na innym urządzeniu i zalogować się do synchronizacji. To jak magia!
@@ -683,6 +695,7 @@ verifySecondaryCode-expiry-notice-2 = Wygasa za 5 minut. Po potwierdzeniu ten a
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = Potwierdź konto
+verifyShortCode-preview = Użyj dołączonego kodu, aby potwierdzić { -product-mozilla-account(case: "acc", capitalization: "lower") }.
 verifyShortCode-title-3 = Uczyń Internet bardziej otwartym z { -brand-mozilla(case: "ins") }
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = Potwierdź konto i w pełni wykorzystaj { -brand-mozilla(case: "gen") } wszędzie, gdzie się zalogujesz, zaczynając od:
