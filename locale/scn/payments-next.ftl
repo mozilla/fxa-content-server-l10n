@@ -130,6 +130,7 @@ next-subscription-create-title = Cunfijura u to abbunamentu
 next-subscription-success-title = Cunferma di l'abbunamentu
 next-subscription-processing-title = Staju cunfirmannu l'abbunamentu…
 next-subscription-error-title = Cci fu un prubblema mentri chi cunfirmava l'abbunamentu…
+next-sub-guarantee = Garanzìa di rifazzioni pi 30 jorna
 
 ## Component - TermsAndPrivacy
 

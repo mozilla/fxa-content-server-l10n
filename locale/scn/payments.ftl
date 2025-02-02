@@ -272,6 +272,7 @@ subscription-processing-title = Staju cunfirmannu l'abbunamentu…
 subscription-error-title = Cci fu un prubblema mentri chi cunfirmava l'abbunamentu…
 subscription-noplanchange-title = Stu canciu ô chianu d'abbunamentu nun è suppurtatu
 subscription-iapsubscribed-title = Già abbunatu
+sub-guarantee = Garanzìa di rifazzioni pi 30 jorna
 
 ## Component - TermsAndPrivacy
 
