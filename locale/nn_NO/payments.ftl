@@ -363,6 +363,7 @@ coupon-expired = Det ser ut som at kampanjekoden har gått ut.
 card-error = Transaksjonen din kunne ikkje behandlast. Kontroller betalingskortinformasjonen din og prøv igjen.
 country-currency-mismatch = Valutaen for dette abonnementet er ikkje gyldig for landet som er knytt til betalinga di.
 currency-currency-mismatch = Bekalgar. Du kan ikkje byte mellom valutaer.
+location-unsupported = Etter tenestevilkåra våre er den gjeldande plasseringa di ikkje støtta.
 no-subscription-change = Beklagar. Du kan ikkje endre abonnementsplanen din.
 # $mobileAppStore (String) - "Google Play Store" or "App Store", localized when the translation is available.
 iap-already-subscribed = Du abonnerer allereie via { $mobileAppStore }.
