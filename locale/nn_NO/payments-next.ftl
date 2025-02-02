@@ -18,6 +18,8 @@ next-payment-method-header = Vel betalingsmåte
 payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = Først må du godkjenne abonnementet ditt
 next-payment-confirmation-thanks-heading-account-exists = Takk, sjekk e-posten din no!
+# $email (String) - The user's email.
+payment-confirmation-thanks-subheading-account-exists-2 = Du vil få ein e-post på { $e-post } med instruksjonar om abonnementet ditt, i tillegg til betalingsopplysningane dine.
 next-payment-confirmation-order-heading = Ordredetaljar
 # $invoiceNumber (String) - Invoice number of the successful payment
 next-payment-confirmation-invoice-number = Fakturanummer { $invoiceNumber }
@@ -31,6 +33,7 @@ next-payment-confirmation-amount = { $amount } per { $interval }
 next-payment-confirmation-cc-card-ending-in = Kortet sluttar på { $last4 }
 next-payment-confirmation-download-button = Hald fram til nedlasting
 checkout-error-boundary-retry-button = Prøv på nytt
+checkout-error-boundary-basic-error-message = Noko gjekk gale. Prøv på nytt eller <contactSupportLink>kontakt support.</contactSupportLink>
 
 ## Component - Payment Consent Checkbox
 
@@ -42,6 +45,8 @@ next-payment-confirm-checkbox-error = Du må fullføre dette før du går vidare
 next-new-user-submit = Abonner no
 next-payment-validate-name-error = Skriv inn namnet ditt
 next-pay-with-heading-paypal = Betal med { -brand-paypal }
+# Label for the Full Name input
+payment-name-label = Namn slik det står på kortet ditt
 payment-name-placeholder = Fullt namn
 
 ## Component - CouponForm
@@ -75,6 +80,8 @@ select-tax-location-save-button = Lagre
 select-tax-location-country-code-label = Land
 select-tax-location-country-code-placeholder = Vel land
 select-tax-location-error-missing-country-code = Vel land
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN
+select-tax-location-product-not-available = { $productName } er ikkje tilgjengeleg på denne plasseringa.
 select-tax-location-postal-code-label = Postnummer
 select-tax-location-postal-code =
     .placeholder = Skriv inn postrnummer

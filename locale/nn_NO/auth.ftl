@@ -242,6 +242,8 @@ fraudulentAccountDeletion-contact = Viss du har spørsmål, kontakt <a data-l10n
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Viss du har spørsmål, kontakt support-teamet vårt: { $mozillaSupportUrl }
+inactiveAccountFinalWarning-preview = Logg inn for å behalde kontoen din
+inactiveAccountFinalWarning-action = Logg inn for å behalde kontoen din
 # followed by link to sign in
 inactiveAccountFinalWarning-action-plaintext = Logg inn for å behalde kontoen din:
 inactiveAccountFirstWarning-subject = Ikkje mist kontoen din
@@ -327,6 +329,8 @@ postAddLinkedAccount-subject-2 = Ny konto knytt til { -product-mozilla-account }
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = { $providerName }-kontoen din er kopla til { -product-mozilla-account }-en din
 postAddLinkedAccount-action = Handsam kontoen
+postAddRecoveryPhone-enabled-device = Du har aktivert det frå:
+postAddRecoveryPhone-action = Handsam kontoen
 postAddTwoStepAuthentication-subject-2 = Tostegs-godkjenning er slått på
 postAddTwoStepAuthentication-title-2 = Du slo på tostegs-godkjenning
 # After the colon, there is a description of the device that the user used to enable two-step authentication
@@ -375,8 +379,12 @@ postRemoveTwoStepAuthentication-title-2 = Du har slått på tostegs-godkjenning
 postRemoveTwoStepAuthentication-from-device = Du har slått det av frå:
 postRemoveTwoStepAuthentication-action = Handsam kontoen
 postRemoveTwoStepAuthentication-not-required-2 = Du treng ikkje lenger sikkerheitskodar frå autentiseringsappen når du loggar inn.
+postSigninRecoveryCode-preview = Stadfest kontoaktivitet
 postSigninRecoveryCode-device = Du logga inn frå:
+postSigninRecoveryCode-action = Handsam kontoen
+postSigninRecoveryPhone-preview = Stadfest kontoaktivitet
 postSigninRecoveryPhone-device = Du logga inn frå:
+postSigninRecoveryPhone-action = Handsam kontoen
 postVerify-sub-title-3 = Vi er glade for å sjå deg!
 postVerify-title-2 = Vil du sjå den same fana på to einingar?
 postVerify-description-2 = Det er lett! Installer berre { -brand-firefox } på ei anna eining og logg på for å synkronisere. Det er som magi!

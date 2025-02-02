@@ -34,6 +34,8 @@ brand-m-logo =
 ## ButtonBack component
 ## Allows users to click a back arrow to navigate to the previous page
 
+button-back-aria-label = Tilbake
+button-back-title = Tilbake
 
 ## ButtonDownloadRecoveryKeyPDF
 ## Clicking on this button downloads a PDF file that contains the user's account recovery key
@@ -211,6 +213,12 @@ get-data-trio-print-2 =
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
+# Aria-label option for an alert symbol
+alert-icon-aria-label =
+    .aria-label = Varsel
+# Aria-label option for an alert symbol
+icon-attention-aria-label =
+    .aria-label = Merk
 # Used to select Canada as country code for phone number
 canadian-flag-icon-aria-label =
     .aria-label = Canadisk flagg
