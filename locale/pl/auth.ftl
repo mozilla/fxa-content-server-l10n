@@ -269,6 +269,22 @@ inactiveAccountFirstWarning-subject = Nie strać swojego konta
 inactiveAccountFirstWarning-title = Czy chcesz zachować swoje konto i dane { -brand-mozilla(case: "gen") }?
 inactiveAccountFirstWarning-account-description-v2 = Twoje { -product-mozilla-account(case: "nom", capitalization: "lower") } daje dostęp do bezpłatnych produktów do przeglądania i chroniących prywatność, takich jak synchronizacja { -brand-firefox(case: "gen") }, { -product-mozilla-monitor }, { -product-firefox-relay } i { -product-mdn }.
 inactiveAccountFirstWarning-inactive-status = Zauważyliśmy, że ostatnie logowanie miało miejsce dwa lata temu.
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+# This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
+inactiveAccountFirstWarning-impact = <strong>{ $deletionDate }</strong> to dzień, w którym Twoje konto i dane zostaną trwale usunięte z powodu nieaktywności.
+inactiveAccountFirstWarning-action = Zaloguj się, aby zachować swoje konto
+inactiveAccountFirstWarning-preview = Zaloguj się, aby zachować swoje konto
+# followed by link to sign in
+inactiveAccountFirstWarning-action-plaintext = Zaloguj się, aby zachować swoje konto:
+inactiveAccountSecondWarning-subject = Wymagane jest działanie: usunięcie konta za 7 dni
+inactiveAccountSecondWarning-title = Twoje konto i dane { -brand-mozilla(case: "gen") } zostaną usunięte za 7 dni
+inactiveAccountSecondWarning-account-description-v2 = Twoje { -product-mozilla-account(case: "nom", capitalization: "lower") } daje dostęp do bezpłatnych produktów do przeglądania i chroniących prywatność, takich jak synchronizacja { -brand-firefox(case: "gen") }, { -product-mozilla-monitor }, { -product-firefox-relay } i { -product-mdn }.
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+inactiveAccountSecondWarning-impact = <strong>{ $deletionDate }</strong> to dzień, w którym Twoje konto i dane zostaną trwale usunięte z powodu nieaktywności.
+inactiveAccountSecondWarning-action = Zaloguj się, aby zachować swoje konto
+inactiveAccountSecondWarning-preview = Zaloguj się, aby zachować swoje konto
+# followed by link to sign in
+inactiveAccountSecondWarning-action-plaintext = Zaloguj się, aby zachować swoje konto:
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title-zero = Zapasowe kody uwierzytelniania się skończyły!
 codes-reminder-title-one = Został ostatni zapasowy kod uwierzytelniania
@@ -345,6 +361,17 @@ postAddLinkedAccount-subject-2 = Nowe konto powiązane z { -product-mozilla-acc
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = Konto { $providerName } zostało powiązane z { -product-mozilla-account(case: "ins", capitalization: "lower") }
 postAddLinkedAccount-action = Zarządzaj kontem
+postAddRecoveryPhone-subject = Dodano telefon odzyskiwania
+postAddRecoveryPhone-preview = Konto chronione przez uwierzytelnianie dwuetapowe
+postAddRecoveryPhone-title = Utworzono numer telefonu odzyskiwania
+# Variables:
+#  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
+postAddRecoveryPhone-description = Dodano { $maskedLastFourPhoneNumber } jako telefon odzyskiwania
+# Links out to a support article about two factor authentication
+postAddRecoveryPhone-how-protect = W jaki sposób chroni to Twoje konto
+postAddRecoveryPhone-how-protect-plaintext = W jaki sposób chroni to Twoje konto:
+postAddRecoveryPhone-enabled-device = Włączono je z urządzenia:
+postAddRecoveryPhone-action = Zarządzaj kontem
 postAddTwoStepAuthentication-subject-2 = Uwierzytelnianie dwuetapowe zostało włączone
 postAddTwoStepAuthentication-title-2 = Włączono uwierzytelnianie dwuetapowe
 # After the colon, there is a description of the device that the user used to enable two-step authentication
@@ -362,6 +389,11 @@ postChangePrimary-title = Nowy główny adres e-mail
 #  $email (String) - A user's email address
 postChangePrimary-description-2 = Pomyślnie zmieniono główny adres e-mail na { $email }. Ten adres jest teraz nazwą użytkownika do logowania na { -product-mozilla-account(case: "loc", capitalization: "lower") }, a także adresem odbierającym powiadomienia bezpieczeństwa
 postChangePrimary-action = Zarządzaj kontem
+postChangeRecoveryPhone-subject = Zaktualizowano telefon odzyskiwania
+postChangeRecoveryPhone-preview = Konto chronione przez uwierzytelnianie dwuetapowe
+postChangeRecoveryPhone-title = Zmieniono telefon odzyskiwania
+postChangeRecoveryPhone-description = Masz teraz nowy telefon odzyskiwania. Twój poprzedni numer telefonu został usunięty.
+postChangeRecoveryPhone-requested-device = Zażądano z urządzenia:
 postConsumeRecoveryCode-title-2 = Użyto zapasowy kod uwierzytelniania
 # After the colon, there is description of the device that the backup authentication code was used on
 postConsumeRecoveryCode-description-2 = Użyto go na urządzeniu:
@@ -382,6 +414,11 @@ postRemoveAccountRecovery-title-3 = Usunięto klucz odzyskiwania konta
 postRemoveAccountRecovery-body-part1 = Twój klucz odzyskiwania konta jest wymagany do przywrócenia zaszyfrowanych danych logowania, jeśli zapomnisz hasła.
 postRemoveAccountRecovery-body-part2 = Jeśli jeszcze go nie masz, utwórz nowy klucz odzyskiwania konta w ustawieniach konta, aby zapobiec utracie zachowanych haseł, zakładek, historii przeglądania i innych danych.
 postRemoveAccountRecovery-action = Zarządzaj kontem
+postRemoveRecoveryPhone-subject = Usunięto telefon odzyskiwania
+postRemoveRecoveryPhone-preview = Konto chronione przez uwierzytelnianie dwuetapowe
+postRemoveRecoveryPhone-title = Usunięto telefon odzyskiwania
+postRemoveRecoveryPhone-description = Telefon odzyskiwania został usunięty z ustawień uwierzytelniania dwuetapowego. Nadal masz dostępne zapasowe kody uwierzytelniania.
+postRemoveRecoveryPhone-requested-device = Zażądano z urządzenia:
 postRemoveSecondary-subject = Usunięto dodatkowy adres e-mail
 postRemoveSecondary-title = Usunięto dodatkowy adres e-mail
 # Variables:
