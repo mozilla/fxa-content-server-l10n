@@ -930,6 +930,8 @@ verify-secondary-email-success-alert-2 = Pomyślnie dodano adres { $email }
 
 # Link to delete account on main Settings page
 delete-account-link = Usuń konto
+# Success message displayed in alert bar after the user has successfully confirmed their account is not inactive.
+inactive-update-status-success-alert = Pomyślnie zalogowano. Twoje { -product-mozilla-account(case: "nom", capitalization: "lower") } i dane pozostaną aktywne.
 
 ## Two Step Authentication
 
@@ -944,6 +946,7 @@ tfa-incorrect-totp = Niepoprawny kod uwierzytelniania dwuetapowego
 tfa-cannot-retrieve-code = Wystąpił problem podczas uzyskiwania kodu.
 tfa-cannot-verify-code-4 = Wystąpił problem podczas potwierdzania zapasowego kodu uwierzytelniania
 tfa-incorrect-recovery-code-1 = Niepoprawny zapasowy kod uwierzytelniania
+tfa-enabled-v2 = Uwierzytelnianie dwuetapowe zostało włączone
 tfa-scan-this-code =
     Zeskanuj ten kod QR za pomocą jednej
     z <linkExternal>tych aplikacji uwierzytelniania</linkExternal>.
@@ -1040,6 +1043,9 @@ tfa-row-backup-codes-get-new-cta = Uzyskaj nowe kody
 tfa-row-backup-codes-add-cta = Dodaj
 # 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
 tfa-row-backup-codes-description-2 = To najbezpieczniejsza metoda odzyskiwania, jeśli nie możesz użyć telefonu lub aplikacji uwierzytelniającej.
+# Recovery phone is a recovery method for two-step authentication
+# A recovery code can be sent to the user's phone
+tfa-row-backup-phone-title-v2 = Telefon odzyskiwania
 # Shown with an alert icon to indicate that no recovery phone is configured
 tfa-row-backup-phone-not-available = Brak dostępnego numeru telefonu odzyskiwania
 # button to change the configured recovery phone
@@ -1048,6 +1054,9 @@ tfa-row-backup-phone-change-cta = Zmień
 tfa-row-backup-phone-add-cta = Dodaj
 # Button to remove a recovery phone from the user's account
 tfa-row-backup-phone-delete-button = Usuń
+# Shown in tooltip on delete button or delete icon
+tfa-row-backup-phone-delete-title-v2 = Usuń telefon odzyskiwania
+tfa-row-backup-phone-delete-restriction-v2 = Jeśli chcesz usunąć telefon odzyskiwania, najpierw dodaj zapasowe kody uwierzytelniania lub wyłącz uwierzytelnianie dwuetapowe, aby uniknąć zablokowania konta.
 # "this" refers to recovery phone
 tfa-row-backup-phone-description = To najłatwiejsza metoda odzyskiwania, jeśli nie możesz użyć aplikacji uwierzytelniającej.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
@@ -1148,6 +1157,10 @@ tfa-row-cannot-refresh =
     Przepraszamy, wystąpił problem podczas odświeżania
     uwierzytelniania dwuetapowego.
 tfa-row-enabled-description = Twoje konto jest chronione uwierzytelnianiem dwuetapowym. Podczas logowania do { -product-mozilla-account(case: "gen", capitalization: "lower") } będzie trzeba wpisać jednorazowy kod z aplikacji uwierzytelniającej.
+# "this" refers to two-step authentication
+# Link goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+tfa-row-enabled-info-link = W jaki sposób chroni to Twoje konto
+tfa-row-disabled-description-v2 = Zabezpiecz swoje konto, używając aplikacji uwierzytelniającej innej firmy jako drugiego kroku logowania.
 tfa-row-cannot-verify-session-4 = Przepraszamy, wystąpił problem podczas potwierdzania sesji
 tfa-row-disable-modal-heading = Wyłączyć uwierzytelnianie dwuetapowe?
 tfa-row-disable-modal-confirm = Wyłącz
@@ -1198,12 +1211,21 @@ auth-error-114-generic = Próbowano za wiele razy. Proszę spróbować ponownie 
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Próbowano za wiele razy. Proszę spróbować ponownie { $retryAfter }.
 auth-error-125 = Żądanie zostało zablokowane z powodów bezpieczeństwa
+auth-error-129 = Nieprawidłowy numer telefonu
 auth-error-138-2 = Niepotwierdzona sesja
 auth-error-139 = Dodatkowy adres e-mail musi być inny niż adres e-mail konta
 auth-error-155 = Nie odnaleziono tokena TOTP
+# Error shown when the user submits an invalid backup authentication code
+auth-error-156 = Nie odnaleziono zapasowego kodu uwierzytelniania
 auth-error-159 = Nieprawidłowy klucz odzyskiwania konta
 auth-error-183-2 = Kod potwierdzenia jest nieprawidłowy lub wygasł
+auth-error-202 = Funkcja jest wyłączona
+auth-error-203 = System jest niedostępny, spróbuj ponownie później
 auth-error-206 = Nie można utworzyć hasła, hasło jest już ustawione
+auth-error-214 = Numer telefonu odzyskiwania już istnieje
+auth-error-215 = Numer telefonu odzyskiwania nie istnieje
+auth-error-216 = Osiągnięto ograniczenie liczby wiadomości SMS
+auth-error-218 = Nie można usunąć telefonu odzyskiwania, brakuje zapasowych kodów uwierzytelniania.
 auth-error-999 = Nieznany błąd
 auth-error-1001 = Anulowano próbę logowania
 auth-error-1002 = Sesja wygasła. Zaloguj się, aby kontynuować.
@@ -1214,6 +1236,7 @@ auth-error-1011 = Wymagany jest prawidłowy adres e-mail
 auth-error-1031 = Należy podać swój wiek przed zarejestrowaniem
 auth-error-1032 = Należy podać prawidłowy wiek przed zarejestrowaniem
 auth-error-1054 = Nieprawidłowy kod uwierzytelniania dwuetapowego
+auth-error-1056 = Nieprawidłowy zapasowy kod uwierzytelniania
 auth-error-1062 = Nieprawidłowe przekierowanie
 oauth-error-1000 = Coś się nie powiodło. Proszę zamknąć tę kartę i spróbować ponownie.
 
@@ -1317,6 +1340,7 @@ inline-recovery-confirmation-header-default = Potwierdź zapasowy kod uwierzytel
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = Potwierdź zapasowy kod uwierzytelniania, <span>aby przejść do usługi { $serviceName }</span>
+inline-recovery-2fa-enabled-v2 = Uwierzytelnianie dwuetapowe zostało włączone
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
