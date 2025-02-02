@@ -9,9 +9,17 @@ next-basic-error-message = Coś się nie powiodło. Proszę spróbować ponownie
 
 ## Page
 
+checkout-signin-or-create = 1. Zaloguj się lub utwórz { -product-mozilla-account(case: "acc", capitalization: "lower") }
+checkout-create-account = Utwórz { -product-mozilla-account(case: "acc", capitalization: "lower") }
+continue-signin-with-google-button = Kontynuuj za pomocą konta { -brand-google }
+continue-signin-with-apple-button = Kontynuuj za pomocą konta { -brand-apple }
 next-payment-method-header = Wybierz metodę płatności
+# This message is used to indicate the second step in a multi step process.
+payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = Najpierw musisz zatwierdzić subskrypcję
 next-payment-confirmation-thanks-heading-account-exists = Dzięki, teraz sprawdź pocztę!
+# $email (String) - The user's email.
+payment-confirmation-thanks-subheading-account-exists-2 = Otrzymasz wiadomość na adres { $email } z instrukcjami na temat subskrypcji, a także informacjami o płatności.
 next-payment-confirmation-order-heading = Informacje o zamówieniu
 # $invoiceNumber (String) - Invoice number of the successful payment
 next-payment-confirmation-invoice-number = Faktura #{ $invoiceNumber }
@@ -24,6 +32,7 @@ next-payment-confirmation-amount = { $amount } co { $interval }
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Karta kończąca się na { $last4 }
 next-payment-confirmation-download-button = Kontynuuj, aby pobrać
+checkout-error-boundary-retry-button = Spróbuj ponownie
 
 ## Component - Payment Consent Checkbox
 
