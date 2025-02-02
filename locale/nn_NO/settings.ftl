@@ -260,6 +260,7 @@ recovery-key-image-aria-label =
 ## Users see this view when we prompt them to generate an account recovery key
 ## after signing in.
 
+inline-recovery-key-setup-signed-in-firefox-2 = Du er logga inn på { -brand-firefox }.
 inline-recovery-key-setup-create-header = Sikre kontoen din
 # This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
 inline-recovery-key-setup-create-subheader = Har du eit minutt til å verne dataa dine?
@@ -505,6 +506,9 @@ dc-learn-more = Les meir
 # DropDownAvatarMenu component
 
 drop-down-menu-title-2 = { -product-mozilla-account }-meny
+# This is displayed in the Settings menu after user's click on their profile icon.
+# Following this string on a new line will be their display name (user's name or email)
+drop-down-menu-signed-in-as-v2 = Innlogga som
 drop-down-menu-sign-out = Logg ut
 drop-down-menu-sign-out-error-2 = Beklagar, det oppstod eit problem med å logge deg ut
 

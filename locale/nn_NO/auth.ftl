@@ -22,7 +22,7 @@ subplat-update-billing-plaintext = { subplat-update-billing }:
 # Variables:
 #  $email (String) - A user's primary email address
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subplat-explainer-specific-2 = DU får denne e-posten fordi { $email } har ein { -product-mozilla-account } og du har meldt deg på { $productName }.
+subplat-explainer-specific-2 = Du får denne e-posten fordi { $email } har ein { -product-mozilla-account } og du har meldt deg på { $productName }.
 # Variables:
 #  $email (String) - A user's primary email address
 subplat-explainer-reminder-form-2 = Du får denne e-posten fordi { $email } har ein { -product-mozilla-account }.
@@ -374,6 +374,8 @@ postRemoveTwoStepAuthentication-title-2 = Du har slått på tostegs-godkjenning
 postRemoveTwoStepAuthentication-from-device = Du har slått det av frå:
 postRemoveTwoStepAuthentication-action = Handsam kontoen
 postRemoveTwoStepAuthentication-not-required-2 = Du treng ikkje lenger sikkerheitskodar frå autentiseringsappen når du loggar inn.
+postSigninRecoveryCode-device = Du logga inn frå:
+postSigninRecoveryPhone-device = Du logga inn frå:
 postVerify-sub-title-3 = Vi er glade for å sjå deg!
 postVerify-title-2 = Vil du sjå den same fana på to einingar?
 postVerify-description-2 = Det er lett! Installer berre { -brand-firefox } på ei anna eining og logg på for å synkronisere. Det er som magi!
