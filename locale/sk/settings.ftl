@@ -154,7 +154,7 @@ form-reset-password-with-balloon-confirm-password =
 form-reset-password-with-balloon-submit-button = Obnoviť heslo
 form-reset-password-with-balloon-match-error = Heslá sa nezhodujú
 form-password-sr-too-short-message = Heslo musí obsahovať aspoň 8 znakov.
-form-password-sr-not-email-message = Heslo nesmie obsahovať vašu e-mailovú adresu.
+form-password-sr-not-email-message = Heslo nesmie obsahovať vašu e‑mailovú adresu.
 form-password-sr-not-common-message = Heslo nesmie byť bežne používané heslo.
 form-password-sr-requirements-met = Zadané heslo rešpektuje všetky požiadavky na heslo.
 form-password-sr-passwords-match = Zadané heslá sa zhodujú.
@@ -173,7 +173,7 @@ form-password-with-inline-criteria-confirm-password =
 form-password-with-inline-criteria-reset-submit-button = Vytvoriť nové heslo
 form-password-with-inline-criteria-match-error = Heslá sa nezhodujú
 form-password-with-inline-criteria-sr-too-short-message = Heslo musí obsahovať aspoň 8 znakov.
-form-password-with-inline-criteria-sr-not-email-message = Heslo nesmie obsahovať vašu e-mailovú adresu.
+form-password-with-inline-criteria-sr-not-email-message = Heslo nesmie obsahovať vašu e‑mailovú adresu.
 form-password-with-inline-criteria-sr-not-common-message = Heslo nesmie byť bežne používané heslo.
 form-password-with-inline-criteria-sr-requirements-met = Zadané heslo rešpektuje všetky požiadavky na heslo.
 form-password-with-inline-criteria-sr-passwords-match = Zadané heslá sa zhodujú.
@@ -810,7 +810,7 @@ delete-account-continue-button = Pokračovať
 delete-account-password-input =
     .label = Zadajte heslo
 pocket-delete-notice = Ak sa prihlásite na odber služby Pocket Premium, pred odstránením účtu sa uistite, že ste <a>zrušili svoje predplatné</a>.
-pocket-delete-notice-marketing = Ak chcete prestať dostávať marketingové e-maily od spoločností Mozilla Corporation a Mozilla Foundation, musíte <a>požiadať o vymazanie svojich marketingových údajov</a>.
+pocket-delete-notice-marketing = Ak chcete prestať dostávať marketingové e‑maily od spoločností Mozilla Corporation a Mozilla Foundation, musíte <a>požiadať o vymazanie svojich marketingových údajov</a>.
 delete-account-cancel-button = Zrušiť
 delete-account-delete-button-2 = Odstrániť
 
@@ -1279,7 +1279,7 @@ cookies-disabled-learn-more = Ďalšie informácie
 
 ## Index / home page
 
-index-header = Zadajte e-mailovú adresu
+index-header = Zadajte e‑mailovú adresu
 index-sync-header = Pokračovať do vášho { -product-mozilla-account(case: "gen", capitalization: "lower") }
 index-sync-subheader = Synchronizujte svoje heslá, karty a záložky všade, kde používate { -brand-firefox }.
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
@@ -1289,7 +1289,7 @@ index-subheader-default = A pokračovať do nastavení účtu
 index-cta = Zaregistrujte sa alebo sa prihláste
 index-account-info = { -product-mozilla-account } tiež odomkne prístup k ďalším produktom chrániacim súkromie od { -brand-mozilla(case: "gen") }.
 index-email-input =
-    .label = Zadajte e-mailovú adresu
+    .label = Zadajte e‑mailovú adresu
 
 ## InlineRecoveryKeySetup page component
 

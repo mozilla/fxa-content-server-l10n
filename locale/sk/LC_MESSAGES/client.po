@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-05 20:09+0000\n"
-"PO-Revision-Date: 2025-01-22 18:46+0000\n"
+"PO-Revision-Date: 2025-02-02 19:44+0000\n"
 "Last-Translator: wladow <valastiak@mozilla.sk>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sk\n"
@@ -1165,7 +1165,7 @@ msgstr "A pokračovať na <div class=\"graphic %(serviceLogo)s\">%(serviceName)s
 
 #: .es5/templates/index.mustache:8
 msgid "Create an email mask"
-msgstr "Vytvorenie e-mailovej masky"
+msgstr "Vytvorenie e‑mailovej masky"
 
 #: .es5/templates/index.mustache:9
 msgid "Please provide the email address where you’d like to forward emails from your masked email."
