@@ -109,7 +109,7 @@ next-plan-details-total-label = Razem
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
 list-positive-amount = { $amount }
-list-negative-amount = –{ $amount }
+list-negative-amount = -{ $amount }
 next-coupon-success = Twój plan będzie automatycznie odnawiany po cenie katalogowej.
 # $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
 next-coupon-success-repeating = Po { $couponDurationDate } Twój plan będzie automatycznie odnawiany po cenie katalogowej.

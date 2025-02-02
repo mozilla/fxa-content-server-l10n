@@ -1666,6 +1666,21 @@ signin-push-code-confirm-link-error = Odnośnik jest uszkodzony. Proszę spróbo
 ## This page is shown to users when they are having trouble signing in with
 ## their password, and they previously had set up an account recovery method.
 
+signin-recovery-method-header = Zaloguj się
+signin-recovery-method-subheader = Wybierz metodę odzyskiwania
+signin-recovery-method-details = Upewnijmy się, że to Ty korzystasz ze swoich metod odzyskiwania.
+signin-recovery-method-phone = Telefon odzyskiwania
+signin-recovery-method-code-v2 = Zapasowe kody uwierzytelniania
+# Variable: $numberOfCodes (String) - The number of authentication codes the user has left, e.g. 4
+signin-recovery-method-code-info =
+    { $numberOfCodes ->
+        [one] Został { $numberOfCodes } kod
+        [few] Zostały { $numberOfCodes } kody
+       *[many] Zostało { $numberOfCodes } kodów
+    }
+# Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
+signin-recovery-method-send-code-error-heading = Wystąpił problem podczas wysyłania kodu do telefonu odzyskiwania
+signin-recovery-method-send-code-error-description = Proszę spróbować ponownie później lub użyć zapasowych kodów uwierzytelniania.
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
@@ -1674,13 +1689,21 @@ signin-push-code-confirm-link-error = Odnośnik jest uszkodzony. Proszę spróbo
 
 signin-recovery-code-heading = Zaloguj się
 signin-recovery-code-sub-heading = Wpisz zapasowy kod uwierzytelniania
+# codes here refers to backup authentication codes
+signin-recovery-code-instruction-v3 = Wpisz jeden z jednorazowych kodów zachowanych podczas konfigurowania uwierzytelniania dwuetapowego.
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Potwierdź
+# Link to go to the page to use recovery phone instead
+signin-recovery-code-phone-link = Użyj telefonu odzyskiwania
 # External link for support if the user can't use two-step autentication or a backup authentication code
 # https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 signin-recovery-code-support-link = Nie możesz się zalogować?
 # Error displayed in a tooltip when form is submitted witout a code
 signin-recovery-code-required-error = Wymagany jest zapasowy kod uwierzytelniania
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-recovery-code-use-phone-failure = Wystąpił problem podczas wysyłania kodu do telefonu odzyskiwania
 
 ## SigninRecoveryPhone page
 
