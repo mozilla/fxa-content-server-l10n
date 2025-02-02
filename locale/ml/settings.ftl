@@ -592,6 +592,7 @@ add-secondary-email-save-button = കരുതിവയ്ക്കുക
 
 ## Verify secondary email page
 
+add-secondary-email-step-2 = പടി 2/2
 verify-secondary-email-page-title =
     .title = രണ്ടാമത്തെ ഇതപാൽ
 verify-secondary-email-verification-code-2 =
@@ -601,11 +602,21 @@ verify-secondary-email-verify-button-2 = ഉറപ്പിക്കുക
 
 ##
 
+# Link to delete account on main Settings page
+delete-account-link = അക്കൗണ്ട് മായ്ക്കുക
 
 ## Two Step Authentication
 
 tfa-title = രണ്ടുപ്പടി അധിക്കാരികപ്പെടുത്തൽ
+tfa-step-1-3 = പടി 1/3
+tfa-step-2-3 = പടി 2/3
+tfa-step-3-3 = പടി 3/3
+tfa-button-continue = തുടരുക
 tfa-button-cancel = റദ്ദാക്കുക
+tfa-button-finish = തീൎക്കുക
+tfa-qa-code =
+    .alt = { tfa-qa-code-alt }
+tfa-button-cant-scan-qr = സങ്കേതം പരിശോധിക്കാൻ കഴിയുന്നില്ലേ?
 
 ##
 
@@ -708,7 +719,18 @@ third-party-auth-options-or = അല്ലെങ്കിൽ
 
 auth-error-102 = അറിയാത്ത അക്കൗണ്ടു്
 auth-error-103 = തെറ്റായ രഹസ്യവാക്കു്
+# Error shown to users when they have attempted a request (e.g., requesting a password reset) too many times
+# and their requests have been throttled, but the specific amount of time before they can retry is unknown.
+auth-error-114-generic = താങ്ങൾ ഒരുപാടു് വട്ടം ശ്രമിച്ചിരിക്കുന്നു. പിന്നീട് വീണ്ടും ശ്രമിക്കുക.
+# This string is the amount of time required before a user can attempt another request.
+# Variables:
+#   $retryAfter (String) - Time required before retrying a request. The variable is localized by our
+#                          formatting library (momentjs) as a "time from now" and automatically includes
+#                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
+auth-error-114 = താങ്ങൾ ഒരുപാടു് വട്ടം ശ്രമിച്ചിരിക്കുന്നു. വീണ്ടും ശ്രമിക്കുക { $retryAfter }.
+auth-error-203 = വ്യവസ്ഥ ലഭ്യമല്ല, പിന്നീടു് വീണ്ടും ശ്രമിക്കുക
 auth-error-1001 = പ്രവേശന ശ്രമം റദ്ദാക്കി
+oauth-error-1000 = എന്തോ പന്തികേട് സംഭവിച്ചിരിക്കുന്നു. ഈ ടാബ് അടച്ച് വീണ്ടും ശ്രമിക്കുക.
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
@@ -724,6 +746,8 @@ connect-another-device-not-now-link = ഇപ്പോഴല്ല
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
 
+# A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
+cookies-disabled-button-try-again = വീണ്ടും ശ്രമിയ്ക്കുക
 
 ## Index / home page
 
@@ -828,15 +852,23 @@ pair-success-header-2 = ഉപകരണം ബന്ധിപ്പിച്ച�
 
 ## CompleteSignin component
 
+# This is a label that precedes any error which could arise from trying to validate the user's signin
+error-label = പിഴവു്:
 
 ## Signin page
 
+signin-button = പ്രവേശിക്കുക
+signin-header = പ്രവേശിക്കുക
+signin-use-a-different-account-link = മറ്റൊരു അക്കൗണ്ട് ഉപയോഗിക്കുക
+signin-forgot-password-link = രഹസ്യവാക്കു് മറന്നോ?
+signin-password-button-label = രഹസ്യവാക്കു്
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
 ## they can click "report it to us" if they did not attempt to sign in.
 ## This will be the page shown to users to block the sign in and report it.
 
+back = തിരികെ
 
 ## SigninPushCode page
 ## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
@@ -844,20 +876,34 @@ pair-success-header-2 = ഉപകരണം ബന്ധിപ്പിച്ച�
 
 ## SigninPushCodeConfirmPage
 
+signin-push-code-confirm-verifying = ഉറപ്പിക്കുന്നു
+signin-push-code-confirm-login = പ്രവേശനം ഉറപ്പിച്ചു
+signin-push-code-confirm-link-error = കണ്ണി കേടായി. ദയവായി വീണ്ടും ശ്രമിക്കുക
 
 ## Signin recovery method page
 ## This page is shown to users when they are having trouble signing in with
 ## their password, and they previously had set up an account recovery method.
 
+signin-recovery-method-header = പ്രവേശിക്കുക
+signin-recovery-method-subheader = വീണ്ടെടുക്കൽപരി തിരഞ്ഞെടുക്കുക
+signin-recovery-method-code-v2 = കരുതൽ പകൎപ്പു് ആധികാരികമാക്കൽ-സങ്കേതങ്ങൾ
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
+signin-recovery-code-heading = പ്രവേശിക്കുക
+signin-recovery-code-sub-heading = കരുതൽ പകർപ്പു് ആധികാരികമാക്കൽ-സങ്കേതം നല്കുക
+# Form button to confirm if the backup authentication code entered by the user is valid
+signin-recovery-code-confirm-button = തീൎച്ചപെടുത്തുക
+signin-recovery-code-use-phone-failure-description = ദയവായി പിന്നീട് വീണ്ടും ശ്രമിക്കുക
 
 ## SigninRecoveryPhone page
 
+signin-recovery-phone-flow-heading = പ്രവേശിക്കുക
+# Follows the error message (e.g, "There was a problem sending a code")
+signin-recovery-phone-general-error-description = ദയവായി പിന്നീട് വീണ്ടും ശ്രമിക്കുക
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -866,15 +912,25 @@ pair-success-header-2 = ഉപകരണം ബന്ധിപ്പിച്ച�
 ## Users see this page during the signin process. In this instance, the confirmation code is
 ## a 6-digit code that is sent to the user's email address.
 
+signin-token-code-input-label-v2 = 6 അക്ക സങ്കേതം നൽകുക
+# Form button to confirm if the confirmation code entered by the user is valid
+signin-token-code-confirm-button = തീൎച്ചപെടുത്തുക
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+signin-totp-code-header = പ്രവേശിക്കുക
+signin-totp-code-subheader-v2 = രണ്ടുപടി ആധികാരികമാക്കൽ-സങ്കേതം നല്കുക
+# Form button to confirm if the authentication code entered by the user is valid
+signin-totp-code-confirm-button = തീൎച്ചപ്പെടുത്തുക
+signin-totp-code-other-account-link = മറ്റൊരു അക്കൗണ്ട് ഉപയോഗിക്കുക
+signin-totp-code-recovery-code-link = സങ്കേതം ഇടുന്നതിൽ കുഴപ്പമുണ്ടാവന്നോ?
 
 ## Signin Unblock Page
 ## Page shown when signin has been blocked by rate limiting (too many requests)
 
+signin-unblock-submit-button = തുടരുക
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -886,3 +942,16 @@ pair-success-header-2 = ഉപകരണം ബന്ധിപ്പിച്ച�
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
+signup-heading = രഹസ്യവാക്കു് വയ്ക്കുക
+signup-heading-relay = രഹസ്യവാക്കു് ഉണ്ടാക്കുക
+# Link included in a dismissible info banner that is only displayed to Pocket clients
+# Link leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
+signup-pocket-info-banner-link = ഇവിടെ കണ്ടെത്തുക
+# Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
+signup-change-email-link = ഇതപാൽ മാറ്റുക
+# Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
+signup-age-check-label =
+    .label = താങ്ങൾക്ക് എത്രവയസ്സുണ്ട്?
+# Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
+# This link appears just below signup-age-check-input-label
+signup-coppa-check-explanation-link = എന്തുകൊണ്ടാണു് ഞങ്ങൾ ചോദിക്കുന്നതു്?
