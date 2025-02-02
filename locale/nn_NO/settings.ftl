@@ -1035,11 +1035,16 @@ auth-error-114-generic = Du har prøvd for mange gongar. Prøv igjen seinare.
 #                          formatting library (momentjs) as a "time from now" and automatically includes
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Du har prøvd for mange gongar. Prøv igjen { $retryAfter }.
+auth-error-129 = Ugyldig telefonnummer
 auth-error-138-2 = Ikkje stadfesta økt
 auth-error-139 = Sekundær e-postadresse må vere ulik e-postadressa til kontoen din
 auth-error-155 = TOTP-token ikkje funne
+# Error shown when the user submits an invalid backup authentication code
+auth-error-156 = Fann ikkje reserve-autentiseringskoden
 auth-error-159 = Ugyldig kontogjenopprettingsnøkkel
 auth-error-183-2 = Ugyldig eller utgått stadfestingskode
+auth-error-202 = Funksjonen er ikkje aktivert
+auth-error-203 = Systemet utilgjengeleg, prøv igjen seinare
 auth-error-999 = Uventa feil
 auth-error-1001 = Innloggingsforsøket avbrote
 auth-error-1002 = Økta er slutt. Logg inn for å halde fram.
@@ -1049,6 +1054,8 @@ auth-error-1010 = Gyldig passord påkravd
 auth-error-1011 = Gyldig e-postadresse påkravd
 auth-error-1031 = Du må skrive inn alder for å registrere deg
 auth-error-1032 = Du må skrive inn ein gyldig alder for å registrere deg
+auth-error-1054 = Feil tostegs-godkjenningskode
+auth-error-1056 = Ugyldig reserve-godkjenningskode
 auth-error-1062 = Ugyldig omdirigering
 oauth-error-1000 = Noko gjekk gale. Lat att fana og prøv på nytt.
 
@@ -1275,6 +1282,7 @@ pair-unsupported-header = Paring via ein app
 ## Third party auth users that do not have a password set yet are prompted for a
 ## password to complete their sign-in when they want to login to a service requiring it.
 
+set-password-heading = Opprett passord
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
@@ -1324,7 +1332,9 @@ confirm-reset-password-otp-different-account-link = Bruk ein annan konto
 confirm-totp-reset-password-header = Tilbakestill passord
 confirm-totp-reset-password-trouble-code = Har du poblem med å taste inn koden?
 confirm-totp-reset-password-confirm-button = Stadfest
+confirm-totp-reset-password-input-label-v2 = Skriv inn 6-sifra kode
 confirm-totp-reset-password-use-different-account = Bruk ein annan konto
+confirm-recovery-code-reset-password-input-label = Skriv inn 10-sifra kode
 confirm-recovery-code-reset-password-trouble-code = Tilbake
 
 ## ResetPassword start page
@@ -1408,12 +1418,15 @@ signin-push-code-confirm-link-error = Lenka er skadd. Prøv igjen.
 ## This page is shown to users when they are having trouble signing in with
 ## their password, and they previously had set up an account recovery method.
 
+signin-recovery-method-header = Logg inn
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
+signin-recovery-code-heading = Logg inn
+signin-recovery-code-sub-heading = Skriv inn reserve-godkjenningskode
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Stadfest
 # External link for support if the user can't use two-step autentication or a backup authentication code
@@ -1429,6 +1442,10 @@ signin-recovery-phone-flow-heading = Logg inn
 signin-recovery-phone-heading = Skriv inn gjenopprettingskode
 signin-recovery-phone-input-label = Skriv inn 6-sifra kode
 signin-recovery-phone-code-submit-button = Stadfest
+signin-recovery-phone-resend-code-button = Send koden på nytt
+signin-recovery-phone-resend-success = Kode sendt
+# links to https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+signin-recovery-phone-locked-out-link = Er du sperra ute?
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -1508,6 +1525,7 @@ confirm-signup-code-is-required-error = Stadfestingskode er påkravd
 ## This is the second page of the sign up flow, users have already entered their email
 
 signup-heading = Angje passord
+signup-heading-relay = Opprett passord
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Endre e-post
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
