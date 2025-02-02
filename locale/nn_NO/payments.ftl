@@ -377,6 +377,7 @@ product-profile-error =
 product-customer-error =
     .title = Problem med å laste kunde
 product-plan-not-found = Fann ikkje planen
+product-location-unsupported-error = Plasseringa er ikkje støtta
 
 ## Hooks - coupons
 

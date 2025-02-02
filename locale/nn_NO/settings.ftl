@@ -400,6 +400,7 @@ flow-recovery-key-hint-char-limit-error = Hintet må innehalde færre enn 255 te
 password-reset-warning-icon = Åtvaring
 password-reset-chevron-expanded = Skjul åtvaring
 password-reset-chevron-collapsed = Vis åtvaring
+password-reset-previously-signed-in-device-2 = Har du ei eining du tidlegare har logga på?
 
 ## Alert Bar
 
@@ -788,6 +789,8 @@ verify-secondary-email-success-alert-2 = { $email } lagt til
 
 # Link to delete account on main Settings page
 delete-account-link = Slett kontoen
+# Success message displayed in alert bar after the user has successfully confirmed their account is not inactive.
+inactive-update-status-success-alert = Innlogga. { -product-mozilla-account }-en din og data held fram med å vere aktive.
 
 ## Two Step Authentication
 

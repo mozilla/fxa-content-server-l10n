@@ -245,6 +245,7 @@ fraudulentAccountDeletion-contact-plaintext = Viss du har spørsmål, kontakt su
 # followed by link to sign in
 inactiveAccountFinalWarning-action-plaintext = Logg inn for å behalde kontoen din:
 inactiveAccountFirstWarning-subject = Ikkje mist kontoen din
+inactiveAccountFirstWarning-inactive-status = Vi la merke til at du ikkje har logga på på 2 år.
 inactiveAccountFirstWarning-action = Logg inn for å behalde kontoen din
 inactiveAccountFirstWarning-preview = Logg inn for å behalde kontoen din
 # followed by link to sign in
