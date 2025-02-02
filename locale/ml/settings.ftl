@@ -840,15 +840,40 @@ pair-success-header-2 = ഉപകരണം ബന്ധിപ്പിച്ച�
 
 ## Confirm Reset Password With Code
 
+confirm-reset-password-with-code-heading = താങ്ങളുടെ ഇതപാൽ പരിശോധിക്കുക
+# Text within span appears in bold
+# $email - email address for which a password reset was requested
+confirm-reset-password-with-code-instruction = <span>{ $email }</span>-ലേക്കു് ഞങ്ങളൊരു ഉറപ്പിക്കൽ-സങ്കേതം അയച്ചിട്ടുണ്ടു്
+# Shown above a group of 8 single-digit input boxes
+# Only numbers allowed
+confirm-reset-password-code-input-group-label = 10 മിനിറ്റിലുള്ളിൽ 8 അക്ക സങ്കേതം നല്കുക
+# Clicking the button submits and verifies the code
+# If succesful, continues to the next step of the password reset
+confirm-reset-password-otp-submit-button = തുടരുക
+# Button to request a new reset password confirmation code
+confirm-reset-password-otp-resend-code-button = സങ്കേതം വീണ്ടും അയയ്ക്കുക
+# Link to cancel the password reset and sign in with a different account
+confirm-reset-password-otp-different-account-link = മറ്റൊരു അക്കൗണ്ട് ഉപയോഗിക്കുക
 
 ## PasswordResetConfirmTotp Page
 
+confirm-totp-reset-password-trouble-code = സങ്കേതം ഇടുന്നതിൽ കുഴപ്പമുണ്ടാവന്നോ?
+confirm-totp-reset-password-confirm-button = തീൎച്ചപെടുത്തുക
+confirm-totp-reset-password-input-label-v2 = 6 അക്ക സങ്കേതം നൽകുക
+confirm-totp-reset-password-use-different-account = മറ്റൊരു അക്കൗണ്ട് ഉപയോഗിക്കുക
+confirm-recovery-code-reset-password-trouble-code = തിരികെ
 
 ## ResetPassword start page
 
+password-reset-email-input =
+    .label = ഇ-തപാൽ നൽകുക
+password-reset-submit-button-2 = തുടരുക
 
 ## ResetPasswordConfirmed
 
+reset-password-complete-header = താങ്കളുടെ രഹസ്യവാക്കു് പുനഃസജ്ജമാക്കി
+# $serviceName is a product name such as Monitor, Pocket, Relay
+reset-password-confirmed-cta = { $serviceName }-ലോട്ടു് തുടരുക
 
 ## CompleteSignin component
 
