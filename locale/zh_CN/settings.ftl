@@ -1663,16 +1663,41 @@ signin-recovery-method-send-code-error-description = 请稍后再试，或改用
 
 signin-recovery-code-heading = 登录
 signin-recovery-code-sub-heading = 请输入备用验证码
+# codes here refers to backup authentication codes
+signin-recovery-code-instruction-v3 = 请输入您在设置两步验证时保存的一次性验证码中的任意一个。
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = 确认
+# Link to go to the page to use recovery phone instead
+signin-recovery-code-phone-link = 使用恢复电话号码
 # External link for support if the user can't use two-step autentication or a backup authentication code
 # https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 signin-recovery-code-support-link = 被锁定了吗？
 # Error displayed in a tooltip when form is submitted witout a code
 signin-recovery-code-required-error = 需要使用备用验证码
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-recovery-code-use-phone-failure = 向恢复电话号码发送验证码时出现问题
+signin-recovery-code-use-phone-failure-description = 请稍后再试。
 
 ## SigninRecoveryPhone page
 
+signin-recovery-phone-flow-heading = 登录
+# A recovery code in context of this page is a one time code sent to the user's phone
+signin-recovery-phone-heading = 请输入恢复验证码
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+signin-recovery-phone-instruction = 一个六位数验证码已通过短信发送到 <span>{ $maskedPhoneNumber }</span>，5 分钟内有效。
+signin-recovery-phone-input-label = 请输入 6 位验证码
+signin-recovery-phone-code-submit-button = 确认
+signin-recovery-phone-resend-code-button = 重新发送验证码
+signin-recovery-phone-resend-success = 验证码已发送
+# links to https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+signin-recovery-phone-locked-out-link = 无法通过验证？
+signin-recovery-phone-send-code-error-heading = 发送验证码时出现问题
+signin-recovery-phone-code-verification-error-heading = 验证您的验证码时出现问题
+# Follows the error message (e.g, "There was a problem sending a code")
+signin-recovery-phone-general-error-description = 请稍后再试。
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
