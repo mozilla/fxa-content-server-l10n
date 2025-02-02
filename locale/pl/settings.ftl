@@ -36,6 +36,8 @@ brand-m-logo =
 ## ButtonBack component
 ## Allows users to click a back arrow to navigate to the previous page
 
+button-back-aria-label = Wstecz
+button-back-title = Wstecz
 
 ## ButtonDownloadRecoveryKeyPDF
 ## Clicking on this button downloads a PDF file that contains the user's account recovery key
@@ -291,6 +293,10 @@ recovery-phone-image-description =
     .aria-label = Telefon odbierający kod SMS-em.
 recovery-phone-code-image-description =
     .aria-label = Kod odebrany na telefonie.
+backup-recovery-phone-image-aria-label =
+    .aria-label = Telefon z możliwością wysyłania i odbierania wiadomości SMS
+backup-authentication-codes-image-aria-label =
+    .aria-label = Ekran urządzenia z kodami
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -321,6 +327,8 @@ input-password-sr-only-now-hidden = Twoje hasło jest teraz ukryte.
 
 ## Phone number component
 
+# This is an aria-label available to screen readers for a selection list that includes country flags, country name and country code
+input-phone-number-country-list-aria-label = Wybierz kraj
 input-phone-number-enter-number = Wpisz numer telefonu
 input-phone-number-country-united-states = Stany Zjednoczone
 input-phone-number-country-canada = Kanada
