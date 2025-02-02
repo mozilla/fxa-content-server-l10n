@@ -630,9 +630,31 @@ flow-recovery-key-info-cancel-link = Anuluj
 # verification code refers to a code sent by text message to confirm phone number ownership
 # and complete setup
 flow-setup-phone-confirm-code-heading = Wpisz kod weryfikacyjny
+# $phoneNumber is a partially obfuscated phone number with only the last 4 digits showing (e.g., *** *** 1234)
+# span element applies formatting to ensure the number is always displayed left-to-right
+flow-setup-phone-confirm-code-instruction = Sześciocyfrowy kod został wysłany na numer <span>{ $phoneNumber }</span> za pomocą wiadomości SMS. Ten kod wygasa po 5 minutach.
+flow-setup-phone-confirm-code-input-label = Wpisz sześciocyfrowy kod
+flow-setup-phone-confirm-code-button = Potwierdź
+# button to resend a code by text message to the user's phone
+# followed by a button to resend a code
+flow-setup-phone-confirm-code-expired = Kod wygasł?
+flow-setup-phone-confirm-code-resend-code-button = Wyślij ponownie kod
+flow-setup-phone-confirm-code-resend-code-success = Wysłano kod
+flow-setup-phone-confirm-code-success-message-v2 = Dodano telefon odzyskiwania
 
 ## FlowSetupPhoneConfirmCode
 
+flow-setup-phone-submit-number-heading = Zweryfikuj numer telefonu
+# The code is a 6-digit code send by text message/SMS
+flow-setup-phone-verify-number-instruction = Otrzymasz wiadomość SMS od { -brand-mozilla(case: "gen") } z kodem weryfikującym numer telefonu. Nie udostępniaj tego kodu nikomu.
+# The initial rollout of the recovery phone is only available to users with US and Canada mobile phone numbers.
+# Voice over Internet Protocol (VoIP), is a technology that uses a broadband Internet connection instead of a regular (or analog) phone line to make calls.
+# Phone mask services (for example Relay) provide a temporary virtual number to avoid providing a real phone number.
+# Both VoIP and phone masks can be unreliable for one-time-passcode (OTP) verification
+flow-setup-phone-submit-number-info-message-v2 = Telefon odzyskiwania jest dostępny tylko w Stanach Zjednoczonych i Kanadzie. Numery VoIP i maski telefoniczne nie są zalecane.
+flow-setup-phone-submit-number-legal = Podając swój numer, zgadzasz się na jego przechowywanie, abyśmy mogli wysłać Ci wiadomość SMS wyłącznie w celu weryfikacji konta. Mogą obowiązywać opłaty za wiadomości i dane komórkowe.
+# cliking on the button sends a code by text message to the phone number typed in by the user
+flow-setup-phone-submit-number-button = Wyślij kod
 
 ## HeaderLockup component, the header in account settings
 
@@ -690,6 +712,7 @@ tfa-replace-code-success-1 =
     Utworzono nowe kody. Zachowaj te zapasowe kody uwierzytelniania
     jednorazowego użytku w bezpiecznym miejscu — będą one potrzebne
     do uzyskania dostępu do konta, jeśli nie masz swojego telefonu.
+tfa-replace-code-success-alert-4 = Zaktualizowano zapasowe kody uwierzytelniania
 tfa-replace-code-1-2 = 1. krok z 2
 tfa-replace-code-2-2 = 2. krok z 2
 
@@ -854,9 +877,20 @@ recovery-key-create-back-button-title = Wróć do ustawień
 ## PageRecoveryPhoneRemove
 ## Users reach this page from account settings when they want to remove a backup phone number.
 
+recovery-phone-remove-header = Usuń numer telefonu odzyskiwania
+# Variables:
+#   $formattedFullPhoneNumber (String) - the user's full phone number
+settings-recovery-phone-remove-info = Spowoduje to usunięcie numeru <strong>{ $formattedFullPhoneNumber }</strong> z listy telefonów odzyskiwania.
+settings-recovery-phone-remove-recommend = Zalecamy dalsze korzystanie z tej metody, ponieważ jest łatwiejsza niż zachowywanie zapasowych kodów uwierzytelniania.
+# "Saved backup authentication codes" refers to previously saved backup authentication codes
+settings-recovery-phone-remove-recovery-methods = Jeśli go usuniesz, upewnij się, że nadal masz zachowane zapasowe kody uwierzytelniania. <linkExternal>Porównaj metody odzyskiwania</linkExternal>
+settings-recovery-phone-remove-button = Usuń numer telefonu
+settings-recovery-phone-remove-cancel = Anuluj
+settings-recovery-phone-remove-success = Usunięto telefon odzyskiwania
 
 ## PageSetupRecoveryPhone
 
+page-setup-recovery-phone-heading = Dodaj telefon odzyskiwania
 
 ## Add secondary email page
 
