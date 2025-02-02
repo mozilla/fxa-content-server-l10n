@@ -255,6 +255,20 @@ fraudulentAccountDeletion-contact = W razie pytań prosimy o kontakt z naszym
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = W razie pytań prosimy o kontakt z naszym zespołem wsparcia: { $mozillaSupportUrl }
+inactiveAccountFinalWarning-subject = Ostatnia szansa na zachowanie { -product-mozilla-account(case: "gen", capitalization: "lower") }
+inactiveAccountFinalWarning-title = Twoje konto i dane { -brand-mozilla(case: "gen") } zostaną usunięte
+inactiveAccountFinalWarning-preview = Zaloguj się, aby zachować swoje konto
+inactiveAccountFinalWarning-account-description = Twoje { -product-mozilla-account(case: "nom", capitalization: "lower") } daje dostęp do bezpłatnych produktów do przeglądania i chroniących prywatność, takich jak synchronizacja { -brand-firefox(case: "gen") }, { -product-mozilla-monitor }, { -product-firefox-relay } i { -product-mdn }.
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+# This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
+inactiveAccountFinalWarning-impact = <strong>{ $deletionDate }</strong> to dzień, w którym Twoje konto i dane zostaną trwale usunięte, chyba że się zalogujesz.
+inactiveAccountFinalWarning-action = Zaloguj się, aby zachować swoje konto
+# followed by link to sign in
+inactiveAccountFinalWarning-action-plaintext = Zaloguj się, aby zachować swoje konto:
+inactiveAccountFirstWarning-subject = Nie strać swojego konta
+inactiveAccountFirstWarning-title = Czy chcesz zachować swoje konto i dane { -brand-mozilla(case: "gen") }?
+inactiveAccountFirstWarning-account-description-v2 = Twoje { -product-mozilla-account(case: "nom", capitalization: "lower") } daje dostęp do bezpłatnych produktów do przeglądania i chroniących prywatność, takich jak synchronizacja { -brand-firefox(case: "gen") }, { -product-mozilla-monitor }, { -product-firefox-relay } i { -product-mdn }.
+inactiveAccountFirstWarning-inactive-status = Zauważyliśmy, że ostatnie logowanie miało miejsce dwa lata temu.
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title-zero = Zapasowe kody uwierzytelniania się skończyły!
 codes-reminder-title-one = Został ostatni zapasowy kod uwierzytelniania
