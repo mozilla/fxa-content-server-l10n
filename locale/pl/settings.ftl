@@ -571,6 +571,9 @@ dc-learn-more = Więcej informacji
 # DropDownAvatarMenu component
 
 drop-down-menu-title-2 = Menu { -product-mozilla-account(case: "gen", capitalization: "lower") }
+# This is displayed in the Settings menu after user's click on their profile icon.
+# Following this string on a new line will be their display name (user's name or email)
+drop-down-menu-signed-in-as-v2 = Zalogowano jako
 drop-down-menu-sign-out = Wyloguj się
 drop-down-menu-sign-out-error-2 = Przepraszamy, wystąpił problem z wylogowaniem
 
@@ -624,6 +627,9 @@ flow-recovery-key-info-cancel-link = Anuluj
 
 ## FlowSetupPhoneConfirmCode
 
+# verification code refers to a code sent by text message to confirm phone number ownership
+# and complete setup
+flow-setup-phone-confirm-code-heading = Wpisz kod weryfikacyjny
 
 ## FlowSetupPhoneConfirmCode
 
