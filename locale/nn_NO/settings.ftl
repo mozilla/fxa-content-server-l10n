@@ -219,6 +219,9 @@ alert-icon-aria-label =
 # Aria-label option for an alert symbol
 icon-attention-aria-label =
     .aria-label = Merk
+# Aria-label option for an alert symbol
+icon-warning-aria-label =
+    .aria-label = Åtvaring
 # Used to select Canada as country code for phone number
 canadian-flag-icon-aria-label =
     .aria-label = Canadisk flagg
@@ -293,6 +296,11 @@ input-password-sr-only-now-hidden = Passordet ditt er no skjult.
 
 ## Phone number component
 
+# This is an aria-label available to screen readers for a selection list that includes country flags, country name and country code
+input-phone-number-country-list-aria-label = Vel land
+input-phone-number-enter-number = Skriv inn telefonnummer
+input-phone-number-country-united-states = USA
+input-phone-number-country-canada = Canada
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Tilbake
 
@@ -569,9 +577,19 @@ flow-recovery-key-info-cancel-link = Avbryt
 
 ## FlowSetupPhoneConfirmCode
 
+flow-setup-phone-confirm-code-input-label = Skriv inn 6-sifra kode
+flow-setup-phone-confirm-code-button = Stadfest
+# button to resend a code by text message to the user's phone
+# followed by a button to resend a code
+flow-setup-phone-confirm-code-expired = Har koden gått ut?
+flow-setup-phone-confirm-code-resend-code-button = Send koden på nytt
+flow-setup-phone-confirm-code-resend-code-success = Kode sendt
 
 ## FlowSetupPhoneConfirmCode
 
+flow-setup-phone-submit-number-heading = Stadfest telefonnummeret ditt
+# cliking on the button sends a code by text message to the phone number typed in by the user
+flow-setup-phone-submit-number-button = Send kode
 
 ## HeaderLockup component, the header in account settings
 
@@ -765,6 +783,8 @@ recovery-key-create-back-button-title = Tilbake til innstillingar
 ## PageRecoveryPhoneRemove
 ## Users reach this page from account settings when they want to remove a backup phone number.
 
+settings-recovery-phone-remove-button = Fjern telefonnummeret
+settings-recovery-phone-remove-cancel = Avbryt
 
 ## PageSetupRecoveryPhone
 
@@ -884,6 +904,20 @@ signout-sync-session-expired = Noko gjekk diverre gale. Logg ut frå nettlesaren
 
 ## SubRow component
 
+# Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
+# Users that have not enabled or verified 2FA will not see this
+tfa-row-backup-codes-not-available = Ingen kodar tilgjengeleg
+# Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
+tfa-row-backup-codes-get-new-cta = Få nye kodar
+# Shown to users who have no backup authentication codes
+# Button to add backup authentication codes when none are configured
+tfa-row-backup-codes-add-cta = Legg til
+# button to change the configured recovery phone
+tfa-row-backup-phone-change-cta = Endre
+# button to add/configure a recovery phone
+tfa-row-backup-phone-add-cta = Legg til
+# Button to remove a recovery phone from the user's account
+tfa-row-backup-phone-delete-button = Fjern
 
 ## Switch component
 
@@ -1290,6 +1324,8 @@ confirm-reset-password-otp-different-account-link = Bruk ein annan konto
 confirm-totp-reset-password-header = Tilbakestill passord
 confirm-totp-reset-password-trouble-code = Har du poblem med å taste inn koden?
 confirm-totp-reset-password-confirm-button = Stadfest
+confirm-totp-reset-password-use-different-account = Bruk ein annan konto
+confirm-recovery-code-reset-password-trouble-code = Tilbake
 
 ## ResetPassword start page
 
@@ -1388,6 +1424,11 @@ signin-recovery-code-required-error = Reserve-autentiseringskode påkravd
 
 ## SigninRecoveryPhone page
 
+signin-recovery-phone-flow-heading = Logg inn
+# A recovery code in context of this page is a one time code sent to the user's phone
+signin-recovery-phone-heading = Skriv inn gjenopprettingskode
+signin-recovery-phone-input-label = Skriv inn 6-sifra kode
+signin-recovery-phone-code-submit-button = Stadfest
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
