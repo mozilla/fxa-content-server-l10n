@@ -119,6 +119,7 @@ document =
 
 ## Routes - Checkout - New user
 
+new-user-submit = വരിക്കാരാവുക
 
 ## Routes - Product and Subscriptions
 
@@ -148,6 +149,7 @@ document =
 
 ## Routes - Subscriptions - Cancel
 
+sub-item-stay-sub = വരിക്കാരനായിയിരിക്കുക
 
 ## $name (String) - The name of the subscribed product.
 ## $period (Date) - The last day of product access
@@ -183,6 +185,7 @@ document =
 ## Routes - Subscriptions - Reactivate
 ## $name (String) - The name of the subscribed product.
 
+reactivate-confirm-button = വീണ്ടും വരിക്കാരാവുക
 
 ## $date (Date) - Last day of product access
 

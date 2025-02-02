@@ -31,6 +31,7 @@ checkout-error-boundary-basic-error-message = എന്തോ കുഴപ്പ
 
 ## Checkout Form
 
+next-new-user-submit = വരിക്കാരാവുക
 next-payment-validate-name-error = മുഴുവൻ പേരു് നല്കുക
 next-pay-with-heading-paypal = { -brand-paypal }-ന്റെ കൂടെ പണമടയ്ക്കുക
 # Label for the Full Name input
