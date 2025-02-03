@@ -1207,6 +1207,7 @@ auth-error-206 = Parola zaten belirlenmiş olduğu için parola oluşturulamıyo
 auth-error-214 = Kurtarma telefon numarası zaten mevcut
 auth-error-215 = Kurtarma telefon numarası mevcut değil
 auth-error-216 = SMS sınırına ulaşıldı
+auth-error-218 = Yedek kimlik doğrulama kodları eksik olduğu için kurtarma telefonu kaldırılamadı.
 auth-error-999 = Beklenmeyen hata
 auth-error-1001 = Giriş denemesi iptal edildi
 auth-error-1002 = Oturum zaman aşımına uğradı. Devam etmek için giriş yapın.
@@ -1217,6 +1218,7 @@ auth-error-1011 = Geçerli bir e-posta gerekiyor
 auth-error-1031 = Kaydolmak için yaşınızı belirtmelisiniz
 auth-error-1032 = Kaydolmak için geçerli bir yaş belirtmelisiniz
 auth-error-1054 = İki aşamalı kimlik doğrulama kodu geçersiz
+auth-error-1056 = Geçersiz yedek kimlik doğrulama kodu
 auth-error-1062 = Geçersiz yönlendirme
 oauth-error-1000 = Bir şeyler yanlış gitti. Lütfen bu sekmeyi kapatıp yeniden deneyin.
 
@@ -1647,8 +1649,12 @@ signin-recovery-method-header = Giriş yap
 signin-recovery-method-subheader = Bir kurtarma yöntemi seçin
 signin-recovery-method-details = Kurtarma yöntemlerinizi kullanan kişinin siz olduğunuzdan emin olmamız gerekiyor.
 signin-recovery-method-phone = Kurtarma telefonu
+signin-recovery-method-code-v2 = Yedek kimlik doğrulama kodları
 # Variable: $numberOfCodes (String) - The number of authentication codes the user has left, e.g. 4
 signin-recovery-method-code-info = { $numberOfCodes } kod kaldı
+# Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
+signin-recovery-method-send-code-error-heading = Kurtarma telefonunuza kod gönderilirken bir sorun oluştu
+signin-recovery-method-send-code-error-description = Lütfen daha sonra yeniden deneyin veya yedek kimlik doğrulama kodlarınızı kullanın.
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
@@ -1657,16 +1663,28 @@ signin-recovery-method-code-info = { $numberOfCodes } kod kaldı
 
 signin-recovery-code-heading = Giriş yap
 signin-recovery-code-sub-heading = Yedek kimlik doğrulama kodunuzu yazın
+# codes here refers to backup authentication codes
+signin-recovery-code-instruction-v3 = İki aşamalı doğrulamayı kurarken kaydettiğiniz tek kullanımlık kodlardan birini girin.
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Onayla
+# Link to go to the page to use recovery phone instead
+signin-recovery-code-phone-link = Kurtarma telefonunu kullan
 # External link for support if the user can't use two-step autentication or a backup authentication code
 # https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 signin-recovery-code-support-link = Hesabınız kilitlendi mi?
 # Error displayed in a tooltip when form is submitted witout a code
 signin-recovery-code-required-error = Yedek kimlik doğrulama kodu gerekli
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-recovery-code-use-phone-failure = Kurtarma telefonunuza kod gönderilirken bir sorun oluştu
+signin-recovery-code-use-phone-failure-description = Lütfen daha sonra yeniden deneyin.
 
 ## SigninRecoveryPhone page
 
+signin-recovery-phone-flow-heading = Giriş yap
+# A recovery code in context of this page is a one time code sent to the user's phone
+signin-recovery-phone-heading = Kurtarma kodunu girin
 # Text that explains the user should check their phone for a recovery code
 # $maskedPhoneNumber - The users masked phone number
 signin-recovery-phone-instruction = <span>{ $maskedPhoneNumber }</span> numarasına kısa mesajla altı basamaklı bir kod gönderdik. Bu kodun geçerlilik süresi 5 dakikadır.
