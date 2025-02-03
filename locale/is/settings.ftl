@@ -37,6 +37,7 @@ brand-m-logo =
 ## Allows users to click a back arrow to navigate to the previous page
 
 button-back-aria-label = Til baka
+button-back-title = Til baka
 
 ## ButtonDownloadRecoveryKeyPDF
 ## Clicking on this button downloads a PDF file that contains the user's account recovery key
@@ -292,6 +293,10 @@ recovery-phone-image-description =
     .aria-label = Farsímatæki sem fær kóða með textaskilaboðum.
 recovery-phone-code-image-description =
     .aria-label = Kóði móttekinn í farsíma.
+backup-recovery-phone-image-aria-label =
+    .aria-label = Farsímatæki með SMS textaskilaboðum
+backup-authentication-codes-image-aria-label =
+    .aria-label = Skjár tækis með kóða
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -322,6 +327,8 @@ input-password-sr-only-now-hidden = Lykilorðið þitt er núna falið.
 
 ## Phone number component
 
+# This is an aria-label available to screen readers for a selection list that includes country flags, country name and country code
+input-phone-number-country-list-aria-label = Veldu land
 input-phone-number-enter-number = Settu inn símanúmer
 input-phone-number-country-united-states = Bandaríkin
 input-phone-number-country-canada = Kanada
@@ -564,6 +571,9 @@ dc-learn-more = Frekari upplýsingar
 # DropDownAvatarMenu component
 
 drop-down-menu-title-2 = { -product-mozilla-account }-valmynd
+# This is displayed in the Settings menu after user's click on their profile icon.
+# Following this string on a new line will be their display name (user's name or email)
+drop-down-menu-signed-in-as-v2 = Skráð/ur inn sem
 drop-down-menu-sign-out = Skrá út
 drop-down-menu-sign-out-error-2 = Því miður, upp kom vandamál við að skrá þig út
 
@@ -617,9 +627,29 @@ flow-recovery-key-info-cancel-link = Hætta við
 
 ## FlowSetupPhoneConfirmCode
 
+# verification code refers to a code sent by text message to confirm phone number ownership
+# and complete setup
+flow-setup-phone-confirm-code-heading = Settu inn staðfestingarkóða
+# $phoneNumber is a partially obfuscated phone number with only the last 4 digits showing (e.g., *** *** 1234)
+# span element applies formatting to ensure the number is always displayed left-to-right
+flow-setup-phone-confirm-code-instruction = Sex stafa kóði var sendur til <span>{ $PhoneNumber }</span> með SMS. Þessi kóði rennur út eftir 5 mínútur.
+flow-setup-phone-confirm-code-input-label = Settu inn 6-stafa kóða
+flow-setup-phone-confirm-code-button = Staðfesta
+# button to resend a code by text message to the user's phone
+# followed by a button to resend a code
+flow-setup-phone-confirm-code-expired = Útrunninn kóði?
+flow-setup-phone-confirm-code-resend-code-button = Senda kóða aftur
+flow-setup-phone-confirm-code-resend-code-success = Kóði sendur
+flow-setup-phone-confirm-code-success-message-v2 = Endurheimtusímanúmeri bætt við
 
 ## FlowSetupPhoneConfirmCode
 
+flow-setup-phone-submit-number-heading = Staðfestu símanúmerið þitt
+# The code is a 6-digit code send by text message/SMS
+flow-setup-phone-verify-number-instruction = Þú munt fá SMS frá { -brand-mozilla } með kóða til að staðfesta númerið þitt. Ekki deila þessum kóða með neinum.
+flow-setup-phone-submit-number-legal = Með því að gefa upp símanúmerið þitt, samþykkir þú að við geymum það svo við getum sent þér skilaboð einungis til að staðfesta reikninginn. Gjöld vegna skilaboða og gagnamagns gætu átt við.
+# cliking on the button sends a code by text message to the phone number typed in by the user
+flow-setup-phone-submit-number-button = Senda kóða
 
 ## HeaderLockup component, the header in account settings
 
