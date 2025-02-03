@@ -49,6 +49,10 @@ subplat-legal = Nota legal
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Privacidad
 subplat-privacy-website-plaintext = { subplat-privacy }:
+account-deletion-info-block-communications = Si se elimina tu cuenta, seguirás recibiendo correos electrónicos de Mozilla Corporation y Mozilla Foundation, a menos que <a data-l10n-name="unsubscribeLink">solicites cancelar la suscripción</a>.
+account-deletion-info-block-support = Si tienes alguna pregunta o necesitas ayuda, no dudes en ponerte en contacto con nuestro <a data-l10n-name="supportLink">equipo de ayuda</a>.
+account-deletion-info-block-communications-plaintext = Si se elimina tu cuenta, seguirás recibiendo correos electrónicos de Mozilla Corporation y Mozilla Foundation, a menos que solicites cancelar la suscripción:
+account-deletion-info-block-support-plaintext = Si tienes alguna pregunta o necesitas ayuda, no dudes en ponerse en contacto con nuestro equipo de ayuda:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-android-badge = <img data-l10n-name="google-play-badge" alt="Descargar { $productName } en { -google-play }">
@@ -76,6 +80,7 @@ automated-email-support = Para más información, visita <a data-l10n-name="supp
 automated-email-change-plaintext-2 = Si no realizaste esta acción, cambia tu contraseña inmediatamente:
 #  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-support-plaintext = Para más información, visita la ayuda de { -brand-mozilla }:
+automated-email-inactive-account = Este es un correo electrónico automático. Lo recibes porque tienes una cuenta { -product-mozilla-account } y han pasado 2 años desde tu último inicio de sesión.
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } Para más información, visita <a data-l10n-name="supportLink">Ayuda de { -brand-mozilla }</a>.
 automated-email-no-action-plaintext = Este es un correo electrónico automatizado. Si lo recibiste por error, no necesitas hacer nada.
@@ -122,6 +127,9 @@ automatedEmailRecoveryKey-more-info-plaintext = Para más información, visita l
 automated-email-reset =
     Este es un correo automático; si no autorizaste esta acción, entonces <a data-l10n-name="resetLink">por favor cambia tu contraseña</a>.
     Para más información, por favor visita <a data-l10n-name="supportLink">la ayuda de { -brand-mozilla }</a>.
+# Variables:
+#  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
+automated-email-reset-plaintext-v2 = Si no autorizaste esta acción, por favor restablece tu contraseña ahora en { $resetLink }
 brand-banner-message = ¿Sabías que cambiamos nuestro nombre de { -product-firefox-accounts } a { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Saber más</a>
 cancellationSurvey = Por favor, ayúdanos a mejorar nuestros servicios contestando esta <a data-l10n-name="cancellationSurveyUrl">breve encuesta</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
@@ -242,6 +250,10 @@ fraudulentAccountDeletion-contact = Si tienes alguna pregunta, por favor contact
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Si tienes alguna pregunta, por favor contacta con nuestro equipo de soporte: { $mozillaSupportUrl }
+inactiveAccountFinalWarning-subject = Última oportunidad para conservar tu { -product-mozilla-account }
+inactiveAccountFinalWarning-title = Tu cuenta de { -brand-mozilla } y sus datos serán eliminados
+inactiveAccountFinalWarning-preview = Inicia sesión para mantener tu cuenta
+inactiveAccountFinalWarning-account-description = Tu { -product-mozilla-account } se usa para acceder a productos gratuitos de privacidad y navegación como { -brand-firefox } sync, { -product-mozilla-monitor }, { -product-firefox-relay } y { -product-mdn }.
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title-zero = ¡Te has quedado sin códigos de autenticación de respaldo!
 codes-reminder-title-one = Estás en tu último código de autenticación de respaldo
