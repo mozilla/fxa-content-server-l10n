@@ -81,7 +81,7 @@ select-tax-location-country-code-label = Země
 select-tax-location-country-code-placeholder = Vyberte svou zemi
 select-tax-location-error-missing-country-code = Vyberte prosím svou zemi
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN
-select-tax-location-product-not-available = { $productName } není v tomto umístění dostupný.
+select-tax-location-product-not-available = { $productName } není v této lokalitě k dispozici.
 select-tax-location-postal-code-label = PSČ
 select-tax-location-postal-code =
     .placeholder = Zadejte své poštovní směrovací číslo
