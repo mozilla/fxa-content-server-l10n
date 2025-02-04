@@ -19,7 +19,7 @@ payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = Først må du godkjenne abonnementet ditt
 next-payment-confirmation-thanks-heading-account-exists = Takk, sjekk e-posten din no!
 # $email (String) - The user's email.
-payment-confirmation-thanks-subheading-account-exists-2 = Du vil få ein e-post på { $e-post } med instruksjonar om abonnementet ditt, i tillegg til betalingsopplysningane dine.
+payment-confirmation-thanks-subheading-account-exists-2 = Du vil få ein e-post på { $email } med instruksjonar om abonnementet ditt, i tillegg til betalingsopplysningane dine.
 next-payment-confirmation-order-heading = Ordredetaljar
 # $invoiceNumber (String) - Invoice number of the successful payment
 next-payment-confirmation-invoice-number = Fakturanummer { $invoiceNumber }

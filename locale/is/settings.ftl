@@ -632,7 +632,7 @@ flow-recovery-key-info-cancel-link = Hætta við
 flow-setup-phone-confirm-code-heading = Settu inn staðfestingarkóða
 # $phoneNumber is a partially obfuscated phone number with only the last 4 digits showing (e.g., *** *** 1234)
 # span element applies formatting to ensure the number is always displayed left-to-right
-flow-setup-phone-confirm-code-instruction = Sex stafa kóði var sendur til <span>{ $PhoneNumber }</span> með SMS. Þessi kóði rennur út eftir 5 mínútur.
+flow-setup-phone-confirm-code-instruction = Sex stafa kóði var sendur til <span>{ $phoneNumber }</span> með SMS. Þessi kóði rennur út eftir 5 mínútur.
 flow-setup-phone-confirm-code-input-label = Settu inn 6-stafa kóða
 flow-setup-phone-confirm-code-button = Staðfesta
 # button to resend a code by text message to the user's phone
