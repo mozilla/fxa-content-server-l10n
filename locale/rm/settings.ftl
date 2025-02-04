@@ -716,6 +716,7 @@ tfa-replace-code-success-1 =
     Novs codes èn vegnids creads. Memorisescha quests codes
     d'autentificaziun da backup en in lieu segir – ti als vegns a duvrar per acceder a tes conto sche ti n'has
     betg tes apparat mobil.
+tfa-replace-code-success-alert-4 = Actualisà ils codes d’autentificaziun da backup
 tfa-replace-code-1-2 = Pass 1 da 2
 tfa-replace-code-2-2 = Pass 2 da 2
 
@@ -889,6 +890,7 @@ settings-recovery-phone-remove-recommend = Nus ta recumandain da restar tar ques
 settings-recovery-phone-remove-recovery-methods = Sche ti l’allontaneschas, t’atschertescha che ti has tegnì en salv tes codes d’autentificaziun da backup. <linkExternal>Cumpareglia las metodas da recuperaziun dal conto</linkExternal>
 settings-recovery-phone-remove-button = Allontanar il numer da telefon
 settings-recovery-phone-remove-cancel = Interrumper
+settings-recovery-phone-remove-success = Allontanà il numer da telefon per la recuperaziun dal conto
 
 ## PageSetupRecoveryPhone
 
@@ -932,6 +934,8 @@ verify-secondary-email-success-alert-2 = Agiuntà cun success { $email }
 
 # Link to delete account on main Settings page
 delete-account-link = Stizzar il conto
+# Success message displayed in alert bar after the user has successfully confirmed their account is not inactive.
+inactive-update-status-success-alert = S’annunzià cun success. Tias datas e tes { -product-mozilla-account } vegnan a restar activs.
 
 ## Two Step Authentication
 
@@ -1210,12 +1214,21 @@ auth-error-114-generic = Ti has empruvà memia savens. Emprova per plaschair pli
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Ti has empruvà memia savens. Emprova anc ina giada suenter { $retryAfter }.
 auth-error-125 = La dumonda è vegnida bloccada per motivs da segirezza
+auth-error-129 = Numer da telefon nunvalaivel
 auth-error-138-2 = Sesida betg confermada
 auth-error-139 = L'adressa dad e-mail alternativa sto esser differenta da l'adressa da tes conto
 auth-error-155 = Betg chattà il token TOTP
+# Error shown when the user submits an invalid backup authentication code
+auth-error-156 = Betg chattà il code d’autentificaziun da backup
 auth-error-159 = Clav da recuperaziun dal conto nunvalida
 auth-error-183-2 = Code da conferma nunvalid u scadì
+auth-error-202 = Funcziun betg activada
+auth-error-203 = Sistem betg disponibel, emprova en curt anc ina giada
 auth-error-206 = Impussibel da crear il pled-clav, in pled-clav è gia definì
+auth-error-214 = Il numer da telefon da recuperaziun exista gia
+auth-error-215 = Il numer da telefon da recuperaziun n’exista betg
+auth-error-216 = Cuntanschì il dumber maximal da SMS tramess
+auth-error-218 = Impussibel dad allontanar il numer da telefon da recuperaziun, i na dat nagins codes d’autentificaziun da backup.
 auth-error-999 = Errur nunspetgada
 auth-error-1001 = Interrut l’emprova d’annunzia
 auth-error-1002 = La sesida è scrudada. T’annunzia per cuntinuar.
@@ -1226,6 +1239,7 @@ auth-error-1011 = Adressa dad e-mail valida è obligatorica
 auth-error-1031 = Ti stos inditgar tia vegliadetgna per ta registrar
 auth-error-1032 = Ti stos inditgar ina vegliadetgna valida per ta registrar
 auth-error-1054 = Code d’autentificaziun en dus pass nunvalid
+auth-error-1056 = Code d’autentificaziun da backup nunvalid
 auth-error-1062 = Renviament nunvalid
 oauth-error-1000 = Insatge n’ha betg funcziunà. Serra p.pl. quest tab ed emprova anc ina giada.
 
@@ -1661,8 +1675,12 @@ signin-recovery-method-header = S’annunziar
 signin-recovery-method-subheader = Tscherna ina metoda da recuperaziun
 signin-recovery-method-details = Nus verifitgain che ti es la persuna che fa diever da tia metoda da verificaziun.
 signin-recovery-method-phone = Numer da telefon da recuperaziun
+signin-recovery-method-code-v2 = Codes d’autentificaziun da backup
 # Variable: $numberOfCodes (String) - The number of authentication codes the user has left, e.g. 4
 signin-recovery-method-code-info = Anc { $numberOfCodes } codes danvanz
+# Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
+signin-recovery-method-send-code-error-heading = Igl ha dà in problem cun trametter in code a tes numer da telefon da recuperaziun
+signin-recovery-method-send-code-error-description = Emprova per plaschair pli tard anc ina giada u fa diever da tes codes d’autentificaziun da backup.
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
@@ -1671,16 +1689,41 @@ signin-recovery-method-code-info = Anc { $numberOfCodes } codes danvanz
 
 signin-recovery-code-heading = S’annunziar
 signin-recovery-code-sub-heading = Endatescha il code d’autentificaziun da backup
+# codes here refers to backup authentication codes
+signin-recovery-code-instruction-v3 = Endatescha in da tes codes a diever unic che ti has memorisà cun configurar l’autentificaziun en dus pass.
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Confermar
+# Link to go to the page to use recovery phone instead
+signin-recovery-code-phone-link = Utilisar il numer da telefon da recuperaziun
 # External link for support if the user can't use two-step autentication or a backup authentication code
 # https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 signin-recovery-code-support-link = Es ti sclaus da tes conto?
 # Error displayed in a tooltip when form is submitted witout a code
 signin-recovery-code-required-error = Code d'autentificaziun da backup necessari
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-recovery-code-use-phone-failure = Igl ha dà in problem cun trametter in code a tes numer da telefon da recuperaziun
+signin-recovery-code-use-phone-failure-description = Emprova per plaschair pli tard anc ina giada.
 
 ## SigninRecoveryPhone page
 
+signin-recovery-phone-flow-heading = S’annunziar
+# A recovery code in context of this page is a one time code sent to the user's phone
+signin-recovery-phone-heading = Endatar il code da recuperaziun
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+signin-recovery-phone-instruction = In code da sis cifras è vegnì tramess a <span>{ $maskedPhoneNumber }</span> via SMS. Quest code scada en 5 minutas.
+signin-recovery-phone-input-label = Endatescha il code da 6 cifras
+signin-recovery-phone-code-submit-button = Confermar
+signin-recovery-phone-resend-code-button = Trametter anc ina giada il code
+signin-recovery-phone-resend-success = Tramess il code
+# links to https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+signin-recovery-phone-locked-out-link = Es ti sclaus da tes conto?
+signin-recovery-phone-send-code-error-heading = Igl ha dà in problem cun trametter in code
+signin-recovery-phone-code-verification-error-heading = Igl ha dà in problem cun verifitgar tes code
+# Follows the error message (e.g, "There was a problem sending a code")
+signin-recovery-phone-general-error-description = Emprova per plaschair pli tard anc ina giada.
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
