@@ -80,6 +80,8 @@ select-tax-location-save-button = Memorisar
 select-tax-location-country-code-label = Pajais
 select-tax-location-country-code-placeholder = Tscherna tes pajais
 select-tax-location-error-missing-country-code = Tscherna per plaschair tes pajais
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN
+select-tax-location-product-not-available = { $productName } na stat betg a disposiziun en quest lieu.
 select-tax-location-postal-code-label = Numer postal
 select-tax-location-postal-code =
     .placeholder = Endatescha tes numer postal

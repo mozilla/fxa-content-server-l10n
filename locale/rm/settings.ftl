@@ -643,6 +643,7 @@ flow-setup-phone-confirm-code-button = Confermar
 # followed by a button to resend a code
 flow-setup-phone-confirm-code-expired = Code scadì?
 flow-setup-phone-confirm-code-resend-code-button = Trametter anc ina giada il code
+flow-setup-phone-confirm-code-resend-code-success = Tramess il code
 flow-setup-phone-confirm-code-success-message-v2 = Agiuntà in numer da telefon per la recuperaziun dal conto
 
 ## FlowSetupPhoneConfirmCode
