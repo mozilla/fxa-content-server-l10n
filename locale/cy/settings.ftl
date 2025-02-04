@@ -929,7 +929,7 @@ verify-secondary-email-success-alert-2 = Ychwanegwyd { $email } yn llwyddiannus.
 # Link to delete account on main Settings page
 delete-account-link = Dileu Cyfrif
 # Success message displayed in alert bar after the user has successfully confirmed their account is not inactive.
-inactive-update-status-success-alert = Wedi mewngofnodi yn llwyddiannus. Bydd eich { -product-mozilla-account } a data yn aros yn weithredol.
+inactive-update-status-success-alert = Wedi mewngofnodi'n llwyddiannus. Bydd eich cyfrif { -product-mozilla-account } a data yn aros yn weithredol.
 
 ## Two Step Authentication
 
@@ -1673,7 +1673,7 @@ signin-recovery-method-send-code-error-description = Ceisiwch eto yn nes ymlaen 
 signin-recovery-code-heading = Mewngofnodi
 signin-recovery-code-sub-heading = Rhowch god dilysu wrth gefn
 # codes here refers to backup authentication codes
-signin-recovery-code-instruction-v3 = Rhowch un o'r codau un-tro y gwnaethoch chi eu cadw pan wnaethoch chi sefydlu dilysiad dau gam.
+signin-recovery-code-instruction-v3 = Rhowch un o'r codau un-tro y gwnaethoch chi eu cadw pan wnaethoch chi osod dilysiad dau gam.
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Cadarnhau
 # Link to go to the page to use recovery phone instead
