@@ -80,6 +80,7 @@ automated-email-support = 詳細については、<a data-l10n-name="supportLink
 automated-email-change-plaintext-2 = この操作に覚えがない場合、すぐにパスワード変更をしてください:
 #  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-support-plaintext = 詳細については、{ -brand-mozilla } サポートをご覧ください:
+automated-email-inactive-account = これは自動送信されたメールです。前回の { -product-mozilla-account } へのログインから2 年が経ったため送信されています。
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } 詳細については、<a data-l10n-name="supportLink">{ -brand-mozilla } サポート</a> をご覧ください。
 automated-email-no-action-plaintext = これは自動的に配信されたメールです。心当たりがない場合は、何も行わないでください。
