@@ -257,6 +257,10 @@ inactiveAccountFirstWarning-inactive-status = 2年間ログインされていな
 # $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
 # This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
 inactiveAccountFirstWarning-impact = アカウント利用がないため、アカウントと個人データは <strong>{ $deletionDate }</strong> に完全に削除されます。
+inactiveAccountFirstWarning-action = ログインしてアカウントを維持
+inactiveAccountFirstWarning-preview = ログインしてアカウントを維持
+# followed by link to sign in
+inactiveAccountFirstWarning-action-plaintext = ログインしてアカウントを維持:
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title-zero = バックアップ認証コードが足りません！
 codes-reminder-title-one = バックアップ認証コードが残り 1 つになりました
