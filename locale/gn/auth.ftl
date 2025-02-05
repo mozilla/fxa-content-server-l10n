@@ -242,6 +242,14 @@ fraudulentAccountDeletion-contact = Eporanduséramo, eñe’ẽ ore <a data-l10n
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Eporanduséramo, eñe’ẽ ore aty pytyvõha ndive: { $mozillaSupportUrl }
+inactiveAccountFirstWarning-action = Eñepyrũ tembiapo ereko are hag̃ua ne mba’ete
+inactiveAccountFirstWarning-preview = Eñepyrũ tembiapo ereko are hag̃ua ne mba’ete
+# followed by link to sign in
+inactiveAccountFirstWarning-action-plaintext = Eñepyrũ tembiapo ereko are hag̃ua ne mba’ete:
+inactiveAccountSecondWarning-action = Eñepyrũ tembiapo ereko are hag̃ua ne mba’ete
+inactiveAccountSecondWarning-preview = Eñepyrũ tembiapo ereko are hag̃ua ne mba’ete
+# followed by link to sign in
+inactiveAccountSecondWarning-action-plaintext = Eñepyrũ tembiapo ereko are hag̃ua ne mba’ete:
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title-zero = Ndereguerekovéima auvu ñemoneĩ jeykekoha
 codes-reminder-title-one = Reime pe auvu ñemoneĩ jeykeko pahávape
@@ -313,6 +321,8 @@ postAddLinkedAccount-subject-2 = ¿Eñepyrũ tembiapo { -product-mozilla-account
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = Ne mba’ete { $providerName } pegua ojuajúma nde { -product-mozilla-account } rehe
 postAddLinkedAccount-action = Eñangareko mba’etére
+postAddRecoveryPhone-enabled-device = Embojuruja upe guive:
+postAddRecoveryPhone-action = Mba’ete ñangareko
 postAddTwoStepAuthentication-subject-2 = Ñemoneĩ mokõi jeýpe myandypyre
 postAddTwoStepAuthentication-title-2 = Embojuruja ñemoneĩ mokõi jeku’egua
 # After the colon, there is a description of the device that the user used to enable two-step authentication
@@ -330,6 +340,9 @@ postChangePrimary-title = Ñandutiveve pyahu mba’eguasuvéva
 #  $email (String) - A user's email address
 postChangePrimary-description-2 = Emoambue hekopete ne ñandutiveve eiporuvéva { $email }. Ko kundaharape ha’e nde poruhára réra eñepyrũ hag̃ua tembiapo nde { -product-mozilla-account }-pe og̃uahẽkuaa hag̃ua marandu’i tekorosã ha ñemoneĩ tembiapo ñepyrũ rehegua.
 postChangePrimary-action = Mba’ete ñangareko
+postChangeRecoveryPhone-subject = Pumbyry guerujeyrã ag̃agua
+postChangeRecoveryPhone-title = Emoambue pumbyry jeguerujeyrã
+postChangeRecoveryPhone-requested-device = Ejerure upe guive:
 postConsumeRecoveryCode-title-2 = Reiporureína auvu ñemoneĩ jeykekoha
 # After the colon, there is description of the device that the backup authentication code was used on
 postConsumeRecoveryCode-description-2 = Ojeporu amo:
@@ -349,6 +362,9 @@ postRemoveAccountRecovery-title-3 = Emboguéma ne mba’ete mba’eñemi gueruje
 postRemoveAccountRecovery-body-part1 = Eikotevẽ mba’ete guerujeyrã mba’eñemi emyatyrõ hag̃ua ñeikundaha mba’ekuaarã ipapapýva nderesaráirõ ñe’ẽñemígui.
 postRemoveAccountRecovery-body-part2 = Nderejapóirõ gueteri, emoheñói mba’ete mba’eñemi guerujeyrã pyahu ne mba’ete ñembohekópe ani hag̃ua okañy ñe’ẽñemi ñongatupyre, techaukaha, ñeikundaha rembiasakue ha hetave.
 postRemoveAccountRecovery-action = Mba’ete ñangareko
+postRemoveRecoveryPhone-subject = Pumbyry guerujeyrã mboguepyre
+postRemoveRecoveryPhone-title = Pumbyry guerujeyrã mboguepyre
+postRemoveRecoveryPhone-requested-device = Ejerure chupe:
 postRemoveSecondary-subject = Oguéma ñandutiveve mokõiguáva
 postRemoveSecondary-title = Oguéma ñandutiveve mokõiguáva
 # Variables:

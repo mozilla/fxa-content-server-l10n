@@ -34,6 +34,7 @@ next-payment-confirm-checkbox-error = Emyanyhẽraẽ kóva eku’ejey mboyve
 
 next-new-user-submit = Eñemboheraguapy Ko’ág̃a
 next-payment-validate-name-error = Emoinge nde réra
+payment-name-placeholder = Téra ha terajuapy
 
 ## Component - CouponForm
 
@@ -45,6 +46,9 @@ next-coupon-promo-code = Ayvu ñemoherakuãgua
 next-coupon-promo-code-applied = Ayvu ñemoherakuãgua japopyre
 next-coupon-remove = Mboguete
 next-coupon-submit = Jejapopy
+payments-client-loading-spinner =
+    .aria-label = Henyhẽhína…
+    .alt = Henyhẽhína…
 
 ## Payment Section
 
@@ -57,6 +61,15 @@ next-plan-details-show-button = Mba’emimi jehechauka
 
 ## Select Tax Location
 
+select-tax-location-title = Tendaite
+select-tax-location-edit-button = Mbosako’i
+select-tax-location-save-button = Ñongatu
+select-tax-location-country-code-label = Tetã
+select-tax-location-country-code-placeholder = Eiporavo neretã
+select-tax-location-error-missing-country-code = Ikatúpiko eiporavo neretã
+select-tax-location-postal-code-label = Código postal
+signin-form-continue-button = Ku’ejey
+signin-form-email-input = Emoinge ne ñanduti veve
 next-new-user-subscribe-product-updates-mdnplus = Hi’ã og̃uahẽ marandu ha ñembohekopyahu { -product-mdn-plus } ha { -brand-mozilla } apopyre rehegua
 next-new-user-subscribe-product-updates-mozilla = Hi’ã og̃uahẽ marandu ha ñembohekopyahu { -brand-mozilla } apopyre rehegua
 next-new-user-subscribe-product-updates-snp = Hi’ã og̃uahẽ marandu ha ñembohekopyahu { -brand-mozilla } guive tekorosã rehegua
