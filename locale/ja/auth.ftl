@@ -252,6 +252,7 @@ fraudulentAccountDeletion-contact = ご不明な点がある場合、<a data-l10
 fraudulentAccountDeletion-contact-plaintext = ご不明な点がある場合、サポートチームまでお問い合わせください: { $mozillaSupportUrl }
 inactiveAccountFirstWarning-subject = アカウントが削除されないように
 inactiveAccountFirstWarning-title = データを削除せずに { -brand-mozilla } アカウントを使い続けますか？
+inactiveAccountFirstWarning-account-description-v2 = { -product-mozilla-account } は、{ -brand-firefox } の同期、{ -product-mozilla-monitor } 、{ -product-firefox-relay } 、{ -product-mdn } などのプライバシーおよびブラウジングの製品を無料でアクセスするために使用されます。
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title-zero = バックアップ認証コードが足りません！
 codes-reminder-title-one = バックアップ認証コードが残り 1 つになりました
