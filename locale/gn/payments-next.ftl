@@ -70,6 +70,8 @@ select-tax-location-error-missing-country-code = Ikatúpiko eiporavo neretã
 select-tax-location-postal-code-label = Código postal
 signin-form-continue-button = Ku’ejey
 signin-form-email-input = Emoinge ne ñanduti veve
+signin-form-email-input-missing = Emoingemi ne ñanduti veve
+signin-form-email-input-invalid = Emoingemi ne ñanduti veve oikóva
 next-new-user-subscribe-product-updates-mdnplus = Hi’ã og̃uahẽ marandu ha ñembohekopyahu { -product-mdn-plus } ha { -brand-mozilla } apopyre rehegua
 next-new-user-subscribe-product-updates-mozilla = Hi’ã og̃uahẽ marandu ha ñembohekopyahu { -brand-mozilla } apopyre rehegua
 next-new-user-subscribe-product-updates-snp = Hi’ã og̃uahẽ marandu ha ñembohekopyahu { -brand-mozilla } guive tekorosã rehegua
@@ -85,6 +87,8 @@ next-plan-details-total-label = Opavavete
 ## Purchase details - shared by multiple components, including purchase details and payment form
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+list-positive-amount = { $amount }
+list-negative-amount = - { $amount }
 next-coupon-success = Ne rembiaporã ipyahúta ijehegui tysýi repýpe.
 # $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
 next-coupon-success-repeating = Nde porupy hekopyahúta ijehegui { $couponDurationDate } rire tepy tysyiguávape.
@@ -95,6 +99,11 @@ next-coupon-success-repeating = Nde porupy hekopyahúta ijehegui { $couponDurati
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+plan-price-interval-daily = { $amount } aragua
+plan-price-interval-weekly = { $amount } arapokõindygua
+plan-price-interval-monthly = { $amount } jasygua
+plan-price-interval-6monthly = { $amount } 6 jasy ohupytývo
+plan-price-interval-yearly = { $amount } arygua
 
 ## Component - SubscriptionTitle
 
