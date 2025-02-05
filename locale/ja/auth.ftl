@@ -253,6 +253,10 @@ fraudulentAccountDeletion-contact-plaintext = ご不明な点がある場合、�
 inactiveAccountFirstWarning-subject = アカウントが削除されないように
 inactiveAccountFirstWarning-title = データを削除せずに { -brand-mozilla } アカウントを使い続けますか？
 inactiveAccountFirstWarning-account-description-v2 = { -product-mozilla-account } は、{ -brand-firefox } の同期、{ -product-mozilla-monitor } 、{ -product-firefox-relay } 、{ -product-mdn } などのプライバシーおよびブラウジングの製品を無料でアクセスするために使用されます。
+inactiveAccountFirstWarning-inactive-status = 2年間ログインされていないようです。
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+# This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
+inactiveAccountFirstWarning-impact = アカウント利用がないため、アカウントと個人データは <strong>{ $deletionDate }</strong> に完全に削除されます。
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title-zero = バックアップ認証コードが足りません！
 codes-reminder-title-one = バックアップ認証コードが残り 1 つになりました
