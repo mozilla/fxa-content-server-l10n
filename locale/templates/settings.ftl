@@ -762,6 +762,8 @@ tfa-replace-code-success-alert-4 = Backup authentication codes updated
 tfa-replace-code-1-2 = Step 1 of 2
 tfa-replace-code-2-2 = Step 2 of 2
 
+tfa-enter-code-to-confirm-v2 = Please enter one of your new backup authentication codes to confirm that you have saved them. Your old backup authentication codes will be disabled once this step is completed.
+
 ## Avatar change page
 
 avatar-page-title =
@@ -952,6 +954,8 @@ settings-recovery-phone-remove-success = Recovery phone removed
 
 page-setup-recovery-phone-heading = Add recovery phone
 
+page-setup-recovery-phone-back-button-title = Back to settings
+
 ## Add secondary email page
 
 add-secondary-email-step-1 = Step 1 of 2
@@ -1033,8 +1037,9 @@ tfa-input-enter-totp-v2 =
 tfa-save-these-codes-1 = Save these one-time use backup authentication codes in a safe place for when
   you don’t have your mobile device.
 
-tfa-enter-code-to-confirm-v2 = Please enter one of your new backup authentication codes to
-  confirm that you have saved them. Your old backup authentication codes will be disabled once this step is completed.
+# codes here refers to backup authentication codes
+tfa-enter-code-to-confirm-setup = Confirm you saved your codes by entering one. Without these codes, you might not be able to sign in if you don’t have your authenticator app.
+
 tfa-enter-recovery-code-1 =
  .label = Enter a backup authentication code
 
@@ -1098,7 +1103,10 @@ tfa-row-backup-codes-title = Backup authentication codes
 tfa-row-backup-codes-not-available = No codes available
 # $numCodesRemaining - the number of backup authentication codes that have not yet been used (generally between 1 to 5)
 # A different message is shown when no codes are available
-tfa-row-backup-codes-available = { $numCodesAvailable } codes remaining
+tfa-row-backup-codes-available-v2 = { $numCodesAvailable ->
+  [one] { $numCodesAvailable } code remaining
+  *[other] { $numCodesAvailable } codes remaining
+}
 # Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
 tfa-row-backup-codes-get-new-cta = Get new codes
 # Shown to users who have no backup authentication codes
@@ -1761,8 +1769,12 @@ signin-recovery-method-subheader = Choose a recovery method
 signin-recovery-method-details = Let’s make sure it’s you using your recovery methods.
 signin-recovery-method-phone = Recovery phone
 signin-recovery-method-code-v2 = Backup authentication codes
-# Variable: $numberOfCodes (String) - The number of authentication codes the user has left, e.g. 4
-signin-recovery-method-code-info = { $numberOfCodes } codes remaining
+# Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
+signin-recovery-method-code-info-v2 =
+  { $numBackupCodes ->
+      [one] { $numBackupCodes } code remaining
+      *[other] { $numBackupCodes } codes remaining
+  }
 # Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
 signin-recovery-method-send-code-error-heading = There was a problem sending a code to your recovery phone
 signin-recovery-method-send-code-error-description = Please try again later or use your backup authentication codes.
@@ -1776,6 +1788,8 @@ signin-recovery-code-heading = Sign in
 signin-recovery-code-sub-heading = Enter backup authentication code
 # codes here refers to backup authentication codes
 signin-recovery-code-instruction-v3 = Enter one of the one-time-use codes you saved when you set up two-step authentication.
+# code here refers to backup authentication code
+signin-recovery-code-input-label-v2 = Enter 10-character code
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Confirm
 # Link to go to the page to use recovery phone instead
