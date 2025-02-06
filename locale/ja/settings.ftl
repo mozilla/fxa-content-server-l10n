@@ -443,6 +443,9 @@ dc-learn-more = 詳細情報
 # DropDownAvatarMenu component
 
 drop-down-menu-title-2 = { -product-mozilla-account }メニュー
+# This is displayed in the Settings menu after user's click on their profile icon.
+# Following this string on a new line will be their display name (user's name or email)
+drop-down-menu-signed-in-as-v2 = ログインするアカウント
 drop-down-menu-sign-out = ログアウト
 drop-down-menu-sign-out-error-2 = 申し訳ありませんが、ログアウト中に問題が発生しました
 
@@ -496,6 +499,15 @@ flow-recovery-key-info-cancel-link = キャンセル
 
 ## FlowSetupPhoneConfirmCode
 
+# verification code refers to a code sent by text message to confirm phone number ownership
+# and complete setup
+flow-setup-phone-confirm-code-heading = 確認コードを入力してください
+flow-setup-phone-confirm-code-input-label = 6 桁のコードを入力
+flow-setup-phone-confirm-code-button = 確認
+# button to resend a code by text message to the user's phone
+# followed by a button to resend a code
+flow-setup-phone-confirm-code-expired = コードの有効期限が切れていますか？
+flow-setup-phone-confirm-code-resend-code-button = 確認コードを再送する
 
 ## FlowSetupPhoneConfirmCode
 
