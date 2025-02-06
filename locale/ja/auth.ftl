@@ -314,6 +314,8 @@ postAddLinkedAccount-subject-2 = { -product-mozilla-account }に新しいアカ�
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = { $providerName } のアカウントが { -product-mozilla-account }にリンクされています
 postAddLinkedAccount-action = アカウント管理
+postAddRecoveryPhone-enabled-device = 次の端末から有効にしました:
+postAddRecoveryPhone-action = アカウントの管理
 postAddTwoStepAuthentication-subject-2 = 2 段階認証がオンになりました
 postAddTwoStepAuthentication-title-2 = 2 段階認証をオンにしました
 # After the colon, there is a description of the device that the user used to enable two-step authentication
