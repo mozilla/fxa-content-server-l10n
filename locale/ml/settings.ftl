@@ -17,6 +17,10 @@ resend-success-banner-description = തടസ്സമില്ലാത്ത �
 # This text is for screen-readers
 brand-banner-dismiss-button-2 =
     .aria-label = പടക്കൊടി അടയ്ക്കുക
+# This message is displayed as the title element in the banner, prior to actually launching the new brand
+brand-prelaunch-title = നവമ്പർ ഒന്നാംതീയതിക്കു് { -product-firefox-accounts }-ന്റെ പേരു് { -product-mozilla-accounts }-ആയി തീരും.
+# This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
+brand-prelaunch-subtitle = താങ്ങൾ അതേ രഹസ്യവാക്കും ഉപയോക്തൃപ്പേരുകൊണ്ടു് പ്രവേശിക്കും, താങ്ങളൾ ഉപയോഗിക്കുന്ന ഉൽപ്പന്നങ്ങളിൽ ഒരു മാറ്റാവുമുണ്ടാവത്തില്ല.
 # This is an extra link element, that directs users to a page where they can learn more about the branding changes.
 brand-learn-more = കൂടുതല്‍ അറിയുക
 # Alt text for close banner image
