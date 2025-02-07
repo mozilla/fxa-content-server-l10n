@@ -34,6 +34,7 @@ new-user-confirm-email =
 ## Component - PaymentConfirmation
 
 payment-confirmation-thanks-heading = നന്ദി
+payment-confirmation-download-button = ഇറക്കിവയ്ക്കുന്നതിനു് തുടരുക
 
 ## Component - PaymentConsentCheckbox
 
@@ -106,6 +107,9 @@ privacy = സ്വകാര്യത അറിയിപ്പു്
 
 document =
     .title = ഫയർഫോക്സ് അക്കൗണ്ടുകൾ
+# General aria-label for closing modals
+close-aria =
+    .aria-label = പടകൊടി അടയ്ക്കുക
 
 ## Subscription upgrade plan details - shared by multiple components, including plan details and payment form
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -113,6 +117,9 @@ document =
 
 ## Error messages
 
+# App error dialog
+general-error-heading = പൊതുവായ പ്രയോഗ പിശകു്
+basic-error-message = എന്തോ കുഴപ്പം ഉണ്ടായി. ദയവായി വീണ്ടും ശ്രമിക്കുക.
 
 ## Hooks - coupons
 
@@ -163,6 +170,7 @@ sub-item-stay-sub = വരിക്കാരനായിയിരിക്കു
 
 ## Routes - Subscription - ActionButton
 
+pay-update-change-btn = മാറ്റങ്ങള്‍
 
 ## Routes - Subscriptions - Cancel and IapItem
 ## $priceAmount (Number) - The amount billed. It will be formatted as currency.
