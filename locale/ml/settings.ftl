@@ -51,10 +51,19 @@ recovery-key-pdf-heading = അക്കൌണ്ടു് വീണ്ടെട�
 recovery-key-pdf-download-date = ഉണ്ടാക്കിയതു്: { $date }
 # Shown directly above recovery key value and preceeded by a key icon
 recovery-key-pdf-key-legend = അക്കൌണ്ടു് വീണ്ടെടുപ്പു് സങ്കേതം
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+recovery-key-pdf-storage-ideas-heading = താക്കോൽ സൂക്ഷിച്ചു് വയ്ക്കാനാവുന്ന ഇടങ്ങൾ
+# Followed by a link (https://mzl.la/3bNrM1I) to get more information and support
+recovery-key-pdf-support = അക്കൌണ്ടു് വീണ്ടെടുപ്പു് സങ്കേതം പറ്റി കൂടുതൽ അറിയുക
+# Error message displayed in an alert bar if the PDF download failed.
+recovery-key-pdf-download-error = അക്കൌണ്ടു് വീണ്ടെടുപ്പു് സങ്കേതം ഇറക്കിവയ്ക്കുന്നതിലു് എന്തോ കുഴപ്പമുണ്ടായി.
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
+# Prompt above a checklist of newsletters
+choose-newsletters-prompt-2 = { -brand-mozilla }-ൽ നിന്നു് ഇനിയും നേടുക
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
@@ -198,9 +207,21 @@ icon-attention-aria-label =
 # Aria-label option for an alert symbol
 icon-warning-aria-label =
     .aria-label = മുന്നറിയിപ്പു്
+authenticator-app-aria-label =
+    .aria-label = അധികാരിക്കൽ പ്രയോഗം
+backup-codes-icon-aria-label-v2 =
+    .aria-label = കരുതൽ പകർപ്പു് ആധികാരികമാക്കൽ-സങ്കേതം പ്രവൎത്തനക്ഷമമാക്കി
+backup-codes-disabled-icon-aria-label-v2 =
+    .aria-label = കരുതൽ പകൎപ്പു് ആധികാരികമാക്കൽ-സങ്കേതങ്ങൾ പ്രവൎത്തനരഹിതമാക്കി
 # Used to select Canada as country code for phone number
 canadian-flag-icon-aria-label =
     .aria-label = കനേടിയൻ കൊടി
+# Used to  indicate a general checkmark, as in something checked off in a list!
+checkmark-icon-aria-label =
+    .aria-label = ചെയ്തു
+# Used to  indicate a check mark for a successful state/action
+checkmark-success-icon-aria-label =
+    .aria-label = വിജയം
 # Used to indicate a check mark for an enabled state/option
 checkmark-enabled-icon-aria-label =
     .aria-label = സജ്ജമാണു്
@@ -219,6 +240,10 @@ info-icon-aria-label =
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
+signin-recovery-code-image-description =
+    .aria-label = മറഞ്ഞിരിക്കുന്ന വാചകം ഉൾക്കൊള്ളുന്ന പ്രമാണം.
+signin-totp-code-image-label =
+    .aria-label = മറഞ്ഞിരിക്കുന്ന 6 അക്ക സങ്കേതമുള്ള ഒരു ഉപകരണം.
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
