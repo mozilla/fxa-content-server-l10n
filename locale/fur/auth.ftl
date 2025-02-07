@@ -49,6 +49,10 @@ subplat-legal = Notis legâls
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Riservatece
 subplat-privacy-website-plaintext = { subplat-privacy }:
+account-deletion-info-block-communications = Se il to account al ven eliminât, tu continuarâs a ricevi e-mails di Mozilla Corporation e Mozilla Foundation, gjavât che no tu <a data-l10n-name="unsubscribeLink">domandis di anulâ la iscrizion</a>.
+account-deletion-info-block-support = Se tu âs domandis o tu âs bisugne di assistence, no sta vê pôre di contatâ il nestri <a data-l10n-name="supportLink">grup di supuart</a>.
+account-deletion-info-block-communications-plaintext = Se il to account al ven eliminât, tu continuarâs a ricevi e-mails di Mozilla Corporation e Mozilla Foundation, gjavât che no tu domandis di anulâ la iscrizion:
+account-deletion-info-block-support-plaintext = Se tu âs domandis o tu âs bisugne di assistence, no sta vê pôre di contatâ il nestri grup di supuart:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-android-badge = <img data-l10n-name="google-play-badge" alt="Discjame { $productName } su { -google-play }">
@@ -76,6 +80,7 @@ automated-email-support = Par vê plui informazions, visite il <a data-l10n-name
 automated-email-change-plaintext-2 = Se no tu âs fat tu cheste operazion, cambie la tô password daurman.
 #  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-support-plaintext = Par vê plui informazions, visite il supuart di { -brand-mozilla }:
+automated-email-inactive-account = Cheste e je une e-mail automatiche. Tu le âs ricevude parcè che tu âs un { -product-mozilla-account } e a son passâts 2 agns de ultime volte che tu sês jentrât.
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } Par vê plui informazions, visite il <a data-l10n-name="supportLink">supuart di { -brand-mozilla }</a>.
 automated-email-no-action-plaintext = Cheste e je une e-mail mandade di un servizi automatic. Se tu âs ricevût cheste e-mail par erôr, nol covente fâ nuie.
@@ -122,6 +127,9 @@ automatedEmailRecoveryKey-more-info-plaintext = Par vê plui informazions, visit
 automated-email-reset =
     Cheste e-mail e je stade inviade di un servizi automatic. Se no tu âs autorizât tu cheste azion, <a data-l10n-name="resetLink">ristabilìs la tô password</a>.
     Par vê plui informazions, visite la pagjine dal <a data-l10n-name="supportLink">supuart di { -brand-mozilla }</a>.
+# Variables:
+#  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
+automated-email-reset-plaintext-v2 = Se cheste azion no je stade fate di te, azere e riconfigure la password daurman su { $resetLink }
 brand-banner-message = Savevistu che o vin cambiât non di { -product-firefox-accounts } a { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Plui informazions</a>
 cancellationSurvey = Judinus a miorâ i nestris servizis partecipant a chest <a data-l10n-name="cancellationSurveyUrl">curt sondaç</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
@@ -242,6 +250,10 @@ fraudulentAccountDeletion-contact = Par cualsisei domande contate il nestri <a d
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Par cualsisei domande contate il nestri grup di supuart: { $mozillaSupportUrl }
+inactiveAccountFinalWarning-subject = Ultime pussibilitât par mantignî il to { -product-mozilla-account }
+inactiveAccountFinalWarning-title = Il to account { -brand-mozilla } e i tiei dâts a vignaran eliminâts
+inactiveAccountFinalWarning-preview = Jentre par mantignî il to account
+inactiveAccountFinalWarning-account-description = Il to { -product-mozilla-account } al ven doprât par acedi a prodots gratuits pe riservatece e pe navigazion come la sincronizazion di { -brand-firefox }, { -product-mozilla-monitor }, { -product-firefox-relay } e { -product-mdn }.
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title-zero = Tu âs esaurît i codiçs di autenticazion di backup!
 codes-reminder-title-one = Al reste l'ultin codiç di autenticazion di backup
