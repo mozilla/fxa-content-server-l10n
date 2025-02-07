@@ -254,6 +254,32 @@ inactiveAccountFinalWarning-subject = Ultime pussibilitât par mantignî il to {
 inactiveAccountFinalWarning-title = Il to account { -brand-mozilla } e i tiei dâts a vignaran eliminâts
 inactiveAccountFinalWarning-preview = Jentre par mantignî il to account
 inactiveAccountFinalWarning-account-description = Il to { -product-mozilla-account } al ven doprât par acedi a prodots gratuits pe riservatece e pe navigazion come la sincronizazion di { -brand-firefox }, { -product-mozilla-monitor }, { -product-firefox-relay } e { -product-mdn }.
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+# This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
+inactiveAccountFinalWarning-impact = Ai <strong>{ $deletionDate }</strong>, il to account e i tiei dâts personâi a vignaran eliminâts par simpri, gjavant il câs che tu jentris prime di chê date.
+inactiveAccountFinalWarning-action = Jentre par mantignî il to account
+# followed by link to sign in
+inactiveAccountFinalWarning-action-plaintext = Jentre par mantignî il to account:
+inactiveAccountFirstWarning-subject = No sta pierdi il to account
+inactiveAccountFirstWarning-title = Desideristu mantignî i tiei dâts e il to account { -brand-mozilla }?
+inactiveAccountFirstWarning-account-description-v2 = Il to { -product-mozilla-account } al ven doprât par acedi a prodots gratuits pe riservatece e pe navigazion come la sincronizazion di { -brand-firefox }, { -product-mozilla-monitor }, { -product-firefox-relay } e { -product-mdn }.
+inactiveAccountFirstWarning-inactive-status = O vin notât che no tu jentris di 2 agns.
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+# This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
+inactiveAccountFirstWarning-impact = Il to account e i tiei dâts personâi a vignaran eliminâts par simpri ai <strong>{ $deletionDate }</strong> par vie de tô inativitât.
+inactiveAccountFirstWarning-action = Jentre par mantignî il to account
+inactiveAccountFirstWarning-preview = Jentre par mantignî il to account
+# followed by link to sign in
+inactiveAccountFirstWarning-action-plaintext = Jentre par mantignî il to account:
+inactiveAccountSecondWarning-subject = Azion domandade: eliminazion dal accaount ca di 7 dîs
+inactiveAccountSecondWarning-title = Il to account { -brand-mozilla } e i tiei dâts a vignaran eliminâts ca di 7 dîs
+inactiveAccountSecondWarning-account-description-v2 = Il to { -product-mozilla-account } al ven doprât par acedi a prodots gratuits pe riservatece e pe navigazion come la sincronizazion di { -brand-firefox }, { -product-mozilla-monitor }, { -product-firefox-relay } e { -product-mdn }.
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+inactiveAccountSecondWarning-impact = Il to account e i tiei dâts personâi a vignaran eliminâts par simpri ai <strong>{ $deletionDate }</strong> par vie de tô inativitât.
+inactiveAccountSecondWarning-action = Jentre par mantignî il to account
+inactiveAccountSecondWarning-preview = Jentre par mantignî il to account
+# followed by link to sign in
+inactiveAccountSecondWarning-action-plaintext = Jentre par mantignî il to account:
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title-zero = Tu âs esaurît i codiçs di autenticazion di backup!
 codes-reminder-title-one = Al reste l'ultin codiç di autenticazion di backup
@@ -329,6 +355,16 @@ postAddLinkedAccount-subject-2 = Gnûf account colegât al to { -product-mozilla
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = Il to account { $providerName } al è stât colegât al to { -product-mozilla-account }
 postAddLinkedAccount-action = Gjestìs account
+postAddRecoveryPhone-subject = Zontât telefon pal recupar dal account
+postAddRecoveryPhone-title = Tu âs creât un numar di telefon pal recupar dal account
+# Variables:
+#  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
+postAddRecoveryPhone-description = Tu âs zontât { $maskedLastFourPhoneNumber } tant che numar di telefon pal recupar dal account
+# Links out to a support article about two factor authentication
+postAddRecoveryPhone-how-protect = Cemût che al jude a protezi il to account
+postAddRecoveryPhone-how-protect-plaintext = Cemût che al jude a protezi il to account:
+postAddRecoveryPhone-enabled-device = Tu le âs ativade di:
+postAddRecoveryPhone-action = Gjestìs account
 postAddTwoStepAuthentication-subject-2 = Autenticazion in doi passaçs ativade
 postAddTwoStepAuthentication-title-2 = Tu âs ativât la autenticazion in doi passaçs
 # After the colon, there is a description of the device that the user used to enable two-step authentication
@@ -346,6 +382,10 @@ postChangePrimary-title = Gnove e-mail primarie
 #  $email (String) - A user's email address
 postChangePrimary-description-2 = Tu âs modificât cun sucès la tô e-mail primarie in { $email }. Di ca indenant la gnove direzion e-mail e je il to non utent par jentrâ tal to { -product-mozilla-account } e par ricevi notifichis di sigurece e di conferme.
 postChangePrimary-action = Gjestìs account
+postChangeRecoveryPhone-subject = Telefon di recupar dal account inzornât
+postChangeRecoveryPhone-title = Tu âs cambiât il numar di telefon pal recupar dal account
+postChangeRecoveryPhone-description = Cumò tu âs un gnûf numar di telefon pal recupar dal account. Il numar di telefon di prime al è stât eliminât.
+postChangeRecoveryPhone-requested-device = Richieste fate di:
 postConsumeRecoveryCode-title-2 = Tu âs doprât un codiç di autenticazion di backup
 # After the colon, there is description of the device that the backup authentication code was used on
 postConsumeRecoveryCode-description-2 = Al è stât doprât su:
