@@ -361,6 +361,7 @@ coupon-expired = Al somee che il codiç promozionâl al sedi scjadût.
 card-error = Nol è stât pussibil elaborâ la transazion. Verifiche i dâts de tô cjarte di credit e torne prove.
 country-currency-mismatch = La valude di chest abonament no je valide pal paîs associât ae tô modalitât di paiament.
 currency-currency-mismatch = Nus displâs, nol è pussibil cambiâ la valude.
+location-unsupported = La tô posizion corinte no je supuartade des nestris cundizions di utilizazion dal servizi.
 no-subscription-change = Nus displâs, no tu puedis modificâ il to plan di abonament.
 # $mobileAppStore (String) - "Google Play Store" or "App Store", localized when the translation is available.
 iap-already-subscribed = Tu sês za abonât/abonade midiant { $mobileAppStore }.
@@ -375,6 +376,7 @@ product-profile-error =
 product-customer-error =
     .title = Probleme tal cjariâ il client
 product-plan-not-found = Plan no cjatât
+product-location-unsupported-error = Posizion no supuartade
 
 ## Hooks - coupons
 

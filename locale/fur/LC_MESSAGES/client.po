@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: fxa-content-server-l 10n\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-05 20:09+0000\n"
-"PO-Revision-Date: 2024-10-30 18:05+0000\n"
+"PO-Revision-Date: 2025-02-08 15:54+0000\n"
 "Last-Translator: Fabio Tomat <dark.tmtfx@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fur\n"
@@ -2019,7 +2019,7 @@ msgstr "Viôt lis passwords salvadis, lis schedis, la cronologjie di navigazion 
 
 #: .es5/templates/pair/index.mustache:12
 msgid "Select an option to continue:"
-msgstr ""
+msgstr "Selezione une opzion par continuâ:"
 
 #: .es5/templates/pair/index.mustache:13
 msgid "I already have Firefox for mobile"

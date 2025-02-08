@@ -688,6 +688,7 @@ verifySecondaryCode-expiry-notice-2 = Al scjât chi di 5 minûts. Une volte conf
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = Conferme il to account
+verifyShortCode-preview = Dopre il codiç includût par confermâ il to { -product-mozilla-account }.
 verifyShortCode-title-3 = Esplore internet cun { -brand-mozilla }
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = Conferme il to account e tire fûr il massim di { -brand-mozilla } su ducj i tiei dispositîfs dulà che tu jentris cu lis tôs credenziâls, scomençant di:
