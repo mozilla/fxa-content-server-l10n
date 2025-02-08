@@ -962,7 +962,7 @@ tfa-input-enter-totp-v2 =
     .label = Inserisci il codice di autenticazione
 tfa-save-these-codes-1 = Conserva questi codici di autenticazione di backup monouso in un posto sicuro e usali quando non hai a disposizione il tuo dispositivo mobile.
 # codes here refers to backup authentication codes
-tfa-enter-code-to-confirm-setup = Conferma di aver salvato i codici inserendone uno. Senza questi codici potresti non essere in grado di accedere se non disponi dell’app di autenticazione.
+tfa-enter-code-to-confirm-setup = Conferma di aver salvato i codici inserendone uno. Senza questi codici potresti non essere in grado di accedere se non hai accesso all’app di autenticazione.
 tfa-enter-recovery-code-1 =
     .label = Digita un codice di autenticazione di backup
 
