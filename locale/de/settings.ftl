@@ -1031,7 +1031,7 @@ tfa-row-backup-codes-not-available = Keine Codes verfügbar
 # A different message is shown when no codes are available
 tfa-row-backup-codes-available-v2 =
     { $numCodesAvailable ->
-        [one] { $numCodesAvailable } Code übrig
+        [one] Noch { $numCodesAvailable } Code übrig
        *[other] Noch { $numCodesAvailable } Codes übrig
     }
 # Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
@@ -1669,8 +1669,8 @@ signin-recovery-method-code-v2 = Sicherungs-Authentifizierungscodes
 # Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
 signin-recovery-method-code-info-v2 =
     { $numBackupCodes ->
-        [one] { $numBackupCodes } Code verbleibend
-       *[other] { $numBackupCodes } Codes übrig
+        [one] Noch { $numBackupCodes } Code übrig
+       *[other] Noch { $numBackupCodes } Codes übrig
     }
 # Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
 signin-recovery-method-send-code-error-heading = Beim Senden eines Codes an Ihre Telefonnummer zur Wiederherstellung ist ein Fehler aufgetreten
