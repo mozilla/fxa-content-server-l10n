@@ -639,6 +639,7 @@ flow-setup-phone-confirm-code-button = Bekræft
 # followed by a button to resend a code
 flow-setup-phone-confirm-code-expired = Er koden udløbet?
 flow-setup-phone-confirm-code-resend-code-button = Send kode igen
+flow-setup-phone-confirm-code-resend-code-success = Kode sendt
 flow-setup-phone-confirm-code-success-message-v2 = Telefonnummer til gendannelse tilføjet
 
 ## FlowSetupPhoneConfirmCode
@@ -710,6 +711,7 @@ tfa-create-code-error = Der opstod et problem med at oprette dine reserve-godken
 tfa-replace-code-success-1 =
     Nye koder er blevet oprettet. Opbevar disse engangs-reserve-godkendelseskoder
     et sikkert sted. Du skal bruge dem, hvis mister adgangen til din mobile enhed.
+tfa-replace-code-success-alert-4 = Reserve-godkendelseskoder opdateret
 tfa-replace-code-1-2 = Trin 1 af 2
 tfa-replace-code-2-2 = Trin 2 af 2
 tfa-enter-code-to-confirm-v2 =
@@ -891,6 +893,7 @@ settings-recovery-phone-remove-success = Telefonnummer til gendannelse fjernet
 ## PageSetupRecoveryPhone
 
 page-setup-recovery-phone-heading = Tilføj telefonnummer til gendannelse
+page-setup-recovery-phone-back-button-title = Tilbage til indstillinger
 
 ## Add secondary email page
 
@@ -930,6 +933,8 @@ verify-secondary-email-success-alert-2 = { $email } tilføjet
 
 # Link to delete account on main Settings page
 delete-account-link = Slet konto
+# Success message displayed in alert bar after the user has successfully confirmed their account is not inactive.
+inactive-update-status-success-alert = Logget ind. Din { -product-mozilla-account } og tilhørende data forbliver aktive.
 
 ## Two Step Authentication
 

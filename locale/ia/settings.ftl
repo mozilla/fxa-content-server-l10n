@@ -893,6 +893,7 @@ settings-recovery-phone-remove-success = Numero de telephono de recuperation rem
 ## PageSetupRecoveryPhone
 
 page-setup-recovery-phone-heading = Adder telephono de recuperation
+page-setup-recovery-phone-back-button-title = Retornar al configuration
 
 ## Add secondary email page
 
