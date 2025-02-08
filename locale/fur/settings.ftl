@@ -966,6 +966,8 @@ tfa-input-enter-totp-v2 =
 tfa-save-these-codes-1 =
     Salve chescj codiç di autenticazion di backup, che si puedin doprâ dome une volte,
     intun puest sigûr par cuant che no tu âs a disposizion il to dispositîf mobil.
+# codes here refers to backup authentication codes
+tfa-enter-code-to-confirm-setup = Conferme di vê salvât i tiei codiçs inserintint un. Tal câs che no tu vedis la tô aplicazion di autenticazion, cence chescj codiçs al è pussibil che no tu rivedis a jentrâ.
 tfa-enter-recovery-code-1 =
     .label = Inserìs un codiç di autenticazion di backup
 
@@ -1023,6 +1025,44 @@ signout-sync-session-expired = Nus displâs, alc al è lât strucj. Disconetiti 
 
 ## SubRow component
 
+tfa-row-backup-codes-title = Codiçs di autenticazion di backup
+# Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
+# Users that have not enabled or verified 2FA will not see this
+tfa-row-backup-codes-not-available = Nissun codiç disponibil
+# $numCodesRemaining - the number of backup authentication codes that have not yet been used (generally between 1 to 5)
+# A different message is shown when no codes are available
+tfa-row-backup-codes-available-v2 =
+    { $numCodesAvailable ->
+        [one] Al reste { $numBackupCodes } codiç
+       *[other] A restin { $numCodesAvailable } codiçs
+    }
+# Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
+tfa-row-backup-codes-get-new-cta = Oten gnûfs codiçs
+# Shown to users who have no backup authentication codes
+# Button to add backup authentication codes when none are configured
+tfa-row-backup-codes-add-cta = Zonte
+# 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
+tfa-row-backup-codes-description-2 = Chest al è il metodi di recupar plui sigûr se no tu puedis doprâ il to dispositîf mobil o la aplicazion di autenticazion.
+# Recovery phone is a recovery method for two-step authentication
+# A recovery code can be sent to the user's phone
+tfa-row-backup-phone-title-v2 = Telefon pal recupar dal account
+# Shown with an alert icon to indicate that no recovery phone is configured
+tfa-row-backup-phone-not-available = Nissun numar di telefon disponibil pal recupar
+# button to change the configured recovery phone
+tfa-row-backup-phone-change-cta = Modifiche
+# button to add/configure a recovery phone
+tfa-row-backup-phone-add-cta = Zonte
+# Button to remove a recovery phone from the user's account
+tfa-row-backup-phone-delete-button = Gjave
+# Shown in tooltip on delete button or delete icon
+tfa-row-backup-phone-delete-title-v2 = Gjave il numar di telefon pal recupar dal account
+tfa-row-backup-phone-delete-restriction-v2 = Se tu desideris gjavâ il numar di telefon pal recupar dal account, zonte i codiçs di autenticazion di backup o disative la autenticazion in doi passaçs par evitâ di restâ taiât fûr dal to account.
+# "this" refers to recovery phone
+tfa-row-backup-phone-description = Chest al è il metodi di recupar plui sempliç se no tu puedis doprâ la aplicazion di autenticazion
+# A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
+# into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
+# with SMS-based two-factor authentication.
+tfa-row-backup-phone-sim-swap-risk-link = Informazions sui risis leâts al scambi di SIM (SIM swap)
 
 ## Switch component
 
@@ -1108,6 +1148,7 @@ se-secondary-email-none = Nissune
 
 tfa-row-header = Autenticazion in doi passaçs
 tfa-row-enabled = Ativade
+tfa-row-disabled-status = Disativade
 tfa-row-action-add = Zonte
 tfa-row-action-disable = Disative
 tfa-row-button-refresh =
@@ -1115,6 +1156,11 @@ tfa-row-button-refresh =
 tfa-row-cannot-refresh =
     Nus displâs, al è vignût fûr un probleme tal inzornament
     de autenticazion in doi passaçs.
+tfa-row-enabled-description = Il to account al è protet de autenticazion in doi passaçs. Tu varâs di inserî un codiç a ûs singul de tô aplicazion di autenticazion cuant che tu jentrarâs tal to { -product-mozilla-account }.
+# "this" refers to two-step authentication
+# Link goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+tfa-row-enabled-info-link = Cemût che al jude a protezi il to account
+tfa-row-disabled-description-v2 = Protêç il to account doprant une aplicazion di autenticazion di tiercis parts tant che secont passaç par jentrâ.
 tfa-row-cannot-verify-session-4 = Nus displâs, al è vignût fûr un probleme tal confermâ la tô session
 tfa-row-disable-modal-heading = Disativâ la autenticazion in doi passaçs?
 tfa-row-disable-modal-confirm = Disative
@@ -1164,11 +1210,22 @@ auth-error-114-generic = Tu âs provât masse voltis. Torne prove plui tart.
 #                          formatting library (momentjs) as a "time from now" and automatically includes
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Tu âs provât masse voltis. Torne prove { $retryAfter }.
+auth-error-125 = La richieste e je stade blocade par motîfs di sigurece
+auth-error-129 = Numar di telefon no valit
 auth-error-138-2 = Session no confermade
 auth-error-139 = La e-mail secondarie e à di sei diferente di chê principâl dal to account
 auth-error-155 = Gjeton TOTP no cjatât
+# Error shown when the user submits an invalid backup authentication code
+auth-error-156 = Codiç di autenticazion di backup no cjatât
 auth-error-159 = Clâf di recupar dal account no valide
 auth-error-183-2 = Codiç di conferme scjadût o no valit
+auth-error-202 = Funzionalitât no abilitade
+auth-error-203 = Il sisteme nol è disponibil, torne prove chi di pôc
+auth-error-206 = Impussibil creâ la password, la password e je za stade stabilide
+auth-error-214 = Il numar di telefon pal recupar dal account al esist za
+auth-error-215 = Il numar di telefon pal recupar dal account nol esist
+auth-error-216 = Si è rivâts al limit dai messaçs di test
+auth-error-218 = Impussibil gjavâ il numar di telefon pal recupar dal account, a mancjin i codiçs di autenticazion di backup.
 auth-error-999 = Erôr inspietât
 auth-error-1001 = Tentatîf di acès anulât
 auth-error-1002 = Session scjadude. Jentre par continuâ.
@@ -1178,6 +1235,8 @@ auth-error-1010 = E covente une gnove password valide
 auth-error-1011 = Al è necessari inserî une direzion e-mail valide
 auth-error-1031 = Par completâ la regjistrazion tu scugnis inserî la tô etât
 auth-error-1032 = Par completâ la regjistrazion tu cugnis inserî une etât valide
+auth-error-1054 = Il codiç di autenticazion in doi passaçs nol è valit
+auth-error-1056 = Il codiç di autenticazion di backup nol è valit
 auth-error-1062 = Dirotament no valit
 oauth-error-1000 = Alc al è lât strucj. Siere cheste schede e torne prove.
 
@@ -1281,6 +1340,7 @@ inline-recovery-confirmation-header-default = Conferme il codiç di autenticazio
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = Conferme il codiç di autenticazion di backup <span>par continuâ su { $serviceName }</span>
+inline-recovery-2fa-enabled-v2 = La autenticazion in doi passaçs e je stade ativade
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).

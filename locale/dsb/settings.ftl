@@ -894,6 +894,7 @@ settings-recovery-phone-remove-success = Wótnowjeński telefon wótwónoźony
 ## PageSetupRecoveryPhone
 
 page-setup-recovery-phone-heading = Wótnowjeński telefon pśidaś
+page-setup-recovery-phone-back-button-title = Slědk k nastajenjam
 
 ## Add secondary email page
 
@@ -965,6 +966,8 @@ tfa-enter-totp-v2 = Zapódajśo něnto awtentifikaciski kod z awtentifikaciskego
 tfa-input-enter-totp-v2 =
     .label = Awtentificěrowański kod zapódaś
 tfa-save-these-codes-1 = Składujśo toś te kody za zawěsćeńsku awtentifikaciju za jadnorazowe wužywanje na wěstem městnje, jolic pśistup k swójomu mobilnemu rědoju njamaśo.
+# codes here refers to backup authentication codes
+tfa-enter-code-to-confirm-setup = Zapódajśo kod, aby wobkšuśił, až sćo składł swóje kody. Bźez toś tych kodow njamóžośo se snaź pśizjawiś, jolic swójo autentifikaciske nałoženje njamaśo.
 tfa-enter-recovery-code-1 =
     .label = Zapódajśo kod za zawěsćeńsku awtentifikaciju
 
@@ -1026,6 +1029,15 @@ tfa-row-backup-codes-title = Kody za zawěsćeńsku awtentifikaciju
 # Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
 # Users that have not enabled or verified 2FA will not see this
 tfa-row-backup-codes-not-available = Žedne kody k dispoziciji
+# $numCodesRemaining - the number of backup authentication codes that have not yet been used (generally between 1 to 5)
+# A different message is shown when no codes are available
+tfa-row-backup-codes-available-v2 =
+    { $numCodesAvailable ->
+        [one] { $numCodesAvailable } kod zwóstawajucy
+        [two] { $numCodesAvailable } koda zwóstawajucej
+        [few] { $numCodesAvailable } kody zwóstawajuce
+       *[other] { $numCodesAvailable } kody zwóstawajuce
+    }
 # Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
 tfa-row-backup-codes-get-new-cta = Nowe kody wobstaraś
 # Shown to users who have no backup authentication codes
@@ -1663,6 +1675,14 @@ signin-recovery-method-subheader = Wubjeŕśo wótnowjeńsku metodu
 signin-recovery-method-details = Pśeznańśo se, až wy swóje wótnowjeńske metody wužywaśo.
 signin-recovery-method-phone = Wótnowjeński telefon
 signin-recovery-method-code-v2 = Kody za zawěsćeńsku awtentifikaciju
+# Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
+signin-recovery-method-code-info-v2 =
+    { $numBackupCodes ->
+        [one] { $numBackupCodes } kod zwóstawajucy
+        [two] { $numBackupCodes } koda zwóstawajucej
+        [few] { $numBackupCodes } kody zwóstawajuce
+       *[other] { $numBackupCodes } kody zwóstawajuce
+    }
 # Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
 signin-recovery-method-send-code-error-heading = Pśi słanju koda na waš wótnowjeński telefon jo problem nastał
 signin-recovery-method-send-code-error-description = Pšosym wopytajśo pózdźej hyšći raz abo wužywajśo swóje awtentifikaciske kody za zawěsćenje.
@@ -1676,6 +1696,8 @@ signin-recovery-code-heading = Pśizjawiś
 signin-recovery-code-sub-heading = Zapódajśo kod za zawěsćeńsku awtentifikaciju
 # codes here refers to backup authentication codes
 signin-recovery-code-instruction-v3 = Zapódajśo jaden z kodow za jadnorazowe wužywanje, gaž dwójokšacowu awtentifikaciju konfigurěrujośo.
+# code here refers to backup authentication code
+signin-recovery-code-input-label-v2 = 10-městnowy kod zapódaś
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Wobkšuśiś
 # Link to go to the page to use recovery phone instead
