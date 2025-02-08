@@ -885,6 +885,7 @@ settings-recovery-phone-remove-success = 已移除救援電話號碼
 ## PageSetupRecoveryPhone
 
 page-setup-recovery-phone-heading = 新增救援電話號碼
+page-setup-recovery-phone-back-button-title = 回到設定頁面
 
 ## Add secondary email page
 
@@ -956,6 +957,8 @@ tfa-enter-totp-v2 = 現在請輸入驗證應用程式當中的驗證碼。
 tfa-input-enter-totp-v2 =
     .label = 輸入驗證碼
 tfa-save-these-codes-1 = 請將這些單次使用的備用驗證碼儲存在安全的地方，以備行動裝置不在手邊時使用。
+# codes here refers to backup authentication codes
+tfa-enter-code-to-confirm-setup = 請輸入任一組備用驗證碼，以確認您已安全記錄下來。如果未來遺失了這些代碼，無法再使用驗證器時可能就無法再登入帳號。
 tfa-enter-recovery-code-1 =
     .label = 請輸入備用驗證碼
 
@@ -1017,6 +1020,9 @@ tfa-row-backup-codes-title = 備用驗證碼
 # Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
 # Users that have not enabled or verified 2FA will not see this
 tfa-row-backup-codes-not-available = 無備用驗證碼可用
+# $numCodesRemaining - the number of backup authentication codes that have not yet been used (generally between 1 to 5)
+# A different message is shown when no codes are available
+tfa-row-backup-codes-available-v2 = 剩餘 { $numCodesAvailable } 組備用驗證碼
 # Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
 tfa-row-backup-codes-get-new-cta = 產生新備用驗證碼
 # Shown to users who have no backup authentication codes
@@ -1639,6 +1645,8 @@ signin-recovery-method-subheader = 選擇救援方式
 signin-recovery-method-details = 請使用您原先設定的救援方式確認身分。
 signin-recovery-method-phone = 救援電話號碼
 signin-recovery-method-code-v2 = 備用驗證碼
+# Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
+signin-recovery-method-code-info-v2 = 剩餘 { $numBackupCodes } 組備用驗證碼
 # Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
 signin-recovery-method-send-code-error-heading = 傳送代碼到您的救援電話號碼時遇到問題
 signin-recovery-method-send-code-error-description = 請稍後再試，或使用您的備用驗證碼。
@@ -1652,6 +1660,8 @@ signin-recovery-code-heading = 登入
 signin-recovery-code-sub-heading = 請輸入備用驗證碼
 # codes here refers to backup authentication codes
 signin-recovery-code-instruction-v3 = 請輸入設定兩階段驗證時保存的任一組備用驗證碼。
+# code here refers to backup authentication code
+signin-recovery-code-input-label-v2 = 請輸入 10 字元長的備用驗證碼
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = 確認
 # Link to go to the page to use recovery phone instead
