@@ -645,6 +645,14 @@ flow-setup-phone-confirm-code-success-message-v2 = Zontât telefon pal recupar d
 flow-setup-phone-submit-number-heading = Verifiche il to numar di telefon
 # The code is a 6-digit code send by text message/SMS
 flow-setup-phone-verify-number-instruction = Tu ricevarâs un SMS di { -brand-mozilla } cuntun codiç par verificâ il to numar. No sta condividi cun nissun chest codiç.
+# The initial rollout of the recovery phone is only available to users with US and Canada mobile phone numbers.
+# Voice over Internet Protocol (VoIP), is a technology that uses a broadband Internet connection instead of a regular (or analog) phone line to make calls.
+# Phone mask services (for example Relay) provide a temporary virtual number to avoid providing a real phone number.
+# Both VoIP and phone masks can be unreliable for one-time-passcode (OTP) verification
+flow-setup-phone-submit-number-info-message-v2 = Il numar di telefon pal recupar dal account al è disponibil dome tai Stâts Unîts e in Canadà. I numars VoIP e i alias telefonics no son conseâts.
+flow-setup-phone-submit-number-legal = Indicant il to numar, tu acetis che nô lu salvedin in mût di podê inviâti un messaç dome pe verifiche dal account. Al è pussibil che a vegnin aplicadis tarifis pai messaçs e pal trafic di dâts.
+# cliking on the button sends a code by text message to the phone number typed in by the user
+flow-setup-phone-submit-number-button = Mande codiç
 
 ## HeaderLockup component, the header in account settings
 
@@ -702,8 +710,10 @@ tfa-replace-code-success-1 =
     I gnûfs codiçs a son stâts creâts. Salve intun puest sigûr
     chescj codiçs di autenticazion di backup che si puedin doprâ une volte sole — ti coventaran par 
     acedi al to account se no tu varâs il to dispositîf mobil.
+tfa-replace-code-success-alert-4 = Codiçs di autenticazion di backup inzornâts
 tfa-replace-code-1-2 = Passaç 1 di 2
 tfa-replace-code-2-2 = Passaç 2 di 2
+tfa-enter-code-to-confirm-v2 = Inserìs un dai gnûfs codiçs di autenticazion di backup par confermâ di vêju salvâts. I vieris codiçs di autenticazion di backup a vignaran disativâts ae fin di chest passaç.
 
 ## Avatar change page
 
@@ -866,9 +876,21 @@ recovery-key-create-back-button-title = Torne aes impostazions
 ## PageRecoveryPhoneRemove
 ## Users reach this page from account settings when they want to remove a backup phone number.
 
+recovery-phone-remove-header = Gjave il numar di telefon pal recupar dal account
+# Variables:
+#   $formattedFullPhoneNumber (String) - the user's full phone number
+settings-recovery-phone-remove-info = Chest al gjavarà <strong>{ $formattedFullPhoneNumber }</strong> tant che numar di telefon pal recupar dal account.
+settings-recovery-phone-remove-recommend = Ti conseìn di mantignî chest metodi parcè che al è plui sempliç che salvâ i codiçs di autenticazion di backup.
+# "Saved backup authentication codes" refers to previously saved backup authentication codes
+settings-recovery-phone-remove-recovery-methods = Se tu lu eliminis, verifiche di vê ancjemò i codiçs di autenticazion di backup che tu vevis salvât. <linkExternal>Paragone i metodis di recupar</linkExternal>
+settings-recovery-phone-remove-button = Gjave numar di telefon
+settings-recovery-phone-remove-cancel = Anule
+settings-recovery-phone-remove-success = Il numar di telefon pal recupar dal account al è stât gjavât
 
 ## PageSetupRecoveryPhone
 
+page-setup-recovery-phone-heading = Zonte numar di telefon di recupar
+page-setup-recovery-phone-back-button-title = Torne aes impostazions
 
 ## Add secondary email page
 
@@ -908,6 +930,8 @@ verify-secondary-email-success-alert-2 = Direzion { $email } zontade cun sucès
 
 # Link to delete account on main Settings page
 delete-account-link = Elimine account
+# Success message displayed in alert bar after the user has successfully confirmed their account is not inactive.
+inactive-update-status-success-alert = Acès eseguît cun sucès. Il to { -product-mozilla-account } e i tiei dâts a restaran atîfs.
 
 ## Two Step Authentication
 
@@ -922,6 +946,7 @@ tfa-incorrect-totp = Codiç di autenticazion in doi passaçs sbaliât
 tfa-cannot-retrieve-code = Al è vignût fûr un probleme tal recuperâ il to codiç.
 tfa-cannot-verify-code-4 = Al è vignût fûr un probleme tal confermâ il to codiç di autenticazion di backup
 tfa-incorrect-recovery-code-1 = Codiç di autenticazion di backup sbaliât
+tfa-enabled-v2 = La autenticazion in doi passaçs e je stade ativade
 tfa-scan-this-code =
     Scansione chest codiç QR doprant une di <linkExternal>chestis
     aplicazions di autenticazion</linkExternal>.

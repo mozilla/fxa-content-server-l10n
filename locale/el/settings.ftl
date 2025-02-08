@@ -897,6 +897,7 @@ settings-recovery-phone-remove-success = Το τηλέφωνο ανάκτηση�
 ## PageSetupRecoveryPhone
 
 page-setup-recovery-phone-heading = Προσθήκη τηλεφώνου ανάκτησης
+page-setup-recovery-phone-back-button-title = Πίσω στις ρυθμίσεις
 
 ## Add secondary email page
 
