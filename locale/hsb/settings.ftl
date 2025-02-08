@@ -894,6 +894,7 @@ settings-recovery-phone-remove-success = Wobnowjenski telefon wotstronjeny
 ## PageSetupRecoveryPhone
 
 page-setup-recovery-phone-heading = Wobnowjenski telefon přidać
+page-setup-recovery-phone-back-button-title = Wróćo k nastajenjam
 
 ## Add secondary email page
 
@@ -1028,6 +1029,15 @@ tfa-row-backup-codes-title = Zawěsćenske awtentifikaciske kody
 # Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
 # Users that have not enabled or verified 2FA will not see this
 tfa-row-backup-codes-not-available = Žane kody k dispoziciji
+# $numCodesRemaining - the number of backup authentication codes that have not yet been used (generally between 1 to 5)
+# A different message is shown when no codes are available
+tfa-row-backup-codes-available-v2 =
+    { $numCodesAvailable ->
+        [one] { $numCodesAvailable } kod zwostawacy
+        [two] { $numCodesAvailable } kodaj zwostawacej
+        [few] { $numCodesAvailable } kody zwostawace
+       *[other] { $numCodesAvailable } kodow zwostawace
+    }
 # Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
 tfa-row-backup-codes-get-new-cta = Nowe kody wobstarać
 # Shown to users who have no backup authentication codes
@@ -1665,6 +1675,14 @@ signin-recovery-method-subheader = Wubjerće wobnowjensku metodu
 signin-recovery-method-details = Přeswědčće so, zo wy swoje wobnowjenske metody wužiwaće.
 signin-recovery-method-phone = Wobnowjenski telefon
 signin-recovery-method-code-v2 = Zawěsćenske awtentifikaciske kody
+# Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
+signin-recovery-method-code-info-v2 =
+    { $numBackupCodes ->
+        [one] { $numBackupCodes } kod zwostawacy
+        [two] { $numBackupCodes } kodaj zwostawacej
+        [few] { $numBackupCodes } kody zwostawace
+       *[other] { $numBackupCodes } kodow zwostawace
+    }
 # Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
 signin-recovery-method-send-code-error-heading = Při słanju koda na waš wobnowjenski telefon je problem nastał
 signin-recovery-method-send-code-error-description = Prošu spytajće pozdźišo hišće raz abo wužiwajće swoje awtentifikaciske kody za zawěsćenje.
@@ -1678,6 +1696,8 @@ signin-recovery-code-heading = Přizjewić
 signin-recovery-code-sub-heading = Zapodajće kod za zawěsćensku awtentifikaciju
 # codes here refers to backup authentication codes
 signin-recovery-code-instruction-v3 = Zapodajće jedyn z kodow za jónkróćne wužiwanje, hdyž dwukročelowu awtentifikaciju konfigurujeće.
+# code here refers to backup authentication code
+signin-recovery-code-input-label-v2 = 10-městnowy kod zapodać
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Wobkrućić
 # Link to go to the page to use recovery phone instead
