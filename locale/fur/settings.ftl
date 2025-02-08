@@ -1588,6 +1588,15 @@ signin-recovery-method-subheader = Sielç un metodi di recupar
 signin-recovery-method-details = Controlìn la tô identitât prime di doprâ i metodis di recupar sielts.
 signin-recovery-method-phone = Telefon pal recupar dal account
 signin-recovery-method-code-v2 = Codiçs di autenticazion di backup
+# Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
+signin-recovery-method-code-info-v2 =
+    { $numBackupCodes ->
+        [one] Al reste { $numBackupCodes } codiç
+       *[other] A restin { $numBackupCodes } codiçs
+    }
+# Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
+signin-recovery-method-send-code-error-heading = Al è vignût fûr un probleme tal mandâ il codiç al telefon pal recupar dal account
+signin-recovery-method-send-code-error-description = Torne prove plui indevant o dopre i tiei codiçs di autenticazion di backup.
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
@@ -1596,6 +1605,8 @@ signin-recovery-method-code-v2 = Codiçs di autenticazion di backup
 
 signin-recovery-code-heading = Jentre
 signin-recovery-code-sub-heading = Inserìs il codiç di autenticazion di backup
+# codes here refers to backup authentication codes
+signin-recovery-code-instruction-v3 = Inserìs un dai codiçs ad ûs singul che tu âs salvât cuant che tu âs configurade la autenticazion in doi passaçs.
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Conferme
 # External link for support if the user can't use two-step autentication or a backup authentication code
@@ -1650,6 +1661,10 @@ signin-totp-code-other-account-link = Dopre un altri account
 signin-totp-code-recovery-code-link = Problemis a inserî il codiç?
 # Error displayed in a tooltip when the form is submitted without a code
 signin-totp-code-required-error = Codiç di autenticazion necessari
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-totp-code-desktop-relay = Dopo fat l'acès, { -brand-firefox } al cirarà di tornâ a mandâti ae pagjine par doprâ la mascare di pueste eletroniche.
 
 ## Signin Unblock Page
 ## Page shown when signin has been blocked by rate limiting (too many requests)
