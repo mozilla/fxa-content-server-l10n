@@ -890,6 +890,7 @@ settings-recovery-phone-remove-success = Obnovenie pomocou telefónu bolo zruše
 ## PageSetupRecoveryPhone
 
 page-setup-recovery-phone-heading = Pridajte obnovenie pomocou telefónu
+page-setup-recovery-phone-back-button-title = Späť na nastavenia
 
 ## Add secondary email page
 
@@ -967,6 +968,8 @@ tfa-input-enter-totp-v2 =
 tfa-save-these-codes-1 =
     Uložte si tieto jednorazové záložné overovacie kódy na bezpečné miesto, aby ste mali k nim prístup
     keď nebudete mať svoje mobilné zariadenie.
+# codes here refers to backup authentication codes
+tfa-enter-code-to-confirm-setup = Zadaním kódu potvrďte, že ste kódy uložili. Bez týchto kódov sa možno nebudete môcť prihlásiť, ak nemáte aplikáciu na overenie totožnosti.
 tfa-enter-recovery-code-1 =
     .label = Zadajte záložný overovací kód
 
@@ -1028,6 +1031,15 @@ tfa-row-backup-codes-title = Záložné overovacie kódy
 # Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
 # Users that have not enabled or verified 2FA will not see this
 tfa-row-backup-codes-not-available = Nie sú k dispozícii žiadne kódy
+# $numCodesRemaining - the number of backup authentication codes that have not yet been used (generally between 1 to 5)
+# A different message is shown when no codes are available
+tfa-row-backup-codes-available-v2 =
+    { $numCodesAvailable ->
+        [one] Zostáva { $numCodesAvailable } kód
+        [few] Zostávajú { $numCodesAvailable } kódy
+        [many] Zostáva { $numCodesAvailable } kódov
+       *[other] Zostáva { $numCodesAvailable } kódov
+    }
 # Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
 tfa-row-backup-codes-get-new-cta = Získajte nové kódy
 # Shown to users who have no backup authentication codes
@@ -1659,6 +1671,14 @@ signin-recovery-method-subheader = Vyberte spôsob obnovy
 signin-recovery-method-details = Poďme sa, že ste to vy, čo používate svoje metódy obnovy.
 signin-recovery-method-phone = Obnovenie pomocou telefónu
 signin-recovery-method-code-v2 = Záložné overovacie kódy
+# Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
+signin-recovery-method-code-info-v2 =
+    { $numBackupCodes ->
+        [one] Zostáva { $numCodesAvailable } kód
+        [few] Zostávajú { $numBackupCodes } kódy
+        [many] Zostáva { $numBackupCodes } kódov
+       *[other] Zostáva { $numBackupCodes } kódov
+    }
 # Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
 signin-recovery-method-send-code-error-heading = Pri odosielaní kódu na váš telefón na obnovenie sa vyskytol problém
 signin-recovery-method-send-code-error-description = Skúste to znova neskôr alebo použite záložné overovacie kódy.
@@ -1672,6 +1692,8 @@ signin-recovery-code-heading = Prihlásiť sa
 signin-recovery-code-sub-heading = Zadajte záložný overovací kód
 # codes here refers to backup authentication codes
 signin-recovery-code-instruction-v3 = Zadajte jeden z kódov na jednorazové použitie, ktoré ste si uložili pri nastavovaní dvojstupňového overenia.
+# code here refers to backup authentication code
+signin-recovery-code-input-label-v2 = Zadajte 10‑miestny kód
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Potvrdiť
 # Link to go to the page to use recovery phone instead
