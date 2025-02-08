@@ -1451,6 +1451,10 @@ complete-reset-pw-recovery-key-link = Dopre la clâf di recupar dal account
 # Displayed on the sign in page
 reset-password-complete-banner-heading = La tô password e je stade ripristinade.
 reset-password-complete-banner-message = No sta dismenteâti di gjenerâ une gnove clâf di recupar dal account da lis impostazions dal to { -product-mozilla-account } par evitâ problemis di acès in futûr.
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+complete-reset-password-desktop-relay = Dopo fat l'acès, { -brand-firefox } al cirarà di tornâ a mandâti ae pagjine par doprâ la mascare di pueste eletroniche.
 
 ## Confirm Reset Password With Code
 
@@ -1472,9 +1476,14 @@ confirm-reset-password-otp-different-account-link = Dopre un altri account
 ## PasswordResetConfirmTotp Page
 
 confirm-totp-reset-password-header = Ristabilìs la tô password
+confirm-totp-reset-password-subheader-v2 = Inserìs il codiç di autenticazion in doi passaçs
+confirm-totp-reset-password-instruction-v2 = Controle la <strong>aplicazion di autenticazion</strong> par riconfigurâ la password.
 confirm-totp-reset-password-trouble-code = Problemis a inserî il codiç?
 confirm-totp-reset-password-confirm-button = Conferme
+confirm-totp-reset-password-input-label-v2 = Inserìs il codiç a 6 cifris
 confirm-totp-reset-password-use-different-account = Dopre un altri account
+confirm-recovery-code-reset-password-input-label = Inserìs il codiç di 10 caratars
+confirm-recovery-code-reset-password-trouble-code = Indaûr
 
 ## ResetPassword start page
 
@@ -1527,6 +1536,10 @@ signin-header = Jentre
 signin-use-a-different-account-link = Dopre un altri account
 signin-forgot-password-link = Password dismenteade?
 signin-password-button-label = Password
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-desktop-relay = Dopo fat l'acès, { -brand-firefox } al cirarà di tornâ a mandâti ae pagjine par doprâ la mascare di pueste eletroniche.
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
@@ -1570,12 +1583,19 @@ signin-push-code-confirm-link-error = Il colegament al è rot. Torne prove.
 ## This page is shown to users when they are having trouble signing in with
 ## their password, and they previously had set up an account recovery method.
 
+signin-recovery-method-header = Jentre
+signin-recovery-method-subheader = Sielç un metodi di recupar
+signin-recovery-method-details = Controlìn la tô identitât prime di doprâ i metodis di recupar sielts.
+signin-recovery-method-phone = Telefon pal recupar dal account
+signin-recovery-method-code-v2 = Codiçs di autenticazion di backup
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
+signin-recovery-code-heading = Jentre
+signin-recovery-code-sub-heading = Inserìs il codiç di autenticazion di backup
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Conferme
 # External link for support if the user can't use two-step autentication or a backup authentication code
@@ -1610,11 +1630,20 @@ signin-token-code-code-expired = Codiç scjadût?
 signin-token-code-resend-code-link = Mande e-mail cul gnûf codiç.
 # Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = Codiç di conferme necessari
+signin-token-code-resend-error = Alc al è lât strucj. Impussibil inviâ un gnûf codiç.
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-token-code-instruction-desktop-relay = Dopo fat l'acès, { -brand-firefox } al cirarà di tornâ a mandâti ae pagjine par doprâ la mascare di pueste eletroniche.
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+signin-totp-code-header = Jentre
+signin-totp-code-subheader-v2 = Inserìs il codiç di autenticazion in doi passaçs
+signin-totp-code-instruction-v4 = Controle la <strong>aplicazion di autenticazion</strong> par confermâ l’acès.
+signin-totp-code-input-label-v4 = Inserìs il codiç a 6 cifris
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Conferme
 signin-totp-code-other-account-link = Dopre un altri account
