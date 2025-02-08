@@ -889,6 +889,7 @@ settings-recovery-phone-remove-success = Teléfono de recuperación eliminado
 ## PageSetupRecoveryPhone
 
 page-setup-recovery-phone-heading = Agregar teléfono de recuperación
+page-setup-recovery-phone-back-button-title = Volver a ajustes
 
 ## Add secondary email page
 
@@ -964,6 +965,8 @@ tfa-enter-totp-v2 = Ahora ingresá el código de autenticación de la aplicació
 tfa-input-enter-totp-v2 =
     .label = Ingresá el código de autenticación
 tfa-save-these-codes-1 = Guardá estos códigos de autenticación de respaldo en un lugar seguro para cuando no tengás tu dispositivo móvil.
+# codes here refers to backup authentication codes
+tfa-enter-code-to-confirm-setup = Confirma que guardaste tus códigos ingresando uno. Sin estos códigos, es posible que no puedas iniciar sesión si no tienes tu aplicación de autenticación.
 tfa-enter-recovery-code-1 =
     .label = Ingresá un código de autenticación de respaldo
 
@@ -1025,6 +1028,13 @@ tfa-row-backup-codes-title = Códigos de autenticación de respaldo
 # Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
 # Users that have not enabled or verified 2FA will not see this
 tfa-row-backup-codes-not-available = No hay códigos disponibles
+# $numCodesRemaining - the number of backup authentication codes that have not yet been used (generally between 1 to 5)
+# A different message is shown when no codes are available
+tfa-row-backup-codes-available-v2 =
+    { $numCodesAvailable ->
+        [one] Queda el código { $numCodesAvailable }
+       *[other] { $numCodesAvailable } códigos restantes
+    }
 # Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
 tfa-row-backup-codes-get-new-cta = Obtener nuevos códigos
 # Shown to users who have no backup authentication codes
@@ -1662,6 +1672,12 @@ signin-recovery-method-subheader = Elegí un método de recuperación
 signin-recovery-method-details = Asegurámonos de que fuiste vos el que usó los métodos de recuperación.
 signin-recovery-method-phone = Teléfono de recuperación
 signin-recovery-method-code-v2 = Códigos de autenticación de respaldo
+# Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
+signin-recovery-method-code-info-v2 =
+    { $numBackupCodes ->
+        [one] Queda { $numBackupCodes }
+       *[other] Quedan { $numBackupCodes }
+    }
 # Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
 signin-recovery-method-send-code-error-heading = Hubo un problema al enviar un código a tu teléfono de recuperación
 signin-recovery-method-send-code-error-description = Volvé a intentarlo más tarde o usá tus códigos de autenticación de respaldo.
@@ -1675,6 +1691,8 @@ signin-recovery-code-heading = Iniciar sesión
 signin-recovery-code-sub-heading = Ingresá el código de autenticación de respaldo
 # codes here refers to backup authentication codes
 signin-recovery-code-instruction-v3 = Ingresá uno de los códigos de un solo uso que guardaste al configurar la autenticación de dos pasos.
+# code here refers to backup authentication code
+signin-recovery-code-input-label-v2 = Ingresá el código de 10 caracteres
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Confirmar
 # Link to go to the page to use recovery phone instead

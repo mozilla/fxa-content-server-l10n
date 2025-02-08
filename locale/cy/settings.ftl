@@ -890,6 +890,7 @@ settings-recovery-phone-remove-success = Ffôn adfer wedi'i dynnu
 ## PageSetupRecoveryPhone
 
 page-setup-recovery-phone-heading = Ychwanegu ffôn adfer
+page-setup-recovery-phone-back-button-title = Nôl i'r gosodiadau
 
 ## Add secondary email page
 
@@ -967,6 +968,8 @@ tfa-input-enter-totp-v2 =
 tfa-save-these-codes-1 =
     Cadwch y codau defnydd unwaith hyn mewn man diogel pan nad yw eich dyfais
     symudol gennych.
+# codes here refers to backup authentication codes
+tfa-enter-code-to-confirm-setup = Cadarnhewch eich bod wedi cadw'ch codau trwy nodi un. Heb y codau hyn, efallai na fyddwch yn gallu mewngofnodi os nad oes gennych eich ap dilysu.
 tfa-enter-recovery-code-1 =
     .label = Rhowch god dilysu wrth gefn
 
@@ -1028,6 +1031,17 @@ tfa-row-backup-codes-title = Codau dilysu wrth gefn
 # Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
 # Users that have not enabled or verified 2FA will not see this
 tfa-row-backup-codes-not-available = Dim codau ar gael
+# $numCodesRemaining - the number of backup authentication codes that have not yet been used (generally between 1 to 5)
+# A different message is shown when no codes are available
+tfa-row-backup-codes-available-v2 =
+    { $numCodesAvailable ->
+        [zero] { $numCodesAvailable } cod yn weddill
+        [one] { $numCodesAvailable } cod yn weddill
+        [two] { $numCodesAvailable } cod yn weddill
+        [few] { $numCodesAvailable } cod yn weddill
+        [many] { $numCodesAvailable } cod yn weddill
+       *[other] { $numCodesAvailable } cod yn weddill
+    }
 # Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
 tfa-row-backup-codes-get-new-cta = Cael codau newydd
 # Shown to users who have no backup authentication codes
@@ -1656,6 +1670,16 @@ signin-recovery-method-subheader = Dewiswch ddull adfer
 signin-recovery-method-details = Gadewch i ni sicrhau mai chi sy'n defnyddio'ch dulliau adfer.
 signin-recovery-method-phone = Ffôn adfer
 signin-recovery-method-code-v2 = Codau dilysu wrth gefn
+# Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
+signin-recovery-method-code-info-v2 =
+    { $numBackupCodes ->
+        [zero] { $numBackupCodes } cod yn weddill
+        [one] { $numBackupCodes } cod yn weddill
+        [two] { $numBackupCodes } cod yn weddill
+        [few] { $numBackupCodes } cod yn weddill
+        [many] { $numBackupCodes } cod yn weddill
+       *[other] { $numBackupCodes } cod yn weddill
+    }
 # Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
 signin-recovery-method-send-code-error-heading = Bu problem wrth anfon cod i'ch ffôn adfer
 signin-recovery-method-send-code-error-description = Ceisiwch eto yn nes ymlaen neu defnyddiwch eich codau dilysu wrth gefn.
@@ -1669,6 +1693,8 @@ signin-recovery-code-heading = Mewngofnodi
 signin-recovery-code-sub-heading = Rhowch god dilysu wrth gefn
 # codes here refers to backup authentication codes
 signin-recovery-code-instruction-v3 = Rhowch un o'r codau un-tro y gwnaethoch chi eu cadw pan wnaethoch chi osod dilysiad dau gam.
+# code here refers to backup authentication code
+signin-recovery-code-input-label-v2 = Rhowch god 10 nod
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Cadarnhau
 # Link to go to the page to use recovery phone instead
