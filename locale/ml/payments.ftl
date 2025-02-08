@@ -120,6 +120,10 @@ close-aria =
 # App error dialog
 general-error-heading = പൊതുവായ പ്രയോഗ പിശകു്
 basic-error-message = എന്തോ കുഴപ്പം ഉണ്ടായി. ദയവായി വീണ്ടും ശ്രമിക്കുക.
+product-profile-error =
+    .title = രൂപരേഖ ലഭ്യമാക്കുന്നതിൽ കുഴപ്പമുണ്ടായി
+product-customer-error =
+    .title = ഉപയോക്താവുവിശദാംശങ്ങൾ ലഭ്യമാക്കുന്നതിലൊരു കുഴപ്പമുണ്ടായി
 
 ## Hooks - coupons
 
@@ -144,6 +148,7 @@ new-user-submit = വരിക്കാരാവുക
 
 ## Routes - Product - Subscription upgrade
 
+sub-update-total-label = പുതിയ ആകെത്തുക
 
 ## Checkout line item for subscription plan change listing the product name and frequency of payment
 ## For example, a Mozilla VPN subscription charged monthly would appear as: Mozilla VPN (Monthly)

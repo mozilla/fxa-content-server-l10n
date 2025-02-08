@@ -1629,6 +1629,19 @@ signin-recovery-code-use-phone-failure-description = Torne prove plui tart.
 signin-recovery-phone-flow-heading = Jentre
 # A recovery code in context of this page is a one time code sent to the user's phone
 signin-recovery-phone-heading = Inserìs il codiç di recupar
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+signin-recovery-phone-instruction = Al è stât mandât un codiç di 6 cifris a <span>{ $maskedPhoneNumber }</span> midiant SMS. Chest codiç al scjadarà dopo 5 minûts.
+signin-recovery-phone-input-label = Inserìs il codiç a 6 cifris
+signin-recovery-phone-code-submit-button = Conferme
+signin-recovery-phone-resend-code-button = Torne mande il codiç
+signin-recovery-phone-resend-success = Codiç mandât
+# links to https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+signin-recovery-phone-locked-out-link = Sêstu taiât/taiade fûr da to account?
+signin-recovery-phone-send-code-error-heading = Al è vignût fûr un probleme tal inviâ il codiç
+signin-recovery-phone-code-verification-error-heading = Al è vignût fûr un probleme tal verificâ il codiç
+# Follows the error message (e.g, "There was a problem sending a code")
+signin-recovery-phone-general-error-description = Torne prove plui tart.
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -1720,6 +1733,10 @@ confirm-signup-code-resend-code-link = Mande e-mail cul gnûf codiç.
 confirm-signup-code-success-alert = Account confermât cun sucès
 # Error displayed in tooltip.
 confirm-signup-code-is-required-error = Al è necessari il codiç di conferme
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+confirm-signup-code-desktop-relay = Dopo fat l'acès, { -brand-firefox } al cirarà di tornâ a mandâti ae pagjine par doprâ la mascare di pueste eletroniche.
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
@@ -1727,6 +1744,11 @@ confirm-signup-code-is-required-error = Al è necessari il codiç di conferme
 signup-heading = Definìs la tô password
 signup-relay-info = E covente une password par gjestî in sigurece lis tôs mascaris di pueste e acedi ai struments di sigurece di { -brand-mozilla }.
 signup-heading-relay = Cree une password
+# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
+signup-pocket-info-banner = Parcè scuegnio creâ chest account?
+# Link included in a dismissible info banner that is only displayed to Pocket clients
+# Link leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
+signup-pocket-info-banner-link = Scuvierzilu achì
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Cambie e-mail
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
