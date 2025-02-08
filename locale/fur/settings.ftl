@@ -1607,16 +1607,28 @@ signin-recovery-code-heading = Jentre
 signin-recovery-code-sub-heading = Inserìs il codiç di autenticazion di backup
 # codes here refers to backup authentication codes
 signin-recovery-code-instruction-v3 = Inserìs un dai codiçs ad ûs singul che tu âs salvât cuant che tu âs configurade la autenticazion in doi passaçs.
+# code here refers to backup authentication code
+signin-recovery-code-input-label-v2 = Inserìs il codiç di 10 caratars
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Conferme
+# Link to go to the page to use recovery phone instead
+signin-recovery-code-phone-link = Dopre il telefon pal recupar dal account
 # External link for support if the user can't use two-step autentication or a backup authentication code
 # https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 signin-recovery-code-support-link = Sêstu taiât/taiade fûr da to account?
 # Error displayed in a tooltip when form is submitted witout a code
 signin-recovery-code-required-error = Al covente il codiç di autenticazion di backup
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-recovery-code-use-phone-failure = Al è vignût fûr un probleme tal mandâ il codiç al telefon pal recupar dal account
+signin-recovery-code-use-phone-failure-description = Torne prove plui tart.
 
 ## SigninRecoveryPhone page
 
+signin-recovery-phone-flow-heading = Jentre
+# A recovery code in context of this page is a one time code sent to the user's phone
+signin-recovery-phone-heading = Inserìs il codiç di recupar
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -1680,6 +1692,10 @@ signin-unblock-code-incorrect-length = Il codiç di autorizazion al à di vê 8 
 signin-unblock-code-incorrect-format-2 = Il codiç di autorizazion al pues contignî dome letaris e/o numars
 signin-unblock-resend-code-button = No ise te pueste in jentrade o te cartele spam/malvolude? Torne mande
 signin-unblock-support-link = Ce staial sucedint?
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-unblock-desktop-relay = Dopo fat l'acès, { -brand-firefox } al cirarà di tornâ a mandâti ae pagjine par doprâ la mascare di pueste eletroniche.
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,

@@ -971,6 +971,8 @@ tfa-input-enter-totp-v2 =
 tfa-save-these-codes-1 =
     Salva iste codices de authentication de reserva provisori in un loco secur pro quando
     tu non ha tu apparato mobile.
+# codes here refers to backup authentication codes
+tfa-enter-code-to-confirm-setup = Confirma que tu salvava tu codices inserente un. Sin iste codices, tu poterea non poter acceder si tu non ha tu app de authentication.
 tfa-enter-recovery-code-1 =
     .label = Insere un codice de authentication de reserva
 
@@ -1032,6 +1034,13 @@ tfa-row-backup-codes-title = Codices de authentication de reserva
 # Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
 # Users that have not enabled or verified 2FA will not see this
 tfa-row-backup-codes-not-available = Nulle codice disponibile
+# $numCodesRemaining - the number of backup authentication codes that have not yet been used (generally between 1 to 5)
+# A different message is shown when no codes are available
+tfa-row-backup-codes-available-v2 =
+    { $numCodesAvailable ->
+        [one] { $numCodesAvailable } codice restante
+       *[other] { $numCodesAvailable } codices restante
+    }
 # Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
 tfa-row-backup-codes-get-new-cta = Obtener nove codices
 # Shown to users who have no backup authentication codes
@@ -1665,6 +1674,12 @@ signin-recovery-method-subheader = Selige un methodo de recuperation
 signin-recovery-method-details = Que nos verifica que il es tu que usa tu methodos de recuperation.
 signin-recovery-method-phone = Telephono de recuperation
 signin-recovery-method-code-v2 = Codices de authentication de reserva
+# Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
+signin-recovery-method-code-info-v2 =
+    { $numBackupCodes ->
+        [one] { $numBackupCodes } codice restante
+       *[other] { $numBackupCodes } codices restante
+    }
 # Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
 signin-recovery-method-send-code-error-heading = Il habeva un problema inviante un codices a tu telephono de recuperation
 signin-recovery-method-send-code-error-description = Retenta plus tarde o usa tu codices de authentication de reserva.
@@ -1678,6 +1693,8 @@ signin-recovery-code-heading = Aperir session
 signin-recovery-code-sub-heading = Insere codice de authentication de reserva
 # codes here refers to backup authentication codes
 signin-recovery-code-instruction-v3 = Insere un del codices monouso que tu salvava quando tu configurava le authentication a duo passos.
+# code here refers to backup authentication code
+signin-recovery-code-input-label-v2 = Insere le codice de 10 characteres
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Confirmar
 # Link to go to the page to use recovery phone instead

@@ -971,6 +971,8 @@ tfa-input-enter-totp-v2 =
 tfa-save-these-codes-1 =
     Gem disse engangs-reserve-godkendelseskoder et sikkert sted,
     til hvis du mister adgangen til din mobile enhed.
+# codes here refers to backup authentication codes
+tfa-enter-code-to-confirm-setup = Bekræft at du har gemt dine koder ved at indtaste en af dem. Uden disse koder kan du muligvis ikke logge ind, hvis du ikke har din godkendelsesapp.
 tfa-enter-recovery-code-1 =
     .label = Indtast en reserve-godkendelseskode
 
@@ -1032,6 +1034,13 @@ tfa-row-backup-codes-title = Reserve-godkendelseskoder
 # Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
 # Users that have not enabled or verified 2FA will not see this
 tfa-row-backup-codes-not-available = Ingen koder tilgængelige
+# $numCodesRemaining - the number of backup authentication codes that have not yet been used (generally between 1 to 5)
+# A different message is shown when no codes are available
+tfa-row-backup-codes-available-v2 =
+    { $numCodesAvailable ->
+        [one] { $numCodesAvailable } kode tilbage
+       *[other] { $numCodesAvailable } koder tilbage
+    }
 # Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
 tfa-row-backup-codes-get-new-cta = Få nye koder
 # Shown to users who have no backup authentication codes
@@ -1207,12 +1216,21 @@ auth-error-114-generic = Du har prøvet for mange gange. Prøv igen senere.
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Du har prøvet for mange gange. Prøv igen { $retryAfter }.
 auth-error-125 = Forespørgslen blev blokeret af sikkerhedsmæssige årsager
+auth-error-129 = Ugyldigt telefonnummer
 auth-error-138-2 = Ubekræftet session
 auth-error-139 = Sekundær mailadresse skal være forskellig fra mailadressen til din konto
 auth-error-155 = TOTP-token ikke fundet
+# Error shown when the user submits an invalid backup authentication code
+auth-error-156 = Reserve-godkendelseskode ikke fundet
 auth-error-159 = Ugyldig genoprettelsesnøgle til kontoen
 auth-error-183-2 = Ugyldig eller udløbet bekræftelseskode
+auth-error-202 = Funktionen er ikke aktiveret
+auth-error-203 = Systemet er ikke tilgængeligt, prøv igen om lidt
 auth-error-206 = Kan ikke oprette adgangskode, adgangskode allerede angivet
+auth-error-214 = Telefonnummer til gendannelse findes allerede
+auth-error-215 = Telefonnummer til gendannelse findes ikke
+auth-error-216 = Grænsen for SMS-beskeder er nået
+auth-error-218 = Kunne ikke fjerne telefonnummer til gendannelse, mangler reserve-godkendelseskoder.
 auth-error-999 = Uventet fejl
 auth-error-1001 = Login-forsøg annulleret
 auth-error-1002 = Sessionen udløb. Log ind for at fortsætte.
@@ -1223,6 +1241,7 @@ auth-error-1011 = Gyldig mailadresse påkrævet
 auth-error-1031 = Du skal indtaste din alder for at tilmelde dig
 auth-error-1032 = Du skal indtaste en gyldig alder for at tilmelde dig
 auth-error-1054 = Ugyldig kode til totrinsgodkendelse
+auth-error-1056 = Ugyldig reserve-godkendelseskode
 auth-error-1062 = Ugyldig omdirigering
 oauth-error-1000 = Noget gik galt. Luk dette faneblad og prøv igen.
 
@@ -1656,6 +1675,16 @@ signin-recovery-method-header = Log ind
 signin-recovery-method-subheader = Vælg en gendannelsesmetode
 signin-recovery-method-details = Lad os sikre os, at det er dig, der bruger dine gendannelsesmetoder.
 signin-recovery-method-phone = Telefonnummer til gendannelse
+signin-recovery-method-code-v2 = Reserve-godkendelseskoder
+# Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
+signin-recovery-method-code-info-v2 =
+    { $numBackupCodes ->
+        [one] { $numBackupCodes } kode tilbage
+       *[other] { $numBackupCodes } koder tilbage
+    }
+# Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
+signin-recovery-method-send-code-error-heading = Der opstod et problem under afsendelse af en kode til dit telefonnummer til gendannelse
+signin-recovery-method-send-code-error-description = Prøv igen senere eller brug dine reserve-godkendelseskoder.
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
@@ -1664,16 +1693,43 @@ signin-recovery-method-phone = Telefonnummer til gendannelse
 
 signin-recovery-code-heading = Log ind
 signin-recovery-code-sub-heading = Indtast reserve-godkendelseskode
+# codes here refers to backup authentication codes
+signin-recovery-code-instruction-v3 = Indtast en af engangskoderne, du gemte, da du opsatte totrinsgodkendelse.
+# code here refers to backup authentication code
+signin-recovery-code-input-label-v2 = Indtast koden på 10 tegn
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Bekræft
+# Link to go to the page to use recovery phone instead
+signin-recovery-code-phone-link = Brug telefonnummer til gendannelse
 # External link for support if the user can't use two-step autentication or a backup authentication code
 # https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 signin-recovery-code-support-link = Er du blevet låst ude?
 # Error displayed in a tooltip when form is submitted witout a code
 signin-recovery-code-required-error = Reserve-godkendelseskode påkrævet
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-recovery-code-use-phone-failure = Der opstod et problem under afsendelse af en kode til dit telefonnummer til gendannelse
+signin-recovery-code-use-phone-failure-description = Prøv igen senere.
 
 ## SigninRecoveryPhone page
 
+signin-recovery-phone-flow-heading = Log ind
+# A recovery code in context of this page is a one time code sent to the user's phone
+signin-recovery-phone-heading = Indtast genoprettelseskode
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+signin-recovery-phone-instruction = En sekscifret kode blev sendt til <span>{ $maskedPhoneNumber }</span> i en SMS-besked. Denne kode udløber efter 5 minutter.
+signin-recovery-phone-input-label = Indtast 6-cifret kode
+signin-recovery-phone-code-submit-button = Bekræft
+signin-recovery-phone-resend-code-button = Send kode igen
+signin-recovery-phone-resend-success = Kode sendt
+# links to https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+signin-recovery-phone-locked-out-link = Er du blevet låst ude?
+signin-recovery-phone-send-code-error-heading = Der opstod et problem med at sende en kode
+signin-recovery-phone-code-verification-error-heading = Der opstod et problem med at bekræfte din kode
+# Follows the error message (e.g, "There was a problem sending a code")
+signin-recovery-phone-general-error-description = Prøv igen senere.
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
