@@ -711,6 +711,9 @@ tfa-replace-code-success-1 =
     pajisjen tuaj celulare.
 tfa-replace-code-1-2 = Hapi 1 nga 2
 tfa-replace-code-2-2 = Hapi 2 nga 2
+tfa-enter-code-to-confirm-v2 =
+    Ju lutemi, jepni një nga kodet tuaj të rinj të mirëfilltësimit të kopjeruajtjeve,
+    që të ripohoni se i keni ruajtur. Kodet tuaj të vjetër të mirëfilltësimit të kopjeruajtjeve do të çaktivizohen, kur të jetë plotësuar ky hap.
 
 ## Avatar change page
 
@@ -959,9 +962,6 @@ tfa-input-enter-totp-v2 =
 tfa-save-these-codes-1 =
     Ruajini këta kode njëpërdorimsh mirëfilltësimi kopjeruajtje në një vend të sigurt, për kur
     të mos keni pajisjen tuaj celulare.
-tfa-enter-code-to-confirm-v2 =
-    Ju lutemi, jepni një nga kodet tuaj të rinj të mirëfilltësimit të kopjeruajtjeve,
-    që të ripohoni se i keni ruajtur. Kodet tuaj të vjetër të mirëfilltësimit të kopjeruajtjeve do të çaktivizohen, kur të jetë plotësuar ky hap.
 tfa-enter-recovery-code-1 =
     .label = Jepni një kod mirëfilltësimi kopjeruajtje
 
@@ -1023,9 +1023,6 @@ tfa-row-backup-codes-title = Kode mirëfilltësimi kopjeruajtjeje
 # Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
 # Users that have not enabled or verified 2FA will not see this
 tfa-row-backup-codes-not-available = S’ka më kode
-# $numCodesRemaining - the number of backup authentication codes that have not yet been used (generally between 1 to 5)
-# A different message is shown when no codes are available
-tfa-row-backup-codes-available = Edhe { $numCodesAvailable } kode
 # Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
 tfa-row-backup-codes-get-new-cta = Merrni kode të rinj
 # Shown to users who have no backup authentication codes
@@ -1652,8 +1649,6 @@ signin-recovery-method-header = Hyni
 signin-recovery-method-subheader = Zgjidhni një metodë rikthimi
 signin-recovery-method-details = Le të sigurohemi se jeni ju ai që po përdorni metodat tuaja të rimarrjes.
 signin-recovery-method-phone = Telefon rimarrjeje
-# Variable: $numberOfCodes (String) - The number of authentication codes the user has left, e.g. 4
-signin-recovery-method-code-info = Edhe { $numberOfCodes } kode
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code

@@ -719,6 +719,7 @@ tfa-replace-code-success-1 =
 tfa-replace-code-success-alert-4 = A tartalék hitelesítési kódok frissítve
 tfa-replace-code-1-2 = 1. / 2. lépés
 tfa-replace-code-2-2 = 2. / 2. lépés
+tfa-enter-code-to-confirm-v2 = Adja meg az egyik új tartalék hitelesítési kódot, hogy megerősítse, hogy elmentette azokat. A lépés befejeztével a régi tartalék hitelesítési kódok letiltásra kerülnek.
 
 ## Avatar change page
 
@@ -970,7 +971,6 @@ tfa-input-enter-totp-v2 =
 tfa-save-these-codes-1 =
     Mentse ezeket az egyszer használatos tartalék hitelesítési kódokat biztonságos
     helyen, arra az esetre, ha nincs mobileszköze.
-tfa-enter-code-to-confirm-v2 = Adja meg az egyik új tartalék hitelesítési kódot, hogy megerősítse, hogy elmentette azokat. A lépés befejeztével a régi tartalék hitelesítési kódok letiltásra kerülnek.
 tfa-enter-recovery-code-1 =
     .label = Adjon meg egy tartalék hitelesítési kódot
 
@@ -1032,9 +1032,6 @@ tfa-row-backup-codes-title = Tartalék hitelesítési kódok
 # Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
 # Users that have not enabled or verified 2FA will not see this
 tfa-row-backup-codes-not-available = Nem érhetők el kódok
-# $numCodesRemaining - the number of backup authentication codes that have not yet been used (generally between 1 to 5)
-# A different message is shown when no codes are available
-tfa-row-backup-codes-available = { $numCodesAvailable } kód maradt
 # Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
 tfa-row-backup-codes-get-new-cta = Új kódok beszerzése
 # Shown to users who have no backup authentication codes
@@ -1670,8 +1667,6 @@ signin-recovery-method-subheader = Válasszon helyreállítási módot
 signin-recovery-method-details = A helyreállítási módok segítségével meggyőződünk arról, hogy Ön az.
 signin-recovery-method-phone = Helyreállítási telefonszám
 signin-recovery-method-code-v2 = Tartalék hitelesítési kódok
-# Variable: $numberOfCodes (String) - The number of authentication codes the user has left, e.g. 4
-signin-recovery-method-code-info = { $numberOfCodes } kód maradt
 # Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
 signin-recovery-method-send-code-error-heading = Hiba történt a kód helyreállítási telefonra küldésekor
 signin-recovery-method-send-code-error-description = Próbálja meg később, vagy használja a tartalék hitelesítési kódjait.

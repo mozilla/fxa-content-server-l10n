@@ -715,6 +715,9 @@ tfa-replace-code-success-1 =
 tfa-replace-code-success-alert-4 = Reserve-authenticatiecodes bijgewerkt
 tfa-replace-code-1-2 = Stap 1 van 2
 tfa-replace-code-2-2 = Stap 2 van 2
+tfa-enter-code-to-confirm-v2 =
+    Voer een van uw nieuwe reserve-authenticatiecodes in om te
+    bevestigen dat u ze hebt opgeslagen. Uw oude reserve-authenticatiecodes worden uitgeschakeld zodra deze stap is voltooid.
 
 ## Avatar change page
 
@@ -968,9 +971,6 @@ tfa-input-enter-totp-v2 =
 tfa-save-these-codes-1 =
     Bewaar deze reserve-authenticatiecodes voor eenmalig gebruik op een veilige plaats voor als
     u uw mobiele apparaat niet hebt.
-tfa-enter-code-to-confirm-v2 =
-    Voer een van uw nieuwe reserve-authenticatiecodes in om te
-    bevestigen dat u ze hebt opgeslagen. Uw oude reserve-authenticatiecodes worden uitgeschakeld zodra deze stap is voltooid.
 tfa-enter-recovery-code-1 =
     .label = Voer een reserve-authenticatiecode in
 
@@ -1032,9 +1032,6 @@ tfa-row-backup-codes-title = Reserve-authenticatiecodes
 # Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
 # Users that have not enabled or verified 2FA will not see this
 tfa-row-backup-codes-not-available = Geen codes beschikbaar
-# $numCodesRemaining - the number of backup authentication codes that have not yet been used (generally between 1 to 5)
-# A different message is shown when no codes are available
-tfa-row-backup-codes-available = { $numCodesAvailable } codes resterend
 # Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
 tfa-row-backup-codes-get-new-cta = Nieuwe codes verkrijgen
 # Shown to users who have no backup authentication codes
@@ -1669,8 +1666,6 @@ signin-recovery-method-subheader = Kies een herstelmethode
 signin-recovery-method-details = Laten we controleren dat u het bent die uw herstelmethoden gebruikt.
 signin-recovery-method-phone = Hersteltelefoonnummer
 signin-recovery-method-code-v2 = Reserve-authenticatiecodes
-# Variable: $numberOfCodes (String) - The number of authentication codes the user has left, e.g. 4
-signin-recovery-method-code-info = { $numberOfCodes } codes resterend
 # Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
 signin-recovery-method-send-code-error-heading = Er is een probleem opgetreden bij het verzenden van een code naar uw hersteltelefoonnummer
 signin-recovery-method-send-code-error-description = Probeer het later opnieuw of gebruik uw reserve-authenticatiecodes.

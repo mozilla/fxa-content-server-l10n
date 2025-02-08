@@ -678,6 +678,9 @@ tfa-replace-code-success-1 =
     за відсутності вашого мобільного пристрою.
 tfa-replace-code-1-2 = Крок 1 з 2
 tfa-replace-code-2-2 = Крок 2 з 2
+tfa-enter-code-to-confirm-v2 =
+    Введіть один із ваших резервних кодів автентифікації,
+    щоб упевнитися, що ви їх зберегли. Після завершення цього кроку ваші старі резервні коди автентифікації буде вимкнено.
 
 ## Avatar change page
 
@@ -917,9 +920,6 @@ tfa-input-enter-totp-v2 =
 tfa-save-these-codes-1 =
     Збережіть ці одноразові резервні коди автентифікації у безпечному місці
     на випадок відсутності мобільного пристрою.
-tfa-enter-code-to-confirm-v2 =
-    Введіть один із ваших резервних кодів автентифікації,
-    щоб упевнитися, що ви їх зберегли. Після завершення цього кроку ваші старі резервні коди автентифікації буде вимкнено.
 tfa-enter-recovery-code-1 =
     .label = Введіть резервний код автентифікації
 
@@ -981,9 +981,6 @@ tfa-row-backup-codes-title = Резервні коди автентифікац�
 # Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
 # Users that have not enabled or verified 2FA will not see this
 tfa-row-backup-codes-not-available = Немає доступних кодів
-# $numCodesRemaining - the number of backup authentication codes that have not yet been used (generally between 1 to 5)
-# A different message is shown when no codes are available
-tfa-row-backup-codes-available = Залишилося { $numCodesAvailable } кодів
 # Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
 tfa-row-backup-codes-get-new-cta = Отримати нові коди
 # Shown to users who have no backup authentication codes

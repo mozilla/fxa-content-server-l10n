@@ -937,9 +937,6 @@ tfa-row-backup-codes-title = ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕ�
 # Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
 # Users that have not enabled or verified 2FA will not see this
 tfa-row-backup-codes-not-available = ਕੋਈ ਕੋਡ ਉਪਲੱਬਧ ਨਹੀਂ
-# $numCodesRemaining - the number of backup authentication codes that have not yet been used (generally between 1 to 5)
-# A different message is shown when no codes are available
-tfa-row-backup-codes-available = { $numCodesAvailable } ਕੋਡ ਬਾਕੀ ਹਨ
 # Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
 tfa-row-backup-codes-get-new-cta = ਨਵੇਂ ਕੋਡ ਲਵੋ
 # Shown to users who have no backup authentication codes
@@ -1519,8 +1516,6 @@ signin-push-code-confirm-link-error = ਲਿੰਕ ਨੁਕਾਸਿਆ ਗਿ�
 signin-recovery-method-header = ਸਾਈਨ ਇਨ
 signin-recovery-method-subheader = ਰਿਕਵਰੀ ਢੰਗ ਚੁਣੋ
 signin-recovery-method-phone = ਰਿਕਵਰੀ ਫ਼ੋਨ
-# Variable: $numberOfCodes (String) - The number of authentication codes the user has left, e.g. 4
-signin-recovery-method-code-info = { $numberOfCodes } ਕੋਡ ਬਾਕੀ ਹਨ
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code

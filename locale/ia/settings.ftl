@@ -714,6 +714,9 @@ tfa-replace-code-success-1 = Nove codices ha essite create. Salva iste codices d
 tfa-replace-code-success-alert-4 = Codice de authentication de reserva actualisate
 tfa-replace-code-1-2 = Passo 1de 2
 tfa-replace-code-2-2 = Passo 2 de 2
+tfa-enter-code-to-confirm-v2 =
+    Insere un del nove codices de authentication de reserva pro
+    confirmar que tu los salvava. Tu vetere codices de authentication de reserva sera disactivate al fin de iste message.
 
 ## Avatar change page
 
@@ -967,9 +970,6 @@ tfa-input-enter-totp-v2 =
 tfa-save-these-codes-1 =
     Salva iste codices de authentication de reserva provisori in un loco secur pro quando
     tu non ha tu apparato mobile.
-tfa-enter-code-to-confirm-v2 =
-    Insere un del nove codices de authentication de reserva pro
-    confirmar que tu los salvava. Tu vetere codices de authentication de reserva sera disactivate al fin de iste message.
 tfa-enter-recovery-code-1 =
     .label = Insere un codice de authentication de reserva
 
@@ -1031,9 +1031,6 @@ tfa-row-backup-codes-title = Codices de authentication de reserva
 # Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
 # Users that have not enabled or verified 2FA will not see this
 tfa-row-backup-codes-not-available = Nulle codice disponibile
-# $numCodesRemaining - the number of backup authentication codes that have not yet been used (generally between 1 to 5)
-# A different message is shown when no codes are available
-tfa-row-backup-codes-available = { $numCodesAvailable } codices restante
 # Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
 tfa-row-backup-codes-get-new-cta = Obtener nove codices
 # Shown to users who have no backup authentication codes
@@ -1667,8 +1664,6 @@ signin-recovery-method-subheader = Selige un methodo de recuperation
 signin-recovery-method-details = Que nos verifica que il es tu que usa tu methodos de recuperation.
 signin-recovery-method-phone = Telephono de recuperation
 signin-recovery-method-code-v2 = Codices de authentication de reserva
-# Variable: $numberOfCodes (String) - The number of authentication codes the user has left, e.g. 4
-signin-recovery-method-code-info = { $numberOfCodes } codices remanente
 # Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
 signin-recovery-method-send-code-error-heading = Il habeva un problema inviante un codices a tu telephono de recuperation
 signin-recovery-method-send-code-error-description = Retenta plus tarde o usa tu codices de authentication de reserva.

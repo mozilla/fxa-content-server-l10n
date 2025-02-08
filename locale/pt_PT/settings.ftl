@@ -710,6 +710,7 @@ tfa-replace-code-success-1 = Foram criados novos códigos. Guarde estes códigos
 tfa-replace-code-success-alert-4 = Códigos de autenticação de recuperação atualizados
 tfa-replace-code-1-2 = Passo 1 de 2
 tfa-replace-code-2-2 = Passo 2 de 2
+tfa-enter-code-to-confirm-v2 = Por favor, insira um dos seus novos códigos de autenticação de recuperação para confirmar que os guardou. Os seus códigos de autenticação de recuperação antigos serão desativados assim que esta etapa for concluída.
 
 ## Avatar change page
 
@@ -961,7 +962,6 @@ tfa-input-enter-totp-v2 =
 tfa-save-these-codes-1 =
     Guarde estes códigos de autenticação de recuperação de utilização única num local seguro, 
     para quando não tiver o seu dispositivo móvel.
-tfa-enter-code-to-confirm-v2 = Por favor, insira um dos seus novos códigos de autenticação de recuperação para confirmar que os guardou. Os seus códigos de autenticação de recuperação antigos serão desativados assim que esta etapa for concluída.
 tfa-enter-recovery-code-1 =
     .label = Insira um código de autenticação de recuperação
 
@@ -1023,9 +1023,6 @@ tfa-row-backup-codes-title = Códigos de autenticação de recuperação
 # Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
 # Users that have not enabled or verified 2FA will not see this
 tfa-row-backup-codes-not-available = Não existem códigos disponíveis
-# $numCodesRemaining - the number of backup authentication codes that have not yet been used (generally between 1 to 5)
-# A different message is shown when no codes are available
-tfa-row-backup-codes-available = { $numCodesAvailable } códigos remanescentes
 # Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
 tfa-row-backup-codes-get-new-cta = Obter novos códigos
 # Shown to users who have no backup authentication codes
@@ -1658,8 +1655,6 @@ signin-recovery-method-subheader = Escolha um método de recuperação
 signin-recovery-method-details = Vamos ter a certeza de que é você a utilizar os seus métodos de recuperação.
 signin-recovery-method-phone = Telefone de recuperação
 signin-recovery-method-code-v2 = Códigos de autenticação de recuperação
-# Variable: $numberOfCodes (String) - The number of authentication codes the user has left, e.g. 4
-signin-recovery-method-code-info = { $numberOfCodes } códigos remanescentes
 # Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
 signin-recovery-method-send-code-error-heading = Ocorreu um problema ao enviar um código para o seu telefone de recuperação
 signin-recovery-method-send-code-error-description = Por favor, tente mais tarde ou utilize os seus códigos de autenticação de recuperação.

@@ -978,9 +978,6 @@ signout-sync-session-expired = Pahoittelut, jotain meni pieleen. Kirjaudu ulos s
 # Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
 # Users that have not enabled or verified 2FA will not see this
 tfa-row-backup-codes-not-available = Koodeja ei ole saatavilla
-# $numCodesRemaining - the number of backup authentication codes that have not yet been used (generally between 1 to 5)
-# A different message is shown when no codes are available
-tfa-row-backup-codes-available = { $numCodesAvailable } koodia jäljellä
 # Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
 tfa-row-backup-codes-get-new-cta = Hanki uudet koodit
 # Shown to users who have no backup authentication codes
@@ -1560,8 +1557,6 @@ signin-push-code-confirm-link-error = Linkki on vaurioitunut. Yritä uudelleen.
 
 signin-recovery-method-header = Kirjaudu sisään
 signin-recovery-method-subheader = Valitse palautustapa
-# Variable: $numberOfCodes (String) - The number of authentication codes the user has left, e.g. 4
-signin-recovery-method-code-info = { $numberOfCodes } koodia jäljellä
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code

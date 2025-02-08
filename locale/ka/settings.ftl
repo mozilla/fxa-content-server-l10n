@@ -683,6 +683,9 @@ tfa-replace-code-success-1 =
     მობილური მოწყობილობის არქონისას.
 tfa-replace-code-1-2 = 1-ელი ნაბიჯი 2-იდან
 tfa-replace-code-2-2 = მე-2 ნაბიჯი 2-იდან
+tfa-enter-code-to-confirm-v2 =
+    გთხოვთ, შეიყვანოთ თქვენი ერთ-ერთი ახალი სამარქაფო კოდი და
+    დაადასტუროთ, რომ მართლაც შენახული გაქვთ. თქვენი წინა სამარქაფო კოდები გაუქმდება ამ ნაბიჯის დასრულებისთანავე.
 
 ## Avatar change page
 
@@ -922,9 +925,6 @@ tfa-input-enter-totp-v2 =
 tfa-save-these-codes-1 =
     გადაინახეთ შესვლის ეს ერთჯერადი სამარქაფო კოდები უსაფრთხო ადგილას იმ შემთხვევებისთვის
     როცა თან არ გექნებათ მობილური მოწყობილობა.
-tfa-enter-code-to-confirm-v2 =
-    გთხოვთ, შეიყვანოთ თქვენი ერთ-ერთი ახალი სამარქაფო კოდი და
-    დაადასტუროთ, რომ მართლაც შენახული გაქვთ. თქვენი წინა სამარქაფო კოდები გაუქმდება ამ ნაბიჯის დასრულებისთანავე.
 tfa-enter-recovery-code-1 =
     .label = შეიყვანეთ შესვლის სამარქაფო კოდი
 
@@ -986,9 +986,6 @@ tfa-row-backup-codes-title = შესვლის სამარქაფო �
 # Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
 # Users that have not enabled or verified 2FA will not see this
 tfa-row-backup-codes-not-available = კოდები არაა ხელმისაწვდომი
-# $numCodesRemaining - the number of backup authentication codes that have not yet been used (generally between 1 to 5)
-# A different message is shown when no codes are available
-tfa-row-backup-codes-available = { $numCodesAvailable } კოდია დარჩენილი
 # Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
 tfa-row-backup-codes-get-new-cta = ახალი კოდების მიღება
 # Shown to users who have no backup authentication codes

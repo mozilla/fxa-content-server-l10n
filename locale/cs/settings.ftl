@@ -717,6 +717,9 @@ tfa-replace-code-success-1 =
 tfa-replace-code-success-alert-4 = Záložní ověřovací kódy byly aktualizovány
 tfa-replace-code-1-2 = Krok 1 ze 2
 tfa-replace-code-2-2 = Krok 2 ze 2
+tfa-enter-code-to-confirm-v2 =
+    Zadejte prosím jeden ze svých nových záložních ověřovacích kódů pro
+    potvrzení jejich uložení. Vaše staré záložní ověřovací kódy budou po dokončení tohoto kroku deaktivovány.
 
 ## Avatar change page
 
@@ -966,9 +969,6 @@ tfa-enter-totp-v2 = Nyní zadejte ověřovací kód z ověřovací aplikace.
 tfa-input-enter-totp-v2 =
     .label = Zadejte ověřovací kód
 tfa-save-these-codes-1 = Tyto jednorázové záložní ověřovací kódy si uložte na bezpečném místě, kam se dostanete i bez svého mobilního zařízení.
-tfa-enter-code-to-confirm-v2 =
-    Zadejte prosím jeden ze svých nových záložních ověřovacích kódů pro
-    potvrzení jejich uložení. Vaše staré záložní ověřovací kódy budou po dokončení tohoto kroku deaktivovány.
 tfa-enter-recovery-code-1 =
     .label = Vložte záložní ověřovací kód
 
@@ -1030,9 +1030,6 @@ tfa-row-backup-codes-title = Záložní ověřovací kódy
 # Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
 # Users that have not enabled or verified 2FA will not see this
 tfa-row-backup-codes-not-available = Žádné kódy nejsou k dispozici
-# $numCodesRemaining - the number of backup authentication codes that have not yet been used (generally between 1 to 5)
-# A different message is shown when no codes are available
-tfa-row-backup-codes-available = Zbývající kódy: { $numCodesAvailable }
 # Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
 tfa-row-backup-codes-get-new-cta = Získejte nové kódy
 # Shown to users who have no backup authentication codes
@@ -1659,8 +1656,6 @@ signin-recovery-method-subheader = Vyberte způsob obnovení
 signin-recovery-method-details = Pojďme se ujistit, že jste to vy pomocí vašich metod obnovení.
 signin-recovery-method-phone = Telefon pro obnovení
 signin-recovery-method-code-v2 = Záložní ověřovací kódy
-# Variable: $numberOfCodes (String) - The number of authentication codes the user has left, e.g. 4
-signin-recovery-method-code-info = Zbývajících počet kódů: { $numberOfCodes }
 # Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
 signin-recovery-method-send-code-error-heading = Nepodařilo se odeslat kód na vaše telefonní číslo
 signin-recovery-method-send-code-error-description = Zkuste to prosím znovu později nebo použijte záložní ověřovací kódy.

@@ -713,6 +713,7 @@ tfa-replace-code-success-1 =
 tfa-replace-code-success-alert-4 = Codau dilysu wrth gefn wedi'u diweddaru
 tfa-replace-code-1-2 = Cam 1 o 2
 tfa-replace-code-2-2 = Cam 2 o 2
+tfa-enter-code-to-confirm-v2 = Rhowch un o'ch codau dilysu wrth gefn newydd i gadarnhau eich bod wedi eu cadw. Bydd eich hen godau dilysu wrth gefn yn cael eu hanalluogi unwaith y bydd y cam hwn wedi'i gwblhau.
 
 ## Avatar change page
 
@@ -966,7 +967,6 @@ tfa-input-enter-totp-v2 =
 tfa-save-these-codes-1 =
     Cadwch y codau defnydd unwaith hyn mewn man diogel pan nad yw eich dyfais
     symudol gennych.
-tfa-enter-code-to-confirm-v2 = Rhowch un o'ch codau dilysu wrth gefn newydd i gadarnhau eich bod wedi eu cadw. Bydd eich hen godau dilysu wrth gefn yn cael eu hanalluogi unwaith y bydd y cam hwn wedi'i gwblhau.
 tfa-enter-recovery-code-1 =
     .label = Rhowch god dilysu wrth gefn
 
@@ -1028,9 +1028,6 @@ tfa-row-backup-codes-title = Codau dilysu wrth gefn
 # Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
 # Users that have not enabled or verified 2FA will not see this
 tfa-row-backup-codes-not-available = Dim codau ar gael
-# $numCodesRemaining - the number of backup authentication codes that have not yet been used (generally between 1 to 5)
-# A different message is shown when no codes are available
-tfa-row-backup-codes-available = { $numCodesAvailable } cod yn weddill
 # Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
 tfa-row-backup-codes-get-new-cta = Cael codau newydd
 # Shown to users who have no backup authentication codes
@@ -1659,8 +1656,6 @@ signin-recovery-method-subheader = Dewiswch ddull adfer
 signin-recovery-method-details = Gadewch i ni sicrhau mai chi sy'n defnyddio'ch dulliau adfer.
 signin-recovery-method-phone = Ffôn adfer
 signin-recovery-method-code-v2 = Codau dilysu wrth gefn
-# Variable: $numberOfCodes (String) - The number of authentication codes the user has left, e.g. 4
-signin-recovery-method-code-info = { $numberOfCodes } cod yn weddill
 # Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
 signin-recovery-method-send-code-error-heading = Bu problem wrth anfon cod i'ch ffôn adfer
 signin-recovery-method-send-code-error-description = Ceisiwch eto yn nes ymlaen neu defnyddiwch eich codau dilysu wrth gefn.

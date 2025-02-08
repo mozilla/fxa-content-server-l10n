@@ -717,6 +717,10 @@ tfa-replace-code-success-1 =
 tfa-replace-code-success-alert-4 = Οι εφεδρικοί κωδικοί ταυτοποίησης ενημερώθηκαν
 tfa-replace-code-1-2 = Βήμα 1 από 2
 tfa-replace-code-2-2 = Βήμα 2 από 2
+tfa-enter-code-to-confirm-v2 =
+    Εισαγάγετε έναν από τους νέους σας εφεδρικούς κωδικούς ταυτοποίησης για να
+    επιβεβαιώσετε ότι τους έχετε αποθηκεύσει. Οι παλιοί σας εφεδρικοί κωδικοί ταυτοποίησης
+    θα απενεργοποιηθούν μόλις ολοκληρωθεί αυτό το βήμα.
 
 ## Avatar change page
 
@@ -970,10 +974,6 @@ tfa-input-enter-totp-v2 =
 tfa-save-these-codes-1 =
     Αποθηκεύστε αυτούς τους εφεδρικούς κωδικούς ταυτοποίησης μιας χρήσης σε ένα ασφαλές μέρος,
     σε περίπτωση που δεν έχετε πρόσβαση στην κινητή συσκευή σας.
-tfa-enter-code-to-confirm-v2 =
-    Εισαγάγετε έναν από τους νέους σας εφεδρικούς κωδικούς ταυτοποίησης για να
-    επιβεβαιώσετε ότι τους έχετε αποθηκεύσει. Οι παλιοί σας εφεδρικοί κωδικοί ταυτοποίησης
-    θα απενεργοποιηθούν μόλις ολοκληρωθεί αυτό το βήμα.
 tfa-enter-recovery-code-1 =
     .label = Εισαγάγετε έναν εφεδρικό κωδικό ταυτοποίησης
 
@@ -1035,9 +1035,6 @@ tfa-row-backup-codes-title = Εφεδρικοί κωδικοί ταυτοποί�
 # Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
 # Users that have not enabled or verified 2FA will not see this
 tfa-row-backup-codes-not-available = Δεν υπάρχουν διαθέσιμοι κωδικοί
-# $numCodesRemaining - the number of backup authentication codes that have not yet been used (generally between 1 to 5)
-# A different message is shown when no codes are available
-tfa-row-backup-codes-available = Απομένουν { $numCodesAvailable } κωδικοί
 # Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
 tfa-row-backup-codes-get-new-cta = Λήψη νέων κωδικών
 # Shown to users who have no backup authentication codes
@@ -1675,8 +1672,6 @@ signin-recovery-method-subheader = Επιλέξτε μια μέθοδο ανάκ
 signin-recovery-method-details = Ας βεβαιωθούμε ότι είστε εσείς που χρησιμοποιείτε τις μεθόδους ανάκτησής σας.
 signin-recovery-method-phone = Τηλέφωνο ανάκτησης
 signin-recovery-method-code-v2 = Εφεδρικοί κωδικοί ταυτοποίησης
-# Variable: $numberOfCodes (String) - The number of authentication codes the user has left, e.g. 4
-signin-recovery-method-code-info = Απομένουν { $numberOfCodes } κωδικοί
 # Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
 signin-recovery-method-send-code-error-heading = Προέκυψε πρόβλημα κατά την αποστολή κωδικού στο τηλέφωνο ανάκτησής σας
 signin-recovery-method-send-code-error-description = Δοκιμάστε ξανά αργότερα ή χρησιμοποιήστε τους εφεδρικούς κωδικούς ταυτοποίησής σας.

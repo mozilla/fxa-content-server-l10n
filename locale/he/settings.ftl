@@ -976,9 +976,6 @@ signout-sync-session-expired = משהו השתמש, עמך הסליחה. נא ל
 # Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
 # Users that have not enabled or verified 2FA will not see this
 tfa-row-backup-codes-not-available = אין קודים זמינים
-# $numCodesRemaining - the number of backup authentication codes that have not yet been used (generally between 1 to 5)
-# A different message is shown when no codes are available
-tfa-row-backup-codes-available = נשארו { $numCodesAvailable } קודים
 # Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
 tfa-row-backup-codes-get-new-cta = קבלת קודים חדשים
 # Shown to users who have no backup authentication codes
@@ -1576,8 +1573,6 @@ signin-recovery-method-header = כניסה
 signin-recovery-method-subheader = בחירת אמצעי לשחזור
 signin-recovery-method-details = בואו נוודא שזה אתה המשתמש בשיטות השחזור שלך.
 signin-recovery-method-phone = טלפון לשחזור
-# Variable: $numberOfCodes (String) - The number of authentication codes the user has left, e.g. 4
-signin-recovery-method-code-info = נותרו { $numberOfCodes } קודים
 # Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
 signin-recovery-method-send-code-error-heading = הייתה בעיה בשליחת קוד לטלפון השחזור שלך
 

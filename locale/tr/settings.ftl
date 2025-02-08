@@ -712,6 +712,9 @@ tfa-replace-code-success-1 = Yeni kodlar oluşturuldu. Bu tek kullanımlık yede
 tfa-replace-code-success-alert-4 = Yedek kimlik doğrulama kodları güncellendi
 tfa-replace-code-1-2 = Adım 1/2
 tfa-replace-code-2-2 = Adım 2/2
+tfa-enter-code-to-confirm-v2 =
+    Yeni yedek kimlik doğrulama kodlarınızı kaydettiğinizi onaylamak için lütfen kodlardan birini girin.
+    Bu adımı tamamladığınızda eski yedek kimlik doğrulama kodlarınız devre dışı bırakılacaktır.
 
 ## Avatar change page
 
@@ -959,9 +962,6 @@ tfa-enter-totp-v2 = Şimdi kimlik doğrulama uygulamasının verdiği kimlik do�
 tfa-input-enter-totp-v2 =
     .label = Kimlik doğrulama kodunu yazın
 tfa-save-these-codes-1 = Mobil cihazınız olmadığında kullanabileceğiniz bu tek kullanımlık yedek kimlik doğrulama kodlarını güvenli bir yerde saklayın.
-tfa-enter-code-to-confirm-v2 =
-    Yeni yedek kimlik doğrulama kodlarınızı kaydettiğinizi onaylamak için lütfen kodlardan birini girin.
-    Bu adımı tamamladığınızda eski yedek kimlik doğrulama kodlarınız devre dışı bırakılacaktır.
 tfa-enter-recovery-code-1 =
     .label = Bir yedek kimlik doğrulama kodunu girin
 
@@ -1023,9 +1023,6 @@ tfa-row-backup-codes-title = Yedek kimlik doğrulama kodları
 # Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
 # Users that have not enabled or verified 2FA will not see this
 tfa-row-backup-codes-not-available = Hiç kod kalmamış
-# $numCodesRemaining - the number of backup authentication codes that have not yet been used (generally between 1 to 5)
-# A different message is shown when no codes are available
-tfa-row-backup-codes-available = { $numCodesAvailable } kod kaldı
 # Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
 tfa-row-backup-codes-get-new-cta = Yeni kod alın
 # Shown to users who have no backup authentication codes
@@ -1650,8 +1647,6 @@ signin-recovery-method-subheader = Bir kurtarma yöntemi seçin
 signin-recovery-method-details = Kurtarma yöntemlerinizi kullanan kişinin siz olduğunuzdan emin olmamız gerekiyor.
 signin-recovery-method-phone = Kurtarma telefonu
 signin-recovery-method-code-v2 = Yedek kimlik doğrulama kodları
-# Variable: $numberOfCodes (String) - The number of authentication codes the user has left, e.g. 4
-signin-recovery-method-code-info = { $numberOfCodes } kod kaldı
 # Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
 signin-recovery-method-send-code-error-heading = Kurtarma telefonunuza kod gönderilirken bir sorun oluştu
 signin-recovery-method-send-code-error-description = Lütfen daha sonra yeniden deneyin veya yedek kimlik doğrulama kodlarınızı kullanın.

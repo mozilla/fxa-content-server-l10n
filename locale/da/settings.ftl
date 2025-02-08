@@ -712,6 +712,9 @@ tfa-replace-code-success-1 =
     et sikkert sted. Du skal bruge dem, hvis mister adgangen til din mobile enhed.
 tfa-replace-code-1-2 = Trin 1 af 2
 tfa-replace-code-2-2 = Trin 2 af 2
+tfa-enter-code-to-confirm-v2 =
+    Indtast en af dine nye reserve-godkendelseskoder for at
+    bekræfte, at du har gemt dem. Dine gamle reserve-godkendelseskoder bliver deaktiveret, når dette trin er fuldført.
 
 ## Avatar change page
 
@@ -963,9 +966,6 @@ tfa-input-enter-totp-v2 =
 tfa-save-these-codes-1 =
     Gem disse engangs-reserve-godkendelseskoder et sikkert sted,
     til hvis du mister adgangen til din mobile enhed.
-tfa-enter-code-to-confirm-v2 =
-    Indtast en af dine nye reserve-godkendelseskoder for at
-    bekræfte, at du har gemt dem. Dine gamle reserve-godkendelseskoder bliver deaktiveret, når dette trin er fuldført.
 tfa-enter-recovery-code-1 =
     .label = Indtast en reserve-godkendelseskode
 
@@ -1027,9 +1027,6 @@ tfa-row-backup-codes-title = Reserve-godkendelseskoder
 # Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
 # Users that have not enabled or verified 2FA will not see this
 tfa-row-backup-codes-not-available = Ingen koder tilgængelige
-# $numCodesRemaining - the number of backup authentication codes that have not yet been used (generally between 1 to 5)
-# A different message is shown when no codes are available
-tfa-row-backup-codes-available = { $numCodesAvailable } koder tilbage
 # Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
 tfa-row-backup-codes-get-new-cta = Få nye koder
 # Shown to users who have no backup authentication codes
@@ -1654,8 +1651,6 @@ signin-recovery-method-header = Log ind
 signin-recovery-method-subheader = Vælg en gendannelsesmetode
 signin-recovery-method-details = Lad os sikre os, at det er dig, der bruger dine gendannelsesmetoder.
 signin-recovery-method-phone = Telefonnummer til gendannelse
-# Variable: $numberOfCodes (String) - The number of authentication codes the user has left, e.g. 4
-signin-recovery-method-code-info = { $numberOfCodes } koder tilbage
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code

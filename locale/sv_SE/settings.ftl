@@ -715,6 +715,9 @@ tfa-replace-code-success-1 =
 tfa-replace-code-success-alert-4 = Reservautentiseringskoder uppdaterade
 tfa-replace-code-1-2 = Steg 1 av 2
 tfa-replace-code-2-2 = Steg 2 av 2
+tfa-enter-code-to-confirm-v2 =
+    Ange en av dina nya reservautentiseringskoder för att
+    bekräfta att du har sparat dem. Dina gamla reservautentiseringskoder kommer att inaktiveras när detta steg är slutfört.
 
 ## Avatar change page
 
@@ -968,9 +971,6 @@ tfa-input-enter-totp-v2 =
 tfa-save-these-codes-1 =
     Spara dessa reservautentiseringskoder för engångsbruk på en säker plats
     när du inte har din mobila enhet.
-tfa-enter-code-to-confirm-v2 =
-    Ange en av dina nya reservautentiseringskoder för att
-    bekräfta att du har sparat dem. Dina gamla reservautentiseringskoder kommer att inaktiveras när detta steg är slutfört.
 tfa-enter-recovery-code-1 =
     .label = Ange en reservautentiseringskod
 
@@ -1032,9 +1032,6 @@ tfa-row-backup-codes-title = Säkerhetskopiera autentiseringskoder
 # Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
 # Users that have not enabled or verified 2FA will not see this
 tfa-row-backup-codes-not-available = Inga koder tillgängliga
-# $numCodesRemaining - the number of backup authentication codes that have not yet been used (generally between 1 to 5)
-# A different message is shown when no codes are available
-tfa-row-backup-codes-available = { $numCodesAvailable } koder återstår
 # Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
 tfa-row-backup-codes-get-new-cta = Hämta nya koder
 # Shown to users who have no backup authentication codes
@@ -1674,8 +1671,6 @@ signin-recovery-method-subheader = Välj en återställningsmetod
 signin-recovery-method-details = Låt oss se till att det är du som använder dina återställningsmetoder.
 signin-recovery-method-phone = Telefon för återställning
 signin-recovery-method-code-v2 = Säkerhetskopiera autentiseringskoder
-# Variable: $numberOfCodes (String) - The number of authentication codes the user has left, e.g. 4
-signin-recovery-method-code-info = { $numberOfCodes } koder återstår
 # Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
 signin-recovery-method-send-code-error-heading = Det gick inte att skicka en kod till ditt återställningstelefon
 signin-recovery-method-send-code-error-description = Försök igen senare eller använd dina reservautentiseringskoder.

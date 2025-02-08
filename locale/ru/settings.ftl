@@ -713,6 +713,9 @@ tfa-replace-code-success-1 =
 tfa-replace-code-success-alert-4 = Резервные коды аутентификации обновлены
 tfa-replace-code-1-2 = Шаг 1 из 2
 tfa-replace-code-2-2 = Шаг 2 из 2
+tfa-enter-code-to-confirm-v2 =
+    Пожалуйста, введите один из ваших новых резервных кодов аутентификации, чтобы
+    подтвердить, что вы сохранили их. Ваши старые резервные коды аутентификации будут отключены после завершения этого шага.
 
 ## Avatar change page
 
@@ -966,9 +969,6 @@ tfa-input-enter-totp-v2 =
 tfa-save-these-codes-1 =
     Храните эти одноразовые резервные коды аутентификации в безопасном месте, на случай, если
     у вас не будет доступа к мобильному устройству.
-tfa-enter-code-to-confirm-v2 =
-    Пожалуйста, введите один из ваших новых резервных кодов аутентификации, чтобы
-    подтвердить, что вы сохранили их. Ваши старые резервные коды аутентификации будут отключены после завершения этого шага.
 tfa-enter-recovery-code-1 =
     .label = Введите резервный код аутентификации
 
@@ -1030,9 +1030,6 @@ tfa-row-backup-codes-title = Резервные коды аутентифика�
 # Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
 # Users that have not enabled or verified 2FA will not see this
 tfa-row-backup-codes-not-available = Нет доступных кодов
-# $numCodesRemaining - the number of backup authentication codes that have not yet been used (generally between 1 to 5)
-# A different message is shown when no codes are available
-tfa-row-backup-codes-available = Осталось { $numCodesAvailable } кодов
 # Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
 tfa-row-backup-codes-get-new-cta = Получить новые коды
 # Shown to users who have no backup authentication codes
@@ -1666,8 +1663,6 @@ signin-recovery-method-subheader = Выберите метод восстано�
 signin-recovery-method-details = Давайте удостоверимся, что это вы используете ваши методы восстановления.
 signin-recovery-method-phone = Телефон для восстановления
 signin-recovery-method-code-v2 = Резервные коды аутентификации
-# Variable: $numberOfCodes (String) - The number of authentication codes the user has left, e.g. 4
-signin-recovery-method-code-info = Осталось { $numberOfCodes } кодов
 # Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
 signin-recovery-method-send-code-error-heading = При отправке кода на ваш телефон восстановления возникла проблема
 signin-recovery-method-send-code-error-description = Пожалуйста, попробуйте ещё раз позже или используйте ваши резервные коды аутентификации.

@@ -978,9 +978,6 @@ tfa-row-backup-codes-title = Ayvu ñemoneĩrã jeykekoha
 # Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
 # Users that have not enabled or verified 2FA will not see this
 tfa-row-backup-codes-not-available = Ndaipóri mba’eñemi porupyrã
-# $numCodesRemaining - the number of backup authentication codes that have not yet been used (generally between 1 to 5)
-# A different message is shown when no codes are available
-tfa-row-backup-codes-available = { $numCodesAvailable } mba’eñemi hembýva
 # Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
 tfa-row-backup-codes-get-new-cta = Ereko mba’eñemi pyahu
 # Shown to users who have no backup authentication codes

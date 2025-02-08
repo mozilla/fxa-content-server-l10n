@@ -708,6 +708,7 @@ tfa-replace-code-success-1 = 已產生新的救援碼，請將這些單次使用
 tfa-replace-code-success-alert-4 = 已更新備用驗證碼
 tfa-replace-code-1-2 = 第 1 步，共 2 步
 tfa-replace-code-2-2 = 第 2 步，共 2 步
+tfa-enter-code-to-confirm-v2 = 請輸入您的任一組備用驗證碼，以確認您已安全地儲存它們。完成本階段之後，將停用您舊的備用驗證碼。
 
 ## Avatar change page
 
@@ -955,7 +956,6 @@ tfa-enter-totp-v2 = 現在請輸入驗證應用程式當中的驗證碼。
 tfa-input-enter-totp-v2 =
     .label = 輸入驗證碼
 tfa-save-these-codes-1 = 請將這些單次使用的備用驗證碼儲存在安全的地方，以備行動裝置不在手邊時使用。
-tfa-enter-code-to-confirm-v2 = 請輸入您的任一組備用驗證碼，以確認您已安全地儲存它們。完成本階段之後，將停用您舊的備用驗證碼。
 tfa-enter-recovery-code-1 =
     .label = 請輸入備用驗證碼
 
@@ -1017,9 +1017,6 @@ tfa-row-backup-codes-title = 備用驗證碼
 # Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
 # Users that have not enabled or verified 2FA will not see this
 tfa-row-backup-codes-not-available = 無備用驗證碼可用
-# $numCodesRemaining - the number of backup authentication codes that have not yet been used (generally between 1 to 5)
-# A different message is shown when no codes are available
-tfa-row-backup-codes-available = 剩餘 { $numCodesAvailable } 組備用驗證碼
 # Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
 tfa-row-backup-codes-get-new-cta = 產生新備用驗證碼
 # Shown to users who have no backup authentication codes
@@ -1642,8 +1639,6 @@ signin-recovery-method-subheader = 選擇救援方式
 signin-recovery-method-details = 請使用您原先設定的救援方式確認身分。
 signin-recovery-method-phone = 救援電話號碼
 signin-recovery-method-code-v2 = 備用驗證碼
-# Variable: $numberOfCodes (String) - The number of authentication codes the user has left, e.g. 4
-signin-recovery-method-code-info = 剩餘 { $numberOfCodes } 組驗證碼
 # Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
 signin-recovery-method-send-code-error-heading = 傳送代碼到您的救援電話號碼時遇到問題
 signin-recovery-method-send-code-error-description = 請稍後再試，或使用您的備用驗證碼。

@@ -719,6 +719,9 @@ tfa-replace-code-success-1 =
 tfa-replace-code-success-alert-4 = Actualisà ils codes d’autentificaziun da backup
 tfa-replace-code-1-2 = Pass 1 da 2
 tfa-replace-code-2-2 = Pass 2 da 2
+tfa-enter-code-to-confirm-v2 =
+    Endatescha per plaschair in da tes novs codes d’autentificaziun da backup per
+    confermar che ti als has memorisà. Tes codes d’autentificaziun da backup vegls vegnan deactivads uschespert che quest pass è fatg.
 
 ## Avatar change page
 
@@ -972,9 +975,6 @@ tfa-input-enter-totp-v2 =
 tfa-save-these-codes-1 =
     Memorisescha quests codes d'autentificaziun da backup a diever unic en in lieu segir
     en cas che ti n'has ina giada betg access a tes apparat mobil.
-tfa-enter-code-to-confirm-v2 =
-    Endatescha per plaschair in da tes novs codes d’autentificaziun da backup per
-    confermar che ti als has memorisà. Tes codes d’autentificaziun da backup vegls vegnan deactivads uschespert che quest pass è fatg.
 tfa-enter-recovery-code-1 =
     .label = Endatescha in code d'autentificaziun da backup
 
@@ -1036,9 +1036,6 @@ tfa-row-backup-codes-title = Codes d’autentificaziun da backup
 # Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
 # Users that have not enabled or verified 2FA will not see this
 tfa-row-backup-codes-not-available = Nagins codes disponibels
-# $numCodesRemaining - the number of backup authentication codes that have not yet been used (generally between 1 to 5)
-# A different message is shown when no codes are available
-tfa-row-backup-codes-available = { $numCodesAvailable } codes restants
 # Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
 tfa-row-backup-codes-get-new-cta = Retschaiver novs codes
 # Shown to users who have no backup authentication codes
@@ -1676,8 +1673,6 @@ signin-recovery-method-subheader = Tscherna ina metoda da recuperaziun
 signin-recovery-method-details = Nus verifitgain che ti es la persuna che fa diever da tia metoda da verificaziun.
 signin-recovery-method-phone = Numer da telefon da recuperaziun
 signin-recovery-method-code-v2 = Codes d’autentificaziun da backup
-# Variable: $numberOfCodes (String) - The number of authentication codes the user has left, e.g. 4
-signin-recovery-method-code-info = Anc { $numberOfCodes } codes danvanz
 # Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
 signin-recovery-method-send-code-error-heading = Igl ha dà in problem cun trametter in code a tes numer da telefon da recuperaziun
 signin-recovery-method-send-code-error-description = Emprova per plaschair pli tard anc ina giada u fa diever da tes codes d’autentificaziun da backup.

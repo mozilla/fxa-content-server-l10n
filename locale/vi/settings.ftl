@@ -715,6 +715,9 @@ tfa-replace-code-success-1 =
 tfa-replace-code-success-alert-4 = Đã cập nhật mã xác thực dự phòng
 tfa-replace-code-1-2 = Bước 1/2
 tfa-replace-code-2-2 = Bước 2/2
+tfa-enter-code-to-confirm-v2 =
+    Vui lòng nhập một trong các mã xác thực dự phòng mới của bạn để
+    xác nhận rằng bạn đã lưu chúng. Mã xác thực dự phòng cũ của bạn sẽ bị vô hiệu hóa sau khi hoàn tất bước này.
 
 ## Avatar change page
 
@@ -968,9 +971,6 @@ tfa-input-enter-totp-v2 =
 tfa-save-these-codes-1 =
     Lưu các mã xác thực dự phòng sử dụng một lần này ở một nơi an toàn khi
     bạn không có thiết bị di động của mình.
-tfa-enter-code-to-confirm-v2 =
-    Vui lòng nhập một trong các mã xác thực dự phòng mới của bạn để
-    xác nhận rằng bạn đã lưu chúng. Mã xác thực dự phòng cũ của bạn sẽ bị vô hiệu hóa sau khi hoàn tất bước này.
 tfa-enter-recovery-code-1 =
     .label = Nhập mã xác thực dự phòng
 
@@ -1032,9 +1032,6 @@ tfa-row-backup-codes-title = Mã xác thực dự phòng
 # Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
 # Users that have not enabled or verified 2FA will not see this
 tfa-row-backup-codes-not-available = Không còn mã nào khả dụng
-# $numCodesRemaining - the number of backup authentication codes that have not yet been used (generally between 1 to 5)
-# A different message is shown when no codes are available
-tfa-row-backup-codes-available = { $numCodesAvailable } mã còn lại
 # Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
 tfa-row-backup-codes-get-new-cta = Tạo mã mới
 # Shown to users who have no backup authentication codes
@@ -1670,8 +1667,6 @@ signin-recovery-method-subheader = Chọn phương pháp khôi phục
 signin-recovery-method-details = Hãy đảm bảo rằng bạn chính là người đang sử dụng phương thức khôi phục của mình.
 signin-recovery-method-phone = Số điện thoại khôi phục
 signin-recovery-method-code-v2 = Mã xác thực dự phòng
-# Variable: $numberOfCodes (String) - The number of authentication codes the user has left, e.g. 4
-signin-recovery-method-code-info = { $numberOfCodes } mã còn lại
 # Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
 signin-recovery-method-send-code-error-heading = Có sự cố khi gửi mã đến số điện thoại khôi phục của bạn
 signin-recovery-method-send-code-error-description = Vui lòng thử lại sau hoặc sử dụng mã xác thực dự phòng của bạn.

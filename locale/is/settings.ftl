@@ -707,6 +707,9 @@ tfa-replace-code-success-1 = Nýir kóðar hafa verið útbúnir. Vistaðu þess
 tfa-replace-code-success-alert-4 = Varaauðkenningarkóðar uppfærðir
 tfa-replace-code-1-2 = Skref 1 af 2
 tfa-replace-code-2-2 = Skref 2 af 2
+tfa-enter-code-to-confirm-v2 =
+    Settu inn einn af nýju öryggisafritunar-auðkenningarkóðunum þínum til að
+    staðfesta að þú hafir vistað þá. Gömlu auðkenningarkóðarnir þínir verða óvirkir þegar þessu skrefi er lokið.
 
 ## Avatar change page
 
@@ -955,9 +958,6 @@ tfa-input-enter-totp-v2 =
 tfa-save-these-codes-1 =
     Geymdu þessa einnota varaauðkenningarkóða á öruggum stað til að geta notað þá 
     þegar þú ert ekki með snjalltækið þitt við hendina.
-tfa-enter-code-to-confirm-v2 =
-    Settu inn einn af nýju öryggisafritunar-auðkenningarkóðunum þínum til að
-    staðfesta að þú hafir vistað þá. Gömlu auðkenningarkóðarnir þínir verða óvirkir þegar þessu skrefi er lokið.
 tfa-enter-recovery-code-1 =
     .label = Settu inn varaauðkenningarkóða
 
@@ -1019,9 +1019,6 @@ tfa-row-backup-codes-title = Varaauðkenningarkóðar
 # Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
 # Users that have not enabled or verified 2FA will not see this
 tfa-row-backup-codes-not-available = Engir kóðar til taks
-# $numCodesRemaining - the number of backup authentication codes that have not yet been used (generally between 1 to 5)
-# A different message is shown when no codes are available
-tfa-row-backup-codes-available = { $numCodesAvailable } kóðar eftir
 # Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
 tfa-row-backup-codes-get-new-cta = Sækja nýja kóða
 # Shown to users who have no backup authentication codes
@@ -1657,8 +1654,6 @@ signin-recovery-method-header = Innskráning
 signin-recovery-method-subheader = Veldu aðferð fyrir endurheimtingu
 signin-recovery-method-phone = Endurheimtusímanúmer
 signin-recovery-method-code-v2 = Varaauðkenningarkóðar
-# Variable: $numberOfCodes (String) - The number of authentication codes the user has left, e.g. 4
-signin-recovery-method-code-info = { $numberOfCodes } kóðar eftir
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
