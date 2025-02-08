@@ -637,10 +637,14 @@ flow-setup-phone-confirm-code-button = Conferme
 # followed by a button to resend a code
 flow-setup-phone-confirm-code-expired = Codiç scjadût?
 flow-setup-phone-confirm-code-resend-code-button = Torne mande il codiç
+flow-setup-phone-confirm-code-resend-code-success = Codiç mandât
+flow-setup-phone-confirm-code-success-message-v2 = Zontât telefon pal recupar dal account
 
 ## FlowSetupPhoneConfirmCode
 
 flow-setup-phone-submit-number-heading = Verifiche il to numar di telefon
+# The code is a 6-digit code send by text message/SMS
+flow-setup-phone-verify-number-instruction = Tu ricevarâs un SMS di { -brand-mozilla } cuntun codiç par verificâ il to numar. No sta condividi cun nissun chest codiç.
 
 ## HeaderLockup component, the header in account settings
 
@@ -1408,6 +1412,8 @@ pair-unsupported-message = Âstu doprât la fotocjamare di sisteme? Tu scugnis a
 ## Third party auth users that do not have a password set yet are prompted for a
 ## password to complete their sign-in when they want to login to a service requiring it.
 
+set-password-heading = Cree password
+set-password-info = I dâts sincronizâts a son stâts cifrâts cu la tô password par protezi la tô riservatece.
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
