@@ -715,7 +715,7 @@ tfa-replace-code-success-1 =
 tfa-replace-code-success-alert-4 = Rezervne overitvene kode so posodobljene
 tfa-replace-code-1-2 = Korak 1 od 2
 tfa-replace-code-2-2 = Korak 2 od 2
-tfa-enter-code-to-confirm-v2 = Vnesite eno od novih rezervnih overitvenih kod, da potrdite, da ste jih shranili. Vaše stare rezervne overitvene kode bodo onemogočene, ko bo ta korak zaključen.
+tfa-enter-code-to-confirm-v2 = Vnesite eno izmed novih rezervnih overitvenih kod, da potrdite, da ste jih shranili. Vaše stare rezervne overitvene kode bodo prenehale veljati, ko boste zaključili ta korak.
 
 ## Avatar change page
 
@@ -969,7 +969,7 @@ tfa-save-these-codes-1 =
     Shranite te rezervne overitvene kode za enkratno uporabo na varno mesto
     za primere, ko nimate mobilne naprave.
 # codes here refers to backup authentication codes
-tfa-enter-code-to-confirm-setup = Z vnosom potrdite, da ste shranili kode. Brez teh kod se morda ne boste mogli prijaviti, če nimate aplikacije za overitev.
+tfa-enter-code-to-confirm-setup = Potrdite z vnosom, da ste shranili kode. Brez teh kod se morda ne boste mogli prijaviti, če ne boste imeli aplikacije za overjanje.
 tfa-enter-recovery-code-1 =
     .label = Vnesite rezervno overitveno kodo
 
@@ -1035,9 +1035,9 @@ tfa-row-backup-codes-not-available = Ni razpoložljivih kod
 # A different message is shown when no codes are available
 tfa-row-backup-codes-available-v2 =
     { $numCodesAvailable ->
-        [one] { $numCodesAvailable } preostali kode
-        [two] { $numCodesAvailable } preostalih kod
-        [few] { $numCodesAvailable } preostalih kod
+        [one] { $numCodesAvailable } preostala koda
+        [two] { $numCodesAvailable } preostali kodi
+        [few] { $numCodesAvailable } preostale kode
        *[other] { $numCodesAvailable } preostalih kod
     }
 # Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
@@ -1678,10 +1678,10 @@ signin-recovery-method-code-v2 = Rezervne overitvene kode
 # Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
 signin-recovery-method-code-info-v2 =
     { $numBackupCodes ->
-        [one] { $numBackupCodes } preostali kode
-        [two] { $numBackupCodes } preostalih kod
-        [few] { $numBackupCodes } preostalih kod
-       *[other] { $numBackupCodes } preostalih kod
+        [one] { $numCodesAvailable } preostala koda
+        [two] { $numCodesAvailable } preostali kodi
+        [few] { $numCodesAvailable } preostale kode
+       *[other] { $numCodesAvailable } preostalih kod
     }
 # Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
 signin-recovery-method-send-code-error-heading = Pri pošiljanju kode na telefonsko številko za obnovitev je prišlo do težave
