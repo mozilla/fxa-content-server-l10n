@@ -894,6 +894,7 @@ settings-recovery-phone-remove-success = Đã xóa số điện thoại khôi ph
 ## PageSetupRecoveryPhone
 
 page-setup-recovery-phone-heading = Thêm số điện thoại khôi phục
+page-setup-recovery-phone-back-button-title = Quay lại cài đặt
 
 ## Add secondary email page
 
@@ -971,6 +972,8 @@ tfa-input-enter-totp-v2 =
 tfa-save-these-codes-1 =
     Lưu các mã xác thực dự phòng sử dụng một lần này ở một nơi an toàn khi
     bạn không có thiết bị di động của mình.
+# codes here refers to backup authentication codes
+tfa-enter-code-to-confirm-setup = Xác nhận bạn đã lưu mã của bạn bằng cách nhập một. Nếu không có các mã này, bạn có thể không đăng nhập nếu bạn không có ứng dụng xác thực của mình.
 tfa-enter-recovery-code-1 =
     .label = Nhập mã xác thực dự phòng
 
@@ -1032,6 +1035,9 @@ tfa-row-backup-codes-title = Mã xác thực dự phòng
 # Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
 # Users that have not enabled or verified 2FA will not see this
 tfa-row-backup-codes-not-available = Không còn mã nào khả dụng
+# $numCodesRemaining - the number of backup authentication codes that have not yet been used (generally between 1 to 5)
+# A different message is shown when no codes are available
+tfa-row-backup-codes-available-v2 = { $numCodesAvailable } mã còn lại
 # Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
 tfa-row-backup-codes-get-new-cta = Tạo mã mới
 # Shown to users who have no backup authentication codes
@@ -1667,6 +1673,8 @@ signin-recovery-method-subheader = Chọn phương pháp khôi phục
 signin-recovery-method-details = Hãy đảm bảo rằng bạn chính là người đang sử dụng phương thức khôi phục của mình.
 signin-recovery-method-phone = Số điện thoại khôi phục
 signin-recovery-method-code-v2 = Mã xác thực dự phòng
+# Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
+signin-recovery-method-code-info-v2 = { $numBackupCodes } còn lại
 # Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
 signin-recovery-method-send-code-error-heading = Có sự cố khi gửi mã đến số điện thoại khôi phục của bạn
 signin-recovery-method-send-code-error-description = Vui lòng thử lại sau hoặc sử dụng mã xác thực dự phòng của bạn.
@@ -1680,6 +1688,8 @@ signin-recovery-code-heading = Đăng nhập
 signin-recovery-code-sub-heading = Nhập mã xác thực dự phòng
 # codes here refers to backup authentication codes
 signin-recovery-code-instruction-v3 = Nhập một trong các mã sử dụng một lần bạn đã lưu khi bạn thiết lập xác thực hai bước.
+# code here refers to backup authentication code
+signin-recovery-code-input-label-v2 = Nhập mã gồm 10 ký tự
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Xác nhận
 # Link to go to the page to use recovery phone instead
