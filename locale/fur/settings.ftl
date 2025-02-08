@@ -6,6 +6,9 @@
 ## Banner component
 
 resend-code-success-banner-heading = Al è stât mandât un gnûf codiç ae tô e-mail.
+resend-link-success-banner-heading = Al è stât inviât un gnûf colegament ae tô e-mail.
+# $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
+resend-success-banner-description = Zonte { $accountsEmail } ai tiei contats par garantî une consegne cence fastidis.
 
 ## Brand Messaging component
 ## Used to show in product messaging about upcoming brand changes
@@ -33,6 +36,8 @@ brand-m-logo =
 ## ButtonBack component
 ## Allows users to click a back arrow to navigate to the previous page
 
+button-back-aria-label = Indaûr
+button-back-title = Indaûr
 
 ## ButtonDownloadRecoveryKeyPDF
 ## Clicking on this button downloads a PDF file that contains the user's account recovery key
@@ -210,6 +215,53 @@ get-data-trio-print-2 =
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
+# Aria-label option for an alert symbol
+alert-icon-aria-label =
+    .aria-label = Avîs
+# Aria-label option for an alert symbol
+icon-attention-aria-label =
+    .aria-label = Atenzion
+# Aria-label option for an alert symbol
+icon-warning-aria-label =
+    .aria-label = Avertiment
+authenticator-app-aria-label =
+    .aria-label = Aplicazion di autenticazion
+backup-codes-icon-aria-label-v2 =
+    .aria-label = Codiç di autenticazion di backup ativâts
+backup-codes-disabled-icon-aria-label-v2 =
+    .aria-label = Codiçs di autenticazion di backup disativâts
+# An icon of phone with text message. A back recovery phone number
+backup-recovery-sms-icon-aria-label =
+    .aria-label = SMS di recupar ativât
+# Disabled version of backup-recovery-sms-icon-aria-label
+backup-recovery-sms-disabled-icon-aria-label =
+    .aria-label = SMS di recupar disativât
+# Used to select Canada as country code for phone number
+canadian-flag-icon-aria-label =
+    .aria-label = Bandiere dal Canadà
+# Used to  indicate a general checkmark, as in something checked off in a list!
+checkmark-icon-aria-label =
+    .aria-label = Segne
+# Used to  indicate a check mark for a successful state/action
+checkmark-success-icon-aria-label =
+    .aria-label = Completât
+# Used to indicate a check mark for an enabled state/option
+checkmark-enabled-icon-aria-label =
+    .aria-label = Atîf
+# Used on X icon to dismiss a message such as an alert or banner
+close-icon-aria-label =
+    .aria-label = Siere il messaç
+# Used to decorate a code you enter for verification purposes
+code-icon-aria-label =
+    .aria-label = Codiç
+error-icon-aria-label =
+    .aria-label = Erôr
+# Used as information icon for informative messaging
+info-icon-aria-label =
+    .aria-label = Informazion
+# Used to select United States as a country code for phone number
+usa-flag-icon-aria-label =
+    .aria-label = Bandiere dai Stâts Unîts
 
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
@@ -237,11 +289,20 @@ lightbulb-aria-label =
     .aria-label = Ilustrazion par rapresentâ la creazion di un sugjeriment pe archiviazion.
 email-code-image-aria-label =
     .aria-label = Ilustrazion par rapresentâ une e-mail che e conten un codiç.
+recovery-phone-image-description =
+    .aria-label = Dispositîf mobil che al ricêf un codiç midiant SMS.
+recovery-phone-code-image-description =
+    .aria-label = Codiç ricevût suntun dispositîf mobil.
+backup-recovery-phone-image-aria-label =
+    .aria-label = Dispositîf mobil cun funzionalitâts SMS
+backup-authentication-codes-image-aria-label =
+    .aria-label = Schermi dal dispositîf cun codiçs
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
 ## after signing in.
 
+inline-recovery-key-setup-signed-in-firefox-2 = Acès eseguît su { -brand-firefox }.
 inline-recovery-key-setup-create-header = Protêç il to account
 # This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
 inline-recovery-key-setup-create-subheader = Âstu un minût par protezi i tiei dâts?
@@ -266,6 +327,11 @@ input-password-sr-only-now-hidden = Cumò la password e je platade.
 
 ## Phone number component
 
+# This is an aria-label available to screen readers for a selection list that includes country flags, country name and country code
+input-phone-number-country-list-aria-label = Selezione la nazion
+input-phone-number-enter-number = Inserî il numar di telefon
+input-phone-number-country-united-states = Stâts Unîts
+input-phone-number-country-canada = Canadà
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Indaûr
 
@@ -285,6 +351,8 @@ reset-pwd-link-damaged-message = Al colegament che tu âs doprât i mancjave cua
 
 ## LinkExpired component
 
+# Button to request a new link if the previous link that was emailed to the user is expired
+link-expired-new-link-button = Mandimi un gnûf colegament
 
 ## LinkRememberPassword component
 
@@ -501,6 +569,9 @@ dc-learn-more = Plui informazions
 # DropDownAvatarMenu component
 
 drop-down-menu-title-2 = Menù { -product-mozilla-account }
+# This is displayed in the Settings menu after user's click on their profile icon.
+# Following this string on a new line will be their display name (user's name or email)
+drop-down-menu-signed-in-as-v2 = Jentrât come
 drop-down-menu-sign-out = Disconet
 drop-down-menu-sign-out-error-2 = Nus displâs, al è vignût fûr un probleme tal disconetiti
 
@@ -554,9 +625,22 @@ flow-recovery-key-info-cancel-link = Anule
 
 ## FlowSetupPhoneConfirmCode
 
+# verification code refers to a code sent by text message to confirm phone number ownership
+# and complete setup
+flow-setup-phone-confirm-code-heading = Inserìs il codiç di verifiche
+# $phoneNumber is a partially obfuscated phone number with only the last 4 digits showing (e.g., *** *** 1234)
+# span element applies formatting to ensure the number is always displayed left-to-right
+flow-setup-phone-confirm-code-instruction = Al è stât inviât un codiç di 6 cifris a <span>{ $phoneNumber }</span> midiant SMS. Chest codiç al scjadarà dopo 5 minûts.
+flow-setup-phone-confirm-code-input-label = Inserìs il codiç a 6 cifris
+flow-setup-phone-confirm-code-button = Conferme
+# button to resend a code by text message to the user's phone
+# followed by a button to resend a code
+flow-setup-phone-confirm-code-expired = Codiç scjadût?
+flow-setup-phone-confirm-code-resend-code-button = Torne mande il codiç
 
 ## FlowSetupPhoneConfirmCode
 
+flow-setup-phone-submit-number-heading = Verifiche il to numar di telefon
 
 ## HeaderLockup component, the header in account settings
 

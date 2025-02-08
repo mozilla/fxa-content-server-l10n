@@ -968,6 +968,8 @@ tfa-enter-totp-v2 = Zapodajće nětko awtentifikaciski kod z awtentifikaciskeho 
 tfa-input-enter-totp-v2 =
     .label = Awtentifikaciski kod zapodać
 tfa-save-these-codes-1 = Składujće tute kody za zawěsćensku awtentifikaciju za jónkróćne wužiwanje na wěstym městnje, jeli přistup k swojemu mobilnemu gratej nimaće.
+# codes here refers to backup authentication codes
+tfa-enter-code-to-confirm-setup = Zapodajće kod, zo byšće wobkrućił, zo sće swoje składował. Bjez tutych kodow njemóžeće so snano přizjewić, jeli swoje autentifikaciske nałoženje nimaće.
 tfa-enter-recovery-code-1 =
     .label = Zapodajće kod za zawěsćensku awtentifikaciju
 
