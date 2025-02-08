@@ -5,6 +5,7 @@
 
 ## Banner component
 
+resend-code-success-banner-heading = Al è stât mandât un gnûf codiç ae tô e-mail.
 
 ## Brand Messaging component
 ## Used to show in product messaging about upcoming brand changes

@@ -72,6 +72,8 @@ next-plan-details-total-label = Totâl
 ## Purchase details - shared by multiple components, including purchase details and payment form
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+list-positive-amount = { $amount }
+list-negative-amount = - { $amount }
 next-coupon-success = Il to plan si rinovarà in automatic al presit di catalic.
 # $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
 next-coupon-success-repeating = Il to plan si rinovarà in automatic dopo { $couponDurationDate } al presit di catalic.
@@ -82,6 +84,11 @@ next-coupon-success-repeating = Il to plan si rinovarà in automatic dopo { $cou
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+plan-price-interval-daily = { $amount } al dì
+plan-price-interval-weekly = { $amount } ae setemane
+plan-price-interval-monthly = { $amount } al mês
+plan-price-interval-6monthly = { $amount } ogni 6 mês
+plan-price-interval-yearly = { $amount } al an
 
 ## Component - SubscriptionTitle
 
