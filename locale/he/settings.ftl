@@ -851,6 +851,7 @@ settings-recovery-phone-remove-success = הוסר טלפון לשחזור
 ## PageSetupRecoveryPhone
 
 page-setup-recovery-phone-heading = הוספת טלפון לשחזור
+page-setup-recovery-phone-back-button-title = חזרה להגדרות
 
 ## Add secondary email page
 
@@ -976,6 +977,13 @@ signout-sync-session-expired = משהו השתמש, עמך הסליחה. נא ל
 # Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
 # Users that have not enabled or verified 2FA will not see this
 tfa-row-backup-codes-not-available = אין קודים זמינים
+# $numCodesRemaining - the number of backup authentication codes that have not yet been used (generally between 1 to 5)
+# A different message is shown when no codes are available
+tfa-row-backup-codes-available-v2 =
+    { $numCodesAvailable ->
+        [one] נותר קוד אחד
+       *[other] נותרו { $numCodesAvailable } קודים
+    }
 # Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
 tfa-row-backup-codes-get-new-cta = קבלת קודים חדשים
 # Shown to users who have no backup authentication codes
@@ -1573,6 +1581,12 @@ signin-recovery-method-header = כניסה
 signin-recovery-method-subheader = בחירת אמצעי לשחזור
 signin-recovery-method-details = בואו נוודא שזה אתה המשתמש בשיטות השחזור שלך.
 signin-recovery-method-phone = טלפון לשחזור
+# Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
+signin-recovery-method-code-info-v2 =
+    { $numBackupCodes ->
+        [one] נותר קוד אחד
+       *[other] נותרו { $numBackupCodes } קודים
+    }
 # Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
 signin-recovery-method-send-code-error-heading = הייתה בעיה בשליחת קוד לטלפון השחזור שלך
 
@@ -1582,6 +1596,8 @@ signin-recovery-method-send-code-error-heading = הייתה בעיה בשליח�
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
 signin-recovery-code-heading = כניסה
+# code here refers to backup authentication code
+signin-recovery-code-input-label-v2 = נא להזין קוד בן 10 תווים
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = אישור
 # Link to go to the page to use recovery phone instead
@@ -1593,9 +1609,18 @@ signin-recovery-code-support-link = ננעלת מחוץ לחשבון?
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-recovery-code-use-phone-failure = הייתה בעיה בשליחת קוד לטלפון השחזור שלך
+signin-recovery-code-use-phone-failure-description = נא לנסות שוב מאוחר יותר.
 
 ## SigninRecoveryPhone page
 
+signin-recovery-phone-flow-heading = כניסה
+# A recovery code in context of this page is a one time code sent to the user's phone
+signin-recovery-phone-heading = נא להכניס קוד לשחזור
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+signin-recovery-phone-instruction = קוד בן שש ספרות נשלח אל <span>{ $maskedPhoneNumber }</span> בהודעת טקסט. קוד זה יפוג לאחר 5 דקות.
+signin-recovery-phone-input-label = נא להזין קוד בן 6 ספרות
+signin-recovery-phone-code-submit-button = אישור
 # links to https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 signin-recovery-phone-locked-out-link = ננעלת מחוץ לחשבון?
 signin-recovery-phone-send-code-error-heading = הייתה בעיה בשליחת קוד
