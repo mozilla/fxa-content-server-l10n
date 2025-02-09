@@ -1669,6 +1669,12 @@ signin-recovery-method-subheader = Elige un método de recuperación
 signin-recovery-method-details = Asegurémonos de que seas tu quien utiliza tus métodos de recuperación.
 signin-recovery-method-phone = Teléfono de recuperación
 signin-recovery-method-code-v2 = Códigos de autenticación de respaldo
+# Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
+signin-recovery-method-code-info-v2 =
+    { $numBackupCodes ->
+        [one] { $numBackupCodes } código restante
+       *[other] { $numBackupCodes } códigos restantes
+    }
 # Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
 signin-recovery-method-send-code-error-heading = Hubo un problema al enviar un código a tu código de recuperación
 signin-recovery-method-send-code-error-description = Por favor, vuelve a intentarlo más tarde o utiliza tus códigos de autenticación de respaldo.
@@ -1682,6 +1688,8 @@ signin-recovery-code-heading = Conectarse
 signin-recovery-code-sub-heading = Ingresa el código de autenticación de respaldo
 # codes here refers to backup authentication codes
 signin-recovery-code-instruction-v3 = Ingresa uno de los códigos de un solo uso que guardaste cuando configuraste la autenticación de dos pasos.
+# code here refers to backup authentication code
+signin-recovery-code-input-label-v2 = Ingresa el código de 10 caracteres
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Confirmar
 # Link to go to the page to use recovery phone instead
