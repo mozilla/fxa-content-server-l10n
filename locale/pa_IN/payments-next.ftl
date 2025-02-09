@@ -3,12 +3,19 @@
 
 next-payment-processing-message = ਤੁਹਾਡੇ ਭੁਗਤਾਨ ਉੱਤੇ ਸਾਡੇ ਵਲੋਂ ਕਾਰਵਾਈ ਕੀਤੇ ਤੱਕ ਉਡੀਕੋ…
 next-payment-error-manage-subscription-button = ਮੇਰੀ ਮੈਂਬਰੀ ਦਾ ਇੰਤਜ਼ਾਮ ਕਰੋ
+next-iap-upgrade-contact-support = ਤੁਸੀਂ ਹਾਲੇ ਵੀ ਇਹ ਉਤਪਾਦ ਨੂੰ ਲੈ ਸਕਦੇ ਹੋ — ਸਾਡੀ ਸਹਾਇਤਾ ਨਾਲ ਸੰਪਰਕ ਕਰੋ ਤਾਂ ਕਿ ਅਸੀਂ ਤੁਹਾਡੀ ਮਦਦ ਸਕੀਏ।
 next-payment-error-retry-button = ਮੁੜ ਕੋਸ਼ਿਸ਼ ਕਰੋ
 next-basic-error-message = ਕੁਝ ਗਲਤ ਵਾਪਰਿਆ ਹੈ। ਬਾਅਦ ਵਿੱਚ ਮੁੜ ਕੋਸ਼ਿਸ਼ ਕਰੋ।
 
 ## Page
 
+checkout-signin-or-create = 1. { -product-mozilla-account } ਨਾਲ ਸਾਈਨ ਇਨ ਕਰੋ ਜਾਂ ਬਣਾਓ
+checkout-create-account = { -product-mozilla-account } ਬਣਾਓ
+continue-signin-with-google-button = { -brand-google } ਨਾਲ ਜਾਰੀ ਰੱਖੋ
+continue-signin-with-apple-button = { -brand-apple } ਨਾਲ ਜਾਰੀ ਰੱਖੋ
 next-payment-method-header = ਆਪਣਾ ਭੁਗਤਾਨ ਢੰਗ ਚੁਣੋ
+# This message is used to indicate the second step in a multi step process.
+payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = ਪਹਿਲਾਂ ਤੁਹਾਨੂੰ ਆਪਣੀ ਮੈਂਬਰੀ ਨੂੰ ਮਨਜ਼ੂਰ ਕਰਨ ਦੀ ਲੋੜ ਹੈ
 next-payment-confirmation-thanks-heading-account-exists = ਧੰਨਵਾਦ, ਹੁਣ ਆਪਣੀ ਈਮੇਲ ਦੀ ਜਾਂਚ ਕਰੋ!
 next-payment-confirmation-order-heading = ਆਡਰ ਦੇ ਵੇਰਵੇ
@@ -23,6 +30,7 @@ next-payment-confirmation-amount = { $amount } ਪ੍ਰਤੀ { $interval }
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = ਆਖਰੀ ਨੰਬਰ { $last4 } ਵਾਲਾ ਕਾਰਡ
 next-payment-confirmation-download-button = ਡਾਉਨਲੋਡ ਕਰਨਾ ਜਾਰੀ ਰੱਖੋ
+checkout-error-boundary-retry-button = ਫੇਰ ਕੋਸ਼ਿਸ਼ ਕਰੋ
 
 ## Component - Payment Consent Checkbox
 
@@ -68,6 +76,8 @@ select-tax-location-save-button = ਸੰਭਾਲੋ
 select-tax-location-country-code-label = ਦੇਸ਼
 select-tax-location-country-code-placeholder = ਆਪਣਾ ਦੇਸ਼ ਚੁਣੋ
 select-tax-location-error-missing-country-code = ਆਪਣੇ ਦੇਸ਼ ਨੂੰ ਚੁਣੋ
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN
+select-tax-location-product-not-available = { $productName } ਇਸ ਟਿਕਾਣੇ ਲਈ ਮੌਜੂਦ ਨਹੀਂ ਹੈ।
 select-tax-location-postal-code-label = ਡਾਕ ਕੋਡ
 select-tax-location-postal-code =
     .placeholder = ਆਪਣਾ ਡਾਕ ਕੋਡ ਦਿਓ

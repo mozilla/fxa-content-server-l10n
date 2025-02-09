@@ -213,6 +213,28 @@ price-details-no-tax-year =
             [one] { $priceAmount } ਸਾਲਨਾ
            *[other] { $priceAmount } ਹਰ { $intervalCount } ਸਾਲ
         }
+# $intervalCount (Number) - The interval between payments, in days.
+price-details-tax-day =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } ਟੈਕਸ ਰੋਜ਼
+       *[other] { $priceAmount } + { $taxAmount } ਟੈਕਸ ਹਰ{ $intervalCount } ਦਿਨ
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } ਟੈਕਸ ਰੋਜ਼
+           *[other] { $priceAmount } + { $taxAmount } ਟੈਕਸ ਹਰ{ $intervalCount } ਦਿਨ
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+price-details-tax-year =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } ਟੈਕਸ ਸਾਲਨਾ
+       *[other] { $priceAmount } + { $taxAmount } ਟੈਕਸ ਹਰ { $intervalCount } ਸਾਲ
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } ਟੈਕਸ ਸਾਲਨਾ
+           *[other] { $priceAmount } + { $taxAmount } ਟੈਕਸ ਹਰ{ $intervalCount } ਸਾਲ
+        }
 
 ## Component - SubscriptionTitle
 
@@ -288,6 +310,7 @@ product-profile-error =
 product-customer-error =
     .title = ਗਾਹਕ ਲੋਡ ਕਰਨ ਵਿੱਚ ਸਮੱਸਿਆ
 product-plan-not-found = ਪਲਾਨ ਨਹੀਂ ਲੱਭਿਆ
+product-location-unsupported-error = ਟਿਕਾਣਾ ਸਹਾਇਕ ਨਹੀਂ ਹੈ
 
 ## Hooks - coupons
 
