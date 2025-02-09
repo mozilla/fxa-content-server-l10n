@@ -95,7 +95,7 @@ msgstr "Kini Anda siap menggunakan %(serviceName)s"
 
 #: .es5/views/ready.js:74
 msgid "Account confirmed"
-msgstr ""
+msgstr "Akun dikonfirmasi"
 
 #: .es5/views/ready.js:79
 msgid "Connected"
