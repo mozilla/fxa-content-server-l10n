@@ -84,6 +84,7 @@ select-tax-location-postal-code =
 select-tax-location-error-missing-postal-code = ਆਪਣਾ ਡਾਕ ਦਿਓ ਜੀ
 select-tax-location-error-invalid-postal-code = ਵਾਜਬ ਡਾਕ ਕੋਡ ਦਿਓ
 select-tax-location-successfully-updated = ਤੁਹਾਡੇ ਟਿਕਾਣੇ ਨੂੰ ਅੱਪਡੇਟ ਕੀਤਾ ਜਾ ਚੁੱਕਾ ਹੈ।
+select-tax-location-error-location-not-updated = ਤੁਹਾਡੇ ਟਿਕਾਣੇ ਨੂੰ ਅੱਪਡੇਟ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਿਆ। ਮੁੜ ਕੋਸ਼ਿਸ਼ ਕਰੋ।
 signin-form-continue-button = ਜਾਰੀ ਰੱਖੋ
 signin-form-email-input = ਆਪਣਾ ਈਮੇਲ ਦਿਓ
 signin-form-email-input-missing = ਆਪਣਾ ਈਮੇਲ ਦਿਓ
@@ -115,6 +116,8 @@ list-negative-amount = - { $amount }
 plan-price-interval-daily = { $amount } ਰੋਜ਼ਾਨਾ
 plan-price-interval-weekly = { $amount } ਹਫ਼ਤਾਵਰ
 plan-price-interval-monthly = { $amount } ਮਹੀਨੇਵਾਰ
+plan-price-interval-6monthly = { $amount } ਹਰ 6 ਮਹੀਨੇ ਬਾਅਦ
+plan-price-interval-yearly = { $amount } ਸਾਲਨਾ
 
 ## Component - SubscriptionTitle
 

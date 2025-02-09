@@ -815,10 +815,15 @@ recovery-key-create-back-button-title = ਸੈਟਿੰਗਾਂ ‘ਤੇ ਵ�
 ## PageRecoveryPhoneRemove
 ## Users reach this page from account settings when they want to remove a backup phone number.
 
+recovery-phone-remove-header = ਰਿਕਵਰੀ ਫ਼ੋਨ ਨੰਬਰ ਨੂੰ ਹਟਾਓ
+settings-recovery-phone-remove-button = ਫ਼ੋਨ ਨੰਬਰ ਨੂੰ ਹਟਾਓ
+settings-recovery-phone-remove-cancel = ਰੱਦ ਕਰੋ
+settings-recovery-phone-remove-success = ਰਿਕਵਰੀ ਫ਼ੋਨ ਨੂੰ ਹਟਾਇਆ ਗਿਆ
 
 ## PageSetupRecoveryPhone
 
 page-setup-recovery-phone-heading = ਰਿਕਵਰੀ ਫ਼ੋਨ ਜੋੜੋ
+page-setup-recovery-phone-back-button-title = ਸੈਟਿੰਗਾਂ ‘ਤੇ ਵਾਪਸ ਜਾਓ
 
 ## Add secondary email page
 
@@ -830,6 +835,10 @@ add-secondary-email-enter-address =
     .label = ਈਮੇਲ ਸਿਰਨਾਵਾਂ ਦਿਓ
 add-secondary-email-cancel-button = ਰੱਦ ਕਰੋ
 add-secondary-email-save-button = ਸੰਭਾਲੋ
+# This message is shown when a user tries to add a secondary email that is a
+# Firefox Relay email mask (generated email address that can be used in place of
+# your real email address)
+add-secondary-email-mask = ਈਮੇਲ ਮਾਸਕਾਂ ਨੂੰ ਸੈਕੰਡਰੀ ਈਮੇਲ ਵਜੋਂ ਨਹੀਂ ਵਰਤਿਆ ਜਾ ਸਕਦਾ ਹੈ
 
 ## Verify secondary email page
 
@@ -841,6 +850,10 @@ verify-secondary-email-verification-code-2 =
     .label = ਆਪਣਾ ਤਸਦੀਕੀ ਕੋਡ ਦਿਓ
 verify-secondary-email-cancel-button = ਰੱਦ ਕਰੋ
 verify-secondary-email-verify-button-2 = ਤਸਦੀਕ
+# This string is an instruction in a form.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-please-enter-code-2 = <strong>{ $email }</strong> ਉੱਤੇ ਭੇਜੇ ਗਏ ਤਸਦੀਕੀਕਰਨ ਕੋਡ ਨੂੰ 5 ਮਿੰਟ ਵਿੱਚ ਭਰੋ।
 # This string is a confirmation message shown after verifying an email.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
@@ -850,6 +863,8 @@ verify-secondary-email-success-alert-2 = { $email } ਨੂੰ ਕਾਮਯਾਬ
 
 # Link to delete account on main Settings page
 delete-account-link = ਖਾਤਾ ਹਟਾਓ
+# Success message displayed in alert bar after the user has successfully confirmed their account is not inactive.
+inactive-update-status-success-alert = ਕਾਮਯਾਬੀ ਨਾਲ ਸਾਈਨ ਇਨ ਕੀਤਾ। ਤੁਹਾਡਾ { -product-mozilla-account } ਅਤੇ ਡਾਟਾ ਦੋਵੇਂ ਸਰਗਰਮ ਰਹਿਣਗੇ।
 
 ## Two Step Authentication
 
@@ -861,8 +876,10 @@ tfa-button-continue = ਜਾਰੀ ਰੱਖੋ
 tfa-button-cancel = ਰੱਦ ਕਰੋ
 tfa-button-finish = ਮੁਕੰਮਲ
 tfa-incorrect-totp = ਗ਼ਲਤ ਦੋ-ਪੜ੍ਹਾਵੀ ਪਰਮਾਣੀਕਰਨ ਕੋਡ
+tfa-cannot-retrieve-code = ਤੁਹਾਡੇ ਕੋਡ ਨੂੰ ਪ੍ਰਾਪਤ ਕਰਨ ਦੌਰਾਨ ਸਮੱਸਿਆ ਆਈ ਸੀ।
 tfa-cannot-verify-code-4 = ਤੁਹਾਡੇ ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਤਸਦੀਕ ਕਰਨ ਦੌਰਾਨ ਸਮੱਸਿਆ ਆਈ ਸੀ
 tfa-incorrect-recovery-code-1 = ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਗਲਤ ਹੈ
+tfa-enabled-v2 = ਦੋ-ਪੜਾਵੀਂ ਪਰਮਾਣਕਿਤਾ ਨੂੰ ਸਮਰੱਥ ਕੀਤਾ ਗਿਆ ਹੈ
 tfa-scan-this-code = <linkExternal>ਇਹ ਪਰਮਾਣਕਿਤਾ ਐਪਾਂ</linkExternal> ਵਿੱਚ ਕਿਸੇ ਨਾਲ ਇਹ QR ਕੋਡ ਨੂੰ ਸਕੈਨ ਕਰੋ।
 # This is the image alt text for a QR code.
 # Variables:
@@ -937,11 +954,20 @@ tfa-row-backup-codes-title = ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕ�
 # Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
 # Users that have not enabled or verified 2FA will not see this
 tfa-row-backup-codes-not-available = ਕੋਈ ਕੋਡ ਉਪਲੱਬਧ ਨਹੀਂ
+# $numCodesRemaining - the number of backup authentication codes that have not yet been used (generally between 1 to 5)
+# A different message is shown when no codes are available
+tfa-row-backup-codes-available-v2 =
+    { $numCodesAvailable ->
+        [one] { $numCodesAvailable } ਕੋਡ ਬਾਕੀ ਰਹਿ ਗਿਆ ਹੈ
+       *[other] { $numCodesAvailable } ਕੋਡ ਬਾਕੀ ਰਹਿ ਗਏ ਹਨ
+    }
 # Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
 tfa-row-backup-codes-get-new-cta = ਨਵੇਂ ਕੋਡ ਲਵੋ
 # Shown to users who have no backup authentication codes
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = ਜੋੜੋ
+# 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
+tfa-row-backup-codes-description-2 = ਜੇ ਤੁਸੀਂ ਆਪਣੇ ਮੋਬਾਈਲ ਡਿਵਾਈਸ ਜਾਂ ਪਰਮਾਣੀਕਰਨ ਐਪ ਨੂੰ ਵਰਤ ਨਹੀਂ ਸਕਦੇ ਹੋ ਤਾਂ ਇਹ ਰਿਕਵਰੀ ਦਾ ਸੁਰੱਖਿਅਤ ਢੰਗ ਹੈ।
 # Recovery phone is a recovery method for two-step authentication
 # A recovery code can be sent to the user's phone
 tfa-row-backup-phone-title-v2 = ਰਿਕਵਰੀ ਫ਼ੋਨ
@@ -1091,12 +1117,21 @@ auth-error-114-generic = ਤੁਸੀਂ ਕਾਫੀ ਵਾਰ ਕੋਸ਼ਿ�
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = ਤੁਸੀਂ ਬਹੁਤ ਵਾਰ ਕੋਸ਼ਿਸ਼ ਕਰ ਚੁੱਕੇ ਹੋ। { $retryAfter } ਫੇਰ ਕੋਸ਼ਿਸ਼ ਕਰਿਓ।
 auth-error-125 = ਸੁਰੱਖਿਆ ਕਾਰਨਾਂ ਕਰਕੇ ਬੇਨਤੀ ਉੱਤੇ ਪਾਬੰਦੀ ਲਾਈ ਗਈ ਸੀ
+auth-error-129 = ਗ਼ਲਤ ਫ਼ੋਨ ਨੰਬਰ
 auth-error-138-2 = ਨਾ-ਤਸਦੀਕ ਕੀਤਾ ਸ਼ੈਸ਼ਨ
 auth-error-139 = ਸੈਕੰਡਰੀ ਈਮੇਲ ਤੁਹਾਡੇ ਖਾਤੇ ਦੀ ਈਮੇਲ ਤੋਂ ਵੱਖਰੀ ਹੋਣੀ ਚਾਹੀਦੀ ਹੈ
 auth-error-155 = TOTP ਟੋਕ ਨਹੀਂ ਲੱਭਿਆ
+# Error shown when the user submits an invalid backup authentication code
+auth-error-156 = ਬੈਕਅੱਪ ਪਰਮਾਣਿਕਤਾ ਕੋਡ ਨਹੀ ਲੱਭਿਆ
 auth-error-159 = ਗਲਤ ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ
 auth-error-183-2 = ਤਸਦੀਕੀ ਕੋਡ ਗਲਤ ਹੈ ਜਾਂ ਮਿਆਦ ਪੁੱਗੀ
+auth-error-202 = ਫ਼ੀਚਰ ਸਮਰੱਥ ਨਹੀਂ ਹੈ
+auth-error-203 = ਸਿਸਟਮ ਉਪਲੱਬਧ ਨਹੀਂ, ਛੇਤੀ ਹੀ ਫੇਰ ਕੋਸ਼ਿਸ਼ ਕਰੋ
 auth-error-206 = ਪਾਸਵਰਡ ਬਣਾਇਆ ਨਹੀਂ ਜਾ ਸਕਦਾ ਹੈ, ਪਾਸਵਰਡ ਪਹਿਲਾਂ ਹੀ ਸੈੱਟ ਹੈ
+auth-error-214 = ਰਿਕਵਰੀ ਫ਼ੋਨ ਨੰਬਰ ਪਹਿਲਾਂ ਹੀ ਮੌਜੂਦ ਹੈ
+auth-error-215 = ਰਿਕਵਰੀ ਫ਼ੋਨ ਨੰਬਰ ਮੌਜੂਦ ਨਹੀਂ ਹੈ
+auth-error-216 = ਟੈਕਸਟ ਸੁਨੇਹੇ ਦੀ ਹੱਦ ਅੱਪੜੀ
+auth-error-218 = ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਮੌਜੂਦ ਨਾ ਹੋਣ ਕਰਕੇ ਰਿਕਵਰੀ ਫ਼ੋਨ ਨੂੰ ਹਟਾਉਣ ਲਈ ਅਸਮੱਥ ਹੈ।
 auth-error-999 = ਅਣਜਾਣ ਗਲਤੀ
 auth-error-1001 = ਲਾਗਇਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਰੱਦ ਕੀਤੀ
 auth-error-1002 = ਸ਼ੈਸ਼ਨ ਦੀ ਮਿਆਦ ਪੁੱਗੀ। ਜਾਰੀ ਰੱਖਣ ਲਈ ਸਾਇਨ ਇਨ ਕਰੋ।
@@ -1107,6 +1142,7 @@ auth-error-1011 = ਢੁੱਕਵੀਂ ਈਮੇਲ ਚਾਹੀਦੀ ਹੈ
 auth-error-1031 = ਸਾਈਨ ਅੱਪ ਲਈ ਤੁਹਾਨੂੰ ਆਪਣੀ ਉਮਰ ਦੇਣੀ ਪਵੇਗੀ
 auth-error-1032 = ਸਾਇਨ ਇਨ ਕਰਨ ਲਈ ਤੁਹਾਨੂੰ ਢੁੱਕਵੀਂ ਉਮਰ ਦੇਣੀ ਚਾਹੀਦੀ ਹੈ
 auth-error-1054 = ਗ਼ਲਤ ਦੋ-ਪੜ੍ਹਾਵੀ ਪਰਮਾਣੀਕਰਨ ਕੋਡ
+auth-error-1056 = ਗਲਤ ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ
 auth-error-1062 = ਅਢੁੱਕਵਾਂ ਰੀ-ਡਿਰੈਕਟ
 oauth-error-1000 = ਕੁਝ ਗਲਤ ਹੋ ਗਿਆ ਹੈ। ਇਹ ਟੈਬ ਬੰਦ ਕਰੋ ਅਤੇ ਮੁੜ ਕੋਸ਼ਿਸ਼ ਕਰੋ।
 
@@ -1534,6 +1570,15 @@ signin-recovery-code-required-error = ਬੈਕਅੱਪ ਪਰਮਾਣੀਕ�
 
 ## SigninRecoveryPhone page
 
+signin-recovery-phone-code-submit-button = ਤਸਦੀਕ
+signin-recovery-phone-resend-code-button = ਕੋਡ ਮੁੜ ਕੇ ਭੇਜੋ
+signin-recovery-phone-resend-success = ਕੋਡ ਭੇਜਿਆ
+# links to https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+signin-recovery-phone-locked-out-link = ਕੀ ਤੁਸੀਂ ਲਾਕ-ਆਉਟ ਹੋ ਚੁੱਕੇ ਹੋ?
+signin-recovery-phone-send-code-error-heading = ਕੋਡ ਭੇਜਣ ਦੌਰਾਨ ਸਮੱਸਿਆ ਆਈ ਸੀ
+signin-recovery-phone-code-verification-error-heading = ਤੁਹਾਡੇ ਕੋਡ ਨੂੰ ਤਸਦੀਕ ਕਰਨ ਦੌਰਾਨ ਸਮੱਸਿਆ ਆਈ ਸੀ
+# Follows the error message (e.g, "There was a problem sending a code")
+signin-recovery-phone-general-error-description = ਬਾਅਦ ਵਿੱਚ ਕੋਸ਼ਿਸ ਕਰੋ ਜੀ।
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
