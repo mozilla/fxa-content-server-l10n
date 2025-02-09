@@ -898,6 +898,7 @@ settings-recovery-phone-remove-success = Allontanà il numer da telefon per la r
 ## PageSetupRecoveryPhone
 
 page-setup-recovery-phone-heading = Agiuntar in numer da telefon da recuperaziun
+page-setup-recovery-phone-back-button-title = Turnar als parameters
 
 ## Add secondary email page
 
@@ -975,6 +976,8 @@ tfa-input-enter-totp-v2 =
 tfa-save-these-codes-1 =
     Memorisescha quests codes d'autentificaziun da backup a diever unic en in lieu segir
     en cas che ti n'has ina giada betg access a tes apparat mobil.
+# codes here refers to backup authentication codes
+tfa-enter-code-to-confirm-setup = Conferma che ti has memorisà tes codes cun endatar in. Senza quests codes na pos ti eventualmain betg t’annunziar sche ti n’has betg tia app d’autentificaziun.
 tfa-enter-recovery-code-1 =
     .label = Endatescha in code d'autentificaziun da backup
 
@@ -1036,6 +1039,13 @@ tfa-row-backup-codes-title = Codes d’autentificaziun da backup
 # Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
 # Users that have not enabled or verified 2FA will not see this
 tfa-row-backup-codes-not-available = Nagins codes disponibels
+# $numCodesRemaining - the number of backup authentication codes that have not yet been used (generally between 1 to 5)
+# A different message is shown when no codes are available
+tfa-row-backup-codes-available-v2 =
+    { $numCodesAvailable ->
+        [one] { $numCodesAvailable } code restant
+       *[other] { $numCodesAvailable } codes restants
+    }
 # Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
 tfa-row-backup-codes-get-new-cta = Retschaiver novs codes
 # Shown to users who have no backup authentication codes
@@ -1673,6 +1683,12 @@ signin-recovery-method-subheader = Tscherna ina metoda da recuperaziun
 signin-recovery-method-details = Nus verifitgain che ti es la persuna che fa diever da tia metoda da verificaziun.
 signin-recovery-method-phone = Numer da telefon da recuperaziun
 signin-recovery-method-code-v2 = Codes d’autentificaziun da backup
+# Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
+signin-recovery-method-code-info-v2 =
+    { $numBackupCodes ->
+        [one] { $numBackupCodes } code restant
+       *[other] { $numBackupCodes } codes restants
+    }
 # Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
 signin-recovery-method-send-code-error-heading = Igl ha dà in problem cun trametter in code a tes numer da telefon da recuperaziun
 signin-recovery-method-send-code-error-description = Emprova per plaschair pli tard anc ina giada u fa diever da tes codes d’autentificaziun da backup.
@@ -1686,6 +1702,8 @@ signin-recovery-code-heading = S’annunziar
 signin-recovery-code-sub-heading = Endatescha il code d’autentificaziun da backup
 # codes here refers to backup authentication codes
 signin-recovery-code-instruction-v3 = Endatescha in da tes codes a diever unic che ti has memorisà cun configurar l’autentificaziun en dus pass.
+# code here refers to backup authentication code
+signin-recovery-code-input-label-v2 = Endatescha il code da 10 caracters
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Confermar
 # Link to go to the page to use recovery phone instead
