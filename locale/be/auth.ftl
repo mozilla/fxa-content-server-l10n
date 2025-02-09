@@ -11,6 +11,7 @@ fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Лагатып
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Сінхранізацыя прылад">
 body-devices-image = <img data-l10n-name="devices-image" alt="Прылады">
 fxa-privacy-url = Палітыка прыватнасці { -brand-mozilla }
+moz-accounts-privacy-url-2 = Паведамленне аб прыватнасці { -product-mozilla-accounts(capitalization: "uppercase") }
 moz-accounts-terms-url = Умовы выкарыстання { -product-mozilla-accounts(capitalization: "uppercase") }
 subplat-header-mozilla-logo-2 = <img data-l10n-name="subplat-mozilla-logo" alt="Лагатып { -brand-mozilla }">
 subplat-footer-mozilla-logo-2 = <img data-l10n-name="mozilla-logo-footer" alt="Лагатып { -brand-mozilla }">
@@ -39,6 +40,7 @@ subplat-reactivate = Паўторна актываваць падпіску
 subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Абнавіць плацежную інфармацыю
 subplat-privacy-policy = Палітыка прыватнасці { -brand-mozilla }
+subplat-privacy-policy-2 = Паведамленне аб прыватнасці { -product-mozilla-accounts(capitalization: "uppercase") }
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
 subplat-privacy-policy-plaintext-2 = { subplat-privacy-policy-2 }:
 subplat-moz-terms = Умовы выкарыстання { -product-mozilla-accounts(capitalization: "uppercase") }

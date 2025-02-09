@@ -32,6 +32,8 @@ brand-m-logo =
 ## ButtonBack component
 ## Allows users to click a back arrow to navigate to the previous page
 
+button-back-aria-label = Назад
+button-back-title = Назад
 
 ## ButtonDownloadRecoveryKeyPDF
 ## Clicking on this button downloads a PDF file that contains the user's account recovery key
@@ -143,6 +145,17 @@ form-reset-password-with-balloon-match-error = Паролі не супадаю�
 
 ## FormPasswordInlineCriteria
 
+form-password-with-inline-criteria-signup-new-password-label =
+    .label = Пароль
+form-password-with-inline-criteria-signup-confirm-password-label =
+    .label = Паўтарыце пароль
+form-password-with-inline-criteria-signup-submit-button = Стварыць уліковы запіс
+form-password-with-inline-criteria-reset-new-password =
+    .label = Новы пароль
+form-password-with-inline-criteria-confirm-password =
+    .label = Пацвердзіце пароль
+form-password-with-inline-criteria-reset-submit-button = Стварыць новы пароль
+form-password-with-inline-criteria-match-error = Паролі не супадаюць
 
 ## FormVerifyCode
 
@@ -171,6 +184,15 @@ get-data-trio-print-2 =
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
+# Aria-label option for an alert symbol
+alert-icon-aria-label =
+    .aria-label = Перасцярога
+# Aria-label option for an alert symbol
+icon-attention-aria-label =
+    .aria-label = Увага
+# Aria-label option for an alert symbol
+icon-warning-aria-label =
+    .aria-label = Папярэджанне
 
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
@@ -209,6 +231,11 @@ input-password-show = Паказаць пароль
 
 ## Phone number component
 
+# This is an aria-label available to screen readers for a selection list that includes country flags, country name and country code
+input-phone-number-country-list-aria-label = Выбар краіны
+input-phone-number-enter-number = Увядзіце нумар тэлефона
+input-phone-number-country-united-states = Злучаныя Штаты
+input-phone-number-country-canada = Канада
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Назад
 
@@ -228,6 +255,8 @@ reset-pwd-link-damaged-message = У спасылцы, па якой вы пра�
 
 ## LinkExpired component
 
+# Button to request a new link if the previous link that was emailed to the user is expired
+link-expired-new-link-button = Атрымаць новую спасылку
 
 ## LinkRememberPassword component
 
@@ -246,6 +275,7 @@ confirmation-link-reused-message = Гэта спасылка для пацвяр
 
 ## Notification Promo Banner component
 
+account-recovery-notification-cta = Стварыць
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Дрэнны запыт
 
@@ -269,6 +299,7 @@ password-strength-balloon-stay-safe-tips = Будзьце ў бяспецы —
 ## Ready component
 
 ready-complete-set-up-instruction = Закончыце наладку, увёўшы новы пароль на іншых вашых прыладах { -brand-firefox }.
+manage-your-account-button = Кіруйце сваім уліковым запісам
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
@@ -416,6 +447,8 @@ cs-sign-out-button = Выйсці
 ## Data collection section
 
 dc-heading = Збор і выкарыстанне дадзеных
+dc-subheader-moz-accounts = { -product-mozilla-accounts }
+dc-subheader-ff-browser = Браўзер { -brand-firefox }
 dc-subheader-content-2 = Дазволіць { -product-mozilla-accounts } адпраўляць тэхнічныя дадзеныя і інфармацыю аб узаемадзеянні ў { -brand-mozilla }.
 dc-opt-out-success-2 = Адмова пацверджана. { -product-mozilla-accounts } не будзе адпраўляць тэхнічныя дадзеныя або звесткі аб ўзаемадзеянні ў { -brand-mozilla }.
 dc-opt-in-success-2 = Дзякуй! Адпраўка гэтых дадзеных дапаможа нам палепшыць { -product-mozilla-accounts }.
@@ -425,6 +458,9 @@ dc-learn-more = Падрабязней
 # DropDownAvatarMenu component
 
 drop-down-menu-title-2 = Меню { -product-mozilla-account }
+# This is displayed in the Settings menu after user's click on their profile icon.
+# Following this string on a new line will be their display name (user's name or email)
+drop-down-menu-signed-in-as-v2 = Увайшоўшы як
 drop-down-menu-sign-out = Выйсці
 drop-down-menu-sign-out-error-2 = На жаль, пры выхадзе ўзнікла праблема
 
@@ -478,6 +514,15 @@ flow-recovery-key-info-cancel-link = Скасаваць
 
 ## FlowSetupPhoneConfirmCode
 
+# verification code refers to a code sent by text message to confirm phone number ownership
+# and complete setup
+flow-setup-phone-confirm-code-heading = Увядзіце код пацверджання
+flow-setup-phone-confirm-code-input-label = Увядзіце 6-значны код
+flow-setup-phone-confirm-code-button = Сцвердзіць
+# button to resend a code by text message to the user's phone
+# followed by a button to resend a code
+flow-setup-phone-confirm-code-expired = Код пратэрмінаваны?
+flow-setup-phone-confirm-code-resend-code-button = Паўторна адправіць код
 
 ## FlowSetupPhoneConfirmCode
 
