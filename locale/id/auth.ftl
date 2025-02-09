@@ -75,6 +75,28 @@ ios-download-plaintext = Unduh { $productName } di App Store:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 another-device-plaintext = Pasang { $productName } di perangkat lain:
 automated-email-change-2 = Jika Anda tidak melakukannya, <a data-l10n-name="passwordChangeLink">ubah sandi Anda</a> segera.
+automated-email-support = Untuk info lebih lanjut, kunjungi <a data-l10n-name="supportLink">Dukungan { -brand-mozilla }</a>.
+# After the colon, there's a link to https://accounts.firefox.com/settings/change_password
+automated-email-change-plaintext-2 = Jika anda tidak merasa melakukan tindakan ini, ubah sandi Anda sekarang juga:
+#  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+automated-email-support-plaintext = Untuk info lebih lanjut, kunjungi Dukungan { -brand-mozilla }:
+automated-email-inactive-account = Ini adalah surel otomatis. Anda menerimanya karena Anda memiliki { -product-mozilla-account } dan sudah 2 tahun sejak terakhir kali Anda masuk.
+# supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+automated-email-no-action = { automated-email-no-action-plaintext } Untuk info lebih lanjut, kunjungi <a data-l10n-name="supportLink">Dukungan { -brand-mozilla }</a>.
+automated-email-no-action-plaintext = Ini adalah surel otomatis. Jika Anda menerimanya secara tidak sengaja, Anda tidak perlu melakukan apa pun.
+#  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
+automated-email-not-authorized-plaintext = Ini adalah surel otomatis; jika Anda tidak mengotorisasi tindakan ini, silakan ubah kata sandi Anda:
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+# - $uaOSVersion - the user agent's operating system version
+automatedEmailRecoveryKey-origin-device-all = Permintaan ini berasal dari { $uaBrowser } pada { $uaOS } { $uaOSVersion }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+automatedEmailRecoveryKey-origin-device-browser-os = Permintaan ini berasal dari { $uaBrowser } pada { $uaOS }.
 change-password-plaintext = Jika Anda mencurigai seseorang berusaha mendapatkan akses ke akun Anda, silakan ubah kata sandi Anda.
 manage-account = Kelola akun
 # After the colon, there's a link to https://accounts.firefox.com/support
