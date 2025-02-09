@@ -635,6 +635,7 @@ flow-setup-phone-confirm-code-button = Confirmar
 # followed by a button to resend a code
 flow-setup-phone-confirm-code-expired = O código expirou?
 flow-setup-phone-confirm-code-resend-code-button = Reenviar código
+flow-setup-phone-confirm-code-resend-code-success = Código enviado
 flow-setup-phone-confirm-code-success-message-v2 = Celular de recuperação adicionado
 
 ## FlowSetupPhoneConfirmCode
@@ -704,6 +705,7 @@ nav-email-comm = Comunicações por email
 tfa-replace-code-error-3 = Houve um problema ao substituir seus códigos de autenticação de backup
 tfa-create-code-error = Houve um problema ao criar seus códigos de autenticação de backup
 tfa-replace-code-success-1 = Novos códigos foram criados. Guarde esses códigos de autenticação de backup de uso único em um local seguro. Você precisará deles para acessar sua conta, se não estiver com seu dispositivo móvel.
+tfa-replace-code-success-alert-4 = Códigos de autenticação de backup atualizados
 tfa-replace-code-1-2 = Etapa 1 de 2
 tfa-replace-code-2-2 = Etapa 2 de 2
 tfa-enter-code-to-confirm-v2 = Digite um dos seus novos códigos de autenticação de backup para confirmar que você os salvou. Seus códigos de autenticação de backup antigos serão desativados após esta etapa ser concluída.
@@ -883,6 +885,7 @@ settings-recovery-phone-remove-success = Celular de recuperação removido
 ## PageSetupRecoveryPhone
 
 page-setup-recovery-phone-heading = Adicionar celular de recuperação
+page-setup-recovery-phone-back-button-title = Voltar às configurações
 
 ## Add secondary email page
 
@@ -922,6 +925,8 @@ verify-secondary-email-success-alert-2 = { $email } adicionado com sucesso
 
 # Link to delete account on main Settings page
 delete-account-link = Excluir conta
+# Success message displayed in alert bar after the user has successfully confirmed their account is not inactive.
+inactive-update-status-success-alert = Entrou com sucesso. Sua { -product-mozilla-account } e seus dados permanecerão ativos.
 
 ## Two Step Authentication
 
@@ -952,6 +957,8 @@ tfa-enter-totp-v2 = Agora digite o código de autenticação do seu aplicativo d
 tfa-input-enter-totp-v2 =
     .label = Digite o código de autenticação
 tfa-save-these-codes-1 = Guarde esses códigos de autenticação de backup de uso único em um local seguro, para quando você não estiver com seu dispositivo móvel.
+# codes here refers to backup authentication codes
+tfa-enter-code-to-confirm-setup = Confirme que você salvou seus códigos digitando um deles. Sem esses códigos, você pode não conseguir entrar na sua conta se estiver sem o aplicativo de autenticação.
 tfa-enter-recovery-code-1 =
     .label = Digite um código de autenticação de backup
 
@@ -1013,6 +1020,13 @@ tfa-row-backup-codes-title = Códigos de autenticação de backup
 # Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
 # Users that have not enabled or verified 2FA will not see this
 tfa-row-backup-codes-not-available = Nenhum código disponível
+# $numCodesRemaining - the number of backup authentication codes that have not yet been used (generally between 1 to 5)
+# A different message is shown when no codes are available
+tfa-row-backup-codes-available-v2 =
+    { $numCodesAvailable ->
+        [one] { $numCodesAvailable } códigos restante
+       *[other] { $numCodesAvailable } códigos restantes
+    }
 # Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
 tfa-row-backup-codes-get-new-cta = Obter novos códigos
 # Shown to users who have no backup authentication codes
@@ -1178,11 +1192,16 @@ auth-error-114-generic = Você já tentou vezes demais. Tente novamente mais tar
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Você já tentou vezes demais. Tente novamente { $retryAfter }.
 auth-error-125 = A solicitação foi bloqueada por motivos de segurança
+auth-error-129 = Número de celular inválido
 auth-error-138-2 = Sessão não confirmada
 auth-error-139 = O email secundário deve ser diferente do email da sua conta
 auth-error-155 = Token TOTP não encontrado
+# Error shown when the user submits an invalid backup authentication code
+auth-error-156 = Código de autenticação de backup não encontrado
 auth-error-159 = Chave de recuperação de conta inválida
 auth-error-183-2 = Código de confirmação inválido ou vencido
+auth-error-202 = Funcionalidade não ativada
+auth-error-203 = Sistema indisponível, tente novamente mais tarde
 auth-error-206 = Não foi possível criar senha, a senha já foi definida
 auth-error-999 = Erro não esperado
 auth-error-1001 = Tentativa de acesso cancelada
