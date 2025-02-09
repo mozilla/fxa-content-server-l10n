@@ -890,6 +890,7 @@ settings-recovery-phone-remove-success = Teléfono de recuperación eliminado
 ## PageSetupRecoveryPhone
 
 page-setup-recovery-phone-heading = Añadir teléfono de recuperación
+page-setup-recovery-phone-back-button-title = Regresar a los ajustes
 
 ## Add secondary email page
 
@@ -963,6 +964,8 @@ tfa-enter-totp-v2 = Ahora ingresa el código de autenticación de la aplicación
 tfa-input-enter-totp-v2 =
     .label = Ingresar código de autenticación
 tfa-save-these-codes-1 = Guarda estos códigos de autenticación de respaldo de un solo uso en un lugar seguro para cuando no tengas tu dispositivo móvil.
+# codes here refers to backup authentication codes
+tfa-enter-code-to-confirm-setup = Confirma que guardaste tus códigos ingresando uno. Sin estos códigos, es posible que no puedas conectarte si no tienes la aplicación de autenticación.
 tfa-enter-recovery-code-1 =
     .label = Ingresa un código de autenticación de respaldo
 
@@ -1024,6 +1027,13 @@ tfa-row-backup-codes-title = Códigos de autenticación de respaldo
 # Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
 # Users that have not enabled or verified 2FA will not see this
 tfa-row-backup-codes-not-available = No hay códigos disponibles
+# $numCodesRemaining - the number of backup authentication codes that have not yet been used (generally between 1 to 5)
+# A different message is shown when no codes are available
+tfa-row-backup-codes-available-v2 =
+    { $numCodesAvailable ->
+        [one] { $numCodesAvailable } código restante
+       *[other] { $numCodesAvailable } códigos restantes
+    }
 # Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
 tfa-row-backup-codes-get-new-cta = Obtener nuevos códigos
 # Shown to users who have no backup authentication codes
