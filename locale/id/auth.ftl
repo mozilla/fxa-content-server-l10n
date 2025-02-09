@@ -52,6 +52,7 @@ subplat-privacy-website-plaintext = { subplat-privacy }:
 account-deletion-info-block-communications = Jika akun Anda dihapus, Anda masih akan menerima surel dari Mozilla Corporation dan Mozilla Foundation, kecuali jika Anda <a data-l10n-name="unsubscribeLink">meminta untuk berhenti berlangganan</a>.
 account-deletion-info-block-support = Jika Anda memiliki pertanyaan atau memerlukan bantuan, jangan ragu untuk menghubungi <a data-l10n-name="supportLink">tim dukungan</a> kami.
 account-deletion-info-block-communications-plaintext = Jika akun Anda dihapus, Anda masih akan menerima surel dari Mozilla Corporation dan Mozilla Foundation, kecuali jika Anda meminta untuk berhenti berlangganan:
+account-deletion-info-block-support-plaintext = Jika Anda memiliki pertanyaan atau memerlukan bantuan, jangan ragu untuk menghubungi tim dukungan kami:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-android-badge = <img data-l10n-name="google-play-badge" alt="Unduh { $productName } di { -google-play }">
@@ -64,6 +65,16 @@ another-desktop-device-2 = Pasang { $productName } di <a data-l10n-name="another
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 another-device-2 = Pasang { $productName } di <a data-l10n-name="anotherDeviceLink">perangkat lain</a>.
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+android-download-plaintext = Dapatkan { $productName } di Google Play:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+ios-download-plaintext = Unduh { $productName } di App Store:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-device-plaintext = Pasang { $productName } di perangkat lain:
+automated-email-change-2 = Jika Anda tidak melakukannya, <a data-l10n-name="passwordChangeLink">ubah sandi Anda</a> segera.
 change-password-plaintext = Jika Anda mencurigai seseorang berusaha mendapatkan akses ke akun Anda, silakan ubah kata sandi Anda.
 manage-account = Kelola akun
 # After the colon, there's a link to https://accounts.firefox.com/support
