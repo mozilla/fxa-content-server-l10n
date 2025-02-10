@@ -1972,7 +1972,7 @@ msgstr "お使いのすべての端末でブックマークやタブ、パスワ
 
 #: .es5/templates/pair/auth_complete.mustache:5
 msgid "See tabs from synced devices"
-msgstr "同期された端末のタブを表示します"
+msgstr "同期された端末のタブを表示する"
 
 #: .es5/templates/pair/auth_complete.mustache:7
 msgid "Manage devices"
@@ -2104,4 +2104,4 @@ msgstr "申し訳ありません、何か問題が発生しました。"
 
 #: .es5/templates/pair/unsupported.mustache:18
 msgid "Please close this tab and try again."
-msgstr ""
+msgstr "このタブを閉じてもう一度お試しください。"

@@ -251,6 +251,15 @@ fraudulentAccountDeletion-contact = ご不明な点がある場合、<a data-l10
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = ご不明な点がある場合、サポートチームまでお問い合わせください: { $mozillaSupportUrl }
 inactiveAccountFinalWarning-subject = { -product-mozilla-account } を維持する最後のチャンスです
+inactiveAccountFinalWarning-title = あなたの { -brand-mozilla } アカウントとデータが削除されます
+inactiveAccountFinalWarning-preview = ログインしてアカウントを維持
+inactiveAccountFinalWarning-account-description = { -product-mozilla-account }は、{ -brand-firefox } の同期、{ -product-mozilla-monitor }、{ -product-firefox-relay }、{ -product-mdn } など無料のプライバシーおよびブラウジング製品にアクセスするために使用されます。
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+# This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
+inactiveAccountFinalWarning-impact = アカウントにログインしない限り、アカウントと個人データが <strong>{ $deletionDate }</strong> に完全に削除されます。
+inactiveAccountFinalWarning-action = ログインしてアカウントを維持
+# followed by link to sign in
+inactiveAccountFinalWarning-action-plaintext = ログインしてアカウントを維持:
 inactiveAccountFirstWarning-subject = アカウントを維持するためにログインを！
 inactiveAccountFirstWarning-title = データを削除せずに { -brand-mozilla } アカウントを使い続けますか？
 inactiveAccountFirstWarning-account-description-v2 = { -product-mozilla-account } は、{ -brand-firefox } の同期、{ -product-mozilla-monitor } 、{ -product-firefox-relay } 、{ -product-mdn } などのプライバシーおよびブラウジングの製品を無料でアクセスするために使用されます。
@@ -262,6 +271,15 @@ inactiveAccountFirstWarning-action = ログインしてアカウントを維持
 inactiveAccountFirstWarning-preview = ログインしてアカウントを維持
 # followed by link to sign in
 inactiveAccountFirstWarning-action-plaintext = ログインしてアカウントを維持:
+inactiveAccountSecondWarning-subject = 行動が必要！ 7 日後にアカウントが削除されます
+inactiveAccountSecondWarning-title = あなたの { -brand-mozilla } アカウントとデータが 7 日後に削除されます
+inactiveAccountSecondWarning-account-description-v2 = { -product-mozilla-account }は、{ -brand-firefox } の同期、{ -product-mozilla-monitor }、{ -product-firefox-relay }、{ -product-mdn } など無料のプライバシーおよびブラウジング製品にアクセスするために使用されます。
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+inactiveAccountSecondWarning-impact = アカウント利用がないため、アカウントと個人データは <strong>{ $deletionDate }</strong> に完全に削除されます。
+inactiveAccountSecondWarning-action = ログインしてアカウントを維持
+inactiveAccountSecondWarning-preview = ログインしてアカウントを維持
+# followed by link to sign in
+inactiveAccountSecondWarning-action-plaintext = ログインしてアカウントを維持:
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title-zero = バックアップ認証コードが足りません！
 codes-reminder-title-one = バックアップ認証コードが残り 1 つになりました
@@ -301,8 +319,24 @@ passwordChangeRequired-different-password-plaintext = 重要: 以前に使用し
 password-forgot-otp-subject = パスワードをお忘れですか？
 password-forgot-otp-title = パスワードをお忘れですか？
 password-forgot-otp-request = 次の端末で { -product-mozilla-account }のパスワード変更がリクエストされました:
+password-forgot-otp-code-2 = その場合、次の確認コードを使用してください:
 password-forgot-otp-expiry-notice = このコードの有効期限は 10分です。
+passwordReset-subject-2 = あなたのパスワードはリセットされました
+passwordReset-title-2 = パスワードがリセットされました
+# This sentence is followed by information about the device and time of the password reset
+passwordReset-description-2 = 次の端末で、あなたの { -product-mozilla-account }のパスワードがリセットされました:
 passwordResetAccountRecovery-subject-2 = あなたのパスワードはリセットされました
+passwordResetAccountRecovery-title-3 = あなたのパスワードはリセットされました
+# Followed by details on the device and date/time of the password reset.
+passwordResetAccountRecovery-description-3 = 次の端末で、アカウント回復用キーを使用してあなたの { -product-mozilla-account }のパスワードがリセットされました:
+passwordResetAccountRecovery-information = 同期されていたすべての端末からログアウトしました。使用したアカウント回復用キーを置き換える新しいキーを作成しました。アカウント設定から変更できます。
+# After the colon there is a link to account settings
+passwordResetAccountRecovery-information-txt = 同期されていたすべての端末からログアウトしました。使用したアカウント回復用キーを置き換える新しいキーを作成しました。アカウント設定から変更できます:
+passwordResetAccountRecovery-action-4 = アカウント管理
+passwordResetWithRecoveryKeyPrompt-subject = あなたのパスワードはリセットされました
+passwordResetWithRecoveryKeyPrompt-title = あなたのパスワードはリセットされました
+# Details of the device and date/time where the password was reset
+passwordResetWithRecoveryKeyPrompt-description = 次の端末で、{ -product-mozilla-account }のパスワードをリセットしました:
 postAddAccountRecovery-subject-3 = 新しいアカウント回復用キーが生成されました
 postAddAccountRecovery-title2 = 新しいアカウント回復用キーを生成しました
 # Key here refers to account recovery key
