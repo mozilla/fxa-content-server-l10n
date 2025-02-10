@@ -333,6 +333,7 @@ coupon-expired = プロモーションコードの有効期限が切れている
 card-error = 取引を処理できませんでした。クレジットカード情報を確認して、もう一度お試しください。
 country-currency-mismatch = このサブスクリプションの通貨は、お支払いに関連付けられている国では無効です。
 currency-currency-mismatch = 申し訳ございません。通貨の切り替えはできません。
+location-unsupported = 当社の利用規約により、現在ご利用の地域はサポートされていません。
 no-subscription-change = 申し訳ありません。サブスクリプションのプラン変更はできません。
 # $mobileAppStore (String) - "Google Play Store" or "App Store", localized when the translation is available.
 iap-already-subscribed = すでに { $mobileAppStore } から登録されています。
@@ -347,6 +348,7 @@ product-profile-error =
 product-customer-error =
     .title = 顧客読み込みエラー
 product-plan-not-found = プランが見つかりませんでした
+product-location-unsupported-error = サポートされていない地域です
 
 ## Hooks - coupons
 

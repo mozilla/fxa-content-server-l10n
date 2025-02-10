@@ -31,6 +31,7 @@ next-payment-confirmation-amount = { $amount } / { $interval }
 next-payment-confirmation-cc-card-ending-in = 下 4 桁が { $last4 } のカード
 next-payment-confirmation-download-button = ダウンロードを続行
 checkout-error-boundary-retry-button = 再試行
+checkout-error-boundary-basic-error-message = 問題が発生しました。もう一度試すか、<contactSupportLink>サポートにお問い合わせください。</contactSupportLink>
 
 ## Component - Payment Consent Checkbox
 
@@ -120,6 +121,8 @@ next-coupon-success-repeating = プランは { $couponDurationDate } に自動�
 plan-price-interval-daily = 毎日 { $amount }
 plan-price-interval-weekly = 毎週 { $amount }
 plan-price-interval-monthly = 毎月 { $amount }
+plan-price-interval-6monthly = 6 か月ごとに { $amount }
+plan-price-interval-yearly = 毎年 { $amount }
 
 ## Component - SubscriptionTitle
 
