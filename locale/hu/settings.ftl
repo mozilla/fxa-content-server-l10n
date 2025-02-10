@@ -973,7 +973,7 @@ tfa-save-these-codes-1 =
     Mentse ezeket az egyszer használatos tartalék hitelesítési kódokat biztonságos
     helyen, arra az esetre, ha nincs mobileszköze.
 # codes here refers to backup authentication codes
-tfa-enter-code-to-confirm-setup = Erősítse meg a kódok elmentését egy beírásával. Ezen kódok nélkül lehet, hogy nem tud bejelentkezni, ha nincs rendelkezik a hitelesítő alkalmazással.
+tfa-enter-code-to-confirm-setup = Egy kód beírásával erősítse meg, hogy elmentette a kódokat. Ezen kódok nélkül lehet, hogy nem fog tudni bejelentkezni, ha nem rendelkezik a hitelesítő alkalmazással.
 tfa-enter-recovery-code-1 =
     .label = Adjon meg egy tartalék hitelesítési kódot
 
