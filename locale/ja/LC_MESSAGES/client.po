@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-05 20:09+0000\n"
-"PO-Revision-Date: 2024-08-14 11:38+0000\n"
+"PO-Revision-Date: 2025-02-10 10:20+0000\n"
 "Last-Translator: marsf <chimantaea_mirabilis@yahoo.co.jp>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -1092,7 +1092,7 @@ msgstr "他の端末で開いているタブやブックマーク、パスワー
 
 #: .es5/templates/connect_another_device.mustache:24 .es5/templates/ready.mustache:2
 msgid "Manage your account"
-msgstr ""
+msgstr "アカウント管理"
 
 #: .es5/templates/force_auth.mustache:1 .es5/templates/sign_in_password.mustache:1
 msgid "Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Mozilla account</span>"
@@ -1161,11 +1161,11 @@ msgstr "<div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div> へ進む"
 
 #: .es5/templates/index.mustache:8
 msgid "Create an email mask"
-msgstr ""
+msgstr "メールマスクを作成する"
 
 #: .es5/templates/index.mustache:9
 msgid "Please provide the email address where you’d like to forward emails from your masked email."
-msgstr ""
+msgstr "メールマスクから転送するメールアドレスを設定してください。"
 
 #: .es5/templates/index.mustache:12
 msgid "Sign up or sign in"
@@ -1927,11 +1927,11 @@ msgstr "Apple で続ける"
 
 #: .es5/templates/partial/unsupported-pair.mustache:1
 msgid "Connecting your mobile device with your Mozilla account"
-msgstr ""
+msgstr "モバイル端末を Mozilla アカウントに接続する"
 
 #: .es5/templates/partial/unsupported-pair.mustache:2
 msgid "Open Firefox on your computer, visit <b class=\"whitespace-nowrap\">firefox.com/pair</b>, and follow the on-screen instructions to connect your mobile device."
-msgstr ""
+msgstr "コンピューターで Firefox を起動し、<b class=\"whitespace-nowrap\">firefox.com/pair</b> を開いたら、画面上の案内に従ってモバイル端末を接続してください。"
 
 #: .es5/templates/pair/auth_allow.mustache:1
 msgid "Did you just sign in to Firefox?"
@@ -1984,15 +1984,15 @@ msgstr "<small class=\"card-subheader\">他の端末から</small> の承認が�
 
 #: .es5/templates/pair/failure.mustache:1
 msgid "Device pairing failed"
-msgstr ""
+msgstr "端末のペアリングに失敗しました"
 
 #: .es5/templates/pair/failure.mustache:2
 msgid "The setup couldn’t be completed. Please sign in with your email."
-msgstr ""
+msgstr "セットアップを正常に完了できませんでした。メールアドレスでログインしてください。"
 
 #: .es5/templates/pair/index.mustache:1
 msgid "Signed in successfully!"
-msgstr ""
+msgstr "ログインしました！"
 
 #: .es5/templates/pair/index.mustache:8
 msgid "Sync your Firefox experience"
@@ -2008,7 +2008,7 @@ msgstr "保存したパスワード、タブ、閲覧履歴などをすべての
 
 #: .es5/templates/pair/index.mustache:12
 msgid "Select an option to continue:"
-msgstr ""
+msgstr "オプションを選択して続行:"
 
 #: .es5/templates/pair/index.mustache:13
 msgid "I already have Firefox for mobile"
@@ -2096,11 +2096,11 @@ msgstr "システムカメラを使用しましたか？ Firefox アプリ内か
 
 #: .es5/templates/pair/unsupported.mustache:14
 msgid "Download Firefox now"
-msgstr ""
+msgstr "今すぐ Firefox をダウンロード"
 
 #: .es5/templates/pair/unsupported.mustache:17
 msgid "Oops! Something went wrong."
-msgstr ""
+msgstr "申し訳ありません、何か問題が発生しました。"
 
 #: .es5/templates/pair/unsupported.mustache:18
 msgid "Please close this tab and try again."

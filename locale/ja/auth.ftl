@@ -250,6 +250,7 @@ fraudulentAccountDeletion-contact = ご不明な点がある場合、<a data-l10
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = ご不明な点がある場合、サポートチームまでお問い合わせください: { $mozillaSupportUrl }
+inactiveAccountFinalWarning-subject = { -product-mozilla-account } を維持する最後のチャンスです
 inactiveAccountFirstWarning-subject = アカウントを維持するためにログインを！
 inactiveAccountFirstWarning-title = データを削除せずに { -brand-mozilla } アカウントを使い続けますか？
 inactiveAccountFirstWarning-account-description-v2 = { -product-mozilla-account } は、{ -brand-firefox } の同期、{ -product-mozilla-monitor } 、{ -product-firefox-relay } 、{ -product-mdn } などのプライバシーおよびブラウジングの製品を無料でアクセスするために使用されます。
