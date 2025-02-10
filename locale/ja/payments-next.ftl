@@ -9,7 +9,13 @@ next-basic-error-message = 何か問題が発生しました。また後で試�
 
 ## Page
 
+checkout-signin-or-create = 1. ログインするか { -product-mozilla-account }を作成する
+checkout-create-account = { -product-mozilla-account }を作成
+continue-signin-with-google-button = { -brand-google } で続ける
+continue-signin-with-apple-button = { -brand-apple } で続ける
 next-payment-method-header = お支払い方法を選択してください
+# This message is used to indicate the second step in a multi step process.
+payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = まず、サブスクリプションの承認が必要です。
 next-payment-confirmation-thanks-heading-account-exists = ありがとうございます。メールを確認してください。
 next-payment-confirmation-order-heading = 注文詳細
@@ -24,6 +30,7 @@ next-payment-confirmation-amount = { $amount } / { $interval }
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = 下 4 桁が { $last4 } のカード
 next-payment-confirmation-download-button = ダウンロードを続行
+checkout-error-boundary-retry-button = 再試行
 
 ## Component - Payment Consent Checkbox
 
@@ -34,6 +41,10 @@ next-payment-confirm-checkbox-error = 先へ進む前に、こちらに同意し
 
 next-new-user-submit = サブスクリプションを購入
 next-payment-validate-name-error = お名前を入力してください。
+next-pay-with-heading-paypal = { -brand-paypal } で支払う
+# Label for the Full Name input
+payment-name-label = カードに記載されている名前
+payment-name-placeholder = フルネーム
 
 ## Component - CouponForm
 
@@ -45,6 +56,9 @@ next-coupon-promo-code = プロモーションコード
 next-coupon-promo-code-applied = プロモーションコードが適用されました
 next-coupon-remove = 削除
 next-coupon-submit = 適用
+payments-client-loading-spinner =
+    .aria-label = 読み込み中...
+    .alt = 読み込み中...
 
 ## Payment Section
 
@@ -57,6 +71,25 @@ next-plan-details-show-button = 詳細を表示
 
 ## Select Tax Location
 
+select-tax-location-title = 地域
+select-tax-location-edit-button = 編集
+select-tax-location-save-button = 保存
+select-tax-location-country-code-label = 国
+select-tax-location-country-code-placeholder = 国を選択
+select-tax-location-error-missing-country-code = 国を選択してください
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN
+select-tax-location-product-not-available = { $productName } はこの場所では利用できません。
+select-tax-location-postal-code-label = 郵便番号
+select-tax-location-postal-code =
+    .placeholder = 郵便番号を入力
+select-tax-location-error-missing-postal-code = 郵便番号を入力してください
+select-tax-location-error-invalid-postal-code = 正しい郵便番号を入力してください
+select-tax-location-successfully-updated = 地域情報が更新されました。
+select-tax-location-error-location-not-updated = 地域情報を更新できませんでした。もう一度お試しください。
+signin-form-continue-button = 続ける
+signin-form-email-input = メールアドレスを入力
+signin-form-email-input-missing = メールアドレスを入力してください
+signin-form-email-input-invalid = 正しいメールアドレスを入力してください
 next-new-user-subscribe-product-updates-mdnplus = { -product-mdn-plus } と { -brand-mozilla } から製品ニュースと最新情報を受け取りたい
 next-new-user-subscribe-product-updates-mozilla = { -brand-mozilla } から製品ニュースと最新情報を受け取りたい
 next-new-user-subscribe-product-updates-snp = { -brand-mozilla } からセキュリティとプライバシーに関するニュースと最新情報を受け取りたい
@@ -72,6 +105,8 @@ next-plan-details-total-label = 合計
 ## Purchase details - shared by multiple components, including purchase details and payment form
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+list-positive-amount = { $amount }
+list-negative-amount = - { $amount }
 next-coupon-success = プラン自動更新時の価格は定価になります。
 # $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
 next-coupon-success-repeating = プランは { $couponDurationDate } に自動更新され、価格は定価になります。
@@ -82,6 +117,9 @@ next-coupon-success-repeating = プランは { $couponDurationDate } に自動�
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+plan-price-interval-daily = 毎日 { $amount }
+plan-price-interval-weekly = 毎週 { $amount }
+plan-price-interval-monthly = 毎月 { $amount }
 
 ## Component - SubscriptionTitle
 

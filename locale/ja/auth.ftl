@@ -337,6 +337,11 @@ passwordResetWithRecoveryKeyPrompt-subject = あなたのパスワードはリ�
 passwordResetWithRecoveryKeyPrompt-title = あなたのパスワードはリセットされました
 # Details of the device and date/time where the password was reset
 passwordResetWithRecoveryKeyPrompt-description = 次の端末で、{ -product-mozilla-account }のパスワードをリセットしました:
+# Text for button action to create a new account recovery key
+passwordResetWithRecoveryKeyPrompt-action = アカウント回復用キーを作成
+# colon is followed by a link to create an account recovery key from the account settings page
+passwordResetWithRecoveryKeyPrompt-action-txt = アカウント回復用キーを作成:
+passwordResetWithRecoveryKeyPrompt-cta-description = 同期していたすべての端末でもう一度ログインする必要があります。次回はアカウント回復用キーと共にデータを安全に保管してください。パスワードを忘れてもデータを回復できます。
 postAddAccountRecovery-subject-3 = 新しいアカウント回復用キーが生成されました
 postAddAccountRecovery-title2 = 新しいアカウント回復用キーを生成しました
 # Key here refers to account recovery key
@@ -349,6 +354,11 @@ postAddLinkedAccount-subject-2 = { -product-mozilla-account }に新しいアカ�
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = { $providerName } のアカウントが { -product-mozilla-account }にリンクされています
 postAddLinkedAccount-action = アカウント管理
+postAddRecoveryPhone-subject = 回復用の電話番号を追加しました
+postAddRecoveryPhone-title = 回復用の電話番号を作成しました
+# Variables:
+#  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
+postAddRecoveryPhone-description = 回復用の電話番号として { $maskedLastFourPhoneNumber } を登録しました
 postAddRecoveryPhone-enabled-device = 次の端末から有効にしました:
 postAddRecoveryPhone-action = アカウントの管理
 postAddTwoStepAuthentication-subject-2 = 2 段階認証がオンになりました
