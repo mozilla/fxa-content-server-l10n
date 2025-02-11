@@ -6,6 +6,9 @@ next-payment-error-manage-subscription-button = Upravljaj z naročnino
 next-iap-upgrade-contact-support = Ta izdelek je še vedno na voljo – obrnite se na podporo, da vam lahko pomagamo.
 next-payment-error-retry-button = Poskusi znova
 next-basic-error-message = Prišlo je do napake. Poskusite znova pozneje.
+checkout-error-contact-support-button = Obrnite se na podporo
+checkout-error-not-eligible = Niste upravičeni do naročnine na ta izdelek – obrnite se na podporo, da vam lahko pomagamo.
+checkout-error-contact-support = Obrnite se na podporo, da vam lahko pomagamo.
 
 ## Page
 

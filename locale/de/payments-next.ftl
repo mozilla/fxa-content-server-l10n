@@ -6,6 +6,9 @@ next-payment-error-manage-subscription-button = Mein Abonnement verwalten
 next-iap-upgrade-contact-support = Sie können dieses Produkt weiterhin erhalten – wenden Sie sich bitte an den Support, damit wir Ihnen helfen können.
 next-payment-error-retry-button = Erneut versuchen
 next-basic-error-message = Etwas ist schiefgegangen. Bitte versuchen Sie es später erneut.
+checkout-error-contact-support-button = Hilfe kontaktieren
+checkout-error-not-eligible = Sie sind nicht berechtigt, dieses Produkt zu abonnieren – bitte wenden Sie sich an den Support, damit wir Ihnen helfen können.
+checkout-error-contact-support = Bitte wenden Sie sich an den Support, damit wir Ihnen helfen können.
 
 ## Page
 
