@@ -715,6 +715,9 @@ tfa-replace-code-success-1 =
 tfa-replace-code-success-alert-4 = Reservautentiseringskoder uppdaterade
 tfa-replace-code-1-2 = Steg 1 av 2
 tfa-replace-code-2-2 = Steg 2 av 2
+tfa-enter-code-to-confirm-v2 =
+    Ange en av dina nya reservautentiseringskoder för att
+    bekräfta att du har sparat dem. Dina gamla reservautentiseringskoder kommer att inaktiveras när detta steg är slutfört.
 
 ## Avatar change page
 
@@ -891,6 +894,7 @@ settings-recovery-phone-remove-success = Återställningstelefon borttagen
 ## PageSetupRecoveryPhone
 
 page-setup-recovery-phone-heading = Lägg till återställningstelefon
+page-setup-recovery-phone-back-button-title = Tillbaka till inställningar
 
 ## Add secondary email page
 
@@ -968,9 +972,8 @@ tfa-input-enter-totp-v2 =
 tfa-save-these-codes-1 =
     Spara dessa reservautentiseringskoder för engångsbruk på en säker plats
     när du inte har din mobila enhet.
-tfa-enter-code-to-confirm-v2 =
-    Ange en av dina nya reservautentiseringskoder för att
-    bekräfta att du har sparat dem. Dina gamla reservautentiseringskoder kommer att inaktiveras när detta steg är slutfört.
+# codes here refers to backup authentication codes
+tfa-enter-code-to-confirm-setup = Bekräfta att du sparat dina koder genom att ange en. Utan dessa koder kanske du inte kan logga in om du inte har din autentiseringsapp.
 tfa-enter-recovery-code-1 =
     .label = Ange en reservautentiseringskod
 
@@ -1034,7 +1037,11 @@ tfa-row-backup-codes-title = Säkerhetskopiera autentiseringskoder
 tfa-row-backup-codes-not-available = Inga koder tillgängliga
 # $numCodesRemaining - the number of backup authentication codes that have not yet been used (generally between 1 to 5)
 # A different message is shown when no codes are available
-tfa-row-backup-codes-available = { $numCodesAvailable } koder återstår
+tfa-row-backup-codes-available-v2 =
+    { $numCodesAvailable ->
+        [one] { $numCodesAvailable } kod återstår
+       *[other] { $numCodesAvailable } koder återstår
+    }
 # Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
 tfa-row-backup-codes-get-new-cta = Hämta nya koder
 # Shown to users who have no backup authentication codes
@@ -1674,8 +1681,12 @@ signin-recovery-method-subheader = Välj en återställningsmetod
 signin-recovery-method-details = Låt oss se till att det är du som använder dina återställningsmetoder.
 signin-recovery-method-phone = Telefon för återställning
 signin-recovery-method-code-v2 = Säkerhetskopiera autentiseringskoder
-# Variable: $numberOfCodes (String) - The number of authentication codes the user has left, e.g. 4
-signin-recovery-method-code-info = { $numberOfCodes } koder återstår
+# Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
+signin-recovery-method-code-info-v2 =
+    { $numBackupCodes ->
+        [one] { $numBackupCodes } kod återstår
+       *[other] { $numBackupCodes } koder återstår
+    }
 # Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
 signin-recovery-method-send-code-error-heading = Det gick inte att skicka en kod till ditt återställningstelefon
 signin-recovery-method-send-code-error-description = Försök igen senare eller använd dina reservautentiseringskoder.
@@ -1689,6 +1700,8 @@ signin-recovery-code-heading = Logga in
 signin-recovery-code-sub-heading = Ange reservautentiseringskod
 # codes here refers to backup authentication codes
 signin-recovery-code-instruction-v3 = Ange en av engångskoderna som du sparade när du konfigurerade tvåstegsautentisering.
+# code here refers to backup authentication code
+signin-recovery-code-input-label-v2 = Ange en kod på 10 tecken
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Bekräfta
 # Link to go to the page to use recovery phone instead

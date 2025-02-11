@@ -683,6 +683,7 @@ tfa-replace-code-success-1 =
     cuentas con tu dispositivo móvil.
 tfa-replace-code-1-2 = Paso 1 de 2
 tfa-replace-code-2-2 = Paso 2 de 2
+tfa-enter-code-to-confirm-v2 = Por favor, escribe uno de tus nuevos códigos de autenticación de respaldo para confirmar que los has guardado. Tus códigos de autenticación de respaldo antiguos se desactivarán una vez que completes este paso.
 
 ## Avatar change page
 
@@ -920,7 +921,6 @@ tfa-input-enter-totp-v2 =
 tfa-save-these-codes-1 =
     Guarda estos códigos de autenticación de respaldo de un solo uso en un lugar seguro para cuando
     no tengas tu dispositivo móvil.
-tfa-enter-code-to-confirm-v2 = Por favor, escribe uno de tus nuevos códigos de autenticación de respaldo para confirmar que los has guardado. Tus códigos de autenticación de respaldo antiguos se desactivarán una vez que completes este paso.
 tfa-enter-recovery-code-1 =
     .label = Introduce un código de autenticación de respaldo
 
@@ -981,9 +981,6 @@ signout-sync-session-expired = Lo sentimos, algo ha salido mal. Cierra la sesió
 # Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
 # Users that have not enabled or verified 2FA will not see this
 tfa-row-backup-codes-not-available = No hay códigos disponibles
-# $numCodesRemaining - the number of backup authentication codes that have not yet been used (generally between 1 to 5)
-# A different message is shown when no codes are available
-tfa-row-backup-codes-available = { $numCodesAvailable } códigos restantes
 # Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
 tfa-row-backup-codes-get-new-cta = Obtener nuevos códigos
 # Shown to users who have no backup authentication codes
