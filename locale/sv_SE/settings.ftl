@@ -1039,8 +1039,8 @@ tfa-row-backup-codes-not-available = Inga koder tillgängliga
 # A different message is shown when no codes are available
 tfa-row-backup-codes-available-v2 =
     { $numCodesAvailable ->
-        [one] { $numberOfCodes } kod återstår
-       *[other] { $numberOfCodes } koder återstår
+        [one] { $numCodesAvailable } kod återstår
+       *[other] { $numCodesAvailable } koder återstår
     }
 # Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
 tfa-row-backup-codes-get-new-cta = Hämta nya koder

@@ -1033,7 +1033,7 @@ tfa-row-backup-codes-not-available = Nissun codiç disponibil
 # A different message is shown when no codes are available
 tfa-row-backup-codes-available-v2 =
     { $numCodesAvailable ->
-        [one] Al reste { $numBackupCodes } codiç
+        [one] Al reste { $numCodesAvailable } codiç
        *[other] A restin { $numCodesAvailable } codiçs
     }
 # Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones

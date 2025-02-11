@@ -1678,10 +1678,10 @@ signin-recovery-method-code-v2 = Rezervne overitvene kode
 # Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
 signin-recovery-method-code-info-v2 =
     { $numBackupCodes ->
-        [one] { $numCodesAvailable } preostala koda
-        [two] { $numCodesAvailable } preostali kodi
-        [few] { $numCodesAvailable } preostale kode
-       *[other] { $numCodesAvailable } preostalih kod
+        [one] { $numBackupCodes } preostala koda
+        [two] { $numBackupCodes } preostali kodi
+        [few] { $numBackupCodes } preostale kode
+       *[other] { $numBackupCodes } preostalih kod
     }
 # Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
 signin-recovery-method-send-code-error-heading = Pri pošiljanju kode na telefonsko številko za obnovitev je prišlo do težave

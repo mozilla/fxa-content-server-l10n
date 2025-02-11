@@ -1674,7 +1674,7 @@ signin-recovery-method-code-v2 = Záložné overovacie kódy
 # Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
 signin-recovery-method-code-info-v2 =
     { $numBackupCodes ->
-        [one] Zostáva { $numCodesAvailable } kód
+        [one] Zostáva { $numBackupCodes } kód
         [few] Zostávajú { $numBackupCodes } kódy
         [many] Zostáva { $numBackupCodes } kódov
        *[other] Zostáva { $numBackupCodes } kódov
