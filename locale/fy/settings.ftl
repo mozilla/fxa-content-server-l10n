@@ -719,6 +719,9 @@ tfa-replace-code-success-1 =
 tfa-replace-code-success-alert-4 = Reserve-autentikaasjekoaden bywurke
 tfa-replace-code-1-2 = Stap 1 fan 2
 tfa-replace-code-2-2 = Stap 2 fan 2
+tfa-enter-code-to-confirm-v2 =
+    Fier ien fan jo nije reserve-autentikaasjekoaden yn om te
+    befêstigjen dat jo se bewarre hawwe. Jo âlde reserve-autentikaasjekoaden wurde útskeakele sa gau dizze stap foltôge is.
 
 ## Avatar change page
 
@@ -972,9 +975,6 @@ tfa-input-enter-totp-v2 =
 tfa-save-these-codes-1 =
     Bewarje dizze reserve-autentikaasjekoaden foar ienmalich gebrûk op in feilich plak foar as
     jo jo mobile apparaat net hawwe.
-tfa-enter-code-to-confirm-v2 =
-    Fier ien fan jo nije reserve-autentikaasjekoaden yn om te
-    befêstigjen dat jo se bewarre hawwe. Jo âlde reserve-autentikaasjekoaden wurde útskeakele sa gau dizze stap foltôge is.
 tfa-enter-recovery-code-1 =
     .label = Fier in reserve-autentikaasjekoade yn
 
@@ -1036,9 +1036,6 @@ tfa-row-backup-codes-title = Reserve-autentikaasjekoaden
 # Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
 # Users that have not enabled or verified 2FA will not see this
 tfa-row-backup-codes-not-available = Gjin koaden beskikber
-# $numCodesRemaining - the number of backup authentication codes that have not yet been used (generally between 1 to 5)
-# A different message is shown when no codes are available
-tfa-row-backup-codes-available = { $numCodesAvailable } koaden restearjend
 # Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
 tfa-row-backup-codes-get-new-cta = Nije koaden krije
 # Shown to users who have no backup authentication codes
@@ -1673,8 +1670,6 @@ signin-recovery-method-subheader = Kies in werstelmetoade
 signin-recovery-method-details = Litte wy der wis fan wêze dat jo it binne dy’t jo werstelmetoaden brûke.
 signin-recovery-method-phone = Wersteltelefoannûmer
 signin-recovery-method-code-v2 = Reserve-autentikaasjekoaden
-# Variable: $numberOfCodes (String) - The number of authentication codes the user has left, e.g. 4
-signin-recovery-method-code-info = { $numberOfCodes } koaden oer
 # Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
 signin-recovery-method-send-code-error-heading = Der is in probleem bard by it ferstjoeren fan in koade nei jo wersteltelefoannûmer
 signin-recovery-method-send-code-error-description = Probearje it letter opnij of brûk jo reservekopy-autentikaasjekoaden.
