@@ -561,8 +561,8 @@ dc-subheader-moz-accounts = { -product-mozilla-accounts }
 dc-subheader-ff-browser = Браузер { -brand-firefox }
 dc-subheader-content-2 = Разрешить { -product-mozilla-accounts("dative") } отправлять технические данные и данные взаимодействия в { -brand-mozilla }.
 dc-subheader-ff-content = Чтобы просмотреть или обновить технические настройки и данные взаимодействия вашего { -brand-firefox }, откройте настройки { -brand-firefox } и перейдите в раздел «Приватность и Защита».
-dc-opt-out-success-2 = Отказ подтверждён. { -product-mozilla-accounts } не будут отправлять технические данные или данные о взаимодействии в { -brand-mozilla }.
-dc-opt-in-success-2 = Спасибо! Отправка этих данных поможет нам улучшить { -product-mozilla-accounts }.
+dc-opt-out-success-2 = Отказ подтверждён. { -product-mozilla-accounts("nominative_uppercase") } не будут отправлять технические данные или данные о взаимодействии в { -brand-mozilla }.
+dc-opt-in-success-2 = Спасибо! Отправка этих данных поможет нам улучшить { -product-mozilla-accounts("nominative") }.
 dc-opt-in-out-error-2 = К сожалению, при изменении вашей настройки сбора данных возникла проблема
 dc-learn-more = Подробнее
 
@@ -1184,7 +1184,7 @@ terms-privacy-agreement-pocket-2 = <pocketTos>Условия использов�
 # link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-monitor-3 = <mozSubscriptionTosLink>Условия использования</mozSubscriptionTosLink> и <mozSubscriptionPrivacyLink>Уведомление о конфиденциальности</mozSubscriptionPrivacyLink> служб подписки { -brand-mozilla }
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-mozilla = <mozillaAccountsTos>Условия обслуживания</mozillaAccountsTos> и <mozillaAccountsPrivacy>Уведомление о конфиденциальности</mozillaAccountsPrivacy> { -product-mozilla-accounts(capitalization: "uppercase") }
+terms-privacy-agreement-mozilla = <mozillaAccountsTos>Условия обслуживания</mozillaAccountsTos> и <mozillaAccountsPrivacy>Уведомление о конфиденциальности</mozillaAccountsPrivacy> { -product-mozilla-accounts("genitive") }
 # links to Mozilla Account's Terms of Service and Privacy Notice
 terms-privacy-agreement-default-2 = Продолжая, вы соглашаетесь с <mozillaAccountsTos>Условиями обслуживания</mozillaAccountsTos> и <mozillaAccountsPrivacy>Уведомлением о конфиденциальности</mozillaAccountsPrivacy>.
 
@@ -1194,7 +1194,7 @@ terms-privacy-agreement-default-2 = Продолжая, вы соглашает�
 # This appears when a user has the option to authenticate via third party accounts in addition to their Firefox account. 
 # Firefox account login appears on top, and third party options appear on bottom. 
 # This string appears as a separation between the two, in the following order: "Enter your password" "Or"(this string) "Continue with Google"(continue-with-google-button) / "Continue with Apple"(continue-with-apple-button)
-third-party-auth-options-or = Или
+third-party-auth-options-or = или
 continue-with-google-button = Продолжить с { -brand-google }
 continue-with-apple-button = Продолжить с { -brand-apple }
 
@@ -1609,7 +1609,7 @@ signin-link-expired-message-2 = Срок действия ссылки, на к�
 ## Signin page
 
 # Strings within the <span> elements appear as a subheading.
-signin-password-needed-header-2 = Введите свой пароль <span>для вашего { -product-mozilla-account }</span>
+signin-password-needed-header-2 = Введите свой пароль <span>для вашего { -product-mozilla-account("genitive") }</span>
 # $serviceLogo - an image of the logo of the service which the user is authenticating for.
 # For languages structured like English, the phrase can read "to continue to"
 signin-subheader-with-logo = Перейти к <span>{ $serviceLogo }</span>
@@ -1742,7 +1742,7 @@ signin-reported-message = Наша команда оповещена. Ваши �
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
-signin-token-code-heading-2 = Введите код подтверждения<span> для вашего { -product-mozilla-account }</span>
+signin-token-code-heading-2 = Введите код подтверждения<span> для вашего { -product-mozilla-account("genitive") }</span>
 # { $email } represents the email that the user entered to sign in
 signin-token-code-instruction = Введите код, отправленный на { $email }, в течение 5 минут.
 signin-token-code-input-label-v2 = Введите код из 6 цифр
@@ -1808,7 +1808,7 @@ confirm-signup-code-page-title = Введите код подтверждени�
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
-confirm-signup-code-heading-2 = Введите код подтверждения <span>для вашего { -product-mozilla-account }</span>
+confirm-signup-code-heading-2 = Введите код подтверждения <span>для вашего { -product-mozilla-account("genitive") }</span>
 # { $email } represents the email that the user entered to sign in
 confirm-signup-code-instruction = Введите код, отправленный на { $email }, в течение 5 минут.
 confirm-signup-code-input-label = Введите код из 6 цифр

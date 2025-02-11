@@ -11,7 +11,7 @@ fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozil
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Синхронизация устройств">
 body-devices-image = <img data-l10n-name="devices-image" alt="Устройства">
 fxa-privacy-url = Политика конфиденциальности { -brand-mozilla }
-moz-accounts-privacy-url-2 = Уведомление о конфиденциальности { -product-mozilla-accounts(capitalization: "uppercase") }
+moz-accounts-privacy-url-2 = Уведомление о конфиденциальности { -product-mozilla-accounts("genitive") }
 moz-accounts-terms-url = Правила использования { -product-mozilla-accounts("genitive") }
 subplat-header-mozilla-logo-2 = <img data-l10n-name="subplat-mozilla-logo" alt="Логотип { -brand-mozilla }">
 subplat-footer-mozilla-logo-2 = <img data-l10n-name="mozilla-logo-footer" alt="Логотип { -brand-mozilla }">
