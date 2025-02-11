@@ -1076,7 +1076,7 @@ se-refresh-email =
 se-unverified-2 = לא מאומת
 se-resend-code-2 = נדרש אימות. ניתן <button>לשלוח מחדש את קוד האימות</button> אם הוא לא נמצא בתיבת הדואר הנכנס או בתיקיית הספאם שלך.
 # Button to make secondary email the primary
-se-make-primary = הפיכה לכתובת ראשית
+se-make-primary = הפיכה לכתובת הראשית
 se-default-content = קבלת גישה לחשבון שלך אם אין באפשרותך להתחבר לדוא״ל הראשי שלך.
 se-content-note-1 = הערה: דוא"ל משני לא ישחזר את המידע שלך — יש צורך <a>במפתח שחזור חשבון</a> לשם כך.
 # Default value for the secondary email
