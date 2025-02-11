@@ -963,6 +963,8 @@ tfa-enter-totp-v2 = Şimdi kimlik doğrulama uygulamasının verdiği kimlik do�
 tfa-input-enter-totp-v2 =
     .label = Kimlik doğrulama kodunu yazın
 tfa-save-these-codes-1 = Mobil cihazınız olmadığında kullanabileceğiniz bu tek kullanımlık yedek kimlik doğrulama kodlarını güvenli bir yerde saklayın.
+# codes here refers to backup authentication codes
+tfa-enter-code-to-confirm-setup = Kodları kaydettiğinizi onaylamak için kodlardan birini yazın. Kimlik doğrulama uygulamanıza erişemediğinizde bu kodlar olmadan giriş yapamayabilirsiniz.
 tfa-enter-recovery-code-1 =
     .label = Bir yedek kimlik doğrulama kodunu girin
 

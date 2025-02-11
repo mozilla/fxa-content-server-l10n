@@ -969,7 +969,7 @@ tfa-save-these-codes-1 =
     Cadwch y codau defnydd unwaith hyn mewn man diogel pan nad yw eich dyfais
     symudol gennych.
 # codes here refers to backup authentication codes
-tfa-enter-code-to-confirm-setup = Cadarnhewch eich bod wedi cadw'ch codau trwy nodi un. Heb y codau hyn, efallai na fyddwch yn gallu mewngofnodi os nad oes gennych eich ap dilysu.
+tfa-enter-code-to-confirm-setup = Cadarnhewch eich bod wedi cadw'ch codau trwy gynnig un. Heb y codau hyn, efallai na fyddwch yn gallu mewngofnodi os nad oes gennych eich ap dilysu.
 tfa-enter-recovery-code-1 =
     .label = Rhowch god dilysu wrth gefn
 
@@ -1035,9 +1035,9 @@ tfa-row-backup-codes-not-available = Dim codau ar gael
 # A different message is shown when no codes are available
 tfa-row-backup-codes-available-v2 =
     { $numCodesAvailable ->
-        [zero] { $numCodesAvailable } cod yn weddill
+        [zero] { $numCodesAvailable } codau'n weddill
         [one] { $numCodesAvailable } cod yn weddill
-        [two] { $numCodesAvailable } cod yn weddill
+        [two] { $numCodesAvailable } god yn weddill
         [few] { $numCodesAvailable } cod yn weddill
         [many] { $numCodesAvailable } cod yn weddill
        *[other] { $numCodesAvailable } cod yn weddill
@@ -1673,9 +1673,9 @@ signin-recovery-method-code-v2 = Codau dilysu wrth gefn
 # Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
 signin-recovery-method-code-info-v2 =
     { $numBackupCodes ->
-        [zero] { $numBackupCodes } cod yn weddill
+        [zero] { $numBackupCodes } codau'n weddill
         [one] { $numBackupCodes } cod yn weddill
-        [two] { $numBackupCodes } cod yn weddill
+        [two] { $numBackupCodes } god yn weddill
         [few] { $numBackupCodes } cod yn weddill
         [many] { $numBackupCodes } cod yn weddill
        *[other] { $numBackupCodes } cod yn weddill
