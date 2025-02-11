@@ -12,7 +12,7 @@ fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="С
 body-devices-image = <img data-l10n-name="devices-image" alt="Устройства">
 fxa-privacy-url = Политика конфиденциальности { -brand-mozilla }
 moz-accounts-privacy-url-2 = Уведомление о конфиденциальности { -product-mozilla-accounts(capitalization: "uppercase") }
-moz-accounts-terms-url = Правила использования { -product-mozilla-accounts(capitalization: "uppercase") }
+moz-accounts-terms-url = Правила использования { -product-mozilla-accounts("genitive") }
 subplat-header-mozilla-logo-2 = <img data-l10n-name="subplat-mozilla-logo" alt="Логотип { -brand-mozilla }">
 subplat-footer-mozilla-logo-2 = <img data-l10n-name="mozilla-logo-footer" alt="Логотип { -brand-mozilla }">
 subplat-automated-email = Это автоматическое сообщение; если вы получили его по ошибке, не требуется никаких действий.
@@ -31,7 +31,7 @@ subplat-explainer-was-deleted-2 = Вы получили это письмо, п�
 subplat-manage-account-2 = Управлять настройками { -product-mozilla-account } можно на <a data-l10n-name="subplat-account-page">странице аккаунта</a>.
 # Variables:
 #  $accountSettingsUrl (String) - URL to Account Settings
-subplat-manage-account-plaintext-2 = Управлять настройками { -product-mozilla-account } можно на странице вашего аккаунта: { $accountSettingsUrl }
+subplat-manage-account-plaintext-2 = Управлять настройками { -product-mozilla-account("genitive") } можно на странице вашего аккаунта: { $accountSettingsUrl }
 subplat-terms-policy = Условия и политика отказа от подписки
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Отменить подписку
@@ -40,10 +40,10 @@ subplat-reactivate = Активировать подписку повторно
 subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Обновить платёжные сведения
 subplat-privacy-policy = Политика конфиденциальности { -brand-mozilla }
-subplat-privacy-policy-2 = Уведомление о конфиденциальности { -product-mozilla-accounts(capitalization: "uppercase") }
+subplat-privacy-policy-2 = Уведомление о конфиденциальности { -product-mozilla-accounts("genitive") }
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
 subplat-privacy-policy-plaintext-2 = { subplat-privacy-policy-2 }:
-subplat-moz-terms = Правила использования { -product-mozilla-accounts(capitalization: "uppercase") }
+subplat-moz-terms = Правила использования { -product-mozilla-accounts("genitive") }
 subplat-moz-terms-plaintext = { subplat-moz-terms }:
 subplat-legal = Права
 subplat-legal-plaintext = { subplat-legal }:
@@ -130,7 +130,7 @@ automated-email-reset =
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext-v2 = Если вы не авторизовали это действие, пожалуйста, немедленно сбросьте свой пароль по ссылке { $resetLink }
-brand-banner-message = Знаете ли вы, что мы изменили наше название с { -product-firefox-accounts } на { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Подробнее</a>
+brand-banner-message = Знаете ли вы, что мы изменили наше название с «{ -product-firefox-accounts("accusative") }» на «{ -product-mozilla-accounts("accusative") }»? <a data-l10n-name="learnMore">Подробнее</a>
 cancellationSurvey = Пожалуйста, помогите нам улучшить наши службы, приняв участие в этом <a data-l10n-name="cancellationSurveyUrl">кратком опросе</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = Пожалуйста, помогите нам улучшить наши службы, приняв участие в этом кратком опросе:
@@ -320,7 +320,7 @@ passwordChangeRequired-different-password = <b>Важно:</b> Выберите 
 passwordChangeRequired-different-password-plaintext = Важно: Выберите пароль, отличный от использованных ранее, и убедитесь, что он отличается от пароля для вашей учётной записи электронной почты.
 password-forgot-otp-subject = Забыли ваш пароль?
 password-forgot-otp-title = Забыли ваш пароль?
-password-forgot-otp-request = Мы получили запрос на смену пароля для вашего аккаунта { -product-mozilla-account } от:
+password-forgot-otp-request = Мы получили запрос на смену пароля для вашего { -product-mozilla-account("genitive") } от:
 password-forgot-otp-code-2 = Если это были вы, вот ваш код подтверждения для продолжения:
 password-forgot-otp-expiry-notice = Срок действия этого кода истечёт через 10 минут.
 passwordReset-subject-2 = Ваш пароль был сброшен
@@ -418,7 +418,7 @@ postRemoveSecondary-subject = Удалена дополнительная эле
 postRemoveSecondary-title = Удалена дополнительная электронная почта
 # Variables:
 #  $secondaryEmail (String) - A user's email address
-postRemoveSecondary-description-2 = Вы успешно удалили { $secondaryEmail } в качестве дополнительного адреса электронной почты вашего { -product-mozilla-account }. Уведомления безопасности и подтверждения входа в систему больше не будут приходить на этот адрес.
+postRemoveSecondary-description-2 = Вы успешно удалили { $secondaryEmail } в качестве дополнительного адреса электронной почты вашего { -product-mozilla-account("genitive") }. Уведомления безопасности и подтверждения входа в систему больше не будут приходить на этот адрес.
 postRemoveSecondary-action = Управление аккаунтом
 postRemoveTwoStepAuthentication-subject-line-2 = Двухэтапная аутентификация отключена
 postRemoveTwoStepAuthentication-title-2 = Вы отключили двухэтапную аутентификацию
@@ -449,12 +449,12 @@ postVerifySecondary-subject = Добавлена дополнительная э
 postVerifySecondary-title = Добавлена дополнительная электронная почта
 # Variables:
 #  $secondaryEmail (String) - A user's secondary email address
-postVerifySecondary-content-3 = Вы успешно подтвердили { $secondaryEmail } в качестве дополнительного адреса электронной почты вашего { -product-mozilla-account }. Теперь уведомления безопасности и подтверждения входа в систему будут доставляться на оба адреса электронной почты.
+postVerifySecondary-content-3 = Вы успешно подтвердили { $secondaryEmail } в качестве дополнительного адреса электронной почты вашего { -product-mozilla-account("genitive") }. Теперь уведомления безопасности и подтверждения входа в систему будут доставляться на оба адреса электронной почты.
 postVerifySecondary-action = Управление аккаунтом
 recovery-subject = Восстановить ваш пароль
 recovery-title-2 = Забыли свой пароль?
 # Information on the device, date and time of the request that triggered the email follows.
-recovery-request-origin-2 = Мы получили запрос на смену пароля для вашего { -product-mozilla-account } аккаунта от:
+recovery-request-origin-2 = Мы получили запрос на смену пароля для вашего { -product-mozilla-account("genitive") } от:
 recovery-new-password-button = Создайте новый пароль, щёлкнув по кнопке ниже. Срок действия этой ссылки истекает в течение следующего часа.
 recovery-copy-paste = Создайте новый пароль, скопировав и вставив приведенный ниже URL-адрес в адресную строку браузера. Срок действия этой ссылки истекает в течение следующего часа.
 recovery-action = Создать новый пароль
@@ -476,7 +476,7 @@ subscriptionAccountFinishSetup-title = Добро пожаловать в { $pro
 subscriptionAccountFinishSetup-content-processing = Ваш платеж обрабатывается, что может занять до четырех рабочих дней. Ваша подписка будет автоматически продлеваться каждый расчетный период, если вы не решите её отменить.
 subscriptionAccountFinishSetup-content-create-3 = Далее необходимо создать пароль { -product-mozilla-account } для начала использования новой подписки.
 subscriptionAccountFinishSetup-action-2 = Приступим
-subscriptionAccountReminderFirst-subject = Напоминание: Завершите настройку вашего аккаунта
+subscriptionAccountReminderFirst-subject = Напоминание: завершите настройку вашего аккаунта
 subscriptionAccountReminderFirst-title = Вы пока не можете получить доступ к своей подписке
 subscriptionAccountReminderFirst-content-info-3 = Несколько дней назад вы создали { -product-mozilla-account } но так и не подтвердили его. Мы надеемся, что вы закончите настройку аккаунта и сможете пользоваться новой подпиской.
 subscriptionAccountReminderFirst-content-select-2 = Выберите «Создать пароль», чтобы установить новый пароль и завершить подтверждение аккаунта.
@@ -690,7 +690,7 @@ verifySecondaryCode-expiry-notice-2 = Срок его действия исте�
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = Подтвердите ваш аккаунт
-verifyShortCode-preview = Используйте прилагаемый код для подтверждения вашего { -product-mozilla-account }.
+verifyShortCode-preview = Используйте прилагаемый код для подтверждения вашего { -product-mozilla-account("genitive") }.
 verifyShortCode-title-3 = Откройте Интернет с помощью { -brand-mozilla }
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = Подтвердите свой аккаунт и получайте максимальную пользу от { -brand-mozilla } везде, где вы входите в систему, начиная с:

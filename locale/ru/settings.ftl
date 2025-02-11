@@ -18,12 +18,12 @@ resend-success-banner-description = Добавьте { $accountsEmail } в св�
 brand-banner-dismiss-button-2 =
     .aria-label = Закрыть баннер
 # This message is displayed as the title element in the banner, prior to actually launching the new brand
-brand-prelaunch-title = 1 ноября { -product-firefox-accounts } будут переименованы в { -product-mozilla-accounts }.
+brand-prelaunch-title = 1 ноября «{ -product-firefox-accounts("accusative") }» будут переименованы в «{ -product-mozilla-accounts("accusative") }».
 # This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
 brand-prelaunch-subtitle = Вы по-прежнему будете входить в систему с тем же именем пользователя и паролем, и никаких других изменений в продуктах, которые вы используете, не произойдет.
 # This message is displayed as title element in the banner, after the brand changes take affect letting the user know that
 # no action is required on their part
-brand-postlaunch-title = Мы переименовали { -product-firefox-accounts } в { -product-mozilla-accounts }. Вы по-прежнему будете входить в систему с тем же именем пользователя и паролем, и никаких других изменений в продуктах, которые вы используете, не произойдет.
+brand-postlaunch-title = Мы переименовали «{ -product-firefox-accounts("accusative") }» в «{ -product-mozilla-accounts("accusative") }». Вы по-прежнему будете входить в систему с тем же именем пользователя и паролем, и никаких других изменений в продуктах, которые вы используете, не произойдёт.
 # This is an extra link element, that directs users to a page where they can learn more about the branding changes.
 brand-learn-more = Подробнее
 # Alt text for close banner image
@@ -559,7 +559,7 @@ cs-sign-out-button = Выйти
 dc-heading = Сбор и использование данных
 dc-subheader-moz-accounts = { -product-mozilla-accounts }
 dc-subheader-ff-browser = Браузер { -brand-firefox }
-dc-subheader-content-2 = Разрешить { -product-mozilla-accounts } отправлять технические данные и данные взаимодействия в { -brand-mozilla }.
+dc-subheader-content-2 = Разрешить { -product-mozilla-accounts("dative") } отправлять технические данные и данные взаимодействия в { -brand-mozilla }.
 dc-subheader-ff-content = Чтобы просмотреть или обновить технические настройки и данные взаимодействия вашего { -brand-firefox }, откройте настройки { -brand-firefox } и перейдите в раздел «Приватность и Защита».
 dc-opt-out-success-2 = Отказ подтверждён. { -product-mozilla-accounts } не будут отправлять технические данные или данные о взаимодействии в { -brand-mozilla }.
 dc-opt-in-success-2 = Спасибо! Отправка этих данных поможет нам улучшить { -product-mozilla-accounts }.
