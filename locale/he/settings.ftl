@@ -1621,6 +1621,8 @@ signin-recovery-phone-heading = נא להכניס קוד לשחזור
 signin-recovery-phone-instruction = קוד בן שש ספרות נשלח אל <span>{ $maskedPhoneNumber }</span> בהודעת טקסט. קוד זה יפוג לאחר 5 דקות.
 signin-recovery-phone-input-label = נא להזין קוד בן 6 ספרות
 signin-recovery-phone-code-submit-button = אישור
+signin-recovery-phone-resend-code-button = שליחת הקוד מחדש
+signin-recovery-phone-resend-success = הקוד נשלח
 # links to https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 signin-recovery-phone-locked-out-link = ננעלת מחוץ לחשבון?
 signin-recovery-phone-send-code-error-heading = הייתה בעיה בשליחת קוד

@@ -7,6 +7,8 @@ next-iap-upgrade-contact-support = באפשרותך עדיין להשיג את �
 next-payment-error-retry-button = ניסיון חוזר
 next-basic-error-message = משהו השתבש. נא לנסות שוב מאוחר יותר.
 checkout-error-contact-support-button = יצירת קשר עם התמיכה
+checkout-error-not-eligible = אינך זכאי להירשם למוצר זה - נא ליצור קשר עם התמיכה כדי שנוכל לעזור לך.
+checkout-error-contact-support = נא ליצור קשר עם התמיכה כדי שנוכל לעזור לך.
 
 ## Page
 
