@@ -972,6 +972,9 @@ tfa-enter-secret-key = Idatzi gako sekretu hau zure autentifikazio-aplikazioan:
 tfa-enter-totp-v2 = Orain sartu autentifikazio-kodea autentifikazio-aplikaziotik.
 tfa-input-enter-totp-v2 =
     .label = Sartu autentifikazio-kodea
+tfa-save-these-codes-1 =
+    Gorde behin-behineko erabilerako babeskopiko autentifikazio-kode hauek leku seguru batean
+    zure gailu mugikorra ez duzunerako.
 tfa-enter-recovery-code-1 =
     .label = Sartu babeskopirako autentifikazio-kodea
 
@@ -1021,13 +1024,26 @@ signout-sync-header = Saioa iraungi da
 
 ## SubRow component
 
+tfa-row-backup-codes-title = Autentifikazio-kodearen babes-kopia
+# Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
+# Users that have not enabled or verified 2FA will not see this
+tfa-row-backup-codes-not-available = Ez dago koderik erabilgarri
+# Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
+tfa-row-backup-codes-get-new-cta = Lortu kode berriak
 # Shown to users who have no backup authentication codes
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = Gehitu
+# Recovery phone is a recovery method for two-step authentication
+# A recovery code can be sent to the user's phone
+tfa-row-backup-phone-title-v2 = Berreskuratze telefonoa
 # button to change the configured recovery phone
 tfa-row-backup-phone-change-cta = Aldatu
 # button to add/configure a recovery phone
 tfa-row-backup-phone-add-cta = Gehitu
+# Button to remove a recovery phone from the user's account
+tfa-row-backup-phone-delete-button = Kendu
+# Shown in tooltip on delete button or delete icon
+tfa-row-backup-phone-delete-title-v2 = Kendu berreskuratze telefonoa
 
 ## Switch component
 
@@ -1336,6 +1352,10 @@ set-password-heading = Sortu pasahitza
 ## AccountRecoveryConfirmKey page
 
 account-recovery-confirm-key-heading = Sartu kontua berreskuratzeko gakoa
+# Prompts the user to enter their account recovery key
+# Account recovery key contains a mix of letters and numbers, no special characters
+account-recovery-confirm-key-input-label =
+    .label = Sartu 32 karaktereko kontua berreskuratzeko gakoa
 # Clicking this button checks if the recovery key provided by the user is correct and associated with their account
 account-recovery-confirm-key-button-2 = Jarraitu
 # Link that leads to the password reset page (without recovery code)
@@ -1360,6 +1380,9 @@ reset-password-complete-banner-heading = Pasahitza berrezarri da.
 ## Confirm Reset Password With Code
 
 confirm-reset-password-with-code-heading = Egiaztatu zure posta elektronikoa
+# Shown above a group of 8 single-digit input boxes
+# Only numbers allowed
+confirm-reset-password-code-input-group-label = Sartu 8 digituko kodea 10 minutuko epean
 # Clicking the button submits and verifies the code
 # If succesful, continues to the next step of the password reset
 confirm-reset-password-otp-submit-button = Jarraitu
@@ -1371,10 +1394,12 @@ confirm-reset-password-otp-different-account-link = Erabili beste kontu bat
 ## PasswordResetConfirmTotp Page
 
 confirm-totp-reset-password-header = Berrezarri pasahitza
+confirm-totp-reset-password-subheader-v2 = Sartu bi urratseko autentifikazio kodea
 confirm-totp-reset-password-trouble-code = Arazoak kodea sartzean?
 confirm-totp-reset-password-confirm-button = Berretsi
 confirm-totp-reset-password-input-label-v2 = Sartu 6 digituko kodea
 confirm-totp-reset-password-use-different-account = Erabili beste kontu bat
+confirm-recovery-code-reset-password-input-label = Sartu 10 karaktereko kodea
 confirm-recovery-code-reset-password-trouble-code = Atzera
 
 ## ResetPassword start page
@@ -1403,6 +1428,9 @@ signin-link-expired-header = Berrespen-lotura iraungita
 
 ## Signin page
 
+# $serviceLogo - an image of the logo of the service which the user is authenticating for.
+# For languages structured like English, the phrase can read "to continue to"
+signin-subheader-with-logo = Jarraitu <span>{ $serviceLogo }</span>ra
 # $serviceName - the name of the service which the user authenticating for
 # For languages structured like English, the phrase can read "to continue to { $serviceName }"
 signin-subheader-without-logo-with-servicename = Jarraitu { $serviceName } zerbitzura
