@@ -6,6 +6,9 @@ next-payment-error-manage-subscription-button = Gerer mi subscription
 next-iap-upgrade-contact-support = Tu pote ancora obtener iste producto. Contacta nostre equipa de assistentia a fin que nos pote adjutar te.
 next-payment-error-retry-button = Retentar
 next-basic-error-message = Alco errate eveniva. Reproba plus tarde.
+checkout-error-contact-support-button = Contactar assistentia
+checkout-error-not-eligible = Tu non es eligibile pro abonar te a iste producto. Contacta le assistentia proque pote adjutar te.
+checkout-error-contact-support = Contacta le assistentia proque nos pote adjutar te.
 
 ## Page
 
