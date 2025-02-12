@@ -7,7 +7,7 @@ next-iap-upgrade-contact-support = Móžeće tutón produkt hišće dóstać –
 next-payment-error-retry-button = Hišće raz spytać
 next-basic-error-message = Něšto je so nimokuliło. Prošu spytajće pozdźišo hišće raz.
 checkout-error-contact-support-button = Pomoc skontaktować
-checkout-error-not-eligible = Nimaće prawo tutón produkt abonować – stajće so prošu z pomocu do zwiska, zo bychmy móhli wam pomhać.
+checkout-error-not-eligible = Nimaće prawo tutón produkt abonować – stajće so prošu z teamom pomocy do zwiska, zo bychmy móhli wam pomhać.
 checkout-error-contact-support = Stajće so prošu z pomocu do zwiska, zo bychmy móhli wam pomhać.
 
 ## Page
