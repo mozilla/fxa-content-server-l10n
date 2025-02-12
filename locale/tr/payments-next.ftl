@@ -6,6 +6,9 @@ next-payment-error-manage-subscription-button = Aboneliğimi yönet
 next-iap-upgrade-contact-support = Bu ürünü yine de alabilirsiniz. Size yardımcı olabilmemiz için lütfen destek ile iletişime geçin.
 next-payment-error-retry-button = Tekrar dene
 next-basic-error-message = Bir şeyler yanlış gitti. Lütfen daha sonra tekrar deneyin.
+checkout-error-contact-support-button = Destek birimiyle iletişime geçin
+checkout-error-not-eligible = Bu ürüne abone olamazsınız. Size yardımcı olabilmemiz için lütfen destek ekibiyle iletişime geçin.
+checkout-error-contact-support = Size yardımcı olabilmemiz için lütfen destek ekibiyle iletişime geçin.
 
 ## Page
 
