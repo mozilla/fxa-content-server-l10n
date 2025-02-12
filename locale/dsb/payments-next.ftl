@@ -8,6 +8,7 @@ next-payment-error-retry-button = Hyšći raz wopytaś
 next-basic-error-message = Něco jo se mimo kuliło. Pšosym wopytajśo pózdźej hyšći raz.
 checkout-error-contact-support-button = Pomoc kontaktěrowaś
 checkout-error-not-eligible = Njamaśo pšawo toś ten produkt aboněrowaś – stajśo se z teamom pomocy do zwiska, aby my mógli wam pomagaś.
+checkout-error-contact-support = Stajśo se pšosym z teamom pomocy do zwiska, aby my mógli wam pomagaś.
 
 ## Page
 
