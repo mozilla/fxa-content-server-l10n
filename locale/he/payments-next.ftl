@@ -6,6 +6,7 @@ next-payment-error-manage-subscription-button = ניהול המינוי שלי
 next-iap-upgrade-contact-support = באפשרותך עדיין להשיג את המוצר הזה — נא ליצור קשר עם התמיכה כדי שנוכל לעזור לך.
 next-payment-error-retry-button = ניסיון חוזר
 next-basic-error-message = משהו השתבש. נא לנסות שוב מאוחר יותר.
+checkout-error-contact-support-button = יצירת קשר עם התמיכה
 
 ## Page
 
