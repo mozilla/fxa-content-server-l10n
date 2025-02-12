@@ -6,6 +6,9 @@ next-payment-error-manage-subscription-button = Hallitse tilausta
 next-iap-upgrade-contact-support = Voit edelleen hankkia tämän tuotteen — ota yhteyttä tukeen, jotta voimme auttaa sinua.
 next-payment-error-retry-button = Yritä uudestaan
 next-basic-error-message = Jokin meni pieleen. Yritä uudelleen myöhemmin.
+checkout-error-contact-support-button = Ota yhteys tukeen
+checkout-error-not-eligible = Et voi tilata tätä tuotetta - ota yhteys tukeemme, jotta voimme auttaa sinua.
+checkout-error-contact-support = Ota yhteys tukeen, jotta voimme auttaa sinua.
 
 ## Page
 
@@ -80,6 +83,8 @@ select-tax-location-save-button = Tallenna
 select-tax-location-country-code-label = Maa
 select-tax-location-country-code-placeholder = Valitse maa
 select-tax-location-error-missing-country-code = Valitse maa
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN
+select-tax-location-product-not-available = { $productName } ei ole saatavilla tässä sijainnissa.
 select-tax-location-postal-code-label = Postinumero
 select-tax-location-postal-code =
     .placeholder = Kirjoita postinumerosi

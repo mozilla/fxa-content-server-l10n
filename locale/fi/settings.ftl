@@ -36,6 +36,8 @@ brand-m-logo =
 ## ButtonBack component
 ## Allows users to click a back arrow to navigate to the previous page
 
+button-back-aria-label = Takaisin
+button-back-title = Takaisin
 
 ## ButtonDownloadRecoveryKeyPDF
 ## Clicking on this button downloads a PDF file that contains the user's account recovery key
@@ -224,6 +226,12 @@ icon-warning-aria-label =
 # Used to select Canada as country code for phone number
 canadian-flag-icon-aria-label =
     .aria-label = Kanadan lippu
+# Used to  indicate a general checkmark, as in something checked off in a list!
+checkmark-icon-aria-label =
+    .aria-label = Valitse
+# Used to  indicate a check mark for a successful state/action
+checkmark-success-icon-aria-label =
+    .aria-label = Onnistui
 # Used to indicate a check mark for an enabled state/option
 checkmark-enabled-icon-aria-label =
     .aria-label = Käytössä
@@ -235,6 +243,9 @@ code-icon-aria-label =
     .aria-label = Koodi
 error-icon-aria-label =
     .aria-label = Virhe
+# Used as information icon for informative messaging
+info-icon-aria-label =
+    .aria-label = Tietoa
 # Used to select United States as a country code for phone number
 usa-flag-icon-aria-label =
     .aria-label = Yhdysvaltain lippu
@@ -610,6 +621,7 @@ flow-setup-phone-confirm-code-button = Vahvista
 # followed by a button to resend a code
 flow-setup-phone-confirm-code-expired = Vanheniko koodi?
 flow-setup-phone-confirm-code-resend-code-button = Lähetä koodi uudelleen
+flow-setup-phone-confirm-code-resend-code-success = Koodi lähetetty
 flow-setup-phone-confirm-code-success-message-v2 = Palauttamisen puhelinnumero lisätty
 
 ## FlowSetupPhoneConfirmCode
@@ -844,6 +856,7 @@ settings-recovery-phone-remove-cancel = Peruuta
 ## PageSetupRecoveryPhone
 
 page-setup-recovery-phone-heading = Lisää palauttamisen puhelinnumero
+page-setup-recovery-phone-back-button-title = Takaisin asetuksiin
 
 ## Add secondary email page
 
@@ -883,6 +896,8 @@ verify-secondary-email-success-alert-2 = { $email } lisätty onnistuneesti
 
 # Link to delete account on main Settings page
 delete-account-link = Poista tili
+# Success message displayed in alert bar after the user has successfully confirmed their account is not inactive.
+inactive-update-status-success-alert = Kirjautuminen onnistui. { -product-mozilla-account }si ja tietosi pysyvät aktiivisina.
 
 ## Two Step Authentication
 
@@ -978,6 +993,13 @@ signout-sync-session-expired = Pahoittelut, jotain meni pieleen. Kirjaudu ulos s
 # Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
 # Users that have not enabled or verified 2FA will not see this
 tfa-row-backup-codes-not-available = Koodeja ei ole saatavilla
+# $numCodesRemaining - the number of backup authentication codes that have not yet been used (generally between 1 to 5)
+# A different message is shown when no codes are available
+tfa-row-backup-codes-available-v2 =
+    { $numCodesAvailable ->
+        [one] { $numCodesAvailable } koodi jäljellä
+       *[other] { $numCodesAvailable } koodia jäljellä
+    }
 # Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
 tfa-row-backup-codes-get-new-cta = Hanki uudet koodit
 # Shown to users who have no backup authentication codes
@@ -1086,6 +1108,7 @@ tfa-row-button-refresh =
 tfa-row-cannot-refresh =
     Valitettavasti kaksivaiheisen todennuksen
     päivittämisessä ilmeni ongelma.
+tfa-row-disabled-description-v2 = Auta suojaamaan tilisi käyttämällä kolmannen osapuolen todennussovellusta toisena vaiheena kirjautumisessa.
 tfa-row-cannot-verify-session-4 = Valitettavasti istunnon vahvistamisessa oli ongelma
 tfa-row-disable-modal-heading = Poistetaanko kaksivaiheinen todennus käytöstä?
 tfa-row-disable-modal-confirm = Poista käytöstä
@@ -1135,12 +1158,18 @@ auth-error-114-generic = Olet yrittänyt liian monta kertaa. Yritä uudestaan my
 #                          formatting library (momentjs) as a "time from now" and automatically includes
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Olet yrittänyt liian monta kertaa. Odota { $retryAfter } ja yritä uudelleen.
+auth-error-125 = Pyyntö estettiin tietoturvasyistä
+auth-error-129 = Virheellinen puhelinnumero
 auth-error-138-2 = Vahvistamaton istunto
 auth-error-139 = Toissijainen sähköpostiosoite ei saa olla sama kuin tilisi ensisijainen sähköpostiosoite
 auth-error-155 = TOTP-polettia ei löytynyt
 auth-error-159 = Virheellinen tilin palautusavain
 auth-error-183-2 = Virheellinen tai vanhentunut vahvistuskoodi
+auth-error-202 = Ominaisuus ei ole käytössä
+auth-error-203 = Järjestelmä ei ole käytettävissä, yritä pian uudelleen
 auth-error-206 = Salasanaa ei voi luoda, salasana on jo asetettu
+auth-error-214 = Palauttamisen puhelinnumero on jo olemassa
+auth-error-215 = Palauttamisen puhelinnumeroa ei ole olemassa
 auth-error-999 = Odottamaton virhe
 auth-error-1001 = Kirjautumisyritys peruttu
 auth-error-1002 = Istunto vanhentui. Kirjaudu sisään uudelleen.
@@ -1150,6 +1179,7 @@ auth-error-1010 = Salasanan täytyy olla kelvollinen
 auth-error-1011 = Sähköpostiosoitteen täytyy olla kelvollinen
 auth-error-1031 = Ikä täytyy antaa rekisteröitymistä varten
 auth-error-1032 = Sinun tulee antaa kelvollinen ikä rekisteröityäksesi
+auth-error-1054 = Virheellinen kaksivaiheisen todennuksen koodi
 auth-error-1062 = Virheellinen uudelleenohjaus
 oauth-error-1000 = Jokin meni pieleen. Sulje tämä välilehti ja yritä uudelleen.
 
@@ -1557,6 +1587,12 @@ signin-push-code-confirm-link-error = Linkki on vaurioitunut. Yritä uudelleen.
 
 signin-recovery-method-header = Kirjaudu sisään
 signin-recovery-method-subheader = Valitse palautustapa
+# Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
+signin-recovery-method-code-info-v2 =
+    { $numBackupCodes ->
+        [one] { $numBackupCodes } koodi jäljellä
+       *[other] { $numBackupCodes } koodia jäljellä
+    }
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
@@ -1564,6 +1600,8 @@ signin-recovery-method-subheader = Valitse palautustapa
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
 signin-recovery-code-heading = Kirjaudu sisään
+# code here refers to backup authentication code
+signin-recovery-code-input-label-v2 = Kirjoita 10-merkkinen koodi
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Vahvista
 # External link for support if the user can't use two-step autentication or a backup authentication code
@@ -1571,9 +1609,30 @@ signin-recovery-code-confirm-button = Vahvista
 signin-recovery-code-support-link = Jäitkö ulos tililtäsi?
 # Error displayed in a tooltip when form is submitted witout a code
 signin-recovery-code-required-error = Varatodennuskoodi vaaditaan
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-recovery-code-use-phone-failure = Ongelma lähetettäessä koodia palauttamisen puhelinnumeroon
+signin-recovery-code-use-phone-failure-description = Yritä myöhemmin uudelleen.
 
 ## SigninRecoveryPhone page
 
+signin-recovery-phone-flow-heading = Kirjaudu sisään
+# A recovery code in context of this page is a one time code sent to the user's phone
+signin-recovery-phone-heading = Kirjoita palautuskoodi
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+signin-recovery-phone-instruction = Kuusinumeroinen koodi lähetettiin numeroon <span>{ $maskedPhoneNumber }</span> tekstiviestillä. Tämä koodi vanhenee 5 minuutin kuluttua.
+signin-recovery-phone-input-label = Kirjoita 6-numeroinen koodi
+signin-recovery-phone-code-submit-button = Vahvista
+signin-recovery-phone-resend-code-button = Lähetä koodi uudelleen
+signin-recovery-phone-resend-success = Koodi lähetetty
+# links to https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+signin-recovery-phone-locked-out-link = Jäitkö ulos tililtäsi?
+signin-recovery-phone-send-code-error-heading = Koodin lähettämisessä oli ongelma
+signin-recovery-phone-code-verification-error-heading = Koodisi vahvistamisessa oli ongelma
+# Follows the error message (e.g, "There was a problem sending a code")
+signin-recovery-phone-general-error-description = Yritä myöhemmin uudelleen.
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
