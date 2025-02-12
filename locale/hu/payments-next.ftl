@@ -7,7 +7,7 @@ next-iap-upgrade-contact-support = Továbbra is beszerezheti ezt a terméket –
 next-payment-error-retry-button = Próbálja újra
 next-basic-error-message = Hiba történt, próbálja újra később.
 checkout-error-contact-support-button = Kapcsolatfelvétel az ügyfélszolgálattal
-checkout-error-not-eligible = Nem jogosult erre a termékre előfizetni – lépjen kapcsolatba az ügyfélszolgálattal, hogy segíthessünk.
+checkout-error-not-eligible = Nem jogosult arra, hogy előfizessen erre a termékre – lépjen kapcsolatba az ügyfélszolgálattal, hogy segíthessünk.
 checkout-error-contact-support = Lépjen kapcsolatba az ügyfélszolgálattal, hogy segíthessünk.
 
 ## Page

@@ -289,11 +289,20 @@ lightbulb-aria-label =
     .aria-label = Biltegiratze-iradokizun bat sortzea irudikatzeko irudia.
 email-code-image-aria-label =
     .aria-label = Kode bat duen mezu elektroniko bat irudikatzeko ilustrazioa.
+recovery-phone-image-description =
+    .aria-label = Testu-mezu bidez kode bat jasotzen duen gailu mugikorra.
+recovery-phone-code-image-description =
+    .aria-label = Gailu mugikor batean jasotako kodea.
+backup-recovery-phone-image-aria-label =
+    .aria-label = Telefono mugikorra SMS testu-mezuen gaitasunak dituena
+backup-authentication-codes-image-aria-label =
+    .aria-label = Gailuaren pantaila kodeekin
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
 ## after signing in.
 
+inline-recovery-key-setup-signed-in-firefox-2 = { -brand-firefox } saioa hasi duzu.
 inline-recovery-key-setup-create-header = Babestu zure kontua
 # This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
 inline-recovery-key-setup-create-subheader = Hartuko minutu bat zure datuak babesteko?
@@ -320,6 +329,7 @@ input-password-sr-only-now-hidden = Zure pasahitza orain ezkutatuta dago.
 
 # This is an aria-label available to screen readers for a selection list that includes country flags, country name and country code
 input-phone-number-country-list-aria-label = Hautatu herrialdea
+input-phone-number-enter-number = Idatzi telefono zenbakia
 input-phone-number-country-united-states = Estatu Batuak
 input-phone-number-country-canada = Kanada
 # Back button on legal/terms or legal/privacy that takes users to the previous page
@@ -626,17 +636,29 @@ flow-recovery-key-info-cancel-link = Utzi
 # verification code refers to a code sent by text message to confirm phone number ownership
 # and complete setup
 flow-setup-phone-confirm-code-heading = Idatzi egiaztapen-kodea
+# $phoneNumber is a partially obfuscated phone number with only the last 4 digits showing (e.g., *** *** 1234)
+# span element applies formatting to ensure the number is always displayed left-to-right
+flow-setup-phone-confirm-code-instruction = Sei digituko kodea bidali da <span>{ $phoneNumber }</span> zenbakira testu-mezu bidez. Kode hau 5 minuturen buruan iraungiko da.
 flow-setup-phone-confirm-code-input-label = Sartu 6 digituko kodea
 flow-setup-phone-confirm-code-button = Berretsi
 # button to resend a code by text message to the user's phone
 # followed by a button to resend a code
 flow-setup-phone-confirm-code-expired = Kodea iraungita?
 flow-setup-phone-confirm-code-resend-code-button = Birbidali kodea
+flow-setup-phone-confirm-code-resend-code-success = Kodea bidalia
 flow-setup-phone-confirm-code-success-message-v2 = Berreskuratze telefonoa gehitu da
 
 ## FlowSetupPhoneConfirmCode
 
 flow-setup-phone-submit-number-heading = Egiaztatu zure telefono zenbakia
+# The code is a 6-digit code send by text message/SMS
+flow-setup-phone-verify-number-instruction = { -brand-mozilla } erabiltzailearen testu-mezu bat jasoko duzu zure zenbakia egiaztatzeko kode batekin. Ez partekatu kode hau inorekin.
+# The initial rollout of the recovery phone is only available to users with US and Canada mobile phone numbers.
+# Voice over Internet Protocol (VoIP), is a technology that uses a broadband Internet connection instead of a regular (or analog) phone line to make calls.
+# Phone mask services (for example Relay) provide a temporary virtual number to avoid providing a real phone number.
+# Both VoIP and phone masks can be unreliable for one-time-passcode (OTP) verification
+flow-setup-phone-submit-number-info-message-v2 = Berreskuratzeko telefonoa Estatu Batuetan eta Kanadan bakarrik dago erabilgarri. Ez dira gomendatzen VoIP zenbakiak eta telefono-maskarak.
+flow-setup-phone-submit-number-legal = Zure zenbakia emanez gero, onartzen diguzu gordetzera, kontua egiaztatzeko mezuak soilik bidali ahal izateko. Mezuen eta datuen tarifak aplika daitezke.
 # cliking on the button sends a code by text message to the phone number typed in by the user
 flow-setup-phone-submit-number-button = Bidali kodea
 
@@ -696,6 +718,7 @@ tfa-replace-code-success-1 =
     Kode berriak sortu dira. Gorde erabilera bakarreko autentikazio
     kode segurtasun kopia hauek toki seguruan — Gailu mugikorra ez baduzu zure kontura sartzeko
     beharko dituzu.
+tfa-replace-code-success-alert-4 = Eguneratu dira babeskopiko autentifikazio-kodeak
 tfa-replace-code-1-2 = 2tik 1. urratsa
 tfa-replace-code-2-2 = 2tik 2. urratsa
 
@@ -826,6 +849,9 @@ recent-activity-account-disable-v2 = Kontu desgaitua
 recent-activity-account-enable-v2 = Kontu gaitua
 recent-activity-account-login-v2 = Kontuaren saioa hasi da
 recent-activity-account-reset-v2 = Pasahitza berrezartzea hasi da
+# This string appears under recent account activity when there were email bounces associated with the account, but those were recently cleared (i.e. removed/deleted).
+# An email bounce is when an email is sent to an email address and fails/receives a non-delivery receipt from the recipient's mail server.
+recent-activity-emails-clearBounces-v2 = Ezabatu dira mezu elektronikoen erreboteak
 recent-activity-account-login-failure = Kontuan saioa hasteko saiakerak huts egin du
 recent-activity-account-two-factor-added = Bi urratseko autentifikazioa gaituta
 recent-activity-account-two-factor-requested = Bi urratseko autentifikazioa eskatu da
@@ -857,12 +883,21 @@ recovery-key-create-back-button-title = Itzuli ezarpenetara
 ## PageRecoveryPhoneRemove
 ## Users reach this page from account settings when they want to remove a backup phone number.
 
+recovery-phone-remove-header = Kendu berreskuratze telefono zenbakia
+# Variables:
+#   $formattedFullPhoneNumber (String) - the user's full phone number
+settings-recovery-phone-remove-info = Honek <strong>{ $formattedFullPhoneNumber }</strong> kenduko du berreskuratzeko telefono gisa.
+settings-recovery-phone-remove-recommend = Metodo hau mantentzea gomendatzen dugu, babeskopiko autentifikazio-kodeak gordetzea baino errazagoa delako.
+# "Saved backup authentication codes" refers to previously saved backup authentication codes
+settings-recovery-phone-remove-recovery-methods = Ezabatzen baduzu, ziurtatu gordetako babeskopiko autentifikazio-kodeak dituzula. <linkExternal>Konparatu berreskuratzeko metodoak</linkExternal>
 settings-recovery-phone-remove-button = Kendu telefono zenbakia
 settings-recovery-phone-remove-cancel = Utzi
 settings-recovery-phone-remove-success = Berreskuratu kendutako telefonoa
 
 ## PageSetupRecoveryPhone
 
+page-setup-recovery-phone-heading = Gehitu berreskuratze telefonoa
+page-setup-recovery-phone-back-button-title = Itzuli ezarpenetara
 
 ## Add secondary email page
 
@@ -874,6 +909,10 @@ add-secondary-email-enter-address =
     .label = Idatzi helbide elektronikoa
 add-secondary-email-cancel-button = Utzi
 add-secondary-email-save-button = Gorde
+# This message is shown when a user tries to add a secondary email that is a
+# Firefox Relay email mask (generated email address that can be used in place of
+# your real email address)
+add-secondary-email-mask = Posta elektronikoko maskarak ezin dira bigarren posta elektroniko gisa erabili
 
 ## Verify secondary email page
 
@@ -898,6 +937,8 @@ verify-secondary-email-success-alert-2 = { $email } ondo gehituta
 
 # Link to delete account on main Settings page
 delete-account-link = Ezabatu kontua
+# Success message displayed in alert bar after the user has successfully confirmed their account is not inactive.
+inactive-update-status-success-alert = Behar bezala hasi da saioa. Zure { -product-mozilla-account } eta datuak aktibo egongo dira.
 
 ## Two Step Authentication
 
@@ -910,6 +951,9 @@ tfa-button-cancel = Utzi
 tfa-button-finish = Amaitu
 tfa-incorrect-totp = Bi urratseko autentifikazio-kode okerra
 tfa-cannot-retrieve-code = Arazoa egon da zure kodea eskuratzen.
+tfa-cannot-verify-code-4 = Arazo bat izan da zure ordezko autentifikazio-kodea berresteko
+tfa-incorrect-recovery-code-1 = Babeskopiako autentifikazio-kode okerra
+tfa-enabled-v2 = Bi urratseko autentifikazioa gaitu da
 tfa-scan-this-code =
     Eskaneatu QR kodea <linkExternal>hauetako autentifikazio-aplikazio
     bat</linkExternal> erabiliz.
@@ -925,6 +969,7 @@ tfa-qa-code =
 tfa-button-cant-scan-qr = Ezin duzu kodea eskaneatu?
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Idatzi gako sekretu hau zure autentifikazio-aplikazioan:
+tfa-enter-totp-v2 = Orain sartu autentifikazio-kodea autentifikazio-aplikaziotik.
 tfa-input-enter-totp-v2 =
     .label = Sartu autentifikazio-kodea
 tfa-enter-recovery-code-1 =

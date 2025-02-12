@@ -6,6 +6,9 @@ next-payment-error-manage-subscription-button = Kudeatu nire harpidetza
 next-iap-upgrade-contact-support = Produktu hau eskura dezakezu oraindik. Jarri laguntza-zerbitzuarekin laguntza lortzeko.
 next-payment-error-retry-button = Saiatu berriro
 next-basic-error-message = Zerbait oker joan da. Mesedez, berriro saiatu beranduago.
+checkout-error-contact-support-button = Laguntza kontaktua
+checkout-error-not-eligible = Ez duzu produktu honetara harpidetzeko eskubidea. Jarri laguntza-zerbitzuarekin lagundu ahal izateko.
+checkout-error-contact-support = Mesedez, jarri harremanetan laguntzarekin lagundu ahal izateko.
 
 ## Page
 
