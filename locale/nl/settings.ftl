@@ -894,6 +894,7 @@ settings-recovery-phone-remove-success = Hersteltelefoonnummer verwijderd
 ## PageSetupRecoveryPhone
 
 page-setup-recovery-phone-heading = Hersteltelefoonnummer toevoegen
+page-setup-recovery-phone-back-button-title = Terug naar instellingen
 
 ## Add secondary email page
 
@@ -971,6 +972,8 @@ tfa-input-enter-totp-v2 =
 tfa-save-these-codes-1 =
     Bewaar deze reserve-authenticatiecodes voor eenmalig gebruik op een veilige plaats voor als
     u uw mobiele apparaat niet hebt.
+# codes here refers to backup authentication codes
+tfa-enter-code-to-confirm-setup = Bevestig dat u uw codes hebt opgeslagen door er een in te voeren. Zonder deze codes kunt u zich mogelijk niet aanmelden als u uw authenticator-app niet hebt.
 tfa-enter-recovery-code-1 =
     .label = Voer een reserve-authenticatiecode in
 
@@ -1032,6 +1035,13 @@ tfa-row-backup-codes-title = Reserve-authenticatiecodes
 # Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
 # Users that have not enabled or verified 2FA will not see this
 tfa-row-backup-codes-not-available = Geen codes beschikbaar
+# $numCodesRemaining - the number of backup authentication codes that have not yet been used (generally between 1 to 5)
+# A different message is shown when no codes are available
+tfa-row-backup-codes-available-v2 =
+    { $numCodesAvailable ->
+        [one] { $numCodesAvailable } code resterend
+       *[other] { $numCodesAvailable } codes resterend
+    }
 # Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
 tfa-row-backup-codes-get-new-cta = Nieuwe codes verkrijgen
 # Shown to users who have no backup authentication codes
@@ -1666,6 +1676,12 @@ signin-recovery-method-subheader = Kies een herstelmethode
 signin-recovery-method-details = Laten we controleren dat u het bent die uw herstelmethoden gebruikt.
 signin-recovery-method-phone = Hersteltelefoonnummer
 signin-recovery-method-code-v2 = Reserve-authenticatiecodes
+# Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
+signin-recovery-method-code-info-v2 =
+    { $numBackupCodes ->
+        [one] { $numBackupCodes } code resterend
+       *[other] { $numBackupCodes } codes resterend
+    }
 # Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
 signin-recovery-method-send-code-error-heading = Er is een probleem opgetreden bij het verzenden van een code naar uw hersteltelefoonnummer
 signin-recovery-method-send-code-error-description = Probeer het later opnieuw of gebruik uw reserve-authenticatiecodes.
@@ -1679,6 +1695,8 @@ signin-recovery-code-heading = Aanmelden
 signin-recovery-code-sub-heading = Voer reserve-authenticatiecode in
 # codes here refers to backup authentication codes
 signin-recovery-code-instruction-v3 = Voer een van de codes voor eenmalig gebruik in die u hebt opgeslagen bij het instellen van authenticatie in twee stappen.
+# code here refers to backup authentication code
+signin-recovery-code-input-label-v2 = Voer code van 10 tekens in
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Bevestigen
 # Link to go to the page to use recovery phone instead
