@@ -6,6 +6,7 @@ next-payment-error-manage-subscription-button = Sýsla með áskriftina mína
 next-iap-upgrade-contact-support = Þú getur samt fengið þennan hugbúnað - hafðu samband við aðstoðargáttina svo við getum hjálpað þér.
 next-payment-error-retry-button = Reyndu aftur
 next-basic-error-message = Eitthvað fór úrskeiðis. Reyndu aftur síðar.
+checkout-error-contact-support-button = Hafa samband við aðstoðarteymi
 
 ## Page
 
