@@ -6,6 +6,9 @@ next-payment-error-manage-subscription-button = 管理我的订阅
 next-iap-upgrade-contact-support = 您仍可获得此产品，请联系用户支持为您提供帮助。
 next-payment-error-retry-button = 请重试
 next-basic-error-message = 出了点问题，请稍后再试。
+checkout-error-contact-support-button = 联系支持
+checkout-error-not-eligible = 您未满足订阅此产品所需的条件，请联系支持以获取帮助。
+checkout-error-contact-support = 请联系支持以获取帮助。
 
 ## Page
 
