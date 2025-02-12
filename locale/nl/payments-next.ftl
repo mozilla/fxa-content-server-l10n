@@ -7,6 +7,8 @@ next-iap-upgrade-contact-support = U kunt dit product nog steeds verkrijgen – 
 next-payment-error-retry-button = Opnieuw proberen
 next-basic-error-message = Er is iets misgegaan. Probeer het later opnieuw.
 checkout-error-contact-support-button = Contact opnemen
+checkout-error-not-eligible = U komt niet in aanmerking voor een abonnement op dit product – neem contact op met de ondersteuningsafdeling zodat we u kunnen helpen.
+checkout-error-contact-support = Neem contact op met de ondersteuningsafdeling zodat we u kunnen helpen.
 
 ## Page
 
