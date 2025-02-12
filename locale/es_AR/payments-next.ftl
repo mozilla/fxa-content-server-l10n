@@ -8,7 +8,7 @@ next-payment-error-retry-button = Intentar de nuevo
 next-basic-error-message = Algo salió mal. Probá de nuevo más tarde.
 checkout-error-contact-support-button = Contactar soporte
 checkout-error-not-eligible = No eres elegible para suscribirte a este producto; comunícate con el soporte técnico para que podamos ayudarte.
-checkout-error-contact-support = Ponte en contacto con el equipo de asistencia para que podamos ayudarte.
+checkout-error-contact-support = Ponete en contacto con soporte para que podamos ayudarte.
 
 ## Page
 

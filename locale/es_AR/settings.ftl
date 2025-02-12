@@ -966,7 +966,7 @@ tfa-input-enter-totp-v2 =
     .label = Ingresá el código de autenticación
 tfa-save-these-codes-1 = Guardá estos códigos de autenticación de respaldo en un lugar seguro para cuando no tengás tu dispositivo móvil.
 # codes here refers to backup authentication codes
-tfa-enter-code-to-confirm-setup = Confirma que guardaste tus códigos ingresando uno. Sin estos códigos, es posible que no puedas iniciar sesión si no tienes tu aplicación de autenticación.
+tfa-enter-code-to-confirm-setup = Confirmá que guardaste tus códigos ingresando uno. Sin estos códigos, es posible que no podás iniciar sesión si no tenés tu aplicación de autenticación.
 tfa-enter-recovery-code-1 =
     .label = Ingresá un código de autenticación de respaldo
 
@@ -1032,7 +1032,7 @@ tfa-row-backup-codes-not-available = No hay códigos disponibles
 # A different message is shown when no codes are available
 tfa-row-backup-codes-available-v2 =
     { $numCodesAvailable ->
-        [one] Queda el código { $numCodesAvailable }
+        [one] { $numCodesAvailable } código restante
        *[other] { $numCodesAvailable } códigos restantes
     }
 # Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
@@ -1675,8 +1675,8 @@ signin-recovery-method-code-v2 = Códigos de autenticación de respaldo
 # Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
 signin-recovery-method-code-info-v2 =
     { $numBackupCodes ->
-        [one] Queda { $numBackupCodes }
-       *[other] Quedan { $numBackupCodes }
+        [one] { $numBackupCodes } código restante
+       *[other] { $numBackupCodes } códigos restantes
     }
 # Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
 signin-recovery-method-send-code-error-heading = Hubo un problema al enviar un código a tu teléfono de recuperación
