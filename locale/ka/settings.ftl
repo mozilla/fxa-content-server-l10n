@@ -641,12 +641,22 @@ flow-setup-phone-confirm-code-button = დასტური
 # followed by a button to resend a code
 flow-setup-phone-confirm-code-expired = კოდი ვადაგასულია?
 flow-setup-phone-confirm-code-resend-code-button = კოდის კვლავ გაგზავნა
+flow-setup-phone-confirm-code-resend-code-success = კოდი გაგზავნილია
+flow-setup-phone-confirm-code-success-message-v2 = აღდგენის ტელეფონი დამატებულია
 
 ## FlowSetupPhoneConfirmCode
 
 flow-setup-phone-submit-number-heading = ტელეფონის ნომრის დამოწმება
 # The code is a 6-digit code send by text message/SMS
 flow-setup-phone-verify-number-instruction = ტექსტურ შეტყობინებას გამოგიგზავნით { -brand-mozilla } თქვენი ნომრის დამადასტურებელი კოდით. არავის გაუზიაროთ ეგ კოდი.
+# The initial rollout of the recovery phone is only available to users with US and Canada mobile phone numbers.
+# Voice over Internet Protocol (VoIP), is a technology that uses a broadband Internet connection instead of a regular (or analog) phone line to make calls.
+# Phone mask services (for example Relay) provide a temporary virtual number to avoid providing a real phone number.
+# Both VoIP and phone masks can be unreliable for one-time-passcode (OTP) verification
+flow-setup-phone-submit-number-info-message-v2 = აღდგენის ტელეფონი ხელმისაწვდომია მხოლოდ შეერთებულ შტატებსა და კანადაში. VoIP-ნომრები და ტელეფონის შენიღბული ნომრები არასასურველია.
+flow-setup-phone-submit-number-legal = თქვენი ნომრის მითითებით გვაძლევთ უფლებას, რომ შევინახოთ ანგარიშის დამადასტურებელი შეტყობინებების გამოსაგზავნად მხოლოდ. მიღებისას ან ფიჭური ინტერნეტის გამოყენებისას თანხა შეიძლება ჩამოგეჭრათ.
+# cliking on the button sends a code by text message to the phone number typed in by the user
+flow-setup-phone-submit-number-button = კოდის გაგზავნა
 
 ## HeaderLockup component, the header in account settings
 
@@ -704,6 +714,7 @@ tfa-replace-code-success-1 =
     ახალი გასაღებები შეიქმნა. შეინახეთ ერთჯერადი გამოყენების
     სამარქაფო კოდები დაცულ ადგილას — გამოგადგებათ ანგარიშთან წვდომისთვის
     მობილური მოწყობილობის არქონისას.
+tfa-replace-code-success-alert-4 = შესვლის სამარქაფო კოდები განახლებულია
 tfa-replace-code-1-2 = 1-ელი ნაბიჯი 2-იდან
 tfa-replace-code-2-2 = მე-2 ნაბიჯი 2-იდან
 tfa-enter-code-to-confirm-v2 =
@@ -871,9 +882,21 @@ recovery-key-create-back-button-title = პარამეტრებზე დ
 ## PageRecoveryPhoneRemove
 ## Users reach this page from account settings when they want to remove a backup phone number.
 
+recovery-phone-remove-header = აღდგენის ტელეფონის მოცილება
+# Variables:
+#   $formattedFullPhoneNumber (String) - the user's full phone number
+settings-recovery-phone-remove-info = შედეგად მოცილდება <strong>{ $formattedFullPhoneNumber }</strong> და აღარ იქნება გამოსადეგი აღდგენის ტელეფონად.
+settings-recovery-phone-remove-recommend = ჩვენ გირჩევთ, ეს ხერხი დატოვოთ, ვინაიდან ეს მეტად ადვილი გზაა, ვიდრე სამარქაფო კოდების შენახვა.
+# "Saved backup authentication codes" refers to previously saved backup authentication codes
+settings-recovery-phone-remove-recovery-methods = წაშლის შემთხვევაში დარწმუნდით, რომ ჯერ კიდევ გაქვთ შენახული შესვლის დამოწმების სამარქაფო კოდები. <linkExternal>შეადარეთ აღდგენის გზები</linkExternal>
+settings-recovery-phone-remove-button = ტელეფონის ნომრის მოცილება
+settings-recovery-phone-remove-cancel = გაუქმება
+settings-recovery-phone-remove-success = აღდგენის ტელეფონი მოცილებულია
 
 ## PageSetupRecoveryPhone
 
+page-setup-recovery-phone-heading = აღდგენის ტელეფონის დამატება
+page-setup-recovery-phone-back-button-title = პარამეტრებზე დაბრუნება
 
 ## Add secondary email page
 
@@ -913,6 +936,8 @@ verify-secondary-email-success-alert-2 = { $email } წარმატები�
 
 # Link to delete account on main Settings page
 delete-account-link = ანგარიშის წაშლა
+# Success message displayed in alert bar after the user has successfully confirmed their account is not inactive.
+inactive-update-status-success-alert = ანგარიშზე შესვლა წარმატებით დასრულდა. თქვენი { -product-mozilla-account } და მონაცემები დარჩება მოქმედი.
 
 ## Two Step Authentication
 
@@ -927,6 +952,7 @@ tfa-incorrect-totp = ორბიჯიანი დამოწმების 
 tfa-cannot-retrieve-code = ხარვეზი წარმოიშვა თქვენი კოდის მიღებისას.
 tfa-cannot-verify-code-4 = ხარვეზი წარმოიშვა თქვენი სამარქაფო კოდების დამოწმებისას
 tfa-incorrect-recovery-code-1 = არასწორი სამარქაფო კოდი
+tfa-enabled-v2 = ორბიჯიანი დამოწმება შესვლისას ჩართულია
 tfa-scan-this-code =
     წააკითხეთ ეს QR-კოდი შესვლის <linkExternal>დამოწმების
     რომელიმე ამ პროგრამას</linkExternal>.
@@ -948,6 +974,8 @@ tfa-input-enter-totp-v2 =
 tfa-save-these-codes-1 =
     გადაინახეთ შესვლის ეს ერთჯერადი სამარქაფო კოდები უსაფრთხო ადგილას იმ შემთხვევებისთვის
     როცა თან არ გექნებათ მობილური მოწყობილობა.
+# codes here refers to backup authentication codes
+tfa-enter-code-to-confirm-setup = დაადასტურეთ კოდების შენახვა ერთ-ერთის შეყვანით. ამ კოდების გარეშე შესაძლოა, ვეღარ შეხვიდეთ ანგარიშზე, თუ დაკარგავთ შესვლის დამმოწმებელ აპთან წვდომას.
 tfa-enter-recovery-code-1 =
     .label = შეიყვანეთ შესვლის სამარქაფო კოდი
 
@@ -1009,6 +1037,13 @@ tfa-row-backup-codes-title = შესვლის სამარქაფო �
 # Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
 # Users that have not enabled or verified 2FA will not see this
 tfa-row-backup-codes-not-available = კოდები არაა ხელმისაწვდომი
+# $numCodesRemaining - the number of backup authentication codes that have not yet been used (generally between 1 to 5)
+# A different message is shown when no codes are available
+tfa-row-backup-codes-available-v2 =
+    { $numCodesAvailable ->
+        [one] { $numCodesAvailable } კოდია დარჩენილი
+       *[other] { $numCodesAvailable } კოდია დარჩენილი
+    }
 # Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
 tfa-row-backup-codes-get-new-cta = ახალი კოდების მიღება
 # Shown to users who have no backup authentication codes
@@ -1016,6 +1051,9 @@ tfa-row-backup-codes-get-new-cta = ახალი კოდების მი�
 tfa-row-backup-codes-add-cta = დამატება
 # 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
 tfa-row-backup-codes-description-2 = ესაა აღდგენის მეტად უსაფრთხო გზა, თუ ვერ იყენებთ თქვენს მობილურ მოწყობილობას ან დამმოწმებელ პროგრამას.
+# Recovery phone is a recovery method for two-step authentication
+# A recovery code can be sent to the user's phone
+tfa-row-backup-phone-title-v2 = აღდგენის ტელეფონი
 # Shown with an alert icon to indicate that no recovery phone is configured
 tfa-row-backup-phone-not-available = აღდგენის ტელეფონის ნომერი არაა მითითებული
 # button to change the configured recovery phone
@@ -1024,6 +1062,9 @@ tfa-row-backup-phone-change-cta = შეცვლა
 tfa-row-backup-phone-add-cta = დამატება
 # Button to remove a recovery phone from the user's account
 tfa-row-backup-phone-delete-button = მოცილება
+# Shown in tooltip on delete button or delete icon
+tfa-row-backup-phone-delete-title-v2 = აღდგენის ტელეფონის მოცილება
+tfa-row-backup-phone-delete-restriction-v2 = თუ გსურთ ამოშალოთ თქვენი აღდგენის ტელეფონი, დაამატეთ შესვლის სამარქაფო კოდები ან ჯერ გათიშეთ ორსაფეხურიანი დამოწმება, ანგარიში რომ არ ჩაგეკეტოთ.
 # "this" refers to recovery phone
 tfa-row-backup-phone-description = ესაა აღდგენის მეტად ადვილი გზა, თუ ვერ იყენებთ თქვენს დამმოწმებელ პროგრამას.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
@@ -1122,6 +1163,10 @@ tfa-row-button-refresh =
     .title = ორბიჯიანი დამოწმების განახლება
 tfa-row-cannot-refresh = სამწუხაროდ, ხარვეზი წარმოიშვა ორბიჯიანი დამოწმების განახლებისას.
 tfa-row-enabled-description = თქვენი ანგარიში დაცულია ორბიჯიანი დამოწმებით. დაგჭირდებათ ერთჯერადი შესვლის კოდის შეყვანა დამმოწმებელი აპიდან { -product-mozilla-account(case: "loc") } შესვლისას.
+# "this" refers to two-step authentication
+# Link goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+tfa-row-enabled-info-link = როგორ იცავს ეს თქვენს ანგარიშს
+tfa-row-disabled-description-v2 = თქვენი ანგარიშის დაცვისთვის დაიხმარეთ რომელიმე დამმოწმებელი პროგრამა ორბიჯიანი შესვლისთვის.
 tfa-row-cannot-verify-session-4 = სამწუხაროდ, ხარვეზი წარმოიშვა თქვენი სეანსის დამოწმებისას
 tfa-row-disable-modal-heading = გამოირთოს შესვლისას ორბიჯიანი დამოწმება?
 tfa-row-disable-modal-confirm = გამორთვა
@@ -1172,11 +1217,16 @@ auth-error-114-generic = ზედმეტად ბევრი მცდე�
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = ზედმეტად ბევრი მცდელობაა. მოითმინეთ { $retryAfter }.
 auth-error-125 = მოთხოვნა უარყოფილია უსაფრთხოების მიზნით
+auth-error-129 = ტელეფონის არასწორი ნომერი
 auth-error-138-2 = დაუმოწმებელი სეანსი
 auth-error-139 = ელფოსტის დამატებითი მისამართი უნდა განსხვავდებოდეს ანგარიშის ელფოსტისგან
 auth-error-155 = TOTP-საშვი ვერ მოიძებნა
+# Error shown when the user submits an invalid backup authentication code
+auth-error-156 = შესვლის სამარქაფო კოდი ვერ მოიძებნა
 auth-error-159 = ანგარიშის აღდგენის უმართებულო გასაღები
 auth-error-183-2 = არასწორი ან ვადაგასული დამადასტურებელი კოდი
+auth-error-202 = შესაძლებლობა ჩართული არაა
+auth-error-203 = სისტემა მიუწვდომელია, სცადეთ მოგვიანებით
 auth-error-206 = პაროლი ვერ შეიქმნება, პაროლი უკვე მითითებულია
 auth-error-999 = მოულოდნელი შეცდომა
 auth-error-1001 = შესვლის მცდელობა აღკვეთილია
