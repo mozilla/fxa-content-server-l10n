@@ -1696,9 +1696,6 @@ signin-recovery-code-use-phone-failure-description = Proszę spróbować ponowni
 signin-recovery-phone-flow-heading = Zaloguj się
 # A recovery code in context of this page is a one time code sent to the user's phone
 signin-recovery-phone-heading = Wpisz kod odzyskiwania
-# Text that explains the user should check their phone for a recovery code
-# $maskedPhoneNumber - The users masked phone number
-signin-recovery-phone-instruction = Sześciocyfrowy kod został wysłany na numer <span>{ $maskedPhoneNumber }</span> za pomocą wiadomości SMS. Ten kod wygasa po 5 minutach.
 signin-recovery-phone-input-label = Wpisz sześciocyfrowy kod
 signin-recovery-phone-code-submit-button = Potwierdź
 signin-recovery-phone-resend-code-button = Wyślij ponownie kod

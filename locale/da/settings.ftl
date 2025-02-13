@@ -1717,9 +1717,6 @@ signin-recovery-code-use-phone-failure-description = Prøv igen senere.
 signin-recovery-phone-flow-heading = Log ind
 # A recovery code in context of this page is a one time code sent to the user's phone
 signin-recovery-phone-heading = Indtast genoprettelseskode
-# Text that explains the user should check their phone for a recovery code
-# $maskedPhoneNumber - The users masked phone number
-signin-recovery-phone-instruction = En sekscifret kode blev sendt til <span>{ $maskedPhoneNumber }</span> i en SMS-besked. Denne kode udløber efter 5 minutter.
 signin-recovery-phone-input-label = Indtast 6-cifret kode
 signin-recovery-phone-code-submit-button = Bekræft
 signin-recovery-phone-resend-code-button = Send kode igen

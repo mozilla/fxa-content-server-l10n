@@ -1700,9 +1700,6 @@ signin-recovery-code-use-phone-failure-description = Reyndu aftur seinna.
 signin-recovery-phone-flow-heading = Skrá inn
 # A recovery code in context of this page is a one time code sent to the user's phone
 signin-recovery-phone-heading = Settu inn endurheimtukóða
-# Text that explains the user should check their phone for a recovery code
-# $maskedPhoneNumber - The users masked phone number
-signin-recovery-phone-instruction = Sex stafa kóði var sendur til <span>{ $maskedPhoneNumber }</span> með SMS. Þessi kóði rennur út eftir 5 mínútur.
 signin-recovery-phone-input-label = Settu inn 6-stafa kóða
 signin-recovery-phone-code-submit-button = Staðfesta
 signin-recovery-phone-resend-code-button = Senda kóða aftur

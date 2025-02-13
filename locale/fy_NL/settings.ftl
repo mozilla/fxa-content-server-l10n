@@ -1721,9 +1721,6 @@ signin-recovery-code-use-phone-failure-description = Probearje it letter noch ri
 signin-recovery-phone-flow-heading = Oanmelde
 # A recovery code in context of this page is a one time code sent to the user's phone
 signin-recovery-phone-heading = Fier werstelkoade yn
-# Text that explains the user should check their phone for a recovery code
-# $maskedPhoneNumber - The users masked phone number
-signin-recovery-phone-instruction = Der is per sms in 6-siferige koade ferstjoerd nei <span>{ $maskedPhoneNumber }</span>. Dizze koade ferrint nei 5 minuten.
 signin-recovery-phone-input-label = Fier 6-siferige koade yn
 signin-recovery-phone-code-submit-button = Befêstigje
 signin-recovery-phone-resend-code-button = Koade nochris ferstjoere

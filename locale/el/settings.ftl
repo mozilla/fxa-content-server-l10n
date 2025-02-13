@@ -1706,9 +1706,6 @@ signin-recovery-code-use-phone-failure-description = Δοκιμάστε ξανά
 signin-recovery-phone-flow-heading = Σύνδεση
 # A recovery code in context of this page is a one time code sent to the user's phone
 signin-recovery-phone-heading = Εισαγάγετε τον κωδικό ανάκτησης
-# Text that explains the user should check their phone for a recovery code
-# $maskedPhoneNumber - The users masked phone number
-signin-recovery-phone-instruction = Ένας εξαψήφιος κωδικός έχει αποσταλεί στο <span>{ $maskedPhoneNumber }</span> μέσω μηνύματος κειμένου. Αυτός ο κωδικός λήγει μετά από 5 λεπτά.
 signin-recovery-phone-input-label = Εισαγάγετε τον εξαψήφιο κωδικό
 signin-recovery-phone-code-submit-button = Επιβεβαίωση
 signin-recovery-phone-resend-code-button = Αποστολή νέου κωδικού

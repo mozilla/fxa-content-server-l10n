@@ -1724,9 +1724,6 @@ signin-recovery-code-use-phone-failure-description = Emprova per plaschair pli t
 signin-recovery-phone-flow-heading = S’annunziar
 # A recovery code in context of this page is a one time code sent to the user's phone
 signin-recovery-phone-heading = Endatar il code da recuperaziun
-# Text that explains the user should check their phone for a recovery code
-# $maskedPhoneNumber - The users masked phone number
-signin-recovery-phone-instruction = In code da sis cifras è vegnì tramess a <span>{ $maskedPhoneNumber }</span> via SMS. Quest code scada en 5 minutas.
 signin-recovery-phone-input-label = Endatescha il code da 6 cifras
 signin-recovery-phone-code-submit-button = Confermar
 signin-recovery-phone-resend-code-button = Trametter anc ina giada il code
