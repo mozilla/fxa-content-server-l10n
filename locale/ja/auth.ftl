@@ -359,6 +359,9 @@ postAddRecoveryPhone-title = 回復用の電話番号を作成しました
 # Variables:
 #  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
 postAddRecoveryPhone-description = 回復用の電話番号として { $maskedLastFourPhoneNumber } を登録しました
+# Links out to a support article about two factor authentication
+postAddRecoveryPhone-how-protect = アカウント保護に役立つ理由
+postAddRecoveryPhone-how-protect-plaintext = アカウント保護に役立つ理由:
 postAddRecoveryPhone-enabled-device = 次の端末から有効にしました:
 postAddRecoveryPhone-action = アカウントの管理
 postAddTwoStepAuthentication-subject-2 = 2 段階認証がオンになりました
