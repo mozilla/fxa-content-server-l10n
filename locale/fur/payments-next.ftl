@@ -7,6 +7,8 @@ next-iap-upgrade-contact-support = Tu puedis ancjemò otignî chest prodot — c
 next-payment-error-retry-button = Torne prove
 next-basic-error-message = Alc al è lât strucj. Torne prove plui indenant.
 checkout-error-contact-support-button = Contate la assistence
+checkout-error-not-eligible = No tu âs i recuisîts par abonâti a chest prodot - Contate la assistence cussì che o podìn judâti.
+checkout-error-contact-support = Contate la assistence par ricevi il nestri jutori.
 
 ## Page
 
