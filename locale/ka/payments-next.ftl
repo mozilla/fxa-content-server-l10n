@@ -6,12 +6,23 @@ next-payment-error-manage-subscription-button = გამოწერები�
 next-iap-upgrade-contact-support = კვლავ შეგიძლიათ ამ პროდუქტის მიღება — გთხოვთ მიმართოთ მხარდაჭერის გუნდს, რომ შევძლოთ დახმარება.
 next-payment-error-retry-button = ხელახლა ცდა
 next-basic-error-message = რაღაც ხარვეზი წარმოიქმნა. გთხოვთ, სცადოთ მოგვიანებით.
+checkout-error-contact-support-button = დაკავშირება მხარდაჭერისთვის
+checkout-error-not-eligible = თქვენ ვერ აკმაყოფილებთ პირობებს ამ პროდუქტის გამოსაწერად — გთხოვთ მიმართოთ მხარდაჭერის გუნდს, რომ შევძლოთ დახმარება.
+checkout-error-contact-support = გთხოვთ მიმართოთ მხარდაჭერის გუნდს, რომ დაგეხმაროთ.
 
 ## Page
 
+checkout-signin-or-create = 1. შედით ან შექმენით { -product-mozilla-account }
+checkout-create-account = შექმენით { -product-mozilla-account }
+continue-signin-with-google-button = გამოიყენეთ { -brand-google }, რომ განაგრძოთ
+continue-signin-with-apple-button = გამოიყენეთ { -brand-apple }, რომ განაგრძოთ
 next-payment-method-header = შეარჩიეთ გადახდის საშუალება
+# This message is used to indicate the second step in a multi step process.
+payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = ჯერ უნდა დაამოწმოთ გამოწერა
 next-payment-confirmation-thanks-heading-account-exists = გმადლობთ, ახლა კი შეამოწმეთ თქვენი ელფოსტა!
+# $email (String) - The user's email.
+payment-confirmation-thanks-subheading-account-exists-2 = თქვენ მიიღებთ წერილს ელფოსტაზე { $email } გამოწერის შესახებ მითითებებით, აგრეთვე გადახდის შესახებ მონაცემებით.
 next-payment-confirmation-order-heading = შეკვეთის მონაცემები
 # $invoiceNumber (String) - Invoice number of the successful payment
 next-payment-confirmation-invoice-number = ზედნადები #{ $invoiceNumber }
@@ -24,6 +35,8 @@ next-payment-confirmation-amount = { $amount } ყოველი { $interval }
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = ბარათი დაბოლოებით { $last4 }
 next-payment-confirmation-download-button = განაგრძეთ ჩამოტვირთვა
+checkout-error-boundary-retry-button = ხელახლა ცდა
+checkout-error-boundary-basic-error-message = რაღაც ხარვეზი წარმოიშვა. გთხოვთ, სცადოთ ხელახლა ან <contactSupportLink>დაუკავშირდეთ მხარდაჭერის გუნდს.</contactSupportLink>
 
 ## Component - Payment Consent Checkbox
 
@@ -34,6 +47,10 @@ next-payment-confirm-checkbox-error = უნდა დაასრულოთ, 
 
 next-new-user-submit = გამოწერა ახლავე
 next-payment-validate-name-error = გთხოვთ მიუთითოთ თქვენი სახელი
+next-pay-with-heading-paypal = გადახდისთვის გამოიყენეთ { -brand-paypal }
+# Label for the Full Name input
+payment-name-label = სახელი ისე, როგორც თქვენს ბარათზეა
+payment-name-placeholder = სრული სახელი
 
 ## Component - CouponForm
 
@@ -45,6 +62,9 @@ next-coupon-promo-code = ფასდაკლების კოდი
 next-coupon-promo-code-applied = ფასდაკლების კოდის ასახულია
 next-coupon-remove = მოცილება
 next-coupon-submit = ასახვა
+payments-client-loading-spinner =
+    .aria-label = იტვირთება…
+    .alt = იტვირთება…
 
 ## Payment Section
 
@@ -75,6 +95,7 @@ select-tax-location-error-location-not-updated = თქვენი მდებ
 signin-form-continue-button = განაგრძეთ
 signin-form-email-input = შეიყვანეთ თქვენი ელფოსტა
 signin-form-email-input-missing = გთხოვთ მიუთითოთ თქვენი ელფოსტა
+signin-form-email-input-invalid = გთხოვთ, მიუთითოთ მართებული ელფოსტა
 next-new-user-subscribe-product-updates-mdnplus = მსურს შევიტყო, რა სიახლეებსა და ცვლილებებს გვთავაზობს { -product-mdn-plus } და { -brand-mozilla }
 next-new-user-subscribe-product-updates-mozilla = მსურს შევიტყო, რა სიახლეებსა და ცვლილებებს გვთავაზობს { -brand-mozilla }
 next-new-user-subscribe-product-updates-snp = მსურს შევიტყო, რა სიახლეებსა და ცვლილებებს გვთავაზობს პირადულობისა და უსაფრთხოებისთვის { -brand-mozilla }
@@ -90,9 +111,11 @@ next-plan-details-total-label = სულ
 ## Purchase details - shared by multiple components, including purchase details and payment form
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+list-positive-amount = { $amount }
+list-negative-amount = - { $amount }
 next-coupon-success = თქვენი გადახდის გეგმა თავისით განახლდება ფასების ნუსხის მიხედვით.
 # $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
-next-coupon-success-repeating = თქვენი გეგმა თავისით დაუბრუნდება განსაზღვრულ ტარიფს, თარიღიდან { $couponDurationDate }
+next-coupon-success-repeating = თქვენი გეგმა თავისით დაუბრუნდება განსაზღვრულ ფასებს თარიღიდან { $couponDurationDate }
 
 ## Component - PriceInterval
 
@@ -100,6 +123,11 @@ next-coupon-success-repeating = თქვენი გეგმა თავი�
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+plan-price-interval-daily = { $amount } დღეში
+plan-price-interval-weekly = { $amount } კვირაში
+plan-price-interval-monthly = { $amount } თვეში
+plan-price-interval-6monthly = { $amount } ყოველ 6 თვეში
+plan-price-interval-yearly = { $amount } წელიწადში
 
 ## Component - SubscriptionTitle
 
