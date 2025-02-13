@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-05 20:09+0000\n"
-"PO-Revision-Date: 2023-10-20 06:57+0000\n"
+"PO-Revision-Date: 2025-02-13 20:28+0000\n"
 "Last-Translator: G12r <georgianization@outlook.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ka\n"
@@ -21,7 +21,7 @@ msgstr "Mozilla-ანგარიშები"
 #: server/templates/pages/src/404.html:2 server/templates/pages/src/500.html:2 server/templates/pages/src/502.html:2 server/templates/pages/src/503.html:2 server/templates/pages/src/index.html:3
 #: server/templates/pages/src/update_firefox.html:2
 msgid "Mozilla logo"
-msgstr ""
+msgstr "Mozilla-ლოგო"
 
 #: server/templates/pages/src/404.html:3
 msgid "Page not found"
@@ -64,6 +64,8 @@ msgid ""
 "We are currently under heavy strain and are working to return\n"
 "            the system to normal as soon as possible."
 msgstr ""
+"ამჟამად სისტემა დატვირთულია და ვმუშაობთ, რომ\n"
+"            რაც შეიძლება მალე დავაბრუნოთ ჩვეულ მდგომარეობაში."
 
 #: server/templates/pages/src/index.html:2
 msgid "Loading"

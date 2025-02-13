@@ -1228,6 +1228,10 @@ auth-error-183-2 = არასწორი ან ვადაგასულ�
 auth-error-202 = შესაძლებლობა ჩართული არაა
 auth-error-203 = სისტემა მიუწვდომელია, სცადეთ მოგვიანებით
 auth-error-206 = პაროლი ვერ შეიქმნება, პაროლი უკვე მითითებულია
+auth-error-214 = აღდგენის ტელეფონის ნომერი უკვე არსებობს
+auth-error-215 = აღდგენის ტელეფონის ნომერი არ არსებობს
+auth-error-216 = ტექსტური შეტყობინებების ზღვარი მიღწეულია
+auth-error-218 = აღდგენის ტელეფონის მოცილება ვერ ხერხდება, აკლია შესვლის სამარქაფო კოდები.
 auth-error-999 = მოულოდნელი შეცდომა
 auth-error-1001 = შესვლის მცდელობა აღკვეთილია
 auth-error-1002 = სეანსი ამოიწურა. შედით ანგარიშზე, რომ განაგრძოთ.
@@ -1238,6 +1242,7 @@ auth-error-1011 = მართებული ელფოსტაა აუც
 auth-error-1031 = ანგარიშის შესაქმნელად უნდა მიუთითოთ ასაკი
 auth-error-1032 = მართებული ასაკია აუცილებელი ანგარიშის შესაქმნელად
 auth-error-1054 = ორბიჯიანი დამოწმების კოდი არასწორია
+auth-error-1056 = შესვლის დამოწმების უმართებულო სამარქაფო კოდი
 auth-error-1062 = გაუმართავი გადამისამართება
 oauth-error-1000 = რაღაც ხარვეზია. გთხოვთ დახუროთ ჩანართი და სცადოთ ხელახლა.
 
@@ -1341,6 +1346,7 @@ inline-recovery-confirmation-header-default = დაადასტურეთ 
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = დაადასტურეთ შესვლის სამარქაფო კოდი, <span>რომ იხილოთ { $serviceName }</span>
+inline-recovery-2fa-enabled-v2 = ორბიჯიანი დამოწმება შესვლისას ჩართულია
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1668,6 +1674,20 @@ signin-push-code-confirm-link-error = ბმულია დაზიანე�
 ## This page is shown to users when they are having trouble signing in with
 ## their password, and they previously had set up an account recovery method.
 
+signin-recovery-method-header = შესვლა
+signin-recovery-method-subheader = აირჩიეთ აღდგენის გზა
+signin-recovery-method-details = დარწმუნდით, რომ იყენებთ აღდგენის რომელიმე საშუალებას.
+signin-recovery-method-phone = აღდგენის ტელეფონი
+signin-recovery-method-code-v2 = შესვლის სამარქაფო კოდები
+# Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
+signin-recovery-method-code-info-v2 =
+    { $numBackupCodes ->
+        [one] { $numBackupCodes } კოდია დარჩენილი
+       *[other] { $numBackupCodes } კოდია დარჩენილი
+    }
+# Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
+signin-recovery-method-send-code-error-heading = ხარვეზი წარმოიშვა კოდის გამოგზავნისას თქვენს აღდგენის ტელეფონზე
+signin-recovery-method-send-code-error-description = გთხოვთ, სცადოთ მოგვიანებით ან გამოიყენოთ დამოწმების სამარქაფო კოდები.
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
@@ -1676,16 +1696,43 @@ signin-push-code-confirm-link-error = ბმულია დაზიანე�
 
 signin-recovery-code-heading = შესვლა
 signin-recovery-code-sub-heading = შეიყვანეთ შესვლის სამარქაფო კოდი
+# codes here refers to backup authentication codes
+signin-recovery-code-instruction-v3 = შეიყვანეთ რომელიმე ერთჯერადი კოდი, რომელიც შეინახეთ ორბიჯიანი დამოწმების გამართვისას.
+# code here refers to backup authentication code
+signin-recovery-code-input-label-v2 = შეიყვანეთ 10-ნიშნა კოდი
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = თანხმობა
+# Link to go to the page to use recovery phone instead
+signin-recovery-code-phone-link = აღდგენის ტელეფონის გამოყენება
 # External link for support if the user can't use two-step autentication or a backup authentication code
 # https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 signin-recovery-code-support-link = ვერ ახერხებთ შესვლას?
 # Error displayed in a tooltip when form is submitted witout a code
 signin-recovery-code-required-error = შესვლის დამოწმების სამარქაფო კოდი აუცილებელია
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-recovery-code-use-phone-failure = ხარვეზი წარმოიშვა კოდის გამოგზავნისას თქვენს აღდგენის ტელეფონზე
+signin-recovery-code-use-phone-failure-description = გთხოვთ სცადოთ მოგვიანებით.
 
 ## SigninRecoveryPhone page
 
+signin-recovery-phone-flow-heading = შესვლა
+# A recovery code in context of this page is a one time code sent to the user's phone
+signin-recovery-phone-heading = შეიყვანეთ აღდგენის კოდი
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+signin-recovery-phone-instruction = ექვსციფრიანი კოდი გაიგზავნა ნომერზე <span>{ $maskedPhoneNumber }</span> ტექსტური შეტყობინებით. კოდს ვადა გაუვა 5 წუთში.
+signin-recovery-phone-input-label = შეიყვანეთ 6-ციფრიანი კოდი
+signin-recovery-phone-code-submit-button = თანხმობა
+signin-recovery-phone-resend-code-button = კოდის კვლავ გაგზავნა
+signin-recovery-phone-resend-success = კოდი გაგზავნილია
+# links to https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+signin-recovery-phone-locked-out-link = ვერ ახერხებთ შესვლას?
+signin-recovery-phone-send-code-error-heading = ხარვეზი წარმოიშვა კოდის გამოგზავნისას.
+signin-recovery-phone-code-verification-error-heading = ხარვეზი წარმოიშვა კოდის დამოწმებისას.
+# Follows the error message (e.g, "There was a problem sending a code")
+signin-recovery-phone-general-error-description = გთხოვთ კვლავ სცადოთ მოგვიანებით.
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
