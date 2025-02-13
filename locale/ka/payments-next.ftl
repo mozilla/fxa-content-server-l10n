@@ -57,11 +57,24 @@ next-plan-details-show-button = ვრცლად ჩვენება
 
 ## Select Tax Location
 
+select-tax-location-title = მდებარეობა
+select-tax-location-edit-button = ჩასწორება
+select-tax-location-save-button = შენახვა
+select-tax-location-country-code-label = ქვეყანა
+select-tax-location-country-code-placeholder = აირჩიეთ თქვენი ქვეყანა
+select-tax-location-error-missing-country-code = გთხოვთ მიუთითოთ თქვენი ქვეყანა
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN
+select-tax-location-product-not-available = { $productName } მიუწვდომელია ამ მხარეში.
 select-tax-location-postal-code-label = საფოსტო ინდექსი
 select-tax-location-postal-code =
     .placeholder = მიუთითეთ თქვენი საფოსტო კოდი
 select-tax-location-error-missing-postal-code = გთხოვთ შეიყვანოთ თქვენი საფოსტო ინდექსი
 select-tax-location-error-invalid-postal-code = გთხოვთ მიუთითოთ მართებული საფოსტო ინდექსი
+select-tax-location-successfully-updated = თქვენი მდებარეობა განახლდა.
+select-tax-location-error-location-not-updated = თქვენი მდებარეობა ვერ განახლდა. გთხოვთ, კვლავ სცადოთ.
+signin-form-continue-button = განაგრძეთ
+signin-form-email-input = შეიყვანეთ თქვენი ელფოსტა
+signin-form-email-input-missing = გთხოვთ მიუთითოთ თქვენი ელფოსტა
 next-new-user-subscribe-product-updates-mdnplus = მსურს შევიტყო, რა სიახლეებსა და ცვლილებებს გვთავაზობს { -product-mdn-plus } და { -brand-mozilla }
 next-new-user-subscribe-product-updates-mozilla = მსურს შევიტყო, რა სიახლეებსა და ცვლილებებს გვთავაზობს { -brand-mozilla }
 next-new-user-subscribe-product-updates-snp = მსურს შევიტყო, რა სიახლეებსა და ცვლილებებს გვთავაზობს პირადულობისა და უსაფრთხოებისთვის { -brand-mozilla }
