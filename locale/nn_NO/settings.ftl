@@ -1475,6 +1475,8 @@ signin-token-code-required-error = Stadfestingskode påkravd
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+signin-totp-code-header = Logg inn
+signin-totp-code-input-label-v4 = Skriv inn 6-sifra kode
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Stadfest
 signin-totp-code-other-account-link = Bruk ein annan konto
