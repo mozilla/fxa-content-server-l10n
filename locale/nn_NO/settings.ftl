@@ -1476,6 +1476,7 @@ signin-token-code-required-error = Stadfestingskode påkravd
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
 signin-totp-code-header = Logg inn
+signin-totp-code-instruction-v4 = Sjekk <strong>autentiseringsappen</strong> for å stadfeste innlogginga.
 signin-totp-code-input-label-v4 = Skriv inn 6-sifra kode
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Stadfest
