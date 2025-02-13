@@ -1715,6 +1715,9 @@ signin-recovery-code-use-phone-failure-description = Ceisiwch eto'n ddiweddarach
 signin-recovery-phone-flow-heading = Mewngofnodi
 # A recovery code in context of this page is a one time code sent to the user's phone
 signin-recovery-phone-heading = Rhowch y cod adfer
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+signin-recovery-phone-instruction-v2 = Anfonwyd cod chwe digid at <span>{ $maskedPhoneNumber }</span> trwy neges destun. Daw'r cod hwn i ben ar ôl 5 munud. Peidiwch â rhannu’r cod hwn ag unrhyw un.
 signin-recovery-phone-input-label = Rhowch y cod 6 digid
 signin-recovery-phone-code-submit-button = Cadarnhau
 signin-recovery-phone-resend-code-button = Ail-anfon y cod

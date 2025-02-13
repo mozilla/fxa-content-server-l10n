@@ -1718,6 +1718,9 @@ signin-recovery-code-use-phone-failure-description = Poskusite znova kasneje.
 signin-recovery-phone-flow-heading = Prijava
 # A recovery code in context of this page is a one time code sent to the user's phone
 signin-recovery-phone-heading = Vnesite kodo za obnovitev
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+signin-recovery-phone-instruction-v2 = Šestmestna koda je bila poslana na <span>{ $maskedPhoneNumber }</span> v sporočilu SMS. Koda poteče po 5 minutah. Ne delite te kode z nikomer.
 signin-recovery-phone-input-label = Vnesite 6-mestno kodo
 signin-recovery-phone-code-submit-button = Potrdi
 signin-recovery-phone-resend-code-button = Znova pošlji kodo
