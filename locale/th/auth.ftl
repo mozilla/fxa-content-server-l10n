@@ -242,7 +242,10 @@ fraudulentAccountDeletion-contact = หากคุณมีคำถามใ�
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = หากคุณมีคำถามใดๆ โปรดติดต่อทีมสนับสนุนของเรา: { $mozillaSupportUrl }
+inactiveAccountFinalWarning-preview = ลงชื่อเข้าใช้เพื่อรักษาบัญชีของคุณ
 inactiveAccountFinalWarning-action = ลงชื่อเข้าใช้เพื่อรักษาบัญชีของคุณ
+# followed by link to sign in
+inactiveAccountFinalWarning-action-plaintext = ลงชื่อเข้าใช้เพื่อรักษาบัญชีของคุณ:
 inactiveAccountFirstWarning-action = ลงชื่อเข้าใช้เพื่อรักษาบัญชีของคุณ
 inactiveAccountFirstWarning-preview = ลงชื่อเข้าใช้เพื่อรักษาบัญชีของคุณ
 # followed by link to sign in
