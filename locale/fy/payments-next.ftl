@@ -6,6 +6,9 @@ next-payment-error-manage-subscription-button = Myn abonnemint beheare
 next-iap-upgrade-contact-support = Jo kinne dit produkt noch hieltyd krije – nim kontakt op mei de stipeôfdieling, sadat wy jo helpe kinne.
 next-payment-error-retry-button = Opnij probearje
 next-basic-error-message = Der is wat misgien. Probearje it letter opnij.
+checkout-error-contact-support-button = Kontakt opnimme
+checkout-error-not-eligible = Jo komme net yn oanmerking foar in abonnemint op dit produkt – nim kontakt op mei de stipeôfdieling, sadat wy jo helpe kinne.
+checkout-error-contact-support = Nim kontakt op mei stipeôfdieling, sadat wy jo helpe kinne.
 
 ## Page
 
