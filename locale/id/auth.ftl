@@ -2,6 +2,16 @@
 
 session-verify-send-push-title-2 = Masuk ke { -product-mozilla-account } Anda?
 session-verify-send-push-body-2 = Klik di sini untuk mengonfirmasi bahwa ini memang Anda
+# Message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to verify phone ownership when registering a recovery phone
+recovery-phone-setup-sms-body = { $code } adalah kode verifikasi { -brand-mozilla } Anda. Kedaluwarsa dalam 5 menit.
+# Message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to sign in with a recovery phone as backup for two-step authentication
+recovery-phone-signin-sms-body = { $code } adalah kode pemulihan { -brand-mozilla } Anda. Kedaluwarsa dalam 5 menit.
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
@@ -97,6 +107,19 @@ automatedEmailRecoveryKey-origin-device-all = Permintaan ini berasal dari { $uaB
 # - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
 # - $uaOS: the user agent's operating system (e.g, MacOS)
 automatedEmailRecoveryKey-origin-device-browser-os = Permintaan ini berasal dari { $uaBrowser } pada { $uaOS }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+automatedEmailRecoveryKey-origin-device-browser-only = Permintaan ini berasal dari { $uaBrowser }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+# - $uaOSVersion - the user agent's operating system version
+automatedEmailRecoveryKey-origin-device-OS-version-only = Permintaan ini berasal dari { $uaOS } { $uaOSVersion }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+automatedEmailRecoveryKey-origin-device-OS-only = Permintaan ini berasal dari { $uaOS }.
 change-password-plaintext = Jika Anda mencurigai seseorang berusaha mendapatkan akses ke akun Anda, silakan ubah kata sandi Anda.
 manage-account = Kelola akun
 # After the colon, there's a link to https://accounts.firefox.com/support
