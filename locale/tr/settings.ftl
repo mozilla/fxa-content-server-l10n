@@ -1698,6 +1698,9 @@ signin-recovery-code-use-phone-failure-description = Lütfen daha sonra yeniden 
 signin-recovery-phone-flow-heading = Giriş yap
 # A recovery code in context of this page is a one time code sent to the user's phone
 signin-recovery-phone-heading = Kurtarma kodunu girin
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+signin-recovery-phone-instruction-v2 = <span>{ $maskedPhoneNumber }</span> numarasına kısa mesajla altı haneli bir kod gönderdik. Bu kodun geçerlilik süresi 5 dakikadır. Kodu hiç kimseyle paylaşmayın.
 signin-recovery-phone-input-label = 6 basamaklı kodu girin
 signin-recovery-phone-code-submit-button = Onayla
 signin-recovery-phone-resend-code-button = Kodu yeniden gönder
