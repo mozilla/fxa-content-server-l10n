@@ -920,6 +920,8 @@ tfa-enter-secret-key = נא להקליד את המפתח הסודי הזה לי�
 tfa-enter-totp-v2 = כעת יש להכניס את קוד האימות מיישומון האימות.
 tfa-input-enter-totp-v2 =
     .label = נא להכניס קוד אימות
+# codes here refers to backup authentication codes
+tfa-enter-code-to-confirm-setup = נא לאשר ששמרת את הקודים שלך על־ידי הזנת אחד מהם. ללא קודים אלה, ייתכן שלא יהיה באפשרותך להתחבר אם אין לך את היישומון המאמת שלך.
 
 ##
 
@@ -1596,6 +1598,8 @@ signin-recovery-method-send-code-error-heading = הייתה בעיה בשליח�
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
 signin-recovery-code-heading = כניסה
+# codes here refers to backup authentication codes
+signin-recovery-code-instruction-v3 = נא להכניס את אחד מהקודים החד־פעמיים ששמרת כשהגדרת את האימות הדו־שלבי.
 # code here refers to backup authentication code
 signin-recovery-code-input-label-v2 = נא להזין קוד בן 10 תווים
 # Form button to confirm if the backup authentication code entered by the user is valid
@@ -1616,6 +1620,9 @@ signin-recovery-code-use-phone-failure-description = נא לנסות שוב מא
 signin-recovery-phone-flow-heading = כניסה
 # A recovery code in context of this page is a one time code sent to the user's phone
 signin-recovery-phone-heading = נא להכניס קוד לשחזור
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+signin-recovery-phone-instruction-v2 = קוד בן שש ספרות נשלח אל <span>{ $maskedPhoneNumber }</span> בהודעת טקסט. קוד זה יפוג לאחר 5 דקות. אין לשתף את הקוד הזה עם אף אחד.
 signin-recovery-phone-input-label = נא להזין קוד בן 6 ספרות
 signin-recovery-phone-code-submit-button = אישור
 signin-recovery-phone-resend-code-button = שליחת הקוד מחדש
