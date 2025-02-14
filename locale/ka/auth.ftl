@@ -474,7 +474,7 @@ subscriptionAccountDeletion-title = სამწუხაროა, რომ �
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
-subscriptionAccountDeletion-content-cancelled-2 = თქვენ ახლახანს წაშალეთ თქვენი { -product-mozilla-account }. შედეგად, ჩვენ გავაუქმეთ თქვენი { $productName }-გამოწერა. ბოლო გადახდაა { $invoiceTotal } თარიღით { $invoiceDateOnly }.
+subscriptionAccountDeletion-content-cancelled-2 = თქვენ ახლახან წაშალეთ თქვენი { -product-mozilla-account }. შედეგად, ჩვენ გავაუქმეთ თქვენ მიერ გამოწერილი { $productName }. ბოლო გადახდაა { $invoiceTotal } თარიღით { $invoiceDateOnly }.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-subject = მოგესალმებათ { $productName }: გთხოვთ, დააყენოთ პაროლი.
