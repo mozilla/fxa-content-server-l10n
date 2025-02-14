@@ -6,6 +6,9 @@ next-payment-error-manage-subscription-button = Quản lý thuê bao của tôi
 next-iap-upgrade-contact-support = Bạn vẫn có thể nhận được sản phẩm này — vui lòng liên hệ với bộ phận hỗ trợ để chúng tôi có thể giúp bạn.
 next-payment-error-retry-button = Thử lại
 next-basic-error-message = Có gì đó không ổn. Vui lòng thử lại sau.
+checkout-error-contact-support-button = Liên hệ hỗ trợ
+checkout-error-not-eligible = Bạn không đủ điều kiện để đăng ký sản phẩm này - vui lòng liên hệ với hỗ trợ để chúng tôi có thể giúp bạn.
+checkout-error-contact-support = Vui lòng liên hệ với hỗ trợ để chúng tôi có thể giúp bạn.
 
 ## Page
 

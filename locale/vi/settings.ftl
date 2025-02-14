@@ -1710,6 +1710,9 @@ signin-recovery-code-use-phone-failure-description = Vui lòng thử lại sau.
 signin-recovery-phone-flow-heading = Đăng nhập
 # A recovery code in context of this page is a one time code sent to the user's phone
 signin-recovery-phone-heading = Nhập mã khôi phục
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+signin-recovery-phone-instruction-v2 = Một mã gồm sáu chữ số đã được gửi đến <span>{ $maskedPhoneNumber }</span> bằng tin nhắn văn bản. Mã này hết hạn sau 5 phút. Đừng chia sẻ mã này với bất cứ ai.
 signin-recovery-phone-input-label = Nhập mã gồm 6 chữ số
 signin-recovery-phone-code-submit-button = Xác nhận
 signin-recovery-phone-resend-code-button = Gửi lại mã
