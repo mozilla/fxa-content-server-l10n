@@ -1682,6 +1682,9 @@ signin-recovery-code-use-phone-failure-description = 請稍候再試。
 signin-recovery-phone-flow-heading = 登入
 # A recovery code in context of this page is a one time code sent to the user's phone
 signin-recovery-phone-heading = 請輸入救援碼
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+signin-recovery-phone-instruction-v2 = 已透過簡訊將六位數驗證碼發送至尾數為 <span>{ $maskedPhoneNumber }</span> 的門號，此驗證碼將於 5 分鐘後失效，請勿將此驗證碼提供給任何人。
 signin-recovery-phone-input-label = 請輸入六位數的驗證碼
 signin-recovery-phone-code-submit-button = 確認
 signin-recovery-phone-resend-code-button = 重寄驗證碼
