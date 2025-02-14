@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-05 20:09+0000\n"
-"PO-Revision-Date: 2025-01-15 11:31+0000\n"
+"PO-Revision-Date: 2025-02-14 14:41+0000\n"
 "Last-Translator: Marcelo Ghelman <marcelo.ghelman@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pt_BR\n"
@@ -1989,7 +1989,7 @@ msgstr "Gerenciar dispositivos"
 
 #: .es5/templates/pair/auth_wait_for_supp.mustache:1 .es5/templates/pair/supp_wait_for_auth.mustache:1
 msgid "Approval now required <small class=\"card-subheader\">from your other device</small>"
-msgstr "Agora é necessária aprovação <small class=\"card-subheader\">de seu outro dispositivo</small>"
+msgstr "Agora é necessária aprovação <small class=\"card-subheader\">em seu outro dispositivo</small>"
 
 #: .es5/templates/pair/failure.mustache:1
 msgid "Device pairing failed"

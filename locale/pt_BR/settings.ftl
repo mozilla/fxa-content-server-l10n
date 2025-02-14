@@ -1420,7 +1420,7 @@ auth-totp-code-required-error = Necessário código de autenticação
 
 # The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
 # Strings within the <span> elements appear as a subheading.
-pair-wait-for-supp-heading-text = Agora é exigida aprovação <span>de seu outro dispositivo</span>
+pair-wait-for-supp-heading-text = Agora é exigida aprovação <span>em seu outro dispositivo</span>
 
 ## PairFailure - a view which displays on failure of the device pairing process
 
