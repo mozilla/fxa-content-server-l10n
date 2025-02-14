@@ -6,12 +6,12 @@ session-verify-send-push-body-2 = Klikńće tu, zo byšće wobkrućił, zo ty to
 # https://twiliodeved.github.io/message-segment-calculator/
 # Messages should be limited to one segment
 # $code  - 6 digit code used to verify phone ownership when registering a recovery phone
-recovery-phone-setup-sms-body = { $code } je waš wobkrućenski kod { -brand-mozilla }. Zhubi płaćiwosć za 5 mjeńšin.
+recovery-phone-setup-sms-body = { $code } je wobkrućenski kod { -brand-mozilla }. Płaći 5 mjeńšin.
 # Message sent by SMS with limited character length, please test translation with the messaging segment calculator
 # https://twiliodeved.github.io/message-segment-calculator/
 # Messages should be limited to one segment
 # $code  - 6 digit code used to sign in with a recovery phone as backup for two-step authentication
-recovery-phone-signin-sms-body = { $code } je waš wobnowjenski kod { -brand-mozilla }. Zhubi płaćiwosć za 5 mjeńšin.
+recovery-phone-signin-sms-body = { $code } je wobnowjenski kod { -brand-mozilla }. Płaći 5 mjeńšin.
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
