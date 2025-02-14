@@ -2,6 +2,16 @@
 
 session-verify-send-push-title-2 = 正在登录您的 { -product-mozilla-account }？
 session-verify-send-push-body-2 = 点击此处以验证本人操作
+# Message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to verify phone ownership when registering a recovery phone
+recovery-phone-setup-sms-body = { $code } 是您的 { -brand-mozilla } 验证码，5 分钟内有效。
+# Message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to sign in with a recovery phone as backup for two-step authentication
+recovery-phone-signin-sms-body = { $code } 是您的 { -brand-mozilla } 恢复验证码，5分钟内有效。
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
