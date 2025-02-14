@@ -1720,6 +1720,9 @@ signin-recovery-code-use-phone-failure-description = Prošu spytaj pozdźišo hi
 signin-recovery-phone-flow-heading = Přizjewić
 # A recovery code in context of this page is a one time code sent to the user's phone
 signin-recovery-phone-heading = Wobnowjenski kod zapodać
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+signin-recovery-phone-instruction-v2 = Šěsćměstnowy kod je so přez tekstowu powěsć na <span>{ $maskedPhoneNumber }</span> pósłał. Tutón kod za 5 mjeńšin płaćiwosć zhubi. Njezdźělejće nikomu tutón kod.
 signin-recovery-phone-input-label = 6-městnowy kod zapodać
 signin-recovery-phone-code-submit-button = Wobkrućić
 signin-recovery-phone-resend-code-button = Kod znowa słać
