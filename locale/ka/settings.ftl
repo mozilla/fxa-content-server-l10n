@@ -634,14 +634,14 @@ flow-recovery-key-info-cancel-link = გაუქმება
 flow-setup-phone-confirm-code-heading = შეიყვანეთ დამადასტურებელი კოდი
 # $phoneNumber is a partially obfuscated phone number with only the last 4 digits showing (e.g., *** *** 1234)
 # span element applies formatting to ensure the number is always displayed left-to-right
-flow-setup-phone-confirm-code-instruction = ექვსციფრიანი კოდი გაიგზავნა ნომერზე <span>{ $phoneNumber }</span> ტექსტური შეტყობინებით. კოდს ვადა გაუვა 5 წუთში.
+flow-setup-phone-confirm-code-instruction = ექვსციფრიანი კოდი გამოიგზავნა ნომერზე <span>{ $phoneNumber }</span> ტექსტური შეტყობინებით. კოდს ვადა გაუვა 5 წუთში.
 flow-setup-phone-confirm-code-input-label = შეიყვანეთ 6-ციფრიანი კოდი
 flow-setup-phone-confirm-code-button = დასტური
 # button to resend a code by text message to the user's phone
 # followed by a button to resend a code
 flow-setup-phone-confirm-code-expired = კოდი ვადაგასულია?
 flow-setup-phone-confirm-code-resend-code-button = კოდის კვლავ გაგზავნა
-flow-setup-phone-confirm-code-resend-code-success = კოდი გაგზავნილია
+flow-setup-phone-confirm-code-resend-code-success = კოდი გამოგზავნილია
 flow-setup-phone-confirm-code-success-message-v2 = აღდგენის ტელეფონი დამატებულია
 
 ## FlowSetupPhoneConfirmCode
@@ -1723,7 +1723,7 @@ signin-recovery-phone-heading = შეიყვანეთ აღდგენ�
 signin-recovery-phone-input-label = შეიყვანეთ 6-ციფრიანი კოდი
 signin-recovery-phone-code-submit-button = თანხმობა
 signin-recovery-phone-resend-code-button = კოდის კვლავ გაგზავნა
-signin-recovery-phone-resend-success = კოდი გაგზავნილია
+signin-recovery-phone-resend-success = კოდი გამოგზავნილია
 # links to https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 signin-recovery-phone-locked-out-link = ვერ ახერხებთ შესვლას?
 signin-recovery-phone-send-code-error-heading = ხარვეზი წარმოიშვა კოდის გამოგზავნისას.
