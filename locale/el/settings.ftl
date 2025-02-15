@@ -1036,6 +1036,13 @@ tfa-row-backup-codes-title = Εφεδρικοί κωδικοί ταυτοποί�
 # Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
 # Users that have not enabled or verified 2FA will not see this
 tfa-row-backup-codes-not-available = Δεν υπάρχουν διαθέσιμοι κωδικοί
+# $numCodesRemaining - the number of backup authentication codes that have not yet been used (generally between 1 to 5)
+# A different message is shown when no codes are available
+tfa-row-backup-codes-available-v2 =
+    { $numCodesAvailable ->
+        [one] Απομένει { $numCodesAvailable } κωδικός
+       *[other] Απομένουν { $numCodesAvailable } κωδικοί
+    }
 # Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
 tfa-row-backup-codes-get-new-cta = Λήψη νέων κωδικών
 # Shown to users who have no backup authentication codes
@@ -1673,6 +1680,12 @@ signin-recovery-method-subheader = Επιλέξτε μια μέθοδο ανάκ
 signin-recovery-method-details = Ας βεβαιωθούμε ότι είστε εσείς που χρησιμοποιείτε τις μεθόδους ανάκτησής σας.
 signin-recovery-method-phone = Τηλέφωνο ανάκτησης
 signin-recovery-method-code-v2 = Εφεδρικοί κωδικοί ταυτοποίησης
+# Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
+signin-recovery-method-code-info-v2 =
+    { $numBackupCodes ->
+        [one] Απομένει { $numBackupCodes } κωδικός
+       *[other] Απομένουν { $numBackupCodes } κωδικοί
+    }
 # Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
 signin-recovery-method-send-code-error-heading = Προέκυψε πρόβλημα κατά την αποστολή κωδικού στο τηλέφωνο ανάκτησής σας
 signin-recovery-method-send-code-error-description = Δοκιμάστε ξανά αργότερα ή χρησιμοποιήστε τους εφεδρικούς κωδικούς ταυτοποίησής σας.
@@ -1686,6 +1699,8 @@ signin-recovery-code-heading = Σύνδεση
 signin-recovery-code-sub-heading = Εισαγάγετε εφεδρικό κωδικό ταυτοποίησης
 # codes here refers to backup authentication codes
 signin-recovery-code-instruction-v3 = Εισαγάγετε έναν από τους κωδικούς μιας χρήσης που αποθηκεύσατε κατά τη ρύθμιση της ταυτοποίησης δύο παραγόντων.
+# code here refers to backup authentication code
+signin-recovery-code-input-label-v2 = Εισαγάγετε τον κωδικό 10 χαρακτήρων
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Επιβεβαίωση
 # Link to go to the page to use recovery phone instead

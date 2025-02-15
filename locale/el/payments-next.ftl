@@ -6,6 +6,7 @@ next-payment-error-manage-subscription-button = Διαχείριση συνδρ�
 next-iap-upgrade-contact-support = Μπορείτε ακόμα να αποκτήσετε αυτό το προϊόν. Επικοινωνήστε με την υποστήριξη για να σας βοηθήσουμε.
 next-payment-error-retry-button = Δοκιμή ξανά
 next-basic-error-message = Κάτι πήγε στραβά. Παρακαλούμε δοκιμάστε ξανά αργότερα.
+checkout-error-contact-support-button = Επικοινωνία με την υποστήριξη
 
 ## Page
 
