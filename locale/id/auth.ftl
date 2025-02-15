@@ -120,6 +120,27 @@ automatedEmailRecoveryKey-origin-device-OS-version-only = Permintaan ini berasal
 # Variables:
 # - $uaOS: the user agent's operating system (e.g, MacOS)
 automatedEmailRecoveryKey-origin-device-OS-only = Permintaan ini berasal dari { $uaOS }.
+automatedEmailRecoveryKey-delete-key-change-pwd = Jika ini bukan Anda, <a data-l10n-name="revokeAccountRecoveryLink">hapus kunci baru</a> dan <a data-l10n-name="passwordChangeLink">ubah sandi Anda</a>.
+automatedEmailRecoveryKey-change-pwd-only = Jika ini bukan Anda, <a data-l10n-name="passwordChangeLink">ubah sandi Anda</a>.
+automatedEmailRecoveryKey-more-info = Untuk info lebih lanjut, kunjungi <a data-l10n-name="supportLink">Dukungan { -brand-mozilla }</a>.
+# Colon is followed by user device info on a separate line (e.g., "Firefox Nightly on Mac OSX 10.11")
+automatedEmailRecoveryKey-origin-plaintext = Permintaan ini berasal dari:
+# Colon is followed by a URL to the account recovery key section of account settings
+automatedEmailRecoveryKey-notyou-delete-key-plaintext = Jika ini bukan Anda, hapus kunci baru:
+# Colon is followed by a URL to the change password section of account settings
+automatedEmailRecoveryKey-notyou-change-pwd-only-plaintext = Jika ini bukan Anda, ubah sandi Anda:
+# This string is shown on its own line, after automatedEmailRecoveryKey-notyou-delete-key-plaintext and its URL
+# Colon is followed by a URL to the change password section of account settings
+automatedEmailRecoveryKey-notyou-change-pwd-plaintext = dan ubah sandi Anda:
+# Colon is followed by a URL to Mozilla Support's "I'm having problems with my account" page
+automatedEmailRecoveryKey-more-info-plaintext = Untuk info lebih lanjut, kunjungi Dukungan { -brand-mozilla }:
+automated-email-reset =
+    Ini adalah surel otomatis; jika Anda tidak mengotorisasi tindakan ini, maka <a data-l10n-name="resetLink">silakan setel ulang sandi Anda</a>.
+    Untuk informasi lebih lanjut, silakan kunjungi <a data-l10n-name="supportLink">Dukungan { -brand-mozilla }</a>.
+brand-banner-message = Tahukah Anda bahwa kami mengubah nama kami dari { -product-firefox-accounts } menjadi { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Pelajari lebih lanjut</a>
+cancellationSurvey = Bantu kami meningkatkan layanan kami dengan mengikuti <a data-l10n-name="cancellationSurveyUrl">survei singkat</a> ini.
+# After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
+cancellationSurvey-plaintext = Bantu kami meningkatkan layanan kami dengan mengikuti survei singkat ini:
 change-password-plaintext = Jika Anda mencurigai seseorang berusaha mendapatkan akses ke akun Anda, silakan ubah kata sandi Anda.
 manage-account = Kelola akun
 # After the colon, there's a link to https://accounts.firefox.com/support

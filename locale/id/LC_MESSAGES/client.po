@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-05 20:09+0000\n"
-"PO-Revision-Date: 2025-02-09 05:19+0000\n"
+"PO-Revision-Date: 2025-02-15 13:01+0000\n"
 "Last-Translator: Fauzan Alfi <fauzan.alfi@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: id\n"
@@ -128,7 +128,7 @@ msgstr "Terima kasih telah menghubungi Dukungan Mozilla mengenai <b>%(escapedLow
 #. aria label for banner/tooltip dismiss button
 #: .es5/views/tooltip.js:75 .es5/templates/partial/account-suggestion.mustache:2
 msgid "Close"
-msgstr ""
+msgstr "Tutup"
 
 #: .es5/views/post_verify/verified.js:37
 msgid "Account notifications will now also be sent to %(secondaryEmail)s."
@@ -184,7 +184,7 @@ msgstr "Tampilkan kata sandi"
 
 #: .es5/views/mixins/recovery-codes-mixin.js:68
 msgid "Firefox Backup Authentication Codes"
-msgstr ""
+msgstr "Kode Otentikasi Cadangan Firefox"
 
 #: .es5/views/mixins/recovery-codes-mixin.js:124
 msgid "Two-step authentication enabled"
@@ -192,7 +192,7 @@ msgstr "Autentikasi dua langkah diaktifkan"
 
 #: .es5/views/mixins/recovery-key-mixin.js:28
 msgid "Firefox Account Recovery Key"
-msgstr ""
+msgstr "Kunci Pemulihan Firefox Account"
 
 #: .es5/views/mixins/resend-mixin.js:46
 msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
@@ -216,7 +216,7 @@ msgstr "Tercetak"
 
 #: .es5/views/behaviors/settings.js:36 .es5/models/auth_brokers/web.js:27
 msgid "Account confirmed successfully"
-msgstr ""
+msgstr "Akun berhasil dikonfirmasi"
 
 #: .es5/models/support-form.js:23
 msgid "payment & billing"
@@ -268,7 +268,7 @@ msgstr "Alamat"
 
 #: .es5/models/sync-engines.js:82
 msgid "Payment Methods"
-msgstr ""
+msgstr "Metode Pembayaran"
 
 #: .es5/models/reliers/browser.js:68
 msgid "Firefox"
@@ -464,7 +464,7 @@ msgstr "Token TOTP tidak ditemukan"
 
 #: .es5/lib/auth-errors.js:230
 msgid "Backup authentication code not found"
-msgstr ""
+msgstr "Kode otentikasi cadangan tidak ditemukan"
 
 #: .es5/lib/auth-errors.js:234
 msgid "Unavailable device command"
