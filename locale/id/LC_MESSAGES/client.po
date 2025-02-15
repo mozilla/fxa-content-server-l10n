@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-05 20:09+0000\n"
-"PO-Revision-Date: 2025-02-15 13:01+0000\n"
+"PO-Revision-Date: 2025-02-15 13:05+0000\n"
 "Last-Translator: Fauzan Alfi <fauzan.alfi@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: id\n"
@@ -472,11 +472,11 @@ msgstr "Perintah perangkat tidak tersedia"
 
 #: .es5/lib/auth-errors.js:238
 msgid "Account recovery key not found"
-msgstr ""
+msgstr "Kunci pemulihan akun tidak ditemukan"
 
 #: .es5/lib/auth-errors.js:242
 msgid "Invalid account recovery key"
-msgstr ""
+msgstr "Kunci pemulihan akun tidak valid"
 
 #: .es5/lib/auth-errors.js:246 .es5/lib/auth-errors.js:254
 msgid "This request requires two step authentication enabled on your account."
@@ -512,7 +512,7 @@ msgstr "Pembaruan ditolak, silakan coba lagi"
 
 #: .es5/lib/auth-errors.js:282
 msgid "Invalid or expired confirmation code"
-msgstr ""
+msgstr "Kode konfirmasi tidak valid atau kedaluwarsa"
 
 #: .es5/lib/auth-errors.js:286 .es5/lib/auth-errors.js:486
 msgid "Server busy, try again soon"
@@ -533,7 +533,7 @@ msgstr "Titik-akhir ini tidak lagi didukung"
 
 #: .es5/lib/auth-errors.js:306
 msgid "Complete account setup, please <a href=\"/reset_password\">reset password</a> to continue."
-msgstr ""
+msgstr "Selesaikan penyiapan akun, silakan <a href=\"/reset_password\">setel ulang sandi</a> untuk melanjutkan."
 
 #: .es5/lib/auth-errors.js:314
 msgid "Login attempt cancelled"
@@ -593,7 +593,7 @@ msgstr "Dibutuhkan URL yang valid"
 
 #: .es5/lib/auth-errors.js:388
 msgid "Your confirmation email was just returned. Mistyped email?"
-msgstr ""
+msgstr "Surel konfirmasi Anda baru saja dikembalikan. Salah ketik alamat surel?"
 
 #: .es5/lib/auth-errors.js:396
 msgid "Enter a valid email address. firefox.com does not offer email."
@@ -601,7 +601,7 @@ msgstr "Masukkan alamat surel yang valid. firefox.com tidak menawarkan surel."
 
 #: .es5/lib/auth-errors.js:404
 msgid "Mozilla accounts can only be placed into an IFRAME on approved sites"
-msgstr ""
+msgstr "Akun Mozilla hanya dapat ditempatkan ke dalam IFRAME pada situs yang disetujui"
 
 #: .es5/lib/auth-errors.js:423
 msgid "Verification link damaged"
@@ -673,15 +673,15 @@ msgstr "Kode autentikasi dua langkah tidak valid"
 
 #: .es5/lib/auth-errors.js:560
 msgid "Backup authentication code required"
-msgstr ""
+msgstr "Kode otentikasi cadangan diperlukan"
 
 #: .es5/lib/auth-errors.js:564
 msgid "Invalid backup authentication code"
-msgstr ""
+msgstr "Kode otentikasi cadangan tidak valid"
 
 #: .es5/lib/auth-errors.js:578
 msgid "Account recovery key required"
-msgstr ""
+msgstr "Kunci pemulihan akun diperlukan"
 
 #: .es5/lib/auth-errors.js:582
 msgid "Please enter verification code"
@@ -701,7 +701,7 @@ msgstr "Ukuran berkas gambar terlalu besar untuk diunggah."
 
 #: .es5/lib/auth-errors.js:612
 msgid "Email masks can’t be used to create an account."
-msgstr ""
+msgstr "Topeng surel tidak dapat digunakan untuk membuat akun."
 
 #: .es5/lib/auth-errors.js:685
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
@@ -721,7 +721,7 @@ msgstr "Salah ketik surel?"
 
 #: .es5/lib/newsletters.js:24
 msgid "Early access to test new products"
-msgstr ""
+msgstr "Akses awal untuk menguji produk baru"
 
 #: .es5/lib/newsletters.js:28
 msgid "Get the latest news about Mozilla and Firefox"
@@ -729,7 +729,7 @@ msgstr "Dapatkan berita terkini tentang Mozilla dan Firefox"
 
 #: .es5/lib/newsletters.js:32
 msgid "Help keep the internet healthy"
-msgstr ""
+msgstr "Bantu jaga agar Internet tetap sehat"
 
 #: .es5/lib/newsletters.js:36
 msgid "Be safer and smarter online"
@@ -737,7 +737,7 @@ msgstr "Lebih aman dan cerdas saat online"
 
 #: .es5/lib/newsletters.js:40
 msgid "Security & privacy news and updates"
-msgstr ""
+msgstr "Berita dan pembaruan keamanan & privasi"
 
 #: .es5/lib/oauth-errors.js:27
 msgid "Unknown client"
@@ -841,7 +841,7 @@ msgstr "Dengan melanjutkan, Anda menyetujui <a id=\"service-tos\" href=\"%(terms
 
 #: .es5/lib/strings.js:33
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-my-firefox-account\">Help</a>"
-msgstr ""
+msgstr "<a href=\"https://support.mozilla.org/kb/im-having-problems-my-firefox-account\">Bantuan</a>"
 
 #: .es5/lib/strings.js:37
 msgid "Get the latest news about Mozilla and Firefox."
@@ -889,7 +889,7 @@ msgstr "Terima tautan baru"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:5
 msgid "Reset password with account recovery key"
-msgstr ""
+msgstr "Setel ulang sandi dengan kunci pemulihan akun"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:6 .es5/templates/force_auth.mustache:4 .es5/templates/index.mustache:7 .es5/templates/inline_recovery_setup.mustache:2
 #: .es5/templates/inline_recovery_setup.mustache:13 .es5/templates/inline_totp_setup.mustache:2 .es5/templates/inline_totp_setup.mustache:8 .es5/templates/inline_totp_setup.mustache:11
@@ -900,7 +900,7 @@ msgstr "Lanjut ke %(serviceName)s"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:7
 msgid "Please enter the one time use account recovery key you stored in a safe place to regain access to your Mozilla account."
-msgstr ""
+msgstr "Masukkan kunci pemulihan akun sekali pakai yang Anda simpan di tempat yang aman untuk mendapatkan kembali akses ke akun Mozilla Anda."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
 msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
@@ -910,15 +910,15 @@ msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:9
 msgid "Enter account recovery key"
-msgstr ""
+msgstr "Masukkan kunci pemulihan akun"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:10
 msgid "Confirm account recovery key"
-msgstr ""
+msgstr "Konfirmasi kunci pemulihan akun"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:11
 msgid "Don't have an account recovery key?"
-msgstr ""
+msgstr "Tidak punya kunci pemulihan akun?"
 
 #: .es5/templates/choose_what_to_sync.mustache:1
 msgid "Choose what to sync:"
@@ -949,10 +949,12 @@ msgid ""
 "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
 "your data with your password to protect your privacy. You’ll still keep any subscriptions you may have and Pocket data will not be affected."
 msgstr ""
+"<span>INGAT:</span> Saat Anda menyetel ulang sandi, Anda menyetel ulang akun Anda. Anda mungkin kehilangan beberapa informasi pribadi Anda (termasuk riwayat, markah, dan kata sandi). Itu karena kami"
+" mengenkripsi data Anda dengan kata sandi Anda untuk melindungi privasi Anda. Anda akan tetap memegang langganan apa pun yang mungkin Anda miliki dan data Pocket tidak akan terpengaruh."
 
 #: .es5/templates/complete_reset_password.mustache:11
 msgid "You have successfully restored your account using your account recovery key. Create a new password to secure your data, and store it in a safe location."
-msgstr ""
+msgstr "Anda telah berhasil memulihkan akun Anda menggunakan kunci pemulihan akun Anda. Buat kata sandi baru untuk mengamankan data Anda, dan simpan di lokasi yang aman."
 
 #: .es5/templates/complete_reset_password.mustache:13 .es5/templates/post_verify/password/force_password_change.mustache:8
 msgid "New password"
@@ -976,7 +978,7 @@ msgstr "Sudah dikonfirmasi masuk"
 
 #: .es5/templates/complete_sign_up.mustache:6
 msgid "Confirmation link expired"
-msgstr ""
+msgstr "Tautan konfirmasi kedaluwarsa"
 
 #: .es5/templates/complete_sign_up.mustache:7
 msgid "The link you clicked to confirm your email is expired."
