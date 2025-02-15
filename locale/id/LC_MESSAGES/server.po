@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-05 20:09+0000\n"
-"PO-Revision-Date: 2023-02-19 08:32+0000\n"
+"PO-Revision-Date: 2025-02-15 13:17+0000\n"
 "Last-Translator: Fauzan Alfi <fauzan.alfi@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: id\n"
@@ -17,12 +17,12 @@ msgstr ""
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
 msgid "Mozilla accounts"
-msgstr ""
+msgstr "Akun Mozilla"
 
 #: server/templates/pages/src/404.html:2 server/templates/pages/src/500.html:2 server/templates/pages/src/502.html:2 server/templates/pages/src/503.html:2 server/templates/pages/src/index.html:3
 #: server/templates/pages/src/update_firefox.html:2
 msgid "Mozilla logo"
-msgstr ""
+msgstr "Logo Mozilla"
 
 #: server/templates/pages/src/404.html:3
 msgid "Page not found"
@@ -65,6 +65,8 @@ msgid ""
 "We are currently under heavy strain and are working to return\n"
 "            the system to normal as soon as possible."
 msgstr ""
+"Kami saat ini berada di bawah tekanan berat dan sedang bekerja untuk membuat\n"
+"            sistem kembali normal sesegera mungkin."
 
 #: server/templates/pages/src/index.html:2
 msgid "Loading"
@@ -72,11 +74,11 @@ msgstr "Memuat"
 
 #: server/templates/pages/src/index.html:4
 msgid "Mozilla accounts require JavaScript."
-msgstr ""
+msgstr "Akun Mozilla memerlukan JavaScript."
 
 #: server/templates/pages/src/update_firefox.html:1
 msgid "Mozilla account"
-msgstr ""
+msgstr "Akun Mozilla"
 
 #: server/templates/pages/src/update_firefox.html:3
 msgid "Firefox update required"
@@ -89,6 +91,10 @@ msgid ""
 "                        download and install the latest version of Firefox to\n"
 "                        continue."
 msgstr ""
+"Akun Mozilla Anda menggunakan fitur-fitur yang\n"
+"                        tidak didukung di versi Firefox Anda. Silakan\n"
+"                        unduh dan pasang Firefox versi terbaru untuk\n"
+"                        lanjut."
 
 #: server/templates/pages/src/update_firefox.html:5
 msgid "Download latest"
