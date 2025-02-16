@@ -975,6 +975,8 @@ tfa-input-enter-totp-v2 =
 tfa-save-these-codes-1 =
     Αποθηκεύστε αυτούς τους εφεδρικούς κωδικούς ταυτοποίησης μιας χρήσης σε ένα ασφαλές μέρος,
     σε περίπτωση που δεν έχετε πρόσβαση στην κινητή συσκευή σας.
+# codes here refers to backup authentication codes
+tfa-enter-code-to-confirm-setup = Πληκτρολογήστε έναν από τους κωδικούς σας για να επιβεβαιώσετε ότι τους έχετε αποθηκεύσει. Χωρίς αυτούς τους κωδικούς, ενδέχεται να μην μπορείτε να συνδεθείτε αν δεν έχετε την εφαρμογή ελέγχου ταυτότητάς σας.
 tfa-enter-recovery-code-1 =
     .label = Εισαγάγετε έναν εφεδρικό κωδικό ταυτοποίησης
 
@@ -1721,6 +1723,9 @@ signin-recovery-code-use-phone-failure-description = Δοκιμάστε ξανά
 signin-recovery-phone-flow-heading = Σύνδεση
 # A recovery code in context of this page is a one time code sent to the user's phone
 signin-recovery-phone-heading = Εισαγάγετε τον κωδικό ανάκτησης
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+signin-recovery-phone-instruction-v2 = Ένας εξαψήφιος κωδικός έχει αποσταλεί στο <span>{ $maskedPhoneNumber }</span> μέσω μηνύματος κειμένου. Αυτός ο κωδικός λήγει μετά από 5 λεπτά. Μη μοιραστείτε αυτόν τον κωδικό με κανέναν.
 signin-recovery-phone-input-label = Εισαγάγετε τον εξαψήφιο κωδικό
 signin-recovery-phone-code-submit-button = Επιβεβαίωση
 signin-recovery-phone-resend-code-button = Αποστολή νέου κωδικού
