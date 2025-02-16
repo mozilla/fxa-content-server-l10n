@@ -6,6 +6,9 @@ next-payment-error-manage-subscription-button = Gerenciar minha assinatura
 next-iap-upgrade-contact-support = Você ainda pode obter este produto. Entre em contato com o suporte para podermos te ajudar.
 next-payment-error-retry-button = Tentar novamente
 next-basic-error-message = Algo deu errado. Tente novamente mais tarde.
+checkout-error-contact-support-button = Entre em contato com o suporte
+checkout-error-not-eligible = Você não está qualificado para assinar este produto. Entre em contato com o suporte para receber ajuda.
+checkout-error-contact-support = Entre em contato com o suporte para receber ajuda.
 
 ## Page
 
