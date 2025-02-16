@@ -628,7 +628,7 @@ flow-recovery-key-info-cancel-link = Cancelar
 flow-setup-phone-confirm-code-heading = Digite o código de verificação
 # $phoneNumber is a partially obfuscated phone number with only the last 4 digits showing (e.g., *** *** 1234)
 # span element applies formatting to ensure the number is always displayed left-to-right
-flow-setup-phone-confirm-code-instruction = Um código de seis dígitos foi enviado para <span>{ $phoneNumber }</span> por mensagem de texto. Esse código expira após 5 minutos.
+flow-setup-phone-confirm-code-instruction = Um código de 6 dígitos foi enviado por SMS para <span>{ $phoneNumber }</span>. Expira em 5 minutos.
 flow-setup-phone-confirm-code-input-label = Digite o código de 6 dígitos
 flow-setup-phone-confirm-code-button = Confirmar
 # button to resend a code by text message to the user's phone
