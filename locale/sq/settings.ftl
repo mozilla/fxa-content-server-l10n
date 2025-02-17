@@ -968,6 +968,8 @@ tfa-input-enter-totp-v2 =
 tfa-save-these-codes-1 =
     Ruajini këta kode njëpërdorimsh mirëfilltësimi kopjeruajtje në një vend të sigurt, për kur
     të mos keni pajisjen tuaj celulare.
+# codes here refers to backup authentication codes
+tfa-enter-code-to-confirm-setup = Ripohoni se i ruajtët kodet tuaj, duke dhënë një të tillë. Pa këta kode, mund të mos jeni në gjendje të bëni hyrjen, nëse s’keni aplikacionin tuaj të mirëfilltësimeve.
 tfa-enter-recovery-code-1 =
     .label = Jepni një kod mirëfilltësimi kopjeruajtje
 
@@ -1222,6 +1224,10 @@ auth-error-183-2 = Kod ripohim i pavlefshëm ose i skaduar
 auth-error-202 = Veçori e paaktivizuar
 auth-error-203 = Sistemi s’është në punë, riprovoni së shpejti
 auth-error-206 = S’mund të krijohet fjalëkalim, fjalëkalim tashmë i krijuar
+auth-error-214 = Numri i telefonit për rikthim ekziston tashmë
+auth-error-215 = Numri i telefonit për rikthim s’ekziston
+auth-error-216 = U mbërrit në kufi mesazhi tekst
+auth-error-218 = S’arrihet të hiqet telefon rikthimi, mungojnë kode kopjeruajtje mirëfilltësimi
 auth-error-999 = Gabim i papritur
 auth-error-1001 = Përpjekja për hyrje u anulua
 auth-error-1002 = Sesioni skadoi. Që të vazhdohet, bëni hyrjen.
@@ -1675,6 +1681,9 @@ signin-recovery-method-code-info-v2 =
         [one] Edhe { $numBackupCodes } kod
        *[other] Edhe { $numBackupCodes } kode
     }
+# Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
+signin-recovery-method-send-code-error-heading = Pati një problem me dërgimin e një kodi te telefoni juaj i rimarrjes
+signin-recovery-method-send-code-error-description = Ju lutemi, riprovoni, ose përdorni kodet tuaj kopjeruajtje të mirëfilltësimit.
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
@@ -1683,15 +1692,23 @@ signin-recovery-method-code-info-v2 =
 
 signin-recovery-code-heading = Hyni
 signin-recovery-code-sub-heading = Jepni kod mirëfilltësimi kopjeruajtjeje
+# codes here refers to backup authentication codes
+signin-recovery-code-instruction-v3 = Jepni një nga kodet për përdorim vetëm një herë që ruajtët kur ujdisët mirëfilltësimin dyhapësh.
 # code here refers to backup authentication code
 signin-recovery-code-input-label-v2 = Jepni kodin me 10 shenja
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Ripohojeni
+# Link to go to the page to use recovery phone instead
+signin-recovery-code-phone-link = Përdorni telefon rimarrjeje
 # External link for support if the user can't use two-step autentication or a backup authentication code
 # https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 signin-recovery-code-support-link = Jeni kyçur jashtë?
 # Error displayed in a tooltip when form is submitted witout a code
 signin-recovery-code-required-error = Lypset kod mirëfilltësimi kopjeruajtjeje
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-recovery-code-use-phone-failure = Pati një problem me dërgimin e një kodi te telefoni juaj i rimarrjes
 signin-recovery-code-use-phone-failure-description = Ju lutemi, riprovoni më vonë.
 
 ## SigninRecoveryPhone page
