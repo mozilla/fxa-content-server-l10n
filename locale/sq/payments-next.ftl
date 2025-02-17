@@ -6,6 +6,9 @@ next-payment-error-manage-subscription-button = Administroni pajtimet e mia
 next-iap-upgrade-contact-support = Mundeni prapë ta merrni këtë produkt — ju lutemi, lidhuni me asistencën, që të mund t’ju ndihmojmë.
 next-payment-error-retry-button = Riprovoni
 next-basic-error-message = Diç shkoi ters. Ju lutemi, riprovoni.
+checkout-error-contact-support-button = Lidhuni Me Asistencën
+checkout-error-not-eligible = S’mund të pajtoheni te ky produkt — ju lutemi, lidhuni me asistencën, që të mund t’ju ndihmojmë.
+checkout-error-contact-support = Ju lutemi, lidhuni me asistencën, që të mund t’ju ndihmojmë.
 
 ## Page
 
@@ -80,6 +83,8 @@ select-tax-location-save-button = Ruaje
 select-tax-location-country-code-label = Vend
 select-tax-location-country-code-placeholder = Përzgjidhni vendin tuaj
 select-tax-location-error-missing-country-code = Ju lutemi, përzgjidhni vendin tuaj
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN
+select-tax-location-product-not-available = { $productName } s’është i passhëm në këtë vendndodhje.
 select-tax-location-postal-code-label = Kod Postar
 select-tax-location-postal-code =
     .placeholder = Jepni kodin tuaj postar

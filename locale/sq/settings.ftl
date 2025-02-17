@@ -637,6 +637,7 @@ flow-setup-phone-confirm-code-button = Ripohojeni
 # followed by a button to resend a code
 flow-setup-phone-confirm-code-expired = Skadoi kodi?
 flow-setup-phone-confirm-code-resend-code-button = Ridërgo kodin
+flow-setup-phone-confirm-code-resend-code-success = Kodi i dërgua
 flow-setup-phone-confirm-code-success-message-v2 = U shtua telefon rimarrje
 
 ## FlowSetupPhoneConfirmCode
@@ -709,6 +710,7 @@ tfa-replace-code-success-1 =
     U krijuan kode të reja. Ruajini këto kode njëpërdorimsh
     mirëfilltësimi kopjeruajtje në një vend të sigurt — do t’ju duhen për të hyrë në llogarinë tuaj nëse s’keni
     pajisjen tuaj celulare.
+tfa-replace-code-success-alert-4 = U përditësuan kode mirëfilltësimi kopjeruajtjeje
 tfa-replace-code-1-2 = Hapi 1 nga 2
 tfa-replace-code-2-2 = Hapi 2 nga 2
 tfa-enter-code-to-confirm-v2 =
@@ -885,10 +887,12 @@ settings-recovery-phone-remove-recommend = Rekomandojmë ta mbani këtë metodë
 settings-recovery-phone-remove-recovery-methods = Nëse e fshini, sigurohuni se keni ende kodet tuaj të ruajtur të mirëfilltësimit të kopjeruajtjeve. <linkExternal>Krahasoni metoda rimarrjeje</linkExternal>
 settings-recovery-phone-remove-button = Hiq numër telefoni
 settings-recovery-phone-remove-cancel = Anuloje
+settings-recovery-phone-remove-success = U hoq telefon rimarrjeje
 
 ## PageSetupRecoveryPhone
 
 page-setup-recovery-phone-heading = Shtoni telefon rimarrjeje
+page-setup-recovery-phone-back-button-title = Mbrapsht te rregullimet
 
 ## Add secondary email page
 
@@ -928,6 +932,8 @@ verify-secondary-email-success-alert-2 = { $email } u shtua me sukses
 
 # Link to delete account on main Settings page
 delete-account-link = Fshijeni Llogarinë
+# Success message displayed in alert bar after the user has successfully confirmed their account is not inactive.
+inactive-update-status-success-alert = U hy me sukses. { -product-mozilla-account } dhe të dhënat tuaja do të mbesin aktive.
 
 ## Two Step Authentication
 
@@ -1023,6 +1029,13 @@ tfa-row-backup-codes-title = Kode mirëfilltësimi kopjeruajtjeje
 # Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
 # Users that have not enabled or verified 2FA will not see this
 tfa-row-backup-codes-not-available = S’ka më kode
+# $numCodesRemaining - the number of backup authentication codes that have not yet been used (generally between 1 to 5)
+# A different message is shown when no codes are available
+tfa-row-backup-codes-available-v2 =
+    { $numCodesAvailable ->
+        [one] Edhe { $numCodesAvailable } kod
+       *[other] Edhe { $numCodesAvailable } kode
+    }
 # Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
 tfa-row-backup-codes-get-new-cta = Merrni kode të rinj
 # Shown to users who have no backup authentication codes
@@ -1198,11 +1211,16 @@ auth-error-114-generic = E provuat shumë herë. Ju lutemi, riprovoni më vonë.
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = E provuat shumë herë. Ju lutemi, riprovoni pas { $retryAfter }
 auth-error-125 = Kërkesa u bllokua për arsye sigurie
+auth-error-129 = Numër telefoni i pavlefshëm
 auth-error-138-2 = Sesion i paripohuar
 auth-error-139 = Email-i dytësor duhet të jetë i ndryshëm nga llogaria juaj email
 auth-error-155 = S’u gjet token TOTP
+# Error shown when the user submits an invalid backup authentication code
+auth-error-156 = S’u gjet kod mirëfilltësimi kopjeruajtjeje
 auth-error-159 = Kyç rimarrjeje llogarie i pavlefshëm
 auth-error-183-2 = Kod ripohim i pavlefshëm ose i skaduar
+auth-error-202 = Veçori e paaktivizuar
+auth-error-203 = Sistemi s’është në punë, riprovoni së shpejti
 auth-error-206 = S’mund të krijohet fjalëkalim, fjalëkalim tashmë i krijuar
 auth-error-999 = Gabim i papritur
 auth-error-1001 = Përpjekja për hyrje u anulua
@@ -1214,6 +1232,7 @@ auth-error-1011 = Lypset email i vlefshëm
 auth-error-1031 = Duhet të jepni moshën tuaj që të regjistroheni
 auth-error-1032 = Që të regjistroheni, duhet të jepni një moshë të vlefshme
 auth-error-1054 = Kod i pavlefshëm mirëfilltësimi dyhapësh
+auth-error-1056 = Kod i pavlefshëm mirëfilltësimi kopjeruajtjeje
 auth-error-1062 = Ridrejtim i pavlefshëm
 oauth-error-1000 = Diç shkoi ters. Ju lutemi, mbylleni këtë skedë dhe riprovoni.
 
@@ -1649,6 +1668,13 @@ signin-recovery-method-header = Hyni
 signin-recovery-method-subheader = Zgjidhni një metodë rikthimi
 signin-recovery-method-details = Le të sigurohemi se jeni ju ai që po përdorni metodat tuaja të rimarrjes.
 signin-recovery-method-phone = Telefon rimarrjeje
+signin-recovery-method-code-v2 = Kode mirëfilltësimi kopjeruajtjeje
+# Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
+signin-recovery-method-code-info-v2 =
+    { $numBackupCodes ->
+        [one] Edhe { $numBackupCodes } kod
+       *[other] Edhe { $numBackupCodes } kode
+    }
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
@@ -1657,6 +1683,8 @@ signin-recovery-method-phone = Telefon rimarrjeje
 
 signin-recovery-code-heading = Hyni
 signin-recovery-code-sub-heading = Jepni kod mirëfilltësimi kopjeruajtjeje
+# code here refers to backup authentication code
+signin-recovery-code-input-label-v2 = Jepni kodin me 10 shenja
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Ripohojeni
 # External link for support if the user can't use two-step autentication or a backup authentication code
@@ -1664,9 +1692,26 @@ signin-recovery-code-confirm-button = Ripohojeni
 signin-recovery-code-support-link = Jeni kyçur jashtë?
 # Error displayed in a tooltip when form is submitted witout a code
 signin-recovery-code-required-error = Lypset kod mirëfilltësimi kopjeruajtjeje
+signin-recovery-code-use-phone-failure-description = Ju lutemi, riprovoni më vonë.
 
 ## SigninRecoveryPhone page
 
+signin-recovery-phone-flow-heading = Hyni
+# A recovery code in context of this page is a one time code sent to the user's phone
+signin-recovery-phone-heading = Jepni kod rikthimi
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+signin-recovery-phone-instruction-v2 = Te <span>{ $maskedPhoneNumber }</span> u dërgua përmes një mesazhi tekst një kod gjashtëshifror. Ky kod skadon pas 5 minutash. Mos ia tregoni kujt këtë kod.
+signin-recovery-phone-input-label = Jepni kodin 6-shifror
+signin-recovery-phone-code-submit-button = Ripohojeni
+signin-recovery-phone-resend-code-button = Ridërgo kodin
+signin-recovery-phone-resend-success = Kodi i dërgua
+# links to https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+signin-recovery-phone-locked-out-link = Jeni kyçur jashtë?
+signin-recovery-phone-send-code-error-heading = Pati një problem me dërgimin e një kodi
+signin-recovery-phone-code-verification-error-heading = Pati një problem me verifikimin e kodit tuaj
+# Follows the error message (e.g, "There was a problem sending a code")
+signin-recovery-phone-general-error-description = Ju lutemi, riprovoni më vonë.
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
