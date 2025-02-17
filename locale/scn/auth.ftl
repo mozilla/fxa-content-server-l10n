@@ -2,6 +2,16 @@
 
 session-verify-send-push-title-2 = Vo' tràsiri nnô to { -product-mozilla-account }?
 session-verify-send-push-body-2 = Ammacca cca pi cunfirmari a to idintità
+# Message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to verify phone ownership when registering a recovery phone
+recovery-phone-setup-sms-body = { $code } è u to còdici di virìfica { -brand-mozilla }. Scadi ntra 5 minuti.
+# Message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to sign in with a recovery phone as backup for two-step authentication
+recovery-phone-signin-sms-body = { $code } è u to còdici di ricùpiru { -brand-mozilla }. Scadi ntra 5 minuti.
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
@@ -228,6 +238,9 @@ inactiveAccountFirstWarning-action = Trasi pi mantiniri u to cuntu
 inactiveAccountFirstWarning-preview = Trasi pi mantiniri u to cuntu
 # followed by link to sign in
 inactiveAccountFirstWarning-action-plaintext = Trasi pi mantiniri u to cuntu:
+inactiveAccountSecondWarning-preview = Trasi pi mantiniri u to cuntu
+# followed by link to sign in
+inactiveAccountSecondWarning-action-plaintext = Trasi pi mantiniri u to cuntu:
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Nova trasuta nni { $clientName }
@@ -242,6 +255,10 @@ newDeviceLogin-change-password-plain = Nun fusti tu? Cancia a to chiavi:
 newDeviceLogin-action = Manija cuntu
 passwordChanged-subject = Chiavi attualizzata
 passwordChanged-title = A chiavi fu canciata
+password-forgot-otp-subject = Ti scurdasti a chiavi?
+password-forgot-otp-title = Ti scurdasti a chiavi?
+password-forgot-otp-code-2 = Siḍḍu fusti tu, cca cc'è u còdici di cunferma pi jiri avanti:
+password-forgot-otp-expiry-notice = Stu còdici scadi ntra 10 minuti.
 
 ## Variables
 ##   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
