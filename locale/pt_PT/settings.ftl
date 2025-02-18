@@ -1708,7 +1708,7 @@ signin-recovery-phone-flow-heading = Iniciar sessão
 signin-recovery-phone-heading = Introduza o código de recuperação
 # Text that explains the user should check their phone for a recovery code
 # $maskedPhoneNumber - The users masked phone number
-signin-recovery-phone-instruction-v2 = Um código de seis dígitos foi enviado para <span>{ $mastedPhoneNumber }</span> por mensagem de texto. Este código expira após 5 minutos. Não partilhe este código com ninguém.
+signin-recovery-phone-instruction-v2 = Um código de seis dígitos foi enviado para <span>{ $maskedPhoneNumber }</span> por mensagem de texto. Este código expira após 5 minutos. Não partilhe este código com ninguém.
 signin-recovery-phone-input-label = Inserir código de 6 dígitos
 signin-recovery-phone-code-submit-button = Confirmar
 signin-recovery-phone-resend-code-button = Reenviar código
