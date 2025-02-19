@@ -6,6 +6,9 @@ next-payment-error-manage-subscription-button = Manija u me abbunamentu
 next-iap-upgrade-contact-support = Po' ancora aviri stu pruduttu — pi favuri cuntatta u supportu p'aviri ajutu.
 next-payment-error-retry-button = Prova arrè
 next-basic-error-message = Cci fu un prubblema. Pi favuri torna a prova cchiù tardu.
+checkout-error-contact-support-button = Cuntatta l'assistenza
+checkout-error-not-eligible = Nun ti po' abbunari a stu pruduttu. Pi favuri cuntatta l'assistenza p'addumannari ajutu.
+checkout-error-contact-support = Pi favuri cuntatta l'assistenza p'addumannari ajutu.
 
 ## Page
 
@@ -80,6 +83,8 @@ select-tax-location-save-button = Sarba
 select-tax-location-country-code-label = Pajisi
 select-tax-location-country-code-placeholder = Scarta u to pajisi
 select-tax-location-error-missing-country-code = Pi favuri scarta u to pajisi
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN
+select-tax-location-product-not-available = { $productName } nun è dispunìbbili nna stu locu.
 select-tax-location-postal-code-label = Còdici pustali
 select-tax-location-postal-code =
     .placeholder = Metti u to còdici pustali

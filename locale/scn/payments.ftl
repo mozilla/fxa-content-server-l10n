@@ -17,6 +17,7 @@ coupon-remove = Leva
 coupon-error = U còdici chi mittisti nun è vàlitu o scadìu.
 coupon-error-generic = Cci fu un prubblema riggistrannu u còdici. Pi favuri torna a prova.
 coupon-error-expired = U còdici chi mittisti scadìu.
+coupon-error-limit-reached = U còdici chi mittisti passau u so lìmiti d'usu.
 coupon-error-invalid = U còdici chi mittisti nun è vàlitu.
 # $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
 coupon-enter-code =
@@ -407,12 +408,16 @@ sub-item-stay-sub = Arresta abbunatu
 
 ## Routes - Subscription
 
+sub-route-idx-contact = Cuntatta l'assistenza
+sub-route-idx-cancel-msg-title = Ni dispiaci chi dicidisti di jiritinni
 
 ## Routes - Subscriptions - Errors
 
 
 ## Routes - Subscription - ActionButton
 
+pay-update-change-btn = Cancia
+pay-update-manage-btn = Manija
 
 ## Routes - Subscriptions - Cancel and IapItem
 ## $priceAmount (Number) - The amount billed. It will be formatted as currency.
@@ -435,6 +440,7 @@ sub-item-stay-sub = Arresta abbunatu
 ## Routes - Subscriptions - Reactivate
 ## $name (String) - The name of the subscribed product.
 
+reactivate-confirm-dialog-header = Vo' cuntinuari a usari { $name }?
 reactivate-confirm-button = Abbònati arrè
 
 ## $date (Date) - Last day of product access
