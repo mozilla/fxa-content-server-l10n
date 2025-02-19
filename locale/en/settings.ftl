@@ -1309,6 +1309,12 @@ auth-error-1054 = Invalid two-step authentication code
 auth-error-1056 = Invalid backup authentication code
 auth-error-1062 = Invalid redirect
 
+# Displayed when we want to reference a user's previously set up recovery phone
+# number, but they are not completely signed in yet. We'll only show the last 4 digits.
+# Variables:
+#  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
+recovery-phone-number-ending-digits = Number ending in { $lastFourPhoneNumber }
+
 oauth-error-1000 = Something went wrong. Please close this tab and try again.
 
 ## Cannot Create Account page
@@ -1814,7 +1820,7 @@ signin-recovery-phone-heading = Enter recovery code
 
 # Text that explains the user should check their phone for a recovery code
 # $maskedPhoneNumber - The users masked phone number
-signin-recovery-phone-instruction-v2 = A six-digit code was sent to <span>{ $maskedPhoneNumber }</span> by text message. This code expires after 5 minutes. Donʼt share this code with anyone.
+signin-recovery-phone-instruction-v3 = A six-digit code was sent to the phone number ending in <span>{ $lastFourPhoneDigits }</span> by text message. This code expires after 5 minutes. Donʼt share this code with anyone.
 
 signin-recovery-phone-input-label = Enter 6-digit code
 

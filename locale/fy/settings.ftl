@@ -1723,7 +1723,7 @@ signin-recovery-phone-flow-heading = Oanmelde
 signin-recovery-phone-heading = Fier werstelkoade yn
 # Text that explains the user should check their phone for a recovery code
 # $maskedPhoneNumber - The users masked phone number
-signin-recovery-phone-instruction = Der is per sms in 6-siferige koade ferstjoerd nei <span>{ $maskedPhoneNumber }</span>. Dizze koade ferrint nei 5 minuten.
+signin-recovery-phone-instruction-v2 = Der is per sms in 6-siferige koade ferstjoerd nei <span>{ $maskedPhoneNumber }</span>. Dizze koade ferrint nei 5 minuten. Diel dizze koade mei net ien.
 signin-recovery-phone-input-label = Fier 6-siferige koade yn
 signin-recovery-phone-code-submit-button = Befêstigje
 signin-recovery-phone-resend-code-button = Koade nochris ferstjoere
