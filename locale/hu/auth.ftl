@@ -6,7 +6,7 @@ session-verify-send-push-body-2 = Kattintson ide, hogy megerősítse személyazo
 # https://twiliodeved.github.io/message-segment-calculator/
 # Messages should be limited to one segment
 # $code  - 6 digit code used to verify phone ownership when registering a recovery phone
-recovery-phone-setup-sms-body = { $code } a { -brand-mozilla } ellenőrzőkódja. 5 perc múlva lejár.
+recovery-phone-setup-sms-body = A { -brand-mozilla } ellenőrzőkódja: { $code }. 5 perc múlva lejár.
 # Message sent by SMS with limited character length, please test translation with the messaging segment calculator
 # https://twiliodeved.github.io/message-segment-calculator/
 # Messages should be limited to one segment
