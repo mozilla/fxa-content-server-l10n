@@ -1720,7 +1720,7 @@ signin-recovery-phone-flow-heading = Bejelentkezés
 signin-recovery-phone-heading = Adja meg a helyreállítási kódot
 # Text that explains the user should check their phone for a recovery code
 # $maskedPhoneNumber - The users masked phone number
-signin-recovery-phone-instruction-v2 = SMS-ben egy hatjegyű kód lett küldve <span>{ $maskedPhoneNumber }</span> telefonszámra. Ez a kód 5 perc után lejár. Ne ossza meg ezt a kódot másokkal.
+signin-recovery-phone-instruction-v2 = SMS-ben egy hatjegyű kód lett küldve erre a telefonszámra: <span>{ $maskedPhoneNumber }</span>. Ez a kód 5 perc után lejár.
 signin-recovery-phone-input-label = Adja meg a 6 számjegyű kódot
 signin-recovery-phone-code-submit-button = Megerősítés
 signin-recovery-phone-resend-code-button = Kód újraküldése

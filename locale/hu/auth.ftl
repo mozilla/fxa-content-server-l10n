@@ -11,7 +11,7 @@ recovery-phone-setup-sms-body = A { -brand-mozilla } ellenőrzőkódja: { $code 
 # https://twiliodeved.github.io/message-segment-calculator/
 # Messages should be limited to one segment
 # $code  - 6 digit code used to sign in with a recovery phone as backup for two-step authentication
-recovery-phone-signin-sms-body = { $code } a { -brand-mozilla } helyreállítási kódja. 5 perc múlva lejár.
+recovery-phone-signin-sms-body = A { -brand-mozilla } helyreállítási kódja: { $code }. 5 perc múlva lejár.
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
