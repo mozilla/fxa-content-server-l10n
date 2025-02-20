@@ -13,14 +13,51 @@ subplat-footer-mozilla-logo-2 = <img data-l10n-name="mozilla-logo-footer" alt="{
 subplat-privacy-notice = Огоҳномаи махфият
 subplat-privacy-plaintext = Огоҳномаи махфият:
 subplat-update-billing-plaintext = { subplat-update-billing }:
+subplat-terms-policy-plaintext = { subplat-terms-policy }:
+subplat-cancel = Бекор кардани обуна
+subplat-cancel-plaintext = { subplat-cancel }:
+subplat-reactivate-plaintext = { subplat-reactivate }:
+subplat-privacy-policy = Сиёсати махфияти «{ -brand-mozilla }»
+subplat-privacy-policy-2 = Огоҳномаи махфияти «{ -product-mozilla-accounts(capitalization: "uppercase") }»
+subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
+subplat-privacy-policy-plaintext-2 = { subplat-privacy-policy-2 }:
+subplat-moz-terms = Шартҳои хизматрасонии «{ -product-mozilla-accounts(capitalization: "uppercase") }»
+subplat-moz-terms-plaintext = { subplat-moz-terms }:
+subplat-legal = Маълумоти ҳуқуқӣ
+subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Махфият
 subplat-privacy-website-plaintext = { subplat-privacy }:
 manage-account = Идоракунии ҳисоб
 manage-account-plaintext = { manage-account }:
+# After the colon is how the user paid, e.g. PayPal or credit card
+payment-method = Тарзи пардохт:
+payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
+cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+downloadSubscription-subject = Хуш омадед ба «{ $productName }»
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+downloadSubscription-title = Хуш омадед ба «{ $productName }»
 downloadSubscription-link-action-2 = Оғози кор
 fraudulentAccountDeletion-title = Ҳисоби шумо нест карда шуд
+inactiveAccountFinalWarning-preview = Барои нигоҳ доштани ҳисоби худ ворид шавед
+inactiveAccountFinalWarning-action = Барои нигоҳ доштани ҳисоби худ ворид шавед
+# followed by link to sign in
+inactiveAccountFinalWarning-action-plaintext = Барои нигоҳ доштани ҳисоби худ ворид шавед:
+inactiveAccountFirstWarning-action = Барои нигоҳ доштани ҳисоби худ ворид шавед
+inactiveAccountFirstWarning-preview = Барои нигоҳ доштани ҳисоби худ ворид шавед
+# followed by link to sign in
+inactiveAccountFirstWarning-action-plaintext = Барои нигоҳ доштани ҳисоби худ ворид шавед:
+inactiveAccountSecondWarning-action = Барои нигоҳ доштани ҳисоби худ ворид шавед
+inactiveAccountSecondWarning-preview = Барои нигоҳ доштани ҳисоби худ ворид шавед
+# followed by link to sign in
+inactiveAccountSecondWarning-action-plaintext = Барои нигоҳ доштани ҳисоби худ ворид шавед:
+codes-create-plaintext = { lowRecoveryCodes-action-2 }:
 newDeviceLogin-action = Идоракунии ҳисоб
 passwordChanged-subject = Ниҳонвожа аз нав нигоҳ дошта шуд
+passwordChanged-title = Ниҳонвожа бо муваффақият иваз карда шуд
+passwordChangeRequired-title = Ниҳонвожа бояд иваз карда шавад
 passwordResetAccountRecovery-action-4 = Идоракунии ҳисоб
 postAddAccountRecovery-action = Идоракунии ҳисоб
 postAddLinkedAccount-action = Идоракунии ҳисоб
@@ -35,10 +72,16 @@ postRemoveSecondary-action = Идоракунии ҳисоб
 postRemoveTwoStepAuthentication-action = Идоракунии ҳисоб
 postSigninRecoveryCode-action = Идоракунии ҳисоб
 postSigninRecoveryPhone-action = Идоракунии ҳисоб
+postVerify-subject-4 = Хуш омадед ба «{ -brand-mozilla }»!
 postVerifySecondary-action = Идоракунии ҳисоб
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountFinishSetup-title = Хуш омадед ба «{ $productName }»
+subscriptionAccountReminderSecond-title-2 = Хуш омадед ба «{ -brand-mozilla }»!
 
 ## Variables
 ##   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 ##   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 ##   $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
 
+verificationReminderFirst-title-3 = Хуш омадед ба «{ -brand-mozilla }»!
