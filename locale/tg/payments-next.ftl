@@ -23,6 +23,7 @@
 ## Select Tax Location
 
 select-tax-location-edit-button = Таҳрир кардан
+select-tax-location-save-button = Нигоҳ доштан
 
 ## Component - Details
 

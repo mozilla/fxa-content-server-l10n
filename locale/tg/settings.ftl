@@ -209,12 +209,14 @@ manage-your-account-button = Идоракунии ҳисоби худ
 
 ## Avatar change page
 
+avatar-page-save-button = Нигоҳ доштан
 
 ##
 
 
 ## Password change page
 
+pw-change-save-button = Нигоҳ доштан
 
 ##
 
@@ -233,6 +235,7 @@ manage-your-account-button = Идоракунии ҳисоби худ
 
 ## Display name page
 
+submit-display-name = Нигоҳ доштан
 
 ##
 
@@ -254,6 +257,7 @@ manage-your-account-button = Идоракунии ҳисоби худ
 
 ## Add secondary email page
 
+add-secondary-email-save-button = Нигоҳ доштан
 
 ## Verify secondary email page
 
@@ -415,6 +419,7 @@ manage-your-account-button = Идоракунии ҳисоби худ
 
 ## ResetPasswordConfirmed
 
+reset-password-complete-new-password-saved = Ниҳонвожаи нав нигоҳ дошта шуд!
 
 ## CompleteSignin component
 
