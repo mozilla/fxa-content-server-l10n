@@ -407,6 +407,9 @@ add-secondary-email-save-button = Нигоҳ доштан
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
+# A message informing the user that the password reset was successful and reminding them to create another recovery key
+# Displayed on the sign in page
+reset-password-complete-banner-heading = Ниҳонвожаи шумо аз нав барқарор карда шуд.
 
 ## Confirm Reset Password With Code
 
@@ -419,6 +422,7 @@ add-secondary-email-save-button = Нигоҳ доштан
 
 ## ResetPasswordConfirmed
 
+reset-password-complete-header = Ниҳонвожаи шумо аз нав барқарор карда шуд
 reset-password-complete-new-password-saved = Ниҳонвожаи нав нигоҳ дошта шуд!
 
 ## CompleteSignin component

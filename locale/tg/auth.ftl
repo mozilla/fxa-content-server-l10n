@@ -58,7 +58,13 @@ newDeviceLogin-action = Идоракунии ҳисоб
 passwordChanged-subject = Ниҳонвожа аз нав нигоҳ дошта шуд
 passwordChanged-title = Ниҳонвожа бо муваффақият иваз карда шуд
 passwordChangeRequired-title = Ниҳонвожа бояд иваз карда шавад
+passwordReset-subject-2 = Ниҳонвожаи шумо аз нав барқарор карда шуд
+passwordReset-title-2 = Ниҳонвожаи шумо аз нав барқарор карда шуд
+passwordResetAccountRecovery-subject-2 = Ниҳонвожаи шумо аз нав барқарор карда шуд
+passwordResetAccountRecovery-title-3 = Ниҳонвожаи шумо аз нав барқарор карда шуд
 passwordResetAccountRecovery-action-4 = Идоракунии ҳисоб
+passwordResetWithRecoveryKeyPrompt-subject = Ниҳонвожаи шумо аз нав барқарор карда шуд
+passwordResetWithRecoveryKeyPrompt-title = Ниҳонвожаи шумо аз нав барқарор карда шуд
 postAddAccountRecovery-action = Идоракунии ҳисоб
 postAddLinkedAccount-action = Идоракунии ҳисоб
 postAddRecoveryPhone-action = Идоракунии ҳисоб
@@ -74,6 +80,9 @@ postSigninRecoveryCode-action = Идоракунии ҳисоб
 postSigninRecoveryPhone-action = Идоракунии ҳисоб
 postVerify-subject-4 = Хуш омадед ба «{ -brand-mozilla }»!
 postVerifySecondary-action = Идоракунии ҳисоб
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountFinishSetup-subject = Хуш омадед ба «{ $productName }»! Лутфан, ниҳонвожаи худро танзим намоед.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-title = Хуш омадед ба «{ $productName }»
