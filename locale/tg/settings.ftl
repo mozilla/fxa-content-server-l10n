@@ -26,6 +26,9 @@
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
 
+# Refers to 'tabs that are open', not the action
+choose-what-to-sync-option-tabs =
+    .label = Варақаҳои кушодашуда
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -100,6 +103,7 @@ get-data-trio-copy-2 =
 
 ## Ready component
 
+manage-your-account-button = Идоракунии ҳисоби худ
 
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
