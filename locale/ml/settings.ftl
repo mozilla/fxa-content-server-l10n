@@ -250,6 +250,9 @@ signin-totp-code-image-label =
 ## after signing in.
 
 inline-recovery-key-setup-signed-in-firefox-2 = { -brand-firefox }-ലേക്കു് താങ്ങൾ പ്രവേശിച്ചിരിക്കുന്നു
+inline-recovery-key-setup-create-header = അക്കൌണ്ടിനെ സുരക്ഷിതമാക്കുക
+# This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
+inline-recovery-key-setup-create-subheader = ഡാറ്റയെ സംരക്ഷിക്കാൻ വേണ്ടി ഒരു മിനിറ്റു് നേരമുണ്ടോ?
 inline-recovery-key-setup-start-button = അക്കൌണ്ടു് വീണ്ടെടുപ്പു് സങ്കേതം ഉണ്ടാക്കുക
 inline-recovery-key-setup-later-button = പിന്നീടു് ചെയ്യുക
 
@@ -304,10 +307,16 @@ remember-password-signin-link = പ്രവേശിക്കുക
 
 ## LinkUsed component
 
+# The user followed a primary email confirmation link, but that link is has been used and is no longer valid
+primary-email-confirmation-link-reused = പ്രാഥമിക ഇതപാൽ മുൻപേ ഉറപ്പിച്ചതാണു്
+# The user followed a sign-in confirmation link, but that link has been used and is no longer valid
+signin-confirmation-link-reused = പ്രവേശനം ഉറപ്പിച്ചു
 
 ## Notification Promo Banner component
 
 account-recovery-notification-cta = നിര്‍മ്മിക്കുക
+# Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
+error-bad-request = കേടായ അഭ്യൎത്ഥനം
 
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
