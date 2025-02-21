@@ -115,6 +115,7 @@ confirm-email-2 = Тасдиқ кардани ҳисоб
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Тасдиқ кардани ҳисоб
 verificationReminderSecond-action-2 = Тасдиқ кардани ҳисоб
+verify-title-3 = Интернетро боз бо «{ -brand-mozilla }» кашф кунед
 verifyPrimary-title-2 = Почтаи электронии асосиро тасдиқ кунед
 verifyPrimary-subject = Почтаи электронии асосиро тасдиқ кунед
 verifyPrimary-action-2 = Тасдиқ кардани почтаи электронӣ
@@ -124,3 +125,4 @@ verifySecondaryCode-action-2 = Тасдиқ кардани почтаи элек
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = Ҳисоби худро тасдиқ кунед
+verifyShortCode-title-3 = Интернетро боз бо «{ -brand-mozilla }» кашф кунед

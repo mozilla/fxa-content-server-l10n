@@ -107,6 +107,9 @@ terms-download = Шартҳои боргирӣ
 
 document =
     .title = Ҳисобҳои «Firefox»
+# General aria-label for closing modals
+close-aria =
+    .aria-label = Пӯшидани равзанаи зоҳирӣ
 settings-subscriptions-title = Обунаҳо
 # Title of container where a user can input a coupon code to get a discount on a subscription.
 coupon-promo-code = Рамзи таблиғотӣ

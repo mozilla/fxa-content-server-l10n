@@ -128,6 +128,18 @@ form-password-sr-too-short-message = Ниҳонвожа бояд на камта
 
 ## FormPasswordInlineCriteria
 
+form-password-with-inline-criteria-signup-new-password-label =
+    .label = Ниҳонвожа
+form-password-with-inline-criteria-signup-confirm-password-label =
+    .label = Ниҳонвожаро такрор кунед
+form-password-with-inline-criteria-signup-submit-button = Эҷод кардани ҳисоб
+form-password-with-inline-criteria-reset-new-password =
+    .label = Ниҳонвожаи нав
+form-password-with-inline-criteria-confirm-password =
+    .label = Ниҳонвожаро тасдиқ намоед
+form-password-with-inline-criteria-reset-submit-button = Ниҳонвожаи наверо эҷод намоед
+form-password-with-inline-criteria-match-error = Ниҳонвожаҳо мувофиқат намекунанд
+form-password-with-inline-criteria-sr-too-short-message = Ниҳонвожа бояд на камтар аз 8 аломат дошта бошад.
 
 ## FormVerifyCode
 
@@ -138,13 +150,28 @@ form-password-sr-too-short-message = Ниҳонвожа бояд на камта
 
 # GetDataTrio component, part of Account Recovery Key flow
 
+get-data-trio-title-firefox = { -brand-firefox }
+get-data-trio-title-firefox-recovery-key = Калиди барқарорсозии ҳисоби «{ -brand-firefox }»
+get-data-trio-title-backup-verification-codes = Нусхаи эҳтиётии рамзҳои санҷиши ҳаққоният
+get-data-trio-download-2 =
+    .title = Боргирӣ кардан
+    .aria-label = Боргирӣ кардан
 get-data-trio-copy-2 =
     .title = Нусха бардоштан
     .aria-label = Нусха бардоштан
+get-data-trio-print-2 =
+    .title = Чоп кардан
+    .aria-label = Чоп кардан
 
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
+# Aria-label option for an alert symbol
+alert-icon-aria-label =
+    .aria-label = Огоҳӣ
+# Aria-label option for an alert symbol
+icon-attention-aria-label =
+    .aria-label = Диққат
 # Aria-label option for an alert symbol
 icon-warning-aria-label =
     .aria-label = Огоҳӣ
@@ -180,6 +207,7 @@ usa-flag-icon-aria-label =
 ## Users see this view when we prompt them to generate an account recovery key
 ## after signing in.
 
+inline-recovery-key-setup-start-button = Эҷод кардани калиди барқарорсозии ҳисоб
 
 ## Input Password
 
@@ -214,6 +242,7 @@ primary-email-confirmation-link-reused = Почтаи электронии ас�
 
 ## Notification Promo Banner component
 
+account-recovery-notification-cta = Эҷод кардан
 
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
@@ -341,6 +370,8 @@ flow-recovery-key-download-heading-v2 = Калиди барқарорсозии 
 ## This is the fourth and final step in the account recovery key creation flow in account settings
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
+# Success message displayed in alert bar after the user has finished creating an account recovery key.
+flow-recovery-key-success-alert = Калиди барқарорсозии ҳисоб эҷод карда шуд
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
@@ -359,6 +390,7 @@ flow-setup-phone-confirm-code-success-message-v2 = Телефони барқар
 
 ## HeaderLockup component, the header in account settings
 
+header-menu-open = Пӯшидани меню
 header-back-to-top-link =
     .title = Бозгашт ба боло
 header-title-2 = { -product-mozilla-account }
@@ -460,6 +492,7 @@ delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = Ҳамоҳангсозии маълумоти «{ -brand-firefox }»
 delete-account-product-firefox-addons = Ҷузъҳои иловагии «{ -brand-firefox }»
 delete-account-cancel-button = Бекор кардан
+delete-account-delete-button-2 = Нест кардан
 
 ##
 
@@ -476,6 +509,7 @@ cancel-display-name = Бекор кардан
 ## All strings except title indicate an event that occurred from the user's account
 ## These are displayed as a list with the date when the event occured
 
+recent-activity-account-create-v2 = Ҳисоб эҷод карда шуд
 
 ## PageRecoveryKeyCreate
 
@@ -550,6 +584,11 @@ tfa-qa-code =
 
 ## Security section of Setting
 
+# This is a string that shows when the user's password was created.
+# Variables:
+#   $date (String) - a localized date and time string
+security-password-created-date = Санаи { $date } эҷод карда шуд
+security-action-create = Эҷод кардан
 
 ## SubRow component
 
@@ -587,11 +626,17 @@ rk-action-create = Эҷод кардан
 rk-action-change-button = Тағйир додан
 rk-action-remove = Тоза кардан
 rk-key-removed-2 = Калиди барқарорсозии ҳисоб тоза карда шуд
+# Icon button to delete user's account recovery key. Text appears in tooltip on hover and as alt text for screen readers.
+unit-row-recovery-key-delete-icon-button-title = Нест кардани калиди барқарорсозии ҳисоб
 
 ## Secondary email sub-section on main Settings page
 
 se-heading = Почтаи электронии иловагӣ
     .header = Почтаи электронии иловагӣ
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-delete-email-successful-2 = { $email } бо муваффақият нест карда шуд
 # Button to remove the secondary email
 se-remove-email =
     .title = Тоза кардани почтаи электронӣ
@@ -624,10 +669,12 @@ auth-error-103 = Ниҳонвожаи нодуруст
 auth-error-105-2 = Рамзи тасдиқкунанда нодуруст аст
 auth-error-214 = Рақами телефони барқарорсозӣ аллакай вуҷуд дорад
 auth-error-215 = Рақами телефони барқарорсозӣ вуҷуд надорад
+oauth-error-1000 = Чизе нодуруст иҷро шуд. Лутфан, ин варақаро пӯшед ва баъдтар аз нав кӯшиш кунед.
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
+cannot-create-account-header = Ҳисоб эҷод карда намешавад
 # For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
 cannot-create-account-learn-more-link = Маълумоти бештар
 
@@ -818,6 +865,7 @@ back = Ба қафо
 ## SigninPushCodeConfirmPage
 
 signin-push-code-confirm-verifying = Тасдиқ шуда истодааст
+signin-push-code-confirm-login-approved = Воридшавии шумо тасдиқ карда шуд. Лутфан, ин равзанаро пӯшед.
 
 ## Signin recovery method page
 ## This page is shown to users when they are having trouble signing in with
@@ -876,3 +924,4 @@ confirm-signup-code-success-alert = Ҳисоб бо муваффақият та�
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
+signup-heading-relay = Эҷод кардани ниҳонвожа
