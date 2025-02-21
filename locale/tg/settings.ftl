@@ -350,6 +350,7 @@ flow-recovery-key-info-cancel-link = Бекор кардан
 ## FlowSetupPhoneConfirmCode
 
 flow-setup-phone-confirm-code-button = Тасдиқ кардан
+flow-setup-phone-confirm-code-success-message-v2 = Телефони барқарорсозӣ илова карда шуд
 
 ## FlowSetupPhoneConfirmCode
 
@@ -478,11 +479,14 @@ submit-display-name = Нигоҳ доштан
 ## PageRecoveryPhoneRemove
 ## Users reach this page from account settings when they want to remove a backup phone number.
 
+recovery-phone-remove-header = Тоза кардани рақами телефони барқарорсозӣ
 settings-recovery-phone-remove-button = Тоза кардани рақами телефон
 settings-recovery-phone-remove-cancel = Бекор кардан
+settings-recovery-phone-remove-success = Телефони барқарорсозӣ тоза карда шуд
 
 ## PageSetupRecoveryPhone
 
+page-setup-recovery-phone-heading = Илова кардани телефони барқарорсозӣ
 page-setup-recovery-phone-back-button-title = Бозгашт ба Танзимот
 
 ## Add secondary email page
@@ -545,8 +549,13 @@ tfa-qa-code =
 
 ## SubRow component
 
+# Recovery phone is a recovery method for two-step authentication
+# A recovery code can be sent to the user's phone
+tfa-row-backup-phone-title-v2 = Телефони барқарорсозӣ
 # Button to remove a recovery phone from the user's account
 tfa-row-backup-phone-delete-button = Тоза кардан
+# Shown in tooltip on delete button or delete icon
+tfa-row-backup-phone-delete-title-v2 = Тоза кардани телефони барқарорсозӣ
 
 ## Switch component
 
@@ -609,6 +618,8 @@ third-party-auth-options-or = ё
 auth-error-102 = Ҳисоби номаълум
 auth-error-103 = Ниҳонвожаи нодуруст
 auth-error-105-2 = Рамзи тасдиқкунанда нодуруст аст
+auth-error-214 = Рақами телефони барқарорсозӣ аллакай мавҷуд аст
+auth-error-215 = Рақами телефони барқарорсозӣ вуҷуд надорад
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
@@ -645,20 +656,45 @@ inline-recovery-key-setup-recovery-created = Калиди барқарорсоз
 ## When users are creating an account, they may get pushed to setup 2FA
 ## in this case, they will encounter this page in the signup process (hence calling it "Inline)
 
+# This button allows a user to copy their recovery codes to their clipboard
+# This button allows the user to cancel setup of two-factor authentication for their account
+inline-recovery-cancel-button = Бекор кардан
+# This button allows the user to proceed to the next step in setting up two-factor authentication for their account
+inline-recovery-continue-button = Идома додан
+# This button allows user to verify one of their recovery codes to show they downloaded them
+inline-recovery-confirm-button = Тасдиқ кардан
+inline-recovery-back-link = Ба қафо
+inline-recovery-cancel-setup = Бекор кардани танзим
+# Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
+inline-recovery-backup-authentication-code = Нусхаи эҳтиётии рамзи санҷиши ҳаққоният
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 
+inline-totp-setup-cancel-setup-button = Бекор кардани танзим
+inline-totp-setup-continue-button = Идома додан
+inline-totp-setup-ready-button = Омода аст
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-security-code-placeholder = Рамзи санҷиши ҳаққоният
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-code-required-error = Рамзи санҷиши ҳаққоният лозим аст
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
 
+legal-header = Маълумоти ҳуқуқӣ
+# Links to our internal "Firefox Cloud" /legal/terms page
+legal-terms-of-service-link = Шартҳои хизматрасонӣ
+# Links to our internal "Firefox Cloud" /legal/terms page
+legal-privacy-link = Огоҳномаи махфият
 
 ## Legal privacy notice page. Most content comes from https://github.com/mozilla/legal-docs
 
+legal-privacy-heading = Огоҳномаи махфият
 
 ## Legal terms of service page. Most content comes from https://github.com/mozilla/legal-docs
 
+legal-terms-heading = Шартҳои хизматрасонӣ
 
 ## AuthAllow page - Part of the device pairing flow
 
@@ -681,14 +717,23 @@ inline-recovery-key-setup-recovery-created = Калиди барқарорсоз
 
 ## Pair index page
 
+# This allows the user to exit the sync/pair flow, and redirects them back to Settings
+pair-not-now-button = Ҳоло не
+# This initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
+pair-get-started-button = Оғози кор
+# This is the aria label on the QR code image
+pair-qr-code-aria-label = Рамзи «QR»
 
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
+pair-success-header-2 = Дастгоҳ пайваст шуд
+pair-success-message-2 = Ҷуфтсозӣ бо муваффақият иҷро шуд.
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be confirmed from both devices to succeed
 
+pair-supp-allow-cancel-link = Бекор кардан
 
 ## WaitForAuth page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -702,6 +747,7 @@ inline-recovery-key-setup-recovery-created = Калиди барқарорсоз
 ## Third party auth users that do not have a password set yet are prompted for a
 ## password to complete their sign-in when they want to login to a service requiring it.
 
+set-password-heading = Эҷод кардани ниҳонвожа
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
@@ -709,22 +755,39 @@ inline-recovery-key-setup-recovery-created = Калиди барқарорсоз
 
 ## AccountRecoveryConfirmKey page
 
+# Clicking this button checks if the recovery key provided by the user is correct and associated with their account
+account-recovery-confirm-key-button-2 = Идома додан
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
+complete-reset-pw-header-v2 = Ниҳонвожаи наверо эҷод намоед
+# A new password was successfully set for the user's account
+# Displayed in an alert bar
+complete-reset-password-success-alert = Ниҳонвожа танзим карда шуд
+# Link to go back and use an account recovery key before resetting the password
+complete-reset-pw-recovery-key-link = Истифодаи калиди барқарорсозии ҳисоб
 # A message informing the user that the password reset was successful and reminding them to create another recovery key
 # Displayed on the sign in page
 reset-password-complete-banner-heading = Ниҳонвожаи шумо аз нав барқарор карда шуд.
 
 ## Confirm Reset Password With Code
 
+confirm-reset-password-with-code-heading = Почтаи электронии худро тафтиш кунед
+# Clicking the button submits and verifies the code
+# If succesful, continues to the next step of the password reset
+confirm-reset-password-otp-submit-button = Идома додан
 
 ## PasswordResetConfirmTotp Page
 
+confirm-totp-reset-password-confirm-button = Тасдиқ кардан
+confirm-recovery-code-reset-password-trouble-code = Ба қафо
 
 ## ResetPassword start page
 
+password-reset-flow-heading = Барқарор кардани ниҳонвожаи худ
+password-reset-email-input =
+    .label = Почтаи электронии худро ворид кунед
 
 ## ResetPasswordConfirmed
 
@@ -742,6 +805,7 @@ reset-password-complete-new-password-saved = Ниҳонвожаи нав ниг�
 ## they can click "report it to us" if they did not attempt to sign in.
 ## This will be the page shown to users to block the sign in and report it.
 
+back = Ба қафо
 
 ## SigninPushCode page
 ## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
@@ -749,17 +813,23 @@ reset-password-complete-new-password-saved = Ниҳонвожаи нав ниг�
 
 ## SigninPushCodeConfirmPage
 
+signin-push-code-confirm-verifying = Тасдиқ шуда истодааст
 
 ## Signin recovery method page
 ## This page is shown to users when they are having trouble signing in with
 ## their password, and they previously had set up an account recovery method.
 
+signin-recovery-method-header = Ворид шудан
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
+signin-recovery-code-heading = Ворид шудан
+signin-recovery-code-sub-heading = Нусхаи эҳтиётии рамзи санҷиши ҳаққониятро ворид кунед
+# Form button to confirm if the backup authentication code entered by the user is valid
+signin-recovery-code-confirm-button = Тасдиқ кардан
 
 ## SigninRecoveryPhone page
 
@@ -771,15 +841,22 @@ reset-password-complete-new-password-saved = Ниҳонвожаи нав ниг�
 ## Users see this page during the signin process. In this instance, the confirmation code is
 ## a 6-digit code that is sent to the user's email address.
 
+# Form button to confirm if the confirmation code entered by the user is valid
+signin-token-code-confirm-button = Тасдиқ кардан
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+signin-totp-code-header = Ворид шудан
+# Form button to confirm if the authentication code entered by the user is valid
+signin-totp-code-confirm-button = Тасдиқ кардан
+signin-totp-code-other-account-link = Ҳисоби дигареро истифода баред
 
 ## Signin Unblock Page
 ## Page shown when signin has been blocked by rate limiting (too many requests)
 
+signin-unblock-submit-button = Идома додан
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
