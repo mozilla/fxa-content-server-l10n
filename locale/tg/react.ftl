@@ -1,5 +1,7 @@
 ## FxA React - Strings shared between multiple FxA products for application error dialog
 
+app-general-err-heading = Хатои умумии барнома
+app-general-err-message = Чизе нодуруст иҷро шуд. Лутфан, баъдтар аз нав кӯшиш кунед.
 
 ## FxA React - Strings shared between multiple FxA products for application footer
 
