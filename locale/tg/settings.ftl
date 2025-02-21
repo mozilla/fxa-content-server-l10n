@@ -209,6 +209,8 @@ legal-back-button = Ба қафо
 
 ## LinkUsed component
 
+# The user followed a primary email confirmation link, but that link is has been used and is no longer valid
+primary-email-confirmation-link-reused = Почтаи электронии асосӣ алакай тасдиқ карда шуд
 
 ## Notification Promo Banner component
 
@@ -457,6 +459,7 @@ delete-account-product-mozilla-monitor = { -product-mozilla-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = Ҳамоҳангсозии маълумоти «{ -brand-firefox }»
 delete-account-product-firefox-addons = Ҷузъҳои иловагии «{ -brand-firefox }»
+delete-account-cancel-button = Бекор кардан
 
 ##
 
@@ -464,6 +467,7 @@ delete-account-product-firefox-addons = Ҷузъҳои иловагии «{ -bra
 ## Display name page
 
 submit-display-name = Нигоҳ доштан
+cancel-display-name = Бекор кардан
 
 ##
 
@@ -867,6 +871,7 @@ signin-unblock-submit-button = Идома додан
 
 # and a confirmation code has been sent to their email address.
 
+confirm-signup-code-success-alert = Ҳисоб бо муваффақият тасдиқ карда шуд
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email

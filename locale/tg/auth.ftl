@@ -79,18 +79,48 @@ postRemoveTwoStepAuthentication-action = Идоракунии ҳисоб
 postSigninRecoveryCode-action = Идоракунии ҳисоб
 postSigninRecoveryPhone-action = Идоракунии ҳисоб
 postVerify-subject-4 = Хуш омадед ба «{ -brand-mozilla }»!
+postVerify-setup-2 = Пайваст кардани дастгоҳи дигар:
+postVerify-action-2 = Пайваст кардани дастгоҳи дигар
+postVerifySecondary-subject = Почтаи электронии иловагӣ илова шуд
+postVerifySecondary-title = Почтаи электронии иловагӣ илова шуд
 postVerifySecondary-action = Идоракунии ҳисоб
+recovery-subject = Барқарор кардани ниҳонвожаи худ
+recovery-action = Ниҳонвожаи наверо эҷод намоед
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-subject = Хуш омадед ба «{ $productName }»! Лутфан, ниҳонвожаи худро танзим намоед.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-title = Хуш омадед ба «{ $productName }»
+subscriptionAccountFinishSetup-action-2 = Оғози кор
+subscriptionAccountReminderFirst-action = Эҷод кардани ниҳонвожа
+subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-title-2 = Хуш омадед ба «{ -brand-mozilla }»!
+subscriptionAccountReminderSecond-action = Эҷод кардани ниҳонвожа
+subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
 
 ## Variables
 ##   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 ##   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 ##   $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
 
+subscriptionRenewalReminder-content-closing = Бо эҳтиром,
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionRenewalReminder-content-signature = Дастаи «{ $productName }»
+confirm-account = Тасдиқ кардани ҳисоб
+confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-title-3 = Хуш омадед ба «{ -brand-mozilla }»!
+confirm-email-2 = Тасдиқ кардани ҳисоб
+confirm-email-plaintext-2 = { confirm-email-2 }:
+verificationReminderFirst-action-2 = Тасдиқ кардани ҳисоб
+verificationReminderSecond-action-2 = Тасдиқ кардани ҳисоб
+verifyPrimary-title-2 = Почтаи электронии асосиро тасдиқ кунед
+verifyPrimary-subject = Почтаи электронии асосиро тасдиқ кунед
+verifyPrimary-action-2 = Тасдиқ кардани почтаи электронӣ
+verifySecondaryCode-subject = Почтаи электронии иловагиро тасдиқ кунед
+verifySecondaryCode-title-2 = Почтаи электронии иловагиро тасдиқ кунед
+verifySecondaryCode-action-2 = Тасдиқ кардани почтаи электронӣ
+# Variables:
+#  $code (Number) - e.g. 123456
+verifyShortCode-subject-3 = Ҳисоби худро тасдиқ кунед
