@@ -896,7 +896,7 @@ settings-recovery-phone-remove-success = Telefon pro obnovení byl odebrán
 ## PageSetupRecoveryPhone
 
 page-setup-recovery-phone-heading = Přidat telefon pro obnovení
-page-setup-recovery-phone-back-button-title = Zpět do nastavení
+page-setup-recovery-phone-back-button-title = Zpět na nastavení
 
 ## Add secondary email page
 
@@ -937,7 +937,7 @@ verify-secondary-email-success-alert-2 = Adresa { $email } úspěšně přidána
 # Link to delete account on main Settings page
 delete-account-link = Smazat účet
 # Success message displayed in alert bar after the user has successfully confirmed their account is not inactive.
-inactive-update-status-success-alert = Přihlášení bylo úspěšné. Váš { -product-mozilla-account(case: "acc", capitalization: "lower") } a jeho data zůstanou aktivní.
+inactive-update-status-success-alert = Přihlášení bylo úspěšné. Váš { -product-mozilla-account(capitalization: "lower") } a jeho údaje zůstanou aktivní.
 
 ## Two Step Authentication
 
@@ -971,7 +971,7 @@ tfa-input-enter-totp-v2 =
     .label = Zadejte ověřovací kód
 tfa-save-these-codes-1 = Tyto jednorázové záložní ověřovací kódy si uložte na bezpečném místě, kam se dostanete i bez svého mobilního zařízení.
 # codes here refers to backup authentication codes
-tfa-enter-code-to-confirm-setup = Potvrďte uložení kódů zadáním jednoho. Bez těchto kódů nemusíte být schopni se přihlásit.
+tfa-enter-code-to-confirm-setup = Potvrďte uložení kódů zadáním jednoho z nich. Bez těchto kódů se možná nebudete moci přihlásit, pokud nemáte aplikaci pro ověření.
 tfa-enter-recovery-code-1 =
     .label = Vložte záložní ověřovací kód
 
@@ -1037,7 +1037,7 @@ tfa-row-backup-codes-not-available = Žádné kódy nejsou k dispozici
 # A different message is shown when no codes are available
 tfa-row-backup-codes-available-v2 =
     { $numCodesAvailable ->
-        [one] Zbývá { $numCodesAvailable } kódu
+        [one] Zbývá { $numCodesAvailable } kód
         [few] Zbývající kódy: { $numCodesAvailable }
        *[other] Zbývající kódy: { $numCodesAvailable }
     }
@@ -1061,7 +1061,7 @@ tfa-row-backup-phone-add-cta = Přidat
 tfa-row-backup-phone-delete-button = Odebrat
 # Shown in tooltip on delete button or delete icon
 tfa-row-backup-phone-delete-title-v2 = Odebrat telefon pro obnovení
-tfa-row-backup-phone-delete-restriction-v2 = Pokud chcete odebrat své záložní telefonní číslo, přidejte záložní ověřovací kódy nebo nejprve vypněte dvoufázové ověření, abyste předešli nechtěnému uzamčení svého účtu.
+tfa-row-backup-phone-delete-restriction-v2 = Pokud chcete odebrat telefon pro obnovení, přidejte nejprve záložní ověřovací kódy nebo vypněte dvoufázové ověřování, abyste se vyhnuli zablokování účtu.
 # "this" refers to recovery phone
 tfa-row-backup-phone-description = Pokud nemůžete použít aplikaci pro autentizaci, je to jednodušší způsob obnovení.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
@@ -1159,7 +1159,7 @@ tfa-row-enabled-description = Váš účet je chráněn dvoufázovým ověřová
 # "this" refers to two-step authentication
 # Link goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
 tfa-row-enabled-info-link = Jak to chrání váš účet
-tfa-row-disabled-description-v2 = Pomozte zabezpečit svůj účet pomocí ověřovací aplikace třetí strany jako druhého kroku pro přihlášení.
+tfa-row-disabled-description-v2 = Pomozte zabezpečit svůj účet pomocí aplikace ověřovatele třetí strany jako druhého kroku přihlášení.
 tfa-row-cannot-verify-session-4 = Omlouváme se, nastal problém s potvrzením vaší relace
 tfa-row-disable-modal-heading = Vypnout dvoufázové ověřování?
 tfa-row-disable-modal-confirm = Vypnout
@@ -1664,19 +1664,19 @@ signin-push-code-confirm-link-error = Odkaz je poškozen. Zkuste to prosím znov
 
 signin-recovery-method-header = Přihlásit se
 signin-recovery-method-subheader = Vyberte způsob obnovení
-signin-recovery-method-details = Pojďme se ujistit, že jste to vy pomocí vašich metod obnovení.
+signin-recovery-method-details = Ujistěte se, že jste to vy, kdo používá vaše metody obnovy.
 signin-recovery-method-phone = Telefon pro obnovení
 signin-recovery-method-code-v2 = Záložní ověřovací kódy
 # Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
 signin-recovery-method-code-info-v2 =
     { $numBackupCodes ->
-        [one] Zbývá { $numBackupCodes } kódu
-        [few] Zbývá { $numBackupCodes } kódů
+        [one] Zbývá { $numBackupCodes } kód
+        [few] Zbývá { $numBackupCodes } kódy
        *[other] Zbývá { $numBackupCodes } kódů
     }
 # Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
 signin-recovery-method-send-code-error-heading = Nepodařilo se odeslat kód na vaše telefonní číslo
-signin-recovery-method-send-code-error-description = Zkuste to prosím znovu později nebo použijte záložní ověřovací kódy.
+signin-recovery-method-send-code-error-description = Zkuste to prosím později nebo použijte záložní ověřovací kódy.
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
@@ -1686,7 +1686,7 @@ signin-recovery-method-send-code-error-description = Zkuste to prosím znovu poz
 signin-recovery-code-heading = Přihlásit se
 signin-recovery-code-sub-heading = Zadejte záložní ověřovací kód
 # codes here refers to backup authentication codes
-signin-recovery-code-instruction-v3 = Zadejte jeden z jednorázových kódů, které jste si uložili při nastavování dvoufázového ověřování.
+signin-recovery-code-instruction-v3 = Zadejte jeden z jednorázových kódů, které jste uložili při nastavení dvoufázového ověřování.
 # code here refers to backup authentication code
 signin-recovery-code-input-label-v2 = Zadejte 10místný kód
 # Form button to confirm if the backup authentication code entered by the user is valid

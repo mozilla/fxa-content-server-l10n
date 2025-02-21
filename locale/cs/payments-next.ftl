@@ -6,13 +6,13 @@ next-payment-error-manage-subscription-button = Správa předplatného
 next-iap-upgrade-contact-support = Tento produkt můžete stále získat – abychom vám mohli pomoci, kontaktujte prosím podporu.
 next-payment-error-retry-button = Zkusit znovu
 next-basic-error-message = Něco se pokazilo. Zkuste to prosím znovu později.
-checkout-error-contact-support-button = Kontaktujte podporu
-checkout-error-not-eligible = Nemáte oprávnění předplatit tento produkt - kontaktujte prosím podporu, abychom vám mohli pomoci.
+checkout-error-contact-support-button = Kontaktovat podporu
+checkout-error-not-eligible = Na předplatné tohoto produktu nemáte nárok - kontaktujte prosím podporu, abychom vám mohli pomoci.
 checkout-error-contact-support = Kontaktujte prosím podporu, abychom vám mohli pomoci.
 
 ## Page
 
-checkout-signin-or-create = 1. Přihlaste se nebo si vytvořte { -product-mozilla-account(case: "acc", capitalization: "lower") }
+checkout-signin-or-create = 1. Přihlaste se nebo si vytvořte { -product-mozilla-account(capitalization: "lower") }
 checkout-create-account = Vytvořit { -product-mozilla-account(case: "acc", capitalization: "lower") }
 continue-signin-with-google-button = Pokračovat pomocí { -brand-google }
 continue-signin-with-apple-button = Pokračovat pomocí { -brand-apple }
@@ -36,7 +36,7 @@ next-payment-confirmation-amount = { $amount } jednou za { $interval }
 next-payment-confirmation-cc-card-ending-in = Karta končící na { $last4 }
 next-payment-confirmation-download-button = Pokračovat ke stažení
 checkout-error-boundary-retry-button = Zkusit znovu
-checkout-error-boundary-basic-error-message = Něco se pokazilo. Zkuste to znovu nebo <contactSupportLink>kontaktujte podporu.</contactSupportLink>
+checkout-error-boundary-basic-error-message = Něco se pokazilo. Zkuste to znovu nebo <contactSupportLink>kontaktujte podporu</contactSupportLink>.
 
 ## Component - Payment Consent Checkbox
 

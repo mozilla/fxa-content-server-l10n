@@ -285,7 +285,7 @@ inactiveAccountSecondWarning-subject = Je vyžadována akce: účet bude za 7 dn
 inactiveAccountSecondWarning-title = Váš účet { -brand-mozilla } a data budou smazána za 7 dní
 inactiveAccountSecondWarning-account-description-v2 = Váš { -product-mozilla-account } slouží k bezplatnému přístupu k ochraně soukromí a procházení webu jako jsou { -brand-firefox } sync, { -product-mozilla-monitor }, { -product-firefox-relay } a { -product-mdn }.
 # $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
-inactiveAccountSecondWarning-impact = Váš účet a vaše osobní data budou dne <strong>{ $deletionDate }</strong> trvale smazána, protože nejste aktivní.
+inactiveAccountSecondWarning-impact = Protože jste nebyli aktivní, bude dne <strong>{ $deletionDate }</strong> váš účet a vaše osobní data trvale smazána.
 inactiveAccountSecondWarning-action = Přihlaste se a zachovejte si svůj účet
 inactiveAccountSecondWarning-preview = Přihlaste se a zachovejte si svůj účet
 # followed by link to sign in
@@ -702,7 +702,7 @@ verifySecondaryCode-expiry-notice-2 = Platnost vyprší za 5 minut. Po ověřen�
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = Potvrďte svůj účet
-verifyShortCode-preview = Pomocí přiloženého kódu potvrďte svůj { -product-mozilla-account(case: "acc", capitalization: "lower") }.
+verifyShortCode-preview = Pomocí přiloženého kódu potvrďte svůj { -product-mozilla-account(capitalization: "lower") }.
 verifyShortCode-title-3 = Pojďte na internet pomocí { -brand-mozilla(case: "acc") }
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = Potvrďte svůj účet a využívejte výhody { -brand-mozilla(case: "gen") } všude, kde se přihlásíte, počínaje:
