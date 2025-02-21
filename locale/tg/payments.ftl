@@ -32,6 +32,7 @@
 
 ## Component - PaymentForm
 
+payment-cancel-btn = Бекор кардан
 
 ## Component - PaymentLegalBlurb
 

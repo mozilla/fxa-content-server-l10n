@@ -618,7 +618,7 @@ third-party-auth-options-or = ё
 auth-error-102 = Ҳисоби номаълум
 auth-error-103 = Ниҳонвожаи нодуруст
 auth-error-105-2 = Рамзи тасдиқкунанда нодуруст аст
-auth-error-214 = Рақами телефони барқарорсозӣ аллакай мавҷуд аст
+auth-error-214 = Рақами телефони барқарорсозӣ аллакай вуҷуд дорад
 auth-error-215 = Рақами телефони барқарорсозӣ вуҷуд надорад
 
 ## Cannot Create Account page
@@ -820,6 +820,7 @@ signin-push-code-confirm-verifying = Тасдиқ шуда истодааст
 ## their password, and they previously had set up an account recovery method.
 
 signin-recovery-method-header = Ворид шудан
+signin-recovery-method-phone = Телефони барқарорсозӣ
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
@@ -830,6 +831,8 @@ signin-recovery-code-heading = Ворид шудан
 signin-recovery-code-sub-heading = Нусхаи эҳтиётии рамзи санҷиши ҳаққониятро ворид кунед
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Тасдиқ кардан
+# Link to go to the page to use recovery phone instead
+signin-recovery-code-phone-link = Истифодаи телефони барқарорсозӣ
 
 ## SigninRecoveryPhone page
 
