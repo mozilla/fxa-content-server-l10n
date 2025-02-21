@@ -185,9 +185,18 @@ usa-flag-icon-aria-label =
 
 # Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will hide the password.
 input-password-hide = Пинҳон кардани ниҳонвожа
+# Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will show the password.
+input-password-show = Нишон додани ниҳонвожа
 
 ## Phone number component
 
+# This is an aria-label available to screen readers for a selection list that includes country flags, country name and country code
+input-phone-number-country-list-aria-label = Интихоби кишвар
+input-phone-number-enter-number = Рақами телефонро ворид намоед
+input-phone-number-country-united-states = Иёлоти Муттаҳидаи Амрико
+input-phone-number-country-canada = Канада
+# Back button on legal/terms or legal/privacy that takes users to the previous page
+legal-back-button = Ба қафо
 
 ## LinkDamaged component
 
@@ -217,31 +226,61 @@ input-password-hide = Пинҳон кардани ниҳонвожа
 ## Ready component
 
 manage-your-account-button = Идоракунии ҳисоби худ
+# Message shown when the account is ready but the user is not signed in
+ready-account-ready = Ҳисоби шумо омода аст!
+ready-continue = Идома додан
+sign-in-complete-header = Воридшавӣ тасдиқ карда шуд
+sign-up-complete-header = Ҳисоб тасдиқ карда шуд
+primary-email-verified-header = Почтаи электронии асосӣ тасдиқ карда шуд
 
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
 
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+flow-recovery-key-download-storage-ideas-heading-v2 = Ҷойҳо барои нигоҳ доштани калиди шумо:
+flow-recovery-key-download-storage-ideas-pwd-manager = Мудири ниҳонвожаҳо
 
 ## RecoveryKeySetupHint
 ## This is the final step in the account recovery key creation flow after a Sync signin or in account settings
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
+# The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
+# "Finish" refers to "Finish the account recovery key creation process"
+flow-recovery-key-hint-cta-text = Анҷом додан
 
 ## ResetPasswordWarning component
 ## Warning shown to sync users that reset their password without using an account recovery key
 
+password-reset-warning-icon = Огоҳӣ
+password-reset-chevron-expanded = Печондани огоҳӣ
+password-reset-chevron-collapsed = Баркушодани огоҳӣ
 
 ## Alert Bar
 
+alert-bar-close-message = Пӯшидани паём
 
 ## User's avatar
 
+avatar-your-avatar =
+    .alt = Аватари шумо
+avatar-default-avatar =
+    .alt = Аватари пешфарз
 
 ##
 
 
 # BentoMenu component
 
+bento-menu-title-3 = Маҳсулоти «{ -brand-mozilla }»
+bento-menu-tagline = Маҳсулоти бештар аз «{ -brand-mozilla }», ки махфияти шуморо муҳофизат мекунанд
+bento-menu-vpn-2 = { -product-mozilla-vpn }
+bento-menu-monitor-3 = { -product-mozilla-monitor }
+bento-menu-pocket-2 = { -product-pocket }
+bento-menu-firefox-relay-2 = { -product-firefox-relay }
+bento-menu-firefox-desktop = Браузери «{ -brand-firefox }» барои мизи корӣ
+bento-menu-firefox-mobile = Браузери «{ -brand-firefox }» барои дастгоҳи мобилӣ
+bento-menu-made-by-mozilla = Аз ҷониби «{ -brand-mozilla }» сохта шудааст
 
 ## Connect another device promo
 
@@ -251,6 +290,7 @@ manage-your-account-button = Идоракунии ҳисоби худ
 
 ## Connected services section
 
+cs-heading = Хизматрасониҳои пайвастшуда
 
 ## This string is used in a modal dialog when the user starts the disconnect from
 ## Sync process.
@@ -282,11 +322,18 @@ manage-your-account-button = Идоракунии ҳисоби худ
 ## Users see this view when they are generating a new account recovery key
 ## This screen asks the user to confirm their password before generating a new key
 
+flow-recovery-key-confirm-pwd-input-label = Ниҳонвожаи худро ворид намоед
+# Clicking on this button will check the password and create an account recovery key
+flow-recovery-key-confirm-pwd-submit-button = Эҷод кардани калиди барқарорсозии ҳисоб
+# For users with an existing account recovery key, clicking on this button will
+# check the password, delete the existing key and create a new account recovery key
+flow-recovery-key-confirm-pwd-submit-button-change-key = Эҷод кардани калиди нави барқарорсозии ҳисоб
 
 ## FlowRecoveryKeyDownload - Third view in the PageRecoveryKeyCreate flow
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
 
+flow-recovery-key-download-heading-v2 = Калиди барқарорсозии ҳисоб эҷод шудааст — Онро ҳозир боргирӣ карда, нигоҳ доред
 
 ## FlowRecoveryKeyHint
 ## This is the fourth and final step in the account recovery key creation flow in account settings
@@ -295,34 +342,73 @@ manage-your-account-button = Идоракунии ҳисоби худ
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
+# The text of the "submit" button to start creating (or changing) an account recovery key
+flow-recovery-key-info-cta-text-v3 = Оғози кор
+# Link to cancel account recovery key change and return to settings
+flow-recovery-key-info-cancel-link = Бекор кардан
 
 ## FlowSetupPhoneConfirmCode
 
+flow-setup-phone-confirm-code-button = Тасдиқ кардан
 
 ## FlowSetupPhoneConfirmCode
 
 
 ## HeaderLockup component, the header in account settings
 
+header-back-to-top-link =
+    .title = Бозгашт ба боло
+header-title-2 = { -product-mozilla-account }
+header-help = Кумак
 
 ## Linked Accounts section
 
+la-heading = Ҳисобҳои пайвастшуда
 
 ## Modal - Default values for a message directed at the user where the user can typically Confirm or Cancel.
 
+modal-close-title = Пӯшидан
+modal-cancel-button = Бекор кардан
+modal-default-confirm-button = Тасдиқ кардан
 
 ## Modal Verify Session
 
+mvs-verify-your-email-2 = Почтаи электронии худро тасдиқ кунед
+mvs-enter-verification-code-2 = Рамзи тасдиқкунандаи худро ворид намоед
+msv-cancel-button = Бекор кардан
+msv-submit-button-2 = Тасдиқ кардан
 
 ## Settings Nav
 
+nav-settings = Танзимот
 
 ## Two Step Authentication - replace backup authentication code
 
 
 ## Avatar change page
 
+avatar-page-add-photo = Илова кардани акс
+avatar-page-add-photo-button =
+    .title = { avatar-page-add-photo }
+avatar-page-take-photo = Гирифтани акс
+avatar-page-take-photo-button =
+    .title = { avatar-page-take-photo }
+avatar-page-remove-photo = Тоза кардани акс
+avatar-page-remove-photo-button =
+    .title = { avatar-page-remove-photo }
+avatar-page-retake-photo = Аз нав гирифтани акс
+avatar-page-cancel-button = Бекор кардан
 avatar-page-save-button = Нигоҳ доштан
+avatar-page-saving-button = Сабт шуда истодааст…
+avatar-page-zoom-out-button =
+    .title = Хурд кардан
+avatar-page-zoom-in-button =
+    .title = Калон кардан
+avatar-page-rotate-button =
+    .title = Давр занондан
+avatar-page-camera-error = Камераро оғоз карда натавонист
+avatar-page-new-avatar =
+    .alt = акси нави профил
 
 ##
 
