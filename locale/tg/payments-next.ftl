@@ -59,6 +59,7 @@ select-tax-location-error-missing-postal-code = Лутфан, рамзи поч�
 select-tax-location-error-invalid-postal-code = Лутфан, рамзи почтаи дурустро ворид кунед
 select-tax-location-successfully-updated = Ҷойгиршавии шумо навсозӣ карда шуд.
 select-tax-location-error-location-not-updated = Ҷойгиршавии шумо навсозӣ карда намешавад. Лутфан, аз нав кӯшиш кунед.
+signin-form-continue-button = Идома додан
 
 ## Component - Details
 

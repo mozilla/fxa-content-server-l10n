@@ -175,6 +175,10 @@ icon-attention-aria-label =
 # Aria-label option for an alert symbol
 icon-warning-aria-label =
     .aria-label = Огоҳӣ
+backup-codes-icon-aria-label-v2 =
+    .aria-label = Нусхаи эҳтиётии рамзҳои санҷиши ҳаққониятнусхаи эҳтиётии рамзи санҷиши ҳаққоният фаъол шуд
+backup-codes-disabled-icon-aria-label-v2 =
+    .aria-label = Нусхаи эҳтиётии рамзҳои санҷиши ҳаққониятнусхаи эҳтиётии рамзи санҷиши ҳаққоният ғайрифаъол шуд
 # Used to  indicate a general checkmark, as in something checked off in a list!
 checkmark-icon-aria-label =
     .aria-label = Ба қайд гирифтан
@@ -234,6 +238,8 @@ legal-back-button = Ба қафо
 
 ## LinkRememberPassword component
 
+# link navigates to the sign in page
+remember-password-signin-link = Ворид шудан
 
 ## LinkUsed component
 
@@ -250,6 +256,7 @@ account-recovery-notification-cta = Эҷод кардан
 
 ## PasswordStrengthBalloon component
 
+password-strength-balloon-heading = Талаботи ниҳонвожа
 
 ## PasswordStrengthBalloon component
 
@@ -336,18 +343,26 @@ cs-heading = Хизматрасониҳои пайвастшуда
 
 ##
 
+cs-sign-out-button = Баромад
 
 ##
 
 
 ## Data collection section
 
+dc-heading = Ҷамъоварӣ ва истифодабарии маълумот
+dc-subheader-moz-accounts = { -product-mozilla-accounts }
+dc-subheader-ff-browser = Браузери «{ -brand-firefox }»
+dc-learn-more = Маълумоти бештар
 
 # DropDownAvatarMenu component
 
+drop-down-menu-title-2 = Менюи «{ -product-mozilla-account }»
+drop-down-menu-sign-out = Баромад
 
 ## Flow Container
 
+flow-container-back = Ба қафо
 
 ## FlowRecoveryKeyConfirmPwd - Second view in the PageRecoveryKeyCreate flow
 ## Users see this view when they are generating a new account recovery key
@@ -382,11 +397,17 @@ flow-recovery-key-info-cancel-link = Бекор кардан
 
 ## FlowSetupPhoneConfirmCode
 
+flow-setup-phone-confirm-code-input-label = Рамзи 6-рақамро ворид кунед
 flow-setup-phone-confirm-code-button = Тасдиқ кардан
+flow-setup-phone-confirm-code-resend-code-button = Аз нав фиристодани рамз
+flow-setup-phone-confirm-code-resend-code-success = Рамз фиристода шуд
 flow-setup-phone-confirm-code-success-message-v2 = Телефони барқарорсозӣ илова карда шуд
 
 ## FlowSetupPhoneConfirmCode
 
+flow-setup-phone-submit-number-heading = Рақами телефони худро тасдиқ кунед
+# cliking on the button sends a code by text message to the phone number typed in by the user
+flow-setup-phone-submit-number-button = Фиристодани рамз
 
 ## HeaderLockup component, the header in account settings
 
@@ -399,6 +420,7 @@ header-help = Кумак
 ## Linked Accounts section
 
 la-heading = Ҳисобҳои пайвастшуда
+la-set-password-button = Танзим кардани ниҳонвожа
 
 ## Modal - Default values for a message directed at the user where the user can typically Confirm or Cancel.
 
@@ -416,12 +438,18 @@ msv-submit-button-2 = Тасдиқ кардан
 ## Settings Nav
 
 nav-settings = Танзимот
+nav-data-collection = Ҷамъоварӣ ва истифодабарии маълумот
 
 ## Two Step Authentication - replace backup authentication code
 
+tfa-replace-code-success-alert-4 = Нусхаи эҳтиётии рамзҳои санҷиши ҳаққоният навсозӣ шуд
+tfa-replace-code-1-2 = Қадами 1 аз 2
+tfa-replace-code-2-2 = Қадами 2 аз 2
 
 ## Avatar change page
 
+avatar-page-title =
+    .title = Акси профил
 avatar-page-add-photo = Илова кардани акс
 avatar-page-add-photo-button =
     .title = { avatar-page-add-photo }
@@ -456,6 +484,7 @@ pw-change-header =
     .title = Иваз кардани ниҳонвожа
 pw-change-cancel-button = Бекор кардан
 pw-change-save-button = Нигоҳ доштан
+pw-change-forgot-password-link = Ниҳонвожаро фаромӯш кардед?
 pw-change-current-password =
     .label = Ниҳонвожаи ҷориро ворид намоед
 pw-change-new-password =
@@ -491,6 +520,9 @@ delete-account-product-mozilla-monitor = { -product-mozilla-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = Ҳамоҳангсозии маълумоти «{ -brand-firefox }»
 delete-account-product-firefox-addons = Ҷузъҳои иловагии «{ -brand-firefox }»
+delete-account-continue-button = Идома додан
+delete-account-password-input =
+    .label = Ниҳонвожаеро ворид намоед
 delete-account-cancel-button = Бекор кардан
 delete-account-delete-button-2 = Нест кардан
 
@@ -499,8 +531,14 @@ delete-account-delete-button-2 = Нест кардан
 
 ## Display name page
 
+display-name-page-title =
+    .title = Номи намоишӣ
+display-name-input =
+    .label = Номи намоиширо ворид кунед
 submit-display-name = Нигоҳ доштан
 cancel-display-name = Бекор кардан
+display-name-update-error-2 = Ҳангоми навсозии номи намоишии шумо мушкилӣ ба миён омад
+display-name-success-alert-2 = Номи намоишӣ нав карда шуд
 
 ##
 
@@ -510,6 +548,8 @@ cancel-display-name = Бекор кардан
 ## These are displayed as a list with the date when the event occured
 
 recent-activity-account-create-v2 = Ҳисоб эҷод карда шуд
+recent-activity-account-disable-v2 = Ҳисоб ғайрифаъол шуд
+recent-activity-account-enable-v2 = Ҳисоб фаъол шуд
 
 ## PageRecoveryKeyCreate
 
@@ -572,9 +612,20 @@ tfa-qa-code =
 
 ## Product promotion
 
+product-promo-monitor =
+    .alt = { -product-mozilla-monitor }
+# Links out to the Monitor pricing site
+product-promo-monitor-plus-cta = Оғози кор
 
 ## Profile section
 
+profile-heading = Профил
+profile-picture =
+    .header = Акс
+profile-display-name =
+    .header = Номи намоишӣ
+profile-primary-email =
+    .header = Почтаи электронии асосӣ
 
 ##
 
@@ -584,10 +635,14 @@ tfa-qa-code =
 
 ## Security section of Setting
 
+security-heading = Амният
+security-password =
+    .header = Ниҳонвожа
 # This is a string that shows when the user's password was created.
 # Variables:
 #   $date (String) - a localized date and time string
 security-password-created-date = Санаи { $date } эҷод карда шуд
+security-not-set = Танзим нашудааст
 security-action-create = Эҷод кардан
 
 ## SubRow component
@@ -757,6 +812,7 @@ legal-terms-heading = Шартҳои хизматрасонӣ
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during device pairing.
 
+auth-totp-input-label = Рамзи 6-рақамро ворид кунед
 
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -828,10 +884,14 @@ confirm-reset-password-with-code-heading = Почтаи электронии х�
 # Clicking the button submits and verifies the code
 # If succesful, continues to the next step of the password reset
 confirm-reset-password-otp-submit-button = Идома додан
+# Button to request a new reset password confirmation code
+confirm-reset-password-otp-resend-code-button = Аз нав фиристодани рамз
 
 ## PasswordResetConfirmTotp Page
 
+confirm-totp-reset-password-header = Барқарор кардани ниҳонвожаи худ
 confirm-totp-reset-password-confirm-button = Тасдиқ кардан
+confirm-totp-reset-password-input-label-v2 = Рамзи 6-рақамро ворид кунед
 confirm-recovery-code-reset-password-trouble-code = Ба қафо
 
 ## ResetPassword start page
@@ -839,10 +899,12 @@ confirm-recovery-code-reset-password-trouble-code = Ба қафо
 password-reset-flow-heading = Барқарор кардани ниҳонвожаи худ
 password-reset-email-input =
     .label = Почтаи электронии худро ворид кунед
+password-reset-submit-button-2 = Идома додан
 
 ## ResetPasswordConfirmed
 
 reset-password-complete-header = Ниҳонвожаи шумо аз нав барқарор карда шуд
+reset-password-with-recovery-key-verified-page-title = Ниҳонвожа бо муваффақият аз нав танзим карда шуд
 reset-password-complete-new-password-saved = Ниҳонвожаи нав нигоҳ дошта шуд!
 
 ## CompleteSignin component
@@ -850,6 +912,8 @@ reset-password-complete-new-password-saved = Ниҳонвожаи нав ниг�
 
 ## Signin page
 
+signin-forgot-password-link = Ниҳонвожаро фаромӯш кардед?
+signin-password-button-label = Ниҳонвожа
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
@@ -888,6 +952,8 @@ signin-recovery-code-phone-link = Истифодаи телефони барқа
 
 ## SigninRecoveryPhone page
 
+signin-recovery-phone-input-label = Рамзи 6-рақамро ворид кунед
+signin-recovery-phone-resend-code-button = Аз нав фиристодани рамз
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -896,6 +962,7 @@ signin-recovery-code-phone-link = Истифодаи телефони барқа
 ## Users see this page during the signin process. In this instance, the confirmation code is
 ## a 6-digit code that is sent to the user's email address.
 
+signin-token-code-input-label-v2 = Рамзи 6-рақамро ворид кунед
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Тасдиқ кардан
 
@@ -904,6 +971,7 @@ signin-token-code-confirm-button = Тасдиқ кардан
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
 signin-totp-code-header = Ворид шудан
+signin-totp-code-input-label-v4 = Рамзи 6-рақамро ворид кунед
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Тасдиқ кардан
 signin-totp-code-other-account-link = Ҳисоби дигареро истифода баред
@@ -919,6 +987,7 @@ signin-unblock-submit-button = Идома додан
 
 # and a confirmation code has been sent to their email address.
 
+confirm-signup-code-input-label = Рамзи 6-рақамро ворид кунед
 confirm-signup-code-success-alert = Ҳисоб бо муваффақият тасдиқ карда шуд
 
 ## Account Signup page
