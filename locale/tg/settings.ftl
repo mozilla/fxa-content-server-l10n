@@ -409,25 +409,53 @@ avatar-page-rotate-button =
 avatar-page-camera-error = Камераро оғоз карда натавонист
 avatar-page-new-avatar =
     .alt = акси нави профил
+avatar-page-file-upload-error-3 = Ҳангоми боркунии акси профили шумо мушкилӣ ба миён омад
+avatar-page-delete-error-3 = Ҳангоми несткунии акси профили шумо мушкилӣ ба миён омад
 
 ##
 
 
 ## Password change page
 
+pw-change-header =
+    .title = Иваз кардани ниҳонвожа
+pw-change-cancel-button = Бекор кардан
 pw-change-save-button = Нигоҳ доштан
+pw-change-current-password =
+    .label = Ниҳонвожаи ҷориро ворид намоед
+pw-change-new-password =
+    .label = Ниҳонвожаи наверо ворид намоед
+pw-change-confirm-password =
+    .label = Ниҳонвожаи навро тасдиқ намоед
+pw-change-success-alert-2 = Ниҳонвожа аз нав нигоҳ дошта шуд
 
 ##
 
 
 ## Password create page
 
+pw-create-header =
+    .title = Эҷод кардани ниҳонвожа
+pw-create-success-alert-2 = Ниҳонвожа танзим карда шуд
 
 ##
 
 
 ## Delete account page
 
+delete-account-header =
+    .title = Нест кардани ҳисоб
+delete-account-step-1-2 = Қадами 1 аз 2
+delete-account-step-2-2 = Қадами 2 аз 2
+delete-account-product-mozilla-account = { -product-mozilla-account }
+delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
+delete-account-product-mdn-plus = { -product-mdn-plus }
+delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
+delete-account-product-pocket = { -product-pocket }
+delete-account-product-mozilla-monitor = { -product-mozilla-monitor }
+delete-account-product-firefox-relay = { -product-firefox-relay }
+delete-account-product-firefox-sync = Ҳамоҳангсозии маълумоти «{ -brand-firefox }»
+delete-account-product-firefox-addons = Ҷузъҳои иловагии «{ -brand-firefox }»
 
 ##
 
@@ -450,22 +478,52 @@ submit-display-name = Нигоҳ доштан
 ## PageRecoveryPhoneRemove
 ## Users reach this page from account settings when they want to remove a backup phone number.
 
+settings-recovery-phone-remove-button = Тоза кардани рақами телефон
+settings-recovery-phone-remove-cancel = Бекор кардан
 
 ## PageSetupRecoveryPhone
 
+page-setup-recovery-phone-back-button-title = Бозгашт ба Танзимот
 
 ## Add secondary email page
 
+add-secondary-email-step-1 = Қадами 1 аз 2
+add-secondary-email-page-title =
+    .title = Почтаи электронии иловагӣ
+add-secondary-email-enter-address =
+    .label = Нишонии почтаи электрониро ворид намоед
+add-secondary-email-cancel-button = Бекор кардан
 add-secondary-email-save-button = Нигоҳ доштан
 
 ## Verify secondary email page
 
+add-secondary-email-step-2 = Қадами 2 аз 2
+verify-secondary-email-page-title =
+    .title = Почтаи электронии иловагӣ
+verify-secondary-email-verification-code-2 =
+    .label = Рамзи тасдиқкунандаи худро ворид намоед
+verify-secondary-email-cancel-button = Бекор кардан
+verify-secondary-email-verify-button-2 = Тасдиқ кардан
+# This string is a confirmation message shown after verifying an email.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-success-alert-2 = { $email } бо муваффақият илова карда шуд
 
 ##
 
+# Link to delete account on main Settings page
+delete-account-link = Нест кардани ҳисоб
 
 ## Two Step Authentication
 
+tfa-step-1-3 = Қадами 1 аз 3
+tfa-step-2-3 = Қадами 2 аз 3
+tfa-step-3-3 = Қадами 3 аз 3
+tfa-button-continue = Идома додан
+tfa-button-cancel = Бекор кардан
+tfa-button-finish = Анҷом додан
+tfa-qa-code =
+    .alt = { tfa-qa-code-alt }
 
 ##
 
@@ -487,24 +545,52 @@ add-secondary-email-save-button = Нигоҳ доштан
 
 ## SubRow component
 
+# Button to remove a recovery phone from the user's account
+tfa-row-backup-phone-delete-button = Тоза кардан
 
 ## Switch component
 
+# Used as "title" attribute when the switch is "on" and interaction turns the switch to "off"
+switch-turn-off = Хомӯш кардан
+# Used as "title" attribute when the switch is "off" and interaction turns the switch to "on"
+switch-turn-on = Фаъол кардан
+switch-is-on = фаъол
+switch-is-off = ғайрифаъол
 
 ## Sub-section row Defaults
 
+row-defaults-action-add = Илова кардан
+row-defaults-action-change = Тағйир додан
+row-defaults-action-disable = Ғайрифаъол кардан
+row-defaults-status = Ҳеҷ
 
 ## Account recovery key sub-section on main Settings page
 
+rk-header-1 = Калиди барқарорсозии ҳисоб
+rk-enabled = Фаъол аст
+rk-not-set = Танзим нашудааст
+rk-action-create = Эҷод кардан
+# Button to delete the existing account recovery key and create a new one
+rk-action-change-button = Тағйир додан
+rk-action-remove = Тоза кардан
+rk-key-removed-2 = Калиди барқарорсозии ҳисоб тоза карда шуд
 
 ## Secondary email sub-section on main Settings page
 
+se-heading = Почтаи электронии иловагӣ
+    .header = Почтаи электронии иловагӣ
+# Button to remove the secondary email
+se-remove-email =
+    .title = Тоза кардани почтаи электронӣ
+# Default value for the secondary email
+se-secondary-email-none = Ҳеҷ
 
 ##
 
 
 ## Two Step Auth sub-section on Settings main page
 
+tfa-row-enabled = Фаъол аст
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
@@ -513,16 +599,33 @@ add-secondary-email-save-button = Нигоҳ доштан
 ## ThirdPartyAuth component
 ## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
 
+# This appears when a user has the option to authenticate via third party accounts in addition to their Firefox account. 
+# Firefox account login appears on top, and third party options appear on bottom. 
+# This string appears as a separation between the two, in the following order: "Enter your password" "Or"(this string) "Continue with Google"(continue-with-google-button) / "Continue with Apple"(continue-with-apple-button)
+third-party-auth-options-or = ё
 
 ## Auth-server based errors that originate from backend service
 
+auth-error-102 = Ҳисоби номаълум
+auth-error-103 = Ниҳонвожаи нодуруст
+auth-error-105-2 = Рамзи тасдиқкунанда нодуруст аст
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
+# For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
+cannot-create-account-learn-more-link = Маълумоти бештар
 
 ## Connect Another Device page
 
+# A "success" message visible to users who verified via email
+connect-another-device-email-confirmed-banner = Почтаи электронӣ тасдиқ карда шуд
+# A link for the user to sign in to the current Firefox browser, preceded by a message prompting the user to sign in so as to complete the device sync setup
+connect-another-device-signin-link = Ворид шудан
+# This link leads the user back to the `/pair` page so as to connect another device
+connect-another-device-cad-link = Пайваст кардани дастгоҳи дигар
+# This link cancels the process of connecting another device, and takes the user back to Account Settings
+connect-another-device-not-now-link = Ҳоло не
 
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
@@ -530,9 +633,13 @@ add-secondary-email-save-button = Нигоҳ доштан
 
 ## Index / home page
 
+index-cta = Сабти ном кунед ё ворид шавед
+index-email-input =
+    .label = Почтаи электронии худро ворид кунед
 
 ## InlineRecoveryKeySetup page component
 
+inline-recovery-key-setup-recovery-created = Калиди барқарорсозии ҳисоб эҷод карда шуд
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
