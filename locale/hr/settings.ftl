@@ -1395,9 +1395,19 @@ signin-recovery-method-header = Prijavi se
 signin-recovery-code-heading = Prijavi se
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Potvrdi
+signin-recovery-code-use-phone-failure-description = Pokušaj ponovo kasnije.
 
 ## SigninRecoveryPhone page
 
+signin-recovery-phone-flow-heading = Prijavi se
+signin-recovery-phone-input-label = Upiši šesteroznamenkasti kod
+signin-recovery-phone-code-submit-button = Potvrdi
+signin-recovery-phone-resend-code-button = Ponovo pošalji kod
+signin-recovery-phone-resend-success = Kod je poslan
+signin-recovery-phone-send-code-error-heading = Došlo je do greške prilikom slanja koda
+signin-recovery-phone-code-verification-error-heading = Došlo je do greške prilikom provjere tvog koda
+# Follows the error message (e.g, "There was a problem sending a code")
+signin-recovery-phone-general-error-description = Pokušaj ponovo kasnije.
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 

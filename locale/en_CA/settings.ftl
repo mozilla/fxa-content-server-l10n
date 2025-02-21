@@ -637,6 +637,7 @@ flow-setup-phone-confirm-code-button = Confirm
 # followed by a button to resend a code
 flow-setup-phone-confirm-code-expired = Code expired?
 flow-setup-phone-confirm-code-resend-code-button = Resend code
+flow-setup-phone-confirm-code-resend-code-success = Code sent
 flow-setup-phone-confirm-code-success-message-v2 = Recovery phone added
 
 ## FlowSetupPhoneConfirmCode
@@ -709,6 +710,7 @@ tfa-replace-code-success-1 =
     New codes have been created. Save these one-time use
     backup authentication codes in a safe place — you’ll need them to access your account if you don’t
     have your mobile device.
+tfa-replace-code-success-alert-4 = Backup authentication codes updated
 tfa-replace-code-1-2 = Step 1 of 2
 tfa-replace-code-2-2 = Step 2 of 2
 tfa-enter-code-to-confirm-v2 =
@@ -885,10 +887,12 @@ settings-recovery-phone-remove-recommend = We recommend you keep this method bec
 settings-recovery-phone-remove-recovery-methods = If you delete it, make sure you still have your saved backup authentication codes. <linkExternal>Compare recovery methods</linkExternal>
 settings-recovery-phone-remove-button = Remove phone number
 settings-recovery-phone-remove-cancel = Cancel
+settings-recovery-phone-remove-success = Recovery phone removed
 
 ## PageSetupRecoveryPhone
 
 page-setup-recovery-phone-heading = Add recovery phone
+page-setup-recovery-phone-back-button-title = Back to settings
 
 ## Add secondary email page
 
@@ -928,6 +932,8 @@ verify-secondary-email-success-alert-2 = { $email } successfully added
 
 # Link to delete account on main Settings page
 delete-account-link = Delete account
+# Success message displayed in alert bar after the user has successfully confirmed their account is not inactive.
+inactive-update-status-success-alert = Signed in successfully. Your { -product-mozilla-account } and data will stay active.
 
 ## Two Step Authentication
 
@@ -960,6 +966,8 @@ tfa-input-enter-totp-v2 =
 tfa-save-these-codes-1 =
     Save these one-time use backup authentication codes in a safe place for when
     you don’t have your mobile device.
+# codes here refers to backup authentication codes
+tfa-enter-code-to-confirm-setup = Confirm you saved your codes by entering one. Without these codes, you might not be able to sign in if you don’t have your authenticator app.
 tfa-enter-recovery-code-1 =
     .label = Enter a backup authentication code
 
@@ -1021,6 +1029,13 @@ tfa-row-backup-codes-title = Backup authentication codes
 # Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
 # Users that have not enabled or verified 2FA will not see this
 tfa-row-backup-codes-not-available = No codes available
+# $numCodesRemaining - the number of backup authentication codes that have not yet been used (generally between 1 to 5)
+# A different message is shown when no codes are available
+tfa-row-backup-codes-available-v2 =
+    { $numCodesAvailable ->
+        [one] { $numCodesAvailable } code remaining
+       *[other] { $numCodesAvailable } codes remaining
+    }
 # Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
 tfa-row-backup-codes-get-new-cta = Get new codes
 # Shown to users who have no backup authentication codes
@@ -1194,12 +1209,21 @@ auth-error-114-generic = You’ve tried too many times. Please try again later.
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = You've tried too many times. Please try again { $retryAfter }.
 auth-error-125 = The request was blocked for security reasons
+auth-error-129 = Invalid phone number
 auth-error-138-2 = Unconfirmed session
 auth-error-139 = Secondary email must be different than your account email
 auth-error-155 = TOTP token not found
+# Error shown when the user submits an invalid backup authentication code
+auth-error-156 = Backup authentication code not found
 auth-error-159 = Invalid account recovery key
 auth-error-183-2 = Invalid or expired confirmation code
+auth-error-202 = Feature not enabled
+auth-error-203 = System unavailable, try again soon
 auth-error-206 = Can not create password, password already set
+auth-error-214 = Recovery phone number already exists
+auth-error-215 = Recovery phone number does not exist
+auth-error-216 = Text message limit reached
+auth-error-218 = Unable to remove recovery phone, missing backup authentication codes.
 auth-error-999 = Unexpected error
 auth-error-1001 = Login attempt cancelled
 auth-error-1002 = Session expired. Sign in to continue.
@@ -1210,6 +1234,7 @@ auth-error-1011 = Valid email required
 auth-error-1031 = You must enter your age to sign up
 auth-error-1032 = You must enter a valid age to sign up
 auth-error-1054 = Invalid two-step authentication code
+auth-error-1056 = Invalid backup authentication code
 auth-error-1062 = Invalid redirect
 oauth-error-1000 = Something went wrong. Please close this tab and try again.
 
@@ -1645,6 +1670,16 @@ signin-recovery-method-header = Sign in
 signin-recovery-method-subheader = Choose a recovery method
 signin-recovery-method-details = Let’s make sure it’s you using your recovery methods.
 signin-recovery-method-phone = Recovery phone
+signin-recovery-method-code-v2 = Backup authentication codes
+# Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
+signin-recovery-method-code-info-v2 =
+    { $numBackupCodes ->
+        [one] { $numBackupCodes } code remaining
+       *[other] { $numBackupCodes } codes remaining
+    }
+# Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
+signin-recovery-method-send-code-error-heading = There was a problem sending a code to your recovery phone
+signin-recovery-method-send-code-error-description = Please try again later or use your backup authentication codes.
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
@@ -1653,16 +1688,40 @@ signin-recovery-method-phone = Recovery phone
 
 signin-recovery-code-heading = Sign in
 signin-recovery-code-sub-heading = Enter backup authentication code
+# codes here refers to backup authentication codes
+signin-recovery-code-instruction-v3 = Enter one of the one-time-use codes you saved when you set up two-step authentication.
+# code here refers to backup authentication code
+signin-recovery-code-input-label-v2 = Enter 10-character code
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Confirm
+# Link to go to the page to use recovery phone instead
+signin-recovery-code-phone-link = Use recovery phone
 # External link for support if the user can't use two-step autentication or a backup authentication code
 # https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 signin-recovery-code-support-link = Are you locked out?
 # Error displayed in a tooltip when form is submitted witout a code
 signin-recovery-code-required-error = Backup authentication code required
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-recovery-code-use-phone-failure = There was a problem sending a code to your recovery phone
+signin-recovery-code-use-phone-failure-description = Please try again later.
 
 ## SigninRecoveryPhone page
 
+signin-recovery-phone-flow-heading = Sign in
+# A recovery code in context of this page is a one time code sent to the user's phone
+signin-recovery-phone-heading = Enter recovery code
+signin-recovery-phone-input-label = Enter 6-digit code
+signin-recovery-phone-code-submit-button = Confirm
+signin-recovery-phone-resend-code-button = Resend code
+signin-recovery-phone-resend-success = Code sent
+# links to https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+signin-recovery-phone-locked-out-link = Are you locked out?
+signin-recovery-phone-send-code-error-heading = There was a problem sending a code
+signin-recovery-phone-code-verification-error-heading = There was a problem verifying your code
+# Follows the error message (e.g, "There was a problem sending a code")
+signin-recovery-phone-general-error-description = Please try again later.
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
