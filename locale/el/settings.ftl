@@ -471,9 +471,9 @@ alert-bar-close-message = Κλείσιμο μηνύματος
 ## User's avatar
 
 avatar-your-avatar =
-    .alt = Το avatar σας
+    .alt = Η εικόνα σας
 avatar-default-avatar =
-    .alt = Προεπιλεγμένο avatar
+    .alt = Προεπιλεγμένη εικόνα
 
 ##
 
