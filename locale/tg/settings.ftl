@@ -5,19 +5,49 @@
 
 ## Banner component
 
+resend-code-success-banner-heading = Рамзи нав ба почтаи электронии шумо фиристода шуд.
+resend-link-success-banner-heading = Пайванди нав ба почтаи электронии шумо фиристода шуд.
 
 ## Brand Messaging component
 ## Used to show in product messaging about upcoming brand changes
 
+# This aria-label applies to the dismiss/close button of the banner
+# This text is for screen-readers
+brand-banner-dismiss-button-2 =
+    .aria-label = Пӯшидани баннер
+# This is an extra link element, that directs users to a page where they can learn more about the branding changes.
+brand-learn-more = Маълумоти бештар
+# Alt text for close banner image
+brand-close-banner =
+    .alt = Пӯшидани баннер
+# Alt text for 'm' logo in banner header
+brand-m-logo =
+    .alt = Тамғаи «m - { -brand-mozilla }»
 
 ## ButtonBack component
 ## Allows users to click a back arrow to navigate to the previous page
 
+button-back-aria-label = Ба қафо
+button-back-title = Ба қафо
 
 ## ButtonDownloadRecoveryKeyPDF
 ## Clicking on this button downloads a PDF file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
 
+# Button to download the account recovery key as a PDF file and navigate to the next step
+# The next (and final) step is an optional prompt to save a storage hint
+# .title will displayed as a tooltip on the button
+recovery-key-download-button-v3 = Боргирӣ кунед ва идома диҳед
+    .title = Боргирӣ кунед ва идома диҳед
+recovery-key-pdf-heading = Калиди барқарорсозии ҳисоб
+# Date when the account recovery key was created and this file was downloaded
+# { $date }: formatted date with 'medium' dateStyle format (e.g., for 'en': Jul 31, 2023)
+recovery-key-pdf-download-date = Эҷодшуда: { $date }
+# Shown directly above recovery key value and preceeded by a key icon
+recovery-key-pdf-key-legend = Калиди барқарорсозии ҳисоб
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+recovery-key-pdf-storage-ideas-heading = Ҷойҳо барои нигоҳ доштани калиди шумо
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -26,20 +56,75 @@
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
 
+# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
+# That users can choose to sync
+choose-what-to-sync-prompt-2 = Интихоб кунед, ки чӣ ҳамоҳанг карда мешавад
+choose-what-to-sync-option-bookmarks =
+    .label = Хатбаракҳо
+choose-what-to-sync-option-history =
+    .label = Таърих
+choose-what-to-sync-option-passwords =
+    .label = Ниҳонвожаҳо
+choose-what-to-sync-option-addons =
+    .label = Ҷузъҳои иловагӣ
 # Refers to 'tabs that are open', not the action
 choose-what-to-sync-option-tabs =
     .label = Варақаҳои кушодашуда
+choose-what-to-sync-option-prefs =
+    .label = Хусусиятҳо
+choose-what-to-sync-option-addresses =
+    .label = Нишониҳо
+choose-what-to-sync-option-paymentmethods =
+    .label = Тарзҳои пардохт
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
+datablock-download =
+    .message = Боргиришуда
+datablock-copy =
+    .message = Нусхабардоришуда
+datablock-print =
+    .message = Чопшуда
 
 ## DeviceInfoBlock component
 ## The strings here are used to display information about the origin of activity happening on a user's account
 ## For example, when connecting another device to the user's account
 
+# Variables { $city }, { $region }, { $country } represent the estimated location of the user's device
+# For example, 'Vancouver, British Columbia, Canada (estimated)'
+device-info-block-location-city-region-country = { $city }, { $region }, { $country } (тақрибан)
+# Variables { $region }, { $country } represent the estimated location of the user's device
+# For example, 'British Columbia, Canada (estimated)'
+device-info-block-location-region-country = { $region }, { $country } (тақрибан)
+# Variables { $city }, { $country } represent the estimated location of the user's device
+# For example, 'Vancouver, Canada (estimated)'
+device-info-block-location-city-country = { $city }, { $country } (тақрибан)
+# Variable { $country } represent the estimated location of the user's device
+# For example, 'Canada (estimated)'
+device-info-block-location-country = { $country } (тақрибан)
+# When an approximate location for the user's device could not be determined
+device-info-block-location-unknown = Ҷойгиршавӣ номаълум аст
+# Variable { $browserName } is the browser that created the request (e.g., Firefox)
+# Variable { $genericOSName } is the name of the operating system that created the request (e.g., MacOS, Windows, iOS)
+device-info-browser-os = { $browserName } дар { $genericOSName }
+# Variable { $ipAddress } represents the IP address where the request originated
+# The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
+device-info-ip-address = Нишонии «IP»: { $ipAddress }
 
 ## FormPasswordWithBalloons
 
+signup-new-password-label =
+    .label = Ниҳонвожа
+signup-confirm-password-label =
+    .label = Ниҳонвожаро такрор кунед
+signup-submit-button = Эҷод кардани ҳисоб
+form-reset-password-with-balloon-new-password =
+    .label = Ниҳонвожаи нав
+form-reset-password-with-balloon-confirm-password =
+    .label = Ниҳонвожаро аз нав ворид намоед
+form-reset-password-with-balloon-submit-button = Барқарор кардани ниҳонвожа
+form-reset-password-with-balloon-match-error = Ниҳонвожаҳо мувофиқат намекунанд
+form-password-sr-too-short-message = Ниҳонвожа бояд на камтар аз 8 аломат дошта бошад.
 
 ## FormPasswordInlineCriteria
 
@@ -60,6 +145,32 @@ get-data-trio-copy-2 =
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
+# Aria-label option for an alert symbol
+icon-warning-aria-label =
+    .aria-label = Огоҳӣ
+# Used to  indicate a general checkmark, as in something checked off in a list!
+checkmark-icon-aria-label =
+    .aria-label = Ба қайд гирифтан
+# Used to  indicate a check mark for a successful state/action
+checkmark-success-icon-aria-label =
+    .aria-label = Тайёр!
+# Used to indicate a check mark for an enabled state/option
+checkmark-enabled-icon-aria-label =
+    .aria-label = Фаъол аст
+# Used on X icon to dismiss a message such as an alert or banner
+close-icon-aria-label =
+    .aria-label = Пӯшидани паём
+# Used to decorate a code you enter for verification purposes
+code-icon-aria-label =
+    .aria-label = Рамз
+error-icon-aria-label =
+    .aria-label = Хато
+# Used as information icon for informative messaging
+info-icon-aria-label =
+    .aria-label = Маълумот
+# Used to select United States as a country code for phone number
+usa-flag-icon-aria-label =
+    .aria-label = Парчами Иёлоти Муттаҳидаи Амрико
 
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
@@ -72,6 +183,8 @@ get-data-trio-copy-2 =
 
 ## Input Password
 
+# Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will hide the password.
+input-password-hide = Пинҳон кардани ниҳонвожа
 
 ## Phone number component
 
