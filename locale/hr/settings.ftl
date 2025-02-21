@@ -809,9 +809,12 @@ recovery-key-create-back-button-title = Natrag na postavke
 ## PageRecoveryPhoneRemove
 ## Users reach this page from account settings when they want to remove a backup phone number.
 
+settings-recovery-phone-remove-button = Ukloni telefonski broj
+settings-recovery-phone-remove-cancel = Odustani
 
 ## PageSetupRecoveryPhone
 
+page-setup-recovery-phone-back-button-title = Natrag na postavke
 
 ## Add secondary email page
 
@@ -1073,11 +1076,14 @@ auth-error-110 = Nevažeći token
 #                          formatting library (momentjs) as a "time from now" and automatically includes
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Previše pokušaja. Pokušaj ponovo { $retryAfter }.
+auth-error-129 = Neispravan telefonski broj
 auth-error-138-2 = Nepotvrđena sesija
 auth-error-139 = Sekundarna e-mail adresa mora biti drugačija od e-mail adrese računa
 auth-error-155 = TOTP token nije pronađen
 auth-error-159 = Neispravan ključ za obnavljanje računa
 auth-error-183-2 = Neispravan ili istekao potvrdni kod
+auth-error-202 = Funkcija nije aktivirana
+auth-error-203 = Sustav nije dostupan, pokušaj ponovo malo kasnije
 auth-error-999 = Neočekivana greška
 auth-error-1001 = Pokušaj prijave je prekinut
 auth-error-1002 = Vrijeme sesije je isteklo. Prijavi se za nastavljanje.
@@ -1137,6 +1143,10 @@ cookies-disabled-learn-more = Saznaj više
 ## Index / home page
 
 index-header = Upiši svoju e-mail adresu
+# $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
+index-subheader-with-servicename = Nastavi na { $serviceName }
+index-subheader-with-logo = Nastavi na <span>{ $serviceLogo }</span>
+index-subheader-default = Nastavi na postavke računa
 index-cta = Registriraj se ili se prijavi
 index-email-input =
     .label = Upiši svoju e-mail adresu
@@ -1144,6 +1154,7 @@ index-email-input =
 ## InlineRecoveryKeySetup page component
 
 inline-recovery-key-setup-download-header = Zaštiti svoj račun
+inline-recovery-key-setup-download-subheader = Preuzmi i spremi sada
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
@@ -1336,6 +1347,13 @@ signin-link-expired-header = Poveznica potvrde je oštećena
 
 # Strings within the <span> elements appear as a subheading.
 signin-password-needed-header-2 = Upiši svoju lozinku <span>za tvoj { -product-mozilla-account }</span>
+# $serviceLogo - an image of the logo of the service which the user is authenticating for.
+# For languages structured like English, the phrase can read "to continue to"
+signin-subheader-with-logo = Nastavi na <span>{ $serviceLogo }</span>
+# $serviceName - the name of the service which the user authenticating for
+# For languages structured like English, the phrase can read "to continue to { $serviceName }"
+signin-subheader-without-logo-with-servicename = Nastavi na { $serviceName }
+signin-subheader-without-logo-default = Nastavi na postavke računa
 signin-button = Prijavi se
 signin-header = Prijavi se
 signin-use-a-different-account-link = Koristi jedan drugi račun

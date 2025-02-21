@@ -354,6 +354,9 @@ postAddLinkedAccount-subject-2 = Novi račun je povezan s tvojim { -product-mozi
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = Tvoj { $providerName } račun je povezan s tvojim { -product-mozilla-account }
 postAddLinkedAccount-action = Upravljaj računom
+# Links out to a support article about two factor authentication
+postAddRecoveryPhone-how-protect = Kako ovo štiti tvoj račun
+postAddRecoveryPhone-how-protect-plaintext = Kako ovo štiti tvoj račun:
 postAddRecoveryPhone-action = Upravljaj računom
 postAddTwoStepAuthentication-subject-2 = Dvofaktorska autentifikacija aktivirana
 postAddTwoStepAuthentication-title-2 = Aktivirao/la si dvofaktorsku autentifikaciju
@@ -401,6 +404,10 @@ postRemoveTwoStepAuthentication-title-2 = Deaktivirao/la si dvofaktorsku autenti
 postRemoveTwoStepAuthentication-from-device = Dektivirao/la si je s:
 postRemoveTwoStepAuthentication-action = Upravljaj računom
 postRemoveTwoStepAuthentication-not-required-2 = Više ne trebaš sigurnosne kodove od tvoje aplikacije za autentifikaciju kada se prijaviš.
+postSigninRecoveryCode-preview = Potvrdi aktivnost računa
+postSigninRecoveryCode-action = Upravljaj računom
+postSigninRecoveryPhone-preview = Potvrdi aktivnost računa
+postSigninRecoveryPhone-action = Upravljaj računom
 postVerify-title-2 = Želiš vidjeti istu karticu na dva uređaja?
 postVerify-description-2 = Ništa lakše od toga! Jednostavno instaliraj { -brand-firefox } na drugi uređaj i prijavi se za sinkronizaciju. To je poput magije!
 postVerify-sub-description = (Psst … To također znači da možeš pristupiti tvojim zabilješkama, lozinkama i drugim { -brand-firefox } podacima gdje god si prijavljen/a.)
