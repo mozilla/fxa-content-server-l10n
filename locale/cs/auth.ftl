@@ -260,13 +260,13 @@ fraudulentAccountDeletion-contact = Pokud máte nějaké dotazy, kontaktujte pro
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Pokud máte nějaké dotazy, kontaktujte náš tým podpory: { $mozillaSupportUrl }
-inactiveAccountFinalWarning-subject = Poslední šance ponechat si { -product-mozilla-account(case: "acc", capitalization: "lower") }
+inactiveAccountFinalWarning-subject = Poslední šance ponechat si { -product-mozilla-account(capitalization: "lower") }
 inactiveAccountFinalWarning-title = Váš účet { -brand-mozilla } a data budou smazána
 inactiveAccountFinalWarning-preview = Pro zachování účtu se přihlaste
 inactiveAccountFinalWarning-account-description = Váš { -product-mozilla-account } slouží k bezplatnému přístupu k ochraně soukromí a procházení webu jako jsou { -brand-firefox } sync, { -product-mozilla-monitor }, { -product-firefox-relay } a { -product-mdn }.
 # $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
 # This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
-inactiveAccountFinalWarning-impact = Dne <strong>{ $deletionDate }</strong> budou váš účet a vaše osobní data trvale smazána, dokud se nepřihlásíte.
+inactiveAccountFinalWarning-impact = Pokud se nepřihlásíte, bude <strong>{ $deletionDate }</strong> váš účet a vaše osobní data trvale smazána.
 inactiveAccountFinalWarning-action = Přihlaste se a zachovejte si svůj účet
 # followed by link to sign in
 inactiveAccountFinalWarning-action-plaintext = Přihlaste se a zachovejte si svůj účet:
