@@ -550,6 +550,9 @@ display-name-success-alert-2 = Номи намоишӣ нав карда шуд
 recent-activity-account-create-v2 = Ҳисоб эҷод карда шуд
 recent-activity-account-disable-v2 = Ҳисоб ғайрифаъол шуд
 recent-activity-account-enable-v2 = Ҳисоб фаъол шуд
+recent-activity-account-password-added = Ниҳонвожаи нав илова шуд
+recent-activity-account-secondary-email-added = Нишонии почтаи электронии иловагӣ илова шуд
+recent-activity-account-secondary-email-removed = Нишонии почтаи электронии иловагӣ тоза шуд
 
 ## PageRecoveryKeyCreate
 
@@ -647,9 +650,16 @@ security-action-create = Эҷод кардан
 
 ## SubRow component
 
+# Shown to users who have no backup authentication codes
+# Button to add backup authentication codes when none are configured
+tfa-row-backup-codes-add-cta = Илова кардан
 # Recovery phone is a recovery method for two-step authentication
 # A recovery code can be sent to the user's phone
 tfa-row-backup-phone-title-v2 = Телефони барқарорсозӣ
+# button to change the configured recovery phone
+tfa-row-backup-phone-change-cta = Тағйир додан
+# button to add/configure a recovery phone
+tfa-row-backup-phone-add-cta = Илова кардан
 # Button to remove a recovery phone from the user's account
 tfa-row-backup-phone-delete-button = Тоза кардан
 # Shown in tooltip on delete button or delete icon
@@ -704,6 +714,10 @@ se-secondary-email-none = Ҳеҷ
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-enabled = Фаъол аст
+tfa-row-disabled-status = Ғайрифаъол аст
+tfa-row-action-add = Илова кардан
+tfa-row-action-disable = Ғайрифаъол кардан
+tfa-row-disable-modal-confirm = Ғайрифаъол кардан
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
@@ -724,6 +738,7 @@ auth-error-103 = Ниҳонвожаи нодуруст
 auth-error-105-2 = Рамзи тасдиқкунанда нодуруст аст
 auth-error-214 = Рақами телефони барқарорсозӣ аллакай вуҷуд дорад
 auth-error-215 = Рақами телефони барқарорсозӣ вуҷуд надорад
+auth-error-1056 = нусхаи эҳтиётии рамзи санҷиши ҳаққонияти нодуруст
 oauth-error-1000 = Чизе нодуруст иҷро шуд. Лутфан, ин варақаро пӯшед ва баъдтар аз нав кӯшиш кунед.
 
 ## Cannot Create Account page
@@ -747,9 +762,14 @@ connect-another-device-not-now-link = Ҳоло не
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
 
+# A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
+cookies-disabled-button-try-again = Аз нав кӯшиш кардан
+# An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
+cookies-disabled-learn-more = Маълумоти бештар
 
 ## Index / home page
 
+index-header = Почтаи электронии худро ворид кунед
 index-cta = Сабти ном кунед ё ворид шавед
 index-email-input =
     .label = Почтаи электронии худро ворид кунед
@@ -807,12 +827,20 @@ legal-terms-heading = Шартҳои хизматрасонӣ
 
 ## PairAuthComplete page - part of the device pairing flow
 
+# Heading to confirm the successful pairing of a new device with the user's account
+# Device here is non specific (could be a laptop, tablet, phone, etc.)
+pair-auth-complete-heading = Дастгоҳ пайваст шуд
+pair-auth-complete-manage-devices-link = Идоракунии дастгоҳҳо
 
 ## AuthTotp page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during device pairing.
 
 auth-totp-input-label = Рамзи 6-рақамро ворид кунед
+# Form button to confirm if the authentication code entered by the user is valid
+auth-totp-confirm-button = Тасдиқ кардан
+# Error displayed in a tooltip when the form is submitted without a code
+auth-totp-code-required-error = Рамзи санҷиши ҳаққоният лозим аст
 
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -824,6 +852,10 @@ auth-totp-input-label = Рамзи 6-рақамро ворид кунед
 
 ## Pair index page
 
+# Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
+pair-sync-your-device-button = Дастгоҳи худро ҳамоҳанг созед
+# This is a heading element immediately preceded by "Sync your device" and followed by a link and QR code to download Firefox
+pair-or-download-subheader = Ё боргирӣ кунед
 # This allows the user to exit the sync/pair flow, and redirects them back to Settings
 pair-not-now-button = Ҳоло не
 # This initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
@@ -886,6 +918,8 @@ confirm-reset-password-with-code-heading = Почтаи электронии х�
 confirm-reset-password-otp-submit-button = Идома додан
 # Button to request a new reset password confirmation code
 confirm-reset-password-otp-resend-code-button = Аз нав фиристодани рамз
+# Link to cancel the password reset and sign in with a different account
+confirm-reset-password-otp-different-account-link = Ҳисоби дигареро истифода баред
 
 ## PasswordResetConfirmTotp Page
 
@@ -993,4 +1027,5 @@ confirm-signup-code-success-alert = Ҳисоб бо муваффақият та�
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
+signup-heading = Ниҳонвожаи худро танзим кунед
 signup-heading-relay = Эҷод кардани ниҳонвожа
