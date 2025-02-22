@@ -1245,6 +1245,11 @@ auth-error-1032 = Musyśo płaśiwe starstwo zapódaś, aby se registrěrował
 auth-error-1054 = Njepłaśiwy kod za dwójokšacowu awtentifikaciju
 auth-error-1056 = Njepłaśiwy kod za zawěsćeńsku awtentifikaciju
 auth-error-1062 = Njepłaśiwe dalejpósrědnjenje
+# Displayed when we want to reference a user's previously set up recovery phone
+# number, but they are not completely signed in yet. We'll only show the last 4 digits.
+# Variables:
+#  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
+recovery-phone-number-ending-digits = Numer, kótaryž se na { $lastFourPhoneNumber } kóńcy.
 oauth-error-1000 = Něco njejo se raźiło. Pšosym zacyńśo toś ten rejtarik a wopytajśo hyšći raz.
 
 ## Cannot Create Account page

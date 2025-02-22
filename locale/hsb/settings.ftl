@@ -1247,6 +1247,11 @@ auth-error-1032 = Dyrbiće płaćiwu starobu zapodać, zo byšće so registrowa�
 auth-error-1054 = Njepłaćiwy kod za dwukročelowu awtentifikacija
 auth-error-1056 = Njepłaćiwy kod za zawěsćensku awtentifikaciju
 auth-error-1062 = Njepłaćiwe dalesposrědkowanje
+# Displayed when we want to reference a user's previously set up recovery phone
+# number, but they are not completely signed in yet. We'll only show the last 4 digits.
+# Variables:
+#  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
+recovery-phone-number-ending-digits = Čisło, kotrež so na { $lastFourPhoneNumber } kónči.
 oauth-error-1000 = Něšto je so nimokuliło. Prošu začińće tutón rajtark a spytajće hišće raz.
 
 ## Cannot Create Account page
@@ -1725,6 +1730,9 @@ signin-recovery-code-use-phone-failure-description = Prošu spytaj pozdźišo hi
 signin-recovery-phone-flow-heading = Přizjewić
 # A recovery code in context of this page is a one time code sent to the user's phone
 signin-recovery-phone-heading = Wobnowjenski kod zapodać
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+signin-recovery-phone-instruction-v3 = Šěsćměstnowy kod je so na telefonowe čisło pósłał, kotrež so na <span>{ $lastFourPhoneDigits }</span> kónči. Tutón kod za 5 mjeńšin płaćiwosć zhubi. Njezdźělejće nikomu tutón kod.
 signin-recovery-phone-input-label = 6-městnowy kod zapodać
 signin-recovery-phone-code-submit-button = Wobkrućić
 signin-recovery-phone-resend-code-button = Kod znowa słać
