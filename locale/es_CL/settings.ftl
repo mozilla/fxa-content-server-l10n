@@ -862,6 +862,15 @@ recent-activity-account-password-changed = Contraseña cambiada
 recent-activity-account-secondary-email-added = Dirección de correo secundario añadida
 recent-activity-account-secondary-email-removed = Dirección de correo secundario eliminada
 recent-activity-account-emails-swapped = Correos electrónicos primario y secundario intercambiados
+recent-activity-session-destroy = Se desconectó de la sesión
+recent-activity-account-recovery-phone-send-code = Código de recuperación de teléfono enviado
+recent-activity-account-recovery-phone-setup-complete = Se completó la configuración del teléfono de recuperación
+recent-activity-account-recovery-phone-signin-complete = Se completó la conexión mediante el teléfono de recuperación
+recent-activity-account-recovery-phone-signin-failed = Falló la conexión mediante el teléfono de recuperación
+recent-activity-account-recovery-phone-removed = Teléfono de recuperación eliminado
+recent-activity-account-recovery-codes-replaced = Códigos de recuperación reemplazados
+recent-activity-account-recovery-codes-created = Códigos de recuperación creados
+recent-activity-account-recovery-codes-signin-complete = Se completó la conexión mediante el código de recuperación
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Otra actividad de la cuenta
 
@@ -1234,6 +1243,11 @@ auth-error-1032 = Debes poner una edad válida para registrarte
 auth-error-1054 = Código de autenticación en dos pasos incorrecto
 auth-error-1056 = Código de autenticación de respaldo inválido
 auth-error-1062 = Redirección inválida
+# Displayed when we want to reference a user's previously set up recovery phone
+# number, but they are not completely signed in yet. We'll only show the last 4 digits.
+# Variables:
+#  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
+recovery-phone-number-ending-digits = Número que termina en { $lastFourPhoneNumber }
 oauth-error-1000 = Algo se fue a las pailas. Por favor, cierra esta pestaña y vuelve a intentarlo.
 
 ## Cannot Create Account page
