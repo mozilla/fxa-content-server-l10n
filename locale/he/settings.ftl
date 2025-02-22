@@ -826,6 +826,15 @@ recent-activity-account-password-changed = הססמה שונתה
 recent-activity-account-secondary-email-added = נוספה כתובת דוא״ל משנית
 recent-activity-account-secondary-email-removed = הוסרה כתובת דוא״ל משנית
 recent-activity-account-emails-swapped = הוחלפה כתובת הדוא״ל הראשית במשנית
+recent-activity-session-destroy = התנתקת מההפעלה
+recent-activity-account-recovery-phone-send-code = נשלח קוד לטלפון השחזור
+recent-activity-account-recovery-phone-setup-complete = הגדרת טלפון השחזור הושלמה
+recent-activity-account-recovery-phone-signin-complete = התחברות עם טלפון השחזור הושלמה
+recent-activity-account-recovery-phone-signin-failed = התחברות עם טלפון השחזור נכשלה
+recent-activity-account-recovery-phone-removed = הוסר טלפון לשחזור
+recent-activity-account-recovery-codes-replaced = הוחלפו קודים לשחזור
+recent-activity-account-recovery-codes-created = נוצרו קודים לשחזור
+recent-activity-account-recovery-codes-signin-complete = התחברות עם קודים לשחזור הושלמה
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = פעילות אחרת בחשבון
 
@@ -1172,6 +1181,11 @@ auth-error-1031 = עליך להכניס את גילך כדי להשלים את �
 auth-error-1032 = עליך להקליד גיל תקני כדי להירשם
 auth-error-1054 = קוד אימות דו־שלבי לא תקין
 auth-error-1062 = הפנייה לא חוקית
+# Displayed when we want to reference a user's previously set up recovery phone
+# number, but they are not completely signed in yet. We'll only show the last 4 digits.
+# Variables:
+#  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
+recovery-phone-number-ending-digits = מספר המסתיים ב־{ $lastFourPhoneNumber }
 oauth-error-1000 = משהו השתבש. נא לסגור לשונית זו ולנסות שוב.
 
 ## Cannot Create Account page
@@ -1620,6 +1634,9 @@ signin-recovery-code-use-phone-failure-description = נא לנסות שוב מא
 signin-recovery-phone-flow-heading = כניסה
 # A recovery code in context of this page is a one time code sent to the user's phone
 signin-recovery-phone-heading = נא להכניס קוד לשחזור
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+signin-recovery-phone-instruction-v3 = קוד בן שש ספרות נשלח אל מספר הטלפון שמסתיים ב־<span>{ $lastFourPhoneDigits }</span> בהודעת טקסט. קוד זה יפוג לאחר 5 דקות. אין לשתף את הקוד הזה עם אף אחד.
 signin-recovery-phone-input-label = נא להזין קוד בן 6 ספרות
 signin-recovery-phone-code-submit-button = אישור
 signin-recovery-phone-resend-code-button = שליחת הקוד מחדש
