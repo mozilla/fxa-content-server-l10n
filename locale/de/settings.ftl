@@ -863,10 +863,10 @@ recent-activity-account-secondary-email-added = Sekundäre E-Mail-Adresse hinzug
 recent-activity-account-secondary-email-removed = Sekundäre E-Mail-Adresse entfernt
 recent-activity-account-emails-swapped = Primär- und Sekundär-E-Mail-Adresse vertauscht
 recent-activity-session-destroy = Aus Sitzung abgemeldet
-recent-activity-account-recovery-phone-send-code = Telefonnummer zur Wiederherstellung gesendet
-recent-activity-account-recovery-phone-setup-complete = Einrichtung der Telefonnummer zur Wiederherstellung abgeschlossen
-recent-activity-account-recovery-phone-signin-complete = Anmeldung mit Wiederherstellungsnummer abgeschlossen
-recent-activity-account-recovery-phone-signin-failed = Anmeldung mit Wiederherstellungsnummer fehlgeschlagen
+recent-activity-account-recovery-phone-send-code = Telefonnummer zur Kontowiederherstellung gesendet
+recent-activity-account-recovery-phone-setup-complete = Einrichtung der Telefonnummer für Kontowiederherstellung abgeschlossen
+recent-activity-account-recovery-phone-signin-complete = Anmeldung mit Telefonnummer zur Kontowiederherstellung abgeschlossen
+recent-activity-account-recovery-phone-signin-failed = Anmeldung mit Telefonnummer zur Kontowiederherstellung fehlgeschlagen
 recent-activity-account-recovery-phone-removed = Telefonnummer für Kontowiederherstellung entfernt
 recent-activity-account-recovery-codes-replaced = Wiederherstellungscodes ersetzt
 recent-activity-account-recovery-codes-created = Wiederherstellungscodes erstellt
@@ -1723,7 +1723,7 @@ signin-recovery-phone-flow-heading = Anmelden
 signin-recovery-phone-heading = Wiederherstellungscode eingeben
 # Text that explains the user should check their phone for a recovery code
 # $maskedPhoneNumber - The users masked phone number
-signin-recovery-phone-instruction-v3 = Ein sechsstelliger Code wurde an die Telefonnummer, die auf <span>{ $lastFourPhoneDigits }</span> endet, per SMS gesendet. Dieser Code läuft nach 5 Minuten ab. Geben Sie diesen Code an niemanden weiter.
+signin-recovery-phone-instruction-v3 = Ein sechsstelliger Code wurde per SMS an die Telefonnummer gesendet, die auf <span>{ $lastFourPhoneDigits }</span> endet. Dieser Code läuft nach 5 Minuten ab. Geben Sie diesen Code an niemanden weiter.
 signin-recovery-phone-input-label = 6-stelligen Code eingeben
 signin-recovery-phone-code-submit-button = Bestätigen
 signin-recovery-phone-resend-code-button = Code erneut senden
