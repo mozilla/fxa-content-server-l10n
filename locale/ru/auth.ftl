@@ -369,6 +369,9 @@ postAddLinkedAccount-action = Управлять аккаунтом
 postAddRecoveryPhone-subject = Телефон для восстановления добавлен
 postAddRecoveryPhone-preview = Аккаунт защищен двухэтапной аутентификацией
 postAddRecoveryPhone-title = Вы создали номер телефона для восстановления
+# Variables:
+#  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
+postAddRecoveryPhone-description-v2 = Вы добавили { $maskedLastFourPhoneNumber } в качестве номера телефона для восстановления
 # Links out to a support article about two factor authentication
 postAddRecoveryPhone-how-protect = Как это защищает ваш аккаунт
 postAddRecoveryPhone-how-protect-plaintext = Как это защищает ваш аккаунт:
