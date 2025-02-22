@@ -869,7 +869,7 @@ recent-activity-account-recovery-phone-signin-failed = Error al iniciar sesión 
 recent-activity-account-recovery-phone-removed = Teléfono de recuperación eliminado
 recent-activity-account-recovery-codes-replaced = Códigos de recuperación reemplazados
 recent-activity-account-recovery-codes-created = Códigos de recuperación creados
-recent-activity-account-recovery-codes-signin-complete = Inicio de sesión con códigos de recuperación completos
+recent-activity-account-recovery-codes-signin-complete = Inicio de sesión con códigos de recuperación completo
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Otra actividad de la cuenta
 
@@ -1729,7 +1729,7 @@ signin-recovery-phone-flow-heading = Iniciar sesión
 signin-recovery-phone-heading = Ingresá el código de recuperación
 # Text that explains the user should check their phone for a recovery code
 # $maskedPhoneNumber - The users masked phone number
-signin-recovery-phone-instruction-v3 = Se envió un código de seis dígitos al número de teléfono que termina en <span> { $lastFourPhoneDigits }</span> por mensaje de texto. Este código caduca después de 5 minutos. No compartas este código con nadie.
+signin-recovery-phone-instruction-v3 = Se envió un código de seis dígitos al número de teléfono que termina en <span> { $lastFourPhoneDigits }</span> por mensaje de texto. Este código caduca después de 5 minutos. No compartás este código con nadie.
 signin-recovery-phone-input-label = Ingresá el código de 6 dígitos
 signin-recovery-phone-code-submit-button = Confirmar
 signin-recovery-phone-resend-code-button = Reenviar codigo
