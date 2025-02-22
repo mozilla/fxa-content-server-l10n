@@ -865,6 +865,9 @@ recent-activity-account-password-changed = Contrasigno cambiate
 recent-activity-account-secondary-email-added = Adresse email secundari addite
 recent-activity-account-secondary-email-removed = Adresse email secundari removite
 recent-activity-account-emails-swapped = Emails primari e secundari excambiate
+recent-activity-account-recovery-phone-removed = Numero de telephono de recuperation removite
+recent-activity-account-recovery-codes-replaced = Codice de recuperation supplantate
+recent-activity-account-recovery-codes-created = Codices de recuperation create
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Altere activitate de conto
 
