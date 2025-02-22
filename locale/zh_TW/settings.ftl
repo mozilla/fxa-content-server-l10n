@@ -628,7 +628,7 @@ flow-recovery-key-info-cancel-link = 取消
 flow-setup-phone-confirm-code-heading = 請輸入驗證碼
 # $phoneNumber is a partially obfuscated phone number with only the last 4 digits showing (e.g., *** *** 1234)
 # span element applies formatting to ensure the number is always displayed left-to-right
-flow-setup-phone-confirm-code-instruction = 已透過簡訊將六位數的驗證碼發送至尾數為 <span>{ $phoneNumber }</span> 的門號，此驗證碼將於 5 分鐘後失效。
+flow-setup-phone-confirm-code-instruction = 已透過簡訊將六位數的驗證碼發送至尾碼為 <span>{ $phoneNumber }</span> 的門號，此驗證碼將於 5 分鐘後失效。
 flow-setup-phone-confirm-code-input-label = 請輸入六位數的驗證碼
 flow-setup-phone-confirm-code-button = 確認
 # button to resend a code by text message to the user's phone
@@ -857,6 +857,15 @@ recent-activity-account-password-changed = 密碼已修改
 recent-activity-account-secondary-email-added = 已加入次要電子郵件地址
 recent-activity-account-secondary-email-removed = 已刪除次要電子郵件地址
 recent-activity-account-emails-swapped = 已交換主要與次要電子郵件地址
+recent-activity-session-destroy = 已登出使用階段
+recent-activity-account-recovery-phone-send-code = 已傳送救援電話驗證碼
+recent-activity-account-recovery-phone-setup-complete = 救援電話號碼設定完成
+recent-activity-account-recovery-phone-signin-complete = 已使用救援電話號碼登入
+recent-activity-account-recovery-phone-signin-failed = 使用救援電話號碼登入失敗
+recent-activity-account-recovery-phone-removed = 已移除救援電話號碼已移除救援電話號碼
+recent-activity-account-recovery-codes-replaced = 已取代救援碼
+recent-activity-account-recovery-codes-created = 已設定救援碼
+recent-activity-account-recovery-codes-signin-complete = 已使用救援碼登入
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = 其他帳號活動
 
@@ -1215,6 +1224,11 @@ auth-error-1032 = 您必須輸入有效年齡才能註冊
 auth-error-1054 = 無效的兩階段驗證碼
 auth-error-1056 = 備用驗證碼無效
 auth-error-1062 = 重導無效
+# Displayed when we want to reference a user's previously set up recovery phone
+# number, but they are not completely signed in yet. We'll only show the last 4 digits.
+# Variables:
+#  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
+recovery-phone-number-ending-digits = 號碼尾碼為 { $lastFourPhoneNumber }
 oauth-error-1000 = 有些東西不對勁，請關閉此分頁再試一次。
 
 ## Cannot Create Account page
@@ -1682,6 +1696,9 @@ signin-recovery-code-use-phone-failure-description = 請稍候再試。
 signin-recovery-phone-flow-heading = 登入
 # A recovery code in context of this page is a one time code sent to the user's phone
 signin-recovery-phone-heading = 請輸入救援碼
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+signin-recovery-phone-instruction-v3 = 已透過簡訊將六位數驗證碼發送至尾碼為 <span>{ $lastFourPhoneDigits }</span> 的門號，此驗證碼將於 5 分鐘後失效，請勿將此驗證碼提供給任何人。
 signin-recovery-phone-input-label = 請輸入六位數的驗證碼
 signin-recovery-phone-code-submit-button = 確認
 signin-recovery-phone-resend-code-button = 重寄驗證碼

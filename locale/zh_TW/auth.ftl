@@ -365,6 +365,9 @@ postAddLinkedAccount-action = 管理帳號
 postAddRecoveryPhone-subject = 已新增救援電話號碼
 postAddRecoveryPhone-preview = 已透過兩階段驗證機制保護您的帳號
 postAddRecoveryPhone-title = 您已新增救援電話號碼
+# Variables:
+#  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
+postAddRecoveryPhone-description-v2 = 您已將尾碼為 { $maskedLastFourPhoneNumber } 的電話號碼，新增為救援電話號碼
 # Links out to a support article about two factor authentication
 postAddRecoveryPhone-how-protect = 此功能如何保護您的帳號
 postAddRecoveryPhone-how-protect-plaintext = 此功能如何保護您的帳號：
