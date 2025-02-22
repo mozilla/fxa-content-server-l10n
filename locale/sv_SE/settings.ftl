@@ -1722,9 +1722,6 @@ signin-recovery-code-use-phone-failure-description = Försök igen senare.
 signin-recovery-phone-flow-heading = Logga in
 # A recovery code in context of this page is a one time code sent to the user's phone
 signin-recovery-phone-heading = Ange återställningskod
-# Text that explains the user should check their phone for a recovery code
-# $maskedPhoneNumber - The users masked phone number
-signin-recovery-phone-instruction-v2 = En sexsiffrig kod skickades till <span>{ $maskedPhoneNumber }</span> via sms. Denna kod upphör efter 5 minuter. Dela inte den här koden med någon.
 signin-recovery-phone-input-label = Ange 6-siffrig kod
 signin-recovery-phone-code-submit-button = Bekräfta
 signin-recovery-phone-resend-code-button = Skicka koden igen

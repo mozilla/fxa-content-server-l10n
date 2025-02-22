@@ -358,9 +358,6 @@ postAddLinkedAccount-action = Kudeatu kontua
 postAddRecoveryPhone-subject = Berreskuratze telefonoa gehitu da
 postAddRecoveryPhone-preview = Bi urratseko autentifikazioaren bidez babestuta dagoen kontua
 postAddRecoveryPhone-title = Berreskuratze telefono zenbakia sortu duzu
-# Variables:
-#  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
-postAddRecoveryPhone-description = { $maskedLastFourPhoneNumber } gehitu duzu berreskuratzeko telefono gisa
 # Links out to a support article about two factor authentication
 postAddRecoveryPhone-how-protect = Honek zure kontua nola babesten duen
 postAddRecoveryPhone-how-protect-plaintext = Honek zure kontua nola babesten duen:

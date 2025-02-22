@@ -368,9 +368,6 @@ postAddLinkedAccount-action = Account beheren
 postAddRecoveryPhone-subject = Hersteltelefoonnummer toegevoegd
 postAddRecoveryPhone-preview = Account beschermd door authenticatie in twee stappen
 postAddRecoveryPhone-title = U hebt een hersteltelefoonnummer aangemaakt
-# Variables:
-#  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
-postAddRecoveryPhone-description = U hebt { $maskedLastFourPhoneNumber } toegevoegd als uw hersteltelefoonnummer
 # Links out to a support article about two factor authentication
 postAddRecoveryPhone-how-protect = Hoe dit uw account beschermt
 postAddRecoveryPhone-how-protect-plaintext = Hoe dit uw account beschermt:

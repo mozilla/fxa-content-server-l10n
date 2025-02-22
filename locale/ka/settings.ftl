@@ -1720,9 +1720,6 @@ signin-recovery-code-use-phone-failure-description = გთხოვთ სც�
 signin-recovery-phone-flow-heading = შესვლა
 # A recovery code in context of this page is a one time code sent to the user's phone
 signin-recovery-phone-heading = შეიყვანეთ აღდგენის კოდი
-# Text that explains the user should check their phone for a recovery code
-# $maskedPhoneNumber - The users masked phone number
-signin-recovery-phone-instruction-v2 = ექვსციფრიანი კოდი გამოიგზავნა ნომერზე <span>{ $maskedPhoneNumber }</span> ტექსტური შეტყობინებით. კოდს ვადა გაუვა 5 წუთში. არავის გაუზიაროთ.
 signin-recovery-phone-input-label = შეიყვანეთ 6-ციფრიანი კოდი
 signin-recovery-phone-code-submit-button = თანხმობა
 signin-recovery-phone-resend-code-button = კოდის კვლავ გაგზავნა

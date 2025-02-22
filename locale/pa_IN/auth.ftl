@@ -335,9 +335,6 @@ postAddLinkedAccount-action = ਖਾਤੇ ਦਾ ਇੰਤਜ਼ਾਮ ਕਰੋ
 postAddRecoveryPhone-subject = ਰਿਕਵਰੀ ਫ਼ੋਨ ਜੋੜਿਆ ਗਿਆ
 postAddRecoveryPhone-preview = ਖਾਤਾ ਦੋ-ਪੜ੍ਹਾਵੀਂ ਪਰਮਾਣੀਕਰਨ ਨਾਲ ਸੁਰੱਖਿਅਤ ਹੈ
 postAddRecoveryPhone-title = ਤੁਸੀਂ ਰਿਕਵਰੀ ਫ਼ੋਨ ਨੰਬਰ ਬਣਾਇਆ ਹੈ
-# Variables:
-#  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
-postAddRecoveryPhone-description = ਤੁਸੀਂ { $maskedLastFourPhoneNumber } ਨੂੰ ਆਪਣੇ ਰਿਕਵਰੀ ਖਾਤੇ ਵਜੋਂ ਜੋੜਿਆ ਹੈ
 # Links out to a support article about two factor authentication
 postAddRecoveryPhone-how-protect = ਇਹ ਤੁਹਾਡੇ ਖਾਤੇ ਨੂੰ ਸੁਰੱਖਿਅਤ ਕਿਵੇਂ ਕਰਦਾ ਹੈ
 postAddRecoveryPhone-how-protect-plaintext = ਇਹ ਤੁਹਾਡੇ ਖਾਤੇ ਨੂੰ ਸੁਰੱਖਿਅਤ ਕਿਵੇਂ ਕਰਦਾ ਹੈ:

@@ -368,9 +368,6 @@ postAddLinkedAccount-action = Account beheare
 postAddRecoveryPhone-subject = Wersteltelefoannûmer tafoege
 postAddRecoveryPhone-preview = Account beskerme troch twa-stapsautentikaasje
 postAddRecoveryPhone-title = Jo hawwe in wersteltelefoannûmer oanmakke
-# Variables:
-#  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
-postAddRecoveryPhone-description = Jo hawwe { $maskedLastFourPhoneNumber } as jo wersteltelefoannûmer tafoege
 # Links out to a support article about two factor authentication
 postAddRecoveryPhone-how-protect = Hoe dit jo account beskermet
 postAddRecoveryPhone-how-protect-plaintext = Hoe dit jo account beskermet:

@@ -351,9 +351,6 @@ postAddLinkedAccount-action = ניהול חשבון
 postAddRecoveryPhone-subject = נוסף טלפון לשחזור
 postAddRecoveryPhone-preview = החשבון מוגן באמצעות אימות דו־שלבי
 postAddRecoveryPhone-title = יצרת מספר טלפון לשחזור
-# Variables:
-#  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
-postAddRecoveryPhone-description = הוספת את { $maskedLastFourPhoneNumber } כטלפון השחזור שלך
 # Links out to a support article about two factor authentication
 postAddRecoveryPhone-how-protect = כיצד זה מגן על החשבון שלך
 postAddRecoveryPhone-how-protect-plaintext = כיצד זה מגן על החשבון שלך:

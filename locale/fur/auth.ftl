@@ -368,9 +368,6 @@ postAddLinkedAccount-action = Gjestìs account
 postAddRecoveryPhone-subject = Zontât telefon pal recupar dal account
 postAddRecoveryPhone-preview = Account protet de autenticazion in doi passaçs
 postAddRecoveryPhone-title = Tu âs creât un numar di telefon pal recupar dal account
-# Variables:
-#  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
-postAddRecoveryPhone-description = Tu âs zontât { $maskedLastFourPhoneNumber } tant che numar di telefon pal recupar dal account
 # Links out to a support article about two factor authentication
 postAddRecoveryPhone-how-protect = Cemût che al jude a protezi il to account
 postAddRecoveryPhone-how-protect-plaintext = Cemût che al jude a protezi il to account:

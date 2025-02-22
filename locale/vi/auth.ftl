@@ -367,9 +367,6 @@ postAddLinkedAccount-action = Quản lý tài khoản
 postAddRecoveryPhone-subject = Đã thêm số điện thoại khôi phục
 postAddRecoveryPhone-preview = Tài khoản được bảo vệ bằng xác thực hai bước
 postAddRecoveryPhone-title = Bạn đã tạo số điện thoại khôi phục
-# Variables:
-#  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
-postAddRecoveryPhone-description = Bạn đã thêm { $maskedLastFourPhoneNumber } làm số điện thoại khôi phục của mình
 # Links out to a support article about two factor authentication
 postAddRecoveryPhone-how-protect = Tìm hiểu cách mà nó bảo vệ tài khoản của bạn
 postAddRecoveryPhone-how-protect-plaintext = Tìm hiểu cách mà nó bảo vệ tài khoản của bạn:

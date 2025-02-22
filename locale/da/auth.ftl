@@ -358,9 +358,6 @@ postAddLinkedAccount-action = Håndter konto
 postAddRecoveryPhone-subject = Telefonnummer til gendannelse tilføjet
 postAddRecoveryPhone-preview = Konto beskyttet af totrinsgodkendelse
 postAddRecoveryPhone-title = Du har oprettet et telefonnummer til gendannelse af din konto
-# Variables:
-#  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
-postAddRecoveryPhone-description = Du har tilføjet { $maskedLastFourPhoneNumber } som dit telefonnummer til gendannelse
 # Links out to a support article about two factor authentication
 postAddRecoveryPhone-how-protect = Sådan beskytter det din konto
 postAddRecoveryPhone-how-protect-plaintext = Sådan beskytter det din konto:

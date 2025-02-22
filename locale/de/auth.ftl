@@ -368,9 +368,6 @@ postAddLinkedAccount-action = Benutzerkonto verwalten
 postAddRecoveryPhone-subject = Telefonnummer zur Kontowiederherstellung hinzugefügt
 postAddRecoveryPhone-preview = Konto durch Zwei-Schritt-Authentifizierung geschützt
 postAddRecoveryPhone-title = Sie haben eine Telefonnummer zur Kontowiederherstellung erstellt
-# Variables:
-#  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
-postAddRecoveryPhone-description = Sie haben { $maskedLastFourPhoneNumber } als Ihre Telefonnummer zur Kontowiederherstellung hinzugefügt
 # Links out to a support article about two factor authentication
 postAddRecoveryPhone-how-protect = Wie dies Ihr Konto schützt
 postAddRecoveryPhone-how-protect-plaintext = Wie dies Ihr Konto schützt:

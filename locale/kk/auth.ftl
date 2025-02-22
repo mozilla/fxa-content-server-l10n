@@ -327,9 +327,6 @@ postAddLinkedAccount-title-2 = Сіздің { $providerName } тіркелгің
 postAddLinkedAccount-action = Тіркелгіні басқару
 postAddRecoveryPhone-subject = Қалпына келтіру телефоны қосылды
 postAddRecoveryPhone-title = Сіз қалпына келтіру телефон нөмірін жасадыңыз
-# Variables:
-#  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
-postAddRecoveryPhone-description = Сіз қалпына келтіру телефоны ретінде { $maskedLastFourPhoneNumber } нөмірін қостыңыз
 # Links out to a support article about two factor authentication
 postAddRecoveryPhone-how-protect = Бұл сіздің тіркелгіңізді қалай қорғайды
 postAddRecoveryPhone-how-protect-plaintext = Бұл сіздің тіркелгіңізді қалай қорғайды:

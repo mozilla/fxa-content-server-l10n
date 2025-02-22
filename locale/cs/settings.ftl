@@ -1709,9 +1709,6 @@ signin-recovery-code-use-phone-failure-description = Zkuste to prosím později.
 signin-recovery-phone-flow-heading = Přihlásit se
 # A recovery code in context of this page is a one time code sent to the user's phone
 signin-recovery-phone-heading = Zadejte obnovovací kód
-# Text that explains the user should check their phone for a recovery code
-# $maskedPhoneNumber - The users masked phone number
-signin-recovery-phone-instruction-v2 = Na číslo <span>{ $maskedPhoneNumber }</span> byl odeslán šestimístný kód jako textová zpráva. Tento kód vyprší po 5 minutách. Tento kód s nikým nesdílejte.
 signin-recovery-phone-input-label = Zadejte šestimístný kód
 signin-recovery-phone-code-submit-button = Potvrdit
 signin-recovery-phone-resend-code-button = Znovu odeslat kód

@@ -1716,9 +1716,6 @@ signin-recovery-code-use-phone-failure-description = Ju lutemi, riprovoni më vo
 signin-recovery-phone-flow-heading = Hyni
 # A recovery code in context of this page is a one time code sent to the user's phone
 signin-recovery-phone-heading = Jepni kod rikthimi
-# Text that explains the user should check their phone for a recovery code
-# $maskedPhoneNumber - The users masked phone number
-signin-recovery-phone-instruction-v2 = Te <span>{ $maskedPhoneNumber }</span> u dërgua përmes një mesazhi tekst një kod gjashtëshifror. Ky kod skadon pas 5 minutash. Mos ia tregoni kujt këtë kod.
 signin-recovery-phone-input-label = Jepni kodin 6-shifror
 signin-recovery-phone-code-submit-button = Ripohojeni
 signin-recovery-phone-resend-code-button = Ridërgo kodin

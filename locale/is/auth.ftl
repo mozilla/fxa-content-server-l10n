@@ -355,9 +355,6 @@ postAddLinkedAccount-action = Sýsla með aðgang
 postAddRecoveryPhone-subject = Endurheimtusímanúmeri bætt við
 postAddRecoveryPhone-preview = Reikningur er varinn með tveggja-þrepa auðkenningu
 postAddRecoveryPhone-title = Þú útbjóst endurheimtusímanúmer
-# Variables:
-#  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
-postAddRecoveryPhone-description = Þú bættir { $maskedLastFourPhoneNumber } við sem endurheimtusímanúmeri
 # Links out to a support article about two factor authentication
 postAddRecoveryPhone-how-protect = Hvernig þetta verndar reikninginn þinn
 postAddRecoveryPhone-how-protect-plaintext = Hvernig þetta verndar reikninginn þinn:

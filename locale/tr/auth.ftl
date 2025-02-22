@@ -368,9 +368,6 @@ postAddLinkedAccount-action = Hesabı yönet
 postAddRecoveryPhone-subject = Kurtarma telefonu eklendi
 postAddRecoveryPhone-preview = Hesabınız iki aşamalı doğrulamayla korunuyor
 postAddRecoveryPhone-title = Kurtarma telefon numarası oluşturdunuz
-# Variables:
-#  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
-postAddRecoveryPhone-description = { $maskedLastFourPhoneNumber } numarasını kurtarma telefonunuz olarak eklediniz
 # Links out to a support article about two factor authentication
 postAddRecoveryPhone-how-protect = İki aşamalı kimlik doğrulama, hesabınızı nasıl korur?
 postAddRecoveryPhone-how-protect-plaintext = İki aşamalı kimlik doğrulama, hesabınızı nasıl korur?

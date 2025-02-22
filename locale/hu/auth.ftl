@@ -368,9 +368,6 @@ postAddLinkedAccount-action = Fiók kezelése
 postAddRecoveryPhone-subject = Helyreállítási telefonszám hozzáadva
 postAddRecoveryPhone-preview = Kétlépcsős hitelesítéssel védett fiók
 postAddRecoveryPhone-title = Létrehozott egy helyreállítási telefonszámot
-# Variables:
-#  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
-postAddRecoveryPhone-description = Hozzáadta a(z) { $maskedLastFourPhoneNumber } helyreállítási telefonszámot
 # Links out to a support article about two factor authentication
 postAddRecoveryPhone-how-protect = Hogyan védi ez a fiókját
 postAddRecoveryPhone-how-protect-plaintext = Hogyan védi ez a fiókját:

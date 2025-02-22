@@ -1620,9 +1620,6 @@ signin-recovery-code-use-phone-failure-description = נא לנסות שוב מא
 signin-recovery-phone-flow-heading = כניסה
 # A recovery code in context of this page is a one time code sent to the user's phone
 signin-recovery-phone-heading = נא להכניס קוד לשחזור
-# Text that explains the user should check their phone for a recovery code
-# $maskedPhoneNumber - The users masked phone number
-signin-recovery-phone-instruction-v2 = קוד בן שש ספרות נשלח אל <span>{ $maskedPhoneNumber }</span> בהודעת טקסט. קוד זה יפוג לאחר 5 דקות. אין לשתף את הקוד הזה עם אף אחד.
 signin-recovery-phone-input-label = נא להזין קוד בן 6 ספרות
 signin-recovery-phone-code-submit-button = אישור
 signin-recovery-phone-resend-code-button = שליחת הקוד מחדש
