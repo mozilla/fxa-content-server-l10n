@@ -866,6 +866,15 @@ recent-activity-account-password-changed = Đã thay đổi mật khẩu
 recent-activity-account-secondary-email-added = Đã thêm địa chỉ email phụ
 recent-activity-account-secondary-email-removed = Đã xóa địa chỉ email phụ
 recent-activity-account-emails-swapped = Đã hoán đổi giữa địa chỉ email chính và địa chỉ email phụ
+recent-activity-session-destroy = Đã đăng xuất khỏi phiên
+recent-activity-account-recovery-phone-send-code = Mã đã được gửi đến số điện thoại khôi phục
+recent-activity-account-recovery-phone-setup-complete = Đã hoàn tất thiết lập số điện thoại khôi phục
+recent-activity-account-recovery-phone-signin-complete = Đã hoàn tất đăng nhập với số điện thoại khôi phục
+recent-activity-account-recovery-phone-signin-failed = Đăng nhập với số điện thoại khôi phục không thành công
+recent-activity-account-recovery-phone-removed = Đã xóa số điện thoại khôi phục
+recent-activity-account-recovery-codes-replaced = Đã thay thế mã khôi phục
+recent-activity-account-recovery-codes-created = Đã tạo mã khôi phục
+recent-activity-account-recovery-codes-signin-complete = Đã hoàn tất đăng nhập với mã khôi phục
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Hoạt động tài khoản khác
 
@@ -1238,6 +1247,11 @@ auth-error-1032 = Bạn phải nhập tuổi hợp lệ để đăng ký
 auth-error-1054 = Mã xác thực hai bước không hợp lệ
 auth-error-1056 = Mã xác thực dự phòng không hợp lệ
 auth-error-1062 = Chuyển hướng không hợp lệ
+# Displayed when we want to reference a user's previously set up recovery phone
+# number, but they are not completely signed in yet. We'll only show the last 4 digits.
+# Variables:
+#  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
+recovery-phone-number-ending-digits = Số kết thúc bằng { $lastFourPhoneNumber }
 oauth-error-1000 = Đã xảy ra lỗi. Vui lòng đóng thẻ này và thử lại.
 
 ## Cannot Create Account page
@@ -1710,6 +1724,9 @@ signin-recovery-code-use-phone-failure-description = Vui lòng thử lại sau.
 signin-recovery-phone-flow-heading = Đăng nhập
 # A recovery code in context of this page is a one time code sent to the user's phone
 signin-recovery-phone-heading = Nhập mã khôi phục
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+signin-recovery-phone-instruction-v3 = Một mã sáu chữ số đã được gửi đến số điện thoại kết thúc bằng <span>{ $lastFourPhoneDigits }</span> bằng tin nhắn văn bản. Mã này hết hạn sau 5 phút. Đừng chia sẻ mã này với bất cứ ai.
 signin-recovery-phone-input-label = Nhập mã gồm 6 chữ số
 signin-recovery-phone-code-submit-button = Xác nhận
 signin-recovery-phone-resend-code-button = Gửi lại mã
