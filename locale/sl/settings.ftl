@@ -864,6 +864,15 @@ recent-activity-account-password-changed = Spremenjeno geslo
 recent-activity-account-secondary-email-added = Dodan pomožni e-poštni naslov
 recent-activity-account-secondary-email-removed = Odstranjen pomožni e-poštni naslov
 recent-activity-account-emails-swapped = Zamenjana glavni in pomožni e-poštni naslov
+recent-activity-session-destroy = Odjavljeno iz seje
+recent-activity-account-recovery-phone-send-code = Telefonska koda za obnovitev poslana
+recent-activity-account-recovery-phone-setup-complete = Nastavitev obnovitvene telefonske številke končana
+recent-activity-account-recovery-phone-signin-complete = Prijava s telefonsko številko za obnovitev je končana
+recent-activity-account-recovery-phone-signin-failed = Prijava z obnovitveno telefonsko številko ni uspela
+recent-activity-account-recovery-phone-removed = Telefonska številka za obnovitev je odstranjena
+recent-activity-account-recovery-codes-replaced = Kode za obnovitev zamenjane
+recent-activity-account-recovery-codes-created = Kode za obnovitev ustvarjene
+recent-activity-account-recovery-codes-signin-complete = Prijava z dokončanimi obnovitvenimi kodami
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Drugačna dejavnost v računu
 
@@ -1242,6 +1251,11 @@ auth-error-1032 = Za registracijo morate vnesti veljavno starost
 auth-error-1054 = Neveljavna koda za overitev v dveh korakih
 auth-error-1056 = Neveljavna rezervna overitvena koda
 auth-error-1062 = Neveljavna preusmeritev
+# Displayed when we want to reference a user's previously set up recovery phone
+# number, but they are not completely signed in yet. We'll only show the last 4 digits.
+# Variables:
+#  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
+recovery-phone-number-ending-digits = Števila, ki se končuje s { $lastFourPhoneNumber }
 oauth-error-1000 = Nekaj je šlo narobe. Zaprite ta zavihek in poskusite znova.
 
 ## Cannot Create Account page
@@ -1718,6 +1732,9 @@ signin-recovery-code-use-phone-failure-description = Poskusite znova kasneje.
 signin-recovery-phone-flow-heading = Prijava
 # A recovery code in context of this page is a one time code sent to the user's phone
 signin-recovery-phone-heading = Vnesite kodo za obnovitev
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+signin-recovery-phone-instruction-v3 = Na telefonsko številko, ki se končuje s <span>{ $lastFourPhoneDigits }</span>, je bila poslana šestmestna koda v obliki sporočila SMS. Koda poteče po 5 minutah. Ne delite te kode z nikomer.
 signin-recovery-phone-input-label = Vnesite 6-mestno kodo
 signin-recovery-phone-code-submit-button = Potrdi
 signin-recovery-phone-resend-code-button = Znova pošlji kodo

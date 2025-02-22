@@ -868,6 +868,15 @@ recent-activity-account-password-changed = Heslo změněno
 recent-activity-account-secondary-email-added = Přidán záložní e-mail
 recent-activity-account-secondary-email-removed = Odebrán záložní e-mail
 recent-activity-account-emails-swapped = Prohozen hlavní a záložní e-mail
+recent-activity-session-destroy = Byli odhlášeni z relace
+recent-activity-account-recovery-phone-send-code = Obnovovací kód telefonu odeslán
+recent-activity-account-recovery-phone-setup-complete = Nastavení telefonu pro obnovení bylo dokončeno
+recent-activity-account-recovery-phone-signin-complete = Přihlášení pomocí telefonního čísla pro obnovení bylo dokončeno
+recent-activity-account-recovery-phone-signin-failed = Přihlášení pomocí telefonního čísla pro obnovení selhalo
+recent-activity-account-recovery-phone-removed = Telefon pro obnovení byl odebrán
+recent-activity-account-recovery-codes-replaced = Obnovovací kódy byly nahrazeny
+recent-activity-account-recovery-codes-created = Obnovovací kódy byly vytvořeny
+recent-activity-account-recovery-codes-signin-complete = Přihlášení pomocí obnovovacích kódů bylo dokončeno
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Jiná aktivita u účtu
 
@@ -1237,6 +1246,11 @@ auth-error-1032 = Pro registraci musíte zadat platný věk
 auth-error-1054 = Neplatný kód pro dvoufázové ověření
 auth-error-1056 = Neplatný záložní ověřovací kód
 auth-error-1062 = Neplatné přesměrování
+# Displayed when we want to reference a user's previously set up recovery phone
+# number, but they are not completely signed in yet. We'll only show the last 4 digits.
+# Variables:
+#  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
+recovery-phone-number-ending-digits = Číslo končící na { $lastFourPhoneNumber }
 oauth-error-1000 = Nastala nespecifikovaná chyba. Zavřete prosím tento panel a zkuste to znovu.
 
 ## Cannot Create Account page
@@ -1709,6 +1723,9 @@ signin-recovery-code-use-phone-failure-description = Zkuste to prosím později.
 signin-recovery-phone-flow-heading = Přihlásit se
 # A recovery code in context of this page is a one time code sent to the user's phone
 signin-recovery-phone-heading = Zadejte obnovovací kód
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+signin-recovery-phone-instruction-v3 = Na telefonní číslo končící číslicemi <span>{ $lastFourPhoneDigits }</span> byl odeslán šestimístný kód formou textové zprávy. Tento kód vyprší po 5 minutách. Tento kód s nikým nesdílejte.
 signin-recovery-phone-input-label = Zadejte šestimístný kód
 signin-recovery-phone-code-submit-button = Potvrdit
 signin-recovery-phone-resend-code-button = Znovu odeslat kód

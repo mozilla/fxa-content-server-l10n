@@ -862,6 +862,15 @@ recent-activity-account-password-changed = Passwort geändert
 recent-activity-account-secondary-email-added = Sekundäre E-Mail-Adresse hinzugefügt
 recent-activity-account-secondary-email-removed = Sekundäre E-Mail-Adresse entfernt
 recent-activity-account-emails-swapped = Primär- und Sekundär-E-Mail-Adresse vertauscht
+recent-activity-session-destroy = Aus Sitzung abgemeldet
+recent-activity-account-recovery-phone-send-code = Telefonnummer zur Wiederherstellung gesendet
+recent-activity-account-recovery-phone-setup-complete = Einrichtung der Telefonnummer zur Wiederherstellung abgeschlossen
+recent-activity-account-recovery-phone-signin-complete = Anmeldung mit Wiederherstellungsnummer abgeschlossen
+recent-activity-account-recovery-phone-signin-failed = Anmeldung mit Wiederherstellungsnummer fehlgeschlagen
+recent-activity-account-recovery-phone-removed = Telefonnummer für Kontowiederherstellung entfernt
+recent-activity-account-recovery-codes-replaced = Wiederherstellungscodes ersetzt
+recent-activity-account-recovery-codes-created = Wiederherstellungscodes erstellt
+recent-activity-account-recovery-codes-signin-complete = Anmeldung mit Wiederherstellungscodes abgeschlossen
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Andere Kontoaktivitäten
 
@@ -1236,6 +1245,11 @@ auth-error-1032 = Zur Registrierung müssen Sie ein zulässiges Alter eingeben
 auth-error-1054 = Ungültiger Code für Zwei-Schritt-Authentifizierung
 auth-error-1056 = Ungültiger Sicherungs-Authentifizierungscode
 auth-error-1062 = Ungültige Weiterleitung
+# Displayed when we want to reference a user's previously set up recovery phone
+# number, but they are not completely signed in yet. We'll only show the last 4 digits.
+# Variables:
+#  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
+recovery-phone-number-ending-digits = Nummer endet auf { $lastFourPhoneNumber }
 oauth-error-1000 = Etwas ist schiefgegangen. Bitte schließen Sie diesen Tab und versuchen Sie es erneut.
 
 ## Cannot Create Account page
@@ -1707,6 +1721,9 @@ signin-recovery-code-use-phone-failure-description = Bitte versuchen Sie es spä
 signin-recovery-phone-flow-heading = Anmelden
 # A recovery code in context of this page is a one time code sent to the user's phone
 signin-recovery-phone-heading = Wiederherstellungscode eingeben
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+signin-recovery-phone-instruction-v3 = Ein sechsstelliger Code wurde an die Telefonnummer, die auf <span>{ $lastFourPhoneDigits }</span> endet, per SMS gesendet. Dieser Code läuft nach 5 Minuten ab. Geben Sie diesen Code an niemanden weiter.
 signin-recovery-phone-input-label = 6-stelligen Code eingeben
 signin-recovery-phone-code-submit-button = Bestätigen
 signin-recovery-phone-resend-code-button = Code erneut senden

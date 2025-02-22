@@ -372,6 +372,9 @@ postAddLinkedAccount-action = Gestisci account
 postAddRecoveryPhone-subject = Aggiunto telefono per il recupero dell’account
 postAddRecoveryPhone-preview = Account protetto da autenticazione in due passaggi
 postAddRecoveryPhone-title = Hai creato un numero di telefono per il recupero dell’account
+# Variables:
+#  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
+postAddRecoveryPhone-description-v2 = Hai aggiunto { $maskedLastFourPhoneNumber } come numero di telefono di recupero
 # Links out to a support article about two factor authentication
 postAddRecoveryPhone-how-protect = Come aiuta a proteggere il tuo account
 postAddRecoveryPhone-how-protect-plaintext = Come aiuta a proteggere il tuo account:

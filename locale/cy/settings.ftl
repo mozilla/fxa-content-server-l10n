@@ -862,6 +862,15 @@ recent-activity-account-password-changed = Newidiwyd y cyfrinair
 recent-activity-account-secondary-email-added = Ail gyfeiriad e-bost wedi'i ychwanegu
 recent-activity-account-secondary-email-removed = Ail gyfeiriad e-bost wedi'i dynnu
 recent-activity-account-emails-swapped = E-byst cyntaf ac ail wedi'u cyfnewid
+recent-activity-session-destroy = Wedi allgofnodi o'r sesiwn
+recent-activity-account-recovery-phone-send-code = Anfonwyd cod ffôn adfer
+recent-activity-account-recovery-phone-setup-complete = Gosod ffôn adfer wedi'i gwblhau
+recent-activity-account-recovery-phone-signin-complete = Mewngofnodi gyda ffôn adfer wedi'i gwblhau
+recent-activity-account-recovery-phone-signin-failed = Methodd mewngofnodi gyda ffôn adfer
+recent-activity-account-recovery-phone-removed = Ffôn adfer wedi'i dynnu
+recent-activity-account-recovery-codes-replaced = Disodlwyd codau adfer
+recent-activity-account-recovery-codes-created = Codau adfer wedi'u creu
+recent-activity-account-recovery-codes-signin-complete = Cwblhawyd mewngofnodi gyda chodau adfer
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Gweithgarwch cyfrif arall
 
@@ -1240,6 +1249,11 @@ auth-error-1032 = Rhaid rhoi oed dilys er mwyn cofrestru
 auth-error-1054 = Cod dilysu dau gam annilys
 auth-error-1056 = Cod dilysu wrth gefn annilys
 auth-error-1062 = Ailgyfeirio annilys
+# Displayed when we want to reference a user's previously set up recovery phone
+# number, but they are not completely signed in yet. We'll only show the last 4 digits.
+# Variables:
+#  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
+recovery-phone-number-ending-digits = Rhif sy'n gorffen gyda { $lastFourPhoneNumber }
 oauth-error-1000 = Aeth rhywbeth o'i le. Caewch y tab hwn a cheisio eto.
 
 ## Cannot Create Account page
@@ -1715,6 +1729,9 @@ signin-recovery-code-use-phone-failure-description = Ceisiwch eto'n ddiweddarach
 signin-recovery-phone-flow-heading = Mewngofnodi
 # A recovery code in context of this page is a one time code sent to the user's phone
 signin-recovery-phone-heading = Rhowch y cod adfer
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+signin-recovery-phone-instruction-v3 = Anfonwyd cod chwe digid i'r rhif ffôn sy'n gorffen â <span>{ $lastFourPhoneDigits }</span> drwy neges destun. Daw'r cod hwn i ben ar ôl 5 munud. Peidiwch â rhannu’r cod hwn ag unrhyw un.
 signin-recovery-phone-input-label = Rhowch y cod 6 digid
 signin-recovery-phone-code-submit-button = Cadarnhau
 signin-recovery-phone-resend-code-button = Ail-anfon y cod

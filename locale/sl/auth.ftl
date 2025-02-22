@@ -370,6 +370,9 @@ postAddLinkedAccount-action = Upravljanje računa
 postAddRecoveryPhone-subject = Telefonska številka za obnovitev je dodana
 postAddRecoveryPhone-preview = Račun je zaščiten s overjanjem v dveh korakih
 postAddRecoveryPhone-title = Ustvarili ste telefonsko številko za obnovitev
+# Variables:
+#  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
+postAddRecoveryPhone-description-v2 = { $maskedLastFourPhoneNumber } ste dodali kot telefonsko številko za obnovitev
 # Links out to a support article about two factor authentication
 postAddRecoveryPhone-how-protect = Kako to ščiti vaš račun
 postAddRecoveryPhone-how-protect-plaintext = Kako to ščiti vaš račun:

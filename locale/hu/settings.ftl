@@ -868,6 +868,15 @@ recent-activity-account-password-changed = A jelszó megváltozott
 recent-activity-account-secondary-email-added = Másodlagos e-mail-cím hozzáadva
 recent-activity-account-secondary-email-removed = Másodlagos e-mail-cím eltávolítva
 recent-activity-account-emails-swapped = Elsődleges és másodlagos e-mail címek felcserélve
+recent-activity-session-destroy = Kijelentkezett a munkamenetből
+recent-activity-account-recovery-phone-send-code = Helyreállítási telefonszám elküldve
+recent-activity-account-recovery-phone-setup-complete = A helyreállítási telefon beállítása befejeződött
+recent-activity-account-recovery-phone-signin-complete = Bejelentkezés a helyreállítási telefonszámmal befejeződött
+recent-activity-account-recovery-phone-signin-failed = Nem sikerült bejelentkezni a helyreállítási telefonszámmal
+recent-activity-account-recovery-phone-removed = Helyreállítási telefonszám eltávolítva
+recent-activity-account-recovery-codes-replaced = Helyreállítási kódok lecserélve
+recent-activity-account-recovery-codes-created = Helyreállítási kódok létrehozva
+recent-activity-account-recovery-codes-signin-complete = Bejelentkezés a helyreállítási kódokkal befejeződött
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Egyéb fióktevékenység
 
@@ -1244,6 +1253,11 @@ auth-error-1032 = A regisztrációhoz érvényes életkort kell megadnia
 auth-error-1054 = Érvénytelen kétlépcsős hitelesítési kód
 auth-error-1056 = Érvénytelen tartalék hitelesítési kód
 auth-error-1062 = Érvénytelen átirányítás
+# Displayed when we want to reference a user's previously set up recovery phone
+# number, but they are not completely signed in yet. We'll only show the last 4 digits.
+# Variables:
+#  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
+recovery-phone-number-ending-digits = Végleges szám: { $lastFourPhoneNumber }
 oauth-error-1000 = Hiba történt. Zárja be ezt a lapot, és próbálja újra.
 
 ## Cannot Create Account page
@@ -1718,6 +1732,9 @@ signin-recovery-code-use-phone-failure-description = Próbálja meg újra késő
 signin-recovery-phone-flow-heading = Bejelentkezés
 # A recovery code in context of this page is a one time code sent to the user's phone
 signin-recovery-phone-heading = Adja meg a helyreállítási kódot
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+signin-recovery-phone-instruction-v3 = SMS-ben egy hatjegyű kódot küldtek a <span>{ $lastFourPhoneDigits }</span> végű telefonszámra. Ez a kód 5 perc után lejár. Ne ossza meg ezt a kódot másokkal.
 signin-recovery-phone-input-label = Adja meg a 6 számjegyű kódot
 signin-recovery-phone-code-submit-button = Megerősítés
 signin-recovery-phone-resend-code-button = Kód újraküldése
