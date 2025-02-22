@@ -370,6 +370,9 @@ postAddLinkedAccount-action = Konto zastojaś
 postAddRecoveryPhone-subject = Wótnowjeński telefon pśidany
 postAddRecoveryPhone-preview = Konto se pśez dwójokšacowu awtentifikaciju šćita
 postAddRecoveryPhone-title = Sćo napórał numer wótnowjeńskego telefona
+# Variables:
+#  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
+postAddRecoveryPhone-description-v2 = Sćo pśidał { $maskedLastFourPhoneNumber } ako swój wótnowjeński telefonowy numer
 # Links out to a support article about two factor authentication
 postAddRecoveryPhone-how-protect = Kak to wašo konto šćita
 postAddRecoveryPhone-how-protect-plaintext = Kak to wašo konto šćita:

@@ -866,6 +866,11 @@ recent-activity-account-password-changed = Gronidło změnjone
 recent-activity-account-secondary-email-added = Sekundarna e-mailowa adresa pśidana
 recent-activity-account-secondary-email-removed = Sekundarna e-mailowa adresa wótwónoźona
 recent-activity-account-emails-swapped = Primarne a sekundarne e-mailowe adrese su zaměnjone
+recent-activity-session-destroy = Wót pósejźenja wótzjawjony
+recent-activity-account-recovery-phone-send-code = Telefonowy kod za wótnowjenje pósłany
+recent-activity-account-recovery-phone-removed = Wótnowjeński telefon wótwónoźony
+recent-activity-account-recovery-codes-replaced = Wótnowjeński kod wuměnjony
+recent-activity-account-recovery-codes-created = Wótnowjeńske kody napórane
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Druga kontowa aktiwita
 
@@ -1718,6 +1723,9 @@ signin-recovery-code-use-phone-failure-description = Wopytajśo pšosym pózdźe
 signin-recovery-phone-flow-heading = Pśizjawiś
 # A recovery code in context of this page is a one time code sent to the user's phone
 signin-recovery-phone-heading = Wótnowjeński kod zapódaś
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+signin-recovery-phone-instruction-v3 = Šesćměstnowy kod jo se pósłał na telefonowy numer, kótaryž se na <span>{ $lastFourPhoneDigits }</span> kóńcy. Toś ten kod za 5 minutow płaśiwosć zgubijo. Njedajśo nikomu toś ten kod k wěsći.
 signin-recovery-phone-input-label = 6-městnowy kod zapódaś
 signin-recovery-phone-code-submit-button = Wobkšuśiś
 signin-recovery-phone-resend-code-button = Kod znowego słaś
