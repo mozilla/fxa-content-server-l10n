@@ -866,6 +866,11 @@ recent-activity-account-password-changed = Hesło je so změniło
 recent-activity-account-secondary-email-added = Sekundarna e-mejlowa adresa je so přidała
 recent-activity-account-secondary-email-removed = Sekundarna e-mejlowa adresa je so wotstroniła
 recent-activity-account-emails-swapped = Primarne a sekundarne e-mejlowe adresy su zaměnjene
+recent-activity-session-destroy = Wot posedźenja wotzjewjeny
+recent-activity-account-recovery-phone-send-code = Telefonowy kod za wobnowjenje pósłany
+recent-activity-account-recovery-phone-removed = Wobnowjenski telefon wotstronjeny
+recent-activity-account-recovery-codes-replaced = Wobnowjenski kod wuměnjeny
+recent-activity-account-recovery-codes-created = Wobnowjenske kody wutworjene
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Druha kontowa aktiwita
 

@@ -370,6 +370,9 @@ postAddLinkedAccount-action = Konto rjadować
 postAddRecoveryPhone-subject = Wobnowjenski telefon přidaty
 postAddRecoveryPhone-preview = Konto so přez dwukročelowu awtentifikaciju škita
 postAddRecoveryPhone-title = Sće čisło wobnowjenskeho telefona wutworił
+# Variables:
+#  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
+postAddRecoveryPhone-description-v2 = Sće { $maskedLastFourPhoneNumber } jako swoje wobnowjenske telefonowe čisło přidał
 # Links out to a support article about two factor authentication
 postAddRecoveryPhone-how-protect = Kak to waše konto škita
 postAddRecoveryPhone-how-protect-plaintext = Kak to waše konto škita:
