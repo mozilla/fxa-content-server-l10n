@@ -868,9 +868,13 @@ recent-activity-account-secondary-email-removed = Sekundarna e-mailowa adresa w�
 recent-activity-account-emails-swapped = Primarne a sekundarne e-mailowe adrese su zaměnjone
 recent-activity-session-destroy = Wót pósejźenja wótzjawjony
 recent-activity-account-recovery-phone-send-code = Telefonowy kod za wótnowjenje pósłany
+recent-activity-account-recovery-phone-setup-complete = Konfiguracija wótnowjeńskego telefona dokóńcona
+recent-activity-account-recovery-phone-signin-complete = Pśizjawjenje z wótnowjeńskim telefonom dokóńcone
+recent-activity-account-recovery-phone-signin-failed = Pśizjawjenje z wótnowjeńskim telefonom njeraźone
 recent-activity-account-recovery-phone-removed = Wótnowjeński telefon wótwónoźony
 recent-activity-account-recovery-codes-replaced = Wótnowjeński kod wuměnjony
 recent-activity-account-recovery-codes-created = Wótnowjeńske kody napórane
+recent-activity-account-recovery-codes-signin-complete = Pśizjawjenje z wótnowjeńskimi kodami dokóńcone
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Druga kontowa aktiwita
 
