@@ -864,6 +864,15 @@ recent-activity-account-password-changed = Zmieniono hasło
 recent-activity-account-secondary-email-added = Dodano dodatkowy adres e-mail
 recent-activity-account-secondary-email-removed = Usunięto dodatkowy adres e-mail
 recent-activity-account-emails-swapped = Zamieniono główny i dodatkowy adres e-mail
+recent-activity-session-destroy = Wylogowano z sesji
+recent-activity-account-recovery-phone-send-code = Wysłano kod na telefon odzyskiwania
+recent-activity-account-recovery-phone-setup-complete = Ukończono konfigurację telefonu odzyskiwania
+recent-activity-account-recovery-phone-signin-complete = Ukończono logowanie za pomocą telefonu odzyskiwania
+recent-activity-account-recovery-phone-signin-failed = Logowanie za pomocą telefonu odzyskiwania się nie powiodło
+recent-activity-account-recovery-phone-removed = Usunięto telefon odzyskiwania
+recent-activity-account-recovery-codes-replaced = Zastąpiono kody odzyskiwania
+recent-activity-account-recovery-codes-created = Utworzono kody odzyskiwania
+recent-activity-account-recovery-codes-signin-complete = Ukończono logowanie za pomocą kodów odzyskiwania
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Inne działanie na koncie
 
@@ -892,6 +901,7 @@ settings-recovery-phone-remove-success = Usunięto telefon odzyskiwania
 ## PageSetupRecoveryPhone
 
 page-setup-recovery-phone-heading = Dodaj telefon odzyskiwania
+page-setup-recovery-phone-back-button-title = Wróć do ustawień
 
 ## Add secondary email page
 
@@ -967,6 +977,8 @@ tfa-input-enter-totp-v2 =
 tfa-save-these-codes-1 =
     Przechowuj te zapasowe kody uwierzytelniania jednorazowego użytku w bezpiecznym miejscu
     na wypadek sytuacji, w której nie masz swojego telefonu.
+# codes here refers to backup authentication codes
+tfa-enter-code-to-confirm-setup = Potwierdź zachowanie kodów, wpisując jeden z nich. Bez nich możesz nie być w stanie się zalogować, jeśli nie masz aplikacji uwierzytelniającej.
 tfa-enter-recovery-code-1 =
     .label = Wpisz zapasowy kod uwierzytelniania
 
@@ -1028,6 +1040,14 @@ tfa-row-backup-codes-title = Zapasowe kody uwierzytelniania
 # Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
 # Users that have not enabled or verified 2FA will not see this
 tfa-row-backup-codes-not-available = Brak dostępnych kodów
+# $numCodesRemaining - the number of backup authentication codes that have not yet been used (generally between 1 to 5)
+# A different message is shown when no codes are available
+tfa-row-backup-codes-available-v2 =
+    { $numCodesAvailable ->
+        [one] Został { $numCodesAvailable } kod
+        [few] Zostały { $numCodesAvailable } kody
+       *[many] Zostało { $numCodesAvailable } kodów
+    }
 # Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
 tfa-row-backup-codes-get-new-cta = Uzyskaj nowe kody
 # Shown to users who have no backup authentication codes

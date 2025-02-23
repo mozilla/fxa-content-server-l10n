@@ -2,6 +2,16 @@
 
 session-verify-send-push-title-2 = Logujesz się na { -product-mozilla-account(case: "acc", capitalization: "lower") }?
 session-verify-send-push-body-2 = Kliknij tutaj, aby potwierdzić, że to Ty
+# Message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to verify phone ownership when registering a recovery phone
+recovery-phone-setup-sms-body = { $code } to Twój kod weryfikacyjny { -brand-mozilla(case: "gen") }. Wygasa w ciągu 5 minut.
+# Message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to sign in with a recovery phone as backup for two-step authentication
+recovery-phone-signin-sms-body = { $code } to Twój kod odzyskiwania { -brand-mozilla(case: "gen") }. Wygasa w ciągu 5 minut.
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
@@ -364,6 +374,9 @@ postAddLinkedAccount-action = Zarządzaj kontem
 postAddRecoveryPhone-subject = Dodano telefon odzyskiwania
 postAddRecoveryPhone-preview = Konto chronione przez uwierzytelnianie dwuetapowe
 postAddRecoveryPhone-title = Utworzono numer telefonu odzyskiwania
+# Variables:
+#  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
+postAddRecoveryPhone-description-v2 = Dodano { $maskedLastFourPhoneNumber } jako numer telefonu odzyskiwania
 # Links out to a support article about two factor authentication
 postAddRecoveryPhone-how-protect = W jaki sposób chroni to Twoje konto
 postAddRecoveryPhone-how-protect-plaintext = W jaki sposób chroni to Twoje konto:
