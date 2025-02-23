@@ -859,10 +859,15 @@ recent-activity-account-password-changed = 更改密码
 recent-activity-account-secondary-email-added = 绑定备用邮箱
 recent-activity-account-secondary-email-removed = 移除备用邮箱
 recent-activity-account-emails-swapped = 主邮箱与备用邮箱调换
-recent-activity-session-destroy = 已退出会话
-recent-activity-account-recovery-phone-setup-complete = 恢复电话号码设置已完成
-recent-activity-account-recovery-phone-signin-complete = 已使用恢复电话号码登录
-recent-activity-account-recovery-phone-removed = 已移除恢复电话号码
+recent-activity-session-destroy = 退出会话
+recent-activity-account-recovery-phone-send-code = 向恢复电话号码发送验证码
+recent-activity-account-recovery-phone-setup-complete = 恢复电话号码设置完成
+recent-activity-account-recovery-phone-signin-complete = 使用恢复电话号码登录完成
+recent-activity-account-recovery-phone-signin-failed = 使用恢复电话号码登录失败
+recent-activity-account-recovery-phone-removed = 移除恢复电话号码
+recent-activity-account-recovery-codes-replaced = 替换恢复验证码
+recent-activity-account-recovery-codes-created = 创建恢复验证码
+recent-activity-account-recovery-codes-signin-complete = 使用恢复验证码登录
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = 其他账户活动
 
