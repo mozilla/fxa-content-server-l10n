@@ -863,6 +863,15 @@ recent-activity-account-password-changed = Parola değiştirildi
 recent-activity-account-secondary-email-added = İkinci e-posta adresi eklendi
 recent-activity-account-secondary-email-removed = İkinci e-posta adresi kaldırıldı
 recent-activity-account-emails-swapped = Birinci ve ikinci e-postalar birbirleriyle değiştirildi
+recent-activity-session-destroy = Oturum kapatıldı
+recent-activity-account-recovery-phone-send-code = Kurtarma telefon kodu gönderildi
+recent-activity-account-recovery-phone-setup-complete = Kurtarma telefonu kurulumu tamamlandı
+recent-activity-account-recovery-phone-signin-complete = Kurtarma telefonuyla giriş tamamlandı
+recent-activity-account-recovery-phone-signin-failed = Kurtarma telefonuyla giriş başarısız oldu
+recent-activity-account-recovery-phone-removed = Kurtarma telefonu kaldırıldı
+recent-activity-account-recovery-codes-replaced = Kurtarma kodları değiştirildi
+recent-activity-account-recovery-codes-created = Kurtarma kodları oluşturuldu
+recent-activity-account-recovery-codes-signin-complete = Kurtarma kodlarıyla giriş tamamlandı
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Diğer hesap etkinlikleri
 
@@ -1227,6 +1236,11 @@ auth-error-1032 = Kaydolmak için geçerli bir yaş belirtmelisiniz
 auth-error-1054 = İki aşamalı kimlik doğrulama kodu geçersiz
 auth-error-1056 = Geçersiz yedek kimlik doğrulama kodu
 auth-error-1062 = Geçersiz yönlendirme
+# Displayed when we want to reference a user's previously set up recovery phone
+# number, but they are not completely signed in yet. We'll only show the last 4 digits.
+# Variables:
+#  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
+recovery-phone-number-ending-digits = { $lastFourPhoneNumber } ile biten numara
 oauth-error-1000 = Bir şeyler yanlış gitti. Lütfen bu sekmeyi kapatıp yeniden deneyin.
 
 ## Cannot Create Account page
@@ -1698,6 +1712,9 @@ signin-recovery-code-use-phone-failure-description = Lütfen daha sonra yeniden 
 signin-recovery-phone-flow-heading = Giriş yap
 # A recovery code in context of this page is a one time code sent to the user's phone
 signin-recovery-phone-heading = Kurtarma kodunu girin
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+signin-recovery-phone-instruction-v3 = <span>{ $lastFourPhoneDigits }</span> ile biten telefon numarasına kısa mesajla altı haneli bir kod gönderdik. Bu kodun geçerlilik süresi 5 dakikadır. Kodu hiç kimseyle paylaşmayın.
 signin-recovery-phone-input-label = 6 basamaklı kodu girin
 signin-recovery-phone-code-submit-button = Onayla
 signin-recovery-phone-resend-code-button = Kodu yeniden gönder
