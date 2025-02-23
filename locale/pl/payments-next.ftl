@@ -6,6 +6,9 @@ next-payment-error-manage-subscription-button = Zarządzaj moją subskrypcją
 next-iap-upgrade-contact-support = Nadal możesz otrzymać ten produkt — prosimy o kontakt z zespołem wsparcia, abyśmy mogli Ci pomóc.
 next-payment-error-retry-button = Spróbuj ponownie
 next-basic-error-message = Coś się nie powiodło. Proszę spróbować ponownie później.
+checkout-error-contact-support-button = Skontaktuj się z pomocą
+checkout-error-not-eligible = Nie kwalifikujesz się do subskrypcji tego produktu — prosimy o kontakt z zespołem wsparcia, abyśmy mogli Ci pomóc.
+checkout-error-contact-support = Prosimy o kontakt z zespołem wsparcia, abyśmy mogli Ci pomóc.
 
 ## Page
 
