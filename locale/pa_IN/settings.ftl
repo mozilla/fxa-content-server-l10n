@@ -801,6 +801,15 @@ recent-activity-account-password-changed = ਪਾਸਵਰਡ ਬਦਲਿਆ
 recent-activity-account-secondary-email-added = ਸਹਾਇਕ ਈਮੇਲ ਸਿਰਨਾਵਾਂ ਜੋੜਿਆ ਗਿਆ
 recent-activity-account-secondary-email-removed = ਸਹਾਇਕ ਈਮੇਲ ਸਿਰਨਾਵਾਂ ਹਟਾਇਆ ਗਿਆ
 recent-activity-account-emails-swapped = ਮੂਲ ਅਤੇ ਸਹਾਇਕ ਈਮੇਲ ਆਪਸ ਵਿੱਚ ਬਦਲੇ ਗਏ
+recent-activity-session-destroy = ਸ਼ੈਸ਼ਨ ਤੋਂ ਲਾਗ ਆਉਟ ਕੀਤਾ
+recent-activity-account-recovery-phone-send-code = ਰਿਕਵਰੀ ਫ਼ੋਨ ਕੋਡ ਭੇਜਿਆ
+recent-activity-account-recovery-phone-setup-complete = ਰਿਕਵਰੀ ਫ਼ੋਨ ਸੈਟਅੱਪ ਪੂਰਾ ਕੀਤਾ
+recent-activity-account-recovery-phone-signin-complete = ਰਿਕਵਰੀ ਫ਼ੋਨ ਨਾਲ ਸਾਈਨ ਇਨ ਕਰਨਾ ਪੂਰਾ ਹੋਇਆ
+recent-activity-account-recovery-phone-signin-failed = ਰਿਕਵਰੀ ਫ਼ੋਨ ਨਾਲ ਸਾਈਨ ਇਨ ਕਰਨਾ ਫ਼ੇਲ੍ਹ ਹੈ
+recent-activity-account-recovery-phone-removed = ਰਿਕਵਰੀ ਫ਼ੋਨ ਨੂੰ ਹਟਾਇਆ ਗਿਆ
+recent-activity-account-recovery-codes-replaced = ਰਿਕਵਰੀ ਕੋਡਾਂ ਨੂੰ ਬਦਲਿਆ ਗਿਆ
+recent-activity-account-recovery-codes-created = ਰਿਕਵਰੀ ਕੋਡ ਬਣਾਏ ਗਏ
+recent-activity-account-recovery-codes-signin-complete = ਰਿਕਵਰੀ ਕੋਡਾਂ ਨਾਲ ਸਾਈਨ ਇਨ ਕਰਨਾ ਪੂਰਾ ਹੋਇਆ
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = ਹੋਰ ਖਾਤਾ ਸਰਗਰਮੀ
 
@@ -1552,6 +1561,13 @@ signin-push-code-confirm-link-error = ਲਿੰਕ ਨੁਕਾਸਿਆ ਗਿ�
 signin-recovery-method-header = ਸਾਈਨ ਇਨ
 signin-recovery-method-subheader = ਰਿਕਵਰੀ ਢੰਗ ਚੁਣੋ
 signin-recovery-method-phone = ਰਿਕਵਰੀ ਫ਼ੋਨ
+signin-recovery-method-code-v2 = ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ
+# Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
+signin-recovery-method-code-info-v2 =
+    { $numBackupCodes ->
+        [one] { $numberOfCodes } ਕੋਡ ਬਾਕੀ ਹੈ
+       *[other] { $numberOfCodes } ਕੋਡ ਬਾਕੀ ਹਨ
+    }
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
@@ -1560,16 +1576,22 @@ signin-recovery-method-phone = ਰਿਕਵਰੀ ਫ਼ੋਨ
 
 signin-recovery-code-heading = ਸਾਈਨ ਇਨ
 signin-recovery-code-sub-heading = ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਦਿਓ
+# code here refers to backup authentication code
+signin-recovery-code-input-label-v2 = 10-ਅੰਕ ਦਾ ਕੋਡ ਦਿਓ
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = ਤਸਦੀਕ
+# Link to go to the page to use recovery phone instead
+signin-recovery-code-phone-link = ਰਿਕਵਰੀ ਫ਼ੋਨ ਨੂੰ ਵਰਤੋ
 # External link for support if the user can't use two-step autentication or a backup authentication code
 # https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 signin-recovery-code-support-link = ਕੀ ਤੁਸੀਂ ਲਾਕ-ਆਉਟ ਹੋ ਚੁੱਕੇ ਹੋ?
 # Error displayed in a tooltip when form is submitted witout a code
 signin-recovery-code-required-error = ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਚਾਹੀਦਾ ਹੈ
+signin-recovery-code-use-phone-failure-description = ਬਾਅਦ ਵਿੱਚ ਕੋਸ਼ਿਸ ਕਰੋ ਜੀ।
 
 ## SigninRecoveryPhone page
 
+signin-recovery-phone-flow-heading = ਸਾਈਨ ਇਨ
 signin-recovery-phone-code-submit-button = ਤਸਦੀਕ
 signin-recovery-phone-resend-code-button = ਕੋਡ ਮੁੜ ਕੇ ਭੇਜੋ
 signin-recovery-phone-resend-success = ਕੋਡ ਭੇਜਿਆ

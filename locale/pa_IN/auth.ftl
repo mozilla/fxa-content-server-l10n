@@ -2,6 +2,16 @@
 
 session-verify-send-push-title-2 = ਤੁਹਾਡੇ { -product-mozilla-account } ਵਿੱਚ ਲਾਗ ਇਨ ਕਰਨਾ ਹੈ?
 session-verify-send-push-body-2 = ਇਹ ਤੁਸੀਂ ਹੀ ਹੋ, ਇਹ ਤਸਦੀਕ ਕਰਨ ਲਈ ਇੱਥੇ ਕਲਿੱਕ ਕਰੋ
+# Message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to verify phone ownership when registering a recovery phone
+recovery-phone-setup-sms-body = { $code } ਤੁਹਾਡਾ { -brand-mozilla } ਤਸਦੀਕੀਕਰਨ ਕੋਡ ਹੈ। ਇਸ ਦੀ ਮਿਆਦ 5 ਮਿੰਟਾਂ ਵਿੱਚ ਪੁੱਗ ਜਾਵੇਗੀ।
+# Message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to sign in with a recovery phone as backup for two-step authentication
+recovery-phone-signin-sms-body = { $code } ਤੁਹਾਡਾ { -brand-mozilla } ਰਿਕਵਰੀ ਕੋਡ ਹੈ। ਇਸ ਦੀ ਮਿਆਦ 5 ਮਿੰਟਾਂ ਵਿੱਚ ਪੁੱਗ ਜਾਵੇਗੀ।
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
@@ -49,6 +59,7 @@ subplat-legal = ਕਨੂੰਨੀ
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = ਪਰਦੇਦਾਰੀ
 subplat-privacy-website-plaintext = { subplat-privacy }:
+account-deletion-info-block-communications = ਜੇ ਤੁਹਾਡੇ ਖਾਤੇ ਨੂੰ ਹਟਾ ਦਿੱਤਾ ਗਿਆ ਤਾਂ ਤੁਸੀਂ ਹਾਲੇ ਵੀ Mozilla Corporation ਅਤੇ Mozilla Foundation ਤੋਂ ਈਮੇਲਾਂ ਪ੍ਰਾਪਤ ਕਰਦੇ ਰਹੋਗੇ, ਜਦ ਤੱਕ ਕਿ ਤੁਸੀਂ <a data-l10n-name="unsubscribeLink">ਮੈਂਬਰੀ ਨੂੰ ਨਹੀ ਹਟਾ</a> ਦਿੰਦੇ ਹੋ।
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-android-badge = <img data-l10n-name="google-play-badge" alt="{ -google-play } ਉੱਤੇ { $productName } ਡਾਊਨਲੋਡ ਕਰੋ">
@@ -395,6 +406,14 @@ postSigninRecoveryCode-subject = ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ 
 postSigninRecoveryCode-preview = ਖਾਤਾ ਸਰਗਰਮੀ ਨੂੰ ਤਸਦੀਕ ਕਰੋ
 postSigninRecoveryCode-title = ਤੁਹਾਡੇ ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਨੂੰ ਸਾਈਨ ਇਨ ਕਰਨ ਲਈ ਵਰਤਿਆ ਗਿਆ ਸੀ
 postSigninRecoveryCode-description = ਜੇ ਤੁਸੀਂ ਇਹ ਨਹੀਂ ਕੀਤਾ ਹੈ ਤਾਂ ਤੁਹਾਨੂੰ ਆਪਣੇ ਖਾਤੇ ਨੂੰ ਸੁਰੱਖਿਅਤ ਰੱਖਣ ਲਈ ਆਪਣੇ ਪਾਸਵਰਡ ਨੂੰ ਫ਼ੌਰਨ ਬਦਲਣਾ ਚਾਹੀਦਾ ਹੈ।
+postSigninRecoveryCode-device = ਤੁਸੀਂ ਇਸ ਤੋਂ ਸਾਈਨ ਇਨ ਕੀਤਾ:
+postSigninRecoveryCode-action = ਖਾਤੇ ਦਾ ਇੰਤਜ਼ਾਮ ਕਰੋ
+postSigninRecoveryPhone-subject = ਸਾਈਨ ਇਨ ਕਰਨ ਲਈ ਵਰਤਿਆ ਰਿਕਵਰੀ ਫ਼ੋਨ
+postSigninRecoveryPhone-preview = ਖਾਤਾ ਸਰਗਰਮੀ ਨੂੰ ਤਸਦੀਕ ਕਰੋ
+postSigninRecoveryPhone-title = ਸਾਈਨ ਇਨ ਕਰਨ ਲਈ ਤੁਹਾਡੇ ਰਿਕਵਰੀ ਫ਼ੋਨ ਨੂੰ ਵਰਤਿਆ ਗਿਆ ਸੀ
+postSigninRecoveryPhone-description = ਜੇ ਤੁਸੀਂ ਇਹ ਨਹੀਂ ਕੀਤਾ ਹੈ ਤਾਂ ਤੁਹਾਨੂੰ ਆਪਣੇ ਖਾਤੇ ਨੂੰ ਸੁਰੱਖਿਅਤ ਰੱਖਣ ਲਈ ਆਪਣੇ ਪਾਸਵਰਡ ਨੂੰ ਫ਼ੌਰਨ ਬਦਲਣਾ ਚਾਹੀਦਾ ਹੈ।
+postSigninRecoveryPhone-device = ਤੁਸੀਂ ਇਸ ਤੋਂ ਸਾਈਨ ਇਨ ਕੀਤਾ:
+postSigninRecoveryPhone-action = ਖਾਤੇ ਦਾ ਇੰਤਜ਼ਾਮ ਕਰੋ
 postVerify-sub-title-3 = ਸਾਨੂੰ ਤੁਹਾਨੂੰ ਮਿਲ ਕੇ ਖੁਸ਼ੀ ਹੋਈ!
 postVerify-title-2 = ਦੋ ਡਿਵਾਈਸਾਂ ਉੱਤੇ ਇੱਕੋ ਟੈਬ ਵੇਖਣੀ ਚਾਹੁੰਦੇ ਹੋ?
 postVerify-description-2 = ਸੌਖਾ ਹੀ ਹੈ! ਹੋਰ ਡਿਵਾਈਸ ਉੱਤੇ { -brand-firefox } ਇੰਸਟਾਲ ਕਰੋ ਤੇ ਸਿੰਕ ਕਰਨ ਲਈ ਲਾਗਇਨ ਕਰੋ। ਜਾਦੂ ਮੰਤਰ ਵਾਗੂੰ!

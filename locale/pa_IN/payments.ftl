@@ -107,6 +107,7 @@ payment-error-manage-subscription-button = ਮੇਰੀ ਮੈਂਬਰੀ ਦ�
 ## Component - PaymentErrorView - IAP upgrade errors
 
 iap-upgrade-no-bundle-support = ਅਸੀਂ ਇਹਨਾਂ ਮੈਂਬਰੀਆਂ ਤੋਂ ਅੱਪਗਰੇਡ ਕਰਨ ਲਈ ਸਹਾਇਕ ਨਹੀਂ ਹਨ, ਪਰ ਛੇਤੀ ਹੀ ਹੋਵਾਂਗੇ।
+iap-upgrade-contact-support = ਤੁਸੀਂ ਹਾਲੇ ਵੀ ਇਹ ਉਤਪਾਦ ਨੂੰ ਲੈ ਸਕਦੇ ਹੋ — ਸਾਡੀ ਸਹਾਇਤਾ ਨਾਲ ਸੰਪਰਕ ਕਰੋ ਤਾਂ ਕਿ ਅਸੀਂ ਤੁਹਾਡੀ ਮਦਦ ਸਕੀਏ।
 iap-upgrade-get-help-button = ਮਦਦ ਲਵੋ
 
 ## Component - PaymentForm
@@ -223,6 +224,17 @@ price-details-tax-day =
         { $intervalCount ->
             [one] { $priceAmount } + { $taxAmount } ਟੈਕਸ ਰੋਜ਼
            *[other] { $priceAmount } + { $taxAmount } ਟੈਕਸ ਹਰ{ $intervalCount } ਦਿਨ
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+price-details-tax-week =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } ਟੈਕਸ ਹਫ਼ਤੇਵਾਰ
+       *[other] { $priceAmount } + { $taxAmount } ਟੈਕਸ ਹਰ { $intervalCount } ਹਫ਼ਤੇ
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } ਟੈਕਸ ਹਫ਼ਤੇਵਾਰ
+           *[other] { $priceAmount } + { $taxAmount } ਟੈਕਸ ਹਰ { $intervalCount } ਹਫ਼ਤੇ
         }
 # $intervalCount (Number) - The interval between payments, in years.
 price-details-tax-year =
