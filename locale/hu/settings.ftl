@@ -870,13 +870,13 @@ recent-activity-account-secondary-email-removed = Másodlagos e-mail-cím eltáv
 recent-activity-account-emails-swapped = Elsődleges és másodlagos e-mail címek felcserélve
 recent-activity-session-destroy = Kijelentkezett a munkamenetből
 recent-activity-account-recovery-phone-send-code = Helyreállítási telefonszám elküldve
-recent-activity-account-recovery-phone-setup-complete = A helyreállítási telefon beállítása befejeződött
-recent-activity-account-recovery-phone-signin-complete = Bejelentkezés a helyreállítási telefonszámmal befejeződött
+recent-activity-account-recovery-phone-setup-complete = Helyreállítási telefonszám beállítása befejezve
+recent-activity-account-recovery-phone-signin-complete = Bejelentkezés a helyreállítási telefonszámmal befejezve
 recent-activity-account-recovery-phone-signin-failed = Nem sikerült bejelentkezni a helyreállítási telefonszámmal
 recent-activity-account-recovery-phone-removed = Helyreállítási telefonszám eltávolítva
 recent-activity-account-recovery-codes-replaced = Helyreállítási kódok lecserélve
 recent-activity-account-recovery-codes-created = Helyreállítási kódok létrehozva
-recent-activity-account-recovery-codes-signin-complete = Bejelentkezés a helyreállítási kódokkal befejeződött
+recent-activity-account-recovery-codes-signin-complete = Bejelentkezés a helyreállítási kódokkal befejezve
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Egyéb fióktevékenység
 
@@ -1257,7 +1257,7 @@ auth-error-1062 = Érvénytelen átirányítás
 # number, but they are not completely signed in yet. We'll only show the last 4 digits.
 # Variables:
 #  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
-recovery-phone-number-ending-digits = Végleges szám: { $lastFourPhoneNumber }
+recovery-phone-number-ending-digits = { $lastFourPhoneNumber } végű szám
 oauth-error-1000 = Hiba történt. Zárja be ezt a lapot, és próbálja újra.
 
 ## Cannot Create Account page
