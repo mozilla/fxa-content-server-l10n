@@ -978,7 +978,7 @@ tfa-save-these-codes-1 =
     Przechowuj te zapasowe kody uwierzytelniania jednorazowego użytku w bezpiecznym miejscu
     na wypadek sytuacji, w której nie masz swojego telefonu.
 # codes here refers to backup authentication codes
-tfa-enter-code-to-confirm-setup = Potwierdź zachowanie kodów, wpisując jeden z nich. Bez nich możesz nie być w stanie się zalogować, jeśli nie masz aplikacji uwierzytelniającej.
+tfa-enter-code-to-confirm-setup = Potwierdź zapisanie kodów, wpisując jeden z nich. Bez nich możesz nie być w stanie się zalogować, jeśli nie masz aplikacji uwierzytelniającej.
 tfa-enter-recovery-code-1 =
     .label = Wpisz zapasowy kod uwierzytelniania
 
@@ -1250,6 +1250,11 @@ auth-error-1032 = Należy podać prawidłowy wiek przed zarejestrowaniem
 auth-error-1054 = Nieprawidłowy kod uwierzytelniania dwuetapowego
 auth-error-1056 = Nieprawidłowy zapasowy kod uwierzytelniania
 auth-error-1062 = Nieprawidłowe przekierowanie
+# Displayed when we want to reference a user's previously set up recovery phone
+# number, but they are not completely signed in yet. We'll only show the last 4 digits.
+# Variables:
+#  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
+recovery-phone-number-ending-digits = Numer kończący się na { $lastFourPhoneNumber }
 oauth-error-1000 = Coś się nie powiodło. Proszę zamknąć tę kartę i spróbować ponownie.
 
 ## Cannot Create Account page
@@ -1683,6 +1688,13 @@ signin-recovery-method-subheader = Wybierz metodę odzyskiwania
 signin-recovery-method-details = Upewnijmy się, że to Ty korzystasz ze swoich metod odzyskiwania.
 signin-recovery-method-phone = Telefon odzyskiwania
 signin-recovery-method-code-v2 = Zapasowe kody uwierzytelniania
+# Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
+signin-recovery-method-code-info-v2 =
+    { $numBackupCodes ->
+        [one] Został { $numBackupCodes } kod
+        [few] Zostały { $numBackupCodes } kody
+       *[many] Zostało { $numBackupCodes } kodów
+    }
 # Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
 signin-recovery-method-send-code-error-heading = Wystąpił problem podczas wysyłania kodu do telefonu odzyskiwania
 signin-recovery-method-send-code-error-description = Proszę spróbować ponownie później lub użyć zapasowych kodów uwierzytelniania.
@@ -1696,6 +1708,8 @@ signin-recovery-code-heading = Zaloguj się
 signin-recovery-code-sub-heading = Wpisz zapasowy kod uwierzytelniania
 # codes here refers to backup authentication codes
 signin-recovery-code-instruction-v3 = Wpisz jeden z jednorazowych kodów zachowanych podczas konfigurowania uwierzytelniania dwuetapowego.
+# code here refers to backup authentication code
+signin-recovery-code-input-label-v2 = Wpisz 10-znakowy kod
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Potwierdź
 # Link to go to the page to use recovery phone instead
@@ -1716,6 +1730,9 @@ signin-recovery-code-use-phone-failure-description = Proszę spróbować ponowni
 signin-recovery-phone-flow-heading = Zaloguj się
 # A recovery code in context of this page is a one time code sent to the user's phone
 signin-recovery-phone-heading = Wpisz kod odzyskiwania
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+signin-recovery-phone-instruction-v3 = Sześciocyfrowy kod został wysłany na numer telefony kończący się na <span>{ $lastFourPhoneDigits }</span> wiadomością SMS. Ten kod wygasa w ciągu 5 minut. Nie udostępniaj go nikomu.
 signin-recovery-phone-input-label = Wpisz sześciocyfrowy kod
 signin-recovery-phone-code-submit-button = Potwierdź
 signin-recovery-phone-resend-code-button = Wyślij ponownie kod
