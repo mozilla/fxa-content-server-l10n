@@ -859,6 +859,10 @@ recent-activity-account-password-changed = 更改密码
 recent-activity-account-secondary-email-added = 绑定备用邮箱
 recent-activity-account-secondary-email-removed = 移除备用邮箱
 recent-activity-account-emails-swapped = 主邮箱与备用邮箱调换
+recent-activity-session-destroy = 已退出会话
+recent-activity-account-recovery-phone-setup-complete = 恢复电话号码设置已完成
+recent-activity-account-recovery-phone-signin-complete = 已使用恢复电话号码登录
+recent-activity-account-recovery-phone-removed = 已移除恢复电话号码
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = 其他账户活动
 
@@ -1217,6 +1221,11 @@ auth-error-1032 = 您需要输入有效年龄才能注册
 auth-error-1054 = 无效的两步验证码
 auth-error-1056 = 备用验证码无效
 auth-error-1062 = 无效重定向
+# Displayed when we want to reference a user's previously set up recovery phone
+# number, but they are not completely signed in yet. We'll only show the last 4 digits.
+# Variables:
+#  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
+recovery-phone-number-ending-digits = 手机尾号为 { $lastFourPhoneNumber }
 oauth-error-1000 = 出了点问题。请关闭此标签页，然后再试一次。
 
 ## Cannot Create Account page
