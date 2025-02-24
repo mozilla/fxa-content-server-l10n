@@ -2,6 +2,16 @@
 
 session-verify-send-push-title-2 = Logger du ind på din { -product-mozilla-account }?
 session-verify-send-push-body-2 = Klik her for at bekræfte, at det er dig
+# Message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to verify phone ownership when registering a recovery phone
+recovery-phone-setup-sms-body = { $code } er din { -brand-mozilla }-bekræftelseskode. Den udløber om 5 minutter.
+# Message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to sign in with a recovery phone as backup for two-step authentication
+recovery-phone-signin-sms-body = { $code } er din { -brand-mozilla }-bekræftelseskode. Den udløber om 5 minutter.
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
@@ -358,6 +368,9 @@ postAddLinkedAccount-action = Håndter konto
 postAddRecoveryPhone-subject = Telefonnummer til gendannelse tilføjet
 postAddRecoveryPhone-preview = Konto beskyttet af totrinsgodkendelse
 postAddRecoveryPhone-title = Du har oprettet et telefonnummer til gendannelse af din konto
+# Variables:
+#  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
+postAddRecoveryPhone-description-v2 = Du har tilføjet { $maskedLastFourPhoneNumber } som dit telefonnummer til gendannelse
 # Links out to a support article about two factor authentication
 postAddRecoveryPhone-how-protect = Sådan beskytter det din konto
 postAddRecoveryPhone-how-protect-plaintext = Sådan beskytter det din konto:
