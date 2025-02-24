@@ -1239,6 +1239,7 @@ auth-error-214 = Čisło wobnowjenskeho telefona hižo eksistuje
 auth-error-215 = Čisło wobnowjenskeho telefona njeeksistuje
 auth-error-216 = Limit tekstoweje powěsće docpěty
 auth-error-218 = Njeje móžno wobnowjenski telefon wotstronić, awtentifikaciske kody za zawěsćenje faluja.
+auth-error-219 = Tute telefonowe čisło je so z přewjele kontami zregistrowało. Prošu spytajće druhe čisło.
 auth-error-999 = Njewočakowany zmylk
 auth-error-1001 = Přizjewjenski pospyt přetorhnjeny
 auth-error-1002 = Posedźenje jo wotběžało. Přizjewće so, zo byšće pokročował.
