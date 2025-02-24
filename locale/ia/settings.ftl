@@ -1731,7 +1731,7 @@ signin-recovery-phone-flow-heading = Aperir session
 signin-recovery-phone-heading = Insere le codice de recuperation
 # Text that explains the user should check their phone for a recovery code
 # $maskedPhoneNumber - The users masked phone number
-signin-recovery-phone-instruction-v3 = Un codice de sex cifras era inviate  al numero di telephono finiente con <span>{ $maskedPhoneNumber }</span> per message SMS. Iste codice expira post 5 minutas. Non comparti iste codice con alcuno.
+signin-recovery-phone-instruction-v3 = Un codice de sex cifras era inviate  al numero di telephono finiente con <span>{ $lastFourPhoneDigits }</span> per message SMS. Iste codice expira post 5 minutas. Non comparti iste codice con alcuno.
 signin-recovery-phone-input-label = Insere le codice de 6 digitos
 signin-recovery-phone-code-submit-button = Confirmar
 signin-recovery-phone-resend-code-button = Reinviar le codice

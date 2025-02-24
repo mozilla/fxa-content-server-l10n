@@ -1565,8 +1565,8 @@ signin-recovery-method-code-v2 = ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ 
 # Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
 signin-recovery-method-code-info-v2 =
     { $numBackupCodes ->
-        [one] { $numberOfCodes } ਕੋਡ ਬਾਕੀ ਹੈ
-       *[other] { $numberOfCodes } ਕੋਡ ਬਾਕੀ ਹਨ
+        [one] { $numBackupCodes } ਕੋਡ ਬਾਕੀ ਹੈ
+       *[other] { $numBackupCodes } ਕੋਡ ਬਾਕੀ ਹਨ
     }
 
 ## SigninRecoveryCode page
