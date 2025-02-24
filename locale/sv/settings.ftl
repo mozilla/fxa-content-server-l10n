@@ -866,6 +866,15 @@ recent-activity-account-password-changed = Lösenordet ändrat
 recent-activity-account-secondary-email-added = Sekundär e-postadress har lagts till
 recent-activity-account-secondary-email-removed = Den sekundära e-postadressen har tagits bort
 recent-activity-account-emails-swapped = Primär och sekundär e-post har bytts
+recent-activity-session-destroy = Utloggad från session
+recent-activity-account-recovery-phone-send-code = Kod för återställningstelefon skickad
+recent-activity-account-recovery-phone-setup-complete = Konfigurationen av återställningstelefonen har slutförts
+recent-activity-account-recovery-phone-signin-complete = Inloggning med återställningstelefon är klar
+recent-activity-account-recovery-phone-signin-failed = Inloggning med återställningstelefon misslyckades
+recent-activity-account-recovery-phone-removed = Återställningstelefon borttagen
+recent-activity-account-recovery-codes-replaced = Återställningskoder ersatta
+recent-activity-account-recovery-codes-created = Återställningskoder skapade
+recent-activity-account-recovery-codes-signin-complete = Inloggning med återställningskoder är klar
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Annan kontoaktivitet
 
@@ -1246,6 +1255,11 @@ auth-error-1032 = Du måste ange en giltig ålder för att registrera dig
 auth-error-1054 = Ogiltig tvåstegsautentiseringskod
 auth-error-1056 = Ogiltig reservautentiseringskod
 auth-error-1062 = Ogiltig omdirigering
+# Displayed when we want to reference a user's previously set up recovery phone
+# number, but they are not completely signed in yet. We'll only show the last 4 digits.
+# Variables:
+#  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
+recovery-phone-number-ending-digits = Nummer som slutar på { $lastFourPhoneNumber }
 oauth-error-1000 = Något gick fel. Stäng den här fliken och försök igen.
 
 ## Cannot Create Account page
@@ -1724,7 +1738,7 @@ signin-recovery-phone-flow-heading = Logga in
 signin-recovery-phone-heading = Ange återställningskod
 # Text that explains the user should check their phone for a recovery code
 # $maskedPhoneNumber - The users masked phone number
-signin-recovery-phone-instruction-v2 = En sexsiffrig kod skickades till <span>{ $maskedPhoneNumber }</span> via sms. Denna kod upphör efter 5 minuter. Dela inte den här koden med någon.
+signin-recovery-phone-instruction-v3 = En sexsiffrig kod skickades till telefonnumret som slutar på <span>{ $lastFourPhoneDigits }</span> via sms. Denna kod upphör efter 5 minuter. Dela inte den här koden med någon.
 signin-recovery-phone-input-label = Ange 6-siffrig kod
 signin-recovery-phone-code-submit-button = Bekräfta
 signin-recovery-phone-resend-code-button = Skicka koden igen
