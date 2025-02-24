@@ -1237,6 +1237,7 @@ auth-error-214 = Numer wótnowjeńskego telefona južo eksistěrujo
 auth-error-215 = Numer wótnowjeńskego telefona njeeksistěrujo
 auth-error-216 = Limit tekstoweje powěsći dostany
 auth-error-218 = Njejo móžno wótnowjeński telefon wótwónoźeś, awtentifikaciske kody za zawěsćenje feluju.
+auth-error-219 = Toś ten telefonowy numer jo se zregistrěrował z pśewjele kontami. Pšosym wopytajśo drugi numer.
 auth-error-999 = Njewótcakowana zmólka
 auth-error-1001 = Pśizjawjeński wopyt pśetergnjony
 auth-error-1002 = Pósejźenje jo wótběgnuło. Pśizjawśo se, aby pókšacował.
