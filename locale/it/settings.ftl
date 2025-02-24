@@ -1222,6 +1222,7 @@ auth-error-214 = Il numero di telefono per il recupero dell’account esiste gi�
 auth-error-215 = Il numero di telefono per il recupero dell’account non esiste
 auth-error-216 = È stato raggiunto il limite di messaggi di testo
 auth-error-218 = Impossibile rimuovere il numero di telefono per il recupero dell’account, codici di autenticazione di backup non presenti.
+auth-error-219 = Questo numero di telefono è stato registrato con troppi account. Prova con un numero diverso.
 auth-error-999 = Errore imprevisto
 auth-error-1001 = Tentativo di accesso annullato
 auth-error-1002 = La sessione è scaduta. Accedi per continuare.

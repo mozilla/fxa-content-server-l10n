@@ -1239,6 +1239,7 @@ auth-error-214 = Telefonska številka za obnovitev že obstaja
 auth-error-215 = Telefonska številka za obnovitev ne obstaja
 auth-error-216 = Dosežena omejitev števila besedilnih sporočil
 auth-error-218 = Telefonske številke za obnovitev ni mogoče odstraniti, ker manjkajo rezervne overitvene kode.
+auth-error-219 = Ta telefonska številka je registrirana s preveč računi. Poskusite z drugo številko.
 auth-error-999 = Nepričakovana napaka
 auth-error-1001 = Poskus prijave preklican
 auth-error-1002 = Seja je potekla. Za nadaljevanje se prijavite.

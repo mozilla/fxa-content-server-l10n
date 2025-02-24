@@ -1234,6 +1234,7 @@ auth-error-214 = El número de teléfono de recuperación ya existe
 auth-error-215 = El número de teléfono de recuperación no existe
 auth-error-216 = Se alcanzó el límite de mensajes de texto
 auth-error-218 = No se puede eliminar el teléfono de recuperación, faltan los códigos de autenticación de respaldo.
+auth-error-219 = Este número de teléfono se ha registrado con demasiadas cuentas. Pruebe con un número diferente.
 auth-error-999 = Error inesperado
 auth-error-1001 = Intento de inicio de sesión de cancelado
 auth-error-1002 = La sesión caducó. Iniciá sesión de nuevo para conituar.

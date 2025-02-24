@@ -857,6 +857,7 @@ recent-activity-account-password-changed = Senha alterada
 recent-activity-account-secondary-email-added = Endereço de email secundário adicionado
 recent-activity-account-secondary-email-removed = Endereço de email secundário removido
 recent-activity-account-emails-swapped = Emails primário e secundário invertidos
+recent-activity-account-recovery-phone-send-code = Código de celular de recuperação enviado
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Outra atividade da conta
 

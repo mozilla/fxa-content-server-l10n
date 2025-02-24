@@ -1241,6 +1241,7 @@ auth-error-214 = A helyreállítási telefonszám már létezik
 auth-error-215 = A helyreállítási telefonszám nem létezik
 auth-error-216 = Az SMS-ek korlátja elérve
 auth-error-218 = Nem távolítható el a helyreállítási telefonszám, hiányoznak a tartalék hitelesítési kódok.
+auth-error-219 = Ez a telefonszám túl sok fiókkal lett regisztrálva. Próbálkozzon egy másik számmal.
 auth-error-999 = Nem várt hiba
 auth-error-1001 = Bejelentkezési kísérlet megszakítva
 auth-error-1002 = A munkamenet lejárt. Jelentkezzen be a folytatáshoz.

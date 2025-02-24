@@ -1233,6 +1233,7 @@ auth-error-214 = Die Telefonnummer zur Wiederherstellung existiert bereits
 auth-error-215 = Die Telefonnummer zur Wiederherstellung existiert nicht
 auth-error-216 = Obergrenze für Textnachrichten erreicht
 auth-error-218 = Die Telefonnummer für die Wiederherstellung konnte nicht entfernt werden, da Sicherungs-Authentifizierungscodes fehlen.
+auth-error-219 = Diese Telefonnummer wurde mit zu vielen Konten registriert. Bitte versuchen Sie es mit einer anderen Nummer.
 auth-error-999 = Unerwarteter Fehler
 auth-error-1001 = Anmeldeversuch abgebrochen
 auth-error-1002 = Sitzung abgelaufen. Melden Sie sich an, um fortzufahren.

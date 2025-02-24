@@ -1231,6 +1231,7 @@ auth-error-214 = Le numéro de téléphone de récupération existe déjà
 auth-error-215 = Le numéro de téléphone de récupération n’existe pas
 auth-error-216 = Nombre maximum d’envois de SMS atteint
 auth-error-218 = Impossible de supprimer le numéro de téléphone de récupération, car il manque des codes d’authentification de secours.
+auth-error-219 = Ce numéro de téléphone a été enregistré avec trop de comptes. Veuillez essayer avec un autre numéro.
 auth-error-999 = Erreur inattendue
 auth-error-1001 = Tentative de connexion annulée
 auth-error-1002 = Votre session a expiré. Connectez-vous pour continuer.

@@ -1237,6 +1237,7 @@ auth-error-214 = Mae rhif ffôn adfer eisoes yn bodoli
 auth-error-215 = Nid yw'r rhif ffôn adfer yn bodoli
 auth-error-216 = Wedi cyrraedd terfyn neges destun
 auth-error-218 = Methu tynnu ffôn adfer, codau dilysu wrth gefn ar goll.
+auth-error-219 = Mae'r rhif ffôn hwn wedi'i gofrestru gyda gormod o gyfrifon. Rhowch gynnig ar rif gwahanol.
 auth-error-999 = Gwall anhysbys
 auth-error-1001 = Diddymwyd yr ymgais i fewngofnodi
 auth-error-1002 = Daeth y sesiwn i ben. Mewngofnodwch i barhau.
