@@ -370,7 +370,7 @@ postAddRecoveryPhone-preview = Kontot skyddas av tvåstegsautentisering
 postAddRecoveryPhone-title = Du skapade ett återställningstelefonnummer
 # Variables:
 #  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
-postAddRecoveryPhone-description = Du lade till { $maskedLastFourPhoneNumber } som din återställningstelefon
+postAddRecoveryPhone-description-v2 = Du har lagt till { $maskedLastFourPhoneNumber } som ditt återställningstelefonnummer
 # Links out to a support article about two factor authentication
 postAddRecoveryPhone-how-protect = Hur detta skyddar ditt konto
 postAddRecoveryPhone-how-protect-plaintext = Hur detta skyddar ditt konto:
