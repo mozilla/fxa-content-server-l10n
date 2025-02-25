@@ -9,8 +9,8 @@ next-basic-error-message = Algo ha salido mal. Por favor, inténtalo de nuevo m�
 
 ## Page
 
-continue-signin-with-google-button = Continuar con { -brand-google }
-continue-signin-with-apple-button = Continuar con { -brand-apple }
+continue-signin-with-google-button = Seguir con { -brand-google }
+continue-signin-with-apple-button = Seguir con { -brand-apple }
 next-payment-method-header = Elige tu método de pago
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step-next = 2. { next-payment-method-header }

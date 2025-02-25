@@ -254,6 +254,7 @@ inactiveAccountFinalWarning-subject = Última oportunidad para conservar tu { -p
 inactiveAccountFinalWarning-title = Tu cuenta de { -brand-mozilla } y sus datos serán eliminados
 inactiveAccountFinalWarning-preview = Inicia sesión para mantener tu cuenta
 inactiveAccountFinalWarning-account-description = Tu { -product-mozilla-account } se usa para acceder a productos gratuitos de privacidad y navegación como { -brand-firefox } sync, { -product-mozilla-monitor }, { -product-firefox-relay } y { -product-mdn }.
+inactiveAccountFirstWarning-inactive-status = Notamos que no has iniciado sesión durante 2 años.
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title-zero = ¡Te has quedado sin códigos de autenticación de respaldo!
 codes-reminder-title-one = Estás en tu último código de autenticación de respaldo
