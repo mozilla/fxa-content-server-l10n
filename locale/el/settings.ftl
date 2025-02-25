@@ -869,6 +869,15 @@ recent-activity-account-password-changed = Ο κωδικός πρόσβασης 
 recent-activity-account-secondary-email-added = Προστέθηκε δευτερεύουσα διεύθυνση email
 recent-activity-account-secondary-email-removed = Αφαιρέθηκε δευτερεύουσα διεύθυνση email
 recent-activity-account-emails-swapped = Έγινε εναλλαγή του κύριου email με το δευτερεύον
+recent-activity-session-destroy = Έγινε αποσύνδεση από τη συνεδρία
+recent-activity-account-recovery-phone-send-code = Απεστάλη κωδικός τηλεφώνου ανάκτησης
+recent-activity-account-recovery-phone-setup-complete = Η ρύθμιση του τηλεφώνου ανάκτησης ολοκληρώθηκε
+recent-activity-account-recovery-phone-signin-complete = Η σύνδεση με τηλέφωνο ανάκτησης ολοκληρώθηκε
+recent-activity-account-recovery-phone-signin-failed = Η σύνδεση με τηλέφωνο ανάκτησης απέτυχε
+recent-activity-account-recovery-phone-removed = Το τηλέφωνο ανάκτησης αφαιρέθηκε
+recent-activity-account-recovery-codes-replaced = Οι κωδικοί ανάκτησης αντικαταστάθηκαν
+recent-activity-account-recovery-codes-created = Δημιουργήθηκαν κωδικοί ανάκτησης
+recent-activity-account-recovery-codes-signin-complete = Η σύνδεση με κωδικούς ανάκτησης ολοκληρώθηκε
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Άλλη δραστηριότητα λογαριασμού
 
@@ -1247,6 +1256,11 @@ auth-error-1032 = Πρέπει να εισαγάγετε μια έγκυρη η�
 auth-error-1054 = Μη έγκυρος κωδικός ταυτοποίησης δύο παραγόντων
 auth-error-1056 = Μη έγκυρος εφεδρικός κωδικός ταυτοποίησης
 auth-error-1062 = Μη έγκυρη ανακατεύθυνση
+# Displayed when we want to reference a user's previously set up recovery phone
+# number, but they are not completely signed in yet. We'll only show the last 4 digits.
+# Variables:
+#  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
+recovery-phone-number-ending-digits = Αριθμός που λήγει σε { $lastFourPhoneNumber }
 oauth-error-1000 = Κάτι πήγε στραβά. Παρακαλώ κλείστε αυτήν την καρτέλα και δοκιμάστε ξανά.
 
 ## Cannot Create Account page
@@ -1723,6 +1737,9 @@ signin-recovery-code-use-phone-failure-description = Δοκιμάστε ξανά
 signin-recovery-phone-flow-heading = Σύνδεση
 # A recovery code in context of this page is a one time code sent to the user's phone
 signin-recovery-phone-heading = Εισαγάγετε τον κωδικό ανάκτησης
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+signin-recovery-phone-instruction-v3 = Ένας εξαψήφιος κωδικός έχει αποσταλεί στον αριθμό τηλεφώνου που λήγει σε <span>{ $lastFourPhoneDigits }</span> μέσω μηνύματος κειμένου. Αυτός ο κωδικός λήγει μετά από 5 λεπτά. Μη μοιραστείτε αυτόν τον κωδικό με κανέναν.
 signin-recovery-phone-input-label = Εισαγάγετε τον εξαψήφιο κωδικό
 signin-recovery-phone-code-submit-button = Επιβεβαίωση
 signin-recovery-phone-resend-code-button = Αποστολή νέου κωδικού

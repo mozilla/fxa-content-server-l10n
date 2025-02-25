@@ -370,6 +370,9 @@ postAddLinkedAccount-action = Διαχείριση λογαριασμού
 postAddRecoveryPhone-subject = Προστέθηκε τηλέφωνο ανάκτησης
 postAddRecoveryPhone-preview = Ο λογαριασμός προστατεύεται από ταυτοποίηση δύο παραγόντων
 postAddRecoveryPhone-title = Δημιουργήσατε έναν αριθμό τηλεφώνου ανάκτησης
+# Variables:
+#  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
+postAddRecoveryPhone-description-v2 = Προσθέσατε το { $maskedLastFourPhoneNumber } ως αριθμό τηλεφώνου ανάκτησης
 # Links out to a support article about two factor authentication
 postAddRecoveryPhone-how-protect = Πώς προστατεύεται ο λογαριασμός σας
 postAddRecoveryPhone-how-protect-plaintext = Πώς προστατεύεται ο λογαριασμός σας:
