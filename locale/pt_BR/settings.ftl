@@ -636,7 +636,7 @@ flow-setup-phone-confirm-code-button = Confirmar
 flow-setup-phone-confirm-code-expired = O código expirou?
 flow-setup-phone-confirm-code-resend-code-button = Reenviar código
 flow-setup-phone-confirm-code-resend-code-success = Código enviado
-flow-setup-phone-confirm-code-success-message-v2 = Celular de recuperação adicionado
+flow-setup-phone-confirm-code-success-message-v2 = Adicionado celular de recuperação de conta
 
 ## FlowSetupPhoneConfirmCode
 
@@ -647,7 +647,7 @@ flow-setup-phone-verify-number-instruction = Você receberá uma mensagem de tex
 # Voice over Internet Protocol (VoIP), is a technology that uses a broadband Internet connection instead of a regular (or analog) phone line to make calls.
 # Phone mask services (for example Relay) provide a temporary virtual number to avoid providing a real phone number.
 # Both VoIP and phone masks can be unreliable for one-time-passcode (OTP) verification
-flow-setup-phone-submit-number-info-message-v2 = Celular de recuperação só está disponível nos Estados Unidos e no Canadá. Números VoIP e máscaras de celular não são recomendados.
+flow-setup-phone-submit-number-info-message-v2 = Celular de recuperação de conta só está disponível nos Estados Unidos e no Canadá. Números VoIP e máscaras de celular não são recomendados.
 flow-setup-phone-submit-number-legal = Ao fornecer seu número, você declara que concorda que ele seja salvo para podermos te enviar mensagens de texto, apenas para verificação de conta. Podem ser cobrados valores por mensagens e dados.
 # cliking on the button sends a code by text message to the phone number typed in by the user
 flow-setup-phone-submit-number-button = Enviar código
@@ -857,8 +857,13 @@ recent-activity-account-password-changed = Senha alterada
 recent-activity-account-secondary-email-added = Endereço de email secundário adicionado
 recent-activity-account-secondary-email-removed = Endereço de email secundário removido
 recent-activity-account-emails-swapped = Emails primário e secundário invertidos
-recent-activity-account-recovery-phone-send-code = Código de celular de recuperação enviado
+recent-activity-account-recovery-phone-send-code = Código de celular de recuperação de conta enviado
 recent-activity-account-recovery-phone-setup-complete = Configuração de celular de recuperação de conta concluída
+recent-activity-account-recovery-phone-signin-complete = Acesso com celular de recuperação de conta concluído
+recent-activity-account-recovery-phone-signin-failed = Falha ao acessar com celular de recuperação de conta
+recent-activity-account-recovery-phone-removed = Celular de recuperação de conta removido
+recent-activity-account-recovery-codes-replaced = Códigos de recuperação substituídos
+recent-activity-account-recovery-codes-created = Códigos de recuperação criados
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Outra atividade da conta
 
@@ -873,20 +878,20 @@ recovery-key-create-back-button-title = Voltar à configuração
 ## PageRecoveryPhoneRemove
 ## Users reach this page from account settings when they want to remove a backup phone number.
 
-recovery-phone-remove-header = Remover número de celular de recuperação
+recovery-phone-remove-header = Remover número de celular de recuperação de conta
 # Variables:
 #   $formattedFullPhoneNumber (String) - the user's full phone number
-settings-recovery-phone-remove-info = Isto remove <strong>{ $formattedFullPhoneNumber }</strong> como seu celular de recuperação.
+settings-recovery-phone-remove-info = Isto remove <strong>{ $formattedFullPhoneNumber }</strong> como celular de recuperação de conta.
 settings-recovery-phone-remove-recommend = Recomendamos manter este método porque é mais fácil do que salvar códigos de autenticação de backup.
 # "Saved backup authentication codes" refers to previously saved backup authentication codes
 settings-recovery-phone-remove-recovery-methods = Se você excluir, certifique-se de ainda ter seus códigos de autenticação de backup salvos. <linkExternal>Comparar métodos de recuperação</linkExternal>
 settings-recovery-phone-remove-button = Remover número de celular
 settings-recovery-phone-remove-cancel = Cancelar
-settings-recovery-phone-remove-success = Celular de recuperação removido
+settings-recovery-phone-remove-success = Celular de recuperação de conta removido
 
 ## PageSetupRecoveryPhone
 
-page-setup-recovery-phone-heading = Adicionar celular de recuperação
+page-setup-recovery-phone-heading = Adicionar celular de recuperação de conta
 page-setup-recovery-phone-back-button-title = Voltar às configurações
 
 ## Add secondary email page
@@ -1038,9 +1043,9 @@ tfa-row-backup-codes-add-cta = Adicionar
 tfa-row-backup-codes-description-2 = Este é o método de recuperação mais seguro se você não puder usar seu dispositivo móvel ou aplicativo de autenticação.
 # Recovery phone is a recovery method for two-step authentication
 # A recovery code can be sent to the user's phone
-tfa-row-backup-phone-title-v2 = Celular de recuperação
+tfa-row-backup-phone-title-v2 = Celular de recuperação de conta
 # Shown with an alert icon to indicate that no recovery phone is configured
-tfa-row-backup-phone-not-available = Nenhum número de celular de recuperação disponível
+tfa-row-backup-phone-not-available = Nenhum número de celular de recuperação de conta disponível
 # button to change the configured recovery phone
 tfa-row-backup-phone-change-cta = Alterar
 # button to add/configure a recovery phone
@@ -1048,8 +1053,8 @@ tfa-row-backup-phone-add-cta = Adicionar
 # Button to remove a recovery phone from the user's account
 tfa-row-backup-phone-delete-button = Remover
 # Shown in tooltip on delete button or delete icon
-tfa-row-backup-phone-delete-title-v2 = Remover celular de recuperação
-tfa-row-backup-phone-delete-restriction-v2 = Se quiser remover o celular de recuperação, adicione códigos de autenticação de backup ou desative primeiro a autenticação em duas etapas para evitar ficar sem acesso à sua conta.
+tfa-row-backup-phone-delete-title-v2 = Remover celular de recuperação de conta
+tfa-row-backup-phone-delete-restriction-v2 = Se quiser remover o celular de recuperação de conta, adicione códigos de autenticação de backup ou desative primeiro a autenticação em duas etapas para evitar ficar sem acesso à sua conta.
 # "this" refers to recovery phone
 tfa-row-backup-phone-description = Este é o método de recuperação mais fácil, caso você não possa usar o aplicativo de autenticação.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
@@ -1205,10 +1210,10 @@ auth-error-183-2 = Código de confirmação inválido ou vencido
 auth-error-202 = Funcionalidade não ativada
 auth-error-203 = Sistema indisponível, tente novamente mais tarde
 auth-error-206 = Não foi possível criar senha, a senha já foi definida
-auth-error-214 = Já existe o número de celular de recuperação
+auth-error-214 = Já existe o número de celular de recuperação de conta
 auth-error-215 = Não existe o número de telefone de recuperação
 auth-error-216 = Atingiu o limite de mensagens de texto
-auth-error-218 = Não foi possível remover o celular de recuperação, faltam códigos de autenticação de backup.
+auth-error-218 = Não foi possível remover o celular de recuperação de conta, faltam códigos de autenticação de backup.
 auth-error-999 = Erro não esperado
 auth-error-1001 = Tentativa de acesso cancelada
 auth-error-1002 = A sessão expirou. Entre novamente para continuar.
@@ -1221,6 +1226,11 @@ auth-error-1032 = É necessário informar uma idade válida para se cadastrar
 auth-error-1054 = Código de autenticação em duas etapas inválido
 auth-error-1056 = Código de autenticação de backup inválido
 auth-error-1062 = Redirecionamento inválido
+# Displayed when we want to reference a user's previously set up recovery phone
+# number, but they are not completely signed in yet. We'll only show the last 4 digits.
+# Variables:
+#  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
+recovery-phone-number-ending-digits = Número terminado em { $lastFourPhoneNumber }
 oauth-error-1000 = Algo deu errado. Feche esta aba e tente novamente.
 
 ## Cannot Create Account page
@@ -1649,7 +1659,7 @@ signin-push-code-confirm-link-error = Link danificado. Tente novamente.
 signin-recovery-method-header = Entrar
 signin-recovery-method-subheader = Escolha um método de recuperação
 signin-recovery-method-details = Vamos garantir que é mesmo você usando seus métodos de recuperação.
-signin-recovery-method-phone = Celular de recuperação
+signin-recovery-method-phone = Celular de recuperação de conta
 signin-recovery-method-code-v2 = Códigos de autenticação de backup
 # Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
 signin-recovery-method-code-info-v2 =
@@ -1658,7 +1668,7 @@ signin-recovery-method-code-info-v2 =
        *[other] { $numBackupCodes } códigos restantes
     }
 # Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
-signin-recovery-method-send-code-error-heading = Houve um problema ao enviar um código para seu celular de recuperação
+signin-recovery-method-send-code-error-heading = Houve um problema ao enviar um código para seu celular de recuperação de conta
 signin-recovery-method-send-code-error-description = Tente novamente mais tarde ou use seus códigos de autenticação de backup.
 
 ## SigninRecoveryCode page
@@ -1675,7 +1685,7 @@ signin-recovery-code-input-label-v2 = Insira o código de 10 caracteres
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Confirmar
 # Link to go to the page to use recovery phone instead
-signin-recovery-code-phone-link = Usar celular de recuperação
+signin-recovery-code-phone-link = Usar celular de recuperação de conta
 # External link for support if the user can't use two-step autentication or a backup authentication code
 # https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 signin-recovery-code-support-link = Sua conta está bloqueada?
@@ -1684,7 +1694,7 @@ signin-recovery-code-required-error = Necessário código de autenticação de b
 # Message to user after they were redirected to the Mozilla account sign-in page in a new browser
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
-signin-recovery-code-use-phone-failure = Houve um problema ao enviar um código para seu celular de recuperação
+signin-recovery-code-use-phone-failure = Houve um problema ao enviar um código para seu celular de recuperação de conta
 signin-recovery-code-use-phone-failure-description = Tente novamente mais tarde.
 
 ## SigninRecoveryPhone page
@@ -1692,6 +1702,9 @@ signin-recovery-code-use-phone-failure-description = Tente novamente mais tarde.
 signin-recovery-phone-flow-heading = Entrar
 # A recovery code in context of this page is a one time code sent to the user's phone
 signin-recovery-phone-heading = Insira o código de recuperação
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+signin-recovery-phone-instruction-v3 = Um código de 6 dígitos foi enviado para o número de celular com final <span>{ $lastFourPhoneDigits }</span> por mensagem de texto. Expira em 5 minutos. Não compartilhe com ninguém.
 signin-recovery-phone-input-label = Digite o código de 6 dígitos
 signin-recovery-phone-code-submit-button = Confirmar
 signin-recovery-phone-resend-code-button = Reenviar código

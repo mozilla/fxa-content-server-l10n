@@ -365,12 +365,12 @@ postAddLinkedAccount-subject-2 = Nova conta vinculada à sua { -product-mozilla-
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = Sua conta em { $providerName } foi vinculada à sua { -product-mozilla-account }
 postAddLinkedAccount-action = Gerenciar conta
-postAddRecoveryPhone-subject = Celular de recuperação adicionado
+postAddRecoveryPhone-subject = Adicionado celular de recuperação de conta
 postAddRecoveryPhone-preview = Conta protegida por autenticação em duas etapas
-postAddRecoveryPhone-title = Você criou um número de celular de recuperação
+postAddRecoveryPhone-title = Você criou um número de celular de recuperação de conta
 # Variables:
 #  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
-postAddRecoveryPhone-description-v2 = Você adicionou { $maskedLastFourPhoneNumber } como seu número de celular de recuperação
+postAddRecoveryPhone-description-v2 = Você adicionou { $maskedLastFourPhoneNumber } como número de celular de recuperação de conta
 # Links out to a support article about two factor authentication
 postAddRecoveryPhone-how-protect = Como isso protege sua conta
 postAddRecoveryPhone-how-protect-plaintext = Como isso protege sua conta:
@@ -393,10 +393,10 @@ postChangePrimary-title = Novo email principal
 #  $email (String) - A user's email address
 postChangePrimary-description-2 = Você alterou com sucesso seu email principal para { $email }. Este endereço é agora seu nome de usuário para entrar na sua { -product-mozilla-account }, assim como receber notificações de segurança e confirmações de acesso.
 postChangePrimary-action = Gerenciar conta
-postChangeRecoveryPhone-subject = Celular de recuperação atualizado
+postChangeRecoveryPhone-subject = Celular de recuperação de conta atualizado
 postChangeRecoveryPhone-preview = Conta protegida por autenticação em duas etapas
-postChangeRecoveryPhone-title = Você alterou seu celular de recuperação
-postChangeRecoveryPhone-description = Agora você tem um novo celular de recuperação. Seu número de celular anterior foi excluído.
+postChangeRecoveryPhone-title = Você alterou seu celular de recuperação de conta
+postChangeRecoveryPhone-description = Agora você tem um novo celular de recuperação de conta. Seu número de celular anterior foi excluído.
 postChangeRecoveryPhone-requested-device = Você solicitou a partir de:
 postConsumeRecoveryCode-title-2 = Você usou um código de autenticação de backup
 # After the colon, there is description of the device that the backup authentication code was used on
@@ -417,10 +417,10 @@ postRemoveAccountRecovery-title-3 = Você excluiu sua chave de recuperação de 
 postRemoveAccountRecovery-body-part1 = Sua chave de recuperação de conta é necessária para restaurar seus dados de navegação criptografados caso esqueça sua senha.
 postRemoveAccountRecovery-body-part2 = Se ainda não o fez, crie uma nova chave de recuperação de conta nas configurações da sua conta para evitar a perda de senhas salvas, favoritos, histórico de navegação e muito mais.
 postRemoveAccountRecovery-action = Gerenciar conta
-postRemoveRecoveryPhone-subject = Celular de recuperação removido
+postRemoveRecoveryPhone-subject = Celular de recuperação de conta removido
 postRemoveRecoveryPhone-preview = Conta protegida por autenticação em duas etapas
-postRemoveRecoveryPhone-title = Celular de recuperação removido
-postRemoveRecoveryPhone-description = Seu celular de recuperação foi removido da configuração de autenticação em duas etapas. Você ainda tem seus códigos de autenticação de backup disponíveis para uso.
+postRemoveRecoveryPhone-title = Celular de recuperação de conta removido
+postRemoveRecoveryPhone-description = Seu celular de recuperação de conta foi removido da configuração de autenticação em duas etapas. Você ainda tem seus códigos de autenticação de backup disponíveis para uso.
 postRemoveRecoveryPhone-requested-device = Você solicitou a partir de:
 postRemoveSecondary-subject = Email secundário removido
 postRemoveSecondary-title = Email secundário removido
@@ -440,9 +440,9 @@ postSigninRecoveryCode-title = Seu código de autenticação de backup foi usado
 postSigninRecoveryCode-description = Se não foi você, deve alterar sua senha imediatamente para proteger sua conta.
 postSigninRecoveryCode-device = Você entrou a partir de:
 postSigninRecoveryCode-action = Gerenciar conta
-postSigninRecoveryPhone-subject = Celular de recuperação usado para entrar
+postSigninRecoveryPhone-subject = Celular de recuperação usado para entrar na conta
 postSigninRecoveryPhone-preview = Confirmar atividade da conta
-postSigninRecoveryPhone-title = Seu celular de recuperação foi usado para entrar
+postSigninRecoveryPhone-title = Seu celular de recuperação foi usado para entrar na conta
 postSigninRecoveryPhone-description = Se não foi você, deve alterar sua senha imediatamente para proteger sua conta.
 postSigninRecoveryPhone-device = Você entrou a partir de:
 postSigninRecoveryPhone-action = Gerenciar conta
