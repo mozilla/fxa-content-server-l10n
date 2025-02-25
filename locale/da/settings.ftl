@@ -892,7 +892,7 @@ settings-recovery-phone-remove-recommend = Vi anbefaler, at du beholder denne me
 settings-recovery-phone-remove-recovery-methods = Hvis du sletter det, så sørg for, at du stadig har gemte reserve-godkendelseskoder. <linkExternal>Sammenlign genoprettelsesmetoder</linkExternal>
 settings-recovery-phone-remove-button = Fjern telefonnummer
 settings-recovery-phone-remove-cancel = Annuller
-settings-recovery-phone-remove-success = Telefonnummer til gendannelse fjernet
+settings-recovery-phone-remove-success = Telefonnummer til genoprettelse fjernet
 
 ## PageSetupRecoveryPhone
 
@@ -1051,12 +1051,12 @@ tfa-row-backup-codes-get-new-cta = Få nye koder
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = Tilføj
 # 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
-tfa-row-backup-codes-description-2 = Dette er den sikreste gendannelsesmetode, hvis du ikke kan bruge til din mobile enhed eller godkendelsesapp.
+tfa-row-backup-codes-description-2 = Dette er den sikreste genoprettelsesmetode, hvis du ikke kan bruge til din mobile enhed eller godkendelsesapp.
 # Recovery phone is a recovery method for two-step authentication
 # A recovery code can be sent to the user's phone
-tfa-row-backup-phone-title-v2 = Telefonnummer til gendannelse
+tfa-row-backup-phone-title-v2 = Telefonnummer til genoprettelse
 # Shown with an alert icon to indicate that no recovery phone is configured
-tfa-row-backup-phone-not-available = Intet telefonnummer til gendannelse tilgængeligt
+tfa-row-backup-phone-not-available = Intet telefonnummer til genoprettelse tilgængeligt
 # button to change the configured recovery phone
 tfa-row-backup-phone-change-cta = Skift
 # button to add/configure a recovery phone
@@ -1064,10 +1064,10 @@ tfa-row-backup-phone-add-cta = Tilføj
 # Button to remove a recovery phone from the user's account
 tfa-row-backup-phone-delete-button = Fjern
 # Shown in tooltip on delete button or delete icon
-tfa-row-backup-phone-delete-title-v2 = Fjern telefonnummer til gendannelse
-tfa-row-backup-phone-delete-restriction-v2 = Hvis du vil fjerne dit telefonnummer til gendannelse, skal du først tilføje reserve-godkendelseskoder eller deaktiver totrinsgodkendelse for at undgå at blive låst ude af din konto.
+tfa-row-backup-phone-delete-title-v2 = Fjern telefonnummer til genoprettelse
+tfa-row-backup-phone-delete-restriction-v2 = Hvis du vil fjerne dit telefonnummer til genoprettelse, skal du først tilføje reserve-godkendelseskoder eller deaktiver totrinsgodkendelse for at undgå at blive låst ude af din konto.
 # "this" refers to recovery phone
-tfa-row-backup-phone-description = Dette er den nemmeste gendannelsesmetode, hvis du ikke kan bruge din godkendelsesapp.
+tfa-row-backup-phone-description = Dette er den nemmeste genoprettelsesmetode, hvis du ikke kan bruge din godkendelsesapp.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
@@ -1231,10 +1231,10 @@ auth-error-183-2 = Ugyldig eller udløbet bekræftelseskode
 auth-error-202 = Funktionen er ikke aktiveret
 auth-error-203 = Systemet er ikke tilgængeligt, prøv igen om lidt
 auth-error-206 = Kan ikke oprette adgangskode, adgangskode allerede angivet
-auth-error-214 = Telefonnummer til gendannelse findes allerede
-auth-error-215 = Telefonnummer til gendannelse findes ikke
+auth-error-214 = Telefonnummer til genoprettelse findes allerede
+auth-error-215 = Telefonnummer til genoprettelse findes ikke
 auth-error-216 = Grænsen for SMS-beskeder er nået
-auth-error-218 = Kunne ikke fjerne telefonnummer til gendannelse, mangler reserve-godkendelseskoder.
+auth-error-218 = Kunne ikke fjerne telefonnummer til genoprettelse, mangler reserve-godkendelseskoder.
 auth-error-999 = Uventet fejl
 auth-error-1001 = Login-forsøg annulleret
 auth-error-1002 = Sessionen udløb. Log ind for at fortsætte.
@@ -1676,9 +1676,8 @@ signin-push-code-confirm-link-error = Link er beskadiget. Prøv igen.
 ## their password, and they previously had set up an account recovery method.
 
 signin-recovery-method-header = Log ind
-signin-recovery-method-subheader = Vælg en gendannelsesmetode
-signin-recovery-method-details = Lad os sikre os, at det er dig, der bruger dine gendannelsesmetoder.
-signin-recovery-method-phone = Telefonnummer til gendannelse
+signin-recovery-method-subheader = Vælg en genoprettelsesmetode
+signin-recovery-method-details = Lad os sikre os, at det er dig, der bruger dine genoprettelsesmetoder.
 signin-recovery-method-code-v2 = Reserve-godkendelseskoder
 # Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
 signin-recovery-method-code-info-v2 =
