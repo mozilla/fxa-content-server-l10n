@@ -863,9 +863,9 @@ recent-activity-account-recovery-phone-setup-complete = 救援電話號碼設定
 recent-activity-account-recovery-phone-signin-complete = 已使用救援電話號碼登入
 recent-activity-account-recovery-phone-signin-failed = 使用救援電話號碼登入失敗
 recent-activity-account-recovery-phone-removed = 已移除救援電話號碼已移除救援電話號碼
-recent-activity-account-recovery-codes-replaced = 已取代救援碼
-recent-activity-account-recovery-codes-created = 已設定救援碼
-recent-activity-account-recovery-codes-signin-complete = 已使用救援碼登入
+recent-activity-account-recovery-codes-replaced = 已取代備用驗證碼
+recent-activity-account-recovery-codes-created = 已設定備用驗證碼
+recent-activity-account-recovery-codes-signin-complete = 已使用備用驗證碼登入
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = 其他帳號活動
 
@@ -1212,6 +1212,7 @@ auth-error-214 = 救援電話號碼已存在
 auth-error-215 = 救援電話號碼不存在
 auth-error-216 = 已達簡訊傳送限制
 auth-error-218 = 未建立備用驗證碼，無法移除救援電話驗證號碼。
+auth-error-219 = 此電話號碼已用於註冊太多帳號，請改用其他號碼。
 auth-error-999 = 未預期的錯誤
 auth-error-1001 = 已取消登入請求
 auth-error-1002 = 登入階段已失效，請登入以繼續。
