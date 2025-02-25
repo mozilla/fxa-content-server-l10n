@@ -1678,6 +1678,7 @@ signin-push-code-confirm-link-error = Link er beskadiget. Prøv igen.
 signin-recovery-method-header = Log ind
 signin-recovery-method-subheader = Vælg en genoprettelsesmetode
 signin-recovery-method-details = Lad os sikre os, at det er dig, der bruger dine genoprettelsesmetoder.
+signin-recovery-method-phone = Telefonnummer til genoprettelse
 signin-recovery-method-code-v2 = Reserve-godkendelseskoder
 # Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
 signin-recovery-method-code-info-v2 =
@@ -1686,7 +1687,7 @@ signin-recovery-method-code-info-v2 =
        *[other] { $numBackupCodes } koder tilbage
     }
 # Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
-signin-recovery-method-send-code-error-heading = Der opstod et problem under afsendelse af en kode til dit telefonnummer til gendannelse
+signin-recovery-method-send-code-error-heading = Der opstod et problem under afsendelse af en kode til dit telefonnummer til genoprettelse
 signin-recovery-method-send-code-error-description = Prøv igen senere eller brug dine reserve-godkendelseskoder.
 
 ## SigninRecoveryCode page
@@ -1703,7 +1704,7 @@ signin-recovery-code-input-label-v2 = Indtast koden på 10 tegn
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Bekræft
 # Link to go to the page to use recovery phone instead
-signin-recovery-code-phone-link = Brug telefonnummer til gendannelse
+signin-recovery-code-phone-link = Brug telefonnummer til genoprettelse
 # External link for support if the user can't use two-step autentication or a backup authentication code
 # https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 signin-recovery-code-support-link = Er du blevet låst ude?
@@ -1712,7 +1713,7 @@ signin-recovery-code-required-error = Reserve-godkendelseskode påkrævet
 # Message to user after they were redirected to the Mozilla account sign-in page in a new browser
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
-signin-recovery-code-use-phone-failure = Der opstod et problem under afsendelse af en kode til dit telefonnummer til gendannelse
+signin-recovery-code-use-phone-failure = Der opstod et problem under afsendelse af en kode til dit telefonnummer til genoprettelse
 signin-recovery-code-use-phone-failure-description = Prøv igen senere.
 
 ## SigninRecoveryPhone page
