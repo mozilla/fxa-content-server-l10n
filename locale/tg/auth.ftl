@@ -29,10 +29,28 @@ subplat-privacy = Махфият
 subplat-privacy-website-plaintext = { subplat-privacy }:
 manage-account = Идоракунии ҳисоб
 manage-account-plaintext = { manage-account }:
+payment-details = Тафсилоти пардохт:
 # After the colon is how the user paid, e.g. PayPal or credit card
 payment-method = Тарзи пардохт:
 payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
+# Variables:
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+subscriptionFirstInvoiceDiscount-content-discount = Тахфиф: -{ $invoiceDiscountAmount }
+# Variables
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+subscriptionFirstInvoiceDiscount-content-discount-one-time = Тахфифи яккарата: -{ $invoiceDiscountAmount }
+# Variables:
+#  $uaBrowser (String) - User's browser, e.g. Firefox
+#  $uaOS (String) - User's OS, e.g. Mac OSX
+#  $uaOSVersion (String) - User's OS version, e.g. 10.11
+device-all = «{ $uaBrowser }» дар «{ $uaOS } { $uaOSVersion }»
+# Variables:
+#  $uaBrowser (String) - User's browser, e.g. Firefox
+#  $uaOS (String) - User's OS, e.g. Mac OSX
+device-browser-os = «{ $uaBrowser }» дар «{ $uaOS }»
+cadReminderFirst-action = Ҳамоҳанг кардани дастгоҳи дигар
 cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
+cadReminderSecond-action = Ҳамоҳанг кардани дастгоҳи дигар
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-subject = Хуш омадед ба «{ $productName }»
@@ -40,11 +58,13 @@ downloadSubscription-subject = Хуш омадед ба «{ $productName }»
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-title = Хуш омадед ба «{ $productName }»
 downloadSubscription-link-action-2 = Оғози кор
+fraudulentAccountDeletion-subject-2 = Ҳисоби шумо дар «{ -product-mozilla-account }» нест карда шуд
 fraudulentAccountDeletion-title = Ҳисоби шумо нест карда шуд
 inactiveAccountFinalWarning-preview = Барои нигоҳ доштани ҳисоби худ ворид шавед
 inactiveAccountFinalWarning-action = Барои нигоҳ доштани ҳисоби худ ворид шавед
 # followed by link to sign in
 inactiveAccountFinalWarning-action-plaintext = Барои нигоҳ доштани ҳисоби худ ворид шавед:
+inactiveAccountFirstWarning-subject = Ҳисоби худро гум накунед
 inactiveAccountFirstWarning-action = Барои нигоҳ доштани ҳисоби худ ворид шавед
 inactiveAccountFirstWarning-preview = Барои нигоҳ доштани ҳисоби худ ворид шавед
 # followed by link to sign in
@@ -53,7 +73,12 @@ inactiveAccountSecondWarning-action = Барои нигоҳ доштани ҳи�
 inactiveAccountSecondWarning-preview = Барои нигоҳ доштани ҳисоби худ ворид шавед
 # followed by link to sign in
 inactiveAccountSecondWarning-action-plaintext = Барои нигоҳ доштани ҳисоби худ ворид шавед:
+lowRecoveryCodes-action-2 = Эҷод кардани рамзҳо
 codes-create-plaintext = { lowRecoveryCodes-action-2 }:
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+newDeviceLogin-subject = Воридшавии нав ба «{ $clientName }»
+newDeviceLogin-subjectForMozillaAccount = Воридшавии нав ба ҳисоби шумо дар «{ -product-mozilla-account }»
 newDeviceLogin-action = Идоракунии ҳисоб
 passwordChanged-subject = Ниҳонвожа аз нав нигоҳ дошта шуд
 passwordChanged-title = Ниҳонвожа бо муваффақият иваз карда шуд
@@ -67,15 +92,28 @@ passwordResetAccountRecovery-title-3 = Ниҳонвожаи шумо аз нав
 passwordResetAccountRecovery-action-4 = Идоракунии ҳисоб
 passwordResetWithRecoveryKeyPrompt-subject = Ниҳонвожаи шумо аз нав барқарор карда шуд
 passwordResetWithRecoveryKeyPrompt-title = Ниҳонвожаи шумо аз нав барқарор карда шуд
+# Text for button action to create a new account recovery key
+passwordResetWithRecoveryKeyPrompt-action = Эҷод кардани калиди барқарорсозии ҳисоб
+# colon is followed by a link to create an account recovery key from the account settings page
+passwordResetWithRecoveryKeyPrompt-action-txt = Эҷод кардани калиди барқарорсозии ҳисоб:
+postAddAccountRecovery-subject-3 = Калиди нави барқарорсозии ҳисоб эҷод карда шуд
+postAddAccountRecovery-title2 = Шумо калиди наверо барои барқарорсозии ҳисоб эҷод кардед
 postAddAccountRecovery-action = Идоракунии ҳисоб
 postAddLinkedAccount-action = Идоракунии ҳисоб
+postAddRecoveryPhone-subject = Телефони барқарорсозӣ илова карда шуд
 postAddRecoveryPhone-action = Идоракунии ҳисоб
 postAddTwoStepAuthentication-action = Идоракунии ҳисоб
 postChangeAccountRecovery-action = Идоракунии ҳисоб
 postChangePrimary-action = Идоракунии ҳисоб
+postChangeRecoveryPhone-subject = Телефони барқарорсозӣ нав карда шуд
+postChangeRecoveryPhone-title = Шумо телефони барқарорсозии худро иваз кардед
 postConsumeRecoveryCode-action = Идоракунии ҳисоб
 postNewRecoveryCodes-action = Идоракунии ҳисоб
+postRemoveAccountRecovery-subject-2 = Калиди барқарорсозии ҳисоб нест карда шуд
+postRemoveAccountRecovery-title-3 = Шумо калиди барқарорсозии ҳисобро нест кардед
 postRemoveAccountRecovery-action = Идоракунии ҳисоб
+postRemoveSecondary-subject = Почтаи электронии иловагӣ тоза шуд
+postRemoveSecondary-title = Почтаи электронии иловагӣ тоза шуд
 postRemoveSecondary-action = Идоракунии ҳисоб
 postRemoveTwoStepAuthentication-action = Идоракунии ҳисоб
 postSigninRecoveryCode-action = Идоракунии ҳисоб
