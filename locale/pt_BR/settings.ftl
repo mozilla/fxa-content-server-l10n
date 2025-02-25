@@ -857,6 +857,7 @@ recent-activity-account-password-changed = Senha alterada
 recent-activity-account-secondary-email-added = Endereço de email secundário adicionado
 recent-activity-account-secondary-email-removed = Endereço de email secundário removido
 recent-activity-account-emails-swapped = Emails primário e secundário invertidos
+recent-activity-session-destroy = Saiu da sessão
 recent-activity-account-recovery-phone-send-code = Código de celular de recuperação de conta enviado
 recent-activity-account-recovery-phone-setup-complete = Configuração de celular de recuperação de conta concluída
 recent-activity-account-recovery-phone-signin-complete = Acesso com celular de recuperação de conta concluído
@@ -864,6 +865,7 @@ recent-activity-account-recovery-phone-signin-failed = Falha ao acessar com celu
 recent-activity-account-recovery-phone-removed = Celular de recuperação de conta removido
 recent-activity-account-recovery-codes-replaced = Códigos de recuperação substituídos
 recent-activity-account-recovery-codes-created = Códigos de recuperação criados
+recent-activity-account-recovery-codes-signin-complete = Acesso com códigos de recuperação de conta concluído
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Outra atividade da conta
 
@@ -1214,6 +1216,7 @@ auth-error-214 = Já existe o número de celular de recuperação de conta
 auth-error-215 = Não existe o número de telefone de recuperação
 auth-error-216 = Atingiu o limite de mensagens de texto
 auth-error-218 = Não foi possível remover o celular de recuperação de conta, faltam códigos de autenticação de backup.
+auth-error-219 = Este número de celular foi registrado em contas demais. Tente outro número.
 auth-error-999 = Erro não esperado
 auth-error-1001 = Tentativa de acesso cancelada
 auth-error-1002 = A sessão expirou. Entre novamente para continuar.
