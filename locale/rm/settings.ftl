@@ -870,6 +870,15 @@ recent-activity-account-password-changed = Midà il pled-clav
 recent-activity-account-secondary-email-added = Agiuntà ina adressa dad e-mail secundara
 recent-activity-account-secondary-email-removed = Allontanà l'adressa dad e-mail secundara
 recent-activity-account-emails-swapped = Barattà l'adressa dad e-mail primara e secundara
+recent-activity-session-destroy = Sortì da la sesida
+recent-activity-account-recovery-phone-send-code = Tramess il code al telefon per la recuperaziun
+recent-activity-account-recovery-phone-setup-complete = Cumplettà la configuraziun dal telefon per la recuperaziun dal conto
+recent-activity-account-recovery-phone-signin-complete = Annunzia reussida cun il telefon per la recuperaziun dal conto
+recent-activity-account-recovery-phone-signin-failed = Annunzia betg reussida cun il numer da telefon per la recuperaziun dal conto
+recent-activity-account-recovery-phone-removed = Allontanà il numer da telefon per la recuperaziun dal conto
+recent-activity-account-recovery-codes-replaced = Remplazzà ils codes da recuperaziun
+recent-activity-account-recovery-codes-created = Creà ils codes da recuperaziun
+recent-activity-account-recovery-codes-signin-complete = Annunzia reussida cun codes da recuperaziun
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Autra activitad dal conto
 
@@ -1236,6 +1245,7 @@ auth-error-214 = Il numer da telefon da recuperaziun exista gia
 auth-error-215 = Il numer da telefon da recuperaziun n’exista betg
 auth-error-216 = Cuntanschì il dumber maximal da SMS tramess
 auth-error-218 = Impussibel dad allontanar il numer da telefon da recuperaziun, i na dat nagins codes d’autentificaziun da backup.
+auth-error-219 = Quest numer da telefon è vegnì registrà cun memia blers contos. Emprova per plaschair cun in auter numer.
 auth-error-999 = Errur nunspetgada
 auth-error-1001 = Interrut l’emprova d’annunzia
 auth-error-1002 = La sesida è scrudada. T’annunzia per cuntinuar.
@@ -1248,6 +1258,11 @@ auth-error-1032 = Ti stos inditgar ina vegliadetgna valida per ta registrar
 auth-error-1054 = Code d’autentificaziun en dus pass nunvalid
 auth-error-1056 = Code d’autentificaziun da backup nunvalid
 auth-error-1062 = Renviament nunvalid
+# Displayed when we want to reference a user's previously set up recovery phone
+# number, but they are not completely signed in yet. We'll only show the last 4 digits.
+# Variables:
+#  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
+recovery-phone-number-ending-digits = Il numer chala cun { $lastFourPhoneNumber }
 oauth-error-1000 = Insatge n’ha betg funcziunà. Serra p.pl. quest tab ed emprova anc ina giada.
 
 ## Cannot Create Account page
@@ -1724,6 +1739,9 @@ signin-recovery-code-use-phone-failure-description = Emprova per plaschair pli t
 signin-recovery-phone-flow-heading = S’annunziar
 # A recovery code in context of this page is a one time code sent to the user's phone
 signin-recovery-phone-heading = Endatar il code da recuperaziun
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+signin-recovery-phone-instruction-v3 = In code da sis cifras è vegnì tramess al numer da telefon che chala cun <span>{ $lastFourPhoneDigits }</span> via messadi da text. Quest code scada en 5 minutas. Na mussar a nagin il code.
 signin-recovery-phone-input-label = Endatescha il code da 6 cifras
 signin-recovery-phone-code-submit-button = Confermar
 signin-recovery-phone-resend-code-button = Trametter anc ina giada il code

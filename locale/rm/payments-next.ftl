@@ -6,6 +6,9 @@ next-payment-error-manage-subscription-button = Administrar mes abunament
 next-iap-upgrade-contact-support = Ti pos tuttina survegnir quest product – contactescha per plaschair il support per che nus pudain ta gidar.
 next-payment-error-retry-button = Reempruvar
 next-basic-error-message = Insatge è ì mal. Emprova per plaschair pli tard anc ina giada.
+checkout-error-contact-support-button = Contactar l’agid
+checkout-error-not-eligible = Ti n’has betg il dretg dad abunar quest product – contactescha per plaschair l’agid per che nus possian ta gidar.
+checkout-error-contact-support = Contactescha per plaschair l’agid per che nus possian ta gidar.
 
 ## Page
 
