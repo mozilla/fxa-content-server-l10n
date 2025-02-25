@@ -2,6 +2,16 @@
 
 session-verify-send-push-title-2 = Acceder a tes conto { -product-mozilla-account }?
 session-verify-send-push-body-2 = Clicca qua per confermar tia identitad
+# Message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to verify phone ownership when registering a recovery phone
+recovery-phone-setup-sms-body = { $code } è tes code da verificaziun { -brand-mozilla }. El scada en 5 minutas.
+# Message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to sign in with a recovery phone as backup for two-step authentication
+recovery-phone-signin-sms-body = { $code } è tes code da recuperaziun { -brand-mozilla }. El scada en 5 minutas.
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
@@ -358,6 +368,9 @@ postAddLinkedAccount-action = Administrar il conto
 postAddRecoveryPhone-subject = Agiuntà in telefon per la recuperaziun dal conto
 postAddRecoveryPhone-preview = Il conto è protegì da l’autentificaziun en dus pass
 postAddRecoveryPhone-title = Ti has creà in numer da telefon per la recuperaziun dal conto
+# Variables:
+#  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
+postAddRecoveryPhone-description-v2 = Ti has agiuntà { $maskedLastFourPhoneNumber } sco numer da telefon per la recuperaziun da tes conto
 # Links out to a support article about two factor authentication
 postAddRecoveryPhone-how-protect = Co quai protegia tes conto
 postAddRecoveryPhone-how-protect-plaintext = Co quai protegia tes conto:
