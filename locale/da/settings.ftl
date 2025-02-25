@@ -232,10 +232,10 @@ backup-codes-disabled-icon-aria-label-v2 =
     .aria-label = Reserve-godkendelseskoder deaktiveret
 # An icon of phone with text message. A back recovery phone number
 backup-recovery-sms-icon-aria-label =
-    .aria-label = Gendannelses-SMS er aktiveret
+    .aria-label = Genoprettelses-SMS er aktiveret
 # Disabled version of backup-recovery-sms-icon-aria-label
 backup-recovery-sms-disabled-icon-aria-label =
-    .aria-label = Gendannelses-SMS deaktiveret
+    .aria-label = Genoprettelses-SMS deaktiveret
 # Used to select Canada as country code for phone number
 canadian-flag-icon-aria-label =
     .aria-label = Canadisk flag
@@ -640,7 +640,7 @@ flow-setup-phone-confirm-code-button = Bekræft
 flow-setup-phone-confirm-code-expired = Er koden udløbet?
 flow-setup-phone-confirm-code-resend-code-button = Send kode igen
 flow-setup-phone-confirm-code-resend-code-success = Kode sendt
-flow-setup-phone-confirm-code-success-message-v2 = Telefonnummer til gendannelse tilføjet
+flow-setup-phone-confirm-code-success-message-v2 = Telefonnummer til genoprettelse tilføjet
 
 ## FlowSetupPhoneConfirmCode
 
@@ -651,7 +651,7 @@ flow-setup-phone-verify-number-instruction = Du vil modtage en SMS-besked fra { 
 # Voice over Internet Protocol (VoIP), is a technology that uses a broadband Internet connection instead of a regular (or analog) phone line to make calls.
 # Phone mask services (for example Relay) provide a temporary virtual number to avoid providing a real phone number.
 # Both VoIP and phone masks can be unreliable for one-time-passcode (OTP) verification
-flow-setup-phone-submit-number-info-message-v2 = Telefonnumre til gendannelse er kun tilgængelige i USA og Canada. VoIP-numre og telefon-masker anbefales ikke.
+flow-setup-phone-submit-number-info-message-v2 = Telefonnumre til genoprettelse er kun tilgængelige i USA og Canada. VoIP-numre og telefon-masker anbefales ikke.
 flow-setup-phone-submit-number-legal = Ved at oplyse dit nummer accepterer du, at vi gemmer det. Vi bruger det kun til at sende SMS-beskeder til dig til kontobekræftelse. Der kan forekomme takster for SMS-beskeder og data.
 # cliking on the button sends a code by text message to the phone number typed in by the user
 flow-setup-phone-submit-number-button = Send kode
@@ -865,6 +865,10 @@ recent-activity-account-password-changed = Adgangskode ændret
 recent-activity-account-secondary-email-added = Sekundær mailadresse tilføjet
 recent-activity-account-secondary-email-removed = Sekundær mailadresse fjernet
 recent-activity-account-emails-swapped = Primær og sekundær mailadresse byttet om
+recent-activity-account-recovery-phone-setup-complete = Opsætning af telefonnummer til genoprettelse fuldført
+recent-activity-account-recovery-phone-signin-complete = Login med telefonnummer til genoprettelse fuldført
+recent-activity-account-recovery-phone-signin-failed = Login med telefonnummer til genoprettelse mislykkedes
+recent-activity-account-recovery-phone-removed = Telefonnummer til genoprettelse fjernet
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Anden kontoaktivitet
 
@@ -879,20 +883,20 @@ recovery-key-create-back-button-title = Tilbage til indstillinger
 ## PageRecoveryPhoneRemove
 ## Users reach this page from account settings when they want to remove a backup phone number.
 
-recovery-phone-remove-header = Fjern telefonnummer til gendannelse
+recovery-phone-remove-header = Fjern telefonnummer til genoprettelse
 # Variables:
 #   $formattedFullPhoneNumber (String) - the user's full phone number
-settings-recovery-phone-remove-info = Dette vil fjerne <strong>{ $formattedFullPhoneNumber }</strong> som telefonnummer til gendannelse.
+settings-recovery-phone-remove-info = Dette vil fjerne <strong>{ $formattedFullPhoneNumber }</strong> som telefonnummer til genoprettelse.
 settings-recovery-phone-remove-recommend = Vi anbefaler, at du beholder denne metode, da det er lettere end at gemme reserve-godkendelseskoder.
 # "Saved backup authentication codes" refers to previously saved backup authentication codes
-settings-recovery-phone-remove-recovery-methods = Hvis du sletter det, så sørg for, at du stadig har gemte reserve-godkendelseskoder. <linkExternal>Sammenlign gendannelsesmetoder</linkExternal>
+settings-recovery-phone-remove-recovery-methods = Hvis du sletter det, så sørg for, at du stadig har gemte reserve-godkendelseskoder. <linkExternal>Sammenlign genoprettelsesmetoder</linkExternal>
 settings-recovery-phone-remove-button = Fjern telefonnummer
 settings-recovery-phone-remove-cancel = Annuller
 settings-recovery-phone-remove-success = Telefonnummer til gendannelse fjernet
 
 ## PageSetupRecoveryPhone
 
-page-setup-recovery-phone-heading = Tilføj telefonnummer til gendannelse
+page-setup-recovery-phone-heading = Tilføj telefonnummer til genoprettelse
 page-setup-recovery-phone-back-button-title = Tilbage til indstillinger
 
 ## Add secondary email page

@@ -360,12 +360,12 @@ postAddLinkedAccount-subject-2 = Ny konto knyttet til din { -product-mozilla-acc
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = Din { $providerName }-konto er blevet knyttet til din { -product-mozilla-account }
 postAddLinkedAccount-action = Håndter konto
-postAddRecoveryPhone-subject = Telefonnummer til gendannelse tilføjet
+postAddRecoveryPhone-subject = Telefonnummer til genoprettelse tilføjet
 postAddRecoveryPhone-preview = Konto beskyttet af totrinsgodkendelse
-postAddRecoveryPhone-title = Du har oprettet et telefonnummer til gendannelse af din konto
+postAddRecoveryPhone-title = Du har oprettet et telefonnummer til genoprettelse af din konto
 # Variables:
 #  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
-postAddRecoveryPhone-description-v2 = Du har tilføjet { $maskedLastFourPhoneNumber } som dit telefonnummer til gendannelse
+postAddRecoveryPhone-description-v2 = Du har tilføjet { $maskedLastFourPhoneNumber } som dit telefonnummer til genoprettelse
 # Links out to a support article about two factor authentication
 postAddRecoveryPhone-how-protect = Sådan beskytter det din konto
 postAddRecoveryPhone-how-protect-plaintext = Sådan beskytter det din konto:
@@ -388,10 +388,10 @@ postChangePrimary-title = Ny primær mailadresse
 #  $email (String) - A user's email address
 postChangePrimary-description-2 = Du har ændret din primære mailadresse til { $email }. Denne mailadresse fungerer nu som brugernavn, når du skal logge ind på din { -product-mozilla-account }. Vi bruger den også til at sende sikkerhedsmeddelelser og login-bekræftelser.
 postChangePrimary-action = Håndter konto
-postChangeRecoveryPhone-subject = Telefonnummer til gendannelse opdateret
+postChangeRecoveryPhone-subject = Telefonnummer til genoprettelse opdateret
 postChangeRecoveryPhone-preview = Konto beskyttet af totrinsgodkendelse
-postChangeRecoveryPhone-title = Du ændrede dit telefonnummer til gendannelse
-postChangeRecoveryPhone-description = Du har nu et nyt telefonnummer til gendannelse. Dit tidligere telefonnummer blev slettet.
+postChangeRecoveryPhone-title = Du ændrede dit telefonnummer til genoprettelse
+postChangeRecoveryPhone-description = Du har nu et nyt telefonnummer til genoprettelse. Dit tidligere telefonnummer blev slettet.
 postChangeRecoveryPhone-requested-device = Du har bedt om det fra:
 postConsumeRecoveryCode-title-2 = Du har brugt en reserve-godkendelseskode
 # After the colon, there is description of the device that the backup authentication code was used on
@@ -412,10 +412,10 @@ postRemoveAccountRecovery-title-3 = Du slettede din genoprettelsesnøgle til kon
 postRemoveAccountRecovery-body-part1 = Din genoprettelsesnøgle til kontoen er påkrævet for at gendanne dine krypterede browserdata, hvis du glemmer din adgangskode.
 postRemoveAccountRecovery-body-part2 = Hvis du ikke allerede har gjort det, så opret en ny genoprettelsesnøgle til kontoen i dine kontoindstillinger for at forhindre, at du mister dine gemte adgangskoder, bogmærker, browserhistorik med mere.
 postRemoveAccountRecovery-action = Håndter konto
-postRemoveRecoveryPhone-subject = Telefonnummer til gendannelse fjernet
+postRemoveRecoveryPhone-subject = Telefonnummer til genoprettelse fjernet
 postRemoveRecoveryPhone-preview = Konto beskyttet af totrinsgodkendelse
-postRemoveRecoveryPhone-title = Telefonnummer til gendannelse fjernet
-postRemoveRecoveryPhone-description = Dit telefonnummer til gendannelse er blevet fjernet fra dine indstillinger for totrinsgodkendelse. Du har stadig dine reserve-godkendelseskoder tilgængelig til brug.
+postRemoveRecoveryPhone-title = Telefonnummer til genoprettelse fjernet
+postRemoveRecoveryPhone-description = Dit telefonnummer til genoprettelse er blevet fjernet fra dine indstillinger for totrinsgodkendelse. Du har stadig dine reserve-godkendelseskoder tilgængelig til brug.
 postRemoveRecoveryPhone-requested-device = Du har bedt om det fra:
 postRemoveSecondary-subject = Sekundær mailadresse fjernet
 postRemoveSecondary-title = Sekundær mailadresse fjernet
@@ -435,9 +435,9 @@ postSigninRecoveryCode-title = Din reserve-godkendelseskode blev brugt til at lo
 postSigninRecoveryCode-description = Hvis det ikke var dig, der gjorde det, bør du skifte din adgangskode med det samme for at holde din konto sikker.
 postSigninRecoveryCode-device = Du loggede ind fra:
 postSigninRecoveryCode-action = Håndter konto
-postSigninRecoveryPhone-subject = Telefonnummer til gendannelse brugt til at logge ind
+postSigninRecoveryPhone-subject = Telefonnummer til genoprettelse brugt til at logge ind
 postSigninRecoveryPhone-preview = Bekræft kontoaktivitet
-postSigninRecoveryPhone-title = Dit telefonnummer til gendannelse blev brugt til at logge ind
+postSigninRecoveryPhone-title = Dit telefonnummer til genoprettelse blev brugt til at logge ind
 postSigninRecoveryPhone-description = Hvis det ikke var dig, der gjorde det, bør du skift din adgangskode med det samme for at holde din konto sikker.
 postSigninRecoveryPhone-device = Du loggede ind fra:
 postSigninRecoveryPhone-action = Håndter konto
