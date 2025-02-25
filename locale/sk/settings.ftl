@@ -1236,6 +1236,7 @@ auth-error-214 = Telefónne číslo na obnovenie už existuje
 auth-error-215 = Telefónne číslo na obnovenie neexistuje
 auth-error-216 = Bol dosiahnutý limit textových správ
 auth-error-218 = Obnovenie pomocou telefónu nie je možné odstrániť, chýbajú záložné overovacie kódy.
+auth-error-219 = Toto telefónne číslo bolo zaregistrované s príliš veľkým počtom účtov. Skúste iné číslo.
 auth-error-999 = Neočakávaná chyba
 auth-error-1001 = Pokus o prihlásenie bol zrušený
 auth-error-1002 = Platnosť relácie vypršala. Ak chcete pokračovať, prihláste sa.
