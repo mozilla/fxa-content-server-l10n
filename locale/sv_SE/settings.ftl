@@ -1243,6 +1243,7 @@ auth-error-214 = Telefonnumret för återställning finns redan
 auth-error-215 = Telefonnumret för återställning finns inte
 auth-error-216 = Gränsen för textmeddelanden har nåtts
 auth-error-218 = Det går inte att ta bort återställningstelefon, saknar reservautentiseringskoder.
+auth-error-219 = Det här telefonnumret har registrerats på för många konton. Försök med ett annat nummer.
 auth-error-999 = Oväntat fel
 auth-error-1001 = Inloggningsförsök avbröts
 auth-error-1002 = Sessionen upphörde. Logga in för att fortsätta.
