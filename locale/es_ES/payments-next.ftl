@@ -11,7 +11,6 @@ next-basic-error-message = Algo ha salido mal. Por favor, inténtalo de nuevo m�
 
 continue-signin-with-google-button = Seguir con { -brand-google }
 continue-signin-with-apple-button = Seguir con { -brand-apple }
-next-payment-method-header = Elige tu método de pago
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = Primero tendrás que aprobar tu suscripción
@@ -49,6 +48,9 @@ next-coupon-promo-code = Código promocional
 next-coupon-promo-code-applied = Código promocional aplicado
 next-coupon-remove = Eliminar
 next-coupon-submit = Aplicar
+payments-client-loading-spinner =
+    .aria-label = Cargando…
+    .alt = Cargando…
 
 ## Payment Section
 
@@ -56,7 +58,6 @@ next-new-user-card-title = Escribe la información de tu tarjeta
 
 ## Component - PurchaseDetails
 
-next-plan-details-hide-button = Ocultar detalles
 next-plan-details-show-button = Mostrar detalles
 
 ## Select Tax Location
