@@ -866,6 +866,15 @@ recent-activity-account-password-changed = Password changed
 recent-activity-account-secondary-email-added = Secondary email address added
 recent-activity-account-secondary-email-removed = Secondary email address removed
 recent-activity-account-emails-swapped = Primary and secondary emails swapped
+recent-activity-session-destroy = Logged out of session
+recent-activity-account-recovery-phone-send-code = Recovery phone code sent
+recent-activity-account-recovery-phone-setup-complete = Recovery phone setup completed
+recent-activity-account-recovery-phone-signin-complete = Sign-in with recovery phone completed
+recent-activity-account-recovery-phone-signin-failed = Sign-in with recovery phone failed
+recent-activity-account-recovery-phone-removed = Recovery phone removed
+recent-activity-account-recovery-codes-replaced = Recovery codes replaced
+recent-activity-account-recovery-codes-created = Recovery codes created
+recent-activity-account-recovery-codes-signin-complete = Sign-in with recovery codes completed
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Other account activity
 
@@ -1232,6 +1241,7 @@ auth-error-214 = Recovery phone number already exists
 auth-error-215 = Recovery phone number does not exist
 auth-error-216 = Text message limit reached
 auth-error-218 = Unable to remove recovery phone, missing backup authentication codes.
+auth-error-219 = This phone number has been registered with too many accounts. Please try a different number.
 auth-error-999 = Unexpected error
 auth-error-1001 = Login attempt cancelled
 auth-error-1002 = Session expired. Sign in to continue.
@@ -1244,6 +1254,11 @@ auth-error-1032 = You must enter a valid age to sign up
 auth-error-1054 = Invalid two-step authentication code
 auth-error-1056 = Invalid backup authentication code
 auth-error-1062 = Invalid redirect
+# Displayed when we want to reference a user's previously set up recovery phone
+# number, but they are not completely signed in yet. We'll only show the last 4 digits.
+# Variables:
+#  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
+recovery-phone-number-ending-digits = Number ending in { $lastFourPhoneNumber }
 oauth-error-1000 = Something went wrong. Please close this tab and try again.
 
 ## Cannot Create Account page
@@ -1720,6 +1735,9 @@ signin-recovery-code-use-phone-failure-description = Please try again later.
 signin-recovery-phone-flow-heading = Sign in
 # A recovery code in context of this page is a one time code sent to the user's phone
 signin-recovery-phone-heading = Enter recovery code
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+signin-recovery-phone-instruction-v3 = A six-digit code was sent to the phone number ending in <span>{ $lastFourPhoneDigits }</span> by text message. This code expires after 5 minutes. Donʼt share this code with anyone.
 signin-recovery-phone-input-label = Enter 6-digit code
 signin-recovery-phone-code-submit-button = Confirm
 signin-recovery-phone-resend-code-button = Resend code
