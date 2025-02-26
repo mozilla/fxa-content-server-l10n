@@ -7,6 +7,7 @@ next-iap-upgrade-contact-support = Du kan stadig få dette produkt. Kontakt supp
 next-payment-error-retry-button = Prøv igen
 next-basic-error-message = Noget gik galt. Prøv igen senere.
 checkout-error-contact-support-button = Kontakt Support
+checkout-error-contact-support = Kontakt supporten, så vi kan hjælpe dig.
 
 ## Page
 

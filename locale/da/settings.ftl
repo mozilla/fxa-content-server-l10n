@@ -865,10 +865,15 @@ recent-activity-account-password-changed = Adgangskode ændret
 recent-activity-account-secondary-email-added = Sekundær mailadresse tilføjet
 recent-activity-account-secondary-email-removed = Sekundær mailadresse fjernet
 recent-activity-account-emails-swapped = Primær og sekundær mailadresse byttet om
+recent-activity-session-destroy = Logget ud af session
+recent-activity-account-recovery-phone-send-code = Telefonnummer til genoprettelse sendt
 recent-activity-account-recovery-phone-setup-complete = Opsætning af telefonnummer til genoprettelse fuldført
 recent-activity-account-recovery-phone-signin-complete = Login med telefonnummer til genoprettelse fuldført
 recent-activity-account-recovery-phone-signin-failed = Login med telefonnummer til genoprettelse mislykkedes
 recent-activity-account-recovery-phone-removed = Telefonnummer til genoprettelse fjernet
+recent-activity-account-recovery-codes-replaced = Genoprettelseskoder udskiftet
+recent-activity-account-recovery-codes-created = Genoprettelseskoder oprettet
+recent-activity-account-recovery-codes-signin-complete = Login med genoprettelseskoder fuldført
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Anden kontoaktivitet
 
@@ -1235,6 +1240,7 @@ auth-error-214 = Telefonnummer til genoprettelse findes allerede
 auth-error-215 = Telefonnummer til genoprettelse findes ikke
 auth-error-216 = Grænsen for SMS-beskeder er nået
 auth-error-218 = Kunne ikke fjerne telefonnummer til genoprettelse, mangler reserve-godkendelseskoder.
+auth-error-219 = Dette telefonnummer er blevet registreret med for mange konti. Prøv et andet nummer.
 auth-error-999 = Uventet fejl
 auth-error-1001 = Login-forsøg annulleret
 auth-error-1002 = Sessionen udløb. Log ind for at fortsætte.
@@ -1247,6 +1253,11 @@ auth-error-1032 = Du skal indtaste en gyldig alder for at tilmelde dig
 auth-error-1054 = Ugyldig kode til totrinsgodkendelse
 auth-error-1056 = Ugyldig reserve-godkendelseskode
 auth-error-1062 = Ugyldig omdirigering
+# Displayed when we want to reference a user's previously set up recovery phone
+# number, but they are not completely signed in yet. We'll only show the last 4 digits.
+# Variables:
+#  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
+recovery-phone-number-ending-digits = Nummer, der ender på { $lastFourPhoneNumber }
 oauth-error-1000 = Noget gik galt. Luk dette faneblad og prøv igen.
 
 ## Cannot Create Account page
@@ -1721,6 +1732,9 @@ signin-recovery-code-use-phone-failure-description = Prøv igen senere.
 signin-recovery-phone-flow-heading = Log ind
 # A recovery code in context of this page is a one time code sent to the user's phone
 signin-recovery-phone-heading = Indtast genoprettelseskode
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+signin-recovery-phone-instruction-v3 = En sekscifret kode blev sendt i en SMS-besked til telefonnummeret, der ender på <span>{ $lastFourPhoneDigits }</span>. Denne kode udløber efter 5 minutter. Del ikke denne kode med nogen.
 signin-recovery-phone-input-label = Indtast 6-cifret kode
 signin-recovery-phone-code-submit-button = Bekræft
 signin-recovery-phone-resend-code-button = Send kode igen
