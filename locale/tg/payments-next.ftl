@@ -61,13 +61,6 @@ select-tax-location-successfully-updated = Ҷойгиршавии шумо на�
 select-tax-location-error-location-not-updated = Ҷойгиршавии шумо навсозӣ карда намешавад. Лутфан, аз нав кӯшиш кунед.
 signin-form-continue-button = Идома додан
 
-## Component - Details
-
-
-## Purchase details - shared by multiple components, including purchase details and payment form
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
-
 ## Component - PriceInterval
 
 
@@ -87,3 +80,10 @@ next-subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capita
 next-terms = Шартҳои хизматрасонӣ
 next-privacy = Огоҳномаи махфият
 next-terms-download = Шартҳои боргирӣ
+
+## Component - UpdatedPurchaseDetails
+
+
+## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
+## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
+

@@ -54,6 +54,8 @@ next-new-user-card-title = ചീട്ടു് വിവരം നല്കു
 
 ## Component - PurchaseDetails
 
+next-plan-details-tax = ചുങ്കവും കൂലിയും
+next-plan-details-total-label = തുക
 next-plan-details-hide-button = വിശദാംശങ്ങള്‍ മറയ്ക്കുക
 next-plan-details-show-button = വിശദാംശങ്ങൾ കാണിക്കുക
 
@@ -79,17 +81,6 @@ signin-form-email-input = താങ്ങളുടെ ഇതപാൽ നല്�
 signin-form-email-input-missing = ദയവായി താങ്ങളുടെ ഇതപാൽ നല്കുക
 signin-form-email-input-invalid = ദയവായിയൊരു സാധുവായ ഇതപാൽ നല്കുക
 
-## Component - Details
-
-next-plan-details-tax = ചുങ്കവും കൂലിയും
-next-plan-details-total-label = തുക
-
-## Purchase details - shared by multiple components, including purchase details and payment form
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
-list-positive-amount = { $amount }
-list-negative-amount = - { $amount }
-
 ## Component - PriceInterval
 
 
@@ -114,3 +105,10 @@ next-subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capita
 next-terms = സേവന നിബന്ധനകള്‍
 next-privacy = സ്വകാര്യത അറിയിപ്പ്
 next-terms-download = നിബന്ധനകൾ ഇറക്കിവയ്ക്കുക
+
+## Component - UpdatedPurchaseDetails
+
+
+## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
+## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
+

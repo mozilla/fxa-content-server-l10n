@@ -72,8 +72,15 @@ next-new-user-card-title = Metti i nfurmazzioni dâ to carta
 
 ## Component - PurchaseDetails
 
+next-plan-details-header = Minutagghi dû pruduttu
+next-plan-details-list-price = Prezzu currenti
+next-plan-details-tax = Tassi e cummissioni
+next-plan-details-total-label = Tutali
 next-plan-details-hide-button = Ammuccia i minutagghi
 next-plan-details-show-button = Mustra i minutagghi
+next-coupon-success = U to chianu veni rinnuvatu di manera autumàtica ô prezzu currenti.
+# $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
+next-coupon-success-repeating = U to chianu veni rinnuvatu di manera autumàtica doppu { $couponDurationDate } ô prezzu currenti.
 
 ## Select Tax Location
 
@@ -100,22 +107,6 @@ next-new-user-subscribe-product-updates-mdnplus = Vogghiu aviri nutizzi e attual
 next-new-user-subscribe-product-updates-mozilla = Vogghiu aviri nutizzi e attualizzi ncapu ê prudutti di { -brand-mozilla }
 next-new-user-subscribe-product-updates-snp = Vogghiu aviri nutizzi e attualizzi di sicurizza e privatizza di { -brand-mozilla }
 next-new-user-subscribe-product-assurance = Usamu u to nnirizzu di posta elittrònica sulu pi crìari u to cuntu. Nun u vinnemu mai a nuḍḍu.
-
-## Component - Details
-
-next-plan-details-header = Minutagghi dû pruduttu
-next-plan-details-list-price = Prezzu currenti
-next-plan-details-tax = Tassi e cummissioni
-next-plan-details-total-label = Tutali
-
-## Purchase details - shared by multiple components, including purchase details and payment form
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
-list-positive-amount = { $amount }
-list-negative-amount = - { $amount }
-next-coupon-success = U to chianu veni rinnuvatu di manera autumàtica ô prezzu currenti.
-# $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
-next-coupon-success-repeating = U to chianu veni rinnuvatu di manera autumàtica doppu { $couponDurationDate } ô prezzu currenti.
 
 ## Component - PriceInterval
 
@@ -145,3 +136,10 @@ next-subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capita
 next-terms = Tèrmini di sirbizzu
 next-privacy = Abbisu di privatizza
 next-terms-download = Scàrrica i tèrmini
+
+## Component - UpdatedPurchaseDetails
+
+
+## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
+## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
+

@@ -51,26 +51,19 @@ next-new-user-card-title = Унесите податке са картице
 
 ## Component - PurchaseDetails
 
-next-plan-details-hide-button = Сакриј детаље
-next-plan-details-show-button = Прикажи детаље
-
-## Select Tax Location
-
-next-new-user-subscribe-product-assurance = Користимо само вашу е-пошту да направимо ваш налог. Никада је нећемо продати трећој страни.
-
-## Component - Details
-
 next-plan-details-header = Детаљи производа
 next-plan-details-list-price = Ценовник
 next-plan-details-tax = Порези и надокнаде
 next-plan-details-total-label = Укупно
-
-## Purchase details - shared by multiple components, including purchase details and payment form
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
+next-plan-details-hide-button = Сакриј детаље
+next-plan-details-show-button = Прикажи детаље
 next-coupon-success = Ваш план ће се аутоматски обновити по основној цени.
 # $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
 next-coupon-success-repeating = Ваш план ће се аутоматски обновити после { $couponDurationDate } по основној цени.
+
+## Select Tax Location
+
+next-new-user-subscribe-product-assurance = Користимо само вашу е-пошту да направимо ваш налог. Никада је нећемо продати трећој страни.
 
 ## Component - PriceInterval
 
@@ -92,3 +85,10 @@ next-sub-guarantee = 30-дневна гаранција поврата новц�
 next-terms = Услови коришћења
 next-privacy = Обавештење о приватности
 next-terms-download = Услови преузимања
+
+## Component - UpdatedPurchaseDetails
+
+
+## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
+## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
+

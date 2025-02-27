@@ -47,25 +47,18 @@ next-coupon-submit = Bruk
 
 ## Component - PurchaseDetails
 
-next-plan-details-hide-button = Skjul detaljer
-next-plan-details-show-button = Vis detaljer
-
-## Select Tax Location
-
-
-## Component - Details
-
 next-plan-details-header = Produktdetaljer
 next-plan-details-list-price = Listepris
 next-plan-details-tax = Skatter og avgifter
 next-plan-details-total-label = Totalt
-
-## Purchase details - shared by multiple components, including purchase details and payment form
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
+next-plan-details-hide-button = Skjul detaljer
+next-plan-details-show-button = Vis detaljer
 next-coupon-success = Planen din fornyes automatisk til listeprisen.
 # $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
 next-coupon-success-repeating = Planen din fornyes automatisk etter { $couponDurationDate } til listeprisen.
+
+## Select Tax Location
+
 
 ## Component - PriceInterval
 
@@ -90,3 +83,10 @@ next-subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capita
 next-terms = Tjenestevilkår
 next-privacy = Personvernerklæring
 next-terms-download = Vilkår for nedlasting
+
+## Component - UpdatedPurchaseDetails
+
+
+## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
+## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
+

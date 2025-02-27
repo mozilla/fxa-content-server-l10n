@@ -47,26 +47,19 @@ next-new-user-card-title = Escribe la información de tu tarjeta
 
 ## Component - PurchaseDetails
 
-next-plan-details-hide-button = Ocultar detalles
-next-plan-details-show-button = Mostrar detalles
-
-## Select Tax Location
-
-next-new-user-subscribe-product-assurance = Utilizamos tu dirección únicamente para crear tu cuenta. Jamás la venderemos a terceros.
-
-## Component - Details
-
 next-plan-details-header = Detalles del producto
 next-plan-details-list-price = Precio de lista
 next-plan-details-tax = Impuestos y comisiones
 next-plan-details-total-label = Total
-
-## Purchase details - shared by multiple components, including purchase details and payment form
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
+next-plan-details-hide-button = Ocultar detalles
+next-plan-details-show-button = Mostrar detalles
 next-coupon-success = Tu plan se renovará automáticamente al precio de la lista.
 # $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
 next-coupon-success-repeating = Tu plan se renovará automáticamente después del { $couponDurationDate } al precio de lista.
+
+## Select Tax Location
+
+next-new-user-subscribe-product-assurance = Utilizamos tu dirección únicamente para crear tu cuenta. Jamás la venderemos a terceros.
 
 ## Component - PriceInterval
 
@@ -88,3 +81,10 @@ next-sub-guarantee = 30 días de garantía de devolución de dinero
 next-terms = Términos del servicio
 next-privacy = Aviso de privacidad
 next-terms-download = Descargar términos
+
+## Component - UpdatedPurchaseDetails
+
+
+## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
+## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
+

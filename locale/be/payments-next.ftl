@@ -51,8 +51,15 @@ next-new-user-card-title = Увядзіце даныя вашай карты
 
 ## Component - PurchaseDetails
 
+next-plan-details-header = Інфармацыя аб прадукце
+next-plan-details-list-price = Базавая цана
+next-plan-details-tax = Падаткі і зборы
+next-plan-details-total-label = Усяго
 next-plan-details-hide-button = Схаваць падрабязнасці
 next-plan-details-show-button = Паказаць падрабязнасці
+next-coupon-success = Ваш тарыфны план будзе аўтаматычна падоўжаны па базавай цане.
+# $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
+next-coupon-success-repeating = Ваш план будзе аўтаматычна падоўжаны пасля { $couponDurationDate } па базавай цане.
 
 ## Select Tax Location
 
@@ -60,20 +67,6 @@ next-new-user-subscribe-product-updates-mdnplus = Я хачу атрымліва
 next-new-user-subscribe-product-updates-mozilla = Я хачу атрымліваць навіны аб прадуктах і абнаўленні ад { -brand-mozilla }
 next-new-user-subscribe-product-updates-snp = Я хачу атрымліваць навіны і абнаўленні па бяспецы і прыватнасці ад { -brand-mozilla }
 next-new-user-subscribe-product-assurance = Мы выкарыстоўваем вашу электронную пошту толькі для стварэння вашага ўліковага запісу. Мы ніколі не прададзім яго староннім асобам.
-
-## Component - Details
-
-next-plan-details-header = Інфармацыя аб прадукце
-next-plan-details-list-price = Базавая цана
-next-plan-details-tax = Падаткі і зборы
-next-plan-details-total-label = Усяго
-
-## Purchase details - shared by multiple components, including purchase details and payment form
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
-next-coupon-success = Ваш тарыфны план будзе аўтаматычна падоўжаны па базавай цане.
-# $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
-next-coupon-success-repeating = Ваш план будзе аўтаматычна падоўжаны пасля { $couponDurationDate } па базавай цане.
 
 ## Component - PriceInterval
 
@@ -98,3 +91,10 @@ next-subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capita
 next-terms = Умовы абслугоўвання
 next-privacy = Паведамленне аб прыватнасці
 next-terms-download = Умовы сцягвання
+
+## Component - UpdatedPurchaseDetails
+
+
+## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
+## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
+

@@ -28,19 +28,12 @@ next-payment-validate-name-error = Escriba o seu nome.
 
 ## Component - PurchaseDetails
 
+next-plan-details-header = Detalles do produto
+next-plan-details-total-label = Total
 next-plan-details-hide-button = Agochar os detalles
 next-plan-details-show-button = Mostrar os detalles
 
 ## Select Tax Location
-
-
-## Component - Details
-
-next-plan-details-header = Detalles do produto
-next-plan-details-total-label = Total
-
-## Purchase details - shared by multiple components, including purchase details and payment form
-## $amount (Number) - The amount billed. It will be formatted as currency.
 
 
 ## Component - PriceInterval
@@ -58,3 +51,10 @@ next-sub-guarantee = Garantía de devolución do diñeiro de 30 días
 
 next-terms = Condicións do servizo
 next-privacy = Aviso de privacidade
+
+## Component - UpdatedPurchaseDetails
+
+
+## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
+## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
+

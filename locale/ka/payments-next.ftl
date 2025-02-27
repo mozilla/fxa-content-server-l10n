@@ -72,8 +72,15 @@ next-new-user-card-title = შეიყვანეთ თქვენი ბა
 
 ## Component - PurchaseDetails
 
+next-plan-details-header = პროდუქტის შესახებ
+next-plan-details-list-price = ფასების ნუსხა
+next-plan-details-tax = გადასახადები და მოსაკრებლები
+next-plan-details-total-label = სულ
 next-plan-details-hide-button = მოკლედ ჩვენება
 next-plan-details-show-button = ვრცლად ჩვენება
+next-coupon-success = თქვენი გადახდის გეგმა თავისით განახლდება ფასების ნუსხის მიხედვით.
+# $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
+next-coupon-success-repeating = თქვენი გეგმა თავისით დაუბრუნდება განსაზღვრულ ფასებს თარიღიდან { $couponDurationDate }
 
 ## Select Tax Location
 
@@ -100,22 +107,6 @@ next-new-user-subscribe-product-updates-mdnplus = მსურს შევი�
 next-new-user-subscribe-product-updates-mozilla = მსურს შევიტყო, რა სიახლეებსა და ცვლილებებს გვთავაზობს { -brand-mozilla }
 next-new-user-subscribe-product-updates-snp = მსურს შევიტყო, რა სიახლეებსა და ცვლილებებს გვთავაზობს პირადულობისა და უსაფრთხოებისთვის { -brand-mozilla }
 next-new-user-subscribe-product-assurance = ჩვენ ვიყენებთ მხოლოდ თქვენს ელფოსტას ანგარიშის შესაქმნელად. არასოდეს გავყიდით სხვა პირებზე.
-
-## Component - Details
-
-next-plan-details-header = პროდუქტის შესახებ
-next-plan-details-list-price = ფასების ნუსხა
-next-plan-details-tax = გადასახადები და მოსაკრებლები
-next-plan-details-total-label = სულ
-
-## Purchase details - shared by multiple components, including purchase details and payment form
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
-list-positive-amount = { $amount }
-list-negative-amount = - { $amount }
-next-coupon-success = თქვენი გადახდის გეგმა თავისით განახლდება ფასების ნუსხის მიხედვით.
-# $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
-next-coupon-success-repeating = თქვენი გეგმა თავისით დაუბრუნდება განსაზღვრულ ფასებს თარიღიდან { $couponDurationDate }
 
 ## Component - PriceInterval
 
@@ -145,3 +136,10 @@ next-subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts }
 next-terms = გამოყენების პირობები
 next-privacy = პირადულობის განაცხადი
 next-terms-download = პირობების ჩამოტვირთვა
+
+## Component - UpdatedPurchaseDetails
+
+
+## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
+## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
+

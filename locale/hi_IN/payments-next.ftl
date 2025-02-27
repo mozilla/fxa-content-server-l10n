@@ -26,19 +26,12 @@ next-new-user-card-title = अपने कार्ड की जानका�
 
 ## Component - PurchaseDetails
 
+next-plan-details-header = उत्पाद विवरण
+next-plan-details-total-label = कुल
 next-plan-details-hide-button = विवरण छिपाएं
 next-plan-details-show-button = विवरण दिखाएं
 
 ## Select Tax Location
-
-
-## Component - Details
-
-next-plan-details-header = उत्पाद विवरण
-next-plan-details-total-label = कुल
-
-## Purchase details - shared by multiple components, including purchase details and payment form
-## $amount (Number) - The amount billed. It will be formatted as currency.
 
 
 ## Component - PriceInterval
@@ -55,3 +48,10 @@ next-plan-details-total-label = कुल
 
 next-terms = सेवा की शर्तें
 next-privacy = गोपनीयता सूचना
+
+## Component - UpdatedPurchaseDetails
+
+
+## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
+## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
+

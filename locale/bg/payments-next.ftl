@@ -30,18 +30,11 @@ next-coupon-submit = Прилагане
 
 ## Component - PurchaseDetails
 
+next-plan-details-total-label = Всичко
 next-plan-details-hide-button = Скриване на детайли
 next-plan-details-show-button = Показване на детайли
 
 ## Select Tax Location
-
-
-## Component - Details
-
-next-plan-details-total-label = Всичко
-
-## Purchase details - shared by multiple components, including purchase details and payment form
-## $amount (Number) - The amount billed. It will be formatted as currency.
 
 
 ## Component - PriceInterval
@@ -60,3 +53,10 @@ next-sub-guarantee = 30-дневна гаранция за връщане на �
 ## Component - TermsAndPrivacy
 
 next-terms = Условия за ползване
+
+## Component - UpdatedPurchaseDetails
+
+
+## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
+## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
+

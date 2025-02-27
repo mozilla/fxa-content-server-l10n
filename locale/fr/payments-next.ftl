@@ -72,8 +72,15 @@ next-new-user-card-title = Saisissez les informations de votre carte
 
 ## Component - PurchaseDetails
 
+next-plan-details-header = Détails du produit
+next-plan-details-list-price = Prix courant
+next-plan-details-tax = Taxes et frais
+next-plan-details-total-label = Total
 next-plan-details-hide-button = Masquer les détails
 next-plan-details-show-button = Afficher les détails
+next-coupon-success = Votre forfait sera automatiquement renouvelé au prix courant.
+# $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
+next-coupon-success-repeating = Votre forfait sera automatiquement renouvelé au bout de { $couponDurationDate } au prix courant.
 
 ## Select Tax Location
 
@@ -100,22 +107,6 @@ next-new-user-subscribe-product-updates-mdnplus = Je souhaite recevoir des infor
 next-new-user-subscribe-product-updates-mozilla = Je souhaite recevoir des informations sur les produits et des actualités de { -brand-mozilla }
 next-new-user-subscribe-product-updates-snp = Je souhaite recevoir des informations sur la sécurité et la confidentialité et des actualités de { -brand-mozilla }
 next-new-user-subscribe-product-assurance = Nous utilisons votre adresse e-mail uniquement pour créer votre compte. Nous ne la vendrons jamais à un tiers.
-
-## Component - Details
-
-next-plan-details-header = Détails du produit
-next-plan-details-list-price = Prix courant
-next-plan-details-tax = Taxes et frais
-next-plan-details-total-label = Total
-
-## Purchase details - shared by multiple components, including purchase details and payment form
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
-list-positive-amount = { $amount }
-list-negative-amount = - { $amount }
-next-coupon-success = Votre forfait sera automatiquement renouvelé au prix courant.
-# $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
-next-coupon-success-repeating = Votre forfait sera automatiquement renouvelé au bout de { $couponDurationDate } au prix courant.
 
 ## Component - PriceInterval
 
@@ -145,3 +136,10 @@ next-subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capita
 next-terms = Conditions d’utilisation
 next-privacy = Politique de confidentialité
 next-terms-download = Télécharger les conditions
+
+## Component - UpdatedPurchaseDetails
+
+
+## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
+## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
+

@@ -72,8 +72,15 @@ next-new-user-card-title = Εισαγάγετε τα στοιχεία της κ�
 
 ## Component - PurchaseDetails
 
+next-plan-details-header = Λεπτομέρειες προιόντος
+next-plan-details-list-price = Τιμή καταλόγου
+next-plan-details-tax = Φόροι και τέλη
+next-plan-details-total-label = Σύνολο
 next-plan-details-hide-button = Απόκρυψη λεπτομερειών
 next-plan-details-show-button = Εμφάνιση λεπτομερειών
+next-coupon-success = Το πρόγραμμά σας θα ανανεωθεί αυτόματα στην τιμή καταλόγου.
+# $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
+next-coupon-success-repeating = Το πρόγραμμά σας θα ανανεωθεί αυτόματα μετά τις { $couponDurationDate } στην τιμή καταλόγου.
 
 ## Select Tax Location
 
@@ -100,22 +107,6 @@ next-new-user-subscribe-product-updates-mdnplus = Επιθυμώ να λαμβά
 next-new-user-subscribe-product-updates-mozilla = Επιθυμώ να λαμβάνω ειδήσεις και ενημερώσεις προϊόντων από τη { -brand-mozilla }
 next-new-user-subscribe-product-updates-snp = Επιθυμώ να λαμβάνω ειδήσεις και ενημερώσεις ασφαλείας και απορρήτου από τη { -brand-mozilla }
 next-new-user-subscribe-product-assurance = Χρησιμοποιούμε το email σας μόνο για τη δημιουργία του λογαριασμού σας. Δεν θα το πωλήσουμε ποτέ σε τρίτους.
-
-## Component - Details
-
-next-plan-details-header = Λεπτομέρειες προιόντος
-next-plan-details-list-price = Τιμή καταλόγου
-next-plan-details-tax = Φόροι και τέλη
-next-plan-details-total-label = Σύνολο
-
-## Purchase details - shared by multiple components, including purchase details and payment form
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
-list-positive-amount = { $amount }
-list-negative-amount = - { $amount }
-next-coupon-success = Το πρόγραμμά σας θα ανανεωθεί αυτόματα στην τιμή καταλόγου.
-# $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
-next-coupon-success-repeating = Το πρόγραμμά σας θα ανανεωθεί αυτόματα μετά τις { $couponDurationDate } στην τιμή καταλόγου.
 
 ## Component - PriceInterval
 
@@ -145,3 +136,10 @@ next-subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(case: 
 next-terms = Όροι υπηρεσίας
 next-privacy = Σημείωση απορρήτου
 next-terms-download = Λήψη όρων
+
+## Component - UpdatedPurchaseDetails
+
+
+## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
+## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
+

@@ -1047,8 +1047,6 @@ tfa-row-backup-codes-not-available = Không còn mã nào khả dụng
 # $numCodesRemaining - the number of backup authentication codes that have not yet been used (generally between 1 to 5)
 # A different message is shown when no codes are available
 tfa-row-backup-codes-available-v2 = { $numCodesAvailable } mã còn lại
-# Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
-tfa-row-backup-codes-get-new-cta = Tạo mã mới
 # Shown to users who have no backup authentication codes
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = Thêm
@@ -1057,8 +1055,6 @@ tfa-row-backup-codes-description-2 = Đây là phương pháp khôi phục an to
 # Recovery phone is a recovery method for two-step authentication
 # A recovery code can be sent to the user's phone
 tfa-row-backup-phone-title-v2 = Số điện thoại khôi phục
-# Shown with an alert icon to indicate that no recovery phone is configured
-tfa-row-backup-phone-not-available = Không có số điện thoại khôi phục
 # button to change the configured recovery phone
 tfa-row-backup-phone-change-cta = Thay đổi
 # button to add/configure a recovery phone

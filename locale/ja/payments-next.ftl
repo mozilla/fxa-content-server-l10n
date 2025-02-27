@@ -67,8 +67,15 @@ next-new-user-card-title = カード情報を入力してください
 
 ## Component - PurchaseDetails
 
+next-plan-details-header = 製品の詳細
+next-plan-details-list-price = 定価
+next-plan-details-tax = 税金と手数料
+next-plan-details-total-label = 合計
 next-plan-details-hide-button = 詳細を隠す
 next-plan-details-show-button = 詳細を表示
+next-coupon-success = プラン自動更新時の価格は定価になります。
+# $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
+next-coupon-success-repeating = プランは { $couponDurationDate } に自動更新され、価格は定価になります。
 
 ## Select Tax Location
 
@@ -95,22 +102,6 @@ next-new-user-subscribe-product-updates-mdnplus = { -product-mdn-plus } と { -b
 next-new-user-subscribe-product-updates-mozilla = { -brand-mozilla } から製品ニュースと最新情報を受け取りたい
 next-new-user-subscribe-product-updates-snp = { -brand-mozilla } からセキュリティとプライバシーに関するニュースと最新情報を受け取りたい
 next-new-user-subscribe-product-assurance = 私たちは、あなたのメールアドレスをアカウント作成にのみ使用し、この個人情報を第三者に販売しません。
-
-## Component - Details
-
-next-plan-details-header = 製品の詳細
-next-plan-details-list-price = 定価
-next-plan-details-tax = 税金と手数料
-next-plan-details-total-label = 合計
-
-## Purchase details - shared by multiple components, including purchase details and payment form
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
-list-positive-amount = { $amount }
-list-negative-amount = - { $amount }
-next-coupon-success = プラン自動更新時の価格は定価になります。
-# $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
-next-coupon-success-repeating = プランは { $couponDurationDate } に自動更新され、価格は定価になります。
 
 ## Component - PriceInterval
 
@@ -140,3 +131,10 @@ next-subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capita
 next-terms = 利用規約
 next-privacy = プライバシー通知
 next-terms-download = 利用規約をダウンロード
+
+## Component - UpdatedPurchaseDetails
+
+
+## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
+## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
+

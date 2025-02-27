@@ -1044,8 +1044,6 @@ tfa-row-backup-codes-available-v2 =
         [one] { $numCodesAvailable } კოდია დარჩენილი
        *[other] { $numCodesAvailable } კოდია დარჩენილი
     }
-# Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
-tfa-row-backup-codes-get-new-cta = ახალი კოდების მიღება
 # Shown to users who have no backup authentication codes
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = დამატება
@@ -1054,8 +1052,6 @@ tfa-row-backup-codes-description-2 = ესაა აღდგენის მ�
 # Recovery phone is a recovery method for two-step authentication
 # A recovery code can be sent to the user's phone
 tfa-row-backup-phone-title-v2 = აღდგენის ტელეფონი
-# Shown with an alert icon to indicate that no recovery phone is configured
-tfa-row-backup-phone-not-available = აღდგენის ტელეფონის ნომერი არაა მითითებული
 # button to change the configured recovery phone
 tfa-row-backup-phone-change-cta = შეცვლა
 # button to add/configure a recovery phone

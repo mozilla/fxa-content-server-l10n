@@ -25,13 +25,6 @@ next-basic-error-message = Asocedió daqué malo. Volvi tentalo dempués, por fa
 ## Select Tax Location
 
 
-## Component - Details
-
-
-## Purchase details - shared by multiple components, including purchase details and payment form
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
-
 ## Component - PriceInterval
 
 
@@ -48,3 +41,10 @@ next-subscription-error-title = Hebo un error al confirmar la soscripción…
 
 next-terms = Términos del serviciu
 next-privacy = Avisu de privacidá
+
+## Component - UpdatedPurchaseDetails
+
+
+## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
+## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
+

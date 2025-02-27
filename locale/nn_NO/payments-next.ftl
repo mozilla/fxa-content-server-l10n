@@ -69,8 +69,15 @@ next-new-user-card-title = Skriv inn betalingskortinformasjon
 
 ## Component - PurchaseDetails
 
+next-plan-details-header = Produktdetaljar
+next-plan-details-list-price = Listepris
+next-plan-details-tax = Skattar og avgifter
+next-plan-details-total-label = Totalt
 next-plan-details-hide-button = Gøym detaljar
 next-plan-details-show-button = Vis detaljar
+next-coupon-success = Planen din vert fornya automatisk til listeprisen.
+# $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
+next-coupon-success-repeating = Planen din vert fornya automatisk etter { $couponDurationDate } til listeprisen.
 
 ## Select Tax Location
 
@@ -97,22 +104,6 @@ next-new-user-subscribe-product-updates-mdnplus = Eg vil gjerne få produktnyhei
 next-new-user-subscribe-product-updates-mozilla = Eg vil gjerne få produktnyheiter og oppdateringar frå { -brand-mozilla }
 next-new-user-subscribe-product-updates-snp = Eg vil gjerne få nyheteir og oppdateringar om sikkerheit og personvern frå { -brand-mozilla }
 next-new-user-subscribe-product-assurance = Vi brukar berre e-postadressa di for å opprette kontoen din. Vi vil aldri selje henne til ein tredje part.
-
-## Component - Details
-
-next-plan-details-header = Produktdetaljar
-next-plan-details-list-price = Listepris
-next-plan-details-tax = Skattar og avgifter
-next-plan-details-total-label = Totalt
-
-## Purchase details - shared by multiple components, including purchase details and payment form
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
-list-positive-amount = { $amount }
-list-negative-amount = - { $amount }
-next-coupon-success = Planen din vert fornya automatisk til listeprisen.
-# $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
-next-coupon-success-repeating = Planen din vert fornya automatisk etter { $couponDurationDate } til listeprisen.
 
 ## Component - PriceInterval
 
@@ -142,3 +133,10 @@ next-subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capita
 next-terms = Tenestevilkår
 next-privacy = Personvernerklæring
 next-terms-download = Vilkår for nedlasting
+
+## Component - UpdatedPurchaseDetails
+
+
+## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
+## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
+

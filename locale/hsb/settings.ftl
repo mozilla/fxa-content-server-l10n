@@ -1049,8 +1049,6 @@ tfa-row-backup-codes-available-v2 =
         [few] { $numCodesAvailable } kody zwostawace
        *[other] { $numCodesAvailable } kodow zwostawace
     }
-# Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
-tfa-row-backup-codes-get-new-cta = Nowe kody wobstarać
 # Shown to users who have no backup authentication codes
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = Přidać
@@ -1059,8 +1057,6 @@ tfa-row-backup-codes-description-2 = To je najwěsćiša wobnowjenska metoda, je
 # Recovery phone is a recovery method for two-step authentication
 # A recovery code can be sent to the user's phone
 tfa-row-backup-phone-title-v2 = Wobnowjenski telefon
-# Shown with an alert icon to indicate that no recovery phone is configured
-tfa-row-backup-phone-not-available = Čisło wobnowjenskeho telefona k dispoziciji njeje
 # button to change the configured recovery phone
 tfa-row-backup-phone-change-cta = Změnić
 # button to add/configure a recovery phone

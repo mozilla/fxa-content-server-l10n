@@ -26,13 +26,6 @@ next-basic-error-message = Qandaydir xatolik yuz berdi. Keyinroq qayta urining.
 ## Select Tax Location
 
 
-## Component - Details
-
-
-## Purchase details - shared by multiple components, including purchase details and payment form
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
-
 ## Component - PriceInterval
 
 
@@ -44,4 +37,11 @@ next-basic-error-message = Qandaydir xatolik yuz berdi. Keyinroq qayta urining.
 
 
 ## Component - TermsAndPrivacy
+
+
+## Component - UpdatedPurchaseDetails
+
+
+## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
+## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
 

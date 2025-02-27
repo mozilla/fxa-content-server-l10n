@@ -56,8 +56,15 @@ next-new-user-card-title = Emoinge marandu kuatia’atã rehegua
 
 ## Component - PurchaseDetails
 
+next-plan-details-header = Apopyre mba’emimi
+next-plan-details-list-price = Tysýi repy
+next-plan-details-tax = Impuesto ha tása
+next-plan-details-total-label = Opavavete
 next-plan-details-hide-button = Mba’emimi mokañy
 next-plan-details-show-button = Mba’emimi jehechauka
+next-coupon-success = Ne rembiaporã ipyahúta ijehegui tysýi repýpe.
+# $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
+next-coupon-success-repeating = Nde porupy hekopyahúta ijehegui { $couponDurationDate } rire tepy tysyiguávape.
 
 ## Select Tax Location
 
@@ -76,22 +83,6 @@ next-new-user-subscribe-product-updates-mdnplus = Hi’ã og̃uahẽ marandu ha 
 next-new-user-subscribe-product-updates-mozilla = Hi’ã og̃uahẽ marandu ha ñembohekopyahu { -brand-mozilla } apopyre rehegua
 next-new-user-subscribe-product-updates-snp = Hi’ã og̃uahẽ marandu ha ñembohekopyahu { -brand-mozilla } guive tekorosã rehegua
 next-new-user-subscribe-product-assurance = Roiporu ne ñanduti veve romoheñói hag̃ua mba’ete añónte. Araka’eve norome’ẽmo’ãi ambuépe.
-
-## Component - Details
-
-next-plan-details-header = Apopyre mba’emimi
-next-plan-details-list-price = Tysýi repy
-next-plan-details-tax = Impuesto ha tása
-next-plan-details-total-label = Opavavete
-
-## Purchase details - shared by multiple components, including purchase details and payment form
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
-list-positive-amount = { $amount }
-list-negative-amount = - { $amount }
-next-coupon-success = Ne rembiaporã ipyahúta ijehegui tysýi repýpe.
-# $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
-next-coupon-success-repeating = Nde porupy hekopyahúta ijehegui { $couponDurationDate } rire tepy tysyiguávape.
 
 ## Component - PriceInterval
 
@@ -121,3 +112,10 @@ next-subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capita
 next-terms = Mba’epytyvõrã ñemboguata
 next-privacy = Marandu’i ñemiguáva
 next-terms-download = Emboguejy ñemboguatarã
+
+## Component - UpdatedPurchaseDetails
+
+
+## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
+## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
+

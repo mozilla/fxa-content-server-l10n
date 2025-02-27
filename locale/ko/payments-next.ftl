@@ -52,8 +52,15 @@ next-new-user-card-title = 카드 정보를 입력하세요.
 
 ## Component - PurchaseDetails
 
+next-plan-details-header = 제품 세부 정보
+next-plan-details-list-price = 정가
+next-plan-details-tax = 세금 및 수수료
+next-plan-details-total-label = 전체
 next-plan-details-hide-button = 상세 내용 숨기기
 next-plan-details-show-button = 상세 정보 보기
+next-coupon-success = 요금제는 정가로 자동 갱신됩니다.
+# $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
+next-coupon-success-repeating = 요금제는 { $couponDurationDate } 이후 정가로 자동 갱신됩니다.
 
 ## Select Tax Location
 
@@ -61,20 +68,6 @@ next-new-user-subscribe-product-updates-mdnplus = { -product-mdn-plus } 및 { -b
 next-new-user-subscribe-product-updates-mozilla = { -brand-mozilla }로부터 제품 뉴스와 최신정보를 받습니다.
 next-new-user-subscribe-product-updates-snp = { -brand-mozilla }로부터 보안과 개인 정보에 대한 소식 및 최신 정보를 받습니다.
 next-new-user-subscribe-product-assurance = 이메일은 오직 계정을 만드는 데만 사용됩니다. 절대 제3자에게 판매하지 않습니다.
-
-## Component - Details
-
-next-plan-details-header = 제품 세부 정보
-next-plan-details-list-price = 정가
-next-plan-details-tax = 세금 및 수수료
-next-plan-details-total-label = 전체
-
-## Purchase details - shared by multiple components, including purchase details and payment form
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
-next-coupon-success = 요금제는 정가로 자동 갱신됩니다.
-# $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
-next-coupon-success-repeating = 요금제는 { $couponDurationDate } 이후 정가로 자동 갱신됩니다.
 
 ## Component - PriceInterval
 
@@ -99,3 +92,10 @@ next-subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capita
 next-terms = 서비스 약관
 next-privacy = 개인정보 보호정책
 next-terms-download = 약관 다운로드
+
+## Component - UpdatedPurchaseDetails
+
+
+## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
+## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
+

@@ -26,18 +26,11 @@ next-coupon-submit = వర్తింపజేయి
 
 ## Component - PurchaseDetails
 
+next-plan-details-total-label = మొత్తం
 next-plan-details-hide-button = వివరాలను దాచు
 next-plan-details-show-button = వివరాలను చూపించు
 
 ## Select Tax Location
-
-
-## Component - Details
-
-next-plan-details-total-label = మొత్తం
-
-## Purchase details - shared by multiple components, including purchase details and payment form
-## $amount (Number) - The amount billed. It will be formatted as currency.
 
 
 ## Component - PriceInterval
@@ -55,3 +48,10 @@ next-plan-details-total-label = మొత్తం
 next-terms = సేవా నియమాలు
 next-privacy = గోప్యతా విధానం
 next-terms-download = దింపుకోలు నియమాలు
+
+## Component - UpdatedPurchaseDetails
+
+
+## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
+## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
+

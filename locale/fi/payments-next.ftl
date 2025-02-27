@@ -72,8 +72,15 @@ next-new-user-card-title = Anna korttisi tiedot
 
 ## Component - PurchaseDetails
 
+next-plan-details-header = Tuotteen tiedot
+next-plan-details-list-price = Listahinta
+next-plan-details-tax = Verot ja maksut
+next-plan-details-total-label = Yhteensä
 next-plan-details-hide-button = Piilota tiedot
 next-plan-details-show-button = Näytä tiedot
+next-coupon-success = Tilauksesi uusitaan automaattisesti listahintaan.
+# $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
+next-coupon-success-repeating = Tilauksesi uusiutuu automaattisesti { $couponDurationDate } listahinnan mukaisesti.
 
 ## Select Tax Location
 
@@ -100,22 +107,6 @@ next-new-user-subscribe-product-updates-mdnplus = Haluan saada tuoteuutisia ja p
 next-new-user-subscribe-product-updates-mozilla = Haluan saada tuoteuutisia ja päivityksiä { -brand-mozilla }lta
 next-new-user-subscribe-product-updates-snp = Haluan saada turvallisuus- ja tietosuojauutisia sekä päivityksiä { -brand-mozilla }lta
 next-new-user-subscribe-product-assurance = Käytämme sähköpostiosoitettasi vain tilin luomiseen. Emme koskaan myy sitä kolmannelle osapuolelle.
-
-## Component - Details
-
-next-plan-details-header = Tuotteen tiedot
-next-plan-details-list-price = Listahinta
-next-plan-details-tax = Verot ja maksut
-next-plan-details-total-label = Yhteensä
-
-## Purchase details - shared by multiple components, including purchase details and payment form
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
-list-positive-amount = { $amount }
-list-negative-amount = - { $amount }
-next-coupon-success = Tilauksesi uusitaan automaattisesti listahintaan.
-# $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
-next-coupon-success-repeating = Tilauksesi uusiutuu automaattisesti { $couponDurationDate } listahinnan mukaisesti.
 
 ## Component - PriceInterval
 
@@ -145,3 +136,10 @@ next-subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capita
 next-terms = Käyttöehdot
 next-privacy = Tietosuojakäytäntö
 next-terms-download = Latausehdot
+
+## Component - UpdatedPurchaseDetails
+
+
+## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
+## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
+

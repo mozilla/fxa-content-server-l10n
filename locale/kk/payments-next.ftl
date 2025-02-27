@@ -56,8 +56,15 @@ next-new-user-card-title = Карта ақпаратын енгізіңіз
 
 ## Component - PurchaseDetails
 
+next-plan-details-header = Өнім мәліметтері
+next-plan-details-list-price = Прейскурант
+next-plan-details-tax = Салықтар мен алымдар
+next-plan-details-total-label = Барлығы
 next-plan-details-hide-button = Мәліметтерді жасыру
 next-plan-details-show-button = Мәліметтерді көрсету
+next-coupon-success = Сіздің жоспарыңыз тізімдік баға бойынша автоматты түрде жаңартылады.
+# $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
+next-coupon-success-repeating = Жоспарыңыз тізім бағасы бойынша { $couponDurationDate } кейін автоматты түрде жаңартылады.
 
 ## Select Tax Location
 
@@ -78,22 +85,6 @@ next-new-user-subscribe-product-updates-mdnplus = Мен { -product-mdn-plus } �
 next-new-user-subscribe-product-updates-mozilla = Мен { -brand-mozilla } өнім жаңалықтары мен жаңартуларын алғым келеді
 next-new-user-subscribe-product-updates-snp = Мен { -brand-mozilla } ұсынған қауіпсіздік пен жекелік жаңалықтары мен жаңартуларын алғым келеді
 next-new-user-subscribe-product-assurance = Біз эл. поштаңызды тек тіркелгіңізді жасау үшін пайдаланамыз. Біз оны ешқашан үшінші тарапқа сатпаймыз.
-
-## Component - Details
-
-next-plan-details-header = Өнім мәліметтері
-next-plan-details-list-price = Прейскурант
-next-plan-details-tax = Салықтар мен алымдар
-next-plan-details-total-label = Барлығы
-
-## Purchase details - shared by multiple components, including purchase details and payment form
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
-list-positive-amount = { $amount }
-list-negative-amount = - { $amount }
-next-coupon-success = Сіздің жоспарыңыз тізімдік баға бойынша автоматты түрде жаңартылады.
-# $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
-next-coupon-success-repeating = Жоспарыңыз тізім бағасы бойынша { $couponDurationDate } кейін автоматты түрде жаңартылады.
 
 ## Component - PriceInterval
 
@@ -123,3 +114,10 @@ next-subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capita
 next-terms = Қолдану шарттары
 next-privacy = Жекелік ескертуі
 next-terms-download = Жүктеп алу шарттары
+
+## Component - UpdatedPurchaseDetails
+
+
+## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
+## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
+

@@ -48,6 +48,10 @@ next-new-user-card-title = Кредит картагызның язуларын 
 
 ## Component - PurchaseDetails
 
+next-plan-details-header = Продукт нечкәлекләре
+next-plan-details-list-price = Бәяләр исемлеге
+next-plan-details-tax = Салымнар һәм түләүләр
+next-plan-details-total-label = Барлыгы
 next-plan-details-hide-button = Нечкәлекләрен яшерү
 next-plan-details-show-button = Нечкәлекләрен күрсәтү
 
@@ -55,17 +59,6 @@ next-plan-details-show-button = Нечкәлекләрен күрсәтү
 
 next-new-user-subscribe-product-updates-mozilla = Мин { -brand-mozilla } җибәргән яңалыклардан хәбәрдар булырга телим
 next-new-user-subscribe-product-updates-snp = Мин { -brand-mozilla } җибәргән куркынычсызлык һәм хосусыйлык яңалыкларыннан һәм яңартулардан хәбәрдар булырга телим
-
-## Component - Details
-
-next-plan-details-header = Продукт нечкәлекләре
-next-plan-details-list-price = Бәяләр исемлеге
-next-plan-details-tax = Салымнар һәм түләүләр
-next-plan-details-total-label = Барлыгы
-
-## Purchase details - shared by multiple components, including purchase details and payment form
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
 
 ## Component - PriceInterval
 
@@ -87,3 +80,10 @@ next-sub-guarantee = 30 көн эчендә акчаны кире кайтару
 next-terms = Куллану Шартлары
 next-privacy = Хосусыйлык сәясәте
 next-terms-download = Куллану шартларын йөкләп алу
+
+## Component - UpdatedPurchaseDetails
+
+
+## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
+## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
+

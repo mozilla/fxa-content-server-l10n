@@ -72,8 +72,15 @@ next-new-user-card-title = Podaj informacje o karcie
 
 ## Component - PurchaseDetails
 
+next-plan-details-header = Informacje o produkcie
+next-plan-details-list-price = Cena katalogowa
+next-plan-details-tax = Podatki i opłaty
+next-plan-details-total-label = Razem
 next-plan-details-hide-button = Ukryj informacje
 next-plan-details-show-button = Wyświetl informacje
+next-coupon-success = Twój plan będzie automatycznie odnawiany po cenie katalogowej.
+# $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
+next-coupon-success-repeating = Po { $couponDurationDate } Twój plan będzie automatycznie odnawiany po cenie katalogowej.
 
 ## Select Tax Location
 
@@ -100,22 +107,6 @@ next-new-user-subscribe-product-updates-mdnplus = Chcę otrzymywać aktualności
 next-new-user-subscribe-product-updates-mozilla = Chcę otrzymywać aktualności i aktualizacje o produktach od { -brand-mozilla(case: "gen") }
 next-new-user-subscribe-product-updates-snp = Chcę otrzymywać aktualności i aktualizacje na temat bezpieczeństwa i prywatności od { -brand-mozilla(case: "gen") }
 next-new-user-subscribe-product-assurance = Używamy Twojego adresu e-mail wyłącznie do utworzenia konta. Nigdy nie sprzedamy go komuś innemu.
-
-## Component - Details
-
-next-plan-details-header = Informacje o produkcie
-next-plan-details-list-price = Cena katalogowa
-next-plan-details-tax = Podatki i opłaty
-next-plan-details-total-label = Razem
-
-## Purchase details - shared by multiple components, including purchase details and payment form
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
-list-positive-amount = { $amount }
-list-negative-amount = -{ $amount }
-next-coupon-success = Twój plan będzie automatycznie odnawiany po cenie katalogowej.
-# $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
-next-coupon-success-repeating = Po { $couponDurationDate } Twój plan będzie automatycznie odnawiany po cenie katalogowej.
 
 ## Component - PriceInterval
 
@@ -145,3 +136,10 @@ next-subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(case: 
 next-terms = Regulamin usługi
 next-privacy = Zasady ochrony prywatności
 next-terms-download = Warunki pobierania
+
+## Component - UpdatedPurchaseDetails
+
+
+## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
+## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
+

@@ -981,15 +981,11 @@ tfa-row-backup-codes-title = Резервні коди автентифікац�
 # Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
 # Users that have not enabled or verified 2FA will not see this
 tfa-row-backup-codes-not-available = Немає доступних кодів
-# Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
-tfa-row-backup-codes-get-new-cta = Отримати нові коди
 # Shown to users who have no backup authentication codes
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = Додати
 # 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
 tfa-row-backup-codes-description-2 = Це найбезпечніший спосіб відновлення, якщо ви не можете використати свій мобільний пристрій або програму автентифікації.
-# Shown with an alert icon to indicate that no recovery phone is configured
-tfa-row-backup-phone-not-available = Номер телефону для відновлення недоступний
 # button to change the configured recovery phone
 tfa-row-backup-phone-change-cta = Змінити
 # button to add/configure a recovery phone

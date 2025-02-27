@@ -31,8 +31,12 @@ next-new-user-card-title = اطلاعات کارت خود را وارد کنید
 
 ## Component - PurchaseDetails
 
+next-plan-details-header = جزئیات محصول
+next-plan-details-list-price = فهرست قیمت
+next-plan-details-total-label = مجموع
 next-plan-details-hide-button = نهفتن جزئیات
 next-plan-details-show-button = نمایش جزئیات
+next-coupon-success = طرح شما به طور خودکار با فهرست قیمت تمدید می‌شود.
 
 ## Select Tax Location
 
@@ -40,19 +44,6 @@ select-tax-location-title = مکان
 select-tax-location-edit-button = ویرایش
 select-tax-location-save-button = ذخیره
 select-tax-location-country-code-label = کشور
-
-## Component - Details
-
-next-plan-details-header = جزئیات محصول
-next-plan-details-list-price = فهرست قیمت
-next-plan-details-total-label = مجموع
-
-## Purchase details - shared by multiple components, including purchase details and payment form
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
-list-positive-amount = { $amount }
-list-negative-amount = - { $amount }
-next-coupon-success = طرح شما به طور خودکار با فهرست قیمت تمدید می‌شود.
 
 ## Component - PriceInterval
 
@@ -66,4 +57,11 @@ next-coupon-success = طرح شما به طور خودکار با فهرست ق�
 next-sub-guarantee = با ضمانت برگشت ۳۰ روزهٔ پول
 
 ## Component - TermsAndPrivacy
+
+
+## Component - UpdatedPurchaseDetails
+
+
+## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
+## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
 

@@ -72,8 +72,12 @@ next-new-user-card-title = נא להכניס את פרטי הכרטיס שלך
 
 ## Component - PurchaseDetails
 
+next-plan-details-header = פרטי מוצר
+next-plan-details-tax = מיסים ועמלות
+next-plan-details-total-label = סה״כ
 next-plan-details-hide-button = הסתרת פרטים
 next-plan-details-show-button = הצגת פרטים
+next-coupon-success = התוכנית שלך תתחדש אוטומטית עם המחיר המוצע.
 
 ## Select Tax Location
 
@@ -100,19 +104,6 @@ next-new-user-subscribe-product-updates-mdnplus = ברצוני לקבל חדשו
 next-new-user-subscribe-product-updates-mozilla = ברצוני לקבל חדשות ועדכונים על מוצרים מ־{ -brand-mozilla }
 next-new-user-subscribe-product-updates-snp = ברצוני לקבל חדשות ועדכונים על פרטיות ואבטחה מ־{ -brand-mozilla }
 next-new-user-subscribe-product-assurance = אנו משתמשים בדוא״ל שלך רק ליצירת החשבון שלך. לעולם לא נמכור אותו לצד שלישי.
-
-## Component - Details
-
-next-plan-details-header = פרטי מוצר
-next-plan-details-tax = מיסים ועמלות
-next-plan-details-total-label = סה״כ
-
-## Purchase details - shared by multiple components, including purchase details and payment form
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
-list-positive-amount = { $amount }
-list-negative-amount = - { $amount }
-next-coupon-success = התוכנית שלך תתחדש אוטומטית עם המחיר המוצע.
 
 ## Component - PriceInterval
 
@@ -142,3 +133,10 @@ next-subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts }
 next-terms = תנאי השירות
 next-privacy = הצהרת פרטיות
 next-terms-download = תנאי הורדה
+
+## Component - UpdatedPurchaseDetails
+
+
+## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
+## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
+

@@ -39,19 +39,12 @@ next-coupon-submit = Tisamajïx
 
 ## Component - PurchaseDetails
 
+next-plan-details-header = Rub'anikil tikojil
+next-plan-details-total-label = Ronojel
 next-plan-details-hide-button = Ke'ewäx ri taq rub'anikil
 next-plan-details-show-button = Kek'ut pe ri taq rub'anikil
 
 ## Select Tax Location
-
-
-## Component - Details
-
-next-plan-details-header = Rub'anikil tikojil
-next-plan-details-total-label = Ronojel
-
-## Purchase details - shared by multiple components, including purchase details and payment form
-## $amount (Number) - The amount billed. It will be formatted as currency.
 
 
 ## Component - PriceInterval
@@ -73,3 +66,10 @@ next-sub-guarantee = 30-q'ij tikirel nitzolïx pwäq
 
 next-terms = Ketal Samaj
 next-privacy = Ichinan Na'oj
+
+## Component - UpdatedPurchaseDetails
+
+
+## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
+## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
+

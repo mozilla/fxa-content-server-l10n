@@ -53,8 +53,15 @@ next-new-user-card-title = ใส่ข้อมูลบัตรของค�
 
 ## Component - PurchaseDetails
 
+next-plan-details-header = รายละเอียดสินค้า
+next-plan-details-list-price = ราคาขาย
+next-plan-details-tax = ภาษีและค่าธรรมเนียม
+next-plan-details-total-label = รวมทั้งหมด
 next-plan-details-hide-button = ซ่อนรายละเอียด
 next-plan-details-show-button = แสดงรายละเอียด
+next-coupon-success = แผนของคุณจะต่ออายุโดยอัตโนมัติที่ราคาขายปลีก
+# $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
+next-coupon-success-repeating = แผนของคุณจะต่ออายุโดยอัตโนมัติหลังจาก { $couponDurationDate } ที่ราคาขายปลีก
 
 ## Select Tax Location
 
@@ -70,20 +77,6 @@ next-new-user-subscribe-product-updates-mdnplus = ฉันต้องการ
 next-new-user-subscribe-product-updates-mozilla = ฉันต้องการรับข่าวสารและข้อมูลล่าสุดเกี่ยวกับผลิตภัณฑ์จาก { -brand-mozilla }
 next-new-user-subscribe-product-updates-snp = ฉันต้องการรับข่าวสารและข้อมูลล่าสุดเกี่ยวกับความปลอดภัยและความเป็นส่วนตัวจาก { -brand-mozilla }
 next-new-user-subscribe-product-assurance = เราใช้อีเมลของคุณเพื่อสร้างบัญชีของคุณเท่านั้น เราจะไม่ขายให้กับบุคคลที่สาม
-
-## Component - Details
-
-next-plan-details-header = รายละเอียดสินค้า
-next-plan-details-list-price = ราคาขาย
-next-plan-details-tax = ภาษีและค่าธรรมเนียม
-next-plan-details-total-label = รวมทั้งหมด
-
-## Purchase details - shared by multiple components, including purchase details and payment form
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
-next-coupon-success = แผนของคุณจะต่ออายุโดยอัตโนมัติที่ราคาขายปลีก
-# $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
-next-coupon-success-repeating = แผนของคุณจะต่ออายุโดยอัตโนมัติหลังจาก { $couponDurationDate } ที่ราคาขายปลีก
 
 ## Component - PriceInterval
 
@@ -108,3 +101,10 @@ next-subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capita
 next-terms = เงื่อนไขการให้บริการ
 next-privacy = ประกาศความเป็นส่วนตัว
 next-terms-download = ดาวน์โหลดข้อกำหนด
+
+## Component - UpdatedPurchaseDetails
+
+
+## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
+## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
+

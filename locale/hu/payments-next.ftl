@@ -72,8 +72,15 @@ next-new-user-card-title = Adja meg a kártyaadatait
 
 ## Component - PurchaseDetails
 
+next-plan-details-header = Termék részletei
+next-plan-details-list-price = Listaár
+next-plan-details-tax = Adók és díjak
+next-plan-details-total-label = Összesen
 next-plan-details-hide-button = Részletek elrejtése
 next-plan-details-show-button = Részletek megjelenítése
+next-coupon-success = A csomag automatikusan megújul a listaáron.
+# $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
+next-coupon-success-repeating = A csomag { $couponDurationDate } után automatikusan megújul listaáron.
 
 ## Select Tax Location
 
@@ -100,22 +107,6 @@ next-new-user-subscribe-product-updates-mdnplus = Szeretnék termékhíreket és
 next-new-user-subscribe-product-updates-mozilla = Szeretnék termékhíreket és újdonságokat kapni a { -brand-mozilla(ending: "accented") }tól
 next-new-user-subscribe-product-updates-snp = Szeretnék biztonsági és adatvédelmi híreket kapni a { -brand-mozilla(ending: "accented") }tól
 next-new-user-subscribe-product-assurance = Csak a fiókja létrehozásához használjuk az e-mail-címét. Sosem adjuk el harmadik félnek.
-
-## Component - Details
-
-next-plan-details-header = Termék részletei
-next-plan-details-list-price = Listaár
-next-plan-details-tax = Adók és díjak
-next-plan-details-total-label = Összesen
-
-## Purchase details - shared by multiple components, including purchase details and payment form
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
-list-positive-amount = { $amount }
-list-negative-amount = - { $amount }
-next-coupon-success = A csomag automatikusan megújul a listaáron.
-# $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
-next-coupon-success-repeating = A csomag { $couponDurationDate } után automatikusan megújul listaáron.
 
 ## Component - PriceInterval
 
@@ -145,3 +136,10 @@ next-subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts }
 next-terms = A szolgáltatás feltételei
 next-privacy = Adatvédelmi nyilatkozat
 next-terms-download = Letöltési feltételek
+
+## Component - UpdatedPurchaseDetails
+
+
+## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
+## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
+

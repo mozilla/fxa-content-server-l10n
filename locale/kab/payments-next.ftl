@@ -46,25 +46,18 @@ next-new-user-card-title = Sekcem talɣut-ik·im n yimayl
 
 ## Component - PurchaseDetails
 
+next-plan-details-header = Talqayt n ufaris
+next-plan-details-list-price = Tabdart n leswam
+next-plan-details-total-label = Asemday
 next-plan-details-hide-button = Ffer talqayt
 next-plan-details-show-button = Sken talqayt
+next-coupon-success = Aɣawas-ik·im ad ttuεawed s wudem awurman ɣer ssuma yellan tura.
+# $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
+next-coupon-success-repeating = Aɣawas-ik·im ad yettuεawed s wudem awuran seld { $couponDurationDate } ɣer ssuma tamirant.
 
 ## Select Tax Location
 
 next-new-user-subscribe-product-assurance = Nseqdac kan imayl-ik·im i wakken ad nernu amiḍan-ik·im. Urǧin ad t-nsenz i wis kraḍ.
-
-## Component - Details
-
-next-plan-details-header = Talqayt n ufaris
-next-plan-details-list-price = Tabdart n leswam
-next-plan-details-total-label = Asemday
-
-## Purchase details - shared by multiple components, including purchase details and payment form
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
-next-coupon-success = Aɣawas-ik·im ad ttuεawed s wudem awurman ɣer ssuma yellan tura.
-# $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
-next-coupon-success-repeating = Aɣawas-ik·im ad yettuεawed s wudem awuran seld { $couponDurationDate } ɣer ssuma tamirant.
 
 ## Component - PriceInterval
 
@@ -89,3 +82,10 @@ next-subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capita
 next-terms = Tiwtilin n useqdec
 next-privacy = Tasertit n tbaḍnit
 next-terms-download = Tiwtilin n usader
+
+## Component - UpdatedPurchaseDetails
+
+
+## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
+## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
+

@@ -26,13 +26,6 @@ next-coupon-submit = Примени
 ## Select Tax Location
 
 
-## Component - Details
-
-
-## Purchase details - shared by multiple components, including purchase details and payment form
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
-
 ## Component - PriceInterval
 
 
@@ -44,4 +37,11 @@ next-coupon-submit = Примени
 
 
 ## Component - TermsAndPrivacy
+
+
+## Component - UpdatedPurchaseDetails
+
+
+## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
+## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
 

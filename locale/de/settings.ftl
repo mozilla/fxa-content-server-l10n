@@ -1043,8 +1043,6 @@ tfa-row-backup-codes-available-v2 =
         [one] Noch { $numCodesAvailable } Code übrig
        *[other] Noch { $numCodesAvailable } Codes übrig
     }
-# Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
-tfa-row-backup-codes-get-new-cta = Neue Codes erhalten
 # Shown to users who have no backup authentication codes
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = Hinzufügen
@@ -1053,8 +1051,6 @@ tfa-row-backup-codes-description-2 = Dies ist die sicherste Wiederherstellungsme
 # Recovery phone is a recovery method for two-step authentication
 # A recovery code can be sent to the user's phone
 tfa-row-backup-phone-title-v2 = Telefonnummer zur Kontowiederherstellung
-# Shown with an alert icon to indicate that no recovery phone is configured
-tfa-row-backup-phone-not-available = Keine Telefonnummer zur Wiederherstellung verfügbar
 # button to change the configured recovery phone
 tfa-row-backup-phone-change-cta = Ändern
 # button to add/configure a recovery phone

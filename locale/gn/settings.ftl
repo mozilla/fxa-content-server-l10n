@@ -978,13 +978,9 @@ tfa-row-backup-codes-title = Ayvu ñemoneĩrã jeykekoha
 # Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
 # Users that have not enabled or verified 2FA will not see this
 tfa-row-backup-codes-not-available = Ndaipóri mba’eñemi porupyrã
-# Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
-tfa-row-backup-codes-get-new-cta = Ereko mba’eñemi pyahu
 # Shown to users who have no backup authentication codes
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = Mbojuaju
-# Shown with an alert icon to indicate that no recovery phone is configured
-tfa-row-backup-phone-not-available = Ndaipóri pumbyry papapy guerujeyrã eiporukuaáva
 # button to change the configured recovery phone
 tfa-row-backup-phone-change-cta = Moambue
 # button to add/configure a recovery phone

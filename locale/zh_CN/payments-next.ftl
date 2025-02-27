@@ -72,8 +72,15 @@ next-new-user-card-title = 输入您的卡片信息
 
 ## Component - PurchaseDetails
 
+next-plan-details-header = 产品详细信息
+next-plan-details-list-price = 标价
+next-plan-details-tax = 税费
+next-plan-details-total-label = 总计
 next-plan-details-hide-button = 隐藏详细信息
 next-plan-details-show-button = 显示详细信息
+next-coupon-success = 您的方案将自动按标价续订。
+# $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
+next-coupon-success-repeating = 您的方案将在 { $couponDurationDate } 之后按标价自动续订。
 
 ## Select Tax Location
 
@@ -100,22 +107,6 @@ next-new-user-subscribe-product-updates-mdnplus = 我愿意接收来自 { -produ
 next-new-user-subscribe-product-updates-mozilla = 我愿意接收来自 { -brand-mozilla } 的产品新闻和更新
 next-new-user-subscribe-product-updates-snp = 我愿意接收来自 { -brand-mozilla } 的安全和隐私新闻及更新
 next-new-user-subscribe-product-assurance = 我们只会使用您的邮箱地址来创建账户，绝不会将其出售予第三方。
-
-## Component - Details
-
-next-plan-details-header = 产品详细信息
-next-plan-details-list-price = 标价
-next-plan-details-tax = 税费
-next-plan-details-total-label = 总计
-
-## Purchase details - shared by multiple components, including purchase details and payment form
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
-list-positive-amount = { $amount }
-list-negative-amount = - { $amount }
-next-coupon-success = 您的方案将自动按标价续订。
-# $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
-next-coupon-success-repeating = 您的方案将在 { $couponDurationDate } 之后按标价自动续订。
 
 ## Component - PriceInterval
 
@@ -145,3 +136,10 @@ next-subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capita
 next-terms = 服务条款
 next-privacy = 隐私声明
 next-terms-download = 下载条款
+
+## Component - UpdatedPurchaseDetails
+
+
+## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
+## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
+

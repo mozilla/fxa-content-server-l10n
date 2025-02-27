@@ -72,8 +72,15 @@ next-new-user-card-title = Jepni hollësitë e kartës tuaj
 
 ## Component - PurchaseDetails
 
+next-plan-details-header = Hollësi produkti
+next-plan-details-list-price = Çmim Liste
+next-plan-details-tax = Taksa dhe Tarifa
+next-plan-details-total-label = Gjithsej
 next-plan-details-hide-button = Fshihi hollësitë
 next-plan-details-show-button = Shfaq hollësi
+next-coupon-success = Plani juaj do të rinovohet vetvetiu me çmimin e treguar te lista.
+# $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
+next-coupon-success-repeating = Plani juaj do të rinovohet vetvetiu pas { $couponDurationDate } sipas çmimit të rregullt.
 
 ## Select Tax Location
 
@@ -100,22 +107,6 @@ next-new-user-subscribe-product-updates-mdnplus = Do të doja të merrja lajme d
 next-new-user-subscribe-product-updates-mozilla = Do të doja të merrja nga { -brand-mozilla } lajme dhe përditësime produktesh
 next-new-user-subscribe-product-updates-snp = Do të doja të merrja nga { -brand-mozilla } lajme mbi sigurinë dhe privatësinë
 next-new-user-subscribe-product-assurance = Email-in tuaj e përdorim vetëm për të krijuar llogarinë tuaj. S’do t’ia shesim kurrë një pale të tretë.
-
-## Component - Details
-
-next-plan-details-header = Hollësi produkti
-next-plan-details-list-price = Çmim Liste
-next-plan-details-tax = Taksa dhe Tarifa
-next-plan-details-total-label = Gjithsej
-
-## Purchase details - shared by multiple components, including purchase details and payment form
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
-list-positive-amount = { $amount }
-list-negative-amount = - { $amount }
-next-coupon-success = Plani juaj do të rinovohet vetvetiu me çmimin e treguar te lista.
-# $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
-next-coupon-success-repeating = Plani juaj do të rinovohet vetvetiu pas { $couponDurationDate } sipas çmimit të rregullt.
 
 ## Component - PriceInterval
 
@@ -145,3 +136,10 @@ next-subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capita
 next-terms = Kushte Shërbimi
 next-privacy = Shënim Mbi Privatësinë
 next-terms-download = Kushte Shkarkimi
+
+## Component - UpdatedPurchaseDetails
+
+
+## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
+## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
+

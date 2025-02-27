@@ -65,6 +65,10 @@ next-new-user-card-title = ਆਪਣੇ ਕਾਰਡ ਦੀ ਜਾਣਕਾਰ�
 
 ## Component - PurchaseDetails
 
+next-plan-details-header = ਉਤਪਾਦ ਦੇ ਵੇਰਵੇ
+next-plan-details-list-price = ਭਾਅ ਸੂਚੀ
+next-plan-details-tax = ਟੈਕਸ ਅਤੇ ਫ਼ੀਸਾਂ
+next-plan-details-total-label = ਕੁੱਲ ਜੋੜ
 next-plan-details-hide-button = ਵੇਰਵੇ ਲੁਕਾਓ
 next-plan-details-show-button = ਵੇਰਵੇ ਦਿਖਾਓ
 
@@ -94,19 +98,6 @@ next-new-user-subscribe-product-updates-mozilla = ਮੈਂ { -brand-mozilla } �
 next-new-user-subscribe-product-updates-snp = ਮੈਂ { -brand-mozilla } ਤੋਂ ਸੁਰੱਖਿਆ ਅਤੇ ਪਰਦੇਦਾਰੀ ਖ਼ਬਰਾਂ ਅਤੇ ਅੱਪਡੇਟ ਲੈਣਾ ਚਾਹੁੰਦਾ/ਚਾਹੁੰਦੀ ਹਾਂ
 next-new-user-subscribe-product-assurance = ਅਸੀਂ ਤੁਹਾਡੇ ਈਮੇਲ ਨੂੰ ਸਿਰਫ ਤੁਹਾਡਾ ਖਾਤਾ ਬਣਾਉਣ ਲਈ ਹੀ ਵਰਤਦੇ ਹਾਂ। ਅਸੀਂ ਕਦੇ ਵੀ ਇਸ ਨੂੰ ਤੀਜੀ ਧਿਰ ਨੂੰ ਨਹੀਂ ਵੇਚਾਂਗੇ।
 
-## Component - Details
-
-next-plan-details-header = ਉਤਪਾਦ ਦੇ ਵੇਰਵੇ
-next-plan-details-list-price = ਭਾਅ ਸੂਚੀ
-next-plan-details-tax = ਟੈਕਸ ਅਤੇ ਫ਼ੀਸਾਂ
-next-plan-details-total-label = ਕੁੱਲ ਜੋੜ
-
-## Purchase details - shared by multiple components, including purchase details and payment form
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
-list-positive-amount = { $amount }
-list-negative-amount = - { $amount }
-
 ## Component - PriceInterval
 
 
@@ -135,3 +126,10 @@ next-subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capita
 next-terms = ਸੇਵਾ ਦੀਆਂ ਸ਼ਰਤਾਂ
 next-privacy = ਪਰਦੇਦਾਰੀ ਸੂਚਨਾ
 next-terms-download = ਡਾਊਨਲੋਡ ਕਰਨ ਦੀਆਂ ਸ਼ਰਤਾਂ
+
+## Component - UpdatedPurchaseDetails
+
+
+## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
+## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
+

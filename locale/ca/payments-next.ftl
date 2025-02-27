@@ -27,19 +27,12 @@ next-payment-validate-name-error = Introduïu el vostre nom
 
 ## Component - PurchaseDetails
 
+next-plan-details-header = Detalls del producte
+next-plan-details-total-label = Total
 next-plan-details-hide-button = Amaga els detalls
 next-plan-details-show-button = Mostra els detalls
 
 ## Select Tax Location
-
-
-## Component - Details
-
-next-plan-details-header = Detalls del producte
-next-plan-details-total-label = Total
-
-## Purchase details - shared by multiple components, including purchase details and payment form
-## $amount (Number) - The amount billed. It will be formatted as currency.
 
 
 ## Component - PriceInterval
@@ -57,3 +50,10 @@ next-subscription-create-title = Configureu la vostra subscripció
 
 next-terms = Condicions del servei
 next-privacy = Avís de privadesa
+
+## Component - UpdatedPurchaseDetails
+
+
+## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
+## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
+

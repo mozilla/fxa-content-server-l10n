@@ -42,25 +42,18 @@ next-new-user-card-title = Sisesta oma kaardi andmed
 
 ## Component - PurchaseDetails
 
+next-plan-details-header = Toote üksikasjad
+next-plan-details-list-price = Hinnakirja hind
+next-plan-details-total-label = Kokku
 next-plan-details-hide-button = Peida üksikasjad
 next-plan-details-show-button = Kuva üksikasju
+next-coupon-success = Sinu plaani uuendatakse automaatselt hinnakirja hinnaga.
+# $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
+next-coupon-success-repeating = Sinu plaani uuendatakse automaatselt pärast { $couponDurationDate } hinnakirja hinnaga.
 
 ## Select Tax Location
 
 next-new-user-subscribe-product-assurance = Me kasutame sinu e-posti aadressi ainult sinu konto loomiseks. Me ei müü seda kunagi kolmandatele osapooltele.
-
-## Component - Details
-
-next-plan-details-header = Toote üksikasjad
-next-plan-details-list-price = Hinnakirja hind
-next-plan-details-total-label = Kokku
-
-## Purchase details - shared by multiple components, including purchase details and payment form
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
-next-coupon-success = Sinu plaani uuendatakse automaatselt hinnakirja hinnaga.
-# $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
-next-coupon-success-repeating = Sinu plaani uuendatakse automaatselt pärast { $couponDurationDate } hinnakirja hinnaga.
 
 ## Component - PriceInterval
 
@@ -82,3 +75,10 @@ next-sub-guarantee = 30-päevane raha tagasi garantii
 next-terms = Teenuse tingimused
 next-privacy = Privaatsusreeglid
 next-terms-download = Laadi tingimused alla
+
+## Component - UpdatedPurchaseDetails
+
+
+## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
+## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
+

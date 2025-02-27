@@ -970,8 +970,6 @@ tfa-row-backup-codes-available-v2 =
         [one] { $numCodesAvailable } ਕੋਡ ਬਾਕੀ ਰਹਿ ਗਿਆ ਹੈ
        *[other] { $numCodesAvailable } ਕੋਡ ਬਾਕੀ ਰਹਿ ਗਏ ਹਨ
     }
-# Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
-tfa-row-backup-codes-get-new-cta = ਨਵੇਂ ਕੋਡ ਲਵੋ
 # Shown to users who have no backup authentication codes
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = ਜੋੜੋ
@@ -980,8 +978,6 @@ tfa-row-backup-codes-description-2 = ਜੇ ਤੁਸੀਂ ਆਪਣੇ ਮੋ�
 # Recovery phone is a recovery method for two-step authentication
 # A recovery code can be sent to the user's phone
 tfa-row-backup-phone-title-v2 = ਰਿਕਵਰੀ ਫ਼ੋਨ
-# Shown with an alert icon to indicate that no recovery phone is configured
-tfa-row-backup-phone-not-available = ਕੋਈ ਰਿਕਵਰੀ ਫ਼ੋਨ ਨੰਬਰ ਮੌਜੂਦ ਨਹੀਂ ਹੈ
 # button to change the configured recovery phone
 tfa-row-backup-phone-change-cta = ਬਦਲੋ
 # button to add/configure a recovery phone

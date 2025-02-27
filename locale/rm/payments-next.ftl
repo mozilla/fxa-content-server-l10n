@@ -72,8 +72,15 @@ next-new-user-card-title = Endatescha las infurmaziuns da tia carta
 
 ## Component - PurchaseDetails
 
+next-plan-details-header = Detagls dal product
+next-plan-details-list-price = Pretsch da catalog
+next-plan-details-tax = Taglias e taxas
+next-plan-details-total-label = Total
 next-plan-details-hide-button = Zuppentar ils detagls
 next-plan-details-show-button = Mussar ils detagls
+next-coupon-success = Tes plan vegn renovà automaticamain cun il pretsch da catalog.
+# $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
+next-coupon-success-repeating = Tes plan vegn renovà automaticamain suenter ils { $couponDurationDate } tenor il pretsch da catalog.
 
 ## Select Tax Location
 
@@ -100,22 +107,6 @@ next-new-user-subscribe-product-updates-mdnplus = Jau vi retschaiver novitads da
 next-new-user-subscribe-product-updates-mozilla = Jau vi retschaiver novitads davart products ed autras novas da { -brand-mozilla }
 next-new-user-subscribe-product-updates-snp = Jau vi retschaiver novitads davart segirezza e protecziun da datas ed autras novas da { -brand-mozilla }
 next-new-user-subscribe-product-assurance = Nus duvrain tia adressa dad e-mail mo per crear tes conto. Nus na la vendain mai a terzas partidas.
-
-## Component - Details
-
-next-plan-details-header = Detagls dal product
-next-plan-details-list-price = Pretsch da catalog
-next-plan-details-tax = Taglias e taxas
-next-plan-details-total-label = Total
-
-## Purchase details - shared by multiple components, including purchase details and payment form
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
-list-positive-amount = { $amount }
-list-negative-amount = - { $amount }
-next-coupon-success = Tes plan vegn renovà automaticamain cun il pretsch da catalog.
-# $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
-next-coupon-success-repeating = Tes plan vegn renovà automaticamain suenter ils { $couponDurationDate } tenor il pretsch da catalog.
 
 ## Component - PriceInterval
 
@@ -145,3 +136,10 @@ next-subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capita
 next-terms = Cundiziuns d'utilisaziun
 next-privacy = Infurmaziuns davart la protecziun da datas
 next-terms-download = Telechargiar las cundiziuns
+
+## Component - UpdatedPurchaseDetails
+
+
+## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
+## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
+

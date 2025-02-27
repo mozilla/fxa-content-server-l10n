@@ -1036,8 +1036,6 @@ tfa-row-backup-codes-available-v2 =
         [one] Al reste { $numCodesAvailable } codiç
        *[other] A restin { $numCodesAvailable } codiçs
     }
-# Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
-tfa-row-backup-codes-get-new-cta = Oten gnûfs codiçs
 # Shown to users who have no backup authentication codes
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = Zonte
@@ -1046,8 +1044,6 @@ tfa-row-backup-codes-description-2 = Chest al è il metodi di recupar plui sigû
 # Recovery phone is a recovery method for two-step authentication
 # A recovery code can be sent to the user's phone
 tfa-row-backup-phone-title-v2 = Telefon pal recupar dal account
-# Shown with an alert icon to indicate that no recovery phone is configured
-tfa-row-backup-phone-not-available = Nissun numar di telefon disponibil pal recupar
 # button to change the configured recovery phone
 tfa-row-backup-phone-change-cta = Modifiche
 # button to add/configure a recovery phone

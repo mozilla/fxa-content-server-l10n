@@ -72,8 +72,15 @@ next-new-user-card-title = Nhập thông tin thẻ của bạn
 
 ## Component - PurchaseDetails
 
+next-plan-details-header = Thông tin chi tiết sản phẩm
+next-plan-details-list-price = Bảng giá
+next-plan-details-tax = Thuế và phí
+next-plan-details-total-label = Tổng
 next-plan-details-hide-button = Ẩn chi tiết
 next-plan-details-show-button = Hiện chi tiết
+next-coupon-success = Gói của bạn sẽ tự động gia hạn theo giá niêm yết.
+# $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
+next-coupon-success-repeating = Gói của bạn sẽ tự động gia hạn sau { $couponDurationDate } theo giá niêm yết.
 
 ## Select Tax Location
 
@@ -100,22 +107,6 @@ next-new-user-subscribe-product-updates-mdnplus = Tôi muốn nhận tin tức s
 next-new-user-subscribe-product-updates-mozilla = Tôi muốn nhận tin tức sản phẩm và cập nhật từ { -brand-mozilla }
 next-new-user-subscribe-product-updates-snp = Tôi muốn nhận tin tức và cập nhật về bảo mật và quyền riêng tư từ { -brand-mozilla }
 next-new-user-subscribe-product-assurance = Chúng tôi chỉ sử dụng email của bạn để tạo tài khoản cho bạn. Chúng tôi sẽ không bao giờ cung cấp nó cho bên thứ ba.
-
-## Component - Details
-
-next-plan-details-header = Thông tin chi tiết sản phẩm
-next-plan-details-list-price = Bảng giá
-next-plan-details-tax = Thuế và phí
-next-plan-details-total-label = Tổng
-
-## Purchase details - shared by multiple components, including purchase details and payment form
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
-list-positive-amount = { $amount }
-list-negative-amount = - { $amount }
-next-coupon-success = Gói của bạn sẽ tự động gia hạn theo giá niêm yết.
-# $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
-next-coupon-success-repeating = Gói của bạn sẽ tự động gia hạn sau { $couponDurationDate } theo giá niêm yết.
 
 ## Component - PriceInterval
 
@@ -145,3 +136,10 @@ next-subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capita
 next-terms = Điều khoản dịch vụ
 next-privacy = Chính sách riêng tư
 next-terms-download = Tải xuống các điều khoản
+
+## Component - UpdatedPurchaseDetails
+
+
+## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
+## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
+
