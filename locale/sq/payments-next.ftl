@@ -126,6 +126,7 @@ next-subscription-create-title = Ujdisje e pajtimit tim
 next-subscription-success-title = Ripohim pajtimi
 next-subscription-processing-title = Po ripohohet pajtimi…
 next-subscription-error-title = Gabim në ripohim pajtimi…
+subscription-title-plan-change-heading = Shqyrtoni ndryshimin tuaj
 next-sub-guarantee = 30 ditë garanci kthimi parash
 
 ## Component - TermsAndPrivacy
@@ -139,7 +140,16 @@ next-terms-download = Kushte Shkarkimi
 
 ## Component - UpdatedPurchaseDetails
 
+upgrade-purchase-details-current-plan-label = Plani i tanishëm
+upgrade-purchase-details-new-plan-label = Plan i ri
+upgrade-purchase-details-promo-code = Kod Promocional
+upgrade-purchase-details-tax-label = Taksa dhe Tarifa
+upgrade-purchase-details-new-total-label = Shumë e re
 
 ## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
 
+upgrade-purchase-details-new-plan-daily = { $productName } (E përditshme)
+upgrade-purchase-details-new-plan-weekly = { $productName } (E përjavshme)
+upgrade-purchase-details-new-plan-monthly = { $productName } (E përmuajshme)
+upgrade-purchase-details-new-plan-yearly = { $productName } (E përvitshme)

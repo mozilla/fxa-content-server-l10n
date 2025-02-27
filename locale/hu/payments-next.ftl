@@ -126,6 +126,7 @@ next-subscription-create-title = Állítsa be a feliratkozását
 next-subscription-success-title = Feliratkozás megerősítése
 next-subscription-processing-title = Feliratkozás megerősítése…
 next-subscription-error-title = Hiba a feliratkozás megerősítésekor…
+subscription-title-plan-change-heading = A változtatás áttekintése
 next-sub-guarantee = 30 napos pénzvisszafizetési garancia
 
 ## Component - TermsAndPrivacy
@@ -139,7 +140,17 @@ next-terms-download = Letöltési feltételek
 
 ## Component - UpdatedPurchaseDetails
 
+upgrade-purchase-details-current-plan-label = Jelenlegi előfizetés
+upgrade-purchase-details-new-plan-label = Új előfizetés
+upgrade-purchase-details-promo-code = Promóciós kód
+upgrade-purchase-details-tax-label = Adók és díjak
+upgrade-purchase-details-new-total-label = Új összeg
+upgrade-purchase-details-prorated-upgrade = Időarányos frissítés
 
 ## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
 
+upgrade-purchase-details-new-plan-daily = { $productName } (napi)
+upgrade-purchase-details-new-plan-weekly = { $productName } (heti)
+upgrade-purchase-details-new-plan-monthly = { $productName } (havi)
+upgrade-purchase-details-new-plan-yearly = { $productName } (évi)

@@ -126,6 +126,7 @@ next-subscription-create-title = Gosod eich tanysgrifiad
 next-subscription-success-title = Cadarnhad o'ch tanysgrifiad
 next-subscription-processing-title = Yn cadarnhau eich tanysgrifiad…
 next-subscription-error-title = Gwall wrth gadarnhau eich tanysgrifiad…
+subscription-title-plan-change-heading = Gwiriwch eich newid
 next-sub-guarantee = Gwarant arian-yn-ôl 30 diwrnod
 
 ## Component - TermsAndPrivacy
@@ -139,7 +140,17 @@ next-terms-download = Amodau Llwytho i Lawr
 
 ## Component - UpdatedPurchaseDetails
 
+upgrade-purchase-details-current-plan-label = Cynllun cyfredol
+upgrade-purchase-details-new-plan-label = Cynllun newydd
+upgrade-purchase-details-promo-code = Cod Hyrwyddo
+upgrade-purchase-details-tax-label = Trethi a Ffioedd
+upgrade-purchase-details-new-total-label = Cyfanswm newydd
+upgrade-purchase-details-prorated-upgrade = Uwchraddio yn Ôl y Raddfa
 
 ## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
 
+upgrade-purchase-details-new-plan-daily = { $productName } ( Dyddiol )
+upgrade-purchase-details-new-plan-weekly = { $productName } ( Wythnosol )
+upgrade-purchase-details-new-plan-monthly = { $productName } ( Misol)
+upgrade-purchase-details-new-plan-yearly = { $productName } (Blynyddol)

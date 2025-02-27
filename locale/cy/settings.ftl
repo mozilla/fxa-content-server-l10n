@@ -900,6 +900,8 @@ settings-recovery-phone-remove-success = Ffôn adfer wedi'i dynnu
 
 page-setup-recovery-phone-heading = Ychwanegu ffôn adfer
 page-setup-recovery-phone-back-button-title = Nôl i'r gosodiadau
+# Back arrow to return to step 1 of recovery phone setup flow
+page-setup-recovery-phone-step2-back-button-title = Newid rhif ffôn
 
 ## Add secondary email page
 
@@ -1051,6 +1053,8 @@ tfa-row-backup-codes-available-v2 =
         [many] { $numCodesAvailable } cod yn weddill
        *[other] { $numCodesAvailable } cod yn weddill
     }
+# Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
+tfa-row-backup-codes-get-new-cta-v2 = Creu codau newydd
 # Shown to users who have no backup authentication codes
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = Ychwanegu
@@ -1059,6 +1063,8 @@ tfa-row-backup-codes-description-2 = Dyma’r dull adfer mwyaf diogel os na allw
 # Recovery phone is a recovery method for two-step authentication
 # A recovery code can be sent to the user's phone
 tfa-row-backup-phone-title-v2 = Ffôn adfer
+# Shown with an alert icon to indicate that no recovery phone is configured
+tfa-row-backup-phone-not-available-v2 = Dim rhif ffôn wedi'i ychwanegu
 # button to change the configured recovery phone
 tfa-row-backup-phone-change-cta = Newid
 # button to add/configure a recovery phone

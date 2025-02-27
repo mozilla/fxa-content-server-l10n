@@ -126,6 +126,7 @@ next-subscription-create-title = Waš abonement konfigurěrowaś
 next-subscription-success-title = Wobkšuśenje abonementa
 next-subscription-processing-title = Abonement se wobkšuśijo…
 next-subscription-error-title = Zmólka pśi wobkšuśenju abonementa…
+subscription-title-plan-change-heading = Pśeglědujśo swóju změnu
 next-sub-guarantee = 30-dnjowna garantija slědkdaśa pjenjez
 
 ## Component - TermsAndPrivacy
@@ -139,7 +140,17 @@ next-terms-download = Ześěgnjeńske wuměnjenja
 
 ## Component - UpdatedPurchaseDetails
 
+upgrade-purchase-details-current-plan-label = Aktualny plan
+upgrade-purchase-details-new-plan-label = Nowy plan
+upgrade-purchase-details-promo-code = Akciski kod
+upgrade-purchase-details-tax-label = Danki a płaśonki
+upgrade-purchase-details-new-total-label = Nowa suma
+upgrade-purchase-details-prorated-upgrade = Późělna aktualizacija
 
 ## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
 
+upgrade-purchase-details-new-plan-daily = { $productName } (kuždy źeń)
+upgrade-purchase-details-new-plan-weekly = { $productName } (kuždy tyźeń)
+upgrade-purchase-details-new-plan-monthly = { $productName } (kuždy mjasec)
+upgrade-purchase-details-new-plan-yearly = { $productName } (kužde lěto)

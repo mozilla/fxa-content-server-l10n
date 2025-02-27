@@ -902,6 +902,8 @@ settings-recovery-phone-remove-success = Telefonska številka za obnovitev je od
 
 page-setup-recovery-phone-heading = Dodaj telefonsko številko za obnovitev
 page-setup-recovery-phone-back-button-title = Nazaj na nastavitve
+# Back arrow to return to step 1 of recovery phone setup flow
+page-setup-recovery-phone-step2-back-button-title = Spremeni telefonsko številko
 
 ## Add secondary email page
 
@@ -1049,6 +1051,8 @@ tfa-row-backup-codes-available-v2 =
         [few] { $numCodesAvailable } preostale kode
        *[other] { $numCodesAvailable } preostalih kod
     }
+# Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
+tfa-row-backup-codes-get-new-cta-v2 = Ustvarite nove kode
 # Shown to users who have no backup authentication codes
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = Dodaj
@@ -1057,6 +1061,8 @@ tfa-row-backup-codes-description-2 = To je najvarnejša metoda obnovitve, če ni
 # Recovery phone is a recovery method for two-step authentication
 # A recovery code can be sent to the user's phone
 tfa-row-backup-phone-title-v2 = Telefonska številka za obnovitev
+# Shown with an alert icon to indicate that no recovery phone is configured
+tfa-row-backup-phone-not-available-v2 = Ni dodane telefonske številke
 # button to change the configured recovery phone
 tfa-row-backup-phone-change-cta = Spremeni
 # button to add/configure a recovery phone

@@ -126,6 +126,7 @@ next-subscription-create-title = Ihr Abonnement einrichten
 next-subscription-success-title = Abonnementbestätigung
 next-subscription-processing-title = Abonnement wird bestätigt…
 next-subscription-error-title = Fehler beim Bestätigen des Abonnements…
+subscription-title-plan-change-heading = Überprüfen Sie Ihr Änderungen
 next-sub-guarantee = 30 Tage Geld-zurück-Garantie
 
 ## Component - TermsAndPrivacy
@@ -139,7 +140,17 @@ next-terms-download = Nutzungsbedingungen herunterladen
 
 ## Component - UpdatedPurchaseDetails
 
+upgrade-purchase-details-current-plan-label = Derzeitiger Plan
+upgrade-purchase-details-new-plan-label = Neuer Plan
+upgrade-purchase-details-promo-code = Aktionscode
+upgrade-purchase-details-tax-label = Steuern und Gebühren
+upgrade-purchase-details-new-total-label = Neue Summe
+upgrade-purchase-details-prorated-upgrade = Anteiliges Upgrade
 
 ## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
 
+upgrade-purchase-details-new-plan-daily = { $productName } (täglich)
+upgrade-purchase-details-new-plan-weekly = { $productName } (wöchentlich)
+upgrade-purchase-details-new-plan-monthly = { $productName } (monatlich)
+upgrade-purchase-details-new-plan-yearly = { $productName } (jährlich)
