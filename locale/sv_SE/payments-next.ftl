@@ -126,6 +126,7 @@ next-subscription-create-title = Konfigurera din prenumeration
 next-subscription-success-title = Prenumerationsbekräftelse
 next-subscription-processing-title = Bekräftar prenumerationen…
 next-subscription-error-title = Fel vid bekräftelse av prenumeration…
+subscription-title-plan-change-heading = Granska din ändring
 next-sub-guarantee = 30-dagars återbetalningsgaranti
 
 ## Component - TermsAndPrivacy
@@ -139,7 +140,17 @@ next-terms-download = Nerladdningsvillkor
 
 ## Component - UpdatedPurchaseDetails
 
+upgrade-purchase-details-current-plan-label = Nuvarande plan
+upgrade-purchase-details-new-plan-label = Ny plan
+upgrade-purchase-details-promo-code = Kampanjkod
+upgrade-purchase-details-tax-label = Skatter och avgifter
+upgrade-purchase-details-new-total-label = Ny summa
+upgrade-purchase-details-prorated-upgrade = Proportionell uppgradering
 
 ## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
 
+upgrade-purchase-details-new-plan-daily = { $productName } (dagligen)
+upgrade-purchase-details-new-plan-weekly = { $productName } (veckovis)
+upgrade-purchase-details-new-plan-monthly = { $productName } (månadsvis)
+upgrade-purchase-details-new-plan-yearly = { $productName } (årligen)
