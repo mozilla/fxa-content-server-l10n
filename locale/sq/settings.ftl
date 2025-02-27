@@ -864,6 +864,15 @@ recent-activity-account-password-changed = Fjalëkalimi u ndryshua
 recent-activity-account-secondary-email-added = U shtua adresë email dytësore
 recent-activity-account-secondary-email-removed = U hoq adresë email dytësore
 recent-activity-account-emails-swapped = Ndërruan vendet email-i parësor me atë dytësor
+recent-activity-session-destroy = U dol nga sesion
+recent-activity-account-recovery-phone-send-code = U dërgua kod telefoni rimarrjeje
+recent-activity-account-recovery-phone-setup-complete = U plotësua ujdisje telefoni rimarrje
+recent-activity-account-recovery-phone-signin-complete = U plotësua hyrje me telefon rimarrjeje
+recent-activity-account-recovery-phone-signin-failed = Dështoi hyrje me telefon rimarrjeje
+recent-activity-account-recovery-phone-removed = U hoq telefon rimarrjeje
+recent-activity-account-recovery-codes-replaced = U zëvendësua telefon rimarrjeje
+recent-activity-account-recovery-codes-created = U krijuan kode rimarrjeje
+recent-activity-account-recovery-codes-signin-complete = U plotësua hyrje me kode rimarrjeje
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Tjetër veprimtari në llogari
 
@@ -1228,6 +1237,7 @@ auth-error-214 = Numri i telefonit për rikthim ekziston tashmë
 auth-error-215 = Numri i telefonit për rikthim s’ekziston
 auth-error-216 = U mbërrit në kufi mesazhi tekst
 auth-error-218 = S’arrihet të hiqet telefon rikthimi, mungojnë kode kopjeruajtje mirëfilltësimi
+auth-error-219 = Ky numër telefoni është regjistruar me shumë llogari. Ju lutemi, provoni një numër tjetër.
 auth-error-999 = Gabim i papritur
 auth-error-1001 = Përpjekja për hyrje u anulua
 auth-error-1002 = Sesioni skadoi. Që të vazhdohet, bëni hyrjen.
@@ -1240,6 +1250,11 @@ auth-error-1032 = Që të regjistroheni, duhet të jepni një moshë të vlefshm
 auth-error-1054 = Kod i pavlefshëm mirëfilltësimi dyhapësh
 auth-error-1056 = Kod i pavlefshëm mirëfilltësimi kopjeruajtjeje
 auth-error-1062 = Ridrejtim i pavlefshëm
+# Displayed when we want to reference a user's previously set up recovery phone
+# number, but they are not completely signed in yet. We'll only show the last 4 digits.
+# Variables:
+#  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
+recovery-phone-number-ending-digits = Numër që përfundon me { $lastFourPhoneNumber }
 oauth-error-1000 = Diç shkoi ters. Ju lutemi, mbylleni këtë skedë dhe riprovoni.
 
 ## Cannot Create Account page
@@ -1716,6 +1731,9 @@ signin-recovery-code-use-phone-failure-description = Ju lutemi, riprovoni më vo
 signin-recovery-phone-flow-heading = Hyni
 # A recovery code in context of this page is a one time code sent to the user's phone
 signin-recovery-phone-heading = Jepni kod rikthimi
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+signin-recovery-phone-instruction-v3 = Te numri i telefonit që mbaron me <span>{ $lastFourPhoneDigits }</span> u dërgua përmes një mesazhi tekst një kod gjashtëshifror. Ky kod skadon pas 5 minutash. Mos ia tregoni kujt këtë kod.
 signin-recovery-phone-input-label = Jepni kodin 6-shifror
 signin-recovery-phone-code-submit-button = Ripohojeni
 signin-recovery-phone-resend-code-button = Ridërgo kodin
