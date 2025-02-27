@@ -423,7 +423,7 @@ sub-change-submit = Módosítás megerősítése
 sub-update-current-plan-label = Jelenlegi előfizetés
 sub-update-new-plan-label = Új előfizetés
 sub-update-total-label = Új összeg
-sub-update-prorated-upgrade = Időarányos frissítés
+sub-update-prorated-upgrade = Időarányos csomagfrissítés
 
 ## Checkout line item for subscription plan change listing the product name and frequency of payment
 ## For example, a Mozilla VPN subscription charged monthly would appear as: Mozilla VPN (Monthly)

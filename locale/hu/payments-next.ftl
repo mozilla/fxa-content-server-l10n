@@ -145,7 +145,7 @@ upgrade-purchase-details-new-plan-label = Új előfizetés
 upgrade-purchase-details-promo-code = Promóciós kód
 upgrade-purchase-details-tax-label = Adók és díjak
 upgrade-purchase-details-new-total-label = Új összeg
-upgrade-purchase-details-prorated-upgrade = Időarányos frissítés
+upgrade-purchase-details-prorated-upgrade = Időarányos csomagfrissítés
 
 ## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
