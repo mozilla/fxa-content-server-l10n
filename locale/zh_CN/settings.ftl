@@ -897,6 +897,8 @@ settings-recovery-phone-remove-success = 已移除恢复电话号码
 
 page-setup-recovery-phone-heading = 添加恢复电话号码
 page-setup-recovery-phone-back-button-title = 回到设置
+# Back arrow to return to step 1 of recovery phone setup flow
+page-setup-recovery-phone-step2-back-button-title = 更改电话号码
 
 ## Add secondary email page
 
