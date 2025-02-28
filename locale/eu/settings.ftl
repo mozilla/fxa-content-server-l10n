@@ -721,6 +721,7 @@ tfa-replace-code-success-1 =
 tfa-replace-code-success-alert-4 = Eguneratu dira babeskopiko autentifikazio-kodeak
 tfa-replace-code-1-2 = 2tik 1. urratsa
 tfa-replace-code-2-2 = 2tik 2. urratsa
+tfa-enter-code-to-confirm-v2 = Mesedez, sartu zure babeskopiko autentifikazio-kode berrietako bat, gorde dituzula berresteko. Zure babeskopien autentifikazio-kode zaharrak desgaitu egingo dira urrats hau amaitutakoan.
 
 ## Avatar change page
 
@@ -869,6 +870,15 @@ recent-activity-account-password-changed = Pasahitza aldatuta
 recent-activity-account-secondary-email-added = Helbide elektroniko alternatiboa gehitua
 recent-activity-account-secondary-email-removed = Helbide elektroniko alternatiboa kenduta
 recent-activity-account-emails-swapped = Mezu elektroniko nagusiak eta alternatiboa trukatu dira
+recent-activity-session-destroy = Saioa amaitu da
+recent-activity-account-recovery-phone-send-code = Berreskuratzeko telefono kodea bidali da
+recent-activity-account-recovery-phone-setup-complete = Berreskuratzeko telefonoaren konfigurazioa bukatu da
+recent-activity-account-recovery-phone-signin-complete = Saio hasiera berreskuratzeko telefonoaz amaituta
+recent-activity-account-recovery-phone-signin-failed = Saio hasiera berreskuratzeko telefonoaz huts egin du
+recent-activity-account-recovery-phone-removed = Berreskuratze telefonoa kendu da
+recent-activity-account-recovery-codes-replaced = Berreskuratzeko kodeak ordezkatu dira
+recent-activity-account-recovery-codes-created = Berreskuratzeko kodeak sortu dira
+recent-activity-account-recovery-codes-signin-complete = Saio hasiera berreskuratze kodeaz amaituta
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Beste kontuaren jarduera
 
@@ -898,6 +908,8 @@ settings-recovery-phone-remove-success = Berreskuratu kendutako telefonoa
 
 page-setup-recovery-phone-heading = Gehitu berreskuratze telefonoa
 page-setup-recovery-phone-back-button-title = Itzuli ezarpenetara
+# Back arrow to return to step 1 of recovery phone setup flow
+page-setup-recovery-phone-step2-back-button-title = Aldatu telefono zenbakia
 
 ## Add secondary email page
 
@@ -985,6 +997,8 @@ tfa-enter-recovery-code-1 =
 
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
+product-promo-monitor-description = Aurkitu zure informazio pribatua non agertzen den, eta itzuli
+product-promo-monitor-plus-description = Pribatutasunak axola du: aurkitu zure informazio pribatua non azaltzen den eta itzuli
 # Links out to the Monitor pricing site
 product-promo-monitor-plus-cta = Hasi erabiltzen
 

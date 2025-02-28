@@ -153,3 +153,4 @@ upgrade-purchase-details-prorated-upgrade = Bertsio proportzionala
 upgrade-purchase-details-new-plan-daily = { $productName } (egunero)
 upgrade-purchase-details-new-plan-weekly = { $productName } (astero)
 upgrade-purchase-details-new-plan-monthly = { $productName } (hilero)
+upgrade-purchase-details-new-plan-yearly = { $productName } (urtero)
