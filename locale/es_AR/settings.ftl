@@ -900,7 +900,7 @@ settings-recovery-phone-remove-success = Teléfono de recuperación eliminado
 page-setup-recovery-phone-heading = Agregar teléfono de recuperación
 page-setup-recovery-phone-back-button-title = Volver a ajustes
 # Back arrow to return to step 1 of recovery phone setup flow
-page-setup-recovery-phone-step2-back-button-title = Cambiar número telefónico
+page-setup-recovery-phone-step2-back-button-title = Cambiar número de teléfono
 
 ## Add secondary email page
 
