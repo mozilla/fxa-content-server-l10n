@@ -900,6 +900,8 @@ settings-recovery-phone-remove-success = Teléfono de recuperación eliminado
 
 page-setup-recovery-phone-heading = Añadir teléfono de recuperación
 page-setup-recovery-phone-back-button-title = Regresar a los ajustes
+# Back arrow to return to step 1 of recovery phone setup flow
+page-setup-recovery-phone-step2-back-button-title = Cambiar número de teléfono
 
 ## Add secondary email page
 
@@ -1043,6 +1045,8 @@ tfa-row-backup-codes-available-v2 =
         [one] { $numCodesAvailable } código restante
        *[other] { $numCodesAvailable } códigos restantes
     }
+# Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
+tfa-row-backup-codes-get-new-cta-v2 = Crear códigos nuevos
 # Shown to users who have no backup authentication codes
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = Añadir
@@ -1051,6 +1055,8 @@ tfa-row-backup-codes-description-2 = Este es el método de recuperación más se
 # Recovery phone is a recovery method for two-step authentication
 # A recovery code can be sent to the user's phone
 tfa-row-backup-phone-title-v2 = Teléfono de recuperación
+# Shown with an alert icon to indicate that no recovery phone is configured
+tfa-row-backup-phone-not-available-v2 = No se añadió ningún número de teléfono
 # button to change the configured recovery phone
 tfa-row-backup-phone-change-cta = Cambiar
 # button to add/configure a recovery phone
