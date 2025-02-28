@@ -442,6 +442,8 @@ continue-with-apple-button = Fortsett med { -brand-apple }
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
 cannot-create-account-requirements-2 = Du må oppfylle visse alderskrav for å opprette en { -product-mozilla-account }.
+# For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
+cannot-create-account-learn-more-link = Les mer
 
 ## Connect Another Device page
 
