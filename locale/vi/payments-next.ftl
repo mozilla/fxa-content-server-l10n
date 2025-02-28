@@ -126,6 +126,7 @@ next-subscription-create-title = Thiết lập thuê bao của bạn
 next-subscription-success-title = Xác nhận thuê bao
 next-subscription-processing-title = Đang xác nhận thuê bao…
 next-subscription-error-title = Lỗi khi xác nhận thuê bao…
+subscription-title-plan-change-heading = Xem lại thay đổi của bạn
 next-sub-guarantee = Đảm bảo hoàn tiền trong 30 ngày
 
 ## Component - TermsAndPrivacy
@@ -139,7 +140,16 @@ next-terms-download = Tải xuống các điều khoản
 
 ## Component - UpdatedPurchaseDetails
 
+upgrade-purchase-details-current-plan-label = Gói hiện tại
+upgrade-purchase-details-new-plan-label = Gói mới
+upgrade-purchase-details-promo-code = Mã khuyến mãi
+upgrade-purchase-details-tax-label = Thuế và phí
+upgrade-purchase-details-new-total-label = Tổng mới
 
 ## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
 
+upgrade-purchase-details-new-plan-daily = { $productName } (Hàng ngày)
+upgrade-purchase-details-new-plan-weekly = { $productName } (Hàng tuần)
+upgrade-purchase-details-new-plan-monthly = { $productName } (Hàng tháng)
+upgrade-purchase-details-new-plan-yearly = { $productName } (Hàng năm)
