@@ -895,6 +895,8 @@ settings-recovery-phone-remove-success = 已移除救援電話號碼
 
 page-setup-recovery-phone-heading = 新增救援電話號碼
 page-setup-recovery-phone-back-button-title = 回到設定頁面
+# Back arrow to return to step 1 of recovery phone setup flow
+page-setup-recovery-phone-step2-back-button-title = 更改電話號碼
 
 ## Add secondary email page
 
@@ -1032,6 +1034,8 @@ tfa-row-backup-codes-not-available = 無備用驗證碼可用
 # $numCodesRemaining - the number of backup authentication codes that have not yet been used (generally between 1 to 5)
 # A different message is shown when no codes are available
 tfa-row-backup-codes-available-v2 = 剩餘 { $numCodesAvailable } 組備用驗證碼
+# Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
+tfa-row-backup-codes-get-new-cta-v2 = 建立新的備用驗證碼
 # Shown to users who have no backup authentication codes
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = 新增
@@ -1040,6 +1044,8 @@ tfa-row-backup-codes-description-2 = 當您無法再使用您的行動裝置或�
 # Recovery phone is a recovery method for two-step authentication
 # A recovery code can be sent to the user's phone
 tfa-row-backup-phone-title-v2 = 救援電話號碼
+# Shown with an alert icon to indicate that no recovery phone is configured
+tfa-row-backup-phone-not-available-v2 = 未設定手機號碼
 # button to change the configured recovery phone
 tfa-row-backup-phone-change-cta = 變更
 # button to add/configure a recovery phone

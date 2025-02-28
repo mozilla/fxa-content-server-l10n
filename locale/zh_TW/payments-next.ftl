@@ -140,7 +140,17 @@ next-terms-download = 下載條款
 
 ## Component - UpdatedPurchaseDetails
 
+upgrade-purchase-details-current-plan-label = 目前方案
+upgrade-purchase-details-new-plan-label = 新方案
+upgrade-purchase-details-promo-code = 折扣碼
+upgrade-purchase-details-tax-label = 稅費
+upgrade-purchase-details-new-total-label = 新方案金額
+upgrade-purchase-details-prorated-upgrade = 按比例破月升級
 
 ## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
 
+upgrade-purchase-details-new-plan-daily = { $productName }（每日收費）
+upgrade-purchase-details-new-plan-weekly = { $productName }（每週收費）
+upgrade-purchase-details-new-plan-monthly = { $productName }（每月收費）
+upgrade-purchase-details-new-plan-yearly = { $productName }（每年收費）
