@@ -126,6 +126,7 @@ next-subscription-create-title = 設定訂閱
 next-subscription-success-title = 訂閱確認
 next-subscription-processing-title = 正在確認訂閱…
 next-subscription-error-title = 確認訂閱時發生錯誤…
+subscription-title-plan-change-heading = 確認變更內容
 next-sub-guarantee = 30 天內保證退款
 
 ## Component - TermsAndPrivacy
