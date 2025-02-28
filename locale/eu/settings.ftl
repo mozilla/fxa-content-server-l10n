@@ -987,6 +987,8 @@ tfa-input-enter-totp-v2 =
 tfa-save-these-codes-1 =
     Gorde behin-behineko erabilerako babeskopiko autentifikazio-kode hauek leku seguru batean
     zure gailu mugikorra ez duzunerako.
+# codes here refers to backup authentication codes
+tfa-enter-code-to-confirm-setup = Berretsi kodeak gorde dituzula bat sartuz. Kode hauek gabe, baliteke ezin saioa hasi zure autentifikazio-aplikazioa ez baduzu.
 tfa-enter-recovery-code-1 =
     .label = Sartu babeskopirako autentifikazio-kodea
 
@@ -999,6 +1001,8 @@ product-promo-monitor =
     .alt = { -product-mozilla-monitor }
 product-promo-monitor-description = Aurkitu zure informazio pribatua non agertzen den, eta itzuli
 product-promo-monitor-plus-description = Pribatutasunak axola du: aurkitu zure informazio pribatua non azaltzen den eta itzuli
+# Links out to the Monitor site
+product-promo-monitor-cta = Lortu eskaneatzea doan
 # Links out to the Monitor pricing site
 product-promo-monitor-plus-cta = Hasi erabiltzen
 
@@ -1034,7 +1038,11 @@ security-password =
 security-password-created-date = Sortze-data: { $date }
 security-not-set = Ezarri gabe
 security-action-create = Sortu
+security-set-password = Ezarri pasahitz bat kontuaren segurtasun-eginbide jakin batzuk sinkronizatzeko eta erabiltzeko.
+# Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
+security-recent-activity-link = Begiratu kontuaren azken jarduerak
 signout-sync-header = Saioa iraungi da
+signout-sync-session-expired = Arazoren bat izan da. Mesedez, amaitu saioa nabigatzailearen menuan eta saiatu berriro.
 
 ## SubRow component
 
@@ -1045,6 +1053,8 @@ tfa-row-backup-codes-not-available = Ez dago koderik erabilgarri
 # Shown to users who have no backup authentication codes
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = Gehitu
+# 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
+tfa-row-backup-codes-description-2 = Hau da berreskuratzeko metodorik seguruena zure gailu mugikorra edo autentifikatzaile aplikazioa erabili ezin baduzu.
 # Recovery phone is a recovery method for two-step authentication
 # A recovery code can be sent to the user's phone
 tfa-row-backup-phone-title-v2 = Berreskuratze telefonoa
