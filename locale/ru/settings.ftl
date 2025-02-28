@@ -902,6 +902,8 @@ settings-recovery-phone-remove-success = Телефон для восстано�
 
 page-setup-recovery-phone-heading = Добавить телефон для восстановления
 page-setup-recovery-phone-back-button-title = Вернуться в настройки
+# Back arrow to return to step 1 of recovery phone setup flow
+page-setup-recovery-phone-step2-back-button-title = Изменить номер телефона
 
 ## Add secondary email page
 
@@ -1050,6 +1052,8 @@ tfa-row-backup-codes-available-v2 =
         [few] Осталось { $numCodesAvailable } кода
        *[many] Осталось { $numCodesAvailable } кодов
     }
+# Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
+tfa-row-backup-codes-get-new-cta-v2 = Создать новые коды
 # Shown to users who have no backup authentication codes
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = Добавить
