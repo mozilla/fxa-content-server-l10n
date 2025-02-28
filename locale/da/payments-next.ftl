@@ -7,6 +7,7 @@ next-iap-upgrade-contact-support = Du kan stadig få dette produkt. Kontakt supp
 next-payment-error-retry-button = Prøv igen
 next-basic-error-message = Noget gik galt. Prøv igen senere.
 checkout-error-contact-support-button = Kontakt Support
+checkout-error-not-eligible = Du er ikke berettiget til at abonnere på dette produkt. Kontakt supporten, så vi kan hjælpe dig.
 checkout-error-contact-support = Kontakt supporten, så vi kan hjælpe dig.
 
 ## Page
@@ -125,6 +126,7 @@ next-subscription-create-title = Opsætning af dit abonnement
 next-subscription-success-title = Bekræftelse af abonnement
 next-subscription-processing-title = Bekræfter abonnement…
 next-subscription-error-title = Der opstod en fejl under bekræftelse af abonnement…
+subscription-title-plan-change-heading = Gennemgå dine ændringer
 next-sub-guarantee = 30-dages pengene-tilbage-garanti
 
 ## Component - TermsAndPrivacy
@@ -138,7 +140,17 @@ next-terms-download = Betingelser for hentning
 
 ## Component - UpdatedPurchaseDetails
 
+upgrade-purchase-details-current-plan-label = Nuværende plan
+upgrade-purchase-details-new-plan-label = Ny plan
+upgrade-purchase-details-promo-code = Rabatkode
+upgrade-purchase-details-tax-label = Skatter og gebyrer
+upgrade-purchase-details-new-total-label = Ny total
+upgrade-purchase-details-prorated-upgrade = Forholdsmæssig opgradering
 
 ## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
 
+upgrade-purchase-details-new-plan-daily = { $productName } (Dagligt)
+upgrade-purchase-details-new-plan-weekly = { $productName } (Ugentligt)
+upgrade-purchase-details-new-plan-monthly = { $productName } (Månedligt)
+upgrade-purchase-details-new-plan-yearly = { $productName } (Årligt)
