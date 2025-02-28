@@ -1052,8 +1052,6 @@ tfa-row-backup-codes-description-2 = Questo è il metodo di recupero più sicuro
 # Recovery phone is a recovery method for two-step authentication
 # A recovery code can be sent to the user's phone
 tfa-row-backup-phone-title-v2 = Telefono per il recupero dell’account
-# Shown with an alert icon to indicate that no recovery phone is configured
-tfa-row-backup-phone-not-available-v2 = Nessun numero di telefono aggiunto
 # button to change the configured recovery phone
 tfa-row-backup-phone-change-cta = Modifica
 # button to add/configure a recovery phone
