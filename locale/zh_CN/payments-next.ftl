@@ -142,6 +142,7 @@ next-terms-download = 下载条款
 upgrade-purchase-details-current-plan-label = 目前方案
 upgrade-purchase-details-new-plan-label = 新方案
 upgrade-purchase-details-promo-code = 折扣码
+upgrade-purchase-details-tax-label = 税费
 upgrade-purchase-details-new-total-label = 新方案金额
 upgrade-purchase-details-prorated-upgrade = 按比例补差价升级
 
