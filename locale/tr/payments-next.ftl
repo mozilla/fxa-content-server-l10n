@@ -126,6 +126,7 @@ next-subscription-create-title = Aboneliğinizi ayarlayın
 next-subscription-success-title = Abonelik onayı
 next-subscription-processing-title = Abonelik onaylanıyor…
 next-subscription-error-title = Abonelik onaylanırken hata oluştu…
+subscription-title-plan-change-heading = Değişikliğinizi gözden geçirin
 next-sub-guarantee = 30 gün para iade garantisi
 
 ## Component - TermsAndPrivacy
@@ -139,7 +140,17 @@ next-terms-download = İndirme Koşulları
 
 ## Component - UpdatedPurchaseDetails
 
+upgrade-purchase-details-current-plan-label = Geçerli plan
+upgrade-purchase-details-new-plan-label = Yeni plan
+upgrade-purchase-details-promo-code = Promosyon kodu
+upgrade-purchase-details-tax-label = Vergiler ve ücretler
+upgrade-purchase-details-new-total-label = Yeni toplam
+upgrade-purchase-details-prorated-upgrade = Orantılı yükseltme
 
 ## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
 
+upgrade-purchase-details-new-plan-daily = { $productName } (Günlük)
+upgrade-purchase-details-new-plan-weekly = { $productName } (Haftalık)
+upgrade-purchase-details-new-plan-monthly = { $productName } (Aylık)
+upgrade-purchase-details-new-plan-yearly = { $productName } (Yıllık)

@@ -1220,6 +1220,7 @@ auth-error-214 = Kurtarma telefon numarası zaten mevcut
 auth-error-215 = Kurtarma telefon numarası mevcut değil
 auth-error-216 = SMS sınırına ulaşıldı
 auth-error-218 = Yedek kimlik doğrulama kodları eksik olduğu için kurtarma telefonu kaldırılamadı.
+auth-error-219 = Bu telefon numarası çok fazla hesaba kayıtlı. Lütfen farklı bir numara deneyin.
 auth-error-999 = Beklenmeyen hata
 auth-error-1001 = Giriş denemesi iptal edildi
 auth-error-1002 = Oturum zaman aşımına uğradı. Devam etmek için giriş yapın.
