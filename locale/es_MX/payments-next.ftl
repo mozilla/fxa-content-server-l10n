@@ -104,6 +104,8 @@ next-new-user-subscribe-product-assurance = Utilizamos tu dirección únicamente
 plan-price-interval-daily = { $amount } diario
 plan-price-interval-weekly = { $amount } semanal
 plan-price-interval-monthly = { $amount } mensual
+plan-price-interval-6monthly = { $amount } cada 6 meses
+plan-price-interval-yearly = { $amount } anual
 
 ## Component - SubscriptionTitle
 
@@ -115,6 +117,9 @@ next-sub-guarantee = 30 días de garantía de devolución de dinero
 
 ## Component - TermsAndPrivacy
 
+# "Mozilla Accounts" is capitalized in this instance for title case in English
+# This heading is followed by links to Terms of Service and Privacy Notice
+next-subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capitalization: "uppercase") }
 next-terms = Términos del servicio
 next-privacy = Aviso de privacidad
 next-terms-download = Descargar términos
