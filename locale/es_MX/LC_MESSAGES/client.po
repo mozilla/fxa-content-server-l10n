@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-05 20:09+0000\n"
-"PO-Revision-Date: 2025-01-07 04:28+0000\n"
-"Last-Translator: Eduardo Noriega <christianenors@outlook.com>\n"
+"PO-Revision-Date: 2025-02-08 04:19+0000\n"
+"Last-Translator: Bund10z <abu.avila@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es_MX\n"
 "MIME-Version: 1.0\n"
@@ -70,7 +70,7 @@ msgstr "Completa la configuración ingresando la nueva contraseña en tus otros 
 
 #: .es5/views/ready.js:57
 msgid "You are now ready to make changes to your Mozilla account."
-msgstr ""
+msgstr "Ahora estás listo para hacer cambios a tu cuenta de Mozilla."
 
 #: .es5/views/ready.js:59
 msgid "Primary email confirmed"
@@ -267,7 +267,7 @@ msgstr "Direcciones"
 
 #: .es5/models/sync-engines.js:82
 msgid "Payment Methods"
-msgstr ""
+msgstr "Métodos de pago"
 
 #: .es5/models/reliers/browser.js:68
 msgid "Firefox"
@@ -532,7 +532,7 @@ msgstr "El punto de término ya no está soportado"
 
 #: .es5/lib/auth-errors.js:306
 msgid "Complete account setup, please <a href=\"/reset_password\">reset password</a> to continue."
-msgstr ""
+msgstr "Completa los ajustes de la cuenta, por favor <a href=\"/reset_password\">Restablecer contraseña</a> para continuar."
 
 #: .es5/lib/auth-errors.js:314
 msgid "Login attempt cancelled"
@@ -600,7 +600,7 @@ msgstr "Ingresa una dirección de correo electrónico válida. firefox.com no of
 
 #: .es5/lib/auth-errors.js:404
 msgid "Mozilla accounts can only be placed into an IFRAME on approved sites"
-msgstr ""
+msgstr "Las cuentas de Mozilla solo pueden ser ubicadas en un IFRAME en sitios aprobados"
 
 #: .es5/lib/auth-errors.js:423
 msgid "Verification link damaged"
@@ -700,7 +700,7 @@ msgstr "El tamaño del archivo de imagen es demasiado grande para subirlo."
 
 #: .es5/lib/auth-errors.js:612
 msgid "Email masks can’t be used to create an account."
-msgstr ""
+msgstr "Las máscaras de correo electrónico no se pueden utilizar para crear una cuenta."
 
 #: .es5/lib/auth-errors.js:685
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
@@ -720,7 +720,7 @@ msgstr "¿Escribiste mal tu correo?"
 
 #: .es5/lib/newsletters.js:24
 msgid "Early access to test new products"
-msgstr ""
+msgstr "Acceso anticipado para probar nuevos productos"
 
 #: .es5/lib/newsletters.js:28
 msgid "Get the latest news about Mozilla and Firefox"
@@ -728,7 +728,7 @@ msgstr "Obtén las últimas noticias acerca de Mozilla y Firefox"
 
 #: .es5/lib/newsletters.js:32
 msgid "Help keep the internet healthy"
-msgstr ""
+msgstr "Ayuda a mantener el internet saludable"
 
 #: .es5/lib/newsletters.js:36
 msgid "Be safer and smarter online"
@@ -736,7 +736,7 @@ msgstr "Navega de forma más segura e inteligente"
 
 #: .es5/lib/newsletters.js:40
 msgid "Security & privacy news and updates"
-msgstr ""
+msgstr "Noticias y actualizaciones de seguridad y privacidad"
 
 #: .es5/lib/oauth-errors.js:27
 msgid "Unknown client"
@@ -1075,7 +1075,7 @@ msgstr ""
 
 #: .es5/templates/connect_another_device.mustache:11
 msgid "You’re signed in to Firefox"
-msgstr ""
+msgstr "Has iniciado sesión en Firefox"
 
 #: .es5/templates/connect_another_device.mustache:15
 msgid "Sign in to this Firefox to complete set-up"
@@ -1095,11 +1095,11 @@ msgstr "¿Quieres llevar tus pestañas, marcadores y contraseñas en otro dispos
 
 #: .es5/templates/connect_another_device.mustache:24 .es5/templates/ready.mustache:2
 msgid "Manage your account"
-msgstr ""
+msgstr "Administra tu cuenta"
 
 #: .es5/templates/force_auth.mustache:1 .es5/templates/sign_in_password.mustache:1
 msgid "Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Mozilla account</span>"
-msgstr ""
+msgstr "Ingresa tu contraseña <span class=\"card-subheader\" id=\"subheader\">para tu cuenta de Mozilla</span>"
 
 #: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up_password.mustache:4 .es5/templates/post_verify/third_party_auth/set_password.mustache:3
 msgid "Password"
@@ -1138,7 +1138,7 @@ msgstr "¿Olvidaste la contraseña?"
 
 #: .es5/templates/index.mustache:1
 msgid "Continue to your Mozilla account"
-msgstr ""
+msgstr "Continúa en tu cuenta de Mozilla"
 
 #: .es5/templates/index.mustache:2
 msgid "Sync your passwords, tabs, and bookmarks everywhere you use Firefox."
@@ -1158,7 +1158,7 @@ msgstr "Crear una mascara de correo electrónico"
 
 #: .es5/templates/index.mustache:9
 msgid "Please provide the email address where you’d like to forward emails from your masked email."
-msgstr ""
+msgstr "Proporciona la dirección de correo electrónico a la que deseas reenviar correos electrónicos desde tu correo electrónico enmascarado."
 
 #: .es5/templates/index.mustache:12
 msgid "Sign up or sign in"
@@ -1166,7 +1166,7 @@ msgstr "Regístrate o inicia sesión"
 
 #: .es5/templates/index.mustache:14
 msgid "A Mozilla account also unlocks access to more privacy-protecting products from Mozilla."
-msgstr ""
+msgstr "Una cuenta Mozilla también desbloquea el acceso a más productos de Mozilla que protegen tu privacidad."
 
 #: .es5/templates/index.mustache:16
 msgid ""
@@ -1480,7 +1480,7 @@ msgstr ""
 
 #: .es5/templates/sign_up_password.mustache:7
 msgid "Get more from Mozilla:"
-msgstr ""
+msgstr "Obtén más de Mozilla:"
 
 #: .es5/templates/sign_up_password.mustache:10 .es5/templates/post_verify/third_party_auth/set_password.mustache:6
 msgid "Choose what to sync"
@@ -1492,11 +1492,11 @@ msgstr "Crea una cuenta"
 
 #: .es5/templates/support.mustache:1 .es5/templates/partial/brand-messaging.mustache:1
 msgid "Mozilla m logo"
-msgstr ""
+msgstr "Logotipo de Mozilla m"
 
 #: .es5/templates/support.mustache:2
 msgid "Mozilla account"
-msgstr ""
+msgstr "Cuenta de Mozilla"
 
 #: .es5/templates/support.mustache:3
 msgid "Account Home"
@@ -1620,11 +1620,11 @@ msgstr "¿No llega la pestaña? Envía un correo electrónico en su lugar"
 
 #: .es5/templates/post_verify/third_party_auth/set_password.mustache:2
 msgid "Please create a password to continue to Firefox Sync. Your data is encrypted with your password to protect your privacy."
-msgstr ""
+msgstr "Por favor, crea una contraseña para continuar con Firefox Sync. Tus datos son cifrados con tu contraseña para proteger tu privacidad."
 
 #: .es5/templates/post_verify/third_party_auth/set_password.mustache:9 .es5/templates/post_verify/finish_account_setup/set_password.mustache:9
 msgid "Create password"
-msgstr ""
+msgstr "Crear contraseña"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:4
 msgid "Add a secondary email address"
@@ -1670,6 +1670,8 @@ msgstr "para continuar en %(serviceName)s"
 msgid ""
 "We detected suspicious behavior on your Mozilla account. To protect your account, please create a new password. You’ll use this password to sign back in to all of your Mozilla account services."
 msgstr ""
+"Detectamos un comportamiento sospechoso en tu cuenta de Mozilla. Para proteger tu cuenta, crea una nueva contraseña. Utilizarás esta contraseña para volver a conectarte en todos los servicios de tu "
+"cuenta de Mozilla."
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:6
 msgid "Synced history, bookmarks, logins, and other personal data will not be lost."
@@ -1713,7 +1715,7 @@ msgstr "Le faltan caracteres al enlace en el que has hecho clic y puede que tu c
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:3 .es5/templates/post_verify/finish_account_setup/set_password.mustache:6
 msgid "Create a Mozilla account"
-msgstr ""
+msgstr "Crea una cuenta de Mozilla"
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:4
 msgid "Continue to %(productName)s"
@@ -1813,7 +1815,7 @@ msgstr "¿Por qué necesito crear una cuenta? <a %(escapedSuggestionAttrs)s>Desc
 
 #: .es5/templates/partial/brand-messaging.mustache:2
 msgid "Firefox accounts will be renamed Mozilla accounts on Nov 1"
-msgstr ""
+msgstr "Las cuentas de Firefox pasarán a llamarse cuentas de Mozilla a partir del 1 de noviembre"
 
 #: .es5/templates/partial/brand-messaging.mustache:3
 msgid "You’ll still sign in with the same username and password, and there are no other changes to the products that you use."
@@ -1821,7 +1823,7 @@ msgstr ""
 
 #: .es5/templates/partial/brand-messaging.mustache:4 .es5/templates/partial/brand-messaging.mustache:7 .es5/templates/partial/unsupported-pair.mustache:3
 msgid "Learn more"
-msgstr ""
+msgstr "Aprende más"
 
 #: .es5/templates/partial/brand-messaging.mustache:6
 msgid "We’ve renamed Firefox accounts to Mozilla accounts. You’ll still sign in with the same username and password, and there are no other changes to the products that you use."
@@ -1829,7 +1831,7 @@ msgstr ""
 
 #: .es5/templates/partial/brand-messaging.mustache:9 .es5/templates/partial/brand-messaging.mustache:10
 msgid "Close Banner"
-msgstr ""
+msgstr "Cerrar banner"
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you? To learn why we ask for your age, follow the “why do we ask” link below."
@@ -1913,7 +1915,7 @@ msgstr "Continuar con Apple"
 
 #: .es5/templates/partial/unsupported-pair.mustache:1
 msgid "Connecting your mobile device with your Mozilla account"
-msgstr ""
+msgstr "Cómo conectar tu dispositivo móvil con tu cuenta de Mozilla"
 
 #: .es5/templates/partial/unsupported-pair.mustache:2
 msgid "Open Firefox on your computer, visit <b class=\"whitespace-nowrap\">firefox.com/pair</b>, and follow the on-screen instructions to connect your mobile device."
@@ -1971,15 +1973,15 @@ msgstr ""
 
 #: .es5/templates/pair/failure.mustache:1
 msgid "Device pairing failed"
-msgstr ""
+msgstr "Error en el emparejamiento del dispositivo"
 
 #: .es5/templates/pair/failure.mustache:2
 msgid "The setup couldn’t be completed. Please sign in with your email."
-msgstr ""
+msgstr "El proceso de configuración no pudo ser completado. Por favor, inicia sesion usando tu correo electrónico."
 
 #: .es5/templates/pair/index.mustache:1
 msgid "Signed in successfully!"
-msgstr ""
+msgstr "¡Inicio de sesión exitoso!"
 
 #: .es5/templates/pair/index.mustache:8
 msgid "Sync your Firefox experience"
@@ -1987,7 +1989,7 @@ msgstr ""
 
 #: .es5/templates/pair/index.mustache:9
 msgid "Download Firefox for mobile"
-msgstr ""
+msgstr "Descargar Firefox para dispositivo móvil"
 
 #: .es5/templates/pair/index.mustache:11
 msgid "View your saved passwords, tabs, browsing history and more — across all your devices."
@@ -1995,15 +1997,15 @@ msgstr ""
 
 #: .es5/templates/pair/index.mustache:12
 msgid "Select an option to continue:"
-msgstr ""
+msgstr "Selecciona una opción para continuar:"
 
 #: .es5/templates/pair/index.mustache:13
 msgid "I already have Firefox for mobile"
-msgstr ""
+msgstr "Ya tengo Firefox para dispositivo móvil"
 
 #: .es5/templates/pair/index.mustache:14
 msgid "Start your sync now if you already have Firefox on your mobile device."
-msgstr ""
+msgstr "Comienza tu sincronización ahora si ya tienes Firefox en tu dispositivo móvil."
 
 #: .es5/templates/pair/index.mustache:15
 msgid "I don’t have Firefox for mobile"
@@ -2035,7 +2037,7 @@ msgstr ""
 
 #: .es5/templates/pair/index.mustache:23
 msgid "Continue to sync"
-msgstr ""
+msgstr "Continuar sincronizando"
 
 #: .es5/templates/pair/success.mustache:2
 msgid "Device successfully paired"
@@ -2059,7 +2061,7 @@ msgstr ""
 
 #: .es5/templates/pair/unsupported.mustache:4 .es5/templates/pair/unsupported.mustache:12
 msgid "Attention:"
-msgstr ""
+msgstr "Atención:"
 
 #: .es5/templates/pair/unsupported.mustache:5
 msgid "Switch to Firefox and open this page to connect another device."
@@ -2083,12 +2085,12 @@ msgstr "¿Usaste la cámara del sistema? Tienes que conectarla desde una aplicac
 
 #: .es5/templates/pair/unsupported.mustache:14
 msgid "Download Firefox now"
-msgstr ""
+msgstr "Descargar Firefox ahora"
 
 #: .es5/templates/pair/unsupported.mustache:17
 msgid "Oops! Something went wrong."
-msgstr ""
+msgstr "¡Ups! Algo salió mal."
 
 #: .es5/templates/pair/unsupported.mustache:18
 msgid "Please close this tab and try again."
-msgstr ""
+msgstr "Cierra esta pestaña e inténtalo de nuevo."

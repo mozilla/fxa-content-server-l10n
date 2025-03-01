@@ -6,6 +6,7 @@
 ## Component - AppLayout
 
 settings-home = Página principal de la cuenta
+settings-project-header-title = { -product-mozilla-account }
 
 ## Component - CouponForm
 
@@ -29,6 +30,7 @@ input-error-is-required = Se requiere { $label }
 
 ## Component - Header
 
+brand-name-mozilla-logo = Logo de { -brand-mozilla }
 
 ## Component - NewUserEmailForm
 
@@ -57,6 +59,8 @@ payment-confirmation-thanks-subheading = Se ha enviado un correo electrónico de
 payment-confirmation-thanks-subheading-account-exists = Recibirás un mensaje en { $email } con instrucciones para configurar tu cuenta, así como los detalles de tu pago.
 payment-confirmation-order-heading = Detalles del pedido
 payment-confirmation-invoice-number = Factura #{ $invoiceNumber }
+# $invoiceDate (Date) - Start date of the latest invoice
+payment-confirmation-invoice-date = { $invoiceDate }
 payment-confirmation-details-heading-2 = Información de pago
 payment-confirmation-amount = { $amount } por { $interval }
 # $amount (Number) - The amount billed. It will be formatted as currency.
@@ -91,6 +95,7 @@ payment-confirmation-download-button = Continuar para descargar
 
 ## Component - PaymentConsentCheckbox
 
+payment-confirm-checkbox-error = Debes completar esto antes de avanzar
 
 ## Component - PaymentErrorView
 
@@ -125,6 +130,7 @@ payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe } polític
 payment-method-header = Elige tu método de pago
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step = 2. { payment-method-header }
+payment-method-first-approve = Primero deberás aprobar tu suscripción
 
 ## Component - PaymentProcessing
 
@@ -136,6 +142,7 @@ payment-confirmation-cc-card-ending-in = Tarjeta que termina en { $last4 }
 
 ## Component - PayPalButton
 
+pay-with-heading-paypal-2 = Pagar con { -brand-paypal }
 
 ## Component - PlanDetails
 
@@ -235,6 +242,9 @@ sub-guarantee = 30 días de garantía de devolución de dinero
 
 ## Component - TermsAndPrivacy
 
+# "Mozilla Accounts" is capitalized in this instance for title case in English
+# This heading is followed by links to Terms of Service and Privacy Notice
+subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capitalization: "uppercase") }
 terms = Términos del servicio
 privacy = Aviso de privacidad
 terms-download = Descargar términos
@@ -349,6 +359,7 @@ subscription-iaperrorupgrade-title = Todavía no podemos actualizarte
 # The following are not terms because they are not used directly in messages,
 # but rather looked up in code and passed into the message as variables.
 
+brand-name-apple-app-store-2 = { -app-store }
 
 ## Routes - Product - Subscription upgrade
 
@@ -364,6 +375,10 @@ sub-update-total-label = Nuevo total
 ## Variables:
 ##   $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 
+sub-update-new-plan-daily = { $productName } (Diario)
+sub-update-new-plan-weekly = { $productName } (Semanal)
+sub-update-new-plan-monthly = { $productName } (Mensual)
+sub-update-new-plan-yearly = { $productName } (Anual)
 
 ##
 
@@ -382,6 +397,18 @@ sub-item-cancel-msg =
 sub-item-cancel-confirm =
     Cancelar mi acceso y mi información guardada en
     { $name } el { $period }
+# $promotion_name (String) - The name of the promotion.
+# The <priceDetails></priceDetails> component acts as a placeholder and could use one of the following IDs:
+# price-details-tax-${interval},
+# price-details-no-tax-${interval},
+# price-details-tax,
+# price-details-no-tax
+# Examples:
+# 20% OFF coupon applied: $11.20 + $0.35 tax monthly
+# Holiday Offer 2023 coupon applied: $11.20 monthly
+# Cybersecurity Awareness Month 2023 coupon applied: $11.20 + $0.35 tax
+# Summer Promo VPN coupon applied: $11.20
+sub-promo-coupon-applied = Cupón aplicado por { $promotion_name }: <priceDetails></priceDetails>
 
 ## Routes - Subscription
 

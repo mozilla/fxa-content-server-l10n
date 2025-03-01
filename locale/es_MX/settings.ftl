@@ -101,6 +101,9 @@ form-password-with-inline-criteria-reset-new-password =
     .label = Nueva contraseña
 form-password-with-inline-criteria-confirm-password =
     .label = Confirmar contraseña
+form-password-with-inline-criteria-sr-not-common-message = La contraseña no debe ser una contraseña de uso común.
+form-password-with-inline-criteria-sr-requirements-met = La contraseña ingresada respeta todos los requisitos de contraseña.
+form-password-with-inline-criteria-sr-passwords-match = Las contraseñas ingresadas coinciden.
 
 ## FormVerifyCode
 
@@ -110,11 +113,22 @@ form-verify-code-default-error = Este campo es requerido
 ## FormVerifyTotp component
 ## Form to enter a time-based one-time-passcode (e.g., 6-digit numeric code or 8-digit alphanumeric code)
 
+# Information explaining why button is disabled, also read to screen readers
+# Submit button is disabled unless a valid code format is entered
+# Used when the code may only contain numbers
+# $codeLength : number of digits in a valid code
+form-verify-totp-disabled-button-title-numeric = Ingresa el código de { $codeLength } dígitos para continuar
+# Information explaining why button is disabled, also read to screen readers
+# Submit button is disabled unless a valid code format is entered
+# Used when the code may contain numbers and/or letters
+# $codeLength : number of characters in a valid code
+form-verify-totp-disabled-button-title-alphanumeric = Ingrese el código de carácter { $codeLength } para continuar
 
 # GetDataTrio component, part of Account Recovery Key flow
 
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = { -brand-firefox } clave de recuperación de cuenta
+get-data-trio-title-backup-verification-codes = Códigos de autenticación de respaldo
 get-data-trio-download-2 =
     .title = Descargar
     .aria-label = Descargar
@@ -128,6 +142,42 @@ get-data-trio-print-2 =
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
+# Aria-label option for an alert symbol
+alert-icon-aria-label =
+    .aria-label = Alerta
+# Aria-label option for an alert symbol
+icon-attention-aria-label =
+    .aria-label = Atención
+# Aria-label option for an alert symbol
+icon-warning-aria-label =
+    .aria-label = Advertencia
+authenticator-app-aria-label =
+    .aria-label = Aplicación de autenticador
+backup-codes-icon-aria-label-v2 =
+    .aria-label = Códigos de autenticación de respaldo habilitados
+# Used to  indicate a general checkmark, as in something checked off in a list!
+checkmark-icon-aria-label =
+    .aria-label = Marcar
+# Used to  indicate a check mark for a successful state/action
+checkmark-success-icon-aria-label =
+    .aria-label = Éxito
+# Used to indicate a check mark for an enabled state/option
+checkmark-enabled-icon-aria-label =
+    .aria-label = Habilitado
+# Used on X icon to dismiss a message such as an alert or banner
+close-icon-aria-label =
+    .aria-label = Cerrar mensaje
+# Used to decorate a code you enter for verification purposes
+code-icon-aria-label =
+    .aria-label = Código
+error-icon-aria-label =
+    .aria-label = Error
+# Used as information icon for informative messaging
+info-icon-aria-label =
+    .aria-label = Información
+# Used to select United States as a country code for phone number
+usa-flag-icon-aria-label =
+    .aria-label = Bandera de Estados Unidos
 
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
@@ -142,11 +192,26 @@ signin-totp-code-image-label =
     .aria-label = Un dispositivo con un código oculto de 6 dígitos.
 confirm-signup-aria-label =
     .aria-label = Un sobre que contiene un enlace
+# Used for an image of a key on a shield surrounded by 5 other icons representing information that can be recovered with the account recovery key.
+# Other icons and their meaning: Gear (settings), star (favorites), clock (history), magnifying glass (search) and lock (passwords).
+security-shield-aria-label =
+    .aria-label = Ilustración para representar una clave de recuperación de la cuenta
+# Used for an image of a single key.
+recovery-key-image-aria-label =
+    .aria-label = Ilustración para representar una clave de recuperación de cuenta.
+lightbulb-aria-label =
+    .aria-label = Ilustración para representar la creación de una pista de almacenamiento.
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
 ## after signing in.
 
+inline-recovery-key-setup-create-header = Protege tu cuenta
+# This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
+inline-recovery-key-setup-create-subheader = ¿Tienes un minuto para proteger tus datos?
+inline-recovery-key-setup-info = Crea una clave de recuperación de cuenta para que puedas restaurar tus datos de navegación sincronizada si alguna vez olvidas tu contraseña.
+inline-recovery-key-setup-start-button = Crear una clave de recuperación de cuenta
+inline-recovery-key-setup-later-button = Hacerlo más tarde
 
 ## Input Password
 
@@ -154,9 +219,20 @@ confirm-signup-aria-label =
 input-password-hide = Ocultar contraseña
 # Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will show the password.
 input-password-show = Mostrar contraseña
+# Message read by screen readers when focus is on a password input visibility toggle. Expresses current (visible) state of the textbox content.
+input-password-hide-aria-2 = Tu contraseña está actualmente visible en la pantalla.
+# Message read by screen readers when focus is on a password input visibility toggle. Expresses current (hidden) state of the textbox content.
+input-password-show-aria-2 = Su contraseña está actualmente oculta.
+# Message read by screen readers after clicking on a password input visibility toggle to show the password. Expresses the new (visible) state of the textbox content.
+input-password-sr-only-now-visible = Su contraseña ahora está visible en la pantalla.
+# Message read by screen readers after clicking on a password input visibility toggle to hide the password. Expresses the new (hidden) state of the textbox content.
+input-password-sr-only-now-hidden = Su contraseña ahora está oculta.
 
 ## Phone number component
 
+# This is an aria-label available to screen readers for a selection list that includes country flags, country name and country code
+input-phone-number-country-list-aria-label = Selecciona país
+input-phone-number-enter-number = Introduce el número de teléfono
 input-phone-number-country-united-states = Estados Unidos
 input-phone-number-country-canada = Canadá
 # Back button on legal/terms or legal/privacy that takes users to the previous page
@@ -170,14 +246,23 @@ reset-pwd-link-damaged-header = El enlace para restablecer la contraseña esta d
 # The user followed a link to signin that was received by email
 # but the link was damaged (for example mistyped or broken by the email client).
 signin-link-damaged-header = Enlace de confirmación dañado
+# The user followed a link to report an invalid signin attempt that was received by email
+# but the link was damaged (for example mistyped or broken by the email client).
+report-signin-link-damaged-header = Enlace dañado
 # The user followed a link received by email, but the link was damaged.
 reset-pwd-link-damaged-message = Al enlace que seleccionaste le faltan caracteres y puede que tu cliente de correo electrónico lo haya roto. Copia la dirección con cuidado y vuelve a intentarlo.
 
 ## LinkExpired component
 
+# Button to request a new link if the previous link that was emailed to the user is expired
+link-expired-new-link-button = Recibir nuevo enlace
 
 ## LinkRememberPassword component
 
+# immediately before remember-password-signin-link
+remember-password-text = ¿Recordar tu contraseña?
+# link navigates to the sign in page
+remember-password-signin-link = Iniciar sesión
 
 ## LinkUsed component
 
@@ -189,6 +274,10 @@ confirmation-link-reused-message = Ya se ha usado ese enlace de confirmación y 
 
 ## Notification Promo Banner component
 
+account-recovery-notification-cta = Crear
+account-recovery-notification-header-value = No pierdas tus datos si olvidas tu contraseña
+# Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
+error-bad-request = Solicitud errónea
 
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
@@ -202,12 +291,19 @@ password-strength-balloon-heading = Requisitos de contraseña
 password-strength-balloon-min-length = Al menos 8 carácteres
 password-strength-balloon-not-email = No es tu dirección de correo electrónico
 password-strength-balloon-not-common = No es una contraseña de uso común
+password-strength-balloon-stay-safe-tips = Mantente seguro — no reutilices las contraseñas. Revisa más consejos para <LinkExternal>crear contraseñas seguras</LinkExternal>.
 
 ## PasswordStrengthBalloon component
 
+password-strength-inline-min-length = Al menos 8 carácteres
+password-strength-inline-not-email = No es tu dirección de correo electrónico
+password-strength-inline-not-common = No es una contraseña de uso común
+password-strength-inline-confirmed-must-match = La confirmación coincide con la nueva contraseña
 
 ## Ready component
 
+ready-complete-set-up-instruction = Complete la configuración ingresando tu nueva contraseña en tus otros dispositivos { -brand-firefox }.
+manage-your-account-button = Administra tu cuenta
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
@@ -224,6 +320,11 @@ primary-email-verified-header = Correo principal confirmado
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
 
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+flow-recovery-key-download-storage-ideas-heading-v2 = Lugares para guardar tu llave:
+flow-recovery-key-download-storage-ideas-folder-v2 = Carpeta en un dispositivo seguro
+flow-recovery-key-download-storage-ideas-cloud = Almacenamiento en la nube de confianza
 
 ## RecoveryKeySetupHint
 ## This is the final step in the account recovery key creation flow after a Sync signin or in account settings
@@ -403,6 +504,7 @@ nav-email-comm = Comunicaciones por correo electrónico
 ## Two Step Authentication - replace backup authentication code
 
 tfa-replace-code-error-3 = Hubo un problema al reemplazar tus códigos de autenticación de respaldo
+tfa-create-code-error = Hubo un problema al crear sus códigos de autenticación de respaldo
 tfa-replace-code-success-1 =
     Se han creado nuevos códigos. Guarda estos códigos de autenticación de respaldo de un solo uso
     en un lugar seguro, los necesitarás para acceder a tu cuenta si no tienes tu dispositivo móvil.
@@ -482,14 +584,19 @@ delete-account-header =
     .title = Eliminar cuenta
 delete-account-step-1-2 = Paso 1 de 2
 delete-account-step-2-2 = Paso 2 de 2
+delete-account-confirm-title-4 = Es posible que haya conectado su { -product-mozilla-account } a uno o más de los siguientes { -brand-mozilla } productos o servicios que lo mantienen seguro y productivo en la web:
+delete-account-product-mozilla-account = { -product-mozilla-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
 delete-account-product-pocket = { -product-pocket }
+delete-account-product-mozilla-monitor = { -product-mozilla-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = Sincronizando datos de { -brand-firefox }
 delete-account-product-firefox-addons = Complementos de { -brand-firefox }
 delete-account-acknowledge = Por favor, recuerda que si eliminas tu cuenta:
+delete-account-chk-box-1-v3 =
+    .label = Se cancelarán todas las suscripciones de pago que tengas (excepto { -product-pocket })
 delete-account-chk-box-2 =
     .label = Puede que pierdas información y funciones guardadas en los productos de { -brand-mozilla }
 delete-account-chk-box-3 =
@@ -499,6 +606,7 @@ delete-account-chk-box-4 =
 delete-account-continue-button = Continuar
 delete-account-password-input =
     .label = Ingresar contraseña
+pocket-delete-notice = Si se suscribe a Pocket Premium, asegúrese de <a>cancelar su suscripción</a> antes de eliminar su cuenta.
 delete-account-cancel-button = Cancelar
 delete-account-delete-button-2 = Eliminar
 
@@ -524,16 +632,57 @@ display-name-success-alert-2 = Nombre para mostrar actualizado
 ## These are displayed as a list with the date when the event occured
 
 recent-activity-title = Actividad reciente de la cuenta
+recent-activity-account-create-v2 = Cuenta creada
+recent-activity-account-disable-v2 = Cuenta deshabilitada
+recent-activity-account-enable-v2 = Cuenta habilitada
+recent-activity-account-login-v2 = Conexión a la cuenta iniciada
+recent-activity-account-reset-v2 = Restablecimiento de contraseña iniciado
+# This string appears under recent account activity when there were email bounces associated with the account, but those were recently cleared (i.e. removed/deleted).
+# An email bounce is when an email is sent to an email address and fails/receives a non-delivery receipt from the recipient's mail server.
+recent-activity-emails-clearBounces-v2 = Correos rebotados eliminados
+recent-activity-account-login-failure = Error al intentar iniciar sesión en la cuenta
+recent-activity-account-two-factor-added = Autenticación en dos pasos habilitada
+recent-activity-account-two-factor-requested = Se solicita autenticación en dos pasos
+recent-activity-account-two-factor-failure = La autenticación en dos pasos falló
+recent-activity-account-two-factor-success = Autenticación en dos pasos exitosa
+recent-activity-account-two-factor-removed = Se eliminó la autenticación de dos pasos
+recent-activity-account-password-reset-requested = Cuenta solicitada para restablecer la contraseña
+recent-activity-account-password-reset-success = Restablecimiento de contraseña de cuenta exitoso
+recent-activity-account-recovery-key-added = Clave de recuperación de cuenta habilitada
+recent-activity-account-recovery-key-verification-failure = Error en la verificación de la clave de recuperación de la cuenta
+recent-activity-account-recovery-key-verification-success = Verificación exitosa de la clave de recuperación de cuenta
+recent-activity-account-recovery-key-removed = Clave de recuperación de cuenta eliminada
+recent-activity-account-password-added = Nueva contraseña agregada
+recent-activity-account-password-changed = contraseña cambiada
+recent-activity-account-secondary-email-added = Dirección de correo electrónico secundaria agregada
+recent-activity-account-secondary-email-removed = Dirección de correo electrónico secundaria eliminada
+recent-activity-account-emails-swapped = Correos electrónicos primarios y secundarios intercambiados
+# Security event was recorded, but the activity details are unknown or not shown to user
+recent-activity-unknown = Otra actividad de la cuenta
 
 ## PageRecoveryKeyCreate
 
+# The page title displayed at the top of the flow container
+recovery-key-create-page-title = Clave de recuperación de cuenta
+# Tooltip text and aria label for back arrow that takes users out of the account recovery key generation flow
+# and back to account settings
+recovery-key-create-back-button-title = Volver a los ajustes
 
 ## PageRecoveryPhoneRemove
 ## Users reach this page from account settings when they want to remove a backup phone number.
 
+recovery-phone-remove-header = Eliminar el número de teléfono de recuperación
+# Variables:
+#   $formattedFullPhoneNumber (String) - the user's full phone number
+settings-recovery-phone-remove-info = Esto eliminará <strong>{ $formattedFullPhoneNumber }</strong> como tu teléfono de recuperación.
+settings-recovery-phone-remove-button = Eliminar número de teléfono
+settings-recovery-phone-remove-cancel = Cancelar
+settings-recovery-phone-remove-success = Teléfono de recuperación eliminado
 
 ## PageSetupRecoveryPhone
 
+page-setup-recovery-phone-heading = Agregar teléfono de recuperación
+page-setup-recovery-phone-back-button-title = Volver a los ajustes
 
 ## Add secondary email page
 
@@ -545,6 +694,10 @@ add-secondary-email-enter-address =
     .label = Ingresar dirección de correo electrónico
 add-secondary-email-cancel-button = Cancelar
 add-secondary-email-save-button = Guardar
+# This message is shown when a user tries to add a secondary email that is a
+# Firefox Relay email mask (generated email address that can be used in place of
+# your real email address)
+add-secondary-email-mask = Las máscaras de correo electrónico no se pueden utilizar como correo electrónico secundario
 
 ## Verify secondary email page
 
@@ -583,6 +736,7 @@ tfa-incorrect-totp = Código de autenticación en dos pasos incorrecto
 tfa-cannot-retrieve-code = Ha surgido un problema al recuperar tu código.
 tfa-cannot-verify-code-4 = Hubo un problema al confirmar tu código de autenticación de respaldo
 tfa-incorrect-recovery-code-1 = Código de autenticación de respaldo incorrecto
+tfa-enabled-v2 = Autenticación en dos pasos habilitado
 tfa-scan-this-code =
     Escanea este código QR usando una de <linkExternal>estas
     aplicaciones de autenticación</linkExternal>.
@@ -610,6 +764,12 @@ tfa-enter-recovery-code-1 =
 
 ## Product promotion
 
+product-promo-monitor =
+    .alt = { -product-mozilla-monitor }
+# Links out to the Monitor site
+product-promo-monitor-cta = Obtén un escaneo gratuito
+# Links out to the Monitor pricing site
+product-promo-monitor-plus-cta = Comenzar
 
 ## Profile section
 
@@ -626,6 +786,11 @@ profile-primary-email =
 
 ## Progress bar
 
+# This is the aria-label text for the progress bar. The progress bar is meant to visually show the user how much progress they have made through the steps of a given flow.
+# Variables:
+#   $currentStep (number) - the step which the user is currently on
+#   $numberOfSteps (number) - the total number of steps in a given flow
+progress-bar-aria-label-v2 = Paso { $currentStep } de { $numberOfSteps }.
 
 ## Security section of Setting
 
@@ -639,9 +804,19 @@ security-password-created-date = Creada el { $date }
 security-not-set = No establecida
 security-action-create = Crear
 security-set-password = Establece una contraseña para sincronizar y usar ciertas funciones de seguridad de la cuenta.
+# Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
+security-recent-activity-link = Ver actividad reciente de la cuenta
+signout-sync-header = Sesión expirada
 
 ## SubRow component
 
+tfa-row-backup-codes-title = Códigos de autenticación de respaldo
+# Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
+# Users that have not enabled or verified 2FA will not see this
+tfa-row-backup-codes-not-available = No hay códigos disponibles
+# Shown to users who have no backup authentication codes
+# Button to add backup authentication codes when none are configured
+tfa-row-backup-codes-add-cta = Agregar
 
 ## Switch component
 
@@ -841,9 +1016,29 @@ inline-recovery-confirmation-header = Confirmar el código de autenticación de 
 
 inline-totp-setup-cancel-setup-button = Cancelar configuración
 inline-totp-setup-continue-button = Continuar
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
+inline-totp-setup-enable-two-step-authentication-custom-header-2 = Habilita la autenticación en dos pasos <span>para continuar con { $serviceName }</span>
 inline-totp-setup-ready-button = Listo
+# The authentication code a user is scanning is a QR code.
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-custom-service-header-2 = Escanea el código de autenticación <span>para continuar con { $serviceName }</span>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-custom-service-header-2 = Ingresa el código manualmente <span>para continuar con { $serviceName }</span>
+# The authentication code a user is scanning is a QR code.
+# The <scanAuthHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-default-service-header-2 = Escanea el código de autenticación <span>para continuar con los ajustes de la cuenta</span>
+# The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-default-service-header-2 = Ingresa el código manualmente <span>para continuar con los ajustes de la cuenta</span>
+# The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
+inline-totp-setup-enter-key-or-use-qr-instructions = Escribe esta clave secreta en tu aplicación de autenticación. <toggleToQRButton>¿Escanear el código QR en su lugar?</toggleToQRButton>
+# The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
+inline-totp-setup-use-qr-or-enter-key-instructions = Escanea el código QR en tu aplicación de autenticación y luego ingresa el código de autenticación que proporciona. <toggleToManualModeButton>¿No puedes escanear el código?</toggleToManualModeButton>
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-on-completion-description = Una vez completado, comenzará a generar códigos de autenticación para que los ingreses.
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = Código de autenticación
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-code-required-error = Se requiere código de autenticación
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
@@ -868,6 +1063,9 @@ pair-auth-allow-heading-text = ¿Recientemente iniciaste sesión en { -product-f
 # Submit button to confirm that the user initiated the device pairing
 # and that they approve of the new device being added to their account
 pair-auth-allow-confirm-button = Sí, aprobar dispositivo
+# "If this wasn't you" means "If it wasn't you that just signed in to Firefox"
+# The text with the <link> tags links to a `reset password` page
+pair-auth-allow-refuse-device-link = Si no has sido tú, <link>cambia tu contraseña</link>
 
 ## PairAuthComplete page - part of the device pairing flow
 
@@ -909,6 +1107,7 @@ pair-wait-for-supp-heading-text = Ahora se requiere la aprobación <span>desde t
 
 ## PairFailure - a view which displays on failure of the device pairing process
 
+pair-failure-header = Error al conectarse
 pair-failure-message = El proceso de configuración ha terminado.
 
 ## Pair index page
@@ -933,56 +1132,107 @@ pair-qr-code-aria-label = Código QR
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
 pair-success-header-2 = Dispositivo conectado
+pair-success-message-2 = Conexión exitosa.
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be confirmed from both devices to succeed
 
+# Strings within the <span> elements appear as a subheading.
+# Variable $email is the user's email address
+pair-supp-allow-heading-text = Confirmar conexión <span>para { $email }</span>
+pair-supp-allow-confirm-button = Confirmar emparejamiento
 pair-supp-allow-cancel-link = Cancelar
 
 ## WaitForAuth page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be approved from both devices to succeed
 
+# The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
+# Strings within the <span> elements appear as a subheading.
+pair-wait-for-auth-heading-text = Ahora se requiere aprobación <span>desde tu otro dispositivo</span>
 
 ## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
 
+pair-unsupported-header = Conectar usando una app
+pair-unsupported-message = ¿Usaste la cámara del sistema? Debe emparejar desde dentro de una aplicación { -brand-firefox }.
 
 ## SetPassword page
 ## Third party auth users that do not have a password set yet are prompted for a
 ## password to complete their sign-in when they want to login to a service requiring it.
 
+set-password-heading = Crear contraseña
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
 
+third-party-auth-callback-message = Por favor espera, estás siendo redirigido a la aplicación de autenticación.
 
 ## AccountRecoveryConfirmKey page
 
+# When setting up an account recovery key, users have the option of storing an account recovery key hint that is shown during password reset
+account-recovery-confirm-key-hint = Tu sugerencia de almacenamiento es:
+# Clicking this button checks if the recovery key provided by the user is correct and associated with their account
+account-recovery-confirm-key-button-2 = Continuar
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
+complete-reset-pw-header-v2 = Crear una nueva contraseña
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Contraseña establecida
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Lo sentimos, hubo un problema al establecer tu contraseña
+# Link to go back and use an account recovery key before resetting the password
+complete-reset-pw-recovery-key-link = Utiliza la clave de recuperación de cuenta
+# A message informing the user that the password reset was successful and reminding them to create another recovery key
+# Displayed on the sign in page
+reset-password-complete-banner-heading = Tu contraseña ha sido restablecida
 
 ## Confirm Reset Password With Code
 
+confirm-reset-password-with-code-heading = Verifica tu correo electrónico
+# Text within span appears in bold
+# $email - email address for which a password reset was requested
+confirm-reset-password-with-code-instruction = Enviamos un código de confirmación a <span>{ $email }</span>.
+# Clicking the button submits and verifies the code
+# If succesful, continues to the next step of the password reset
+confirm-reset-password-otp-submit-button = Continuar
+# Button to request a new reset password confirmation code
+confirm-reset-password-otp-resend-code-button = Reenviar código
+# Link to cancel the password reset and sign in with a different account
+confirm-reset-password-otp-different-account-link = Usa una cuenta diferente
 
 ## PasswordResetConfirmTotp Page
 
+confirm-totp-reset-password-header = Restablecer tu contraseña
+confirm-totp-reset-password-subheader-v2 = Introducir el código de autenticación de dos pasos
+confirm-totp-reset-password-trouble-code = ¿Tuviste problemas ingresando el código?
+confirm-totp-reset-password-confirm-button = Confirmar
+confirm-totp-reset-password-input-label-v2 = Ingresa código de 6 dígitos
+confirm-totp-reset-password-use-different-account = Usar una cuenta diferente
+confirm-recovery-code-reset-password-trouble-code = Atrás
 
 ## ResetPassword start page
 
+password-reset-flow-heading = Restablecer tu contraseña
+password-reset-body-2 =
+    Te pediremos un par de cosas que solo tú sabes para mantener tu cuenta
+    segura.
+password-reset-email-input =
+    .label = Ingresa tu correo electrónico
+password-reset-submit-button-2 = Continuar
 
 ## ResetPasswordConfirmed
 
 reset-password-complete-header = Tu contraseña ha sido restablecida
+# $serviceName is a product name such as Monitor, Pocket, Relay
+reset-password-confirmed-cta = Continuar a { $serviceName }
 reset-password-with-recovery-key-verified-page-title = La contraseña se restableció exitosamente
+reset-password-complete-new-password-saved = ¡Nueva contraseña guardada!
+reset-password-complete-recovery-key-created = Se ha creado una nueva clave de recuperación de cuenta. Descargar y guardar ahora.
 
 ## CompleteSignin component
 
@@ -990,8 +1240,11 @@ reset-password-with-recovery-key-verified-page-title = La contraseña se restabl
 error-label = Error:
 # This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
 validating-signin = Validando inicio de sesión…
+# Shown above an error banner (e.g., invalid confirmation code, unexpected error)
+complete-signin-error-header = Error de confirmación
 # The user followed a signin confirmation link, but that link is expired and no longer valid
 signin-link-expired-header = Enlace de confirmación expirado
+signin-link-expired-message-2 = El enlace en el que hizo clic ha caducado o ya se ha utilizado.
 
 ## Signin page
 
@@ -1006,12 +1259,17 @@ signin-button = Iniciar sesión
 signin-header = Iniciar sesión
 signin-use-a-different-account-link = Usa una cuenta diferente
 signin-forgot-password-link = ¿Olvidaste tu contraseña?
+signin-password-button-label = Contraseña
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
 ## they can click "report it to us" if they did not attempt to sign in.
 ## This will be the page shown to users to block the sign in and report it.
 
+report-signin-link-damaged-body = Al enlace que seleccionaste le faltan caracteres y puede que tu cliente de correo electrónico lo haya roto. Copia la dirección con cuidado y vuelve a intentarlo.
+report-signin-header = ¿Informar inicio de sesión no autorizado?
+report-signin-body = Has recibido un correo sobre un intento de acceso a tu cuenta. ¿Te gustaría calificar esta actividad como sospechosa?
+report-signin-submit-button = Reportar actividad
 signin-bounced-header = Lo sentimos. Hemos bloqueado tu cuenta.
 signin-bounced-create-new-account = ¿Ya no te pertenece el correo electrónico? Crea una nueva cuenta
 back = Atrás

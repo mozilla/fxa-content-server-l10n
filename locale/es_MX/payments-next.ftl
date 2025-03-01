@@ -9,11 +9,17 @@ next-basic-error-message = Algo salió mal. Por favor, inténtalo de nuevo más 
 
 ## Page
 
+continue-signin-with-google-button = Continuar con { -brand-google }
+continue-signin-with-apple-button = Continuar con { -brand-apple }
 next-payment-method-header = Elige tu método de pago
+# This message is used to indicate the second step in a multi step process.
+payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-confirmation-thanks-heading-account-exists = ¡Gracias, ahora revisa tu correo electrónico!
 next-payment-confirmation-order-heading = Detalles del pedido
 # $invoiceNumber (String) - Invoice number of the successful payment
 next-payment-confirmation-invoice-number = Factura #{ $invoiceNumber }
+# $invoiceDate (Date) - Start date of the latest invoice
+next-payment-confirmation-invoice-date = { $invoiceDate }
 next-payment-confirmation-details-heading-2 = Información de pago
 # $amount (Number) - The amount billed. It will be formatted as currency.
 # $interval (String) - The interval between payments.
@@ -21,6 +27,7 @@ next-payment-confirmation-amount = { $amount } por { $interval }
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Tarjeta que termina en { $last4 }
 next-payment-confirmation-download-button = Continuar para descargar
+checkout-error-boundary-retry-button = Intentar de nuevo
 
 ## Component - Payment Consent Checkbox
 
@@ -29,6 +36,10 @@ next-payment-confirmation-download-button = Continuar para descargar
 
 next-new-user-submit = Suscribirse ahora
 next-payment-validate-name-error = Por favor, ingresa tu nombre
+next-pay-with-heading-paypal = Pagar con { -brand-paypal }
+# Label for the Full Name input
+payment-name-label = Nombre tal como aparece en tu tarjeta
+payment-name-placeholder = Nombre completo
 
 ## Component - CouponForm
 
@@ -40,6 +51,9 @@ next-coupon-promo-code = Código promocional
 next-coupon-promo-code-applied = Código promocional aplicado
 next-coupon-remove = Eliminar
 next-coupon-submit = Aplicar
+payments-client-loading-spinner =
+    .aria-label = Cargando…
+    .alt = Cargando…
 
 ## Payment Section
 
@@ -59,6 +73,26 @@ next-coupon-success-repeating = Tu plan se renovará automáticamente después d
 
 ## Select Tax Location
 
+select-tax-location-title = Ubicación
+select-tax-location-edit-button = Editar
+select-tax-location-save-button = Guardar
+select-tax-location-country-code-label = País
+select-tax-location-country-code-placeholder = Selecciona tu país
+select-tax-location-error-missing-country-code = Por favor selecciona tu país
+select-tax-location-postal-code-label = Código postal
+select-tax-location-postal-code =
+    .placeholder = Ingresa tu código postal
+select-tax-location-error-missing-postal-code = Por favor, ingresa tu código postal
+select-tax-location-error-invalid-postal-code = Por favor, ingresa un código postal válido
+select-tax-location-successfully-updated = Tu ubicación ha sido actualizada.
+select-tax-location-error-location-not-updated = No se pudo actualizar tu ubicación. Por favor, intenta de nuevo.
+signin-form-continue-button = Continuar
+signin-form-email-input = Ingresa tu correo electrónico
+signin-form-email-input-missing = Por favor ingresa tu correo electrónico
+signin-form-email-input-invalid = Por favor proporciona un correo electrónico válido
+next-new-user-subscribe-product-updates-mdnplus = Me gustaría recibir novedades y actualizaciones de productos de { -product-mdn-plus } y { -brand-mozilla }
+next-new-user-subscribe-product-updates-mozilla = Me gustaría recibir novedades y actualizaciones de productos de { -brand-mozilla }
+next-new-user-subscribe-product-updates-snp = Me gustaría recibir noticias y actualizaciones sobre seguridad y privacidad de { -brand-mozilla }
 next-new-user-subscribe-product-assurance = Utilizamos tu dirección únicamente para crear tu cuenta. Jamás la venderemos a terceros.
 
 ## Component - PriceInterval
@@ -67,6 +101,9 @@ next-new-user-subscribe-product-assurance = Utilizamos tu dirección únicamente
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+plan-price-interval-daily = { $amount } diario
+plan-price-interval-weekly = { $amount } semanal
+plan-price-interval-monthly = { $amount } mensual
 
 ## Component - SubscriptionTitle
 

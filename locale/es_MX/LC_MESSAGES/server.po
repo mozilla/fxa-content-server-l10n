@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-05 20:09+0000\n"
-"PO-Revision-Date: 2021-06-05 22:03+0000\n"
-"Last-Translator: Roberto Alvarado <ralv888@gmail.com>\n"
+"PO-Revision-Date: 2024-04-15 20:11+0000\n"
+"Last-Translator: Elzer Villela <elzervillela@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es_MX\n"
 "MIME-Version: 1.0\n"
@@ -16,12 +16,12 @@ msgstr ""
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
 msgid "Mozilla accounts"
-msgstr ""
+msgstr "Cuentas mozilla"
 
 #: server/templates/pages/src/404.html:2 server/templates/pages/src/500.html:2 server/templates/pages/src/502.html:2 server/templates/pages/src/503.html:2 server/templates/pages/src/index.html:3
 #: server/templates/pages/src/update_firefox.html:2
 msgid "Mozilla logo"
-msgstr ""
+msgstr "Logotipo de Mozilla"
 
 #: server/templates/pages/src/404.html:3
 msgid "Page not found"
@@ -64,6 +64,8 @@ msgid ""
 "We are currently under heavy strain and are working to return\n"
 "            the system to normal as soon as possible."
 msgstr ""
+"Actualmente estamos bajo una gran presión y estamos trabajando para regresar\n"
+"            que el sistema vuelva a la normalidad lo antes posible."
 
 #: server/templates/pages/src/index.html:2
 msgid "Loading"
@@ -71,11 +73,11 @@ msgstr "Cargando"
 
 #: server/templates/pages/src/index.html:4
 msgid "Mozilla accounts require JavaScript."
-msgstr ""
+msgstr "Las cuentas de Mozilla requieren JavaScript."
 
 #: server/templates/pages/src/update_firefox.html:1
 msgid "Mozilla account"
-msgstr ""
+msgstr "Cuenta de mozilla"
 
 #: server/templates/pages/src/update_firefox.html:3
 msgid "Firefox update required"
@@ -88,6 +90,10 @@ msgid ""
 "                        download and install the latest version of Firefox to\n"
 "                        continue."
 msgstr ""
+"Su cuenta Mozilla utiliza funciones que son\n"
+"                        no es compatible con su versión de Firefox. Por favor\n"
+"                        descargue e instale la última versión de Firefox para\n"
+"                        continuar."
 
 #: server/templates/pages/src/update_firefox.html:5
 msgid "Download latest"

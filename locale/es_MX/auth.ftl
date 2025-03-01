@@ -270,6 +270,12 @@ inactiveAccountFirstWarning-action-plaintext = Inicia sesión para mantener tu c
 inactiveAccountSecondWarning-subject = Acción requerida: Eliminación de la cuenta en 7 días
 inactiveAccountSecondWarning-title = Tu cuenta y tus datos de { -brand-mozilla } se eliminarán en 7 días
 inactiveAccountSecondWarning-account-description-v2 = Tu { -product-mozilla-account } se utiliza para acceder a productos gratuitos de privacidad y navegación como { -brand-firefox } sync, { -product-mozilla-monitor }, { -product-firefox-relay } y { -product-mdn }.
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+inactiveAccountSecondWarning-impact = Tu cuenta y tus datos personales se eliminarán de forma permanente el <strong>{ $deletionDate }</strong> porque no has estado activo.
+inactiveAccountSecondWarning-action = Inicia sesión para mantener tu cuenta
+inactiveAccountSecondWarning-preview = Inicia sesión para mantener tu cuenta
+# followed by link to sign in
+inactiveAccountSecondWarning-action-plaintext = Inicia sesión para mantener tu cuenta
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title-zero = ¡Te has quedado sin códigos de autenticación de respaldo!
 codes-reminder-title-one = Estás en tu último código de autenticación de respaldo
@@ -307,20 +313,73 @@ passwordChangeRequired-suspicious-activity-2 = Detectamos un comportamiento sosp
 passwordChangeRequired-sign-in-2 = Regístrate en cualquier dispositivo o servicio donde uses tu { -product-mozilla-account } y sigue los pasos que se te presentarán.
 passwordChangeRequired-different-password = <b>Importante:</b> elige una contraseña diferente de la que estabas usando anteriormente y asegúrate de que sea diferente a la de tu cuenta de correo electrónico.
 passwordChangeRequired-different-password-plaintext = Importante: elige una contraseña diferente de la que estabas usando anteriormente y asegúrate de que sea diferente a la de tu cuenta de correo electrónico.
+password-forgot-otp-subject = ¿Olvidaste tu contraseña?
+password-forgot-otp-title = ¿Olvidaste tu contraseña?
+password-forgot-otp-request = Recibimos una solicitud de cambio de contraseña en tu { -product-mozilla-account } desde:
+password-forgot-otp-code-2 = Si fuiste tu, aquí está tu código de confirmación para continuar:
+password-forgot-otp-expiry-notice = Este código expira en 10 minutos.
+passwordReset-subject-2 = Tu contraseña ha sido restablecida
+passwordReset-title-2 = Tu contraseña ha sido restablecida
+# This sentence is followed by information about the device and time of the password reset
+passwordReset-description-2 = Restableciste tu contraseña de { -product-mozilla-account } en:
 passwordResetAccountRecovery-subject-2 = Tu contraseña ha sido restablecida
+passwordResetAccountRecovery-title-3 = Tu contraseña ha sido restablecida
+# Followed by details on the device and date/time of the password reset.
+passwordResetAccountRecovery-description-3 = Utilizaste tu clave de recuperación de cuenta para restablecer tu contraseña { -product-mozilla-account } en:
+passwordResetAccountRecovery-information = Hemos cerrado tu sesión en todos tus dispositivos sincronizados. Hemos creado una nueva clave de recuperación de cuenta para reemplazar la que usaste. Puedes cambiarla en los ajustes de tu cuenta.
+# After the colon there is a link to account settings
+passwordResetAccountRecovery-information-txt = Hemos cerrado tu sesión en todos tus dispositivos sincronizados. Hemos creado una nueva clave de recuperación de cuenta para reemplazar la que usaste. Puedes cambiarla en los ajustes de tu cuenta:
 passwordResetAccountRecovery-action-4 = Administrar cuenta
+passwordResetWithRecoveryKeyPrompt-subject = Tu contraseña ha sido restablecida
+passwordResetWithRecoveryKeyPrompt-title = Tu contraseña ha sido restablecida
+# Details of the device and date/time where the password was reset
+passwordResetWithRecoveryKeyPrompt-description = Restableciste tu contraseña de { -product-mozilla-account } en:
+# Text for button action to create a new account recovery key
+passwordResetWithRecoveryKeyPrompt-action = Crear clave de recuperación de cuenta
+# colon is followed by a link to create an account recovery key from the account settings page
+passwordResetWithRecoveryKeyPrompt-action-txt = Crear clave de recuperación de cuenta
+postAddAccountRecovery-subject-3 = Nueva clave de recuperación de cuenta creada
 postAddAccountRecovery-title2 = Creaste una nueva clave de recuperación de la cuenta
+# Key here refers to account recovery key
+postAddAccountRecovery-body-part1 = Guarda esta clave en un lugar seguro— la necesitarás para restaurar tus datos de navegación cifrados si olvidas tu contraseña.
+# Key here refers to account recovery key
+postAddAccountRecovery-body-part2 = Esta clave solo se puede usar una vez. Después de usarla, automáticamente crearemos una nueva para ti. O tu puedes crear una nueva en cualquier momento desde la configuración de tu cuenta.
 postAddAccountRecovery-action = Administrar cuenta
+postAddLinkedAccount-subject-2 = Nueva cuenta vinculada a tu { -product-mozilla-account }
+#  Variables:
+#  $providerName (String) - The name of the provider, e.g. Apple, Google
+postAddLinkedAccount-title-2 = Tu cuenta de { $providerName } fue vinculada con tu { -product-mozilla-account }
 postAddLinkedAccount-action = Administrar cuenta
+postAddRecoveryPhone-subject = Teléfono de recuperación agregado
+postAddRecoveryPhone-preview = Cuenta protegida mediante autenticación de dos pasos
+postAddRecoveryPhone-title = Agregaste un número de teléfono de recuperación
+# Links out to a support article about two factor authentication
+postAddRecoveryPhone-how-protect = ¿Cómo esto protege tu cuenta?
+postAddRecoveryPhone-how-protect-plaintext = Cómo protege esto tu cuenta:
+postAddRecoveryPhone-enabled-device = Lo activaste desde:
+postAddRecoveryPhone-action = Administrar cuenta
 postAddTwoStepAuthentication-subject-2 = Autenticación en dos pasos activada
 postAddTwoStepAuthentication-title-2 = Activaste la autenticación en dos pasos
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postAddTwoStepAuthentication-from-device = Lo activaste desde:
 postAddTwoStepAuthentication-action = Administrar cuenta
 postAddTwoStepAuthentication-code-required-2 = Los códigos de seguridad de tu aplicación de autenticación ahora se requieren cada vez que inicies sesión.
+postChangeAccountRecovery-subject = Se modificó la clave de recuperación de cuenta
+postChangeAccountRecovery-title = Has cambiado tu clave de recuperación de cuenta
+postChangeAccountRecovery-body-part1 = Ahora tienes una nueva clave de recuperación de cuenta. La clave anterior se eliminó.
+postChangeAccountRecovery-body-part2 = Guarda esta nueva clave en un lugar seguro: la necesitarás para restaurar tus datos de navegación cifrados si olvidas tu contraseña.
+postChangeAccountRecovery-action = Administrar cuenta
 postChangePrimary-subject = Correo principal actualizado
 postChangePrimary-title = Nuevo correo electrónico principal
+# Variables:
+#  $email (String) - A user's email address
+postChangePrimary-description-2 = Has cambiado correctamente tu dirección de correo electrónico principal a { $email }. Esta dirección es ahora tu nombre de usuario para iniciar sesión en tu { -product-mozilla-account }, así como para recibir notificaciones de seguridad y confirmaciones de inicio de sesión.
 postChangePrimary-action = Administrar cuenta
+postChangeRecoveryPhone-subject = Teléfono de recuperación actualizado
+postChangeRecoveryPhone-preview = Cuenta protegida mediante autenticación de dos pasos
+postChangeRecoveryPhone-title = Cambiaste tu teléfono de recuperación
+postChangeRecoveryPhone-description = Ahora tienes un nuevo teléfono de recuperación. Se eliminó tu número de teléfono anterior.
+postChangeRecoveryPhone-requested-device = Lo solicitaste a:
 postConsumeRecoveryCode-title-2 = Usaste un código de autenticación de respaldo
 # After the colon, there is description of the device that the backup authentication code was used on
 postConsumeRecoveryCode-description-2 = Fue utilizado en:
@@ -336,9 +395,20 @@ postNewRecoveryCodes-title-2 = Has creado nuevos códigos de autenticación de r
 postNewRecoveryCodes-description-2 = Fueron creados en:
 postNewRecoveryCodes-action = Administrar cuenta
 postRemoveAccountRecovery-subject-2 = Clave de recuperación de cuenta eliminada
+postRemoveAccountRecovery-title-3 = Has eliminado tu clave de recuperación de cuenta
+postRemoveAccountRecovery-body-part1 = Tu clave de recuperación de cuenta es necesaria para restaurar tus datos de navegación cifrados si olvidas tu contraseña.
+postRemoveAccountRecovery-body-part2 = Si aún no lo has hecho, crea una nueva clave de recuperación de cuenta en ajustes de tu cuenta para evitar perder tus contraseñas guardadas, marcadores, historial de navegación y más.
 postRemoveAccountRecovery-action = Administrar cuenta
+postRemoveRecoveryPhone-subject = Teléfono de recuperación eliminado
+postRemoveRecoveryPhone-preview = Cuenta protegida mediante autenticación de dos pasos
+postRemoveRecoveryPhone-title = Teléfono de recuperación eliminado
+postRemoveRecoveryPhone-description = Tu teléfono de recuperación se ha eliminado de la configuración de autenticación en dos pasos. Aún tienes disponibles tus códigos de autenticación de respaldo para usar.
+postRemoveRecoveryPhone-requested-device = Lo solicitaste a:
 postRemoveSecondary-subject = Correo secundario eliminado
 postRemoveSecondary-title = Correo secundario eliminado
+# Variables:
+#  $secondaryEmail (String) - A user's email address
+postRemoveSecondary-description-2 = Has eliminado correctamente { $secondaryEmail } como correo electrónico secundario de tu { -product-mozilla-account }. Las notificaciones de seguridad y las confirmaciones de inicio de sesión ya no se enviarán a esta dirección.
 postRemoveSecondary-action = Administrar cuenta
 postRemoveTwoStepAuthentication-subject-line-2 = Autenticación en dos pasos desactivada
 postRemoveTwoStepAuthentication-title-2 = Se desactivo la autenticación en dos pasos
@@ -346,17 +416,35 @@ postRemoveTwoStepAuthentication-title-2 = Se desactivo la autenticación en dos 
 postRemoveTwoStepAuthentication-from-device = Lo deshabilitaste desde:
 postRemoveTwoStepAuthentication-action = Administrar cuenta
 postRemoveTwoStepAuthentication-not-required-2 = Ya no necesitas los códigos de seguridad de tu aplicación de autenticación cuando inicies sesión.
+postSigninRecoveryCode-subject = Código de autenticación de respaldo utilizado para iniciar sesión
+postSigninRecoveryCode-preview = Confirmar la actividad de la cuenta
+postSigninRecoveryCode-title = Tu código de autenticación de respaldo se utilizó para iniciar sesión
+postSigninRecoveryCode-description = Si no fuiste tu, debes cambiar tu contraseña inmediatamente para mantener tu cuenta segura.
+postSigninRecoveryCode-device = Has iniciado sesión desde:
+postSigninRecoveryCode-action = Administrar cuenta
+postSigninRecoveryPhone-subject = Teléfono de recuperación utilizado para iniciar sesión
+postSigninRecoveryPhone-preview = Confirmar la actividad de la cuenta
+postSigninRecoveryPhone-title = Tu teléfono de recuperación se utilizó para iniciar sesión
+postSigninRecoveryPhone-description = Si no fuiste tu, debes cambiar tu contraseña inmediatamente para mantener tu cuenta segura.
+postSigninRecoveryPhone-device = Has iniciado sesión desde:
+postSigninRecoveryPhone-action = Administrar cuenta
 postVerify-sub-title-3 = ¡Estamos felices de verte!
 postVerify-title-2 = ¿Quieres ver la misma pestaña en dos dispositivos?
 postVerify-description-2 = ¡Es fácil! Solo instala { -brand-firefox } en otro dispositivo e inicia sesión para sincronizar. ¡Es como magia!
 postVerify-sub-description = (Psst… eso también significa que puedes tener tus marcadores, contraseñas y otros datos de { -brand-firefox } donde sea que inicies sesión.)
+postVerify-subject-4 = ¡Te damos la bienvenida a { -brand-mozilla }!
 postVerify-setup-2 = Conectar otro dispositivo:
 postVerify-action-2 = Conectar otro dispositivo
 postVerifySecondary-subject = Correo electrónico secundario agregado
 postVerifySecondary-title = Correo electrónico secundario agregado
+# Variables:
+#  $secondaryEmail (String) - A user's secondary email address
+postVerifySecondary-content-3 = Has confirmado correctamente { $secondaryEmail } como correo electrónico secundario para tu { -product-mozilla-account }. Las notificaciones de seguridad y las confirmaciones de inicio de sesión se enviarán ahora a ambas direcciones de correo electrónico.
 postVerifySecondary-action = Administrar cuenta
 recovery-subject = Restablecer tu contraseña
 recovery-title-2 = ¿Olvidaste tu contraseña?
+# Information on the device, date and time of the request that triggered the email follows.
+recovery-request-origin-2 = Recibimos una solicitud de cambio de contraseña en tu { -product-mozilla-account } de:
 recovery-new-password-button = Crea una nueva contraseña al hacer clic en el botón de abajo. Este enlace caducará en la siguiente hora.
 recovery-copy-paste = Crea una nueva contraseña al copiar y pegar la URL de abajo en tu navegador. Este enlace caducará en la siguiente hora.
 recovery-action = Crear nueva contraseña
@@ -364,6 +452,11 @@ recovery-action = Crear nueva contraseña
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountDeletion-subject = Se ha cancelado tu suscripción a { $productName }.
 subscriptionAccountDeletion-title = Lamentamos que te vayas
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+subscriptionAccountDeletion-content-cancelled-2 = Recientemente eliminaste tu { -product-mozilla-account }. Como resultado, cancelamos tu suscripción a { $productName }. Tu ultimo pago de { $invoiceTotal } se realizó el { $invoiceDateOnly }.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-subject = Bienvenido a { $productName }: Por favor, establece tu contraseña.
@@ -371,13 +464,17 @@ subscriptionAccountFinishSetup-subject = Bienvenido a { $productName }: Por favo
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-title = Bienvenido a { $productName }
 subscriptionAccountFinishSetup-content-processing = Tu pago se está procesando y puede tardar hasta cuatro días hábiles en completarse. Tu suscripción se renovará automáticamente cada período de facturación a menos que decidas cancelarlo.
+subscriptionAccountFinishSetup-content-create-3 = A continuación, crearás una contraseña de { -product-mozilla-account } para comenzar a usar tu nueva suscripción.
 subscriptionAccountFinishSetup-action-2 = Empezar
 subscriptionAccountReminderFirst-subject = Recordatorio: termina de configurar tu cuenta
 subscriptionAccountReminderFirst-title = Todavía no puedes acceder a tu suscripción
+subscriptionAccountReminderFirst-content-info-3 = Hace unos días creaste una { -product-mozilla-account } pero nunca la confirmaste. Esperaremos a que termines de configurar tu cuenta para que puedas usar tu nueva suscripción.
 subscriptionAccountReminderFirst-content-select-2 = Selecciona “Crear contraseña” para establecer una nueva contraseña y terminar de confirmar tu cuenta.
 subscriptionAccountReminderFirst-action = Crear contraseña
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-subject = Último recordatorio: Configura tu cuenta
+subscriptionAccountReminderSecond-title-2 = ¡Bienvenido a { -brand-mozilla }!
+subscriptionAccountReminderSecond-content-info-3 = Hace unos días creaste una { -product-mozilla-account } pero nunca la confirmaste. Esperaremos a que termines de configurar tu cuenta para que puedas usar tu nueva suscripción.
 subscriptionAccountReminderSecond-content-select-2 = Selecciona “Crear contraseña” para establecer una nueva contraseña y terminar de confirmar tu cuenta.
 subscriptionAccountReminderSecond-action = Crear contraseña
 subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
@@ -530,16 +627,23 @@ unblockCode-prompt-plaintext = De ser así, este es el código de autorización 
 unblockCode-report = En caso contrario, ayúdanos a alejar a los intrusos <a data-l10n-name="reportSignInLink">reportándolo</a>.
 unblockCode-report-plaintext = Si no es así, ayúdanos a mantener a raya a los intrusos e infórmanos.
 verificationReminderFinal-subject = Recordatorio final para confirmar tu cuenta
+verificationReminderFinal-description-2 = Hace un par de semanas, se creó una { -product-mozilla-account }, pero nunca fue confirmada. Por tu seguridad, eliminaremos la cuenta si no es verificada dentro de las próximas 24 horas.
 confirm-account = Confirmar cuenta
 confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Recuerda confirmar tu cuenta
+verificationReminderFirst-title-3 = ¡Bienvenido a { -brand-mozilla }!
+verificationReminderFirst-description-3 = Hace unos días creaste una { -product-mozilla-account }, pero nunca la confirmaste. Por favor confirma tu cuenta en los siguientes 15 días o será eliminada automáticamente.
 verificationReminderFirst-sub-description-3 = No te pierdas el navegador que pone a tu privacidad y a ti en primer lugar.
 confirm-email-2 = Confirmar cuenta
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Confirmar cuenta
 verificationReminderSecond-subject-2 = Recuerda confirmar tu cuenta
+verificationReminderSecond-title-3 = ¡No te pierdas { -brand-mozilla }!
+verificationReminderSecond-description-4 = Hace un par de días creaste una { -product-mozilla-account }, pero nunca la confirmaste. Por favor confirma tu cuenta en los siguientes 10 días o será eliminada automáticamente.
 verificationReminderSecond-sub-description-2 = Se parte de nuestra misión para transformar el internet en un lugar que sea libre para todos.
 verificationReminderSecond-action-2 = Confirmar cuenta
+verify-title-3 = Abre internet con { -brand-mozilla }
+verify-description-2 = Confirma tu cuenta y saca el máximo provecho de tu { -brand-mozilla } donde quiera que inicies sesión con:
 verify-subject = Terminar de crear tu cuenta
 verify-action-2 = Confirmar cuenta
 # Variables:
@@ -567,10 +671,17 @@ verifyPrimary-post-verify-2 = Una vez confirmado, los cambios de cuenta, como ag
 verifySecondaryCode-subject = Confirmar correo secundario
 verifySecondaryCode-title-2 = Confirmar correo secundario
 verifySecondaryCode-action-2 = Confirmar correo electrónico
+# Variables:
+#  $email (string) A user's unverified secondary email address
+verifySecondaryCode-explainer-2 = Se ha realizado una solicitud para utilizar { $email } como dirección de correo electrónico secundario desde la siguiente { -product-mozilla-account }:
 verifySecondaryCode-prompt-2 = Usar este código de confirmación:
 verifySecondaryCode-expiry-notice-2 = Caduca en 5 minutos. Una vez confirmada, esta dirección comenzará a recibir notificaciones y confirmaciones de seguridad.
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = Confirma tu cuenta
+verifyShortCode-preview = Utiliza el código incluido para confirmar tu { -product-mozilla-account }.
+verifyShortCode-title-3 = Abre Internet con { -brand-mozilla }
+# Information on the browser and device triggering this confirmation email follows below this string.
+verifyShortCode-title-subtext-2 = Confirma tu cuenta y sácale el máximo provecho a { -brand-mozilla } donde sea que te conectes empezando por:
 verifyShortCode-prompt-3 = Usar este código de confirmación:
 verifyShortCode-expiry-notice = Caduca en 5 minutos.
