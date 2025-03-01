@@ -29,7 +29,7 @@ brand-name-mozilla-logo = { -brand-mozilla } അടയാളം
 new-user-enter-email =
     .label = താങ്ങളുടെ ഇ-തപാൽ നൽകുക
 new-user-confirm-email =
-    .label = ഇ-തപാൽ സ്ഥിരീകരിക്കുക
+    .label = ഇ-തപാൽ തീൎച്ചപ്പെടുത്തുക
 
 ## Component - PaymentConfirmation
 

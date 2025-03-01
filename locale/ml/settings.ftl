@@ -341,8 +341,8 @@ manage-your-account-button = താങ്ങളുടെ അക്കൗണ്�
 # Message shown when the account is ready but the user is not signed in
 ready-account-ready = താങ്ങളുടെ അക്കൗണ്ടു് തയ്യാറാണ്!
 ready-continue = തുടരുക
-sign-in-complete-header = പ്രവേശിക്കൽ സ്ഥിരീകരിച്ചു
-sign-up-complete-header = അക്കൗണ്ടു് ഉറപ്പിച്ചു
+sign-in-complete-header = പ്രവേശിക്കൽ ഉറപ്പിച്ചു
+sign-up-complete-header = അക്കൗണ്ടു് തീൎച്ചപ്പെടുത്തു
 
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
@@ -940,7 +940,7 @@ back = തിരികെ
 ## SigninPushCodeConfirmPage
 
 signin-push-code-confirm-verifying = ഉറപ്പിക്കുന്നു
-signin-push-code-confirm-login = പ്രവേശനം ഉറപ്പിച്ചു
+signin-push-code-confirm-login = പ്രവേശനം തീൎച്ചപ്പെടുത്തുക
 signin-push-code-confirm-link-error = കണ്ണി കേടായി. ദയവായി വീണ്ടും ശ്രമിക്കുക
 
 ## Signin recovery method page

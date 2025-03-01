@@ -1243,6 +1243,7 @@ auth-error-214 = Numero de telephono de recuperation jam existente
 auth-error-215 = Numero de telephono de recuperation non existente
 auth-error-216 = Attingite limite de message de texto
 auth-error-218 = Impossibile remover telephono de recuperation, codices de authentication de reserva.
+auth-error-219 = Iste numero de telephono ha essite registrate con troppe contos. Tenta un numero differente.
 auth-error-999 = Error inexpectate
 auth-error-1001 = Tentativa de apertura de session cancellate
 auth-error-1002 = Session expirate. Reaperi session pro continuar.
