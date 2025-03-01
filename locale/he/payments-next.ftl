@@ -123,6 +123,7 @@ next-subscription-create-title = הגדרת המינוי שלך
 next-subscription-success-title = אישור המינוי
 next-subscription-processing-title = המינוי מועבר לאישור…
 next-subscription-error-title = שגיאה באישור המינוי…
+subscription-title-plan-change-heading = סקירת השינוי שלך
 next-sub-guarantee = החזר כספי מובטח תוך 30 יום
 
 ## Component - TermsAndPrivacy
@@ -136,7 +137,16 @@ next-terms-download = תנאי הורדה
 
 ## Component - UpdatedPurchaseDetails
 
+upgrade-purchase-details-current-plan-label = תוכנית נוכחית
+upgrade-purchase-details-new-plan-label = תוכנית חדשה
+upgrade-purchase-details-promo-code = קוד קופון
+upgrade-purchase-details-tax-label = מיסים ועמלות
+upgrade-purchase-details-new-total-label = סה״כ חדש
 
 ## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
 
+upgrade-purchase-details-new-plan-daily = ‏{ $productName } (יומי)
+upgrade-purchase-details-new-plan-weekly = ‏{ $productName } (שבועי)
+upgrade-purchase-details-new-plan-monthly = ‏{ $productName } (חודשי)
+upgrade-purchase-details-new-plan-yearly = ‏{ $productName } (שנתי)
