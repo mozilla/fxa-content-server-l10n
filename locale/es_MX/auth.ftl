@@ -27,6 +27,11 @@ subplat-explainer-specific-2 = Has recibido este correo electrónico porque { $e
 #  $email (String) - A user's primary email address
 subplat-explainer-reminder-form-2 = Estás recibiendo este correo electrónico porque { $email } tiene una { -product-mozilla-account }.
 subplat-explainer-multiple-2 = Estás recibiendo este correo porque { $email } tiene una cuenta de { -product-mozilla-account } y te has registrado para múltiples productos.
+subplat-explainer-was-deleted-2 = Estás recibiendo este correo porque { $email } fue registrado para una { -product-mozilla-account }.
+subplat-manage-account-2 = Administra los ajustes de tu cuenta de { -product-mozilla-account } visitando tu <a data-l10n-name="subplat-account-page">página de la cuenta</a>.
+# Variables:
+#  $accountSettingsUrl (String) - URL to Account Settings
+subplat-manage-account-plaintext-2 = Administra la configuración de tu { -product-mozilla-account } visitando la página de la cuenta: { $accountSettingsUrl }
 subplat-terms-policy = Términos y política de cancelación
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Cancelar suscripción
@@ -35,7 +40,11 @@ subplat-reactivate = Reactivar suscripción
 subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Actualizar información de facturación
 subplat-privacy-policy = Política de Privacidad de { -brand-mozilla }
+subplat-privacy-policy-2 = { -product-mozilla-accounts(capitalization: "uppercase") } Política de privacidad
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
+subplat-privacy-policy-plaintext-2 = { subplat-privacy-policy-2 }:
+subplat-moz-terms = { -product-mozilla-accounts(capitalization: "uppercase") } Términos del servicio
+subplat-moz-terms-plaintext = { subplat-moz-terms }:
 subplat-legal = Legal
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Privacidad
@@ -67,14 +76,56 @@ automated-email-support = Para obtener más información, visita <a data-l10n-na
 automated-email-change-plaintext-2 = Si no realizaste esta acción, cambia tu contraseña de inmediato:
 #  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-support-plaintext = Para obtener más información, visita { -brand-mozilla } Soporte:
+automated-email-inactive-account = Este es un correo electrónico automático. Lo recibes porque tienes una cuenta { -product-mozilla-account } y han pasado 2 años desde tu último inicio de sesión.
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } Para más información, visita <a data-l10n-name="supportLink">Ayuda de { -brand-mozilla }</a>.
 automated-email-no-action-plaintext = Este es un correo automático. Si lo estás recibiendo por error, no necesitas hacer nada.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = Este es un correo electrónico automatizado; si no autorizaste esta acción, cambia tu contraseña:
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+# - $uaOSVersion - the user agent's operating system version
+automatedEmailRecoveryKey-origin-device-all = Esta solicitud provino de { $uaBrowser } en { $uaOS } { $uaOSVersion }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+automatedEmailRecoveryKey-origin-device-browser-os = Esta solicitud provino de { $uaBrowser } en { $uaOS }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+automatedEmailRecoveryKey-origin-device-browser-only = Esta solicitud provino de { $uaBrowser }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+# - $uaOSVersion - the user agent's operating system version
+automatedEmailRecoveryKey-origin-device-OS-version-only = Esta solicitud provino de { $uaOS } { $uaOSVersion }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+automatedEmailRecoveryKey-origin-device-OS-only = Esta solicitud provino de { $uaOS }.
+automatedEmailRecoveryKey-delete-key-change-pwd = Si no eres tú, <a data-l10n-name="revokeAccountRecoveryLink">elimina la nueva clave</a> y <a data-l10n-name="passwordChangeLink">cambia tu contraseña</a>.
+automatedEmailRecoveryKey-change-pwd-only = Si no eres tú, <a data-l10n-name="passwordChangeLink">Cambia tu contraseña</a>.
+automatedEmailRecoveryKey-more-info = Para obtener más información, visita <a data-l10n-name="supportLink">{ -brand-mozilla } Soporte</a>.
+# Colon is followed by user device info on a separate line (e.g., "Firefox Nightly on Mac OSX 10.11")
+automatedEmailRecoveryKey-origin-plaintext = Esta solicitud vino de:
+# Colon is followed by a URL to the account recovery key section of account settings
+automatedEmailRecoveryKey-notyou-delete-key-plaintext = Si no eres tú, elimina la nueva clave:
+# Colon is followed by a URL to the change password section of account settings
+automatedEmailRecoveryKey-notyou-change-pwd-only-plaintext = Si no eres tú, cambia tu contraseña:
+# This string is shown on its own line, after automatedEmailRecoveryKey-notyou-delete-key-plaintext and its URL
+# Colon is followed by a URL to the change password section of account settings
+automatedEmailRecoveryKey-notyou-change-pwd-plaintext = y cambia tu contraseña:
+# Colon is followed by a URL to Mozilla Support's "I'm having problems with my account" page
+automatedEmailRecoveryKey-more-info-plaintext = Para obtener más información, visita { -brand-mozilla } Soporte:
 automated-email-reset =
     Este es un correo automático; si no autorizaste esta acción, entonces <a data-l10n-name="resetLink">por favor restablece tu contraseña</a>.
     Para más información, por favor visita <a data-l10n-name="supportLink">el soporte de { -brand-mozilla }</a>.
+# Variables:
+#  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
+automated-email-reset-plaintext-v2 = Si no autorizó esta acción, restablezca su contraseña ahora en { $resetLink }
 cancellationSurvey = Ayúdanos a mejorar nuestros servicios respondiendo esta <a data-l10n-name="cancellationSurveyUrl">breve encuesta</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = Por favor, ayúdanos a mejorar nuestros servicios contestando esta breve encuesta:
@@ -95,6 +146,15 @@ payment-plan-next-invoice = Próxima factura: { $nextInvoiceDateOnly }
 # After the colon is how the user paid, e.g. PayPal or credit card
 payment-method = Método de pago:
 payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
+# This string displays when the type of credit card is known
+# https://stripe.com/docs/payments/cards/supported-card-brands
+# Variables:
+#  $cardName (String) - The brand name of the credit card, e.g. American Express
+#  $lastFour (String) - The last four digits of the credit card, e.g. 5309
+credit-card-ending-in = { $cardName } tarjeta que termina en { $lastFour }
+# This string displays when the type of credit card is not known or recognized
+# Variable: $lastFour (String) - The last four digits of the credit card, e.g. 5309
+unknown-card-ending-in = Tarjeta desconocida que termina en { $lastFour }
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 subscriptionFirstInvoice-content-invoice-number = Número de factura: <b>{ $invoiceNumber }</b>
@@ -163,6 +223,7 @@ cadReminderFirst-action = Sincronizar otro dispositivo
 cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = Se requieren dos para sincronizar
+cadReminderFirst-description-v2 = Lleva tus pestañas a todos tus dispositivos. Obtén tus marcadores, contraseñas y otros datos dondequiera que uses { -brand-firefox }.
 cadReminderSecond-subject-2 = ¡No abandones! Terminemos la configuración de la sincronización
 cadReminderSecond-action = Sincronizar otro dispositivo
 cadReminderSecond-title-2 = ¡No olvides sincronizar!
@@ -178,11 +239,37 @@ downloadSubscription-subject = Bienvenido a { $productName }
 downloadSubscription-title = Bienvenido a { $productName }
 downloadSubscription-content-2 = Comencemos usando todas las características incluidas en tu suscripción:
 downloadSubscription-link-action-2 = Comenzar
+fraudulentAccountDeletion-subject-2 = Tu cuenta { -product-mozilla-account } fue eliminada
 fraudulentAccountDeletion-title = Tu cuenta fue eliminada
+fraudulentAccountDeletion-content-part1-v2 = Recientemente, se creó una cuenta { -product-mozilla-account } y se cargó una suscripción utilizando esta dirección de correo electrónico. Como hacemos con todas las cuentas nuevas, te solicitamos que confirmes tu cuenta validando primero esta dirección de correo electrónico.
+fraudulentAccountDeletion-content-part2-v2 = Actualmente, vemos que la cuenta nunca fue confirmada. Dado que este paso no se completó, no estamos seguros de si se trataba de una suscripción autorizada. Como resultado, la { -product-mozilla-account } registrada en esta dirección de correo electrónico fue eliminada y tu suscripción fue cancelada con todos los cargos reembolsados.
 fraudulentAccountDeletion-contact = Si tienes preguntas, por favor contacta a nuestro <a data-l10n-name="mozillaSupportUrl">equipo de soporte</a>.
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Si tienes preguntas, por favor contacta a nuestro equipo de soporte: { $mozillaSupportUrl }
+inactiveAccountFinalWarning-subject = Última oportunidad para conservar tu { -product-mozilla-account }
+inactiveAccountFinalWarning-title = Tu cuenta y tus datos de { -brand-mozilla } serán eliminados
+inactiveAccountFinalWarning-preview = Inicia sesión para mantener tu cuenta
+inactiveAccountFinalWarning-account-description = Su { -product-mozilla-account } se utiliza para acceder a productos gratuitos de privacidad y navegación como { -brand-firefox } sync, { -product-mozilla-monitor }, { -product-firefox-relay } y { -product-mdn }.
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+# This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
+inactiveAccountFinalWarning-impact = El <strong>{ $deletionDate }</strong>, su cuenta y sus datos personales se eliminarán de forma permanente a menos que inicie sesión.
+inactiveAccountFinalWarning-action = Inicia sesión para mantener tu cuenta
+# followed by link to sign in
+inactiveAccountFinalWarning-action-plaintext = Inicie sesión para mantener su cuenta:
+inactiveAccountFirstWarning-subject = No pierdas tu cuenta
+inactiveAccountFirstWarning-title = ¿Quieres conservar tu cuenta y tus datos de { -brand-mozilla }?
+inactiveAccountFirstWarning-inactive-status = Notamos que no has iniciado sesión durante 2 años.
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+# This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
+inactiveAccountFirstWarning-impact = Tu cuenta y tus datos personales se eliminarán de forma permanente el <strong>{ $deletionDate }</strong> porque no has estado activo.
+inactiveAccountFirstWarning-action = Inicia sesión para mantener tu cuenta
+inactiveAccountFirstWarning-preview = Inicia sesión para mantener tu cuenta
+# followed by link to sign in
+inactiveAccountFirstWarning-action-plaintext = Inicia sesión para mantener tu cuenta:
+inactiveAccountSecondWarning-subject = Acción requerida: Eliminación de la cuenta en 7 días
+inactiveAccountSecondWarning-title = Tu cuenta y tus datos de { -brand-mozilla } se eliminarán en 7 días
+inactiveAccountSecondWarning-account-description-v2 = Tu { -product-mozilla-account } se utiliza para acceder a productos gratuitos de privacidad y navegación como { -brand-firefox } sync, { -product-mozilla-monitor }, { -product-firefox-relay } y { -product-mdn }.
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title-zero = ¡Te has quedado sin códigos de autenticación de respaldo!
 codes-reminder-title-one = Estás en tu último código de autenticación de respaldo
@@ -202,6 +289,8 @@ lowRecoveryCodes-subject-2 =
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Nuevo inicio de sesión en { $clientName }
+newDeviceLogin-subjectForMozillaAccount = Nuevo inicio de sesión en su { -product-mozilla-account }
+newDeviceLogin-title-3 = Su { -product-mozilla-account } se utilizó para iniciar sesión
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
 newDeviceLogin-change-password = ¿No eres tú? <a data-l10n-name="passwordChangeLink">Cambia tu contraseña</a>.
@@ -211,8 +300,11 @@ newDeviceLogin-change-password-plain = ¿No eres tú? Cambia tu contraseña:
 newDeviceLogin-action = Administrar cuenta
 passwordChanged-subject = Contraseña actualizada
 passwordChanged-title = Contraseña cambiada exitosamente
+passwordChanged-description-2 = La contraseña de tu { -product-mozilla-account } fue cambiada correctamente desde el siguiente dispositivo:
 passwordChangeRequired-subject = Actividad sospechosa detectada
 passwordChangeRequired-title = Se requiere cambio de contraseña
+passwordChangeRequired-suspicious-activity-2 = Detectamos un comportamiento sospechoso en tu { -product-mozilla-account }. Para evitar acceso no autorizado a tu { -product-mozilla-account }, hemos desconectado todos los dispositivos de tu cuenta y te solicitamos que cambies tu contraseña como medida de precaución.
+passwordChangeRequired-sign-in-2 = Regístrate en cualquier dispositivo o servicio donde uses tu { -product-mozilla-account } y sigue los pasos que se te presentarán.
 passwordChangeRequired-different-password = <b>Importante:</b> elige una contraseña diferente de la que estabas usando anteriormente y asegúrate de que sea diferente a la de tu cuenta de correo electrónico.
 passwordChangeRequired-different-password-plaintext = Importante: elige una contraseña diferente de la que estabas usando anteriormente y asegúrate de que sea diferente a la de tu cuenta de correo electrónico.
 passwordResetAccountRecovery-subject-2 = Tu contraseña ha sido restablecida
