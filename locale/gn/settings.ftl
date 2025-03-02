@@ -323,6 +323,8 @@ input-password-sr-only-now-hidden = Ne ñe’ẽñemi ko’ag̃aite oĩ kañyhá
 
 ## Phone number component
 
+# This is an aria-label available to screen readers for a selection list that includes country flags, country name and country code
+input-phone-number-country-list-aria-label = Eiporavo tetã
 input-phone-number-enter-number = Ehai pumbyry papapy
 input-phone-number-country-united-states = Estados Unidos
 input-phone-number-country-canada = Canadá
@@ -564,6 +566,9 @@ dc-learn-more = Kuaave
 # DropDownAvatarMenu component
 
 drop-down-menu-title-2 = { -product-mozilla-account } poravorã
+# This is displayed in the Settings menu after user's click on their profile icon.
+# Following this string on a new line will be their display name (user's name or email)
+drop-down-menu-signed-in-as-v2 = Eike peteĩramo
 drop-down-menu-sign-out = Ñesẽ
 drop-down-menu-sign-out-error-2 = Ore ñyrõ, iñapañuái embotykuévo ne rembiapo
 
@@ -617,6 +622,14 @@ flow-recovery-key-info-cancel-link = Heja
 
 ## FlowSetupPhoneConfirmCode
 
+# verification code refers to a code sent by text message to confirm phone number ownership
+# and complete setup
+flow-setup-phone-confirm-code-heading = Emoinge ayvu jehechajeyrã
+flow-setup-phone-confirm-code-button = Moneĩ
+# button to resend a code by text message to the user's phone
+# followed by a button to resend a code
+flow-setup-phone-confirm-code-expired = ¿Ndoikovéima ayvu?
+flow-setup-phone-confirm-code-resend-code-button = Emondojey ayvu
 
 ## FlowSetupPhoneConfirmCode
 
@@ -840,6 +853,7 @@ recovery-key-create-back-button-title = Eguevi ñembohekópe
 ## PageRecoveryPhoneRemove
 ## Users reach this page from account settings when they want to remove a backup phone number.
 
+settings-recovery-phone-remove-cancel = Heja
 
 ## PageSetupRecoveryPhone
 
@@ -1561,6 +1575,8 @@ signin-push-code-confirm-link-error = Pe juajuha imarã. Eha’ã jey ag̃ave.
 ## This page is shown to users when they are having trouble signing in with
 ## their password, and they previously had set up an account recovery method.
 
+signin-recovery-method-header = Eñemboheraguapy
+signin-recovery-method-subheader = Eiporavo mba’éichapa erujeýta
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
@@ -1579,6 +1595,15 @@ signin-recovery-code-required-error = Ayvu ñemoneĩrã jeykekoha jerurepyre
 
 ## SigninRecoveryPhone page
 
+signin-recovery-phone-flow-heading = Eñemboheraguapy
+# A recovery code in context of this page is a one time code sent to the user's phone
+signin-recovery-phone-heading = Emoinge ayvu jeguerujeyrã
+signin-recovery-phone-input-label = Emoinge ayvu 6 taíva
+signin-recovery-phone-code-submit-button = Moneĩ
+signin-recovery-phone-resend-code-button = Emondojey ayvu
+signin-recovery-phone-resend-success = Ayvu mondopyre
+# links to https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+signin-recovery-phone-locked-out-link = ¿Nderejáma okápe?
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 

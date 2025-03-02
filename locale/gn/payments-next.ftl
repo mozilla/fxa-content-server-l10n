@@ -94,6 +94,7 @@ select-tax-location-postal-code =
 select-tax-location-error-missing-postal-code = Ehaimína nde código postal
 select-tax-location-error-invalid-postal-code = Ehai nde código postal oikóva
 select-tax-location-successfully-updated = Hekopyahúma ne rendaite.
+select-tax-location-error-location-not-updated = Ndaikatúi embohekopyahu ne rendaite. Eha’ã jey ag̃ave.
 signin-form-continue-button = Ku’ejey
 signin-form-email-input = Emoinge ne ñanduti veve
 signin-form-email-input-missing = Emoingemi ne ñanduti veve
@@ -121,6 +122,7 @@ next-subscription-create-title = Ñemboheraguapy ñemboheko
 next-subscription-success-title = Ñemboheraguapy ñemoneĩ
 next-subscription-processing-title = Ñemboheraguapy oñemoneĩhína…
 next-subscription-error-title = Ojavy oñemoneĩvo ñemboheraguapy…
+subscription-title-plan-change-heading = Ehecha ne moambuekue
 next-sub-guarantee = 30 ára haguépe ome’ẽkuaajey viru
 
 ## Component - TermsAndPrivacy
@@ -134,8 +136,17 @@ next-terms-download = Emboguejy ñemboguatarã
 
 ## Component - UpdatedPurchaseDetails
 
+upgrade-purchase-details-current-plan-label = Ag̃agua tembiaporã
+upgrade-purchase-details-new-plan-label = Tembiaporã pyahu
+upgrade-purchase-details-promo-code = Ayvu ñemoherakuãgua
+upgrade-purchase-details-tax-label = Impuesto ha tása
 upgrade-purchase-details-new-total-label = Ipyahupaite
+upgrade-purchase-details-prorated-upgrade = Mbohekopyahu mboja’opyre
 
 ## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
 
+upgrade-purchase-details-new-plan-daily = { $productName } (Aragua)
+upgrade-purchase-details-new-plan-weekly = { $productName } (Arapokõindygua)
+upgrade-purchase-details-new-plan-monthly = { $productName } (Jasygua)
+upgrade-purchase-details-new-plan-yearly = { $productName } (Arygua)
