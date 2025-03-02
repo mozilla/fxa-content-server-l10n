@@ -7,10 +7,17 @@ next-iap-upgrade-contact-support = Erekokuaa gueteri ko apopyre — eñe’ẽmi
 next-payment-error-retry-button = Eha’ãjey
 next-basic-error-message = Oĩ osẽvaíva. Ikatúpiko eha’ãjey ag̃amieve.
 checkout-error-contact-support-button = Eheka Ñepytyvõha
+checkout-error-contact-support = Eñe’ẽ pytyvõhára ndive roipytyvõkuaa hag̃ua.
 
 ## Page
 
+checkout-signin-or-create = 1. Eñepyrũ tembiapo térã emoheñói { -product-mozilla-account }
+checkout-create-account = Emoheñói { -product-mozilla-account }
+continue-signin-with-google-button = Eku’ejey { -brand-google } ndive
+continue-signin-with-apple-button = Eku’ejey { -brand-apple } ndive
 next-payment-method-header = Eiporavo mba’éichapa ehepyme’ẽta
+# This message is used to indicate the second step in a multi step process.
+payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = Emoneĩraẽva’erã ne ñemboheraguapy
 next-payment-confirmation-thanks-heading-account-exists = ¡Aguyje, ko’ág̃a ehecha ne ñanduti veve!
 next-payment-confirmation-order-heading = Mba’emimi jerurepyre
@@ -25,6 +32,7 @@ next-payment-confirmation-amount = { $amount } { $interval } rehe
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Kuatia’atã opáva { $last4 }-pe
 next-payment-confirmation-download-button = Emboguejy ehóvo
+checkout-error-boundary-retry-button = Eha’ãjey
 
 ## Component - Payment Consent Checkbox
 
@@ -35,6 +43,9 @@ next-payment-confirm-checkbox-error = Emyanyhẽraẽ kóva eku’ejey mboyve
 
 next-new-user-submit = Eñemboheraguapy Ko’ág̃a
 next-payment-validate-name-error = Emoinge nde réra
+next-pay-with-heading-paypal = Ehepyme’ẽ { -brand-paypal } ndive
+# Label for the Full Name input
+payment-name-label = Téra oĩháicha nde kuatia’atãme
 payment-name-placeholder = Téra ha terajuapy
 
 ## Component - CouponForm
