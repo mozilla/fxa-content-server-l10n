@@ -2,6 +2,26 @@
 
 session-verify-send-push-title-2 = ¿Eñepyrũ tembiapo { -product-mozilla-account } ndive?
 session-verify-send-push-body-2 = Eikutu ápe roikuaa hag̃ua ndeha
+# Message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to verify phone ownership when registering a recovery phone
+recovery-phone-setup-sms-body = { $code } ha’e ayvu rechajeyha { -brand-mozilla } mba’éva. Ijaravopáta 5 aravo’ípe.
+# Shorter message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to verify phone ownership when registering a recovery phone
+recovery-phone-setup-sms-short-body = Ayvu rechajeyha { -brand-mozilla } mba’e: { $code }
+# Message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to sign in with a recovery phone as backup for two-step authentication
+recovery-phone-signin-sms-body = { $code } ha’e ayvu guerujeyha { -brand-mozilla } mba’e. Ijaravopáta 5 aravo’ípe.
+# Shorter message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to sign in with a recovery phone as backup for two-step authentication
+recovery-phone-signin-sms-short-body = { -brand-mozilla } ayvu: { $code }
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
@@ -242,6 +262,7 @@ fraudulentAccountDeletion-contact = Eporanduséramo, eñe’ẽ ore <a data-l10n
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Eporanduséramo, eñe’ẽ ore aty pytyvõha ndive: { $mozillaSupportUrl }
+inactiveAccountFinalWarning-subject = Eguerekosevéramo nde { -product-mozilla-account }
 inactiveAccountFirstWarning-action = Eñepyrũ tembiapo ereko are hag̃ua ne mba’ete
 inactiveAccountFirstWarning-preview = Eñepyrũ tembiapo ereko are hag̃ua ne mba’ete
 # followed by link to sign in
