@@ -6,6 +6,7 @@ next-payment-error-manage-subscription-button = Ñemboheraguapy jeipota
 next-iap-upgrade-contact-support = Erekokuaa gueteri ko apopyre — eñe’ẽmi pytyvõha aty ndive roipytyvõkuaa hag̃ua.
 next-payment-error-retry-button = Eha’ãjey
 next-basic-error-message = Oĩ osẽvaíva. Ikatúpiko eha’ãjey ag̃amieve.
+checkout-error-contact-support-button = Eheka Ñepytyvõha
 
 ## Page
 

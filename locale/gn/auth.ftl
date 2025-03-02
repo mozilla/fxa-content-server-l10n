@@ -422,6 +422,10 @@ postSigninRecoveryCode-title = Ayvu ñemoneĩrã jeykekoha eiporúva emba’apo 
 postSigninRecoveryCode-device = Eñepyrũ tembiapo upe guive:
 postSigninRecoveryCode-action = Mba’ete ñangareko
 postSigninRecoveryPhone-subject = Pumbyry guerujeyrã eiporúva emba’apo hag̃ua
+postSigninRecoveryPhone-preview = Emoneĩ pe mba’ete rembiapo
+postSigninRecoveryPhone-title = Ojeporu ne pumbyry guerujeyrã oñemba’apo hag̃ua
+postSigninRecoveryPhone-device = Eñepyrũ tembiapo upe guive:
+postSigninRecoveryPhone-action = Mba’ete ñangareko
 postVerify-sub-title-3 = ¡Rovy’aiterei rohecha rehe!
 postVerify-title-2 = ¿Ehechasépa tendayke mokõi mba’e’okápe?
 postVerify-description-2 = ¡Ndahasýi! Emohenda { -brand-firefox } ambue mba’e’okápe ha eñepyrũ tembiapo embojuehe hag̃ua. ¡Ha’ete hasy’ỹva!
@@ -674,6 +678,7 @@ verifySecondaryCode-expiry-notice-2 = Opáta 5 aravo’ípe. Ojehechajey vove, k
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = Emoneĩjey ne mba’ete
+verifyShortCode-preview = Eiporu ayvu reheve emoneĩ hag̃ua nde { -product-mozilla-account }
 verifyShortCode-title-3 = Embojuruja ñanduti { -brand-mozilla } ndive
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = Emoneĩ ne mba’ete ha eiporuporã { -brand-mozilla } eike eikehápe eñepyrũvo amo:
