@@ -269,10 +269,13 @@ inactiveAccountFinalWarning-action = Eñepyrũ tembiapo ereko are hag̃ua ne mba
 # followed by link to sign in
 inactiveAccountFinalWarning-action-plaintext = Eñepyrũ tembiapo ereko are hag̃ua ne mba’ete:
 inactiveAccountFirstWarning-subject = Aníke ehundi ne mba’ete
+inactiveAccountFirstWarning-title = ¿Ereko aresépa ne mba’ete { -brand-mozilla } ha imba’ekuaarãnguéra?
+inactiveAccountFirstWarning-inactive-status = Rohecha ndereikeveihague 2 arýma.
 inactiveAccountFirstWarning-action = Eñepyrũ tembiapo ereko are hag̃ua ne mba’ete
 inactiveAccountFirstWarning-preview = Eñepyrũ tembiapo ereko are hag̃ua ne mba’ete
 # followed by link to sign in
 inactiveAccountFirstWarning-action-plaintext = Eñepyrũ tembiapo ereko are hag̃ua ne mba’ete:
+inactiveAccountSecondWarning-title = Ne mba’ete { -brand-mozilla } ha imba’ekuaarãnguéra oguétama 7 arahápe
 inactiveAccountSecondWarning-action = Eñepyrũ tembiapo ereko are hag̃ua ne mba’ete
 inactiveAccountSecondWarning-preview = Eñepyrũ tembiapo ereko are hag̃ua ne mba’ete
 # followed by link to sign in
@@ -348,6 +351,10 @@ postAddLinkedAccount-subject-2 = ¿Eñepyrũ tembiapo { -product-mozilla-account
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = Ne mba’ete { $providerName } pegua ojuajúma nde { -product-mozilla-account } rehe
 postAddLinkedAccount-action = Eñangareko mba’etére
+postAddRecoveryPhone-subject = Pumbyry guerujeyrã mbojuajupyre
+postAddRecoveryPhone-title = Emoheñói pumbyry papapy guerujeyrã
+# Links out to a support article about two factor authentication
+postAddRecoveryPhone-how-protect = Mba’éicha omo’ãta ne mba’ete
 postAddRecoveryPhone-enabled-device = Embojuruja upe guive:
 postAddRecoveryPhone-action = Mba’ete ñangareko
 postAddTwoStepAuthentication-subject-2 = Ñemoneĩ mokõi jeýpe myandypyre
