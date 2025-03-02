@@ -355,6 +355,7 @@ postAddRecoveryPhone-subject = Pumbyry guerujeyrã mbojuajupyre
 postAddRecoveryPhone-title = Emoheñói pumbyry papapy guerujeyrã
 # Links out to a support article about two factor authentication
 postAddRecoveryPhone-how-protect = Mba’éicha omo’ãta ne mba’ete
+postAddRecoveryPhone-how-protect-plaintext = Mba’éicha omo’ãta ne mba’ete:
 postAddRecoveryPhone-enabled-device = Embojuruja upe guive:
 postAddRecoveryPhone-action = Mba’ete ñangareko
 postAddTwoStepAuthentication-subject-2 = Ñemoneĩ mokõi jeýpe myandypyre
@@ -376,6 +377,7 @@ postChangePrimary-description-2 = Emoambue hekopete ne ñandutiveve eiporuvéva 
 postChangePrimary-action = Mba’ete ñangareko
 postChangeRecoveryPhone-subject = Pumbyry guerujeyrã ag̃agua
 postChangeRecoveryPhone-title = Emoambue pumbyry jeguerujeyrã
+postChangeRecoveryPhone-description = Eguerekóma pumbyry guerujeyrã pyahu. Oguetéma pe pumbyry papapy.
 postChangeRecoveryPhone-requested-device = Ejerure upe guive:
 postConsumeRecoveryCode-title-2 = Reiporureína auvu ñemoneĩ jeykekoha
 # After the colon, there is description of the device that the backup authentication code was used on
