@@ -625,6 +625,7 @@ flow-recovery-key-info-cancel-link = Heja
 # verification code refers to a code sent by text message to confirm phone number ownership
 # and complete setup
 flow-setup-phone-confirm-code-heading = Emoinge ayvu jehechajeyrã
+flow-setup-phone-confirm-code-input-label = Emoinge ayvu 6 taíva
 flow-setup-phone-confirm-code-button = Moneĩ
 # button to resend a code by text message to the user's phone
 # followed by a button to resend a code
@@ -634,6 +635,7 @@ flow-setup-phone-confirm-code-resend-code-success = Ayvu mondopyre
 
 ## FlowSetupPhoneConfirmCode
 
+flow-setup-phone-submit-number-heading = Ehechajey ne pumbyry papapy
 # cliking on the button sends a code by text message to the phone number typed in by the user
 flow-setup-phone-submit-number-button = Emondo ayvu
 
@@ -842,6 +844,11 @@ recent-activity-account-password-changed = Ñe’ẽñemi moambuepyre
 recent-activity-account-secondary-email-added = Ñanduti veve mokõiháva mbojuajupyre
 recent-activity-account-secondary-email-removed = Ñanduti veve mokõiháva mboguepyre
 recent-activity-account-emails-swapped = Ñanduti veve ha’etéva ha mokõiháva mbojuasapyre
+recent-activity-account-recovery-phone-signin-failed = Ojavy emba’apóvo ne pumbyry guerujeyrã ndive
+recent-activity-account-recovery-phone-removed = Pumbyry guerujeyrã mboguepyre
+recent-activity-account-recovery-codes-replaced = Ayvu guerujeyrã myengoviapyre
+recent-activity-account-recovery-codes-created = Ayvu guerujeyrã moheñoimbyre
+recent-activity-account-recovery-codes-signin-complete = Ojavy emba’apóvo nde ayvu guerujeyrã henyhẽva ndive
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Mba’ete rembiapo ambuéva
 
@@ -856,10 +863,13 @@ recovery-key-create-back-button-title = Eguevi ñembohekópe
 ## PageRecoveryPhoneRemove
 ## Users reach this page from account settings when they want to remove a backup phone number.
 
+settings-recovery-phone-remove-button = Embogue pumbyry papapy
 settings-recovery-phone-remove-cancel = Heja
+settings-recovery-phone-remove-success = Pumbyry guerujeyrã mboguepyre
 
 ## PageSetupRecoveryPhone
 
+page-setup-recovery-phone-back-button-title = Eguevi ñembohekópe
 
 ## Add secondary email page
 
