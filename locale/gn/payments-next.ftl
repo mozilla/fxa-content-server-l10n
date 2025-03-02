@@ -115,6 +115,7 @@ next-terms-download = Emboguejy ñemboguatarã
 
 ## Component - UpdatedPurchaseDetails
 
+upgrade-purchase-details-new-total-label = Ipyahupaite
 
 ## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
