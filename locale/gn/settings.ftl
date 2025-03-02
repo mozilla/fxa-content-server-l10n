@@ -630,9 +630,12 @@ flow-setup-phone-confirm-code-button = Moneĩ
 # followed by a button to resend a code
 flow-setup-phone-confirm-code-expired = ¿Ndoikovéima ayvu?
 flow-setup-phone-confirm-code-resend-code-button = Emondojey ayvu
+flow-setup-phone-confirm-code-resend-code-success = Ayvu mondopyre
 
 ## FlowSetupPhoneConfirmCode
 
+# cliking on the button sends a code by text message to the phone number typed in by the user
+flow-setup-phone-submit-number-button = Emondo ayvu
 
 ## HeaderLockup component, the header in account settings
 
@@ -1577,6 +1580,8 @@ signin-push-code-confirm-link-error = Pe juajuha imarã. Eha’ã jey ag̃ave.
 
 signin-recovery-method-header = Eñemboheraguapy
 signin-recovery-method-subheader = Eiporavo mba’éichapa erujeýta
+signin-recovery-method-phone = Pumbyry guerujeyrã
+signin-recovery-method-code-v2 = Ayvu ñemoneĩrã jeykekoha
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
@@ -1585,13 +1590,22 @@ signin-recovery-method-subheader = Eiporavo mba’éichapa erujeýta
 
 signin-recovery-code-heading = Eñepyrũ tembiapo
 signin-recovery-code-sub-heading = Emoinge ayvu ñemoneĩrã jeykekoha
+# code here refers to backup authentication code
+signin-recovery-code-input-label-v2 = Ehai ayvu orekóva 10 tai
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Moneĩ
+# Link to go to the page to use recovery phone instead
+signin-recovery-code-phone-link = Eiporu pumbyry guerujeyrã
 # External link for support if the user can't use two-step autentication or a backup authentication code
 # https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 signin-recovery-code-support-link = ¿Rejejokóma?
 # Error displayed in a tooltip when form is submitted witout a code
 signin-recovery-code-required-error = Ayvu ñemoneĩrã jeykekoha jerurepyre
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-recovery-code-use-phone-failure = Oiko apañuãi emondóvo pe ayvu ne pumbyry jeguerujeyrãme
+signin-recovery-code-use-phone-failure-description = Eha’ãjey ag̃amieve.
 
 ## SigninRecoveryPhone page
 
@@ -1604,6 +1618,7 @@ signin-recovery-phone-resend-code-button = Emondojey ayvu
 signin-recovery-phone-resend-success = Ayvu mondopyre
 # links to https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 signin-recovery-phone-locked-out-link = ¿Nderejáma okápe?
+signin-recovery-phone-send-code-error-heading = Oiko peteĩ apañuái emondóvo pe ayvu
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
