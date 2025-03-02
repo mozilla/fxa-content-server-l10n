@@ -995,15 +995,28 @@ tfa-row-backup-codes-title = Ayvu ñemoneĩrã jeykekoha
 # Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
 # Users that have not enabled or verified 2FA will not see this
 tfa-row-backup-codes-not-available = Ndaipóri mba’eñemi porupyrã
+# Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
+tfa-row-backup-codes-get-new-cta-v2 = Emoheñói ayvukuéra pyahu
 # Shown to users who have no backup authentication codes
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = Mbojuaju
+# Recovery phone is a recovery method for two-step authentication
+# A recovery code can be sent to the user's phone
+tfa-row-backup-phone-title-v2 = Pumbyry guerujeyrã
+# Shown with an alert icon to indicate that no recovery phone is configured
+tfa-row-backup-phone-not-available-v2 = Ndojehaíri pumbyry papapy
 # button to change the configured recovery phone
 tfa-row-backup-phone-change-cta = Moambue
 # button to add/configure a recovery phone
 tfa-row-backup-phone-add-cta = Mbojuaju
 # Button to remove a recovery phone from the user's account
 tfa-row-backup-phone-delete-button = Mboguete
+# Shown in tooltip on delete button or delete icon
+tfa-row-backup-phone-delete-title-v2 = Embogue pumbyry guerujeyrã
+# A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
+# into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
+# with SMS-based two-factor authentication.
+tfa-row-backup-phone-sim-swap-risk-link = Maranduve SIM ñemoambue rehegua
 
 ## Switch component
 
@@ -1097,6 +1110,9 @@ tfa-row-button-refresh =
 tfa-row-cannot-refresh =
     Rombyasy, oiko apañuái embopyahúvo ñemoneĩ
     mokõi jeku’egua.
+# "this" refers to two-step authentication
+# Link goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+tfa-row-enabled-info-link = Mba’éicha omo’ãta ne mba’ete
 tfa-row-cannot-verify-session-4 = Rombyasy, oiko apañuái guasu emoneĩjeývo tembiapo
 tfa-row-disable-modal-heading = ¿Eipe’a ñemoneĩ mokõi jeku’egua?
 tfa-row-disable-modal-confirm = Pe’a
