@@ -86,7 +86,14 @@ select-tax-location-save-button = Ñongatu
 select-tax-location-country-code-label = Tetã
 select-tax-location-country-code-placeholder = Eiporavo neretã
 select-tax-location-error-missing-country-code = Ikatúpiko eiporavo neretã
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN
+select-tax-location-product-not-available = { $productName } ndereiporukuaái ko tendaitépe.
 select-tax-location-postal-code-label = Código postal
+select-tax-location-postal-code =
+    .placeholder = Ehai nde código postal
+select-tax-location-error-missing-postal-code = Ehaimína nde código postal
+select-tax-location-error-invalid-postal-code = Ehai nde código postal oikóva
+select-tax-location-successfully-updated = Hekopyahúma ne rendaite.
 signin-form-continue-button = Ku’ejey
 signin-form-email-input = Emoinge ne ñanduti veve
 signin-form-email-input-missing = Emoingemi ne ñanduti veve
