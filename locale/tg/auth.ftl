@@ -1,10 +1,18 @@
 ## Non-email strings
 
+session-verify-send-push-title-2 = Ба ҳисоби худ дар { -product-mozilla-account } ворид мешавед?
+session-verify-send-push-body-2 = Барои тасдиқ кардани он, ки ин шумо ҳастед, дар ин ҷой зер кунед
+# Shorter message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to verify phone ownership when registering a recovery phone
+recovery-phone-setup-sms-short-body = Рамзи «{ -brand-mozilla }» барои санҷиши ҳаққоният: { $code }
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
 ## version. The strings are usually identical but sometimes they differ slightly.
 
+fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } logo">
 fxa-privacy-url = Сиёсати махфияти «{ -brand-mozilla }»
 moz-accounts-privacy-url-2 = Огоҳномаи махфияти «{ -product-mozilla-accounts(capitalization: "uppercase") }»
 moz-accounts-terms-url = Шартҳои хизматрасонии «{ -product-mozilla-accounts(capitalization: "uppercase") }»

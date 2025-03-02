@@ -263,6 +263,12 @@ fraudulentAccountDeletion-contact = Eporanduséramo, eñe’ẽ ore <a data-l10n
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Eporanduséramo, eñe’ẽ ore aty pytyvõha ndive: { $mozillaSupportUrl }
 inactiveAccountFinalWarning-subject = Eguerekosevéramo nde { -product-mozilla-account }
+inactiveAccountFinalWarning-title = Ne mba’ete { -brand-mozilla } ha imba’ekuaarãnguéra oguéma
+inactiveAccountFinalWarning-preview = Eñepyrũ tembiapo ereko are hag̃ua ne mba’ete
+inactiveAccountFinalWarning-action = Eñepyrũ tembiapo ereko are hag̃ua ne mba’ete
+# followed by link to sign in
+inactiveAccountFinalWarning-action-plaintext = Eñepyrũ tembiapo ereko are hag̃ua ne mba’ete:
+inactiveAccountFirstWarning-subject = Aníke ehundi ne mba’ete
 inactiveAccountFirstWarning-action = Eñepyrũ tembiapo ereko are hag̃ua ne mba’ete
 inactiveAccountFirstWarning-preview = Eñepyrũ tembiapo ereko are hag̃ua ne mba’ete
 # followed by link to sign in
