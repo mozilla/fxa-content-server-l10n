@@ -126,6 +126,7 @@ next-subscription-create-title = გამოწერის გამართ�
 next-subscription-success-title = გამოწერის დადასტურება
 next-subscription-processing-title = გამოწერა მოწმდება…
 next-subscription-error-title = შეცდომა, გამოწერის დადასტურებისას…
+subscription-title-plan-change-heading = გადახედეთ თქვენს ცვლილებას
 next-sub-guarantee = 30-დღიანი ვადით თანხის დასაბრუნებლად
 
 ## Component - TermsAndPrivacy
@@ -139,7 +140,17 @@ next-terms-download = პირობების ჩამოტვირთვ
 
 ## Component - UpdatedPurchaseDetails
 
+upgrade-purchase-details-current-plan-label = მიმდინარე გეგმა
+upgrade-purchase-details-new-plan-label = ახალი გეგმა
+upgrade-purchase-details-promo-code = ფასდაკლების კოდი
+upgrade-purchase-details-tax-label = გადასახადები და მოსაკრებლები
+upgrade-purchase-details-new-total-label = ახალი სულ
+upgrade-purchase-details-prorated-upgrade = დანაწილების განახლება
 
 ## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
 
+upgrade-purchase-details-new-plan-daily = { $productName } (ყოველდღიური)
+upgrade-purchase-details-new-plan-weekly = { $productName } (ყოველკვირეული)
+upgrade-purchase-details-new-plan-monthly = { $productName } (ყოველთვიური)
+upgrade-purchase-details-new-plan-yearly = { $productName } (ყოველწლიური)

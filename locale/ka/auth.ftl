@@ -7,11 +7,21 @@ session-verify-send-push-body-2 = დაწკაპეთ აქ ვინა�
 # Messages should be limited to one segment
 # $code  - 6 digit code used to verify phone ownership when registering a recovery phone
 recovery-phone-setup-sms-body = { $code } კოდი { -brand-mozilla }-ანგარიშის დასამოწმებლად. ვადა ეწურება 5 წუთში.
+# Shorter message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to verify phone ownership when registering a recovery phone
+recovery-phone-setup-sms-short-body = { -brand-mozilla }-ს დადასტურების კოდი: { $code }
 # Message sent by SMS with limited character length, please test translation with the messaging segment calculator
 # https://twiliodeved.github.io/message-segment-calculator/
 # Messages should be limited to one segment
 # $code  - 6 digit code used to sign in with a recovery phone as backup for two-step authentication
 recovery-phone-signin-sms-body = { $code } კოდი { -brand-mozilla }-ანგარიშის აღსადგენად. ვადა ეწურება 5 წუთში.
+# Shorter message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to sign in with a recovery phone as backup for two-step authentication
+recovery-phone-signin-sms-short-body = { -brand-mozilla }-ს კოდი: { $code }
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
@@ -368,6 +378,9 @@ postAddLinkedAccount-action = ანგარიშის მართვა
 postAddRecoveryPhone-subject = აღდგენის ტელეფონი დამატებულია
 postAddRecoveryPhone-preview = ანგარიში დაცულია ორბიჯიანი დამოწმებით შესვლისას
 postAddRecoveryPhone-title = თქვენ შექმენით აღდგენის ტელეფონის ნომერი
+# Variables:
+#  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
+postAddRecoveryPhone-description-v2 = თქვენ დაამატეთ { $maskedLastFourPhoneNumber } ნომერი თქვენს აღდგენის ტელეფონად
 # Links out to a support article about two factor authentication
 postAddRecoveryPhone-how-protect = როგორ იცავს ეს თქვენს ანგარიშს
 postAddRecoveryPhone-how-protect-plaintext = როგორ იცავს ეს თქვენს ანგარიშს:

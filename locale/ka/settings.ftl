@@ -868,6 +868,15 @@ recent-activity-account-password-changed = პაროლი შეიცვა
 recent-activity-account-secondary-email-added = ელფოსტის დამატებითი მისამართი დაერთო
 recent-activity-account-secondary-email-removed = ელფოსტის დამატებითი მისამართი მოცილდა
 recent-activity-account-emails-swapped = პირველადი და დამატებით ელფოსტა შენაცვლდა
+recent-activity-session-destroy = გამოსულია სეანსიდან
+recent-activity-account-recovery-phone-send-code = აღდგენის ტელეფონის კოდი გაიგზავნა
+recent-activity-account-recovery-phone-setup-complete = აღდგენის ტელეფონის გამართვა დასრულდა
+recent-activity-account-recovery-phone-signin-complete = აღდგენის ტელეფონით შესვლა დასრულდა
+recent-activity-account-recovery-phone-signin-failed = აღდგენის ტელეფონით შესვლა ვერ მოხერხდა
+recent-activity-account-recovery-phone-removed = აღდგენის ტელეფონი მოცილდა
+recent-activity-account-recovery-codes-replaced = აღდგენის კოდები ჩანაცვლდა
+recent-activity-account-recovery-codes-created = აღდგენის კოდები შეიქმნა
+recent-activity-account-recovery-codes-signin-complete = აღდგენის კოდებით შესვლა დასრულდა
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = სხვა მოქმედებები ანგარიშზე
 
@@ -897,6 +906,8 @@ settings-recovery-phone-remove-success = აღდგენის ტელე�
 
 page-setup-recovery-phone-heading = აღდგენის ტელეფონის დამატება
 page-setup-recovery-phone-back-button-title = პარამეტრებზე დაბრუნება
+# Back arrow to return to step 1 of recovery phone setup flow
+page-setup-recovery-phone-step2-back-button-title = ტელეფონის ნომრის შეცვლა
 
 ## Add secondary email page
 
@@ -1044,6 +1055,8 @@ tfa-row-backup-codes-available-v2 =
         [one] { $numCodesAvailable } კოდია დარჩენილი
        *[other] { $numCodesAvailable } კოდია დარჩენილი
     }
+# Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
+tfa-row-backup-codes-get-new-cta-v2 = ახალი კოდების შექმნა
 # Shown to users who have no backup authentication codes
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = დამატება
@@ -1052,6 +1065,8 @@ tfa-row-backup-codes-description-2 = ესაა აღდგენის მ�
 # Recovery phone is a recovery method for two-step authentication
 # A recovery code can be sent to the user's phone
 tfa-row-backup-phone-title-v2 = აღდგენის ტელეფონი
+# Shown with an alert icon to indicate that no recovery phone is configured
+tfa-row-backup-phone-not-available-v2 = ტელეფონი არაა დამატებული
 # button to change the configured recovery phone
 tfa-row-backup-phone-change-cta = შეცვლა
 # button to add/configure a recovery phone
@@ -1228,6 +1243,7 @@ auth-error-214 = აღდგენის ტელეფონის ნომ�
 auth-error-215 = აღდგენის ტელეფონის ნომერი არ არსებობს
 auth-error-216 = ტექსტური შეტყობინებების ზღვარი მიღწეულია
 auth-error-218 = აღდგენის ტელეფონის მოცილება ვერ ხერხდება, აკლია შესვლის სამარქაფო კოდები.
+auth-error-219 = ტელეფონის ამ ნომრით ზედმეტად ბევრი ანგარიშია შექმნილი. გთხოვთ სცადოთ სხვა ნომერი.
 auth-error-999 = მოულოდნელი შეცდომა
 auth-error-1001 = შესვლის მცდელობა აღკვეთილია
 auth-error-1002 = სეანსი ამოიწურა. შედით ანგარიშზე, რომ განაგრძოთ.
@@ -1240,6 +1256,11 @@ auth-error-1032 = მართებული ასაკია აუცილ
 auth-error-1054 = ორბიჯიანი დამოწმების კოდი არასწორია
 auth-error-1056 = შესვლის დამოწმების უმართებულო სამარქაფო კოდი
 auth-error-1062 = გაუმართავი გადამისამართება
+# Displayed when we want to reference a user's previously set up recovery phone
+# number, but they are not completely signed in yet. We'll only show the last 4 digits.
+# Variables:
+#  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
+recovery-phone-number-ending-digits = ნომრის დაბოლოებაა { $lastFourPhoneNumber }
 oauth-error-1000 = რაღაც ხარვეზია. გთხოვთ დახუროთ ჩანართი და სცადოთ ხელახლა.
 
 ## Cannot Create Account page
