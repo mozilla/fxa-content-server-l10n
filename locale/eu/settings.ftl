@@ -1330,11 +1330,22 @@ inline-recovery-key-setup-create-error = Oops! Ezin izan dugu sortu zure kontua 
 inline-recovery-key-setup-recovery-created = Kontuaren berreskuratze-gakoa sortuta
 inline-recovery-key-setup-download-header = Babestu zure kontua
 inline-recovery-key-setup-download-subheader = Deskargatu eta gorde orain
+inline-recovery-key-setup-download-info = Gorde gako hau gogoratuko duzun leku batean — ezin izango zara orri honetara itzuli geroago.
+inline-recovery-key-setup-hint-header = Segurtasun gomendioa
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
 ## in this case, they will encounter this page in the signup process (hence calling it "Inline)
 
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+inline-recovery-setup-header-default = Berretsi babeskopia autentifikazio-kodea <span>kontuaren ezarpenetara jarraitzeko</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# $serviceName - the name of the service which is using Mozilla accounts to authenticate
+inline-recovery-setup-header = Gorde babeskopiko autentifikazio-kodeak <span>{ $serviceName }</span>-n jarraitzeko
+# Message refers to the recovery codes depicted below in the view
+inline-recovery-setup-message = Gorde erabilpen bakarreko kode hauek toki seguru batean, gailu mugikorrik alboan ez duzunean erabil ahal ditzazun.
 # This button allows a user to copy their recovery codes to their clipboard
 # This button allows the user to cancel setup of two-factor authentication for their account
 inline-recovery-cancel-button = Utzi
@@ -1347,6 +1358,13 @@ inline-recovery-cancel-setup = Utzi konfigurazioa
 # Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
 inline-recovery-backup-authentication-code = Babeskopiarako autentifikazio-kodea
 inline-recovery-confirmation-description = Zure konturako sarbidea berreskuratu ahal izango duzula ziurtatzeko, gailua galduz gero, idatzi gordetako babeskopiarako autentifikazio-kodeetako bat.
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+inline-recovery-confirmation-header-default = Berretsi babeskopia autentifikazio-kodea <span>kontuaren ezarpenetara jarraitzeko</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# $serviceName - the name of the service which is using Mozilla accounts to authenticate
+inline-recovery-confirmation-header = Berretsi ordezko autentifikazio-kodea <span>{ $serviceName }-n jarraitzeko</span>
 inline-recovery-2fa-enabled-v2 = Bi urratseko autentifikazioa gaitu da
 
 ## InlineTotpSetup page
@@ -1613,6 +1631,8 @@ signin-recovery-phone-resend-code-button = Birbidali kodea
 signin-recovery-phone-resend-success = Kodea bidalia
 # links to https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 signin-recovery-phone-locked-out-link = Blokeatuta zaude?
+signin-recovery-phone-send-code-error-heading = Arazoa egon da zure kodea bidaltzen.
+signin-recovery-phone-code-verification-error-heading = Arazoa egon da zure kodea egiaztatzen
 # Follows the error message (e.g, "There was a problem sending a code")
 signin-recovery-phone-general-error-description = Saiatu berriro geroago.
 
@@ -1671,6 +1691,8 @@ confirm-signup-code-code-expired = Kodea iraungita?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Posta elektroniko kode berria.
 confirm-signup-code-success-alert = Kontua behar bezala berretsi da
+# Error displayed in tooltip.
+confirm-signup-code-is-required-error = Berrespen kodea beharrezkoa da
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
@@ -1682,3 +1704,6 @@ signup-change-email-link = Aldatu helbide elektronikoa
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
 signup-age-check-label =
     .label = Zenbat urte dituzu?
+# Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
+# This link appears just below signup-age-check-input-label
+signup-coppa-check-explanation-link = Zergatik galdetzen dugu?
