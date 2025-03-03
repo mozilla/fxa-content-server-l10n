@@ -1131,7 +1131,18 @@ se-heading = Ordezko helbide elektronikoa
     .header = Ordezko helbide elektronikoa
 se-cannot-refresh-email = Barkatu, arazoa egon da helbide elektroniko hori berritzean.
 se-cannot-resend-code-3 = Arazo bat izan da berrespen-kodea berriro bidaltzean
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-set-primary-successful-2 = Zure helbide elektroniko nagusia da orain { $email }
+se-set-primary-error-2 = Barkatu, arazoa egon da zure helbide elektroniko nagusia aldatzean
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-delete-email-successful-2 = { $email } ondo ezabatuta
 se-delete-email-error-2 = Barkatu, arazoa egon da helbide elektroniko hori ezabatzean
+se-verify-session-3 = Zure uneko saioa berretsi beharko duzu ekintza hau burutzeko.
+se-verify-session-error-3 = Arazo bat izan da zure saioa berresteko
 # Button to remove the secondary email
 se-remove-email =
     .title = Kendu helbide elektronikoa
@@ -1139,9 +1150,15 @@ se-remove-email =
 se-refresh-email =
     .title = Berritu helbide elektronikoa
 se-unverified-2 = Berretsigabea
+se-resend-code-2 =
+    Berrespena behar da. <button>Birbidali berrespen-kodea</button>
+    ez baduzu zure sarrera-ontzian edo spam karpetan aurkitzen.
 # Button to make secondary email the primary
 se-make-primary = Bihurtu nagusi
 se-default-content = Sartu zure kontura ezin baduzu zure helbide elektroniko nagusiarekin saioa hasi.
+se-content-note-1 =
+    Oharra: ordezko helbide elektronikoak ez du zure informazioa leheneratuko —
+    <a>kontua berreskuratze-gakoa</a> beharko duzu horretarako.
 # Default value for the secondary email
 se-secondary-email-none = Bat ere ez
 
@@ -1158,6 +1175,10 @@ tfa-row-action-disable = Desgaitu
 tfa-row-button-refresh =
     .title = Berritu bi urratseko autentifikazioa
 tfa-row-cannot-refresh = Barkatu, arazoa egon da bi urratseko autentifikazioa berritzean.
+tfa-row-enabled-description = Zure kontua bi urratseko autentifikazioaren bidez babestuta dago. Zure { -product-mozilla-account }-n saioa hastean zure autentifikazio-aplikazioko pasahitz bakarra sartu beharko duzu.
+# "this" refers to two-step authentication
+# Link goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+tfa-row-enabled-info-link = Honek zure kontua nola babesten duen
 tfa-row-disable-modal-heading = Bi urratseko autentifikazioa desgaitu?
 tfa-row-disable-modal-confirm = Desgaitu
 # Shown in an alert bar after two-step authentication is disabled
