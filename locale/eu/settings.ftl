@@ -1050,6 +1050,15 @@ tfa-row-backup-codes-title = Autentifikazio-kodearen babes-kopia
 # Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
 # Users that have not enabled or verified 2FA will not see this
 tfa-row-backup-codes-not-available = Ez dago koderik erabilgarri
+# $numCodesRemaining - the number of backup authentication codes that have not yet been used (generally between 1 to 5)
+# A different message is shown when no codes are available
+tfa-row-backup-codes-available-v2 =
+    { $numCodesAvailable ->
+        [one] Kode { $numCodesAvailable } geratzen da
+       *[other] { $numCodesAvailable } kode geratzen dira
+    }
+# Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
+tfa-row-backup-codes-get-new-cta-v2 = Sortu kode berriak
 # Shown to users who have no backup authentication codes
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = Gehitu
@@ -1058,6 +1067,8 @@ tfa-row-backup-codes-description-2 = Hau da berreskuratzeko metodorik seguruena 
 # Recovery phone is a recovery method for two-step authentication
 # A recovery code can be sent to the user's phone
 tfa-row-backup-phone-title-v2 = Berreskuratze telefonoa
+# Shown with an alert icon to indicate that no recovery phone is configured
+tfa-row-backup-phone-not-available-v2 = Ez da telefono-zenbakirik gehitu
 # button to change the configured recovery phone
 tfa-row-backup-phone-change-cta = Aldatu
 # button to add/configure a recovery phone
@@ -1066,6 +1077,13 @@ tfa-row-backup-phone-add-cta = Gehitu
 tfa-row-backup-phone-delete-button = Kendu
 # Shown in tooltip on delete button or delete icon
 tfa-row-backup-phone-delete-title-v2 = Kendu berreskuratze telefonoa
+tfa-row-backup-phone-delete-restriction-v2 = Berreskuratzeko telefonoa kendu nahi baduzu, gehitu babeskopiko autentifikazio-kodeak edo desgaitu bi urratseko autentifikazioa lehenik zure kontutik kanpo gelditzea saihesteko.
+# "this" refers to recovery phone
+tfa-row-backup-phone-description = Hau da berreskuratzeko metodorik errazena zure autentifikatzaile aplikazioa erabili ezin baduzu.
+# A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
+# into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
+# with SMS-based two-factor authentication.
+tfa-row-backup-phone-sim-swap-risk-link = Lortu informazio gehiago SIM trukatzeko arriskuari buruz
 
 ## Switch component
 
@@ -1096,7 +1114,14 @@ rk-action-change-button = Aldatu
 rk-action-remove = Kendu
 rk-key-removed-2 = Kontuaren berreskuratze-gakoa kenduta
 rk-cannot-remove-key = Ezin izan da zure kontuaren berreskuratze-gakoa kendu.
+rk-refresh-key-1 = Freskatu kontua berreskuratzeko gakoa
 rk-content-explain = Berrezarri zure informazioa pasahitza ahazten duzunean.
+rk-cannot-verify-session-4 = Arazo bat izan da zure saioa berresteko
+rk-remove-modal-heading-1 = Kontua berreskuratzeko gakoa kendu?
+rk-remove-modal-content-1 =
+    Pasahitza berrezartzen baduzu, ezingo duzu
+    kontua berreskuratze-gakoa erabili zure datuetarako sarbidea izateko. Ezin duzu ekintza hau desegin.
+rk-remove-error-2 = Ezin izan da zure kontuaren berreskuratze-gakoa kendu
 # Icon button to delete user's account recovery key. Text appears in tooltip on hover and as alt text for screen readers.
 unit-row-recovery-key-delete-icon-button-title = Ezabatu kontua berreskuratzeko gakoa
 
@@ -1105,6 +1130,7 @@ unit-row-recovery-key-delete-icon-button-title = Ezabatu kontua berreskuratzeko 
 se-heading = Ordezko helbide elektronikoa
     .header = Ordezko helbide elektronikoa
 se-cannot-refresh-email = Barkatu, arazoa egon da helbide elektroniko hori berritzean.
+se-cannot-resend-code-3 = Arazo bat izan da berrespen-kodea berriro bidaltzean
 se-delete-email-error-2 = Barkatu, arazoa egon da helbide elektroniko hori ezabatzean
 # Button to remove the secondary email
 se-remove-email =
