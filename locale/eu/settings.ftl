@@ -1217,6 +1217,16 @@ auth-error-102 = Kontu ezezaguna
 auth-error-103 = Pasahitz okerra
 auth-error-105-2 = Berrespen-kode baliogabea!
 auth-error-110 = Token baliogabea
+# Error shown to users when they have attempted a request (e.g., requesting a password reset) too many times
+# and their requests have been throttled, but the specific amount of time before they can retry is unknown.
+auth-error-114-generic = Gehiegitan saiatu zara. Mesedez, saiatu berriro geroago.
+# This string is the amount of time required before a user can attempt another request.
+# Variables:
+#   $retryAfter (String) - Time required before retrying a request. The variable is localized by our
+#                          formatting library (momentjs) as a "time from now" and automatically includes
+#                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
+auth-error-114 = Gehiegitan saiatu zara. Mesedez, saiatu berriro { $retryAfter }.
+auth-error-125 = Eskaera blokeatu egin da segurtasun-arrazoiak tarteko
 auth-error-129 = Telefono-zenbaki baliogabea
 auth-error-138-2 = Berretsi gabeko saioa
 auth-error-139 = Helbide elektroniko alternatiboak zure kontuaren helbide elektronikoaren desberdina izan behar du
@@ -1227,9 +1237,15 @@ auth-error-159 = Kontua berreskuratzeko gako baliogabea
 auth-error-183-2 = Berrespen-kode baliogabea edo iraungita
 auth-error-202 = Ezaugarri ez gaitua
 auth-error-203 = Sistema ez dago erabilgarri, saiatu berrio beranduago
+auth-error-206 = Ezin da pasahitza sortu, pasahitza ezarrita dago jada
+auth-error-214 = Dagoeneko badago berreskuratzeko telefono-zenbakia
+auth-error-215 = Berreskuratzeko telefono-zenbakia ez dago
+auth-error-216 = Testu-mezuen mugara iritsi da
+auth-error-218 = Ezin izan da berreskuratzeko telefonoa kendu, babeskopiko autentifikazio-kodeak falta dira.
 auth-error-999 = Espero gabeko errorea
 auth-error-1001 = Saio-hasiera saiakera utzita
 auth-error-1002 = Saioa iraungita. Jarraitzeko, hasi saioa.
+auth-error-1003 = Tokiko biltegiratzea edo cookieak desgaituta daude oraindik
 auth-error-1008 = Pasahitz berriak desberdina izan behar du
 auth-error-1010 = Baliozko pasahitza behar da
 auth-error-1011 = Baliozko helbide elektronikoa behar da
@@ -1244,6 +1260,7 @@ oauth-error-1000 = Zerbait gaizki joan da. Itxi fitxa hau eta saiatu berriro.
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
 cannot-create-account-header = Ezin da kontua sortu
+cannot-create-account-requirements-2 = Adin-eskakizun batzuk bete behar dituzu { -product-mozilla-account } bat sortzeko.
 # For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
 cannot-create-account-learn-more-link = Argibide gehiago
 
@@ -1277,6 +1294,7 @@ connect-another-device-ios-complete-setup-message = Konfigurazioa osatzeko, hasi
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
 
+cookies-disabled-header = Tokiko biltegiratzea eta cookieak beharrezkoak dira
 # A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
 cookies-disabled-button-try-again = Saiatu berriro
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
