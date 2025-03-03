@@ -1242,6 +1242,7 @@ auth-error-214 = Dagoeneko badago berreskuratzeko telefono-zenbakia
 auth-error-215 = Berreskuratzeko telefono-zenbakia ez dago
 auth-error-216 = Testu-mezuen mugara iritsi da
 auth-error-218 = Ezin izan da berreskuratzeko telefonoa kendu, babeskopiko autentifikazio-kodeak falta dira.
+auth-error-219 = Telefono-zenbaki hau kontu gehiegirekin erregistratu da. Mesedez, saiatu beste zenbaki batekin.
 auth-error-999 = Espero gabeko errorea
 auth-error-1001 = Saio-hasiera saiakera utzita
 auth-error-1002 = Saioa iraungita. Jarraitzeko, hasi saioa.
@@ -1295,6 +1296,7 @@ connect-another-device-ios-complete-setup-message = Konfigurazioa osatzeko, hasi
 ## Users will see this page if they have local storage or cookies disabled.
 
 cookies-disabled-header = Tokiko biltegiratzea eta cookieak beharrezkoak dira
+cookies-disabled-enable-prompt-2 = Mesedez, gaitu cookieak eta tokiko biltegiratzea zure nabigatzailean { -product-mozilla-account } atzitzeko. Hori eginez gero, saioen artean zu gogoratzea bezalako funtzionaltasunak gaituko dira.
 # A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
 cookies-disabled-button-try-again = Saiatu berriro
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
