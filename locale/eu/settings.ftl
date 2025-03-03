@@ -1183,6 +1183,9 @@ tfa-row-disabled-description-v2 = Lagundu zure kontua babesten hirugarrenen aute
 tfa-row-cannot-verify-session-4 = Arazo bat izan da zure saioa berresteko
 tfa-row-disable-modal-heading = Bi urratseko autentifikazioa desgaitu?
 tfa-row-disable-modal-confirm = Desgaitu
+tfa-row-disable-modal-explain-1 =
+    Ezin izango duzu ekintza hau desegin.
+    Zuk ere aukera daukazu <linkExternal>zure ordezko autentifikazio-kodeak ordezkatzeko</linkExternal>.
 # Shown in an alert bar after two-step authentication is disabled
 tfa-row-disabled-2 = Bi urratseko autentifikazioa desgaituta
 tfa-row-cannot-disable-2 = Bi urratseko autentifikazioa ezin da desgaitu
@@ -1255,6 +1258,11 @@ auth-error-1032 = Adin egoki bat sartu behar duzu erregistratzeko
 auth-error-1054 = Bi urratseko autentifikazio kode baliogabea
 auth-error-1056 = Babeskopiako autentifikazio-kode baliogabea
 auth-error-1062 = Birbideraketa baliogabea
+# Displayed when we want to reference a user's previously set up recovery phone
+# number, but they are not completely signed in yet. We'll only show the last 4 digits.
+# Variables:
+#  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
+recovery-phone-number-ending-digits = { $lastFourPhoneNumber }z amaitzen den zenbakia
 oauth-error-1000 = Zerbait gaizki joan da. Itxi fitxa hau eta saiatu berriro.
 
 ## Cannot Create Account page
@@ -1312,11 +1320,13 @@ index-subheader-with-servicename = Jarraitu { $serviceName } zerbitzura
 index-subheader-with-logo = Jarraitu <span>{ $serviceLogo }</span>ra
 index-subheader-default = Jarraitu kontu-ezarpenekin
 index-cta = Erregistratu edo hasi saioa
+index-account-info = { -product-mozilla-account } batek pribatutasuna babesten duten produktu gehiagorako sarbidea desblokeatzen du { -brand-mozilla }-tik.
 index-email-input =
     .label = Idatzi zure helbide elektronikoa
 
 ## InlineRecoveryKeySetup page component
 
+inline-recovery-key-setup-create-error = Oops! Ezin izan dugu sortu zure kontua berreskuratzeko gakoa. Saiatu berriro geroago.
 inline-recovery-key-setup-recovery-created = Kontuaren berreskuratze-gakoa sortuta
 inline-recovery-key-setup-download-header = Babestu zure kontua
 inline-recovery-key-setup-download-subheader = Deskargatu eta gorde orain
@@ -1552,6 +1562,7 @@ report-signin-support-link = Zergatik ari da hau gertatzen?
 signin-bounced-header = Barkatu. Zure kontua blokeatu dugu.
 # $email (string) - The user's email.
 signin-bounced-message = { $email } helbidera bidali zen berrespen mezua itzuli egin zen eta zure kontua blokeatu dugu zure { -brand-firefox } datuak babesteko.
+signin-bounced-create-new-account = Helbide elektronikoa ez da jada zurea? Sortu kontu berri bat
 back = Atzera
 
 ## SigninPushCode page
@@ -1599,6 +1610,11 @@ signin-recovery-phone-heading = Sartu berreskuratze kodea
 signin-recovery-phone-input-label = Sartu 6 digituko kodea
 signin-recovery-phone-code-submit-button = Berretsi
 signin-recovery-phone-resend-code-button = Birbidali kodea
+signin-recovery-phone-resend-success = Kodea bidalia
+# links to https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+signin-recovery-phone-locked-out-link = Blokeatuta zaude?
+# Follows the error message (e.g, "There was a problem sending a code")
+signin-recovery-phone-general-error-description = Saiatu berriro geroago.
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -1659,6 +1675,7 @@ confirm-signup-code-success-alert = Kontua behar bezala berretsi da
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
+signup-heading = Ezarri zure pasahitza
 signup-heading-relay = Sortu pasahitz bat
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Aldatu helbide elektronikoa
