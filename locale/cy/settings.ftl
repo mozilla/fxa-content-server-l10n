@@ -868,7 +868,7 @@ recent-activity-account-recovery-phone-setup-complete = Gosod ffôn adfer wedi'i
 recent-activity-account-recovery-phone-signin-complete = Mewngofnodi gyda ffôn adfer wedi'i gwblhau
 recent-activity-account-recovery-phone-signin-failed = Methodd mewngofnodi gyda ffôn adfer
 recent-activity-account-recovery-phone-removed = Ffôn adfer wedi'i dynnu
-recent-activity-account-recovery-codes-replaced = Codau adfer wedi'u amnewid
+recent-activity-account-recovery-codes-replaced = Codau adfer wedi'u hamnewid
 recent-activity-account-recovery-codes-created = Codau adfer wedi'u creu
 recent-activity-account-recovery-codes-signin-complete = Cwblhawyd y mewngofnodi gyda chodau adfer
 # Security event was recorded, but the activity details are unknown or not shown to user
