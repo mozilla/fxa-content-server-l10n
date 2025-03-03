@@ -126,7 +126,7 @@ next-subscription-create-title = Gosod eich tanysgrifiad
 next-subscription-success-title = Cadarnhad o'ch tanysgrifiad
 next-subscription-processing-title = Yn cadarnhau eich tanysgrifiad…
 next-subscription-error-title = Gwall wrth gadarnhau eich tanysgrifiad…
-subscription-title-plan-change-heading = Gwiriwch eich newid
+subscription-title-plan-change-heading = Adolygwch eich newid
 next-sub-guarantee = Gwarant arian-yn-ôl 30 diwrnod
 
 ## Component - TermsAndPrivacy
