@@ -124,6 +124,7 @@ next-subscription-create-title = Settu upp áskriftina þína
 next-subscription-success-title = Staðfesting áskriftar
 next-subscription-processing-title = Staðfesti áskrift…
 next-subscription-error-title = Villa við að staðfesta áskrift…
+subscription-title-plan-change-heading = Farðu yfir breytinguna þína
 next-sub-guarantee = 30-daga skilafrestur
 
 ## Component - TermsAndPrivacy
@@ -137,7 +138,17 @@ next-terms-download = Sækja skilmála
 
 ## Component - UpdatedPurchaseDetails
 
+upgrade-purchase-details-current-plan-label = Núverandi áskriftarleið
+upgrade-purchase-details-new-plan-label = Ný áskriftarleið
+upgrade-purchase-details-promo-code = Kynningarkóði
+upgrade-purchase-details-tax-label = Skattar og gjöld
+upgrade-purchase-details-new-total-label = Ný heildarupphæð
+upgrade-purchase-details-prorated-upgrade = Leiðrétt uppfærsla
 
 ## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
 
+upgrade-purchase-details-new-plan-daily = { $productName } (daglega)
+upgrade-purchase-details-new-plan-weekly = { $productName } (vikulega)
+upgrade-purchase-details-new-plan-monthly = { $productName } (mánaðarlega)
+upgrade-purchase-details-new-plan-yearly = { $productName } (árlega)

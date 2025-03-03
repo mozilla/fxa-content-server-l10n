@@ -1499,6 +1499,9 @@ pair-success-message-2 = Parekatzea ondo egin da.
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be confirmed from both devices to succeed
 
+# Strings within the <span> elements appear as a subheading.
+# Variable $email is the user's email address
+pair-supp-allow-heading-text = Berretsi <span>for { $email }</span>-kin parekatzea
 pair-supp-allow-confirm-button = Berretsi parekatzea
 pair-supp-allow-cancel-link = Utzi
 
@@ -1506,20 +1509,26 @@ pair-supp-allow-cancel-link = Utzi
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be approved from both devices to succeed
 
+# The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
+# Strings within the <span> elements appear as a subheading.
+pair-wait-for-auth-heading-text = Onarpena behar da <span>beste gailutik</span>
 
 ## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
 
 pair-unsupported-header = Parekatzea aplikazioa erabiliz
+pair-unsupported-message = Sistemako kamera darabilzu? { -brand-firefox } aplikazio batetik parekatu behar duzu.
 
 ## SetPassword page
 ## Third party auth users that do not have a password set yet are prompted for a
 ## password to complete their sign-in when they want to login to a service requiring it.
 
 set-password-heading = Sortu pasahitza
+set-password-info = Zure sinkronizazio-datuak zure pasahitzarekin enkriptatuta daude zure pribatutasuna babesteko.
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
 
+third-party-auth-callback-message = Mesedez, itxaron, baimendutako aplikaziora birbideratzen ari zara.
 
 ## AccountRecoveryConfirmKey page
 
@@ -1588,11 +1597,17 @@ reset-password-complete-header = Zure pasahitza berrezarri egin da
 reset-password-confirmed-cta = Jarraitu { $serviceName } zerbitzura
 reset-password-with-recovery-key-verified-page-title = Pasahitza ondo berrezarri da
 reset-password-complete-new-password-saved = Pasahitz berria gorde da!
+reset-password-complete-recovery-key-download-info =
+    Gako hau ezinbestekoa da 
+    datuak berreskuratzeko pasahitza ahazten baduzu. <b>Deskargatu eta gorde ezazu
+    modu seguruan orain, ezin izango baikara orri honetara berriro sartu geroago</b>
 
 ## CompleteSignin component
 
 # This is a label that precedes any error which could arise from trying to validate the user's signin
 error-label = Errorea:
+# This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
+validating-signin = Saio hasiera balioztatzen…
 # Shown above an error banner (e.g., invalid confirmation code, unexpected error)
 complete-signin-error-header = Berrespen-errorea
 # The user followed a signin confirmation link, but that link is expired and no longer valid
