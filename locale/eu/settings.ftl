@@ -1372,11 +1372,34 @@ inline-recovery-2fa-enabled-v2 = Bi urratseko autentifikazioa gaitu da
 
 inline-totp-setup-cancel-setup-button = Utzi konfigurazioa
 inline-totp-setup-continue-button = Jarraitu
+# <authenticationAppsLink> links to a list of security apps
+inline-totp-setup-add-security-link = Gehitu segurtasun-geruza bat zure kontuari <authenticationAppsLink>autentifikazio-aplikazio hauetariko</authenticationAppsLink>  autentifikazio-kodeak eskatuz.
+#  The <enable2StepDefaultSpan> elements are just visual separation here
+inline-totp-setup-enable-two-step-authentication-default-header-2 = Gaitu bi urratseko autentifikazioa <span>kontuaren ezarpenekin jarraitzeko</span>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
+inline-totp-setup-enable-two-step-authentication-custom-header-2 = Gaitu bi urratseko autentifikazioa <span>{ $serviceName }</span>-ra jarraitzeko
 inline-totp-setup-ready-button = Prest
+# The authentication code a user is scanning is a QR code.
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-custom-service-header-2 = Eskaneatu autentifikazio-kodea <span> { $serviceName }</span>-ra joateko
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-custom-service-header-2 = Sartu kodea eskuz <span>{ $serviceName }</span>-ra joateko
+# The authentication code a user is scanning is a QR code.
+# The <scanAuthHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-default-service-header-2 = Eskaneatu babeskopia autentifikazio-kodea <span>kontuaren ezarpenetara jarraitzeko</span>
+# The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-default-service-header-2 = Sartu kodea eskuz <span>kontuaren ezarpenetara jarraitzeko</span>
+# The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
+inline-totp-setup-enter-key-or-use-qr-instructions = Idatzi gako sekretu hau zure autentifikazio aplikazioan. <toggleToQRButton>QR kodea eskaneatu beharrean?</toggleToQRButton>
+# The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
+inline-totp-setup-use-qr-or-enter-key-instructions = Eskaneatu QR kodea zure autentifikazio-aplikazioan eta, ondoren, idatzi ematen duen autentifikazio-kodea. <toggleToManualModeButton>Ezin duzu kodea eskaneatu?</toggleToManualModeButton>
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-on-completion-description = Amaitutakoan, autentifikazio-kodeak sortzen hasiko da zuk sartu ahal izateko.
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = autentifikazio-kode
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-code-required-error = Autentifikazioa kodea beharrezkoa
+tfa-qr-code-alt = Erabili { $code } kodea onartzen diren aplikazioetan bi urratseko autentifikazioa konfiguratzeko.
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
@@ -1410,6 +1433,10 @@ pair-auth-allow-refuse-device-link = Hau ez bazara, <link>aldatu pasahitza</link
 # Heading to confirm the successful pairing of a new device with the user's account
 # Device here is non specific (could be a laptop, tablet, phone, etc.)
 pair-auth-complete-heading = Gailua konektatua
+# Variable { $deviceFamily } is generally a browser name, for example "Firefox"
+# Variable { $deviceOS } is an operating system short name, for example "iOS", "Android"
+pair-auth-complete-now-syncing-device-text = Honekin sinkronizatzen ari zara: { $deviceFamily } { $deviceOS }-n
+pair-auth-complete-sync-benefits-text = Orain irekitako fitxak, pasahitzak eta laster-markak atzi ditzakezu gailu guztietan.
 pair-auth-complete-see-tabs-button = Ikusi sinkronizatutako gailuetako fitxak
 pair-auth-complete-manage-devices-link = Kudeatu gailuak
 
@@ -1417,6 +1444,14 @@ pair-auth-complete-manage-devices-link = Kudeatu gailuak
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during device pairing.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+auth-totp-heading-w-default-service = Sartu babeskopia autentifikazio-kodea <span>kontuaren ezarpenetara jarraitzeko</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+auth-totp-heading-w-custom-service = Sartu autentifikazio-kodea <span> { $serviceName }</span>-ra joateko
+auth-totp-instruction = Ireki zure autentifikazio-aplikazioa eta idatzi ematen duen autentifikazio-kodea.
 auth-totp-input-label = Sartu 6 digituko kodea
 # Form button to confirm if the authentication code entered by the user is valid
 auth-totp-confirm-button = Berretsi
@@ -1427,6 +1462,9 @@ auth-totp-code-required-error = Autentifikazioa kodea beharrezkoa
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be approved from both devices to succeed
 
+# The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
+# Strings within the <span> elements appear as a subheading.
+pair-wait-for-supp-heading-text = Onarpena behar da <span>beste gailutik</span>
 
 ## PairFailure - a view which displays on failure of the device pairing process
 
@@ -1435,10 +1473,15 @@ pair-failure-message = Ezarpen prozedura amaitu da.
 
 ## Pair index page
 
+pair-sync-header = Sinkronizatu { -brand-firefox } zure telefonoan edo tabletan
+pair-cad-header = Konektatu { -brand-firefox } beste gailu batean
+pair-already-have-firefox-paragraph = Dagoeneko { -brand-firefox } duzu telefono edo tablet batean?
 # Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-sync-your-device-button = Sinkronizatu zure gailua
 # This is a heading element immediately preceded by "Sync your device" and followed by a link and QR code to download Firefox
 pair-or-download-subheader = Edo deskargatu
+# Directs user to scan a QR code to download Firefox. <linkExternal> is an anchor tag that directs the user to where they can download the { -brand-firefox } app
+pair-scan-to-download-message = Eskaneatu { -brand-firefox } mugikorrerako deskargatzeko edo bidali <linkExternal>deskargarako esteka</linkExternal>.
 # This allows the user to exit the sync/pair flow, and redirects them back to Settings
 pair-not-now-button = Une honetan ez
 pair-take-your-data-message = Eraman zure fitxak, laster-markak eta pasahitzak { -brand-firefox } erabiltzen duzun edonora.
