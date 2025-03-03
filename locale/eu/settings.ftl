@@ -1179,6 +1179,8 @@ tfa-row-enabled-description = Zure kontua bi urratseko autentifikazioaren bidez 
 # "this" refers to two-step authentication
 # Link goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
 tfa-row-enabled-info-link = Honek zure kontua nola babesten duen
+tfa-row-disabled-description-v2 = Lagundu zure kontua babesten hirugarrenen autentifikazio-aplikazio bat erabiliz saioa hasteko bigarren urrats gisa.
+tfa-row-cannot-verify-session-4 = Arazo bat izan da zure saioa berresteko
 tfa-row-disable-modal-heading = Bi urratseko autentifikazioa desgaitu?
 tfa-row-disable-modal-confirm = Desgaitu
 # Shown in an alert bar after two-step authentication is disabled
@@ -1188,6 +1190,16 @@ tfa-row-cannot-disable-2 = Bi urratseko autentifikazioa ezin da desgaitu
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
 
+# This message is followed by a bulleted list
+terms-privacy-agreement-intro-2 = Aurrera eginez gero, hauek onartzen dituzu:
+# links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-pocket-2 = { -product-pocket } <pocketTos>Zerbitzu-baldintzak</pocketTos> eta <pocketPrivacy>Pribatutasun-oharra</pocketPrivacy>
+# link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-monitor-3 = { -brand-mozilla } Harpidetza zerbitzuak <mozSubscriptionTosLink>Zerbitzu-baldintzak</mozSubscriptionTosLink> eta <mozSubscriptionPrivacyLink>Pribatutasun-oharra</mozSubscriptionPrivacyLink>
+# links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-mozilla = { -product-mozilla-accounts(capitalization: "uppercase") } <mozillaAccountsTos>Zerbitzu-baldintzak</mozillaAccountsTos> eta <mozillaAccountsPrivacy>Pribatutasun-oharra</mozillaAccountsPrivacy>
+# links to Mozilla Account's Terms of Service and Privacy Notice
+terms-privacy-agreement-default-2 = Aurrera eginez gero, <mozillaAccountsTos>Zerbitzu-baldintzak</mozillaAccountsTos> eta <mozillaAccountsPrivacy>Pribatutasun-oharra</mozillaAccountsPrivacy> onartzen dituzu.
 
 ## ThirdPartyAuth component
 ## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
