@@ -1668,12 +1668,18 @@ back = Atzera
 signin-push-code-heading-w-default-service = Egiaztatu saio-hasiera hau <span>kontuaren ezarpenetara jarraitzeko</span>
 signin-push-code-heading-w-custom-service = Egiaztatu saio-hasiera hau <span>{ $serviceName }</span>-n jarraitzeko
 signin-push-code-instruction = Egiaztatu zure beste gailuak eta onartu saio-hasiera hau zure { -brand-firefox } nabigatzailetik.
+signin-push-code-did-not-recieve = Ez al duzu jakinarazpena jaso?
+signin-push-code-send-email-link = Posta elektronikoaren kodea
 
 ## SigninPushCodeConfirmPage
 
 signin-push-code-confirm-instruction = Berretsi zure saio hasiera
+signin-push-code-confirm-description = Saioa hasteko saiakera bat detektatu dugu hurrengo gailutik. Zu izan bazara, onar ezazu saioa hasteko
 signin-push-code-confirm-verifying = Egiaztatzen
 signin-push-code-confirm-login = Berretsi saio hasiera
+signin-push-code-confirm-wasnt-me = Hau ez nintzen ni, aldatu pasahitza.
+signin-push-code-confirm-login-approved = Zure saio-hasiera onartu da. Mesedez, itxi leiho hau.
+signin-push-code-confirm-link-error = Esteka hondatuta dago. Mesedez, saiatu berriro.
 
 ## Signin recovery method page
 ## This page is shown to users when they are having trouble signing in with
@@ -1681,8 +1687,18 @@ signin-push-code-confirm-login = Berretsi saio hasiera
 
 signin-recovery-method-header = Hasi saioa
 signin-recovery-method-subheader = Aukeratu berreskuratze metodoa
+signin-recovery-method-details = Ziurtatu zure berreskuratzeko metodoak erabiltzen ari zarela.
 signin-recovery-method-phone = Berreskuratze telefonoa
 signin-recovery-method-code-v2 = Autentifikazio-kodearen babes-kopia
+# Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
+signin-recovery-method-code-info-v2 =
+    { $numBackupCodes ->
+        [one] Kode { $numBackupCodes } gelditzen da
+       *[other] { $numBackupCodes } kode gelditzen dira
+    }
+# Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
+signin-recovery-method-send-code-error-heading = Arazo bat izan da kodea berreskuratzeko telefonora bidaltzean
+signin-recovery-method-send-code-error-description = Saiatu berriro geroago edo erabili ordezko autentifikazio-kodeak.
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
@@ -1691,6 +1707,10 @@ signin-recovery-method-code-v2 = Autentifikazio-kodearen babes-kopia
 
 signin-recovery-code-heading = Hasi saioa
 signin-recovery-code-sub-heading = Sartu babeskopirako autentifikazio-kodea
+# codes here refers to backup authentication codes
+signin-recovery-code-instruction-v3 = Sartu bi urratseko autentifikazioa konfiguratzean gorde dituzun erabilera bakarreko kodeetako bat.
+# code here refers to backup authentication code
+signin-recovery-code-input-label-v2 = Sartu 10 karaktereko kodea
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Berretsi
 # Link to go to the page to use recovery phone instead
@@ -1700,6 +1720,10 @@ signin-recovery-code-phone-link = Erabili berreskuratze telefonoa
 signin-recovery-code-support-link = Blokeatuta zaude?
 # Error displayed in a tooltip when form is submitted witout a code
 signin-recovery-code-required-error = Beharrezkoa da autentifikazio-kodearen babeskopia
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-recovery-code-use-phone-failure = Arazo bat izan da kodea berreskuratzeko telefonora bidaltzean
 signin-recovery-code-use-phone-failure-description = Saiatu berriro geroago.
 
 ## SigninRecoveryPhone page
@@ -1707,6 +1731,9 @@ signin-recovery-code-use-phone-failure-description = Saiatu berriro geroago.
 signin-recovery-phone-flow-heading = Hasi saioa
 # A recovery code in context of this page is a one time code sent to the user's phone
 signin-recovery-phone-heading = Sartu berreskuratze kodea
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+signin-recovery-phone-instruction-v3 = Sei digituko kodea bidali da <span>{ $lastFourPhoneDigits }</span>z amaitzen den telefono-zenbakira testu-mezu bidez. Kode hau 5 minuturen buruan iraungiko da. Ez partekatu kode hau inorekin.
 signin-recovery-phone-input-label = Sartu 6 digituko kodea
 signin-recovery-phone-code-submit-button = Berretsi
 signin-recovery-phone-resend-code-button = Birbidali kodea
@@ -1727,12 +1754,21 @@ signin-reported-message = Gure taldeari jakinarazi zaio. Horrelako txostenek arr
 ## Users see this page during the signin process. In this instance, the confirmation code is
 ## a 6-digit code that is sent to the user's email address.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
+# can stand alone as "{ -product-mozilla-account }"
+signin-token-code-heading-2 = Sartu zure { -product-mozilla-account }</span> berrespen-kodea<span>
+# { $email } represents the email that the user entered to sign in
+signin-token-code-instruction = Sartu { $email } helbidera bidalitako kodea 5 minututan.
 signin-token-code-input-label-v2 = Sartu 6 digituko kodea
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Berretsi
 signin-token-code-code-expired = Kodea iraungita?
 # Link to resend a new code to the user's email.
 signin-token-code-resend-code-link = Posta elektroniko kode berria.
+# Error displayed in a tooltip when the form is submitted without a code
+signin-token-code-required-error = Berrespen kodea beharrezkoa da
+signin-token-code-resend-error = Zerbait gaizki joan da. Ezin izan da kode berri bat bidali.
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1740,6 +1776,7 @@ signin-token-code-resend-code-link = Posta elektroniko kode berria.
 
 signin-totp-code-header = Hasi saioa
 signin-totp-code-subheader-v2 = Sartu bi urratseko autentifikazio kodea
+signin-totp-code-instruction-v4 = Egiaztatu zure <strong>autentifikazio-aplikazioa</strong> saioa hastea berresteko.
 signin-totp-code-input-label-v4 = Sartu 6 digituko kodea
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Berretsi
@@ -1752,10 +1789,15 @@ signin-totp-code-required-error = Autentifikazioa kodea beharrezkoa
 ## Page shown when signin has been blocked by rate limiting (too many requests)
 
 signin-unblock-header = Baimendu saio-hasiera hau
+# Where $email is the email address entered for the sign-in attempt
+signin-unblock-body = Begiratu zure posta elektronikoa { $email } helbidera bidalitako baimen-kodea.
 signin-unblock-code-input = Idatzi baimen-kodea
 signin-unblock-submit-button = Jarraitu
 # Shown when the user attempts to submit the form without including a code
 signin-unblock-code-required-error = Baimen-kodea behar da
+signin-unblock-code-incorrect-length = Baimen-kodeak 8 karaktere izan behar ditu
+signin-unblock-code-incorrect-format-2 = Baimen-kodeak letrak edota zenbakiak soilik izan ditzake
+signin-unblock-resend-code-button = Ez dago sarrera-ontzian edo spam karpetan? Bidali berriro
 signin-unblock-support-link = Zergatik ari da hau gertatzen?
 
 ## ConfirmSignupCode page
@@ -1766,6 +1808,12 @@ signin-unblock-support-link = Zergatik ari da hau gertatzen?
 
 # Page title show in browser title bar or page tab
 confirm-signup-code-page-title = Sartu baieztapen-kodea
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
+# can stand alone as "{ -product-mozilla-account }"
+confirm-signup-code-heading-2 = Sartu <span>zure { -product-mozilla-account }</span>ko  berrespen-kodea
+# { $email } represents the email that the user entered to sign in
+confirm-signup-code-instruction = Sartu { $email } helbidera bidalitako kodea 5 minututan.
 confirm-signup-code-input-label = Sartu 6 digituko kodea
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = Berretsi
@@ -1781,6 +1829,11 @@ confirm-signup-code-is-required-error = Berrespen kodea beharrezkoa da
 
 signup-heading = Ezarri zure pasahitza
 signup-heading-relay = Sortu pasahitz bat
+# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
+signup-pocket-info-banner = Zergatik sortu behar dut kontu hau?
+# Link included in a dismissible info banner that is only displayed to Pocket clients
+# Link leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
+signup-pocket-info-banner-link = Jakin hemen
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Aldatu helbide elektronikoa
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
