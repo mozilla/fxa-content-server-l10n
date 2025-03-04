@@ -1828,6 +1828,7 @@ confirm-signup-code-is-required-error = Berrespen kodea beharrezkoa da
 ## This is the second page of the sign up flow, users have already entered their email
 
 signup-heading = Ezarri zure pasahitza
+signup-relay-info = Pasahitz bat behar da maskaratutako mezu elektronikoak modu seguruan kudeatzeko eta { -brand-mozilla }-ren segurtasun-tresnetara atzitzeko.
 signup-heading-relay = Sortu pasahitz bat
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = Zergatik sortu behar dut kontu hau?
