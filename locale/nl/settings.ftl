@@ -866,6 +866,15 @@ recent-activity-account-password-changed = Wachtwoord gewijzigd
 recent-activity-account-secondary-email-added = Secundair e-mailadres toegevoegd
 recent-activity-account-secondary-email-removed = Secundair e-mailadres verwijderd
 recent-activity-account-emails-swapped = Primaire en secundaire e-mailadressen omgewisseld
+recent-activity-session-destroy = Afgemeld bij sessie
+recent-activity-account-recovery-phone-send-code = Hersteltelefooncode verzonden
+recent-activity-account-recovery-phone-setup-complete = Instellen hersteltelefoonnummer voltooid
+recent-activity-account-recovery-phone-signin-complete = Aanmelden met hersteltelefoonnummer voltooid
+recent-activity-account-recovery-phone-signin-failed = Aanmeld met hersteltelefoonnummer mislukt
+recent-activity-account-recovery-phone-removed = Hersteltelefoonnummer verwijderd
+recent-activity-account-recovery-codes-replaced = Herstelcodes vervangen
+recent-activity-account-recovery-codes-created = Herstelcodes aangemaakt
+recent-activity-account-recovery-codes-signin-complete = Aanmelden met herstelcodes voltooid
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Overige accountactiviteit
 
@@ -895,6 +904,8 @@ settings-recovery-phone-remove-success = Hersteltelefoonnummer verwijderd
 
 page-setup-recovery-phone-heading = Hersteltelefoonnummer toevoegen
 page-setup-recovery-phone-back-button-title = Terug naar instellingen
+# Back arrow to return to step 1 of recovery phone setup flow
+page-setup-recovery-phone-step2-back-button-title = Telefoonnummer wijzigen
 
 ## Add secondary email page
 
@@ -1042,6 +1053,8 @@ tfa-row-backup-codes-available-v2 =
         [one] { $numCodesAvailable } code resterend
        *[other] { $numCodesAvailable } codes resterend
     }
+# Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
+tfa-row-backup-codes-get-new-cta-v2 = Nieuwe codes aanmaken
 # Shown to users who have no backup authentication codes
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = Toevoegen
@@ -1050,6 +1063,8 @@ tfa-row-backup-codes-description-2 = Dit is de veiligste herstelmethode als u uw
 # Recovery phone is a recovery method for two-step authentication
 # A recovery code can be sent to the user's phone
 tfa-row-backup-phone-title-v2 = Hersteltelefoonnummer
+# Shown with an alert icon to indicate that no recovery phone is configured
+tfa-row-backup-phone-not-available-v2 = Geen telefoonnummer toegevoegd
 # button to change the configured recovery phone
 tfa-row-backup-phone-change-cta = Wijzigen
 # button to add/configure a recovery phone
@@ -1228,6 +1243,7 @@ auth-error-214 = Hersteltelefoonnummer bestaat al
 auth-error-215 = Hersteltelefoonnummer bestaat niet
 auth-error-216 = Sms-limiet bereikt
 auth-error-218 = Kan hersteltelefoonnummer niet verwijderen; reserve-authenticatiecodes ontbreken.
+auth-error-219 = Dit telefoonnummer is bij te veel accounts geregistreerd. Probeer een ander nummer.
 auth-error-999 = Onverwachte fout
 auth-error-1001 = Aanmeldingspoging geannuleerd
 auth-error-1002 = Sessie verlopen. Meld u aan om door te gaan.
@@ -1240,6 +1256,11 @@ auth-error-1032 = U moet een geldige leeftijd invoeren om te registreren
 auth-error-1054 = Ongeldige code voor authenticatie in twee stappen
 auth-error-1056 = Ongeldige reserve-authenticatiecode
 auth-error-1062 = Ongeldige omleiding
+# Displayed when we want to reference a user's previously set up recovery phone
+# number, but they are not completely signed in yet. We'll only show the last 4 digits.
+# Variables:
+#  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
+recovery-phone-number-ending-digits = Nummer eindigend op { $lastFourPhoneNumber }
 oauth-error-1000 = Er is iets misgegaan. Sluit dit tabblad en probeer het opnieuw.
 
 ## Cannot Create Account page
@@ -1713,6 +1734,9 @@ signin-recovery-code-use-phone-failure-description = Probeer het later opnieuw.
 signin-recovery-phone-flow-heading = Aanmelden
 # A recovery code in context of this page is a one time code sent to the user's phone
 signin-recovery-phone-heading = Voer herstelcode in
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+signin-recovery-phone-instruction-v3 = Er is per sms een 6-cijferige code verstuurd naar het telefoonnummer eindigend op <span>{ $lastFourPhoneDigits }</span>. Deze code verloopt na 5 minuten. Deel deze code met niemand.
 signin-recovery-phone-input-label = Voer 6-cijferige code in
 signin-recovery-phone-code-submit-button = Bevestigen
 signin-recovery-phone-resend-code-button = Code nogmaals versturen

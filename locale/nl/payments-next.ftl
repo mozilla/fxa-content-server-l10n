@@ -126,6 +126,7 @@ next-subscription-create-title = Uw abonnement instellen
 next-subscription-success-title = Abonnementsbevestiging
 next-subscription-processing-title = Abonnement bevestigen…
 next-subscription-error-title = Fout bij bevestigen abonnement…
+subscription-title-plan-change-heading = Uw wijziging bekijken
 next-sub-guarantee = 30-dagen-geldteruggarantie
 
 ## Component - TermsAndPrivacy
@@ -139,7 +140,17 @@ next-terms-download = Voorwaarden downloaden
 
 ## Component - UpdatedPurchaseDetails
 
+upgrade-purchase-details-current-plan-label = Huidig abonnement
+upgrade-purchase-details-new-plan-label = Nieuw abonnement
+upgrade-purchase-details-promo-code = Promotiecode
+upgrade-purchase-details-tax-label = Belastingen en heffingen
+upgrade-purchase-details-new-total-label = Nieuw totaalbedrag
+upgrade-purchase-details-prorated-upgrade = Naar rato upgrade
 
 ## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
 
+upgrade-purchase-details-new-plan-daily = { $productName } (dagelijks)
+upgrade-purchase-details-new-plan-weekly = { $productName } (wekelijks)
+upgrade-purchase-details-new-plan-monthly = { $productName } (maandelijks)
+upgrade-purchase-details-new-plan-yearly = { $productName } (jaarlijks)

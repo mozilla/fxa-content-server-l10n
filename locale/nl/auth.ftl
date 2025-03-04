@@ -12,6 +12,11 @@ recovery-phone-setup-sms-body = { $code } is uw { -brand-mozilla }-verificatieco
 # Messages should be limited to one segment
 # $code  - 6 digit code used to sign in with a recovery phone as backup for two-step authentication
 recovery-phone-signin-sms-body = { $code } is uw { -brand-mozilla }-herstelcode. Verloopt over 5 minuten.
+# Shorter message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to sign in with a recovery phone as backup for two-step authentication
+recovery-phone-signin-sms-short-body = { -brand-mozilla }-code: { $code }
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
@@ -368,6 +373,9 @@ postAddLinkedAccount-action = Account beheren
 postAddRecoveryPhone-subject = Hersteltelefoonnummer toegevoegd
 postAddRecoveryPhone-preview = Account beschermd door authenticatie in twee stappen
 postAddRecoveryPhone-title = U hebt een hersteltelefoonnummer aangemaakt
+# Variables:
+#  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
+postAddRecoveryPhone-description-v2 = U hebt { $maskedLastFourPhoneNumber } toegevoegd als uw hersteltelefoonnummer
 # Links out to a support article about two factor authentication
 postAddRecoveryPhone-how-protect = Hoe dit uw account beschermt
 postAddRecoveryPhone-how-protect-plaintext = Hoe dit uw account beschermt:
