@@ -1533,10 +1533,13 @@ third-party-auth-callback-message = Mesedez, itxaron, baimendutako aplikaziora b
 ## AccountRecoveryConfirmKey page
 
 account-recovery-confirm-key-heading = Sartu kontua berreskuratzeko gakoa
+account-recovery-confirm-key-instruction = Gako honek { -brand-firefox } zerbitzarietatik enkriptatutako nabigatze-datuak berreskuratzen ditu, hala nola pasahitzak eta laster-markak.
 # Prompts the user to enter their account recovery key
 # Account recovery key contains a mix of letters and numbers, no special characters
 account-recovery-confirm-key-input-label =
     .label = Sartu 32 karaktereko kontua berreskuratzeko gakoa
+# When setting up an account recovery key, users have the option of storing an account recovery key hint that is shown during password reset
+account-recovery-confirm-key-hint = Zure biltegiratzeko aholkua hau da:
 # Clicking this button checks if the recovery key provided by the user is correct and associated with their account
 account-recovery-confirm-key-button-2 = Jarraitu
 # Link that leads to the password reset page (without recovery code)
@@ -1557,6 +1560,7 @@ complete-reset-pw-recovery-key-link = Erabili kontua berreskuratzeko gakoa
 # A message informing the user that the password reset was successful and reminding them to create another recovery key
 # Displayed on the sign in page
 reset-password-complete-banner-heading = Pasahitza berrezarri da.
+reset-password-complete-banner-message = Ez ahaztu kontua berreskuratzeko gako berri bat sortzea { -product-mozilla-account } ezarpenetatik aurrera begira saioa hasteko arazoak saihesteko.
 
 ## Confirm Reset Password With Code
 
