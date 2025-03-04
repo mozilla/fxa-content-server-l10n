@@ -2,11 +2,26 @@
 
 session-verify-send-push-title-2 = Skrá þig inn á { -product-mozilla-account }?
 session-verify-send-push-body-2 = Smelltu hér til að staðfesta að þetta sért þú
+# Message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to verify phone ownership when registering a recovery phone
+recovery-phone-setup-sms-body = { $code } er { -brand-mozilla } staðfestingarkóðinn þinn. Hann rennur út eftir 5 mínútur.
 # Shorter message sent by SMS with limited character length, please test translation with the messaging segment calculator
 # https://twiliodeved.github.io/message-segment-calculator/
 # Messages should be limited to one segment
 # $code  - 6 digit code used to verify phone ownership when registering a recovery phone
 recovery-phone-setup-sms-short-body = { -brand-mozilla } staðfestingarkóði: { $code }
+# Message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to sign in with a recovery phone as backup for two-step authentication
+recovery-phone-signin-sms-body = { $code } er { -brand-mozilla } endurheimtukóðinn þinn. Hann rennur út eftir 5 mínútur.
+# Shorter message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to sign in with a recovery phone as backup for two-step authentication
+recovery-phone-signin-sms-short-body = { -brand-mozilla } kóði: { $code }
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
@@ -258,6 +273,7 @@ fraudulentAccountDeletion-contact-plaintext = Ef þú ert með einhverjar spurni
 inactiveAccountFinalWarning-subject = Síðasti séns til að halda { -product-mozilla-account }-reikningnum þínum
 inactiveAccountFinalWarning-title = { -brand-mozilla }-reikningnum þínum og tengdum gögnum verður eytt
 inactiveAccountFinalWarning-preview = Skráðu þig inn til að halda reikningnum þínum
+inactiveAccountFinalWarning-account-description = { -product-mozilla-account } er notað til að fá aðgang að ókeypis persónuverndar- og vafraþjónustu á borð við { -brand-firefox }-samstillingu, { -product-mozilla-monitor }, { -product-firefox-relay } og { -product-mdn }.
 # $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
 # This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
 inactiveAccountFinalWarning-impact = Þann <strong>{ $deletionDate }</strong> verður reikningnum þínum og persónulegum gögnum eytt varanlega nema þú skráir þig inn.
@@ -266,6 +282,7 @@ inactiveAccountFinalWarning-action = Skráðu þig inn til að halda reikningnum
 inactiveAccountFinalWarning-action-plaintext = Skráðu þig inn til að halda reikningnum þínum:
 inactiveAccountFirstWarning-subject = Ekki tapa reikningnum þínum
 inactiveAccountFirstWarning-title = Viltu halda { -brand-mozilla }-reikningnum þínum og tengdum gögnum?
+inactiveAccountFirstWarning-account-description-v2 = { -product-mozilla-account } er notað til að fá aðgang að ókeypis persónuverndar- og vafraþjónustu á borð við { -brand-firefox }-samstillingu, { -product-mozilla-monitor }, { -product-firefox-relay } og { -product-mdn }.
 inactiveAccountFirstWarning-inactive-status = Við höfum tekið eftir því að þú hefur ekki skráð þig inn í 2 ár.
 # $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
 # This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
@@ -276,6 +293,7 @@ inactiveAccountFirstWarning-preview = Skráðu þig inn til að halda reikningnu
 inactiveAccountFirstWarning-action-plaintext = Skráðu þig inn til að halda reikningnum þínum:
 inactiveAccountSecondWarning-subject = Aðgerðar krafist: Reikningi verður eytt eftir 7 daga
 inactiveAccountSecondWarning-title = { -brand-mozilla }-reikningnum þínum og tengdum gögnum verður eytt eftir 7 daga
+inactiveAccountSecondWarning-account-description-v2 = { -product-mozilla-account } er notað til að fá aðgang að ókeypis persónuverndar- og vafraþjónustu á borð við { -brand-firefox }-samstillingu, { -product-mozilla-monitor }, { -product-firefox-relay } og { -product-mdn }.
 # $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
 inactiveAccountSecondWarning-impact = Reikningnum þínum og persónulegum gögnum verður varanlega eytt þann <strong>{ $deletionDate }</strong> vegna þess að langt er síðan þú hefur notað þetta.
 inactiveAccountSecondWarning-action = Skráðu þig inn til að halda reikningnum þínum
@@ -360,6 +378,9 @@ postAddLinkedAccount-action = Sýsla með aðgang
 postAddRecoveryPhone-subject = Endurheimtusímanúmeri bætt við
 postAddRecoveryPhone-preview = Reikningur er varinn með tveggja-þrepa auðkenningu
 postAddRecoveryPhone-title = Þú útbjóst endurheimtusímanúmer
+# Variables:
+#  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
+postAddRecoveryPhone-description-v2 = Þú bættir { $maskedLastFourPhoneNumber } við sem endurheimtusímanúmeri
 # Links out to a support article about two factor authentication
 postAddRecoveryPhone-how-protect = Hvernig þetta verndar reikninginn þinn
 postAddRecoveryPhone-how-protect-plaintext = Hvernig þetta verndar reikninginn þinn:
@@ -409,6 +430,7 @@ postRemoveAccountRecovery-action = Sýsla með reikning
 postRemoveRecoveryPhone-subject = Endurheimtusímanúmer fjarlægt
 postRemoveRecoveryPhone-preview = Reikningur er varinn með tveggja-þrepa auðkenningu
 postRemoveRecoveryPhone-title = Endurheimtusímanúmer fjarlægt
+postRemoveRecoveryPhone-description = Endurheimtusímanúmerið þitt hefur verið fjarlægt úr stillingum tveggja-þrepa auðkenningarinnar þinnar. Þú átt enn vara-auðkenningnarkóðana þína tiltæka til notkunar.
 postRemoveRecoveryPhone-requested-device = Þú baðst um það frá:
 postRemoveSecondary-subject = Aukatölvupóstfang fjarlægt
 postRemoveSecondary-title = Aukatölvupóstfang fjarlægt

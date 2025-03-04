@@ -858,6 +858,10 @@ recent-activity-account-password-changed = Lykilorði breytt
 recent-activity-account-secondary-email-added = Aukapóstfangi bætt við
 recent-activity-account-secondary-email-removed = Aukatölvupóstfang fjarlægt
 recent-activity-account-emails-swapped = Skipt var um aðal- og aukatölvupóstföng
+recent-activity-session-destroy = Skráð út úr lotu
+recent-activity-account-recovery-phone-send-code = Kóði endurheimtarsíma sendur
+recent-activity-account-recovery-phone-setup-complete = Uppsetningu endurheimtusíma lokið
+recent-activity-account-recovery-phone-signin-complete = Innskráningu með endurheimtusíma lokið
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Önnur virkni á reikningi
 
@@ -876,6 +880,7 @@ recovery-phone-remove-header = Fjarlægja endurheimtusímanúmer
 # Variables:
 #   $formattedFullPhoneNumber (String) - the user's full phone number
 settings-recovery-phone-remove-info = Þetta mun fjarlægja <strong>{ $formattedFullPhoneNumber }</strong> sem endurheimtusímanúmer.
+settings-recovery-phone-remove-recommend = Við mælum með að þú haldir þig við þessa aðferð vegna þess að hún er auðveldari en að vista vara-auðkenningarkóða.
 settings-recovery-phone-remove-button = Fjarlægja símanúmer
 settings-recovery-phone-remove-cancel = Hætta við
 settings-recovery-phone-remove-success = Endurheimtusímanúmer fjarlægt
