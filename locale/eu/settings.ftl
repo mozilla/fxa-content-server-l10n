@@ -1565,6 +1565,9 @@ reset-password-complete-banner-message = Ez ahaztu kontua berreskuratzeko gako b
 ## Confirm Reset Password With Code
 
 confirm-reset-password-with-code-heading = Egiaztatu zure posta elektronikoa
+# Text within span appears in bold
+# $email - email address for which a password reset was requested
+confirm-reset-password-with-code-instruction = Berrespen-kode bat bidali dugu <span>{ $email }</span> helbidera.
 # Shown above a group of 8 single-digit input boxes
 # Only numbers allowed
 confirm-reset-password-code-input-group-label = Sartu 8 digituko kodea 10 minutuko epean
@@ -1580,6 +1583,7 @@ confirm-reset-password-otp-different-account-link = Erabili beste kontu bat
 
 confirm-totp-reset-password-header = Berrezarri pasahitza
 confirm-totp-reset-password-subheader-v2 = Sartu bi urratseko autentifikazio kodea
+confirm-totp-reset-password-instruction-v2 = Begiratu <strong>autentifikazio-aplikazioa</strong> pasahitza berrezartzeko.
 confirm-totp-reset-password-trouble-code = Arazoak kodea sartzean?
 confirm-totp-reset-password-confirm-button = Berretsi
 confirm-totp-reset-password-input-label-v2 = Sartu 6 digituko kodea
@@ -1590,6 +1594,9 @@ confirm-recovery-code-reset-password-trouble-code = Atzera
 ## ResetPassword start page
 
 password-reset-flow-heading = Berrezarri pasahitza
+password-reset-body-2 =
+    Zuk bakarrik dakizun gauza pare bat eskatuko dizugu 
+    zure kontua seguru mantentzeko.
 password-reset-email-input =
     .label = Idatzi zure helbide elektronikoa
 password-reset-submit-button-2 = Jarraitu
@@ -1601,6 +1608,7 @@ reset-password-complete-header = Zure pasahitza berrezarri egin da
 reset-password-confirmed-cta = Jarraitu { $serviceName } zerbitzura
 reset-password-with-recovery-key-verified-page-title = Pasahitza ondo berrezarri da
 reset-password-complete-new-password-saved = Pasahitz berria gorde da!
+reset-password-complete-recovery-key-created = Kontua berreskuratzeko gako berria sortu da. Deskargatu eta gorde ezazu orain.
 reset-password-complete-recovery-key-download-info =
     Gako hau ezinbestekoa da 
     datuak berreskuratzeko pasahitza ahazten baduzu. <b>Deskargatu eta gorde ezazu
@@ -1616,9 +1624,12 @@ validating-signin = Saio hasiera balioztatzen…
 complete-signin-error-header = Berrespen-errorea
 # The user followed a signin confirmation link, but that link is expired and no longer valid
 signin-link-expired-header = Berrespen-lotura iraungita
+signin-link-expired-message-2 = Sakatu duzun esteka iraungi egin da edo dagoeneko erabili da.
 
 ## Signin page
 
+# Strings within the <span> elements appear as a subheading.
+signin-password-needed-header-2 = Sartu <span>zure { -product-mozilla-account }</span> pasahitza
 # $serviceLogo - an image of the logo of the service which the user is authenticating for.
 # For languages structured like English, the phrase can read "to continue to"
 signin-subheader-with-logo = Jarraitu <span>{ $serviceLogo }</span>ra
@@ -1637,6 +1648,9 @@ signin-password-button-label = Pasahitza
 ## they can click "report it to us" if they did not attempt to sign in.
 ## This will be the page shown to users to block the sign in and report it.
 
+report-signin-link-damaged-body = Klik egin duzun loturak karaktereak falta ditu; agian zure posta-bezeroak hondatu du. Kopiatu helbidea kontuz eta saiatu berriro.
+report-signin-header = Baimenik gabeko saio-hasiera baten berri eman?
+report-signin-body = Mezu bat jaso duzu zure kontuan saio hasiera saiakera bati buruz. Aktibitate hau susmagarri gisa jakinarazi nahi duzu?
 report-signin-submit-button = Eman jardueraren berri
 report-signin-support-link = Zergatik ari da hau gertatzen?
 signin-bounced-header = Barkatu. Zure kontua blokeatu dugu.
