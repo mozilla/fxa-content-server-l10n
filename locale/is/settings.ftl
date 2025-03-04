@@ -862,6 +862,11 @@ recent-activity-session-destroy = Skráð út úr lotu
 recent-activity-account-recovery-phone-send-code = Kóði endurheimtarsíma sendur
 recent-activity-account-recovery-phone-setup-complete = Uppsetningu endurheimtusíma lokið
 recent-activity-account-recovery-phone-signin-complete = Innskráningu með endurheimtusíma lokið
+recent-activity-account-recovery-phone-signin-failed = Innskráning með endurheimtusíma mistókst
+recent-activity-account-recovery-phone-removed = Endurheimtusímanúmer fjarlægt
+recent-activity-account-recovery-codes-replaced = Skipt um endurheimtukóða
+recent-activity-account-recovery-codes-created = Endurheimtukóði útbúinn
+recent-activity-account-recovery-codes-signin-complete = Innskráningu með endurheimtukóða lokið
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Önnur virkni á reikningi
 
@@ -881,6 +886,8 @@ recovery-phone-remove-header = Fjarlægja endurheimtusímanúmer
 #   $formattedFullPhoneNumber (String) - the user's full phone number
 settings-recovery-phone-remove-info = Þetta mun fjarlægja <strong>{ $formattedFullPhoneNumber }</strong> sem endurheimtusímanúmer.
 settings-recovery-phone-remove-recommend = Við mælum með að þú haldir þig við þessa aðferð vegna þess að hún er auðveldari en að vista vara-auðkenningarkóða.
+# "Saved backup authentication codes" refers to previously saved backup authentication codes
+settings-recovery-phone-remove-recovery-methods = Ef þú eyðir þessu skaltu ganga úr skugga um að þú sért enn með vistaða vara-auðkenningarkóða. <linkExternal>Bera saman endurheimtuaðferðir</linkExternal>
 settings-recovery-phone-remove-button = Fjarlægja símanúmer
 settings-recovery-phone-remove-cancel = Hætta við
 settings-recovery-phone-remove-success = Endurheimtusímanúmer fjarlægt
@@ -889,6 +896,8 @@ settings-recovery-phone-remove-success = Endurheimtusímanúmer fjarlægt
 
 page-setup-recovery-phone-heading = Bæta við endurheimtusímanúmeri
 page-setup-recovery-phone-back-button-title = Til baka í stillingar
+# Back arrow to return to step 1 of recovery phone setup flow
+page-setup-recovery-phone-step2-back-button-title = Skipta um símanúmer
 
 ## Add secondary email page
 
