@@ -1653,15 +1653,21 @@ report-signin-header = Baimenik gabeko saio-hasiera baten berri eman?
 report-signin-body = Mezu bat jaso duzu zure kontuan saio hasiera saiakera bati buruz. Aktibitate hau susmagarri gisa jakinarazi nahi duzu?
 report-signin-submit-button = Eman jardueraren berri
 report-signin-support-link = Zergatik ari da hau gertatzen?
+report-signin-error = Arazo bat izan da txostena bidaltzean.
 signin-bounced-header = Barkatu. Zure kontua blokeatu dugu.
 # $email (string) - The user's email.
 signin-bounced-message = { $email } helbidera bidali zen berrespen mezua itzuli egin zen eta zure kontua blokeatu dugu zure { -brand-firefox } datuak babesteko.
+# linkExternal is button which logs the user's action and navigates them to mozilla support
+signin-bounced-help = Helbide elektroniko hau baliozkoa bada, <linkExternal>esaguzu</linkExternal> eta zure kontua desblokeatzen lagunduko dizugu.
 signin-bounced-create-new-account = Helbide elektronikoa ez da jada zurea? Sortu kontu berri bat
 back = Atzera
 
 ## SigninPushCode page
 ## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
 
+signin-push-code-heading-w-default-service = Egiaztatu saio-hasiera hau <span>kontuaren ezarpenetara jarraitzeko</span>
+signin-push-code-heading-w-custom-service = Egiaztatu saio-hasiera hau <span>{ $serviceName }</span>-n jarraitzeko
+signin-push-code-instruction = Egiaztatu zure beste gailuak eta onartu saio-hasiera hau zure { -brand-firefox } nabigatzailetik.
 
 ## SigninPushCodeConfirmPage
 
