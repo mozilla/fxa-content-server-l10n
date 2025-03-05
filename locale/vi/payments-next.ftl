@@ -145,6 +145,7 @@ upgrade-purchase-details-new-plan-label = Gói mới
 upgrade-purchase-details-promo-code = Mã khuyến mãi
 upgrade-purchase-details-tax-label = Thuế và phí
 upgrade-purchase-details-new-total-label = Tổng mới
+upgrade-purchase-details-prorated-upgrade = Nâng cấp theo tỷ lệ
 
 ## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
