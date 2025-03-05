@@ -139,7 +139,13 @@ next-terms-download = Λήψη όρων
 
 ## Component - UpdatedPurchaseDetails
 
+upgrade-purchase-details-new-total-label = Νέο σύνολο
+upgrade-purchase-details-prorated-upgrade = Αναλογική αναβάθμιση
 
 ## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
 
+upgrade-purchase-details-new-plan-daily = { $productName } (Ημερησίως)
+upgrade-purchase-details-new-plan-weekly = { $productName } (Εβδομαδιαία)
+upgrade-purchase-details-new-plan-monthly = { $productName } (Μηνιαία)
+upgrade-purchase-details-new-plan-yearly = { $productName } (Ετησίως)

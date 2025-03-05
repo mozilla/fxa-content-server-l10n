@@ -501,9 +501,6 @@ connect-another-play-store-image =
 connect-another-app-store-image-2 =
     .title = Λήψη του { -brand-firefox } στο { -app-store }
 
-##
-
-
 ## Connected services section
 
 cs-heading = Συνδεδεμένες υπηρεσίες
@@ -554,9 +551,6 @@ cs-disconnect-suspicious-advice-content-2 =
     Αν η αποσυνδεδεμένη συσκευή είναι πράγματι ύποπτη, θα πρέπει να αλλάξετε τον κωδικό πρόσβασης του
     { -product-mozilla-account(case: "gen", capitalization: "lower") } σας, για την προστασία των δεδομένων σας. Θα πρέπει επίσης να αλλάξετε όλους τους άλλους αποθηκευμένους κωδικούς πρόσβασης του { -brand-firefox } στη σελίδα «about:logins».
 cs-sign-out-button = Αποσύνδεση
-
-##
-
 
 ## Data collection section
 
@@ -752,9 +746,6 @@ avatar-page-file-upload-error-3 = Προέκυψε πρόβλημα κατά τ�
 avatar-page-delete-error-3 = Προέκυψε πρόβλημα κατά τη διαγραφή της εικόνας του προφίλ σας
 avatar-page-image-too-large-error-2 = Το μέγεθος του αρχείου εικόνας είναι πολύ μεγάλο για μεταφόρτωση
 
-##
-
-
 ## Password change page
 
 pw-change-header =
@@ -776,18 +767,12 @@ pw-change-confirm-password =
     .label = Επιβεβαίωση νέου κωδικού πρόσβασης
 pw-change-success-alert-2 = Ο κωδικός πρόσβασης ενημερώθηκε
 
-##
-
-
 ## Password create page
 
 pw-create-header =
     .title = Δημιουργία κωδικού πρόσβασης
 pw-create-success-alert-2 = Ο κωδικός πρόσβασης ορίστηκε
 pw-create-error-2 = Δυστυχώς, προέκυψε πρόβλημα κατά τον ορισμό του κωδικού πρόσβασής σας
-
-##
-
 
 ## Delete account page
 
@@ -822,9 +807,6 @@ pocket-delete-notice-marketing = Για να διακόψετε τη λήψη δ
 delete-account-cancel-button = Ακύρωση
 delete-account-delete-button-2 = Διαγραφή
 
-##
-
-
 ## Display name page
 
 display-name-page-title =
@@ -835,9 +817,6 @@ submit-display-name = Αποθήκευση
 cancel-display-name = Ακύρωση
 display-name-update-error-2 = Προέκυψε πρόβλημα κατά την ενημέρωση του εμφανιζόμενου ονόματός σας
 display-name-success-alert-2 = Το εμφανιζόμενο όνομα ενημερώθηκε
-
-##
-
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
@@ -907,6 +886,8 @@ settings-recovery-phone-remove-success = Το τηλέφωνο ανάκτηση�
 
 page-setup-recovery-phone-heading = Προσθήκη τηλεφώνου ανάκτησης
 page-setup-recovery-phone-back-button-title = Πίσω στις ρυθμίσεις
+# Back arrow to return to step 1 of recovery phone setup flow
+page-setup-recovery-phone-step2-back-button-title = Αλλαγή αριθμού τηλεφώνου
 
 ## Add secondary email page
 
@@ -989,9 +970,6 @@ tfa-enter-code-to-confirm-setup = Πληκτρολογήστε έναν από �
 tfa-enter-recovery-code-1 =
     .label = Εισαγάγετε έναν εφεδρικό κωδικό ταυτοποίησης
 
-##
-
-
 ## Product promotion
 
 product-promo-monitor =
@@ -1012,9 +990,6 @@ profile-display-name =
     .header = Εμφανιζόμενο όνομα
 profile-primary-email =
     .header = Κύριο email
-
-##
-
 
 ## Progress bar
 
@@ -1054,6 +1029,8 @@ tfa-row-backup-codes-available-v2 =
         [one] Απομένει { $numCodesAvailable } κωδικός
        *[other] Απομένουν { $numCodesAvailable } κωδικοί
     }
+# Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
+tfa-row-backup-codes-get-new-cta-v2 = Δημιουργία νέων κωδικών
 # Shown to users who have no backup authentication codes
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = Προσθήκη
@@ -1154,9 +1131,6 @@ se-content-note-1 =
     σκοπό αυτό, θα χρειαστείτε ένα <a>κλειδί ανάκτησης λογαριασμού</a>.
 # Default value for the secondary email
 se-secondary-email-none = Κανένα
-
-##
-
 
 ## Two Step Auth sub-section on Settings main page
 
