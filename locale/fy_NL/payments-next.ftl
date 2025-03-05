@@ -126,6 +126,7 @@ next-subscription-create-title = Jo abonnemint ynstelle
 next-subscription-success-title = Abonnemintsbefêstiging
 next-subscription-processing-title = Abonnemint befêstigje…
 next-subscription-error-title = Flater by befêstigjen abonnemint…
+subscription-title-plan-change-heading = Jo wiziging besjen
 next-sub-guarantee = 30-dagen-jildweromgarânsje
 
 ## Component - TermsAndPrivacy
@@ -139,7 +140,17 @@ next-terms-download = Betingsten downloade
 
 ## Component - UpdatedPurchaseDetails
 
+upgrade-purchase-details-current-plan-label = Aktuele abonnemint
+upgrade-purchase-details-new-plan-label = Nij abonnemint
+upgrade-purchase-details-promo-code = Promoasjekoade
+upgrade-purchase-details-tax-label = Belestingen en heffingen
+upgrade-purchase-details-new-total-label = Nij totaalbedrach
+upgrade-purchase-details-prorated-upgrade = Nei rato opwurdearje
 
 ## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
 
+upgrade-purchase-details-new-plan-daily = { $productName } (deistich)
+upgrade-purchase-details-new-plan-weekly = { $productName } (wykliks)
+upgrade-purchase-details-new-plan-monthly = { $productName } (moanliks)
+upgrade-purchase-details-new-plan-yearly = { $productName } (jierliks)
