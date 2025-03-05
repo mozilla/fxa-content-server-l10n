@@ -126,6 +126,7 @@ next-subscription-create-title = Ρύθμιση συνδρομής
 next-subscription-success-title = Επιβεβαίωση συνδρομής
 next-subscription-processing-title = Επιβεβαίωση συνδρομής…
 next-subscription-error-title = Σφάλμα επιβεβαίωσης συνδρομής…
+subscription-title-plan-change-heading = Ελέγξτε την αλλαγή σας
 next-sub-guarantee = Εγγύηση επιστροφής χρημάτων 30 ημερών
 
 ## Component - TermsAndPrivacy
@@ -139,6 +140,10 @@ next-terms-download = Λήψη όρων
 
 ## Component - UpdatedPurchaseDetails
 
+upgrade-purchase-details-current-plan-label = Τρέχον πρόγραμμα
+upgrade-purchase-details-new-plan-label = Νέο πρόγραμμα
+upgrade-purchase-details-promo-code = Κωδικός προσφοράς
+upgrade-purchase-details-tax-label = Φόροι και τέλη
 upgrade-purchase-details-new-total-label = Νέο σύνολο
 upgrade-purchase-details-prorated-upgrade = Αναλογική αναβάθμιση
 

@@ -1039,6 +1039,8 @@ tfa-row-backup-codes-description-2 = Αυτή είναι η πιο ασφαλή�
 # Recovery phone is a recovery method for two-step authentication
 # A recovery code can be sent to the user's phone
 tfa-row-backup-phone-title-v2 = Τηλέφωνο ανάκτησης
+# Shown with an alert icon to indicate that no recovery phone is configured
+tfa-row-backup-phone-not-available-v2 = Δεν έχει προστεθεί αριθμός τηλεφώνου
 # button to change the configured recovery phone
 tfa-row-backup-phone-change-cta = Αλλαγή
 # button to add/configure a recovery phone

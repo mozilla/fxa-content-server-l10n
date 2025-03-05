@@ -7,11 +7,21 @@ session-verify-send-push-body-2 = Κάντε κλικ εδώ για να επι�
 # Messages should be limited to one segment
 # $code  - 6 digit code used to verify phone ownership when registering a recovery phone
 recovery-phone-setup-sms-body = Κωδικός επαλήθευσης για τη { -brand-mozilla }: { $code }. Λήγει σε 5 λεπτά.
+# Shorter message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to verify phone ownership when registering a recovery phone
+recovery-phone-setup-sms-short-body = Κωδικός επαλήθευσης από τη { -brand-mozilla }: { $code }
 # Message sent by SMS with limited character length, please test translation with the messaging segment calculator
 # https://twiliodeved.github.io/message-segment-calculator/
 # Messages should be limited to one segment
 # $code  - 6 digit code used to sign in with a recovery phone as backup for two-step authentication
 recovery-phone-signin-sms-body = Κωδικός ανάκτησης για τη { -brand-mozilla }: { $code }. Λήγει σε 5 λεπτά.
+# Shorter message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to sign in with a recovery phone as backup for two-step authentication
+recovery-phone-signin-sms-short-body = Κωδικός από τη { -brand-mozilla }: { $code }
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
