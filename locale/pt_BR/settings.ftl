@@ -501,9 +501,6 @@ connect-another-play-store-image =
 connect-another-app-store-image-2 =
     .title = Instale o { -brand-firefox } a partir da { -app-store }
 
-##
-
-
 ## Connected services section
 
 cs-heading = Serviços conectados
@@ -548,9 +545,6 @@ cs-disconnect-lost-advice-content-3 = Como seu dispositivo foi perdido ou roubad
 cs-disconnect-suspicious-advice-heading = Desconectado dispositivo suspeito
 cs-disconnect-suspicious-advice-content-2 = Se o dispositivo desconectado for de fato suspeito, para manter suas informações seguras, você deve alterar a senha da sua { -product-mozilla-account } nas configurações da conta. Também deve alterar todas as outras senhas salvas no { -brand-firefox } digitando about:login na barra de endereços.
 cs-sign-out-button = Desconectar
-
-##
-
 
 ## Data collection section
 
@@ -740,9 +734,6 @@ avatar-page-file-upload-error-3 = Houve um problema ao enviar sua foto de perfil
 avatar-page-delete-error-3 = Houve um problema ao excluir sua foto de perfil
 avatar-page-image-too-large-error-2 = O arquivo de imagem é grande demais para ser enviado
 
-##
-
-
 ## Password change page
 
 pw-change-header =
@@ -764,18 +755,12 @@ pw-change-confirm-password =
     .label = Confirme a nova senha
 pw-change-success-alert-2 = Senha atualizada
 
-##
-
-
 ## Password create page
 
 pw-create-header =
     .title = Criar senha
 pw-create-success-alert-2 = Senha definida
 pw-create-error-2 = Desculpe, houve um problema ao definir sua senha
-
-##
-
 
 ## Delete account page
 
@@ -810,9 +795,6 @@ pocket-delete-notice-marketing = Para parar de receber emails de marketing da Mo
 delete-account-cancel-button = Cancelar
 delete-account-delete-button-2 = Excluir
 
-##
-
-
 ## Display name page
 
 display-name-page-title =
@@ -823,9 +805,6 @@ submit-display-name = Salvar
 cancel-display-name = Cancelar
 display-name-update-error-2 = Houve um problema ao atualizar seu nome de exibição
 display-name-success-alert-2 = Nome de exibição atualizado
-
-##
-
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
@@ -895,6 +874,8 @@ settings-recovery-phone-remove-success = Celular de recuperação de conta remov
 
 page-setup-recovery-phone-heading = Adicionar celular de recuperação de conta
 page-setup-recovery-phone-back-button-title = Voltar às configurações
+# Back arrow to return to step 1 of recovery phone setup flow
+page-setup-recovery-phone-step2-back-button-title = Alterar número de celular
 
 ## Add secondary email page
 
@@ -971,9 +952,6 @@ tfa-enter-code-to-confirm-setup = Confirme que você salvou seus códigos digita
 tfa-enter-recovery-code-1 =
     .label = Digite um código de autenticação de backup
 
-##
-
-
 ## Product promotion
 
 product-promo-monitor =
@@ -994,9 +972,6 @@ profile-display-name =
     .header = Nome de exibição
 profile-primary-email =
     .header = Email principal
-
-##
-
 
 ## Progress bar
 
@@ -1036,6 +1011,8 @@ tfa-row-backup-codes-available-v2 =
         [one] { $numCodesAvailable } códigos restante
        *[other] { $numCodesAvailable } códigos restantes
     }
+# Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
+tfa-row-backup-codes-get-new-cta-v2 = Criar novos códigos
 # Shown to users who have no backup authentication codes
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = Adicionar
@@ -1044,6 +1021,8 @@ tfa-row-backup-codes-description-2 = Este é o método de recuperação mais seg
 # Recovery phone is a recovery method for two-step authentication
 # A recovery code can be sent to the user's phone
 tfa-row-backup-phone-title-v2 = Celular de recuperação de conta
+# Shown with an alert icon to indicate that no recovery phone is configured
+tfa-row-backup-phone-not-available-v2 = Nenhum número de celular adicionado
 # button to change the configured recovery phone
 tfa-row-backup-phone-change-cta = Alterar
 # button to add/configure a recovery phone
@@ -1130,9 +1109,6 @@ se-default-content = Acesse sua conta se você não conseguir entrar no seu emai
 se-content-note-1 = Nota: Usar um email secundário não restaura suas informações, você precisa de uma <a>chave de recuperação de conta</a> para isso.
 # Default value for the secondary email
 se-secondary-email-none = Nenhum
-
-##
-
 
 ## Two Step Auth sub-section on Settings main page
 

@@ -139,6 +139,12 @@ next-terms-download = Baixar termos
 
 ## Component - UpdatedPurchaseDetails
 
+upgrade-purchase-details-current-plan-label = Plano atual
+upgrade-purchase-details-new-plan-label = Novo plano
+upgrade-purchase-details-promo-code = Código promocional
+upgrade-purchase-details-tax-label = Impostos e taxas
+upgrade-purchase-details-new-total-label = Novo total
+upgrade-purchase-details-prorated-upgrade = Mudança proporcional
 
 ## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
