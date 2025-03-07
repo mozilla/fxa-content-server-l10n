@@ -126,6 +126,7 @@ next-subscription-create-title = Configurar assinatura
 next-subscription-success-title = Confirmação de assinatura
 next-subscription-processing-title = Confirmando assinatura…
 next-subscription-error-title = Erro ao confirmar assinatura…
+subscription-title-plan-change-heading = Confira sua alteração
 next-sub-guarantee = Garantia de devolução do dinheiro em 30 dias
 
 ## Component - TermsAndPrivacy
