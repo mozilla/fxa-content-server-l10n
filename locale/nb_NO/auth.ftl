@@ -2,6 +2,26 @@
 
 session-verify-send-push-title-2 = Logger du inn på { -product-mozilla-account }-en din?
 session-verify-send-push-body-2 = Klikk her for å bekrefte at det er deg
+# Message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to verify phone ownership when registering a recovery phone
+recovery-phone-setup-sms-body = { $code } er din { -brand-mozilla }-bekreftelseskode. Utløper om 5 minutter.
+# Shorter message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to verify phone ownership when registering a recovery phone
+recovery-phone-setup-sms-short-body = { -brand-mozilla }-bekreftelseskode: { $code }
+# Message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to sign in with a recovery phone as backup for two-step authentication
+recovery-phone-signin-sms-body = { $code } er din { -brand-mozilla }-gjenopprettingskode. Utløper om 5 minutter.
+# Shorter message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to sign in with a recovery phone as backup for two-step authentication
+recovery-phone-signin-sms-short-body = { -brand-mozilla }-kode: { $code }
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
@@ -49,6 +69,9 @@ subplat-legal = Juridisk
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Personvern
 subplat-privacy-website-plaintext = { subplat-privacy }:
+account-deletion-info-block-communications = Hvis kontoen din slettes, vil du fortsatt motta e-poster fra Mozilla Corporation og Mozilla Foundation, med mindre du <a data-l10n-name="unsubscribeLink">ber om å avslutte abonnementet</a>.
+account-deletion-info-block-support = Hvis du har spørsmål eller trenger hjelp, kan du gjerne kontakte <a data-l10n-name="supportLink">støtteteamet</a> vårt.
+account-deletion-info-block-communications-plaintext = Hvis kontoen din slettes, vil du fortsatt motta e-poster fra Mozilla Corporation og Mozilla Foundation, med mindre du ber om å avslutte abonnementet:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-android-badge = <img data-l10n-name="google-play-badge" alt="Last ned { $productName } i { -google-play }">
@@ -242,7 +265,35 @@ fraudulentAccountDeletion-contact = Hvis du har spørsmål, så kontakt <a data-
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Hvis du har spørsmål, så kontakt support-teamet vårt: { $mozillaSupportUrl }
+inactiveAccountFinalWarning-title = Din { -brand-mozilla }-konto og data vil bli slettet
 inactiveAccountFinalWarning-preview = Logg inn for å beholde kontoen din
+inactiveAccountFinalWarning-account-description = Din { -product-mozilla-account } brukes til å få tilgang til gratis personvern- og surfeprodukter som { -brand-firefox } sync, { -product-mozilla-monitor }, { -product-firefox-relay } og { -product-mdn }.
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+# This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
+inactiveAccountFinalWarning-impact = På <strong>{ $deletionDate }</strong> vil kontoen din og dine personlige data bli slettet permanent med mindre du logger inn.
+inactiveAccountFinalWarning-action = Logg inn for å beholde kontoen din
+# followed by link to sign in
+inactiveAccountFinalWarning-action-plaintext = Logg inn for å beholde kontoen din:
+inactiveAccountFirstWarning-subject = Mist ikke kontoen din
+inactiveAccountFirstWarning-title = Vil du beholde { -brand-mozilla }-kontoen og dine data?
+inactiveAccountFirstWarning-account-description-v2 = Din { -product-mozilla-account } brukes til å få tilgang til gratis personvern- og surfeprodukter som { -brand-firefox } sync, { -product-mozilla-monitor }, { -product-firefox-relay } og { -product-mdn }.
+inactiveAccountFirstWarning-inactive-status = Vi la merke til at du ikke har logget inn på 2 år.
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+# This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
+inactiveAccountFirstWarning-impact = Kontoen din og dine personlige data blir permanent slettet <strong>{ $deletionDate }</strong> fordi du ikke har vært aktiv.
+inactiveAccountFirstWarning-action = Logg inn for å beholde kontoen din
+inactiveAccountFirstWarning-preview = Logg inn for å beholde kontoen din
+# followed by link to sign in
+inactiveAccountFirstWarning-action-plaintext = Logg inn for å beholde kontoen din:
+inactiveAccountSecondWarning-subject = Handling kreves: Sletting av kontoen om 7 dager
+inactiveAccountSecondWarning-title = Din { -brand-mozilla }-konto og data vil bli slettet om 7 dager
+inactiveAccountSecondWarning-account-description-v2 = Din { -product-mozilla-account } brukes til å få tilgang til gratis personvern- og surfeprodukter som { -brand-firefox } sync, { -product-mozilla-monitor }, { -product-firefox-relay } og { -product-mdn }.
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+inactiveAccountSecondWarning-impact = Kontoen din og dine personlige data blir permanent slettet <strong>{ $deletionDate }</strong> fordi du ikke har vært aktiv.
+inactiveAccountSecondWarning-action = Logg inn for å beholde kontoen din
+inactiveAccountSecondWarning-preview = Logg inn for å beholde kontoen din
+# followed by link to sign in
+inactiveAccountSecondWarning-action-plaintext = Logg inn for å beholde kontoen din:
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title-zero = Du er tom for reserve-autentiseringskoder!
 codes-reminder-title-one = Du har kun én reserve-autentiseringskode igjen
@@ -283,7 +334,10 @@ passwordChangeRequired-different-password-plaintext = Viktig: Velg et annet pass
 password-forgot-otp-subject = Glemt passord ditt?
 password-forgot-otp-title = Glemt passord ditt?
 password-forgot-otp-request = Vi mottok en forespørsel om passordendring på din { -product-mozilla-account } fra:
+password-forgot-otp-code-2 = Hvis dette var deg, her er bekreftelseskoden for å fortsette:
 password-forgot-otp-expiry-notice = Denne koden utløper om 10 minutter.
+passwordReset-subject-2 = Passordet ditt har blitt tilbakestilt
+passwordReset-title-2 = Passordet ditt har blitt tilbakestilt
 passwordResetAccountRecovery-subject-2 = Passordet ditt er tilbakestilt
 postAddAccountRecovery-subject-3 = Ny kontogjenopprettingsnøkkel opprettet
 postAddAccountRecovery-title2 = Du opprettet en ny kontogjenopprettingsnøkkel
