@@ -501,9 +501,6 @@ connect-another-play-store-image =
 connect-another-app-store-image-2 =
     .title = Download { -brand-firefox } op { -app-store }
 
-##
-
-
 ## Connected services section
 
 cs-heading = Ferbûne tsjinsten
@@ -556,9 +553,6 @@ cs-disconnect-suspicious-advice-content-2 =
     As it ûntkeppele apparaat yndied fertocht is, moatte jo, om jo gegevens feilich te hâlden, it wachtwurd fan jo { -product-mozilla-account }
     wizigje yn jo accountynstellingen. Jo kinne it beste ek alle oare wachtwurden dy’t jo yn { -brand-firefox } bewarre hawwe wizigje troch yn de adresbalke about:logins yn te typen.
 cs-sign-out-button = Ofmelde
-
-##
-
 
 ## Data collection section
 
@@ -753,9 +747,6 @@ avatar-page-file-upload-error-3 = Der is in probleem bard wylst it opladen fan j
 avatar-page-delete-error-3 = Der is in probleem bard by it fuortsmiten fan jo profylôfbylding
 avatar-page-image-too-large-error-2 = De ôfbyldingbestângrutte is te grut om op te laden
 
-##
-
-
 ## Password change page
 
 pw-change-header =
@@ -777,18 +768,12 @@ pw-change-confirm-password =
     .label = Befêstigje nij wachtwurd
 pw-change-success-alert-2 = Wachtwurd bywurke
 
-##
-
-
 ## Password create page
 
 pw-create-header =
     .title = Wachtwurd oanmeitsje
 pw-create-success-alert-2 = Wachtwurd ynsteld
 pw-create-error-2 = Sorry, der is in probleem bard by it ynstellen fan jo wachtwurd
-
-##
-
 
 ## Delete account page
 
@@ -823,9 +808,6 @@ pocket-delete-notice-marketing = Om gjin marketingberjochten fan Mozilla Corpora
 delete-account-cancel-button = Annulearje
 delete-account-delete-button-2 = Fuortsmite
 
-##
-
-
 ## Display name page
 
 display-name-page-title =
@@ -836,9 +818,6 @@ submit-display-name = Bewarje
 cancel-display-name = Annulearje
 display-name-update-error-2 = Der is in probleem bard by it bywurkjen fan jo skermnamme
 display-name-success-alert-2 = Skermnamme bywurke
-
-##
-
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
@@ -870,6 +849,15 @@ recent-activity-account-password-changed = Wachtwurd wizige
 recent-activity-account-secondary-email-added = Sekundêr e-mailadres tafoege
 recent-activity-account-secondary-email-removed = Sekundêr e-mailadres fuortsmiten
 recent-activity-account-emails-swapped = Primêre en sekundêre e-mailadressen wiksele
+recent-activity-session-destroy = Ofmeld by sesje
+recent-activity-account-recovery-phone-send-code = Wersteltelefoankoade ferstjoerd
+recent-activity-account-recovery-phone-setup-complete = Ynstellen wersteltelefoannûmer foltôge
+recent-activity-account-recovery-phone-signin-complete = Oanmelden mei wersteltelefoannûmer foltôge
+recent-activity-account-recovery-phone-signin-failed = Oanmelding mei wersteltelefoannûmer mislearre
+recent-activity-account-recovery-phone-removed = Wersteltelefoannûmer fuortsmiten
+recent-activity-account-recovery-codes-replaced = Werstelkoaden ferfongen
+recent-activity-account-recovery-codes-created = Werstelkoaden oanmakke
+recent-activity-account-recovery-codes-signin-complete = Oanmelden mei werstelkoaden foltôge
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Oare accountaktiviteit
 
@@ -899,6 +887,8 @@ settings-recovery-phone-remove-success = Wersteltelefoannûmer fuortsmiten
 
 page-setup-recovery-phone-heading = Wersteltelefoannûmer tafoegje
 page-setup-recovery-phone-back-button-title = Tebek nei ynstellingen
+# Back arrow to return to step 1 of recovery phone setup flow
+page-setup-recovery-phone-step2-back-button-title = Telefoannûmer wizigje
 
 ## Add secondary email page
 
@@ -981,9 +971,6 @@ tfa-enter-code-to-confirm-setup = Befêstigje dat jo jo koaden bewarre hawwe tro
 tfa-enter-recovery-code-1 =
     .label = Fier in reserve-autentikaasjekoade yn
 
-##
-
-
 ## Product promotion
 
 product-promo-monitor =
@@ -1004,9 +991,6 @@ profile-display-name =
     .header = Werjeftenamme
 profile-primary-email =
     .header = Primêr e-mailadres
-
-##
-
 
 ## Progress bar
 
@@ -1047,7 +1031,7 @@ tfa-row-backup-codes-available-v2 =
        *[other] { $numCodesAvailable } koaden restearjend
     }
 # Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
-tfa-row-backup-codes-get-new-cta = Nije koaden krije
+tfa-row-backup-codes-get-new-cta-v2 = Nije koaden oanmeitsje
 # Shown to users who have no backup authentication codes
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = Tafoegje
@@ -1057,7 +1041,7 @@ tfa-row-backup-codes-description-2 = Dit is de feilichste werstelmetoade as jo j
 # A recovery code can be sent to the user's phone
 tfa-row-backup-phone-title-v2 = Wersteltelefoannûmer
 # Shown with an alert icon to indicate that no recovery phone is configured
-tfa-row-backup-phone-not-available = Gjin wersteltelefoannûmer beskikber
+tfa-row-backup-phone-not-available-v2 = Gjin telefoannûmer tafoege
 # button to change the configured recovery phone
 tfa-row-backup-phone-change-cta = Wizigje
 # button to add/configure a recovery phone
@@ -1151,9 +1135,6 @@ se-content-note-1 =
 # Default value for the secondary email
 se-secondary-email-none = Gjin
 
-##
-
-
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Autentikaasje yn twa stappen
@@ -1236,6 +1217,7 @@ auth-error-214 = Wersteltelefoannûmer bestiet al
 auth-error-215 = Wersteltelefoannûmer bestiet net
 auth-error-216 = SMS-limyt berikt
 auth-error-218 = Kin wersteltelefoannûmer net fuortsmite, reservekopy-autentikaasjekoaden ûntbrekke.
+auth-error-219 = Dit telefoannûmer is by tefolle accounts registrearre. Probearje in oar nûmer.
 auth-error-999 = Unferwachte flater
 auth-error-1001 = Oanmeldbesykjen annulearre
 auth-error-1002 = Sesje ferrûn. Meld jo oan om troch te gean.
@@ -1248,6 +1230,11 @@ auth-error-1032 = Jo moatte in jildige leeftiid ynfiere om te registrearjen
 auth-error-1054 = Unjildige koade foar autentikaasje yn twa stappen
 auth-error-1056 = Unjildige reserve-autentikaasjekoade
 auth-error-1062 = Unjildige trochferwizing
+# Displayed when we want to reference a user's previously set up recovery phone
+# number, but they are not completely signed in yet. We'll only show the last 4 digits.
+# Variables:
+#  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
+recovery-phone-number-ending-digits = Nûmer dat einiget op { $lastFourPhoneNumber }
 oauth-error-1000 = Der is wat misgien. Slút dit ljepblêd en probearje it opnij.
 
 ## Cannot Create Account page
@@ -1721,6 +1708,9 @@ signin-recovery-code-use-phone-failure-description = Probearje it letter noch ri
 signin-recovery-phone-flow-heading = Oanmelde
 # A recovery code in context of this page is a one time code sent to the user's phone
 signin-recovery-phone-heading = Fier werstelkoade yn
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+signin-recovery-phone-instruction-v3 = Der is per sms in 6-siferige koade ferstjoerd nei it telefoannûmer einigjend op <span>{ $lastFourPhoneDigits }</span>. Dizze koade ferrint nei 5 minuten. Diel dizze koade mei net ien.
 signin-recovery-phone-input-label = Fier 6-siferige koade yn
 signin-recovery-phone-code-submit-button = Befêstigje
 signin-recovery-phone-resend-code-button = Koade nochris ferstjoere
