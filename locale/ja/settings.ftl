@@ -434,6 +434,7 @@ dc-heading = データの収集と使用
 dc-subheader-moz-accounts = { -product-mozilla-accounts }
 dc-subheader-ff-browser = { -brand-firefox } ブラウザー
 dc-subheader-content-2 = { -product-mozilla-accounts } が技術データと対話データを { -brand-mozilla } へ送信することを許可する
+dc-subheader-ff-content = { -brand-firefox } ブラウザーの技術データと対話データの設定は、{ -brand-firefox } の設定を開いて「プライバシーとセキュリティ」から確認できます。
 dc-opt-out-success-2 = オプトアウトが完了しました。{ -product-mozilla-accounts }が技術データと対話データを { -brand-mozilla } へ送信しないように設定を変更しました。
 dc-opt-in-success-2 = ご協力ありがとうございます。このデータを共有することで { -product-mozilla-accounts }の改善に役立てられます。
 dc-opt-in-out-error-2 = データ収集設定の変更時に問題が発生しました
@@ -917,11 +918,16 @@ se-secondary-email-none = なし
 
 tfa-row-header = 2 段階認証
 tfa-row-enabled = 有効
+tfa-row-disabled-status = 無効
 tfa-row-action-add = 追加
 tfa-row-action-disable = 無効化
 tfa-row-button-refresh =
     .title = 2 段階認証をリフレッシュ
 tfa-row-cannot-refresh = 申し訳ありませんが、2 段階認証のリフレッシュ中に問題が発生しました。
+# "this" refers to two-step authentication
+# Link goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+tfa-row-enabled-info-link = アカウント保護に役立つ理由
+tfa-row-disabled-description-v2 = ログインの 2 段階目にサードパーティの認証アプリを使用してアカウントを保護します。
 tfa-row-cannot-verify-session-4 = 申し訳ありませんが、セッションの確認中に問題が発生しました
 tfa-row-disable-modal-heading = 2 段階認証を無効化しますか？
 tfa-row-disable-modal-confirm = 無効化
