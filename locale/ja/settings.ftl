@@ -848,6 +848,7 @@ signout-sync-session-expired = 申し訳ございません。問題が発生し�
 
 ## SubRow component
 
+tfa-row-backup-codes-title = バックアップ認証コード
 
 ## Switch component
 
@@ -934,6 +935,7 @@ tfa-row-action-disable = 無効化
 tfa-row-button-refresh =
     .title = 2 段階認証をリフレッシュ
 tfa-row-cannot-refresh = 申し訳ありませんが、2 段階認証のリフレッシュ中に問題が発生しました。
+tfa-row-enabled-description = 2 段階認証でアカウントが保護されています。{ -product-mozilla-account }にログインするときに、認証アプリのワンタイムパスコードを入力する必要があります。
 # "this" refers to two-step authentication
 # Link goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
 tfa-row-enabled-info-link = アカウント保護に役立つ理由
@@ -1055,6 +1057,7 @@ cookies-disabled-learn-more = 詳細情報
 ## InlineRecoveryKeySetup page component
 
 inline-recovery-key-setup-create-error = アカウント回復用キーを生成できませんでした。また後で試してください。
+inline-recovery-key-setup-download-header = アカウントを保護してください
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
@@ -1355,6 +1358,7 @@ back = 戻る
 ## their password, and they previously had set up an account recovery method.
 
 signin-recovery-method-header = ログイン
+signin-recovery-method-code-v2 = バックアップ認証コード
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
