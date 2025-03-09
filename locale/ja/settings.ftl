@@ -849,6 +849,11 @@ signout-sync-session-expired = 申し訳ございません。問題が発生し�
 ## SubRow component
 
 tfa-row-backup-codes-title = バックアップ認証コード
+# $numCodesRemaining - the number of backup authentication codes that have not yet been used (generally between 1 to 5)
+# A different message is shown when no codes are available
+tfa-row-backup-codes-available-v2 = コード: 残り { $numCodesAvailable } 個
+# 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
+tfa-row-backup-codes-description-2 = これは、携帯端末や認証アプリを使用できない場合にアカウントを回復する最も安全な方法です。
 
 ## Switch component
 
@@ -1359,6 +1364,8 @@ back = 戻る
 
 signin-recovery-method-header = ログイン
 signin-recovery-method-code-v2 = バックアップ認証コード
+# Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
+signin-recovery-method-code-info-v2 = コード: 残り { $numCodesAvailable } 個
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
