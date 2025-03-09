@@ -1391,6 +1391,7 @@ signin-token-code-required-error = 確認コードが必要です
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+signin-totp-code-subheader-v2 = 2 段階認証コードを入力してください
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = 確認
 signin-totp-code-other-account-link = 別のアカウントを使用する
