@@ -25,6 +25,8 @@
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account = Akun Firefox
 -product-firefox-cloud = Firefox Cloud
+-product-mozilla-monitor = Mozilla Monitor
+-product-firefox-relay = Firefox Relay
 -brand-paypal = PayPal
 -brand-name-stripe = Stripe
 -app-store = App Store
