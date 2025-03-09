@@ -771,8 +771,8 @@ tfa-cannot-retrieve-code = コードの取得中に問題が発生しました�
 tfa-cannot-verify-code-4 = バックアップ認証コードの確認時に問題が発生しました
 tfa-incorrect-recovery-code-1 = バックアップ認証コードが正しくありません
 tfa-scan-this-code =
-    この QR コードを読み取って<linkExternal>この
-    認証アプリ</linkExternal> を使用してください。
+    <linkExternal>認証アプリ</linkExternal> を使用して、
+    この QR コードを読み取ってください。
 # This is the image alt text for a QR code.
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
