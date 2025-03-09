@@ -213,6 +213,13 @@ email-code-image-aria-label =
 ## Users see this view when we prompt them to generate an account recovery key
 ## after signing in.
 
+inline-recovery-key-setup-signed-in-firefox-2 = { -brand-firefox } にログインしました。
+inline-recovery-key-setup-create-header = アカウントを保護してください
+# This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
+inline-recovery-key-setup-create-subheader = データを保護するために少しお時間をいただけますか？
+inline-recovery-key-setup-info = アカウント回復用キーを作成すると、もしパスワードを忘れても同期しているブラウジングデータを回復できます。
+inline-recovery-key-setup-start-button = アカウント回復用キーを作成
+inline-recovery-key-setup-later-button = 後で
 
 ## Input Password
 
@@ -1047,6 +1054,7 @@ cookies-disabled-learn-more = 詳細情報
 
 ## InlineRecoveryKeySetup page component
 
+inline-recovery-key-setup-create-error = アカウント回復用キーを生成できませんでした。また後で試してください。
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
@@ -1346,12 +1354,14 @@ back = 戻る
 ## This page is shown to users when they are having trouble signing in with
 ## their password, and they previously had set up an account recovery method.
 
+signin-recovery-method-header = ログイン
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
+signin-recovery-code-heading = ログイン
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = 確認
 # External link for support if the user can't use two-step autentication or a backup authentication code
@@ -1362,6 +1372,7 @@ signin-recovery-code-required-error = バックアップ認証コードが必要
 
 ## SigninRecoveryPhone page
 
+signin-recovery-phone-flow-heading = ログイン
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -1391,7 +1402,10 @@ signin-token-code-required-error = 確認コードが必要です
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+signin-totp-code-header = ログイン
 signin-totp-code-subheader-v2 = 2 段階認証コードを入力してください
+signin-totp-code-instruction-v4 = ログイン確認のために、<strong>認証アプリ</strong>を確認してください。
+signin-totp-code-input-label-v4 = 6 桁のコードを入力
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = 確認
 signin-totp-code-other-account-link = 別のアカウントを使用する
