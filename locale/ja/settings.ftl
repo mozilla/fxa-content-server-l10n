@@ -770,6 +770,7 @@ tfa-incorrect-totp = 2 段階認証コードが正しくありません
 tfa-cannot-retrieve-code = コードの取得中に問題が発生しました。
 tfa-cannot-verify-code-4 = バックアップ認証コードの確認時に問題が発生しました
 tfa-incorrect-recovery-code-1 = バックアップ認証コードが正しくありません
+tfa-enabled-v2 = 2 段階認証が有効化されました
 tfa-scan-this-code =
     <linkExternal>認証アプリ</linkExternal> を使用して、
     この QR コードを読み取ってください。
@@ -787,6 +788,8 @@ tfa-enter-totp-v2 = 次に、認証アプリからの認証コードを入力し
 tfa-input-enter-totp-v2 =
     .label = 認証コードを入力
 tfa-save-these-codes-1 = これらのワンタイム使用のバックアップ認証コードは、モバイル端末を持っていない場合に備えて安全な場所に保管してください。
+# codes here refers to backup authentication codes
+tfa-enter-code-to-confirm-setup = 保存していることを確認するためにコードを一つ入力してください。認証アプリを使用できない場合、コードがないとログインできません。
 tfa-enter-recovery-code-1 =
     .label = バックアップ認証コードを入力してください
 
@@ -1077,6 +1080,7 @@ inline-recovery-confirmation-header-default = バックアップ認証コード�
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = バックアップ認証コードを確認して <span>{ $serviceName } に進む</span>
+inline-recovery-2fa-enabled-v2 = 2 段階認証が有効化されました
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
