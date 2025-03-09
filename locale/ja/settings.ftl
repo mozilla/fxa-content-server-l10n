@@ -268,6 +268,9 @@ confirmation-link-reused-message = 確認リンクは一度のみ使用でき、
 
 ## Notification Promo Banner component
 
+account-recovery-notification-cta = 作成
+account-recovery-notification-header-value = パスワードを忘れてもデータを復元できるように設定してください
+account-recovery-notification-header-description = アカウント回復用キーを作成すると、もしパスワードを忘れても同期しているブラウジングデータを回復できます。
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = 不正なリクエスト
 
@@ -380,9 +383,6 @@ connect-another-play-store-image =
 connect-another-app-store-image-2 =
     .title = { -app-store } で { -brand-firefox } をダウンロード
 
-##
-
-
 ## Connected services section
 
 cs-heading = 接続済みサービス
@@ -428,12 +428,11 @@ cs-disconnect-suspicious-advice-heading = 疑わしい端末を切断しまし�
 cs-disconnect-suspicious-advice-content-2 = 接続を解除した端末に不正使用の疑いがあるときは、あなたの情報を守るためにアカウント設定で { -product-mozilla-account }のパスワードを変更してください。アドレスバーに about:logins と入力して、{ -brand-firefox } に保存されたパスワードも変更してください。
 cs-sign-out-button = ログアウト
 
-##
-
-
 ## Data collection section
 
 dc-heading = データの収集と使用
+dc-subheader-moz-accounts = { -product-mozilla-accounts }
+dc-subheader-ff-browser = { -brand-firefox } ブラウザー
 dc-subheader-content-2 = { -product-mozilla-accounts } が技術データと対話データを { -brand-mozilla } へ送信することを許可する
 dc-opt-out-success-2 = オプトアウトが完了しました。{ -product-mozilla-accounts }が技術データと対話データを { -brand-mozilla } へ送信しないように設定を変更しました。
 dc-opt-in-success-2 = ご協力ありがとうございます。このデータを共有することで { -product-mozilla-accounts }の改善に役立てられます。
@@ -598,9 +597,6 @@ avatar-page-file-upload-error-3 = プロファイル写真のアップロード�
 avatar-page-delete-error-3 = プロファイル写真の削除に問題がありました
 avatar-page-image-too-large-error-2 = 画像ファイルのサイズが大きすぎてアップロードできません
 
-##
-
-
 ## Password change page
 
 pw-change-header =
@@ -622,18 +618,12 @@ pw-change-confirm-password =
     .label = 新しいパスワードを再入力してください
 pw-change-success-alert-2 = パスワードを更新しました
 
-##
-
-
 ## Password create page
 
 pw-create-header =
     .title = パスワードを作成
 pw-create-success-alert-2 = パスワードを設定しました
 pw-create-error-2 = 申し訳ありませんが、パスワードの設定中に問題が発生しました
-
-##
-
 
 ## Delete account page
 
@@ -668,9 +658,6 @@ pocket-delete-notice-marketing = Mozilla Corporation および Mozilla Foundatio
 delete-account-cancel-button = キャンセル
 delete-account-delete-button-2 = 削除
 
-##
-
-
 ## Display name page
 
 display-name-page-title =
@@ -681,9 +668,6 @@ submit-display-name = 保存
 cancel-display-name = キャンセル
 display-name-update-error-2 = 表示名のアップデートに問題がありました
 display-name-success-alert-2 = 表示名が更新されました
-
-##
-
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
@@ -805,9 +789,6 @@ tfa-save-these-codes-1 = これらのワンタイム使用のバックアップ�
 tfa-enter-recovery-code-1 =
     .label = バックアップ認証コードを入力してください
 
-##
-
-
 ## Product promotion
 
 product-promo-monitor =
@@ -828,9 +809,6 @@ profile-display-name =
     .header = 表示名
 profile-primary-email =
     .header = 優先メールアドレス
-
-##
-
 
 ## Progress bar
 
@@ -934,9 +912,6 @@ se-content-note-1 =
     <a>アカウント回復用キー</a> が必要です。
 # Default value for the secondary email
 se-secondary-email-none = なし
-
-##
-
 
 ## Two Step Auth sub-section on Settings main page
 
