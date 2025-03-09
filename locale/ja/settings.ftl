@@ -452,7 +452,7 @@ dc-learn-more = 詳細情報
 drop-down-menu-title-2 = { -product-mozilla-account }メニュー
 # This is displayed in the Settings menu after user's click on their profile icon.
 # Following this string on a new line will be their display name (user's name or email)
-drop-down-menu-signed-in-as-v2 = ログインするアカウント
+drop-down-menu-signed-in-as-v2 = ログイン中のアカウント
 drop-down-menu-sign-out = ログアウト
 drop-down-menu-sign-out-error-2 = 申し訳ありませんが、ログアウト中に問題が発生しました
 
