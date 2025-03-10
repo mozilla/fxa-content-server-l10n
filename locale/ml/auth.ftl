@@ -50,19 +50,41 @@ subplat-privacy-website-plaintext = { subplat-privacy }:
 # This string is shown on its own line, after automatedEmailRecoveryKey-notyou-delete-key-plaintext and its URL
 # Colon is followed by a URL to the change password section of account settings
 automatedEmailRecoveryKey-notyou-change-pwd-plaintext = കൂടാതെ താങ്ങളുടെ രഹസ്യവാക്കും മാറ്റുക:
+# Colon is followed by a URL to Mozilla Support's "I'm having problems with my account" page
+automatedEmailRecoveryKey-more-info-plaintext = കൂടുതൽ വിവരത്തിനുവേണ്ടി { -brand-mozilla } പിന്തുണയിലേക്കു് ചെല്ലുക:
 manage-account = അക്കൗണ്ട് കൈകാര്യം ചെയ്യുക
 manage-account-plaintext = { manage-account }:
 payment-details = പണമടക്കൽമുറ വിശദാംശങ്ങൾ:
+# Variables
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+payment-plan-next-invoice = അടുത്ത വിലവിവരപ്പട്ടിക: { $nextInvoiceDateOnly }
 # After the colon is how the user paid, e.g. PayPal or credit card
 payment-method = പണമടക്കൽമുറ:
 payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
 # Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionFirstInvoice-content-invoice-number-plaintext = വിലവിവരപ്പട്ടിക അക്കം: { $invoiceNumber }
+# Variables:
+#  $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
+subscriptionFirstInvoiceDiscount-content-subtotal = ആകെത്തുക: { $invoiceSubtotal }
+# Variables:
+#  $uaBrowser (String) - User's browser, e.g. Firefox
+#  $uaOS (String) - User's OS, e.g. Mac OSX
+#  $uaOSVersion (String) - User's OS version, e.g. 10.11
+device-all = { $uaOS } { $uaOSVersion }-ൽ { $uaBrowser }
+# Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 device-browser-os = { $uaOS }-ൽ { $uaBrowser }
+# Variables:
+#  $invoiceLink (String) - The link to the invoice
+# After the colon, there's a link to https://pay.stripe.com/
+view-invoice-plaintext = വിലവിവരപ്പട്ടിക കാണുക: { $invoiceLink }
 cadReminderFirst-subject-1 = ഓൎമ്മപ്പെടുത്തൽ ! നമുക്കു് { -brand-firefox } സമന്വയിപ്പിക്കാം
 cadReminderFirst-action = വേറെയൊരു ഉപകരണത്തിനെ സമന്വയിപ്പിക്കുക
 cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
+# In the title of the email, "It takes two to sync", "two" refers to syncing two devices
+cadReminderFirst-title-1 = സമന്വയിപ്പിക്കാൻ രണ്ടെണ്ണമുണ്ടാവണം
 cadReminderSecond-action = വേറെയൊരു ഉപകരണത്തിനെ സമന്വയിപ്പിക്കുക
 cadReminderSecond-title-2 = സമന്വയിപ്പിക്കാൻ മറക്കരുതതു് !
 #  Variables:
@@ -72,13 +94,20 @@ downloadSubscription-subject = { $productName }-ലേക്കു് സ്വ�
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-title = { $productName }-ലേക്കു് സ്വാഗതം
 downloadSubscription-link-action-2 = തുടങ്ങാം
+fraudulentAccountDeletion-subject-2 = താങ്ങളുടെ { -product-mozilla-account } മായ്ക്കപ്പെട്ടു
 fraudulentAccountDeletion-title = താങ്ങളുടെ അക്കൗണ്ടു് മായ്ക്കപ്പെട്ടിരിക്കുന്നു
+inactiveAccountFirstWarning-inactive-status = താങ്ങൾ 2 കൊല്ലമായി പ്രവേശിച്ചിട്ടില്ലയെന്നു് ഞങ്ങളുടെ ശ്രദ്ധയിൽപ്പെട്ടു.
 codes-create-plaintext = { lowRecoveryCodes-action-2 }:
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = { $clientName } ലോട്ടുള്ള പുതിയ പ്രവേശനം
+# The "Not you?" question is asking whether the recipient of the email is the
+# person who performed the action that triggered the email.
+newDeviceLogin-change-password-plain = താങ്ങളല്ലെ? പിന്നെ രഹസ്യവാക്കു് മാറ്റുവിൻ
 newDeviceLogin-action = അക്കൗണ്ട് കൈകാര്യം ചെയ്യുക
+passwordChanged-subject = രഹസ്യവാക്കു് പുതുച്ചു
 passwordChanged-title = രഹസ്യവാക്ക് വിജയകരമായി മാറ്റി
+passwordChangeRequired-title = രഹസ്യവാക്കു് മാറ്റണ്ടിവരും
 password-forgot-otp-subject = രഹസ്യവാക്കു് മറന്നോ?
 password-forgot-otp-title = രഹസ്യവാക്കു് മറന്നോ?
 postAddAccountRecovery-action = അക്കൗണ്ട് കൈകാര്യം ചെയ്യുക
