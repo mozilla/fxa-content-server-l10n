@@ -1365,7 +1365,7 @@ back = 戻る
 signin-recovery-method-header = ログイン
 signin-recovery-method-code-v2 = バックアップ認証コード
 # Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
-signin-recovery-method-code-info-v2 = コード: 残り { $numCodesAvailable } 個
+signin-recovery-method-code-info-v2 = コード: 残り { $numBackupCodes } 個
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
