@@ -677,7 +677,7 @@ flow-setup-phone-confirm-code-heading = Enter verification code
 
 # $phoneNumber is a partially obfuscated phone number with only the last 4 digits showing (e.g., *** *** 1234)
 # span element applies formatting to ensure the number is always displayed left-to-right
-flow-setup-phone-confirm-code-instruction = A six-digit code was sent to <span>{ $phoneNumber }</span> by text message. This code expires after 5 minutes.
+flow-setup-phone-confirm-code-instruction = A 6-digit code was sent to <span>{ $phoneNumber }</span> by text message. This code expires after 5 minutes.
 flow-setup-phone-confirm-code-input-label = Enter 6-digit code
 flow-setup-phone-confirm-code-button = Confirm
 # button to resend a code by text message to the user's phone
@@ -1141,7 +1141,7 @@ tfa-row-backup-phone-delete-button = Remove
 tfa-row-backup-phone-delete-title-v2 = Remove recovery phone
 tfa-row-backup-phone-delete-restriction-v2 = If you want to remove your recovery phone, add backup authentication codes or disable two-step authentication first to avoid getting locked out of your account.
 # "this" refers to recovery phone
-tfa-row-backup-phone-description = This is the easier recovery method if you canʼt use your authenticator app.
+tfa-row-backup-phone-description-v2 = This is the easiest recovery method if you canʼt use your authenticator app.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
@@ -1832,7 +1832,7 @@ signin-recovery-phone-heading = Enter recovery code
 
 # Text that explains the user should check their phone for a recovery code
 # $maskedPhoneNumber - The users masked phone number
-signin-recovery-phone-instruction-v3 = A six-digit code was sent to the phone number ending in <span>{ $lastFourPhoneDigits }</span> by text message. This code expires after 5 minutes. Donʼt share this code with anyone.
+signin-recovery-phone-instruction-v3 = A 6-digit code was sent to the phone number ending in <span>{ $lastFourPhoneDigits }</span> by text message. This code expires after 5 minutes. Donʼt share this code with anyone.
 
 signin-recovery-phone-input-label = Enter 6-digit code
 
@@ -1850,6 +1850,9 @@ signin-recovery-phone-code-verification-error-heading = There was a problem veri
 
 # Follows the error message (e.g, "There was a problem sending a code")
 signin-recovery-phone-general-error-description = Please try again later.
+
+signin-recovery-phone-invalid-code-error-description = The code is invalid or expired.
+signin-recovery-phone-invalid-code-error-link = Use backup authentication codes instead?
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
