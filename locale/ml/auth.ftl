@@ -107,6 +107,7 @@ newDeviceLogin-change-password-plain = താങ്ങളല്ലെ? പിന
 newDeviceLogin-action = അക്കൗണ്ട് കൈകാര്യം ചെയ്യുക
 passwordChanged-subject = രഹസ്യവാക്കു് പുതുച്ചു
 passwordChanged-title = രഹസ്യവാക്ക് വിജയകരമായി മാറ്റി
+passwordChangeRequired-subject = സംശയകരമായ പ്രവൎത്തനം കണ്ടെത്തി
 passwordChangeRequired-title = രഹസ്യവാക്കു് മാറ്റണ്ടിവരും
 password-forgot-otp-subject = രഹസ്യവാക്കു് മറന്നോ?
 password-forgot-otp-title = രഹസ്യവാക്കു് മറന്നോ?
