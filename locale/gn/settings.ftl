@@ -295,6 +295,8 @@ recovery-phone-code-image-description =
     .aria-label = Ayvu og̃uahẽva pumbyry popeguápe.
 backup-recovery-phone-image-aria-label =
     .aria-label = Pumbyry popegua ikatuhápe eñe’ẽmondo
+backup-authentication-codes-image-aria-label =
+    .aria-label = Mba’e’oka rechaha ijayvúva
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -628,6 +630,7 @@ flow-setup-phone-confirm-code-button = Moneĩ
 flow-setup-phone-confirm-code-expired = ¿Ndoikovéima ayvu?
 flow-setup-phone-confirm-code-resend-code-button = Emondojey ayvu
 flow-setup-phone-confirm-code-resend-code-success = Ayvu mondopyre
+flow-setup-phone-confirm-code-success-message-v2 = Pumbyry guerujeyrã mbojuajupyre
 
 ## FlowSetupPhoneConfirmCode
 
@@ -691,6 +694,7 @@ tfa-replace-code-success-1 =
     Oñemoheñói ayvu pyahu. Eñongatu ko’ã ayvu
     ñemoneĩrã jeykekoha tenda hekorosãvape; eikotevéta eike hag̃ua ne mba’etépe
     ndereguerekóiramo mba’e’oka oku’éva.
+tfa-replace-code-success-alert-4 = Ayvu ñemoneĩrã jeykekoha hekopyahupyre
 tfa-replace-code-1-2 = Ku’e 1 2-gui
 tfa-replace-code-2-2 = Ku’e 2 2-gui
 
@@ -825,6 +829,10 @@ recent-activity-account-password-changed = Ñe’ẽñemi moambuepyre
 recent-activity-account-secondary-email-added = Ñanduti veve mokõiháva mbojuajupyre
 recent-activity-account-secondary-email-removed = Ñanduti veve mokõiháva mboguepyre
 recent-activity-account-emails-swapped = Ñanduti veve ha’etéva ha mokõiháva mbojuasapyre
+recent-activity-session-destroy = Esẽma tembiapohágui
+recent-activity-account-recovery-phone-send-code = Ojererahauka ayvu guerujeyrã
+recent-activity-account-recovery-phone-setup-complete = Pumbyry ñemboheko guerujeyrã henyhẽma
+recent-activity-account-recovery-phone-signin-complete = Tembiapo ñepyrũ pumbyry guerujeyrã henyhẽma
 recent-activity-account-recovery-phone-signin-failed = Ojavy emba’apóvo ne pumbyry guerujeyrã ndive
 recent-activity-account-recovery-phone-removed = Pumbyry guerujeyrã mboguepyre
 recent-activity-account-recovery-codes-replaced = Ayvu guerujeyrã myengoviapyre
@@ -844,12 +852,14 @@ recovery-key-create-back-button-title = Eguevi ñembohekópe
 ## PageRecoveryPhoneRemove
 ## Users reach this page from account settings when they want to remove a backup phone number.
 
+recovery-phone-remove-header = Embogue pumbyry papapy guerujeyrã
 settings-recovery-phone-remove-button = Embogue pumbyry papapy
 settings-recovery-phone-remove-cancel = Heja
 settings-recovery-phone-remove-success = Pumbyry guerujeyrã mboguepyre
 
 ## PageSetupRecoveryPhone
 
+page-setup-recovery-phone-heading = Embojuaju pumbyry guerujeyrã
 page-setup-recovery-phone-back-button-title = Eguevi ñembohekópe
 
 ## Add secondary email page
