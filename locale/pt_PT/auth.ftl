@@ -71,7 +71,7 @@ subplat-privacy = Privacidade
 subplat-privacy-website-plaintext = { subplat-privacy }:
 account-deletion-info-block-communications = Se a sua conta for apagada, irá continuar a receber e-mails da Mozilla Corporation e da Mozilla Foundation, a menos que <a data-l10n-name="unsubscribeLink">peça para cancelar a subscrição</a>.
 account-deletion-info-block-support = Se tiver quaisquer questões ou precisar de ajuda, não hesite em contactar a nossa <a data-l10n-name="supportLink">equipa de apoio</a>.
-account-deletion-info-block-communications-plaintext = Se a sua conta for eliminada, irá continuar a receber emails da Mozilla Corporation e da Mozilla Foundation, a menos que peça para cancelar a subscrição:
+account-deletion-info-block-communications-plaintext = Se a sua conta for eliminada, irá continuar a receber e-mails da Mozilla Corporation e da Mozilla Foundation, a menos que peça para cancelar a subscrição:
 account-deletion-info-block-support-plaintext = Se tiver quaisquer dúvidas ou precisar de ajuda, não hesite em contactar a nossa equipa de apoio:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
@@ -100,7 +100,7 @@ automated-email-support = Para mais informação, visite o <a data-l10n-name="su
 automated-email-change-plaintext-2 = Se não executou esta ação, altere a sua palavra-passe imediatamente:
 #  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-support-plaintext = Para mais informação, visite o Apoio da { -brand-mozilla }:
-automated-email-inactive-account = Este é um email automático. Está a receber a mesma porque tem uma { -product-mozilla-account } e passou 2 anos desde o seu último início de sessão.
+automated-email-inactive-account = Este é um e-mail automático. Está a recebê-lo porque possui uma { -product-mozilla-account } e já passaram 2 anos desde a sua última autenticação.
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } Para mais informação, visite o <a data-l10n-name="supportLink">Apoio da { -brand-mozilla }</a>
 automated-email-no-action-plaintext = Esta é uma mensagem automática. Se a recebeu por engano, não precisa de fazer nada.
@@ -149,7 +149,7 @@ automated-email-reset =
     Para mais informação, por favor visite o <a data-l10n-name="supportLink">Apoio da { -brand-mozilla }</a>.
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
-automated-email-reset-plaintext-v2 = Se não autorizou esta ação, por favor reponha a sua palavra-passe agora em { $resetLink }
+automated-email-reset-plaintext-v2 = Caso não tenha autorizado esta ação, por favor, proceda imediatamente à reposição da sua palavra-passe em { $resetLink }
 brand-banner-message = Sabia que nós alterámos o nosso nome de { -product-firefox-accounts } para { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Saiba mais</a>
 cancellationSurvey = Ajude-nos a melhorar os nossos serviços preenchendo este <a data-l10n-name="cancellationSurveyUrl">pequeno questionário</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
