@@ -7,7 +7,7 @@ next-iap-upgrade-contact-support = Ainda pode obter este produto – contacte o 
 next-payment-error-retry-button = Tentar novamente
 next-basic-error-message = Algo correu mal. Tente novamente mais tarde.
 checkout-error-contact-support-button = Contactar o apoio
-checkout-error-not-eligible = Não é elegível a subscrever este produto - por favor, contacte o suporte para que possamos ajudar.
+checkout-error-not-eligible = Não é elegível a subscrever este produto. Por favor, contacte o apoio para que possamos ajudar.
 checkout-error-contact-support = Por favor, contacte o suporte para que possamos ajudar.
 
 ## Page

@@ -501,9 +501,6 @@ connect-another-play-store-image =
 connect-another-app-store-image-2 =
     .title = Transfira o { -brand-firefox } da { -app-store }
 
-##
-
-
 ## Connected services section
 
 cs-heading = Serviços associados
@@ -550,9 +547,6 @@ cs-disconnect-lost-advice-content-3 = Porque o seu dispositivo foi perdido ou ro
 cs-disconnect-suspicious-advice-heading = Dispositivo suspeito desassociado
 cs-disconnect-suspicious-advice-content-2 = Se o dispositivo desassociado é, de facto, suspeito, para manter a sua informação segura, deveria alterar a sua palavra-passe do { -product-mozilla-account } nas suas definições da conta. Também deveria alterar quaisquer outras palavras-passe que guardou no { -brand-firefox }, digitando about:logins na barra de endereço.
 cs-sign-out-button = Terminar sessão
-
-##
-
 
 ## Data collection section
 
@@ -742,9 +736,6 @@ avatar-page-file-upload-error-3 = Ocorreu um problema ao enviar a sua foto de pe
 avatar-page-delete-error-3 = Ocorreu um problema ao eliminar a sua foto de perfil.
 avatar-page-image-too-large-error-2 = O tamanho do ficheiro de imagem é muito grande para ser carregado
 
-##
-
-
 ## Password change page
 
 pw-change-header =
@@ -766,18 +757,12 @@ pw-change-confirm-password =
     .label = Confirme a nova palavra-passe
 pw-change-success-alert-2 = Palavra-passe atualizada
 
-##
-
-
 ## Password create page
 
 pw-create-header =
     .title = Criar palavra-passe
 pw-create-success-alert-2 = Palavra-passe definida
 pw-create-error-2 = Pedimos desculpa, mas ocorreu um problema ao definir a sua palavra-passe
-
-##
-
 
 ## Delete account page
 
@@ -812,9 +797,6 @@ pocket-delete-notice-marketing = Para parar de receber e-mails de marketing da M
 delete-account-cancel-button = Cancelar
 delete-account-delete-button-2 = Eliminar
 
-##
-
-
 ## Display name page
 
 display-name-page-title =
@@ -825,9 +807,6 @@ submit-display-name = Guardar
 cancel-display-name = Cancelar
 display-name-update-error-2 = Houve um problema ao atualizar o seu nome de apresentação
 display-name-success-alert-2 = Nome de apresentação atualizado
-
-##
-
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
@@ -939,7 +918,7 @@ verify-secondary-email-success-alert-2 = { $email } adicionado com sucesso
 # Link to delete account on main Settings page
 delete-account-link = Eliminar conta
 # Success message displayed in alert bar after the user has successfully confirmed their account is not inactive.
-inactive-update-status-success-alert = Sessão iniciada com sucesso. A sua { -product-mozilla-account } e dados irão manter-se ativos.
+inactive-update-status-success-alert = Sessão iniciada com sucesso. A sua { -product-mozilla-account } e os respetivos dados vão manter-se ativos.
 
 ## Two Step Authentication
 
@@ -979,9 +958,6 @@ tfa-enter-code-to-confirm-setup = Confirme que guardou os seus códigos ao intro
 tfa-enter-recovery-code-1 =
     .label = Insira um código de autenticação de recuperação
 
-##
-
-
 ## Product promotion
 
 product-promo-monitor =
@@ -1002,9 +978,6 @@ profile-display-name =
     .header = Nome de apresentação
 profile-primary-email =
     .header = E-mail primário
-
-##
-
 
 ## Progress bar
 
@@ -1149,9 +1122,6 @@ se-content-note-1 =
 # Default value for the secondary email
 se-secondary-email-none = Nenhum
 
-##
-
-
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Autenticação de dois fatores
@@ -1231,7 +1201,7 @@ auth-error-206 = Não foi possível criar a palavra-passe: a palavra-passe já f
 auth-error-214 = O número de telefone de recuperação já existe
 auth-error-215 = O número de telefone de recuperação não existe
 auth-error-216 = Limite de mensagens de texto atingido
-auth-error-218 = Não foi possível remover o telefone de recuperação, códigos de autenticação de recuperação em falta.
+auth-error-218 = Não foi possível remover o telefone de recuperação. Códigos de autenticação de recuperação em falta.
 auth-error-219 = Este número de telefone foi registado com demasiadas contas. Por favor, tente um número diferente.
 auth-error-999 = Erro inesperado
 auth-error-1001 = Tentativa de início de sessão cancelada
@@ -1249,7 +1219,7 @@ auth-error-1062 = Redirecionamento inválido
 # number, but they are not completely signed in yet. We'll only show the last 4 digits.
 # Variables:
 #  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
-recovery-phone-number-ending-digits = Número que termina com { $lastFourPhoneNumber }
+recovery-phone-number-ending-digits = Número que termina em { $lastFourPhoneNumber }
 oauth-error-1000 = Ocorreu um erro. Feche este separador e tente novamente.
 
 ## Cannot Create Account page
@@ -1716,7 +1686,7 @@ signin-recovery-code-required-error = É necessário o código de recuperação 
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-recovery-code-use-phone-failure = Ocorreu um problema ao enviar um código para o seu telefone de recuperação
-signin-recovery-code-use-phone-failure-description = Por favor tente mais tarde.
+signin-recovery-code-use-phone-failure-description = Por favor, tente novamente mais tarde.
 
 ## SigninRecoveryPhone page
 
@@ -1733,9 +1703,9 @@ signin-recovery-phone-resend-success = Código enviado
 # links to https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 signin-recovery-phone-locked-out-link = Está bloqueado?
 signin-recovery-phone-send-code-error-heading = Ocorreu um problema ao enviar o código
-signin-recovery-phone-code-verification-error-heading = Houve um problema ao confirmar o seu código
+signin-recovery-phone-code-verification-error-heading = Ocorreu um problema ao confirmar o seu código
 # Follows the error message (e.g, "There was a problem sending a code")
-signin-recovery-phone-general-error-description = Por favor tente mais tarde.
+signin-recovery-phone-general-error-description = Por favor, tente novamente mais tarde.
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
