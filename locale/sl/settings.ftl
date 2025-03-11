@@ -845,7 +845,7 @@ recent-activity-account-secondary-email-removed = Odstranjen pomožni e-poštni 
 recent-activity-account-emails-swapped = Zamenjana glavni in pomožni e-poštni naslov
 recent-activity-session-destroy = Odjavljeno iz seje
 recent-activity-account-recovery-phone-send-code = Telefonska koda za obnovitev poslana
-recent-activity-account-recovery-phone-setup-complete = Nastavitev obnovitvene telefonske številke končana
+recent-activity-account-recovery-phone-setup-complete = Nastavitev telefonske številke za obnovitev končana
 recent-activity-account-recovery-phone-signin-complete = Prijava s telefonsko številko za obnovitev je končana
 recent-activity-account-recovery-phone-signin-failed = Prijava z obnovitveno telefonsko številko ni uspela
 recent-activity-account-recovery-phone-removed = Telefonska številka za obnovitev je odstranjena
@@ -1025,7 +1025,7 @@ tfa-row-backup-codes-available-v2 =
        *[other] { $numCodesAvailable } preostalih kod
     }
 # Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
-tfa-row-backup-codes-get-new-cta-v2 = Ustvarite nove kode
+tfa-row-backup-codes-get-new-cta-v2 = Ustvari nove kode
 # Shown to users who have no backup authentication codes
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = Dodaj
