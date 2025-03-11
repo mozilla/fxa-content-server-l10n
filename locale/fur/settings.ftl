@@ -1701,6 +1701,9 @@ signin-recovery-code-use-phone-failure-description = Torne prove plui tart.
 signin-recovery-phone-flow-heading = Jentre
 # A recovery code in context of this page is a one time code sent to the user's phone
 signin-recovery-phone-heading = Inserìs il codiç di recupar
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+signin-recovery-phone-instruction-v3 = Al è stât inviât un SMS cuntun codiç di sîs cifris al numar che al finìs par <span>{ $lastFourPhoneDigits }</span>. Chest codiç al scjât dopo 5 minûts. No sta condividi chest codiç cun nissun.
 signin-recovery-phone-input-label = Inserìs il codiç a 6 cifris
 signin-recovery-phone-code-submit-button = Conferme
 signin-recovery-phone-resend-code-button = Torne mande il codiç
