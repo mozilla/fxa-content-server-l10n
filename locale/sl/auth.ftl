@@ -16,7 +16,7 @@ recovery-phone-setup-sms-short-body = Potrditvena koda { -brand-mozilla(sklon: "
 # https://twiliodeved.github.io/message-segment-calculator/
 # Messages should be limited to one segment
 # $code  - 6 digit code used to sign in with a recovery phone as backup for two-step authentication
-recovery-phone-signin-sms-body = { $code } je vaša obnovitvena koda { -brand-mozilla(sklon: "rodilnik") }. Poteče čez 5 minut.
+recovery-phone-signin-sms-body = { $code } je vaša obnovitvena koda za račun { -brand-mozilla }. Poteče čez 5 minut.
 # Shorter message sent by SMS with limited character length, please test translation with the messaging segment calculator
 # https://twiliodeved.github.io/message-segment-calculator/
 # Messages should be limited to one segment

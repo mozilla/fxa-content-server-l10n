@@ -140,11 +140,11 @@ next-terms-download = Pogoji prenosa
 
 ## Component - UpdatedPurchaseDetails
 
-upgrade-purchase-details-current-plan-label = Trenutni načrt
-upgrade-purchase-details-new-plan-label = Nov načrt
+upgrade-purchase-details-current-plan-label = Trenutni naročniški paket
+upgrade-purchase-details-new-plan-label = Novi paket
 upgrade-purchase-details-promo-code = Promocijska koda
 upgrade-purchase-details-tax-label = Davki in pristojbine
-upgrade-purchase-details-new-total-label = Nov znesek
+upgrade-purchase-details-new-total-label = Novi znesek
 upgrade-purchase-details-prorated-upgrade = Sorazmerna nadgradnja
 
 ## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)

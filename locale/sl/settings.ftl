@@ -501,9 +501,6 @@ connect-another-play-store-image =
 connect-another-app-store-image-2 =
     .title = Prenesite { -brand-firefox } iz trgovine { -app-store }
 
-##
-
-
 ## Connected services section
 
 cs-heading = Povezane storitve
@@ -552,9 +549,6 @@ cs-disconnect-lost-advice-content-3 = Ker je bila vaša naprava izgubljena oziro
 cs-disconnect-suspicious-advice-heading = Povezava s sumljivo napravo je prekinjena
 cs-disconnect-suspicious-advice-content-2 = Če je naprava, ki ste jo odklopili, res sumljiva, morate zaradi varnosti svojih podatkov spremeniti geslo { -product-mozilla-account(sklon: "rodilnik") } v nastavitvah. Spremeniti bi morali tudi vsa gesla, ki ste jih shranili v { -brand-firefox }, tako da v naslovno vrstico vtipkate about:logins.
 cs-sign-out-button = Odjava
-
-##
-
 
 ## Data collection section
 
@@ -747,9 +741,6 @@ avatar-page-file-upload-error-3 = Prišlo je do napake pri nalaganju slike profi
 avatar-page-delete-error-3 = Prišlo je do napake pri brisanju slike profila
 avatar-page-image-too-large-error-2 = Datoteka s sliko je prevelika za nalaganje
 
-##
-
-
 ## Password change page
 
 pw-change-header =
@@ -771,18 +762,12 @@ pw-change-confirm-password =
     .label = Potrdite novo geslo
 pw-change-success-alert-2 = Geslo posodobljeno
 
-##
-
-
 ## Password create page
 
 pw-create-header =
     .title = Ustvari geslo
 pw-create-success-alert-2 = Geslo nastavljeno
 pw-create-error-2 = Oprostite, prišlo je do težave pri nastavljanju gesla
-
-##
-
 
 ## Delete account page
 
@@ -817,9 +802,6 @@ pocket-delete-notice-marketing = Če želite prenehati prejemati trženjska spor
 delete-account-cancel-button = Prekliči
 delete-account-delete-button-2 = Izbriši
 
-##
-
-
 ## Display name page
 
 display-name-page-title =
@@ -830,9 +812,6 @@ submit-display-name = Shrani
 cancel-display-name = Prekliči
 display-name-update-error-2 = Prišlo je do napake pri spremembi prikaznega imena
 display-name-success-alert-2 = Prikazno ime posodobljeno
-
-##
-
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
@@ -984,9 +963,6 @@ tfa-enter-code-to-confirm-setup = Potrdite z vnosom, da ste shranili kode. Brez 
 tfa-enter-recovery-code-1 =
     .label = Vnesite rezervno overitveno kodo
 
-##
-
-
 ## Product promotion
 
 product-promo-monitor =
@@ -1007,9 +983,6 @@ profile-display-name =
     .header = Prikazno ime
 profile-primary-email =
     .header = Glavna e-pošta
-
-##
-
 
 ## Progress bar
 
@@ -1155,9 +1128,6 @@ se-content-note-1 =
     boste potrebovali <a>ključ za obnovitev računa</a>.
 # Default value for the secondary email
 se-secondary-email-none = Brez
-
-##
-
 
 ## Two Step Auth sub-section on Settings main page
 
