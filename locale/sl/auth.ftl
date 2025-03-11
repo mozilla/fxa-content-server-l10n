@@ -21,7 +21,7 @@ recovery-phone-signin-sms-body = { $code } je vaša obnovitvena koda za račun {
 # https://twiliodeved.github.io/message-segment-calculator/
 # Messages should be limited to one segment
 # $code  - 6 digit code used to sign in with a recovery phone as backup for two-step authentication
-recovery-phone-signin-sms-short-body = Koda { -brand-mozilla(sklon: "rodilnik") }: { $code }
+recovery-phone-signin-sms-short-body = Koda za račun { -brand-mozilla }: { $code }
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
