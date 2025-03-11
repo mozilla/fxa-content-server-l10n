@@ -995,6 +995,13 @@ tfa-row-backup-codes-title = Ayvu ñemoneĩrã jeykekoha
 # Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
 # Users that have not enabled or verified 2FA will not see this
 tfa-row-backup-codes-not-available = Ndaipóri mba’eñemi porupyrã
+# $numCodesRemaining - the number of backup authentication codes that have not yet been used (generally between 1 to 5)
+# A different message is shown when no codes are available
+tfa-row-backup-codes-available-v2 =
+    { $numCodesAvailable ->
+        [one] { $numCodesAvailable } ayvu hembýva
+       *[other] { $numCodesAvailable } ayvu hembýva
+    }
 # Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
 tfa-row-backup-codes-get-new-cta-v2 = Emoheñói ayvukuéra pyahu
 # Shown to users who have no backup authentication codes
@@ -1160,9 +1167,12 @@ auth-error-114-generic = Eiporuse heta jeýma. Ikatúpiko eha’ãjey ag̃amieve
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Eiporuse heta jeýma. Eha’ãjey { $retryAfter }-pe.
 auth-error-125 = Ojejokóma ko mba’ejerure tekorosãrãve
+auth-error-129 = Pumbyry papapy ndoikói
 auth-error-138-2 = Tembiapo oñemoneĩ’ỹva
 auth-error-139 = Pe ñanduti veve mokõiháva iñambueva’erã ñanduti veve ne mba’ete reheguávagui
 auth-error-155 = Token TOTP ojejuhu’ỹva
+# Error shown when the user submits an invalid backup authentication code
+auth-error-156 = Ndojejuhúi ayvu ñemoneĩrã jeykekoha
 auth-error-159 = Mba’eñemi jeguerujeyrã ndoikóiva
 auth-error-183-2 = Ayvu jehechajeyrã ndoikói térã hekoru’ãmava
 auth-error-206 = Neremoheñoikuaái ñe’ẽñemi, pe ñe’ẽñemi ipyendáma
@@ -1595,6 +1605,14 @@ signin-recovery-method-header = Eñemboheraguapy
 signin-recovery-method-subheader = Eiporavo mba’éichapa erujeýta
 signin-recovery-method-phone = Pumbyry guerujeyrã
 signin-recovery-method-code-v2 = Ayvu ñemoneĩrã jeykekoha
+# Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
+signin-recovery-method-code-info-v2 =
+    { $numBackupCodes ->
+        [one] { $numBackupCodes } ayvu hembýva
+       *[other] { $numBackupCodes } ayvu hembýva
+    }
+# Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
+signin-recovery-method-send-code-error-heading = Oiko apañuãi emondóvo pe ayvu ne pumbyry jeguerujeyrãme
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
