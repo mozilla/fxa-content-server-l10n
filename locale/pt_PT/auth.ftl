@@ -283,19 +283,19 @@ inactiveAccountFinalWarning-action-plaintext = Iniciar sessão para manter a sua
 inactiveAccountFirstWarning-subject = Não perca a sua conta
 inactiveAccountFirstWarning-title = Pretende manter a sua conta e os dados da { -brand-mozilla }?
 inactiveAccountFirstWarning-account-description-v2 = A sua { -product-mozilla-account } é utilizada para aceder gratuitamente a produtos de privacidade e de navegação como o { -brand-firefox } sync, { -product-mozilla-monitor }, { -product-firefox-relay } e { -product-mdn }.
-inactiveAccountFirstWarning-inactive-status = Notámos que não iniciou a sessão há 2 anos.
+inactiveAccountFirstWarning-inactive-status = Verificámos que não iniciou sessão nos últimos dois anos.
 # $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
 # This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
-inactiveAccountFirstWarning-impact = A sua conta e os seus dados pessoais serão eliminados permanentemente a <strong>{ $deletionDate }</strong> porque não tem estado ativo.
+inactiveAccountFirstWarning-impact = A sua conta e os seus dados pessoais serão eliminados permanentemente a <strong>{ $deletionDate }</strong> por inatividade.
 inactiveAccountFirstWarning-action = Iniciar sessão para manter a sua conta
 inactiveAccountFirstWarning-preview = Iniciar sessão para manter a sua conta
 # followed by link to sign in
 inactiveAccountFirstWarning-action-plaintext = Iniciar sessão para manter a sua conta:
-inactiveAccountSecondWarning-subject = Ação necessária: eliminação da conta em 7 dias
+inactiveAccountSecondWarning-subject = Ação necessária: eliminação de conta em 7 dias
 inactiveAccountSecondWarning-title = A sua conta e dados da { -brand-mozilla } serão eliminados em 7 dias
 inactiveAccountSecondWarning-account-description-v2 = A sua { -product-mozilla-account } é utilizada para aceder gratuitamente a produtos de privacidade e de navegação como o { -brand-firefox } sync, { -product-mozilla-monitor }, { -product-firefox-relay } e { -product-mdn }.
 # $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
-inactiveAccountSecondWarning-impact = A sua conta e os seus dados pessoais serão eliminados permanentemente a <strong>{ $deletionDate }</strong> porque não tem estado ativo.
+inactiveAccountSecondWarning-impact = A sua conta e os seus dados pessoais serão eliminados permanentemente a <strong>{ $deletionDate }</strong> por inatividade.
 inactiveAccountSecondWarning-action = Iniciar sessão para manter a sua conta
 inactiveAccountSecondWarning-preview = Iniciar sessão para manter a sua conta
 # followed by link to sign in
