@@ -643,8 +643,8 @@ flow-setup-phone-verify-number-instruction = Irá receber uma mensagem de texto 
 # Voice over Internet Protocol (VoIP), is a technology that uses a broadband Internet connection instead of a regular (or analog) phone line to make calls.
 # Phone mask services (for example Relay) provide a temporary virtual number to avoid providing a real phone number.
 # Both VoIP and phone masks can be unreliable for one-time-passcode (OTP) verification
-flow-setup-phone-submit-number-info-message-v2 = O telefone de recuperação está disponível apenas nos Estados Unidos e Canadá. Números de IP e máscaras de telefone não são recomendados.
-flow-setup-phone-submit-number-legal = Ao fornecer o seu número, concorda que o armazenemos para que possamos enviar mensagens de texto apenas para verificação da conta. Podem ser aplicadas taxas de mensagens e de dados.
+flow-setup-phone-submit-number-info-message-v2 = O telefone de recuperação está disponível apenas nos Estados Unidos e Canadá. Não se recomenda a utilização de números VoIP e máscaras de telefónicas.
+flow-setup-phone-submit-number-legal = Ao fornecer o seu número, concorda que o armazenemos para que possamos enviar mensagens de texto apenas para a verificação da conta. Podem ser aplicadas taxas de mensagens e de dados.
 # cliking on the button sends a code by text message to the phone number typed in by the user
 flow-setup-phone-submit-number-button = Enviar código
 
@@ -839,8 +839,8 @@ recent-activity-account-secondary-email-added = Endereço de e-mail secundário 
 recent-activity-account-secondary-email-removed = Endereço de e-mail secundário removido
 recent-activity-account-emails-swapped = E-mails primários e secundários trocados
 recent-activity-session-destroy = Sessão terminada
-recent-activity-account-recovery-phone-send-code = Código de recuperação do telefone enviado
-recent-activity-account-recovery-phone-setup-complete = Configuração de recuperação do telefone concluída
+recent-activity-account-recovery-phone-send-code = Código de telefone de recuperação enviado
+recent-activity-account-recovery-phone-setup-complete = Configuração de telefone de recuperação concluída
 recent-activity-account-recovery-phone-signin-complete = Início de sessão com o telefone de recuperação concluído
 recent-activity-account-recovery-phone-signin-failed = A autenticação com o telefone de recuperação falhou
 recent-activity-account-recovery-phone-removed = Telefone de recuperação removido
@@ -867,7 +867,7 @@ recovery-phone-remove-header = Remover número de telefone de recuperação
 settings-recovery-phone-remove-info = Isto irá remover <strong>{ $formattedFullPhoneNumber }</strong> como o seu telefone de recuperação.
 settings-recovery-phone-remove-recommend = Recomendamos que mantenha este método porque é mais fácil do que guardar códigos de autenticação de recuperação.
 # "Saved backup authentication codes" refers to previously saved backup authentication codes
-settings-recovery-phone-remove-recovery-methods = Se apagá-la, certifique-se que ainda tem os seus códigos de recuperação de autenticação guardados. <linkExternal>Comparar métodos de recuperação</linkExternal>
+settings-recovery-phone-remove-recovery-methods = Caso o elimine, assegure-se de que ainda possui os seus códigos de autenticação de reserva guardados. <linkExternal>Comparar métodos de recuperação</linkExternal>
 settings-recovery-phone-remove-button = Remover número de telefone
 settings-recovery-phone-remove-cancel = Cancelar
 settings-recovery-phone-remove-success = Telefone de recuperação removido
@@ -1695,7 +1695,7 @@ signin-recovery-phone-flow-heading = Iniciar sessão
 signin-recovery-phone-heading = Introduza o código de recuperação
 # Text that explains the user should check their phone for a recovery code
 # $maskedPhoneNumber - The users masked phone number
-signin-recovery-phone-instruction-v3 = Um código de seis dígitos foi enviado para o número de telefone que termina com <span>{ $lastFourPhoneDigits }</span> por mensagem de texto. Este código expira após 5 minutos. Não partilhe este código com ninguém.
+signin-recovery-phone-instruction-v3 = Foi enviado um código de seis dígitos por mensagem de texto para o número de telefone que termina em <span>{ $lastFourPhoneDigits }</span>. Este código expira em 5 minutos. Não partilhe este código com ninguém.
 signin-recovery-phone-input-label = Inserir código de 6 dígitos
 signin-recovery-phone-code-submit-button = Confirmar
 signin-recovery-phone-resend-code-button = Reenviar código

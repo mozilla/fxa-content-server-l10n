@@ -8,7 +8,7 @@ next-payment-error-retry-button = Tentar novamente
 next-basic-error-message = Algo correu mal. Tente novamente mais tarde.
 checkout-error-contact-support-button = Contactar o apoio
 checkout-error-not-eligible = Não é elegível a subscrever este produto. Por favor, contacte o apoio para que possamos ajudar.
-checkout-error-contact-support = Por favor, contacte o suporte para que possamos ajudar.
+checkout-error-contact-support = Por favor, contacte o apoio para que possamos ajudar.
 
 ## Page
 
@@ -143,14 +143,14 @@ next-terms-download = Termos da transferência
 upgrade-purchase-details-current-plan-label = Plano atual
 upgrade-purchase-details-new-plan-label = Novo plano
 upgrade-purchase-details-promo-code = Código promocional
-upgrade-purchase-details-tax-label = Impostos e Taxas
+upgrade-purchase-details-tax-label = Impostos e taxas
 upgrade-purchase-details-new-total-label = Novo total
-upgrade-purchase-details-prorated-upgrade = Upgrade proporcional
+upgrade-purchase-details-prorated-upgrade = Atualização Prorrateada
 
 ## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
 
-upgrade-purchase-details-new-plan-daily = { $productName } (diário)
-upgrade-purchase-details-new-plan-weekly = { $productName } (semanal)
-upgrade-purchase-details-new-plan-monthly = { $productName } (mensal)
-upgrade-purchase-details-new-plan-yearly = { $productName } (anual)
+upgrade-purchase-details-new-plan-daily = { $productName } (diariamente)
+upgrade-purchase-details-new-plan-weekly = { $productName } (semanalmente)
+upgrade-purchase-details-new-plan-monthly = { $productName } (mensalmente)
+upgrade-purchase-details-new-plan-yearly = { $productName } (anualmente)
