@@ -275,6 +275,7 @@ inactiveAccountFirstWarning-action = Eñepyrũ tembiapo ereko are hag̃ua ne mba
 inactiveAccountFirstWarning-preview = Eñepyrũ tembiapo ereko are hag̃ua ne mba’ete
 # followed by link to sign in
 inactiveAccountFirstWarning-action-plaintext = Eñepyrũ tembiapo ereko are hag̃ua ne mba’ete:
+inactiveAccountSecondWarning-subject = Jeku’e tekotevẽva: mba’ete ñembogue 7 árape
 inactiveAccountSecondWarning-title = Ne mba’ete { -brand-mozilla } ha imba’ekuaarãnguéra oguétama 7 arahápe
 inactiveAccountSecondWarning-action = Eñepyrũ tembiapo ereko are hag̃ua ne mba’ete
 inactiveAccountSecondWarning-preview = Eñepyrũ tembiapo ereko are hag̃ua ne mba’ete
@@ -354,6 +355,9 @@ postAddLinkedAccount-action = Eñangareko mba’etére
 postAddRecoveryPhone-subject = Pumbyry guerujeyrã mbojuajupyre
 postAddRecoveryPhone-preview = Mba’ete oñemo’ãva ñemoneĩ mokõi jeku’egua rupive
 postAddRecoveryPhone-title = Emoheñói pumbyry papapy guerujeyrã
+# Variables:
+#  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
+postAddRecoveryPhone-description-v2 = Embojuaju { $maskedLastFourPhoneNumber } ne pumbyry papapy guerujeyrã
 # Links out to a support article about two factor authentication
 postAddRecoveryPhone-how-protect = Mba’éicha omo’ãta ne mba’ete
 postAddRecoveryPhone-how-protect-plaintext = Mba’éicha omo’ãta ne mba’ete:

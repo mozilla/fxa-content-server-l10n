@@ -293,6 +293,8 @@ recovery-phone-image-description =
     .aria-label = Pumbyrýpe og̃uahẽva ayvu ñe’ẽmondo jehaíva rehegua.
 recovery-phone-code-image-description =
     .aria-label = Ayvu og̃uahẽva pumbyry popeguápe.
+backup-recovery-phone-image-aria-label =
+    .aria-label = Pumbyry popegua ikatuhápe eñe’ẽmondo
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -497,9 +499,6 @@ connect-another-play-store-image =
 connect-another-app-store-image-2 =
     .title = Emboguejy { -brand-firefox } { -app-store } rupi
 
-##
-
-
 ## Connected services section
 
 cs-heading = Mba’eporu mbojuajupyre
@@ -548,9 +547,6 @@ cs-disconnect-lost-advice-content-3 = Ojehechávo ne mba’e’oka okañy térã
 cs-disconnect-suspicious-advice-heading = Pe mba’e’oka imarãkuaáva ojepe’áma
 cs-disconnect-suspicious-advice-content-2 = Pe mba’e’oka pe’apyre ehecháramo ivaikuaaha, ereko hag̃ua ne marandu tekorosãme, emoambue ne ñe’ẽñemi { -product-mozilla-account } pegua ne mba’ete ñembohekohápe. Avei emoambue oimeraẽva ambue ñe’ẽñemi eñongatuva’ekue { -brand-firefox }-pe ehaívo about:logins kundaharape rendápe.
 cs-sign-out-button = Emboty tembiapo
-
-##
-
 
 ## Data collection section
 
@@ -728,9 +724,6 @@ avatar-page-file-upload-error-3 = Iñapysẽ apañuái ehupívo nera’ãnga mba
 avatar-page-delete-error-3 = Iñapysẽ apañuái emboguévo nera’ãnga mba’etégui
 avatar-page-image-too-large-error-2 = Pe ta’ãnga marandurenda tuicha emyanyhẽ hag̃ua
 
-##
-
-
 ## Password change page
 
 pw-change-header =
@@ -752,18 +745,12 @@ pw-change-confirm-password =
     .label = Emoneĩ ñe’ẽñemi pyahu
 pw-change-success-alert-2 = Ñe’ẽñemi hekopyahúva
 
-##
-
-
 ## Password create page
 
 pw-create-header =
     .title = Emoheñói ñe’ẽñemi
 pw-create-success-alert-2 = Ñe’ẽñemi moĩmbyre
 pw-create-error-2 = Rombyasy, oiko apañuái emoĩnguévo ne ñe’ẽñemi
-
-##
-
 
 ## Delete account page
 
@@ -797,9 +784,6 @@ pocket-delete-notice = Eñemboheraguapýramo Pocket Premium ndive, ejapóke <a>�
 delete-account-cancel-button = Heja
 delete-account-delete-button-2 = Mboguete
 
-##
-
-
 ## Display name page
 
 display-name-page-title =
@@ -810,9 +794,6 @@ submit-display-name = Ñongatu
 cancel-display-name = Heja
 display-name-update-error-2 = Oĩ apañuái embohekopyahúvo nde réra ehechauka hag̃ua
 display-name-success-alert-2 = Téra ojehecháva hekopyahúma
-
-##
-
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
@@ -947,9 +928,6 @@ tfa-save-these-codes-1 =
 tfa-enter-recovery-code-1 =
     .label = Emoinge ayvu ñemoneĩrã jeykekoha
 
-##
-
-
 ## Product promotion
 
 product-promo-monitor =
@@ -970,9 +948,6 @@ profile-display-name =
     .header = Téra ehechauka hag̃ua
 profile-primary-email =
     .header = Ñandutiveve mba’eguasuvéva
-
-##
-
 
 ## Progress bar
 
@@ -1104,9 +1079,6 @@ se-content-note-1 =
     ejapo hag̃ua eikotevẽta <a>mba’eñemi guerujeyrã</a>.
 # Default value for the secondary email
 se-secondary-email-none = Avave
-
-##
-
 
 ## Two Step Auth sub-section on Settings main page
 
