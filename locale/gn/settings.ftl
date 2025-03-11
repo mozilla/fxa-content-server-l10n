@@ -861,6 +861,8 @@ settings-recovery-phone-remove-success = Pumbyry guerujeyrã mboguepyre
 
 page-setup-recovery-phone-heading = Embojuaju pumbyry guerujeyrã
 page-setup-recovery-phone-back-button-title = Eguevi ñembohekópe
+# Back arrow to return to step 1 of recovery phone setup flow
+page-setup-recovery-phone-step2-back-button-title = Emoambue pumbyry papapy
 
 ## Add secondary email page
 
@@ -900,6 +902,8 @@ verify-secondary-email-success-alert-2 = { $email } ojuajúma hekoitépe
 
 # Link to delete account on main Settings page
 delete-account-link = Emboguete mba’ete
+# Success message displayed in alert bar after the user has successfully confirmed their account is not inactive.
+inactive-update-status-success-alert = Emoñepyrũ porã tembiapo. Nde { -product-mozilla-account } ha ne mba’ekuaarã oĩta hendyhápe.
 
 ## Two Step Authentication
 
@@ -914,6 +918,7 @@ tfa-incorrect-totp = Ayvu ñemoneĩ mokõi jeku’épe ndoikói
 tfa-cannot-retrieve-code = Oiko peteĩ apañuái eguerukuévo ayvu.
 tfa-cannot-verify-code-4 = Oiko peteĩ apañuái emoneĩnguévo nde ayvu ñemoneĩrã jeykekoha
 tfa-incorrect-recovery-code-1 = Ayvu ñemoneĩrã jeykekoha ndoikói
+tfa-enabled-v2 = Ijurujáma mokõi jeku’épe ñemoneĩ
 tfa-scan-this-code =
     Emoha’ãnga QR ayvu eiporúvo <linkExternal>peteĩva
     ñemoneĩrã rembiporu’i</linkExternal>.
@@ -1627,6 +1632,9 @@ signin-recovery-phone-resend-success = Ayvu mondopyre
 # links to https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 signin-recovery-phone-locked-out-link = ¿Nderejáma okápe?
 signin-recovery-phone-send-code-error-heading = Oiko peteĩ apañuái emondóvo pe ayvu
+signin-recovery-phone-code-verification-error-heading = Oiko peteĩ apañuái ehechajeývo ayvu.
+# Follows the error message (e.g, "There was a problem sending a code")
+signin-recovery-phone-general-error-description = Eha’ãjey ag̃amieve.
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
