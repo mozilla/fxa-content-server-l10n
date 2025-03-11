@@ -501,9 +501,6 @@ connect-another-play-store-image =
 connect-another-app-store-image-2 =
     .title = Discjame { -brand-firefox } su { -app-store }
 
-##
-
-
 ## Connected services section
 
 cs-heading = Servizis conetûts
@@ -550,9 +547,6 @@ cs-disconnect-lost-advice-content-3 = Viodût che il to dispositîf al è stât 
 cs-disconnect-suspicious-advice-heading = Dispositîf suspiet disconetût
 cs-disconnect-suspicious-advice-content-2 = Se pardabon il dispositîf disconetût al è suspiet, par tignî al sigûr lis tôs informazions, tu varessis di cambiâ la tô password di { -product-mozilla-account } tes impostazions dal account. Tu varessis di cambiâ ancje dutis lis altris passwords che tu âs salvât su { -brand-firefox } scrivint about:logins te sbare de direzion.
 cs-sign-out-button = Disconet
-
-##
-
 
 ## Data collection section
 
@@ -745,9 +739,6 @@ avatar-page-file-upload-error-3 = Al è vignût fûr un probleme tal cjariâ in 
 avatar-page-delete-error-3 = Al è vignût fûr un probleme tal eliminâ la foto dal profîl
 avatar-page-image-too-large-error-2 = Il file de imagjin al è masse grant par podêlu cjariâ in rêt
 
-##
-
-
 ## Password change page
 
 pw-change-header =
@@ -769,18 +760,12 @@ pw-change-confirm-password =
     .label = Conferme la gnove password
 pw-change-success-alert-2 = Password inzornade
 
-##
-
-
 ## Password create page
 
 pw-create-header =
     .title = Creazion password
 pw-create-success-alert-2 = Password stabilide
 pw-create-error-2 = Nus diplâs, al è vignût fûr un probleme tal configurâ la password
-
-##
-
 
 ## Delete account page
 
@@ -815,9 +800,6 @@ pocket-delete-notice-marketing = Par no ricevi plui lis e-mail promozionâls di 
 delete-account-cancel-button = Anule
 delete-account-delete-button-2 = Elimine
 
-##
-
-
 ## Display name page
 
 display-name-page-title =
@@ -828,9 +810,6 @@ submit-display-name = Salve
 cancel-display-name = Anule
 display-name-update-error-2 = Al è vignût fûr un probleme tal inzornâ il non visualizât
 display-name-success-alert-2 = In non visualizât al è stât inzornât
-
-##
-
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
@@ -862,6 +841,15 @@ recent-activity-account-password-changed = Password modificade
 recent-activity-account-secondary-email-added = Direzion e-mail secondarie zontade
 recent-activity-account-secondary-email-removed = Direzion e-mail secondarie gjavade
 recent-activity-account-emails-swapped = Direzions e-mails primarie e secondarie scambiadis
+recent-activity-session-destroy = Disconetût de session
+recent-activity-account-recovery-phone-send-code = Il codiç al è stât inviât al telefon pal recupar dal account
+recent-activity-account-recovery-phone-setup-complete = Configurazion dal telefon pal recupar dal account completade
+recent-activity-account-recovery-phone-signin-complete = Acès cul telefon di recupar dal account completât
+recent-activity-account-recovery-phone-signin-failed = Acès cul telefon pal recupar dal account falît
+recent-activity-account-recovery-phone-removed = Il numar di telefon pal recupar dal account al è stât gjavât
+recent-activity-account-recovery-codes-replaced = Codiçs di recupar sostituîts
+recent-activity-account-recovery-codes-created = Codiçs di recupar creâts
+recent-activity-account-recovery-codes-signin-complete = L’acès cui codiçs di recupar al è stât completât
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Altris ativitâts dal account
 
@@ -891,6 +879,8 @@ settings-recovery-phone-remove-success = Il numar di telefon pal recupar dal acc
 
 page-setup-recovery-phone-heading = Zonte numar di telefon di recupar
 page-setup-recovery-phone-back-button-title = Torne aes impostazions
+# Back arrow to return to step 1 of recovery phone setup flow
+page-setup-recovery-phone-step2-back-button-title = Cambie numar di telefon
 
 ## Add secondary email page
 
@@ -971,9 +961,6 @@ tfa-enter-code-to-confirm-setup = Conferme di vê salvât i tiei codiçs inserin
 tfa-enter-recovery-code-1 =
     .label = Inserìs un codiç di autenticazion di backup
 
-##
-
-
 ## Product promotion
 
 product-promo-monitor =
@@ -994,9 +981,6 @@ profile-display-name =
     .header = Non visualizât
 profile-primary-email =
     .header = E-mail primarie
-
-##
-
 
 ## Progress bar
 
@@ -1036,6 +1020,8 @@ tfa-row-backup-codes-available-v2 =
         [one] Al reste { $numCodesAvailable } codiç
        *[other] A restin { $numCodesAvailable } codiçs
     }
+# Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
+tfa-row-backup-codes-get-new-cta-v2 = Cree gnûfs codiçs
 # Shown to users who have no backup authentication codes
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = Zonte
@@ -1044,6 +1030,8 @@ tfa-row-backup-codes-description-2 = Chest al è il metodi di recupar plui sigû
 # Recovery phone is a recovery method for two-step authentication
 # A recovery code can be sent to the user's phone
 tfa-row-backup-phone-title-v2 = Telefon pal recupar dal account
+# Shown with an alert icon to indicate that no recovery phone is configured
+tfa-row-backup-phone-not-available-v2 = Nissun numar di telefon zontât
 # button to change the configured recovery phone
 tfa-row-backup-phone-change-cta = Modifiche
 # button to add/configure a recovery phone
@@ -1137,9 +1125,6 @@ se-content-note-1 =
 # Default value for the secondary email
 se-secondary-email-none = Nissune
 
-##
-
-
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Autenticazion in doi passaçs
@@ -1222,6 +1207,7 @@ auth-error-214 = Il numar di telefon pal recupar dal account al esist za
 auth-error-215 = Il numar di telefon pal recupar dal account nol esist
 auth-error-216 = Si è rivâts al limit dai messaçs di test
 auth-error-218 = Impussibil gjavâ il numar di telefon pal recupar dal account, a mancjin i codiçs di autenticazion di backup.
+auth-error-219 = Chest numar di telefon al è stât regjistrât cun masse accounts. Prove cuntun altri numar.
 auth-error-999 = Erôr inspietât
 auth-error-1001 = Tentatîf di acès anulât
 auth-error-1002 = Session scjadude. Jentre par continuâ.
@@ -1234,6 +1220,11 @@ auth-error-1032 = Par completâ la regjistrazion tu cugnis inserî une etât val
 auth-error-1054 = Il codiç di autenticazion in doi passaçs nol è valit
 auth-error-1056 = Il codiç di autenticazion di backup nol è valit
 auth-error-1062 = Dirotament no valit
+# Displayed when we want to reference a user's previously set up recovery phone
+# number, but they are not completely signed in yet. We'll only show the last 4 digits.
+# Variables:
+#  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
+recovery-phone-number-ending-digits = Numar che al finìs cun { $lastFourPhoneNumber }
 oauth-error-1000 = Alc al è lât strucj. Siere cheste schede e torne prove.
 
 ## Cannot Create Account page

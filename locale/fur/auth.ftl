@@ -7,11 +7,21 @@ session-verify-send-push-body-2 = Fâs clic achì par confermâ la tô identitâ
 # Messages should be limited to one segment
 # $code  - 6 digit code used to verify phone ownership when registering a recovery phone
 recovery-phone-setup-sms-body = { $code } al è il to codiç di verifiche par { -brand-mozilla }. Al scjât ca di 5 minûts.
+# Shorter message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to verify phone ownership when registering a recovery phone
+recovery-phone-setup-sms-short-body = Codiç di verifiche { -brand-mozilla }: { $code }
 # Message sent by SMS with limited character length, please test translation with the messaging segment calculator
 # https://twiliodeved.github.io/message-segment-calculator/
 # Messages should be limited to one segment
 # $code  - 6 digit code used to sign in with a recovery phone as backup for two-step authentication
 recovery-phone-signin-sms-body = { $code } al è il to codiç di recupar par { -brand-mozilla }. Al scjât ca di 5 minûts.
+# Shorter message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to sign in with a recovery phone as backup for two-step authentication
+recovery-phone-signin-sms-short-body = Codiç { -brand-mozilla }: { $code }
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
@@ -368,6 +378,9 @@ postAddLinkedAccount-action = Gjestìs account
 postAddRecoveryPhone-subject = Zontât telefon pal recupar dal account
 postAddRecoveryPhone-preview = Account protet de autenticazion in doi passaçs
 postAddRecoveryPhone-title = Tu âs creât un numar di telefon pal recupar dal account
+# Variables:
+#  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
+postAddRecoveryPhone-description-v2 = Tu âs zontât { $maskedLastFourPhoneNumber } tant che numar di telefon di recupar
 # Links out to a support article about two factor authentication
 postAddRecoveryPhone-how-protect = Cemût che al jude a protezi il to account
 postAddRecoveryPhone-how-protect-plaintext = Cemût che al jude a protezi il to account:
