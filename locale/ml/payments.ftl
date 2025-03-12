@@ -209,7 +209,7 @@ pay-update-change-btn = മാറ്റങ്ങള്‍
 
 # $expirationDate (Date) - The payment card's expiration date.
 
-sub-route-idx-updating = ബില്ലിംഗ് വിവരങ്ങൾ അപ്‌ഡേറ്റുചെയ്യുന്നു...
+sub-route-idx-updating = ബില്ലിംഗ് വിവരങ്ങൾ അപ്‌ഡേറ്റുചെയ്യുന്നു…
 
 ## Routes - Subscription - SubscriptionItem
 
