@@ -6,6 +6,7 @@ next-payment-error-manage-subscription-button = Handsame abonnementet mitt
 next-iap-upgrade-contact-support = Du kan framleis få dette produktet — kontakt brukarstøtte, så kan vi hjelpe deg.
 next-payment-error-retry-button = Prøv igjen
 next-basic-error-message = Noko gjekk gale. Prøv igjen seinare.
+checkout-error-contact-support-button = Kontakt brukarstøtte
 
 ## Page
 
@@ -123,6 +124,7 @@ next-subscription-create-title = Set opp abonnementet ditt
 next-subscription-success-title = Stadfesting av abonnement
 next-subscription-processing-title = Stadfestar abonnementet…
 next-subscription-error-title = Feil ved stadfesting av abonnementet…
+subscription-title-plan-change-heading = Sjå gjennom endringa
 next-sub-guarantee = 30-dagar pengane-tilbake-garanti
 
 ## Component - TermsAndPrivacy
@@ -136,6 +138,12 @@ next-terms-download = Vilkår for nedlasting
 
 ## Component - UpdatedPurchaseDetails
 
+upgrade-purchase-details-current-plan-label = Gjeldande plan
+upgrade-purchase-details-new-plan-label = Ny plan
+upgrade-purchase-details-promo-code = Kampanjekode
+upgrade-purchase-details-tax-label = Skattar og avgifter
+upgrade-purchase-details-new-total-label = Ny sum
+upgrade-purchase-details-prorated-upgrade = Forholdsmessig oppgradering
 
 ## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences

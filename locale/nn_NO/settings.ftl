@@ -886,6 +886,8 @@ tfa-row-backup-codes-get-new-cta-v2 = Lag nye kodar
 # Shown to users who have no backup authentication codes
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = Legg til
+# Shown with an alert icon to indicate that no recovery phone is configured
+tfa-row-backup-phone-not-available-v2 = Ingen telefonnummer lagt til
 # button to change the configured recovery phone
 tfa-row-backup-phone-change-cta = Endre
 # button to add/configure a recovery phone
@@ -960,6 +962,7 @@ se-secondary-email-none = Ingen
 
 tfa-row-header = Tostegs-godkjenning
 tfa-row-enabled = Aktivert
+tfa-row-disabled-status = Avslått
 tfa-row-action-add = Legg til
 tfa-row-action-disable = Slå av
 tfa-row-button-refresh =
@@ -967,6 +970,9 @@ tfa-row-button-refresh =
 tfa-row-cannot-refresh =
     Diverre oppstod eit problem med å oppdatere
     tostegs-godkjenning.
+# "this" refers to two-step authentication
+# Link goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+tfa-row-enabled-info-link = Korleis dette vernar kontoen din
 tfa-row-disable-modal-heading = Deaktivere tostegs-godkjenning?
 tfa-row-disable-modal-confirm = Slå av
 # Shown in an alert bar after two-step authentication is disabled
@@ -1028,6 +1034,11 @@ auth-error-1032 = Du må skrive inn ein gyldig alder for å registrere deg
 auth-error-1054 = Feil tostegs-godkjenningskode
 auth-error-1056 = Ugyldig reserve-godkjenningskode
 auth-error-1062 = Ugyldig omdirigering
+# Displayed when we want to reference a user's previously set up recovery phone
+# number, but they are not completely signed in yet. We'll only show the last 4 digits.
+# Variables:
+#  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
+recovery-phone-number-ending-digits = Nummer som sluttar på { $lastFourPhoneNumber }
 oauth-error-1000 = Noko gjekk gale. Lat att fana og prøv på nytt.
 
 ## Cannot Create Account page
@@ -1091,6 +1102,7 @@ index-email-input =
 
 inline-recovery-key-setup-recovery-created = Kontogjenopprettingsnøkkel oppretta
 inline-recovery-key-setup-download-header = Sikre kontoen din
+inline-recovery-key-setup-download-subheader = Last ned og lagre han no
 inline-recovery-key-setup-hint-header = Tryggingstilråding
 
 ## InlineRecoverySetup page
