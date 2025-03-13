@@ -7,11 +7,21 @@ session-verify-send-push-body-2 = Clique aqui para confirmar que é você
 # Messages should be limited to one segment
 # $code  - 6 digit code used to verify phone ownership when registering a recovery phone
 recovery-phone-setup-sms-body = { $code } é o seu código de confirmação da { -brand-mozilla }. Expira em 5 minutos.
+# Shorter message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to verify phone ownership when registering a recovery phone
+recovery-phone-setup-sms-short-body = Código de confirmação da { -brand-mozilla }: { $code }
 # Message sent by SMS with limited character length, please test translation with the messaging segment calculator
 # https://twiliodeved.github.io/message-segment-calculator/
 # Messages should be limited to one segment
 # $code  - 6 digit code used to sign in with a recovery phone as backup for two-step authentication
 recovery-phone-signin-sms-body = { $code } é o seu código de recuperação da { -brand-mozilla }. Expira em 5 minutos.
+# Shorter message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to sign in with a recovery phone as backup for two-step authentication
+recovery-phone-signin-sms-short-body = Código da { -brand-mozilla }: { $code }
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
@@ -61,7 +71,7 @@ subplat-privacy = Privacidade
 subplat-privacy-website-plaintext = { subplat-privacy }:
 account-deletion-info-block-communications = Se a sua conta for apagada, irá continuar a receber e-mails da Mozilla Corporation e da Mozilla Foundation, a menos que <a data-l10n-name="unsubscribeLink">peça para cancelar a subscrição</a>.
 account-deletion-info-block-support = Se tiver quaisquer questões ou precisar de ajuda, não hesite em contactar a nossa <a data-l10n-name="supportLink">equipa de apoio</a>.
-account-deletion-info-block-communications-plaintext = Se a sua conta for eliminada, irá continuar a receber emails da Mozilla Corporation e da Mozilla Foundation, a menos que peça para cancelar a subscrição:
+account-deletion-info-block-communications-plaintext = Se a sua conta for eliminada, irá continuar a receber e-mails da Mozilla Corporation e da Mozilla Foundation, a menos que peça para cancelar a subscrição:
 account-deletion-info-block-support-plaintext = Se tiver quaisquer dúvidas ou precisar de ajuda, não hesite em contactar a nossa equipa de apoio:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
@@ -90,7 +100,7 @@ automated-email-support = Para mais informação, visite o <a data-l10n-name="su
 automated-email-change-plaintext-2 = Se não executou esta ação, altere a sua palavra-passe imediatamente:
 #  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-support-plaintext = Para mais informação, visite o Apoio da { -brand-mozilla }:
-automated-email-inactive-account = Este é um email automático. Está a receber a mesma porque tem uma { -product-mozilla-account } e passou 2 anos desde o seu último início de sessão.
+automated-email-inactive-account = Este é um e-mail automático. Está a recebê-lo porque possui uma { -product-mozilla-account } e já passaram 2 anos desde a sua última autenticação.
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } Para mais informação, visite o <a data-l10n-name="supportLink">Apoio da { -brand-mozilla }</a>
 automated-email-no-action-plaintext = Esta é uma mensagem automática. Se a recebeu por engano, não precisa de fazer nada.
@@ -139,7 +149,7 @@ automated-email-reset =
     Para mais informação, por favor visite o <a data-l10n-name="supportLink">Apoio da { -brand-mozilla }</a>.
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
-automated-email-reset-plaintext-v2 = Se não autorizou esta ação, por favor reponha a sua palavra-passe agora em { $resetLink }
+automated-email-reset-plaintext-v2 = Caso não tenha autorizado esta ação, por favor, proceda imediatamente à reposição da sua palavra-passe em { $resetLink }
 brand-banner-message = Sabia que nós alterámos o nosso nome de { -product-firefox-accounts } para { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Saiba mais</a>
 cancellationSurvey = Ajude-nos a melhorar os nossos serviços preenchendo este <a data-l10n-name="cancellationSurveyUrl">pequeno questionário</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
@@ -273,19 +283,19 @@ inactiveAccountFinalWarning-action-plaintext = Iniciar sessão para manter a sua
 inactiveAccountFirstWarning-subject = Não perca a sua conta
 inactiveAccountFirstWarning-title = Pretende manter a sua conta e os dados da { -brand-mozilla }?
 inactiveAccountFirstWarning-account-description-v2 = A sua { -product-mozilla-account } é utilizada para aceder gratuitamente a produtos de privacidade e de navegação como o { -brand-firefox } sync, { -product-mozilla-monitor }, { -product-firefox-relay } e { -product-mdn }.
-inactiveAccountFirstWarning-inactive-status = Notámos que não iniciou a sessão há 2 anos.
+inactiveAccountFirstWarning-inactive-status = Verificámos que não iniciou sessão nos últimos dois anos.
 # $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
 # This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
-inactiveAccountFirstWarning-impact = A sua conta e os seus dados pessoais serão eliminados permanentemente a <strong>{ $deletionDate }</strong> porque não tem estado ativo.
+inactiveAccountFirstWarning-impact = A sua conta e os seus dados pessoais serão eliminados permanentemente a <strong>{ $deletionDate }</strong> por inatividade.
 inactiveAccountFirstWarning-action = Iniciar sessão para manter a sua conta
 inactiveAccountFirstWarning-preview = Iniciar sessão para manter a sua conta
 # followed by link to sign in
 inactiveAccountFirstWarning-action-plaintext = Iniciar sessão para manter a sua conta:
-inactiveAccountSecondWarning-subject = Ação necessária: eliminação da conta em 7 dias
+inactiveAccountSecondWarning-subject = Ação necessária: eliminação de conta em 7 dias
 inactiveAccountSecondWarning-title = A sua conta e dados da { -brand-mozilla } serão eliminados em 7 dias
 inactiveAccountSecondWarning-account-description-v2 = A sua { -product-mozilla-account } é utilizada para aceder gratuitamente a produtos de privacidade e de navegação como o { -brand-firefox } sync, { -product-mozilla-monitor }, { -product-firefox-relay } e { -product-mdn }.
 # $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
-inactiveAccountSecondWarning-impact = A sua conta e os seus dados pessoais serão eliminados permanentemente a <strong>{ $deletionDate }</strong> porque não tem estado ativo.
+inactiveAccountSecondWarning-impact = A sua conta e os seus dados pessoais serão eliminados permanentemente a <strong>{ $deletionDate }</strong> por inatividade.
 inactiveAccountSecondWarning-action = Iniciar sessão para manter a sua conta
 inactiveAccountSecondWarning-preview = Iniciar sessão para manter a sua conta
 # followed by link to sign in
@@ -368,6 +378,9 @@ postAddLinkedAccount-action = Gerir conta
 postAddRecoveryPhone-subject = Telefone de recuperação adicionado
 postAddRecoveryPhone-preview = Conta protegida por autenticação de dois passos
 postAddRecoveryPhone-title = Criou um número de telefone de recuperação
+# Variables:
+#  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
+postAddRecoveryPhone-description-v2 = Você adicionou { $maskedLastFourPhoneNumber } como o seu número de telefone de recuperação
 # Links out to a support article about two factor authentication
 postAddRecoveryPhone-how-protect = Como isto protege a sua conta
 postAddRecoveryPhone-how-protect-plaintext = Como isto protege a sua conta:

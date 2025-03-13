@@ -7,11 +7,21 @@ session-verify-send-push-body-2 = Klik hjir om te befêstigjen dat jo it binne
 # Messages should be limited to one segment
 # $code  - 6 digit code used to verify phone ownership when registering a recovery phone
 recovery-phone-setup-sms-body = { $code } is jo { -brand-mozilla }-ferifikaasjekoade. Ferrint oer 5 minuten.
+# Shorter message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to verify phone ownership when registering a recovery phone
+recovery-phone-setup-sms-short-body = { -brand-mozilla }-ferifikaasjekoade: { $code }
 # Message sent by SMS with limited character length, please test translation with the messaging segment calculator
 # https://twiliodeved.github.io/message-segment-calculator/
 # Messages should be limited to one segment
 # $code  - 6 digit code used to sign in with a recovery phone as backup for two-step authentication
 recovery-phone-signin-sms-body = { $code } is jo { -brand-mozilla }-werstelkoade. Ferrint oer 5 minuten.
+# Shorter message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to sign in with a recovery phone as backup for two-step authentication
+recovery-phone-signin-sms-short-body = { -brand-mozilla }-koade: { $code }
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
@@ -368,6 +378,9 @@ postAddLinkedAccount-action = Account beheare
 postAddRecoveryPhone-subject = Wersteltelefoannûmer tafoege
 postAddRecoveryPhone-preview = Account beskerme troch twa-stapsautentikaasje
 postAddRecoveryPhone-title = Jo hawwe in wersteltelefoannûmer oanmakke
+# Variables:
+#  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
+postAddRecoveryPhone-description-v2 = Jo hawwe { $maskedLastFourPhoneNumber } as jo wersteltelefoannûmer tafoege
 # Links out to a support article about two factor authentication
 postAddRecoveryPhone-how-protect = Hoe dit jo account beskermet
 postAddRecoveryPhone-how-protect-plaintext = Hoe dit jo account beskermet:
