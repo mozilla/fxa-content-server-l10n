@@ -7,6 +7,8 @@ next-iap-upgrade-contact-support = Du kan framleis få dette produktet — konta
 next-payment-error-retry-button = Prøv igjen
 next-basic-error-message = Noko gjekk gale. Prøv igjen seinare.
 checkout-error-contact-support-button = Kontakt brukarstøtte
+checkout-error-not-eligible = Du er ikkje kvalifisert til å abonnere på dette produktet - kontakt brukarstøtta slik at vi kan hjelpe deg.
+checkout-error-contact-support = Kontakt brukarstøtte, slik at vi kan hjelpe deg.
 
 ## Page
 
