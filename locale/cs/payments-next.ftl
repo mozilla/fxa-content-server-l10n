@@ -11,6 +11,9 @@ next-payment-method-first-approve = Nejprve musíte schválit své předplatné
 
 ## Page - Upgrade page
 
+upgrade-page-payment-information = Informace o platbě
+# $nextInvoiceDate (number) - The date of the next invoice
+upgrade-page-acknowledgment = Vaše předplatné se změní okamžitě a ještě dnes vám bude naúčtována platba jako po zbytek tohoto fakturačního období. Od { $nextInvoiceDate } vám bude účtována plná částka.
 checkout-error-boundary-retry-button = Zkusit znovu
 checkout-error-boundary-basic-error-message = Něco se pokazilo. Zkuste to znovu nebo <contactSupportLink>kontaktujte podporu</contactSupportLink>.
 
@@ -133,6 +136,7 @@ next-new-user-subscribe-product-assurance = Vaši e-mailovou adresu použijeme p
 plan-price-interval-daily = { $amount } denně
 plan-price-interval-weekly = { $amount } týdně
 plan-price-interval-monthly = { $amount } měsíčně
+plan-price-interval-halfyearly = { $amount } každých 6 měsíců
 plan-price-interval-yearly = { $amount } ročně
 
 ## Component - SubscriptionTitle
@@ -152,6 +156,11 @@ next-subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capita
 next-terms = Podmínky služby
 next-privacy = Zásady ochrany osobních údajů
 next-terms-download = Stáhnout podmínky
+terms-and-privacy-stripe-label = { -brand-mozilla } používá pro bezpečné zpracování plateb { -brand-name-stripe(case: "acc") }.
+terms-and-privacy-stripe-link = zásadách ochrany osobních údajů pro službu { -brand-name-stripe }
+terms-and-privacy-paypal-label = { -brand-mozilla } používá pro bezpečné zpracování plateb { -brand-paypal(case: "acc") }.
+terms-and-privacy-paypal-link = zásadách ochrany osobních údajů pro službu { -brand-paypal }
+terms-and-privacy-stripe-and-paypal-label = { -brand-mozilla } používá pro bezpečné zpracování plateb { -brand-name-stripe } a { -brand-paypal }.
 
 ## Component - UpdatedPurchaseDetails
 
@@ -168,4 +177,5 @@ upgrade-purchase-details-prorated-upgrade = Poměrná aktualizace
 upgrade-purchase-details-new-plan-daily = { $productName } (denně)
 upgrade-purchase-details-new-plan-weekly = { $productName } (týdně)
 upgrade-purchase-details-new-plan-monthly = { $productName } (měsíčně)
+upgrade-purchase-details-new-plan-halfyearly = { $productName } (6 měsíců)
 upgrade-purchase-details-new-plan-yearly = { $productName } (ročně)

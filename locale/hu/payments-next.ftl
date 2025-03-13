@@ -11,6 +11,9 @@ next-payment-method-first-approve = Először jóvá kell hagynia az előfizeté
 
 ## Page - Upgrade page
 
+upgrade-page-payment-information = Fizetési információk
+# $nextInvoiceDate (number) - The date of the next invoice
+upgrade-page-acknowledgment = A csomagja azonnal megváltozik, és a mai napon arányos összeget fog fizetni a számlázási időszak hátralévő részéből. A(z) { $nextInvoiceDate } naptól kezdve a teljes összeget levonjuk.
 checkout-error-boundary-retry-button = Próbálja újra
 checkout-error-boundary-basic-error-message = Hiba történt. Próbálja újra, vagy <contactSupportLink>lépjen kapcsolatba a támogatással.</contactSupportLink>
 
@@ -133,6 +136,7 @@ next-new-user-subscribe-product-assurance = Csak a fiókja létrehozásához has
 plan-price-interval-daily = { $amount } naponta
 plan-price-interval-weekly = { $amount } hetente
 plan-price-interval-monthly = { $amount } havonta
+plan-price-interval-halfyearly = { $amount } 6 havonta
 plan-price-interval-yearly = { $amount } évente
 
 ## Component - SubscriptionTitle
@@ -152,6 +156,11 @@ next-subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts }
 next-terms = A szolgáltatás feltételei
 next-privacy = Adatvédelmi nyilatkozat
 next-terms-download = Letöltési feltételek
+terms-and-privacy-stripe-label = A { -brand-mozilla } a { -brand-name-stripe }-ot használja a biztonságos fizetésfeldolgozáshoz.
+terms-and-privacy-stripe-link = A { -brand-name-stripe } adatvédelmi irányelveit
+terms-and-privacy-paypal-label = A { -brand-mozilla } a { -brand-paypal }t használja a biztonságos fizetésfeldolgozáshoz.
+terms-and-privacy-paypal-link = a { -brand-paypal } adatvédelmi irányelveit
+terms-and-privacy-stripe-and-paypal-label = A { -brand-mozilla } a { -brand-name-stripe }-ot és a { -brand-paypal }t használja a biztonságos fizetésfeldolgozáshoz.
 
 ## Component - UpdatedPurchaseDetails
 
@@ -168,4 +177,5 @@ upgrade-purchase-details-prorated-upgrade = Időarányos csomagfrissítés
 upgrade-purchase-details-new-plan-daily = { $productName } (napi)
 upgrade-purchase-details-new-plan-weekly = { $productName } (heti)
 upgrade-purchase-details-new-plan-monthly = { $productName } (havi)
+upgrade-purchase-details-new-plan-halfyearly = { $productName } (6 hónapos)
 upgrade-purchase-details-new-plan-yearly = { $productName } (évi)

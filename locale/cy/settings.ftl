@@ -1047,6 +1047,8 @@ tfa-row-backup-phone-delete-button = Tynnu
 # Shown in tooltip on delete button or delete icon
 tfa-row-backup-phone-delete-title-v2 = Dileu'r ffôn adfer
 tfa-row-backup-phone-delete-restriction-v2 = Os ydych chi am ddileu eich ffôn adfer, ychwanegwch godau dilysu wrth gefn neu analluogu dilysiad dau gam yn gyntaf er mwyn osgoi cael eich cloi allan o'ch cyfrif.
+# "this" refers to recovery phone
+tfa-row-backup-phone-description-v2 = Dyma'r dull adfer hawsaf os na allwch ddefnyddio'ch app dilysu.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
@@ -1215,11 +1217,17 @@ auth-error-1003 = Mae storfa leol neu gwcis wedi'u hanalluogi o hyd
 auth-error-1008 = Rhaid i'ch cyfrinair newydd fod yn wahanol
 auth-error-1010 = Rhaid darparu cyfrinair dilys
 auth-error-1011 = Mae angen e-bost dilys
+auth-error-1018 = Dychwelwyd eich e-bost cadarnhau. E-bost wedi'i gamdeipio?
+auth-error-1020 = E-bost wedi'i gamdeipio? Nid yw firefox.com yn wasanaeth e-bost dilys
 auth-error-1031 = Mae'n rhaid i chi roi eich oed er mwyn cofrestru
 auth-error-1032 = Rhaid rhoi oed dilys er mwyn cofrestru
 auth-error-1054 = Cod dilysu dau gam annilys
 auth-error-1056 = Cod dilysu wrth gefn annilys
 auth-error-1062 = Ailgyfeirio annilys
+# Shown when a user tries to sign up with an email address with a domain that doesn't receive emails
+auth-error-1064 = E-bost wedi'i gamdeipio? Nid yw { $domain } yn wasanaeth e-bost dilys
+auth-error-1066 = Nid oes modd defnyddio arallenwau e-bost i greu cyfrifon.
+auth-error-1067 = Camdeipio'r e-bost?
 # Displayed when we want to reference a user's previously set up recovery phone
 # number, but they are not completely signed in yet. We'll only show the last 4 digits.
 # Variables:
@@ -1277,6 +1285,8 @@ cookies-disabled-learn-more = Dysgu rhagor
 index-header = Rhowch eich e-bost
 index-sync-header = Ymlaen i'ch { -product-mozilla-account }
 index-sync-subheader = Cydweddwch eich cyfrineiriau, tabiau a nodau tudalen ym mhob man rydych yn defnyddio { -brand-firefox }.
+index-relay-header = Crëwch arallenw e-bost
+index-relay-subheader = Rhowch y cyfeiriad e-bost lle yr hoffech anfon e-byst ymlaen o'ch e-bost ag arallenw.
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = Ymlaen i { $serviceName }
 index-subheader-with-logo = Ymlaen i <span>{ $serviceLogo }</span>
@@ -1285,6 +1295,10 @@ index-cta = Cofrestrwch neu fewngofnodwch
 index-account-info = Mae { -product-mozilla-account } hefyd yn datgloi mynediad i fwy o gynnyrch sy'n diogelu preifatrwydd gan { -brand-mozilla }.
 index-email-input =
     .label = Rhowch eich e-bost
+# When users delete their Mozilla account inside account Settings, they are redirected to this page with a success message
+index-account-delete-success = Cyfrif wedi ei ddileu'n llwyddiannus
+# Displayed when users try to sign up for an account and their confirmation code email bounces
+index-email-bounced = Dychwelwyd eich e-bost cadarnhau. E-bost wedi'i gamdeipio?
 
 ## InlineRecoveryKeySetup page component
 
@@ -1713,6 +1727,11 @@ signin-recovery-phone-send-code-error-heading = Bu problem wrth anfon cod
 signin-recovery-phone-code-verification-error-heading = Bu problem wrth wirio'ch cod
 # Follows the error message (e.g, "There was a problem sending a code")
 signin-recovery-phone-general-error-description = Ceisiwch eto'n ddiweddarach.
+signin-recovery-phone-invalid-code-error-description = Mae'r cod yn annilys neu wedi dod i ben.
+signin-recovery-phone-invalid-code-error-link = Defnyddio codau dilysu wrth gefn yn lle hynny?
+# "Limits" refers to potential restrictions on how often a recovery phone number can be used for signing in within a given time period.
+# If limits are reached, users may have to use an alternate two-step authentication method or wait until the restriction period is over.
+signin-recovery-phone-success-message = Wedi mewngofnodi yn llwyddiannus. Gall terfynau fod yn berthnasol os byddwch yn defnyddio'ch ffôn adfer eto.
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 

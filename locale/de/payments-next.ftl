@@ -11,6 +11,9 @@ next-payment-method-first-approve = Zuerst müssen Sie Ihren Dauerauftrag genehm
 
 ## Page - Upgrade page
 
+upgrade-page-payment-information = Zahlungsinformationen
+# $nextInvoiceDate (number) - The date of the next invoice
+upgrade-page-acknowledgment = Ihr Plan wird sofort geändert und Ihnen wird heute ein anteiliger Betrag für den Rest dieses Abrechnungszeitraums berechnet. Ab dem { $nextInvoiceDate } wird Ihnen der volle Betrag abgebucht.
 checkout-error-boundary-retry-button = Erneut versuchen
 checkout-error-boundary-basic-error-message = Es trat ein Problem auf. Bitte versuchen Sie es erneut oder <contactSupportLink>wenden Sie sich an den Support</contactSupportLink>
 
@@ -133,6 +136,7 @@ next-new-user-subscribe-product-assurance = Wir verwenden Ihre E-Mail-Adresse nu
 plan-price-interval-daily = { $amount } täglich
 plan-price-interval-weekly = { $amount } wöchentlich
 plan-price-interval-monthly = { $amount } monatlich
+plan-price-interval-halfyearly = { $amount } alle 6 Monate
 plan-price-interval-yearly = { $amount } jährlich
 
 ## Component - SubscriptionTitle
@@ -152,6 +156,11 @@ next-subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capita
 next-terms = Nutzungsbedingungen
 next-privacy = Datenschutzhinweis
 next-terms-download = Nutzungsbedingungen herunterladen
+terms-and-privacy-stripe-label = { -brand-mozilla } verwendet { -brand-name-stripe } für die sichere Zahlungsabwicklung.
+terms-and-privacy-stripe-link = { -brand-name-stripe }-Datenschutzrichtlinie
+terms-and-privacy-paypal-label = { -brand-mozilla } verwendet { -brand-paypal } für die sichere Zahlungsabwicklung.
+terms-and-privacy-paypal-link = { -brand-paypal }-Datenschutzerklärung
+terms-and-privacy-stripe-and-paypal-label = { -brand-mozilla } verwendet { -brand-name-stripe } und { -brand-paypal } für die sichere Zahlungsabwicklung.
 
 ## Component - UpdatedPurchaseDetails
 
@@ -168,4 +177,5 @@ upgrade-purchase-details-prorated-upgrade = Anteiliges Upgrade
 upgrade-purchase-details-new-plan-daily = { $productName } (täglich)
 upgrade-purchase-details-new-plan-weekly = { $productName } (wöchentlich)
 upgrade-purchase-details-new-plan-monthly = { $productName } (monatlich)
+upgrade-purchase-details-new-plan-halfyearly = { $productName } sechs Monate
 upgrade-purchase-details-new-plan-yearly = { $productName } (jährlich)

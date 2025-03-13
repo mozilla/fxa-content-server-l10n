@@ -11,6 +11,9 @@ next-payment-method-first-approve = Vous devez d’abord approuver votre abonnem
 
 ## Page - Upgrade page
 
+upgrade-page-payment-information = Informations de paiement
+# $nextInvoiceDate (number) - The date of the next invoice
+upgrade-page-acknowledgment = Votre forfait changera immédiatement et un montant calculé au prorata vous sera facturé aujourd’hui pour le reste du cycle de facturation. À partir du { $nextInvoiceDate }, le montant total vous sera facturé.
 checkout-error-boundary-retry-button = Réessayer
 checkout-error-boundary-basic-error-message = Quelque chose s’est mal passé. Veuillez réessayer ou <contactSupportLink>contacter l’assistance.</contactSupportLink>
 
@@ -133,6 +136,7 @@ next-new-user-subscribe-product-assurance = Nous utilisons votre adresse e-mail 
 plan-price-interval-daily = { $amount } par jour
 plan-price-interval-weekly = { $amount } par semaine
 plan-price-interval-monthly = { $amount } par mois
+plan-price-interval-halfyearly = { $amount } tous les 6 mois
 plan-price-interval-yearly = { $amount } par an
 
 ## Component - SubscriptionTitle
@@ -152,6 +156,11 @@ next-subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capita
 next-terms = Conditions d’utilisation
 next-privacy = Politique de confidentialité
 next-terms-download = Télécharger les conditions
+terms-and-privacy-stripe-label = { -brand-mozilla } utilise { -brand-name-stripe } pour le traitement sécurisé des paiements.
+terms-and-privacy-stripe-link = Politique de confidentialité de { -brand-name-stripe }
+terms-and-privacy-paypal-label = { -brand-mozilla } utilise { -brand-paypal } pour le traitement sécurisé des paiements.
+terms-and-privacy-paypal-link = Politique de confidentialité de { -brand-paypal }
+terms-and-privacy-stripe-and-paypal-label = { -brand-mozilla } utilise { -brand-name-stripe } et { -brand-paypal } pour le traitement sécurisé des paiements.
 
 ## Component - UpdatedPurchaseDetails
 
@@ -168,4 +177,5 @@ upgrade-purchase-details-prorated-upgrade = Mise à niveau calculée au prorata
 upgrade-purchase-details-new-plan-daily = { $productName } (quotidien)
 upgrade-purchase-details-new-plan-weekly = { $productName } (hebdomadaire)
 upgrade-purchase-details-new-plan-monthly = { $productName } (mensuel)
+upgrade-purchase-details-new-plan-halfyearly = { $productName } (six mois)
 upgrade-purchase-details-new-plan-yearly = { $productName } (annuel)

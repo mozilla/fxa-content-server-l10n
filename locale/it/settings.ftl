@@ -1036,6 +1036,8 @@ tfa-row-backup-phone-delete-button = Rimuovi
 # Shown in tooltip on delete button or delete icon
 tfa-row-backup-phone-delete-title-v2 = Rimuovi il numero di telefono per il recupero dell’account
 tfa-row-backup-phone-delete-restriction-v2 = Se desideri rimuovere il numero di telefono per il recupero dell’account, aggiungi i codici di autenticazione di backup o disattiva l’autenticazione in due passaggi per evitare di rimanere bloccato fuori dal tuo account.
+# "this" refers to recovery phone
+tfa-row-backup-phone-description-v2 = Questo è il metodo di recupero più semplice se non puoi utilizzare l’app di autenticazione.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
@@ -1200,11 +1202,17 @@ auth-error-1003 = L’archiviazione locale o i cookie sono ancora disattivati
 auth-error-1008 = La nuova password deve essere diversa
 auth-error-1010 = È necessario inserire una password valida
 auth-error-1011 = È necessario inserire un indirizzo email valido
+auth-error-1018 = L’email di conferma è stata respinta. Verifica di aver digitato correttamente l’indirizzo email.
+auth-error-1020 = Email digitata in modo errato? firefox.com non è un servizio di posta elettronica valido
 auth-error-1031 = Per completare la registrazione devi inserire la tua età
 auth-error-1032 = Per completare la registrazione inserire un’età valida
 auth-error-1054 = Codice di autenticazione in due passaggi non valido
 auth-error-1056 = Codice di autenticazione di backup non valido
 auth-error-1062 = Reindirizzamento non valido
+# Shown when a user tries to sign up with an email address with a domain that doesn't receive emails
+auth-error-1064 = Email digitata in modo errato? { $domain } non è un servizio di posta valido
+auth-error-1066 = Non è possibile utilizzare alias di posta elettronica per creare un account.
+auth-error-1067 = C’è un errore di battitura nell’indirizzo email?
 # Displayed when we want to reference a user's previously set up recovery phone
 # number, but they are not completely signed in yet. We'll only show the last 4 digits.
 # Variables:
@@ -1262,6 +1270,8 @@ cookies-disabled-learn-more = Ulteriori informazioni
 index-header = Inserisci la tua email
 index-sync-header = Passa al tuo { -product-mozilla-account }
 index-sync-subheader = Sincronizza password, schede e segnalibri ovunque utilizzi { -brand-firefox }.
+index-relay-header = Crea un alias di posta elettronica
+index-relay-subheader = Fornisci l’indirizzo email a cui desideri inoltrare le email dal tuo alias di posta elettronica.
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = Continua su { $serviceName }
 index-subheader-with-logo = Continua su <span>{ $serviceLogo }</span>
@@ -1270,6 +1280,10 @@ index-cta = Registrati o accedi
 index-account-info = Un { -product-mozilla-account } consente inoltre di accedere ad altri prodotti { -brand-mozilla } per la protezione della privacy.
 index-email-input =
     .label = Inserisci la tua email
+# When users delete their Mozilla account inside account Settings, they are redirected to this page with a success message
+index-account-delete-success = L’account è stato correttamente eliminato
+# Displayed when users try to sign up for an account and their confirmation code email bounces
+index-email-bounced = L’email di conferma è stata respinta. Verifica di aver digitato correttamente l’indirizzo email.
 
 ## InlineRecoveryKeySetup page component
 
@@ -1694,6 +1708,11 @@ signin-recovery-phone-send-code-error-heading = Si è verificato un problema dur
 signin-recovery-phone-code-verification-error-heading = Si è verificato un problema durante la verifica del codice
 # Follows the error message (e.g, "There was a problem sending a code")
 signin-recovery-phone-general-error-description = Riprova più tardi.
+signin-recovery-phone-invalid-code-error-description = Il codice non è valido o è scaduto.
+signin-recovery-phone-invalid-code-error-link = Utilizzare invece codici di autenticazione di backup?
+# "Limits" refers to potential restrictions on how often a recovery phone number can be used for signing in within a given time period.
+# If limits are reached, users may have to use an alternate two-step authentication method or wait until the restriction period is over.
+signin-recovery-phone-success-message = Accesso effettuato correttamente. Se utilizzi nuovamente il tuo numero di telefono di recupero, potrebbero essere applicati dei limiti.
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 

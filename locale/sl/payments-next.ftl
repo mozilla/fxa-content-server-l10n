@@ -11,6 +11,9 @@ next-payment-method-first-approve = Najprej morate odobriti svojo naročnino
 
 ## Page - Upgrade page
 
+upgrade-page-payment-information = Podatki o plačilu
+# $nextInvoiceDate (number) - The date of the next invoice
+upgrade-page-acknowledgment = Vaš načrt se bo takoj spremenil in danes vam bomo zaračunali sorazmeren znesek do preostanka obračunskega cikla. Od { $nextInvoiceDate } vam bomo zaračunali celoten znesek.
 checkout-error-boundary-retry-button = Poskusi znova
 checkout-error-boundary-basic-error-message = Nekaj je šlo narobe. Poskusite znova ali <contactSupportLink>se obrnite na podporo</contactSupportLink>.
 
@@ -133,6 +136,7 @@ next-new-user-subscribe-product-assurance = Vaš e-poštni naslov uporabimo samo
 plan-price-interval-daily = { $amount } dnevno
 plan-price-interval-weekly = { $amount } tedensko
 plan-price-interval-monthly = { $amount } mesečno
+plan-price-interval-halfyearly = { $amount } vsakih 6 mesecev
 plan-price-interval-yearly = { $amount } letno
 
 ## Component - SubscriptionTitle
@@ -152,6 +156,11 @@ next-subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(zacetn
 next-terms = Pogoji storitve
 next-privacy = Obvestilo o zasebnosti
 next-terms-download = Pogoji prenosa
+terms-and-privacy-stripe-label = { -brand-mozilla } za varno obdelavo plačil uporablja storitev { -brand-name-stripe }.
+terms-and-privacy-stripe-link = pravilnik o zasebnosti { -brand-name-stripe }
+terms-and-privacy-paypal-label = { -brand-mozilla } za varno obdelavo plačil uporablja storitev { -brand-paypal }.
+terms-and-privacy-paypal-link = Pravilnik o zasebnosti { -brand-paypal(sklon: "rodilnik") }
+terms-and-privacy-stripe-and-paypal-label = { -brand-mozilla } za varno obdelavo plačil uporablja storitvi { -brand-name-stripe } in { -brand-paypal }.
 
 ## Component - UpdatedPurchaseDetails
 
@@ -168,4 +177,5 @@ upgrade-purchase-details-prorated-upgrade = Sorazmerna nadgradnja
 upgrade-purchase-details-new-plan-daily = { $productName } (dnevno)
 upgrade-purchase-details-new-plan-weekly = { $productName } (tedensko)
 upgrade-purchase-details-new-plan-monthly = { $productName } (mesečno)
+upgrade-purchase-details-new-plan-halfyearly = { $productName } (6-mesečni)
 upgrade-purchase-details-new-plan-yearly = { $productName } (letno)

@@ -11,6 +11,9 @@ next-payment-method-first-approve = Yn gyntaf bydd angen i chi gymeradwyo'ch tan
 
 ## Page - Upgrade page
 
+upgrade-page-payment-information = Manylion Talu
+# $nextInvoiceDate (number) - The date of the next invoice
+upgrade-page-acknowledgment = Bydd eich cynllun yn newid ar unwaith, a chodir swm pro rata arnoch heddiw am weddill y cylch bilio hwn. Gan ddechrau { $nextInvoiceDate } codir y swm llawn arnoch.
 checkout-error-boundary-retry-button = Ceisiwch eto
 checkout-error-boundary-basic-error-message = Aeth rhywbeth o'i le. Ceisiwch eto neu <contactSupportLink>cysylltwch â'n cymorth.</contactSupportLink>
 
@@ -133,6 +136,7 @@ next-new-user-subscribe-product-assurance = Dim ond i greu eich cyfrif rydym yn 
 plan-price-interval-daily = { $amount } yn dyddiol
 plan-price-interval-weekly = { $amount } yn wythnosol
 plan-price-interval-monthly = { $amount } yn fisol
+plan-price-interval-halfyearly = { $amount } bob 6 mis
 plan-price-interval-yearly = { $amount } y flwyddyn
 
 ## Component - SubscriptionTitle
@@ -152,6 +156,11 @@ next-subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capita
 next-terms = Amodau Gwasanaeth
 next-privacy = Hysbysiad Preifatrwydd
 next-terms-download = Amodau Llwytho i Lawr
+terms-and-privacy-stripe-label = Mae { -brand-mozilla } yn defnyddio { -brand-name-stripe } ar gyfer prosesu taliadau'n ddiogel.
+terms-and-privacy-stripe-link = polisi preifatrwydd { -brand-name-stripe }
+terms-and-privacy-paypal-label = Mae { -brand-mozilla } yn defnyddio { -brand-paypal } ar gyfer prosesu taliadau'n ddiogel.
+terms-and-privacy-paypal-link = polisi preifatrwydd { -brand-paypal }
+terms-and-privacy-stripe-and-paypal-label = Mae { -brand-mozilla } yn defnyddio { -brand-name-stripe } a { -brand-paypal } ar gyfer prosesu taliadau'n ddiogel.
 
 ## Component - UpdatedPurchaseDetails
 
@@ -168,4 +177,5 @@ upgrade-purchase-details-prorated-upgrade = Uwchraddio yn Ôl y Raddfa
 upgrade-purchase-details-new-plan-daily = { $productName } ( Dyddiol )
 upgrade-purchase-details-new-plan-weekly = { $productName } ( Wythnosol )
 upgrade-purchase-details-new-plan-monthly = { $productName } ( Misol)
+upgrade-purchase-details-new-plan-halfyearly = { $productName } (6-mis)
 upgrade-purchase-details-new-plan-yearly = { $productName } (Blynyddol)
