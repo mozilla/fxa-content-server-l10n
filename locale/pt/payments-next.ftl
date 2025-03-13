@@ -7,8 +7,8 @@ next-iap-upgrade-contact-support = Ainda pode obter este produto – contacte o 
 next-payment-error-retry-button = Tentar novamente
 next-basic-error-message = Algo correu mal. Tente novamente mais tarde.
 checkout-error-contact-support-button = Contactar o apoio
-checkout-error-not-eligible = Não é elegível a subscrever este produto - por favor, contacte o suporte para que possamos ajudar.
-checkout-error-contact-support = Por favor, contacte o suporte para que possamos ajudar.
+checkout-error-not-eligible = Não é elegível a subscrever este produto. Por favor, contacte o apoio para que possamos ajudar.
+checkout-error-contact-support = Por favor, contacte o apoio para que possamos ajudar.
 
 ## Page
 
@@ -72,8 +72,15 @@ next-new-user-card-title = Introduza a informação do seu cartão
 
 ## Component - PurchaseDetails
 
+next-plan-details-header = Detalhes do produto
+next-plan-details-list-price = Preço de tabela
+next-plan-details-tax = Impostos e Taxas
+next-plan-details-total-label = Total
 next-plan-details-hide-button = Ocultar detalhes
 next-plan-details-show-button = Mostrar detalhes
+next-coupon-success = O seu plano será renovado automaticamente pelo preço de tabela.
+# $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
+next-coupon-success-repeating = O seu plano será renovado automaticamente depois de { $couponDurationDate } pelo preço de tabela.
 
 ## Select Tax Location
 
@@ -101,22 +108,6 @@ next-new-user-subscribe-product-updates-mozilla = Eu gostaria de receber notíci
 next-new-user-subscribe-product-updates-snp = Eu gostaria de receber notícias e atualizações sobre segurança e privacidade da { -brand-mozilla }
 next-new-user-subscribe-product-assurance = Nós apenas utilizamos o seu e-mail para criar a sua conta. Nós nunca iremos vendê-lo a terceiros.
 
-## Component - Details
-
-next-plan-details-header = Detalhes do produto
-next-plan-details-list-price = Preço de tabela
-next-plan-details-tax = Impostos e Taxas
-next-plan-details-total-label = Total
-
-## Purchase details - shared by multiple components, including purchase details and payment form
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
-list-positive-amount = { $amount }
-list-negative-amount = - { $amount }
-next-coupon-success = O seu plano será renovado automaticamente pelo preço de tabela.
-# $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
-next-coupon-success-repeating = O seu plano será renovado automaticamente depois de { $couponDurationDate } pelo preço de tabela.
-
 ## Component - PriceInterval
 
 
@@ -135,6 +126,7 @@ next-subscription-create-title = Configurar a sua subscrição.
 next-subscription-success-title = Confirmação de subscrição
 next-subscription-processing-title = A confirmar a subscrição…
 next-subscription-error-title = Erro ao confirmar a subscrição…
+subscription-title-plan-change-heading = Rever a sua alteração
 next-sub-guarantee = Garantia de devolução do dinheiro em 30 dias
 
 ## Component - TermsAndPrivacy
@@ -145,3 +137,20 @@ next-subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capita
 next-terms = Termos do serviço
 next-privacy = Informação de privacidade
 next-terms-download = Termos da transferência
+
+## Component - UpdatedPurchaseDetails
+
+upgrade-purchase-details-current-plan-label = Plano atual
+upgrade-purchase-details-new-plan-label = Novo plano
+upgrade-purchase-details-promo-code = Código promocional
+upgrade-purchase-details-tax-label = Impostos e taxas
+upgrade-purchase-details-new-total-label = Novo total
+upgrade-purchase-details-prorated-upgrade = Atualização Prorrateada
+
+## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
+## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
+
+upgrade-purchase-details-new-plan-daily = { $productName } (diariamente)
+upgrade-purchase-details-new-plan-weekly = { $productName } (semanalmente)
+upgrade-purchase-details-new-plan-monthly = { $productName } (mensalmente)
+upgrade-purchase-details-new-plan-yearly = { $productName } (anualmente)

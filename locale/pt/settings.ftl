@@ -501,9 +501,6 @@ connect-another-play-store-image =
 connect-another-app-store-image-2 =
     .title = Transfira o { -brand-firefox } da { -app-store }
 
-##
-
-
 ## Connected services section
 
 cs-heading = Serviços associados
@@ -550,9 +547,6 @@ cs-disconnect-lost-advice-content-3 = Porque o seu dispositivo foi perdido ou ro
 cs-disconnect-suspicious-advice-heading = Dispositivo suspeito desassociado
 cs-disconnect-suspicious-advice-content-2 = Se o dispositivo desassociado é, de facto, suspeito, para manter a sua informação segura, deveria alterar a sua palavra-passe do { -product-mozilla-account } nas suas definições da conta. Também deveria alterar quaisquer outras palavras-passe que guardou no { -brand-firefox }, digitando about:logins na barra de endereço.
 cs-sign-out-button = Terminar sessão
-
-##
-
 
 ## Data collection section
 
@@ -649,8 +643,8 @@ flow-setup-phone-verify-number-instruction = Irá receber uma mensagem de texto 
 # Voice over Internet Protocol (VoIP), is a technology that uses a broadband Internet connection instead of a regular (or analog) phone line to make calls.
 # Phone mask services (for example Relay) provide a temporary virtual number to avoid providing a real phone number.
 # Both VoIP and phone masks can be unreliable for one-time-passcode (OTP) verification
-flow-setup-phone-submit-number-info-message-v2 = O telefone de recuperação está disponível apenas nos Estados Unidos e Canadá. Números de IP e máscaras de telefone não são recomendados.
-flow-setup-phone-submit-number-legal = Ao fornecer o seu número, concorda que o armazenemos para que possamos enviar mensagens de texto apenas para verificação da conta. Podem ser aplicadas taxas de mensagens e de dados.
+flow-setup-phone-submit-number-info-message-v2 = O telefone de recuperação está disponível apenas nos Estados Unidos e Canadá. Não se recomenda a utilização de números VoIP e máscaras de telefónicas.
+flow-setup-phone-submit-number-legal = Ao fornecer o seu número, concorda que o armazenemos para que possamos enviar mensagens de texto apenas para a verificação da conta. Podem ser aplicadas taxas de mensagens e de dados.
 # cliking on the button sends a code by text message to the phone number typed in by the user
 flow-setup-phone-submit-number-button = Enviar código
 
@@ -742,9 +736,6 @@ avatar-page-file-upload-error-3 = Ocorreu um problema ao enviar a sua foto de pe
 avatar-page-delete-error-3 = Ocorreu um problema ao eliminar a sua foto de perfil.
 avatar-page-image-too-large-error-2 = O tamanho do ficheiro de imagem é muito grande para ser carregado
 
-##
-
-
 ## Password change page
 
 pw-change-header =
@@ -766,18 +757,12 @@ pw-change-confirm-password =
     .label = Confirme a nova palavra-passe
 pw-change-success-alert-2 = Palavra-passe atualizada
 
-##
-
-
 ## Password create page
 
 pw-create-header =
     .title = Criar palavra-passe
 pw-create-success-alert-2 = Palavra-passe definida
 pw-create-error-2 = Pedimos desculpa, mas ocorreu um problema ao definir a sua palavra-passe
-
-##
-
 
 ## Delete account page
 
@@ -812,9 +797,6 @@ pocket-delete-notice-marketing = Para parar de receber e-mails de marketing da M
 delete-account-cancel-button = Cancelar
 delete-account-delete-button-2 = Eliminar
 
-##
-
-
 ## Display name page
 
 display-name-page-title =
@@ -825,9 +807,6 @@ submit-display-name = Guardar
 cancel-display-name = Cancelar
 display-name-update-error-2 = Houve um problema ao atualizar o seu nome de apresentação
 display-name-success-alert-2 = Nome de apresentação atualizado
-
-##
-
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
@@ -860,8 +839,8 @@ recent-activity-account-secondary-email-added = Endereço de e-mail secundário 
 recent-activity-account-secondary-email-removed = Endereço de e-mail secundário removido
 recent-activity-account-emails-swapped = E-mails primários e secundários trocados
 recent-activity-session-destroy = Sessão terminada
-recent-activity-account-recovery-phone-send-code = Código de recuperação do telefone enviado
-recent-activity-account-recovery-phone-setup-complete = Configuração de recuperação do telefone concluída
+recent-activity-account-recovery-phone-send-code = Código de telefone de recuperação enviado
+recent-activity-account-recovery-phone-setup-complete = Configuração de telefone de recuperação concluída
 recent-activity-account-recovery-phone-signin-complete = Início de sessão com o telefone de recuperação concluído
 recent-activity-account-recovery-phone-signin-failed = A autenticação com o telefone de recuperação falhou
 recent-activity-account-recovery-phone-removed = Telefone de recuperação removido
@@ -888,7 +867,7 @@ recovery-phone-remove-header = Remover número de telefone de recuperação
 settings-recovery-phone-remove-info = Isto irá remover <strong>{ $formattedFullPhoneNumber }</strong> como o seu telefone de recuperação.
 settings-recovery-phone-remove-recommend = Recomendamos que mantenha este método porque é mais fácil do que guardar códigos de autenticação de recuperação.
 # "Saved backup authentication codes" refers to previously saved backup authentication codes
-settings-recovery-phone-remove-recovery-methods = Se apagá-la, certifique-se que ainda tem os seus códigos de recuperação de autenticação guardados. <linkExternal>Comparar métodos de recuperação</linkExternal>
+settings-recovery-phone-remove-recovery-methods = Caso o elimine, assegure-se de que ainda possui os seus códigos de autenticação de reserva guardados. <linkExternal>Comparar métodos de recuperação</linkExternal>
 settings-recovery-phone-remove-button = Remover número de telefone
 settings-recovery-phone-remove-cancel = Cancelar
 settings-recovery-phone-remove-success = Telefone de recuperação removido
@@ -897,6 +876,8 @@ settings-recovery-phone-remove-success = Telefone de recuperação removido
 
 page-setup-recovery-phone-heading = Adicionar telefone de recuperação
 page-setup-recovery-phone-back-button-title = Voltar para as definições
+# Back arrow to return to step 1 of recovery phone setup flow
+page-setup-recovery-phone-step2-back-button-title = Alterar número de telefone
 
 ## Add secondary email page
 
@@ -937,7 +918,7 @@ verify-secondary-email-success-alert-2 = { $email } adicionado com sucesso
 # Link to delete account on main Settings page
 delete-account-link = Eliminar conta
 # Success message displayed in alert bar after the user has successfully confirmed their account is not inactive.
-inactive-update-status-success-alert = Sessão iniciada com sucesso. A sua { -product-mozilla-account } e dados irão manter-se ativos.
+inactive-update-status-success-alert = Sessão iniciada com sucesso. A sua { -product-mozilla-account } e os respetivos dados vão manter-se ativos.
 
 ## Two Step Authentication
 
@@ -977,9 +958,6 @@ tfa-enter-code-to-confirm-setup = Confirme que guardou os seus códigos ao intro
 tfa-enter-recovery-code-1 =
     .label = Insira um código de autenticação de recuperação
 
-##
-
-
 ## Product promotion
 
 product-promo-monitor =
@@ -1000,9 +978,6 @@ profile-display-name =
     .header = Nome de apresentação
 profile-primary-email =
     .header = E-mail primário
-
-##
-
 
 ## Progress bar
 
@@ -1043,7 +1018,7 @@ tfa-row-backup-codes-available-v2 =
        *[other] { $numCodesAvailable } códigos remanescentes
     }
 # Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
-tfa-row-backup-codes-get-new-cta = Obter novos códigos
+tfa-row-backup-codes-get-new-cta-v2 = Criar novos códigos
 # Shown to users who have no backup authentication codes
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = Adicionar
@@ -1053,7 +1028,7 @@ tfa-row-backup-codes-description-2 = Este é o método de recuperação mais seg
 # A recovery code can be sent to the user's phone
 tfa-row-backup-phone-title-v2 = Telefone de recuperação
 # Shown with an alert icon to indicate that no recovery phone is configured
-tfa-row-backup-phone-not-available = Não existe um número de telefone de recuperação disponível
+tfa-row-backup-phone-not-available-v2 = Nenhum número de telefone adicionado
 # button to change the configured recovery phone
 tfa-row-backup-phone-change-cta = Alterar
 # button to add/configure a recovery phone
@@ -1147,9 +1122,6 @@ se-content-note-1 =
 # Default value for the secondary email
 se-secondary-email-none = Nenhum
 
-##
-
-
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Autenticação de dois fatores
@@ -1229,7 +1201,7 @@ auth-error-206 = Não foi possível criar a palavra-passe: a palavra-passe já f
 auth-error-214 = O número de telefone de recuperação já existe
 auth-error-215 = O número de telefone de recuperação não existe
 auth-error-216 = Limite de mensagens de texto atingido
-auth-error-218 = Não foi possível remover o telefone de recuperação, códigos de autenticação de recuperação em falta.
+auth-error-218 = Não foi possível remover o telefone de recuperação. Códigos de autenticação de recuperação em falta.
 auth-error-219 = Este número de telefone foi registado com demasiadas contas. Por favor, tente um número diferente.
 auth-error-999 = Erro inesperado
 auth-error-1001 = Tentativa de início de sessão cancelada
@@ -1247,7 +1219,7 @@ auth-error-1062 = Redirecionamento inválido
 # number, but they are not completely signed in yet. We'll only show the last 4 digits.
 # Variables:
 #  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
-recovery-phone-number-ending-digits = Número que termina com { $lastFourPhoneNumber }
+recovery-phone-number-ending-digits = Número que termina em { $lastFourPhoneNumber }
 oauth-error-1000 = Ocorreu um erro. Feche este separador e tente novamente.
 
 ## Cannot Create Account page
@@ -1714,7 +1686,7 @@ signin-recovery-code-required-error = É necessário o código de recuperação 
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-recovery-code-use-phone-failure = Ocorreu um problema ao enviar um código para o seu telefone de recuperação
-signin-recovery-code-use-phone-failure-description = Por favor tente mais tarde.
+signin-recovery-code-use-phone-failure-description = Por favor, tente novamente mais tarde.
 
 ## SigninRecoveryPhone page
 
@@ -1723,7 +1695,7 @@ signin-recovery-phone-flow-heading = Iniciar sessão
 signin-recovery-phone-heading = Introduza o código de recuperação
 # Text that explains the user should check their phone for a recovery code
 # $maskedPhoneNumber - The users masked phone number
-signin-recovery-phone-instruction-v3 = Um código de seis dígitos foi enviado para o número de telefone que termina com <span>{ $lastFourPhoneDigits }</span> por mensagem de texto. Este código expira após 5 minutos. Não partilhe este código com ninguém.
+signin-recovery-phone-instruction-v3 = Foi enviado um código de seis dígitos por mensagem de texto para o número de telefone que termina em <span>{ $lastFourPhoneDigits }</span>. Este código expira em 5 minutos. Não partilhe este código com ninguém.
 signin-recovery-phone-input-label = Inserir código de 6 dígitos
 signin-recovery-phone-code-submit-button = Confirmar
 signin-recovery-phone-resend-code-button = Reenviar código
@@ -1731,9 +1703,9 @@ signin-recovery-phone-resend-success = Código enviado
 # links to https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 signin-recovery-phone-locked-out-link = Está bloqueado?
 signin-recovery-phone-send-code-error-heading = Ocorreu um problema ao enviar o código
-signin-recovery-phone-code-verification-error-heading = Houve um problema ao confirmar o seu código
+signin-recovery-phone-code-verification-error-heading = Ocorreu um problema ao confirmar o seu código
 # Follows the error message (e.g, "There was a problem sending a code")
-signin-recovery-phone-general-error-description = Por favor tente mais tarde.
+signin-recovery-phone-general-error-description = Por favor, tente novamente mais tarde.
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
