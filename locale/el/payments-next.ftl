@@ -1,15 +1,3 @@
-## Checkout Page
-## Common strings used in multiple checkout pages
-
-next-payment-processing-message = Παρακαλούμε περιμένετε όσο επεξεργαζόμαστε την πληρωμή σας…
-next-payment-error-manage-subscription-button = Διαχείριση συνδρομής
-next-iap-upgrade-contact-support = Μπορείτε ακόμα να αποκτήσετε αυτό το προϊόν. Επικοινωνήστε με την υποστήριξη για να σας βοηθήσουμε.
-next-payment-error-retry-button = Δοκιμή ξανά
-next-basic-error-message = Κάτι πήγε στραβά. Παρακαλούμε δοκιμάστε ξανά αργότερα.
-checkout-error-contact-support-button = Επικοινωνία με την υποστήριξη
-checkout-error-not-eligible = Δεν πληροίτε τις προϋποθέσεις για να αποκτήσετε συνδρομή σε αυτό το προϊόν. Επικοινωνήστε με την υποστήριξη για να σας βοηθήσουμε.
-checkout-error-contact-support = Παρακαλούμε επικοινωνήστε με την υποστήριξη για να σας βοηθήσουμε.
-
 ## Page
 
 checkout-signin-or-create = 1. Συνδεθείτε ή δημιουργήστε έναν { -product-mozilla-account(case: "acc", capitalization: "lower") }
@@ -20,6 +8,31 @@ next-payment-method-header = Επιλέξτε τη μέθοδο πληρωμής
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = Θα πρέπει πρώτα να εγκρίνετε τη συνδρομή σας
+
+## Page - Upgrade page
+
+checkout-error-boundary-retry-button = Δοκιμή ξανά
+checkout-error-boundary-basic-error-message = Κάτι πήγε στραβά. Δοκιμάστε ξανά ή <contactSupportLink>επικοινωνήστε με την υποστήριξη.</contactSupportLink>
+
+## Error pages - /checkout and /upgrade
+## Common strings used in multiple pages
+
+next-payment-error-manage-subscription-button = Διαχείριση συνδρομής
+next-iap-upgrade-contact-support = Μπορείτε ακόμα να αποκτήσετε αυτό το προϊόν. Επικοινωνήστε με την υποστήριξη για να σας βοηθήσουμε.
+next-payment-error-retry-button = Δοκιμή ξανά
+next-basic-error-message = Κάτι πήγε στραβά. Παρακαλούμε δοκιμάστε ξανά αργότερα.
+checkout-error-contact-support-button = Επικοινωνία με την υποστήριξη
+checkout-error-not-eligible = Δεν πληροίτε τις προϋποθέσεις για να αποκτήσετε συνδρομή σε αυτό το προϊόν. Επικοινωνήστε με την υποστήριξη για να σας βοηθήσουμε.
+checkout-error-contact-support = Παρακαλούμε επικοινωνήστε με την υποστήριξη για να σας βοηθήσουμε.
+
+## Processing page and Needs Input page - /checkout and /upgrade
+## Common strings used in multiple pages
+
+next-payment-processing-message = Παρακαλούμε περιμένετε όσο επεξεργαζόμαστε την πληρωμή σας…
+
+## Success page - /checkout and /upgrade
+## Common strings used in multiple checkout pages
+
 next-payment-confirmation-thanks-heading-account-exists = Ευχαριστούμε, τώρα ελέγξτε το email σας!
 # $email (String) - The user's email.
 payment-confirmation-thanks-subheading-account-exists-2 = Θα λάβετε ένα email στο { $email } με οδηγίες σχετικά με τη συνδρομή σας, καθώς και τα στοιχεία πληρωμής σας.
@@ -29,14 +42,17 @@ next-payment-confirmation-invoice-number = Τιμολόγιο #{ $invoiceNumber 
 # $invoiceDate (Date) - Start date of the latest invoice
 next-payment-confirmation-invoice-date = { $invoiceDate }
 next-payment-confirmation-details-heading-2 = Στοιχεία πληρωμής
-# $amount (Number) - The amount billed. It will be formatted as currency.
-# $interval (String) - The interval between payments.
-next-payment-confirmation-amount = { $amount } ανά { $interval }
+
+## Success pages (/checkout and /upgrade)
+## Common strings used in multiple checkout pages
+
+next-payment-confirmation-download-button = Συνέχεια στη λήψη
+
+## Success pages (/checkout and /upgrade), Start page (/upgrade)
+## Common strings used in multiple checkout pages
+
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Κάρτα που λήγει σε { $last4 }
-next-payment-confirmation-download-button = Συνέχεια στη λήψη
-checkout-error-boundary-retry-button = Δοκιμή ξανά
-checkout-error-boundary-basic-error-message = Κάτι πήγε στραβά. Δοκιμάστε ξανά ή <contactSupportLink>επικοινωνήστε με την υποστήριξη.</contactSupportLink>
 
 ## Component - Payment Consent Checkbox
 
@@ -117,7 +133,6 @@ next-new-user-subscribe-product-assurance = Χρησιμοποιούμε το em
 plan-price-interval-daily = { $amount } ημερησίως
 plan-price-interval-weekly = { $amount } εβδομαδιαία
 plan-price-interval-monthly = { $amount } μηνιαία
-plan-price-interval-6monthly = { $amount } κάθε 6 μήνες
 plan-price-interval-yearly = { $amount } ετησίως
 
 ## Component - SubscriptionTitle

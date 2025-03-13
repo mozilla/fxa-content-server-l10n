@@ -1,15 +1,3 @@
-## Checkout Page
-## Common strings used in multiple checkout pages
-
-next-payment-processing-message = Подождите, пока мы обработаем ваш платеж…
-next-payment-error-manage-subscription-button = Управление моей подпиской
-next-iap-upgrade-contact-support = Вы всё ещё можете получить этот продукт — обратитесь, пожалуйста, в службу поддержки, чтобы мы могли вам помочь.
-next-payment-error-retry-button = Попробовать снова
-next-basic-error-message = Что-то пошло не так. Пожалуйста, попробуйте позже.
-checkout-error-contact-support-button = Связаться с поддержкой
-checkout-error-not-eligible = Вы не имеете права подписаться на этот продукт - обратитесь, пожалуйста, в службу поддержки, чтобы мы могли вам помочь.
-checkout-error-contact-support = Пожалуйста, обратитесь в службу поддержки, чтобы мы могли вам помочь.
-
 ## Page
 
 checkout-signin-or-create = 1. Войдите или создайте { -product-mozilla-account }
@@ -20,6 +8,31 @@ next-payment-method-header = Выберите способ оплаты
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = Сначала вам необходимо подтвердить подписку
+
+## Page - Upgrade page
+
+checkout-error-boundary-retry-button = Попробовать снова
+checkout-error-boundary-basic-error-message = Что-то пошло не так. Пожалуйста, попробуйте ещё раз или <contactSupportLink>обратитесь в службу поддержки.</contactSupportLink>
+
+## Error pages - /checkout and /upgrade
+## Common strings used in multiple pages
+
+next-payment-error-manage-subscription-button = Управление моей подпиской
+next-iap-upgrade-contact-support = Вы всё ещё можете получить этот продукт — обратитесь, пожалуйста, в службу поддержки, чтобы мы могли вам помочь.
+next-payment-error-retry-button = Попробовать снова
+next-basic-error-message = Что-то пошло не так. Пожалуйста, попробуйте позже.
+checkout-error-contact-support-button = Связаться с поддержкой
+checkout-error-not-eligible = Вы не имеете права подписаться на этот продукт - обратитесь, пожалуйста, в службу поддержки, чтобы мы могли вам помочь.
+checkout-error-contact-support = Пожалуйста, обратитесь в службу поддержки, чтобы мы могли вам помочь.
+
+## Processing page and Needs Input page - /checkout and /upgrade
+## Common strings used in multiple pages
+
+next-payment-processing-message = Подождите, пока мы обработаем ваш платеж…
+
+## Success page - /checkout and /upgrade
+## Common strings used in multiple checkout pages
+
 next-payment-confirmation-thanks-heading-account-exists = Спасибо, теперь проверьте свою электронную почту!
 # $email (String) - The user's email.
 payment-confirmation-thanks-subheading-account-exists-2 = Вы получите письмо на адрес { $email } с инструкциями по вашей подписке, а также с платежными реквизитами.
@@ -29,14 +42,17 @@ next-payment-confirmation-invoice-number = Счёт № { $invoiceNumber }
 # $invoiceDate (Date) - Start date of the latest invoice
 next-payment-confirmation-invoice-date = { $invoiceDate }
 next-payment-confirmation-details-heading-2 = Платежная информация
-# $amount (Number) - The amount billed. It will be formatted as currency.
-# $interval (String) - The interval between payments.
-next-payment-confirmation-amount = { $amount } за { $interval }
+
+## Success pages (/checkout and /upgrade)
+## Common strings used in multiple checkout pages
+
+next-payment-confirmation-download-button = Продолжить загрузку
+
+## Success pages (/checkout and /upgrade), Start page (/upgrade)
+## Common strings used in multiple checkout pages
+
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Номер карты заканчивается на { $last4 }
-next-payment-confirmation-download-button = Продолжить загрузку
-checkout-error-boundary-retry-button = Попробовать снова
-checkout-error-boundary-basic-error-message = Что-то пошло не так. Пожалуйста, попробуйте ещё раз или <contactSupportLink>обратитесь в службу поддержки.</contactSupportLink>
 
 ## Component - Payment Consent Checkbox
 
@@ -117,7 +133,6 @@ next-new-user-subscribe-product-assurance = Мы используем вашу �
 plan-price-interval-daily = { $amount } в день
 plan-price-interval-weekly = { $amount } в неделю
 plan-price-interval-monthly = { $amount } ежемесячно
-plan-price-interval-6monthly = { $amount } каждые 6 месяцев
 plan-price-interval-yearly = { $amount } в год
 
 ## Component - SubscriptionTitle
@@ -133,7 +148,7 @@ next-sub-guarantee = 30-дневная гарантия возврата ден�
 
 # "Mozilla Accounts" is capitalized in this instance for title case in English
 # This heading is followed by links to Terms of Service and Privacy Notice
-next-subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts("nominative_uppercase") }
+next-subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts }
 next-terms = Условия службы
 next-privacy = Уведомление о конфиденциальности
 next-terms-download = Условия загрузки

@@ -130,9 +130,6 @@ bento-menu-made-by-mozilla = Направено от { -brand-mozilla }
 ## Connect another device promo
 
 
-##
-
-
 ## Connected services section
 
 
@@ -147,9 +144,6 @@ bento-menu-made-by-mozilla = Направено от { -brand-mozilla }
 ## device
 
 cs-disconnect-sync-opt-prefix = Устройството е:
-
-##
-
 
 ##
 
@@ -225,19 +219,10 @@ avatar-page-add-photo = Добавяне на снимка
 avatar-page-add-photo-button =
     .title = { avatar-page-add-photo }
 
-##
-
-
 ## Password change page
 
 
-##
-
-
 ## Password create page
-
-
-##
 
 
 ## Delete account page
@@ -245,9 +230,6 @@ avatar-page-add-photo-button =
 delete-account-step-1-2 = Стъпка 1 от 2
 delete-account-step-2-2 = Стъпка 2 от 2
 delete-account-continue-button = Продължаване
-
-##
-
 
 ## Display name page
 
@@ -257,9 +239,6 @@ display-name-input =
     .label = Въведете името, което ще се показва
 submit-display-name = Запазване
 cancel-display-name = Отказ
-
-##
-
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
@@ -304,9 +283,6 @@ tfa-button-finish = Край
 tfa-qa-code =
     .alt = { tfa-qa-code-alt }
 
-##
-
-
 ## Product promotion
 
 
@@ -314,9 +290,6 @@ tfa-qa-code =
 
 profile-display-name =
     .header = Показвано име
-
-##
-
 
 ## Progress bar
 
@@ -344,9 +317,6 @@ rk-action-remove = Премахване
 
 se-heading = Допълнителен електронен адрес
     .header = Допълнителен електронен адрес
-
-##
-
 
 ## Two Step Auth sub-section on Settings main page
 

@@ -1,10 +1,29 @@
-## Checkout Page
-## Common strings used in multiple checkout pages
+## Page
 
-next-payment-processing-message = Espera mentanto procesamos el pagu…
+
+## Page - Upgrade page
+
+
+## Error pages - /checkout and /upgrade
+## Common strings used in multiple pages
+
 next-basic-error-message = Asocedió daqué malo. Volvi tentalo dempués, por favor.
 
-## Page
+## Processing page and Needs Input page - /checkout and /upgrade
+## Common strings used in multiple pages
+
+next-payment-processing-message = Espera mentanto procesamos el pagu…
+
+## Success page - /checkout and /upgrade
+## Common strings used in multiple checkout pages
+
+
+## Success pages (/checkout and /upgrade)
+## Common strings used in multiple checkout pages
+
+
+## Success pages (/checkout and /upgrade), Start page (/upgrade)
+## Common strings used in multiple checkout pages
 
 
 ## Component - Payment Consent Checkbox

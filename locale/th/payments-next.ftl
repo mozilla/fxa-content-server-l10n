@@ -1,16 +1,27 @@
-## Checkout Page
-## Common strings used in multiple checkout pages
+## Page
 
-next-payment-processing-message = โปรดรอสักครู่ขณะที่เราดำเนินการชำระเงินของคุณ…
+next-payment-method-header = เลือกวิธีการชำระเงินของคุณ
+next-payment-method-first-approve = ก่อนอื่น คุณจะต้องอนุมัติการสมัครสมาชิกของคุณ
+
+## Page - Upgrade page
+
+
+## Error pages - /checkout and /upgrade
+## Common strings used in multiple pages
+
 next-payment-error-manage-subscription-button = จัดการการสมัครสมาชิกของฉัน
 next-iap-upgrade-contact-support = คุณยังสามารถรับผลิตภัณฑ์นี้ได้ โปรดติดต่อฝ่ายช่วยเหลือเพื่อให้เราสามารถช่วยเหลือคุณได้
 next-payment-error-retry-button = ลองอีกครั้ง
 next-basic-error-message = มีบางอย่างผิดปกติ โปรดลองอีกครั้งในภายหลัง
 
-## Page
+## Processing page and Needs Input page - /checkout and /upgrade
+## Common strings used in multiple pages
 
-next-payment-method-header = เลือกวิธีการชำระเงินของคุณ
-next-payment-method-first-approve = ก่อนอื่น คุณจะต้องอนุมัติการสมัครสมาชิกของคุณ
+next-payment-processing-message = โปรดรอสักครู่ขณะที่เราดำเนินการชำระเงินของคุณ…
+
+## Success page - /checkout and /upgrade
+## Common strings used in multiple checkout pages
+
 next-payment-confirmation-thanks-heading-account-exists = ขอบคุณ ทีนี้ตรวจสอบอีเมลของคุณเลย!
 next-payment-confirmation-order-heading = รายละเอียดการสั่งซื้อ
 # $invoiceNumber (String) - Invoice number of the successful payment
@@ -18,12 +29,17 @@ next-payment-confirmation-invoice-number = ใบแจ้งหนี้ #{ $in
 # $invoiceDate (Date) - Start date of the latest invoice
 next-payment-confirmation-invoice-date = { $invoiceDate }
 next-payment-confirmation-details-heading-2 = ข้อมูลการชำระเงิน
-# $amount (Number) - The amount billed. It will be formatted as currency.
-# $interval (String) - The interval between payments.
-next-payment-confirmation-amount = { $amount } ต่อ { $interval }
+
+## Success pages (/checkout and /upgrade)
+## Common strings used in multiple checkout pages
+
+next-payment-confirmation-download-button = ดำเนินการต่อเพื่อดาวน์โหลด
+
+## Success pages (/checkout and /upgrade), Start page (/upgrade)
+## Common strings used in multiple checkout pages
+
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = หมายเลขบัตรลงท้ายด้วย { $last4 }
-next-payment-confirmation-download-button = ดำเนินการต่อเพื่อดาวน์โหลด
 
 ## Component - Payment Consent Checkbox
 

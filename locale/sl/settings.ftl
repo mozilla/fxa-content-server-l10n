@@ -1045,8 +1045,6 @@ tfa-row-backup-phone-delete-button = Odstrani
 # Shown in tooltip on delete button or delete icon
 tfa-row-backup-phone-delete-title-v2 = Odstranite telefonsko številko za obnovitev
 tfa-row-backup-phone-delete-restriction-v2 = Če želite odstraniti telefonsko številko za obnovitev, najprej dodajte rezervne overitvene kode ali onemogočite overjanje v dveh korakih, da preprečite izgubo dostopa do računa.
-# "this" refers to recovery phone
-tfa-row-backup-phone-description = To je preprostejša metoda obnovitve, če nimate možnosti uporabe aplikacije za overitev.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.

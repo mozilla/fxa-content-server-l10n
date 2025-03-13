@@ -501,9 +501,6 @@ connect-another-play-store-image =
 connect-another-app-store-image-2 =
     .title = A { -brand-firefox } letöltése az { -app-store(case: "elative") }
 
-##
-
-
 ## Connected services section
 
 cs-heading = Kapcsolódó szolgáltatások
@@ -556,9 +553,6 @@ cs-disconnect-suspicious-advice-content-2 =
     Ha a leválasztott eszköz valóban gyanús, akkor hogy biztonságban tartsa az információt, változtassa meg a { -product-mozilla-account }ja
     jelszavát a fiókbeállításokban. Érdemes módosítania az összes, a { -brand-firefox(case: "inessive") } mentett jelszavát is, az about:logins beírásával a címsávba.
 cs-sign-out-button = Kijelentkezés
-
-##
-
 
 ## Data collection section
 
@@ -751,9 +745,6 @@ avatar-page-file-upload-error-3 = Hiba történt a profilkép feltöltésekor
 avatar-page-delete-error-3 = Hiba történt a profilkép törlésekor
 avatar-page-image-too-large-error-2 = A képfájl mérete túl nagy a feltöltéshez
 
-##
-
-
 ## Password change page
 
 pw-change-header =
@@ -775,18 +766,12 @@ pw-change-confirm-password =
     .label = Erősítse meg az új jelszót
 pw-change-success-alert-2 = Jelszó frissítve
 
-##
-
-
 ## Password create page
 
 pw-create-header =
     .title = Jelszó létrehozása
 pw-create-success-alert-2 = Jelszó megadva
 pw-create-error-2 = Sajnos probléma merült fel a jelszó megadásakor
-
-##
-
 
 ## Delete account page
 
@@ -821,9 +806,6 @@ pocket-delete-notice-marketing = Ha nem szeretne több marketinges e-mailt kapni
 delete-account-cancel-button = Mégse
 delete-account-delete-button-2 = Törlés
 
-##
-
-
 ## Display name page
 
 display-name-page-title =
@@ -834,9 +816,6 @@ submit-display-name = Mentés
 cancel-display-name = Mégse
 display-name-update-error-2 = Hiba történt a megjelenő név frissítésekor
 display-name-success-alert-2 = A megjelenő név frissítve
-
-##
-
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
@@ -988,9 +967,6 @@ tfa-enter-code-to-confirm-setup = Egy kód beírásával erősítse meg, hogy el
 tfa-enter-recovery-code-1 =
     .label = Adjon meg egy tartalék hitelesítési kódot
 
-##
-
-
 ## Product promotion
 
 product-promo-monitor =
@@ -1011,9 +987,6 @@ profile-display-name =
     .header = Megjelenő név
 profile-primary-email =
     .header = Elsődleges e-mail
-
-##
-
 
 ## Progress bar
 
@@ -1074,8 +1047,6 @@ tfa-row-backup-phone-delete-button = Eltávolítás
 # Shown in tooltip on delete button or delete icon
 tfa-row-backup-phone-delete-title-v2 = Helyreállítási telefonszám eltávolítása
 tfa-row-backup-phone-delete-restriction-v2 = Ha el akarja távolítani a helyreállítási telefonszámát, adjon hozzá tartalék hitelesítési kódokat vagy először kapcsolja ki a kétlépcsős hitelesítést, hogy elkerülje azt, hogy kizárja magát a fiókjából.
-# "this" refers to recovery phone
-tfa-row-backup-phone-description = Ez a könnyebb helyreállítási módszer, ha nem tudja használni a hitelesítő alkalmazást.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
@@ -1157,9 +1128,6 @@ se-content-note-1 =
     adatait – ahhoz <a>fiók-helyreállítási kulcs</a> szükséges.
 # Default value for the secondary email
 se-secondary-email-none = Nincs
-
-##
-
 
 ## Two Step Auth sub-section on Settings main page
 

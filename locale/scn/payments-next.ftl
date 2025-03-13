@@ -1,15 +1,3 @@
-## Checkout Page
-## Common strings used in multiple checkout pages
-
-next-payment-processing-message = Pi favuri aspetta mentri chi prucissamu u pagamentu…
-next-payment-error-manage-subscription-button = Manija u me abbunamentu
-next-iap-upgrade-contact-support = Po' ancora aviri stu pruduttu — pi favuri cuntatta u supportu p'aviri ajutu.
-next-payment-error-retry-button = Prova arrè
-next-basic-error-message = Cci fu un prubblema. Pi favuri torna a prova cchiù tardu.
-checkout-error-contact-support-button = Cuntatta l'assistenza
-checkout-error-not-eligible = Nun ti po' abbunari a stu pruduttu. Pi favuri cuntatta l'assistenza p'addumannari ajutu.
-checkout-error-contact-support = Pi favuri cuntatta l'assistenza p'addumannari ajutu.
-
 ## Page
 
 checkout-signin-or-create = 1. Trasi o crìa un { -product-mozilla-account }
@@ -20,6 +8,31 @@ next-payment-method-header = Scarta u to mètudu di pagamentu
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = Pi prima cosa, hâ appruvari u to abbunamentu
+
+## Page - Upgrade page
+
+checkout-error-boundary-retry-button = Prova arrè
+checkout-error-boundary-basic-error-message = Cci fu un prubblema. Pi favuri torna a prova o <contactSupportLink>cuntatta l'assistenza</contactSupportLink>.
+
+## Error pages - /checkout and /upgrade
+## Common strings used in multiple pages
+
+next-payment-error-manage-subscription-button = Manija u me abbunamentu
+next-iap-upgrade-contact-support = Po' ancora aviri stu pruduttu — pi favuri cuntatta u supportu p'aviri ajutu.
+next-payment-error-retry-button = Prova arrè
+next-basic-error-message = Cci fu un prubblema. Pi favuri torna a prova cchiù tardu.
+checkout-error-contact-support-button = Cuntatta l'assistenza
+checkout-error-not-eligible = Nun ti po' abbunari a stu pruduttu. Pi favuri cuntatta l'assistenza p'addumannari ajutu.
+checkout-error-contact-support = Pi favuri cuntatta l'assistenza p'addumannari ajutu.
+
+## Processing page and Needs Input page - /checkout and /upgrade
+## Common strings used in multiple pages
+
+next-payment-processing-message = Pi favuri aspetta mentri chi prucissamu u pagamentu…
+
+## Success page - /checkout and /upgrade
+## Common strings used in multiple checkout pages
+
 next-payment-confirmation-thanks-heading-account-exists = Grazzi! Ora cuntrolla a to posta elittrònica.
 # $email (String) - The user's email.
 payment-confirmation-thanks-subheading-account-exists-2 = Hâ ricìviri na littra ô nnirizzu { $email } cu l'istruzzioni ncapu ô to abbunamentu, e chî to minutagghi di pagamentu.
@@ -29,14 +42,17 @@ next-payment-confirmation-invoice-number = Fattura #{ $invoiceNumber }
 # $invoiceDate (Date) - Start date of the latest invoice
 next-payment-confirmation-invoice-date = { $invoiceDate }
 next-payment-confirmation-details-heading-2 = Nfurmazzioni di pagamentu
-# $amount (Number) - The amount billed. It will be formatted as currency.
-# $interval (String) - The interval between payments.
-next-payment-confirmation-amount = { $amount } pi { $interval }
+
+## Success pages (/checkout and /upgrade)
+## Common strings used in multiple checkout pages
+
+next-payment-confirmation-download-button = Cuntinua cû scarricamentu
+
+## Success pages (/checkout and /upgrade), Start page (/upgrade)
+## Common strings used in multiple checkout pages
+
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Carta chi finisci pi { $last4 }
-next-payment-confirmation-download-button = Cuntinua cû scarricamentu
-checkout-error-boundary-retry-button = Prova arrè
-checkout-error-boundary-basic-error-message = Cci fu un prubblema. Pi favuri torna a prova o <contactSupportLink>cuntatta l'assistenza</contactSupportLink>.
 
 ## Component - Payment Consent Checkbox
 
@@ -117,7 +133,6 @@ next-new-user-subscribe-product-assurance = Usamu u to nnirizzu di posta elittr�
 plan-price-interval-daily = { $amount } ô jornu
 plan-price-interval-weekly = { $amount } â simana
 plan-price-interval-monthly = { $amount } ô misi
-plan-price-interval-6monthly = { $amount } ogni 6 misi
 plan-price-interval-yearly = { $amount } ogni annu
 
 ## Component - SubscriptionTitle

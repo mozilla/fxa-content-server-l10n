@@ -501,9 +501,6 @@ connect-another-play-store-image =
 connect-another-app-store-image-2 =
     .title = Sæktu { -brand-firefox } í { -app-store }
 
-##
-
-
 ## Connected services section
 
 cs-heading = Tengdar þjónustur
@@ -552,9 +549,6 @@ cs-disconnect-lost-advice-content-3 = Þar sem tækið þitt týndist eða því
 cs-disconnect-suspicious-advice-heading = Grunsamlegt tæki aftengt
 cs-disconnect-suspicious-advice-content-2 = Ef ótengda tækið er örugglega grunsamlegt, þá ættirðu til að halda upplýsingum þínum öruggum að breyta { -product-mozilla-account } lykilorðinu þínu í stillingum reikningsins þíns. Þú ættir líka að breyta öllum öðrum lykilorðum sem þú hefur vistað í { -brand-firefox } með því að skrifa about:logins á veffangastikuna.
 cs-sign-out-button = Útskráning
-
-##
-
 
 ## Data collection section
 
@@ -741,9 +735,6 @@ avatar-page-file-upload-error-3 = Vandamál kom upp við að senda inn auðkenni
 avatar-page-delete-error-3 = Vandamál kom upp við að eyða auðkennismyndinni þinni
 avatar-page-image-too-large-error-2 = Stærð myndarinnar er of mikil til að hægt sé að senda hana inn
 
-##
-
-
 ## Password change page
 
 pw-change-header =
@@ -765,18 +756,12 @@ pw-change-confirm-password =
     .label = Staðfestu nýja lykilorðið
 pw-change-success-alert-2 = Lykilorð uppfært
 
-##
-
-
 ## Password create page
 
 pw-create-header =
     .title = Búa til lykilorð
 pw-create-success-alert-2 = Lykilorð stillt
 pw-create-error-2 = Því miður kom upp vandamál við að stilla lykilorðið þitt
-
-##
-
 
 ## Delete account page
 
@@ -811,9 +796,6 @@ pocket-delete-notice-marketing = Til að hætta að fá markaðspóst frá Mozil
 delete-account-cancel-button = Hætta við
 delete-account-delete-button-2 = Eyða
 
-##
-
-
 ## Display name page
 
 display-name-page-title =
@@ -824,9 +806,6 @@ submit-display-name = Vista
 cancel-display-name = Hætta við
 display-name-update-error-2 = Vandamál kom upp við að uppfæra birtingarnafnið þitt
 display-name-success-alert-2 = Birtingarnafn uppfært
-
-##
-
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
@@ -976,9 +955,6 @@ tfa-save-these-codes-1 =
 tfa-enter-recovery-code-1 =
     .label = Settu inn varaauðkenningarkóða
 
-##
-
-
 ## Product promotion
 
 product-promo-monitor =
@@ -999,9 +975,6 @@ profile-display-name =
     .header = Birtingarnafn
 profile-primary-email =
     .header = Aðaltölvupóstfang
-
-##
-
 
 ## Progress bar
 
@@ -1058,8 +1031,6 @@ tfa-row-backup-phone-delete-button = Fjarlægja
 # Shown in tooltip on delete button or delete icon
 tfa-row-backup-phone-delete-title-v2 = Fjarlægja endurheimtusímanúmer
 tfa-row-backup-phone-delete-restriction-v2 = Ef þú vilt fjarlægja endurheimtusímanúmer skaltu bæta við auðkenningarkóðum öryggisafritunar eða slökkva fyrst á tveggja-þrepa auðkenningu til að forðast það að læsast úti á reikningnum þínum.
-# "this" refers to recovery phone
-tfa-row-backup-phone-description = Þetta er auðveldasta endurheimtuaðferðin ef þú getur ekki notað auðkenningarforritið þitt.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
@@ -1141,9 +1112,6 @@ se-content-note-1 =
     munt þurfa <a>endurheimtulykil reikningsins</a> til þess.
 # Default value for the secondary email
 se-secondary-email-none = Ekkert
-
-##
-
 
 ## Two Step Auth sub-section on Settings main page
 

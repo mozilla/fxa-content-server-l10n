@@ -151,9 +151,6 @@ connect-another-play-store-image =
 connect-another-app-store-image-2 =
     .title = Laadi { -brand-firefox } alla { -app-store }'ist
 
-##
-
-
 ## Connected services section
 
 cs-heading = Ühendatud teenused
@@ -196,9 +193,6 @@ cs-disconnect-advice-confirm = Olgu, sain aru
 cs-disconnect-lost-advice-heading = Kaotatud või varastatud seade on lahti ühendatud
 cs-disconnect-suspicious-advice-heading = Kahtlane seade on lahti ühendatud
 cs-sign-out-button = Logi välja
-
-##
-
 
 ## Data collection section
 
@@ -311,9 +305,6 @@ avatar-page-file-upload-error-3 = Profiilipildi üleslaadimisel esines probleem
 avatar-page-delete-error-3 = Profiilipildi kustutamisel esines probleem
 avatar-page-image-too-large-error-2 = Pildifaili suurus on üleslaadimiseks liiga suur
 
-##
-
-
 ## Password change page
 
 pw-change-header =
@@ -335,18 +326,12 @@ pw-change-confirm-password =
     .label = Kinnita parool
 pw-change-success-alert-2 = Parool uuendatud
 
-##
-
-
 ## Password create page
 
 pw-create-header =
     .title = Parooli määramine
 pw-create-success-alert-2 = Parool on muudetud
 pw-create-error-2 = Vabandust, parooli määramisel esines probleem
-
-##
-
 
 ## Delete account page
 
@@ -367,9 +352,6 @@ delete-account-password-input =
 delete-account-cancel-button = Loobu
 delete-account-delete-button-2 = Kustuta
 
-##
-
-
 ## Display name page
 
 display-name-page-title =
@@ -380,9 +362,6 @@ submit-display-name = Salvesta
 cancel-display-name = Loobu
 display-name-update-error-2 = Kuvatava nime uuendamisel esines probleem
 display-name-success-alert-2 = Kuvatav nimi on uuendatud
-
-##
-
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
@@ -449,9 +428,6 @@ tfa-button-cant-scan-qr = Pole võimalik koodi skannida?
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Sisesta see turvakood oma autentimisäppi:
 
-##
-
-
 ## Product promotion
 
 
@@ -464,9 +440,6 @@ profile-display-name =
     .header = Kuvatav nimi
 profile-primary-email =
     .header = Peamine e-posti aadress
-
-##
-
 
 ## Progress bar
 
@@ -542,9 +515,6 @@ se-make-primary = Määra peamiseks
 se-default-content = Pääse ligi oma kontole, kui sa ei saa kasutada oma peamist e-posti aadressi.
 # Default value for the secondary email
 se-secondary-email-none = Puudub
-
-##
-
 
 ## Two Step Auth sub-section on Settings main page
 

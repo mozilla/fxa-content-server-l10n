@@ -1,15 +1,3 @@
-## Checkout Page
-## Common strings used in multiple checkout pages
-
-next-payment-processing-message = Attende durante que nos elabora tu pagamento…
-next-payment-error-manage-subscription-button = Gerer mi subscription
-next-iap-upgrade-contact-support = Tu pote ancora obtener iste producto. Contacta nostre equipa de assistentia a fin que nos pote adjutar te.
-next-payment-error-retry-button = Retentar
-next-basic-error-message = Alco errate eveniva. Reproba plus tarde.
-checkout-error-contact-support-button = Contactar assistentia
-checkout-error-not-eligible = Tu non es eligibile pro abonar te a iste producto. Contacta le assistentia proque pote adjutar te.
-checkout-error-contact-support = Contacta le assistentia proque nos pote adjutar te.
-
 ## Page
 
 checkout-signin-or-create = 1. Acceder o crear un { -product-mozilla-account }
@@ -20,6 +8,31 @@ next-payment-method-header = Elige tu methodo de pagamento
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = Primo tu debera approbar tu subscription
+
+## Page - Upgrade page
+
+checkout-error-boundary-retry-button = Retentar
+checkout-error-boundary-basic-error-message = Alco errate eveniva. Retenta o contacta le <contactSupportLink>supporto.</contactSupportLink>
+
+## Error pages - /checkout and /upgrade
+## Common strings used in multiple pages
+
+next-payment-error-manage-subscription-button = Gerer mi subscription
+next-iap-upgrade-contact-support = Tu pote ancora obtener iste producto. Contacta nostre equipa de assistentia a fin que nos pote adjutar te.
+next-payment-error-retry-button = Retentar
+next-basic-error-message = Alco errate eveniva. Reproba plus tarde.
+checkout-error-contact-support-button = Contactar assistentia
+checkout-error-not-eligible = Tu non es eligibile pro abonar te a iste producto. Contacta le assistentia proque pote adjutar te.
+checkout-error-contact-support = Contacta le assistentia proque nos pote adjutar te.
+
+## Processing page and Needs Input page - /checkout and /upgrade
+## Common strings used in multiple pages
+
+next-payment-processing-message = Attende durante que nos elabora tu pagamento…
+
+## Success page - /checkout and /upgrade
+## Common strings used in multiple checkout pages
+
 next-payment-confirmation-thanks-heading-account-exists = Gratias, ora verifica tu e-mail!
 # $email (String) - The user's email.
 payment-confirmation-thanks-subheading-account-exists-2 = Tu recipera un email a { $email } con instructiones re tu abonamento, e tu detalios de pagamento.
@@ -29,14 +42,17 @@ next-payment-confirmation-invoice-number = Factura #{ $invoiceNumber }
 # $invoiceDate (Date) - Start date of the latest invoice
 next-payment-confirmation-invoice-date = { $invoiceDate }
 next-payment-confirmation-details-heading-2 = Information de pagamento
-# $amount (Number) - The amount billed. It will be formatted as currency.
-# $interval (String) - The interval between payments.
-next-payment-confirmation-amount = { $amount } per { $interval }
+
+## Success pages (/checkout and /upgrade)
+## Common strings used in multiple checkout pages
+
+next-payment-confirmation-download-button = Continuar a discargar
+
+## Success pages (/checkout and /upgrade), Start page (/upgrade)
+## Common strings used in multiple checkout pages
+
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Carta que fini in { $last4 }
-next-payment-confirmation-download-button = Continuar a discargar
-checkout-error-boundary-retry-button = Retentar
-checkout-error-boundary-basic-error-message = Alco errate eveniva. Retenta o contacta le <contactSupportLink>supporto.</contactSupportLink>
 
 ## Component - Payment Consent Checkbox
 
@@ -117,7 +133,6 @@ next-new-user-subscribe-product-assurance = Nos usa tu adresse email solo pro cr
 plan-price-interval-daily = { $amount } cata die
 plan-price-interval-weekly = { $amount } septimanalmente
 plan-price-interval-monthly = { $amount } cata mense
-plan-price-interval-6monthly = { $amount } cata 6 menses
 plan-price-interval-yearly = { $amount } annualmente
 
 ## Component - SubscriptionTitle

@@ -134,9 +134,6 @@ bento-menu-firefox-mobile = Restolador { -brand-firefox } pa móviles
 
 connect-another-fx-mobile = { -brand-firefox } nel móvil o na tableta
 
-##
-
-
 ## Connected services section
 
 cs-heading = Servicios conectaos
@@ -162,9 +159,6 @@ cs-disconnect-sync-opt-not-say = Nun quiero dicilo
 ##
 
 cs-sign-out-button = Zarrar la sesión
-
-##
-
 
 ## Data collection section
 
@@ -255,22 +249,13 @@ avatar-page-new-avatar =
 avatar-page-file-upload-error-3 = Hebo un problema al xubir la semeya del perfil
 avatar-page-delete-error-3 = Hebo un problema al desaniciar la semeya del perfil
 
-##
-
-
 ## Password change page
 
 pw-change-cancel-button = Encaboxar
 pw-change-save-button = Guardar
 pw-change-forgot-password-link = ¿Escaeciesti la contraseña?
 
-##
-
-
 ## Password create page
-
-
-##
 
 
 ## Delete account page
@@ -291,16 +276,10 @@ delete-account-continue-button = Siguir
 delete-account-cancel-button = Encaboxar
 delete-account-delete-button-2 = Desaniciar
 
-##
-
-
 ## Display name page
 
 submit-display-name = Guardar
 cancel-display-name = Encaboxar
-
-##
-
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
@@ -356,9 +335,6 @@ tfa-qa-code =
     .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = ¿Nun pues escaniar el códigu?
 
-##
-
-
 ## Product promotion
 
 
@@ -367,9 +343,6 @@ tfa-button-cant-scan-qr = ¿Nun pues escaniar el códigu?
 profile-heading = Perfil
 profile-picture =
     .header = Semeya
-
-##
-
 
 ## Progress bar
 
@@ -402,9 +375,6 @@ rk-cannot-remove-key = Nun se pudo quitar la clave de recuperación de la cuenta
 ## Secondary email sub-section on main Settings page
 
 se-delete-email-error-2 = Hebo un problema al desaniciar esta direición de corréu electrónicu
-
-##
-
 
 ## Two Step Auth sub-section on Settings main page
 

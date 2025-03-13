@@ -1051,8 +1051,6 @@ tfa-row-backup-phone-delete-button = Fuortsmite
 # Shown in tooltip on delete button or delete icon
 tfa-row-backup-phone-delete-title-v2 = Wersteltelefoannûmer fuortsmite
 tfa-row-backup-phone-delete-restriction-v2 = As jo jo wersteltelefoan fuortsmite wolle, foegje dan earst reserve-autentikaasjekoaden ta of skeakelje earst twastapsautentikaasje út om foar te kommen dat jo gjin tagong mear hawwe ta jo account.
-# "this" refers to recovery phone
-tfa-row-backup-phone-description = Dit is de ienfâldigere werstelmetoade as jo jo autentikaasje-app net brûke kinne.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.

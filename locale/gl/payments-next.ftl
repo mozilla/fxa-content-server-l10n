@@ -1,17 +1,33 @@
-## Checkout Page
-## Common strings used in multiple checkout pages
+## Page
+
+
+## Page - Upgrade page
+
+
+## Error pages - /checkout and /upgrade
+## Common strings used in multiple pages
 
 next-basic-error-message = Algo fallou. Inténteo de novo máis tarde.
 
-## Page
+## Processing page and Needs Input page - /checkout and /upgrade
+## Common strings used in multiple pages
+
+
+## Success page - /checkout and /upgrade
+## Common strings used in multiple checkout pages
 
 next-payment-confirmation-order-heading = Detalles do pedido
 # $invoiceNumber (String) - Invoice number of the successful payment
 next-payment-confirmation-invoice-number = Factura n.° { $invoiceNumber }
-# $amount (Number) - The amount billed. It will be formatted as currency.
-# $interval (String) - The interval between payments.
-next-payment-confirmation-amount = { $amount } cada { $interval }
+
+## Success pages (/checkout and /upgrade)
+## Common strings used in multiple checkout pages
+
 next-payment-confirmation-download-button = Continuar á descarga
+
+## Success pages (/checkout and /upgrade), Start page (/upgrade)
+## Common strings used in multiple checkout pages
+
 
 ## Component - Payment Consent Checkbox
 

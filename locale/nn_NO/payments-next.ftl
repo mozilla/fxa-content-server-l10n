@@ -1,15 +1,3 @@
-## Checkout Page
-## Common strings used in multiple checkout pages
-
-next-payment-processing-message = Vent mens vi behandlar betalinga di…
-next-payment-error-manage-subscription-button = Handsame abonnementet mitt
-next-iap-upgrade-contact-support = Du kan framleis få dette produktet — kontakt brukarstøtte, så kan vi hjelpe deg.
-next-payment-error-retry-button = Prøv igjen
-next-basic-error-message = Noko gjekk gale. Prøv igjen seinare.
-checkout-error-contact-support-button = Kontakt brukarstøtte
-checkout-error-not-eligible = Du er ikkje kvalifisert til å abonnere på dette produktet - kontakt brukarstøtta slik at vi kan hjelpe deg.
-checkout-error-contact-support = Kontakt brukarstøtte, slik at vi kan hjelpe deg.
-
 ## Page
 
 checkout-signin-or-create = 1. Logg inn eller opprett ein { -product-mozilla-account }
@@ -20,6 +8,31 @@ next-payment-method-header = Vel betalingsmåte
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = Først må du godkjenne abonnementet ditt
+
+## Page - Upgrade page
+
+checkout-error-boundary-retry-button = Prøv på nytt
+checkout-error-boundary-basic-error-message = Noko gjekk gale. Prøv på nytt eller <contactSupportLink>kontakt support.</contactSupportLink>
+
+## Error pages - /checkout and /upgrade
+## Common strings used in multiple pages
+
+next-payment-error-manage-subscription-button = Handsame abonnementet mitt
+next-iap-upgrade-contact-support = Du kan framleis få dette produktet — kontakt brukarstøtte, så kan vi hjelpe deg.
+next-payment-error-retry-button = Prøv igjen
+next-basic-error-message = Noko gjekk gale. Prøv igjen seinare.
+checkout-error-contact-support-button = Kontakt brukarstøtte
+checkout-error-not-eligible = Du er ikkje kvalifisert til å abonnere på dette produktet - kontakt brukarstøtta slik at vi kan hjelpe deg.
+checkout-error-contact-support = Kontakt brukarstøtte, slik at vi kan hjelpe deg.
+
+## Processing page and Needs Input page - /checkout and /upgrade
+## Common strings used in multiple pages
+
+next-payment-processing-message = Vent mens vi behandlar betalinga di…
+
+## Success page - /checkout and /upgrade
+## Common strings used in multiple checkout pages
+
 next-payment-confirmation-thanks-heading-account-exists = Takk, sjekk e-posten din no!
 # $email (String) - The user's email.
 payment-confirmation-thanks-subheading-account-exists-2 = Du vil få ein e-post på { $email } med instruksjonar om abonnementet ditt, i tillegg til betalingsopplysningane dine.
@@ -29,14 +42,17 @@ next-payment-confirmation-invoice-number = Fakturanummer { $invoiceNumber }
 # $invoiceDate (Date) - Start date of the latest invoice
 next-payment-confirmation-invoice-date = { $invoiceDate }
 next-payment-confirmation-details-heading-2 = Betalingsinformasjon
-# $amount (Number) - The amount billed. It will be formatted as currency.
-# $interval (String) - The interval between payments.
-next-payment-confirmation-amount = { $amount } per { $interval }
+
+## Success pages (/checkout and /upgrade)
+## Common strings used in multiple checkout pages
+
+next-payment-confirmation-download-button = Hald fram til nedlasting
+
+## Success pages (/checkout and /upgrade), Start page (/upgrade)
+## Common strings used in multiple checkout pages
+
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Kortet sluttar på { $last4 }
-next-payment-confirmation-download-button = Hald fram til nedlasting
-checkout-error-boundary-retry-button = Prøv på nytt
-checkout-error-boundary-basic-error-message = Noko gjekk gale. Prøv på nytt eller <contactSupportLink>kontakt support.</contactSupportLink>
 
 ## Component - Payment Consent Checkbox
 
@@ -117,7 +133,6 @@ next-new-user-subscribe-product-assurance = Vi brukar berre e-postadressa di for
 plan-price-interval-daily = { $amount } kvar dag
 plan-price-interval-weekly = { $amount } kvar veke
 plan-price-interval-monthly = { $amount } kvar månad
-plan-price-interval-6monthly = { $amount } kvar 6. månad
 plan-price-interval-yearly = { $amount } kvart år
 
 ## Component - SubscriptionTitle

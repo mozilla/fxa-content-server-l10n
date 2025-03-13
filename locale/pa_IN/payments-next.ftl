@@ -1,12 +1,3 @@
-## Checkout Page
-## Common strings used in multiple checkout pages
-
-next-payment-processing-message = ਤੁਹਾਡੇ ਭੁਗਤਾਨ ਉੱਤੇ ਸਾਡੇ ਵਲੋਂ ਕਾਰਵਾਈ ਕੀਤੇ ਤੱਕ ਉਡੀਕੋ…
-next-payment-error-manage-subscription-button = ਮੇਰੀ ਮੈਂਬਰੀ ਦਾ ਇੰਤਜ਼ਾਮ ਕਰੋ
-next-iap-upgrade-contact-support = ਤੁਸੀਂ ਹਾਲੇ ਵੀ ਇਹ ਉਤਪਾਦ ਨੂੰ ਲੈ ਸਕਦੇ ਹੋ — ਸਾਡੀ ਸਹਾਇਤਾ ਨਾਲ ਸੰਪਰਕ ਕਰੋ ਤਾਂ ਕਿ ਅਸੀਂ ਤੁਹਾਡੀ ਮਦਦ ਸਕੀਏ।
-next-payment-error-retry-button = ਮੁੜ ਕੋਸ਼ਿਸ਼ ਕਰੋ
-next-basic-error-message = ਕੁਝ ਗਲਤ ਵਾਪਰਿਆ ਹੈ। ਬਾਅਦ ਵਿੱਚ ਮੁੜ ਕੋਸ਼ਿਸ਼ ਕਰੋ।
-
 ## Page
 
 checkout-signin-or-create = 1. { -product-mozilla-account } ਨਾਲ ਸਾਈਨ ਇਨ ਕਰੋ ਜਾਂ ਬਣਾਓ
@@ -17,6 +8,27 @@ next-payment-method-header = ਆਪਣਾ ਭੁਗਤਾਨ ਢੰਗ ਚੁਣ
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = ਪਹਿਲਾਂ ਤੁਹਾਨੂੰ ਆਪਣੀ ਮੈਂਬਰੀ ਨੂੰ ਮਨਜ਼ੂਰ ਕਰਨ ਦੀ ਲੋੜ ਹੈ
+
+## Page - Upgrade page
+
+checkout-error-boundary-retry-button = ਫੇਰ ਕੋਸ਼ਿਸ਼ ਕਰੋ
+
+## Error pages - /checkout and /upgrade
+## Common strings used in multiple pages
+
+next-payment-error-manage-subscription-button = ਮੇਰੀ ਮੈਂਬਰੀ ਦਾ ਇੰਤਜ਼ਾਮ ਕਰੋ
+next-iap-upgrade-contact-support = ਤੁਸੀਂ ਹਾਲੇ ਵੀ ਇਹ ਉਤਪਾਦ ਨੂੰ ਲੈ ਸਕਦੇ ਹੋ — ਸਾਡੀ ਸਹਾਇਤਾ ਨਾਲ ਸੰਪਰਕ ਕਰੋ ਤਾਂ ਕਿ ਅਸੀਂ ਤੁਹਾਡੀ ਮਦਦ ਸਕੀਏ।
+next-payment-error-retry-button = ਮੁੜ ਕੋਸ਼ਿਸ਼ ਕਰੋ
+next-basic-error-message = ਕੁਝ ਗਲਤ ਵਾਪਰਿਆ ਹੈ। ਬਾਅਦ ਵਿੱਚ ਮੁੜ ਕੋਸ਼ਿਸ਼ ਕਰੋ।
+
+## Processing page and Needs Input page - /checkout and /upgrade
+## Common strings used in multiple pages
+
+next-payment-processing-message = ਤੁਹਾਡੇ ਭੁਗਤਾਨ ਉੱਤੇ ਸਾਡੇ ਵਲੋਂ ਕਾਰਵਾਈ ਕੀਤੇ ਤੱਕ ਉਡੀਕੋ…
+
+## Success page - /checkout and /upgrade
+## Common strings used in multiple checkout pages
+
 next-payment-confirmation-thanks-heading-account-exists = ਧੰਨਵਾਦ, ਹੁਣ ਆਪਣੀ ਈਮੇਲ ਦੀ ਜਾਂਚ ਕਰੋ!
 next-payment-confirmation-order-heading = ਆਡਰ ਦੇ ਵੇਰਵੇ
 # $invoiceNumber (String) - Invoice number of the successful payment
@@ -24,13 +36,17 @@ next-payment-confirmation-invoice-number = ਇਨਵਾਇਸ ${ $invoiceNumber 
 # $invoiceDate (Date) - Start date of the latest invoice
 next-payment-confirmation-invoice-date = { $invoiceDate }
 next-payment-confirmation-details-heading-2 = ਭੁਗਤਾਨ ਦੀ ਜਾਣਕਾਰੀ
-# $amount (Number) - The amount billed. It will be formatted as currency.
-# $interval (String) - The interval between payments.
-next-payment-confirmation-amount = { $amount } ਪ੍ਰਤੀ { $interval }
+
+## Success pages (/checkout and /upgrade)
+## Common strings used in multiple checkout pages
+
+next-payment-confirmation-download-button = ਡਾਉਨਲੋਡ ਕਰਨਾ ਜਾਰੀ ਰੱਖੋ
+
+## Success pages (/checkout and /upgrade), Start page (/upgrade)
+## Common strings used in multiple checkout pages
+
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = ਆਖਰੀ ਨੰਬਰ { $last4 } ਵਾਲਾ ਕਾਰਡ
-next-payment-confirmation-download-button = ਡਾਉਨਲੋਡ ਕਰਨਾ ਜਾਰੀ ਰੱਖੋ
-checkout-error-boundary-retry-button = ਫੇਰ ਕੋਸ਼ਿਸ਼ ਕਰੋ
 
 ## Component - Payment Consent Checkbox
 
@@ -107,7 +123,6 @@ next-new-user-subscribe-product-assurance = ਅਸੀਂ ਤੁਹਾਡੇ ਈ�
 plan-price-interval-daily = { $amount } ਰੋਜ਼ਾਨਾ
 plan-price-interval-weekly = { $amount } ਹਫ਼ਤਾਵਰ
 plan-price-interval-monthly = { $amount } ਮਹੀਨੇਵਾਰ
-plan-price-interval-6monthly = { $amount } ਹਰ 6 ਮਹੀਨੇ ਬਾਅਦ
 plan-price-interval-yearly = { $amount } ਸਾਲਨਾ
 
 ## Component - SubscriptionTitle

@@ -501,9 +501,6 @@ connect-another-play-store-image =
 connect-another-app-store-image-2 =
     .title = Ladda ner { -brand-firefox } från { -app-store }
 
-##
-
-
 ## Connected services section
 
 cs-heading = Anslutna tjänster
@@ -552,9 +549,6 @@ cs-disconnect-lost-advice-content-3 = Eftersom din enhet har tappats bort eller 
 cs-disconnect-suspicious-advice-heading = Misstänkt enhet frånkopplad
 cs-disconnect-suspicious-advice-content-2 = Om den frånkopplade enheten verkligen är misstänkt bör du ändra ditt lösenord för { -product-mozilla-account } i dina kontoinställningar för att skydda din information. Du bör också ändra alla andra lösenord som du sparat i { -brand-firefox } genom att skriva about:logins i adressfältet.
 cs-sign-out-button = Logga ut
-
-##
-
 
 ## Data collection section
 
@@ -749,9 +743,6 @@ avatar-page-file-upload-error-3 = Det gick inte att ladda upp din profilbild
 avatar-page-delete-error-3 = Det gick inte att ta bort din profilbild
 avatar-page-image-too-large-error-2 = Bildfilens storlek är för stor för att kunna laddas upp
 
-##
-
-
 ## Password change page
 
 pw-change-header =
@@ -773,18 +764,12 @@ pw-change-confirm-password =
     .label = Bekräfta nytt lösenord
 pw-change-success-alert-2 = Lösenord uppdaterat
 
-##
-
-
 ## Password create page
 
 pw-create-header =
     .title = Skapa lösenord
 pw-create-success-alert-2 = Lösenord inställt
 pw-create-error-2 = Tyvärr, det uppstod ett problem med att ställa in ditt lösenord
-
-##
-
 
 ## Delete account page
 
@@ -819,9 +804,6 @@ pocket-delete-notice-marketing = För att sluta få marknadsföringsmejl från M
 delete-account-cancel-button = Avbryt
 delete-account-delete-button-2 = Ta bort
 
-##
-
-
 ## Display name page
 
 display-name-page-title =
@@ -832,9 +814,6 @@ submit-display-name = Spara
 cancel-display-name = Avbryt
 display-name-update-error-2 = Det gick inte att uppdatera ditt visningsnamn
 display-name-success-alert-2 = Visningsnamn uppdaterat
-
-##
-
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
@@ -988,9 +967,6 @@ tfa-enter-code-to-confirm-setup = Bekräfta att du sparat dina koder genom att a
 tfa-enter-recovery-code-1 =
     .label = Ange en reservautentiseringskod
 
-##
-
-
 ## Product promotion
 
 product-promo-monitor =
@@ -1011,9 +987,6 @@ profile-display-name =
     .header = Visningsnamn
 profile-primary-email =
     .header = Primär e-post
-
-##
-
 
 ## Progress bar
 
@@ -1074,8 +1047,6 @@ tfa-row-backup-phone-delete-button = Ta bort
 # Shown in tooltip on delete button or delete icon
 tfa-row-backup-phone-delete-title-v2 = Ta bort återställningstelefon
 tfa-row-backup-phone-delete-restriction-v2 = Om du vill ta bort din återställningstelefon för säkerhetskopiering, lägg till reservautentiseringskoder eller inaktivera tvåstegsautentisering först för att undvika att bli utelåst från ditt konto.
-# "this" refers to recovery phone
-tfa-row-backup-phone-description = Det här är den enklare återställningsmetoden om du inte kan använda din autentiseringsapp.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
@@ -1157,9 +1128,6 @@ se-content-note-1 =
     en <a>kontoåterställningsnyckel</a> för det.
 # Default value for the secondary email
 se-secondary-email-none = Ingen
-
-##
-
 
 ## Two Step Auth sub-section on Settings main page
 

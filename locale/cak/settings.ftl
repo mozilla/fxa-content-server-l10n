@@ -229,9 +229,6 @@ connect-another-play-store-image =
 connect-another-app-store-image-2 =
     .title = Tiqasäx { -brand-firefox } pa ri { -app-store }
 
-##
-
-
 ## Connected services section
 
 cs-heading = Taq Samaj Ye'okisäx
@@ -274,9 +271,6 @@ cs-disconnect-advice-confirm = Ütz, xno' pa nuwi'
 cs-disconnect-lost-advice-heading = Eleq'an o sachon okisab'äl chupül
 cs-disconnect-suspicious-advice-heading = Xchup ri q'elenel okisab'äl
 cs-sign-out-button = Titz'apïx molojri'ïl
-
-##
-
 
 ## Data collection section
 
@@ -383,9 +377,6 @@ avatar-page-file-upload-error-3 = Xk'ulwachitäj jun k'ayewal toq nijotob'äx ri
 avatar-page-delete-error-3 = Xk'ulwachitäj jun k'ayewal toq niyuj ri ruwachib'al ruwäch b'i'aj
 avatar-page-image-too-large-error-2 = Yalan nïm ruyakb'al ri wachib'äl richin nijotob'äx
 
-##
-
-
 ## Password change page
 
 pw-change-header =
@@ -402,17 +393,11 @@ pw-change-confirm-password =
     .label = Tijikib'äx ri k'ak'a' ewan tzij
 pw-change-success-alert-2 = Xk'extäj ri ewan tzij
 
-##
-
-
 ## Password create page
 
 pw-create-header =
     .title = Titz'uk ewan tzij
 pw-create-success-alert-2 = Xjikib'äx ewan tzij
-
-##
-
 
 ## Delete account page
 
@@ -439,9 +424,6 @@ delete-account-password-input =
 delete-account-cancel-button = Tiq'at
 delete-account-delete-button-2 = Tiyuj
 
-##
-
-
 ## Display name page
 
 display-name-page-title =
@@ -452,9 +434,6 @@ submit-display-name = Tiyak
 cancel-display-name = Tiq'at
 display-name-update-error-2 = K'o k'ayewal toq xk'ex ri b'i'aj richin nik'ut.
 display-name-success-alert-2 = Tik'ut pe ri b'i'aj xk'ex
-
-##
-
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
@@ -528,9 +507,6 @@ tfa-button-cant-scan-qr = ¿La man nitikïr ta nuq'axachib'ilij b'itz'ib'?
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Titz'ib'äx re ewan ruk'u'x tzij re' pa ri achokoy  richin jikib'anem:
 
-##
-
-
 ## Product promotion
 
 
@@ -543,9 +519,6 @@ profile-display-name =
     .header = Tik'ut b'i'aj
 profile-primary-email =
     .header = Nab'ey taqoya'l
-
-##
-
 
 ## Progress bar
 
@@ -618,9 +591,6 @@ se-make-primary = Tichap achi'el nab'ey
 se-default-content = Katok pan ataqoya'l we man yatikïr ta yatok pa ri nab'ey ataqoya'l.
 # Default value for the secondary email
 se-secondary-email-none = Majun
-
-##
-
 
 ## Two Step Auth sub-section on Settings main page
 

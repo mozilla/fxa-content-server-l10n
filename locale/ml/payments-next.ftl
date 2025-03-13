@@ -1,9 +1,3 @@
-## Checkout Page
-## Common strings used in multiple checkout pages
-
-next-payment-error-retry-button = വീണ്ടും ശ്രമിയ്ക്കുക
-next-basic-error-message = എന്തോ ഒരു കുഴപ്പമുണ്ടായി. ദയവായി പിന്നീടു് വീണ്ടും ശ്രമിച്ചു നോക്കുക
-
 ## Page
 
 checkout-signin-or-create = 1. പ്രവേശിക്കുക അല്ലെങ്കിൽ ഒരു { -product-mozilla-account } ഉണ്ടാക്കുക
@@ -13,18 +7,40 @@ continue-signin-with-apple-button = { -brand-apple }-കൂടെ തുടര�
 next-payment-method-header = പണമടക്കൽമുറ തിരഞ്ഞെടുക്കുക
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step-next = 2. { next-payment-method-header }
+
+## Page - Upgrade page
+
+checkout-error-boundary-retry-button = വീണ്ടും ശ്രമിയ്ക്കുക
+checkout-error-boundary-basic-error-message = എന്തോ കുഴപ്പമുണ്ടായി. ദയവായി വീണ്ടും ശ്രമിക്കിൻ അല്ലെങ്കിൽ <contactSupportLink>പിന്തുണയുമായി ബന്ധപ്പെടുക.</contactSupportLink>
+
+## Error pages - /checkout and /upgrade
+## Common strings used in multiple pages
+
+next-payment-error-retry-button = വീണ്ടും ശ്രമിയ്ക്കുക
+next-basic-error-message = എന്തോ ഒരു കുഴപ്പമുണ്ടായി. ദയവായി പിന്നീടു് വീണ്ടും ശ്രമിച്ചു നോക്കുക
+
+## Processing page and Needs Input page - /checkout and /upgrade
+## Common strings used in multiple pages
+
+
+## Success page - /checkout and /upgrade
+## Common strings used in multiple checkout pages
+
 next-payment-confirmation-thanks-heading-account-exists = നന്നി, ഇനി താങ്ങളുടെ ഇതപാലിൽ നോക്കുക
 # $invoiceDate (Date) - Start date of the latest invoice
 next-payment-confirmation-invoice-date = { $invoiceDate }
 next-payment-confirmation-details-heading-2 = പണമടക്കൽ വിവരം
-# $amount (Number) - The amount billed. It will be formatted as currency.
-# $interval (String) - The interval between payments.
-next-payment-confirmation-amount = { $interval }-ൽ തുക { $amount }
+
+## Success pages (/checkout and /upgrade)
+## Common strings used in multiple checkout pages
+
+next-payment-confirmation-download-button = ഇറക്കിവയ്ക്കാൻ തുടരുക
+
+## Success pages (/checkout and /upgrade), Start page (/upgrade)
+## Common strings used in multiple checkout pages
+
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = { $last4 } അക്കങ്ങളിൽ തീരുന്ന ചീട്ടു്
-next-payment-confirmation-download-button = ഇറക്കിവയ്ക്കാൻ തുടരുക
-checkout-error-boundary-retry-button = വീണ്ടും ശ്രമിയ്ക്കുക
-checkout-error-boundary-basic-error-message = എന്തോ കുഴപ്പമുണ്ടായി. ദയവായി വീണ്ടും ശ്രമിക്കിൻ അല്ലെങ്കിൽ <contactSupportLink>പിന്തുണയുമായി ബന്ധപ്പെടുക.</contactSupportLink>
 
 ## Component - Payment Consent Checkbox
 
@@ -90,7 +106,6 @@ signin-form-email-input-invalid = ദയവായിയൊരു സാധുവ
 plan-price-interval-daily = പ്രതിദിനം { $amount }
 plan-price-interval-weekly = പ്രതിവാരം { $amount }
 plan-price-interval-monthly = പ്രതിമാസം { $amount }
-plan-price-interval-6monthly = ഒരോ 6 മാസങ്ങളിൽ { $amount }
 plan-price-interval-yearly = പ്രതിവൎഷം { $amount }
 
 ## Component - SubscriptionTitle

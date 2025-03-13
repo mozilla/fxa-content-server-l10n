@@ -1,14 +1,33 @@
-## Checkout Page
-## Common strings used in multiple checkout pages
+## Page
+
+
+## Page - Upgrade page
+
+
+## Error pages - /checkout and /upgrade
+## Common strings used in multiple pages
 
 next-payment-error-retry-button = మళ్ళీ ప్రయత్నించండి
 
-## Page
+## Processing page and Needs Input page - /checkout and /upgrade
+## Common strings used in multiple pages
+
+
+## Success page - /checkout and /upgrade
+## Common strings used in multiple checkout pages
 
 next-payment-confirmation-order-heading = ఆర్డరు వివరాలు
 # $invoiceNumber (String) - Invoice number of the successful payment
 next-payment-confirmation-invoice-number = ఇన్వాయిస్ #{ $invoiceNumber }
 next-payment-confirmation-details-heading-2 = చెల్లింపు సమాచారం
+
+## Success pages (/checkout and /upgrade)
+## Common strings used in multiple checkout pages
+
+
+## Success pages (/checkout and /upgrade), Start page (/upgrade)
+## Common strings used in multiple checkout pages
+
 
 ## Component - Payment Consent Checkbox
 

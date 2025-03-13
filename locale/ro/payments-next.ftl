@@ -1,19 +1,35 @@
-## Checkout Page
-## Common strings used in multiple checkout pages
+## Page
 
-next-payment-processing-message = Vă rugăm să așteptați în timp ce procesăm plata dvs. …
+
+## Page - Upgrade page
+
+
+## Error pages - /checkout and /upgrade
+## Common strings used in multiple pages
+
 next-payment-error-manage-subscription-button = Gestionează abonamentul meu
 next-basic-error-message = Ceva nu a funcționat. Te rugăm să încerci mai târziu.
 
-## Page
+## Processing page and Needs Input page - /checkout and /upgrade
+## Common strings used in multiple pages
+
+next-payment-processing-message = Vă rugăm să așteptați în timp ce procesăm plata dvs. …
+
+## Success page - /checkout and /upgrade
+## Common strings used in multiple checkout pages
 
 next-payment-confirmation-order-heading = Detalii comandă
 # $invoiceNumber (String) - Invoice number of the successful payment
 next-payment-confirmation-invoice-number = Factura #{ $invoiceNumber }
-# $amount (Number) - The amount billed. It will be formatted as currency.
-# $interval (String) - The interval between payments.
-next-payment-confirmation-amount = { $amount } per { $interval }
+
+## Success pages (/checkout and /upgrade)
+## Common strings used in multiple checkout pages
+
 next-payment-confirmation-download-button = Continuă cu descărcarea
+
+## Success pages (/checkout and /upgrade), Start page (/upgrade)
+## Common strings used in multiple checkout pages
+
 
 ## Component - Payment Consent Checkbox
 

@@ -501,9 +501,6 @@ connect-another-play-store-image =
 connect-another-app-store-image-2 =
     .title = Llwytho { -brand-firefox } i lawr ar yr { -app-store }
 
-##
-
-
 ## Connected services section
 
 cs-heading = Gwasanaethau Cysylltiedig
@@ -550,9 +547,6 @@ cs-disconnect-lost-advice-content-3 = Ers i'ch dyfais gael ei cholli neu ei dwyn
 cs-disconnect-suspicious-advice-heading = Dyfais amheus wedi'i datgysylltu
 cs-disconnect-suspicious-advice-content-2 = Os yw'r ddyfais sydd wedi'i datgysylltu yn wir amheus, i gadw'ch manylion yn ddiogel, dylech newid cyfrinair eich cyfrif { -product-mozilla-account } yng ngosodiadau eich cyfrif. Dylech hefyd newid unrhyw gyfrineiriau eraill a gadwyd gennych yn { -brand-firefox } trwy deipio about:logins yn y bar cyfeiriad.
 cs-sign-out-button = Allgofnodi
-
-##
-
 
 ## Data collection section
 
@@ -745,9 +739,6 @@ avatar-page-file-upload-error-3 = Bu anhawster wrth lwytho'ch llun proffil i fyn
 avatar-page-delete-error-3 = Bu anhawster wrth ddileu'ch llun proffil.
 avatar-page-image-too-large-error-2 = Mae'r ffeil delwedd yn rhy fawr i'w llwytho.
 
-##
-
-
 ## Password change page
 
 pw-change-header =
@@ -769,18 +760,12 @@ pw-change-confirm-password =
     .label = Cadarnhau'r cyfrinair newydd
 pw-change-success-alert-2 = Diweddarwyd y cyfrinair
 
-##
-
-
 ## Password create page
 
 pw-create-header =
     .title = Crëwch gyfrinair
 pw-create-success-alert-2 = Gosodwyd y cyfrinair
 pw-create-error-2 = Ymddiheuriadau, bu anhawster wrth osod eich cyfrinair.
-
-##
-
 
 ## Delete account page
 
@@ -815,9 +800,6 @@ pocket-delete-notice-marketing = Er mwyn peidio â derbyn e-byst marchnata gan y
 delete-account-cancel-button = Diddymu
 delete-account-delete-button-2 = Dileu
 
-##
-
-
 ## Display name page
 
 display-name-page-title =
@@ -828,9 +810,6 @@ submit-display-name = Cadw
 cancel-display-name = Diddymu
 display-name-update-error-2 = Bu anhawster wrth ddiweddaru eich enw dangos
 display-name-success-alert-2 = Diweddarwyd yr enw dangos
-
-##
-
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
@@ -984,9 +963,6 @@ tfa-enter-code-to-confirm-setup = Cadarnhewch eich bod wedi cadw'ch codau trwy g
 tfa-enter-recovery-code-1 =
     .label = Rhowch god dilysu wrth gefn
 
-##
-
-
 ## Product promotion
 
 product-promo-monitor =
@@ -1007,9 +983,6 @@ profile-display-name =
     .header = Enw dangos
 profile-primary-email =
     .header = Prif e-bost
-
-##
-
 
 ## Progress bar
 
@@ -1074,8 +1047,6 @@ tfa-row-backup-phone-delete-button = Tynnu
 # Shown in tooltip on delete button or delete icon
 tfa-row-backup-phone-delete-title-v2 = Dileu'r ffôn adfer
 tfa-row-backup-phone-delete-restriction-v2 = Os ydych chi am ddileu eich ffôn adfer, ychwanegwch godau dilysu wrth gefn neu analluogu dilysiad dau gam yn gyntaf er mwyn osgoi cael eich cloi allan o'ch cyfrif.
-# "this" refers to recovery phone
-tfa-row-backup-phone-description = Dyma'r dull adfer hawsaf os na allwch ddefnyddio'ch ap dilysu.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
@@ -1155,9 +1126,6 @@ se-default-content = Cael mynediad i'ch cyfrif os na allwch fewngofnodi i'ch pri
 se-content-note-1 = Sylwch: Fydd eich ail e-bost ddim yn adfer eich manylion — byddwch angen <a>allwedd adfer cyfrif</a> ar gyfer hynny.
 # Default value for the secondary email
 se-secondary-email-none = Dim
-
-##
-
 
 ## Two Step Auth sub-section on Settings main page
 

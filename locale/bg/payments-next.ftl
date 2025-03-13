@@ -1,15 +1,34 @@
-## Checkout Page
-## Common strings used in multiple checkout pages
+## Page
+
+
+## Page - Upgrade page
+
+
+## Error pages - /checkout and /upgrade
+## Common strings used in multiple pages
 
 next-payment-error-manage-subscription-button = Управление на абонамент
 next-payment-error-retry-button = Опитайте отново
 next-basic-error-message = Нещо се обърка. Опитайте отново.
 
-## Page
+## Processing page and Needs Input page - /checkout and /upgrade
+## Common strings used in multiple pages
+
+
+## Success page - /checkout and /upgrade
+## Common strings used in multiple checkout pages
 
 # $invoiceNumber (String) - Invoice number of the successful payment
 next-payment-confirmation-invoice-number = Фактура № { $invoiceNumber }
 next-payment-confirmation-details-heading-2 = Информация за плащането
+
+## Success pages (/checkout and /upgrade)
+## Common strings used in multiple checkout pages
+
+
+## Success pages (/checkout and /upgrade), Start page (/upgrade)
+## Common strings used in multiple checkout pages
+
 
 ## Component - Payment Consent Checkbox
 

@@ -501,9 +501,6 @@ connect-another-play-store-image =
 connect-another-app-store-image-2 =
     .title = Telechargiar { -brand-firefox } en l'{ -app-store }
 
-##
-
-
 ## Connected services section
 
 cs-heading = Servetschs connectads
@@ -556,9 +553,6 @@ cs-disconnect-suspicious-advice-content-2 =
     Sche l'apparat deconnectà è propi suspectus, duessas ti midar tes pled-clav dal { -product-mozilla-account } en ils parameters da tes conto
     per che tias datas restian segiras. En pli duessas ti era midar tut tschels pleds-clavs che ti has memorisà en { -brand-firefox } cun tippar about:logins en la trav d'adressas.
 cs-sign-out-button = Sortir
-
-##
-
 
 ## Data collection section
 
@@ -753,9 +747,6 @@ avatar-page-file-upload-error-3 = Igl ha dà in problem cun transferir tes malet
 avatar-page-delete-error-3 = Igl ha dà in problem cun stizzar tes maletg da profil
 avatar-page-image-too-large-error-2 = La datoteca dal maletg è memia gronda per il transferiment
 
-##
-
-
 ## Password change page
 
 pw-change-header =
@@ -777,18 +768,12 @@ pw-change-confirm-password =
     .label = Confermar il nov pled-clav
 pw-change-success-alert-2 = Actualisà il pled-clav
 
-##
-
-
 ## Password create page
 
 pw-create-header =
     .title = Crear in pled-clav
 pw-create-success-alert-2 = Definì il pled-clav
 pw-create-error-2 = Perstgisa, igl ha dà in problem cun definir tes pled-clav
-
-##
-
 
 ## Delete account page
 
@@ -823,9 +808,6 @@ pocket-delete-notice-marketing = Per betg pli retschaiver e-mails da marketing d
 delete-account-cancel-button = Interrumper
 delete-account-delete-button-2 = Stizzar
 
-##
-
-
 ## Display name page
 
 display-name-page-title =
@@ -836,9 +818,6 @@ submit-display-name = Memorisar
 cancel-display-name = Interrumper
 display-name-update-error-2 = Igl ha dà in problem cun actualisar tes num per mussar
 display-name-success-alert-2 = Actualisà il num per mussar
-
-##
-
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
@@ -990,9 +969,6 @@ tfa-enter-code-to-confirm-setup = Conferma che ti has memorisà tes codes cun en
 tfa-enter-recovery-code-1 =
     .label = Endatescha in code d'autentificaziun da backup
 
-##
-
-
 ## Product promotion
 
 product-promo-monitor =
@@ -1013,9 +989,6 @@ profile-display-name =
     .header = Num per mussar
 profile-primary-email =
     .header = E-mail principal
-
-##
-
 
 ## Progress bar
 
@@ -1072,8 +1045,6 @@ tfa-row-backup-phone-delete-button = Allontanar
 # Shown in tooltip on delete button or delete icon
 tfa-row-backup-phone-delete-title-v2 = Allontanar il numer da telefon da recuperaziun
 tfa-row-backup-phone-delete-restriction-v2 = Sche ti vuls allontanar tes numer da telefon da recuperaziun, agiunta l’emprim codes d’autentificaziun da backup u deactivescha l’autentificaziun en dus pass per evitar che ti perdias l’access a tes conto.
-# "this" refers to recovery phone
-tfa-row-backup-phone-description = Quai è la metoda da recuperaziun pli simpla sche ti na pos betg utilisar tia app d’autentificaziun.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
@@ -1155,9 +1126,6 @@ se-content-note-1 =
     dovras ina <a>clav da recuperaziun dal conto</a> per quest intent.
 # Default value for the secondary email
 se-secondary-email-none = Nagina
-
-##
-
 
 ## Two Step Auth sub-section on Settings main page
 

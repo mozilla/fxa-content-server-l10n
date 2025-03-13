@@ -1,12 +1,3 @@
-## Checkout Page
-## Common strings used in multiple checkout pages
-
-next-payment-processing-message = Pričekaj dok obradimo tvoju uplatu…
-next-payment-error-manage-subscription-button = Upravljaj mojom pretplatom
-next-iap-upgrade-contact-support = Još uvijek možeš dobiti ovaj proizvod – kontaktiraj podršku kako bismo ti pomogli.
-next-payment-error-retry-button = Pokušaj ponovo
-next-basic-error-message = Nešto nije u redu. Pokušaj kasnije ponovo.
-
 ## Page
 
 checkout-signin-or-create = 1. Prijavi se ili stvori { -product-mozilla-account }
@@ -17,6 +8,28 @@ next-payment-method-header = Odaberi način plaćanja
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = Najprije moraš odobriti tvoju pretplatu
+
+## Page - Upgrade page
+
+checkout-error-boundary-retry-button = Pokušaj ponovo
+checkout-error-boundary-basic-error-message = Nešto nije u redu. Pokušaj ponovo ili <contactSupportLink>kontaktiraj podršku.</contactSupportLink>
+
+## Error pages - /checkout and /upgrade
+## Common strings used in multiple pages
+
+next-payment-error-manage-subscription-button = Upravljaj mojom pretplatom
+next-iap-upgrade-contact-support = Još uvijek možeš dobiti ovaj proizvod – kontaktiraj podršku kako bismo ti pomogli.
+next-payment-error-retry-button = Pokušaj ponovo
+next-basic-error-message = Nešto nije u redu. Pokušaj kasnije ponovo.
+
+## Processing page and Needs Input page - /checkout and /upgrade
+## Common strings used in multiple pages
+
+next-payment-processing-message = Pričekaj dok obradimo tvoju uplatu…
+
+## Success page - /checkout and /upgrade
+## Common strings used in multiple checkout pages
+
 next-payment-confirmation-thanks-heading-account-exists = Hvala, sada provjeri svoju e-poštu!
 # $email (String) - The user's email.
 payment-confirmation-thanks-subheading-account-exists-2 = Primit ćeš e-mail na { $email } s uputama za postavljanje računa, kao i podatke o plaćanju.
@@ -26,14 +39,17 @@ next-payment-confirmation-invoice-number = Račun br. { $invoiceNumber }
 # $invoiceDate (Date) - Start date of the latest invoice
 next-payment-confirmation-invoice-date = { $invoiceDate }
 next-payment-confirmation-details-heading-2 = Informacije o plaćanju
-# $amount (Number) - The amount billed. It will be formatted as currency.
-# $interval (String) - The interval between payments.
-next-payment-confirmation-amount = { $amount } / { $interval }
+
+## Success pages (/checkout and /upgrade)
+## Common strings used in multiple checkout pages
+
+next-payment-confirmation-download-button = Nastavi s preuzimanjem
+
+## Success pages (/checkout and /upgrade), Start page (/upgrade)
+## Common strings used in multiple checkout pages
+
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Kartica završava s { $last4 }
-next-payment-confirmation-download-button = Nastavi s preuzimanjem
-checkout-error-boundary-retry-button = Pokušaj ponovo
-checkout-error-boundary-basic-error-message = Nešto nije u redu. Pokušaj ponovo ili <contactSupportLink>kontaktiraj podršku.</contactSupportLink>
 
 ## Component - Payment Consent Checkbox
 
@@ -112,7 +128,6 @@ next-new-user-subscribe-product-assurance = Tvoju e-mail adresu koristimo samo z
 plan-price-interval-daily = { $amount } dnevno
 plan-price-interval-weekly = { $amount } tjedno
 plan-price-interval-monthly = { $amount } mjesečno
-plan-price-interval-6monthly = { $amount } svakih 6 mjeseci
 plan-price-interval-yearly = { $amount } godišnje
 
 ## Component - SubscriptionTitle

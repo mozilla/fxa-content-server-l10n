@@ -485,9 +485,6 @@ connect-another-play-store-image =
 connect-another-app-store-image-2 =
     .title = Preuzmi { -brand-firefox } na { -app-store }
 
-##
-
-
 ## Connected services section
 
 cs-heading = Povezane usluge
@@ -529,9 +526,6 @@ cs-disconnect-advice-confirm = U redu, razumijem
 cs-disconnect-lost-advice-heading = Prekinuta veza s izgubljenim ili ukradenim uređajem
 cs-disconnect-suspicious-advice-heading = Prekinuta veza sa sumnjivim uređajem
 cs-sign-out-button = Odjava
-
-##
-
 
 ## Data collection section
 
@@ -687,9 +681,6 @@ avatar-page-file-upload-error-3 = Dogodila se greška tijekom prijenosa tvoje sl
 avatar-page-delete-error-3 = Dogodila se greška tijekom brisanja tvoje slike profila
 avatar-page-image-too-large-error-2 = Slika je prevelika za prijenos
 
-##
-
-
 ## Password change page
 
 pw-change-header =
@@ -711,18 +702,12 @@ pw-change-confirm-password =
     .label = Potvrdi novu lozinku
 pw-change-success-alert-2 = Lozinka je aktualizirana
 
-##
-
-
 ## Password create page
 
 pw-create-header =
     .title = Stvori lozinku
 pw-create-success-alert-2 = Lozinka je postavljena
 pw-create-error-2 = Žao nam je. Došlo je do greške prilikom postavljanja tvoje lozinke
-
-##
-
 
 ## Delete account page
 
@@ -752,9 +737,6 @@ delete-account-password-input =
 delete-account-cancel-button = Odustani
 delete-account-delete-button-2 = Izbriši
 
-##
-
-
 ## Display name page
 
 display-name-page-title =
@@ -764,9 +746,6 @@ display-name-input =
 submit-display-name = Spremi
 cancel-display-name = Odustani
 display-name-success-alert-2 = Prikazano ime je aktualizirano
-
-##
-
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
@@ -884,9 +863,6 @@ tfa-enter-secret-key = Unesi ovaj tajni ključ u svoju aplikaciju za provjeru au
 tfa-input-enter-totp-v2 =
     .label = Upiši kod za autentifikaciju
 
-##
-
-
 ## Product promotion
 
 product-promo-monitor =
@@ -907,9 +883,6 @@ profile-display-name =
     .header = Prikazano ime
 profile-primary-email =
     .header = Primarna adresa e-pošte
-
-##
-
 
 ## Progress bar
 
@@ -1023,9 +996,6 @@ se-default-content = Pristupi svom računu kada se ne možeš prijaviti na svoju
 se-content-note-1 = Napomena: sekundarna e-mail adresa neće obnoviti tvoje podatke – za to ćeš trebati <a>ključ za obnavljanje računa</a>.
 # Default value for the secondary email
 se-secondary-email-none = Nema
-
-##
-
 
 ## Two Step Auth sub-section on Settings main page
 

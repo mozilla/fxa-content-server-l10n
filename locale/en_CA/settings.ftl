@@ -501,9 +501,6 @@ connect-another-play-store-image =
 connect-another-app-store-image-2 =
     .title = Download { -brand-firefox } on the { -app-store }
 
-##
-
-
 ## Connected services section
 
 cs-heading = Connected Services
@@ -550,9 +547,6 @@ cs-disconnect-lost-advice-content-3 = Since your device was lost or stolen, to k
 cs-disconnect-suspicious-advice-heading = Suspicious device disconnected
 cs-disconnect-suspicious-advice-content-2 = If the disconnected device is indeed suspicious, to keep your information safe, you should change your { -product-mozilla-account } password in your account settings. You should also change any other passwords you saved in { -brand-firefox } by typing about:logins into the address bar.
 cs-sign-out-button = Sign out
-
-##
-
 
 ## Data collection section
 
@@ -747,9 +741,6 @@ avatar-page-file-upload-error-3 = There was a problem uploading your profile pic
 avatar-page-delete-error-3 = There was a problem deleting your profile picture
 avatar-page-image-too-large-error-2 = The image file size is too large to be uploaded
 
-##
-
-
 ## Password change page
 
 pw-change-header =
@@ -771,18 +762,12 @@ pw-change-confirm-password =
     .label = Confirm new password
 pw-change-success-alert-2 = Password updated
 
-##
-
-
 ## Password create page
 
 pw-create-header =
     .title = Create password
 pw-create-success-alert-2 = Password set
 pw-create-error-2 = Sorry, there was a problem setting your password
-
-##
-
 
 ## Delete account page
 
@@ -817,9 +802,6 @@ pocket-delete-notice-marketing = To stop receiving marketing emails from Mozilla
 delete-account-cancel-button = Cancel
 delete-account-delete-button-2 = Delete
 
-##
-
-
 ## Display name page
 
 display-name-page-title =
@@ -830,9 +812,6 @@ submit-display-name = Save
 cancel-display-name = Cancel
 display-name-update-error-2 = There was a problem updating your display name
 display-name-success-alert-2 = Display name updated
-
-##
-
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
@@ -971,9 +950,6 @@ tfa-enter-code-to-confirm-setup = Confirm you saved your codes by entering one. 
 tfa-enter-recovery-code-1 =
     .label = Enter a backup authentication code
 
-##
-
-
 ## Product promotion
 
 product-promo-monitor =
@@ -994,9 +970,6 @@ profile-display-name =
     .header = Display name
 profile-primary-email =
     .header = Primary email
-
-##
-
 
 ## Progress bar
 
@@ -1053,8 +1026,6 @@ tfa-row-backup-phone-delete-button = Remove
 # Shown in tooltip on delete button or delete icon
 tfa-row-backup-phone-delete-title-v2 = Remove recovery phone
 tfa-row-backup-phone-delete-restriction-v2 = If you want to remove your recovery phone, add backup authentication codes or disable two-step authentication first to avoid getting locked out of your account.
-# "this" refers to recovery phone
-tfa-row-backup-phone-description = This is the easier recovery method if you canʼt use your authenticator app.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
@@ -1136,9 +1107,6 @@ se-content-note-1 =
     need an <a>account recovery key</a> for that.
 # Default value for the secondary email
 se-secondary-email-none = None
-
-##
-
 
 ## Two Step Auth sub-section on Settings main page
 

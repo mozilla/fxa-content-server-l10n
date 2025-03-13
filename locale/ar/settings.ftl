@@ -130,9 +130,6 @@ bento-menu-firefox-mobile = متصفّح { -brand-firefox } للمحمول
 
 connect-another-fx-mobile = نزّل { -brand-firefox } على المحمول أو الجهاز اللوحي
 
-##
-
-
 ## Connected services section
 
 cs-heading = الخدمات المتّصلة
@@ -147,9 +144,6 @@ cs-description = كل ما تستعمله وولجت إليه.
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
-
-
-##
 
 
 ##
@@ -209,31 +203,16 @@ cs-description = كل ما تستعمله وولجت إليه.
 ## Avatar change page
 
 
-##
-
-
 ## Password change page
-
-
-##
 
 
 ## Password create page
 
 
-##
-
-
 ## Delete account page
 
 
-##
-
-
 ## Display name page
-
-
-##
 
 
 ## Recent account activity
@@ -263,16 +242,10 @@ cs-description = كل ما تستعمله وولجت إليه.
 ## Two Step Authentication
 
 
-##
-
-
 ## Product promotion
 
 
 ## Profile section
-
-
-##
 
 
 ## Progress bar
@@ -294,9 +267,6 @@ cs-description = كل ما تستعمله وولجت إليه.
 
 
 ## Secondary email sub-section on main Settings page
-
-
-##
 
 
 ## Two Step Auth sub-section on Settings main page

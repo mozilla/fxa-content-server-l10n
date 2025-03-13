@@ -1,16 +1,27 @@
-## Checkout Page
-## Common strings used in multiple checkout pages
+## Page
 
-next-payment-processing-message = Төлеміңізді өңделгенше күтіңіз…
+next-payment-method-header = Төлем әдісін таңдаңыз
+next-payment-method-first-approve = Алдымен жазылуыңызды растауыңыз керек
+
+## Page - Upgrade page
+
+
+## Error pages - /checkout and /upgrade
+## Common strings used in multiple pages
+
 next-payment-error-manage-subscription-button = Менің жазылуымды басқару
 next-iap-upgrade-contact-support = Сіз бұл өнімді әлі де ала аласыз — көмек алу үшін қолдау қызметіне хабарласыңыз.
 next-payment-error-retry-button = Қайтадан көру
 next-basic-error-message = Бірнәрсе қате кетті. Кейінірек қайталап көріңіз.
 
-## Page
+## Processing page and Needs Input page - /checkout and /upgrade
+## Common strings used in multiple pages
 
-next-payment-method-header = Төлем әдісін таңдаңыз
-next-payment-method-first-approve = Алдымен жазылуыңызды растауыңыз керек
+next-payment-processing-message = Төлеміңізді өңделгенше күтіңіз…
+
+## Success page - /checkout and /upgrade
+## Common strings used in multiple checkout pages
+
 next-payment-confirmation-thanks-heading-account-exists = Рахмет, енді эл. поштаңызды тексеріңіз!
 next-payment-confirmation-order-heading = Тапсырыс мәліметтері
 # $invoiceNumber (String) - Invoice number of the successful payment
@@ -18,12 +29,17 @@ next-payment-confirmation-invoice-number = №{ $invoiceNumber } шот-факт
 # $invoiceDate (Date) - Start date of the latest invoice
 next-payment-confirmation-invoice-date = { $invoiceDate }
 next-payment-confirmation-details-heading-2 = Төлем ақпараты
-# $amount (Number) - The amount billed. It will be formatted as currency.
-# $interval (String) - The interval between payments.
-next-payment-confirmation-amount = { $amount }, { $interval } үшін
+
+## Success pages (/checkout and /upgrade)
+## Common strings used in multiple checkout pages
+
+next-payment-confirmation-download-button = Жүктеп алуды жалғастыру
+
+## Success pages (/checkout and /upgrade), Start page (/upgrade)
+## Common strings used in multiple checkout pages
+
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = { $last4 } аяқталатын карта
-next-payment-confirmation-download-button = Жүктеп алуды жалғастыру
 
 ## Component - Payment Consent Checkbox
 
@@ -95,7 +111,6 @@ next-new-user-subscribe-product-assurance = Біз эл. поштаңызды т
 plan-price-interval-daily = { $amount } күн сайын
 plan-price-interval-weekly = { $amount } апта сайын
 plan-price-interval-monthly = { $amount } ай сайын
-plan-price-interval-6monthly = { $amount } әр 6 ай сайын
 plan-price-interval-yearly = { $amount } жыл сайын
 
 ## Component - SubscriptionTitle

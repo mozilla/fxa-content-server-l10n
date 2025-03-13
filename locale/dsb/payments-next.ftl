@@ -1,15 +1,3 @@
-## Checkout Page
-## Common strings used in multiple checkout pages
-
-next-payment-processing-message = Pšosym cakajśo, mjaztym až wašo płaśenje pśeźěłujomy…
-next-payment-error-manage-subscription-button = Abonoment zastojaś
-next-iap-upgrade-contact-support = Móžośo toś ten produkt hyšći dostaś – stajśo se z teamom pomocy do zwiska, aby mógli wam pomagaś.
-next-payment-error-retry-button = Hyšći raz wopytaś
-next-basic-error-message = Něco jo se mimo kuliło. Pšosym wopytajśo pózdźej hyšći raz.
-checkout-error-contact-support-button = Pomoc kontaktěrowaś
-checkout-error-not-eligible = Njamaśo pšawo toś ten produkt aboněrowaś – stajśo se z teamom pomocy do zwiska, aby my mógli wam pomagaś.
-checkout-error-contact-support = Stajśo se pšosym z teamom pomocy do zwiska, aby my mógli wam pomagaś.
-
 ## Page
 
 checkout-signin-or-create = 1. Pśizjawśo se abo załožćo { -product-mozilla-account }
@@ -20,6 +8,31 @@ next-payment-method-header = Wubjeŕśo swóju płaśeńsku metodu
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = Nejpjerwjej musyśo swój abonement wobkšuśiś
+
+## Page - Upgrade page
+
+checkout-error-boundary-retry-button = Hyšći raz wopytaś
+checkout-error-boundary-basic-error-message = Něco njejo se raźiło. Pšosym wopytajśo hyšći raz abo <contactSupportLink>stajśo se z pomocu do zwiska.</contactSupportLink>
+
+## Error pages - /checkout and /upgrade
+## Common strings used in multiple pages
+
+next-payment-error-manage-subscription-button = Abonoment zastojaś
+next-iap-upgrade-contact-support = Móžośo toś ten produkt hyšći dostaś – stajśo se z teamom pomocy do zwiska, aby mógli wam pomagaś.
+next-payment-error-retry-button = Hyšći raz wopytaś
+next-basic-error-message = Něco jo se mimo kuliło. Pšosym wopytajśo pózdźej hyšći raz.
+checkout-error-contact-support-button = Pomoc kontaktěrowaś
+checkout-error-not-eligible = Njamaśo pšawo toś ten produkt aboněrowaś – stajśo se z teamom pomocy do zwiska, aby my mógli wam pomagaś.
+checkout-error-contact-support = Stajśo se pšosym z teamom pomocy do zwiska, aby my mógli wam pomagaś.
+
+## Processing page and Needs Input page - /checkout and /upgrade
+## Common strings used in multiple pages
+
+next-payment-processing-message = Pšosym cakajśo, mjaztym až wašo płaśenje pśeźěłujomy…
+
+## Success page - /checkout and /upgrade
+## Common strings used in multiple checkout pages
+
 next-payment-confirmation-thanks-heading-account-exists = Wjeliki źěk, pśeglědajśo něnto swóju e-mail!
 # $email (String) - The user's email.
 payment-confirmation-thanks-subheading-account-exists-2 = Dostanjośo mejlku na { $email } z instrukcijami za waš abonement ako teke waše płaśeńske drobnostki.
@@ -29,14 +42,17 @@ next-payment-confirmation-invoice-number = Zliceńka #{ $invoiceNumber }
 # $invoiceDate (Date) - Start date of the latest invoice
 next-payment-confirmation-invoice-date = { $invoiceDate }
 next-payment-confirmation-details-heading-2 = Płaśeńske informacije
-# $amount (Number) - The amount billed. It will be formatted as currency.
-# $interval (String) - The interval between payments.
-next-payment-confirmation-amount = { $amount } na { $interval }
+
+## Success pages (/checkout and /upgrade)
+## Common strings used in multiple checkout pages
+
+next-payment-confirmation-download-button = Dalej k ześěgnjenjeju
+
+## Success pages (/checkout and /upgrade), Start page (/upgrade)
+## Common strings used in multiple checkout pages
+
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Kórta, kótaraž se na { $last4 } kóńcy
-next-payment-confirmation-download-button = Dalej k ześěgnjenjeju
-checkout-error-boundary-retry-button = Hyšći raz wopytaś
-checkout-error-boundary-basic-error-message = Něco njejo se raźiło. Pšosym wopytajśo hyšći raz abo <contactSupportLink>stajśo se z pomocu do zwiska.</contactSupportLink>
 
 ## Component - Payment Consent Checkbox
 
@@ -117,7 +133,6 @@ next-new-user-subscribe-product-assurance = Wužywamy jano wašu e-mailowu adres
 plan-price-interval-daily = { $amount } kuždy źeń
 plan-price-interval-weekly = { $amount } kuždy źeń
 plan-price-interval-monthly = { $amount } kuždy mjasec
-plan-price-interval-6monthly = { $amount } kužde 6 mjasecow
 plan-price-interval-yearly = { $amount } kužde lěto
 
 ## Component - SubscriptionTitle

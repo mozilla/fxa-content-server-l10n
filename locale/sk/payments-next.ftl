@@ -1,15 +1,3 @@
-## Checkout Page
-## Common strings used in multiple checkout pages
-
-next-payment-processing-message = Prosím, počkajte kým spracujeme vašu platbu…
-next-payment-error-manage-subscription-button = Spravovať moje predplatné
-next-iap-upgrade-contact-support = Tento produkt stále môžete získať – kontaktujte podporu, aby sme vám mohli pomôcť.
-next-payment-error-retry-button = Skúsiť znova
-next-basic-error-message = Niečo sa pokazilo. Skúste to znova neskôr.
-checkout-error-contact-support-button = Kontaktovať podporu
-checkout-error-not-eligible = Nemáte nárok na predplatné tohto produktu – kontaktujte podporu, aby sme vám mohli pomôcť.
-checkout-error-contact-support = Kontaktujte podporu, aby sme vám mohli pomôcť.
-
 ## Page
 
 checkout-signin-or-create = 1. Prihláste sa alebo si vytvorte { -product-mozilla-account(capitalization: "lower") }
@@ -20,6 +8,31 @@ next-payment-method-header = Vyberte si spôsob platby
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = Najprv musíte schváliť svoje predplatné
+
+## Page - Upgrade page
+
+checkout-error-boundary-retry-button = Skúsiť znova
+checkout-error-boundary-basic-error-message = Niečo sa pokazilo. Skúste to znova alebo <contactSupportLink>kontaktujte podporu.</contactSupportLink>
+
+## Error pages - /checkout and /upgrade
+## Common strings used in multiple pages
+
+next-payment-error-manage-subscription-button = Spravovať moje predplatné
+next-iap-upgrade-contact-support = Tento produkt stále môžete získať – kontaktujte podporu, aby sme vám mohli pomôcť.
+next-payment-error-retry-button = Skúsiť znova
+next-basic-error-message = Niečo sa pokazilo. Skúste to znova neskôr.
+checkout-error-contact-support-button = Kontaktovať podporu
+checkout-error-not-eligible = Nemáte nárok na predplatné tohto produktu – kontaktujte podporu, aby sme vám mohli pomôcť.
+checkout-error-contact-support = Kontaktujte podporu, aby sme vám mohli pomôcť.
+
+## Processing page and Needs Input page - /checkout and /upgrade
+## Common strings used in multiple pages
+
+next-payment-processing-message = Prosím, počkajte kým spracujeme vašu platbu…
+
+## Success page - /checkout and /upgrade
+## Common strings used in multiple checkout pages
+
 next-payment-confirmation-thanks-heading-account-exists = Ďakujeme, teraz skontrolujte svoj e‑mail!
 # $email (String) - The user's email.
 payment-confirmation-thanks-subheading-account-exists-2 = Na adresu { $email } dostanete e‑mail s pokynmi pre vaše predplatné, ako aj s podrobnosťami o platbe.
@@ -29,14 +42,17 @@ next-payment-confirmation-invoice-number = Faktúra č. { $invoiceNumber }
 # $invoiceDate (Date) - Start date of the latest invoice
 next-payment-confirmation-invoice-date = { $invoiceDate }
 next-payment-confirmation-details-heading-2 = Informácie o platbe
-# $amount (Number) - The amount billed. It will be formatted as currency.
-# $interval (String) - The interval between payments.
-next-payment-confirmation-amount = { $amount } za { $interval }
+
+## Success pages (/checkout and /upgrade)
+## Common strings used in multiple checkout pages
+
+next-payment-confirmation-download-button = Pokračovať na stiahnutie
+
+## Success pages (/checkout and /upgrade), Start page (/upgrade)
+## Common strings used in multiple checkout pages
+
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Karta končiaca číslicami { $last4 }
-next-payment-confirmation-download-button = Pokračovať na stiahnutie
-checkout-error-boundary-retry-button = Skúsiť znova
-checkout-error-boundary-basic-error-message = Niečo sa pokazilo. Skúste to znova alebo <contactSupportLink>kontaktujte podporu.</contactSupportLink>
 
 ## Component - Payment Consent Checkbox
 
@@ -117,7 +133,6 @@ next-new-user-subscribe-product-assurance = Vašu e‑mailovú adresu použijeme
 plan-price-interval-daily = { $amount } denne
 plan-price-interval-weekly = { $amount } týždenne
 plan-price-interval-monthly = { $amount } mesačne
-plan-price-interval-6monthly = { $amount } každých 6 mesiacov
 plan-price-interval-yearly = { $amount } ročne
 
 ## Component - SubscriptionTitle

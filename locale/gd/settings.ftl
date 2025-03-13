@@ -137,9 +137,6 @@ avatar-default-avatar =
 
 connect-another-fx-mobile = Faigh { -brand-firefox } air fòn neo tablaid
 
-##
-
-
 ## Connected services section
 
 cs-heading = Seirbheisean ceangailte
@@ -172,9 +169,6 @@ cs-disconnect-advice-confirm = Ceart, tha mi agaibh
 cs-disconnect-lost-advice-heading = Chaidh an t-uidheam a tha air chall no air a ghoid a dhì-cheangal
 cs-disconnect-suspicious-advice-heading = Chaidh an t-uidheam amharasach a dhì-cheangal
 cs-sign-out-button = Clàraich a-mach
-
-##
-
 
 ## Data collection section
 
@@ -259,9 +253,6 @@ avatar-page-camera-error = Cha b’ urrainn dhuinn an camara a chur gu dol
 avatar-page-new-avatar =
     .alt = dealbh pròifil ùr
 
-##
-
-
 ## Password change page
 
 pw-change-header =
@@ -276,13 +267,7 @@ pw-change-new-password =
 pw-change-confirm-password =
     .label = Dearbh am facal-faire ùr
 
-##
-
-
 ## Password create page
-
-
-##
 
 
 ## Delete account page
@@ -302,9 +287,6 @@ delete-account-password-input =
 delete-account-cancel-button = Sguir dheth
 delete-account-delete-button-2 = Sguab às
 
-##
-
-
 ## Display name page
 
 display-name-page-title =
@@ -313,9 +295,6 @@ display-name-input =
     .label = Cuir a-steach an t-ainm-taisbeanaidh
 submit-display-name = Sàbhail
 cancel-display-name = Sguir dheth
-
-##
-
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
@@ -372,9 +351,6 @@ tfa-button-cant-scan-qr = Nach urrainn dhut an còd a sganadh?
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Cuir an iuchair rùin seo dhan aplacaid dearbhaidh agad:
 
-##
-
-
 ## Product promotion
 
 
@@ -384,9 +360,6 @@ profile-display-name =
     .header = An t-ainm-taisbeanaidh
 profile-primary-email =
     .header = Prìomh-phost-d
-
-##
-
 
 ## Progress bar
 
@@ -426,9 +399,6 @@ se-refresh-email =
     .title = Ath-nuadhaich am post-d
 # Button to make secondary email the primary
 se-make-primary = Cleachd seo mar am prìomh-phost-d
-
-##
-
 
 ## Two Step Auth sub-section on Settings main page
 

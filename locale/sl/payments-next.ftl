@@ -1,15 +1,3 @@
-## Checkout Page
-## Common strings used in multiple checkout pages
-
-next-payment-processing-message = Počakajte, da obdelamo vaše plačilo …
-next-payment-error-manage-subscription-button = Upravljaj z naročnino
-next-iap-upgrade-contact-support = Ta izdelek je še vedno na voljo – obrnite se na podporo, da vam lahko pomagamo.
-next-payment-error-retry-button = Poskusi znova
-next-basic-error-message = Prišlo je do napake. Poskusite znova pozneje.
-checkout-error-contact-support-button = Obrnite se na podporo
-checkout-error-not-eligible = Niste upravičeni do naročnine na ta izdelek – obrnite se na podporo, da vam lahko pomagamo.
-checkout-error-contact-support = Obrnite se na podporo, da vam lahko pomagamo.
-
 ## Page
 
 checkout-signin-or-create = 1. Prijavite se ali ustvarite { -product-mozilla-account(sklon: "tozilnik") }
@@ -20,6 +8,31 @@ next-payment-method-header = Izberite način plačila
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = Najprej morate odobriti svojo naročnino
+
+## Page - Upgrade page
+
+checkout-error-boundary-retry-button = Poskusi znova
+checkout-error-boundary-basic-error-message = Nekaj je šlo narobe. Poskusite znova ali <contactSupportLink>se obrnite na podporo</contactSupportLink>.
+
+## Error pages - /checkout and /upgrade
+## Common strings used in multiple pages
+
+next-payment-error-manage-subscription-button = Upravljaj z naročnino
+next-iap-upgrade-contact-support = Ta izdelek je še vedno na voljo – obrnite se na podporo, da vam lahko pomagamo.
+next-payment-error-retry-button = Poskusi znova
+next-basic-error-message = Prišlo je do napake. Poskusite znova pozneje.
+checkout-error-contact-support-button = Obrnite se na podporo
+checkout-error-not-eligible = Niste upravičeni do naročnine na ta izdelek – obrnite se na podporo, da vam lahko pomagamo.
+checkout-error-contact-support = Obrnite se na podporo, da vam lahko pomagamo.
+
+## Processing page and Needs Input page - /checkout and /upgrade
+## Common strings used in multiple pages
+
+next-payment-processing-message = Počakajte, da obdelamo vaše plačilo …
+
+## Success page - /checkout and /upgrade
+## Common strings used in multiple checkout pages
+
 next-payment-confirmation-thanks-heading-account-exists = Hvala, sedaj preverite svojo e-pošto!
 # $email (String) - The user's email.
 payment-confirmation-thanks-subheading-account-exists-2 = Na { $email } boste prejeli e-pošto z navodili za naročnino in podrobnostmi o plačilu.
@@ -29,14 +42,17 @@ next-payment-confirmation-invoice-number = Račun št. { $invoiceNumber }
 # $invoiceDate (Date) - Start date of the latest invoice
 next-payment-confirmation-invoice-date = { $invoiceDate }
 next-payment-confirmation-details-heading-2 = Podatki o plačilu
-# $amount (Number) - The amount billed. It will be formatted as currency.
-# $interval (String) - The interval between payments.
-next-payment-confirmation-amount = { $amount } na { $interval }
+
+## Success pages (/checkout and /upgrade)
+## Common strings used in multiple checkout pages
+
+next-payment-confirmation-download-button = Nadaljuj prenos
+
+## Success pages (/checkout and /upgrade), Start page (/upgrade)
+## Common strings used in multiple checkout pages
+
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Kartica, ki se končuje s { $last4 }
-next-payment-confirmation-download-button = Nadaljuj prenos
-checkout-error-boundary-retry-button = Poskusi znova
-checkout-error-boundary-basic-error-message = Nekaj je šlo narobe. Poskusite znova ali <contactSupportLink>se obrnite na podporo</contactSupportLink>.
 
 ## Component - Payment Consent Checkbox
 
@@ -117,7 +133,6 @@ next-new-user-subscribe-product-assurance = Vaš e-poštni naslov uporabimo samo
 plan-price-interval-daily = { $amount } dnevno
 plan-price-interval-weekly = { $amount } tedensko
 plan-price-interval-monthly = { $amount } mesečno
-plan-price-interval-6monthly = { $amount } vsakih 6 mesecev
 plan-price-interval-yearly = { $amount } letno
 
 ## Component - SubscriptionTitle

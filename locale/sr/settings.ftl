@@ -298,9 +298,6 @@ connect-another-play-store-image =
 connect-another-app-store-image-2 =
     .title = Преузмите { -brand-firefox } на { -app-store }-у
 
-##
-
-
 ## Connected services section
 
 cs-heading = Повезане услуге
@@ -347,9 +344,6 @@ cs-disconnect-advice-confirm = У реду, разумем
 cs-disconnect-lost-advice-heading = Изгубљени или украдени уређај је искључен
 cs-disconnect-suspicious-advice-heading = Сумњив уређај је искључен
 cs-sign-out-button = Одјави се
-
-##
-
 
 ## Data collection section
 
@@ -502,9 +496,6 @@ avatar-page-file-upload-error-3 = Дошло је до грешке при от�
 avatar-page-delete-error-3 = Дошло је до грешке при брисању ваше слике профила
 avatar-page-image-too-large-error-2 = Величина датотеке слике је превелика за отпремање
 
-##
-
-
 ## Password change page
 
 pw-change-header =
@@ -526,18 +517,12 @@ pw-change-confirm-password =
     .label = Потврдите нову лозинку
 pw-change-success-alert-2 = Лозинка је ажурирана
 
-##
-
-
 ## Password create page
 
 pw-create-header =
     .title = Направи лозинку
 pw-create-success-alert-2 = Лозинка је постављена
 pw-create-error-2 = Жао нам је, дошло је до грешке при постављању лозинке
-
-##
-
 
 ## Delete account page
 
@@ -568,9 +553,6 @@ pocket-delete-notice = Ако сте претплаћени на Pocket Premium,
 delete-account-cancel-button = Откажи
 delete-account-delete-button-2 = Обриши
 
-##
-
-
 ## Display name page
 
 display-name-page-title =
@@ -581,9 +563,6 @@ submit-display-name = Сачувај
 cancel-display-name = Откажи
 display-name-update-error-2 = Дошло је до грешке при ажурирању вашег имена за приказ
 display-name-success-alert-2 = Име за приказ је ажурирано
-
-##
-
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
@@ -678,9 +657,6 @@ tfa-save-these-codes-1 =
 tfa-enter-recovery-code-1 =
     .label = Унеси резервни приступни код
 
-##
-
-
 ## Product promotion
 
 
@@ -693,9 +669,6 @@ profile-display-name =
     .header = Име за приказ
 profile-primary-email =
     .header = Примарна е-пошта
-
-##
-
 
 ## Progress bar
 
@@ -797,9 +770,6 @@ se-content-note-1 =
     већ вам за то треба <a>кључ за опоравак налога</a>.
 # Default value for the secondary email
 se-secondary-email-none = Ништа
-
-##
-
 
 ## Two Step Auth sub-section on Settings main page
 

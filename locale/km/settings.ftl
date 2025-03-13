@@ -127,9 +127,6 @@ alert-bar-close-message = បិទសារ
 ## Connect another device promo
 
 
-##
-
-
 ## Connected services section
 
 
@@ -142,9 +139,6 @@ alert-bar-close-message = បិទសារ
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
-
-
-##
 
 
 ##
@@ -204,31 +198,16 @@ alert-bar-close-message = បិទសារ
 ## Avatar change page
 
 
-##
-
-
 ## Password change page
-
-
-##
 
 
 ## Password create page
 
 
-##
-
-
 ## Delete account page
 
 
-##
-
-
 ## Display name page
-
-
-##
 
 
 ## Recent account activity
@@ -258,16 +237,10 @@ alert-bar-close-message = បិទសារ
 ## Two Step Authentication
 
 
-##
-
-
 ## Product promotion
 
 
 ## Profile section
-
-
-##
 
 
 ## Progress bar
@@ -289,9 +262,6 @@ alert-bar-close-message = បិទសារ
 
 
 ## Secondary email sub-section on main Settings page
-
-
-##
 
 
 ## Two Step Auth sub-section on Settings main page

@@ -1,15 +1,3 @@
-## Checkout Page
-## Common strings used in multiple checkout pages
-
-next-payment-processing-message = Várjon, amíg feldolgozzuk a fizetését…
-next-payment-error-manage-subscription-button = Saját feliratkozások kezelése
-next-iap-upgrade-contact-support = Továbbra is beszerezheti ezt a terméket – lépjen kapcsolatba a támogatással, hogy segíthessünk.
-next-payment-error-retry-button = Próbálja újra
-next-basic-error-message = Hiba történt, próbálja újra később.
-checkout-error-contact-support-button = Kapcsolatfelvétel az ügyfélszolgálattal
-checkout-error-not-eligible = Nem jogosult arra, hogy előfizessen erre a termékre – lépjen kapcsolatba az ügyfélszolgálattal, hogy segíthessünk.
-checkout-error-contact-support = Lépjen kapcsolatba az ügyfélszolgálattal, hogy segíthessünk.
-
 ## Page
 
 checkout-signin-or-create = 1. Jelentkezzen be vagy hozzon létre egy { -product-mozilla-account }ot
@@ -20,6 +8,31 @@ next-payment-method-header = Válassza ki a fizetési módot
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = Először jóvá kell hagynia az előfizetését
+
+## Page - Upgrade page
+
+checkout-error-boundary-retry-button = Próbálja újra
+checkout-error-boundary-basic-error-message = Hiba történt. Próbálja újra, vagy <contactSupportLink>lépjen kapcsolatba a támogatással.</contactSupportLink>
+
+## Error pages - /checkout and /upgrade
+## Common strings used in multiple pages
+
+next-payment-error-manage-subscription-button = Saját feliratkozások kezelése
+next-iap-upgrade-contact-support = Továbbra is beszerezheti ezt a terméket – lépjen kapcsolatba a támogatással, hogy segíthessünk.
+next-payment-error-retry-button = Próbálja újra
+next-basic-error-message = Hiba történt, próbálja újra később.
+checkout-error-contact-support-button = Kapcsolatfelvétel az ügyfélszolgálattal
+checkout-error-not-eligible = Nem jogosult arra, hogy előfizessen erre a termékre – lépjen kapcsolatba az ügyfélszolgálattal, hogy segíthessünk.
+checkout-error-contact-support = Lépjen kapcsolatba az ügyfélszolgálattal, hogy segíthessünk.
+
+## Processing page and Needs Input page - /checkout and /upgrade
+## Common strings used in multiple pages
+
+next-payment-processing-message = Várjon, amíg feldolgozzuk a fizetését…
+
+## Success page - /checkout and /upgrade
+## Common strings used in multiple checkout pages
+
 next-payment-confirmation-thanks-heading-account-exists = Köszönjük, most pedig nézze meg az e-mailjeit!
 # $email (String) - The user's email.
 payment-confirmation-thanks-subheading-account-exists-2 = Az előfizetéssel és a fizetés részleteivel kapcsolatos tudnivalókat tartalmazó e-mailt kapni fog a(z) { $email } címre.
@@ -29,14 +42,17 @@ next-payment-confirmation-invoice-number = Számla #{ $invoiceNumber }
 # $invoiceDate (Date) - Start date of the latest invoice
 next-payment-confirmation-invoice-date = { $invoiceDate }
 next-payment-confirmation-details-heading-2 = Fizetési információk
-# $amount (Number) - The amount billed. It will be formatted as currency.
-# $interval (String) - The interval between payments.
-next-payment-confirmation-amount = { $amount } / { $interval }
+
+## Success pages (/checkout and /upgrade)
+## Common strings used in multiple checkout pages
+
+next-payment-confirmation-download-button = Tovább a letöltéshez
+
+## Success pages (/checkout and /upgrade), Start page (/upgrade)
+## Common strings used in multiple checkout pages
+
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = { $last4 } végződésű kártya
-next-payment-confirmation-download-button = Tovább a letöltéshez
-checkout-error-boundary-retry-button = Próbálja újra
-checkout-error-boundary-basic-error-message = Hiba történt. Próbálja újra, vagy <contactSupportLink>lépjen kapcsolatba a támogatással.</contactSupportLink>
 
 ## Component - Payment Consent Checkbox
 
@@ -117,7 +133,6 @@ next-new-user-subscribe-product-assurance = Csak a fiókja létrehozásához has
 plan-price-interval-daily = { $amount } naponta
 plan-price-interval-weekly = { $amount } hetente
 plan-price-interval-monthly = { $amount } havonta
-plan-price-interval-6monthly = { $amount } 6 havonta
 plan-price-interval-yearly = { $amount } évente
 
 ## Component - SubscriptionTitle

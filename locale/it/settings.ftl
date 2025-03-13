@@ -501,9 +501,6 @@ connect-another-play-store-image =
 connect-another-app-store-image-2 =
     .title = Scarica { -brand-firefox } su { -app-store }
 
-##
-
-
 ## Connected services section
 
 cs-heading = Servizi connessi
@@ -548,9 +545,6 @@ cs-disconnect-lost-advice-content-3 = Poiché il tuo dispositivo è stato smarri
 cs-disconnect-suspicious-advice-heading = Dispositivo sospetto disconnesso
 cs-disconnect-suspicious-advice-content-2 = Se il dispositivo disconnesso è effettivamente sospetto, ti consigliamo di modificare la password dell’{ -product-mozilla-account } nelle impostazioni del tuo account per mantenere le tue informazioni al sicuro. Ti consigliamo anche modificare qualsiasi altra password salvata in { -brand-firefox } digitando about:logins nelle barra degli indirizzi.
 cs-sign-out-button = Disconnetti
-
-##
-
 
 ## Data collection section
 
@@ -740,9 +734,6 @@ avatar-page-file-upload-error-3 = Si è verificato un problema durante il carica
 avatar-page-delete-error-3 = Si è verificato un problema durante l’eliminazione dell’immagine del profilo
 avatar-page-image-too-large-error-2 = Il file dell’immagine è troppo grande e non può essere caricato
 
-##
-
-
 ## Password change page
 
 pw-change-header =
@@ -764,18 +755,12 @@ pw-change-confirm-password =
     .label = Conferma la nuova password
 pw-change-success-alert-2 = Password aggiornata
 
-##
-
-
 ## Password create page
 
 pw-create-header =
     .title = Creazione password
 pw-create-success-alert-2 = Password impostata
 pw-create-error-2 = Spiacenti, si è verificato un problema durante l’impostazione della password
-
-##
-
 
 ## Delete account page
 
@@ -810,9 +795,6 @@ pocket-delete-notice-marketing = Per non ricevere più email di marketing da Moz
 delete-account-cancel-button = Annulla
 delete-account-delete-button-2 = Elimina
 
-##
-
-
 ## Display name page
 
 display-name-page-title =
@@ -823,9 +805,6 @@ submit-display-name = Salva
 cancel-display-name = Annulla
 display-name-update-error-2 = Si è verificato un problema durante l’aggiornamento del nome visualizzato
 display-name-success-alert-2 = Il nome visualizzato è stato aggiornato
-
-##
-
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
@@ -977,9 +956,6 @@ tfa-enter-code-to-confirm-setup = Conferma di aver salvato i codici inserendone 
 tfa-enter-recovery-code-1 =
     .label = Digita un codice di autenticazione di backup
 
-##
-
-
 ## Product promotion
 
 product-promo-monitor =
@@ -1000,9 +976,6 @@ profile-display-name =
     .header = Nome visualizzato
 profile-primary-email =
     .header = Email principale
-
-##
-
 
 ## Progress bar
 
@@ -1063,8 +1036,6 @@ tfa-row-backup-phone-delete-button = Rimuovi
 # Shown in tooltip on delete button or delete icon
 tfa-row-backup-phone-delete-title-v2 = Rimuovi il numero di telefono per il recupero dell’account
 tfa-row-backup-phone-delete-restriction-v2 = Se desideri rimuovere il numero di telefono per il recupero dell’account, aggiungi i codici di autenticazione di backup o disattiva l’autenticazione in due passaggi per evitare di rimanere bloccato fuori dal tuo account.
-# "this" refers to recovery phone
-tfa-row-backup-phone-description = Questo è il metodo di recupero più semplice se non puoi utilizzare l’app di autenticazione.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
@@ -1140,9 +1111,6 @@ se-default-content = Usala per accedere all’account se non riesci a effettuare
 se-content-note-1 = Attenzione: non è possibile ripristinare i dati attraverso l’email secondaria. Per questa operazione è necessaria una <a>chiave di recupero dell’account</a>.
 # Default value for the secondary email
 se-secondary-email-none = Nessuna
-
-##
-
 
 ## Two Step Auth sub-section on Settings main page
 

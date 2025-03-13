@@ -1041,8 +1041,6 @@ tfa-row-backup-phone-delete-button = Gjave
 # Shown in tooltip on delete button or delete icon
 tfa-row-backup-phone-delete-title-v2 = Gjave il numar di telefon pal recupar dal account
 tfa-row-backup-phone-delete-restriction-v2 = Se tu desideris gjavâ il numar di telefon pal recupar dal account, zonte i codiçs di autenticazion di backup o disative la autenticazion in doi passaçs par evitâ di restâ taiât fûr dal to account.
-# "this" refers to recovery phone
-tfa-row-backup-phone-description = Chest al è il metodi di recupar plui sempliç se no tu puedis doprâ la aplicazion di autenticazion
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.

@@ -1,15 +1,3 @@
-## Checkout Page
-## Common strings used in multiple checkout pages
-
-next-payment-processing-message = Vui lòng đợi trong khi chúng tôi xử lý thanh toán của bạn…
-next-payment-error-manage-subscription-button = Quản lý thuê bao của tôi
-next-iap-upgrade-contact-support = Bạn vẫn có thể nhận được sản phẩm này — vui lòng liên hệ với bộ phận hỗ trợ để chúng tôi có thể giúp bạn.
-next-payment-error-retry-button = Thử lại
-next-basic-error-message = Có gì đó không ổn. Vui lòng thử lại sau.
-checkout-error-contact-support-button = Liên hệ hỗ trợ
-checkout-error-not-eligible = Bạn không đủ điều kiện để đăng ký sản phẩm này - vui lòng liên hệ với hỗ trợ để chúng tôi có thể giúp bạn.
-checkout-error-contact-support = Vui lòng liên hệ với hỗ trợ để chúng tôi có thể giúp bạn.
-
 ## Page
 
 checkout-signin-or-create = 1. Đăng nhập hoặc tạo một { -product-mozilla-account }
@@ -20,6 +8,31 @@ next-payment-method-header = Chọn phương thức thanh toán của bạn
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = Trước tiên, bạn sẽ cần phê duyệt thuê bao của mình
+
+## Page - Upgrade page
+
+checkout-error-boundary-retry-button = Thử lại
+checkout-error-boundary-basic-error-message = Đã xảy ra lỗi. Vui lòng thử lại hoặc <contactSupportLink>liên hệ hỗ trợ.</contactSupportLink>
+
+## Error pages - /checkout and /upgrade
+## Common strings used in multiple pages
+
+next-payment-error-manage-subscription-button = Quản lý thuê bao của tôi
+next-iap-upgrade-contact-support = Bạn vẫn có thể nhận được sản phẩm này — vui lòng liên hệ với bộ phận hỗ trợ để chúng tôi có thể giúp bạn.
+next-payment-error-retry-button = Thử lại
+next-basic-error-message = Có gì đó không ổn. Vui lòng thử lại sau.
+checkout-error-contact-support-button = Liên hệ hỗ trợ
+checkout-error-not-eligible = Bạn không đủ điều kiện để đăng ký sản phẩm này - vui lòng liên hệ với hỗ trợ để chúng tôi có thể giúp bạn.
+checkout-error-contact-support = Vui lòng liên hệ với hỗ trợ để chúng tôi có thể giúp bạn.
+
+## Processing page and Needs Input page - /checkout and /upgrade
+## Common strings used in multiple pages
+
+next-payment-processing-message = Vui lòng đợi trong khi chúng tôi xử lý thanh toán của bạn…
+
+## Success page - /checkout and /upgrade
+## Common strings used in multiple checkout pages
+
 next-payment-confirmation-thanks-heading-account-exists = Cảm ơn, bây giờ hãy kiểm tra email của bạn!
 # $email (String) - The user's email.
 payment-confirmation-thanks-subheading-account-exists-2 = Bạn sẽ nhận được email tại địa chỉ { $email } kèm theo hướng dẫn về gói đăng ký cũng như chi tiết thanh toán của bạn.
@@ -29,14 +42,17 @@ next-payment-confirmation-invoice-number = Hóa đơn #{ $invoiceNumber }
 # $invoiceDate (Date) - Start date of the latest invoice
 next-payment-confirmation-invoice-date = { $invoiceDate }
 next-payment-confirmation-details-heading-2 = Thông tin thanh toán
-# $amount (Number) - The amount billed. It will be formatted as currency.
-# $interval (String) - The interval between payments.
-next-payment-confirmation-amount = { $amount } mỗi { $interval }
+
+## Success pages (/checkout and /upgrade)
+## Common strings used in multiple checkout pages
+
+next-payment-confirmation-download-button = Tiếp tục tải xuống
+
+## Success pages (/checkout and /upgrade), Start page (/upgrade)
+## Common strings used in multiple checkout pages
+
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Thẻ kết thúc bằng { $last4 }
-next-payment-confirmation-download-button = Tiếp tục tải xuống
-checkout-error-boundary-retry-button = Thử lại
-checkout-error-boundary-basic-error-message = Đã xảy ra lỗi. Vui lòng thử lại hoặc <contactSupportLink>liên hệ hỗ trợ.</contactSupportLink>
 
 ## Component - Payment Consent Checkbox
 
@@ -117,7 +133,6 @@ next-new-user-subscribe-product-assurance = Chúng tôi chỉ sử dụng email 
 plan-price-interval-daily = { $amount } mỗi ngày
 plan-price-interval-weekly = { $amount } mỗi tuần
 plan-price-interval-monthly = { $amount } mỗi tháng
-plan-price-interval-6monthly = { $amount } mỗi 6 tháng
 plan-price-interval-yearly = { $amount } mỗi năm
 
 ## Component - SubscriptionTitle

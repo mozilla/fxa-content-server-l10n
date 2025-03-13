@@ -216,9 +216,6 @@ bento-menu-title-3 = { -brand-mozilla } արտադրանքներ
 ## Connect another device promo
 
 
-##
-
-
 ## Connected services section
 
 
@@ -236,9 +233,6 @@ bento-menu-title-3 = { -brand-mozilla } արտադրանքներ
 ##
 
 cs-disconnect-advice-confirm = Լավ, ստացվեց
-
-##
-
 
 ## Data collection section
 
@@ -294,31 +288,16 @@ cs-disconnect-advice-confirm = Լավ, ստացվեց
 ## Avatar change page
 
 
-##
-
-
 ## Password change page
-
-
-##
 
 
 ## Password create page
 
 
-##
-
-
 ## Delete account page
 
 
-##
-
-
 ## Display name page
-
-
-##
 
 
 ## Recent account activity
@@ -348,16 +327,10 @@ cs-disconnect-advice-confirm = Լավ, ստացվեց
 ## Two Step Authentication
 
 
-##
-
-
 ## Product promotion
 
 
 ## Profile section
-
-
-##
 
 
 ## Progress bar
@@ -379,9 +352,6 @@ cs-disconnect-advice-confirm = Լավ, ստացվեց
 
 
 ## Secondary email sub-section on main Settings page
-
-
-##
 
 
 ## Two Step Auth sub-section on Settings main page

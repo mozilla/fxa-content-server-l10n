@@ -157,9 +157,6 @@ bento-menu-made-by-mozilla = Ginawa ng { -brand-mozilla }
 
 connect-another-fx-mobile = Kunin ang { -brand-firefox } sa mobile o tablet
 
-##
-
-
 ## Connected services section
 
 cs-heading = Mga Konektadong Serbisyo
@@ -197,9 +194,6 @@ cs-disconnect-advice-confirm = Sige, nakuha ko
 cs-disconnect-lost-advice-heading = Nawala o ninakaw na device na naka-disconnect
 cs-disconnect-suspicious-advice-heading = Hindi nakakonekta ang kahina-hinalang device
 cs-sign-out-button = Mag-sign out
-
-##
-
 
 ## Data collection section
 
@@ -255,31 +249,16 @@ cs-sign-out-button = Mag-sign out
 ## Avatar change page
 
 
-##
-
-
 ## Password change page
-
-
-##
 
 
 ## Password create page
 
 
-##
-
-
 ## Delete account page
 
 
-##
-
-
 ## Display name page
-
-
-##
 
 
 ## Recent account activity
@@ -309,16 +288,10 @@ cs-sign-out-button = Mag-sign out
 ## Two Step Authentication
 
 
-##
-
-
 ## Product promotion
 
 
 ## Profile section
-
-
-##
 
 
 ## Progress bar
@@ -340,9 +313,6 @@ cs-sign-out-button = Mag-sign out
 
 
 ## Secondary email sub-section on main Settings page
-
-
-##
 
 
 ## Two Step Auth sub-section on Settings main page

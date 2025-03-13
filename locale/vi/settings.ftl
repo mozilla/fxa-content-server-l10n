@@ -501,9 +501,6 @@ connect-another-play-store-image =
 connect-another-app-store-image-2 =
     .title = Tải xuống { -brand-firefox } trên { -app-store }
 
-##
-
-
 ## Connected services section
 
 cs-heading = Dịch vụ đã kết nối
@@ -552,9 +549,6 @@ cs-disconnect-lost-advice-content-3 = Vì thiết bị của bạn bị mất ho
 cs-disconnect-suspicious-advice-heading = Đã ngắt kết nối thiết bị khả nghi
 cs-disconnect-suspicious-advice-content-2 = Nếu thiết bị bị ngắt kết nối thực sự đáng ngờ, để giữ an toàn cho thông tin của bạn, bạn nên thay đổi mật khẩu { -product-mozilla-account } trong cài đặt tài khoản của mình. Bạn cũng nên thay đổi bất kỳ mật khẩu nào khác mà bạn đã lưu trong { -brand-firefox } bằng cách nhập about:logins vào thanh địa chỉ.
 cs-sign-out-button = Đăng xuất
-
-##
-
 
 ## Data collection section
 
@@ -749,9 +743,6 @@ avatar-page-file-upload-error-3 = Đã xảy ra sự cố khi tải lên ảnh h
 avatar-page-delete-error-3 = Đã xảy ra sự cố khi xóa ảnh hồ sơ của bạn
 avatar-page-image-too-large-error-2 = Không thể tải lên ảnh có kích thước tập tin quá lớn
 
-##
-
-
 ## Password change page
 
 pw-change-header =
@@ -773,18 +764,12 @@ pw-change-confirm-password =
     .label = Xác nhận mật khẩu mới
 pw-change-success-alert-2 = Đã cập nhật mật khẩu
 
-##
-
-
 ## Password create page
 
 pw-create-header =
     .title = Tạo mật khẩu
 pw-create-success-alert-2 = Đã đặt mật khẩu
 pw-create-error-2 = Xin lỗi, đã xảy ra sự cố khi đặt mật khẩu của bạn
-
-##
-
 
 ## Delete account page
 
@@ -819,9 +804,6 @@ pocket-delete-notice-marketing = Để ngừng nhận email tiếp thị từ Mo
 delete-account-cancel-button = Hủy bỏ
 delete-account-delete-button-2 = Xóa
 
-##
-
-
 ## Display name page
 
 display-name-page-title =
@@ -832,9 +814,6 @@ submit-display-name = Lưu
 cancel-display-name = Huỷ bỏ
 display-name-update-error-2 = Đã xảy ra sự cố trong khi cập nhật tên hiển thị của bạn
 display-name-success-alert-2 = Đã cập nhật tên hiển thị
-
-##
-
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
@@ -988,9 +967,6 @@ tfa-enter-code-to-confirm-setup = Xác nhận bạn đã lưu mã của bạn b�
 tfa-enter-recovery-code-1 =
     .label = Nhập mã xác thực dự phòng
 
-##
-
-
 ## Product promotion
 
 product-promo-monitor =
@@ -1011,9 +987,6 @@ profile-display-name =
     .header = Tên hiển thị
 profile-primary-email =
     .header = Email chính
-
-##
-
 
 ## Progress bar
 
@@ -1070,8 +1043,6 @@ tfa-row-backup-phone-delete-button = Xóa
 # Shown in tooltip on delete button or delete icon
 tfa-row-backup-phone-delete-title-v2 = Xoá số điện thoại khôi phục
 tfa-row-backup-phone-delete-restriction-v2 = Nếu bạn muốn xóa số điện thoại khôi phục của mình, hãy thêm mã xác thực dự phòng hoặc tắt xác thực hai bước trước để tránh bị khóa tài khoản.
-# "this" refers to recovery phone
-tfa-row-backup-phone-description = Đây là phương pháp khôi phục dễ dàng hơn nếu bạn không thể sử dụng ứng dụng xác thực của mình.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
@@ -1153,9 +1124,6 @@ se-content-note-1 =
     cần có <a>khóa khôi phục tài khoản</a> cho việc đó.
 # Default value for the secondary email
 se-secondary-email-none = Không có
-
-##
-
 
 ## Two Step Auth sub-section on Settings main page
 

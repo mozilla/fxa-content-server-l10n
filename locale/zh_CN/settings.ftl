@@ -501,9 +501,6 @@ connect-another-play-store-image =
 connect-another-app-store-image-2 =
     .title = 到 { -app-store } 下载 { -brand-firefox }
 
-##
-
-
 ## Connected services section
 
 cs-heading = 关联服务
@@ -550,9 +547,6 @@ cs-disconnect-lost-advice-content-3 = 鉴于您的设备已丢失或被盗，为
 cs-disconnect-suspicious-advice-heading = 可疑设备已断开连接
 cs-disconnect-suspicious-advice-content-2 = 若解绑的设备确实可疑，为了确保您的信息安全，应及时到账户设置中更改 { -product-mozilla-account }密码，以及在地址栏输入 about:logins，更改所有保存在 { -brand-firefox } 中的网站密码。
 cs-sign-out-button = 退出
-
-##
-
 
 ## Data collection section
 
@@ -742,9 +736,6 @@ avatar-page-file-upload-error-3 = 上传您的头像时出现问题
 avatar-page-delete-error-3 = 删除您的头像时出现问题
 avatar-page-image-too-large-error-2 = 图片太大，无法上传
 
-##
-
-
 ## Password change page
 
 pw-change-header =
@@ -766,18 +757,12 @@ pw-change-confirm-password =
     .label = 确认新密码
 pw-change-success-alert-2 = 密码已更新
 
-##
-
-
 ## Password create page
 
 pw-create-header =
     .title = 创建密码
 pw-create-success-alert-2 = 密码已设置
 pw-create-error-2 = 抱歉，设置密码时出现问题
-
-##
-
 
 ## Delete account page
 
@@ -812,9 +797,6 @@ pocket-delete-notice-marketing = 若要停止接受来自 Mozilla 公司和 Mozi
 delete-account-cancel-button = 取消
 delete-account-delete-button-2 = 删除
 
-##
-
-
 ## Display name page
 
 display-name-page-title =
@@ -825,9 +807,6 @@ submit-display-name = 保存
 cancel-display-name = 取消
 display-name-update-error-2 = 更新您的显示名称时出现问题
 display-name-success-alert-2 = 显示名称已更新
-
-##
-
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
@@ -975,9 +954,6 @@ tfa-enter-code-to-confirm-setup = 请输入任意一个验证码，以确认您�
 tfa-enter-recovery-code-1 =
     .label = 请输入备用验证码
 
-##
-
-
 ## Product promotion
 
 product-promo-monitor =
@@ -998,9 +974,6 @@ profile-display-name =
     .header = 显示名称
 profile-primary-email =
     .header = 主邮箱
-
-##
-
 
 ## Progress bar
 
@@ -1057,8 +1030,6 @@ tfa-row-backup-phone-delete-button = 移除
 # Shown in tooltip on delete button or delete icon
 tfa-row-backup-phone-delete-title-v2 = 移除恢复电话号码
 tfa-row-backup-phone-delete-restriction-v2 = 若要移除恢复电话号码，请先添加备用验证码或关闭两步验证，以免无法登录账户。
-# "this" refers to recovery phone
-tfa-row-backup-phone-description = 在无法使用身份验证器应用时，这是较简易的恢复方法。
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
@@ -1134,9 +1105,6 @@ se-default-content = 主邮箱不可用时，用此访问账户。
 se-content-note-1 = 注意：无法通过备用邮箱恢复您的数据 — 您需要使用<a>账户恢复密钥</a>。
 # Default value for the secondary email
 se-secondary-email-none = 无
-
-##
-
 
 ## Two Step Auth sub-section on Settings main page
 

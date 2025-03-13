@@ -142,9 +142,6 @@ bento-menu-made-by-mozilla = Направено од { -brand-mozilla }
 
 connect-another-fx-mobile = Земете { -brand-firefox } на мобилен или таблет
 
-##
-
-
 ## Connected services section
 
 cs-heading = Поврзани услуги
@@ -182,9 +179,6 @@ cs-disconnect-advice-confirm = Добро, разбрав
 cs-disconnect-lost-advice-heading = Изгубениот или украдениот уред е исклучен
 cs-disconnect-suspicious-advice-heading = Сомнителниот уред е исклучен
 cs-sign-out-button = Одјавете се
-
-##
-
 
 ## Data collection section
 
@@ -261,33 +255,18 @@ tfa-replace-code-2-2 = Чекор 2 од 2
 avatar-page-cancel-button = Откажи
 avatar-page-save-button = Зачувај
 
-##
-
-
 ## Password change page
 
 pw-change-cancel-button = Откажи
 pw-change-save-button = Зачувај
 
-##
-
-
 ## Password create page
-
-
-##
 
 
 ## Delete account page
 
 
-##
-
-
 ## Display name page
-
-
-##
 
 
 ## Recent account activity
@@ -325,16 +304,10 @@ tfa-button-finish = Крај
 tfa-qa-code =
     .alt = { tfa-qa-code-alt }
 
-##
-
-
 ## Product promotion
 
 
 ## Profile section
-
-
-##
 
 
 ## Progress bar
@@ -361,9 +334,6 @@ row-defaults-action-disable = Оневозможи
 rk-action-remove = Отстрани
 
 ## Secondary email sub-section on main Settings page
-
-
-##
 
 
 ## Two Step Auth sub-section on Settings main page

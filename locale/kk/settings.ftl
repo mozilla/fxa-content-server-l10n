@@ -501,9 +501,6 @@ connect-another-play-store-image =
 connect-another-app-store-image-2 =
     .title = { -brand-firefox } қолданбасын { -app-store } ішінен жүктеп алыңыз
 
-##
-
-
 ## Connected services section
 
 cs-heading = Байланыстырылған қызметтер
@@ -554,9 +551,6 @@ cs-disconnect-suspicious-advice-content-2 =
     Егер ажыратылған құрылғы шынымен де күмәнді болса, ақпаратыңызды қауіпсіз сақтау үшін тіркелгі параметрлерінде { -product-mozilla-account }
     паролін өзгертуіңіз керек. Сондай-ақ адрес жолағына about:logins деп теру арқылы { -brand-firefox } ішінде сақталған кез келген басқа парольдерді де өзгертуіңіз керек.
 cs-sign-out-button = Шығу
-
-##
-
 
 ## Data collection section
 
@@ -735,9 +729,6 @@ avatar-page-file-upload-error-3 = Профиль суретіңізді жүкт
 avatar-page-delete-error-3 = Профиль суретіңізді өшіру кезінде мәселе орын алды
 avatar-page-image-too-large-error-2 = Сурет файлының өлшемі жүктеп жіберу үшін тым үлкен.
 
-##
-
-
 ## Password change page
 
 pw-change-header =
@@ -759,18 +750,12 @@ pw-change-confirm-password =
     .label = Жаңа парольді растау
 pw-change-success-alert-2 = Пароль жаңартылды
 
-##
-
-
 ## Password create page
 
 pw-create-header =
     .title = Парольді жасау
 pw-create-success-alert-2 = Пароль орнатылды
 pw-create-error-2 = Кешіріңіз, пароліңізді орнату кезінде мәселе туындады
-
-##
-
 
 ## Delete account page
 
@@ -805,9 +790,6 @@ pocket-delete-notice-marketing = Mozilla Corporation және Mozilla Foundation
 delete-account-cancel-button = Бас тарту
 delete-account-delete-button-2 = Өшіру
 
-##
-
-
 ## Display name page
 
 display-name-page-title =
@@ -818,9 +800,6 @@ submit-display-name = Сақтау
 cancel-display-name = Бас тарту
 display-name-update-error-2 = Көрсетілетін атыңызды жаңарту кезінде мәселе туындады
 display-name-success-alert-2 = Көрсетілетін атыңыз жаңартылды
-
-##
-
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
@@ -946,9 +925,6 @@ tfa-save-these-codes-1 =
 tfa-enter-recovery-code-1 =
     .label = Сақтық көшірме аутентификация кодын енгізіңіз
 
-##
-
-
 ## Product promotion
 
 product-promo-monitor =
@@ -969,9 +945,6 @@ profile-display-name =
     .header = Көрсетілетін аты
 profile-primary-email =
     .header = Біріншілік эл. пошта адресі
-
-##
-
 
 ## Progress bar
 
@@ -1096,9 +1069,6 @@ se-content-note-1 =
     сізге <a>тіркелгіні қалпына келтіру кілті</a> қажет.
 # Default value for the secondary email
 se-secondary-email-none = Ешнәрсе
-
-##
-
 
 ## Two Step Auth sub-section on Settings main page
 

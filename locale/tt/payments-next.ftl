@@ -1,14 +1,25 @@
-## Checkout Page
-## Common strings used in multiple checkout pages
+## Page
 
-next-payment-processing-message = Сезнең түләү эшкәртелә. Зинһар, көтегез…
+next-payment-method-header = Түләү ысулын сайлагыз
+
+## Page - Upgrade page
+
+
+## Error pages - /checkout and /upgrade
+## Common strings used in multiple pages
+
 next-payment-error-manage-subscription-button = Минем язылу белән идарә итү
 next-payment-error-retry-button = Янәдән тырышып карау
 next-basic-error-message = Нидер булды. Зинһар соңрак тырышып карагыз.
 
-## Page
+## Processing page and Needs Input page - /checkout and /upgrade
+## Common strings used in multiple pages
 
-next-payment-method-header = Түләү ысулын сайлагыз
+next-payment-processing-message = Сезнең түләү эшкәртелә. Зинһар, көтегез…
+
+## Success page - /checkout and /upgrade
+## Common strings used in multiple checkout pages
+
 next-payment-confirmation-thanks-heading-account-exists = Рәхмәт, ә хәзер эл. почтагызны тикшерегез!
 next-payment-confirmation-order-heading = Заказ нечкәлекләре
 # $invoiceNumber (String) - Invoice number of the successful payment
@@ -16,12 +27,17 @@ next-payment-confirmation-invoice-number = Квитанция №{ $invoiceNumbe
 # $invoiceDate (Date) - Start date of the latest invoice
 next-payment-confirmation-invoice-date = { $invoiceDate }
 next-payment-confirmation-details-heading-2 = Түләү турындагы мәгълүмат
-# $amount (Number) - The amount billed. It will be formatted as currency.
-# $interval (String) - The interval between payments.
-next-payment-confirmation-amount = { $amount } / { $interval }
+
+## Success pages (/checkout and /upgrade)
+## Common strings used in multiple checkout pages
+
+next-payment-confirmation-download-button = Йөкләүне дәвам итү
+
+## Success pages (/checkout and /upgrade), Start page (/upgrade)
+## Common strings used in multiple checkout pages
+
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = { $last4 } белән тәмамланучы карта
-next-payment-confirmation-download-button = Йөкләүне дәвам итү
 
 ## Component - Payment Consent Checkbox
 

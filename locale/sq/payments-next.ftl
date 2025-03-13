@@ -1,15 +1,3 @@
-## Checkout Page
-## Common strings used in multiple checkout pages
-
-next-payment-processing-message = Ju lutemi, pritni, teksa përpunojmë pagesën tuaj…
-next-payment-error-manage-subscription-button = Administroni pajtimet e mia
-next-iap-upgrade-contact-support = Mundeni prapë ta merrni këtë produkt — ju lutemi, lidhuni me asistencën, që të mund t’ju ndihmojmë.
-next-payment-error-retry-button = Riprovoni
-next-basic-error-message = Diç shkoi ters. Ju lutemi, riprovoni.
-checkout-error-contact-support-button = Lidhuni Me Asistencën
-checkout-error-not-eligible = S’mund të pajtoheni te ky produkt — ju lutemi, lidhuni me asistencën, që të mund t’ju ndihmojmë.
-checkout-error-contact-support = Ju lutemi, lidhuni me asistencën, që të mund t’ju ndihmojmë.
-
 ## Page
 
 checkout-signin-or-create = 1. Bëni hyrjen, ose krijoni një { -product-mozilla-account }
@@ -20,6 +8,31 @@ next-payment-method-header = Zgjidhni metodën tuaj të pagesës
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = Së pari, do t’ju duhet të miratoni pajtimin tuaj
+
+## Page - Upgrade page
+
+checkout-error-boundary-retry-button = Riprovoni
+checkout-error-boundary-basic-error-message = Diç shkoi ters. Ju lutemi, riprovoni, ose <contactSupportLink>lidhuni me asistencën.</contactSupportLink>
+
+## Error pages - /checkout and /upgrade
+## Common strings used in multiple pages
+
+next-payment-error-manage-subscription-button = Administroni pajtimet e mia
+next-iap-upgrade-contact-support = Mundeni prapë ta merrni këtë produkt — ju lutemi, lidhuni me asistencën, që të mund t’ju ndihmojmë.
+next-payment-error-retry-button = Riprovoni
+next-basic-error-message = Diç shkoi ters. Ju lutemi, riprovoni.
+checkout-error-contact-support-button = Lidhuni Me Asistencën
+checkout-error-not-eligible = S’mund të pajtoheni te ky produkt — ju lutemi, lidhuni me asistencën, që të mund t’ju ndihmojmë.
+checkout-error-contact-support = Ju lutemi, lidhuni me asistencën, që të mund t’ju ndihmojmë.
+
+## Processing page and Needs Input page - /checkout and /upgrade
+## Common strings used in multiple pages
+
+next-payment-processing-message = Ju lutemi, pritni, teksa përpunojmë pagesën tuaj…
+
+## Success page - /checkout and /upgrade
+## Common strings used in multiple checkout pages
+
 next-payment-confirmation-thanks-heading-account-exists = Faleminderit, tani kontrolloni email-in tuaj!
 # $email (String) - The user's email.
 payment-confirmation-thanks-subheading-account-exists-2 = Do të merrni një email te { $email }, me udhëzime rreth pajtimit tuaj, si dhe me hollësitë e pagesës tuaj.
@@ -29,14 +42,17 @@ next-payment-confirmation-invoice-number = Fatura #{ $invoiceNumber }
 # $invoiceDate (Date) - Start date of the latest invoice
 next-payment-confirmation-invoice-date = { $invoiceDate }
 next-payment-confirmation-details-heading-2 = Hollësi pagese
-# $amount (Number) - The amount billed. It will be formatted as currency.
-# $interval (String) - The interval between payments.
-next-payment-confirmation-amount = { $amount } në { $interval }
+
+## Success pages (/checkout and /upgrade)
+## Common strings used in multiple checkout pages
+
+next-payment-confirmation-download-button = Vazhdoni te shkarkimi
+
+## Success pages (/checkout and /upgrade), Start page (/upgrade)
+## Common strings used in multiple checkout pages
+
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Kartë që përfundon me { $last4 }
-next-payment-confirmation-download-button = Vazhdoni te shkarkimi
-checkout-error-boundary-retry-button = Riprovoni
-checkout-error-boundary-basic-error-message = Diç shkoi ters. Ju lutemi, riprovoni, ose <contactSupportLink>lidhuni me asistencën.</contactSupportLink>
 
 ## Component - Payment Consent Checkbox
 
@@ -117,7 +133,6 @@ next-new-user-subscribe-product-assurance = Email-in tuaj e përdorim vetëm pë
 plan-price-interval-daily = { $amount } në ditë
 plan-price-interval-weekly = { $amount } në javë
 plan-price-interval-monthly = { $amount } në muaj
-plan-price-interval-6monthly = { $amount } çdo 6 muaj
 plan-price-interval-yearly = { $amount } në vit
 
 ## Component - SubscriptionTitle

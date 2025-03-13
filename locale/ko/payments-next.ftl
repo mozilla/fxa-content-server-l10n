@@ -1,16 +1,27 @@
-## Checkout Page
-## Common strings used in multiple checkout pages
+## Page
 
-next-payment-processing-message = 결제를 처리하는 동안 잠시 기다려 주세요…
+next-payment-method-header = 지불 방법 선택
+next-payment-method-first-approve = 먼저 구독을 승인해야 합니다.
+
+## Page - Upgrade page
+
+
+## Error pages - /checkout and /upgrade
+## Common strings used in multiple pages
+
 next-payment-error-manage-subscription-button = 내 구독 관리
 next-iap-upgrade-contact-support = 아직 이 제품을 구매할 수 있습니다. 지원팀에 문의하시면 도와드리겠습니다.
 next-payment-error-retry-button = 다시 시도하세요
 next-basic-error-message = 문제가 발생했습니다. 나중에 다시 시도하세요.
 
-## Page
+## Processing page and Needs Input page - /checkout and /upgrade
+## Common strings used in multiple pages
 
-next-payment-method-header = 지불 방법 선택
-next-payment-method-first-approve = 먼저 구독을 승인해야 합니다.
+next-payment-processing-message = 결제를 처리하는 동안 잠시 기다려 주세요…
+
+## Success page - /checkout and /upgrade
+## Common strings used in multiple checkout pages
+
 next-payment-confirmation-thanks-heading-account-exists = 감사합니다. 지금 메일을 확인해 보세요!
 next-payment-confirmation-order-heading = 주문 정보
 # $invoiceNumber (String) - Invoice number of the successful payment
@@ -18,12 +29,17 @@ next-payment-confirmation-invoice-number = 영수증 # { $invoiceNumber }
 # $invoiceDate (Date) - Start date of the latest invoice
 next-payment-confirmation-invoice-date = { $invoiceDate }
 next-payment-confirmation-details-heading-2 = 결제 정보
-# $amount (Number) - The amount billed. It will be formatted as currency.
-# $interval (String) - The interval between payments.
-next-payment-confirmation-amount = { $interval } 당 { $amount }
+
+## Success pages (/checkout and /upgrade)
+## Common strings used in multiple checkout pages
+
+next-payment-confirmation-download-button = 다운로드 계속 하기
+
+## Success pages (/checkout and /upgrade), Start page (/upgrade)
+## Common strings used in multiple checkout pages
+
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = 끝자리가 { $last4 } 인 카드
-next-payment-confirmation-download-button = 다운로드 계속 하기
 
 ## Component - Payment Consent Checkbox
 

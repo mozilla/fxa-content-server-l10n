@@ -503,9 +503,6 @@ connect-another-play-store-image =
 connect-another-app-store-image-2 =
     .title = ჩამოტვირთეთ { -brand-firefox } { -app-store }-იდან
 
-##
-
-
 ## Connected services section
 
 cs-heading = დაკავშირებული მომსახურებები
@@ -554,9 +551,6 @@ cs-disconnect-lost-advice-content-3 = ვინაიდან თქვენ�
 cs-disconnect-suspicious-advice-heading = საეჭვო მოწყობილობა გამოთიშულია
 cs-disconnect-suspicious-advice-content-2 = თუ გამოთიშული მოწყობილობა ნამდვილად საეჭვოა, თქვენი მონაცემების უსაფრთხოებისთვის უმჯობესია, შეცვალოთ { -product-mozilla-account(case: "gen") } პაროლი თქვენი პარამეტრებიდან. აგრეთვე სასურველია, მისამართების ველში გადახვიდეთ about:logins გვერდზე და შეცვალოთ ყველა დანარჩენი პაროლიც, რომელთაც ინახავს { -brand-firefox }.
 cs-sign-out-button = გამოსვლა
-
-##
-
 
 ## Data collection section
 
@@ -751,9 +745,6 @@ avatar-page-file-upload-error-3 = ხარვეზი წარმოიშვ
 avatar-page-delete-error-3 = ხარვეზი წარმოიშვა პროფილის სურათის წაშლისას
 avatar-page-image-too-large-error-2 = სურათის ფაილის ზომა ზედმეტად დიდია ატვირთვისთვის
 
-##
-
-
 ## Password change page
 
 pw-change-header =
@@ -775,18 +766,12 @@ pw-change-confirm-password =
     .label = დაადასტურეთ პაროლი
 pw-change-success-alert-2 = პაროლი განახლდა
 
-##
-
-
 ## Password create page
 
 pw-create-header =
     .title = პაროლის შექმნა
 pw-create-success-alert-2 = პაროლი დაყენებულია
 pw-create-error-2 = სამწუხაროდ, ხარვეზი წარმოიშვა პაროლის დაყენებისას
-
-##
-
 
 ## Delete account page
 
@@ -821,9 +806,6 @@ pocket-delete-notice-marketing = იმისთვის, რომ აღა�
 delete-account-cancel-button = გაუქმება
 delete-account-delete-button-2 = წაშლა
 
-##
-
-
 ## Display name page
 
 display-name-page-title =
@@ -834,9 +816,6 @@ submit-display-name = შენახვა
 cancel-display-name = გაუქმება
 display-name-update-error-2 = ხარვეზი წარმოიშვა თქვენი გამოსაჩენი სახელის განახლებისას
 display-name-success-alert-2 = გამოსაჩენი სახელი განახლებულია
-
-##
-
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
@@ -990,9 +969,6 @@ tfa-enter-code-to-confirm-setup = დაადასტურეთ კოდე
 tfa-enter-recovery-code-1 =
     .label = შეიყვანეთ შესვლის სამარქაფო კოდი
 
-##
-
-
 ## Product promotion
 
 product-promo-monitor =
@@ -1013,9 +989,6 @@ profile-display-name =
     .header = გამოსაჩენი სახელი
 profile-primary-email =
     .header = მთავარი ელფოსტა
-
-##
-
 
 ## Progress bar
 
@@ -1076,8 +1049,6 @@ tfa-row-backup-phone-delete-button = მოცილება
 # Shown in tooltip on delete button or delete icon
 tfa-row-backup-phone-delete-title-v2 = აღდგენის ტელეფონის მოცილება
 tfa-row-backup-phone-delete-restriction-v2 = თუ გსურთ ამოშალოთ თქვენი აღდგენის ტელეფონი, დაამატეთ შესვლის სამარქაფო კოდები ან ჯერ გათიშეთ ორსაფეხურიანი დამოწმება, ანგარიში რომ არ ჩაგეკეტოთ.
-# "this" refers to recovery phone
-tfa-row-backup-phone-description = ესაა აღდგენის მეტად ადვილი გზა, თუ ვერ იყენებთ თქვენს დამმოწმებელ პროგრამას.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
@@ -1159,9 +1130,6 @@ se-content-note-1 =
     დაგჭირდებათ <a>ანგარიშის აღდგენის გასაღები</a>.
 # Default value for the secondary email
 se-secondary-email-none = ცარიელი
-
-##
-
 
 ## Two Step Auth sub-section on Settings main page
 

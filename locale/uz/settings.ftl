@@ -131,9 +131,6 @@ avatar-default-avatar =
 ## Connect another device promo
 
 
-##
-
-
 ## Connected services section
 
 
@@ -146,9 +143,6 @@ avatar-default-avatar =
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
-
-
-##
 
 
 ##
@@ -212,31 +206,16 @@ avatar-page-zoom-out-button =
 avatar-page-zoom-in-button =
     .title = Kattalashtirish
 
-##
-
-
 ## Password change page
-
-
-##
 
 
 ## Password create page
 
 
-##
-
-
 ## Delete account page
 
 
-##
-
-
 ## Display name page
-
-
-##
 
 
 ## Recent account activity
@@ -271,16 +250,10 @@ avatar-page-zoom-in-button =
 # DEV NOTE: Set image alt text per fluent/react documentation, do not use the below as an example
 tfa-qa-code-alt = Qoʻllab-quvvatlanadigan ilovalarda ikki bosqichli autentifikatsiyani sozlash uchun { $secret } kodidan foydalaning.
 
-##
-
-
 ## Product promotion
 
 
 ## Profile section
-
-
-##
 
 
 ## Progress bar
@@ -302,9 +275,6 @@ tfa-qa-code-alt = Qoʻllab-quvvatlanadigan ilovalarda ikki bosqichli autentifika
 
 
 ## Secondary email sub-section on main Settings page
-
-
-##
 
 
 ## Two Step Auth sub-section on Settings main page

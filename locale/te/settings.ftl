@@ -155,9 +155,6 @@ connect-another-fx-mobile = మొబైల్ లేదా టాబ్లె�
 connect-another-play-store-image =
     .title = { -google-play }లో { -brand-firefox }ని డౌన్‌లోడ్ చేయండి
 
-##
-
-
 ## Connected services section
 
 cs-heading = సంధానిత సేవలు
@@ -193,9 +190,6 @@ cs-disconnect-advice-confirm = సరే, అర్థమయ్యింది
 cs-disconnect-lost-advice-heading = పోయిన లేదా దొంగిలించబడిన పరికరం డిస్‌కనెక్ట్ చేయబడింది
 cs-disconnect-suspicious-advice-heading = అనుమానాస్పద పరికరం డిస్‌కనెక్ట్ చేయబడింది
 cs-sign-out-button = సైన్ అవుట్ చేయండి
-
-##
-
 
 ## Data collection section
 
@@ -295,9 +289,6 @@ avatar-page-camera-error = కెమెరా ప్రారంభించడ�
 avatar-page-new-avatar =
     .alt = కొత్త ప్రొఫైల్ చిత్రం
 
-##
-
-
 ## Password change page
 
 pw-change-header =
@@ -317,17 +308,11 @@ pw-change-confirm-password =
     .label = కొత్త సంకేతపదంను నిర్ధారించండి
 pw-change-success-alert-2 = సంకేతపదం నవీకరించబడింది
 
-##
-
-
 ## Password create page
 
 pw-create-header =
     .title = సంకేతపదం సృష్టించు
 pw-create-success-alert-2 = సంకేతపదం అమరింది
-
-##
-
 
 ## Delete account page
 
@@ -341,18 +326,12 @@ delete-account-password-input =
 delete-account-cancel-button = రద్దుచేయి
 delete-account-delete-button-2 = తొలగించు
 
-##
-
-
 ## Display name page
 
 display-name-page-title =
     .title = చూపించే పేరు
 submit-display-name = భద్రపరుచు
 cancel-display-name = రద్దుచేయి
-
-##
-
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
@@ -419,9 +398,6 @@ tfa-button-cant-scan-qr = కోడ్ను స్కాన్ చేయలే�
 # When the user cannot use a QR code.
 tfa-enter-secret-key = మీ ప్రామాణీకరణ యాప్‌లో ఈ రహస్య కీని నమోదు చేయండి:
 
-##
-
-
 ## Product promotion
 
 
@@ -434,9 +410,6 @@ profile-display-name =
     .header = చూపించే పేరు
 profile-primary-email =
     .header = ప్రాథమిక ఇమెయిల్
-
-##
-
 
 ## Progress bar
 
@@ -493,9 +466,6 @@ se-refresh-email =
 se-unverified-2 = ధృవీకరించబడలేదు
 # Default value for the secondary email
 se-secondary-email-none = ఏదీకాదు
-
-##
-
 
 ## Two Step Auth sub-section on Settings main page
 

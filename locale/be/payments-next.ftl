@@ -1,16 +1,27 @@
-## Checkout Page
-## Common strings used in multiple checkout pages
+## Page
 
-next-payment-processing-message = Калі ласка, пачакайце, пакуль мы апрацуем ваш плацеж…
+next-payment-method-header = Выберыце спосаб аплаты
+next-payment-method-first-approve = Спачатку вам трэба будзе зацвердзіць вашу падпіску
+
+## Page - Upgrade page
+
+
+## Error pages - /checkout and /upgrade
+## Common strings used in multiple pages
+
 next-payment-error-manage-subscription-button = Кіраваць маёй падпіскай
 next-iap-upgrade-contact-support = Вы ўсё яшчэ можаце атрымаць гэты прадукт — звярніцеся ў службу падтрымкі, каб мы маглі вам дапамагчы.
 next-payment-error-retry-button = Паспрабаваць зноў
 next-basic-error-message = Нешта пайшло не так. Калі ласка, паспрабуйце зноў пазней.
 
-## Page
+## Processing page and Needs Input page - /checkout and /upgrade
+## Common strings used in multiple pages
 
-next-payment-method-header = Выберыце спосаб аплаты
-next-payment-method-first-approve = Спачатку вам трэба будзе зацвердзіць вашу падпіску
+next-payment-processing-message = Калі ласка, пачакайце, пакуль мы апрацуем ваш плацеж…
+
+## Success page - /checkout and /upgrade
+## Common strings used in multiple checkout pages
+
 next-payment-confirmation-thanks-heading-account-exists = Дзякуй, праверце сваю электронную пошту!
 next-payment-confirmation-order-heading = Падрабязнасці замовы
 # $invoiceNumber (String) - Invoice number of the successful payment
@@ -18,12 +29,17 @@ next-payment-confirmation-invoice-number = Рахунак-фактура #{ $inv
 # $invoiceDate (Date) - Start date of the latest invoice
 next-payment-confirmation-invoice-date = { $invoiceDate }
 next-payment-confirmation-details-heading-2 = Плацежная інфармацыя
-# $amount (Number) - The amount billed. It will be formatted as currency.
-# $interval (String) - The interval between payments.
-next-payment-confirmation-amount = { $amount } за { $interval }
+
+## Success pages (/checkout and /upgrade)
+## Common strings used in multiple checkout pages
+
+next-payment-confirmation-download-button = Працягнуць сцягванне
+
+## Success pages (/checkout and /upgrade), Start page (/upgrade)
+## Common strings used in multiple checkout pages
+
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Карта, нумар якой заканчваецца на { $last4 }
-next-payment-confirmation-download-button = Працягнуць сцягванне
 
 ## Component - Payment Consent Checkbox
 

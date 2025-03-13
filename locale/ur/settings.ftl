@@ -138,9 +138,6 @@ bento-menu-firefox-mobile = { -brand-firefox } موبائل کے لئے  راؤ�
 
 connect-another-fx-mobile = موبائل یا ٹیبلٹ پر { -brand-firefox } حاصل کریں
 
-##
-
-
 ## Connected services section
 
 cs-description = ہر وہ چیز جس کا آپ استعمال کر رہے ہیں اور جس میں آپ سائن ان ہیں۔
@@ -169,9 +166,6 @@ cs-disconnect-advice-confirm = ٹھیک ہے، سمجھ گیا
 cs-disconnect-lost-advice-heading = گمشدہ یا چوری شدہ آلہ کو منقطع کر دیا گیا
 cs-disconnect-suspicious-advice-heading = مشکوک آلہ کو منقطع کر دیا گیا
 cs-sign-out-button = سائن آؤٹ کریں
-
-##
-
 
 ## Data collection section
 
@@ -261,9 +255,6 @@ avatar-page-camera-error = کیمرا شروع نہیں کیا جاسکا
 avatar-page-new-avatar =
     .alt = نئی پروفائل تصویر
 
-##
-
-
 ## Password change page
 
 pw-change-header =
@@ -279,13 +270,7 @@ pw-change-new-password =
 pw-change-confirm-password =
     .label = نئے پاس ورڈ کی تصدیق کریں
 
-##
-
-
 ## Password create page
-
-
-##
 
 
 ## Delete account page
@@ -301,9 +286,6 @@ delete-account-password-input =
 delete-account-cancel-button = منسوخ کریں
 delete-account-delete-button-2 = حذف کریں
 
-##
-
-
 ## Display name page
 
 display-name-page-title =
@@ -312,9 +294,6 @@ display-name-input =
     .label = ظاہری نام داخل کریں
 submit-display-name = محفوظ کریں
 cancel-display-name = منسوخ کریں
-
-##
-
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
@@ -364,9 +343,6 @@ tfa-incorrect-totp = ٹو فیکٹر اوتھینٹیکیشن کوڈ غلط ہے
 tfa-cannot-retrieve-code = آپ کے کوڈ کو بازیافت کرنے میں ایک دشواری پیدا ہوئی۔
 tfa-button-cant-scan-qr = کوڈ اسکین نہیں کر پا رہے؟
 
-##
-
-
 ## Product promotion
 
 
@@ -377,9 +353,6 @@ profile-display-name =
     .header = ظاہری نام
 profile-primary-email =
     .header = بنیادی ای میل
-
-##
-
 
 ## Progress bar
 
@@ -419,9 +392,6 @@ se-refresh-email =
     .title = ای میل ریفریش کریں
 # Button to make secondary email the primary
 se-make-primary = بنیادی بنائیں
-
-##
-
 
 ## Two Step Auth sub-section on Settings main page
 

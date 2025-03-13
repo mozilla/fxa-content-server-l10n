@@ -1,16 +1,35 @@
-## Checkout Page
-## Common strings used in multiple checkout pages
+## Page
+
+
+## Page - Upgrade page
+
+checkout-error-boundary-retry-button = Аз нав кӯшиш кардан
+
+## Error pages - /checkout and /upgrade
+## Common strings used in multiple pages
 
 next-payment-error-manage-subscription-button = Идоракунии обунаи ман
 next-payment-error-retry-button = Аз нав кӯшиш кардан
 next-basic-error-message = Чизе нодуруст иҷро шуд. Лутфан, баъдтар аз нав кӯшиш кунед.
 
-## Page
+## Processing page and Needs Input page - /checkout and /upgrade
+## Common strings used in multiple pages
+
+
+## Success page - /checkout and /upgrade
+## Common strings used in multiple checkout pages
 
 # $invoiceDate (Date) - Start date of the latest invoice
 next-payment-confirmation-invoice-date = { $invoiceDate }
 next-payment-confirmation-details-heading-2 = Маълумоти пардохт
-checkout-error-boundary-retry-button = Аз нав кӯшиш кардан
+
+## Success pages (/checkout and /upgrade)
+## Common strings used in multiple checkout pages
+
+
+## Success pages (/checkout and /upgrade), Start page (/upgrade)
+## Common strings used in multiple checkout pages
+
 
 ## Component - Payment Consent Checkbox
 

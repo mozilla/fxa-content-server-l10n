@@ -141,9 +141,6 @@ bento-menu-made-by-mozilla = Realizat de { -brand-mozilla }
 
 connect-another-fx-mobile = Obține { -brand-firefox } pe dispozitivul mobil sau tabletă
 
-##
-
-
 ## Connected services section
 
 cs-heading = Servicii conectate
@@ -178,9 +175,6 @@ cs-disconnect-sync-opt-not-say = Prefer să nu spun
 
 cs-disconnect-advice-confirm = OK, am înțeles
 cs-sign-out-button = Deconectează-te
-
-##
-
 
 ## Data collection section
 
@@ -275,9 +269,6 @@ avatar-page-camera-error = Nu s-a putut inițializa camera
 avatar-page-new-avatar =
     .alt = poză de profil nouă
 
-##
-
-
 ## Password change page
 
 pw-change-header =
@@ -294,15 +285,9 @@ pw-change-new-password =
 pw-change-confirm-password =
     .label = Confirmă noua parolă
 
-##
-
-
 ## Password create page
 
 pw-create-success-alert-2 = Parolă setată
-
-##
-
 
 ## Delete account page
 
@@ -323,9 +308,6 @@ delete-account-password-input =
 delete-account-cancel-button = Anulează
 delete-account-delete-button-2 = Șterge
 
-##
-
-
 ## Display name page
 
 display-name-page-title =
@@ -334,9 +316,6 @@ display-name-input =
     .label = Introdu numele afișat
 submit-display-name = Salvează
 cancel-display-name = Anulează
-
-##
-
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
@@ -400,9 +379,6 @@ tfa-button-cant-scan-qr = Nu poți scana codul?
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Introdu această cheie secretă în aplicația de autentificare:
 
-##
-
-
 ## Product promotion
 
 
@@ -415,9 +391,6 @@ profile-display-name =
     .header = Nume afișat
 profile-primary-email =
     .header = E-mail principal
-
-##
-
 
 ## Progress bar
 
@@ -470,9 +443,6 @@ se-make-primary = Desemnează ca e-mail principal
 se-default-content = Accesează contul dacă nu te poți autentifica în e-mailul principal.
 # Default value for the secondary email
 se-secondary-email-none = Niciunul
-
-##
-
 
 ## Two Step Auth sub-section on Settings main page
 

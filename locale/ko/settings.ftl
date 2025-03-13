@@ -480,9 +480,6 @@ connect-another-play-store-image =
 connect-another-app-store-image-2 =
     .title = { -app-store }에서 { -brand-firefox } 다운로드
 
-##
-
-
 ## Connected services section
 
 cs-heading = 연결된 서비스
@@ -529,9 +526,6 @@ cs-disconnect-lost-advice-content-3 = 기기를 분실하거나 도난 되었기
 cs-disconnect-suspicious-advice-heading = 의심스러운 기기가 연결 해제됨
 cs-disconnect-suspicious-advice-content-2 = 연결이 끊긴 장치가 실제로 의심스러운 경우, 정보를 안전하게 보호하려면 계정 설정에서 { -product-mozilla-account } 비밀번호를 변경해야 합니다. 주소창에 about:logins을 입력하여 { -brand-firefox }에 저장한 다른 비밀번호도 변경해야 합니다.
 cs-sign-out-button = 로그아웃
-
-##
-
 
 ## Data collection section
 
@@ -693,9 +687,6 @@ avatar-page-file-upload-error-3 = 프로필 사진을 업로드하는 데 문제
 avatar-page-delete-error-3 = 프로필 사진을 삭제하는 데 문제가 발생했습니다.
 avatar-page-image-too-large-error-2 = 이미지 파일이 너무 커서 업로드할 수 없습니다.
 
-##
-
-
 ## Password change page
 
 pw-change-header =
@@ -717,18 +708,12 @@ pw-change-confirm-password =
     .label = 새 비밀번호 확인
 pw-change-success-alert-2 = 비밀번호 수정 완료
 
-##
-
-
 ## Password create page
 
 pw-create-header =
     .title = 비밀번호 생성
 pw-create-success-alert-2 = 비밀번호를 설정했습니다.
 pw-create-error-2 = 비밀번호를 설정하는 중 문제가 발생했습니다.
-
-##
-
 
 ## Delete account page
 
@@ -763,9 +748,6 @@ pocket-delete-notice-marketing = Mozilla Corporation 및 Mozilla Foundation에�
 delete-account-cancel-button = 취소
 delete-account-delete-button-2 = 삭제
 
-##
-
-
 ## Display name page
 
 display-name-page-title =
@@ -776,9 +758,6 @@ submit-display-name = 저장
 cancel-display-name = 취소
 display-name-update-error-2 = 표시 이름을 업데이트하는 데 문제가 발생했습니다.
 display-name-success-alert-2 = 표시 이름 업데이트됨
-
-##
-
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
@@ -902,9 +881,6 @@ tfa-save-these-codes-1 = 모바일 기기가 없을 때를 대비해 일회용 �
 tfa-enter-recovery-code-1 =
     .label = 백업 인증 코드를 입력하세요
 
-##
-
-
 ## Product promotion
 
 product-promo-monitor =
@@ -925,9 +901,6 @@ profile-display-name =
     .header = 표시 이름
 profile-primary-email =
     .header = 기본 이메일
-
-##
-
 
 ## Progress bar
 
@@ -1033,9 +1006,6 @@ se-content-note-1 =
     이를 위해서는 <a>계정 복구 키</a>가 필요합니다.
 # Default value for the secondary email
 se-secondary-email-none = 없음
-
-##
-
 
 ## Two Step Auth sub-section on Settings main page
 

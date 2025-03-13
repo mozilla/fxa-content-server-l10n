@@ -1,11 +1,30 @@
-## Checkout Page
-## Common strings used in multiple checkout pages
+## Page
+
+
+## Page - Upgrade page
+
+
+## Error pages - /checkout and /upgrade
+## Common strings used in multiple pages
 
 next-payment-error-manage-subscription-button = Kokolakeun langganan kami
 next-payment-error-retry-button = Pecakan deui
 next-basic-error-message = Aya anu salah. Cobaan deui engké.
 
-## Page
+## Processing page and Needs Input page - /checkout and /upgrade
+## Common strings used in multiple pages
+
+
+## Success page - /checkout and /upgrade
+## Common strings used in multiple checkout pages
+
+
+## Success pages (/checkout and /upgrade)
+## Common strings used in multiple checkout pages
+
+
+## Success pages (/checkout and /upgrade), Start page (/upgrade)
+## Common strings used in multiple checkout pages
 
 
 ## Component - Payment Consent Checkbox

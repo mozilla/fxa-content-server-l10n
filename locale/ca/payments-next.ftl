@@ -1,16 +1,35 @@
-## Checkout Page
-## Common strings used in multiple checkout pages
+## Page
+
+
+## Page - Upgrade page
+
+
+## Error pages - /checkout and /upgrade
+## Common strings used in multiple pages
 
 next-payment-error-manage-subscription-button = Gestiona la meva subscripció
 next-payment-error-retry-button = Torna-ho a provar
 next-basic-error-message = Alguna cosa ha anat malament. Torneu-ho a provar més tard.
 
-## Page
+## Processing page and Needs Input page - /checkout and /upgrade
+## Common strings used in multiple pages
+
+
+## Success page - /checkout and /upgrade
+## Common strings used in multiple checkout pages
 
 # $invoiceNumber (String) - Invoice number of the successful payment
 next-payment-confirmation-invoice-number = Factura núm. { $invoiceNumber }
 next-payment-confirmation-details-heading-2 = Informació de pagament
+
+## Success pages (/checkout and /upgrade)
+## Common strings used in multiple checkout pages
+
 next-payment-confirmation-download-button = Continua amb la baixada
+
+## Success pages (/checkout and /upgrade), Start page (/upgrade)
+## Common strings used in multiple checkout pages
+
 
 ## Component - Payment Consent Checkbox
 

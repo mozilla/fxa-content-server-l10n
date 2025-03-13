@@ -310,9 +310,6 @@ avatar-default-avatar =
 
 connect-another-fx-mobile = Obter { -brand-firefox } para móbil ou tableta
 
-##
-
-
 ## Connected services section
 
 cs-heading = Servizos conectados
@@ -334,9 +331,6 @@ cs-disconnect-sync-heading = Desconectar de Sync
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
-
-
-##
 
 
 ##
@@ -396,31 +390,16 @@ cs-disconnect-sync-heading = Desconectar de Sync
 ## Avatar change page
 
 
-##
-
-
 ## Password change page
-
-
-##
 
 
 ## Password create page
 
 
-##
-
-
 ## Delete account page
 
 
-##
-
-
 ## Display name page
-
-
-##
 
 
 ## Recent account activity
@@ -450,16 +429,10 @@ cs-disconnect-sync-heading = Desconectar de Sync
 ## Two Step Authentication
 
 
-##
-
-
 ## Product promotion
 
 
 ## Profile section
-
-
-##
 
 
 ## Progress bar
@@ -481,9 +454,6 @@ cs-disconnect-sync-heading = Desconectar de Sync
 
 
 ## Secondary email sub-section on main Settings page
-
-
-##
 
 
 ## Two Step Auth sub-section on Settings main page

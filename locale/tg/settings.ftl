@@ -323,9 +323,6 @@ bento-menu-made-by-mozilla = Аз ҷониби «{ -brand-mozilla }» сохта
 ## Connect another device promo
 
 
-##
-
-
 ## Connected services section
 
 cs-heading = Хизматрасониҳои пайвастшуда
@@ -344,9 +341,6 @@ cs-heading = Хизматрасониҳои пайвастшуда
 ##
 
 cs-sign-out-button = Баромад
-
-##
-
 
 ## Data collection section
 
@@ -475,9 +469,6 @@ avatar-page-new-avatar =
 avatar-page-file-upload-error-3 = Ҳангоми боркунии акси профили шумо мушкилӣ ба миён омад
 avatar-page-delete-error-3 = Ҳангоми несткунии акси профили шумо мушкилӣ ба миён омад
 
-##
-
-
 ## Password change page
 
 pw-change-header =
@@ -493,17 +484,11 @@ pw-change-confirm-password =
     .label = Ниҳонвожаи навро тасдиқ намоед
 pw-change-success-alert-2 = Ниҳонвожа аз нав нигоҳ дошта шуд
 
-##
-
-
 ## Password create page
 
 pw-create-header =
     .title = Эҷод кардани ниҳонвожа
 pw-create-success-alert-2 = Ниҳонвожа танзим карда шуд
-
-##
-
 
 ## Delete account page
 
@@ -526,9 +511,6 @@ delete-account-password-input =
 delete-account-cancel-button = Бекор кардан
 delete-account-delete-button-2 = Нест кардан
 
-##
-
-
 ## Display name page
 
 display-name-page-title =
@@ -539,9 +521,6 @@ submit-display-name = Нигоҳ доштан
 cancel-display-name = Бекор кардан
 display-name-update-error-2 = Ҳангоми навсозии номи намоишии шумо мушкилӣ ба миён омад
 display-name-success-alert-2 = Номи намоишӣ нав карда шуд
-
-##
-
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
@@ -610,9 +589,6 @@ tfa-button-finish = Анҷом додан
 tfa-qa-code =
     .alt = { tfa-qa-code-alt }
 
-##
-
-
 ## Product promotion
 
 product-promo-monitor =
@@ -629,9 +605,6 @@ profile-display-name =
     .header = Номи намоишӣ
 profile-primary-email =
     .header = Почтаи электронии асосӣ
-
-##
-
 
 ## Progress bar
 
@@ -707,9 +680,6 @@ se-remove-email =
     .title = Тоза кардани почтаи электронӣ
 # Default value for the secondary email
 se-secondary-email-none = Ҳеҷ
-
-##
-
 
 ## Two Step Auth sub-section on Settings main page
 

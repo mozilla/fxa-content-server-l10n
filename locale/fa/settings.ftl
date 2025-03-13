@@ -365,9 +365,6 @@ bento-menu-made-by-mozilla = ساخته شده توسط { -brand-mozilla }
 
 connect-another-fx-mobile = { -brand-firefox } را برای موبایل یا تلبت دریافت کنید
 
-##
-
-
 ## Connected services section
 
 
@@ -386,9 +383,6 @@ cs-disconnect-sync-opt-duplicate = تکراری
 ##
 
 cs-sign-out-button = خروج از حساب کاربری
-
-##
-
 
 ## Data collection section
 
@@ -496,9 +490,6 @@ avatar-page-camera-error = نمی‌توان دوربین را راه‌اندا
 avatar-page-new-avatar =
     .alt = تصویر نمایه جدید
 
-##
-
-
 ## Password change page
 
 pw-change-header =
@@ -514,16 +505,10 @@ pw-change-confirm-password =
     .label = تایید گذرواژه جدید
 pw-change-success-alert-2 = گذرواژه به‌روزرسانی شد
 
-##
-
-
 ## Password create page
 
 pw-create-header =
     .title = ایجاد گذرواژه
-
-##
-
 
 ## Delete account page
 
@@ -538,16 +523,10 @@ delete-account-password-input =
 delete-account-cancel-button = لغو
 delete-account-delete-button-2 = حذف
 
-##
-
-
 ## Display name page
 
 submit-display-name = ذخیره
 cancel-display-name = انصراف
-
-##
-
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
@@ -583,9 +562,6 @@ verify-secondary-email-cancel-button = لغو
 tfa-button-continue = ادامه
 tfa-button-finish = پایان
 
-##
-
-
 ## Product promotion
 
 
@@ -594,9 +570,6 @@ tfa-button-finish = پایان
 profile-heading = نمایه
 profile-picture =
     .header = تصویر
-
-##
-
 
 ## Progress bar
 
@@ -623,9 +596,6 @@ rk-action-create = ایجاد
 rk-action-remove = برداشتن
 
 ## Secondary email sub-section on main Settings page
-
-
-##
 
 
 ## Two Step Auth sub-section on Settings main page

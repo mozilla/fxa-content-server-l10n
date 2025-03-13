@@ -1,25 +1,41 @@
-## Checkout Page
-## Common strings used in multiple checkout pages
+## Page
 
-next-payment-processing-message = Palun oota, kuni töötleme sinu makset…
+next-payment-method-header = Vali maksemeetod
+
+## Page - Upgrade page
+
+
+## Error pages - /checkout and /upgrade
+## Common strings used in multiple pages
+
 next-payment-error-manage-subscription-button = Halda tellimust
 next-payment-error-retry-button = Proovi uuesti
 next-basic-error-message = Midagi läks valesti. Palun proovi hiljem uuesti.
 
-## Page
+## Processing page and Needs Input page - /checkout and /upgrade
+## Common strings used in multiple pages
 
-next-payment-method-header = Vali maksemeetod
+next-payment-processing-message = Palun oota, kuni töötleme sinu makset…
+
+## Success page - /checkout and /upgrade
+## Common strings used in multiple checkout pages
+
 next-payment-confirmation-thanks-heading-account-exists = Täname, kontrolli nüüd oma e-posti!
 next-payment-confirmation-order-heading = Tellimuse üksikasjad
 # $invoiceNumber (String) - Invoice number of the successful payment
 next-payment-confirmation-invoice-number = Arve nr { $invoiceNumber }
 next-payment-confirmation-details-heading-2 = Makseinfo
-# $amount (Number) - The amount billed. It will be formatted as currency.
-# $interval (String) - The interval between payments.
-next-payment-confirmation-amount = { $amount } perioodis { $interval }
+
+## Success pages (/checkout and /upgrade)
+## Common strings used in multiple checkout pages
+
+next-payment-confirmation-download-button = Jätka allalaadimisega
+
+## Success pages (/checkout and /upgrade), Start page (/upgrade)
+## Common strings used in multiple checkout pages
+
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Kaart, mis lõpeb numbritega { $last4 }
-next-payment-confirmation-download-button = Jätka allalaadimisega
 
 ## Component - Payment Consent Checkbox
 

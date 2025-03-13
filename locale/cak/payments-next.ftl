@@ -1,23 +1,39 @@
-## Checkout Page
-## Common strings used in multiple checkout pages
+## Page
 
-next-payment-processing-message = Tawoyob'ej richin niqasamajij ri atojik…
+
+## Page - Upgrade page
+
+
+## Error pages - /checkout and /upgrade
+## Common strings used in multiple pages
+
 next-payment-error-manage-subscription-button = Tinuk'samajïx rutz'ib'axik nub'i'
 next-payment-error-retry-button = Titojtob'ëx chik
 next-basic-error-message = K'o man xel ta ütz. Tatojtob'ej chik jub'a' chik na.
 
-## Page
+## Processing page and Needs Input page - /checkout and /upgrade
+## Common strings used in multiple pages
+
+next-payment-processing-message = Tawoyob'ej richin niqasamajij ri atojik…
+
+## Success page - /checkout and /upgrade
+## Common strings used in multiple checkout pages
 
 next-payment-confirmation-order-heading = Rub'anikil taqoj
 # $invoiceNumber (String) - Invoice number of the successful payment
 next-payment-confirmation-invoice-number = Rajilab'al paktura' { $invoiceNumber }
 next-payment-confirmation-details-heading-2 = Retamab'al tojïk
-# $amount (Number) - The amount billed. It will be formatted as currency.
-# $interval (String) - The interval between payments.
-next-payment-confirmation-amount = { $amount } chi { $interval }
+
+## Success pages (/checkout and /upgrade)
+## Common strings used in multiple checkout pages
+
+next-payment-confirmation-download-button = K'a tiqasäx
+
+## Success pages (/checkout and /upgrade), Start page (/upgrade)
+## Common strings used in multiple checkout pages
+
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = K'isb'en pa { $last4 } ri tarjeta'
-next-payment-confirmation-download-button = K'a tiqasäx
 
 ## Component - Payment Consent Checkbox
 

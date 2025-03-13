@@ -495,9 +495,6 @@ connect-another-play-store-image =
 connect-another-app-store-image-2 =
     .title = Descargar { -brand-firefox } en { -app-store }
 
-##
-
-
 ## Connected services section
 
 cs-heading = Servicios conectados
@@ -548,9 +545,6 @@ cs-disconnect-lost-advice-content-3 =
 cs-disconnect-suspicious-advice-heading = El dispositivo sospechoso ha sido desconectado
 cs-disconnect-suspicious-advice-content-2 = Si el dispositivo desconectado es realmente sospechoso, para mantener tu información segura, deberías cambiar la contraseña de { -product-mozilla-account } en la configuración de tu cuenta. También deberías cambiar cualquier otra contraseña que guardaste en { -brand-firefox } escribiendo about:logins en la barra de direcciones.
 cs-sign-out-button = Cerrar sesión
-
-##
-
 
 ## Data collection section
 
@@ -715,9 +709,6 @@ avatar-page-file-upload-error-3 = Ha surgido un problema al subir tu foto de per
 avatar-page-delete-error-3 = Ha surgido un problema borrando tu foto de perfil
 avatar-page-image-too-large-error-2 = El tamaño del archivo de imagen es demasiado grande para cargarlo
 
-##
-
-
 ## Password change page
 
 pw-change-header =
@@ -739,18 +730,12 @@ pw-change-confirm-password =
     .label = Confirmar nueva contraseña
 pw-change-success-alert-2 = Contraseña actualizada
 
-##
-
-
 ## Password create page
 
 pw-create-header =
     .title = Crear contraseña
 pw-create-success-alert-2 = Contraseña establecida
 pw-create-error-2 = Lo sentimos, ha surgido un problema al establecer tu contraseña
-
-##
-
 
 ## Delete account page
 
@@ -785,9 +770,6 @@ pocket-delete-notice-marketing = Para dejar de recibir correos electrónicos de 
 delete-account-cancel-button = Cancelar
 delete-account-delete-button-2 = Eliminar
 
-##
-
-
 ## Display name page
 
 display-name-page-title =
@@ -798,9 +780,6 @@ submit-display-name = Guardar
 cancel-display-name = Cancelar
 display-name-update-error-2 = Ha surgido un problema al actualizar tu nombre para mostrar
 display-name-success-alert-2 = Nombre visible actualizado
-
-##
-
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
@@ -924,9 +903,6 @@ tfa-save-these-codes-1 =
 tfa-enter-recovery-code-1 =
     .label = Introduce un código de autenticación de respaldo
 
-##
-
-
 ## Product promotion
 
 product-promo-monitor =
@@ -947,9 +923,6 @@ profile-display-name =
     .header = Nombre para mostrar
 profile-primary-email =
     .header = Correo electrónico principal
-
-##
-
 
 ## Progress bar
 
@@ -1067,9 +1040,6 @@ se-content-note-1 =
     necesitarás una <a>clave de recuperación de cuenta</a> para eso.
 # Default value for the secondary email
 se-secondary-email-none = Ninguno
-
-##
-
 
 ## Two Step Auth sub-section on Settings main page
 

@@ -456,9 +456,6 @@ connect-another-play-store-image =
 connect-another-app-store-image-2 =
     .title = Descarga { -brand-firefox } en { -app-store }
 
-##
-
-
 ## Connected services section
 
 cs-heading = Servicios conectados
@@ -507,9 +504,6 @@ cs-disconnect-lost-advice-content-3 = Dado que su dispositivo fue extraviado o r
 cs-disconnect-suspicious-advice-heading = Dispositivo sospechoso desconectado
 cs-disconnect-suspicious-advice-content-2 = Si el dispositivo desconectado es realmente sospechoso, para mantener tu información segura, deberías de cambiar tu { -product-mozilla-account } contraseña en las configuraciones de tu cuenta. También deberías cambiar a cualquiera otra contraseña que tengas guardado en { -brand-firefox } al entrar about:logins en la barra de direcciones.
 cs-sign-out-button = Cerrar sesión
-
-##
-
 
 ## Data collection section
 
@@ -691,9 +685,6 @@ avatar-page-file-upload-error-3 = Hubo un problema al cargar tu foto de perfil.
 avatar-page-delete-error-3 = Hubo un problema al eliminar tu foto de perfil.
 avatar-page-image-too-large-error-2 = El tamaño de la imagen es demasiado grande para subir
 
-##
-
-
 ## Password change page
 
 pw-change-header =
@@ -715,18 +706,12 @@ pw-change-confirm-password =
     .label = Confirma nueva contraseña
 pw-change-success-alert-2 = Contraseña actualizada
 
-##
-
-
 ## Password create page
 
 pw-create-header =
     .title = Crear contraseña
 pw-create-success-alert-2 = Restablecer contraseña
 pw-create-error-2 = Lo sentimos, hubo un problema al establecer tu contraseña
-
-##
-
 
 ## Delete account page
 
@@ -760,9 +745,6 @@ pocket-delete-notice = Si se suscribe a Pocket Premium, asegúrese de <a>cancela
 delete-account-cancel-button = Cancelar
 delete-account-delete-button-2 = Eliminar
 
-##
-
-
 ## Display name page
 
 display-name-page-title =
@@ -773,9 +755,6 @@ submit-display-name = Guardar
 cancel-display-name = Cancelar
 display-name-update-error-2 = Hubo un problema al actualizar tu nombre para mostrar
 display-name-success-alert-2 = Nombre para mostrar actualizado
-
-##
-
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
@@ -909,9 +888,6 @@ tfa-save-these-codes-1 =
 tfa-enter-recovery-code-1 =
     .label = Ingresa un código de autenticación de respaldo
 
-##
-
-
 ## Product promotion
 
 product-promo-monitor =
@@ -930,9 +906,6 @@ profile-display-name =
     .header = Nombre para mostrar
 profile-primary-email =
     .header = Correo electrónico principal
-
-##
-
 
 ## Progress bar
 
@@ -978,8 +951,6 @@ tfa-row-backup-phone-add-cta = Agregar
 tfa-row-backup-phone-delete-button = Eliminar
 # Shown in tooltip on delete button or delete icon
 tfa-row-backup-phone-delete-title-v2 = Quitar el teléfono de recuperación
-# "this" refers to recovery phone
-tfa-row-backup-phone-description = Este es el método de recuperación más sencillo si no puedes utilizar tu aplicación de autenticación.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
@@ -1061,9 +1032,6 @@ se-content-note-1 =
     necesitas una <a>clave de recuperación de cuenta</a> para eso.
 # Default value for the secondary email
 se-secondary-email-none = Ninguno
-
-##
-
 
 ## Two Step Auth sub-section on Settings main page
 

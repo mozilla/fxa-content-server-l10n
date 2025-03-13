@@ -1050,8 +1050,6 @@ tfa-row-backup-phone-delete-button = Αφαίρεση
 # Shown in tooltip on delete button or delete icon
 tfa-row-backup-phone-delete-title-v2 = Αφαίρεση τηλεφώνου ανάκτησης
 tfa-row-backup-phone-delete-restriction-v2 = Εάν θέλετε να αφαιρέσετε το τηλέφωνο ανάκτησής σας, προσθέστε εφεδρικούς κωδικούς ταυτοποίησης ή απενεργοποιήστε πρώτα την ταυτοποίηση δύο παραγόντων, ώστε να μην κλειδωθείτε εκτός του λογαριασμού σας.
-# "this" refers to recovery phone
-tfa-row-backup-phone-description = Αυτή είναι η πιο εύκολη μέθοδος ανάκτησης εάν δεν μπορείτε να χρησιμοποιήσετε την εφαρμογή ελέγχου ταυτότητάς σας.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.

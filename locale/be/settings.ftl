@@ -387,9 +387,6 @@ connect-another-play-store-image =
 connect-another-app-store-image-2 =
     .title = Сцягніце { -brand-firefox } з { -app-store }
 
-##
-
-
 ## Connected services section
 
 cs-heading = Падключаныя паслугі
@@ -440,9 +437,6 @@ cs-disconnect-suspicious-advice-content-2 =
     Калі адлучаная прылада сапраўды падазроная, вам варта змяніць пароль { -product-mozilla-account }
     у наладах уліковага запісу, каб захаваць вашу інфармацыю ў бяспецы. Вам таксама варта змяніць любыя іншыя паролі, якія вы захавалі ў { -brand-firefox }, увёўшы about:logins у адрасны радок.
 cs-sign-out-button = Выйсці
-
-##
-
 
 ## Data collection section
 
@@ -616,9 +610,6 @@ avatar-page-file-upload-error-3 = Узнікла праблема з зацяг�
 avatar-page-delete-error-3 = Узнікла праблема з выдаленнем выявы профілю
 avatar-page-image-too-large-error-2 = Памер файла выявы занадта вялікі для зацягвання
 
-##
-
-
 ## Password change page
 
 pw-change-header =
@@ -640,18 +631,12 @@ pw-change-confirm-password =
     .label = Пацвердзіце новы пароль
 pw-change-success-alert-2 = Пароль абноўлены
 
-##
-
-
 ## Password create page
 
 pw-create-header =
     .title = Стварыць пароль
 pw-create-success-alert-2 = Пароль усталяваны
 pw-create-error-2 = На жаль, падчас усталявання вашага пароля узнікла праблема
-
-##
-
 
 ## Delete account page
 
@@ -685,9 +670,6 @@ pocket-delete-notice = Калі вы падпісаліся на Pocket Premium,
 delete-account-cancel-button = Скасаваць
 delete-account-delete-button-2 = Выдаліць
 
-##
-
-
 ## Display name page
 
 display-name-page-title =
@@ -698,9 +680,6 @@ submit-display-name = Захаваць
 cancel-display-name = Скасаваць
 display-name-update-error-2 = Узнікла праблема з абнаўленнем бачнага імені
 display-name-success-alert-2 = Бачнае імя абноўлена
-
-##
-
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
@@ -822,9 +801,6 @@ tfa-save-these-codes-1 =
 tfa-enter-recovery-code-1 =
     .label = Увядзіце рэзервовы код аўтарызацыі
 
-##
-
-
 ## Product promotion
 
 
@@ -837,9 +813,6 @@ profile-display-name =
     .header = Бачнае імя
 profile-primary-email =
     .header = Асноўны адрас пошты
-
-##
-
 
 ## Progress bar
 
@@ -943,9 +916,6 @@ se-content-note-1 =
     Для гэтага вам спатрэбіцца <a>ключ аднаўлення ўліковага запісу</a>.
 # Default value for the secondary email
 se-secondary-email-none = Няма
-
-##
-
 
 ## Two Step Auth sub-section on Settings main page
 

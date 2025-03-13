@@ -1,15 +1,3 @@
-## Checkout Page
-## Common strings used in multiple checkout pages
-
-next-payment-processing-message = Vent mens vi behandler din betaling…
-next-payment-error-manage-subscription-button = Håndter mine abonnementer
-next-iap-upgrade-contact-support = Du kan stadig få dette produkt. Kontakt supporten, så vi kan hjælpe dig.
-next-payment-error-retry-button = Prøv igen
-next-basic-error-message = Noget gik galt. Prøv igen senere.
-checkout-error-contact-support-button = Kontakt Support
-checkout-error-not-eligible = Du er ikke berettiget til at abonnere på dette produkt. Kontakt supporten, så vi kan hjælpe dig.
-checkout-error-contact-support = Kontakt supporten, så vi kan hjælpe dig.
-
 ## Page
 
 checkout-signin-or-create = 1. Log ind eller opret en { -product-mozilla-account }
@@ -20,6 +8,31 @@ next-payment-method-header = Vælg din betalingsmetode
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = Først skal du godkende dit abonnement
+
+## Page - Upgrade page
+
+checkout-error-boundary-retry-button = Prøv igen
+checkout-error-boundary-basic-error-message = Noget gik galt. Prøv igen eller <contactSupportLink>kontakt support.</contactSupportLink>
+
+## Error pages - /checkout and /upgrade
+## Common strings used in multiple pages
+
+next-payment-error-manage-subscription-button = Håndter mine abonnementer
+next-iap-upgrade-contact-support = Du kan stadig få dette produkt. Kontakt supporten, så vi kan hjælpe dig.
+next-payment-error-retry-button = Prøv igen
+next-basic-error-message = Noget gik galt. Prøv igen senere.
+checkout-error-contact-support-button = Kontakt Support
+checkout-error-not-eligible = Du er ikke berettiget til at abonnere på dette produkt. Kontakt supporten, så vi kan hjælpe dig.
+checkout-error-contact-support = Kontakt supporten, så vi kan hjælpe dig.
+
+## Processing page and Needs Input page - /checkout and /upgrade
+## Common strings used in multiple pages
+
+next-payment-processing-message = Vent mens vi behandler din betaling…
+
+## Success page - /checkout and /upgrade
+## Common strings used in multiple checkout pages
+
 next-payment-confirmation-thanks-heading-account-exists = Tak. Tjek nu din mail!
 # $email (String) - The user's email.
 payment-confirmation-thanks-subheading-account-exists-2 = Du modtager en mail på { $email } med dine betalingsoplysninger og instruktioner om dit abonnement.
@@ -29,14 +42,17 @@ next-payment-confirmation-invoice-number = Faktura #{ $invoiceNumber }
 # $invoiceDate (Date) - Start date of the latest invoice
 next-payment-confirmation-invoice-date = { $invoiceDate }
 next-payment-confirmation-details-heading-2 = Betalingsinformation
-# $amount (Number) - The amount billed. It will be formatted as currency.
-# $interval (String) - The interval between payments.
-next-payment-confirmation-amount = { $amount } per { $interval }
+
+## Success pages (/checkout and /upgrade)
+## Common strings used in multiple checkout pages
+
+next-payment-confirmation-download-button = Fortsæt til hentning
+
+## Success pages (/checkout and /upgrade), Start page (/upgrade)
+## Common strings used in multiple checkout pages
+
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Kort, der ender på { $last4 }
-next-payment-confirmation-download-button = Fortsæt til hentning
-checkout-error-boundary-retry-button = Prøv igen
-checkout-error-boundary-basic-error-message = Noget gik galt. Prøv igen eller <contactSupportLink>kontakt support.</contactSupportLink>
 
 ## Component - Payment Consent Checkbox
 
@@ -117,7 +133,6 @@ next-new-user-subscribe-product-assurance = Vi bruger kun din mailadresse til at
 plan-price-interval-daily = { $amount } dagligt
 plan-price-interval-weekly = { $amount } ugentligt
 plan-price-interval-monthly = { $amount } månedligt
-plan-price-interval-6monthly = { $amount } hver 6 måned
 plan-price-interval-yearly = { $amount } årligt
 
 ## Component - SubscriptionTitle

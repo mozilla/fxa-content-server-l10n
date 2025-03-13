@@ -1,15 +1,3 @@
-## Checkout Page
-## Common strings used in multiple checkout pages
-
-next-payment-processing-message = Par plasê spiete intant che o elaborìn il to paiament…
-next-payment-error-manage-subscription-button = Gjestion abonament
-next-iap-upgrade-contact-support = Tu puedis ancjemò otignî chest prodot — contate il supuart pe assistence par ricevi jutori.
-next-payment-error-retry-button = Torne prove
-next-basic-error-message = Alc al è lât strucj. Torne prove plui indenant.
-checkout-error-contact-support-button = Contate la assistence
-checkout-error-not-eligible = No tu âs i recuisîts par abonâti a chest prodot - Contate la assistence cussì che o podìn judâti.
-checkout-error-contact-support = Contate la assistence par ricevi il nestri jutori.
-
 ## Page
 
 checkout-signin-or-create = 1. Jentre o cree un { -product-mozilla-account }
@@ -20,6 +8,31 @@ next-payment-method-header = Sielç il to metodi di paiament
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = Par prime robe tu scugnis aprovâ il to abonament
+
+## Page - Upgrade page
+
+checkout-error-boundary-retry-button = Torne prove
+checkout-error-boundary-basic-error-message = Alc al è lât strucj. Torne prove opûr <contactSupportLink>contate il supuart.</contactSupportLink>
+
+## Error pages - /checkout and /upgrade
+## Common strings used in multiple pages
+
+next-payment-error-manage-subscription-button = Gjestion abonament
+next-iap-upgrade-contact-support = Tu puedis ancjemò otignî chest prodot — contate il supuart pe assistence par ricevi jutori.
+next-payment-error-retry-button = Torne prove
+next-basic-error-message = Alc al è lât strucj. Torne prove plui indenant.
+checkout-error-contact-support-button = Contate la assistence
+checkout-error-not-eligible = No tu âs i recuisîts par abonâti a chest prodot - Contate la assistence cussì che o podìn judâti.
+checkout-error-contact-support = Contate la assistence par ricevi il nestri jutori.
+
+## Processing page and Needs Input page - /checkout and /upgrade
+## Common strings used in multiple pages
+
+next-payment-processing-message = Par plasê spiete intant che o elaborìn il to paiament…
+
+## Success page - /checkout and /upgrade
+## Common strings used in multiple checkout pages
+
 next-payment-confirmation-thanks-heading-account-exists = Graciis. Cumò controle la tô e-mail.
 # $email (String) - The user's email.
 payment-confirmation-thanks-subheading-account-exists-2 = Tu ricevarâs une e-mail ae direzion { $email } cu lis istruzions relativis al abonament e i detais pal paiament.
@@ -29,14 +42,17 @@ next-payment-confirmation-invoice-number = Fature #{ $invoiceNumber }
 # $invoiceDate (Date) - Start date of the latest invoice
 next-payment-confirmation-invoice-date = { $invoiceDate }
 next-payment-confirmation-details-heading-2 = Informazions sul paiament
-# $amount (Number) - The amount billed. It will be formatted as currency.
-# $interval (String) - The interval between payments.
-next-payment-confirmation-amount = { $amount } par { $interval }
+
+## Success pages (/checkout and /upgrade)
+## Common strings used in multiple checkout pages
+
+next-payment-confirmation-download-button = Continue par discjariâ
+
+## Success pages (/checkout and /upgrade), Start page (/upgrade)
+## Common strings used in multiple checkout pages
+
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = La cjarte e che e finìs cun { $last4 }
-next-payment-confirmation-download-button = Continue par discjariâ
-checkout-error-boundary-retry-button = Torne prove
-checkout-error-boundary-basic-error-message = Alc al è lât strucj. Torne prove opûr <contactSupportLink>contate il supuart.</contactSupportLink>
 
 ## Component - Payment Consent Checkbox
 
@@ -117,7 +133,6 @@ next-new-user-subscribe-product-assurance = O doprìn la tô e-mail dome par cre
 plan-price-interval-daily = { $amount } al dì
 plan-price-interval-weekly = { $amount } ae setemane
 plan-price-interval-monthly = { $amount } al mês
-plan-price-interval-6monthly = { $amount } ogni 6 mês
 plan-price-interval-yearly = { $amount } al an
 
 ## Component - SubscriptionTitle

@@ -501,9 +501,6 @@ connect-another-play-store-image =
 connect-another-app-store-image-2 =
     .title = { -brand-firefox }’u { -app-store }’dan indir
 
-##
-
-
 ## Connected services section
 
 cs-heading = Bağlı hizmetler
@@ -552,9 +549,6 @@ cs-disconnect-lost-advice-content-3 = Cihazınız kaybolduysa veya çalındıysa
 cs-disconnect-suspicious-advice-heading = Şüpheli cihazın bağlantısı kesildi
 cs-disconnect-suspicious-advice-content-2 = Bağlantısını kestiğiniz cihaz gerçekten şüpheliyse bilgilerinizi güvende tutmak için hesap ayarlarınızdan { -product-mozilla-account } parolanızı değiştirmelisiniz. { -brand-firefox } tarayıcınıza kaydettiğiniz ve adres çubuğuna about:logins yazarak görebileceğiniz parolaları da değiştirmenizi öneririz.
 cs-sign-out-button = Çıkış yap
-
-##
-
 
 ## Data collection section
 
@@ -746,9 +740,6 @@ avatar-page-file-upload-error-3 = Profil fotoğrafınız yüklenirken bir sorun 
 avatar-page-delete-error-3 = Profil fotoğrafınız silinirken bir sorun oluştu
 avatar-page-image-too-large-error-2 = Resim dosyası boyutu yüklenemeyecek kadar büyük
 
-##
-
-
 ## Password change page
 
 pw-change-header =
@@ -770,18 +761,12 @@ pw-change-confirm-password =
     .label = Yeni parolanızı doğrulayın
 pw-change-success-alert-2 = Parola güncellendi
 
-##
-
-
 ## Password create page
 
 pw-create-header =
     .title = Parola oluştur
 pw-create-success-alert-2 = Parola ayarlandı
 pw-create-error-2 = Üzgünüz, parolanız ayarlanırken bir sorun oluştu
-
-##
-
 
 ## Delete account page
 
@@ -816,9 +801,6 @@ pocket-delete-notice-marketing = Mozilla Corporation ve Mozilla Vakfından pazar
 delete-account-cancel-button = İptal
 delete-account-delete-button-2 = Sil
 
-##
-
-
 ## Display name page
 
 display-name-page-title =
@@ -829,9 +811,6 @@ submit-display-name = Kaydet
 cancel-display-name = İptal
 display-name-update-error-2 = Görünen adınız güncellenirken bir sorun oluştu
 display-name-success-alert-2 = Görünen ad güncellendi
-
-##
-
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
@@ -979,9 +958,6 @@ tfa-enter-code-to-confirm-setup = Kodları kaydettiğinizi onaylamak için kodla
 tfa-enter-recovery-code-1 =
     .label = Bir yedek kimlik doğrulama kodunu girin
 
-##
-
-
 ## Product promotion
 
 product-promo-monitor =
@@ -1002,9 +978,6 @@ profile-display-name =
     .header = Görünen ad
 profile-primary-email =
     .header = Birinci e-posta
-
-##
-
 
 ## Progress bar
 
@@ -1065,8 +1038,6 @@ tfa-row-backup-phone-delete-button = Kaldır
 # Shown in tooltip on delete button or delete icon
 tfa-row-backup-phone-delete-title-v2 = Kurtarma telefonunu kaldır
 tfa-row-backup-phone-delete-restriction-v2 = Kurtarma telefonunuzu kaldırmak istiyorsanız hesabınızın kilitlenmesini önlemek için öncelikle yedek kimlik doğrulama kodlarını ekleyin veya iki aşamalı kimlik doğrulamayı devre dışı bırakın.
-# "this" refers to recovery phone
-tfa-row-backup-phone-description = Kimlik doğrulama uygulamanızı kullanamıyorsanız bu daha kolay bir kurtarma yöntemidir.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
@@ -1142,9 +1113,6 @@ se-default-content = Birinci e-postanıza ulaşamasanız bile hesabınıza eriş
 se-content-note-1 = Not: İkinci e-postanızı kullandığınızda bilgileriniz geri yüklenmeyecektir. Bunun için <a>hesap kurtarma anahtarı</a> kullanmanız gerekiyor.
 # Default value for the secondary email
 se-secondary-email-none = Yok
-
-##
-
 
 ## Two Step Auth sub-section on Settings main page
 

@@ -1,15 +1,3 @@
-## Checkout Page
-## Common strings used in multiple checkout pages
-
-next-payment-processing-message = Odota kun käsittelemme maksuasi…
-next-payment-error-manage-subscription-button = Hallitse tilausta
-next-iap-upgrade-contact-support = Voit edelleen hankkia tämän tuotteen — ota yhteyttä tukeen, jotta voimme auttaa sinua.
-next-payment-error-retry-button = Yritä uudestaan
-next-basic-error-message = Jokin meni pieleen. Yritä uudelleen myöhemmin.
-checkout-error-contact-support-button = Ota yhteys tukeen
-checkout-error-not-eligible = Et voi tilata tätä tuotetta - ota yhteys tukeemme, jotta voimme auttaa sinua.
-checkout-error-contact-support = Ota yhteys tukeen, jotta voimme auttaa sinua.
-
 ## Page
 
 checkout-signin-or-create = 1. Kirjaudu sisään tai luo { -product-mozilla-account }
@@ -20,6 +8,31 @@ next-payment-method-header = Valitse maksutapa
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = Sinun on ensin hyväksyttävä tilauksesi
+
+## Page - Upgrade page
+
+checkout-error-boundary-retry-button = Yritä uudelleen
+checkout-error-boundary-basic-error-message = Jotain meni pieleen. Yritä uudelleen tai <contactSupportLink>ota yhteyttä tukeen.</contactSupportLink>
+
+## Error pages - /checkout and /upgrade
+## Common strings used in multiple pages
+
+next-payment-error-manage-subscription-button = Hallitse tilausta
+next-iap-upgrade-contact-support = Voit edelleen hankkia tämän tuotteen — ota yhteyttä tukeen, jotta voimme auttaa sinua.
+next-payment-error-retry-button = Yritä uudestaan
+next-basic-error-message = Jokin meni pieleen. Yritä uudelleen myöhemmin.
+checkout-error-contact-support-button = Ota yhteys tukeen
+checkout-error-not-eligible = Et voi tilata tätä tuotetta - ota yhteys tukeemme, jotta voimme auttaa sinua.
+checkout-error-contact-support = Ota yhteys tukeen, jotta voimme auttaa sinua.
+
+## Processing page and Needs Input page - /checkout and /upgrade
+## Common strings used in multiple pages
+
+next-payment-processing-message = Odota kun käsittelemme maksuasi…
+
+## Success page - /checkout and /upgrade
+## Common strings used in multiple checkout pages
+
 next-payment-confirmation-thanks-heading-account-exists = Kiitos, tarkista nyt sähköpostisi!
 # $email (String) - The user's email.
 payment-confirmation-thanks-subheading-account-exists-2 = Saat sähköpostin osoitteeseen { $email }, jossa on tilaustasi koskevat ohjeet sekä maksutietosi.
@@ -29,14 +42,17 @@ next-payment-confirmation-invoice-number = Lasku #{ $invoiceNumber }
 # $invoiceDate (Date) - Start date of the latest invoice
 next-payment-confirmation-invoice-date = { $invoiceDate }
 next-payment-confirmation-details-heading-2 = Maksun tiedot
-# $amount (Number) - The amount billed. It will be formatted as currency.
-# $interval (String) - The interval between payments.
-next-payment-confirmation-amount = { $amount } per { $interval }
+
+## Success pages (/checkout and /upgrade)
+## Common strings used in multiple checkout pages
+
+next-payment-confirmation-download-button = Jatka lataamiseen
+
+## Success pages (/checkout and /upgrade), Start page (/upgrade)
+## Common strings used in multiple checkout pages
+
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Kortti päättyen { $last4 }
-next-payment-confirmation-download-button = Jatka lataamiseen
-checkout-error-boundary-retry-button = Yritä uudelleen
-checkout-error-boundary-basic-error-message = Jotain meni pieleen. Yritä uudelleen tai <contactSupportLink>ota yhteyttä tukeen.</contactSupportLink>
 
 ## Component - Payment Consent Checkbox
 
@@ -117,7 +133,6 @@ next-new-user-subscribe-product-assurance = Käytämme sähköpostiosoitettasi v
 plan-price-interval-daily = { $amount } päivittäin
 plan-price-interval-weekly = { $amount } viikottain
 plan-price-interval-monthly = { $amount } kuukausittain
-plan-price-interval-6monthly = { $amount } puolivuosittain
 plan-price-interval-yearly = { $amount } vuosittain
 
 ## Component - SubscriptionTitle

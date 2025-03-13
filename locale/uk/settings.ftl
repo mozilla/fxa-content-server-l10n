@@ -493,9 +493,6 @@ connect-another-play-store-image =
 connect-another-app-store-image-2 =
     .title = Завантажити { -brand-firefox } з { -app-store }
 
-##
-
-
 ## Connected services section
 
 cs-heading = Під'єднані служби
@@ -544,9 +541,6 @@ cs-disconnect-lost-advice-content-3 = Оскільки ваш пристрій �
 cs-disconnect-suspicious-advice-heading = Підозрілий пристрій від'єднано
 cs-disconnect-suspicious-advice-content-2 = Якщо від'єднаний пристрій справді підозрілий, вам варто змінити пароль { -product-mozilla-account(case: "gen") } у його налаштуваннях, щоб зберегти свою інформацію в безпеці. Вам також варто змінити будь-які інші паролі, збережені вами у { -brand-firefox }, ввівши в адресному рядку фразу about:logins.
 cs-sign-out-button = Вийти
-
-##
-
 
 ## Data collection section
 
@@ -712,9 +706,6 @@ avatar-page-file-upload-error-3 = Виникла проблема з виван�
 avatar-page-delete-error-3 = Виникла проблема з видаленням зображення профілю
 avatar-page-image-too-large-error-2 = Розмір файлу зображення завеликий для вивантаження
 
-##
-
-
 ## Password change page
 
 pw-change-header =
@@ -736,18 +727,12 @@ pw-change-confirm-password =
     .label = Підтвердьте новий пароль
 pw-change-success-alert-2 = Пароль оновлений
 
-##
-
-
 ## Password create page
 
 pw-create-header =
     .title = Створити пароль
 pw-create-success-alert-2 = Пароль встановлений
 pw-create-error-2 = Перепрошуємо, але під час встановлення пароля виникла проблема
-
-##
-
 
 ## Delete account page
 
@@ -782,9 +767,6 @@ pocket-delete-notice-marketing = Щоб припинити отримання м
 delete-account-cancel-button = Скасувати
 delete-account-delete-button-2 = Видалити
 
-##
-
-
 ## Display name page
 
 display-name-page-title =
@@ -795,9 +777,6 @@ submit-display-name = Зберегти
 cancel-display-name = Скасувати
 display-name-update-error-2 = Виникла проблема під час оновлення вашого імені.
 display-name-success-alert-2 = Показуване ім’я оновлено
-
-##
-
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
@@ -923,9 +902,6 @@ tfa-save-these-codes-1 =
 tfa-enter-recovery-code-1 =
     .label = Введіть резервний код автентифікації
 
-##
-
-
 ## Product promotion
 
 product-promo-monitor =
@@ -946,9 +922,6 @@ profile-display-name =
     .header = Ім’я для показу
 profile-primary-email =
     .header = Основна адреса е-пошти
-
-##
-
 
 ## Progress bar
 
@@ -992,8 +965,6 @@ tfa-row-backup-phone-change-cta = Змінити
 tfa-row-backup-phone-add-cta = Додати
 # Button to remove a recovery phone from the user's account
 tfa-row-backup-phone-delete-button = Вилучити
-# "this" refers to recovery phone
-tfa-row-backup-phone-description = Це простіший спосіб відновлення, якщо ви не можете використовувати програму автентифікації.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
@@ -1075,9 +1046,6 @@ se-content-note-1 =
     Для цього вам знадобиться <a>ключ відновлення облікового запису</a>.
 # Default value for the secondary email
 se-secondary-email-none = Немає
-
-##
-
 
 ## Two Step Auth sub-section on Settings main page
 

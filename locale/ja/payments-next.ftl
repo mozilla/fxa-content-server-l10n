@@ -1,12 +1,3 @@
-## Checkout Page
-## Common strings used in multiple checkout pages
-
-next-payment-processing-message = お支払いが処理されるまでお待ちください...
-next-payment-error-manage-subscription-button = サブスクリプションの管理
-next-iap-upgrade-contact-support = それでも、この製品が入手できますので、サポートへお問い合わせください。
-next-payment-error-retry-button = 再度お試しください
-next-basic-error-message = 何か問題が発生しました。また後で試してください。
-
 ## Page
 
 checkout-signin-or-create = 1. ログインするか { -product-mozilla-account }を作成する
@@ -17,6 +8,28 @@ next-payment-method-header = お支払い方法を選択してください
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = まず、サブスクリプションの承認が必要です。
+
+## Page - Upgrade page
+
+checkout-error-boundary-retry-button = 再試行
+checkout-error-boundary-basic-error-message = 問題が発生しました。もう一度試すか、<contactSupportLink>サポートにお問い合わせください。</contactSupportLink>
+
+## Error pages - /checkout and /upgrade
+## Common strings used in multiple pages
+
+next-payment-error-manage-subscription-button = サブスクリプションの管理
+next-iap-upgrade-contact-support = それでも、この製品が入手できますので、サポートへお問い合わせください。
+next-payment-error-retry-button = 再度お試しください
+next-basic-error-message = 何か問題が発生しました。また後で試してください。
+
+## Processing page and Needs Input page - /checkout and /upgrade
+## Common strings used in multiple pages
+
+next-payment-processing-message = お支払いが処理されるまでお待ちください...
+
+## Success page - /checkout and /upgrade
+## Common strings used in multiple checkout pages
+
 next-payment-confirmation-thanks-heading-account-exists = ありがとうございます。メールを確認してください。
 next-payment-confirmation-order-heading = 注文詳細
 # $invoiceNumber (String) - Invoice number of the successful payment
@@ -24,14 +37,17 @@ next-payment-confirmation-invoice-number = 請求書番号 { $invoiceNumber }
 # $invoiceDate (Date) - Start date of the latest invoice
 next-payment-confirmation-invoice-date = { $invoiceDate }
 next-payment-confirmation-details-heading-2 = 支払い情報
-# $amount (Number) - The amount billed. It will be formatted as currency.
-# $interval (String) - The interval between payments.
-next-payment-confirmation-amount = { $amount } / { $interval }
+
+## Success pages (/checkout and /upgrade)
+## Common strings used in multiple checkout pages
+
+next-payment-confirmation-download-button = ダウンロードを続行
+
+## Success pages (/checkout and /upgrade), Start page (/upgrade)
+## Common strings used in multiple checkout pages
+
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = 下 4 桁が { $last4 } のカード
-next-payment-confirmation-download-button = ダウンロードを続行
-checkout-error-boundary-retry-button = 再試行
-checkout-error-boundary-basic-error-message = 問題が発生しました。もう一度試すか、<contactSupportLink>サポートにお問い合わせください。</contactSupportLink>
 
 ## Component - Payment Consent Checkbox
 
@@ -112,7 +128,6 @@ next-new-user-subscribe-product-assurance = 私たちは、あなたのメール
 plan-price-interval-daily = 毎日 { $amount }
 plan-price-interval-weekly = 毎週 { $amount }
 plan-price-interval-monthly = 毎月 { $amount }
-plan-price-interval-6monthly = 6 か月ごとに { $amount }
 plan-price-interval-yearly = 毎年 { $amount }
 
 ## Component - SubscriptionTitle

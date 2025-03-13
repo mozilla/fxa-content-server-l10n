@@ -501,9 +501,6 @@ connect-another-play-store-image =
 connect-another-app-store-image-2 =
     .title = 到 { -app-store } 下載 { -brand-firefox }
 
-##
-
-
 ## Connected services section
 
 cs-heading = 已連結的服務
@@ -548,9 +545,6 @@ cs-disconnect-lost-advice-content-3 = 由於您的裝置遺失或遭竊，為了
 cs-disconnect-suspicious-advice-heading = 可疑裝置已離線
 cs-disconnect-suspicious-advice-content-2 = 若中斷連線的裝置看來可疑，為了確保您的資訊安全，應該到「帳號設定」當中更改 { -product-mozilla-account }的密碼。您也應該在網址列輸入 about:logins，更換儲存到 { -brand-firefox } 的所有網站密碼。
 cs-sign-out-button = 登出
-
-##
-
 
 ## Data collection section
 
@@ -740,9 +734,6 @@ avatar-page-file-upload-error-3 = 更新您的個人資料大頭照時發生問�
 avatar-page-delete-error-3 = 刪除您的個人資料大頭照時發生問題
 avatar-page-image-too-large-error-2 = 圖片檔案太大，無法上傳
 
-##
-
-
 ## Password change page
 
 pw-change-header =
@@ -764,18 +755,12 @@ pw-change-confirm-password =
     .label = 確認新密碼
 pw-change-success-alert-2 = 已更新密碼
 
-##
-
-
 ## Password create page
 
 pw-create-header =
     .title = 設定密碼
 pw-create-success-alert-2 = 已設定密碼
 pw-create-error-2 = 很抱歉，設定您的密碼時發生問題
-
-##
-
 
 ## Delete account page
 
@@ -810,9 +795,6 @@ pocket-delete-notice-marketing = 若要停止接收 Mozilla Corporation 及 Mozi
 delete-account-cancel-button = 取消
 delete-account-delete-button-2 = 刪除
 
-##
-
-
 ## Display name page
 
 display-name-page-title =
@@ -823,9 +805,6 @@ submit-display-name = 儲存
 cancel-display-name = 取消
 display-name-update-error-2 = 更新您的顯示名稱時發生錯誤
 display-name-success-alert-2 = 已更新顯示名稱
-
-##
-
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
@@ -973,9 +952,6 @@ tfa-enter-code-to-confirm-setup = 請輸入任一組備用驗證碼，以確認�
 tfa-enter-recovery-code-1 =
     .label = 請輸入備用驗證碼
 
-##
-
-
 ## Product promotion
 
 product-promo-monitor =
@@ -996,9 +972,6 @@ profile-display-name =
     .header = 顯示名稱
 profile-primary-email =
     .header = 主要電子郵件地址
-
-##
-
 
 ## Progress bar
 
@@ -1055,8 +1028,6 @@ tfa-row-backup-phone-delete-button = 移除
 # Shown in tooltip on delete button or delete icon
 tfa-row-backup-phone-delete-title-v2 = 移除救援電話號碼
 tfa-row-backup-phone-delete-restriction-v2 = 若您想要移除救援電話號碼，請先產生備用驗證碼，或停用兩階段驗證，以避免被鎖在帳號外面無法登入。
-# "this" refers to recovery phone
-tfa-row-backup-phone-description = 當您無法再使用驗證程式時，這是最安全的救援方法。
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
@@ -1132,9 +1103,6 @@ se-default-content = 讓您在無法使用主要電子郵件地址時，還能�
 se-content-note-1 = 註：只設定次要電子郵件帳號無法恢復您的資訊，還需要有<a>帳號救援金鑰</a>才行。
 # Default value for the secondary email
 se-secondary-email-none = 無
-
-##
-
 
 ## Two Step Auth sub-section on Settings main page
 

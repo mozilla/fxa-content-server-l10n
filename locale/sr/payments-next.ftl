@@ -1,16 +1,27 @@
-## Checkout Page
-## Common strings used in multiple checkout pages
+## Page
 
-next-payment-processing-message = Сачекајте док обрадимо вашу уплату…
+next-payment-method-header = Изаберите начин плаћања
+next-payment-method-first-approve = Прво ћете морати да одобрите вашу претплату
+
+## Page - Upgrade page
+
+
+## Error pages - /checkout and /upgrade
+## Common strings used in multiple pages
+
 next-payment-error-manage-subscription-button = Управљај претплатом
 next-iap-upgrade-contact-support = Овај производ вам је и даље доступан — контактирајте подршку да вам помогне.
 next-payment-error-retry-button = Покушај поново
 next-basic-error-message = Нешто није у реду. Покушајте поново касније.
 
-## Page
+## Processing page and Needs Input page - /checkout and /upgrade
+## Common strings used in multiple pages
 
-next-payment-method-header = Изаберите начин плаћања
-next-payment-method-first-approve = Прво ћете морати да одобрите вашу претплату
+next-payment-processing-message = Сачекајте док обрадимо вашу уплату…
+
+## Success page - /checkout and /upgrade
+## Common strings used in multiple checkout pages
+
 next-payment-confirmation-thanks-heading-account-exists = Хвала, сада проверите вашу е-пошту!
 next-payment-confirmation-order-heading = Детаљи поруџбине
 # $invoiceNumber (String) - Invoice number of the successful payment
@@ -18,12 +29,17 @@ next-payment-confirmation-invoice-number = Рачун #{ $invoiceNumber }
 # $invoiceDate (Date) - Start date of the latest invoice
 next-payment-confirmation-invoice-date = { $invoiceDate }
 next-payment-confirmation-details-heading-2 = Подаци о плаћању
-# $amount (Number) - The amount billed. It will be formatted as currency.
-# $interval (String) - The interval between payments.
-next-payment-confirmation-amount = { $amount } по { $interval }
+
+## Success pages (/checkout and /upgrade)
+## Common strings used in multiple checkout pages
+
+next-payment-confirmation-download-button = Идите на преузимање
+
+## Success pages (/checkout and /upgrade), Start page (/upgrade)
+## Common strings used in multiple checkout pages
+
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Картица завршава са { $last4 }
-next-payment-confirmation-download-button = Идите на преузимање
 
 ## Component - Payment Consent Checkbox
 

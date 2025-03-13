@@ -1,15 +1,3 @@
-## Checkout Page
-## Common strings used in multiple checkout pages
-
-next-payment-processing-message = Spetgar per plaschair fertant che nus elavurain il pajament…
-next-payment-error-manage-subscription-button = Administrar mes abunament
-next-iap-upgrade-contact-support = Ti pos tuttina survegnir quest product – contactescha per plaschair il support per che nus pudain ta gidar.
-next-payment-error-retry-button = Reempruvar
-next-basic-error-message = Insatge è ì mal. Emprova per plaschair pli tard anc ina giada.
-checkout-error-contact-support-button = Contactar l’agid
-checkout-error-not-eligible = Ti n’has betg il dretg dad abunar quest product – contactescha per plaschair l’agid per che nus possian ta gidar.
-checkout-error-contact-support = Contactescha per plaschair l’agid per che nus possian ta gidar.
-
 ## Page
 
 checkout-signin-or-create = 1. T’annunzia u creescha in { -product-mozilla-account }
@@ -20,6 +8,31 @@ next-payment-method-header = Tscherna tia metoda da pajament
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = L'emprim stos ti approvar tes abunament
+
+## Page - Upgrade page
+
+checkout-error-boundary-retry-button = Empruvar anc ina giada
+checkout-error-boundary-basic-error-message = Igl ha dà in problem. Emprova per plaschair anc ina giada u <contactSupportLink>contactescha l’agid</contactSupportLink>.
+
+## Error pages - /checkout and /upgrade
+## Common strings used in multiple pages
+
+next-payment-error-manage-subscription-button = Administrar mes abunament
+next-iap-upgrade-contact-support = Ti pos tuttina survegnir quest product – contactescha per plaschair il support per che nus pudain ta gidar.
+next-payment-error-retry-button = Reempruvar
+next-basic-error-message = Insatge è ì mal. Emprova per plaschair pli tard anc ina giada.
+checkout-error-contact-support-button = Contactar l’agid
+checkout-error-not-eligible = Ti n’has betg il dretg dad abunar quest product – contactescha per plaschair l’agid per che nus possian ta gidar.
+checkout-error-contact-support = Contactescha per plaschair l’agid per che nus possian ta gidar.
+
+## Processing page and Needs Input page - /checkout and /upgrade
+## Common strings used in multiple pages
+
+next-payment-processing-message = Spetgar per plaschair fertant che nus elavurain il pajament…
+
+## Success page - /checkout and /upgrade
+## Common strings used in multiple checkout pages
+
 next-payment-confirmation-thanks-heading-account-exists = Grazia, controllescha ussa tes e-mails!
 # $email (String) - The user's email.
 payment-confirmation-thanks-subheading-account-exists-2 = Ti retschaivas in e-mail adressà a { $email } cun instrucziuns en connex cun tes abunament, sco era tias datas da pajament.
@@ -29,14 +42,17 @@ next-payment-confirmation-invoice-number = Quint nr. { $invoiceNumber }
 # $invoiceDate (Date) - Start date of the latest invoice
 next-payment-confirmation-invoice-date = { $invoiceDate }
 next-payment-confirmation-details-heading-2 = Infurmaziuns da pajament
-# $amount (Number) - The amount billed. It will be formatted as currency.
-# $interval (String) - The interval between payments.
-next-payment-confirmation-amount = { $amount } per { $interval }
+
+## Success pages (/checkout and /upgrade)
+## Common strings used in multiple checkout pages
+
+next-payment-confirmation-download-button = Vinavant a la telechargiada
+
+## Success pages (/checkout and /upgrade), Start page (/upgrade)
+## Common strings used in multiple checkout pages
+
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Carta che chala cun { $last4 }
-next-payment-confirmation-download-button = Vinavant a la telechargiada
-checkout-error-boundary-retry-button = Empruvar anc ina giada
-checkout-error-boundary-basic-error-message = Igl ha dà in problem. Emprova per plaschair anc ina giada u <contactSupportLink>contactescha l’agid</contactSupportLink>.
 
 ## Component - Payment Consent Checkbox
 
@@ -117,7 +133,6 @@ next-new-user-subscribe-product-assurance = Nus duvrain tia adressa dad e-mail m
 plan-price-interval-daily = { $amount } per di
 plan-price-interval-weekly = { $amount } per emna
 plan-price-interval-monthly = { $amount } per mais
-plan-price-interval-6monthly = { $amount } mintga 6 mais
 plan-price-interval-yearly = { $amount } mintg’onn
 
 ## Component - SubscriptionTitle

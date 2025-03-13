@@ -1,15 +1,3 @@
-## Checkout Page
-## Common strings used in multiple checkout pages
-
-next-payment-processing-message = Mesedez, itxaron ordainketa prozesatzen dugun bitartean…
-next-payment-error-manage-subscription-button = Kudeatu nire harpidetza
-next-iap-upgrade-contact-support = Produktu hau eskura dezakezu oraindik. Jarri laguntza-zerbitzuarekin laguntza lortzeko.
-next-payment-error-retry-button = Saiatu berriro
-next-basic-error-message = Zerbait oker joan da. Mesedez, berriro saiatu beranduago.
-checkout-error-contact-support-button = Laguntza kontaktua
-checkout-error-not-eligible = Ez duzu produktu honetara harpidetzeko eskubidea. Jarri laguntza-zerbitzuarekin lagundu ahal izateko.
-checkout-error-contact-support = Mesedez, jarri harremanetan laguntzarekin lagundu ahal izateko.
-
 ## Page
 
 checkout-signin-or-create = 1. saioa hasi { -product-mozilla-account } kontuan
@@ -20,6 +8,31 @@ next-payment-method-header = Hautatu zure ordaiketa metodoa
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = Lehenik eta behin zure harpidetza onartu beharko duzu
+
+## Page - Upgrade page
+
+checkout-error-boundary-retry-button = Saiatu berriro
+checkout-error-boundary-basic-error-message = Zerbait gaizki joan da. Mesedez, saiatu berriro edo <contactSupportLink>jarri laguntzarekin harremanetan.</contactSupportLink>
+
+## Error pages - /checkout and /upgrade
+## Common strings used in multiple pages
+
+next-payment-error-manage-subscription-button = Kudeatu nire harpidetza
+next-iap-upgrade-contact-support = Produktu hau eskura dezakezu oraindik. Jarri laguntza-zerbitzuarekin laguntza lortzeko.
+next-payment-error-retry-button = Saiatu berriro
+next-basic-error-message = Zerbait oker joan da. Mesedez, berriro saiatu beranduago.
+checkout-error-contact-support-button = Laguntza kontaktua
+checkout-error-not-eligible = Ez duzu produktu honetara harpidetzeko eskubidea. Jarri laguntza-zerbitzuarekin lagundu ahal izateko.
+checkout-error-contact-support = Mesedez, jarri harremanetan laguntzarekin lagundu ahal izateko.
+
+## Processing page and Needs Input page - /checkout and /upgrade
+## Common strings used in multiple pages
+
+next-payment-processing-message = Mesedez, itxaron ordainketa prozesatzen dugun bitartean…
+
+## Success page - /checkout and /upgrade
+## Common strings used in multiple checkout pages
+
 next-payment-confirmation-thanks-heading-account-exists = Eskerri asko, begiratu zure posta elektronikoa
 # $email (String) - The user's email.
 payment-confirmation-thanks-subheading-account-exists-2 = Mezu elektroniko bat jasoko duzu { $email } helbidean zure harpidetzari buruzko argibideekin, baita zure ordainketa xehetasunekin ere.
@@ -29,14 +42,17 @@ next-payment-confirmation-invoice-number = Faktura #{ $invoiceNumber }
 # $invoiceDate (Date) - Start date of the latest invoice
 next-payment-confirmation-invoice-date = { $invoiceDate }
 next-payment-confirmation-details-heading-2 = Ordainketa informazioa
-# $amount (Number) - The amount billed. It will be formatted as currency.
-# $interval (String) - The interval between payments.
-next-payment-confirmation-amount = { $amount } { $interval }-(e)ro
+
+## Success pages (/checkout and /upgrade)
+## Common strings used in multiple checkout pages
+
+next-payment-confirmation-download-button = Jarraitu deskargara
+
+## Success pages (/checkout and /upgrade), Start page (/upgrade)
+## Common strings used in multiple checkout pages
+
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = { $last4 }-z amaitzen den txartela
-next-payment-confirmation-download-button = Jarraitu deskargara
-checkout-error-boundary-retry-button = Saiatu berriro
-checkout-error-boundary-basic-error-message = Zerbait gaizki joan da. Mesedez, saiatu berriro edo <contactSupportLink>jarri laguntzarekin harremanetan.</contactSupportLink>
 
 ## Component - Payment Consent Checkbox
 
@@ -117,7 +133,6 @@ next-new-user-subscribe-product-assurance = Zure posta elektronikoa zure kontua 
 plan-price-interval-daily = { $amount } egunero
 plan-price-interval-weekly = { $amount } astero
 plan-price-interval-monthly = { $amount } hilero
-plan-price-interval-6monthly = { $amount } sei hilero
 plan-price-interval-yearly = { $amount } urtero
 
 ## Component - SubscriptionTitle

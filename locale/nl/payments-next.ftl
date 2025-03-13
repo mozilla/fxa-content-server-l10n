@@ -1,15 +1,3 @@
-## Checkout Page
-## Common strings used in multiple checkout pages
-
-next-payment-processing-message = Een ogenblik terwijl we uw betaling verwerken…
-next-payment-error-manage-subscription-button = Mijn abonnement beheren
-next-iap-upgrade-contact-support = U kunt dit product nog steeds verkrijgen – neem contact op met de ondersteuningsafdeling zodat we u kunnen helpen.
-next-payment-error-retry-button = Opnieuw proberen
-next-basic-error-message = Er is iets misgegaan. Probeer het later opnieuw.
-checkout-error-contact-support-button = Contact opnemen
-checkout-error-not-eligible = U komt niet in aanmerking voor een abonnement op dit product – neem contact op met de ondersteuningsafdeling zodat we u kunnen helpen.
-checkout-error-contact-support = Neem contact op met de ondersteuningsafdeling zodat we u kunnen helpen.
-
 ## Page
 
 checkout-signin-or-create = 1. Meld u aan of maak een { -product-mozilla-account } aan
@@ -20,6 +8,31 @@ next-payment-method-header = Kies uw betalingsmethode
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = U dient eerst uw abonnement goed te keuren
+
+## Page - Upgrade page
+
+checkout-error-boundary-retry-button = Opnieuw proberen
+checkout-error-boundary-basic-error-message = Er is iets misgegaan. Probeer het opnieuw of <contactSupportLink>neem contact op met de ondersteuningsafdeling.</contactSupportLink>
+
+## Error pages - /checkout and /upgrade
+## Common strings used in multiple pages
+
+next-payment-error-manage-subscription-button = Mijn abonnement beheren
+next-iap-upgrade-contact-support = U kunt dit product nog steeds verkrijgen – neem contact op met de ondersteuningsafdeling zodat we u kunnen helpen.
+next-payment-error-retry-button = Opnieuw proberen
+next-basic-error-message = Er is iets misgegaan. Probeer het later opnieuw.
+checkout-error-contact-support-button = Contact opnemen
+checkout-error-not-eligible = U komt niet in aanmerking voor een abonnement op dit product – neem contact op met de ondersteuningsafdeling zodat we u kunnen helpen.
+checkout-error-contact-support = Neem contact op met de ondersteuningsafdeling zodat we u kunnen helpen.
+
+## Processing page and Needs Input page - /checkout and /upgrade
+## Common strings used in multiple pages
+
+next-payment-processing-message = Een ogenblik terwijl we uw betaling verwerken…
+
+## Success page - /checkout and /upgrade
+## Common strings used in multiple checkout pages
+
 next-payment-confirmation-thanks-heading-account-exists = Bedankt, controleer nu uw e-mail!
 # $email (String) - The user's email.
 payment-confirmation-thanks-subheading-account-exists-2 = U ontvangt een e-mailbericht op { $email } met instructies over uw abonnement en uw betalingsgegevens.
@@ -29,14 +42,17 @@ next-payment-confirmation-invoice-number = Factuurnr. { $invoiceNumber }
 # $invoiceDate (Date) - Start date of the latest invoice
 next-payment-confirmation-invoice-date = { $invoiceDate }
 next-payment-confirmation-details-heading-2 = Betalingsgegevens
-# $amount (Number) - The amount billed. It will be formatted as currency.
-# $interval (String) - The interval between payments.
-next-payment-confirmation-amount = { $amount } per { $interval }
+
+## Success pages (/checkout and /upgrade)
+## Common strings used in multiple checkout pages
+
+next-payment-confirmation-download-button = Doorgaan naar download
+
+## Success pages (/checkout and /upgrade), Start page (/upgrade)
+## Common strings used in multiple checkout pages
+
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Creditcard eindigend op { $last4 }
-next-payment-confirmation-download-button = Doorgaan naar download
-checkout-error-boundary-retry-button = Opnieuw proberen
-checkout-error-boundary-basic-error-message = Er is iets misgegaan. Probeer het opnieuw of <contactSupportLink>neem contact op met de ondersteuningsafdeling.</contactSupportLink>
 
 ## Component - Payment Consent Checkbox
 
@@ -117,7 +133,6 @@ next-new-user-subscribe-product-assurance = We gebruiken uw e-mailadres alleen o
 plan-price-interval-daily = { $amount } per dag
 plan-price-interval-weekly = { $amount } per week
 plan-price-interval-monthly = { $amount } per maand
-plan-price-interval-6monthly = { $amount } per 6 maanden
 plan-price-interval-yearly = { $amount } per jaar
 
 ## Component - SubscriptionTitle

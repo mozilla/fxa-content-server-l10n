@@ -18,12 +18,12 @@ resend-success-banner-description = Добавьте { $accountsEmail } в св�
 brand-banner-dismiss-button-2 =
     .aria-label = Закрыть баннер
 # This message is displayed as the title element in the banner, prior to actually launching the new brand
-brand-prelaunch-title = 1 ноября «{ -product-firefox-accounts("accusative") }» будут переименованы в «{ -product-mozilla-accounts("accusative") }».
+brand-prelaunch-title = 1 ноября «{ -product-firefox-accounts }» будут переименованы в «{ -product-mozilla-accounts }».
 # This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
 brand-prelaunch-subtitle = Вы по-прежнему будете входить в систему с тем же именем пользователя и паролем, и никаких других изменений в продуктах, которые вы используете, не произойдет.
 # This message is displayed as title element in the banner, after the brand changes take affect letting the user know that
 # no action is required on their part
-brand-postlaunch-title = Мы переименовали «{ -product-firefox-accounts("accusative") }» в «{ -product-mozilla-accounts("accusative") }». Вы по-прежнему будете входить в систему с тем же именем пользователя и паролем, и никаких других изменений в продуктах, которые вы используете, не произойдёт.
+brand-postlaunch-title = Мы переименовали «{ -product-firefox-accounts }» в «{ -product-mozilla-accounts }». Вы по-прежнему будете входить в систему с тем же именем пользователя и паролем, и никаких других изменений в продуктах, которые вы используете, не произойдёт.
 # This is an extra link element, that directs users to a page where they can learn more about the branding changes.
 brand-learn-more = Подробнее
 # Alt text for close banner image
@@ -501,9 +501,6 @@ connect-another-play-store-image =
 connect-another-app-store-image-2 =
     .title = Загрузите { -brand-firefox } в { -app-store }
 
-##
-
-
 ## Connected services section
 
 cs-heading = Подключённые службы
@@ -551,18 +548,15 @@ cs-disconnect-suspicious-advice-heading = Подозрительное устр�
 cs-disconnect-suspicious-advice-content-2 = Если отсоединённое устройство действительно подозрительно, для сохранения вашей информации в безопасности, вам следует сменить пароль своего { -product-mozilla-account } в настройках. Вам также следует сменить любые другие пароли, которые вы сохраняли в { -brand-firefox }, набрав about:logins в адресной строке.
 cs-sign-out-button = Выйти
 
-##
-
-
 ## Data collection section
 
 dc-heading = Сбор и использование данных
 dc-subheader-moz-accounts = { -product-mozilla-accounts }
 dc-subheader-ff-browser = Браузер { -brand-firefox }
-dc-subheader-content-2 = Разрешить { -product-mozilla-accounts("dative") } отправлять технические данные и данные взаимодействия в { -brand-mozilla }.
+dc-subheader-content-2 = Разрешить { -product-mozilla-accounts } отправлять технические данные и данные взаимодействия в { -brand-mozilla }.
 dc-subheader-ff-content = Чтобы просмотреть или обновить технические настройки и данные взаимодействия вашего { -brand-firefox }, откройте настройки { -brand-firefox } и перейдите в раздел «Приватность и Защита».
-dc-opt-out-success-2 = Отказ подтверждён. { -product-mozilla-accounts("nominative_uppercase") } не будут отправлять технические данные или данные о взаимодействии в { -brand-mozilla }.
-dc-opt-in-success-2 = Спасибо! Отправка этих данных поможет нам улучшить { -product-mozilla-accounts("nominative") }.
+dc-opt-out-success-2 = Отказ подтверждён. { -product-mozilla-accounts } не будут отправлять технические данные или данные о взаимодействии в { -brand-mozilla }.
+dc-opt-in-success-2 = Спасибо! Отправка этих данных поможет нам улучшить { -product-mozilla-accounts }.
 dc-opt-in-out-error-2 = К сожалению, при изменении вашей настройки сбора данных возникла проблема
 dc-learn-more = Подробнее
 
@@ -747,9 +741,6 @@ avatar-page-file-upload-error-3 = При выгрузке фото вашего 
 avatar-page-delete-error-3 = При удалении фото вашего профиля возникла проблема
 avatar-page-image-too-large-error-2 = Размер файла изображения слишком велик для загрузки
 
-##
-
-
 ## Password change page
 
 pw-change-header =
@@ -771,18 +762,12 @@ pw-change-confirm-password =
     .label = Подтвердите новый пароль
 pw-change-success-alert-2 = Пароль изменён
 
-##
-
-
 ## Password create page
 
 pw-create-header =
     .title = Создать пароль
 pw-create-success-alert-2 = Пароль установлен
 pw-create-error-2 = К сожалению, при установке вашего пароля возникла проблема
-
-##
-
 
 ## Delete account page
 
@@ -817,9 +802,6 @@ pocket-delete-notice-marketing = Чтобы прекратить получат�
 delete-account-cancel-button = Отмена
 delete-account-delete-button-2 = Удалить
 
-##
-
-
 ## Display name page
 
 display-name-page-title =
@@ -830,9 +812,6 @@ submit-display-name = Сохранить
 cancel-display-name = Отмена
 display-name-update-error-2 = При обновлении вашего отображаемого имени возникла проблема
 display-name-success-alert-2 = Отображаемое имя обновлено
-
-##
-
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
@@ -986,9 +965,6 @@ tfa-enter-code-to-confirm-setup = Подтвердите, что вы сохра
 tfa-enter-recovery-code-1 =
     .label = Введите резервный код аутентификации
 
-##
-
-
 ## Product promotion
 
 product-promo-monitor =
@@ -1009,9 +985,6 @@ profile-display-name =
     .header = Отображаемое имя
 profile-primary-email =
     .header = Основной адрес электронной почты
-
-##
-
 
 ## Progress bar
 
@@ -1073,8 +1046,6 @@ tfa-row-backup-phone-delete-button = Удалить
 # Shown in tooltip on delete button or delete icon
 tfa-row-backup-phone-delete-title-v2 = Удалить телефон для восстановления
 tfa-row-backup-phone-delete-restriction-v2 = Если вы хотите удалить резервный телефон для восстановления, добавьте резервные коды аутентификации или сначала отключите двухэтапную аутентификацию, чтобы избежать блокировки вашего аккаунта.
-# "this" refers to recovery phone
-tfa-row-backup-phone-description = Это более простой метод восстановления, если вы не можете использовать своё приложение для аутентификации.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
@@ -1155,9 +1126,6 @@ se-content-note-1 = Примечание: дополнительный адре�
 # Default value for the secondary email
 se-secondary-email-none = Нет
 
-##
-
-
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Двухэтапная аутентификация
@@ -1195,7 +1163,7 @@ terms-privacy-agreement-pocket-2 = <pocketTos>Условия использов�
 # link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-monitor-3 = <mozSubscriptionTosLink>Условия использования</mozSubscriptionTosLink> и <mozSubscriptionPrivacyLink>Уведомление о конфиденциальности</mozSubscriptionPrivacyLink> служб подписки { -brand-mozilla }
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-mozilla = <mozillaAccountsTos>Условия обслуживания</mozillaAccountsTos> и <mozillaAccountsPrivacy>Уведомление о конфиденциальности</mozillaAccountsPrivacy> { -product-mozilla-accounts("genitive") }
+terms-privacy-agreement-mozilla = <mozillaAccountsTos>Условия обслуживания</mozillaAccountsTos> и <mozillaAccountsPrivacy>Уведомление о конфиденциальности</mozillaAccountsPrivacy> { -product-mozilla-accounts }
 # links to Mozilla Account's Terms of Service and Privacy Notice
 terms-privacy-agreement-default-2 = Продолжая, вы соглашаетесь с <mozillaAccountsTos>Условиями обслуживания</mozillaAccountsTos> и <mozillaAccountsPrivacy>Уведомлением о конфиденциальности</mozillaAccountsPrivacy>.
 
@@ -1626,7 +1594,7 @@ signin-link-expired-message-2 = Срок действия ссылки, на к�
 ## Signin page
 
 # Strings within the <span> elements appear as a subheading.
-signin-password-needed-header-2 = Введите свой пароль <span>для вашего { -product-mozilla-account("genitive") }</span>
+signin-password-needed-header-2 = Введите свой пароль <span>для вашего { -product-mozilla-account }</span>
 # $serviceLogo - an image of the logo of the service which the user is authenticating for.
 # For languages structured like English, the phrase can read "to continue to"
 signin-subheader-with-logo = Перейти к <span>{ $serviceLogo }</span>
@@ -1759,7 +1727,7 @@ signin-reported-message = Наша команда оповещена. Ваши �
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
-signin-token-code-heading-2 = Введите код подтверждения<span> для вашего { -product-mozilla-account("genitive") }</span>
+signin-token-code-heading-2 = Введите код подтверждения<span> для вашего { -product-mozilla-account }</span>
 # { $email } represents the email that the user entered to sign in
 signin-token-code-instruction = Введите код, отправленный на { $email }, в течение 5 минут.
 signin-token-code-input-label-v2 = Введите код из 6 цифр
@@ -1825,7 +1793,7 @@ confirm-signup-code-page-title = Введите код подтверждени�
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
-confirm-signup-code-heading-2 = Введите код подтверждения <span>для вашего { -product-mozilla-account("genitive") }</span>
+confirm-signup-code-heading-2 = Введите код подтверждения <span>для вашего { -product-mozilla-account }</span>
 # { $email } represents the email that the user entered to sign in
 confirm-signup-code-instruction = Введите код, отправленный на { $email }, в течение 5 минут.
 confirm-signup-code-input-label = Введите код из 6 цифр

@@ -501,9 +501,6 @@ connect-another-play-store-image =
 connect-another-app-store-image-2 =
     .title = Shkarkojeni { -brand-firefox } nga { -app-store }
 
-##
-
-
 ## Connected services section
 
 cs-heading = Shërbime të Lidhura
@@ -550,9 +547,6 @@ cs-disconnect-lost-advice-content-3 = Meqë pajisja juaj qe vjedhur ose humbur, 
 cs-disconnect-suspicious-advice-heading = U shkëput pajisje e dyshimtë
 cs-disconnect-suspicious-advice-content-2 = Nëse pajisja e shkëputur është vërtet e dyshimtë, për t’i mbajtur të parrezik të dhënat tuaja, duhet të ndryshoni fjalëkalimin e { -product-mozilla-account } tuaj, te rregullimet e llogarisë tuaj. Duhet të ndryshoni edhe çfarëdo fjalëkalimi tjetër që keni ruajtur në { -brand-firefox } duke shtypur about:logins te shtylla e adresave.
 cs-sign-out-button = Dilni
-
-##
-
 
 ## Data collection section
 
@@ -747,9 +741,6 @@ avatar-page-file-upload-error-3 = Pati një problem gjatë ngarkimit të fotos t
 avatar-page-delete-error-3 = Pati një problem gjatë fshirjes së fotos tuaj të profilit
 avatar-page-image-too-large-error-2 = Madhësi e kartelës së figurës është shumë e madhe për ngarkim
 
-##
-
-
 ## Password change page
 
 pw-change-header =
@@ -771,18 +762,12 @@ pw-change-confirm-password =
     .label = Ripohoni fjalëkalimin e ri
 pw-change-success-alert-2 = Fjalëkalimi u përditësua
 
-##
-
-
 ## Password create page
 
 pw-create-header =
     .title = Krijoni fjalëkalim
 pw-create-success-alert-2 = Fjalëkalimi u caktua
 pw-create-error-2 = Na ndjeni, pati një problem me ujdisjen e fjalëkalimit tuaj
-
-##
-
 
 ## Delete account page
 
@@ -817,9 +802,6 @@ pocket-delete-notice-marketing = Që të reshtet së marri email-e marketingu ng
 delete-account-cancel-button = Anuloje
 delete-account-delete-button-2 = Fshije
 
-##
-
-
 ## Display name page
 
 display-name-page-title =
@@ -830,9 +812,6 @@ submit-display-name = Ruaje
 cancel-display-name = Anuloje
 display-name-update-error-2 = Pati një problem me përditësimin e emrit tuaj në ekran
 display-name-success-alert-2 = Emri për në ekran u përditësua
-
-##
-
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
@@ -984,9 +963,6 @@ tfa-enter-code-to-confirm-setup = Ripohoni se i ruajtët kodet tuaj, duke dhën�
 tfa-enter-recovery-code-1 =
     .label = Jepni një kod mirëfilltësimi kopjeruajtje
 
-##
-
-
 ## Product promotion
 
 product-promo-monitor =
@@ -1007,9 +983,6 @@ profile-display-name =
     .header = Emër në ekran
 profile-primary-email =
     .header = Email parësor
-
-##
-
 
 ## Progress bar
 
@@ -1070,8 +1043,6 @@ tfa-row-backup-phone-delete-button = Hiqe
 # Shown in tooltip on delete button or delete icon
 tfa-row-backup-phone-delete-title-v2 = Hiq telefon rimarrjeje
 tfa-row-backup-phone-delete-restriction-v2 = Nëse doni të hiqni telefonin tuaj të rikthimit, shtoni kode mirëfilltësimi kopjeruajtjesh, apo të çaktivizoni, së pari, mirëfilltësimin me dy hapa, që të shmangni lënien jashtë llogarie.
-# "this" refers to recovery phone
-tfa-row-backup-phone-description = Kjo është metoda më e kollajtë për rimarrje, nëse s’mundeni të përdorni aplikacionin e mirëfilltësimeve.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
@@ -1153,9 +1124,6 @@ se-content-note-1 =
     këtë punë do t’ju duhet një <a>kyç rimarrjeje llogarie</a>.
 # Default value for the secondary email
 se-secondary-email-none = Asnjë
-
-##
-
 
 ## Two Step Auth sub-section on Settings main page
 

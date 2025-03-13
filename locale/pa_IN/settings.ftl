@@ -474,9 +474,6 @@ connect-another-play-store-image =
 connect-another-app-store-image-2 =
     .title = { -app-store } ਤੋਂ { -brand-firefox } ਡਾਊਨਲੋਡ ਕਰੋ
 
-##
-
-
 ## Connected services section
 
 cs-heading = ਕਨੈਕਟ ਹੋਈਆਂ ਸੇਵਾਵਾਂ
@@ -519,9 +516,6 @@ cs-disconnect-advice-confirm = ਠੀਕ, ਸਮਝ ਗਏ
 cs-disconnect-lost-advice-heading = ਗੁਆਚਿਆ ਜਾਂ ਚੋਰੀ ਹੋਇਆ ਡਿਵਾਈਸ ਡਿਸਕਨੈਕਟ ਕੀਤਾ
 cs-disconnect-suspicious-advice-heading = ਸ਼ੱਕੀ ਡਿਵਾਈਸ ਡਿਸਕਨੈਕਟ ਕੀਤਾ
 cs-sign-out-button = ਸਾਈਨ ਆਉਟ
-
-##
-
 
 ## Data collection section
 
@@ -698,9 +692,6 @@ avatar-page-file-upload-error-3 = ਤੁਹਾਡੀ ਪਰੋਫਾਈਲ ਤ�
 avatar-page-delete-error-3 = ਤੁਹਾਡੀ ਪਰੋਫਾਈਲ ਤਸਵੀਰ ਹਟਾਉਣ ਦੌਰਾਨ ਸਮੱਸਿਆ ਸੀ
 avatar-page-image-too-large-error-2 = ਅੱਪਲੋਡ ਕਰਨ ਲਈ ਚਿੱਤਰ ਤਸਵੀਰ ਬਹੁਤ ਵੱਡੀ ਹੈ
 
-##
-
-
 ## Password change page
 
 pw-change-header =
@@ -722,18 +713,12 @@ pw-change-confirm-password =
     .label = ਨਵੇਂ ਪਾਸਵਰਡ ਨੂੰ ਤਸਦੀਕ ਕਰੋ
 pw-change-success-alert-2 = ਪਾਸਵਰਡ ਅੱਪਡੇਟ ਕੀਤਾ ਗਿਆ
 
-##
-
-
 ## Password create page
 
 pw-create-header =
     .title = ਪਾਸਵਰਡ ਬਣਾਓ
 pw-create-success-alert-2 = ਪਾਸਵਰਡ ਸੈਟ ਕਰੋ
 pw-create-error-2 = ਅਫ਼ਸੋਸ, ਤੁਹਾਡੇ ਪਾਸਵਰਡ ਸੈਟ ਕਰਨ ਦੌਰਾਨ ਸਮੱਸਿਆ ਆਈ ਸੀ
-
-##
-
 
 ## Delete account page
 
@@ -757,9 +742,6 @@ delete-account-password-input =
 delete-account-cancel-button = ਰੱਦ ਕਰੋ
 delete-account-delete-button-2 = ਹਟਾਓ
 
-##
-
-
 ## Display name page
 
 display-name-page-title =
@@ -770,9 +752,6 @@ submit-display-name = ਸੰਭਾਲੋ
 cancel-display-name = ਰੱਦ ਕਰੋ
 display-name-update-error-2 = ਤੁਹਾਡੇ ਦਿਸਣ ਵਾਲੇ ਨਾਂ ਨੂੰ ਅੱਪਡੇਟ ਕਰਨ ਦੌਰਾਨ ਸਮੱਸਿਆ ਸੀ
 display-name-success-alert-2 = ਦਿਖਾਉਣ ਵਾਲਾ ਨਾਂ ਅੱਪਡੇਟ ਕੀਤਾ
-
-##
-
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
@@ -907,9 +886,6 @@ tfa-save-these-codes-1 = ਜਦੋਂ ਤੁਹਾਡੇ ਕੋਲ ਮੋਬਾ�
 tfa-enter-recovery-code-1 =
     .label = ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਦਿਓ
 
-##
-
-
 ## Product promotion
 
 product-promo-monitor =
@@ -928,9 +904,6 @@ profile-display-name =
     .header = ਦਿਖਾਉਣ ਵਾਲਾ ਨਾਂ
 profile-primary-email =
     .header = ਮੁੱਢਲਾ ਈਮੇਲ
-
-##
-
 
 ## Progress bar
 
@@ -986,8 +959,6 @@ tfa-row-backup-phone-add-cta = ਜੋੜੋ
 tfa-row-backup-phone-delete-button = ਹਟਾਓ
 # Shown in tooltip on delete button or delete icon
 tfa-row-backup-phone-delete-title-v2 = ਰਿਕਵਰੀ ਫ਼ੋਨ ਨੂੰ ਹਟਾਓ
-# "this" refers to recovery phone
-tfa-row-backup-phone-description = ਜੇ ਤੁਸੀਂ ਆਪਣੀ ਪਰਮਾਣੀਕਰਨ ਐਪ ਨੂੰ ਵਰਤ ਨਹੀਂ ਸਕਦੇ ਹੋ ਤਾਂ ਇਹ ਰਿਕਵਰੀ ਦਾ ਸੌਖਾ ਢੰਗ ਹੈ।
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
@@ -1061,9 +1032,6 @@ se-default-content = ਤੁਹਾਡੇ ਖਾਤੇ ਲਈ ਪਹੁੰਚ, ਜ
 se-content-note-1 = ਯਾਦ ਰੱਖੋ: ਸੈਕੰਡਰੀ ਈਮੇਲ ਤੁਹਾਡੀ ਜਾਣਕਾਰੀ ਬਹਾਲ ਨਹੀਂ ਕਰੇਗੀ — ਉਸ ਵਾਸਤੇ ਤੁਹਾਨੂੰ <a>ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ</a> ਚਾਹੀਦੀ ਹੈ।
 # Default value for the secondary email
 se-secondary-email-none = ਕੋਈ ਨਹੀਂ
-
-##
-
 
 ## Two Step Auth sub-section on Settings main page
 

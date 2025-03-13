@@ -1,13 +1,3 @@
-## Checkout Page
-## Common strings used in multiple checkout pages
-
-next-payment-processing-message = Hinkraðu við á meðan við meðhöndlum greiðsluna þína…
-next-payment-error-manage-subscription-button = Sýsla með áskriftina mína
-next-iap-upgrade-contact-support = Þú getur samt fengið þennan hugbúnað - hafðu samband við aðstoðargáttina svo við getum hjálpað þér.
-next-payment-error-retry-button = Reyndu aftur
-next-basic-error-message = Eitthvað fór úrskeiðis. Reyndu aftur síðar.
-checkout-error-contact-support-button = Hafa samband við aðstoðarteymi
-
 ## Page
 
 checkout-signin-or-create = 1. Skráðu þig inn eða útbúðu { -product-mozilla-account }
@@ -18,6 +8,29 @@ next-payment-method-header = Veldu greiðslumáta þinn
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = Fyrst þarftu að samþykkja áskriftina þína
+
+## Page - Upgrade page
+
+checkout-error-boundary-retry-button = Reyna aftur
+checkout-error-boundary-basic-error-message = Eitthvað fór úrskeiðis. Reyndu aftur eða <contactSupportLink>hafðu samband við aðstoðarteymið.</contactSupportLink>
+
+## Error pages - /checkout and /upgrade
+## Common strings used in multiple pages
+
+next-payment-error-manage-subscription-button = Sýsla með áskriftina mína
+next-iap-upgrade-contact-support = Þú getur samt fengið þennan hugbúnað - hafðu samband við aðstoðargáttina svo við getum hjálpað þér.
+next-payment-error-retry-button = Reyndu aftur
+next-basic-error-message = Eitthvað fór úrskeiðis. Reyndu aftur síðar.
+checkout-error-contact-support-button = Hafa samband við aðstoðarteymi
+
+## Processing page and Needs Input page - /checkout and /upgrade
+## Common strings used in multiple pages
+
+next-payment-processing-message = Hinkraðu við á meðan við meðhöndlum greiðsluna þína…
+
+## Success page - /checkout and /upgrade
+## Common strings used in multiple checkout pages
+
 next-payment-confirmation-thanks-heading-account-exists = Takk, athugaðu nú tölvupóstinn þinn!
 # $email (String) - The user's email.
 payment-confirmation-thanks-subheading-account-exists-2 = Þú munt fá tölvupóst á { $email } með leiðbeiningum varðandi áskriftina þína, sem og greiðsluupplýsingar þínar.
@@ -27,14 +40,17 @@ next-payment-confirmation-invoice-number = Reikningur #{ $invoiceNumber }
 # $invoiceDate (Date) - Start date of the latest invoice
 next-payment-confirmation-invoice-date = { $invoiceDate }
 next-payment-confirmation-details-heading-2 = Greiðsluupplýsingar
-# $amount (Number) - The amount billed. It will be formatted as currency.
-# $interval (String) - The interval between payments.
-next-payment-confirmation-amount = { $amount } á { $interval }
+
+## Success pages (/checkout and /upgrade)
+## Common strings used in multiple checkout pages
+
+next-payment-confirmation-download-button = Halda áfram í niðurhal
+
+## Success pages (/checkout and /upgrade), Start page (/upgrade)
+## Common strings used in multiple checkout pages
+
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Kort sem endar á { $last4 }
-next-payment-confirmation-download-button = Halda áfram í niðurhal
-checkout-error-boundary-retry-button = Reyna aftur
-checkout-error-boundary-basic-error-message = Eitthvað fór úrskeiðis. Reyndu aftur eða <contactSupportLink>hafðu samband við aðstoðarteymið.</contactSupportLink>
 
 ## Component - Payment Consent Checkbox
 
@@ -115,7 +131,6 @@ next-new-user-subscribe-product-assurance = Við notum aðeins tölvupóstfangi�
 plan-price-interval-daily = { $amount } daglega
 plan-price-interval-weekly = { $amount } vikulega
 plan-price-interval-monthly = { $amount } mánaðarlega
-plan-price-interval-6monthly = { $amount } á 6 mánaða fresti
 plan-price-interval-yearly = { $amount } á ári
 
 ## Component - SubscriptionTitle

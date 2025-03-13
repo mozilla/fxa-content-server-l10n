@@ -1,28 +1,44 @@
-## Checkout Page
-## Common strings used in multiple checkout pages
+## Page
 
-next-payment-processing-message = Vent mens vi behandler betalingen din…
+next-payment-method-header = Velg betalingsmåte
+next-payment-method-first-approve = Først må du godkjenne abonnementet ditt
+
+## Page - Upgrade page
+
+
+## Error pages - /checkout and /upgrade
+## Common strings used in multiple pages
+
 next-payment-error-manage-subscription-button = Behandle mitt abonnement
 next-iap-upgrade-contact-support = Du kan fortsatt få dette produktet — kontakt brukerstøtten, så kan vi hjelpe deg.
 next-payment-error-retry-button = Prøv igjen
 next-basic-error-message = Noe gikk galt. Prøv igjen senere.
 
-## Page
+## Processing page and Needs Input page - /checkout and /upgrade
+## Common strings used in multiple pages
 
-next-payment-method-header = Velg betalingsmåte
-next-payment-method-first-approve = Først må du godkjenne abonnementet ditt
+next-payment-processing-message = Vent mens vi behandler betalingen din…
+
+## Success page - /checkout and /upgrade
+## Common strings used in multiple checkout pages
+
 next-payment-confirmation-order-heading = Ordredetaljer
 # $invoiceNumber (String) - Invoice number of the successful payment
 next-payment-confirmation-invoice-number = Fakturanummer { $invoiceNumber }
 # $invoiceDate (Date) - Start date of the latest invoice
 next-payment-confirmation-invoice-date = { $invoiceDate }
 next-payment-confirmation-details-heading-2 = Betalingsinformasjon
-# $amount (Number) - The amount billed. It will be formatted as currency.
-# $interval (String) - The interval between payments.
-next-payment-confirmation-amount = { $amount } per { $interval }
+
+## Success pages (/checkout and /upgrade)
+## Common strings used in multiple checkout pages
+
+next-payment-confirmation-download-button = Fortsett til nedlasting
+
+## Success pages (/checkout and /upgrade), Start page (/upgrade)
+## Common strings used in multiple checkout pages
+
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Kort som slutter på { $last4 }
-next-payment-confirmation-download-button = Fortsett til nedlasting
 
 ## Component - Payment Consent Checkbox
 

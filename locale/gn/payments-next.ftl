@@ -1,14 +1,3 @@
-## Checkout Page
-## Common strings used in multiple checkout pages
-
-next-payment-processing-message = Ikatúiko eha’ãrõ romongu’e aja ne jehepyme’ẽ…
-next-payment-error-manage-subscription-button = Ñemboheraguapy jeipota
-next-iap-upgrade-contact-support = Erekokuaa gueteri ko apopyre — eñe’ẽmi pytyvõha aty ndive roipytyvõkuaa hag̃ua.
-next-payment-error-retry-button = Eha’ãjey
-next-basic-error-message = Oĩ osẽvaíva. Ikatúpiko eha’ãjey ag̃amieve.
-checkout-error-contact-support-button = Eheka Ñepytyvõha
-checkout-error-contact-support = Eñe’ẽ pytyvõhára ndive roipytyvõkuaa hag̃ua.
-
 ## Page
 
 checkout-signin-or-create = 1. Eñepyrũ tembiapo térã emoheñói { -product-mozilla-account }
@@ -19,6 +8,29 @@ next-payment-method-header = Eiporavo mba’éichapa ehepyme’ẽta
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = Emoneĩraẽva’erã ne ñemboheraguapy
+
+## Page - Upgrade page
+
+checkout-error-boundary-retry-button = Eha’ãjey
+
+## Error pages - /checkout and /upgrade
+## Common strings used in multiple pages
+
+next-payment-error-manage-subscription-button = Ñemboheraguapy jeipota
+next-iap-upgrade-contact-support = Erekokuaa gueteri ko apopyre — eñe’ẽmi pytyvõha aty ndive roipytyvõkuaa hag̃ua.
+next-payment-error-retry-button = Eha’ãjey
+next-basic-error-message = Oĩ osẽvaíva. Ikatúpiko eha’ãjey ag̃amieve.
+checkout-error-contact-support-button = Eheka Ñepytyvõha
+checkout-error-contact-support = Eñe’ẽ pytyvõhára ndive roipytyvõkuaa hag̃ua.
+
+## Processing page and Needs Input page - /checkout and /upgrade
+## Common strings used in multiple pages
+
+next-payment-processing-message = Ikatúiko eha’ãrõ romongu’e aja ne jehepyme’ẽ…
+
+## Success page - /checkout and /upgrade
+## Common strings used in multiple checkout pages
+
 next-payment-confirmation-thanks-heading-account-exists = ¡Aguyje, ko’ág̃a ehecha ne ñanduti veve!
 next-payment-confirmation-order-heading = Mba’emimi jerurepyre
 # $invoiceNumber (String) - Invoice number of the successful payment
@@ -26,13 +38,17 @@ next-payment-confirmation-invoice-number = Kuatiañemungue papapy { $invoiceNumb
 # $invoiceDate (Date) - Start date of the latest invoice
 next-payment-confirmation-invoice-date = { $invoiceDate }
 next-payment-confirmation-details-heading-2 = Jehepyme’ẽrã marandu
-# $amount (Number) - The amount billed. It will be formatted as currency.
-# $interval (String) - The interval between payments.
-next-payment-confirmation-amount = { $amount } { $interval } rehe
+
+## Success pages (/checkout and /upgrade)
+## Common strings used in multiple checkout pages
+
+next-payment-confirmation-download-button = Emboguejy ehóvo
+
+## Success pages (/checkout and /upgrade), Start page (/upgrade)
+## Common strings used in multiple checkout pages
+
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Kuatia’atã opáva { $last4 }-pe
-next-payment-confirmation-download-button = Emboguejy ehóvo
-checkout-error-boundary-retry-button = Eha’ãjey
 
 ## Component - Payment Consent Checkbox
 
@@ -113,7 +129,6 @@ next-new-user-subscribe-product-assurance = Roiporu ne ñanduti veve romoheñói
 plan-price-interval-daily = { $amount } aragua
 plan-price-interval-weekly = { $amount } arapokõindygua
 plan-price-interval-monthly = { $amount } jasygua
-plan-price-interval-6monthly = { $amount } 6 jasy ohupytývo
 plan-price-interval-yearly = { $amount } arygua
 
 ## Component - SubscriptionTitle

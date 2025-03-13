@@ -305,9 +305,6 @@ connect-another-play-store-image =
 connect-another-app-store-image-2 =
     .title = Sader-d { -brand-firefox } seg { -app-store }
 
-##
-
-
 ## Connected services section
 
 cs-heading = Imeẓla yeqqnen
@@ -360,9 +357,6 @@ cs-disconnect-suspicious-advice-content-2 =
     awal-ik•im uffir deg yiɣewwaren n umiḍan-ik•im. Ilaq daɣen ad tbeddleḍ kra n
     wawal uffir i teskelseḍ deg { -brand-firefox } s tira n about:logins into the address bar.
 cs-sign-out-button = Ffeɣ
-
-##
-
 
 ## Data collection section
 
@@ -497,9 +491,6 @@ avatar-page-file-upload-error-3 = Yella-d wugur deg usali n tugna n umaɣnu-inek
 avatar-page-delete-error-3 = Yella-d wugur deg tukksa n tugna n umaɣnu-inek·inem
 avatar-page-image-too-large-error-2 = Teɣzi n ufaylu n tugniwin meqqer nezzeh i usali
 
-##
-
-
 ## Password change page
 
 pw-change-header =
@@ -518,17 +509,11 @@ pw-change-confirm-password =
     .label = Sentem awal uffir amaynut
 pw-change-success-alert-2 = Awal uffir yettuleqqem
 
-##
-
-
 ## Password create page
 
 pw-create-header =
     .title = Rnu awal uffir
 pw-create-success-alert-2 = Awal uffir yettusbadu
-
-##
-
 
 ## Delete account page
 
@@ -558,9 +543,6 @@ delete-account-password-input =
 delete-account-cancel-button = Sefsex
 delete-account-delete-button-2 = Kkes
 
-##
-
-
 ## Display name page
 
 display-name-page-title =
@@ -571,9 +553,6 @@ submit-display-name = Sekles
 cancel-display-name = Sefsex
 display-name-update-error-2 = Yella-d wugur deg uleqqem n yisem-ik·im yettwaskanen
 display-name-success-alert-2 = Isem n uskan yettusnifel
-
-##
-
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
@@ -669,9 +648,6 @@ tfa-save-these-codes-1 =
 tfa-enter-recovery-code-1 =
     .label = Sekcem tangalt n usesteb n uḥraz
 
-##
-
-
 ## Product promotion
 
 product-promo-monitor =
@@ -688,9 +664,6 @@ profile-display-name =
     .header = Isem n uskan
 profile-primary-email =
     .header = Imayl amezwaru
-
-##
-
 
 ## Progress bar
 
@@ -784,9 +757,6 @@ se-content-note-1 =
     <a>tasarut n tririt n umidan</a> i waya.
 # Default value for the secondary email
 se-secondary-email-none = Ula yiwen
-
-##
-
 
 ## Two Step Auth sub-section on Settings main page
 

@@ -1,14 +1,25 @@
-## Checkout Page
-## Common strings used in multiple checkout pages
+## Page
 
-next-payment-processing-message = Ttxil-k·m ṛǧu mi ara nsesfer asellek-inek·inem…
+next-payment-method-header = Fren tarrayt-ik·im n lexlaṣ
+
+## Page - Upgrade page
+
+
+## Error pages - /checkout and /upgrade
+## Common strings used in multiple pages
+
 next-payment-error-manage-subscription-button = Sefrek amulteɣ-inu
 next-payment-error-retry-button = Ɛreḍ tikkelt-nniḍen
 next-basic-error-message = Yella wayen ur nteddu ara akken ilaq. Ma ulac aɣilif, εreḍ tikkelt-nniḍen.
 
-## Page
+## Processing page and Needs Input page - /checkout and /upgrade
+## Common strings used in multiple pages
 
-next-payment-method-header = Fren tarrayt-ik·im n lexlaṣ
+next-payment-processing-message = Ttxil-k·m ṛǧu mi ara nsesfer asellek-inek·inem…
+
+## Success page - /checkout and /upgrade
+## Common strings used in multiple checkout pages
+
 next-payment-confirmation-thanks-heading-account-exists = Tanemmirt, senqed tura imayl-ik·im!
 next-payment-confirmation-order-heading = Talqayt n usuter
 # $invoiceNumber (String) - Invoice number of the successful payment
@@ -16,12 +27,17 @@ next-payment-confirmation-invoice-number = Tafaṭurt #{ $invoiceNumber }
 # $invoiceDate (Date) - Start date of the latest invoice
 next-payment-confirmation-invoice-date = { $invoiceDate }
 next-payment-confirmation-details-heading-2 = Talɣut n lexlaṣ
-# $amount (Number) - The amount billed. It will be formatted as currency.
-# $interval (String) - The interval between payments.
-next-payment-confirmation-amount = { $amount } s { $interval }
+
+## Success pages (/checkout and /upgrade)
+## Common strings used in multiple checkout pages
+
+next-payment-confirmation-download-button = Kemmel akken ad d-tsidreḍ
+
+## Success pages (/checkout and /upgrade), Start page (/upgrade)
+## Common strings used in multiple checkout pages
+
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Takarḍa ad tfakk deg { $last4 }
-next-payment-confirmation-download-button = Kemmel akken ad d-tsidreḍ
 
 ## Component - Payment Consent Checkbox
 

@@ -501,9 +501,6 @@ connect-another-play-store-image =
 connect-another-app-store-image-2 =
     .title = Ześěgniśo { -brand-firefox } wót { -app-store }
 
-##
-
-
 ## Connected services section
 
 cs-heading = Zwězane słužby
@@ -552,9 +549,6 @@ cs-disconnect-lost-advice-content-3 = Dokulaž waš rěd jo se zgubił abo kšad
 cs-disconnect-suspicious-advice-heading = Suspektny rěd jo se źělił
 cs-disconnect-suspicious-advice-content-2 = Jolic wótźělony rěd jo napšawdu suspektny, wy dejał gronidło swójogo { -product-mozilla-account(case: "gen", capitalization: "lower") } w swójich nastajenjach změniś, aby swóje informacije wěste źaržał. Wy dejał teke about:logins do adresowego póla zapódaś, aby druge gronidła změnił, kótarež sćo składł w { -brand-firefox }.
 cs-sign-out-button = Wótzjawiś
-
-##
-
 
 ## Data collection section
 
@@ -749,9 +743,6 @@ avatar-page-file-upload-error-3 = Pśi nagrawanju wašogo profilowego wobraza jo
 avatar-page-delete-error-3 = Pśi lašowanju wašogo profilowego wobraza jo problem nastał
 avatar-page-image-too-large-error-2 = Wobrazowa dataja jo pśewjelika za nagraśe
 
-##
-
-
 ## Password change page
 
 pw-change-header =
@@ -773,18 +764,12 @@ pw-change-confirm-password =
     .label = Nowe gronidło wobkšuśiś
 pw-change-success-alert-2 = Gronidło jo se zaktualizěrowało
 
-##
-
-
 ## Password create page
 
 pw-create-header =
     .title = Gronidło napóraś
 pw-create-success-alert-2 = Gronidło jo se nastajiło
 pw-create-error-2 = Bóžko jo nastał problem pśi stajanju wašogo gronidła
-
-##
-
 
 ## Delete account page
 
@@ -819,9 +804,6 @@ pocket-delete-notice-marketing = Aby pśestał marketingowe mejlki wót pśedewz
 delete-account-cancel-button = Pśetergnuś
 delete-account-delete-button-2 = Lašowaś
 
-##
-
-
 ## Display name page
 
 display-name-page-title =
@@ -832,9 +814,6 @@ submit-display-name = Składowaś
 cancel-display-name = Pśetergnuś
 display-name-update-error-2 = Pśi aktualizěrowanju wašogo zwobraznjeńskego mjenja jo problem nastał
 display-name-success-alert-2 = Zwobraznjeńske mě zaktualizěrowane
-
-##
-
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
@@ -982,9 +961,6 @@ tfa-enter-code-to-confirm-setup = Zapódajśo kod, aby wobkšuśił, až sćo sk
 tfa-enter-recovery-code-1 =
     .label = Zapódajśo kod za zawěsćeńsku awtentifikaciju
 
-##
-
-
 ## Product promotion
 
 product-promo-monitor =
@@ -1005,9 +981,6 @@ profile-display-name =
     .header = Zwobraznjeńske mě
 profile-primary-email =
     .header = Primarna e-mailowa adresa
-
-##
-
 
 ## Progress bar
 
@@ -1070,8 +1043,6 @@ tfa-row-backup-phone-delete-button = Wótwónoźeś
 # Shown in tooltip on delete button or delete icon
 tfa-row-backup-phone-delete-title-v2 = Wótnowjeński telefon wótwónoźeś
 tfa-row-backup-phone-delete-restriction-v2 = Jolic cośo swój wótnowjeński telefon wótwónoźeś, pśidajśo zawěsćeńske awtentifikaciske kody abo znjemóžniśo nejpjerwjej dwójokšacowu awtentifikaciju, aby se wobinuł, až se ze swójogo konta wuzamkujośo.
-# "this" refers to recovery phone
-tfa-row-backup-phone-description = To jo lažčejša wótnowjeńska metoda, jolic njamóžośo swójo awtentifikaciske nałoženje wužywaś.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
@@ -1153,9 +1124,6 @@ se-content-note-1 =
     <a>kontowy wótnowjeński kluc</a> za to.
 # Default value for the secondary email
 se-secondary-email-none = Žedna
-
-##
-
 
 ## Two Step Auth sub-section on Settings main page
 

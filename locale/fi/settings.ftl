@@ -487,9 +487,6 @@ connect-another-play-store-image =
 connect-another-app-store-image-2 =
     .title = Lataa { -brand-firefox } { -app-store }sta
 
-##
-
-
 ## Connected services section
 
 cs-heading = Yhdistetyt palvelut
@@ -538,9 +535,6 @@ cs-disconnect-lost-advice-content-3 = Koska laitteesi katosi tai varastettiin, s
 cs-disconnect-suspicious-advice-heading = Yhteys epäilyttävään laitteeseen on katkaistu
 cs-disconnect-suspicious-advice-content-2 = Jos irrotettu laite todellakin on epäilyttävä, sinun tulisi vaihtaa { -product-mozilla-account }n salasana tilin asetuksissa. Sinun kannattaa vaihtaa myös muut salasanat, jotka olet tallentanut { -brand-firefox }iin kirjoittamalla osoitepalkkiin about:logins.
 cs-sign-out-button = Kirjaudu ulos
-
-##
-
 
 ## Data collection section
 
@@ -719,9 +713,6 @@ avatar-page-file-upload-error-3 = Profiilikuvan lähettämisessä tapahtui virhe
 avatar-page-delete-error-3 = Profiilikuvan poistamisessa tapahtui virhe
 avatar-page-image-too-large-error-2 = Kuvatiedoston koko on liian suuri lähetettäväksi
 
-##
-
-
 ## Password change page
 
 pw-change-header =
@@ -743,18 +734,12 @@ pw-change-confirm-password =
     .label = Vahvista uusi salasana
 pw-change-success-alert-2 = Salasana päivitetty
 
-##
-
-
 ## Password create page
 
 pw-create-header =
     .title = Luo salasana
 pw-create-success-alert-2 = Salasana asetettu
 pw-create-error-2 = Valitettavasti salasanaa asettaessa ilmeni ongelma
-
-##
-
 
 ## Delete account page
 
@@ -788,9 +773,6 @@ pocket-delete-notice = Jos tilaat tai olet tilannut Pocket Premiumin, varmista, 
 delete-account-cancel-button = Peruuta
 delete-account-delete-button-2 = Poista
 
-##
-
-
 ## Display name page
 
 display-name-page-title =
@@ -801,9 +783,6 @@ submit-display-name = Tallenna
 cancel-display-name = Peruuta
 display-name-update-error-2 = Näyttönimeäsi päivitettäessä tapahtui virhe
 display-name-success-alert-2 = Näyttönimi päivitetty
-
-##
-
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
@@ -936,9 +915,6 @@ tfa-save-these-codes-1 =
 tfa-enter-recovery-code-1 =
     .label = Anna varatodennuskoodi
 
-##
-
-
 ## Product promotion
 
 product-promo-monitor =
@@ -959,9 +935,6 @@ profile-display-name =
     .header = Näyttönimi
 profile-primary-email =
     .header = Ensisijainen sähköposti
-
-##
-
 
 ## Progress bar
 
@@ -1088,9 +1061,6 @@ se-content-note-1 =
     <a>tilin palautusavaimen</a> sitä varten.
 # Default value for the secondary email
 se-secondary-email-none = Ei mitään
-
-##
-
 
 ## Two Step Auth sub-section on Settings main page
 

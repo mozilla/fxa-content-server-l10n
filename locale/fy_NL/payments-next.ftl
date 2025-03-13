@@ -1,15 +1,3 @@
-## Checkout Page
-## Common strings used in multiple checkout pages
-
-next-payment-processing-message = In momint wylst wy jo betelling ferwurkje…
-next-payment-error-manage-subscription-button = Myn abonnemint beheare
-next-iap-upgrade-contact-support = Jo kinne dit produkt noch hieltyd krije – nim kontakt op mei de stipeôfdieling, sadat wy jo helpe kinne.
-next-payment-error-retry-button = Opnij probearje
-next-basic-error-message = Der is wat misgien. Probearje it letter opnij.
-checkout-error-contact-support-button = Kontakt opnimme
-checkout-error-not-eligible = Jo komme net yn oanmerking foar in abonnemint op dit produkt – nim kontakt op mei de stipeôfdieling, sadat wy jo helpe kinne.
-checkout-error-contact-support = Nim kontakt op mei stipeôfdieling, sadat wy jo helpe kinne.
-
 ## Page
 
 checkout-signin-or-create = 1. Meld jo oan of meitsje in { -product-mozilla-account } oan
@@ -20,6 +8,31 @@ next-payment-method-header = Kies jo betellingsmetoade
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = Jo moatte earst jo abonnemint goedkarre
+
+## Page - Upgrade page
+
+checkout-error-boundary-retry-button = Opnij probearje
+checkout-error-boundary-basic-error-message = Der gie wat mis. Probearje it opnij of <contactSupportLink>nim kontakt op mei de stipeôfdieling.</contactSupportLink>
+
+## Error pages - /checkout and /upgrade
+## Common strings used in multiple pages
+
+next-payment-error-manage-subscription-button = Myn abonnemint beheare
+next-iap-upgrade-contact-support = Jo kinne dit produkt noch hieltyd krije – nim kontakt op mei de stipeôfdieling, sadat wy jo helpe kinne.
+next-payment-error-retry-button = Opnij probearje
+next-basic-error-message = Der is wat misgien. Probearje it letter opnij.
+checkout-error-contact-support-button = Kontakt opnimme
+checkout-error-not-eligible = Jo komme net yn oanmerking foar in abonnemint op dit produkt – nim kontakt op mei de stipeôfdieling, sadat wy jo helpe kinne.
+checkout-error-contact-support = Nim kontakt op mei stipeôfdieling, sadat wy jo helpe kinne.
+
+## Processing page and Needs Input page - /checkout and /upgrade
+## Common strings used in multiple pages
+
+next-payment-processing-message = In momint wylst wy jo betelling ferwurkje…
+
+## Success page - /checkout and /upgrade
+## Common strings used in multiple checkout pages
+
 next-payment-confirmation-thanks-heading-account-exists = Tige tank, kontrolearje no jo e-mail!
 # $email (String) - The user's email.
 payment-confirmation-thanks-subheading-account-exists-2 = Jo ûntfange in e-mailberjocht op { $email } mei ynstruksjes oer jo abonnemint en jo betellingsgegevens.
@@ -29,14 +42,17 @@ next-payment-confirmation-invoice-number = Faktuernr. { $invoiceNumber }
 # $invoiceDate (Date) - Start date of the latest invoice
 next-payment-confirmation-invoice-date = { $invoiceDate }
 next-payment-confirmation-details-heading-2 = Betellingsgegevens
-# $amount (Number) - The amount billed. It will be formatted as currency.
-# $interval (String) - The interval between payments.
-next-payment-confirmation-amount = { $amount } per { $interval }
+
+## Success pages (/checkout and /upgrade)
+## Common strings used in multiple checkout pages
+
+next-payment-confirmation-download-button = Trochgean mei download
+
+## Success pages (/checkout and /upgrade), Start page (/upgrade)
+## Common strings used in multiple checkout pages
+
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Creditcard einigjend op { $last4 }
-next-payment-confirmation-download-button = Trochgean mei download
-checkout-error-boundary-retry-button = Opnij probearje
-checkout-error-boundary-basic-error-message = Der gie wat mis. Probearje it opnij of <contactSupportLink>nim kontakt op mei de stipeôfdieling.</contactSupportLink>
 
 ## Component - Payment Consent Checkbox
 
@@ -117,7 +133,6 @@ next-new-user-subscribe-product-assurance = Wy brûke jo e-mailadres allinnich o
 plan-price-interval-daily = { $amount } deis
 plan-price-interval-weekly = { $amount } wyks
 plan-price-interval-monthly = { $amount } yn ’e moanne
-plan-price-interval-6monthly = { $amount } yn 6 moannen
 plan-price-interval-yearly = { $amount } it jier
 
 ## Component - SubscriptionTitle

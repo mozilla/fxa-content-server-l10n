@@ -501,9 +501,6 @@ connect-another-play-store-image =
 connect-another-app-store-image-2 =
     .title = Sćehńće { -brand-firefox } wot { -app-store }
 
-##
-
-
 ## Connected services section
 
 cs-heading = Zwjazane słužby
@@ -552,9 +549,6 @@ cs-disconnect-lost-advice-content-3 = Dokelž waš grat je so zhubił abo kradny
 cs-disconnect-suspicious-advice-heading = Podhladny grat je so dźělił
 cs-disconnect-suspicious-advice-content-2 = Jeli wotdźěleny grat je woprawdźe podhladny, wy dyrbjał hesło swojeho { -product-mozilla-account(case: "gen", capitalization: "lower") } w swojich nastajenjach změnić, zo byšće swoje informacije wěste dźeržał. Wy dyrbjał tež about:logins do adresoweho pola zapodać, zo byšće druhe hesła změnił, kotrež sće w { -brand-firefox } składował.
 cs-sign-out-button = Wotzjewić
-
-##
-
 
 ## Data collection section
 
@@ -749,9 +743,6 @@ avatar-page-file-upload-error-3 = Při nahrawanju wašeho profiloweho wobraza je
 avatar-page-delete-error-3 = Při hašenju wašeho profiloweho wobraza je problem nastał
 avatar-page-image-too-large-error-2 = Wobrazowa dataja je přewulka za nahraće
 
-##
-
-
 ## Password change page
 
 pw-change-header =
@@ -773,18 +764,12 @@ pw-change-confirm-password =
     .label = Nowe hesło wobkrućić
 pw-change-success-alert-2 = Hesło je so zaktualizowało
 
-##
-
-
 ## Password create page
 
 pw-create-header =
     .title = Hesło wutworić
 pw-create-success-alert-2 = Hesło je so nastajiło
 pw-create-error-2 = Bohužel je při stajenju wašeho hesła problem nastał
-
-##
-
 
 ## Delete account page
 
@@ -819,9 +804,6 @@ pocket-delete-notice-marketing = Zo byšće přestał marketingowe mejlki wot p�
 delete-account-cancel-button = Přetorhnyć
 delete-account-delete-button-2 = Zhašeć
 
-##
-
-
 ## Display name page
 
 display-name-page-title =
@@ -832,9 +814,6 @@ submit-display-name = Składować
 cancel-display-name = Přetorhnyć
 display-name-update-error-2 = Při aktualizowanju wašeho zwobraznjenskeho mjena je problem nastał
 display-name-success-alert-2 = Zwobraznjenske mjeno zaktualizowane
-
-##
-
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
@@ -984,9 +963,6 @@ tfa-enter-code-to-confirm-setup = Zapodajće kod, zo byšće wobkrućił, zo sć
 tfa-enter-recovery-code-1 =
     .label = Zapodajće kod za zawěsćensku awtentifikaciju
 
-##
-
-
 ## Product promotion
 
 product-promo-monitor =
@@ -1007,9 +983,6 @@ profile-display-name =
     .header = Zwobraznjenske mjeno
 profile-primary-email =
     .header = Primarna e-mejlowa adresa
-
-##
-
 
 ## Progress bar
 
@@ -1072,8 +1045,6 @@ tfa-row-backup-phone-delete-button = Wotstronić
 # Shown in tooltip on delete button or delete icon
 tfa-row-backup-phone-delete-title-v2 = Wobnowjenski telefon wotstronić
 tfa-row-backup-phone-delete-restriction-v2 = Jeli chceće swój wobnowjenski telefon wotstronić, přidajće zawěsćenske awtentifikaciske kody abo znjemóžńće najprjedy dwukročelowu awtentifikaciju, zo byšće wobešoł, zo so ze swojeho konta wuzamknjeće.
-# "this" refers to recovery phone
-tfa-row-backup-phone-description = To je lóša wobnowjenska metoda, jeli njemóžeće swoje awtentifikaciske nałoženje wužiwać.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
@@ -1155,9 +1126,6 @@ se-content-note-1 =
     <a>kontowy wobnowjenski kluč</a> za to.
 # Default value for the secondary email
 se-secondary-email-none = Žana
-
-##
-
 
 ## Two Step Auth sub-section on Settings main page
 

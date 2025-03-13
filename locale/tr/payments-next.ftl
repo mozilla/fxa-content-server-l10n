@@ -1,15 +1,3 @@
-## Checkout Page
-## Common strings used in multiple checkout pages
-
-next-payment-processing-message = Ödemeniz işleme alınıyor. Lütfen bekleyin…
-next-payment-error-manage-subscription-button = Aboneliğimi yönet
-next-iap-upgrade-contact-support = Bu ürünü yine de alabilirsiniz. Size yardımcı olabilmemiz için lütfen destek ile iletişime geçin.
-next-payment-error-retry-button = Tekrar dene
-next-basic-error-message = Bir şeyler yanlış gitti. Lütfen daha sonra tekrar deneyin.
-checkout-error-contact-support-button = Destek birimiyle iletişime geçin
-checkout-error-not-eligible = Bu ürüne abone olamazsınız. Size yardımcı olabilmemiz için lütfen destek ekibiyle iletişime geçin.
-checkout-error-contact-support = Size yardımcı olabilmemiz için lütfen destek ekibiyle iletişime geçin.
-
 ## Page
 
 checkout-signin-or-create = 1. { -product-mozilla-account }na giriş yapın veya hesap açın
@@ -20,6 +8,31 @@ next-payment-method-header = Ödeme yönteminizi seçin
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = Öncelikle aboneliğinizi onaylamanız gerekiyor
+
+## Page - Upgrade page
+
+checkout-error-boundary-retry-button = Yeniden dene
+checkout-error-boundary-basic-error-message = Bir sorun oluştu. Lütfen yeniden deneyin veya <contactSupportLink>destek ekibiyle iletişime geçin.</contactSupportLink>
+
+## Error pages - /checkout and /upgrade
+## Common strings used in multiple pages
+
+next-payment-error-manage-subscription-button = Aboneliğimi yönet
+next-iap-upgrade-contact-support = Bu ürünü yine de alabilirsiniz. Size yardımcı olabilmemiz için lütfen destek ile iletişime geçin.
+next-payment-error-retry-button = Tekrar dene
+next-basic-error-message = Bir şeyler yanlış gitti. Lütfen daha sonra tekrar deneyin.
+checkout-error-contact-support-button = Destek birimiyle iletişime geçin
+checkout-error-not-eligible = Bu ürüne abone olamazsınız. Size yardımcı olabilmemiz için lütfen destek ekibiyle iletişime geçin.
+checkout-error-contact-support = Size yardımcı olabilmemiz için lütfen destek ekibiyle iletişime geçin.
+
+## Processing page and Needs Input page - /checkout and /upgrade
+## Common strings used in multiple pages
+
+next-payment-processing-message = Ödemeniz işleme alınıyor. Lütfen bekleyin…
+
+## Success page - /checkout and /upgrade
+## Common strings used in multiple checkout pages
+
 next-payment-confirmation-thanks-heading-account-exists = Teşekkürler, şimdi e-postanızı kontrol edin!
 # $email (String) - The user's email.
 payment-confirmation-thanks-subheading-account-exists-2 = { $email } adresine, aboneliğinizle ilgili talimatların yanı sıra ödeme ayrıntılarınızı içeren bir e-posta göndereceğiz.
@@ -29,14 +42,17 @@ next-payment-confirmation-invoice-number = Fatura #{ $invoiceNumber }
 # $invoiceDate (Date) - Start date of the latest invoice
 next-payment-confirmation-invoice-date = { $invoiceDate }
 next-payment-confirmation-details-heading-2 = Ödeme bilgileri
-# $amount (Number) - The amount billed. It will be formatted as currency.
-# $interval (String) - The interval between payments.
-next-payment-confirmation-amount = { $interval } { $amount }
+
+## Success pages (/checkout and /upgrade)
+## Common strings used in multiple checkout pages
+
+next-payment-confirmation-download-button = İndirmeye devam et
+
+## Success pages (/checkout and /upgrade), Start page (/upgrade)
+## Common strings used in multiple checkout pages
+
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = { $last4 } ile biten kart
-next-payment-confirmation-download-button = İndirmeye devam et
-checkout-error-boundary-retry-button = Yeniden dene
-checkout-error-boundary-basic-error-message = Bir sorun oluştu. Lütfen yeniden deneyin veya <contactSupportLink>destek ekibiyle iletişime geçin.</contactSupportLink>
 
 ## Component - Payment Consent Checkbox
 
@@ -117,7 +133,6 @@ next-new-user-subscribe-product-assurance = E-postanızı yalnızca hesabınız�
 plan-price-interval-daily = Günlük { $amount }
 plan-price-interval-weekly = Haftalık { $amount }
 plan-price-interval-monthly = Aylık { $amount }
-plan-price-interval-6monthly = 6 ayda bir { $amount }
 plan-price-interval-yearly = Yıllık { $amount }
 
 ## Component - SubscriptionTitle

@@ -1,15 +1,3 @@
-## Checkout Page
-## Common strings used in multiple checkout pages
-
-next-payment-processing-message = 请稍候，我们正在处理您的付款…
-next-payment-error-manage-subscription-button = 管理我的订阅
-next-iap-upgrade-contact-support = 您仍可获得此产品，请联系用户支持为您提供帮助。
-next-payment-error-retry-button = 请重试
-next-basic-error-message = 出了点问题，请稍后再试。
-checkout-error-contact-support-button = 联系支持
-checkout-error-not-eligible = 您未满足订阅此产品所需的条件，请联系支持以获取帮助。
-checkout-error-contact-support = 请联系支持以获取帮助。
-
 ## Page
 
 checkout-signin-or-create = 1. 登录或创建 { -product-mozilla-account }
@@ -20,6 +8,31 @@ next-payment-method-header = 选择付款方式
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = 请先核准您的订阅
+
+## Page - Upgrade page
+
+checkout-error-boundary-retry-button = 重试
+checkout-error-boundary-basic-error-message = 出了点问题。请重试或<contactSupportLink>联系用户支持</contactSupportLink>。
+
+## Error pages - /checkout and /upgrade
+## Common strings used in multiple pages
+
+next-payment-error-manage-subscription-button = 管理我的订阅
+next-iap-upgrade-contact-support = 您仍可获得此产品，请联系用户支持为您提供帮助。
+next-payment-error-retry-button = 请重试
+next-basic-error-message = 出了点问题，请稍后再试。
+checkout-error-contact-support-button = 联系支持
+checkout-error-not-eligible = 您未满足订阅此产品所需的条件，请联系支持以获取帮助。
+checkout-error-contact-support = 请联系支持以获取帮助。
+
+## Processing page and Needs Input page - /checkout and /upgrade
+## Common strings used in multiple pages
+
+next-payment-processing-message = 请稍候，我们正在处理您的付款…
+
+## Success page - /checkout and /upgrade
+## Common strings used in multiple checkout pages
+
 next-payment-confirmation-thanks-heading-account-exists = 感谢，请注意查收邮件！
 # $email (String) - The user's email.
 payment-confirmation-thanks-subheading-account-exists-2 = 您将会在 { $email } 收到一封邮件，其中包含订阅说明以及付款信息。
@@ -29,14 +42,17 @@ next-payment-confirmation-invoice-number = 发票号码 #{ $invoiceNumber }
 # $invoiceDate (Date) - Start date of the latest invoice
 next-payment-confirmation-invoice-date = { $invoiceDate }
 next-payment-confirmation-details-heading-2 = 付款信息
-# $amount (Number) - The amount billed. It will be formatted as currency.
-# $interval (String) - The interval between payments.
-next-payment-confirmation-amount = 每 { $interval } { $amount }
+
+## Success pages (/checkout and /upgrade)
+## Common strings used in multiple checkout pages
+
+next-payment-confirmation-download-button = 前往下载
+
+## Success pages (/checkout and /upgrade), Start page (/upgrade)
+## Common strings used in multiple checkout pages
+
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = 卡号末四位：{ $last4 }
-next-payment-confirmation-download-button = 前往下载
-checkout-error-boundary-retry-button = 重试
-checkout-error-boundary-basic-error-message = 出了点问题。请重试或<contactSupportLink>联系用户支持</contactSupportLink>。
 
 ## Component - Payment Consent Checkbox
 
@@ -117,7 +133,6 @@ next-new-user-subscribe-product-assurance = 我们只会使用您的邮箱地址
 plan-price-interval-daily = { $amount }/天
 plan-price-interval-weekly = { $amount }/周
 plan-price-interval-monthly = { $amount }/月
-plan-price-interval-6monthly = { $amount }/6个月
 plan-price-interval-yearly = { $amount }/年
 
 ## Component - SubscriptionTitle

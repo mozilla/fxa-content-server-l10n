@@ -1,15 +1,3 @@
-## Checkout Page
-## Common strings used in multiple checkout pages
-
-next-payment-processing-message = Arhoswch tra'n bod ni'n prosesu'ch taliad…
-next-payment-error-manage-subscription-button = Rheoli fy nhanysgrifiad
-next-iap-upgrade-contact-support = Gallwch gael y cynnyrch hwn o hyd - cysylltwch â chymorth fel y gallwn ni eich helpu.
-next-payment-error-retry-button = Ceisiwch eto
-next-basic-error-message = Aeth rhywbeth o'i le. Ceisiwch eto.
-checkout-error-contact-support-button = Cysylltu â Chefnogaeth
-checkout-error-not-eligible = Nid ydych yn gymwys i danysgrifio i'r cynnyrch hwn - cysylltwch â'r tîm cymorth fel y gallwn eich helpu.
-checkout-error-contact-support = Cysylltwch â'r tîm cymorth fel y gallwn eich helpu.
-
 ## Page
 
 checkout-signin-or-create = 1. Mewngofnodwch neu greu { -product-mozilla-account }
@@ -20,6 +8,31 @@ next-payment-method-header = Dewiswch eich dull talu
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = Yn gyntaf bydd angen i chi gymeradwyo'ch tanysgrifiad
+
+## Page - Upgrade page
+
+checkout-error-boundary-retry-button = Ceisiwch eto
+checkout-error-boundary-basic-error-message = Aeth rhywbeth o'i le. Ceisiwch eto neu <contactSupportLink>cysylltwch â'n cymorth.</contactSupportLink>
+
+## Error pages - /checkout and /upgrade
+## Common strings used in multiple pages
+
+next-payment-error-manage-subscription-button = Rheoli fy nhanysgrifiad
+next-iap-upgrade-contact-support = Gallwch gael y cynnyrch hwn o hyd - cysylltwch â chymorth fel y gallwn ni eich helpu.
+next-payment-error-retry-button = Ceisiwch eto
+next-basic-error-message = Aeth rhywbeth o'i le. Ceisiwch eto.
+checkout-error-contact-support-button = Cysylltu â Chefnogaeth
+checkout-error-not-eligible = Nid ydych yn gymwys i danysgrifio i'r cynnyrch hwn - cysylltwch â'r tîm cymorth fel y gallwn eich helpu.
+checkout-error-contact-support = Cysylltwch â'r tîm cymorth fel y gallwn eich helpu.
+
+## Processing page and Needs Input page - /checkout and /upgrade
+## Common strings used in multiple pages
+
+next-payment-processing-message = Arhoswch tra'n bod ni'n prosesu'ch taliad…
+
+## Success page - /checkout and /upgrade
+## Common strings used in multiple checkout pages
+
 next-payment-confirmation-thanks-heading-account-exists = Diolch, nawr edrychwch ar eich e-bost!
 # $email (String) - The user's email.
 payment-confirmation-thanks-subheading-account-exists-2 = Byddwch yn derbyn e-bost i { $email } gyda chyfarwyddiadau am eich tanysgrifiad, yn ogystal â'ch manylion talu.
@@ -29,14 +42,17 @@ next-payment-confirmation-invoice-number = Anfoneb # { $invoiceNumber }
 # $invoiceDate (Date) - Start date of the latest invoice
 next-payment-confirmation-invoice-date = { $invoiceDate }
 next-payment-confirmation-details-heading-2 = Manylion talu
-# $amount (Number) - The amount billed. It will be formatted as currency.
-# $interval (String) - The interval between payments.
-next-payment-confirmation-amount = { $amount } fesul { $interval }
+
+## Success pages (/checkout and /upgrade)
+## Common strings used in multiple checkout pages
+
+next-payment-confirmation-download-button = Parhau i lwytho i lawr
+
+## Success pages (/checkout and /upgrade), Start page (/upgrade)
+## Common strings used in multiple checkout pages
+
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Cerdyn yn gorffen gyda { $last4 }
-next-payment-confirmation-download-button = Parhau i lwytho i lawr
-checkout-error-boundary-retry-button = Ceisiwch eto
-checkout-error-boundary-basic-error-message = Aeth rhywbeth o'i le. Ceisiwch eto neu <contactSupportLink>cysylltwch â'n cymorth.</contactSupportLink>
 
 ## Component - Payment Consent Checkbox
 
@@ -117,7 +133,6 @@ next-new-user-subscribe-product-assurance = Dim ond i greu eich cyfrif rydym yn 
 plan-price-interval-daily = { $amount } yn dyddiol
 plan-price-interval-weekly = { $amount } yn wythnosol
 plan-price-interval-monthly = { $amount } yn fisol
-plan-price-interval-6monthly = { $amount } bob 6 mis
 plan-price-interval-yearly = { $amount } y flwyddyn
 
 ## Component - SubscriptionTitle

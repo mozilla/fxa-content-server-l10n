@@ -485,9 +485,6 @@ connect-another-play-store-image =
 connect-another-app-store-image-2 =
     .title = הורדת { -brand-firefox } מ־{ -app-store }
 
-##
-
-
 ## Connected services section
 
 cs-heading = שירותים מחוברים
@@ -532,9 +529,6 @@ cs-disconnect-lost-advice-content-3 = מכיוון שהמכשיר שלך אבד 
 cs-disconnect-suspicious-advice-heading = מכשיר חשוד נותק
 cs-disconnect-suspicious-advice-content-2 = אם המכשיר המנותק אכן חשוד, כדי לשמור על בטיחות המידע שלך, עליך לשנות את ססמת { -product-mozilla-account(case: "the") } שלך בהגדרות החשבון שלך. יש גם לשנות את כל שאר הססמאות ששמרת ב־{ -brand-firefox } על־ידי הקלדת about:logins בשורת הכתובת.
 cs-sign-out-button = התנתקות
-
-##
-
 
 ## Data collection section
 
@@ -715,9 +709,6 @@ avatar-page-file-upload-error-3 = הייתה בעיה בהעלאת תמונת ה
 avatar-page-delete-error-3 = הייתה בעיה במחיקת תמונת הפרופיל שלך
 avatar-page-image-too-large-error-2 = גודל קובץ התמונה גדול מדי להעלאה
 
-##
-
-
 ## Password change page
 
 pw-change-header =
@@ -739,18 +730,12 @@ pw-change-confirm-password =
     .label = נא לאמת את הססמה החדשה
 pw-change-success-alert-2 = הססמה עודכנה
 
-##
-
-
 ## Password create page
 
 pw-create-header =
     .title = יצירת ססמה
 pw-create-success-alert-2 = הססמה הוגדרה
 pw-create-error-2 = הייתה בעיה בהגדרת הססמה שלך, עמך הסליחה
-
-##
-
 
 ## Delete account page
 
@@ -785,9 +770,6 @@ pocket-delete-notice-marketing = כדי להפסיק לקבל דוא״ל שיו�
 delete-account-cancel-button = ביטול
 delete-account-delete-button-2 = מחיקה
 
-##
-
-
 ## Display name page
 
 display-name-page-title =
@@ -798,9 +780,6 @@ submit-display-name = שמירה
 cancel-display-name = ביטול
 display-name-update-error-2 = הייתה בעיה בעדכון שם התצוגה שלך
 display-name-success-alert-2 = שם התצוגה עודכן
-
-##
-
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
@@ -934,9 +913,6 @@ tfa-input-enter-totp-v2 =
 # codes here refers to backup authentication codes
 tfa-enter-code-to-confirm-setup = נא לאשר ששמרת את הקודים שלך על־ידי הזנת אחד מהם. ללא קודים אלה, ייתכן שלא יהיה באפשרותך להתחבר אם אין לך את היישומון המאמת שלך.
 
-##
-
-
 ## Product promotion
 
 product-promo-monitor =
@@ -957,9 +933,6 @@ profile-display-name =
     .header = שם תצוגה
 profile-primary-email =
     .header = כתובת דוא״ל ראשית
-
-##
-
 
 ## Progress bar
 
@@ -1017,8 +990,6 @@ tfa-row-backup-phone-add-cta = הוספה
 tfa-row-backup-phone-delete-button = הסרה
 # Shown in tooltip on delete button or delete icon
 tfa-row-backup-phone-delete-title-v2 = הסרת טלפון לשחזור
-# "this" refers to recovery phone
-tfa-row-backup-phone-description = זוהי שיטת השחזור הקלה ביותר אם אין באפשרותך להשתמש ביישומון המאמת שלך.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
@@ -1094,9 +1065,6 @@ se-default-content = קבלת גישה לחשבון שלך אם אין באפש�
 se-content-note-1 = הערה: דוא"ל משני לא ישחזר את המידע שלך — יש צורך <a>במפתח שחזור חשבון</a> לשם כך.
 # Default value for the secondary email
 se-secondary-email-none = ללא
-
-##
-
 
 ## Two Step Auth sub-section on Settings main page
 

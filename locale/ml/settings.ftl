@@ -382,9 +382,6 @@ bento-menu-firefox-relay-2 = { -product-firefox-relay }
 ## Connect another device promo
 
 
-##
-
-
 ## Connected services section
 
 
@@ -402,9 +399,6 @@ bento-menu-firefox-relay-2 = { -product-firefox-relay }
 ##
 
 cs-sign-out-button = പുറത്തുകടക്കുക
-
-##
-
 
 ## Data collection section
 
@@ -525,9 +519,6 @@ avatar-page-camera-error = ക്യാമറ ആരംഭിക്കാനാ�
 avatar-page-new-avatar =
     .alt = പുതിയ രൂപരേഖച്ചിത്രം
 
-##
-
-
 ## Password change page
 
 pw-change-header =
@@ -545,17 +536,11 @@ pw-change-confirm-password =
     .label = പുതിയ രഹസ്യവാക്കു് ഉറപ്പിക്കുക
 pw-change-success-alert-2 = രഹസ്യവാക്കു് പുതുച്ചു
 
-##
-
-
 ## Password create page
 
 pw-create-header =
     .title = രഹസ്യവാക്കു് ഉണ്ടാക്കുക
 pw-create-success-alert-2 = രഹസ്യവാക്കു് സജ്ജം
-
-##
-
 
 ## Delete account page
 
@@ -578,9 +563,6 @@ delete-account-password-input =
 delete-account-cancel-button = റദ്ദാക്കുക
 delete-account-delete-button-2 = മായ്ക്കുക
 
-##
-
-
 ## Display name page
 
 display-name-page-title =
@@ -591,9 +573,6 @@ submit-display-name = കരുതിവയ്ക്കുക
 cancel-display-name = റദ്ദാക്കുക
 display-name-update-error-2 = പ്രദൎശനപ്പേരു് പുതുക്കുന്നതിലൊരു കുഴപ്പമുണ്ടായി
 display-name-success-alert-2 = പ്രദർശനപ്പേരു് പുതുക്കി
-
-##
-
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
@@ -656,9 +635,6 @@ tfa-qa-code =
     .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = സങ്കേതം പരിശോധിക്കാൻ കഴിയുന്നില്ലേ?
 
-##
-
-
 ## Product promotion
 
 # Links out to the Monitor pricing site
@@ -673,9 +649,6 @@ profile-display-name =
     .header = പ്രദര്‍ശനപ്പേരു്
 profile-primary-email =
     .header = പ്രാഥമിക ഇതപാൽ
-
-##
-
 
 ## Progress bar
 
@@ -732,9 +705,6 @@ rk-action-remove = മായ്ക്കുക
 rk-key-removed-2 = അക്കൗണ്ടു് വീണ്ടെടുപ്പുക്കട്ടയെ മായച്ചു
 
 ## Secondary email sub-section on main Settings page
-
-
-##
 
 
 ## Two Step Auth sub-section on Settings main page

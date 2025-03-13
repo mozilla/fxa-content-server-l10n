@@ -145,9 +145,6 @@ bento-menu-made-by-mozilla = Creat per { -brand-mozilla }
 
 connect-another-fx-mobile = Obteniu el { -brand-firefox } per a mòbils o tauletes
 
-##
-
-
 ## Connected services section
 
 cs-heading = Serveis connectats
@@ -188,9 +185,6 @@ cs-disconnect-advice-confirm = Entesos
 cs-disconnect-lost-advice-heading = S'ha desconnectat el dispositiu perdut o robat
 cs-disconnect-suspicious-advice-heading = S'ha desconnectat el dispositiu sospitós
 cs-sign-out-button = Tanca la sessió
-
-##
-
 
 ## Data collection section
 
@@ -297,9 +291,6 @@ avatar-page-file-upload-error-3 = S'ha produït un problema en pujar la vostra f
 avatar-page-delete-error-3 = S'ha produït un problema en suprimir la vostra foto de perfil
 avatar-page-image-too-large-error-2 = La mida de la imatge és massa gran per pujar-la
 
-##
-
-
 ## Password change page
 
 pw-change-header =
@@ -321,18 +312,12 @@ pw-change-confirm-password =
     .label = Confirmeu la contrasenya nova
 pw-change-success-alert-2 = S'ha actualitzat la contrasenya
 
-##
-
-
 ## Password create page
 
 pw-create-header =
     .title = Creeu una contrasenya
 pw-create-success-alert-2 = S'ha definit la contrasenya
 pw-create-error-2 = S'ha produït un problema en definir la contrasenya
-
-##
-
 
 ## Delete account page
 
@@ -353,9 +338,6 @@ delete-account-password-input =
 delete-account-cancel-button = Cancel·la
 delete-account-delete-button-2 = Suprimeix
 
-##
-
-
 ## Display name page
 
 display-name-page-title =
@@ -366,9 +348,6 @@ submit-display-name = Desa
 cancel-display-name = Cancel·la
 display-name-update-error-2 = S'ha produït un problema en actualitzar el vostre nom a mostrar
 display-name-success-alert-2 = S'ha actualitzat el nom a mostrar
-
-##
-
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
@@ -431,9 +410,6 @@ tfa-button-cant-scan-qr = No podeu escanejar el codi?
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Introduïu aquesta clau secreta a la vostra aplicació d'autenticació:
 
-##
-
-
 ## Product promotion
 
 
@@ -446,9 +422,6 @@ profile-display-name =
     .header = Nom a mostrar
 profile-primary-email =
     .header = Adreça electrònica principal
-
-##
-
 
 ## Progress bar
 
@@ -495,9 +468,6 @@ se-refresh-email =
 # Button to make secondary email the primary
 se-make-primary = Converteix en principal
 se-default-content = Accediu al compte si no podeu iniciar la sessió amb l'adreça electrònica principal.
-
-##
-
 
 ## Two Step Auth sub-section on Settings main page
 

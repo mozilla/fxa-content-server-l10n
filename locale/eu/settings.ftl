@@ -501,9 +501,6 @@ connect-another-play-store-image =
 connect-another-app-store-image-2 =
     .title = Deskargatu { -brand-firefox } { -app-store }(e)n
 
-##
-
-
 ## Connected services section
 
 cs-heading = Konektatutako zerbitzuak
@@ -558,9 +555,6 @@ cs-disconnect-suspicious-advice-content-2 =
     kontuaren ezarpenetan. Era berean, { -brand-firefox }(e)n gordetako beste edozein
     pasahitz ere aldatu beharko zenuke, helbide-barran about:logins idatziz.
 cs-sign-out-button = Amaitu saioa
-
-##
-
 
 ## Data collection section
 
@@ -753,9 +747,6 @@ avatar-page-file-upload-error-3 = Arazoa egon da zure profileko irudia igotzean
 avatar-page-delete-error-3 = Arazoa egon da zure profileko irudia ezabatzean
 avatar-page-image-too-large-error-2 = Irudi-fitxategiaren tamaina handiegia da igotzeko
 
-##
-
-
 ## Password change page
 
 pw-change-header =
@@ -777,18 +768,12 @@ pw-change-confirm-password =
     .label = Berretsi pasahitz berria
 pw-change-success-alert-2 = Pasahitza eguneratuta
 
-##
-
-
 ## Password create page
 
 pw-create-header =
     .title = Sortu pasahitza
 pw-create-success-alert-2 = Ezarri pasahitza
 pw-create-error-2 = Barkatu, arazo bat izan da pasahitza ezartzean
-
-##
-
 
 ## Delete account page
 
@@ -823,9 +808,6 @@ pocket-delete-notice-marketing = Mozilla Corporation eta Mozilla Foundationen ma
 delete-account-cancel-button = Utzi
 delete-account-delete-button-2 = Ezabatu
 
-##
-
-
 ## Display name page
 
 display-name-page-title =
@@ -836,9 +818,6 @@ submit-display-name = Gorde
 cancel-display-name = Utzi
 display-name-update-error-2 = Arazoa egon da zure bistaratzeko izena eguneratzean
 display-name-success-alert-2 = Bistaratze-izena eguneratua
-
-##
-
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
@@ -992,9 +971,6 @@ tfa-enter-code-to-confirm-setup = Berretsi kodeak gorde dituzula bat sartuz. Kod
 tfa-enter-recovery-code-1 =
     .label = Sartu babeskopirako autentifikazio-kodea
 
-##
-
-
 ## Product promotion
 
 product-promo-monitor =
@@ -1015,9 +991,6 @@ profile-display-name =
     .header = Bistaratzeko izena
 profile-primary-email =
     .header = Helbide elektroniko nagusia
-
-##
-
 
 ## Progress bar
 
@@ -1078,8 +1051,6 @@ tfa-row-backup-phone-delete-button = Kendu
 # Shown in tooltip on delete button or delete icon
 tfa-row-backup-phone-delete-title-v2 = Kendu berreskuratze telefonoa
 tfa-row-backup-phone-delete-restriction-v2 = Berreskuratzeko telefonoa kendu nahi baduzu, gehitu babeskopiko autentifikazio-kodeak edo desgaitu bi urratseko autentifikazioa lehenik zure kontutik kanpo gelditzea saihesteko.
-# "this" refers to recovery phone
-tfa-row-backup-phone-description = Hau da berreskuratzeko metodorik errazena zure autentifikatzaile aplikazioa erabili ezin baduzu.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
@@ -1161,9 +1132,6 @@ se-content-note-1 =
     <a>kontua berreskuratze-gakoa</a> beharko duzu horretarako.
 # Default value for the secondary email
 se-secondary-email-none = Bat ere ez
-
-##
-
 
 ## Two Step Auth sub-section on Settings main page
 

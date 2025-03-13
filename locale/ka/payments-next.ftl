@@ -1,15 +1,3 @@
-## Checkout Page
-## Common strings used in multiple checkout pages
-
-next-payment-processing-message = გთხოვთ, მოითმინოთ, სანამ თქვენი გადახდა მუშავდება…
-next-payment-error-manage-subscription-button = გამოწერების მართვა
-next-iap-upgrade-contact-support = კვლავ შეგიძლიათ ამ პროდუქტის მიღება — გთხოვთ მიმართოთ მხარდაჭერის გუნდს, რომ შევძლოთ დახმარება.
-next-payment-error-retry-button = ხელახლა ცდა
-next-basic-error-message = რაღაც ხარვეზი წარმოიქმნა. გთხოვთ, სცადოთ მოგვიანებით.
-checkout-error-contact-support-button = დაკავშირება მხარდაჭერისთვის
-checkout-error-not-eligible = თქვენ ვერ აკმაყოფილებთ პირობებს ამ პროდუქტის გამოსაწერად — გთხოვთ მიმართოთ მხარდაჭერის გუნდს, რომ შევძლოთ დახმარება.
-checkout-error-contact-support = გთხოვთ მიმართოთ მხარდაჭერის გუნდს, რომ დაგეხმაროთ.
-
 ## Page
 
 checkout-signin-or-create = 1. შედით ან შექმენით { -product-mozilla-account }
@@ -20,6 +8,31 @@ next-payment-method-header = შეარჩიეთ გადახდის �
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = ჯერ უნდა დაამოწმოთ გამოწერა
+
+## Page - Upgrade page
+
+checkout-error-boundary-retry-button = ხელახლა ცდა
+checkout-error-boundary-basic-error-message = რაღაც ხარვეზი წარმოიშვა. გთხოვთ, სცადოთ ხელახლა ან <contactSupportLink>დაუკავშირდეთ მხარდაჭერის გუნდს.</contactSupportLink>
+
+## Error pages - /checkout and /upgrade
+## Common strings used in multiple pages
+
+next-payment-error-manage-subscription-button = გამოწერების მართვა
+next-iap-upgrade-contact-support = კვლავ შეგიძლიათ ამ პროდუქტის მიღება — გთხოვთ მიმართოთ მხარდაჭერის გუნდს, რომ შევძლოთ დახმარება.
+next-payment-error-retry-button = ხელახლა ცდა
+next-basic-error-message = რაღაც ხარვეზი წარმოიქმნა. გთხოვთ, სცადოთ მოგვიანებით.
+checkout-error-contact-support-button = დაკავშირება მხარდაჭერისთვის
+checkout-error-not-eligible = თქვენ ვერ აკმაყოფილებთ პირობებს ამ პროდუქტის გამოსაწერად — გთხოვთ მიმართოთ მხარდაჭერის გუნდს, რომ შევძლოთ დახმარება.
+checkout-error-contact-support = გთხოვთ მიმართოთ მხარდაჭერის გუნდს, რომ დაგეხმაროთ.
+
+## Processing page and Needs Input page - /checkout and /upgrade
+## Common strings used in multiple pages
+
+next-payment-processing-message = გთხოვთ, მოითმინოთ, სანამ თქვენი გადახდა მუშავდება…
+
+## Success page - /checkout and /upgrade
+## Common strings used in multiple checkout pages
+
 next-payment-confirmation-thanks-heading-account-exists = გმადლობთ, ახლა კი შეამოწმეთ თქვენი ელფოსტა!
 # $email (String) - The user's email.
 payment-confirmation-thanks-subheading-account-exists-2 = თქვენ მიიღებთ წერილს ელფოსტაზე { $email } გამოწერის შესახებ მითითებებით, აგრეთვე გადახდის შესახებ მონაცემებით.
@@ -29,14 +42,17 @@ next-payment-confirmation-invoice-number = ზედნადები #{ $invoi
 # $invoiceDate (Date) - Start date of the latest invoice
 next-payment-confirmation-invoice-date = { $invoiceDate }
 next-payment-confirmation-details-heading-2 = გადახდის მონაცემები
-# $amount (Number) - The amount billed. It will be formatted as currency.
-# $interval (String) - The interval between payments.
-next-payment-confirmation-amount = { $amount } ყოველი { $interval }
+
+## Success pages (/checkout and /upgrade)
+## Common strings used in multiple checkout pages
+
+next-payment-confirmation-download-button = განაგრძეთ ჩამოტვირთვა
+
+## Success pages (/checkout and /upgrade), Start page (/upgrade)
+## Common strings used in multiple checkout pages
+
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = ბარათი დაბოლოებით { $last4 }
-next-payment-confirmation-download-button = განაგრძეთ ჩამოტვირთვა
-checkout-error-boundary-retry-button = ხელახლა ცდა
-checkout-error-boundary-basic-error-message = რაღაც ხარვეზი წარმოიშვა. გთხოვთ, სცადოთ ხელახლა ან <contactSupportLink>დაუკავშირდეთ მხარდაჭერის გუნდს.</contactSupportLink>
 
 ## Component - Payment Consent Checkbox
 
@@ -117,7 +133,6 @@ next-new-user-subscribe-product-assurance = ჩვენ ვიყენებ�
 plan-price-interval-daily = { $amount } დღეში
 plan-price-interval-weekly = { $amount } კვირაში
 plan-price-interval-monthly = { $amount } თვეში
-plan-price-interval-6monthly = { $amount } ყოველ 6 თვეში
 plan-price-interval-yearly = { $amount } წელიწადში
 
 ## Component - SubscriptionTitle

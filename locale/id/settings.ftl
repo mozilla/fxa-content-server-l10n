@@ -145,9 +145,6 @@ bento-menu-made-by-mozilla = Dibuat oleh { -brand-mozilla }
 
 connect-another-fx-mobile = Dapatkan { -brand-firefox } di ponsel atau tablet
 
-##
-
-
 ## Connected services section
 
 cs-heading = Layanan Tersambung
@@ -183,9 +180,6 @@ cs-disconnect-advice-confirm = Oke, paham
 cs-disconnect-lost-advice-heading = Sambungan perangkat yang hilang atau dicuri terputus
 cs-disconnect-suspicious-advice-heading = Perangkat yang mencurigakan terputus
 cs-sign-out-button = Keluar
-
-##
-
 
 ## Data collection section
 
@@ -279,9 +273,6 @@ avatar-page-camera-error = Tidak dapat menginisialisasi kamera
 avatar-page-new-avatar =
     .alt = gambar profil baru
 
-##
-
-
 ## Password change page
 
 pw-change-header =
@@ -295,13 +286,7 @@ pw-change-new-password =
 pw-change-confirm-password =
     .label = Konfirmasi kata sandi baru
 
-##
-
-
 ## Password create page
-
-
-##
 
 
 ## Delete account page
@@ -312,13 +297,7 @@ delete-account-step-1-2 = Langkah 1 dari 2
 delete-account-step-2-2 = Langkah 2 dari 2
 delete-account-acknowledge = Harap diketahui bahwa dengan menghapus akun Anda:
 
-##
-
-
 ## Display name page
-
-
-##
 
 
 ## Recent account activity
@@ -348,16 +327,10 @@ delete-account-acknowledge = Harap diketahui bahwa dengan menghapus akun Anda:
 ## Two Step Authentication
 
 
-##
-
-
 ## Product promotion
 
 
 ## Profile section
-
-
-##
 
 
 ## Progress bar
@@ -379,9 +352,6 @@ delete-account-acknowledge = Harap diketahui bahwa dengan menghapus akun Anda:
 
 
 ## Secondary email sub-section on main Settings page
-
-
-##
 
 
 ## Two Step Auth sub-section on Settings main page

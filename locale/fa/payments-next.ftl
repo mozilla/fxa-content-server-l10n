@@ -1,16 +1,35 @@
-## Checkout Page
-## Common strings used in multiple checkout pages
+## Page
+
+next-payment-method-header = روش پرداخت خود را انتخاب کنید
+
+## Page - Upgrade page
+
+checkout-error-boundary-retry-button = تلاش دوباره
+
+## Error pages - /checkout and /upgrade
+## Common strings used in multiple pages
 
 next-payment-error-manage-subscription-button = مدیریت اشتراک من
 next-payment-error-retry-button = تلاش دوباره
 next-basic-error-message = مشکلی پیش آمد. لطفاً بعداً دوباره امتحان کنید.
 
-## Page
+## Processing page and Needs Input page - /checkout and /upgrade
+## Common strings used in multiple pages
 
-next-payment-method-header = روش پرداخت خود را انتخاب کنید
+
+## Success page - /checkout and /upgrade
+## Common strings used in multiple checkout pages
+
 # $invoiceDate (Date) - Start date of the latest invoice
 next-payment-confirmation-invoice-date = { $invoiceDate }
-checkout-error-boundary-retry-button = تلاش دوباره
+
+## Success pages (/checkout and /upgrade)
+## Common strings used in multiple checkout pages
+
+
+## Success pages (/checkout and /upgrade), Start page (/upgrade)
+## Common strings used in multiple checkout pages
+
 
 ## Component - Payment Consent Checkbox
 

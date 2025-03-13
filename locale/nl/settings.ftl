@@ -501,9 +501,6 @@ connect-another-play-store-image =
 connect-another-app-store-image-2 =
     .title = Download { -brand-firefox } in de { -app-store }
 
-##
-
-
 ## Connected services section
 
 cs-heading = Verbonden services
@@ -552,9 +549,6 @@ cs-disconnect-lost-advice-content-3 = Omdat uw apparaat verloren of gestolen is 
 cs-disconnect-suspicious-advice-heading = Verdacht apparaat ontkoppeld
 cs-disconnect-suspicious-advice-content-2 = Als het ontkoppelde apparaat inderdaad verdacht is, dient u, om uw gegevens veilig te houden, het wachtwoord van uw { -product-mozilla-account } te wijzigen in uw accountinstellingen. U kunt het beste ook alle overige wachtwoorden die u in { -brand-firefox } hebt opgeslagen wijzigen door in de adresbalk about:logins in te typen.
 cs-sign-out-button = Afmelden
-
-##
-
 
 ## Data collection section
 
@@ -749,9 +743,6 @@ avatar-page-file-upload-error-3 = Er is een probleem opgetreden bij het uploaden
 avatar-page-delete-error-3 = Er is een probleem opgetreden bij het verwijderen van uw profielafbeelding
 avatar-page-image-too-large-error-2 = De afbeeldingsbestandsgrootte is te groot om te uploaden
 
-##
-
-
 ## Password change page
 
 pw-change-header =
@@ -773,18 +764,12 @@ pw-change-confirm-password =
     .label = Bevestig nieuw wachtwoord
 pw-change-success-alert-2 = Wachtwoord bijgewerkt
 
-##
-
-
 ## Password create page
 
 pw-create-header =
     .title = Wachtwoord aanmaken
 pw-create-success-alert-2 = Wachtwoord ingesteld
 pw-create-error-2 = Sorry, er is een probleem opgetreden bij het instellen van uw wachtwoord
-
-##
-
 
 ## Delete account page
 
@@ -819,9 +804,6 @@ pocket-delete-notice-marketing = Om geen marketingberichten van Mozilla Corporat
 delete-account-cancel-button = Annuleren
 delete-account-delete-button-2 = Verwijderen
 
-##
-
-
 ## Display name page
 
 display-name-page-title =
@@ -832,9 +814,6 @@ submit-display-name = Opslaan
 cancel-display-name = Annuleren
 display-name-update-error-2 = Er is een probleem opgetreden bij het bijwerken van uw schermnaam
 display-name-success-alert-2 = Schermnaam bijgewerkt
-
-##
-
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
@@ -988,9 +967,6 @@ tfa-enter-code-to-confirm-setup = Bevestig dat u uw codes hebt opgeslagen door e
 tfa-enter-recovery-code-1 =
     .label = Voer een reserve-authenticatiecode in
 
-##
-
-
 ## Product promotion
 
 product-promo-monitor =
@@ -1011,9 +987,6 @@ profile-display-name =
     .header = Weergavenaam
 profile-primary-email =
     .header = Primair e-mailadres
-
-##
-
 
 ## Progress bar
 
@@ -1074,8 +1047,6 @@ tfa-row-backup-phone-delete-button = Verwijderen
 # Shown in tooltip on delete button or delete icon
 tfa-row-backup-phone-delete-title-v2 = Hersteltelefoonnummer verwijderen
 tfa-row-backup-phone-delete-restriction-v2 = Als u uw hersteltelefoonnummer wilt verwijderen, voeg dan reserve-authenticatiecodes toe of schakel eerst authenticatie in twee stappen uit om te voorkomen dat u geen toegang meer hebt tot uw account.
-# "this" refers to recovery phone
-tfa-row-backup-phone-description = Dit is de eenvoudigere herstelmethode als u uw authenticator-app niet kunt gebruiken.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
@@ -1157,9 +1128,6 @@ se-content-note-1 =
     hebt u een <a>accountherstelsleutel</a> nodig.
 # Default value for the secondary email
 se-secondary-email-none = Geen
-
-##
-
 
 ## Two Step Auth sub-section on Settings main page
 

@@ -501,9 +501,6 @@ connect-another-play-store-image =
 connect-another-app-store-image-2 =
     .title = Hent { -brand-firefox } på { -app-store }
 
-##
-
-
 ## Connected services section
 
 cs-heading = Forbundne tjenester
@@ -552,9 +549,6 @@ cs-disconnect-lost-advice-content-3 = Da din enhed er mistet eller stjålet, ska
 cs-disconnect-suspicious-advice-heading = Afbrudt forbindelsen til mistænkelig enhed
 cs-disconnect-suspicious-advice-content-2 = Hvis den frakoblede enhed virkelig er mistænkelig, skal du ændre adgangskoden til din { -product-mozilla-account } i dine kontoindstillinger for at beskytte dine data. Du skal også ændre de andre adgangskoder, du har gemt i { -brand-firefox }, ved at skrive about:logins i adressefeltet.
 cs-sign-out-button = Log ud
-
-##
-
 
 ## Data collection section
 
@@ -748,9 +742,6 @@ avatar-page-file-upload-error-3 = Der opstod et problem med at uploade dit profi
 avatar-page-delete-error-3 = Der opstod et problem med at slette dit profilbillede
 avatar-page-image-too-large-error-2 = Billedfilen er for stor til at blive uploadet
 
-##
-
-
 ## Password change page
 
 pw-change-header =
@@ -772,18 +763,12 @@ pw-change-confirm-password =
     .label = Bekræft ny adgangskode
 pw-change-success-alert-2 = Adgangskode opdateret
 
-##
-
-
 ## Password create page
 
 pw-create-header =
     .title = Opret adgangskode
 pw-create-success-alert-2 = Adgangskode oprettet
 pw-create-error-2 = Der opstod desværre et problem med at oprette din adgangskode
-
-##
-
 
 ## Delete account page
 
@@ -818,9 +803,6 @@ pocket-delete-notice-marketing = For at stoppe med at modtage marketingmails fra
 delete-account-cancel-button = Annuller
 delete-account-delete-button-2 = Slet
 
-##
-
-
 ## Display name page
 
 display-name-page-title =
@@ -831,9 +813,6 @@ submit-display-name = Gem
 cancel-display-name = Annuller
 display-name-update-error-2 = Der opstod et problem med at opdatere dit vist navn
 display-name-success-alert-2 = Vist navn opdateret
-
-##
-
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
@@ -987,9 +966,6 @@ tfa-enter-code-to-confirm-setup = Bekræft at du har gemt dine koder ved at indt
 tfa-enter-recovery-code-1 =
     .label = Indtast en reserve-godkendelseskode
 
-##
-
-
 ## Product promotion
 
 product-promo-monitor =
@@ -1010,9 +986,6 @@ profile-display-name =
     .header = Vist navn
 profile-primary-email =
     .header = Primær mailadresse
-
-##
-
 
 ## Progress bar
 
@@ -1073,8 +1046,6 @@ tfa-row-backup-phone-delete-button = Fjern
 # Shown in tooltip on delete button or delete icon
 tfa-row-backup-phone-delete-title-v2 = Fjern telefonnummer til genoprettelse
 tfa-row-backup-phone-delete-restriction-v2 = Hvis du vil fjerne dit telefonnummer til genoprettelse, skal du først tilføje reserve-godkendelseskoder eller deaktiver totrinsgodkendelse for at undgå at blive låst ude af din konto.
-# "this" refers to recovery phone
-tfa-row-backup-phone-description = Dette er den nemmeste genoprettelsesmetode, hvis du ikke kan bruge din godkendelsesapp.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
@@ -1156,9 +1127,6 @@ se-content-note-1 =
     skal bruge en <a>genoprettelsesnøgle til kontoen</a> til det.
 # Default value for the secondary email
 se-secondary-email-none = Ingen
-
-##
-
 
 ## Two Step Auth sub-section on Settings main page
 

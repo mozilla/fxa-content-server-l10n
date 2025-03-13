@@ -128,9 +128,6 @@ choose-what-to-sync-option-paymentmethods =
 ## Connect another device promo
 
 
-##
-
-
 ## Connected services section
 
 
@@ -143,9 +140,6 @@ choose-what-to-sync-option-paymentmethods =
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
-
-
-##
 
 
 ##
@@ -205,31 +199,16 @@ choose-what-to-sync-option-paymentmethods =
 ## Avatar change page
 
 
-##
-
-
 ## Password change page
-
-
-##
 
 
 ## Password create page
 
 
-##
-
-
 ## Delete account page
 
 
-##
-
-
 ## Display name page
-
-
-##
 
 
 ## Recent account activity
@@ -259,16 +238,10 @@ choose-what-to-sync-option-paymentmethods =
 ## Two Step Authentication
 
 
-##
-
-
 ## Product promotion
 
 
 ## Profile section
-
-
-##
 
 
 ## Progress bar
@@ -290,9 +263,6 @@ choose-what-to-sync-option-paymentmethods =
 
 
 ## Secondary email sub-section on main Settings page
-
-
-##
 
 
 ## Two Step Auth sub-section on Settings main page

@@ -155,9 +155,6 @@ connect-another-play-store-image =
 connect-another-app-store-image-2 =
     .title = Last ned { -brand-firefox } på { -app-store }
 
-##
-
-
 ## Connected services section
 
 cs-heading = Tilknyttede tjenester
@@ -193,9 +190,6 @@ cs-disconnect-lost-advice-content-3 = Siden enheten din ble tapt eller stjålet,
 cs-disconnect-suspicious-advice-heading = Mistenkelig enhet frakoblet
 cs-disconnect-suspicious-advice-content-2 = Hvis den frakoblede enheten virkelig er mistenkelig, bør du endre passordet for { -product-mozilla-account } i kontoinnstillingene dine for å holde informasjonen din trygg. Du bør også endre eventuelle andre passord du har lagret i { -brand-firefox } ved å skrive about:logins i adresselinjen.
 cs-sign-out-button = Logg ut
-
-##
-
 
 ## Data collection section
 
@@ -301,9 +295,6 @@ avatar-page-zoom-in-button =
 avatar-page-rotate-button =
     .title = Rotere
 
-##
-
-
 ## Password change page
 
 pw-change-header =
@@ -318,13 +309,7 @@ pw-change-new-password =
 pw-change-confirm-password =
     .label = Bekreft nytt passord
 
-##
-
-
 ## Password create page
-
-
-##
 
 
 ## Delete account page
@@ -341,16 +326,10 @@ delete-account-password-input =
 delete-account-cancel-button = Avbryt
 delete-account-delete-button-2 = Slett
 
-##
-
-
 ## Display name page
 
 submit-display-name = Lagre
 cancel-display-name = Avbryt
-
-##
-
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
@@ -380,16 +359,10 @@ add-secondary-email-step-1 = Trinn 1 av 2
 ## Two Step Authentication
 
 
-##
-
-
 ## Product promotion
 
 
 ## Profile section
-
-
-##
 
 
 ## Progress bar
@@ -411,9 +384,6 @@ add-secondary-email-step-1 = Trinn 1 av 2
 
 
 ## Secondary email sub-section on main Settings page
-
-
-##
 
 
 ## Two Step Auth sub-section on Settings main page

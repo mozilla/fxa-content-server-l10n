@@ -501,9 +501,6 @@ connect-another-play-store-image =
 connect-another-app-store-image-2 =
     .title = Stiahnite si { -brand-firefox } z { -app-store }
 
-##
-
-
 ## Connected services section
 
 cs-heading = Pripojené služby
@@ -550,9 +547,6 @@ cs-disconnect-lost-advice-content-3 = Keďže vaše zariadenie bolo stratené al
 cs-disconnect-suspicious-advice-heading = Podozrivé zariadenie je odpojené
 cs-disconnect-suspicious-advice-content-2 = Ak je odpojené zariadenie skutočne podozrivé, mali by ste si v nastaveniach účtu zmeniť heslo pre { -product-mozilla-account(case: "acc", capitalization: "lower") }, aby boli vaše informácie v bezpečí. Mali by ste tiež zmeniť všetky ostatné heslá, ktoré ste uložili v prehliadači { -brand-firefox }, zadaním about:logins do panela s adresou.
 cs-sign-out-button = Odhlásiť sa
-
-##
-
 
 ## Data collection section
 
@@ -745,9 +739,6 @@ avatar-page-file-upload-error-3 = Pri nahrávaní profilovej fotografie sa vysky
 avatar-page-delete-error-3 = Pri odstraňovaní vašej profilovej fotky sa vyskytol problém
 avatar-page-image-too-large-error-2 = Nie je možné nahrať obrázok, pretože je príliš veľký
 
-##
-
-
 ## Password change page
 
 pw-change-header =
@@ -769,18 +760,12 @@ pw-change-confirm-password =
     .label = Potvrďte nové heslo
 pw-change-success-alert-2 = Heslo bolo aktualizované
 
-##
-
-
 ## Password create page
 
 pw-create-header =
     .title = Vytvorenie hesla
 pw-create-success-alert-2 = Heslo bolo nastavené
 pw-create-error-2 = Ľutujeme, pri nastavovaní hesla sa vyskytol problém
-
-##
-
 
 ## Delete account page
 
@@ -815,9 +800,6 @@ pocket-delete-notice-marketing = Ak chcete prestať dostávať marketingové e�
 delete-account-cancel-button = Zrušiť
 delete-account-delete-button-2 = Odstrániť
 
-##
-
-
 ## Display name page
 
 display-name-page-title =
@@ -828,9 +810,6 @@ submit-display-name = Uložiť
 cancel-display-name = Zrušiť
 display-name-update-error-2 = Pri aktualizácii vášho zobrazovaného mena sa vyskytol problém
 display-name-success-alert-2 = Zobrazované meno aktualizované
-
-##
-
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
@@ -984,9 +963,6 @@ tfa-enter-code-to-confirm-setup = Zadaním kódu potvrďte, že ste kódy uloži
 tfa-enter-recovery-code-1 =
     .label = Zadajte záložný overovací kód
 
-##
-
-
 ## Product promotion
 
 product-promo-monitor =
@@ -1007,9 +983,6 @@ profile-display-name =
     .header = Zobrazované meno
 profile-primary-email =
     .header = Hlavná e‑mailová adresa
-
-##
-
 
 ## Progress bar
 
@@ -1072,8 +1045,6 @@ tfa-row-backup-phone-delete-button = Odstrániť
 # Shown in tooltip on delete button or delete icon
 tfa-row-backup-phone-delete-title-v2 = Odstráni možnosť obnovy pomocou telefónu
 tfa-row-backup-phone-delete-restriction-v2 = Ak chcete odstrániť možnosť obnovy pomocou telefónu, pridajte záložné overovacie kódy alebo najskôr zakážte dvojstupňové overenie, aby ste sa vyhli zablokovaniu vášho účtu.
-# "this" refers to recovery phone
-tfa-row-backup-phone-description = Toto je jednoduchší spôsob obnovenia, ak nemôžete použiť aplikáciu na overenie totožnosti.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
@@ -1154,9 +1125,6 @@ se-default-content = Získajte prístup k svojmu účtu, ak sa vám nepodarí pr
 se-content-note-1 = Poznámka: alternatívna e‑mailová adresa neumožní obnoviť vaše informácie – na to budete potrebovať <a>kľúč na obnovenie účtu</a>.
 # Default value for the secondary email
 se-secondary-email-none = žiadna
-
-##
-
 
 ## Two Step Auth sub-section on Settings main page
 

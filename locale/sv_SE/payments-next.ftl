@@ -1,15 +1,3 @@
-## Checkout Page
-## Common strings used in multiple checkout pages
-
-next-payment-processing-message = Vänta medan vi behandlar din betalning…
-next-payment-error-manage-subscription-button = Hantera min prenumeration
-next-iap-upgrade-contact-support = Du kan fortfarande få den här produkten — kontakta supporten så att vi kan hjälpa dig.
-next-payment-error-retry-button = Försök igen
-next-basic-error-message = Något gick fel. Vänligen försök igen.
-checkout-error-contact-support-button = Kontakta supporten
-checkout-error-not-eligible = Du har inte rätt att prenumerera på den här produkten - vänligen kontakta supporten så att vi kan hjälpa dig.
-checkout-error-contact-support = Vänligen kontakta supporten så kan vi hjälpa dig.
-
 ## Page
 
 checkout-signin-or-create = 1. Logga in eller skapa ett { -product-mozilla-account }
@@ -20,6 +8,31 @@ next-payment-method-header = Välj din betalningsmetod
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = Först måste du godkänna din prenumeration
+
+## Page - Upgrade page
+
+checkout-error-boundary-retry-button = Försök igen
+checkout-error-boundary-basic-error-message = Något gick fel. Försök igen eller <contactSupportLink>kontakta supporten.</contactSupportLink>
+
+## Error pages - /checkout and /upgrade
+## Common strings used in multiple pages
+
+next-payment-error-manage-subscription-button = Hantera min prenumeration
+next-iap-upgrade-contact-support = Du kan fortfarande få den här produkten — kontakta supporten så att vi kan hjälpa dig.
+next-payment-error-retry-button = Försök igen
+next-basic-error-message = Något gick fel. Vänligen försök igen.
+checkout-error-contact-support-button = Kontakta supporten
+checkout-error-not-eligible = Du har inte rätt att prenumerera på den här produkten - vänligen kontakta supporten så att vi kan hjälpa dig.
+checkout-error-contact-support = Vänligen kontakta supporten så kan vi hjälpa dig.
+
+## Processing page and Needs Input page - /checkout and /upgrade
+## Common strings used in multiple pages
+
+next-payment-processing-message = Vänta medan vi behandlar din betalning…
+
+## Success page - /checkout and /upgrade
+## Common strings used in multiple checkout pages
+
 next-payment-confirmation-thanks-heading-account-exists = Tack, kolla nu din mejl!
 # $email (String) - The user's email.
 payment-confirmation-thanks-subheading-account-exists-2 = Du får ett e-postmeddelande till { $email } med instruktioner om din prenumeration samt din betalningsinformation.
@@ -29,14 +42,17 @@ next-payment-confirmation-invoice-number = Faktura #{ $invoiceNumber }
 # $invoiceDate (Date) - Start date of the latest invoice
 next-payment-confirmation-invoice-date = { $invoiceDate }
 next-payment-confirmation-details-heading-2 = Betalningsinformation
-# $amount (Number) - The amount billed. It will be formatted as currency.
-# $interval (String) - The interval between payments.
-next-payment-confirmation-amount = { $amount } per { $interval }
+
+## Success pages (/checkout and /upgrade)
+## Common strings used in multiple checkout pages
+
+next-payment-confirmation-download-button = Fortsätt till nedladdning
+
+## Success pages (/checkout and /upgrade), Start page (/upgrade)
+## Common strings used in multiple checkout pages
+
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Kort som slutar på { $last4 }
-next-payment-confirmation-download-button = Fortsätt till nedladdning
-checkout-error-boundary-retry-button = Försök igen
-checkout-error-boundary-basic-error-message = Något gick fel. Försök igen eller <contactSupportLink>kontakta supporten.</contactSupportLink>
 
 ## Component - Payment Consent Checkbox
 
@@ -117,7 +133,6 @@ next-new-user-subscribe-product-assurance = Vi använder bara din e-postadress f
 plan-price-interval-daily = { $amount } dagligen
 plan-price-interval-weekly = { $amount } veckovis
 plan-price-interval-monthly = { $amount } månadsvis
-plan-price-interval-6monthly = { $amount } var sjätte månad
 plan-price-interval-yearly = { $amount } årligen
 
 ## Component - SubscriptionTitle

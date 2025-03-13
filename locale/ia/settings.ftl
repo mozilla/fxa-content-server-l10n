@@ -501,9 +501,6 @@ connect-another-play-store-image =
 connect-another-app-store-image-2 =
     .title = Discargar { -brand-firefox } de { -app-store }
 
-##
-
-
 ## Connected services section
 
 cs-heading = Servicios connectite
@@ -554,9 +551,6 @@ cs-disconnect-lost-advice-content-3 =
 cs-disconnect-suspicious-advice-heading = Apparato suspecte disconnectite
 cs-disconnect-suspicious-advice-content-2 = Si le apparato disconnectite es in effecto suspecte, pro mantener tu informationes secur, tu debe cambiar tu contrasigno de { -product-mozilla-account } in tu parametros de conto. Tu deberea etiam cambiar omne altere contrasignos que tu ha salvate in { -brand-firefox } scribente about:logins in le barra de adresse.
 cs-sign-out-button = Clauder session
-
-##
-
 
 ## Data collection section
 
@@ -748,9 +742,6 @@ avatar-page-file-upload-error-3 = Problema durante le incargamento de tu imagine
 avatar-page-delete-error-3 = Problema durante le deletion de tu photo de profilo
 avatar-page-image-too-large-error-2 = Le file de imagine es troppo grande pro esser incargate
 
-##
-
-
 ## Password change page
 
 pw-change-header =
@@ -772,18 +763,12 @@ pw-change-confirm-password =
     .label = Confirmar nove contrasigno
 pw-change-success-alert-2 = Contrasigno actualisate
 
-##
-
-
 ## Password create page
 
 pw-create-header =
     .title = Crear contrasigno
 pw-create-success-alert-2 = Definition del contrasigno
 pw-create-error-2 = Desolate, problema durante le definition de tu contrasigno
-
-##
-
 
 ## Delete account page
 
@@ -818,9 +803,6 @@ pocket-delete-notice-marketing = Pro cessar de reciper emails commercial ab Mozi
 delete-account-cancel-button = Cancellar
 delete-account-delete-button-2 = Deler
 
-##
-
-
 ## Display name page
 
 display-name-page-title =
@@ -831,9 +813,6 @@ submit-display-name = Salvar
 cancel-display-name = Cancellar
 display-name-update-error-2 = Problema durante le actualisation de tu nomine a monstrar
 display-name-success-alert-2 = Nomine a monstrar actualisate
-
-##
-
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
@@ -987,9 +966,6 @@ tfa-enter-code-to-confirm-setup = Confirma que tu salvava tu codices inserente u
 tfa-enter-recovery-code-1 =
     .label = Insere un codice de authentication de reserva
 
-##
-
-
 ## Product promotion
 
 product-promo-monitor =
@@ -1010,9 +986,6 @@ profile-display-name =
     .header = Nomine a monstrar
 profile-primary-email =
     .header = Adresse de e-mail primari
-
-##
-
 
 ## Progress bar
 
@@ -1073,8 +1046,6 @@ tfa-row-backup-phone-delete-button = Remover
 # Shown in tooltip on delete button or delete icon
 tfa-row-backup-phone-delete-title-v2 = Remover telephono de recuperation
 tfa-row-backup-phone-delete-restriction-v2 = Si tu desira remover tu telephono de recuperation, adde le codices de authentication o primo disactiva le authentication a duo passos pro evitar de perder le accesso de tu conto.
-# "this" refers to recovery phone
-tfa-row-backup-phone-description = Isto es le methodo de recuperation plus facile si tu non pote usar a tu app de authentication.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
@@ -1156,9 +1127,6 @@ se-content-note-1 =
     besoniara de un <a>clave de recuperation del conto</a> pro isto.
 # Default value for the secondary email
 se-secondary-email-none = Nihil
-
-##
-
 
 ## Two Step Auth sub-section on Settings main page
 

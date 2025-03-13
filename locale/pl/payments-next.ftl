@@ -1,15 +1,3 @@
-## Checkout Page
-## Common strings used in multiple checkout pages
-
-next-payment-processing-message = Prosimy czekać na przetworzenie płatności…
-next-payment-error-manage-subscription-button = Zarządzaj moją subskrypcją
-next-iap-upgrade-contact-support = Nadal możesz otrzymać ten produkt — prosimy o kontakt z zespołem wsparcia, abyśmy mogli Ci pomóc.
-next-payment-error-retry-button = Spróbuj ponownie
-next-basic-error-message = Coś się nie powiodło. Proszę spróbować ponownie później.
-checkout-error-contact-support-button = Skontaktuj się z pomocą
-checkout-error-not-eligible = Nie kwalifikujesz się do subskrypcji tego produktu — prosimy o kontakt z zespołem wsparcia, abyśmy mogli Ci pomóc.
-checkout-error-contact-support = Prosimy o kontakt z zespołem wsparcia, abyśmy mogli Ci pomóc.
-
 ## Page
 
 checkout-signin-or-create = 1. Zaloguj się lub utwórz { -product-mozilla-account(case: "acc", capitalization: "lower") }
@@ -20,6 +8,31 @@ next-payment-method-header = Wybierz metodę płatności
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = Najpierw musisz zatwierdzić subskrypcję
+
+## Page - Upgrade page
+
+checkout-error-boundary-retry-button = Spróbuj ponownie
+checkout-error-boundary-basic-error-message = Coś się nie powiodło. Proszę spróbować ponownie lub <contactSupportLink>skontaktować się z zespołem wsparcia</contactSupportLink>.
+
+## Error pages - /checkout and /upgrade
+## Common strings used in multiple pages
+
+next-payment-error-manage-subscription-button = Zarządzaj moją subskrypcją
+next-iap-upgrade-contact-support = Nadal możesz otrzymać ten produkt — prosimy o kontakt z zespołem wsparcia, abyśmy mogli Ci pomóc.
+next-payment-error-retry-button = Spróbuj ponownie
+next-basic-error-message = Coś się nie powiodło. Proszę spróbować ponownie później.
+checkout-error-contact-support-button = Skontaktuj się z pomocą
+checkout-error-not-eligible = Nie kwalifikujesz się do subskrypcji tego produktu — prosimy o kontakt z zespołem wsparcia, abyśmy mogli Ci pomóc.
+checkout-error-contact-support = Prosimy o kontakt z zespołem wsparcia, abyśmy mogli Ci pomóc.
+
+## Processing page and Needs Input page - /checkout and /upgrade
+## Common strings used in multiple pages
+
+next-payment-processing-message = Prosimy czekać na przetworzenie płatności…
+
+## Success page - /checkout and /upgrade
+## Common strings used in multiple checkout pages
+
 next-payment-confirmation-thanks-heading-account-exists = Dzięki, teraz sprawdź pocztę!
 # $email (String) - The user's email.
 payment-confirmation-thanks-subheading-account-exists-2 = Otrzymasz wiadomość na adres { $email } z instrukcjami na temat subskrypcji, a także informacjami o płatności.
@@ -29,14 +42,17 @@ next-payment-confirmation-invoice-number = Faktura #{ $invoiceNumber }
 # $invoiceDate (Date) - Start date of the latest invoice
 next-payment-confirmation-invoice-date = { $invoiceDate }
 next-payment-confirmation-details-heading-2 = Informacje o płatności
-# $amount (Number) - The amount billed. It will be formatted as currency.
-# $interval (String) - The interval between payments.
-next-payment-confirmation-amount = { $amount } co { $interval }
+
+## Success pages (/checkout and /upgrade)
+## Common strings used in multiple checkout pages
+
+next-payment-confirmation-download-button = Kontynuuj, aby pobrać
+
+## Success pages (/checkout and /upgrade), Start page (/upgrade)
+## Common strings used in multiple checkout pages
+
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Karta kończąca się na { $last4 }
-next-payment-confirmation-download-button = Kontynuuj, aby pobrać
-checkout-error-boundary-retry-button = Spróbuj ponownie
-checkout-error-boundary-basic-error-message = Coś się nie powiodło. Proszę spróbować ponownie lub <contactSupportLink>skontaktować się z zespołem wsparcia</contactSupportLink>.
 
 ## Component - Payment Consent Checkbox
 
@@ -117,7 +133,6 @@ next-new-user-subscribe-product-assurance = Używamy Twojego adresu e-mail wył�
 plan-price-interval-daily = { $amount } dziennie
 plan-price-interval-weekly = { $amount } tygodniowo
 plan-price-interval-monthly = { $amount } miesięcznie
-plan-price-interval-6monthly = { $amount } co 6 miesięcy
 plan-price-interval-yearly = { $amount } rocznie
 
 ## Component - SubscriptionTitle

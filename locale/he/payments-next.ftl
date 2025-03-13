@@ -1,15 +1,3 @@
-## Checkout Page
-## Common strings used in multiple checkout pages
-
-next-payment-processing-message = נא להמתין בעת עיבוד התשלום שלך…
-next-payment-error-manage-subscription-button = ניהול המינוי שלי
-next-iap-upgrade-contact-support = באפשרותך עדיין להשיג את המוצר הזה — נא ליצור קשר עם התמיכה כדי שנוכל לעזור לך.
-next-payment-error-retry-button = ניסיון חוזר
-next-basic-error-message = משהו השתבש. נא לנסות שוב מאוחר יותר.
-checkout-error-contact-support-button = יצירת קשר עם התמיכה
-checkout-error-not-eligible = אינך זכאי להירשם למוצר זה - נא ליצור קשר עם התמיכה כדי שנוכל לעזור לך.
-checkout-error-contact-support = נא ליצור קשר עם התמיכה כדי שנוכל לעזור לך.
-
 ## Page
 
 checkout-signin-or-create = 1. התחברות או יצירת { -product-mozilla-account(case: "a") }
@@ -20,6 +8,31 @@ next-payment-method-header = נא לבחור את שיטת התשלום שלך
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = ראשית יש לאשר את המינוי שלך
+
+## Page - Upgrade page
+
+checkout-error-boundary-retry-button = ניסיון חוזר
+checkout-error-boundary-basic-error-message = משהו השתבש. נא לנסות שוב או <contactSupportLink>ליצור קשר עם התמיכה</contactSupportLink>.
+
+## Error pages - /checkout and /upgrade
+## Common strings used in multiple pages
+
+next-payment-error-manage-subscription-button = ניהול המינוי שלי
+next-iap-upgrade-contact-support = באפשרותך עדיין להשיג את המוצר הזה — נא ליצור קשר עם התמיכה כדי שנוכל לעזור לך.
+next-payment-error-retry-button = ניסיון חוזר
+next-basic-error-message = משהו השתבש. נא לנסות שוב מאוחר יותר.
+checkout-error-contact-support-button = יצירת קשר עם התמיכה
+checkout-error-not-eligible = אינך זכאי להירשם למוצר זה - נא ליצור קשר עם התמיכה כדי שנוכל לעזור לך.
+checkout-error-contact-support = נא ליצור קשר עם התמיכה כדי שנוכל לעזור לך.
+
+## Processing page and Needs Input page - /checkout and /upgrade
+## Common strings used in multiple pages
+
+next-payment-processing-message = נא להמתין בעת עיבוד התשלום שלך…
+
+## Success page - /checkout and /upgrade
+## Common strings used in multiple checkout pages
+
 next-payment-confirmation-thanks-heading-account-exists = תודה, עכשיו יש לבדוק את הדוא״ל שלך!
 # $email (String) - The user's email.
 payment-confirmation-thanks-subheading-account-exists-2 = תתקבל הודעת דוא״ל לכתובת { $email } עם הנחיות לגבי המינוי שלך, לרבות פרטים על התשלום שלך.
@@ -29,14 +42,17 @@ next-payment-confirmation-invoice-number = חשבונית מס' { $invoiceNumber
 # $invoiceDate (Date) - Start date of the latest invoice
 next-payment-confirmation-invoice-date = { $invoiceDate }
 next-payment-confirmation-details-heading-2 = פרטי תשלום
-# $amount (Number) - The amount billed. It will be formatted as currency.
-# $interval (String) - The interval between payments.
-next-payment-confirmation-amount = { $amount } כל { $interval }
+
+## Success pages (/checkout and /upgrade)
+## Common strings used in multiple checkout pages
+
+next-payment-confirmation-download-button = המשך להורדה
+
+## Success pages (/checkout and /upgrade), Start page (/upgrade)
+## Common strings used in multiple checkout pages
+
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = כרטיס המסתיים ב־{ $last4 }
-next-payment-confirmation-download-button = המשך להורדה
-checkout-error-boundary-retry-button = ניסיון חוזר
-checkout-error-boundary-basic-error-message = משהו השתבש. נא לנסות שוב או <contactSupportLink>ליצור קשר עם התמיכה</contactSupportLink>.
 
 ## Component - Payment Consent Checkbox
 
@@ -114,7 +130,6 @@ next-new-user-subscribe-product-assurance = אנו משתמשים בדוא״ל �
 plan-price-interval-daily = { $amount } כל יום
 plan-price-interval-weekly = { $amount } כל שבוע
 plan-price-interval-monthly = { $amount } כל חודש
-plan-price-interval-6monthly = { $amount } כל 6 חודשים
 plan-price-interval-yearly = { $amount } כל שנה
 
 ## Component - SubscriptionTitle

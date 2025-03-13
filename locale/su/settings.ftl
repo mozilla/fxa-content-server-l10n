@@ -128,9 +128,6 @@ bento-menu-firefox-mobile = { -brand-firefox } Panyungsi keur Sélulér
 ## Connect another device promo
 
 
-##
-
-
 ## Connected services section
 
 cs-cannot-disconnect = Klién teu kapanggih, teu bisa megatkeun
@@ -144,9 +141,6 @@ cs-cannot-disconnect = Klién teu kapanggih, teu bisa megatkeun
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
-
-
-##
 
 
 ##
@@ -210,35 +204,20 @@ msv-cancel-button = Bolay
 
 avatar-page-cancel-button = Bolay
 
-##
-
-
 ## Password change page
 
 pw-change-cancel-button = Bolay
 
-##
-
-
 ## Password create page
-
-
-##
 
 
 ## Delete account page
 
 delete-account-cancel-button = Bolay
 
-##
-
-
 ## Display name page
 
 cancel-display-name = Bolay
-
-##
-
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
@@ -270,16 +249,10 @@ verify-secondary-email-cancel-button = Bolay
 
 tfa-button-cancel = Bolay
 
-##
-
-
 ## Product promotion
 
 
 ## Profile section
-
-
-##
 
 
 ## Progress bar
@@ -302,9 +275,6 @@ tfa-button-cancel = Bolay
 rk-enabled = Diaktipkeun
 
 ## Secondary email sub-section on main Settings page
-
-
-##
 
 
 ## Two Step Auth sub-section on Settings main page

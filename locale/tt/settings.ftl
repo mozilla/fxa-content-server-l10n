@@ -358,9 +358,6 @@ connect-another-fx-mobile = Мобиль җиһазыгызга { -brand-firefox
 connect-another-play-store-image =
     .title = { -google-play }-дан { -brand-firefox }-ны алу
 
-##
-
-
 ## Connected services section
 
 cs-heading = Тоташтырылган Хезмәтләр
@@ -402,9 +399,6 @@ cs-disconnect-advice-confirm = Яхшы, аңладым
 cs-disconnect-lost-advice-heading = Югалган яки урланган җиһаз өзелде
 cs-disconnect-suspicious-advice-heading = Шикле җиһаз тоташкан
 cs-sign-out-button = Чыгу
-
-##
-
 
 ## Data collection section
 
@@ -541,9 +535,6 @@ avatar-page-file-upload-error-3 = Профиль рәсемегезне йөкл
 avatar-page-delete-error-3 = Профиль рәсемегезне бетергәндә хата китте
 avatar-page-image-too-large-error-2 = Рәсем файлы йөкләп булмаслык зур
 
-##
-
-
 ## Password change page
 
 pw-change-header =
@@ -563,18 +554,12 @@ pw-change-confirm-password =
     .label = Яңа серсүзне раслагыз
 pw-change-success-alert-2 = Серсүз яңартылды
 
-##
-
-
 ## Password create page
 
 pw-create-header =
     .title = Серсүз булдыру
 pw-create-success-alert-2 = Cерсүз куелды
 pw-create-error-2 = Гафу итегез, серсүзне куюда хата килеп чыкты
-
-##
-
 
 ## Delete account page
 
@@ -597,9 +582,6 @@ delete-account-password-input =
 delete-account-cancel-button = Баш тарту
 delete-account-delete-button-2 = Бетерү
 
-##
-
-
 ## Display name page
 
 display-name-page-title =
@@ -609,9 +591,6 @@ display-name-input =
 submit-display-name = Саклау
 cancel-display-name = Баш тарту
 display-name-success-alert-2 = Күрсәтелүче исем яңартылды
-
-##
-
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
@@ -707,9 +686,6 @@ tfa-enter-secret-key = Бу яшерен ачкычны аутентификац
 tfa-input-enter-totp-v2 =
     .label = Аутентификация кодын кертү
 
-##
-
-
 ## Product promotion
 
 product-promo-monitor =
@@ -726,9 +702,6 @@ profile-display-name =
     .header = Күрсәтеләчәк исемегез
 profile-primary-email =
     .header = Төп эл. почта
-
-##
-
 
 ## Progress bar
 
@@ -826,9 +799,6 @@ se-unverified-2 = расланмаган
 se-make-primary = Төп адрес итү
 # Default value for the secondary email
 se-secondary-email-none = Бернинди дә
-
-##
-
 
 ## Two Step Auth sub-section on Settings main page
 
