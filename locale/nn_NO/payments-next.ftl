@@ -140,3 +140,7 @@ next-terms-download = Vilkår for nedlasting
 ## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
 
+upgrade-purchase-details-new-plan-daily = { $productName } (kvar dag)
+upgrade-purchase-details-new-plan-weekly = { $productName } (kvar veke)
+upgrade-purchase-details-new-plan-monthly = { $productName } (kvar månad)
+upgrade-purchase-details-new-plan-yearly = { $productName } (kvart år)

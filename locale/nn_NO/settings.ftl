@@ -455,9 +455,6 @@ connect-another-play-store-image =
 connect-another-app-store-image-2 =
     .title = Last ned { -brand-firefox } på { -app-store }
 
-##
-
-
 ## Connected services section
 
 cs-heading = Tilkopla tenester
@@ -506,9 +503,6 @@ cs-disconnect-lost-advice-content-3 = Sidan eininga di vart mista eller stolen, 
 cs-disconnect-suspicious-advice-heading = Mistenkjeleg eining fråkopla
 cs-disconnect-suspicious-advice-content-2 = Om den fråkopla eininga verkelig er mistenkjeleg, bør du endre passordet for { -product-mozilla-account } i kontoinnstillingane dine for å halde informasjonen din trygg. Du bør også endre eventuelle andre passord du har lagra i { -brand-firefox } ved å skrive about:logins i adresselinja.
 cs-sign-out-button = Logg ut
-
-##
-
 
 ## Data collection section
 
@@ -666,9 +660,6 @@ avatar-page-new-avatar =
     .alt = nytt profilbilde
 avatar-page-image-too-large-error-2 = Bildefila er for stor, og kan ikkje lastast opp
 
-##
-
-
 ## Password change page
 
 pw-change-header =
@@ -688,17 +679,11 @@ pw-change-confirm-password =
     .label = Stadfest nytt passord
 pw-change-success-alert-2 = Passord oppdatert
 
-##
-
-
 ## Password create page
 
 pw-create-header =
     .title = Opprett passord
 pw-create-success-alert-2 = Passord innstilt
-
-##
-
 
 ## Delete account page
 
@@ -727,9 +712,6 @@ delete-account-password-input =
 delete-account-cancel-button = Avbryt
 delete-account-delete-button-2 = Slett
 
-##
-
-
 ## Display name page
 
 display-name-page-title =
@@ -740,9 +722,6 @@ submit-display-name = Lagre
 cancel-display-name = Avbryt
 display-name-update-error-2 = Det oppstod eit problem med å oppdatere visingsnamnet ditt
 display-name-success-alert-2 = Visingsnamn oppdatert
-
-##
-
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
@@ -851,9 +830,6 @@ tfa-save-these-codes-1 =
 tfa-enter-recovery-code-1 =
     .label = Skriv inn ein backup authentication code
 
-##
-
-
 ## Product promotion
 
 product-promo-monitor =
@@ -874,9 +850,6 @@ profile-display-name =
     .header = Visingsnamn
 profile-primary-email =
     .header = Primær e-postadresse
-
-##
-
 
 ## Progress bar
 
@@ -904,9 +877,12 @@ signout-sync-session-expired = Noko gjekk diverre gale. Logg ut frå nettlesaren
 
 ## SubRow component
 
+tfa-row-backup-codes-title = Reserve-godkjenningskodar
 # Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
 # Users that have not enabled or verified 2FA will not see this
 tfa-row-backup-codes-not-available = Ingen kodar tilgjengeleg
+# Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
+tfa-row-backup-codes-get-new-cta-v2 = Lag nye kodar
 # Shown to users who have no backup authentication codes
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = Legg til
@@ -979,9 +955,6 @@ se-content-note-1 =
     ein <a>kontogjenopprettingsnøkkel</a> for det.
 # Default value for the secondary email
 se-secondary-email-none = Ingen
-
-##
-
 
 ## Two Step Auth sub-section on Settings main page
 
