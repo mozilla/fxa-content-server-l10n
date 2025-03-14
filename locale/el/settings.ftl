@@ -1284,6 +1284,7 @@ cookies-disabled-learn-more = Μάθετε περισσότερα
 index-header = Εισαγάγετε το email σας
 index-sync-header = Συνέχεια στον { -product-mozilla-account(case: "acc", capitalization: "lower") } σας
 index-sync-subheader = Συγχρονίστε τους κωδικούς πρόσβασης, τις καρτέλες και τους σελιδοδείκτες σας οπουδήποτε χρησιμοποιείτε το { -brand-firefox }.
+index-relay-header = Δημιουργία μάσκας email
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = Συνέχεια στο { $serviceName }
 index-subheader-with-logo = Συνέχεια στο <span>{ $serviceLogo }</span>
@@ -1292,6 +1293,8 @@ index-cta = Εγγραφή ή σύνδεση
 index-account-info = Ένας { -product-mozilla-account(case: "nom", capitalization: "lower") } ξεκλειδώνει επίσης την πρόσβαση σε περισσότερα προϊόντα της { -brand-mozilla } που προστατεύουν το απόρρητό σας.
 index-email-input =
     .label = Εισαγάγετε το email σας
+# When users delete their Mozilla account inside account Settings, they are redirected to this page with a success message
+index-account-delete-success = Επιτυχής διαγραφή λογαριασμού
 
 ## InlineRecoveryKeySetup page component
 
