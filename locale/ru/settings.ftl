@@ -1225,6 +1225,10 @@ auth-error-1032 = Для регистрации вы должны ввести �
 auth-error-1054 = Неверный код двухэтапной аутентификации
 auth-error-1056 = Некорректный резервный код аутентификации
 auth-error-1062 = Некорректное перенаправление
+# Shown when a user tries to sign up with an email address with a domain that doesn't receive emails
+auth-error-1064 = Ошибка при наборе адреса электронной почты? { $domain } не является корректной службой электронной почты
+auth-error-1066 = Псевдонимы электронной почты не могут быть использованы для создания аккаунта.
+auth-error-1067 = Опечатка в электронной почте?
 # Displayed when we want to reference a user's previously set up recovery phone
 # number, but they are not completely signed in yet. We'll only show the last 4 digits.
 # Variables:
@@ -1282,6 +1286,8 @@ cookies-disabled-learn-more = Подробнее
 index-header = Введите ваш адрес эл. почты
 index-sync-header = Перейдите в свой { -product-mozilla-account }
 index-sync-subheader = Синхронизируйте свои пароли, вкладки и закладки везде, где используете { -brand-firefox }.
+index-relay-header = Создать псевдоним электронной почты
+index-relay-subheader = Укажите адрес электронной почты, на который вы хотите пересылать письма с вашего замаскированного адреса электронной почты.
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = Перейти к { $serviceName }
 index-subheader-with-logo = Перейти к <span>{ $serviceLogo }</span>
@@ -1290,6 +1296,10 @@ index-cta = Зарегистрироваться или войти
 index-account-info = { -product-mozilla-account } также открывает доступ к другим продуктам { -brand-mozilla } для защиты приватности.
 index-email-input =
     .label = Введите ваш адрес эл. почты
+# When users delete their Mozilla account inside account Settings, they are redirected to this page with a success message
+index-account-delete-success = Аккаунт успешно удалён
+# Displayed when users try to sign up for an account and their confirmation code email bounces
+index-email-bounced = Ваше письмо для подтверждения только что вернулось. Опечатка в электронной почте?
 
 ## InlineRecoveryKeySetup page component
 
@@ -1718,6 +1728,11 @@ signin-recovery-phone-send-code-error-heading = При отправке кода
 signin-recovery-phone-code-verification-error-heading = При проверке вашего кода возникла проблема
 # Follows the error message (e.g, "There was a problem sending a code")
 signin-recovery-phone-general-error-description = Пожалуйста, попробуйте позже.
+signin-recovery-phone-invalid-code-error-description = Код неверен или просрочен.
+signin-recovery-phone-invalid-code-error-link = Использовать резервные коды аутентификации?
+# "Limits" refers to potential restrictions on how often a recovery phone number can be used for signing in within a given time period.
+# If limits are reached, users may have to use an alternate two-step authentication method or wait until the restriction period is over.
+signin-recovery-phone-success-message = Вход был успешно выполнен. Если вы используете ваш номер телефона снова, то могут быть наложены ограничения.
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 

@@ -12,6 +12,8 @@ next-payment-method-first-approve = Сначала вам необходимо �
 ## Page - Upgrade page
 
 upgrade-page-payment-information = Платежная информация
+# $nextInvoiceDate (number) - The date of the next invoice
+upgrade-page-acknowledgment = Ваш план сменится сразу, и у вас сегодня будет списана пропорциональная сумма за оставшуюся часть вашего платёжного цикла. Начиная с { $nextInvoiceDate }, у вас будет сниматься полная сумма.
 checkout-error-boundary-retry-button = Попробовать снова
 checkout-error-boundary-basic-error-message = Что-то пошло не так. Пожалуйста, попробуйте ещё раз или <contactSupportLink>обратитесь в службу поддержки.</contactSupportLink>
 
