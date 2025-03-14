@@ -852,6 +852,8 @@ tfa-row-backup-codes-title = バックアップ認証コード
 # $numCodesRemaining - the number of backup authentication codes that have not yet been used (generally between 1 to 5)
 # A different message is shown when no codes are available
 tfa-row-backup-codes-available-v2 = コード: 残り { $numCodesAvailable } 個
+# Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
+tfa-row-backup-codes-get-new-cta-v2 = 新しいコードを作成
 # 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
 tfa-row-backup-codes-description-2 = これは、携帯端末や認証アプリを使用できない場合にアカウントを回復する最も安全な方法です。
 
