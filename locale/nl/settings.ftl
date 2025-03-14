@@ -1047,6 +1047,8 @@ tfa-row-backup-phone-delete-button = Verwijderen
 # Shown in tooltip on delete button or delete icon
 tfa-row-backup-phone-delete-title-v2 = Hersteltelefoonnummer verwijderen
 tfa-row-backup-phone-delete-restriction-v2 = Als u uw hersteltelefoonnummer wilt verwijderen, voeg dan reserve-authenticatiecodes toe of schakel eerst authenticatie in twee stappen uit om te voorkomen dat u geen toegang meer hebt tot uw account.
+# "this" refers to recovery phone
+tfa-row-backup-phone-description-v2 = Dit is de eenvoudigste herstelmethode als u uw authenticator-app niet kunt gebruiken.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
@@ -1219,11 +1221,17 @@ auth-error-1003 = Lokale opslag of cookies zijn nog steeds uitgeschakeld
 auth-error-1008 = Uw oude en nieuwe wachtwoord moeten verschillen
 auth-error-1010 = Geldig wachtwoord vereist
 auth-error-1011 = Geldig e-mailadres vereist
+auth-error-1018 = Uw bevestigings-e-mail is zojuist geretourneerd. Hebt u het e-mailadres verkeerd getypt?
+auth-error-1020 = Hebt u het e-mailadres verkeerd getypt? firefox.com is geen geldige e-mailservice
 auth-error-1031 = U moet uw leeftijd invoeren om te registreren
 auth-error-1032 = U moet een geldige leeftijd invoeren om te registreren
 auth-error-1054 = Ongeldige code voor authenticatie in twee stappen
 auth-error-1056 = Ongeldige reserve-authenticatiecode
 auth-error-1062 = Ongeldige omleiding
+# Shown when a user tries to sign up with an email address with a domain that doesn't receive emails
+auth-error-1064 = Hebt u het e-mailadres verkeerd getypt? { $domain } is geen geldige e-mailservice
+auth-error-1066 = E-mailmaskers kunnen niet worden gebruikt om een account aan te maken.
+auth-error-1067 = Hebt u het e-mailadres verkeerd getypt?
 # Displayed when we want to reference a user's previously set up recovery phone
 # number, but they are not completely signed in yet. We'll only show the last 4 digits.
 # Variables:
@@ -1281,6 +1289,8 @@ cookies-disabled-learn-more = Meer info
 index-header = Voer uw e-mailadres in
 index-sync-header = Doorgaan naar uw { -product-mozilla-account }
 index-sync-subheader = Synchroniseer uw wachtwoorden, tabbladen en bladwijzers overal waar u { -brand-firefox } gebruikt.
+index-relay-header = Een e-mailmasker aanmaken
+index-relay-subheader = Geef het e-mailadres op waarnaar u e-mailberichten vanuit uw gemaskeerde e-mailadres wilt doorsturen.
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = Doorgaan naar { $serviceName }
 index-subheader-with-logo = Doorgaan naar <span>{ $serviceLogo }</span>
@@ -1289,6 +1299,10 @@ index-cta = Registreren of aanmelden
 index-account-info = Een { -product-mozilla-account } ontgrendelt ook de toegang tot meer privacybeschermende producten van { -brand-mozilla }.
 index-email-input =
     .label = Voer uw e-mailadres in
+# When users delete their Mozilla account inside account Settings, they are redirected to this page with a success message
+index-account-delete-success = Account met succes verwijderd
+# Displayed when users try to sign up for an account and their confirmation code email bounces
+index-email-bounced = Uw bevestigings-e-mailbericht is zojuist geretourneerd. Hebt u het e-mailadres verkeerd getypt?
 
 ## InlineRecoveryKeySetup page component
 
@@ -1715,6 +1729,11 @@ signin-recovery-phone-send-code-error-heading = Er is een probleem opgetreden bi
 signin-recovery-phone-code-verification-error-heading = Er is een probleem opgetreden bij het verifiëren van uw code
 # Follows the error message (e.g, "There was a problem sending a code")
 signin-recovery-phone-general-error-description = Probeer het later opnieuw.
+signin-recovery-phone-invalid-code-error-description = De code is ongeldig of verlopen.
+signin-recovery-phone-invalid-code-error-link = Reserve-authenticatiecodes in plaats hiervan gebruiken?
+# "Limits" refers to potential restrictions on how often a recovery phone number can be used for signing in within a given time period.
+# If limits are reached, users may have to use an alternate two-step authentication method or wait until the restriction period is over.
+signin-recovery-phone-success-message = Met succes aangemeld. Er kunnen beperkingen van toepassing zijn als u uw hersteltelefoonnummer opnieuw gebruikt.
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 

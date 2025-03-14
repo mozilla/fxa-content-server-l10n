@@ -11,6 +11,9 @@ next-payment-method-first-approve = U dient eerst uw abonnement goed te keuren
 
 ## Page - Upgrade page
 
+upgrade-page-payment-information = Betalingsgegevens
+# $nextInvoiceDate (number) - The date of the next invoice
+upgrade-page-acknowledgment = Uw abonnement wijzigt direct, en er wordt een proportioneel bedrag in rekening gebracht voor het restant van deze facturatieperiode. Vanaf { $nextInvoiceDate } wordt u het volledige bedrag in rekening gebracht.
 checkout-error-boundary-retry-button = Opnieuw proberen
 checkout-error-boundary-basic-error-message = Er is iets misgegaan. Probeer het opnieuw of <contactSupportLink>neem contact op met de ondersteuningsafdeling.</contactSupportLink>
 
@@ -133,6 +136,7 @@ next-new-user-subscribe-product-assurance = We gebruiken uw e-mailadres alleen o
 plan-price-interval-daily = { $amount } per dag
 plan-price-interval-weekly = { $amount } per week
 plan-price-interval-monthly = { $amount } per maand
+plan-price-interval-halfyearly = { $amount } per 6 maanden
 plan-price-interval-yearly = { $amount } per jaar
 
 ## Component - SubscriptionTitle
@@ -152,6 +156,11 @@ next-subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capita
 next-terms = Servicevoorwaarden
 next-privacy = Privacyverklaring
 next-terms-download = Voorwaarden downloaden
+terms-and-privacy-stripe-label = { -brand-mozilla } gebruikt { -brand-name-stripe } voor veilig betalingsverkeer.
+terms-and-privacy-stripe-link = { -brand-name-stripe }-privacybeleid
+terms-and-privacy-paypal-label = { -brand-mozilla } gebruikt { -brand-paypal } voor veilig betalingsverkeer.
+terms-and-privacy-paypal-link = { -brand-paypal }-privacybeleid
+terms-and-privacy-stripe-and-paypal-label = { -brand-mozilla } gebruikt { -brand-name-stripe } en { -brand-paypal } voor veilig betalingsverkeer.
 
 ## Component - UpdatedPurchaseDetails
 
@@ -168,4 +177,5 @@ upgrade-purchase-details-prorated-upgrade = Naar rato upgrade
 upgrade-purchase-details-new-plan-daily = { $productName } (dagelijks)
 upgrade-purchase-details-new-plan-weekly = { $productName } (wekelijks)
 upgrade-purchase-details-new-plan-monthly = { $productName } (maandelijks)
+upgrade-purchase-details-new-plan-halfyearly = { $productName } (6 maandelijks)
 upgrade-purchase-details-new-plan-yearly = { $productName } (jaarlijks)
