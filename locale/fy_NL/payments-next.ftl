@@ -11,6 +11,9 @@ next-payment-method-first-approve = Jo moatte earst jo abonnemint goedkarre
 
 ## Page - Upgrade page
 
+upgrade-page-payment-information = Betellingsgegevens
+# $nextInvoiceDate (number) - The date of the next invoice
+upgrade-page-acknowledgment = Jo abonnemint wiziget daliks, en der wurdt in grut bedrach yn rekkening brocht foar it restant fan jo fakturaasjeperioade. Fan { $nextInvoiceDate } ôf wurdt jo it folsleine bedrach yn rekkening brocht.
 checkout-error-boundary-retry-button = Opnij probearje
 checkout-error-boundary-basic-error-message = Der gie wat mis. Probearje it opnij of <contactSupportLink>nim kontakt op mei de stipeôfdieling.</contactSupportLink>
 
@@ -133,6 +136,7 @@ next-new-user-subscribe-product-assurance = Wy brûke jo e-mailadres allinnich o
 plan-price-interval-daily = { $amount } deis
 plan-price-interval-weekly = { $amount } wyks
 plan-price-interval-monthly = { $amount } yn ’e moanne
+plan-price-interval-halfyearly = { $amount } yn 6 moannen
 plan-price-interval-yearly = { $amount } it jier
 
 ## Component - SubscriptionTitle
@@ -152,6 +156,11 @@ next-subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capita
 next-terms = Tsjinstbetingsten
 next-privacy = Privacyferklearring
 next-terms-download = Betingsten downloade
+terms-and-privacy-stripe-label = { -brand-mozilla } brûkt { -brand-name-stripe } foar feilich betellingsferkear.
+terms-and-privacy-stripe-link = { -brand-name-stripe }-privacybelied
+terms-and-privacy-paypal-label = { -brand-mozilla } brûkt { -brand-paypal } foar feilich betellingsferkear.
+terms-and-privacy-paypal-link = { -brand-paypal }-privacybelied
+terms-and-privacy-stripe-and-paypal-label = { -brand-mozilla } brûkt { -brand-name-stripe } en { -brand-paypal } foar feilich betellingsferkear.
 
 ## Component - UpdatedPurchaseDetails
 
@@ -168,4 +177,5 @@ upgrade-purchase-details-prorated-upgrade = Nei rato opwurdearje
 upgrade-purchase-details-new-plan-daily = { $productName } (deistich)
 upgrade-purchase-details-new-plan-weekly = { $productName } (wykliks)
 upgrade-purchase-details-new-plan-monthly = { $productName } (moanliks)
+upgrade-purchase-details-new-plan-halfyearly = { $productName } (6 moanliks)
 upgrade-purchase-details-new-plan-yearly = { $productName } (jierliks)
