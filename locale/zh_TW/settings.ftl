@@ -1695,6 +1695,10 @@ signin-recovery-phone-code-verification-error-heading = 確認您輸入的驗證
 # Follows the error message (e.g, "There was a problem sending a code")
 signin-recovery-phone-general-error-description = 請稍候再試。
 signin-recovery-phone-invalid-code-error-description = 此驗證碼無效，或已失效。
+signin-recovery-phone-invalid-code-error-link = 要改用備用驗證碼嗎？
+# "Limits" refers to potential restrictions on how often a recovery phone number can be used for signing in within a given time period.
+# If limits are reached, users may have to use an alternate two-step authentication method or wait until the restriction period is over.
+signin-recovery-phone-success-message = 成功登入。若您再次使用救援電話號碼登入，可能會遇到帳號限制。
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
