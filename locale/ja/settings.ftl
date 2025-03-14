@@ -854,8 +854,15 @@ tfa-row-backup-codes-title = バックアップ認証コード
 tfa-row-backup-codes-available-v2 = コード: 残り { $numCodesAvailable } 個
 # Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
 tfa-row-backup-codes-get-new-cta-v2 = 新しいコードを作成
+# Shown to users who have no backup authentication codes
+# Button to add backup authentication codes when none are configured
+tfa-row-backup-codes-add-cta = 追加
 # 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
-tfa-row-backup-codes-description-2 = これは、携帯端末や認証アプリを使用できない場合にアカウントを回復する最も安全な方法です。
+tfa-row-backup-codes-description-2 = 携帯端末や認証アプリを使用できない場合にアカウントを回復する最も安全な方法です。
+# button to add/configure a recovery phone
+tfa-row-backup-phone-add-cta = 追加
+# "this" refers to recovery phone
+tfa-row-backup-phone-description-v2 = 認証アプリを使用できない場合でも簡単にアカウントを回復できる方法です。
 
 ## Switch component
 
@@ -1365,6 +1372,7 @@ back = 戻る
 ## their password, and they previously had set up an account recovery method.
 
 signin-recovery-method-header = ログイン
+signin-recovery-method-phone = 回復用電話番号
 signin-recovery-method-code-v2 = バックアップ認証コード
 # Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
 signin-recovery-method-code-info-v2 = コード: 残り { $numBackupCodes } 個

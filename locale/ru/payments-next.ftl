@@ -11,6 +11,7 @@ next-payment-method-first-approve = Сначала вам необходимо �
 
 ## Page - Upgrade page
 
+upgrade-page-payment-information = Платежная информация
 checkout-error-boundary-retry-button = Попробовать снова
 checkout-error-boundary-basic-error-message = Что-то пошло не так. Пожалуйста, попробуйте ещё раз или <contactSupportLink>обратитесь в службу поддержки.</contactSupportLink>
 
@@ -133,6 +134,7 @@ next-new-user-subscribe-product-assurance = Мы используем вашу �
 plan-price-interval-daily = { $amount } в день
 plan-price-interval-weekly = { $amount } в неделю
 plan-price-interval-monthly = { $amount } ежемесячно
+plan-price-interval-halfyearly = { $amount } каждые 6 месяцев
 plan-price-interval-yearly = { $amount } в год
 
 ## Component - SubscriptionTitle
@@ -152,6 +154,11 @@ next-subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts }
 next-terms = Условия службы
 next-privacy = Уведомление о конфиденциальности
 next-terms-download = Условия загрузки
+terms-and-privacy-stripe-label = { -brand-mozilla } использует { -brand-name-stripe } для безопасной обработки платежей.
+terms-and-privacy-stripe-link = Политика конфиденциальности { -brand-name-stripe }
+terms-and-privacy-paypal-label = { -brand-mozilla } использует { -brand-paypal } для безопасной обработки платежей.
+terms-and-privacy-paypal-link = Политика конфиденциальности { -brand-paypal }
+terms-and-privacy-stripe-and-paypal-label = { -brand-mozilla } использует { -brand-name-stripe } и { -brand-paypal } для безопасной обработки платежей.
 
 ## Component - UpdatedPurchaseDetails
 
@@ -168,4 +175,5 @@ upgrade-purchase-details-prorated-upgrade = Пропорциональное о�
 upgrade-purchase-details-new-plan-daily = { $productName } (ежедневно)
 upgrade-purchase-details-new-plan-weekly = { $productName } (еженедельно)
 upgrade-purchase-details-new-plan-monthly = { $productName } (ежемесячно)
+upgrade-purchase-details-new-plan-halfyearly = { $productName } (каждые полгода)
 upgrade-purchase-details-new-plan-yearly = { $productName } (ежегодно)
