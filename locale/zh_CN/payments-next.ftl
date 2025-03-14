@@ -11,6 +11,7 @@ next-payment-method-first-approve = 请先核准您的订阅
 
 ## Page - Upgrade page
 
+upgrade-page-payment-information = 付款信息
 checkout-error-boundary-retry-button = 重试
 checkout-error-boundary-basic-error-message = 出了点问题。请重试或<contactSupportLink>联系用户支持</contactSupportLink>。
 
