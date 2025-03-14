@@ -11,6 +11,7 @@ next-payment-method-first-approve = ראשית יש לאשר את המינוי �
 
 ## Page - Upgrade page
 
+upgrade-page-payment-information = פרטי תשלום
 checkout-error-boundary-retry-button = ניסיון חוזר
 checkout-error-boundary-basic-error-message = משהו השתבש. נא לנסות שוב או <contactSupportLink>ליצור קשר עם התמיכה</contactSupportLink>.
 
@@ -130,6 +131,7 @@ next-new-user-subscribe-product-assurance = אנו משתמשים בדוא״ל �
 plan-price-interval-daily = { $amount } כל יום
 plan-price-interval-weekly = { $amount } כל שבוע
 plan-price-interval-monthly = { $amount } כל חודש
+plan-price-interval-halfyearly = ‏{ $amount } כל 6 חודשים
 plan-price-interval-yearly = { $amount } כל שנה
 
 ## Component - SubscriptionTitle
@@ -149,6 +151,11 @@ next-subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts }
 next-terms = תנאי השירות
 next-privacy = הצהרת פרטיות
 next-terms-download = תנאי הורדה
+terms-and-privacy-stripe-label = ‏{ -brand-mozilla } משתמש ב־{ -brand-name-stripe } לצורך עיבוד תשלומים מאובטח.
+terms-and-privacy-stripe-link = מדיניות הפרטיות של { -brand-name-stripe }
+terms-and-privacy-paypal-label = ‏{ -brand-mozilla } משתמש ב־{ -brand-paypal } לצורך עיבוד תשלומים מאובטח.
+terms-and-privacy-paypal-link = מדיניות הפרטיות של { -brand-paypal }
+terms-and-privacy-stripe-and-paypal-label = ‏{ -brand-mozilla } משתמש ב־{ -brand-name-stripe } וב־{ -brand-paypal } לצורך עיבוד תשלומים מאובטח.
 
 ## Component - UpdatedPurchaseDetails
 
@@ -164,4 +171,5 @@ upgrade-purchase-details-new-total-label = סה״כ חדש
 upgrade-purchase-details-new-plan-daily = ‏{ $productName } (יומי)
 upgrade-purchase-details-new-plan-weekly = ‏{ $productName } (שבועי)
 upgrade-purchase-details-new-plan-monthly = ‏{ $productName } (חודשי)
+upgrade-purchase-details-new-plan-halfyearly = ‏{ $productName } (6 חודשים)
 upgrade-purchase-details-new-plan-yearly = ‏{ $productName } (שנתי)

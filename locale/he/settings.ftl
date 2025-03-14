@@ -1148,10 +1148,16 @@ auth-error-1003 = אחסון מקומי או עוגיות עדיין מושבת�
 auth-error-1008 = הססמה החדשה שלך חייבת להיות שונה
 auth-error-1010 = נדרשת ססמה חוקית
 auth-error-1011 = נדרשת כתובת דוא״ל חוקית
+auth-error-1018 = הודעת האימות שלך לא הגיעה ליעדה. האם כתובת הדוא״ל הוקלדה בצורה שגויה?
+auth-error-1020 = האם כתובת הדוא״ל הוקלדה בצורה שגויה? firefox.com אינו שירות דוא״ל חוקי
 auth-error-1031 = עליך להכניס את גילך כדי להשלים את ההרשמה
 auth-error-1032 = עליך להקליד גיל תקני כדי להירשם
 auth-error-1054 = קוד אימות דו־שלבי לא תקין
 auth-error-1062 = הפנייה לא חוקית
+# Shown when a user tries to sign up with an email address with a domain that doesn't receive emails
+auth-error-1064 = האם כתובת הדוא״ל הוקלדה בצורה שגויה? { $domain } אינו שירות דוא״ל חוקי
+auth-error-1066 = לא ניתן להשתמש במסיכות דוא״ל ליצירת חשבון.
+auth-error-1067 = טעות בהקלדת כתובת הדוא״ל?
 # Displayed when we want to reference a user's previously set up recovery phone
 # number, but they are not completely signed in yet. We'll only show the last 4 digits.
 # Variables:
@@ -1209,6 +1215,7 @@ cookies-disabled-learn-more = מידע נוסף
 index-header = נא להכניס את כתובת הדוא״ל שלך
 index-sync-header = המשך אל { -product-mozilla-account(case: "the") } שלך
 index-sync-subheader = סנכרון הססמאות, הלשוניות פתוחות והסימניות שלך בכל מקום בו יש לך את { -brand-firefox }.
+index-relay-header = יצירת מסיכת דוא״ל
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = המשך אל { $serviceName }
 index-subheader-with-logo = המשך אל <span>{ $serviceLogo }</span>
@@ -1618,6 +1625,9 @@ signin-recovery-phone-send-code-error-heading = הייתה בעיה בשליחת
 signin-recovery-phone-code-verification-error-heading = הייתה בעיה באימות הקוד שלך
 # Follows the error message (e.g, "There was a problem sending a code")
 signin-recovery-phone-general-error-description = נא לנסות שוב מאוחר יותר.
+# "Limits" refers to potential restrictions on how often a recovery phone number can be used for signing in within a given time period.
+# If limits are reached, users may have to use an alternate two-step authentication method or wait until the restriction period is over.
+signin-recovery-phone-success-message = התחברת בהצלחה. עשויות לחול הגבלות אם ייעשה שימוש בטלפון השחזור שלך שוב.
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
