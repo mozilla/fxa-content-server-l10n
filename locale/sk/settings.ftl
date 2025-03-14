@@ -1045,6 +1045,8 @@ tfa-row-backup-phone-delete-button = Odstrániť
 # Shown in tooltip on delete button or delete icon
 tfa-row-backup-phone-delete-title-v2 = Odstráni možnosť obnovy pomocou telefónu
 tfa-row-backup-phone-delete-restriction-v2 = Ak chcete odstrániť možnosť obnovy pomocou telefónu, pridajte záložné overovacie kódy alebo najskôr zakážte dvojstupňové overenie, aby ste sa vyhli zablokovaniu vášho účtu.
+# "this" refers to recovery phone
+tfa-row-backup-phone-description-v2 = Toto je najjednoduchší spôsob obnovenia, ak nemôžete použiť aplikáciu na overenie totožnosti.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
@@ -1214,11 +1216,17 @@ auth-error-1003 = Miestne úložisko alebo súbory cookie sú stále zakázané
 auth-error-1008 = Staré a nové heslo sa musia líšiť
 auth-error-1010 = Vyžaduje sa zadanie platného hesla
 auth-error-1011 = Vyžaduje sa platná e‑mailová adresa
+auth-error-1018 = Váš potvrdzujúci e‑mail sa práve vrátil. Nesprávne zadaný e‑mail?
+auth-error-1020 = Nesprávne zadaný e‑mail? firefox.com nie je platná e‑mailová služba
 auth-error-1031 = Ak sa chcete prihlásiť, musíte zadať svoj vek
 auth-error-1032 = Ak sa chcete prihlásiť, musíte zadať platný vek
 auth-error-1054 = Neplatný dvojstupňový overovací kód
 auth-error-1056 = Neplatný záložný overovací kód
 auth-error-1062 = Neplatné presmerovanie
+# Shown when a user tries to sign up with an email address with a domain that doesn't receive emails
+auth-error-1064 = Nesprávne zadaný e‑mail? { $domain } nie je platná e‑mailová služba
+auth-error-1066 = Na vytvorenie účtu nie je možné použiť e‑mailovú masku.
+auth-error-1067 = Nesprávna e-mailová adresa?
 # Displayed when we want to reference a user's previously set up recovery phone
 # number, but they are not completely signed in yet. We'll only show the last 4 digits.
 # Variables:
@@ -1276,6 +1284,8 @@ cookies-disabled-learn-more = Ďalšie informácie
 index-header = Zadajte e‑mailovú adresu
 index-sync-header = Pokračovať do vášho { -product-mozilla-account(case: "gen", capitalization: "lower") }
 index-sync-subheader = Synchronizujte svoje heslá, karty a záložky všade, kde používate { -brand-firefox }.
+index-relay-header = Vytvorenie e‑mailovej masky
+index-relay-subheader = Zadajte e‑mailovú adresu, na ktorú chcete posielať e‑maily zo svojho maskovaného e‑mailu.
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = A pokračovať do služby { $serviceName }
 index-subheader-with-logo = A pokračovať do služby <span>{ $serviceLogo }</span>
@@ -1284,6 +1294,10 @@ index-cta = Zaregistrujte sa alebo sa prihláste
 index-account-info = { -product-mozilla-account } tiež odomkne prístup k ďalším produktom chrániacim súkromie od { -brand-mozilla(case: "gen") }.
 index-email-input =
     .label = Zadajte e‑mailovú adresu
+# When users delete their Mozilla account inside account Settings, they are redirected to this page with a success message
+index-account-delete-success = Účet bol úspešne odstránený
+# Displayed when users try to sign up for an account and their confirmation code email bounces
+index-email-bounced = Váš potvrdzujúci e‑mail sa práve vrátil. Nesprávne zadaný e‑mail?
 
 ## InlineRecoveryKeySetup page component
 
@@ -1712,6 +1726,11 @@ signin-recovery-phone-send-code-error-heading = Pri odosielaní kódu sa vyskyto
 signin-recovery-phone-code-verification-error-heading = Pri overovaní vášho kódu sa vyskytol problém
 # Follows the error message (e.g, "There was a problem sending a code")
 signin-recovery-phone-general-error-description = Skúste to znova neskôr.
+signin-recovery-phone-invalid-code-error-description = Kód je neplatný alebo jeho platnosť vypršala.
+signin-recovery-phone-invalid-code-error-link = Chcete namiesto toho použiť záložné overovacie kódy?
+# "Limits" refers to potential restrictions on how often a recovery phone number can be used for signing in within a given time period.
+# If limits are reached, users may have to use an alternate two-step authentication method or wait until the restriction period is over.
+signin-recovery-phone-success-message = Úspešne ste sa prihlásili. Ak znova použijete telefón na obnovenie, môžu platiť limity.
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
