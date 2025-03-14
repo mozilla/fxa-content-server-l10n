@@ -1218,11 +1218,16 @@ auth-error-1008 = Wašo nowe gronidło musy druge byś
 auth-error-1010 = Płaśiwe gronidło trjebne
 auth-error-1011 = Płaśiwa e-mailowa adresa trjebna
 auth-error-1018 = Waša wobkšuśeńska mejlka jo se rowno wrośiła. Jo e-mailowa adresa wopak?
+auth-error-1020 = E-mailowa adresa jo wopak napisana? firefox.com jo njepłaśiwa e-mailowa słužba
 auth-error-1031 = Musyśo swójo starstwo zapódaś, aby se registrěrował
 auth-error-1032 = Musyśo płaśiwe starstwo zapódaś, aby se registrěrował
 auth-error-1054 = Njepłaśiwy kod za dwójokšacowu awtentifikaciju
 auth-error-1056 = Njepłaśiwy kod za zawěsćeńsku awtentifikaciju
 auth-error-1062 = Njepłaśiwe dalejpósrědnjenje
+# Shown when a user tries to sign up with an email address with a domain that doesn't receive emails
+auth-error-1064 = E-mailowa adresa jo wopak napisana? { $domain } jo njepłaśiwa e-mailowa słužba
+auth-error-1066 = E-mailowe maski njedaju se za napóranje konta wužywaś.
+auth-error-1067 = Sćo e-mailowu adresu wopak napisał?
 # Displayed when we want to reference a user's previously set up recovery phone
 # number, but they are not completely signed in yet. We'll only show the last 4 digits.
 # Variables:
@@ -1280,6 +1285,8 @@ cookies-disabled-learn-more = Dalšne informacije
 index-header = Zapódajśo swóju e-mailowu adresu
 index-sync-header = Dalej k swójomu kontoju { -product-mozilla-account }
 index-sync-subheader = Synchronizěrujśo swóje gronidła, rejtariki a cytańske znamjenja wšuźi, źož { -brand-firefox } wužywaśo.
+index-relay-header = E-mailowu masku napóraś
+index-relay-subheader = Pšosym pódajśo e-mailowu adresu, na kótaruž cośo mejlki wót swójeje maskěrowaneje e-maile dalej pósrědniś.
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = Dalej k { $serviceName }
 index-subheader-with-logo = Dalej k <span>{ $serviceLogo }</span>
@@ -1288,6 +1295,10 @@ index-cta = Registrěrowaś abo pśizjawiś
 index-account-info = Konto { -product-mozilla-account } teke pśistup k wěcej produktam šćita datow wót { -brand-mozilla } zmóžnja.
 index-email-input =
     .label = Zapódajśo swóju e-mailowu adresu
+# When users delete their Mozilla account inside account Settings, they are redirected to this page with a success message
+index-account-delete-success = Konto jo se wuspěšnje wulašowało
+# Displayed when users try to sign up for an account and their confirmation code email bounces
+index-email-bounced = Waša wobkšuśeńska mejlka jo se rowno wrośiła. Jo e-mailowa adresa wopak?
 
 ## InlineRecoveryKeySetup page component
 
@@ -1719,6 +1730,11 @@ signin-recovery-phone-send-code-error-heading = Pśi słanju koda jo problem nas
 signin-recovery-phone-code-verification-error-heading = Pśi pśeglědowanju wašogo koda jo problem nastał
 # Follows the error message (e.g, "There was a problem sending a code")
 signin-recovery-phone-general-error-description = Wopytajśo pšosym pózdźej hyšći raz.
+signin-recovery-phone-invalid-code-error-description = Kod jo njepłaśiwy abo zestarjety.
+signin-recovery-phone-invalid-code-error-link = Awtentifikaciske kody za zawěsćenje město togo wužywaś?
+# "Limits" refers to potential restrictions on how often a recovery phone number can be used for signing in within a given time period.
+# If limits are reached, users may have to use an alternate two-step authentication method or wait until the restriction period is over.
+signin-recovery-phone-success-message = Wuspěšnje pśizjawjeny. Dajo snaź wobgranicowanja, jolic waš wótnowjeński telefon znowego wužywaśo.
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 

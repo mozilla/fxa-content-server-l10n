@@ -1732,7 +1732,7 @@ signin-recovery-phone-send-code-error-heading = Při słanju koda je problem nas
 signin-recovery-phone-code-verification-error-heading = Při přepruwowanju wašeho koda je problem nastał
 # Follows the error message (e.g, "There was a problem sending a code")
 signin-recovery-phone-general-error-description = Prošu spytaj pozdźišo hišće raz.
-signin-recovery-phone-invalid-code-error-description = Kod je je njepłaćiwy abo zestarjeny.
+signin-recovery-phone-invalid-code-error-description = Kod je njepłaćiwy abo zestarjeny.
 signin-recovery-phone-invalid-code-error-link = Awtentifikaciske kody za zawěsćenje město toho wužiwać?
 # "Limits" refers to potential restrictions on how often a recovery phone number can be used for signing in within a given time period.
 # If limits are reached, users may have to use an alternate two-step authentication method or wait until the restriction period is over.
