@@ -724,6 +724,7 @@ recovery-key-create-back-button-title = 設定に戻る
 
 ## PageSetupRecoveryPhone
 
+page-setup-recovery-phone-heading = 回復用電話番号の追加
 
 ## Add secondary email page
 
