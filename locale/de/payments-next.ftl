@@ -177,5 +177,5 @@ upgrade-purchase-details-prorated-upgrade = Anteiliges Upgrade
 upgrade-purchase-details-new-plan-daily = { $productName } (täglich)
 upgrade-purchase-details-new-plan-weekly = { $productName } (wöchentlich)
 upgrade-purchase-details-new-plan-monthly = { $productName } (monatlich)
-upgrade-purchase-details-new-plan-halfyearly = { $productName } sechs Monate
+upgrade-purchase-details-new-plan-halfyearly = { $productName } (sechs Monate)
 upgrade-purchase-details-new-plan-yearly = { $productName } (jährlich)

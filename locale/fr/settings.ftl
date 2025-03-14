@@ -1212,7 +1212,7 @@ auth-error-1008 = Votre nouveau mot de passe doit être différent
 auth-error-1010 = Mot de passe valide requis
 auth-error-1011 = Adresse e-mail valide requise
 auth-error-1018 = Votre message de confirmation nous a été renvoyé. Vérifiez que votre adresse e-mail est correcte.
-auth-error-1020 = Y a-t-il une faute de frappe dans l’adresse e-mail ? firefox.com n’est pas un service de courrier électronique valide
+auth-error-1020 = Y a-t-il une faute de frappe dans l’adresse e-mail ? firefox.com n’est pas un service de messagerie valide
 auth-error-1031 = Vous devez renseigner votre âge pour créer un compte.
 auth-error-1032 = Vous devez entrer un âge valide pour vous inscrire
 auth-error-1054 = Code d’authentification en deux étapes incorrect
@@ -1290,7 +1290,7 @@ index-account-info = Un { -product-mozilla-account } donne également accès à 
 index-email-input =
     .label = Saisissez votre adresse e-mail
 # When users delete their Mozilla account inside account Settings, they are redirected to this page with a success message
-index-account-delete-success = Compte supprimé avec succès
+index-account-delete-success = Le compte a été supprimé
 # Displayed when users try to sign up for an account and their confirmation code email bounces
 index-email-bounced = Votre message de confirmation nous a été renvoyé. Vérifiez que votre adresse e-mail est correcte.
 
@@ -1706,7 +1706,7 @@ signin-recovery-phone-flow-heading = Connexion
 signin-recovery-phone-heading = Saisissez le code de récupération
 # Text that explains the user should check their phone for a recovery code
 # $maskedPhoneNumber - The users masked phone number
-signin-recovery-phone-instruction-v3 = Un code à six chiffres a été envoyé au numéro de téléphone se terminant par <span>{ $lastFourPhoneDigits }</span> par SMS. Ce code expire après 5 minutes. Ne partagez pas ce code avec qui que ce soit.
+signin-recovery-phone-instruction-v3 = Un code à six chiffres a été envoyé au numéro de téléphone se terminant par <span>{ $lastFourPhoneDigits }</span> par SMS. Ce code expire au bout de 5 minutes. Ne partagez pas ce code avec qui que ce soit.
 signin-recovery-phone-input-label = Saisissez le code à 6 chiffres
 signin-recovery-phone-code-submit-button = Confirmer
 signin-recovery-phone-resend-code-button = Renvoyer le code
