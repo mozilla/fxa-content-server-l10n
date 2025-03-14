@@ -1045,6 +1045,8 @@ tfa-row-backup-phone-delete-button = Wotstronić
 # Shown in tooltip on delete button or delete icon
 tfa-row-backup-phone-delete-title-v2 = Wobnowjenski telefon wotstronić
 tfa-row-backup-phone-delete-restriction-v2 = Jeli chceće swój wobnowjenski telefon wotstronić, přidajće zawěsćenske awtentifikaciske kody abo znjemóžńće najprjedy dwukročelowu awtentifikaciju, zo byšće wobešoł, zo so ze swojeho konta wuzamknjeće.
+# "this" refers to recovery phone
+tfa-row-backup-phone-description-v2 = To je najlóša wobnowjenska metoda, jeli njemóžeće swoje awtentifikaciske nałoženje wužiwać.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
@@ -1217,11 +1219,16 @@ auth-error-1003 = Local Storage abo placki su hišće znjemóžnjene
 auth-error-1008 = Waše nowe hesło dyrbi druhe być
 auth-error-1010 = Płaćiwe hesło trěbne
 auth-error-1011 = Płaćiwa e-mejlowa adresa trěbna
+auth-error-1018 = Waša wobkrućenska e-mejl je so runje wróćiła. Je e-mejlowa adresa wopak?
 auth-error-1031 = Dyrbiće swoju starobu zapodać, zo byšće so registrował
 auth-error-1032 = Dyrbiće płaćiwu starobu zapodać, zo byšće so registrował
 auth-error-1054 = Njepłaćiwy kod za dwukročelowu awtentifikacija
 auth-error-1056 = Njepłaćiwy kod za zawěsćensku awtentifikaciju
 auth-error-1062 = Njepłaćiwe dalesposrědkowanje
+# Shown when a user tries to sign up with an email address with a domain that doesn't receive emails
+auth-error-1064 = E-mejlowa adresa je wopak napisana? { $domain } je njepłaćiwa e-mejlowa słužba
+auth-error-1066 = E-mejlowe maski njedadźa so za wutworjenje konta wužiwać.
+auth-error-1067 = Sće e-mejlowu adresu wopak napisał?
 # Displayed when we want to reference a user's previously set up recovery phone
 # number, but they are not completely signed in yet. We'll only show the last 4 digits.
 # Variables:
@@ -1279,6 +1286,8 @@ cookies-disabled-learn-more = Dalše informacije
 index-header = Zapodajće swoju e-mejlowu adresu
 index-sync-header = Dale k swojemu kontu { -product-mozilla-account }
 index-sync-subheader = Synchronizujće swoje hesła, rajtarki a zapołožki wšudźe, hdźež { -brand-firefox } wužiwaće.
+index-relay-header = E-mejlowu masku wutworić
+index-relay-subheader = Prošu podajće e-mejlowu adresu, na kotruž chceće mejlki wot swojeje maskowaneje e-mejle dale sposrědkować.
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = Dale k { $serviceName }
 index-subheader-with-logo = Dale k <span>{ $serviceLogo }</span>
@@ -1287,6 +1296,8 @@ index-cta = Registrować abo přizjewić
 index-account-info = Konto { -product-mozilla-account } tež přistup k wjace produktam škita datow wot { -brand-mozilla } zmóžnja.
 index-email-input =
     .label = Zapodajće swoju e-mejlowu adresu
+# When users delete their Mozilla account inside account Settings, they are redirected to this page with a success message
+index-account-delete-success = Konto je so wuspěšnje zhašało
 
 ## InlineRecoveryKeySetup page component
 
