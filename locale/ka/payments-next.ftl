@@ -161,6 +161,9 @@ next-privacy = პირადულობის განაცხადი
 next-terms-download = პირობების ჩამოტვირთვა
 terms-and-privacy-stripe-label = { -brand-mozilla } იყენებს { -brand-name-stripe }-ს გადახდების უსაფრთხოდ დასამუშავებლად.
 terms-and-privacy-stripe-link = { -brand-name-stripe } – პირადულობის დაცვის განაცხადი
+terms-and-privacy-paypal-label = { -brand-mozilla } იყენებს { -brand-paypal }-ს გადახდების უსაფრთხოდ დასამუშავებლად.
+terms-and-privacy-paypal-link = { -brand-paypal } – პირადი მონაცემების დაცვის დებულება
+terms-and-privacy-stripe-and-paypal-label = { -brand-mozilla } იყენებს { -brand-name-stripe }-სა და { -brand-paypal }-ს გადახდების უსაფრთხოდ დასამუშავებლად.
 
 ## Component - UpdatedPurchaseDetails
 
@@ -177,4 +180,5 @@ upgrade-purchase-details-prorated-upgrade = დანაწილების �
 upgrade-purchase-details-new-plan-daily = { $productName } (ყოველდღიური)
 upgrade-purchase-details-new-plan-weekly = { $productName } (ყოველკვირეული)
 upgrade-purchase-details-new-plan-monthly = { $productName } (ყოველთვიური)
+upgrade-purchase-details-new-plan-halfyearly = { $productName } (6-თვიანი)
 upgrade-purchase-details-new-plan-yearly = { $productName } (ყოველწლიური)

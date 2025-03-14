@@ -51,7 +51,7 @@ new-user-email-validate = ელფოსტა არამართებუ�
 new-user-email-validate-confirm = ელფოსტა არ დაემთხვა
 new-user-already-has-account-sign-in = უკვე გაქვთ ანგარიში. <a>შესვლა</a>
 # $domain (String) - the email domain provided by the user during sign up
-new-user-invalid-email-domain = მცდარბეჭდილია ეგ ელფოსტა? { $domain } არ იძლევა მისამართს.
+new-user-invalid-email-domain = მცდარბეჭდილია ელფოსტა? { $domain } არ იძლევა ელფოსტის მისამართებს.
 
 ## Component - PaymentConfirmation
 
@@ -434,9 +434,6 @@ sub-update-new-plan-daily = { $productName } (ყოველდღიური)
 sub-update-new-plan-weekly = { $productName } (ყოველკვირეული)
 sub-update-new-plan-monthly = { $productName } (ყოველთვიური)
 sub-update-new-plan-yearly = { $productName } (ყოველწლიური)
-
-##
-
 
 ## Routes - Subscriptions - Cancel
 

@@ -1049,6 +1049,8 @@ tfa-row-backup-phone-delete-button = მოცილება
 # Shown in tooltip on delete button or delete icon
 tfa-row-backup-phone-delete-title-v2 = აღდგენის ტელეფონის მოცილება
 tfa-row-backup-phone-delete-restriction-v2 = თუ გსურთ ამოშალოთ თქვენი აღდგენის ტელეფონი, დაამატეთ შესვლის სამარქაფო კოდები ან ჯერ გათიშეთ ორსაფეხურიანი დამოწმება, ანგარიში რომ არ ჩაგეკეტოთ.
+# "this" refers to recovery phone
+tfa-row-backup-phone-description-v2 = ესაა აღდგენის მეტად იოლი გზა, თუ ვერ იყენებთ თქვენს დამმოწმებელ პროგრამას.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
@@ -1219,11 +1221,17 @@ auth-error-1003 = ადგილობრივი საცავი ან �
 auth-error-1008 = ახალი პაროლი ძველისგან უნდა განსხვავდებოდეს
 auth-error-1010 = მართებული პაროლია აუცილებელი
 auth-error-1011 = მართებული ელფოსტაა აუცილებელი
+auth-error-1018 = დადასტურების გამოგზავნილი წერილი ელფოსტაზე უარყოფილია. მისამართი მცდარბეჭდილი ხომ არაა?
+auth-error-1020 = მცდარბეჭდილია ელფოსტა? firefox.com ვერ იქნება ელფოსტის მართებული მომსახურება
 auth-error-1031 = ანგარიშის შესაქმნელად უნდა მიუთითოთ ასაკი
 auth-error-1032 = მართებული ასაკია აუცილებელი ანგარიშის შესაქმნელად
 auth-error-1054 = ორბიჯიანი დამოწმების კოდი არასწორია
 auth-error-1056 = შესვლის დამოწმების უმართებულო სამარქაფო კოდი
 auth-error-1062 = გაუმართავი გადამისამართება
+# Shown when a user tries to sign up with an email address with a domain that doesn't receive emails
+auth-error-1064 = მცდარბეჭდილია ელფოსტა? { $domain } ვერ იქნება ელფოსტის მართებული მომსახურება
+auth-error-1066 = ელფოსტის ნიღბები ვერ იქნება გამოყენებული ანგარიშის შესაქმნელად.
+auth-error-1067 = მცდარბეჭდილია ელფოსტა?
 # Displayed when we want to reference a user's previously set up recovery phone
 # number, but they are not completely signed in yet. We'll only show the last 4 digits.
 # Variables:
@@ -1281,6 +1289,8 @@ cookies-disabled-learn-more = ვრცლად
 index-header = შეიყვანეთ თქვენი ელფოსტა
 index-sync-header = განაგრძეთ თქვენი { -product-mozilla-account(case: "ins") }
 index-sync-subheader = დაასინქრონეთ სანიშნები, ისტორია და პაროლები ყველგან, სადაც გიყენიათ { -brand-firefox }.
+index-relay-header = ელფოსტის ნიღბის შექმნა
+index-relay-subheader = გთხოვთ მიუთითოთ ელფოსტის მისამართი, რომელზეც გსურთ გადაიგზავნოს თქვენი შენიღბული ელფოსტიდან წერილები.
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = განაგრძეთ და იხილეთ { $serviceName }
 index-subheader-with-logo = განაგრძეთ და იხილეთ <span>{ $serviceLogo }</span>
@@ -1289,6 +1299,10 @@ index-cta = შედით ან შექმენით ანგარი�
 index-account-info = { -product-mozilla-account } აგრეთვე გზას გიხსნით პირადულობის უზრუნველმყოფ სხვა პროდუქტებისკენაც, რომელთაც ქმნის { -brand-mozilla }.
 index-email-input =
     .label = შეიყვანეთ თქვენი ელფოსტა
+# When users delete their Mozilla account inside account Settings, they are redirected to this page with a success message
+index-account-delete-success = ანგარიში წარმატებით წაიშალა
+# Displayed when users try to sign up for an account and their confirmation code email bounces
+index-email-bounced = დადასტურების გამოგზავნილი წერილი ელფოსტაზე უარყოფილია. მისამართი მცდარბეჭდილი ხომ არაა?
 
 ## InlineRecoveryKeySetup page component
 
@@ -1718,6 +1732,11 @@ signin-recovery-phone-send-code-error-heading = ხარვეზი წარ�
 signin-recovery-phone-code-verification-error-heading = ხარვეზი წარმოიშვა კოდის დამოწმებისას.
 # Follows the error message (e.g, "There was a problem sending a code")
 signin-recovery-phone-general-error-description = გთხოვთ კვლავ სცადოთ მოგვიანებით.
+signin-recovery-phone-invalid-code-error-description = კოდი უმართებულო ან ვადაგასულია.
+signin-recovery-phone-invalid-code-error-link = სანაცვლოდ გამოიყენებთ დამოწმების სამარქაფო კოდებს?
+# "Limits" refers to potential restrictions on how often a recovery phone number can be used for signing in within a given time period.
+# If limits are reached, users may have to use an alternate two-step authentication method or wait until the restriction period is over.
+signin-recovery-phone-success-message = შესვლა წარმატებულია. შეზღუდვები შეიძლება ახლდეს, თუ კვლავ გამოიყენებთ აღდგენის ტელეფონს.
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
