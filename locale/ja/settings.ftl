@@ -238,6 +238,11 @@ input-password-sr-only-now-hidden = パスワードが隠されました。
 
 ## Phone number component
 
+# This is an aria-label available to screen readers for a selection list that includes country flags, country name and country code
+input-phone-number-country-list-aria-label = 国を選択してください
+input-phone-number-enter-number = 電話番号を入力してください
+input-phone-number-country-united-states = アメリカ合衆国
+input-phone-number-country-canada = カナダ
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = 戻る
 
@@ -518,6 +523,16 @@ flow-setup-phone-confirm-code-resend-code-button = 確認コードを再送す�
 
 ## FlowSetupPhoneConfirmCode
 
+flow-setup-phone-submit-number-heading = 電話番号を確認します
+# The code is a 6-digit code send by text message/SMS
+flow-setup-phone-verify-number-instruction = 電話番号を確認するため { -brand-mozilla } からテキストメッセージが送信されます。このコードは誰にも教えないでください。
+# The initial rollout of the recovery phone is only available to users with US and Canada mobile phone numbers.
+# Voice over Internet Protocol (VoIP), is a technology that uses a broadband Internet connection instead of a regular (or analog) phone line to make calls.
+# Phone mask services (for example Relay) provide a temporary virtual number to avoid providing a real phone number.
+# Both VoIP and phone masks can be unreliable for one-time-passcode (OTP) verification
+flow-setup-phone-submit-number-info-message-v2 = 回復用電話番号はアメリカ合衆国とカナダのみで利用可能です。VoIP の電話番号や電話番号マスクは非推奨です。
+# cliking on the button sends a code by text message to the phone number typed in by the user
+flow-setup-phone-submit-number-button = コードを送信
 
 ## HeaderLockup component, the header in account settings
 
