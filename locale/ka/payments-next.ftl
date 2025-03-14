@@ -11,6 +11,12 @@ next-payment-method-first-approve = ჯერ უნდა დაამოწმ
 
 ## Page - Upgrade page
 
+upgrade-page-payment-information = გადახდის მონაცემები
+# $nextInvoiceDate (number) - The date of the next invoice
+upgrade-page-acknowledgment =
+    თქვენი გეგმა დაუყოვნებლივ შეიცვლება და დღეს ჩამოგეჭრებათ სათანადო წილის
+    ოდენობა დარჩენილი საანგარიშო პერიოდისთვის. თარიღიდან { $nextInvoiceDate }
+    კი ჩამოგეჭრებათ სრული ოდენობა.
 checkout-error-boundary-retry-button = ხელახლა ცდა
 checkout-error-boundary-basic-error-message = რაღაც ხარვეზი წარმოიშვა. გთხოვთ, სცადოთ ხელახლა ან <contactSupportLink>დაუკავშირდეთ მხარდაჭერის გუნდს.</contactSupportLink>
 
@@ -133,6 +139,7 @@ next-new-user-subscribe-product-assurance = ჩვენ ვიყენებ�
 plan-price-interval-daily = { $amount } დღეში
 plan-price-interval-weekly = { $amount } კვირაში
 plan-price-interval-monthly = { $amount } თვეში
+plan-price-interval-halfyearly = { $amount } ყოველ 6 თვეში
 plan-price-interval-yearly = { $amount } წელიწადში
 
 ## Component - SubscriptionTitle
@@ -152,6 +159,8 @@ next-subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts }
 next-terms = გამოყენების პირობები
 next-privacy = პირადულობის განაცხადი
 next-terms-download = პირობების ჩამოტვირთვა
+terms-and-privacy-stripe-label = { -brand-mozilla } იყენებს { -brand-name-stripe }-ს გადახდების უსაფრთხოდ დასამუშავებლად.
+terms-and-privacy-stripe-link = { -brand-name-stripe } – პირადულობის დაცვის განაცხადი
 
 ## Component - UpdatedPurchaseDetails
 
