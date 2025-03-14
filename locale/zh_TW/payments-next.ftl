@@ -11,6 +11,9 @@ next-payment-method-first-approve = 請先授權付款訂閱
 
 ## Page - Upgrade page
 
+upgrade-page-payment-information = 付款資訊
+# $nextInvoiceDate (number) - The date of the next invoice
+upgrade-page-acknowledgment = 您的方案內容會立刻變更，且會向您收取本帳務週期剩餘天數的差額。自 { $nextInvoiceDate } 起將會向您收取全額。
 checkout-error-boundary-retry-button = 重試
 checkout-error-boundary-basic-error-message = 有些東西不對勁，請再試一次或<contactSupportLink>聯絡我們的技術支援團隊。</contactSupportLink>
 
@@ -133,6 +136,7 @@ next-new-user-subscribe-product-assurance = 我們只會使用您的電子郵件
 plan-price-interval-daily = 每天 { $amount }
 plan-price-interval-weekly = 每週 { $amount }
 plan-price-interval-monthly = 每月 { $amount }
+plan-price-interval-halfyearly = 每 6 個月 { $amount }
 plan-price-interval-yearly = 每年 { $amount }
 
 ## Component - SubscriptionTitle
@@ -152,6 +156,11 @@ next-subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capita
 next-terms = 服務條款
 next-privacy = 隱私權公告
 next-terms-download = 下載條款
+terms-and-privacy-stripe-label = { -brand-mozilla } 使用 { -brand-name-stripe } 來安全地處理交易款項。
+terms-and-privacy-stripe-link = { -brand-name-stripe } 隱私權保護政策
+terms-and-privacy-paypal-label = { -brand-mozilla } 使用 { -brand-paypal } 來安全地處理交易款項。
+terms-and-privacy-paypal-link = { -brand-paypal } 隱私權保護政策
+terms-and-privacy-stripe-and-paypal-label = { -brand-mozilla } 使用 { -brand-name-stripe } 與 { -brand-paypal } 來安全地處理交易款項。
 
 ## Component - UpdatedPurchaseDetails
 
@@ -168,4 +177,5 @@ upgrade-purchase-details-prorated-upgrade = 按比例破月升級
 upgrade-purchase-details-new-plan-daily = { $productName }（每日收費）
 upgrade-purchase-details-new-plan-weekly = { $productName }（每週收費）
 upgrade-purchase-details-new-plan-monthly = { $productName }（每月收費）
+upgrade-purchase-details-new-plan-halfyearly = { $productName }（每 6 個月收費）
 upgrade-purchase-details-new-plan-yearly = { $productName }（每年收費）

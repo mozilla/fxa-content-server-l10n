@@ -1028,6 +1028,8 @@ tfa-row-backup-phone-delete-button = 移除
 # Shown in tooltip on delete button or delete icon
 tfa-row-backup-phone-delete-title-v2 = 移除救援電話號碼
 tfa-row-backup-phone-delete-restriction-v2 = 若您想要移除救援電話號碼，請先產生備用驗證碼，或停用兩階段驗證，以避免被鎖在帳號外面無法登入。
+# "this" refers to recovery phone
+tfa-row-backup-phone-description-v2 = 當您無法再使用驗證程式時，這是最安全的救援方法。
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
@@ -1190,11 +1192,17 @@ auth-error-1003 = 本機儲存空間或 Cookie 仍然停用
 auth-error-1008 = 您的新密碼必須與舊密碼不同
 auth-error-1010 = 必須輸入有效的密碼
 auth-error-1011 = 請輸入有效的電子郵件信箱
+auth-error-1018 = 您的確認信被退了，是不是輸錯電子郵件地址了？
+auth-error-1020 = 打錯信箱地址了？firefox.com 不是有效的電子郵件服務業者
 auth-error-1031 = 您必須輸入年齡才能註冊
 auth-error-1032 = 您必須輸入有效年齡才能註冊
 auth-error-1054 = 無效的兩階段驗證碼
 auth-error-1056 = 備用驗證碼無效
 auth-error-1062 = 重導無效
+# Shown when a user tries to sign up with an email address with a domain that doesn't receive emails
+auth-error-1064 = 打錯信箱地址了？{ $domain } 不是有效的電子郵件服務業者
+auth-error-1066 = 不可使用轉寄信箱來註冊帳號。
+auth-error-1067 = 打錯信箱地址？
 # Displayed when we want to reference a user's previously set up recovery phone
 # number, but they are not completely signed in yet. We'll only show the last 4 digits.
 # Variables:
@@ -1252,6 +1260,8 @@ cookies-disabled-learn-more = 了解更多
 index-header = 輸入您的電子郵件地址
 index-sync-header = 繼續前往您的 { -product-mozilla-account }
 index-sync-subheader = 在使用 { -brand-firefox } 的所有地方同步您的密碼、分頁、書籤。
+index-relay-header = 建立新轉寄信箱
+index-relay-subheader = 請提供要實際收到轉寄信件的電子郵件信箱。
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = 繼續前往 { $serviceName }
 index-subheader-with-logo = 繼續前往 <span>{ $serviceLogo }</span>
@@ -1260,6 +1270,10 @@ index-cta = 註冊或登入
 index-account-info = 註冊 { -product-mozilla-account }，即可使用 { -brand-mozilla } 更多隱私保護相關產品。
 index-email-input =
     .label = 輸入您的電子郵件地址
+# When users delete their Mozilla account inside account Settings, they are redirected to this page with a success message
+index-account-delete-success = 已成功刪除帳號
+# Displayed when users try to sign up for an account and their confirmation code email bounces
+index-email-bounced = 您的確認信被退了，是不是輸錯電子郵件地址了？
 
 ## InlineRecoveryKeySetup page component
 
@@ -1680,6 +1694,7 @@ signin-recovery-phone-send-code-error-heading = 傳送驗證碼時遇到問題
 signin-recovery-phone-code-verification-error-heading = 確認您輸入的驗證碼時遇到問題
 # Follows the error message (e.g, "There was a problem sending a code")
 signin-recovery-phone-general-error-description = 請稍候再試。
+signin-recovery-phone-invalid-code-error-description = 此驗證碼無效，或已失效。
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
