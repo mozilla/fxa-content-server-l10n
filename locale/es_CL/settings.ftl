@@ -1289,6 +1289,10 @@ index-cta = Regístrate o conéctate
 index-account-info = Una { -product-mozilla-account } también desbloquea el acceso a más productos de protección de la privacidad de { -brand-mozilla }.
 index-email-input =
     .label = Ingresa tu correo
+# When users delete their Mozilla account inside account Settings, they are redirected to this page with a success message
+index-account-delete-success = Cuenta eliminada exitosamente
+# Displayed when users try to sign up for an account and their confirmation code email bounces
+index-email-bounced = Tu correo de confirmación rebotó. ¿Escribiste bien tu dirección?
 
 ## InlineRecoveryKeySetup page component
 
@@ -1718,6 +1722,11 @@ signin-recovery-phone-send-code-error-heading = Hubo un problema al enviar un c�
 signin-recovery-phone-code-verification-error-heading = Hubo un problema al verificar tu código
 # Follows the error message (e.g, "There was a problem sending a code")
 signin-recovery-phone-general-error-description = Por favor, vuelve a intentarlo más tarde.
+signin-recovery-phone-invalid-code-error-description = El código no es válido o ha expirado.
+signin-recovery-phone-invalid-code-error-link = ¿Usar un código de autenticación de respaldo en su lugar?
+# "Limits" refers to potential restrictions on how often a recovery phone number can be used for signing in within a given time period.
+# If limits are reached, users may have to use an alternate two-step authentication method or wait until the restriction period is over.
+signin-recovery-phone-success-message = Te conectaste correctamente. Se pueden aplicar limitaciones si vuelves a usar tu teléfono de recuperación.
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
