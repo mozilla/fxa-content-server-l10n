@@ -1221,7 +1221,7 @@ auth-error-1062 = Redirection invalide
 # Shown when a user tries to sign up with an email address with a domain that doesn't receive emails
 auth-error-1064 = Y a-t-il une faute de frappe dans l’adresse e-mail ? { $domain } n’est pas un service de messagerie valide
 auth-error-1066 = Les alias de messagerie ne peuvent pas être utilisés pour créer un compte.
-auth-error-1067 = Y a-t-il une faute de frappe dans l’adresse électronique ?
+auth-error-1067 = Y a-t-il une faute de frappe dans l’adresse e-mail ?
 # Displayed when we want to reference a user's previously set up recovery phone
 # number, but they are not completely signed in yet. We'll only show the last 4 digits.
 # Variables:

@@ -136,7 +136,7 @@ next-new-user-subscribe-product-assurance = Nous utilisons votre adresse e-mail 
 plan-price-interval-daily = { $amount } par jour
 plan-price-interval-weekly = { $amount } par semaine
 plan-price-interval-monthly = { $amount } par mois
-plan-price-interval-halfyearly = { $amount } tous les 6 mois
+plan-price-interval-halfyearly = { $amount } tous les 6 mois
 plan-price-interval-yearly = { $amount } par an
 
 ## Component - SubscriptionTitle
@@ -177,5 +177,5 @@ upgrade-purchase-details-prorated-upgrade = Mise à niveau calculée au prorata
 upgrade-purchase-details-new-plan-daily = { $productName } (quotidien)
 upgrade-purchase-details-new-plan-weekly = { $productName } (hebdomadaire)
 upgrade-purchase-details-new-plan-monthly = { $productName } (mensuel)
-upgrade-purchase-details-new-plan-halfyearly = { $productName } (six mois)
+upgrade-purchase-details-new-plan-halfyearly = { $productName } (6 mois)
 upgrade-purchase-details-new-plan-yearly = { $productName } (annuel)
