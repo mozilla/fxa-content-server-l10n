@@ -12,6 +12,8 @@ next-payment-method-first-approve = 请先核准您的订阅
 ## Page - Upgrade page
 
 upgrade-page-payment-information = 付款信息
+# $nextInvoiceDate (number) - The date of the next invoice
+upgrade-page-acknowledgment = 您的方案将立即更改，并向您收取本期剩余部分的差额。自 { $nextInvoiceDate } 起将会向您收取全额。
 checkout-error-boundary-retry-button = 重试
 checkout-error-boundary-basic-error-message = 出了点问题。请重试或<contactSupportLink>联系用户支持</contactSupportLink>。
 
@@ -134,6 +136,7 @@ next-new-user-subscribe-product-assurance = 我们只会使用您的邮箱地址
 plan-price-interval-daily = { $amount }/天
 plan-price-interval-weekly = { $amount }/周
 plan-price-interval-monthly = { $amount }/月
+plan-price-interval-halfyearly = { $amount }/6个月
 plan-price-interval-yearly = { $amount }/年
 
 ## Component - SubscriptionTitle
@@ -153,6 +156,11 @@ next-subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capita
 next-terms = 服务条款
 next-privacy = 隐私声明
 next-terms-download = 下载条款
+terms-and-privacy-stripe-label = { -brand-mozilla } 使用 { -brand-name-stripe } 进行安全支付。
+terms-and-privacy-stripe-link = { -brand-name-stripe } 隐私政策
+terms-and-privacy-paypal-label = { -brand-mozilla } 使用 { -brand-paypal } 进行安全支付。
+terms-and-privacy-paypal-link = { -brand-paypal } 隐私政策
+terms-and-privacy-stripe-and-paypal-label = { -brand-mozilla } 使用 { -brand-name-stripe } 和 { -brand-paypal } 进行安全支付。
 
 ## Component - UpdatedPurchaseDetails
 

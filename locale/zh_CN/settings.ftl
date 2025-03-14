@@ -1192,11 +1192,14 @@ auth-error-1003 = 本地存储或 Cookie 仍然未启用
 auth-error-1008 = 新旧密码不能相同
 auth-error-1010 = 请输入有效的密码
 auth-error-1011 = 需要有效的邮箱地址
+auth-error-1018 = 您的确认邮件刚被退回了。邮箱地址输错了吗？
 auth-error-1031 = 您需要输入您的年龄才能注册
 auth-error-1032 = 您需要输入有效年龄才能注册
 auth-error-1054 = 无效的两步验证码
 auth-error-1056 = 备用验证码无效
 auth-error-1062 = 无效重定向
+auth-error-1066 = 无法使用马甲邮箱注册账户。
+auth-error-1067 = 邮件地址输错了吗？
 # Displayed when we want to reference a user's previously set up recovery phone
 # number, but they are not completely signed in yet. We'll only show the last 4 digits.
 # Variables:
@@ -1254,6 +1257,7 @@ cookies-disabled-learn-more = 详细了解
 index-header = 请输入邮箱地址
 index-sync-header = 继续使用 { -product-mozilla-account }
 index-sync-subheader = 在所有使用 { -brand-firefox } 的设备上，同步您的密码、标签页、书签。
+index-relay-header = 创建马甲邮箱
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = 继续使用 { $serviceName }
 index-subheader-with-logo = 继续使用<span>{ $serviceLogo }</span>
@@ -1262,6 +1266,10 @@ index-cta = 注册或登录
 index-account-info = { -product-mozilla-account }还可用于访问 { -brand-mozilla } 的更多隐私保护产品。
 index-email-input =
     .label = 请输入邮箱地址
+# When users delete their Mozilla account inside account Settings, they are redirected to this page with a success message
+index-account-delete-success = 已成功删除账户
+# Displayed when users try to sign up for an account and their confirmation code email bounces
+index-email-bounced = 您的确认邮件刚被退回了。邮箱地址输错了吗？
 
 ## InlineRecoveryKeySetup page component
 
@@ -1688,6 +1696,8 @@ signin-recovery-phone-send-code-error-heading = 发送验证码时出现问题
 signin-recovery-phone-code-verification-error-heading = 验证您的验证码时出现问题
 # Follows the error message (e.g, "There was a problem sending a code")
 signin-recovery-phone-general-error-description = 请稍后再试。
+signin-recovery-phone-invalid-code-error-description = 验证码无效或已过期。
+signin-recovery-phone-invalid-code-error-link = 要改用备用验证码吗？
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
