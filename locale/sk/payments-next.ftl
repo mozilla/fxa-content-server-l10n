@@ -11,6 +11,7 @@ next-payment-method-first-approve = Najprv musíte schváliť svoje predplatné
 
 ## Page - Upgrade page
 
+upgrade-page-payment-information = Informácie o platbe
 checkout-error-boundary-retry-button = Skúsiť znova
 checkout-error-boundary-basic-error-message = Niečo sa pokazilo. Skúste to znova alebo <contactSupportLink>kontaktujte podporu.</contactSupportLink>
 
