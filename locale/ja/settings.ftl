@@ -531,6 +531,7 @@ flow-setup-phone-verify-number-instruction = 電話番号を確認するため {
 # Phone mask services (for example Relay) provide a temporary virtual number to avoid providing a real phone number.
 # Both VoIP and phone masks can be unreliable for one-time-passcode (OTP) verification
 flow-setup-phone-submit-number-info-message-v2 = 回復用電話番号はアメリカ合衆国とカナダのみで利用可能です。VoIP の電話番号や電話番号マスクは非推奨です。
+flow-setup-phone-submit-number-legal = 電話番号を提供すると、テキストメッセージを送信してアカウントを認証する目的で電話番号が保存されることに同意したものとみなされます。メッセージやデータ通信には料金がかかる場合があります。
 # cliking on the button sends a code by text message to the phone number typed in by the user
 flow-setup-phone-submit-number-button = コードを送信
 
