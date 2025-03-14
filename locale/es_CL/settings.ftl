@@ -1039,6 +1039,8 @@ tfa-row-backup-phone-delete-button = Eliminar
 # Shown in tooltip on delete button or delete icon
 tfa-row-backup-phone-delete-title-v2 = Eliminar teléfono de recuperación
 tfa-row-backup-phone-delete-restriction-v2 = Si quieres eliminar tu teléfono de recuperación, primero añade códigos de autenticación de respaldo o deshabilita la autenticación de dos pasos para evitar el bloqueo de tu cuenta.
+# "this" refers to recovery phone
+tfa-row-backup-phone-description-v2 = Este es el método de recuperación más fácil si no puedes usar tu aplicación de autenticación.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
@@ -1209,11 +1211,17 @@ auth-error-1003 = El almacenamiento local o las cookies siguen deshabilitados
 auth-error-1008 = Tu nueva conraseña debe ser diferente
 auth-error-1010 = Se requiere una contraseña válida
 auth-error-1011 = Se requiere un correo válido
+auth-error-1018 = Tu correo de confirmación rebotó. ¿Escribiste bien tu dirección?
+auth-error-1020 = ¿Escribiste mal tu correo electrónico? firefox.com no es un servicio de correo electrónico válido.
 auth-error-1031 = Debes poner tu edad para registrarte
 auth-error-1032 = Debes poner una edad válida para registrarte
 auth-error-1054 = Código de autenticación en dos pasos incorrecto
 auth-error-1056 = Código de autenticación de respaldo inválido
 auth-error-1062 = Redirección inválida
+# Shown when a user tries to sign up with an email address with a domain that doesn't receive emails
+auth-error-1064 = ¿Escribiste mal tu correo electrónico? { $domain } no es un servicio de correo electrónico válido.
+auth-error-1066 = Las máscaras de correo electrónico no se pueden utilizar para crear una cuenta.
+auth-error-1067 = ¿Correo mal escrito?
 # Displayed when we want to reference a user's previously set up recovery phone
 # number, but they are not completely signed in yet. We'll only show the last 4 digits.
 # Variables:
@@ -1271,6 +1279,8 @@ cookies-disabled-learn-more = Aprender más
 index-header = Ingresa tu correo
 index-sync-header = Continúa a tu { -product-mozilla-account }
 index-sync-subheader = Sincroniza tus contraseñas, pestañas y marcadores donde sea que uses { -brand-firefox }.
+index-relay-header = Crear una máscara de correo
+index-relay-subheader = Por favor, proporciona la dirección de correo electrónico a la que deseas reenviar correos electrónicos desde tu correo enmascarado.
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = Continuar con { $serviceName }
 index-subheader-with-logo = Continuar a <span>{ $serviceLogo }</span>

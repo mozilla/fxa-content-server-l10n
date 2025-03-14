@@ -11,6 +11,7 @@ next-payment-method-first-approve = Primero, deberás aprobar tu suscripción
 
 ## Page - Upgrade page
 
+upgrade-page-payment-information = Información de pago
 checkout-error-boundary-retry-button = Volver a intentarlo
 checkout-error-boundary-basic-error-message = Algo se fue a las pailas. Por favor, vuelve a intentarlo o <contactSupportLink>contacta con el soporte técnico.</contactSupportLink>
 
@@ -133,6 +134,7 @@ next-new-user-subscribe-product-assurance = Solo usamos tu correo electrónico p
 plan-price-interval-daily = { $amount } diarios
 plan-price-interval-weekly = { $amount } semanales
 plan-price-interval-monthly = { $amount } mensuales
+plan-price-interval-halfyearly = { $amount } cada 6 meses
 plan-price-interval-yearly = { $amount } al año
 
 ## Component - SubscriptionTitle
@@ -152,6 +154,11 @@ next-subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capita
 next-terms = Términos del servicio
 next-privacy = Aviso de privacidad
 next-terms-download = Descargar términos
+terms-and-privacy-stripe-label = { -brand-mozilla } usa { -brand-name-stripe } para el procesamiento seguro de pagos.
+terms-and-privacy-stripe-link = Política de privacidad de { -brand-name-stripe }
+terms-and-privacy-paypal-label = { -brand-mozilla } usa { -brand-paypal } para el procesamiento seguro de pagos.
+terms-and-privacy-paypal-link = Política de privacidad de { -brand-paypal }
+terms-and-privacy-stripe-and-paypal-label = { -brand-mozilla } usa { -brand-name-stripe } y { -brand-paypal } para el procesamiento seguro de pagos.
 
 ## Component - UpdatedPurchaseDetails
 
@@ -168,4 +175,5 @@ upgrade-purchase-details-prorated-upgrade = Actualización prorrateada
 upgrade-purchase-details-new-plan-daily = { $productName } (diario)
 upgrade-purchase-details-new-plan-weekly = { $productName } (semanal)
 upgrade-purchase-details-new-plan-monthly = { $productName } (mensual)
+upgrade-purchase-details-new-plan-halfyearly = { $productName } (semestral)
 upgrade-purchase-details-new-plan-yearly = { $productName } (anual)
