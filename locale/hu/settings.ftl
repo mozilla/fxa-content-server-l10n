@@ -1048,7 +1048,7 @@ tfa-row-backup-phone-delete-button = Eltávolítás
 tfa-row-backup-phone-delete-title-v2 = Helyreállítási telefonszám eltávolítása
 tfa-row-backup-phone-delete-restriction-v2 = Ha el akarja távolítani a helyreállítási telefonszámát, adjon hozzá tartalék hitelesítési kódokat vagy először kapcsolja ki a kétlépcsős hitelesítést, hogy elkerülje azt, hogy kizárja magát a fiókjából.
 # "this" refers to recovery phone
-tfa-row-backup-phone-description-v2 = Ez a legegyszerűbb helyreállítási módszer, ha nem tudja használni a hitelesítő alkalmazást.
+tfa-row-backup-phone-description-v2 = Ez a legkönnyebb helyreállítási módszer, ha nem tudja használni a hitelesítő alkalmazást.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
@@ -1222,16 +1222,16 @@ auth-error-1008 = Az új jelszónak különbözőnek kell lennie
 auth-error-1010 = Érvényes jelszó szükséges
 auth-error-1011 = Érvényes e-mail-cím szükséges
 auth-error-1018 = A megerősítő e-mail visszapattant. Talán elgépelte az e-mail-címét?
-auth-error-1020 = Elírta az e-mail címet? A firefox.com nem érvényes levelezőprogram
+auth-error-1020 = Elírta az e-mail-címet? A firefox.com nem érvényes levelezőszolgáltatás.
 auth-error-1031 = A regisztrációhoz meg kell adnia az életkorát
 auth-error-1032 = A regisztrációhoz érvényes életkort kell megadnia
 auth-error-1054 = Érvénytelen kétlépcsős hitelesítési kód
 auth-error-1056 = Érvénytelen tartalék hitelesítési kód
 auth-error-1062 = Érvénytelen átirányítás
 # Shown when a user tries to sign up with an email address with a domain that doesn't receive emails
-auth-error-1064 = Elírta az e-mail címet? A(z) { $domain } nem érvényes levelezőprogram
+auth-error-1064 = Elírta az e-mail-címet? A(z) { $domain } nem érvényes levelezőszolgáltatás.
 auth-error-1066 = Az e-mail-maszkok nem használhatók fiók létrehozásához.
-auth-error-1067 = Elírta az e-mail címet?
+auth-error-1067 = Elírta az e-mail-címet?
 # Displayed when we want to reference a user's previously set up recovery phone
 # number, but they are not completely signed in yet. We'll only show the last 4 digits.
 # Variables:
@@ -1731,7 +1731,7 @@ signin-recovery-phone-code-verification-error-heading = Hiba történt a kód el
 # Follows the error message (e.g, "There was a problem sending a code")
 signin-recovery-phone-general-error-description = Próbálja meg újra később.
 signin-recovery-phone-invalid-code-error-description = A kód érvénytelen vagy lejárt.
-signin-recovery-phone-invalid-code-error-link = Használ helyette tartalék hitelesítési kódokat?
+signin-recovery-phone-invalid-code-error-link = Inkább tartalék hitelesítési kódokat használ?
 # "Limits" refers to potential restrictions on how often a recovery phone number can be used for signing in within a given time period.
 # If limits are reached, users may have to use an alternate two-step authentication method or wait until the restriction period is over.
 signin-recovery-phone-success-message = Sikeresen bejelentkezett. Korlátozások merülhetnek fel, ha újra használja a helyreállítási telefonszámát.

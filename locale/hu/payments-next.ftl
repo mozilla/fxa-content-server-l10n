@@ -13,7 +13,9 @@ next-payment-method-first-approve = Először jóvá kell hagynia az előfizeté
 
 upgrade-page-payment-information = Fizetési információk
 # $nextInvoiceDate (number) - The date of the next invoice
-upgrade-page-acknowledgment = A csomagja azonnal megváltozik, és a mai napon arányos összeget fog fizetni a számlázási időszak hátralévő részéből. A(z) { $nextInvoiceDate } naptól kezdve a teljes összeget levonjuk.
+upgrade-page-acknowledgment =
+    A csomagja azonnal megváltozik, és a mai napon arányos összeget fog fizetni a számlázási időszak hátralévő részéből. A következő dátumtól
+    kezdve a teljes összeg levonásra kerül: { $nextInvoiceDate }.
 checkout-error-boundary-retry-button = Próbálja újra
 checkout-error-boundary-basic-error-message = Hiba történt. Próbálja újra, vagy <contactSupportLink>lépjen kapcsolatba a támogatással.</contactSupportLink>
 
@@ -157,9 +159,9 @@ next-terms = A szolgáltatás feltételei
 next-privacy = Adatvédelmi nyilatkozat
 next-terms-download = Letöltési feltételek
 terms-and-privacy-stripe-label = A { -brand-mozilla } a { -brand-name-stripe }-ot használja a biztonságos fizetésfeldolgozáshoz.
-terms-and-privacy-stripe-link = A { -brand-name-stripe } adatvédelmi irányelveit
+terms-and-privacy-stripe-link = A { -brand-name-stripe } adatvédelmi irányelvei
 terms-and-privacy-paypal-label = A { -brand-mozilla } a { -brand-paypal }t használja a biztonságos fizetésfeldolgozáshoz.
-terms-and-privacy-paypal-link = a { -brand-paypal } adatvédelmi irányelveit
+terms-and-privacy-paypal-link = A { -brand-paypal } adatvédelmi irányelvei
 terms-and-privacy-stripe-and-paypal-label = A { -brand-mozilla } a { -brand-name-stripe }-ot és a { -brand-paypal }t használja a biztonságos fizetésfeldolgozáshoz.
 
 ## Component - UpdatedPurchaseDetails
