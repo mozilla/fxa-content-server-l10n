@@ -1203,14 +1203,14 @@ auth-error-1008 = La nuova password deve essere diversa
 auth-error-1010 = È necessario inserire una password valida
 auth-error-1011 = È necessario inserire un indirizzo email valido
 auth-error-1018 = L’email di conferma è stata respinta. Verifica di aver digitato correttamente l’indirizzo email.
-auth-error-1020 = Email digitata in modo errato? firefox.com non è un servizio di posta elettronica valido
+auth-error-1020 = Hai inserito l’email sbagliata? firefox.com non è un servizio di posta elettronica valido
 auth-error-1031 = Per completare la registrazione devi inserire la tua età
 auth-error-1032 = Per completare la registrazione inserire un’età valida
 auth-error-1054 = Codice di autenticazione in due passaggi non valido
 auth-error-1056 = Codice di autenticazione di backup non valido
 auth-error-1062 = Reindirizzamento non valido
 # Shown when a user tries to sign up with an email address with a domain that doesn't receive emails
-auth-error-1064 = Email digitata in modo errato? { $domain } non è un servizio di posta valido
+auth-error-1064 = Hai inserito l’email sbagliata? { $domain } non è un servizio di posta elettronica valido
 auth-error-1066 = Non è possibile utilizzare alias di posta elettronica per creare un account.
 auth-error-1067 = C’è un errore di battitura nell’indirizzo email?
 # Displayed when we want to reference a user's previously set up recovery phone
@@ -1709,10 +1709,10 @@ signin-recovery-phone-code-verification-error-heading = Si è verificato un prob
 # Follows the error message (e.g, "There was a problem sending a code")
 signin-recovery-phone-general-error-description = Riprova più tardi.
 signin-recovery-phone-invalid-code-error-description = Il codice non è valido o è scaduto.
-signin-recovery-phone-invalid-code-error-link = Utilizzare invece codici di autenticazione di backup?
+signin-recovery-phone-invalid-code-error-link = Utilizzare invece i codici di autenticazione di backup?
 # "Limits" refers to potential restrictions on how often a recovery phone number can be used for signing in within a given time period.
 # If limits are reached, users may have to use an alternate two-step authentication method or wait until the restriction period is over.
-signin-recovery-phone-success-message = Accesso effettuato correttamente. Se utilizzi nuovamente il tuo numero di telefono di recupero, potrebbero essere applicati dei limiti.
+signin-recovery-phone-success-message = Accesso effettuato correttamente. Se utilizzi nuovamente il tuo telefono per il recupero dell’account, potrebbero essere applicati dei limiti.
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 

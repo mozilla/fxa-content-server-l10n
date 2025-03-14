@@ -13,7 +13,7 @@ next-payment-method-first-approve = Per prima cosa devi approvare il tuo abbonam
 
 upgrade-page-payment-information = Informazioni sul pagamento
 # $nextInvoiceDate (number) - The date of the next invoice
-upgrade-page-acknowledgment = Il tuo piano cambierà immediatamente e ti verrà addebitato un importo ripartito proporzionalmente oggi per il resto del ciclo di fatturazione. A partire dal { $nextInvoiceDate } ti verrà addebitato l’intero importo.
+upgrade-page-acknowledgment = Il tuo piano verrà cambiato immediatamente e ti verrà addebitato oggi un importo ripartito proporzionalmente per la parte restante del ciclo di fatturazione. A partire da { $nextInvoiceDate } ti verrà addebitato l’intero importo.
 checkout-error-boundary-retry-button = Riprova
 checkout-error-boundary-basic-error-message = Si è verificato un errore. Riprovare o <contactSupportLink>contattare il supporto</contactSupportLink>.
 
