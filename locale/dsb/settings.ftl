@@ -1043,6 +1043,8 @@ tfa-row-backup-phone-delete-button = Wótwónoźeś
 # Shown in tooltip on delete button or delete icon
 tfa-row-backup-phone-delete-title-v2 = Wótnowjeński telefon wótwónoźeś
 tfa-row-backup-phone-delete-restriction-v2 = Jolic cośo swój wótnowjeński telefon wótwónoźeś, pśidajśo zawěsćeńske awtentifikaciske kody abo znjemóžniśo nejpjerwjej dwójokšacowu awtentifikaciju, aby se wobinuł, až se ze swójogo konta wuzamkujośo.
+# "this" refers to recovery phone
+tfa-row-backup-phone-description-v2 = To jo nejlažčejša wótnowjeńska metoda, jolic njamóžośo swójo awtentifikaciske nałoženje wužywaś.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
@@ -1215,6 +1217,7 @@ auth-error-1003 = Local Storage abo cookieje su hyšći znjemóžnjone
 auth-error-1008 = Wašo nowe gronidło musy druge byś
 auth-error-1010 = Płaśiwe gronidło trjebne
 auth-error-1011 = Płaśiwa e-mailowa adresa trjebna
+auth-error-1018 = Waša wobkšuśeńska mejlka jo se rowno wrośiła. Jo e-mailowa adresa wopak?
 auth-error-1031 = Musyśo swójo starstwo zapódaś, aby se registrěrował
 auth-error-1032 = Musyśo płaśiwe starstwo zapódaś, aby se registrěrował
 auth-error-1054 = Njepłaśiwy kod za dwójokšacowu awtentifikaciju

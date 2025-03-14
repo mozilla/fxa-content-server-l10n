@@ -1220,6 +1220,7 @@ auth-error-1008 = Waše nowe hesło dyrbi druhe być
 auth-error-1010 = Płaćiwe hesło trěbne
 auth-error-1011 = Płaćiwa e-mejlowa adresa trěbna
 auth-error-1018 = Waša wobkrućenska e-mejl je so runje wróćiła. Je e-mejlowa adresa wopak?
+auth-error-1020 = E-mejlowa adresa je wopak napisana? firefox.com je njepłaćiwa e-mejlowa słužba
 auth-error-1031 = Dyrbiće swoju starobu zapodać, zo byšće so registrował
 auth-error-1032 = Dyrbiće płaćiwu starobu zapodać, zo byšće so registrował
 auth-error-1054 = Njepłaćiwy kod za dwukročelowu awtentifikacija
@@ -1298,6 +1299,8 @@ index-email-input =
     .label = Zapodajće swoju e-mejlowu adresu
 # When users delete their Mozilla account inside account Settings, they are redirected to this page with a success message
 index-account-delete-success = Konto je so wuspěšnje zhašało
+# Displayed when users try to sign up for an account and their confirmation code email bounces
+index-email-bounced = Waša wobkrućenska e-mejl je so runje wróćiła. Je e-mejlowa adresa wopak?
 
 ## InlineRecoveryKeySetup page component
 
@@ -1729,6 +1732,11 @@ signin-recovery-phone-send-code-error-heading = Při słanju koda je problem nas
 signin-recovery-phone-code-verification-error-heading = Při přepruwowanju wašeho koda je problem nastał
 # Follows the error message (e.g, "There was a problem sending a code")
 signin-recovery-phone-general-error-description = Prošu spytaj pozdźišo hišće raz.
+signin-recovery-phone-invalid-code-error-description = Kod je je njepłaćiwy abo zestarjeny.
+signin-recovery-phone-invalid-code-error-link = Awtentifikaciske kody za zawěsćenje město toho wužiwać?
+# "Limits" refers to potential restrictions on how often a recovery phone number can be used for signing in within a given time period.
+# If limits are reached, users may have to use an alternate two-step authentication method or wait until the restriction period is over.
+signin-recovery-phone-success-message = Wuspěšnje přizjewjeny. Su snano wobmjezowanja, jeli waš wobnowjenski telefon znowa wužiwaće.
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
