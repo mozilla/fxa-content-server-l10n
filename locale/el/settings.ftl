@@ -1050,6 +1050,8 @@ tfa-row-backup-phone-delete-button = Αφαίρεση
 # Shown in tooltip on delete button or delete icon
 tfa-row-backup-phone-delete-title-v2 = Αφαίρεση τηλεφώνου ανάκτησης
 tfa-row-backup-phone-delete-restriction-v2 = Εάν θέλετε να αφαιρέσετε το τηλέφωνο ανάκτησής σας, προσθέστε εφεδρικούς κωδικούς ταυτοποίησης ή απενεργοποιήστε πρώτα την ταυτοποίηση δύο παραγόντων, ώστε να μην κλειδωθείτε εκτός του λογαριασμού σας.
+# "this" refers to recovery phone
+tfa-row-backup-phone-description-v2 = Αυτή είναι η πιο εύκολη μέθοδος ανάκτησης εάν δεν μπορείτε να χρησιμοποιήσετε την εφαρμογή ελέγχου ταυτότητάς σας.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
@@ -1222,11 +1224,14 @@ auth-error-1003 = Η τοπική αποθήκευση ή τα cookie εξακο
 auth-error-1008 = Ο νέος κωδικός πρόσβασής σας πρέπει να είναι διαφορετικός
 auth-error-1010 = Απαιτείται έγκυρος κωδικός πρόσβασης
 auth-error-1011 = Απαιτείται έγκυρο email
+auth-error-1018 = Το email επιβεβαίωσής σας μόλις επιστράφηκε. Μήπως πληκτρολογήσατε λάθος email;
 auth-error-1031 = Πρέπει να εισαγάγετε την ηλικία σας για εγγραφή
 auth-error-1032 = Πρέπει να εισαγάγετε μια έγκυρη ηλικία για εγγραφή
 auth-error-1054 = Μη έγκυρος κωδικός ταυτοποίησης δύο παραγόντων
 auth-error-1056 = Μη έγκυρος εφεδρικός κωδικός ταυτοποίησης
 auth-error-1062 = Μη έγκυρη ανακατεύθυνση
+auth-error-1066 = Οι μάσκες email δεν μπορούν να χρησιμοποιηθούν για τη δημιουργία λογαριασμού.
+auth-error-1067 = Εσφαλμένο email;
 # Displayed when we want to reference a user's previously set up recovery phone
 # number, but they are not completely signed in yet. We'll only show the last 4 digits.
 # Variables:
@@ -1295,6 +1300,8 @@ index-email-input =
     .label = Εισαγάγετε το email σας
 # When users delete their Mozilla account inside account Settings, they are redirected to this page with a success message
 index-account-delete-success = Επιτυχής διαγραφή λογαριασμού
+# Displayed when users try to sign up for an account and their confirmation code email bounces
+index-email-bounced = Το email επιβεβαίωσής σας μόλις επιστράφηκε. Μήπως πληκτρολογήσατε λάθος email;
 
 ## InlineRecoveryKeySetup page component
 
@@ -1724,6 +1731,7 @@ signin-recovery-phone-send-code-error-heading = Προέκυψε πρόβλημ�
 signin-recovery-phone-code-verification-error-heading = Προέκυψε πρόβλημα κατά την επαλήθευση του κωδικού σας
 # Follows the error message (e.g, "There was a problem sending a code")
 signin-recovery-phone-general-error-description = Δοκιμάστε ξανά αργότερα.
+signin-recovery-phone-invalid-code-error-description = Ο κωδικός δεν είναι έγκυρος ή έχει λήξει.
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 

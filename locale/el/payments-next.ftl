@@ -11,6 +11,9 @@ next-payment-method-first-approve = Θα πρέπει πρώτα να εγκρί
 
 ## Page - Upgrade page
 
+upgrade-page-payment-information = Στοιχεία πληρωμής
+# $nextInvoiceDate (number) - The date of the next invoice
+upgrade-page-acknowledgment = Το πρόγραμμά σας θα αλλάξει άμεσα και θα χρεωθείτε σήμερα το ποσό που αναλογεί στο υπόλοιπο αυτού του κύκλου χρέωσης. Από τις { $nextInvoiceDate } θα χρεώνεστε το πλήρες ποσό.
 checkout-error-boundary-retry-button = Δοκιμή ξανά
 checkout-error-boundary-basic-error-message = Κάτι πήγε στραβά. Δοκιμάστε ξανά ή <contactSupportLink>επικοινωνήστε με την υποστήριξη.</contactSupportLink>
 
@@ -133,6 +136,7 @@ next-new-user-subscribe-product-assurance = Χρησιμοποιούμε το em
 plan-price-interval-daily = { $amount } ημερησίως
 plan-price-interval-weekly = { $amount } εβδομαδιαία
 plan-price-interval-monthly = { $amount } μηνιαία
+plan-price-interval-halfyearly = { $amount } κάθε 6 μήνες
 plan-price-interval-yearly = { $amount } ετησίως
 
 ## Component - SubscriptionTitle
@@ -152,6 +156,11 @@ next-subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(case: 
 next-terms = Όροι υπηρεσίας
 next-privacy = Σημείωση απορρήτου
 next-terms-download = Λήψη όρων
+terms-and-privacy-stripe-label = Η { -brand-mozilla } χρησιμοποιεί το { -brand-name-stripe } για την ασφαλή επεξεργασία των πληρωμών.
+terms-and-privacy-stripe-link = Πολιτική απορρήτου του { -brand-name-stripe }
+terms-and-privacy-paypal-label = Η { -brand-mozilla } χρησιμοποιεί το { -brand-paypal } για την ασφαλή επεξεργασία των πληρωμών.
+terms-and-privacy-paypal-link = Πολιτική απορρήτου του { -brand-paypal }
+terms-and-privacy-stripe-and-paypal-label = Η { -brand-mozilla } χρησιμοποιεί τα { -brand-name-stripe } και { -brand-paypal } για την ασφαλή επεξεργασία των πληρωμών.
 
 ## Component - UpdatedPurchaseDetails
 
@@ -168,4 +177,5 @@ upgrade-purchase-details-prorated-upgrade = Αναλογική αναβάθμι�
 upgrade-purchase-details-new-plan-daily = { $productName } (Ημερησίως)
 upgrade-purchase-details-new-plan-weekly = { $productName } (Εβδομαδιαία)
 upgrade-purchase-details-new-plan-monthly = { $productName } (Μηνιαία)
+upgrade-purchase-details-new-plan-halfyearly = { $productName } (εξαμηνιαίο)
 upgrade-purchase-details-new-plan-yearly = { $productName } (Ετησίως)
