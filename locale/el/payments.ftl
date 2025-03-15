@@ -15,7 +15,7 @@ coupon-promo-code-applied = Εφαρμόστηκε κωδικός προσφορ
 coupon-submit = Εφαρμογή
 coupon-remove = Αφαίρεση
 coupon-error = Ο κωδικός που καταχωρίσατε δεν είναι έγκυρος ή έχει λήξει.
-coupon-error-generic = Προέκυψε σφάλμα κατά την επεξεργασία του κωδικού. Παρακαλούμε δοκιμάστε ξανά.
+coupon-error-generic = Προέκυψε σφάλμα κατά την επεξεργασία του κωδικού. Δοκιμάστε ξανά.
 coupon-error-expired = Ο κωδικός που καταχωρήσατε έληξε.
 coupon-error-limit-reached = Ο κωδικός που καταχωρήσατε έφτασε στο όριο του.
 coupon-error-invalid = Ο κωδικός που καταχωρήσατε δεν είναι έγκυρος.
@@ -127,7 +127,7 @@ payment-cancel-btn = Ακύρωση
 payment-update-btn = Ενημέρωση
 payment-pay-btn = Πληρωμή τώρα
 payment-pay-with-paypal-btn-2 = Πληρωμή με { -brand-paypal }
-payment-validate-name-error = Παρακαλώ εισαγάγετε το όνομά σας
+payment-validate-name-error = Εισαγάγετε το όνομά σας
 
 ## Component - PaymentLegalBlurb
 
@@ -147,7 +147,7 @@ payment-method-first-approve = Θα πρέπει πρώτα να εγκρίνε�
 
 ## Component - PaymentProcessing
 
-payment-processing-message = Παρακαλούμε περιμένετε όσο επεξεργαζόμαστε την πληρωμή σας…
+payment-processing-message = Περιμένετε όσο επεξεργαζόμαστε την πληρωμή σας…
 
 ## Component - PaymentProviderDetails
 
@@ -347,10 +347,10 @@ plan-price-interval-year =
 
 # App error dialog
 general-error-heading = Γενικό σφάλμα εφαρμογής
-basic-error-message = Κάτι πήγε στραβά. Παρακαλούμε δοκιμάστε ξανά αργότερα.
+basic-error-message = Κάτι πήγε στραβά. Δοκιμάστε ξανά αργότερα.
 payment-error-1 = Παρουσιάστηκε πρόβλημα κατά την έγκριση της πληρωμής σας. Δοκιμάστε ξανά ή επικοινωνήστε με τον εκδότη της κάρτας σας.
 payment-error-2 = Παρουσιάστηκε πρόβλημα κατά την έγκριση της πληρωμής σας. Επικοινωνήστε με τον εκδότη της κάρτας σας.
-payment-error-3b = Προέκυψε μη αναμενόμενο σφάλμα κατά την επεξεργασία της πληρωμής σας. Παρακαλούμε δοκιμάστε ξανά.
+payment-error-3b = Προέκυψε μη αναμενόμενο σφάλμα κατά την επεξεργασία της πληρωμής σας. Δοκιμάστε ξανά.
 expired-card-error = Φαίνεται πως η πιστωτική σας κάρτα έχει λήξει. Δοκιμάστε μια άλλη κάρτα.
 insufficient-funds-error = Φαίνεται πως η κάρτα σας δεν διαθέτει επαρκή χρήματα. Δοκιμάστε μια άλλη κάρτα.
 withdrawal-count-limit-exceeded-error = Φαίνεται πως αυτή η συναλλαγή θα υπερβεί το πιστωτικό σας όριο. Δοκιμάστε με μια άλλη κάρτα.
@@ -358,7 +358,7 @@ charge-exceeds-source-limit = Φαίνεται πως αυτή η συναλλα
 instant-payouts-unsupported = Φαίνεται πως η χρεωστική σας κάρτα δεν έχει ρυθμιστεί για άμεσες πληρωμές. Δοκιμάστε μια άλλη χρεωστική ή πιστωτική κάρτα.
 duplicate-transaction = Φαίνεται πως μόλις απεστάλη μια πανομοιότυπη συναλλαγή. Ελέγξτε το ιστορικό πληρωμών σας.
 coupon-expired = Φαίνεται πως ο κωδικός της προωθητικής ενέργειας έχει λήξει.
-card-error = Δεν ήταν δυνατή η επεξεργασία της συναλλαγής σας. Παρακαλούμε επαληθεύστε τα στοιχεία της πιστωτικής σας κάρτας και δοκιμάστε ξανά.
+card-error = Δεν ήταν δυνατή η επεξεργασία της συναλλαγής σας. Επαληθεύστε τα στοιχεία της πιστωτικής σας κάρτας και δοκιμάστε ξανά.
 country-currency-mismatch = Το νόμισμα της συνδρομής δεν είναι έγκυρο για τη χώρα που σχετίζεται με την πληρωμή σας.
 currency-currency-mismatch = Δυστυχώς, δεν μπορείτε να κάνετε εναλλαγή νομισμάτων.
 location-unsupported = Η τρέχουσα τοποθεσία σας δεν υποστηρίζεται σύμφωνα με τους Όρους υπηρεσίας μας.
@@ -366,8 +366,8 @@ no-subscription-change = Δυστυχώς, δεν μπορείτε να αλλά
 # $mobileAppStore (String) - "Google Play Store" or "App Store", localized when the translation is available.
 iap-already-subscribed = Έχετε ήδη εγγραφεί μέσω του { $mobileAppStore }.
 # $productName (String) - The name of the subscribed product.
-fxa-account-signup-error-2 = Ένα σφάλμα συστήματος προκάλεσε την αποτυχία της εγγραφής σας στο { $productName }. Δεν έγινε χρέωση στον τρόπο πληρωμής σας. Παρακαλούμε δοκιμάστε ξανά.
-fxa-post-passwordless-sub-error = Η συνδρομή επιβεβαιώθηκε, αλλά η φόρτωση της σελίδας επιβεβαίωσης απέτυχε. Παρακαλούμε ελέγξτε το email σας για να ρυθμίσετε τον λογαριασμό σας.
+fxa-account-signup-error-2 = Ένα σφάλμα συστήματος προκάλεσε την αποτυχία της εγγραφής σας στο { $productName }. Η μέθοδος πληρωμής σας δεν χρεώθηκε. Δοκιμάστε ξανά.
+fxa-post-passwordless-sub-error = Η συνδρομή επιβεβαιώθηκε, αλλά η φόρτωση της σελίδας επιβεβαίωσης απέτυχε. Ελέγξτε το email σας για να ρυθμίσετε τον λογαριασμό σας.
 newsletter-signup-error = Δεν έχετε εγγραφεί για email ενημέρωσης προϊόντων. Μπορείτε να δοκιμάσετε ξανά στις ρυθμίσεις του λογαριασμού σας.
 product-plan-error =
     .title = Πρόβλημα φόρτωσης προγραμμάτων
@@ -434,9 +434,6 @@ sub-update-new-plan-daily = { $productName } (Ημερησίως)
 sub-update-new-plan-weekly = { $productName } (Εβδομαδιαία)
 sub-update-new-plan-monthly = { $productName } (Μηνιαία)
 sub-update-new-plan-yearly = { $productName } (Ετησίως)
-
-##
-
 
 ## Routes - Subscriptions - Cancel
 

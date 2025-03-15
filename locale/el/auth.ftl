@@ -223,9 +223,9 @@ subscriptionUpdateBillingEnsure-plaintext = Μπορείτε να εξασφαλ
 subscriptionUpdateBillingTry = Θα δοκιμάσουμε την πληρωμή σας ξανά τις επόμενες ημέρες, αλλά ίσως χρειαστεί να μας βοηθήσετε να διορθώσουμε το πρόβλημα <a data-l10n-name="updateBillingUrl">ενημερώνοντας τα στοιχεία πληρωμής σας</a>.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdateBillingTry-plaintext = Θα δοκιμάσουμε την πληρωμή σας ξανά τις επόμενες ημέρες, αλλά ίσως χρειαστεί να μας βοηθήσετε να διορθώσουμε το πρόβλημα ενημερώνοντας τα στοιχεία πληρωμής σας:
-subscriptionUpdatePayment = Για να αποτρέψετε τυχόν διακοπές στην υπηρεσία σας, παρακαλούμε <a data-l10n-name="updateBillingUrl">ενημερώστε τα στοιχεία πληρωμών σας</a> το συντομότερο δυνατό.
+subscriptionUpdatePayment = Για την αποφυγή τυχόν διακοπών στην υπηρεσία σας, <a data-l10n-name="updateBillingUrl">ενημερώστε τα στοιχεία πληρωμής σας</a> το συντομότερο δυνατό.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
-subscriptionUpdatePayment-plaintext = Για να αποτρέψετε τυχόν διακοπές στην υπηρεσία σας, παρακαλούμε ενημερώστε τα στοιχεία πληρωμών σας το συντομότερο δυνατό:
+subscriptionUpdatePayment-plaintext = Για την αποφυγή τυχόν διακοπών στην υπηρεσία σας, ενημερώστε τα στοιχεία πληρωμής σας το συντομότερο δυνατό:
 # Variables:
 #  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 support-message-2 = Για περισσότερες πληροφορίες, επισκεφτείτε την Υποστήριξη { -brand-mozilla }: { $supportUrl }.
@@ -266,10 +266,10 @@ fraudulentAccountDeletion-subject-2 = Ο { -product-mozilla-account(case: "nom",
 fraudulentAccountDeletion-title = Ο λογαριασμός σας διαγράφηκε
 fraudulentAccountDeletion-content-part1-v2 = Πρόσφατα, δημιουργήθηκε ένας { -product-mozilla-account(case: "nom", capitalization: "lower") } και χρεωθήκατε για μια συνδρομή με αυτήν τη διεύθυνση email. Όπως κάνουμε με όλους τους νέους λογαριασμούς, ζητήσαμε να επιβεβαιώσετε τον λογαριασμό σας επικυρώνοντας πρώτα αυτήν τη διεύθυνση email.
 fraudulentAccountDeletion-content-part2-v2 = Προς το παρόν, βλέπουμε ότι ο λογαριασμός δεν επιβεβαιώθηκε ποτέ. Δεδομένου ότι αυτό το βήμα δεν ολοκληρώθηκε, δεν είμαστε σίγουροι εάν πρόκειται για εξουσιοδοτημένη συνδρομή. Συνεπώς, ο { -product-mozilla-account(case: "nom", capitalization: "lower") } που δημιουργήθηκε με αυτήν τη διεύθυνση email διαγράφηκε και η συνδρομή σας ακυρώθηκε με επιστροφή όλου του ποσού.
-fraudulentAccountDeletion-contact = Εάν έχετε ερωτήσεις, παρακαλούμε επικοινωνήστε με την <a data-l10n-name="mozillaSupportUrl">ομάδα υποστήριξής</a> μας.
+fraudulentAccountDeletion-contact = Εάν έχετε ερωτήσεις, επικοινωνήστε με την <a data-l10n-name="mozillaSupportUrl">ομάδα υποστήριξής</a> μας.
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
-fraudulentAccountDeletion-contact-plaintext = Εάν έχετε ερωτήσεις, παρακαλούμε επικοινωνήστε με την ομάδα υποστήριξής μας: { $mozillaSupportUrl }
+fraudulentAccountDeletion-contact-plaintext = Εάν έχετε ερωτήσεις, επικοινωνήστε με την ομάδα υποστήριξής μας: { $mozillaSupportUrl }
 inactiveAccountFinalWarning-subject = Τελευταία ευκαιρία να διατηρήσετε τον { -product-mozilla-account(case: "acc", capitalization: "lower") } σας
 inactiveAccountFinalWarning-title = Ο λογαριασμός { -brand-mozilla } και τα δεδομένα σας θα διαγραφούν
 inactiveAccountFinalWarning-preview = Συνδεθείτε για να διατηρήσετε τον λογαριασμό σας
@@ -489,7 +489,7 @@ subscriptionAccountDeletion-title = Λυπούμαστε που φεύγετε
 subscriptionAccountDeletion-content-cancelled-2 = Διαγράψατε πρόσφατα τον { -product-mozilla-account(case: "acc", capitalization: "lower") } σας. Συνεπώς, έχουμε ακυρώσει τη συνδρομή σας στο { $productName }. Η τελευταία πληρωμή των { $invoiceTotal } έγινε στις { $invoiceDateOnly }.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionAccountFinishSetup-subject = Καλώς ορίσατε στο { $productName }: Παρακαλούμε ορίστε τον κωδικό πρόσβασής σας.
+subscriptionAccountFinishSetup-subject = Καλώς ορίσατε στο { $productName }: Ορίστε τον κωδικό πρόσβασής σας.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-title = Καλώς ορίσατε στο { $productName }
