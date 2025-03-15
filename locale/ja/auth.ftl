@@ -660,7 +660,7 @@ verifyLoginCode-subject-line-2 = { $serviceName } へのログインを承認
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-title-2 = { $serviceName } にログインしましたか？
 # After the colon is a description of the device used to sign in to the service
-verifyLoginCode-safe = アカウントを安全に保つために、次の端末からのログインを承認してください：
+verifyLoginCode-safe = アカウントを安全に保つために、次の端末からのログインを承認してください:
 verifyLoginCode-prompt-3 = はいの場合の認証コードはこちら:
 verifyLoginCode-expiry-notice = 5 分以内に確認コードを入力してください。
 verifyPrimary-title-2 = 優先メールアドレス確認

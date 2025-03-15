@@ -368,6 +368,9 @@ flow-recovery-key-hint-unsafe-char-error = ヒントに安全でないユニコ�
 ## ResetPasswordWarning component
 ## Warning shown to sync users that reset their password without using an account recovery key
 
+password-reset-warning-icon = 警告
+password-reset-chevron-expanded = 警告を折りたたみます
+password-reset-chevron-collapsed = 警告を展開します
 
 ## Alert Bar
 
@@ -1328,12 +1331,23 @@ confirm-reset-password-otp-different-account-link = 別のアカウントを使�
 
 ## PasswordResetConfirmTotp Page
 
+confirm-totp-reset-password-header = パスワードをリセット
+confirm-totp-reset-password-subheader-v2 = 2 段階認証コードを入力してください
+confirm-totp-reset-password-instruction-v2 = パスワードをリセットするには、<strong>認証アプリ</strong>を確認してください。
+confirm-totp-reset-password-trouble-code = コードの入力時に問題が発生しましたか？
+confirm-totp-reset-password-confirm-button = 確認
+confirm-totp-reset-password-input-label-v2 = 6 桁のコードを入力
+confirm-totp-reset-password-use-different-account = 別のアカウントを使用する
+confirm-recovery-code-reset-password-input-label = 10 文字のコードを入力
+confirm-recovery-code-reset-password-trouble-code = 戻る
 
 ## ResetPassword start page
 
 password-reset-flow-heading = パスワードをリセット
+password-reset-body-2 = アカウントを安全に保つために、あなただけが知っていることをいくつか質問します。
 password-reset-email-input =
     .label = メールアドレスを入力
+password-reset-submit-button-2 = 続行
 
 ## ResetPasswordConfirmed
 
@@ -1422,6 +1436,10 @@ signin-recovery-code-required-error = バックアップ認証コードが必要
 ## SigninRecoveryPhone page
 
 signin-recovery-phone-flow-heading = ログイン
+signin-recovery-phone-input-label = 6 桁のコードを入力
+signin-recovery-phone-code-submit-button = 確認
+signin-recovery-phone-resend-code-button = 確認コードを再送する
+signin-recovery-phone-resend-success = コードを送信しました
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
