@@ -171,7 +171,6 @@ form-password-with-inline-criteria-match-error = パスワードが一致しま�
 form-password-with-inline-criteria-sr-too-short-message = パスワードは 8 文字以上にする必要があります。
 form-password-with-inline-criteria-sr-not-email-message = パスワードにメールアドレスを含めることはできません。
 form-password-with-inline-criteria-sr-not-common-message = パスワードは一般的に使用されているパスワードにしてはいけません。
-form-password-with-inline-criteria-sr-requirements-met = 入力されたパスワードはすべてのパスワード要件を満たしています。
 
 ## FormVerifyCode
 
@@ -200,6 +199,12 @@ get-data-trio-print-2 =
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
+# Used to select Canada as country code for phone number
+canadian-flag-icon-aria-label =
+    .aria-label = カナダ国旗
+# Used to select United States as a country code for phone number
+usa-flag-icon-aria-label =
+    .aria-label = アメリカ国旗
 
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
@@ -764,6 +769,7 @@ recovery-key-create-back-button-title = 設定に戻る
 ## PageRecoveryPhoneRemove
 ## Users reach this page from account settings when they want to remove a backup phone number.
 
+settings-recovery-phone-remove-cancel = キャンセル
 
 ## PageSetupRecoveryPhone
 
