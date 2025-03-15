@@ -1041,6 +1041,8 @@ tfa-row-backup-phone-delete-button = Gjave
 # Shown in tooltip on delete button or delete icon
 tfa-row-backup-phone-delete-title-v2 = Gjave il numar di telefon pal recupar dal account
 tfa-row-backup-phone-delete-restriction-v2 = Se tu desideris gjavâ il numar di telefon pal recupar dal account, zonte i codiçs di autenticazion di backup o disative la autenticazion in doi passaçs par evitâ di restâ taiât fûr dal to account.
+# "this" refers to recovery phone
+tfa-row-backup-phone-description-v2 = Chest al è il metodi di recupar plui sempliç se no tu puedis doprâ la aplicazion di autenticazion.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
@@ -1213,11 +1215,17 @@ auth-error-1003 = La archiviazion locâl o i cookies a son ancjemò disativâts
 auth-error-1008 = La gnove password e scugne jessi diferente
 auth-error-1010 = E covente une gnove password valide
 auth-error-1011 = Al è necessari inserî une direzion e-mail valide
+auth-error-1018 = La e-mail di conferme e je a pene stade ricusade al mitent. Direzion e-mail scrite mâl?
+auth-error-1020 = E-mail scrite mâl? firefox.com nol è un servizi di pueste eletroniche valit
 auth-error-1031 = Par completâ la regjistrazion tu scugnis inserî la tô etât
 auth-error-1032 = Par completâ la regjistrazion tu cugnis inserî une etât valide
 auth-error-1054 = Il codiç di autenticazion in doi passaçs nol è valit
 auth-error-1056 = Il codiç di autenticazion di backup nol è valit
 auth-error-1062 = Dirotament no valit
+# Shown when a user tries to sign up with an email address with a domain that doesn't receive emails
+auth-error-1064 = E-mail scrite mâl? { $domain } nol è un servizi di pueste eletroniche valit
+auth-error-1066 = Nol è pussibil doprâ lis mascaris di e-mail par creâ un account.
+auth-error-1067 = Erôrs di batidure pe e-mail?
 # Displayed when we want to reference a user's previously set up recovery phone
 # number, but they are not completely signed in yet. We'll only show the last 4 digits.
 # Variables:
@@ -1275,6 +1283,8 @@ cookies-disabled-learn-more = Plui informazions
 index-header = Inserìs la tô e-mail
 index-sync-header = Continue al to { -product-mozilla-account }
 index-sync-subheader = Sincronize passwords, schedis e segnelibris dapardut là che tu dopris { -brand-firefox }.
+index-relay-header = Cree une mascare di e-mail
+index-relay-subheader = Indiche la direzion de e-mail dulà che tu vuelis mandâ indenant la pueste de tô mascare di pueste eletroniche.
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = Continue su { $serviceName }
 index-subheader-with-logo = Continue su <span>{ $serviceLogo }</span>
@@ -1283,6 +1293,10 @@ index-cta = Regjistriti o jentre
 index-account-info = Un { -product-mozilla-account } al permet ancje di acedi a altris prodots { -brand-mozilla } pe protezion de riservatece.
 index-email-input =
     .label = Inserìs la tô e-mail
+# When users delete their Mozilla account inside account Settings, they are redirected to this page with a success message
+index-account-delete-success = Account eliminât cun sucès
+# Displayed when users try to sign up for an account and their confirmation code email bounces
+index-email-bounced = La e-mail di conferme e je a pene stade ricusade al mitent. Direzion e-mail scrite mâl?
 
 ## InlineRecoveryKeySetup page component
 
@@ -1712,6 +1726,11 @@ signin-recovery-phone-send-code-error-heading = Al è vignût fûr un probleme t
 signin-recovery-phone-code-verification-error-heading = Al è vignût fûr un probleme tal verificâ il codiç
 # Follows the error message (e.g, "There was a problem sending a code")
 signin-recovery-phone-general-error-description = Torne prove plui tart.
+signin-recovery-phone-invalid-code-error-description = Il codiç nol è valit o al è scjadût.
+signin-recovery-phone-invalid-code-error-link = Doprâ invezit i codiç di autenticazion di backup?
+# "Limits" refers to potential restrictions on how often a recovery phone number can be used for signing in within a given time period.
+# If limits are reached, users may have to use an alternate two-step authentication method or wait until the restriction period is over.
+signin-recovery-phone-success-message = Jentrât cun sucès. Se tu tornis a doprâ il to telefon pal recupar dal account, al è pussibil che a vegnin aplicadis limitazions.
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 

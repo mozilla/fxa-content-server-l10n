@@ -12,6 +12,8 @@ next-payment-method-first-approve = Par prime robe tu scugnis aprovâ il to abon
 ## Page - Upgrade page
 
 upgrade-page-payment-information = Informazions sul paiament
+# $nextInvoiceDate (number) - The date of the next invoice
+upgrade-page-acknowledgment = Il to plan al cambiarà daurman e vuê ti vignarà contizât un impuart proporzionâl pe part che e reste dal cicli di faturazion. Scomençant dal/dai { $nextInvoiceDate } ti vignarà contizât dut l’impuart.
 checkout-error-boundary-retry-button = Torne prove
 checkout-error-boundary-basic-error-message = Alc al è lât strucj. Torne prove opûr <contactSupportLink>contate il supuart.</contactSupportLink>
 
@@ -134,6 +136,7 @@ next-new-user-subscribe-product-assurance = O doprìn la tô e-mail dome par cre
 plan-price-interval-daily = { $amount } al dì
 plan-price-interval-weekly = { $amount } ae setemane
 plan-price-interval-monthly = { $amount } al mês
+plan-price-interval-halfyearly = { $amount } ogni 6 mês
 plan-price-interval-yearly = { $amount } al an
 
 ## Component - SubscriptionTitle
@@ -153,6 +156,11 @@ next-subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capita
 next-terms = Tiermins dal servizi
 next-privacy = Informative su la riservatece
 next-terms-download = Discjame i tiermins
+terms-and-privacy-stripe-label = { -brand-mozilla } al dopre { -brand-name-stripe } pe elaborazion sigure dai paiaments.
+terms-and-privacy-stripe-link = Informative su la riservatece di { -brand-name-stripe }
+terms-and-privacy-paypal-label = { -brand-mozilla } al dopre { -brand-paypal } pe elaborazion sigure dai paiaments.
+terms-and-privacy-paypal-link = Informative su la riservatece di { -brand-paypal }
+terms-and-privacy-stripe-and-paypal-label = { -brand-mozilla } al dopre { -brand-name-stripe } e { -brand-paypal } pe elaborazion sigure dal paiament.
 
 ## Component - UpdatedPurchaseDetails
 
@@ -169,4 +177,5 @@ upgrade-purchase-details-prorated-upgrade = Inzornament ripartît in mût propor
 upgrade-purchase-details-new-plan-daily = { $productName } (al dì)
 upgrade-purchase-details-new-plan-weekly = { $productName } (ae setemane)
 upgrade-purchase-details-new-plan-monthly = { $productName } (al mês)
+upgrade-purchase-details-new-plan-halfyearly = { $productName } (6 mês)
 upgrade-purchase-details-new-plan-yearly = { $productName } (al an)
