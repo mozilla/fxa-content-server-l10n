@@ -1228,6 +1228,8 @@ auth-error-1032 = Tu debe inserer un etate valide pro inscriber te
 auth-error-1054 = Codice de authentication a duo passos non valide
 auth-error-1056 = Codice de authentication de reserva non valide
 auth-error-1062 = Redirection non valide
+# Shown when a user tries to sign up with an email address with a domain that doesn't receive emails
+auth-error-1064 = Email mal typate? { $domain } non es un servicio de email valide
 auth-error-1066 = Le mascas de emails non pote esser usate pro crear un conto.
 auth-error-1067 = Email incorrecte?
 # Displayed when we want to reference a user's previously set up recovery phone
@@ -1725,6 +1727,11 @@ signin-recovery-phone-send-code-error-heading = Il ha habite un problema inviant
 signin-recovery-phone-code-verification-error-heading = Il ha habite un problema verificante tu codice.
 # Follows the error message (e.g, "There was a problem sending a code")
 signin-recovery-phone-general-error-description = Retenta plus tarde.
+signin-recovery-phone-invalid-code-error-description = Le codice non es valide o ha expirate.
+signin-recovery-phone-invalid-code-error-link = Usar in vice codice de authentication de salvamento?
+# "Limits" refers to potential restrictions on how often a recovery phone number can be used for signing in within a given time period.
+# If limits are reached, users may have to use an alternate two-step authentication method or wait until the restriction period is over.
+signin-recovery-phone-success-message = Apertura session correcte. Limites pote esser applicate si tu usa tu numero de recuperation ancora.
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
