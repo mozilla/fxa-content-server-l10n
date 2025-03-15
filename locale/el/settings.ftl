@@ -1199,7 +1199,7 @@ auth-error-114-generic = Έχετε προσπαθήσει πάρα πολλές
 #   $retryAfter (String) - Time required before retrying a request. The variable is localized by our
 #                          formatting library (momentjs) as a "time from now" and automatically includes
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
-auth-error-114 = Έχετε προσπαθήσει πάρα πολλές φορές. Παρακαλούμε δοκιμάστε ξανά { $retryAfter }.
+auth-error-114 = Έχετε προσπαθήσει πάρα πολλές φορές. Δοκιμάστε ξανά { $retryAfter }.
 auth-error-125 = Το αίτημα αποκλείστηκε για λόγους ασφαλείας
 auth-error-129 = Μη έγκυρος αριθμός τηλεφώνου
 auth-error-138-2 = Μη επιβεβαιωμένη συνεδρία
