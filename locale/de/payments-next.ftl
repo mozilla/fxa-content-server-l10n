@@ -13,7 +13,7 @@ next-payment-method-first-approve = Zuerst müssen Sie Ihren Dauerauftrag genehm
 
 upgrade-page-payment-information = Zahlungsinformationen
 # $nextInvoiceDate (number) - The date of the next invoice
-upgrade-page-acknowledgment = Ihr Plan wird sofort geändert und Ihnen wird heute ein anteiliger Betrag für den Rest dieses Abrechnungszeitraums berechnet. Ab dem { $startingDate } wird Ihnen der volle Betrag berechnet.
+upgrade-page-acknowledgment = Ihr Plan wird sofort geändert und Ihnen wird heute ein anteiliger Betrag für den Rest dieses Abrechnungszeitraums berechnet. Ab dem { $nextInvoiceDate } wird Ihnen der volle Betrag berechnet.
 checkout-error-boundary-retry-button = Erneut versuchen
 checkout-error-boundary-basic-error-message = Es trat ein Problem auf. Bitte versuchen Sie es erneut oder <contactSupportLink>wenden Sie sich an den Support</contactSupportLink>
 
