@@ -1043,6 +1043,8 @@ tfa-row-backup-phone-delete-button = Xóa
 # Shown in tooltip on delete button or delete icon
 tfa-row-backup-phone-delete-title-v2 = Xoá số điện thoại khôi phục
 tfa-row-backup-phone-delete-restriction-v2 = Nếu bạn muốn xóa số điện thoại khôi phục của mình, hãy thêm mã xác thực dự phòng hoặc tắt xác thực hai bước trước để tránh bị khóa tài khoản.
+# "this" refers to recovery phone
+tfa-row-backup-phone-description-v2 = Đây là phương pháp khôi phục dễ dàng nhất nếu bạn không thể sử dụng ứng dụng xác thực của mình.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
@@ -1213,11 +1215,17 @@ auth-error-1003 = Bộ nhớ cục bộ hoặc cookie vẫn bị tắt
 auth-error-1008 = Mật khẩu mới của bạn phải khác
 auth-error-1010 = Yêu cầu mật khẩu hợp lệ
 auth-error-1011 = Yêu cầu email hợp lệ
+auth-error-1018 = Email xác minh của bạn vừa được trả lại. Bạn đã nhập sai địa chỉ email?
+auth-error-1020 = Bạn đã nhập sai email? firefox.com không phải là dịch vụ email hợp lệ
 auth-error-1031 = Bạn phải nhập tuổi của bạn để đăng ký
 auth-error-1032 = Bạn phải nhập tuổi hợp lệ để đăng ký
 auth-error-1054 = Mã xác thực hai bước không hợp lệ
 auth-error-1056 = Mã xác thực dự phòng không hợp lệ
 auth-error-1062 = Chuyển hướng không hợp lệ
+# Shown when a user tries to sign up with an email address with a domain that doesn't receive emails
+auth-error-1064 = Bạn đã nhập sai email? { $domain } không phải là dịch vụ email hợp lệ
+auth-error-1066 = Không thể sử dụng email ẩn danh để tạo tài khoản.
+auth-error-1067 = Nhập sai email?
 # Displayed when we want to reference a user's previously set up recovery phone
 # number, but they are not completely signed in yet. We'll only show the last 4 digits.
 # Variables:
@@ -1275,6 +1283,8 @@ cookies-disabled-learn-more = Tìm hiểu thêm
 index-header = Nhập email của bạn
 index-sync-header = Tiếp tục với { -product-mozilla-account } của bạn
 index-sync-subheader = Đồng bộ hóa mật khẩu, thẻ và dấu trang của bạn ở mọi nơi bạn sử dụng { -brand-firefox }.
+index-relay-header = Tạo email ẩn danh
+index-relay-subheader = Vui lòng cung cấp địa chỉ email mà bạn muốn chuyển tiếp email từ email ẩn danh của mình.
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = Tiếp tục đến { $serviceName }
 index-subheader-with-logo = Tiếp tục đến <span>{ $serviceLogo }</span>
@@ -1283,6 +1293,10 @@ index-cta = Đăng ký hoặc đăng nhập
 index-account-info = Một { -product-mozilla-account } cũng mở khóa quyền truy cập vào nhiều sản phẩm bảo vệ quyền riêng tư hơn từ { -brand-mozilla }.
 index-email-input =
     .label = Nhập email của bạn
+# When users delete their Mozilla account inside account Settings, they are redirected to this page with a success message
+index-account-delete-success = Đã xóa tài khoản thành công
+# Displayed when users try to sign up for an account and their confirmation code email bounces
+index-email-bounced = Email xác minh của bạn vừa được trả lại. Bạn đã nhập sai địa chỉ email?
 
 ## InlineRecoveryKeySetup page component
 
@@ -1708,6 +1722,11 @@ signin-recovery-phone-send-code-error-heading = Có vấn đề khi gửi mã
 signin-recovery-phone-code-verification-error-heading = Có vấn đề khi xác minh mã của bạn.
 # Follows the error message (e.g, "There was a problem sending a code")
 signin-recovery-phone-general-error-description = Vui lòng thử lại sau.
+signin-recovery-phone-invalid-code-error-description = Mã không hợp lệ hoặc đã hết hạn.
+signin-recovery-phone-invalid-code-error-link = Bạn muốn sử dụng mã xác thực dự phòng?
+# "Limits" refers to potential restrictions on how often a recovery phone number can be used for signing in within a given time period.
+# If limits are reached, users may have to use an alternate two-step authentication method or wait until the restriction period is over.
+signin-recovery-phone-success-message = Đã đăng nhập thành công. Có thể áp dụng giới hạn nếu bạn sử dụng lại số điện thoại khôi phục.
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 

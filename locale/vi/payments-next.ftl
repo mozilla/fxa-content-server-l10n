@@ -11,6 +11,9 @@ next-payment-method-first-approve = Trước tiên, bạn sẽ cần phê duyệ
 
 ## Page - Upgrade page
 
+upgrade-page-payment-information = Thông tin thanh toán
+# $nextInvoiceDate (number) - The date of the next invoice
+upgrade-page-acknowledgment = Gói của bạn sẽ thay đổi ngay lập tức và bạn sẽ bị tính phí theo tỷ lệ ngày hôm nay cho phần còn lại của chu kỳ thanh toán này. Bắt đầu vào { $nextInvoiceDate } bạn sẽ bị tính toàn bộ số tiền này.
 checkout-error-boundary-retry-button = Thử lại
 checkout-error-boundary-basic-error-message = Đã xảy ra lỗi. Vui lòng thử lại hoặc <contactSupportLink>liên hệ hỗ trợ.</contactSupportLink>
 
@@ -133,6 +136,7 @@ next-new-user-subscribe-product-assurance = Chúng tôi chỉ sử dụng email 
 plan-price-interval-daily = { $amount } mỗi ngày
 plan-price-interval-weekly = { $amount } mỗi tuần
 plan-price-interval-monthly = { $amount } mỗi tháng
+plan-price-interval-halfyearly = { $amount } mỗi 6 tháng
 plan-price-interval-yearly = { $amount } mỗi năm
 
 ## Component - SubscriptionTitle
@@ -152,6 +156,11 @@ next-subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capita
 next-terms = Điều khoản dịch vụ
 next-privacy = Chính sách riêng tư
 next-terms-download = Tải xuống các điều khoản
+terms-and-privacy-stripe-label = { -brand-mozilla } sử dụng { -brand-name-stripe } để xử lý thanh toán an toàn.
+terms-and-privacy-stripe-link = Chính sách riêng tư của { -brand-name-stripe }
+terms-and-privacy-paypal-label = { -brand-mozilla } sử dụng { -brand-paypal } để xử lý thanh toán an toàn.
+terms-and-privacy-paypal-link = Chính sách riêng tư của { -brand-paypal }
+terms-and-privacy-stripe-and-paypal-label = { -brand-mozilla } sử dụng { -brand-name-stripe } và { -brand-paypal } để xử lý thanh toán an toàn.
 
 ## Component - UpdatedPurchaseDetails
 
@@ -168,4 +177,5 @@ upgrade-purchase-details-prorated-upgrade = Nâng cấp theo tỷ lệ
 upgrade-purchase-details-new-plan-daily = { $productName } (Hàng ngày)
 upgrade-purchase-details-new-plan-weekly = { $productName } (Hàng tuần)
 upgrade-purchase-details-new-plan-monthly = { $productName } (Hàng tháng)
+upgrade-purchase-details-new-plan-halfyearly = { $productName } (6 tháng)
 upgrade-purchase-details-new-plan-yearly = { $productName } (Hàng năm)
