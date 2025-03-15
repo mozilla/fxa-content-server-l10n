@@ -11,6 +11,7 @@ next-payment-method-first-approve = Par prime robe tu scugnis aprovâ il to abon
 
 ## Page - Upgrade page
 
+upgrade-page-payment-information = Informazions sul paiament
 checkout-error-boundary-retry-button = Torne prove
 checkout-error-boundary-basic-error-message = Alc al è lât strucj. Torne prove opûr <contactSupportLink>contate il supuart.</contactSupportLink>
 
