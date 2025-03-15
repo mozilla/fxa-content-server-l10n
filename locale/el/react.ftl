@@ -1,7 +1,7 @@
 ## FxA React - Strings shared between multiple FxA products for application error dialog
 
 app-general-err-heading = Γενικό σφάλμα εφαρμογής
-app-general-err-message = Κάτι πήγε στραβά. Παρακαλούμε δοκιμάστε ξανά αργότερα.
+app-general-err-message = Κάτι πήγε στραβά. Δοκιμάστε ξανά αργότερα.
 
 ## FxA React - Strings shared between multiple FxA products for application footer
 

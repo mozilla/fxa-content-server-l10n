@@ -1038,6 +1038,8 @@ tfa-row-backup-phone-delete-button = Kaldır
 # Shown in tooltip on delete button or delete icon
 tfa-row-backup-phone-delete-title-v2 = Kurtarma telefonunu kaldır
 tfa-row-backup-phone-delete-restriction-v2 = Kurtarma telefonunuzu kaldırmak istiyorsanız hesabınızın kilitlenmesini önlemek için öncelikle yedek kimlik doğrulama kodlarını ekleyin veya iki aşamalı kimlik doğrulamayı devre dışı bırakın.
+# "this" refers to recovery phone
+tfa-row-backup-phone-description-v2 = Kimlik doğrulama uygulamanızı kullanamıyorsanız bu en kolay kurtarma yöntemidir.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
@@ -1202,11 +1204,17 @@ auth-error-1003 = Yerel depolama veya çerezler hâlâ devre dışı
 auth-error-1008 = Yeni parolanız farklı olmalıdır
 auth-error-1010 = Geçerli parola gerekli
 auth-error-1011 = Geçerli bir e-posta gerekiyor
+auth-error-1018 = Onay e-postanız geri döndü. E-posta adresinizi yanlış yazmış olabilir misiniz?
+auth-error-1020 = E-postanızı yanlış mı yazdınız? firefox.com geçerli bir e-posta servisi değildir
 auth-error-1031 = Kaydolmak için yaşınızı belirtmelisiniz
 auth-error-1032 = Kaydolmak için geçerli bir yaş belirtmelisiniz
 auth-error-1054 = İki aşamalı kimlik doğrulama kodu geçersiz
 auth-error-1056 = Geçersiz yedek kimlik doğrulama kodu
 auth-error-1062 = Geçersiz yönlendirme
+# Shown when a user tries to sign up with an email address with a domain that doesn't receive emails
+auth-error-1064 = E-postanızı yanlış mı yazdınız? { $domain } geçerli bir e-posta servisi değildir
+auth-error-1066 = Hesap oluşturmak için e-posta maskeleri kullanılamaz.
+auth-error-1067 = Adresinizi yanlış mı yazdınız?
 # Displayed when we want to reference a user's previously set up recovery phone
 # number, but they are not completely signed in yet. We'll only show the last 4 digits.
 # Variables:
@@ -1264,6 +1272,7 @@ cookies-disabled-learn-more = Daha fazla bilgi al
 index-header = E-posta adresinizi yazın
 index-sync-header = { -product-mozilla-account }nıza devam edin
 index-sync-subheader = { -brand-firefox }’u kullandığınız her yerde parolalarınızı, sekmelerinizi ve yer imlerinizi eşitleyin.
+index-relay-subheader = Lütfen maskeli e-posta adresinize gelen e-postaların iletileceği e-posta adresini girin.
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = { $serviceName } hizmetine devam et
 index-subheader-with-logo = <span>{ $serviceLogo }</span> hizmetine devam et
@@ -1272,6 +1281,10 @@ index-cta = Kaydol veya giriş yap
 index-account-info = { -product-mozilla-account }, gizliliğinizi koruyan diğer { -brand-mozilla } ürünlerine de erişmenizi sağlar.
 index-email-input =
     .label = E-posta adresinizi yazın
+# When users delete their Mozilla account inside account Settings, they are redirected to this page with a success message
+index-account-delete-success = Hesap başarıyla silindi
+# Displayed when users try to sign up for an account and their confirmation code email bounces
+index-email-bounced = Onay e-postanız geri döndü. E-posta adresinizi yanlış yazmış olabilir misiniz?
 
 ## InlineRecoveryKeySetup page component
 
@@ -1696,6 +1709,8 @@ signin-recovery-phone-send-code-error-heading = Kod gönderilirken bir sorun olu
 signin-recovery-phone-code-verification-error-heading = Kodunuz doğrulanırken bir sorun oluştu
 # Follows the error message (e.g, "There was a problem sending a code")
 signin-recovery-phone-general-error-description = Lütfen daha sonra yeniden deneyin.
+signin-recovery-phone-invalid-code-error-description = Kod geçersiz veya süresi dolmuş.
+signin-recovery-phone-invalid-code-error-link = Bunun yerine yedek kimlik doğrulama kodları kullanılsın mı?
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 

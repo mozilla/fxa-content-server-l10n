@@ -23,15 +23,15 @@ checkout-error-boundary-basic-error-message = Κάτι πήγε στραβά. Δ
 next-payment-error-manage-subscription-button = Διαχείριση συνδρομής
 next-iap-upgrade-contact-support = Μπορείτε ακόμα να αποκτήσετε αυτό το προϊόν. Επικοινωνήστε με την υποστήριξη για να σας βοηθήσουμε.
 next-payment-error-retry-button = Δοκιμή ξανά
-next-basic-error-message = Κάτι πήγε στραβά. Παρακαλούμε δοκιμάστε ξανά αργότερα.
+next-basic-error-message = Κάτι πήγε στραβά. Δοκιμάστε ξανά αργότερα.
 checkout-error-contact-support-button = Επικοινωνία με την υποστήριξη
 checkout-error-not-eligible = Δεν πληροίτε τις προϋποθέσεις για να αποκτήσετε συνδρομή σε αυτό το προϊόν. Επικοινωνήστε με την υποστήριξη για να σας βοηθήσουμε.
-checkout-error-contact-support = Παρακαλούμε επικοινωνήστε με την υποστήριξη για να σας βοηθήσουμε.
+checkout-error-contact-support = Επικοινωνήστε με την υποστήριξη για να σας βοηθήσουμε.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
 
-next-payment-processing-message = Παρακαλούμε περιμένετε όσο επεξεργαζόμαστε την πληρωμή σας…
+next-payment-processing-message = Περιμένετε όσο επεξεργαζόμαστε την πληρωμή σας…
 
 ## Success page - /checkout and /upgrade
 ## Common strings used in multiple checkout pages
@@ -65,7 +65,7 @@ next-payment-confirm-checkbox-error = Πρέπει να ολοκληρώσετε
 ## Checkout Form
 
 next-new-user-submit = Συνδρομή τώρα
-next-payment-validate-name-error = Παρακαλώ εισαγάγετε το όνομά σας
+next-payment-validate-name-error = Εισαγάγετε το ονοματεπώνυμό σας
 next-pay-with-heading-paypal = Πληρωμή με { -brand-paypal }
 # Label for the Full Name input
 payment-name-label = Το όνομα όπως εμφανίζεται στην κάρτα σας

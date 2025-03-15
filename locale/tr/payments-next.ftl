@@ -11,6 +11,9 @@ next-payment-method-first-approve = Öncelikle aboneliğinizi onaylamanız gerek
 
 ## Page - Upgrade page
 
+upgrade-page-payment-information = Ödeme bilgileri
+# $nextInvoiceDate (number) - The date of the next invoice
+upgrade-page-acknowledgment = Planınız hemen değişecek ve bu fatura döneminin kalan süresi için hesaplanan ek ücret tahsil edilecektir. { $nextInvoiceDate } tarihinden itibaren tam ücret tahsil edilecektir.
 checkout-error-boundary-retry-button = Yeniden dene
 checkout-error-boundary-basic-error-message = Bir sorun oluştu. Lütfen yeniden deneyin veya <contactSupportLink>destek ekibiyle iletişime geçin.</contactSupportLink>
 
@@ -133,6 +136,7 @@ next-new-user-subscribe-product-assurance = E-postanızı yalnızca hesabınız�
 plan-price-interval-daily = Günlük { $amount }
 plan-price-interval-weekly = Haftalık { $amount }
 plan-price-interval-monthly = Aylık { $amount }
+plan-price-interval-halfyearly = 6 ayda bir { $amount }
 plan-price-interval-yearly = Yıllık { $amount }
 
 ## Component - SubscriptionTitle
@@ -152,6 +156,9 @@ next-subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capita
 next-terms = Kullanım Koşulları
 next-privacy = Gizlilik Bildirimi
 next-terms-download = İndirme Koşulları
+terms-and-privacy-stripe-label = { -brand-mozilla } güvenli ödeme işlemleri için { -brand-name-stripe } kullanır.
+terms-and-privacy-paypal-label = { -brand-mozilla } güvenli ödeme işlemleri için { -brand-paypal } kullanır.
+terms-and-privacy-stripe-and-paypal-label = { -brand-mozilla } güvenli ödeme işlemleri için { -brand-name-stripe } ve { -brand-paypal } kullanır.
 
 ## Component - UpdatedPurchaseDetails
 
@@ -168,4 +175,5 @@ upgrade-purchase-details-prorated-upgrade = Orantılı yükseltme
 upgrade-purchase-details-new-plan-daily = { $productName } (Günlük)
 upgrade-purchase-details-new-plan-weekly = { $productName } (Haftalık)
 upgrade-purchase-details-new-plan-monthly = { $productName } (Aylık)
+upgrade-purchase-details-new-plan-halfyearly = { $productName } (6 aylık)
 upgrade-purchase-details-new-plan-yearly = { $productName } (Yıllık)
