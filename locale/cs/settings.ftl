@@ -1047,7 +1047,7 @@ tfa-row-backup-phone-delete-button = Odebrat
 tfa-row-backup-phone-delete-title-v2 = Odebrat telefon pro obnovení
 tfa-row-backup-phone-delete-restriction-v2 = Pokud chcete odebrat telefon pro obnovení, přidejte nejprve záložní ověřovací kódy nebo vypněte dvoufázové ověřování, abyste se vyhnuli zablokování účtu.
 # "this" refers to recovery phone
-tfa-row-backup-phone-description-v2 = Toto je nejjednodušší způsob obnovení, pokud nemůžete použít svou aplikaci pro ověření.
+tfa-row-backup-phone-description-v2 = Jedná se o nejjednodušší metodu obnovení, pokud nemůžete použít aplikaci autentizátoru.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
@@ -1214,17 +1214,17 @@ auth-error-1003 = Místní úložiště nebo cookies jsou stále zakázány
 auth-error-1008 = Vaše staré a nové heslo nesmí být stejné
 auth-error-1010 = Je požadováno platné heslo
 auth-error-1011 = Je požadován platný e-mail
-auth-error-1018 = Odeslaná potvrzující e-mailová zpráva se právě vrátila zpět. Nemáte překlep v e-mailové adrese?
-auth-error-1020 = Spletli jste e-mail? Firefox.com není platná e-mailová služba
+auth-error-1018 = Váš potvrzovací e-mail byl právě vrácen. Nesprávně zadaný e-mail?
+auth-error-1020 = Chybně zadaný e-mail? firefox.com není platná e-mailová služba
 auth-error-1031 = Pro registraci musíte zadat svůj věk
 auth-error-1032 = Pro registraci musíte zadat platný věk
 auth-error-1054 = Neplatný kód pro dvoufázové ověření
 auth-error-1056 = Neplatný záložní ověřovací kód
 auth-error-1062 = Neplatné přesměrování
 # Shown when a user tries to sign up with an email address with a domain that doesn't receive emails
-auth-error-1064 = Spletli jste e-mail? { $domain } není platná e-mailová služba
-auth-error-1066 = K vytvoření účtu nelze použít e-mailové masky.
-auth-error-1067 = Spletli jste e-mail?
+auth-error-1064 = Chybně zadaný e-mail? { $domain } není platná e-mailová služba
+auth-error-1066 = E-mailové masky nelze použít k vytvoření účtu.
+auth-error-1067 = Chybně zadaný e-mail?
 # Displayed when we want to reference a user's previously set up recovery phone
 # number, but they are not completely signed in yet. We'll only show the last 4 digits.
 # Variables:
@@ -1283,7 +1283,7 @@ index-header = Zadejte svoji e-mailovou adresu
 index-sync-header = Pokračovat do svého { -product-mozilla-account(case: "gen", capitalization: "lower") }
 index-sync-subheader = Synchronizujte svá hesla, panely a záložky všude, kde používáte { -brand-firefox }.
 index-relay-header = Vytvoření e-mailové masky
-index-relay-subheader = Zadejte prosím e-mailovou adresu, na kterou chcete přeposílat e-maily z vaší e-mailové masky.
+index-relay-subheader = Uveďte e-mailovou adresu, na kterou chcete přeposílat e-maily z maskovaného e-mailu.
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = Pokračovat do služby { $serviceName }
 index-subheader-with-logo = Pokračovat do služby <span>{ $serviceLogo }</span>
