@@ -11,6 +11,9 @@ next-payment-method-first-approve = Primo tu debera approbar tu subscription
 
 ## Page - Upgrade page
 
+upgrade-page-payment-information = Informationes de pagamento
+# $nextInvoiceDate (number) - The date of the next invoice
+upgrade-page-acknowledgment = Tu plano cambiara immediatemente, e hodie te sera cargate un amonta proportional al resto de iste cyclo de facturation. Desde le { $nextInvoiceDate } te sera cargate le amonta complete.
 checkout-error-boundary-retry-button = Retentar
 checkout-error-boundary-basic-error-message = Alco errate eveniva. Retenta o contacta le <contactSupportLink>supporto.</contactSupportLink>
 
@@ -133,6 +136,7 @@ next-new-user-subscribe-product-assurance = Nos usa tu adresse email solo pro cr
 plan-price-interval-daily = { $amount } cata die
 plan-price-interval-weekly = { $amount } septimanalmente
 plan-price-interval-monthly = { $amount } cata mense
+plan-price-interval-halfyearly = { $amount } cata 6 menses
 plan-price-interval-yearly = { $amount } annualmente
 
 ## Component - SubscriptionTitle
@@ -152,6 +156,11 @@ next-subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capita
 next-terms = Terminos de servicio
 next-privacy = Aviso de confidentialitate
 next-terms-download = Discargar terminos
+terms-and-privacy-stripe-label = { -brand-mozilla } usa { -brand-name-stripe } pro le processo secur de pagamento.
+terms-and-privacy-stripe-link = Politica de confidentialitate de { -brand-name-stripe }
+terms-and-privacy-paypal-label = { -brand-mozilla } usa { -brand-paypal } pro processar pagamentos secur.
+terms-and-privacy-paypal-link = Politica de confidentialitate de { -brand-paypal }
+terms-and-privacy-stripe-and-paypal-label = { -brand-mozilla } usa { -brand-name-stripe } e { -brand-paypal } pro le elaboration secur del pagamentos.
 
 ## Component - UpdatedPurchaseDetails
 
@@ -168,4 +177,5 @@ upgrade-purchase-details-prorated-upgrade = Promotion proportionate
 upgrade-purchase-details-new-plan-daily = { $productName } (quotidian)
 upgrade-purchase-details-new-plan-weekly = { $productName } (septimanal)
 upgrade-purchase-details-new-plan-monthly = { $productName } (mensual)
+upgrade-purchase-details-new-plan-halfyearly = { $productName } (6 menses)
 upgrade-purchase-details-new-plan-yearly = { $productName } (annual)

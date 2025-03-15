@@ -1046,6 +1046,8 @@ tfa-row-backup-phone-delete-button = Remover
 # Shown in tooltip on delete button or delete icon
 tfa-row-backup-phone-delete-title-v2 = Remover telephono de recuperation
 tfa-row-backup-phone-delete-restriction-v2 = Si tu desira remover tu telephono de recuperation, adde le codices de authentication o primo disactiva le authentication a duo passos pro evitar de perder le accesso de tu conto.
+# "this" refers to recovery phone
+tfa-row-backup-phone-description-v2 = Isto es le methodo de recuperation plus facile si tu non pote usar tu app de authentication.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
@@ -1219,11 +1221,15 @@ auth-error-1003 = Immagazinage e cookies local es ancora disactivate
 auth-error-1008 = Tu nove contrasigno debe esser differente
 auth-error-1010 = Un contrasigno valide es necessari
 auth-error-1011 = Il es necessari un adresse email valide
+auth-error-1018 = Tu message de confirmation ha justo ora essite retornate. Es le adresse de e-mail incorrecte?
+auth-error-1020 = Email mal typate? firefox.com non es un servicio de email valide
 auth-error-1031 = Tu debe inserer tu etate pro inscriber te
 auth-error-1032 = Tu debe inserer un etate valide pro inscriber te
 auth-error-1054 = Codice de authentication a duo passos non valide
 auth-error-1056 = Codice de authentication de reserva non valide
 auth-error-1062 = Redirection non valide
+auth-error-1066 = Le mascas de emails non pote esser usate pro crear un conto.
+auth-error-1067 = Email incorrecte?
 # Displayed when we want to reference a user's previously set up recovery phone
 # number, but they are not completely signed in yet. We'll only show the last 4 digits.
 # Variables:
@@ -1281,6 +1287,8 @@ cookies-disabled-learn-more = Pro saper plus
 index-header = Insere tu email
 index-sync-header = Passa a tu { -product-mozilla-account }
 index-sync-subheader = Synchronisa tu contrasignos, schedas, e marcapaginas ubique tu usa { -brand-firefox }.
+index-relay-header = Crear un masca de e-mail
+index-relay-subheader = Forni le adresse email ubi tu volerea inultrar emails ab tu email mascate.
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = Continuar a { $serviceName }
 index-subheader-with-logo = Continua sur <span>{ $serviceLogo }</span>
@@ -1289,6 +1297,10 @@ index-cta = Inscriber se o acceder
 index-account-info = Un { -product-mozilla-account } alsi disbloca le accesso a altere productos de protection del confidentialitate de { -brand-mozilla }.<
 index-email-input =
     .label = Insere tu email
+# When users delete their Mozilla account inside account Settings, they are redirected to this page with a success message
+index-account-delete-success = Conto delite con successo
+# Displayed when users try to sign up for an account and their confirmation code email bounces
+index-email-bounced = Tu message de confirmation ha justo ora essite retornate. Es le adresse de e-mail incorrecte?
 
 ## InlineRecoveryKeySetup page component
 
