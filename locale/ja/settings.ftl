@@ -166,6 +166,12 @@ form-password-with-inline-criteria-reset-new-password =
     .label = 新しいパスワード
 form-password-with-inline-criteria-confirm-password =
     .label = 新しいパスワードの確認
+form-password-with-inline-criteria-reset-submit-button = 新しいパスワードを作成
+form-password-with-inline-criteria-match-error = パスワードが一致しません
+form-password-with-inline-criteria-sr-too-short-message = パスワードは 8 文字以上にする必要があります。
+form-password-with-inline-criteria-sr-not-email-message = パスワードにメールアドレスを含めることはできません。
+form-password-with-inline-criteria-sr-not-common-message = パスワードは一般的に使用されているパスワードにしてはいけません。
+form-password-with-inline-criteria-sr-requirements-met = 入力されたパスワードはすべてのパスワード要件を満たしています。
 
 ## FormVerifyCode
 
@@ -372,6 +378,12 @@ password-reset-warning-icon = 警告
 password-reset-chevron-expanded = 警告を折りたたみます
 password-reset-chevron-collapsed = 警告を展開します
 password-reset-data-may-not-be-recovered = ブラウザーのデータは回復されないかもしれません
+password-reset-previously-signed-in-device-2 = 以前にログインした端末をお持ちの場合:
+password-reset-data-may-be-saved-locally-2 = ブラウザーのデータが端末に保存されているかもしれません。パスワードをリセットした後にその端末にログインすると、データを回復して同期します。
+password-reset-no-old-device-2 = 新しい端末はあるが、以前の端末にアクセスできない場合:
+password-reset-encrypted-data-cannot-be-recovered-2 = 残念ながら、{ -brand-firefox } サーバーの暗号化されたブラウザーデータは回復できません。
+password-reset-warning-have-key = アカウント回復キーをお持ちの場合:
+password-reset-warning-use-key-link = 今すぐ使用して、データを保持したままパスワードをリセットしてください。
 
 ## Alert Bar
 
