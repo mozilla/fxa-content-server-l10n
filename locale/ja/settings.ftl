@@ -32,6 +32,8 @@ brand-m-logo =
 ## ButtonBack component
 ## Allows users to click a back arrow to navigate to the previous page
 
+button-back-aria-label = 戻る
+button-back-title = 戻る
 
 ## ButtonDownloadRecoveryKeyPDF
 ## Clicking on this button downloads a PDF file that contains the user's account recovery key
@@ -155,6 +157,15 @@ form-password-sr-passwords-match = 入力したパスワードは一致してい
 
 ## FormPasswordInlineCriteria
 
+form-password-with-inline-criteria-signup-new-password-label =
+    .label = パスワード
+form-password-with-inline-criteria-signup-confirm-password-label =
+    .label = パスワードを再入力してください
+form-password-with-inline-criteria-signup-submit-button = アカウントを作成
+form-password-with-inline-criteria-reset-new-password =
+    .label = 新しいパスワード
+form-password-with-inline-criteria-confirm-password =
+    .label = 新しいパスワードの確認
 
 ## FormVerifyCode
 
