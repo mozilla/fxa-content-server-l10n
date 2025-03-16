@@ -1272,6 +1272,7 @@ cookies-disabled-learn-more = Daha fazla bilgi al
 index-header = E-posta adresinizi yazın
 index-sync-header = { -product-mozilla-account }nıza devam edin
 index-sync-subheader = { -brand-firefox }’u kullandığınız her yerde parolalarınızı, sekmelerinizi ve yer imlerinizi eşitleyin.
+index-relay-header = E-posta maskesi oluştur
 index-relay-subheader = Lütfen maskeli e-posta adresinize gelen e-postaların iletileceği e-posta adresini girin.
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = { $serviceName } hizmetine devam et
