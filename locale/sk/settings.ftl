@@ -1665,7 +1665,7 @@ signin-push-code-confirm-link-error = Odkaz je poškodený. Skúste to znova.
 ## This page is shown to users when they are having trouble signing in with
 ## their password, and they previously had set up an account recovery method.
 
-signin-recovery-method-header = Prihlásiť sa
+signin-recovery-method-header = Prihlásenie
 signin-recovery-method-subheader = Vyberte spôsob obnovy
 signin-recovery-method-details = Poďme sa, že ste to vy, čo používate svoje metódy obnovy.
 signin-recovery-method-phone = Obnovenie pomocou telefónu
@@ -1687,7 +1687,7 @@ signin-recovery-method-send-code-error-description = Skúste to znova neskôr al
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
-signin-recovery-code-heading = Prihlásiť sa
+signin-recovery-code-heading = Prihlásenie
 signin-recovery-code-sub-heading = Zadajte záložný overovací kód
 # codes here refers to backup authentication codes
 signin-recovery-code-instruction-v3 = Zadajte jeden z kódov na jednorazové použitie, ktoré ste si uložili pri nastavovaní dvojstupňového overenia.
@@ -1710,7 +1710,7 @@ signin-recovery-code-use-phone-failure-description = Skúste to znova neskôr.
 
 ## SigninRecoveryPhone page
 
-signin-recovery-phone-flow-heading = Prihlásiť sa
+signin-recovery-phone-flow-heading = Prihlásenie
 # A recovery code in context of this page is a one time code sent to the user's phone
 signin-recovery-phone-heading = Zadajte obnovovací kód
 # Text that explains the user should check their phone for a recovery code
@@ -1765,7 +1765,7 @@ signin-token-code-instruction-desktop-relay = { -brand-firefox } sa vás po prih
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
-signin-totp-code-header = Prihlásiť sa
+signin-totp-code-header = Prihlásenie
 signin-totp-code-subheader-v2 = Zadajte kód pre dvojstupňové overenie
 signin-totp-code-instruction-v4 = Skontrolujte svoju <strong>overovaciu aplikáciu</strong> a potvrďte svoje prihlásenie.
 signin-totp-code-input-label-v4 = Zadajte šesťmiestny kód
