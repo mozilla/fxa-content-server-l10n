@@ -45,7 +45,7 @@ payment-confirmation-download-button = ഇറക്കിവയ്ക്കു�
 
 ## Component - PaymentErrorView - IAP upgrade errors
 
-iap-upgrade-get-help-button = സഹായം തേടുക
+iap-upgrade-get-help-button = പിന്തുണ നേടുക
 
 ## Component - PaymentForm
 
