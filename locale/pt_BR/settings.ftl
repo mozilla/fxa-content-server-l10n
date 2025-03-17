@@ -1704,6 +1704,9 @@ signin-recovery-phone-code-verification-error-heading = Houve um problema ao ver
 signin-recovery-phone-general-error-description = Tente novamente mais tarde.
 signin-recovery-phone-invalid-code-error-description = O código é inválido ou expirou.
 signin-recovery-phone-invalid-code-error-link = Usar códigos de autenticação de backup em vez disso?
+# "Limits" refers to potential restrictions on how often a recovery phone number can be used for signing in within a given time period.
+# If limits are reached, users may have to use an alternate two-step authentication method or wait until the restriction period is over.
+signin-recovery-phone-success-message = Conectado com sucesso. Limites podem ser aplicados se você usar novamente seu celular de recuperação.
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
