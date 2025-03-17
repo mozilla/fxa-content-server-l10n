@@ -265,6 +265,7 @@ fraudulentAccountDeletion-contact = Viss du har spørsmål, kontakt <a data-l10n
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Viss du har spørsmål, kontakt support-teamet vårt: { $mozillaSupportUrl }
+inactiveAccountFinalWarning-title = { -brand-mozilla }-kontoen din og data vil bli sletta
 inactiveAccountFinalWarning-preview = Logg inn for å behalde kontoen din
 inactiveAccountFinalWarning-action = Logg inn for å behalde kontoen din
 # followed by link to sign in
