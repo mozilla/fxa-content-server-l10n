@@ -177,5 +177,5 @@ upgrade-purchase-details-prorated-upgrade = Naar rato upgrade
 upgrade-purchase-details-new-plan-daily = { $productName } (dagelijks)
 upgrade-purchase-details-new-plan-weekly = { $productName } (wekelijks)
 upgrade-purchase-details-new-plan-monthly = { $productName } (maandelijks)
-upgrade-purchase-details-new-plan-halfyearly = { $productName } (6 maandelijks)
+upgrade-purchase-details-new-plan-halfyearly = { $productName } (halfjaarlijks)
 upgrade-purchase-details-new-plan-yearly = { $productName } (jaarlijks)
