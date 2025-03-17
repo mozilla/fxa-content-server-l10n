@@ -1041,7 +1041,7 @@ tfa-row-backup-phone-delete-button = Eliminar
 tfa-row-backup-phone-delete-title-v2 = Eliminar teléfono de recuperación
 tfa-row-backup-phone-delete-restriction-v2 = Si querés eliminar tu teléfono de recuperación, primero agregá códigos de autenticación de respaldo o deshabilitá la autenticación de dos pasos para evitar el bloqueo de tu cuenta.
 # "this" refers to recovery phone
-tfa-row-backup-phone-description-v2 = Este es el método de recuperación más fácil si no puede usar su aplicación de autenticación.
+tfa-row-backup-phone-description-v2 = Este es el método de recuperación más fácil si no podés usar tu aplicación de autenticación.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
@@ -1283,7 +1283,7 @@ index-header = Ingresá tu correo electrónico
 index-sync-header = Continuar a tu { -product-mozilla-account }
 index-sync-subheader = Sincronizá tus contraseñas, pestañas y marcadores en cualquier lado que usés { -brand-firefox }.
 index-relay-header = Crear una máscara de correo electrónico
-index-relay-subheader = Proporcion la dirección de correo electrónico a la que te gustaría reenviar los mensajes desde tu correo electrónico enmascarado.
+index-relay-subheader = Proporcioná la dirección de correo electrónico a la que te gustaría reenviar los mensajes desde tu correo electrónico enmascarado.
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = Continuar a { $serviceName }
 index-subheader-with-logo = Continuar a <span>{ $serviceLogo }</span>
@@ -1726,10 +1726,10 @@ signin-recovery-phone-code-verification-error-heading = Hubo un problema verific
 # Follows the error message (e.g, "There was a problem sending a code")
 signin-recovery-phone-general-error-description = Probá de nuevo más tarde.
 signin-recovery-phone-invalid-code-error-description = El código no es válido o ya venció.
-signin-recovery-phone-invalid-code-error-link = ¿Usar códigos de autenticación de respaldo?
+signin-recovery-phone-invalid-code-error-link = ¿Usar códigos de autenticación de respaldo en su lugar?
 # "Limits" refers to potential restrictions on how often a recovery phone number can be used for signing in within a given time period.
 # If limits are reached, users may have to use an alternate two-step authentication method or wait until the restriction period is over.
-signin-recovery-phone-success-message = Iniciaste sesión correctamente Se pueden aplicar límites si usas el teléfono de recuperación de nuevo.
+signin-recovery-phone-success-message = Inicio de sesión exitoso. Se pueden aplicar límites si se usa el teléfono de recuperación de nuevo.
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
