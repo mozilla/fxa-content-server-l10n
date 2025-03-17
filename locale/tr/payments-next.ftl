@@ -157,7 +157,9 @@ next-terms = Kullanım Koşulları
 next-privacy = Gizlilik Bildirimi
 next-terms-download = İndirme Koşulları
 terms-and-privacy-stripe-label = { -brand-mozilla } güvenli ödeme işlemleri için { -brand-name-stripe } kullanır.
+terms-and-privacy-stripe-link = { -brand-name-stripe } gizlilik ilkeleri
 terms-and-privacy-paypal-label = { -brand-mozilla } güvenli ödeme işlemleri için { -brand-paypal } kullanır.
+terms-and-privacy-paypal-link = { -brand-paypal } gizlilik ilkeleri
 terms-and-privacy-stripe-and-paypal-label = { -brand-mozilla } güvenli ödeme işlemleri için { -brand-name-stripe } ve { -brand-paypal } kullanır.
 
 ## Component - UpdatedPurchaseDetails
