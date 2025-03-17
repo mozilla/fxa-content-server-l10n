@@ -1032,6 +1032,8 @@ tfa-row-backup-phone-delete-button = Remover
 # Shown in tooltip on delete button or delete icon
 tfa-row-backup-phone-delete-title-v2 = Remover celular de recuperação de conta
 tfa-row-backup-phone-delete-restriction-v2 = Se quiser remover o celular de recuperação de conta, adicione códigos de autenticação de backup ou desative primeiro a autenticação em duas etapas para evitar ficar sem acesso à sua conta.
+# "this" refers to recovery phone
+tfa-row-backup-phone-description-v2 = Este é o método de recuperação mais fácil, caso você não possa usar o aplicativo de autenticação.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
@@ -1194,11 +1196,17 @@ auth-error-1003 = Armazenamento local ou cookies ainda estão desativados
 auth-error-1008 = Sua nova senha deve ser diferente
 auth-error-1010 = É necessário uma senha válida
 auth-error-1011 = É necessário um email válido
+auth-error-1018 = Seu email de confirmação foi devolvido. Digitou errado o email?
+auth-error-1020 = Digitou errado o email? firefox.com não é um serviço de email válido
 auth-error-1031 = É necessário informar sua idade para se cadastrar
 auth-error-1032 = É necessário informar uma idade válida para se cadastrar
 auth-error-1054 = Código de autenticação em duas etapas inválido
 auth-error-1056 = Código de autenticação de backup inválido
 auth-error-1062 = Redirecionamento inválido
+# Shown when a user tries to sign up with an email address with a domain that doesn't receive emails
+auth-error-1064 = Digitou errado o email? { $domain } não é um serviço de email válido
+auth-error-1066 = Máscaras de email não podem ser usadas para criar uma conta.
+auth-error-1067 = Digitou errado o email?
 # Displayed when we want to reference a user's previously set up recovery phone
 # number, but they are not completely signed in yet. We'll only show the last 4 digits.
 # Variables:
