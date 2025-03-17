@@ -1264,6 +1264,8 @@ cookies-disabled-learn-more = Saiba mais
 index-header = Insira seu email
 index-sync-header = Continuar para sua { -product-mozilla-account }
 index-sync-subheader = Sincronize senhas, abas e favoritos onde quer que use o { -brand-firefox }.
+index-relay-header = Criar uma máscara de email
+index-relay-subheader = Indique o endereço de email para onde quer que sejam encaminhadas mensagens enviadas para sua máscara de email.
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = Continuar para { $serviceName }
 index-subheader-with-logo = Continuar para <span>{ $serviceLogo }</span>
@@ -1272,6 +1274,10 @@ index-cta = Entrar na sua conta ou criar uma
 index-account-info = Uma { -product-mozilla-account } também libera acesso a mais produtos de proteção de privacidade da { -brand-mozilla }.
 index-email-input =
     .label = Insira seu email
+# When users delete their Mozilla account inside account Settings, they are redirected to this page with a success message
+index-account-delete-success = Conta excluída com sucesso
+# Displayed when users try to sign up for an account and their confirmation code email bounces
+index-email-bounced = Seu email de confirmação foi devolvido. Digitou errado o email?
 
 ## InlineRecoveryKeySetup page component
 
@@ -1696,6 +1702,8 @@ signin-recovery-phone-send-code-error-heading = Houve um problema ao enviar um c
 signin-recovery-phone-code-verification-error-heading = Houve um problema ao verificar seu código
 # Follows the error message (e.g, "There was a problem sending a code")
 signin-recovery-phone-general-error-description = Tente novamente mais tarde.
+signin-recovery-phone-invalid-code-error-description = O código é inválido ou expirou.
+signin-recovery-phone-invalid-code-error-link = Usar códigos de autenticação de backup em vez disso?
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
