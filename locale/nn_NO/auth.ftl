@@ -69,6 +69,9 @@ subplat-legal = Juridisk
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Personvern
 subplat-privacy-website-plaintext = { subplat-privacy }:
+account-deletion-info-block-communications = Dersom kontoen din vert sletta, vil du framleis få e-postar frå Mozilla Corporation og Mozilla Foundation, med mindre du <a data-l10n-name="unsubscribeLink">ber om å avslutte abonnementet</a>.
+account-deletion-info-block-support = Dersom du har spørsmål eller treng hjelp, kan du gjerne kontakte <a data-l10n-name="supportLink">støtteteamet</a> vårt.
+account-deletion-info-block-communications-plaintext = Dersom kontoen din vert sletta, vil du framleis få e-postar frå Mozilla Corporation og Mozilla Foundation, med mindre du ber om å avslutte abonnementet:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-android-badge = <img data-l10n-name="google-play-badge" alt="Last ned { $productName } i { -google-play }">
