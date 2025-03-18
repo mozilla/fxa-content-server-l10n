@@ -11,6 +11,9 @@ next-payment-method-first-approve = First you’ll need to approve your subscrip
 
 ## Page - Upgrade page
 
+upgrade-page-payment-information = Payment Information
+# $nextInvoiceDate (number) - The date of the next invoice
+upgrade-page-acknowledgment = Your plan will change immediately, and you’ll be charged a prorated amount today for the rest of this billing cycle. Starting { $nextInvoiceDate } you’ll be charged the full amount.
 checkout-error-boundary-retry-button = Try again
 checkout-error-boundary-basic-error-message = Something went wrong. Please try again or <contactSupportLink>contact support.</contactSupportLink>
 
@@ -133,6 +136,7 @@ next-new-user-subscribe-product-assurance = We only use your email to create you
 plan-price-interval-daily = { $amount } daily
 plan-price-interval-weekly = { $amount } weekly
 plan-price-interval-monthly = { $amount } monthly
+plan-price-interval-halfyearly = { $amount } every 6 months
 plan-price-interval-yearly = { $amount } yearly
 
 ## Component - SubscriptionTitle
@@ -152,6 +156,11 @@ next-subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capita
 next-terms = Terms of Service
 next-privacy = Privacy Notice
 next-terms-download = Download Terms
+terms-and-privacy-stripe-label = { -brand-mozilla } uses { -brand-name-stripe } for secure payment processing.
+terms-and-privacy-stripe-link = { -brand-name-stripe } privacy policy
+terms-and-privacy-paypal-label = { -brand-mozilla } uses { -brand-paypal } for secure payment processing.
+terms-and-privacy-paypal-link = { -brand-paypal } privacy policy
+terms-and-privacy-stripe-and-paypal-label = { -brand-mozilla } uses { -brand-name-stripe } and { -brand-paypal } for secure payment processing.
 
 ## Component - UpdatedPurchaseDetails
 
@@ -168,4 +177,5 @@ upgrade-purchase-details-prorated-upgrade = Prorated Upgrade
 upgrade-purchase-details-new-plan-daily = { $productName } (Daily)
 upgrade-purchase-details-new-plan-weekly = { $productName } (Weekly)
 upgrade-purchase-details-new-plan-monthly = { $productName } (Monthly)
+upgrade-purchase-details-new-plan-halfyearly = { $productName } (6-month)
 upgrade-purchase-details-new-plan-yearly = { $productName } (Yearly)

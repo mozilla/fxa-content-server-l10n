@@ -1047,6 +1047,8 @@ tfa-row-backup-phone-delete-button = Remove
 # Shown in tooltip on delete button or delete icon
 tfa-row-backup-phone-delete-title-v2 = Remove recovery phone
 tfa-row-backup-phone-delete-restriction-v2 = If you want to remove your recovery phone, add backup authentication codes or disable two-step authentication first to avoid getting locked out of your account.
+# "this" refers to recovery phone
+tfa-row-backup-phone-description-v2 = This is the easiest recovery method if you can't use your authenticator app.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
@@ -1219,11 +1221,17 @@ auth-error-1003 = Local storage or cookies are still disabled
 auth-error-1008 = Your new password must be different
 auth-error-1010 = Valid password required
 auth-error-1011 = Valid email required
+auth-error-1018 = Your confirmation email was just returned. Mistyped email?
+auth-error-1020 = Mistyped email? firefox.com isn’t a valid email service
 auth-error-1031 = You must enter your age to sign up
 auth-error-1032 = You must enter a valid age to sign up
 auth-error-1054 = Invalid two-step authentication code
 auth-error-1056 = Invalid backup authentication code
 auth-error-1062 = Invalid redirect
+# Shown when a user tries to sign up with an email address with a domain that doesn't receive emails
+auth-error-1064 = Mistyped email? { $domain } isn’t a valid email service
+auth-error-1066 = Email masks can’t be used to create an account.
+auth-error-1067 = Mistyped email?
 # Displayed when we want to reference a user's previously set up recovery phone
 # number, but they are not completely signed in yet. We'll only show the last 4 digits.
 # Variables:
@@ -1281,6 +1289,8 @@ cookies-disabled-learn-more = Learn more
 index-header = Enter your email
 index-sync-header = Continue to your { -product-mozilla-account }
 index-sync-subheader = Synchronise your passwords, tabs, and bookmarks everywhere you use { -brand-firefox }.
+index-relay-header = Create an email mask
+index-relay-subheader = Please provide the email address where you’d like to forward emails from your masked email.
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = Continue to { $serviceName }
 index-subheader-with-logo = Continue to <span>{ $serviceLogo }</span>
@@ -1289,6 +1299,10 @@ index-cta = Sign up or sign in
 index-account-info = A { -product-mozilla-account } also unlocks access to more privacy-protecting products from { -brand-mozilla }.
 index-email-input =
     .label = Enter your email
+# When users delete their Mozilla account inside account Settings, they are redirected to this page with a success message
+index-account-delete-success = Account deleted successfully
+# Displayed when users try to sign up for an account and their confirmation code email bounces
+index-email-bounced = Your confirmation email was just returned. Mistyped email?
 
 ## InlineRecoveryKeySetup page component
 
@@ -1718,6 +1732,11 @@ signin-recovery-phone-send-code-error-heading = There was a problem sending a co
 signin-recovery-phone-code-verification-error-heading = There was a problem verifying your code
 # Follows the error message (e.g, "There was a problem sending a code")
 signin-recovery-phone-general-error-description = Please try again later.
+signin-recovery-phone-invalid-code-error-description = The code is invalid or expired.
+signin-recovery-phone-invalid-code-error-link = Use backup authentication codes instead?
+# "Limits" refers to potential restrictions on how often a recovery phone number can be used for signing in within a given time period.
+# If limits are reached, users may have to use an alternate two-step authentication method or wait until the restriction period is over.
+signin-recovery-phone-success-message = Signed in successfully. Limits may apply if you use your recovery phone again.
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
