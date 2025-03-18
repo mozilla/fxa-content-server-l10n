@@ -1048,7 +1048,7 @@ tfa-row-backup-phone-delete-button = Tynnu
 tfa-row-backup-phone-delete-title-v2 = Dileu'r ffôn adfer
 tfa-row-backup-phone-delete-restriction-v2 = Os ydych chi am ddileu eich ffôn adfer, ychwanegwch godau dilysu wrth gefn neu analluogu dilysiad dau gam yn gyntaf er mwyn osgoi cael eich cloi allan o'ch cyfrif.
 # "this" refers to recovery phone
-tfa-row-backup-phone-description-v2 = Dyma'r dull adfer hawsaf os na allwch ddefnyddio'ch app dilysu.
+tfa-row-backup-phone-description-v2 = Dyma'r dull adfer hawsaf os na allwch ddefnyddio'ch ap dilysu.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.

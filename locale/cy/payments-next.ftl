@@ -13,7 +13,7 @@ next-payment-method-first-approve = Yn gyntaf bydd angen i chi gymeradwyo'ch tan
 
 upgrade-page-payment-information = Manylion Talu
 # $nextInvoiceDate (number) - The date of the next invoice
-upgrade-page-acknowledgment = Bydd eich cynllun yn newid ar unwaith, a chodir swm pro rata arnoch heddiw am weddill y cylch bilio hwn. Gan ddechrau { $nextInvoiceDate } codir y swm llawn arnoch.
+upgrade-page-acknowledgment = Bydd eich cynllun yn newid ar unwaith, a byddwn yn codi swm pro rata arnoch heddiw am weddill y cylch bilio hwn. Gan ddechrau ar { $nextInvoiceDate } byddwn yn codi'r swm llawn arnoch.
 checkout-error-boundary-retry-button = Ceisiwch eto
 checkout-error-boundary-basic-error-message = Aeth rhywbeth o'i le. Ceisiwch eto neu <contactSupportLink>cysylltwch â'n cymorth.</contactSupportLink>
 

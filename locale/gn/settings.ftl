@@ -1197,6 +1197,8 @@ auth-error-1056 = Pe ayvu ñemoneĩrã jeykekoha ndoikói
 auth-error-1062 = Ñemondojey ndoikói
 # Shown when a user tries to sign up with an email address with a domain that doesn't receive emails
 auth-error-1064 = ¿Ñanduti veve ojehaivai? { $domain } nome’ẽi ñanduti veve oikóva
+auth-error-1066 = Ndojeporukuaái ñanduti veve rovamo’ãha mba’ete moheñoirã.
+auth-error-1067 = ¿Ñanduti veve ojehaivai?
 # Displayed when we want to reference a user's previously set up recovery phone
 # number, but they are not completely signed in yet. We'll only show the last 4 digits.
 # Variables:
