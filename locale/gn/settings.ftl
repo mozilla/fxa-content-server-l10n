@@ -1180,6 +1180,7 @@ auth-error-203 = Apopyvusu ndoikói, eha’ãjey ag̃ave
 auth-error-206 = Neremoheñoikuaái ñe’ẽñemi, pe ñe’ẽñemi ipyendáma
 auth-error-214 = Pe pumbyry papapy guerujeyrã oĩmavoi
 auth-error-215 = Pumbyry papapy guerujeyrã noĩri gueteri
+auth-error-216 = Ehupytýma hu’ã ñe’ẽmondorã
 auth-error-999 = Jejavy eha’ãrõ’ỹva
 auth-error-1001 = Ojejokóma tembiapo ñepyrũ
 auth-error-1002 = Hu’ãma tembiapo. Eñepyrũjey emba’apo hag̃ua.
@@ -1187,10 +1188,20 @@ auth-error-1003 = Ñeñongatu pypegua térã umi kookie noñembojurujái gueteri
 auth-error-1008 = Ñe’ẽñemi pyahu iñambueva’erã
 auth-error-1010 = Eikotevẽ ñe’ẽñemi oikóva
 auth-error-1011 = Eikotevẽ ñanduti veve oikóva
+auth-error-1018 = Ne ñanduti veve ñemoneĩrã oujey. ¿Ikatu ehaivai kundaharape?
+auth-error-1020 = ¿Ñanduti veve ehaivai? firefox.com ndaha’éi ñanduti veve oikóva
 auth-error-1031 = Emoinge nde arytee eñemboheraguapývo
 auth-error-1032 = Emoinge nde arytee eñemboheraguapývo
 auth-error-1054 = Pe ayvu ñemoneĩ mokõi jeku’épe ndoikói
+auth-error-1056 = Pe ayvu ñemoneĩrã jeykekoha ndoikói
 auth-error-1062 = Ñemondojey ndoikói
+# Shown when a user tries to sign up with an email address with a domain that doesn't receive emails
+auth-error-1064 = ¿Ñanduti veve ojehaivai? { $domain } nome’ẽi ñanduti veve oikóva
+# Displayed when we want to reference a user's previously set up recovery phone
+# number, but they are not completely signed in yet. We'll only show the last 4 digits.
+# Variables:
+#  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
+recovery-phone-number-ending-digits = Papapy opáva { $lastFourPhoneNumber }-pe
 oauth-error-1000 = Oĩ ndoikóiva. Emboty ko tendayke ha eha’ãjey.
 
 ## Cannot Create Account page
