@@ -282,6 +282,7 @@ inactiveAccountFirstWarning-preview = Eñepyrũ tembiapo ereko are hag̃ua ne mb
 inactiveAccountFirstWarning-action-plaintext = Eñepyrũ tembiapo ereko are hag̃ua ne mba’ete:
 inactiveAccountSecondWarning-subject = Jeku’e tekotevẽva: mba’ete ñembogue 7 árape
 inactiveAccountSecondWarning-title = Ne mba’ete { -brand-mozilla } ha imba’ekuaarãnguéra oguétama 7 arahápe
+inactiveAccountSecondWarning-account-description-v2 = Nde { -product-mozilla-account } ojeporu ojeike hag̃ua apopyre ñemi reigua ha ñeikundaha ikatúva { -brand-firefox } sync, { -product-mozilla-monitor }, { -product-firefox-relay } ha { -product-mdn }.
 inactiveAccountSecondWarning-action = Eñepyrũ tembiapo ereko are hag̃ua ne mba’ete
 inactiveAccountSecondWarning-preview = Eñepyrũ tembiapo ereko are hag̃ua ne mba’ete
 # followed by link to sign in
