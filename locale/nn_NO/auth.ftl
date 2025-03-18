@@ -267,17 +267,29 @@ fraudulentAccountDeletion-contact = Viss du har spørsmål, kontakt <a data-l10n
 fraudulentAccountDeletion-contact-plaintext = Viss du har spørsmål, kontakt support-teamet vårt: { $mozillaSupportUrl }
 inactiveAccountFinalWarning-title = { -brand-mozilla }-kontoen din og data vil bli sletta
 inactiveAccountFinalWarning-preview = Logg inn for å behalde kontoen din
+inactiveAccountFinalWarning-account-description = { -product-mozilla-account }en din vert brukt til å få tilgang til gratis personvern- og surfeprodukt som { -brand-firefox } sync, { -product-mozilla-monitor }, { -product-firefox-relay } og { -product-mdn }.
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+# This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
+inactiveAccountFinalWarning-impact = På <strong>{ $deletionDate }</strong> vil kontoen din og dei personlege dataa dsine bli sletta permanent med mindre du loggar inn.
 inactiveAccountFinalWarning-action = Logg inn for å behalde kontoen din
 # followed by link to sign in
 inactiveAccountFinalWarning-action-plaintext = Logg inn for å behalde kontoen din:
 inactiveAccountFirstWarning-subject = Ikkje mist kontoen din
+inactiveAccountFirstWarning-title = Vil du behalde { -brand-mozilla }-kontoen og dataa dine?
+inactiveAccountFirstWarning-account-description-v2 = { -product-mozilla-account }en din vert brukt til å få tilgang til gratis personvern- og surfeprodukt som { -brand-firefox } sync, { -product-mozilla-monitor }, { -product-firefox-relay } og { -product-mdn }.
 inactiveAccountFirstWarning-inactive-status = Vi la merke til at du ikkje har logga på på 2 år.
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+# This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
+inactiveAccountFirstWarning-impact = Kontoen din og dei personlege dataa dine blir permanent sletta <strong>{ $deletionDate }</strong> fordi du ikkje har vore aktiv.
 inactiveAccountFirstWarning-action = Logg inn for å behalde kontoen din
 inactiveAccountFirstWarning-preview = Logg inn for å behalde kontoen din
 # followed by link to sign in
 inactiveAccountFirstWarning-action-plaintext = Logg inn for å behalde kontoen din:
 inactiveAccountSecondWarning-subject = Handling påkravd: Sletting av kontoen om 7 dagar
 inactiveAccountSecondWarning-title = { -brand-mozilla }-kontoen din og data vil bli sletta om 7 dagar
+inactiveAccountSecondWarning-account-description-v2 = { -product-mozilla-account }en din vert brukt til å få tilgang til gratis personvern- og surfeprodukt som { -brand-firefox } sync, { -product-mozilla-monitor }, { -product-firefox-relay } og { -product-mdn }.
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+inactiveAccountSecondWarning-impact = Kontoen din og dei personlege dataa dine blir permanent sletta <strong>{ $deletionDate }</strong> fordi du ikkje har vore aktiv.
 inactiveAccountSecondWarning-action = Logg inn for å behalde kontoen din
 inactiveAccountSecondWarning-preview = Logg inn for å behalde kontoen din
 # followed by link to sign in
@@ -353,6 +365,10 @@ postAddLinkedAccount-subject-2 = Ny konto knytt til { -product-mozilla-account }
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = { $providerName }-kontoen din er kopla til { -product-mozilla-account }-en din
 postAddLinkedAccount-action = Handsam kontoen
+postAddRecoveryPhone-title = Du oppretta eit gjenoprettingstelefonnummer
+# Links out to a support article about two factor authentication
+postAddRecoveryPhone-how-protect = Korleis dette vernar kontoen din
+postAddRecoveryPhone-how-protect-plaintext = Korleis dette vernar kontoen din:
 postAddRecoveryPhone-enabled-device = Du har aktivert det frå:
 postAddRecoveryPhone-action = Handsam kontoen
 postAddTwoStepAuthentication-subject-2 = Tostegs-godkjenning er slått på
@@ -391,6 +407,7 @@ postRemoveAccountRecovery-title-3 = Du sletta kontogjenopprettingsnøkkelen din
 postRemoveAccountRecovery-body-part1 = Kontogjenopprettingsnøkkelen din er påkravd for å gjenopprette dei krypterte nettlesardataa dine viss du gløymer passordet ditt.
 postRemoveAccountRecovery-body-part2 = Viss du ikkje allereie har gjort det, kan du opprette ein ny kontogjenopprettingsnøkkel i kontoinnstillingane dine for å hindre at du mistar lagra passord, bokmerke, nettlesarhistorikk, og meir.
 postRemoveAccountRecovery-action = Handsam kontoen
+postRemoveRecoveryPhone-requested-device = Du ba om det frå:
 postRemoveSecondary-subject = Sekundær e-postadesse fjerna
 postRemoveSecondary-title = Sekundær e-postadesse fjerna
 # Variables:

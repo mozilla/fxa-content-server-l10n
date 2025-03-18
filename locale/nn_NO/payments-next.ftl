@@ -11,6 +11,7 @@ next-payment-method-first-approve = Først må du godkjenne abonnementet ditt
 
 ## Page - Upgrade page
 
+upgrade-page-payment-information = Betalingsinformasjon
 checkout-error-boundary-retry-button = Prøv på nytt
 checkout-error-boundary-basic-error-message = Noko gjekk gale. Prøv på nytt eller <contactSupportLink>kontakt support.</contactSupportLink>
 
@@ -133,6 +134,7 @@ next-new-user-subscribe-product-assurance = Vi brukar berre e-postadressa di for
 plan-price-interval-daily = { $amount } kvar dag
 plan-price-interval-weekly = { $amount } kvar veke
 plan-price-interval-monthly = { $amount } kvar månad
+plan-price-interval-halfyearly = { $amount } kvar 6. månad
 plan-price-interval-yearly = { $amount } kvart år
 
 ## Component - SubscriptionTitle
@@ -152,6 +154,11 @@ next-subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capita
 next-terms = Tenestevilkår
 next-privacy = Personvernerklæring
 next-terms-download = Vilkår for nedlasting
+terms-and-privacy-stripe-label = { -brand-mozilla } brukar { -brand-name-stripe } for sikker behandling av betaling.
+terms-and-privacy-stripe-link = { -brand-name-stripe } personvernerklæring
+terms-and-privacy-paypal-label = { -brand-mozilla } brukar { -brand-paypal } for trygg betalingsbehandling.
+terms-and-privacy-paypal-link = { -brand-paypal } personvernerklæring
+terms-and-privacy-stripe-and-paypal-label = { -brand-mozilla } brukar { -brand-name-stripe } og { -brand-paypal } for trygg betalingsbehandling.
 
 ## Component - UpdatedPurchaseDetails
 
@@ -168,4 +175,5 @@ upgrade-purchase-details-prorated-upgrade = Forholdsmessig oppgradering
 upgrade-purchase-details-new-plan-daily = { $productName } (kvar dag)
 upgrade-purchase-details-new-plan-weekly = { $productName } (kvar veke)
 upgrade-purchase-details-new-plan-monthly = { $productName } (kvar månad)
+upgrade-purchase-details-new-plan-halfyearly = { $productName } (6 månadar)
 upgrade-purchase-details-new-plan-yearly = { $productName } (kvart år)

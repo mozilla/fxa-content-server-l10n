@@ -417,6 +417,7 @@ password-reset-warning-icon = Åtvaring
 password-reset-chevron-expanded = Skjul åtvaring
 password-reset-chevron-collapsed = Vis åtvaring
 password-reset-previously-signed-in-device-2 = Har du ei eining du tidlegare har logga på?
+password-reset-warning-have-key = Har du ein kontogjenopprettingsnøkkel?
 
 ## Alert Bar
 
@@ -571,6 +572,9 @@ flow-recovery-key-info-cancel-link = Avbryt
 
 ## FlowSetupPhoneConfirmCode
 
+# verification code refers to a code sent by text message to confirm phone number ownership
+# and complete setup
+flow-setup-phone-confirm-code-heading = Skriv inn stadfestingskode
 flow-setup-phone-confirm-code-input-label = Skriv inn 6-sifra kode
 flow-setup-phone-confirm-code-button = Stadfest
 # button to resend a code by text message to the user's phone
@@ -1034,6 +1038,7 @@ auth-error-1032 = Du må skrive inn ein gyldig alder for å registrere deg
 auth-error-1054 = Feil tostegs-godkjenningskode
 auth-error-1056 = Ugyldig reserve-godkjenningskode
 auth-error-1062 = Ugyldig omdirigering
+auth-error-1067 = Feilksriven e-postadresse?
 # Displayed when we want to reference a user's previously set up recovery phone
 # number, but they are not completely signed in yet. We'll only show the last 4 digits.
 # Variables:
@@ -1089,6 +1094,7 @@ cookies-disabled-learn-more = Les meir
 index-header = Skriv inn e-postadressa di
 index-sync-header = Hald fram til { -product-mozilla-account }en din
 index-sync-subheader = Synkroniser passorda, fanene og bokmerka dine overalt der du brukar { -brand-firefox }.
+index-relay-header = Lag eit e-postalias
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = Hald fram til { $serviceName }
 index-subheader-with-logo = Hald fram til <span>{ $serviceLogo }</span>
