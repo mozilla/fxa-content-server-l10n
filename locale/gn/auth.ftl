@@ -69,6 +69,8 @@ subplat-legal = Añete
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Ñemigua
 subplat-privacy-website-plaintext = { subplat-privacy }:
+account-deletion-info-block-support = Eporanduséramo térã eikotevẽramo ñepytyvõ, eñe’ẽ ore <a data-l10n-name="mozillaSupportUrl">aty pytyvõha ndive</a>.
+account-deletion-info-block-support-plaintext = Eporanduse térã eikotevẽramo ñepytyvõ, eñe’ẽ ore aty ñepytyvõha ndive:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-android-badge = <img data-l10n-name="google-play-badge" alt="Emboguejy { $productName } { -google-play }"> rupive
@@ -142,6 +144,9 @@ automatedEmailRecoveryKey-more-info-plaintext = Eikuaave hag̃ua, eike { -brand-
 automated-email-reset =
     Kóva ha’e ñandutiveve ijeheguíva; neremomeĩriramo, upéicharamo <a data-l10n-name="resetLink">emoambue ne ñe’ẽñemi</a>.
     Eñemomaranduve hag̃ua, ikatúpa eikemi <a data-l10n-name="supportLink">{ -brand-mozilla } oipytyvõva</a>.
+# Variables:
+#  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
+automated-email-reset-plaintext-v2 = Neremoneĩriramo ko jeku’e, embojevyjey ne ñe’ẽñemi ko’ag̃aite { $resetLink } ndive
 brand-banner-message = ¿Eikuaa romoambueha ore réra { -product-firefox-accounts } ko’ág̃a { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Eikuaave</a>
 cancellationSurvey = Orepytyvõna romoĩporãvévo mba’eporu ejapóvo ko <a data-l10n-name="cancellationSurveyUrl">ñeporandu mbykymi</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
