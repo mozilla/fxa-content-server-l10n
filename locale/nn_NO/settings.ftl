@@ -1095,6 +1095,7 @@ index-header = Skriv inn e-postadressa di
 index-sync-header = Hald fram til { -product-mozilla-account }en din
 index-sync-subheader = Synkroniser passorda, fanene og bokmerka dine overalt der du brukar { -brand-firefox }.
 index-relay-header = Lag eit e-postalias
+index-relay-subheader = Skriv inn e-postadressa dit du vill vidaresende e-postmeldingar frå den maskerte e-postadressa di.
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = Hald fram til { $serviceName }
 index-subheader-with-logo = Hald fram til <span>{ $serviceLogo }</span>
@@ -1103,6 +1104,10 @@ index-cta = Registrer deg eller logg inn
 index-account-info = Ein { -product-mozilla-account } låser også opp tilgang til meir personvern-beskyttande produkt frå { -brand-mozilla }.
 index-email-input =
     .label = Skriv inn e-postadressa di
+# When users delete their Mozilla account inside account Settings, they are redirected to this page with a success message
+index-account-delete-success = Kontoen er no sletta
+# Displayed when users try to sign up for an account and their confirmation code email bounces
+index-email-bounced = Stadfestings e-posten din kom i retur. Feil i e-postadressa?
 
 ## InlineRecoveryKeySetup page component
 
@@ -1279,6 +1284,7 @@ set-password-heading = Opprett passord
 
 ## AccountRecoveryConfirmKey page
 
+account-recovery-confirm-key-heading = Skriv inn kontogjenopprettingsnøkkelen din
 # When setting up an account recovery key, users have the option of storing an account recovery key hint that is shown during password reset
 account-recovery-confirm-key-hint = Lagringstipset ditt er:
 # Clicking this button checks if the recovery key provided by the user is correct and associated with their account
@@ -1416,6 +1422,8 @@ signin-recovery-method-header = Logg inn
 
 signin-recovery-code-heading = Logg inn
 signin-recovery-code-sub-heading = Skriv inn reserve-godkjenningskode
+# code here refers to backup authentication code
+signin-recovery-code-input-label-v2 = Skriv inn 10-sifra kode
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Stadfest
 # External link for support if the user can't use two-step autentication or a backup authentication code
@@ -1423,6 +1431,7 @@ signin-recovery-code-confirm-button = Stadfest
 signin-recovery-code-support-link = Er du sperra ute?
 # Error displayed in a tooltip when form is submitted witout a code
 signin-recovery-code-required-error = Reserve-autentiseringskode påkravd
+signin-recovery-code-use-phone-failure-description = Prøv igjen seinare.
 
 ## SigninRecoveryPhone page
 
