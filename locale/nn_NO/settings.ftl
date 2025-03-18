@@ -771,6 +771,9 @@ settings-recovery-phone-remove-cancel = Avbryt
 
 ## PageSetupRecoveryPhone
 
+page-setup-recovery-phone-back-button-title = Tilbake til innstillingar
+# Back arrow to return to step 1 of recovery phone setup flow
+page-setup-recovery-phone-step2-back-button-title = Endre telefonnummer
 
 ## Add secondary email page
 
@@ -1414,6 +1417,7 @@ signin-push-code-confirm-link-error = Lenka er skadd. Prøv igjen.
 ## their password, and they previously had set up an account recovery method.
 
 signin-recovery-method-header = Logg inn
+signin-recovery-method-code-v2 = Reserve-godkjenningskodar
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
@@ -1444,6 +1448,8 @@ signin-recovery-phone-resend-code-button = Send koden på nytt
 signin-recovery-phone-resend-success = Kode sendt
 # links to https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 signin-recovery-phone-locked-out-link = Er du sperra ute?
+# Follows the error message (e.g, "There was a problem sending a code")
+signin-recovery-phone-general-error-description = Prøv igjen seinare.
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -1527,6 +1533,9 @@ confirm-signup-code-is-required-error = Stadfestingskode er påkravd
 
 signup-heading = Angje passord
 signup-heading-relay = Opprett passord
+# Link included in a dismissible info banner that is only displayed to Pocket clients
+# Link leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
+signup-pocket-info-banner-link = Finn ut av det her
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Endre e-post
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)

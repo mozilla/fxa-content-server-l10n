@@ -388,6 +388,7 @@ postChangePrimary-title = Ny primær e-postadresse
 #  $email (String) - A user's email address
 postChangePrimary-description-2 = Du har endra den primære e-postadressa di til { $email }. Denne adressa nyttar du som brukarnamn for å logge inn på { -product-mozilla-account }-en din, i tillegg til å ta imot sikkerheitsvarsel og stadfestingar på innloggingar.
 postChangePrimary-action = Handsam kontoen
+postChangeRecoveryPhone-requested-device = Du ba om det frå:
 postConsumeRecoveryCode-title-2 = Du brukte ein reserve-godkjenningskode
 # After the colon, there is description of the device that the backup authentication code was used on
 postConsumeRecoveryCode-description-2 = Han vart brukt på:
