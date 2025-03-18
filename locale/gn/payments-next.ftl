@@ -11,6 +11,7 @@ next-payment-method-first-approve = Emoneĩraẽva’erã ne ñemboheraguapy
 
 ## Page - Upgrade page
 
+upgrade-page-payment-information = Jehepyme’ẽrã marandu
 checkout-error-boundary-retry-button = Eha’ãjey
 
 ## Error pages - /checkout and /upgrade
@@ -129,6 +130,7 @@ next-new-user-subscribe-product-assurance = Roiporu ne ñanduti veve romoheñói
 plan-price-interval-daily = { $amount } aragua
 plan-price-interval-weekly = { $amount } arapokõindygua
 plan-price-interval-monthly = { $amount } jasygua
+plan-price-interval-halfyearly = { $amount } 6 jasy ohupytývo
 plan-price-interval-yearly = { $amount } arygua
 
 ## Component - SubscriptionTitle
@@ -148,6 +150,11 @@ next-subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capita
 next-terms = Mba’epytyvõrã ñemboguata
 next-privacy = Marandu’i ñemiguáva
 next-terms-download = Emboguejy ñemboguatarã
+terms-and-privacy-stripe-label = { -brand-mozilla } oiporu { -brand-name-stripe } ojehepyme’ẽ hag̃ua tekorosãme.
+terms-and-privacy-stripe-link = { -brand-name-stripe } porureko ñemigua
+terms-and-privacy-paypal-label = { -brand-mozilla } oiporu { -brand-paypal } ojehepyme’ẽ hag̃ua tekorosãme.
+terms-and-privacy-paypal-link = { -brand-paypal } porureko ñemigua
+terms-and-privacy-stripe-and-paypal-label = { -brand-mozilla } oiporu { -brand-name-stripe } ha { -brand-paypal } ojehepyme’ẽ hag̃ua tekorosãme.
 
 ## Component - UpdatedPurchaseDetails
 
@@ -164,4 +171,5 @@ upgrade-purchase-details-prorated-upgrade = Mbohekopyahu mboja’opyre
 upgrade-purchase-details-new-plan-daily = { $productName } (Aragua)
 upgrade-purchase-details-new-plan-weekly = { $productName } (Arapokõindygua)
 upgrade-purchase-details-new-plan-monthly = { $productName } (Jasygua)
+upgrade-purchase-details-new-plan-halfyearly = { $productName } (6 jasygua)
 upgrade-purchase-details-new-plan-yearly = { $productName } (Arygua)
