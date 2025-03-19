@@ -432,11 +432,16 @@ postRemoveTwoStepAuthentication-title-2 = Anda menonaktifkan autentikasi dua lan
 postRemoveTwoStepAuthentication-from-device = Anda menonaktifkannya dari:
 postRemoveTwoStepAuthentication-action = Kelola akun
 postRemoveTwoStepAuthentication-not-required-2 = Anda tidak lagi memerlukan kode keamanan dari aplikasi autentikasi saat masuk.
+postSigninRecoveryCode-preview = Konfirmasi aktivitas akun
+postSigninRecoveryCode-title = Kode autentikasi cadangan Anda digunakan untuk masuk
+postSigninRecoveryCode-description = Jika Anda tidak melakukannya, Anda harus segera mengubah sandi untuk menjaga keamanan akun Anda.
 postSigninRecoveryCode-device = Anda masuk dari:
 postSigninRecoveryCode-action = Kelola akun
 postSigninRecoveryPhone-subject = Ponsel pemulihan digunakan untuk masuk
 postSigninRecoveryPhone-preview = Konfirmasi aktivitas akun
 postSigninRecoveryPhone-title = Ponsel pemulihan Anda digunakan untuk masuk
+postSigninRecoveryPhone-description = Jika Anda tidak melakukannya, Anda harus segera mengubah sandi untuk menjaga keamanan akun Anda.
+postSigninRecoveryPhone-device = Anda masuk dari:
 postSigninRecoveryPhone-action = Kelola akun
 postVerify-sub-title-3 = Kami senang melihat Anda!
 postVerify-title-2 = Ingin melihat tab yang sama di dua perangkat?
@@ -475,6 +480,9 @@ subscriptionAccountReminderSecond-content-info-3 = Beberapa hari yang lalu, Anda
 ##   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 ##   $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
 
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFailedPaymentsCancellation-subject = Langganan { $productName } Anda telah dibatalkan
 subscriptionFailedPaymentsCancellation-title = Langganan Anda telah dibatalkan
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
