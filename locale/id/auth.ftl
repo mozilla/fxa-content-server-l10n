@@ -316,10 +316,27 @@ passwordResetWithRecoveryKeyPrompt-cta-description = Anda harus masuk lagi di se
 postAddAccountRecovery-subject-3 = Kunci pemulihan akun baru dibuat
 postAddAccountRecovery-title2 = Anda membuat kunci pemulihan akun baru
 postAddAccountRecovery-action = Kelola akun
+postAddRecoveryPhone-action = Kelola akun
 postAddTwoStepAuthentication-action = Kelola akun
+postChangeAccountRecovery-title = Anda mengubah kunci pemulihan akun Anda
+postChangeAccountRecovery-body-part1 = Anda sekarang memiliki kunci pemulihan akun baru. Kunci Anda sebelumnya telah dihapus.
+postChangeAccountRecovery-body-part2 = Simpan kunci baru ini di tempat yang aman — Anda akan membutuhkannya untuk memulihkan data penjelajahan terenkripsi Anda jika Anda lupa kata sandi Anda.
+postChangeAccountRecovery-action = Kelola akun
+postChangePrimary-subject = Email utama diperbarui
 postChangePrimary-title = Surel utama baru
+# Variables:
+#  $email (String) - A user's email address
+postChangePrimary-description-2 = Anda sukses mengubah surel utama Anda ke { $email }. Sekarang alamat ini adalah nama pengguna Anda untuk masuk ke { -product-mozilla-account } Account Anda, serta menerima pemberitahuan keamanan dan konfirmasi masuk.
 postChangePrimary-action = Kelola akun
+postConsumeRecoveryCode-title-2 = Anda menggunakan kode autentikasi cadangan
+# After the colon, there is description of the device that the backup authentication code was used on
+postConsumeRecoveryCode-description-2 = Itu digunakan pada:
 postConsumeRecoveryCode-action = Kelola akun
+postConsumeRecoveryCode-subject-2 = { $numberRemaining } kode otentikasi cadangan tersisa
+postNewRecoveryCodes-subject-2 = Kode otentikasi cadangan baru dibuat
+postNewRecoveryCodes-title-2 = Anda membuat kode autentikasi cadangan baru
+# After the colon, there is information about the device that the authentication codes were created on
+postNewRecoveryCodes-description-2 = Kode dibuat pada:
 postNewRecoveryCodes-action = Kelola akun
 postRemoveAccountRecovery-action = Kelola akun
 postRemoveSecondary-subject = Surel sekunder telah dihapus
@@ -335,6 +352,7 @@ recovery-action = Buat sandi baru
 subscriptionAccountFinishSetup-action-2 = Mulai
 subscriptionAccountReminderFirst-subject = Pengingat: Selesaikan penyiapan akun Anda
 subscriptionAccountReminderFirst-title = Anda belum dapat mengakses langganan Anda
+subscriptionAccountReminderFirst-content-info-3 = Beberapa hari yang lalu, Anda membuat { -product-mozilla-account }, tetapi belum mengonfirmasinya. Kami harap Anda dapat menyelesaikan penyiapan akun agar dapat menggunakan langganan baru Anda.
 
 ## Variables
 ##   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
