@@ -1246,11 +1246,11 @@ msgstr "Tidak dapat memindai kode?"
 
 #: .es5/templates/inline_totp_setup.mustache:14 .es5/templates/inline_totp_setup.mustache:18
 msgid "Once complete, it will begin generating security codes for you to enter."
-msgstr ""
+msgstr "Setelah selesai, kode keamanan akan terbentuk untuk Anda masukkan."
 
 #: .es5/templates/inline_totp_setup.mustache:16
 msgid "Type this secret key into your authentication app."
-msgstr ""
+msgstr "Ketik kunci rahasia ini ke dalam aplikasi autentikasi Anda."
 
 #: .es5/templates/inline_totp_setup.mustache:17
 msgid "Scan QR code instead?"
@@ -1502,11 +1502,11 @@ msgstr "Hubungi Kami"
 
 #: .es5/templates/support.mustache:7
 msgid "What are you contacting us about?"
-msgstr ""
+msgstr "Apa yang ingin Anda tanyakan kepada kami?"
 
 #: .es5/templates/support.mustache:8 .es5/templates/support.mustache:12 .es5/templates/support.mustache:19
 msgid "Please select one"
-msgstr ""
+msgstr "Silakan pilih satu"
 
 #: .es5/templates/support.mustache:11
 msgid "What do you need help with?"
@@ -1526,7 +1526,7 @@ msgstr "Masalah teknis"
 
 #: .es5/templates/support.mustache:16
 msgid "Provide feedback / request features"
-msgstr ""
+msgstr "Berikan umpan balik / sarankan fitur"
 
 #: .es5/templates/support.mustache:17
 msgid "Not listed"
@@ -1534,7 +1534,7 @@ msgstr "Tidak terdaftar"
 
 #: .es5/templates/support.mustache:18
 msgid "Do you need help with a specific app or service? (optional)"
-msgstr ""
+msgstr "Apakah Anda memerlukan bantuan dengan aplikasi atau layanan tertentu? (opsional)"
 
 #: .es5/templates/support.mustache:20
 msgid "Subject (optional)"
@@ -1554,7 +1554,7 @@ msgstr "Ketentuan Layanan"
 
 #: .es5/templates/would-you-like-to-sync.mustache:1
 msgid "Would you like to sync this device to your account?"
-msgstr ""
+msgstr "Ingin menyinkronkan perangkat ini ke akun Anda?"
 
 #: .es5/templates/would-you-like-to-sync.mustache:2
 msgid "Sync this device"
@@ -1578,11 +1578,11 @@ msgstr "Berhasil terhubung"
 
 #: .es5/templates/push/completed.mustache:3
 msgid "Please close this page and continue on the other device."
-msgstr ""
+msgstr "Silakan tutup laman ini dan lanjutkan di perangkat lain."
 
 #: .es5/templates/push/confirm_login.mustache:1
 msgid "New sign-in to Firefox"
-msgstr ""
+msgstr "Baru masuk ke Firefox"
 
 #: .es5/templates/push/confirm_login.mustache:3
 msgid "Confirm sign-in"
@@ -1590,7 +1590,7 @@ msgstr "Mengkonfirmasi masuk"
 
 #: .es5/templates/push/confirm_login.mustache:4
 msgid "If you suspect that someone is trying to gain access to your account, <a id=\"change-password\" href=\"/settings/change_password\">please change your password.</a>"
-msgstr ""
+msgstr "Jika Anda mencurigai bahwa seseorang mencoba mendapatkan akses ke akun Anda, <a id=\"change-password\" href=\"/settings/change_password\">silakan ubah sandi Anda</a>"
 
 #: .es5/templates/push/send_login.mustache:2
 msgid "Send login push notification"
