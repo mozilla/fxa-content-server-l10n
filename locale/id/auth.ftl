@@ -265,6 +265,7 @@ downloadSubscription-link-action-2 = Mulai
 fraudulentAccountDeletion-subject-2 = { -product-mozilla-account } Anda telah dihapus
 fraudulentAccountDeletion-title = Akun Anda telah dihapus
 fraudulentAccountDeletion-content-part1-v2 = Baru-baru ini, { -product-mozilla-account } telah dibuat, dan langganan ditagihkan ke alamat surel ini. Seperti halnya semua akun baru, kami meminta Anda untuk mengonfirmasi akun dengan terlebih dahulu memverifikasi alamat surel ini.
+fraudulentAccountDeletion-content-part2-v2 = Saat ini, kami melihat bahwa akun tersebut belum pernah dikonfirmasi. Karena langkah ini belum selesai, kami tidak yakin apakah ini adalah langganan yang sah. Akibatnya, { -product-mozilla-account } yang terdaftar pada surel ini telah dihapus dan langganan Anda dibatalkan, serta semua biaya telah dikembalikan.
 fraudulentAccountDeletion-contact = Jika Anda memiliki pertanyaan, silakan hubungi <a data-l10n-name="mozillaSupportUrl">tim dukungan</a> kami.
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
@@ -273,9 +274,15 @@ inactiveAccountFinalWarning-subject = Kesempatan terakhir untuk mempertahankan {
 inactiveAccountFinalWarning-title = Akun dan data { -brand-mozilla } Anda akan dihapus
 inactiveAccountFinalWarning-preview = Masuk agar akun Anda tetap aktif
 inactiveAccountFinalWarning-account-description = Akun { -product-mozilla-account } Anda digunakan untuk mengakses produk privasi dan penjelajahan gratis seperti sinkronisasi { -brand-firefox }, { -product-mozilla-monitor }, { -product-firefox-relay }, dan { -product-mdn }.
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+# This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
+inactiveAccountFinalWarning-impact = Pada <strong>{ $deletionDate }</strong>, akun dan data pribadi Anda akan dihapus secara permanen, kecuali jika Anda masuk.
 inactiveAccountFinalWarning-action = Masuk agar akun Anda tetap aktif
 # followed by link to sign in
 inactiveAccountFinalWarning-action-plaintext = Masuk agar akun Anda tetap aktif:
+inactiveAccountFirstWarning-subject = Jangan biarkan akun Anda hilang
+inactiveAccountFirstWarning-title = Ingin menyimpan akun dan data { -brand-mozilla } Anda?
+inactiveAccountFirstWarning-account-description-v2 = { -product-mozilla-account } Anda digunakan untuk mengakses privasi gratis dan produk penjelajahan seperti sinkronisasi { -brand-firefox }, { -product-mozilla-monitor } { -product-firefox-relay } dan { -product-mdn }.
 inactiveAccountFirstWarning-inactive-status = Kami melihat Anda belum masuk selama 2 tahun.
 # $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
 # This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
@@ -308,6 +315,17 @@ lowRecoveryCodes-subject-2 =
         [0] Tidak ada kode otentikasi yang tersisa
        *[other] Hanya { $numberRemaining } kode otentikasi cadangan yang tersisa!
     }
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+newDeviceLogin-subject = Info masuk baru ke { $clientName }
+newDeviceLogin-subjectForMozillaAccount = Info masuk baru ke { -product-mozilla-account } Anda
+newDeviceLogin-title-3 = { -product-mozilla-account } Anda digunakan untuk masuk
+# The "Not you?" question is asking whether the recipient of the email is the
+# person who performed the action that triggered the email.
+newDeviceLogin-change-password = Bukan Anda? <a data-l10n-name="passwordChangeLink">Ubah sandi Anda</a>.
+# The "Not you?" question is asking whether the recipient of the email is the
+# person who performed the action that triggered the email.
+newDeviceLogin-change-password-plain = Bukan Anda? Ubah sandi Anda:
 newDeviceLogin-action = Kelola akun
 passwordChanged-subject = Sandi telah diperbarui
 passwordChanged-title = Sandi sukses diganti
@@ -322,6 +340,14 @@ password-forgot-otp-title = Lupa sandi Anda?
 password-forgot-otp-request = Kami menerima permintaan perubahan sandi pada { -product-mozilla-account } Anda dari:
 password-forgot-otp-code-2 = Jika ini Anda, berikut adalah kode konfirmasi Anda untuk melanjutkan:
 password-forgot-otp-expiry-notice = Kode ini kedaluwarsa dalam 10 menit.
+passwordReset-subject-2 = Sandi Anda telah disetel ulang
+passwordReset-title-2 = Sandi Anda telah disetel ulang
+# This sentence is followed by information about the device and time of the password reset
+passwordReset-description-2 = Anda menyetel ulang sandi { -product-mozilla-account } pada:
+passwordResetAccountRecovery-subject-2 = Sandi Anda telah diset ulang
+passwordResetAccountRecovery-title-3 = Sandi Anda telah disetel ulang
+# Followed by details on the device and date/time of the password reset.
+passwordResetAccountRecovery-description-3 = Anda menggunakan kunci pemulihan akun untuk menyetel ulang sandi { -product-mozilla-account } pada:
 passwordResetAccountRecovery-action-4 = Kelola akun
 passwordResetWithRecoveryKeyPrompt-subject = Sandi Anda telah diset ulang
 passwordResetWithRecoveryKeyPrompt-title = Sandi Anda telah diset ulang
