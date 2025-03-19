@@ -551,6 +551,16 @@ confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Ingatlah untuk mengonfirmasi akun Anda
 verificationReminderFirst-title-3 = Selamat datang di { -brand-mozilla }
 verificationReminderFirst-description-3 = Beberapa hari yang lalu Anda membuat { -product-mozilla-account }, tetapi tidak pernah mengonfirmasinya. Konfirmasikan akun Anda dalam 15 hari ke depan atau akun akan dihapus secara otomatis.
+confirm-email-2 = Konfirmasi akun
+confirm-email-plaintext-2 = { confirm-email-2 }:
+verificationReminderFirst-action-2 = Konfirmasi akun
+verificationReminderSecond-subject-2 = Ingatlah untuk mengonfirmasi akun Anda
+verificationReminderSecond-title-3 = Jangan lewatkan { -brand-mozilla }!
+verificationReminderSecond-description-4 = Beberapa hari yang lalu Anda membuat { -product-mozilla-account }, tetapi tidak pernah mengonfirmasinya. Konfirmasikan akun Anda dalam 10 hari ke depan atau akun akan dihapus secara otomatis.
+verificationReminderSecond-second-description-3 = { -product-mozilla-account } memungkinkan Anda menyinkronkan pengalaman { -brand-firefox } di berbagai perangkat dan memberi Anda akses ke lebih banyak produk dari { -brand-mozilla } yang melindungi privasi Anda.
+verificationReminderSecond-action-2 = Konfirmasi akun
+verify-title-3 = Buka internet dengan { -brand-mozilla }
+verify-description-2 = Konfirmasikan akun Anda dan dapatkan manfaat maksimal dari { -brand-mozilla } di mana pun Anda masuk dimulai dengan:
 verify-subject = Selesaikan pembuatan akun Anda
 verify-action-2 = Konfirmasi akun
 # Variables:
