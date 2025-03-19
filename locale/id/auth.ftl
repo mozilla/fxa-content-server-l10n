@@ -182,12 +182,19 @@ subscriptionSupportContact = Terima kasih telah berlangganan { $productName }. J
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupportContact-plaintext = Terima kasih telah berlangganan { $productName }. Jika Anda memiliki pertanyaan tentang langganan Anda atau memerlukan informasi lebih lanjut tentang { $productName }, silakan hubungi kami:
 subscriptionUpdateBillingEnsure = Anda dapat memastikan bahwa metode pembayaran dan informasi akun Anda adalah yang terbaru <a data-l10n-name="updateBillingUrl">di sini</a>.
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
+subscriptionUpdateBillingEnsure-plaintext = Anda dapat memastikan bahwa metode pembayaran dan informasi rekening Anda sudah diperbarui di sini:
+subscriptionUpdateBillingTry = Kami akan mencoba memproses pembayaran Anda lagi dalam beberapa hari ke depan, tetapi Anda mungkin perlu <a data-l10n-name="updateBillingUrl">memperbarui informasi pembayaran Anda</a>.
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
+subscriptionUpdateBillingTry-plaintext = Kami akan mencoba memproses pembayaran Anda lagi dalam beberapa hari ke depan, tetapi Anda mungkin perlu memperbarui informasi pembayaran Anda.
 view-invoice = <a data-l10n-name="invoiceLink">Lihat faktur Anda</a>.
+codes-reminder-description-two-left = Anda hanya memiliki dua kode tersisa.
 newDeviceLogin-action = Kelola akun
 passwordChanged-subject = Sandi telah diperbarui
 passwordChanged-title = Sandi sukses diganti
 passwordChangeRequired-subject = Aktivitas mencurigakan terdeteksi
 passwordChangeRequired-title = Perubahan Kata Sandi Diperlukan
+passwordChangeRequired-different-password-plaintext = Penting: Pilih sandi yang berbeda dari yang Anda gunakan sebelumnya dan pastikan sandi berbeda dari akun surel Anda.
 postAddAccountRecovery-title2 = Anda membuat kunci pemulihan akun baru
 postAddAccountRecovery-action = Kelola akun
 postAddTwoStepAuthentication-action = Kelola akun

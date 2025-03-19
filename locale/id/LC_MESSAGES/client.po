@@ -382,7 +382,7 @@ msgstr "Surel Anda baru saja dikembalikan"
 
 #: .es5/lib/auth-errors.js:142
 msgid "Your email was just returned. Mistyped email?"
-msgstr "Surel Anda baru saja dikembalikan. Salah tik surel?"
+msgstr "Surel Anda baru saja dikembalikan. Salah ketik surel?"
 
 #: .es5/lib/auth-errors.js:146
 msgid "Unable to deliver email"
