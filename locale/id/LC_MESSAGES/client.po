@@ -1159,7 +1159,7 @@ msgstr "Daftar atau masuk"
 
 #: .es5/templates/index.mustache:14
 msgid "A Mozilla account also unlocks access to more privacy-protecting products from Mozilla."
-msgstr ""
+msgstr "Akun Mozilla juga membuka akses ke lebih banyak produk perlindungan privasi dari Mozilla."
 
 #: .es5/templates/index.mustache:16
 msgid ""
@@ -1181,7 +1181,7 @@ msgstr ""
 
 #: .es5/templates/inline_recovery_setup.mustache:1
 msgid "Save backup authentication codes"
-msgstr ""
+msgstr "Simpan kode autentikasi cadangan"
 
 #: .es5/templates/inline_recovery_setup.mustache:3
 msgid "Store these one-time use codes in a safe place for when you don't have your mobile device."
@@ -1210,15 +1210,15 @@ msgstr "Batalkan penyiapan"
 
 #: .es5/templates/inline_recovery_setup.mustache:12
 msgid "Confirm backup authentication code"
-msgstr ""
+msgstr "Konfirmasi kode otentikasi cadangan"
 
 #: .es5/templates/inline_recovery_setup.mustache:14
 msgid "To ensure that you will be able to regain access to your account, in the event of a lost device, please enter one of your saved backup authentication codes."
-msgstr ""
+msgstr "Untuk memastikan Anda dapat mengakses akun kembali jika perangkat hilang, masukkan salah satu kode otentikasi cadangan yang telah disimpan."
 
 #: .es5/templates/inline_recovery_setup.mustache:15
 msgid "Backup authentication code"
-msgstr ""
+msgstr "Kode otentikasi cadangan"
 
 #: .es5/templates/inline_totp_setup.mustache:1
 msgid "Enable two-step authentication"
@@ -1320,7 +1320,7 @@ msgstr "Akun Anda siap!"
 
 #: .es5/templates/ready.mustache:15
 msgid "Generate a new account recovery key"
-msgstr ""
+msgstr "Buat kunci pemulihan akun baru"
 
 #: .es5/templates/report_sign_in.mustache:4
 msgid "Report unauthorized sign-in?"
@@ -1482,11 +1482,11 @@ msgstr "Buat akun"
 
 #: .es5/templates/support.mustache:1 .es5/templates/partial/brand-messaging.mustache:1
 msgid "Mozilla m logo"
-msgstr ""
+msgstr "Logo m Mozilla"
 
 #: .es5/templates/support.mustache:2
 msgid "Mozilla account"
-msgstr ""
+msgstr "Akun Mozilla"
 
 #: .es5/templates/support.mustache:3
 msgid "Account Home"
@@ -1566,7 +1566,7 @@ msgstr "Langkah 1 dari 2: Masukkan kembali sandi"
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:2
 msgid "Enter your password to view your account recovery key."
-msgstr ""
+msgstr "Masukkan sandi Anda untuk melihat kunci pemulihan akun Anda."
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:3
 msgid "Enter Password"
@@ -1594,7 +1594,7 @@ msgstr "Jika Anda mencurigai bahwa seseorang mencoba mendapatkan akses ke akun A
 
 #: .es5/templates/push/send_login.mustache:2
 msgid "Send login push notification"
-msgstr ""
+msgstr "Kirim notifikasi dorong masuk ke akun"
 
 #: .es5/templates/push/send_login.mustache:3
 msgid "Check your connected Firefox devices for the sign-in confirmation tab we've sent."
