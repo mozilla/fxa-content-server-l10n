@@ -272,6 +272,7 @@ fraudulentAccountDeletion-contact-plaintext = Jika Anda memiliki pertanyaan, sil
 inactiveAccountFinalWarning-subject = Kesempatan terakhir untuk mempertahankan { -product-mozilla-account } Anda
 inactiveAccountFinalWarning-title = Akun dan data { -brand-mozilla } Anda akan dihapus
 inactiveAccountFinalWarning-preview = Masuk agar akun Anda tetap aktif
+inactiveAccountFinalWarning-account-description = Akun { -product-mozilla-account } Anda digunakan untuk mengakses produk privasi dan penjelajahan gratis seperti sinkronisasi { -brand-firefox }, { -product-mozilla-monitor }, { -product-firefox-relay }, dan { -product-mdn }.
 inactiveAccountFinalWarning-action = Masuk agar akun Anda tetap aktif
 # followed by link to sign in
 inactiveAccountFinalWarning-action-plaintext = Masuk agar akun Anda tetap aktif:
@@ -302,6 +303,11 @@ codes-reminder-description-two-left = Anda hanya memiliki dua kode tersisa.
 codes-reminder-description-create-codes = Buat kode otentikasi cadangan baru untuk membantu Anda masuk kembali ke akun Anda jika Anda terkunci.
 lowRecoveryCodes-action-2 = Buat kode
 codes-create-plaintext = { lowRecoveryCodes-action-2 }:
+lowRecoveryCodes-subject-2 =
+    { $numberRemaining ->
+        [0] Tidak ada kode otentikasi yang tersisa
+       *[other] Hanya { $numberRemaining } kode otentikasi cadangan yang tersisa!
+    }
 newDeviceLogin-action = Kelola akun
 passwordChanged-subject = Sandi telah diperbarui
 passwordChanged-title = Sandi sukses diganti
