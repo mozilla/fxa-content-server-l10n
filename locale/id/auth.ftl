@@ -7,11 +7,21 @@ session-verify-send-push-body-2 = Klik di sini untuk mengonfirmasi bahwa ini mem
 # Messages should be limited to one segment
 # $code  - 6 digit code used to verify phone ownership when registering a recovery phone
 recovery-phone-setup-sms-body = { $code } adalah kode verifikasi { -brand-mozilla } Anda. Kedaluwarsa dalam 5 menit.
+# Shorter message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to verify phone ownership when registering a recovery phone
+recovery-phone-setup-sms-short-body = Kode verifikasi { -brand-mozilla }: { $code }
 # Message sent by SMS with limited character length, please test translation with the messaging segment calculator
 # https://twiliodeved.github.io/message-segment-calculator/
 # Messages should be limited to one segment
 # $code  - 6 digit code used to sign in with a recovery phone as backup for two-step authentication
 recovery-phone-signin-sms-body = { $code } adalah kode pemulihan { -brand-mozilla } Anda. Kedaluwarsa dalam 5 menit.
+# Shorter message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to sign in with a recovery phone as backup for two-step authentication
+recovery-phone-signin-sms-short-body = Kode { -brand-mozilla }: { $code }
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
@@ -137,6 +147,9 @@ automatedEmailRecoveryKey-more-info-plaintext = Untuk info lebih lanjut, kunjung
 automated-email-reset =
     Ini adalah surel otomatis; jika Anda tidak mengotorisasi tindakan ini, maka <a data-l10n-name="resetLink">silakan setel ulang sandi Anda</a>.
     Untuk informasi lebih lanjut, silakan kunjungi <a data-l10n-name="supportLink">Dukungan { -brand-mozilla }</a>.
+# Variables:
+#  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
+automated-email-reset-plaintext-v2 = Jika Anda tidak melakukan tindakan ini, segera ubah kata sandi Anda di { $resetLink }
 brand-banner-message = Tahukah Anda bahwa kami mengubah nama kami dari { -product-firefox-accounts } menjadi { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Pelajari lebih lanjut</a>
 cancellationSurvey = Bantu kami meningkatkan layanan kami dengan mengikuti <a data-l10n-name="cancellationSurveyUrl">survei singkat</a> ini.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
@@ -157,6 +170,16 @@ payment-plan-charged = Ditagihkan: { $invoiceTotal } pada { $invoiceDateOnly }
 payment-plan-next-invoice = Tagihan Berikutnya: { $nextInvoiceDateOnly }
 # After the colon is how the user paid, e.g. PayPal or credit card
 payment-method = Metode Pembayaran:
+payment-provider-paypal-plaintext = { payment-method }{ -brand-paypal }
+# This string displays when the type of credit card is known
+# https://stripe.com/docs/payments/cards/supported-card-brands
+# Variables:
+#  $cardName (String) - The brand name of the credit card, e.g. American Express
+#  $lastFour (String) - The last four digits of the credit card, e.g. 5309
+credit-card-ending-in = Kartu { $cardName } diakhiri dengan { $lastFour }
+# This string displays when the type of credit card is not known or recognized
+# Variable: $lastFour (String) - The last four digits of the credit card, e.g. 5309
+unknown-card-ending-in = Kartu tidak dikenal berakhiran { $lastFour }
 # Variables:
 #  $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 subscriptionSubsequentInvoice-content-plan-change = Perubahan rencana: { $paymentProrated }
@@ -187,14 +210,46 @@ subscriptionUpdateBillingEnsure-plaintext = Anda dapat memastikan bahwa metode p
 subscriptionUpdateBillingTry = Kami akan mencoba memproses pembayaran Anda lagi dalam beberapa hari ke depan, tetapi Anda mungkin perlu <a data-l10n-name="updateBillingUrl">memperbarui informasi pembayaran Anda</a>.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdateBillingTry-plaintext = Kami akan mencoba memproses pembayaran Anda lagi dalam beberapa hari ke depan, tetapi Anda mungkin perlu memperbarui informasi pembayaran Anda.
+subscriptionUpdatePayment = Untuk mencegah gangguan pada layanan Anda, silakan <a data-l10n-name="updateBillingUrl">perbarui informasi pembayaran Anda</a> sesegera mungkin.
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
+subscriptionUpdatePayment-plaintext = Untuk mencegah gangguan pada layanan Anda, silakan perbarui informasi pembayaran Anda sesegera mungkin:
+# Variables:
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-2 = Untuk info lebih lanjut, kunjungi Dukungan { -brand-mozilla }: { $supportUrl }.
+# Variables:
+#  $uaBrowser (String) - User's browser, e.g. Firefox
+#  $uaOS (String) - User's OS, e.g. Mac OSX
+#  $uaOSVersion (String) - User's OS version, e.g. 10.11
+device-all = { $uaBrowser } di { $uaOS } { $uaOSVersion }
 view-invoice = <a data-l10n-name="invoiceLink">Lihat faktur Anda</a>.
+# Variables:
+#  $invoiceLink (String) - The link to the invoice
+# After the colon, there's a link to https://pay.stripe.com/
+view-invoice-plaintext = Tampilkan Faktur: { $invoiceLink }
+cadReminderFirst-subject-1 = Pengingat! Sinkronkan { -brand-firefox }
+downloadSubscription-link-action-2 = Mulai
+fraudulentAccountDeletion-subject-2 = { -product-mozilla-account } Anda telah dihapus
+fraudulentAccountDeletion-title = Akun Anda telah dihapus
+inactiveAccountFirstWarning-preview = Masuk untuk menyimpan akun Anda
+# followed by link to sign in
+inactiveAccountFirstWarning-action-plaintext = Masuk untuk menyimpan akun Anda:
+inactiveAccountSecondWarning-action = Masuk untuk menyimpan akun Anda
+inactiveAccountSecondWarning-preview = Masuk untuk menyimpan akun Anda
+# followed by link to sign in
+inactiveAccountSecondWarning-action-plaintext = Masuk untuk menyimpan akun Anda:
 codes-reminder-description-two-left = Anda hanya memiliki dua kode tersisa.
+lowRecoveryCodes-action-2 = Buat kode
+codes-create-plaintext = { lowRecoveryCodes-action-2 }:
 newDeviceLogin-action = Kelola akun
 passwordChanged-subject = Sandi telah diperbarui
 passwordChanged-title = Sandi sukses diganti
 passwordChangeRequired-subject = Aktivitas mencurigakan terdeteksi
 passwordChangeRequired-title = Perubahan Kata Sandi Diperlukan
 passwordChangeRequired-different-password-plaintext = Penting: Pilih sandi yang berbeda dari yang Anda gunakan sebelumnya dan pastikan sandi berbeda dari akun surel Anda.
+password-forgot-otp-subject = Lupa sandi Anda?
+password-forgot-otp-title = Lupa sandi Anda?
+password-forgot-otp-request = Kami menerima permintaan perubahan sandi pada { -product-mozilla-account } Anda dari:
+password-forgot-otp-code-2 = Jika ini Anda, berikut adalah kode konfirmasi Anda untuk melanjutkan:
 postAddAccountRecovery-title2 = Anda membuat kunci pemulihan akun baru
 postAddAccountRecovery-action = Kelola akun
 postAddTwoStepAuthentication-action = Kelola akun
