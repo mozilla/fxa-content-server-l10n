@@ -984,7 +984,7 @@ msgstr "Klik di sini untuk menerima tautan konfirmasi baru"
 
 #: .es5/templates/complete_sign_up.mustache:11
 msgid "Confirmation link damaged"
-msgstr ""
+msgstr "Tautan konfirmasi rusak"
 
 #: .es5/templates/complete_sign_up.mustache:14
 msgid "Confirmation error"
@@ -1155,7 +1155,7 @@ msgstr ""
 
 #: .es5/templates/index.mustache:12
 msgid "Sign up or sign in"
-msgstr ""
+msgstr "Daftar atau masuk"
 
 #: .es5/templates/index.mustache:14
 msgid "A Mozilla account also unlocks access to more privacy-protecting products from Mozilla."

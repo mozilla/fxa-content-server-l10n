@@ -402,6 +402,7 @@ postChangePrimary-title = Surel utama baru
 postChangePrimary-description-2 = Anda sukses mengubah surel utama Anda ke { $email }. Sekarang alamat ini adalah nama pengguna Anda untuk masuk ke { -product-mozilla-account } Account Anda, serta menerima pemberitahuan keamanan dan konfirmasi masuk.
 postChangePrimary-action = Kelola akun
 postChangeRecoveryPhone-subject = Telepon pemulihan diperbarui
+postChangeRecoveryPhone-preview = Akun dilindungi oleh otentikasi dua langkah
 postChangeRecoveryPhone-description = Anda sekarang memiliki telepon pemulihan baru. Nomor telepon Anda sebelumnya telah dihapus.
 postConsumeRecoveryCode-title-2 = Anda menggunakan kode autentikasi cadangan
 # After the colon, there is description of the device that the backup authentication code was used on
@@ -431,6 +432,7 @@ postRemoveTwoStepAuthentication-title-2 = Anda menonaktifkan autentikasi dua lan
 postRemoveTwoStepAuthentication-from-device = Anda menonaktifkannya dari:
 postRemoveTwoStepAuthentication-action = Kelola akun
 postRemoveTwoStepAuthentication-not-required-2 = Anda tidak lagi memerlukan kode keamanan dari aplikasi autentikasi saat masuk.
+postSigninRecoveryCode-device = Anda masuk dari:
 postSigninRecoveryCode-action = Kelola akun
 postSigninRecoveryPhone-subject = Ponsel pemulihan digunakan untuk masuk
 postSigninRecoveryPhone-preview = Konfirmasi aktivitas akun
@@ -452,10 +454,16 @@ postVerifySecondary-action = Kelola akun
 recovery-subject = Setel ulang sandi
 recovery-title-2 = Anda lupa sandi?
 recovery-action = Buat sandi baru
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountFinishSetup-title = Selamat datang di { $productName }
+subscriptionAccountFinishSetup-content-processing = Pembayaran Anda sedang diproses dan mungkin membutuhkan waktu hingga empat hari kerja untuk diselesaikan. Langganan Anda akan diperpanjang secara otomatis setiap periode penagihan kecuali Anda memilih untuk membatalkan.
+subscriptionAccountFinishSetup-content-create-3 = Selanjutnya, Anda akan membuat sandi { -product-mozilla-account } untuk mulai menggunakan langganan baru Anda.
 subscriptionAccountFinishSetup-action-2 = Mulai
 subscriptionAccountReminderFirst-subject = Pengingat: Selesaikan penyiapan akun Anda
 subscriptionAccountReminderFirst-title = Anda belum dapat mengakses langganan Anda
 subscriptionAccountReminderFirst-content-info-3 = Beberapa hari yang lalu, Anda membuat { -product-mozilla-account }, tetapi belum mengonfirmasinya. Kami harap Anda dapat menyelesaikan penyiapan akun agar dapat menggunakan langganan baru Anda.
+subscriptionAccountReminderFirst-content-select-2 = Pilih “Buat Sandi” untuk menyiapkan sandi baru dan menyelesaikan konfirmasi akun Anda.
 subscriptionAccountReminderFirst-action = Buat Sandi
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-subject = Pengingat terakhir: Siapkan akun Anda
@@ -467,6 +475,13 @@ subscriptionAccountReminderSecond-content-info-3 = Beberapa hari yang lalu, Anda
 ##   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 ##   $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
 
+subscriptionFailedPaymentsCancellation-title = Langganan Anda telah dibatalkan
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFailedPaymentsCancellation-content = Kami telah membatalkan langganan { $productName } Anda karena beberapa kali percobaan pembayaran gagal. Untuk mendapatkan akses lagi, mulailah berlangganan baru dengan metode pembayaran yang diperbarui.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoice-subject = Pembayaran { $productName } dikonfirmasi
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFirstInvoice-title = Terima kasih telah berlangganan { $productName }
@@ -474,6 +489,7 @@ subscriptionFirstInvoice-content-processing = Pembayaran Anda sedang diproses da
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFirstInvoice-content-install-2 = Anda akan menerima surel terpisah berisi panduan menggunakan { $productName }.
+subscriptionFirstInvoice-content-auto-renew = Langganan Anda akan diperpanjang secara otomatis setiap periode penagihan kecuali Anda memilih untuk membatalkan.
 # Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionFirstInvoice-content-next-invoice = Tagihan Berikutnya: { $nextInvoiceDateOnly }
