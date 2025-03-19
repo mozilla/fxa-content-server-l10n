@@ -1185,7 +1185,7 @@ msgstr ""
 
 #: .es5/templates/inline_recovery_setup.mustache:3
 msgid "Store these one-time use codes in a safe place for when you don't have your mobile device."
-msgstr ""
+msgstr "Simpan kode sekali pakai ini di tempat yang aman saat Anda tidak memiliki perangkat seluler."
 
 #: .es5/templates/inline_recovery_setup.mustache:5
 msgid "Download"

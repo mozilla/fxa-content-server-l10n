@@ -299,6 +299,7 @@ delete-account-acknowledge = Harap diketahui bahwa dengan menghapus akun Anda:
 
 ## Display name page
 
+submit-display-name = Simpan
 cancel-display-name = Batal
 
 ## Recent account activity
