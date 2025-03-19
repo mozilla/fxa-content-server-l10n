@@ -11,6 +11,9 @@ next-payment-method-first-approve = Først skal du godkende dit abonnement
 
 ## Page - Upgrade page
 
+upgrade-page-payment-information = Betalingsinformation
+# $nextInvoiceDate (number) - The date of the next invoice
+upgrade-page-acknowledgment = Din plan bliver ændret med det samme, og du vil blive opkrævet et forholdsmæssigt beløb i dag for resten af denne faktureringsperiode. Fra og med { $nextInvoiceDate } vil du blive opkrævet det fulde beløb.
 checkout-error-boundary-retry-button = Prøv igen
 checkout-error-boundary-basic-error-message = Noget gik galt. Prøv igen eller <contactSupportLink>kontakt support.</contactSupportLink>
 
@@ -133,6 +136,7 @@ next-new-user-subscribe-product-assurance = Vi bruger kun din mailadresse til at
 plan-price-interval-daily = { $amount } dagligt
 plan-price-interval-weekly = { $amount } ugentligt
 plan-price-interval-monthly = { $amount } månedligt
+plan-price-interval-halfyearly = { $amount } hver 6 måned
 plan-price-interval-yearly = { $amount } årligt
 
 ## Component - SubscriptionTitle
@@ -152,6 +156,11 @@ next-subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capita
 next-terms = Tjenestevilkår
 next-privacy = Privatlivserklæring
 next-terms-download = Betingelser for hentning
+terms-and-privacy-stripe-label = { -brand-mozilla } bruger { -brand-name-stripe } til sikker behandling af betaling.
+terms-and-privacy-stripe-link = Privatlivspolitik for { -brand-name-stripe }
+terms-and-privacy-paypal-label = { -brand-mozilla } bruger { -brand-paypal } til sikker behandling af betaling.
+terms-and-privacy-paypal-link = Privatlivspolitik for { -brand-paypal }
+terms-and-privacy-stripe-and-paypal-label = { -brand-mozilla } bruger { -brand-name-stripe } og { -brand-paypal } til sikker behandling af betaling.
 
 ## Component - UpdatedPurchaseDetails
 
@@ -168,4 +177,5 @@ upgrade-purchase-details-prorated-upgrade = Forholdsmæssig opgradering
 upgrade-purchase-details-new-plan-daily = { $productName } (Dagligt)
 upgrade-purchase-details-new-plan-weekly = { $productName } (Ugentligt)
 upgrade-purchase-details-new-plan-monthly = { $productName } (Månedligt)
+upgrade-purchase-details-new-plan-halfyearly = { $productName } (6 måneder)
 upgrade-purchase-details-new-plan-yearly = { $productName } (Årligt)

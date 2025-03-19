@@ -332,6 +332,7 @@ postChangePrimary-title = Surel utama baru
 #  $email (String) - A user's email address
 postChangePrimary-description-2 = Anda sukses mengubah surel utama Anda ke { $email }. Sekarang alamat ini adalah nama pengguna Anda untuk masuk ke { -product-mozilla-account } Account Anda, serta menerima pemberitahuan keamanan dan konfirmasi masuk.
 postChangePrimary-action = Kelola akun
+postChangeRecoveryPhone-description = Anda sekarang memiliki telepon pemulihan baru. Nomor telepon Anda sebelumnya telah dihapus.
 postConsumeRecoveryCode-title-2 = Anda menggunakan kode autentikasi cadangan
 # After the colon, there is description of the device that the backup authentication code was used on
 postConsumeRecoveryCode-description-2 = Itu digunakan pada:
@@ -344,6 +345,7 @@ postNewRecoveryCodes-description-2 = Kode dibuat pada:
 postNewRecoveryCodes-action = Kelola akun
 postRemoveAccountRecovery-action = Kelola akun
 postRemoveRecoveryPhone-subject = Telepon pemulihan dihapus
+postRemoveRecoveryPhone-preview = Akun dilindungi oleh otentikasi dua langkah
 postRemoveRecoveryPhone-title = Telepon pemulihan dihapus
 postRemoveRecoveryPhone-description = Telepon pemulihan Anda telah dihapus dari pengaturan autentikasi dua langkah Anda. Anda masih memiliki kode autentikasi cadangan yang tersedia untuk digunakan.
 postRemoveRecoveryPhone-requested-device = Anda memintanya dari:
@@ -384,6 +386,11 @@ subscriptionAccountFinishSetup-action-2 = Mulai
 subscriptionAccountReminderFirst-subject = Pengingat: Selesaikan penyiapan akun Anda
 subscriptionAccountReminderFirst-title = Anda belum dapat mengakses langganan Anda
 subscriptionAccountReminderFirst-content-info-3 = Beberapa hari yang lalu, Anda membuat { -product-mozilla-account }, tetapi belum mengonfirmasinya. Kami harap Anda dapat menyelesaikan penyiapan akun agar dapat menggunakan langganan baru Anda.
+subscriptionAccountReminderFirst-action = Buat Sandi
+subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
+subscriptionAccountReminderSecond-subject = Pengingat terakhir: Siapkan akun Anda
+subscriptionAccountReminderSecond-title-2 = Selamat datang di { -brand-mozilla }
+subscriptionAccountReminderSecond-content-info-3 = Beberapa hari yang lalu, Anda membuat { -product-mozilla-account }, tetapi belum mengonfirmasinya. Kami harap Anda dapat menyelesaikan penyiapan akun agar dapat menggunakan langganan baru Anda.
 
 ## Variables
 ##   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -461,8 +468,26 @@ unblockCode-prompt = Jika ya, ini adalah kode otorisasi yang Anda butuhkan:
 unblockCode-report-plaintext = Jika tidak, mohon bantu kami untuk menangkis penyusup dan melaporkannya pada kami.
 verify-subject = Selesaikan pembuatan akun Anda
 verify-action-2 = Konfirmasi akun
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+verifyLogin-title-2 = Apakah Anda sudah masuk ke { $clientName }?
+verifyLogin-description-2 = Bantu kami menjaga keamanan akun Anda dengan mengonfirmasi bahwa Anda masuk pada:
+verifyLogin-subject-2 = Konfirmasi masuk
 verifyLogin-action = Mengkonfirmasi proses masuk
+# Variables:
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-subject-line-2 = Setujui proses masuk ke { $serviceName }
+# Variables:
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-title-2 = Apakah Anda sudah masuk ke { $serviceName }?
+# After the colon is a description of the device used to sign in to the service
+verifyLoginCode-safe = Bantu kami menjaga keamanan akun Anda dengan menyetujui proses masuk Anda pada:
+verifyLoginCode-prompt-3 = Jika ya, berikut adalah kode otorisasi Anda:
+verifyLoginCode-expiry-notice = Kedaluwarsa dalam 5 menit.
+verifyPrimary-title-2 = Konfirmasi surel utama
 verifyPrimary-description = Permintaan untuk melakukan perubahan akun telah dibuat dari peranti berikut:
+verifyPrimary-subject = Konfirmasi surel utama
+verifyPrimary-action-2 = Konfirmasi surel
 verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
 verifyPrimary-post-verify-2 = Setelah dikonfirmasi, perubahan akun seperti menambahkan surel sekunder akan dimungkinkan dari perangkat ini.
 verifySecondaryCode-subject = Konfirmasi surel sekunder

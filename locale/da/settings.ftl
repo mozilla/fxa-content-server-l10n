@@ -1046,6 +1046,8 @@ tfa-row-backup-phone-delete-button = Fjern
 # Shown in tooltip on delete button or delete icon
 tfa-row-backup-phone-delete-title-v2 = Fjern telefonnummer til genoprettelse
 tfa-row-backup-phone-delete-restriction-v2 = Hvis du vil fjerne dit telefonnummer til genoprettelse, skal du først tilføje reserve-godkendelseskoder eller deaktiver totrinsgodkendelse for at undgå at blive låst ude af din konto.
+# "this" refers to recovery phone
+tfa-row-backup-phone-description-v2 = Dette er den nemmeste genoprettelsesmetode, hvis du ikke kan bruge din godkendelsesapp.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
@@ -1223,6 +1225,7 @@ auth-error-1032 = Du skal indtaste en gyldig alder for at tilmelde dig
 auth-error-1054 = Ugyldig kode til totrinsgodkendelse
 auth-error-1056 = Ugyldig reserve-godkendelseskode
 auth-error-1062 = Ugyldig omdirigering
+auth-error-1066 = Mail-masker kan ikke bruges til at oprette en konto.
 # Displayed when we want to reference a user's previously set up recovery phone
 # number, but they are not completely signed in yet. We'll only show the last 4 digits.
 # Variables:
@@ -1280,6 +1283,8 @@ cookies-disabled-learn-more = Læs mere
 index-header = Indtast din mailadresse
 index-sync-header = Fortsæt til { -product-mozilla-account }
 index-sync-subheader = Synkroniser dine adgangskoder, faneblade og bogmærker overalt, hvor du bruger { -brand-firefox }.
+index-relay-header = Opret en mail-maske
+index-relay-subheader = Angiv den mailadresse, som mails fra din maskerede mailadresse skal videresendes til.
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = Fortsæt til { $serviceName }
 index-subheader-with-logo = Fortsæt til <span>{ $serviceLogo }</span>
@@ -1288,6 +1293,8 @@ index-cta = Tilmeld dig eller log ind
 index-account-info = En { -product-mozilla-account } giver også adgang til flere privatlivsbeskyttende produkter fra { -brand-mozilla }.
 index-email-input =
     .label = Indtast din mailadresse
+# When users delete their Mozilla account inside account Settings, they are redirected to this page with a success message
+index-account-delete-success = Kontoen er slettet
 
 ## InlineRecoveryKeySetup page component
 
@@ -1715,6 +1722,11 @@ signin-recovery-phone-send-code-error-heading = Der opstod et problem med at sen
 signin-recovery-phone-code-verification-error-heading = Der opstod et problem med at bekræfte din kode
 # Follows the error message (e.g, "There was a problem sending a code")
 signin-recovery-phone-general-error-description = Prøv igen senere.
+signin-recovery-phone-invalid-code-error-description = Koden er ugyldig eller udløbet.
+signin-recovery-phone-invalid-code-error-link = Brug reserve-godkendelseskoder i stedet?
+# "Limits" refers to potential restrictions on how often a recovery phone number can be used for signing in within a given time period.
+# If limits are reached, users may have to use an alternate two-step authentication method or wait until the restriction period is over.
+signin-recovery-phone-success-message = Du er logget ind. Der kan være begrænsninger, hvis du bruger dit telefonnummer til genoprettelse igen.
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
