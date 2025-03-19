@@ -265,6 +265,12 @@ downloadSubscription-link-action-2 = Mulai
 fraudulentAccountDeletion-subject-2 = { -product-mozilla-account } Anda telah dihapus
 fraudulentAccountDeletion-title = Akun Anda telah dihapus
 fraudulentAccountDeletion-content-part1-v2 = Baru-baru ini, { -product-mozilla-account } telah dibuat, dan langganan ditagihkan ke alamat surel ini. Seperti halnya semua akun baru, kami meminta Anda untuk mengonfirmasi akun dengan terlebih dahulu memverifikasi alamat surel ini.
+fraudulentAccountDeletion-contact = Jika Anda memiliki pertanyaan, silakan hubungi <a data-l10n-name="mozillaSupportUrl">tim dukungan</a> kami.
+# Variables:
+#  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
+fraudulentAccountDeletion-contact-plaintext = Jika Anda memiliki pertanyaan, silakan hubungi tim dukungan kami: { $mozillaSupportUrl }
+inactiveAccountFinalWarning-subject = Kesempatan terakhir untuk mempertahankan { -product-mozilla-account } Anda
+inactiveAccountFinalWarning-title = Akun dan data { -brand-mozilla } Anda akan dihapus
 inactiveAccountFinalWarning-preview = Masuk agar akun Anda tetap aktif
 inactiveAccountFinalWarning-action = Masuk agar akun Anda tetap aktif
 # followed by link to sign in
@@ -286,7 +292,14 @@ inactiveAccountSecondWarning-action = Masuk agar akun Anda tetap aktif
 inactiveAccountSecondWarning-preview = Masuk agar akun Anda tetap aktif
 # followed by link to sign in
 inactiveAccountSecondWarning-action-plaintext = Masuk agar akun Anda tetap aktif:
+# The user has a low number of valid recovery codes remaining for use
+codes-reminder-title-zero = Anda kehabisan kode autentikasi cadangan!
+codes-reminder-title-one = Anda menggunakan kode autentikasi cadangan terakhir
+codes-reminder-title-two = Saatnya membuat kode autentikasi cadangan tambahan
+codes-reminder-description-part-one = Kode autentikasi cadangan membantu Anda memulihkan informasi saat Anda lupa sandi.
+codes-reminder-description-part-two = Buat kode baru sekarang agar Anda tidak kehilangan data Anda nanti.
 codes-reminder-description-two-left = Anda hanya memiliki dua kode tersisa.
+codes-reminder-description-create-codes = Buat kode otentikasi cadangan baru untuk membantu Anda masuk kembali ke akun Anda jika Anda terkunci.
 lowRecoveryCodes-action-2 = Buat kode
 codes-create-plaintext = { lowRecoveryCodes-action-2 }:
 newDeviceLogin-action = Kelola akun
