@@ -169,8 +169,19 @@ subscriptionFirstInvoiceDiscount-content-discount = Diskon: -{ $invoiceDiscountA
 # Variables
 #  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
 subscriptionFirstInvoiceDiscount-content-discount-one-time = Diskon satu kali: -{ $invoiceDiscountAmount }
+# Variables
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+#  $discountDuration - The duration of the discount in number of months, e.g. 3 months
+subscriptionFirstInvoiceDiscount-content-discount-repeating = Diskon { $discountDuration } bulan: - { $invoiceDiscountAmount }
+subscriptionSupport = Ada pertanyaan tentang langganan Anda? <a data-l10n-name="subscriptionSupportUrl">Tim dukungan</a> kami siap membantu Anda.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Ada pertanyaan tentang langganan Anda? Tim dukungan kami siap membantu Anda:
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSupportContact = Terima kasih telah berlangganan { $productName }. Jika Anda memiliki pertanyaan tentang langganan atau memerlukan informasi lebih lanjut tentang { $productName }, silakan <a data-l10n-name="berlanggananSupportUrl">hubungi kami</a>.
+# After the colon, there's a link to https://accounts.firefox.com/support
+subscriptionSupportContact-plaintext = Terima kasih telah berlangganan { $productName }. Jika Anda memiliki pertanyaan tentang langganan Anda atau memerlukan informasi lebih lanjut tentang { $productName }, silakan hubungi kami:
+subscriptionUpdateBillingEnsure = Anda dapat memastikan bahwa metode pembayaran dan informasi akun Anda adalah yang terbaru <a data-l10n-name="updateBillingUrl">di sini</a>.
 view-invoice = <a data-l10n-name="invoiceLink">Lihat faktur Anda</a>.
 newDeviceLogin-action = Kelola akun
 passwordChanged-subject = Sandi telah diperbarui

@@ -299,6 +299,7 @@ delete-account-acknowledge = Harap diketahui bahwa dengan menghapus akun Anda:
 
 ## Display name page
 
+cancel-display-name = Batal
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
@@ -332,12 +333,15 @@ delete-account-acknowledge = Harap diketahui bahwa dengan menghapus akun Anda:
 
 ## Profile section
 
+profile-primary-email =
+    .header = Surel utama
 
 ## Progress bar
 
 
 ## Security section of Setting
 
+security-heading = Keamanan
 
 ## SubRow component
 
@@ -347,9 +351,14 @@ delete-account-acknowledge = Harap diketahui bahwa dengan menghapus akun Anda:
 
 ## Sub-section row Defaults
 
+row-defaults-action-disable = Nonaktifkan
+row-defaults-status = Tidak ada
 
 ## Account recovery key sub-section on main Settings page
 
+rk-not-set = Belum diatur
+rk-action-create = Buat
+rk-action-remove = Hapus
 
 ## Secondary email sub-section on main Settings page
 

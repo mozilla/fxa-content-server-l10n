@@ -1358,11 +1358,11 @@ msgstr "Aktivitas Terkini"
 
 #: .es5/templates/security_events.mustache:2
 msgid "Security Events"
-msgstr ""
+msgstr "Kejadian Keamanan"
 
 #: .es5/templates/security_events.mustache:3
 msgid "Event Name"
-msgstr ""
+msgstr "Nama Kejadian"
 
 #: .es5/templates/security_events.mustache:4
 msgid "Confirmed"
@@ -1370,11 +1370,11 @@ msgstr ""
 
 #: .es5/templates/security_events.mustache:5
 msgid "Created At"
-msgstr ""
+msgstr "Dibuat Di"
 
 #: .es5/templates/security_events.mustache:7
 msgid "Delete events"
-msgstr ""
+msgstr "Hapus kejadian"
 
 #: .es5/templates/security_events.mustache:8
 msgid "Back to settings"
@@ -1490,7 +1490,7 @@ msgstr ""
 
 #: .es5/templates/support.mustache:3
 msgid "Account Home"
-msgstr ""
+msgstr "Beranda Akun"
 
 #: .es5/templates/support.mustache:4
 msgid "Subscriptions"
