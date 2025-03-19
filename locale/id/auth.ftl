@@ -316,6 +316,10 @@ passwordResetWithRecoveryKeyPrompt-cta-description = Anda harus masuk lagi di se
 postAddAccountRecovery-subject-3 = Kunci pemulihan akun baru dibuat
 postAddAccountRecovery-title2 = Anda membuat kunci pemulihan akun baru
 postAddAccountRecovery-action = Kelola akun
+postAddRecoveryPhone-preview = Akun dilindungi oleh otentikasi dua langkah
+# Variables:
+#  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
+postAddRecoveryPhone-description-v2 = Anda menambahkan { $maskedLastFourPhoneNumber } sebagai nomor telepon pemulihan Anda
 postAddRecoveryPhone-action = Kelola akun
 postAddTwoStepAuthentication-action = Kelola akun
 postChangeAccountRecovery-title = Anda mengubah kunci pemulihan akun Anda
@@ -339,15 +343,40 @@ postNewRecoveryCodes-title-2 = Anda membuat kode autentikasi cadangan baru
 postNewRecoveryCodes-description-2 = Kode dibuat pada:
 postNewRecoveryCodes-action = Kelola akun
 postRemoveAccountRecovery-action = Kelola akun
+postRemoveRecoveryPhone-subject = Telepon pemulihan dihapus
+postRemoveRecoveryPhone-title = Telepon pemulihan dihapus
+postRemoveRecoveryPhone-description = Telepon pemulihan Anda telah dihapus dari pengaturan autentikasi dua langkah Anda. Anda masih memiliki kode autentikasi cadangan yang tersedia untuk digunakan.
+postRemoveRecoveryPhone-requested-device = Anda memintanya dari:
 postRemoveSecondary-subject = Surel sekunder telah dihapus
 postRemoveSecondary-title = Surel sekunder telah dihapus
+# Variables:
+#  $secondaryEmail (String) - A user's email address
+postRemoveSecondary-description-2 = Anda telah berhasil menghapus { $secondaryEmail } sebagai email sekunder dari { -product-mozilla-account }. Pemberitahuan keamanan dan konfirmasi masuk tidak akan lagi dikirim ke alamat ini.
 postRemoveSecondary-action = Kelola akun
+postRemoveTwoStepAuthentication-subject-line-2 = Autentikasi dua langkah dinonaktifkan
+postRemoveTwoStepAuthentication-title-2 = Anda menonaktifkan autentikasi dua langkah
+# After the colon is a description of the device the user used to disable two-step authentication
+postRemoveTwoStepAuthentication-from-device = Anda menonaktifkannya dari:
 postRemoveTwoStepAuthentication-action = Kelola akun
+postRemoveTwoStepAuthentication-not-required-2 = Anda tidak lagi memerlukan kode keamanan dari aplikasi autentikasi saat masuk.
+postSigninRecoveryCode-action = Kelola akun
+postSigninRecoveryPhone-subject = Ponsel pemulihan digunakan untuk masuk
 postSigninRecoveryPhone-action = Kelola akun
+postVerify-sub-title-3 = Kami senang melihat Anda!
+postVerify-title-2 = Ingin melihat tab yang sama di dua perangkat?
+postVerify-description-2 = Sangat mudah! Cukup pasang { -brand-firefox } di perangkat lain dan masuk untuk menyinkronkan. Ini seperti sulap!
+postVerify-sub-description = (Ssst… Ini juga berarti Anda bisa mendapatkan markah, sandi, dan data { -brand-firefox } lainnya di mana pun Anda masuk.)
+postVerify-subject-4 = Selamat datang di { -brand-mozilla }
+postVerify-setup-2 = Sambungkan perangkat lain:
+postVerify-action-2 = Hubungkan perangkat lain
 postVerifySecondary-subject = Surel sekunder ditambahkan
 postVerifySecondary-title = Surel sekunder ditambahkan
+# Variables:
+#  $secondaryEmail (String) - A user's secondary email address
+postVerifySecondary-content-3 = Anda telah berhasil mengonfirmasi { $secondaryEmail } sebagai surel sekunder untuk { -product-mozilla-account } Anda. Pemberitahuan keamanan dan konfirmasi masuk sekarang akan dikirimkan ke kedua alamat surel.
 postVerifySecondary-action = Kelola akun
 recovery-subject = Setel ulang sandi
+recovery-title-2 = Anda lupa sandi?
 recovery-action = Buat sandi baru
 subscriptionAccountFinishSetup-action-2 = Mulai
 subscriptionAccountReminderFirst-subject = Pengingat: Selesaikan penyiapan akun Anda
@@ -359,6 +388,9 @@ subscriptionAccountReminderFirst-content-info-3 = Beberapa hari yang lalu, Anda 
 ##   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 ##   $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
 
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoice-title = Terima kasih telah berlangganan { $productName }
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-subject-1 = Kartu kredit untuk { $productName } kedaluwarsa atau segera kedaluwarsa
