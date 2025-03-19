@@ -475,6 +475,9 @@ subscriptionFirstInvoice-content-processing = Pembayaran Anda sedang diproses da
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFirstInvoice-content-install-2 = Anda akan menerima surel terpisah berisi panduan menggunakan { $productName }.
 # Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+subscriptionFirstInvoice-content-next-invoice = Tagihan Berikutnya: { $nextInvoiceDateOnly }
+# Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-subject-1 = Kartu kredit untuk { $productName } kedaluwarsa atau segera kedaluwarsa
 subscriptionPaymentExpired-title-1 = Kartu kredit Anda kedaluwarsa atau akan kedaluwarsa
