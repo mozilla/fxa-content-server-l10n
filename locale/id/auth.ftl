@@ -348,6 +348,9 @@ passwordResetAccountRecovery-subject-2 = Sandi Anda telah diset ulang
 passwordResetAccountRecovery-title-3 = Sandi Anda telah disetel ulang
 # Followed by details on the device and date/time of the password reset.
 passwordResetAccountRecovery-description-3 = Anda menggunakan kunci pemulihan akun untuk menyetel ulang sandi { -product-mozilla-account } pada:
+passwordResetAccountRecovery-information = Kami mengeluarkan Anda dari semua perangkat yang disinkronkan. Kami membuat kunci pemulihan akun baru untuk menggantikan yang Anda gunakan. Anda dapat mengubahnya di pengaturan akun Anda.
+# After the colon there is a link to account settings
+passwordResetAccountRecovery-information-txt = Kami mengeluarkan Anda dari semua perangkat yang disinkronkan. Kami membuat kunci pemulihan akun baru untuk menggantikan yang Anda gunakan. Anda dapat mengubahnya di pengaturan akun Anda:
 passwordResetAccountRecovery-action-4 = Kelola akun
 passwordResetWithRecoveryKeyPrompt-subject = Sandi Anda telah diset ulang
 passwordResetWithRecoveryKeyPrompt-title = Sandi Anda telah diset ulang
@@ -360,12 +363,23 @@ passwordResetWithRecoveryKeyPrompt-action-txt = Buat kunci pemulihan akun:
 passwordResetWithRecoveryKeyPrompt-cta-description = Anda harus masuk lagi di semua perangkat yang disinkronkan. Amankan data Anda di lain waktu dengan kunci pemulihan akun. Ini memungkinkan Anda untuk memulihkan data Anda jika Anda lupa sandi Anda.
 postAddAccountRecovery-subject-3 = Kunci pemulihan akun baru dibuat
 postAddAccountRecovery-title2 = Anda membuat kunci pemulihan akun baru
+# Key here refers to account recovery key
+postAddAccountRecovery-body-part1 = Simpan kunci ini di tempat yang aman — Anda akan membutuhkannya untuk memulihkan data penjelajahan terenkripsi Anda jika Anda lupa sandi Anda.
+# Key here refers to account recovery key
+postAddAccountRecovery-body-part2 = Kunci ini hanya dapat digunakan sekali. Setelah Anda menggunakannya, kami akan secara otomatis membuat yang baru untuk Anda. Atau Anda dapat membuat yang baru kapan saja dari pengaturan akun Anda.
 postAddAccountRecovery-action = Kelola akun
+postAddLinkedAccount-subject-2 = Akun baru terhubung ke { -product-mozilla-account } Anda.
+#  Variables:
+#  $providerName (String) - The name of the provider, e.g. Apple, Google
+postAddLinkedAccount-title-2 = Akun { $providerName } Anda telah dihubungkan ke { -product-mozilla-account } Anda
+postAddLinkedAccount-action = Kelola akun
+postAddRecoveryPhone-subject = Telepon pemulihan ditambahkan
 postAddRecoveryPhone-preview = Akun dilindungi oleh otentikasi dua langkah
 # Variables:
 #  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
 postAddRecoveryPhone-description-v2 = Anda menambahkan { $maskedLastFourPhoneNumber } sebagai nomor telepon pemulihan Anda
 postAddRecoveryPhone-action = Kelola akun
+postAddTwoStepAuthentication-subject-2 = Autentikasi dua langkah diaktifkan
 postAddTwoStepAuthentication-action = Kelola akun
 postChangeAccountRecovery-title = Anda mengubah kunci pemulihan akun Anda
 postChangeAccountRecovery-body-part1 = Anda sekarang memiliki kunci pemulihan akun baru. Kunci Anda sebelumnya telah dihapus.
