@@ -361,6 +361,8 @@ postRemoveTwoStepAuthentication-action = Kelola akun
 postRemoveTwoStepAuthentication-not-required-2 = Anda tidak lagi memerlukan kode keamanan dari aplikasi autentikasi saat masuk.
 postSigninRecoveryCode-action = Kelola akun
 postSigninRecoveryPhone-subject = Ponsel pemulihan digunakan untuk masuk
+postSigninRecoveryPhone-preview = Konfirmasi aktivitas akun
+postSigninRecoveryPhone-title = Ponsel pemulihan Anda digunakan untuk masuk
 postSigninRecoveryPhone-action = Kelola akun
 postVerify-sub-title-3 = Kami senang melihat Anda!
 postVerify-title-2 = Ingin melihat tab yang sama di dua perangkat?
@@ -391,6 +393,10 @@ subscriptionAccountReminderFirst-content-info-3 = Beberapa hari yang lalu, Anda 
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFirstInvoice-title = Terima kasih telah berlangganan { $productName }
+subscriptionFirstInvoice-content-processing = Pembayaran Anda sedang diproses dan mungkin membutuhkan waktu hingga empat hari kerja hingga selesai.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoice-content-install-2 = Anda akan menerima surel terpisah berisi panduan menggunakan { $productName }.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-subject-1 = Kartu kredit untuk { $productName } kedaluwarsa atau segera kedaluwarsa
@@ -443,6 +449,7 @@ subscriptionRenewalReminder-content-closing = Hormat kami,
 subscriptionRenewalReminder-content-signature = Tim { $productName }
 subscriptionsPaymentExpired-subject-1 = Kartu kredit untuk langganan Anda kedaluwarsa atau segera kedaluwarsa
 subscriptionsPaymentExpired-title-1 = Kartu kredit Anda kedaluwarsa atau akan kedaluwarsa
+subscriptionsPaymentProviderCancelled-title = Maaf, kami mengalami masalah dengan metode pembayaran Anda
 unblockCode-title = Apakah Anda benar-benar sedang masuk?
 unblockCode-prompt = Jika ya, ini adalah kode otorisasi yang Anda butuhkan:
 unblockCode-report-plaintext = Jika tidak, mohon bantu kami untuk menangkis penyusup dan melaporkannya pada kami.
