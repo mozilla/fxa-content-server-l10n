@@ -1119,7 +1119,7 @@ msgstr ""
 #: .es5/templates/force_auth.mustache:12 .es5/templates/index.mustache:20 .es5/templates/sign_in_password.mustache:17 .es5/templates/sign_up_password.mustache:19
 #: .es5/templates/post_verify/third_party_auth/set_password.mustache:10 .es5/templates/post_verify/finish_account_setup/set_password.mustache:10
 msgid "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr "Bila melanjutkan, Anda setuju dengan <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Ketentuan Layanan</a> dan <a <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Kebijakan Privasi</a>."
+msgstr "Bila melanjutkan, Anda setuju dengan <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Ketentuan Layanan</a> dan <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Kebijakan Privasi</a>."
 
 #: .es5/templates/force_auth.mustache:13 .es5/templates/sign_in_password.mustache:18 .es5/templates/sign_in_totp_code.mustache:6
 msgid "Use a different account"
