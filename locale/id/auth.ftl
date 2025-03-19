@@ -246,6 +246,14 @@ view-invoice-plaintext = Tampilkan Faktur: { $invoiceLink }
 cadReminderFirst-subject-1 = Pengingat! Sinkronkan { -brand-firefox }
 cadReminderFirst-action = Sinkronkan perangkat lain
 cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
+# In the title of the email, "It takes two to sync", "two" refers to syncing two devices
+cadReminderFirst-title-1 = Sinkronisasi memerlukan dua perangkat.
+cadReminderFirst-description-v2 = Akses tab Anda di semua perangkat. Dapatkan markah, sandi, dan data lainnya di mana pun Anda menggunakan { -brand-firefox }.
+cadReminderSecond-subject-2 = Jangan lewatkan! Selesaikan pengaturan sinkronisasi Anda sekarang.
+cadReminderSecond-action = Sinkronkan perangkat lain
+cadReminderSecond-title-2 = Jangan lupa untuk sinkronisasi!
+cadReminderSecond-description-sync = Sinkronkan markah, kata sandi, tab terbuka dan lainnya — di mana pun Anda menggunakan { -brand-firefox }.
+cadReminderSecond-description-plus = Plus, data Anda selalu dienkripsi. Hanya Anda dan perangkat yang Anda setujui yang dapat melihatnya.
 downloadSubscription-link-action-2 = Mulai
 fraudulentAccountDeletion-subject-2 = { -product-mozilla-account } Anda telah dihapus
 fraudulentAccountDeletion-title = Akun Anda telah dihapus
