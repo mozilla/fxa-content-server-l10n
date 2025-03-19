@@ -181,6 +181,12 @@ credit-card-ending-in = Kartu { $cardName } diakhiri dengan { $lastFour }
 # Variable: $lastFour (String) - The last four digits of the credit card, e.g. 5309
 unknown-card-ending-in = Kartu tidak dikenal berakhiran { $lastFour }
 # Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionFirstInvoice-content-invoice-number = Nomor Tagihan: <b>{ $invoiceNumber }</b>
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionFirstInvoice-content-invoice-number-plaintext = Nomor Tagihan: { $invoiceNumber }
+# Variables:
 #  $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 subscriptionSubsequentInvoice-content-plan-change = Perubahan rencana: { $paymentProrated }
 # Variables:
@@ -196,6 +202,13 @@ subscriptionFirstInvoiceDiscount-content-discount-one-time = Diskon satu kali: -
 #  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
 #  $discountDuration - The duration of the discount in number of months, e.g. 3 months
 subscriptionFirstInvoiceDiscount-content-discount-repeating = Diskon { $discountDuration } bulan: - { $invoiceDiscountAmount }
+# Variables:
+#  $invoiceTaxAmount (String) - The amount of the tax of the subscription invoice, including currency, e.g. $2.00
+subscriptionCharges-content-tax = Pajak & biaya: { $invoiceTaxAmount }
+# Variables:
+#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+#  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
+subscriptionFirstInvoice-content-charge = Ditagihkan: { $invoiceTotal } pada { $invoiceDateOnly }
 subscriptionSupport = Ada pertanyaan tentang langganan Anda? <a data-l10n-name="subscriptionSupportUrl">Tim dukungan</a> kami siap membantu Anda.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Ada pertanyaan tentang langganan Anda? Tim dukungan kami siap membantu Anda:
@@ -221,27 +234,38 @@ support-message-2 = Untuk info lebih lanjut, kunjungi Dukungan { -brand-mozilla 
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 #  $uaOSVersion (String) - User's OS version, e.g. 10.11
 device-all = { $uaBrowser } di { $uaOS } { $uaOSVersion }
+# Variables:
+#  $uaBrowser (String) - User's browser, e.g. Firefox
+#  $uaOS (String) - User's OS, e.g. Mac OSX
+device-browser-os = { $uaBrowser } di { $uaOS }
 view-invoice = <a data-l10n-name="invoiceLink">Lihat faktur Anda</a>.
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
 # After the colon, there's a link to https://pay.stripe.com/
 view-invoice-plaintext = Tampilkan Faktur: { $invoiceLink }
 cadReminderFirst-subject-1 = Pengingat! Sinkronkan { -brand-firefox }
+cadReminderFirst-action = Sinkronkan perangkat lain
+cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 downloadSubscription-link-action-2 = Mulai
 fraudulentAccountDeletion-subject-2 = { -product-mozilla-account } Anda telah dihapus
 fraudulentAccountDeletion-title = Akun Anda telah dihapus
-inactiveAccountFirstWarning-preview = Masuk untuk menyimpan akun Anda
+inactiveAccountFinalWarning-preview = Masuk agar akun Anda tetap aktif
+inactiveAccountFinalWarning-action = Masuk agar akun Anda tetap aktif
 # followed by link to sign in
-inactiveAccountFirstWarning-action-plaintext = Masuk untuk menyimpan akun Anda:
+inactiveAccountFinalWarning-action-plaintext = Masuk agar akun Anda tetap aktif:
+inactiveAccountFirstWarning-action = Masuk agar akun Anda tetap aktif
+inactiveAccountFirstWarning-preview = Masuk agar akun Anda tetap aktif
+# followed by link to sign in
+inactiveAccountFirstWarning-action-plaintext = Masuk agar akun Anda tetap aktif:
 inactiveAccountSecondWarning-subject = Tindakan diperlukan: Akun akan dihapus dalam 7 hari
 inactiveAccountSecondWarning-title = Akun dan data { -brand-mozilla } Anda akan dihapus dalam 7 hari
 inactiveAccountSecondWarning-account-description-v2 = { -product-mozilla-account } Anda digunakan untuk mengakses privasi gratis dan produk penjelajahan seperti sinkronisasi { -brand-firefox }, { -product-mozilla-monitor } { -product-firefox-relay } dan { -product-mdn }.
 # $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
 inactiveAccountSecondWarning-impact = Akun dan data pribadi Anda akan dihapus secara permanen pada <strong>{ $deletionDate }</strong> karena tidak ada aktivitas di akun Anda.
-inactiveAccountSecondWarning-action = Masuk untuk menyimpan akun Anda
-inactiveAccountSecondWarning-preview = Masuk untuk menyimpan akun Anda
+inactiveAccountSecondWarning-action = Masuk agar akun Anda tetap aktif
+inactiveAccountSecondWarning-preview = Masuk agar akun Anda tetap aktif
 # followed by link to sign in
-inactiveAccountSecondWarning-action-plaintext = Masuk untuk menyimpan akun Anda:
+inactiveAccountSecondWarning-action-plaintext = Masuk agar akun Anda tetap aktif:
 codes-reminder-description-two-left = Anda hanya memiliki dua kode tersisa.
 lowRecoveryCodes-action-2 = Buat kode
 codes-create-plaintext = { lowRecoveryCodes-action-2 }:
@@ -259,6 +283,7 @@ password-forgot-otp-title = Lupa sandi Anda?
 password-forgot-otp-request = Kami menerima permintaan perubahan sandi pada { -product-mozilla-account } Anda dari:
 password-forgot-otp-code-2 = Jika ini Anda, berikut adalah kode konfirmasi Anda untuk melanjutkan:
 password-forgot-otp-expiry-notice = Kode ini kedaluwarsa dalam 10 menit.
+passwordResetWithRecoveryKeyPrompt-cta-description = Anda harus masuk lagi di semua perangkat yang disinkronkan. Amankan data Anda di lain waktu dengan kunci pemulihan akun. Ini memungkinkan Anda untuk memulihkan data Anda jika Anda lupa sandi Anda.
 postAddAccountRecovery-title2 = Anda membuat kunci pemulihan akun baru
 postAddAccountRecovery-action = Kelola akun
 postAddTwoStepAuthentication-action = Kelola akun
