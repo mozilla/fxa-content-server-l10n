@@ -545,6 +545,12 @@ unblockCode-prompt-plaintext = Jika ya, berikut adalah kode otorisasi yang Anda 
 unblockCode-report = Jika tidak, bantu kami menangkis penyusup dan <a data-l10n-name="reportSignInLink">laporkan kepada kami</a>.
 unblockCode-report-plaintext = Jika tidak, mohon bantu kami untuk menangkis penyusup dan melaporkannya pada kami.
 verificationReminderFinal-subject = Pengingat terakhir untuk mengonfirmasi akun Anda
+verificationReminderFinal-description-2 = Beberapa minggu yang lalu Anda membuat { -product-mozilla-account }, tetapi tidak pernah mengonfirmasinya. Demi keamanan Anda, kami akan menghapus akun jika tidak diverifikasi dalam 24 jam ke depan.
+confirm-account = Konfirmasi akun
+confirm-account-plaintext = { confirm-account }:
+verificationReminderFirst-subject-2 = Ingatlah untuk mengonfirmasi akun Anda
+verificationReminderFirst-title-3 = Selamat datang di { -brand-mozilla }
+verificationReminderFirst-description-3 = Beberapa hari yang lalu Anda membuat { -product-mozilla-account }, tetapi tidak pernah mengonfirmasinya. Konfirmasikan akun Anda dalam 15 hari ke depan atau akun akan dihapus secara otomatis.
 verify-subject = Selesaikan pembuatan akun Anda
 verify-action-2 = Konfirmasi akun
 # Variables:
