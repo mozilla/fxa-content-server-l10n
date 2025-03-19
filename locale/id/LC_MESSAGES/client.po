@@ -1598,7 +1598,7 @@ msgstr ""
 
 #: .es5/templates/push/send_login.mustache:3
 msgid "Check your connected Firefox devices for the sign-in confirmation tab we've sent."
-msgstr ""
+msgstr "Periksa perangkat Firefox yang terhubung dan lihat tab konfirmasi masuk yang telah kami kirim."
 
 #: .es5/templates/push/send_login.mustache:4
 msgid "Resend tab"
@@ -1622,7 +1622,7 @@ msgstr "Tambahkan alamat surel sekunder"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:5
 msgid "Adding a secondary email helps you get back into your account if you are locked out and can not access %(escapedEmail)s."
-msgstr ""
+msgstr "Menambahkan surel cadangan membantu Anda untuk kembali mengakses akun apabila terkunci dan tidak dapat diakses %(escapedEmail)s."
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:6
 msgid "Secondary email"
@@ -1642,7 +1642,7 @@ msgstr ""
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:8
 msgid "Need another code? Resend"
-msgstr ""
+msgstr "Butuh kode lain? Kirim ulang"
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:9
 msgid "Use a different email"
@@ -1879,7 +1879,7 @@ msgstr ""
 
 #: .es5/templates/partial/support-form-error.mustache:1
 msgid "Hmm, we're having trouble with our system. We're working on fixing it for you and apologize for the inconvenience. Please try again later."
-msgstr ""
+msgstr "Hmm, sistem kami sedang bermasalah. Kami tengah berupaya memperbaikinya dan meminta maaf atas ketidaknyamanannya. Silakan coba kembali nanti."
 
 #: .es5/templates/partial/support-form-success.mustache:1
 msgid "Your message was sent to Support"

@@ -296,6 +296,8 @@ delete-account-header =
 delete-account-step-1-2 = Langkah 1 dari 2
 delete-account-step-2-2 = Langkah 2 dari 2
 delete-account-acknowledge = Harap diketahui bahwa dengan menghapus akun Anda:
+delete-account-chk-box-2 =
+    .label = Anda mungkin kehilangan informasi dan fitur yang tersimpan di dalam produk { -brand-mozilla }
 
 ## Display name page
 

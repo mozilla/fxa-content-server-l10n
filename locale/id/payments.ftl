@@ -154,9 +154,6 @@ sub-update-total-label = Total baru
 ##   $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 
 
-##
-
-
 ## Routes - Subscriptions - Cancel
 
 sub-item-cancel-sub = Batal Berlangganan
@@ -171,6 +168,7 @@ sub-item-cancel-msg =
 
 ## Routes - Subscription
 
+sub-route-idx-cancel-failed = Gagal membatalkan langganan
 
 ## Routes - Subscriptions - Errors
 
