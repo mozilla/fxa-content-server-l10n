@@ -236,6 +236,8 @@ inactiveAccountFirstWarning-action-plaintext = Masuk untuk menyimpan akun Anda:
 inactiveAccountSecondWarning-subject = Tindakan diperlukan: Akun akan dihapus dalam 7 hari
 inactiveAccountSecondWarning-title = Akun dan data { -brand-mozilla } Anda akan dihapus dalam 7 hari
 inactiveAccountSecondWarning-account-description-v2 = { -product-mozilla-account } Anda digunakan untuk mengakses privasi gratis dan produk penjelajahan seperti sinkronisasi { -brand-firefox }, { -product-mozilla-monitor } { -product-firefox-relay } dan { -product-mdn }.
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+inactiveAccountSecondWarning-impact = Akun dan data pribadi Anda akan dihapus secara permanen pada <strong>{ $deletionDate }</strong> karena tidak ada aktivitas di akun Anda.
 inactiveAccountSecondWarning-action = Masuk untuk menyimpan akun Anda
 inactiveAccountSecondWarning-preview = Masuk untuk menyimpan akun Anda
 # followed by link to sign in
@@ -250,6 +252,7 @@ passwordChangeRequired-subject = Aktivitas mencurigakan terdeteksi
 passwordChangeRequired-title = Perubahan Kata Sandi Diperlukan
 passwordChangeRequired-suspicious-activity-2 = Kami mendeteksi aktivitas mencurigakan pada { -product-mozilla-account } Anda. Untuk mencegah akses tidak sah, kami telah memutuskan semua perangkat yang terhubung ke akun Anda dan meminta Anda mengubah kata sandi sebagai langkah pencegahan.
 passwordChangeRequired-sign-in-2 = Masuk kembali ke perangkat atau layanan apa pun yang menggunakan { -product-mozilla-account }, lalu ikuti langkah-langkah yang diberikan.
+passwordChangeRequired-different-password = <b>Penting:</b> Gunakan sandi yang berbeda dari yang Anda gunakan sebelumnya dan pastikan tidak sama dengan akun surel Anda.
 passwordChangeRequired-different-password-plaintext = Penting: Pilih sandi yang berbeda dari yang Anda gunakan sebelumnya dan pastikan sandi berbeda dari akun surel Anda.
 password-forgot-otp-subject = Lupa sandi Anda?
 password-forgot-otp-title = Lupa sandi Anda?
