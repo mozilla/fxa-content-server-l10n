@@ -269,6 +269,10 @@ inactiveAccountFinalWarning-preview = Masuk agar akun Anda tetap aktif
 inactiveAccountFinalWarning-action = Masuk agar akun Anda tetap aktif
 # followed by link to sign in
 inactiveAccountFinalWarning-action-plaintext = Masuk agar akun Anda tetap aktif:
+inactiveAccountFirstWarning-inactive-status = Kami melihat Anda belum masuk selama 2 tahun.
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+# This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
+inactiveAccountFirstWarning-impact = Akun dan data pribadi Anda akan dihapus secara permanen pada <strong>{ $deletionDate }</strong> karena tidak ada aktivitas di akun Anda.
 inactiveAccountFirstWarning-action = Masuk agar akun Anda tetap aktif
 inactiveAccountFirstWarning-preview = Masuk agar akun Anda tetap aktif
 # followed by link to sign in
@@ -322,17 +326,73 @@ postRemoveSecondary-subject = Surel sekunder telah dihapus
 postRemoveSecondary-title = Surel sekunder telah dihapus
 postRemoveSecondary-action = Kelola akun
 postRemoveTwoStepAuthentication-action = Kelola akun
+postSigninRecoveryPhone-action = Kelola akun
 postVerifySecondary-subject = Surel sekunder ditambahkan
 postVerifySecondary-title = Surel sekunder ditambahkan
 postVerifySecondary-action = Kelola akun
 recovery-subject = Setel ulang sandi
 recovery-action = Buat sandi baru
+subscriptionAccountFinishSetup-action-2 = Mulai
+subscriptionAccountReminderFirst-subject = Pengingat: Selesaikan penyiapan akun Anda
+subscriptionAccountReminderFirst-title = Anda belum dapat mengakses langganan Anda
 
 ## Variables
 ##   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 ##   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 ##   $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
 
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-subject-1 = Kartu kredit untuk { $productName } kedaluwarsa atau segera kedaluwarsa
+subscriptionPaymentExpired-title-1 = Kartu kredit Anda kedaluwarsa atau akan kedaluwarsa
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-content-1 = Kartu kredit yang Anda gunakan untuk melakukan pembayaran untuk { $productName } telah kedaluwarsa atau akan segera kedaluwarsa.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentFailed-subject = Pembayaran { $productName } gagal
+subscriptionPaymentFailed-title = Maaf, kami mengalami masalah dengan pembayaran Anda
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentFailed-content-problem = Kami mengalami masalah dengan pembayaran terakhir Anda untuk { $productName }.
+subscriptionPaymentFailed-content-outdated = Mungkin kartu kredit Anda telah kedaluwarsa, atau metode pembayaran Anda saat ini kedaluwarsa.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentProviderCancelled-subject = Pembaruan informasi pembayaran diperlukan untuk { $productName }
+subscriptionPaymentProviderCancelled-title = Maaf, kami mengalami masalah dengan metode pembayaran Anda
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentProviderCancelled-content-detect = Kami mendeteksi adanya masalah dengan metode pembayaran Anda untuk { $productName }.
+subscriptionPaymentProviderCancelled-content-reason = Mungkin kartu kredit Anda telah kedaluwarsa, atau metode pembayaran Anda saat ini kedaluwarsa.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-subject = Langganan { $productName } diaktifkan kembali
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-title = Terima kasih telah mengaktifkan kembali langganan { $productName } Anda!
+# Variables:
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
+subscriptionReactivation-content = Siklus penagihan dan pembayaran Anda akan tetap sama. Tagihan Anda berikutnya sebesar { $invoiceTotal } pada { $nextInvoiceDateOnly }. Langganan Anda akan diperpanjang secara otomatis setiap periode penagihan kecuali Anda memilih untuk membatalkan.
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionRenewalReminder-subject = Pemberitahuan perpanjangan otomatis { $productName }
+subscriptionRenewalReminder-title = Langganan Anda akan segera diperbarui
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionRenewalReminder-content-greeting = Pelanggan { $productName } yang terhormat,
+# Variables
+#   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#   $planIntervalCount (String) - The interval count of subscription plan, e.g. 2
+#   $planInterval (String) - The interval of time of the subscription plan, e.g. week
+#   $reminderLength (String) - The number of days until the current subscription is set to automatically renew, e.g. 14
+subscriptionRenewalReminder-content-current = Langganan Anda saat ini diatur untuk diperpanjang otomatis dalam { $reminderLength } hari. Pada saat itu, { -brand-mozilla } akan memperbarui langganan { $planIntervalCount } { $planInterval } Anda dan biaya sebesar { $invoiceTotal } akan diterapkan ke metode pembayaran di akun Anda.
+subscriptionRenewalReminder-content-closing = Hormat kami,
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionRenewalReminder-content-signature = Tim { $productName }
+subscriptionsPaymentExpired-subject-1 = Kartu kredit untuk langganan Anda kedaluwarsa atau segera kedaluwarsa
+subscriptionsPaymentExpired-title-1 = Kartu kredit Anda kedaluwarsa atau akan kedaluwarsa
 unblockCode-title = Apakah Anda benar-benar sedang masuk?
 unblockCode-prompt = Jika ya, ini adalah kode otorisasi yang Anda butuhkan:
 unblockCode-report-plaintext = Jika tidak, mohon bantu kami untuk menangkis penyusup dan melaporkannya pada kami.
