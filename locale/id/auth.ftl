@@ -254,9 +254,17 @@ cadReminderSecond-action = Sinkronkan perangkat lain
 cadReminderSecond-title-2 = Jangan lupa untuk sinkronisasi!
 cadReminderSecond-description-sync = Sinkronkan markah, kata sandi, tab terbuka dan lainnya — di mana pun Anda menggunakan { -brand-firefox }.
 cadReminderSecond-description-plus = Plus, data Anda selalu dienkripsi. Hanya Anda dan perangkat yang Anda setujui yang dapat melihatnya.
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+downloadSubscription-subject = Selamat datang di { $productName }
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+downloadSubscription-title = Selamat datang di { $productName }
+downloadSubscription-content-2 = Mari mulai menggunakan semua fitur yang disertakan dalam langganan Anda:
 downloadSubscription-link-action-2 = Mulai
 fraudulentAccountDeletion-subject-2 = { -product-mozilla-account } Anda telah dihapus
 fraudulentAccountDeletion-title = Akun Anda telah dihapus
+fraudulentAccountDeletion-content-part1-v2 = Baru-baru ini, { -product-mozilla-account } telah dibuat, dan langganan ditagihkan ke alamat surel ini. Seperti halnya semua akun baru, kami meminta Anda untuk mengonfirmasi akun dengan terlebih dahulu memverifikasi alamat surel ini.
 inactiveAccountFinalWarning-preview = Masuk agar akun Anda tetap aktif
 inactiveAccountFinalWarning-action = Masuk agar akun Anda tetap aktif
 # followed by link to sign in
@@ -291,7 +299,17 @@ password-forgot-otp-title = Lupa sandi Anda?
 password-forgot-otp-request = Kami menerima permintaan perubahan sandi pada { -product-mozilla-account } Anda dari:
 password-forgot-otp-code-2 = Jika ini Anda, berikut adalah kode konfirmasi Anda untuk melanjutkan:
 password-forgot-otp-expiry-notice = Kode ini kedaluwarsa dalam 10 menit.
+passwordResetAccountRecovery-action-4 = Kelola akun
+passwordResetWithRecoveryKeyPrompt-subject = Sandi Anda telah diset ulang
+passwordResetWithRecoveryKeyPrompt-title = Sandi Anda telah diset ulang
+# Details of the device and date/time where the password was reset
+passwordResetWithRecoveryKeyPrompt-description = Anda menyetel ulang sandi { -product-mozilla-account } pada:
+# Text for button action to create a new account recovery key
+passwordResetWithRecoveryKeyPrompt-action = Buat kunci pemulihan akun
+# colon is followed by a link to create an account recovery key from the account settings page
+passwordResetWithRecoveryKeyPrompt-action-txt = Buat kunci pemulihan akun:
 passwordResetWithRecoveryKeyPrompt-cta-description = Anda harus masuk lagi di semua perangkat yang disinkronkan. Amankan data Anda di lain waktu dengan kunci pemulihan akun. Ini memungkinkan Anda untuk memulihkan data Anda jika Anda lupa sandi Anda.
+postAddAccountRecovery-subject-3 = Kunci pemulihan akun baru dibuat
 postAddAccountRecovery-title2 = Anda membuat kunci pemulihan akun baru
 postAddAccountRecovery-action = Kelola akun
 postAddTwoStepAuthentication-action = Kelola akun
