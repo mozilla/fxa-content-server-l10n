@@ -450,6 +450,12 @@ subscriptionRenewalReminder-content-signature = Tim { $productName }
 subscriptionsPaymentExpired-subject-1 = Kartu kredit untuk langganan Anda kedaluwarsa atau segera kedaluwarsa
 subscriptionsPaymentExpired-title-1 = Kartu kredit Anda kedaluwarsa atau akan kedaluwarsa
 subscriptionsPaymentProviderCancelled-title = Maaf, kami mengalami masalah dengan metode pembayaran Anda
+subscriptionsPaymentProviderCancelled-content-detected = Kami telah mendeteksi masalah dengan metode pembayaran Anda untuk langganan berikut.
+subscriptionsPaymentProviderCancelled-content-payment = Mungkin kartu kredit Anda telah kedaluwarsa, atau metode pembayaran Anda saat ini kedaluwarsa.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSubsequentInvoice-subject = Pembayaran { $productName } diterima
+subscriptionSubsequentInvoice-title = Terima kasih telah menjadi pelanggan!
 unblockCode-title = Apakah Anda benar-benar sedang masuk?
 unblockCode-prompt = Jika ya, ini adalah kode otorisasi yang Anda butuhkan:
 unblockCode-report-plaintext = Jika tidak, mohon bantu kami untuk menangkis penyusup dan melaporkannya pada kami.
