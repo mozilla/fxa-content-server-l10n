@@ -375,12 +375,22 @@ postAddLinkedAccount-title-2 = Akun { $providerName } Anda telah dihubungkan ke 
 postAddLinkedAccount-action = Kelola akun
 postAddRecoveryPhone-subject = Telepon pemulihan ditambahkan
 postAddRecoveryPhone-preview = Akun dilindungi oleh otentikasi dua langkah
+postAddRecoveryPhone-title = Anda membuat nomor telepon pemulihan
 # Variables:
 #  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
 postAddRecoveryPhone-description-v2 = Anda menambahkan { $maskedLastFourPhoneNumber } sebagai nomor telepon pemulihan Anda
+# Links out to a support article about two factor authentication
+postAddRecoveryPhone-how-protect = Cara ini melindungi akun Anda
+postAddRecoveryPhone-how-protect-plaintext = Cara ini melindungi akun Anda:
+postAddRecoveryPhone-enabled-device = Anda mengaktifkannya dari:
 postAddRecoveryPhone-action = Kelola akun
 postAddTwoStepAuthentication-subject-2 = Autentikasi dua langkah diaktifkan
+postAddTwoStepAuthentication-title-2 = Anda mengaktifkan autentikasi dua langkah
+# After the colon, there is a description of the device that the user used to enable two-step authentication
+postAddTwoStepAuthentication-from-device = Anda mengaktifkannya dari:
 postAddTwoStepAuthentication-action = Kelola akun
+postAddTwoStepAuthentication-code-required-2 = Kode keamanan dari aplikasi autentikasi Anda sekarang diperlukan setiap kali Anda masuk.
+postChangeAccountRecovery-subject = Kunci pemulihan akun diubah
 postChangeAccountRecovery-title = Anda mengubah kunci pemulihan akun Anda
 postChangeAccountRecovery-body-part1 = Anda sekarang memiliki kunci pemulihan akun baru. Kunci Anda sebelumnya telah dihapus.
 postChangeAccountRecovery-body-part2 = Simpan kunci baru ini di tempat yang aman — Anda akan membutuhkannya untuk memulihkan data penjelajahan terenkripsi Anda jika Anda lupa kata sandi Anda.
@@ -391,6 +401,7 @@ postChangePrimary-title = Surel utama baru
 #  $email (String) - A user's email address
 postChangePrimary-description-2 = Anda sukses mengubah surel utama Anda ke { $email }. Sekarang alamat ini adalah nama pengguna Anda untuk masuk ke { -product-mozilla-account } Account Anda, serta menerima pemberitahuan keamanan dan konfirmasi masuk.
 postChangePrimary-action = Kelola akun
+postChangeRecoveryPhone-subject = Telepon pemulihan diperbarui
 postChangeRecoveryPhone-description = Anda sekarang memiliki telepon pemulihan baru. Nomor telepon Anda sebelumnya telah dihapus.
 postConsumeRecoveryCode-title-2 = Anda menggunakan kode autentikasi cadangan
 # After the colon, there is description of the device that the backup authentication code was used on

@@ -976,11 +976,11 @@ msgstr "Tautan konfirmasi kedaluwarsa"
 
 #: .es5/templates/complete_sign_up.mustache:7
 msgid "The link you clicked to confirm your email is expired."
-msgstr ""
+msgstr "Tautan yang Anda klik untuk mengonfirmasi surel Anda kedaluwarsa."
 
 #: .es5/templates/complete_sign_up.mustache:8
 msgid "Click here to receive a new confirmation link"
-msgstr ""
+msgstr "Klik di sini untuk menerima tautan konfirmasi baru"
 
 #: .es5/templates/complete_sign_up.mustache:11
 msgid "Confirmation link damaged"
@@ -1044,11 +1044,11 @@ msgstr "Konfirmasi"
 
 #: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/sign_in_token_code.mustache:5
 msgid "Code expired?"
-msgstr ""
+msgstr "Kode kedaluwarsa?"
 
 #: .es5/templates/confirm_signup_code.mustache:6 .es5/templates/sign_in_token_code.mustache:6
 msgid "Email new code."
-msgstr ""
+msgstr "Kirim kode baru melalui surel."
 
 #: .es5/templates/connect_another_device.mustache:1 .es5/templates/connect_another_device.mustache:23 .es5/templates/pair/index.mustache:7 .es5/templates/pair/unsupported.mustache:1
 msgid "Connect another device"
@@ -1056,11 +1056,11 @@ msgstr "Hubungan perangkat lainnya"
 
 #: .es5/templates/connect_another_device.mustache:3
 msgid "You’re signed into Firefox"
-msgstr ""
+msgstr "Anda masuk ke Firefox"
 
 #: .es5/templates/connect_another_device.mustache:5
 msgid "Email confirmed"
-msgstr ""
+msgstr "Surel dikonfirmasi"
 
 #: .es5/templates/connect_another_device.mustache:10 .es5/templates/pair/unsupported.mustache:15
 msgid "Devices with hearts on their screens"
@@ -1068,7 +1068,7 @@ msgstr ""
 
 #: .es5/templates/connect_another_device.mustache:11
 msgid "You’re signed in to Firefox"
-msgstr ""
+msgstr "Anda masuk ke Firefox"
 
 #: .es5/templates/connect_another_device.mustache:15
 msgid "Sign in to this Firefox to complete set-up"
@@ -1084,11 +1084,11 @@ msgstr "Masuk ke Firefox di perangkat lainnya untuk menyelesaikan persiapan"
 
 #: .es5/templates/connect_another_device.mustache:22
 msgid "Want to get your tabs, bookmarks, and passwords on another device?"
-msgstr ""
+msgstr "Ingin memindahkan tab, markah, dan sandi Anda ke perangkat lain?"
 
 #: .es5/templates/connect_another_device.mustache:24 .es5/templates/ready.mustache:2
 msgid "Manage your account"
-msgstr ""
+msgstr "Kelola akun Anda"
 
 #: .es5/templates/force_auth.mustache:1 .es5/templates/sign_in_password.mustache:1
 msgid "Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Mozilla account</span>"
