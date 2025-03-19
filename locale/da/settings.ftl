@@ -1220,12 +1220,17 @@ auth-error-1003 = Lokalt lager eller cookies er stadig deaktiveret
 auth-error-1008 = Din nye adgangskode skal være anderledes
 auth-error-1010 = Gyldig adgangskode påkrævet
 auth-error-1011 = Gyldig mailadresse påkrævet
+auth-error-1018 = Din bekræftelsesmail kom retur. Har du indtastet den rigtige mailadresse?
+auth-error-1020 = Forkert indtastet mailadresse? firefox.com er ikke en gyldig mail-tjeneste
 auth-error-1031 = Du skal indtaste din alder for at tilmelde dig
 auth-error-1032 = Du skal indtaste en gyldig alder for at tilmelde dig
 auth-error-1054 = Ugyldig kode til totrinsgodkendelse
 auth-error-1056 = Ugyldig reserve-godkendelseskode
 auth-error-1062 = Ugyldig omdirigering
+# Shown when a user tries to sign up with an email address with a domain that doesn't receive emails
+auth-error-1064 = Forkert indtastet mailadresse? { $domain } er ikke en gyldig mail-tjeneste
 auth-error-1066 = Mail-masker kan ikke bruges til at oprette en konto.
+auth-error-1067 = Forkert indtastet mailadresse?
 # Displayed when we want to reference a user's previously set up recovery phone
 # number, but they are not completely signed in yet. We'll only show the last 4 digits.
 # Variables:
@@ -1295,6 +1300,8 @@ index-email-input =
     .label = Indtast din mailadresse
 # When users delete their Mozilla account inside account Settings, they are redirected to this page with a success message
 index-account-delete-success = Kontoen er slettet
+# Displayed when users try to sign up for an account and their confirmation code email bounces
+index-email-bounced = Din bekræftelsesmail kom retur. Forkert indtastet mailadresse?
 
 ## InlineRecoveryKeySetup page component
 
