@@ -558,6 +558,7 @@ verificationReminderSecond-subject-2 = Ingatlah untuk mengonfirmasi akun Anda
 verificationReminderSecond-title-3 = Jangan lewatkan { -brand-mozilla }!
 verificationReminderSecond-description-4 = Beberapa hari yang lalu Anda membuat { -product-mozilla-account }, tetapi tidak pernah mengonfirmasinya. Konfirmasikan akun Anda dalam 10 hari ke depan atau akun akan dihapus secara otomatis.
 verificationReminderSecond-second-description-3 = { -product-mozilla-account } memungkinkan Anda menyinkronkan pengalaman { -brand-firefox } di berbagai perangkat dan memberi Anda akses ke lebih banyak produk dari { -brand-mozilla } yang melindungi privasi Anda.
+verificationReminderSecond-sub-description-2 = Jadilah bagian dari misi kami untuk mengubah internet menjadi tempat yang terbuka untuk semua orang.
 verificationReminderSecond-action-2 = Konfirmasi akun
 verify-title-3 = Buka internet dengan { -brand-mozilla }
 verify-description-2 = Konfirmasikan akun Anda dan dapatkan manfaat maksimal dari { -brand-mozilla } di mana pun Anda masuk dimulai dengan:
@@ -588,3 +589,8 @@ verifyPrimary-post-verify-2 = Setelah dikonfirmasi, perubahan akun seperti menam
 verifySecondaryCode-subject = Konfirmasi surel sekunder
 verifySecondaryCode-title-2 = Konfirmasi surel sekunder
 verifySecondaryCode-action-2 = Konfirmasi surel
+verifySecondaryCode-prompt-2 = Gunakan kode konfirmasi ini:
+verifySecondaryCode-expiry-notice-2 = Kedaluwarsa dalam 5 menit. Setelah dikonfirmasi, alamat ini akan mulai menerima pemberitahuan dan konfirmasi keamanan.
+# Variables:
+#  $code (Number) - e.g. 123456
+verifyShortCode-subject-3 = Konfirmasikan akun Anda
