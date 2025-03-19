@@ -536,9 +536,15 @@ subscriptionsPaymentProviderCancelled-content-payment = Mungkin kartu kredit And
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-subject = Pembayaran { $productName } diterima
 subscriptionSubsequentInvoice-title = Terima kasih telah menjadi pelanggan!
+unblockCode-subject = Kode otorisasi akun
 unblockCode-title = Apakah Anda benar-benar sedang masuk?
 unblockCode-prompt = Jika ya, ini adalah kode otorisasi yang Anda butuhkan:
+# Variables:
+#  $unblockCode (String) - An alphanumeric code
+unblockCode-prompt-plaintext = Jika ya, berikut adalah kode otorisasi yang Anda butuhkan: { $unblockCode }
+unblockCode-report = Jika tidak, bantu kami menangkis penyusup dan <a data-l10n-name="reportSignInLink">laporkan kepada kami</a>.
 unblockCode-report-plaintext = Jika tidak, mohon bantu kami untuk menangkis penyusup dan melaporkannya pada kami.
+verificationReminderFinal-subject = Pengingat terakhir untuk mengonfirmasi akun Anda
 verify-subject = Selesaikan pembuatan akun Anda
 verify-action-2 = Konfirmasi akun
 # Variables:
