@@ -233,6 +233,9 @@ fraudulentAccountDeletion-title = Akun Anda telah dihapus
 inactiveAccountFirstWarning-preview = Masuk untuk menyimpan akun Anda
 # followed by link to sign in
 inactiveAccountFirstWarning-action-plaintext = Masuk untuk menyimpan akun Anda:
+inactiveAccountSecondWarning-subject = Tindakan diperlukan: Akun akan dihapus dalam 7 hari
+inactiveAccountSecondWarning-title = Akun dan data { -brand-mozilla } Anda akan dihapus dalam 7 hari
+inactiveAccountSecondWarning-account-description-v2 = { -product-mozilla-account } Anda digunakan untuk mengakses privasi gratis dan produk penjelajahan seperti sinkronisasi { -brand-firefox }, { -product-mozilla-monitor } { -product-firefox-relay } dan { -product-mdn }.
 inactiveAccountSecondWarning-action = Masuk untuk menyimpan akun Anda
 inactiveAccountSecondWarning-preview = Masuk untuk menyimpan akun Anda
 # followed by link to sign in
@@ -245,11 +248,14 @@ passwordChanged-subject = Sandi telah diperbarui
 passwordChanged-title = Sandi sukses diganti
 passwordChangeRequired-subject = Aktivitas mencurigakan terdeteksi
 passwordChangeRequired-title = Perubahan Kata Sandi Diperlukan
+passwordChangeRequired-suspicious-activity-2 = Kami mendeteksi aktivitas mencurigakan pada { -product-mozilla-account } Anda. Untuk mencegah akses tidak sah, kami telah memutuskan semua perangkat yang terhubung ke akun Anda dan meminta Anda mengubah kata sandi sebagai langkah pencegahan.
+passwordChangeRequired-sign-in-2 = Masuk kembali ke perangkat atau layanan apa pun yang menggunakan { -product-mozilla-account }, lalu ikuti langkah-langkah yang diberikan.
 passwordChangeRequired-different-password-plaintext = Penting: Pilih sandi yang berbeda dari yang Anda gunakan sebelumnya dan pastikan sandi berbeda dari akun surel Anda.
 password-forgot-otp-subject = Lupa sandi Anda?
 password-forgot-otp-title = Lupa sandi Anda?
 password-forgot-otp-request = Kami menerima permintaan perubahan sandi pada { -product-mozilla-account } Anda dari:
 password-forgot-otp-code-2 = Jika ini Anda, berikut adalah kode konfirmasi Anda untuk melanjutkan:
+password-forgot-otp-expiry-notice = Kode ini kedaluwarsa dalam 10 menit.
 postAddAccountRecovery-title2 = Anda membuat kunci pemulihan akun baru
 postAddAccountRecovery-action = Kelola akun
 postAddTwoStepAuthentication-action = Kelola akun
