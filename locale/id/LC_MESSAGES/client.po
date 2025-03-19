@@ -1092,7 +1092,7 @@ msgstr "Kelola akun Anda"
 
 #: .es5/templates/force_auth.mustache:1 .es5/templates/sign_in_password.mustache:1
 msgid "Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Mozilla account</span>"
-msgstr ""
+msgstr "Masukkan sandi untuk <span class=\"card-subheader\" id=\"subheader\">akun Mozilla Anda</span>"
 
 #: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up_password.mustache:4 .es5/templates/post_verify/third_party_auth/set_password.mustache:3
 msgid "Password"
@@ -1119,7 +1119,7 @@ msgstr ""
 #: .es5/templates/force_auth.mustache:12 .es5/templates/index.mustache:20 .es5/templates/sign_in_password.mustache:17 .es5/templates/sign_up_password.mustache:19
 #: .es5/templates/post_verify/third_party_auth/set_password.mustache:10 .es5/templates/post_verify/finish_account_setup/set_password.mustache:10
 msgid "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
-msgstr ""
+msgstr "Bila melanjutkan, Anda setuju dengan <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Ketentuan Layanan</a> dan <a <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Kebijakan Privasi</a>."
 
 #: .es5/templates/force_auth.mustache:13 .es5/templates/sign_in_password.mustache:18 .es5/templates/sign_in_totp_code.mustache:6
 msgid "Use a different account"
@@ -1131,11 +1131,11 @@ msgstr "Lupa sandi?"
 
 #: .es5/templates/index.mustache:1
 msgid "Continue to your Mozilla account"
-msgstr ""
+msgstr "Lanjutkan ke akun Mozilla Anda"
 
 #: .es5/templates/index.mustache:2
 msgid "Sync your passwords, tabs, and bookmarks everywhere you use Firefox."
-msgstr ""
+msgstr "Sinkronkan kata sandi, tab, dan bookmark di mana pun Anda menggunakan Firefox."
 
 #: .es5/templates/index.mustache:4 .es5/templates/index.mustache:11
 msgid "Enter your email"
@@ -1143,11 +1143,11 @@ msgstr "Masukkan surel Anda"
 
 #: .es5/templates/index.mustache:5 .es5/templates/sign_in_password.mustache:4
 msgid "Continue to <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
-msgstr ""
+msgstr "Lanjutkan ke <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
 
 #: .es5/templates/index.mustache:8
 msgid "Create an email mask"
-msgstr ""
+msgstr "Buat topeng surel"
 
 #: .es5/templates/index.mustache:9
 msgid "Please provide the email address where you’d like to forward emails from your masked email."
