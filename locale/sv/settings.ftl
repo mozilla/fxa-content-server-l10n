@@ -501,9 +501,6 @@ connect-another-play-store-image =
 connect-another-app-store-image-2 =
     .title = Ladda ner { -brand-firefox } från { -app-store }
 
-##
-
-
 ## Connected services section
 
 cs-heading = Anslutna tjänster
@@ -552,9 +549,6 @@ cs-disconnect-lost-advice-content-3 = Eftersom din enhet har tappats bort eller 
 cs-disconnect-suspicious-advice-heading = Misstänkt enhet frånkopplad
 cs-disconnect-suspicious-advice-content-2 = Om den frånkopplade enheten verkligen är misstänkt bör du ändra ditt lösenord för { -product-mozilla-account } i dina kontoinställningar för att skydda din information. Du bör också ändra alla andra lösenord som du sparat i { -brand-firefox } genom att skriva about:logins i adressfältet.
 cs-sign-out-button = Logga ut
-
-##
-
 
 ## Data collection section
 
@@ -749,9 +743,6 @@ avatar-page-file-upload-error-3 = Det gick inte att ladda upp din profilbild
 avatar-page-delete-error-3 = Det gick inte att ta bort din profilbild
 avatar-page-image-too-large-error-2 = Bildfilens storlek är för stor för att kunna laddas upp
 
-##
-
-
 ## Password change page
 
 pw-change-header =
@@ -773,18 +764,12 @@ pw-change-confirm-password =
     .label = Bekräfta nytt lösenord
 pw-change-success-alert-2 = Lösenord uppdaterat
 
-##
-
-
 ## Password create page
 
 pw-create-header =
     .title = Skapa lösenord
 pw-create-success-alert-2 = Lösenord inställt
 pw-create-error-2 = Tyvärr, det uppstod ett problem med att ställa in ditt lösenord
-
-##
-
 
 ## Delete account page
 
@@ -819,9 +804,6 @@ pocket-delete-notice-marketing = För att sluta få marknadsföringsmejl från M
 delete-account-cancel-button = Avbryt
 delete-account-delete-button-2 = Ta bort
 
-##
-
-
 ## Display name page
 
 display-name-page-title =
@@ -832,9 +814,6 @@ submit-display-name = Spara
 cancel-display-name = Avbryt
 display-name-update-error-2 = Det gick inte att uppdatera ditt visningsnamn
 display-name-success-alert-2 = Visningsnamn uppdaterat
-
-##
-
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
@@ -988,9 +967,6 @@ tfa-enter-code-to-confirm-setup = Bekräfta att du sparat dina koder genom att a
 tfa-enter-recovery-code-1 =
     .label = Ange en reservautentiseringskod
 
-##
-
-
 ## Product promotion
 
 product-promo-monitor =
@@ -1011,9 +987,6 @@ profile-display-name =
     .header = Visningsnamn
 profile-primary-email =
     .header = Primär e-post
-
-##
-
 
 ## Progress bar
 
@@ -1075,7 +1048,7 @@ tfa-row-backup-phone-delete-button = Ta bort
 tfa-row-backup-phone-delete-title-v2 = Ta bort återställningstelefon
 tfa-row-backup-phone-delete-restriction-v2 = Om du vill ta bort din återställningstelefon för säkerhetskopiering, lägg till reservautentiseringskoder eller inaktivera tvåstegsautentisering först för att undvika att bli utelåst från ditt konto.
 # "this" refers to recovery phone
-tfa-row-backup-phone-description = Det här är den enklare återställningsmetoden om du inte kan använda din autentiseringsapp.
+tfa-row-backup-phone-description-v2 = Detta är den enklaste återställningsmetoden om du inte kan använda din autentiseringsapp.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
@@ -1157,9 +1130,6 @@ se-content-note-1 =
     en <a>kontoåterställningsnyckel</a> för det.
 # Default value for the secondary email
 se-secondary-email-none = Ingen
-
-##
-
 
 ## Two Step Auth sub-section on Settings main page
 
@@ -1253,11 +1223,17 @@ auth-error-1003 = Lokal lagring eller kakor är fortfarande inaktiverade
 auth-error-1008 = Ditt nya lösenord måste vara annorlunda
 auth-error-1010 = Giltigt lösenord krävs
 auth-error-1011 = Giltig e-postadress krävs
+auth-error-1018 = Ditt bekräftelsemejl har just returnerats. Har du skrivit fel e-post?
+auth-error-1020 = Felaktig e-postadress? firefox.com är inte en giltig e-posttjänst
 auth-error-1031 = Du måste ange din ålder för att registrera dig
 auth-error-1032 = Du måste ange en giltig ålder för att registrera dig
 auth-error-1054 = Ogiltig tvåstegsautentiseringskod
 auth-error-1056 = Ogiltig reservautentiseringskod
 auth-error-1062 = Ogiltig omdirigering
+# Shown when a user tries to sign up with an email address with a domain that doesn't receive emails
+auth-error-1064 = Felaktig e-postadress? { $domain } är inte en giltig e-posttjänst
+auth-error-1066 = E-postalias kan inte användas för att skapa ett konto.
+auth-error-1067 = Skrev du fel e-postadress?
 # Displayed when we want to reference a user's previously set up recovery phone
 # number, but they are not completely signed in yet. We'll only show the last 4 digits.
 # Variables:
@@ -1315,6 +1291,8 @@ cookies-disabled-learn-more = Läs mer
 index-header = Ange din e-postadress
 index-sync-header = Fortsätt till ditt { -product-mozilla-account }
 index-sync-subheader = Synkronisera dina lösenord, flikar och bokmärken överallt där du använder { -brand-firefox }.
+index-relay-header = Skapa ett e-postalias
+index-relay-subheader = Ange e-postadressen dit du vill vidarebefordra e-postmeddelanden från din maskerade e-post.
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = Fortsätt till { $serviceName }
 index-subheader-with-logo = Fortsätt till <span>{ $serviceLogo }</span>
@@ -1323,6 +1301,10 @@ index-cta = Registrera dig eller logga in
 index-account-info = Ett { -product-mozilla-account } låser också upp åtkomsten till mer integritetsskyddande produkter från { -brand-mozilla }.
 index-email-input =
     .label = Ange din e-postadress
+# When users delete their Mozilla account inside account Settings, they are redirected to this page with a success message
+index-account-delete-success = Kontot har tagits bort
+# Displayed when users try to sign up for an account and their confirmation code email bounces
+index-email-bounced = Ditt bekräftelsemejl har just returnerats. Har du skrivit fel e-post?
 
 ## InlineRecoveryKeySetup page component
 
@@ -1752,6 +1734,11 @@ signin-recovery-phone-send-code-error-heading = Det gick inte att skicka en kod
 signin-recovery-phone-code-verification-error-heading = Det uppstod ett problem med att verifiera din kod
 # Follows the error message (e.g, "There was a problem sending a code")
 signin-recovery-phone-general-error-description = Försök igen senare.
+signin-recovery-phone-invalid-code-error-description = Koden är ogiltig eller har upphört.
+signin-recovery-phone-invalid-code-error-link = Använd reservautentiseringskoder istället?
+# "Limits" refers to potential restrictions on how often a recovery phone number can be used for signing in within a given time period.
+# If limits are reached, users may have to use an alternate two-step authentication method or wait until the restriction period is over.
+signin-recovery-phone-success-message = Inloggad. Begränsningar kan gälla om du använder din återställningstelefon igen.
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
