@@ -1225,11 +1225,14 @@ auth-error-1008 = Ο νέος κωδικός πρόσβασής σας πρέπ�
 auth-error-1010 = Απαιτείται έγκυρος κωδικός πρόσβασης
 auth-error-1011 = Απαιτείται έγκυρο email
 auth-error-1018 = Το email επιβεβαίωσής σας μόλις επιστράφηκε. Μήπως πληκτρολογήσατε λάθος email;
+auth-error-1020 = Εσφαλμένο email; Το firefox.com δεν είναι έγκυρη υπηρεσία email
 auth-error-1031 = Πρέπει να εισαγάγετε την ηλικία σας για εγγραφή
 auth-error-1032 = Πρέπει να εισαγάγετε μια έγκυρη ηλικία για εγγραφή
 auth-error-1054 = Μη έγκυρος κωδικός ταυτοποίησης δύο παραγόντων
 auth-error-1056 = Μη έγκυρος εφεδρικός κωδικός ταυτοποίησης
 auth-error-1062 = Μη έγκυρη ανακατεύθυνση
+# Shown when a user tries to sign up with an email address with a domain that doesn't receive emails
+auth-error-1064 = Εσφαλμένο email; Το { $domain } δεν είναι έγκυρη υπηρεσία email
 auth-error-1066 = Οι μάσκες email δεν μπορούν να χρησιμοποιηθούν για τη δημιουργία λογαριασμού.
 auth-error-1067 = Εσφαλμένο email;
 # Displayed when we want to reference a user's previously set up recovery phone
@@ -1290,6 +1293,7 @@ index-header = Εισαγάγετε το email σας
 index-sync-header = Συνέχεια στον { -product-mozilla-account(case: "acc", capitalization: "lower") } σας
 index-sync-subheader = Συγχρονίστε τους κωδικούς πρόσβασης, τις καρτέλες και τους σελιδοδείκτες σας οπουδήποτε χρησιμοποιείτε το { -brand-firefox }.
 index-relay-header = Δημιουργία μάσκας email
+index-relay-subheader = Εισαγάγετε τη διεύθυνση email όπου θα θέλατε να προωθούνται τα email από τη μάσκα email σας.
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = Συνέχεια στο { $serviceName }
 index-subheader-with-logo = Συνέχεια στο <span>{ $serviceLogo }</span>
@@ -1732,6 +1736,10 @@ signin-recovery-phone-code-verification-error-heading = Προέκυψε πρό�
 # Follows the error message (e.g, "There was a problem sending a code")
 signin-recovery-phone-general-error-description = Δοκιμάστε ξανά αργότερα.
 signin-recovery-phone-invalid-code-error-description = Ο κωδικός δεν είναι έγκυρος ή έχει λήξει.
+signin-recovery-phone-invalid-code-error-link = Χρήση εφεδρικών κωδικών ταυτοποίησης;
+# "Limits" refers to potential restrictions on how often a recovery phone number can be used for signing in within a given time period.
+# If limits are reached, users may have to use an alternate two-step authentication method or wait until the restriction period is over.
+signin-recovery-phone-success-message = Έγινε επιτυχής σύνδεση. Ενδέχεται να ισχύσουν περιορισμοί αν χρησιμοποιήσετε ξανά το τηλέφωνο ανάκτησής σας.
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
