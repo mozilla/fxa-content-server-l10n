@@ -11,7 +11,7 @@ recovery-phone-setup-sms-body = { $code } je váš ověřovací kód od { -brand
 # https://twiliodeved.github.io/message-segment-calculator/
 # Messages should be limited to one segment
 # $code  - 6 digit code used to verify phone ownership when registering a recovery phone
-recovery-phone-setup-sms-short-body = Ověřovací kód { -brand-mozilla(case: "gen") }: { $code }
+recovery-phone-setup-sms-short-body = Ověřovací kód { -brand-mozilla }: { $code }
 # Message sent by SMS with limited character length, please test translation with the messaging segment calculator
 # https://twiliodeved.github.io/message-segment-calculator/
 # Messages should be limited to one segment
