@@ -1712,6 +1712,9 @@ signin-recovery-phone-code-verification-error-heading = Kodunuz doğrulanırken 
 signin-recovery-phone-general-error-description = Lütfen daha sonra yeniden deneyin.
 signin-recovery-phone-invalid-code-error-description = Kod geçersiz veya süresi dolmuş.
 signin-recovery-phone-invalid-code-error-link = Bunun yerine yedek kimlik doğrulama kodları kullanılsın mı?
+# "Limits" refers to potential restrictions on how often a recovery phone number can be used for signing in within a given time period.
+# If limits are reached, users may have to use an alternate two-step authentication method or wait until the restriction period is over.
+signin-recovery-phone-success-message = Başarıyla giriş yapıldı. Kurtarma telefonunuzu tekrar kullanırsanız kısıtlamalar uygulanabilir.
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
