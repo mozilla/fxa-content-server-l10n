@@ -403,6 +403,7 @@ postChangePrimary-description-2 = Anda sukses mengubah surel utama Anda ke { $em
 postChangePrimary-action = Kelola akun
 postChangeRecoveryPhone-subject = Telepon pemulihan diperbarui
 postChangeRecoveryPhone-preview = Akun dilindungi oleh otentikasi dua langkah
+postChangeRecoveryPhone-title = Anda mengubah ponsel pemulihan Anda
 postChangeRecoveryPhone-description = Anda sekarang memiliki telepon pemulihan baru. Nomor telepon Anda sebelumnya telah dihapus.
 postConsumeRecoveryCode-title-2 = Anda menggunakan kode autentikasi cadangan
 # After the colon, there is description of the device that the backup authentication code was used on
@@ -414,6 +415,8 @@ postNewRecoveryCodes-title-2 = Anda membuat kode autentikasi cadangan baru
 # After the colon, there is information about the device that the authentication codes were created on
 postNewRecoveryCodes-description-2 = Kode dibuat pada:
 postNewRecoveryCodes-action = Kelola akun
+postRemoveAccountRecovery-subject-2 = Kunci pemulihan akun dihapus
+postRemoveAccountRecovery-title-3 = Anda menghapus kunci pemulihan akun Anda
 postRemoveAccountRecovery-action = Kelola akun
 postRemoveRecoveryPhone-subject = Telepon pemulihan dihapus
 postRemoveRecoveryPhone-preview = Akun dilindungi oleh otentikasi dua langkah
