@@ -405,6 +405,7 @@ postChangeRecoveryPhone-subject = Telepon pemulihan diperbarui
 postChangeRecoveryPhone-preview = Akun dilindungi oleh otentikasi dua langkah
 postChangeRecoveryPhone-title = Anda mengubah ponsel pemulihan Anda
 postChangeRecoveryPhone-description = Anda sekarang memiliki telepon pemulihan baru. Nomor telepon Anda sebelumnya telah dihapus.
+postChangeRecoveryPhone-requested-device = Anda memintanya dari:
 postConsumeRecoveryCode-title-2 = Anda menggunakan kode autentikasi cadangan
 # After the colon, there is description of the device that the backup authentication code was used on
 postConsumeRecoveryCode-description-2 = Itu digunakan pada:
@@ -417,6 +418,7 @@ postNewRecoveryCodes-description-2 = Kode dibuat pada:
 postNewRecoveryCodes-action = Kelola akun
 postRemoveAccountRecovery-subject-2 = Kunci pemulihan akun dihapus
 postRemoveAccountRecovery-title-3 = Anda menghapus kunci pemulihan akun Anda
+postRemoveAccountRecovery-body-part1 = Kunci pemulihan akun diperlukan untuk memulihkan data penjelajahan terenkripsi jika Anda lupa kata sandi.
 postRemoveAccountRecovery-action = Kelola akun
 postRemoveRecoveryPhone-subject = Telepon pemulihan dihapus
 postRemoveRecoveryPhone-preview = Akun dilindungi oleh otentikasi dua langkah
@@ -435,6 +437,7 @@ postRemoveTwoStepAuthentication-title-2 = Anda menonaktifkan autentikasi dua lan
 postRemoveTwoStepAuthentication-from-device = Anda menonaktifkannya dari:
 postRemoveTwoStepAuthentication-action = Kelola akun
 postRemoveTwoStepAuthentication-not-required-2 = Anda tidak lagi memerlukan kode keamanan dari aplikasi autentikasi saat masuk.
+postSigninRecoveryCode-subject = Cadangan kode autentikasi yang digunakan untuk masuk
 postSigninRecoveryCode-preview = Konfirmasi aktivitas akun
 postSigninRecoveryCode-title = Kode autentikasi cadangan Anda digunakan untuk masuk
 postSigninRecoveryCode-description = Jika Anda tidak melakukannya, Anda harus segera mengubah sandi untuk menjaga keamanan akun Anda.
@@ -477,12 +480,21 @@ subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminde
 subscriptionAccountReminderSecond-subject = Pengingat terakhir: Siapkan akun Anda
 subscriptionAccountReminderSecond-title-2 = Selamat datang di { -brand-mozilla }
 subscriptionAccountReminderSecond-content-info-3 = Beberapa hari yang lalu, Anda membuat { -product-mozilla-account }, tetapi belum mengonfirmasinya. Kami harap Anda dapat menyelesaikan penyiapan akun agar dapat menggunakan langganan baru Anda.
+subscriptionAccountReminderSecond-content-select-2 = Pilih “Buat Sandi” untuk menyiapkan sandi baru dan menyelesaikan konfirmasi akun Anda.
+subscriptionAccountReminderSecond-action = Buat Sandi
+subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionCancellation-subject = Langganan { $productName } Anda telah dibatalkan
 
 ## Variables
 ##   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 ##   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 ##   $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
 
+# Variables:
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionDowngrade-subject = Anda telah beralih ke { $productName }
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFailedPaymentsCancellation-subject = Langganan { $productName } Anda telah dibatalkan
