@@ -84,6 +84,30 @@ next-coupon-submit = Apliche
 
 # Component - Header
 
+payments-header-help =
+    .title = Jutori
+    .aria-label = Jutori
+    .alt = Aiût
+payments-header-bento =
+    .title = Prodots { -brand-mozilla }
+    .aria-label = Prodots { -brand-mozilla }
+    .alt = Logo { -brand-mozilla }
+payments-header-bento-close =
+    .alt = Siere
+payments-header-bento-tagline = Altris prodots di { -brand-mozilla } che a protezin la tô riservatece
+payments-header-bento-firefox-desktop = Navigadôr { -brand-firefox } par scritori
+payments-header-bento-firefox-mobile = Navigadôr { -brand-firefox } par dispositîfs mobii
+payments-header-bento-monitor = { -product-mozilla-monitor }
+payments-header-bento-firefox-relay = { -product-firefox-relay }
+payments-header-bento-vpn = { -product-mozilla-vpn }
+payments-header-bento-pocket = { -product-pocket }
+payments-header-bento-made-by-mozilla = Fat di { -brand-mozilla }
+payments-header-avatar =
+    .title = Menù { -product-mozilla-account }
+payments-header-avatar-icon =
+    .alt = Imagjin dal profîl pal account
+payments-header-avatar-expanded-signed-in-as = Acès fat come
+payments-header-avatar-expanded-sign-out = Disconet
 payments-client-loading-spinner =
     .aria-label = Daûr a cjariâ…
     .alt = Cjariament in cors…
