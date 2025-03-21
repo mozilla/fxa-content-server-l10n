@@ -87,6 +87,24 @@ next-coupon-submit = ასახვა
 
 # Component - Header
 
+payments-header-bento =
+    .title = { -brand-mozilla }-პროდუქტები
+    .aria-label = { -brand-mozilla }-პროდუქტები
+    .alt = { -brand-mozilla }-ლოგო
+payments-header-bento-close =
+    .alt = დახურვა
+payments-header-bento-tagline = სხვა არაერთი ნაწარმი, რომელსაც { -brand-mozilla } გთავაზობთ პირადულობის დასაცავად
+payments-header-bento-firefox-desktop = { -brand-firefox }-ბრაუზერი კომპიუტერისთვის
+payments-header-bento-firefox-mobile = { -brand-firefox }-ბრაუზერი მობილურისთვის
+payments-header-bento-monitor = { -product-mozilla-monitor }
+payments-header-bento-firefox-relay = { -product-firefox-relay }
+payments-header-bento-vpn = { -product-mozilla-vpn }
+payments-header-bento-pocket = { -product-pocket }
+payments-header-bento-made-by-mozilla = ქმნის { -brand-mozilla }
+payments-header-avatar-icon =
+    .alt = ანგარიშის ახალი სურათი
+payments-header-avatar-expanded-signed-in-as = შესული ხართ, როგორც
+payments-header-avatar-expanded-sign-out = გამოსვლა
 payments-client-loading-spinner =
     .aria-label = იტვირთება…
     .alt = იტვირთება…

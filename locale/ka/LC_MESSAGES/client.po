@@ -262,7 +262,7 @@ msgstr "მისამართები"
 
 #: .es5/models/sync-engines.js:82
 msgid "Payment Methods"
-msgstr ""
+msgstr "გადახდის საშუალებები"
 
 #: .es5/models/reliers/browser.js:68
 msgid "Firefox"
