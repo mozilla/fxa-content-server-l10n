@@ -100,7 +100,7 @@ payment-confirmation-download-button = Continue par discjariâ
 
 ## Component - PaymentConsentCheckbox
 
-payment-confirm-with-legal-links-static-3 = O autorizi { -brand-mozilla } a contizâ l’impuart visualizât doprant il metodi di paiament che o ai sielt, in base aes <termsOfServiceLink>cundizions di utilizazion dal servizi</termsOfServiceLink> e ae<privacyNoticeLink>informative su la riservatece</privacyNoticeLink>, fintant che no anularai il gno abonament.
+payment-confirm-with-legal-links-static-3 = O autorizi { -brand-mozilla } a contizâ l’impuart visualizât doprant il metodi di paiament che o ai sielt, in base aes <termsOfServiceLink>cundizions di utilizazion dal servizi</termsOfServiceLink> e ae <privacyNoticeLink>informative su la riservatece</privacyNoticeLink>, fintant che no anularai il gno abonament.
 payment-confirm-checkbox-error = Tu scugnis completâ cheste operazion prime di procedi
 
 ## Component - PaymentErrorView
@@ -431,9 +431,6 @@ sub-update-new-plan-daily = { $productName } (al dì)
 sub-update-new-plan-weekly = { $productName } (ae setemane)
 sub-update-new-plan-monthly = { $productName } (al mês)
 sub-update-new-plan-yearly = { $productName } (al an)
-
-##
-
 
 ## Routes - Subscriptions - Cancel
 
