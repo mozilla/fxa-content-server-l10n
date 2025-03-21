@@ -85,9 +85,9 @@ next-coupon-submit = Applica
 # Component - Header
 
 payments-header-help =
-    .title = Aiuto
-    .aria-label = Aiuto
-    .alt = Aiuto
+    .title = Assistenza
+    .aria-label = Assistenza
+    .alt = Assistenza
 payments-header-bento =
     .title = Prodotti { -brand-mozilla }
     .aria-label = Prodotti { -brand-mozilla }
