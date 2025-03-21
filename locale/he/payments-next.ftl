@@ -82,6 +82,30 @@ next-coupon-submit = החלה
 
 # Component - Header
 
+payments-header-help =
+    .title = עזרה
+    .aria-label = עזרה
+    .alt = עזרה
+payments-header-bento =
+    .title = מוצרי { -brand-mozilla }
+    .aria-label = מוצרי { -brand-mozilla }
+    .alt = הסמל של { -brand-mozilla }
+payments-header-bento-close =
+    .alt = סגירה
+payments-header-bento-tagline = מוצרים נוספים מ־{ -brand-mozilla } שמגנים על הפרטיות שלך
+payments-header-bento-firefox-desktop = דפדפן ‏{ -brand-firefox } למחשבים שולחניים
+payments-header-bento-firefox-mobile = דפדפן ‏{ -brand-firefox } לטלפונים ניידים
+payments-header-bento-monitor = { -product-mozilla-monitor }
+payments-header-bento-firefox-relay = { -product-firefox-relay }
+payments-header-bento-vpn = { -product-mozilla-vpn }
+payments-header-bento-pocket = { -product-pocket }
+payments-header-bento-made-by-mozilla = נוצר על־ידי { -brand-mozilla }
+payments-header-avatar =
+    .title = תפריט { -product-mozilla-account(case: "a") }
+payments-header-avatar-icon =
+    .alt = תמונת פרופיל חשבון
+payments-header-avatar-expanded-signed-in-as = מחובר בתור
+payments-header-avatar-expanded-sign-out = התנתקות
 payments-client-loading-spinner =
     .aria-label = בטעינה…
     .alt = בטעינה…

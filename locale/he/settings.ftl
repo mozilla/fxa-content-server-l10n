@@ -990,6 +990,8 @@ tfa-row-backup-phone-add-cta = הוספה
 tfa-row-backup-phone-delete-button = הסרה
 # Shown in tooltip on delete button or delete icon
 tfa-row-backup-phone-delete-title-v2 = הסרת טלפון לשחזור
+# "this" refers to recovery phone
+tfa-row-backup-phone-description-v2 = זוהי שיטת השחזור הקלה ביותר אם אין באפשרותך להשתמש ביישומון המאמת שלך.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
@@ -1216,6 +1218,7 @@ index-header = נא להכניס את כתובת הדוא״ל שלך
 index-sync-header = המשך אל { -product-mozilla-account(case: "the") } שלך
 index-sync-subheader = סנכרון הססמאות, הלשוניות פתוחות והסימניות שלך בכל מקום בו יש לך את { -brand-firefox }.
 index-relay-header = יצירת מסיכת דוא״ל
+index-relay-subheader = נא לספק את כתובת הדוא״ל שאליה ברצונך להעביר הודעות דוא״ל מהדוא״ל המסוכה שלך.
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = המשך אל { $serviceName }
 index-subheader-with-logo = המשך אל <span>{ $serviceLogo }</span>
@@ -1224,6 +1227,10 @@ index-cta = הרשמה או התחברות
 index-account-info = { -product-mozilla-account(case: "a") } גם פותח גישה למוצרים נוספים המגנים על הפרטיות, מבית { -brand-mozilla }.
 index-email-input =
     .label = נא להכניס את כתובת הדוא״ל שלך
+# When users delete their Mozilla account inside account Settings, they are redirected to this page with a success message
+index-account-delete-success = החשבון נמחק בהצלחה
+# Displayed when users try to sign up for an account and their confirmation code email bounces
+index-email-bounced = הודעת האימות שלך לא הגיעה ליעדה. האם כתובת הדוא״ל הוקלדה בצורה שגויה?
 
 ## InlineRecoveryKeySetup page component
 
