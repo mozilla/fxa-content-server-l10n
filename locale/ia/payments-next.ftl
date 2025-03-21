@@ -84,6 +84,14 @@ next-coupon-submit = Applicar
 
 # Component - Header
 
+payments-header-help =
+    .title = Adjuta
+    .aria-label = Adjuta
+    .alt = Adjuta
+payments-header-bento =
+    .title = Productos { -brand-mozilla }
+    .aria-label = Productos { -brand-mozilla }
+    .alt = Logo { -brand-mozilla }
 payments-header-bento-close =
     .alt = Clauder
 payments-header-bento-tagline = Altere productos { -brand-mozilla } que protege tu confidentialitate
