@@ -84,6 +84,30 @@ next-coupon-submit = Uygula
 
 # Component - Header
 
+payments-header-help =
+    .title = Yardım
+    .aria-label = Yardım
+    .alt = Yardım
+payments-header-bento =
+    .title = { -brand-mozilla } ürünleri
+    .aria-label = { -brand-mozilla } ürünleri
+    .alt = { -brand-mozilla } logosu
+payments-header-bento-close =
+    .alt = Kapat
+payments-header-bento-tagline = Gizliliğinizi koruyan diğer { -brand-mozilla } ürünleri
+payments-header-bento-firefox-desktop = Bilgisayarlar için { -brand-firefox } tarayıcısı
+payments-header-bento-firefox-mobile = Mobil cihazlar için { -brand-firefox } tarayıcısı
+payments-header-bento-monitor = { -product-mozilla-monitor }
+payments-header-bento-firefox-relay = { -product-firefox-relay }
+payments-header-bento-vpn = { -product-mozilla-vpn }
+payments-header-bento-pocket = { -product-pocket }
+payments-header-bento-made-by-mozilla = { -brand-mozilla } güvencesiyle
+payments-header-avatar =
+    .title = { -product-mozilla-account } menüsü
+payments-header-avatar-icon =
+    .alt = Hesap profil resmi
+payments-header-avatar-expanded-signed-in-as = Giriş yapan kullanıcı
+payments-header-avatar-expanded-sign-out = Çıkış yap
 payments-client-loading-spinner =
     .aria-label = Yükleniyor…
     .alt = Yükleniyor…
