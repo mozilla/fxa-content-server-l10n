@@ -84,6 +84,30 @@ next-coupon-submit = Gosod
 
 # Component - Header
 
+payments-header-help =
+    .title = Cymorth
+    .aria-label = Cymorth
+    .alt = Cymorth
+payments-header-bento =
+    .title = Cynnyrch { -brand-mozilla }
+    .aria-label = Cynnyrch { -brand-mozilla }
+    .alt = { -brand-mozilla } Logo
+payments-header-bento-close =
+    .alt = Cau
+payments-header-bento-tagline = Rhagor o gynnyrch { -brand-mozilla } sy'n diogelu'ch preifatrwydd
+payments-header-bento-firefox-desktop = Porwr { -brand-firefox } ar gyfer y Bwrdd Gwaith
+payments-header-bento-firefox-mobile = Porwr { -brand-firefox } ar gyfer Symudol
+payments-header-bento-monitor = { -product-mozilla-monitor }
+payments-header-bento-firefox-relay = { -product-firefox-relay }
+payments-header-bento-vpn = { -product-mozilla-vpn }
+payments-header-bento-pocket = { -product-pocket }
+payments-header-bento-made-by-mozilla = Wedi'i wneud gan { -brand-mozilla }
+payments-header-avatar =
+    .title = Dewislen cyfrif { -product-mozilla-account }
+payments-header-avatar-icon =
+    .alt = Llun proffil cyfrif
+payments-header-avatar-expanded-signed-in-as = Mewngofnodwyd fel
+payments-header-avatar-expanded-sign-out = Allgofnodi
 payments-client-loading-spinner =
     .aria-label = Yn Llwytho…
     .alt = Yn Llwytho…

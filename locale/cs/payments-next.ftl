@@ -84,6 +84,30 @@ next-coupon-submit = Použít
 
 # Component - Header
 
+payments-header-help =
+    .title = Nápověda
+    .aria-label = Nápověda
+    .alt = Nápověda
+payments-header-bento =
+    .title = produkty { -brand-mozilla(case: "gen") }
+    .aria-label = produkty { -brand-mozilla(case: "gen") }
+    .alt = Logo { -brand-mozilla }
+payments-header-bento-close =
+    .alt = Zavřít
+payments-header-bento-tagline = Další produkty od { -brand-mozilla(case: "gen") }, které chrání vaše soukromí
+payments-header-bento-firefox-desktop = Prohlížeč { -brand-firefox } pro počítač
+payments-header-bento-firefox-mobile = Prohlížeč { -brand-firefox } pro mobily
+payments-header-bento-monitor = { -product-mozilla-monitor }
+payments-header-bento-firefox-relay = { -product-firefox-relay }
+payments-header-bento-vpn = { -product-mozilla-vpn }
+payments-header-bento-pocket = { -product-pocket }
+payments-header-bento-made-by-mozilla = Od { -brand-mozilla(case: "gen") }
+payments-header-avatar =
+    .title = Nabídka { -product-mozilla-account(case: "gen", capitalization: "lower") }
+payments-header-avatar-icon =
+    .alt = Profilový obrázek účtu
+payments-header-avatar-expanded-signed-in-as = Přihlášen(a) jako
+payments-header-avatar-expanded-sign-out = Odhlásit se
 payments-client-loading-spinner =
     .aria-label = Načítání…
     .alt = Načítání…

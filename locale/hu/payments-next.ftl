@@ -86,6 +86,30 @@ next-coupon-submit = Alkalmaz
 
 # Component - Header
 
+payments-header-help =
+    .title = Súgó
+    .aria-label = Súgó
+    .alt = Súgó
+payments-header-bento =
+    .title = { -brand-mozilla } termékek
+    .aria-label = { -brand-mozilla } termékek
+    .alt = { -brand-mozilla } logó
+payments-header-bento-close =
+    .alt = Bezárás
+payments-header-bento-tagline = A { -brand-mozilla } további termékei, amelyek védik a magánszféráját
+payments-header-bento-firefox-desktop = { -brand-firefox } asztali böngésző
+payments-header-bento-firefox-mobile = { -brand-firefox } mobilböngésző
+payments-header-bento-monitor = { -product-mozilla-monitor }
+payments-header-bento-firefox-relay = { -product-firefox-relay }
+payments-header-bento-vpn = { -product-mozilla-vpn }
+payments-header-bento-pocket = { -product-pocket }
+payments-header-bento-made-by-mozilla = A { -brand-mozilla } készítette
+payments-header-avatar =
+    .title = { -product-mozilla-account } menü
+payments-header-avatar-icon =
+    .alt = Fiók profilképe
+payments-header-avatar-expanded-signed-in-as = Bejelentkezve mint
+payments-header-avatar-expanded-sign-out = Kijelentkezés
 payments-client-loading-spinner =
     .aria-label = Betöltés…
     .alt = Betöltés…

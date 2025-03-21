@@ -84,6 +84,30 @@ next-coupon-submit = Uveljavi
 
 # Component - Header
 
+payments-header-help =
+    .title = Pomoč
+    .aria-label = Pomoč
+    .alt = Pomoč
+payments-header-bento =
+    .title = Izdelki { -brand-mozilla }
+    .aria-label = Izdelki { -brand-mozilla }
+    .alt = Logotip { -brand-mozilla(sklon: "rodilnik") }
+payments-header-bento-close =
+    .alt = Zapri
+payments-header-bento-tagline = Več izdelkov { -brand-mozilla(sklon: "rodilnik") }, ki varujejo vašo zasebnost
+payments-header-bento-firefox-desktop = Brskalnik { -brand-firefox } za namizja
+payments-header-bento-firefox-mobile = Mobilni brskalnik { -brand-firefox }
+payments-header-bento-monitor = { -product-mozilla-monitor }
+payments-header-bento-firefox-relay = { -product-firefox-relay }
+payments-header-bento-vpn = { -product-mozilla-vpn }
+payments-header-bento-pocket = { -product-pocket }
+payments-header-bento-made-by-mozilla = Izpod rok { -brand-mozilla(sklon: "rodilnik") }
+payments-header-avatar =
+    .title = Meni { -product-mozilla-account(sklon: "rodilnik") }
+payments-header-avatar-icon =
+    .alt = Profilna slika računa
+payments-header-avatar-expanded-signed-in-as = Prijavljen kot
+payments-header-avatar-expanded-sign-out = Odjava
 payments-client-loading-spinner =
     .aria-label = Nalaganje …
     .alt = Nalaganje …
