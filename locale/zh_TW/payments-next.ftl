@@ -84,6 +84,30 @@ next-coupon-submit = 套用
 
 # Component - Header
 
+payments-header-help =
+    .title = 說明
+    .aria-label = 說明
+    .alt = 說明
+payments-header-bento =
+    .title = { -brand-mozilla } 產品
+    .aria-label = { -brand-mozilla } 產品
+    .alt = { -brand-mozilla } 圖示
+payments-header-bento-close =
+    .alt = 關閉
+payments-header-bento-tagline = { -brand-mozilla } 更多會保護您隱私的產品
+payments-header-bento-firefox-desktop = { -brand-firefox } 瀏覽器桌面版
+payments-header-bento-firefox-mobile = { -brand-firefox } 瀏覽器行動版
+payments-header-bento-monitor = { -product-mozilla-monitor }
+payments-header-bento-firefox-relay = { -product-firefox-relay }
+payments-header-bento-vpn = { -product-mozilla-vpn }
+payments-header-bento-pocket = { -product-pocket }
+payments-header-bento-made-by-mozilla = 由 { -brand-mozilla } 打造
+payments-header-avatar =
+    .title = { -product-mozilla-account } 選單
+payments-header-avatar-icon =
+    .alt = 帳號個人資料照片
+payments-header-avatar-expanded-signed-in-as = 已登入為
+payments-header-avatar-expanded-sign-out = 登出
 payments-client-loading-spinner =
     .aria-label = 載入中…
     .alt = 載入中…
