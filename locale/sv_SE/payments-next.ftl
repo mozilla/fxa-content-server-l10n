@@ -81,6 +81,9 @@ next-coupon-promo-code = Kampanjkod
 next-coupon-promo-code-applied = Kampanjkod tillämpas
 next-coupon-remove = Ta bort
 next-coupon-submit = Tillämpa
+
+# Component - Header
+
 payments-client-loading-spinner =
     .aria-label = Laddar…
     .alt = Laddar…

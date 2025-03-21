@@ -81,6 +81,9 @@ next-coupon-promo-code = Rabatkode
 next-coupon-promo-code-applied = Rabatkode anvendt
 next-coupon-remove = Fjern
 next-coupon-submit = Anvend
+
+# Component - Header
+
 payments-client-loading-spinner =
     .aria-label = Indlæser…
     .alt = Indlæser…

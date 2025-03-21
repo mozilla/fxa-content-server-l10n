@@ -81,6 +81,9 @@ next-coupon-promo-code = Promo kód
 next-coupon-promo-code-applied = Promo kód byl použit
 next-coupon-remove = Odebrat
 next-coupon-submit = Použít
+
+# Component - Header
+
 payments-client-loading-spinner =
     .aria-label = Načítání…
     .alt = Načítání…

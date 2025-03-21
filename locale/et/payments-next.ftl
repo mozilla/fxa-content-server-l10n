@@ -52,6 +52,9 @@ next-coupon-enter-code =
 next-coupon-remove = Eemalda
 next-coupon-submit = Rakenda
 
+# Component - Header
+
+
 ## Payment Section
 
 next-new-user-card-title = Sisesta oma kaardi andmed

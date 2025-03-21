@@ -75,6 +75,9 @@ next-coupon-promo-code = Ayvu ñemoherakuãgua
 next-coupon-promo-code-applied = Ayvu ñemoherakuãgua japopyre
 next-coupon-remove = Mboguete
 next-coupon-submit = Jejapopy
+
+# Component - Header
+
 payments-client-loading-spinner =
     .aria-label = Henyhẽhína…
     .alt = Henyhẽhína…

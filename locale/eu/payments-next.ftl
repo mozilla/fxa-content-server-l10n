@@ -78,6 +78,9 @@ next-coupon-promo-code = Sustapen kodea
 next-coupon-promo-code-applied = Promozio kodea aplikatuta
 next-coupon-remove = Kendu
 next-coupon-submit = Aplikatu
+
+# Component - Header
+
 payments-client-loading-spinner =
     .aria-label = Kargatzen…
     .alt = Kargatzen…

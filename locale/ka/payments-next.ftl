@@ -84,6 +84,9 @@ next-coupon-promo-code = ფასდაკლების კოდი
 next-coupon-promo-code-applied = ფასდაკლების კოდის ასახულია
 next-coupon-remove = მოცილება
 next-coupon-submit = ასახვა
+
+# Component - Header
+
 payments-client-loading-spinner =
     .aria-label = იტვირთება…
     .alt = იტვირთება…

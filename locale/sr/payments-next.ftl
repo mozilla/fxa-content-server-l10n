@@ -61,6 +61,9 @@ next-coupon-promo-code-applied = Промотивни код је примење
 next-coupon-remove = Уклони
 next-coupon-submit = Примени
 
+# Component - Header
+
+
 ## Payment Section
 
 next-new-user-card-title = Унесите податке са картице

@@ -81,6 +81,9 @@ next-coupon-promo-code = Codiç promozionâl
 next-coupon-promo-code-applied = Codiç promozionâl aplicât
 next-coupon-remove = Gjave
 next-coupon-submit = Apliche
+
+# Component - Header
+
 payments-client-loading-spinner =
     .aria-label = Daûr a cjariâ…
     .alt = Cjariament in cors…

@@ -79,6 +79,9 @@ next-coupon-promo-code = קוד קופון
 next-coupon-promo-code-applied = קוד הקופון הוחל
 next-coupon-remove = הסרה
 next-coupon-submit = החלה
+
+# Component - Header
+
 payments-client-loading-spinner =
     .aria-label = בטעינה…
     .alt = בטעינה…

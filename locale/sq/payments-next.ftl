@@ -78,6 +78,9 @@ next-coupon-promo-code = Kod Promocional
 next-coupon-promo-code-applied = U aplikua Kod Promocional
 next-coupon-remove = Hiqe
 next-coupon-submit = Zbatoje
+
+# Component - Header
+
 payments-client-loading-spinner =
     .aria-label = Po ngarkohet…
     .alt = Po ngarkohet…

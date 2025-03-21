@@ -78,6 +78,9 @@ next-coupon-promo-code = Promo Code
 next-coupon-promo-code-applied = Promo Code Applied
 next-coupon-remove = Remove
 next-coupon-submit = Apply
+
+# Component - Header
+
 payments-client-loading-spinner =
     .aria-label = Loading…
     .alt = Loading…

@@ -58,6 +58,9 @@ next-coupon-promo-code = Rabattkode
 next-coupon-remove = Fjern
 next-coupon-submit = Bruk
 
+# Component - Header
+
+
 ## Payment Section
 
 

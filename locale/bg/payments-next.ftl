@@ -44,6 +44,9 @@ next-coupon-enter-code =
 next-coupon-remove = Премахване
 next-coupon-submit = Прилагане
 
+# Component - Header
+
+
 ## Payment Section
 
 

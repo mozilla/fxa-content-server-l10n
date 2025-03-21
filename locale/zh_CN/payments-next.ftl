@@ -81,6 +81,9 @@ next-coupon-promo-code = 折扣码
 next-coupon-promo-code-applied = 已应用折扣码
 next-coupon-remove = 移除
 next-coupon-submit = 应用
+
+# Component - Header
+
 payments-client-loading-spinner =
     .aria-label = 正在加载…
     .alt = 正在加载…

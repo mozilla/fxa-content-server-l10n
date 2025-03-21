@@ -78,6 +78,9 @@ next-coupon-promo-code = Code da promoziun
 next-coupon-promo-code-applied = Applitgà il code da promoziun
 next-coupon-remove = Allontanar
 next-coupon-submit = Applitgar
+
+# Component - Header
+
 payments-client-loading-spinner =
     .aria-label = Chargiar…
     .alt = Chargiar…

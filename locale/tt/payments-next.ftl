@@ -58,6 +58,9 @@ next-coupon-promo-code-applied = Промо-код кулланылды
 next-coupon-remove = Бетерү
 next-coupon-submit = Куллану
 
+# Component - Header
+
+
 ## Payment Section
 
 next-new-user-card-title = Кредит картагызның язуларын кертегез

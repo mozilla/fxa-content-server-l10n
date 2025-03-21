@@ -56,6 +56,9 @@ next-coupon-promo-code = Tangalt promo
 next-coupon-remove = Kkes
 next-coupon-submit = Snes
 
+# Component - Header
+
+
 ## Payment Section
 
 next-new-user-card-title = Sekcem talɣut-ik·im n yimayl

@@ -81,6 +81,9 @@ next-coupon-promo-code = Promosyon kodu
 next-coupon-promo-code-applied = Promosyon kodu uygulandı
 next-coupon-remove = Kaldır
 next-coupon-submit = Uygula
+
+# Component - Header
+
 payments-client-loading-spinner =
     .aria-label = Yükleniyor…
     .alt = Yükleniyor…

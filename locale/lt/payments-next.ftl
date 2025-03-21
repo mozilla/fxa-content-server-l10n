@@ -34,6 +34,9 @@ next-payment-confirmation-download-button = Pereiti prie atsisiuntimo
 ## Component - CouponForm
 
 
+# Component - Header
+
+
 ## Payment Section
 
 

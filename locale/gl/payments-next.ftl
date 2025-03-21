@@ -39,6 +39,9 @@ next-payment-validate-name-error = Escriba o seu nome.
 ## Component - CouponForm
 
 
+# Component - Header
+
+
 ## Payment Section
 
 

@@ -81,6 +81,9 @@ next-coupon-promo-code = Promoasjekoade
 next-coupon-promo-code-applied = Promoasjekoade tapast
 next-coupon-remove = Fuortsmite
 next-coupon-submit = Tapasse
+
+# Component - Header
+
 payments-client-loading-spinner =
     .aria-label = Lade…
     .alt = Lade…

@@ -75,6 +75,9 @@ next-coupon-promo-code = Kod kupona
 next-coupon-promo-code-applied = Kod kupona primjenjen
 next-coupon-remove = Ukloni
 next-coupon-submit = Primijeni
+
+# Component - Header
+
 payments-client-loading-spinner =
     .aria-label = Učitavanje …
     .alt = Učitavanje …

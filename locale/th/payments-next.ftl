@@ -63,6 +63,9 @@ next-coupon-promo-code-applied = ใช้รหัสโปรโมชั่�
 next-coupon-remove = เอาออก
 next-coupon-submit = นำไปใช้
 
+# Component - Header
+
+
 ## Payment Section
 
 next-new-user-card-title = ใส่ข้อมูลบัตรของคุณ

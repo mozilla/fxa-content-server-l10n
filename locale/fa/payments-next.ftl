@@ -44,6 +44,9 @@ payment-name-placeholder = نام کامل
 next-coupon-remove = برداشتن
 next-coupon-submit = اعمال
 
+# Component - Header
+
+
 ## Payment Section
 
 next-new-user-card-title = اطلاعات کارت خود را وارد کنید

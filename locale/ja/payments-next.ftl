@@ -73,6 +73,9 @@ next-coupon-promo-code = プロモーションコード
 next-coupon-promo-code-applied = プロモーションコードが適用されました
 next-coupon-remove = 削除
 next-coupon-submit = 適用
+
+# Component - Header
+
 payments-client-loading-spinner =
     .aria-label = 読み込み中...
     .alt = 読み込み中...

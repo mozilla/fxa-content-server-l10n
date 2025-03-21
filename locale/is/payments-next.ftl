@@ -76,6 +76,9 @@ next-coupon-promo-code = Kynningarkóði
 next-coupon-promo-code-applied = Kynningarkóði notaður
 next-coupon-remove = Fjarlægja
 next-coupon-submit = Virkja
+
+# Component - Header
+
 payments-client-loading-spinner =
     .aria-label = Hleður…
     .alt = Hleður…

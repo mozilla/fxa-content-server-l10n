@@ -35,6 +35,9 @@ next-payment-processing-message = Espera mentanto procesamos el pagu…
 ## Component - CouponForm
 
 
+# Component - Header
+
+
 ## Payment Section
 
 

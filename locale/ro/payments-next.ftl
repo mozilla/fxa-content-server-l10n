@@ -41,6 +41,9 @@ next-payment-validate-name-error = Te rugăm să îți introduci numele
 ## Component - CouponForm
 
 
+# Component - Header
+
+
 ## Payment Section
 
 

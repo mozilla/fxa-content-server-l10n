@@ -81,6 +81,9 @@ next-coupon-promo-code = Promocijska koda
 next-coupon-promo-code-applied = Promocijska koda uveljavljena
 next-coupon-remove = Odstrani
 next-coupon-submit = Uveljavi
+
+# Component - Header
+
 payments-client-loading-spinner =
     .aria-label = Nalaganje …
     .alt = Nalaganje …

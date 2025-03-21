@@ -50,6 +50,9 @@ next-coupon-promo-code = Рамзи таблиғотӣ
 next-coupon-promo-code-applied = Рамзи таблиғотӣ татбиқ карда шуд
 next-coupon-remove = Тоза кардан
 next-coupon-submit = Татбиқ кардан
+
+# Component - Header
+
 payments-client-loading-spinner =
     .aria-label = Бор шуда истодааст…
     .alt = Бор шуда истодааст…

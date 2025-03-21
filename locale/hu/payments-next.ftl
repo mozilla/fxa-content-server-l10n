@@ -83,6 +83,9 @@ next-coupon-promo-code = Promóciós kód
 next-coupon-promo-code-applied = Promóciós kód alkalmazva
 next-coupon-remove = Eltávolítás
 next-coupon-submit = Alkalmaz
+
+# Component - Header
+
 payments-client-loading-spinner =
     .aria-label = Betöltés…
     .alt = Betöltés…

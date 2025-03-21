@@ -50,6 +50,9 @@ next-coupon-enter-code =
 next-coupon-remove = Tiyuj
 next-coupon-submit = Tisamajïx
 
+# Component - Header
+
+
 ## Payment Section
 
 

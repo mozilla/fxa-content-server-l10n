@@ -81,6 +81,9 @@ next-coupon-promo-code = Cod Hyrwyddo
 next-coupon-promo-code-applied = Cod Hyrwyddo wedi'i Osod
 next-coupon-remove = Tynnu
 next-coupon-submit = Gosod
+
+# Component - Header
+
 payments-client-loading-spinner =
     .aria-label = Yn Llwytho…
     .alt = Yn Llwytho…

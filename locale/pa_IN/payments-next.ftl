@@ -71,6 +71,9 @@ next-coupon-promo-code = ਪਰਚਾਰ ਕੋਡ
 next-coupon-promo-code-applied = ਪ੍ਰੋਮੋ ਕੋਡ ਲਾਗੂ ਕੀਤਾ
 next-coupon-remove = ਹਟਾਓ
 next-coupon-submit = ਲਾਗੂ ਕਰੋ
+
+# Component - Header
+
 payments-client-loading-spinner =
     .aria-label = …ਲੋਡ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ
     .alt = …ਲੋਡ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ

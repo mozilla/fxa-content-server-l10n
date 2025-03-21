@@ -81,6 +81,9 @@ next-coupon-promo-code = Κωδικός προσφοράς
 next-coupon-promo-code-applied = Εφαρμόστηκε κωδικός προσφοράς
 next-coupon-remove = Αφαίρεση
 next-coupon-submit = Εφαρμογή
+
+# Component - Header
+
 payments-client-loading-spinner =
     .aria-label = Φόρτωση…
     .alt = Φόρτωση…

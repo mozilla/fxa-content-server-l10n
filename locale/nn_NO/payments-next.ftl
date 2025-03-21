@@ -79,6 +79,9 @@ next-coupon-promo-code = Kampanjekode
 next-coupon-promo-code-applied = Kampanjekode brukt
 next-coupon-remove = Fjern
 next-coupon-submit = Bruk
+
+# Component - Header
+
 payments-client-loading-spinner =
     .aria-label = Lastar…
     .alt = Lastar…

@@ -60,6 +60,9 @@ next-coupon-enter-code =
     .placeholder = സങ്കേതം നല്കുക
 next-coupon-remove = മാറ്റുക
 next-coupon-submit = പ്രയോഗിക്കുക
+
+# Component - Header
+
 payments-client-loading-spinner =
     .aria-label = ലഭ്യമാക്കുന്നു…
     .alt = ലഭ്യമാക്കുന്നു…

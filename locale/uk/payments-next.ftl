@@ -62,6 +62,9 @@ next-coupon-promo-code-applied = Промокод застосовано
 next-coupon-remove = Вилучити
 next-coupon-submit = Застосувати
 
+# Component - Header
+
+
 ## Payment Section
 
 next-new-user-card-title = Введіть дані своєї картки

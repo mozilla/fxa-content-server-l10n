@@ -62,6 +62,9 @@ next-coupon-promo-code-applied = 프로모션 코드 적용됨
 next-coupon-remove = 삭제
 next-coupon-submit = 적용
 
+# Component - Header
+
+
 ## Payment Section
 
 next-new-user-card-title = 카드 정보를 입력하세요.

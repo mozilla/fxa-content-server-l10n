@@ -81,6 +81,9 @@ next-coupon-promo-code = Mã khuyến mãi
 next-coupon-promo-code-applied = Đã áp dụng mã khuyến mãi
 next-coupon-remove = Xóa
 next-coupon-submit = Áp dụng
+
+# Component - Header
+
 payments-client-loading-spinner =
     .aria-label = Đang tải…
     .alt = Đang tải…

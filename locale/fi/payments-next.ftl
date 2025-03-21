@@ -78,6 +78,9 @@ next-coupon-promo-code = Tarjouskoodi
 next-coupon-promo-code-applied = Tarjouskoodi sovellettu
 next-coupon-remove = Poista
 next-coupon-submit = Käytä
+
+# Component - Header
+
 payments-client-loading-spinner =
     .aria-label = Ladataan…
     .alt = Ladataan…

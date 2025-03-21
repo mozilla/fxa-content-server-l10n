@@ -78,6 +78,9 @@ next-coupon-promo-code = Còdici prumuzziunali
 next-coupon-promo-code-applied = Còdici prumuzziunali usatu
 next-coupon-remove = Leva
 next-coupon-submit = Riggistra
+
+# Component - Header
+
 payments-client-loading-spinner =
     .aria-label = Staju carricannu…
     .alt = Staju carricannu…

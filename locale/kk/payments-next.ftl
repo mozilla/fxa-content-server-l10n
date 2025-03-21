@@ -62,6 +62,9 @@ next-coupon-promo-code = Промокод
 next-coupon-promo-code-applied = Промокоды іске асырылды
 next-coupon-remove = Өшіру
 next-coupon-submit = Іске асыру
+
+# Component - Header
+
 payments-client-loading-spinner =
     .aria-label = Жүктелуде…
     .alt = Жүктелуде…

@@ -61,6 +61,9 @@ next-coupon-promo-code-applied = Прамакод ужыты
 next-coupon-remove = Выдаліць
 next-coupon-submit = Прымяніць
 
+# Component - Header
+
+
 ## Payment Section
 
 next-new-user-card-title = Увядзіце даныя вашай карты

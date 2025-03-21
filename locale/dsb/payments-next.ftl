@@ -84,6 +84,9 @@ next-coupon-promo-code = Akciski kod
 next-coupon-promo-code-applied = Akciski kod nałoženy
 next-coupon-remove = Wótwónoźeś
 next-coupon-submit = Nałožyś
+
+# Component - Header
+
 payments-client-loading-spinner =
     .aria-label = Zacytujo se…
     .alt = Zacytujo se…
