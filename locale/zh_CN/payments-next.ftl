@@ -84,6 +84,30 @@ next-coupon-submit = 应用
 
 # Component - Header
 
+payments-header-help =
+    .title = 帮助
+    .aria-label = 帮助
+    .alt = 帮助
+payments-header-bento =
+    .title = { -brand-mozilla } 产品
+    .aria-label = { -brand-mozilla } 产品
+    .alt = { -brand-mozilla } 徽标
+payments-header-bento-close =
+    .alt = 关闭
+payments-header-bento-tagline = { -brand-mozilla } 的更多保护您隐私的产品。
+payments-header-bento-firefox-desktop = { -brand-firefox } 桌面浏览器
+payments-header-bento-firefox-mobile = { -brand-firefox } 移动浏览器
+payments-header-bento-monitor = { -product-mozilla-monitor }
+payments-header-bento-firefox-relay = { -product-firefox-relay }
+payments-header-bento-vpn = { -product-mozilla-vpn }
+payments-header-bento-pocket = { -product-pocket }
+payments-header-bento-made-by-mozilla = { -brand-mozilla } 出品
+payments-header-avatar =
+    .title = { -product-mozilla-account } 菜单
+payments-header-avatar-icon =
+    .alt = 账户头像
+payments-header-avatar-expanded-signed-in-as = 已登录
+payments-header-avatar-expanded-sign-out = 退出
 payments-client-loading-spinner =
     .aria-label = 正在加载…
     .alt = 正在加载…
