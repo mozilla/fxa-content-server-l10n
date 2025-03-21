@@ -84,6 +84,22 @@ next-coupon-submit = Applicar
 
 # Component - Header
 
+payments-header-bento-close =
+    .alt = Clauder
+payments-header-bento-tagline = Altere productos { -brand-mozilla } que protege tu confidentialitate
+payments-header-bento-firefox-desktop = Navigator { -brand-firefox } pro scriptorio
+payments-header-bento-firefox-mobile = Navigator { -brand-firefox } pro apparatos mobile
+payments-header-bento-monitor = { -product-mozilla-monitor }
+payments-header-bento-firefox-relay = { -product-firefox-relay }
+payments-header-bento-vpn = { -product-mozilla-vpn }
+payments-header-bento-pocket = { -product-pocket }
+payments-header-bento-made-by-mozilla = Producite per{ -brand-mozilla }
+payments-header-avatar =
+    .title = Menu de { -product-mozilla-account }
+payments-header-avatar-icon =
+    .alt = Imagine del profilo del conto
+payments-header-avatar-expanded-signed-in-as = In session como
+payments-header-avatar-expanded-sign-out = Clauder session
 payments-client-loading-spinner =
     .aria-label = Cargante…
     .alt = Cargante…
