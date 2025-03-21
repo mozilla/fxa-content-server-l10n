@@ -87,6 +87,10 @@ next-coupon-submit = ასახვა
 
 # Component - Header
 
+payments-header-help =
+    .title = დახმარება
+    .aria-label = დახმარება
+    .alt = დახმარება
 payments-header-bento =
     .title = { -brand-mozilla }-პროდუქტები
     .aria-label = { -brand-mozilla }-პროდუქტები
@@ -101,8 +105,10 @@ payments-header-bento-firefox-relay = { -product-firefox-relay }
 payments-header-bento-vpn = { -product-mozilla-vpn }
 payments-header-bento-pocket = { -product-pocket }
 payments-header-bento-made-by-mozilla = ქმნის { -brand-mozilla }
+payments-header-avatar =
+    .title = { -product-mozilla-account(case: "gen") } მენიუ
 payments-header-avatar-icon =
-    .alt = ანგარიშის ახალი სურათი
+    .alt = ანგარიშის პროფილის სურათი
 payments-header-avatar-expanded-signed-in-as = შესული ხართ, როგორც
 payments-header-avatar-expanded-sign-out = გამოსვლა
 payments-client-loading-spinner =
