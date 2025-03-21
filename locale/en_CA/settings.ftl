@@ -843,6 +843,15 @@ recent-activity-account-password-changed = Password changed
 recent-activity-account-secondary-email-added = Secondary email address added
 recent-activity-account-secondary-email-removed = Secondary email address removed
 recent-activity-account-emails-swapped = Primary and secondary emails swapped
+recent-activity-session-destroy = Logged out of session
+recent-activity-account-recovery-phone-send-code = Recovery phone code sent
+recent-activity-account-recovery-phone-setup-complete = Recovery phone setup completed
+recent-activity-account-recovery-phone-signin-complete = Sign-in with recovery phone completed
+recent-activity-account-recovery-phone-signin-failed = Sign-in with recovery phone failed
+recent-activity-account-recovery-phone-removed = Recovery phone removed
+recent-activity-account-recovery-codes-replaced = Recovery codes replaced
+recent-activity-account-recovery-codes-created = Recovery codes created
+recent-activity-account-recovery-codes-signin-complete = Sign-in with recovery codes completed
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Other account activity
 
@@ -872,6 +881,8 @@ settings-recovery-phone-remove-success = Recovery phone removed
 
 page-setup-recovery-phone-heading = Add recovery phone
 page-setup-recovery-phone-back-button-title = Back to settings
+# Back arrow to return to step 1 of recovery phone setup flow
+page-setup-recovery-phone-step2-back-button-title = Change phone number
 
 ## Add secondary email page
 
@@ -1009,6 +1020,8 @@ tfa-row-backup-codes-available-v2 =
         [one] { $numCodesAvailable } code remaining
        *[other] { $numCodesAvailable } codes remaining
     }
+# Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
+tfa-row-backup-codes-get-new-cta-v2 = Create new codes
 # Shown to users who have no backup authentication codes
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = Add
@@ -1017,6 +1030,8 @@ tfa-row-backup-codes-description-2 = This is the safest recovery method if you c
 # Recovery phone is a recovery method for two-step authentication
 # A recovery code can be sent to the user's phone
 tfa-row-backup-phone-title-v2 = Recovery phone
+# Shown with an alert icon to indicate that no recovery phone is configured
+tfa-row-backup-phone-not-available-v2 = No phone number added
 # button to change the configured recovery phone
 tfa-row-backup-phone-change-cta = Change
 # button to add/configure a recovery phone
@@ -1026,6 +1041,8 @@ tfa-row-backup-phone-delete-button = Remove
 # Shown in tooltip on delete button or delete icon
 tfa-row-backup-phone-delete-title-v2 = Remove recovery phone
 tfa-row-backup-phone-delete-restriction-v2 = If you want to remove your recovery phone, add backup authentication codes or disable two-step authentication first to avoid getting locked out of your account.
+# "this" refers to recovery phone
+tfa-row-backup-phone-description-v2 = This is the easiest recovery method if you canʼt use your authenticator app.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
@@ -1188,6 +1205,7 @@ auth-error-214 = Recovery phone number already exists
 auth-error-215 = Recovery phone number does not exist
 auth-error-216 = Text message limit reached
 auth-error-218 = Unable to remove recovery phone, missing backup authentication codes.
+auth-error-219 = This phone number has been registered with too many accounts. Please try a different number.
 auth-error-999 = Unexpected error
 auth-error-1001 = Login attempt cancelled
 auth-error-1002 = Session expired. Sign in to continue.
@@ -1195,11 +1213,22 @@ auth-error-1003 = Local storage or cookies are still disabled
 auth-error-1008 = Your new password must be different
 auth-error-1010 = Valid password required
 auth-error-1011 = Valid email required
+auth-error-1018 = Your confirmation email was just returned. Mistyped email?
+auth-error-1020 = Mistyped email? firefox.com isn’t a valid email service
 auth-error-1031 = You must enter your age to sign up
 auth-error-1032 = You must enter a valid age to sign up
 auth-error-1054 = Invalid two-step authentication code
 auth-error-1056 = Invalid backup authentication code
 auth-error-1062 = Invalid redirect
+# Shown when a user tries to sign up with an email address with a domain that doesn't receive emails
+auth-error-1064 = Mistyped email? { $domain } isn’t a valid email service
+auth-error-1066 = Email masks can’t be used to create an account.
+auth-error-1067 = Mistyped email?
+# Displayed when we want to reference a user's previously set up recovery phone
+# number, but they are not completely signed in yet. We'll only show the last 4 digits.
+# Variables:
+#  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
+recovery-phone-number-ending-digits = Number ending in { $lastFourPhoneNumber }
 oauth-error-1000 = Something went wrong. Please close this tab and try again.
 
 ## Cannot Create Account page
@@ -1252,6 +1281,8 @@ cookies-disabled-learn-more = Learn more
 index-header = Enter your email
 index-sync-header = Continue to your { -product-mozilla-account }
 index-sync-subheader = Sync your passwords, tabs, and bookmarks everywhere you use { -brand-firefox }.
+index-relay-header = Create an email mask
+index-relay-subheader = Please provide the email address where you’d like to forward emails from your masked email.
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = Continue to { $serviceName }
 index-subheader-with-logo = Continue to <span>{ $serviceLogo }</span>
@@ -1260,6 +1291,10 @@ index-cta = Sign up or sign in
 index-account-info = A { -product-mozilla-account } also unlocks access to more privacy-protecting products from { -brand-mozilla }.
 index-email-input =
     .label = Enter your email
+# When users delete their Mozilla account inside account Settings, they are redirected to this page with a success message
+index-account-delete-success = Account deleted successfully
+# Displayed when users try to sign up for an account and their confirmation code email bounces
+index-email-bounced = Your confirmation email was just returned. Mistyped email?
 
 ## InlineRecoveryKeySetup page component
 
@@ -1686,6 +1721,11 @@ signin-recovery-phone-send-code-error-heading = There was a problem sending a co
 signin-recovery-phone-code-verification-error-heading = There was a problem verifying your code
 # Follows the error message (e.g, "There was a problem sending a code")
 signin-recovery-phone-general-error-description = Please try again later.
+signin-recovery-phone-invalid-code-error-description = The code is invalid or expired.
+signin-recovery-phone-invalid-code-error-link = Use backup authentication codes instead?
+# "Limits" refers to potential restrictions on how often a recovery phone number can be used for signing in within a given time period.
+# If limits are reached, users may have to use an alternate two-step authentication method or wait until the restriction period is over.
+signin-recovery-phone-success-message = Signed in successfully. Limits may apply if you use your recovery phone again.
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 

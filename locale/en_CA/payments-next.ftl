@@ -11,6 +11,7 @@ next-payment-method-first-approve = First you’ll need to approve your subscrip
 
 ## Page - Upgrade page
 
+upgrade-page-payment-information = Payment Information
 checkout-error-boundary-retry-button = Try again
 checkout-error-boundary-basic-error-message = Something went wrong. Please try again or <contactSupportLink>contact support.</contactSupportLink>
 
@@ -81,6 +82,30 @@ next-coupon-submit = Apply
 
 # Component - Header
 
+payments-header-help =
+    .title = Help
+    .aria-label = Help
+    .alt = Help
+payments-header-bento =
+    .title = { -brand-mozilla } products
+    .aria-label = { -brand-mozilla } products
+    .alt = { -brand-mozilla } Logo
+payments-header-bento-close =
+    .alt = Close
+payments-header-bento-tagline = More products from { -brand-mozilla } that protect your privacy
+payments-header-bento-firefox-desktop = { -brand-firefox } Browser for Desktop
+payments-header-bento-firefox-mobile = { -brand-firefox } Browser for Mobile
+payments-header-bento-monitor = { -product-mozilla-monitor }
+payments-header-bento-firefox-relay = { -product-firefox-relay }
+payments-header-bento-vpn = { -product-mozilla-vpn }
+payments-header-bento-pocket = { -product-pocket }
+payments-header-bento-made-by-mozilla = Made by { -brand-mozilla }
+payments-header-avatar =
+    .title = { -product-mozilla-account } menu
+payments-header-avatar-icon =
+    .alt = Account profile picture
+payments-header-avatar-expanded-signed-in-as = Signed in as
+payments-header-avatar-expanded-sign-out = Sign out
 payments-client-loading-spinner =
     .aria-label = Loading…
     .alt = Loading…
@@ -136,6 +161,7 @@ next-new-user-subscribe-product-assurance = We only use your email to create you
 plan-price-interval-daily = { $amount } daily
 plan-price-interval-weekly = { $amount } weekly
 plan-price-interval-monthly = { $amount } monthly
+plan-price-interval-halfyearly = { $amount } every 6 months
 plan-price-interval-yearly = { $amount } yearly
 
 ## Component - SubscriptionTitle
@@ -144,6 +170,7 @@ next-subscription-create-title = Set up your subscription
 next-subscription-success-title = Subscription confirmation
 next-subscription-processing-title = Confirming subscription…
 next-subscription-error-title = Error confirming subscription…
+subscription-title-plan-change-heading = Review your change
 next-sub-guarantee = 30-day money-back guarantee
 
 ## Component - TermsAndPrivacy
@@ -154,10 +181,26 @@ next-subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capita
 next-terms = Terms of Service
 next-privacy = Privacy Notice
 next-terms-download = Download Terms
+terms-and-privacy-stripe-label = { -brand-mozilla } uses { -brand-name-stripe } for secure payment processing.
+terms-and-privacy-stripe-link = { -brand-name-stripe } privacy policy
+terms-and-privacy-paypal-label = { -brand-mozilla } uses { -brand-paypal } for secure payment processing.
+terms-and-privacy-paypal-link = { -brand-paypal } privacy policy
+terms-and-privacy-stripe-and-paypal-label = { -brand-mozilla } uses { -brand-name-stripe } and { -brand-paypal } for secure payment processing.
 
 ## Component - UpdatedPurchaseDetails
 
+upgrade-purchase-details-current-plan-label = Current plan
+upgrade-purchase-details-new-plan-label = New plan
+upgrade-purchase-details-promo-code = Promo Code
+upgrade-purchase-details-tax-label = Taxes and Fees
+upgrade-purchase-details-new-total-label = New total
+upgrade-purchase-details-prorated-upgrade = Prorated Upgrade
 
 ## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
 
+upgrade-purchase-details-new-plan-daily = { $productName } (Daily)
+upgrade-purchase-details-new-plan-weekly = { $productName } (Weekly)
+upgrade-purchase-details-new-plan-monthly = { $productName } (Monthly)
+upgrade-purchase-details-new-plan-halfyearly = { $productName } (6-month)
+upgrade-purchase-details-new-plan-yearly = { $productName } (Yearly)
