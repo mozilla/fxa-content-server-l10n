@@ -87,6 +87,30 @@ next-coupon-submit = Nałožyś
 
 # Component - Header
 
+payments-header-help =
+    .title = Pomoc
+    .aria-label = Pomoc
+    .alt = Pomoc
+payments-header-bento =
+    .title = Produkty { -brand-mozilla }
+    .aria-label = Produkty { -brand-mozilla }
+    .alt = Logo { -brand-mozilla }
+payments-header-bento-close =
+    .alt = Zacyniś
+payments-header-bento-tagline = Dalšne produkty wót { -brand-mozilla }, kótarež wašu priwatnosć šćitaju
+payments-header-bento-firefox-desktop = Wobglědowak { -brand-firefox } za desktop
+payments-header-bento-firefox-mobile = Wobglědowak { -brand-firefox } za mobilne rědy
+payments-header-bento-monitor = { -product-mozilla-monitor }
+payments-header-bento-firefox-relay = { -product-firefox-relay }
+payments-header-bento-vpn = { -product-mozilla-vpn }
+payments-header-bento-pocket = { -product-pocket }
+payments-header-bento-made-by-mozilla = Wót { -brand-mozilla } wuwity
+payments-header-avatar =
+    .title = Meni { -product-mozilla-account(case: "gen", capitalization: "lower") }
+payments-header-avatar-icon =
+    .alt = Kontowy profilowy wobraz
+payments-header-avatar-expanded-signed-in-as = Pśizjawjony ako
+payments-header-avatar-expanded-sign-out = Wótzjawiś
 payments-client-loading-spinner =
     .aria-label = Zacytujo se…
     .alt = Zacytujo se…
