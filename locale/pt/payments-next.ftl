@@ -1,15 +1,3 @@
-## Checkout Page
-## Common strings used in multiple checkout pages
-
-next-payment-processing-message = Por favor, aguarde enquanto processamos o seu pagamento…
-next-payment-error-manage-subscription-button = Gerir a minha subscrição
-next-iap-upgrade-contact-support = Ainda pode obter este produto – contacte o suporte para que possamos ajudar.
-next-payment-error-retry-button = Tentar novamente
-next-basic-error-message = Algo correu mal. Tente novamente mais tarde.
-checkout-error-contact-support-button = Contactar o apoio
-checkout-error-not-eligible = Não é elegível a subscrever este produto. Por favor, contacte o apoio para que possamos ajudar.
-checkout-error-contact-support = Por favor, contacte o apoio para que possamos ajudar.
-
 ## Page
 
 checkout-signin-or-create = 1. Inicie sessão ou crie uma { -product-mozilla-account }
@@ -20,6 +8,34 @@ next-payment-method-header = Escolha o seu método de pagamento
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = Primeiro, precisa de aprovar a sua subscrição
+
+## Page - Upgrade page
+
+upgrade-page-payment-information = Informação de pagamento
+# $nextInvoiceDate (number) - The date of the next invoice
+upgrade-page-acknowledgment = O seu plano irá mudar imediatamente e você vai ser cobrado um valor proporcional hoje para o resto deste ciclo de pagamento. A partir de { $nextInvoiceDate }, será cobrado o valor total.
+checkout-error-boundary-retry-button = Tentar novamente
+checkout-error-boundary-basic-error-message = Algo correu mal. Tente novamente ou <contactSupportLink>contacte o apoio.</contactSupportLink>
+
+## Error pages - /checkout and /upgrade
+## Common strings used in multiple pages
+
+next-payment-error-manage-subscription-button = Gerir a minha subscrição
+next-iap-upgrade-contact-support = Ainda pode obter este produto – contacte o suporte para que possamos ajudar.
+next-payment-error-retry-button = Tentar novamente
+next-basic-error-message = Algo correu mal. Tente novamente mais tarde.
+checkout-error-contact-support-button = Contactar o apoio
+checkout-error-not-eligible = Não é elegível a subscrever este produto. Por favor, contacte o apoio para que possamos ajudar.
+checkout-error-contact-support = Por favor, contacte o apoio para que possamos ajudar.
+
+## Processing page and Needs Input page - /checkout and /upgrade
+## Common strings used in multiple pages
+
+next-payment-processing-message = Por favor, aguarde enquanto processamos o seu pagamento…
+
+## Success page - /checkout and /upgrade
+## Common strings used in multiple checkout pages
+
 next-payment-confirmation-thanks-heading-account-exists = Obrigado, agora consulte o seu email!
 # $email (String) - The user's email.
 payment-confirmation-thanks-subheading-account-exists-2 = Irá receber um e-mail em { $email } com instruções sobre a sua subscrição, bem como os seus dados de pagamento.
@@ -29,14 +45,17 @@ next-payment-confirmation-invoice-number = Fatura #{ $invoiceNumber }
 # $invoiceDate (Date) - Start date of the latest invoice
 next-payment-confirmation-invoice-date = { $invoiceDate }
 next-payment-confirmation-details-heading-2 = Informação de pagamento
-# $amount (Number) - The amount billed. It will be formatted as currency.
-# $interval (String) - The interval between payments.
-next-payment-confirmation-amount = { $amount } por { $interval }
+
+## Success pages (/checkout and /upgrade)
+## Common strings used in multiple checkout pages
+
+next-payment-confirmation-download-button = Continuar para descarregar
+
+## Success pages (/checkout and /upgrade), Start page (/upgrade)
+## Common strings used in multiple checkout pages
+
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Cartão que terminar em { $last4 }
-next-payment-confirmation-download-button = Continuar para descarregar
-checkout-error-boundary-retry-button = Tentar novamente
-checkout-error-boundary-basic-error-message = Algo correu mal. Tente novamente ou <contactSupportLink>contacte o apoio.</contactSupportLink>
 
 ## Component - Payment Consent Checkbox
 
@@ -117,7 +136,7 @@ next-new-user-subscribe-product-assurance = Nós apenas utilizamos o seu e-mail 
 plan-price-interval-daily = { $amount } por dia
 plan-price-interval-weekly = { $amount } por semana
 plan-price-interval-monthly = { $amount } por mês
-plan-price-interval-6monthly = { $amount } a cada 6 meses
+plan-price-interval-halfyearly = { $amount } a cada 6 meses
 plan-price-interval-yearly = { $amount } por ano
 
 ## Component - SubscriptionTitle
@@ -137,6 +156,11 @@ next-subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capita
 next-terms = Termos do serviço
 next-privacy = Informação de privacidade
 next-terms-download = Termos da transferência
+terms-and-privacy-stripe-label = A { -brand-mozilla } utiliza o { -brand-name-stripe } para processar pagamentos de forma segura.
+terms-and-privacy-stripe-link = Política de privacidade do { -brand-name-stripe }
+terms-and-privacy-paypal-label = { -brand-mozilla } utiliza o { -brand-paypal } para processar pagamentos de forma segura.
+terms-and-privacy-paypal-link = Política de privacidade do { -brand-paypal }
+terms-and-privacy-stripe-and-paypal-label = A { -brand-mozilla } utiliza o { -brand-name-stripe } e o { -brand-paypal } para processar pagamentos de forma segura.
 
 ## Component - UpdatedPurchaseDetails
 
@@ -153,4 +177,5 @@ upgrade-purchase-details-prorated-upgrade = Atualização Prorrateada
 upgrade-purchase-details-new-plan-daily = { $productName } (diariamente)
 upgrade-purchase-details-new-plan-weekly = { $productName } (semanalmente)
 upgrade-purchase-details-new-plan-monthly = { $productName } (mensalmente)
+upgrade-purchase-details-new-plan-halfyearly = { $productName } (6-meses)
 upgrade-purchase-details-new-plan-yearly = { $productName } (anualmente)

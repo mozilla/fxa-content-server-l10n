@@ -1,12 +1,3 @@
-## Checkout Page
-## Common strings used in multiple checkout pages
-
-next-payment-processing-message = Por favor, espera mientras procesamos tu pago…
-next-payment-error-manage-subscription-button = Administrar mi suscripción
-next-iap-upgrade-contact-support = Todavía puedes obtener este producto — por favor contacta con el equipo de soporte para que podamos ayudarte.
-next-payment-error-retry-button = Volver a intentarlo
-next-basic-error-message = Algo ha salido mal. Por favor, inténtalo de nuevo más tarde.
-
 ## Page
 
 continue-signin-with-google-button = Seguir con { -brand-google }
@@ -14,6 +5,26 @@ continue-signin-with-apple-button = Seguir con { -brand-apple }
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = Primero tendrás que aprobar tu suscripción
+
+## Page - Upgrade page
+
+
+## Error pages - /checkout and /upgrade
+## Common strings used in multiple pages
+
+next-payment-error-manage-subscription-button = Administrar mi suscripción
+next-iap-upgrade-contact-support = Todavía puedes obtener este producto — por favor contacta con el equipo de soporte para que podamos ayudarte.
+next-payment-error-retry-button = Volver a intentarlo
+next-basic-error-message = Algo ha salido mal. Por favor, inténtalo de nuevo más tarde.
+
+## Processing page and Needs Input page - /checkout and /upgrade
+## Common strings used in multiple pages
+
+next-payment-processing-message = Por favor, espera mientras procesamos tu pago…
+
+## Success page - /checkout and /upgrade
+## Common strings used in multiple checkout pages
+
 next-payment-confirmation-thanks-heading-account-exists = Gracias. ¡Ahora revisa tu correo electrónico!
 next-payment-confirmation-order-heading = Detalles del pedido
 # $invoiceNumber (String) - Invoice number of the successful payment
@@ -21,12 +32,17 @@ next-payment-confirmation-invoice-number = Factura #{ $invoiceNumber }
 # $invoiceDate (Date) - Start date of the latest invoice
 next-payment-confirmation-invoice-date = { $invoiceDate }
 next-payment-confirmation-details-heading-2 = Información de pago
-# $amount (Number) - The amount billed. It will be formatted as currency.
-# $interval (String) - The interval between payments.
-next-payment-confirmation-amount = { $amount } por { $interval }
+
+## Success pages (/checkout and /upgrade)
+## Common strings used in multiple checkout pages
+
+next-payment-confirmation-download-button = Continuar para descargar
+
+## Success pages (/checkout and /upgrade), Start page (/upgrade)
+## Common strings used in multiple checkout pages
+
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Tarjeta que termina en { $last4 }
-next-payment-confirmation-download-button = Continuar para descargar
 
 ## Component - Payment Consent Checkbox
 

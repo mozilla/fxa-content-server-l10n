@@ -1,14 +1,30 @@
-## Checkout Page
-## Common strings used in multiple checkout pages
-
-
 ## Page
 
+
+## Page - Upgrade page
+
+
+## Error pages - /checkout and /upgrade
+## Common strings used in multiple pages
+
+
+## Processing page and Needs Input page - /checkout and /upgrade
+## Common strings used in multiple pages
+
+
+## Success page - /checkout and /upgrade
+## Common strings used in multiple checkout pages
+
 next-payment-confirmation-order-heading = ऑर्डर का विवरण
-# $amount (Number) - The amount billed. It will be formatted as currency.
-# $interval (String) - The interval between payments.
-next-payment-confirmation-amount = { $amount } हर { $interval }
+
+## Success pages (/checkout and /upgrade)
+## Common strings used in multiple checkout pages
+
 next-payment-confirmation-download-button = डाउनलोड करने के लिए आगे बढ़ें
+
+## Success pages (/checkout and /upgrade), Start page (/upgrade)
+## Common strings used in multiple checkout pages
+
 
 ## Component - Payment Consent Checkbox
 

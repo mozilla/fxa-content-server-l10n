@@ -145,9 +145,6 @@ connect-another-play-store-image =
 connect-another-app-store-image-2 =
     .title = { -app-store } से { -brand-firefox } डाउनलोड करें
 
-##
-
-
 ## Connected services section
 
 
@@ -165,9 +162,6 @@ connect-another-app-store-image-2 =
 ##
 
 cs-sign-out-button = साइन आउट करें
-
-##
-
 
 ## Data collection section
 
@@ -238,9 +232,6 @@ avatar-page-remove-photo-button =
 avatar-page-cancel-button = रद्द करें
 avatar-page-save-button = सहेजें
 
-##
-
-
 ## Password change page
 
 pw-change-header =
@@ -255,13 +246,7 @@ pw-change-new-password =
 pw-change-confirm-password =
     .label = नए पासवर्ड की पुष्टि करें
 
-##
-
-
 ## Password create page
-
-
-##
 
 
 ## Delete account page
@@ -272,9 +257,6 @@ delete-account-password-input =
 delete-account-cancel-button = रद्द करें
 delete-account-delete-button-2 = मिटाएं
 
-##
-
-
 ## Display name page
 
 display-name-page-title =
@@ -283,9 +265,6 @@ display-name-input =
     .label = प्रदर्शित होने वाला नाम दर्ज करें
 submit-display-name = सहेजें
 cancel-display-name = रद्द करें
-
-##
-
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
@@ -320,9 +299,6 @@ verify-secondary-email-cancel-button = रद्द करें
 
 tfa-button-cancel = रद्द करें
 
-##
-
-
 ## Product promotion
 
 
@@ -331,9 +307,6 @@ tfa-button-cancel = रद्द करें
 profile-heading = प्रोफाइल
 profile-display-name =
     .header = प्रदर्शित होने वाला नाम
-
-##
-
 
 ## Progress bar
 
@@ -360,9 +333,6 @@ row-defaults-action-change = बदलें
 # Button to remove the secondary email
 se-remove-email =
     .title = ईमेल हटाएं
-
-##
-
 
 ## Two Step Auth sub-section on Settings main page
 
