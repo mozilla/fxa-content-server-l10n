@@ -84,6 +84,24 @@ next-coupon-submit = Εφαρμογή
 
 # Component - Header
 
+payments-header-help =
+    .title = Βοήθεια
+    .aria-label = Βοήθεια
+    .alt = Βοήθεια
+payments-header-bento =
+    .title = Προϊόντα { -brand-mozilla }
+    .aria-label = Προϊόντα { -brand-mozilla }
+    .alt = Λογότυπο { -brand-mozilla }
+payments-header-bento-close =
+    .alt = Κλείσιμο
+payments-header-bento-tagline = Περισσότερα προϊόντα από τη { -brand-mozilla } που προστατεύουν το απόρρητό σας
+payments-header-bento-firefox-desktop = { -brand-firefox } για υπολογιστές
+payments-header-bento-firefox-mobile = { -brand-firefox } για κινητές συσκευές
+payments-header-bento-monitor = { -product-mozilla-monitor }
+payments-header-bento-firefox-relay = { -product-firefox-relay }
+payments-header-bento-vpn = { -product-mozilla-vpn }
+payments-header-bento-pocket = { -product-pocket }
+payments-header-bento-made-by-mozilla = Από τη { -brand-mozilla }
 payments-client-loading-spinner =
     .aria-label = Φόρτωση…
     .alt = Φόρτωση…

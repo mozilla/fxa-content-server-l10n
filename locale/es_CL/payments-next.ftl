@@ -84,6 +84,30 @@ next-coupon-submit = Aplicar
 
 # Component - Header
 
+payments-header-help =
+    .title = Ayuda
+    .aria-label = Ayuda
+    .alt = Ayuda
+payments-header-bento =
+    .title = Productos de { -brand-mozilla }
+    .aria-label = Productos de { -brand-mozilla }
+    .alt = Logo de { -brand-mozilla }
+payments-header-bento-close =
+    .alt = Cerrar
+payments-header-bento-tagline = Más productos de { -brand-mozilla } que protegen tu privacidad
+payments-header-bento-firefox-desktop = Navegador { -brand-firefox } para escritorio
+payments-header-bento-firefox-mobile = Navegador { -brand-firefox } para móviles
+payments-header-bento-monitor = { -product-mozilla-monitor }
+payments-header-bento-firefox-relay = { -product-firefox-relay }
+payments-header-bento-vpn = { -product-mozilla-vpn }
+payments-header-bento-pocket = { -product-pocket }
+payments-header-bento-made-by-mozilla = Hecho por { -brand-mozilla }
+payments-header-avatar =
+    .title = Menú de { -product-mozilla-account }
+payments-header-avatar-icon =
+    .alt = Imagen de perfil de la cuenta
+payments-header-avatar-expanded-signed-in-as = Conectado como
+payments-header-avatar-expanded-sign-out = Salir
 payments-client-loading-spinner =
     .aria-label = Cargando…
     .alt = Cargando…
