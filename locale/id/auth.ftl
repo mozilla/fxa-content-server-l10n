@@ -524,6 +524,7 @@ subscriptionDowngrade-content-charge-info = Mulai tagihan berikutnya, biaya lang
 # Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-content-install = Jika ada perangkat lunak baru untuk Anda pasang untuk menggunakan { $productName }, Anda akan menerima surel terpisah dengan petunjuk unduhan.
+subscriptionDowngrade-content-auto-renew = Langganan Anda akan diperpanjang secara otomatis setiap periode penagihan kecuali Anda memilih untuk membatalkan.
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFailedPaymentsCancellation-subject = Langganan { $productName } Anda telah dibatalkan
@@ -606,6 +607,9 @@ subscriptionsPaymentProviderCancelled-content-payment = Mungkin kartu kredit And
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-subject = Pembayaran { $productName } diterima
 subscriptionSubsequentInvoice-title = Terima kasih telah menjadi pelanggan!
+# Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
+subscriptionSubsequentInvoice-content-next-invoice = Tagihan Berikutnya: { $nextInvoiceDateOnly }
 unblockCode-subject = Kode otorisasi akun
 unblockCode-title = Apakah Anda benar-benar sedang masuk?
 unblockCode-prompt = Jika ya, ini adalah kode otorisasi yang Anda butuhkan:
