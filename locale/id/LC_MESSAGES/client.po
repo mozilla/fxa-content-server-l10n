@@ -988,7 +988,7 @@ msgstr "Tautan konfirmasi rusak"
 
 #: .es5/templates/complete_sign_up.mustache:14
 msgid "Confirmation error"
-msgstr ""
+msgstr "Konfirmasi bermasalah"
 
 #: .es5/templates/confirm.mustache:3
 msgid "Confirm your account"
@@ -1000,7 +1000,7 @@ msgstr "Konfirmasikan proses masuk ini"
 
 #: .es5/templates/confirm.mustache:7
 msgid "Check your email for the confirmation link sent&nbsp;to %(escapedEmail)s"
-msgstr ""
+msgstr "Periksa surel Anda untuk tautan konfirmasi yang dikirim&nbsp;ke %(escapedEmail)s"
 
 #: .es5/templates/confirm.mustache:9
 msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail)s"
@@ -1026,7 +1026,7 @@ msgstr "Klik tautan yang dikirimkan ke %(email)s dalam satu jam ke depan untuk m
 
 #: .es5/templates/confirm_signup_code.mustache:1
 msgid "Enter confirmation code <span class=\"card-subheader\" id=\"subheader\"> for your Mozilla account</span>"
-msgstr ""
+msgstr "Masukkan kode konfirmasi <span class=\"card-subheader\" id=\"subheader\"> untuk akun Mozilla Anda</span>"
 
 #: .es5/templates/confirm_signup_code.mustache:2
 msgid "Enter the code that was sent to %(escapedEmail)s within 5 minutes."
