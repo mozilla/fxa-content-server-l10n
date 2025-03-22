@@ -339,7 +339,7 @@ password-strength-inline-not-common = സാധാരണമുപയോഗപ്
 
 manage-your-account-button = താങ്ങളുടെ അക്കൗണ്ടിനെ കൈകാര്യം ചെയ്യുക
 # Message shown when the account is ready but the user is not signed in
-ready-account-ready = താങ്ങളുടെ അക്കൗണ്ടു് തയ്യാറാണ്!
+ready-account-ready = താങ്ങളുടെ അക്കൗണ്ടു് ഒരുക്കി!
 ready-continue = തുടരുക
 sign-in-complete-header = പ്രവേശിക്കൽ ഉറപ്പിച്ചു
 sign-up-complete-header = അക്കൗണ്ടു് തീൎച്ചപ്പെടുത്തു
