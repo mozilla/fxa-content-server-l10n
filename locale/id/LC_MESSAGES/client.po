@@ -1030,7 +1030,7 @@ msgstr "Masukkan kode konfirmasi <span class=\"card-subheader\" id=\"subheader\"
 
 #: .es5/templates/confirm_signup_code.mustache:2
 msgid "Enter the code that was sent to %(escapedEmail)s within 5 minutes."
-msgstr ""
+msgstr "Masukkan kode yang dikirim ke %(escapedEmail)s dalam 5 menit."
 
 #: .es5/templates/confirm_signup_code.mustache:3 .es5/templates/sign_in_token_code.mustache:3 .es5/templates/sign_in_totp_code.mustache:4
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:6
@@ -1151,7 +1151,7 @@ msgstr "Buat topeng surel"
 
 #: .es5/templates/index.mustache:9
 msgid "Please provide the email address where you’d like to forward emails from your masked email."
-msgstr ""
+msgstr "Harap berikan alamat surel yang Anda inginkan untuk meneruskan surel dari surel bertopeng Anda."
 
 #: .es5/templates/index.mustache:12
 msgid "Sign up or sign in"
