@@ -1366,7 +1366,7 @@ msgstr "Nama Kejadian"
 
 #: .es5/templates/security_events.mustache:4
 msgid "Confirmed"
-msgstr ""
+msgstr "Dikonfirmasi"
 
 #: .es5/templates/security_events.mustache:5
 msgid "Created At"
@@ -1398,15 +1398,15 @@ msgstr "Tidak lagi memiliki surel ini? Buat akun baru"
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
 msgid "Enter backup authentication code"
-msgstr ""
+msgstr "Masukkan kode otentikasi cadangan"
 
 #: .es5/templates/sign_in_recovery_code.mustache:3
 msgid "Please enter a backup authentication code that was provided to you during two step authentication setup."
-msgstr ""
+msgstr "Masukkan kode autentikasi cadangan yang diberikan kepada Anda selama penyiapan autentikasi dua langkah."
 
 #: .es5/templates/sign_in_recovery_code.mustache:4
 msgid "Enter 10-digit backup authentication code"
-msgstr ""
+msgstr "Masukkan kode otentikasi cadangan 10 digit"
 
 #: .es5/templates/sign_in_recovery_code.mustache:7
 msgid "Are you locked out?"
@@ -1422,11 +1422,11 @@ msgstr "Tim kami telah diberitahu. Laporan seperti ini membantu kami tangkis pen
 
 #: .es5/templates/sign_in_token_code.mustache:1
 msgid "Enter confirmation code <span class=\"card-subheader\">for your Mozilla account</span>"
-msgstr ""
+msgstr "Masukkan kode konfirmasi <span class=\"card-subheader\">untuk akun Mozilla Anda</span>"
 
 #: .es5/templates/sign_in_token_code.mustache:2
 msgid "Enter the code that was sent to %(email)s within 5 minutes."
-msgstr ""
+msgstr "Masukkan kode yang dikirim ke %(email)s dalam waktu 5 menit."
 
 #: .es5/templates/sign_in_totp_code.mustache:1
 msgid "Enter security code"
@@ -1454,7 +1454,7 @@ msgstr "Masukkan kode autentikasi"
 
 #: .es5/templates/sign_up_password.mustache:1 .es5/templates/post_verify/third_party_auth/set_password.mustache:1
 msgid "Set your password"
-msgstr ""
+msgstr "Setel sandi Anda"
 
 #: .es5/templates/sign_up_password.mustache:2
 msgid "Change email"
@@ -1660,6 +1660,8 @@ msgstr "untuk melanjutkan ke %(serviceName)s"
 msgid ""
 "We detected suspicious behavior on your Mozilla account. To protect your account, please create a new password. You’ll use this password to sign back in to all of your Mozilla account services."
 msgstr ""
+"Kami mendeteksi perilaku mencurigakan pada akun Mozilla Anda. Untuk melindungi akun Anda, silakan buat kata sandi baru. Anda akan menggunakan sandi ini untuk masuk kembali ke semua layanan akun "
+"Mozilla Anda."
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:6
 msgid "Synced history, bookmarks, logins, and other personal data will not be lost."
@@ -1695,7 +1697,7 @@ msgstr ""
 
 #: .es5/templates/post_verify/newsletters/add_newsletters.mustache:8
 msgid "Subscribe %(email)s"
-msgstr ""
+msgstr "Berlangganan %(email)s"
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:2
 msgid "The link you clicked was missing characters, and may have been broken by your email client."
