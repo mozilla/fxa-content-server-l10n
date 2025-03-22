@@ -465,6 +465,9 @@ postVerifySecondary-action = Kelola akun
 recovery-subject = Setel ulang sandi
 recovery-title-2 = Anda lupa sandi?
 recovery-action = Buat sandi baru
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountDeletion-subject = Langganan { $productName } Anda telah dibatalkan
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-title = Selamat datang di { $productName }
