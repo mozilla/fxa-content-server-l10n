@@ -11,6 +11,9 @@ next-payment-method-first-approve = Najpierw musisz zatwierdzić subskrypcję
 
 ## Page - Upgrade page
 
+upgrade-page-payment-information = Informacje o płatnościach
+# $nextInvoiceDate (number) - The date of the next invoice
+upgrade-page-acknowledgment = Twój plan zmieni się natychmiast, a dzisiejsza opłata zostanie podzielona proporcjonalnie za pozostały czas tego okresu rozliczeniowego. Począwszy od { $nextInvoiceDate } opłata będzie wynosiła pełną kwotę.
 checkout-error-boundary-retry-button = Spróbuj ponownie
 checkout-error-boundary-basic-error-message = Coś się nie powiodło. Proszę spróbować ponownie lub <contactSupportLink>skontaktować się z zespołem wsparcia</contactSupportLink>.
 
@@ -81,6 +84,23 @@ next-coupon-submit = Zastosuj
 
 # Component - Header
 
+payments-header-help =
+    .title = Pomoc
+    .aria-label = Pomoc
+    .alt = Pomoc
+payments-header-bento =
+    .title = Produkty { -brand-mozilla(case: "gen") }
+    .aria-label = Produkty { -brand-mozilla(case: "gen") }
+    .alt = Logo { -brand-mozilla(case: "gen") }
+payments-header-bento-close =
+    .alt = Zamknij
+payments-header-bento-tagline = Więcej produktów od { -brand-mozilla(case: "gen") }, które chronią Twoją prywatność
+payments-header-bento-firefox-desktop = Przeglądarka { -brand-firefox } na komputery
+payments-header-bento-firefox-mobile = Przeglądarka { -brand-firefox } na telefon
+payments-header-bento-monitor = { -product-mozilla-monitor }
+payments-header-bento-firefox-relay = { -product-firefox-relay }
+payments-header-bento-vpn = { -product-mozilla-vpn }
+payments-header-bento-pocket = { -product-pocket }
 payments-client-loading-spinner =
     .aria-label = Wczytywanie…
     .alt = Wczytywanie…

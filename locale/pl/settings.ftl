@@ -881,6 +881,8 @@ settings-recovery-phone-remove-success = Usunięto telefon odzyskiwania
 
 page-setup-recovery-phone-heading = Dodaj telefon odzyskiwania
 page-setup-recovery-phone-back-button-title = Wróć do ustawień
+# Back arrow to return to step 1 of recovery phone setup flow
+page-setup-recovery-phone-step2-back-button-title = Zmień numer telefonu
 
 ## Add secondary email page
 
@@ -1021,6 +1023,8 @@ tfa-row-backup-codes-available-v2 =
         [few] Zostały { $numCodesAvailable } kody
        *[many] Zostało { $numCodesAvailable } kodów
     }
+# Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
+tfa-row-backup-codes-get-new-cta-v2 = Utwórz nowe kody
 # Shown to users who have no backup authentication codes
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = Dodaj
@@ -1029,6 +1033,8 @@ tfa-row-backup-codes-description-2 = To najbezpieczniejsza metoda odzyskiwania, 
 # Recovery phone is a recovery method for two-step authentication
 # A recovery code can be sent to the user's phone
 tfa-row-backup-phone-title-v2 = Telefon odzyskiwania
+# Shown with an alert icon to indicate that no recovery phone is configured
+tfa-row-backup-phone-not-available-v2 = Nie dodano numeru telefonu
 # button to change the configured recovery phone
 tfa-row-backup-phone-change-cta = Zmień
 # button to add/configure a recovery phone
@@ -1038,6 +1044,8 @@ tfa-row-backup-phone-delete-button = Usuń
 # Shown in tooltip on delete button or delete icon
 tfa-row-backup-phone-delete-title-v2 = Usuń telefon odzyskiwania
 tfa-row-backup-phone-delete-restriction-v2 = Jeśli chcesz usunąć telefon odzyskiwania, najpierw dodaj zapasowe kody uwierzytelniania lub wyłącz uwierzytelnianie dwuetapowe, aby uniknąć zablokowania konta.
+# "this" refers to recovery phone
+tfa-row-backup-phone-description-v2 = To najłatwiejsza metoda odzyskiwania, jeśli nie możesz użyć aplikacji uwierzytelniającej.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
@@ -1202,6 +1210,7 @@ auth-error-214 = Numer telefonu odzyskiwania już istnieje
 auth-error-215 = Numer telefonu odzyskiwania nie istnieje
 auth-error-216 = Osiągnięto ograniczenie liczby wiadomości SMS
 auth-error-218 = Nie można usunąć telefonu odzyskiwania, brakuje zapasowych kodów uwierzytelniania.
+auth-error-219 = Ten numer telefonu został zarejestrowany na zbyt wielu kontach. Spróbuj innego numeru.
 auth-error-999 = Nieznany błąd
 auth-error-1001 = Anulowano próbę logowania
 auth-error-1002 = Sesja wygasła. Zaloguj się, aby kontynuować.
@@ -1209,11 +1218,17 @@ auth-error-1003 = Obsługa lokalnego przechowywania danych lub ciasteczek jest n
 auth-error-1008 = Nowe hasło musi być inne niż poprzednie
 auth-error-1010 = Wymagane jest prawidłowe hasło
 auth-error-1011 = Wymagany jest prawidłowy adres e-mail
+auth-error-1018 = Wiadomość z potwierdzeniem została zwrócona. Błąd w adresie e-mail?
+auth-error-1020 = Błędnie wpisany adres e-mail? „firefox.com” nie jest prawdziwym serwisem pocztowym
 auth-error-1031 = Należy podać swój wiek przed zarejestrowaniem
 auth-error-1032 = Należy podać prawidłowy wiek przed zarejestrowaniem
 auth-error-1054 = Nieprawidłowy kod uwierzytelniania dwuetapowego
 auth-error-1056 = Nieprawidłowy zapasowy kod uwierzytelniania
 auth-error-1062 = Nieprawidłowe przekierowanie
+# Shown when a user tries to sign up with an email address with a domain that doesn't receive emails
+auth-error-1064 = Błędnie wpisany adres e-mail? „{ $domain }” nie jest prawdziwym serwisem pocztowym
+auth-error-1066 = Do utworzenia konta nie można używać masek dla adresu e-mail.
+auth-error-1067 = Błąd w adresie e-mail?
 # Displayed when we want to reference a user's previously set up recovery phone
 # number, but they are not completely signed in yet. We'll only show the last 4 digits.
 # Variables:
@@ -1271,6 +1286,8 @@ cookies-disabled-learn-more = Więcej informacji
 index-header = Wpisz adres e-mail
 index-sync-header = Przejdź do { -product-mozilla-account(case: "gen", capitalization: "lower") }
 index-sync-subheader = Synchronizuj hasła, karty i zakładki wszędzie tam, gdzie używasz { -brand-firefox(case: "acc") }.
+index-relay-header = Utwórz maskę dla adresu e-mail
+index-relay-subheader = Podaj adres e-mail, na który przekazywać wiadomości z zamaskowanego adresu.
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = Przejdź do usługi { $serviceName }
 index-subheader-with-logo = Przejdź do usługi <span>{ $serviceLogo }</span>
@@ -1279,6 +1296,10 @@ index-cta = Zarejestruj się lub zaloguj
 index-account-info = { -product-mozilla-account } odblokowuje również dostęp do innych produktów { -brand-mozilla(case: "gen") } chroniących prywatność.
 index-email-input =
     .label = Wpisz adres e-mail
+# When users delete their Mozilla account inside account Settings, they are redirected to this page with a success message
+index-account-delete-success = Pomyślnie usunięto konto
+# Displayed when users try to sign up for an account and their confirmation code email bounces
+index-email-bounced = Wiadomość z potwierdzeniem została zwrócona. Błąd w adresie e-mail?
 
 ## InlineRecoveryKeySetup page component
 
@@ -1707,6 +1728,11 @@ signin-recovery-phone-send-code-error-heading = Wystąpił problem podczas wysy�
 signin-recovery-phone-code-verification-error-heading = Wystąpił problem podczas weryfikowania kodu
 # Follows the error message (e.g, "There was a problem sending a code")
 signin-recovery-phone-general-error-description = Proszę spróbować ponownie później.
+signin-recovery-phone-invalid-code-error-description = Kod jest nieprawidłowy lub wygasł.
+signin-recovery-phone-invalid-code-error-link = Czy zamiast tego użyć zapasowych kodów uwierzytelniania?
+# "Limits" refers to potential restrictions on how often a recovery phone number can be used for signing in within a given time period.
+# If limits are reached, users may have to use an alternate two-step authentication method or wait until the restriction period is over.
+signin-recovery-phone-success-message = Pomyślnie zalogowano. Mogą obowiązywać ograniczenia, jeśli ponownie użyjesz telefonu odzyskiwania.
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
