@@ -84,6 +84,30 @@ next-coupon-submit = Anvend
 
 # Component - Header
 
+payments-header-help =
+    .title = Hjælp
+    .aria-label = Hjælp
+    .alt = Hjælp
+payments-header-bento =
+    .title = Produkter fra { -brand-mozilla }
+    .aria-label = Produkter fra { -brand-mozilla }
+    .alt = { -brand-mozilla }-logo
+payments-header-bento-close =
+    .alt = Luk
+payments-header-bento-tagline = Flere produkter fra { -brand-mozilla }, der beskytter dit privatliv
+payments-header-bento-firefox-desktop = { -brand-firefox } Browser til din computer
+payments-header-bento-firefox-mobile = { -brand-firefox } Browser til din telefon
+payments-header-bento-monitor = { -product-mozilla-monitor }
+payments-header-bento-firefox-relay = { -product-firefox-relay }
+payments-header-bento-vpn = { -product-mozilla-vpn }
+payments-header-bento-pocket = { -product-pocket }
+payments-header-bento-made-by-mozilla = Lavet af { -brand-mozilla }
+payments-header-avatar =
+    .title = { -product-mozilla-account }-menu
+payments-header-avatar-icon =
+    .alt = Kontoens profilbillede
+payments-header-avatar-expanded-signed-in-as = Logget ind som
+payments-header-avatar-expanded-sign-out = Log ud
 payments-client-loading-spinner =
     .aria-label = Indlæser…
     .alt = Indlæser…
