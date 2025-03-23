@@ -329,6 +329,7 @@ newDeviceLogin-change-password-plain = Bukan Anda? Ubah sandi Anda:
 newDeviceLogin-action = Kelola akun
 passwordChanged-subject = Sandi telah diperbarui
 passwordChanged-title = Sandi sukses diganti
+passwordChanged-description-2 = { -product-mozilla-account } Anda telah berhasil diubah untuk perangkat berikut ini:
 passwordChangeRequired-subject = Aktivitas mencurigakan terdeteksi
 passwordChangeRequired-title = Perubahan Kata Sandi Diperlukan
 passwordChangeRequired-suspicious-activity-2 = Kami mendeteksi aktivitas mencurigakan pada { -product-mozilla-account } Anda. Untuk mencegah akses tidak sah, kami telah memutuskan semua perangkat yang terhubung ke akun Anda dan meminta Anda mengubah kata sandi sebagai langkah pencegahan.
@@ -419,6 +420,7 @@ postNewRecoveryCodes-action = Kelola akun
 postRemoveAccountRecovery-subject-2 = Kunci pemulihan akun dihapus
 postRemoveAccountRecovery-title-3 = Anda menghapus kunci pemulihan akun Anda
 postRemoveAccountRecovery-body-part1 = Kunci pemulihan akun diperlukan untuk memulihkan data penjelajahan terenkripsi jika Anda lupa kata sandi.
+postRemoveAccountRecovery-body-part2 = Jika Anda belum melakukannya, buat kunci pemulihan akun baru di pengaturan akun Anda untuk mencegah kehilangan kata sandi, markah, riwayat penjelajahan, dan data lainnya yang tersimpan.
 postRemoveAccountRecovery-action = Kelola akun
 postRemoveRecoveryPhone-subject = Telepon pemulihan dihapus
 postRemoveRecoveryPhone-preview = Akun dilindungi oleh otentikasi dua langkah
@@ -464,6 +466,10 @@ postVerifySecondary-content-3 = Anda telah berhasil mengonfirmasi { $secondaryEm
 postVerifySecondary-action = Kelola akun
 recovery-subject = Setel ulang sandi
 recovery-title-2 = Anda lupa sandi?
+# Information on the device, date and time of the request that triggered the email follows.
+recovery-request-origin-2 = Kami menerima permintaan perubahan sandi pada { -product-mozilla-account } Anda dari:
+recovery-new-password-button = Buat sandi baru dengan mengklik tombol di bawah ini. Tautan ini akan kedaluwarsa dalam satu jam.
+recovery-copy-paste = Buat kata sandi baru dengan menyalin dan menempelkan URL di bawah ini ke peramban Anda. Tautan ini akan kedaluwarsa dalam satu jam.
 recovery-action = Buat sandi baru
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
