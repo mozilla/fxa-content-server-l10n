@@ -84,6 +84,30 @@ next-coupon-submit = Применить
 
 # Component - Header
 
+payments-header-help =
+    .title = Справка
+    .aria-label = Справка
+    .alt = Справка
+payments-header-bento =
+    .title = Продукты { -brand-mozilla }
+    .aria-label = Продукты { -brand-mozilla }
+    .alt = Лого { -brand-mozilla }
+payments-header-bento-close =
+    .alt = Закрыть
+payments-header-bento-tagline = Больше продуктов от { -brand-mozilla }, которые защищают вашу конфиденциальность
+payments-header-bento-firefox-desktop = Браузер { -brand-firefox } для ПК
+payments-header-bento-firefox-mobile = Браузер { -brand-firefox } для мобильных
+payments-header-bento-monitor = { -product-mozilla-monitor }
+payments-header-bento-firefox-relay = { -product-firefox-relay }
+payments-header-bento-vpn = { -product-mozilla-vpn }
+payments-header-bento-pocket = { -product-pocket }
+payments-header-bento-made-by-mozilla = Создано { -brand-mozilla }
+payments-header-avatar =
+    .title = Меню { -product-mozilla-account }
+payments-header-avatar-icon =
+    .alt = Фото профиля аккаунта
+payments-header-avatar-expanded-signed-in-as = Вы вошли как
+payments-header-avatar-expanded-sign-out = Выйти
 payments-client-loading-spinner =
     .aria-label = Загрузка…
     .alt = Загрузка…
