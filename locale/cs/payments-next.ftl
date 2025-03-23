@@ -13,7 +13,7 @@ next-payment-method-first-approve = Nejprve musíte schválit své předplatné
 
 upgrade-page-payment-information = Informace o platbě
 # $nextInvoiceDate (number) - The date of the next invoice
-upgrade-page-acknowledgment = Vaše předplatné se změní okamžitě a ještě dnes vám bude naúčtována platba jako po zbytek tohoto fakturačního období. Od { $nextInvoiceDate } vám bude účtována plná částka.
+upgrade-page-acknowledgment = Váš tarif se okamžitě změní a po zbytek tohoto zúčtovacího období vám bude účtována poměrná částka. Od { $nextInvoiceDate } vám bude účtována plná částka.
 checkout-error-boundary-retry-button = Zkusit znovu
 checkout-error-boundary-basic-error-message = Něco se pokazilo. Zkuste to znovu nebo <contactSupportLink>kontaktujte podporu</contactSupportLink>.
 
@@ -89,8 +89,8 @@ payments-header-help =
     .aria-label = Nápověda
     .alt = Nápověda
 payments-header-bento =
-    .title = produkty { -brand-mozilla(case: "gen") }
-    .aria-label = produkty { -brand-mozilla(case: "gen") }
+    .title = Produkty { -brand-mozilla }
+    .aria-label = Produkty { -brand-mozilla }
     .alt = Logo { -brand-mozilla }
 payments-header-bento-close =
     .alt = Zavřít
