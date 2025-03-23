@@ -101,6 +101,13 @@ payments-header-bento-monitor = { -product-mozilla-monitor }
 payments-header-bento-firefox-relay = { -product-firefox-relay }
 payments-header-bento-vpn = { -product-mozilla-vpn }
 payments-header-bento-pocket = { -product-pocket }
+payments-header-bento-made-by-mozilla = Tworzone przez { -brand-mozilla(case: "acc") }
+payments-header-avatar =
+    .title = Menu { -product-mozilla-account(case: "gen", capitalization: "lower") }
+payments-header-avatar-icon =
+    .alt = Zdjęcie profilowe konta
+payments-header-avatar-expanded-signed-in-as = Zalogowano jako
+payments-header-avatar-expanded-sign-out = Wyloguj się
 payments-client-loading-spinner =
     .aria-label = Wczytywanie…
     .alt = Wczytywanie…
@@ -156,6 +163,7 @@ next-new-user-subscribe-product-assurance = Używamy Twojego adresu e-mail wył�
 plan-price-interval-daily = { $amount } dziennie
 plan-price-interval-weekly = { $amount } tygodniowo
 plan-price-interval-monthly = { $amount } miesięcznie
+plan-price-interval-halfyearly = { $amount } co 6 miesięcy
 plan-price-interval-yearly = { $amount } rocznie
 
 ## Component - SubscriptionTitle
@@ -164,6 +172,7 @@ next-subscription-create-title = Skonfiguruj swoją subskrypcję
 next-subscription-success-title = Potwierdzenie subskrypcji
 next-subscription-processing-title = Potwierdzanie subskrypcji…
 next-subscription-error-title = Błąd podczas potwierdzania subskrypcji…
+subscription-title-plan-change-heading = Sprawdź zmianę
 next-sub-guarantee = 30-dniowa gwarancja zwrotu pieniędzy
 
 ## Component - TermsAndPrivacy
@@ -174,10 +183,26 @@ next-subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(case: 
 next-terms = Regulamin usługi
 next-privacy = Zasady ochrony prywatności
 next-terms-download = Warunki pobierania
+terms-and-privacy-stripe-label = { -brand-mozilla } korzysta z serwisu { -brand-name-stripe } do bezpiecznego przetwarzania płatności.
+terms-and-privacy-stripe-link = Zasady ochrony prywatności serwisu { -brand-name-stripe }
+terms-and-privacy-paypal-label = { -brand-mozilla } korzysta z serwisu { -brand-paypal } do bezpiecznego przetwarzania płatności.
+terms-and-privacy-paypal-link = Zasady ochrony prywatności serwisu { -brand-paypal }
+terms-and-privacy-stripe-and-paypal-label = { -brand-mozilla } korzysta z serwisów { -brand-name-stripe } i { -brand-paypal } do bezpiecznego przetwarzania płatności.
 
 ## Component - UpdatedPurchaseDetails
 
+upgrade-purchase-details-current-plan-label = Obecny plan
+upgrade-purchase-details-new-plan-label = Nowy plan
+upgrade-purchase-details-promo-code = Kod promocyjny
+upgrade-purchase-details-tax-label = Podatki i opłaty
+upgrade-purchase-details-new-total-label = Nowa suma
+upgrade-purchase-details-prorated-upgrade = Przełączenie podzielone proporcjonalnie
 
 ## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
 
+upgrade-purchase-details-new-plan-daily = { $productName } (dziennie)
+upgrade-purchase-details-new-plan-weekly = { $productName } (tygodniowo)
+upgrade-purchase-details-new-plan-monthly = { $productName } (miesięcznie)
+upgrade-purchase-details-new-plan-halfyearly = { $productName } (co 6 miesięcy)
+upgrade-purchase-details-new-plan-yearly = { $productName } (rocznie)
