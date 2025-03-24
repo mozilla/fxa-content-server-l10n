@@ -9,6 +9,10 @@ next-payment-method-header = Choose your payment method
 payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = First you’ll need to approve your subscription
 
+location-required-header = Please select your country and enter your postal code.
+location-required-subheader = We weren’t able to detect your location automatically.
+location-required-disclaimer = We only use this information to calculate taxes and currency.
+
 ## Page - Upgrade page
 
 upgrade-page-payment-information = Payment Information

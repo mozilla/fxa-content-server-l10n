@@ -81,6 +81,33 @@ next-coupon-promo-code = Código promocional
 next-coupon-promo-code-applied = Código promocional aplicado
 next-coupon-remove = Remover
 next-coupon-submit = Aplicar
+
+# Component - Header
+
+payments-header-help =
+    .title = Ajuda
+    .aria-label = Ajuda
+    .alt = Ajuda
+payments-header-bento =
+    .title = Produtos da { -brand-mozilla }
+    .aria-label = Produtos da { -brand-mozilla }
+    .alt = Logótipo da { -brand-mozilla }
+payments-header-bento-close =
+    .alt = Fechar
+payments-header-bento-tagline = Mais produtos da { -brand-mozilla } que protegem a sua privacidade
+payments-header-bento-firefox-desktop = Navegador { -brand-firefox } para computador
+payments-header-bento-firefox-mobile = Navegador { -brand-firefox } para dispositivos móveis
+payments-header-bento-monitor = { -product-mozilla-monitor }
+payments-header-bento-firefox-relay = { -product-firefox-relay }
+payments-header-bento-vpn = { -product-mozilla-vpn }
+payments-header-bento-pocket = { -product-pocket }
+payments-header-bento-made-by-mozilla = Criado pela { -brand-mozilla }
+payments-header-avatar =
+    .title = Menu { -product-mozilla-account }
+payments-header-avatar-icon =
+    .alt = Imagem de perfil da conta
+payments-header-avatar-expanded-signed-in-as = Sessão iniciada como
+payments-header-avatar-expanded-sign-out = Terminar sessão
 payments-client-loading-spinner =
     .aria-label = A carregar…
     .alt = A carregar…

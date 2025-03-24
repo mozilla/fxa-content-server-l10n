@@ -36,6 +36,9 @@ next-payment-validate-name-error = कृपया अपना नाम दर
 ## Component - CouponForm
 
 
+# Component - Header
+
+
 ## Payment Section
 
 next-new-user-card-title = अपने कार्ड की जानकारी दर्ज करें
