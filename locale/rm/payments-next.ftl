@@ -11,6 +11,7 @@ next-payment-method-first-approve = L'emprim stos ti approvar tes abunament
 
 ## Page - Upgrade page
 
+upgrade-page-payment-information = Infurmaziuns da pajament
 checkout-error-boundary-retry-button = Empruvar anc ina giada
 checkout-error-boundary-basic-error-message = Igl ha dà in problem. Emprova per plaschair anc ina giada u <contactSupportLink>contactescha l’agid</contactSupportLink>.
 
