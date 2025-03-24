@@ -261,6 +261,7 @@ coupon-expired = 프로모션 코드가 만료된 것 같습니다.
 card-error = 거래를 처리할 수 없습니다. 신용 카드 정보를 확인한 후 다시 시도하세요.
 country-currency-mismatch = 이 구독의 통화는 결제한 국가에서 유효하지 않습니다.
 currency-currency-mismatch = 죄송합니다. 통화간의 전환을 할 수 없습니다.
+location-unsupported = 이용 약관에 따라 현재 지역에서는 지원하지 않습니다.
 no-subscription-change = 죄송합니다. 구독 일정을 변경할 수 없습니다.
 # $mobileAppStore (String) - "Google Play Store" or "App Store", localized when the translation is available.
 iap-already-subscribed = { $mobileAppStore }를 통해 이미 구독 중입니다.
@@ -275,6 +276,7 @@ product-profile-error =
 product-customer-error =
     .title = 고객 정보 읽기 문제
 product-plan-not-found = 사용 계획 찾을 수 없음
+product-location-unsupported-error = 지원되지 않는 지역
 
 ## Hooks - coupons
 
@@ -332,9 +334,6 @@ sub-update-new-plan-daily = { $productName } (매일)
 sub-update-new-plan-weekly = { $productName }(매주)
 sub-update-new-plan-monthly = { $productName } (월간)
 sub-update-new-plan-yearly = { $productName } (연간)
-
-##
-
 
 ## Routes - Subscriptions - Cancel
 
