@@ -887,6 +887,8 @@ settings-recovery-phone-remove-success = Allontanà il numer da telefon per la r
 
 page-setup-recovery-phone-heading = Agiuntar in numer da telefon da recuperaziun
 page-setup-recovery-phone-back-button-title = Turnar als parameters
+# Back arrow to return to step 1 of recovery phone setup flow
+page-setup-recovery-phone-step2-back-button-title = Midar il numer da telefon
 
 ## Add secondary email page
 
@@ -1028,6 +1030,8 @@ tfa-row-backup-codes-available-v2 =
         [one] { $numCodesAvailable } code restant
        *[other] { $numCodesAvailable } codes restants
     }
+# Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
+tfa-row-backup-codes-get-new-cta-v2 = Crear novs codes
 # Shown to users who have no backup authentication codes
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = Agiuntar
@@ -1036,6 +1040,8 @@ tfa-row-backup-codes-description-2 = Quai è la metoda da recuperaziun la pli se
 # Recovery phone is a recovery method for two-step authentication
 # A recovery code can be sent to the user's phone
 tfa-row-backup-phone-title-v2 = Numer da telefon da recuperaziun
+# Shown with an alert icon to indicate that no recovery phone is configured
+tfa-row-backup-phone-not-available-v2 = Agiuntà nagin numer da telefon
 # button to change the configured recovery phone
 tfa-row-backup-phone-change-cta = Modifitgar
 # button to add/configure a recovery phone
@@ -1045,6 +1051,8 @@ tfa-row-backup-phone-delete-button = Allontanar
 # Shown in tooltip on delete button or delete icon
 tfa-row-backup-phone-delete-title-v2 = Allontanar il numer da telefon da recuperaziun
 tfa-row-backup-phone-delete-restriction-v2 = Sche ti vuls allontanar tes numer da telefon da recuperaziun, agiunta l’emprim codes d’autentificaziun da backup u deactivescha l’autentificaziun en dus pass per evitar che ti perdias l’access a tes conto.
+# "this" refers to recovery phone
+tfa-row-backup-phone-description-v2 = Quai è la metoda da recuperaziun la pli simpla sche ti na pos betg utilisar tia app d’autentificaziun.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
@@ -1217,11 +1225,17 @@ auth-error-1003 = Arcun local u cookies èn anc adina deactivads
 auth-error-1008 = Tes pled-clav nov sto esser different
 auth-error-1010 = In pled-clav valid è necessari
 auth-error-1011 = Adressa dad e-mail valida è obligatorica
+auth-error-1018 = Tes e-mail da conferma è gist returnà. Has ti fatg in sbagl cun tippar l’adressa dad e-mail?
+auth-error-1020 = Sbagl da tippar en l’adressa dad e-mail? firefox.com n’è nagin servetsch dad e-mail valid
 auth-error-1031 = Ti stos inditgar tia vegliadetgna per ta registrar
 auth-error-1032 = Ti stos inditgar ina vegliadetgna valida per ta registrar
 auth-error-1054 = Code d’autentificaziun en dus pass nunvalid
 auth-error-1056 = Code d’autentificaziun da backup nunvalid
 auth-error-1062 = Renviament nunvalid
+# Shown when a user tries to sign up with an email address with a domain that doesn't receive emails
+auth-error-1064 = Sbagl da tippar en l’adressa dad e-mail? { $domain } n’è nagin servetsch dad e-mail valid
+auth-error-1066 = I n’è betg pussaivel da duvrar alias dad e-mail per crear in conto.
+auth-error-1067 = Sbagl da tippar en l’adressa dad e-mail?
 # Displayed when we want to reference a user's previously set up recovery phone
 # number, but they are not completely signed in yet. We'll only show the last 4 digits.
 # Variables:
@@ -1279,6 +1293,8 @@ cookies-disabled-learn-more = Ulteriuras infurmaziuns
 index-header = Endatescha tia adressa dad e-mail
 index-sync-header = Ir tar tes { -product-mozilla-account }
 index-sync-subheader = Sincronisescha tes pleds-clav, tabs e segnapaginas dapertut là nua che ti utiliseschas { -brand-firefox }.
+index-relay-header = Crear in alias dad e-mail
+index-relay-subheader = Inditgescha per plaschair l’adressa dad e-mail a la quala ti vuls trametter e-mails drizzads a tes alias.
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = Cuntinuar sin { $serviceName }
 index-subheader-with-logo = Cuntinuar sin <span>{ $serviceLogo }</span>
@@ -1287,6 +1303,10 @@ index-cta = Sa registrar u s’annunziar
 index-account-info = In { -product-mozilla-account } dat era access ad ulteriurs products da { -brand-mozilla } che servan a la protecziun da datas.
 index-email-input =
     .label = Endatescha tia adressa dad e-mail
+# When users delete their Mozilla account inside account Settings, they are redirected to this page with a success message
+index-account-delete-success = Stizzà cun success il conto
+# Displayed when users try to sign up for an account and their confirmation code email bounces
+index-email-bounced = Tes e-mail da conferma è gist returnà. Has ti fatg in sbagl cun tippar l’adressa dad e-mail?
 
 ## InlineRecoveryKeySetup page component
 
@@ -1716,6 +1736,11 @@ signin-recovery-phone-send-code-error-heading = Igl ha dà in problem cun tramet
 signin-recovery-phone-code-verification-error-heading = Igl ha dà in problem cun verifitgar tes code
 # Follows the error message (e.g, "There was a problem sending a code")
 signin-recovery-phone-general-error-description = Emprova per plaschair pli tard anc ina giada.
+signin-recovery-phone-invalid-code-error-description = Il code è nunvalid u scadì.
+signin-recovery-phone-invalid-code-error-link = Utilisar enstagl ils codes d’autentificaziun da backup?
+# "Limits" refers to potential restrictions on how often a recovery phone number can be used for signing in within a given time period.
+# If limits are reached, users may have to use an alternate two-step authentication method or wait until the restriction period is over.
+signin-recovery-phone-success-message = Annunzià cun success. Eventualmain vegnan applitgadas limitas sche ti utiliseschas danovamain tes numer da telefon da recuperaziun.
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 

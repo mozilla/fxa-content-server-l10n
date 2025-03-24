@@ -12,6 +12,11 @@ next-payment-method-first-approve = L'emprim stos ti approvar tes abunament
 ## Page - Upgrade page
 
 upgrade-page-payment-information = Infurmaziuns da pajament
+# $nextInvoiceDate (number) - The date of the next invoice
+upgrade-page-acknowledgment =
+    Tes plan vegn immediat midà ed i vegn debità oz ina summa proporziunala
+    per il rest da tes ciclus da facturaziun. A partir dals { $nextInvoiceDate }
+    vegn debità l’entir import.
 checkout-error-boundary-retry-button = Empruvar anc ina giada
 checkout-error-boundary-basic-error-message = Igl ha dà in problem. Emprova per plaschair anc ina giada u <contactSupportLink>contactescha l’agid</contactSupportLink>.
 
@@ -82,6 +87,30 @@ next-coupon-submit = Applitgar
 
 # Component - Header
 
+payments-header-help =
+    .title = Agid
+    .aria-label = Agid
+    .alt = Agid
+payments-header-bento =
+    .title = Products da { -brand-mozilla }
+    .aria-label = Products da { -brand-mozilla }
+    .alt = Logo da { -brand-mozilla }
+payments-header-bento-close =
+    .alt = Serrar
+payments-header-bento-tagline = Ulteriurs products da { -brand-mozilla } che protegian tia sfera privata
+payments-header-bento-firefox-desktop = Navigatur { -brand-firefox } per computers desktop
+payments-header-bento-firefox-mobile = Navigatur { -brand-firefox } per apparats mobils
+payments-header-bento-monitor = { -product-mozilla-monitor }
+payments-header-bento-firefox-relay = { -product-firefox-relay }
+payments-header-bento-vpn = { -product-mozilla-vpn }
+payments-header-bento-pocket = { -product-pocket }
+payments-header-bento-made-by-mozilla = Realisà da { -brand-mozilla }
+payments-header-avatar =
+    .title = Menu { -product-mozilla-account }
+payments-header-avatar-icon =
+    .alt = Maletg da profil dal conto
+payments-header-avatar-expanded-signed-in-as = Annunzià sco
+payments-header-avatar-expanded-sign-out = Sortir
 payments-client-loading-spinner =
     .aria-label = Chargiar…
     .alt = Chargiar…
@@ -137,6 +166,7 @@ next-new-user-subscribe-product-assurance = Nus duvrain tia adressa dad e-mail m
 plan-price-interval-daily = { $amount } per di
 plan-price-interval-weekly = { $amount } per emna
 plan-price-interval-monthly = { $amount } per mais
+plan-price-interval-halfyearly = { $amount } mintga 6 mais
 plan-price-interval-yearly = { $amount } mintg’onn
 
 ## Component - SubscriptionTitle
@@ -145,6 +175,7 @@ next-subscription-create-title = Configurescha tes abunament
 next-subscription-success-title = Conferma da l'abunament.
 next-subscription-processing-title = Confermar l'abunament…
 next-subscription-error-title = Errur cun confermar l'abunament…
+subscription-title-plan-change-heading = Controllescha tia midada
 next-sub-guarantee = Garanzia da restituziun da 30 dis
 
 ## Component - TermsAndPrivacy
@@ -155,10 +186,26 @@ next-subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capita
 next-terms = Cundiziuns d'utilisaziun
 next-privacy = Infurmaziuns davart la protecziun da datas
 next-terms-download = Telechargiar las cundiziuns
+terms-and-privacy-stripe-label = { -brand-mozilla } utilisescha { -brand-name-stripe } per l’elavuraziun segira da pajaments.
+terms-and-privacy-stripe-link = Decleraziun davart la protecziun da datas da { -brand-name-stripe }
+terms-and-privacy-paypal-label = { -brand-mozilla } utilisescha { -brand-paypal } per l’elavuraziun segira da pajaments.
+terms-and-privacy-paypal-link = La decleraziun davart la protecziun da datas da { -brand-paypal }
+terms-and-privacy-stripe-and-paypal-label = { -brand-mozilla } utilisescha { -brand-name-stripe } e { -brand-paypal } per l’elavuraziun segira da pajaments.
 
 ## Component - UpdatedPurchaseDetails
 
+upgrade-purchase-details-current-plan-label = Plan actual
+upgrade-purchase-details-new-plan-label = Nov plan
+upgrade-purchase-details-promo-code = Code da promoziun
+upgrade-purchase-details-tax-label = Taglias e taxas
+upgrade-purchase-details-new-total-label = Nov total
+upgrade-purchase-details-prorated-upgrade = Midada cun custs calculads proporziunalmain
 
 ## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
 
+upgrade-purchase-details-new-plan-daily = { $productName } (mintga di)
+upgrade-purchase-details-new-plan-weekly = { $productName } (emnil)
+upgrade-purchase-details-new-plan-monthly = { $productName } (mensil)
+upgrade-purchase-details-new-plan-halfyearly = { $productName } (mintga 6 mais)
+upgrade-purchase-details-new-plan-yearly = { $productName } (annual)
