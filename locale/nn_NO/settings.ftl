@@ -283,6 +283,14 @@ recovery-key-image-aria-label =
     .aria-label = Illustrasjon som representerer ein kontogjenopprettingsnøkkel.
 password-image-aria-label =
     .aria-label = Ein illustrasjon av ei inntasting av eit passord
+recovery-phone-image-description =
+    .aria-label = Mobileining som får ein tekstmeldingskode
+recovery-phone-code-image-description =
+    .aria-label = Kode motteken på ei mobil eining.
+backup-recovery-phone-image-aria-label =
+    .aria-label = Mobileining med tekstmeldingsfunksjonar
+backup-authentication-codes-image-aria-label =
+    .aria-label = Einingsskjerm med kodar
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
