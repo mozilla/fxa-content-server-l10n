@@ -81,6 +81,33 @@ next-coupon-promo-code = Kampanjkod
 next-coupon-promo-code-applied = Kampanjkod tillämpas
 next-coupon-remove = Ta bort
 next-coupon-submit = Tillämpa
+
+# Component - Header
+
+payments-header-help =
+    .title = Hjälp
+    .aria-label = Hjälp
+    .alt = Hjälp
+payments-header-bento =
+    .title = { -brand-mozilla } produkter
+    .aria-label = { -brand-mozilla } produkter
+    .alt = { -brand-mozilla } logotyp
+payments-header-bento-close =
+    .alt = Stäng
+payments-header-bento-tagline = Fler produkter från { -brand-mozilla } som skyddar din integritet
+payments-header-bento-firefox-desktop = { -brand-firefox } webbläsare för datorer
+payments-header-bento-firefox-mobile = { -brand-firefox } webbläsare för mobil
+payments-header-bento-monitor = { -product-mozilla-monitor }
+payments-header-bento-firefox-relay = { -product-firefox-relay }
+payments-header-bento-vpn = { -product-mozilla-vpn }
+payments-header-bento-pocket = { -product-pocket }
+payments-header-bento-made-by-mozilla = Skapad av { -brand-mozilla }
+payments-header-avatar =
+    .title = { -product-mozilla-account }-meny
+payments-header-avatar-icon =
+    .alt = Kontots profilbild
+payments-header-avatar-expanded-signed-in-as = Inloggad som
+payments-header-avatar-expanded-sign-out = Logga ut
 payments-client-loading-spinner =
     .aria-label = Laddar…
     .alt = Laddar…

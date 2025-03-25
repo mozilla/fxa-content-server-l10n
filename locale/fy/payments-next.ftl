@@ -81,6 +81,33 @@ next-coupon-promo-code = Promoasjekoade
 next-coupon-promo-code-applied = Promoasjekoade tapast
 next-coupon-remove = Fuortsmite
 next-coupon-submit = Tapasse
+
+# Component - Header
+
+payments-header-help =
+    .title = Help
+    .aria-label = Help
+    .alt = Help
+payments-header-bento =
+    .title = { -brand-mozilla }-produkten
+    .aria-label = { -brand-mozilla }-produkten
+    .alt = { -brand-mozilla }-logo
+payments-header-bento-close =
+    .alt = Slute
+payments-header-bento-tagline = Mear produkten fan { -brand-mozilla } dy’t jo privacy beskermje
+payments-header-bento-firefox-desktop = { -brand-firefox } Browser foar desktop
+payments-header-bento-firefox-mobile = { -brand-firefox } Browser foar mobyl
+payments-header-bento-monitor = { -product-mozilla-monitor }
+payments-header-bento-firefox-relay = { -product-firefox-relay }
+payments-header-bento-vpn = { -product-mozilla-vpn }
+payments-header-bento-pocket = { -product-pocket }
+payments-header-bento-made-by-mozilla = Makke troch { -brand-mozilla }
+payments-header-avatar =
+    .title = { -product-mozilla-account }-menu
+payments-header-avatar-icon =
+    .alt = Accountprofylôfbylding
+payments-header-avatar-expanded-signed-in-as = Oanmeld as
+payments-header-avatar-expanded-sign-out = Ofmelde
 payments-client-loading-spinner =
     .aria-label = Lade…
     .alt = Lade…
