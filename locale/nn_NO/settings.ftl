@@ -222,6 +222,15 @@ icon-attention-aria-label =
 # Aria-label option for an alert symbol
 icon-warning-aria-label =
     .aria-label = Åtvaring
+authenticator-app-aria-label =
+    .aria-label = Godkjenningsapp
+backup-codes-icon-aria-label-v2 =
+    .aria-label = Reserve-godkjenningskodar slått på
+backup-codes-disabled-icon-aria-label-v2 =
+    .aria-label = Reserve-godkjenningskodar slått av
+# An icon of phone with text message. A back recovery phone number
+backup-recovery-sms-icon-aria-label =
+    .aria-label = Gjennopprettings-SMS slått på
 # Used to select Canada as country code for phone number
 canadian-flag-icon-aria-label =
     .aria-label = Canadisk flagg
@@ -441,7 +450,7 @@ bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-3 = { -product-mozilla-monitor }
 bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
-bento-menu-firefox-desktop = { -brand-firefox }-nettlesar for datamaskiner
+bento-menu-firefox-desktop = { -brand-firefox }-nettlesaren for datamaskiner
 bento-menu-firefox-mobile = { -brand-firefox }-nettlesar for mobil
 bento-menu-made-by-mozilla = Laga av { -brand-mozilla }
 
