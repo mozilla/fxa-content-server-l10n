@@ -54,6 +54,29 @@ new-user-invalid-email-domain = Salah ketik surel? { $domain } tidak menawarkan 
 
 payment-confirmation-thanks-heading = Terima kasih!
 payment-confirmation-thanks-heading-account-exists = Terima kasih, sekarang periksa surel Anda!
+# $email (string) - The user's email.
+# $productName (String) - The name of the subscribed product.
+payment-confirmation-thanks-subheading = Surel konfirmasi telah dikirim ke { $email } dengan detail tentang cara memulai { $product_name }.
+# $email (string) - The user's email.
+payment-confirmation-thanks-subheading-account-exists = Anda akan menerima surel di { $email } dengan instruksi untuk menyiapkan akun Anda, serta detail pembayaran Anda.
+payment-confirmation-order-heading = Detail pesanan
+# $invoiceDate (Date) - Start date of the latest invoice
+payment-confirmation-invoice-date = { $invoiceDate }
+payment-confirmation-details-heading-2 = Informasi pembayaran
+payment-confirmation-amount = { $amount } per { $interval }
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $intervalCount (Number) - The interval between payments, in days.
+payment-confirmation-amount-day = { $amount } setiap { $intervalCount } hari
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $intervalCount (Number) - The interval between payments, in weeks.
+payment-confirmation-amount-week = { $amount } setiap { $intervalCount } pekan
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $intervalCount (Number) - The interval between payments, in months.
+payment-confirmation-amount-month = { $amount } setiap { $intervalCount } bulan
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $intervalCount (Number) - The interval between payments, in years.
+payment-confirmation-amount-year = { $amount } setiap { $intervalCount } tahun
+payment-confirmation-download-button = Lanjutkan mengunduh
 
 ## Component - PaymentConsentCheckbox
 
@@ -113,6 +136,7 @@ subscription-success-title = Konfirmasi berlangganan
 
 terms = Ketentuan Layanan
 privacy = Pemberitahuan Privasi
+terms-download = Unduh Ketentuan
 
 ## App-level string(s) and messages shared by multiple components or routes
 
@@ -122,6 +146,8 @@ document =
 close-aria =
     .aria-label = Tutup
 settings-subscriptions-title = Langganan
+# Title of container where a user can input a coupon code to get a discount on a subscription.
+coupon-promo-code = Kode Promo
 
 ## Subscription upgrade plan details - shared by multiple components, including plan details and payment form
 ## $amount (Number) - The amount billed. It will be formatted as currency.
