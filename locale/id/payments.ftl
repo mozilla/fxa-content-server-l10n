@@ -168,6 +168,7 @@ instant-payouts-unsupported = Sepertinya kartu debit Anda tidak disiapkan untuk 
 duplicate-transaction = Hmm. Sepertinya transaksi identik baru saja dikirim. Periksa riwayat pembayaran Anda.
 coupon-expired = Sepertinya kode promo telah kedaluwarsa.
 card-error = Transaksi Anda tidak dapat diproses. Harap verifikasi informasi kartu kredit Anda dan coba lagi.
+country-currency-mismatch = Mata uang untuk langganan ini tidak berlaku di negara yang terkait dengan pembayaran Anda.
 product-plan-error =
     .title = Bermasalah saat memuat rincian paket
 product-profile-error =
