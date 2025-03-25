@@ -434,6 +434,7 @@ postSigninRecoveryCode-description = Viss du ikkje gjorde dette, bør du endre p
 postSigninRecoveryCode-device = Du logga inn frå:
 postSigninRecoveryCode-action = Handsam kontoen
 postSigninRecoveryPhone-preview = Stadfest kontoaktivitet
+postSigninRecoveryPhone-description = Viss du ikkje gjorde dette, bør du endre passordet ditt omgåande for å halde kontoen din trygg.
 postSigninRecoveryPhone-device = Du logga inn frå:
 postSigninRecoveryPhone-action = Handsam kontoen
 postVerify-sub-title-3 = Vi er glade for å sjå deg!
@@ -688,6 +689,7 @@ verifySecondaryCode-expiry-notice-2 = Den går ut om 5 minutt. Når den er bekre
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = Stadfest kontoen din
+verifyShortCode-preview = Bruk den medfølgjande koden for å stadfeste { -product-mozilla-account }en din.
 verifyShortCode-title-3 =
     Opne internett med
      { -brand-mozilla }

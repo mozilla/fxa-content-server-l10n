@@ -8,6 +8,7 @@ next-payment-method-header = Vel betalingsmåte
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = Først må du godkjenne abonnementet ditt
+location-required-header = Vel land og skriv inn postnummer.
 
 ## Page - Upgrade page
 
@@ -82,6 +83,10 @@ next-coupon-submit = Bruk
 
 # Component - Header
 
+payments-header-help =
+    .title = Hjelp
+    .aria-label = Hjelp
+    .alt = Hjelp
 payments-client-loading-spinner =
     .aria-label = Lastar…
     .alt = Lastar…
