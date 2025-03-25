@@ -8,6 +8,7 @@ next-payment-method-header = נא לבחור את שיטת התשלום שלך
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = ראשית יש לאשר את המינוי שלך
+location-required-header = נא לבחור במדינה שלך ולהזין את המיקוד שלך.
 
 ## Page - Upgrade page
 
