@@ -265,6 +265,7 @@ fraudulentAccountDeletion-contact = Viss du har spørsmål, kontakt <a data-l10n
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Viss du har spørsmål, kontakt support-teamet vårt: { $mozillaSupportUrl }
+inactiveAccountFinalWarning-subject = Siste sjansje til å behalde { -product-mozilla-account }en din
 inactiveAccountFinalWarning-title = { -brand-mozilla }-kontoen din og data vil bli sletta
 inactiveAccountFinalWarning-preview = Logg inn for å behalde kontoen din
 inactiveAccountFinalWarning-account-description = { -product-mozilla-account }en din vert brukt til å få tilgang til gratis personvern- og surfeprodukt som { -brand-firefox } sync, { -product-mozilla-monitor }, { -product-firefox-relay } og { -product-mdn }.
@@ -365,7 +366,11 @@ postAddLinkedAccount-subject-2 = Ny konto knytt til { -product-mozilla-account }
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = { $providerName }-kontoen din er kopla til { -product-mozilla-account }-en din
 postAddLinkedAccount-action = Handsam kontoen
+postAddRecoveryPhone-preview = Kontoen er verna av tostegs-godkjenning
 postAddRecoveryPhone-title = Du oppretta eit gjenoprettingstelefonnummer
+# Variables:
+#  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
+postAddRecoveryPhone-description-v2 = Du la til { $maskedLastFourPhoneNumber } som gjenopprettingstelefonnummer
 # Links out to a support article about two factor authentication
 postAddRecoveryPhone-how-protect = Korleis dette vernar kontoen din
 postAddRecoveryPhone-how-protect-plaintext = Korleis dette vernar kontoen din:
@@ -408,6 +413,7 @@ postRemoveAccountRecovery-title-3 = Du sletta kontogjenopprettingsnøkkelen din
 postRemoveAccountRecovery-body-part1 = Kontogjenopprettingsnøkkelen din er påkravd for å gjenopprette dei krypterte nettlesardataa dine viss du gløymer passordet ditt.
 postRemoveAccountRecovery-body-part2 = Viss du ikkje allereie har gjort det, kan du opprette ein ny kontogjenopprettingsnøkkel i kontoinnstillingane dine for å hindre at du mistar lagra passord, bokmerke, nettlesarhistorikk, og meir.
 postRemoveAccountRecovery-action = Handsam kontoen
+postRemoveRecoveryPhone-preview = Kontoen er verna av tostegs-godkjenning
 postRemoveRecoveryPhone-requested-device = Du ba om det frå:
 postRemoveSecondary-subject = Sekundær e-postadesse fjerna
 postRemoveSecondary-title = Sekundær e-postadesse fjerna
