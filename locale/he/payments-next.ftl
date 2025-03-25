@@ -9,6 +9,8 @@ next-payment-method-header = נא לבחור את שיטת התשלום שלך
 payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = ראשית יש לאשר את המינוי שלך
 location-required-header = נא לבחור במדינה שלך ולהזין את המיקוד שלך.
+location-required-subheader = לא הצלחנו לזהות את המיקום שלך באופן אוטומטי.
+location-required-disclaimer = אנו משתמשים במידע זה רק לחישוב מיסים ומטבעות.
 
 ## Page - Upgrade page
 

@@ -1801,11 +1801,11 @@ msgstr "<span class=\"number\">4</span>Masuk ke akun Anda"
 
 #: .es5/templates/partial/account-suggestion.mustache:1
 msgid "Why do I need to create this account? <a %(escapedSuggestionAttrs)s>Find out here</a>"
-msgstr ""
+msgstr "Mengapa saya perlu membuat akun ini? <a %(escapedSuggestionAttrs)s>Temukan jawabannya di sini</a>"
 
 #: .es5/templates/partial/brand-messaging.mustache:2
 msgid "Firefox accounts will be renamed Mozilla accounts on Nov 1"
-msgstr ""
+msgstr "Akun Firefox akan diganti namanya menjadi akun Mozilla pada 1 Nov"
 
 #: .es5/templates/partial/brand-messaging.mustache:3
 msgid "You’ll still sign in with the same username and password, and there are no other changes to the products that you use."
@@ -1968,23 +1968,23 @@ msgstr ""
 
 #: .es5/templates/pair/index.mustache:1
 msgid "Signed in successfully!"
-msgstr ""
+msgstr "Berhasil masuk!"
 
 #: .es5/templates/pair/index.mustache:8
 msgid "Sync your Firefox experience"
-msgstr ""
+msgstr "Sinkronkan pengalaman Firefox Anda"
 
 #: .es5/templates/pair/index.mustache:9
 msgid "Download Firefox for mobile"
-msgstr ""
+msgstr "Unduh Firefox untuk seluler"
 
 #: .es5/templates/pair/index.mustache:11
 msgid "View your saved passwords, tabs, browsing history and more — across all your devices."
-msgstr ""
+msgstr "Lihat sandi tersimpan, tab, riwayat penjelajahan, dan lainnya — di semua perangkat Anda."
 
 #: .es5/templates/pair/index.mustache:12
 msgid "Select an option to continue:"
-msgstr ""
+msgstr "Pilih opsi untuk melanjutkan:"
 
 #: .es5/templates/pair/index.mustache:13
 msgid "I already have Firefox for mobile"
@@ -2004,7 +2004,7 @@ msgstr ""
 
 #: .es5/templates/pair/index.mustache:18 .es5/templates/pair/index.mustache:24
 msgid "Not now"
-msgstr ""
+msgstr "Tidak sekarang"
 
 #: .es5/templates/pair/index.mustache:19
 msgid "To sync Firefox on your phone or tablet, you first need to download Firefox for mobile. Here’s how:"
@@ -2024,7 +2024,7 @@ msgstr ""
 
 #: .es5/templates/pair/index.mustache:23
 msgid "Continue to sync"
-msgstr ""
+msgstr "Lanjutkan sinkronisasi"
 
 #: .es5/templates/pair/success.mustache:2
 msgid "Device successfully paired"
