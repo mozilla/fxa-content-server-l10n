@@ -8,6 +8,9 @@ next-payment-method-header = Wählen Sie Ihre Zahlungsmethode
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = Zuerst müssen Sie Ihren Dauerauftrag genehmigen
+location-required-header = Bitte wählen Sie Ihr Land und geben Sie Ihre Postleitzahl ein.
+location-required-subheader = Wir konnten Ihren Standort nicht automatisch erkennen.
+location-required-disclaimer = Wir verwenden diese Informationen nur, um Steuern und Währung zu berechnen.
 
 ## Page - Upgrade page
 

@@ -8,6 +8,9 @@ next-payment-method-header = Válassza ki a fizetési módot
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = Először jóvá kell hagynia az előfizetését
+location-required-header = Válassza ki az országot és adja meg az irányítószámát.
+location-required-subheader = Nem tudtuk automatikusan észlelni a tartózkodási helyét.
+location-required-disclaimer = Ezeket az információkat csak az adók és a pénznem kiszámításához használjuk.
 
 ## Page - Upgrade page
 
