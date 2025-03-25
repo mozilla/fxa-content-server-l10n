@@ -10,6 +10,7 @@ payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = Сначала вам необходимо подтвердить подписку
 location-required-header = Пожалуйста выберите страну и введите ваш почтовый индекс.
 location-required-subheader = Мы не смогли определить ваше местоположение автоматически.
+location-required-disclaimer = Мы используем эту информацию только для расчёта налогов и обмена валюты.
 
 ## Page - Upgrade page
 
