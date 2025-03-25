@@ -10,7 +10,7 @@ payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = Yn gyntaf bydd angen i chi gymeradwyo'ch tanysgrifiad
 location-required-header = Dewiswch eich gwlad a rhowch eich cod post.
 location-required-subheader = Nid oeddem yn gallu canfod eich lleoliad yn awtomatig.
-location-required-disclaimer = Dim ond i gyfrifo trethi ac arian cyfred yr ydym yn defnyddio'r wybodaeth hon.
+location-required-disclaimer = Dim ond i gyfrifo trethi ac arian cyfred rydym yn defnyddio'r wybodaeth hon.
 
 ## Page - Upgrade page
 
