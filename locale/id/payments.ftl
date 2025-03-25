@@ -6,9 +6,22 @@
 ## Component - AppLayout
 
 settings-home = Beranda Akun
+settings-project-header-title = { -product-mozilla-account }
 
 ## Component - CouponForm
 
+# Title of container showing discount coupon code applied to a subscription.
+coupon-promo-code-applied = Kode Promo Diterapkan
+coupon-submit = Terapkan
+coupon-remove = Hapus
+coupon-error = Kode yang Anda masukkan tidak valid atau kedaluwarsa.
+coupon-error-generic = Terjadi kesalahan saat memproses kode. Silakan coba lagi.
+coupon-error-expired = Kode yang Anda masukkan sudah kedaluwarsa.
+coupon-error-limit-reached = Kode yang Anda masukkan telah mencapai batasnya.
+coupon-error-invalid = Kode yang Anda masukkan tidak valid.
+# $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
+coupon-enter-code =
+    .placeholder = Masukkan Kode
 
 ## Component - Fields
 
@@ -17,12 +30,30 @@ input-error-is-required = { $label } diperlukan
 
 ## Component - Header
 
+brand-name-mozilla-logo = Logo { -brand-mozilla }
 
 ## Component - NewUserEmailForm
 
+new-user-sign-in-link-2 = Sudah memiliki { -product-mozilla-account }? <a>Masuk</a>
+# "Required" to indicate that the user must use the checkbox below this text to
+# agree to a payment method's terms of service and privacy notice in order to
+# continue.
+new-user-enter-email =
+    .label = Masukkan surel Anda
+new-user-confirm-email =
+    .label = Konfirmasi surel Anda
+new-user-subscribe-product-updates-mozilla = Saya ingin menerima berita dan pembaruan produk dari { -brand-mozilla }
+new-user-subscribe-product-assurance = Kami hanya menggunakan alamat surel Anda untuk membuat akun. Kami tidak akan pernah menjualnya kepada pihak ketiga.
+new-user-email-validate = Surel tidak valid
+new-user-email-validate-confirm = Surel tidak cocok
+new-user-already-has-account-sign-in = Anda sudah memiliki akun. <a>Masuk</a>
+# $domain (String) - the email domain provided by the user during sign up
+new-user-invalid-email-domain = Salah ketik surel? { $domain } tidak menawarkan surel.
 
 ## Component - PaymentConfirmation
 
+payment-confirmation-thanks-heading = Terima kasih!
+payment-confirmation-thanks-heading-account-exists = Terima kasih, sekarang periksa surel Anda!
 
 ## Component - PaymentConsentCheckbox
 
