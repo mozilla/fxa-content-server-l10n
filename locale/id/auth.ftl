@@ -675,4 +675,8 @@ verifySecondaryCode-expiry-notice-2 = Kedaluwarsa dalam 5 menit. Setelah dikonfi
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = Konfirmasikan akun Anda
 verifyShortCode-preview = Gunakan kode yang disertakan untuk mengonfirmasi { -product-mozilla-account } Anda.
+verifyShortCode-title-3 = Buka internet dengan { -brand-mozilla }
+# Information on the browser and device triggering this confirmation email follows below this string.
+verifyShortCode-title-subtext-2 = Konfirmasikan akun Anda dan dapatkan manfaat maksimal dari { -brand-mozilla } di mana pun Anda masuk dimulai dengan:
+verifyShortCode-prompt-3 = Gunakan kode konfirmasi ini:
 verifyShortCode-expiry-notice = Kedaluwarsa dalam 5 menit.
