@@ -130,7 +130,7 @@ next-coupon-success-repeating = Din plan fornys automatisk til listeprisen efter
 
 ## Select Tax Location
 
-select-tax-location-title = Placering
+select-tax-location-title = Position
 select-tax-location-edit-button = Rediger
 select-tax-location-save-button = Gem
 select-tax-location-country-code-label = Land
@@ -143,8 +143,8 @@ select-tax-location-postal-code =
     .placeholder = Indtast dit postnummer
 select-tax-location-error-missing-postal-code = Indtast dit postnummer
 select-tax-location-error-invalid-postal-code = Indtast et gyldigt postnummer
-select-tax-location-successfully-updated = Din placering er blevet opdateret.
-select-tax-location-error-location-not-updated = Din placering kunne ikke opdateres. Prøv igen.
+select-tax-location-successfully-updated = Din position er blevet opdateret.
+select-tax-location-error-location-not-updated = Din position kunne ikke opdateres. Prøv igen.
 signin-form-continue-button = Fortsæt
 signin-form-email-input = Indtast din mailadresse
 signin-form-email-input-missing = Indtast din mailadresse

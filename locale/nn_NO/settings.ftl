@@ -231,6 +231,9 @@ backup-codes-disabled-icon-aria-label-v2 =
 # An icon of phone with text message. A back recovery phone number
 backup-recovery-sms-icon-aria-label =
     .aria-label = Gjennopprettings-SMS slått på
+# Disabled version of backup-recovery-sms-icon-aria-label
+backup-recovery-sms-disabled-icon-aria-label =
+    .aria-label = Gjennopprettings-SMS slått av
 # Used to select Canada as country code for phone number
 canadian-flag-icon-aria-label =
     .aria-label = Canadisk flagg
@@ -254,6 +257,9 @@ error-icon-aria-label =
 # Used as information icon for informative messaging
 info-icon-aria-label =
     .aria-label = Informasjon
+# Used to select United States as a country code for phone number
+usa-flag-icon-aria-label =
+    .aria-label = Det USA-amerikanske flagget
 
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
@@ -275,6 +281,8 @@ security-shield-aria-label =
 # Used for an image of a single key.
 recovery-key-image-aria-label =
     .aria-label = Illustrasjon som representerer ein kontogjenopprettingsnøkkel.
+password-image-aria-label =
+    .aria-label = Ein illustrasjon av ei inntasting av eit passord
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
