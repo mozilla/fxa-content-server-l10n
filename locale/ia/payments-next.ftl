@@ -8,6 +8,9 @@ next-payment-method-header = Elige tu methodo de pagamento
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = Primo tu debera approbar tu subscription
+location-required-header = Selige tu pais e insere tu codice postal.
+location-required-subheader = Impossibile deteger tu location automaticamente.
+location-required-disclaimer = Nos solo usa iste information pro calcular taxas e valuta.
 
 ## Page - Upgrade page
 
