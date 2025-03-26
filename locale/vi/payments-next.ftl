@@ -8,6 +8,9 @@ next-payment-method-header = Chọn phương thức thanh toán của bạn
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = Trước tiên, bạn sẽ cần phê duyệt thuê bao của mình
+location-required-header = Vui lòng chọn quốc gia và nhập mã bưu chính của bạn.
+location-required-subheader = Chúng tôi không thể tự động phát hiện vị trí của bạn.
+location-required-disclaimer = Chúng tôi chỉ sử dụng thông tin này để tính thuế và tiền tệ.
 
 ## Page - Upgrade page
 
@@ -84,6 +87,30 @@ next-coupon-submit = Áp dụng
 
 # Component - Header
 
+payments-header-help =
+    .title = Trợ giúp
+    .aria-label = Trợ giúp
+    .alt = Trợ giúp
+payments-header-bento =
+    .title = Các sản phẩm { -brand-mozilla }
+    .aria-label = Các sản phẩm  { -brand-mozilla }
+    .alt = Logo { -brand-mozilla }
+payments-header-bento-close =
+    .alt = Đóng
+payments-header-bento-tagline = Các sản phẩm khác từ { -brand-mozilla } bảo vệ quyền riêng tư của bạn
+payments-header-bento-firefox-desktop = Trình duyệt { -brand-firefox } dành cho máy tính để bàn
+payments-header-bento-firefox-mobile = Trình duyệt { -brand-firefox } dành cho di động
+payments-header-bento-monitor = { -product-mozilla-monitor }
+payments-header-bento-firefox-relay = { -product-firefox-relay }
+payments-header-bento-vpn = { -product-mozilla-vpn }
+payments-header-bento-pocket = { -product-pocket }
+payments-header-bento-made-by-mozilla = Được tạo bởi { -brand-mozilla }
+payments-header-avatar =
+    .title = Menu { -product-mozilla-account }
+payments-header-avatar-icon =
+    .alt = Ảnh đại diện cho tài khoản
+payments-header-avatar-expanded-signed-in-as = Đã đăng nhập với tài khoản
+payments-header-avatar-expanded-sign-out = Đăng xuất
 payments-client-loading-spinner =
     .aria-label = Đang tải…
     .alt = Đang tải…
