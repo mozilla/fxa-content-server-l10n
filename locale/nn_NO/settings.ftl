@@ -366,6 +366,7 @@ confirmation-link-reused-message = Denne stadfestingslenka er allereie brukt, og
 ## Notification Promo Banner component
 
 account-recovery-notification-cta = Opprett
+account-recovery-notification-header-value = Ikkje mist dataa dine om du gløymer passordet ditt
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Ugyldig førespurnad
 
