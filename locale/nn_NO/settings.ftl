@@ -779,6 +779,8 @@ recent-activity-account-password-changed = Passordet er endra
 recent-activity-account-secondary-email-added = Sekundær e-postadesse lagt til
 recent-activity-account-secondary-email-removed = Sekundær e-postadesse fjerna
 recent-activity-account-emails-swapped = Primær og sekundær e-post er bytt om
+recent-activity-account-recovery-phone-send-code = Telefonkode for gjenoppretting sendt
+recent-activity-account-recovery-phone-setup-complete = Konfigurasjon av gjenopprettingstelefon er fullført
 recent-activity-account-recovery-phone-removed = Gjenopprettingstelefon fjerna
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Annan kontoaktivitet
@@ -794,6 +796,7 @@ recovery-key-create-back-button-title = Tilbake til innstillingar
 ## PageRecoveryPhoneRemove
 ## Users reach this page from account settings when they want to remove a backup phone number.
 
+recovery-phone-remove-header = Fjern telefonnummeret for gjenoppretting
 settings-recovery-phone-remove-button = Fjern telefonnummeret
 settings-recovery-phone-remove-cancel = Avbryt
 settings-recovery-phone-remove-success = Gjenopprettingstelefon fjerna
@@ -1064,6 +1067,9 @@ auth-error-159 = Ugyldig kontogjenopprettingsnøkkel
 auth-error-183-2 = Ugyldig eller utgått stadfestingskode
 auth-error-202 = Funksjonen er ikkje aktivert
 auth-error-203 = Systemet utilgjengeleg, prøv igjen seinare
+auth-error-214 = Gjenopprettings-telefonnummeret finst allereie
+auth-error-215 = Gjenopprettings-telefonnummeret finst ikkje
+auth-error-218 = Klarte ikkje å fjerne gjenopprettingstelefonen, manglar reserve-godkjenningskodar.
 auth-error-999 = Uventa feil
 auth-error-1001 = Innloggingsforsøket avbrote
 auth-error-1002 = Økta er slutt. Logg inn for å halde fram.
