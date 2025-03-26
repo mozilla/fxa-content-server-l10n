@@ -613,6 +613,11 @@ flow-setup-phone-confirm-code-success-message-v2 = Gjenopprettingstelefon lagt t
 ## FlowSetupPhoneConfirmCode
 
 flow-setup-phone-submit-number-heading = Stadfest telefonnummeret ditt
+# The initial rollout of the recovery phone is only available to users with US and Canada mobile phone numbers.
+# Voice over Internet Protocol (VoIP), is a technology that uses a broadband Internet connection instead of a regular (or analog) phone line to make calls.
+# Phone mask services (for example Relay) provide a temporary virtual number to avoid providing a real phone number.
+# Both VoIP and phone masks can be unreliable for one-time-passcode (OTP) verification
+flow-setup-phone-submit-number-info-message-v2 = Gjenopprettingstelefon er berre tilgjengeleg i USA og Canada. VoIP-nummer og telefonalias er ikkje tilrådd.
 # cliking on the button sends a code by text message to the phone number typed in by the user
 flow-setup-phone-submit-number-button = Send kode
 
@@ -781,6 +786,8 @@ recent-activity-account-secondary-email-removed = Sekundær e-postadesse fjerna
 recent-activity-account-emails-swapped = Primær og sekundær e-post er bytt om
 recent-activity-account-recovery-phone-send-code = Telefonkode for gjenoppretting sendt
 recent-activity-account-recovery-phone-setup-complete = Konfigurasjon av gjenopprettingstelefon er fullført
+recent-activity-account-recovery-phone-signin-complete = Innlogging med gjennopprettingstelefonen fullført
+recent-activity-account-recovery-phone-signin-failed = Mislykka innlogging med gjennopprettingstelefonen
 recent-activity-account-recovery-phone-removed = Gjenopprettingstelefon fjerna
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Annan kontoaktivitet
@@ -797,6 +804,9 @@ recovery-key-create-back-button-title = Tilbake til innstillingar
 ## Users reach this page from account settings when they want to remove a backup phone number.
 
 recovery-phone-remove-header = Fjern telefonnummeret for gjenoppretting
+# Variables:
+#   $formattedFullPhoneNumber (String) - the user's full phone number
+settings-recovery-phone-remove-info = Dette vil fjerne <strong>{ $formattedFullPhoneNumber }</strong> som din gjenopprettingstelefon.
 settings-recovery-phone-remove-button = Fjern telefonnummeret
 settings-recovery-phone-remove-cancel = Avbryt
 settings-recovery-phone-remove-success = Gjenopprettingstelefon fjerna
@@ -1460,6 +1470,8 @@ signin-push-code-confirm-link-error = Lenka er skadd. Prøv igjen.
 signin-recovery-method-header = Logg inn
 signin-recovery-method-phone = Gjenopprettingstelefon
 signin-recovery-method-code-v2 = Reserve-godkjenningskodar
+# Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
+signin-recovery-method-send-code-error-heading = Det oppstod eit problem med å sende ein kode til gjenopprettingstelefonen din
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
@@ -1479,6 +1491,10 @@ signin-recovery-code-phone-link = Bruk gjenopprettingstelefon
 signin-recovery-code-support-link = Er du sperra ute?
 # Error displayed in a tooltip when form is submitted witout a code
 signin-recovery-code-required-error = Reserve-autentiseringskode påkravd
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-recovery-code-use-phone-failure = Det oppstod eit problem med å sende ein kode til gjenopprettingstelefonen din
 signin-recovery-code-use-phone-failure-description = Prøv igjen seinare.
 
 ## SigninRecoveryPhone page
@@ -1494,6 +1510,9 @@ signin-recovery-phone-resend-success = Kode sendt
 signin-recovery-phone-locked-out-link = Er du sperra ute?
 # Follows the error message (e.g, "There was a problem sending a code")
 signin-recovery-phone-general-error-description = Prøv igjen seinare.
+# "Limits" refers to potential restrictions on how often a recovery phone number can be used for signing in within a given time period.
+# If limits are reached, users may have to use an alternate two-step authentication method or wait until the restriction period is over.
+signin-recovery-phone-success-message = Inlogga. Avgrensingar kan gjelde om du brukar gjenopprettingstelefonen din igjen.
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
