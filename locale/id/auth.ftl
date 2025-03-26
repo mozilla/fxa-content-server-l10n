@@ -616,6 +616,7 @@ subscriptionSubsequentInvoice-title = Terima kasih telah menjadi pelanggan!
 # Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
 subscriptionSubsequentInvoice-content-next-invoice = Tagihan Berikutnya: { $nextInvoiceDateOnly }
+subscriptionUpgrade-auto-renew = Langganan Anda akan diperpanjang secara otomatis setiap periode penagihan kecuali Anda memilih untuk membatalkan.
 unblockCode-subject = Kode otorisasi akun
 unblockCode-title = Apakah Anda benar-benar sedang masuk?
 unblockCode-prompt = Jika ya, ini adalah kode otorisasi yang Anda butuhkan:
