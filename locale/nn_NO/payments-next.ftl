@@ -10,6 +10,7 @@ payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = Først må du godkjenne abonnementet ditt
 location-required-header = Vel land og skriv inn postnummer.
 location-required-subheader = Vi klarte ikkje å oppdage plasseringa di automatisk.
+location-required-disclaimer = Vi brukar berre denne informasjonen til å rekne ut skattar og valuta.
 
 ## Page - Upgrade page
 

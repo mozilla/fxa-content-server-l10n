@@ -72,6 +72,7 @@ subplat-privacy-website-plaintext = { subplat-privacy }:
 account-deletion-info-block-communications = Dersom kontoen din vert sletta, vil du framleis få e-postar frå Mozilla Corporation og Mozilla Foundation, med mindre du <a data-l10n-name="unsubscribeLink">ber om å avslutte abonnementet</a>.
 account-deletion-info-block-support = Dersom du har spørsmål eller treng hjelp, kan du gjerne kontakte <a data-l10n-name="supportLink">støtteteamet</a> vårt.
 account-deletion-info-block-communications-plaintext = Dersom kontoen din vert sletta, vil du framleis få e-postar frå Mozilla Corporation og Mozilla Foundation, med mindre du ber om å avslutte abonnementet:
+account-deletion-info-block-support-plaintext = Om du har spørsmål, eller treng hjelp, er det berre å kontakte brukarstøtteteamet vårt:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-android-badge = <img data-l10n-name="google-play-badge" alt="Last ned { $productName } i { -google-play }">
@@ -99,6 +100,7 @@ automated-email-support = Gå til <a data-l10n-name="supportLink">{ -brand-mozil
 automated-email-change-plaintext-2 = Om du ikkje gjorde denne handlinga, endre passordet ditt med ein gong:
 #  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-support-plaintext = Gå til { -brand-mozilla } brukarstøtte for meir informasjon:
+automated-email-inactive-account = Dette er ein automatisert e-post. Du får han fordi du har ein { -product-mozilla-account } og det har gått 2 år sidan sist pålogging.
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } Gå til <a data-l10n-name="supportLink">{ -brand-mozilla } brukarstøtte</a> for meir informasjon.
 automated-email-no-action-plaintext = Denne e-posten vart sendt automatisk. Om du fekk den ved ein feil, treng du ikkje gjere noko.
