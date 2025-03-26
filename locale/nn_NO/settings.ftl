@@ -949,6 +949,7 @@ tfa-row-backup-phone-add-cta = Legg til
 tfa-row-backup-phone-delete-button = Fjern
 # Shown in tooltip on delete button or delete icon
 tfa-row-backup-phone-delete-title-v2 = Fjern gjenopprettingstelefon
+tfa-row-backup-phone-delete-restriction-v2 = Dersom du vil fjerne gjenopprettingstelefonen, legg til reserve-godkjenningskodar eller deaktivere tostegs-godkjenning først for å unngå å bli utestengd frå kontoen din.
 
 ## Switch component
 
@@ -1379,6 +1380,7 @@ confirm-reset-password-otp-different-account-link = Bruk ein annan konto
 ## PasswordResetConfirmTotp Page
 
 confirm-totp-reset-password-header = Tilbakestill passord
+confirm-totp-reset-password-subheader-v2 = Skriv inn tostegs-godkjenningskode
 confirm-totp-reset-password-trouble-code = Har du poblem med å taste inn koden?
 confirm-totp-reset-password-confirm-button = Stadfest
 confirm-totp-reset-password-input-label-v2 = Skriv inn 6-sifra kode
@@ -1468,6 +1470,7 @@ signin-push-code-confirm-link-error = Lenka er skadd. Prøv igjen.
 ## their password, and they previously had set up an account recovery method.
 
 signin-recovery-method-header = Logg inn
+signin-recovery-method-subheader = Vel ein gjenopprettingsmetode
 signin-recovery-method-phone = Gjenopprettingstelefon
 signin-recovery-method-code-v2 = Reserve-godkjenningskodar
 # Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
@@ -1543,6 +1546,7 @@ signin-token-code-required-error = Stadfestingskode påkravd
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
 signin-totp-code-header = Logg inn
+signin-totp-code-subheader-v2 = Skriv inn tostegs-godkjenningskode
 signin-totp-code-instruction-v4 = Sjekk <strong>autentiseringsappen</strong> for å stadfeste innlogginga.
 signin-totp-code-input-label-v4 = Skriv inn 6-sifra kode
 # Form button to confirm if the authentication code entered by the user is valid
