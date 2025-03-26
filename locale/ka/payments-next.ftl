@@ -8,6 +8,9 @@ next-payment-method-header = შეარჩიეთ გადახდის �
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = ჯერ უნდა დაამოწმოთ გამოწერა
+location-required-header = გთხოვთ მიუთითოთ თქვენი ქვეყანა და შეიყვანოთ თქვენი საფოსტო კოდი.
+location-required-subheader = თქვენი ადგილმდებარეობის თვითდადგენა ვერ მოხერხდა.
+location-required-disclaimer = ამ მონაცემებს ვიყენებთ მხოლოდ გადასახადებისა და გადასაცვლელი ვალუტის გამოსათვლელად.
 
 ## Page - Upgrade page
 
