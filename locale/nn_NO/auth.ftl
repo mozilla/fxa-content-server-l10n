@@ -375,6 +375,7 @@ postAddLinkedAccount-subject-2 = Ny konto knytt til { -product-mozilla-account }
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = { $providerName }-kontoen din er kopla til { -product-mozilla-account }-en din
 postAddLinkedAccount-action = Handsam kontoen
+postAddRecoveryPhone-subject = Gjenopprettingstelefon lagt til
 postAddRecoveryPhone-preview = Kontoen er verna av tostegs-godkjenning
 postAddRecoveryPhone-title = Du oppretta eit gjenoprettingstelefonnummer
 # Variables:
@@ -402,7 +403,10 @@ postChangePrimary-title = Ny primær e-postadresse
 #  $email (String) - A user's email address
 postChangePrimary-description-2 = Du har endra den primære e-postadressa di til { $email }. Denne adressa nyttar du som brukarnamn for å logge inn på { -product-mozilla-account }-en din, i tillegg til å ta imot sikkerheitsvarsel og stadfestingar på innloggingar.
 postChangePrimary-action = Handsam kontoen
+postChangeRecoveryPhone-subject = Gjenopprettingstelefon oppdatert
 postChangeRecoveryPhone-preview = Kontoen er verna av tostegs-godkjenning
+postChangeRecoveryPhone-title = Du endra gjenopprettingstelefon
+postChangeRecoveryPhone-description = Du har no ein ny gjenopprettingstelefon. Det førre telefon-nummeret ditt vart sletta.
 postChangeRecoveryPhone-requested-device = Du ba om det frå:
 postConsumeRecoveryCode-title-2 = Du brukte ein reserve-godkjenningskode
 # After the colon, there is description of the device that the backup authentication code was used on
@@ -423,6 +427,7 @@ postRemoveAccountRecovery-title-3 = Du sletta kontogjenopprettingsnøkkelen din
 postRemoveAccountRecovery-body-part1 = Kontogjenopprettingsnøkkelen din er påkravd for å gjenopprette dei krypterte nettlesardataa dine viss du gløymer passordet ditt.
 postRemoveAccountRecovery-body-part2 = Viss du ikkje allereie har gjort det, kan du opprette ein ny kontogjenopprettingsnøkkel i kontoinnstillingane dine for å hindre at du mistar lagra passord, bokmerke, nettlesarhistorikk, og meir.
 postRemoveAccountRecovery-action = Handsam kontoen
+postRemoveRecoveryPhone-subject = Gjenopprettingstelefon fjerna
 postRemoveRecoveryPhone-preview = Kontoen er verna av tostegs-godkjenning
 postRemoveRecoveryPhone-requested-device = Du ba om det frå:
 postRemoveSecondary-subject = Sekundær e-postadesse fjerna
