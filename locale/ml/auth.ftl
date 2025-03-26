@@ -47,6 +47,12 @@ subplat-legal = നിയമപരം
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = സ്വകാര്യത
 subplat-privacy-website-plaintext = { subplat-privacy }:
+# After the colon, there's a link to https://accounts.firefox.com/settings/change_password
+automated-email-change-plaintext-2 = താങ്ങൾ ഈ നടപടി എടുത്തില്ലെങ്കിൽ ഉടൻ തന്നെ താങ്ങളുടെ രഹസ്യവാക്കു് മാറ്റുക
+#  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+automated-email-support-plaintext = കൂടുതൽ വിവരത്തിനുവേണ്ടി { -brand-mozilla } പിന്തുണയിലേക്കു് ചെല്ലുക:
+# supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+automated-email-no-action = { automated-email-no-action-plaintext } കൂടുതൽ വിവരത്തിനുവേണ്ടി <a data-l10n-name="supportLink"> { -brand-mozilla } പിന്തുണയിലേക്കു് ചെല്ലുക.</a>
 # This string is shown on its own line, after automatedEmailRecoveryKey-notyou-delete-key-plaintext and its URL
 # Colon is followed by a URL to the change password section of account settings
 automatedEmailRecoveryKey-notyou-change-pwd-plaintext = കൂടാതെ താങ്ങളുടെ രഹസ്യവാക്കും മാറ്റുക:
@@ -111,11 +117,21 @@ passwordChangeRequired-subject = സംശയകരമായ പ്രവൎത�
 passwordChangeRequired-title = രഹസ്യവാക്കു് മാറ്റണ്ടിവരും
 password-forgot-otp-subject = രഹസ്യവാക്കു് മറന്നോ?
 password-forgot-otp-title = രഹസ്യവാക്കു് മറന്നോ?
+passwordResetWithRecoveryKeyPrompt-subject = താങ്കളുടെ രഹസ്യവാക്കു് പുനഃസജ്ജമാക്കി
+passwordResetWithRecoveryKeyPrompt-title = താങ്കളുടെ രഹസ്യവാക്കു് പുനഃസജ്ജമാക്കി
+# Text for button action to create a new account recovery key
+passwordResetWithRecoveryKeyPrompt-action = അക്കൌണ്ടു് വീണ്ടെടുപ്പു് സങ്കേതം ഉണ്ടാക്കുക
+# colon is followed by a link to create an account recovery key from the account settings page
+passwordResetWithRecoveryKeyPrompt-action-txt = അക്കൌണ്ടു് വീണ്ടെടുപ്പു് സങ്കേതം ഉണ്ടാക്കുക:
+postAddAccountRecovery-subject-3 = പുതിയ അക്കൗണ്ടു് വീണ്ടെടുപ്പുസ്സങ്കേതം ഉണ്ടാക്കി
+postAddAccountRecovery-title2 = താങ്ങളൊരു പുതിയ അക്കൗണ്ടു് വീണ്ടെടുപ്പുസ്സങ്കേതം ഉണ്ടാക്കിയിരിക്കുന്നു
 postAddAccountRecovery-action = അക്കൗണ്ട് കൈകാര്യം ചെയ്യുക
 postAddTwoStepAuthentication-action = അക്കൗണ്ട് കൈകാര്യം ചെയ്യുക
 postChangePrimary-title = പുതിയ പ്രാഥമിക ഇമെയിൽ
 postChangePrimary-action = അക്കൗണ്ട് കൈകാര്യം ചെയ്യുക
 postConsumeRecoveryCode-action = അക്കൗണ്ട് കൈകാര്യം ചെയ്യുക
+# After the colon, there is information about the device that the authentication codes were created on
+postNewRecoveryCodes-description-2 = അവയെ ഉണ്ടാക്കിയ തീയതി:
 postNewRecoveryCodes-action = അക്കൗണ്ട് കൈകാര്യം ചെയ്യുക
 postRemoveAccountRecovery-action = അക്കൗണ്ട് കൈകാര്യം ചെയ്യുക
 postRemoveSecondary-subject = ദ്വിതീയ ഇമെയിൽ നീക്കംചെയ്തു
@@ -140,6 +156,9 @@ subscriptionAccountReminderSecond-action = രഹസ്യവാക്കു് 
 ##   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 ##   $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
 
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoice-subject = { $productName } പണമടക്കൽ തീൎച്ചപ്പെടുത്തി
 unblockCode-title = നിങ്ങളാണോ പ്രവേശിക്കുന്നത്?
 unblockCode-prompt = അതെ എങ്കില്‍, ഇതാ നിങ്ങൾക്ക് ആവശ്യമുള്ള അംഗീകരിക്കൽ കോഡ്:
 unblockCode-report-plaintext = ഇല്ലെങ്കിൽ, അത് റിപ്പോർട്ടുചെയ്ത് നുഴഞ്ഞുകയറ്റക്കാരെ തടയാന്‍ ഞങ്ങളെ സഹായിക്കൂ.
