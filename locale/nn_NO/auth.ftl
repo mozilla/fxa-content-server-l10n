@@ -362,6 +362,7 @@ passwordResetWithRecoveryKeyPrompt-description = Du tilbakestiller passordet for
 passwordResetWithRecoveryKeyPrompt-action = Opprett kontogjenopprettingsnøkkel
 # colon is followed by a link to create an account recovery key from the account settings page
 passwordResetWithRecoveryKeyPrompt-action-txt = Opprett kontogjenopprettingsnøkkel:
+passwordResetWithRecoveryKeyPrompt-cta-description = Du må logge inn igjen på alle dei synkroniserte einingane dine. Hald dataa dine trygge neste gong med ein kontogjenopprettingsnøkkel . Dette gjer at du kan stille tilbake dataa dine om du gløymer eit passord.
 postAddAccountRecovery-subject-3 = Ny kontogjenopprettingsnøkkel oppretta
 postAddAccountRecovery-title2 = Du oppretta ein ny kontogjenopprettingsnøkkel
 # Key here refers to account recovery key
