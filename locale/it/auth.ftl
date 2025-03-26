@@ -290,7 +290,7 @@ inactiveAccountFirstWarning-account-description-v2 = Il tuo { -product-mozilla-a
 inactiveAccountFirstWarning-inactive-status = Abbiamo notato che non accedi da 2 anni.
 # $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
 # This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
-inactiveAccountFirstWarning-impact = Il tuo account e i tuoi dati personali verranno eliminati definitivamente il <strong>{ $deletionDate }</strong> a causa della tua inattività.
+inactiveAccountFirstWarning-impact = Il tuo account e i tuoi dati personali verranno eliminati definitivamente <strong>{ $deletionDate }</strong> a causa della tua inattività.
 inactiveAccountFirstWarning-action = Accedi per mantenere il tuo account
 inactiveAccountFirstWarning-preview = Accedi per mantenere il tuo account
 # followed by link to sign in
@@ -299,7 +299,7 @@ inactiveAccountSecondWarning-subject = Azione richiesta: eliminazione dell’acc
 inactiveAccountSecondWarning-title = Il tuo account { -brand-mozilla } e i tuoi dati verranno eliminati entro 7 giorni
 inactiveAccountSecondWarning-account-description-v2 = Il tuo { -product-mozilla-account } viene utilizzato per accedere a prodotti gratuiti per la privacy e la navigazione come la sincronizzazione in { -brand-firefox }, { -product-mozilla-monitor }, { -product-firefox-relay } e { -product-mdn }.
 # $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
-inactiveAccountSecondWarning-impact = Il tuo account e i tuoi dati personali verranno eliminati definitivamente il <strong>{ $deletionDate }</strong> a causa della tua inattività.
+inactiveAccountSecondWarning-impact = Il tuo account e i tuoi dati personali verranno eliminati definitivamente <strong>{ $deletionDate }</strong> a causa della tua inattività.
 inactiveAccountSecondWarning-action = Accedi per mantenere il tuo account
 inactiveAccountSecondWarning-preview = Accedi per mantenere il tuo account
 # followed by link to sign in
