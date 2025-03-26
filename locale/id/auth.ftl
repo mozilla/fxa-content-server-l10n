@@ -632,6 +632,7 @@ confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Ingatlah untuk mengonfirmasi akun Anda
 verificationReminderFirst-title-3 = Selamat datang di { -brand-mozilla }
 verificationReminderFirst-description-3 = Beberapa hari yang lalu Anda membuat { -product-mozilla-account }, tetapi tidak pernah mengonfirmasinya. Konfirmasikan akun Anda dalam 15 hari ke depan atau akun akan dihapus secara otomatis.
+verificationReminderFirst-sub-description-3 = Jangan lewatkan peramban yang mengutamakan Anda dan privasi.
 confirm-email-2 = Konfirmasi akun
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Konfirmasi akun
