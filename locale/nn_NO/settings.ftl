@@ -608,6 +608,7 @@ flow-setup-phone-confirm-code-button = Stadfest
 flow-setup-phone-confirm-code-expired = Har koden gått ut?
 flow-setup-phone-confirm-code-resend-code-button = Send koden på nytt
 flow-setup-phone-confirm-code-resend-code-success = Kode sendt
+flow-setup-phone-confirm-code-success-message-v2 = Gjenopprettingstelefon lagt til
 
 ## FlowSetupPhoneConfirmCode
 
@@ -778,6 +779,7 @@ recent-activity-account-password-changed = Passordet er endra
 recent-activity-account-secondary-email-added = Sekundær e-postadesse lagt til
 recent-activity-account-secondary-email-removed = Sekundær e-postadesse fjerna
 recent-activity-account-emails-swapped = Primær og sekundær e-post er bytt om
+recent-activity-account-recovery-phone-removed = Gjenopprettingstelefon fjerna
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Annan kontoaktivitet
 
@@ -794,9 +796,11 @@ recovery-key-create-back-button-title = Tilbake til innstillingar
 
 settings-recovery-phone-remove-button = Fjern telefonnummeret
 settings-recovery-phone-remove-cancel = Avbryt
+settings-recovery-phone-remove-success = Gjenopprettingstelefon fjerna
 
 ## PageSetupRecoveryPhone
 
+page-setup-recovery-phone-heading = Legg til gjenopprettingstelefon
 page-setup-recovery-phone-back-button-title = Tilbake til innstillingar
 # Back arrow to return to step 1 of recovery phone setup flow
 page-setup-recovery-phone-step2-back-button-title = Endre telefonnummer
@@ -919,6 +923,9 @@ tfa-row-backup-codes-get-new-cta-v2 = Lag nye kodar
 # Shown to users who have no backup authentication codes
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = Legg til
+# Recovery phone is a recovery method for two-step authentication
+# A recovery code can be sent to the user's phone
+tfa-row-backup-phone-title-v2 = Gjenopprettingstelefon
 # Shown with an alert icon to indicate that no recovery phone is configured
 tfa-row-backup-phone-not-available-v2 = Ingen telefonnummer lagt til
 # button to change the configured recovery phone
@@ -927,6 +934,8 @@ tfa-row-backup-phone-change-cta = Endre
 tfa-row-backup-phone-add-cta = Legg til
 # Button to remove a recovery phone from the user's account
 tfa-row-backup-phone-delete-button = Fjern
+# Shown in tooltip on delete button or delete icon
+tfa-row-backup-phone-delete-title-v2 = Fjern gjenopprettingstelefon
 
 ## Switch component
 
@@ -1443,6 +1452,7 @@ signin-push-code-confirm-link-error = Lenka er skadd. Prøv igjen.
 ## their password, and they previously had set up an account recovery method.
 
 signin-recovery-method-header = Logg inn
+signin-recovery-method-phone = Gjenopprettingstelefon
 signin-recovery-method-code-v2 = Reserve-godkjenningskodar
 
 ## SigninRecoveryCode page
@@ -1456,6 +1466,8 @@ signin-recovery-code-sub-heading = Skriv inn reserve-godkjenningskode
 signin-recovery-code-input-label-v2 = Skriv inn 10-sifra kode
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Stadfest
+# Link to go to the page to use recovery phone instead
+signin-recovery-code-phone-link = Bruk gjenopprettingstelefon
 # External link for support if the user can't use two-step autentication or a backup authentication code
 # https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 signin-recovery-code-support-link = Er du sperra ute?
