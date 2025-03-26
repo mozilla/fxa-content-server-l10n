@@ -583,6 +583,7 @@ display-name-success-alert-2 = പ്രദർശനപ്പേരു് പു
 recent-activity-account-create-v2 = അക്കൗണ്ടു് ഉണ്ടാക്കി
 recent-activity-account-disable-v2 = അക്കൗണ്ടു് പ്രവൎത്തനരഹിതമാക്കി
 recent-activity-account-enable-v2 = അക്കൗണ്ടു് പ്രവൎത്തനക്ഷമമാക്കി
+recent-activity-account-login-v2 = അക്കൗണ്ടു് പ്രവേശനം തുടങ്ങി
 recent-activity-account-two-factor-added = രണ്ടുപ്പടി അധിക്കാരികപ്പെടുത്തൽ പ്രവൎത്തനക്ഷമമാക്കി
 recent-activity-account-two-factor-requested = രണ്ടുപ്പടി അധിക്കാരികപ്പെടുത്തൽ അഭ്യൎത്ഥിച്ചു
 recent-activity-account-two-factor-failure = രണ്ടുപ്പടി അധിക്കാരികപ്പെടുത്തൽ തോറ്റുപോയി
@@ -911,6 +912,7 @@ back = തിരികെ
 
 ## SigninPushCodeConfirmPage
 
+signin-push-code-confirm-instruction = പ്രവേശനം ഉറപ്പിക്കുക
 signin-push-code-confirm-verifying = ഉറപ്പിക്കുന്നു
 signin-push-code-confirm-login = പ്രവേശനം തീൎച്ചപ്പെടുത്തുക
 signin-push-code-confirm-link-error = കണ്ണി കേടായി. ദയവായി വീണ്ടും ശ്രമിക്കുക

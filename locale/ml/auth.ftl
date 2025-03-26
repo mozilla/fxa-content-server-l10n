@@ -138,6 +138,7 @@ postRemoveSecondary-subject = ദ്വിതീയ ഇമെയിൽ നീക
 postRemoveSecondary-title = ദ്വിതീയ ഇമെയിൽ നീക്കംചെയ്തു
 postRemoveSecondary-action = അക്കൗണ്ട് കൈകാര്യം ചെയ്യുക
 postRemoveTwoStepAuthentication-action = അക്കൗണ്ട് കൈകാര്യം ചെയ്യുക
+postSigninRecoveryCode-action = അക്കൗണ്ട് കൈകാര്യം ചെയ്യുക
 postVerifySecondary-subject = ദ്വിതീയ ഇമെയിൽ ചേർത്തു
 postVerifySecondary-title = ദ്വിതീയ ഇമെയിൽ ചേർത്തു
 postVerifySecondary-action = അക്കൗണ്ട് കൈകാര്യം ചെയ്യുക
@@ -159,6 +160,9 @@ subscriptionAccountReminderSecond-action = രഹസ്യവാക്കു് 
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFirstInvoice-subject = { $productName } പണമടക്കൽ തീൎച്ചപ്പെടുത്തി
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoice-title = { $productName }-ൽ വരിക്കാരാവുന്നതിനു് നന്ദി
 unblockCode-title = നിങ്ങളാണോ പ്രവേശിക്കുന്നത്?
 unblockCode-prompt = അതെ എങ്കില്‍, ഇതാ നിങ്ങൾക്ക് ആവശ്യമുള്ള അംഗീകരിക്കൽ കോഡ്:
 unblockCode-report-plaintext = ഇല്ലെങ്കിൽ, അത് റിപ്പോർട്ടുചെയ്ത് നുഴഞ്ഞുകയറ്റക്കാരെ തടയാന്‍ ഞങ്ങളെ സഹായിക്കൂ.
