@@ -1,18 +1,13 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: fxa-content-server-l 10n\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-05 20:09+0000\n"
-"PO-Revision-Date: 2025-02-08 15:54+0000\n"
-"Last-Translator: Fabio Tomat <dark.tmtfx@gmail.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "Language: fur\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pontoon\n"
+"Generated-By: Pontoon\n"
 
 #: .es5/views/confirm_reset_password.js:170
 msgid "Password reset"
@@ -1566,11 +1561,11 @@ msgstr "Nol è te liste"
 
 #: .es5/templates/support.mustache:18
 msgid "Do you need help with a specific app or service? (optional)"
-msgstr "Ti covential jutori cuntune aplicazion o servizi specific? (opzionâl)"
+msgstr "Ti covential jutori cuntune aplicazion o servizi specific? (facoltatîf)"
 
 #: .es5/templates/support.mustache:20
 msgid "Subject (optional)"
-msgstr "Ogjet (opzionâl)"
+msgstr "Ogjet (facoltatîf)"
 
 #: .es5/templates/support.mustache:21
 msgid "Description of issue"
