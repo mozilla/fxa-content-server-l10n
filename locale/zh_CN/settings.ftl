@@ -589,7 +589,7 @@ flow-recovery-key-confirm-pwd-submit-button-change-key = 创建新的账户恢�
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
 
-flow-recovery-key-download-heading-v2 = 已创建账户恢复密钥——立即下载并保存
+flow-recovery-key-download-heading-v2 = 已创建账户恢复密钥，请立即下载并保存
 # The "key" here refers to the term "account recovery key"
 flow-recovery-key-download-info-v2 = 如果您忘记密码，可使用此密钥恢复数据。请立即下载此密钥，并将其存储在您会记得的位置。此后将无法再回到本页面。
 # This link allows user to proceed to the next step without clicking the download button
