@@ -425,6 +425,8 @@ flow-container-back = പുറകോട്ടു്
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
 
+# This link allows user to proceed to the next step without clicking the download button
+flow-recovery-key-download-next-link-v2 = ഇറക്കിവയ്ക്കാതെ തുടരുക
 
 ## FlowRecoveryKeyHint
 ## This is the fourth and final step in the account recovery key creation flow in account settings

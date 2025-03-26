@@ -147,6 +147,9 @@ automatedEmailRecoveryKey-more-info-plaintext = Gå til { -brand-mozilla } bruka
 automated-email-reset =
     Denne e-posten vart sendt automatisk; om du ikkje godkjende denne handlinga, <a data-l10n-name="resetLink">må du tilbakestille passordet ditt</a>.
     Gå til <a data-l10n-name="supportLink">{ -brand-mozilla } brukarstøtte</a> for meir informasjon.
+# Variables:
+#  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
+automated-email-reset-plaintext-v2 = Om du ikkje godkjende denne handlinga, må du stille tilbake passordet ditt no på { $resetLink }
 brand-banner-message = Visste du at vi endra namnet vårt frå { -product-firefox-accounts } til { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Les meir</a>
 cancellationSurvey = Hjelp oss med å forbetre tenestene våre ved å vere med i denne <a data-l10n-name="cancellationSurveyUrl">korte undersøkinga</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
@@ -347,6 +350,9 @@ passwordResetAccountRecovery-subject-2 = Passordet ditt er tilbakestilt
 passwordResetAccountRecovery-title-3 = Passordet ditt er tilbakestilt
 # Followed by details on the device and date/time of the password reset.
 passwordResetAccountRecovery-description-3 = Du brukte nøkkelen for kontogjenoppretting til å tilbakestille passordet for { -product-mozilla-account } på:
+passwordResetAccountRecovery-information = Vi logga deg ut frå alle dei synkroniserte einingane dine. Vi oppretta ein ny kontogjenopprettingsnøkkel for å erstatte den du brukte. Du kan endre det i kontoinnstillingane.
+# After the colon there is a link to account settings
+passwordResetAccountRecovery-information-txt = Vi logga deg ut frå alle synkroniserte einingar. Vi oppretta ein ny kontogjenopprettingsnøkkel for å erstatte den du brukte. Du kan endre det i kontoinnstillingane dine:
 passwordResetAccountRecovery-action-4 = Handsam kontoen
 passwordResetWithRecoveryKeyPrompt-subject = Passordet ditt er tilbakestilt
 passwordResetWithRecoveryKeyPrompt-title = Passordet ditt er tilbakestilt
