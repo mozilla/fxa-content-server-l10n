@@ -9,10 +9,13 @@ next-payment-method-header = Vel betalingsmåte
 payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = Først må du godkjenne abonnementet ditt
 location-required-header = Vel land og skriv inn postnummer.
+location-required-subheader = Vi klarte ikkje å oppdage plasseringa di automatisk.
 
 ## Page - Upgrade page
 
 upgrade-page-payment-information = Betalingsinformasjon
+# $nextInvoiceDate (number) - The date of the next invoice
+upgrade-page-acknowledgment = Planen din vert omg[ande endra, og du vil bli belasta eit justert beløp for resten av denne faktureringssyklusen. Frå og med { $nextInvoiceDate } vert du belasta med heile beløpet.
 checkout-error-boundary-retry-button = Prøv på nytt
 checkout-error-boundary-basic-error-message = Noko gjekk gale. Prøv på nytt eller <contactSupportLink>kontakt support.</contactSupportLink>
 
