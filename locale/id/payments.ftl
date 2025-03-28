@@ -228,6 +228,7 @@ sub-update-total-label = Total baru
 ## Variables:
 ##   $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 
+sub-update-new-plan-yearly = { $productName } (Tahunan)
 
 ## Routes - Subscriptions - Cancel
 
