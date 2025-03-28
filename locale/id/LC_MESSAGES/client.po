@@ -2056,11 +2056,11 @@ msgstr ""
 
 #: .es5/templates/pair/unsupported.mustache:6
 msgid "Download Firefox"
-msgstr ""
+msgstr "Unduh Firefox"
 
 #: .es5/templates/pair/unsupported.mustache:7
 msgid "Opens in new window"
-msgstr ""
+msgstr "Membuka tautan di jendela baru"
 
 #: .es5/templates/pair/unsupported.mustache:9
 msgid "Pair using an app"
@@ -2076,7 +2076,7 @@ msgstr ""
 
 #: .es5/templates/pair/unsupported.mustache:17
 msgid "Oops! Something went wrong."
-msgstr ""
+msgstr "Ups! Terjadi kesalahan."
 
 #: .es5/templates/pair/unsupported.mustache:18
 msgid "Please close this tab and try again."
