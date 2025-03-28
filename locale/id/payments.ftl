@@ -245,13 +245,18 @@ sub-item-cancel-msg =
 ## Routes - Subscription
 
 sub-route-idx-cancel-failed = Gagal membatalkan langganan
+sub-route-idx-contact = Hubungi Bantuan
 
 ## Routes - Subscriptions - Errors
 
+sub-customer-error =
+    .title = Bermasalah saat memuat pelanggan
+sub-billing-update-success = Informasi penagihan Anda telah berhasil diperbarui
 
 ## Routes - Subscription - ActionButton
 
 pay-update-change-btn = Ubah
+pay-update-manage-btn = Kelola
 
 ## Routes - Subscriptions - Cancel and IapItem
 ## $priceAmount (Number) - The amount billed. It will be formatted as currency.
@@ -259,6 +264,8 @@ pay-update-change-btn = Ubah
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Tagihan berikutnya pada { $date }
+sub-next-bill-no-tax-1 = Tagihan berikutnya sebesar { $priceAmount } jatuh tempo { $date }
+sub-expires-on = Kedaluwarsa pada { $date }
 
 ## Routes - Subscription - PaymentUpdate
 
@@ -266,6 +273,7 @@ sub-next-bill = Tagihan berikutnya pada { $date }
 # $expirationDate (Date) - The payment card's expiration date.
 
 pay-update-card-exp = Habis berlaku pada { $expirationDate }
+sub-route-idx-updating = Memperbarui informasi penagihan…
 
 ## Routes - Subscription - SubscriptionItem
 
