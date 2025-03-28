@@ -2072,7 +2072,7 @@ msgstr "Apakah Anda menggunakan kamera sistem? Anda harus memasangkan dari dalam
 
 #: .es5/templates/pair/unsupported.mustache:14
 msgid "Download Firefox now"
-msgstr ""
+msgstr "Unduh Firefox sekarang"
 
 #: .es5/templates/pair/unsupported.mustache:17
 msgid "Oops! Something went wrong."

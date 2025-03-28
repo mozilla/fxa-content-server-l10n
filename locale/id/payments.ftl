@@ -99,25 +99,35 @@ payment-cc =
 payment-cancel-btn = Batal
 payment-update-btn = Perbarui
 payment-pay-btn = Bayar sekarang
+payment-pay-with-paypal-btn-2 = Bayar dengan { -brand-paypal }
 payment-validate-name-error = Masukkan nama Anda.
 
 ## Component - PaymentLegalBlurb
 
+payment-legal-link-paypal-3 = <paypalPrivacyLink>{ -brand-paypal } kebijakan privasi</paypalPrivacyLink>
+payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe } kebijakan privasi</stripePrivacyLink>
 
 ## Component - PaymentMethodHeader
 
+payment-method-header = Pilih metode pembayaran Anda
+# This message is used to indicate the second step in a multi step process.
+payment-method-header-second-step = 2. { payment-method-header }
 
 ## Component - PaymentProcessing
 
+payment-processing-message = Mohon tunggu sementara kami memproses pembayaran Anda…
 
 ## Component - PaymentProviderDetails
 
 
 ## Component - PayPalButton
 
+pay-with-heading-paypal-2 = Bayar dengan { -brand-paypal }
 
 ## Component - PlanDetails
 
+plan-details-list-price = Daftar Harga
+plan-details-show-button = Tampilkan detail
 
 ## Component - PlanErrorDialog
 
