@@ -128,6 +128,7 @@ pay-with-heading-paypal-2 = Bayar dengan { -brand-paypal }
 
 plan-details-list-price = Daftar Harga
 plan-details-show-button = Tampilkan detail
+plan-details-tax = Pajak dan Biaya
 
 ## Component - PlanErrorDialog
 
@@ -137,6 +138,8 @@ product-no-such-plan = Tidak ada paket untuk produk ini.
 ## $priceAmount (Number) - The amount billed. It will be formatted as currency.
 ## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
+price-details-no-tax = { $priceAmount }
+price-details-tax = { $priceAmount } + pajak { $taxAmount }
 
 ## Component - SubscriptionTitle
 
@@ -195,6 +198,7 @@ product-plan-not-found = Paket tidak ditemukan
 
 ## Routes - Checkout - New user
 
+new-user-card-title = Masukkan informasi kartu Anda
 
 ## Routes - Product and Subscriptions
 
