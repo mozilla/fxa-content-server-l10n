@@ -310,4 +310,5 @@ reactivate-success-button = Tutup
 
 ## Routes - Subscriptions - Subscription iap item
 
+sub-iap-item-apple-purchase-2 = { -brand-apple }: Pembelian dalam Aplikasi
 sub-iap-item-manage-button = Kelola
