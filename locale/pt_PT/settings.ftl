@@ -1039,7 +1039,7 @@ tfa-row-backup-phone-delete-button = Remover
 tfa-row-backup-phone-delete-title-v2 = Remover telefone de recuperação
 tfa-row-backup-phone-delete-restriction-v2 = Se quiser remover o seu telefone de recuperação, adicione códigos de autenticação de recuperação ou desative primeiro a autenticação de dois passos para evitar que fique sem acesso à sua conta.
 # "this" refers to recovery phone
-tfa-row-backup-phone-description-v2 = Este é o método de recuperação mais fácil se não conseguir utilizar a sua aplicação de autenticação.
+tfa-row-backup-phone-description-v2 = Este é o método de recuperação mais fácil, se não conseguir utilizar a sua aplicação de autenticação.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
