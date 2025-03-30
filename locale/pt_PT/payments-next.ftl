@@ -10,13 +10,13 @@ payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = Primeiro, precisa de aprovar a sua subscrição
 location-required-header = Por favor, selecione o seu país e introduza o seu código postal.
 location-required-subheader = Não conseguimos detetar a sua localização automaticamente.
-location-required-disclaimer = Apenas utilizamos esta informação para calcular impostos e moeda.
+location-required-disclaimer = Apenas utilizamos esta informação para calcular os impostos e a moeda.
 
 ## Page - Upgrade page
 
 upgrade-page-payment-information = Informação de pagamento
 # $nextInvoiceDate (number) - The date of the next invoice
-upgrade-page-acknowledgment = O seu plano irá mudar imediatamente e você vai ser cobrado um valor proporcional hoje para o resto deste ciclo de pagamento. A partir de { $nextInvoiceDate }, será cobrado o valor total.
+upgrade-page-acknowledgment = O seu plano será alterado imediatamente e ser-lhe-á debitado hoje um valor proporcional para o resto deste ciclo de faturação. A partir de { $nextInvoiceDate } ser-lhe-á cobrado o valor total.
 checkout-error-boundary-retry-button = Tentar novamente
 checkout-error-boundary-basic-error-message = Algo correu mal. Tente novamente ou <contactSupportLink>contacte o apoio.</contactSupportLink>
 
