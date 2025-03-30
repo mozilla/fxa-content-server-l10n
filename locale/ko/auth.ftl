@@ -69,6 +69,10 @@ subplat-legal = 법적 고지
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = 개인 정보 정책
 subplat-privacy-website-plaintext = { subplat-privacy }:
+account-deletion-info-block-communications = <a data-l10n-name="unsubscribeLink">구독 해지를 요청</a>하지 않는 한, 계정이 삭제되어도 Mozilla Corporation과 Mozilla Foundation으로부터 이메일을 계속 받을 수 있습니다.
+account-deletion-info-block-support = 궁금하신 점이 있거나 도움이 필요하면 언제든지 <a data-l10n-name="supportLink">지원 팀</a>에 문의하세요.
+account-deletion-info-block-communications-plaintext = 계정이 삭제되어도, 구독 해지를 요청하지 않는 한 Mozilla Corporation과 Mozilla Foundation으로부터 이메일을 계속 받을 수 있습니다:
+account-deletion-info-block-support-plaintext = 궁금하신 점이 있거나 도움이 필요하면 언제든지 지원 팀에 문의하세요.
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-android-badge = <img data-l10n-name="google-play-badge" alt="{ -google-play }에서 { $productName } 다운로드">
@@ -96,6 +100,7 @@ automated-email-support = 자세한 내용은 <a data-l10n-name="supportLink">{ 
 automated-email-change-plaintext-2 = 이 조치를 취하지 않았다면 즉시 비밀번호를 변경하세요:
 #  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-support-plaintext = 자세한 내용은 { -brand-mozilla } 지원을 참조하세요:
+automated-email-inactive-account = 이 이메일은 자동으로 전송되었습니다. 이 이메일은 { -product-mozilla-account }가 있고 마지막 로그인 이후 2년이 지났기 때문에 발송되었습니다.
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } 자세한 내용은 <a data-l10n-name="supportLink">{ -brand-mozilla } 지원</a>을 참조하세요.
 automated-email-no-action-plaintext = 이것은 자동 이메일입니다. 실수로 받은 경우에는 아무 조치도 취할 필요가 없습니다.
@@ -142,6 +147,9 @@ automatedEmailRecoveryKey-more-info-plaintext = 자세한 내용은 { -brand-moz
 automated-email-reset =
     자동으로 발송된 이메일입니다. 승인하지 않은 작업인 경우 <a data-l10n-name="resetLink">비밀번호를 재설정</a>하십시오.
     자세한 내용은 <a data-l10n-name="supportLink">{ -brand-mozilla }지원 페이지</a>를 참조하십시오.
+# Variables:
+#  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
+automated-email-reset-plaintext-v2 = 이 작업을 승인하지 않으셨다면 지금 { $resetLink }에서 비밀번호를 재설정하세요.
 brand-banner-message = { -product-firefox-accounts } 명칭이 { -product-mozilla-accounts }으로 변경되었다는 사실을 알고 계신가요? <a data-l10n-name="learnMore">자세히 알아보세요</a>
 cancellationSurvey = 간단한 <a data-l10n-name="cancellationSurveyUrl">설문 조사</a>에 참여하여, 서비스 개선에 도움을 주세요.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
@@ -262,6 +270,9 @@ fraudulentAccountDeletion-contact = 궁금하신 점이 있다면, <a data-l10n-
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = 궁금하신 점이 있다면, 지원 팀에 문의하세요: { $mozillaSupportUrl }
+inactiveAccountFinalWarning-subject = { -product-mozilla-account }를 유지할 수 있는 마지막 기회
+inactiveAccountFinalWarning-title = { -brand-mozilla } 계정과 데이터가 삭제됩니다.
+inactiveAccountFinalWarning-preview = 계정을 유지하려면 로그인하세요.
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title-zero = 백업 인증 코드가 부족합니다!
 codes-reminder-title-one = 마지막 백업 인증 코드를 사용 중입니다.

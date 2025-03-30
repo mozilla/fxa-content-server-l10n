@@ -1,10 +1,20 @@
 ## Page
 
+checkout-signin-or-create = 1. { -product-mozilla-account }를 생성하거나 로그인하세요
+continue-signin-with-google-button = { -brand-google }로 계속하기
+continue-signin-with-apple-button = { -brand-apple }로 계속하기
 next-payment-method-header = 지불 방법 선택
+# This message is used to indicate the second step in a multi step process.
+payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = 먼저 구독을 승인해야 합니다.
 
 ## Page - Upgrade page
 
+upgrade-page-payment-information = 결제 정보
+# $nextInvoiceDate (number) - The date of the next invoice
+upgrade-page-acknowledgment = 요금제가 즉시 변경되며, 결제 주기의 나머지 기간 동안 비례 분배된 금액만큼 사용할 수 있습니다. { $nextInvoiceDate }일부터 전체 금액이 청구됩니다.
+checkout-error-boundary-retry-button = 다시 시도
+checkout-error-boundary-basic-error-message = 무언가 잘못되었습니다. 다시 시도하시거나 <contactSupportLink>지원 팀에 문의</contactSupportLink>하세요.
 
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -13,6 +23,8 @@ next-payment-error-manage-subscription-button = 내 구독 관리
 next-iap-upgrade-contact-support = 아직 이 제품을 구매할 수 있습니다. 지원팀에 문의하시면 도와드리겠습니다.
 next-payment-error-retry-button = 다시 시도하세요
 next-basic-error-message = 문제가 발생했습니다. 나중에 다시 시도하세요.
+checkout-error-contact-support-button = 연락하기
+checkout-error-not-eligible = 이 제품을 구독할 권한이 없습니다. 지원 팀에 문의하시면 도와드리겠습니다.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -23,6 +35,8 @@ next-payment-processing-message = 결제를 처리하는 동안 잠시 기다려
 ## Common strings used in multiple checkout pages
 
 next-payment-confirmation-thanks-heading-account-exists = 감사합니다. 지금 메일을 확인해 보세요!
+# $email (String) - The user's email.
+payment-confirmation-thanks-subheading-account-exists-2 = { $email } 주소로 구독 안내와 결제 세부정보가 포함된 이메일을 받게 됩니다.
 next-payment-confirmation-order-heading = 주문 정보
 # $invoiceNumber (String) - Invoice number of the successful payment
 next-payment-confirmation-invoice-number = 영수증 # { $invoiceNumber }
@@ -50,6 +64,10 @@ next-payment-confirm-checkbox-error = 계속 진행하기 전에 이 작업을 �
 
 next-new-user-submit = 지금 구독하기
 next-payment-validate-name-error = 이름을 입력하세요
+next-pay-with-heading-paypal = { -brand-paypal }로 결제
+# Label for the Full Name input
+payment-name-label = 카드에 표시된 이름을 입력하세요
+payment-name-placeholder = 이름
 
 ## Component - CouponForm
 
@@ -64,6 +82,22 @@ next-coupon-submit = 적용
 
 # Component - Header
 
+payments-header-help =
+    .title = 도움말
+    .aria-label = 도움말
+    .alt = 도움말
+payments-header-bento =
+    .title = { -brand-mozilla } 제품
+    .aria-label = { -brand-mozilla } 제품
+    .alt = { -brand-mozilla } 로고
+payments-header-bento-close =
+    .alt = 닫기
+payments-header-bento-tagline = 사용자의 개인 정보를 보호하는 더 많은 { -brand-mozilla }의 제품
+payments-header-bento-firefox-desktop = 데스크톱 용 { -brand-firefox } 브라우저
+payments-header-bento-firefox-mobile = 모바일 용 { -brand-firefox } 브라우저
+payments-client-loading-spinner =
+    .aria-label = 읽는 중…
+    .alt = 읽는 중…
 
 ## Payment Section
 
@@ -83,6 +117,13 @@ next-coupon-success-repeating = 요금제는 { $couponDurationDate } 이후 정�
 
 ## Select Tax Location
 
+select-tax-location-title = 위치
+select-tax-location-edit-button = 편집
+select-tax-location-save-button = 저장
+select-tax-location-country-code-label = 국가
+select-tax-location-country-code-placeholder = 국가 선택
+select-tax-location-error-missing-country-code = 국가를 선택하세요
+select-tax-location-postal-code-label = 우편 번호
 next-new-user-subscribe-product-updates-mdnplus = { -product-mdn-plus } 및 { -brand-mozilla }에서 제품 소식 및 최신 정보를 받고 싶습니다.
 next-new-user-subscribe-product-updates-mozilla = { -brand-mozilla }로부터 제품 뉴스와 최신정보를 받습니다.
 next-new-user-subscribe-product-updates-snp = { -brand-mozilla }로부터 보안과 개인 정보에 대한 소식 및 최신 정보를 받습니다.
