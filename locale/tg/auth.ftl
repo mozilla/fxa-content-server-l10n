@@ -148,6 +148,7 @@ postAddRecoveryPhone-subject = Телефони барқарорсозӣ ило�
 postAddRecoveryPhone-action = Идоракунии ҳисоб
 postAddTwoStepAuthentication-action = Идоракунии ҳисоб
 postChangeAccountRecovery-action = Идоракунии ҳисоб
+postChangePrimary-title = Почтаи электронии асосии нав
 postChangePrimary-action = Идоракунии ҳисоб
 postChangeRecoveryPhone-subject = Телефони барқарорсозӣ нав карда шуд
 postChangeRecoveryPhone-title = Шумо телефони барқарорсозии худро иваз кардед
