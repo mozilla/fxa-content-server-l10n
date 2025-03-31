@@ -12,6 +12,11 @@ recovery-phone-setup-sms-body = { $code } санҷиши ҳаққоният аз
 # Messages should be limited to one segment
 # $code  - 6 digit code used to verify phone ownership when registering a recovery phone
 recovery-phone-setup-sms-short-body = Рамзи «{ -brand-mozilla }» барои санҷиши ҳаққоният: { $code }
+# Shorter message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to sign in with a recovery phone as backup for two-step authentication
+recovery-phone-signin-sms-short-body = Рамзи «{ -brand-mozilla }»: { $code }
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
@@ -27,6 +32,7 @@ subplat-footer-mozilla-logo-2 = <img data-l10n-name="mozilla-logo-footer" alt="{
 subplat-privacy-notice = Огоҳномаи махфият
 subplat-privacy-plaintext = Огоҳномаи махфият:
 subplat-update-billing-plaintext = { subplat-update-billing }:
+subplat-terms-policy = Шартҳо ва сиёсати барҳамдиҳӣ
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Бекор кардани обуна
 subplat-cancel-plaintext = { subplat-cancel }:
@@ -41,6 +47,30 @@ subplat-legal = Маълумоти ҳуқуқӣ
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Махфият
 subplat-privacy-website-plaintext = { subplat-privacy }:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+android-download-plaintext = Ба даст овардани «{ $productName }» тавассути «Google Play»:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+ios-download-plaintext = Боргирӣ кардани «{ $productName }» тавассути «App Store»:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-device-plaintext = Насб кардани «{ $productName }» дар дастгоҳи дигар:
+#  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+automated-email-support-plaintext = Барои маълумоти иловагӣ, ба Дастгирии «{ -brand-mozilla }» муроҷиат кунед:
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+automatedEmailRecoveryKey-origin-device-browser-only = Ин дархост аз { $uaBrowser } ворид шуд.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+# - $uaOSVersion - the user agent's operating system version
+automatedEmailRecoveryKey-origin-device-OS-version-only = Ин дархост аз { $uaOS } { $uaOSVersion } ворид шуд.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+automatedEmailRecoveryKey-origin-device-OS-only = Ин дархост аз { $uaOS } ворид шуд.
 manage-account = Идоракунии ҳисоб
 manage-account-plaintext = { manage-account }:
 payment-details = Тафсилоти пардохт:
