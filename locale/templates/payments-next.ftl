@@ -1,6 +1,7 @@
 ## Page
 checkout-signin-or-create = 1. Sign in or create a { -product-mozilla-account }
-checkout-create-account = Create a { -product-mozilla-account }
+# This string appears as a separation between the two sign-in options, "Enter your email"(signin-form-email-input) "or"(this string) "Continue with Google"(continue-signin-with-google-button) / "Continue with Apple"(continue-signin-with-apple-button)
+checkout-signin-options-or = or
 continue-signin-with-google-button = Continue with { -brand-google }
 continue-signin-with-apple-button = Continue with { -brand-apple }
 
@@ -57,6 +58,11 @@ next-payment-confirmation-download-button = Continue to download
 ## Common strings used in multiple checkout pages
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Card ending in { $last4 }
+
+# Page - Not Found
+page-not-found-title = Page not found
+page-not-found-description = The page you requested was not found. We’ve been notified and will fix any links that may be broken.
+page-not-found-back-button = Go Back
 
 ## Component - Payment Consent Checkbox
 

@@ -1039,7 +1039,7 @@ tfa-row-backup-phone-delete-button = Remover
 tfa-row-backup-phone-delete-title-v2 = Remover telefone de recuperação
 tfa-row-backup-phone-delete-restriction-v2 = Se quiser remover o seu telefone de recuperação, adicione códigos de autenticação de recuperação ou desative primeiro a autenticação de dois passos para evitar que fique sem acesso à sua conta.
 # "this" refers to recovery phone
-tfa-row-backup-phone-description-v2 = Este é o método de recuperação mais fácil se não conseguir utilizar a sua aplicação de autenticação.
+tfa-row-backup-phone-description-v2 = Este é o método de recuperação mais fácil, se não conseguir utilizar a sua aplicação de autenticação.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
@@ -1211,16 +1211,16 @@ auth-error-1008 = A sua nova palavra-passe tem de ser diferente
 auth-error-1010 = Palavra-passe válida necessária
 auth-error-1011 = É necessário um e-mail válido
 auth-error-1018 = A sua mensagem de confirmação foi devolvida. Enganou-se ao digitar o e-mail?
-auth-error-1020 = Email mal escrito? O firefox.com não é um serviço de e-mail válido
+auth-error-1020 = E-mail mal digitado? firefox.com não é um serviço de e-mail válido
 auth-error-1031 = Deve inserir a sua idade para se registar
 auth-error-1032 = Deve inserir uma idade válida para se registar
 auth-error-1054 = Código de autenticação de dois passos inválido
 auth-error-1056 = Código de autenticação de recuperação inválido
 auth-error-1062 = Redirecionamento inválido
 # Shown when a user tries to sign up with an email address with a domain that doesn't receive emails
-auth-error-1064 = Email mal escrito? { $domain } não é um serviço de e-mail válido
+auth-error-1064 = E-mail mal digitado? { $domain } não é um serviço de e-mail válido
 auth-error-1066 = Não podem ser utilizadas máscaras de e-mail para criar uma conta.
-auth-error-1067 = Email mal escrito?
+auth-error-1067 = E-mail mal digitado?
 # Displayed when we want to reference a user's previously set up recovery phone
 # number, but they are not completely signed in yet. We'll only show the last 4 digits.
 # Variables:
@@ -1279,7 +1279,7 @@ index-header = Introduza o seu email
 index-sync-header = Continuar para a sua { -product-mozilla-account }
 index-sync-subheader = Sincronize as suas palavras-passe, separadores, marcadores e muito mais, em qualquer sítio que utilize o { -brand-firefox }.
 index-relay-header = Criar uma máscara de e-mail
-index-relay-subheader = Forneça o endereço de e-mail para o qual deseja encaminhar as mensagens do seu e-mail mascarado.
+index-relay-subheader = Por favor, forneça o endereço de e-mail para o qual deseja encaminhar as mensagens do seu e-mail mascarado.
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = Continuar para { $serviceName }
 index-subheader-with-logo = Continue para <span>{ $serviceLogo }</span>
@@ -1291,7 +1291,7 @@ index-email-input =
 # When users delete their Mozilla account inside account Settings, they are redirected to this page with a success message
 index-account-delete-success = Conta eliminada com sucesso
 # Displayed when users try to sign up for an account and their confirmation code email bounces
-index-email-bounced = A sua mensagem de confirmação foi devolvida. Enganou-se ao digitar o e-mail?
+index-email-bounced = A sua mensagem de confirmação foi devolvida. Digitou mal o e-mail?
 
 ## InlineRecoveryKeySetup page component
 
