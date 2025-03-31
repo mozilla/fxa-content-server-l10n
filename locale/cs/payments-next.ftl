@@ -1,6 +1,8 @@
 ## Page
 
 checkout-signin-or-create = 1. Přihlaste se nebo si vytvořte { -product-mozilla-account(capitalization: "lower") }
+# This string appears as a separation between the two sign-in options, "Enter your email"(signin-form-email-input) "or"(this string) "Continue with Google"(continue-signin-with-google-button) / "Continue with Apple"(continue-signin-with-apple-button)
+checkout-signin-options-or = nebo
 continue-signin-with-google-button = Pokračovat pomocí { -brand-google }
 continue-signin-with-apple-button = Pokračovat pomocí { -brand-apple }
 next-payment-method-header = Vyberte způsob platby
@@ -58,6 +60,10 @@ next-payment-confirmation-download-button = Pokračovat ke stažení
 
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Karta končící na { $last4 }
+# Page - Not Found
+page-not-found-title = Stránka nenalezena
+page-not-found-description = Požadovaná stránka nebyla nalezena. Byli jsme upozorněni a všechny odkazy, které mohou být nefunkční, opravíme.
+page-not-found-back-button = Zpátky
 
 ## Component - Payment Consent Checkbox
 

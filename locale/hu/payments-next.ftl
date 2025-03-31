@@ -1,6 +1,8 @@
 ## Page
 
 checkout-signin-or-create = 1. Jelentkezzen be vagy hozzon létre egy { -product-mozilla-account }ot
+# This string appears as a separation between the two sign-in options, "Enter your email"(signin-form-email-input) "or"(this string) "Continue with Google"(continue-signin-with-google-button) / "Continue with Apple"(continue-signin-with-apple-button)
+checkout-signin-options-or = vagy
 continue-signin-with-google-button = Folytatás a { -brand-google }-lel
 continue-signin-with-apple-button = Folytatás az { -brand-apple }-lel
 next-payment-method-header = Válassza ki a fizetési módot
@@ -60,6 +62,10 @@ next-payment-confirmation-download-button = Tovább a letöltéshez
 
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = { $last4 } végződésű kártya
+# Page - Not Found
+page-not-found-title = Az oldal nem található
+page-not-found-description = A kért oldal nem található. Értesítést kaptunk, és kijavítunk minden, esetleg hibás hivatkozást.
+page-not-found-back-button = Ugrás vissza
 
 ## Component - Payment Consent Checkbox
 

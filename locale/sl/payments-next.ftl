@@ -1,6 +1,8 @@
 ## Page
 
 checkout-signin-or-create = 1. Prijavite se ali ustvarite { -product-mozilla-account(sklon: "tozilnik") }
+# This string appears as a separation between the two sign-in options, "Enter your email"(signin-form-email-input) "or"(this string) "Continue with Google"(continue-signin-with-google-button) / "Continue with Apple"(continue-signin-with-apple-button)
+checkout-signin-options-or = ali
 continue-signin-with-google-button = Nadaljuj z { -brand-google(sklon: "orodnik") }
 continue-signin-with-apple-button = Nadaljuj z { -brand-apple(sklon: "orodnik") }
 next-payment-method-header = Izberite način plačila
@@ -58,6 +60,10 @@ next-payment-confirmation-download-button = Nadaljuj prenos
 
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Kartica, ki se končuje s { $last4 }
+# Page - Not Found
+page-not-found-title = Strani ni mogoče najti
+page-not-found-description = Zahtevane strani ni mogoče najti. Obveščeni smo bili in bomo odpravili morebitne nedelujoče povezave.
+page-not-found-back-button = Nazaj
 
 ## Component - Payment Consent Checkbox
 

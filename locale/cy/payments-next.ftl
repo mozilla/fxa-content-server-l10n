@@ -1,6 +1,8 @@
 ## Page
 
 checkout-signin-or-create = 1. Mewngofnodwch neu greu { -product-mozilla-account }
+# This string appears as a separation between the two sign-in options, "Enter your email"(signin-form-email-input) "or"(this string) "Continue with Google"(continue-signin-with-google-button) / "Continue with Apple"(continue-signin-with-apple-button)
+checkout-signin-options-or = neu
 continue-signin-with-google-button = Parhau gyda { -brand-google }
 continue-signin-with-apple-button = Parhau gyda { -brand-apple }
 next-payment-method-header = Dewiswch eich dull talu
@@ -58,6 +60,10 @@ next-payment-confirmation-download-button = Parhau i lwytho i lawr
 
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Cerdyn yn gorffen gyda { $last4 }
+# Page - Not Found
+page-not-found-title = Heb ganfod y dudalen
+page-not-found-description = Ni chanfuwyd y dudalen y gofynnoch amdani. Rydym wedi cael ein hysbysu a byddwn yn trwsio unrhyw ddolenni a allai gael eu torri.
+page-not-found-back-button = Mynd Nôl
 
 ## Component - Payment Consent Checkbox
 
