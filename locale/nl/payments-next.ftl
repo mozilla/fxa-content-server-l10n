@@ -1,7 +1,6 @@
 ## Page
 
 checkout-signin-or-create = 1. Meld u aan of maak een { -product-mozilla-account } aan
-checkout-create-account = Een { -product-mozilla-account } aanmaken
 continue-signin-with-google-button = Doorgaan met { -brand-google }
 continue-signin-with-apple-button = Doorgaan met { -brand-apple }
 next-payment-method-header = Kies uw betalingsmethode

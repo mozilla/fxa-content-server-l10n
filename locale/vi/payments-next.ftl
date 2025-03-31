@@ -1,7 +1,6 @@
 ## Page
 
 checkout-signin-or-create = 1. Đăng nhập hoặc tạo một { -product-mozilla-account }
-checkout-create-account = Tạo một { -product-mozilla-account }
 continue-signin-with-google-button = Tiếp tục với { -brand-google }
 continue-signin-with-apple-button = Tiếp tục với { -brand-apple }
 next-payment-method-header = Chọn phương thức thanh toán của bạn

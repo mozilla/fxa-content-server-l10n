@@ -1,7 +1,6 @@
 ## Page
 
 checkout-signin-or-create = 1. saioa hasi { -product-mozilla-account } kontuan
-checkout-create-account = Sortu { -product-mozilla-account } kontua
 continue-signin-with-google-button = { -brand-google }ekin jarraitu
 continue-signin-with-apple-button = { -brand-apple }(e)kin jarraitu
 next-payment-method-header = Hautatu zure ordaiketa metodoa

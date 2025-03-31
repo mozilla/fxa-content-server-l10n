@@ -1,7 +1,6 @@
 ## Page
 
 checkout-signin-or-create = 1. Prijavite se ali ustvarite { -product-mozilla-account(sklon: "tozilnik") }
-checkout-create-account = Ustvarite { -product-mozilla-account(sklon: "tozilnik") }
 continue-signin-with-google-button = Nadaljuj z { -brand-google(sklon: "orodnik") }
 continue-signin-with-apple-button = Nadaljuj z { -brand-apple(sklon: "orodnik") }
 next-payment-method-header = Izberite način plačila

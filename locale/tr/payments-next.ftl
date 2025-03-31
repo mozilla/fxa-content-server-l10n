@@ -1,7 +1,6 @@
 ## Page
 
 checkout-signin-or-create = 1. { -product-mozilla-account }na giriş yapın veya hesap açın
-checkout-create-account = { -product-mozilla-account } oluşturun
 continue-signin-with-google-button = { -brand-google } ile devam et
 continue-signin-with-apple-button = { -brand-apple } ile devam et
 next-payment-method-header = Ödeme yönteminizi seçin

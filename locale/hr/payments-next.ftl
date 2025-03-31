@@ -1,7 +1,6 @@
 ## Page
 
 checkout-signin-or-create = 1. Prijavi se ili stvori { -product-mozilla-account }
-checkout-create-account = Stvori { -product-mozilla-account }
 continue-signin-with-google-button = Nastavi s { -brand-google }
 continue-signin-with-apple-button = Nastavi s { -brand-apple }
 next-payment-method-header = Odaberi način plaćanja

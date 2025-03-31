@@ -1,7 +1,6 @@
 ## Page
 
 checkout-signin-or-create = 1. Kirjaudu sisään tai luo { -product-mozilla-account }
-checkout-create-account = Luo { -product-mozilla-account }
 continue-signin-with-google-button = Jatka käyttämällä { -brand-google }a
 continue-signin-with-apple-button = Jatka käyttämällä { -brand-apple }a
 next-payment-method-header = Valitse maksutapa

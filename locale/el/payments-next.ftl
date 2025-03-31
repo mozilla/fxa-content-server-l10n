@@ -1,7 +1,6 @@
 ## Page
 
 checkout-signin-or-create = 1. Συνδεθείτε ή δημιουργήστε έναν { -product-mozilla-account(case: "acc", capitalization: "lower") }
-checkout-create-account = Δημιουργία { -product-mozilla-account(case: "gen", capitalization: "lower") }
 continue-signin-with-google-button = Συνέχεια με { -brand-google }
 continue-signin-with-apple-button = Συνέχεια με { -brand-apple }
 next-payment-method-header = Επιλέξτε τη μέθοδο πληρωμής σας

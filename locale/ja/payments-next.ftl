@@ -1,7 +1,6 @@
 ## Page
 
 checkout-signin-or-create = 1. ログインするか { -product-mozilla-account }を作成する
-checkout-create-account = { -product-mozilla-account }を作成
 continue-signin-with-google-button = { -brand-google } で続ける
 continue-signin-with-apple-button = { -brand-apple } で続ける
 next-payment-method-header = お支払い方法を選択してください

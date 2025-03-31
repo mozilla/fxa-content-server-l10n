@@ -1,7 +1,6 @@
 ## Page
 
 checkout-signin-or-create = 1. Zaloguj się lub utwórz { -product-mozilla-account(case: "acc", capitalization: "lower") }
-checkout-create-account = Utwórz { -product-mozilla-account(case: "acc", capitalization: "lower") }
 continue-signin-with-google-button = Kontynuuj za pomocą konta { -brand-google }
 continue-signin-with-apple-button = Kontynuuj za pomocą konta { -brand-apple }
 next-payment-method-header = Wybierz metodę płatności

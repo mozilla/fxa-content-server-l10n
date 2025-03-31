@@ -1,7 +1,6 @@
 ## Page
 
 checkout-signin-or-create = 1. T’annunzia u creescha in { -product-mozilla-account }
-checkout-create-account = Crear in { -product-mozilla-account }
 continue-signin-with-google-button = Cuntinuar cun { -brand-google }
 continue-signin-with-apple-button = Cuntinuar cun { -brand-apple }
 next-payment-method-header = Tscherna tia metoda da pajament

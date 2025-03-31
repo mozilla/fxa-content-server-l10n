@@ -1,7 +1,6 @@
 ## Page
 
 checkout-signin-or-create = 1. Войдите или создайте { -product-mozilla-account }
-checkout-create-account = Создать { -product-mozilla-account }
 continue-signin-with-google-button = Продолжить с { -brand-google }
 continue-signin-with-apple-button = Продолжить с { -brand-apple }
 next-payment-method-header = Выберите способ оплаты

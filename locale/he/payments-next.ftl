@@ -1,7 +1,6 @@
 ## Page
 
 checkout-signin-or-create = 1. התחברות או יצירת { -product-mozilla-account(case: "a") }
-checkout-create-account = יצירת { -product-mozilla-account(case: "a") }
 continue-signin-with-google-button = המשך באמצעות { -brand-google }
 continue-signin-with-apple-button = המשך באמצעות { -brand-apple }
 next-payment-method-header = נא לבחור את שיטת התשלום שלך

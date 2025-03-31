@@ -1,7 +1,6 @@
 ## Page
 
 checkout-signin-or-create = 1. Mewngofnodwch neu greu { -product-mozilla-account }
-checkout-create-account = Creu { -product-mozilla-account }
 continue-signin-with-google-button = Parhau gyda { -brand-google }
 continue-signin-with-apple-button = Parhau gyda { -brand-apple }
 next-payment-method-header = Dewiswch eich dull talu

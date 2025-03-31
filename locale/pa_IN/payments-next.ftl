@@ -1,7 +1,6 @@
 ## Page
 
 checkout-signin-or-create = 1. { -product-mozilla-account } ਨਾਲ ਸਾਈਨ ਇਨ ਕਰੋ ਜਾਂ ਬਣਾਓ
-checkout-create-account = { -product-mozilla-account } ਬਣਾਓ
 continue-signin-with-google-button = { -brand-google } ਨਾਲ ਜਾਰੀ ਰੱਖੋ
 continue-signin-with-apple-button = { -brand-apple } ਨਾਲ ਜਾਰੀ ਰੱਖੋ
 next-payment-method-header = ਆਪਣਾ ਭੁਗਤਾਨ ਢੰਗ ਚੁਣੋ

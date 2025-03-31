@@ -1,7 +1,6 @@
 ## Page
 
 checkout-signin-or-create = 1. പ്രവേശിക്കുക അല്ലെങ്കിൽ ഒരു { -product-mozilla-account } ഉണ്ടാക്കുക
-checkout-create-account = ഒരു { -product-mozilla-account } ഉണ്ടാക്കുക
 continue-signin-with-google-button = { -brand-google }-കൂടെ തുടരുക
 continue-signin-with-apple-button = { -brand-apple }-കൂടെ തുടരുക
 next-payment-method-header = പണമടക്കൽമുറ തിരഞ്ഞെടുക്കുക

@@ -1,7 +1,6 @@
 ## Page
 
 checkout-signin-or-create = 1. Přihlaste se nebo si vytvořte { -product-mozilla-account(capitalization: "lower") }
-checkout-create-account = Vytvořit { -product-mozilla-account(case: "acc", capitalization: "lower") }
 continue-signin-with-google-button = Pokračovat pomocí { -brand-google }
 continue-signin-with-apple-button = Pokračovat pomocí { -brand-apple }
 next-payment-method-header = Vyberte způsob platby

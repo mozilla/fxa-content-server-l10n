@@ -1,7 +1,6 @@
 ## Page
 
 checkout-signin-or-create = 1. შედით ან შექმენით { -product-mozilla-account }
-checkout-create-account = შექმენით { -product-mozilla-account }
 continue-signin-with-google-button = გამოიყენეთ { -brand-google }, რომ განაგრძოთ
 continue-signin-with-apple-button = გამოიყენეთ { -brand-apple }, რომ განაგრძოთ
 next-payment-method-header = შეარჩიეთ გადახდის საშუალება

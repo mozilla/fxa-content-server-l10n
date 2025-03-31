@@ -1,7 +1,6 @@
 ## Page
 
 checkout-signin-or-create = 1. 登入或註冊 { -product-mozilla-account }
-checkout-create-account = 註冊 { -product-mozilla-account }
 continue-signin-with-google-button = 使用 { -brand-google } 帳號繼續
 continue-signin-with-apple-button = 使用 { -brand-apple } 帳號繼續
 next-payment-method-header = 選擇付款方式

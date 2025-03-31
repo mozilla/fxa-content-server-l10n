@@ -1,7 +1,6 @@
 ## Page
 
 checkout-signin-or-create = 1. Eñepyrũ tembiapo térã emoheñói { -product-mozilla-account }
-checkout-create-account = Emoheñói { -product-mozilla-account }
 continue-signin-with-google-button = Eku’ejey { -brand-google } ndive
 continue-signin-with-apple-button = Eku’ejey { -brand-apple } ndive
 next-payment-method-header = Eiporavo mba’éichapa ehepyme’ẽta

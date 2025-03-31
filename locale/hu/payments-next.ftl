@@ -1,7 +1,6 @@
 ## Page
 
 checkout-signin-or-create = 1. Jelentkezzen be vagy hozzon létre egy { -product-mozilla-account }ot
-checkout-create-account = { -product-mozilla-account } létrehozása
 continue-signin-with-google-button = Folytatás a { -brand-google }-lel
 continue-signin-with-apple-button = Folytatás az { -brand-apple }-lel
 next-payment-method-header = Válassza ki a fizetési módot

@@ -1,7 +1,6 @@
 ## Page
 
 checkout-signin-or-create = 1. Pśizjawśo se abo załožćo { -product-mozilla-account }
-checkout-create-account = Załožćo { -product-mozilla-account }
 continue-signin-with-google-button = Dalej z { -brand-google }
 continue-signin-with-apple-button = Dalej z { -brand-apple }
 next-payment-method-header = Wubjeŕśo swóju płaśeńsku metodu

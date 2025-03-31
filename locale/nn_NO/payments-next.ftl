@@ -1,7 +1,6 @@
 ## Page
 
 checkout-signin-or-create = 1. Logg inn eller opprett ein { -product-mozilla-account }
-checkout-create-account = Opprett ein { -product-mozilla-account }
 continue-signin-with-google-button = Hald fram med { -brand-google }
 continue-signin-with-apple-button = Hald fram med { -brand-apple }
 next-payment-method-header = Vel betalingsmåte

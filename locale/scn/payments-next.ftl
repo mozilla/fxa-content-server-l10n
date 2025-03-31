@@ -1,7 +1,6 @@
 ## Page
 
 checkout-signin-or-create = 1. Trasi o crìa un { -product-mozilla-account }
-checkout-create-account = Crìa un { -product-mozilla-account }
 continue-signin-with-google-button = Cuntinua cu { -brand-google }
 continue-signin-with-apple-button = Cuntinua cu { -brand-apple }
 next-payment-method-header = Scarta u to mètudu di pagamentu

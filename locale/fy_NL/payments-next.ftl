@@ -1,7 +1,6 @@
 ## Page
 
 checkout-signin-or-create = 1. Meld jo oan of meitsje in { -product-mozilla-account } oan
-checkout-create-account = In { -product-mozilla-account } oanmeitsje
 continue-signin-with-google-button = Trochgean mei { -brand-google }
 continue-signin-with-apple-button = Trochgean mei { -brand-apple }
 next-payment-method-header = Kies jo betellingsmetoade
