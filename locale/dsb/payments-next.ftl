@@ -1,6 +1,8 @@
 ## Page
 
 checkout-signin-or-create = 1. Pśizjawśo se abo załožćo { -product-mozilla-account }
+# This string appears as a separation between the two sign-in options, "Enter your email"(signin-form-email-input) "or"(this string) "Continue with Google"(continue-signin-with-google-button) / "Continue with Apple"(continue-signin-with-apple-button)
+checkout-signin-options-or = abo
 continue-signin-with-google-button = Dalej z { -brand-google }
 continue-signin-with-apple-button = Dalej z { -brand-apple }
 next-payment-method-header = Wubjeŕśo swóju płaśeńsku metodu
@@ -61,6 +63,10 @@ next-payment-confirmation-download-button = Dalej k ześěgnjenjeju
 
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Kórta, kótaraž se na { $last4 } kóńcy
+# Page - Not Found
+page-not-found-title = Bok njejo se namakał
+page-not-found-description = Bok, kótaryž sćo pominał, njejo se namakał. Smy powěsć dostali a pórěźamy njepłaśiwe wótkaze.
+page-not-found-back-button = Slědk
 
 ## Component - Payment Consent Checkbox
 
