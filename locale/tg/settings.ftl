@@ -82,7 +82,7 @@ choose-what-to-sync-option-paymentmethods =
 datablock-download =
     .message = Боргиришуда
 datablock-copy =
-    .message = Нусхабардоришуда
+    .message = Нусхабардошташуда
 datablock-print =
     .message = Чопшуда
 
