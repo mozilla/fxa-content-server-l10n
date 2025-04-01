@@ -62,8 +62,8 @@ next-payment-confirmation-download-button = Continuar para descarregar
 next-payment-confirmation-cc-card-ending-in = Cartão que terminar em { $last4 }
 # Page - Not Found
 page-not-found-title = Página não encontrada
-page-not-found-description = A página solicitada não foi encontrada. Fomos notificados e iremos corrigir todos as ligações que possam estar quebradas.
-page-not-found-back-button = Retroceder
+page-not-found-description = A página que solicitou não foi encontrada. Fomos notificados e iremos corrigir todas as ligações que possam estar quebradas.
+page-not-found-back-button = Voltar
 
 ## Component - Payment Consent Checkbox
 
