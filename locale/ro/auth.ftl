@@ -14,6 +14,7 @@ subplat-reactivate = Reactivează abonamentul
 subplat-update-billing = Actualizează informațiile de facturare
 subplat-legal = Mențiuni legale
 subplat-privacy = Confidențialitate
+automatedEmailRecoveryKey-delete-key-change-pwd = Dacă nu ai fost tu, <a data-l10n-name="revokeAccountRecoveryLink">șterge noua cheie</a> și <a data-l10n-name="passwordChangeLink">schimbă-ți parola</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = Te rugăm să ne ajuți să ne îmbunătățim serviciile efectuând acest scurt sondaj:
 change-password-plaintext = Dacă suspectezi că cineva încearcă să obțină acces la contul tău, te rugăm să îți modifici parola.
