@@ -1,6 +1,8 @@
 ## Page
 
 checkout-signin-or-create = 1. { -product-mozilla-account }na giriş yapın veya hesap açın
+# This string appears as a separation between the two sign-in options, "Enter your email"(signin-form-email-input) "or"(this string) "Continue with Google"(continue-signin-with-google-button) / "Continue with Apple"(continue-signin-with-apple-button)
+checkout-signin-options-or = veya
 continue-signin-with-google-button = { -brand-google } ile devam et
 continue-signin-with-apple-button = { -brand-apple } ile devam et
 next-payment-method-header = Ödeme yönteminizi seçin
@@ -58,6 +60,10 @@ next-payment-confirmation-download-button = İndirmeye devam et
 
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = { $last4 } ile biten kart
+# Page - Not Found
+page-not-found-title = Sayfa bulunamadı
+page-not-found-description = İstediğiniz sayfa bulunamadı. Bozuk olabilecek bağlantıları düzeltmeleri için durumu site yöneticilerimize bildirdik.
+page-not-found-back-button = Geri dön
 
 ## Component - Payment Consent Checkbox
 

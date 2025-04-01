@@ -1,6 +1,8 @@
 ## Page
 
 checkout-signin-or-create = 1. შედით ან შექმენით { -product-mozilla-account }
+# This string appears as a separation between the two sign-in options, "Enter your email"(signin-form-email-input) "or"(this string) "Continue with Google"(continue-signin-with-google-button) / "Continue with Apple"(continue-signin-with-apple-button)
+checkout-signin-options-or = ან
 continue-signin-with-google-button = გამოიყენეთ { -brand-google }, რომ განაგრძოთ
 continue-signin-with-apple-button = გამოიყენეთ { -brand-apple }, რომ განაგრძოთ
 next-payment-method-header = შეარჩიეთ გადახდის საშუალება
@@ -61,6 +63,10 @@ next-payment-confirmation-download-button = განაგრძეთ ჩა�
 
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = ბარათი დაბოლოებით { $last4 }
+# Page - Not Found
+page-not-found-title = გვერდი ვერ მოიძებნა
+page-not-found-description = თქვენ მიერ მოთხოვნილი გვერდი ვერ მოიძებნა. ჩვენ უკვე გვეცნობა ამის შესახებ და ყველა შესაძლო დაზიანებულ ბმულს გავასწორებთ.
+page-not-found-back-button = უკან დაბრუნება
 
 ## Component - Payment Consent Checkbox
 
