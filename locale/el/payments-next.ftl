@@ -1,6 +1,8 @@
 ## Page
 
 checkout-signin-or-create = 1. Συνδεθείτε ή δημιουργήστε έναν { -product-mozilla-account(case: "acc", capitalization: "lower") }
+# This string appears as a separation between the two sign-in options, "Enter your email"(signin-form-email-input) "or"(this string) "Continue with Google"(continue-signin-with-google-button) / "Continue with Apple"(continue-signin-with-apple-button)
+checkout-signin-options-or = ή
 continue-signin-with-google-button = Συνέχεια με { -brand-google }
 continue-signin-with-apple-button = Συνέχεια με { -brand-apple }
 next-payment-method-header = Επιλέξτε τη μέθοδο πληρωμής σας
@@ -58,6 +60,10 @@ next-payment-confirmation-download-button = Συνέχεια στη λήψη
 
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Κάρτα που λήγει σε { $last4 }
+# Page - Not Found
+page-not-found-title = Η σελίδα δεν βρέθηκε
+page-not-found-description = Η σελίδα που ζητήσατε δεν βρέθηκε. Έχουμε ειδοποιηθεί και θα διορθώσουμε τυχόν συνδέσμους που ενδέχεται να μη λειτουργούν.
+page-not-found-back-button = Επιστροφή
 
 ## Component - Payment Consent Checkbox
 
