@@ -56,6 +56,10 @@ next-payment-confirmation-download-button = המשך להורדה
 
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = כרטיס המסתיים ב־{ $last4 }
+# Page - Not Found
+page-not-found-title = הדף לא נמצא
+page-not-found-description = העמוד המבוקש לא נמצא. קיבלנו את המידע הדרוש ונתקן את הקישורים שייתכן שנשברו.
+page-not-found-back-button = חזרה אחורה
 
 ## Component - Payment Consent Checkbox
 
