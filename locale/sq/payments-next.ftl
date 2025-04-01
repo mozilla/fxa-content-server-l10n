@@ -1,15 +1,21 @@
 ## Page
 
 checkout-signin-or-create = 1. Bëni hyrjen, ose krijoni një { -product-mozilla-account }
+# This string appears as a separation between the two sign-in options, "Enter your email"(signin-form-email-input) "or"(this string) "Continue with Google"(continue-signin-with-google-button) / "Continue with Apple"(continue-signin-with-apple-button)
+checkout-signin-options-or = ose
 continue-signin-with-google-button = Vazhdoni me { -brand-google }
 continue-signin-with-apple-button = Vazhdoni me { -brand-apple }
 next-payment-method-header = Zgjidhni metodën tuaj të pagesës
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = Së pari, do t’ju duhet të miratoni pajtimin tuaj
+location-required-header = Ju lutemi, përzgjidhni vendin tuaj dhe jepni kodin tuaj postar.
+location-required-subheader = S’qemë në gjendje të pikasim automatikisht vendndodhjen tuaj.
+location-required-disclaimer = Këto hollësi i përdorim vetëm për të llogaritur taksa dhe monedhë.
 
 ## Page - Upgrade page
 
+upgrade-page-payment-information = Hollësi Pagese
 checkout-error-boundary-retry-button = Riprovoni
 checkout-error-boundary-basic-error-message = Diç shkoi ters. Ju lutemi, riprovoni, ose <contactSupportLink>lidhuni me asistencën.</contactSupportLink>
 
@@ -52,6 +58,9 @@ next-payment-confirmation-download-button = Vazhdoni te shkarkimi
 
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Kartë që përfundon me { $last4 }
+# Page - Not Found
+page-not-found-title = S’u gjet faqe
+page-not-found-back-button = Kthehu Mbrapsht
 
 ## Component - Payment Consent Checkbox
 
@@ -80,6 +89,10 @@ next-coupon-submit = Zbatoje
 
 # Component - Header
 
+payments-header-help =
+    .title = Ndihmë
+    .aria-label = Ndihmë
+    .alt = Ndihmë
 payments-client-loading-spinner =
     .aria-label = Po ngarkohet…
     .alt = Po ngarkohet…
