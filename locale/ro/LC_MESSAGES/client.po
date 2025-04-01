@@ -2,18 +2,12 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-05 20:09+0000\n"
-"PO-Revision-Date: 2024-03-10 21:00+0000\n"
-"Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2);\n"
-"X-Generator: Pontoon\n"
-"X-POOTLE-MTIME: 1440955868.0\n"
+"Generated-By: Pontoon\n"
 
 #: .es5/views/confirm_reset_password.js:170
 msgid "Password reset"
@@ -306,14 +300,10 @@ msgstr "Ai încercat de prea multe ori. Încearcă din nou %(retryAfterLocalized
 msgid "Invalid token"
 msgstr "Jeton nevalid"
 
-# Timestamp: termen de jargon informatic și probabil un parametru pentru o
-# cerere programatică API.
 #: .es5/lib/auth-errors.js:39
 msgid "Invalid timestamp in request signature"
 msgstr "Marcaj de timp nevalid în semnătura solicitării"
 
-# Nonce: termen de jargon informatic și probabil un parametru pentru o cerere
-# programatică API. Înseamnă „număr unic”.
 #: .es5/lib/auth-errors.js:43
 msgid "Invalid nonce in request signature"
 msgstr "Număr unic aleatoriu nevalid în semnătura solicitării"
@@ -342,8 +332,6 @@ msgstr "Cont neverificat"
 msgid "Invalid verification code"
 msgstr "Cod de verificare nevalid"
 
-# JSON: format de interschimbare date folosit programatic, e vorba de o
-# autentificare programatică, nu una a unui utilizator
 #: .es5/lib/auth-errors.js:71
 msgid "Invalid JSON in request body"
 msgstr "JSON nevalid în corpul cererii"
@@ -360,7 +348,6 @@ msgstr "Parametru lipsă: %(param)s"
 msgid "Invalid request signature"
 msgstr "Semnătură nevalidă a cererii"
 
-# Header e termen programatic, la fel și content-length, alea nu se traduc.
 #: .es5/lib/auth-errors.js:87
 msgid "Missing content-length header"
 msgstr "Antet content-length lipsă"
@@ -534,8 +521,6 @@ msgstr "Funcționalitate neactivată"
 msgid "System unavailable, try again soon"
 msgstr "Sistem indisponibil; încearcă din nou mai târziu"
 
-# „Endpoint” are o semnificație precisă, e o denumire de metodă pentru un API
-# Web (de regulă REST) și nu se traduce
 #: .es5/lib/auth-errors.js:302
 msgid "This endpoint is no longer supported"
 msgstr "Acest punct terminal nu mai este suportat"
@@ -620,7 +605,6 @@ msgstr "Link de verificare corupt"
 msgid "The image dimensions must be at least 100x100px"
 msgstr "Dimensiunile imaginii trebuie să fie de cel puțin 100x100px"
 
-# Signup poate fi un nume de serviciu
 #: .es5/lib/auth-errors.js:435
 msgid "Signup is coming soon to Firefox for iOS"
 msgstr "În curând te vei putea înregistra și de pe Firefox pentru iOS"
@@ -1139,7 +1123,6 @@ msgstr ""
 "Continuând, ești de acord cu <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Termenii de utilizare a serviciului</a> și <a class=\"link-grey\" id=\"fxa-pp\" "
 "href=\"/legal/privacy\">Politica de confidențialitate</a>."
 
-# Sau „Schimbă contul”
 #: .es5/templates/force_auth.mustache:13 .es5/templates/sign_in_password.mustache:18 .es5/templates/sign_in_totp_code.mustache:6
 msgid "Use a different account"
 msgstr "Folosește un alt cont"
@@ -1315,7 +1298,7 @@ msgstr "Acceptă"
 
 #: .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:22 .es5/templates/settings/account_recovery/confirm_password.mustache:5 .es5/templates/pair/supp_allow.mustache:3
 msgid "Cancel"
-msgstr "Renunță"
+msgstr "Anulează"
 
 #: .es5/templates/pp.mustache:1 .es5/templates/support.mustache:25
 msgid "Privacy Notice"
