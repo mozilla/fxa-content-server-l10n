@@ -1,6 +1,8 @@
 ## Page
 
 checkout-signin-or-create = 1. 登入或註冊 { -product-mozilla-account }
+# This string appears as a separation between the two sign-in options, "Enter your email"(signin-form-email-input) "or"(this string) "Continue with Google"(continue-signin-with-google-button) / "Continue with Apple"(continue-signin-with-apple-button)
+checkout-signin-options-or = 或
 continue-signin-with-google-button = 使用 { -brand-google } 帳號繼續
 continue-signin-with-apple-button = 使用 { -brand-apple } 帳號繼續
 next-payment-method-header = 選擇付款方式
@@ -58,6 +60,10 @@ next-payment-confirmation-download-button = 前往下載
 
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = 卡號末四碼：{ $last4 }
+# Page - Not Found
+page-not-found-title = 找不到頁面
+page-not-found-description = 找不到您想開啟的頁面。我們已經通知開發團隊來檢查網頁。
+page-not-found-back-button = 回上一頁
 
 ## Component - Payment Consent Checkbox
 
