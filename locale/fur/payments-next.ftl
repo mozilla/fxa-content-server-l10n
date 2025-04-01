@@ -62,6 +62,8 @@ next-payment-confirmation-download-button = Continue par discjariâ
 next-payment-confirmation-cc-card-ending-in = La cjarte e che e finìs cun { $last4 }
 # Page - Not Found
 page-not-found-title = Pagjine no cjatade
+page-not-found-description = La pagjine domandade no je stade cjatade. Nus è rivade la segnalazion dal probleme e o comedarìn i eventuâi colegaments che no funzionin.
+page-not-found-back-button = Torne indaûr
 
 ## Component - Payment Consent Checkbox
 
