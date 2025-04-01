@@ -93,6 +93,26 @@ payments-header-help =
     .title = Ndihmë
     .aria-label = Ndihmë
     .alt = Ndihmë
+payments-header-bento =
+    .title = Produkte { -brand-mozilla }
+    .aria-label = Produkte { -brand-mozilla }
+    .alt = Stemë { -brand-mozilla }
+payments-header-bento-close =
+    .alt = Mbylle
+payments-header-bento-tagline = Më tepër produkte nga { -brand-mozilla } që mbrojnë privatësinë tuaj
+payments-header-bento-firefox-desktop = Shfletuesi { -brand-firefox } për Desktop
+payments-header-bento-firefox-mobile = Shfletuesi { -brand-firefox } për Celular
+payments-header-bento-monitor = { -product-mozilla-monitor }
+payments-header-bento-firefox-relay = { -product-firefox-relay }
+payments-header-bento-vpn = { -product-mozilla-vpn }
+payments-header-bento-pocket = { -product-pocket }
+payments-header-bento-made-by-mozilla = Krijuar nga { -brand-mozilla }
+payments-header-avatar =
+    .title = Menu { -product-mozilla-account }
+payments-header-avatar-icon =
+    .alt = Foto profili llogarie
+payments-header-avatar-expanded-signed-in-as = Futur si
+payments-header-avatar-expanded-sign-out = Dilni
 payments-client-loading-spinner =
     .aria-label = Po ngarkohet…
     .alt = Po ngarkohet…
@@ -148,6 +168,7 @@ next-new-user-subscribe-product-assurance = Email-in tuaj e përdorim vetëm pë
 plan-price-interval-daily = { $amount } në ditë
 plan-price-interval-weekly = { $amount } në javë
 plan-price-interval-monthly = { $amount } në muaj
+plan-price-interval-halfyearly = { $amount } çdo 6 muaj
 plan-price-interval-yearly = { $amount } në vit
 
 ## Component - SubscriptionTitle
@@ -167,6 +188,11 @@ next-subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capita
 next-terms = Kushte Shërbimi
 next-privacy = Shënim Mbi Privatësinë
 next-terms-download = Kushte Shkarkimi
+terms-and-privacy-stripe-label = { -brand-mozilla } përdor { -brand-name-stripe } për përpunim të sigurt të pagesave.
+terms-and-privacy-stripe-link = Rregulla privatësie të { -brand-name-stripe }-it
+terms-and-privacy-paypal-label = { -brand-mozilla } përdor { -brand-paypal } për kryerje të siguruar të pagesave.
+terms-and-privacy-paypal-link = Rregulla Privatësie të { -brand-paypal }-it
+terms-and-privacy-stripe-and-paypal-label = { -brand-mozilla } përdor { -brand-name-stripe } dhe { -brand-paypal } për kryerje të siguruar të pagesave.
 
 ## Component - UpdatedPurchaseDetails
 
@@ -182,4 +208,5 @@ upgrade-purchase-details-new-total-label = Shumë e re
 upgrade-purchase-details-new-plan-daily = { $productName } (E përditshme)
 upgrade-purchase-details-new-plan-weekly = { $productName } (E përjavshme)
 upgrade-purchase-details-new-plan-monthly = { $productName } (E përmuajshme)
+upgrade-purchase-details-new-plan-halfyearly = { $productName } (6-muaj)
 upgrade-purchase-details-new-plan-yearly = { $productName } (E përvitshme)

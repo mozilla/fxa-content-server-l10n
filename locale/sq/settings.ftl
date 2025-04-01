@@ -1043,6 +1043,8 @@ tfa-row-backup-phone-delete-button = Hiqe
 # Shown in tooltip on delete button or delete icon
 tfa-row-backup-phone-delete-title-v2 = Hiq telefon rimarrjeje
 tfa-row-backup-phone-delete-restriction-v2 = Nëse doni të hiqni telefonin tuaj të rikthimit, shtoni kode mirëfilltësimi kopjeruajtjesh, apo të çaktivizoni, së pari, mirëfilltësimin me dy hapa, që të shmangni lënien jashtë llogarie.
+# "this" refers to recovery phone
+tfa-row-backup-phone-description-v2 = Kjo është metoda më e kollajtë për rimarrje, nëse s’mundeni të përdorni aplikacionin e mirëfilltësimeve.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
@@ -1215,11 +1217,17 @@ auth-error-1003 = Depozitimi vendor, ose cookie-t ende janë të çaktivizuara
 auth-error-1008 = Fjalëkalimi juaj i ri duhet të jetë i ndryshëm
 auth-error-1010 = Lyp fjalëkalim të vlefshëm
 auth-error-1011 = Lypset email i vlefshëm
+auth-error-1018 = Email-i juaj i ripohimit sapo u kthye mbrapsht. E shkruat keq email-in?
+auth-error-1020 = Email i shkruar gabim? firefox.com s’është shërbim email i vlefshëm
 auth-error-1031 = Duhet të jepni moshën tuaj që të regjistroheni
 auth-error-1032 = Që të regjistroheni, duhet të jepni një moshë të vlefshme
 auth-error-1054 = Kod i pavlefshëm mirëfilltësimi dyhapësh
 auth-error-1056 = Kod i pavlefshëm mirëfilltësimi kopjeruajtjeje
 auth-error-1062 = Ridrejtim i pavlefshëm
+# Shown when a user tries to sign up with an email address with a domain that doesn't receive emails
+auth-error-1064 = Email i shkruar gabim? { $domain } s’është shërbim email i vlefshëm
+auth-error-1066 = Maskat email s’mund të përdoren për të krijuar një llogari.
+auth-error-1067 = Email i shkruar gabim?
 # Displayed when we want to reference a user's previously set up recovery phone
 # number, but they are not completely signed in yet. We'll only show the last 4 digits.
 # Variables:
@@ -1277,6 +1285,8 @@ cookies-disabled-learn-more = Mësoni më tepër
 index-header = Jepni email-in tuaj
 index-sync-header = Vazhdoni te { -product-mozilla-account } juaj
 index-sync-subheader = Njëkohësoni fjalëkalimet, skedat dhe faqerojtësit tuaj, kudo që përdorni { -brand-firefox }-in.
+index-relay-header = Krijoni një maskë email-i
+index-relay-subheader = Ju lutemi, jepni adresën email ku do të doni të përcillen email-et prej email-it tuaj të maskuar.
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = Vazhdoni te { $serviceName }
 index-subheader-with-logo = Vazhdoni te <span>{ $serviceLogo }</span>
@@ -1285,6 +1295,10 @@ index-cta = Regjistrohuni, ose bëni hyrjen
 index-account-info = Një { -product-mozilla-account } shkyç gjithashtu përdorim të më tepër produktesh nga { -brand-mozilla } që mbrojnë privatësinë.
 index-email-input =
     .label = Jepni email-in tuaj
+# When users delete their Mozilla account inside account Settings, they are redirected to this page with a success message
+index-account-delete-success = Llogaria u fshi me sukses
+# Displayed when users try to sign up for an account and their confirmation code email bounces
+index-email-bounced = Email-i juaj i ripohimit sapo u kthye mbrapsht. E shkruat keq email-in?
 
 ## InlineRecoveryKeySetup page component
 
@@ -1714,6 +1728,11 @@ signin-recovery-phone-send-code-error-heading = Pati një problem me dërgimin e
 signin-recovery-phone-code-verification-error-heading = Pati një problem me verifikimin e kodit tuaj
 # Follows the error message (e.g, "There was a problem sending a code")
 signin-recovery-phone-general-error-description = Ju lutemi, riprovoni më vonë.
+signin-recovery-phone-invalid-code-error-description = Kodi është i pavlefshëm, ose ka skaduar.
+signin-recovery-phone-invalid-code-error-link = Në vend të kësaj, të përdoren kode mirëfilltësimi kopjeruajtjeje?
+# "Limits" refers to potential restrictions on how often a recovery phone number can be used for signing in within a given time period.
+# If limits are reached, users may have to use an alternate two-step authentication method or wait until the restriction period is over.
+signin-recovery-phone-success-message = Hytë me sukses. Mund të ketë kufij, nëse e përdorni sërish telefonin e rimarrjes.
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
