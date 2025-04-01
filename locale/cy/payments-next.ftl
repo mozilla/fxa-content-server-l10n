@@ -62,7 +62,7 @@ next-payment-confirmation-download-button = Parhau i lwytho i lawr
 next-payment-confirmation-cc-card-ending-in = Cerdyn yn gorffen gyda { $last4 }
 # Page - Not Found
 page-not-found-title = Heb ganfod y dudalen
-page-not-found-description = Ni chanfuwyd y dudalen y gofynnoch amdani. Rydym wedi cael ein hysbysu a byddwn yn trwsio unrhyw ddolenni a allai gael eu torri.
+page-not-found-description = Heb ganfod y dudalen rydych wedi gofyn amdani. Rydym wedi cael ein hysbysu a byddwn yn trwsio unrhyw ddolenni all fod wedi'u torri.
 page-not-found-back-button = Mynd Nôl
 
 ## Component - Payment Consent Checkbox
