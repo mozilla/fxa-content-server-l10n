@@ -16,6 +16,11 @@ location-required-disclaimer = Këto hollësi i përdorim vetëm për të llogar
 ## Page - Upgrade page
 
 upgrade-page-payment-information = Hollësi Pagese
+# $nextInvoiceDate (number) - The date of the next invoice
+upgrade-page-acknowledgment =
+    Plani juaj do të ndryshojë menjëherë dhe do t’ju faturohet sot vlera e
+    cila i takon pjesës së mbetur e këtij cikli faturimi. Duke filluar nga
+    { $nextInvoiceDate } do t’ju faturohet vlera e plotë.
 checkout-error-boundary-retry-button = Riprovoni
 checkout-error-boundary-basic-error-message = Diç shkoi ters. Ju lutemi, riprovoni, ose <contactSupportLink>lidhuni me asistencën.</contactSupportLink>
 
@@ -60,6 +65,7 @@ next-payment-confirmation-download-button = Vazhdoni te shkarkimi
 next-payment-confirmation-cc-card-ending-in = Kartë që përfundon me { $last4 }
 # Page - Not Found
 page-not-found-title = S’u gjet faqe
+page-not-found-description = Faqja që kërkuat nuk u gjet. E kemi mbajtur shënim dhe do të ndreqim çfarëdo lidhje që mund të jetë e dëmtuar.
 page-not-found-back-button = Kthehu Mbrapsht
 
 ## Component - Payment Consent Checkbox
