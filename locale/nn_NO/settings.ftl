@@ -1088,11 +1088,13 @@ auth-error-1003 = Lokal lagring eller infokapslar er framleis slått av
 auth-error-1008 = Det må vere eit nytt passord
 auth-error-1010 = Gyldig passord påkravd
 auth-error-1011 = Gyldig e-postadresse påkravd
+auth-error-1018 = Stadfestings e-posten din kom i retur. Feil i e-postadressa?
 auth-error-1031 = Du må skrive inn alder for å registrere deg
 auth-error-1032 = Du må skrive inn ein gyldig alder for å registrere deg
 auth-error-1054 = Feil tostegs-godkjenningskode
 auth-error-1056 = Ugyldig reserve-godkjenningskode
 auth-error-1062 = Ugyldig omdirigering
+auth-error-1066 = E-postmasker kan ikkje brukast til å opprette ein konto.
 auth-error-1067 = Feilksriven e-postadresse?
 # Displayed when we want to reference a user's previously set up recovery phone
 # number, but they are not completely signed in yet. We'll only show the last 4 digits.
@@ -1540,6 +1542,7 @@ signin-token-code-code-expired = Har koden gått ut?
 signin-token-code-resend-code-link = Send ny kode på e-post.
 # Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = Stadfestingskode påkravd
+signin-token-code-resend-error = Noko gjekk gale. Klarte ikkje å sende ein ny kode.
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
