@@ -841,13 +841,13 @@ recent-activity-account-secondary-email-removed = Adresse e-mail secondaire supp
 recent-activity-account-emails-swapped = Les adresses e-mail principale et secondaire ont été interverties
 recent-activity-session-destroy = Déconnecté·e de la session
 recent-activity-account-recovery-phone-send-code = Code de récupération du numéro de téléphone envoyé
-recent-activity-account-recovery-phone-setup-complete = La configuration du téléphone est terminée
-recent-activity-account-recovery-phone-signin-complete = Connexion avec le numéro de téléphone de récupération terminée
-recent-activity-account-recovery-phone-signin-failed = Échec de la connexion avec un numéro de téléphone de récupération
+recent-activity-account-recovery-phone-setup-complete = Configuration du numéro de téléphone de récupération terminée
+recent-activity-account-recovery-phone-signin-complete = Connexion avec le numéro de téléphone de récupération effectuée
+recent-activity-account-recovery-phone-signin-failed = Échec de connexion avec le numéro de téléphone de récupération
 recent-activity-account-recovery-phone-removed = Le numéro de téléphone de récupération a été supprimé
 recent-activity-account-recovery-codes-replaced = Codes de secours remplacés
 recent-activity-account-recovery-codes-created = Codes de secours créés
-recent-activity-account-recovery-codes-signin-complete = Connexion avec les codes de récupération effectuée
+recent-activity-account-recovery-codes-signin-complete = Connexion avec les codes de secours effectuée
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Autre activité du compte
 
