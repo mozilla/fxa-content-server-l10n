@@ -840,7 +840,7 @@ recent-activity-account-secondary-email-added = Adresse e-mail secondaire ajout�
 recent-activity-account-secondary-email-removed = Adresse e-mail secondaire supprimée
 recent-activity-account-emails-swapped = Les adresses e-mail principale et secondaire ont été interverties
 recent-activity-session-destroy = Déconnecté·e de la session
-recent-activity-account-recovery-phone-send-code = Code de récupération du numéro de téléphone envoyé
+recent-activity-account-recovery-phone-send-code = Code de secours envoyé au numéro de téléphone
 recent-activity-account-recovery-phone-setup-complete = Configuration du numéro de téléphone de récupération terminée
 recent-activity-account-recovery-phone-signin-complete = Connexion avec le numéro de téléphone de récupération effectuée
 recent-activity-account-recovery-phone-signin-failed = Échec de connexion avec le numéro de téléphone de récupération
@@ -957,7 +957,7 @@ tfa-save-these-codes-1 =
     Conservez ces codes d’authentification de secours à usage unique dans un endroit sûr pour quand
     vous n’avez pas votre appareil mobile.
 # codes here refers to backup authentication codes
-tfa-enter-code-to-confirm-setup = Saisissez-en un après avoir enregistré vos codes. Sans ces codes, vous ne pourrez peut-être pas vous connecter si vous ne disposez pas d’une application d’authentification.
+tfa-enter-code-to-confirm-setup = Confirmez que vous avez enregistré vos codes en en saisissant un. Sans ces codes, vous ne pourrez peut-être pas vous connecter si vous ne disposez pas de votre application d’authentification.
 tfa-enter-recovery-code-1 =
     .label = Saisissez un code d’authentification de secours
 
@@ -1202,7 +1202,7 @@ auth-error-206 = Impossible de créer le mot de passe, un mot de passe est déj�
 auth-error-214 = Le numéro de téléphone de récupération existe déjà
 auth-error-215 = Le numéro de téléphone de récupération n’existe pas
 auth-error-216 = Nombre maximum d’envois de SMS atteint
-auth-error-218 = Impossible de supprimer le numéro de téléphone de récupération, car il manque des codes d’authentification de secours.
+auth-error-218 = Impossible de supprimer le numéro de téléphone de récupération, car les codes d’authentification de secours n’ont pas été créés.
 auth-error-219 = Ce numéro de téléphone a été enregistré avec trop de comptes. Veuillez essayer avec un autre numéro.
 auth-error-999 = Erreur inattendue
 auth-error-1001 = Tentative de connexion annulée
