@@ -842,9 +842,9 @@ recent-activity-account-emails-swapped = Les adresses e-mail principale et secon
 recent-activity-session-destroy = Déconnecté·e de la session
 recent-activity-account-recovery-phone-send-code = Code de secours envoyé au numéro de téléphone
 recent-activity-account-recovery-phone-setup-complete = Configuration du numéro de téléphone de secours terminée
-recent-activity-account-recovery-phone-signin-complete = Connexion avec le numéro de téléphone de récupération effectuée
-recent-activity-account-recovery-phone-signin-failed = Échec de connexion avec le numéro de téléphone de récupération
-recent-activity-account-recovery-phone-removed = Le numéro de téléphone de récupération a été supprimé
+recent-activity-account-recovery-phone-signin-complete = Connexion avec le numéro de téléphone de secours effectuée
+recent-activity-account-recovery-phone-signin-failed = Échec de connexion avec le numéro de téléphone de secours
+recent-activity-account-recovery-phone-removed = Le numéro de téléphone de secours a été supprimé
 recent-activity-account-recovery-codes-replaced = Codes de secours remplacés
 recent-activity-account-recovery-codes-created = Codes de secours créés
 recent-activity-account-recovery-codes-signin-complete = Connexion avec les codes de secours effectuée
@@ -865,13 +865,13 @@ recovery-key-create-back-button-title = Retour aux paramètres
 recovery-phone-remove-header = Supprimer le numéro de téléphone de secours
 # Variables:
 #   $formattedFullPhoneNumber (String) - the user's full phone number
-settings-recovery-phone-remove-info = Le numéro de téléphone de récupération <strong>{ $formattedFullPhoneNumber }</strong> sera supprimé.
+settings-recovery-phone-remove-info = Le numéro de téléphone de secours <strong>{ $formattedFullPhoneNumber }</strong> sera supprimé.
 settings-recovery-phone-remove-recommend = Nous vous recommandons de conserver cette méthode, car elle est plus facile à utiliser que d’enregistrer des codes d’authentification de secours.
 # "Saved backup authentication codes" refers to previously saved backup authentication codes
 settings-recovery-phone-remove-recovery-methods = Si vous supprimez cette méthode, assurez-vous de conserver les codes d’authentification de secours que vous avez enregistrés. <linkExternal>Comparer les méthodes de récupération</linkExternal>
 settings-recovery-phone-remove-button = Supprimer le numéro de téléphone
 settings-recovery-phone-remove-cancel = Annuler
-settings-recovery-phone-remove-success = Le numéro de téléphone de récupération a été supprimé
+settings-recovery-phone-remove-success = Le numéro de téléphone de secours a été supprimé
 
 ## PageSetupRecoveryPhone
 
@@ -1029,7 +1029,7 @@ tfa-row-backup-codes-add-cta = Ajouter
 tfa-row-backup-codes-description-2 = Il s’agit de la méthode de récupération la plus sûre si vous ne pouvez pas utiliser votre appareil mobile ou votre application d’authentification.
 # Recovery phone is a recovery method for two-step authentication
 # A recovery code can be sent to the user's phone
-tfa-row-backup-phone-title-v2 = Numéro de téléphone de récupération
+tfa-row-backup-phone-title-v2 = Numéro de téléphone de secours
 # Shown with an alert icon to indicate that no recovery phone is configured
 tfa-row-backup-phone-not-available-v2 = Aucun numéro de téléphone ajouté
 # button to change the configured recovery phone
@@ -1039,8 +1039,8 @@ tfa-row-backup-phone-add-cta = Ajouter
 # Button to remove a recovery phone from the user's account
 tfa-row-backup-phone-delete-button = Supprimer
 # Shown in tooltip on delete button or delete icon
-tfa-row-backup-phone-delete-title-v2 = Supprimer le numéro de téléphone de récupération
-tfa-row-backup-phone-delete-restriction-v2 = Si vous souhaitez supprimer votre numéro de téléphone de récupération, ajoutez des codes d’authentification de secours ou désactivez d’abord l’authentification en deux étapes pour éviter de perdre l’accès à votre compte.
+tfa-row-backup-phone-delete-title-v2 = Supprimer le numéro de téléphone de secours
+tfa-row-backup-phone-delete-restriction-v2 = Si vous souhaitez supprimer votre numéro de téléphone de secours, ajoutez des codes d’authentification de secours ou désactivez d’abord l’authentification en deux étapes pour éviter de perdre l’accès à votre compte.
 # "this" refers to recovery phone
 tfa-row-backup-phone-description-v2 = C’est la méthode de récupération la plus simple si vous ne pouvez pas utiliser votre application d’authentification.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
@@ -1199,10 +1199,10 @@ auth-error-183-2 = Code de confirmation invalide ou expiré
 auth-error-202 = Fonctionnalité inactive
 auth-error-203 = Système indisponible, veuillez réessayer plus tard
 auth-error-206 = Impossible de créer le mot de passe, un mot de passe est déjà défini
-auth-error-214 = Le numéro de téléphone de récupération existe déjà
-auth-error-215 = Le numéro de téléphone de récupération n’existe pas
+auth-error-214 = Le numéro de téléphone de secours existe déjà
+auth-error-215 = Le numéro de téléphone de secours n’existe pas
 auth-error-216 = Nombre maximum d’envois de SMS atteint
-auth-error-218 = Impossible de supprimer le numéro de téléphone de récupération, car les codes d’authentification de secours n’ont pas été créés.
+auth-error-218 = Impossible de supprimer le numéro de téléphone de secours, car les codes d’authentification de secours n’ont pas été créés.
 auth-error-219 = Ce numéro de téléphone a été enregistré avec trop de comptes. Veuillez essayer avec un autre numéro.
 auth-error-999 = Erreur inattendue
 auth-error-1001 = Tentative de connexion annulée
@@ -1661,7 +1661,7 @@ signin-push-code-confirm-link-error = Le lien est altéré. Veuillez réessayer.
 signin-recovery-method-header = Connexion
 signin-recovery-method-subheader = Choisissez une méthode de récupération
 signin-recovery-method-details = Assurons-nous qu’il s’agit bien de vous à l’aide de vos méthodes de récupération.
-signin-recovery-method-phone = Numéro de téléphone de récupération
+signin-recovery-method-phone = Numéro de téléphone de secours
 signin-recovery-method-code-v2 = Codes d’authentification de secours
 # Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
 signin-recovery-method-code-info-v2 =
@@ -1670,7 +1670,7 @@ signin-recovery-method-code-info-v2 =
        *[other] { $numBackupCodes } codes restants
     }
 # Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
-signin-recovery-method-send-code-error-heading = Un problème est survenu lors de l’envoi d’un code à votre téléphone de récupération
+signin-recovery-method-send-code-error-heading = Un problème est survenu lors de l’envoi d’un code à votre numéro de téléphone de secours
 signin-recovery-method-send-code-error-description = Veuillez réessayer plus tard ou utiliser vos codes d’authentification de secours.
 
 ## SigninRecoveryCode page
@@ -1687,7 +1687,7 @@ signin-recovery-code-input-label-v2 = Saisissez le code de 10 caractères
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Confirmer
 # Link to go to the page to use recovery phone instead
-signin-recovery-code-phone-link = Utiliser le numéro de téléphone de récupération
+signin-recovery-code-phone-link = Utiliser le numéro de téléphone de secours
 # External link for support if the user can't use two-step autentication or a backup authentication code
 # https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 signin-recovery-code-support-link = Vous ne parvenez pas à accéder à votre compte ?
@@ -1696,7 +1696,7 @@ signin-recovery-code-required-error = Code d’authentification de secours requi
 # Message to user after they were redirected to the Mozilla account sign-in page in a new browser
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
-signin-recovery-code-use-phone-failure = Un problème est survenu lors de l’envoi d’un code à votre téléphone de récupération
+signin-recovery-code-use-phone-failure = Un problème est survenu lors de l’envoi d’un code à votre téléphone de secours
 signin-recovery-code-use-phone-failure-description = Veuillez réessayer plus tard.
 
 ## SigninRecoveryPhone page
@@ -1721,7 +1721,7 @@ signin-recovery-phone-invalid-code-error-description = Le code est invalide ou a
 signin-recovery-phone-invalid-code-error-link = Utiliser plutôt des codes d’authentification de secours ?
 # "Limits" refers to potential restrictions on how often a recovery phone number can be used for signing in within a given time period.
 # If limits are reached, users may have to use an alternate two-step authentication method or wait until the restriction period is over.
-signin-recovery-phone-success-message = Connexion réussie. Des limites peuvent s’appliquer si vous utilisez à nouveau votre numéro de téléphone de récupération.
+signin-recovery-phone-success-message = Connexion réussie. Des limites peuvent s’appliquer si vous utilisez à nouveau votre numéro de téléphone de secours.
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
