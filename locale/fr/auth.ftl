@@ -375,12 +375,12 @@ postAddLinkedAccount-subject-2 = Nouveau compte lié à votre { -product-mozilla
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = Votre compte { $providerName } a été lié à votre { -product-mozilla-account }
 postAddLinkedAccount-action = Gérer le compte
-postAddRecoveryPhone-subject = Numéro de téléphone de récupération ajouté
+postAddRecoveryPhone-subject = Numéro de téléphone de secours ajouté
 postAddRecoveryPhone-preview = Compte protégé par l’authentification en deux étapes
-postAddRecoveryPhone-title = Vous avez créé un numéro de téléphone de récupération
+postAddRecoveryPhone-title = Vous avez créé un numéro de téléphone de secours
 # Variables:
 #  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
-postAddRecoveryPhone-description-v2 = Vous avez ajouté { $maskedLastFourPhoneNumber } comme numéro de téléphone de récupération
+postAddRecoveryPhone-description-v2 = Vous avez ajouté { $maskedLastFourPhoneNumber } comme numéro de téléphone de secours
 # Links out to a support article about two factor authentication
 postAddRecoveryPhone-how-protect = Comment cela protège votre compte
 postAddRecoveryPhone-how-protect-plaintext = Comment cela protège votre compte :
@@ -403,10 +403,10 @@ postChangePrimary-title = Nouvelle adresse e-mail principale
 #  $email (String) - A user's email address
 postChangePrimary-description-2 = Votre adresse e-mail principale est désormais { $email }. Vous pouvez à présent l’utiliser pour vous connecter à votre { -product-mozilla-account } et recevoir les notifications de sécurité et les confirmations de connexion.
 postChangePrimary-action = Gérer le compte
-postChangeRecoveryPhone-subject = Numéro de téléphone de récupération mis à jour
+postChangeRecoveryPhone-subject = Numéro de téléphone de secours mis à jour
 postChangeRecoveryPhone-preview = Compte protégé par l’authentification en deux étapes
-postChangeRecoveryPhone-title = Vous avez changé votre numéro de téléphone de récupération
-postChangeRecoveryPhone-description = Vous avez maintenant un nouveau numéro de téléphone de récupération. Votre précédent numéro de téléphone a été supprimé.
+postChangeRecoveryPhone-title = Vous avez changé votre numéro de téléphone de secours
+postChangeRecoveryPhone-description = Vous avez maintenant un nouveau numéro de téléphone de secours. Votre précédent numéro de téléphone a été supprimé.
 postChangeRecoveryPhone-requested-device = La demande a été effectuée depuis :
 postConsumeRecoveryCode-title-2 = Vous avez utilisé un code d’authentification de secours
 # After the colon, there is description of the device that the backup authentication code was used on
@@ -427,10 +427,10 @@ postRemoveAccountRecovery-title-3 = Vous avez supprimé la clé de récupératio
 postRemoveAccountRecovery-body-part1 = Votre clé de récupération de compte est nécessaire pour restaurer vos données de navigation chiffrées si vous oubliez votre mot de passe.
 postRemoveAccountRecovery-body-part2 = Si ce n’est pas déjà fait, créez une nouvelle clé de récupération depuis les paramètres de votre compte pour éviter de perdre vos mots de passe, marque-pages, historique de navigation et autres données enregistrées.
 postRemoveAccountRecovery-action = Gérer le compte
-postRemoveRecoveryPhone-subject = Le numéro de téléphone de récupération a été supprimé
+postRemoveRecoveryPhone-subject = Le numéro de téléphone de secours a été supprimé
 postRemoveRecoveryPhone-preview = Compte protégé par l’authentification en deux étapes
-postRemoveRecoveryPhone-title = Le numéro de téléphone de récupération a été supprimé
-postRemoveRecoveryPhone-description = Votre numéro de téléphone de récupération a été supprimé de vos paramètres d’authentification en deux étapes. Vous pouvez toujours utiliser vos codes d’authentification de secours.
+postRemoveRecoveryPhone-title = Le numéro de téléphone de secours a été supprimé
+postRemoveRecoveryPhone-description = Votre numéro de téléphone de secours a été supprimé de vos paramètres d’authentification en deux étapes. Vous pouvez toujours utiliser vos codes d’authentification de secours.
 postRemoveRecoveryPhone-requested-device = La demande a été effectuée depuis :
 postRemoveSecondary-subject = L’adresse e-mail secondaire a été supprimée
 postRemoveSecondary-title = L’adresse e-mail secondaire a été supprimée
@@ -450,9 +450,9 @@ postSigninRecoveryCode-title = Votre code d’authentification de secours a ét�
 postSigninRecoveryCode-description = Si vous n’êtes pas à l’origine de cette action, vous devriez changer votre mot de passe immédiatement pour assurer la sécurité de votre compte.
 postSigninRecoveryCode-device = Vous vous êtes connecté·e depuis :
 postSigninRecoveryCode-action = Gérer le compte
-postSigninRecoveryPhone-subject = Numéro de téléphone de récupération utilisé pour se connecter
+postSigninRecoveryPhone-subject = Numéro de téléphone de secours utilisé pour se connecter
 postSigninRecoveryPhone-preview = Confirmer l’activité du compte
-postSigninRecoveryPhone-title = Votre numéro de téléphone de récupération a été utilisé pour se connecter
+postSigninRecoveryPhone-title = Votre numéro de téléphone de secours a été utilisé pour se connecter
 postSigninRecoveryPhone-description = Si vous n’êtes pas à l’origine de cette action, vous devriez changer votre mot de passe immédiatement pour assurer la sécurité de votre compte.
 postSigninRecoveryPhone-device = Vous vous êtes connecté·e depuis :
 postSigninRecoveryPhone-action = Gérer le compte

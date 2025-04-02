@@ -630,7 +630,7 @@ flow-setup-phone-confirm-code-button = Confirmer
 flow-setup-phone-confirm-code-expired = Code expiré ?
 flow-setup-phone-confirm-code-resend-code-button = Renvoyer le code
 flow-setup-phone-confirm-code-resend-code-success = Code envoyé
-flow-setup-phone-confirm-code-success-message-v2 = Numéro de téléphone de récupération ajouté
+flow-setup-phone-confirm-code-success-message-v2 = Numéro de téléphone de secours ajouté
 
 ## FlowSetupPhoneConfirmCode
 
@@ -641,7 +641,7 @@ flow-setup-phone-verify-number-instruction = Vous recevrez un SMS de { -brand-mo
 # Voice over Internet Protocol (VoIP), is a technology that uses a broadband Internet connection instead of a regular (or analog) phone line to make calls.
 # Phone mask services (for example Relay) provide a temporary virtual number to avoid providing a real phone number.
 # Both VoIP and phone masks can be unreliable for one-time-passcode (OTP) verification
-flow-setup-phone-submit-number-info-message-v2 = Le numéro de téléphone de récupération est uniquement disponible aux États-Unis et au Canada. Les numéros VoIP et les alias de numéro de téléphone ne sont pas recommandés.
+flow-setup-phone-submit-number-info-message-v2 = Le numéro de téléphone de secours est uniquement disponible aux États-Unis et au Canada. Les numéros VoIP et les alias de numéro de téléphone ne sont pas recommandés.
 flow-setup-phone-submit-number-legal = En fournissant votre numéro, vous acceptez que nous le conservions pour vous envoyer des SMS dans l’unique but de vérifier votre compte. Des frais de communication peuvent s’appliquer.
 # cliking on the button sends a code by text message to the phone number typed in by the user
 flow-setup-phone-submit-number-button = Envoyer le code
@@ -841,7 +841,7 @@ recent-activity-account-secondary-email-removed = Adresse e-mail secondaire supp
 recent-activity-account-emails-swapped = Les adresses e-mail principale et secondaire ont été interverties
 recent-activity-session-destroy = Déconnecté·e de la session
 recent-activity-account-recovery-phone-send-code = Code de secours envoyé au numéro de téléphone
-recent-activity-account-recovery-phone-setup-complete = Configuration du numéro de téléphone de récupération terminée
+recent-activity-account-recovery-phone-setup-complete = Configuration du numéro de téléphone de secours terminée
 recent-activity-account-recovery-phone-signin-complete = Connexion avec le numéro de téléphone de récupération effectuée
 recent-activity-account-recovery-phone-signin-failed = Échec de connexion avec le numéro de téléphone de récupération
 recent-activity-account-recovery-phone-removed = Le numéro de téléphone de récupération a été supprimé
@@ -862,7 +862,7 @@ recovery-key-create-back-button-title = Retour aux paramètres
 ## PageRecoveryPhoneRemove
 ## Users reach this page from account settings when they want to remove a backup phone number.
 
-recovery-phone-remove-header = Supprimer le numéro de téléphone de récupération
+recovery-phone-remove-header = Supprimer le numéro de téléphone de secours
 # Variables:
 #   $formattedFullPhoneNumber (String) - the user's full phone number
 settings-recovery-phone-remove-info = Le numéro de téléphone de récupération <strong>{ $formattedFullPhoneNumber }</strong> sera supprimé.
@@ -875,7 +875,7 @@ settings-recovery-phone-remove-success = Le numéro de téléphone de récupéra
 
 ## PageSetupRecoveryPhone
 
-page-setup-recovery-phone-heading = Ajoutez un numéro de téléphone de récupération
+page-setup-recovery-phone-heading = Ajoutez un numéro de téléphone de secours
 page-setup-recovery-phone-back-button-title = Retour aux paramètres
 # Back arrow to return to step 1 of recovery phone setup flow
 page-setup-recovery-phone-step2-back-button-title = Modifier le numéro de téléphone
