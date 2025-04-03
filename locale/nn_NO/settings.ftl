@@ -458,6 +458,9 @@ password-reset-chevron-expanded = Skjul åtvaring
 password-reset-chevron-collapsed = Vis åtvaring
 password-reset-data-may-not-be-recovered = Nettlesardataa dine kan ikkje gjenopprettast
 password-reset-previously-signed-in-device-2 = Har du ei eining du tidlegare har logga på?
+password-reset-data-may-be-saved-locally-2 = Nettlesardataa dine kan vere lagra på den eininga. Tilbakestill passordet ditt, og logg deretter på der for å gjenopprette og synkronisere dataa dine.
+password-reset-no-old-device-2 = Har du ei ny eining, men ikkje tilgang til nokon av dei tidlegare?
+password-reset-encrypted-data-cannot-be-recovered-2 = Vi beklagar, men dei krypterte nettlesardataa dine på { -brand-firefox }-serverar kan ikkje gjenopprettast.
 password-reset-warning-have-key = Har du ein kontogjenopprettingsnøkkel?
 
 ## Alert Bar
