@@ -446,6 +446,9 @@ flow-recovery-key-hint-cta-text = Fullfør
 # Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
 # "Hint" refers to "storage hint"
 flow-recovery-key-hint-char-limit-error = Hintet må innehalde færre enn 255 teikn.
+# Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-unsafe-char-error = Hintet kan ikkje innehalde usikre unicode-teikn. Berre bokstavar, tal, skiljeteikn og symbol er tillatne.
 
 ## ResetPasswordWarning component
 ## Warning shown to sync users that reset their password without using an account recovery key
@@ -453,6 +456,7 @@ flow-recovery-key-hint-char-limit-error = Hintet må innehalde færre enn 255 te
 password-reset-warning-icon = Åtvaring
 password-reset-chevron-expanded = Skjul åtvaring
 password-reset-chevron-collapsed = Vis åtvaring
+password-reset-data-may-not-be-recovered = Nettlesardataa dine kan ikkje gjenopprettast
 password-reset-previously-signed-in-device-2 = Har du ei eining du tidlegare har logga på?
 password-reset-warning-have-key = Har du ein kontogjenopprettingsnøkkel?
 
