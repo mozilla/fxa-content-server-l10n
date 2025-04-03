@@ -1,6 +1,8 @@
 ## Page
 
 checkout-signin-or-create = 1. Meld jo oan of meitsje in { -product-mozilla-account } oan
+# This string appears as a separation between the two sign-in options, "Enter your email"(signin-form-email-input) "or"(this string) "Continue with Google"(continue-signin-with-google-button) / "Continue with Apple"(continue-signin-with-apple-button)
+checkout-signin-options-or = of
 continue-signin-with-google-button = Trochgean mei { -brand-google }
 continue-signin-with-apple-button = Trochgean mei { -brand-apple }
 next-payment-method-header = Kies jo betellingsmetoade
@@ -58,6 +60,10 @@ next-payment-confirmation-download-button = Trochgean mei download
 
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Creditcard einigjend op { $last4 }
+# Page - Not Found
+page-not-found-title = Side net fûn
+page-not-found-description = De opfrege side is net fûn. Wy binne op de hichte en sille keppelingen dy't mooglik net wurkje werom bringe.
+page-not-found-back-button = Tebek
 
 ## Component - Payment Consent Checkbox
 
