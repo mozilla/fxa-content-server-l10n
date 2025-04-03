@@ -373,6 +373,7 @@ confirmation-link-reused-message = Denne stadfestingslenka er allereie brukt, og
 
 account-recovery-notification-cta = Opprett
 account-recovery-notification-header-value = Ikkje mist dataa dine om du gløymer passordet ditt
+account-recovery-notification-header-description = Opprett ein kontogjenopprettingsnøkkel for å gjenopprette synkroniserte nettlesardata viss du nokon gong gløymer passordet ditt.
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Ugyldig førespurnad
 
@@ -432,6 +433,9 @@ flow-recovery-key-download-storage-ideas-pwd-manager = Passordhandsamar
 # The header of the last step in the account recovery key creation flow
 # "key" here refers to the "account recovery key"
 flow-recovery-key-hint-header-v2 = Legg til eit hint for å finne nøkkelen din
+# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
+# "it" here refers to the storage hint, NOT the "account recovery key"
+flow-recovery-key-hint-message-v3 = Dette tipset skal hjelpe deg å hugse kvar du lagra nøkkelen for kontogjenoppretting. Vi kan vise det til deg under tilbakestillinga av passordet for å gjenopprette dataa dine.
 # The label for the text input where the user types in the storage hint they want to save.
 # The storage hint is optional, and users can leave this blank.
 flow-recovery-key-hint-input-v2 =
