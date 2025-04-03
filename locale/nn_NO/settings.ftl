@@ -7,6 +7,8 @@
 
 resend-code-success-banner-heading = Ein ny kode er sendt til e-posten din.
 resend-link-success-banner-heading = Ei ny lenke er sendt til e-posten din.
+# $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
+resend-success-banner-description = Legg til { $accountsEmail } i kontaktane dine for å sikre problemfri levering.
 
 ## Brand Messaging component
 ## Used to show in product messaging about upcoming brand changes
@@ -283,6 +285,10 @@ recovery-key-image-aria-label =
     .aria-label = Illustrasjon som representerer ein kontogjenopprettingsnøkkel.
 password-image-aria-label =
     .aria-label = Ein illustrasjon av ei inntasting av eit passord
+lightbulb-aria-label =
+    .aria-label = Illustrasjon som viser oppretting av eit lagringshint.
+email-code-image-aria-label =
+    .aria-label = Illustrasjon av ein e-post som inneheld ein kode.
 recovery-phone-image-description =
     .aria-label = Mobileining som får ein tekstmeldingskode
 recovery-phone-code-image-description =
