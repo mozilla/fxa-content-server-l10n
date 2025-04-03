@@ -389,6 +389,7 @@ password-strength-balloon-stay-safe-tips = Hald deg trygg – Ikkje bruk passord
 password-strength-inline-min-length = Minst 8 teikn
 password-strength-inline-not-email = Ikkje di e-postadresse
 password-strength-inline-not-common = Ikkje eit vanleg brukt passord
+password-strength-inline-confirmed-must-match = Stadfesting samsvarar med det nye passordet
 
 ## Ready component
 
