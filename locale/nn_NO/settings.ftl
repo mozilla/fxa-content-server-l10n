@@ -679,6 +679,10 @@ modal-default-confirm-button = Stadfest
 
 mvs-verify-your-email-2 = Stadfest e-postadressa di
 mvs-enter-verification-code-2 = Skriv inn stadfestingskoden din
+# This string is used to show a notification to the user for them to enter confirmation code to confirm their email.
+# Variables:
+#   email (String) - the user's email
+mvs-enter-verification-code-desc-2 = Skriv inn stadfestingskoden som vart send til <email>{ $email }</email> innan 5 minutt.
 msv-cancel-button = Avbryt
 msv-submit-button-2 = Stadfest
 
@@ -694,6 +698,8 @@ nav-email-comm = E-postkommunikasjon
 
 ## Two Step Authentication - replace backup authentication code
 
+tfa-replace-code-error-3 = Det oppstod eit problem med å erstatte reserve-godkjenningskodane dine
+tfa-create-code-error = Det oppstod eit problem med å opprette reserve-godkjenningskodane dine
 tfa-replace-code-1-2 = Steg 1 av 2
 tfa-replace-code-2-2 = Steg 2 av 2
 
