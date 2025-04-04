@@ -556,8 +556,10 @@ dc-heading = Datainnsamling og bruk
 dc-subheader-moz-accounts = { -product-mozilla-accounts }
 dc-subheader-ff-browser = { -brand-firefox } nettlesar
 dc-subheader-content-2 = Tillat { -product-mozilla-accounts } å sende tekniske data og interaksjonsdata til { -brand-mozilla }?
+dc-subheader-ff-content = For å sjå gjennom eller oppdatere tekniske data og interaksjonsdata-innstillingar i { -brand-firefox }-nettlesaren, opne { -brand-firefox }-innstillingane og naviger til Personvern og sikkerheit.
 dc-opt-out-success-2 = Vellykka utmelding. { -product-mozilla-accounts } sender ikkje tekniske data eller interaksjonsdata til { -brand-mozilla }.
 dc-opt-in-success-2 = Takk! Deling av desse dataa hjelper oss med å forbetre { -product-mozilla-accounts }.
+dc-opt-in-out-error-2 = Dessverre oppstod det eit problem med å endre innstillinga for datainnsamling
 dc-learn-more = Les meir
 
 # DropDownAvatarMenu component
@@ -610,6 +612,8 @@ flow-recovery-key-info-header = Opprett ein kontogjenopprettingsnøkkel i tilfel
 flow-recovery-key-info-header-change-key = Endre kontogjenopprettingsnøkkelen din
 # In the first view of the PageRecoveryKeyCreate flow, this is the first of two bullet points explaining why the user should create an account recovery key
 flow-recovery-key-info-shield-bullet-point-v2 = Vi krypterer nettlesingsdata – passord, bokmerke og meir. Det er flott for personvernet, men du kan miste dataa dine viss du gløymer passordet ditt.
+# In the first view of the PageRecoveryKeyCreate flow, this is the second of two bullet points explaining why the user should create an account recovery key
+flow-recovery-key-info-key-bullet-point-v2 = Det er derfor det er så viktig å opprette ein kontogjenopprettingsnøkkel – du kan bruke han til å gjenopprette dataa dine.
 # The text of the "submit" button to start creating (or changing) an account recovery key
 flow-recovery-key-info-cta-text-v3 = Kom i gang
 # Link to cancel account recovery key change and return to settings
