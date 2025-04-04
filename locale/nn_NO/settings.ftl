@@ -760,6 +760,7 @@ pw-change-success-alert-2 = Passord oppdatert
 pw-create-header =
     .title = Opprett passord
 pw-create-success-alert-2 = Passord innstilt
+pw-create-error-2 = Det oppstod ein feil under innstilling av passordet ditt.
 
 ## Delete account page
 
@@ -899,6 +900,12 @@ tfa-button-continue = Hald fram
 tfa-button-cancel = Avbryt
 tfa-button-finish = Fullfør
 tfa-incorrect-totp = Feil tostegs-godkjenningskode
+tfa-cannot-retrieve-code = Det oppstod eit problem med å hente koden din.
+tfa-incorrect-recovery-code-1 = Feil reserve-godkjenningskode
+tfa-enabled-v2 = Tostegs-godkjenning er slått på
+tfa-scan-this-code =
+    Skann denne QR-koden med ein av <linkExternal>desse
+    autentiseringsappane</linkExternal>.
 # This is the image alt text for a QR code.
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
