@@ -1,12 +1,17 @@
 ## Page
 
 checkout-signin-or-create = 1. Entre na sua conta ou crie uma { -product-mozilla-account }
+# This string appears as a separation between the two sign-in options, "Enter your email"(signin-form-email-input) "or"(this string) "Continue with Google"(continue-signin-with-google-button) / "Continue with Apple"(continue-signin-with-apple-button)
+checkout-signin-options-or = ou
 continue-signin-with-google-button = Continuar com { -brand-google }
 continue-signin-with-apple-button = Continuar com { -brand-apple }
 next-payment-method-header = Escolha um método de pagamento
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = Primeiro você precisa aprovar sua assinatura
+location-required-header = Selecione seu país e insira seu código postal.
+location-required-subheader = Não conseguimos detectar sua localização automaticamente.
+location-required-disclaimer = Usamos essas informações somente para calcular impostos e moeda.
 
 ## Page - Upgrade page
 
@@ -55,6 +60,10 @@ next-payment-confirmation-download-button = Continuar para baixar
 
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Cartão com final { $last4 }
+# Page - Not Found
+page-not-found-title = Página não encontrada
+page-not-found-description = A página solicitada não foi encontrada. Fomos notificados e corrigiremos os links que podem estar quebrados.
+page-not-found-back-button = Voltar
 
 ## Component - Payment Consent Checkbox
 
@@ -83,6 +92,30 @@ next-coupon-submit = Aplicar
 
 # Component - Header
 
+payments-header-help =
+    .title = Ajuda
+    .aria-label = Ajuda
+    .alt = Ajuda
+payments-header-bento =
+    .title = Produtos da { -brand-mozilla }
+    .aria-label = Produtos da { -brand-mozilla }
+    .alt = Logotipo da { -brand-mozilla }
+payments-header-bento-close =
+    .alt = Fechar
+payments-header-bento-tagline = Mais produtos da { -brand-mozilla } que protegem sua privacidade
+payments-header-bento-firefox-desktop = Navegador { -brand-firefox } para computador
+payments-header-bento-firefox-mobile = Navegador { -brand-firefox } para dispositivos móveis
+payments-header-bento-monitor = { -product-mozilla-monitor }
+payments-header-bento-firefox-relay = { -product-firefox-relay }
+payments-header-bento-vpn = { -product-mozilla-vpn }
+payments-header-bento-pocket = { -product-pocket }
+payments-header-bento-made-by-mozilla = Feito pela { -brand-mozilla }
+payments-header-avatar =
+    .title = Menu da { -product-mozilla-account }
+payments-header-avatar-icon =
+    .alt = Imagem do perfil da conta
+payments-header-avatar-expanded-signed-in-as = Conectado como
+payments-header-avatar-expanded-sign-out = Desconectar
 payments-client-loading-spinner =
     .aria-label = Carregando…
     .alt = Carregando…
