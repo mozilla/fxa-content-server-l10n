@@ -700,6 +700,7 @@ nav-email-comm = E-postkommunikasjon
 
 tfa-replace-code-error-3 = Det oppstod eit problem med å erstatte reserve-godkjenningskodane dine
 tfa-create-code-error = Det oppstod eit problem med å opprette reserve-godkjenningskodane dine
+tfa-replace-code-success-alert-4 = Reserve-godkjenningskodar oppdaterte
 tfa-replace-code-1-2 = Steg 1 av 2
 tfa-replace-code-2-2 = Steg 2 av 2
 
@@ -729,6 +730,8 @@ avatar-page-rotate-button =
 avatar-page-camera-error = Klarte ikkje å starte kameraet
 avatar-page-new-avatar =
     .alt = nytt profilbilde
+avatar-page-file-upload-error-3 = Det oppstod eit problem med å laste opp profilbiletet ditt
+avatar-page-delete-error-3 = Det oppstod eit problem med å slette profilbildet ditt
 avatar-page-image-too-large-error-2 = Bildefila er for stor, og kan ikkje lastast opp
 
 ## Password change page
@@ -739,6 +742,8 @@ pw-8-chars = Minst 8 teikn
 pw-not-email = Ikkje di e-postadresse
 pw-change-must-match = Nytt passord samsvarar med stadfestinga
 pw-commonly-used = Ikkje eit vanleg brukt passord
+# linkExternal is a link to a mozilla.org support article on password strength
+pw-tips = Hald deg trygg — ikkje bruk same passord fleire gongar. Sjå fleire tips for å <linkExternal>lage sterke passord</linkExternal>.
 pw-change-cancel-button = Avbryt
 pw-change-save-button = Lagre
 pw-change-forgot-password-link = Gløymt passordet?
