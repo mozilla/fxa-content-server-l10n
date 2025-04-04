@@ -624,6 +624,9 @@ flow-recovery-key-info-cancel-link = Avbryt
 # verification code refers to a code sent by text message to confirm phone number ownership
 # and complete setup
 flow-setup-phone-confirm-code-heading = Skriv inn stadfestingskode
+# $phoneNumber is a partially obfuscated phone number with only the last 4 digits showing (e.g., *** *** 1234)
+# span element applies formatting to ensure the number is always displayed left-to-right
+flow-setup-phone-confirm-code-instruction = Ein 6-sifra kode vart send til <span>{ $phoneNumber }</span> via tekstmelding. Denne koden går ut om 5 minutt.
 flow-setup-phone-confirm-code-input-label = Skriv inn 6-sifra kode
 flow-setup-phone-confirm-code-button = Stadfest
 # button to resend a code by text message to the user's phone
@@ -636,6 +639,8 @@ flow-setup-phone-confirm-code-success-message-v2 = Gjenopprettingstelefon lagt t
 ## FlowSetupPhoneConfirmCode
 
 flow-setup-phone-submit-number-heading = Stadfest telefonnummeret ditt
+# The code is a 6-digit code send by text message/SMS
+flow-setup-phone-verify-number-instruction = Du får ei tekstmelding frå { -brand-mozilla } med ein kode for å stadfeste nummeret ditt. Ikkje del denne koden med nokon.
 # The initial rollout of the recovery phone is only available to users with US and Canada mobile phone numbers.
 # Voice over Internet Protocol (VoIP), is a technology that uses a broadband Internet connection instead of a regular (or analog) phone line to make calls.
 # Phone mask services (for example Relay) provide a temporary virtual number to avoid providing a real phone number.
