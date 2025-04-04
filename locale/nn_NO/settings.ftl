@@ -646,6 +646,7 @@ flow-setup-phone-verify-number-instruction = Du får ei tekstmelding frå { -bra
 # Phone mask services (for example Relay) provide a temporary virtual number to avoid providing a real phone number.
 # Both VoIP and phone masks can be unreliable for one-time-passcode (OTP) verification
 flow-setup-phone-submit-number-info-message-v2 = Gjenopprettingstelefon er berre tilgjengeleg i USA og Canada. VoIP-nummer og telefonalias er ikkje tilrådd.
+flow-setup-phone-submit-number-legal = Ved å oppgi nummeret ditt godtek du at vi lagrar det slik at vi berre kan sende deg ei tekstmelding for kontostadfesting. Meldings- og datatakstar kan gjelde.
 # cliking on the button sends a code by text message to the phone number typed in by the user
 flow-setup-phone-submit-number-button = Send kode
 
