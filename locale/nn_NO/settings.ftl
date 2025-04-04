@@ -462,6 +462,7 @@ password-reset-data-may-be-saved-locally-2 = Nettlesardataa dine kan vere lagra 
 password-reset-no-old-device-2 = Har du ei ny eining, men ikkje tilgang til nokon av dei tidlegare?
 password-reset-encrypted-data-cannot-be-recovered-2 = Vi beklagar, men dei krypterte nettlesardataa dine på { -brand-firefox }-serverar kan ikkje gjenopprettast.
 password-reset-warning-have-key = Har du ein kontogjenopprettingsnøkkel?
+password-reset-warning-use-key-link = Bruk han no for å tilbakestille passordet ditt og behalde dataa dine
 
 ## Alert Bar
 
