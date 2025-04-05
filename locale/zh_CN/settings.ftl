@@ -1701,6 +1701,9 @@ signin-recovery-phone-code-verification-error-heading = 验证您的验证码时
 signin-recovery-phone-general-error-description = 请稍后再试。
 signin-recovery-phone-invalid-code-error-description = 验证码无效或已过期。
 signin-recovery-phone-invalid-code-error-link = 要改用备用验证码吗？
+# "Limits" refers to potential restrictions on how often a recovery phone number can be used for signing in within a given time period.
+# If limits are reached, users may have to use an alternate two-step authentication method or wait until the restriction period is over.
+signin-recovery-phone-success-message = 登录成功。再次使用恢复电话号码登录时，可能会受到限制。
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
