@@ -62,6 +62,8 @@ next-payment-confirmation-download-button = 前往下载
 next-payment-confirmation-cc-card-ending-in = 卡号末四位：{ $last4 }
 # Page - Not Found
 page-not-found-title = 找不到页面
+page-not-found-description = 找不到您要打开的页面。我们已获悉此问题，并将修复可能出现问题的链接。
+page-not-found-back-button = 返回
 
 ## Component - Payment Consent Checkbox
 
@@ -210,4 +212,5 @@ upgrade-purchase-details-prorated-upgrade = 按比例补差价升级
 upgrade-purchase-details-new-plan-daily = { $productName }（日付）
 upgrade-purchase-details-new-plan-weekly = { $productName }（周付）
 upgrade-purchase-details-new-plan-monthly = { $productName }（月付）
+upgrade-purchase-details-new-plan-halfyearly = { $productName }（半年付）
 upgrade-purchase-details-new-plan-yearly = { $productName }（年付）
