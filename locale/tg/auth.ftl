@@ -23,6 +23,7 @@ recovery-phone-signin-sms-short-body = Рамзи «{ -brand-mozilla }»: { $cod
 ## version. The strings are usually identical but sometimes they differ slightly.
 
 fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } logo">
+fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Sync devices">
 body-devices-image = <img data-l10n-name="devices-image" alt="Дастгоҳҳо">
 fxa-privacy-url = Сиёсати махфияти «{ -brand-mozilla }»
 moz-accounts-privacy-url-2 = Огоҳномаи махфияти «{ -product-mozilla-accounts(capitalization: "uppercase") }»
