@@ -278,6 +278,28 @@ inactiveAccountFinalWarning-account-description = { -product-mozilla-account }�
 # This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
 inactiveAccountFinalWarning-impact = 로그인하지 않으면 <strong>{ $deletionDate }</strong>에 계정과 개인정보가 영구적으로 삭제됩니다.
 inactiveAccountFinalWarning-action = 계정을 유지하려면 로그인하세요.
+# followed by link to sign in
+inactiveAccountFinalWarning-action-plaintext = 계정을 유지하려면 로그인하세요:
+inactiveAccountFirstWarning-subject = 계정을 잃어 버리지 마세요.
+inactiveAccountFirstWarning-title = { -brand-mozilla } 계정과 데이터를 유지하시겠습니까?
+inactiveAccountFirstWarning-account-description-v2 = { -product-mozilla-account }는 무료 개인정보 보호에 접근하고 { -brand-firefox } Sync나 { -product-mozilla-monitor }, { -product-firefox-relay }, { -product-mdn }과 같은 제품을 탐색하는 데 사용됩니다..
+inactiveAccountFirstWarning-inactive-status = 2년 동안 로그인하지 않은 것으로 확인되었습니다.
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+# This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
+inactiveAccountFirstWarning-impact = 활성 상태가 아니기 때문에 <strong>{ $deletionDate }</strong>에 계정과 개인 정보가 영구적으로 삭제됩니다.
+inactiveAccountFirstWarning-action = 계정을 유지하려면 로그인하세요.
+inactiveAccountFirstWarning-preview = 계정을 유지하려면 로그인하세요.
+# followed by link to sign in
+inactiveAccountFirstWarning-action-plaintext = 계정을 유지하려면 로그인하세요.
+inactiveAccountSecondWarning-subject = 조치 필요: 7일 후 계정 삭제
+inactiveAccountSecondWarning-title = { -brand-mozilla } 계정과 데이터가 7일 후에 삭제됩니다.
+inactiveAccountSecondWarning-account-description-v2 = { -product-mozilla-account }는 무료 개인정보 보호에 접근하고 { -brand-firefox } sync나 { -product-mozilla-monitor }, { -product-firefox-relay }, { -product-mdn }과 같은 제품을 탐색하는 데 사용됩니다.
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+inactiveAccountSecondWarning-impact = 활성 상태가 아니기 때문에 <strong>{ $deletionDate }</strong>에 계정과 개인 정보가 영구적으로 삭제됩니다.
+inactiveAccountSecondWarning-action = 계정을 유지하려면 로그인하세요.
+inactiveAccountSecondWarning-preview = 계정을 유지하려면 로그인하세요.
+# followed by link to sign in
+inactiveAccountSecondWarning-action-plaintext = 계정을 유지하려면 로그인하세요.
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title-zero = 백업 인증 코드가 부족합니다!
 codes-reminder-title-one = 마지막 백업 인증 코드를 사용 중입니다.
@@ -352,6 +374,17 @@ postAddLinkedAccount-subject-2 = { -product-mozilla-account }에 새 계정 연�
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = { $providerName } 계정이 { -product-mozilla-account } 계정에 연결되었습니다.
 postAddLinkedAccount-action = 계정 관리
+postAddRecoveryPhone-subject = 복구 전화번호가 추가됨
+postAddRecoveryPhone-preview = 2단계 인증으로 보호되는 계정
+postAddRecoveryPhone-title = 복구 전화번호를 생성했습니다.
+# Variables:
+#  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
+postAddRecoveryPhone-description-v2 = { $maskedLastFourPhoneNumber } 번호를 복구 전화번호로 추가했습니다.
+# Links out to a support article about two factor authentication
+postAddRecoveryPhone-how-protect = 계정을 보호하는 방법
+postAddRecoveryPhone-how-protect-plaintext = 계정을 보호하는 방법:
+postAddRecoveryPhone-enabled-device = 다음에서 활성화했습니다:
+postAddRecoveryPhone-action = 계정 관리
 postAddTwoStepAuthentication-subject-2 = 2단계 인증이 켜져 있습니다
 postAddTwoStepAuthentication-title-2 = 2단계 인증을 켰습니다
 # After the colon, there is a description of the device that the user used to enable two-step authentication
@@ -369,6 +402,10 @@ postChangePrimary-title = 새 기본 이메일
 #  $email (String) - A user's email address
 postChangePrimary-description-2 = 기본 이메일을 { $email }으로 성공적으로 변경했습니다. 이 주소는 이제 { -product-mozilla-account }에 로그인하고 보안 알림 및 로그인 확인을 받는 사용자 이름입니다.
 postChangePrimary-action = 계정 관리
+postChangeRecoveryPhone-subject = 복구 전화번호 업데이트됨
+postChangeRecoveryPhone-title = 복구 전화번호를 변경했습니다.
+postChangeRecoveryPhone-description = 새로운 계정 복구 전화번호가 생성되었습니다. 이전 전화번호는 삭제되었습니다.
+postChangeRecoveryPhone-requested-device = 다음에서 요청했습니다:
 postConsumeRecoveryCode-title-2 = 백업 인증 코드를 사용하였습니다.
 # After the colon, there is description of the device that the backup authentication code was used on
 postConsumeRecoveryCode-description-2 = 사용된 기기:
@@ -384,6 +421,10 @@ postRemoveAccountRecovery-title-3 = 계정 복구 키를 삭제했습니다
 postRemoveAccountRecovery-body-part1 = 비밀번호를 잊어버린 경우 암호화된 검색 데이터를 복원하려면 계정 복구 키가 필요합니다.
 postRemoveAccountRecovery-body-part2 = 아직 계정 복구 키를 만들지 않았다면 계정 설정에서 새 계정 복구 키를 만들어 저장된 비밀번호, 북마크, 검색 기록 등을 잃어버리지 않도록 하세요.
 postRemoveAccountRecovery-action = 계정 관리
+postRemoveRecoveryPhone-subject = 복구 전화번호 삭제됨
+postRemoveRecoveryPhone-title = 복구 전화번호 삭제됨
+postRemoveRecoveryPhone-description = 복구 전화번호가 2단계 인증 설정에서 제거되었습니다. 백업 인증 코드를 아직 사용할 수 있습니다.
+postRemoveRecoveryPhone-requested-device = 다음에서 요청했습니다:
 postRemoveSecondary-subject = 보조 이메일 삭제됨
 postRemoveSecondary-title = 보조 이메일 삭제됨
 # Variables:
