@@ -273,6 +273,11 @@ fraudulentAccountDeletion-contact-plaintext = 궁금하신 점이 있다면, 지
 inactiveAccountFinalWarning-subject = { -product-mozilla-account }를 유지할 수 있는 마지막 기회
 inactiveAccountFinalWarning-title = { -brand-mozilla } 계정과 데이터가 삭제됩니다.
 inactiveAccountFinalWarning-preview = 계정을 유지하려면 로그인하세요.
+inactiveAccountFinalWarning-account-description = { -product-mozilla-account }는 무료 개인정보 보호에 접근하고 { -brand-firefox } Sync나 { -product-mozilla-monitor }, { -product-firefox-relay }, { -product-mdn }과 같은 제품을 탐색하는 데 사용됩니다.
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+# This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
+inactiveAccountFinalWarning-impact = 로그인하지 않으면 <strong>{ $deletionDate }</strong>에 계정과 개인정보가 영구적으로 삭제됩니다.
+inactiveAccountFinalWarning-action = 계정을 유지하려면 로그인하세요.
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title-zero = 백업 인증 코드가 부족합니다!
 codes-reminder-title-one = 마지막 백업 인증 코드를 사용 중입니다.
