@@ -1194,14 +1194,17 @@ auth-error-1003 = 本地存储或 Cookie 仍然未启用
 auth-error-1008 = 新旧密码不能相同
 auth-error-1010 = 请输入有效的密码
 auth-error-1011 = 需要有效的邮箱地址
-auth-error-1018 = 您的确认邮件刚被退回了。邮箱地址输错了吗？
+auth-error-1018 = 确认邮件刚才已被退回，您输入的邮箱地址可能有误。
+auth-error-1020 = 您输入的邮箱地址可能有误，firefox.com 不是有效的电子邮件服务
 auth-error-1031 = 您需要输入您的年龄才能注册
 auth-error-1032 = 您需要输入有效年龄才能注册
 auth-error-1054 = 无效的两步验证码
 auth-error-1056 = 备用验证码无效
 auth-error-1062 = 无效重定向
+# Shown when a user tries to sign up with an email address with a domain that doesn't receive emails
+auth-error-1064 = 您输入的邮箱地址可能有误，{ $domain } 不是有效的电子邮件服务
 auth-error-1066 = 无法使用马甲邮箱注册账户。
-auth-error-1067 = 邮件地址输错了吗？
+auth-error-1067 = 您输入的邮箱地址可能有误
 # Displayed when we want to reference a user's previously set up recovery phone
 # number, but they are not completely signed in yet. We'll only show the last 4 digits.
 # Variables:
@@ -1272,7 +1275,7 @@ index-email-input =
 # When users delete their Mozilla account inside account Settings, they are redirected to this page with a success message
 index-account-delete-success = 已成功删除账户
 # Displayed when users try to sign up for an account and their confirmation code email bounces
-index-email-bounced = 您的确认邮件刚被退回了。邮箱地址输错了吗？
+index-email-bounced = 确认邮件刚才已被退回，您输入的邮箱地址可能有误。
 
 ## InlineRecoveryKeySetup page component
 

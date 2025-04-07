@@ -2,18 +2,12 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-05 20:09+0000\n"
-"PO-Revision-Date: 2025-01-09 06:59+0000\n"
-"Last-Translator: Olvcpr423 <oliverchan86@outlook.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Pontoon\n"
-"X-POOTLE-MTIME: 1444354764.0\n"
+"Generated-By: Pontoon\n"
 
 #: .es5/views/confirm_reset_password.js:170
 msgid "Password reset"
@@ -105,7 +99,6 @@ msgstr "已连接"
 msgid "You are now ready to make changes to your Firefox Account."
 msgstr "您已准备好更改您的 Firefox 账户。"
 
-# see https://bugzilla.mozilla.org/show_bug.cgi?id=1131472
 #: .es5/views/reset_password.js:92
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
 msgstr "未知账户。<a href=\"/signup\">注册</a>"
@@ -594,7 +587,7 @@ msgstr "需要有效的 URL"
 
 #: .es5/lib/auth-errors.js:388
 msgid "Your confirmation email was just returned. Mistyped email?"
-msgstr "您的确认邮件刚被退回了。邮箱地址输错了吗？"
+msgstr "确认邮件刚才已被退回，您输入的邮箱地址可能有误。"
 
 #: .es5/lib/auth-errors.js:396
 msgid "Enter a valid email address. firefox.com does not offer email."
