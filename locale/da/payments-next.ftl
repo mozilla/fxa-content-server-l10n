@@ -1,6 +1,8 @@
 ## Page
 
 checkout-signin-or-create = 1. Log ind eller opret en { -product-mozilla-account }
+# This string appears as a separation between the two sign-in options, "Enter your email"(signin-form-email-input) "or"(this string) "Continue with Google"(continue-signin-with-google-button) / "Continue with Apple"(continue-signin-with-apple-button)
+checkout-signin-options-or = eller
 continue-signin-with-google-button = Fortsæt med { -brand-google }
 continue-signin-with-apple-button = Fortsæt med { -brand-apple }
 next-payment-method-header = Vælg din betalingsmetode
@@ -58,6 +60,10 @@ next-payment-confirmation-download-button = Fortsæt til hentning
 
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Kort, der ender på { $last4 }
+# Page - Not Found
+page-not-found-title = Siden blev ikke fundet
+page-not-found-description = Den ønskede side blev ikke fundet. Vi har fået besked og vil rette links, der ikke virker.
+page-not-found-back-button = Gå tilbage
 
 ## Component - Payment Consent Checkbox
 
