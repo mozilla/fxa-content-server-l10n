@@ -1,6 +1,8 @@
 ## Page
 
 checkout-signin-or-create = 1. Zaloguj się lub utwórz { -product-mozilla-account(case: "acc", capitalization: "lower") }
+# This string appears as a separation between the two sign-in options, "Enter your email"(signin-form-email-input) "or"(this string) "Continue with Google"(continue-signin-with-google-button) / "Continue with Apple"(continue-signin-with-apple-button)
+checkout-signin-options-or = lub
 continue-signin-with-google-button = Kontynuuj za pomocą konta { -brand-google }
 continue-signin-with-apple-button = Kontynuuj za pomocą konta { -brand-apple }
 next-payment-method-header = Wybierz metodę płatności
@@ -58,6 +60,8 @@ next-payment-confirmation-download-button = Kontynuuj, aby pobrać
 
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Karta kończąca się na { $last4 }
+# Page - Not Found
+page-not-found-title = Nie odnaleziono strony
 
 ## Component - Payment Consent Checkbox
 
