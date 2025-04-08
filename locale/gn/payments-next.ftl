@@ -1,6 +1,8 @@
 ## Page
 
 checkout-signin-or-create = 1. Eñepyrũ tembiapo térã emoheñói { -product-mozilla-account }
+# This string appears as a separation between the two sign-in options, "Enter your email"(signin-form-email-input) "or"(this string) "Continue with Google"(continue-signin-with-google-button) / "Continue with Apple"(continue-signin-with-apple-button)
+checkout-signin-options-or = térã
 continue-signin-with-google-button = Eku’ejey { -brand-google } ndive
 continue-signin-with-apple-button = Eku’ejey { -brand-apple } ndive
 next-payment-method-header = Eiporavo mba’éichapa ehepyme’ẽta
@@ -49,6 +51,10 @@ next-payment-confirmation-download-button = Emboguejy ehóvo
 
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Kuatia’atã opáva { $last4 }-pe
+# Page - Not Found
+page-not-found-title = Kuatiarogue ojejuhu’ỹva
+page-not-found-description = Ndojejuhúi kuatiarogue ejeruréva. Og̃uahẽ ne mba’ejerure ha romoĩporãta juajuha ikatúva oñembyai.
+page-not-found-back-button = Guevijey
 
 ## Component - Payment Consent Checkbox
 
@@ -77,6 +83,18 @@ next-coupon-submit = Jejapopy
 
 # Component - Header
 
+payments-header-help =
+    .title = Pytyvõ
+    .aria-label = Pytyvõ
+    .alt = Pytyvõ
+payments-header-bento =
+    .title = { -brand-mozilla } apopyre
+    .aria-label = { -brand-mozilla } apopyrekuéra
+    .alt = { -brand-mozilla } Ra’ãnga’i
+payments-header-bento-close =
+    .alt = Mboty
+payments-header-bento-tagline = { -brand-mozilla } apopyrekuéra omo’ãva añetehápe nde rekoñemi
+payments-header-bento-firefox-desktop = { -brand-firefox } kundahára mesa arigua
 payments-client-loading-spinner =
     .aria-label = Henyhẽhína…
     .alt = Henyhẽhína…
