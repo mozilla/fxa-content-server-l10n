@@ -1,6 +1,8 @@
 ## Page
 
 checkout-signin-or-create = 1. Đăng nhập hoặc tạo một { -product-mozilla-account }
+# This string appears as a separation between the two sign-in options, "Enter your email"(signin-form-email-input) "or"(this string) "Continue with Google"(continue-signin-with-google-button) / "Continue with Apple"(continue-signin-with-apple-button)
+checkout-signin-options-or = hoặc
 continue-signin-with-google-button = Tiếp tục với { -brand-google }
 continue-signin-with-apple-button = Tiếp tục với { -brand-apple }
 next-payment-method-header = Chọn phương thức thanh toán của bạn
@@ -58,6 +60,10 @@ next-payment-confirmation-download-button = Tiếp tục tải xuống
 
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Thẻ kết thúc bằng { $last4 }
+# Page - Not Found
+page-not-found-title = Không tìm thấy trang
+page-not-found-description = Không tìm thấy trang bạn yêu cầu. Chúng tôi đã để ý và sẽ sửa bất kỳ liên kết nào có thể bị hỏng.
+page-not-found-back-button = Quay lại
 
 ## Component - Payment Consent Checkbox
 
