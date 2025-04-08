@@ -1670,6 +1670,7 @@ signin-recovery-phone-send-code-error-heading = Oiko peteĩ apañuái emondóvo 
 signin-recovery-phone-code-verification-error-heading = Oiko peteĩ apañuái ehechajeývo ayvu.
 # Follows the error message (e.g, "There was a problem sending a code")
 signin-recovery-phone-general-error-description = Eha’ãjey ag̃amieve.
+signin-recovery-phone-invalid-code-error-description = Pe ayvu naiporãi térã ndoikovéima
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
