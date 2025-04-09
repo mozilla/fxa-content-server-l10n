@@ -1181,6 +1181,7 @@ auth-error-206 = Neremoheñoikuaái ñe’ẽñemi, pe ñe’ẽñemi ipyendáma
 auth-error-214 = Pe pumbyry papapy guerujeyrã oĩmavoi
 auth-error-215 = Pumbyry papapy guerujeyrã noĩri gueteri
 auth-error-216 = Ehupytýma hu’ã ñe’ẽmondorã
+auth-error-218 = Ndaikatúi embogue pumbyry guerujeyha, ndorekói ayvukuéra ñemoneĩha.
 auth-error-999 = Jejavy eha’ãrõ’ỹva
 auth-error-1001 = Ojejokóma tembiapo ñepyrũ
 auth-error-1002 = Hu’ãma tembiapo. Eñepyrũjey emba’apo hag̃ua.
@@ -1256,6 +1257,7 @@ cookies-disabled-learn-more = Kuaave
 index-header = Emoinge ne ñanduti veve
 index-sync-header = Eku’e jey nde { -product-mozilla-account } ndive
 index-sync-subheader = Embojuehe ñe’ẽñemi, tendayke ha techaukaha tenda eiporuhápe { -brand-firefox }.
+index-relay-header = Emoheñói ñanduti veve rovamo’ãha
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = Eku’ejey { $serviceName } ndive
 index-subheader-with-logo = Eku’ejey <span>{ $serviceLogo }</span> ndive
@@ -1264,6 +1266,10 @@ index-cta = Emoinge térã eñemboheraguapy
 index-account-info = Peteĩ { -product-mozilla-account } ombojurujakuaa heta apopyrépe jeike { -brand-mozilla } ñemigua omo’ãvape.
 index-email-input =
     .label = Emoinge ne ñanduti veve
+# When users delete their Mozilla account inside account Settings, they are redirected to this page with a success message
+index-account-delete-success = Mba’ete oñembogue apañuai’ỹre
+# Displayed when users try to sign up for an account and their confirmation code email bounces
+index-email-bounced = Ne ñanduti veve ñemoneĩrã ojevyjeýma. ¿Ikatu ehaivai kundaharape?
 
 ## InlineRecoveryKeySetup page component
 
@@ -1306,6 +1312,7 @@ inline-recovery-confirmation-header-default = Emoneĩ ayvu ñemoneĩrã jeykekoh
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = Erujey ayvu ñemoneĩrã jeykekoha <span>eku’e hag̃ua { $serviceName }</span> ndive
+inline-recovery-2fa-enabled-v2 = Ijurujáma mokõi jeku’epegua ñemoneĩ
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
