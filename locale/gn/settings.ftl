@@ -1505,6 +1505,10 @@ complete-reset-pw-recovery-key-link = Eiporu mba’eñemi jeguerujeyrã
 # A message informing the user that the password reset was successful and reminding them to create another recovery key
 # Displayed on the sign in page
 reset-password-complete-banner-heading = Ojeguerujeýma ne ñe’ẽñemi.
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+complete-reset-password-desktop-relay = { -brand-firefox } orahaukajeýta ndéve eiporu hag̃ua ñanduti veve rovamo’ãha eike rire ñandutípe.
 
 ## Confirm Reset Password With Code
 
@@ -1678,6 +1682,7 @@ signin-recovery-phone-code-verification-error-heading = Oiko peteĩ apañuái eh
 # Follows the error message (e.g, "There was a problem sending a code")
 signin-recovery-phone-general-error-description = Eha’ãjey ag̃amieve.
 signin-recovery-phone-invalid-code-error-description = Pe ayvu naiporãi térã ndoikovéima
+signin-recovery-phone-invalid-code-error-link = ¿Eiporu ayvu ñemoneĩrã jeykekoha hendaguépe?
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
