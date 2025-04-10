@@ -10,8 +10,9 @@ next-payment-method-header = Choose your payment method
 payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = First you’ll need to approve your subscription
 
-location-required-header = Please select your country and enter your postal code.
-location-required-subheader = We weren’t able to detect your location automatically.
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+location-header = Select your country and enter your postal code <p>to continue to checkout for { $productName }</p>
+location-banner-info = We weren’t able to detect your location automatically
 location-required-disclaimer = We only use this information to calculate taxes and currency.
 
 ## Page - Upgrade page
@@ -157,6 +158,7 @@ select-tax-location-title = Location
 
 select-tax-location-edit-button = Edit
 select-tax-location-save-button = Save
+select-tax-location-continue-to-checkout-button = Continue to checkout
 
 select-tax-location-country-code-label = Country
 select-tax-location-country-code-placeholder = Select your country
