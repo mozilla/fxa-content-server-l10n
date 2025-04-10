@@ -9,6 +9,9 @@ next-payment-method-header = Izberite način plačila
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = Najprej morate odobriti svojo naročnino
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+location-header = Izberite svojo državo in vnesite poštno številko, <p>za nadaljevanje blagajne za { $productName }</p>
+location-banner-info = Vaše lokacije nismo mogli zaznati samodejno
 location-required-disclaimer = Te podatke uporabljamo samo za izračun davkov in valute.
 
 ## Page - Upgrade page
@@ -139,6 +142,7 @@ next-coupon-success-repeating = Vaš paket se bo po { $couponDurationDate } samo
 select-tax-location-title = Lokacija
 select-tax-location-edit-button = Uredi
 select-tax-location-save-button = Shrani
+select-tax-location-continue-to-checkout-button = Nadaljuj do blagajne
 select-tax-location-country-code-label = Država
 select-tax-location-country-code-placeholder = Izberite državo
 select-tax-location-error-missing-country-code = Izberite svojo državo

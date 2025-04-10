@@ -9,6 +9,9 @@ next-payment-method-header = Dewiswch eich dull talu
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = Yn gyntaf bydd angen i chi gymeradwyo'ch tanysgrifiad
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+location-header = Dewiswch eich gwlad a rhowch eich cod post <p>i barhau i ddesg dalu am { $productName }</p>
+location-banner-info = Nid oeddem yn gallu canfod eich lleoliad yn awtomatig
 location-required-disclaimer = Dim ond i gyfrifo trethi ac arian cyfred rydym yn defnyddio'r wybodaeth hon.
 
 ## Page - Upgrade page
@@ -139,6 +142,7 @@ next-coupon-success-repeating = Bydd eich cynllun yn adnewyddu'n awtomatig ar ô
 select-tax-location-title = Lleoliad
 select-tax-location-edit-button = Golygu
 select-tax-location-save-button = Cadw
+select-tax-location-continue-to-checkout-button = Parhewch i ddesg dalu
 select-tax-location-country-code-label = Gwlad
 select-tax-location-country-code-placeholder = Dewiswch eich gwlad
 select-tax-location-error-missing-country-code = Dewiswch eich gwlad

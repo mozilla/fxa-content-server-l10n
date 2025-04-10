@@ -2,6 +2,8 @@
 
 app-general-err-heading = Splošna napaka aplikacije
 app-general-err-message = Prišlo je do napake. Poskusite znova pozneje.
+# Specific handling for issues when bad or missing query parameters are detected
+app-query-parameter-err-heading = Napačna zahteva: neveljavni poizvedbeni parametri
 
 ## FxA React - Strings shared between multiple FxA products for application footer
 

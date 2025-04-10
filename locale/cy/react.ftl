@@ -2,6 +2,8 @@
 
 app-general-err-heading = Gwall cyffredinol rhaglen
 app-general-err-message = Aeth rhywbeth o'i le. Ceisiwch eto.
+# Specific handling for issues when bad or missing query parameters are detected
+app-query-parameter-err-heading = Cais Gwael: Paramedrau Ymholiad Annilys
 
 ## FxA React - Strings shared between multiple FxA products for application footer
 

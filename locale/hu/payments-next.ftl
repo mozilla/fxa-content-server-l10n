@@ -9,6 +9,9 @@ next-payment-method-header = Válassza ki a fizetési módot
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = Először jóvá kell hagynia az előfizetését
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+location-header = Válassza ki az országot, és adja meg az irányítószámát, <p>a(z) { $productName }</p> fizetéshez
+location-banner-info = Nem tudtuk automatikusan észlelni a tartózkodási helyét
 location-required-disclaimer = Ezeket az információkat csak az adók és a pénznem kiszámításához használjuk.
 
 ## Page - Upgrade page
@@ -141,6 +144,7 @@ next-coupon-success-repeating = A csomag { $couponDurationDate } után automatik
 select-tax-location-title = Hely
 select-tax-location-edit-button = Szerkesztés
 select-tax-location-save-button = Mentés
+select-tax-location-continue-to-checkout-button = Tovább a fizetéshez
 select-tax-location-country-code-label = Ország
 select-tax-location-country-code-placeholder = Válassza ki az országot
 select-tax-location-error-missing-country-code = Válassza ki az országot

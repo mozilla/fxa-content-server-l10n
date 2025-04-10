@@ -9,6 +9,9 @@ next-payment-method-header = Choose your payment method
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = First you’ll need to approve your subscription
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+location-header = Select your country and enter your post code <p>to continue to checkout for { $productName }</p>
+location-banner-info = We weren’t able to detect your location automatically
 location-required-disclaimer = We only use this information to calculate taxes and currency.
 
 ## Page - Upgrade page
@@ -139,6 +142,7 @@ next-coupon-success-repeating = Your plan will automatically renew after { $coup
 select-tax-location-title = Location
 select-tax-location-edit-button = Edit
 select-tax-location-save-button = Save
+select-tax-location-continue-to-checkout-button = Continue to checkout
 select-tax-location-country-code-label = Country
 select-tax-location-country-code-placeholder = Select your country
 select-tax-location-error-missing-country-code = Please select your country
