@@ -7,8 +7,6 @@ next-payment-method-header = Tscherna tia metoda da pajament
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = L'emprim stos ti approvar tes abunament
-location-required-header = Tscherna per plaschair tes pajais ed endatescha il numer postal.
-location-required-subheader = Nus n’avain betg pudì identifitgar automaticamain tia posiziun.
 location-required-disclaimer = Nus utilisain mo questa infurmaziun per calcular taglias e la valuta.
 
 ## Page - Upgrade page

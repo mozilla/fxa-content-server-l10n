@@ -1135,7 +1135,7 @@ tfa-row-button-refresh =
 tfa-row-cannot-refresh = Lo sentimos, hubo un problema al actualizar la autenticación en dos pasos.
 tfa-row-enabled-description = Tu cuenta está protegida mediante autenticación de dos pasos. Deberás ingresar un código de acceso de un solo uso desde tu aplicación de autenticación cuando te conectes a tu { -product-mozilla-account }.
 # "this" refers to two-step authentication
-# Link goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+# Link goes to https://support.mozilla.org/kb/secure-mozilla-account-two-step-authentication
 tfa-row-enabled-info-link = Cómo esto protege tu cuenta
 tfa-row-disabled-description-v2 = Ayuda a proteger tu cuenta utilizando una aplicación de autenticación de terceros como segundo paso para conectarte.
 tfa-row-cannot-verify-session-4 = Lo sentimos, hubo un problema al confirmar tu sesión

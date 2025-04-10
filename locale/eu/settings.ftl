@@ -1145,7 +1145,7 @@ tfa-row-button-refresh =
 tfa-row-cannot-refresh = Barkatu, arazoa egon da bi urratseko autentifikazioa berritzean.
 tfa-row-enabled-description = Zure kontua bi urratseko autentifikazioaren bidez babestuta dago. Zure { -product-mozilla-account }-n saioa hastean zure autentifikazio-aplikazioko pasahitz bakarra sartu beharko duzu.
 # "this" refers to two-step authentication
-# Link goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+# Link goes to https://support.mozilla.org/kb/secure-mozilla-account-two-step-authentication
 tfa-row-enabled-info-link = Honek zure kontua nola babesten duen
 tfa-row-disabled-description-v2 = Lagundu zure kontua babesten hirugarrenen autentifikazio-aplikazio bat erabiliz saioa hasteko bigarren urrats gisa.
 tfa-row-cannot-verify-session-4 = Arazo bat izan da zure saioa berresteko

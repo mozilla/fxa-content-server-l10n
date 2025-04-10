@@ -1127,7 +1127,7 @@ tfa-row-cannot-refresh =
     auðkenningu.
 tfa-row-enabled-description = Reikningurinn þinn er varinn með tveggja-þrepa auðkenningu. Þú þarft að setja einu sinni inn aðgangskóða úr auðkenningarforritinu þínu þegar þú skráir þig inn á { -product-mozilla-account } þinn.
 # "this" refers to two-step authentication
-# Link goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+# Link goes to https://support.mozilla.org/kb/secure-mozilla-account-two-step-authentication
 tfa-row-enabled-info-link = Hvernig þetta verndar reikninginn þinn
 tfa-row-disabled-description-v2 = Hjálpaðu til við að tryggja öryggi reikningsins þíns með því að nota auðkenningararforrit frá utanaðkomandi aðila sem annað þrep til að skrá þig inn.
 tfa-row-cannot-verify-session-4 = Því miður, upp kom vandamál við að sannreyna setuna þína

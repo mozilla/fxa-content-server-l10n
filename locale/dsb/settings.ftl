@@ -1141,7 +1141,7 @@ tfa-row-cannot-refresh =
     awtentifikacije problem nastał.
 tfa-row-enabled-description = Wašo konto se pśez dwójokšacowu awtentifikaciju šćita. Musyśo jadnorazowy gronidłowy kod  z nałoženja awtentifikacije  zapódaś, gaž se pla swójogo { -product-mozilla-account } pśizjawjaśo.
 # "this" refers to two-step authentication
-# Link goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+# Link goes to https://support.mozilla.org/kb/secure-mozilla-account-two-step-authentication
 tfa-row-enabled-info-link = Kak to wašo konto šćita
 tfa-row-disabled-description-v2 = Wužywajśo nałoženje awtentifikacije tśeśego póbitowarja ako drugi kšać, aby pomagał, swójo konto zawěsćił a pśizjawśo se.
 tfa-row-cannot-verify-session-4 = Bóžko jo bastał problem pśi wobkšuśenju pósejźenja

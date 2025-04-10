@@ -1141,7 +1141,7 @@ tfa-row-cannot-refresh =
     mirëfilltësimit dyfaktorësh.
 tfa-row-enabled-description = Llogaria juaj mbrohet me mirëfilltësim dyfaktorësh. Do t’ju duhet të jepni një kodkalim një here, prej aplikacionit tuaj të mirëfilltësimeeve, kur bëni hyrjen në { -product-mozilla-account } tuaj.
 # "this" refers to two-step authentication
-# Link goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+# Link goes to https://support.mozilla.org/kb/secure-mozilla-account-two-step-authentication
 tfa-row-enabled-info-link = Si e mbron kjo llogarinë tuaj
 tfa-row-disabled-description-v2 = Ndihmoni të sigurohet llogaria juaj, duke përdorur një aplikacion mirëfilltësimesh nga palë e tretë, si një hap të dytë gjatë bërjes së hyrjes.
 tfa-row-cannot-verify-session-4 = Na ndjeni, pati një problem në ripohimin e sesionit tuaj

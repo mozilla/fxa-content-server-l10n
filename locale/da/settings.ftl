@@ -1144,7 +1144,7 @@ tfa-row-cannot-refresh =
     totrinsgodkendelse.
 tfa-row-enabled-description = Din konto er beskyttet af totrinsgodkendelse. Du skal indtaste en engangskode fra din godkendelsesapp, når du logger ind på din { -product-mozilla-account }.
 # "this" refers to two-step authentication
-# Link goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+# Link goes to https://support.mozilla.org/kb/secure-mozilla-account-two-step-authentication
 tfa-row-enabled-info-link = Sådan beskytter det din konto
 tfa-row-disabled-description-v2 = Beskyt din konto ved at bruge en tredjeparts godkendelsesapp som et andet trin til at logge ind.
 tfa-row-cannot-verify-session-4 = Der opstod desværre et problem med at bekræfte din session

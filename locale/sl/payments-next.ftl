@@ -9,8 +9,6 @@ next-payment-method-header = Izberite način plačila
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = Najprej morate odobriti svojo naročnino
-location-required-header = Izberite državo in vnesite poštno številko.
-location-required-subheader = Vaše lokacije nismo mogli zaznati samodejno.
 location-required-disclaimer = Te podatke uporabljamo samo za izračun davkov in valute.
 
 ## Page - Upgrade page

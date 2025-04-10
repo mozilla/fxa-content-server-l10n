@@ -1142,7 +1142,7 @@ tfa-row-cannot-refresh =
     uwierzytelniania dwuetapowego.
 tfa-row-enabled-description = Twoje konto jest chronione uwierzytelnianiem dwuetapowym. Podczas logowania do { -product-mozilla-account(case: "gen", capitalization: "lower") } będzie trzeba wpisać jednorazowy kod z aplikacji uwierzytelniającej.
 # "this" refers to two-step authentication
-# Link goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+# Link goes to https://support.mozilla.org/kb/secure-mozilla-account-two-step-authentication
 tfa-row-enabled-info-link = W jaki sposób chroni to Twoje konto
 tfa-row-disabled-description-v2 = Zabezpiecz swoje konto, używając aplikacji uwierzytelniającej innej firmy jako drugiego kroku logowania.
 tfa-row-cannot-verify-session-4 = Przepraszamy, wystąpił problem podczas potwierdzania sesji

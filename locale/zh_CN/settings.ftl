@@ -1120,7 +1120,7 @@ tfa-row-button-refresh =
 tfa-row-cannot-refresh = 抱歉，刷新两步验证状态时出现问题。
 tfa-row-enabled-description = 您的账户受两步验证保护。登录 { -product-mozilla-account }时，您将需要输入身份验证器应用中的一次性密码。
 # "this" refers to two-step authentication
-# Link goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+# Link goes to https://support.mozilla.org/kb/secure-mozilla-account-two-step-authentication
 tfa-row-enabled-info-link = 此举如何保护您的账户
 tfa-row-disabled-description-v2 = 将第三方身份验证器应用作为登录的附加确认手段，帮助保护账户安全。
 tfa-row-cannot-verify-session-4 = 抱歉，确认您的会话时出现问题

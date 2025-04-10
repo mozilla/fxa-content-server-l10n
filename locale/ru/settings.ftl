@@ -1142,7 +1142,7 @@ tfa-row-cannot-refresh =
     аутентификации произошла ошибка.
 tfa-row-enabled-description = Ваш аккаунт защищен двухэтапной аутентификацией. Вам нужно будет ввести одноразовый код-пароль из приложения для аутентификации при входе в { -product-mozilla-account }.
 # "this" refers to two-step authentication
-# Link goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+# Link goes to https://support.mozilla.org/kb/secure-mozilla-account-two-step-authentication
 tfa-row-enabled-info-link = Как это защищает ваш аккаунт
 tfa-row-disabled-description-v2 = Помогите защитить свой аккаунт, используя стороннее приложение для аутентификации в качестве второго шага для входа.
 tfa-row-cannot-verify-session-4 = К сожалению, при подтверждении вашей сессии возникла проблема

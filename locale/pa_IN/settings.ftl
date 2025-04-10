@@ -1043,7 +1043,7 @@ tfa-row-action-disable = ਅਸਮਰੱਥ ਕਰੋ
 tfa-row-button-refresh =
     .title = ਦੋ-ਪੜ੍ਹਾਵੀਂ ਪਰਮਾਣੀਕਰਨ ਤਾਜ਼ਾ ਕਰੋ
 # "this" refers to two-step authentication
-# Link goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+# Link goes to https://support.mozilla.org/kb/secure-mozilla-account-two-step-authentication
 tfa-row-enabled-info-link = ਇਹ ਤੁਹਾਡੇ ਖਾਤੇ ਨੂੰ ਸੁਰੱਖਿਅਤ ਕਿਵੇਂ ਕਰਦਾ ਹੈ
 tfa-row-cannot-verify-session-4 = ਅਫ਼ਸੋਸ ਹੈ ਕਿ ਤੁਹਾਡੇ ਸ਼ੈਸ਼ਨ ਨੂੰ ਤਸਦੀਕ ਕਰਨ ਦੌਰਾਨ ਸਮੱਸਿਆ ਆਈ ਸੀ
 tfa-row-disable-modal-heading = ਦੋ-ਪੜ੍ਹਾਵੀਂ ਪਰਮਾਣੀਕਰਨ ਅਸਮਰੱਥ ਕਰਨਾ ਹੈ?

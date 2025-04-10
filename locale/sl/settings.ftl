@@ -1143,7 +1143,7 @@ tfa-row-cannot-refresh =
     overitve v dveh korakih.
 tfa-row-enabled-description = Vaš račun je zaščiten s overjanjem v dveh korakih. Ob prijavi v { -product-mozilla-account(sklon: "tozilnik") } boste morali vnesti enkratno geslo iz aplikacije za overjanje.
 # "this" refers to two-step authentication
-# Link goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+# Link goes to https://support.mozilla.org/kb/secure-mozilla-account-two-step-authentication
 tfa-row-enabled-info-link = Kako to ščiti vaš račun
 tfa-row-disabled-description-v2 = Dodatno zavarujte svoj račun z uporabo zunanje aplikacije za overjanje kot drugega koraka pri prijavi.
 tfa-row-cannot-verify-session-4 = Oprostite, prišlo je do težave pri potrjevanju vaše seje

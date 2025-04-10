@@ -1137,7 +1137,7 @@ tfa-row-cannot-refresh =
     ist ein Fehler aufgetreten.
 tfa-row-enabled-description = Ihr Konto wird durch Zwei-Schritt-Authentifizierung geschützt. Sie müssen einen einmaligen Passcode aus Ihrer Authentifizierungs-App eingeben, wenn Sie sich bei Ihrem { -product-mozilla-account } anmelden.
 # "this" refers to two-step authentication
-# Link goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+# Link goes to https://support.mozilla.org/kb/secure-mozilla-account-two-step-authentication
 tfa-row-enabled-info-link = Wie dies Ihr Konto schützt
 tfa-row-disabled-description-v2 = Schützen Sie Ihr Konto, indem Sie sich in einem zweiten Schritt mit einer Authentifizierungs-App eines Drittanbieters anmelden.
 tfa-row-cannot-verify-session-4 = Beim Bestätigen Ihrer Sitzung ist ein Fehler aufgetreten.

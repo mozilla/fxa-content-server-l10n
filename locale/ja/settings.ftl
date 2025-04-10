@@ -1001,7 +1001,7 @@ tfa-row-button-refresh =
 tfa-row-cannot-refresh = 申し訳ありませんが、2 段階認証のリフレッシュ中に問題が発生しました。
 tfa-row-enabled-description = 2 段階認証でアカウントが保護されています。{ -product-mozilla-account }にログインするときに、認証アプリのワンタイムパスコードを入力する必要があります。
 # "this" refers to two-step authentication
-# Link goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+# Link goes to https://support.mozilla.org/kb/secure-mozilla-account-two-step-authentication
 tfa-row-enabled-info-link = アカウント保護に役立つ理由
 tfa-row-disabled-description-v2 = ログインの 2 段階目にサードパーティの認証アプリを使用してアカウントを保護します。
 tfa-row-cannot-verify-session-4 = 申し訳ありませんが、セッションの確認中に問題が発生しました

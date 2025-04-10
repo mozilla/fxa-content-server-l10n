@@ -1145,7 +1145,7 @@ tfa-row-cannot-refresh =
     frissítésekor.
 tfa-row-enabled-description = Fiókját kétlépcsős hitelesítés védi. Meg kell adnia egy egyszer használatos jelkódot a hitelesítő alkalmazásból, amikor bejelentkezik a { -product-mozilla-account }jába.
 # "this" refers to two-step authentication
-# Link goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+# Link goes to https://support.mozilla.org/kb/secure-mozilla-account-two-step-authentication
 tfa-row-enabled-info-link = Hogyan védi ez a fiókját
 tfa-row-disabled-description-v2 = Segítsen biztonságban tartani fiókját azzal, hogy a bejelentkezés második lépéseként egy harmadik féltől származó hitelesítő alkalmazást használ.
 tfa-row-cannot-verify-session-4 = Sajnos probléma merült fel a munkamenet megerősítésekor

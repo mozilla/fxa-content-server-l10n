@@ -1148,7 +1148,7 @@ tfa-row-cannot-refresh =
     της ταυτοποίησης δύο παραγόντων.
 tfa-row-enabled-description = Ο λογαριασμός σας προστατεύεται από ταυτοποίηση δύο παραγόντων. Θα πρέπει να εισαγάγετε έναν κωδικό μίας χρήσης από την εφαρμογή ελέγχου ταυτότητάς σας κατά τη σύνδεση στον { -product-mozilla-account(case: "acc", capitalization: "lower") } σας.
 # "this" refers to two-step authentication
-# Link goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+# Link goes to https://support.mozilla.org/kb/secure-mozilla-account-two-step-authentication
 tfa-row-enabled-info-link = Πώς προστατεύεται ο λογαριασμός σας
 tfa-row-disabled-description-v2 = Ασφαλίστε τον λογαριασμό σας με μια τρίτη εφαρμογή ελέγχου ταυτότητας ως ένα δεύτερο βήμα για τη σύνδεση.
 tfa-row-cannot-verify-session-4 = Δυστυχώς, προέκυψε πρόβλημα με την επιβεβαίωση της συνεδρίας σας

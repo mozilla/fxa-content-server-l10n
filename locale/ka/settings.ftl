@@ -1145,7 +1145,7 @@ tfa-row-button-refresh =
 tfa-row-cannot-refresh = სამწუხაროდ, ხარვეზი წარმოიშვა ორბიჯიანი დამოწმების განახლებისას.
 tfa-row-enabled-description = თქვენი ანგარიში დაცულია ორბიჯიანი დამოწმებით. დაგჭირდებათ ერთჯერადი შესვლის კოდის შეყვანა დამმოწმებელი აპიდან { -product-mozilla-account(case: "loc") } შესვლისას.
 # "this" refers to two-step authentication
-# Link goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+# Link goes to https://support.mozilla.org/kb/secure-mozilla-account-two-step-authentication
 tfa-row-enabled-info-link = როგორ იცავს ეს თქვენს ანგარიშს
 tfa-row-disabled-description-v2 = თქვენი ანგარიშის დაცვისთვის დაიხმარეთ რომელიმე დამმოწმებელი პროგრამა ორბიჯიანი შესვლისთვის.
 tfa-row-cannot-verify-session-4 = სამწუხაროდ, ხარვეზი წარმოიშვა თქვენი სეანსის დამოწმებისას

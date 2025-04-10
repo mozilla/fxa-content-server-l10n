@@ -9,8 +9,6 @@ next-payment-method-header = Chọn phương thức thanh toán của bạn
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = Trước tiên, bạn sẽ cần phê duyệt thuê bao của mình
-location-required-header = Vui lòng chọn quốc gia và nhập mã bưu chính của bạn.
-location-required-subheader = Chúng tôi không thể tự động phát hiện vị trí của bạn.
 location-required-disclaimer = Chúng tôi chỉ sử dụng thông tin này để tính thuế và tiền tệ.
 
 ## Page - Upgrade page

@@ -1080,7 +1080,7 @@ tfa-row-button-refresh =
 tfa-row-cannot-refresh = אירעה שגיאה ברענון אימות דו־שלבי, עמך הסליחה.
 tfa-row-enabled-description = החשבון שלך מוגן על־ידי אימות דו־שלבי. יהיה עליך להכניס קוד גישה חד פעמי מהיישומון המאמת שלך בעת הכניסה ל{ -product-mozilla-account(case: "the") } שלך.
 # "this" refers to two-step authentication
-# Link goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+# Link goes to https://support.mozilla.org/kb/secure-mozilla-account-two-step-authentication
 tfa-row-enabled-info-link = כיצד זה מגן על החשבון שלך
 tfa-row-disabled-description-v2 = כדאי לאבטח את החשבון שלך על־ידי שימוש ביישומון מאמת (גורם צד שלישי) כשלב שני להתחברות.
 tfa-row-cannot-verify-session-4 = הייתה בעיה באימות ההפעלה שלך, עמך הסליחה

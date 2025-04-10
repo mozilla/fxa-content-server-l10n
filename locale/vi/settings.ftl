@@ -1139,7 +1139,7 @@ tfa-row-button-refresh =
 tfa-row-cannot-refresh = Xin lỗi, đã xảy ra sự cố khi làm mới xác thực hai bước.
 tfa-row-enabled-description = Tài khoản của bạn được bảo vệ bằng xác thực hai bước. Bạn sẽ cần nhập mật mã một lần từ ứng dụng xác thực của mình khi đăng nhập vào { -product-mozilla-account } của bạn.
 # "this" refers to two-step authentication
-# Link goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+# Link goes to https://support.mozilla.org/kb/secure-mozilla-account-two-step-authentication
 tfa-row-enabled-info-link = Tìm hiểu cách mà nó bảo vệ tài khoản của bạn
 tfa-row-disabled-description-v2 = Giúp bảo mật tài khoản của bạn bằng cách sử dụng ứng dụng xác thực của bên thứ ba làm bước thứ hai để đăng nhập.
 tfa-row-cannot-verify-session-4 = Xin lỗi, đã xảy ra sự cố khi xác minh phiên của bạn

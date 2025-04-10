@@ -1135,7 +1135,7 @@ tfa-row-button-refresh =
 tfa-row-cannot-refresh = Un problème est survenu lors de l’actualisation de l’authentification en deux étapes.
 tfa-row-enabled-description = Votre compte est protégé par une authentification en deux étapes. Vous devrez saisir un code d’accès à usage unique provenant de votre application d’authentification lorsque vous vous connecterez à votre { -product-mozilla-account }.
 # "this" refers to two-step authentication
-# Link goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+# Link goes to https://support.mozilla.org/kb/secure-mozilla-account-two-step-authentication
 tfa-row-enabled-info-link = En quoi cela protège votre compte
 tfa-row-disabled-description-v2 = Aidez-nous à sécuriser votre compte en utilisant une application d’authentification tierce en tant que deuxième facteur pour vous connecter.
 tfa-row-cannot-verify-session-4 = Un problème est survenu lors de la confirmation de votre session
@@ -1561,7 +1561,6 @@ confirm-totp-reset-password-instruction-v2 = Consultez votre <strong>application
 confirm-totp-reset-password-trouble-code = Un problème pour saisir le code ?
 confirm-totp-reset-password-confirm-button = Confirmer
 confirm-totp-reset-password-input-label-v2 = Saisissez le code à 6 chiffres
-confirm-totp-reset-password-use-different-account = Utiliser un autre { -product-mozilla-account }
 confirm-recovery-code-reset-password-input-label = Saisissez le code de 10 caractères
 confirm-recovery-code-reset-password-trouble-code = Retour
 

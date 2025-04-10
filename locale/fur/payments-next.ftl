@@ -9,8 +9,6 @@ next-payment-method-header = Sielç il to metodi di paiament
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = Par prime robe tu scugnis aprovâ il to abonament
-location-required-header = Selezione il to paîs e inserìs il to codiç postâl.
-location-required-subheader = No sin rivâts a rilevâ in automatic la tô posizion.
 location-required-disclaimer = O doprìn chestis informazions nome par calcolâ tassis e valude.
 
 ## Page - Upgrade page

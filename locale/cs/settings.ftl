@@ -1138,7 +1138,7 @@ tfa-row-button-refresh =
 tfa-row-cannot-refresh = Nepodařilo se obnovit nastavení dvoufázového ověřování.
 tfa-row-enabled-description = Váš účet je chráněn dvoufázovým ověřováním. Při přihlašování k účtu { -product-mozilla-account } musíte zadat jednorázový přístupový kód z ověřovací aplikace.
 # "this" refers to two-step authentication
-# Link goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+# Link goes to https://support.mozilla.org/kb/secure-mozilla-account-two-step-authentication
 tfa-row-enabled-info-link = Jak to chrání váš účet
 tfa-row-disabled-description-v2 = Pomozte zabezpečit svůj účet pomocí aplikace ověřovatele třetí strany jako druhého kroku přihlášení.
 tfa-row-cannot-verify-session-4 = Omlouváme se, nastal problém s potvrzením vaší relace

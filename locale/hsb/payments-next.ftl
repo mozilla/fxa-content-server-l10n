@@ -9,8 +9,6 @@ next-payment-method-header = Wubjerće swoju płaćensku metodu
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = Najprjedy dyrbiće swój abonement wobkrućić
-location-required-header = Prošu wubjerće swój kraj a zapodajće swoje póstowe wodźenske čisło.
-location-required-subheader = Njemóžachmy waše stejnišćo awtomatisce namakać.
 location-required-disclaimer = Wužiwamy tute informacije jenož, zo bychmy dawki a měnu wobličili.
 
 ## Page - Upgrade page

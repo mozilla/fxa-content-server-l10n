@@ -1139,7 +1139,7 @@ tfa-row-cannot-refresh =
     de autenticazion in doi passaçs.
 tfa-row-enabled-description = Il to account al è protet de autenticazion in doi passaçs. Tu varâs di inserî un codiç a ûs singul de tô aplicazion di autenticazion cuant che tu jentrarâs tal to { -product-mozilla-account }.
 # "this" refers to two-step authentication
-# Link goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+# Link goes to https://support.mozilla.org/kb/secure-mozilla-account-two-step-authentication
 tfa-row-enabled-info-link = Cemût che al jude a protezi il to account
 tfa-row-disabled-description-v2 = Protêç il to account doprant une aplicazion di autenticazion di tiercis parts tant che secont passaç par jentrâ.
 tfa-row-cannot-verify-session-4 = Nus displâs, al è vignût fûr un probleme tal confermâ la tô session

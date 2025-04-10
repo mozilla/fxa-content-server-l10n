@@ -9,8 +9,6 @@ next-payment-method-header = 選擇付款方式
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = 請先授權付款訂閱
-location-required-header = 請選擇您的國家，並輸入郵遞區號。
-location-required-subheader = 無法自動偵測您的位置。
 location-required-disclaimer = 我們只使用此資訊來計算稅金與幣別。
 
 ## Page - Upgrade page

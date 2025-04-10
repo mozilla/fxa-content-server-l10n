@@ -1118,7 +1118,7 @@ tfa-row-button-refresh =
 tfa-row-cannot-refresh = 很抱歉，重新整理兩階段驗證狀態時發生問題。
 tfa-row-enabled-description = 已開啟兩階段驗證保護您的帳號。登入 { -product-mozilla-account }時，需要輸入驗證器程式當中產生的一組驗證碼。
 # "this" refers to two-step authentication
-# Link goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+# Link goes to https://support.mozilla.org/kb/secure-mozilla-account-two-step-authentication
 tfa-row-enabled-info-link = 此功能如何保護您的帳號
 tfa-row-disabled-description-v2 = 您可以使用第三方驗證器程式進行第二階段登入，來保護您的帳號安全。
 tfa-row-cannot-verify-session-4 = 很抱歉，確認您的連線階段時發生問題

@@ -1140,7 +1140,7 @@ tfa-row-button-refresh =
 tfa-row-cannot-refresh = Je nám ľúto, ale pri obnovovaní dvojstupňového overenia sa vyskytol problém.
 tfa-row-enabled-description = Váš účet je chránený dvojstupňovou autentifikáciou. Pri prihlasovaní do svojho { -product-mozilla-account(case: "gen", capitalization: "lower") } budete musieť zadať jednorazový prístupový kód z overovacej aplikácie.
 # "this" refers to two-step authentication
-# Link goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+# Link goes to https://support.mozilla.org/kb/secure-mozilla-account-two-step-authentication
 tfa-row-enabled-info-link = Ako toto chráni váš účet
 tfa-row-disabled-description-v2 = Pomôžte zabezpečiť svoj účet pomocou aplikácie na overenie totožnosti tretej strany ako druhého kroku prihlásenia.
 tfa-row-cannot-verify-session-4 = Ľutujeme, pri potvrdení vašej relácie sa vyskytol problém

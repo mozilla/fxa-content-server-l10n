@@ -1115,7 +1115,7 @@ tfa-row-cannot-refresh =
     Rombyasy, oiko apañuái embopyahúvo ñemoneĩ
     mokõi jeku’egua.
 # "this" refers to two-step authentication
-# Link goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+# Link goes to https://support.mozilla.org/kb/secure-mozilla-account-two-step-authentication
 tfa-row-enabled-info-link = Mba’éicha omo’ãta ne mba’ete
 tfa-row-cannot-verify-session-4 = Rombyasy, oiko apañuái guasu emoneĩjeývo tembiapo
 tfa-row-disable-modal-heading = ¿Eipe’a ñemoneĩ mokõi jeku’egua?
