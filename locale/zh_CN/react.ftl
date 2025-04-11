@@ -2,6 +2,8 @@
 
 app-general-err-heading = 一般性程序错误
 app-general-err-message = 出了点问题，请稍后再试。
+# Specific handling for issues when bad or missing query parameters are detected
+app-query-parameter-err-heading = 错误请求：查询参数无效
 
 ## FxA React - Strings shared between multiple FxA products for application footer
 

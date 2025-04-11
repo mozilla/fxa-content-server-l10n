@@ -139,6 +139,7 @@ next-coupon-success-repeating = 您的方案将在 { $couponDurationDate } 之�
 select-tax-location-title = 位置
 select-tax-location-edit-button = 编辑
 select-tax-location-save-button = 保存
+select-tax-location-continue-to-checkout-button = 继续结账
 select-tax-location-country-code-label = 国家/地区
 select-tax-location-country-code-placeholder = 选择国家/地区
 select-tax-location-error-missing-country-code = 请选择您所在的国家/地区
