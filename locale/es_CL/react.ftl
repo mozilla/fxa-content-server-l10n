@@ -2,6 +2,8 @@
 
 app-general-err-heading = Error de aplicación general
 app-general-err-message = Algo se fue a las pailas. Por favor, vuelve a intentarlo más tarde.
+# Specific handling for issues when bad or missing query parameters are detected
+app-query-parameter-err-heading = Solicitud incorrecta: parámetros de consulta no válidos
 
 ## FxA React - Strings shared between multiple FxA products for application footer
 
