@@ -3,7 +3,7 @@
 app-general-err-heading = Általános alkalmazáshiba
 app-general-err-message = Hiba történt, próbálja újra később.
 # Specific handling for issues when bad or missing query parameters are detected
-app-query-parameter-err-heading = Hibás kérés: érvénytelen lekérdezésparaméterek
+app-query-parameter-err-heading = Hibás kérés: érvénytelen lekérdezési paraméterek
 
 ## FxA React - Strings shared between multiple FxA products for application footer
 
