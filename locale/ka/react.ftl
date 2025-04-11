@@ -2,6 +2,8 @@
 
 app-general-err-heading = აპლიკაციის საერთო შეცდომა
 app-general-err-message = რაღაც ხარვეზი წარმოიქმნა. გთხოვთ, სცადოთ მოგვიანებით.
+# Specific handling for issues when bad or missing query parameters are detected
+app-query-parameter-err-heading = არასწორი მოთხოვნა: გამოძახების უმართებულო პარამეტრები
 
 ## FxA React - Strings shared between multiple FxA products for application footer
 
