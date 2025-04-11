@@ -9,6 +9,9 @@ next-payment-method-header = Επιλέξτε τη μέθοδο πληρωμής
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = Θα πρέπει πρώτα να εγκρίνετε τη συνδρομή σας
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+location-header = Επιλέξτε τη χώρα σας και εισαγάγετε τον ταχυδρομικό σας κώδικα <p>για να συνεχίσετε στην ολοκλήρωση αγοράς του { $productName }</p>
+location-banner-info = Δεν μπορέσαμε να εντοπίσουμε αυτόματα την τοποθεσία σας
 location-required-disclaimer = Χρησιμοποιούμε αυτές τις πληροφορίες μόνο για τον υπολογισμό των φόρων και του νομίσματος.
 
 ## Page - Upgrade page
@@ -139,6 +142,7 @@ next-coupon-success-repeating = Το πρόγραμμά σας θα ανανεω
 select-tax-location-title = Τοποθεσία
 select-tax-location-edit-button = Επεξεργασία
 select-tax-location-save-button = Αποθήκευση
+select-tax-location-continue-to-checkout-button = Συνέχεια στην ολοκλήρωση αγοράς
 select-tax-location-country-code-label = Χώρα
 select-tax-location-country-code-placeholder = Επιλέξτε τη χώρα σας
 select-tax-location-error-missing-country-code = Επιλέξτε τη χώρα σας
