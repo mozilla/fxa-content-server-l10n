@@ -2,6 +2,8 @@
 
 app-general-err-heading = Powšitkowny nałoženski zmylk
 app-general-err-message = Něšto je so nimokuliło. Prošu spytajće pozdźišo hišće raz.
+# Specific handling for issues when bad or missing query parameters are detected
+app-query-parameter-err-heading = Špatne naprašowanje: Njepłaćiwe naprašowanske parametry
 
 ## FxA React - Strings shared between multiple FxA products for application footer
 

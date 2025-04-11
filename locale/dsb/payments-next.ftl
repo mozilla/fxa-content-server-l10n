@@ -9,6 +9,9 @@ next-payment-method-header = Wubjeŕśo swóju płaśeńsku metodu
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = Nejpjerwjej musyśo swój abonement wobkšuśiś
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+location-header = Wubjeŕśo swój kraj a zapódajśo swóju postowu licbu <p>, aby z kasu za { $productName } pókšacował</p>
+location-banner-info = Njejsmy mógli wašo stojnišćo awtomatiski namakaś
 location-required-disclaimer = Wužywamy toś te informacije jano, aby my danki a pjenjeze wulicyli.
 
 ## Page - Upgrade page
@@ -142,6 +145,7 @@ next-coupon-success-repeating = Waš plan se pó { $couponDurationDate } za lis�
 select-tax-location-title = Městno
 select-tax-location-edit-button = Wobźěłaś
 select-tax-location-save-button = Składowaś
+select-tax-location-continue-to-checkout-button = Dalej ku kasy
 select-tax-location-country-code-label = Kraj
 select-tax-location-country-code-placeholder = Wubjeŕśo swój kraj
 select-tax-location-error-missing-country-code = Pšosym wubjeŕśo swój kraj
