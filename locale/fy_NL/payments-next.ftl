@@ -9,6 +9,7 @@ next-payment-method-header = Kies jo betellingsmetoade
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = Jo moatte earst jo abonnemint goedkarre
+location-banner-info = Wy koene jo lokaasje net automatysk detektearje
 location-required-disclaimer = Wy brûke dizze ynformaasje allinnich om belestingen en faluta te berekkenjen.
 
 ## Page - Upgrade page
