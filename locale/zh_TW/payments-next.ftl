@@ -9,6 +9,9 @@ next-payment-method-header = 選擇付款方式
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = 請先授權付款訂閱
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+location-header = 選擇您所在的國家並輸入您的郵遞區號，<p>即可繼續為 { $productName } 結帳</p>
+location-banner-info = 無法自動偵測您的位置
 location-required-disclaimer = 我們只使用此資訊來計算稅金與幣別。
 
 ## Page - Upgrade page
@@ -139,6 +142,7 @@ next-coupon-success-repeating = 您的方案將在 { $couponDurationDate } 之�
 select-tax-location-title = 位置
 select-tax-location-edit-button = 編輯
 select-tax-location-save-button = 儲存
+select-tax-location-continue-to-checkout-button = 繼續結帳
 select-tax-location-country-code-label = 國家
 select-tax-location-country-code-placeholder = 選擇您的國家
 select-tax-location-error-missing-country-code = 請選擇您的國家
