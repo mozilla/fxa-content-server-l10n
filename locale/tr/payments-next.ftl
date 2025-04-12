@@ -9,6 +9,7 @@ next-payment-method-header = Ödeme yönteminizi seçin
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = Öncelikle aboneliğinizi onaylamanız gerekiyor
+location-banner-info = Konumunuzu otomatik olarak tespit edemedik
 location-required-disclaimer = Bu bilgileri yalnızca vergileri ve para birimini tespit etmek için kullanıyoruz.
 
 ## Page - Upgrade page
@@ -139,6 +140,7 @@ next-coupon-success-repeating = Planınız { $couponDurationDate } tarihinden so
 select-tax-location-title = Konum
 select-tax-location-edit-button = Düzenle
 select-tax-location-save-button = Kaydet
+select-tax-location-continue-to-checkout-button = Ödeme işlemine devam et
 select-tax-location-country-code-label = Ülke
 select-tax-location-country-code-placeholder = Ülkenizi seçin
 select-tax-location-error-missing-country-code = Lütfen ülkenizi seçin

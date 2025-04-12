@@ -2,6 +2,8 @@
 
 app-general-err-heading = Genel uygulama hatası
 app-general-err-message = Bir şeyler yanlış gitti. Lütfen daha sonra tekrar deneyin.
+# Specific handling for issues when bad or missing query parameters are detected
+app-query-parameter-err-heading = Hatalı istek: Geçersiz sorgu parametresi
 
 ## FxA React - Strings shared between multiple FxA products for application footer
 
