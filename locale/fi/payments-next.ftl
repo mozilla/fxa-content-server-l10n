@@ -1,15 +1,20 @@
 ## Page
 
 checkout-signin-or-create = 1. Kirjaudu sisään tai luo { -product-mozilla-account }
+# This string appears as a separation between the two sign-in options, "Enter your email"(signin-form-email-input) "or"(this string) "Continue with Google"(continue-signin-with-google-button) / "Continue with Apple"(continue-signin-with-apple-button)
+checkout-signin-options-or = tai
 continue-signin-with-google-button = Jatka käyttämällä { -brand-google }a
 continue-signin-with-apple-button = Jatka käyttämällä { -brand-apple }a
 next-payment-method-header = Valitse maksutapa
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = Sinun on ensin hyväksyttävä tilauksesi
+location-banner-info = Emme pystyneet tunnistamaan sijaintiasi automaattisesti
+location-required-disclaimer = Käytämme tätä tietoa vain verojen ja valuutan laskemiseen.
 
 ## Page - Upgrade page
 
+upgrade-page-payment-information = Maksun tiedot
 checkout-error-boundary-retry-button = Yritä uudelleen
 checkout-error-boundary-basic-error-message = Jotain meni pieleen. Yritä uudelleen tai <contactSupportLink>ota yhteyttä tukeen.</contactSupportLink>
 
@@ -52,6 +57,10 @@ next-payment-confirmation-download-button = Jatka lataamiseen
 
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Kortti päättyen { $last4 }
+# Page - Not Found
+page-not-found-title = Sivua ei löydy
+page-not-found-description = Pyytämääsi sivua ei löytynyt. Olemme saaneet tästä tiedon ja tulemme korjaamaan rikkinäiset linkit.
+page-not-found-back-button = Palaa takaisin
 
 ## Component - Payment Consent Checkbox
 
@@ -80,6 +89,30 @@ next-coupon-submit = Käytä
 
 # Component - Header
 
+payments-header-help =
+    .title = Tuki
+    .aria-label = Tuki
+    .alt = Tuki
+payments-header-bento =
+    .title = { -brand-mozilla }-tuotteet
+    .aria-label = { -brand-mozilla }-tuotteet
+    .alt = { -brand-mozilla }n logo
+payments-header-bento-close =
+    .alt = Sulje
+payments-header-bento-tagline = Lisää yksityisyyttäsi suojaavia tuotteita { -brand-mozilla }lta
+payments-header-bento-firefox-desktop = { -brand-firefox }-selain työpöydälle
+payments-header-bento-firefox-mobile = { -brand-firefox }-selain mobiililaitteille
+payments-header-bento-monitor = { -product-mozilla-monitor }
+payments-header-bento-firefox-relay = { -product-firefox-relay }
+payments-header-bento-vpn = { -product-mozilla-vpn }
+payments-header-bento-pocket = { -product-pocket }
+payments-header-bento-made-by-mozilla = { -brand-mozilla }lta
+payments-header-avatar =
+    .title = { -product-mozilla-account }en valikko
+payments-header-avatar-icon =
+    .alt = Tilin profiilikuva
+payments-header-avatar-expanded-signed-in-as = Kirjautuneena tilillä
+payments-header-avatar-expanded-sign-out = Kirjaudu ulos
 payments-client-loading-spinner =
     .aria-label = Ladataan…
     .alt = Ladataan…
@@ -105,6 +138,7 @@ next-coupon-success-repeating = Tilauksesi uusiutuu automaattisesti { $couponDur
 select-tax-location-title = Sijainti
 select-tax-location-edit-button = Muokkaa
 select-tax-location-save-button = Tallenna
+select-tax-location-continue-to-checkout-button = Jatka kassalle
 select-tax-location-country-code-label = Maa
 select-tax-location-country-code-placeholder = Valitse maa
 select-tax-location-error-missing-country-code = Valitse maa
@@ -135,6 +169,7 @@ next-new-user-subscribe-product-assurance = Käytämme sähköpostiosoitettasi v
 plan-price-interval-daily = { $amount } päivittäin
 plan-price-interval-weekly = { $amount } viikottain
 plan-price-interval-monthly = { $amount } kuukausittain
+plan-price-interval-halfyearly = { $amount } puolivuosittain
 plan-price-interval-yearly = { $amount } vuosittain
 
 ## Component - SubscriptionTitle
@@ -143,6 +178,7 @@ next-subscription-create-title = Määritä tilaus
 next-subscription-success-title = Tilauksen vahvistus
 next-subscription-processing-title = Vahvistetaan tilausta…
 next-subscription-error-title = Virhe tilausta vahvistaessa…
+subscription-title-plan-change-heading = Tarkista muutos
 next-sub-guarantee = 30 päivän rahat takaisin -takuu
 
 ## Component - TermsAndPrivacy
@@ -153,10 +189,24 @@ next-subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capita
 next-terms = Käyttöehdot
 next-privacy = Tietosuojakäytäntö
 next-terms-download = Latausehdot
+terms-and-privacy-stripe-label = { -brand-mozilla } käyttää { -brand-name-stripe }a turvalliseen maksunvälitykseen.
+terms-and-privacy-stripe-link = { -brand-name-stripe }n tietosuojakäytäntö
+terms-and-privacy-paypal-label = { -brand-mozilla } käyttää { -brand-paypal }ia turvalliseen maksunvälitykseen.
+terms-and-privacy-paypal-link = { -brand-paypal }in tietosuojakäytäntö
+terms-and-privacy-stripe-and-paypal-label = { -brand-mozilla } käyttää { -brand-name-stripe }a ja { -brand-paypal }ia turvalliseen maksunvälitykseen.
 
 ## Component - UpdatedPurchaseDetails
 
+upgrade-purchase-details-current-plan-label = Nykyinen tilaustyyppi
+upgrade-purchase-details-new-plan-label = Uusi tilaustyyppi
+upgrade-purchase-details-promo-code = Tarjouskoodi
+upgrade-purchase-details-tax-label = Verot ja maksut
+upgrade-purchase-details-new-total-label = Uusi summa
 
 ## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
 
+upgrade-purchase-details-new-plan-daily = { $productName } (päivittäin)
+upgrade-purchase-details-new-plan-weekly = { $productName } (viikoittain)
+upgrade-purchase-details-new-plan-monthly = { $productName } (kuukausittain)
+upgrade-purchase-details-new-plan-yearly = { $productName } (vuosittain)
