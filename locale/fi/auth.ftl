@@ -2,6 +2,26 @@
 
 session-verify-send-push-title-2 = Oletko kirjautumassa { -product-mozilla-account }-tilillesi?
 session-verify-send-push-body-2 = Napsauta tästä vahvistaaksesi, että se olet sinä
+# Message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to verify phone ownership when registering a recovery phone
+recovery-phone-setup-sms-body = { $code } on { -brand-mozilla }-vahvistuskoodisi. Vanhenee viidessä minuutissa.
+# Shorter message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to verify phone ownership when registering a recovery phone
+recovery-phone-setup-sms-short-body = { -brand-mozilla }-vahvistuskoodi: { $code }
+# Message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to sign in with a recovery phone as backup for two-step authentication
+recovery-phone-signin-sms-body = { $code } on { -brand-mozilla }-palautuskoodisi. Vanhenee viidessä minuutissa.
+# Shorter message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to sign in with a recovery phone as backup for two-step authentication
+recovery-phone-signin-sms-short-body = { -brand-mozilla }-koodi: { $code }
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
@@ -352,6 +372,7 @@ postAddLinkedAccount-subject-2 = Uusi tili yhdistetty { -product-mozilla-account
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = { $providerName }-tilisi on linkitetty { -product-mozilla-account }in
 postAddLinkedAccount-action = Hallinnoi tiliä
+postAddRecoveryPhone-preview = Tili suojattu kaksivaiheisella todennuksella
 postAddRecoveryPhone-title = Loit palauttamisen puhelinnumeron
 postAddRecoveryPhone-action = Hallinnoi tiliä
 postAddTwoStepAuthentication-subject-2 = Kaksivaiheinen todennus otettu käyttöön
@@ -371,6 +392,7 @@ postChangePrimary-title = Uusi ensisijainen sähköposti
 #  $email (String) - A user's email address
 postChangePrimary-description-2 = Olet vaihtanut ensisijaiseksi sähköpostiosoitteeksi { $email }. Tämä osoite on nyt käyttäjätunnuksesi { -product-mozilla-account }lle kirjautuessasi sekä osoite, johon tietoturvailmoitukset ja kirjautumisvahvistukset lähetetään.
 postChangePrimary-action = Hallinnoi tiliä
+postChangeRecoveryPhone-preview = Tili suojattu kaksivaiheisella todennuksella
 postConsumeRecoveryCode-title-2 = Käytit varatodennuskoodin
 # After the colon, there is description of the device that the backup authentication code was used on
 postConsumeRecoveryCode-description-2 = Se käytettiin käyttäen:
@@ -390,6 +412,7 @@ postRemoveAccountRecovery-title-3 = Poistit tilisi palautusavaimen
 postRemoveAccountRecovery-body-part1 = Tilisi palautusavainta tarvitaan salattujen selaustietojesi palauttamiseen, jos unohdat salasanasi.
 postRemoveAccountRecovery-body-part2 = Jos et vielä ole, niin luo uusi tilin palautusavain tilisi asetuksissa, jotta et menetä tallennettuja salasanojasi, kirjanmerkkejäsi, selaushistoriaasi ja paljon muuta.
 postRemoveAccountRecovery-action = Hallinnoi tiliä
+postRemoveRecoveryPhone-preview = Tili suojattu kaksivaiheisella todennuksella
 postRemoveSecondary-subject = Toissijainen sähköposti poistettiin
 postRemoveSecondary-title = Toissijainen sähköposti poistettiin
 # Variables:
