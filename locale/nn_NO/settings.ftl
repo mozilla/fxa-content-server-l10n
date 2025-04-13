@@ -834,6 +834,7 @@ recent-activity-account-recovery-phone-setup-complete = Konfigurasjon av gjenopp
 recent-activity-account-recovery-phone-signin-complete = Innlogging med gjennopprettingstelefonen fullført
 recent-activity-account-recovery-phone-signin-failed = Mislykka innlogging med gjennopprettingstelefonen
 recent-activity-account-recovery-phone-removed = Gjenopprettingstelefon fjerna
+recent-activity-account-recovery-codes-replaced = Gjenopprettingskodar erstatta
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Annan kontoaktivitet
 
