@@ -705,6 +705,7 @@ tfa-create-code-error = Det oppstod eit problem med å opprette reserve-godkjenn
 tfa-replace-code-success-alert-4 = Reserve-godkjenningskodar oppdaterte
 tfa-replace-code-1-2 = Steg 1 av 2
 tfa-replace-code-2-2 = Steg 2 av 2
+tfa-enter-code-to-confirm-v2 = Skriv inn ein av dei nye reserve-godkjenningskodane dine for å stadfeste at du har lagra dei. Dei gamle reserve-godkjenningskodane dine vil bli deaktiverte når dette steget er fullført.
 
 ## Avatar change page
 
