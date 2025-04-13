@@ -891,6 +891,7 @@ add-secondary-email-mask = E-postalias kan ikkje brukast som sekundær e-postadr
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Steg 2 av 2
+verify-secondary-email-error-3 = Det oppstod eit problem med å sende stadfestingskoden
 verify-secondary-email-page-title =
     .title = Sekundær e-postadresse
 verify-secondary-email-verification-code-2 =
