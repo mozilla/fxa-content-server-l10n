@@ -853,6 +853,8 @@ recovery-phone-remove-header = Fjern telefonnummeret for gjenoppretting
 #   $formattedFullPhoneNumber (String) - the user's full phone number
 settings-recovery-phone-remove-info = Dette vil fjerne <strong>{ $formattedFullPhoneNumber }</strong> som din gjenopprettingstelefon.
 settings-recovery-phone-remove-recommend = Vi tilrår at du beheld denne metoden fordi det er enklare enn å lagre reserve-godkjenningskodar.
+# "Saved backup authentication codes" refers to previously saved backup authentication codes
+settings-recovery-phone-remove-recovery-methods = Viss du slettar han, sørg for at du framleis har dei lagra reserve-godkjenningskodane. <linkExternal>Samanlikn gjenopprettingsmetodar</linkExternal>
 settings-recovery-phone-remove-button = Fjern telefonnummeret
 settings-recovery-phone-remove-cancel = Avbryt
 settings-recovery-phone-remove-success = Gjenopprettingstelefon fjerna
