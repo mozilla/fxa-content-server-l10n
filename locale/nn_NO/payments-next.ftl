@@ -10,7 +10,8 @@ next-payment-method-header = Vel betalingsmåte
 payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = Først må du godkjenne abonnementet ditt
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
-location-header = Vel land og skriv inn postnummer <p>for å fortsetje til kassa for { $productName }</p>
+location-header = Vel land og skriv inn postnummer <p>for å halde fram til kassa for { $productName }</p>
+location-banner-info = Vi klarte ikkje å oppdage plasseringa di automatisk
 location-required-disclaimer = Vi brukar berre denne informasjonen til å rekne ut skattar og valuta.
 
 ## Page - Upgrade page
@@ -141,6 +142,7 @@ next-coupon-success-repeating = Planen din vert fornya automatisk etter { $coupo
 select-tax-location-title = Plassering
 select-tax-location-edit-button = Rediger
 select-tax-location-save-button = Lagre
+select-tax-location-continue-to-checkout-button = Hald fram til kassa
 select-tax-location-country-code-label = Land
 select-tax-location-country-code-placeholder = Vel land
 select-tax-location-error-missing-country-code = Vel land

@@ -819,12 +819,14 @@ recent-activity-account-two-factor-requested = Tostegs-godkjenning påkravd
 recent-activity-account-two-factor-failure = Tostegs-godkjenning, mislykka
 recent-activity-account-two-factor-success = Tostegs-godkjenning, vellykka
 recent-activity-account-two-factor-removed = Tostegs-verifisering fjerna
+recent-activity-account-recovery-key-added = Kontogjenopprettingsnøkkel aktivert
 recent-activity-account-recovery-key-removed = Gjenopprettingsnøkkel for konto fjerna
 recent-activity-account-password-added = Nytt passord lagt til
 recent-activity-account-password-changed = Passordet er endra
 recent-activity-account-secondary-email-added = Sekundær e-postadesse lagt til
 recent-activity-account-secondary-email-removed = Sekundær e-postadesse fjerna
 recent-activity-account-emails-swapped = Primær og sekundær e-post er bytt om
+recent-activity-session-destroy = Logga ut av økta
 recent-activity-account-recovery-phone-send-code = Telefonkode for gjenoppretting sendt
 recent-activity-account-recovery-phone-setup-complete = Konfigurasjon av gjenopprettingstelefon er fullført
 recent-activity-account-recovery-phone-signin-complete = Innlogging med gjennopprettingstelefonen fullført
@@ -1562,6 +1564,8 @@ signin-recovery-phone-resend-success = Kode sendt
 signin-recovery-phone-locked-out-link = Er du sperra ute?
 # Follows the error message (e.g, "There was a problem sending a code")
 signin-recovery-phone-general-error-description = Prøv igjen seinare.
+signin-recovery-phone-invalid-code-error-description = Koden er ugyldig eller utgått.
+signin-recovery-phone-invalid-code-error-link = Vil du bruke reserve-godkjenningskodar i staden?
 # "Limits" refers to potential restrictions on how often a recovery phone number can be used for signing in within a given time period.
 # If limits are reached, users may have to use an alternate two-step authentication method or wait until the restriction period is over.
 signin-recovery-phone-success-message = Inlogga. Avgrensingar kan gjelde om du brukar gjenopprettingstelefonen din igjen.
