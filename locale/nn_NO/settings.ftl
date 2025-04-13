@@ -837,6 +837,8 @@ recent-activity-account-recovery-phone-signin-complete = Innlogging med gjennopp
 recent-activity-account-recovery-phone-signin-failed = Mislykka innlogging med gjennopprettingstelefonen
 recent-activity-account-recovery-phone-removed = Gjenopprettingstelefon fjerna
 recent-activity-account-recovery-codes-replaced = Gjenopprettingskodar erstatta
+recent-activity-account-recovery-codes-created = Gjenopprettingskodar oppretta
+recent-activity-account-recovery-codes-signin-complete = Innlogging med gjennopprettingskodar er fullført
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Annan kontoaktivitet
 
@@ -893,6 +895,10 @@ verify-secondary-email-verification-code-2 =
     .label = Skriv inn stadfestingskoden din
 verify-secondary-email-cancel-button = Avbryt
 verify-secondary-email-verify-button-2 = Stadfest
+# This string is an instruction in a form.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-please-enter-code-2 = Skriv inn stadfestingskoden som vart sendt til <strong>{ $email }</strong> innan 5 minutt.
 # This string is a confirmation message shown after verifying an email.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
@@ -916,6 +922,7 @@ tfa-button-cancel = Avbryt
 tfa-button-finish = Fullfør
 tfa-incorrect-totp = Feil tostegs-godkjenningskode
 tfa-cannot-retrieve-code = Det oppstod eit problem med å hente koden din.
+tfa-cannot-verify-code-4 = Det oppstod eit problem med å stadfeste reserve-godkjenningskoden din
 tfa-incorrect-recovery-code-1 = Feil reserve-godkjenningskode
 tfa-enabled-v2 = Tostegs-godkjenning er slått på
 tfa-scan-this-code =
