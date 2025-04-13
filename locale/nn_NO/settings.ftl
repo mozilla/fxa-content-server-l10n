@@ -820,6 +820,8 @@ recent-activity-account-two-factor-failure = Tostegs-godkjenning, mislykka
 recent-activity-account-two-factor-success = Tostegs-godkjenning, vellykka
 recent-activity-account-two-factor-removed = Tostegs-verifisering fjerna
 recent-activity-account-recovery-key-added = Kontogjenopprettingsnøkkel aktivert
+recent-activity-account-recovery-key-verification-failure = Mislykka stadfesting av kontogjenopprettingsnøkkelen
+recent-activity-account-recovery-key-verification-success = Kontogjenopprettingsnøkkelen er stadfesta
 recent-activity-account-recovery-key-removed = Gjenopprettingsnøkkel for konto fjerna
 recent-activity-account-password-added = Nytt passord lagt til
 recent-activity-account-password-changed = Passordet er endra
@@ -850,6 +852,7 @@ recovery-phone-remove-header = Fjern telefonnummeret for gjenoppretting
 # Variables:
 #   $formattedFullPhoneNumber (String) - the user's full phone number
 settings-recovery-phone-remove-info = Dette vil fjerne <strong>{ $formattedFullPhoneNumber }</strong> som din gjenopprettingstelefon.
+settings-recovery-phone-remove-recommend = Vi tilrår at du beheld denne metoden fordi det er enklare enn å lagre reserve-godkjenningskodar.
 settings-recovery-phone-remove-button = Fjern telefonnummeret
 settings-recovery-phone-remove-cancel = Avbryt
 settings-recovery-phone-remove-success = Gjenopprettingstelefon fjerna
@@ -864,12 +867,17 @@ page-setup-recovery-phone-step2-back-button-title = Endre telefonnummer
 ## Add secondary email page
 
 add-secondary-email-step-1 = Steg 1 av 2
+add-secondary-email-error-2 = Det oppstod eit problem med å opprette denne e-posten
 add-secondary-email-page-title =
     .title = Sekundær e-postadresse
 add-secondary-email-enter-address =
     .label = Skriv inn e-postadresse
 add-secondary-email-cancel-button = Avbryt
 add-secondary-email-save-button = Lagre
+# This message is shown when a user tries to add a secondary email that is a
+# Firefox Relay email mask (generated email address that can be used in place of
+# your real email address)
+add-secondary-email-mask = E-postalias kan ikkje brukast som sekundær e-postadresse
 
 ## Verify secondary email page
 
