@@ -1006,6 +1006,13 @@ tfa-row-backup-codes-title = Reserve-godkjenningskodar
 # Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
 # Users that have not enabled or verified 2FA will not see this
 tfa-row-backup-codes-not-available = Ingen kodar tilgjengeleg
+# $numCodesRemaining - the number of backup authentication codes that have not yet been used (generally between 1 to 5)
+# A different message is shown when no codes are available
+tfa-row-backup-codes-available-v2 =
+    { $numCodesAvailable ->
+        [one] { $numCodesAvailable } attståande kode
+       *[other] { $numCodesAvailable } attståande kodar
+    }
 # Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
 tfa-row-backup-codes-get-new-cta-v2 = Lag nye kodar
 # Shown to users who have no backup authentication codes
@@ -1027,6 +1034,10 @@ tfa-row-backup-phone-delete-button = Fjern
 # Shown in tooltip on delete button or delete icon
 tfa-row-backup-phone-delete-title-v2 = Fjern gjenopprettingstelefon
 tfa-row-backup-phone-delete-restriction-v2 = Dersom du vil fjerne gjenopprettingstelefonen, legg til reserve-godkjenningskodar eller deaktivere tostegs-godkjenning først for å unngå å bli utestengd frå kontoen din.
+# A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
+# into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
+# with SMS-based two-factor authentication.
+tfa-row-backup-phone-sim-swap-risk-link = Finn ut meir om SIM-byterisiko
 
 ## Switch component
 
@@ -1058,6 +1069,7 @@ rk-action-remove = Fjern
 rk-key-removed-2 = Gjenopprettingsnøkkel for konto fjerna
 rk-refresh-key-1 = Oppdater kontogjenopprettingsnøkkel
 rk-content-explain = Gjenopprett informasjonen din når du gløymer passordet ditt.
+rk-cannot-verify-session-4 = Beklagar, det oppstod eit problem med å stadfeste økta
 rk-remove-modal-heading-1 = Fjerne kontogjenopprettingsnøkkel?
 rk-remove-error-2 = Klarte ikkje å fjerne kontogjenopprettingsnøkkelen din
 # Icon button to delete user's account recovery key. Text appears in tooltip on hover and as alt text for screen readers.
