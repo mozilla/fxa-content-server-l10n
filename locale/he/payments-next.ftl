@@ -7,6 +7,9 @@ next-payment-method-header = נא לבחור את שיטת התשלום שלך
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = ראשית יש לאשר את המינוי שלך
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+location-header = יש לבחור את המדינה שלך ולהכניס את המיקוד שלך <p>כדי להמשיך לתשלום עבור { $productName }</p>
+location-banner-info = לא הצלחנו לזהות את המיקום שלך באופן אוטומטי
 location-required-disclaimer = אנו משתמשים במידע זה רק לחישוב מיסים ומטבעות.
 
 ## Page - Upgrade page
@@ -132,6 +135,7 @@ next-coupon-success = התוכנית שלך תתחדש אוטומטית עם ה�
 select-tax-location-title = מיקום
 select-tax-location-edit-button = עריכה
 select-tax-location-save-button = שמירה
+select-tax-location-continue-to-checkout-button = המשך לתשלום
 select-tax-location-country-code-label = מדינה
 select-tax-location-country-code-placeholder = בחירה במדינה שלך
 select-tax-location-error-missing-country-code = נא לבחור במדינה שלך

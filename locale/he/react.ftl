@@ -2,6 +2,8 @@
 
 app-general-err-heading = שגיאת יישום כללית
 app-general-err-message = משהו השתבש. נא לנסות שוב מאוחר יותר.
+# Specific handling for issues when bad or missing query parameters are detected
+app-query-parameter-err-heading = בקשה שגויה: פרמטרי שאילתה לא חוקיים
 
 ## FxA React - Strings shared between multiple FxA products for application footer
 
