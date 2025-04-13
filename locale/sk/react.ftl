@@ -2,6 +2,8 @@
 
 app-general-err-heading = Všeobecná chyba aplikácie
 app-general-err-message = Niečo sa pokazilo. Skúste to znova neskôr.
+# Specific handling for issues when bad or missing query parameters are detected
+app-query-parameter-err-heading = Nesprávna požiadavka: neplatné parametre dopytu
 
 ## FxA React - Strings shared between multiple FxA products for application footer
 
