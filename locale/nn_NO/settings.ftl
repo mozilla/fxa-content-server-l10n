@@ -1099,6 +1099,9 @@ se-remove-email =
 se-refresh-email =
     .title = Oppdater e-postadresse
 se-unverified-2 = ikkje stadfesta
+se-resend-code-2 =
+    Stadfesting nødvendig. <button>Send stadfestingskoden på nytt</button>
+    viss han ikkje er i innboksen eller søppelpostmappa.
 # Button to make secondary email the primary
 se-make-primary = Bruk som primær e-postadresse
 se-default-content = Få tilgang til kontoen din viss du ikkje kan logge inn med den primære e-postadressa di.
@@ -1120,6 +1123,7 @@ tfa-row-button-refresh =
 tfa-row-cannot-refresh =
     Diverre oppstod eit problem med å oppdatere
     tostegs-godkjenning.
+tfa-row-enabled-description = Kontoen din er beskytta av tostegs-godkjenning. Du må skrive inn eit eingongspassord frå autentiseringsappen når du loggar inn på { -product-mozilla-account }en din.
 # "this" refers to two-step authentication
 # Link goes to https://support.mozilla.org/kb/secure-mozilla-account-two-step-authentication
 tfa-row-enabled-info-link = Korleis dette vernar kontoen din
