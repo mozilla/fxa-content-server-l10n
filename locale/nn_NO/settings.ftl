@@ -822,6 +822,7 @@ recent-activity-account-two-factor-requested = Tostegs-godkjenning påkravd
 recent-activity-account-two-factor-failure = Tostegs-godkjenning, mislykka
 recent-activity-account-two-factor-success = Tostegs-godkjenning, vellykka
 recent-activity-account-two-factor-removed = Tostegs-verifisering fjerna
+recent-activity-account-password-reset-success = Kontopassordet er tilbakestilt
 recent-activity-account-recovery-key-added = Kontogjenopprettingsnøkkel aktivert
 recent-activity-account-recovery-key-verification-failure = Mislykka stadfesting av kontogjenopprettingsnøkkelen
 recent-activity-account-recovery-key-verification-success = Kontogjenopprettingsnøkkelen er stadfesta
@@ -947,6 +948,8 @@ tfa-input-enter-totp-v2 =
 tfa-save-these-codes-1 =
     Lagre desse godkjenningskodane for eingongsbruk på ein trygg stad for å bruke dei 
     når du ikkje har mobileininga di.
+# codes here refers to backup authentication codes
+tfa-enter-code-to-confirm-setup = Stadfest at du har lagra kodane dine ved å skrive inn ein av dei. Utan desse kodane kan det hende du ikkje kan logge på viss du ikkje har autentiseringsappen din.
 tfa-enter-recovery-code-1 =
     .label = Skriv inn ein backup authentication code
 
