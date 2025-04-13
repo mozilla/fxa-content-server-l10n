@@ -667,6 +667,7 @@ la-unlink-button = Fjern tilknyting
 la-unlink-account-button = Fjern tilknyting
 la-set-password-button = Vel passord
 la-unlink-heading = Fjern tilknyting til tredjepartskonto
+la-unlink-content-3 = Er du sikker på, at du vil fjerne tilknytinga til kontoen din? Viss du fjernar tilknytinga til kontoen din, blir du ikkje automatisk logga ut av dei tilknytte tenestene dine. For å gjere det, må du logge ut manuelt i seksjonen Tilkopla tenester.
 nav-linked-accounts = { la-heading }
 
 ## Modal - Default values for a message directed at the user where the user can typically Confirm or Cancel.
