@@ -994,6 +994,7 @@ security-password =
 security-password-created-date = Oppretta: { $date }
 security-not-set = Ikkje innstilt
 security-action-create = Opprett
+security-set-password = Vel eit passord for å synkronisere og bruke visse kontotryggingsfunksjonar.
 # Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
 security-recent-activity-link = Vis nyleg kontoaktivitet
 signout-sync-header = Økta har gått ut
@@ -1010,6 +1011,8 @@ tfa-row-backup-codes-get-new-cta-v2 = Lag nye kodar
 # Shown to users who have no backup authentication codes
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = Legg til
+# 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
+tfa-row-backup-codes-description-2 = Dette er den tryggaste gjenopprettingsmetoden dersom du ikkje kan bruke mobiltelefonen din eller autentiseringsapp.
 # Recovery phone is a recovery method for two-step authentication
 # A recovery code can be sent to the user's phone
 tfa-row-backup-phone-title-v2 = Gjenopprettingstelefon
