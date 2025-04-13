@@ -1089,6 +1089,9 @@ se-set-primary-successful-2 = { $email } er no den primære e-postadressa di
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 se-delete-email-successful-2 = { $email } er sletta
+se-delete-email-error-2 = Beklagar, det oppstod eit problem med å slette denne e-posten
+se-verify-session-3 = Du må stadfeste den geldande økta for å utføre denne handlinga
+se-verify-session-error-3 = Beklagar, det oppstod eit problem med å stadfeste økta
 # Button to remove the secondary email
 se-remove-email =
     .title = Fjern e-postadresse
