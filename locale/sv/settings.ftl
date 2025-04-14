@@ -1145,7 +1145,7 @@ tfa-row-cannot-refresh =
     tvåstegautentisering.
 tfa-row-enabled-description = Ditt konto skyddas av tvåstegsautentisering. Du måste ange en engångskod från din autentiseringsapp när du loggar in på ditt { -product-mozilla-account }.
 # "this" refers to two-step authentication
-# Link goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+# Link goes to https://support.mozilla.org/kb/secure-mozilla-account-two-step-authentication
 tfa-row-enabled-info-link = Hur detta skyddar ditt konto
 tfa-row-disabled-description-v2 = Hjälp till att säkra ditt konto genom att använda en autentiseringsapp från tredje part som ett andra steg för att logga in.
 tfa-row-cannot-verify-session-4 = Tyvärr, det uppstod ett problem med att bekräfta din session

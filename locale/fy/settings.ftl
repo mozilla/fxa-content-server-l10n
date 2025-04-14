@@ -1149,7 +1149,7 @@ tfa-row-cannot-refresh =
     yn twa stappen.
 tfa-row-enabled-description = Jo account wurdt beskerme troch twa-stapsautentikaasje. Jo moatte ien kear in tagongskoade ynfiere fan jo autentikaasje-app ôf by it oanmelden by jo { -product-mozilla-account }.
 # "this" refers to two-step authentication
-# Link goes to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+# Link goes to https://support.mozilla.org/kb/secure-mozilla-account-two-step-authentication
 tfa-row-enabled-info-link = Hoe dit jo account beskermet
 tfa-row-disabled-description-v2 = Help jo account te befeiligjen troch in autentikaasje-app fan tredden te brûken as twadde stap om jo oan te melden.
 tfa-row-cannot-verify-session-4 = Sorry, der is in probleem bard by it befêstigjen fan jo sesje
