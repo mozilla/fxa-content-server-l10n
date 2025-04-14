@@ -194,9 +194,9 @@ next-terms = Pogoji storitve
 next-privacy = Obvestilo o zasebnosti
 next-terms-download = Pogoji prenosa
 terms-and-privacy-stripe-label = { -brand-mozilla } za varno obdelavo plačil uporablja storitev { -brand-name-stripe }.
-terms-and-privacy-stripe-link = pravilnik o zasebnosti { -brand-name-stripe }
+terms-and-privacy-stripe-link = Pravilnik o zasebnosti storitve { -brand-name-stripe }
 terms-and-privacy-paypal-label = { -brand-mozilla } za varno obdelavo plačil uporablja storitev { -brand-paypal }.
-terms-and-privacy-paypal-link = Pravilnik o zasebnosti { -brand-paypal(sklon: "rodilnik") }
+terms-and-privacy-paypal-link = Pravilnik o zasebnosti storitve { -brand-paypal }
 terms-and-privacy-stripe-and-paypal-label = { -brand-mozilla } za varno obdelavo plačil uporablja storitvi { -brand-name-stripe } in { -brand-paypal }.
 
 ## Component - UpdatedPurchaseDetails
