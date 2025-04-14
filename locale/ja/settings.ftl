@@ -1117,6 +1117,7 @@ cookies-disabled-learn-more = 詳細情報
 
 ## Index / home page
 
+index-header = メールアドレスを入力
 
 ## InlineRecoveryKeySetup page component
 
