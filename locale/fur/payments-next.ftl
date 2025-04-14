@@ -9,6 +9,9 @@ next-payment-method-header = Sielç il to metodi di paiament
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = Par prime robe tu scugnis aprovâ il to abonament
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+location-header = Selezione il to paîs e inserìs il to codiç postâl <p>par continuâ cul paiament par { $productName }</p>
+location-banner-info = No sin rivâts a rilevâ in automatic la tô posizion
 location-required-disclaimer = O doprìn chestis informazions nome par calcolâ tassis e valude.
 
 ## Page - Upgrade page
@@ -139,6 +142,7 @@ next-coupon-success-repeating = Il to plan si rinovarà in automatic dopo { $cou
 select-tax-location-title = Posizion
 select-tax-location-edit-button = Modifiche
 select-tax-location-save-button = Salve
+select-tax-location-continue-to-checkout-button = Continue cul paiament
 select-tax-location-country-code-label = Paîs
 select-tax-location-country-code-placeholder = Selezione il to paîs
 select-tax-location-error-missing-country-code = Selezione il to paîs
