@@ -9,8 +9,9 @@ next-payment-method-header = Kies jo betellingsmetoade
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = Jo moatte earst jo abonnemint goedkarre
-location-required-header = Selektearje jo lân en fier jo postkoade yn.
-location-required-subheader = Wy koene jo lokaasje net automatysk detektearje.
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+location-header = Selektearje jo lân en fier jo postkoade yn <p>om troch te gean mei ôfrekkenjen foar { $productName }</p>
+location-banner-info = Wy koene jo lokaasje net automatysk detektearje
 location-required-disclaimer = Wy brûke dizze ynformaasje allinnich om belestingen en faluta te berekkenjen.
 
 ## Page - Upgrade page
@@ -141,6 +142,7 @@ next-coupon-success-repeating = Jo abonnemint wurdt nei { $couponDurationDate } 
 select-tax-location-title = Lokaasje
 select-tax-location-edit-button = Bewurkje
 select-tax-location-save-button = Bewarje
+select-tax-location-continue-to-checkout-button = Trochgean nei ôfrekkenjen
 select-tax-location-country-code-label = Lân
 select-tax-location-country-code-placeholder = Selektearje jo lân
 select-tax-location-error-missing-country-code = Selektearje jo lân
