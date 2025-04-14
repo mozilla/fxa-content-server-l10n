@@ -214,5 +214,5 @@ upgrade-purchase-details-prorated-upgrade = Sorazmerna nadgradnja
 upgrade-purchase-details-new-plan-daily = { $productName } (dnevno)
 upgrade-purchase-details-new-plan-weekly = { $productName } (tedensko)
 upgrade-purchase-details-new-plan-monthly = { $productName } (mesečno)
-upgrade-purchase-details-new-plan-halfyearly = { $productName } (6-mesečni)
+upgrade-purchase-details-new-plan-halfyearly = { $productName } (na 6 mesecev)
 upgrade-purchase-details-new-plan-yearly = { $productName } (letno)

@@ -849,9 +849,9 @@ recent-activity-account-recovery-phone-setup-complete = Nastavitev telefonske š
 recent-activity-account-recovery-phone-signin-complete = Prijava s telefonsko številko za obnovitev je končana
 recent-activity-account-recovery-phone-signin-failed = Prijava z obnovitveno telefonsko številko ni uspela
 recent-activity-account-recovery-phone-removed = Telefonska številka za obnovitev je odstranjena
-recent-activity-account-recovery-codes-replaced = Kode za obnovitev zamenjane
-recent-activity-account-recovery-codes-created = Kode za obnovitev ustvarjene
-recent-activity-account-recovery-codes-signin-complete = Prijava z dokončanimi obnovitvenimi kodami
+recent-activity-account-recovery-codes-replaced = Obnovitvene kode so zamenjane
+recent-activity-account-recovery-codes-created = Obnovitvene kode so ustvarjene
+recent-activity-account-recovery-codes-signin-complete = Prijava z obnovitvenimi kodami dokončana
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Drugačna dejavnost v računu
 
