@@ -63,7 +63,7 @@ next-payment-confirmation-download-button = Nadaljuj prenos
 next-payment-confirmation-cc-card-ending-in = Kartica, ki se končuje s { $last4 }
 # Page - Not Found
 page-not-found-title = Strani ni mogoče najti
-page-not-found-description = Zahtevane strani ni mogoče najti. Obveščeni smo bili in bomo odpravili morebitne nedelujoče povezave.
+page-not-found-description = Zahtevane strani ni bilo mogoče najti. O tem smo obvestili skrbnike, ki bodo odpravili morebitne nedelujoče povezave.
 page-not-found-back-button = Nazaj
 
 ## Component - Payment Consent Checkbox
@@ -115,7 +115,7 @@ payments-header-avatar =
     .title = Meni { -product-mozilla-account(sklon: "rodilnik") }
 payments-header-avatar-icon =
     .alt = Profilna slika računa
-payments-header-avatar-expanded-signed-in-as = Prijavljen kot
+payments-header-avatar-expanded-signed-in-as = Prijavljeni kot
 payments-header-avatar-expanded-sign-out = Odjava
 payments-client-loading-spinner =
     .aria-label = Nalaganje …
@@ -142,7 +142,7 @@ next-coupon-success-repeating = Vaš paket se bo po { $couponDurationDate } samo
 select-tax-location-title = Lokacija
 select-tax-location-edit-button = Uredi
 select-tax-location-save-button = Shrani
-select-tax-location-continue-to-checkout-button = Nadaljuj do blagajne
+select-tax-location-continue-to-checkout-button = Nadaljuj na blagajno
 select-tax-location-country-code-label = Država
 select-tax-location-country-code-placeholder = Izberite državo
 select-tax-location-error-missing-country-code = Izberite svojo državo
