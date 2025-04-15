@@ -788,6 +788,8 @@ delete-account-product-firefox-addons = { -brand-firefox }-tillegg
 delete-account-acknowledge = Stadfest at når du slettar kontoen din:
 delete-account-chk-box-1-v3 =
     .label = Eventuelle betalte abonnement du har, vil bli annulert (Med unntak av { -product-pocket })
+delete-account-chk-box-2 =
+    .label = Du kan miste lagra informasjon og funksjonar i { -brand-mozilla }-produkt
 delete-account-chk-box-3 =
     .label = Aktivering på nytt med denne e-postadressa vil kanskje ikkje gjenopprette den lagra informasjonen
 delete-account-chk-box-4 =
@@ -795,6 +797,7 @@ delete-account-chk-box-4 =
 delete-account-continue-button = Hald fram
 delete-account-password-input =
     .label = Skriv inn passord
+pocket-delete-notice = Dersom du abonnerer på Pocket Premium, sørg for at du <a>avbryt abonnementet</a> før du slettar kontoen din.
 delete-account-cancel-button = Avbryt
 delete-account-delete-button-2 = Slett
 
