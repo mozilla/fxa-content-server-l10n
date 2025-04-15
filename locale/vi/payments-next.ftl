@@ -9,6 +9,9 @@ next-payment-method-header = Chọn phương thức thanh toán của bạn
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = Trước tiên, bạn sẽ cần phê duyệt thuê bao của mình
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+location-header = Chọn quốc gia của bạn và nhập mã bưu chính <p>để tiếp tục thanh toán cho { $productName }</p>
+location-banner-info = Chúng tôi không thể tự động phát hiện vị trí của bạn.
 location-required-disclaimer = Chúng tôi chỉ sử dụng thông tin này để tính thuế và tiền tệ.
 
 ## Page - Upgrade page
@@ -139,6 +142,7 @@ next-coupon-success-repeating = Gói của bạn sẽ tự động gia hạn sau
 select-tax-location-title = Địa chỉ
 select-tax-location-edit-button = Chỉnh sửa
 select-tax-location-save-button = Lưu
+select-tax-location-continue-to-checkout-button = Tiếp tục thanh toán
 select-tax-location-country-code-label = Quốc gia
 select-tax-location-country-code-placeholder = Chọn quốc gia của bạn
 select-tax-location-error-missing-country-code = Vui lòng chọn quốc gia của bạn
