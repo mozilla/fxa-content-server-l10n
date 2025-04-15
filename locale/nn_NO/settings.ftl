@@ -1276,6 +1276,9 @@ inline-recovery-key-setup-hint-header = Tryggingstilråding
 ## When users are creating an account, they may get pushed to setup 2FA
 ## in this case, they will encounter this page in the signup process (hence calling it "Inline)
 
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+inline-recovery-setup-header-default = Stadfest reserve-godkjenningskoden <span>for å halde fram til kontoinnstillingane</span>
 # This button allows a user to copy their recovery codes to their clipboard
 # This button allows the user to cancel setup of two-factor authentication for their account
 inline-recovery-cancel-button = Avbryt
@@ -1714,6 +1717,8 @@ confirm-signup-code-is-required-error = Stadfestingskode er påkravd
 
 signup-heading = Angje passord
 signup-heading-relay = Opprett passord
+# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
+signup-pocket-info-banner = Kvifor må eg opprette denne kontoen?
 # Link included in a dismissible info banner that is only displayed to Pocket clients
 # Link leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
 signup-pocket-info-banner-link = Finn ut av det her
