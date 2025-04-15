@@ -1403,6 +1403,7 @@ pair-or-download-subheader = Eller last ned
 pair-scan-to-download-message = Skann for å laste ned { -brand-firefox } for mobil, eller send deg sjølv ei <linkExternal>nedlastingslenke</linkExternal>.
 # This allows the user to exit the sync/pair flow, and redirects them back to Settings
 pair-not-now-button = Ikkje no
+pair-take-your-data-message = Ta med fanene, bokmerka og passorda dine overalt der du brukar { -brand-firefox }.
 # This initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-get-started-button = Kom i gang
 # This is the aria label on the QR code image
@@ -1427,16 +1428,21 @@ pair-supp-allow-cancel-link = Avbryt
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be approved from both devices to succeed
 
+# The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
+# Strings within the <span> elements appear as a subheading.
+pair-wait-for-auth-heading-text = Godkjenning er no påkravd <span>frå den andre eininga di</span>
 
 ## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
 
 pair-unsupported-header = Paring via ein app
+pair-unsupported-message = Brukte du systemkameraet? Du må pare ved hjelp av ein { -brand-firefox }-app.
 
 ## SetPassword page
 ## Third party auth users that do not have a password set yet are prompted for a
 ## password to complete their sign-in when they want to login to a service requiring it.
 
 set-password-heading = Opprett passord
+set-password-info = Synkroniseringsdataa dine er krypterte med passordet ditt for å ta vare på personvernet ditt.
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
