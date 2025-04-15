@@ -1176,6 +1176,7 @@ auth-error-159 = Ugyldig kontogjenopprettingsnøkkel
 auth-error-183-2 = Ugyldig eller utgått stadfestingskode
 auth-error-202 = Funksjonen er ikkje aktivert
 auth-error-203 = Systemet utilgjengeleg, prøv igjen seinare
+auth-error-206 = Kan ikkje opprette passord, passordet er allereie angitt
 auth-error-214 = Gjenopprettings-telefonnummeret finst allereie
 auth-error-215 = Gjenopprettings-telefonnummeret finst ikkje
 auth-error-218 = Klarte ikkje å fjerne gjenopprettingstelefonen, manglar reserve-godkjenningskodar.
@@ -1287,6 +1288,7 @@ inline-recovery-cancel-setup = Avbryt konfigurasjon
 # Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
 inline-recovery-backup-authentication-code = Reserve-godkjenningskode
 inline-recovery-confirmation-description = For å sikre at du kan få tilgang til kontoen din igjen, i tilfelle ei mista eining, skriv inn ein av dei lagra reserve-godkjenningskodane dine.
+inline-recovery-2fa-enabled-v2 = Tostegs-godkjenning er slått på
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1379,6 +1381,9 @@ auth-totp-code-required-error = Godkjenningskode påkravd
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be approved from both devices to succeed
 
+# The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
+# Strings within the <span> elements appear as a subheading.
+pair-wait-for-supp-heading-text = Godkjenning er no påkravd <span>frå den andre eininga di</span>
 
 ## PairFailure - a view which displays on failure of the device pairing process
 
