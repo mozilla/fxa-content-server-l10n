@@ -9,6 +9,9 @@ next-payment-method-header = Vælg din betalingsmetode
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = Først skal du godkende dit abonnement
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+location-header = Vælg dit land og indtast dit postnummer <p>for at fortsætte til betalingen af { $productName }</p>
+location-banner-info = Vi kunne ikke fastslå din position automatisk
 location-required-disclaimer = Vi bruger kun denne information til at beregne skatter og valutakurser.
 
 ## Page - Upgrade page
@@ -139,6 +142,7 @@ next-coupon-success-repeating = Din plan fornys automatisk til listeprisen efter
 select-tax-location-title = Position
 select-tax-location-edit-button = Rediger
 select-tax-location-save-button = Gem
+select-tax-location-continue-to-checkout-button = Fortsæt til kassen
 select-tax-location-country-code-label = Land
 select-tax-location-country-code-placeholder = Vælg dit land
 select-tax-location-error-missing-country-code = Vælg dit land
