@@ -1045,6 +1045,8 @@ tfa-row-backup-phone-delete-button = Fjern
 # Shown in tooltip on delete button or delete icon
 tfa-row-backup-phone-delete-title-v2 = Fjern gjenopprettingstelefon
 tfa-row-backup-phone-delete-restriction-v2 = Dersom du vil fjerne gjenopprettingstelefonen, legg til reserve-godkjenningskodar eller deaktivere tostegs-godkjenning først for å unngå å bli utestengd frå kontoen din.
+# "this" refers to recovery phone
+tfa-row-backup-phone-description-v2 = Dette er den enklaste gjenopprettingsmetoden dersom du ikkje kan bruke autentiseringsappen din.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
@@ -1094,10 +1096,13 @@ unit-row-recovery-key-delete-icon-button-title = Slett kontogjenopprettingsnøkk
 
 se-heading = Sekundær e-postadresse
     .header = Sekundær e-postadresse
+se-cannot-refresh-email = Beklagar, det oppstod eit problem med oppdatering av denne e-posten.
+se-cannot-resend-code-3 = Beklagar, det oppstod eit problem med å sende stadfestingskoden på nytt
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 se-set-primary-successful-2 = { $email } er no den primære e-postadressa di
+se-set-primary-error-2 = Beklagar, det oppstod eit problem med å endre den primære e-postadressa di
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
