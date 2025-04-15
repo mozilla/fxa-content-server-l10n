@@ -702,6 +702,10 @@ nav-email-comm = E-postkommunikasjon
 
 tfa-replace-code-error-3 = Det oppstod eit problem med å erstatte reserve-godkjenningskodane dine
 tfa-create-code-error = Det oppstod eit problem med å opprette reserve-godkjenningskodane dine
+tfa-replace-code-success-1 =
+    Nye kodar er oppretta. Lagre desse eingongs
+    reserve-godkjenningskodane på ein trygg stad – du treng dei for å få tilgang til 
+    kontoen din om du ikkje har mobileininga di.
 tfa-replace-code-success-alert-4 = Reserve-godkjenningskodar oppdaterte
 tfa-replace-code-1-2 = Steg 1 av 2
 tfa-replace-code-2-2 = Steg 2 av 2
@@ -782,6 +786,8 @@ delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = Synkroniserer { -brand-firefox }-data
 delete-account-product-firefox-addons = { -brand-firefox }-tillegg
 delete-account-acknowledge = Stadfest at når du slettar kontoen din:
+delete-account-chk-box-1-v3 =
+    .label = Eventuelle betalte abonnement du har, vil bli annulert (Med unntak av { -product-pocket })
 delete-account-chk-box-3 =
     .label = Aktivering på nytt med denne e-postadressa vil kanskje ikkje gjenopprette den lagra informasjonen
 delete-account-chk-box-4 =
