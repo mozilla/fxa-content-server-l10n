@@ -1127,6 +1127,7 @@ tfa-row-enabled-description = Kontoen din er beskytta av tostegs-godkjenning. Du
 # "this" refers to two-step authentication
 # Link goes to https://support.mozilla.org/kb/secure-mozilla-account-two-step-authentication
 tfa-row-enabled-info-link = Korleis dette vernar kontoen din
+tfa-row-cannot-verify-session-4 = Beklagar, det oppstod eit problem med å stadfeste økta
 tfa-row-disable-modal-heading = Deaktivere tostegs-godkjenning?
 tfa-row-disable-modal-confirm = Slå av
 # Shown in an alert bar after two-step authentication is disabled
