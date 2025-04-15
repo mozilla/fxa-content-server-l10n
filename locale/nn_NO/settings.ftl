@@ -798,6 +798,7 @@ delete-account-continue-button = Hald fram
 delete-account-password-input =
     .label = Skriv inn passord
 pocket-delete-notice = Dersom du abonnerer på Pocket Premium, sørg for at du <a>avbryt abonnementet</a> før du slettar kontoen din.
+pocket-delete-notice-marketing = For å slutte å få marknadsførings-e-postar frå Mozilla Corporation og Mozilla Foundation, må du <a>be om sletting av marknadsføringsdataa dine.</a>
 delete-account-cancel-button = Avbryt
 delete-account-delete-button-2 = Slett
 
@@ -1082,6 +1083,9 @@ rk-refresh-key-1 = Oppdater kontogjenopprettingsnøkkel
 rk-content-explain = Gjenopprett informasjonen din når du gløymer passordet ditt.
 rk-cannot-verify-session-4 = Beklagar, det oppstod eit problem med å stadfeste økta
 rk-remove-modal-heading-1 = Fjerne kontogjenopprettingsnøkkel?
+rk-remove-modal-content-1 =
+    Dersom du tilbakestiller passordet ditt, vil du ikkje kunne bruke
+    kontogjenopprettingsnøkkelen for kontoen, for å få tilgang til dataa dine. Du kan ikkje angre denne handlinga.
 rk-remove-error-2 = Klarte ikkje å fjerne kontogjenopprettingsnøkkelen din
 # Icon button to delete user's account recovery key. Text appears in tooltip on hover and as alt text for screen readers.
 unit-row-recovery-key-delete-icon-button-title = Slett kontogjenopprettingsnøkkel
