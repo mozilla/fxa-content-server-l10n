@@ -1189,6 +1189,7 @@ auth-error-114-generic = Du har prøvd for mange gongar. Prøv igjen seinare.
 #                          formatting library (momentjs) as a "time from now" and automatically includes
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Du har prøvd for mange gongar. Prøv igjen { $retryAfter }.
+auth-error-125 = Førespurnaden vart blokkert pga. tryggingsårsaker
 auth-error-129 = Ugyldig telefonnummer
 auth-error-138-2 = Ikkje stadfesta økt
 auth-error-139 = Sekundær e-postadresse må vere ulik e-postadressa til kontoen din
@@ -1229,6 +1230,7 @@ oauth-error-1000 = Noko gjekk gale. Lat att fana og prøv på nytt.
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
 cannot-create-account-header = Klarte ikkje å lage konto
+cannot-create-account-requirements-2 = Du må oppfylle visse alderskrav for å opprette ein { -product-mozilla-account }.
 # For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
 cannot-create-account-learn-more-link = Les meir
 
