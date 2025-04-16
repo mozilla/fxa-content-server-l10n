@@ -1265,6 +1265,7 @@ connect-another-device-ios-complete-setup-message = Logg inn på { -brand-firefo
 ## Users will see this page if they have local storage or cookies disabled.
 
 cookies-disabled-header = Lokal lagring og infokapslar er påkravd
+cookies-disabled-enable-prompt-2 = Slå på infokapslar og lokal lagring i nettlesaren din for å få tilgang til { -product-mozilla-account }en din. Dette vil aktivere funksjonalitet som for til dømes å hugse deg mellom økter.
 # A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
 cookies-disabled-button-try-again = Prøv igjen
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
@@ -1316,6 +1317,9 @@ inline-recovery-cancel-setup = Avbryt konfigurasjon
 # Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
 inline-recovery-backup-authentication-code = Reserve-godkjenningskode
 inline-recovery-confirmation-description = For å sikre at du kan få tilgang til kontoen din igjen, i tilfelle ei mista eining, skriv inn ein av dei lagra reserve-godkjenningskodane dine.
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+inline-recovery-confirmation-header-default = Stadfest reserve-godkjenningskoden <span>for å halde fram til kontoinnstillingane</span>
 inline-recovery-2fa-enabled-v2 = Tostegs-godkjenning er slått på
 
 ## InlineTotpSetup page
@@ -1493,6 +1497,9 @@ complete-reset-pw-header-v2 = Lag eit nytt passord
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Passord innstilt
+# An error occurred while attempting to set a new password (password reset flow)
+# Displayed in an alert bar
+complete-reset-password-error-alert = Det oppstod ein feil under innstilling av passordet ditt.
 # Link to go back and use an account recovery key before resetting the password
 complete-reset-pw-recovery-key-link = Bruk kontogjenopprettingsnøkkelen
 # A message informing the user that the password reset was successful and reminding them to create another recovery key
