@@ -1203,7 +1203,9 @@ auth-error-203 = Systemet utilgjengeleg, prøv igjen seinare
 auth-error-206 = Kan ikkje opprette passord, passordet er allereie angitt
 auth-error-214 = Gjenopprettings-telefonnummeret finst allereie
 auth-error-215 = Gjenopprettings-telefonnummeret finst ikkje
+auth-error-216 = Grensa for tekstmeldingar er nådd
 auth-error-218 = Klarte ikkje å fjerne gjenopprettingstelefonen, manglar reserve-godkjenningskodar.
+auth-error-219 = Dette telefonnummeret er registrert med for mange kontoar. Prøv eit anna nummer.
 auth-error-999 = Uventa feil
 auth-error-1001 = Innloggingsforsøket avbrote
 auth-error-1002 = Økta er slutt. Logg inn for å halde fram.
@@ -1293,6 +1295,7 @@ index-email-bounced = Stadfestings e-posten din kom i retur. Feil i e-postadress
 
 ## InlineRecoveryKeySetup page component
 
+inline-recovery-key-setup-create-error = Ops! Vi klarte ikkje å opprette kontogjenopprettingsnøkkelen din. Prøv igjen seinare.
 inline-recovery-key-setup-recovery-created = Kontogjenopprettingsnøkkel oppretta
 inline-recovery-key-setup-download-header = Sikre kontoen din
 inline-recovery-key-setup-download-subheader = Last ned og lagre han no
