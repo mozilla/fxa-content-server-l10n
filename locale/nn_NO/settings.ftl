@@ -1214,6 +1214,7 @@ auth-error-1008 = Det må vere eit nytt passord
 auth-error-1010 = Gyldig passord påkravd
 auth-error-1011 = Gyldig e-postadresse påkravd
 auth-error-1018 = Stadfestings e-posten din kom i retur. Feil i e-postadressa?
+auth-error-1020 = Feil e-postadresse? firefox.com er ikkje ei gyldig e-postteneste
 auth-error-1031 = Du må skrive inn alder for å registrere deg
 auth-error-1032 = Du må skrive inn ein gyldig alder for å registrere deg
 auth-error-1054 = Feil tostegs-godkjenningskode
