@@ -1633,7 +1633,10 @@ report-signin-header = Rapportere uautorisert inloggning?
 report-signin-body = Du har fått e-post om forsøk på å få tillgang til kontoen din. Vil du rapportere denne aktiviteten som mistenkjeleg?
 report-signin-submit-button = Rapporter aktivitet
 report-signin-support-link = Kvifor skjer dette?
+report-signin-error = Beklagar, det oppstod eit problem med å sende inn rapporten.
 signin-bounced-header = Beklagar. Vi har låst kontoen din.
+# $email (string) - The user's email.
+signin-bounced-message = E-poststadfestinga vi sende til { $email } kom i retur, og vi låste kontoen din for å verne { -brand-firefox }-dataa dine.
 signin-bounced-create-new-account = Har du ikkje lenger denne e-postadressa? Lag ein ny konto
 back = Tilbake
 
@@ -1702,6 +1705,7 @@ signin-recovery-phone-resend-code-button = Send koden på nytt
 signin-recovery-phone-resend-success = Kode sendt
 # links to https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 signin-recovery-phone-locked-out-link = Er du sperra ute?
+signin-recovery-phone-send-code-error-heading = Det oppstod eit problem med å sende ein kode
 # Follows the error message (e.g, "There was a problem sending a code")
 signin-recovery-phone-general-error-description = Prøv igjen seinare.
 signin-recovery-phone-invalid-code-error-description = Koden er ugyldig eller utgått.
