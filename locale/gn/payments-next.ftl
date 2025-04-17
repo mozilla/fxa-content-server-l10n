@@ -14,6 +14,8 @@ location-banner-info = Ndaikatúi rojuhu ne rendaite ore jeheguireínte
 ## Page - Upgrade page
 
 upgrade-page-payment-information = Jehepyme’ẽrã marandu
+# $nextInvoiceDate (number) - The date of the next invoice
+upgrade-page-acknowledgment = Pe tembiaporape iñambuéta ha ojehepyme’ẽta ndahetái ojokupytýva umi jehepyme’ẽ oútava rehe. { $startingDate } guive ojehepyme’ẽmbaitéta hepytaháicha tenondeve gotyo.
 checkout-error-boundary-retry-button = Eha’ãjey
 
 ## Error pages - /checkout and /upgrade
