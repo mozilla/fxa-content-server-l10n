@@ -9,6 +9,7 @@ next-payment-method-header = Eiporavo mba’éichapa ehepyme’ẽta
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = Emoneĩraẽva’erã ne ñemboheraguapy
+location-banner-info = Ndaikatúi rojuhu ne rendaite ore jeheguireínte
 
 ## Page - Upgrade page
 
@@ -23,6 +24,7 @@ next-iap-upgrade-contact-support = Erekokuaa gueteri ko apopyre — eñe’ẽmi
 next-payment-error-retry-button = Eha’ãjey
 next-basic-error-message = Oĩ osẽvaíva. Ikatúpiko eha’ãjey ag̃amieve.
 checkout-error-contact-support-button = Eheka Ñepytyvõha
+checkout-error-not-eligible = Ndaikatúi eñemboheraguapy ko apopyrépe; eñe’ẽmi pytyvõha aty ndive roipytyvõkuaa hag̃uáicha.
 checkout-error-contact-support = Eñe’ẽ pytyvõhára ndive roipytyvõkuaa hag̃ua.
 
 ## Processing page and Needs Input page - /checkout and /upgrade

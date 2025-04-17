@@ -1161,6 +1161,12 @@ tfa-row-cannot-disable-2 = Klarte ikkje å deaktivere tostegs-godkjenning.
 
 # This message is followed by a bulleted list
 terms-privacy-agreement-intro-2 = Ved å halde fram seier du deg samd i:
+# links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-pocket-2 = { -product-pocket } <pocketTos>tenestevilkår</pocketTos> og <pocketPrivacy>personvernfråsegn</pocketPrivacy>
+# link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-monitor-3 = { -brand-mozilla } abonnementstenester <mozSubscriptionTosLink>tenestevilkår</mozSubscriptionTosLink> og <mozSubscriptionPrivacyLink>personvernfråsegn</mozSubscriptionPrivacyLink>
+# links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-mozilla = { -product-mozilla-accounts(capitalization: "uppercase") } <mozillaAccountsTos>tenestevilkår</mozillaAccountsTos> og <mozillaAccountsPrivacy>personvernfråsegn</mozillaAccountsPrivacy>
 # links to Mozilla Account's Terms of Service and Privacy Notice
 terms-privacy-agreement-default-2 = Ved å halde fram, godtek du <mozillaAccountsTos>tenestevilkåra</mozillaAccountsTos> og <mozillaAccountsPrivacy>personvernerklæringa</mozillaAccountsPrivacy>.
 
