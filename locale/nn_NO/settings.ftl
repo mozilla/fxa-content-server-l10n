@@ -1706,6 +1706,7 @@ signin-recovery-phone-resend-success = Kode sendt
 # links to https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 signin-recovery-phone-locked-out-link = Er du sperra ute?
 signin-recovery-phone-send-code-error-heading = Det oppstod eit problem med å sende ein kode
+signin-recovery-phone-code-verification-error-heading = Det oppstod eit problem med å stadfeste koden din
 # Follows the error message (e.g, "There was a problem sending a code")
 signin-recovery-phone-general-error-description = Prøv igjen seinare.
 signin-recovery-phone-invalid-code-error-description = Koden er ugyldig eller utgått.
@@ -1792,11 +1793,16 @@ confirm-signup-code-resend-code-link = Send ny kode på e-post.
 confirm-signup-code-success-alert = Kontoen er stadfesta
 # Error displayed in tooltip.
 confirm-signup-code-is-required-error = Stadfestingskode er påkravd
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+confirm-signup-code-desktop-relay = { -brand-firefox } vil prøve å sende deg tilbake for å bruke ei e-postmaske etter at du har logga på.
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
 signup-heading = Angje passord
+signup-relay-info = Eit passord er nødvendig for å sikkert administrere dei maskerte e-postane dine og få tilgang til tryggingsverktøya til { -brand-mozilla }.
 signup-heading-relay = Opprett passord
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = Kvifor må eg opprette denne kontoen?
