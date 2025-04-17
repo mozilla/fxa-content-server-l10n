@@ -1500,10 +1500,16 @@ set-password-info = Synkroniseringsdataa dine er krypterte med passordet ditt fo
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
 
+third-party-auth-callback-message = Vent litt, du vert omdirigert til den autoriserte applikasjonen.
 
 ## AccountRecoveryConfirmKey page
 
 account-recovery-confirm-key-heading = Skriv inn kontogjenopprettingsnøkkelen din
+account-recovery-confirm-key-instruction = Denne nøkkelen gjenopprettar dei krypterte nettlesardataa dine, til dømes passord og bokmerke, frå { -brand-firefox }-serverar.
+# Prompts the user to enter their account recovery key
+# Account recovery key contains a mix of letters and numbers, no special characters
+account-recovery-confirm-key-input-label =
+    .label = Skriv inn den 32-sifra kontogjenopprettingsnøkkelen din
 # When setting up an account recovery key, users have the option of storing an account recovery key hint that is shown during password reset
 account-recovery-confirm-key-hint = Lagringstipset ditt er:
 # Clicking this button checks if the recovery key provided by the user is correct and associated with their account
