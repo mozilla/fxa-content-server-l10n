@@ -1470,6 +1470,7 @@ pair-unsupported-message = ¿Eiporu apopyvusu ra’ãnganohẽha? Eikeva’erã 
 ## password to complete their sign-in when they want to login to a service requiring it.
 
 set-password-heading = Emoheñói ñe’ẽñemi
+set-password-info = Ne mba’ekuaarã mbojuehepyre ipapapy ne ñe’ẽñemi ndive emo’ã hag̃ua nde rekoñemi.
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
