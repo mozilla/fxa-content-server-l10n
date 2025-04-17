@@ -270,11 +270,13 @@ fraudulentAccountDeletion-contact-plaintext = Eporanduséramo, eñe’ẽ ore at
 inactiveAccountFinalWarning-subject = Eguerekosevéramo nde { -product-mozilla-account }
 inactiveAccountFinalWarning-title = Ne mba’ete { -brand-mozilla } ha imba’ekuaarãnguéra oguéma
 inactiveAccountFinalWarning-preview = Eñepyrũ tembiapo ereko are hag̃ua ne mba’ete
+inactiveAccountFinalWarning-account-description = Nde { -product-mozilla-account } ojeporu ojeike hag̃ua apopyre ñemi reigua ha ñeikundaha ikatúva { -brand-firefox } sync, { -product-mozilla-monitor }, { -product-firefox-relay } ha { -product-mdn }.
 inactiveAccountFinalWarning-action = Eñepyrũ tembiapo ereko are hag̃ua ne mba’ete
 # followed by link to sign in
 inactiveAccountFinalWarning-action-plaintext = Eñepyrũ tembiapo ereko are hag̃ua ne mba’ete:
 inactiveAccountFirstWarning-subject = Aníke ehundi ne mba’ete
 inactiveAccountFirstWarning-title = ¿Ereko aresépa ne mba’ete { -brand-mozilla } ha imba’ekuaarãnguéra?
+inactiveAccountFirstWarning-account-description-v2 = Nde { -product-mozilla-account } ojeporu ojeike hag̃ua apopyre ñemi reigua ha ñeikundaha ikatúva { -brand-firefox } sync, { -product-mozilla-monitor }, { -product-firefox-relay } ha { -product-mdn }.
 inactiveAccountFirstWarning-inactive-status = Rohecha ndereikeveihague 2 arýma.
 inactiveAccountFirstWarning-action = Eñepyrũ tembiapo ereko are hag̃ua ne mba’ete
 inactiveAccountFirstWarning-preview = Eñepyrũ tembiapo ereko are hag̃ua ne mba’ete

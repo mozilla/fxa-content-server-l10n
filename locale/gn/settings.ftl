@@ -1586,6 +1586,10 @@ signin-header = Eñemboheraguapy
 signin-use-a-different-account-link = Eiporu ambuéva mba’ete
 signin-forgot-password-link = ¿Nderesaráipa ñe’ẽñemígui?
 signin-password-button-label = Ñe’ẽñemi
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-desktop-relay = { -brand-firefox } orahaukajeýta eimehápe eiporu hag̃ua ñanduti veve rovamo’ãha eñepyrũ rire tembiapo.
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
@@ -1641,6 +1645,7 @@ signin-recovery-method-code-info-v2 =
     }
 # Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
 signin-recovery-method-send-code-error-heading = Oiko apañuãi emondóvo pe ayvu ne pumbyry jeguerujeyrãme
+signin-recovery-method-send-code-error-description = Eha’ã jey ag̃amieva térã eiporu nde ñemoneĩrã jeykekoha ayvu.
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code

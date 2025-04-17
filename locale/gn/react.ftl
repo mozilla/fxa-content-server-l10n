@@ -2,6 +2,8 @@
 
 app-general-err-heading = Ñemohembiapo jejavypaite
 app-general-err-message = Oĩ osẽvaíva. Ikatúpiko eha’ãjey ag̃amieve.
+# Specific handling for issues when bad or missing query parameters are detected
+app-query-parameter-err-heading = Mba’ejerure oiko’ỹva: Ñeporandu ndoikóiva
 
 ## FxA React - Strings shared between multiple FxA products for application footer
 
