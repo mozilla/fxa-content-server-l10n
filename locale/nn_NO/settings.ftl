@@ -1536,7 +1536,7 @@ reset-password-complete-banner-message = Ikkje gløym å generere ein ny kontogj
 # Message to user after they were redirected to the Mozilla account sign-in page in a new browser
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
-complete-reset-password-desktop-relay = { -brand-firefox } vil prøve å sende deg tilbake for å bruke ei e-postmaske etter at du har logga på.
+complete-reset-password-desktop-relay = { -brand-firefox } vil prøve å sende deg tilbake for å bruke eit e-postalias etter at du har logga på.
 
 ## Confirm Reset Password With Code
 
@@ -1621,7 +1621,7 @@ signin-password-button-label = Passord
 # Message to user after they were redirected to the Mozilla account sign-in page in a new browser
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
-signin-desktop-relay = { -brand-firefox } vil prøve å sende deg tilbake for å bruke ei e-postmaske etter at du har logga på.
+signin-desktop-relay = { -brand-firefox } vil prøve å sende deg tilbake for å bruke eit e-postalias etter at du har logga på.
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
@@ -1667,6 +1667,12 @@ signin-recovery-method-header = Logg inn
 signin-recovery-method-subheader = Vel ein gjenopprettingsmetode
 signin-recovery-method-phone = Gjenopprettingstelefon
 signin-recovery-method-code-v2 = Reserve-godkjenningskodar
+# Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
+signin-recovery-method-code-info-v2 =
+    { $numBackupCodes ->
+        [one] { $numBackupCodes }-kode er att
+       *[other] { $numBackupCodes }-kodar er att
+    }
 # Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
 signin-recovery-method-send-code-error-heading = Det oppstod eit problem med å sende ein kode til gjenopprettingstelefonen din
 
@@ -1677,6 +1683,8 @@ signin-recovery-method-send-code-error-heading = Det oppstod eit problem med å 
 
 signin-recovery-code-heading = Logg inn
 signin-recovery-code-sub-heading = Skriv inn reserve-godkjenningskode
+# codes here refers to backup authentication codes
+signin-recovery-code-instruction-v3 = Skriv inn ein av eingongskodane du lagra då du sette opp tostegs-godkjenning.
 # code here refers to backup authentication code
 signin-recovery-code-input-label-v2 = Skriv inn 10-sifra kode
 # Form button to confirm if the backup authentication code entered by the user is valid
@@ -1739,6 +1747,10 @@ signin-token-code-resend-code-link = Send ny kode på e-post.
 # Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = Stadfestingskode påkravd
 signin-token-code-resend-error = Noko gjekk gale. Klarte ikkje å sende ein ny kode.
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-token-code-instruction-desktop-relay = { -brand-firefox } vil prøve å sende deg tilbake for å bruke eit e-postalias etter at du har logga på.
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1754,6 +1766,10 @@ signin-totp-code-other-account-link = Bruk ein annan konto
 signin-totp-code-recovery-code-link = Har du poblem med å taste inn koden?
 # Error displayed in a tooltip when the form is submitted without a code
 signin-totp-code-required-error = Godkjenningskode påkravd
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-totp-code-desktop-relay = { -brand-firefox } vil prøve å sende deg tilbake for å bruke eit e-postalias etter at du har logga på.
 
 ## Signin Unblock Page
 ## Page shown when signin has been blocked by rate limiting (too many requests)
@@ -1769,6 +1785,10 @@ signin-unblock-code-incorrect-length = Godkjenningskoden må innehalde 8 teikn
 signin-unblock-code-incorrect-format-2 = Godkjenningskoden kan berre innehalde bokstavar og/eller tal
 signin-unblock-resend-code-button = Ikkje i innboksen eller spam-mappa? Send på nytt
 signin-unblock-support-link = Kvifor skjer dette?
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-unblock-desktop-relay = { -brand-firefox } vil prøve å sende deg tilbake for å bruke eit e-postalias etter at du har logga på.
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -1796,7 +1816,7 @@ confirm-signup-code-is-required-error = Stadfestingskode er påkravd
 # Message to user after they were redirected to the Mozilla account sign-in page in a new browser
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
-confirm-signup-code-desktop-relay = { -brand-firefox } vil prøve å sende deg tilbake for å bruke ei e-postmaske etter at du har logga på.
+confirm-signup-code-desktop-relay = { -brand-firefox } vil prøve å sende deg tilbake for å bruke eit e-postalias etter at du har logga på.
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
