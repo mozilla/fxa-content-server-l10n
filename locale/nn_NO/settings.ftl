@@ -1532,6 +1532,11 @@ complete-reset-pw-recovery-key-link = Bruk kontogjenopprettingsnøkkelen
 # A message informing the user that the password reset was successful and reminding them to create another recovery key
 # Displayed on the sign in page
 reset-password-complete-banner-heading = Passordet er tilbakestilt.
+reset-password-complete-banner-message = Ikkje gløym å generere ein ny kontogjenopprettingsnøkkel frå { -product-mozilla-account }-innstillingane for å hindre framtidige påloggingsproblem.
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+complete-reset-password-desktop-relay = { -brand-firefox } vil prøve å sende deg tilbake for å bruke ei e-postmaske etter at du har logga på.
 
 ## Confirm Reset Password With Code
 
@@ -1554,6 +1559,7 @@ confirm-reset-password-otp-different-account-link = Bruk ein annan konto
 
 confirm-totp-reset-password-header = Tilbakestill passord
 confirm-totp-reset-password-subheader-v2 = Skriv inn tostegs-godkjenningskode
+confirm-totp-reset-password-instruction-v2 = Sjekk <strong>autentiseringsappen</strong> for å tilbakestille passordet ditt.
 confirm-totp-reset-password-trouble-code = Har du poblem med å taste inn koden?
 confirm-totp-reset-password-confirm-button = Stadfest
 confirm-totp-reset-password-input-label-v2 = Skriv inn 6-sifra kode
@@ -1564,6 +1570,9 @@ confirm-recovery-code-reset-password-trouble-code = Tilbake
 ## ResetPassword start page
 
 password-reset-flow-heading = Tilbakestill passordet ditt
+password-reset-body-2 =
+    Vi ber om eit par ting berre du veit for å behalde kontoen din
+    sikker.
 password-reset-email-input =
     .label = Skriv inn e-postadressa di
 password-reset-submit-button-2 = Hald fram
@@ -1575,6 +1584,11 @@ reset-password-complete-header = Passordet ditt er tilbakestilt
 reset-password-confirmed-cta = Hald fram til { $serviceName }
 reset-password-with-recovery-key-verified-page-title = Passordet er tilbakestilt
 reset-password-complete-new-password-saved = Nytt passord lagra!
+reset-password-complete-recovery-key-created = Ny kontogjenopprettingsnøkkel oppretta. Last ned og lagre han no.
+reset-password-complete-recovery-key-download-info =
+    Denne nøkkelen er viktig for
+    datagjenoppretting viss du gløymer passordet ditt. <b>Last ned og lagre han sikkert
+    no, sidan du ikkje vil få tilgang til denne sida igjen seinare.</b>
 
 ## CompleteSignin component
 
@@ -1604,6 +1618,10 @@ signin-header = Logg inn
 signin-use-a-different-account-link = Bruk ein annan konto
 signin-forgot-password-link = Gløymt passordet?
 signin-password-button-label = Passord
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-desktop-relay = { -brand-firefox } vil prøve å sende deg tilbake for å bruke ei e-postmaske etter at du har logga på.
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
