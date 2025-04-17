@@ -1220,6 +1220,8 @@ auth-error-1032 = Du må skrive inn ein gyldig alder for å registrere deg
 auth-error-1054 = Feil tostegs-godkjenningskode
 auth-error-1056 = Ugyldig reserve-godkjenningskode
 auth-error-1062 = Ugyldig omdirigering
+# Shown when a user tries to sign up with an email address with a domain that doesn't receive emails
+auth-error-1064 = Feil e-postadresse? { $domain } er ikkje ei gyldig e-postteneste
 auth-error-1066 = E-postmasker kan ikkje brukast til å opprette ein konto.
 auth-error-1067 = Feilksriven e-postadresse?
 # Displayed when we want to reference a user's previously set up recovery phone
@@ -1300,6 +1302,7 @@ inline-recovery-key-setup-create-error = Ops! Vi klarte ikkje å opprette kontog
 inline-recovery-key-setup-recovery-created = Kontogjenopprettingsnøkkel oppretta
 inline-recovery-key-setup-download-header = Sikre kontoen din
 inline-recovery-key-setup-download-subheader = Last ned og lagre han no
+inline-recovery-key-setup-download-info = Oppbevar denne nøkkelen ein stad du vil hugse - du vil ikkje kunne kome tilbake til denne sida seinare.
 inline-recovery-key-setup-hint-header = Tryggingstilråding
 
 ## InlineRecoverySetup page
@@ -1309,6 +1312,12 @@ inline-recovery-key-setup-hint-header = Tryggingstilråding
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
 inline-recovery-setup-header-default = Stadfest reserve-godkjenningskoden <span>for å halde fram til kontoinnstillingane</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# $serviceName - the name of the service which is using Mozilla accounts to authenticate
+inline-recovery-setup-header = Lagre reserve-godkjenningskodar <span>for å halde fram til { $serviceName }</span>
+# Message refers to the recovery codes depicted below in the view
+inline-recovery-setup-message = Oppbevar desse eingongskodane på ein trygg stad, og bruk dei når du ikkje har tilgang til mobileininga di.
 # This button allows a user to copy their recovery codes to their clipboard
 # This button allows the user to cancel setup of two-factor authentication for their account
 inline-recovery-cancel-button = Avbryt
@@ -1324,6 +1333,10 @@ inline-recovery-confirmation-description = For å sikre at du kan få tilgang ti
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
 inline-recovery-confirmation-header-default = Stadfest reserve-godkjenningskoden <span>for å halde fram til kontoinnstillingane</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# $serviceName - the name of the service which is using Mozilla accounts to authenticate
+inline-recovery-confirmation-header = Stadfest reserve-godkjenningskoden <span>for å halde fram til { $serviceName }</span>
 inline-recovery-2fa-enabled-v2 = Tostegs-godkjenning er slått på
 
 ## InlineTotpSetup page
@@ -1331,6 +1344,8 @@ inline-recovery-2fa-enabled-v2 = Tostegs-godkjenning er slått på
 
 inline-totp-setup-cancel-setup-button = Avbryt konfigurasjon
 inline-totp-setup-continue-button = Hald fram
+# <authenticationAppsLink> links to a list of security apps
+inline-totp-setup-add-security-link = Legg til eit lag med sikkerheit til kontoen din ved å krevje godkjenningskodar frå ein av <authenticationAppsLink>desse autentiseringsappane</authenticationAppsLink>.
 #  The <enable2StepDefaultSpan> elements are just visual separation here
 inline-totp-setup-enable-two-step-authentication-default-header-2 = Aktiver tostegs-godkjenning <span>for å halde fram til kontoinnstillingane</span>
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
