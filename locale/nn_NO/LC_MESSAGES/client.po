@@ -2,17 +2,12 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-05 20:09+0000\n"
-"PO-Revision-Date: 2025-02-02 10:06+0000\n"
-"Last-Translator: Bjørn I. <bjorni.svindseth@yahoo.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nn_NO\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pontoon\n"
+"Generated-By: Pontoon\n"
 
 #: .es5/views/confirm_reset_password.js:170
 msgid "Password reset"
@@ -1273,7 +1268,7 @@ msgstr "Kan du ikkje skanne koden?"
 
 #: .es5/templates/inline_totp_setup.mustache:14 .es5/templates/inline_totp_setup.mustache:18
 msgid "Once complete, it will begin generating security codes for you to enter."
-msgstr "Ved fullføring, begynner han å generere sikkerheitskoder som du kan skkrive inn."
+msgstr "Ved fullføring, byrjar han å generere sikkerheitskoder som du kan skrive inn."
 
 #: .es5/templates/inline_totp_setup.mustache:16
 msgid "Type this secret key into your authentication app."

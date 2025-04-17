@@ -1366,6 +1366,8 @@ inline-totp-setup-enter-key-or-use-qr-instructions = Skriv inn den hemmelege nø
 # The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
 inline-totp-setup-use-qr-or-enter-key-instructions = Skann QR-koden i autentiseringsappen din, og skriv deretter inn autentiseringskoden han gir. <toggleToManualModeButton>Kan du ikkje skanne koden?</toggleToManualModeButton>
 # The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-on-completion-description = Ved fullføring, byrjar han å generere godkjenningskodar som du kan skrive inn.
+# The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = godkjenningskode
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-code-required-error = Godkjenningskode påkravd
