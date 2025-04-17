@@ -1637,6 +1637,8 @@ report-signin-error = Beklagar, det oppstod eit problem med å sende inn rapport
 signin-bounced-header = Beklagar. Vi har låst kontoen din.
 # $email (string) - The user's email.
 signin-bounced-message = E-poststadfestinga vi sende til { $email } kom i retur, og vi låste kontoen din for å verne { -brand-firefox }-dataa dine.
+# linkExternal is button which logs the user's action and navigates them to mozilla support
+signin-bounced-help = Dersom dette er en gyldig e-postadresse, <linkExternal>gi oss beskjed</linkExternal>, så kan vi hjelpe deg med å låse opp kontoen din.
 signin-bounced-create-new-account = Har du ikkje lenger denne e-postadressa? Lag ein ny konto
 back = Tilbake
 
@@ -1665,6 +1667,7 @@ signin-push-code-confirm-link-error = Lenka er skadd. Prøv igjen.
 
 signin-recovery-method-header = Logg inn
 signin-recovery-method-subheader = Vel ein gjenopprettingsmetode
+signin-recovery-method-details = La oss forsikre oss om at det er du som brukar gjenopprettingsmetodane dine.
 signin-recovery-method-phone = Gjenopprettingstelefon
 signin-recovery-method-code-v2 = Reserve-godkjenningskodar
 # Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
@@ -1675,6 +1678,7 @@ signin-recovery-method-code-info-v2 =
     }
 # Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
 signin-recovery-method-send-code-error-heading = Det oppstod eit problem med å sende ein kode til gjenopprettingstelefonen din
+signin-recovery-method-send-code-error-description = Prøv igjen seinare eller bruk reserve-godkjenningskodane dine.
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
@@ -1707,6 +1711,9 @@ signin-recovery-code-use-phone-failure-description = Prøv igjen seinare.
 signin-recovery-phone-flow-heading = Logg inn
 # A recovery code in context of this page is a one time code sent to the user's phone
 signin-recovery-phone-heading = Skriv inn gjenopprettingskode
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+signin-recovery-phone-instruction-v3 = Ein 6-sifra kode vart send til telefonnummeret som sluttar på <span>{ $lastFourPhoneDigits }</span> via tekstmelding. Denne koden går ut etter 5 minutt. Ikkje del denne koden med nokon.
 signin-recovery-phone-input-label = Skriv inn 6-sifra kode
 signin-recovery-phone-code-submit-button = Stadfest
 signin-recovery-phone-resend-code-button = Send koden på nytt
