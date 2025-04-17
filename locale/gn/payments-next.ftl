@@ -10,6 +10,7 @@ next-payment-method-header = Eiporavo mba’éichapa ehepyme’ẽta
 payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = Emoneĩraẽva’erã ne ñemboheraguapy
 location-banner-info = Ndaikatúi rojuhu ne rendaite ore jeheguireínte
+location-required-disclaimer = Roiporu ko marandu roikuaa hag̃ua impuesto ha viru rehegua.
 
 ## Page - Upgrade page
 
@@ -38,6 +39,8 @@ next-payment-processing-message = Ikatúiko eha’ãrõ romongu’e aja ne jehep
 ## Common strings used in multiple checkout pages
 
 next-payment-confirmation-thanks-heading-account-exists = ¡Aguyje, ko’ág̃a ehecha ne ñanduti veve!
+# $email (String) - The user's email.
+payment-confirmation-thanks-subheading-account-exists-2 = Og̃uahẽta ndéve ñanduti veve { $email } rupive eñemboheraguapyhague ha mba’eichaitépa ehepyme’ẽta.
 next-payment-confirmation-order-heading = Mba’emimi jerurepyre
 # $invoiceNumber (String) - Invoice number of the successful payment
 next-payment-confirmation-invoice-number = Kuatiañemungue papapy { $invoiceNumber }
