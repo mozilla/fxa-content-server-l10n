@@ -23,6 +23,7 @@ coupon-enter-code =
 
 ## Component - Header
 
+brand-name-mozilla-logo = Тамғаи «{ -brand-mozilla }»
 
 ## Component - NewUserEmailForm
 
@@ -154,9 +155,6 @@ brand-name-apple-app-store-2 = { -app-store }
 ## For example, a Mozilla VPN subscription charged monthly would appear as: Mozilla VPN (Monthly)
 ## Variables:
 ##   $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
-
-
-##
 
 
 ## Routes - Subscriptions - Cancel
