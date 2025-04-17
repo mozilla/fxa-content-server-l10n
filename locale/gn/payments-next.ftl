@@ -132,6 +132,7 @@ next-coupon-success-repeating = Nde porupy hekopyahúta ijehegui { $couponDurati
 select-tax-location-title = Tendaite
 select-tax-location-edit-button = Mbosako’i
 select-tax-location-save-button = Ñongatu
+select-tax-location-continue-to-checkout-button = Eku’ejey ejogua hag̃ua
 select-tax-location-country-code-label = Tetã
 select-tax-location-country-code-placeholder = Eiporavo neretã
 select-tax-location-error-missing-country-code = Ikatúpiko eiporavo neretã
