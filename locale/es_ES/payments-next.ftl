@@ -7,9 +7,13 @@ continue-signin-with-apple-button = Seguir con { -brand-apple }
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = Primero tendrás que aprobar tu suscripción
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+location-header = Selecciona tu país e introduce tu código postal <p>para continuar con el pago de { $productName }</p>
+location-banner-info = No hemos podido detectar tu ubicación automáticamente
 
 ## Page - Upgrade page
 
+upgrade-page-payment-information = Información de pago
 
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -18,6 +22,8 @@ next-payment-error-manage-subscription-button = Administrar mi suscripción
 next-iap-upgrade-contact-support = Todavía puedes obtener este producto — por favor contacta con el equipo de soporte para que podamos ayudarte.
 next-payment-error-retry-button = Volver a intentarlo
 next-basic-error-message = Algo ha salido mal. Por favor, inténtalo de nuevo más tarde.
+checkout-error-contact-support-button = Contactar con la asistencia
+checkout-error-contact-support = Por favor contacta con el servicio de asistencia para que podamos ayudarte.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
