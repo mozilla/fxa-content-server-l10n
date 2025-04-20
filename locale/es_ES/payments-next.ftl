@@ -1,5 +1,7 @@
 ## Page
 
+# This string appears as a separation between the two sign-in options, "Enter your email"(signin-form-email-input) "or"(this string) "Continue with Google"(continue-signin-with-google-button) / "Continue with Apple"(continue-signin-with-apple-button)
+checkout-signin-options-or = o
 continue-signin-with-google-button = Seguir con { -brand-google }
 continue-signin-with-apple-button = Seguir con { -brand-apple }
 # This message is used to indicate the second step in a multi step process.
@@ -140,3 +142,7 @@ upgrade-purchase-details-prorated-upgrade = Actualización prorrateada
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
 
 upgrade-purchase-details-new-plan-daily = { $productName } (diario)
+upgrade-purchase-details-new-plan-weekly = { $productName } (semanal)
+upgrade-purchase-details-new-plan-monthly = { $productName } (mensual)
+upgrade-purchase-details-new-plan-halfyearly = { $productName } (6 meses)
+upgrade-purchase-details-new-plan-yearly = { $productName } (anual)

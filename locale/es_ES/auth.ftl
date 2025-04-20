@@ -455,6 +455,7 @@ postSigninRecoveryPhone-preview = Confirmar la actividad de la cuenta
 postSigninRecoveryPhone-title = Tu teléfono de recuperación fue utilizado para iniciar sesión
 postSigninRecoveryPhone-description = Si no lo hiciste tu, debes cambiar tu contraseña inmediatamente para mantener tu cuenta segura.
 postSigninRecoveryPhone-device = Has iniciado sesión desde:
+postSigninRecoveryPhone-action = Administrar cuenta
 postVerify-sub-title-3 = ¡Estamos encantados de verte!
 postVerify-title-2 = ¿Quieres ver la misma pestaña en dos dispositivos?
 postVerify-description-2 = ¡Es fácil! Simplemente instala { -brand-firefox } en otro dispositivo e inicia sesión para sincronizar. ¡Parece magia!

@@ -293,6 +293,10 @@ recovery-phone-image-description =
     .aria-label = Dispositivo móvil que recibe un código por mensaje de texto.
 recovery-phone-code-image-description =
     .aria-label = Código recibido en un dispositivo móvil.
+backup-recovery-phone-image-aria-label =
+    .aria-label = Dispositivo móvil con capacidad para enviar mensajes de texto SMS
+backup-authentication-codes-image-aria-label =
+    .aria-label = Pantalla de dispositivo con códigos
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -323,6 +327,8 @@ input-password-sr-only-now-hidden = Tu contraseña ahora está oculta.
 
 ## Phone number component
 
+# This is an aria-label available to screen readers for a selection list that includes country flags, country name and country code
+input-phone-number-country-list-aria-label = Elige un país
 input-phone-number-enter-number = Introduce el número de teléfono
 input-phone-number-country-united-states = Estados Unidos
 input-phone-number-country-canada = Canadá
@@ -561,6 +567,9 @@ dc-learn-more = Saber más
 # DropDownAvatarMenu component
 
 drop-down-menu-title-2 = menú { -product-mozilla-account }
+# This is displayed in the Settings menu after user's click on their profile icon.
+# Following this string on a new line will be their display name (user's name or email)
+drop-down-menu-signed-in-as-v2 = Sesión iniciada como
 drop-down-menu-sign-out = Cerrar sesión
 drop-down-menu-sign-out-error-2 = Lo sentimos, ha surgido un problema al cerrar tu sesión
 
@@ -614,10 +623,34 @@ flow-recovery-key-info-cancel-link = Cancelar
 
 ## FlowSetupPhoneConfirmCode
 
+# verification code refers to a code sent by text message to confirm phone number ownership
+# and complete setup
+flow-setup-phone-confirm-code-heading = Introduce el código de verificación
+# $phoneNumber is a partially obfuscated phone number with only the last 4 digits showing (e.g., *** *** 1234)
+# span element applies formatting to ensure the number is always displayed left-to-right
+flow-setup-phone-confirm-code-instruction = Se envió un código de 6 dígitos a <span>{ $phoneNumber }</span> por SMS. Este código caduca en 5 minutos.
+flow-setup-phone-confirm-code-input-label = Introduce el código de 6 dígitos
 flow-setup-phone-confirm-code-button = Confirmar
+# button to resend a code by text message to the user's phone
+# followed by a button to resend a code
+flow-setup-phone-confirm-code-expired = ¿Código expirado?
+flow-setup-phone-confirm-code-resend-code-button = Reenviar código
+flow-setup-phone-confirm-code-resend-code-success = Código enviado
+flow-setup-phone-confirm-code-success-message-v2 = Teléfono de recuperación añadido
 
 ## FlowSetupPhoneConfirmCode
 
+flow-setup-phone-submit-number-heading = Verifica tu número de teléfono
+# The code is a 6-digit code send by text message/SMS
+flow-setup-phone-verify-number-instruction = Recibirás un mensaje de texto de { -brand-mozilla } con un código para verificar tu número. No compartas este código con nadie.
+# The initial rollout of the recovery phone is only available to users with US and Canada mobile phone numbers.
+# Voice over Internet Protocol (VoIP), is a technology that uses a broadband Internet connection instead of a regular (or analog) phone line to make calls.
+# Phone mask services (for example Relay) provide a temporary virtual number to avoid providing a real phone number.
+# Both VoIP and phone masks can be unreliable for one-time-passcode (OTP) verification
+flow-setup-phone-submit-number-info-message-v2 = El teléfono de recuperación sólo está disponible en Estados Unidos y Canadá. No se recomiendan los números VoIP ni las máscaras telefónicas.
+flow-setup-phone-submit-number-legal = Al proporcionar tu número, aceptas que lo almacenemos para poder enviarte mensajes de texto únicamente para verificar tu cuenta. Pueden aplicarse tarifas por mensajes y datos.
+# cliking on the button sends a code by text message to the phone number typed in by the user
+flow-setup-phone-submit-number-button = Enviar código
 
 ## HeaderLockup component, the header in account settings
 
@@ -675,6 +708,7 @@ tfa-replace-code-success-1 =
     Se han creado nuevos códigos. Guarda estos códigos de
     autenticación de respaldo de un solo uso en un lugar seguro; los necesitarás para acceder a tu cuenta si no
     cuentas con tu dispositivo móvil.
+tfa-replace-code-success-alert-4 = Códigos de autenticación de respaldo actualizados
 tfa-replace-code-1-2 = Paso 1 de 2
 tfa-replace-code-2-2 = Paso 2 de 2
 tfa-enter-code-to-confirm-v2 = Por favor, escribe uno de tus nuevos códigos de autenticación de respaldo para confirmar que los has guardado. Tus códigos de autenticación de respaldo antiguos se desactivarán una vez que completes este paso.
@@ -811,6 +845,13 @@ recent-activity-account-password-changed = Contraseña cambiada
 recent-activity-account-secondary-email-added = Dirección de correo secundario añadida
 recent-activity-account-secondary-email-removed = Dirección de correo secundario eliminada
 recent-activity-account-emails-swapped = Correos electrónicos primario y secundario intercambiados
+recent-activity-session-destroy = Desconectado de la sesión
+recent-activity-account-recovery-phone-send-code = Código de recuperación del teléfono enviado
+recent-activity-account-recovery-phone-setup-complete = Se ha completado la configuración del teléfono de recuperación
+recent-activity-account-recovery-phone-signin-complete = Se ha completado el inicio de sesión con el teléfono de recuperación
+recent-activity-account-recovery-phone-signin-failed = Error al iniciar sesión con el teléfono de recuperación
+recent-activity-account-recovery-phone-removed = Teléfono de recuperación eliminado
+recent-activity-account-recovery-codes-replaced = Códigos de recuperación reemplazados
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Otra actividad de la cuenta
 
@@ -825,9 +866,20 @@ recovery-key-create-back-button-title = Volver a los ajustes
 ## PageRecoveryPhoneRemove
 ## Users reach this page from account settings when they want to remove a backup phone number.
 
+recovery-phone-remove-header = Eliminar el número de teléfono de recuperación
+# Variables:
+#   $formattedFullPhoneNumber (String) - the user's full phone number
+settings-recovery-phone-remove-info = Esto eliminará <strong>{ $formattedFullPhoneNumber }</strong> como tu teléfono de recuperación.
+settings-recovery-phone-remove-recommend = Te recomendamos que mantengas este método porque es más fácil que guardar códigos de autenticación de respaldo.
+# "Saved backup authentication codes" refers to previously saved backup authentication codes
+settings-recovery-phone-remove-recovery-methods = Si lo eliminas, asegúrate de que aún tengas guardados los códigos de autenticación de respaldo. <linkExternal>Comparar métodos de recuperación</linkExternal>
+settings-recovery-phone-remove-button = Eliminar número de teléfono
+settings-recovery-phone-remove-cancel = Cancelar
+settings-recovery-phone-remove-success = Teléfono de recuperación eliminado
 
 ## PageSetupRecoveryPhone
 
+page-setup-recovery-phone-heading = Añadir teléfono de recuperación
 
 ## Add secondary email page
 
@@ -1556,16 +1608,48 @@ signin-recovery-method-header = Iniciar sesión
 
 signin-recovery-code-heading = Iniciar sesión
 signin-recovery-code-sub-heading = Introduce el código de autenticación de respaldo
+# codes here refers to backup authentication codes
+signin-recovery-code-instruction-v3 = Introduce uno de los códigos de un solo uso que guardaste al configurar la autenticación en dos pasos.
+# code here refers to backup authentication code
+signin-recovery-code-input-label-v2 = Introduce el código de 10 caracteres
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Confirmar
+# Link to go to the page to use recovery phone instead
+signin-recovery-code-phone-link = Usar teléfono de recuperación
 # External link for support if the user can't use two-step autentication or a backup authentication code
 # https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 signin-recovery-code-support-link = ¿Estás bloqueado?
 # Error displayed in a tooltip when form is submitted witout a code
 signin-recovery-code-required-error = Se requiere un código de autenticación de respaldo
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-recovery-code-use-phone-failure = Se ha producido un problema al enviar un código a tu teléfono de recuperación
+signin-recovery-code-use-phone-failure-description = Por favor, vuelve a intentarlo más tarde.
 
 ## SigninRecoveryPhone page
 
+signin-recovery-phone-flow-heading = Iniciar sesión
+# A recovery code in context of this page is a one time code sent to the user's phone
+signin-recovery-phone-heading = Introducir código de recuperación
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+signin-recovery-phone-instruction-v3 = Se ha enviado un código de 6 dígitos por SMS al número de teléfono que termina en <span>{ $lastFourPhoneDigits }</span>. Este código caduca en 5 minutos. No lo compartas con nadie.
+signin-recovery-phone-input-label = Introduce el código de 6 dígitos
+signin-recovery-phone-code-submit-button = Confirmar
+signin-recovery-phone-resend-code-button = Reenviar código
+signin-recovery-phone-resend-success = Código enviado
+# links to https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+signin-recovery-phone-locked-out-link = ¿Estás bloqueado?
+signin-recovery-phone-send-code-error-heading = Se ha producido un problema al enviar un código.
+signin-recovery-phone-code-verification-error-heading = Se ha producido un problema al verificar tu código.
+# Follows the error message (e.g, "There was a problem sending a code")
+signin-recovery-phone-general-error-description = Por favor, vuelve a intentarlo más tarde.
+signin-recovery-phone-invalid-code-error-description = El código no es válido o ha expirado.
+signin-recovery-phone-invalid-code-error-link = ¿Utilizar códigos de autenticación de respaldo en su lugar?
+# "Limits" refers to potential restrictions on how often a recovery phone number can be used for signing in within a given time period.
+# If limits are reached, users may have to use an alternate two-step authentication method or wait until the restriction period is over.
+signin-recovery-phone-success-message = Se ha iniciado sesión correctamente. Se pueden aplicar límites si vuelves a usar tu teléfono de recuperación.
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
