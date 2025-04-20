@@ -102,6 +102,7 @@ next-new-user-subscribe-product-assurance = Utilizamos tu dirección únicamente
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+plan-price-interval-halfyearly = { $amount } cada 6 meses
 
 ## Component - SubscriptionTitle
 
@@ -109,6 +110,7 @@ next-subscription-create-title = Configura tu suscripción
 next-subscription-success-title = Confirmación de la suscripción
 next-subscription-processing-title = Confirmando la suscripción…
 next-subscription-error-title = Error al confirmar la suscripción…
+subscription-title-plan-change-heading = Revisa tu cambio
 next-sub-guarantee = 30 días de garantía de devolución de dinero
 
 ## Component - TermsAndPrivacy
@@ -119,10 +121,22 @@ next-subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capita
 next-terms = Términos del servicio
 next-privacy = Aviso de privacidad
 next-terms-download = Descargar términos
+terms-and-privacy-stripe-label = { -brand-mozilla } usa { -brand-name-stripe } para el procesamiento seguro de pagos.
+terms-and-privacy-stripe-link = Política de privacidad de { -brand-name-stripe }
+terms-and-privacy-paypal-label = { -brand-mozilla } usa { -brand-paypal } para el procesamiento seguro de pagos.
+terms-and-privacy-paypal-link = Política de privacidad de { -brand-paypal }
+terms-and-privacy-stripe-and-paypal-label = { -brand-mozilla } usa { -brand-name-stripe } y { -brand-paypal } para el procesamiento seguro de pagos.
 
 ## Component - UpdatedPurchaseDetails
 
+upgrade-purchase-details-current-plan-label = Plan actual
+upgrade-purchase-details-new-plan-label = Nuevo plan
+upgrade-purchase-details-promo-code = Código promocional
+upgrade-purchase-details-tax-label = Impuestos y comisiones
+upgrade-purchase-details-new-total-label = Nuevo total
+upgrade-purchase-details-prorated-upgrade = Actualización prorrateada
 
 ## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
 
+upgrade-purchase-details-new-plan-daily = { $productName } (diario)
