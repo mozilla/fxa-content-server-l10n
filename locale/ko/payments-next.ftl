@@ -1,6 +1,8 @@
 ## Page
 
 checkout-signin-or-create = 1. { -product-mozilla-account }를 생성하거나 로그인하세요
+# This string appears as a separation between the two sign-in options, "Enter your email"(signin-form-email-input) "or"(this string) "Continue with Google"(continue-signin-with-google-button) / "Continue with Apple"(continue-signin-with-apple-button)
+checkout-signin-options-or = 또는
 continue-signin-with-google-button = { -brand-google }로 계속하기
 continue-signin-with-apple-button = { -brand-apple }로 계속하기
 next-payment-method-header = 지불 방법 선택
