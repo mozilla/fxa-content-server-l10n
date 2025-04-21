@@ -37,6 +37,7 @@ subplat-terms-policy = Шартҳо ва сиёсати барҳамдиҳӣ
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Бекор кардани обуна
 subplat-cancel-plaintext = { subplat-cancel }:
+subplat-reactivate = Аз нав барқарор кардани обуна
 subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-privacy-policy = Сиёсати махфияти «{ -brand-mozilla }»
 subplat-privacy-policy-2 = Огоҳномаи махфияти «{ -product-mozilla-accounts(capitalization: "uppercase") }»
