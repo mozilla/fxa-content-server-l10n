@@ -2,6 +2,8 @@
 
 app-general-err-heading = Ogólny błąd aplikacji
 app-general-err-message = Coś się nie powiodło. Proszę spróbować ponownie później.
+# Specific handling for issues when bad or missing query parameters are detected
+app-query-parameter-err-heading = Błędne żądanie: nieprawidłowe parametry zapytania
 
 ## FxA React - Strings shared between multiple FxA products for application footer
 
