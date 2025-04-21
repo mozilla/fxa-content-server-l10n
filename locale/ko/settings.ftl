@@ -329,6 +329,9 @@ input-password-sr-only-now-hidden = 이제 비밀번호가 숨겨졌습니다.
 
 # This is an aria-label available to screen readers for a selection list that includes country flags, country name and country code
 input-phone-number-country-list-aria-label = 국가 선택
+input-phone-number-enter-number = 전화번호 입력
+input-phone-number-country-united-states = 미국
+input-phone-number-country-canada = 캐나다
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = 뒤로
 
@@ -560,6 +563,9 @@ dc-learn-more = 자세히 알아보기
 # DropDownAvatarMenu component
 
 drop-down-menu-title-2 = { -product-mozilla-account } 메뉴
+# This is displayed in the Settings menu after user's click on their profile icon.
+# Following this string on a new line will be their display name (user's name or email)
+drop-down-menu-signed-in-as-v2 = 로그인 됨
 drop-down-menu-sign-out = 로그아웃
 drop-down-menu-sign-out-error-2 = 로그아웃 중 문제가 발생했습니다.
 
@@ -613,9 +619,34 @@ flow-recovery-key-info-cancel-link = 취소
 
 ## FlowSetupPhoneConfirmCode
 
+# verification code refers to a code sent by text message to confirm phone number ownership
+# and complete setup
+flow-setup-phone-confirm-code-heading = 인증 코드 입력
+# $phoneNumber is a partially obfuscated phone number with only the last 4 digits showing (e.g., *** *** 1234)
+# span element applies formatting to ensure the number is always displayed left-to-right
+flow-setup-phone-confirm-code-instruction = <span>{ $phoneNumber }</span>로 6자리 숫자 코드가 문자로 전송되었습니다. 이 코드는 5분 후에 만료됩니다.
+flow-setup-phone-confirm-code-input-label = 6자리 숫자 코드 입력
+flow-setup-phone-confirm-code-button = 확인
+# button to resend a code by text message to the user's phone
+# followed by a button to resend a code
+flow-setup-phone-confirm-code-expired = 코드가 만료되었나요?
+flow-setup-phone-confirm-code-resend-code-button = 코드 재전송
+flow-setup-phone-confirm-code-resend-code-success = 코드 전송됨
+flow-setup-phone-confirm-code-success-message-v2 = 복구 전화번호가 추가됨
 
 ## FlowSetupPhoneConfirmCode
 
+flow-setup-phone-submit-number-heading = 전화번호 확인
+# The code is a 6-digit code send by text message/SMS
+flow-setup-phone-verify-number-instruction = { -brand-mozilla }에서 전화번호 확인 코드가 포함된 문자 메시지를 받게 됩니다. 이 코드를 누구에게도 공유하지 마세요.
+# The initial rollout of the recovery phone is only available to users with US and Canada mobile phone numbers.
+# Voice over Internet Protocol (VoIP), is a technology that uses a broadband Internet connection instead of a regular (or analog) phone line to make calls.
+# Phone mask services (for example Relay) provide a temporary virtual number to avoid providing a real phone number.
+# Both VoIP and phone masks can be unreliable for one-time-passcode (OTP) verification
+flow-setup-phone-submit-number-info-message-v2 = 복구 전화번호는 미국과 캐나다에서만 사용할 수 있습니다. VoIP 번호와 전화 마스크는 사용하지 않는 것을 권장합니다.
+flow-setup-phone-submit-number-legal = 번호를 제공하시면 계정 확인시에만 문자를 보낼 수 있도록 저장하는데 동의하게 됩니다. 메시지 및 데이터 요금이 부과될 수 있습니다.
+# cliking on the button sends a code by text message to the phone number typed in by the user
+flow-setup-phone-submit-number-button = 코드 보내기
 
 ## HeaderLockup component, the header in account settings
 
@@ -672,6 +703,7 @@ tfa-create-code-error = 백업 인증 코드를 생성하는 중에 문제가 �
 tfa-replace-code-success-1 =
     새로운 코드가 생성되었습니다. 이 일회용
     백업 인증 코드를 안전한 곳에 저장하세요. 모바일 기기가 없을 때 계정에 접근하는 데 필요합니다.
+tfa-replace-code-success-alert-4 = 백업 인증 코드 업데이트됨
 tfa-replace-code-1-2 = 1/2 단계
 tfa-replace-code-2-2 = 2/2 단계
 tfa-enter-code-to-confirm-v2 = 저장함을 확인하려면 새 백업 인증 코드 중 하나를 입력하세요. 이 단계가 완료되면 이전 백업 인증 코드를 사용할 수 없습니다.
@@ -808,6 +840,13 @@ recent-activity-account-password-changed = 비밀번호 변경됨
 recent-activity-account-secondary-email-added = 보조 이메일 주소 추가됨
 recent-activity-account-secondary-email-removed = 보조 이메일 주소 제거됨
 recent-activity-account-emails-swapped = 주 이메일과 보조 이메일이 서로 바뀜
+recent-activity-session-destroy = 세션에서 로그아웃함
+recent-activity-account-recovery-phone-send-code = 복구 전화번호 코드 전송됨
+recent-activity-account-recovery-phone-setup-complete = 복구 전화번호 설정 완료됨
+recent-activity-account-recovery-phone-signin-complete = 복구 전화번호로 로그인 완료
+recent-activity-account-recovery-phone-signin-failed = 복구 전화번호로 로그인 실패
+recent-activity-account-recovery-phone-removed = 복구 전화번호 삭제됨
+recent-activity-account-recovery-codes-replaced = 복구 코드가 대체됨
 recent-activity-account-recovery-codes-created = 복구 코드 생성됨
 recent-activity-account-recovery-codes-signin-complete = 복구 코드를 사용한 로그인 완료
 # Security event was recorded, but the activity details are unknown or not shown to user
@@ -824,9 +863,20 @@ recovery-key-create-back-button-title = 설정으로 돌아가기
 ## PageRecoveryPhoneRemove
 ## Users reach this page from account settings when they want to remove a backup phone number.
 
+recovery-phone-remove-header = 복구 전화번호 삭제
+# Variables:
+#   $formattedFullPhoneNumber (String) - the user's full phone number
+settings-recovery-phone-remove-info = 복구 전화번호인 <strong>{ $formattedFullPhoneNumber }</strong>가 삭제됩니다.
+settings-recovery-phone-remove-recommend = 백업 인증 코드를 저장하는 것보다 쉽기 때문에 이 방법을 유지하는 것이 좋습니다.
+# "Saved backup authentication codes" refers to previously saved backup authentication codes
+settings-recovery-phone-remove-recovery-methods = 코드를 삭제하면, 저장된 백업 인증 코드가 아직 있는지 확인하세요. <linkExternal>복구 방법 비교</linkExternal>
+settings-recovery-phone-remove-button = 전화번호 삭제
+settings-recovery-phone-remove-cancel = 취소
+settings-recovery-phone-remove-success = 복구 전화번호 삭제됨
 
 ## PageSetupRecoveryPhone
 
+page-setup-recovery-phone-heading = 복구 전화번호 추가
 page-setup-recovery-phone-back-button-title = 설정으로 돌아가기
 # Back arrow to return to step 1 of recovery phone setup flow
 page-setup-recovery-phone-step2-back-button-title = 전화번호 변경
