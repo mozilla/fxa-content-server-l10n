@@ -9,6 +9,10 @@ next-payment-method-header = 지불 방법 선택
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = 먼저 구독을 승인해야 합니다.
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+location-header = { $productName }에 대한 결제를 계속하려면 <p>국가와 우편 번호를 입력하세요.</p>
+location-banner-info = 사용자 위치를 자동으로 감지할 수 없습니다.
+location-required-disclaimer = 이 정보는 세금과 통화 계산에만 사용됩니다.
 
 ## Page - Upgrade page
 
@@ -27,6 +31,7 @@ next-payment-error-retry-button = 다시 시도하세요
 next-basic-error-message = 문제가 발생했습니다. 나중에 다시 시도하세요.
 checkout-error-contact-support-button = 연락하기
 checkout-error-not-eligible = 이 제품을 구독할 권한이 없습니다. 지원 팀에 문의하시면 도와드리겠습니다.
+checkout-error-contact-support = 도움을 드릴 수 있도록 지원팀에 문의하세요.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -56,6 +61,10 @@ next-payment-confirmation-download-button = 다운로드 계속 하기
 
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = 끝자리가 { $last4 } 인 카드
+# Page - Not Found
+page-not-found-title = 페이지를 찾을 수 없음
+page-not-found-description = 요청하신 페이지를 찾을 수 없습니다. 알림을 받았으며 잘못된 모든 링크를 수정할 예정입니다.
+page-not-found-back-button = 뒤로 가기
 
 ## Component - Payment Consent Checkbox
 
@@ -97,6 +106,17 @@ payments-header-bento-close =
 payments-header-bento-tagline = 사용자의 개인 정보를 보호하는 더 많은 { -brand-mozilla }의 제품
 payments-header-bento-firefox-desktop = 데스크톱 용 { -brand-firefox } 브라우저
 payments-header-bento-firefox-mobile = 모바일 용 { -brand-firefox } 브라우저
+payments-header-bento-monitor = { -product-mozilla-monitor }
+payments-header-bento-firefox-relay = { -product-firefox-relay }
+payments-header-bento-vpn = { -product-mozilla-vpn }
+payments-header-bento-pocket = { -product-pocket }
+payments-header-bento-made-by-mozilla = { -brand-mozilla } 제작
+payments-header-avatar =
+    .title = { -product-mozilla-account } 메뉴
+payments-header-avatar-icon =
+    .alt = 계정 프로필 사진
+payments-header-avatar-expanded-signed-in-as = 로그인 됨
+payments-header-avatar-expanded-sign-out = 로그아웃
 payments-client-loading-spinner =
     .aria-label = 읽는 중…
     .alt = 읽는 중…
@@ -122,10 +142,23 @@ next-coupon-success-repeating = 요금제는 { $couponDurationDate } 이후 정�
 select-tax-location-title = 위치
 select-tax-location-edit-button = 편집
 select-tax-location-save-button = 저장
+select-tax-location-continue-to-checkout-button = 결제 계속하기
 select-tax-location-country-code-label = 국가
 select-tax-location-country-code-placeholder = 국가 선택
 select-tax-location-error-missing-country-code = 국가를 선택하세요
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN
+select-tax-location-product-not-available = { $productName }는 현재 위치에서 구입할 수 없습니다.
 select-tax-location-postal-code-label = 우편 번호
+select-tax-location-postal-code =
+    .placeholder = 우편번호 입력
+select-tax-location-error-missing-postal-code = 우편 번호 입력
+select-tax-location-error-invalid-postal-code = 올바른 우편번호 입력
+select-tax-location-successfully-updated = 위치 정보가 업데이트되었습니다.
+select-tax-location-error-location-not-updated = 위치 정보를 업데이트할 수 없습니다. 다시 시도하세요.
+signin-form-continue-button = 계속
+signin-form-email-input = 이메일 입력
+signin-form-email-input-missing = 이메일 입력
+signin-form-email-input-invalid = 유효한 이메일 입력
 next-new-user-subscribe-product-updates-mdnplus = { -product-mdn-plus } 및 { -brand-mozilla }에서 제품 소식 및 최신 정보를 받고 싶습니다.
 next-new-user-subscribe-product-updates-mozilla = { -brand-mozilla }로부터 제품 뉴스와 최신정보를 받습니다.
 next-new-user-subscribe-product-updates-snp = { -brand-mozilla }로부터 보안과 개인 정보에 대한 소식 및 최신 정보를 받습니다.
@@ -137,6 +170,11 @@ next-new-user-subscribe-product-assurance = 이메일은 오직 계정을 만드
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+plan-price-interval-daily = 매일 { $amount }
+plan-price-interval-weekly = 매주 { $amount }
+plan-price-interval-monthly = 매월 { $amount }
+plan-price-interval-halfyearly = 6개월마다 { $amount }
+plan-price-interval-yearly = 매년 { $amount }
 
 ## Component - SubscriptionTitle
 
@@ -144,6 +182,7 @@ next-subscription-create-title = 구독 설정
 next-subscription-success-title = 구독 확인
 next-subscription-processing-title = 구독 확인 중…
 next-subscription-error-title = 구독 확인 오류…
+subscription-title-plan-change-heading = 변경사항 검토
 next-sub-guarantee = 30 일 환불 보장
 
 ## Component - TermsAndPrivacy
@@ -154,10 +193,26 @@ next-subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capita
 next-terms = 서비스 약관
 next-privacy = 개인정보 보호정책
 next-terms-download = 약관 다운로드
+terms-and-privacy-stripe-label = { -brand-mozilla }는 안전한 결제 처리를 위해 { -brand-name-stripe }를 사용합니다.
+terms-and-privacy-stripe-link = { -brand-name-stripe } 개인 정보 보호 정책
+terms-and-privacy-paypal-label = { -brand-mozilla }는 안전한 결제 처리를 위해 { -brand-paypal }을 사용합니다.
+terms-and-privacy-paypal-link = { -brand-paypal } 개인 정보 보호 정책
+terms-and-privacy-stripe-and-paypal-label = { -brand-mozilla }는 안전한 결제 처리를 위해 { -brand-name-stripe }와 { -brand-paypal }을 사용합니다.
 
 ## Component - UpdatedPurchaseDetails
 
+upgrade-purchase-details-current-plan-label = 현재 구독 정보
+upgrade-purchase-details-new-plan-label = 신규 구독 정보
+upgrade-purchase-details-promo-code = 프로모션 코드
+upgrade-purchase-details-tax-label = 세금 및 수수료
+upgrade-purchase-details-new-total-label = 총
+upgrade-purchase-details-prorated-upgrade = 비례 업그레이드
 
 ## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
 
+upgrade-purchase-details-new-plan-daily = { $productName } (매일)
+upgrade-purchase-details-new-plan-weekly = { $productName } (매주)
+upgrade-purchase-details-new-plan-monthly = { $productName } (월간)
+upgrade-purchase-details-new-plan-halfyearly = { $productName } (6개월)
+upgrade-purchase-details-new-plan-yearly = { $productName } (연간)

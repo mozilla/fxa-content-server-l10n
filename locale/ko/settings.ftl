@@ -36,6 +36,8 @@ brand-m-logo =
 ## ButtonBack component
 ## Allows users to click a back arrow to navigate to the previous page
 
+button-back-aria-label = 뒤로
+button-back-title = 뒤로
 
 ## ButtonDownloadRecoveryKeyPDF
 ## Clicking on this button downloads a PDF file that contains the user's account recovery key
@@ -216,8 +218,18 @@ get-data-trio-print-2 =
 # Aria-label option for an alert symbol
 alert-icon-aria-label =
     .aria-label = 경고
+# Aria-label option for an alert symbol
+icon-attention-aria-label =
+    .aria-label = 주의
+# Aria-label option for an alert symbol
+icon-warning-aria-label =
+    .aria-label = 경고
 authenticator-app-aria-label =
     .aria-label = 인증기 애플리케이션
+backup-codes-icon-aria-label-v2 =
+    .aria-label = 백업 인증 코드 활성화됨
+backup-codes-disabled-icon-aria-label-v2 =
+    .aria-label = 백업 인증 코드 비활성화됨
 # An icon of phone with text message. A back recovery phone number
 backup-recovery-sms-icon-aria-label =
     .aria-label = 복구 SMS 활성화됨
@@ -281,6 +293,10 @@ recovery-phone-image-description =
     .aria-label = 문자 메시지로 코드를 받는 모바일 기기.
 recovery-phone-code-image-description =
     .aria-label = 모바일 기기로 받은 코드.
+backup-recovery-phone-image-aria-label =
+    .aria-label = SMS 문자 메시지 기능이 있는 모바일 기기
+backup-authentication-codes-image-aria-label =
+    .aria-label = 코드가 있는 기기 화면
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -311,6 +327,8 @@ input-password-sr-only-now-hidden = 이제 비밀번호가 숨겨졌습니다.
 
 ## Phone number component
 
+# This is an aria-label available to screen readers for a selection list that includes country flags, country name and country code
+input-phone-number-country-list-aria-label = 국가 선택
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = 뒤로
 
@@ -656,6 +674,7 @@ tfa-replace-code-success-1 =
     백업 인증 코드를 안전한 곳에 저장하세요. 모바일 기기가 없을 때 계정에 접근하는 데 필요합니다.
 tfa-replace-code-1-2 = 1/2 단계
 tfa-replace-code-2-2 = 2/2 단계
+tfa-enter-code-to-confirm-v2 = 저장함을 확인하려면 새 백업 인증 코드 중 하나를 입력하세요. 이 단계가 완료되면 이전 백업 인증 코드를 사용할 수 없습니다.
 
 ## Avatar change page
 
@@ -789,6 +808,8 @@ recent-activity-account-password-changed = 비밀번호 변경됨
 recent-activity-account-secondary-email-added = 보조 이메일 주소 추가됨
 recent-activity-account-secondary-email-removed = 보조 이메일 주소 제거됨
 recent-activity-account-emails-swapped = 주 이메일과 보조 이메일이 서로 바뀜
+recent-activity-account-recovery-codes-created = 복구 코드 생성됨
+recent-activity-account-recovery-codes-signin-complete = 복구 코드를 사용한 로그인 완료
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = 기타 계정 활동
 
@@ -806,6 +827,9 @@ recovery-key-create-back-button-title = 설정으로 돌아가기
 
 ## PageSetupRecoveryPhone
 
+page-setup-recovery-phone-back-button-title = 설정으로 돌아가기
+# Back arrow to return to step 1 of recovery phone setup flow
+page-setup-recovery-phone-step2-back-button-title = 전화번호 변경
 
 ## Add secondary email page
 
@@ -845,6 +869,8 @@ verify-secondary-email-success-alert-2 = { $email }이 성공적으로 추가되
 
 # Link to delete account on main Settings page
 delete-account-link = 계정 삭제
+# Success message displayed in alert bar after the user has successfully confirmed their account is not inactive.
+inactive-update-status-success-alert = 성공적으로 로그인되었습니다. { -product-mozilla-account }와 데이터는 활성 상태로 유지됩니다.
 
 ## Two Step Authentication
 
@@ -859,6 +885,7 @@ tfa-incorrect-totp = 잘못된 2단계 인증 코드
 tfa-cannot-retrieve-code = 코드를 복원하는 데 문제가 발생했습니다.
 tfa-cannot-verify-code-4 = 백업 인증코드 확인 중에 문제가 발생했습니다.
 tfa-incorrect-recovery-code-1 = 잘못된 백업 인증 코드
+tfa-enabled-v2 = 2단계 인증 활성화됨
 tfa-scan-this-code =
     <linkExternal>인증 앱 중 하나</linkExternal>를 사용하여
     QR 코드를 스캔하세요.
@@ -878,6 +905,8 @@ tfa-enter-totp-v2 = 이제 인증 앱에서 인증 코드를 입력하세요.
 tfa-input-enter-totp-v2 =
     .label = 인증 코드를 입력하세요
 tfa-save-these-codes-1 = 모바일 기기가 없을 때를 대비해 일회용 백업 인증 코드를 안전한 곳에 보관하세요.
+# codes here refers to backup authentication codes
+tfa-enter-code-to-confirm-setup = 코드를 입력하여 저장되었는지 확인하세요. 이 코드가 없으면 인증 앱이 없을 때 로그인하지 못할 수 있습니다.
 tfa-enter-recovery-code-1 =
     .label = 백업 인증 코드를 입력하세요
 
@@ -929,6 +958,34 @@ signout-sync-session-expired = 죄송합니다. 오류가 발생했습니다. �
 
 ## SubRow component
 
+tfa-row-backup-codes-title = 백업 인증 코드
+# Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
+# Users that have not enabled or verified 2FA will not see this
+tfa-row-backup-codes-not-available = 코드 없음
+# $numCodesRemaining - the number of backup authentication codes that have not yet been used (generally between 1 to 5)
+# A different message is shown when no codes are available
+tfa-row-backup-codes-available-v2 = 남은 코드 { $numCodesAvailable }
+# Shown to users who have no backup authentication codes
+# Button to add backup authentication codes when none are configured
+tfa-row-backup-codes-add-cta = 추가
+# 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
+tfa-row-backup-codes-description-2 = 모바일 기기나 인증 앱을 사용할 수 없을 때 이것은 가장 안전한 복구 방법입니다.
+# Recovery phone is a recovery method for two-step authentication
+# A recovery code can be sent to the user's phone
+tfa-row-backup-phone-title-v2 = 복구 전화번호
+# button to change the configured recovery phone
+tfa-row-backup-phone-change-cta = 변경
+# button to add/configure a recovery phone
+tfa-row-backup-phone-add-cta = 추가
+# Button to remove a recovery phone from the user's account
+tfa-row-backup-phone-delete-button = 삭제
+# Shown in tooltip on delete button or delete icon
+tfa-row-backup-phone-delete-title-v2 = 복구 전화번호 삭제
+tfa-row-backup-phone-delete-restriction-v2 = 복구 전화번호를 제거하고 싶은 경우, 백업 인증 코드를 추가하거나 2단계 인증을 비활성화하여 계정이 잠기는 것을 방지하세요.
+# A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
+# into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
+# with SMS-based two-factor authentication.
+tfa-row-backup-phone-sim-swap-risk-link = SIM 교체 위험에 대해 알아보기
 
 ## Switch component
 
