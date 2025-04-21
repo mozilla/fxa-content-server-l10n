@@ -2,6 +2,26 @@
 
 session-verify-send-push-title-2 = ¿Iniciando sesión en tu { -product-mozilla-account }?
 session-verify-send-push-body-2 = Haz clic aquí para confirmar que eres tú
+# Message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to verify phone ownership when registering a recovery phone
+recovery-phone-setup-sms-body = { $code } es tu código de verificación de { -brand-mozilla }. Caduca en 5 minutos.
+# Shorter message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to verify phone ownership when registering a recovery phone
+recovery-phone-setup-sms-short-body = Código de verificación de { -brand-mozilla }: { $code }
+# Message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to sign in with a recovery phone as backup for two-step authentication
+recovery-phone-signin-sms-body = { $code } es tu código de recuperación de { -brand-mozilla }. Caduca en 5 minutos.
+# Shorter message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to sign in with a recovery phone as backup for two-step authentication
+recovery-phone-signin-sms-short-body = Código de { -brand-mozilla }: { $code }
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
@@ -254,7 +274,32 @@ inactiveAccountFinalWarning-subject = Última oportunidad para conservar tu { -p
 inactiveAccountFinalWarning-title = Tu cuenta de { -brand-mozilla } y sus datos serán eliminados
 inactiveAccountFinalWarning-preview = Inicia sesión para mantener tu cuenta
 inactiveAccountFinalWarning-account-description = Tu { -product-mozilla-account } se usa para acceder a productos gratuitos de privacidad y navegación como { -brand-firefox } sync, { -product-mozilla-monitor }, { -product-firefox-relay } y { -product-mdn }.
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+# This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
+inactiveAccountFinalWarning-impact = El <strong>{ $deletionDate }</strong>, tu cuenta y tus datos personales se eliminarán permanentemente a menos que inicies sesión.
+inactiveAccountFinalWarning-action = Inicia sesión para mantener tu cuenta
+# followed by link to sign in
+inactiveAccountFinalWarning-action-plaintext = Inicia sesión para mantener tu cuenta
+inactiveAccountFirstWarning-subject = No pierdas tu cuenta
+inactiveAccountFirstWarning-title = ¿Quieres mantener tu cuenta de { -brand-mozilla } y sus datos?
+inactiveAccountFirstWarning-account-description-v2 = Tu { -product-mozilla-account } se usa para acceder a productos gratuitos de privacidad y navegación como { -brand-firefox } sync, { -product-mozilla-monitor }, { -product-firefox-relay } y { -product-mdn }.
 inactiveAccountFirstWarning-inactive-status = Notamos que no has iniciado sesión durante 2 años.
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+# This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
+inactiveAccountFirstWarning-impact = Tu cuenta y tus datos personales se eliminarán permanentemente <strong>el { $deletionDate }</strong> a causa de tu inactividad.
+inactiveAccountFirstWarning-action = Inicia sesión para mantener tu cuenta
+inactiveAccountFirstWarning-preview = Inicia sesión para mantener tu cuenta
+# followed by link to sign in
+inactiveAccountFirstWarning-action-plaintext = Inicia sesión para mantener tu cuenta:
+inactiveAccountSecondWarning-subject = Acción requerida: Eliminación de la cuenta en 7 días
+inactiveAccountSecondWarning-title = Tu cuenta de { -brand-mozilla } y sus datos serán eliminados en 7 días
+inactiveAccountSecondWarning-account-description-v2 = Tu { -product-mozilla-account } se usa para acceder a productos gratuitos de privacidad y navegación como { -brand-firefox } sync, { -product-mozilla-monitor }, { -product-firefox-relay } y { -product-mdn }.
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+inactiveAccountSecondWarning-impact = Tu cuenta y tus datos personales se eliminarán permanentemente <strong>el { $deletionDate }</strong> a causa de tu inactividad.
+inactiveAccountSecondWarning-action = Inicia sesión para mantener tu cuenta
+inactiveAccountSecondWarning-preview = Inicia sesión para mantener tu cuenta
+# followed by link to sign in
+inactiveAccountSecondWarning-action-plaintext = Inicia sesión para mantener tu cuenta:
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title-zero = ¡Te has quedado sin códigos de autenticación de respaldo!
 codes-reminder-title-one = Estás en tu último código de autenticación de respaldo
@@ -330,6 +375,17 @@ postAddLinkedAccount-subject-2 = Nueva cuenta vinculada a tu { -product-mozilla-
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = Tu cuenta de { $providerName } ha sido vinculada a tu { -product-mozilla-account }
 postAddLinkedAccount-action = Administrar cuenta
+postAddRecoveryPhone-subject = Teléfono de recuperación añadido
+postAddRecoveryPhone-preview = Cuenta protegida mediante autenticación de dos pasos
+postAddRecoveryPhone-title = Has creado un número de teléfono de recuperación
+# Variables:
+#  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
+postAddRecoveryPhone-description-v2 = Has añadido { $maskedLastFourPhoneNumber } como tu número de teléfono de recuperación
+# Links out to a support article about two factor authentication
+postAddRecoveryPhone-how-protect = Cómo protege tu cuenta
+postAddRecoveryPhone-how-protect-plaintext = Cómo protege tu cuenta:
+postAddRecoveryPhone-enabled-device = Lo has activado desde:
+postAddRecoveryPhone-action = Administrar cuenta
 postAddTwoStepAuthentication-subject-2 = Autenticación en dos pasos activada
 postAddTwoStepAuthentication-title-2 = Has activado la autenticación en dos pasos
 # After the colon, there is a description of the device that the user used to enable two-step authentication
@@ -347,6 +403,11 @@ postChangePrimary-title = Nuevo correo principal
 #  $email (String) - A user's email address
 postChangePrimary-description-2 = Has cambiado con éxito tu correo principal a { $email }. Esta dirección es ahora tu nombre de usuario para iniciar sesión en tu { -product-mozilla-account } así como para recibir notificaciones de seguridad y confirmaciones de inicio de sesión
 postChangePrimary-action = Administrar cuenta
+postChangeRecoveryPhone-subject = Teléfono de recuperación actualizado
+postChangeRecoveryPhone-preview = Cuenta protegida mediante autenticación en dos pasos
+postChangeRecoveryPhone-title = Has cambiado tu teléfono de recuperación
+postChangeRecoveryPhone-description = Ahora tienes un nuevo teléfono de recuperación. Se ha eliminado tu número de teléfono anterior.
+postChangeRecoveryPhone-requested-device = Lo has pedido desde:
 postConsumeRecoveryCode-title-2 = Has usado un código de autenticación de respaldo
 # After the colon, there is description of the device that the backup authentication code was used on
 postConsumeRecoveryCode-description-2 = Ha sido utilizado en:
@@ -366,6 +427,11 @@ postRemoveAccountRecovery-title-3 = Has borrado la clave de recuperación de tu 
 postRemoveAccountRecovery-body-part1 = Se requiere la clave de recuperación de tu cuenta para restaurar tus datos de navegación cifrados si olvidas tu contraseña.
 postRemoveAccountRecovery-body-part2 = Si aún no lo has hecho, crea una nueva clave de recuperación de cuenta en los ajustes de tu cuenta para evitar perder tus contraseñas guardadas, marcadores, historial de navegación y más.
 postRemoveAccountRecovery-action = Administrar cuenta
+postRemoveRecoveryPhone-subject = Teléfono de recuperación eliminado
+postRemoveRecoveryPhone-preview = Cuenta protegida mediante autenticación en dos pasos
+postRemoveRecoveryPhone-title = Teléfono de recuperación eliminado
+postRemoveRecoveryPhone-description = Tu teléfono de recuperación se ha eliminado de la configuración de autenticación en dos pasos. Aún tienes disponibles tus códigos de autenticación de respaldo.
+postRemoveRecoveryPhone-requested-device = Lo has solicitado desde:
 postRemoveSecondary-subject = Se eliminó el correo secundario
 postRemoveSecondary-title = Se eliminó el correo secundario
 # Variables:
@@ -378,6 +444,18 @@ postRemoveTwoStepAuthentication-title-2 = Has desactivado la autenticación en d
 postRemoveTwoStepAuthentication-from-device = Lo has desactivado desde:
 postRemoveTwoStepAuthentication-action = Administrar cuenta
 postRemoveTwoStepAuthentication-not-required-2 = Ya no necesitas los códigos de seguridad de tu aplicación de autenticación cuando inicies sesión.
+postSigninRecoveryCode-subject = Código de autenticación de respaldo utilizado para iniciar sesión
+postSigninRecoveryCode-preview = Confirmar la actividad de la cuenta
+postSigninRecoveryCode-title = Tu código de autenticación de respaldo se ha utilizado para iniciar sesión
+postSigninRecoveryCode-description = Si no lo hiciste tú, debes cambiar tu contraseña inmediatamente para mantener tu cuenta segura.
+postSigninRecoveryCode-device = Has iniciado sesión desde:
+postSigninRecoveryCode-action = Administrar cuenta
+postSigninRecoveryPhone-subject = Teléfono de recuperación utilizado para iniciar sesión
+postSigninRecoveryPhone-preview = Confirmar la actividad de la cuenta
+postSigninRecoveryPhone-title = Tu teléfono de recuperación fue utilizado para iniciar sesión
+postSigninRecoveryPhone-description = Si no lo hiciste tu, debes cambiar tu contraseña inmediatamente para mantener tu cuenta segura.
+postSigninRecoveryPhone-device = Has iniciado sesión desde:
+postSigninRecoveryPhone-action = Administrar cuenta
 postVerify-sub-title-3 = ¡Estamos encantados de verte!
 postVerify-title-2 = ¿Quieres ver la misma pestaña en dos dispositivos?
 postVerify-description-2 = ¡Es fácil! Simplemente instala { -brand-firefox } en otro dispositivo e inicia sesión para sincronizar. ¡Parece magia!
