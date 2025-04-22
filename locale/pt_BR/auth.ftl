@@ -320,7 +320,7 @@ lowRecoveryCodes-subject-2 =
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Novo acesso no { $clientName }
 newDeviceLogin-subjectForMozillaAccount = Novo acesso à sua { -product-mozilla-account }
-newDeviceLogin-title-3 = Sua { -product-mozilla-account } foi usada para se conectar no dispositivo abaixo
+newDeviceLogin-title-3 = Sua { -product-mozilla-account } foi usada para se conectar
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
 newDeviceLogin-change-password = Se não foi você, <a data-l10n-name="passwordChangeLink">mude sua senha</a>.
