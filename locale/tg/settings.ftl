@@ -19,6 +19,11 @@ brand-banner-dismiss-button-2 =
     .aria-label = Пӯшидани баннер
 # This message is displayed as the title element in the banner, prior to actually launching the new brand
 brand-prelaunch-title = Дар санаи 1-уми ноябри соли ҷорӣ номи маҳсули «{ -product-firefox-accounts }» ба номи «{ -product-mozilla-accounts }» иваз карда мешавад
+# This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
+brand-prelaunch-subtitle = Шумо ҳамоно бо ҳамон номи корбар ва ниҳонвожаи худ ворид мешавед, ва ягон тағйироти дигар дар маҳсулоте, ки шумо истифода мебаред, пешбинӣ нашудааст.
+# This message is displayed as title element in the banner, after the brand changes take affect letting the user know that
+# no action is required on their part
+brand-postlaunch-title = Мо номи маҳсули «{ -product-firefox-accounts }»-ро ба номи «{ -product-mozilla-accounts }» иваз кардем. Шумо ҳамоно бо ҳамон номи корбар ва ниҳонвожаи худ ворид мешавед, ва ягон тағйироти дигар дар маҳсулоте, ки шумо истифода мебаред, пешбинӣ нашудааст.
 # This is an extra link element, that directs users to a page where they can learn more about the branding changes.
 brand-learn-more = Маълумоти бештар
 # Alt text for close banner image
@@ -49,9 +54,17 @@ recovery-key-pdf-heading = Калиди барқарорсозии ҳисоб
 recovery-key-pdf-download-date = Эҷодшуда: { $date }
 # Shown directly above recovery key value and preceeded by a key icon
 recovery-key-pdf-key-legend = Калиди барқарорсозии ҳисоб
+# Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
+# Password resets without this account recovery key can result in data loss.
+# "key" here refers to "account recovery key"
+recovery-key-pdf-instructions = Агар шумо ниҳонвожаи худро фаромӯш кунед, ин калид ба шумо имкон медиҳад, ки маълумоти рамзгузоришудаи браузерро (аз он ҷумла, ниҳонвожаҳо, хатбаракҳо ва таърихи тамошобинӣ) барқарор кунед. Онро дар ҷойе нигоҳ доред, ки ба ёд меоред.
 # This heading is shown above a list of options for storing the account recovery key
 # "key" here refers to "account recovery key"
 recovery-key-pdf-storage-ideas-heading = Ҷойҳо барои нигоҳ доштани калиди шумо
+# Followed by a link (https://mzl.la/3bNrM1I) to get more information and support
+recovery-key-pdf-support = Маълумоти бештар дар бораи калиди барқарорсозии ҳисоби худ
+# Error message displayed in an alert bar if the PDF download failed.
+recovery-key-pdf-download-error = Мутаассифона, ҳангоми боргирӣ кардани калиди барқарорсозии ҳисоби шумо мушкилие ба миён омад.
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
