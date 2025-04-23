@@ -186,6 +186,8 @@ cadReminderFirst-subject-1 = Ёдоварӣ! Биёед «{ -brand-firefox }»-�
 cadReminderFirst-action = Ҳамоҳанг кардани дастгоҳи дигар
 cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 cadReminderSecond-action = Ҳамоҳанг кардани дастгоҳи дигар
+cadReminderSecond-title-2 = Ҳамоҳангсозиро фаромӯш накунед!
+cadReminderSecond-description-sync = Хатбаракҳо, ниҳонвожаҳо, варақаҳои кушодашуда ва чизҳои бештарро дар ҳама ҷойе, ки шумо аз «{ -brand-firefox }» истифода мебаред, ҳамоҳанг созед.
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-subject = Хуш омадед ба «{ $productName }»
@@ -214,6 +216,13 @@ codes-create-plaintext = { lowRecoveryCodes-action-2 }:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Воридшавии нав ба «{ $clientName }»
 newDeviceLogin-subjectForMozillaAccount = Воридшавии нав ба ҳисоби шумо дар «{ -product-mozilla-account }»
+newDeviceLogin-title-3 = Ҳисоби шумо дар «{ -product-mozilla-account }» барои воридшавӣ истифода шуд
+# The "Not you?" question is asking whether the recipient of the email is the
+# person who performed the action that triggered the email.
+newDeviceLogin-change-password = Ин шумо набудед? <a data-l10n-name="passwordChangeLink">Ниҳонвожаи худро иваз намоед</a>.
+# The "Not you?" question is asking whether the recipient of the email is the
+# person who performed the action that triggered the email.
+newDeviceLogin-change-password-plain = Ин шумо набудед? Ниҳонвожаи худро иваз намоед:
 newDeviceLogin-action = Идоракунии ҳисоб
 passwordChanged-subject = Ниҳонвожа аз нав нигоҳ дошта шуд
 passwordChanged-title = Ниҳонвожа бо муваффақият иваз карда шуд
@@ -237,6 +246,7 @@ passwordResetWithRecoveryKeyPrompt-action-txt = Эҷод кардани кали
 postAddAccountRecovery-subject-3 = Калиди нави барқарорсозии ҳисоб эҷод карда шуд
 postAddAccountRecovery-title2 = Шумо калиди наверо барои барқарорсозии ҳисоб эҷод кардед
 postAddAccountRecovery-action = Идоракунии ҳисоб
+postAddLinkedAccount-subject-2 = Ҳисоби нав, ки ба «{ -product-mozilla-account }»-и шумо пайваст шудааст
 postAddLinkedAccount-action = Идоракунии ҳисоб
 postAddRecoveryPhone-subject = Телефони барқарорсозӣ илова карда шуд
 # Links out to a support article about two factor authentication
