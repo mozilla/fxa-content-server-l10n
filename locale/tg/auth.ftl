@@ -101,9 +101,30 @@ automatedEmailRecoveryKey-origin-device-OS-version-only = Ин дархост а
 # Variables:
 # - $uaOS: the user agent's operating system (e.g, MacOS)
 automatedEmailRecoveryKey-origin-device-OS-only = Ин дархост аз { $uaOS } ворид шуд.
+# Colon is followed by user device info on a separate line (e.g., "Firefox Nightly on Mac OSX 10.11")
+automatedEmailRecoveryKey-origin-plaintext = Ин дархост аз дастгоҳи зерин қабул шуд:
+# Colon is followed by a URL to the account recovery key section of account settings
+automatedEmailRecoveryKey-notyou-delete-key-plaintext = Агар ин шумо набудед, калиди навро нест кунед:
+# Colon is followed by a URL to the change password section of account settings
+automatedEmailRecoveryKey-notyou-change-pwd-only-plaintext = Агар ин шумо набудед, ниҳонвожаи худро иваз кунед:
+# This string is shown on its own line, after automatedEmailRecoveryKey-notyou-delete-key-plaintext and its URL
+# Colon is followed by a URL to the change password section of account settings
+automatedEmailRecoveryKey-notyou-change-pwd-plaintext = ва ниҳонвожаи худро иваз намоед:
+# Colon is followed by a URL to Mozilla Support's "I'm having problems with my account" page
+automatedEmailRecoveryKey-more-info-plaintext = Барои маълумоти иловагӣ, ба Дастгирии «{ -brand-mozilla }» муроҷиат кунед:
 manage-account = Идоракунии ҳисоб
 manage-account-plaintext = { manage-account }:
 payment-details = Тафсилоти пардохт:
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+payment-plan-invoice-number = Рақами санади дархости пардохт: { $invoiceNumber }
+# Variables:
+#  $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+payment-plan-charged = Пардохт шуд: { $invoiceTotal } дар { $invoiceDateOnly }
+# Variables
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+payment-plan-next-invoice = Санади дархости пардохти навбатӣ: { $nextInvoiceDateOnly }
 # After the colon is how the user paid, e.g. PayPal or credit card
 payment-method = Тарзи пардохт:
 payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
@@ -117,14 +138,34 @@ credit-card-ending-in = Корти «{ $cardName }», ки рақамаш бо {
 # Variable: $lastFour (String) - The last four digits of the credit card, e.g. 5309
 unknown-card-ending-in = Корти номаълуме, ки рақамаш бо { $lastFour } анҷом меёбад
 # Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionFirstInvoice-content-invoice-number = Рақами санади дархости пардохт: <b>{ $invoiceNumber }</b>
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+subscriptionFirstInvoice-content-invoice-number-plaintext = Рақами санади дархости пардохт: { $invoiceNumber }
+# Variables:
+#  $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+subscriptionSubsequentInvoice-content-plan-change = Иваз кардани нақша: { $paymentProrated }
+# Variables:
+#  $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
+subscriptionFirstInvoiceDiscount-content-subtotal = Ҷамъи миёна: { $invoiceSubtotal }
+# Variables:
 #  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
 subscriptionFirstInvoiceDiscount-content-discount = Тахфиф: -{ $invoiceDiscountAmount }
 # Variables
 #  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
 subscriptionFirstInvoiceDiscount-content-discount-one-time = Тахфифи яккарата: -{ $invoiceDiscountAmount }
+# Variables
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+#  $discountDuration - The duration of the discount in number of months, e.g. 3 months
+subscriptionFirstInvoiceDiscount-content-discount-repeating = Тахфифи { $discountDuration }-моҳа: -{ $invoiceDiscountAmount }
 # Variables:
 #  $invoiceTaxAmount (String) - The amount of the tax of the subscription invoice, including currency, e.g. $2.00
 subscriptionCharges-content-tax = Андозҳо ва ҳаққи ҳизматрасонӣ: { $invoiceTaxAmount }
+# Variables:
+#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+#  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
+subscriptionFirstInvoice-content-charge = { $invoiceTotal } дар { $invoiceDateOnly } пардохт шуд
 # Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
@@ -209,6 +250,10 @@ postChangePrimary-title = Почтаи электронии асосии нав
 postChangePrimary-action = Идоракунии ҳисоб
 postChangeRecoveryPhone-subject = Телефони барқарорсозӣ нав карда шуд
 postChangeRecoveryPhone-title = Шумо телефони барқарорсозии худро иваз кардед
+postChangeRecoveryPhone-requested-device = Шумо онро дар дастгоҳи зерин дархост кардед:
+postConsumeRecoveryCode-title-2 = Шумо аз нусхаи эҳтиётии рамзи санҷиши ҳаққоният истифода кардед
+# After the colon, there is description of the device that the backup authentication code was used on
+postConsumeRecoveryCode-description-2 = Он дар дастгоҳи зерин истифода карда шуд:
 postConsumeRecoveryCode-action = Идоракунии ҳисоб
 postNewRecoveryCodes-action = Идоракунии ҳисоб
 postRemoveAccountRecovery-subject-2 = Калиди барқарорсозии ҳисоб нест карда шуд
