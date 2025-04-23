@@ -191,11 +191,20 @@ postAddAccountRecovery-title2 = Шумо калиди наверо барои б
 postAddAccountRecovery-action = Идоракунии ҳисоб
 postAddLinkedAccount-action = Идоракунии ҳисоб
 postAddRecoveryPhone-subject = Телефони барқарорсозӣ илова карда шуд
+# Links out to a support article about two factor authentication
+postAddRecoveryPhone-how-protect = Ин чӣ тавр ҳисоби шуморо муҳофизат мекунад
+postAddRecoveryPhone-how-protect-plaintext = Ин чӣ тавр ҳисоби шуморо муҳофизат мекунад:
+postAddRecoveryPhone-enabled-device = Шумо онро дар дастгоҳи зерин фаъол кардед:
 postAddRecoveryPhone-action = Идоракунии ҳисоб
 postAddTwoStepAuthentication-subject-2 = Санҷиши ҳаққонияти дуқадама фаъол аст
 postAddTwoStepAuthentication-title-2 = Шумо санҷиши ҳаққонияти дуқадамаро фаъол кардед
+# After the colon, there is a description of the device that the user used to enable two-step authentication
+postAddTwoStepAuthentication-from-device = Шумо онро дар дастгоҳи зерин фаъол кардед:
 postAddTwoStepAuthentication-action = Идоракунии ҳисоб
+postChangeAccountRecovery-subject = Калиди барқарорсозии ҳисоб иваз шуд
+postChangeAccountRecovery-title = Шумо калиди барқарорсозии ҳисоби худро иваз кардед
 postChangeAccountRecovery-action = Идоракунии ҳисоб
+postChangePrimary-subject = Почтаи электронии асосӣ иваз шуд
 postChangePrimary-title = Почтаи электронии асосии нав
 postChangePrimary-action = Идоракунии ҳисоб
 postChangeRecoveryPhone-subject = Телефони барқарорсозӣ нав карда шуд
@@ -205,10 +214,18 @@ postNewRecoveryCodes-action = Идоракунии ҳисоб
 postRemoveAccountRecovery-subject-2 = Калиди барқарорсозии ҳисоб нест карда шуд
 postRemoveAccountRecovery-title-3 = Шумо калиди барқарорсозии ҳисобро нест кардед
 postRemoveAccountRecovery-action = Идоракунии ҳисоб
+postRemoveRecoveryPhone-subject = Телефони барқарорсозӣ тоза карда шуд
+postRemoveRecoveryPhone-title = Телефони барқарорсозӣ тоза карда шуд
+postRemoveRecoveryPhone-requested-device = Шумо онро дар дастгоҳи зерин дархост кардед:
 postRemoveSecondary-subject = Почтаи электронии иловагӣ тоза шуд
 postRemoveSecondary-title = Почтаи электронии иловагӣ тоза шуд
 postRemoveSecondary-action = Идоракунии ҳисоб
+postRemoveTwoStepAuthentication-subject-line-2 = Санҷиши ҳаққонияти дуқадама ғайрифаъол аст
+postRemoveTwoStepAuthentication-title-2 = Шумо санҷиши ҳаққонияти дуқадамаро ғайрифаъол кардед
+# After the colon is a description of the device the user used to disable two-step authentication
+postRemoveTwoStepAuthentication-from-device = Шумо онро дар дастгоҳи зерин ғайрифаъол кардед:
 postRemoveTwoStepAuthentication-action = Идоракунии ҳисоб
+postSigninRecoveryCode-preview = Тасдиқ кардани фаъолияти ҳисоб
 postSigninRecoveryCode-action = Идоракунии ҳисоб
 postSigninRecoveryPhone-action = Идоракунии ҳисоб
 postVerify-subject-4 = Хуш омадед ба «{ -brand-mozilla }»!
@@ -238,19 +255,36 @@ subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountRemind
 ##   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 ##   $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
 
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFailedPaymentsCancellation-subject = Обунаи шумо ба «{ $productName }» бекор карда шуд
+subscriptionFailedPaymentsCancellation-title = Обунаи шумо бекор карда шуд
 subscriptionRenewalReminder-content-closing = Бо эҳтиром,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = Дастаи «{ $productName }»
+subscriptionUpgrade-title = Ташаккур ба шумо барои такмилдиҳӣ!
+unblockCode-subject = Рамзи санҷиши дастрасӣ ба ҳисоб
+unblockCode-title = Оё ин шумо ворид мешавед?
 confirm-account = Тасдиқ кардани ҳисоб
 confirm-account-plaintext = { confirm-account }:
+verificationReminderFirst-subject-2 = Дар хотир доред, ки ҳисоби худро тасдиқ намоед
 verificationReminderFirst-title-3 = Хуш омадед ба «{ -brand-mozilla }»!
 confirm-email-2 = Тасдиқ кардани ҳисоб
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Тасдиқ кардани ҳисоб
+verificationReminderSecond-subject-2 = Дар хотир доред, ки ҳисоби худро тасдиқ намоед
 verificationReminderSecond-action-2 = Тасдиқ кардани ҳисоб
 verify-title-3 = Интернетро боз бо «{ -brand-mozilla }» кашф кунед
 verify-action-2 = Тасдиқ кардани ҳисоб
+verifyLogin-subject-2 = Тасдиқ кардани воридшавӣ
+verifyLogin-action = Тасдиқ кардани воридшавӣ
+# Variables:
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-subject-line-2 = Тасдиқ кардани воридшавӣ ба «{ $serviceName }»
+# Variables:
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-title-2 = Оё ин шумо ба «{ $serviceName }» ворид шудаед?
 verifyPrimary-title-2 = Почтаи электронии асосиро тасдиқ кунед
 verifyPrimary-subject = Почтаи электронии асосиро тасдиқ кунед
 verifyPrimary-action-2 = Тасдиқ кардани почтаи электронӣ
