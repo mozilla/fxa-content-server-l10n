@@ -436,10 +436,12 @@ sub-expires-on = Scadi u { $date }
 # $expirationDate (Date) - The payment card's expiration date.
 
 pay-update-card-exp = Scadi u { $expirationDate }
+sub-route-idx-updating = Staju attualizzannu i nfurmazzioni di fatturazzioni…
 sub-route-payment-modal-heading = Nfurmazzioni di fatturazzioni nun vàliti
 
 ## Routes - Subscription - SubscriptionItem
 
+sub-item-no-such-plan = Nun cc'è nuḍḍu chianu di stu tipu pi st'iscrizzioni.
 
 ## Routes - Subscriptions - Pocket Subscription
 

@@ -1,6 +1,8 @@
 ## Page
 
 checkout-signin-or-create = 1. Trasi o crìa un { -product-mozilla-account }
+# This string appears as a separation between the two sign-in options, "Enter your email"(signin-form-email-input) "or"(this string) "Continue with Google"(continue-signin-with-google-button) / "Continue with Apple"(continue-signin-with-apple-button)
+checkout-signin-options-or = o
 continue-signin-with-google-button = Cuntinua cu { -brand-google }
 continue-signin-with-apple-button = Cuntinua cu { -brand-apple }
 next-payment-method-header = Scarta u to mètudu di pagamentu
@@ -10,6 +12,7 @@ next-payment-method-first-approve = Pi prima cosa, hâ appruvari u to abbunament
 
 ## Page - Upgrade page
 
+upgrade-page-payment-information = Nfurmazzioni di pagamentu
 checkout-error-boundary-retry-button = Prova arrè
 checkout-error-boundary-basic-error-message = Cci fu un prubblema. Pi favuri torna a prova o <contactSupportLink>cuntatta l'assistenza</contactSupportLink>.
 
@@ -52,6 +55,9 @@ next-payment-confirmation-download-button = Cuntinua cû scarricamentu
 
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Carta chi finisci pi { $last4 }
+# Page - Not Found
+page-not-found-title = Pàggina nun truvata
+page-not-found-back-button = Vai nn'arrè
 
 ## Component - Payment Consent Checkbox
 
@@ -80,6 +86,10 @@ next-coupon-submit = Riggistra
 
 # Component - Header
 
+payments-header-help =
+    .title = Ajutu
+    .aria-label = Ajutu
+    .alt = Ajutu
 payments-client-loading-spinner =
     .aria-label = Staju carricannu…
     .alt = Staju carricannu…
@@ -153,10 +163,25 @@ next-subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capita
 next-terms = Tèrmini di sirbizzu
 next-privacy = Abbisu di privatizza
 next-terms-download = Scàrrica i tèrmini
+terms-and-privacy-stripe-label = { -brand-mozilla } usa { -brand-name-stripe } pi prucissari i pagamenti di manera sicura.
+terms-and-privacy-stripe-link = Abbisu di privatizza di { -brand-name-stripe }
+terms-and-privacy-paypal-label = { -brand-mozilla } usa { -brand-paypal } pi prucissari i pagamenti di manera sicura.
+terms-and-privacy-paypal-link = Abbisu di privatizza di { -brand-paypal }
+terms-and-privacy-stripe-and-paypal-label = { -brand-mozilla } usa { -brand-name-stripe } e { -brand-paypal } pi prucissari i pagamenti di manera sicura.
 
 ## Component - UpdatedPurchaseDetails
 
+upgrade-purchase-details-new-plan-label = Chianu novu
+upgrade-purchase-details-promo-code = Còdici prumuzziunali
+upgrade-purchase-details-tax-label = Tassi e cummissioni
+upgrade-purchase-details-new-total-label = Tutali novu
+upgrade-purchase-details-prorated-upgrade = Attualizzu carculatu prupurziunali
 
 ## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
 
+upgrade-purchase-details-new-plan-daily = { $productName } (ô jornu)
+upgrade-purchase-details-new-plan-weekly = { $productName } (â simana)
+upgrade-purchase-details-new-plan-monthly = { $productName } (ô misi)
+upgrade-purchase-details-new-plan-halfyearly = { $productName } (ogni 6 misi)
+upgrade-purchase-details-new-plan-yearly = { $productName } (a l'annu)

@@ -5,19 +5,46 @@
 
 ## Banner component
 
+resend-code-success-banner-heading = Mannammu un còdici novu ô to nnirizzu di posta elittrònica.
+resend-link-success-banner-heading = Mannammu na lijami nova ô to nnirizzu di posta elittrònica.
 
 ## Brand Messaging component
 ## Used to show in product messaging about upcoming brand changes
 
+# This aria-label applies to the dismiss/close button of the banner
+# This text is for screen-readers
+brand-banner-dismiss-button-2 =
+    .aria-label = Chiuji bannera
+# This is an extra link element, that directs users to a page where they can learn more about the branding changes.
+brand-learn-more = Cchiù nfurmazzioni
+# Alt text for close banner image
+brand-close-banner =
+    .alt = Chiuji bannera
+# Alt text for 'm' logo in banner header
+brand-m-logo =
+    .alt = Mercu di { -brand-mozilla } m
 
 ## ButtonBack component
 ## Allows users to click a back arrow to navigate to the previous page
 
+button-back-aria-label = Nn'arrè
+button-back-title = Nn'arrè
 
 ## ButtonDownloadRecoveryKeyPDF
 ## Clicking on this button downloads a PDF file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
 
+# Button to download the account recovery key as a PDF file and navigate to the next step
+# The next (and final) step is an optional prompt to save a storage hint
+# .title will displayed as a tooltip on the button
+recovery-key-download-button-v3 = Scàrrica e cuntinua
+    .title = Scàrrica e cuntinua
+recovery-key-pdf-heading = Chiavi di ricùpiru dû cuntu
+# Date when the account recovery key was created and this file was downloaded
+# { $date }: formatted date with 'medium' dateStyle format (e.g., for 'en': Jul 31, 2023)
+recovery-key-pdf-download-date = Ginirata: { $date }
+# Shown directly above recovery key value and preceeded by a key icon
+recovery-key-pdf-key-legend = Chiavi di ricùpiru dû cuntu
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -26,11 +53,32 @@
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
 
+choose-what-to-sync-option-bookmarks =
+    .label = Nzingalibbra
+choose-what-to-sync-option-history =
+    .label = Crunuluggìa
+choose-what-to-sync-option-passwords =
+    .label = Chiavi
+choose-what-to-sync-option-addons =
+    .label = Juncitini
+# Refers to 'tabs that are open', not the action
+choose-what-to-sync-option-tabs =
+    .label = Schedi graputi
+choose-what-to-sync-option-prefs =
+    .label = Prifirenzi
+choose-what-to-sync-option-addresses =
+    .label = Nnirizzi
 choose-what-to-sync-option-paymentmethods =
     .label = Furmi di pagamentu
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
+datablock-download =
+    .message = Scarricatu
+datablock-copy =
+    .message = Cupiatu
+datablock-print =
+    .message = Stampatu
 
 ## DeviceInfoBlock component
 ## The strings here are used to display information about the origin of activity happening on a user's account
@@ -52,10 +100,54 @@ choose-what-to-sync-option-paymentmethods =
 
 # GetDataTrio component, part of Account Recovery Key flow
 
+get-data-trio-download-2 =
+    .title = Scàrrica
+    .aria-label = Scàrrica
+get-data-trio-copy-2 =
+    .title = Copia
+    .aria-label = Copia
+get-data-trio-print-2 =
+    .title = Stampa
+    .aria-label = Stampa
 
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
+# Aria-label option for an alert symbol
+alert-icon-aria-label =
+    .aria-label = Abbisu
+# Aria-label option for an alert symbol
+icon-attention-aria-label =
+    .aria-label = Accura
+# Aria-label option for an alert symbol
+icon-warning-aria-label =
+    .aria-label = Accura
+# Used to select Canada as country code for phone number
+canadian-flag-icon-aria-label =
+    .aria-label = Bannera dû Cànada
+# Used to  indicate a general checkmark, as in something checked off in a list!
+checkmark-icon-aria-label =
+    .aria-label = Cuntrolla
+# Used to  indicate a check mark for a successful state/action
+checkmark-success-icon-aria-label =
+    .aria-label = Fattu
+# Used to indicate a check mark for an enabled state/option
+checkmark-enabled-icon-aria-label =
+    .aria-label = Abbilitata
+# Used on X icon to dismiss a message such as an alert or banner
+close-icon-aria-label =
+    .aria-label = Chiuji missaggiu
+# Used to decorate a code you enter for verification purposes
+code-icon-aria-label =
+    .aria-label = Còdici
+error-icon-aria-label =
+    .aria-label = Erruri
+# Used as information icon for informative messaging
+info-icon-aria-label =
+    .aria-label = Nfurmazzioni
+# Used to select United States as a country code for phone number
+usa-flag-icon-aria-label =
+    .aria-label = Bannera dî Stati Junciuti dâ Mèrica
 
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
@@ -65,9 +157,14 @@ choose-what-to-sync-option-paymentmethods =
 ## Users see this view when we prompt them to generate an account recovery key
 ## after signing in.
 
+inline-recovery-key-setup-later-button = Cchiù tardu
 
 ## Input Password
 
+# Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will hide the password.
+input-password-hide = Ammuccia chiavi
+# Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will show the password.
+input-password-show = Mustra chiavi
 
 ## Phone number component
 
@@ -99,6 +196,13 @@ choose-what-to-sync-option-paymentmethods =
 
 ## Ready component
 
+manage-your-account-button = Manija u to cuntu
+# Message shown when the account is ready but the user is not signed in
+ready-account-ready = U to cuntu è lestu!
+ready-continue = Cuntinua
+sign-in-complete-header = Trasuta cunfirmata
+sign-up-complete-header = Cuntu cunfirmatu
+primary-email-verified-header = Nnirizzu di posta elittrònica primariu cunfirmatu
 
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
@@ -108,25 +212,46 @@ choose-what-to-sync-option-paymentmethods =
 ## This is the final step in the account recovery key creation flow after a Sync signin or in account settings
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
+# The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
+# "Finish" refers to "Finish the account recovery key creation process"
+flow-recovery-key-hint-cta-text = Cumpleta
 
 ## ResetPasswordWarning component
 ## Warning shown to sync users that reset their password without using an account recovery key
 
+password-reset-warning-icon = Accura
+password-reset-chevron-expanded = Chiuji abbisu
+password-reset-chevron-collapsed = Allarga abbisu
 
 ## Alert Bar
 
+alert-bar-close-message = Chiuji missaggiu
 
 ## User's avatar
 
+avatar-your-avatar =
+    .alt = U to àvatar
+avatar-default-avatar =
+    .alt = Àvatar pridifinutu
 
 ##
 
 
 # BentoMenu component
 
+bento-menu-title-3 = Prudutti { -brand-mozilla }
+bento-menu-vpn-2 = { -product-mozilla-vpn }
+bento-menu-monitor-3 = { -product-mozilla-monitor }
+bento-menu-pocket-2 = { -product-pocket }
+bento-menu-firefox-relay-2 = { -product-firefox-relay }
+bento-menu-firefox-desktop = { -brand-firefox } pû Scagnu
+bento-menu-firefox-mobile = { -brand-firefox } pû Tilèfunu
+bento-menu-made-by-mozilla = Fattu di { -brand-mozilla }
 
 ## Connect another device promo
 
+connect-another-fx-mobile = Pìgghiari { -brand-firefox } nnô tilèfunu o nnâ tavuliḍḍa
+connect-another-find-fx-mobile-2 = Riscedi a { -brand-firefox } nne { -google-play } e { -app-store }.
 
 ## Connected services section
 
@@ -141,18 +266,30 @@ choose-what-to-sync-option-paymentmethods =
 ## The following are the options for selecting a reason for disconnecting the
 ## device
 
+cs-disconnect-sync-opt-not-say = Nun u vogghiu diri
 
 ##
 
+cs-disconnect-advice-confirm = D'accordu
+cs-sign-out-button = Nesci
 
 ## Data collection section
 
+dc-subheader-moz-accounts = { -product-mozilla-accounts(capitalization: "uppercase") }
+dc-subheader-ff-browser = Navicaturi { -brand-firefox }
+dc-learn-more = Cchiù nfurmazzioni
 
 # DropDownAvatarMenu component
 
+drop-down-menu-title-2 = Minù di { -product-mozilla-account }
+# This is displayed in the Settings menu after user's click on their profile icon.
+# Following this string on a new line will be their display name (user's name or email)
+drop-down-menu-signed-in-as-v2 = Trasisti comu
+drop-down-menu-sign-out = Nesci
 
 ## Flow Container
 
+flow-container-back = Nn'arrè
 
 ## FlowRecoveryKeyConfirmPwd - Second view in the PageRecoveryKeyCreate flow
 ## Users see this view when they are generating a new account recovery key
@@ -198,23 +335,74 @@ choose-what-to-sync-option-paymentmethods =
 
 ## Avatar change page
 
+avatar-page-add-photo = Junci fotu
+avatar-page-add-photo-button =
+    .title = { avatar-page-add-photo }
+avatar-page-take-photo = Scatta na fotu
+avatar-page-take-photo-button =
+    .title = { avatar-page-take-photo }
+avatar-page-remove-photo = Leva fotu
+avatar-page-remove-photo-button =
+    .title = { avatar-page-remove-photo }
+avatar-page-retake-photo = Scatta na fotu nova
+avatar-page-cancel-button = Sfai
+avatar-page-save-button = Sarba
+avatar-page-saving-button = Staju sarbannu…
+avatar-page-zoom-out-button =
+    .title = Cchiù nicu
+avatar-page-zoom-in-button =
+    .title = Cchiù granni
+avatar-page-rotate-button =
+    .title = Gira
 
 ## Password change page
 
+pw-change-header =
+    .title = Cancia a chiavi
+pw-change-cancel-button = Sfai
+pw-change-save-button = Sarba
+pw-change-forgot-password-link = Ti scurdasti a chiavi?
+pw-change-current-password =
+    .label = Metti a chiavi attuali
+pw-change-new-password =
+    .label = Metti a chiavi nova
+pw-change-confirm-password =
+    .label = Cunferma a chiavi nova
+pw-change-success-alert-2 = Chiavi attualizzata
 
 ## Password create page
 
+pw-create-header =
+    .title = Crìa na chiavi
+pw-create-success-alert-2 = Chiavi mpustata
 
 ## Delete account page
 
+delete-account-header =
+    .title = Scancella cuntu
+delete-account-continue-button = Cuntinua
+delete-account-password-input =
+    .label = Metti a chiavi
+delete-account-cancel-button = Sfai
+delete-account-delete-button-2 = Scancella
 
 ## Display name page
 
+display-name-page-title =
+    .title = Nomu mustratu
+display-name-input =
+    .label = Metti u nomu mustratu
+submit-display-name = Sarba
+cancel-display-name = Sfai
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
 ## These are displayed as a list with the date when the event occured
 
+recent-activity-account-create-v2 = Cuntu criatu
+recent-activity-account-disable-v2 = Cuntu sdisabbilitatu
+recent-activity-account-enable-v2 = Cuntu abbilitatu
+recent-activity-account-password-changed = Chiavi canciata
 
 ## PageRecoveryKeyCreate
 
@@ -228,15 +416,21 @@ choose-what-to-sync-option-paymentmethods =
 
 ## Add secondary email page
 
+add-secondary-email-step-1 = Passu 1 di 2
 
 ## Verify secondary email page
 
 
 ##
 
+# Link to delete account on main Settings page
+delete-account-link = Scancella cuntu
 
 ## Two Step Authentication
 
+tfa-title = Autinticazzioni a du' fattura
+tfa-step-1-3 = Passu 1 di 3
+tfa-step-2-3 = Passu 2 di 3
 
 ## Product promotion
 

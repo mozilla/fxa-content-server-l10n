@@ -247,6 +247,7 @@ passwordChangeRequired-subject = Фаъолияти шубҳанок ошкор 
 passwordChangeRequired-title = Ниҳонвожа бояд иваз карда шавад
 password-forgot-otp-subject = Ниҳонвожаи худро фаромӯш кардед?
 password-forgot-otp-title = Ниҳонвожаи худро фаромӯш кардед?
+password-forgot-otp-code-2 = Агар ин шумо будед, он гоҳ ин рамзи тасдиқкунандаи шумо барои идома мебошад:
 password-forgot-otp-expiry-notice = Муҳлати ин рамз пас аз 10 дақиқа ба анҷом мерасад.
 passwordReset-subject-2 = Ниҳонвожаи шумо аз нав барқарор карда шуд
 passwordReset-title-2 = Ниҳонвожаи шумо аз нав барқарор карда шуд
