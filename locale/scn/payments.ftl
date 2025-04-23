@@ -383,6 +383,13 @@ brand-name-apple-app-store-2 = { -app-store }
 
 ## Routes - Product - Subscription upgrade
 
+product-plan-change-heading = Rividi u to canciu
+sub-change-failed = U canciu di chianu sfallìu
+sub-change-submit = Cunferma canciu
+sub-update-current-plan-label = Chianu attuali
+sub-update-new-plan-label = Chianu novu
+sub-update-total-label = Tutali novu
+sub-update-prorated-upgrade = Attualizzu carculatu prupurziunali
 
 ## Checkout line item for subscription plan change listing the product name and frequency of payment
 ## For example, a Mozilla VPN subscription charged monthly would appear as: Mozilla VPN (Monthly)
@@ -393,9 +400,6 @@ sub-update-new-plan-daily = { $productName } (ô jornu)
 sub-update-new-plan-weekly = { $productName } (â simana)
 sub-update-new-plan-monthly = { $productName } (ô misi)
 sub-update-new-plan-yearly = { $productName } (a l'annu)
-
-##
-
 
 ## Routes - Subscriptions - Cancel
 
@@ -424,12 +428,15 @@ pay-update-manage-btn = Manija
 ## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
 ## $date (Date) - The date for the next time a charge will occur.
 
+sub-expires-on = Scadi u { $date }
 
 ## Routes - Subscription - PaymentUpdate
 
 
 # $expirationDate (Date) - The payment card's expiration date.
 
+pay-update-card-exp = Scadi u { $expirationDate }
+sub-route-payment-modal-heading = Nfurmazzioni di fatturazzioni nun vàliti
 
 ## Routes - Subscription - SubscriptionItem
 

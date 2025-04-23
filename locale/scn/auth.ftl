@@ -352,6 +352,25 @@ subscriptionPaymentFailed-title = Ni dispiaci, accamora avemu prubblemi cû to p
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-content-problem = Àppimu un prubblema cû to ùrtimu pagamentu pi { $productName }.
+subscriptionPaymentFailed-content-outdated = Po èssiri chi a to carta di crèditu scadìu, o chi a furma di pagamentu chi scartasti nun è cchiù bona.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentProviderCancelled-subject = Abbisogna n'attualizzu dî nfurmazzioni di pagamentu pi { $productName }
+subscriptionPaymentProviderCancelled-title = Ni dispiaci, accamora avemu prubblemi câ to furma di pagamentu
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentProviderCancelled-content-detect = Cci fu un prubblema câ to furma di pagamentu pi { $productName }.
+subscriptionPaymentProviderCancelled-content-reason = Po èssiri chi a to carta di crèditu scadìu, o chi a furma di pagamentu chi scartasti nun è cchiù bona.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-subject = Iscrizzioni pi { $productName } arrè attiva
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-title = Grazzi chi attivasti arrè a to iscrizzioni pi { $productName }!
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionRenewalReminder-subject = Abbisu di rinovu autumàticu di { $productName }
+subscriptionRenewalReminder-title = A to iscrizzioni veni rinuvata ntra picca
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-greeting = Caru clienti di { $productName },
@@ -359,18 +378,69 @@ subscriptionRenewalReminder-content-closing = Saluti cari,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = A squatra di { $productName }
+subscriptionsPaymentExpired-subject-1 = A carta di crèditu pî to iscrizzioni scadìu o scadi viatu
+subscriptionsPaymentExpired-title-1 = A to carta di crèditu scadìu o sta scadennu
+subscriptionsPaymentExpired-content-1 = A carta di crèditu chi usi pi pagari l'iscrizzioni appressu scadìu o sta scadennu.
+subscriptionsPaymentProviderCancelled-subject = Abbisogna n'attualizzu dî nfurmazzioni di pagamentu pi l'iscrizzioni { -brand-mozilla }
+subscriptionsPaymentProviderCancelled-title = Ni dispiaci, accamora avemu prubblemi câ to furma di pagamentu
+subscriptionsPaymentProviderCancelled-content-detected = Cci fu un prubblema câ to furma di pagamentu pi l'iscrizzioni appressu.
+subscriptionsPaymentProviderCancelled-content-payment = Po èssiri chi a to carta di crèditu scadìu, o chi a furma di pagamentu chi scartasti nun è cchiù bona.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSubsequentInvoice-subject = Ricivemmu u pagamentu pi { $productName }
 subscriptionSubsequentInvoice-title = Grazzi pâ to iscrizzioni!
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSubsequentInvoice-content-received = Ricivemmu u to ùrtimu pagamentu pi { $productName }.
+# Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
+subscriptionSubsequentInvoice-content-next-invoice = Pròssima fattura: { $nextInvoiceDateOnly }
+# Variables:
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-subject = Attualizzasti a { $productName }
+subscriptionUpgrade-title = Grazzi pi l'attualizzu!
+# Variables:
+# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
+# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-upgrade-info = L'attualizzu di { $productNameOld } a { $productName } jìu bonu.
+unblockCode-subject = Còdici d'auturizzazzioni dû cuntu
+unblockCode-title = Sì tu chi sta' trasennu?
+unblockCode-prompt = Si sì tu, chistu è u còdici d'auturizzazzioni chi ti serbi:
+# Variables:
+#  $unblockCode (String) - An alphanumeric code
+unblockCode-prompt-plaintext = Si sì tu, chistu è u còdici d'auturizzazzioni chi ti serbi: { $unblockCode }
+unblockCode-report = Si 'un sì tu, ajùtani a jittari fora l'intrusi e <a data-l10n-name="reportSignInLink">signalijanilli</a>.
+unblockCode-report-plaintext = Si 'un sì tu, ajùtani a jittari fora l'intrusi e signalijanilli.
+verificationReminderFinal-subject = Ùrtimu abbisu pi cunfirmari u to cuntu
+verificationReminderFinal-description-2 = Na para di simani nn'arrè criasti un { -product-mozilla-account }, ma 'un u cunfirmasti mai. Pâ to sicurizza, scancillamu u cuntu si nun veni virificatu nnê pròssimi 24 uri.
 confirm-account = Cunfirma u cuntu
 confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Ricòrdati di cunfirmari u to cuntu
 verificationReminderFirst-title-3 = Bummegna nne { -brand-mozilla }!
+verificationReminderFirst-description-3 = Na para di jorna nn'arrè criasti un { -product-mozilla-account }, ma 'un u cunfirmasti mai. Pi favuri cunfirma u to cuntu nnî pròssimi 15 jorna, o sarà scancillatu di manera autumàtica.
+verificationReminderFirst-sub-description-3 = Nun ti pèrdiri nenti dû navicaturi chi metti a tia e â to sicurizza ô primu postu.
 confirm-email-2 = Cunferma u cuntu
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Cunferma u cuntu
+verificationReminderSecond-subject-2 = Ricòrdati di cunfirmari u to cuntu
+verificationReminderSecond-title-3 = Nun ti pèrdiri nenti di { -brand-mozilla }!
+verificationReminderSecond-description-4 = Na para di jorna nn'arrè criasti un { -product-mozilla-account }, ma 'un u cunfirmasti mai. Pi favuri cunfirma u to cuntu nnî pròssimi 10 jorna, o sarà scancillatu di manera autumàtica.
 verificationReminderSecond-action-2 = Cunferma u cuntu
+verify-title-3 = Grapi a riti cu { -brand-mozilla }
+verify-description-2 = Cunfirma u to cuntu e pìgghiati u megghiu di { -brand-mozilla } unni trasi-trasi, principiannu di:
+verify-subject = Cumpleta a criazzioni dû to cuntu
 verify-action-2 = Cunferma u cuntu
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+verifyLogin-title-2 = Trasisti cu { $clientName }?
 verifyLogin-subject-2 = Cunferma a trasuta
 verifyLogin-action = Cunferma a trasuta
+# Variables:
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-subject-line-2 = Approva trasuta nne { $serviceName }
+# Variables:
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-title-2 = Trasisti nne { $serviceName }?
 verifyLoginCode-expiry-notice = Scadi nna 5 minuti.
 verifyPrimary-subject = Cunferma u nnirizzu di posta elittrònica primariu
 verifyPrimary-action-2 = Cunferma nnirizzu di posta elittrònica
