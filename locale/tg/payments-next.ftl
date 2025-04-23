@@ -1,8 +1,11 @@
 ## Page
 
+# This string appears as a separation between the two sign-in options, "Enter your email"(signin-form-email-input) "or"(this string) "Continue with Google"(continue-signin-with-google-button) / "Continue with Apple"(continue-signin-with-apple-button)
+checkout-signin-options-or = ё
 
 ## Page - Upgrade page
 
+upgrade-page-payment-information = Маълумоти пардохт
 checkout-error-boundary-retry-button = Аз нав кӯшиш кардан
 
 ## Error pages - /checkout and /upgrade

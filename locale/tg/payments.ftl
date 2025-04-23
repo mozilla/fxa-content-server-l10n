@@ -54,6 +54,28 @@ payment-confirmation-amount-day =
         [one] { $amount } барои ҳар рӯз
        *[other] { $amount } барои ҳар { $intervalCount } рӯз
     }
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $intervalCount (Number) - The interval between payments, in weeks.
+payment-confirmation-amount-week =
+    { $intervalCount ->
+        [one] { $amount } барои ҳар ҳафта
+       *[other] { $amount } барои ҳар { $intervalCount } ҳафта
+    }
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $intervalCount (Number) - The interval between payments, in months.
+payment-confirmation-amount-month =
+    { $intervalCount ->
+        [one] { $amount } барои ҳар моҳ
+       *[other] { $amount } барои ҳар { $intervalCount } моҳ
+    }
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $intervalCount (Number) - The interval between payments, in years.
+payment-confirmation-amount-year =
+    { $intervalCount ->
+        [one] { $amount } барои ҳар сол
+       *[other] { $amount } барои ҳар { $intervalCount } сол
+    }
+payment-confirmation-download-button = Идома додани боргирӣ
 
 ## Component - PaymentConsentCheckbox
 
@@ -72,12 +94,17 @@ iap-upgrade-get-help-button = Гирифтани кумак
 payment-cc =
     .label = Корти шумо
 payment-cancel-btn = Бекор кардан
+payment-update-btn = Навсозӣ кардан
+payment-pay-btn = Ҳозир пардохт кунед
+payment-pay-with-paypal-btn-2 = Бо «{ -brand-paypal }» пардохт кунед
+payment-validate-name-error = Лутфан, номи худро ворид намоед
 
 ## Component - PaymentLegalBlurb
 
 
 ## Component - PaymentMethodHeader
 
+payment-method-header = Тарзи пардохти худро интихоб кунед
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step = 2. { payment-method-header }
 
@@ -89,6 +116,7 @@ payment-method-header-second-step = 2. { payment-method-header }
 
 ## Component - PayPalButton
 
+pay-with-heading-paypal-2 = Бо «{ -brand-paypal }» пардохт кунед
 
 ## Component - PlanDetails
 
@@ -110,9 +138,13 @@ price-details-tax = { $priceAmount } + { $taxAmount } андоз
 
 ## Component - SubscriptionTitle
 
+sub-guarantee = Кафолати 30-рӯза барои бозпардохти маблағи шумо
 
 ## Component - TermsAndPrivacy
 
+# "Mozilla Accounts" is capitalized in this instance for title case in English
+# This heading is followed by links to Terms of Service and Privacy Notice
+subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capitalization: "uppercase") }
 terms = Шартҳои хизматрасонӣ
 privacy = Огоҳномаи махфият
 terms-download = Шартҳои боргирӣ
@@ -131,12 +163,58 @@ coupon-promo-code = Рамзи таблиғотӣ
 ## Subscription upgrade plan details - shared by multiple components, including plan details and payment form
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+# $intervalCount (Number) - The interval between payments, in days.
+plan-price-interval-day =
+    { $intervalCount ->
+        [one] { $amount } барои ҳар рӯз
+       *[other] { $amount } барои ҳар { $intervalCount } рӯз
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } барои ҳар рӯз
+           *[other] { $amount } барои ҳар { $intervalCount } рӯз
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+plan-price-interval-week =
+    { $intervalCount ->
+        [one] { $amount } барои ҳар ҳафта
+       *[other] { $amount } барои ҳар { $intervalCount } ҳафта
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } барои ҳар ҳафта
+           *[other] { $amount } барои ҳар { $intervalCount } ҳафта
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+plan-price-interval-month =
+    { $intervalCount ->
+        [one] { $amount } барои ҳар моҳ
+       *[other] { $amount } барои ҳар { $intervalCount } моҳ
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } барои ҳар моҳ
+           *[other] { $amount } барои ҳар { $intervalCount } моҳ
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+plan-price-interval-year =
+    { $intervalCount ->
+        [one] { $amount } барои ҳар сол
+       *[other] { $amount } барои ҳар { $intervalCount } сол
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $amount } барои ҳар сол
+           *[other] { $amount } барои ҳар { $intervalCount } сол
+        }
 
 ## Error messages
 
 # App error dialog
 general-error-heading = Хатои умумии барнома
 basic-error-message = Чизе нодуруст иҷро шуд. Лутфан, баъдтар аз нав кӯшиш кунед.
+product-plan-not-found = Нақша ёфт нашуд
+product-location-unsupported-error = Ҷойгиршавӣ дастгирӣ намешавад
 
 ## Hooks - coupons
 
@@ -152,6 +230,7 @@ sub-update-payment-title = Маълумоти пардохт
 ## Routes - Product/AcceptedCards
 ## Used in both Routes - Checkout and Product/SubscriptionCreate
 
+pay-with-heading-card-only = Бо корт пардохт кунед
 
 ## Routes - Product - IapRoadblock
 
@@ -163,12 +242,18 @@ brand-name-apple-app-store-2 = { -app-store }
 
 ## Routes - Product - Subscription upgrade
 
+sub-change-submit = Тағйиротро тасдиқ кунед
+sub-update-current-plan-label = Нақшаи ҷорӣ
+sub-update-new-plan-label = Нақшаи нав
 
 ## Checkout line item for subscription plan change listing the product name and frequency of payment
 ## For example, a Mozilla VPN subscription charged monthly would appear as: Mozilla VPN (Monthly)
 ## Variables:
 ##   $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 
+sub-update-new-plan-daily = { $productName } (Барои ҳар рӯз)
+sub-update-new-plan-weekly = { $productName } (Барои ҳар ҳафта)
+sub-update-new-plan-monthly = { $productName } (Барои ҳар моҳ)
 
 ## Routes - Subscriptions - Cancel
 
