@@ -431,9 +431,17 @@ delete-account-link = Scancella cuntu
 tfa-title = Autinticazzioni a du' fattura
 tfa-step-1-3 = Passu 1 di 3
 tfa-step-2-3 = Passu 2 di 3
+tfa-step-3-3 = Passu 3 di 3
+tfa-button-continue = Cuntinua
+tfa-button-cancel = Sfai
+tfa-button-finish = Cumpleta
+tfa-qa-code =
+    .alt = { tfa-qa-code-alt }
 
 ## Product promotion
 
+product-promo-monitor =
+    .alt = { -product-mozilla-monitor }
 
 ## Profile section
 
@@ -443,6 +451,10 @@ tfa-step-2-3 = Passu 2 di 3
 
 ## Security section of Setting
 
+security-heading = Sicurizza
+security-password =
+    .header = Chiavi
+security-action-create = Crìa
 
 ## SubRow component
 
