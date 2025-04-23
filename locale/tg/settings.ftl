@@ -983,9 +983,15 @@ reset-password-complete-new-password-saved = Ниҳонвожаи нав ниг�
 
 ## CompleteSignin component
 
+# This is a label that precedes any error which could arise from trying to validate the user's signin
+error-label = Хато:
 
 ## Signin page
 
+signin-subheader-without-logo-default = Ба танзимоти ҳисоб идома диҳед
+signin-button = Ворид шудан
+signin-header = Ворид шудан
+signin-use-a-different-account-link = Ҳисоби дигареро истифода баред
 signin-forgot-password-link = Ниҳонвожаро фаромӯш кардед?
 signin-password-button-label = Ниҳонвожа
 
@@ -994,16 +1000,23 @@ signin-password-button-label = Ниҳонвожа
 ## they can click "report it to us" if they did not attempt to sign in.
 ## This will be the page shown to users to block the sign in and report it.
 
+report-signin-submit-button = Гузориш дар бораи фаъолияти шубҳанок
+report-signin-support-link = Чаро ин ба вуҷуд меояд?
 back = Ба қафо
 
 ## SigninPushCode page
 ## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
 
+signin-push-code-send-email-link = Рамзи почтаи электронӣ
 
 ## SigninPushCodeConfirmPage
 
+signin-push-code-confirm-instruction = Воридшавии худро тасдиқ кунед
 signin-push-code-confirm-verifying = Тасдиқ шуда истодааст
+signin-push-code-confirm-login = Тасдиқ кардани воридшавӣ
+signin-push-code-confirm-wasnt-me = Ин ман набудам, ниҳонвожаро иваз кунед.
 signin-push-code-confirm-login-approved = Воридшавии шумо тасдиқ карда шуд. Лутфан, ин равзанаро пӯшед.
+signin-push-code-confirm-link-error = Пайванд вайрон шудааст. Лутфан, аз нав кӯшиш кунед.
 
 ## Signin recovery method page
 ## This page is shown to users when they are having trouble signing in with
@@ -1011,6 +1024,7 @@ signin-push-code-confirm-login-approved = Воридшавии шумо тасд
 
 signin-recovery-method-header = Ворид шудан
 signin-recovery-method-phone = Телефони барқарорсозӣ
+signin-recovery-method-code-v2 = Нусхаи эҳтиётии рамзҳои санҷиши ҳаққоният
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
@@ -1023,14 +1037,28 @@ signin-recovery-code-sub-heading = Нусхаи эҳтиётии рамзи са
 signin-recovery-code-confirm-button = Тасдиқ кардан
 # Link to go to the page to use recovery phone instead
 signin-recovery-code-phone-link = Истифодаи телефони барқарорсозӣ
+# External link for support if the user can't use two-step autentication or a backup authentication code
+# https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+signin-recovery-code-support-link = Ҳисоби шумо қулф шудааст?
+# Error displayed in a tooltip when form is submitted witout a code
+signin-recovery-code-required-error = Рамзи санҷиши ҳаққоният лозим аст
 
 ## SigninRecoveryPhone page
 
+signin-recovery-phone-flow-heading = Ворид шудан
 signin-recovery-phone-input-label = Рамзи 6-рақамро ворид кунед
+signin-recovery-phone-code-submit-button = Тасдиқ кардан
 signin-recovery-phone-resend-code-button = Аз нав фиристодани рамз
+signin-recovery-phone-resend-success = Рамз фиристода шуд
+# links to https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+signin-recovery-phone-locked-out-link = Ҳисоби шумо қулф шудааст?
+signin-recovery-phone-send-code-error-heading = Ҳангоми фиристодани рамз мушкилӣ ба миён омад
+# Follows the error message (e.g, "There was a problem sending a code")
+signin-recovery-phone-general-error-description = Лутфан, баъдтар аз нав кӯшиш кунед.
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
+signin-reported-header = Ташаккур барои ҳушёрии шумо!
 
 ## SigninTokenCode page
 ## Users see this page during the signin process. In this instance, the confirmation code is
@@ -1039,6 +1067,7 @@ signin-recovery-phone-resend-code-button = Аз нав фиристодани р
 signin-token-code-input-label-v2 = Рамзи 6-рақамро ворид кунед
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Тасдиқ кардан
+signin-token-code-code-expired = Муҳлати рамз ба анҷом расид?
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1054,6 +1083,8 @@ signin-totp-code-other-account-link = Ҳисоби дигареро истифо
 ## Page shown when signin has been blocked by rate limiting (too many requests)
 
 signin-unblock-submit-button = Идома додан
+# Shown when the user attempts to submit the form without including a code
+signin-unblock-code-required-error = Рамзи санҷиши дастрасӣ лозим аст
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -1062,7 +1093,14 @@ signin-unblock-submit-button = Идома додан
 # and a confirmation code has been sent to their email address.
 
 confirm-signup-code-input-label = Рамзи 6-рақамро ворид кунед
+# Form button to confirm if the confirmation code entered by the user is valid
+confirm-signup-code-confirm-button = Тасдиқ кардан
+confirm-signup-code-code-expired = Муҳлати рамз ба анҷом расид?
+# Link to resend a new code to the user's email.
+confirm-signup-code-resend-code-link = Рамзи наверо ба почтаи электронӣ ирсол намоед.
 confirm-signup-code-success-alert = Ҳисоб бо муваффақият тасдиқ карда шуд
+# Error displayed in tooltip.
+confirm-signup-code-is-required-error = Рамзи тасдиқкунанда лозим аст
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
