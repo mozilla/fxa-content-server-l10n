@@ -249,6 +249,7 @@ postAddAccountRecovery-action = Идоракунии ҳисоб
 postAddLinkedAccount-subject-2 = Ҳисоби нав, ки ба «{ -product-mozilla-account }»-и шумо пайваст шудааст
 postAddLinkedAccount-action = Идоракунии ҳисоб
 postAddRecoveryPhone-subject = Телефони барқарорсозӣ илова карда шуд
+postAddRecoveryPhone-title = Шумо рақами телефони барқарорсозиро эҷод кардед
 # Links out to a support article about two factor authentication
 postAddRecoveryPhone-how-protect = Ин чӣ тавр ҳисоби шуморо муҳофизат мекунад
 postAddRecoveryPhone-how-protect-plaintext = Ин чӣ тавр ҳисоби шуморо муҳофизат мекунад:
@@ -266,6 +267,7 @@ postChangePrimary-subject = Почтаи электронии асосӣ ива�
 postChangePrimary-title = Почтаи электронии асосии нав
 postChangePrimary-action = Идоракунии ҳисоб
 postChangeRecoveryPhone-subject = Телефони барқарорсозӣ нав карда шуд
+postChangeRecoveryPhone-preview = Ҳисоб бо санҷиши ҳаққонияти дуқадама ҳифз карда шуд
 postChangeRecoveryPhone-title = Шумо телефони барқарорсозии худро иваз кардед
 postChangeRecoveryPhone-requested-device = Шумо онро дар дастгоҳи зерин дархост кардед:
 postConsumeRecoveryCode-title-2 = Шумо аз нусхаи эҳтиётии рамзи санҷиши ҳаққоният истифода кардед
@@ -292,6 +294,7 @@ postSigninRecoveryCode-subject = Нусхаи эҳтиётии рамзҳои с
 postSigninRecoveryCode-preview = Тасдиқ кардани фаъолияти ҳисоб
 postSigninRecoveryCode-action = Идоракунии ҳисоб
 postSigninRecoveryPhone-preview = Тасдиқ кардани фаъолияти ҳисоб
+postSigninRecoveryPhone-title = Рақами телефони барқарорсозии шумо барои воридшавӣ истифода шуд
 postSigninRecoveryPhone-action = Идоракунии ҳисоб
 postVerify-subject-4 = Хуш омадед ба «{ -brand-mozilla }»!
 postVerify-setup-2 = Пайваст кардани дастгоҳи дигар:
@@ -302,6 +305,9 @@ postVerifySecondary-action = Идоракунии ҳисоб
 recovery-subject = Барқарор кардани ниҳонвожаи худ
 recovery-title-2 = Ниҳонвожаи худро фаромӯш кардед?
 recovery-action = Ниҳонвожаи наверо эҷод намоед
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountDeletion-subject = Обунаи шумо ба «{ $productName }» бекор карда шуд
 subscriptionAccountDeletion-title = Афсӯс, ки шумо меравед
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -310,6 +316,7 @@ subscriptionAccountFinishSetup-subject = Хуш омадед ба «{ $productNa
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-title = Хуш омадед ба «{ $productName }»
 subscriptionAccountFinishSetup-action-2 = Оғози кор
+subscriptionAccountReminderFirst-subject = Ёдоварӣ: Танзими ҳисоби худро ба анҷом расонед
 subscriptionAccountReminderFirst-action = Эҷод кардани ниҳонвожа
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-subject = Ёдоварии ниҳоӣ: Ҳисоби худро танзим кунед
@@ -338,11 +345,17 @@ subscriptionFirstInvoice-subject = Пардохт барои «{ $productName }�
 subscriptionFirstInvoice-content-next-invoice = Санади дархости пардохти навбатӣ: { $nextInvoiceDateOnly }
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentFailed-subject = Пардохт барои «{ $productName }» иҷро шуд
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-subject = Обунаи «{ $productName }» аз нав фаъол карда шуд
 subscriptionRenewalReminder-content-closing = Бо эҳтиром,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = Дастаи «{ $productName }»
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSubsequentInvoice-subject = Пардохт барои «{ $productName }» қабул шуд
 # Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
 subscriptionSubsequentInvoice-content-next-invoice = Санади дархости пардохти навбатӣ: { $nextInvoiceDateOnly }
