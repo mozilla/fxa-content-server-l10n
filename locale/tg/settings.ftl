@@ -191,6 +191,11 @@ form-verify-code-default-error = Ин майдон ҳатмӣ аст.
 # Used when the code may only contain numbers
 # $codeLength : number of digits in a valid code
 form-verify-totp-disabled-button-title-numeric = Барои идома додан, рамзи { $codeLength }-рақамаро ворид кунед
+# Information explaining why button is disabled, also read to screen readers
+# Submit button is disabled unless a valid code format is entered
+# Used when the code may contain numbers and/or letters
+# $codeLength : number of characters in a valid code
+form-verify-totp-disabled-button-title-alphanumeric = Барои идома додан, рамзеро дорои { $codeLength } аломат ворид кунед
 
 # GetDataTrio component, part of Account Recovery Key flow
 
@@ -219,10 +224,21 @@ icon-attention-aria-label =
 # Aria-label option for an alert symbol
 icon-warning-aria-label =
     .aria-label = Огоҳӣ
+authenticator-app-aria-label =
+    .aria-label = Барномаи санҷиши ҳаққоният
 backup-codes-icon-aria-label-v2 =
     .aria-label = Нусхаи эҳтиётии рамзҳои санҷиши ҳаққониятнусхаи эҳтиётии рамзи санҷиши ҳаққоният фаъол шуд
 backup-codes-disabled-icon-aria-label-v2 =
     .aria-label = Нусхаи эҳтиётии рамзҳои санҷиши ҳаққониятнусхаи эҳтиётии рамзи санҷиши ҳаққоният ғайрифаъол шуд
+# An icon of phone with text message. A back recovery phone number
+backup-recovery-sms-icon-aria-label =
+    .aria-label = Барқарорсозӣ тавассути паёмҳои «SMS» фаъол аст
+# Disabled version of backup-recovery-sms-icon-aria-label
+backup-recovery-sms-disabled-icon-aria-label =
+    .aria-label = Барқарорсозӣ тавассути паёмҳои «SMS» ғайрифаъол аст
+# Used to select Canada as country code for phone number
+canadian-flag-icon-aria-label =
+    .aria-label = Парчами Канада
 # Used to  indicate a general checkmark, as in something checked off in a list!
 checkmark-icon-aria-label =
     .aria-label = Ба қайд гирифтан
@@ -250,6 +266,16 @@ usa-flag-icon-aria-label =
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
+hearts-broken-image-aria-label =
+    .aria-label = Компютер ва телефони мобилӣ бо тасвири дили шикаста дар ҳар яке онҳо.
+hearts-verified-image-aria-label =
+    .aria-label = Компютер, телефони мобилӣ ва планшете, ки дар ҳар яке онҳо дил набз мезанад
+signin-recovery-code-image-description =
+    .aria-label = Ҳуҷҷате, ки дорои матни ноаён мебошад.
+signin-totp-code-image-label =
+    .aria-label = Дастгоҳе, ки дорои рамзи 6-рақамаи ноаён мебошад.
+confirm-signup-aria-label =
+    .aria-label = Лифофае, ки дорои пайванд мебошад
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
