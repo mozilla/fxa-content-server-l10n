@@ -12,6 +12,11 @@ recovery-phone-setup-sms-body = { $code } санҷиши ҳаққоният аз
 # Messages should be limited to one segment
 # $code  - 6 digit code used to verify phone ownership when registering a recovery phone
 recovery-phone-setup-sms-short-body = Рамзи «{ -brand-mozilla }» барои санҷиши ҳаққоният: { $code }
+# Message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to sign in with a recovery phone as backup for two-step authentication
+recovery-phone-signin-sms-body = Рамзи { $code } барои барқарорсозии ҳисоби шумо дар «{ -brand-mozilla }». Муҳлаташ пас аз 5 дақиқа ба анҷом мерасад.
 # Shorter message sent by SMS with limited character length, please test translation with the messaging segment calculator
 # https://twiliodeved.github.io/message-segment-calculator/
 # Messages should be limited to one segment
@@ -30,6 +35,7 @@ moz-accounts-privacy-url-2 = Огоҳномаи махфияти «{ -product-mo
 moz-accounts-terms-url = Шартҳои хизматрасонии «{ -product-mozilla-accounts(capitalization: "uppercase") }»
 subplat-header-mozilla-logo-2 = <img data-l10n-name="subplat-mozilla-logo" alt="{ -brand-mozilla } logo">
 subplat-footer-mozilla-logo-2 = <img data-l10n-name="mozilla-logo-footer" alt="{ -brand-mozilla } logo">
+subplat-automated-email = Ин паёми худкори почтаи элекронӣ мебошад; агар шумо онро аз рӯйи иштибоҳ гирифтед, ягон амал зарур нест.
 subplat-privacy-notice = Огоҳномаи махфият
 subplat-privacy-plaintext = Огоҳномаи махфият:
 subplat-update-billing-plaintext = { subplat-update-billing }:
@@ -49,6 +55,9 @@ subplat-legal = Маълумоти ҳуқуқӣ
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Махфият
 subplat-privacy-website-plaintext = { subplat-privacy }:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+body-android-badge = <img data-l10n-name="google-play-badge" alt="Боргирӣ кардани «{ $productName }» аз «{ -google-play }»">
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 android-download-plaintext = Ба даст овардани «{ $productName }» тавассути «Google Play»:
