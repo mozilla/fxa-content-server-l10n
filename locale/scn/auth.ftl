@@ -249,6 +249,12 @@ downloadSubscription-title = Bummegna nne { $productName }
 downloadSubscription-link-action-2 = Accumincia
 fraudulentAccountDeletion-subject-2 = U to { -product-mozilla-account } fu scancillatu
 fraudulentAccountDeletion-title = U to cuntu fu scancillatu
+# Variables:
+#  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
+fraudulentAccountDeletion-contact-plaintext = Si ài dumanni, pi favuri cuntatta a nostra squatra di supportu: { $mozillaSupportUrl }
+inactiveAccountFinalWarning-subject = Ùrtima pussibbilità pi tèniri u to { -product-mozilla-account }
+inactiveAccountFinalWarning-title = U tu cuntu { -brand-mozilla } e i to dati vennu scancillati
+inactiveAccountFinalWarning-preview = Trasi pi mantiniri u to cuntu
 inactiveAccountFinalWarning-action = Trasi pi mantiniri u to cuntu
 # followed by link to sign in
 inactiveAccountFinalWarning-action-plaintext = Trasi pi mantiniri u to cuntu:
@@ -262,6 +268,16 @@ inactiveAccountFirstWarning-action-plaintext = Trasi pi mantiniri u to cuntu:
 inactiveAccountSecondWarning-preview = Trasi pi mantiniri u to cuntu
 # followed by link to sign in
 inactiveAccountSecondWarning-action-plaintext = Trasi pi mantiniri u to cuntu:
+# The user has a low number of valid recovery codes remaining for use
+codes-reminder-title-zero = Finisti tutti i còdici d'autinticazzioni di sicurizza!
+codes-reminder-title-one = Arristau l'ùrtimu còdici d'autinticazzioni di sicurizza
+codes-reminder-title-two = Agghicau u mumentu di criari cchiù assai còdici d'autinticazzioni di sicurizza
+codes-reminder-description-part-one = I còdici d'autinticazzioni di sicurizza t'ajùtanu a ricupigghiari i to nfurmazzioni quannu ti scordi a chiavi.
+codes-reminder-description-part-two = Crìa novi còdici ora, accussì nun t'arrìsichi di pèrdiri i to dati 'n futuru.
+codes-reminder-description-two-left = T'arrèstanu sulu du' còdici.
+codes-reminder-description-create-codes = Crìa novi còdici d'autinticazzioni di sicurizza p'ajutàriti a tràsiri nnô to cuntu si nun arrinesci a tràsiri cchiù.
+lowRecoveryCodes-action-2 = Crìa còdici
+codes-create-plaintext = { lowRecoveryCodes-action-2 }:
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Nova trasuta nni { $clientName }
