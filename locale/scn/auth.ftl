@@ -327,9 +327,50 @@ subscriptionAccountFinishSetup-subject = Bummegna nne { $productName }: pi favur
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-title = Bummegna nne { $productName }
 subscriptionAccountFinishSetup-action-2 = Accumincia
+subscriptionAccountReminderFirst-action = Crìa na chiavi
+subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
+subscriptionAccountReminderSecond-title-2 = Bummegna nne { -brand-mozilla }!
+subscriptionAccountReminderSecond-action = Crìa na chiavi
+subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionCancellation-subject = A to iscrizzioni a { $productName } fu scancillata
+subscriptionCancellation-title = Ni dispiaci chi ti nni vai
 
 ## Variables
 ##   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 ##   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 ##   $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
 
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFailedPaymentsCancellation-subject = A to iscrizzioni a { $productName } fu scancillata
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionRenewalReminder-content-greeting = Caru clienti di { $productName },
+subscriptionRenewalReminder-content-closing = Saluti cari,
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionRenewalReminder-content-signature = A squatra di { $productName }
+subscriptionSubsequentInvoice-title = Grazzi pâ to iscrizzioni!
+confirm-account = Cunfirma u cuntu
+confirm-account-plaintext = { confirm-account }:
+verificationReminderFirst-subject-2 = Ricòrdati di cunfirmari u to cuntu
+verificationReminderFirst-title-3 = Bummegna nne { -brand-mozilla }!
+confirm-email-2 = Cunferma u cuntu
+confirm-email-plaintext-2 = { confirm-email-2 }:
+verificationReminderFirst-action-2 = Cunferma u cuntu
+verificationReminderSecond-action-2 = Cunferma u cuntu
+verify-action-2 = Cunferma u cuntu
+verifyLogin-subject-2 = Cunferma a trasuta
+verifyLogin-action = Cunferma a trasuta
+verifyLoginCode-expiry-notice = Scadi nna 5 minuti.
+verifyPrimary-subject = Cunferma u nnirizzu di posta elittrònica primariu
+verifyPrimary-action-2 = Cunferma nnirizzu di posta elittrònica
+verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
+verifySecondaryCode-action-2 = Cunferma nnirizzu di posta elittrònica
+# Variables:
+#  $code (Number) - e.g. 123456
+verifyShortCode-subject-3 = Cunferma u to cuntu
+verifyShortCode-preview = Usa u còdici pi cunfirmari u to { -product-mozilla-account }.
+verifyShortCode-expiry-notice = Scadi nna 5 minuti.
