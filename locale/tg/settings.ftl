@@ -779,6 +779,11 @@ auth-error-105-2 = Рамзи тасдиқкунанда нодуруст аст
 auth-error-214 = Рақами телефони барқарорсозӣ аллакай вуҷуд дорад
 auth-error-215 = Рақами телефони барқарорсозӣ вуҷуд надорад
 auth-error-1056 = нусхаи эҳтиётии рамзи санҷиши ҳаққонияти нодуруст
+# Displayed when we want to reference a user's previously set up recovery phone
+# number, but they are not completely signed in yet. We'll only show the last 4 digits.
+# Variables:
+#  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
+recovery-phone-number-ending-digits = Рақаме, ки дар анҷомаш дорои { $lastFourPhoneNumber } мебошад
 oauth-error-1000 = Чизе нодуруст иҷро шуд. Лутфан, ин варақаро пӯшед ва баъдтар аз нав кӯшиш кунед.
 
 ## Cannot Create Account page
@@ -810,6 +815,7 @@ cookies-disabled-learn-more = Маълумоти бештар
 ## Index / home page
 
 index-header = Почтаи электронии худро ворид кунед
+index-relay-header = Эҷод кардани ниқоби почтаи электронӣ
 index-cta = Сабти ном кунед ё ворид шавед
 index-email-input =
     .label = Почтаи электронии худро ворид кунед
@@ -817,6 +823,8 @@ index-email-input =
 ## InlineRecoveryKeySetup page component
 
 inline-recovery-key-setup-recovery-created = Калиди барқарорсозии ҳисоб эҷод карда шуд
+inline-recovery-key-setup-download-header = Ҳисоби худро муҳофизат кунед
+inline-recovery-key-setup-download-subheader = Ҳозир онро боргирӣ кунед ва нигоҳ доред
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
@@ -985,9 +993,21 @@ reset-password-complete-new-password-saved = Ниҳонвожаи нав ниг�
 
 # This is a label that precedes any error which could arise from trying to validate the user's signin
 error-label = Хато:
+# This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
+validating-signin = Тасдиқи воридшавӣ…
+# Shown above an error banner (e.g., invalid confirmation code, unexpected error)
+complete-signin-error-header = Хатои тасдиқи воридшавӣ
+# The user followed a signin confirmation link, but that link is expired and no longer valid
+signin-link-expired-header = Муҳлати пайванди тасдиқи воридшавӣ ба анҷом расид
 
 ## Signin page
 
+# $serviceLogo - an image of the logo of the service which the user is authenticating for.
+# For languages structured like English, the phrase can read "to continue to"
+signin-subheader-with-logo = Ба «<span>{ $serviceLogo }</span>» идома диҳед
+# $serviceName - the name of the service which the user authenticating for
+# For languages structured like English, the phrase can read "to continue to { $serviceName }"
+signin-subheader-without-logo-with-servicename = Ба «{ $serviceName }» идома диҳед
 signin-subheader-without-logo-default = Ба танзимоти ҳисоб идома диҳед
 signin-button = Ворид шудан
 signin-header = Ворид шудан
@@ -1042,10 +1062,13 @@ signin-recovery-code-phone-link = Истифодаи телефони барқа
 signin-recovery-code-support-link = Ҳисоби шумо қулф шудааст?
 # Error displayed in a tooltip when form is submitted witout a code
 signin-recovery-code-required-error = Рамзи санҷиши ҳаққоният лозим аст
+signin-recovery-code-use-phone-failure-description = Лутфан, баъдтар аз нав кӯшиш кунед.
 
 ## SigninRecoveryPhone page
 
 signin-recovery-phone-flow-heading = Ворид шудан
+# A recovery code in context of this page is a one time code sent to the user's phone
+signin-recovery-phone-heading = Рамзи барқарорсозиро ворид кунед
 signin-recovery-phone-input-label = Рамзи 6-рақамро ворид кунед
 signin-recovery-phone-code-submit-button = Тасдиқ кардан
 signin-recovery-phone-resend-code-button = Аз нав фиристодани рамз
@@ -1068,6 +1091,10 @@ signin-token-code-input-label-v2 = Рамзи 6-рақамро ворид кун
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Тасдиқ кардан
 signin-token-code-code-expired = Муҳлати рамз ба анҷом расид?
+# Link to resend a new code to the user's email.
+signin-token-code-resend-code-link = Рамзи наверо ба почтаи электронӣ ирсол намоед.
+# Error displayed in a tooltip when the form is submitted without a code
+signin-token-code-required-error = Рамзи тасдиқкунанда лозим аст
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1078,10 +1105,15 @@ signin-totp-code-input-label-v4 = Рамзи 6-рақамро ворид кун�
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Тасдиқ кардан
 signin-totp-code-other-account-link = Ҳисоби дигареро истифода баред
+signin-totp-code-recovery-code-link = Ҳангоми ворид кардани рамз мушкилӣ мекашед?
+# Error displayed in a tooltip when the form is submitted without a code
+signin-totp-code-required-error = Рамзи санҷиши ҳаққоният лозим аст
 
 ## Signin Unblock Page
 ## Page shown when signin has been blocked by rate limiting (too many requests)
 
+signin-unblock-header = Ба ин воридшавӣ иҷозат диҳед
+signin-unblock-code-input = Рамзи санҷиши дастрасиро ворид намоед
 signin-unblock-submit-button = Идома додан
 # Shown when the user attempts to submit the form without including a code
 signin-unblock-code-required-error = Рамзи санҷиши дастрасӣ лозим аст
@@ -1092,6 +1124,8 @@ signin-unblock-code-required-error = Рамзи санҷиши дастрасӣ 
 
 # and a confirmation code has been sent to their email address.
 
+# Page title show in browser title bar or page tab
+confirm-signup-code-page-title = Рамзи тасдиқкунандаро ворид намоед
 confirm-signup-code-input-label = Рамзи 6-рақамро ворид кунед
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = Тасдиқ кардан
