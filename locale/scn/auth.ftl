@@ -296,6 +296,37 @@ password-forgot-otp-subject = Ti scurdasti a chiavi?
 password-forgot-otp-title = Ti scurdasti a chiavi?
 password-forgot-otp-code-2 = Siḍḍu fusti tu, cca cc'è u còdici di cunferma pi jiri avanti:
 password-forgot-otp-expiry-notice = Stu còdici scadi ntra 10 minuti.
+postAddAccountRecovery-action = Manija cuntu
+postAddLinkedAccount-subject-2 = Novu cuntu lijatu ô to { -product-mozilla-account }
+#  Variables:
+#  $providerName (String) - The name of the provider, e.g. Apple, Google
+postAddLinkedAccount-title-2 = U to cuntu { $providerName } fu lijatu ô to { -product-mozilla-account }
+postAddLinkedAccount-action = Manija cuntu
+postAddRecoveryPhone-action = Manija cuntu
+postAddTwoStepAuthentication-action = Manija cuntu
+postChangeAccountRecovery-action = Manija cuntu
+postChangePrimary-subject = Nnirizzu di posta elittrònica primariu attualizzatu
+postChangePrimary-title = Novu nnirizzu di posta elittrònica primariu
+postChangePrimary-action = Manija cuntu
+postConsumeRecoveryCode-action = Manija cuntu
+postNewRecoveryCodes-action = Manija cuntu
+postRemoveAccountRecovery-action = Manija cuntu
+postRemoveSecondary-action = Manija cuntu
+postVerify-action-2 = Cunnetti n'autru dispusitivu
+postVerifySecondary-action = Manija cuntu
+recovery-title-2 = Ti scurdasti a chiavi?
+recovery-action = Crìa na chiavi nova
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountDeletion-subject = A to iscrizzioni a { $productName } fu scancillata
+subscriptionAccountDeletion-title = Ni dispiaci chi ti nni vai
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountFinishSetup-subject = Bummegna nne { $productName }: pi favuri mposta a to chiavi.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountFinishSetup-title = Bummegna nne { $productName }
+subscriptionAccountFinishSetup-action-2 = Accumincia
 
 ## Variables
 ##   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
