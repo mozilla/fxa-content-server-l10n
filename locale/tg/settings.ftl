@@ -7,6 +7,8 @@
 
 resend-code-success-banner-heading = Рамзи нав ба почтаи электронии шумо фиристода шуд.
 resend-link-success-banner-heading = Пайванди нав ба почтаи электронии шумо фиристода шуд.
+# $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
+resend-success-banner-description = Барои таъмин кардани интиқоли мунтазами паёмҳои электронӣ, «{ $accountsEmail }»-ро ба тамосҳои худ илова намоед.
 
 ## Brand Messaging component
 ## Used to show in product messaging about upcoming brand changes
@@ -15,6 +17,8 @@ resend-link-success-banner-heading = Пайванди нав ба почтаи �
 # This text is for screen-readers
 brand-banner-dismiss-button-2 =
     .aria-label = Пӯшидани баннер
+# This message is displayed as the title element in the banner, prior to actually launching the new brand
+brand-prelaunch-title = Дар санаи 1-уми ноябри соли ҷорӣ номи маҳсули «{ -product-firefox-accounts }» ба номи «{ -product-mozilla-accounts }» иваз карда мешавад
 # This is an extra link element, that directs users to a page where they can learn more about the branding changes.
 brand-learn-more = Маълумоти бештар
 # Alt text for close banner image
