@@ -91,6 +91,11 @@ automated-email-support-plaintext = Барои маълумоти иловагӣ
 # "This request" refers to a modification (addition, change or removal) to the account recovery key.
 # Variables:
 # - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+automatedEmailRecoveryKey-origin-device-browser-os = Ин дархост аз { $uaBrowser } дар { $uaOS } ворид шуд.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
 automatedEmailRecoveryKey-origin-device-browser-only = Ин дархост аз { $uaBrowser } ворид шуд.
 # "This request" refers to a modification (addition, change or removal) to the account recovery key.
 # Variables:
@@ -101,6 +106,8 @@ automatedEmailRecoveryKey-origin-device-OS-version-only = Ин дархост а
 # Variables:
 # - $uaOS: the user agent's operating system (e.g, MacOS)
 automatedEmailRecoveryKey-origin-device-OS-only = Ин дархост аз { $uaOS } ворид шуд.
+automatedEmailRecoveryKey-delete-key-change-pwd = Агар ин шумо набудед, <a data-l10n-name="revokeAccountRecoveryLink">калиди навро нест кунед</a> ва <a data-l10n-name="passwordChangeLink">ниҳонвожаи худро иваз намоед</a>.
+automatedEmailRecoveryKey-change-pwd-only = Агар ин шумо набудед, <a data-l10n-name="passwordChangeLink">ниҳонвожаи худро иваз намоед</a>.
 # Colon is followed by user device info on a separate line (e.g., "Firefox Nightly on Mac OSX 10.11")
 automatedEmailRecoveryKey-origin-plaintext = Ин дархост аз дастгоҳи зерин қабул шуд:
 # Colon is followed by a URL to the account recovery key section of account settings
@@ -260,6 +267,7 @@ postRemoveAccountRecovery-subject-2 = Калиди барқарорсозии ҳ
 postRemoveAccountRecovery-title-3 = Шумо калиди барқарорсозии ҳисобро нест кардед
 postRemoveAccountRecovery-action = Идоракунии ҳисоб
 postRemoveRecoveryPhone-subject = Телефони барқарорсозӣ тоза карда шуд
+postRemoveRecoveryPhone-preview = Ҳисоб бо санҷиши ҳаққонияти дуқадама ҳифз карда шуд
 postRemoveRecoveryPhone-title = Телефони барқарорсозӣ тоза карда шуд
 postRemoveRecoveryPhone-requested-device = Шумо онро дар дастгоҳи зерин дархост кардед:
 postRemoveSecondary-subject = Почтаи электронии иловагӣ тоза шуд
@@ -270,8 +278,10 @@ postRemoveTwoStepAuthentication-title-2 = Шумо санҷиши ҳаққони
 # After the colon is a description of the device the user used to disable two-step authentication
 postRemoveTwoStepAuthentication-from-device = Шумо онро дар дастгоҳи зерин ғайрифаъол кардед:
 postRemoveTwoStepAuthentication-action = Идоракунии ҳисоб
+postSigninRecoveryCode-subject = Нусхаи эҳтиётии рамзҳои санҷиши ҳаққоният, ки барои воридшавӣ истифода мешавад
 postSigninRecoveryCode-preview = Тасдиқ кардани фаъолияти ҳисоб
 postSigninRecoveryCode-action = Идоракунии ҳисоб
+postSigninRecoveryPhone-preview = Тасдиқ кардани фаъолияти ҳисоб
 postSigninRecoveryPhone-action = Идоракунии ҳисоб
 postVerify-subject-4 = Хуш омадед ба «{ -brand-mozilla }»!
 postVerify-setup-2 = Пайваст кардани дастгоҳи дигар:
@@ -292,9 +302,13 @@ subscriptionAccountFinishSetup-title = Хуш омадед ба «{ $productName
 subscriptionAccountFinishSetup-action-2 = Оғози кор
 subscriptionAccountReminderFirst-action = Эҷод кардани ниҳонвожа
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
+subscriptionAccountReminderSecond-subject = Ёдоварии ниҳоӣ: Ҳисоби худро танзим кунед
 subscriptionAccountReminderSecond-title-2 = Хуш омадед ба «{ -brand-mozilla }»!
 subscriptionAccountReminderSecond-action = Эҷод кардани ниҳонвожа
 subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionCancellation-subject = Обунаи шумо ба «{ $productName }» бекор карда шуд
 subscriptionCancellation-title = Афсӯс, ки шумо меравед
 
 ## Variables
@@ -306,10 +320,22 @@ subscriptionCancellation-title = Афсӯс, ки шумо меравед
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFailedPaymentsCancellation-subject = Обунаи шумо ба «{ $productName }» бекор карда шуд
 subscriptionFailedPaymentsCancellation-title = Обунаи шумо бекор карда шуд
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoice-subject = Пардохт барои «{ $productName }» тасдиқ карда шуд
+# Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+subscriptionFirstInvoice-content-next-invoice = Санади дархости пардохти навбатӣ: { $nextInvoiceDateOnly }
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-subject = Обунаи «{ $productName }» аз нав фаъол карда шуд
 subscriptionRenewalReminder-content-closing = Бо эҳтиром,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = Дастаи «{ $productName }»
+# Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
+subscriptionSubsequentInvoice-content-next-invoice = Санади дархости пардохти навбатӣ: { $nextInvoiceDateOnly }
 subscriptionUpgrade-title = Ташаккур ба шумо барои такмилдиҳӣ!
 unblockCode-subject = Рамзи санҷиши дастрасӣ ба ҳисоб
 unblockCode-title = Оё ин шумо ворид мешавед?
@@ -339,6 +365,7 @@ verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
 verifySecondaryCode-subject = Почтаи электронии иловагиро тасдиқ кунед
 verifySecondaryCode-title-2 = Почтаи электронии иловагиро тасдиқ кунед
 verifySecondaryCode-action-2 = Тасдиқ кардани почтаи электронӣ
+verifySecondaryCode-prompt-2 = Аз ин рамзи тасдиқкунанда истифода баред:
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = Ҳисоби худро тасдиқ кунед

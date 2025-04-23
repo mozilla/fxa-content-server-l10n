@@ -20,6 +20,8 @@ coupon-enter-code =
 
 ## Component - Fields
 
+default-input-error = Ин майдон ҳатмӣ аст.
+input-error-is-required = { $label } ҳатмӣ аст
 
 ## Component - Header
 
@@ -34,13 +36,24 @@ new-user-enter-email =
     .label = Почтаи электронии худро ворид кунед
 new-user-confirm-email =
     .label = Почтаи электронии худро тасдиқ кунед
+new-user-email-validate-confirm = Нишониҳои почтаи электронӣ мувофиқат намекунанд
 
 ## Component - PaymentConfirmation
 
 payment-confirmation-thanks-heading = Ташаккур!
+payment-confirmation-order-heading = Тафсилоти фармоиш
+payment-confirmation-invoice-number = Санади дархости пардохт №{ $invoiceNumber }
 # $invoiceDate (Date) - Start date of the latest invoice
 payment-confirmation-invoice-date = { $invoiceDate }
 payment-confirmation-details-heading-2 = Маълумоти пардохт
+payment-confirmation-amount = { $amount } барои ҳар { $interval }
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $intervalCount (Number) - The interval between payments, in days.
+payment-confirmation-amount-day =
+    { $intervalCount ->
+        [one] { $amount } барои ҳар рӯз
+       *[other] { $amount } барои ҳар { $intervalCount } рӯз
+    }
 
 ## Component - PaymentConsentCheckbox
 
