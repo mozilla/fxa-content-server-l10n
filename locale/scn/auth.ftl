@@ -345,6 +345,13 @@ subscriptionCancellation-title = Ni dispiaci chi ti nni vai
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFailedPaymentsCancellation-subject = A to iscrizzioni a { $productName } fu scancillata
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentFailed-subject = U pagamentu di { $productName } sfallìu
+subscriptionPaymentFailed-title = Ni dispiaci, accamora avemu prubblemi cû to pagamentu
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentFailed-content-problem = Àppimu un prubblema cû to ùrtimu pagamentu pi { $productName }.
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-greeting = Caru clienti di { $productName },
