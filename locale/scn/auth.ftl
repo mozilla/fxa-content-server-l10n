@@ -7,11 +7,21 @@ session-verify-send-push-body-2 = Ammacca cca pi cunfirmari a to idintità
 # Messages should be limited to one segment
 # $code  - 6 digit code used to verify phone ownership when registering a recovery phone
 recovery-phone-setup-sms-body = { $code } è u to còdici di virìfica { -brand-mozilla }. Scadi ntra 5 minuti.
+# Shorter message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to verify phone ownership when registering a recovery phone
+recovery-phone-setup-sms-short-body = Còdici di virìfica di { -brand-mozilla }: { $code }
 # Message sent by SMS with limited character length, please test translation with the messaging segment calculator
 # https://twiliodeved.github.io/message-segment-calculator/
 # Messages should be limited to one segment
 # $code  - 6 digit code used to sign in with a recovery phone as backup for two-step authentication
 recovery-phone-signin-sms-body = { $code } è u to còdici di ricùpiru { -brand-mozilla }. Scadi ntra 5 minuti.
+# Shorter message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to sign in with a recovery phone as backup for two-step authentication
+recovery-phone-signin-sms-short-body = Còdici di { -brand-mozilla }: { $code }
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
@@ -141,6 +151,10 @@ automated-email-reset =
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext-v2 = Si nun auturizzasti st'azzioni, pi favuri risetta a to chiavi ora: { $resetLink }
 brand-banner-message = U sai chi canciammu nomu di { -product-firefox-accounts } a { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Cchiù nfurmazzioni</a>
+cancellationSurvey = Pi favuri ajùtani a 'mmigghiurari i nostri sirbizzi arrispunnennu a sta <a data-l10n-name="cancellationSurveyUrl">ntirbista nicareḍḍa</a>.
+# After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
+cancellationSurvey-plaintext = Pi favuri ajùtani a 'mmigghiurari i nostri sirbizzi arrispunnennu a sta ntirbista nicareḍḍa:
+change-password-plaintext = Si ài u suspettu chi quarchidunu sta pruvannu a tràsiri nnô to cuntu, pi favuri cancia a to chiavi.
 manage-account = Manija cuntu
 manage-account-plaintext = { manage-account }:
 payment-details = Minutagghi dû pagamentu:
@@ -198,6 +212,11 @@ subscriptionFirstInvoice-content-charge = Addibbitatu { $invoiceTotal } u { $inv
 subscriptionSupport = Ài dumanni ncapu ô to abbunamentu? A nostra <a data-l10n-name="subscriptionSupportUrl">squatra di supportu</a> è cca p'ajutàriti.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Ài dumanni ncapu ô to abbunamento? A nostra squatra di supportu è cca p'ajutàriti:
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSupportContact = Grazzi chi ti scrivisti a { $productName }. Si ài dumanni ncapu â to iscrizzioni o ti sèrbinu cchiù assai nfurmazzioni ncapu a { $productName }, pi favuri <a data-l10n-name="subscriptionSupportUrl">cuntàttani</a>.
+# After the colon, there's a link to https://accounts.firefox.com/support
+subscriptionSupportContact-plaintext = Grazzi chi ti scrivisti a { $productName }. Si ài dumanni ncapu â to iscrizzioni o ti sèrbinu cchiù assai nfurmazzioni ncapu a { $productName }, pi favuri cuntàttani:
 # Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
@@ -217,8 +236,10 @@ cadReminderFirst-action = Sincrunizza n'autru dispusitivu
 cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = Sèrbinu du' sincrunizzazzioni
+cadReminderSecond-subject-2 = Nun ti pèrdiri nenti! Cumpleta a cunfijurazzioni p'accuminciari a sincrunizzari
 cadReminderSecond-action = Sincrunizza n'autru dispusitivu
 cadReminderSecond-title-2 = Nun ti scurdari di sincrunizzari!
+cadReminderSecond-description-sync = Sincrunizza i to nzingalibbri, i chiavi e autru unn'è-è ca usi { -brand-firefox }.
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-subject = Bummegna nne { $productName }
