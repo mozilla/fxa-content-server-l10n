@@ -76,6 +76,9 @@ body-android-badge = <img data-l10n-name="google-play-badge" alt="Боргирӣ
 body-ios-badge = <img data-l10n-name="apple-app-badge" alt="Боргирӣ кардани «{ $productName }» аз «{ -app-store }»">
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-device-2 = Насб кардани «{ $productName }» дар <a data-l10n-name="anotherDeviceLink">дастгоҳи дигар</a>.
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 android-download-plaintext = Ба даст овардани «{ $productName }» тавассути «Google Play»:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
@@ -104,12 +107,24 @@ payment-details = Тафсилоти пардохт:
 # After the colon is how the user paid, e.g. PayPal or credit card
 payment-method = Тарзи пардохт:
 payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
+# This string displays when the type of credit card is known
+# https://stripe.com/docs/payments/cards/supported-card-brands
+# Variables:
+#  $cardName (String) - The brand name of the credit card, e.g. American Express
+#  $lastFour (String) - The last four digits of the credit card, e.g. 5309
+credit-card-ending-in = Корти «{ $cardName }», ки рақамаш бо { $lastFour } анҷом меёбад
+# This string displays when the type of credit card is not known or recognized
+# Variable: $lastFour (String) - The last four digits of the credit card, e.g. 5309
+unknown-card-ending-in = Корти номаълуме, ки рақамаш бо { $lastFour } анҷом меёбад
 # Variables:
 #  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
 subscriptionFirstInvoiceDiscount-content-discount = Тахфиф: -{ $invoiceDiscountAmount }
 # Variables
 #  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
 subscriptionFirstInvoiceDiscount-content-discount-one-time = Тахфифи яккарата: -{ $invoiceDiscountAmount }
+# Variables:
+#  $invoiceTaxAmount (String) - The amount of the tax of the subscription invoice, including currency, e.g. $2.00
+subscriptionCharges-content-tax = Андозҳо ва ҳаққи ҳизматрасонӣ: { $invoiceTaxAmount }
 # Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
@@ -119,6 +134,7 @@ device-all = «{ $uaBrowser }» дар «{ $uaOS } { $uaOSVersion }»
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 device-browser-os = «{ $uaBrowser }» дар «{ $uaOS }»
+cadReminderFirst-subject-1 = Ёдоварӣ! Биёед «{ -brand-firefox }»-ро ҳамоҳанг созем
 cadReminderFirst-action = Ҳамоҳанг кардани дастгоҳи дигар
 cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 cadReminderSecond-action = Ҳамоҳанг кардани дастгоҳи дигар
@@ -156,8 +172,11 @@ passwordChanged-title = Ниҳонвожа бо муваффақият иваз 
 passwordChangeRequired-title = Ниҳонвожа бояд иваз карда шавад
 password-forgot-otp-subject = Ниҳонвожаи худро фаромӯш кардед?
 password-forgot-otp-title = Ниҳонвожаи худро фаромӯш кардед?
+password-forgot-otp-expiry-notice = Муҳлати ин рамз пас аз 10 дақиқа ба анҷом мерасад.
 passwordReset-subject-2 = Ниҳонвожаи шумо аз нав барқарор карда шуд
 passwordReset-title-2 = Ниҳонвожаи шумо аз нав барқарор карда шуд
+# This sentence is followed by information about the device and time of the password reset
+passwordReset-description-2 = Маълумоти барқарорсозии ниҳонвожаи «{ -product-mozilla-account }»-и шумо дар:
 passwordResetAccountRecovery-subject-2 = Ниҳонвожаи шумо аз нав барқарор карда шуд
 passwordResetAccountRecovery-title-3 = Ниҳонвожаи шумо аз нав барқарор карда шуд
 passwordResetAccountRecovery-action-4 = Идоракунии ҳисоб
@@ -173,6 +192,8 @@ postAddAccountRecovery-action = Идоракунии ҳисоб
 postAddLinkedAccount-action = Идоракунии ҳисоб
 postAddRecoveryPhone-subject = Телефони барқарорсозӣ илова карда шуд
 postAddRecoveryPhone-action = Идоракунии ҳисоб
+postAddTwoStepAuthentication-subject-2 = Санҷиши ҳаққонияти дуқадама фаъол аст
+postAddTwoStepAuthentication-title-2 = Шумо санҷиши ҳаққонияти дуқадамаро фаъол кардед
 postAddTwoStepAuthentication-action = Идоракунии ҳисоб
 postChangeAccountRecovery-action = Идоракунии ҳисоб
 postChangePrimary-title = Почтаи электронии асосии нав
