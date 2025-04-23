@@ -282,6 +282,7 @@ postVerifySecondary-action = Идоракунии ҳисоб
 recovery-subject = Барқарор кардани ниҳонвожаи худ
 recovery-title-2 = Ниҳонвожаи худро фаромӯш кардед?
 recovery-action = Ниҳонвожаи наверо эҷод намоед
+subscriptionAccountDeletion-title = Афсӯс, ки шумо меравед
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-subject = Хуш омадед ба «{ $productName }»! Лутфан, ниҳонвожаи худро танзим намоед.
@@ -294,6 +295,7 @@ subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminde
 subscriptionAccountReminderSecond-title-2 = Хуш омадед ба «{ -brand-mozilla }»!
 subscriptionAccountReminderSecond-action = Эҷод кардани ниҳонвожа
 subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
+subscriptionCancellation-title = Афсӯс, ки шумо меравед
 
 ## Variables
 ##   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
