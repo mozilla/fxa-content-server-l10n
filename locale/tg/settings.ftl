@@ -69,6 +69,18 @@ recovery-key-pdf-download-error = Мутаассифона, ҳангоми бо�
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
+# Prompt above a checklist of newsletters
+choose-newsletters-prompt-2 = Аз «{ -brand-mozilla }» ҳарчи бештар ба даст оред:
+# Newsletter checklist item
+choose-newsletters-option-latest-news =
+    .label = Хабарҳо ва навигариҳои охирини маҳсулоти моро қабул намоед
+# Newsletter checklist item
+choose-newsletters-option-test-pilot =
+    .label = Дастрасии пешакӣ барои озмоиши маҳсулоти нав
+# Newsletter checklist item. This for a Mozilla Foundation newsletters,
+# "Action alerts" can be interpreted as "Calls to action"
+choose-newsletters-option-reclaim-the-internet =
+    .label = Огоҳиҳои фаврӣ барои барқарорсозии дастрасӣ ба Интернет
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
@@ -142,6 +154,10 @@ form-reset-password-with-balloon-confirm-password =
 form-reset-password-with-balloon-submit-button = Барқарор кардани ниҳонвожа
 form-reset-password-with-balloon-match-error = Ниҳонвожаҳо мувофиқат намекунанд
 form-password-sr-too-short-message = Ниҳонвожа бояд на камтар аз 8 аломат дошта бошад.
+form-password-sr-not-email-message = Ниҳонвожаи шумо набояд нишонии почтаи электронии шуморо дар бар гирад.
+form-password-sr-not-common-message = Ниҳонвожа набояд аз ниҳонвожаҳои маъмул истифода шавад.
+form-password-sr-requirements-met = Ниҳонвожаи воридшуда ба ҳамаи талаботи ниҳонвожаҳо мутобиқат мекунад.
+form-password-sr-passwords-match = Ниҳонвожаҳои воридшуда мувофиқат мекунанд.
 
 ## FormPasswordInlineCriteria
 
@@ -157,13 +173,24 @@ form-password-with-inline-criteria-confirm-password =
 form-password-with-inline-criteria-reset-submit-button = Ниҳонвожаи наверо эҷод намоед
 form-password-with-inline-criteria-match-error = Ниҳонвожаҳо мувофиқат намекунанд
 form-password-with-inline-criteria-sr-too-short-message = Ниҳонвожа бояд на камтар аз 8 аломат дошта бошад.
+form-password-with-inline-criteria-sr-not-email-message = Ниҳонвожаи шумо набояд нишонии почтаи электронии шуморо дар бар гирад.
+form-password-with-inline-criteria-sr-not-common-message = Ниҳонвожа набояд аз ниҳонвожаҳои маъмул истифода шавад.
+form-password-with-inline-criteria-sr-requirements-met = Ниҳонвожаи воридшуда ба ҳамаи талаботи ниҳонвожаҳо мутобиқат мекунад.
+form-password-with-inline-criteria-sr-passwords-match = Ниҳонвожаҳои воридшуда мувофиқат мекунанд.
 
 ## FormVerifyCode
 
+# Fallback default localized error message for empty input field
+form-verify-code-default-error = Ин майдон ҳатмӣ аст.
 
 ## FormVerifyTotp component
 ## Form to enter a time-based one-time-passcode (e.g., 6-digit numeric code or 8-digit alphanumeric code)
 
+# Information explaining why button is disabled, also read to screen readers
+# Submit button is disabled unless a valid code format is entered
+# Used when the code may only contain numbers
+# $codeLength : number of digits in a valid code
+form-verify-totp-disabled-button-title-numeric = Барои идома додан, рамзи { $codeLength }-рақамаро ворид кунед
 
 # GetDataTrio component, part of Account Recovery Key flow
 
