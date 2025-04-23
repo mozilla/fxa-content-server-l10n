@@ -39,6 +39,19 @@ subplat-automated-email = Ин паёми худкори почтаи элекр
 subplat-privacy-notice = Огоҳномаи махфият
 subplat-privacy-plaintext = Огоҳномаи махфият:
 subplat-update-billing-plaintext = { subplat-update-billing }:
+# Variables:
+#  $email (String) - A user's primary email address
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subplat-explainer-specific-2 = Шумо ин паёми почтаи электрониро қабул кардед, зеро ки «{ $email }» дар ҳисоби «{ -product-mozilla-account }» вуҷуд дорад ва шумо барои «{ $productName }» номнавис шудед.
+# Variables:
+#  $email (String) - A user's primary email address
+subplat-explainer-reminder-form-2 = Шумо ин паёми почтаи электрониро қабул кардед, зеро ки «{ $email }» дар ҳисоби «{ -product-mozilla-account }» вуҷуд дорад.
+subplat-explainer-multiple-2 = Шумо ин паёми почтаи электрониро қабул кардед, зеро ки «{ $email }» дар ҳисоби «{ -product-mozilla-account }» вуҷуд дорад ва шумо ба якчанд маҳсули он обуна шудед.
+subplat-explainer-was-deleted-2 = Шумо ин паёми почтаи электрониро қабул кардед, зеро ки «{ $email }» дар ҳисоби «{ -product-mozilla-account }» ба қайд гирифта шудааст.
+subplat-manage-account-2 = Танзимоти худро дар «{ -product-mozilla-account }» тавассути <a data-l10n-name="subplat-account-page">саҳифаи ҳисоби худ</a> идора кунед.
+# Variables:
+#  $accountSettingsUrl (String) - URL to Account Settings
+subplat-manage-account-plaintext-2 = Танзимоти худро дар «{ -product-mozilla-account }» тавассути саҳифаи ҳисоби худ идора кунед: { $accountSettingsUrl }
 subplat-terms-policy = Шартҳо ва сиёсати барҳамдиҳӣ
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Бекор кардани обуна
@@ -58,6 +71,9 @@ subplat-privacy-website-plaintext = { subplat-privacy }:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-android-badge = <img data-l10n-name="google-play-badge" alt="Боргирӣ кардани «{ $productName }» аз «{ -google-play }»">
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+body-ios-badge = <img data-l10n-name="apple-app-badge" alt="Боргирӣ кардани «{ $productName }» аз «{ -app-store }»">
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 android-download-plaintext = Ба даст овардани «{ $productName }» тавассути «Google Play»:
