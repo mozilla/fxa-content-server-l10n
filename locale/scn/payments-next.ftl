@@ -11,10 +11,14 @@ payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = Pi prima cosa, hâ appruvari u to abbunamentu
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
 location-header = Scarta u to pajisi e metti u to còdici pustali <p>pi cuntinuari l'accàttitu di { $productName }</p>
+location-banner-info = Nun pòttimu pigghiari di manera autumàtica i nfurmazzioni ncapu â to pusizzioni
+location-required-disclaimer = Usamu sti nfurmazzioni sulu pi carculari i tassi e a valuta.
 
 ## Page - Upgrade page
 
 upgrade-page-payment-information = Nfurmazzioni di pagamentu
+# $nextInvoiceDate (number) - The date of the next invoice
+upgrade-page-acknowledgment = U to chianu veni attualizzatu sùbbitu, e ti veni addibbitatu chiḍḍu chi ammanca, di manera prupurziunali, pû restu dû piriudu di fatturazzioni. Accuminciannu dû { $nextInvoiceDate } ti veni addibbitata a còtima sana.
 checkout-error-boundary-retry-button = Prova arrè
 checkout-error-boundary-basic-error-message = Cci fu un prubblema. Pi favuri torna a prova o <contactSupportLink>cuntatta l'assistenza</contactSupportLink>.
 
@@ -59,6 +63,7 @@ next-payment-confirmation-download-button = Cuntinua cû scarricamentu
 next-payment-confirmation-cc-card-ending-in = Carta chi finisci pi { $last4 }
 # Page - Not Found
 page-not-found-title = Pàggina nun truvata
+page-not-found-description = A pàggina chi addumannasti nun fu truvata. Ni fu signalijatu e circamu d'abbirsari tutti i lijami chi sfarsìjanu.
 page-not-found-back-button = Vai nn'arrè
 
 ## Component - Payment Consent Checkbox
@@ -92,6 +97,26 @@ payments-header-help =
     .title = Ajutu
     .aria-label = Ajutu
     .alt = Ajutu
+payments-header-bento =
+    .title = Prudutti { -brand-mozilla }
+    .aria-label = Prudutti { -brand-mozilla }
+    .alt = Mercu { -brand-mozilla }
+payments-header-bento-close =
+    .alt = Chiuji
+payments-header-bento-tagline = Autri prudutti { -brand-mozilla } chi prutègginu a to privatizza
+payments-header-bento-firefox-desktop = { -brand-firefox } pû Scagnu
+payments-header-bento-firefox-mobile = { -brand-firefox } pû Tilèfunu
+payments-header-bento-monitor = { -product-mozilla-monitor }
+payments-header-bento-firefox-relay = { -product-firefox-relay }
+payments-header-bento-vpn = { -product-mozilla-vpn }
+payments-header-bento-pocket = { -product-pocket }
+payments-header-bento-made-by-mozilla = Fattu di { -brand-mozilla }
+payments-header-avatar =
+    .title = Minù di { -product-mozilla-account }
+payments-header-avatar-icon =
+    .alt = Mmàggini di prufilu pû cuntu
+payments-header-avatar-expanded-signed-in-as = Trasisti comu
+payments-header-avatar-expanded-sign-out = Nesci
 payments-client-loading-spinner =
     .aria-label = Staju carricannu…
     .alt = Staju carricannu…
@@ -117,6 +142,7 @@ next-coupon-success-repeating = U to chianu veni rinnuvatu di manera autumàtica
 select-tax-location-title = Pusizzioni
 select-tax-location-edit-button = Cancia
 select-tax-location-save-button = Sarba
+select-tax-location-continue-to-checkout-button = Cuntinua cû pagamentu
 select-tax-location-country-code-label = Pajisi
 select-tax-location-country-code-placeholder = Scarta u to pajisi
 select-tax-location-error-missing-country-code = Pi favuri scarta u to pajisi
@@ -147,6 +173,7 @@ next-new-user-subscribe-product-assurance = Usamu u to nnirizzu di posta elittr�
 plan-price-interval-daily = { $amount } ô jornu
 plan-price-interval-weekly = { $amount } â simana
 plan-price-interval-monthly = { $amount } ô misi
+plan-price-interval-halfyearly = { $amount } ogni 6 misi
 plan-price-interval-yearly = { $amount } ogni annu
 
 ## Component - SubscriptionTitle
@@ -155,6 +182,7 @@ next-subscription-create-title = Cunfijura u to abbunamentu
 next-subscription-success-title = Cunferma di l'abbunamentu
 next-subscription-processing-title = Staju cunfirmannu l'abbunamentu…
 next-subscription-error-title = Cci fu un prubblema mentri chi cunfirmava l'abbunamentu…
+subscription-title-plan-change-heading = Rividi u to canciu
 next-sub-guarantee = Priggiarìa di rifazzioni pi 30 jorna
 
 ## Component - TermsAndPrivacy
@@ -173,6 +201,7 @@ terms-and-privacy-stripe-and-paypal-label = { -brand-mozilla } usa { -brand-name
 
 ## Component - UpdatedPurchaseDetails
 
+upgrade-purchase-details-current-plan-label = Chianu attuali
 upgrade-purchase-details-new-plan-label = Chianu novu
 upgrade-purchase-details-promo-code = Còdici prumuzziunali
 upgrade-purchase-details-tax-label = Tassi e cummissioni

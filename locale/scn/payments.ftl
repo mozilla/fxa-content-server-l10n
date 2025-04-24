@@ -350,7 +350,11 @@ general-error-heading = Erruri ginirali di l'applicazzioni
 basic-error-message = Cci fu un prubblema. Pi favuri torna a prova cchiù tardu.
 payment-error-1 = Mmh. Cci fu un prubblema cu l'auturizzazzioni dû to pagamentu. Pi favuri torna a prova o cuntatta cu' ti rilassau a carta.
 payment-error-2 = Mmh. Cci fu un prubblema cu l'auturizzazzioni dû to pagamentu. Pi favuri cuntatta cu' ti rilassau a carta.
+payment-error-3b = Cci fu n'erruri amentri chi prucissàvamu u to pagamentu, pi favuri torna a prova.
 expired-card-error = Parissi chi a to carta scadìu. Prova a usari n'autra carta.
+insufficient-funds-error = Parissi chi a to carta nun àvi sordi bastanti. Prova a usari n'autra carta.
+withdrawal-count-limit-exceeded-error = Parissi chi stu pagamentu ti facissi passari a finaita di spisa dâ to carta. Prova a usari n'autra carta.
+charge-exceeds-source-limit = Parissi chi stu pagamentu ti facissi passari a finaita di spisa jurnalera dâ to carta. Prova a usari n'autra carta, o aspetta 24 uri.
 # $mobileAppStore (String) - "Google Play Store" or "App Store", localized when the translation is available.
 iap-already-subscribed = Già facisti l'abbunamentu pi tràmiti di { $mobileAppStore }.
 
