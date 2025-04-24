@@ -430,6 +430,7 @@ postRemoveAccountRecovery-action = Hantera konto
 postRemoveRecoveryPhone-subject = Återställningstelefon borttagen
 postRemoveRecoveryPhone-preview = Kontot skyddas av tvåstegsautentisering
 postRemoveRecoveryPhone-title = Återställningstelefon borttagen
+postRemoveRecoveryPhone-description-v2 = Din återställningstelefon har tagits bort från dina inställningar för tvåstegsautentisering.
 postRemoveRecoveryPhone-requested-device = Du har begärt det från:
 postRemoveSecondary-subject = Sekundär e-postadress borttagen
 postRemoveSecondary-title = Sekundär e-postadress borttagen

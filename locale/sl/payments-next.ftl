@@ -31,7 +31,10 @@ next-payment-error-retry-button = Poskusi znova
 next-basic-error-message = Prišlo je do napake. Poskusite znova pozneje.
 checkout-error-contact-support-button = Obrnite se na podporo
 checkout-error-not-eligible = Niste upravičeni do naročnine na ta izdelek – obrnite se na podporo, da vam lahko pomagamo.
+checkout-error-already-subscribed = Na ta izdelek ste že naročeni.
 checkout-error-contact-support = Obrnite se na podporo, da vam lahko pomagamo.
+cart-error-currency-not-determined = Valute za ta nakup ni bilo mogoče določiti, poskusite znova.
+checkout-processing-general-error = Med obdelavo vašega plačila je prišlo do nepričakovane napake, poskusite znova.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -182,6 +185,7 @@ next-subscription-create-title = Nastavite svojo naročnino
 next-subscription-success-title = Potrditev naročnine
 next-subscription-processing-title = Potrjevanje naročnine …
 next-subscription-error-title = Napaka pri potrjevanju naročnine …
+subscription-title-sub-exists = Ste se že naročili
 subscription-title-plan-change-heading = Preglejte spremembo
 next-sub-guarantee = 30-dnevno vračilo denarja
 

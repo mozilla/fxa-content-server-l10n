@@ -33,7 +33,10 @@ next-payment-error-retry-button = Próbálja újra
 next-basic-error-message = Hiba történt, próbálja újra később.
 checkout-error-contact-support-button = Kapcsolatfelvétel az ügyfélszolgálattal
 checkout-error-not-eligible = Nem jogosult arra, hogy előfizessen erre a termékre – lépjen kapcsolatba az ügyfélszolgálattal, hogy segíthessünk.
+checkout-error-already-subscribed = Már fel van fizetve erre a termékre.
 checkout-error-contact-support = Lépjen kapcsolatba az ügyfélszolgálattal, hogy segíthessünk.
+cart-error-currency-not-determined = Nem sikerült meghatározni a vásárlás pénznemét, próbálja újra.
+checkout-processing-general-error = Váratlan hiba történt a fizetése feldolgozása során, próbálja újra.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -184,6 +187,7 @@ next-subscription-create-title = Állítsa be a feliratkozását
 next-subscription-success-title = Feliratkozás megerősítése
 next-subscription-processing-title = Feliratkozás megerősítése…
 next-subscription-error-title = Hiba a feliratkozás megerősítésekor…
+subscription-title-sub-exists = Már feliratkozott
 subscription-title-plan-change-heading = A változtatás áttekintése
 next-sub-guarantee = 30 napos pénzvisszafizetési garancia
 

@@ -31,7 +31,10 @@ next-payment-error-retry-button = Ceisiwch eto
 next-basic-error-message = Aeth rhywbeth o'i le. Ceisiwch eto.
 checkout-error-contact-support-button = Cysylltu â Chefnogaeth
 checkout-error-not-eligible = Nid ydych yn gymwys i danysgrifio i'r cynnyrch hwn - cysylltwch â'r tîm cymorth fel y gallwn eich helpu.
+checkout-error-already-subscribed = Rydych chi eisoes wedi tanysgrifio i'r cynnyrch hwn.
 checkout-error-contact-support = Cysylltwch â'r tîm cymorth fel y gallwn eich helpu.
+cart-error-currency-not-determined = Nid oeddem yn gallu pennu'r arian cyfred ar gyfer y pryniant hwn, ceisiwch eto.
+checkout-processing-general-error = Mae gwall annisgwyl wedi digwydd wrth brosesu'ch taliad, ceisiwch eto.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -182,6 +185,7 @@ next-subscription-create-title = Gosod eich tanysgrifiad
 next-subscription-success-title = Cadarnhad o'ch tanysgrifiad
 next-subscription-processing-title = Yn cadarnhau eich tanysgrifiad…
 next-subscription-error-title = Gwall wrth gadarnhau eich tanysgrifiad…
+subscription-title-sub-exists = Rydych chi eisoes wedi tanysgrifio
 subscription-title-plan-change-heading = Adolygwch eich newid
 next-sub-guarantee = Gwarant arian-yn-ôl 30 diwrnod
 
