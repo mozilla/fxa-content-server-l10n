@@ -217,6 +217,18 @@ subscriptionSupport-plaintext = Ài dumanni ncapu ô to abbunamento? A nostra sq
 subscriptionSupportContact = Grazzi chi ti scrivisti a { $productName }. Si ài dumanni ncapu â to iscrizzioni o ti sèrbinu cchiù assai nfurmazzioni ncapu a { $productName }, pi favuri <a data-l10n-name="subscriptionSupportUrl">cuntàttani</a>.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupportContact-plaintext = Grazzi chi ti scrivisti a { $productName }. Si ài dumanni ncapu â to iscrizzioni o ti sèrbinu cchiù assai nfurmazzioni ncapu a { $productName }, pi favuri cuntàttani:
+subscriptionUpdateBillingEnsure = <a data-l10n-name="updateBillingUrl">Cuntrolla</a> si i nfurmazzioni ncapu ô to cuntu e ncapu ê furmi di pagamentu sunnu attualizzati.
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
+subscriptionUpdateBillingEnsure-plaintext = Cuntrolla si i nfurmazzioni ncapu ô to cuntu e ncapu ê furmi di pagamentu sunnu attualizzati:
+subscriptionUpdateBillingTry = Pruvamu arrè u to pagamentu i pròssimi jorna, ma capaci chi serbi chi <a data-l10n-name="updateBillingUrl">attualizzi i to nfurmazzioni di pagamentu</a>.
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
+subscriptionUpdateBillingTry-plaintext = Pruvamu arrè u to pagamentu i pròssimi jorna, ma capaci chi serbi chi attualizzi i to nfurmazzioni di pagamentu:.
+subscriptionUpdatePayment = Pi scanzari di firmari u sirbizzu, pi favuri <a data-l10n-name="updateBillingUrl">attualizza i to nfurmazzioni di pagamentu</a> prima ca poi.
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
+subscriptionUpdatePayment-plaintext = Pi scanzari di firmari u sirbizzu, pi favuri attualizza i to nfurmazzioni di pagamentu prima ca poi:
+# Variables:
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-2 = P'aviri cchiù assai nfurmazzioni, vìsita u situ di supportu di { -brand-mozilla }: { $supportUrl }.
 # Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
@@ -236,16 +248,19 @@ cadReminderFirst-action = Sincrunizza n'autru dispusitivu
 cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = Sèrbinu du' sincrunizzazzioni
+cadReminderFirst-description-v2 = Pòrtati i schedi ncapu a tutti i to dispusitivi. Pigghia i to nzingalibbra, i chiavi e l'autri dati unn'è-è cu { -brand-firefox }.
 cadReminderSecond-subject-2 = Nun ti pèrdiri nenti! Cumpleta a cunfijurazzioni p'accuminciari a sincrunizzari
 cadReminderSecond-action = Sincrunizza n'autru dispusitivu
 cadReminderSecond-title-2 = Nun ti scurdari di sincrunizzari!
 cadReminderSecond-description-sync = Sincrunizza i to nzingalibbri, i chiavi e autru unn'è-è ca usi { -brand-firefox }.
+cadReminderSecond-description-plus = Cchiù assai, i to dati sunnu sempri crittati. Sulu tu e i dispusitivi chi appruvi i ponnu vìdiri.
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-subject = Bummegna nne { $productName }
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-title = Bummegna nne { $productName }
+downloadSubscription-content-2 = Accuminciamu a usari tutti i funzioni nchiusi nnâ to iscrizzioni:
 downloadSubscription-link-action-2 = Accumincia
 fraudulentAccountDeletion-subject-2 = U to { -product-mozilla-account } fu scancillatu
 fraudulentAccountDeletion-title = U to cuntu fu scancillatu
