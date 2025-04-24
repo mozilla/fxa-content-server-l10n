@@ -374,6 +374,9 @@ password-reset-data-may-not-be-recovered = Putissi èssiri ca nun si ponnu ricup
 password-reset-previously-signed-in-device-2 = Ài autri dispusitivi unni già trasisti?
 password-reset-data-may-be-saved-locally-2 = Capaci ca i dati dû navicaturi sunnu sarbati nna ḍḍu dispusitivu. Risetta a to chiavi e trasi ḍḍocu pi ricupigghiari e sincrunizzari i to dati.
 password-reset-no-old-device-2 = Ài un dispusitivu novu ma nun ài accessu a nuḍḍu di l'autri to dispusitivi?
+password-reset-encrypted-data-cannot-be-recovered-2 = Ni dispiaci, ma nun è pussìbbili ricupigghiari i dati crittati dû to navicaturi dî sirbura { -brand-firefox }.
+password-reset-warning-have-key = Ài na chiavi di ricùpiru dû cuntu?
+password-reset-warning-use-key-link = Ùsala pi risittari a to chiavi e sarbari i to dati
 
 ## Alert Bar
 
@@ -392,6 +395,7 @@ avatar-default-avatar =
 # BentoMenu component
 
 bento-menu-title-3 = Prudutti { -brand-mozilla }
+bento-menu-tagline = Autri prudutti { -brand-mozilla } chi prutègginu a to privatizza
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-3 = { -product-mozilla-monitor }
 bento-menu-pocket-2 = { -product-pocket }
@@ -404,9 +408,17 @@ bento-menu-made-by-mozilla = Fattu di { -brand-mozilla }
 
 connect-another-fx-mobile = Pìgghiari { -brand-firefox } nnô tilèfunu o nnâ tavuliḍḍa
 connect-another-find-fx-mobile-2 = Riscedi a { -brand-firefox } nne { -google-play } e { -app-store }.
+# Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
+# These images are used to encourage users to download Firefox on their mobile devices.
+connect-another-play-store-image =
+    .title = Pìgghiati { -brand-firefox } di { -google-play }
+connect-another-app-store-image-2 =
+    .title = Pìgghiati { -brand-firefox } di { -app-store }
 
 ## Connected services section
 
+cs-heading = Sirbizza cunnessi
+cs-description = Tuttu chiḍḍu ca usi e unni trasisti.
 
 ## This string is used in a modal dialog when the user starts the disconnect from
 ## Sync process.
@@ -418,6 +430,7 @@ connect-another-find-fx-mobile-2 = Riscedi a { -brand-firefox } nne { -google-pl
 ## The following are the options for selecting a reason for disconnecting the
 ## device
 
+cs-disconnect-sync-opt-prefix = U dispusitivu è:
 cs-disconnect-sync-opt-not-say = Nun u vogghiu diri
 
 ##
@@ -472,12 +485,21 @@ flow-container-back = Nn'arrè
 
 ## Linked Accounts section
 
+la-unlink-button = Slija
+la-unlink-account-button = Slija
+la-set-password-button = Mpusta chiavi
+la-unlink-heading = Slija d'un cuntu terzu
+nav-linked-accounts = { la-heading }
 
 ## Modal - Default values for a message directed at the user where the user can typically Confirm or Cancel.
 
+modal-close-title = Chiuji
+modal-cancel-button = Sfai
+modal-default-confirm-button = Cunferma
 
 ## Modal Verify Session
 
+mvs-verify-your-email-2 = Cunferma u to nnirizzu di posta elittrònica
 
 ## Settings Nav
 
