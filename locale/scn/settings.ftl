@@ -7,6 +7,8 @@
 
 resend-code-success-banner-heading = Mannammu un còdici novu ô to nnirizzu di posta elittrònica.
 resend-link-success-banner-heading = Mannammu na lijami nova ô to nnirizzu di posta elittrònica.
+# $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
+resend-success-banner-description = Junci { $accountsEmail } ê to cuntatti pi nun aviri prubblemi câ cunzigna.
 
 ## Brand Messaging component
 ## Used to show in product messaging about upcoming brand changes
@@ -15,6 +17,13 @@ resend-link-success-banner-heading = Mannammu na lijami nova ô to nnirizzu di p
 # This text is for screen-readers
 brand-banner-dismiss-button-2 =
     .aria-label = Chiuji bannera
+# This message is displayed as the title element in the banner, prior to actually launching the new brand
+brand-prelaunch-title = I { -product-firefox-accounts } addivèntanu { -product-mozilla-accounts } dû 1ᵘ di nuvèmmiru
+# This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
+brand-prelaunch-subtitle = Trasi sempri cû stissu nomu utenti e a stissa chiavi, e nun cc'è nuḍḍu autru canciamentu nnî prudutti chi usi.
+# This message is displayed as title element in the banner, after the brand changes take affect letting the user know that
+# no action is required on their part
+brand-postlaunch-title = Canciamu u nomu dî { -product-firefox-accounts } a { -product-mozilla-accounts }. Trasi sempri cû stissu nomu utenti e a stissa chiavi, e nun cc'è nuḍḍu autru canciamentu nnî prudutti chi usi.
 # This is an extra link element, that directs users to a page where they can learn more about the branding changes.
 brand-learn-more = Cchiù nfurmazzioni
 # Alt text for close banner image
@@ -45,14 +54,40 @@ recovery-key-pdf-heading = Chiavi di ricùpiru dû cuntu
 recovery-key-pdf-download-date = Ginirata: { $date }
 # Shown directly above recovery key value and preceeded by a key icon
 recovery-key-pdf-key-legend = Chiavi di ricùpiru dû cuntu
+# Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
+# Password resets without this account recovery key can result in data loss.
+# "key" here refers to "account recovery key"
+recovery-key-pdf-instructions = Sta chiavi ti pirmetti di ricupigghiari i dati crittati dû navicaturi (chiavi, nzingalibbra e crunuluggìa) si ti scordi a chiavi dû cuntu. Sàrbala nnôn postu chi t'arricordi.
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+recovery-key-pdf-storage-ideas-heading = Unni sarbari sta chiavi
+# Followed by a link (https://mzl.la/3bNrM1I) to get more information and support
+recovery-key-pdf-support = Cchiù nfurmazzioni ncapu a chiavi di ricùpiru dû cuntu
+# Error message displayed in an alert bar if the PDF download failed.
+recovery-key-pdf-download-error = Ni dispiaci, cci fu un prubblema nnô scarricamentu dâ to chiavi di ricùpiru dû cuntu.
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
+# Prompt above a checklist of newsletters
+choose-newsletters-prompt-2 = Ricivi cchiù assai di { -brand-mozilla }:
+# Newsletter checklist item
+choose-newsletters-option-latest-news =
+    .label = Ricivi l'ùrtimi nutizzi e attualizzi ncapu ê prudutti
+# Newsletter checklist item
+choose-newsletters-option-test-pilot =
+    .label = Accessu 'n antiprima pi pruvari i prudutti novi
+# Newsletter checklist item. This for a Mozilla Foundation newsletters,
+# "Action alerts" can be interpreted as "Calls to action"
+choose-newsletters-option-reclaim-the-internet =
+    .label = Abbisi di azzioni pi pigghiàriti arrè u cuntrollu dâ riti
 
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
 
+# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
+# That users can choose to sync
+choose-what-to-sync-prompt-2 = Scarta soccu sincrunizzari
 choose-what-to-sync-option-bookmarks =
     .label = Nzingalibbra
 choose-what-to-sync-option-history =
@@ -84,9 +119,42 @@ datablock-print =
 ## The strings here are used to display information about the origin of activity happening on a user's account
 ## For example, when connecting another device to the user's account
 
+# Variables { $city }, { $region }, { $country } represent the estimated location of the user's device
+# For example, 'Vancouver, British Columbia, Canada (estimated)'
+device-info-block-location-city-region-country = { $city }, { $region }, { $country } (stimatu)
+# Variables { $region }, { $country } represent the estimated location of the user's device
+# For example, 'British Columbia, Canada (estimated)'
+device-info-block-location-region-country = { $region }, { $country } (stimatu)
+# Variables { $city }, { $country } represent the estimated location of the user's device
+# For example, 'Vancouver, Canada (estimated)'
+device-info-block-location-city-country = { $city }, { $country } (stimatu)
+# Variable { $country } represent the estimated location of the user's device
+# For example, 'Canada (estimated)'
+device-info-block-location-country = { $country } (stimatu)
+# When an approximate location for the user's device could not be determined
+device-info-block-location-unknown = Pusizzioni scanusciuta
+# Variable { $browserName } is the browser that created the request (e.g., Firefox)
+# Variable { $genericOSName } is the name of the operating system that created the request (e.g., MacOS, Windows, iOS)
+device-info-browser-os = { $browserName } di { $genericOSName }
+# Variable { $ipAddress } represents the IP address where the request originated
+# The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
+device-info-ip-address = Nnirizzu IP: { $ipAddress }
 
 ## FormPasswordWithBalloons
 
+signup-new-password-label =
+    .label = Chiavi
+signup-confirm-password-label =
+    .label = Ripeti a chiavi
+signup-submit-button = Crìa un cuntu
+form-reset-password-with-balloon-new-password =
+    .label = Chiavi nova
+form-reset-password-with-balloon-confirm-password =
+    .label = Metti arrè a chiavi
+form-reset-password-with-balloon-submit-button = Risetta a chiavi
+form-reset-password-with-balloon-match-error = I chiavi chi mittisti nun appàttanu
+form-password-sr-too-short-message = I chiavi ànn'a èssiri di armenu 8 caràttari.
+form-password-sr-not-email-message = I chiavi nun ànn'a cuntèniri u to nnirizzu di posta elittrònica.
 
 ## FormPasswordInlineCriteria
 
