@@ -523,11 +523,14 @@ nav-email-comm = Cumunicazzioni pi posta elittrònica
 tfa-replace-code-error-3 = Cci fu un prubblema amentri chi canciava i còdici d'autinticazzioni di sicurizza
 tfa-create-code-error = Cci fu un prubblema amentri chi criava i còdici d'autinticazzioni di sicurizza
 tfa-replace-code-success-1 = Foru criati còdici novi. Sarba sti còdici d'autinticazzioni di sicurizza nnôn postu sicuru — ti sèrbinu pi tràsiri nnô to cuntu si nun ài u to dispusitivu mòbbili.
+tfa-replace-code-success-alert-4 = Còdici d'autinticazzioni di sicurizza attualizzati
 tfa-replace-code-1-2 = Passu 1 di 2
 tfa-replace-code-2-2 = Passu 2 di 2
 
 ## Avatar change page
 
+avatar-page-title =
+    .title = Mmàggini dû prufilu
 avatar-page-add-photo = Junci fotu
 avatar-page-add-photo-button =
     .title = { avatar-page-add-photo }
@@ -547,11 +550,23 @@ avatar-page-zoom-in-button =
     .title = Cchiù granni
 avatar-page-rotate-button =
     .title = Gira
+avatar-page-camera-error = Mpussìbbili inizializzari a fotucàmmira
+avatar-page-new-avatar =
+    .alt = mmàggini dû prufilu nova
+avatar-page-file-upload-error-3 = Cci fu un prubblema amentri chi carricava a to mmàggini dû prufilu
+avatar-page-delete-error-3 = Cci fu un prubblema amentri chi scancillava a to mmàggini dû prufilu
+avatar-page-image-too-large-error-2 = U pricu è troppu assai grossu pû carricamentu
 
 ## Password change page
 
 pw-change-header =
     .title = Cancia a chiavi
+pw-8-chars = Armenu 8 caràttari
+pw-not-email = Nun cci àv'a èssiri u to nnirizzu di posta elittrònica
+pw-change-must-match = A chiavi nova appatta câ cunferma
+pw-commonly-used = Nun àv'a èssiri na chiavi cumuni
+# linkExternal is a link to a mozilla.org support article on password strength
+pw-tips = Arresta ô sicuru — nun usare i chiavi nna cchiù assai d'un locu. Vidi i nostri cunzigghi ncapu a comu <linkExternal>criari chiavi forti</linkExternal>.
 pw-change-cancel-button = Sfai
 pw-change-save-button = Sarba
 pw-change-forgot-password-link = Ti scurdasti a chiavi?
@@ -568,11 +583,20 @@ pw-change-success-alert-2 = Chiavi attualizzata
 pw-create-header =
     .title = Crìa na chiavi
 pw-create-success-alert-2 = Chiavi mpustata
+pw-create-error-2 = Ni dispiaci, cci fu un prubblema amentri chi mpustava a to chiavi
 
 ## Delete account page
 
 delete-account-header =
     .title = Scancella cuntu
+delete-account-step-1-2 = Passu 1 di 2
+delete-account-step-2-2 = Passu 2 di 2
+delete-account-product-mozilla-account = { -product-mozilla-account(capitalization: "uppercase") }
+delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
+delete-account-product-mdn-plus = { -product-mdn-plus }
+delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
+delete-account-product-pocket = { -product-pocket }
+delete-account-product-mozilla-monitor = { -product-mozilla-monitor }
 delete-account-continue-button = Cuntinua
 delete-account-password-input =
     .label = Metti a chiavi
@@ -596,6 +620,7 @@ recent-activity-account-create-v2 = Cuntu criatu
 recent-activity-account-disable-v2 = Cuntu sdisabbilitatu
 recent-activity-account-enable-v2 = Cuntu abbilitatu
 recent-activity-account-password-changed = Chiavi canciata
+recent-activity-account-recovery-phone-setup-complete = Cumplitasti a cunfijurazzioni dû nùmmaru di tilèfunu pi ricupigghiari u cuntu
 
 ## PageRecoveryKeyCreate
 
@@ -603,6 +628,7 @@ recent-activity-account-password-changed = Chiavi canciata
 ## PageRecoveryPhoneRemove
 ## Users reach this page from account settings when they want to remove a backup phone number.
 
+recovery-phone-remove-header = Scancella u nùmmaru di tilèfunu di ricùpiru dû cuntu
 
 ## PageSetupRecoveryPhone
 
@@ -610,9 +636,15 @@ recent-activity-account-password-changed = Chiavi canciata
 ## Add secondary email page
 
 add-secondary-email-step-1 = Passu 1 di 2
+add-secondary-email-enter-address =
+    .label = Metti u nnirizzu di posta elittrònica
+add-secondary-email-cancel-button = Sfai
+add-secondary-email-save-button = Sarba
 
 ## Verify secondary email page
 
+verify-secondary-email-cancel-button = Sfai
+verify-secondary-email-verify-button-2 = Cunferma
 
 ##
 
