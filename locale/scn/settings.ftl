@@ -307,10 +307,21 @@ password-strength-balloon-stay-safe-tips = Arresta ô sicuru — nun usare i chi
 
 ## PasswordStrengthBalloon component
 
+password-strength-inline-min-length = Armenu 8 caràttari
+password-strength-inline-not-email = Nun cci àv'a èssiri u to nnirizzu di posta elittrònica
+password-strength-inline-not-common = Nun àv'a èssiri na chiavi cumuni
+password-strength-inline-confirmed-must-match = A cunferma appatta câ chiavi nova
 
 ## Ready component
 
+ready-complete-set-up-instruction = Cumpleta a cunfijurazzioni mittennu a to chiavi nova nni l'autri dispusitivi { -brand-firefox }.
 manage-your-account-button = Manija u to cuntu
+# This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
+# Variables:
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+ready-use-service = Ora po' usari { $serviceName }
+# The user successfully accomplished a task (password reset, confirm email) that lets them use their account
+ready-use-service-default = Ora po' usari i mpustazzioni dû cuntu
 # Message shown when the account is ready but the user is not signed in
 ready-account-ready = U to cuntu è lestu!
 ready-continue = Cuntinua
@@ -321,14 +332,37 @@ primary-email-verified-header = Nnirizzu di posta elittrònica primariu cunfirma
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
 
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+flow-recovery-key-download-storage-ideas-heading-v2 = Unni sarbari a to chiavi:
+flow-recovery-key-download-storage-ideas-folder-v2 = Carpetta nnôn dispusitivu sicuru
+flow-recovery-key-download-storage-ideas-cloud = Spazziu affidàbbili nnâ nèvula
+flow-recovery-key-download-storage-ideas-print-v2 = Copia fìsica stampata
+flow-recovery-key-download-storage-ideas-pwd-manager = Manijaturi di chiavi
 
 ## RecoveryKeySetupHint
 ## This is the final step in the account recovery key creation flow after a Sync signin or in account settings
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
+# The header of the last step in the account recovery key creation flow
+# "key" here refers to the "account recovery key"
+flow-recovery-key-hint-header-v2 = Junci un suggirimentu p'arricurdàriti a chiavi
+# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
+# "it" here refers to the storage hint, NOT the "account recovery key"
+flow-recovery-key-hint-message-v3 = Stu suggirimentu t'avissi a 'jutari unni sarbasti a to chiavi di ricùpiru dû cuntu. Tû putemu mustrari amentri chi risetti a chiavi pi ricupigghiari i to dati.
+# The label for the text input where the user types in the storage hint they want to save.
+# The storage hint is optional, and users can leave this blank.
+flow-recovery-key-hint-input-v2 =
+    .label = Metti un suggirimentu (upziunali)
 # The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
 # "Finish" refers to "Finish the account recovery key creation process"
 flow-recovery-key-hint-cta-text = Cumpleta
+# Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-char-limit-error = U suggirimentu àv'a èssiri cchiù curtu di 255 caràttari.
+# Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-unsafe-char-error = U suggirimentu nun po' aviri caràttari Unicode nun sicuri. Sunnu pirmisi sulu littri, nùmmari, signi di puntijatura e sìmmuli.
 
 ## ResetPasswordWarning component
 ## Warning shown to sync users that reset their password without using an account recovery key
@@ -336,6 +370,10 @@ flow-recovery-key-hint-cta-text = Cumpleta
 password-reset-warning-icon = Accura
 password-reset-chevron-expanded = Chiuji abbisu
 password-reset-chevron-collapsed = Allarga abbisu
+password-reset-data-may-not-be-recovered = Putissi èssiri ca nun si ponnu ricupigghiari i dati dû navicaturi
+password-reset-previously-signed-in-device-2 = Ài autri dispusitivi unni già trasisti?
+password-reset-data-may-be-saved-locally-2 = Capaci ca i dati dû navicaturi sunnu sarbati nna ḍḍu dispusitivu. Risetta a to chiavi e trasi ḍḍocu pi ricupigghiari e sincrunizzari i to dati.
+password-reset-no-old-device-2 = Ài un dispusitivu novu ma nun ài accessu a nuḍḍu di l'autri to dispusitivi?
 
 ## Alert Bar
 
