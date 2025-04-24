@@ -500,12 +500,31 @@ modal-default-confirm-button = Cunferma
 ## Modal Verify Session
 
 mvs-verify-your-email-2 = Cunferma u to nnirizzu di posta elittrònica
+mvs-enter-verification-code-2 = Metti u còdici di cunferma
+# This string is used to show a notification to the user for them to enter confirmation code to confirm their email.
+# Variables:
+#   email (String) - the user's email
+mvs-enter-verification-code-desc-2 = Pi favuri metti prima di 5 minuti u còdici di cunferma chi mannammu a <email>{ $email }</email>.
+msv-cancel-button = Sfai
+msv-submit-button-2 = Cunferma
 
 ## Settings Nav
 
+nav-settings = Mpustazzioni
+nav-profile = Prufilu
+nav-security = Sicurizza
+nav-connected-services = Sirbizza cunnessi
+nav-data-collection = Ricugghiuta e usu dî dati
+nav-paid-subs = Abbunamenti a pagamentu
+nav-email-comm = Cumunicazzioni pi posta elittrònica
 
 ## Two Step Authentication - replace backup authentication code
 
+tfa-replace-code-error-3 = Cci fu un prubblema amentri chi canciava i còdici d'autinticazzioni di sicurizza
+tfa-create-code-error = Cci fu un prubblema amentri chi criava i còdici d'autinticazzioni di sicurizza
+tfa-replace-code-success-1 = Foru criati còdici novi. Sarba sti còdici d'autinticazzioni di sicurizza nnôn postu sicuru — ti sèrbinu pi tràsiri nnô to cuntu si nun ài u to dispusitivu mòbbili.
+tfa-replace-code-1-2 = Passu 1 di 2
+tfa-replace-code-2-2 = Passu 2 di 2
 
 ## Avatar change page
 
