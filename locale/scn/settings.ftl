@@ -153,21 +153,55 @@ form-reset-password-with-balloon-confirm-password =
     .label = Metti arrè a chiavi
 form-reset-password-with-balloon-submit-button = Risetta a chiavi
 form-reset-password-with-balloon-match-error = I chiavi chi mittisti nun appàttanu
-form-password-sr-too-short-message = I chiavi ànn'a èssiri di armenu 8 caràttari.
-form-password-sr-not-email-message = I chiavi nun ànn'a cuntèniri u to nnirizzu di posta elittrònica.
+form-password-sr-too-short-message = A chiavi àv'a èssiri di armenu 8 caràttari.
+form-password-sr-not-email-message = Nnâ chiavi nun cci àv'a èssiri u to nnirizzu di posta elittrònica.
+form-password-sr-not-common-message = A chiavi nun àv'a èssiri una di chiḍḍi usati cumuni.
+form-password-sr-requirements-met = A chiavi chi mittisti rispetta tutti i riquisiti pî chiavi.
+form-password-sr-passwords-match = I chiavi chi mittisti appàttanu.
 
 ## FormPasswordInlineCriteria
 
+form-password-with-inline-criteria-signup-new-password-label =
+    .label = Chiavi
+form-password-with-inline-criteria-signup-confirm-password-label =
+    .label = Ripeti a chiavi
+form-password-with-inline-criteria-signup-submit-button = Crìa un cuntu
+form-password-with-inline-criteria-reset-new-password =
+    .label = Chiavi nova
+form-password-with-inline-criteria-confirm-password =
+    .label = Cunferma a chiavi
+form-password-with-inline-criteria-reset-submit-button = Crìa na chiavi nova
+form-password-with-inline-criteria-match-error = I chiavi chi mittisti nun appàttanu
+form-password-with-inline-criteria-sr-too-short-message = A chiavi àv'a èssiri di armenu 8 caràttari.
+form-password-with-inline-criteria-sr-not-email-message = Nnâ chiavi nun cci àv'a èssiri u to nnirizzu di posta elittrònica.
+form-password-with-inline-criteria-sr-not-common-message = A chiavi nun àv'a èssiri una di chiḍḍi usati cumuni.
+form-password-with-inline-criteria-sr-requirements-met = A chiavi chi mittisti rispetta tutti i riquisiti pî chiavi.
+form-password-with-inline-criteria-sr-passwords-match = I chiavi chi mittisti appàttanu.
 
 ## FormVerifyCode
 
+# Fallback default localized error message for empty input field
+form-verify-code-default-error = Campu ubbligatoriu
 
 ## FormVerifyTotp component
 ## Form to enter a time-based one-time-passcode (e.g., 6-digit numeric code or 8-digit alphanumeric code)
 
+# Information explaining why button is disabled, also read to screen readers
+# Submit button is disabled unless a valid code format is entered
+# Used when the code may only contain numbers
+# $codeLength : number of digits in a valid code
+form-verify-totp-disabled-button-title-numeric = Metti u còdici di { $codeLength } cifri pi cuntinuari
+# Information explaining why button is disabled, also read to screen readers
+# Submit button is disabled unless a valid code format is entered
+# Used when the code may contain numbers and/or letters
+# $codeLength : number of characters in a valid code
+form-verify-totp-disabled-button-title-alphanumeric = Metti u còdici di { $codeLength } caràttari pi cuntinuari
 
 # GetDataTrio component, part of Account Recovery Key flow
 
+get-data-trio-title-firefox = { -brand-firefox }
+get-data-trio-title-firefox-recovery-key = Chiavi di ricùpiru dû cuntu { -brand-firefox }
+get-data-trio-title-backup-verification-codes = Còdici d'autinticazzioni di sicurizza
 get-data-trio-download-2 =
     .title = Scàrrica
     .aria-label = Scàrrica
@@ -248,16 +282,28 @@ input-password-show = Mustra chiavi
 
 ## LinkUsed component
 
+confirmation-link-reused-message = Sta lijami di cunferma fu già usata, e po èssiri usata na vota sula.
 
 ## Notification Promo Banner component
 
+account-recovery-notification-cta = Crìa
+account-recovery-notification-header-value = Nun pèrdiri i to dati si ti scordi a chiavi
+account-recovery-notification-header-description = Crìa na chiavi di ricùpiru dû cuntu pi ricupigghiari i dati sincrunizzati dû navicaturi si ti scordi a chiavi.
+# Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
+error-bad-request = Dumanna nun vàlita
 
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
 
+password-info-balloon-why-password-info = Ti serbi sta chiavi pi accèdiri a tutti i dati crittati chi sarbi cu nuiautri.
 
 ## PasswordStrengthBalloon component
 
+password-strength-balloon-heading = Riquisiti dî chiavi
+password-strength-balloon-min-length = Armenu 8 caràttari
+password-strength-balloon-not-email = Nun cci àv'a èssiri u to nnirizzu di posta elittrònica
+password-strength-balloon-not-common = Nun àv'a èssiri na chiavi cumuni
+password-strength-balloon-stay-safe-tips = Arresta ô sicuru — nun usare i chiavi nna cchiù assai d'un locu. Vidi i nostri cunzigghi ncapu a comu <LinkExternal>criari chiavi forti</LinkExternal>.
 
 ## PasswordStrengthBalloon component
 
