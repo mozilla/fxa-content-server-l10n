@@ -434,7 +434,6 @@ postRemoveAccountRecovery-action = Upravljanje računa
 postRemoveRecoveryPhone-subject = Telefonska številka za obnovitev je odstranjena
 postRemoveRecoveryPhone-preview = Račun je zaščiten s overjanjem v dveh korakih
 postRemoveRecoveryPhone-title = Telefonska številka za obnovitev je odstranjena
-postRemoveRecoveryPhone-description = Vaša telefonska številka za obnovitev je bila odstranjena iz nastavitev overjanja v dveh korakih. Še vedno imate možnost uporabiti rezervne overitvene kode.
 postRemoveRecoveryPhone-requested-device = To ste zahtevali z naslednje naprave:
 postRemoveSecondary-subject = Pomožni e-poštni naslov odstranjen
 postRemoveSecondary-title = Pomožni e-poštni naslov odstranjen

@@ -430,7 +430,6 @@ postRemoveAccountRecovery-action = Fiók kezelése
 postRemoveRecoveryPhone-subject = Helyreállítási telefonszám eltávolítva
 postRemoveRecoveryPhone-preview = Kétlépcsős hitelesítéssel védett fiók
 postRemoveRecoveryPhone-title = Helyreállítási telefonszám eltávolítva
-postRemoveRecoveryPhone-description = A helyreállítási telefonszáma el lett távolítva a kétlépcsős hitelesítési beállítások közül. A tartalék hitelesítési kódjai továbbra is használhatók.
 postRemoveRecoveryPhone-requested-device = Innen kérte:
 postRemoveSecondary-subject = Másodlagos e-mail cím eltávolítva
 postRemoveSecondary-title = Másodlagos e-mail cím eltávolítva

@@ -428,7 +428,6 @@ postRemoveAccountRecovery-action = Quản lý tài khoản
 postRemoveRecoveryPhone-subject = Đã xóa số điện thoại khôi phục
 postRemoveRecoveryPhone-preview = Tài khoản được bảo vệ bằng xác thực hai bước
 postRemoveRecoveryPhone-title = Đã xóa số điện thoại khôi phục
-postRemoveRecoveryPhone-description = Số điện thoại khôi phục của bạn đã bị xóa khỏi cài đặt xác thực hai bước. Bạn vẫn có sẵn mã xác thực dự phòng để sử dụng.
 postRemoveRecoveryPhone-requested-device = Bạn đã yêu cầu nó từ:
 postRemoveSecondary-subject = Đã xóa email phụ
 postRemoveSecondary-title = Đã xóa email phụ

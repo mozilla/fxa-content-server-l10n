@@ -430,7 +430,6 @@ postRemoveAccountRecovery-action = Sýsla með reikning
 postRemoveRecoveryPhone-subject = Endurheimtusímanúmer fjarlægt
 postRemoveRecoveryPhone-preview = Reikningur er varinn með tveggja-þrepa auðkenningu
 postRemoveRecoveryPhone-title = Endurheimtusímanúmer fjarlægt
-postRemoveRecoveryPhone-description = Endurheimtusímanúmerið þitt hefur verið fjarlægt úr stillingum tveggja-þrepa auðkenningarinnar þinnar. Þú átt enn vara-auðkenningnarkóðana þína tiltæka til notkunar.
 postRemoveRecoveryPhone-requested-device = Þú baðst um það frá:
 postRemoveSecondary-subject = Aukatölvupóstfang fjarlægt
 postRemoveSecondary-title = Aukatölvupóstfang fjarlægt

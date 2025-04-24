@@ -437,7 +437,6 @@ postRemoveAccountRecovery-action = Zarządzaj kontem
 postRemoveRecoveryPhone-subject = Usunięto telefon odzyskiwania
 postRemoveRecoveryPhone-preview = Konto chronione przez uwierzytelnianie dwuetapowe
 postRemoveRecoveryPhone-title = Usunięto telefon odzyskiwania
-postRemoveRecoveryPhone-description = Telefon odzyskiwania został usunięty z ustawień uwierzytelniania dwuetapowego. Nadal masz dostępne zapasowe kody uwierzytelniania.
 postRemoveRecoveryPhone-requested-device = Zażądano z urządzenia:
 postRemoveSecondary-subject = Usunięto dodatkowy adres e-mail
 postRemoveSecondary-title = Usunięto dodatkowy adres e-mail

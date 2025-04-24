@@ -432,7 +432,6 @@ postRemoveAccountRecovery-action = Διαχείριση λογαριασμού
 postRemoveRecoveryPhone-subject = Το τηλέφωνο ανάκτησης αφαιρέθηκε
 postRemoveRecoveryPhone-preview = Ο λογαριασμός προστατεύεται με ταυτοποίηση δύο παραγόντων
 postRemoveRecoveryPhone-title = Το τηλέφωνο ανάκτησης αφαιρέθηκε
-postRemoveRecoveryPhone-description = Το τηλέφωνο ανάκτησής σας έχει αφαιρεθεί από τις ρυθμίσεις της ταυτοποίησης δύο παραγόντων. Οι εφεδρικοί σας κωδικοί ταυτοποίησης εξακολουθούν να είναι διαθέσιμοι προς χρήση.
 postRemoveRecoveryPhone-requested-device = Το ζητήσατε από το:
 postRemoveSecondary-subject = Το δευτερεύον email αφαιρέθηκε
 postRemoveSecondary-title = Το δευτερεύον email αφαιρέθηκε

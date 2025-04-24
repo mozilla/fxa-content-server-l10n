@@ -438,7 +438,6 @@ postRemoveAccountRecovery-action = Rheoli cyfrif
 postRemoveRecoveryPhone-subject = Ffôn adfer wedi'i dynnu
 postRemoveRecoveryPhone-preview = Mae'r cyfrif wedi'i ddiogelu gan ddilysiad dau gam
 postRemoveRecoveryPhone-title = Ffôn adfer wedi'i dynnu
-postRemoveRecoveryPhone-description = Mae eich ffôn adfer wedi'i dynnu o'ch gosodiadau dilysu dau gam. Mae'ch codau dilysu wrth gefn ar gael i chi eu defnyddio o hyd.
 postRemoveRecoveryPhone-requested-device = Rydych wedi gofyn amdano o:
 postRemoveSecondary-subject = Tynnwyd yr ail e-bost
 postRemoveSecondary-title = Tynnwyd yr ail e-bost

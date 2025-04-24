@@ -430,7 +430,6 @@ postRemoveAccountRecovery-action = Account beheren
 postRemoveRecoveryPhone-subject = Hersteltelefoonnummer verwijderd
 postRemoveRecoveryPhone-preview = Account beschermd door authenticatie in twee stappen
 postRemoveRecoveryPhone-title = Hersteltelefoonnummer verwijderd
-postRemoveRecoveryPhone-description = Uw hersteltelefoonnummer is verwijderd uit uw instellingen voor authenticatie in twee stappen. U kunt nog steeds uw reserve-authenticatiecodes gebruiken.
 postRemoveRecoveryPhone-requested-device = U hebt het opgevraagd vanaf:
 postRemoveSecondary-subject = Secundair e-mailadres verwijderd
 postRemoveSecondary-title = Secundair e-mailadres verwijderd

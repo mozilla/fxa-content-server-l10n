@@ -432,7 +432,6 @@ postRemoveAccountRecovery-action = Gerer le conto
 postRemoveRecoveryPhone-subject = Numero de telephono de recuperation removite
 postRemoveRecoveryPhone-preview = Conto protegite per authentication a duo passos
 postRemoveRecoveryPhone-title = Telephono de recuperation removite
-postRemoveRecoveryPhone-description = Tu numero de telephono de recuperation ha essite removite ab le parametros de tu authentication a duo passos. Tu ancora ha tu codices de authentication disponibile a usar.
 postRemoveRecoveryPhone-requested-device = Tu ha requirite illo ab:
 postRemoveSecondary-subject = E-mail secundari removite
 postRemoveSecondary-title = E-mail secundari removite

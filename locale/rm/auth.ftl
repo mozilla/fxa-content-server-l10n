@@ -430,7 +430,6 @@ postRemoveAccountRecovery-action = Administrar il conto
 postRemoveRecoveryPhone-subject = Allontanà il numer da telefon per la recuperaziun dal conto
 postRemoveRecoveryPhone-preview = Il conto è protegì da l’autentificaziun en dus pass
 postRemoveRecoveryPhone-title = Allontanà il numer da telefon per la recuperaziun dal conto
-postRemoveRecoveryPhone-description = Tes numer da telefon da recuperaziun è vegnì allontanà dals parameters per l’autentificaziun en dus pass. Ti pos anc adina far diever da tes codes d’autentificaziun da backup.
 postRemoveRecoveryPhone-requested-device = Tia dumonda deriva da:
 postRemoveSecondary-subject = Allontanà l’adressa dad e-mail alternativa
 postRemoveSecondary-title = Allontanà l’adressa dad e-mail alternativa

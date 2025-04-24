@@ -425,7 +425,6 @@ postRemoveAccountRecovery-action = Kelola akun
 postRemoveRecoveryPhone-subject = Telepon pemulihan dihapus
 postRemoveRecoveryPhone-preview = Akun dilindungi oleh otentikasi dua langkah
 postRemoveRecoveryPhone-title = Telepon pemulihan dihapus
-postRemoveRecoveryPhone-description = Telepon pemulihan Anda telah dihapus dari pengaturan autentikasi dua langkah Anda. Anda masih memiliki kode autentikasi cadangan yang tersedia untuk digunakan.
 postRemoveRecoveryPhone-requested-device = Anda memintanya dari:
 postRemoveSecondary-subject = Surel sekunder telah dihapus
 postRemoveSecondary-title = Surel sekunder telah dihapus

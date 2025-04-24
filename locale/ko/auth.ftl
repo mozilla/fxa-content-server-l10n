@@ -425,7 +425,6 @@ postRemoveAccountRecovery-action = 계정 관리
 postRemoveRecoveryPhone-subject = 복구 전화번호 삭제됨
 postRemoveRecoveryPhone-preview = 2단계 인증으로 보호되는 계정
 postRemoveRecoveryPhone-title = 복구 전화번호 삭제됨
-postRemoveRecoveryPhone-description = 복구 전화번호가 2단계 인증 설정에서 제거되었습니다. 백업 인증 코드를 아직 사용할 수 있습니다.
 postRemoveRecoveryPhone-requested-device = 다음에서 요청했습니다:
 postRemoveSecondary-subject = 보조 이메일 삭제됨
 postRemoveSecondary-title = 보조 이메일 삭제됨

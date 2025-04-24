@@ -430,7 +430,6 @@ postRemoveAccountRecovery-action = Administroni llogarinë
 postRemoveRecoveryPhone-subject = U hoq telefon rimarrjeje
 postRemoveRecoveryPhone-preview = Llogari e mbrojtur nga mirëfilltësim dyfaktorësh
 postRemoveRecoveryPhone-title = U hoq telefon rimarrjeje
-postRemoveRecoveryPhone-description = Telefoni juaj i rimarrjeve është hequr nga rregullimet tuaja për mirëfilltësimin me dy hapa. Keni ende për përdorim kodet tuaj të mirëfilltësimit të kopjeruajtjeve.
 postRemoveRecoveryPhone-requested-device = E kërkuar prej:
 postRemoveSecondary-subject = Email-i dytësor u hoq
 postRemoveSecondary-title = Email-i dytësor u hoq

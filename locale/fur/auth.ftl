@@ -430,7 +430,6 @@ postRemoveAccountRecovery-action = Gjestìs account
 postRemoveRecoveryPhone-subject = Il numar di telefon pal recupar dal account al è stât gjavât
 postRemoveRecoveryPhone-preview = Account protet de autenticazion in doi passaçs
 postRemoveRecoveryPhone-title = Il numar di telefon pal recupar dal account al è stât gjavât
-postRemoveRecoveryPhone-description = Il numar di telefon pal recupar dal account al è stât gjavât da lis impostazions di autenticazion in doi passaçs. A son ancjemò disponibii i codiçs di autenticazion di backup.
 postRemoveRecoveryPhone-requested-device = Richieste fate di:
 postRemoveSecondary-subject = E-mail secondarie gjavade
 postRemoveSecondary-title = E-mail secondarie gjavade

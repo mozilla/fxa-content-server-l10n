@@ -426,7 +426,6 @@ postRemoveAccountRecovery-action = 管理帳號
 postRemoveRecoveryPhone-subject = 已移除救援電話號碼
 postRemoveRecoveryPhone-preview = 已透過兩階段驗證機制保護您的帳號
 postRemoveRecoveryPhone-title = 已移除救援電話號碼
-postRemoveRecoveryPhone-description = 已從兩階段驗證設定中移除您的救援電話號碼，您仍然可以使用備用驗證碼。
 postRemoveRecoveryPhone-requested-device = 您從下列位置要求：
 postRemoveSecondary-subject = 已移除次要電子郵件地址
 postRemoveSecondary-title = 已移除次要電子郵件地址

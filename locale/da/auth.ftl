@@ -430,7 +430,6 @@ postRemoveAccountRecovery-action = Håndter konto
 postRemoveRecoveryPhone-subject = Telefonnummer til genoprettelse fjernet
 postRemoveRecoveryPhone-preview = Konto beskyttet af totrinsgodkendelse
 postRemoveRecoveryPhone-title = Telefonnummer til genoprettelse fjernet
-postRemoveRecoveryPhone-description = Dit telefonnummer til genoprettelse er blevet fjernet fra dine indstillinger for totrinsgodkendelse. Du har stadig dine reserve-godkendelseskoder tilgængelig til brug.
 postRemoveRecoveryPhone-requested-device = Du har bedt om det fra:
 postRemoveSecondary-subject = Sekundær mailadresse fjernet
 postRemoveSecondary-title = Sekundær mailadresse fjernet

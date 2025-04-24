@@ -430,7 +430,6 @@ postRemoveAccountRecovery-action = Benutzerkonto verwalten
 postRemoveRecoveryPhone-subject = Telefonnummer für Kontowiederherstellung entfernt
 postRemoveRecoveryPhone-preview = Konto durch Zwei-Schritt-Authentifizierung geschützt
 postRemoveRecoveryPhone-title = Telefonnummer für Kontowiederherstellung entfernt
-postRemoveRecoveryPhone-description = Ihre Telefonnummer zur Kontowiederherstellung wurde aus Ihren Einstellungen für die Zwei-Schritt-Authentifizierung entfernt. Sie haben noch Ihre Sicherungs-Authentifizierungscodes zur Verfügung.
 postRemoveRecoveryPhone-requested-device = Sie haben sie angefordert von:
 postRemoveSecondary-subject = Zweit-E-Mail-Adresse entfernt
 postRemoveSecondary-title = Zweit-E-Mail-Adresse entfernt

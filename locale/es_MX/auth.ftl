@@ -402,7 +402,6 @@ postRemoveAccountRecovery-action = Administrar cuenta
 postRemoveRecoveryPhone-subject = Teléfono de recuperación eliminado
 postRemoveRecoveryPhone-preview = Cuenta protegida mediante autenticación de dos pasos
 postRemoveRecoveryPhone-title = Teléfono de recuperación eliminado
-postRemoveRecoveryPhone-description = Tu teléfono de recuperación se ha eliminado de la configuración de autenticación en dos pasos. Aún tienes disponibles tus códigos de autenticación de respaldo para usar.
 postRemoveRecoveryPhone-requested-device = Lo solicitaste a:
 postRemoveSecondary-subject = Correo secundario eliminado
 postRemoveSecondary-title = Correo secundario eliminado

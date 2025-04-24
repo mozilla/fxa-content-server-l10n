@@ -430,7 +430,6 @@ postRemoveAccountRecovery-action = Gerenciar conta
 postRemoveRecoveryPhone-subject = Celular de recuperação de conta removido
 postRemoveRecoveryPhone-preview = Conta protegida por autenticação em duas etapas
 postRemoveRecoveryPhone-title = Celular de recuperação de conta removido
-postRemoveRecoveryPhone-description = Seu celular de recuperação de conta foi removido da configuração de autenticação em duas etapas. Você ainda tem seus códigos de autenticação de backup disponíveis para uso.
 postRemoveRecoveryPhone-requested-device = Você solicitou a partir de:
 postRemoveSecondary-subject = Email secundário removido
 postRemoveSecondary-title = Email secundário removido

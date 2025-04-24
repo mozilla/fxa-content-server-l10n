@@ -434,7 +434,6 @@ postRemoveAccountRecovery-action = Správa účtu
 postRemoveRecoveryPhone-subject = Telefon pro obnovení byl odebrán
 postRemoveRecoveryPhone-preview = Účet chráněn pomocí dvoufázového ověřování
 postRemoveRecoveryPhone-title = Telefon pro obnovení byl odebrán
-postRemoveRecoveryPhone-description = Váš telefon pro obnovení byl odstraněn z nastavení dvoufázového ověřování. Stále máte k dispozici záložní ověřovací kódy, které můžete použít.
 postRemoveRecoveryPhone-requested-device = Vyžádali jste si ho z:
 postRemoveSecondary-subject = Záložní e-mailová adresa byla odebrána
 postRemoveSecondary-title = Záložní e-mailová adresa byla odebrána

@@ -430,7 +430,6 @@ postRemoveAccountRecovery-action = Handsam kontoen
 postRemoveRecoveryPhone-subject = Gjenopprettingstelefon fjerna
 postRemoveRecoveryPhone-preview = Kontoen er verna av tostegs-godkjenning
 postRemoveRecoveryPhone-title = Gjenopprettingstelefon fjerna
-postRemoveRecoveryPhone-description = Gjenopprettingstelefonen din er fjerna frå innstillingane for tostegs-godkjenning. Du har framleis reserve-godkjenningskodane dine tilgjengelege for bruk.
 postRemoveRecoveryPhone-requested-device = Du ba om det frå:
 postRemoveSecondary-subject = Sekundær e-postadesse fjerna
 postRemoveSecondary-title = Sekundær e-postadesse fjerna

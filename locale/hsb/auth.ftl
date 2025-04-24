@@ -434,7 +434,6 @@ postRemoveAccountRecovery-action = Konto rjadować
 postRemoveRecoveryPhone-subject = Wobnowjenski telefon wotstronjeny
 postRemoveRecoveryPhone-preview = Konto so přez dwukročelowu awtentifikaciju škita
 postRemoveRecoveryPhone-title = Wobnowjenski telefon wotstronjeny
-postRemoveRecoveryPhone-description = Waš wobnowjenski telefon je so z wašich nastajenjow za dwukročelowu awtentifikaciju wotstronił. Waše awtentifikaciske kody za zawěsćenje su hišće za wužiwanje k dispoziciji.
 postRemoveRecoveryPhone-requested-device = Sće jón požadał wot:
 postRemoveSecondary-subject = Sekundarna e-mejlowa adresa wotstronjena
 postRemoveSecondary-title = Sekundarna e-mejlowa adresa wotstronjena

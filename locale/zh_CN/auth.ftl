@@ -426,7 +426,6 @@ postRemoveAccountRecovery-action = 管理账户
 postRemoveRecoveryPhone-subject = 已移除恢复电话号码
 postRemoveRecoveryPhone-preview = 账户受两步验证保护
 postRemoveRecoveryPhone-title = 已移除恢复电话号码
-postRemoveRecoveryPhone-description = 您的恢复电话已从两步验证设置中移除。您仍然可以使用备用验证码。
 postRemoveRecoveryPhone-requested-device = 您从下列位置请求：
 postRemoveSecondary-subject = 已移除备用邮箱
 postRemoveSecondary-title = 已移除备用邮箱

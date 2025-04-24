@@ -193,7 +193,7 @@ subscriptionFirstInvoiceDiscount-content-discount-one-time = הנחה חד פע�
 #  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
 #  $discountDuration - The duration of the discount in number of months, e.g. 3 months
 subscriptionFirstInvoiceDiscount-content-discount-repeating =
-    { NUMBER($discountDuration) ->
+    { $discountDuration ->
         [one] הנחה לחודש אחד: -{ $invoiceDiscountAmount }
         [two] הנחה לחודשיים: -{ $invoiceDiscountAmount }
        *[other] הנחה ל־{ $discountDuration } חודשים: -{ $invoiceDiscountAmount }

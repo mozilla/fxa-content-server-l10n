@@ -432,7 +432,6 @@ postRemoveAccountRecovery-action = Spravovať účet
 postRemoveRecoveryPhone-subject = Obnovenie pomocou telefónu bolo zrušené
 postRemoveRecoveryPhone-preview = Účet chránený dvojstupňovou autentifikáciou
 postRemoveRecoveryPhone-title = Obnovenie pomocou telefónu bolo zrušené
-postRemoveRecoveryPhone-description = Vaše telefónne číslo na obnovenie účtu bolo odstránené z nastavení dvojstupňového overenia. Stále máte svoje záložné overovacie kódy k dispozícii na použitie.
 postRemoveRecoveryPhone-requested-device = Požiadali ste o to z:
 postRemoveSecondary-subject = Alternatívna e‑mailová adresa bola odstránená
 postRemoveSecondary-title = Alternatívna e‑mailová adresa bola odstránená

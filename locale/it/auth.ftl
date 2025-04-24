@@ -434,7 +434,6 @@ postRemoveAccountRecovery-action = Gestisci account
 postRemoveRecoveryPhone-subject = Il numero di telefono per il recupero dell’account è stato rimosso
 postRemoveRecoveryPhone-preview = Account protetto da autenticazione in due passaggi
 postRemoveRecoveryPhone-title = Il numero di telefono per il recupero dell’account è stato rimosso
-postRemoveRecoveryPhone-description = Il numero di telefono per il recupero dell’account è stato rimosso dalle impostazioni di autenticazione in due passaggi. Sono ancora disponibili i codici di autenticazione di backup.
 postRemoveRecoveryPhone-requested-device = L’hai richiesto da:
 postRemoveSecondary-subject = L’indirizzo email secondario è stato rimosso
 postRemoveSecondary-title = L’indirizzo email secondario è stato rimosso

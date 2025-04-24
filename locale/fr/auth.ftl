@@ -430,7 +430,6 @@ postRemoveAccountRecovery-action = Gérer le compte
 postRemoveRecoveryPhone-subject = Le numéro de téléphone de secours a été supprimé
 postRemoveRecoveryPhone-preview = Compte protégé par l’authentification en deux étapes
 postRemoveRecoveryPhone-title = Le numéro de téléphone de secours a été supprimé
-postRemoveRecoveryPhone-description = Votre numéro de téléphone de secours a été supprimé de vos paramètres d’authentification en deux étapes. Vous pouvez toujours utiliser vos codes d’authentification de secours.
 postRemoveRecoveryPhone-requested-device = La demande a été effectuée depuis :
 postRemoveSecondary-subject = L’adresse e-mail secondaire a été supprimée
 postRemoveSecondary-title = L’adresse e-mail secondaire a été supprimée

@@ -434,7 +434,6 @@ postRemoveAccountRecovery-action = Konto zastojaś
 postRemoveRecoveryPhone-subject = Wótnowjeński telefon wótwónoźony
 postRemoveRecoveryPhone-preview = Konto se pśez dwójokšacowu awtentifikaciju šćita
 postRemoveRecoveryPhone-title = Wótnowjeński telefon wótwónoźony
-postRemoveRecoveryPhone-description = Waš wótnowjeński telefon jo se wótwónoźeł z wašych nastajenjow za dwójokšacowu awtentifikaciju. Waše awtentifikaciske kody za zawěsćenje su hyšći za wužywanje k dispoziciji.
 postRemoveRecoveryPhone-requested-device = Sćo póžedał jen wót:
 postRemoveSecondary-subject = Druga e-mailowa adresa jo se wótwónoźeła
 postRemoveSecondary-title = Druga e-mailowa adresa jo se wótwónoźeła

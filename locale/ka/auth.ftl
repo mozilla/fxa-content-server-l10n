@@ -430,7 +430,6 @@ postRemoveAccountRecovery-action = ანგარიშის მართვ�
 postRemoveRecoveryPhone-subject = აღდგენის ტელეფონი მოცილებულია
 postRemoveRecoveryPhone-preview = ანგარიში დაცულია ორბიჯიანი დამოწმებით შესვლისას
 postRemoveRecoveryPhone-title = აღდგენის ტელეფონი მოცილებულია
-postRemoveRecoveryPhone-description = თქვენი აღდგენის ტელეფონი მოცილებულია ორბიჯიანი დამოწმების პარამეტრებიდან. თქვენ ჯერ კიდევ გაქვთ შესვლის დამოწმების სამარქაფო კოდები გამოსაყენებლად.
 postRemoveRecoveryPhone-requested-device = მოთხოვნა იყო აქედან:
 postRemoveSecondary-subject = დამატებითი ელფოსტა მოცილებულია
 postRemoveSecondary-title = დამატებითი ელფოსტა მოცილებულია
