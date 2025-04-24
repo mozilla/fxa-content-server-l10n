@@ -31,7 +31,10 @@ next-payment-error-retry-button = Prøv igjen
 next-basic-error-message = Noko gjekk gale. Prøv igjen seinare.
 checkout-error-contact-support-button = Kontakt brukarstøtte
 checkout-error-not-eligible = Du er ikkje kvalifisert til å abonnere på dette produktet - kontakt brukarstøtta slik at vi kan hjelpe deg.
+checkout-error-already-subscribed = Du abonnerer allereie på dette produktet.
 checkout-error-contact-support = Kontakt brukarstøtte, slik at vi kan hjelpe deg.
+cart-error-currency-not-determined = Vi klarte ikkje å bestemme valutaen for dette kjøpet, prøv på nytt.
+checkout-processing-general-error = Det oppstod ein uventa feil under behandling av betalinga. Prøv igjen.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -182,6 +185,7 @@ next-subscription-create-title = Set opp abonnementet ditt
 next-subscription-success-title = Stadfesting av abonnement
 next-subscription-processing-title = Stadfestar abonnementet…
 next-subscription-error-title = Feil ved stadfesting av abonnementet…
+subscription-title-sub-exists = Du abonnerer allereie
 subscription-title-plan-change-heading = Sjå gjennom endringa
 next-sub-guarantee = 30-dagar pengane-tilbake-garanti
 
