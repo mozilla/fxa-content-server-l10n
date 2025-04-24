@@ -10,7 +10,7 @@ next-payment-method-header = Escolha o seu método de pagamento
 payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = Primeiro, precisa de aprovar a sua subscrição
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
-location-header = Selecione o seu país e introduza o seu código postal <p>para continuar a finalizar a compra para o { $productName }</p>
+location-header = Selecione o seu país e introduza o seu código postal <p>para continuar a finalização da compra para { $productName }</p>
 location-banner-info = Não conseguimos detetar a sua localização automaticamente
 location-required-disclaimer = Apenas utilizamos esta informação para calcular os impostos e a moeda.
 
