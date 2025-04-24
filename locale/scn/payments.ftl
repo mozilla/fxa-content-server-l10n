@@ -355,6 +355,9 @@ expired-card-error = Parissi chi a to carta scadìu. Prova a usari n'autra carta
 insufficient-funds-error = Parissi chi a to carta nun àvi sordi bastanti. Prova a usari n'autra carta.
 withdrawal-count-limit-exceeded-error = Parissi chi stu pagamentu ti facissi passari a finaita di spisa dâ to carta. Prova a usari n'autra carta.
 charge-exceeds-source-limit = Parissi chi stu pagamentu ti facissi passari a finaita di spisa jurnalera dâ to carta. Prova a usari n'autra carta, o aspetta 24 uri.
+instant-payouts-unsupported = Parissi chi a to carta di dèbbitu nun è cunfijurata pî pagamenti subbitànii. Pi favuri prova a usari n'autra carta di dèbbitu o di crèditu.
+duplicate-transaction = Uhm… parissi chi fu fattu un pagamentu avali di picca. Cuntrolla a crunuluggìa dî pagamenti.
+coupon-expired = U còdici prumuzzionali scadìu.
 # $mobileAppStore (String) - "Google Play Store" or "App Store", localized when the translation is available.
 iap-already-subscribed = Già facisti l'abbunamentu pi tràmiti di { $mobileAppStore }.
 
