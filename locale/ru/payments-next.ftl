@@ -31,7 +31,10 @@ next-payment-error-retry-button = Попробовать снова
 next-basic-error-message = Что-то пошло не так. Пожалуйста, попробуйте позже.
 checkout-error-contact-support-button = Связаться с поддержкой
 checkout-error-not-eligible = Вы не имеете права подписаться на этот продукт - обратитесь, пожалуйста, в службу поддержки, чтобы мы могли вам помочь.
+checkout-error-already-subscribed = Вы уже подписаны на этот продукт.
 checkout-error-contact-support = Пожалуйста, обратитесь в службу поддержки, чтобы мы могли вам помочь.
+cart-error-currency-not-determined = Нам не удалось определить валюту этой покупки, пожалуйста, попробуйте ещё раз.
+checkout-processing-general-error = При обработке платежа произошла непредвиденная ошибка. Повторите попытку.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -182,6 +185,7 @@ next-subscription-create-title = Настройка вашей подписки
 next-subscription-success-title = Подтверждение подписки
 next-subscription-processing-title = Подтверждение подписки…
 next-subscription-error-title = Ошибка подтверждения подписки…
+subscription-title-sub-exists = Вы уже подписались
 subscription-title-plan-change-heading = Проверьте свое изменение
 next-sub-guarantee = 30-дневная гарантия возврата денег
 
