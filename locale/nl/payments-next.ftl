@@ -31,7 +31,10 @@ next-payment-error-retry-button = Opnieuw proberen
 next-basic-error-message = Er is iets misgegaan. Probeer het later opnieuw.
 checkout-error-contact-support-button = Contact opnemen
 checkout-error-not-eligible = U komt niet in aanmerking voor een abonnement op dit product – neem contact op met de ondersteuningsafdeling zodat we u kunnen helpen.
+checkout-error-already-subscribed = U bent al geabonneerd op dit product.
 checkout-error-contact-support = Neem contact op met de ondersteuningsafdeling zodat we u kunnen helpen.
+cart-error-currency-not-determined = We kunnen de valuta voor deze aankoop niet bepalen, probeer het opnieuw.
+checkout-processing-general-error = Er is een onverwachte fout opgetreden tijdens het verwerken van uw betaling, probeer het opnieuw.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -182,6 +185,7 @@ next-subscription-create-title = Uw abonnement instellen
 next-subscription-success-title = Abonnementsbevestiging
 next-subscription-processing-title = Abonnement bevestigen…
 next-subscription-error-title = Fout bij bevestigen abonnement…
+subscription-title-sub-exists = U bent al geabonneerd
 subscription-title-plan-change-heading = Uw wijziging bekijken
 next-sub-guarantee = 30-dagen-geldteruggarantie
 
