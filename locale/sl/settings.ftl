@@ -1229,7 +1229,7 @@ auth-error-1062 = Neveljavna preusmeritev
 # Shown when a user tries to sign up with an email address with a domain that doesn't receive emails
 auth-error-1064 = Napačna e-pošta? { $domain } ni veljavna e-poštna storitev
 auth-error-1066 = Za ustvaritev računa ni mogoče uporabiti e-poštne maske.
-auth-error-1067 = Napačna e-pošta?
+auth-error-1067 = Napačen e-poštni naslov?
 # Displayed when we want to reference a user's previously set up recovery phone
 # number, but they are not completely signed in yet. We'll only show the last 4 digits.
 # Variables:
@@ -1298,7 +1298,7 @@ index-account-info = { -product-mozilla-account } omogoča tudi dostop do izdelk
 index-email-input =
     .label = Vnesite e-poštni naslov
 # When users delete their Mozilla account inside account Settings, they are redirected to this page with a success message
-index-account-delete-success = Vaš račun je bil uspešno izbrisan
+index-account-delete-success = Račun je bil uspešno izbrisan
 # Displayed when users try to sign up for an account and their confirmation code email bounces
 index-email-bounced = Vaša potrditvena e-pošta se je pravkar vrnila. Ste se zatipkali v e-poštnem naslovu?
 

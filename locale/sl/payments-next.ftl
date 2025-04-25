@@ -185,7 +185,7 @@ next-subscription-create-title = Nastavite svojo naročnino
 next-subscription-success-title = Potrditev naročnine
 next-subscription-processing-title = Potrjevanje naročnine …
 next-subscription-error-title = Napaka pri potrjevanju naročnine …
-subscription-title-sub-exists = Ste se že naročili
+subscription-title-sub-exists = Že ste naročeni
 subscription-title-plan-change-heading = Preglejte spremembo
 next-sub-guarantee = 30-dnevno vračilo denarja
 
