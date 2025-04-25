@@ -36,6 +36,7 @@ checkout-error-contact-support-button = Pomoc skontaktować
 checkout-error-not-eligible = Nimaće prawo tutón produkt abonować – stajće so prošu z teamom pomocy do zwiska, zo bychmy móhli wam pomhać.
 checkout-error-already-subscribed = Sće tutón produkt hižo abonował.
 checkout-error-contact-support = Stajće so prošu z teamom pomocy do zwiska, zo bychmy móhli wam pomhać.
+cart-error-currency-not-determined = Njemóžachmy měnu za tutu kup postajić, spytajće prošu hišće raz.
 checkout-processing-general-error = Při předźěłowanju wašeho płaćenja je njewočakowany zmylk nastał, prošu spytajće hišće raz.
 
 ## Processing page and Needs Input page - /checkout and /upgrade

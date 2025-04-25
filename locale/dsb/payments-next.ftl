@@ -34,7 +34,10 @@ next-payment-error-retry-button = Hyšći raz wopytaś
 next-basic-error-message = Něco jo se mimo kuliło. Pšosym wopytajśo pózdźej hyšći raz.
 checkout-error-contact-support-button = Pomoc kontaktěrowaś
 checkout-error-not-eligible = Njamaśo pšawo toś ten produkt aboněrowaś – stajśo se z teamom pomocy do zwiska, aby my mógli wam pomagaś.
+checkout-error-already-subscribed = Sćo južo aboněrował toś ten produkt.
 checkout-error-contact-support = Stajśo se pšosym z teamom pomocy do zwiska, aby my mógli wam pomagaś.
+cart-error-currency-not-determined = Njejsmy mógli pjenjeze za toś tu kup póstajiś, wopytajśo pšosym hyšći raz.
+checkout-processing-general-error = Pśi pśeźěłowanju wašogo płaśenja jo njewótcakana zmólka nastała, pšosym wopytajśo hyšći raz.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -185,6 +188,7 @@ next-subscription-create-title = Waš abonement konfigurěrowaś
 next-subscription-success-title = Wobkšuśenje abonementa
 next-subscription-processing-title = Abonement se wobkšuśijo…
 next-subscription-error-title = Zmólka pśi wobkšuśenju abonementa…
+subscription-title-sub-exists = Sćo južo aboněrował
 subscription-title-plan-change-heading = Pśeglědujśo swóju změnu
 next-sub-guarantee = 30-dnjowna garantija slědkdaśa pjenjez
 
