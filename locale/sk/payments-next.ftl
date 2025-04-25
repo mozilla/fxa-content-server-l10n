@@ -31,7 +31,10 @@ next-payment-error-retry-button = Skúsiť znova
 next-basic-error-message = Niečo sa pokazilo. Skúste to znova neskôr.
 checkout-error-contact-support-button = Kontaktovať podporu
 checkout-error-not-eligible = Nemáte nárok na predplatné tohto produktu – kontaktujte podporu, aby sme vám mohli pomôcť.
+checkout-error-already-subscribed = Tento produkt už odoberáte.
 checkout-error-contact-support = Kontaktujte podporu, aby sme vám mohli pomôcť.
+cart-error-currency-not-determined = Nepodarilo sa nám určiť menu pre tento nákup, skúste to znova.
+checkout-processing-general-error = Počas spracovania platby došlo k neočakávanej chybe, skúste to znova.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -182,6 +185,7 @@ next-subscription-create-title = Nastavte si predplatné
 next-subscription-success-title = Potvrdenie predplatného
 next-subscription-processing-title = Potvrdzuje sa odber…
 next-subscription-error-title = Chyba pri potvrdzovaní predplatného…
+subscription-title-sub-exists = Už máte predplatné
 subscription-title-plan-change-heading = Skontrolujte požadovanú zmenu
 next-sub-guarantee = 30-dňová záruka vrátenia peňazí
 
