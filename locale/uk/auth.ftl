@@ -2,6 +2,26 @@
 
 session-verify-send-push-title-2 = Хочете увійти в { -product-mozilla-account }?
 session-verify-send-push-body-2 = Натисніть тут, щоб підтвердити свою особу
+# Message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to verify phone ownership when registering a recovery phone
+recovery-phone-setup-sms-body = { $code } – ваш код підтвердження { -brand-mozilla }. Термін дії закінчується через 5 хвилин.
+# Shorter message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to verify phone ownership when registering a recovery phone
+recovery-phone-setup-sms-short-body = Код підтвердження { -brand-mozilla }: { $code }
+# Message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to sign in with a recovery phone as backup for two-step authentication
+recovery-phone-signin-sms-body = { $code } – ваш код відновлення { -brand-mozilla }. Термін дії закінчується через 5 хвилин.
+# Shorter message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to sign in with a recovery phone as backup for two-step authentication
+recovery-phone-signin-sms-short-body = Код { -brand-mozilla }: { $code }
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
@@ -49,6 +69,10 @@ subplat-legal = Правові положення
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Приватність
 subplat-privacy-website-plaintext = { subplat-privacy }:
+account-deletion-info-block-communications = У разі видалення облікового запису ви й надалі отримуватимете електронні листи від Mozilla Corporation і Mozilla Foundation, якщо не <a data-l10n-name="unsubscribeLink">відпишетесь</a>.
+account-deletion-info-block-support = Якщо у вас виникли запитання або вам потрібна допомога, зверніться до нашої <a data-l10n-name="supportLink">служби підтримки</a>.
+account-deletion-info-block-communications-plaintext = У разі видалення облікового запису ви й надалі отримуватимете електронні листи від Mozilla Corporation і Mozilla Foundation, якщо не відпишетесь.
+account-deletion-info-block-support-plaintext = Якщо у вас виникли запитання або вам потрібна допомога, зверніться до нашої служби підтримки.
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-android-badge = <img data-l10n-name="google-play-badge" alt="Завантажити { $productName } з { -google-play }">
@@ -76,6 +100,7 @@ automated-email-support = Щоб дізнатися більше, відвіда
 automated-email-change-plaintext-2 = Якщо ви цього не робили, негайно змініть пароль:
 #  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-support-plaintext = Для отримання додаткової інформації відвідайте підтримку { -brand-mozilla }:
+automated-email-inactive-account = Це автоматичний електронний лист. Ви отримуєте його, тому що маєте { -product-mozilla-account }, до якого не входили вже 2 роки.
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } Для отримання докладнішої інформації відвідайте <a data-l10n-name="supportLink">Підтримку { -brand-mozilla }</a>.
 automated-email-no-action-plaintext = Це автоматизований електронний лист. Якщо ви отримали його помилково, нічого робити не потрібно.
@@ -122,6 +147,9 @@ automatedEmailRecoveryKey-more-info-plaintext = Для отримання дод
 automated-email-reset =
     Це автоматично надісланий лист; якщо ви не авторизували цю дію, <a data-l10n-name="resetLink">скиньте свій пароль</a>.
     Для отримання додаткових відомостей зверніться до <a data-l10n-name="supportLink">підтримки { -brand-mozilla }</a>.
+# Variables:
+#  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
+automated-email-reset-plaintext-v2 = Якщо ви не дозволяли цю дію, скиньте свій пароль зараз за цим посиланням { $resetLink }
 brand-banner-message = Чи знаєте ви, що ми змінили назву з { -product-firefox-accounts } на { -product-mozilla-accounts(capitalization: "upper") }? <a data-l10n-name="learnMore">Докладніше</a>
 cancellationSurvey = Будь ласка, допоможіть вдосконалити наші послуги, долучившись до цього <a data-l10n-name="cancellationSurveyUrl">простого опитування</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
@@ -242,6 +270,36 @@ fraudulentAccountDeletion-contact = Якщо у вас виникли запит
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Якщо у вас виникли запитання, зверніться до нашої служби підтримки: { $mozillaSupportUrl }
+inactiveAccountFinalWarning-subject = Остання нагода зберегти свій { -product-mozilla-account }
+inactiveAccountFinalWarning-title = Ваш обліковий запис { -brand-mozilla } і пов'язані дані буде видалено
+inactiveAccountFinalWarning-preview = Увійдіть, щоб зберегти свій обліковий запис
+inactiveAccountFinalWarning-account-description = Ваш { -product-mozilla-account } використовується для доступу до безплатних продуктів, як-от Синхронізація{ -brand-firefox }, { -product-mozilla-monitor }, { -product-firefox-relay } та { -product-mdn }.
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+# This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
+inactiveAccountFinalWarning-impact = <strong>{ $deletionDate }</strong> ваш обліковий запис разом із пов'язаними даними буде остаточно видалено, якщо ви не ввійдете в систему.
+inactiveAccountFinalWarning-action = Увійдіть, щоб зберегти свій обліковий запис
+# followed by link to sign in
+inactiveAccountFinalWarning-action-plaintext = Увійдіть, щоб зберегти обліковий запис:
+inactiveAccountFirstWarning-subject = Не втрачайте свій обліковий запис
+inactiveAccountFirstWarning-title = Ви хочете зберегти свій обліковий запис і дані { -brand-mozilla }?
+inactiveAccountFirstWarning-account-description-v2 = Ваш { -product-mozilla-account } використовується для доступу до безплатних продуктів, як-от Синхронізація{ -brand-firefox }, { -product-mozilla-monitor }, { -product-firefox-relay } та { -product-mdn }.
+inactiveAccountFirstWarning-inactive-status = Ми помітили, що ви не входили в обліковий запис упродовж 2 років.
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+# This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
+inactiveAccountFirstWarning-impact = <strong>{ $deletionDate }</strong> ваш обліковий запис разом із пов'язаними даними буде остаточно видалено через неактивність.
+inactiveAccountFirstWarning-action = Увійдіть, щоб зберегти свій обліковий запис
+inactiveAccountFirstWarning-preview = Увійдіть, щоб зберегти свій обліковий запис
+# followed by link to sign in
+inactiveAccountFirstWarning-action-plaintext = Увійдіть, щоб зберегти обліковий запис:
+inactiveAccountSecondWarning-subject = Необхідна дія: видалення облікового запису через 7 днів
+inactiveAccountSecondWarning-title = Ваш обліковий запис { -brand-mozilla } і пов'язані дані буде видалено через 7 днів
+inactiveAccountSecondWarning-account-description-v2 = Ваш { -product-mozilla-account } використовується для доступу до безплатних продуктів, як-от Синхронізація{ -brand-firefox }, { -product-mozilla-monitor }, { -product-firefox-relay } та { -product-mdn }.
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+inactiveAccountSecondWarning-impact = <strong>{ $deletionDate }</strong> ваш обліковий запис разом із пов'язаними даними буде остаточно видалено через неактивність.
+inactiveAccountSecondWarning-action = Увійдіть, щоб зберегти свій обліковий запис
+inactiveAccountSecondWarning-preview = Увійдіть, щоб зберегти свій обліковий запис
+# followed by link to sign in
+inactiveAccountSecondWarning-action-plaintext = Увійдіть, щоб зберегти обліковий запис:
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title-zero = У вас закінчилися резервні коди автентифікації!
 codes-reminder-title-one = Ви використовуєте останній резервний код автентифікації
