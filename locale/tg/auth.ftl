@@ -97,6 +97,7 @@ automated-email-change-plaintext-2 = Агар шумо барои иҷро ка�
 automated-email-support-plaintext = Барои маълумоти иловагӣ, ба Дастгирии «{ -brand-mozilla }» муроҷиат кунед:
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } Барои гирифтани маълумоти бештар, лутфан, ба бахши <a data-l10n-name="supportLink">Дастгирии «{ -brand-mozilla }»</a> ворид шавед.
+automated-email-no-action-plaintext = Ин паёми худкори почтаи элекронӣ мебошад. Агар шумо онро аз рӯйи иштибоҳ қабул кардед, ягон амал зарур нест.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = Ин паёми худкори почтаи элекронӣ мебошад; агар шумо барои иҷро кардани ин амал иҷозат надодед, пас, лутфан, ниҳонвожаи худро иваз намоед.
 # "This request" refers to a modification (addition, change or removal) to the account recovery key.
@@ -140,6 +141,9 @@ automatedEmailRecoveryKey-more-info-plaintext = Барои маълумоти и
 automated-email-reset =
     Ин паёми худкори почтаи элекронӣ мебошад; агар шумо барои иҷро кардани ин амал иҷозат надодед, пас, лутфан, <a data-l10n-name="resetLink">ниҳонвожаи худро иваз намоед</a>.
     Барои гирифтани маълумоти бештар, лутфан, ба бахши <a data-l10n-name="supportLink">Дастгирии «{ -brand-mozilla }»</a> ворид шавед.
+cancellationSurvey = Лутфан, ба воситаи гузаронидани ин <a data-l10n-name="cancellationSurveyUrl">саволномаи кутоҳ</a> ба мо барои беҳтар кардани хизматрасониҳои мо кумак расонед.
+# After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
+cancellationSurvey-plaintext = Лутфан, ба воситаи гузаронидани ин саволномаи кутоҳ ба мо барои беҳтар кардани хизматрасониҳои мо кумак расонед:
 manage-account = Идоракунии ҳисоб
 manage-account-plaintext = { manage-account }:
 payment-details = Тафсилоти пардохт:
@@ -194,6 +198,11 @@ subscriptionCharges-content-tax = Андозҳо ва ҳаққи ҳизматр�
 #  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 #  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
 subscriptionFirstInvoice-content-charge = { $invoiceTotal } дар { $invoiceDateOnly } пардохт шуд
+# After the colon, there's a link to https://accounts.firefox.com/support
+subscriptionSupport-plaintext = Саволҳо дар бораи обунаи худ доред? Дар ин ҷой дастаи дастгирии мо ба шумо кумак мерасонад:
+# Variables:
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-2 = Барои маълумоти иловагӣ, ба Дастгирии «{ -brand-mozilla }» муроҷиат кунед: { $supportUrl }.
 # Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
@@ -271,6 +280,9 @@ postAddAccountRecovery-subject-3 = Калиди нави барқарорсоз�
 postAddAccountRecovery-title2 = Шумо калиди наверо барои барқарорсозии ҳисоб эҷод кардед
 postAddAccountRecovery-action = Идоракунии ҳисоб
 postAddLinkedAccount-subject-2 = Ҳисоби нав, ки ба «{ -product-mozilla-account }»-и шумо пайваст шудааст
+#  Variables:
+#  $providerName (String) - The name of the provider, e.g. Apple, Google
+postAddLinkedAccount-title-2 = Ҳисоби «{ $providerName }»-и шумо ба «{ -product-mozilla-account }»-и шумо пайваст карда шуд
 postAddLinkedAccount-action = Идоракунии ҳисоб
 postAddRecoveryPhone-subject = Телефони барқарорсозӣ илова карда шуд
 postAddRecoveryPhone-title = Шумо рақами телефони барқарорсозиро эҷод кардед
