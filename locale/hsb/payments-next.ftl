@@ -34,7 +34,9 @@ next-payment-error-retry-button = Hišće raz spytać
 next-basic-error-message = Něšto je so nimokuliło. Prošu spytajće pozdźišo hišće raz.
 checkout-error-contact-support-button = Pomoc skontaktować
 checkout-error-not-eligible = Nimaće prawo tutón produkt abonować – stajće so prošu z teamom pomocy do zwiska, zo bychmy móhli wam pomhać.
+checkout-error-already-subscribed = Sće tutón produkt hižo abonował.
 checkout-error-contact-support = Stajće so prošu z teamom pomocy do zwiska, zo bychmy móhli wam pomhać.
+checkout-processing-general-error = Při předźěłowanju wašeho płaćenja je njewočakowany zmylk nastał, prošu spytajće hišće raz.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -185,6 +187,7 @@ next-subscription-create-title = Waš abonement konfigurować
 next-subscription-success-title = Wobkrućenje abonementa
 next-subscription-processing-title = Abonement so wobkruća…
 next-subscription-error-title = Zmylk při wobkrućenju abonementa…
+subscription-title-sub-exists = Sće hižo abonował
 subscription-title-plan-change-heading = Přepruwujće swoju změnu
 next-sub-guarantee = 30-dnjowska garantija wróćenja pjenjez
 
