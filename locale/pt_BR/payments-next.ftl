@@ -31,7 +31,10 @@ next-payment-error-retry-button = Tentar novamente
 next-basic-error-message = Algo deu errado. Tente novamente mais tarde.
 checkout-error-contact-support-button = Entre em contato com o suporte
 checkout-error-not-eligible = Você não está qualificado para assinar este produto. Entre em contato com o suporte para receber ajuda.
+checkout-error-already-subscribed = Você já tem assinatura deste produto.
 checkout-error-contact-support = Entre em contato com o suporte para receber ajuda.
+cart-error-currency-not-determined = Não foi possível determinar a moeda para esta compra, tente novamente.
+checkout-processing-general-error = Ocorreu um erro inesperado ao processar seu pagamento, tente novamente.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -182,6 +185,7 @@ next-subscription-create-title = Configurar assinatura
 next-subscription-success-title = Confirmação de assinatura
 next-subscription-processing-title = Confirmando assinatura…
 next-subscription-error-title = Erro ao confirmar assinatura…
+subscription-title-sub-exists = Você já tem assinatura
 subscription-title-plan-change-heading = Confira sua alteração
 next-sub-guarantee = Garantia de devolução do dinheiro em 30 dias
 
