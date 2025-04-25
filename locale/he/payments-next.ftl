@@ -27,7 +27,10 @@ next-payment-error-retry-button = ניסיון חוזר
 next-basic-error-message = משהו השתבש. נא לנסות שוב מאוחר יותר.
 checkout-error-contact-support-button = יצירת קשר עם התמיכה
 checkout-error-not-eligible = אין לך זכאות להירשם למוצר זה - נא ליצור קשר עם התמיכה כדי שנוכל לעזור לך.
+checkout-error-already-subscribed = כבר יש לך מינוי למוצר זה.
 checkout-error-contact-support = נא ליצור קשר עם התמיכה כדי שנוכל לעזור לך.
+cart-error-currency-not-determined = לא הצלחנו לקבוע את המטבע עבור רכישה זו, נא לנסות שוב.
+checkout-processing-general-error = אירעה שגיאה לא צפויה בעת עיבוד התשלום שלך, נא לנסות שוב.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
