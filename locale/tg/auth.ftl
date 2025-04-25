@@ -90,6 +90,7 @@ ios-download-plaintext = Боргирӣ кардани «{ $productName }» та
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 another-device-plaintext = Насб кардани «{ $productName }» дар дастгоҳи дигар:
+automated-email-support = Барои гирифтани маълумоти бештар, лутфан, ба бахши <a data-l10n-name="supportLink"> Дастгирии «{ -brand-mozilla }»</a> ворид шавед.
 # After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-change-plaintext-2 = Агар шумо барои иҷро кардани ин амал иҷозат надодед, пас, лутфан, ниҳонвожаи худро ҳоли ҳозир иваз намоед:
 #  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
