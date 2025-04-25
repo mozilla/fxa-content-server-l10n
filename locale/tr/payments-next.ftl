@@ -33,6 +33,7 @@ checkout-error-contact-support-button = Destek birimiyle iletişime geçin
 checkout-error-not-eligible = Bu ürüne abone olamazsınız. Size yardımcı olabilmemiz için lütfen destek ekibiyle iletişime geçin.
 checkout-error-already-subscribed = Bu ürüne zaten abonesiniz.
 checkout-error-contact-support = Size yardımcı olabilmemiz için lütfen destek ekibiyle iletişime geçin.
+cart-error-currency-not-determined = Bu satın alma işleminin para birimini belirleyemedik, lütfen yeniden deneyin.
 checkout-processing-general-error = Ödemeniz işlenirken beklenmedik bir hata oluştu, lütfen yeniden deneyin.
 
 ## Processing page and Needs Input page - /checkout and /upgrade

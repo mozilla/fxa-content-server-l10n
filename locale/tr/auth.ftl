@@ -431,6 +431,7 @@ postRemoveRecoveryPhone-subject = Kurtarma telefonu kaldırıldı
 postRemoveRecoveryPhone-preview = Hesabınız iki aşamalı doğrulamayla korunuyor
 postRemoveRecoveryPhone-title = Kurtarma telefonu kaldırıldı
 postRemoveRecoveryPhone-description-v2 = Kurtarma telefonunuz iki aşamalı doğrulama ayarlarınızdan kaldırıldı.
+postRemoveRecoveryPhone-description-extra = Kimlik doğrulama uygulamanızı kullanamadığınız durumlarda giriş yapmak için yedek kimlik doğrulama kodlarınızı kullanabilirsiniz.
 postRemoveRecoveryPhone-requested-device = Bu cihazdan istediniz:
 postRemoveSecondary-subject = İkinci e-posta silindi
 postRemoveSecondary-title = İkinci e-posta silindi
