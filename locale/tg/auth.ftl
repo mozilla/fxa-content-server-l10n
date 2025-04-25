@@ -68,12 +68,16 @@ subplat-legal = Маълумоти ҳуқуқӣ
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Махфият
 subplat-privacy-website-plaintext = { subplat-privacy }:
+account-deletion-info-block-support-plaintext = Агар шумо ягон савол дошта бошед ё ба кумак ниёз дошта бошед, лутфан, ба дастаи дастгирии мо озодона муроҷиат кунед:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-android-badge = <img data-l10n-name="google-play-badge" alt="Боргирӣ кардани «{ $productName }» аз «{ -google-play }»">
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-ios-badge = <img data-l10n-name="apple-app-badge" alt="Боргирӣ кардани «{ $productName }» аз «{ -app-store }»">
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-desktop-device-2 = Насб кардани «{ $productName }» дар <a data-l10n-name="anotherDeviceLink">дастгоҳи мизи кории дигар</a>.
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 another-device-2 = Насб кардани «{ $productName }» дар <a data-l10n-name="anotherDeviceLink">дастгоҳи дигар</a>.
