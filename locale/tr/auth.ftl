@@ -430,6 +430,7 @@ postRemoveAccountRecovery-action = Hesabı yönet
 postRemoveRecoveryPhone-subject = Kurtarma telefonu kaldırıldı
 postRemoveRecoveryPhone-preview = Hesabınız iki aşamalı doğrulamayla korunuyor
 postRemoveRecoveryPhone-title = Kurtarma telefonu kaldırıldı
+postRemoveRecoveryPhone-description-v2 = Kurtarma telefonunuz iki aşamalı doğrulama ayarlarınızdan kaldırıldı.
 postRemoveRecoveryPhone-requested-device = Bu cihazdan istediniz:
 postRemoveSecondary-subject = İkinci e-posta silindi
 postRemoveSecondary-title = İkinci e-posta silindi

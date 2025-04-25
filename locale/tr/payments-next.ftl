@@ -31,7 +31,9 @@ next-payment-error-retry-button = Tekrar dene
 next-basic-error-message = Bir şeyler yanlış gitti. Lütfen daha sonra tekrar deneyin.
 checkout-error-contact-support-button = Destek birimiyle iletişime geçin
 checkout-error-not-eligible = Bu ürüne abone olamazsınız. Size yardımcı olabilmemiz için lütfen destek ekibiyle iletişime geçin.
+checkout-error-already-subscribed = Bu ürüne zaten abonesiniz.
 checkout-error-contact-support = Size yardımcı olabilmemiz için lütfen destek ekibiyle iletişime geçin.
+checkout-processing-general-error = Ödemeniz işlenirken beklenmedik bir hata oluştu, lütfen yeniden deneyin.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -182,6 +184,7 @@ next-subscription-create-title = Aboneliğinizi ayarlayın
 next-subscription-success-title = Abonelik onayı
 next-subscription-processing-title = Abonelik onaylanıyor…
 next-subscription-error-title = Abonelik onaylanırken hata oluştu…
+subscription-title-sub-exists = Zaten abonesiniz
 subscription-title-plan-change-heading = Değişikliğinizi gözden geçirin
 next-sub-guarantee = 30 gün para iade garantisi
 
