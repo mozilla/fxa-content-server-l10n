@@ -376,6 +376,17 @@ postAddLinkedAccount-subject-2 = До вашого { -product-mozilla-account(ca
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = Обліковий запис { $providerName } було прив'язано до вашого { -product-mozilla-account(case: "gen") }
 postAddLinkedAccount-action = Керувати обліковим записом
+postAddRecoveryPhone-subject = Додано телефон для відновлення
+postAddRecoveryPhone-preview = Обліковий запис захищено двоетапною перевіркою
+postAddRecoveryPhone-title = Ви додали номер телефону для відновлення
+# Variables:
+#  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
+postAddRecoveryPhone-description-v2 = Ви додали номер телефону для відновлення: { $maskedLastFourPhoneNumber }
+# Links out to a support article about two factor authentication
+postAddRecoveryPhone-how-protect = Як це захищає ваш обліковий запис
+postAddRecoveryPhone-how-protect-plaintext = Як це захищає ваш обліковий запис:
+postAddRecoveryPhone-enabled-device = Ви ввімкнули це з:
+postAddRecoveryPhone-action = Керувати обліковим записом
 postAddTwoStepAuthentication-subject-2 = Двоетапну перевірку увімкнено
 postAddTwoStepAuthentication-title-2 = Ви увімкнули двоетапну перевірку
 # After the colon, there is a description of the device that the user used to enable two-step authentication
@@ -393,6 +404,10 @@ postChangePrimary-title = Нова основна адреса електрон�
 #  $email (String) - A user's email address
 postChangePrimary-description-2 = Ви успішно змінили свою основну адресу електронної пошти на { $email }. Ця адреса відтепер є вашим іменем користувача для входу в { -product-mozilla-account }, а також для отримання сповіщень безпеки та підтверджень входу.
 postChangePrimary-action = Керування обліковим записом
+postChangeRecoveryPhone-subject = Номер телефону для відновлення оновлено
+postChangeRecoveryPhone-title = Ви змінили телефон для відновлення
+postChangeRecoveryPhone-description = Тепер у вас є новий телефон для відновлення. Ваш попередній номер телефону видалено.
+postChangeRecoveryPhone-requested-device = Ви зробили запит з:
 postConsumeRecoveryCode-title-2 = Ви використали резервний код автентифікації
 # After the colon, there is description of the device that the backup authentication code was used on
 postConsumeRecoveryCode-description-2 = Його використано на:
@@ -413,6 +428,8 @@ postRemoveAccountRecovery-title-3 = Ви видалили ключ віднов�
 postRemoveAccountRecovery-body-part1 = Ваш ключ відновлення облікового запису потрібен для відновлення зашифрованих даних у разі втрати пароля.
 postRemoveAccountRecovery-body-part2 = Якщо ви ще цього не зробили, створіть новий ключ відновлення облікового запису в налаштуваннях, щоб запобігти втраті збережених паролів, закладок, історії перегляду та інших даних.
 postRemoveAccountRecovery-action = Керування обліковим записом
+postRemoveRecoveryPhone-subject = Телефон для відновлення вилучено
+postRemoveRecoveryPhone-title = Телефон для відновлення вилучено
 postRemoveSecondary-subject = Альтернативну електронну пошту видалено
 postRemoveSecondary-title = Альтернативну електронну пошту видалено
 # Variables:
