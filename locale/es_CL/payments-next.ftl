@@ -182,6 +182,7 @@ next-subscription-create-title = Configurar tu suscripción
 next-subscription-success-title = Confirmación de suscripción
 next-subscription-processing-title = Confirmando suscripción…
 next-subscription-error-title = Error al confirmar la suscripción…
+subscription-title-sub-exists = Ya te has suscrito
 subscription-title-plan-change-heading = Revisa tu cambio
 next-sub-guarantee = 30 días de garantía de devolución de dinero
 
