@@ -31,7 +31,10 @@ next-payment-error-retry-button = Volver a intentarlo
 next-basic-error-message = Algo se fue a las pailas. Por favor, vuelve a intentarlo más tarde.
 checkout-error-contact-support-button = Contactar al soporte
 checkout-error-not-eligible = No eres elegible para suscribirte a este producto - por favor contacta con el soporte para que podamos ayudarte.
+checkout-error-already-subscribed = Ya estás suscrito a este producto.
 checkout-error-contact-support = Por favor contacta con el soporte para que podamos ayudarte.
+cart-error-currency-not-determined = No pudimos determinar la moneda para esta compra, por favor vuelve a intentarlo.
+checkout-processing-general-error = Ha ocurrido un error inesperado mientras se procesaba tu pago, por favor vuelve a intentarlo.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
