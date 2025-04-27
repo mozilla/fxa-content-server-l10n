@@ -2,17 +2,12 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-05 20:09+0000\n"
-"PO-Revision-Date: 2021-06-08 20:44+0000\n"
-"Last-Translator: SphericalMind <encetabuzo04@outlook.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tl\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 3) && (n%10 == 4 || n%10 == 6 || n%10 == 9);\n"
-"X-Generator: Pontoon\n"
+"Generated-By: Pontoon\n"
 
 #: .es5/views/confirm_reset_password.js:170
 msgid "Password reset"
@@ -1194,7 +1189,7 @@ msgstr ""
 
 #: .es5/templates/inline_recovery_setup.mustache:6 .es5/templates/inline_recovery_setup.mustache:8
 msgid "Copy"
-msgstr ""
+msgstr "Kopyahin"
 
 #: .es5/templates/inline_recovery_setup.mustache:7
 msgid "Print"
