@@ -697,6 +697,7 @@ tfa-replace-code-success-1 =
     Жаңа кодтар жасалды. Осы бір рет қолданылатын сақтық көшірме
     аутентификация кодтарын қауіпсіз жерде сақтаңыз — мобильді құрылғыңыз болмаса,
     олар тіркелгіңізге кіру үшін қажет болады.
+tfa-replace-code-success-alert-4 = Сақтық аутентификация кодтары жаңартылды
 tfa-replace-code-1-2 = Қадам 1, барлығы 2
 tfa-replace-code-2-2 = Қадам 2, барлығы 2
 
@@ -851,6 +852,7 @@ settings-recovery-phone-remove-cancel = Бас тарту
 
 ## PageSetupRecoveryPhone
 
+page-setup-recovery-phone-heading = Қалпына келтіру телефонын қосу
 
 ## Add secondary email page
 
