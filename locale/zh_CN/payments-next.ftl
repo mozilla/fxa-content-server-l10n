@@ -31,7 +31,10 @@ next-payment-error-retry-button = 请重试
 next-basic-error-message = 出了点问题，请稍后再试。
 checkout-error-contact-support-button = 联系支持
 checkout-error-not-eligible = 您未满足订阅此产品所需的条件，请联系支持以获取帮助。
+checkout-error-already-subscribed = 您此前已经订阅此产品。
 checkout-error-contact-support = 请联系支持以获取帮助。
+cart-error-currency-not-determined = 无法确定此次交易使用的货币，请重试。
+checkout-processing-general-error = 处理付款时发生意外错误，请重试。
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -182,6 +185,7 @@ next-subscription-create-title = 设置您的订阅
 next-subscription-success-title = 订阅确认
 next-subscription-processing-title = 正在确认订阅…
 next-subscription-error-title = 确认订阅时出现错误…
+subscription-title-sub-exists = 您此前已经订阅。
 subscription-title-plan-change-heading = 确认更改内容
 next-sub-guarantee = 30 天退款保证
 
