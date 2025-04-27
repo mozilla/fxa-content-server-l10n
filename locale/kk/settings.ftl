@@ -632,6 +632,7 @@ flow-setup-phone-confirm-code-button = Растау
 # followed by a button to resend a code
 flow-setup-phone-confirm-code-expired = Кодтың мерзімі бітті ме?
 flow-setup-phone-confirm-code-resend-code-button = Кодты қайта жіберу
+flow-setup-phone-confirm-code-resend-code-success = Код жіберілді
 flow-setup-phone-confirm-code-success-message-v2 = Қалпына келтіру телефоны қосылды
 
 ## FlowSetupPhoneConfirmCode
@@ -977,11 +978,15 @@ tfa-row-backup-codes-title = Сақтық аутентификация кодт�
 # Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
 # Users that have not enabled or verified 2FA will not see this
 tfa-row-backup-codes-not-available = Қолжетімді кодтар жоқ
+# Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
+tfa-row-backup-codes-get-new-cta-v2 = Жаңа кодтарды жасау
 # Shown to users who have no backup authentication codes
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = Қосу
 # 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
 tfa-row-backup-codes-description-2 = Мобильді құрылғыны немесе аутентификация қолданбасын пайдалана алмасаңыз, бұл - қалпына келтірудің ең қауіпсіз әдісі.
+# Shown with an alert icon to indicate that no recovery phone is configured
+tfa-row-backup-phone-not-available-v2 = Телефон нөмірі қосылмаған
 # button to change the configured recovery phone
 tfa-row-backup-phone-change-cta = Өзгерту
 # button to add/configure a recovery phone
@@ -1585,9 +1590,21 @@ signin-recovery-code-confirm-button = Растау
 signin-recovery-code-support-link = Тіркелгі бұғатталған ба?
 # Error displayed in a tooltip when form is submitted witout a code
 signin-recovery-code-required-error = Сақтық аутентификация коды қажет
+signin-recovery-code-use-phone-failure-description = Кейінірек қайталап көріңіз.
 
 ## SigninRecoveryPhone page
 
+signin-recovery-phone-flow-heading = Кіру
+# A recovery code in context of this page is a one time code sent to the user's phone
+signin-recovery-phone-heading = Қалпына келтіру кодын енгізіңіз
+signin-recovery-phone-input-label = 6-цифрлық кодты енгізіңіз
+signin-recovery-phone-code-submit-button = Растау
+signin-recovery-phone-resend-code-button = Кодты қайта жіберу
+signin-recovery-phone-resend-success = Код жіберілді
+# links to https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+signin-recovery-phone-locked-out-link = Тіркелгі бұғатталған ба?
+signin-recovery-phone-send-code-error-heading = Кодты жіберу кезінде мәселе туындады
+signin-recovery-phone-code-verification-error-heading = Кодыңызды растау кезінде мәселе туындады
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 

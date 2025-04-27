@@ -1,10 +1,14 @@
 ## Page
 
+# This string appears as a separation between the two sign-in options, "Enter your email"(signin-form-email-input) "or"(this string) "Continue with Google"(continue-signin-with-google-button) / "Continue with Apple"(continue-signin-with-apple-button)
+checkout-signin-options-or = немесе
+continue-signin-with-apple-button = { -brand-apple } арқылы жалғастыру
 next-payment-method-header = Төлем әдісін таңдаңыз
 next-payment-method-first-approve = Алдымен жазылуыңызды растауыңыз керек
 
 ## Page - Upgrade page
 
+checkout-error-boundary-retry-button = Қайтадан көру
 
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -13,6 +17,7 @@ next-payment-error-manage-subscription-button = Менің жазылуымды 
 next-iap-upgrade-contact-support = Сіз бұл өнімді әлі де ала аласыз — көмек алу үшін қолдау қызметіне хабарласыңыз.
 next-payment-error-retry-button = Қайтадан көру
 next-basic-error-message = Бірнәрсе қате кетті. Кейінірек қайталап көріңіз.
+checkout-error-contact-support-button = Қолдау қызметіне хабарласу
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -40,6 +45,10 @@ next-payment-confirmation-download-button = Жүктеп алуды жалғас
 
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = { $last4 } аяқталатын карта
+# Page - Not Found
+page-not-found-title = Бет табылмады
+page-not-found-description = Сіз сұраған бет табылмады. Ол туралы біз хабарды алдық, және қате бола алатын сілтемелерді жөндейміз.
+page-not-found-back-button = Артқа
 
 ## Component - Payment Consent Checkbox
 
@@ -50,6 +59,9 @@ next-payment-confirm-checkbox-error = Алға жылжу алдында осы�
 
 next-new-user-submit = Қазір жазылу
 next-payment-validate-name-error = Атыңызды енгізіңіз
+next-pay-with-heading-paypal = { -brand-paypal } арқылы төлеу
+# Label for the Full Name input
+payment-name-label = Картаңызда көрсетілгендей атыңыз
 payment-name-placeholder = Толық аты
 
 ## Component - CouponForm
@@ -65,6 +77,30 @@ next-coupon-submit = Іске асыру
 
 # Component - Header
 
+payments-header-help =
+    .title = Көмек
+    .aria-label = Көмек
+    .alt = Көмек
+payments-header-bento =
+    .title = { -brand-mozilla } өнімдері
+    .aria-label = { -brand-mozilla } өнімдері
+    .alt = { -brand-mozilla } логотипі
+payments-header-bento-close =
+    .alt = Жабу
+payments-header-bento-tagline = Жекелігіңізді қорғайтын басқа да { -brand-mozilla } өнімдері
+payments-header-bento-firefox-desktop = Компьютер үшін { -brand-firefox } браузері
+payments-header-bento-firefox-mobile = Мобильді { -brand-firefox } браузері
+payments-header-bento-monitor = { -product-mozilla-monitor }
+payments-header-bento-firefox-relay = { -product-firefox-relay }
+payments-header-bento-vpn = { -product-mozilla-vpn }
+payments-header-bento-pocket = { -product-pocket }
+payments-header-bento-made-by-mozilla = { -brand-mozilla } жасаған
+payments-header-avatar =
+    .title = { -product-mozilla-account } мәзірі
+payments-header-avatar-icon =
+    .alt = Тіркелгі профилінің суреті
+payments-header-avatar-expanded-signed-in-as = Кім ретінде кірген
+payments-header-avatar-expanded-sign-out = Шығу
 payments-client-loading-spinner =
     .aria-label = Жүктелуде…
     .alt = Жүктелуде…
@@ -93,6 +129,8 @@ select-tax-location-save-button = Сақтау
 select-tax-location-country-code-label = Ел
 select-tax-location-country-code-placeholder = Еліңізді таңдаңыз
 select-tax-location-error-missing-country-code = Еліңізді таңдаңыз
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN
+select-tax-location-product-not-available = { $productName } бұл орналасу үшін қолжетімді емес.
 select-tax-location-postal-code-label = Пошта индексі
 select-tax-location-postal-code =
     .placeholder = Пошта индексіңізді енгізіңіз
@@ -100,6 +138,8 @@ select-tax-location-error-missing-postal-code = Пошта индексіңіз�
 select-tax-location-error-invalid-postal-code = Жарамды пошта индексін енгізіңіз
 signin-form-continue-button = Жалғастыру
 signin-form-email-input = Эл. поштаны енгізіңіз
+signin-form-email-input-missing = Эл. поштаңызды енгізіңіз
+signin-form-email-input-invalid = Жарамды эл. поштаны көрсетіңіз
 next-new-user-subscribe-product-updates-mdnplus = Мен { -product-mdn-plus } және { -brand-mozilla } өнім жаңалықтары мен жаңартуларын алғым келеді
 next-new-user-subscribe-product-updates-mozilla = Мен { -brand-mozilla } өнім жаңалықтары мен жаңартуларын алғым келеді
 next-new-user-subscribe-product-updates-snp = Мен { -brand-mozilla } ұсынған қауіпсіздік пен жекелік жаңалықтары мен жаңартуларын алғым келеді
@@ -114,6 +154,7 @@ next-new-user-subscribe-product-assurance = Біз эл. поштаңызды т
 plan-price-interval-daily = { $amount } күн сайын
 plan-price-interval-weekly = { $amount } апта сайын
 plan-price-interval-monthly = { $amount } ай сайын
+plan-price-interval-halfyearly = { $amount } әр 6 ай сайын
 plan-price-interval-yearly = { $amount } жыл сайын
 
 ## Component - SubscriptionTitle
@@ -132,10 +173,25 @@ next-subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capita
 next-terms = Қолдану шарттары
 next-privacy = Жекелік ескертуі
 next-terms-download = Жүктеп алу шарттары
+terms-and-privacy-stripe-label = { -brand-mozilla } төлемдерді қауіпсіз өңдеу үшін { -brand-name-stripe } пайдаланады.
+terms-and-privacy-stripe-link = { -brand-name-stripe } жекелік саясаты
+terms-and-privacy-paypal-label = { -brand-mozilla } төлемдерді қауіпсіз өңдеу үшін { -brand-paypal } пайдаланады.
+terms-and-privacy-paypal-link = { -brand-paypal } жекелік саясаты
+terms-and-privacy-stripe-and-paypal-label = { -brand-mozilla } төлемдерді қауіпсіз өңдеу үшін { -brand-name-stripe } және { -brand-paypal } пайдаланады.
 
 ## Component - UpdatedPurchaseDetails
 
+upgrade-purchase-details-current-plan-label = Ағымдағы жоспар
+upgrade-purchase-details-new-plan-label = Жаңа жоспар
+upgrade-purchase-details-promo-code = Промокод
+upgrade-purchase-details-tax-label = Салықтар мен алымдар
+upgrade-purchase-details-prorated-upgrade = Пропорционалды жаңарту
 
 ## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
 
+upgrade-purchase-details-new-plan-daily = { $productName } (күн сайын)
+upgrade-purchase-details-new-plan-weekly = { $productName } (апта сайын)
+upgrade-purchase-details-new-plan-monthly = { $productName } (ай сайын)
+upgrade-purchase-details-new-plan-halfyearly = { $productName } (6 ай сайын)
+upgrade-purchase-details-new-plan-yearly = { $productName } (жыл сайын)

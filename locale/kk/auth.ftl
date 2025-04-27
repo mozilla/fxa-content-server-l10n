@@ -242,6 +242,10 @@ fraudulentAccountDeletion-contact = Сұрақтарыңыз болса, біз�
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Сұрақтарыңыз болса, біздің қолдау көрсету тобымызға хабарласыңыз: { $mozillaSupportUrl }
+inactiveAccountFinalWarning-action = Тіркелгіңізді сақтау үшін жүйеге кіріңіз
+# followed by link to sign in
+inactiveAccountFinalWarning-action-plaintext = Тіркелгіңізді сақтау үшін жүйеге кіріңіз:
+inactiveAccountFirstWarning-subject = Тіркелгіңізді жоғалтпаңыз
 inactiveAccountFirstWarning-action = Тіркелгіңізді сақтау үшін жүйеге кіріңіз
 inactiveAccountFirstWarning-preview = Тіркелгіңізді сақтау үшін жүйеге кіріңіз
 # followed by link to sign in
@@ -387,6 +391,7 @@ postRemoveTwoStepAuthentication-from-device = Сіз оны келесі жер�
 postRemoveTwoStepAuthentication-action = Тіркелгіні басқару
 postRemoveTwoStepAuthentication-not-required-2 = Сізге енді жүйеге кірген кезде аутентификация қолданбасынан қауіпсіздік кодтары керек емес.
 postSigninRecoveryCode-action = Тіркелгіні басқару
+postSigninRecoveryPhone-action = Тіркелгіні басқару
 postVerify-sub-title-3 = Біз сізді көруге қуаныштымыз!
 postVerify-title-2 = Бір бетті екі құрылғыда көргіңіз келе ме?
 postVerify-description-2 = Бұл оңай! Басқа құрылғыға { -brand-firefox } орнатып, синхрондау үшін тіркелгіңізге кіріңіз. Бұл сиқыр сияқты!
