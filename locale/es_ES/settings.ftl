@@ -1170,6 +1170,10 @@ auth-error-1011 = Se requiere un correo válido
 auth-error-1031 = Debes introducir la edad para registrarte
 auth-error-1032 = Debes introducir una edad válida para registrarte
 auth-error-1062 = Redirección no válida
+# Shown when a user tries to sign up with an email address with a domain that doesn't receive emails
+auth-error-1064 = ¿Escribiste mal tu correo electrónico? { $domain } no es un servicio de correo electrónico válido.
+auth-error-1066 = Las máscaras de correo electrónico no pueden utilizarse para crear una cuenta.
+auth-error-1067 = ¿Correo electrónico mal escrito?
 oauth-error-1000 = Algo ha salido mal. Cierra la pestaña y vuelve a intentarlo.
 
 ## Cannot Create Account page
@@ -1222,6 +1226,8 @@ cookies-disabled-learn-more = Saber más
 index-header = Escribe tu correo electrónico
 index-sync-header = Continuar a tu { -product-mozilla-account }
 index-sync-subheader = Sincroniza tus contraseñas, pestañas y marcadores donde sea que uses { -brand-firefox }.
+index-relay-header = Crear una máscara de correo electrónico
+index-relay-subheader = Por favor, proporciona la dirección de correo electrónico a la que deseas reenviar correos electrónicos desde tu correo enmascarado.
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = Continuar a { $serviceName }
 index-subheader-with-logo = Continuar a <span>{ $serviceLogo }</span>
@@ -1230,6 +1236,10 @@ index-cta = Regístrate o inicia sesión
 index-account-info = Una { -product-mozilla-account } también desbloquea el acceso a más productos de protección de privacidad de { -brand-mozilla }.
 index-email-input =
     .label = Escribe tu correo electrónico
+# When users delete their Mozilla account inside account Settings, they are redirected to this page with a success message
+index-account-delete-success = Cuenta eliminada correctamente
+# Displayed when users try to sign up for an account and their confirmation code email bounces
+index-email-bounced = Tu correo de confirmación acaba de ser devuelto. ¿Has escrito bien tu dirección?
 
 ## InlineRecoveryKeySetup page component
 
@@ -1272,6 +1282,7 @@ inline-recovery-confirmation-header-default = Confirma el código de autenticaci
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = Confirma el código de autenticación de respaldo <span>para continuar en { $serviceName }</span>.
+inline-recovery-2fa-enabled-v2 = Se ha activado la autenticación en dos pasos
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1600,6 +1611,19 @@ signin-push-code-confirm-link-error = El enlace está dañado. Prueba de nuevo.
 ## their password, and they previously had set up an account recovery method.
 
 signin-recovery-method-header = Iniciar sesión
+signin-recovery-method-subheader = Elige un método de recuperación
+signin-recovery-method-details = Asegurémonos de que seas tú quien utiliza tus métodos de recuperación.
+signin-recovery-method-phone = Teléfono de recuperación
+signin-recovery-method-code-v2 = Códigos de autenticación de respaldo
+# Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
+signin-recovery-method-code-info-v2 =
+    { $numBackupCodes ->
+        [one] { $numBackupCodes } código restante
+       *[other] { $numBackupCodes } códigos restantes
+    }
+# Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
+signin-recovery-method-send-code-error-heading = Ha habido un problema al enviar un código a tu teléfono de recuperación
+signin-recovery-method-send-code-error-description = Por favor, vuelve a intentarlo más tarde o utiliza tus códigos de autenticación de respaldo.
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
