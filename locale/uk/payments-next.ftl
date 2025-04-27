@@ -1,10 +1,26 @@
 ## Page
 
+checkout-signin-or-create = 1. Увійдіть або створіть { -product-mozilla-account }
+# This string appears as a separation between the two sign-in options, "Enter your email"(signin-form-email-input) "or"(this string) "Continue with Google"(continue-signin-with-google-button) / "Continue with Apple"(continue-signin-with-apple-button)
+checkout-signin-options-or = або
+continue-signin-with-google-button = Продовжити з { -brand-google }
+continue-signin-with-apple-button = Продовжити з { -brand-apple }
 next-payment-method-header = Оберіть спосіб оплати
+# This message is used to indicate the second step in a multi step process.
+payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = Спочатку ви маєте підтвердити передплату
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+location-header = Виберіть свою країну та введіть поштовий індекс, <p>щоб продовжити оформлення замовлення на { $productName }</p>
+location-banner-info = Не вдалося автоматично визначити ваше розташування
+location-required-disclaimer = Ця інформація використовується лише для розрахунку податків і валюти.
 
 ## Page - Upgrade page
 
+upgrade-page-payment-information = Платіжні дані
+# $nextInvoiceDate (number) - The date of the next invoice
+upgrade-page-acknowledgment = Ваш тарифний план зміниться негайно і сьогодні з вас буде стягнуто пропорційну суму за решту циклу передплати. Починаючи з { $startingDate } з вас стягуватиметься повна сума.
+checkout-error-boundary-retry-button = Спробувати знову
+checkout-error-boundary-basic-error-message = Щось пішло не так. Спробуйте ще раз або <contactSupportLink>зверніться до служби підтримки.</contactSupportLink>
 
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -13,6 +29,12 @@ next-payment-error-manage-subscription-button = Керувати передпл�
 next-iap-upgrade-contact-support = Ви все одно можете отримати цей продукт — зверніться до служби підтримки по допомогу.
 next-payment-error-retry-button = Спробувати знову
 next-basic-error-message = Щось пішло не так. Будь ласка, спробуйте знову пізніше.
+checkout-error-contact-support-button = Звернутися до служби підтримки
+checkout-error-not-eligible = Ви не маєте права передплачувати цей продукт – зверніться до служби підтримки для отримання допомоги.
+checkout-error-already-subscribed = Ви вже передплачуєте цей продукт.
+checkout-error-contact-support = Зверніться до служби підтримки для отримання допомоги.
+cart-error-currency-not-determined = Не вдалося визначити валюту для цієї покупки. Повторіть спробу.
+checkout-processing-general-error = Під час обробки вашого платежу сталася неочікувана помилка. Будь ласка, повторіть спробу.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -23,6 +45,8 @@ next-payment-processing-message = Зачекайте, поки ми оброби
 ## Common strings used in multiple checkout pages
 
 next-payment-confirmation-thanks-heading-account-exists = Дякуємо! Тепер перевірте свою електронну пошту!
+# $email (String) - The user's email.
+payment-confirmation-thanks-subheading-account-exists-2 = Ви отримаєте електронний лист на адресу { $email } з інструкціями щодо вашої передплати, а також платіжними даними.
 next-payment-confirmation-order-heading = Подробиці замовлення
 # $invoiceNumber (String) - Invoice number of the successful payment
 next-payment-confirmation-invoice-number = Рахунок-фактура #{ $invoiceNumber }
@@ -40,6 +64,10 @@ next-payment-confirmation-download-button = Продовжити заванта�
 
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Картка, номер якої закінчується на { $last4 }
+# Page - Not Found
+page-not-found-title = Сторінку не знайдено
+page-not-found-description = Запитану вами сторінку не знайдено. Ми отримали сповіщення про цю проблему і якнайшвидше виправимо пошкоджені посилання.
+page-not-found-back-button = Повернутися назад
 
 ## Component - Payment Consent Checkbox
 
@@ -50,6 +78,10 @@ next-payment-confirm-checkbox-error = Необхідно завершити це
 
 next-new-user-submit = Передплатити
 next-payment-validate-name-error = Будь ласка, введіть своє ім’я
+next-pay-with-heading-paypal = Сплатити через { -brand-paypal }
+# Label for the Full Name input
+payment-name-label = Повне ім'я, зазначене на вашій картці
+payment-name-placeholder = Повне ім'я
 
 ## Component - CouponForm
 
@@ -64,6 +96,20 @@ next-coupon-submit = Застосувати
 
 # Component - Header
 
+payments-header-help =
+    .title = Довідка
+    .aria-label = Довідка
+    .alt = Довідка
+payments-header-bento =
+    .title = Продукти { -brand-mozilla }
+    .aria-label = Продукти { -brand-mozilla }
+    .alt = Логотип { -brand-mozilla }
+payments-header-bento-close =
+    .alt = Закрити
+payments-header-bento-tagline = Інші продукти від { -brand-mozilla }, які захищають вашу приватність
+payments-client-loading-spinner =
+    .aria-label = Завантаження…
+    .alt = Завантаження…
 
 ## Payment Section
 
@@ -83,6 +129,12 @@ next-coupon-success-repeating = Ваш тарифний план буде авт
 
 ## Select Tax Location
 
+select-tax-location-title = Розташування
+select-tax-location-edit-button = Редагувати
+select-tax-location-save-button = Зберегти
+select-tax-location-country-code-label = Країна
+select-tax-location-country-code-placeholder = Виберіть свою країну
+select-tax-location-error-missing-country-code = Виберіть свою країну
 next-new-user-subscribe-product-updates-mdnplus = Я хочу отримувати новини про продукти й оновлення від { -product-mdn-plus } і { -brand-mozilla }
 next-new-user-subscribe-product-updates-mozilla = Я хочу отримувати новини та оновлення продуктів від { -brand-mozilla }
 next-new-user-subscribe-product-updates-snp = Я хочу отримувати новини та оновлення щодо безпеки та приватності від { -brand-mozilla }

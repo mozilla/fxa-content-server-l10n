@@ -454,6 +454,11 @@ postSigninRecoveryCode-description = Якщо це були не ви, нега�
 postSigninRecoveryCode-device = Ви ввійшли з:
 postSigninRecoveryCode-action = Керувати обліковим записом
 postSigninRecoveryPhone-subject = Телефон для відновлення, використаний для входу
+postSigninRecoveryPhone-preview = Підтвердження дій в обліковому записі
+postSigninRecoveryPhone-title = Ваш телефон для відновлення використано для входу
+postSigninRecoveryPhone-description = Якщо це були не ви, негайно змініть пароль, щоб захистити свій обліковий запис.
+postSigninRecoveryPhone-device = Ви ввійшли з:
+postSigninRecoveryPhone-action = Керувати обліковим записом
 postVerify-sub-title-3 = Ми раді вас бачити!
 postVerify-title-2 = Хочете бачити одну вкладку на двох пристроях?
 postVerify-description-2 = Це легко! Просто встановіть { -brand-firefox } на інший пристрій і ввійдіть, щоб почати синхронізацію. Це як магія!
@@ -706,6 +711,7 @@ verifySecondaryCode-expiry-notice-2 = Термін його дії сплива�
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = Підтвердження облікового запису
+verifyShortCode-preview = Використовуйте наданий код, щоб підтвердити свій { -product-mozilla-account }.
 verifyShortCode-title-3 = Відкрийте інтернет разом з { -brand-mozilla }
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = Підтвердьте свій обліковий запис і отримайте максимум від { -brand-mozilla } всюди де ви зайдете, починаючи з:
