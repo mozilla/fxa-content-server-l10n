@@ -2,6 +2,8 @@
 
 app-general-err-heading = Загальна помилка програми
 app-general-err-message = Щось пішло не так. Будь ласка, спробуйте знову пізніше.
+# Specific handling for issues when bad or missing query parameters are detected
+app-query-parameter-err-heading = Неправильний запит: недійсні параметри
 
 ## FxA React - Strings shared between multiple FxA products for application footer
 

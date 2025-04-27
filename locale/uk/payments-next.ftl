@@ -107,6 +107,19 @@ payments-header-bento =
 payments-header-bento-close =
     .alt = Закрити
 payments-header-bento-tagline = Інші продукти від { -brand-mozilla }, які захищають вашу приватність
+payments-header-bento-firefox-desktop = Браузер { -brand-firefox } для комп'ютера
+payments-header-bento-firefox-mobile = Браузер { -brand-firefox } для мобільного
+payments-header-bento-monitor = { -product-mozilla-monitor }
+payments-header-bento-firefox-relay = { -product-firefox-relay }
+payments-header-bento-vpn = { -product-mozilla-vpn }
+payments-header-bento-pocket = { -product-pocket }
+payments-header-bento-made-by-mozilla = Створено в { -brand-mozilla }
+payments-header-avatar =
+    .title = Меню { -product-mozilla-account(case: "gen") }
+payments-header-avatar-icon =
+    .alt = Зображення профілю облікового запису
+payments-header-avatar-expanded-signed-in-as = Вхід виконано
+payments-header-avatar-expanded-sign-out = Вийти
 payments-client-loading-spinner =
     .aria-label = Завантаження…
     .alt = Завантаження…
@@ -132,9 +145,23 @@ next-coupon-success-repeating = Ваш тарифний план буде авт
 select-tax-location-title = Розташування
 select-tax-location-edit-button = Редагувати
 select-tax-location-save-button = Зберегти
+select-tax-location-continue-to-checkout-button = Перейти до оформлення замовлення
 select-tax-location-country-code-label = Країна
 select-tax-location-country-code-placeholder = Виберіть свою країну
 select-tax-location-error-missing-country-code = Виберіть свою країну
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN
+select-tax-location-product-not-available = { $productName } недоступний у цьому регіоні.
+select-tax-location-postal-code-label = Поштовий індекс
+select-tax-location-postal-code =
+    .placeholder = Введіть свій поштовий індекс
+select-tax-location-error-missing-postal-code = Введіть свій поштовий індекс
+select-tax-location-error-invalid-postal-code = Введіть дійсний поштовий індекс
+select-tax-location-successfully-updated = Ваше розташування оновлено.
+select-tax-location-error-location-not-updated = Не вдалося оновити ваше розташування. Повторіть спробу.
+signin-form-continue-button = Продовжити
+signin-form-email-input = Введіть свою електронну пошту
+signin-form-email-input-missing = Введіть свою електронну пошту
+signin-form-email-input-invalid = Вкажіть дійсну електронну пошту
 next-new-user-subscribe-product-updates-mdnplus = Я хочу отримувати новини про продукти й оновлення від { -product-mdn-plus } і { -brand-mozilla }
 next-new-user-subscribe-product-updates-mozilla = Я хочу отримувати новини та оновлення продуктів від { -brand-mozilla }
 next-new-user-subscribe-product-updates-snp = Я хочу отримувати новини та оновлення щодо безпеки та приватності від { -brand-mozilla }
@@ -146,6 +173,11 @@ next-new-user-subscribe-product-assurance = Ми застосовуємо ваш
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+plan-price-interval-daily = { $amount } щодня
+plan-price-interval-weekly = { $amount } щотижня
+plan-price-interval-monthly = { $amount } щомісяця
+plan-price-interval-halfyearly = { $amount } кожні 6 місяців
+plan-price-interval-yearly = { $amount } щороку
 
 ## Component - SubscriptionTitle
 
@@ -153,6 +185,8 @@ next-subscription-create-title = Налаштуйте передплату
 next-subscription-success-title = Підтвердження передплати
 next-subscription-processing-title = Підтвердження передплати…
 next-subscription-error-title = Помилка підтвердження передплати…
+subscription-title-sub-exists = У вас вже є передплата
+subscription-title-plan-change-heading = Перегляньте свої зміни
 next-sub-guarantee = Гарантоване повернення коштів упродовж 30 днів
 
 ## Component - TermsAndPrivacy
@@ -163,10 +197,26 @@ next-subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capita
 next-terms = Умови надання послуг
 next-privacy = Положення про приватність
 next-terms-download = Завантажити умови
+terms-and-privacy-stripe-label = { -brand-mozilla } використовує { -brand-name-stripe } для безпечної обробки платежів.
+terms-and-privacy-stripe-link = Політика приватності { -brand-name-stripe }
+terms-and-privacy-paypal-label = { -brand-mozilla } використовує { -brand-paypal } для безпечної обробки платежів.
+terms-and-privacy-paypal-link = Політика приватності { -brand-paypal }
+terms-and-privacy-stripe-and-paypal-label = { -brand-mozilla } використовує { -brand-name-stripe } і { -brand-paypal } для безпечної обробки платежів.
 
 ## Component - UpdatedPurchaseDetails
 
+upgrade-purchase-details-current-plan-label = Поточний тарифний план
+upgrade-purchase-details-new-plan-label = Новий тарифний план
+upgrade-purchase-details-promo-code = Промокод
+upgrade-purchase-details-tax-label = Податки та збори
+upgrade-purchase-details-new-total-label = Нова сума
+upgrade-purchase-details-prorated-upgrade = Пропорційне оновлення
 
 ## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
 
+upgrade-purchase-details-new-plan-daily = { $productName } (щодня)
+upgrade-purchase-details-new-plan-weekly = { $productName } (щотижня)
+upgrade-purchase-details-new-plan-monthly = { $productName } (щомісяця)
+upgrade-purchase-details-new-plan-halfyearly = { $productName } (кожні 6 місяців)
+upgrade-purchase-details-new-plan-yearly = { $productName } (щороку)

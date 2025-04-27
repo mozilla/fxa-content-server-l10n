@@ -36,6 +36,8 @@ brand-m-logo =
 ## ButtonBack component
 ## Allows users to click a back arrow to navigate to the previous page
 
+button-back-aria-label = Назад
+button-back-title = Назад
 
 ## ButtonDownloadRecoveryKeyPDF
 ## Clicking on this button downloads a PDF file that contains the user's account recovery key
@@ -291,6 +293,10 @@ recovery-phone-image-description =
     .aria-label = Мобільний пристрій, який отримує код у текстовому повідомленні.
 recovery-phone-code-image-description =
     .aria-label = Код, отриманий на мобільному пристрої.
+backup-recovery-phone-image-aria-label =
+    .aria-label = Мобільний пристрій з можливістю надсилання SMS-повідомлень
+backup-authentication-codes-image-aria-label =
+    .aria-label = Екран пристрою з кодами
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -321,6 +327,8 @@ input-password-sr-only-now-hidden = Ваш пароль тепер прихов�
 
 ## Phone number component
 
+# This is an aria-label available to screen readers for a selection list that includes country flags, country name and country code
+input-phone-number-country-list-aria-label = Виберіть країну
 input-phone-number-enter-number = Введіть номер телефону
 input-phone-number-country-united-states = США
 input-phone-number-country-canada = Канада
@@ -557,6 +565,9 @@ dc-learn-more = Докладніше
 # DropDownAvatarMenu component
 
 drop-down-menu-title-2 = Меню { -product-mozilla-account(case: "gen") }
+# This is displayed in the Settings menu after user's click on their profile icon.
+# Following this string on a new line will be their display name (user's name or email)
+drop-down-menu-signed-in-as-v2 = Вхід виконано
 drop-down-menu-sign-out = Вийти
 drop-down-menu-sign-out-error-2 = Перепрошуємо, але під час виходу виникла проблема
 
@@ -610,6 +621,9 @@ flow-recovery-key-info-cancel-link = Скасувати
 
 ## FlowSetupPhoneConfirmCode
 
+# verification code refers to a code sent by text message to confirm phone number ownership
+# and complete setup
+flow-setup-phone-confirm-code-heading = Введіть код підтвердження
 
 ## FlowSetupPhoneConfirmCode
 
