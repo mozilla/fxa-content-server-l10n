@@ -852,6 +852,8 @@ recent-activity-account-recovery-phone-signin-complete = Se ha completado el ini
 recent-activity-account-recovery-phone-signin-failed = Error al iniciar sesión con el teléfono de recuperación
 recent-activity-account-recovery-phone-removed = Teléfono de recuperación eliminado
 recent-activity-account-recovery-codes-replaced = Códigos de recuperación reemplazados
+recent-activity-account-recovery-codes-created = Códigos de recuperación creados
+recent-activity-account-recovery-codes-signin-complete = Se ha completado el inicio de sesión mediante códigos de recuperación
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Otra actividad de la cuenta
 
@@ -880,6 +882,9 @@ settings-recovery-phone-remove-success = Teléfono de recuperación eliminado
 ## PageSetupRecoveryPhone
 
 page-setup-recovery-phone-heading = Añadir teléfono de recuperación
+page-setup-recovery-phone-back-button-title = Volver a los ajustes
+# Back arrow to return to step 1 of recovery phone setup flow
+page-setup-recovery-phone-step2-back-button-title = Cambiar número de teléfono
 
 ## Add secondary email page
 
@@ -919,6 +924,8 @@ verify-secondary-email-success-alert-2 = { $email } añadido correctamente
 
 # Link to delete account on main Settings page
 delete-account-link = Eliminar cuenta
+# Success message displayed in alert bar after the user has successfully confirmed their account is not inactive.
+inactive-update-status-success-alert = Has iniciado sesión correctamente. Tu { -product-mozilla-account } y tus datos permanecerán activos.
 
 ## Two Step Authentication
 
@@ -933,6 +940,7 @@ tfa-incorrect-totp = Código de autenticación en dos pasos incorrecto
 tfa-cannot-retrieve-code = Ha surgido un problema al recuperar tu código.
 tfa-cannot-verify-code-4 = Ha habido un problema al confirmar tu código de autenticación de respaldo
 tfa-incorrect-recovery-code-1 = Código de autenticación de respaldo incorrecto
+tfa-enabled-v2 = Se ha activado la autenticación en dos pasos
 tfa-scan-this-code =
     Escanea este código QR usando una de <linkExternal>estas
     aplicaciones de autenticación</linkExternal>.
@@ -952,6 +960,8 @@ tfa-input-enter-totp-v2 =
 tfa-save-these-codes-1 =
     Guarda estos códigos de autenticación de respaldo de un solo uso en un lugar seguro para cuando
     no tengas tu dispositivo móvil.
+# codes here refers to backup authentication codes
+tfa-enter-code-to-confirm-setup = Confirma que has guardado tus códigos introduciendo uno. Sin estos códigos, es posible que no puedas iniciar sesión si no tienes tu aplicación de autenticación.
 tfa-enter-recovery-code-1 =
     .label = Introduce un código de autenticación de respaldo
 
@@ -1003,18 +1013,44 @@ signout-sync-session-expired = Lo sentimos, algo ha salido mal. Cierra la sesió
 
 ## SubRow component
 
+tfa-row-backup-codes-title = Códigos de autenticación de respaldo
 # Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
 # Users that have not enabled or verified 2FA will not see this
 tfa-row-backup-codes-not-available = No hay códigos disponibles
+# $numCodesRemaining - the number of backup authentication codes that have not yet been used (generally between 1 to 5)
+# A different message is shown when no codes are available
+tfa-row-backup-codes-available-v2 =
+    { $numCodesAvailable ->
+        [one] { $numCodesAvailable } código restante
+       *[other] { $numCodesAvailable } códigos restantes
+    }
+# Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
+tfa-row-backup-codes-get-new-cta-v2 = Crear nuevos códigos
 # Shown to users who have no backup authentication codes
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = Añadir
+# 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
+tfa-row-backup-codes-description-2 = Este es el método de recuperación más seguro si no puedes utilizar tu dispositivo móvil o la aplicación de autenticación.
+# Recovery phone is a recovery method for two-step authentication
+# A recovery code can be sent to the user's phone
+tfa-row-backup-phone-title-v2 = Teléfono de recuperación
+# Shown with an alert icon to indicate that no recovery phone is configured
+tfa-row-backup-phone-not-available-v2 = No se ha añadido ningún número de teléfono
 # button to change the configured recovery phone
 tfa-row-backup-phone-change-cta = Cambiar
 # button to add/configure a recovery phone
 tfa-row-backup-phone-add-cta = Añadir
 # Button to remove a recovery phone from the user's account
 tfa-row-backup-phone-delete-button = Eliminar
+# Shown in tooltip on delete button or delete icon
+tfa-row-backup-phone-delete-title-v2 = Eliminar teléfono de recuperación
+tfa-row-backup-phone-delete-restriction-v2 = Si quieres eliminar tu teléfono de recuperación, primero añade códigos de autenticación de respaldo o desactiva la autenticación de dos pasos para evitar el bloqueo de tu cuenta.
+# "this" refers to recovery phone
+tfa-row-backup-phone-description-v2 = Este es el método de recuperación más sencillo si no puedes utilizar tu aplicación de autenticación.
+# A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
+# into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
+# with SMS-based two-factor authentication.
+tfa-row-backup-phone-sim-swap-risk-link = Saber más sobre el riesgo de intercambio de SIM
 
 ## Switch component
 
@@ -1104,6 +1140,10 @@ tfa-row-button-refresh =
     .title = Actualizar autenticación en dos pasos
 tfa-row-cannot-refresh = Lo sentimos, ha surgido un problema al actualizar la autenticación en dos pasos.
 tfa-row-enabled-description = Tu cuenta está protegida con la verificación en dos pasos. Tendrás que meter un código que se usa una sola vez de tu app de autenticación cuando entres en tu { -product-mozilla-account }.
+# "this" refers to two-step authentication
+# Link goes to https://support.mozilla.org/kb/secure-mozilla-account-two-step-authentication
+tfa-row-enabled-info-link = Cómo protege tu cuenta
+tfa-row-disabled-description-v2 = Ayuda a proteger tu cuenta utilizando una aplicación de autenticación de terceros como segundo paso para iniciar sesión.
 tfa-row-cannot-verify-session-4 = Lo sentimos, ha surgido un problema al confirmar tu sesión
 tfa-row-disable-modal-heading = ¿Desactivar la autenticación en dos pasos?
 tfa-row-disable-modal-confirm = Desactivar
@@ -1154,12 +1194,22 @@ auth-error-114-generic = Has probado demasiadas veces. Inténtalo más tarde.
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Has probado demasiadas veces. Vuelve a intentarlo { $retryAfter }.
 auth-error-125 = Se bloqueó la solicitud por motivos de seguridad
+auth-error-129 = Número de teléfono no válido
 auth-error-138-2 = Sesión no confirmada
 auth-error-139 = El correo electrónico secundario debe ser diferente del correo electrónico de tu cuenta
 auth-error-155 = Token TOTP no encontrado
+# Error shown when the user submits an invalid backup authentication code
+auth-error-156 = Código de autenticación de respaldo no encontrado
 auth-error-159 = Clave de recuperación de cuenta no válida
 auth-error-183-2 = Código de confirmación no válido o caducado
+auth-error-202 = Función no activada
+auth-error-203 = Sistema no disponible, vuelve a intentarlo más tarde
 auth-error-206 = No se puede crear la contraseña, la contraseña ya está establecida
+auth-error-214 = El número de teléfono de recuperación ya existe
+auth-error-215 = El número de teléfono de recuperación no existe
+auth-error-216 = Se alcanzó el límite de mensajes de texto
+auth-error-218 = No se puede eliminar el teléfono de recuperación, faltan los códigos de autenticación de respaldo.
+auth-error-219 = Este número de teléfono está registrado con demasiadas cuentas. Prueba con otro número.
 auth-error-999 = Error inesperado
 auth-error-1001 = Se ha cancelado el inicio de sesión
 auth-error-1002 = La sesión expiró. Inicia sesión para continuar.
@@ -1167,13 +1217,22 @@ auth-error-1003 = El almacenamiento local o las cookies siguen desactivados
 auth-error-1008 = La nueva contraseña debe ser diferente
 auth-error-1010 = Introduce una contraseña válida
 auth-error-1011 = Se requiere un correo válido
+auth-error-1018 = Se ha devuelto el correo de confirmación. ¿Estaba mal escrito?
+auth-error-1020 = ¿Escribiste mal tu correo electrónico? firefox.com no es un servicio de correo electrónico válido
 auth-error-1031 = Debes introducir la edad para registrarte
 auth-error-1032 = Debes introducir una edad válida para registrarte
+auth-error-1054 = Código de autenticación en dos pasos incorrecto
+auth-error-1056 = Código de autenticación de respaldo no válido
 auth-error-1062 = Redirección no válida
 # Shown when a user tries to sign up with an email address with a domain that doesn't receive emails
 auth-error-1064 = ¿Escribiste mal tu correo electrónico? { $domain } no es un servicio de correo electrónico válido.
 auth-error-1066 = Las máscaras de correo electrónico no pueden utilizarse para crear una cuenta.
 auth-error-1067 = ¿Correo electrónico mal escrito?
+# Displayed when we want to reference a user's previously set up recovery phone
+# number, but they are not completely signed in yet. We'll only show the last 4 digits.
+# Variables:
+#  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
+recovery-phone-number-ending-digits = Número que termina en { $lastFourPhoneNumber }
 oauth-error-1000 = Algo ha salido mal. Cierra la pestaña y vuelve a intentarlo.
 
 ## Cannot Create Account page
