@@ -31,7 +31,10 @@ next-payment-error-retry-button = Prova arrè
 next-basic-error-message = Cci fu un prubblema. Pi favuri torna a prova cchiù tardu.
 checkout-error-contact-support-button = Cuntatta l'assistenza
 checkout-error-not-eligible = Nun ti po' abbunari a stu pruduttu. Pi favuri cuntatta l'assistenza p'addumannari ajutu.
+checkout-error-already-subscribed = Già t'abbunasti a stu pruduttu.
 checkout-error-contact-support = Pi favuri cuntatta l'assistenza p'addumannari ajutu.
+cart-error-currency-not-determined = Nun pòttimu stabbiliri a valuta pi st'accàttitu, pi favuri torna a prova.
+checkout-processing-general-error = Cci fu n'erruri amentri chi prucissàvamu u to pagamentu, pi favuri torna a prova.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -182,6 +185,7 @@ next-subscription-create-title = Cunfijura u to abbunamentu
 next-subscription-success-title = Cunferma di l'abbunamentu
 next-subscription-processing-title = Staju cunfirmannu l'abbunamentu…
 next-subscription-error-title = Cci fu un prubblema mentri chi cunfirmava l'abbunamentu…
+subscription-title-sub-exists = Già t'abbunasti
 subscription-title-plan-change-heading = Rividi u to canciu
 next-sub-guarantee = Priggiarìa di rifazzioni pi 30 jorna
 
