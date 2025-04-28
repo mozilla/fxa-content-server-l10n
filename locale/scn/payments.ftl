@@ -359,6 +359,10 @@ instant-payouts-unsupported = Parissi chi a to carta di dèbbitu nun è cunfijur
 duplicate-transaction = Uhm… parissi chi fu fattu un pagamentu avali di picca. Cuntrolla a crunuluggìa dî pagamenti.
 coupon-expired = U còdici prumuzzionali scadìu.
 card-error = Nun pòttimu prucissari u to pagamentu. Pi favuri cuntrolla i nfurmazzioni dâ to carta di crèditu e torna a prova.
+country-currency-mismatch = A valuta di st'abbunamentu nun è vàlita pû pajisi assuciatu cû to pagamentu.
+currency-currency-mismatch = Ni dispiaci, ma nun po' scanciari a valuta.
+location-unsupported = A to pusizzioni attuali nun è suppurtata dî nostri Tèrmini di sirbizzu.
+no-subscription-change = Ni dispiaci, nun po' canciari u to chianu d'abbunamentu.
 # $mobileAppStore (String) - "Google Play Store" or "App Store", localized when the translation is available.
 iap-already-subscribed = Già facisti l'abbunamentu pi tràmiti di { $mobileAppStore }.
 
