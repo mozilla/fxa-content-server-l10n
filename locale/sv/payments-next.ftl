@@ -31,7 +31,10 @@ next-payment-error-retry-button = Försök igen
 next-basic-error-message = Något gick fel. Vänligen försök igen.
 checkout-error-contact-support-button = Kontakta supporten
 checkout-error-not-eligible = Du har inte rätt att prenumerera på den här produkten - vänligen kontakta supporten så att vi kan hjälpa dig.
+checkout-error-already-subscribed = Du prenumererar redan på den här produkten.
 checkout-error-contact-support = Vänligen kontakta supporten så kan vi hjälpa dig.
+cart-error-currency-not-determined = Vi kunde inte fastställa valutan för detta köp, var god försök igen.
+checkout-processing-general-error = Ett oväntat fel har uppstått vid bearbetningen av din betalning. Försök igen.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -182,6 +185,7 @@ next-subscription-create-title = Konfigurera din prenumeration
 next-subscription-success-title = Prenumerationsbekräftelse
 next-subscription-processing-title = Bekräftar prenumerationen…
 next-subscription-error-title = Fel vid bekräftelse av prenumeration…
+subscription-title-sub-exists = Du prenumererar redan
 subscription-title-plan-change-heading = Granska din ändring
 next-sub-guarantee = 30-dagars återbetalningsgaranti
 

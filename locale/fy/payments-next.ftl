@@ -31,7 +31,10 @@ next-payment-error-retry-button = Opnij probearje
 next-basic-error-message = Der is wat misgien. Probearje it letter opnij.
 checkout-error-contact-support-button = Kontakt opnimme
 checkout-error-not-eligible = Jo komme net yn oanmerking foar in abonnemint op dit produkt – nim kontakt op mei de stipeôfdieling, sadat wy jo helpe kinne.
+checkout-error-already-subscribed = Jo binne al abonnearre op dit produkt.
 checkout-error-contact-support = Nim kontakt op mei stipeôfdieling, sadat wy jo helpe kinne.
+cart-error-currency-not-determined = Wy kinne de faluta foar dizze oankeap net bepale, probearje it opnij.
+checkout-processing-general-error = Der is in ûnferwachte flater bard by it ferwurkjen fan jo betelling, probearje it opnij.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -182,6 +185,7 @@ next-subscription-create-title = Jo abonnemint ynstelle
 next-subscription-success-title = Abonnemintsbefêstiging
 next-subscription-processing-title = Abonnemint befêstigje…
 next-subscription-error-title = Flater by befêstigjen abonnemint…
+subscription-title-sub-exists = Jo binne al abonnearre
 subscription-title-plan-change-heading = Jo wiziging besjen
 next-sub-guarantee = 30-dagen-jildweromgarânsje
 
