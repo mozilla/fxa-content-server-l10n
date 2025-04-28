@@ -33,7 +33,7 @@ checkout-error-contact-support-button = Cysylltu â Chefnogaeth
 checkout-error-not-eligible = Nid ydych yn gymwys i danysgrifio i'r cynnyrch hwn - cysylltwch â'r tîm cymorth fel y gallwn eich helpu.
 checkout-error-already-subscribed = Rydych chi eisoes wedi tanysgrifio i'r cynnyrch hwn.
 checkout-error-contact-support = Cysylltwch â'r tîm cymorth fel y gallwn eich helpu.
-cart-error-currency-not-determined = Nid oeddem yn gallu pennu'r arian cyfred ar gyfer y pryniant hwn, ceisiwch eto.
+cart-error-currency-not-determined = Doeddem ni ddim yn gallu pennu'r arian cyfred ar gyfer y pryniant hwn, ceisiwch eto.
 checkout-processing-general-error = Mae gwall annisgwyl wedi digwydd wrth brosesu'ch taliad, ceisiwch eto.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
