@@ -182,6 +182,7 @@ next-subscription-create-title = Ρύθμιση συνδρομής
 next-subscription-success-title = Επιβεβαίωση συνδρομής
 next-subscription-processing-title = Επιβεβαίωση συνδρομής…
 next-subscription-error-title = Σφάλμα επιβεβαίωσης συνδρομής…
+subscription-title-sub-exists = Έχετε ήδη εγγραφεί
 subscription-title-plan-change-heading = Ελέγξτε την αλλαγή σας
 next-sub-guarantee = Εγγύηση επιστροφής χρημάτων 30 ημερών
 
