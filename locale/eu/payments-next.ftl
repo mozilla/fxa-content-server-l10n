@@ -1,6 +1,8 @@
 ## Page
 
 checkout-signin-or-create = 1. saioa hasi { -product-mozilla-account } kontuan
+# This string appears as a separation between the two sign-in options, "Enter your email"(signin-form-email-input) "or"(this string) "Continue with Google"(continue-signin-with-google-button) / "Continue with Apple"(continue-signin-with-apple-button)
+checkout-signin-options-or = edo
 continue-signin-with-google-button = { -brand-google }ekin jarraitu
 continue-signin-with-apple-button = { -brand-apple }(e)kin jarraitu
 next-payment-method-header = Hautatu zure ordaiketa metodoa
@@ -10,6 +12,12 @@ next-payment-method-first-approve = Lehenik eta behin zure harpidetza onartu beh
 
 ## Page - Upgrade page
 
+upgrade-page-payment-information = Ordainketa informazioa
+# $nextInvoiceDate (number) - The date of the next invoice
+upgrade-page-acknowledgment =
+    Zure plana berehala aldatuko da, eta proportzioan kobratuko dizugu
+    zenbatekoa. gaurtik fakturazio-ziklo honen gainerako. { $nextInvoiceDate }
+    hasita kopuru osoa kobratuko dizute.
 checkout-error-boundary-retry-button = Saiatu berriro
 checkout-error-boundary-basic-error-message = Zerbait gaizki joan da. Mesedez, saiatu berriro edo <contactSupportLink>jarri laguntzarekin harremanetan.</contactSupportLink>
 
@@ -23,6 +31,7 @@ next-basic-error-message = Zerbait oker joan da. Mesedez, berriro saiatu berandu
 checkout-error-contact-support-button = Laguntza kontaktua
 checkout-error-not-eligible = Ez duzu produktu honetara harpidetzeko eskubidea. Jarri laguntza-zerbitzuarekin lagundu ahal izateko.
 checkout-error-contact-support = Mesedez, jarri harremanetan laguntzarekin lagundu ahal izateko.
+checkout-processing-general-error = Ustekabeko errore bat gertatu da ordainketa prozesatzen ari zaren bitartean. Saiatu berriro.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -52,6 +61,10 @@ next-payment-confirmation-download-button = Jarraitu deskargara
 
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = { $last4 }-z amaitzen den txartela
+# Page - Not Found
+page-not-found-title = Ez da orria aurkitu
+page-not-found-description = Eskatu duzun orria ez dago. Abisua jaso dugu eta hautsita egon daitezkeen estekak konponduko ditugu.
+page-not-found-back-button = Joan atzera
 
 ## Component - Payment Consent Checkbox
 
@@ -80,6 +93,30 @@ next-coupon-submit = Aplikatu
 
 # Component - Header
 
+payments-header-help =
+    .title = Laguntza
+    .aria-label = Laguntza
+    .alt = Laguntza
+payments-header-bento =
+    .title = { -brand-mozilla } produktuak
+    .aria-label = { -brand-mozilla } produktuak
+    .alt = { -brand-mozilla } logoa
+payments-header-bento-close =
+    .alt = Itxi
+payments-header-bento-tagline = Zure pribatutasuna babesten duten { -brand-mozilla }ren produktu gehiago
+payments-header-bento-firefox-desktop = Mahaigainerako { -brand-firefox } nabigatzailea
+payments-header-bento-firefox-mobile = Mugikorrerako { -brand-firefox } nabigatzailea
+payments-header-bento-monitor = { -product-mozilla-monitor }
+payments-header-bento-firefox-relay = { -product-firefox-relay }
+payments-header-bento-vpn = { -product-mozilla-vpn }
+payments-header-bento-pocket = { -product-pocket }
+payments-header-bento-made-by-mozilla = { -brand-mozilla }(e)k egina
+payments-header-avatar =
+    .title = { -product-mozilla-account } menua
+payments-header-avatar-icon =
+    .alt = Kontuaren profileko irudia
+payments-header-avatar-expanded-signed-in-as = Saioa hasita:
+payments-header-avatar-expanded-sign-out = Amaitu saioa
 payments-client-loading-spinner =
     .aria-label = Kargatzen…
     .alt = Kargatzen…
@@ -135,6 +172,7 @@ next-new-user-subscribe-product-assurance = Zure posta elektronikoa zure kontua 
 plan-price-interval-daily = { $amount } egunero
 plan-price-interval-weekly = { $amount } astero
 plan-price-interval-monthly = { $amount } hilero
+plan-price-interval-halfyearly = { $amount } sei hilero
 plan-price-interval-yearly = { $amount } urtero
 
 ## Component - SubscriptionTitle
@@ -154,6 +192,7 @@ next-subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capita
 next-terms = Zerbitzuaren baldintzak
 next-privacy = Pribatutasun-oharra
 next-terms-download = Deskargatu baldintzak
+terms-and-privacy-stripe-label = { -brand-mozilla }-k { -brand-name-stripe } darabil ordainketa seguruak izateko.
 
 ## Component - UpdatedPurchaseDetails
 

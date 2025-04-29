@@ -1226,6 +1226,7 @@ auth-error-1032 = Adin egoki bat sartu behar duzu erregistratzeko
 auth-error-1054 = Bi urratseko autentifikazio kode baliogabea
 auth-error-1056 = Babeskopiako autentifikazio-kode baliogabea
 auth-error-1062 = Birbideraketa baliogabea
+auth-error-1067 = Gaizki idatzitako helbidea?
 # Displayed when we want to reference a user's previously set up recovery phone
 # number, but they are not completely signed in yet. We'll only show the last 4 digits.
 # Variables:
@@ -1283,6 +1284,8 @@ cookies-disabled-learn-more = Argibide gehiago
 index-header = Idatzi zure helbide elektronikoa
 index-sync-header = Jarraitu zure { -product-mozilla-account }ra
 index-sync-subheader = Sinkronizatu zure pasahitzak, fitxak eta laster-markak { -brand-firefox } erabiltzen duzun toki orotan.
+index-relay-header = Sortu posta elektronikoko maskara bat
+index-relay-subheader = Mesedez, eman maskaratutako mezu elektronikoak birbidali nahi dituzun helbide elektronikoa.
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = Jarraitu { $serviceName } zerbitzura
 index-subheader-with-logo = Jarraitu <span>{ $serviceLogo }</span>ra
@@ -1291,6 +1294,10 @@ index-cta = Erregistratu edo hasi saioa
 index-account-info = { -product-mozilla-account } batek pribatutasuna babesten duten produktu gehiagorako sarbidea desblokeatzen du { -brand-mozilla }-tik.
 index-email-input =
     .label = Idatzi zure helbide elektronikoa
+# When users delete their Mozilla account inside account Settings, they are redirected to this page with a success message
+index-account-delete-success = Kontua ondo ezabatu da
+# Displayed when users try to sign up for an account and their confirmation code email bounces
+index-email-bounced = Zure berrespen-mezu elektronikoa itzuli berri da. Helbide elektronikoa gaizki idatzita zegoen?
 
 ## InlineRecoveryKeySetup page component
 
