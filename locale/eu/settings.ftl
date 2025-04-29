@@ -1051,6 +1051,8 @@ tfa-row-backup-phone-delete-button = Kendu
 # Shown in tooltip on delete button or delete icon
 tfa-row-backup-phone-delete-title-v2 = Kendu berreskuratze telefonoa
 tfa-row-backup-phone-delete-restriction-v2 = Berreskuratzeko telefonoa kendu nahi baduzu, gehitu babeskopiko autentifikazio-kodeak edo desgaitu bi urratseko autentifikazioa lehenik zure kontutik kanpo gelditzea saihesteko.
+# "this" refers to recovery phone
+tfa-row-backup-phone-description-v2 = Hau da berreskuratzeko metodorik errazena zure autentifikatzaile aplikazioa erabili ezin baduzu.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
@@ -1221,11 +1223,13 @@ auth-error-1003 = Tokiko biltegiratzea edo cookieak desgaituta daude oraindik
 auth-error-1008 = Pasahitz berriak desberdina izan behar du
 auth-error-1010 = Baliozko pasahitza behar da
 auth-error-1011 = Baliozko helbide elektronikoa behar da
+auth-error-1018 = Zure berrespen-mezu elektronikoa itzuli berri da. Helbide elektronikoa gaizki idatzita zegoen?
 auth-error-1031 = Zure izena sartu behar duzu erregistratzeko
 auth-error-1032 = Adin egoki bat sartu behar duzu erregistratzeko
 auth-error-1054 = Bi urratseko autentifikazio kode baliogabea
 auth-error-1056 = Babeskopiako autentifikazio-kode baliogabea
 auth-error-1062 = Birbideraketa baliogabea
+auth-error-1066 = Ezin dira erabili posta elektronikoko maskarak kontu bat sortzeko.
 auth-error-1067 = Gaizki idatzitako helbidea?
 # Displayed when we want to reference a user's previously set up recovery phone
 # number, but they are not completely signed in yet. We'll only show the last 4 digits.

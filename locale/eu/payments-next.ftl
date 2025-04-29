@@ -181,6 +181,7 @@ next-subscription-create-title = Zure harpidetzaren ezarpenak
 next-subscription-success-title = Harpidetza baieztapena
 next-subscription-processing-title = Harpidetza baieztatzen…
 next-subscription-error-title = Errorea harpidetza baieztatzen…
+subscription-title-sub-exists = Bazadude harpidetua
 subscription-title-plan-change-heading = Berrikusi zure aldaketa
 next-sub-guarantee = 30 eguneko dirua itzultzeko bermea
 
@@ -193,6 +194,10 @@ next-terms = Zerbitzuaren baldintzak
 next-privacy = Pribatutasun-oharra
 next-terms-download = Deskargatu baldintzak
 terms-and-privacy-stripe-label = { -brand-mozilla }-k { -brand-name-stripe } darabil ordainketa seguruak izateko.
+terms-and-privacy-stripe-link = { -brand-name-stripe }en pribatutasun-oharra
+terms-and-privacy-paypal-label = { -brand-mozilla }-k { -brand-paypal } darabil ordainketa seguruak izateko.
+terms-and-privacy-paypal-link = { -brand-paypal }en pribatutasun politika
+terms-and-privacy-stripe-and-paypal-label = { -brand-mozilla }-k { -brand-name-stripe } eta { -brand-paypal } erabiltzen ditu ordainketa seguruak izateko.
 
 ## Component - UpdatedPurchaseDetails
 
@@ -209,4 +214,5 @@ upgrade-purchase-details-prorated-upgrade = Bertsio proportzionala
 upgrade-purchase-details-new-plan-daily = { $productName } (egunero)
 upgrade-purchase-details-new-plan-weekly = { $productName } (astero)
 upgrade-purchase-details-new-plan-monthly = { $productName } (hilero)
+upgrade-purchase-details-new-plan-halfyearly = { $productName } (6-hilabete)
 upgrade-purchase-details-new-plan-yearly = { $productName } (urtero)
