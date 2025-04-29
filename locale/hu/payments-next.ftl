@@ -187,7 +187,7 @@ next-subscription-create-title = Állítsa be a feliratkozását
 next-subscription-success-title = Feliratkozás megerősítése
 next-subscription-processing-title = Feliratkozás megerősítése…
 next-subscription-error-title = Hiba a feliratkozás megerősítésekor…
-subscription-title-sub-exists = Már feliratkozott
+subscription-title-sub-exists = Már előfizető
 subscription-title-plan-change-heading = A változtatás áttekintése
 next-sub-guarantee = 30 napos pénzvisszafizetési garancia
 
