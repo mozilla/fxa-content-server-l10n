@@ -431,6 +431,7 @@ postRemoveRecoveryPhone-subject = აღდგენის ტელეფონ
 postRemoveRecoveryPhone-preview = ანგარიში დაცულია ორბიჯიანი დამოწმებით შესვლისას
 postRemoveRecoveryPhone-title = აღდგენის ტელეფონი მოცილებულია
 postRemoveRecoveryPhone-description-v2 = თქვენი აღდგენის ტელეფონი მოცილებულია ორბიჯიანი დამოწმების პარამეტრებიდან.
+postRemoveRecoveryPhone-description-extra = თქვენ მაინც შეგეძლებათ შესვლა თქვენი სამარქაფო კოდებით, თუ აღარ გექნებათ წვდომა დამმოწმებელ პროგრამასთან.
 postRemoveRecoveryPhone-requested-device = მოთხოვნა იყო აქედან:
 postRemoveSecondary-subject = დამატებითი ელფოსტა მოცილებულია
 postRemoveSecondary-title = დამატებითი ელფოსტა მოცილებულია
