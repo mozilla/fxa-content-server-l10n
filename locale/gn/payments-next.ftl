@@ -29,6 +29,7 @@ next-basic-error-message = Oĩ osẽvaíva. Ikatúpiko eha’ãjey ag̃amieve.
 checkout-error-contact-support-button = Eheka Ñepytyvõha
 checkout-error-not-eligible = Ndaikatúi eñemboheraguapy ko apopyrépe; eñe’ẽmi pytyvõha aty ndive roipytyvõkuaa hag̃uáicha.
 checkout-error-contact-support = Eñe’ẽ pytyvõhára ndive roipytyvõkuaa hag̃ua.
+checkout-processing-general-error = Oiko peteĩ jejavy eha’ãrõ’ỹva ehepyme’ẽnguévo. Eha’ãjey ag̃amieve.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -179,6 +180,7 @@ next-subscription-create-title = Ñemboheraguapy ñemboheko
 next-subscription-success-title = Ñemboheraguapy ñemoneĩ
 next-subscription-processing-title = Ñemboheraguapy oñemoneĩhína…
 next-subscription-error-title = Ojavy oñemoneĩvo ñemboheraguapy…
+subscription-title-sub-exists = Eñemboheraguapýmapa
 subscription-title-plan-change-heading = Ehecha ne moambuekue
 next-sub-guarantee = 30 ára haguépe ome’ẽkuaajey viru
 
