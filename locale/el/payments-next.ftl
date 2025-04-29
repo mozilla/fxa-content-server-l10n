@@ -31,7 +31,10 @@ next-payment-error-retry-button = Δοκιμή ξανά
 next-basic-error-message = Κάτι πήγε στραβά. Δοκιμάστε ξανά αργότερα.
 checkout-error-contact-support-button = Επικοινωνία με την υποστήριξη
 checkout-error-not-eligible = Δεν πληροίτε τις προϋποθέσεις για να αποκτήσετε συνδρομή σε αυτό το προϊόν. Επικοινωνήστε με την υποστήριξη για να σας βοηθήσουμε.
+checkout-error-already-subscribed = Διαθέτετε ήδη συνδρομή για αυτό το προϊόν.
 checkout-error-contact-support = Επικοινωνήστε με την υποστήριξη για να σας βοηθήσουμε.
+cart-error-currency-not-determined = Δεν μπορέσαμε να προσδιορίσουμε το νόμισμα για αυτήν την αγορά, δοκιμάστε ξανά.
+checkout-processing-general-error = Προέκυψε μη αναμενόμενο σφάλμα κατά την επεξεργασία της πληρωμής σας. Δοκιμάστε ξανά.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
