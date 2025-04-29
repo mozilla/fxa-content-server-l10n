@@ -28,7 +28,9 @@ next-payment-error-retry-button = Eha’ãjey
 next-basic-error-message = Oĩ osẽvaíva. Ikatúpiko eha’ãjey ag̃amieve.
 checkout-error-contact-support-button = Eheka Ñepytyvõha
 checkout-error-not-eligible = Ndaikatúi eñemboheraguapy ko apopyrépe; eñe’ẽmi pytyvõha aty ndive roipytyvõkuaa hag̃uáicha.
+checkout-error-already-subscribed = Eñemboheraguapýma ko apopyrépe g̃uarã.
 checkout-error-contact-support = Eñe’ẽ pytyvõhára ndive roipytyvõkuaa hag̃ua.
+cart-error-currency-not-determined = Ndoroikuaái mba’e virúpa eguereko ejogua hag̃ua, ikatúpa eha’ãjey ag̃ave.
 checkout-processing-general-error = Oiko peteĩ jejavy eha’ãrõ’ỹva ehepyme’ẽnguévo. Eha’ãjey ag̃amieve.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
