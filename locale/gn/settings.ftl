@@ -623,6 +623,9 @@ flow-recovery-key-info-cancel-link = Heja
 # verification code refers to a code sent by text message to confirm phone number ownership
 # and complete setup
 flow-setup-phone-confirm-code-heading = Emoinge ayvu jehechajeyrã
+# $phoneNumber is a partially obfuscated phone number with only the last 4 digits showing (e.g., *** *** 1234)
+# span element applies formatting to ensure the number is always displayed left-to-right
+flow-setup-phone-confirm-code-instruction = Ohóma peteĩ ayvu orekóva 6 tai <span>{ $phoneNumber }</span> SMS rupive. Ko ayvu opareíta 5 aravo’ípe.
 flow-setup-phone-confirm-code-input-label = Emoinge ayvu 6 taíva
 flow-setup-phone-confirm-code-button = Moneĩ
 # button to resend a code by text message to the user's phone
