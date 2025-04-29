@@ -702,7 +702,7 @@ nav-email-comm = ელფოსტით კავშირები
 
 ## Two Step Authentication - replace backup authentication code
 
-tfa-replace-code-error-3 = ხარვეზი წარმოიშვა, თქვენი სამარქაფო კოდების ჩანაცვლებისას
+tfa-replace-code-error-3 = ხარვეზი წარმოიშვა თქვენი სამარქაფო კოდების ჩანაცვლებისას
 tfa-create-code-error = ხარვეზი წარმოიშვა თქვენი სამარქაფო კოდების შედგენისას ანგარიშის დასამოწმებლად
 tfa-replace-code-success-1 =
     ახალი გასაღებები შეიქმნა. შეინახეთ ერთჯერადი გამოყენების
