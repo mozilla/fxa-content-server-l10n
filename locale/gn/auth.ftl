@@ -415,6 +415,7 @@ postRemoveAccountRecovery-action = Mba’ete ñangareko
 postRemoveRecoveryPhone-subject = Pumbyry guerujeyrã mboguepyre
 postRemoveRecoveryPhone-preview = Mba’ete oñemo’ãva ñemoneĩ mokõi jeku’eguápe
 postRemoveRecoveryPhone-title = Pumbyry guerujeyrã mboguepyre
+postRemoveRecoveryPhone-description-v2 = Ne pumbyry guerujeyha oñembogue nde ñemoneĩ ñembohekoha mokõi jeku’eguávagui.
 postRemoveRecoveryPhone-requested-device = Ejerure chupe:
 postRemoveSecondary-subject = Oguéma ñandutiveve mokõiguáva
 postRemoveSecondary-title = Oguéma ñandutiveve mokõiguáva
