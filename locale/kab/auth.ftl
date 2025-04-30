@@ -264,6 +264,7 @@ postAddAccountRecovery-action = Sefrek amiḍan
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = Amiḍan-ik·im { $providerName } yettwaqqen ɣer { -product-mozilla-account }-ik·im
 postAddLinkedAccount-action = Sefrek amiḍan
+postAddRecoveryPhone-action = Sefrek amiḍan
 postAddTwoStepAuthentication-subject-2 = Asesteb s snat n tarrayin yettwarmed
 postAddTwoStepAuthentication-title-2 = Tremseḍ asesteb s snat tarrayin
 # After the colon, there is a description of the device that the user used to enable two-step authentication
