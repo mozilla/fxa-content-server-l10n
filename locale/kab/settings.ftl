@@ -25,6 +25,8 @@ brand-m-logo =
 ## ButtonBack component
 ## Allows users to click a back arrow to navigate to the previous page
 
+button-back-aria-label = Uɣal
+button-back-title = Uɣal
 
 ## ButtonDownloadRecoveryKeyPDF
 ## Clicking on this button downloads a PDF file that contains the user's account recovery key
@@ -161,6 +163,32 @@ get-data-trio-print-2 =
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
+# Aria-label option for an alert symbol
+alert-icon-aria-label =
+    .aria-label = Alɣu
+# Aria-label option for an alert symbol
+icon-warning-aria-label =
+    .aria-label = Ɣur-k·m
+# Used to select Canada as country code for phone number
+canadian-flag-icon-aria-label =
+    .aria-label = Anay akanadi
+# Used to  indicate a check mark for a successful state/action
+checkmark-success-icon-aria-label =
+    .aria-label = Yedda
+# Used to indicate a check mark for an enabled state/option
+checkmark-enabled-icon-aria-label =
+    .aria-label = Yettwarmed
+# Used on X icon to dismiss a message such as an alert or banner
+close-icon-aria-label =
+    .aria-label = Mdel izen
+# Used to decorate a code you enter for verification purposes
+code-icon-aria-label =
+    .aria-label = Tangalt
+error-icon-aria-label =
+    .aria-label = Tuccḍa
+# Used as information icon for informative messaging
+info-icon-aria-label =
+    .aria-label = Talɣut
 
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
@@ -183,6 +211,10 @@ input-password-show = Sken awal uffir
 
 ## Phone number component
 
+# This is an aria-label available to screen readers for a selection list that includes country flags, country name and country code
+input-phone-number-country-list-aria-label = Fren tamurt
+input-phone-number-enter-number = Sekcem uṭṭun n tiliɣṛi
+input-phone-number-country-canada = Kanada
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Ɣer deffir
 
