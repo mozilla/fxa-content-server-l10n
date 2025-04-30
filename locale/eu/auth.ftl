@@ -430,6 +430,7 @@ postRemoveAccountRecovery-action = Kudeatu kontua
 postRemoveRecoveryPhone-subject = Berreskuratze telefonoa kendu da
 postRemoveRecoveryPhone-preview = Bi urratseko autentifikazioaren bidez babestuta dagoen kontua
 postRemoveRecoveryPhone-title = Berreskuratze telefonoa kendu da
+postRemoveRecoveryPhone-description-v2 = Zure berreskuratze-telefonoa bi urratseko autentifikazio-ezarpenetatik kendu da.
 postRemoveRecoveryPhone-requested-device = Honi eskatu diozu:
 postRemoveSecondary-subject = Helbide elektronikoa alternatiboa kenduta
 postRemoveSecondary-title = Helbide elektronikoa alternatiboa kenduta
