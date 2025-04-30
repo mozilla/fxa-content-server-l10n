@@ -1010,6 +1010,7 @@ pair-failure-message = Akala n usbeddi yeḥbes.
 
 ## Pair index page
 
+pair-cad-header = Qqen { -brand-firefox } ɣef yibenk-nniḍen
 # Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-sync-your-device-button = Mtawi abenkan-inek
 # This is a heading element immediately preceded by "Sync your device" and followed by a link and QR code to download Firefox
@@ -1054,10 +1055,13 @@ set-password-heading = Snulfu-d awal n uɛeddi
 
 ## AccountRecoveryConfirmKey page
 
+# Clicking this button checks if the recovery key provided by the user is correct and associated with their account
+account-recovery-confirm-key-button-2 = Kemmel
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
+complete-reset-pw-header-v2 = Snulfu-d awal n uɛeddi amaynut
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Awal uffir yettusbadu
@@ -1075,12 +1079,16 @@ confirm-reset-password-otp-different-account-link = Seqdec amiḍan nniḍen
 
 ## PasswordResetConfirmTotp Page
 
+confirm-totp-reset-password-header = Wennez awal-ik·im n uɛeddi
+confirm-totp-reset-password-confirm-button = Sentem
+confirm-recovery-code-reset-password-trouble-code = Uɣal
 
 ## ResetPassword start page
 
 password-reset-flow-heading = Wennez awal uffir-ik
 password-reset-email-input =
     .label = Sekcem imayl inek
+password-reset-submit-button-2 = Kemmel
 
 ## ResetPasswordConfirmed
 
@@ -1104,6 +1112,7 @@ signin-subheader-with-logo = Kemmel ɣer <span>{ $serviceLogo }</span>
 # $serviceName - the name of the service which the user authenticating for
 # For languages structured like English, the phrase can read "to continue to { $serviceName }"
 signin-subheader-without-logo-with-servicename = Kemmel ɣer { $serviceName }
+signin-subheader-without-logo-default = Kemmel ɣer yiɣewwaren n umiḍan
 signin-button = Kcem
 signin-header = Kcem
 signin-use-a-different-account-link = Seqdec amiḍan nniḍen
@@ -1129,17 +1138,20 @@ back = Ɣer deffir
 
 ## SigninPushCodeConfirmPage
 
+signin-push-code-confirm-login = Sentem tuqqna
 
 ## Signin recovery method page
 ## This page is shown to users when they are having trouble signing in with
 ## their password, and they previously had set up an account recovery method.
 
+signin-recovery-method-header = Qqen
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
+signin-recovery-code-heading = Qqen
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Sentem
 # External link for support if the user can't use two-step autentication or a backup authentication code
@@ -1147,9 +1159,13 @@ signin-recovery-code-confirm-button = Sentem
 signin-recovery-code-support-link = Ur tezmireḍ ara ad tkecmeḍ?
 # Error displayed in a tooltip when form is submitted witout a code
 signin-recovery-code-required-error = Tangalt n usesteb n uḥraz tettwasra
+signin-recovery-code-use-phone-failure-description = Ttxil ɛreḍ tikkelt-nniḍen.
 
 ## SigninRecoveryPhone page
 
+signin-recovery-phone-flow-heading = Qqen
+# Follows the error message (e.g, "There was a problem sending a code")
+signin-recovery-phone-general-error-description = Ttxil ɛreḍ tikkelt-nniḍen.
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -1171,6 +1187,7 @@ signin-token-code-resend-code-link = Azen tangalt tamaynut.
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+signin-totp-code-header = Qqen
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Sentem
 signin-totp-code-other-account-link = Seqdec amiḍan nniḍen
@@ -1180,6 +1197,8 @@ signin-totp-code-recovery-code-link = Ugur deg usekcem n tengalt?
 ## Page shown when signin has been blocked by rate limiting (too many requests)
 
 signin-unblock-header = Sireg ajerred-agi
+signin-unblock-code-input = Sekcem tangalt n tsiregt
+signin-unblock-submit-button = Kemmel
 signin-unblock-support-link = Acuɣeṛ i d-iḍerru waya?
 
 ## ConfirmSignupCode page
@@ -1204,6 +1223,9 @@ confirm-signup-code-is-required-error = Tangalt n usentem tettwasra
 ## This is the second page of the sign up flow, users have already entered their email
 
 signup-heading = Sbadu awal uffir-ik
+signup-heading-relay = Snulfu-d awal n uɛeddi
+# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
+signup-pocket-info-banner = Acuɣer i ilaq ad d-snulfuɣ amiḍan-a?
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Snifel imayl
 # Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
