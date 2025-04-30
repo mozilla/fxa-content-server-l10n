@@ -34,7 +34,9 @@ next-payment-error-retry-button = Saiatu berriro
 next-basic-error-message = Zerbait oker joan da. Mesedez, berriro saiatu beranduago.
 checkout-error-contact-support-button = Laguntza kontaktua
 checkout-error-not-eligible = Ez duzu produktu honetara harpidetzeko eskubidea. Jarri laguntza-zerbitzuarekin lagundu ahal izateko.
+checkout-error-already-subscribed = Produktu honetara harpidetuta zaude dagoeneko.
 checkout-error-contact-support = Mesedez, jarri harremanetan laguntzarekin lagundu ahal izateko.
+cart-error-currency-not-determined = Ezin izan dugu erosketa honen moneta zehaztu, saiatu berriro mesedez.
 checkout-processing-general-error = Ustekabeko errore bat gertatu da ordainketa prozesatzen ari zaren bitartean. Saiatu berriro.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
@@ -146,6 +148,7 @@ next-coupon-success-repeating = Zure plana automatikoki berrituko da { $couponDu
 select-tax-location-title = Kokalekua
 select-tax-location-edit-button = Editatu
 select-tax-location-save-button = Gorde
+select-tax-location-continue-to-checkout-button = Jarraitu erosketaz
 select-tax-location-country-code-label = Herrialdea
 select-tax-location-country-code-placeholder = Hautatu zure herrialdea
 select-tax-location-error-missing-country-code = Mesedez hautatu zure herrialdea

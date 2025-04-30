@@ -2,6 +2,8 @@
 
 app-general-err-heading = Aplikazioaren errore orokorra
 app-general-err-message = Zerbait oker joan da. Mesedez, berriro saiatu beranduago.
+# Specific handling for issues when bad or missing query parameters are detected
+app-query-parameter-err-heading = Eskaera okerra: kontsulta-parametro baliogabeak
 
 ## FxA React - Strings shared between multiple FxA products for application footer
 

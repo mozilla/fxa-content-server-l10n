@@ -1224,11 +1224,14 @@ auth-error-1008 = Pasahitz berriak desberdina izan behar du
 auth-error-1010 = Baliozko pasahitza behar da
 auth-error-1011 = Baliozko helbide elektronikoa behar da
 auth-error-1018 = Zure berrespen-mezu elektronikoa itzuli berri da. Helbide elektronikoa gaizki idatzita zegoen?
+auth-error-1020 = Gaizki idatzitako posta elektronikoa? firefox.com ez da baliozko posta elektroniko zerbitzu bat
 auth-error-1031 = Zure izena sartu behar duzu erregistratzeko
 auth-error-1032 = Adin egoki bat sartu behar duzu erregistratzeko
 auth-error-1054 = Bi urratseko autentifikazio kode baliogabea
 auth-error-1056 = Babeskopiako autentifikazio-kode baliogabea
 auth-error-1062 = Birbideraketa baliogabea
+# Shown when a user tries to sign up with an email address with a domain that doesn't receive emails
+auth-error-1064 = Gaizki idatzitako helbide elektronikoa? { $domain } ez da baliozko posta elektroniko zerbitzu bat
 auth-error-1066 = Ezin dira erabili posta elektronikoko maskarak kontu bat sortzeko.
 auth-error-1067 = Gaizki idatzitako helbidea?
 # Displayed when we want to reference a user's previously set up recovery phone
@@ -1540,6 +1543,10 @@ complete-reset-pw-recovery-key-link = Erabili kontua berreskuratzeko gakoa
 # Displayed on the sign in page
 reset-password-complete-banner-heading = Pasahitza berrezarri da.
 reset-password-complete-banner-message = Ez ahaztu kontua berreskuratzeko gako berri bat sortzea { -product-mozilla-account } ezarpenetatik aurrera begira saioa hasteko arazoak saihesteko.
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+complete-reset-password-desktop-relay = { -brand-firefox } saioa hasi ondoren posta elektronikoko maskara bat erabiltzera bidaltzen saiatuko da.
 
 ## Confirm Reset Password With Code
 
@@ -1621,6 +1628,10 @@ signin-header = Hasi saioa
 signin-use-a-different-account-link = Erabili beste kontu bat
 signin-forgot-password-link = Pasahitza ahaztu duzu?
 signin-password-button-label = Pasahitza
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-desktop-relay = { -brand-firefox } saioa hasi ondoren posta elektronikoko maskara bat erabiltzera bidaltzen saiatuko da.
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
@@ -1723,6 +1734,11 @@ signin-recovery-phone-send-code-error-heading = Arazoa egon da zure kodea bidalt
 signin-recovery-phone-code-verification-error-heading = Arazoa egon da zure kodea egiaztatzen
 # Follows the error message (e.g, "There was a problem sending a code")
 signin-recovery-phone-general-error-description = Saiatu berriro geroago.
+signin-recovery-phone-invalid-code-error-description = Kodea baliogabea da edo iraungi da.
+signin-recovery-phone-invalid-code-error-link = Erabili babeskopiako autentifikazio-kodeak horren ordez?
+# "Limits" refers to potential restrictions on how often a recovery phone number can be used for signing in within a given time period.
+# If limits are reached, users may have to use an alternate two-step authentication method or wait until the restriction period is over.
+signin-recovery-phone-success-message = Saioa hasi da. Baliteke mugak aplikatzea berreskuratzeko telefonoa berriro erabiltzen baduzu.
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -1748,6 +1764,10 @@ signin-token-code-resend-code-link = Posta elektroniko kode berria.
 # Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = Berrespen kodea beharrezkoa da
 signin-token-code-resend-error = Zerbait gaizki joan da. Ezin izan da kode berri bat bidali.
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-token-code-instruction-desktop-relay = { -brand-firefox } saioa hasi ondoren posta elektronikoko maskara bat erabiltzera bidaltzen saiatuko da.
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1763,6 +1783,10 @@ signin-totp-code-other-account-link = Erabili beste kontu bat
 signin-totp-code-recovery-code-link = Arazoak kodea sartzean?
 # Error displayed in a tooltip when the form is submitted without a code
 signin-totp-code-required-error = Autentifikazioa kodea beharrezkoa
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-totp-code-desktop-relay = { -brand-firefox } saioa hasi ondoren posta elektronikoko maskara bat erabiltzera bidaltzen saiatuko da.
 
 ## Signin Unblock Page
 ## Page shown when signin has been blocked by rate limiting (too many requests)
@@ -1778,6 +1802,10 @@ signin-unblock-code-incorrect-length = Baimen-kodeak 8 karaktere izan behar ditu
 signin-unblock-code-incorrect-format-2 = Baimen-kodeak letrak edota zenbakiak soilik izan ditzake
 signin-unblock-resend-code-button = Ez dago sarrera-ontzian edo spam karpetan? Bidali berriro
 signin-unblock-support-link = Zergatik ari da hau gertatzen?
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-unblock-desktop-relay = { -brand-firefox } saioa hasi ondoren posta elektronikoko maskara bat erabiltzera bidaltzen saiatuko da.
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -1802,6 +1830,10 @@ confirm-signup-code-resend-code-link = Posta elektroniko kode berria.
 confirm-signup-code-success-alert = Kontua behar bezala berretsi da
 # Error displayed in tooltip.
 confirm-signup-code-is-required-error = Berrespen kodea beharrezkoa da
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+confirm-signup-code-desktop-relay = { -brand-firefox } saioa hasi ondoren posta elektronikoko maskara bat erabiltzera bidaltzen saiatuko da.
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
