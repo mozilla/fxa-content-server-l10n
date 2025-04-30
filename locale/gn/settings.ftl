@@ -856,6 +856,9 @@ recovery-key-create-back-button-title = Eguevi ñembohekópe
 ## Users reach this page from account settings when they want to remove a backup phone number.
 
 recovery-phone-remove-header = Embogue pumbyry papapy guerujeyrã
+# Variables:
+#   $formattedFullPhoneNumber (String) - the user's full phone number
+settings-recovery-phone-remove-info = Kóva omboguetéta <strong>{ $formattedFullPhoneNumber }</strong> ne pumbyry guerujeyha.
 settings-recovery-phone-remove-button = Embogue pumbyry papapy
 settings-recovery-phone-remove-cancel = Heja
 settings-recovery-phone-remove-success = Pumbyry guerujeyrã mboguepyre
@@ -1639,6 +1642,7 @@ signin-push-code-confirm-link-error = Pe juajuha imarã. Eha’ã jey ag̃ave.
 
 signin-recovery-method-header = Eñemboheraguapy
 signin-recovery-method-subheader = Eiporavo mba’éichapa erujeýta
+signin-recovery-method-details = Eñeha’ãke ndete eiporu mba’éichapa erujeýta eipotáva.
 signin-recovery-method-phone = Pumbyry guerujeyrã
 signin-recovery-method-code-v2 = Ayvu ñemoneĩrã jeykekoha
 # Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
