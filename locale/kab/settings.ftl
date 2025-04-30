@@ -172,6 +172,9 @@ icon-warning-aria-label =
 # Used to select Canada as country code for phone number
 canadian-flag-icon-aria-label =
     .aria-label = Anay akanadi
+# Used to  indicate a general checkmark, as in something checked off in a list!
+checkmark-icon-aria-label =
+    .aria-label = Senqed
 # Used to  indicate a check mark for a successful state/action
 checkmark-success-icon-aria-label =
     .aria-label = Yedda
@@ -234,6 +237,8 @@ reset-pwd-link-damaged-message = Aseɣwen fiɣef i tsiteḍ ur immid ara, ahat d
 
 ## LinkExpired component
 
+# Button to request a new link if the previous link that was emailed to the user is expired
+link-expired-new-link-button = Awi aseɣwen amaynut
 
 ## LinkRememberPassword component
 
@@ -287,6 +292,7 @@ primary-email-verified-header = Imayl agejdan yettwasentem
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
 
+flow-recovery-key-download-storage-ideas-folder-v2 = Akaram deg ibenk aɣellsan
 flow-recovery-key-download-storage-ideas-pwd-manager = Amsefrak n wawal uffir
 
 ## RecoveryKeySetupHint
@@ -402,6 +408,9 @@ dc-learn-more = Issin ugar
 # DropDownAvatarMenu component
 
 drop-down-menu-title-2 = Umuɣ n { -product-mozilla-account }
+# This is displayed in the Settings menu after user's click on their profile icon.
+# Following this string on a new line will be their display name (user's name or email)
+drop-down-menu-signed-in-as-v2 = Tkecmeḍ s yisem
 drop-down-menu-sign-out = Ffeɣ
 drop-down-menu-sign-out-error-2 = Suref-aɣ, yella-d wugur mi tetteffɣeḍ seg tuqqna
 
@@ -438,9 +447,15 @@ flow-recovery-key-info-cancel-link = Sefsex
 
 ## FlowSetupPhoneConfirmCode
 
+# verification code refers to a code sent by text message to confirm phone number ownership
+# and complete setup
+flow-setup-phone-confirm-code-heading = Sekcem tangalt n usenqed
+flow-setup-phone-confirm-code-button = Sentem
+flow-setup-phone-confirm-code-resend-code-button = Ales tuzna n tengalt
 
 ## FlowSetupPhoneConfirmCode
 
+flow-setup-phone-submit-number-heading = Sentem uṭṭun n tiliɣri-k·m
 
 ## HeaderLockup component, the header in account settings
 
@@ -560,6 +575,7 @@ delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
 delete-account-product-pocket = { -product-pocket }
 delete-account-product-mozilla-monitor = { -product-mozilla-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
+delete-account-product-firefox-addons = Isiɣzaf n { -brand-firefox }
 delete-account-acknowledge = Ttxil ḥṣu dakken ma tekkseḍ amiḍan-ik•im:
 delete-account-chk-box-1-v3 =
     .label = Aerred akk n lexlaṣ i tesεiḍ ttwasfesxen (slid { -product-pocket })
@@ -608,9 +624,11 @@ recovery-key-create-back-button-title = Uɣal ɣer iɣewwaṛen
 ## PageRecoveryPhoneRemove
 ## Users reach this page from account settings when they want to remove a backup phone number.
 
+settings-recovery-phone-remove-cancel = Semmet
 
 ## PageSetupRecoveryPhone
 
+page-setup-recovery-phone-back-button-title = Uɣal ɣer iɣewwaṛen
 
 ## Add secondary email page
 
@@ -674,6 +692,8 @@ tfa-qa-code =
 tfa-button-cant-scan-qr = Ur tezmireḍ ara ad tesmiḍneḍ tangalt?
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Sekcem tasarut-a tabaḍnit ɣer usnas-ik·im n usestab:
+tfa-input-enter-totp-v2 =
+    .label = Sekcem-d tangalt n usesteb
 tfa-save-these-codes-1 =
     Sekles tingalin n usesteb n uḥraz n useqdec asuf deg umḍiq aɣelsan i wass ma yili
     ur teḥwaǧeḍara ibenk-ik·im aziraz.
@@ -714,6 +734,15 @@ security-action-create = Rnu
 
 ## SubRow component
 
+# Shown to users who have no backup authentication codes
+# Button to add backup authentication codes when none are configured
+tfa-row-backup-codes-add-cta = Rnu
+# button to change the configured recovery phone
+tfa-row-backup-phone-change-cta = Snifel
+# button to add/configure a recovery phone
+tfa-row-backup-phone-add-cta = Rnu
+# Button to remove a recovery phone from the user's account
+tfa-row-backup-phone-delete-button = Kkes
 
 ## Switch component
 
@@ -794,6 +823,7 @@ se-secondary-email-none = Ula yiwen
 
 tfa-row-header = Asesteb s snat n tarrayin
 tfa-row-enabled = Yettwarmed
+tfa-row-disabled-status = Arurmid
 tfa-row-action-add = Rnu
 tfa-row-action-disable = Sens
 tfa-row-button-refresh =
@@ -1016,6 +1046,7 @@ pair-unsupported-header = Cudd s usnas
 ## Third party auth users that do not have a password set yet are prompted for a
 ## password to complete their sign-in when they want to login to a service requiring it.
 
+set-password-heading = Snulfu-d awal n uɛeddi
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
