@@ -377,6 +377,7 @@ postAddLinkedAccount-title-2 = { $providerName }-kontoen din er kopla til { -pro
 postAddLinkedAccount-action = Handsam kontoen
 postAddRecoveryPhone-subject = Gjenopprettingstelefon lagt til
 postAddRecoveryPhone-preview = Kontoen er verna av tostegs-godkjenning
+postAddRecoveryPhone-title-v2 = Du la til eit gjenoprettingstelefonnummer
 # Variables:
 #  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
 postAddRecoveryPhone-description-v2 = Du la til { $maskedLastFourPhoneNumber } som gjenopprettingstelefonnummer
