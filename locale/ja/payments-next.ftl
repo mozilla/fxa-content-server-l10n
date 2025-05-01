@@ -75,6 +75,13 @@ next-coupon-submit = 適用
 
 # Component - Header
 
+payments-header-bento-firefox-relay = { -product-firefox-relay }
+payments-header-bento-vpn = { -product-mozilla-vpn }
+payments-header-bento-pocket = { -product-pocket }
+payments-header-bento-made-by-mozilla = Made by { -brand-mozilla }
+payments-header-avatar =
+    .title = { -product-mozilla-account }メニュー
+payments-header-avatar-expanded-signed-in-as = ログイン中のアカウント
 payments-client-loading-spinner =
     .aria-label = 読み込み中...
     .alt = 読み込み中...
