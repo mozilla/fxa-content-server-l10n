@@ -13,6 +13,7 @@ next-payment-method-first-approve = Yn gyntaf bydd angen i chi gymeradwyo'ch tan
 location-header = Dewiswch eich gwlad a rhowch eich cod post <p>i barhau i'r ddesg i dalu am { $productName }</p>
 location-banner-info = Nid oeddem yn gallu canfod eich lleoliad yn awtomatig
 location-required-disclaimer = Dim ond i gyfrifo trethi ac arian cyfred rydym yn defnyddio'r wybodaeth hon.
+location-banner-currency-change = Ni chefnogir y newid arian cyfred. I barhau, dewiswch wlad sy'n cyfateb i'ch arian bilio cyfredol.
 
 ## Page - Upgrade page
 
@@ -158,6 +159,10 @@ select-tax-location-error-missing-postal-code = Rhowch eich cod post
 select-tax-location-error-invalid-postal-code = Rhowch god post dilys
 select-tax-location-successfully-updated = Mae eich lleoliad wedi'i ddiweddaru.
 select-tax-location-error-location-not-updated = Nid oedd modd diweddaru eich lleoliad. Ceisiwch eto.
+#  $currencyDisplayName (String) - The display name of a currency code, e.g. US Dollar
+select-tax-location-invalid-currency-change = Mae eich cyfrif yn cael ei filio yn { $currencyDisplayName }. Dewiswch wlad sy'n defnyddio'r { $currencyDisplayName } .
+select-tax-location-invalid-currency-change-default = Dewiswch wlad sy'n cyfateb i arian cyfred eich tanysgrifiadau gweithredol.
+select-tax-location-new-tax-rate-info = Bydd diweddaru eich lleoliad yn cymhwyso'r gyfradd dreth newydd i bob tanysgrifiad gweithredol ar eich cyfrif, gan ddechrau gyda'ch cylch bilio nesaf.
 signin-form-continue-button = Parhau
 signin-form-email-input = Rhowch eich e-bost
 signin-form-email-input-missing = Rhowch eich e-bost

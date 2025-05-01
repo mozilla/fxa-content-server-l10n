@@ -11,6 +11,7 @@ next-payment-method-first-approve = ראשית יש לאשר את המינוי �
 location-header = יש לבחור את המדינה שלך ולהכניס את המיקוד שלך <p>כדי להמשיך לתשלום עבור { $productName }</p>
 location-banner-info = לא הצלחנו לזהות את המיקום שלך באופן אוטומטי
 location-required-disclaimer = אנו משתמשים במידע זה רק לחישוב מיסים ומטבעות.
+location-banner-currency-change = שינוי מטבע אינו נתמך. כדי להמשיך, יש לבחור במדינה התואמת למטבע החיוב הנוכחי שלך.
 
 ## Page - Upgrade page
 
@@ -151,6 +152,8 @@ select-tax-location-error-missing-postal-code = נא להכניס את המיק�
 select-tax-location-error-invalid-postal-code = נא להכניס מיקוד תקני
 select-tax-location-successfully-updated = המיקום שלך עודכן.
 select-tax-location-error-location-not-updated = לא ניתן היה לעדכן את המיקום שלך. נא לנסות שוב.
+select-tax-location-invalid-currency-change-default = נא לבחור במדינה התואמת את המטבע של המינויים הפעילים שלך.
+select-tax-location-new-tax-rate-info = עדכון המיקום שלך יחיל את שיעור המס החדש על כל המינויים הפעילים החשבון שלך, החל ממחזור החיוב הבא שלך.
 signin-form-continue-button = המשך
 signin-form-email-input = נא להכניס את כתובת הדוא״ל שלך
 signin-form-email-input-missing = נא להכניס את כתובת הדוא״ל שלך

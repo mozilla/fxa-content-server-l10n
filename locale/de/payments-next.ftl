@@ -13,6 +13,7 @@ next-payment-method-first-approve = Zuerst müssen Sie Ihren Dauerauftrag genehm
 location-header = Wählen Sie Ihr Land aus und geben Sie Ihre Postleitzahl ein, <p>um mit der Zahlung für { $productName } fortzufahren</p>
 location-banner-info = Wir konnten Ihren Standort nicht automatisch erkennen
 location-required-disclaimer = Wir verwenden diese Informationen nur, um Steuern und Währung zu berechnen.
+location-banner-currency-change = Währungsänderung nicht unterstützt. Wählen Sie zum Fortfahren ein Land aus, das Ihrer aktuellen Abrechnungswährung entspricht.
 
 ## Page - Upgrade page
 
@@ -158,6 +159,10 @@ select-tax-location-error-missing-postal-code = Bitte geben Sie Ihre Postleitzah
 select-tax-location-error-invalid-postal-code = Bitte geben Sie eine gültige Postleitzahl ein
 select-tax-location-successfully-updated = Ihr Standort wurde aktualisiert.
 select-tax-location-error-location-not-updated = Ihr Standort konnte nicht aktualisiert werden. Bitte versuchen Sie es erneut.
+#  $currencyDisplayName (String) - The display name of a currency code, e.g. US Dollar
+select-tax-location-invalid-currency-change = Die Abrechnung über Ihr Konto wird in { $currencyDisplayName } durchgeführt. Wählen Sie ein Land aus, das { $currencyDisplayName } verwendet.
+select-tax-location-invalid-currency-change-default = Wählen Sie ein Land aus, das mit der Währung Ihrer aktiven Abonnements übereinstimmt.
+select-tax-location-new-tax-rate-info = Wenn Sie Ihren Standort aktualisieren, wird der neue Steuersatz ab Ihrem nächsten Abrechnungszeitraum auf alle aktiven Abonnements in Ihrem Konto angewendet.
 signin-form-continue-button = Weiter
 signin-form-email-input = Geben Sie Ihre E-Mail-Adresse ein
 signin-form-email-input-missing = Bitte geben Sie Ihre E-Mail-Adresse ein

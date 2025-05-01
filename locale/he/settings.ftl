@@ -1130,6 +1130,7 @@ auth-error-114-generic = ניסית  יותר מידי פעמים. נא לנסו
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = ניסית להתחבר יותר מידי פעמים. נא לנסות שוב { $retryAfter }.
 auth-error-125 = הבקשה נחסמה מסיבות אבטחה
+auth-error-129-2 = הכנסת מספר טלפון לא חוקי. נא לבדוק אותו ולנסות שוב.
 auth-error-138-2 = הפעלה בלתי מאומתת
 auth-error-139 = כתובת הדוא״ל המשנית חייבת להיות שונה מכתובת הדוא״ל של החשבון שלך
 auth-error-155 = אסימון TOTP לא נמצא

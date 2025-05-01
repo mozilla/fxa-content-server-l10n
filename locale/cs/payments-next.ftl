@@ -13,6 +13,7 @@ next-payment-method-first-approve = Nejprve musíte schválit své předplatné
 location-header = Vyberte svou zemi a zadejte poštovní směrovací číslo, <p>abyste pokračovali v nákupu produktu { $productName }</p>
 location-banner-info = Nepodařilo se nám automaticky zjistit vaši polohu
 location-required-disclaimer = Tyto informace používáme pouze pro výpočet daní a měny.
+location-banner-currency-change = Změna měny není podporována. Pro pokračování zvolte zemi, která odpovídá vaší aktuální měně fakturace.
 
 ## Page - Upgrade page
 
@@ -158,6 +159,10 @@ select-tax-location-error-missing-postal-code = Zadejte prosím své poštovní 
 select-tax-location-error-invalid-postal-code = Zadejte prosím platné poštovní směrovací číslo
 select-tax-location-successfully-updated = Vaše poloha byla aktualizována.
 select-tax-location-error-location-not-updated = Vaši polohu nelze aktualizovat. Zkuste to prosím znovu.
+#  $currencyDisplayName (String) - The display name of a currency code, e.g. US Dollar
+select-tax-location-invalid-currency-change = Platby pro váš účet jsou v jazyce { $currencyDisplayName }. Vyberte zemi, která používá { $currencyDisplayName }.
+select-tax-location-invalid-currency-change-default = Zvolte zemi, která odpovídá měně vašich aktivních předplatných.
+select-tax-location-new-tax-rate-info = Aktualizací adresy se nová sazba daně použije na všechna aktivní předplatná ve vašem účtu, počínaje příštím fakturačním obdobím.
 signin-form-continue-button = Pokračovat
 signin-form-email-input = Zadejte svoji e-mailovou adresu
 signin-form-email-input-missing = Zadejte prosím svou e-mailovou adresu

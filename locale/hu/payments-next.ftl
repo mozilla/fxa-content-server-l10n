@@ -13,6 +13,7 @@ next-payment-method-first-approve = Először jóvá kell hagynia az előfizeté
 location-header = Válassza ki az országot, és adja meg az irányítószámát, <p> hogy folytassa a(z) { $productName } kifizetését</p>
 location-banner-info = Nem tudtuk automatikusan észlelni a tartózkodási helyét.
 location-required-disclaimer = Ezeket az információkat csak az adók és a pénznem kiszámításához használjuk.
+location-banner-currency-change = A pénznem módosítása nem támogatott. A folytatáshoz válasszon egy országot, amely megegyezik a jelenlegi számlázási pénznemével.
 
 ## Page - Upgrade page
 
@@ -160,6 +161,10 @@ select-tax-location-error-missing-postal-code = Adja meg az irányítószámát
 select-tax-location-error-invalid-postal-code = Írjon be egy érvényes irányítószámot
 select-tax-location-successfully-updated = A tartózkodási helye frissítve lett.
 select-tax-location-error-location-not-updated = A hely nem frissíthető. Próbálja meg újra.
+#  $currencyDisplayName (String) - The display name of a currency code, e.g. US Dollar
+select-tax-location-invalid-currency-change = A fiókja számlázása { $currencyDisplayName } pénznemben történik. Válasszon egy országot, amely a(z) { $currencyDisplayName } címkét használja.
+select-tax-location-invalid-currency-change-default = Válasszon országot, amely megegyezik az aktív előfizetései pénznemével.
+select-tax-location-new-tax-rate-info = A tartózkodási helyének frissítése alkalmazni fogja az új adókulcsot a fiókjában lévő összes aktív előfizetésre, a következő számlázási ciklussal kezdve.
 signin-form-continue-button = Folytatás
 signin-form-email-input = Adja meg az e-mail-címét
 signin-form-email-input-missing = Adja meg az e-mail-címét

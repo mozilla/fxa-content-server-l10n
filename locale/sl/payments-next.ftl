@@ -13,6 +13,7 @@ next-payment-method-first-approve = Najprej morate odobriti svojo naročnino
 location-header = Izberite svojo državo in vnesite poštno številko, <p>za nadaljevanje blagajne za { $productName }</p>
 location-banner-info = Vaše lokacije nismo mogli zaznati samodejno
 location-required-disclaimer = Te podatke uporabljamo samo za izračun davkov in valute.
+location-banner-currency-change = Spreminjanje valute ni podprto. Za nadaljevanje izberite državo, ki se ujema z vašo trenutno valuto za izstavitev računa.
 
 ## Page - Upgrade page
 
@@ -158,6 +159,10 @@ select-tax-location-error-missing-postal-code = Vnesite svojo poštno številko
 select-tax-location-error-invalid-postal-code = Vnesite veljavno poštno številko
 select-tax-location-successfully-updated = Vaša lokacija je posodobljena.
 select-tax-location-error-location-not-updated = Vaše lokacije ni bilo mogoče posodobiti. Poskusite znova.
+#  $currencyDisplayName (String) - The display name of a currency code, e.g. US Dollar
+select-tax-location-invalid-currency-change = Vaš račun je obračunan v { $currencyDisplayName }. Izberite državo, ki uporablja { $currencyDisplayName }.
+select-tax-location-invalid-currency-change-default = Izberite državo, ki se ujema z valuto vaših aktivnih naročnin.
+select-tax-location-new-tax-rate-info = Posodobitev lokacije bo uveljavila novo davčno stopnjo za vse aktivne naročnine v vašem računu, začenši z naslednjim obračunskim ciklom.
 signin-form-continue-button = Nadaljuj
 signin-form-email-input = Vnesite e-poštni naslov
 signin-form-email-input-missing = Vnesite svoj e-poštni naslov

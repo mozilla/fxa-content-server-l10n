@@ -13,6 +13,7 @@ next-payment-method-first-approve = Vous devez d’abord approuver votre abonnem
 location-header = Sélectionnez votre pays et saisissez votre code postal <p>pour continuer le règlement de { $productName }</p>
 location-banner-info = Nous n’avons pas pu détecter automatiquement votre emplacement
 location-required-disclaimer = Ces informations nous permettent uniquement de calculer les taxes et les devises.
+location-banner-currency-change = Changement de devise non pris en charge. Pour continuer, sélectionnez le pays qui correspond à votre devise de facturation actuelle.
 
 ## Page - Upgrade page
 
@@ -158,6 +159,10 @@ select-tax-location-error-missing-postal-code = Veuillez saisir votre code posta
 select-tax-location-error-invalid-postal-code = Veuillez saisir un code postal valide
 select-tax-location-successfully-updated = Votre localisation a été mise à jour.
 select-tax-location-error-location-not-updated = Votre localisation n’a pas pu être mise à jour. Veuillez réessayer.
+#  $currencyDisplayName (String) - The display name of a currency code, e.g. US Dollar
+select-tax-location-invalid-currency-change = Votre compte est facturé en { $currencyDisplayName }. Sélectionnez un pays qui utilise l’{ $currencyDisplayName }.
+select-tax-location-invalid-currency-change-default = Sélectionnez un pays qui correspond à la devise de vos abonnements actifs.
+select-tax-location-new-tax-rate-info = La mise à jour de votre localisation appliquera le nouveau taux de taxe à tous les abonnements actifs sur votre compte, à partir de votre prochain cycle de facturation.
 signin-form-continue-button = Continuer
 signin-form-email-input = Saisissez votre adresse e-mail
 signin-form-email-input-missing = Veuillez saisir votre adresse e-mail
