@@ -14,6 +14,7 @@ next-payment-method-first-approve = First you’ll need to approve your subscrip
 location-header = Select your country and enter your postal code <p>to continue to checkout for { $productName }</p>
 location-banner-info = We weren’t able to detect your location automatically
 location-required-disclaimer = We only use this information to calculate taxes and currency.
+location-banner-currency-change = Currency change not supported. To continue, select a country that matches your current billing currency.
 
 ## Page - Upgrade page
 
@@ -178,6 +179,11 @@ select-tax-location-error-invalid-postal-code = Please enter a valid postal code
 
 select-tax-location-successfully-updated = Your location has been updated.
 select-tax-location-error-location-not-updated = Your location could not be updated. Please try again.
+#  $currencyDisplayName (String) - The display name of a currency code, e.g. US Dollar
+select-tax-location-invalid-currency-change = Your account is billed in { $currencyDisplayName }. Select a country that uses the { $currencyDisplayName }.
+select-tax-location-invalid-currency-change-default = Select a country that matches the currency of your active subscriptions.
+
+select-tax-location-new-tax-rate-info = Updating your location will apply the new tax rate to all active subscriptions on your account, starting with your next billing cycle.
 
 signin-form-continue-button = Continue
 signin-form-email-input = Enter your email

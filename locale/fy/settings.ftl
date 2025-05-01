@@ -1202,7 +1202,7 @@ auth-error-114-generic = Jo hawwe te faaks besocht. Probearje letter opnij.
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Jo hawwe it te faak probearre. Probearje it { $retryAfter } opnij.
 auth-error-125 = De oanfraach is om reden fan feilichheid blokkearre
-auth-error-129 = Unjildich telefoannûmer
+auth-error-129-2 = Jo hawwe in ûnjildich telefoannûmer ynfierd. Kontrolearje dit en probearje it opnij.
 auth-error-138-2 = Net-befêstige sesje
 auth-error-139 = Sekundêr e-mailadres moat oars wêze as jo account-e-mailadres
 auth-error-155 = TOTP-token net fûn
