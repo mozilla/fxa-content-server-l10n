@@ -377,6 +377,7 @@ postAddLinkedAccount-title-2 = Llogaria juaj { $providerName } është lidhur me
 postAddLinkedAccount-action = Administroni llogarinë
 postAddRecoveryPhone-subject = U shtua telefon rimarrje
 postAddRecoveryPhone-preview = Llogari e mbrojtur nga mirëfilltësim dyfaktorësh
+postAddRecoveryPhone-title-v2 = Shtuat një numër telefoni rimarrjeje
 # Variables:
 #  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
 postAddRecoveryPhone-description-v2 = Shtuat { $maskedLastFourPhoneNumber } si numrin tuaj të telefonit për rimarrje
@@ -429,6 +430,7 @@ postRemoveAccountRecovery-action = Administroni llogarinë
 postRemoveRecoveryPhone-subject = U hoq telefon rimarrjeje
 postRemoveRecoveryPhone-preview = Llogari e mbrojtur nga mirëfilltësim dyfaktorësh
 postRemoveRecoveryPhone-title = U hoq telefon rimarrjeje
+postRemoveRecoveryPhone-description-v2 = Telefoni juaj i rimarrjeve është hequr nga rregullimet tuaja për mirëfilltësimin me dy hapa.
 postRemoveRecoveryPhone-requested-device = E kërkuar prej:
 postRemoveSecondary-subject = Email-i dytësor u hoq
 postRemoveSecondary-title = Email-i dytësor u hoq

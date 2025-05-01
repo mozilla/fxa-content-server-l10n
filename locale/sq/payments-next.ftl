@@ -9,6 +9,7 @@ next-payment-method-header = Zgjidhni metodën tuaj të pagesës
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = Së pari, do t’ju duhet të miratoni pajtimin tuaj
+location-banner-info = S’qemë në gjendje të pikasim automatikisht vendndodhjen tuaj
 location-required-disclaimer = Këto hollësi i përdorim vetëm për të llogaritur taksa dhe monedhë.
 
 ## Page - Upgrade page
@@ -31,7 +32,10 @@ next-payment-error-retry-button = Riprovoni
 next-basic-error-message = Diç shkoi ters. Ju lutemi, riprovoni.
 checkout-error-contact-support-button = Lidhuni Me Asistencën
 checkout-error-not-eligible = S’mund të pajtoheni te ky produkt — ju lutemi, lidhuni me asistencën, që të mund t’ju ndihmojmë.
+checkout-error-already-subscribed = Jeni tashmë i pajtuar te ky produkt.
 checkout-error-contact-support = Ju lutemi, lidhuni me asistencën, që të mund t’ju ndihmojmë.
+cart-error-currency-not-determined = S’qemë në gjendje të përcaktojmë monedhën për këtë blerje, ju lutemi, riprovoni.
+checkout-processing-general-error = Ndodhi një gabim i papritur teksa përpunohej pagesa juaj, ju lutemi, riprovoni.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -142,6 +146,7 @@ next-coupon-success-repeating = Plani juaj do të rinovohet vetvetiu pas { $coup
 select-tax-location-title = Vendndodhje
 select-tax-location-edit-button = Përpunoni
 select-tax-location-save-button = Ruaje
+select-tax-location-continue-to-checkout-button = Vazhdoni te përfundimi i blerjes
 select-tax-location-country-code-label = Vend
 select-tax-location-country-code-placeholder = Përzgjidhni vendin tuaj
 select-tax-location-error-missing-country-code = Ju lutemi, përzgjidhni vendin tuaj
