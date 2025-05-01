@@ -2,6 +2,16 @@
 
 session-verify-send-push-title-2 = Qqen ɣer { -product-mozilla-account }?
 session-verify-send-push-body-2 = Sit da i wakken ad nẓer d kečč·kemm
+# Shorter message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to verify phone ownership when registering a recovery phone
+recovery-phone-setup-sms-short-body = { -brand-mozilla } tangalt n usenqed: { $code }
+# Shorter message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to sign in with a recovery phone as backup for two-step authentication
+recovery-phone-signin-sms-short-body = { -brand-mozilla } tangalt: { $code }
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
@@ -108,6 +118,10 @@ automatedEmailRecoveryKey-origin-device-OS-only = Assuter-a yusa-d seg { $uaOS }
 automatedEmailRecoveryKey-more-info = I wugar n yisallen, rzu ɣer <a data-l10n-name="supportLink">{ -brand-mozilla } Tallelt </a>.
 # Colon is followed by user device info on a separate line (e.g., "Firefox Nightly on Mac OSX 10.11")
 automatedEmailRecoveryKey-origin-plaintext = Assuter-a yusa-d seg:
+# Colon is followed by a URL to the account recovery key section of account settings
+automatedEmailRecoveryKey-notyou-delete-key-plaintext = Ma yella mačči d kečc, kkes tasarut tamaynut:
+# Colon is followed by a URL to the change password section of account settings
+automatedEmailRecoveryKey-notyou-change-pwd-only-plaintext = Ma yella mačči d kečč, beddel awal-ik n uεeddi:
 # This string is shown on its own line, after automatedEmailRecoveryKey-notyou-delete-key-plaintext and its URL
 # Colon is followed by a URL to the change password section of account settings
 automatedEmailRecoveryKey-notyou-change-pwd-plaintext = rnu beddel awal-ik·im uffir:
@@ -208,6 +222,7 @@ cadReminderFirst-action = Mtawi ibenk-nniḍen
 cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = Laqen sin i umtawi
+cadReminderSecond-subject-2 = Ur ttaǧǧa ara acemma ad ak-ifat! Fakk asesteb n umtawi
 cadReminderSecond-action = Mtawi ibenk-nniḍen
 cadReminderSecond-title-2 = Ur tettu ara amtawi!
 cadReminderSecond-description-sync = Mtawi ticraḍ n yisebtar-inek·inem, awalen-ik·im uffiren, accaren yeldin d wugar — s kra n wanda i tseqdaceḍ { -brand-firefox }.
@@ -294,6 +309,8 @@ postRemoveTwoStepAuthentication-title-2 = Tessenseḍ asesteb s snat tarrayin
 # After the colon is a description of the device the user used to disable two-step authentication
 postRemoveTwoStepAuthentication-from-device = Tessenseḍ-t seg:
 postRemoveTwoStepAuthentication-action = Sefrek amiḍan
+postSigninRecoveryCode-action = Sefrek amiḍan
+postSigninRecoveryPhone-action = Sefrek amiḍan
 postVerify-title-2 = Tebɣiḍ kifkif iccer ara twaliḍ ɣef sin yibenkan?
 postVerify-subject-4 = Ansuf ɣer { -brand-mozilla }!
 postVerify-setup-2 = Qqen ibenk-nniḍen:
