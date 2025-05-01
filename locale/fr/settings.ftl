@@ -1188,6 +1188,7 @@ auth-error-114-generic = Vous avez effectué trop d’essais. Veuillez réessaye
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Vous avez effectué trop d’essais. Veuillez réessayer { $retryAfter }.
 auth-error-125 = La requête a été bloquée par mesure de sécurité.
+auth-error-129-2 = Vous avez saisi un numéro de téléphone invalide. Veuillez la vérifier puis réessayer.
 auth-error-138-2 = Session non confirmée
 auth-error-139 = L’adresse alternative doit être différente de l’adresse de votre compte
 auth-error-155 = Jeton TOTP introuvable

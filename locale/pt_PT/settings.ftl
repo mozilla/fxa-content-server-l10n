@@ -1187,6 +1187,7 @@ auth-error-114-generic = Tentou demasiadas vezes. Por favor, tente novamente mai
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Tentou demasiadas vezes. Tente novamente { $retryAfter }.
 auth-error-125 = O pedido foi bloqueado por questões de segurança
+auth-error-129-2 = Introduziu um número de telefone inválido. Por favor, verifique e tente novamente.
 auth-error-138-2 = Sessão não confirmada
 auth-error-139 = O e-mail secundário tem de ser diferente do e-mail da sua conta
 auth-error-155 = Código TOTP não encontrado

@@ -381,6 +381,7 @@ postAddLinkedAccount-title-2 = Mae eich cyfrif { $providerName } wedi'i gysylltu
 postAddLinkedAccount-action = Rheoli cyfrif
 postAddRecoveryPhone-subject = Ffôn adfer wedi'i ychwanegu
 postAddRecoveryPhone-preview = Mae'r cyfrif wedi'i ddiogelu gan ddilysiad dau gam
+postAddRecoveryPhone-title-v2 = Rydych wedi ychwanegu rhif ffôn adfer
 # Variables:
 #  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
 postAddRecoveryPhone-description-v2 = Rydych wedi ychwanegu { $maskedLastFourPhoneNumber } fel eich rhif ffôn adfer

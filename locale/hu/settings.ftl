@@ -1198,6 +1198,7 @@ auth-error-114-generic = Túl sokszor próbálkozott. Próbálja újra később.
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Túl sokszor próbálkozott. Próbálja újra { $retryAfter }.
 auth-error-125 = A kérés biztonsági okokból blokkolva lett
+auth-error-129-2 = Érvénytelen telefonszámot adott meg. Ellenőrizze, és próbálja újra.
 auth-error-138-2 = Meg nem erősített munkamenet
 auth-error-139 = A másodlagos e-mail-címnek különböznie kell a fiók e-mail-címétől
 auth-error-155 = A TOTP token nem található
