@@ -1188,6 +1188,7 @@ auth-error-114-generic = Has intentado muchas veces. Por favor, vuelve a intenta
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Has intentado muchas veces. Vuelve a intentarlo { $retryAfter }.
 auth-error-125 = La solicitud fue bloqueada por razones de seguridad
+auth-error-129-2 = Ingresaste un número de teléfono no válido. Revísalo y vuelve a intentarlo.
 auth-error-138-2 = Sesión no confirmada
 auth-error-139 = El correo secundario debe ser diferente al correo de tu cuenta
 auth-error-155 = Token TOTP no encontrado

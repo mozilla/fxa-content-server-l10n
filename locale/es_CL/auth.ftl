@@ -377,6 +377,7 @@ postAddLinkedAccount-title-2 = Tu cuenta de { $providerName } ha sido vinculada 
 postAddLinkedAccount-action = Administrar cuenta
 postAddRecoveryPhone-subject = Teléfono de recuperación añadido
 postAddRecoveryPhone-preview = Cuenta protegida mediante autenticación de dos pasos
+postAddRecoveryPhone-title-v2 = Añadiste un número de teléfono de recuperación
 # Variables:
 #  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
 postAddRecoveryPhone-description-v2 = Añadiste { $maskedLastFourPhoneNumber } como tu número de teléfono de recuperación
