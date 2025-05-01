@@ -379,6 +379,7 @@ postAddLinkedAccount-title-2 = Ο λογαριασμός { $providerName } σα�
 postAddLinkedAccount-action = Διαχείριση λογαριασμού
 postAddRecoveryPhone-subject = Προστέθηκε τηλέφωνο ανάκτησης
 postAddRecoveryPhone-preview = Ο λογαριασμός προστατεύεται από ταυτοποίηση δύο παραγόντων
+postAddRecoveryPhone-title-v2 = Προσθέσατε έναν αριθμό τηλεφώνου ανάκτησης
 # Variables:
 #  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
 postAddRecoveryPhone-description-v2 = Προσθέσατε το { $maskedLastFourPhoneNumber } ως αριθμό τηλεφώνου ανάκτησης
