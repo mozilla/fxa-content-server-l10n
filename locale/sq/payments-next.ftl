@@ -9,6 +9,8 @@ next-payment-method-header = Zgjidhni metodën tuaj të pagesës
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = Së pari, do t’ju duhet të miratoni pajtimin tuaj
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+location-header = Përzgjidhni vendin tuaj dhe jepni kodin tuaj postar <p>që të kalohet te përfundimi i blerjes për { $productName }</p>
 location-banner-info = S’qemë në gjendje të pikasim automatikisht vendndodhjen tuaj
 location-required-disclaimer = Këto hollësi i përdorim vetëm për të llogaritur taksa dhe monedhë.
 
@@ -186,6 +188,7 @@ next-subscription-create-title = Ujdisje e pajtimit tim
 next-subscription-success-title = Ripohim pajtimi
 next-subscription-processing-title = Po ripohohet pajtimi…
 next-subscription-error-title = Gabim në ripohim pajtimi…
+subscription-title-sub-exists = Jeni pajtuar tashmë
 subscription-title-plan-change-heading = Shqyrtoni ndryshimin tuaj
 next-sub-guarantee = 30 ditë garanci kthimi parash
 

@@ -431,6 +431,7 @@ postRemoveRecoveryPhone-subject = U hoq telefon rimarrjeje
 postRemoveRecoveryPhone-preview = Llogari e mbrojtur nga mirëfilltësim dyfaktorësh
 postRemoveRecoveryPhone-title = U hoq telefon rimarrjeje
 postRemoveRecoveryPhone-description-v2 = Telefoni juaj i rimarrjeve është hequr nga rregullimet tuaja për mirëfilltësimin me dy hapa.
+postRemoveRecoveryPhone-description-extra = Mundeni prapë të përdorni kodet tuaj kopjeruajtje të mirëfilltësimeve, që të bëni hyrjen, nëse s’jeni në gjendje të përdorni aplikacionin tuaj të mirëfilltësimeve.
 postRemoveRecoveryPhone-requested-device = E kërkuar prej:
 postRemoveSecondary-subject = Email-i dytësor u hoq
 postRemoveSecondary-title = Email-i dytësor u hoq
