@@ -1121,6 +1121,7 @@ index-header = メールアドレスを入力
 index-sync-header = { -product-mozilla-account }へ進む
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = { $serviceName } へ進む
+index-subheader-default = アカウント設定に進む
 index-cta = ログインまたはアカウント登録
 index-email-input =
     .label = メールアドレスを入力
@@ -1391,6 +1392,8 @@ password-reset-submit-button-2 = 続行
 ## ResetPasswordConfirmed
 
 reset-password-complete-header = パスワードがリセットされました
+# $serviceName is a product name such as Monitor, Pocket, Relay
+reset-password-confirmed-cta = { $serviceName } へ進む
 reset-password-with-recovery-key-verified-page-title = パスワードのリセットが完了しました
 
 ## CompleteSignin component
