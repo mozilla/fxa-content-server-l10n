@@ -482,6 +482,8 @@ flow-container-back = Nn'arrè
 
 ## HeaderLockup component, the header in account settings
 
+header-title-2 = { -product-mozilla-account(capitalization: "uppercase") }
+header-help = Ajutu
 
 ## Linked Accounts section
 
@@ -597,6 +599,7 @@ delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
 delete-account-product-pocket = { -product-pocket }
 delete-account-product-mozilla-monitor = { -product-mozilla-monitor }
+delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-continue-button = Cuntinua
 delete-account-password-input =
     .label = Metti a chiavi
