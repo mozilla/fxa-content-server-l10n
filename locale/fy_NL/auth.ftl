@@ -377,6 +377,7 @@ postAddLinkedAccount-title-2 = Jo { $providerName }-account is keppele oan jo { 
 postAddLinkedAccount-action = Account beheare
 postAddRecoveryPhone-subject = Wersteltelefoannûmer tafoege
 postAddRecoveryPhone-preview = Account beskerme troch twa-stapsautentikaasje
+postAddRecoveryPhone-title-v2 = Jo hawwe in wersteltelefoannûmer tafoege
 # Variables:
 #  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
 postAddRecoveryPhone-description-v2 = Jo hawwe { $maskedLastFourPhoneNumber } as jo wersteltelefoannûmer tafoege
