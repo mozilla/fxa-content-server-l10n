@@ -178,6 +178,7 @@ next-subscription-create-title = הגדרת המינוי שלך
 next-subscription-success-title = אישור המינוי
 next-subscription-processing-title = המינוי מועבר לאישור…
 next-subscription-error-title = שגיאה באישור המינוי…
+subscription-title-sub-exists = כבר נרשמת כמינוי
 subscription-title-plan-change-heading = סקירת השינוי שלך
 next-sub-guarantee = החזר כספי מובטח תוך 30 יום
 
