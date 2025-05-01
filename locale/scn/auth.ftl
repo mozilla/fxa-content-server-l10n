@@ -311,6 +311,15 @@ password-forgot-otp-subject = Ti scurdasti a chiavi?
 password-forgot-otp-title = Ti scurdasti a chiavi?
 password-forgot-otp-code-2 = Siḍḍu fusti tu, cca cc'è u còdici di cunferma pi jiri avanti:
 password-forgot-otp-expiry-notice = Stu còdici scadi ntra 10 minuti.
+passwordResetAccountRecovery-action-4 = Manija cuntu
+passwordResetWithRecoveryKeyPrompt-subject = A chiavi fu risittata
+passwordResetWithRecoveryKeyPrompt-title = A chiavi fu risittata
+# Details of the device and date/time where the password was reset
+passwordResetWithRecoveryKeyPrompt-description = Risittasti a chiavi dû to { -product-mozilla-account }nne:
+# Text for button action to create a new account recovery key
+passwordResetWithRecoveryKeyPrompt-action = Crìa na chiavi di ricùpiru dû cuntu
+# colon is followed by a link to create an account recovery key from the account settings page
+passwordResetWithRecoveryKeyPrompt-action-txt = Crìa na chiavi di ricùpiru dû cuntu:
 postAddAccountRecovery-action = Manija cuntu
 postAddLinkedAccount-subject-2 = Novu cuntu lijatu ô to { -product-mozilla-account }
 #  Variables:
