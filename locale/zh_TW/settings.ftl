@@ -1169,6 +1169,7 @@ auth-error-114-generic = 您已嘗試太多次，請稍候再試。
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = 您已嘗試太多次，請等 { $retryAfter }再試。
 auth-error-125 = 因為安全性因素，已封鎖請求
+auth-error-129-2 = 您輸入的電話號碼無效，請檢查後再試一次。
 auth-error-138-2 = 未驗證的使用階段
 auth-error-139 = 次要信箱必須與您的帳號信箱不同
 auth-error-155 = 找不到 TOTP token
