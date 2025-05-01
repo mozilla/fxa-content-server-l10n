@@ -430,7 +430,8 @@ postRemoveAccountRecovery-action = Administrar cuenta
 postRemoveRecoveryPhone-subject = Teléfono de recuperación eliminado
 postRemoveRecoveryPhone-preview = Cuenta protegida mediante autenticación en dos pasos
 postRemoveRecoveryPhone-title = Teléfono de recuperación eliminado
-postRemoveRecoveryPhone-description = Tu teléfono de recuperación se ha eliminado de la configuración de autenticación en dos pasos. Aún tienes disponibles tus códigos de autenticación de respaldo.
+postRemoveRecoveryPhone-description-v2 = Tu teléfono de recuperación ha sido eliminado de tu configuración de autenticación de dos pasos.
+postRemoveRecoveryPhone-description-extra = Todavía puedes usar tus códigos de autenticación de respaldo para conectarte si no puedes usar tu aplicación de autenticación.
 postRemoveRecoveryPhone-requested-device = Lo has solicitado desde:
 postRemoveSecondary-subject = Se eliminó el correo secundario
 postRemoveSecondary-title = Se eliminó el correo secundario
@@ -708,6 +709,7 @@ verifySecondaryCode-expiry-notice-2 = Caduca en 5 minutos. Una vez confirmada, e
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = Confirma tu cuenta
+verifyShortCode-preview = Utiliza el código incluido para confirmar tu { -product-mozilla-account }.
 verifyShortCode-title-3 = Abre internet con { -brand-mozilla }
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = Confirma tu cuenta y sácale el máximo partido a { -brand-mozilla } cada vez que inicies sesión, empezando por:
