@@ -1173,7 +1173,6 @@ auth-error-114-generic = Eiporuse heta jeýma. Ikatúpiko eha’ãjey ag̃amieve
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Eiporuse heta jeýma. Eha’ãjey { $retryAfter }-pe.
 auth-error-125 = Ojejokóma ko mba’ejerure tekorosãrãve
-auth-error-129 = Pumbyry papapy ndoikói
 auth-error-138-2 = Tembiapo oñemoneĩ’ỹva
 auth-error-139 = Pe ñanduti veve mokõiháva iñambueva’erã ñanduti veve ne mba’ete reheguávagui
 auth-error-155 = Token TOTP ojejuhu’ỹva

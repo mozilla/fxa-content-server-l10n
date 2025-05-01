@@ -373,7 +373,6 @@ postAddLinkedAccount-subject-2 = Uusi tili yhdistetty { -product-mozilla-account
 postAddLinkedAccount-title-2 = { $providerName }-tilisi on linkitetty { -product-mozilla-account }in
 postAddLinkedAccount-action = Hallinnoi tiliä
 postAddRecoveryPhone-preview = Tili suojattu kaksivaiheisella todennuksella
-postAddRecoveryPhone-title = Loit palauttamisen puhelinnumeron
 postAddRecoveryPhone-action = Hallinnoi tiliä
 postAddTwoStepAuthentication-subject-2 = Kaksivaiheinen todennus otettu käyttöön
 postAddTwoStepAuthentication-title-2 = Otit kaksivaiheisen todennuksen käyttöön

@@ -1192,7 +1192,6 @@ auth-error-114-generic = Bạn đã thử quá nhiều lần. Hãy thử lại s
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Bạn đã thử quá nhiều lần. Vui lòng thử lại { $retryAfter }.
 auth-error-125 = Yêu cầu đã bị chặn vì lý do bảo mật
-auth-error-129 = Số điện thoại không hợp lệ
 auth-error-138-2 = Phiên chưa được xác minh
 auth-error-139 = Email phụ phải khác với email chính của bạn
 auth-error-155 = Không tìm thấy token TOTP

@@ -377,7 +377,6 @@ postAddLinkedAccount-title-2 = Llogaria juaj { $providerName } është lidhur me
 postAddLinkedAccount-action = Administroni llogarinë
 postAddRecoveryPhone-subject = U shtua telefon rimarrje
 postAddRecoveryPhone-preview = Llogari e mbrojtur nga mirëfilltësim dyfaktorësh
-postAddRecoveryPhone-title = Krijuat një numër telefoni rimarrjeje
 # Variables:
 #  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
 postAddRecoveryPhone-description-v2 = Shtuat { $maskedLastFourPhoneNumber } si numrin tuaj të telefonit për rimarrje

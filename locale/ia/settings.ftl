@@ -1198,7 +1198,6 @@ auth-error-114-generic = Tu ha tentate troppo de vices. Retenta plus tarde.
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Tu ha tentate troppo de vices. Retenta { $retryAfter }.
 auth-error-125 = Le requesta ha essite blocate pro rationes de securitate
-auth-error-129 = Numero de telephono invalide
 auth-error-138-2 = Session non confirmate
 auth-error-139 = Le adresse de e-mail secundari debe esser differente del adresse de e-mail de tu conto
 auth-error-155 = Token TOTP non trovate

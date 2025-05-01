@@ -1194,7 +1194,6 @@ auth-error-114-generic = E provuat shumë herë. Ju lutemi, riprovoni më vonë.
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = E provuat shumë herë. Ju lutemi, riprovoni pas { $retryAfter }
 auth-error-125 = Kërkesa u bllokua për arsye sigurie
-auth-error-129 = Numër telefoni i pavlefshëm
 auth-error-138-2 = Sesion i paripohuar
 auth-error-139 = Email-i dytësor duhet të jetë i ndryshëm nga llogaria juaj email
 auth-error-155 = S’u gjet token TOTP

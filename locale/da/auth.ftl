@@ -377,7 +377,6 @@ postAddLinkedAccount-title-2 = Din { $providerName }-konto er blevet knyttet til
 postAddLinkedAccount-action = Håndter konto
 postAddRecoveryPhone-subject = Telefonnummer til genoprettelse tilføjet
 postAddRecoveryPhone-preview = Konto beskyttet af totrinsgodkendelse
-postAddRecoveryPhone-title = Du har oprettet et telefonnummer til genoprettelse af din konto
 # Variables:
 #  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
 postAddRecoveryPhone-description-v2 = Du har tilføjet { $maskedLastFourPhoneNumber } som dit telefonnummer til genoprettelse

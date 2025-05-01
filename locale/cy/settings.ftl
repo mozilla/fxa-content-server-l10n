@@ -1194,7 +1194,6 @@ auth-error-114-generic = Rydych chi wedi ceisio gormod o weithiau. Ceisiwch eto 
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Rydych wedi ceisio gormod o weithiau. Ceisiwch eto'n hwyrach { $retryAfter }.
 auth-error-125 = Cafodd y cais ei rwystro am resymau diogelwch
-auth-error-129 = Rhif ffôn annilys
 auth-error-138-2 = Sesiwn heb ei gadarnhau
 auth-error-139 = Rhaid i'r ail e-bost fod yn wahanol i'ch cyfeiriad e-bost
 auth-error-155 = Heb ganfod tocyn TOTP

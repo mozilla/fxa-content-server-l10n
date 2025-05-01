@@ -1173,7 +1173,6 @@ auth-error-114-generic = Você já tentou vezes demais. Tente novamente mais tar
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Você já tentou vezes demais. Tente novamente { $retryAfter }.
 auth-error-125 = A solicitação foi bloqueada por motivos de segurança
-auth-error-129 = Número de celular inválido
 auth-error-138-2 = Sessão não confirmada
 auth-error-139 = O email secundário deve ser diferente do email da sua conta
 auth-error-155 = Token TOTP não encontrado

@@ -379,7 +379,6 @@ postAddLinkedAccount-title-2 = Waše konto { $providerName } je so z wašim { -p
 postAddLinkedAccount-action = Konto rjadować
 postAddRecoveryPhone-subject = Wobnowjenski telefon přidaty
 postAddRecoveryPhone-preview = Konto so přez dwukročelowu awtentifikaciju škita
-postAddRecoveryPhone-title = Sće čisło wobnowjenskeho telefona wutworił
 # Variables:
 #  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
 postAddRecoveryPhone-description-v2 = Sće { $maskedLastFourPhoneNumber } jako swoje wobnowjenske telefonowe čisło přidał

@@ -1196,7 +1196,6 @@ auth-error-114-generic = Preveč poskusov. Poskusite znova pozneje.
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Preveč poskusov. Poskusite znova { $retryAfter }.
 auth-error-125 = Zahteva je bila zavrnjena iz varnostnih razlogov
-auth-error-129 = Neveljavna telefonska številka
 auth-error-138-2 = Nepotrjena seja
 auth-error-139 = Pomožni e-poštni naslov mora biti drugačen od naslova računa
 auth-error-155 = Žetona TOTP ni mogoče najti

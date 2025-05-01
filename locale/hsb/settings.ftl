@@ -1196,7 +1196,6 @@ auth-error-114-generic = Sće to přehusto spytał. Spytajće prošu pozdźišo 
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Sće to přehusto spytał. Spytajće za { $retryAfter } hišće raz.
 auth-error-125 = Naprašowanje je so z přičinow wěstoty zablokowało
-auth-error-129 = Njepłaćiwe telefonowe čisło
 auth-error-138-2 = Njewobkrućene posedźenje
 auth-error-139 = Druha e-mejlowa adresa dyrbi so wot adresy wašeho konta rozeznać
 auth-error-155 = TOTP-token njeje so namakał

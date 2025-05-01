@@ -1180,7 +1180,6 @@ auth-error-114-generic = Þú hefur prófað of oft. Reyndu aftur síðar.
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Þú hefur prófað of oft. Reyndu aftur { $retryAfter }.
 auth-error-125 = Lokað var á beiðnina af öryggisástæðum
-auth-error-129 = Ógilt símanúmer
 auth-error-138-2 = Óstaðfest seta
 auth-error-139 = Aukatölvupóstfang verður að vera frábrugðið tölvupóstfangi reikningsins þíns
 auth-error-155 = TOTP-teikn fannst ekki

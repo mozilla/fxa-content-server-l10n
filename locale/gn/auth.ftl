@@ -362,7 +362,6 @@ postAddLinkedAccount-title-2 = Ne mba’ete { $providerName } pegua ojuajúma nd
 postAddLinkedAccount-action = Eñangareko mba’etére
 postAddRecoveryPhone-subject = Pumbyry guerujeyrã mbojuajupyre
 postAddRecoveryPhone-preview = Mba’ete oñemo’ãva ñemoneĩ mokõi jeku’egua rupive
-postAddRecoveryPhone-title = Emoheñói pumbyry papapy guerujeyrã
 # Variables:
 #  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
 postAddRecoveryPhone-description-v2 = Embojuaju { $maskedLastFourPhoneNumber } ne pumbyry papapy guerujeyrã

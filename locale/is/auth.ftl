@@ -377,7 +377,6 @@ postAddLinkedAccount-title-2 = { $providerName } reikningurinn þinn hefur veri�
 postAddLinkedAccount-action = Sýsla með aðgang
 postAddRecoveryPhone-subject = Endurheimtusímanúmeri bætt við
 postAddRecoveryPhone-preview = Reikningur er varinn með tveggja-þrepa auðkenningu
-postAddRecoveryPhone-title = Þú útbjóst endurheimtusímanúmer
 # Variables:
 #  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
 postAddRecoveryPhone-description-v2 = Þú bættir { $maskedLastFourPhoneNumber } við sem endurheimtusímanúmeri

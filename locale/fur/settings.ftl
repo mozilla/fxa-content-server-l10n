@@ -1192,7 +1192,6 @@ auth-error-114-generic = Tu âs provât masse voltis. Torne prove plui tart.
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Tu âs provât masse voltis. Torne prove { $retryAfter }.
 auth-error-125 = La richieste e je stade blocade par motîfs di sigurece
-auth-error-129 = Numar di telefon no valit
 auth-error-138-2 = Session no confermade
 auth-error-139 = La e-mail secondarie e à di sei diferente di chê principâl dal to account
 auth-error-155 = Gjeton TOTP no cjatât

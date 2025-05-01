@@ -376,7 +376,6 @@ postAddLinkedAccount-title-2 = Akun { $providerName } Anda telah dihubungkan ke 
 postAddLinkedAccount-action = Kelola akun
 postAddRecoveryPhone-subject = Telepon pemulihan ditambahkan
 postAddRecoveryPhone-preview = Akun dilindungi oleh otentikasi dua langkah
-postAddRecoveryPhone-title = Anda membuat nomor telepon pemulihan
 # Variables:
 #  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
 postAddRecoveryPhone-description-v2 = Anda menambahkan { $maskedLastFourPhoneNumber } sebagai nomor telepon pemulihan Anda

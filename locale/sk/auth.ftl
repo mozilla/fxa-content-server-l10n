@@ -378,7 +378,6 @@ postAddLinkedAccount-title-2 = Váš účet { $providerName } bol prepojený s v
 postAddLinkedAccount-action = Spravovať účet
 postAddRecoveryPhone-subject = Obnovenie pomocou telefónu bolo pridané
 postAddRecoveryPhone-preview = Účet chránený dvojstupňovou autentifikáciou
-postAddRecoveryPhone-title = Pridali ste telefónne číslo na obnovenie účtu
 # Variables:
 #  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
 postAddRecoveryPhone-description-v2 = Ako telefónne číslo na obnovenie účtu ste pridali { $maskedLastFourPhoneNumber }

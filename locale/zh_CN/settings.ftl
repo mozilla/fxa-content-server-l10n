@@ -1171,7 +1171,6 @@ auth-error-114-generic = 您的尝试次数过多，请稍后再试。
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = 您已尝试太多次，请在 { $retryAfter }再试。
 auth-error-125 = 因为安全性因素，已拦截请求
-auth-error-129 = 无效的电话号码
 auth-error-138-2 = 未验证的会话
 auth-error-139 = 备用邮箱地址必须不同于您的账户邮箱地址
 auth-error-155 = 找不到 TOTP 令牌

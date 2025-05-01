@@ -1200,7 +1200,6 @@ auth-error-114-generic = Gehiegitan saiatu zara. Mesedez, saiatu berriro geroago
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Gehiegitan saiatu zara. Mesedez, saiatu berriro { $retryAfter }.
 auth-error-125 = Eskaera blokeatu egin da segurtasun-arrazoiak tarteko
-auth-error-129 = Telefono-zenbaki baliogabea
 auth-error-138-2 = Berretsi gabeko saioa
 auth-error-139 = Helbide elektroniko alternatiboak zure kontuaren helbide elektronikoaren desberdina izan behar du
 auth-error-155 = Ez da TOTP tokena aurkitu

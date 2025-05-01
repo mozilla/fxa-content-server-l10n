@@ -1201,7 +1201,6 @@ auth-error-114-generic = Έχετε προσπαθήσει πάρα πολλές
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Έχετε προσπαθήσει πάρα πολλές φορές. Δοκιμάστε ξανά { $retryAfter }.
 auth-error-125 = Το αίτημα αποκλείστηκε για λόγους ασφαλείας
-auth-error-129 = Μη έγκυρος αριθμός τηλεφώνου
 auth-error-138-2 = Μη επιβεβαιωμένη συνεδρία
 auth-error-139 = Το δευτερεύον email πρέπει να είναι διαφορετικό από το email του λογαριασμού σας
 auth-error-155 = Δεν βρέθηκε διακριτικό TOTP

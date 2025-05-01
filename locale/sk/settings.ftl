@@ -1193,7 +1193,6 @@ auth-error-114-generic = Vykonali ste príliš veľa pokusov. Skúste to znova n
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Vykonali ste príliš veľa pokusov. Skúste to znova { $retryAfter }.
 auth-error-125 = Z bezpečnostných dôvodov bola požiadavka zablokovaná
-auth-error-129 = Neplatné telefónne číslo
 auth-error-138-2 = Nepotvrdená relácia
 auth-error-139 = Alternatívna e‑mailová adresa musí byť iná ako adresa účtu
 auth-error-155 = Token TOTP sa nenašiel

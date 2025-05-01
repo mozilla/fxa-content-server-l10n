@@ -1044,7 +1044,6 @@ auth-error-110 = Nevažeći token
 #                          formatting library (momentjs) as a "time from now" and automatically includes
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Previše pokušaja. Pokušaj ponovo { $retryAfter }.
-auth-error-129 = Neispravan telefonski broj
 auth-error-138-2 = Nepotvrđena sesija
 auth-error-139 = Sekundarna e-mail adresa mora biti drugačija od e-mail adrese računa
 auth-error-155 = TOTP token nije pronađen

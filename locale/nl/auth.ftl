@@ -377,7 +377,6 @@ postAddLinkedAccount-title-2 = Uw { $providerName }-account is gekoppeld aan uw 
 postAddLinkedAccount-action = Account beheren
 postAddRecoveryPhone-subject = Hersteltelefoonnummer toegevoegd
 postAddRecoveryPhone-preview = Account beschermd door authenticatie in twee stappen
-postAddRecoveryPhone-title = U hebt een hersteltelefoonnummer aangemaakt
 # Variables:
 #  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
 postAddRecoveryPhone-description-v2 = U hebt { $maskedLastFourPhoneNumber } toegevoegd als uw hersteltelefoonnummer

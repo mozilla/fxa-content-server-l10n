@@ -377,7 +377,6 @@ postAddLinkedAccount-title-2 = { $providerName }-fiókja össze lett kapcsolva a
 postAddLinkedAccount-action = Fiók kezelése
 postAddRecoveryPhone-subject = Helyreállítási telefonszám hozzáadva
 postAddRecoveryPhone-preview = Kétlépcsős hitelesítéssel védett fiók
-postAddRecoveryPhone-title = Létrehozott egy helyreállítási telefonszámot
 # Variables:
 #  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
 postAddRecoveryPhone-description-v2 = Hozzáadta a(z) { $maskedLastFourPhoneNumber } helyreállítási telefonszámot

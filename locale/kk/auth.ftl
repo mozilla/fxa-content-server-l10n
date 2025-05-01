@@ -330,7 +330,6 @@ postAddLinkedAccount-subject-2 = Сіздің { -product-mozilla-account } іш�
 postAddLinkedAccount-title-2 = Сіздің { $providerName } тіркелгіңіз { -product-mozilla-account } ішіне байланыстырылды.
 postAddLinkedAccount-action = Тіркелгіні басқару
 postAddRecoveryPhone-subject = Қалпына келтіру телефоны қосылды
-postAddRecoveryPhone-title = Сіз қалпына келтіру телефон нөмірін жасадыңыз
 # Links out to a support article about two factor authentication
 postAddRecoveryPhone-how-protect = Бұл сіздің тіркелгіңізді қалай қорғайды
 postAddRecoveryPhone-how-protect-plaintext = Бұл сіздің тіркелгіңізді қалай қорғайды:

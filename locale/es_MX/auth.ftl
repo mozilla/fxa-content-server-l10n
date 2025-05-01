@@ -352,7 +352,6 @@ postAddLinkedAccount-title-2 = Tu cuenta de { $providerName } fue vinculada con 
 postAddLinkedAccount-action = Administrar cuenta
 postAddRecoveryPhone-subject = Teléfono de recuperación agregado
 postAddRecoveryPhone-preview = Cuenta protegida mediante autenticación de dos pasos
-postAddRecoveryPhone-title = Agregaste un número de teléfono de recuperación
 # Links out to a support article about two factor authentication
 postAddRecoveryPhone-how-protect = ¿Cómo esto protege tu cuenta?
 postAddRecoveryPhone-how-protect-plaintext = Cómo protege esto tu cuenta:

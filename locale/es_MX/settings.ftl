@@ -1084,7 +1084,6 @@ auth-error-114-generic = Lo has intentado demasiadas veces. Por favor, inténtel
 #                          formatting library (momentjs) as a "time from now" and automatically includes
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Has intentado demasiadas veces. Inténtalo de nuevo { $retryAfter }.
-auth-error-129 = Número de teléfono no válido
 auth-error-138-2 = Sesión sin confirmar
 auth-error-139 = El correo electrónico secundario debe ser diferente al correo electrónico de tu cuenta
 auth-error-155 = Token TOTP no encontrado

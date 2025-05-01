@@ -1125,7 +1125,6 @@ auth-error-114-generic = Olet yrittänyt liian monta kertaa. Yritä uudestaan my
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Olet yrittänyt liian monta kertaa. Odota { $retryAfter } ja yritä uudelleen.
 auth-error-125 = Pyyntö estettiin tietoturvasyistä
-auth-error-129 = Virheellinen puhelinnumero
 auth-error-138-2 = Vahvistamaton istunto
 auth-error-139 = Toissijainen sähköpostiosoite ei saa olla sama kuin tilisi ensisijainen sähköpostiosoite
 auth-error-155 = TOTP-polettia ei löytynyt

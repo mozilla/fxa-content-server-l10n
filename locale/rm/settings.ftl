@@ -1202,7 +1202,6 @@ auth-error-114-generic = Ti has empruvà memia savens. Emprova per plaschair pli
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Ti has empruvà memia savens. Emprova anc ina giada suenter { $retryAfter }.
 auth-error-125 = La dumonda è vegnida bloccada per motivs da segirezza
-auth-error-129 = Numer da telefon nunvalaivel
 auth-error-138-2 = Sesida betg confermada
 auth-error-139 = L'adressa dad e-mail alternativa sto esser differenta da l'adressa da tes conto
 auth-error-155 = Betg chattà il token TOTP

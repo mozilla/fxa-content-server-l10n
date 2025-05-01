@@ -376,7 +376,6 @@ postAddLinkedAccount-title-2 = { $providerName } 계정이 { -product-mozilla-ac
 postAddLinkedAccount-action = 계정 관리
 postAddRecoveryPhone-subject = 복구 전화번호가 추가됨
 postAddRecoveryPhone-preview = 2단계 인증으로 보호되는 계정
-postAddRecoveryPhone-title = 복구 전화번호를 생성했습니다.
 # Variables:
 #  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
 postAddRecoveryPhone-description-v2 = { $maskedLastFourPhoneNumber } 번호를 복구 전화번호로 추가했습니다.

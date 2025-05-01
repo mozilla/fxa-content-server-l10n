@@ -285,7 +285,6 @@ postAddLinkedAccount-subject-2 = Ҳисоби нав, ки ба «{ -product-moz
 postAddLinkedAccount-title-2 = Ҳисоби «{ $providerName }»-и шумо ба «{ -product-mozilla-account }»-и шумо пайваст карда шуд
 postAddLinkedAccount-action = Идоракунии ҳисоб
 postAddRecoveryPhone-subject = Телефони барқарорсозӣ илова карда шуд
-postAddRecoveryPhone-title = Шумо рақами телефони барқарорсозиро эҷод кардед
 # Links out to a support article about two factor authentication
 postAddRecoveryPhone-how-protect = Ин чӣ тавр ҳисоби шуморо муҳофизат мекунад
 postAddRecoveryPhone-how-protect-plaintext = Ин чӣ тавр ҳисоби шуморо муҳофизат мекунад:

@@ -375,7 +375,6 @@ postAddLinkedAccount-subject-2 = { -product-mozilla-account }に新しいアカ�
 postAddLinkedAccount-title-2 = { $providerName } のアカウントが { -product-mozilla-account }にリンクされています
 postAddLinkedAccount-action = アカウント管理
 postAddRecoveryPhone-subject = 回復用の電話番号を追加しました
-postAddRecoveryPhone-title = 回復用の電話番号を作成しました
 # Links out to a support article about two factor authentication
 postAddRecoveryPhone-how-protect = アカウント保護に役立つ理由
 postAddRecoveryPhone-how-protect-plaintext = アカウント保護に役立つ理由:

@@ -1195,7 +1195,6 @@ auth-error-114-generic = Совершено слишком много попыт
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Вы сделали слишком много попыток. Попробуйте снова { $retryAfter }.
 auth-error-125 = Запрос заблокирован по соображениям безопасности
-auth-error-129 = Некорректный номер телефона
 auth-error-138-2 = Неподтверждённая сессия
 auth-error-139 = Дополнительный адрес электронной почты должен отличаться от основного
 auth-error-155 = TOTP-токен не найден

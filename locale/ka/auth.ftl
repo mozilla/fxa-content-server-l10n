@@ -377,7 +377,6 @@ postAddLinkedAccount-title-2 = თქვენი { $providerName } ანგა
 postAddLinkedAccount-action = ანგარიშის მართვა
 postAddRecoveryPhone-subject = აღდგენის ტელეფონი დამატებულია
 postAddRecoveryPhone-preview = ანგარიში დაცულია ორბიჯიანი დამოწმებით შესვლისას
-postAddRecoveryPhone-title = თქვენ შექმენით აღდგენის ტელეფონის ნომერი
 # Variables:
 #  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
 postAddRecoveryPhone-description-v2 = თქვენ დაამატეთ { $maskedLastFourPhoneNumber } ნომერი თქვენს აღდგენის ტელეფონად
