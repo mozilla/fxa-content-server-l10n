@@ -1198,6 +1198,7 @@ auth-error-114-generic = U hebt het te vaak geprobeerd. Probeer het later opnieu
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = U hebt het te vaak geprobeerd. Probeer het { $retryAfter } opnieuw.
 auth-error-125 = De aanvraag is om veiligheidsredenen geblokkeerd
+auth-error-129-2 = U hebt een ongeldig telefoonnummer ingevoerd. Controleer dit en probeer het opnieuw.
 auth-error-138-2 = Onbevestigde sessie
 auth-error-139 = Secundair e-mailadres moet anders zijn dan uw account-e-mailadres
 auth-error-155 = TOTP-token niet gevonden
