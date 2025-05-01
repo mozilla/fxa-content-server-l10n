@@ -75,6 +75,8 @@ next-coupon-submit = 適用
 
 # Component - Header
 
+payments-header-bento-close =
+    .alt = 閉じる
 payments-header-bento-firefox-relay = { -product-firefox-relay }
 payments-header-bento-vpn = { -product-mozilla-vpn }
 payments-header-bento-pocket = { -product-pocket }

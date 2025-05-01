@@ -202,6 +202,9 @@ get-data-trio-print-2 =
 # Used to select Canada as country code for phone number
 canadian-flag-icon-aria-label =
     .aria-label = カナダ国旗
+# Used on X icon to dismiss a message such as an alert or banner
+close-icon-aria-label =
+    .aria-label = メッセージを閉じる
 # Used to select United States as a country code for phone number
 usa-flag-icon-aria-label =
     .aria-label = アメリカ国旗
