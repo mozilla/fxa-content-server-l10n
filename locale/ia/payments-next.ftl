@@ -13,6 +13,7 @@ next-payment-method-first-approve = Primo tu debera approbar tu subscription
 location-header = Selige tu pais e insere tu codice postal <p>pro continuar con le pagamento pro { $productName }</p>
 location-banner-info = Impossibile deteger tu position automaticamente
 location-required-disclaimer = Nos solo usa iste information pro calcular taxas e valuta.
+location-banner-currency-change = Cambio de valuta non supportate. Pro continuar, elige un pais que concorda tu actual valuta de facturation.
 
 ## Page - Upgrade page
 
@@ -158,6 +159,10 @@ select-tax-location-error-missing-postal-code = Insere tu codice postal
 select-tax-location-error-invalid-postal-code = Insere un codice postal valide
 select-tax-location-successfully-updated = Tu position ha essite actualisate.
 select-tax-location-error-location-not-updated = Tu position non poteva esser actualisate. Retenta.
+#  $currencyDisplayName (String) - The display name of a currency code, e.g. US Dollar
+select-tax-location-invalid-currency-change = Tu conto es facturate in { $currencyDisplayName }.
+select-tax-location-invalid-currency-change-default = Elige un pais que usa le { $currencyDisplayName }.
+select-tax-location-new-tax-rate-info = Le actualisation de tu position applicara le nove rata de taxa a tote le abonamentos active sur tu conto, comenciante con tu proxime cyclo de facturation.
 signin-form-continue-button = Continuar
 signin-form-email-input = Insere tu email
 signin-form-email-input-missing = Insere tu email
