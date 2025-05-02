@@ -13,6 +13,7 @@ next-payment-method-first-approve = Pi prima cosa, hâ appruvari u to abbunament
 location-header = Scarta u to pajisi e metti u to còdici pustali <p>pi cuntinuari l'accàttitu di { $productName }</p>
 location-banner-info = Nun pòttimu pigghiari di manera autumàtica i nfurmazzioni ncapu â to pusizzioni
 location-required-disclaimer = Usamu sti nfurmazzioni sulu pi carculari i tassi e a valuta.
+location-banner-currency-change = Nun suppurtamu u canciu di valuta. Pi cuntinuari, pi favuri scarta un pajisi chi appatta câ valuta di fatturazzioni.
 
 ## Page - Upgrade page
 
@@ -158,6 +159,10 @@ select-tax-location-error-missing-postal-code = Pi favuri metti u to còdici pus
 select-tax-location-error-invalid-postal-code = Pi favuri metti un còdici pustali vàlitu
 select-tax-location-successfully-updated = A to pusizzioni fu attualizzata.
 select-tax-location-error-location-not-updated = Nun potti attualizzari a to pusizzioni. Pi favuri torna a prova.
+#  $currencyDisplayName (String) - The display name of a currency code, e.g. US Dollar
+select-tax-location-invalid-currency-change = U to cuntu veni fatturatu cu { $currencyDisplayName }. Scarta un pajisi chi usa { $currencyDisplayName }.
+select-tax-location-invalid-currency-change-default = Scarta un pajisi chi appatta câ valuta dî to abbunamenti attivi.
+select-tax-location-new-tax-rate-info = Si attualizzi a to pusizzioni veni canciata macari a tassazzioni di tutti l'abbunamenti attivi nnô to cuntu, accuminciannu dû ciclu di fatturazzioni vinturu.
 signin-form-continue-button = Cuntinua
 signin-form-email-input = Metti u to nnirizzu di posta elittrònica
 signin-form-email-input-missing = Pi favuri metti u to nnirizzu di posta elittrònica
