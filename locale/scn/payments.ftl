@@ -502,6 +502,9 @@ sub-expires-on = Scadi u { $date }
 pay-update-card-exp = Scadi u { $expirationDate }
 sub-route-idx-updating = Staju attualizzannu i nfurmazzioni di fatturazzioni…
 sub-route-payment-modal-heading = Nfurmazzioni di fatturazzioni nun vàliti
+sub-route-payment-modal-message-2 = Parissi chi cci fu n'erruri cû to cuntu { -brand-paypal }, serbi chi fai chiḍḍu chi serbi p'arrisòrbiri stu prubblema di pagamentu.
+sub-route-missing-billing-agreement-payment-alert = Nfurmazzioni di pagamentu nun vàliti; cc'è n'erruri cû to cuntu. <div>Manija</div>
+sub-route-funding-source-payment-alert = Nfurmazzioni di pagamentu nun vàliti, cc'è n'erruri cû to cuntu. Capaci ca serbi n'anticchia di tempu picchì st'abbisu sparisci doppu chi attualizzi i to nfurmazzioni. <div>Manija</div>
 
 ## Routes - Subscription - SubscriptionItem
 
@@ -520,6 +523,14 @@ manage-pocket-body-2 = Pi manijàrilu, <linkExternal>ammacca cca</linkExternal>.
 ## $name (String) - The name of the subscribed product.
 
 reactivate-confirm-dialog-header = Vo' cuntinuari a usari { $name }?
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $last (String) - The last 4 digits of the card that will be charged
+# $endDate (Date) - Last day of product access
+reactivate-confirm-copy = Po' cuntinuari a tràsiri nne { $name }, e u to ciclu di fatturazzioni arresta u stissu. L'addèbbitu pròssimu sarà di { $amount } ncapu â carta chi finisci pi { $last } jornu { $endDate }.
+# Alternate copy used when a payment method is not available, e.g. for free trials
+# $amount (Number) - The amount billed. It will be formatted as currency.
+# $endDate (Date) - Last day of product access
+reactivate-confirm-without-payment-method-copy = Po' cuntinuari a tràsiri nne { $name }, e u to ciclu di fatturazzioni arresta u stissu. L'addèbbitu pròssimu sarà di { $amount } jornu { $endDate }.
 reactivate-confirm-button = Abbònati arrè
 
 ## $date (Date) - Last day of product access
