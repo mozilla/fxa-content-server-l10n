@@ -924,6 +924,8 @@ verify-secondary-email-success-alert-2 = { $email } успішно додано
 
 # Link to delete account on main Settings page
 delete-account-link = Видалити обліковий запис
+# Success message displayed in alert bar after the user has successfully confirmed their account is not inactive.
+inactive-update-status-success-alert = Ви успішно ввійшли в систему. Ваш { -product-mozilla-account } і дані залишаться активними.
 
 ## Two Step Authentication
 
@@ -938,6 +940,7 @@ tfa-incorrect-totp = Неправильний код двоетапної пер
 tfa-cannot-retrieve-code = Виникла проблема при отриманні вашого коду.
 tfa-cannot-verify-code-4 = Виникла проблема під час перевірки вашого резервного коду автентифікації
 tfa-incorrect-recovery-code-1 = Неправильний резервний код автентифікації
+tfa-enabled-v2 = Двоетапну перевірку ввімкнено
 tfa-scan-this-code =
     Скануйте цей QR-код, використовуючи одну з  <linkExternal>цих
     програм для двоетапної перевірки</linkExternal>.
@@ -959,6 +962,8 @@ tfa-input-enter-totp-v2 =
 tfa-save-these-codes-1 =
     Збережіть ці одноразові резервні коди автентифікації у безпечному місці
     на випадок відсутності мобільного пристрою.
+# codes here refers to backup authentication codes
+tfa-enter-code-to-confirm-setup = Підтвердьте, що ви зберегли свої коди, ввівши один з них. Без цих кодів ви не зможете ввійти в систему, не маючи програми автентифікації.
 tfa-enter-recovery-code-1 =
     .label = Введіть резервний код автентифікації
 
@@ -1014,17 +1019,37 @@ tfa-row-backup-codes-title = Резервні коди автентифікац�
 # Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
 # Users that have not enabled or verified 2FA will not see this
 tfa-row-backup-codes-not-available = Немає доступних кодів
+# $numCodesRemaining - the number of backup authentication codes that have not yet been used (generally between 1 to 5)
+# A different message is shown when no codes are available
+tfa-row-backup-codes-available-v2 =
+    { $numCodesAvailable ->
+        [one] Залишився { $numCodesAvailable } код
+        [few] Залишилося { $numCodesAvailable } коди
+       *[many] Залишилося { $numCodesAvailable } кодів
+    }
+# Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
+tfa-row-backup-codes-get-new-cta-v2 = Створити нові коди
 # Shown to users who have no backup authentication codes
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = Додати
 # 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
 tfa-row-backup-codes-description-2 = Це найбезпечніший спосіб відновлення, якщо ви не можете використати свій мобільний пристрій або програму автентифікації.
+# Recovery phone is a recovery method for two-step authentication
+# A recovery code can be sent to the user's phone
+tfa-row-backup-phone-title-v2 = Телефон для відновлення
+# Shown with an alert icon to indicate that no recovery phone is configured
+tfa-row-backup-phone-not-available-v2 = Номер телефону не додано
 # button to change the configured recovery phone
 tfa-row-backup-phone-change-cta = Змінити
 # button to add/configure a recovery phone
 tfa-row-backup-phone-add-cta = Додати
 # Button to remove a recovery phone from the user's account
 tfa-row-backup-phone-delete-button = Вилучити
+# Shown in tooltip on delete button or delete icon
+tfa-row-backup-phone-delete-title-v2 = Вилучити телефон для відновлення
+tfa-row-backup-phone-delete-restriction-v2 = Якщо ви хочете вилучити телефон для відновлення, спочатку додайте резервні коди автентифікації або вимкніть двоетапну перевірку, щоб не втратити доступ до облікового запису.
+# "this" refers to recovery phone
+tfa-row-backup-phone-description-v2 = Це найпростіший спосіб відновлення, якщо ви не можете використовувати програму автентифікації.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
@@ -1120,6 +1145,10 @@ tfa-row-cannot-refresh =
     Перепрошуємо, але при оновленні двоетапної перевірки
     виникла проблема.
 tfa-row-enabled-description = Ваш обліковий запис захищено двоетапною перевіркою. Під час входу в { -product-mozilla-account } вам потрібно буде ввести одноразовий код із програми автентифікації.
+# "this" refers to two-step authentication
+# Link goes to https://support.mozilla.org/kb/secure-mozilla-account-two-step-authentication
+tfa-row-enabled-info-link = Як це захищає ваш обліковий запис
+tfa-row-disabled-description-v2 = Посильте захист свого облікового запису, використовуючи сторонню програму автентифікації як другий крок для входу.
 tfa-row-cannot-verify-session-4 = Перепрошуємо, але під час підтвердження сеансу виникла проблема
 tfa-row-disable-modal-heading = Вимкнути двоетапну перевірку?
 tfa-row-disable-modal-confirm = Вимкнути
@@ -1170,12 +1199,22 @@ auth-error-114-generic = Ви зробили забагато спроб. Пов
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Ви зробили надто багато спроб. Повторіть спробу через { $retryAfter }.
 auth-error-125 = Запит заблоковано з міркувань безпеки
+auth-error-129-2 = Ви ввели недійсний номер телефону. Перевірте його та спробуйте ще раз.
 auth-error-138-2 = Непідтверджений сеанс
 auth-error-139 = Додаткова адреса електронної пошти повинна відрізнятися від адреси вашого облікового запису
 auth-error-155 = TOTP-код не знайдено
+# Error shown when the user submits an invalid backup authentication code
+auth-error-156 = Резервний код автентифікації не знайдено
 auth-error-159 = Недійсний ключ відновлення облікового запису
 auth-error-183-2 = Недійсний або протермінований код підтвердження
+auth-error-202 = Функцію не ввімкнено
+auth-error-203 = Система недоступна, спробуйте знову пізніше
 auth-error-206 = Неможливо створити пароль, пароль уже встановлено
+auth-error-214 = Номер телефону для відновлення вже додано
+auth-error-215 = Немає номера телефону для відновлення
+auth-error-216 = Досягнуто ліміту текстових повідомлень
+auth-error-218 = Неможливо вилучити телефон для відновлення, оскільки відсутні резервні коди автентифікації.
+auth-error-219 = Цей номер телефону зареєстровано в багатьох інших облікових записах. Використайте інший номер.
 auth-error-999 = Несподівана помилка
 auth-error-1001 = Спробу входу скасовано
 auth-error-1002 = Сеанс завершено. Увійдіть для продовження.
@@ -1183,10 +1222,22 @@ auth-error-1003 = Локальне сховище або файли cookie вс�
 auth-error-1008 = Ваш новий пароль повинен бути іншим
 auth-error-1010 = Введіть правильний пароль
 auth-error-1011 = Потрібна дійсна адреса електронної пошти
+auth-error-1018 = Ваш електронний лист із підтвердженням не доставлено. Неправильно введено адресу електронної пошти?
+auth-error-1020 = Неправильно введено адресу електронної пошти? firefox.com не є службою електронної пошти.
 auth-error-1031 = Ви повинні вказати свій вік, щоб виконати вхід
 auth-error-1032 = Для реєстрації ви повинні вказати правильний вік
 auth-error-1054 = Недійсний код двоетапної перевірки
+auth-error-1056 = Недійсний резервний код автентифікації
 auth-error-1062 = Недійсне переспрямування
+# Shown when a user tries to sign up with an email address with a domain that doesn't receive emails
+auth-error-1064 = Неправильно введено адресу електронної пошти? { $domain } не є службою електронної пошти.
+auth-error-1066 = Маски електронної пошти не можна використовувати для створення облікового запису.
+auth-error-1067 = Неправильно введено адресу електронної пошти?
+# Displayed when we want to reference a user's previously set up recovery phone
+# number, but they are not completely signed in yet. We'll only show the last 4 digits.
+# Variables:
+#  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
+recovery-phone-number-ending-digits = Номер, що закінчується на { $lastFourPhoneNumber }
 oauth-error-1000 = Щось пішло не так. Закрийте цю вкладку і спробуйте знову.
 
 ## Cannot Create Account page
@@ -1239,6 +1290,8 @@ cookies-disabled-learn-more = Докладніше
 index-header = Введіть свою адресу електронної пошти
 index-sync-header = Продовжити в обліковому записі { -product-mozilla-account }
 index-sync-subheader = Синхронізуйте свої паролі, вкладки та закладки всюди, де ви використовуєте { -brand-firefox }.
+index-relay-header = Створити маску електронної пошти
+index-relay-subheader = Вкажіть адресу електронної пошти, на яку ви хочете пересилати електронні листи з вашої замаскованої адреси е-пошти.
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = Продовжити в { $serviceName }
 index-subheader-with-logo = Продовжити в <span>{ $serviceLogo }</span>
@@ -1247,6 +1300,10 @@ index-cta = Зареєструватися або увійти
 index-account-info = { -product-mozilla-account } також відкриває доступ до інших продуктів { -brand-mozilla }, які захищають вашу приватність.
 index-email-input =
     .label = Введіть свою адресу електронної пошти
+# When users delete their Mozilla account inside account Settings, they are redirected to this page with a success message
+index-account-delete-success = Обліковий запис успішно видалено
+# Displayed when users try to sign up for an account and their confirmation code email bounces
+index-email-bounced = Ваш електронний лист із підтвердженням не доставлено. Неправильно введено адресу електронної пошти?
 
 ## InlineRecoveryKeySetup page component
 
@@ -1289,6 +1346,7 @@ inline-recovery-confirmation-header-default = <span>Щоб перейти до �
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = <span>Щоб перейти до { $serviceName }</span>, введіть резервний код автентифікації
+inline-recovery-2fa-enabled-v2 = Двоетапну перевірку ввімкнено
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1614,6 +1672,21 @@ signin-push-code-confirm-link-error = Посилання пошкоджено. �
 ## This page is shown to users when they are having trouble signing in with
 ## their password, and they previously had set up an account recovery method.
 
+signin-recovery-method-header = Увійти
+signin-recovery-method-subheader = Виберіть спосіб відновлення
+signin-recovery-method-details = Переконаймося, що ви використовуєте свої способи відновлення.
+signin-recovery-method-phone = Телефон для відновлення
+signin-recovery-method-code-v2 = Резервні коди автентифікації
+# Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
+signin-recovery-method-code-info-v2 =
+    { $numBackupCodes ->
+        [one] Залишився { $numBackupCodes } код
+        [few] Залишилося { $numBackupCodes } коди
+       *[many] Залишилося { $numBackupCodes } кодів
+    }
+# Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
+signin-recovery-method-send-code-error-heading = Під час надсилання коду на ваш телефон для відновлення виникла проблема
+signin-recovery-method-send-code-error-description = Повторіть спробу пізніше або скористайтеся резервними кодами автентифікації.
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
@@ -1622,16 +1695,48 @@ signin-push-code-confirm-link-error = Посилання пошкоджено. �
 
 signin-recovery-code-heading = Увійти
 signin-recovery-code-sub-heading = Введіть резервний код автентифікації
+# codes here refers to backup authentication codes
+signin-recovery-code-instruction-v3 = Введіть один із одноразових кодів, які ви зберегли під час налаштування двоетапної перевірки.
+# code here refers to backup authentication code
+signin-recovery-code-input-label-v2 = Введіть 10-значний код
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Підтвердити
+# Link to go to the page to use recovery phone instead
+signin-recovery-code-phone-link = Скористатися телефоном для відновлення
 # External link for support if the user can't use two-step autentication or a backup authentication code
 # https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 signin-recovery-code-support-link = Ви заблоковані?
 # Error displayed in a tooltip when form is submitted witout a code
 signin-recovery-code-required-error = Потрібен резервний код автентифікації
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-recovery-code-use-phone-failure = Під час надсилання коду на ваш телефон для відновлення виникла проблема
+signin-recovery-code-use-phone-failure-description = Повторіть спробу пізніше.
 
 ## SigninRecoveryPhone page
 
+signin-recovery-phone-flow-heading = Увійти
+# A recovery code in context of this page is a one time code sent to the user's phone
+signin-recovery-phone-heading = Введіть код відновлення
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+signin-recovery-phone-instruction-v3 = На номер телефону, що закінчується на <span>{ $lastFourPhoneDigits }</span>, надіслано текстове повідомлення з кодом із 6 цифр. Термі дії цього коду завершиться через 5 хвилин. Не повідомляйте цей код нікому.
+signin-recovery-phone-input-label = Введіть код із 6 цифр
+signin-recovery-phone-code-submit-button = Підтвердити
+signin-recovery-phone-resend-code-button = Надіслати код повторно
+signin-recovery-phone-resend-success = Код надіслано
+# links to https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+signin-recovery-phone-locked-out-link = Не можете отримати доступ?
+signin-recovery-phone-send-code-error-heading = Виникла проблема з надсиланням коду
+signin-recovery-phone-code-verification-error-heading = Під час перевірки коду виникла проблема
+# Follows the error message (e.g, "There was a problem sending a code")
+signin-recovery-phone-general-error-description = Повторіть спробу пізніше.
+signin-recovery-phone-invalid-code-error-description = Код недійсний або протермінований.
+signin-recovery-phone-invalid-code-error-link = Використати резервні коди автентифікації?
+# "Limits" refers to potential restrictions on how often a recovery phone number can be used for signing in within a given time period.
+# If limits are reached, users may have to use an alternate two-step authentication method or wait until the restriction period is over.
+signin-recovery-phone-success-message = Ви успішно ввійшли в обліковий запис. Якщо ви знову скористаєтеся телефоном для відновлення, можуть застосовуватися обмеження.
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
