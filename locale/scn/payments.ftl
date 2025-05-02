@@ -365,6 +365,10 @@ location-unsupported = A to pusizzioni attuali nun è suppurtata dî nostri Tèr
 no-subscription-change = Ni dispiaci, nun po' canciari u to chianu d'abbunamentu.
 # $mobileAppStore (String) - "Google Play Store" or "App Store", localized when the translation is available.
 iap-already-subscribed = Già facisti l'abbunamentu pi tràmiti di { $mobileAppStore }.
+# $productName (String) - The name of the subscribed product.
+fxa-account-signup-error-2 = Nu sbagghiu di sistema fici sfalliri u to abbunamentu a { $productName }. Nun fu addibbitatu nenti ô to mètudu di pagamentu. Pi favuri torna a prova.
+fxa-post-passwordless-sub-error = Abbunamentu cunfirmatu, ma a pàggina di cunferma sfallìu di carricari. Pi favuri cuntrolla a to posta elittrònica pi cunfijurari u to cuntu.
+newsletter-signup-error = Nun ti scrivisti pî nutìfichi nnâ posta elittrònica ncapu a l'attualizzi dî prudutti. Po' pruvari arrè nnê mpustazzioni dû to cuntu.
 product-plan-error =
     .title = Cci fu un prubblema mentri chi carricava i chiani
 product-profile-error =
@@ -502,9 +506,15 @@ sub-route-payment-modal-heading = Nfurmazzioni di fatturazzioni nun vàliti
 ## Routes - Subscription - SubscriptionItem
 
 sub-item-no-such-plan = Nun cc'è nuḍḍu chianu di stu tipu pi st'iscrizzioni.
+invoice-not-found = Nun attruvai a fattura doppu
+sub-item-no-such-subsequent-invoice = Nun attruvai a fattura doppu pi st'abbunamentu.
+sub-invoice-preview-error-title = Nun attruvai l'antiprima dâ fattura
+sub-invoice-preview-error-text = Nun attruvai l'antiprima dâ fattura pi st'abbunamentu
 
 ## Routes - Subscriptions - Pocket Subscription
 
+manage-pocket-title-2 = Stai circannu u to abbunamentu a { -product-pocket }?
+manage-pocket-body-2 = Pi manijàrilu, <linkExternal>ammacca cca</linkExternal>.
 
 ## Routes - Subscriptions - Reactivate
 ## $name (String) - The name of the subscribed product.
@@ -514,7 +524,7 @@ reactivate-confirm-button = Abbònati arrè
 
 ## $date (Date) - Last day of product access
 
-reactivate-panel-copy = Nun purrai tràsiri cchi
+reactivate-panel-copy = Nun po' tràsiri cchiù nne { $name } di jornu <strong>{ $date }</strong>.
 reactivate-success-copy = Grazzi! Allistemu.
 reactivate-success-button = Chiuji
 
