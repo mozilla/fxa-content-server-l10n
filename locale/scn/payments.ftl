@@ -365,9 +365,20 @@ location-unsupported = A to pusizzioni attuali nun è suppurtata dî nostri Tèr
 no-subscription-change = Ni dispiaci, nun po' canciari u to chianu d'abbunamentu.
 # $mobileAppStore (String) - "Google Play Store" or "App Store", localized when the translation is available.
 iap-already-subscribed = Già facisti l'abbunamentu pi tràmiti di { $mobileAppStore }.
+product-plan-error =
+    .title = Cci fu un prubblema mentri chi carricava i chiani
+product-profile-error =
+    .title = Cci fu un prubblema mentri chi carricava u prufilu
+product-customer-error =
+    .title = Cci fu un prubblema mentri chi carricava u clienti
+product-plan-not-found = Chianu nun truvatu
+product-location-unsupported-error = Pusizzioni nun suppurtata
 
 ## Hooks - coupons
 
+coupon-success = U to chianu veni rinnuvatu di manera autumàtica ô prezzu currenti.
+# $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
+coupon-success-repeating = U to chianu veni rinnuvatu di manera autumàtica doppu { $couponDurationDate } ô prezzu currenti.
 
 ## Routes - Checkout - New user
 
@@ -383,9 +394,12 @@ sub-update-payment-title = Nfurmazzioni di pagamentu
 ## Used in both Routes - Checkout and Product/SubscriptionCreate
 
 pay-with-heading-card-only = Paga câ carta
+product-invoice-preview-error-title = Cci fu un prubblema mentri chi carricava l'antiprima dâ fattura
+product-invoice-preview-error-text = Nun potti carricari l'antiprima dâ fattura
 
 ## Routes - Product - IapRoadblock
 
+subscription-iaperrorupgrade-title = Nun è pussìbbili fari l'attualizzu ancora
 
 # The following are not terms because they are not used directly in messages,
 # but rather looked up in code and passed into the message as variables.
@@ -397,6 +411,7 @@ brand-name-apple-app-store-2 = { -app-store }
 
 product-plan-change-heading = Rividi u to canciu
 sub-change-failed = U canciu di chianu sfallìu
+sub-update-acknowledgment = U to chianu veni attualizzatu sùbbitu, e ti veni addibbitatu chiḍḍu chi ammanca, di manera prupurziunali, pû restu dû piriudu di fatturazzioni. Accuminciannu dû { $startingDate } ti veni addibbitata a còtima sana.
 sub-change-submit = Cunferma canciu
 sub-update-current-plan-label = Chianu attuali
 sub-update-new-plan-label = Chianu novu
@@ -421,14 +436,44 @@ sub-item-stay-sub = Arresta abbunatu
 ## $name (String) - The name of the subscribed product.
 ## $period (Date) - The last day of product access
 
+sub-item-cancel-msg = Nun po' cchiù usari { $name } doppu dû { $period }, chi è l'ùrtimu jornu dû to ciclu di fatturazzioni.
+sub-item-cancel-confirm = Sdisattiva u me cuntu e scancella i me nfurmazzioni pirsunali sarbati nne { $name } jornu { $period }
+# $promotion_name (String) - The name of the promotion.
+# The <priceDetails></priceDetails> component acts as a placeholder and could use one of the following IDs:
+# price-details-tax-${interval},
+# price-details-no-tax-${interval},
+# price-details-tax,
+# price-details-no-tax
+# Examples:
+# 20% OFF coupon applied: $11.20 + $0.35 tax monthly
+# Holiday Offer 2023 coupon applied: $11.20 monthly
+# Cybersecurity Awareness Month 2023 coupon applied: $11.20 + $0.35 tax
+# Summer Promo VPN coupon applied: $11.20
+sub-promo-coupon-applied = Prumuzzioni { $promotion_name } appricata: <priceDetails></priceDetails>
 
 ## Routes - Subscription
 
+sub-route-idx-reactivating = Sfallìu a riattivazzioni di l'abbunamentu
+sub-route-idx-cancel-failed = Sfallìu u sfacimentu di l'abbunamentu
 sub-route-idx-contact = Cuntatta l'assistenza
 sub-route-idx-cancel-msg-title = Ni dispiaci chi dicidisti di jiritinni
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+sub-route-idx-cancel-msg =
+    U to abbunamentu a { $name } fu scancillatu.
+          <br />
+          Po' ancora tràsiri a { $name } nzinu a jornu { $date }.
+sub-route-idx-cancel-aside-2 = Ài dumanni? Vìsita l'<a>assistenza di { -brand-mozilla }</a>.
 
 ## Routes - Subscriptions - Errors
 
+sub-customer-error =
+    .title = Cci fu un prubblema mentri chi carricava u clienti
+sub-invoice-error =
+    .title = Cci fu un prubblema mentri chi carricava i fatturi
+sub-billing-update-success = Attualizzasti i to nfurmazzioni di fatturazzioni
+sub-invoice-previews-error-title = Cci fu un prubblema mentri chi carricava l'antiprimi dî fatturi
+sub-invoice-previews-error-text = Nun potti carricari l'antiprimi dî fatturi
 
 ## Routes - Subscription - ActionButton
 
@@ -440,6 +485,9 @@ pay-update-manage-btn = Manija
 ## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
 ## $date (Date) - The date for the next time a charge will occur.
 
+sub-next-bill = Pròssima fattura jornu { $date }
+sub-next-bill-no-tax-1 = A pròssima fattura di { $priceAmount } scadi jornu { $date }
+sub-next-bill-tax-1 = A pròssima fattura di { $priceAmount } + { $taxAmount } di tassi scadi jornu { $date }
 sub-expires-on = Scadi u { $date }
 
 ## Routes - Subscription - PaymentUpdate
@@ -466,6 +514,7 @@ reactivate-confirm-button = Abbònati arrè
 
 ## $date (Date) - Last day of product access
 
+reactivate-panel-copy = Nun purrai tràsiri cchi
 reactivate-success-copy = Grazzi! Allistemu.
 reactivate-success-button = Chiuji
 

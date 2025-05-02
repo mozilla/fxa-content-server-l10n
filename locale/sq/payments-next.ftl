@@ -13,6 +13,7 @@ next-payment-method-first-approve = Së pari, do t’ju duhet të miratoni pajti
 location-header = Përzgjidhni vendin tuaj dhe jepni kodin tuaj postar <p>që të kalohet te përfundimi i blerjes për { $productName }</p>
 location-banner-info = S’qemë në gjendje të pikasim automatikisht vendndodhjen tuaj
 location-required-disclaimer = Këto hollësi i përdorim vetëm për të llogaritur taksa dhe monedhë.
+location-banner-currency-change = Ndryshim monedhe i pambuluar. Që të vazhdohet, përzgjidhni një vend që përkon me monedhën e faturimit tuaj aktual.
 
 ## Page - Upgrade page
 
@@ -161,6 +162,10 @@ select-tax-location-error-missing-postal-code = Ju lutemi, jepni kodin tuaj post
 select-tax-location-error-invalid-postal-code = Ju lutemi, jepni një kod postar të vlefshëm
 select-tax-location-successfully-updated = Vendndodhja juaj u përditësua!
 select-tax-location-error-location-not-updated = Vendndodhja juaj s’u përditësua dot. Ju lutemi, riprovoni.
+#  $currencyDisplayName (String) - The display name of a currency code, e.g. US Dollar
+select-tax-location-invalid-currency-change = Llogaria juaj është krijuar në { $currencyDisplayName }. Përzgjidhni një vend që përdor { $currencyDisplayName }.
+select-tax-location-invalid-currency-change-default = Përzgjidhni një vend që përkon me monedhën e pajtimeve tuaja aktive.
+select-tax-location-new-tax-rate-info = Ndryshimi i vendndodhjes tuaj do të aplikojë tarifë të re tatimi mbi krejt pajtimet aktive në llogarinë tuaj, duke filluar me ciklin tuaj pasues të faturimit.
 signin-form-continue-button = Vazhdo
 signin-form-email-input = Jepni email-in tuaj
 signin-form-email-input-missing = Ju lutemi, jepni email-in tuaj
