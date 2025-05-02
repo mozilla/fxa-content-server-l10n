@@ -161,7 +161,7 @@ select-tax-location-successfully-updated = Se actualizó tu ubicación.
 select-tax-location-error-location-not-updated = No se pudo actualizar tu ubicación. Intentalo nuevamente.
 #  $currencyDisplayName (String) - The display name of a currency code, e.g. US Dollar
 select-tax-location-invalid-currency-change = Tu cuenta se factura en { $currencyDisplayName }. Seleccioná un país que use { $currencyDisplayName }.
-select-tax-location-invalid-currency-change-default = Seleccione un país que coincida con la moneda de sus suscripciones activas.
+select-tax-location-invalid-currency-change-default = Seleccioná un país que coincida con la moneda de tus suscripciones activas.
 select-tax-location-new-tax-rate-info = Actualizar tu ubicación aplicará la nueva tasa impositiva a todas las suscripciones activas en tu cuenta, comenzando con tu próximo ciclo de facturación.
 signin-form-continue-button = Continuar
 signin-form-email-input = Ingresá tu correo electrónico
