@@ -374,6 +374,7 @@ postAddLinkedAccount-title-2 = 您的 { $providerName } 账户已关联到 { -pr
 postAddLinkedAccount-action = 管理账户
 postAddRecoveryPhone-subject = 已添加恢复电话号码
 postAddRecoveryPhone-preview = 账户受两步验证保护
+postAddRecoveryPhone-title-v2 = 您已添加恢复电话号码
 # Variables:
 #  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
 postAddRecoveryPhone-description-v2 = 您已将 { $maskedLastFourPhoneNumber } 设置为恢复电话号码
