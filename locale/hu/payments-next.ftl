@@ -162,8 +162,8 @@ select-tax-location-error-invalid-postal-code = Írjon be egy érvényes irány�
 select-tax-location-successfully-updated = A tartózkodási helye frissítve lett.
 select-tax-location-error-location-not-updated = A hely nem frissíthető. Próbálja meg újra.
 #  $currencyDisplayName (String) - The display name of a currency code, e.g. US Dollar
-select-tax-location-invalid-currency-change = A fiókja számlázása { $currencyDisplayName } pénznemben történik. Válasszon egy országot, amely a(z) { $currencyDisplayName } címkét használja.
-select-tax-location-invalid-currency-change-default = Válasszon országot, amely megegyezik az aktív előfizetései pénznemével.
+select-tax-location-invalid-currency-change = A fiókja számlázása { $currencyDisplayName } pénznemben történik. Válasszon egy országot, melynek pénzneme { $currencyDisplayName }.
+select-tax-location-invalid-currency-change-default = Válasszon olyan országot, amely pénzneme megegyezik az aktív előfizetései pénznemével.
 select-tax-location-new-tax-rate-info = A tartózkodási helyének frissítése alkalmazni fogja az új adókulcsot a fiókjában lévő összes aktív előfizetésre, a következő számlázási ciklussal kezdve.
 signin-form-continue-button = Folytatás
 signin-form-email-input = Adja meg az e-mail-címét
