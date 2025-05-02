@@ -441,12 +441,12 @@ brand-name-apple-app-store-2 = { -app-store }
 
 ## Routes - Product - Subscription upgrade
 
-product-plan-change-heading = Переглянути свої зміни
+product-plan-change-heading = Перегляньте свої зміни
 sub-change-failed = Помилка зміни тарифного плану
 sub-update-acknowledgment =
-    Ваш тарифний план зміниться негайно і сьогодні з вас буде стягнено пропорційну
-    суму за решту оновленого циклу передплати. Починаючи з { $startingDate }
-    з вас буде стягнуто повну суму.
+    Ваш тарифний план зміниться негайно і сьогодні з вас буде стягнуто пропорційну
+    суму за решту циклу передплати. Починаючи з { $startingDate }
+    з вас стягуватиметься повна сума.
 sub-change-submit = Підтвердити зміни
 sub-update-current-plan-label = Поточний тарифний план
 sub-update-new-plan-label = Новий тарифний план
@@ -462,9 +462,6 @@ sub-update-new-plan-daily = { $productName } (щодня)
 sub-update-new-plan-weekly = { $productName } (щотижня)
 sub-update-new-plan-monthly = { $productName } (щомісяця)
 sub-update-new-plan-yearly = { $productName } (щороку)
-
-##
-
 
 ## Routes - Subscriptions - Cancel
 

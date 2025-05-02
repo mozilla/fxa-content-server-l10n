@@ -486,8 +486,8 @@ bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-3 = { -product-mozilla-monitor }
 bento-menu-pocket-2 = { -product-pocket }
 bento-menu-firefox-relay-2 = { -product-firefox-relay }
-bento-menu-firefox-desktop = { -brand-firefox } Браузер для комп'ютера
-bento-menu-firefox-mobile = { -brand-firefox } Браузер для мобільного
+bento-menu-firefox-desktop = Браузер { -brand-firefox } для комп'ютера
+bento-menu-firefox-mobile = Браузер { -brand-firefox } для мобільного
 bento-menu-made-by-mozilla = Створено в { -brand-mozilla }
 
 ## Connect another device promo
@@ -872,9 +872,9 @@ recovery-phone-remove-header = Вилучити номер телефону дл
 # Variables:
 #   $formattedFullPhoneNumber (String) - the user's full phone number
 settings-recovery-phone-remove-info = Ця дія призведе до вилучення вашого телефону для відновлення <strong>{ $formattedFullPhoneNumber }</strong>.
-settings-recovery-phone-remove-recommend = Ми радимо використовувати цей метод, оскільки це простіше, ніж зберігати резервні коди автентифікації.
+settings-recovery-phone-remove-recommend = Ми радимо використовувати цей спосіб, оскільки це простіше, ніж зберігати резервні коди автентифікації.
 # "Saved backup authentication codes" refers to previously saved backup authentication codes
-settings-recovery-phone-remove-recovery-methods = Якщо ви видалите його, переконайтеся, що у вас все ще є збережені резервні коди автентифікації. <linkExternal>Порівняння методів відновлення</linkExternal>
+settings-recovery-phone-remove-recovery-methods = Якщо ви видалите його, переконайтеся, що у вас все ще є збережені резервні коди автентифікації. <linkExternal>Порівняння способів відновлення</linkExternal>
 settings-recovery-phone-remove-button = Вилучити номер телефону
 settings-recovery-phone-remove-cancel = Скасувати
 settings-recovery-phone-remove-success = Телефон для відновлення вилучено

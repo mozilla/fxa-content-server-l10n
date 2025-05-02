@@ -30,7 +30,7 @@ recovery-phone-signin-sms-short-body = Код { -brand-mozilla }: { $code }
 fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="Логотип { -brand-mozilla }">
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Синхронізовані пристрої">
 body-devices-image = <img data-l10n-name="devices-image" alt="Пристрої">
-fxa-privacy-url = Політика Приватності { -brand-mozilla }
+fxa-privacy-url = Політика приватності { -brand-mozilla }
 moz-accounts-privacy-url-2 = Положення про приватність { -product-mozilla-accounts(case: "gen", capitalization: "upper") }
 moz-accounts-terms-url = Умови надання послуг { -product-mozilla-accounts(case: "gen", capitalization: "upper") }
 subplat-header-mozilla-logo-2 = <img data-l10n-name="subplat-mozilla-logo" alt="Логотип { -brand-mozilla }">
@@ -59,7 +59,7 @@ subplat-cancel-plaintext = { subplat-cancel }:
 subplat-reactivate = Поновити передплату
 subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Оновіть платіжну інформацію
-subplat-privacy-policy = Політика Приватності { -brand-mozilla }
+subplat-privacy-policy = Політика приватності { -brand-mozilla }
 subplat-privacy-policy-2 = Положення про приватність { -product-mozilla-accounts(case: "gen", capitalization: "upper") }
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
 subplat-privacy-policy-plaintext-2 = { subplat-privacy-policy-2 }:
