@@ -13,6 +13,7 @@ next-payment-method-first-approve = Trước tiên, bạn sẽ cần phê duyệ
 location-header = Chọn quốc gia của bạn và nhập mã bưu chính <p>để tiếp tục thanh toán cho { $productName }</p>
 location-banner-info = Chúng tôi không thể tự động phát hiện vị trí của bạn.
 location-required-disclaimer = Chúng tôi chỉ sử dụng thông tin này để tính thuế và tiền tệ.
+location-banner-currency-change = Không hỗ trợ thay đổi tiền tệ. Để tiếp tục, hãy chọn quốc gia phù hợp với loại tiền tệ thanh toán hiện tại của bạn.
 
 ## Page - Upgrade page
 
@@ -31,7 +32,10 @@ next-payment-error-retry-button = Thử lại
 next-basic-error-message = Có gì đó không ổn. Vui lòng thử lại sau.
 checkout-error-contact-support-button = Liên hệ hỗ trợ
 checkout-error-not-eligible = Bạn không đủ điều kiện để đăng ký sản phẩm này - vui lòng liên hệ với hỗ trợ để chúng tôi có thể giúp bạn.
+checkout-error-already-subscribed = Bạn đã đăng ký sản phẩm này.
 checkout-error-contact-support = Vui lòng liên hệ với hỗ trợ để chúng tôi có thể giúp bạn.
+cart-error-currency-not-determined = Chúng tôi không thể xác định loại tiền tệ cho giao dịch mua này, vui lòng thử lại.
+checkout-processing-general-error = Đã xảy ra lỗi không mong muốn khi xử lý thanh toán của bạn, vui lòng thử lại.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -155,6 +159,10 @@ select-tax-location-error-missing-postal-code = Vui lòng nhập mã bưu chính
 select-tax-location-error-invalid-postal-code = Vui lòng nhập mã bưu chính hợp lệ
 select-tax-location-successfully-updated = Vị trí của bạn đã được cập nhật.
 select-tax-location-error-location-not-updated = Không thể cập nhật vị trí của bạn. Vui lòng thử lại.
+#  $currencyDisplayName (String) - The display name of a currency code, e.g. US Dollar
+select-tax-location-invalid-currency-change = Tài khoản của bạn được thanh toán bằng { $currencyDisplayName }. Chọn một quốc gia sử dụng { $currencyDisplayName }.
+select-tax-location-invalid-currency-change-default = Chọn quốc gia phù hợp với loại tiền tệ của gói đăng ký đang hoạt động của bạn.
+select-tax-location-new-tax-rate-info = Việc cập nhật vị trí của bạn sẽ áp dụng mức thuế mới cho tất cả các gói đăng ký đang hoạt động trong tài khoản của bạn, bắt đầu từ chu kỳ thanh toán tiếp theo.
 signin-form-continue-button = Tiếp tục
 signin-form-email-input = Nhập email của bạn
 signin-form-email-input-missing = Vui lòng nhập email của bạn
@@ -182,6 +190,7 @@ next-subscription-create-title = Thiết lập thuê bao của bạn
 next-subscription-success-title = Xác nhận thuê bao
 next-subscription-processing-title = Đang xác nhận thuê bao…
 next-subscription-error-title = Lỗi khi xác nhận thuê bao…
+subscription-title-sub-exists = Bạn đã đăng ký trước đó
 subscription-title-plan-change-heading = Xem lại thay đổi của bạn
 next-sub-guarantee = Đảm bảo hoàn tiền trong 30 ngày
 

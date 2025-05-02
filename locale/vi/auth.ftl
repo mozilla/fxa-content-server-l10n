@@ -376,6 +376,7 @@ postAddLinkedAccount-title-2 = Tài khoản { $providerName } của bạn đã �
 postAddLinkedAccount-action = Quản lý tài khoản
 postAddRecoveryPhone-subject = Đã thêm số điện thoại khôi phục
 postAddRecoveryPhone-preview = Tài khoản được bảo vệ bằng xác thực hai bước
+postAddRecoveryPhone-title-v2 = Bạn đã thêm số điện thoại khôi phục
 # Variables:
 #  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
 postAddRecoveryPhone-description-v2 = Bạn đã thêm { $maskedLastFourPhoneNumber } làm số điện thoại khôi phục của mình
@@ -427,6 +428,8 @@ postRemoveAccountRecovery-action = Quản lý tài khoản
 postRemoveRecoveryPhone-subject = Đã xóa số điện thoại khôi phục
 postRemoveRecoveryPhone-preview = Tài khoản được bảo vệ bằng xác thực hai bước
 postRemoveRecoveryPhone-title = Đã xóa số điện thoại khôi phục
+postRemoveRecoveryPhone-description-v2 = Số điện thoại khôi phục của bạn đã bị xóa khỏi cài đặt xác thực hai bước.
+postRemoveRecoveryPhone-description-extra = Bạn vẫn có thể sử dụng mã xác thực dự phòng để đăng nhập nếu bạn không thể sử dụng ứng dụng xác thực.
 postRemoveRecoveryPhone-requested-device = Bạn đã yêu cầu nó từ:
 postRemoveSecondary-subject = Đã xóa email phụ
 postRemoveSecondary-title = Đã xóa email phụ
