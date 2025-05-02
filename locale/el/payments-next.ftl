@@ -13,6 +13,7 @@ next-payment-method-first-approve = Θα πρέπει πρώτα να εγκρί
 location-header = Επιλέξτε τη χώρα σας και εισαγάγετε τον ταχυδρομικό σας κώδικα <p>για να συνεχίσετε στην ολοκλήρωση αγοράς του { $productName }</p>
 location-banner-info = Δεν μπορέσαμε να εντοπίσουμε αυτόματα την τοποθεσία σας
 location-required-disclaimer = Χρησιμοποιούμε αυτές τις πληροφορίες μόνο για τον υπολογισμό των φόρων και του νομίσματος.
+location-banner-currency-change = Δεν υποστηρίζεται η αλλαγή νομίσματος. Για να συνεχίσετε, επιλέξτε μια χώρα που χρησιμοποιεί το τρέχον νόμισμα χρέωσής σας.
 
 ## Page - Upgrade page
 
@@ -158,6 +159,10 @@ select-tax-location-error-missing-postal-code = Εισαγάγετε τον τα
 select-tax-location-error-invalid-postal-code = Εισαγάγετε έναν έγκυρο ταχυδρομικό κώδικα
 select-tax-location-successfully-updated = Η τοποθεσία σας έχει ενημερωθεί.
 select-tax-location-error-location-not-updated = Δεν ήταν δυνατή η ενημέρωση της τοποθεσίας σας. Δοκιμάστε ξανά.
+#  $currencyDisplayName (String) - The display name of a currency code, e.g. US Dollar
+select-tax-location-invalid-currency-change = Ο λογαριασμός σας χρεώνεται σε { $currencyDisplayName }. Επιλέξτε μια χώρα που χρησιμοποιεί το { $currencyDisplayName }.
+select-tax-location-invalid-currency-change-default = Επιλέξτε μια χώρα που χρησιμοποιεί το νόμισμα των ενεργών συνδρομών σας.
+select-tax-location-new-tax-rate-info = Η ενημέρωση της τοποθεσίας σας θα εφαρμόσει τον νέο φορολογικό συντελεστή σε όλες τις ενεργές συνδρομές του λογαριασμού σας, ξεκινώντας από τον επόμενο κύκλο χρέωσης.
 signin-form-continue-button = Συνέχεια
 signin-form-email-input = Εισαγάγετε το email σας
 signin-form-email-input-missing = Εισαγάγετε το email σας
