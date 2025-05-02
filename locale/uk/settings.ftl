@@ -624,9 +624,31 @@ flow-recovery-key-info-cancel-link = Скасувати
 # verification code refers to a code sent by text message to confirm phone number ownership
 # and complete setup
 flow-setup-phone-confirm-code-heading = Введіть код підтвердження
+# $phoneNumber is a partially obfuscated phone number with only the last 4 digits showing (e.g., *** *** 1234)
+# span element applies formatting to ensure the number is always displayed left-to-right
+flow-setup-phone-confirm-code-instruction = Шестизначний код надіслано в текстовому повідомленні на номер <span>{ $phoneNumber }</span>. Термін дії цього коду – 5 хвилин.
+flow-setup-phone-confirm-code-input-label = Введіть код із 6 цифр
+flow-setup-phone-confirm-code-button = Підтвердити
+# button to resend a code by text message to the user's phone
+# followed by a button to resend a code
+flow-setup-phone-confirm-code-expired = Код застарів?
+flow-setup-phone-confirm-code-resend-code-button = Надіслати код повторно
+flow-setup-phone-confirm-code-resend-code-success = Код надіслано
+flow-setup-phone-confirm-code-success-message-v2 = Додано телефон для відновлення
 
 ## FlowSetupPhoneConfirmCode
 
+flow-setup-phone-submit-number-heading = Підтвердьте свій номер телефону
+# The code is a 6-digit code send by text message/SMS
+flow-setup-phone-verify-number-instruction = Ви отримаєте текстове повідомлення від { -brand-mozilla } з кодом для підтвердження свого номера. Нікому не повідомляйте цей код.
+# The initial rollout of the recovery phone is only available to users with US and Canada mobile phone numbers.
+# Voice over Internet Protocol (VoIP), is a technology that uses a broadband Internet connection instead of a regular (or analog) phone line to make calls.
+# Phone mask services (for example Relay) provide a temporary virtual number to avoid providing a real phone number.
+# Both VoIP and phone masks can be unreliable for one-time-passcode (OTP) verification
+flow-setup-phone-submit-number-info-message-v2 = Телефон для відновлення доступний лише в США та Канаді. Не рекомендується використовувати номери VoIP і маски номерів телефонів.
+flow-setup-phone-submit-number-legal = Надаючи свій номер, ви погоджуєтеся на те, щоб ми зберігали його, щоб ми могли надсилати вам повідомлення лише для підтвердження облікового запису. Може стягуватися плата за повідомлення та дані.
+# cliking on the button sends a code by text message to the phone number typed in by the user
+flow-setup-phone-submit-number-button = Надіслати код
 
 ## HeaderLockup component, the header in account settings
 
@@ -684,6 +706,7 @@ tfa-replace-code-success-1 =
     Створено нові коди. Збережіть ці одноразові резервні коди автентифікації
     в надійному місці — вам вони знадобляться для доступу до облікового запису
     за відсутності вашого мобільного пристрою.
+tfa-replace-code-success-alert-4 = Резервні коди автентифікації оновлено
 tfa-replace-code-1-2 = Крок 1 з 2
 tfa-replace-code-2-2 = Крок 2 з 2
 tfa-enter-code-to-confirm-v2 =
@@ -822,6 +845,15 @@ recent-activity-account-password-changed = Пароль змінено
 recent-activity-account-secondary-email-added = Додаткову адресу електронної пошти додано
 recent-activity-account-secondary-email-removed = Додаткову адресу електронної пошти вилучено
 recent-activity-account-emails-swapped = Основну та додаткову адреси електронної пошти поміняно місцями
+recent-activity-session-destroy = Ви вийшли з сеансу
+recent-activity-account-recovery-phone-send-code = Код телефону для відновлення надіслано
+recent-activity-account-recovery-phone-setup-complete = Налаштування телефону для відновлення завершено
+recent-activity-account-recovery-phone-signin-complete = Вхід за допомогою номера телефону для відновлення завершено
+recent-activity-account-recovery-phone-signin-failed = Не вдалося ввійти за допомогою номера телефону для відновлення
+recent-activity-account-recovery-phone-removed = Телефон для відновлення вилучено
+recent-activity-account-recovery-codes-replaced = Коди відновлення замінено
+recent-activity-account-recovery-codes-created = Коди відновлення створено
+recent-activity-account-recovery-codes-signin-complete = Вхід із кодами відновлення завершено
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Інші дії в обліковому записі
 
@@ -836,9 +868,23 @@ recovery-key-create-back-button-title = Назад до налаштувань
 ## PageRecoveryPhoneRemove
 ## Users reach this page from account settings when they want to remove a backup phone number.
 
+recovery-phone-remove-header = Вилучити номер телефону для відновлення
+# Variables:
+#   $formattedFullPhoneNumber (String) - the user's full phone number
+settings-recovery-phone-remove-info = Ця дія призведе до вилучення вашого телефону для відновлення <strong>{ $formattedFullPhoneNumber }</strong>.
+settings-recovery-phone-remove-recommend = Ми радимо використовувати цей метод, оскільки це простіше, ніж зберігати резервні коди автентифікації.
+# "Saved backup authentication codes" refers to previously saved backup authentication codes
+settings-recovery-phone-remove-recovery-methods = Якщо ви видалите його, переконайтеся, що у вас все ще є збережені резервні коди автентифікації. <linkExternal>Порівняння методів відновлення</linkExternal>
+settings-recovery-phone-remove-button = Вилучити номер телефону
+settings-recovery-phone-remove-cancel = Скасувати
+settings-recovery-phone-remove-success = Телефон для відновлення вилучено
 
 ## PageSetupRecoveryPhone
 
+page-setup-recovery-phone-heading = Додати телефон для відновлення
+page-setup-recovery-phone-back-button-title = Повернутись до налаштувань
+# Back arrow to return to step 1 of recovery phone setup flow
+page-setup-recovery-phone-step2-back-button-title = Змінити номер телефону
 
 ## Add secondary email page
 

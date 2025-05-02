@@ -378,6 +378,7 @@ postAddLinkedAccount-title-2 = Обліковий запис { $providerName } �
 postAddLinkedAccount-action = Керувати обліковим записом
 postAddRecoveryPhone-subject = Додано телефон для відновлення
 postAddRecoveryPhone-preview = Обліковий запис захищено двоетапною перевіркою
+postAddRecoveryPhone-title-v2 = Ви додали номер телефону для відновлення
 # Variables:
 #  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
 postAddRecoveryPhone-description-v2 = Ви додали номер телефону для відновлення: { $maskedLastFourPhoneNumber }
