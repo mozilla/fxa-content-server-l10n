@@ -1,10 +1,13 @@
 ## Page
 
+# This string appears as a separation between the two sign-in options, "Enter your email"(signin-form-email-input) "or"(this string) "Continue with Google"(continue-signin-with-google-button) / "Continue with Apple"(continue-signin-with-apple-button)
+checkout-signin-options-or = หรือ
 next-payment-method-header = เลือกวิธีการชำระเงินของคุณ
 next-payment-method-first-approve = ก่อนอื่น คุณจะต้องอนุมัติการสมัครสมาชิกของคุณ
 
 ## Page - Upgrade page
 
+upgrade-page-payment-information = ข้อมูลการชำระเงิน
 
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -13,6 +16,7 @@ next-payment-error-manage-subscription-button = จัดการการส�
 next-iap-upgrade-contact-support = คุณยังสามารถรับผลิตภัณฑ์นี้ได้ โปรดติดต่อฝ่ายช่วยเหลือเพื่อให้เราสามารถช่วยเหลือคุณได้
 next-payment-error-retry-button = ลองอีกครั้ง
 next-basic-error-message = มีบางอย่างผิดปกติ โปรดลองอีกครั้งในภายหลัง
+checkout-error-contact-support-button = ติดต่อฝ่ายสนับสนุน
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
