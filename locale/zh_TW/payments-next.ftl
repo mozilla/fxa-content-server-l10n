@@ -159,6 +159,10 @@ select-tax-location-error-missing-postal-code = 請輸入您的郵遞區號
 select-tax-location-error-invalid-postal-code = 請輸入有效的郵遞區號
 select-tax-location-successfully-updated = 已更新您的地點。
 select-tax-location-error-location-not-updated = 無法更新您的地點，請再試一次。
+#  $currencyDisplayName (String) - The display name of a currency code, e.g. US Dollar
+select-tax-location-invalid-currency-change = 您的帳號以 { $currencyDisplayName } 收費。請選擇使用 { $currencyDisplayName } 的國家。
+select-tax-location-invalid-currency-change-default = 請選擇符合您目前有效訂閱的幣別的國家。
+select-tax-location-new-tax-rate-info = 更新您所在的地點後，新的稅率將套用至您帳號中的所有有效訂閱，並從下一個帳務週期開始生效。
 signin-form-continue-button = 繼續
 signin-form-email-input = 輸入您的電子郵件地址
 signin-form-email-input-missing = 請輸入您的電子郵件地址
