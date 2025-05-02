@@ -13,6 +13,7 @@ next-payment-method-first-approve = 請先授權付款訂閱
 location-header = 選擇您所在的國家並輸入您的郵遞區號，<p>即可繼續為 { $productName } 結帳</p>
 location-banner-info = 無法自動偵測您的位置
 location-required-disclaimer = 我們只使用此資訊來計算稅金與幣別。
+location-banner-currency-change = 不支援以外幣結帳。若要繼續，請選擇符合您目前結帳幣別的國家。
 
 ## Page - Upgrade page
 
