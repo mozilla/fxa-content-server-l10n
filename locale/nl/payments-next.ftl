@@ -13,6 +13,7 @@ next-payment-method-first-approve = U dient eerst uw abonnement goed te keuren
 location-header = Selecteer uw land en voer uw postcode in <p>om door te gaan met afrekenen voor { $productName }</p>
 location-banner-info = We kunnen uw locatie niet automatisch detecteren
 location-required-disclaimer = We gebruiken deze informatie alleen om belastingen en valuta te berekenen.
+location-banner-currency-change = Valutawijziging wordt niet ondersteund. Selecteer een land dat overeenkomt met uw huidige factureringsvaluta om door te gaan.
 
 ## Page - Upgrade page
 
@@ -158,6 +159,10 @@ select-tax-location-error-missing-postal-code = Voer uw postcode in
 select-tax-location-error-invalid-postal-code = Voer een geldige postcode in
 select-tax-location-successfully-updated = Uw locatie is bijgewerkt.
 select-tax-location-error-location-not-updated = Uw locatie kon niet worden bijgewerkt. Probeer het opnieuw.
+#  $currencyDisplayName (String) - The display name of a currency code, e.g. US Dollar
+select-tax-location-invalid-currency-change = Uw account is gefactureerd in { $currencyDisplayName }. Selecteer een land dat de { $currencyDisplayName } gebruikt.
+select-tax-location-invalid-currency-change-default = Selecteer een land dat de valuta van uw actieve abonnementen gebruikt.
+select-tax-location-new-tax-rate-info = Het bijwerken van uw locatie past het nieuwe belastingtarief toe op alle actieve abonnementen in uw account, vanaf uw volgende betalingscyclus.
 signin-form-continue-button = Doorgaan
 signin-form-email-input = Voer uw e-mailadres in
 signin-form-email-input-missing = Voer uw e-mailadres in
