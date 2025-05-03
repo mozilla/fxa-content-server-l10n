@@ -285,6 +285,7 @@ postAddLinkedAccount-subject-2 = Ҳисоби нав, ки ба «{ -product-moz
 postAddLinkedAccount-title-2 = Ҳисоби «{ $providerName }»-и шумо ба «{ -product-mozilla-account }»-и шумо пайваст карда шуд
 postAddLinkedAccount-action = Идоракунии ҳисоб
 postAddRecoveryPhone-subject = Телефони барқарорсозӣ илова карда шуд
+postAddRecoveryPhone-title-v2 = Шумо рақами телефони барқарорсозиро илова кардед
 # Links out to a support article about two factor authentication
 postAddRecoveryPhone-how-protect = Ин чӣ тавр ҳисоби шуморо муҳофизат мекунад
 postAddRecoveryPhone-how-protect-plaintext = Ин чӣ тавр ҳисоби шуморо муҳофизат мекунад:
@@ -352,6 +353,7 @@ subscriptionAccountFinishSetup-subject = Хуш омадед ба «{ $productNa
 subscriptionAccountFinishSetup-title = Хуш омадед ба «{ $productName }»
 subscriptionAccountFinishSetup-action-2 = Оғози кор
 subscriptionAccountReminderFirst-subject = Ёдоварӣ: Танзими ҳисоби худро ба анҷом расонед
+subscriptionAccountReminderFirst-title = Шумо ҳоло наметавонед, ки ба обунаи худ дастрасӣ пайдо намоед
 subscriptionAccountReminderFirst-action = Эҷод кардани ниҳонвожа
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-subject = Ёдоварии ниҳоӣ: Ҳисоби худро танзим кунед

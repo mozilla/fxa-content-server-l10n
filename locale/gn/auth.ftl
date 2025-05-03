@@ -272,6 +272,9 @@ inactiveAccountFinalWarning-subject = Eguerekosevéramo nde { -product-mozilla-a
 inactiveAccountFinalWarning-title = Ne mba’ete { -brand-mozilla } ha imba’ekuaarãnguéra oguéma
 inactiveAccountFinalWarning-preview = Eñepyrũ tembiapo ereko are hag̃ua ne mba’ete
 inactiveAccountFinalWarning-account-description = Nde { -product-mozilla-account } ojeporu ojeike hag̃ua apopyre ñemi reigua ha ñeikundaha ikatúva { -brand-firefox } sync, { -product-mozilla-monitor }, { -product-firefox-relay } ha { -product-mdn }.
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+# This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
+inactiveAccountFinalWarning-impact = Pe <strong>{ $deletionDate }</strong>, ne mba’ete ha ne mba’ekuaarã teéva oñemboguéta tapiarãicha reikéi mba’éramo ndete.
 inactiveAccountFinalWarning-action = Eñepyrũ tembiapo ereko are hag̃ua ne mba’ete
 # followed by link to sign in
 inactiveAccountFinalWarning-action-plaintext = Eñepyrũ tembiapo ereko are hag̃ua ne mba’ete:

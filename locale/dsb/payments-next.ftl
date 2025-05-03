@@ -13,6 +13,7 @@ next-payment-method-first-approve = Nejpjerwjej musyśo swój abonement wobkšu�
 location-header = Wubjeŕśo swój kraj a zapódajśo swóju postowu licbu <p>, aby z kasu za { $productName } pókšacował</p>
 location-banner-info = Njejsmy mógli wašo stojnišćo awtomatiski namakaś
 location-required-disclaimer = Wužywamy toś te informacije jano, aby my danki a pjenjeze wulicyli.
+location-banner-currency-change = Změna pjenjez se njepódpěra. Aby pókšacował, wubjeŕśo kraj, kótaryž wašej aktualnej wótliceńskim pjenjezam wótpowědujo.
 
 ## Page - Upgrade page
 
@@ -161,6 +162,8 @@ select-tax-location-error-missing-postal-code = Pšosym zapódajśo swóju posto
 select-tax-location-error-invalid-postal-code = Pšosym zapódajśo płaśiwu postowu licbu
 select-tax-location-successfully-updated = Wašo městno jo se zaktualizěrowało.
 select-tax-location-error-location-not-updated = Wašo městno njedajo se aktualizěrowaś. Pšosym wopytajśo hyšći raz.
+#  $currencyDisplayName (String) - The display name of a currency code, e.g. US Dollar
+select-tax-location-invalid-currency-change = Wašo konto se w { $currencyDisplayName } wótlicujo. Wubjeŕśo kraj, kótaryž { $currencyDisplayName } wužywa.
 signin-form-continue-button = Dalej
 signin-form-email-input = Zapódajśo swóju e-mailowu adresu
 signin-form-email-input-missing = Pšosym zapódajśo swóju e-mailowu adresu

@@ -13,6 +13,7 @@ next-payment-method-first-approve = Najprjedy dyrbiće swój abonement wobkrući
 location-header = Wubjerće swój kraj a zapodajće swoje póstowe wodźenske čisło <p>, zo byšće z pokładnju za { $productName } pokročował</p>
 location-banner-info = Njemóžachmy waše stejnišćo awtomatisce namakać
 location-required-disclaimer = Wužiwamy tute informacije jenož, zo bychmy dawki a měnu wobličili.
+location-banner-currency-change = Měnowa změna so njepodpěruje. Zo byšće pokročował, wubjerće kraj, kotryž wašej aktualnej wotličenskej změnje wotpowěduje.
 
 ## Page - Upgrade page
 
@@ -161,6 +162,10 @@ select-tax-location-error-missing-postal-code = Prošu zapodajće swoje póstowe
 select-tax-location-error-invalid-postal-code = Prošu zapodajće płaćiwe póstowe wodźenske čisło
 select-tax-location-successfully-updated = Waše městno je so zaktualizowało.
 select-tax-location-error-location-not-updated = Waše městno njeda so aktualizować. Prošu spytajće hišće raz.
+#  $currencyDisplayName (String) - The display name of a currency code, e.g. US Dollar
+select-tax-location-invalid-currency-change = Waše konto so w { $currencyDisplayName } wotličuje. Wubjerće kraj, kotryž { $currencyDisplayName } wužiwa.
+select-tax-location-invalid-currency-change-default = Wubjerće kraj, kotryž změnje wašich aktiwnych abonementow wotpowěduje.
+select-tax-location-new-tax-rate-info = Hdyž waše stejnišćo aktualizujeće, so nowa dawkowa sadźba na wšě aktiwne abonementy we wašim konće nałožuje, započinajo z wašej přichodnej wotličenskej dobu.
 signin-form-continue-button = Dale
 signin-form-email-input = Zapodajće swoju e-mejlowu adresu
 signin-form-email-input-missing = Prošu zapodajće swoju e-mejlowu adresu
