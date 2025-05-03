@@ -2,6 +2,16 @@
 
 session-verify-send-push-title-2 = { -product-mozilla-account } тіркелгіңізге кіріп жатырсыз ба?
 session-verify-send-push-body-2 = Сіз екеніңізді растау үшін осында шертіңіз
+# Shorter message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to verify phone ownership when registering a recovery phone
+recovery-phone-setup-sms-short-body = { -brand-mozilla } растау коды: { $code }
+# Shorter message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to sign in with a recovery phone as backup for two-step authentication
+recovery-phone-signin-sms-short-body = { -brand-mozilla } коды: { $code }
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
@@ -330,6 +340,7 @@ postAddLinkedAccount-subject-2 = Сіздің { -product-mozilla-account } іш�
 postAddLinkedAccount-title-2 = Сіздің { $providerName } тіркелгіңіз { -product-mozilla-account } ішіне байланыстырылды.
 postAddLinkedAccount-action = Тіркелгіні басқару
 postAddRecoveryPhone-subject = Қалпына келтіру телефоны қосылды
+postAddRecoveryPhone-title-v2 = Сіз қалпына келтіру телефон нөмірін қостыңыз
 # Links out to a support article about two factor authentication
 postAddRecoveryPhone-how-protect = Бұл сіздің тіркелгіңізді қалай қорғайды
 postAddRecoveryPhone-how-protect-plaintext = Бұл сіздің тіркелгіңізді қалай қорғайды:
@@ -377,6 +388,8 @@ postRemoveAccountRecovery-action = Тіркелгіні басқару
 postRemoveRecoveryPhone-subject = Қалпына келтіру телефоны өшірілді
 postRemoveRecoveryPhone-preview = Тіркелгі екі факторлы аутентификациямен қорғалған
 postRemoveRecoveryPhone-title = Қалпына келтіру телефоны өшірілді
+postRemoveRecoveryPhone-description-v2 = Сіздің қалпына келтіру телефоны екі қадамды аутентификация параметрлерінен өшірілді.
+postRemoveRecoveryPhone-requested-device = Сіз оны келесі жерден сұрадыңыз:
 postRemoveSecondary-subject = Екіншілік эл. пошта адресі өшірілді
 postRemoveSecondary-title = Екіншілік эл. пошта адресі өшірілді
 # Variables:
@@ -389,6 +402,8 @@ postRemoveTwoStepAuthentication-title-2 = Сіз екі қадамды ауте�
 postRemoveTwoStepAuthentication-from-device = Сіз оны келесі жерден сөндірдіңіз:
 postRemoveTwoStepAuthentication-action = Тіркелгіні басқару
 postRemoveTwoStepAuthentication-not-required-2 = Сізге енді жүйеге кірген кезде аутентификация қолданбасынан қауіпсіздік кодтары керек емес.
+postSigninRecoveryCode-subject = Кіру үшін қолданылған сақтық аутентификация коды
+postSigninRecoveryCode-preview = Тіркелгі белсенділігін растау
 postSigninRecoveryCode-action = Тіркелгіні басқару
 postSigninRecoveryPhone-action = Тіркелгіні басқару
 postVerify-sub-title-3 = Біз сізді көруге қуаныштымыз!

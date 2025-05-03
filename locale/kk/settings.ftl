@@ -1607,6 +1607,8 @@ signin-recovery-phone-resend-success = Код жіберілді
 signin-recovery-phone-locked-out-link = Тіркелгі бұғатталған ба?
 signin-recovery-phone-send-code-error-heading = Кодты жіберу кезінде мәселе туындады
 signin-recovery-phone-code-verification-error-heading = Кодыңызды растау кезінде мәселе туындады
+# Follows the error message (e.g, "There was a problem sending a code")
+signin-recovery-phone-general-error-description = Кейінірек қайталап көріңіз.
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 

@@ -2,12 +2,14 @@
 
 # This string appears as a separation between the two sign-in options, "Enter your email"(signin-form-email-input) "or"(this string) "Continue with Google"(continue-signin-with-google-button) / "Continue with Apple"(continue-signin-with-apple-button)
 checkout-signin-options-or = немесе
+continue-signin-with-google-button = { -brand-google } арқылы жалғастыру
 continue-signin-with-apple-button = { -brand-apple } арқылы жалғастыру
 next-payment-method-header = Төлем әдісін таңдаңыз
 next-payment-method-first-approve = Алдымен жазылуыңызды растауыңыз керек
 
 ## Page - Upgrade page
 
+upgrade-page-payment-information = Төлем ақпараты
 checkout-error-boundary-retry-button = Қайтадан көру
 
 ## Error pages - /checkout and /upgrade
