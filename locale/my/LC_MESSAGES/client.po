@@ -2,17 +2,12 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-05 20:09+0000\n"
-"PO-Revision-Date: 2022-08-09 22:20+0000\n"
-"Last-Translator: Sithu Aung <sithu.aung015@gmail.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: my\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Pontoon\n"
+"Generated-By: Pontoon\n"
 
 #: .es5/views/confirm_reset_password.js:170
 msgid "Password reset"
@@ -34,7 +29,7 @@ msgstr "အကောင့်ဖယ်ရှားခြင်း အောင�
 
 #: .es5/views/inline_totp_setup.js:128
 msgid "Use the code %(code)s to set up two-step authentication in supported applications."
-msgstr ""
+msgstr "နှစ်-ဆင့်ခံ သက်သေခံစီစစ်ခြင်း တပ်ဆင်နိုင်ရန် ထောက်ပံထားသော အပလီကေးရှင်းတွင် %(code)s ကုဒ်ကို သုံးပါ။"
 
 #: .es5/views/permissions.js:29
 msgid "%(permissionName)s (required)"
@@ -151,7 +146,7 @@ msgstr "မရွေးပါ"
 
 #: .es5/views/mixins/last-checked-time-mixin.js:41
 msgid "Last checked: %(lastCheckTime)s"
-msgstr ""
+msgstr "နောက်ဆုံး စစ်ဆေးပြီး - %(lastCheckTime)s"
 
 #: .es5/views/mixins/open-webmail-mixin.js:22
 msgid "Open Gmail"
@@ -187,7 +182,7 @@ msgstr ""
 
 #: .es5/views/mixins/recovery-codes-mixin.js:124
 msgid "Two-step authentication enabled"
-msgstr ""
+msgstr "နှစ်-ဆင့်ခံ သက်သေခံစီစစ်ခြင်း ဖွင့်လိုက်ပြီ"
 
 #: .es5/views/mixins/recovery-key-mixin.js:28
 msgid "Firefox Account Recovery Key"
@@ -195,7 +190,7 @@ msgstr ""
 
 #: .es5/views/mixins/resend-mixin.js:46
 msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
-msgstr ""
+msgstr "အီးမေး ထပ်ပို့သည်။ ချောချောမောမော ‌ပို့ဆောင်နိုင်ရန် သင့် အဆက်အသွယ် ထဲသို့ accounts@firefox.com ကို ထည့်ပါ။"
 
 #: .es5/views/mixins/save-options-mixin.js:52
 msgid "Copied"
@@ -203,7 +198,7 @@ msgstr "ကူးယူပြီး"
 
 #: .es5/views/mixins/save-options-mixin.js:54
 msgid "Failed to copy. Please manually copy."
-msgstr ""
+msgstr "ကူယူခြင်း မအောင်မြင်ပါ။ ကျေးဇူးပြုပြီး ကိုယ်တိုင် ကူယူပါ။"
 
 #: .es5/views/mixins/save-options-mixin.js:69
 msgid "Downloaded"
@@ -544,7 +539,7 @@ msgstr "ယခုအသုံးပြုနေသောကာလ သတ်မ�
 
 #: .es5/lib/auth-errors.js:322
 msgid "Cookies are still disabled"
-msgstr "ကွတ်ကီးများကို ပိတ်ထားဆဲဖြစ်သည်"
+msgstr "ကွတ်ကီးများကိုပိတ်ထားဆဲ"
 
 #: .es5/lib/auth-errors.js:326
 msgid "Passwords do not match"
@@ -608,39 +603,39 @@ msgstr "အတည်ပြုလင့် ပျက်ပြယ်သွား�
 
 #: .es5/lib/auth-errors.js:431
 msgid "The image dimensions must be at least 100x100px"
-msgstr ""
+msgstr "ပုံ၏အရွယ်အစားသည်အနည်းဆုံး 100x100px ရှိရမည်"
 
 #: .es5/lib/auth-errors.js:435
 msgid "Signup is coming soon to Firefox for iOS"
-msgstr ""
+msgstr "iOS အတွက် Firefox စာရင်းသွင်းခြင်း မကြာမီ ရပါမည်"
 
 #: .es5/lib/auth-errors.js:446
 msgid "You must enter your age to sign up"
-msgstr ""
+msgstr "စာရင်းသွင်းရန် သင့် အသက် ကို ဖြည့်သွင်းပါ"
 
 #: .es5/lib/auth-errors.js:450
 msgid "You must enter a valid age to sign up"
-msgstr ""
+msgstr "စာရင်းသွင်း နိုင်ရန် ခိုင်လုံသော အသက်ကို သင် ဖြည့်သွင်းပါ"
 
 #: .es5/lib/auth-errors.js:465
 msgid "Account no longer exists."
-msgstr ""
+msgstr "အကောင့်မရှိတော့ပါ"
 
 #: .es5/lib/auth-errors.js:469
 msgid "Invalid property in resume token: %(property)s"
-msgstr ""
+msgstr "ကိုယ်ရေးရာဇဝင် တုံကင် ပိုင်ဆိုင်မှု့မမှန် : %(property)s"
 
 #: .es5/lib/auth-errors.js:473
 msgid "Missing property in resume token: %(property)s"
-msgstr ""
+msgstr "ကိုယ်ရေး တုံကင် တွင် အမှတ်လက္ခဏာ ပျောက်နေသည် :%(property)s"
 
 #: .es5/lib/auth-errors.js:477
 msgid "Invalid data attribute: %(property)s"
-msgstr ""
+msgstr "အချက်အလက် အရည်သွေး မှားနေ : %(property)s"
 
 #: .es5/lib/auth-errors.js:481
 msgid "Missing data attribute: %(property)s"
-msgstr ""
+msgstr "အချက်အလက် အရည်အ‌သွေး ပျောက်နေသည် : %(property)s"
 
 #: .es5/lib/auth-errors.js:494 .es5/lib/auth-errors.js:548 .es5/templates/complete_sign_up.mustache:4
 msgid "That confirmation link was already used, and can only be used once."
@@ -660,7 +655,7 @@ msgstr "ချိတ်ဆက်မှုပြတ်ခဲ့သည်"
 
 #: .es5/lib/auth-errors.js:533
 msgid "Phone number required"
-msgstr ""
+msgstr "ဖုန်းနံပါတ် လိုအပ် သည်"
 
 #: .es5/lib/auth-errors.js:552
 msgid "Two-step authentication code required"
@@ -1515,11 +1510,11 @@ msgstr ""
 
 #: .es5/templates/support.mustache:13
 msgid "Payment & billing"
-msgstr ""
+msgstr "ငွေပေးချေမှု့ နှင့် ငွေတောင်းခံလွှာ"
 
 #: .es5/templates/support.mustache:14
 msgid "Account issues"
-msgstr ""
+msgstr "အကောင့်ဆိုင်ရာ ပြဿနာများ"
 
 #: .es5/templates/support.mustache:15
 msgid "Technical issues"
