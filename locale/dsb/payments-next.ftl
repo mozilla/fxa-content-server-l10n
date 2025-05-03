@@ -164,6 +164,8 @@ select-tax-location-successfully-updated = Wašo městno jo se zaktualizěrował
 select-tax-location-error-location-not-updated = Wašo městno njedajo se aktualizěrowaś. Pšosym wopytajśo hyšći raz.
 #  $currencyDisplayName (String) - The display name of a currency code, e.g. US Dollar
 select-tax-location-invalid-currency-change = Wašo konto se w { $currencyDisplayName } wótlicujo. Wubjeŕśo kraj, kótaryž { $currencyDisplayName } wužywa.
+select-tax-location-invalid-currency-change-default = Wubjeŕśo kraj, kótaryž pjenjezam wašych aktiwnych abonementow wótpowědujo.
+select-tax-location-new-tax-rate-info = Gaž wašo stojnišćo aktualizěrujośo, se nowa dankowa sajźba na wšykne aktiwne abonementy we wašom konśe nałožujo, zachopinajucy z wašym pśiducym wótliceńskim casom.
 signin-form-continue-button = Dalej
 signin-form-email-input = Zapódajśo swóju e-mailowu adresu
 signin-form-email-input-missing = Pšosym zapódajśo swóju e-mailowu adresu

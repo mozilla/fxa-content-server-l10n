@@ -282,6 +282,9 @@ inactiveAccountFirstWarning-subject = Aníke ehundi ne mba’ete
 inactiveAccountFirstWarning-title = ¿Ereko aresépa ne mba’ete { -brand-mozilla } ha imba’ekuaarãnguéra?
 inactiveAccountFirstWarning-account-description-v2 = Nde { -product-mozilla-account } ojeporu ojeike hag̃ua apopyre ñemi reigua ha ñeikundaha ikatúva { -brand-firefox } sync, { -product-mozilla-monitor }, { -product-firefox-relay } ha { -product-mdn }.
 inactiveAccountFirstWarning-inactive-status = Rohecha ndereikeveihague 2 arýma.
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+# This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
+inactiveAccountFirstWarning-impact = Ne mba’ete ha ne mba’ekuaarã teéva oñemboguéta tapiarãicha <strong>{ $deletionDate }</strong> sa’i eiporu rehe.
 inactiveAccountFirstWarning-action = Eñepyrũ tembiapo ereko are hag̃ua ne mba’ete
 inactiveAccountFirstWarning-preview = Eñepyrũ tembiapo ereko are hag̃ua ne mba’ete
 # followed by link to sign in
@@ -289,6 +292,8 @@ inactiveAccountFirstWarning-action-plaintext = Eñepyrũ tembiapo ereko are hag�
 inactiveAccountSecondWarning-subject = Jeku’e tekotevẽva: mba’ete ñembogue 7 árape
 inactiveAccountSecondWarning-title = Ne mba’ete { -brand-mozilla } ha imba’ekuaarãnguéra oguétama 7 arahápe
 inactiveAccountSecondWarning-account-description-v2 = Nde { -product-mozilla-account } ojeporu ojeike hag̃ua apopyre ñemi reigua ha ñeikundaha ikatúva { -brand-firefox } sync, { -product-mozilla-monitor }, { -product-firefox-relay } ha { -product-mdn }.
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+inactiveAccountSecondWarning-impact = Ne mba’ete ha ne mba’ekuaarã teéva oñemboguéta tapiarãicha <strong>{ $deletionDate }</strong> sa’i eiporu rehe.
 inactiveAccountSecondWarning-action = Eñepyrũ tembiapo ereko are hag̃ua ne mba’ete
 inactiveAccountSecondWarning-preview = Eñepyrũ tembiapo ereko are hag̃ua ne mba’ete
 # followed by link to sign in
