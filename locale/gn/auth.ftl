@@ -70,6 +70,7 @@ subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Ñemigua
 subplat-privacy-website-plaintext = { subplat-privacy }:
 account-deletion-info-block-support = Eporanduséramo térã eikotevẽramo ñepytyvõ, eñe’ẽ ore <a data-l10n-name="supportLink">aty pytyvõha ndive</a>.
+account-deletion-info-block-communications-plaintext = Oñemboguérõ ne mba’ete, og̃uahẽta gueteri ñanduti veve Mozilla Corporation ha Mozilla Foundation guive, ndete ndereipe’áirõ ne ñemboheraguapy:
 account-deletion-info-block-support-plaintext = Eporanduse térã eikotevẽramo ñepytyvõ, eñe’ẽ ore aty ñepytyvõha ndive:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
