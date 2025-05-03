@@ -638,6 +638,8 @@ flow-setup-phone-confirm-code-success-message-v2 = Pumbyry guerujeyrã mbojuajup
 ## FlowSetupPhoneConfirmCode
 
 flow-setup-phone-submit-number-heading = Ehechajey ne pumbyry papapy
+# The code is a 6-digit code send by text message/SMS
+flow-setup-phone-verify-number-instruction = Og̃uahẽta ñe’ẽmondo jehaipy { -brand-mozilla } guive peteĩ ayvu ehechajey hag̃ua nde papapy. Aníke emoherakuã ko ayvu.
 # cliking on the button sends a code by text message to the phone number typed in by the user
 flow-setup-phone-submit-number-button = Emondo ayvu
 

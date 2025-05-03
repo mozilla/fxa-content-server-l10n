@@ -156,6 +156,7 @@ select-tax-location-error-missing-postal-code = Ehaimína nde código postal
 select-tax-location-error-invalid-postal-code = Ehai nde código postal oikóva
 select-tax-location-successfully-updated = Hekopyahúma ne rendaite.
 select-tax-location-error-location-not-updated = Ndaikatúi embohekopyahu ne rendaite. Eha’ã jey ag̃ave.
+select-tax-location-invalid-currency-change-default = Eiporavo peteĩ tetã iviru ojokupytýva ne ñemboheraguapy oikóva rehe.
 signin-form-continue-button = Ku’ejey
 signin-form-email-input = Emoinge ne ñanduti veve
 signin-form-email-input-missing = Emoingemi ne ñanduti veve
