@@ -267,6 +267,7 @@ password-forgot-otp-expiry-notice = Tangalt-a ad temmet deg 10 n tseddatin.
 passwordReset-subject-2 = Awla inek uffir yettuwennez
 passwordReset-title-2 = Awla inek uffir yettuwennez
 passwordResetAccountRecovery-subject-2 = Awla inek uffir yettuwennez
+passwordResetAccountRecovery-title-3 = Awla inek uffir yettuwennez
 passwordResetAccountRecovery-action-4 = Sefrek amiḍan
 passwordResetWithRecoveryKeyPrompt-subject = Awla inek uffir yettuwennez
 passwordResetWithRecoveryKeyPrompt-title = Awla inek uffir yettuwennez
