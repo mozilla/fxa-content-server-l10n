@@ -1016,6 +1016,8 @@ tfa-row-backup-codes-get-new-cta-v2 = Emoheñói ayvukuéra pyahu
 # Shown to users who have no backup authentication codes
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = Mbojuaju
+# 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
+tfa-row-backup-codes-description-2 = Kóicha añoite erujeýta tekorosãme ndereiporukuaáiramo ne pumbyry mba’e’oka térã tembiporu’i ñemoneĩrã.
 # Recovery phone is a recovery method for two-step authentication
 # A recovery code can be sent to the user's phone
 tfa-row-backup-phone-title-v2 = Pumbyry guerujeyrã
