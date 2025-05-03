@@ -389,6 +389,8 @@ cs-disconnect-sync-heading = Desconectar de Sync
 
 ## Avatar change page
 
+avatar-page-file-upload-error-3 = Houbo un problema ao subir a túa foto de perfil.
+avatar-page-delete-error-3 = Houbo un problema ao borrar a túa foto de perfil.
 
 ## Password change page
 
