@@ -1031,6 +1031,8 @@ tfa-row-backup-phone-add-cta = Mbojuaju
 tfa-row-backup-phone-delete-button = Mboguete
 # Shown in tooltip on delete button or delete icon
 tfa-row-backup-phone-delete-title-v2 = Embogue pumbyry guerujeyrã
+# "this" refers to recovery phone
+tfa-row-backup-phone-description-v2 = Kóicha añoite erujeýta tekorosãme ndereiporukuaáirõ pumbyry mba’e’oka térã tembiporu’i ñemoneĩrã.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
