@@ -271,6 +271,8 @@ passwordResetAccountRecovery-title-3 = Awla inek uffir yettuwennez
 passwordResetAccountRecovery-action-4 = Sefrek amiḍan
 passwordResetWithRecoveryKeyPrompt-subject = Awla inek uffir yettuwennez
 passwordResetWithRecoveryKeyPrompt-title = Awla inek uffir yettuwennez
+# Text for button action to create a new account recovery key
+passwordResetWithRecoveryKeyPrompt-action = Rnu tasarut n tririt n umiḍan
 # colon is followed by a link to create an account recovery key from the account settings page
 passwordResetWithRecoveryKeyPrompt-action-txt = Rnu tasarut n tririt n umiḍan:
 postAddAccountRecovery-subject-3 = Tasarut n tririt n umiḍan amaynut i tettwarna
@@ -280,6 +282,7 @@ postAddAccountRecovery-action = Sefrek amiḍan
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = Amiḍan-ik·im { $providerName } yettwaqqen ɣer { -product-mozilla-account }-ik·im
 postAddLinkedAccount-action = Sefrek amiḍan
+postAddRecoveryPhone-enabled-device = Tremdeḍ-t-d seg:
 postAddRecoveryPhone-action = Sefrek amiḍan
 postAddTwoStepAuthentication-subject-2 = Asesteb s snat n tarrayin yettwarmed
 postAddTwoStepAuthentication-title-2 = Tremseḍ asesteb s snat tarrayin

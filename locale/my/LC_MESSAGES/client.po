@@ -250,7 +250,7 @@ msgstr "အတ်အွန်များ"
 
 #: .es5/models/sync-engines.js:62
 msgid "Open Tabs"
-msgstr ""
+msgstr "ဖွင့်ထားသည့် တပ်ဗ်များ"
 
 #: .es5/models/sync-engines.js:66
 msgid "Preferences"
@@ -266,7 +266,7 @@ msgstr ""
 
 #: .es5/models/reliers/browser.js:68
 msgid "Firefox"
-msgstr ""
+msgstr "Firefox"
 
 #: .es5/models/auth_brokers/base.js:88
 msgid "Primary email verified successfully"
@@ -306,7 +306,7 @@ msgstr "request signature တွင် ပါရှိသော timestamp သည
 
 #: .es5/lib/auth-errors.js:43
 msgid "Invalid nonce in request signature"
-msgstr ""
+msgstr "request signature တွင် မှားရွင်းကာ မပါရှိပါ"
 
 #: .es5/lib/auth-errors.js:47 .es5/lib/auth-errors.js:162 .es5/lib/auth-errors.js:174
 msgid "Account already exists"
@@ -374,15 +374,15 @@ msgstr "ယခုနိုင်ငံသို့ မပို့နိုင�
 
 #: .es5/lib/auth-errors.js:134
 msgid "Could not send a message to this number"
-msgstr ""
+msgstr "ဤ နာပတ် သို့ စာတို ပို့မရပါ"
 
 #: .es5/lib/auth-errors.js:138
 msgid "Your email was just returned"
-msgstr ""
+msgstr "သင့်ရဲ့အီးမေး ပြန်ပို့ခံရသည်။"
 
 #: .es5/lib/auth-errors.js:142
 msgid "Your email was just returned. Mistyped email?"
-msgstr ""
+msgstr "သင့်ရဲ့အီးမေး ပြန်ပို့ခံရသည်။ လိပ်စာမှားရိုက်မိပါသလား။"
 
 #: .es5/lib/auth-errors.js:146
 msgid "Unable to deliver email"
@@ -390,7 +390,7 @@ msgstr "အီးမေးလ် ပို့၍မရပါ"
 
 #: .es5/lib/auth-errors.js:150
 msgid "This email was already verified by another user"
-msgstr ""
+msgstr "ဤအီးမေးလ်ကို အခြားအသုံးပြုသူမှအတည်ပြုထားပြီးဖြစ်သည်"
 
 #: .es5/lib/auth-errors.js:154
 msgid "Unverified session"
@@ -398,7 +398,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:158
 msgid "Secondary email must be different than your account email"
-msgstr ""
+msgstr "အရန် အီးမေးသည် သင့် အကောင့်အီးမေးနှင့် တူညီ၍ မရပါ"
 
 #: .es5/lib/auth-errors.js:166
 msgid "You have reached the maximum allowed secondary emails"
@@ -410,27 +410,27 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:178
 msgid "Primary account email required for sign-in"
-msgstr ""
+msgstr "အဓီက အကောင့်အီးမေးသည် ဝင်ရောက်နိုင်ရန် လိုအပ်သည်"
 
 #: .es5/lib/auth-errors.js:182
 msgid "Address in use by another account"
-msgstr ""
+msgstr "လိပ်စာ ကို အခြားအကောင့် က သုံးထားပြီးဖြစ်သည်"
 
 #: .es5/lib/auth-errors.js:186
 msgid "Primary account email required for reset"
-msgstr ""
+msgstr "အဓိက အကောင့်အီးမေး သည် ဆယ်ယူရေး အတွက် လိုအပ်သည်"
 
 #: .es5/lib/auth-errors.js:190
 msgid "Invalid signin code"
-msgstr "မခိုင်လုံသောဝင်ရောက်ရန်ကုဒ်"
+msgstr "ဝင်ရောက်သော ကုဒ် မှားနေသည်"
 
 #: .es5/lib/auth-errors.js:194
 msgid "Can not change primary email to an unverified email"
-msgstr ""
+msgstr "အတည်မပြု‌ရသေးသည့် အီးမေးကို အဓိက အီးမေး အဖြစ် မပြောင်းနိုင်ပါ"
 
 #: .es5/lib/auth-errors.js:198 .es5/lib/auth-errors.js:206
 msgid "Can not change primary email to an email that does not belong to this account"
-msgstr ""
+msgstr "ဤအကောင့်နှင့်မသက်ဆိုင်သော အီးမေးလ်ကို အဓိကအီးမေးလ် သို့ ပြောင်းမရပါ"
 
 #: .es5/lib/auth-errors.js:202
 msgid "This email can not currently be used to login"
@@ -450,11 +450,11 @@ msgstr "အတည်ပြုကုဒ်သည် အသုံးပြုခ�
 
 #: .es5/lib/auth-errors.js:222
 msgid "A TOTP token already exists for this account"
-msgstr ""
+msgstr "ဤအကောင့်၏ TOTP တုန်ကင် ရှိပြီးဖြစ်သည်"
 
 #: .es5/lib/auth-errors.js:226
 msgid "TOTP token not found"
-msgstr ""
+msgstr "TOTP တိုကင် မတွေ့ပါ"
 
 #: .es5/lib/auth-errors.js:230
 msgid "Backup authentication code not found"
@@ -462,7 +462,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:234
 msgid "Unavailable device command"
-msgstr ""
+msgstr "ကိရိယာ စေခိုင်းချက် မရရှိပါ"
 
 #: .es5/lib/auth-errors.js:238
 msgid "Account recovery key not found"
@@ -474,35 +474,35 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:246 .es5/lib/auth-errors.js:254
 msgid "This request requires two step authentication enabled on your account."
-msgstr ""
+msgstr "ဤ တောင်းဆိုမှု ရရှိရန် နှစ် ဆင့် အတည်ပြုခြင်း ကို ဖွင့်ရန် လိုအပ်သည်"
 
 #: .es5/lib/auth-errors.js:250
 msgid "Failed due to a conflicting request, please try again."
-msgstr ""
+msgstr "ကွဲလွဲသော တောင်းဆိုချက် ကြောင့် မအောင်မြင်ပါ၊ ကျေးဇူးပြု၍ ထပ်မံကြိုးစားပါ။"
 
 #: .es5/lib/auth-errors.js:258
 msgid "Unknown customer for subscription."
-msgstr ""
+msgstr "မသိသော စာသုံးသူ အတွက် စာရင်းသွင်းခြင်း။"
 
 #: .es5/lib/auth-errors.js:262
 msgid "Unknown subscription."
-msgstr ""
+msgstr "မသိသော စာရင်းသွင်းခြင်း။"
 
 #: .es5/lib/auth-errors.js:266
 msgid "Unknown plan for subscription."
-msgstr ""
+msgstr "မသိသော အစီစဥ်အတွက် စာရင်းသွင်းခြင်း။"
 
 #: .es5/lib/auth-errors.js:270
 msgid "Invalid payment token for subscription."
-msgstr ""
+msgstr "မှားရွင်းသော ငွေပေး‌ခြေမှု တုန်ကင် အတွက် စာရင်းသွင်းခြင်း။"
 
 #: .es5/lib/auth-errors.js:274
 msgid "Subscription has already been cancelled"
-msgstr ""
+msgstr "စာရင်းသွင်းခြင်း ဖျက်သိမ်းပြီး သား ဖြစ်သည်"
 
 #: .es5/lib/auth-errors.js:278
 msgid "Update was rejected, please try again"
-msgstr ""
+msgstr "ပြင်ဆင်ခြင်း ကို ငြင်းပယ်သည်၊ ထပ်မံ ကြိုးစားကြည့်ပါ"
 
 #: .es5/lib/auth-errors.js:282
 msgid "Invalid or expired confirmation code"
