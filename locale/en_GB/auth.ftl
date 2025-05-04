@@ -377,6 +377,7 @@ postAddLinkedAccount-title-2 = Your { $providerName } account has been linked to
 postAddLinkedAccount-action = Manage account
 postAddRecoveryPhone-subject = Recovery phone added
 postAddRecoveryPhone-preview = Account protected by two-step authentication
+postAddRecoveryPhone-title-v2 = You added a recovery phone number
 # Variables:
 #  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
 postAddRecoveryPhone-description-v2 = You added { $maskedLastFourPhoneNumber } as your recovery phone number
