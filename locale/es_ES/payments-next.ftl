@@ -13,6 +13,7 @@ next-payment-method-first-approve = Primero tendrás que aprobar tu suscripción
 location-header = Selecciona tu país e introduce tu código postal <p>para continuar con el pago de { $productName }</p>
 location-banner-info = No hemos podido detectar tu ubicación automáticamente
 location-required-disclaimer = Sólo utilizamos esta información para calcular impuestos y divisas.
+location-banner-currency-change = Cambio de moneda no admitido. Para continuar, selecciona un país que coincida con tu moneda de facturación actual.
 
 ## Page - Upgrade page
 
@@ -158,6 +159,10 @@ select-tax-location-error-missing-postal-code = Por favor, introduce tu código 
 select-tax-location-error-invalid-postal-code = Por favor, introduce un código postal válido
 select-tax-location-successfully-updated = Tu ubicación ha sido actualizada.
 select-tax-location-error-location-not-updated = No se pudo actualizar tu ubicación. Vuelve a intentarlo.
+#  $currencyDisplayName (String) - The display name of a currency code, e.g. US Dollar
+select-tax-location-invalid-currency-change = Tu cuenta se factura en { $currencyDisplayName }. Selecciona un país que use { $currencyDisplayName }.
+select-tax-location-invalid-currency-change-default = Selecciona un país que coincida con la moneda de tus suscripciones activas.
+select-tax-location-new-tax-rate-info = Actualizar tu ubicación aplicará la nueva tasa impositiva a todas las suscripciones activas en tu cuenta, a partir de tu próximo ciclo de facturación.
 signin-form-continue-button = Continuar
 signin-form-email-input = Introduce tu correo electrónico
 signin-form-email-input-missing = Por favor introduce tu correo electrónico

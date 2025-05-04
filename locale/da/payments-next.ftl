@@ -34,6 +34,7 @@ checkout-error-contact-support-button = Kontakt Support
 checkout-error-not-eligible = Du er ikke berettiget til at abonnere på dette produkt. Kontakt supporten, så vi kan hjælpe dig.
 checkout-error-already-subscribed = Du abonnerer allerede på dette produkt.
 checkout-error-contact-support = Kontakt supporten, så vi kan hjælpe dig.
+cart-error-currency-not-determined = Vi var ikke i stand til at fastslå valutaen for dette køb. Prøv igen.
 checkout-processing-general-error = Der opstod en uventet fejl under behandlingen af din betaling. Prøv igen.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
