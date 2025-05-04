@@ -5,6 +5,8 @@
 
 ## Banner component
 
+# $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
+resend-success-banner-description = Rnu { $accountsEmail } ɣer yinermisen-ik akken ad tḍemneḍ armas yelhan n yiznan.
 
 ## Brand Messaging component
 ## Used to show in product messaging about upcoming brand changes
@@ -452,6 +454,7 @@ flow-recovery-key-info-cancel-link = Sefsex
 flow-setup-phone-confirm-code-heading = Sekcem tangalt n usenqed
 flow-setup-phone-confirm-code-button = Sentem
 flow-setup-phone-confirm-code-resend-code-button = Ales tuzna n tengalt
+flow-setup-phone-confirm-code-success-message-v2 = Uṭṭun n tiliɣri yettwarna
 
 ## FlowSetupPhoneConfirmCode
 
@@ -612,6 +615,8 @@ recent-activity-account-two-factor-removed = Asesteb s snat n tarrayin yettwakke
 recent-activity-account-recovery-key-removed = Tasarutt n tririt n umiḍan tettwakkes
 recent-activity-account-password-added = Awal uffir amaynut ittwarna
 recent-activity-account-password-changed = Awal uffir yettusneflen
+recent-activity-account-secondary-email-added = Tansa n yimal tayeḍ tettwarna
+recent-activity-account-secondary-email-removed = Tansa n yimal tayeḍ tettwakkes
 
 ## PageRecoveryKeyCreate
 
@@ -628,6 +633,7 @@ settings-recovery-phone-remove-cancel = Semmet
 
 ## PageSetupRecoveryPhone
 
+page-setup-recovery-phone-heading = Rnu uṭṭun n tiliɣri n tririt
 page-setup-recovery-phone-back-button-title = Uɣal ɣer iɣewwaṛen
 
 ## Add secondary email page
@@ -737,6 +743,8 @@ security-action-create = Rnu
 # Shown to users who have no backup authentication codes
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = Rnu
+# Shown with an alert icon to indicate that no recovery phone is configured
+tfa-row-backup-phone-not-available-v2 = Ulac uṭṭun n tiliɣri i yettwarnan
 # button to change the configured recovery phone
 tfa-row-backup-phone-change-cta = Snifel
 # button to add/configure a recovery phone

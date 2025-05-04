@@ -282,6 +282,7 @@ postAddAccountRecovery-action = Sefrek amiḍan
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = Amiḍan-ik·im { $providerName } yettwaqqen ɣer { -product-mozilla-account }-ik·im
 postAddLinkedAccount-action = Sefrek amiḍan
+postAddRecoveryPhone-title-v2 = Terniḍ uṭṭun n tiliɣri n tririt
 postAddRecoveryPhone-enabled-device = Tremdeḍ-t-d seg:
 postAddRecoveryPhone-action = Sefrek amiḍan
 postAddTwoStepAuthentication-subject-2 = Asesteb s snat n tarrayin yettwarmed
