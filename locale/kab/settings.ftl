@@ -781,6 +781,8 @@ rk-remove-modal-content-1 =
     Ma yella twennzeḍ awal-ik·im uffir, ur tettizmireḍ ara
     ad tesqedceḍ tasarut-ik·im n tririt n umian i wakken ad tkecmeḍ ɣer yisefka-inek·inem. Ur tezmireḍ ara ad tesfesxeḍ tigawt-a.
 rk-remove-error-2 = Tasarut n tririt n umiḍan ulamek ad tettwakkes
+# Icon button to delete user's account recovery key. Text appears in tooltip on hover and as alt text for screen readers.
+unit-row-recovery-key-delete-icon-button-title = Kkes tasarut n tririt n umiḍan
 
 ## Secondary email sub-section on main Settings page
 
@@ -924,6 +926,8 @@ index-subheader-default = Kemmel ɣer yiɣewwaren n umiḍan
 index-cta = Kcem neɣ qqen
 index-email-input =
     .label = Sekcem imayl inek
+# When users delete their Mozilla account inside account Settings, they are redirected to this page with a success message
+index-account-delete-success = Amiḍan yettwakkes akken iwata
 
 ## InlineRecoveryKeySetup page component
 

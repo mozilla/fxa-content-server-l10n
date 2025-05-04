@@ -304,6 +304,7 @@ postConsumeRecoveryCode-description-2 = Yettwaseqdec deg:
 postConsumeRecoveryCode-action = Sefrek amiḍan
 postNewRecoveryCodes-action = Sefrek amiḍan
 postRemoveAccountRecovery-subject-2 = Tasarut n tririt n umiḍan tettwakkes
+postRemoveAccountRecovery-title-3 = Tekkseḍ tasarut-ik·im n tririt n umiḍani tamaynut
 postRemoveAccountRecovery-action = Sefrek amiḍan
 postRemoveSecondary-subject = Imay wis sin ittwakkes
 postRemoveSecondary-title = Imay wis sin ittwakkes
