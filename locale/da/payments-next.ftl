@@ -13,6 +13,7 @@ next-payment-method-first-approve = Først skal du godkende dit abonnement
 location-header = Vælg dit land og indtast dit postnummer <p>for at fortsætte til betalingen af { $productName }</p>
 location-banner-info = Vi kunne ikke fastslå din position automatisk
 location-required-disclaimer = Vi bruger kun denne information til at beregne skatter og valutakurser.
+location-banner-currency-change = Ændring af valuta understøttes ikke. Vælg et land, der matcher din nuværende faktureringsvaluta, for at fortsætte.
 
 ## Page - Upgrade page
 
@@ -31,7 +32,9 @@ next-payment-error-retry-button = Prøv igen
 next-basic-error-message = Noget gik galt. Prøv igen senere.
 checkout-error-contact-support-button = Kontakt Support
 checkout-error-not-eligible = Du er ikke berettiget til at abonnere på dette produkt. Kontakt supporten, så vi kan hjælpe dig.
+checkout-error-already-subscribed = Du abonnerer allerede på dette produkt.
 checkout-error-contact-support = Kontakt supporten, så vi kan hjælpe dig.
+checkout-processing-general-error = Der opstod en uventet fejl under behandlingen af din betaling. Prøv igen.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -155,6 +158,10 @@ select-tax-location-error-missing-postal-code = Indtast dit postnummer
 select-tax-location-error-invalid-postal-code = Indtast et gyldigt postnummer
 select-tax-location-successfully-updated = Din position er blevet opdateret.
 select-tax-location-error-location-not-updated = Din position kunne ikke opdateres. Prøv igen.
+#  $currencyDisplayName (String) - The display name of a currency code, e.g. US Dollar
+select-tax-location-invalid-currency-change = Din konto faktureres i { $currencyDisplayName }. Vælg et land, der bruger { $currencyDisplayName }.
+select-tax-location-invalid-currency-change-default = Vælg et land, der matcher valutaen for dine aktive abonnementer.
+select-tax-location-new-tax-rate-info = Ved at opdatere din position vil den nye skattesats blive anvendt på alle din kontos aktive abonnementer fra og med din næste faktureringsperiode.
 signin-form-continue-button = Fortsæt
 signin-form-email-input = Indtast din mailadresse
 signin-form-email-input-missing = Indtast din mailadresse
@@ -182,6 +189,7 @@ next-subscription-create-title = Opsætning af dit abonnement
 next-subscription-success-title = Bekræftelse af abonnement
 next-subscription-processing-title = Bekræfter abonnement…
 next-subscription-error-title = Der opstod en fejl under bekræftelse af abonnement…
+subscription-title-sub-exists = Du abonnerer allerede
 subscription-title-plan-change-heading = Gennemgå dine ændringer
 next-sub-guarantee = 30-dages pengene-tilbage-garanti
 

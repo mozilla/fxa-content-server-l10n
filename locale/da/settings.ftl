@@ -1197,6 +1197,7 @@ auth-error-114-generic = Du har prøvet for mange gange. Prøv igen senere.
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Du har prøvet for mange gange. Prøv igen { $retryAfter }.
 auth-error-125 = Forespørgslen blev blokeret af sikkerhedsmæssige årsager
+auth-error-129-2 = Du har indtastet et ugyldigt telefonnummer. Kontroller det, og prøv igen.
 auth-error-138-2 = Ubekræftet session
 auth-error-139 = Sekundær mailadresse skal være forskellig fra mailadressen til din konto
 auth-error-155 = TOTP-token ikke fundet

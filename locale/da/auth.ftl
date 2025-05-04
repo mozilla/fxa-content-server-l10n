@@ -377,6 +377,7 @@ postAddLinkedAccount-title-2 = Din { $providerName }-konto er blevet knyttet til
 postAddLinkedAccount-action = Håndter konto
 postAddRecoveryPhone-subject = Telefonnummer til genoprettelse tilføjet
 postAddRecoveryPhone-preview = Konto beskyttet af totrinsgodkendelse
+postAddRecoveryPhone-title-v2 = Du tilføjede et telefonnummer til genoprettelse
 # Variables:
 #  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
 postAddRecoveryPhone-description-v2 = Du har tilføjet { $maskedLastFourPhoneNumber } som dit telefonnummer til genoprettelse
@@ -429,6 +430,8 @@ postRemoveAccountRecovery-action = Håndter konto
 postRemoveRecoveryPhone-subject = Telefonnummer til genoprettelse fjernet
 postRemoveRecoveryPhone-preview = Konto beskyttet af totrinsgodkendelse
 postRemoveRecoveryPhone-title = Telefonnummer til genoprettelse fjernet
+postRemoveRecoveryPhone-description-v2 = Dit telefonnummer til genoprettelse er blevet fjernet fra dine indstillinger for totrinsgodkendelse.
+postRemoveRecoveryPhone-description-extra = Du kan stadig bruge dine reserve-godkendelseskoder til at logge ind, hvis du ikke er i stand til at bruge din godkendelsesapp.
 postRemoveRecoveryPhone-requested-device = Du har bedt om det fra:
 postRemoveSecondary-subject = Sekundær mailadresse fjernet
 postRemoveSecondary-title = Sekundær mailadresse fjernet
