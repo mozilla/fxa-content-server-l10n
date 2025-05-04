@@ -1200,6 +1200,7 @@ auth-error-114-generic = Du har försökt för många gånger. Vänligen försö
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Du har försökt för många gånger. Försök igen { $retryAfter }.
 auth-error-125 = Begäran blockerades av säkerhetsskäl
+auth-error-129-2 = Du angav ett ogiltigt telefonnummer. Kontrollera och försök igen.
 auth-error-138-2 = Obekräftad session
 auth-error-139 = Sekundär e-postadress måste skilja sig från ditt kontos e-postadress
 auth-error-155 = TOTP-tecken hittades inte
