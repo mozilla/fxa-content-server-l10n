@@ -156,6 +156,8 @@ select-tax-location-error-missing-postal-code = Ehaimína nde código postal
 select-tax-location-error-invalid-postal-code = Ehai nde código postal oikóva
 select-tax-location-successfully-updated = Hekopyahúma ne rendaite.
 select-tax-location-error-location-not-updated = Ndaikatúi embohekopyahu ne rendaite. Eha’ã jey ag̃ave.
+#  $currencyDisplayName (String) - The display name of a currency code, e.g. US Dollar
+select-tax-location-invalid-currency-change = Ne mba’ete iñemurekuatia { $currencyDisplayName }-pe. Eiporavo peteĩ tetã oiporúva { $currencyDisplayName }.
 select-tax-location-invalid-currency-change-default = Eiporavo peteĩ tetã iviru ojokupytýva ne ñemboheraguapy oikóva rehe.
 signin-form-continue-button = Ku’ejey
 signin-form-email-input = Emoinge ne ñanduti veve
