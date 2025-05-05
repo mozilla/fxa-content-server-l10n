@@ -151,6 +151,7 @@ payment-confirmation-cc-card-ending-in = Карта, нумар якой зак�
 
 ## Component - PayPalButton
 
+pay-with-heading-paypal-2 = Аплаціць праз { -brand-paypal }
 
 ## Component - PlanDetails
 
@@ -394,6 +395,7 @@ product-profile-error =
 product-customer-error =
     .title = Праблема з загрузкай кліента
 product-plan-not-found = План не знойдзены
+product-location-unsupported-error = Месцазнаходжанне не падтрымліваецца
 
 ## Hooks - coupons
 
@@ -425,6 +427,8 @@ subscription-iaperrorupgrade-title = Мы пакуль не можам абна�
 # The following are not terms because they are not used directly in messages,
 # but rather looked up in code and passed into the message as variables.
 
+brand-name-google-play-2 = Крама { -google-play }
+brand-name-apple-app-store-2 = { -app-store }
 
 ## Routes - Product - Subscription upgrade
 
@@ -449,9 +453,6 @@ sub-update-new-plan-daily = { $productName } (штодня)
 sub-update-new-plan-weekly = { $productName } (штотыдзень)
 sub-update-new-plan-monthly = { $productName } (штомесяц)
 sub-update-new-plan-yearly = { $productName } (штогод)
-
-##
-
 
 ## Routes - Subscriptions - Cancel
 

@@ -848,6 +848,9 @@ recent-activity-account-recovery-phone-removed = Le numéro de téléphone de se
 recent-activity-account-recovery-codes-replaced = Codes de secours remplacés
 recent-activity-account-recovery-codes-created = Codes de secours créés
 recent-activity-account-recovery-codes-signin-complete = Connexion avec les codes de secours effectuée
+recent-activity-password-reset-otp-sent = Code de confirmation de réinitialisation du mot de passe envoyé
+recent-activity-password-reset-otp-verified = Code de confirmation de réinitialisation du mot de passe vérifié
+recent-activity-must-reset-password = Réinitialisation du mot de passe nécessaire
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Autre activité du compte
 

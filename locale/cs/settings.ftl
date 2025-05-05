@@ -856,6 +856,9 @@ recent-activity-account-recovery-phone-removed = Telefon pro obnovení byl odebr
 recent-activity-account-recovery-codes-replaced = Obnovovací kódy byly nahrazeny
 recent-activity-account-recovery-codes-created = Obnovovací kódy byly vytvořeny
 recent-activity-account-recovery-codes-signin-complete = Přihlášení pomocí obnovovacích kódů bylo dokončeno
+recent-activity-password-reset-otp-sent = Potvrzovací kód pro obnovu hesla byl odeslán
+recent-activity-password-reset-otp-verified = Potvrzovací kód pro obnovení hesla byl ověřen
+recent-activity-must-reset-password = Je vyžadována obnova hesla
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Jiná aktivita u účtu
 

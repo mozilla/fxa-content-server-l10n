@@ -63,6 +63,8 @@ next-coupon-submit = Прымяніць
 
 # Component - Header
 
+payments-header-bento-close =
+    .alt = Закрыць
 
 ## Payment Section
 
@@ -82,6 +84,8 @@ next-coupon-success-repeating = Ваш план будзе аўтаматычн�
 
 ## Select Tax Location
 
+select-tax-location-save-button = Захаваць
+select-tax-location-country-code-label = Краіна
 next-new-user-subscribe-product-updates-mdnplus = Я хачу атрымліваць навіны аб прадуктах і абнаўленні ад { -product-mdn-plus } і { -brand-mozilla }
 next-new-user-subscribe-product-updates-mozilla = Я хачу атрымліваць навіны аб прадуктах і абнаўленні ад { -brand-mozilla }
 next-new-user-subscribe-product-updates-snp = Я хачу атрымліваць навіны і абнаўленні па бяспецы і прыватнасці ад { -brand-mozilla }

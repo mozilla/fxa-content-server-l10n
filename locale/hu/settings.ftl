@@ -856,6 +856,9 @@ recent-activity-account-recovery-phone-removed = Helyreállítási telefonszám 
 recent-activity-account-recovery-codes-replaced = Helyreállítási kódok lecserélve
 recent-activity-account-recovery-codes-created = Helyreállítási kódok létrehozva
 recent-activity-account-recovery-codes-signin-complete = Bejelentkezés a helyreállítási kódokkal befejezve
+recent-activity-password-reset-otp-sent = Jelszó-visszaállítási megerősítő kód elküldve
+recent-activity-password-reset-otp-verified = Jelszó-visszaállítási megerősítő kód ellenőrizve
+recent-activity-must-reset-password = Jelszó-visszaállítás szükséges
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Egyéb fióktevékenység
 

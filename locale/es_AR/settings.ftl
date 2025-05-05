@@ -849,6 +849,9 @@ recent-activity-account-recovery-phone-removed = Teléfono de recuperación elim
 recent-activity-account-recovery-codes-replaced = Códigos de recuperación reemplazados
 recent-activity-account-recovery-codes-created = Códigos de recuperación creados
 recent-activity-account-recovery-codes-signin-complete = Inicio de sesión con códigos de recuperación completo
+recent-activity-password-reset-otp-sent = Se envió el código de confirmación para restablecer la contraseña
+recent-activity-password-reset-otp-verified = Código de confirmación de restablecimiento de contraseña verificado
+recent-activity-must-reset-password = Se requiere restablecer la contraseña
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Otra actividad de la cuenta
 

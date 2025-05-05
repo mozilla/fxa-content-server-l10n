@@ -852,6 +852,9 @@ recent-activity-account-recovery-phone-removed = Telefonska številka za obnovit
 recent-activity-account-recovery-codes-replaced = Obnovitvene kode so zamenjane
 recent-activity-account-recovery-codes-created = Obnovitvene kode so ustvarjene
 recent-activity-account-recovery-codes-signin-complete = Prijava z obnovitvenimi kodami dokončana
+recent-activity-password-reset-otp-sent = Potrditvena koda za ponastavitev gesla poslana
+recent-activity-password-reset-otp-verified = Potrditvena koda za ponastavitev gesla je preverjena
+recent-activity-must-reset-password = Zahtevana je ponastavitev gesla
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Drugačna dejavnost v računu
 

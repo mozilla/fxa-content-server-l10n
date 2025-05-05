@@ -234,6 +234,7 @@ fraudulentAccountDeletion-contact = Калі ў вас ёсць пытанні, 
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Калі ў вас ёсць пытанні, звярніцеся да нашай каманды падтрымкі: { $mozillaSupportUrl }
+inactiveAccountFinalWarning-preview = Увайдзіце ў свой уліковы запіс, каб захаваць яго
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title-zero = У вас скончыліся рэзервовыя коды аўтэнтыфікацыі!
 codes-reminder-title-one = Вы выкарыстоўваеце апошні рэзервовы код аўтэнтыфікацыі
