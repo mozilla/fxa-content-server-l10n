@@ -32,6 +32,7 @@ next-basic-error-message = Coś się nie powiodło. Proszę spróbować ponownie
 checkout-error-contact-support-button = Skontaktuj się z pomocą
 checkout-error-not-eligible = Nie kwalifikujesz się do subskrypcji tego produktu — prosimy o kontakt z zespołem wsparcia, abyśmy mogli Ci pomóc.
 checkout-error-contact-support = Prosimy o kontakt z zespołem wsparcia, abyśmy mogli Ci pomóc.
+checkout-processing-general-error = Wystąpił nieoczekiwany błąd podczas przetwarzania płatności, proszę spróbować ponownie.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages

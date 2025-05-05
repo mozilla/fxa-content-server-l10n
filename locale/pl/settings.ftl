@@ -852,6 +852,7 @@ recent-activity-account-recovery-phone-removed = Usunięto telefon odzyskiwania
 recent-activity-account-recovery-codes-replaced = Zastąpiono kody odzyskiwania
 recent-activity-account-recovery-codes-created = Utworzono kody odzyskiwania
 recent-activity-account-recovery-codes-signin-complete = Ukończono logowanie za pomocą kodów odzyskiwania
+recent-activity-must-reset-password = Wymagane zresetowanie hasła
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Inne działanie na koncie
 
@@ -1195,6 +1196,7 @@ auth-error-114-generic = Próbowano za wiele razy. Proszę spróbować ponownie 
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Próbowano za wiele razy. Proszę spróbować ponownie { $retryAfter }.
 auth-error-125 = Żądanie zostało zablokowane z powodów bezpieczeństwa
+auth-error-129-2 = Wprowadzono nieprawidłowy numer telefonu. Sprawdź go i spróbuj ponownie.
 auth-error-138-2 = Niepotwierdzona sesja
 auth-error-139 = Dodatkowy adres e-mail musi być inny niż adres e-mail konta
 auth-error-155 = Nie odnaleziono tokena TOTP
