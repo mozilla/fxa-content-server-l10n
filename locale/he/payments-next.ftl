@@ -153,7 +153,7 @@ select-tax-location-error-invalid-postal-code = נא להכניס מיקוד ת�
 select-tax-location-successfully-updated = המיקום שלך עודכן.
 select-tax-location-error-location-not-updated = לא ניתן היה לעדכן את המיקום שלך. נא לנסות שוב.
 #  $currencyDisplayName (String) - The display name of a currency code, e.g. US Dollar
-select-tax-location-invalid-currency-change = החשבון שלך מחוייב ב־{ $currencyDisplayName }. נא לבחור במדינה שמשתמשת ב־{ $currencyDisplayName }.
+select-tax-location-invalid-currency-change = החשבון שלך מחוייב ב{ $currencyDisplayName }. נא לבחור במדינה שמשתמשת ב{ $currencyDisplayName }.
 select-tax-location-invalid-currency-change-default = נא לבחור במדינה התואמת את המטבע של המינויים הפעילים שלך.
 select-tax-location-new-tax-rate-info = עדכון המיקום שלך יחיל את שיעור המס החדש על כל המינויים הפעילים החשבון שלך, החל ממחזור החיוב הבא שלך.
 signin-form-continue-button = המשך
