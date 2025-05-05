@@ -13,6 +13,7 @@ next-payment-method-first-approve = Först måste du godkänna din prenumeration
 location-header = Välj ditt land och ange ditt postnummer <p>för att fortsätta till kassan för { $productName }</p>
 location-banner-info = Vi kunde inte identifiera din plats automatiskt
 location-required-disclaimer = Vi använder endast denna information för att beräkna skatter och valuta.
+location-banner-currency-change = Valutaändring stöds inte. För att fortsätta, välj ett land som matchar din aktuella faktureringsvaluta.
 
 ## Page - Upgrade page
 
@@ -158,6 +159,10 @@ select-tax-location-error-missing-postal-code = Ange ditt postnummer
 select-tax-location-error-invalid-postal-code = Ange ett giltigt postnummer
 select-tax-location-successfully-updated = Din plats har uppdaterats.
 select-tax-location-error-location-not-updated = Din plats kunde inte uppdateras. Försök igen.
+#  $currencyDisplayName (String) - The display name of a currency code, e.g. US Dollar
+select-tax-location-invalid-currency-change = Ditt konto faktureras i { $currencyDisplayName }. Välj ett land som använder { $currencyDisplayName }.
+select-tax-location-invalid-currency-change-default = Välj ett land som matchar valutan för dina aktiva prenumerationer.
+select-tax-location-new-tax-rate-info = När du uppdaterar din plats kommer den nya skattesatsen att tillämpas på alla aktiva prenumerationer på ditt konto, från och med din nästa faktureringscykel.
 signin-form-continue-button = Fortsätt
 signin-form-email-input = Ange din e-postadress
 signin-form-email-input-missing = Ange din e-postadress

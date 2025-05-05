@@ -13,6 +13,7 @@ next-payment-method-first-approve = Jo moatte earst jo abonnemint goedkarre
 location-header = Selektearje jo lân en fier jo postkoade yn <p>om troch te gean mei ôfrekkenjen foar { $productName }</p>
 location-banner-info = Wy koene jo lokaasje net automatysk detektearje
 location-required-disclaimer = Wy brûke dizze ynformaasje allinnich om belestingen en faluta te berekkenjen.
+location-banner-currency-change = Falutawiziging wurdt net stipe. Selektearje in lân dat oerienkomt mei jo hjoeddeistige fakturearingsfaluta om troch te gean.
 
 ## Page - Upgrade page
 
@@ -158,6 +159,10 @@ select-tax-location-error-missing-postal-code = Fier jo postkoade yn
 select-tax-location-error-invalid-postal-code = Fier in jildige postkoade yn
 select-tax-location-successfully-updated = Jo lokaasje is bywurke.
 select-tax-location-error-location-not-updated = Jo lokaasje koe net bywurke wurde. Probearje it opnij.
+#  $currencyDisplayName (String) - The display name of a currency code, e.g. US Dollar
+select-tax-location-invalid-currency-change = Jo account wurdt fakturearre yn { $currencyDisplayName }. Selektearje in lân dat de { $currencyDisplayName } brûkt.
+select-tax-location-invalid-currency-change-default = Selektearje in lân dat de faluta fan jo aktive abonneminten brûkt.
+select-tax-location-new-tax-rate-info = It bywurkjen fan jo lokaasje past it nije belestingtaryf ta op alle aktive abonneminten yn jo account, fan jo folgjende betellingssyklus ôf.
 signin-form-continue-button = Trochgean
 signin-form-email-input = Fier jo e-mailadres yn
 signin-form-email-input-missing = Fier jo e-mailadres yn
