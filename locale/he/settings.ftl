@@ -814,6 +814,9 @@ recent-activity-account-recovery-phone-removed = הוסר טלפון לשחזו�
 recent-activity-account-recovery-codes-replaced = הוחלפו קודים לשחזור
 recent-activity-account-recovery-codes-created = נוצרו קודים לשחזור
 recent-activity-account-recovery-codes-signin-complete = התחברות עם קודים לשחזור הושלמה
+recent-activity-password-reset-otp-sent = קוד אימות לאיפוס הססמה נשלח
+recent-activity-password-reset-otp-verified = קוד האימות לאיפוס הססמה אומת
+recent-activity-must-reset-password = נדרש איפוס ססמה
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = פעילות אחרת בחשבון
 
