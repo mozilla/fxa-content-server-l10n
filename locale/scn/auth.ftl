@@ -264,18 +264,29 @@ downloadSubscription-content-2 = Accuminciamu a usari tutti i funzioni nchiusi n
 downloadSubscription-link-action-2 = Accumincia
 fraudulentAccountDeletion-subject-2 = U to { -product-mozilla-account } fu scancillatu
 fraudulentAccountDeletion-title = U to cuntu fu scancillatu
+fraudulentAccountDeletion-content-part1-v2 = Di ricenti criaru un { -product-mozilla-account } cu stu nnirizzu di posta elittrònica, e cci fu pagatu n'abbunamentu. Comu règula pi tutti i cunti novi, t'addumannammu di cunfirmari u to cuntu virificannu stu nnirizzu di posta elittrònica.
+fraudulentAccountDeletion-content-part2-v2 = Nzinu a ora, videmu chi stu cuntu nun fu mai cunfirmatu. Siccomu stu passu nun fu cumplitatu, nun semu sicuri chi l'abbunamentu era auturizzatu. Pi sta scaciuni, u { -product-mozilla-account } riggistratu cu stu nnirizzu di posta elittrònica fu scancillatu, e fu scancillatu macari l'abbunamentu, cu tutti i sordi turnati nn'arrè.
+fraudulentAccountDeletion-contact = Si ài dumanni, pi favuri cuntatta a nostra <a data-l10n-name="mozillaSupportUrl">squatra d'assistenza</a>.
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Si ài dumanni, pi favuri cuntatta a nostra squatra di supportu: { $mozillaSupportUrl }
 inactiveAccountFinalWarning-subject = Ùrtima pussibbilità pi tèniri u to { -product-mozilla-account }
 inactiveAccountFinalWarning-title = U tu cuntu { -brand-mozilla } e i to dati vennu scancillati
 inactiveAccountFinalWarning-preview = Trasi pi mantiniri u to cuntu
+inactiveAccountFinalWarning-account-description = Usa u to { -product-mozilla-account } pi tràsiri dintra a prudutti a francu pâ privatizza e a navicazzioni, a tipu { -brand-firefox } sync, { -product-mozilla-monitor }, { -product-firefox-relay } e { -product-mdn }.
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+# This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
+inactiveAccountFinalWarning-impact = Jornu <strong>{ $deletionDate }</strong> scancillaremu u to cuntu e tutti i to dati pirsunali si nun trasi.
 inactiveAccountFinalWarning-action = Trasi pi mantiniri u to cuntu
 # followed by link to sign in
 inactiveAccountFinalWarning-action-plaintext = Trasi pi mantiniri u to cuntu:
 inactiveAccountFirstWarning-subject = Nun pèrdiri u to cuntu
 inactiveAccountFirstWarning-title = Vo' sarbari i to dati e u cuntu { -brand-mozilla }?
+inactiveAccountFirstWarning-account-description-v2 = Usa u to { -product-mozilla-account } pi tràsiri dintra a prudutti a francu pâ privatizza e a navicazzioni, a tipu { -brand-firefox } sync, { -product-mozilla-monitor }, { -product-firefox-relay } e { -product-mdn }.
 inactiveAccountFirstWarning-inactive-status = Vìttimu chi nun trasisti di 2 anni.
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+# This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
+inactiveAccountFirstWarning-impact = Scancillaremu u to cuntu e i to dati pirsunali jornu <strong>{ $deletionDate }</strong> picchì nun fusti attivu.
 inactiveAccountFirstWarning-action = Trasi pi mantiniri u to cuntu
 inactiveAccountFirstWarning-preview = Trasi pi mantiniri u to cuntu
 # followed by link to sign in
@@ -293,6 +304,12 @@ codes-reminder-description-two-left = T'arrèstanu sulu du' còdici.
 codes-reminder-description-create-codes = Crìa novi còdici d'autinticazzioni di sicurizza p'ajutàriti a tràsiri nnô to cuntu si nun arrinesci a tràsiri cchiù.
 lowRecoveryCodes-action-2 = Crìa còdici
 codes-create-plaintext = { lowRecoveryCodes-action-2 }:
+lowRecoveryCodes-subject-2 =
+    { $numberRemaining ->
+        [0] Nun arristau nuḍḍu còdici d'autinticazzioni di sicurizza
+        [one] Arristau sulu 1 còdici d'autinticazzioni di sicurizza
+       *[other] Arristaru sulu { $numberRemaining } còdici d'autinticazzioni di sicurizza!
+    }
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Nova trasuta nni { $clientName }
