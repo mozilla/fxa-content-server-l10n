@@ -853,6 +853,9 @@ recent-activity-account-recovery-phone-removed = Numero de telephono de recupera
 recent-activity-account-recovery-codes-replaced = Codice de recuperation supplantate
 recent-activity-account-recovery-codes-created = Codices de recuperation create
 recent-activity-account-recovery-codes-signin-complete = Accesso completate con codices de recuperation
+recent-activity-password-reset-otp-sent = Remontar le codice de confirmation de contrasigno inviate
+recent-activity-password-reset-otp-verified = Remontar le codice de confirmation de contrasigno verificate
+recent-activity-must-reset-password = Remontage obligatori del contrasigno
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Altere activitate de conto
 
