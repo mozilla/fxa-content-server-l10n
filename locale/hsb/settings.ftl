@@ -854,6 +854,9 @@ recent-activity-account-recovery-phone-removed = Wobnowjenski telefon wotstronje
 recent-activity-account-recovery-codes-replaced = Wobnowjenski kod wuměnjeny
 recent-activity-account-recovery-codes-created = Wobnowjenske kody wutworjene
 recent-activity-account-recovery-codes-signin-complete = Přizjewjenje z wobnowjenskimi kodami dokónčene
+recent-activity-password-reset-otp-sent = Wobkrućenski kod za wróćostajenje hesła je so pósłał
+recent-activity-password-reset-otp-verified = Wobkrućenski kod za wróćostajenje hesła je so přepruwował
+recent-activity-must-reset-password = Wróćostajenje hesło trěbne
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Druha kontowa aktiwita
 

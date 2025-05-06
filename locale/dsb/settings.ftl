@@ -854,6 +854,9 @@ recent-activity-account-recovery-phone-removed = Wótnowjeński telefon wótwón
 recent-activity-account-recovery-codes-replaced = Wótnowjeński kod wuměnjony
 recent-activity-account-recovery-codes-created = Wótnowjeńske kody napórane
 recent-activity-account-recovery-codes-signin-complete = Pśizjawjenje z wótnowjeńskimi kodami dokóńcone
+recent-activity-password-reset-otp-sent = Wobkšuśeński kod za slědkstajenje gronidła jo se pósłał
+recent-activity-password-reset-otp-verified = Wobkšuśeński kod za slědkstajenje gronidła jo se pśeglědał
+recent-activity-must-reset-password = Slědkstajenje gronidła trjebne
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Druga kontowa aktiwita
 
