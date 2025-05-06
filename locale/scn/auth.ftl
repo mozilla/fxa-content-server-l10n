@@ -291,6 +291,9 @@ inactiveAccountFirstWarning-action = Trasi pi mantiniri u to cuntu
 inactiveAccountFirstWarning-preview = Trasi pi mantiniri u to cuntu
 # followed by link to sign in
 inactiveAccountFirstWarning-action-plaintext = Trasi pi mantiniri u to cuntu:
+inactiveAccountSecondWarning-subject = Azzioni nicissaria: scancillamentu dû cuntu ntra 7 jorna
+inactiveAccountSecondWarning-title = U tu cuntu { -brand-mozilla } e i to dati vennu scancillati ntra 7 jorna
+inactiveAccountSecondWarning-action = Trasi pi mantiniri u to cuntu
 inactiveAccountSecondWarning-preview = Trasi pi mantiniri u to cuntu
 # followed by link to sign in
 inactiveAccountSecondWarning-action-plaintext = Trasi pi mantiniri u to cuntu:
@@ -324,15 +327,27 @@ newDeviceLogin-change-password-plain = Nun fusti tu? Cancia a to chiavi:
 newDeviceLogin-action = Manija cuntu
 passwordChanged-subject = Chiavi attualizzata
 passwordChanged-title = A chiavi fu canciata
+passwordChanged-description-2 = A chiavi dû { -product-mozilla-account } fu canciata di stu dispusitivu:
+passwordChangeRequired-subject = Attruvammu n'attività suspetta
+passwordChangeRequired-title = È nicissariu canciari a chiavi
 password-forgot-otp-subject = Ti scurdasti a chiavi?
 password-forgot-otp-title = Ti scurdasti a chiavi?
+password-forgot-otp-request = Ricivemmu na dumanna di canciu dâ chiavi dû to { -product-mozilla-account } di:
 password-forgot-otp-code-2 = Siḍḍu fusti tu, cca cc'è u còdici di cunferma pi jiri avanti:
 password-forgot-otp-expiry-notice = Stu còdici scadi ntra 10 minuti.
+passwordReset-subject-2 = A chiavi fu risittata
+passwordReset-title-2 = A chiavi fu risittata
+# This sentence is followed by information about the device and time of the password reset
+passwordReset-description-2 = Risittasti a chiavi dû to { -product-mozilla-account } nne:
+passwordResetAccountRecovery-subject-2 = A chiavi fu risittata
+passwordResetAccountRecovery-title-3 = A chiavi fu risittata
+# Followed by details on the device and date/time of the password reset.
+passwordResetAccountRecovery-description-3 = Usasti a chiavi di ricùpiru dû cuntu pi risittari a chiavi dû to { -product-mozilla-account } nne:
 passwordResetAccountRecovery-action-4 = Manija cuntu
 passwordResetWithRecoveryKeyPrompt-subject = A chiavi fu risittata
 passwordResetWithRecoveryKeyPrompt-title = A chiavi fu risittata
 # Details of the device and date/time where the password was reset
-passwordResetWithRecoveryKeyPrompt-description = Risittasti a chiavi dû to { -product-mozilla-account }nne:
+passwordResetWithRecoveryKeyPrompt-description = Risittasti a chiavi dû to { -product-mozilla-account } nne:
 # Text for button action to create a new account recovery key
 passwordResetWithRecoveryKeyPrompt-action = Crìa na chiavi di ricùpiru dû cuntu
 # colon is followed by a link to create an account recovery key from the account settings page
@@ -353,6 +368,10 @@ postConsumeRecoveryCode-action = Manija cuntu
 postNewRecoveryCodes-action = Manija cuntu
 postRemoveAccountRecovery-action = Manija cuntu
 postRemoveSecondary-action = Manija cuntu
+postSigninRecoveryCode-action = Manija cuntu
+postSigninRecoveryPhone-preview = Cunferma attività dû cuntu
+postSigninRecoveryPhone-device = Trasisti di:
+postSigninRecoveryPhone-action = Manija cuntu
 postVerify-action-2 = Cunnetti n'autru dispusitivu
 postVerifySecondary-action = Manija cuntu
 recovery-title-2 = Ti scurdasti a chiavi?
@@ -386,6 +405,13 @@ subscriptionCancellation-title = Ni dispiaci chi ti nni vai
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFailedPaymentsCancellation-subject = A to iscrizzioni a { $productName } fu scancillata
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoice-subject = U pagamentu di { $productName } fu cunfirmatu
+# Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+subscriptionFirstInvoice-content-next-invoice = Pròssima fattura: { $nextInvoiceDateOnly }
+subscriptionPaymentExpired-title-1 = A to carta di crèditu scadìu o sta scadennu
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = U pagamentu di { $productName } sfallìu
@@ -491,4 +517,8 @@ verifySecondaryCode-action-2 = Cunferma nnirizzu di posta elittrònica
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = Cunferma u to cuntu
 verifyShortCode-preview = Usa u còdici pi cunfirmari u to { -product-mozilla-account }.
+verifyShortCode-title-3 = Grapi a riti cu { -brand-mozilla }
+# Information on the browser and device triggering this confirmation email follows below this string.
+verifyShortCode-title-subtext-2 = Cunferma u to cuntu e pìgghiati u megghiu di { -brand-mozilla } unni trasi-trasi, principiannu di:
+verifyShortCode-prompt-3 = Usa stu còdici di cunferma:
 verifyShortCode-expiry-notice = Scadi nna 5 minuti.
