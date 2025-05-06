@@ -854,6 +854,9 @@ recent-activity-account-recovery-phone-removed = Đã xóa số điện thoại 
 recent-activity-account-recovery-codes-replaced = Đã thay thế mã khôi phục
 recent-activity-account-recovery-codes-created = Đã tạo mã khôi phục
 recent-activity-account-recovery-codes-signin-complete = Đã hoàn tất đăng nhập với mã khôi phục
+recent-activity-password-reset-otp-sent = Đã gửi mã xác minh để đặt lại mật khẩu
+recent-activity-password-reset-otp-verified = Đã xác minh mã để đặt lại mật khẩu
+recent-activity-must-reset-password = Yêu cầu đặt lại mật khẩu
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Hoạt động tài khoản khác
 
