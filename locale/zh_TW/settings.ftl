@@ -845,6 +845,9 @@ recent-activity-account-recovery-phone-removed = 已移除救援電話號碼已�
 recent-activity-account-recovery-codes-replaced = 已取代備用驗證碼
 recent-activity-account-recovery-codes-created = 已設定備用驗證碼
 recent-activity-account-recovery-codes-signin-complete = 已使用備用驗證碼登入
+recent-activity-password-reset-otp-sent = 已寄出密碼重設確認碼
+recent-activity-password-reset-otp-verified = 已驗證密碼重設確認碼
+recent-activity-must-reset-password = 必須重設密碼
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = 其他帳號活動
 
