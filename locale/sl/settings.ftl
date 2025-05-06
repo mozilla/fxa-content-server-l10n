@@ -853,7 +853,7 @@ recent-activity-account-recovery-codes-replaced = Obnovitvene kode so zamenjane
 recent-activity-account-recovery-codes-created = Obnovitvene kode so ustvarjene
 recent-activity-account-recovery-codes-signin-complete = Prijava z obnovitvenimi kodami dokončana
 recent-activity-password-reset-otp-sent = Potrditvena koda za ponastavitev gesla poslana
-recent-activity-password-reset-otp-verified = Potrditvena koda za ponastavitev gesla je preverjena
+recent-activity-password-reset-otp-verified = Potrditvena koda za ponastavitev gesla potrjena
 recent-activity-must-reset-password = Zahtevana je ponastavitev gesla
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Drugačna dejavnost v računu
@@ -1199,7 +1199,7 @@ auth-error-114-generic = Preveč poskusov. Poskusite znova pozneje.
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Preveč poskusov. Poskusite znova { $retryAfter }.
 auth-error-125 = Zahteva je bila zavrnjena iz varnostnih razlogov
-auth-error-129-2 = Vnesli ste neveljavno telefonsko številko. Prosimo, preverite in poskusite znova.
+auth-error-129-2 = Vnesli ste neveljavno telefonsko številko. Preverite in poskusite znova.
 auth-error-138-2 = Nepotrjena seja
 auth-error-139 = Pomožni e-poštni naslov mora biti drugačen od naslova računa
 auth-error-155 = Žetona TOTP ni mogoče najti
