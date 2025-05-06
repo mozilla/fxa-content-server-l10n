@@ -847,6 +847,9 @@ recent-activity-account-recovery-phone-removed = 移除恢复电话号码
 recent-activity-account-recovery-codes-replaced = 替换恢复验证码
 recent-activity-account-recovery-codes-created = 创建恢复验证码
 recent-activity-account-recovery-codes-signin-complete = 使用恢复验证码登录
+recent-activity-password-reset-otp-sent = 发送重置密码的确认码
+recent-activity-password-reset-otp-verified = 验证重置密码的确认码
+recent-activity-must-reset-password = 需要重置密码
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = 其他账户活动
 
@@ -1171,6 +1174,7 @@ auth-error-114-generic = 您的尝试次数过多，请稍后再试。
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = 您已尝试太多次，请在 { $retryAfter }再试。
 auth-error-125 = 因为安全性因素，已拦截请求
+auth-error-129-2 = 您输入的电话号码无效，请核对并重试。
 auth-error-138-2 = 未验证的会话
 auth-error-139 = 备用邮箱地址必须不同于您的账户邮箱地址
 auth-error-155 = 找不到 TOTP 令牌
