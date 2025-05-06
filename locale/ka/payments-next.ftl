@@ -13,6 +13,7 @@ next-payment-method-first-approve = ჯერ უნდა დაამოწმ
 location-header = აირჩიეთ თქვენი ქვეყანა და შეიყვანეთ საფოსტო კოდი <p>გადახდისთვის, რომ შეიძინოთ { $productName }</p>
 location-banner-info = თქვენი ადგილმდებარეობის თვითდადგენა ვერ მოხერხდა
 location-required-disclaimer = ამ მონაცემებს ვიყენებთ მხოლოდ გადასახადებისა და გადასაცვლელი ვალუტის გამოსათვლელად.
+location-banner-currency-change = ვალუტის შეცვლა არაა მხარდაჭერილი. გასაგრძელებლად აირჩიეთ ქვეყანა მიმდინარე ანგარიშსწორების ვალუტის შესაბამისად.
 
 ## Page - Upgrade page
 
@@ -161,6 +162,10 @@ select-tax-location-error-missing-postal-code = გთხოვთ შეიყ�
 select-tax-location-error-invalid-postal-code = გთხოვთ მიუთითოთ მართებული საფოსტო ინდექსი
 select-tax-location-successfully-updated = თქვენი მდებარეობა განახლდა.
 select-tax-location-error-location-not-updated = თქვენი მდებარეობა ვერ განახლდა. გთხოვთ, კვლავ სცადოთ.
+#  $currencyDisplayName (String) - The display name of a currency code, e.g. US Dollar
+select-tax-location-invalid-currency-change = თქვენი ანგარიშსწორებისთვის ვალუტაა { $currencyDisplayName }. აირჩიეთ ქვეყანა, რომელშიც გამოიყენება { $currencyDisplayName }.
+select-tax-location-invalid-currency-change-default = აირჩიეთ ქვეყანა თქვენი მოქმედი გამოწერების ვალუტის შესაბამისად.
+select-tax-location-new-tax-rate-info = მდებარეობის შეცვლით ახალი საგადასახადო ტარიფები იქნება გამოყენებულ ყველა თქვენი მოქმედი გამოწერისთვის, დაწყებული მომდევნო ანგარიშსწორებიდან.
 signin-form-continue-button = განაგრძეთ
 signin-form-email-input = შეიყვანეთ თქვენი ელფოსტა
 signin-form-email-input-missing = გთხოვთ მიუთითოთ თქვენი ელფოსტა

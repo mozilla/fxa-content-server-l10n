@@ -1201,6 +1201,7 @@ auth-error-114-generic = ზედმეტად ბევრი მცდე�
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = ზედმეტად ბევრი მცდელობაა. მოითმინეთ { $retryAfter }.
 auth-error-125 = მოთხოვნა უარყოფილია უსაფრთხოების მიზნით
+auth-error-129-2 = მითითებული ტელეფონის ნომერი უმართებულოა. გთხოვთ გადაამოწმოთ და კვლავ სცადოთ.
 auth-error-138-2 = დაუმოწმებელი სეანსი
 auth-error-139 = ელფოსტის დამატებითი მისამართი უნდა განსხვავდებოდეს ანგარიშის ელფოსტისგან
 auth-error-155 = TOTP-საშვი ვერ მოიძებნა
