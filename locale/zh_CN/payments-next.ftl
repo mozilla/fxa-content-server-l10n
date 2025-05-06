@@ -161,6 +161,7 @@ select-tax-location-successfully-updated = 您的位置已更新。
 select-tax-location-error-location-not-updated = 无法更新您的位置。请重试。
 #  $currencyDisplayName (String) - The display name of a currency code, e.g. US Dollar
 select-tax-location-invalid-currency-change = 您的账户需通过 { $currencyDisplayName } 结算。请选择使用 { $currencyDisplayName } 的国家/地区。
+select-tax-location-new-tax-rate-info = 更新位置后，您账户的所有有效订阅将适用新的税率，自下个账单周期起生效。
 signin-form-continue-button = 继续
 signin-form-email-input = 请输入您的邮箱地址
 signin-form-email-input-missing = 请输入您的邮箱地址
