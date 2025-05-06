@@ -852,7 +852,7 @@ recent-activity-account-recovery-codes-created = Codau adfer wedi'u creu
 recent-activity-account-recovery-codes-signin-complete = Cwblhawyd y mewngofnodi gyda chodau adfer
 recent-activity-password-reset-otp-sent = Ailosod y cod cadarnhau cyfrinair a anfonwyd
 recent-activity-password-reset-otp-verified = Ailosod y cod cadarnhau cyfrinair wedi'i wirio
-recent-activity-must-reset-password = Angen ailosod cyfrinair
+recent-activity-must-reset-password = Mae angen ailosod cyfrinair
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Gweithgarwch cyfrif arall
 
