@@ -480,7 +480,7 @@ unblockCode-report = Si 'un sì tu, ajùtani a jittari fora l'intrusi e <a data-
 unblockCode-report-plaintext = Si 'un sì tu, ajùtani a jittari fora l'intrusi e signalijanilli.
 verificationReminderFinal-subject = Ùrtimu abbisu pi cunfirmari u to cuntu
 verificationReminderFinal-description-2 = Na para di simani nn'arrè criasti un { -product-mozilla-account }, ma 'un u cunfirmasti mai. Pâ to sicurizza, scancillamu u cuntu si nun veni virificatu nnê pròssimi 24 uri.
-confirm-account = Cunfirma u cuntu
+confirm-account = Cunferma u cuntu
 confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Ricòrdati di cunfirmari u to cuntu
 verificationReminderFirst-title-3 = Bummegna nne { -brand-mozilla }!
@@ -494,7 +494,7 @@ verificationReminderSecond-title-3 = Nun ti pèrdiri nenti di { -brand-mozilla }
 verificationReminderSecond-description-4 = Na para di jorna nn'arrè criasti un { -product-mozilla-account }, ma 'un u cunfirmasti mai. Pi favuri cunfirma u to cuntu nnî pròssimi 10 jorna, o sarà scancillatu di manera autumàtica.
 verificationReminderSecond-action-2 = Cunferma u cuntu
 verify-title-3 = Grapi a riti cu { -brand-mozilla }
-verify-description-2 = Cunfirma u to cuntu e pìgghiati u megghiu di { -brand-mozilla } unni trasi-trasi, principiannu di:
+verify-description-2 = Cunferma u to cuntu e pìgghiati u megghiu di { -brand-mozilla } unni trasi-trasi, principiannu di:
 verify-subject = Cumpleta a criazzioni dû to cuntu
 verify-action-2 = Cunferma u cuntu
 # Variables:
@@ -509,10 +509,14 @@ verifyLoginCode-subject-line-2 = Approva trasuta nne { $serviceName }
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-title-2 = Trasisti nne { $serviceName }?
 verifyLoginCode-expiry-notice = Scadi nna 5 minuti.
+verifyPrimary-title-2 = Cunferma u nnirizzu di posta elittrònica primariu
 verifyPrimary-subject = Cunferma u nnirizzu di posta elittrònica primariu
 verifyPrimary-action-2 = Cunferma nnirizzu di posta elittrònica
 verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
+verifySecondaryCode-subject = Cunferma u nnirizzu di posta elittrònica sicunnariu
+verifySecondaryCode-title-2 = Cunferma u nnirizzu di posta elittrònica sicunnariu
 verifySecondaryCode-action-2 = Cunferma nnirizzu di posta elittrònica
+verifySecondaryCode-prompt-2 = Usa stu còdici di cunferma:
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = Cunferma u to cuntu
