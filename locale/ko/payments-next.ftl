@@ -13,6 +13,7 @@ next-payment-method-first-approve = 먼저 구독을 승인해야 합니다.
 location-header = { $productName }에 대한 결제를 계속하려면 <p>국가와 우편 번호를 입력하세요.</p>
 location-banner-info = 사용자 위치를 자동으로 감지할 수 없습니다.
 location-required-disclaimer = 이 정보는 세금과 통화 계산에만 사용됩니다.
+location-banner-currency-change = 통화 변경은 지원되지 않습니다. 계속하려면, 현재 청구 통화와 일치하는 국가를 선택하세요.
 
 ## Page - Upgrade page
 
@@ -31,7 +32,10 @@ next-payment-error-retry-button = 다시 시도하세요
 next-basic-error-message = 문제가 발생했습니다. 나중에 다시 시도하세요.
 checkout-error-contact-support-button = 연락하기
 checkout-error-not-eligible = 이 제품을 구독할 권한이 없습니다. 지원 팀에 문의하시면 도와드리겠습니다.
+checkout-error-already-subscribed = 이미 이 제품을 구독하고 있습니다.
 checkout-error-contact-support = 도움을 드릴 수 있도록 지원팀에 문의하세요.
+cart-error-currency-not-determined = 구매에 사용한 통화를 확인할 수 없습니다. 다시 시도하세요.
+checkout-processing-general-error = 결제를 처리하는 동안 예기치 못한 오류가 발생했습니다. 다시 시도하세요.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages

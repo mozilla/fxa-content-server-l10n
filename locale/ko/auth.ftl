@@ -376,6 +376,7 @@ postAddLinkedAccount-title-2 = { $providerName } 계정이 { -product-mozilla-ac
 postAddLinkedAccount-action = 계정 관리
 postAddRecoveryPhone-subject = 복구 전화번호가 추가됨
 postAddRecoveryPhone-preview = 2단계 인증으로 보호되는 계정
+postAddRecoveryPhone-title-v2 = 복구 전화번호를 추가했습니다.
 # Variables:
 #  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
 postAddRecoveryPhone-description-v2 = { $maskedLastFourPhoneNumber } 번호를 복구 전화번호로 추가했습니다.
@@ -424,6 +425,8 @@ postRemoveAccountRecovery-action = 계정 관리
 postRemoveRecoveryPhone-subject = 복구 전화번호 삭제됨
 postRemoveRecoveryPhone-preview = 2단계 인증으로 보호되는 계정
 postRemoveRecoveryPhone-title = 복구 전화번호 삭제됨
+postRemoveRecoveryPhone-description-v2 = 복구 전화번호가 2단계 인증 설정에서 제거되었습니다.
+postRemoveRecoveryPhone-description-extra = 인증 앱을 사용할 수 없는 경우에도 백업 인증 코드를 사용하여 로그인할 수 있습니다.
 postRemoveRecoveryPhone-requested-device = 다음에서 요청했습니다:
 postRemoveSecondary-subject = 보조 이메일 삭제됨
 postRemoveSecondary-title = 보조 이메일 삭제됨
