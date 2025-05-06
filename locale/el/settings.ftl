@@ -857,6 +857,9 @@ recent-activity-account-recovery-phone-removed = Το τηλέφωνο ανάκ�
 recent-activity-account-recovery-codes-replaced = Οι κωδικοί ανάκτησης αντικαταστάθηκαν
 recent-activity-account-recovery-codes-created = Δημιουργήθηκαν κωδικοί ανάκτησης
 recent-activity-account-recovery-codes-signin-complete = Η σύνδεση με κωδικούς ανάκτησης ολοκληρώθηκε
+recent-activity-password-reset-otp-sent = Έγινε αποστολή του κωδικού επιβεβαίωσης επαναφοράς κωδικού πρόσβασης
+recent-activity-password-reset-otp-verified = Έγινε επαλήθευση του κωδικού επιβεβαίωσης επαναφοράς κωδικού πρόσβασης
+recent-activity-must-reset-password = Ζητήθηκε επαναφορά του κωδικού πρόσβασης
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Άλλη δραστηριότητα λογαριασμού
 
