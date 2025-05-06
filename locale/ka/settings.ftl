@@ -341,7 +341,7 @@ legal-back-button = უკან
 
 # The user followed a password reset link that was received by email
 # but the link is damaged (for example mistyped or broken by the email client)
-reset-pwd-link-damaged-header = პაროლის აღსადგენი ბმული დაზიანებულია
+reset-pwd-link-damaged-header = პაროლის გასანულებელი ბმული დაზიანებულია
 # The user followed a link to signin that was received by email
 # but the link was damaged (for example mistyped or broken by the email client).
 signin-link-damaged-header = დასადასტურებელი ბმული დაზიანებულია
@@ -856,6 +856,9 @@ recent-activity-account-recovery-phone-removed = აღდგენის ტე
 recent-activity-account-recovery-codes-replaced = აღდგენის კოდები ჩანაცვლდა
 recent-activity-account-recovery-codes-created = აღდგენის კოდები შეიქმნა
 recent-activity-account-recovery-codes-signin-complete = აღდგენის კოდებით შესვლა დასრულდა
+recent-activity-password-reset-otp-sent = პაროლის განულების დასადასტურებელი კოდი გამოგზავნილია
+recent-activity-password-reset-otp-verified = პაროლის განულების დასადასტურებელი კოდი დამოწმებულია
+recent-activity-must-reset-password = პაროლის განულება აუცილებელია
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = სხვა მოქმედებები ანგარიშზე
 
