@@ -849,6 +849,9 @@ recent-activity-account-recovery-phone-removed = 복구 전화번호 삭제됨
 recent-activity-account-recovery-codes-replaced = 복구 코드가 대체됨
 recent-activity-account-recovery-codes-created = 복구 코드 생성됨
 recent-activity-account-recovery-codes-signin-complete = 복구 코드를 사용한 로그인 완료
+recent-activity-password-reset-otp-sent = 비밀번호 재설정 확인 코드가 전송됨
+recent-activity-password-reset-otp-verified = 비밀번호 재설정 확인 코드가 확인됨
+recent-activity-must-reset-password = 비밀번호 재설정 필요
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = 기타 계정 활동
 
@@ -1015,6 +1018,8 @@ tfa-row-backup-codes-not-available = 코드 없음
 # $numCodesRemaining - the number of backup authentication codes that have not yet been used (generally between 1 to 5)
 # A different message is shown when no codes are available
 tfa-row-backup-codes-available-v2 = 남은 코드 { $numCodesAvailable }
+# Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
+tfa-row-backup-codes-get-new-cta-v2 = 새 코드 생성
 # Shown to users who have no backup authentication codes
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = 추가
@@ -1023,6 +1028,8 @@ tfa-row-backup-codes-description-2 = 모바일 기기나 인증 앱을 사용할
 # Recovery phone is a recovery method for two-step authentication
 # A recovery code can be sent to the user's phone
 tfa-row-backup-phone-title-v2 = 복구 전화번호
+# Shown with an alert icon to indicate that no recovery phone is configured
+tfa-row-backup-phone-not-available-v2 = 추가된 전화번호 없음
 # button to change the configured recovery phone
 tfa-row-backup-phone-change-cta = 변경
 # button to add/configure a recovery phone
@@ -1032,6 +1039,8 @@ tfa-row-backup-phone-delete-button = 삭제
 # Shown in tooltip on delete button or delete icon
 tfa-row-backup-phone-delete-title-v2 = 복구 전화번호 삭제
 tfa-row-backup-phone-delete-restriction-v2 = 복구 전화번호를 제거하고 싶은 경우, 백업 인증 코드를 추가하거나 2단계 인증을 비활성화하여 계정이 잠기는 것을 방지하세요.
+# "this" refers to recovery phone
+tfa-row-backup-phone-description-v2 = 인증 앱을 사용할 수 없을 때 가장 쉬운 복구 방법입니다.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
@@ -1118,6 +1127,7 @@ se-secondary-email-none = 없음
 
 tfa-row-header = 2단계 인증
 tfa-row-enabled = 활성화됨
+tfa-row-disabled-status = 사용 안함
 tfa-row-action-add = 추가
 tfa-row-action-disable = 비활성화
 tfa-row-button-refresh =
@@ -1125,6 +1135,7 @@ tfa-row-button-refresh =
 tfa-row-cannot-refresh =
     죄송합니다. 2단계 인증을 새로고침하는 중에 문제가
     발생했습니다.
+tfa-row-enabled-description = 계정은 2단계 인증으로 보호되고 있습니다. { -product-mozilla-account }에 로그인할 때 인증 앱의 일회용 비밀번호를 입력해야 합니다.
 tfa-row-cannot-verify-session-4 = 세션을 확인하는 중 오류가 발생했습니다.
 tfa-row-disable-modal-heading = 2단계 인증을 비활성화하시겠습니까?
 tfa-row-disable-modal-confirm = 비활성화

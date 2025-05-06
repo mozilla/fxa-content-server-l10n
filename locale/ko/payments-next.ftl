@@ -159,6 +159,10 @@ select-tax-location-error-missing-postal-code = 우편 번호 입력
 select-tax-location-error-invalid-postal-code = 올바른 우편번호 입력
 select-tax-location-successfully-updated = 위치 정보가 업데이트되었습니다.
 select-tax-location-error-location-not-updated = 위치 정보를 업데이트할 수 없습니다. 다시 시도하세요.
+#  $currencyDisplayName (String) - The display name of a currency code, e.g. US Dollar
+select-tax-location-invalid-currency-change = 청구서는 { $currentDisplayName }로 청구됩니다. { $currentDisplayName }를 사용하는 국가를 선택하세요.
+select-tax-location-invalid-currency-change-default = 활성 구독의 통화와 일치하는 국가를 선택하세요.
+select-tax-location-new-tax-rate-info = 위치를 변경하면 다음 결제 주기부터 계정의 모든 활성 구독에 새로운 세율을 적용합니다.
 signin-form-continue-button = 계속
 signin-form-email-input = 이메일 입력
 signin-form-email-input-missing = 이메일 입력
@@ -186,6 +190,7 @@ next-subscription-create-title = 구독 설정
 next-subscription-success-title = 구독 확인
 next-subscription-processing-title = 구독 확인 중…
 next-subscription-error-title = 구독 확인 오류…
+subscription-title-sub-exists = 이미 구독 중입니다
 subscription-title-plan-change-heading = 변경사항 검토
 next-sub-guarantee = 30 일 환불 보장
 
