@@ -845,8 +845,8 @@ recent-activity-account-recovery-phone-removed = Il telefono per il recupero del
 recent-activity-account-recovery-codes-replaced = Sostituiti codici di recupero
 recent-activity-account-recovery-codes-created = Creati codici di recupero
 recent-activity-account-recovery-codes-signin-complete = L’accesso è stato completato con i codici di recupero
-recent-activity-password-reset-otp-sent = È stato inviato il codice di conferma per reimpostare la password
-recent-activity-password-reset-otp-verified = Codice di conferma reimpostazione password verificato
+recent-activity-password-reset-otp-sent = Inviato codice di conferma per reimpostare la password
+recent-activity-password-reset-otp-verified = Verificato codice di conferma per reimpostare la password
 recent-activity-must-reset-password = È richiesta la reimpostazione della password
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Altre attività dell’account
