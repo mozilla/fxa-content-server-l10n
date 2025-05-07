@@ -853,6 +853,8 @@ recent-activity-account-recovery-codes-replaced = Gjenopprettingskodar erstatta
 recent-activity-account-recovery-codes-created = Gjenopprettingskodar oppretta
 recent-activity-account-recovery-codes-signin-complete = Innlogging med gjennopprettingskodar er fullført
 recent-activity-password-reset-otp-sent = Stadfestingskode for tilbakestilling av passord sendt
+recent-activity-password-reset-otp-verified = Stadfestingskode for tilbakestilling av passord  stadfesta
+recent-activity-must-reset-password = Tilbakestilling av passord påkravd
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Annan kontoaktivitet
 
