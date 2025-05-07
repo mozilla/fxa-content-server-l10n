@@ -851,6 +851,9 @@ recent-activity-account-recovery-phone-removed = Kurtarma telefonu kaldırıldı
 recent-activity-account-recovery-codes-replaced = Kurtarma kodları değiştirildi
 recent-activity-account-recovery-codes-created = Kurtarma kodları oluşturuldu
 recent-activity-account-recovery-codes-signin-complete = Kurtarma kodlarıyla giriş tamamlandı
+recent-activity-password-reset-otp-sent = Parola sıfırlama onay kodu gönderildi
+recent-activity-password-reset-otp-verified = Parola sıfırlama onay kodu doğrulandı
+recent-activity-must-reset-password = Parola sıfırlama gerekli
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Diğer hesap etkinlikleri
 
