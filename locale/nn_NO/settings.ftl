@@ -852,6 +852,7 @@ recent-activity-account-recovery-phone-removed = Gjenopprettingstelefon fjerna
 recent-activity-account-recovery-codes-replaced = Gjenopprettingskodar erstatta
 recent-activity-account-recovery-codes-created = Gjenopprettingskodar oppretta
 recent-activity-account-recovery-codes-signin-complete = Innlogging med gjennopprettingskodar er fullført
+recent-activity-password-reset-otp-sent = Stadfestingskode for tilbakestilling av passord sendt
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Annan kontoaktivitet
 
