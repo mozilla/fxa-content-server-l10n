@@ -854,6 +854,9 @@ recent-activity-account-recovery-phone-removed = Återställningstelefon borttag
 recent-activity-account-recovery-codes-replaced = Återställningskoder ersatta
 recent-activity-account-recovery-codes-created = Återställningskoder skapade
 recent-activity-account-recovery-codes-signin-complete = Inloggning med återställningskoder är klar
+recent-activity-password-reset-otp-sent = Bekräftelsekod för återställning av lösenord skickad
+recent-activity-password-reset-otp-verified = Bekräftelsekod för återställning av lösenord verifierad
+recent-activity-must-reset-password = Lösenordsåterställning krävs
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Annan kontoaktivitet
 
