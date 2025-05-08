@@ -1716,8 +1716,6 @@ signin-reported-message = 已通知我們的營運團隊。像這樣的回報可
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 signin-token-code-heading-2 = 請輸入您的確認碼 <span>{ -product-mozilla-account }</span>
-# { $email } represents the email that the user entered to sign in
-signin-token-code-instruction = 請在 5 分鐘內輸入寄送到 { $email } 的確認碼
 signin-token-code-input-label-v2 = 請輸入六位數的安全碼
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = 確認
@@ -1782,8 +1780,6 @@ confirm-signup-code-page-title = 請輸入確認碼
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 confirm-signup-code-heading-2 = 請輸入您的確認碼 <span>{ -product-mozilla-account }</span>
-# { $email } represents the email that the user entered to sign in
-confirm-signup-code-instruction = 請在 5 分鐘內輸入寄送到 { $email } 的驗證碼
 confirm-signup-code-input-label = 請輸入六位數的驗證碼
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = 確認
@@ -1811,9 +1807,3 @@ signup-pocket-info-banner = 為什麼需要建立此帳號？
 signup-pocket-info-banner-link = 到此了解
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = 更改電子郵件地址
-# Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
-signup-age-check-label =
-    .label = 請問您目前幾歲？
-# Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
-# This link appears just below signup-age-check-input-label
-signup-coppa-check-explanation-link = 我們為什麼要問？

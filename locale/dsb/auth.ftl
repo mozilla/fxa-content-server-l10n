@@ -636,20 +636,6 @@ subscriptionSubsequentInvoice-content-next-invoice = Pśiduca zliceńka: { $next
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = Sćo aktualizěrował na { $productName }
 subscriptionUpgrade-title = Wjeliki źěk za aktualizěrowanje!
-# Variables:
-# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
-# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
-subscriptionUpgrade-upgrade-info = Sćo wuspěšnje aktualizěrował wót { $productNameOld } na { $productName }.
-# Variables:
-# $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
-# $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
-# $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
-# $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
-# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
-subscriptionUpgrade-content-charge-info-different-cycle = Nakładaju wam jadnorazowy płaśonk { $paymentProrated }, aby se wuša płaśizna abonementa za zbytk toś togo { $paymentProrated } wótbłyšćował. Z wašeju pśiduceju zliceńku se waš płaśonk wót { $paymentAmountOld } na { $productPaymentCycleOld } do { $paymentAmountNew } na { $productPaymentCycleNew } změnijo.
-# Variables:
-# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
-subscriptionUpgrade-install = Jolic musyśo nowu softwaru instalěrowaś, aby { $productName } wužywał, dostanjośo separatnu mejlku ze ześěgnjeńskimi instrukcijami.
 subscriptionUpgrade-auto-renew = Waš abonement se awtomatiski kuždy cas wótlicenja pśedlejšyjo, snaźkuli wupowěźejośo.
 unblockCode-subject = Awtorizěrowański kod konta
 unblockCode-title = Cośo se wy pśizjawiś?

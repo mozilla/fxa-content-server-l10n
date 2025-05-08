@@ -632,20 +632,6 @@ subscriptionSubsequentInvoice-content-next-invoice = Volgende factuur: { $nextIn
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = U hebt geüpgraded naar { $productName }
 subscriptionUpgrade-title = Bedankt voor uw upgrade!
-# Variables:
-# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
-# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
-subscriptionUpgrade-upgrade-info = U bent met succes geüpgraded van { $productNameOld } naar { $productName }.
-# Variables:
-# $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
-# $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
-# $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
-# $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
-# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
-subscriptionUpgrade-content-charge-info-different-cycle = Er wordt een eenmalige vergoeding van { $paymentProrated } in rekening gebracht om de hogere prijs van uw abonnement te weerspiegelen voor de rest van deze { $productPaymentCycleOld }. Vanaf uw volgende factuur wijzigt uw betaling van { $paymentAmountOld } per { $productPaymentCycleOld } naar { $paymentAmountNew } per { $productPaymentCycleNew }.
-# Variables:
-# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
-subscriptionUpgrade-install = Als u nieuwe software moet installeren om { $productName } te kunnen gebruiken, dan ontvangt u een afzonderlijk e-mailbericht met downloadinstructies.
 subscriptionUpgrade-auto-renew = Uw abonnement wordt automatisch elke factureringsperiode verlengd, tenzij u ervoor kiest om op te zeggen.
 unblockCode-subject = Accountautorisatiecode
 unblockCode-title = Bent u dit die zich aanmeldt?

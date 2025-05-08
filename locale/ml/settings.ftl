@@ -986,9 +986,3 @@ signup-heading-relay = രഹസ്യവാക്കു് ഉണ്ടാക�
 signup-pocket-info-banner-link = ഇവിടെ കണ്ടെത്തുക
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = ഇതപാൽ മാറ്റുക
-# Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
-signup-age-check-label =
-    .label = താങ്ങൾക്ക് എത്രവയസ്സുണ്ട്?
-# Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
-# This link appears just below signup-age-check-input-label
-signup-coppa-check-explanation-link = എന്തുകൊണ്ടാണു് ഞങ്ങൾ ചോദിക്കുന്നതു്?

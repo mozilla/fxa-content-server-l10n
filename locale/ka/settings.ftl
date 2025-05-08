@@ -1754,8 +1754,6 @@ signin-reported-message = ჩვენი გუნდი უკვე გაფ
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 signin-token-code-heading-2 = შეიყვანეთ დასტურის კოდი<span> თქვენი { -product-mozilla-account(case: "ben") }</span>
-# { $email } represents the email that the user entered to sign in
-signin-token-code-instruction = შეიყვანეთ კოდი, რომელიც მოგივათ ელფოსტაზე { $email } 5 წუთის განმავლობაში.
 signin-token-code-input-label-v2 = შეიყვანეთ 6-ციფრიანი კოდი
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = დასტური
@@ -1820,8 +1818,6 @@ confirm-signup-code-page-title = შეიყვანეთ დადასტ�
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 confirm-signup-code-heading-2 = შეიყვანეთ დასტურის კოდი <span>თქვენი { -product-mozilla-account(case: "ben") }</span>
-# { $email } represents the email that the user entered to sign in
-confirm-signup-code-instruction = შეიყვანეთ კოდი, რომელიც მოგივათ ელფოსტაზე { $email } 5 წუთის განმავლობაში.
 confirm-signup-code-input-label = შეიყვანეთ 6-ციფრიანი კოდი
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = დასტური
@@ -1849,9 +1845,3 @@ signup-pocket-info-banner = რისთვისაა საჭირო ა�
 signup-pocket-info-banner-link = გაეცანით სრულად აქ
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = ელფოსტის შეცვლა
-# Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
-signup-age-check-label =
-    .label = რა ასაკის ხართ?
-# Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
-# This link appears just below signup-age-check-input-label
-signup-coppa-check-explanation-link = რატომ გეკითხებით?

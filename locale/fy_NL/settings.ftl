@@ -1752,8 +1752,6 @@ signin-reported-message = Us team is op ’e hichte brocht. Rapporten as dizze h
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 signin-token-code-heading-2 = Fier befêstigingskoade <span>foar jo { -product-mozilla-account }</span> yn
-# { $email } represents the email that the user entered to sign in
-signin-token-code-instruction = Fier binnen 5 minuten de koade yn dy’t nei { $email } is ferstjoerd.
 signin-token-code-input-label-v2 = Fier 6-siferige koade yn
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Befêstigje
@@ -1818,8 +1816,6 @@ confirm-signup-code-page-title = Fier befêstigingskoade yn
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 confirm-signup-code-heading-2 = Fier befêstigingskoade <span>foar jo { -product-mozilla-account }</span> yn
-# { $email } represents the email that the user entered to sign in
-confirm-signup-code-instruction = Fier binnen 5 minuten de koade yn dy’t nei { $email } is ferstjoerd.
 confirm-signup-code-input-label = Fier 6-siferige koade yn
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = Befêstigje
@@ -1847,9 +1843,3 @@ signup-pocket-info-banner = Wêrom moat ik dizze account oanmeitsje?
 signup-pocket-info-banner-link = Untdek it hjir
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = E-mailadres wizigje
-# Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
-signup-age-check-label =
-    .label = Hoe âld binne jo?
-# Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
-# This link appears just below signup-age-check-input-label
-signup-coppa-check-explanation-link = Wêrom freegje wy dit?

@@ -542,10 +542,6 @@ subscriptionSubsequentInvoice-content-next-invoice = ਅਗਲਾ ਭੁਗਤ�
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = ਤੁਸੀਂ { $productName } ਲਈ ਅੱਪਗਰੇਡ ਕਰ ਲਿਆ ਹੈ
 subscriptionUpgrade-title = ਅੱਪਗਰੇਡ ਕਰਨ ਲਈ ਤੁਹਾਡਾ ਧੰਨਵਾਦ ਹੈ!
-# Variables:
-# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
-# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
-subscriptionUpgrade-upgrade-info = ਤੁਸੀਂ { $productNameOld } ਤੋਂ { $productName } ਲਈ ਕਾਮਯਾਬੀ ਨਾਲ ਅੱਪਗਰੇਡ ਕਰ ਚੁੱਕੇ ਹੋ।
 subscriptionUpgrade-auto-renew = ਜਦ ਤੱਕ ਤੁਸੀਂ ਆਪਣੀ ਮੈਂਬਰੀ ਨੂੰ ਰੱਦ ਨਹੀਂ ਕਰਦੇ ਹੋ, ਤਦ ਤੱਕ ਤੁਹਾਡੀ ਮੈਂਬਰੀ ਹਰ ਬਿੱਲਿੰਗ ਸਮੇਂ ਉੱਤੇ ਆਪਣੇ-ਆਪ ਨਵਿਆਈ ਜਾਵੇਗੀ।
 unblockCode-subject = ਖਾਤਾ ਪਰਮਾਣੀਕਰਨ ਕੋਡ
 unblockCode-title = ਕੀ ਤੁਸੀਂ ਸਾਈਨ ਇਨ ਕੀਤਾ ਹੈ?

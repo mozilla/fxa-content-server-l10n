@@ -581,20 +581,6 @@ subscriptionSubsequentInvoice-content-next-invoice = Келесі шот: { $nex
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = Сіз { $productName } нұсқасына жаңартылдыңыз
 subscriptionUpgrade-title = Жаңартылғаныңыз үшін рахмет!
-# Variables:
-# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
-# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
-subscriptionUpgrade-upgrade-info = Сіз { $productNameOld } өнімінен { $productName } өніміне сәтті жаңартылдыңыз.
-# Variables:
-# $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
-# $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
-# $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
-# $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
-# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
-subscriptionUpgrade-content-charge-info-different-cycle = Осы { $productPaymentCycleOld } қалғанына жазылуңыздың үлкенірек бағасын сипаттау үшін сізден бір реттік { $paymentProrated } алым алынады. Келесі шотыңыздан бастап төлеміңіз әр { $productPaymentCycleOld } сайын { $paymentAmountOld } болса, енді әр { $productPaymentCycleNew } сайын { $paymentAmountNew } болып өзгереді.
-# Variables:
-# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
-subscriptionUpgrade-install = { $productName } пайдалану үшін жаңа бағдарламалық қамтаманы орнату керек болса, жүктеп алу нұсқаулары бар бөлек электрондық хат аласыз.
 subscriptionUpgrade-auto-renew = Бас тартуды таңдамасаңыз, жазылуыңыз әрбір есеп айырысу кезеңінде автоматты түрде жаңартылады.
 unblockCode-subject = Тіркелгіні авторизациялау коды
 unblockCode-title = Кірем деген сіз бе?

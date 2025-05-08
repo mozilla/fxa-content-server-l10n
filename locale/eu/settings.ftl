@@ -1752,8 +1752,6 @@ signin-reported-message = Gure taldeari jakinarazi zaio. Horrelako txostenek arr
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 signin-token-code-heading-2 = Sartu zure { -product-mozilla-account }</span> berrespen-kodea<span>
-# { $email } represents the email that the user entered to sign in
-signin-token-code-instruction = Sartu { $email } helbidera bidalitako kodea 5 minututan.
 signin-token-code-input-label-v2 = Sartu 6 digituko kodea
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Berretsi
@@ -1818,8 +1816,6 @@ confirm-signup-code-page-title = Sartu baieztapen-kodea
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 confirm-signup-code-heading-2 = Sartu <span>zure { -product-mozilla-account }</span>ko  berrespen-kodea
-# { $email } represents the email that the user entered to sign in
-confirm-signup-code-instruction = Sartu { $email } helbidera bidalitako kodea 5 minututan.
 confirm-signup-code-input-label = Sartu 6 digituko kodea
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = Berretsi
@@ -1847,9 +1843,3 @@ signup-pocket-info-banner = Zergatik sortu behar dut kontu hau?
 signup-pocket-info-banner-link = Jakin hemen
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Aldatu helbide elektronikoa
-# Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
-signup-age-check-label =
-    .label = Zenbat urte dituzu?
-# Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
-# This link appears just below signup-age-check-input-label
-signup-coppa-check-explanation-link = Zergatik galdetzen dugu?

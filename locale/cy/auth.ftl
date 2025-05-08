@@ -640,20 +640,6 @@ subscriptionSubsequentInvoice-content-next-invoice = Yr Anfoneb Nesaf: { $nextIn
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = Rydych wedi uwchraddio i { $productName }
 subscriptionUpgrade-title = Diolch am uwchraddio!
-# Variables:
-# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
-# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
-subscriptionUpgrade-upgrade-info = Rydych wedi symud o { $productNameOld } i { $productName } yn llwyddiannus.
-# Variables:
-# $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
-# $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
-# $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
-# $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
-# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
-subscriptionUpgrade-content-charge-info-different-cycle = Bydd ffi untro o { $paymentProrated } yn cael ei godi arnoch i adlewyrchu pris uwch eich tanysgrifiad am weddill y { $productPaymentCycleOld } hwn. Gan ddechrau gyda'ch bil nesaf, bydd eich tâl yn newid o { $paymentAmountOld } fesul { $productPaymentCycleOld } i { $paymentAmountNew } fesul { $productPaymentCycleNew }.
-# Variables:
-# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
-subscriptionUpgrade-install = Os oes yna feddalwedd newydd i chi ei osod er mwyn defnyddio { $productName }, byddwch yn derbyn e-bost ar wahân gyda chyfarwyddiadau llwytho i lawr.
 subscriptionUpgrade-auto-renew = Bydd eich tanysgrifiad yn adnewyddu pob cyfnod bilio yn awtomatig oni bai eich bod yn dewis diddymu.
 unblockCode-subject = Cod awdurdodi cyfrif
 unblockCode-title = Ai hwn yw chi’n allgofnodi?

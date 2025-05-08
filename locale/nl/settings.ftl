@@ -1748,8 +1748,6 @@ signin-reported-message = Ons team is op de hoogte gebracht. Dit soort meldingen
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 signin-token-code-heading-2 = Voer bevestigingscode in <span>voor uw { -product-mozilla-account }</span>
-# { $email } represents the email that the user entered to sign in
-signin-token-code-instruction = Voer binnen 5 minuten de code in die naar { $email } is verzonden.
 signin-token-code-input-label-v2 = Voer 6-cijferige code in
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Bevestigen
@@ -1814,8 +1812,6 @@ confirm-signup-code-page-title = Voer bevestigingscode in
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 confirm-signup-code-heading-2 = Voer bevestigingscode in <span>voor uw { -product-mozilla-account }</span>
-# { $email } represents the email that the user entered to sign in
-confirm-signup-code-instruction = Voer binnen 5 minuten de code in die naar { $email } is verzonden.
 confirm-signup-code-input-label = Voer 6-cijferige code in
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = Bevestigen
@@ -1843,9 +1839,3 @@ signup-pocket-info-banner = Waarom moet ik deze account aanmaken?
 signup-pocket-info-banner-link = Ontdek het hier
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = E-mailadres wijzigen
-# Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
-signup-age-check-label =
-    .label = Hoe oud bent u?
-# Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
-# This link appears just below signup-age-check-input-label
-signup-coppa-check-explanation-link = Waarom vragen we dit?

@@ -425,10 +425,6 @@ subscriptionSubsequentInvoice-content-next-invoice = Киләсе квитанц
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = { $productName } продуктына күтәрелү уңышлы узды
 subscriptionUpgrade-title = Яңартуыгыз өчен рәхмәт!
-# Variables:
-# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
-# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
-subscriptionUpgrade-upgrade-info = { $productNameOld } продуктын { $productName } продуктына яңарту уңышлы узды.
 unblockCode-subject = Хисабыгызны авторизацияләү коды
 unblockCode-title = Керүче Сезме?
 unblockCode-prompt = Әйе булса, Сезгә кирәкле авторизация коды менә бу:

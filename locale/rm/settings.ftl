@@ -1754,8 +1754,6 @@ signin-reported-message = Noss team è vegnì infurmà. Quests rapports ans gida
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 signin-token-code-heading-2 = Endatescha il code da conferma <span>per tes { -product-mozilla-account }</span>
-# { $email } represents the email that the user entered to sign in
-signin-token-code-instruction = Endatescha entaifer la proximas 5 minutas il code tramess a { $email }.
 signin-token-code-input-label-v2 = Endatescha il code da 6 cifras
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Confermar
@@ -1820,8 +1818,6 @@ confirm-signup-code-page-title = Endatescha il code da conferma
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 confirm-signup-code-heading-2 = Endatescha il code da conferma <span>per tes { -product-mozilla-account }</span>
-# { $email } represents the email that the user entered to sign in
-confirm-signup-code-instruction = Endatescha entaifer la proximas 5 minutas il code tramess a { $email }.
 confirm-signup-code-input-label = Endatescha il code da 6 cifras
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = Confermar
@@ -1849,9 +1845,3 @@ signup-pocket-info-banner = Pertge stoss jau crear quest conto?
 signup-pocket-info-banner-link = Ve a savair quai qua
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Midar l'adressa dad e-mail
-# Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
-signup-age-check-label =
-    .label = Quants onns has ti?
-# Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
-# This link appears just below signup-age-check-input-label
-signup-coppa-check-explanation-link = Pertge dumandain nus?

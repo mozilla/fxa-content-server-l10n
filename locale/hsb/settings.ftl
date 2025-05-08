@@ -1754,8 +1754,6 @@ signin-reported-message = Naš team je zdźělenku dóstał. Rozprawy kaž tuta 
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 signin-token-code-heading-2 = Zapodajće wobkrućenski kod<span>za swoje { -product-mozilla-account(case: "acc", capitalization: "lower") }</span>
-# { $email } represents the email that the user entered to sign in
-signin-token-code-instruction = Zapodajće kod, kotryž je so za 5 mjeńšin na { $email } pósłał.
 signin-token-code-input-label-v2 = 6-městnowy kod zapodać
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Wobkrućić
@@ -1820,8 +1818,6 @@ confirm-signup-code-page-title = Wobkrućenski kod zapodać
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 confirm-signup-code-heading-2 = Zapodajće wobkrućenski kod <span>za swoje { -product-mozilla-account(case: "acc", capitalization: "lower") }</span>
-# { $email } represents the email that the user entered to sign in
-confirm-signup-code-instruction = Zapodajće kod, kotryž je so za 5 mjeńšin na { $email } pósłał.
 confirm-signup-code-input-label = 6-městnowy kod zapodać
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = Wobkrućić
@@ -1849,9 +1845,3 @@ signup-pocket-info-banner = Čehodla dyrbju tute konto załožić?
 signup-pocket-info-banner-link = Namakajće tu won
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = E-mejlowu adresu změnić
-# Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
-signup-age-check-label =
-    .label = Kak stary sće?
-# Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
-# This link appears just below signup-age-check-input-label
-signup-coppa-check-explanation-link = Čehodla so prašamy?

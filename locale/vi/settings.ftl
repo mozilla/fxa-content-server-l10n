@@ -1744,8 +1744,6 @@ signin-reported-message = Nhóm của chúng tôi đã được thông báo. Cá
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 signin-token-code-heading-2 = Nhập mã xác minh<span> cho { -product-mozilla-account } của bạn</span>
-# { $email } represents the email that the user entered to sign in
-signin-token-code-instruction = Nhập mã đã được gửi tới { $email } trong vòng 5 phút.
 signin-token-code-input-label-v2 = Nhập mã gồm 6 chữ số
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Xác nhận
@@ -1810,8 +1808,6 @@ confirm-signup-code-page-title = Nhập mã xác nhận
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 confirm-signup-code-heading-2 = Nhập mã xác minh <span>cho { -product-mozilla-account } của bạn</span>
-# { $email } represents the email that the user entered to sign in
-confirm-signup-code-instruction = Nhập mã đã được gửi tới { $email } trong vòng 5 phút.
 confirm-signup-code-input-label = Nhập mã gồm 6 chữ số
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = Xác nhận
@@ -1839,9 +1835,3 @@ signup-pocket-info-banner = Tại sao tôi cần tạo tài khoản này?
 signup-pocket-info-banner-link = Tìm hiểu ở đây
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Thay đổi email
-# Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
-signup-age-check-label =
-    .label = Bạn bao nhiêu tuổi?
-# Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
-# This link appears just below signup-age-check-input-label
-signup-coppa-check-explanation-link = Tại sao chúng tôi hỏi?

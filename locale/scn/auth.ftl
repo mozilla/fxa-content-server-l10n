@@ -466,10 +466,6 @@ subscriptionSubsequentInvoice-content-next-invoice = Pròssima fattura: { $nextI
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = Attualizzasti a { $productName }
 subscriptionUpgrade-title = Grazzi pi l'attualizzu!
-# Variables:
-# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
-# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
-subscriptionUpgrade-upgrade-info = L'attualizzu di { $productNameOld } a { $productName } jìu bonu.
 unblockCode-subject = Còdici d'auturizzazzioni dû cuntu
 unblockCode-title = Sì tu chi sta' trasennu?
 unblockCode-prompt = Si sì tu, chistu è u còdici d'auturizzazzioni chi ti serbi:

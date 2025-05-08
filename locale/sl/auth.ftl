@@ -636,20 +636,6 @@ subscriptionSubsequentInvoice-content-next-invoice = Naslednji račun: { $nextIn
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = Nadgradili ste na { $productName }
 subscriptionUpgrade-title = Hvala za nadgradnjo!
-# Variables:
-# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
-# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
-subscriptionUpgrade-upgrade-info = Uspešno ste nadgradili z { $productNameOld } na { $productName }.
-# Variables:
-# $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
-# $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
-# $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
-# $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
-# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
-subscriptionUpgrade-content-charge-info-different-cycle = Zaračunali vam bomo enkraten znesek { $paymentProrated }, ki odraža višjo ceno vaše naročnine do konca tega obdobja ({ $productPaymentCycleOld }). Od naslednjega računa naprej se bo vaša zaračunana vrednost spremenila iz { $paymentAmountOld } na { $productPaymentCycleOld } na { $paymentAmountNew } na { $productPaymentCycleNew }.
-# Variables:
-# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
-subscriptionUpgrade-install = V kolikor morate za uporabo { $productName } namestiti novo programsko opremo, boste po e-pošti prejeli ločeno sporočilo z navodili za prenos.
 subscriptionUpgrade-auto-renew = Naročnina se bo vsako obračunsko obdobje samodejno podaljšala, razen če se odločite za preklic.
 unblockCode-subject = Overitvena koda računa
 unblockCode-title = Se prijavljate vi?

@@ -1748,8 +1748,6 @@ signin-reported-message = Náš tím bol informovaný. Podobné hlásenia nám p
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 signin-token-code-heading-2 = Zadajte potvrdzovací kód<span> pre svoj { -product-mozilla-account(case: "acc", capitalization: "lower") }</span>
-# { $email } represents the email that the user entered to sign in
-signin-token-code-instruction = V priebehu 5 minút zadajte kód, ktorý bol odoslaný na e‑mailovú adresu { $email }.
 signin-token-code-input-label-v2 = Zadajte šesťmiestny kód
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Potvrdiť
@@ -1814,8 +1812,6 @@ confirm-signup-code-page-title = Zadajte potvrdzovací kód
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 confirm-signup-code-heading-2 = Zadajte potvrdzovací kód <span>pre svoj { -product-mozilla-account(case: "acc", capitalization: "lower") }</span>
-# { $email } represents the email that the user entered to sign in
-confirm-signup-code-instruction = V priebehu 5 minút zadajte kód, ktorý bol odoslaný na e‑mailovú adresu { $email }.
 confirm-signup-code-input-label = Zadajte šesťmiestny kód
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = Potvrdiť
@@ -1843,9 +1839,3 @@ signup-pocket-info-banner = Prečo si musím vytvoriť tento účet?
 signup-pocket-info-banner-link = Ďalšie informácie
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Zmeniť e‑mailovú adresu
-# Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
-signup-age-check-label =
-    .label = Koľko máte rokov?
-# Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
-# This link appears just below signup-age-check-input-label
-signup-coppa-check-explanation-link = Prečo sa pýtame?

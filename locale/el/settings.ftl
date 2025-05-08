@@ -1757,8 +1757,6 @@ signin-reported-message = Η ομάδα μας έχει ειδοποιηθεί. 
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 signin-token-code-heading-2 = Εισαγάγετε τον κωδικό επιβεβαίωσης <span>για τον { -product-mozilla-account(case: "acc", capitalization: "lower") } σας</span>
-# { $email } represents the email that the user entered to sign in
-signin-token-code-instruction = Εισαγάγετε τον κωδικό επιβεβαίωσης που απεστάλη στο { $email } εντός 5 λεπτών.
 signin-token-code-input-label-v2 = Εισαγάγετε τον εξαψήφιο κωδικό
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Επιβεβαίωση
@@ -1823,8 +1821,6 @@ confirm-signup-code-page-title = Εισαγωγή κωδικού επιβεβα�
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 confirm-signup-code-heading-2 = Εισαγάγετε τον κωδικό επιβεβαίωσης <span>για τον { -product-mozilla-account(case: "acc", capitalization: "lower") } σας</span>
-# { $email } represents the email that the user entered to sign in
-confirm-signup-code-instruction = Εισαγάγετε τον κωδικό επιβεβαίωσης που απεστάλη στο { $email }, εντός 5 λεπτών.
 confirm-signup-code-input-label = Εισαγάγετε τον εξαψήφιο κωδικό
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = Επιβεβαίωση
@@ -1852,9 +1848,3 @@ signup-pocket-info-banner = Γιατί πρέπει να δημιουργήσω 
 signup-pocket-info-banner-link = Μάθετέ το εδώ
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Αλλαγή email
-# Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
-signup-age-check-label =
-    .label = Ποια είναι η ηλικία σας;
-# Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
-# This link appears just below signup-age-check-input-label
-signup-coppa-check-explanation-link = Γιατί ρωτάμε;

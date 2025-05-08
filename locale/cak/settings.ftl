@@ -891,6 +891,3 @@ confirm-signup-code-confirm-button = Tijikib'äx
 
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Tijal taqoya'l
-# Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
-signup-age-check-label =
-    .label = ¿Janipe' ajuna'?

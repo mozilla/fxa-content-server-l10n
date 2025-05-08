@@ -1654,8 +1654,6 @@ signin-reported-message = 우리 팀에 통보되었습니다. 이와 같은 보
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 signin-token-code-heading-2 = <span>{ -product-mozilla-account }</span> 확인 코드를 입력하세요.
-# { $email } represents the email that the user entered to sign in
-signin-token-code-instruction = 5분 이내에 { $email }으로 전송된 코드를 입력하세요.
 signin-token-code-input-label-v2 = 6자리 숫자 코드 입력
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = 확인
@@ -1707,8 +1705,6 @@ confirm-signup-code-page-title = 확인 코드를 입력하세요.
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 confirm-signup-code-heading-2 = <span>{ -product-mozilla-account }</span> 확인 코드를 입력하세요.
-# { $email } represents the email that the user entered to sign in
-confirm-signup-code-instruction = 5분 이내에 { $email } 메일로 전송된 코드를 입력하세요.
 confirm-signup-code-input-label = 6자리 숫자 코드 입력
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = 확인
@@ -1732,9 +1728,3 @@ signup-pocket-info-banner = 왜 이 계정을 만들어야 하나요?
 signup-pocket-info-banner-link = 자세히 보기
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = 이메일 변경
-# Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
-signup-age-check-label =
-    .label = 나이가 어떻게 되세요?
-# Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
-# This link appears just below signup-age-check-input-label
-signup-coppa-check-explanation-link = 왜 이것을 확인하나요?

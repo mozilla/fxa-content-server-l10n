@@ -1701,8 +1701,6 @@ signin-reported-message = Við höfum fengið tilkynningu varðandi þetta. Tiky
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 signin-token-code-heading-2 = Settu inn staðfestingarkóða <span>fyrir { -product-mozilla-account }-reikninginn þinn </span>
-# { $email } represents the email that the user entered to sign in
-signin-token-code-instruction = Settu inn staðfestingarkóðann sem sendur var til { $email } innan 5 mínútna.
 signin-token-code-input-label-v2 = Settu inn 6-stafa kóða
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Staðfesta
@@ -1767,8 +1765,6 @@ confirm-signup-code-page-title = Settu inn staðfestingarkóða
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 confirm-signup-code-heading-2 = Settu inn staðfestingarkóða <span>fyrir { -product-mozilla-account }-reikninginn þinn </span>
-# { $email } represents the email that the user entered to sign in
-confirm-signup-code-instruction = Settu inn staðfestingarkóðann sem sendur var til { $email } innan 5 mínútna.
 confirm-signup-code-input-label = Settu inn 6-stafa kóða
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = Staðfesta
@@ -1796,9 +1792,3 @@ signup-pocket-info-banner = Af hverju þarf ég að búa til þennan reikning?
 signup-pocket-info-banner-link = Kynntu þér málið hér
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Breyta tölvupóstfangi
-# Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
-signup-age-check-label =
-    .label = Hvaða aldri ertu á?
-# Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
-# This link appears just below signup-age-check-input-label
-signup-coppa-check-explanation-link = Hvers vegna spyrjum við?

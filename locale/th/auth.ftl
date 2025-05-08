@@ -556,20 +556,6 @@ subscriptionSubsequentInvoice-content-next-invoice = ใบแจ้งหนี
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = คุณได้อัปเกรดเป็น { $productName }
 subscriptionUpgrade-title = ขอบคุณสำหรับการอัปเกรด!
-# Variables:
-# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
-# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
-subscriptionUpgrade-upgrade-info = คุณได้อัปเกรดจาก { $productNameOld } เป็น { $productName } สำเร็จแล้ว
-# Variables:
-# $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
-# $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
-# $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
-# $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
-# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
-subscriptionUpgrade-content-charge-info-different-cycle = คุณจะถูกเรียกเก็บค่าธรรมเนียมเพียงครั้งเดียวจำนวน { $paymentProrated } เพื่อให้สอดคล้องกับราคาที่สูงขึ้นของการสมัครสมาชิกของคุณสำหรับส่วนที่เหลือของ { $productPaymentCycleOld } เริ่มตั้งแต่การเรียกเก็บเงินครั้งถัดไป การเรียกเก็บเงินของคุณจะเปลี่ยนจากจำนวน { $paymentAmountOld } ต่อ{ $productPaymentCycleOld } เป็นจำนวน { $paymentAmountNew } ต่อ{ $productPaymentCycleNew }
-# Variables:
-# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
-subscriptionUpgrade-install = หากมีซอฟต์แวร์ใหม่ให้คุณติดตั้งเพื่อใช้ { $productName } คุณจะได้รับอีเมลแยกต่างหากพร้อมคำแนะนำในการดาวน์โหลด
 subscriptionUpgrade-auto-renew = การสมัครของคุณจะต่ออายุโดยอัตโนมัติในแต่ละรอบการเรียกเก็บเงิน เว้นแต่คุณเลือกที่จะยกเลิก
 unblockCode-subject = รหัสอนุญาตของบัญชี
 unblockCode-title = ใช่คุณที่ลงชื่อเข้าหรือไม่?

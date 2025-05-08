@@ -1513,8 +1513,6 @@ signin-reported-message = 担当者に通知が送られました。こうした
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 signin-token-code-heading-2 = <span>{ -product-mozilla-account }</span> の確認コードを入力してください
-# { $email } represents the email that the user entered to sign in
-signin-token-code-instruction = 5 分以内に { $email } に送信されたコードを入力してください。
 signin-token-code-input-label-v2 = 6 桁のコードを入力してください
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = 確認
@@ -1566,8 +1564,6 @@ confirm-signup-code-page-title = 確認コードの入力
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 confirm-signup-code-heading-2 = <span>{ -product-mozilla-account }</span> の確認コードを入力してください
-# { $email } represents the email that the user entered to sign in
-confirm-signup-code-instruction = 5 分以内に { $email } 宛に送信されたコードを入力してください。
 confirm-signup-code-input-label = 6 桁のコードを入力してください
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = 確認
@@ -1584,9 +1580,3 @@ confirm-signup-code-is-required-error = 確認コードが必要です
 signup-heading = パスワードを設定
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = メールアドレスを変更
-# Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
-signup-age-check-label =
-    .label = あなたの年齢は何歳ですか？
-# Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
-# This link appears just below signup-age-check-input-label
-signup-coppa-check-explanation-link = この質問の理由

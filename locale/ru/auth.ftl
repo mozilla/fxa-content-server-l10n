@@ -634,20 +634,6 @@ subscriptionSubsequentInvoice-content-next-invoice = Следующая опла
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = Вы успешно обновились до { $productName }
 subscriptionUpgrade-title = Спасибо за обновление!
-# Variables:
-# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
-# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
-subscriptionUpgrade-upgrade-info = Вы успешно обновились с { $productNameOld } на { $productName }.
-# Variables:
-# $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
-# $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
-# $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
-# $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
-# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
-subscriptionUpgrade-content-charge-info-different-cycle = Вам будет необходимо оплатить { $paymentProrated }, чтобы отразить более высокую цену вашей подписки за оставшуюся часть этого { $productPaymentCycleOld }. Начиная со следующего периода оплаты, ваш платеж составит { $paymentAmountOld } за { $productPaymentCycleOld } вместо { $paymentAmountNew } за { $productPaymentCycleNew }.
-# Variables:
-# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
-subscriptionUpgrade-install = Если вам будет необходимо установить новое программное обеспечение для использования { $productName }, вы получите отдельное письмо с инструкциями по загрузке.
 subscriptionUpgrade-auto-renew = Ваша подписка будет автоматически продлеваться каждый платёжный период, пока вы не решите её отменить.
 unblockCode-subject = Код авторизации аккаунта
 unblockCode-title = Это входили вы?

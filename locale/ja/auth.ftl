@@ -602,20 +602,6 @@ subscriptionSubsequentInvoice-content-next-invoice = 次回の請求日: { $next
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = { $productName } にアップグレードしました
 subscriptionUpgrade-title = アップグレードしていただきありがとうございます！
-# Variables:
-# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
-# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
-subscriptionUpgrade-upgrade-info = { $productNameOld } から { $productName } へのアップグレードが完了しました。
-# Variables:
-# $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
-# $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
-# $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
-# $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
-# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
-subscriptionUpgrade-content-charge-info-different-cycle = この { $productPaymentCycleOld } の残りの期間はサブスクリプションの余剰分を追加で反映させるため 1 度だけ { $paymentProrated } の料金が請求されます。次回の請求より、{ $paymentAmountOld } / { $productPaymentCycleOld } から { $paymentAmountNew } / { $productPaymentCycleNew } に変更されます。
-# Variables:
-# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
-subscriptionUpgrade-install = { $productName } の使用に必要な新しいソフトウェアをインストールする場合は、ダウンロード手順が記載された別のメールが届きます。
 subscriptionUpgrade-auto-renew = キャンセルを選択しない限り、サブスクリプションは請求期間ごとに自動的に更新されます。
 unblockCode-subject = アカウントの認証コード
 unblockCode-title = ログインしようとしているのはあなた自身ですか？

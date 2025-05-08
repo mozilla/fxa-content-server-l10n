@@ -1749,8 +1749,6 @@ signin-reported-message = Nostre equipa recipeva tu nota. Iste reportos nos adju
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 signin-token-code-heading-2 = Insere codice de confirmation<span> pro tu { -product-mozilla-account }</span>
-# { $email } represents the email that the user entered to sign in
-signin-token-code-instruction = Insere le codice inviate a { $email } in 5 minutas.
 signin-token-code-input-label-v2 = Insere le codice de 6 cifras
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Confirmar
@@ -1815,8 +1813,6 @@ confirm-signup-code-page-title = Insere le codice de confirmation
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 confirm-signup-code-heading-2 = Insere codice de confirmation<span> pro tu { -product-mozilla-account }</span>
-# { $email } represents the email that the user entered to sign in
-confirm-signup-code-instruction = Insere le codice inviate a { $email } in 5 minutas.
 confirm-signup-code-input-label = Insere le codice de 6 cifras
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = Confirmar
@@ -1844,9 +1840,3 @@ signup-pocket-info-banner = Perque debe io crear iste conto?
 signup-pocket-info-banner-link = Discoperi lo hic
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Cambiar email
-# Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
-signup-age-check-label =
-    .label = Que etate ha tu?
-# Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
-# This link appears just below signup-age-check-input-label
-signup-coppa-check-explanation-link = Pro que nos demanda?

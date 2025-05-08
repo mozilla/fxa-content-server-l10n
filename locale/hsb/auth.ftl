@@ -636,20 +636,6 @@ subscriptionSubsequentInvoice-content-next-invoice = Přichodna zličbowanka: { 
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = Sće na { $productName } zaktualizował
 subscriptionUpgrade-title = Wulki dźak za aktualizowanje!
-# Variables:
-# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
-# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
-subscriptionUpgrade-upgrade-info = Sće wuspěšnje wot { $productNameOld } na { $productName } aktualizował.
-# Variables:
-# $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
-# $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
-# $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
-# $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
-# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
-subscriptionUpgrade-content-charge-info-different-cycle = Zběraja wam jónkróćny popłatk { $paymentProrated }, zo by so wyša płaćizna abonementa za zbytk tutoho { $paymentProrated } wotbłyšćował. Z wašej přichodnej zličbowanku so waš popłatk wot { $paymentAmountOld } na { $productPaymentCycleOld } do { $paymentAmountNew } na { $productPaymentCycleNew } změni.
-# Variables:
-# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
-subscriptionUpgrade-install = Jeli dyrbiće nowu softwaru instalować, zo byšće { $productName }s wužiwał, dóstanjeće separatnu mejlku ze sćehnjenskimi instrukcijemi.
 subscriptionUpgrade-auto-renew = Waš abonement so awtomatisce kóždu wotličensku dobu podlěšuje, chibazo wupowědźiće.
 unblockCode-subject = Kod kontoweje awtorizacije
 unblockCode-title = Chceće so wy přizjewić?

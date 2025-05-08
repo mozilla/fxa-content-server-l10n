@@ -1751,8 +1751,6 @@ signin-reported-message = Teamet vårt er varsla. Rapportar som denne hjelper os
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 signin-token-code-heading-2 = Skriv inn stadfestingskode<span> for { -product-mozilla-account }en din</span>
-# { $email } represents the email that the user entered to sign in
-signin-token-code-instruction = Skriv inn koden som vart sendt til { $email } innan 5 minutt.
 signin-token-code-input-label-v2 = Skriv inn 6-sifra kode
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Stadfest
@@ -1817,8 +1815,6 @@ confirm-signup-code-page-title = Skriv inn stadfestingskode
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 confirm-signup-code-heading-2 = Skriv inn stadfestingskode <span>for { -product-mozilla-account }-en din</span>
-# { $email } represents the email that the user entered to sign in
-confirm-signup-code-instruction = Skriv inn koden som vart sendt til { $email } innan 5 minutt.
 confirm-signup-code-input-label = Skriv inn 6-sifra kode
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = Stadfest
@@ -1846,9 +1842,3 @@ signup-pocket-info-banner = Kvifor må eg opprette denne kontoen?
 signup-pocket-info-banner-link = Finn ut av det her
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Endre e-post
-# Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
-signup-age-check-label =
-    .label = Kor gammal er du?
-# Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
-# This link appears just below signup-age-check-input-label
-signup-coppa-check-explanation-link = Kvifor spør vi?

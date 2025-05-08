@@ -456,13 +456,6 @@ subscriptionSubsequentInvoice-content-next-invoice = Tafaṭurt i d-iteddun: { $
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = Tuliḍ ɣer { $productName }
 subscriptionUpgrade-title = Tanemmirt ɣef uleqqem!
-# Variables:
-# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
-# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
-subscriptionUpgrade-upgrade-info = Tnuqleḍ akken iwata seg { $productNameOld } ɣer { $productName }.
-# Variables:
-# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
-subscriptionUpgrade-install = Ma yella useɣẓan amaynut i tebɣiḍ ad tesbeddeḍ akken ad tesqedceḍ { $productName }, ad ak·akem-id-yaweḍ yimayl iεezlen s yiwellihen ara d-tessadreḍ.
 subscriptionUpgrade-auto-renew = Ajerred-ik ad yales s wudem awurman yala tawal n ufter, ala ma tferneḍ ad yefsex.
 unblockCode-subject = Tangalt n tsiregt n umiḍan
 unblockCode-title = D kečč i d-yessutren tuqqna agi?

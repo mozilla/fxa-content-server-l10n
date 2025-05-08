@@ -1747,8 +1747,6 @@ signin-reported-message = Ekipi ynë i njoftua. Raporte si ky na ndihmojnë të 
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 signin-token-code-heading-2 = Jepni kod ripohimi <span>për { -product-mozilla-account } tuajën</span>
-# { $email } represents the email that the user entered to sign in
-signin-token-code-instruction = Jepni brenda 5 minutash kodin që u dërgua te { $email }.
 signin-token-code-input-label-v2 = Jepni kodin 6-shifror
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Ripohojeni
@@ -1813,8 +1811,6 @@ confirm-signup-code-page-title = Jepni kodin e ripohimit
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 confirm-signup-code-heading-2 = Jepni kod ripohimi <span>për { -product-mozilla-account } tuajën</span>
-# { $email } represents the email that the user entered to sign in
-confirm-signup-code-instruction = Jepni brenda 5 minutash kodin që u dërgua te { $email }.
 confirm-signup-code-input-label = Jepni kodin 6-shifror
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = Ripohojeni
@@ -1842,9 +1838,3 @@ signup-pocket-info-banner = Pse më duhet të krijoj një llogari?
 signup-pocket-info-banner-link = Shiheni këtu
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Ndryshoni email
-# Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
-signup-age-check-label =
-    .label = Ç’moshë keni?
-# Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
-# This link appears just below signup-age-check-input-label
-signup-coppa-check-explanation-link = Pse pyesim?

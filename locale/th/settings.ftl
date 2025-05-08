@@ -1567,8 +1567,6 @@ signin-reported-message = ทีมงานของเราได้รับ
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 signin-token-code-heading-2 = ใส่รหัสยืนยัน<span>สำหรับ{ -product-mozilla-account } ของคุณ</span>
-# { $email } represents the email that the user entered to sign in
-signin-token-code-instruction = ใส่รหัสที่ส่งไปยัง { $email } ภายใน 5 นาที
 signin-token-code-input-label-v2 = ใส่รหัส 6 หลัก
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = ยืนยัน
@@ -1633,8 +1631,6 @@ confirm-signup-code-page-title = ใส่รหัสยืนยัน
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 confirm-signup-code-heading-2 = ใส่รหัสยืนยัน<span>สำหรับ{ -product-mozilla-account } ของคุณ</span>
-# { $email } represents the email that the user entered to sign in
-confirm-signup-code-instruction = ใส่รหัสที่ส่งไปยัง { $email } ภายใน 5 นาที
 confirm-signup-code-input-label = ใส่รหัส 6 หลัก
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = ยืนยัน
@@ -1662,9 +1658,3 @@ signup-pocket-info-banner = ทำไมฉันถึงต้องสร้�
 signup-pocket-info-banner-link = หาคำตอบได้ที่นี่
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = เปลี่ยนอีเมล
-# Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
-signup-age-check-label =
-    .label = คุณอายุเท่าไร?
-# Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
-# This link appears just below signup-age-check-input-label
-signup-coppa-check-explanation-link = ทำไมเราถึงต้องถาม?

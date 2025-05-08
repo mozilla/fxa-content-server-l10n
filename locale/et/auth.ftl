@@ -294,13 +294,6 @@ subscriptionSubsequentInvoice-content-next-invoice = Järgmine arve: { $nextInvo
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = Oled üle läinud tootele { $productName }
 subscriptionUpgrade-title = Täname, et sooritasid uuenduse!
-# Variables:
-# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
-# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
-subscriptionUpgrade-upgrade-info = Oled edukalt läinud üle tootelt { $productNameOld } tootele { $productName }.
-# Variables:
-# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
-subscriptionUpgrade-install = Kui kasutatava teenuse { $productName } jaoks on paigaldamiseks saadaval uus tarkvara, siis saad selle kohta eraldi kirja allalaadimisjuhistega.
 subscriptionUpgrade-auto-renew = Sinu tellimust uuendatakse automaatselt igal arveldusperioodil, kui sa ei otsusta tühistada.
 unblockCode-subject = Konto autoriseerimiskood
 unblockCode-title = Kas see on sinu sisselogimine?

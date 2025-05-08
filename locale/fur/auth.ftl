@@ -629,20 +629,6 @@ subscriptionSubsequentInvoice-content-next-invoice = Prossime fature: { $nextInv
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = Tu âs inzornât a { $productName }
 subscriptionUpgrade-title = Graciis pal inzornament!
-# Variables:
-# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
-# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
-subscriptionUpgrade-upgrade-info = Tu âs inzornât cun sucès di { $productNameOld } a { $productName }.
-# Variables:
-# $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
-# $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
-# $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
-# $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
-# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
-subscriptionUpgrade-content-charge-info-different-cycle = Ti vignarà contizât un impuart una tantum di { $paymentProrated } par rifleti la tarife plui alte dal to abonament pal rest di chest { $productPaymentCycleOld }. Tacant de prossime fature, il to paiament al sarà modificât di { $paymentAmountOld } par { $productPaymentCycleOld } a { $paymentAmountNew } par { $productPaymentCycleNew }.
-# Variables:
-# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
-subscriptionUpgrade-install = Tal câs che ti coventi instalâ altri software par podê doprâ { $productName }, tu ricevarâs intune altre e-mail lis istruzions par discjamâlu.
 subscriptionUpgrade-auto-renew = Il to abonament si rinovarà in automatic a ogni periodi di faturazion, gjavant il câs che no tu decidis di anulâlu.
 unblockCode-subject = Codiç di autorizazion pal account
 unblockCode-title = Sêstu tu a jentrâ?

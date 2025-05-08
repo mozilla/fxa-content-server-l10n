@@ -1749,8 +1749,6 @@ signin-reported-message = Mae ein tîm wedi eu hysbysu. Mae adroddiadau fel hyn 
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 signin-token-code-heading-2 = Rhowch y cod cadarnhau <span> ar gyfer eich cyfrif { -product-mozilla-account }</span>
-# { $email } represents the email that the user entered to sign in
-signin-token-code-instruction = Rhowch y cod anfonwyd at { $email } o fewn 5 munud
 signin-token-code-input-label-v2 = Rhowch y cod 6 digid
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Cadarnhau
@@ -1815,8 +1813,6 @@ confirm-signup-code-page-title = Rhowch y cod dilysu
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 confirm-signup-code-heading-2 = Rhowch god cadarnhau <span>ar gyfer eich cyfrif { -product-mozilla-account }</span>
-# { $email } represents the email that the user entered to sign in
-confirm-signup-code-instruction = Rhowch y cod anfonwyd at { $email } o fewn 5 munud
 confirm-signup-code-input-label = Rhowch y cod 6 digid
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = Cadarnhau
@@ -1844,9 +1840,3 @@ signup-pocket-info-banner = Pam fod angen i mi greu'r cyfrif hwn?
 signup-pocket-info-banner-link = Dysgu rhagor
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Newid e-bost
-# Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
-signup-age-check-label =
-    .label = Beth yw eich oed?
-# Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
-# This link appears just below signup-age-check-input-label
-signup-coppa-check-explanation-link = Pam rydyn ni'n gofyn?

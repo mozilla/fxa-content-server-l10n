@@ -1747,8 +1747,6 @@ signin-reported-message = Nuestro equipo fue notificado. Informes como este nos 
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 signin-token-code-heading-2 = Ingresá el código de confirmación <span>para tu { -product-mozilla-account }</span>
-# { $email } represents the email that the user entered to sign in
-signin-token-code-instruction = Ingresá el código de verificación que se envió a { $email } en un plazo de 5 minutos.
 signin-token-code-input-label-v2 = Ingresá el código de 6 dígitos
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Confirmar
@@ -1813,8 +1811,6 @@ confirm-signup-code-page-title = Ingresá el código de confirmación
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 confirm-signup-code-heading-2 = Ingresá el código de confirmación <span>para tu { -product-mozilla-account }</span>
-# { $email } represents the email that the user entered to sign in
-confirm-signup-code-instruction = Ingresá el código de verificación que se envió a { $email } en un plazo de 5 minutos.
 confirm-signup-code-input-label = Ingresá el código de 6 dígitos
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = Confirmar
@@ -1842,9 +1838,3 @@ signup-pocket-info-banner = ¿Por qué necesito crear esta cuenta?
 signup-pocket-info-banner-link = Descúbrilo acá
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Cambiar correo electrónico
-# Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
-signup-age-check-label =
-    .label = ¿Cuántos años tenés?
-# Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
-# This link appears just below signup-age-check-input-label
-signup-coppa-check-explanation-link = ¿Por qué preguntamos?

@@ -1743,8 +1743,6 @@ signin-reported-message = Náš tým byl upozorněn. Zprávy jako tato nám pom�
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 signin-token-code-heading-2 = Zadejte potvrzovací kód<span> pro váš { -product-mozilla-account(case: "acc", capitalization: "lower") }</span>
-# { $email } represents the email that the user entered to sign in
-signin-token-code-instruction = Vložte během 5 minut kód, který vám byl zaslán na { $email }.
 signin-token-code-input-label-v2 = Zadejte šestimístný kód
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Potvrdit
@@ -1809,8 +1807,6 @@ confirm-signup-code-page-title = Zadejte potvrzovací kód
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 confirm-signup-code-heading-2 = Zadejte potvrzovací kód<span>pro svůj { -product-mozilla-account(case: "acc", capitalization: "lower") }</span>
-# { $email } represents the email that the user entered to sign in
-confirm-signup-code-instruction = Vložte během 5 minut kód, který vám byl zaslán na { $email }.
 confirm-signup-code-input-label = Zadejte šestimístný kód
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = Potvrdit
@@ -1838,9 +1834,3 @@ signup-pocket-info-banner = Proč si musím vytvořit tento účet?
 signup-pocket-info-banner-link = Zjistěte to zde
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Změna e-mailu
-# Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
-signup-age-check-label =
-    .label = Kolik vám je let?
-# Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
-# This link appears just below signup-age-check-input-label
-signup-coppa-check-explanation-link = Proč se ptáme?

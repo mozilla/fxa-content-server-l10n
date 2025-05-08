@@ -1744,8 +1744,6 @@ signin-reported-message = Il nestri grup al è stât visât. Lis segnalazions co
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 signin-token-code-heading-2 = Inserìs il codiç di conferme <span>pal to { -product-mozilla-account }</span>
-# { $email } represents the email that the user entered to sign in
-signin-token-code-instruction = Inserìs dentri di 5 minûts il codiç che ti vin mandât su { $email }.
 signin-token-code-input-label-v2 = Inserìs il codiç a 6 cifris
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Conferme
@@ -1810,8 +1808,6 @@ confirm-signup-code-page-title = Inserìs il codiç di conferme
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 confirm-signup-code-heading-2 = Inserìs il codiç di conferme <span>pal to { -product-mozilla-account }</span>
-# { $email } represents the email that the user entered to sign in
-confirm-signup-code-instruction = Inserìs dentri di 5 minûts il codiç che ti vin mandât su { $email }.
 confirm-signup-code-input-label = Inserìs il codiç a 6 cifris
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = Conferme
@@ -1839,9 +1835,3 @@ signup-pocket-info-banner = Parcè scuegnio creâ chest account?
 signup-pocket-info-banner-link = Scuvierzilu achì
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Cambie e-mail
-# Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
-signup-age-check-label =
-    .label = Trops agns âstu?
-# Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
-# This link appears just below signup-age-check-input-label
-signup-coppa-check-explanation-link = Parcè ti domandìno?

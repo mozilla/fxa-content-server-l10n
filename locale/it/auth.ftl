@@ -636,20 +636,6 @@ subscriptionSubsequentInvoice-content-next-invoice = Prossima fattura: { $nextIn
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = Hai effettuato l’aggiornamento a { $productName }
 subscriptionUpgrade-title = Grazie per aver effettuato l’aggiornamento.
-# Variables:
-# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
-# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
-subscriptionUpgrade-upgrade-info = L’aggiornamento da { $productNameOld } a { $productName } è stato effettuato correttamente.
-# Variables:
-# $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
-# $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
-# $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
-# $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
-# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
-subscriptionUpgrade-content-charge-info-different-cycle = Ti verrà addebitato un importo una tantum di { $paymentProrated } per riflettere la tariffa più alta del tuo abbonamento per il resto di questo { $productPaymentCycleOld }. A partire dalla prossima fattura, il tuo pagamento sarà modificato da { $paymentAmountOld } per { $productPaymentCycleOld } a { $paymentAmountNew } per { $productPaymentCycleNew }.
-# Variables:
-# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
-subscriptionUpgrade-install = Nel caso sia necessario installare software aggiuntivo per utilizzare { $productName }, riceverai in un’altra email le istruzioni per scaricarlo.
 subscriptionUpgrade-auto-renew = Il tuo abbonamento si rinnoverà automaticamente a ogni periodo di fatturazione, a meno che tu non decida di annullarlo.
 unblockCode-subject = Codice di autorizzazione per l’account
 unblockCode-title = Hai effettuato tu questo accesso?

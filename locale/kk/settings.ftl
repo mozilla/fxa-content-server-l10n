@@ -1623,8 +1623,6 @@ signin-reported-message = Біздің топ хабарды алды. Шағы�
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 signin-token-code-heading-2 = Өзіңіздің <span>{ -product-mozilla-account } тіркелгіңіз</span> үшін растау кодын енгізіңіз
-# { $email } represents the email that the user entered to sign in
-signin-token-code-instruction = { $email } адресіне жіберілген кодты 5 минут ішінде енгізіңіз.
 signin-token-code-input-label-v2 = 6-цифрлық кодты енгізіңіз
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Растау
@@ -1677,8 +1675,6 @@ confirm-signup-code-page-title = Растау кодын енгізіңіз
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 confirm-signup-code-heading-2 = Өзіңіздің <span>{ -product-mozilla-account } тіркелгіңіз</span> үшін растау кодын енгізіңіз
-# { $email } represents the email that the user entered to sign in
-confirm-signup-code-instruction = { $email } адресіне жіберілген кодты 5 минут ішінде енгізіңіз.
 confirm-signup-code-input-label = 6-цифрлық кодты енгізіңіз
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = Растау
@@ -1702,9 +1698,3 @@ signup-pocket-info-banner = Бұл тіркелгіні маған не үшін
 signup-pocket-info-banner-link = Осы жерден біліңіз
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Эл. поштаны өзгерту
-# Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
-signup-age-check-label =
-    .label = Жасыңыз нешеде?
-# Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
-# This link appears just below signup-age-check-input-label
-signup-coppa-check-explanation-link = Оны неліктен сұраймыз?

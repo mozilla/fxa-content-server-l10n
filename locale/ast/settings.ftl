@@ -563,6 +563,3 @@ auth-error-1008 = La contraseña nueva ha ser diferente
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
-# Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
-signup-age-check-label =
-    .label = ¿Qué edá tienes?

@@ -1716,8 +1716,6 @@ signin-reported-message = Ore aty oñemomarandu. Marandu’i kóva rehegua ore p
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 signin-token-code-heading-2 = Emoinge ayvu ñemoneĩrã<span> ne { -product-mozilla-account }</span> peg̃uarã
-# { $email } represents the email that the user entered to sign in
-signin-token-code-instruction = Emoinge ayvu jehechajeyrã oñemondóva { $email } 5 aravo’i oútavape.
 signin-token-code-input-label-v2 = Emoinge ayvu 6 taíva
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Moneĩ
@@ -1782,8 +1780,6 @@ confirm-signup-code-page-title = Emoinge ayvu jehechajeyrã
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 confirm-signup-code-heading-2 = Emoinge ayvu ñemoneĩrã <span>ne { -product-mozilla-account }</span> peg̃uarã
-# { $email } represents the email that the user entered to sign in
-confirm-signup-code-instruction = Emoinge ayvu jehechajeyrã oñemondóva { $email } 5 aravo’i oútavape.
 confirm-signup-code-input-label = Emoinge ayvu 6 taíva
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = Moneĩ
@@ -1810,9 +1806,3 @@ signup-pocket-info-banner = ¿Mba’ére amoheñoiva’erã ko mba’ete?
 signup-pocket-info-banner-link = Ehechakuaa ko’ápe
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Emoambue  ñanduti veve
-# Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
-signup-age-check-label =
-    .label = ¿Mboy ary eguereko?
-# Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
-# This link appears just below signup-age-check-input-label
-signup-coppa-check-explanation-link = ¿Mba’ére roporandu?

@@ -627,20 +627,6 @@ subscriptionSubsequentInvoice-content-next-invoice = 다음 청구일자: { $nex
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = { $productName }로 업그레이드 완료
 subscriptionUpgrade-title = 업그레이드 해주셔서 감사합니다!
-# Variables:
-# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
-# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
-subscriptionUpgrade-upgrade-info = { $productNameOld }에서 { $productName }로 성공적으로 업그레이드했습니다.
-# Variables:
-# $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
-# $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
-# $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
-# $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
-# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
-subscriptionUpgrade-content-charge-info-different-cycle = 이 { $productPaymentCycleOld }의 나머지 기간에 대해 더 높은 구독 가격을 반영하기 위해 { $paymentProrated }의 일회성 수수료가 청구됩니다. 다음 청구서부터 청구 금액이 { $productPaymentCycleOld }당 { $paymentAmountOld }에서 { $productPaymentCycleNew }당 { $paymentAmountNew }로 변경됩니다.
-# Variables:
-# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
-subscriptionUpgrade-install = { $productName }를 사용하기 위해 설치할 새 소프트웨어가 있는 경우 다운로드 지침이 포함된 별도의 이메일을 받게 됩니다.
 subscriptionUpgrade-auto-renew = 취소를 선택하지 않는 한 구독은 각 청구 기간을 자동으로 갱신합니다.
 unblockCode-subject = 계정 인증 코드
 unblockCode-title = 로그인하신 게 맞나요?

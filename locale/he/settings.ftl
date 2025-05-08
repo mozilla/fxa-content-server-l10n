@@ -1653,8 +1653,6 @@ signin-reported-message = נשלחה הודעה לצוות שלנו. דיווח�
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 signin-token-code-heading-2 = נא להכניס קוד אימות <span>עבור { -product-mozilla-account(case: "the") } שלך</span>
-# { $email } represents the email that the user entered to sign in
-signin-token-code-instruction = נא להכניס את הקוד שנשלח אל { $email } תוך 5 דקות.
 signin-token-code-input-label-v2 = נא להזין קוד בן 6 ספרות
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = אישור
@@ -1719,8 +1717,6 @@ confirm-signup-code-page-title = נא להכניס את קוד האימות
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 confirm-signup-code-heading-2 = נא להכניס קוד אימות <span>עבור { -product-mozilla-account(case: "the") } שלך</span>
-# { $email } represents the email that the user entered to sign in
-confirm-signup-code-instruction = נא להכניס את הקוד שנשלח אל { $email } תוך 5 דקות.
 confirm-signup-code-input-label = נא להזין קוד בן 6 ספרות
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = אישור
@@ -1748,9 +1744,3 @@ signup-pocket-info-banner = מדוע עליי ליצור חשבון זה?
 signup-pocket-info-banner-link = ניתן למצוא את ההסבר כאן
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = שינוי כתובת דוא״ל
-# Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
-signup-age-check-label =
-    .label = מהו גילך?
-# Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
-# This link appears just below signup-age-check-input-label
-signup-coppa-check-explanation-link = למה אנחנו שואלים?

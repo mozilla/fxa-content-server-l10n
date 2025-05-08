@@ -220,13 +220,6 @@ subscriptionSubsequentInvoice-content-next-invoice = Jun chik Rajil Paktura': { 
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = Xak'ëx pa { $productName }
 subscriptionUpgrade-title = ¡Matyox ruma xak’ëx!
-# Variables:
-# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
-# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
-subscriptionUpgrade-upgrade-info = Ütz xak'ëx ri { $productNameOld } rik'in { $productName }.
-# Variables:
-# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
-subscriptionUpgrade-install = K'o chi nayäk jun k'ak'a' cholkema' richin nawokisaj { $productName }, xtak'ül jun taqoya'l akuchi' niya' rutzijol rub'eyal xtaqasaj.
 subscriptionUpgrade-auto-renew = Xtijalatäj ri rutz’ib‘axik ab'i' toq xtanojisala' paktura', man ke ta ri' we xtaq'ät.
 unblockCode-subject = Rub’itz‘ib' ruya'oj q'ij ri rub'i' taqoya'l
 unblockCode-title = ¿La ja rat yatajowan natikirisaj molojri’ïl?

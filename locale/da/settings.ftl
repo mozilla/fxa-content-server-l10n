@@ -1748,8 +1748,6 @@ signin-reported-message = Vores team har fået besked. Rapporter som denne hjæl
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 signin-token-code-heading-2 = Indtast bekræftelseskoden<span> til din { -product-mozilla-account }</span>
-# { $email } represents the email that the user entered to sign in
-signin-token-code-instruction = Indtast koden, der blev sendt til { $email }, indenfor 5 minutter.
 signin-token-code-input-label-v2 = Indtast 6-cifret kode
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Bekræft
@@ -1814,8 +1812,6 @@ confirm-signup-code-page-title = Indtast bekræftelseskode
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 confirm-signup-code-heading-2 = Indtast bekræftelseskoden <span>til din { -product-mozilla-account }</span>
-# { $email } represents the email that the user entered to sign in
-confirm-signup-code-instruction = Indtast koden, der blev sendt til { $email }, indenfor 5 minutter.
 confirm-signup-code-input-label = Indtast 6-cifret kode
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = Bekræft
@@ -1843,9 +1839,3 @@ signup-pocket-info-banner = Hvorfor skal jeg oprette denne konto?
 signup-pocket-info-banner-link = Find ud af det her
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Skift mailadresse
-# Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
-signup-age-check-label =
-    .label = Hvor gammel er du?
-# Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
-# This link appears just below signup-age-check-input-label
-signup-coppa-check-explanation-link = Hvorfor spørger vi om det?

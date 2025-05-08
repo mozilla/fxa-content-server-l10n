@@ -1166,8 +1166,6 @@ signin-reported-message = Наш тим је обавештен. Овакви и
 ## Users see this page during the signin process. In this instance, the confirmation code is
 ## a 6-digit code that is sent to the user's email address.
 
-# { $email } represents the email that the user entered to sign in
-signin-token-code-instruction = Унесите код који је послан на { $email } у року од 5 минута.
 signin-token-code-input-label-v2 = Унесите шестоцифрени код
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Потврди
@@ -1200,8 +1198,6 @@ signin-totp-code-required-error = Потребан је приступни кô�
 
 # Page title show in browser title bar or page tab
 confirm-signup-code-page-title = Унесите код за потврду
-# { $email } represents the email that the user entered to sign in
-confirm-signup-code-instruction = Унесите код који је послан на { $email } у року од 5 минута.
 confirm-signup-code-input-label = Унесите шестоцифрени код
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = Потврди
@@ -1218,9 +1214,3 @@ confirm-signup-code-is-required-error = Потребан је код за пот
 signup-heading = Поставите лозинку
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Промени е-пошту
-# Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
-signup-age-check-label =
-    .label = Колико имате година?
-# Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
-# This link appears just below signup-age-check-input-label
-signup-coppa-check-explanation-link = Зашто питамо?

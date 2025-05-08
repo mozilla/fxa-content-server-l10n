@@ -630,20 +630,6 @@ subscriptionSubsequentInvoice-content-next-invoice = Hóa đơn tiếp theo: { $
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = Bạn đã nâng cấp lên { $productName }
 subscriptionUpgrade-title = Cảm ơn bạn đã nâng cấp!
-# Variables:
-# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
-# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
-subscriptionUpgrade-upgrade-info = Bạn đã nâng cấp thành công từ { $productNameOld } thành { $productName }.
-# Variables:
-# $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
-# $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
-# $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
-# $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
-# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
-subscriptionUpgrade-content-charge-info-different-cycle = Bạn sẽ bị tính phí một lần { $paymentProrated } để phản ánh mức giá đăng ký cao hơn cho phần còn lại của { $productPaymentCycleOld } này. Bắt đầu với hóa đơn tiếp theo, khoản phí của bạn sẽ thay đổi từ { $paymentAmountOld } trên mỗi { $productPaymentCycleOld } thành { $paymentAmountNew } trên mỗi { $productPaymentCycleNew }.
-# Variables:
-# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
-subscriptionUpgrade-install = Nếu có phần mềm mới để bạn cài đặt để sử dụng { $productName }, bạn sẽ nhận được một email riêng với hướng dẫn tải xuống.
 subscriptionUpgrade-auto-renew = Thuê bao của bạn sẽ tự động gia hạn mỗi kỳ thanh toán trừ khi bạn chọn hủy.
 unblockCode-subject = Mã xác minh tài khoản
 unblockCode-title = Đây có phải là bạn đăng nhập không?
