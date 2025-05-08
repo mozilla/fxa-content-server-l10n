@@ -306,7 +306,7 @@ msgstr "请求签名中的时间戳无效"
 
 #: .es5/lib/auth-errors.js:43
 msgid "Invalid nonce in request signature"
-msgstr "请求签名中的随机数无效"
+msgstr "请求签名中的 nonce 无效"
 
 #: .es5/lib/auth-errors.js:47 .es5/lib/auth-errors.js:162 .es5/lib/auth-errors.js:174
 msgid "Account already exists"
