@@ -223,6 +223,8 @@ icon-attention-aria-label =
 # Aria-label option for an alert symbol
 icon-warning-aria-label =
     .aria-label = Varoitus
+authenticator-app-aria-label =
+    .aria-label = Todennussovellus
 # Used to select Canada as country code for phone number
 canadian-flag-icon-aria-label =
     .aria-label = Kanadan lippu
@@ -814,6 +816,7 @@ recent-activity-account-password-changed = Salasana vaihdettu
 recent-activity-account-secondary-email-added = Toissijainen sähköpostiosoite lisätty
 recent-activity-account-secondary-email-removed = Toissijainen sähköpostiosoite poistettu
 recent-activity-account-emails-swapped = Ensisijainen ja toissijainen sähköpostiosoite vaihdettu
+recent-activity-session-destroy = Kirjauduttu ulos istunnosta
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Muuta toimintaa tilillä
 
@@ -836,6 +839,8 @@ settings-recovery-phone-remove-cancel = Peruuta
 
 page-setup-recovery-phone-heading = Lisää palauttamisen puhelinnumero
 page-setup-recovery-phone-back-button-title = Takaisin asetuksiin
+# Back arrow to return to step 1 of recovery phone setup flow
+page-setup-recovery-phone-step2-back-button-title = Vaihda puhelinnumero
 
 ## Add secondary email page
 
@@ -891,6 +896,7 @@ tfa-incorrect-totp = Virheellinen kaksivaiheisen todennuksen koodi
 tfa-cannot-retrieve-code = Koodisi noutamisessa ilmeni ongelma.
 tfa-cannot-verify-code-4 = Varatodennuskoodisi vahvistamisessa ilmeni ongelma
 tfa-incorrect-recovery-code-1 = Virheellinen varatodennuskoodi
+tfa-enabled-v2 = Kaksivaiheinen todennus on otettu käyttöön
 tfa-scan-this-code =
     Skannaa tämä QR-koodi käyttäen jotain <linkExternal>näistä
     todennussovelluksista</linkExternal>.
@@ -973,9 +979,13 @@ tfa-row-backup-codes-available-v2 =
         [one] { $numCodesAvailable } koodi jäljellä
        *[other] { $numCodesAvailable } koodia jäljellä
     }
+# Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
+tfa-row-backup-codes-get-new-cta-v2 = Luo uudet koodit
 # Shown to users who have no backup authentication codes
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = Lisää
+# Shown with an alert icon to indicate that no recovery phone is configured
+tfa-row-backup-phone-not-available-v2 = Puhelinnumeroa ei ole lisätty
 # button to change the configured recovery phone
 tfa-row-backup-phone-change-cta = Vaihda
 # button to add/configure a recovery phone
@@ -1125,6 +1135,7 @@ auth-error-114-generic = Olet yrittänyt liian monta kertaa. Yritä uudestaan my
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Olet yrittänyt liian monta kertaa. Odota { $retryAfter } ja yritä uudelleen.
 auth-error-125 = Pyyntö estettiin tietoturvasyistä
+auth-error-129-2 = Kirjoitit virheellisen puhelinnumeron. Tarkista se ja yritä uudelleen.
 auth-error-138-2 = Vahvistamaton istunto
 auth-error-139 = Toissijainen sähköpostiosoite ei saa olla sama kuin tilisi ensisijainen sähköpostiosoite
 auth-error-155 = TOTP-polettia ei löytynyt
@@ -1148,6 +1159,11 @@ auth-error-1054 = Virheellinen kaksivaiheisen todennuksen koodi
 auth-error-1062 = Virheellinen uudelleenohjaus
 auth-error-1066 = Sähköpostimaskeja ei voi käyttää tilin luomiseen.
 auth-error-1067 = Kirjoititko sähköpostiosoitteesi väärin?
+# Displayed when we want to reference a user's previously set up recovery phone
+# number, but they are not completely signed in yet. We'll only show the last 4 digits.
+# Variables:
+#  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
+recovery-phone-number-ending-digits = Numero, joka päättyy { $lastFourPhoneNumber }
 oauth-error-1000 = Jokin meni pieleen. Sulje tämä välilehti ja yritä uudelleen.
 
 ## Cannot Create Account page
@@ -1201,6 +1217,7 @@ index-header = Kirjoita sähköpostiosoitteesi
 index-sync-header = Jatka { -product-mozilla-account }llesi
 index-sync-subheader = Synkronoi salasanat, välilehdet ja kirjanmerkit kaikkialla, missä käytät { -brand-firefox }ia.
 index-relay-header = Luo sähköpostimaski
+index-relay-subheader = Anna sähköpostiosoite, johon haluat välittää sähköpostiviestit sähköpostimaskistasi.
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = Jatka palveluun { $serviceName }
 index-subheader-with-logo = Jatka palveluun <span>{ $serviceLogo }</span>
@@ -1208,6 +1225,10 @@ index-subheader-default = Jatka tilin asetuksiin
 index-cta = Rekisteröidy tai kirjaudu sisään
 index-email-input =
     .label = Kirjoita sähköpostiosoitteesi
+# When users delete their Mozilla account inside account Settings, they are redirected to this page with a success message
+index-account-delete-success = Tilin poistaminen onnistui
+# Displayed when users try to sign up for an account and their confirmation code email bounces
+index-email-bounced = Vahvistussähköpostisi palautui juuri. Kirjoititko sähköpostiosoitteesi väärin?
 
 ## InlineRecoveryKeySetup page component
 
