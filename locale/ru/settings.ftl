@@ -852,6 +852,9 @@ recent-activity-account-recovery-phone-removed = Телефон для восс�
 recent-activity-account-recovery-codes-replaced = Коды восстановления заменены
 recent-activity-account-recovery-codes-created = Коды восстановления созданы
 recent-activity-account-recovery-codes-signin-complete = Вход с кодами восстановления завершён
+recent-activity-password-reset-otp-sent = Код подтверждения для сброса пароля отправлен
+recent-activity-password-reset-otp-verified = Код подтверждения для сброса пароля подтверждён
+recent-activity-must-reset-password = Требуется сброс пароля
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Другая активность аккаунта
 
