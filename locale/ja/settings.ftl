@@ -199,9 +199,22 @@ get-data-trio-print-2 =
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
+# Aria-label option for an alert symbol
+alert-icon-aria-label =
+    .aria-label = 警告標識
+backup-codes-icon-aria-label-v2 =
+    .aria-label = バックアップ認証コードが有効
+backup-codes-disabled-icon-aria-label-v2 =
+    .aria-label = バックアップ認証コードが無効
 # Used to select Canada as country code for phone number
 canadian-flag-icon-aria-label =
     .aria-label = カナダ国旗
+# Used to  indicate a general checkmark, as in something checked off in a list!
+checkmark-icon-aria-label =
+    .aria-label = チェックマーク
+# Used to indicate a check mark for an enabled state/option
+checkmark-enabled-icon-aria-label =
+    .aria-label = 有効
 # Used on X icon to dismiss a message such as an alert or banner
 close-icon-aria-label =
     .aria-label = メッセージを閉じる
