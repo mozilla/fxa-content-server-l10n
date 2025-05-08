@@ -1137,6 +1137,7 @@ index-header = メールアドレスを入力
 index-sync-header = { -product-mozilla-account }へ進む
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = { $serviceName } へ進む
+index-subheader-with-logo = <span>{ $serviceLogo }</span> に進む
 index-subheader-default = アカウント設定に進む
 index-cta = ログインまたはアカウント登録
 index-email-input =

@@ -75,6 +75,10 @@ next-coupon-submit = 適用
 
 # Component - Header
 
+payments-header-bento =
+    .title = { -brand-mozilla } 製品
+    .aria-label = { -brand-mozilla } 製品
+    .alt = { -brand-mozilla } ロゴ
 payments-header-bento-close =
     .alt = 閉じる
 payments-header-bento-firefox-relay = { -product-firefox-relay }
