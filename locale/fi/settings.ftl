@@ -1146,6 +1146,8 @@ auth-error-1031 = Ikä täytyy antaa rekisteröitymistä varten
 auth-error-1032 = Sinun tulee antaa kelvollinen ikä rekisteröityäksesi
 auth-error-1054 = Virheellinen kaksivaiheisen todennuksen koodi
 auth-error-1062 = Virheellinen uudelleenohjaus
+auth-error-1066 = Sähköpostimaskeja ei voi käyttää tilin luomiseen.
+auth-error-1067 = Kirjoititko sähköpostiosoitteesi väärin?
 oauth-error-1000 = Jokin meni pieleen. Sulje tämä välilehti ja yritä uudelleen.
 
 ## Cannot Create Account page
@@ -1198,6 +1200,7 @@ cookies-disabled-learn-more = Lue lisää
 index-header = Kirjoita sähköpostiosoitteesi
 index-sync-header = Jatka { -product-mozilla-account }llesi
 index-sync-subheader = Synkronoi salasanat, välilehdet ja kirjanmerkit kaikkialla, missä käytät { -brand-firefox }ia.
+index-relay-header = Luo sähköpostimaski
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = Jatka palveluun { $serviceName }
 index-subheader-with-logo = Jatka palveluun <span>{ $serviceLogo }</span>
@@ -1246,6 +1249,7 @@ inline-recovery-confirmation-header-default = Vahvista varatodennuskoodi <span>j
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = Vahvista varatodennuskoodi <span>jatkaaksesi palveluun { $serviceName }</span>
+inline-recovery-2fa-enabled-v2 = Kaksivaiheinen todennus on otettu käyttöön
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1595,6 +1599,7 @@ signin-recovery-phone-send-code-error-heading = Koodin lähettämisessä oli ong
 signin-recovery-phone-code-verification-error-heading = Koodisi vahvistamisessa oli ongelma
 # Follows the error message (e.g, "There was a problem sending a code")
 signin-recovery-phone-general-error-description = Yritä myöhemmin uudelleen.
+signin-recovery-phone-invalid-code-error-description = Koodi on virheellinen tai vanhentunut.
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
