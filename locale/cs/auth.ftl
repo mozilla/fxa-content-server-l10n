@@ -615,6 +615,12 @@ subscriptionRenewalReminder-content-closing = S pozdravem,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = Tým produktu { $productName }
+subscriptionReplaced-subject = Vaše předplatné bylo aktualizováno jako součást vašeho povýšení
+subscriptionReplaced-title = Vaše předplatné bylo aktualizováno
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReplaced-content-replaced = Vaše individuální předplatné produktu { $productName } bylo nahrazeno a je nyní zahrnuto v novém balíčku.
+subscriptionReplaced-content-credit = Obdržíte kredit za nevyužitý čas v rámci předchozího předplatného. Tento kredit bude automaticky připsán na váš účet a použit k úhradě budoucích plateb.
+subscriptionReplaced-content-no-action = Z vaší strany není vyžadována žádná akce.
 subscriptionsPaymentExpired-subject-1 = Platnost platební karty pro vaše předplatné vypršela nebo brzy vyprší
 subscriptionsPaymentExpired-title-1 = Platnost vaší platební karty vypršela nebo brzy vyprší
 subscriptionsPaymentExpired-content-1 = Platnost kreditní karty, kterou používáte k platbám za následující předplatné, vypršela nebo brzy vyprší.
@@ -636,6 +642,20 @@ subscriptionSubsequentInvoice-content-next-invoice = Další platba: { $nextInvo
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = Úspěšně jste aktualizovali na produkt { $productName }
 subscriptionUpgrade-title = Děkujeme za povýšení vašeho předplatného.
+# Variables:
+# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
+# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-upgrade-info-2 = Úspěšně jste přešli na { $productName }.
+# Variables:
+# $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
+# $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
+# $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
+# $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
+# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+subscriptionUpgrade-content-charge-info-different-cycle-2 = Byl vám účtován jednorázový poplatek { $paymentProrated }, který odráží vyšší cenu za vaše předplatné po zbytek období { $productPaymentCycleOld }. Od příštího vyúčtování se váš poplatek změní z { $paymentAmountOld } za { $productPaymentCycleOld } na { $paymentAmountNew } za { $productPaymentCycleNew }.
+# Variables:
+# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-existing = Pokud se některé z vašich stávajících předplatných překrývá s tímto upgradem, my se tím budeme zabývat a zašleme vám samostatný e-mail s podrobnostmi. Pokud váš nový plán obsahuje produkty, které vyžadují instalaci, zašleme vám samostatný e-mail s pokyny k nastavení.
 subscriptionUpgrade-auto-renew = Vaše předplatné se bude každé fakturační období automaticky obnovovat, dokud ho nezrušíte.
 unblockCode-subject = Autorizační kód účtu
 unblockCode-title = Jste to vy, kdo se přihlašuje?

@@ -611,6 +611,12 @@ subscriptionRenewalReminder-content-closing = Mit freundlichen Grüßen
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = Das { $productName }-Team
+subscriptionReplaced-subject = Ihr Abonnement wurde als Teil Ihres Upgrades aktualisiert
+subscriptionReplaced-title = Ihr Abonnement wurde aktualisiert
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReplaced-content-replaced = Ihr individuelles { $productName }-Abonnement wurde ersetzt und ist jetzt in Ihrem neuen Paket enthalten.
+subscriptionReplaced-content-credit = Für nicht genutzte Zeit aus Ihrem vorherigen Abonnement erhalten Sie eine Gutschrift. Dieses Guthaben wird automatisch Ihrem Konto gutgeschrieben und für zukünftige Abbuchungen verwendet.
+subscriptionReplaced-content-no-action = Es ist kein Ihr Handeln erforderlich.
 subscriptionsPaymentExpired-subject-1 = Die Kreditkarte für Ihre Abonnements ist abgelaufen oder läuft bald ab
 subscriptionsPaymentExpired-title-1 = Ihre Kreditkarte ist abgelaufen oder läuft bald ab
 subscriptionsPaymentExpired-content-1 = Die Kreditkarte, die Sie zum Bezahlen der folgenden Abonnements verwenden, ist abgelaufen oder läuft bald ab.
@@ -632,6 +638,20 @@ subscriptionSubsequentInvoice-content-next-invoice = Nächste Rechnung: { $nextI
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = Sie haben ein Upgrade auf { $productName } durchgeführt
 subscriptionUpgrade-title = Vielen Dank für das Upgrade!
+# Variables:
+# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
+# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-upgrade-info-2 = Sie haben erfolgreich das Upgrade auf { $productName } durchgeführt.
+# Variables:
+# $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
+# $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
+# $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
+# $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
+# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+subscriptionUpgrade-content-charge-info-different-cycle-2 = Ihnen wurde eine einmalige Gebühr in Höhe von { $paymentProrated } berechnet, um den höheren Preis Ihres Abonnements für den Rest dieser { $productPaymentCycleOld } widerzuspiegeln. Ab Ihrer nächsten Rechnung ändert sich Ihre Gebühr von { $paymentAmountOld } pro { $productPaymentCycleOld } auf { $paymentAmountNew } pro { $productPaymentCycleNew }.
+# Variables:
+# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-existing = Wenn sich Ihre bestehenden Abonnements bei diesem Upgrade überschneiden, bearbeiten wir diese und schicken Ihnen eine separate E-Mail mit den Details. Wenn Ihr neuer Plan Produkte enthält, die installiert werden müssen, senden wir Ihnen eine separate E-Mail mit Anweisungen zur Einrichtung.
 subscriptionUpgrade-auto-renew = Ihr Abonnement verlängert sich automatisch jeden Abrechnungszeitraum, sofern Sie nicht kündigen.
 unblockCode-subject = Konto-Autorisierungscode
 unblockCode-title = Sind Sie das, der sich da anmeldet?

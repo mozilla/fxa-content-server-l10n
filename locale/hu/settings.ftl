@@ -1752,6 +1752,8 @@ signin-reported-message = Értesítette csapatunkat. Az ilyen jelentések segít
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 signin-token-code-heading-2 = Adja meg a megerősítő kódot<span> a { -product-mozilla-account }</span> számára
+# { $email } represents the email that the user entered to sign in
+signin-token-code-instruction-v2 = Adja meg 5 percen belül a(z) <email>{ $email }</email> címre küldött kódot.
 signin-token-code-input-label-v2 = Adja meg a 6 számjegyű kódot
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Megerősítés
@@ -1816,6 +1818,8 @@ confirm-signup-code-page-title = Adja meg a megerősítő kódot
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 confirm-signup-code-heading-2 = Adja meg a megerősítő kódot <span>a { -product-mozilla-account }</span> számára
+# { $email } represents the email that the user entered to sign in
+confirm-signup-code-instruction-v2 = Adja meg 5 percen belül a(z) <email>{ $email }</email> címre küldött kódot.
 confirm-signup-code-input-label = Adja meg a 6 számjegyű kódot
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = Megerősítés

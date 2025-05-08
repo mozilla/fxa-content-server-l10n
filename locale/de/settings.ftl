@@ -1741,6 +1741,8 @@ signin-reported-message = Unser Team wurde benachrichtigt. Meldungen wie diese h
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 signin-token-code-heading-2 = Geben Sie den Bestätigungscode <span>für Ihr { -product-mozilla-account }</span> ein
+# { $email } represents the email that the user entered to sign in
+signin-token-code-instruction-v2 = Geben Sie innerhalb von fünf Minuten den Code ein, der an <email>{ $email }</email> gesendet wurde.
 signin-token-code-input-label-v2 = 6-stelligen Code eingeben
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Bestätigen
@@ -1805,6 +1807,8 @@ confirm-signup-code-page-title = Bestätigungscode eingeben
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 confirm-signup-code-heading-2 = Geben Sie den Bestätigungscode <span>für Ihr { -product-mozilla-account }</span> ein
+# { $email } represents the email that the user entered to sign in
+confirm-signup-code-instruction-v2 = Geben Sie innerhalb von fünf Minuten den Code ein, der an <email>{ $email }</email> gesendet wurde.
 confirm-signup-code-input-label = 6-stelligen Code eingeben
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = Bestätigen

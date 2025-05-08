@@ -1749,6 +1749,8 @@ signin-reported-message = Mae ein tîm wedi eu hysbysu. Mae adroddiadau fel hyn 
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 signin-token-code-heading-2 = Rhowch y cod cadarnhau <span> ar gyfer eich cyfrif { -product-mozilla-account }</span>
+# { $email } represents the email that the user entered to sign in
+signin-token-code-instruction-v2 = Rhowch y cod anfonwyd at <email>{ $email }</email> o fewn 5 munud.
 signin-token-code-input-label-v2 = Rhowch y cod 6 digid
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Cadarnhau
@@ -1813,6 +1815,8 @@ confirm-signup-code-page-title = Rhowch y cod dilysu
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 confirm-signup-code-heading-2 = Rhowch god cadarnhau <span>ar gyfer eich cyfrif { -product-mozilla-account }</span>
+# { $email } represents the email that the user entered to sign in
+confirm-signup-code-instruction-v2 = Rhowch y cod anfonwyd at <email>{ $email }</email> o fewn 5 munud.
 confirm-signup-code-input-label = Rhowch y cod 6 digid
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = Cadarnhau

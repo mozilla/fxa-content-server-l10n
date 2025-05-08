@@ -1752,6 +1752,8 @@ signin-reported-message = Naša ekipa je bila obveščena. Takšna poročila nam
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 signin-token-code-heading-2 = Vnesite potrditveno kodo<span> za svoj { -product-mozilla-account }</span>
+# { $email } represents the email that the user entered to sign in
+signin-token-code-instruction-v2 = Vnesite kodo, ki je bila poslana na <email>{ $email }</email>, v 5 minutah.
 signin-token-code-input-label-v2 = Vnesite 6-mestno kodo
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Potrdi
@@ -1816,6 +1818,8 @@ confirm-signup-code-page-title = Vnesite potrditveno kodo
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 confirm-signup-code-heading-2 = Vnesite potrditveno kodo <span>za svoj { -product-mozilla-account }</span>
+# { $email } represents the email that the user entered to sign in
+confirm-signup-code-instruction-v2 = Vnesite kodo, ki je bila poslana na <email>{ $email }</email>, v 5 minutah.
 confirm-signup-code-input-label = Vnesite 6-mestno kodo
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = Potrdi

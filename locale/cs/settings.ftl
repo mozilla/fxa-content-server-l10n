@@ -1743,6 +1743,8 @@ signin-reported-message = Náš tým byl upozorněn. Zprávy jako tato nám pom�
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 signin-token-code-heading-2 = Zadejte potvrzovací kód<span> pro váš { -product-mozilla-account(case: "acc", capitalization: "lower") }</span>
+# { $email } represents the email that the user entered to sign in
+signin-token-code-instruction-v2 = Vložte během 5 minut kód, který vám byl zaslán na <email>{ $email }</email>.
 signin-token-code-input-label-v2 = Zadejte šestimístný kód
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Potvrdit
@@ -1807,6 +1809,8 @@ confirm-signup-code-page-title = Zadejte potvrzovací kód
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 confirm-signup-code-heading-2 = Zadejte potvrzovací kód<span>pro svůj { -product-mozilla-account(case: "acc", capitalization: "lower") }</span>
+# { $email } represents the email that the user entered to sign in
+confirm-signup-code-instruction-v2 = Vložte během 5 minut kód, který vám byl zaslán na <email>{ $email }</email>.
 confirm-signup-code-input-label = Zadejte šestimístný kód
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = Potvrdit

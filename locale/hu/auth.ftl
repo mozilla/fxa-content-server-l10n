@@ -611,6 +611,12 @@ subscriptionRenewalReminder-content-closing = Üdvözlettel,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = A { $productName } csapat
+subscriptionReplaced-subject = Az előfizetése a frissítés részeként frissítve lett
+subscriptionReplaced-title = Az előfizetése frissítve lett
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReplaced-content-replaced = Az egyéni { $productName } előfizetése le lett cserélve, és az új csomag része.
+subscriptionReplaced-content-credit = Az előző előfizetése során fel nem használt idő után jóváírást kap. Ez a jóváírás automatikusan jóváírásra kerül a fiókjában, és a jövőbeni terhekre lesz felhasználva.
+subscriptionReplaced-content-no-action = Nincs teendője az Ön részéről.
 subscriptionsPaymentExpired-subject-1 = Az előfizetéseihez tartozó bankkártya lejárt vagy hamarosan lejár
 subscriptionsPaymentExpired-title-1 = A bankkártyája lejárt vagy hamarosan lejár
 subscriptionsPaymentExpired-content-1 = A következő előfizetésekhez használt bankkártyája lejárt vagy hamarosan lejár.
@@ -632,6 +638,20 @@ subscriptionSubsequentInvoice-content-next-invoice = Következő számla: { $nex
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = Frissített erre: { $productName }
 subscriptionUpgrade-title = Köszönjük, hogy magasabb csomagra frissített!
+# Variables:
+# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
+# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-upgrade-info-2 = Sikeresen frissített erre: { $productName }.
+# Variables:
+# $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
+# $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
+# $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
+# $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
+# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+subscriptionUpgrade-content-charge-info-different-cycle-2 = Egy egyszeri { $paymentProrated } összegű díjat terheltünk meg, amely a(z) { $productPaymentCycleOld } hátralévő részében az előfizetés magasabb árát tükrözi. A következő számlától fogva a terhelése megváltozik { $paymentAmountOld }/{ $productPaymentCycleOld } összegről erre: { $paymentAmountNew }/{ $productPaymentCycleNew }.
+# Variables:
+# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-existing = Ha bármelyik meglévő előfizetése átfedi ezt a frissítést, akkor kezeljük azt, és külön e-mailt küldünk a részletekről. Ha az új előfizetése telepítést igénylő termékeket tartalmaz, akkor külön e-mailt küldünk a beállítási utasításokkal.
 subscriptionUpgrade-auto-renew = Előfizetése számlázási időszakonként automatikusan megújul, hacsak nem dönt úgy, hogy lemondja.
 unblockCode-subject = Fiók engedélyezési kód
 unblockCode-title = Ez az ön bejelentkezése?
