@@ -610,6 +610,7 @@ subscriptionRenewalReminder-content-signature = { $productName } 团队
 subscriptionReplaced-title = 您的订阅已更新
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReplaced-content-replaced = 已替换您单独的 { $productName } 订阅，其现已包含在您新的捆绑包中。
+subscriptionReplaced-content-credit = 上个订阅中未使用的天数将以余额形式返还至您的账户。余额将自动添加到您的帐户，并抵扣将来的费用。
 subscriptionReplaced-content-no-action = 您无需执行任何操作。
 subscriptionsPaymentExpired-subject-1 = 您用于支付订阅的信用卡已过期或即将到期
 subscriptionsPaymentExpired-title-1 = 您的信用卡已过期或即将到期
