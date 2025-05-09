@@ -615,7 +615,7 @@ subscriptionRenewalReminder-content-closing = S pozdravem,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = Tým produktu { $productName }
-subscriptionReplaced-subject = Vaše předplatné bylo aktualizováno jako součást vašeho povýšení
+subscriptionReplaced-subject = Vaše předplatné bylo aktualizováno v rámci upgradu
 subscriptionReplaced-title = Vaše předplatné bylo aktualizováno
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReplaced-content-replaced = Vaše individuální předplatné produktu { $productName } bylo nahrazeno a je nyní zahrnuto v novém balíčku.
