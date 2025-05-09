@@ -611,6 +611,7 @@ subscriptionReplaced-subject = 因升級方案，已更新您的訂閱內容
 subscriptionReplaced-title = 已更新您的訂閱內容
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReplaced-content-replaced = 您原先的 { $productName } 單套訂閱已被取代為新套裝訂閱中的一部分。
+subscriptionReplaced-content-credit = 您將會以帳號餘額的方式，收到先前訂閱內容未使用的時間的餘額退款。此餘額會自動於您的帳號生效，可於未來付款時抵用。
 subscriptionReplaced-content-no-action = 您這邊不需要再做任何事。
 subscriptionsPaymentExpired-subject-1 = 訂購多項產品所使用的信用卡即將過期，或已過期
 subscriptionsPaymentExpired-title-1 = 您的信用卡即將過期，或已過期
