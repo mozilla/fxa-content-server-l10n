@@ -445,9 +445,6 @@ sub-update-new-plan-weekly = { $productName } (שבועי)
 sub-update-new-plan-monthly = { $productName } (חודשי)
 sub-update-new-plan-yearly = { $productName } (שנתי)
 
-##
-
-
 ## Routes - Subscriptions - Cancel
 
 sub-item-cancel-sub = ביטול מינוי
@@ -462,6 +459,18 @@ sub-item-cancel-msg =
 sub-item-cancel-confirm =
     בטלו את הגישה ואת המידע השמור שלי
     בתוך { $name } בתאריך { $period }
+# $promotion_name (String) - The name of the promotion.
+# The <priceDetails></priceDetails> component acts as a placeholder and could use one of the following IDs:
+# price-details-tax-${interval},
+# price-details-no-tax-${interval},
+# price-details-tax,
+# price-details-no-tax
+# Examples:
+# 20% OFF coupon applied: $11.20 + $0.35 tax monthly
+# Holiday Offer 2023 coupon applied: $11.20 monthly
+# Cybersecurity Awareness Month 2023 coupon applied: $11.20 + $0.35 tax
+# Summer Promo VPN coupon applied: $11.20
+sub-promo-coupon-applied = קופון של { $promotion_name } הוחל: <priceDetails></priceDetails>
 
 ## Routes - Subscription
 

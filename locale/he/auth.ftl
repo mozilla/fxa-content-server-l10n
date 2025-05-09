@@ -598,6 +598,9 @@ subscriptionUpgrade-title = תודה ששידרגת!
 # $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-upgrade-info-2 = שודרגת בהצלחה ל־{ $productName }.
+# Variables:
+# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-existing = אם יש לך מינויים קיימים החופפים לשדרוג זה, נטפל בהם ונשלח לך הודעת דוא״ל נפרדת עם הפרטים. אם התוכנית החדשה שלך כוללת מוצרים הדורשים התקנה, נשלח לך דוא״ל נפרד עם הוראות התקנה.
 subscriptionUpgrade-auto-renew = המינוי שלך יתחדש באופן אוטומטי בכל תקופת חיוב אלא אם בחרת לבטל.
 unblockCode-subject = קוד הרשאת חשבון
 unblockCode-title = האם התחברות זו מוכרת לך?

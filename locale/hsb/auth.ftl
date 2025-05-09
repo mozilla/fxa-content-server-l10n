@@ -619,6 +619,7 @@ subscriptionReplaced-subject = Waš abonement je so jako dźěl wašeje aktualiz
 subscriptionReplaced-title = Waš abonement je so zaktualizował
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReplaced-content-replaced = Waš jednotliwy abonement { $productName } je so wuměnił a je nětko we wašim pakeće wobsahowany.
+subscriptionReplaced-content-credit = Dóstanjeće dobropis za njewužity čas ze swojeho předchadneho abonementa. Tutón dobropis so awtomatisce na waše konto nałoži a za přichodne popłatki wužiwa.
 subscriptionReplaced-content-no-action = Z wašeje strony akcija trěbna njeje.
 subscriptionsPaymentExpired-subject-1 = Kreditna karta za swoje abonementy je spadnyła abo bórze spadnje
 subscriptionsPaymentExpired-title-1 = Waša kreditna karta je spadnyła abo bórze spadnje
