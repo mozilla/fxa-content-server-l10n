@@ -236,6 +236,7 @@ downloadSubscription-content-2 = Aha bdu aseqdec n meṛṛa timahilin yeddan de
 downloadSubscription-link-action-2 = Bdu
 fraudulentAccountDeletion-subject-2 = { -product-mozilla-account } inek yettwakkes
 fraudulentAccountDeletion-title = Amiḍan-ik•im yettwakkes
+inactiveAccountFinalWarning-title = Amiḍan-ik·im { -brand-mozilla } akked isefka-inek·inem ad ttwakksen
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title-zero = Ur tesɛiḍ ula  yiwet n tengalt n usesteb n uḥraz!
 codes-reminder-title-one = Tesseqdaceḍ tangalt-ik·im taneggarut  n usesteb n uḥraz
