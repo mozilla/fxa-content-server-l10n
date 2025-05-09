@@ -619,6 +619,7 @@ subscriptionReplaced-subject = Waš abonement jo se zaktualizěrował ako źěl 
 subscriptionReplaced-title = Waš abonement jo se zaktualizěrował
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReplaced-content-replaced = Waš jadnotliwy abonement { $productName } jo se wuměnił a jo něnto we wašom pakeśe wopśimjony.
+subscriptionReplaced-content-credit = Dostanjośo pśipisanje za njewužyty cas ze swójogo pjerwjejšnego abonementa. Toś to pśipisanje se awtomatiski na wašo konto nałožyjo a za pśichodne płaśonki wužywa.
 subscriptionReplaced-content-no-action = Z wašogo boka akcija njejo trjebna.
 subscriptionsPaymentExpired-subject-1 = Kreditowa kórta za swóje abonementy jo spadnuła abo skóro spadnjo
 subscriptionsPaymentExpired-title-1 = Waša kreditowa kórta jo spadnuła abo skóro spadnjo
@@ -652,6 +653,9 @@ subscriptionUpgrade-upgrade-info-2 = Sćo wuspěšnje aktualizěrował na { $pro
 # $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 # $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 subscriptionUpgrade-content-charge-info-different-cycle-2 = Sće se wobśěžył z jadnorazowym płaśonkom { $paymentProrated }, aby se wuša płaśizna abonementa za zbytk toś togo { $paymentProrated } wótbłyšćował. Z wašeju pśiduceju zliceńku se waš płaśonk wót { $paymentAmountOld } na { $productPaymentCycleOld } do { $paymentAmountNew } na { $productPaymentCycleNew } změnijo.
+# Variables:
+# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-existing = Jolic se jaden z wašych eksistěrujucych abonementow z toś teju aktualizaciju prěkuju, buźomy se z nim zaběraś a wam separatnu mejlku z drobnostkami słaś. Jolic waš nowy plan produkty wopśimujo, kótarež se instalaciju pominaju, buźomy wam separatnu mejlku z instalaciskimi instrukcijami słaś.
 subscriptionUpgrade-auto-renew = Waš abonement se awtomatiski kuždy cas wótlicenja pśedlejšyjo, snaźkuli wupowěźejośo.
 unblockCode-subject = Awtorizěrowański kod konta
 unblockCode-title = Cośo se wy pśizjawiś?
