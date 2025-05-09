@@ -1716,6 +1716,8 @@ signin-reported-message = 已通知我們的營運團隊。像這樣的回報可
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 signin-token-code-heading-2 = 請輸入您的確認碼 <span>{ -product-mozilla-account }</span>
+# { $email } represents the email that the user entered to sign in
+signin-token-code-instruction-v2 = 請在 5 分鐘內輸入寄送到 <email>{ $email }</email> 的代碼。
 signin-token-code-input-label-v2 = 請輸入六位數的安全碼
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = 確認
@@ -1780,6 +1782,8 @@ confirm-signup-code-page-title = 請輸入確認碼
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 confirm-signup-code-heading-2 = 請輸入您的確認碼 <span>{ -product-mozilla-account }</span>
+# { $email } represents the email that the user entered to sign in
+confirm-signup-code-instruction-v2 = 請在 5 分鐘內輸入寄送到 <email>{ $email }</email> 的代碼。
 confirm-signup-code-input-label = 請輸入六位數的驗證碼
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = 確認
