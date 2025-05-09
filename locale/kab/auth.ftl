@@ -237,6 +237,19 @@ downloadSubscription-link-action-2 = Bdu
 fraudulentAccountDeletion-subject-2 = { -product-mozilla-account } inek yettwakkes
 fraudulentAccountDeletion-title = Amiḍan-ik•im yettwakkes
 inactiveAccountFinalWarning-title = Amiḍan-ik·im { -brand-mozilla } akked isefka-inek·inem ad ttwakksen
+inactiveAccountFinalWarning-preview = Kcem akken ad tḥerzeḍ amiḍan-ik·im
+inactiveAccountFinalWarning-action = Kcem akken ad tḥerzeḍ amiḍan-ik·im
+# followed by link to sign in
+inactiveAccountFinalWarning-action-plaintext = Kcem akken ad tḥerzeḍ amiḍan-ik·im:
+inactiveAccountFirstWarning-subject = Ur sṛuḥuy ara amiḍan-ik·im
+inactiveAccountFirstWarning-action = Kcem akken ad tḥerzeḍ amiḍan-ik·im
+inactiveAccountFirstWarning-preview = Kcem akken ad tḥerzeḍ amiḍan-ik·im
+# followed by link to sign in
+inactiveAccountFirstWarning-action-plaintext = Kcem akken ad tḥerzeḍ amiḍan-ik·im:
+inactiveAccountSecondWarning-action = Kcem akken ad tḥerzeḍ amiḍan-ik·im
+inactiveAccountSecondWarning-preview = Kcem akken ad tḥerzeḍ amiḍan-ik·im
+# followed by link to sign in
+inactiveAccountSecondWarning-action-plaintext = Kcem akken ad tḥerzeḍ amiḍan-ik·im:
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title-zero = Ur tesɛiḍ ula  yiwet n tengalt n usesteb n uḥraz!
 codes-reminder-title-one = Tesseqdaceḍ tangalt-ik·im taneggarut  n usesteb n uḥraz

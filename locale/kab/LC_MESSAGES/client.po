@@ -1131,7 +1131,7 @@ msgstr "Tettuḍ awal uffir?"
 
 #: .es5/templates/index.mustache:1
 msgid "Continue to your Mozilla account"
-msgstr ""
+msgstr "Kemmel ar amiḍan-ikar·im Mozilla"
 
 #: .es5/templates/index.mustache:2
 msgid "Sync your passwords, tabs, and bookmarks everywhere you use Firefox."

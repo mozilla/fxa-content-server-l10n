@@ -88,6 +88,12 @@ payments-header-bento-firefox-desktop = Iminig { -brand-firefox } i tnarit
 payments-header-bento-firefox-mobile = Iminig { -brand-firefox } i uziraz
 payments-header-bento-monitor = { -product-mozilla-monitor }
 payments-header-bento-firefox-relay = { -product-firefox-relay }
+payments-header-bento-vpn = { -product-mozilla-vpn }
+payments-header-bento-pocket = { -product-pocket }
+payments-header-avatar-icon =
+    .alt = Tugna n umaɣnu n umiḍan
+payments-header-avatar-expanded-signed-in-as = Tkecmeḍ s yisem
+payments-header-avatar-expanded-sign-out = Ffeɣ
 payments-client-loading-spinner =
     .aria-label = Asali…
     .alt = Asali…
@@ -113,6 +119,7 @@ select-tax-location-title = Adig
 select-tax-location-edit-button = Ẓreg
 select-tax-location-save-button = Sekles
 select-tax-location-country-code-label = Tamurt
+select-tax-location-country-code-placeholder = Fren tamurt·ik·im
 select-tax-location-error-missing-country-code = Ttxil-k fren tamurt-ik
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN
 select-tax-location-product-not-available = { $productName } ulac-it deg waddig-a.
@@ -120,6 +127,9 @@ select-tax-location-postal-code-label = Tangalt n pusṭa
 select-tax-location-postal-code =
     .placeholder = Selkcem tangalt n lbusṭa
 select-tax-location-error-missing-postal-code = Ttxil-k selkcem tangalt n lbusṭa
+signin-form-continue-button = Kemmel
+signin-form-email-input = Sekcem imayl-inek·inem
+signin-form-email-input-missing = Sekcem-d imayl-ik·im, ma ulac aɣilif
 next-new-user-subscribe-product-assurance = Nseqdac kan imayl-ik·im i wakken ad nernu amiḍan-ik·im. Urǧin ad t-nsenz i wis kraḍ.
 
 ## Component - PriceInterval
