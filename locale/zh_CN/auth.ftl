@@ -607,6 +607,8 @@ subscriptionRenewalReminder-content-closing = 此致，
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = { $productName } 团队
+subscriptionReplaced-title = 您的订阅已更新
+subscriptionReplaced-content-no-action = 您无需执行任何操作。
 subscriptionsPaymentExpired-subject-1 = 您用于支付订阅的信用卡已过期或即将到期
 subscriptionsPaymentExpired-title-1 = 您的信用卡已过期或即将到期
 subscriptionsPaymentExpired-content-1 = 您用于支付以下订阅的信用卡已过期或即将到期。

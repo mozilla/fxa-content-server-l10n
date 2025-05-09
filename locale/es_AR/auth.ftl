@@ -616,7 +616,7 @@ subscriptionReplaced-title = Tu suscripción ha sido actualizada
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReplaced-content-replaced = Tu suscripción individual de { $productName } fue reemplazada y ahora está incluida en tu nuevo paquete.
 subscriptionReplaced-content-credit = Recibirás un crédito por el tiempo no utilizado de tu suscripción anterior. Este crédito se aplicará automáticamente a tu cuenta y se usará para cargos futuros.
-subscriptionReplaced-content-no-action = No se requiere ninguna acción de su parte.
+subscriptionReplaced-content-no-action = No se requiere ninguna acción de tu parte.
 subscriptionsPaymentExpired-subject-1 = La tarjeta de crédito para tus suscripciones ya venció o vencerá pronto
 subscriptionsPaymentExpired-title-1 = Tu tarjeta de crédito ya venció o está a punto de vencer
 subscriptionsPaymentExpired-content-1 = La tarjeta de crédito que estás usando para realizar los pagos de las siguientes suscripciones ya venció o está a punto de vencer.
