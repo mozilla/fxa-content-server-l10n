@@ -568,6 +568,10 @@ subscriptionRenewalReminder-content-closing = בברכה,
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = צוות { $productName }
 subscriptionReplaced-subject = המינוי שלך עודכן כחלק מהשדרוג שלך
+subscriptionReplaced-title = המינוי שלך עודכן
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReplaced-content-replaced = המינוי האישי שלך ל־{ $productName } הוחלף וכעת כלול בחבילה החדשה שלך.
+subscriptionReplaced-content-no-action = לא נדרשת כל פעולה מצידך.
 subscriptionsPaymentExpired-subject-1 = פג תוקף כרטיס האשראי עבור המינויים שלך, או שהוא יפוג בקרוב
 subscriptionsPaymentExpired-title-1 = פג תוקף כרטיס האשראי שלך, או שהוא יפוג בקרוב
 subscriptionsPaymentExpired-content-1 = פג תוקף כרטיס האשראי המשמש אותך לביצוע תשלומים עבור המינויים הבאים, או שהוא יפוג בקרוב.
@@ -589,6 +593,10 @@ subscriptionSubsequentInvoice-content-next-invoice = החשבונית הבאה: 
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = שידרגת ל־{ $productName }
 subscriptionUpgrade-title = תודה ששידרגת!
+# Variables:
+# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
+# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-upgrade-info-2 = שודרגת בהצלחה ל־{ $productName }.
 subscriptionUpgrade-auto-renew = המינוי שלך יתחדש באופן אוטומטי בכל תקופת חיוב אלא אם בחרת לבטל.
 unblockCode-subject = קוד הרשאת חשבון
 unblockCode-title = האם התחברות זו מוכרת לך?
