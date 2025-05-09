@@ -611,6 +611,9 @@ subscriptionRenewalReminder-content-closing = Mei heechachting,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = It { $productName }-team
+subscriptionReplaced-subject = Dyn abonnemint is bywurke as ûnderdiel fan dyn opwurdearring
+subscriptionReplaced-title = Dyn abonnemint is bywurke
+subscriptionReplaced-content-no-action = Der is gjin aksje fan jo kant fereaske.
 subscriptionsPaymentExpired-subject-1 = De creditcard foar jo abonneminten is ferrûn of ferrint ynkoarten
 subscriptionsPaymentExpired-title-1 = Jo creditcard is ferrûn of ferrint ynkoarten
 subscriptionsPaymentExpired-content-1 = De creditcard dy’t jo brûke foar betellingen foar de folgjende abonneminten is ferrûn of ferrint ynkoarten.
