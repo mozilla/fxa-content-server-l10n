@@ -615,6 +615,7 @@ subscriptionRenewalReminder-content-closing = Z přećelnym postrowom
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = Team { $productName }
+subscriptionReplaced-title = Waš abonement je so zaktualizował
 subscriptionsPaymentExpired-subject-1 = Kreditna karta za swoje abonementy je spadnyła abo bórze spadnje
 subscriptionsPaymentExpired-title-1 = Waša kreditna karta je spadnyła abo bórze spadnje
 subscriptionsPaymentExpired-content-1 = Kreditna karta, z kotrejž płaćenja za slědowace abonementy přewjedźeće, je spadnyła abo bórze spadnje.
@@ -636,6 +637,10 @@ subscriptionSubsequentInvoice-content-next-invoice = Přichodna zličbowanka: { 
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = Sće na { $productName } zaktualizował
 subscriptionUpgrade-title = Wulki dźak za aktualizowanje!
+# Variables:
+# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
+# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-upgrade-info-2 = Sće wuspěšnje na { $productName } zaktualizował.
 subscriptionUpgrade-auto-renew = Waš abonement so awtomatisce kóždu wotličensku dobu podlěšuje, chibazo wupowědźiće.
 unblockCode-subject = Kod kontoweje awtorizacije
 unblockCode-title = Chceće so wy přizjewić?

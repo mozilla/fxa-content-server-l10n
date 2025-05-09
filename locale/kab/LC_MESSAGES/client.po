@@ -894,7 +894,7 @@ msgstr "Kemmel di %(serviceName)s"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:7
 msgid "Please enter the one time use account recovery key you stored in a safe place to regain access to your Mozilla account."
-msgstr ""
+msgstr "Sekcem tasarutt n tririt n umiḍan ara tesqedceḍ tikkelt kan, i teskelseḍ deg umḍiq aɣelsan akken ad tkecmeḍ ɣer umiḍan-ik Mozilla."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
 msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
@@ -1068,7 +1068,7 @@ msgstr ""
 
 #: .es5/templates/connect_another_device.mustache:11
 msgid "You’re signed in to Firefox"
-msgstr ""
+msgstr "Teqqneḍ ɣer Firefox"
 
 #: .es5/templates/connect_another_device.mustache:15
 msgid "Sign in to this Firefox to complete set-up"
@@ -1147,7 +1147,7 @@ msgstr "Kemmel ɣer <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>
 
 #: .es5/templates/index.mustache:8
 msgid "Create an email mask"
-msgstr ""
+msgstr "Rnu agelmus n yimayl"
 
 #: .es5/templates/index.mustache:9
 msgid "Please provide the email address where you’d like to forward emails from your masked email."
@@ -2063,7 +2063,7 @@ msgstr "Sader Firefox"
 
 #: .es5/templates/pair/unsupported.mustache:7
 msgid "Opens in new window"
-msgstr ""
+msgstr "Yettalday deg usfaylu amaynut"
 
 #: .es5/templates/pair/unsupported.mustache:9
 msgid "Pair using an app"
@@ -2075,12 +2075,12 @@ msgstr "Tesqedceḍ takamirat n unagraw? Issefk acuddu ad yettwag seg usnas Fire
 
 #: .es5/templates/pair/unsupported.mustache:14
 msgid "Download Firefox now"
-msgstr ""
+msgstr "Sader tura Firefox"
 
 #: .es5/templates/pair/unsupported.mustache:17
 msgid "Oops! Something went wrong."
-msgstr ""
+msgstr "Ay ay ay! Yella wayen i d-yeḍṛan"
 
 #: .es5/templates/pair/unsupported.mustache:18
 msgid "Please close this tab and try again."
-msgstr ""
+msgstr "Ttxil-k mdel iccer-a syen ɛreḍ tikkelt niḍen."
