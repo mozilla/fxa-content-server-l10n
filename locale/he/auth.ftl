@@ -571,6 +571,7 @@ subscriptionReplaced-subject = המינוי שלך עודכן כחלק מהשד�
 subscriptionReplaced-title = המינוי שלך עודכן
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReplaced-content-replaced = המינוי האישי שלך ל־{ $productName } הוחלף וכעת כלול בחבילה החדשה שלך.
+subscriptionReplaced-content-credit = יתקבל זיכוי עבור כל זמן שלא נוצל מהמינוי הקודם שלך. זיכוי זה יוחל באופן אוטומטי על החשבון שלך וישמש לחיובים עתידיים.
 subscriptionReplaced-content-no-action = לא נדרשת כל פעולה מצידך.
 subscriptionsPaymentExpired-subject-1 = פג תוקף כרטיס האשראי עבור המינויים שלך, או שהוא יפוג בקרוב
 subscriptionsPaymentExpired-title-1 = פג תוקף כרטיס האשראי שלך, או שהוא יפוג בקרוב
