@@ -543,7 +543,7 @@ subscriptionDowngrade-content-auto-renew = Abonnementet ditt vert automatisk for
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFailedPaymentsCancellation-subject = { $productName }-abonnentet ditt er annulert
-subscriptionFailedPaymentsCancellation-title = Abonnentet dit er annukert
+subscriptionFailedPaymentsCancellation-title = Abonnentet ditt er avslutta
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFailedPaymentsCancellation-content = Vi har avslutta { $productName }-abonnementet ditt fordi fleire betalingsforsøk var mislykka. For å få tilgang igjen, start eit nytt abonnement med ein oppdatert betalingsmåte.
@@ -611,6 +611,8 @@ subscriptionRenewalReminder-content-closing = Vennleg helsing,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = Teamet bak { $productName }
+subscriptionReplaced-title = Abonnentet ditt er oppdatert
+subscriptionReplaced-content-no-action = Du treng ikkje å gjere noko.
 subscriptionsPaymentExpired-subject-1 = Betalingskortet for abonnementa dine har gått ut eller går snart ut
 subscriptionsPaymentExpired-title-1 = Betalingskortet ditt har gått ut, eller er i ferd med å gå ut
 subscriptionsPaymentExpired-content-1 = Betalingskortet du brukar for å utføre betalingar for følgjande abonnement har gått ut, eller er i ferd med å gå ut.
