@@ -169,6 +169,9 @@ get-data-trio-print-2 =
 alert-icon-aria-label =
     .aria-label = Alɣu
 # Aria-label option for an alert symbol
+icon-attention-aria-label =
+    .aria-label = Ɣur-k·m
+# Aria-label option for an alert symbol
 icon-warning-aria-label =
     .aria-label = Ɣur-k·m
 # Used to select Canada as country code for phone number
@@ -203,6 +206,7 @@ info-icon-aria-label =
 ## Users see this view when we prompt them to generate an account recovery key
 ## after signing in.
 
+inline-recovery-key-setup-signed-in-firefox-2 = Teqqneḍ ɣer { -brand-firefox }.
 inline-recovery-key-setup-create-header = Seɣles amiḍan-ik
 inline-recovery-key-setup-start-button = Rnu tasarut n tririt n umiḍan
 inline-recovery-key-setup-later-button = Ticki
@@ -219,6 +223,7 @@ input-password-show = Sken awal uffir
 # This is an aria-label available to screen readers for a selection list that includes country flags, country name and country code
 input-phone-number-country-list-aria-label = Fren tamurt
 input-phone-number-enter-number = Sekcem uṭṭun n tiliɣṛi
+input-phone-number-country-united-states = Marikan
 input-phone-number-country-canada = Kanada
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Ɣer deffir

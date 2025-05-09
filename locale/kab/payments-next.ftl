@@ -152,6 +152,7 @@ terms-and-privacy-stripe-label = { -brand-mozilla } isseqdac { -brand-name-strip
 terms-and-privacy-stripe-link = Tasertit tabaḍnit n { -brand-name-stripe }
 terms-and-privacy-paypal-label = { -brand-mozilla } isseqdac { -brand-paypal } i usesfer aɣelsan n yiselliken.
 terms-and-privacy-paypal-link = Tasertit tabaḍnit n { -brand-paypal }
+terms-and-privacy-stripe-and-paypal-label = { -brand-mozilla } isseqdac { -brand-name-stripe } akked { -brand-paypal } i usesfer aɣelsan n yiselliken.
 
 ## Component - UpdatedPurchaseDetails
 
@@ -163,3 +164,8 @@ upgrade-purchase-details-new-total-label = Asemday amaynut
 ## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
 
+upgrade-purchase-details-new-plan-daily = { $productName } (yal ass)
+upgrade-purchase-details-new-plan-weekly = { $productName } (i ddurt)
+upgrade-purchase-details-new-plan-monthly = { $productName } (i wayyur)
+upgrade-purchase-details-new-plan-halfyearly = { $productName } (6-wayyuren)
+upgrade-purchase-details-new-plan-yearly = { $productName } (i useggas)
