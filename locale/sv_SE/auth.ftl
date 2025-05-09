@@ -611,6 +611,7 @@ subscriptionRenewalReminder-content-closing = Vänliga hälsningar,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = Teamet bakom { $productName }
+subscriptionReplaced-subject = Din prenumeration har uppdaterats som en del av din uppgradering
 subscriptionReplaced-title = Din prenumeration har uppdaterats
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReplaced-content-replaced = Din individuella prenumeration på { $productName } har ersatts och ingår nu i ditt nya paket.
@@ -641,6 +642,16 @@ subscriptionUpgrade-title = Tack för att du har uppgraderat!
 # $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-upgrade-info-2 = Du har uppgraderat till { $productName }.
+# Variables:
+# $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
+# $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
+# $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
+# $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
+# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+subscriptionUpgrade-content-charge-info-different-cycle-2 = Du har debiterats en engångsavgift på { $paymentProrated } för att återspegla ditt abonnemangs högre pris för återstoden av denna { $productPaymentCycleOld }. Från och med din nästa räkning ändras din debitering från { $paymentAmountOld } per { $productPaymentCycleOld } till { $paymentAmountNew } per { $productPaymentCycleNew }.
+# Variables:
+# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-existing = Om några av dina befintliga prenumerationer överlappar denna uppgradering, hanterar vi dem och skickar ett separat mejl med detaljerna. Om din nya plan innehåller produkter som kräver installation, skickar vi ett separat e-postmeddelande med installationsinstruktioner.
 subscriptionUpgrade-auto-renew = Din prenumeration förnyas automatiskt varje faktureringsperiod om du inte väljer att avbryta.
 unblockCode-subject = Behörighetskod för konto
 unblockCode-title = Är det du som loggar in?

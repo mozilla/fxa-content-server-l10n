@@ -1756,6 +1756,8 @@ signin-reported-message = Vårt team har underrättats. Rapporter som denna hjä
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 signin-token-code-heading-2 = Ange bekräftelsekod<span> för ditt { -product-mozilla-account }</span>
+# { $email } represents the email that the user entered to sign in
+signin-token-code-instruction-v2 = Ange koden som skickades till <email>{ $email }</email> inom 5 minuter.
 signin-token-code-input-label-v2 = Ange 6-siffrig kod
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Bekräfta
@@ -1820,6 +1822,8 @@ confirm-signup-code-page-title = Ange bekräftelsekod
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 confirm-signup-code-heading-2 = Ange bekräftelsekoden <span>för ditt { -product-mozilla-account }</span>
+# { $email } represents the email that the user entered to sign in
+confirm-signup-code-instruction-v2 = Ange koden som skickades till <email>{ $email }</email> inom 5 minuter.
 confirm-signup-code-input-label = Ange 6-siffrig kod
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = Bekräfta
