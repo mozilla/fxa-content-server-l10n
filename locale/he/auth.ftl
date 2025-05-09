@@ -567,6 +567,7 @@ subscriptionRenewalReminder-content-closing = בברכה,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = צוות { $productName }
+subscriptionReplaced-subject = המינוי שלך עודכן כחלק מהשדרוג שלך
 subscriptionsPaymentExpired-subject-1 = פג תוקף כרטיס האשראי עבור המינויים שלך, או שהוא יפוג בקרוב
 subscriptionsPaymentExpired-title-1 = פג תוקף כרטיס האשראי שלך, או שהוא יפוג בקרוב
 subscriptionsPaymentExpired-content-1 = פג תוקף כרטיס האשראי המשמש אותך לביצוע תשלומים עבור המינויים הבאים, או שהוא יפוג בקרוב.
