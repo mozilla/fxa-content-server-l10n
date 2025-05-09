@@ -1732,6 +1732,8 @@ signin-reported-message = Ekibimiz bilgilendirildi. Bu gibi raporlar, saldırgan
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 signin-token-code-heading-2 = <span>{ -product-mozilla-account }</span> onay kodunuzu yazın
+# { $email } represents the email that the user entered to sign in
+signin-token-code-instruction-v2 = <email>{ $email }</email> adresine gönderdiğimiz kodu 5 dakika içinde girin.
 signin-token-code-input-label-v2 = 6 basamaklı kodu girin
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Onayla
@@ -1796,6 +1798,8 @@ confirm-signup-code-page-title = Onay kodunu girin
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 confirm-signup-code-heading-2 = <span>{ -product-mozilla-account }</span> onay kodunuzu yazın
+# { $email } represents the email that the user entered to sign in
+confirm-signup-code-instruction-v2 = <email>{ $email }</email> adresine gönderdiğimiz kodu 5 dakika içinde girin.
 confirm-signup-code-input-label = 6 basamaklı kodu girin
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = Onayla
