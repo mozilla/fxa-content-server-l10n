@@ -1752,6 +1752,8 @@ signin-reported-message = Naš team jo powěźeńku dostał. Rozpšawy ako toś 
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 signin-token-code-heading-2 = Zapódajśo wobkšuśeński kod <span>za swójo  { -product-mozilla-account(case: "acc", capitalization: "lower") }</span>
+# { $email } represents the email that the user entered to sign in
+signin-token-code-instruction-v2 = Zapódajśo kod, kótaryž jo se pósłał za 5 minutow na <email>{ $email }</email>.
 signin-token-code-input-label-v2 = 6-městnowy kod zapódaś
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Wobkšuśiś
@@ -1816,6 +1818,8 @@ confirm-signup-code-page-title = Wobkšuśeński kod zapódaś
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 confirm-signup-code-heading-2 = Zapódajśo wobkšuśeński kod <span>za swójo { -product-mozilla-account(case: "acc", capitalization: "lower") }</span>
+# { $email } represents the email that the user entered to sign in
+confirm-signup-code-instruction-v2 = Zapódajśo kod, kótaryž jo se pósłał za 5 minutow na <email>{ $email }</email>.
 confirm-signup-code-input-label = 6-městnowy kod zapódaś
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = Wobkšuśiś
