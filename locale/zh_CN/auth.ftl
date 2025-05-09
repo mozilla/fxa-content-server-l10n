@@ -608,6 +608,8 @@ subscriptionRenewalReminder-content-closing = 此致，
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = { $productName } 团队
 subscriptionReplaced-title = 您的订阅已更新
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReplaced-content-replaced = 已替换您单独的 { $productName } 订阅，其现已包含在您新的捆绑包中。
 subscriptionReplaced-content-no-action = 您无需执行任何操作。
 subscriptionsPaymentExpired-subject-1 = 您用于支付订阅的信用卡已过期或即将到期
 subscriptionsPaymentExpired-title-1 = 您的信用卡已过期或即将到期
@@ -630,6 +632,10 @@ subscriptionSubsequentInvoice-content-next-invoice = 下次扣款日：{ $nextIn
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = 您已升级至 { $productName }
 subscriptionUpgrade-title = 感谢您的升级订阅！
+# Variables:
+# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
+# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-upgrade-info-2 = 您已成功升级至 { $productName }。
 subscriptionUpgrade-auto-renew = 除非您主动取消订阅，否则将在每个周期周期开始时自动更新订阅并收费。
 unblockCode-subject = 账户授权码
 unblockCode-title = 是您在登录吗？
