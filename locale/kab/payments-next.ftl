@@ -1,9 +1,17 @@
 ## Page
 
+# This string appears as a separation between the two sign-in options, "Enter your email"(signin-form-email-input) "or"(this string) "Continue with Google"(continue-signin-with-google-button) / "Continue with Apple"(continue-signin-with-apple-button)
+checkout-signin-options-or = neɣ
+continue-signin-with-google-button = Kemmel s { -brand-google }
+continue-signin-with-apple-button = Kemmel s { -brand-apple }
 next-payment-method-header = Fren tarrayt-ik·im n lexlaṣ
+# This message is used to indicate the second step in a multi step process.
+payment-method-header-second-step-next = 2. { next-payment-method-header }
 
 ## Page - Upgrade page
 
+upgrade-page-payment-information = Talɣut n lexlaṣ
+checkout-error-boundary-retry-button = Ɛreḍ tikelt niḍen
 
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -11,6 +19,8 @@ next-payment-method-header = Fren tarrayt-ik·im n lexlaṣ
 next-payment-error-manage-subscription-button = Sefrek amulteɣ-inu
 next-payment-error-retry-button = Ɛreḍ tikkelt-nniḍen
 next-basic-error-message = Yella wayen ur nteddu ara akken ilaq. Ma ulac aɣilif, εreḍ tikkelt-nniḍen.
+checkout-error-contact-support-button = Nadi tallalt
+checkout-processing-general-error = Tuccḍa ur netturaǧu ara teḍra-d deg usesfer lexlaṣ-ik·im, ɛreḍ tikkelt-nniḍen.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -38,6 +48,10 @@ next-payment-confirmation-download-button = Kemmel akken ad d-tsidreḍ
 
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Takarḍa ad tfakk deg { $last4 }
+# Page - Not Found
+page-not-found-title = Ulac asebter
+page-not-found-description = Asebter i d-sutreḍ ulac-it. Aqlaɣ neẓra udiɣ ad nseggem yal aseɣwen yeṛzen.
+page-not-found-back-button = Uɣal
 
 ## Component - Payment Consent Checkbox
 
@@ -46,6 +60,8 @@ next-payment-confirmation-cc-card-ending-in = Takarḍa ad tfakk deg { $last4 }
 
 next-new-user-submit = Multeɣ tura
 next-payment-validate-name-error = Ma ulac aɣilif, sekcem-d isem-inek
+next-pay-with-heading-paypal = Xelleṣ { -brand-paypal }
+payment-name-placeholder = Isem ummid
 
 ## Component - CouponForm
 
@@ -58,6 +74,23 @@ next-coupon-submit = Snes
 
 # Component - Header
 
+payments-header-help =
+    .title = Tallalt
+    .aria-label = Tallalt
+    .alt = Tallalt
+payments-header-bento =
+    .title = Ifarisen n { -brand-mozilla }
+    .aria-label = Ifarisen n { -brand-mozilla }
+    .alt = Alugu { -brand-mozilla }
+payments-header-bento-close =
+    .alt = Mdel
+payments-header-bento-firefox-desktop = Iminig { -brand-firefox } i tnarit
+payments-header-bento-firefox-mobile = Iminig { -brand-firefox } i uziraz
+payments-header-bento-monitor = { -product-mozilla-monitor }
+payments-header-bento-firefox-relay = { -product-firefox-relay }
+payments-client-loading-spinner =
+    .aria-label = Asali…
+    .alt = Asali…
 
 ## Payment Section
 
@@ -76,6 +109,17 @@ next-coupon-success-repeating = Aɣawas-ik·im ad yettuεawed s wudem awuran sel
 
 ## Select Tax Location
 
+select-tax-location-title = Adig
+select-tax-location-edit-button = Ẓreg
+select-tax-location-save-button = Sekles
+select-tax-location-country-code-label = Tamurt
+select-tax-location-error-missing-country-code = Ttxil-k fren tamurt-ik
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN
+select-tax-location-product-not-available = { $productName } ulac-it deg waddig-a.
+select-tax-location-postal-code-label = Tangalt n pusṭa
+select-tax-location-postal-code =
+    .placeholder = Selkcem tangalt n lbusṭa
+select-tax-location-error-missing-postal-code = Ttxil-k selkcem tangalt n lbusṭa
 next-new-user-subscribe-product-assurance = Nseqdac kan imayl-ik·im i wakken ad nernu amiḍan-ik·im. Urǧin ad t-nsenz i wis kraḍ.
 
 ## Component - PriceInterval
@@ -84,6 +128,8 @@ next-new-user-subscribe-product-assurance = Nseqdac kan imayl-ik·im i wakken ad
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+plan-price-interval-halfyearly = { $amount } yal 6 wayyuren
+plan-price-interval-yearly = { $amount } i useggas
 
 ## Component - SubscriptionTitle
 
@@ -91,6 +137,7 @@ next-subscription-create-title = Sbadu amulteɣ-ik·im
 next-subscription-success-title = Asentem n umulteɣ
 next-subscription-processing-title = Asentem n umulteɣ…
 next-subscription-error-title = Tuccḍa deg usentem n umulteɣ…
+subscription-title-plan-change-heading = Senqed asnifel-ik·im
 next-sub-guarantee = Ṭṭmana n tiririt n yidrimen n 30 n wussan
 
 ## Component - TermsAndPrivacy
@@ -101,9 +148,17 @@ next-subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capita
 next-terms = Tiwtilin n useqdec
 next-privacy = Tasertit n tbaḍnit
 next-terms-download = Tiwtilin n usader
+terms-and-privacy-stripe-label = { -brand-mozilla } isseqdac { -brand-name-stripe } i usesfer aɣelsan n yiselliken.
+terms-and-privacy-stripe-link = Tasertit tabaḍnit n { -brand-name-stripe }
+terms-and-privacy-paypal-label = { -brand-mozilla } isseqdac { -brand-paypal } i usesfer aɣelsan n yiselliken.
+terms-and-privacy-paypal-link = Tasertit tabaḍnit n { -brand-paypal }
 
 ## Component - UpdatedPurchaseDetails
 
+upgrade-purchase-details-current-plan-label = Aɣawas amiran
+upgrade-purchase-details-new-plan-label = Aɣawas amaynut
+upgrade-purchase-details-promo-code = Tangalt promo
+upgrade-purchase-details-new-total-label = Asemday amaynut
 
 ## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
