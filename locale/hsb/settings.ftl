@@ -1754,6 +1754,8 @@ signin-reported-message = Naš team je zdźělenku dóstał. Rozprawy kaž tuta 
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 signin-token-code-heading-2 = Zapodajće wobkrućenski kod<span>za swoje { -product-mozilla-account(case: "acc", capitalization: "lower") }</span>
+# { $email } represents the email that the user entered to sign in
+signin-token-code-instruction-v2 = Zapodajće kod, kotryž je so za 5 mjeńšin na <email>{ $email }</email> pósłał.
 signin-token-code-input-label-v2 = 6-městnowy kod zapodać
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Wobkrućić
@@ -1818,6 +1820,8 @@ confirm-signup-code-page-title = Wobkrućenski kod zapodać
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 confirm-signup-code-heading-2 = Zapodajće wobkrućenski kod <span>za swoje { -product-mozilla-account(case: "acc", capitalization: "lower") }</span>
+# { $email } represents the email that the user entered to sign in
+confirm-signup-code-instruction-v2 = Zapodajće kod, kotryž je so za 5 mjeńšin na <email>{ $email }</email> pósłał.
 confirm-signup-code-input-label = 6-městnowy kod zapodać
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = Wobkrućić

@@ -39,6 +39,8 @@ new-user-enter-email =
     .label = Sekcem imayl inek
 new-user-confirm-email =
     .label = Sentem imayl-inek·inem
+new-user-subscribe-product-updates-mozilla = Bɣiɣ ad d-remseɣ talɣut ɣef yifarisen d yileqman seg { -brand-mozilla }
+new-user-subscribe-product-updates-mdnplus = Bɣiɣ ad d-remseɣ talɣut ɣef yifarisen d yileqman seg { -product-mdn-plus } akked { -brand-mozilla }
 new-user-subscribe-product-assurance = Nseqdac kan imayl-ik·im i wakken ad nernu amiḍan-ik·im. Urǧin ad t-nsenz i wis kraḍ.
 new-user-email-validate = Imayl-a d arameɣtu
 new-user-email-validate-confirm = Ur mṣadan ara yimaylen-a
@@ -118,6 +120,7 @@ payment-validate-name-error = Ma ulac aɣilif, sekcem-d isem-inek
 
 ## Component - PaymentLegalBlurb
 
+payment-legal-copy-stripe-and-paypal-3 = { -brand-mozilla } isseqdac { -brand-name-stripe } akked { -brand-paypal } i usesfer aɣelsan n yiselliken.
 payment-legal-link-stripe-paypal-2 = <stripePrivacyLink>{ -brand-name-stripe } tasertit n tbaḍnit</stripePrivacyLink> &nbsp; <paypalPrivacyLink>{ -brand-paypal } tasertit n tbaḍnit</paypalPrivacyLink>
 payment-legal-copy-paypal-2 = { -brand-mozilla } isseqdac { -brand-paypal } i usesfer aɣelsan n yiselliken.
 payment-legal-link-paypal-3 = <paypalPrivacyLink>{ -brand-paypal } tasertit n tbaḍnit</paypalPrivacyLink>
@@ -256,6 +259,7 @@ product-invoice-preview-error-title = Ugur deg usali n teskant n tfaṭurin
 # The following are not terms because they are not used directly in messages,
 # but rather looked up in code and passed into the message as variables.
 
+brand-name-google-play-2 = { -google-play } Store
 brand-name-apple-app-store-2 = { -app-store }
 
 ## Routes - Product - Subscription upgrade
@@ -272,9 +276,10 @@ sub-update-total-label = Asemday amaynut
 ## Variables:
 ##   $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 
-
-##
-
+sub-update-new-plan-daily = { $productName } (yal ass)
+sub-update-new-plan-weekly = { $productName } (i ddurt)
+sub-update-new-plan-monthly = { $productName } (i wayyur)
+sub-update-new-plan-yearly = { $productName } (i useggas)
 
 ## Routes - Subscriptions - Cancel
 
