@@ -634,6 +634,10 @@ subscriptionSubsequentInvoice-content-next-invoice = Sonraki fatura: { $nextInvo
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = { $productName } aboneliğine yükselttiniz
 subscriptionUpgrade-title = Yükseltme yaptığınız için teşekkürler!
+# Variables:
+# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
+# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-upgrade-info-2 = Başarıyla { $productName } aboneliğine yükselttiniz.
 subscriptionUpgrade-auto-renew = İptal etmediğiniz sürece aboneliğiniz her fatura döneminde otomatik olarak yenilenir.
 unblockCode-subject = Hesap yetkilendirme kodu
 unblockCode-title = Giriş yapan siz misiniz?
