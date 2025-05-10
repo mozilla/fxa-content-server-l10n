@@ -613,6 +613,10 @@ subscriptionRenewalReminder-content-closing = Sincermente,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = Le equipa de { $productName }
+subscriptionReplaced-subject = Tu abonamento ha essite actualisate como parte de tu promotion
+subscriptionReplaced-title = Tu abonamento ha essite actualisate
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReplaced-content-replaced = Tu abonamento individual a { $productName } ha essite substituite e ora es includite in tu nove pacchetto.
 subscriptionsPaymentExpired-subject-1 = Le carta de credito pro tu abonamentos expirava o tosto va expirar
 subscriptionsPaymentExpired-title-1 = Tu carta de credito expirava o tosto va expirar
 subscriptionsPaymentExpired-content-1 = Le carta de credito que tu usa pro facer pagamentos pro le sequente abonamentos expirava o va tosto expirar.
