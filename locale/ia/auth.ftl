@@ -617,6 +617,8 @@ subscriptionReplaced-subject = Tu abonamento ha essite actualisate como parte de
 subscriptionReplaced-title = Tu abonamento ha essite actualisate
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReplaced-content-replaced = Tu abonamento individual a { $productName } ha essite substituite e ora es includite in tu nove pacchetto.
+subscriptionReplaced-content-credit = Tu recipera un credito pro ulle periodo non usate de tu previe abonamento. Iste credito sera automaticamente applicate a tu conto e usate pro debitos futur.
+subscriptionReplaced-content-no-action = Nulle action es necessari de parte tue.
 subscriptionsPaymentExpired-subject-1 = Le carta de credito pro tu abonamentos expirava o tosto va expirar
 subscriptionsPaymentExpired-title-1 = Tu carta de credito expirava o tosto va expirar
 subscriptionsPaymentExpired-content-1 = Le carta de credito que tu usa pro facer pagamentos pro le sequente abonamentos expirava o va tosto expirar.
