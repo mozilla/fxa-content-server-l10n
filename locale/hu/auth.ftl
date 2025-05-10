@@ -614,7 +614,7 @@ subscriptionRenewalReminder-content-signature = A { $productName } csapat
 subscriptionReplaced-subject = Az előfizetése a frissítés részeként frissítve lett
 subscriptionReplaced-title = Az előfizetése frissítve lett
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionReplaced-content-replaced = Az egyéni { $productName } előfizetése le lett cserélve, és az új csomag része.
+subscriptionReplaced-content-replaced = Az egyéni { $productName } előfizetése le lett cserélve, és most már az új csomagja része.
 subscriptionReplaced-content-credit = Az előző előfizetése során fel nem használt idő után jóváírást kap. Ez a jóváírás automatikusan jóváírásra kerül a fiókjában, és a jövőbeni terhekre lesz felhasználva.
 subscriptionReplaced-content-no-action = Nincs teendője az Ön részéről.
 subscriptionsPaymentExpired-subject-1 = Az előfizetéseihez tartozó bankkártya lejárt vagy hamarosan lejár
