@@ -325,6 +325,8 @@ input-password-sr-only-now-hidden = รหัสผ่านของคุณ�
 
 # This is an aria-label available to screen readers for a selection list that includes country flags, country name and country code
 input-phone-number-country-list-aria-label = เลือกประเทศ
+input-phone-number-country-united-states = สหรัฐอเมริกา
+input-phone-number-country-canada = แคนาดา
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = ย้อนกลับ
 
@@ -614,9 +616,12 @@ flow-setup-phone-confirm-code-button = ยืนยัน
 # followed by a button to resend a code
 flow-setup-phone-confirm-code-expired = รหัสหมดอายุใช่หรือไม่?
 flow-setup-phone-confirm-code-resend-code-button = ส่งรหัสอีกครั้ง
+flow-setup-phone-confirm-code-resend-code-success = ส่งรหัสแล้ว
 
 ## FlowSetupPhoneConfirmCode
 
+# cliking on the button sends a code by text message to the phone number typed in by the user
+flow-setup-phone-submit-number-button = ส่งรหัส
 
 ## HeaderLockup component, the header in account settings
 

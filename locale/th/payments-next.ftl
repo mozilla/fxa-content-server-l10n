@@ -72,6 +72,8 @@ next-coupon-submit = นำไปใช้
 
 payments-header-bento-close =
     .alt = ปิด
+payments-header-bento-monitor = { -product-mozilla-monitor }
+payments-header-avatar-expanded-signed-in-as = ลงชื่อเข้าใช้เป็น
 
 ## Payment Section
 
@@ -97,6 +99,8 @@ select-tax-location-save-button = บันทึก
 select-tax-location-country-code-label = ประเทศ
 select-tax-location-country-code-placeholder = เลือกประเทศของคุณ
 select-tax-location-postal-code-label = รหัสไปรษณีย์
+select-tax-location-postal-code =
+    .placeholder = ป้อนรหัสไปรษณีย์ของคุณ
 signin-form-continue-button = ดำเนินการต่อ
 signin-form-email-input = ป้อนอีเมลของคุณ
 next-new-user-subscribe-product-updates-mdnplus = ฉันต้องการรับข่าวสารและข้อมูลล่าสุดเกี่ยวกับผลิตภัณฑ์จาก { -product-mdn-plus } และ { -brand-mozilla }
