@@ -8,6 +8,7 @@ next-payment-method-first-approve = ก่อนอื่น คุณจะต�
 ## Page - Upgrade page
 
 upgrade-page-payment-information = ข้อมูลการชำระเงิน
+checkout-error-boundary-retry-button = ลองอีกครั้ง
 
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -69,6 +70,8 @@ next-coupon-submit = นำไปใช้
 
 # Component - Header
 
+payments-header-bento-close =
+    .alt = ปิด
 
 ## Payment Section
 
