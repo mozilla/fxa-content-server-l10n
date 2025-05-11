@@ -158,6 +158,7 @@ select-tax-location-error-missing-postal-code = Skriv inn postnummer
 select-tax-location-error-invalid-postal-code = Skriv inn eit gyldig postnummer
 select-tax-location-successfully-updated = Plasseringa di er oppdatert
 select-tax-location-error-location-not-updated = Klarte ikkje å oppdatere plasseringa di. Prøv på nytt.
+select-tax-location-invalid-currency-change-default = Vel eit land som passar med valutaen til dei aktive abonnementa dine.
 signin-form-continue-button = Hald fram
 signin-form-email-input = Skriv inn e-postadressa di
 signin-form-email-input-missing = Skriv inn e-postadressa di

@@ -613,6 +613,8 @@ subscriptionRenewalReminder-content-closing = Vennleg helsing,
 subscriptionRenewalReminder-content-signature = Teamet bak { $productName }
 subscriptionReplaced-subject = Abonnentet ditt er oppdatert som ein del av oppgraderinga di
 subscriptionReplaced-title = Abonnentet ditt er oppdatert
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReplaced-content-replaced = Det individuelle { $productName }-abonnementet ditt er erstatta og er no inkludert i den nye pakken din..
 subscriptionReplaced-content-no-action = Du treng ikkje å gjere noko.
 subscriptionsPaymentExpired-subject-1 = Betalingskortet for abonnementa dine har gått ut eller går snart ut
 subscriptionsPaymentExpired-title-1 = Betalingskortet ditt har gått ut, eller er i ferd med å gå ut
@@ -635,6 +637,10 @@ subscriptionSubsequentInvoice-content-next-invoice = Neste faktura: { $nextInvoi
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = Du har oppgradert til { $productName }
 subscriptionUpgrade-title = Takk for at du oppgraderer!
+# Variables:
+# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
+# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-upgrade-info-2 = Du har oppgradert til { $productName }.
 subscriptionUpgrade-auto-renew = Abonnementet ditt vert automatisk fornya kvar faktureringsperiode med mindre du vel å avbryte.
 unblockCode-subject = Godkjenningskode for konto
 unblockCode-title = Er det du som loggar inn?

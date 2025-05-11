@@ -1199,6 +1199,7 @@ auth-error-114-generic = Du har prøvd for mange gongar. Prøv igjen seinare.
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Du har prøvd for mange gongar. Prøv igjen { $retryAfter }.
 auth-error-125 = Førespurnaden vart blokkert pga. tryggingsårsaker
+auth-error-129-2 = Du skreiv inn eit ugyldig telefonnummer. Kontroller det, og prøv på nytt.
 auth-error-138-2 = Ikkje stadfesta økt
 auth-error-139 = Sekundær e-postadresse må vere ulik e-postadressa til kontoen din
 auth-error-155 = TOTP-token ikkje funne
@@ -1751,6 +1752,8 @@ signin-reported-message = Teamet vårt er varsla. Rapportar som denne hjelper os
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 signin-token-code-heading-2 = Skriv inn stadfestingskode<span> for { -product-mozilla-account }en din</span>
+# { $email } represents the email that the user entered to sign in
+signin-token-code-instruction-v2 = Skriv inn koden som vart sendt til <email>{ $email }</email>, innan 5 minutt.
 signin-token-code-input-label-v2 = Skriv inn 6-sifra kode
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Stadfest
@@ -1815,6 +1818,8 @@ confirm-signup-code-page-title = Skriv inn stadfestingskode
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 confirm-signup-code-heading-2 = Skriv inn stadfestingskode <span>for { -product-mozilla-account }-en din</span>
+# { $email } represents the email that the user entered to sign in
+confirm-signup-code-instruction-v2 = Skriv inn koden som vart sendt til <email>{ $email }</email>, innan 5 minutt.
 confirm-signup-code-input-label = Skriv inn 6-sifra kode
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = Stadfest
