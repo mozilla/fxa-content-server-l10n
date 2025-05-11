@@ -611,6 +611,7 @@ subscriptionRenewalReminder-content-closing = Vennleg helsing,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = Teamet bak { $productName }
+subscriptionReplaced-subject = Abonnentet ditt er oppdatert som ein del av oppgraderinga di
 subscriptionReplaced-title = Abonnentet ditt er oppdatert
 subscriptionReplaced-content-no-action = Du treng ikkje å gjere noko.
 subscriptionsPaymentExpired-subject-1 = Betalingskortet for abonnementa dine har gått ut eller går snart ut
