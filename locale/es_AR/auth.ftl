@@ -611,7 +611,7 @@ subscriptionRenewalReminder-content-closing = Atentamente,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = El equipo de { $productName }
-subscriptionReplaced-subject = Tu suscripción se actualizó como parte de tu upgrade
+subscriptionReplaced-subject = Tu suscripción se actualizó como parte de tu actualización
 subscriptionReplaced-title = Tu suscripción ha sido actualizada
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReplaced-content-replaced = Tu suscripción individual de { $productName } fue reemplazada y ahora está incluida en tu nuevo paquete.
