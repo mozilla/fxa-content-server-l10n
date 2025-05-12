@@ -854,6 +854,9 @@ recent-activity-account-recovery-phone-removed = Teléfono de recuperación elim
 recent-activity-account-recovery-codes-replaced = Códigos de recuperación reemplazados
 recent-activity-account-recovery-codes-created = Códigos de recuperación creados
 recent-activity-account-recovery-codes-signin-complete = Se ha completado el inicio de sesión mediante códigos de recuperación
+recent-activity-password-reset-otp-sent = Se ha enviado el código de confirmación para restablecer la contraseña
+recent-activity-password-reset-otp-verified = Se ha verificado el código de confirmación para restablecer la contraseña
+recent-activity-must-reset-password = Se requiere restablecer la contraseña
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Otra actividad de la cuenta
 
@@ -1748,7 +1751,7 @@ signin-reported-message = Se ha notificado a nuestro equipo. Informes como éste
 # can stand alone as "{ -product-mozilla-account }"
 signin-token-code-heading-2 = Introduce el código de confirmación <span> para tu { -product-mozilla-account }</span>
 # { $email } represents the email that the user entered to sign in
-signin-token-code-instruction = Introduce en menos de 5 minutos el código que fue enviado a { $email }.
+signin-token-code-instruction-v2 = Introduce en un plazo de 5 minutos el código de verificación que se envió a <email>{ $email }</email>.
 signin-token-code-input-label-v2 = Introduce el código de 6 dígitos
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Confirmar
@@ -1814,7 +1817,7 @@ confirm-signup-code-page-title = Introduce el código de confirmación
 # can stand alone as "{ -product-mozilla-account }"
 confirm-signup-code-heading-2 = Introduce el código de confirmación <span>para tu { -product-mozilla-account }</span>
 # { $email } represents the email that the user entered to sign in
-confirm-signup-code-instruction = Introduce en menos de 5 minutos el código que fue enviado a { $email }.
+confirm-signup-code-instruction-v2 = Introduce en un plazo de 5 minutos el código de verificación que se envió a <email>{ $email }</email>.
 confirm-signup-code-input-label = Introduce el código de 6 dígitos
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = Confirmar
@@ -1842,9 +1845,3 @@ signup-pocket-info-banner = ¿Por qué necesito crear esta cuenta?
 signup-pocket-info-banner-link = Descúbrelo aquí
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Cambiar correo
-# Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
-signup-age-check-label =
-    .label = ¿Qué edad tienes?
-# Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
-# This link appears just below signup-age-check-input-label
-signup-coppa-check-explanation-link = ¿Por qué preguntamos?

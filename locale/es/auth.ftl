@@ -611,6 +611,12 @@ subscriptionRenewalReminder-content-closing = Atentamente,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = El equipo de { $productName }
+subscriptionReplaced-subject = Tu suscripción se ha actualizado como parte de tu actualización
+subscriptionReplaced-title = Tu suscripción ha sido actualizada
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReplaced-content-replaced = Tu suscripción individual de { $productName } fue reemplazada y ahora está incluida en tu nuevo paquete.
+subscriptionReplaced-content-credit = Recibirás un crédito por el tiempo no utilizado de tu suscripción anterior. Este crédito se aplicará automáticamente a tu cuenta y se usará para cargos futuros.
+subscriptionReplaced-content-no-action = No se requiere ninguna acción de tu parte.
 subscriptionsPaymentExpired-subject-1 = La tarjeta de crédito para tus suscripciones está caducada o caduca pronto
 subscriptionsPaymentExpired-title-1 = Tu tarjeta de crédito está caducada o a punto de caducar.
 subscriptionsPaymentExpired-content-1 = La tarjeta de crédito que estás utilizando para realizar pagos para la siguiente suscripción está caducada o a punto de caducar.
@@ -635,17 +641,17 @@ subscriptionUpgrade-title = ¡Gracias por la actualización!
 # Variables:
 # $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
-subscriptionUpgrade-upgrade-info = Has cambiado correctamente de { $productNameOld } a { $productName }.
+subscriptionUpgrade-upgrade-info-2 = La actualización a { $productName } se ha realizado con éxito.
 # Variables:
 # $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
 # $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
 # $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
 # $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 # $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
-subscriptionUpgrade-content-charge-info-different-cycle = Se te cobrará un cargo único de { $paymentProrated } para reflejar el precio mayor de tu suscripción por el resto de este { $productPaymentCycleOld }. A partir de tu próxima factura, tu cargo fijo cambiará de { $paymentAmountOld } por { $productPaymentCycleOld } a { $paymentAmountNew } por { $productPaymentCycleNew }.
+subscriptionUpgrade-content-charge-info-different-cycle-2 = Se te ha cobrado un cargo único de { $paymentProrated } para reflejar el precio mayor de tu suscripción por el resto de este { $productPaymentCycleOld }. A partir de tu próxima factura, tu cargo fijo cambiará de { $paymentAmountOld } por { $productPaymentCycleOld } a { $paymentAmountNew } por { $productPaymentCycleNew }.
 # Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
-subscriptionUpgrade-install = Si hay que instalar un programa nuevo para utilizar { $productName }, recibirás un correo electrónico por separado con instrucciones para la descarga.
+subscriptionUpgrade-existing = Si alguna de tus suscripciones actuales se solapa con esta actualización, nos encargaremos de ello y te enviaremos un correo electrónico separado con los detalles. Si tu nuevo plan incluye productos que requieren instalación, te enviaremos un correo electrónico separado con las instrucciones de configuración.
 subscriptionUpgrade-auto-renew = Tu suscripción se renovará automáticamente en cada periodo de facturación salvo que elijas cancelarlo.
 unblockCode-subject = Código de autorización de la cuenta
 unblockCode-title = ¿Eres tú identificándote?

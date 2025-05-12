@@ -611,6 +611,12 @@ subscriptionRenewalReminder-content-closing = Mei heechachting,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = It { $productName }-team
+subscriptionReplaced-subject = Dyn abonnemint is bywurke as ûnderdiel fan dyn opwurdearring
+subscriptionReplaced-title = Dyn abonnemint is bywurke
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReplaced-content-replaced = Jo yndividuele { $productName }-abonnemint is ferfongen en is no opnommen yn jo nije bondel.
+subscriptionReplaced-content-credit = Jo ûntfange in tegoed foar alle net brûkte tiid fan jo foarige abonnemint út. Dit tegoed wurdt automatysk tapast op jo account en brûkt foar takomstige kosten.
+subscriptionReplaced-content-no-action = Der is gjin aksje fan jo kant fereaske.
 subscriptionsPaymentExpired-subject-1 = De creditcard foar jo abonneminten is ferrûn of ferrint ynkoarten
 subscriptionsPaymentExpired-title-1 = Jo creditcard is ferrûn of ferrint ynkoarten
 subscriptionsPaymentExpired-content-1 = De creditcard dy’t jo brûke foar betellingen foar de folgjende abonneminten is ferrûn of ferrint ynkoarten.
@@ -635,17 +641,17 @@ subscriptionUpgrade-title = Tank foar it opwurdearjen!
 # Variables:
 # $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
-subscriptionUpgrade-upgrade-info = Jo binne mei sukses oerskeakele fan { $productNameOld } nei { $productName }.
+subscriptionUpgrade-upgrade-info-2 = Jo hawwe mei sukses opwurdearre nei { $productName }
 # Variables:
 # $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
 # $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
 # $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
 # $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 # $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
-subscriptionUpgrade-content-charge-info-different-cycle = Der wurdt in ienmalige fergoeding fan { $paymentProrated } yn rekkening brocht om de hegere priis fan jo abonnemint wer te jaan foar de rest fan dizze { $productPaymentCycleOld }. Fan jo folgjende faktuer ôf wiziget jo betelling fan { $paymentAmountOld } yn de { $productPaymentCycleOld } nei { $paymentAmountNew } yn de { $productPaymentCycleNew }.
+subscriptionUpgrade-content-charge-info-different-cycle-2 = Der is in ienmalige fergoeding fan { $paymentProrated } yn rekkening brocht om de hegere priis fan jo abonnemint wer te jaan foar de rest fan dizze { $productPaymentCycleOld }. Fan jo folgjende faktuer ôf wiziget jo betelling fan { $paymentAmountOld } yn de { $productPaymentCycleOld } nei { $paymentAmountNew } yn de { $productPaymentCycleNew }.
 # Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
-subscriptionUpgrade-install = As jo nije software ynstallearje moatte om { $productName } brûke te kinnen, dan ûntfange jo in ôfsûnderlik e-mailbericht mei downloadynstruksjes.
+subscriptionUpgrade-existing = As ien fan jo besteande abonneminten oerlaapje mei dizze opwurdearring, sille wy se behannelje en jo in aparte e-mailberjocht stjoere mei de details. As jo nije plan produkten omfettet dy’t ynstallaasje fereaskje, sille wy jo in apart e-mailberjocht stjoere mei ynstallaasje-ynstruksjes.
 subscriptionUpgrade-auto-renew = Jo abonnemint wurdt automatysk elke fakturearringsperioade ferlinge, útsein jo derfoar kieze om op te sizzen.
 unblockCode-subject = Accountautorisaasjekoade
 unblockCode-title = Binne jo dit, dy’t harren oanmeldt?

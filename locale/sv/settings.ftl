@@ -1757,7 +1757,7 @@ signin-reported-message = Vårt team har underrättats. Rapporter som denna hjä
 # can stand alone as "{ -product-mozilla-account }"
 signin-token-code-heading-2 = Ange bekräftelsekod<span> för ditt { -product-mozilla-account }</span>
 # { $email } represents the email that the user entered to sign in
-signin-token-code-instruction = Ange koden som skickades till { $email } inom 5 minuter.
+signin-token-code-instruction-v2 = Ange koden som skickades till <email>{ $email }</email> inom 5 minuter.
 signin-token-code-input-label-v2 = Ange 6-siffrig kod
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Bekräfta
@@ -1823,7 +1823,7 @@ confirm-signup-code-page-title = Ange bekräftelsekod
 # can stand alone as "{ -product-mozilla-account }"
 confirm-signup-code-heading-2 = Ange bekräftelsekoden <span>för ditt { -product-mozilla-account }</span>
 # { $email } represents the email that the user entered to sign in
-confirm-signup-code-instruction = Ange koden som skickades till { $email } inom 5 minuter.
+confirm-signup-code-instruction-v2 = Ange koden som skickades till <email>{ $email }</email> inom 5 minuter.
 confirm-signup-code-input-label = Ange 6-siffrig kod
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = Bekräfta
@@ -1851,9 +1851,3 @@ signup-pocket-info-banner = Varför måste jag skapa det här kontot?
 signup-pocket-info-banner-link = Ta reda på det här
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Ändra e-post
-# Checking the user's age is required by COPPA. To register for an account, the user must indicate their age (number only)
-signup-age-check-label =
-    .label = Hur gammal är du?
-# Link goes to https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-not-just-kids-sites
-# This link appears just below signup-age-check-input-label
-signup-coppa-check-explanation-link = Varför frågar vi?
