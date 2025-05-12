@@ -858,6 +858,8 @@ recent-activity-account-recovery-phone-removed = Wersteltelefoannûmer fuortsmit
 recent-activity-account-recovery-codes-replaced = Werstelkoaden ferfongen
 recent-activity-account-recovery-codes-created = Werstelkoaden oanmakke
 recent-activity-account-recovery-codes-signin-complete = Oanmelden mei werstelkoaden foltôge
+recent-activity-password-reset-otp-sent = Befêstigingskoade foar wachtwurdwerinisjalisaasje ferstjoerd
+recent-activity-password-reset-otp-verified = Befêstigingskoade fan wachtwurdwerinisjalisaasje ferifiearre
 recent-activity-must-reset-password = Wachtwurd opnij ynstelle fereaske
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Oare accountaktiviteit
