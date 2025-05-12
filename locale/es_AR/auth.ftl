@@ -641,7 +641,7 @@ subscriptionUpgrade-title = ¡Gracias por actualizar!
 # Variables:
 # $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
-subscriptionUpgrade-upgrade-info-2 = Actualizaste correctamente a { $productName }.
+subscriptionUpgrade-upgrade-info-2 = Se actualizó exitosamente a { $productName }.
 # Variables:
 # $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
 # $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
@@ -651,7 +651,7 @@ subscriptionUpgrade-upgrade-info-2 = Actualizaste correctamente a { $productName
 subscriptionUpgrade-content-charge-info-different-cycle-2 = Se te cobró una tarifa única de { $paymentProrated } para reflejar el precio más alto de tu suscripción por el resto de este { $productPaymentCycleOld }. A partir de tu próxima factura, tu cargo cambiará de { $paymentAmountOld } por { $productPaymentCycleOld } a { $paymentAmountNew } por { $productPaymentCycleNew }.
 # Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
-subscriptionUpgrade-existing = Si alguna de tus suscripciones existentes se superpone con esta actualización, lo manejaremos y te enviaremos un correo electrónico por separado con los detalles. Si tu nuevo plan incluye productos que requieren instalación, te enviaremos un correo electrónico por separado con instrucciones de configuración.
+subscriptionUpgrade-existing = Si alguna de las suscripciones existentes se superpone con esta actualización, lo manejaremos y enviaremos un correo electrónico por separado con los detalles. Si el nuevo plan incluye productos que requieren instalación, enviaremos un correo electrónico por separado con instrucciones de configuración.
 subscriptionUpgrade-auto-renew = Tu suscripción se renovará automáticamente cada período de facturación a menos que elijas cancelar.
 unblockCode-subject = Código de autorización de la cuenta
 unblockCode-title = ¿Sos vos iniciando una sesión?
