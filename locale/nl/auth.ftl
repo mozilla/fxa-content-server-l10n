@@ -611,6 +611,8 @@ subscriptionRenewalReminder-content-closing = Hoogachtend,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = Het { $productName }-team
+subscriptionReplaced-subject = Uw abonnement is bijgewerkt als onderdeel van uw upgrade
+subscriptionReplaced-title = Uw abonnement is bijgewerkt
 subscriptionsPaymentExpired-subject-1 = De creditcard voor uw abonnementen is verlopen of verloopt binnenkort
 subscriptionsPaymentExpired-title-1 = Uw creditcard is verlopen of verloopt binnenkort
 subscriptionsPaymentExpired-content-1 = De creditcard die u gebruikt voor betalingen voor de volgende abonnementen is verlopen of verloopt binnenkort.
