@@ -611,6 +611,12 @@ subscriptionRenewalReminder-content-closing = Com os melhores cumprimentos,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = A equipa do(a) { $productName }
+subscriptionReplaced-subject = A sua subscrição foi atualizada como parte da sua atualização
+subscriptionReplaced-title = A sua subscrição foi atualizada
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReplaced-content-replaced = A sua subscrição individual de { $productName } foi substituída e agora está incluída no seu novo pacote.
+subscriptionReplaced-content-credit = Irá receber um crédito por qualquer tempo não utilizado da sua subscrição anterior. Este crédito será aplicado automaticamente à sua conta e utilizado para cobranças futuras.
+subscriptionReplaced-content-no-action = Não é necessária nenhuma ação da sua parte.
 subscriptionsPaymentExpired-subject-1 = O cartão de crédito para as suas subscrições expirou ou expira em breve
 subscriptionsPaymentExpired-title-1 = O seu cartão de crédito expirou ou está prestes a expirar
 subscriptionsPaymentExpired-content-1 = O cartão de crédito que está a utilizar para efetuar os pagamentos das seguintes subscrições expirou ou está quase a expirar.
@@ -635,17 +641,17 @@ subscriptionUpgrade-title = Obrigado por atualizar!
 # Variables:
 # $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
-subscriptionUpgrade-upgrade-info = Atualizou com sucesso de { $productNameOld } para { $productName }.
+subscriptionUpgrade-upgrade-info-2 = Atualizou com sucesso para { $productName }.
 # Variables:
 # $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
 # $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
 # $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
 # $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 # $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
-subscriptionUpgrade-content-charge-info-different-cycle = Será cobrada uma taxa única de { $paymentProrated } para refletir o preço mais alto da sua subscrição para o remanescente deste { $productPaymentCycleOld }. A partir da sua próxima fatura, a cobrança será alterada de { $paymentAmountOld } por { $productPaymentCycleOld } para { $paymentAmountNew } por { $productPaymentCycleNew }.
+subscriptionUpgrade-content-charge-info-different-cycle-2 = Foi cobrado uma taxa única de { $paymentProrated } para refletir o preço mais alto da sua subscrição para o remanescente deste { $productPaymentCycleOld }. A partir da sua próxima fatura, a cobrança será alterada de { $paymentAmountOld } por { $productPaymentCycleOld } para { $paymentAmountNew } por { $productPaymentCycleNew }.
 # Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
-subscriptionUpgrade-install = Se existir um novo software para instalar de forma a utilizar o { $productName }, irá receber um e-mail separado com as instruções para a transferência.
+subscriptionUpgrade-existing = Se alguma das suas subscrições existentes se sobrepor a esta atualização, iremos gerir a mesma e enviar-lhe um e-mail separado com os detalhes. Se o seu novo plano incluir produtos que requeiram instalação, iremos enviar-lhe um e-mail separado com as instruções de configuração.
 subscriptionUpgrade-auto-renew = As sua subscrição irá ser renovada automaticamente em cada período de faturação, a menos que opte por cancelar.
 unblockCode-subject = Código de autorização da conta
 unblockCode-title = É mesmo você a iniciar sessão?

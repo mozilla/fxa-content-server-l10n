@@ -611,6 +611,12 @@ subscriptionRenewalReminder-content-closing = Vänliga hälsningar,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = Teamet bakom { $productName }
+subscriptionReplaced-subject = Din prenumeration har uppdaterats som en del av din uppgradering
+subscriptionReplaced-title = Din prenumeration har uppdaterats
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReplaced-content-replaced = Din individuella prenumeration på { $productName } har ersatts och ingår nu i ditt nya paket.
+subscriptionReplaced-content-credit = Du får en kredit för all oanvänd tid från din tidigare prenumeration. Krediten sätts automatiskt in på ditt konto och används för framtida debiteringar.
+subscriptionReplaced-content-no-action = Ingen åtgärd krävs från din sida.
 subscriptionsPaymentExpired-subject-1 = Kreditkortet för dina prenumerationer har upphört eller upphör att gälla snart
 subscriptionsPaymentExpired-title-1 = Ditt kreditkort har gått ut eller håller på att gå ut
 subscriptionsPaymentExpired-content-1 = Kreditkortet du använder för att betala för följande prenumerationer har upphört eller håller på att upphöra att gälla.
@@ -635,17 +641,17 @@ subscriptionUpgrade-title = Tack för att du har uppgraderat!
 # Variables:
 # $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
-subscriptionUpgrade-upgrade-info = Du har uppgraderat från { $productNameOld } till { $productName }.
+subscriptionUpgrade-upgrade-info-2 = Du har uppgraderat till { $productName }.
 # Variables:
 # $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
 # $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
 # $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
 # $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 # $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
-subscriptionUpgrade-content-charge-info-different-cycle = Du kommer att debiteras en engångsavgift på { $paymentProrated } för att återspegla ditt abonnemangs högre pris för resten av denna { $productPaymentCycleOld }. Från och med din nästa faktura kommer din debitering att ändras från { $paymentAmountOld } per { $productPaymentCycleOld } till { $paymentAmountNew } per { $productPaymentCycleNew }.
+subscriptionUpgrade-content-charge-info-different-cycle-2 = Du har debiterats en engångsavgift på { $paymentProrated } för att återspegla ditt abonnemangs högre pris för återstoden av denna { $productPaymentCycleOld }. Från och med din nästa räkning ändras din debitering från { $paymentAmountOld } per { $productPaymentCycleOld } till { $paymentAmountNew } per { $productPaymentCycleNew }.
 # Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
-subscriptionUpgrade-install = Om det finns ny programvara för dig att installera för att använda { $productName } kommer du att få ett separat e-postmeddelande med nedladdningsinstruktioner.
+subscriptionUpgrade-existing = Om några av dina befintliga prenumerationer överlappar denna uppgradering, hanterar vi dem och skickar ett separat mejl med detaljerna. Om din nya plan innehåller produkter som kräver installation, skickar vi ett separat e-postmeddelande med installationsinstruktioner.
 subscriptionUpgrade-auto-renew = Din prenumeration förnyas automatiskt varje faktureringsperiod om du inte väljer att avbryta.
 unblockCode-subject = Behörighetskod för konto
 unblockCode-title = Är det du som loggar in?
