@@ -93,6 +93,7 @@ ios-download-plaintext = Боргирӣ кардани «{ $productName }» та
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 another-device-plaintext = Насб кардани «{ $productName }» дар дастгоҳи дигар:
+automated-email-change-2 = Агар шумо ин амалро дархост накардед, <a data-l10n-name="passwordChangeLink">ниҳонвожаи худро дарҳол иваз намоед</a>.
 automated-email-support = Барои гирифтани маълумоти бештар, лутфан, ба бахши <a data-l10n-name="supportLink"> Дастгирии «{ -brand-mozilla }»</a> ворид шавед.
 # After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-change-plaintext-2 = Агар шумо барои иҷро кардани ин амал иҷозат надодед, пас, лутфан, ниҳонвожаи худро ҳоли ҳозир иваз намоед:
@@ -215,6 +216,11 @@ device-all = «{ $uaBrowser }» дар «{ $uaOS } { $uaOSVersion }»
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 device-browser-os = «{ $uaBrowser }» дар «{ $uaOS }»
+view-invoice = <a data-l10n-name="invoiceLink">Дидани санади дархости пардохти худ</a>.
+# Variables:
+#  $invoiceLink (String) - The link to the invoice
+# After the colon, there's a link to https://pay.stripe.com/
+view-invoice-plaintext = Дидани санади дархости пардохт: { $invoiceLink }
 cadReminderFirst-subject-1 = Ёдоварӣ! Биёед «{ -brand-firefox }»-ро ҳамоҳанг созем
 cadReminderFirst-action = Ҳамоҳанг кардани дастгоҳи дигар
 cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
