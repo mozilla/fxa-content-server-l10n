@@ -68,6 +68,9 @@ subplat-legal = Маълумоти ҳуқуқӣ
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Махфият
 subplat-privacy-website-plaintext = { subplat-privacy }:
+account-deletion-info-block-communications = Агар ҳисоби шумо нест карда шавад, шумо ба ҳар ҳол аз «Mozilla Corporation» ва «Foundation Mozilla» паёмҳои электрониро мегиред, агар шумо <a data-l10n-name="unsubscribeLink">хоҳиши қатъ кардани обунаро</a> талаб накунед.
+account-deletion-info-block-support = Агар шумо ягон савол дошта бошед ё ба кумак ниёз дошта бошед, лутфан, ба <a data-l10n-name="supportLink">дастаи дастгирии мо</a> озодона муроҷиат кунед.
+account-deletion-info-block-communications-plaintext = Агар ҳисоби шумо нест карда шавад, шумо ба ҳар ҳол аз «Mozilla Corporation» ва «Foundation Mozilla» паёмҳои электрониро мегиред, агар шумо хоҳиши қатъ кардани обунаро талаб накунед:
 account-deletion-info-block-support-plaintext = Агар шумо ягон савол дошта бошед ё ба кумак ниёз дошта бошед, лутфан, ба дастаи дастгирии мо озодона муроҷиат кунед:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
