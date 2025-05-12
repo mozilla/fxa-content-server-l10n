@@ -617,6 +617,7 @@ subscriptionReplaced-subject = Η συνδρομή σας έχει ενημερ�
 subscriptionReplaced-title = Η συνδρομή σας έχει ενημερωθεί
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReplaced-content-replaced = Η μεμονωμένη συνδρομή σας στο { $productName } έχει αντικατασταθεί και περιλαμβάνεται στο νέο πακέτο σας.
+subscriptionReplaced-content-credit = Θα λάβετε πίστωση για κάθε αχρησιμοποίητο χρόνο από την προηγούμενη συνδρομή σας. Αυτή η πίστωση θα χρησιμοποιηθεί αυτόματα στον λογαριασμό σας και θα χρησιμοποιηθεί για μελλοντικές χρεώσεις.
 subscriptionReplaced-content-no-action = Δεν απαιτείται καμία ενέργεια από την πλευρά σας.
 subscriptionsPaymentExpired-subject-1 = Η πιστωτική κάρτα της συνδρομής σας έχει ή πρόκειται να λήξει σύντομα
 subscriptionsPaymentExpired-title-1 = Η πιστωτική σας κάρτα έχει ή πρόκειται να λήξει
@@ -650,6 +651,9 @@ subscriptionUpgrade-upgrade-info-2 = Κάνατε επιτυχώς αναβάθ�
 # $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 # $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 subscriptionUpgrade-content-charge-info-different-cycle-2 = Έχετε χρεωθεί εφάπαξ το ποσό των { $paymentProrated } που αντιστοιχεί στην υψηλότερη τιμή της συνδρομής σας για το υπόλοιπο αυτού του { $productPaymentCycleOld }. Ξεκινώντας με τον επόμενο λογαριασμό σας, η χρέωσή σας θα αλλάξει από { $paymentAmountOld } ανά { $productPaymentCycleOld } σε { $paymentAmountNew } ανά { $productPaymentCycleNew }.
+# Variables:
+# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-existing = Αν κάποια από τις υπάρχουσες συνδρομές σας συμπίπτει με αυτήν την αναβάθμιση, θα τη διαχειριστούμε και θα σας στείλουμε ξεχωριστό email με τις λεπτομέρειες. Αν το νέο σας πακέτο περιλαμβάνει προϊόντα που απαιτούν εγκατάσταση, θα σας στείλουμε ξεχωριστό email με τις οδηγίες.
 subscriptionUpgrade-auto-renew = Η συνδρομή σας θα ανανεώνεται αυτόματα σε κάθε περίοδο χρέωσης, εκτός αν κάνετε ακύρωση.
 unblockCode-subject = Κωδικός ταυτοποίησης λογαριασμού
 unblockCode-title = Κάνετε εσείς σύνδεση;
