@@ -854,6 +854,9 @@ recent-activity-account-recovery-phone-removed = Hersteltelefoonnummer verwijder
 recent-activity-account-recovery-codes-replaced = Herstelcodes vervangen
 recent-activity-account-recovery-codes-created = Herstelcodes aangemaakt
 recent-activity-account-recovery-codes-signin-complete = Aanmelden met herstelcodes voltooid
+recent-activity-password-reset-otp-sent = Bevestigingscode voor wachtwoordherinitialisatie verzonden
+recent-activity-password-reset-otp-verified = Bevestigingscode van wachtwoordherinitialisatie geverifieerd
+recent-activity-must-reset-password = Wachtwoordherinitialisatie nodig
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Overige accountactiviteit
 
@@ -1748,6 +1751,8 @@ signin-reported-message = Ons team is op de hoogte gebracht. Dit soort meldingen
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 signin-token-code-heading-2 = Voer bevestigingscode in <span>voor uw { -product-mozilla-account }</span>
+# { $email } represents the email that the user entered to sign in
+signin-token-code-instruction-v2 = Voer binnen 5 minuten de code in die naar <email>{ $email }</email> is verzonden.
 signin-token-code-input-label-v2 = Voer 6-cijferige code in
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Bevestigen
@@ -1812,6 +1817,8 @@ confirm-signup-code-page-title = Voer bevestigingscode in
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 confirm-signup-code-heading-2 = Voer bevestigingscode in <span>voor uw { -product-mozilla-account }</span>
+# { $email } represents the email that the user entered to sign in
+confirm-signup-code-instruction-v2 = Voer binnen 5 minuten de code in die naar <email>{ $email }</email> is verzonden.
 confirm-signup-code-input-label = Voer 6-cijferige code in
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = Bevestigen
