@@ -611,6 +611,10 @@ subscriptionRenewalReminder-content-closing = Atenciosamente,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = A equipe do { $productName }
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReplaced-content-replaced = Sua assinatura individual do { $productName } foi substituída e agora está incluída em seu novo pacote.
+subscriptionReplaced-content-credit = Você receberá um crédito por qualquer tempo não usado da sua assinatura anterior. Este crédito será aplicado automaticamente à sua conta e usado em futuras cobranças.
+subscriptionReplaced-content-no-action = Nenhuma ação é necessária da sua parte.
 subscriptionsPaymentExpired-subject-1 = A validade do cartão de crédito de suas assinaturas expirou ou expira em breve
 subscriptionsPaymentExpired-title-1 = A validade do seu cartão de crédito expirou ou está prestes a expirar
 subscriptionsPaymentExpired-content-1 = A validade do cartão de crédito que você está usando para efetuar pagamentos das assinaturas a seguir expirou ou está prestes a expirar.
