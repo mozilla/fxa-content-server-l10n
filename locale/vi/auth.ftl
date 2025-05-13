@@ -609,6 +609,12 @@ subscriptionRenewalReminder-content-closing = Trân trọng,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = Nhóm { $productName }
+subscriptionReplaced-subject = Gói đăng ký của bạn đã được cập nhật theo gói nâng cấp của bạn
+subscriptionReplaced-title = Gói đăng ký của bạn đã được cập nhật
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReplaced-content-replaced = Gói đăng ký cá nhân { $productName } của bạn đã được thay thế và hiện được bao gồm trong gói mới của bạn.
+subscriptionReplaced-content-credit = Bạn sẽ nhận được khoản tín dụng cho bất kỳ thời gian chưa sử dụng nào từ gói đăng ký trước đó của bạn. Khoản tín dụng này sẽ tự động được áp dụng vào tài khoản của bạn và được sử dụng cho các khoản phí trong tương lai.
+subscriptionReplaced-content-no-action = Bạn không cần phải thực hiện bất kỳ hành động nào.
 subscriptionsPaymentExpired-subject-1 = Thẻ tín dụng cho các thuê bao của bạn đã/sắp hết hạn
 subscriptionsPaymentExpired-title-1 = Thẻ tín dụng của bạn đã/sắp hết hạn
 subscriptionsPaymentExpired-content-1 = Thẻ tín dụng bạn đang sử dụng để thanh toán cho các thuê bao sau đã/sắp hết hạn.
@@ -630,6 +636,20 @@ subscriptionSubsequentInvoice-content-next-invoice = Hóa đơn tiếp theo: { $
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = Bạn đã nâng cấp lên { $productName }
 subscriptionUpgrade-title = Cảm ơn bạn đã nâng cấp!
+# Variables:
+# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
+# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-upgrade-info-2 = Bạn đã nâng cấp thành công { $productName }.
+# Variables:
+# $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
+# $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
+# $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
+# $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
+# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+subscriptionUpgrade-content-charge-info-different-cycle-2 = Bạn đã bị tính phí một lần { $paymentProrated } để phản ánh mức giá đăng ký cao hơn cho phần còn lại của { $productPaymentCycleOld } này. Bắt đầu với hóa đơn tiếp theo, khoản phí của bạn sẽ thay đổi từ { $paymentAmountOld } trên mỗi { $productPaymentCycleOld } thành { $paymentAmountNew } trên mỗi { $productPaymentCycleNew }.
+# Variables:
+# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-existing = Nếu bất kỳ gói đăng ký hiện tại nào của bạn trùng với bản nâng cấp này, chúng tôi sẽ xử lý chúng và gửi cho bạn một email riêng có thông tin chi tiết. Nếu gói mới của bạn bao gồm các sản phẩm yêu cầu cài đặt, chúng tôi sẽ gửi cho bạn một email riêng có hướng dẫn thiết lập.
 subscriptionUpgrade-auto-renew = Thuê bao của bạn sẽ tự động gia hạn mỗi kỳ thanh toán trừ khi bạn chọn hủy.
 unblockCode-subject = Mã xác minh tài khoản
 unblockCode-title = Đây có phải là bạn đăng nhập không?

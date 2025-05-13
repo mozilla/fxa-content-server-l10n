@@ -1744,6 +1744,8 @@ signin-reported-message = Nhóm của chúng tôi đã được thông báo. Cá
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 signin-token-code-heading-2 = Nhập mã xác minh<span> cho { -product-mozilla-account } của bạn</span>
+# { $email } represents the email that the user entered to sign in
+signin-token-code-instruction-v2 = Nhập mã đã được gửi tới <email>{ $email }</email> trong vòng 5 phút.
 signin-token-code-input-label-v2 = Nhập mã gồm 6 chữ số
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Xác nhận
@@ -1808,6 +1810,8 @@ confirm-signup-code-page-title = Nhập mã xác nhận
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 confirm-signup-code-heading-2 = Nhập mã xác minh <span>cho { -product-mozilla-account } của bạn</span>
+# { $email } represents the email that the user entered to sign in
+confirm-signup-code-instruction-v2 = Nhập mã đã được gửi tới <email>{ $email }</email> trong vòng 5 phút.
 confirm-signup-code-input-label = Nhập mã gồm 6 chữ số
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = Xác nhận
