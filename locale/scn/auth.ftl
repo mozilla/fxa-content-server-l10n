@@ -293,6 +293,9 @@ inactiveAccountFirstWarning-preview = Trasi pi mantiniri u to cuntu
 inactiveAccountFirstWarning-action-plaintext = Trasi pi mantiniri u to cuntu:
 inactiveAccountSecondWarning-subject = Azzioni nicissaria: scancillamentu dû cuntu ntra 7 jorna
 inactiveAccountSecondWarning-title = U tu cuntu { -brand-mozilla } e i to dati vennu scancillati ntra 7 jorna
+inactiveAccountSecondWarning-account-description-v2 = Usa u to { -product-mozilla-account } pi tràsiri dintra a prudutti a francu pâ privatizza e a navicazzioni, a tipu { -brand-firefox } sync, { -product-mozilla-monitor }, { -product-firefox-relay } e { -product-mdn }.
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+inactiveAccountSecondWarning-impact = Scancillaremu u to cuntu e i to dati pirsunali jornu <strong>{ $deletionDate }</strong> picchì nun fusti attivu.
 inactiveAccountSecondWarning-action = Trasi pi mantiniri u to cuntu
 inactiveAccountSecondWarning-preview = Trasi pi mantiniri u to cuntu
 # followed by link to sign in
@@ -330,6 +333,10 @@ passwordChanged-title = A chiavi fu canciata
 passwordChanged-description-2 = A chiavi dû { -product-mozilla-account } fu canciata di stu dispusitivu:
 passwordChangeRequired-subject = Attruvammu n'attività suspetta
 passwordChangeRequired-title = È nicissariu canciari a chiavi
+passwordChangeRequired-suspicious-activity-2 = Vìttimu un cumpurtamentu suspettu nnô to { -product-mozilla-account }. Pi bluccari na trasuta nun auturizzata, scullijammu tutti i dispusitivi dû to cuntu, e t'addumannamu di canciari a chiavi pi sicurizza.
+passwordChangeRequired-sign-in-2 = Trasi arrè nna tutti i dispusitivi o sirbizzi unni usi u to { -product-mozilla-account } e sicuta i passi chi ti vennu mustrati.
+passwordChangeRequired-different-password = <b>Mpurtanti:</b> scarta na chiavi diversa di chiḍḍa chi usavi prima, e stai accura a nun scartari a stissa di chiḍḍa dû to nnirizzu di posta elittrònica.
+passwordChangeRequired-different-password-plaintext = Mpurtanti: scarta na chiavi diversa di chiḍḍa chi usavi prima, e stai accura a nun scartari a stissa di chiḍḍa dû to nnirizzu di posta elittrònica.
 password-forgot-otp-subject = Ti scurdasti a chiavi?
 password-forgot-otp-title = Ti scurdasti a chiavi?
 password-forgot-otp-request = Ricivemmu na dumanna di canciu dâ chiavi dû to { -product-mozilla-account } di:
@@ -343,6 +350,9 @@ passwordResetAccountRecovery-subject-2 = A chiavi fu risittata
 passwordResetAccountRecovery-title-3 = A chiavi fu risittata
 # Followed by details on the device and date/time of the password reset.
 passwordResetAccountRecovery-description-3 = Usasti a chiavi di ricùpiru dû cuntu pi risittari a chiavi dû to { -product-mozilla-account } nne:
+passwordResetAccountRecovery-information = Ti scullijammu di tutti i to dispusitivi sincrunizzati. Criammu na chiavi di ricùpiru dû cuntu nova pi sustituiri chiḍḍa chi usasti. A po' canciari nnê mpustazzioni dû to cuntu.
+# After the colon there is a link to account settings
+passwordResetAccountRecovery-information-txt = Ti scullijammu di tutti i to dispusitivi sincrunizzati. Criammu na chiavi di ricùpiru dû cuntu nova pi sustituiri chiḍḍa chi usasti. A po' canciari nnê mpustazzioni dû to cuntu:
 passwordResetAccountRecovery-action-4 = Manija cuntu
 passwordResetWithRecoveryKeyPrompt-subject = A chiavi fu risittata
 passwordResetWithRecoveryKeyPrompt-title = A chiavi fu risittata
@@ -352,27 +362,43 @@ passwordResetWithRecoveryKeyPrompt-description = Risittasti a chiavi dû to { -p
 passwordResetWithRecoveryKeyPrompt-action = Crìa na chiavi di ricùpiru dû cuntu
 # colon is followed by a link to create an account recovery key from the account settings page
 passwordResetWithRecoveryKeyPrompt-action-txt = Crìa na chiavi di ricùpiru dû cuntu:
+passwordResetWithRecoveryKeyPrompt-cta-description = Hâ tràsiri arrè nna tutti i to dispusitivi sincrunizzati. A pròssima vota, teni i to dati ô sicuru cu na chiavi di ricùpiru dû cuntu. Chistu ti duna a pussibbilità di ricupigghiari i to dati si ti scurdasti a chiavi.
+postAddAccountRecovery-subject-3 = Chiavi di ricùpiru dû cuntu criata nova
+postAddAccountRecovery-title2 = Criasti na chiavi di ricùpiru dû cuntu nova
+# Key here refers to account recovery key
+postAddAccountRecovery-body-part1 = Sarba sta chiavi nnôn locu sicuru — ti serbi si vo' ricupigghiari i to dati crittati di navicazzioni si ti scordi a chiavi.
+# Key here refers to account recovery key
+postAddAccountRecovery-body-part2 = Sta chiavi si po' usari na vota sula. Doppu chi l'usi, ni criamu una nova di manera autumàtica. Nni po' macari ginirari una nova quannu vo' tu, dî mpustazzioni dû to cuntu.
 postAddAccountRecovery-action = Manija cuntu
 postAddLinkedAccount-subject-2 = Novu cuntu lijatu ô to { -product-mozilla-account }
 #  Variables:
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = U to cuntu { $providerName } fu lijatu ô to { -product-mozilla-account }
 postAddLinkedAccount-action = Manija cuntu
+postAddRecoveryPhone-subject = Juncisti u nùmmaru di tilèfunu di ricùpiru
 # Links out to a support article about two factor authentication
 postAddRecoveryPhone-how-protect = Comu pruteggi u to cuntu
 postAddRecoveryPhone-how-protect-plaintext = Comu pruteggi u to cuntu:
 postAddRecoveryPhone-enabled-device = L'abbilitasti di:
 postAddRecoveryPhone-action = Manija cuntu
+postAddTwoStepAuthentication-subject-2 = Autinticazzioni a du' fattura abbilitata
+postAddTwoStepAuthentication-title-2 = Abbilitasti l'autinticazzioni a du' fattura
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postAddTwoStepAuthentication-from-device = L'abbilitasti di:
 postAddTwoStepAuthentication-action = Manija cuntu
+postAddTwoStepAuthentication-code-required-2 = D'ora innanzi, ogni vota chi trasi sèrbinu i còdici di sicurizza ginirati di l'app d'autinticazzioni.
 postChangeAccountRecovery-subject = Chiavi di ricùpiru dû cuntu canciata
 postChangeAccountRecovery-title = Canciasti a chiavi di ricùpiru dû cuntu
 postChangeAccountRecovery-body-part1 = Ora ài na chiavi di ricùpiru dû cuntu nova. Chiḍḍa vecchia fu scancillata.
+postChangeAccountRecovery-body-part2 = Sarba sta chiavi nova nnôn locu sicuru — ti serbi si vo' ricupigghiari i to dati crittati di navicazzioni si ti scordi a chiavi.
 postChangeAccountRecovery-action = Manija cuntu
 postChangePrimary-subject = Nnirizzu di posta elittrònica primariu attualizzatu
 postChangePrimary-title = Novu nnirizzu di posta elittrònica primariu
+# Variables:
+#  $email (String) - A user's email address
+postChangePrimary-description-2 = Canciasti bonu u to nnirizzu di posta elittrònica primariu a { $email }. Stu nnirizzu ora addivintau u to nomu utenti pi tràsiri nnô to cuntu { -product-mozilla-account }, pi ricìviri nutìfichi di sicurizza e cunfermi di trasuti.
 postChangePrimary-action = Manija cuntu
+postChangeRecoveryPhone-subject = Nùmmaru di tilèfunu di ricùpiru attualizzatu
 postChangeRecoveryPhone-requested-device = L'addumannasti di:
 postConsumeRecoveryCode-title-2 = Usasti un còdici d'autinticazzioni di sicurizza
 # After the colon, there is description of the device that the backup authentication code was used on
@@ -383,7 +409,12 @@ postConsumeRecoveryCode-subject-2 =
         [one] arristau 1 còdici d'autinticazzioni di sicurizza
        *[other] arristaru { $numberRemaining } còdici d'autinticazzioni di sicurizza
     }
+postNewRecoveryCodes-subject-2 = Còdici d'autinticazzioni di sicurizza criati novi
+postNewRecoveryCodes-title-2 = Criasti còdici d'autinticazzioni di sicurizza novi
+# After the colon, there is information about the device that the authentication codes were created on
+postNewRecoveryCodes-description-2 = Foru criati nni:
 postNewRecoveryCodes-action = Manija cuntu
+postRemoveAccountRecovery-subject-2 = Chiavi di ricùpiru dû cuntu scancillata
 postRemoveAccountRecovery-action = Manija cuntu
 postRemoveSecondary-action = Manija cuntu
 postSigninRecoveryCode-action = Manija cuntu
