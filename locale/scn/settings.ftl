@@ -224,6 +224,18 @@ icon-attention-aria-label =
 # Aria-label option for an alert symbol
 icon-warning-aria-label =
     .aria-label = Accura
+authenticator-app-aria-label =
+    .aria-label = App d'autinticazzioni
+backup-codes-icon-aria-label-v2 =
+    .aria-label = Còdici d'autinticazzioni di sicurizza abbilitati
+backup-codes-disabled-icon-aria-label-v2 =
+    .aria-label = Còdici d'autinticazzioni di sicurizza sdisabbilitati
+# An icon of phone with text message. A back recovery phone number
+backup-recovery-sms-icon-aria-label =
+    .aria-label = SMS di ricùpiru abbilitatu
+# Disabled version of backup-recovery-sms-icon-aria-label
+backup-recovery-sms-disabled-icon-aria-label =
+    .aria-label = SMS di ricùpiru sdisabbilitatu
 # Used to select Canada as country code for phone number
 canadian-flag-icon-aria-label =
     .aria-label = Bannera dû Cànada
@@ -254,11 +266,48 @@ usa-flag-icon-aria-label =
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
+hearts-broken-image-aria-label =
+    .aria-label = Un computer e un tilèfunu e na mmàggini d'un cori ciaccatu ncapu a iḍḍi
+hearts-verified-image-aria-label =
+    .aria-label = Un computer e un tilèfunu e na tavuliḍḍa c'un cori chi batti ncapu a iḍḍi
+signin-recovery-code-image-description =
+    .aria-label = Ducumentu chi àvi testu ammucciatu
+signin-totp-code-image-label =
+    .aria-label = Un dispusitivu c'un còdici a 6 cifri ammucciatu
+confirm-signup-aria-label =
+    .aria-label = Na busta cu na lijami
+# Used for an image of a key on a shield surrounded by 5 other icons representing information that can be recovered with the account recovery key.
+# Other icons and their meaning: Gear (settings), star (favorites), clock (history), magnifying glass (search) and lock (passwords).
+security-shield-aria-label =
+    .aria-label = Mmàggini chi riprisenta na chiavi di ricùpiru dû cuntu.
+# Used for an image of a single key.
+recovery-key-image-aria-label =
+    .aria-label = Mmàggini chi riprisenta na chiavi di ricùpiru dû cuntu.
+password-image-aria-label =
+    .aria-label = Mmàggini chi riprisenta u nzirimentu di na chiavi.
+lightbulb-aria-label =
+    .aria-label = Mmàggini chi riprisenta a criazzioni d'un suggirimentu pi l'archiviu.
+email-code-image-aria-label =
+    .aria-label = Mmàggini chi riprisenta n'email chi àvi un còdici.
+recovery-phone-image-description =
+    .aria-label = Dispusitivu mòbbili chi ricivi un còdici pi SMS.
+recovery-phone-code-image-description =
+    .aria-label = Còdici ricivutu d'un dispusitivu mòbbili.
+backup-recovery-phone-image-aria-label =
+    .aria-label = Dispusitivu mòbbili chi po mannari SMS
+backup-authentication-codes-image-aria-label =
+    .aria-label = Schirmu dû dispusitivu cu còdici
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
 ## after signing in.
 
+inline-recovery-key-setup-signed-in-firefox-2 = Trasisti nne { -brand-firefox }.
+inline-recovery-key-setup-create-header = Pruteggi u to cuntu
+# This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
+inline-recovery-key-setup-create-subheader = Ài un minutu pi prutèggiri i to dati?
+inline-recovery-key-setup-info = Crìa na chiavi di ricùpiru dû cuntu accussì po' ricupigghiari i dati sincrunizzati dû navicaturi si ti scordi a chiavi.
+inline-recovery-key-setup-start-button = Crìa na chiavi di ricùpiru dû cuntu
 inline-recovery-key-setup-later-button = Cchiù tardu
 
 ## Input Password
@@ -267,21 +316,57 @@ inline-recovery-key-setup-later-button = Cchiù tardu
 input-password-hide = Ammuccia chiavi
 # Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will show the password.
 input-password-show = Mustra chiavi
+# Message read by screen readers when focus is on a password input visibility toggle. Expresses current (visible) state of the textbox content.
+input-password-hide-aria-2 = A to chiavi è visìbbili nnô schirmu.
+# Message read by screen readers when focus is on a password input visibility toggle. Expresses current (hidden) state of the textbox content.
+input-password-show-aria-2 = A to chiavi è ammucciata.
+# Message read by screen readers after clicking on a password input visibility toggle to show the password. Expresses the new (visible) state of the textbox content.
+input-password-sr-only-now-visible = A to chiavi è visìbbili nnô schirmu.
+# Message read by screen readers after clicking on a password input visibility toggle to hide the password. Expresses the new (hidden) state of the textbox content.
+input-password-sr-only-now-hidden = A to chiavi è ammucciata.
 
 ## Phone number component
 
+# This is an aria-label available to screen readers for a selection list that includes country flags, country name and country code
+input-phone-number-country-list-aria-label = Scarta u pajisi
+input-phone-number-enter-number = Metti u nùmmaru di tilèfunu
+input-phone-number-country-united-states = Stati Junciuti
+input-phone-number-country-canada = Cànada
+# Back button on legal/terms or legal/privacy that takes users to the previous page
+legal-back-button = Nn'arrè
 
 ## LinkDamaged component
 
+# The user followed a password reset link that was received by email
+# but the link is damaged (for example mistyped or broken by the email client)
+reset-pwd-link-damaged-header = A lijami pi risittari a chiavi è rutta
+# The user followed a link to signin that was received by email
+# but the link was damaged (for example mistyped or broken by the email client).
+signin-link-damaged-header = A lijami di cunferma è rutta
+# The user followed a link to report an invalid signin attempt that was received by email
+# but the link was damaged (for example mistyped or broken by the email client).
+report-signin-link-damaged-header = Lijami rutta
+# The user followed a link received by email, but the link was damaged.
+reset-pwd-link-damaged-message = Â lijami chi ammaccasti ci ammancàvanu caràttari, e capaci chi fu rumputa dû to prugramma di posta elittròncia. Copia u nnirizzu stannu accura, e torna a prova.
 
 ## LinkExpired component
 
+# Button to request a new link if the previous link that was emailed to the user is expired
+link-expired-new-link-button = Ricivi na lijami nova
 
 ## LinkRememberPassword component
 
+# immediately before remember-password-signin-link
+remember-password-text = Ti ricordi a to chiavi?
+# link navigates to the sign in page
+remember-password-signin-link = Trasi
 
 ## LinkUsed component
 
+# The user followed a primary email confirmation link, but that link is has been used and is no longer valid
+primary-email-confirmation-link-reused = U nnirizzu di posta elittrònica primariu già fu cunfirmatu
+# The user followed a sign-in confirmation link, but that link has been used and is no longer valid
+signin-confirmation-link-reused = A trasuta già fu cunfirmata
 confirmation-link-reused-message = Sta lijami di cunferma fu già usata, e po èssiri usata na vota sula.
 
 ## Notification Promo Banner component
