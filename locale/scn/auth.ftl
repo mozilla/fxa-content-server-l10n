@@ -358,13 +358,31 @@ postAddLinkedAccount-subject-2 = Novu cuntu lijatu ô to { -product-mozilla-acco
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = U to cuntu { $providerName } fu lijatu ô to { -product-mozilla-account }
 postAddLinkedAccount-action = Manija cuntu
+# Links out to a support article about two factor authentication
+postAddRecoveryPhone-how-protect = Comu pruteggi u to cuntu
+postAddRecoveryPhone-how-protect-plaintext = Comu pruteggi u to cuntu:
+postAddRecoveryPhone-enabled-device = L'abbilitasti di:
 postAddRecoveryPhone-action = Manija cuntu
+# After the colon, there is a description of the device that the user used to enable two-step authentication
+postAddTwoStepAuthentication-from-device = L'abbilitasti di:
 postAddTwoStepAuthentication-action = Manija cuntu
+postChangeAccountRecovery-subject = Chiavi di ricùpiru dû cuntu canciata
+postChangeAccountRecovery-title = Canciasti a chiavi di ricùpiru dû cuntu
+postChangeAccountRecovery-body-part1 = Ora ài na chiavi di ricùpiru dû cuntu nova. Chiḍḍa vecchia fu scancillata.
 postChangeAccountRecovery-action = Manija cuntu
 postChangePrimary-subject = Nnirizzu di posta elittrònica primariu attualizzatu
 postChangePrimary-title = Novu nnirizzu di posta elittrònica primariu
 postChangePrimary-action = Manija cuntu
+postChangeRecoveryPhone-requested-device = L'addumannasti di:
+postConsumeRecoveryCode-title-2 = Usasti un còdici d'autinticazzioni di sicurizza
+# After the colon, there is description of the device that the backup authentication code was used on
+postConsumeRecoveryCode-description-2 = Fu usatu nni:
 postConsumeRecoveryCode-action = Manija cuntu
+postConsumeRecoveryCode-subject-2 =
+    { $numberRemaining ->
+        [one] arristau 1 còdici d'autinticazzioni di sicurizza
+       *[other] arristaru { $numberRemaining } còdici d'autinticazzioni di sicurizza
+    }
 postNewRecoveryCodes-action = Manija cuntu
 postRemoveAccountRecovery-action = Manija cuntu
 postRemoveSecondary-action = Manija cuntu
