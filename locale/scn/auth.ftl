@@ -428,11 +428,16 @@ postRemoveAccountRecovery-body-part1 = A to chiavi di ricùpiru dû cuntu serbi 
 postRemoveAccountRecovery-body-part2 = Si già nun u facisti, crìa na chiavi di ricùpiru dû cuntu nova nnê mpustazzioni dû to cuntu, p'allascàriti di pèrdiri i chiavi chi sarbasti, i nzingalibbra, a crunuluggìa di navicazzioni e autri dati riggistrati.
 postRemoveAccountRecovery-action = Manija cuntu
 postRemoveRecoveryPhone-subject = Nùmmaru di tilèfunu di ricùpiru scancillatu
+postRemoveRecoveryPhone-preview = Cuntu prutettu cu l'autinticazzioni a du' fattura
 postRemoveRecoveryPhone-title = Nùmmaru di tilèfunu di ricùpiru scancillatu
+postRemoveRecoveryPhone-description-v2 = U nùmmaru di tilèfunu di ricùpiru fu livatu dî mpustazzioni di l'autinticazzioni a du' fattura.
 postRemoveRecoveryPhone-description-extra = Po' usari i to còdici d'autinticazzioni di sicurizza pi tràsiri si nun po' usari a to app d'autinticazzioni.
 postRemoveRecoveryPhone-requested-device = L'addumannasti di:
 postRemoveSecondary-subject = Nnirizzu di posta elittrònica sicunnariu scancillatu
 postRemoveSecondary-title = Nnirizzu di posta elittrònica sicunnariu scancillatu
+# Variables:
+#  $secondaryEmail (String) - A user's email address
+postRemoveSecondary-description-2 = Scancillasti bonu { $secondaryEmail } comu nnirizzu di posta elittrònica sicunnariu pû to { -product-mozilla-account }. D'ora innanzi, i nutizzi di sicurizza e i cunfermi di trasuta nun vennu cchiù mannati a stu nnirizzu.
 postRemoveSecondary-action = Manija cuntu
 postRemoveTwoStepAuthentication-subject-line-2 = Autinticazzioni a du' fattura sdisabbilitata
 postRemoveTwoStepAuthentication-title-2 = Sdisabbilitasti l'autinticazzioni a du' fattura
@@ -440,6 +445,7 @@ postRemoveTwoStepAuthentication-title-2 = Sdisabbilitasti l'autinticazzioni a du
 postRemoveTwoStepAuthentication-from-device = A sdisabbilitasti di:
 postRemoveTwoStepAuthentication-action = Manija cuntu
 postRemoveTwoStepAuthentication-not-required-2 = Nun ti sèrbinu cchiù i còdici di sicurizza di l'app pi l'autinticazzioni quannu trasi.
+postSigninRecoveryCode-subject = Còdici d'autinticazzioni di sicurizza usatu pi tràsiri
 postSigninRecoveryCode-action = Manija cuntu
 postSigninRecoveryPhone-preview = Cunferma attività dû cuntu
 postSigninRecoveryPhone-device = Trasisti di:
@@ -462,21 +468,35 @@ recovery-title-2 = Ti scurdasti a chiavi?
 # Information on the device, date and time of the request that triggered the email follows.
 recovery-request-origin-2 = Ricivemmu na dumanna di canciu dâ chiavi dû to { -product-mozilla-account } di:
 recovery-new-password-button = Crìa na chiavi nova ammaccannu u buttuni appressu. Sta lijami scadi nta n'ura.
+recovery-copy-paste = Crìa na chiavi nova cupiannu e ncuḍḍannu a lijami appressu nnô to navicaturi. Sta lijami scadi nta n'ura.
 recovery-action = Crìa na chiavi nova
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountDeletion-subject = A to iscrizzioni a { $productName } fu scancillata
 subscriptionAccountDeletion-title = Ni dispiaci chi ti nni vai
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+subscriptionAccountDeletion-content-cancelled-2 = Àvi picca chi scancillasti u to { -product-mozilla-account }. Pi sta scaciuni, scancillammu u to abbunamentu a { $productName }. U pagamentu finali di { $invoiceTotal } fu fattu jornu { $invoiceDateOnly }.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-subject = Bummegna nne { $productName }: pi favuri mposta a to chiavi.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-title = Bummegna nne { $productName }
+subscriptionAccountFinishSetup-content-create-3 = Doppu, hâ criari na chiavi pû { -product-mozilla-account } pi principiari a usari u to abbunamentu novu.
 subscriptionAccountFinishSetup-action-2 = Accumincia
+subscriptionAccountReminderFirst-subject = Ricòrdati: cumpleta a cunfijurazzioni dû to cuntu
+subscriptionAccountReminderFirst-title = Ancora nun po' tràsiri ô to abbunamentu
+subscriptionAccountReminderFirst-content-info-3 = Quarchi jornu nn'arrè criasti un { -product-mozilla-account } ma nun u cunfirmasti mai. Spiramu chi cumpleti a cunfijurazzioni, accussì po' usari u to abbunamentu novu.
+subscriptionAccountReminderFirst-content-select-2 = Scarta “Crìa na chiavi” pi mpustari na chiavi nova e cumplitari a cunferma dû to cuntu.
 subscriptionAccountReminderFirst-action = Crìa na chiavi
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
+subscriptionAccountReminderSecond-subject = Abbisu finali: cunfijura u to cuntu
 subscriptionAccountReminderSecond-title-2 = Bummegna nne { -brand-mozilla }!
+subscriptionAccountReminderSecond-content-info-3 = Quarchi jornu nn'arrè criasti un { -product-mozilla-account } ma nun u cunfirmasti mai. Spiramu chi cumpleti a cunfijurazzioni, accussì po' usari u to abbunamentu novu.
+subscriptionAccountReminderSecond-content-select-2 = Scarta “Crìa na chiavi” pi mpustari na chiavi nova e cumplitari a cunferma dû to cuntu.
 subscriptionAccountReminderSecond-action = Crìa na chiavi
 subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
 # Variables
@@ -489,6 +509,18 @@ subscriptionCancellation-title = Ni dispiaci chi ti nni vai
 ##   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 ##   $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
 
+subscriptionCancellation-content-2 = Scancillammu u to abbunamentu a { $productName }. U pagamentu finali di { $invoiceTotal } fu fattu jornu { $invoiceDateOnly }.
+subscriptionCancellation-outstanding-content-2 = Scancillammu u to abbunamentu a { $productName }. U pagamentu finali di { $invoiceTotal } veni fattu jornu { $invoiceDateOnly }.
+# Variables
+#   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
+subscriptionCancellation-content-continue = U sirbizzu cuntinua nzinu â fini dû pirìudu di fatturazzioni attuali, veni a diri jornu { $serviceLastActiveDateOnly }.
+# Variables:
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionDowngrade-subject = Canciasti a { $productName }
+# Variables:
+# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
+# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionDowngrade-content-switch = Canciasti bonu di { $productNameOld } a { $productName }.
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFailedPaymentsCancellation-subject = A to iscrizzioni a { $productName } fu scancillata
