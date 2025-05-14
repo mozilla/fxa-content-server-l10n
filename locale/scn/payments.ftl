@@ -508,7 +508,7 @@ sub-route-funding-source-payment-alert = Nfurmazzioni di pagamentu nun vàliti, 
 
 ## Routes - Subscription - SubscriptionItem
 
-sub-item-no-such-plan = Nun cc'è nuḍḍu chianu di stu tipu pi st'iscrizzioni.
+sub-item-no-such-plan = Nun cc'è nuḍḍu chianu di stu tipu pi st'abbunamentu.
 invoice-not-found = Nun attruvai a fattura doppu
 sub-item-no-such-subsequent-invoice = Nun attruvai a fattura doppu pi st'abbunamentu.
 sub-invoice-preview-error-title = Nun attruvai l'antiprima dâ fattura

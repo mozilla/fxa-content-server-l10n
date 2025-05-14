@@ -214,9 +214,9 @@ subscriptionSupport = Ài dumanni ncapu ô to abbunamentu? A nostra <a data-l10n
 subscriptionSupport-plaintext = Ài dumanni ncapu ô to abbunamento? A nostra squatra di supportu è cca p'ajutàriti:
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionSupportContact = Grazzi chi ti scrivisti a { $productName }. Si ài dumanni ncapu â to iscrizzioni o ti sèrbinu cchiù assai nfurmazzioni ncapu a { $productName }, pi favuri <a data-l10n-name="subscriptionSupportUrl">cuntàttani</a>.
+subscriptionSupportContact = Grazzi chi t'abbunasti a { $productName }. Si ài dumanni ncapu ô to abbunamentu o ti sèrbinu cchiù assai nfurmazzioni ncapu a { $productName }, pi favuri <a data-l10n-name="subscriptionSupportUrl">cuntàttani</a>.
 # After the colon, there's a link to https://accounts.firefox.com/support
-subscriptionSupportContact-plaintext = Grazzi chi ti scrivisti a { $productName }. Si ài dumanni ncapu â to iscrizzioni o ti sèrbinu cchiù assai nfurmazzioni ncapu a { $productName }, pi favuri cuntàttani:
+subscriptionSupportContact-plaintext = Grazzi chi t'abbunasti a { $productName }. Si ài dumanni ncapu ô to abbunamentu o ti sèrbinu cchiù assai nfurmazzioni ncapu a { $productName }, pi favuri cuntàttani:
 subscriptionUpdateBillingEnsure = <a data-l10n-name="updateBillingUrl">Cuntrolla</a> si i nfurmazzioni ncapu ô to cuntu e ncapu ê furmi di pagamentu sunnu attualizzati.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdateBillingEnsure-plaintext = Cuntrolla si i nfurmazzioni ncapu ô to cuntu e ncapu ê furmi di pagamentu sunnu attualizzati:
@@ -260,7 +260,7 @@ downloadSubscription-subject = Bummegna nne { $productName }
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-title = Bummegna nne { $productName }
-downloadSubscription-content-2 = Accuminciamu a usari tutti i funzioni nchiusi nnâ to iscrizzioni:
+downloadSubscription-content-2 = Accuminciamu a usari tutti i funzioni nchiusi nnô to abbunamentu:
 downloadSubscription-link-action-2 = Accumincia
 fraudulentAccountDeletion-subject-2 = U to { -product-mozilla-account } fu scancillatu
 fraudulentAccountDeletion-title = U to cuntu fu scancillatu
@@ -446,8 +446,15 @@ postRemoveTwoStepAuthentication-from-device = A sdisabbilitasti di:
 postRemoveTwoStepAuthentication-action = Manija cuntu
 postRemoveTwoStepAuthentication-not-required-2 = Nun ti sèrbinu cchiù i còdici di sicurizza di l'app pi l'autinticazzioni quannu trasi.
 postSigninRecoveryCode-subject = Còdici d'autinticazzioni di sicurizza usatu pi tràsiri
+postSigninRecoveryCode-preview = Cunferma attività dû cuntu
+postSigninRecoveryCode-title = U to còdici d'autinticazzioni di sicurizza fu usatu pi tràsiri
+postSigninRecoveryCode-description = Si nun fusti tu, hâ canciari sùbbitu a to chiavi pi tèniri u to cuntu ô sicuru.
+postSigninRecoveryCode-device = Trasisti di:
 postSigninRecoveryCode-action = Manija cuntu
+postSigninRecoveryPhone-subject = Nùmmaru di tilèfunu di ricùpiru usatu pi tràsiri
 postSigninRecoveryPhone-preview = Cunferma attività dû cuntu
+postSigninRecoveryPhone-title = U to nùmmaru di tilèfunu di ricùpiru fu usatu pi tràsiri
+postSigninRecoveryPhone-description = Si nun fusti tu, hâ canciari sùbbitu a to chiavi pi tèniri u to cuntu ô sicuru.
 postSigninRecoveryPhone-device = Trasisti di:
 postSigninRecoveryPhone-action = Manija cuntu
 postVerify-sub-title-3 = Semu cuntenti chi sì cca!
@@ -472,7 +479,7 @@ recovery-copy-paste = Crìa na chiavi nova cupiannu e ncuḍḍannu a lijami app
 recovery-action = Crìa na chiavi nova
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionAccountDeletion-subject = A to iscrizzioni a { $productName } fu scancillata
+subscriptionAccountDeletion-subject = U to abbunamentu a { $productName } fu scancillatu
 subscriptionAccountDeletion-title = Ni dispiaci chi ti nni vai
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -501,7 +508,7 @@ subscriptionAccountReminderSecond-action = Crìa na chiavi
 subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionCancellation-subject = A to iscrizzioni a { $productName } fu scancillata
+subscriptionCancellation-subject = U to abbunamentu a { $productName } fu scancillatu
 subscriptionCancellation-title = Ni dispiaci chi ti nni vai
 
 ## Variables
@@ -523,14 +530,30 @@ subscriptionDowngrade-subject = Canciasti a { $productName }
 subscriptionDowngrade-content-switch = Canciasti bonu di { $productNameOld } a { $productName }.
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionFailedPaymentsCancellation-subject = A to iscrizzioni a { $productName } fu scancillata
+subscriptionFailedPaymentsCancellation-subject = U to abbunamentu a { $productName } fu scancillatu
+subscriptionFailedPaymentsCancellation-title = U to abbunamentu fu scancillatu
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFailedPaymentsCancellation-content = Scancillammu u to abbunamentu pi { $productName } picchì assai voti i pagamenti sfalleru. Pi tràsiri arrè, fatti n'abbunamentu novu cu n'autra furma di pagamentu.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFirstInvoice-subject = U pagamentu di { $productName } fu cunfirmatu
 # Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoice-title = Grazzi pû to abbunamentu a { $productName }
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoice-content-install-2 = T'agghicarà n'autra littra ncapu a comu principiari a usari { $productName }.
+# Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionFirstInvoice-content-next-invoice = Pròssima fattura: { $nextInvoiceDateOnly }
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-subject-1 = A carta di crèditu pi { $productName } scadìu o scadi viatu
 subscriptionPaymentExpired-title-1 = A to carta di crèditu scadìu o sta scadennu
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-content-1 = A carta di crèditu chi usi pi pagari { $productName } scadìu o sta scadennu.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = U pagamentu di { $productName } sfallìu
@@ -549,14 +572,14 @@ subscriptionPaymentProviderCancelled-content-detect = Cci fu un prubblema câ to
 subscriptionPaymentProviderCancelled-content-reason = Po èssiri chi a to carta di crèditu scadìu, o chi a furma di pagamentu chi scartasti nun è cchiù bona.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionReactivation-subject = Iscrizzioni pi { $productName } arrè attiva
+subscriptionReactivation-subject = Abbunamentu a { $productName } arrè attivu
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionReactivation-title = Grazzi chi attivasti arrè a to iscrizzioni pi { $productName }!
+subscriptionReactivation-title = Grazzi chi attivasti arrè u to abbunamentu a { $productName }!
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-subject = Abbisu di rinovu autumàticu di { $productName }
-subscriptionRenewalReminder-title = A to iscrizzioni veni rinuvata ntra picca
+subscriptionRenewalReminder-title = U to abbunamentu veni rinuvatu ntra picca
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-greeting = Caru clienti di { $productName },
@@ -564,17 +587,17 @@ subscriptionRenewalReminder-content-closing = Saluti cari,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = A squatra di { $productName }
-subscriptionsPaymentExpired-subject-1 = A carta di crèditu pî to iscrizzioni scadìu o scadi viatu
+subscriptionsPaymentExpired-subject-1 = A carta di crèditu pî to abbunamenti scadìu o sta scadennu
 subscriptionsPaymentExpired-title-1 = A to carta di crèditu scadìu o sta scadennu
-subscriptionsPaymentExpired-content-1 = A carta di crèditu chi usi pi pagari l'iscrizzioni appressu scadìu o sta scadennu.
-subscriptionsPaymentProviderCancelled-subject = Abbisogna n'attualizzu dî nfurmazzioni di pagamentu pi l'iscrizzioni { -brand-mozilla }
+subscriptionsPaymentExpired-content-1 = A carta di crèditu chi usi pi pagari l'abbunamenti appressu scadìu o sta scadennu.
+subscriptionsPaymentProviderCancelled-subject = Abbisogna n'attualizzu dî nfurmazzioni di pagamentu pi l'abbunamenti { -brand-mozilla }
 subscriptionsPaymentProviderCancelled-title = Ni dispiaci, accamora avemu prubblemi câ to furma di pagamentu
-subscriptionsPaymentProviderCancelled-content-detected = Cci fu un prubblema câ to furma di pagamentu pi l'iscrizzioni appressu.
+subscriptionsPaymentProviderCancelled-content-detected = Cci fu un prubblema câ to furma di pagamentu pi l'abbunamenti appressu.
 subscriptionsPaymentProviderCancelled-content-payment = Po èssiri chi a to carta di crèditu scadìu, o chi a furma di pagamentu chi scartasti nun è cchiù bona.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-subject = Ricivemmu u pagamentu pi { $productName }
-subscriptionSubsequentInvoice-title = Grazzi pâ to iscrizzioni!
+subscriptionSubsequentInvoice-title = Grazzi chi t'abbunasti!
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-content-received = Ricivemmu u to ùrtimu pagamentu pi { $productName }.
