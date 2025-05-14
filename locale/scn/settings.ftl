@@ -504,6 +504,16 @@ connect-another-app-store-image-2 =
 
 cs-heading = Sirbizza cunnessi
 cs-description = Tuttu chiḍḍu ca usi e unni trasisti.
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $service (String) - the name of a device or service that uses Mozilla accounts
+#                       (for example: "Firefox Lockwise")
+cs-logged-out-2 = Niscisti di { $service }
+cs-refresh-button =
+    .title = Attualizza i sirbizza cullijati
+# Link text to a support page on missing or duplicate devices
+cs-missing-device-help = Elimenti duppi o chi ammàncanu?
+cs-disconnect-sync-heading = Scullèjati di Sync
 
 ## This string is used in a modal dialog when the user starts the disconnect from
 ## Sync process.
@@ -511,6 +521,7 @@ cs-description = Tuttu chiḍḍu ca usi e unni trasisti.
 ##   $device (String) - the name of a device using Mozilla accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
+cs-disconnect-sync-content-3 = I to dati di navicazzioni arrèstanu nnô dispusitivu <span>{ $device }</span>, ma nun sunnu cchiù sincrunizzati cû to cuntu.
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -527,6 +538,7 @@ cs-sign-out-button = Nesci
 
 dc-subheader-moz-accounts = { -product-mozilla-accounts(capitalization: "uppercase") }
 dc-subheader-ff-browser = Navicaturi { -brand-firefox }
+dc-subheader-content-2 = Pirmèttici ê { -product-mozilla-accounts } di mannàrici a { -brand-mozilla } i dati tècnici e di ntirazzioni.
 dc-learn-more = Cchiù nfurmazzioni
 
 # DropDownAvatarMenu component
@@ -536,6 +548,7 @@ drop-down-menu-title-2 = Minù di { -product-mozilla-account }
 # Following this string on a new line will be their display name (user's name or email)
 drop-down-menu-signed-in-as-v2 = Trasisti comu
 drop-down-menu-sign-out = Nesci
+drop-down-menu-sign-out-error-2 = Ni dispiaci, mmattìu un prubblema mentri chi ti scullijavi
 
 ## Flow Container
 
@@ -545,33 +558,71 @@ flow-container-back = Nn'arrè
 ## Users see this view when they are generating a new account recovery key
 ## This screen asks the user to confirm their password before generating a new key
 
+flow-recovery-key-confirm-pwd-heading-v2 = Torna a metti a to chiavi pi sicurizza
+flow-recovery-key-confirm-pwd-input-label = Metti a to chiavi
+# Clicking on this button will check the password and create an account recovery key
+flow-recovery-key-confirm-pwd-submit-button = Crìa na chiavi di ricùpiru dû cuntu
+# For users with an existing account recovery key, clicking on this button will
+# check the password, delete the existing key and create a new account recovery key
+flow-recovery-key-confirm-pwd-submit-button-change-key = Crìa na chiavi di ricùpiru dû cuntu nova
 
 ## FlowRecoveryKeyDownload - Third view in the PageRecoveryKeyCreate flow
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
 
+# This link allows user to proceed to the next step without clicking the download button
+flow-recovery-key-download-next-link-v2 = Cuntinua senza scarricari
 
 ## FlowRecoveryKeyHint
 ## This is the fourth and final step in the account recovery key creation flow in account settings
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
+# Success message displayed in alert bar after the user has finished creating an account recovery key.
+flow-recovery-key-success-alert = Chiavi di ricùpiru dû cuntu criata
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
+# The header of the first view in the Recovery Key Create flow
+flow-recovery-key-info-header = Crìa na chiavi di ricùpiru dû cuntu siḍḍu ti scordi a chiavi
+# The header of the first view in the Recovery Key Create flow when replacing an existing recovery key
+flow-recovery-key-info-header-change-key = Cancia a to chiavi di ricùpiru dû cuntu
+# The text of the "submit" button to start creating (or changing) an account recovery key
+flow-recovery-key-info-cta-text-v3 = Accumincia
+# Link to cancel account recovery key change and return to settings
+flow-recovery-key-info-cancel-link = Sfai
 
 ## FlowSetupPhoneConfirmCode
 
+# verification code refers to a code sent by text message to confirm phone number ownership
+# and complete setup
+flow-setup-phone-confirm-code-heading = Metti u còdici di virìfica
+flow-setup-phone-confirm-code-input-label = Metti u còdici di 6 cifri
+flow-setup-phone-confirm-code-button = Cunferma
+# button to resend a code by text message to the user's phone
+# followed by a button to resend a code
+flow-setup-phone-confirm-code-expired = Còdici scadutu?
+flow-setup-phone-confirm-code-resend-code-button = Manna arrè
+flow-setup-phone-confirm-code-resend-code-success = Còdici mannatu
+flow-setup-phone-confirm-code-success-message-v2 = Juncisti u nùmmaru di tilèfunu di ricùpiru
 
 ## FlowSetupPhoneConfirmCode
 
+flow-setup-phone-submit-number-heading = Virìfica u to nùmmaru di tilèfunu
+# cliking on the button sends a code by text message to the phone number typed in by the user
+flow-setup-phone-submit-number-button = Manna u còdici
 
 ## HeaderLockup component, the header in account settings
 
+header-menu-open = Chiuji u minù
+header-menu-closed = Minù di navicazzioni dû situ
+header-back-to-top-link =
+    .title = Torna supra
 header-title-2 = { -product-mozilla-account(capitalization: "uppercase") }
 header-help = Ajutu
 
 ## Linked Accounts section
 
+la-heading = Cunti lijati
 la-unlink-button = Slija
 la-unlink-account-button = Slija
 la-set-password-button = Mpusta chiavi
