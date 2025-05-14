@@ -631,7 +631,7 @@ recent-activity-account-recovery-phone-setup-complete = Cumplitasti a cunfijuraz
 ## PageRecoveryPhoneRemove
 ## Users reach this page from account settings when they want to remove a backup phone number.
 
-recovery-phone-remove-header = Scancella u nùmmaru di tilèfunu di ricùpiru dû cuntu
+recovery-phone-remove-header = Scancella u nùmmaru di tilèfunu di ricùpiru
 
 ## PageSetupRecoveryPhone
 

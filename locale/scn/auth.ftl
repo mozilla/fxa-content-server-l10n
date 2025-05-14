@@ -376,6 +376,11 @@ postAddLinkedAccount-subject-2 = Novu cuntu lijatu ô to { -product-mozilla-acco
 postAddLinkedAccount-title-2 = U to cuntu { $providerName } fu lijatu ô to { -product-mozilla-account }
 postAddLinkedAccount-action = Manija cuntu
 postAddRecoveryPhone-subject = Juncisti u nùmmaru di tilèfunu di ricùpiru
+postAddRecoveryPhone-preview = Cuntu prutettu cu l'autinticazzioni a du' fattura
+postAddRecoveryPhone-title-v2 = Juncisti un nùmmaru di tilèfunu di ricùpiru
+# Variables:
+#  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
+postAddRecoveryPhone-description-v2 = Juncisti { $maskedLastFourPhoneNumber } comu nùmmaru di tilèfunu di ricùpiru
 # Links out to a support article about two factor authentication
 postAddRecoveryPhone-how-protect = Comu pruteggi u to cuntu
 postAddRecoveryPhone-how-protect-plaintext = Comu pruteggi u to cuntu:
@@ -399,6 +404,9 @@ postChangePrimary-title = Novu nnirizzu di posta elittrònica primariu
 postChangePrimary-description-2 = Canciasti bonu u to nnirizzu di posta elittrònica primariu a { $email }. Stu nnirizzu ora addivintau u to nomu utenti pi tràsiri nnô to cuntu { -product-mozilla-account }, pi ricìviri nutìfichi di sicurizza e cunfermi di trasuti.
 postChangePrimary-action = Manija cuntu
 postChangeRecoveryPhone-subject = Nùmmaru di tilèfunu di ricùpiru attualizzatu
+postChangeRecoveryPhone-preview = Cuntu prutettu cu l'autinticazzioni a du' fattura
+postChangeRecoveryPhone-title = Canciasti u nùmmaru di tilèfunu di ricùpiru
+postChangeRecoveryPhone-description = Ora ài un nùmmaru di tilèfunu di ricùpiru novu. Chiḍḍu vecchiu fu scancillatu.
 postChangeRecoveryPhone-requested-device = L'addumannasti di:
 postConsumeRecoveryCode-title-2 = Usasti un còdici d'autinticazzioni di sicurizza
 # After the colon, there is description of the device that the backup authentication code was used on
@@ -415,15 +423,45 @@ postNewRecoveryCodes-title-2 = Criasti còdici d'autinticazzioni di sicurizza no
 postNewRecoveryCodes-description-2 = Foru criati nni:
 postNewRecoveryCodes-action = Manija cuntu
 postRemoveAccountRecovery-subject-2 = Chiavi di ricùpiru dû cuntu scancillata
+postRemoveAccountRecovery-title-3 = Scancillasti a chiavi di ricùpiru dû cuntu
+postRemoveAccountRecovery-body-part1 = A to chiavi di ricùpiru dû cuntu serbi pi ricupigghiari i dati sincrunizzati dû navicaturi si ti scordi a chiavi.
+postRemoveAccountRecovery-body-part2 = Si già nun u facisti, crìa na chiavi di ricùpiru dû cuntu nova nnê mpustazzioni dû to cuntu, p'allascàriti di pèrdiri i chiavi chi sarbasti, i nzingalibbra, a crunuluggìa di navicazzioni e autri dati riggistrati.
 postRemoveAccountRecovery-action = Manija cuntu
+postRemoveRecoveryPhone-subject = Nùmmaru di tilèfunu di ricùpiru scancillatu
+postRemoveRecoveryPhone-title = Nùmmaru di tilèfunu di ricùpiru scancillatu
+postRemoveRecoveryPhone-description-extra = Po' usari i to còdici d'autinticazzioni di sicurizza pi tràsiri si nun po' usari a to app d'autinticazzioni.
+postRemoveRecoveryPhone-requested-device = L'addumannasti di:
+postRemoveSecondary-subject = Nnirizzu di posta elittrònica sicunnariu scancillatu
+postRemoveSecondary-title = Nnirizzu di posta elittrònica sicunnariu scancillatu
 postRemoveSecondary-action = Manija cuntu
+postRemoveTwoStepAuthentication-subject-line-2 = Autinticazzioni a du' fattura sdisabbilitata
+postRemoveTwoStepAuthentication-title-2 = Sdisabbilitasti l'autinticazzioni a du' fattura
+# After the colon is a description of the device the user used to disable two-step authentication
+postRemoveTwoStepAuthentication-from-device = A sdisabbilitasti di:
+postRemoveTwoStepAuthentication-action = Manija cuntu
+postRemoveTwoStepAuthentication-not-required-2 = Nun ti sèrbinu cchiù i còdici di sicurizza di l'app pi l'autinticazzioni quannu trasi.
 postSigninRecoveryCode-action = Manija cuntu
 postSigninRecoveryPhone-preview = Cunferma attività dû cuntu
 postSigninRecoveryPhone-device = Trasisti di:
 postSigninRecoveryPhone-action = Manija cuntu
+postVerify-sub-title-3 = Semu cuntenti chi sì cca!
+postVerify-title-2 = Vo' vìdiri a stissa scheda ncapu a du' dispusitivi?
+postVerify-description-2 = È fàcili! Nzìtati { -brand-firefox } ncapu a n'autru dispusitivu e trasi pi sincrunizzari. È na magarìa!
+postVerify-sub-description = (Ah… veni a diri macari chi po' aviri i to nzingalibbra, i to chiavi e l'autri dati di { -brand-firefox } unni sì-sì.)
+postVerify-subject-4 = Bummegna nne { -brand-mozilla }!
+postVerify-setup-2 = Culleja n'autru dispusitivu:
 postVerify-action-2 = Cunnetti n'autru dispusitivu
+postVerifySecondary-subject = Nnirizzu di posta elittrònica sicunnariu junciutu
+postVerifySecondary-title = Nnirizzu di posta elittrònica sicunnariu junciutu
+# Variables:
+#  $secondaryEmail (String) - A user's secondary email address
+postVerifySecondary-content-3 = Cunfirmasti bonu { $secondaryEmail } comu nnirizzu di posta elittrònica sicunnariu pû to { -product-mozilla-account }. D'ora innanzi, i nutizzi di sicurizza e i cunfermi di trasuta vennu mannati a tutti du' i nnirizzi di posta elittrònica.
 postVerifySecondary-action = Manija cuntu
+recovery-subject = Risetta a to chiavi
 recovery-title-2 = Ti scurdasti a chiavi?
+# Information on the device, date and time of the request that triggered the email follows.
+recovery-request-origin-2 = Ricivemmu na dumanna di canciu dâ chiavi dû to { -product-mozilla-account } di:
+recovery-new-password-button = Crìa na chiavi nova ammaccannu u buttuni appressu. Sta lijami scadi nta n'ura.
 recovery-action = Crìa na chiavi nova
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
