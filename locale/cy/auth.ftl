@@ -619,12 +619,12 @@ subscriptionRenewalReminder-content-closing = Yn gywir,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = Tîm { $productName }
-subscriptionReplaced-subject = Mae'ch tanysgrifiad wedi'i ddiweddaru fel rhan o'ch uwchraddiad
+subscriptionReplaced-subject = Mae'ch tanysgrifiad wedi'i ddiweddaru fel rhan o'ch uwchraddio
 subscriptionReplaced-title = Mae eich tanysgrifiad wedi'i ddiweddaru
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReplaced-content-replaced = Mae eich tanysgrifiad { $productName } unigol wedi'i ddisodli ac mae bellach wedi'i gynnwys yn eich bwndel newydd.
-subscriptionReplaced-content-credit = Byddwch yn derbyn credyd am unrhyw amser nas defnyddiwyd o'ch tanysgrifiad blaenorol. Bydd y credyd hwn yn cael ei gymhwyso'n awtomatig i'ch cyfrif a'i ddefnyddio tuag at daliadau yn y dyfodol.
-subscriptionReplaced-content-no-action = Nid oes angen gweithredu ar eich rhan chi.
+subscriptionReplaced-content-credit = Byddwch yn derbyn credyd am unrhyw amser na chafodd eich tanysgrifiad blaenorol wedi'i ddefnyddio. Bydd y credyd hwn yn cael ei osod yn awtomatig yn eich cyfrif a'i ddefnyddio tuag at daliadau yn y dyfodol.
+subscriptionReplaced-content-no-action = Does dim angen gweithredu ar eich rhan chi.
 subscriptionsPaymentExpired-subject-1 = Mae'r cerdyn credyd ar gyfer eich tanysgrifiadau wedi dod i ben neu'n dod i ben yn fuan
 subscriptionsPaymentExpired-title-1 = Mae eich cerdyn credyd wedi dod i ben neu ar fin dod i ben
 subscriptionsPaymentExpired-content-1 = Mae'r cerdyn credyd rydych chi'n ei ddefnyddio i wneud taliadau am y tanysgrifiadau canlynol wedi dod i ben neu ar fin dod i ben.
@@ -659,7 +659,7 @@ subscriptionUpgrade-upgrade-info-2 = Rydych wedi uwchraddio i { $productName } y
 subscriptionUpgrade-content-charge-info-different-cycle-2 = Codwyd ffi untro o { $paymentProrated } arnoch i adlewyrchu pris uwch eich tanysgrifiad am weddill y { $productPaymentCycleOld } hwn. Gan ddechrau gyda'ch bil nesaf, bydd eich tâl yn newid o { $paymentAmountOld } fesul { $productPaymentCycleOld } i { $paymentAmountNew } fesul { $productPaymentCycleNew }.
 # Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
-subscriptionUpgrade-existing = Os bydd unrhyw un o'ch tanysgrifiadau presennol yn gorgyffwrdd â'r uwchraddiad hwn, byddwn yn eu trin ac yn anfon e-bost ar wahân atoch gyda'r manylion. Os yw eich cynllun newydd yn cynnwys cynhyrchion sydd angen eu gosod, byddwn yn anfon e-bost ar wahân atoch gyda chyfarwyddiadau gosod.
+subscriptionUpgrade-existing = Os bydd unrhyw un o'ch tanysgrifiadau presennol yn gorgyffwrdd â'r uwchraddio hwn, byddwn yn eu trin ac yn anfon e-bost ar wahân atoch gyda'r manylion. Os yw eich cynllun newydd yn cynnwys cynnyrch sydd angen eu gosod, byddwn yn anfon e-bost ar wahân atoch gyda chyfarwyddiadau gosod.
 subscriptionUpgrade-auto-renew = Bydd eich tanysgrifiad yn adnewyddu pob cyfnod bilio yn awtomatig oni bai eich bod yn dewis diddymu.
 unblockCode-subject = Cod awdurdodi cyfrif
 unblockCode-title = Ai hwn yw chi’n allgofnodi?
