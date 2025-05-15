@@ -828,6 +828,7 @@ security-action-create = Crìa
 
 ## Sub-section row Defaults
 
+row-defaults-action-add = Junci
 
 ## Account recovery key sub-section on main Settings page
 
