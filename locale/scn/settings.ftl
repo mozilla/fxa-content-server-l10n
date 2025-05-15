@@ -527,15 +527,23 @@ cs-disconnect-sync-content-3 = I to dati di navicazzioni arrèstanu nnô dispusi
 ## device
 
 cs-disconnect-sync-opt-prefix = U dispusitivu è:
+cs-disconnect-sync-opt-suspicious = Suspettu
+cs-disconnect-sync-opt-lost = Persu o arrubbatu
+cs-disconnect-sync-opt-old = Vecchiu o canciatu
+cs-disconnect-sync-opt-duplicate = Duppricatu
 cs-disconnect-sync-opt-not-say = Nun u vogghiu diri
 
 ##
 
 cs-disconnect-advice-confirm = D'accordu
+cs-disconnect-lost-advice-heading = U dispusitivu persu o arrubbatu fu scullijatu
+cs-disconnect-lost-advice-content-3 = Siccomu pirdisti u to dispusitivu, o ti fu arrubbatu, ti cunzigghiamu di canciari a chiavi dû to { -product-mozilla-account } nnê mpustazzioni dû cuntu. Avissi a fari macari na risciduta cû prudutturi dû to dispusitivu ncapu a comu scancillari i to dati di rimotu.
+cs-disconnect-suspicious-advice-heading = U dispusitivu suspettu fu scullijatu
 cs-sign-out-button = Nesci
 
 ## Data collection section
 
+dc-heading = Ricugghiuta e usu dî dati
 dc-subheader-moz-accounts = { -product-mozilla-accounts(capitalization: "uppercase") }
 dc-subheader-ff-browser = Navicaturi { -brand-firefox }
 dc-subheader-content-2 = Pirmèttici ê { -product-mozilla-accounts } di mannàrici a { -brand-mozilla } i dati tècnici e di ntirazzioni.
@@ -736,6 +744,8 @@ delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
 delete-account-product-pocket = { -product-pocket }
 delete-account-product-mozilla-monitor = { -product-mozilla-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
+delete-account-product-firefox-sync = Staju sincrunizzannu i dati di { -brand-firefox }
+delete-account-product-firefox-addons = Juncitini di { -brand-firefox }
 delete-account-continue-button = Cuntinua
 delete-account-password-input =
     .label = Metti a chiavi
