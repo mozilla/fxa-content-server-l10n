@@ -620,6 +620,7 @@ subscriptionUpgrade-upgrade-info-2 = שודרגת בהצלחה ל־{ $productNam
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
 subscriptionUpgrade-content-charge-credit = קיבלת זיכוי בחשבון שלך בסכום של { $paymentProrated }.
+subscriptionUpgrade-content-starting = החל מהחשבון הבא שלך, החיוב שלך ישתנה מ־{ $paymentAmountOld } ל{ $productPaymentCycleOld } ל־{ $paymentAmountNew } ל{ $productPaymentCycleNew }.
 # Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-existing = אם יש לך מינויים קיימים החופפים לשדרוג זה, נטפל בהם ונשלח לך הודעת דוא״ל נפרדת עם הפרטים. אם התוכנית החדשה שלך כוללת מוצרים הדורשים התקנה, נשלח לך דוא״ל נפרד עם הוראות התקנה.

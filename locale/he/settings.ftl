@@ -1461,6 +1461,10 @@ complete-reset-password-desktop-relay = ‏{ -brand-firefox } ינסה לשלו�
 
 # ConfirmBackupCodeResetPassword page
 
+confirm-backup-code-reset-password-input-label = נא להזין קוד בן 10 תווים
+confirm-backup-code-reset-password-confirm-button = אישור
+# Link out to support article: https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+confirm-backup-code-reset-password-locked-out-link = ננעלת מחוץ לחשבון?
 
 ## Confirm Reset Password With Code
 
