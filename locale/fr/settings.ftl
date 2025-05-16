@@ -1541,6 +1541,12 @@ complete-reset-password-desktop-relay = Une fois connecté·e, { -brand-firefox 
 
 # ConfirmBackupCodeResetPassword page
 
+confirm-backup-code-reset-password-input-label = Saisissez le code de 10 caractères
+confirm-backup-code-reset-password-confirm-button = Confirmer
+confirm-backup-code-reset-password-subheader = Saisissez un code d’authentification de secours
+confirm-backup-code-reset-password-instruction = Saisissez l’un des codes à usage unique que vous avez enregistrés lors de la configuration de l’authentification en deux étapes.
+# Link out to support article: https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+confirm-backup-code-reset-password-locked-out-link = Vous ne parvenez pas à accéder à votre compte ?
 
 ## Confirm Reset Password With Code
 

@@ -1549,6 +1549,12 @@ complete-reset-password-desktop-relay = Po prijavi vas bo { -brand-firefox } pos
 
 # ConfirmBackupCodeResetPassword page
 
+confirm-backup-code-reset-password-input-label = Vnesite 10-mestno kodo
+confirm-backup-code-reset-password-confirm-button = Potrdi
+confirm-backup-code-reset-password-subheader = Vnesite rezervno overitveno kodo
+confirm-backup-code-reset-password-instruction = Vnesite eno izmed enkratnih kod, ki ste jih shranili ob nastavitvi overjanja v dveh korakih.
+# Link out to support article: https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+confirm-backup-code-reset-password-locked-out-link = Se ne morete prijaviti?
 
 ## Confirm Reset Password With Code
 

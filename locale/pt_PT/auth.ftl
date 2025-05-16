@@ -22,6 +22,16 @@ recovery-phone-signin-sms-body = { $code } é o seu código de recuperação da 
 # Messages should be limited to one segment
 # $code  - 6 digit code used to sign in with a recovery phone as backup for two-step authentication
 recovery-phone-signin-sms-short-body = Código da { -brand-mozilla }: { $code }
+# Message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to sign in with a recovery phone as backup for account password reset
+recovery-phone-reset-password-sms-body = { $code } é o seu código de recuperação da { -brand-mozilla }. Expira em 5 minutos.
+# Shorter message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to sign in with a recovery phone as backup for account password reset
+recovery-phone-reset-password-short-body = Código da { -brand-mozilla }: { $code }
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
@@ -211,6 +221,7 @@ subscriptionCharges-content-tax = Impostos e taxas: { $invoiceTaxAmount }
 ##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
 
 subscriptionFirstInvoice-content-charge = Debitado { $invoiceTotal } em { $invoiceDateOnly }
+subscriptionFirstInvoice-content-credit = Recebeu um crédito em conta de { $invoiceTotal }, que será aplicado às suas futuras faturas.
 subscriptionSupport = Dúvidas sobre a sua subscrição? A nossa <a data-l10n-name="subscriptionSupportUrl">equipa de apoio</a> está aqui para ajudar.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Dúvidas sobre a sua subscrição? A nossa equipa de apoio está aqui para ajudar.
@@ -652,6 +663,9 @@ subscriptionUpgrade-upgrade-info-2 = Atualizou com sucesso para { $productName }
 ## $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
+subscriptionUpgrade-content-charge-prorated = Foi cobrado uma taxa única de { $paymentProrated } para refletir o preço mais alto da sua subscrição para o remanescente deste período de faturação ({ $productPaymentCycleOld }).
+subscriptionUpgrade-content-charge-credit = Recebeu um crédito em conta no valor de { $paymentProrated }.
+subscriptionUpgrade-content-starting = A partir da sua próxima fatura, a cobrança será alterada de { $paymentAmountOld } por { $productPaymentCycleOld } para { $paymentAmountNew } por { $productPaymentCycleNew }.
 # Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-existing = Se alguma das suas subscrições existentes se sobrepor a esta atualização, iremos gerir a mesma e enviar-lhe um e-mail separado com os detalhes. Se o seu novo plano incluir produtos que requeiram instalação, iremos enviar-lhe um e-mail separado com as instruções de configuração.

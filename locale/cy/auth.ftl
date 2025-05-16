@@ -22,6 +22,16 @@ recovery-phone-signin-sms-body = { $code } yw eich cod adfer { -brand-mozilla }.
 # Messages should be limited to one segment
 # $code  - 6 digit code used to sign in with a recovery phone as backup for two-step authentication
 recovery-phone-signin-sms-short-body = Cod { -brand-mozilla }: { $code }
+# Message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to sign in with a recovery phone as backup for account password reset
+recovery-phone-reset-password-sms-body = { $code } yw eich cod adfer { -brand-mozilla }. Daw i ben mewn 5 munud.
+# Shorter message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to sign in with a recovery phone as backup for account password reset
+recovery-phone-reset-password-short-body = Cod { -brand-mozilla }: { $code }
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
@@ -211,6 +221,7 @@ subscriptionCharges-content-tax = Trethi a ffioedd: { $invoiceTaxAmount }
 ##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
 
 subscriptionFirstInvoice-content-charge = Codwyd { $invoiceTotal }s ar { $invoiceDateOnly }
+subscriptionFirstInvoice-content-credit = Rydych wedi derbyn credyd cyfrif o { $invoiceTotal }, a fydd yn cael ei gymhwyso i'ch anfonebau yn y dyfodol.
 subscriptionSupport = Cwestiynau am eich tanysgrifiad? Mae ein tîm cymorth <a data-l10n-name="subscriptionSupportUrl">tîm cymorth</a> yma i'ch helpu chi.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Cwestiynau am eich tanysgrifiad? Mae ein tîm cymorth yma i’ch helpu chi:
@@ -660,6 +671,9 @@ subscriptionUpgrade-upgrade-info-2 = Rydych wedi uwchraddio i { $productName } y
 ## $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
+subscriptionUpgrade-content-charge-prorated = Codwyd ffi untro o { $paymentProrated } arnoch i adlewyrchu pris uwch eich tanysgrifiad am weddill y cyfnod bilio hwn ( { $productPaymentCycleOld }).
+subscriptionUpgrade-content-charge-credit = Rydych wedi derbyn credyd cyfrif yn y swm o { $paymentProrated }.
+subscriptionUpgrade-content-starting = Gan ddechrau gyda'ch bil nesaf, bydd eich tâl yn newid o { $paymentAmountOld } fesul { $productPaymentCycleOld } i { $paymentAmountNew } fesul { $productPaymentCycleNew }.
 # Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-existing = Os bydd unrhyw un o'ch tanysgrifiadau presennol yn gorgyffwrdd â'r uwchraddio hwn, byddwn yn eu trin ac yn anfon e-bost ar wahân atoch gyda'r manylion. Os yw eich cynllun newydd yn cynnwys cynnyrch sydd angen eu gosod, byddwn yn anfon e-bost ar wahân atoch gyda chyfarwyddiadau gosod.

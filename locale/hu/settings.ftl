@@ -1551,6 +1551,12 @@ complete-reset-password-desktop-relay = Bejelentkezés után a { -brand-firefox 
 
 # ConfirmBackupCodeResetPassword page
 
+confirm-backup-code-reset-password-input-label = Adja meg a 10 karakteres kódot
+confirm-backup-code-reset-password-confirm-button = Megerősítés
+confirm-backup-code-reset-password-subheader = Adjon meg egy tartalék hitelesítési kódot
+confirm-backup-code-reset-password-instruction = Adja meg a kétlépcsős hitelesítés beállításakor mentett egyszer használatos kódok egyikét.
+# Link out to support article: https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+confirm-backup-code-reset-password-locked-out-link = Kizárta magát?
 
 ## Confirm Reset Password With Code
 

@@ -22,6 +22,16 @@ recovery-phone-signin-sms-body = { $code } je vaša obnovitvena koda za račun {
 # Messages should be limited to one segment
 # $code  - 6 digit code used to sign in with a recovery phone as backup for two-step authentication
 recovery-phone-signin-sms-short-body = Koda za račun { -brand-mozilla }: { $code }
+# Message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to sign in with a recovery phone as backup for account password reset
+recovery-phone-reset-password-sms-body = { $code } je vaša obnovitvena koda za račun { -brand-mozilla }. Poteče čez 5 minut.
+# Shorter message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to sign in with a recovery phone as backup for account password reset
+recovery-phone-reset-password-short-body = Koda za račun { -brand-mozilla }: { $code }
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
@@ -211,6 +221,7 @@ subscriptionCharges-content-tax = Davki in pristojbine: { $invoiceTaxAmount }
 ##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
 
 subscriptionFirstInvoice-content-charge = Zaračunano { $invoiceTotal } dne { $invoiceDateOnly }
+subscriptionFirstInvoice-content-credit = Prejeli ste dobroimetje { $invoiceTotal }, ki se bo uporabljalo pri vaših prihodnjih računih.
 subscriptionSupport = Imate vprašanja o svoji naročnini? Naša <a data-l10n-name="subscriptionSupportUrl">ekipa za podporo</a> je tu, da vam pomaga.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Imate vprašanja o vaši naročnini? Naša ekipa za podporo je tu, da vam pomaga:
@@ -656,6 +667,9 @@ subscriptionUpgrade-upgrade-info-2 = Uspešno ste nadgradili na { $productName }
 ## $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
+subscriptionUpgrade-content-charge-prorated = Zaračunali smo vam enkraten prispevek v višini { $paymentProrated }, ki odraža višjo ceno naročnine za preostanek tega obračunskega obdobja ({ $productPaymentCycleOld }).
+subscriptionUpgrade-content-charge-credit = Prejeli ste dobroimetje na računu v višini { $paymentProrated }.
+subscriptionUpgrade-content-starting = Od naslednjega računa se bo bremenitev spremenila iz { $paymentAmountOld } na { $productPaymentCycleOld } na { $paymentAmountNew } na { $productPaymentCycleNew }.
 # Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-existing = Če se katera od vaših obstoječih naročnin prekriva s to nadgradnjo, bomo to posodobili in vam poslali ločeno e-poštno sporočilo s podrobnostmi. Če vaša nova naročnina vključuje izdelke, ki zahtevajo namestitev, vam bomo poslali ločeno e-pošto z navodili za namestitev.

@@ -1547,6 +1547,12 @@ complete-reset-password-desktop-relay = Bydd { -brand-firefox } yn ceisio eich a
 
 # ConfirmBackupCodeResetPassword page
 
+confirm-backup-code-reset-password-input-label = Rhowch god 10 nod
+confirm-backup-code-reset-password-confirm-button = Cadarnhau
+confirm-backup-code-reset-password-subheader = Rhowch god dilysu wrth gefn
+confirm-backup-code-reset-password-instruction = Rhowch un o'r codau un-tro y gwnaethoch chi eu cadw pan wnaethoch chi osod dilysiad dau gam.
+# Link out to support article: https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+confirm-backup-code-reset-password-locked-out-link = Ydych chi wedi'ch cloi allan?
 
 ## Confirm Reset Password With Code
 

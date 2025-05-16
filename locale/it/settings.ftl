@@ -1532,6 +1532,12 @@ complete-reset-password-desktop-relay = Dopo aver effettuato l’accesso, { -bra
 
 # ConfirmBackupCodeResetPassword page
 
+confirm-backup-code-reset-password-input-label = Inserire il codice di 10 caratteri
+confirm-backup-code-reset-password-confirm-button = Conferma
+confirm-backup-code-reset-password-subheader = Digita il codice di autenticazione di backup
+confirm-backup-code-reset-password-instruction = Inserisci uno dei codici monouso salvati durante la configurazione dell’autenticazione in due passaggi.
+# Link out to support article: https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+confirm-backup-code-reset-password-locked-out-link = Sei rimasto bloccato fuori dal tuo account?
 
 ## Confirm Reset Password With Code
 
