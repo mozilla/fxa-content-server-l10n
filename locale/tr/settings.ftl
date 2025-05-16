@@ -1534,6 +1534,12 @@ complete-reset-password-desktop-relay = { -brand-firefox }, giriş yaptıktan so
 
 # ConfirmBackupCodeResetPassword page
 
+confirm-backup-code-reset-password-input-label = 10 karakterli kodu yazın
+confirm-backup-code-reset-password-confirm-button = Onayla
+confirm-backup-code-reset-password-subheader = Yedek kimlik doğrulama kodunu yazın
+confirm-backup-code-reset-password-instruction = İki aşamalı doğrulamayı kurarken kaydettiğiniz tek kullanımlık kodlardan birini girin.
+# Link out to support article: https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+confirm-backup-code-reset-password-locked-out-link = Hesabınız kilitlendi mi?
 
 ## Confirm Reset Password With Code
 
