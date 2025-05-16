@@ -1386,6 +1386,9 @@ complete-reset-pw-recovery-key-link = Utiliza la clave de recuperación de cuent
 # Displayed on the sign in page
 reset-password-complete-banner-heading = Tu contraseña ha sido restablecida
 
+# ConfirmBackupCodeResetPassword page
+
+
 ## Confirm Reset Password With Code
 
 confirm-reset-password-with-code-heading = Verifica tu correo electrónico
@@ -1408,7 +1411,6 @@ confirm-totp-reset-password-trouble-code = ¿Tuviste problemas ingresando el có
 confirm-totp-reset-password-confirm-button = Confirmar
 confirm-totp-reset-password-input-label-v2 = Ingresa código de 6 dígitos
 confirm-totp-reset-password-use-different-account = Usar una cuenta diferente
-confirm-recovery-code-reset-password-trouble-code = Atrás
 
 ## ResetPassword start page
 

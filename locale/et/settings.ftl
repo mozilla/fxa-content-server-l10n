@@ -646,6 +646,9 @@ auth-error-1008 = Vana ja uus parool peavad erinema
 ## User followed a password reset link and is now prompted to create a new password
 
 
+# ConfirmBackupCodeResetPassword page
+
+
 ## Confirm Reset Password With Code
 
 

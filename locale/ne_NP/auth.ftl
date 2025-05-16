@@ -8,6 +8,11 @@
 fxa-privacy-url = { -brand-mozilla } गोपनीयता नीति
 change-password-plaintext = यदि तपाईंलाई सम्भावित छ कि, कसैले तपाईंको खातामा पहुँच प्राप्त गर्ने प्रयास गर्दैछ, कृपया आफ्नो पासवर्ड परिवर्तन गर्नुहोस् ।
 manage-account = खाता व्यवस्थापन गर्नुहोस्
+
+## Variables:
+##  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
+
 newDeviceLogin-action = खाता व्यवस्थापन गर्नुहोस्
 passwordChanged-title = पासवर्ड सफलतापूर्वक परिवर्तन भयो
 postAddAccountRecovery-action = खाता व्यवस्थापन गर्नुहोस्
@@ -29,6 +34,14 @@ postVerifySecondary-action = खाता व्यवस्थापन गर�
 ##   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 ##   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 ##   $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
+
+
+## Variables:
+## $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
+## $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
+## $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
+## $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
+## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
 unblockCode-title = के यो साइन इन गर्न खोज्ने तपाइँ हुनुहुन्छ?
 unblockCode-prompt = यदि हुनुहुन्छ भने, तपाईलाई आवश्यक प्रमाणिकरण कोड हो:

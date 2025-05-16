@@ -1547,6 +1547,9 @@ reset-password-complete-banner-message = Ez ahaztu kontua berreskuratzeko gako b
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 complete-reset-password-desktop-relay = { -brand-firefox } saioa hasi ondoren posta elektronikoko maskara bat erabiltzera bidaltzen saiatuko da.
 
+# ConfirmBackupCodeResetPassword page
+
+
 ## Confirm Reset Password With Code
 
 confirm-reset-password-with-code-heading = Egiaztatu zure posta elektronikoa
@@ -1573,8 +1576,6 @@ confirm-totp-reset-password-trouble-code = Arazoak kodea sartzean?
 confirm-totp-reset-password-confirm-button = Berretsi
 confirm-totp-reset-password-input-label-v2 = Sartu 6 digituko kodea
 confirm-totp-reset-password-use-different-account = Erabili beste kontu bat
-confirm-recovery-code-reset-password-input-label = Sartu 10 karaktereko kodea
-confirm-recovery-code-reset-password-trouble-code = Atzera
 
 ## ResetPassword start page
 

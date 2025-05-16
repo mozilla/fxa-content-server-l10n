@@ -1545,6 +1545,9 @@ reset-password-complete-banner-message = Peidiwch ag anghofio cynhyrchu allwedd 
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 complete-reset-password-desktop-relay = Bydd { -brand-firefox } yn ceisio eich anfon yn ôl i ddefnyddio e-bost arallenw ar ôl i chi fewngofnodi.
 
+# ConfirmBackupCodeResetPassword page
+
+
 ## Confirm Reset Password With Code
 
 confirm-reset-password-with-code-heading = Gwiriwch eich e-bost
@@ -1571,8 +1574,6 @@ confirm-totp-reset-password-trouble-code = Trafferth cyflwyno'r cod?
 confirm-totp-reset-password-confirm-button = Cadarnhau
 confirm-totp-reset-password-input-label-v2 = Rhowch y cod 6 digid
 confirm-totp-reset-password-use-different-account = Defnyddiwch gyfrif gwahanol
-confirm-recovery-code-reset-password-input-label = Rhowch god 10 nod
-confirm-recovery-code-reset-password-trouble-code = Nôl
 
 ## ResetPassword start page
 

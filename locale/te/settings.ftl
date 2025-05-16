@@ -585,6 +585,9 @@ auth-error-1008 = మీ కొత్త సంకేతపదం వేరు�
 ## User followed a password reset link and is now prompted to create a new password
 
 
+# ConfirmBackupCodeResetPassword page
+
+
 ## Confirm Reset Password With Code
 
 

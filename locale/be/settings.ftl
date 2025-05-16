@@ -1235,6 +1235,9 @@ complete-reset-password-success-alert = Пароль усталяваны
 # Displayed in an alert bar
 complete-reset-password-error-alert = На жаль, падчас усталявання вашага пароля узнікла праблема
 
+# ConfirmBackupCodeResetPassword page
+
+
 ## Confirm Reset Password With Code
 
 # Clicking the button submits and verifies the code

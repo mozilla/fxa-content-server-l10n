@@ -1083,6 +1083,9 @@ complete-reset-pw-header-v2 = Snulfu-d awal n uɛeddi amaynut
 # Displayed in an alert bar
 complete-reset-password-success-alert = Awal uffir yettusbadu
 
+# ConfirmBackupCodeResetPassword page
+
+
 ## Confirm Reset Password With Code
 
 confirm-reset-password-with-code-heading = Senqed imayl-ik
@@ -1098,7 +1101,6 @@ confirm-reset-password-otp-different-account-link = Seqdec amiḍan nniḍen
 
 confirm-totp-reset-password-header = Wennez awal-ik·im n uɛeddi
 confirm-totp-reset-password-confirm-button = Sentem
-confirm-recovery-code-reset-password-trouble-code = Uɣal
 
 ## ResetPassword start page
 

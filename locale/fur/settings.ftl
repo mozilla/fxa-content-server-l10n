@@ -1539,6 +1539,9 @@ reset-password-complete-banner-message = No sta dismenteâti di gjenerâ une gno
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 complete-reset-password-desktop-relay = Dopo fat l'acès, { -brand-firefox } al cirarà di tornâ a mandâti ae pagjine par doprâ la mascare di pueste eletroniche.
 
+# ConfirmBackupCodeResetPassword page
+
+
 ## Confirm Reset Password With Code
 
 confirm-reset-password-with-code-heading = Controle la tô e-mail
@@ -1565,8 +1568,6 @@ confirm-totp-reset-password-trouble-code = Problemis a inserî il codiç?
 confirm-totp-reset-password-confirm-button = Conferme
 confirm-totp-reset-password-input-label-v2 = Inserìs il codiç a 6 cifris
 confirm-totp-reset-password-use-different-account = Dopre un altri account
-confirm-recovery-code-reset-password-input-label = Inserìs il codiç di 10 caratars
-confirm-recovery-code-reset-password-trouble-code = Indaûr
 
 ## ResetPassword start page
 

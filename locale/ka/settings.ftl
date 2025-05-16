@@ -1549,6 +1549,9 @@ reset-password-complete-banner-message = არ დაგავიწყდე�
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 complete-reset-password-desktop-relay = { -brand-firefox } ეცდება შესვლის შემდგომ უკან დაგაბრუნოთ ელფოსტის ნიღბის გამოსაყენებლად.
 
+# ConfirmBackupCodeResetPassword page
+
+
 ## Confirm Reset Password With Code
 
 confirm-reset-password-with-code-heading = შეამოწმეთ თქვენი ელფოსტა
@@ -1575,8 +1578,6 @@ confirm-totp-reset-password-trouble-code = ვერ ახერხებთ �
 confirm-totp-reset-password-confirm-button = დასტური
 confirm-totp-reset-password-input-label-v2 = შეიყვანეთ 6-ნიშნა კოდი
 confirm-totp-reset-password-use-different-account = სხვა ანგარიშის გამოყენება
-confirm-recovery-code-reset-password-input-label = შეიყვანეთ 10-ნიშნა კოდი
-confirm-recovery-code-reset-password-trouble-code = უკან
 
 ## ResetPassword start page
 

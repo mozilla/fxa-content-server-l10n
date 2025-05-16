@@ -177,9 +177,11 @@ subscriptionFirstInvoiceDiscount-content-discount-repeating = Diskon { $discount
 # Variables:
 #  $invoiceTaxAmount (String) - The amount of the tax of the subscription invoice, including currency, e.g. $2.00
 subscriptionCharges-content-tax = Pajeg & waragad: { $invoiceTaxAmount }
-# Variables:
-#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
-#  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
+
+## Variables:
+##  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
+
 subscriptionFirstInvoice-content-charge = Ditagih: { $invoiceTotal } dina { $invoiceDateOnly }
 subscriptionSupport = Patalékan ngeunaan langganan anjeun?<a data-l10n-name="subscriptionSupportUrl">Tim pangdeudeul</a> urang siap ngabantuan.
 # After the colon, there's a link to https://accounts.firefox.com/support
@@ -282,6 +284,14 @@ subscriptionCancellation-title = Pileuleuyan
 ##   $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
 
 subscriptionDowngrade-content-auto-renew = Langganan anjeun bakal otomatis dianyarkeun unggal periode tagihan iwal anjeun milih bedo.
+
+## Variables:
+## $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
+## $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
+## $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
+## $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
+## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+
 subscriptionUpgrade-auto-renew = Langganan anjeun bakal otomatis dianyarkeun unggal periode tagihan iwal anjeun milih bedo.
 unblockCode-subject = Kodeu otorisasi akun
 unblockCode-title = Nu asup téh anjeun lin?

@@ -509,6 +509,9 @@ auth-totp-heading-w-custom-service = Skriv inn verifiseringskoden <span>for å f
 ## User followed a password reset link and is now prompted to create a new password
 
 
+# ConfirmBackupCodeResetPassword page
+
+
 ## Confirm Reset Password With Code
 
 

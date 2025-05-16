@@ -1528,6 +1528,9 @@ reset-password-complete-banner-message = 别忘了在 { -product-mozilla-account
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 complete-reset-password-desktop-relay = { -brand-firefox } 将尝试在您登录后返回原页面，供您使用马甲邮箱。
 
+# ConfirmBackupCodeResetPassword page
+
+
 ## Confirm Reset Password With Code
 
 confirm-reset-password-with-code-heading = 请查收邮件
@@ -1554,8 +1557,6 @@ confirm-totp-reset-password-trouble-code = 输入代码时遇到问题？
 confirm-totp-reset-password-confirm-button = 确认
 confirm-totp-reset-password-input-label-v2 = 请输入 6 位验证码
 confirm-totp-reset-password-use-different-account = 换个账户登录
-confirm-recovery-code-reset-password-input-label = 请输入由 10 个字符组成的验证码
-confirm-recovery-code-reset-password-trouble-code = 返回
 
 ## ResetPassword start page
 

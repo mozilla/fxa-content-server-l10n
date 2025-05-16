@@ -1050,6 +1050,9 @@ complete-reset-pw-recovery-key-link = Хисапны коткару ачкычы
 # Displayed on the sign in page
 reset-password-complete-banner-heading = Серсүзегез алмаштырылды
 
+# ConfirmBackupCodeResetPassword page
+
+
 ## Confirm Reset Password With Code
 
 confirm-reset-password-with-code-heading = Эл. почтагызны тикшерегез
@@ -1069,7 +1072,6 @@ confirm-totp-reset-password-trouble-code = Кодны кертеп булмый�
 confirm-totp-reset-password-confirm-button = Раслау
 confirm-totp-reset-password-input-label-v2 = 6-цифрлы кодны кертегез
 confirm-totp-reset-password-use-different-account = Башка бер хисап куллану
-confirm-recovery-code-reset-password-trouble-code = Кире
 
 ## ResetPassword start page
 

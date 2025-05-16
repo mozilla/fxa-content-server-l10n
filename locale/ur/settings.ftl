@@ -508,6 +508,9 @@ auth-error-1008 = آپ کا نیا پاس ورڈ مختلف ہونا چاہیئ�
 ## User followed a password reset link and is now prompted to create a new password
 
 
+# ConfirmBackupCodeResetPassword page
+
+
 ## Confirm Reset Password With Code
 
 

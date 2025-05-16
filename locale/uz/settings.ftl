@@ -381,6 +381,9 @@ tfa-qa-code-alt = Qoʻllab-quvvatlanadigan ilovalarda ikki bosqichli autentifika
 ## User followed a password reset link and is now prompted to create a new password
 
 
+# ConfirmBackupCodeResetPassword page
+
+
 ## Confirm Reset Password With Code
 
 

@@ -958,6 +958,9 @@ complete-reset-pw-recovery-key-link = Истифодаи калиди барқа
 # Displayed on the sign in page
 reset-password-complete-banner-heading = Ниҳонвожаи шумо аз нав барқарор карда шуд.
 
+# ConfirmBackupCodeResetPassword page
+
+
 ## Confirm Reset Password With Code
 
 confirm-reset-password-with-code-heading = Почтаи электронии худро тафтиш кунед
@@ -974,7 +977,6 @@ confirm-reset-password-otp-different-account-link = Ҳисоби дигарер�
 confirm-totp-reset-password-header = Барқарор кардани ниҳонвожаи худ
 confirm-totp-reset-password-confirm-button = Тасдиқ кардан
 confirm-totp-reset-password-input-label-v2 = Рамзи 6-рақамро ворид кунед
-confirm-recovery-code-reset-password-trouble-code = Ба қафо
 
 ## ResetPassword start page
 

@@ -562,6 +562,9 @@ avatar-page-delete-error-3 = Houbo un problema ao borrar a túa foto de perfil.
 ## User followed a password reset link and is now prompted to create a new password
 
 
+# ConfirmBackupCodeResetPassword page
+
+
 ## Confirm Reset Password With Code
 
 

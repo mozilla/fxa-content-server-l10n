@@ -849,6 +849,9 @@ pair-success-header-2 = ഉപകരണം ബന്ധിപ്പിച്ച�
 ## User followed a password reset link and is now prompted to create a new password
 
 
+# ConfirmBackupCodeResetPassword page
+
+
 ## Confirm Reset Password With Code
 
 confirm-reset-password-with-code-heading = താങ്ങളുടെ ഇതപാൽ പരിശോധിക്കുക
@@ -872,7 +875,6 @@ confirm-totp-reset-password-trouble-code = സങ്കേതം ഇടുന്
 confirm-totp-reset-password-confirm-button = തീൎച്ചപെടുത്തുക
 confirm-totp-reset-password-input-label-v2 = 6 അക്ക സങ്കേതം നൽകുക
 confirm-totp-reset-password-use-different-account = മറ്റൊരു അക്കൗണ്ട് ഉപയോഗിക്കുക
-confirm-recovery-code-reset-password-trouble-code = തിരികെ
 
 ## ResetPassword start page
 

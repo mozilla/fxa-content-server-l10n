@@ -1454,6 +1454,9 @@ complete-reset-pw-recovery-key-link = Тіркелгіні қалпына кел
 reset-password-complete-banner-heading = Парль тасталды
 reset-password-complete-banner-message = Жүйеге кірудің болашақ мәселелерін болдырмау үшін { -product-mozilla-account } баптауларынан тіркелгіні қалпына келтірудің жаңа кілтін жасауды ұмытпаңыз.
 
+# ConfirmBackupCodeResetPassword page
+
+
 ## Confirm Reset Password With Code
 
 confirm-reset-password-with-code-heading = Эл. поштаңызды тексеріңіз
@@ -1480,8 +1483,6 @@ confirm-totp-reset-password-trouble-code = Кодты енгізуде мәсе�
 confirm-totp-reset-password-confirm-button = Растау
 confirm-totp-reset-password-input-label-v2 = 6 цифрлы кодты енгізіңіз
 confirm-totp-reset-password-use-different-account = Басқа тіркелгіні қолдану
-confirm-recovery-code-reset-password-input-label = 10 таңбалы кодты енгізіңіз
-confirm-recovery-code-reset-password-trouble-code = Артқа
 
 ## ResetPassword start page
 

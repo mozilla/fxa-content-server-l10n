@@ -1417,6 +1417,9 @@ reset-password-complete-banner-message = อย่าลืมสร้างค
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 complete-reset-password-desktop-relay = { -brand-firefox } จะลองนำคุณกลับไปเพื่อใช้ตัวปกปิดอีเมลหลังจากที่คุณลงชื่อเข้า
 
+# ConfirmBackupCodeResetPassword page
+
+
 ## Confirm Reset Password With Code
 
 confirm-reset-password-with-code-heading = ตรวจดูอีเมลของคุณ
@@ -1443,8 +1446,6 @@ confirm-totp-reset-password-trouble-code = มีปัญหาในการ�
 confirm-totp-reset-password-confirm-button = ยืนยัน
 confirm-totp-reset-password-input-label-v2 = ใส่รหัส 6 หลัก
 confirm-totp-reset-password-use-different-account = ใช้บัญชีอื่น
-confirm-recovery-code-reset-password-input-label = ใส่รหัส 10 ตัวอักขระ
-confirm-recovery-code-reset-password-trouble-code = ย้อนกลับ
 
 ## ResetPassword start page
 

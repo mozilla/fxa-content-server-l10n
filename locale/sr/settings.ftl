@@ -1079,6 +1079,9 @@ complete-reset-password-success-alert = Лозинка је постављена
 # Displayed in an alert bar
 complete-reset-password-error-alert = Жао нам је, дошло је до грешке при постављању лозинке
 
+# ConfirmBackupCodeResetPassword page
+
+
 ## Confirm Reset Password With Code
 
 

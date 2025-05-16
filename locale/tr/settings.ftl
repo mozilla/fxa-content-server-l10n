@@ -1532,6 +1532,9 @@ reset-password-complete-banner-message = Gelecekte sorun yaşamamak için { -pro
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 complete-reset-password-desktop-relay = { -brand-firefox }, giriş yaptıktan sonra sizi e-posta maskesi kullanmaya yönlendirecektir.
 
+# ConfirmBackupCodeResetPassword page
+
+
 ## Confirm Reset Password With Code
 
 confirm-reset-password-with-code-heading = E-postanızı kontrol edin
@@ -1558,8 +1561,6 @@ confirm-totp-reset-password-trouble-code = Kod girerken sorun mu yaşıyorsunuz?
 confirm-totp-reset-password-confirm-button = Onayla
 confirm-totp-reset-password-input-label-v2 = 6 basamaklı kodu yazın
 confirm-totp-reset-password-use-different-account = Farklı bir hesap kullan
-confirm-recovery-code-reset-password-input-label = 10 karakterli kodu yazın
-confirm-recovery-code-reset-password-trouble-code = Geri dön
 
 ## ResetPassword start page
 

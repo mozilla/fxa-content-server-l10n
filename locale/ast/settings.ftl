@@ -491,6 +491,9 @@ auth-error-1008 = La contraseña nueva ha ser diferente
 ## User followed a password reset link and is now prompted to create a new password
 
 
+# ConfirmBackupCodeResetPassword page
+
+
 ## Confirm Reset Password With Code
 
 

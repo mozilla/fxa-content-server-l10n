@@ -516,6 +516,9 @@ auth-error-1008 = Feumaidh am facal-faire ùr a bhith eadar-dhealaichte
 ## User followed a password reset link and is now prompted to create a new password
 
 
+# ConfirmBackupCodeResetPassword page
+
+
 ## Confirm Reset Password With Code
 
 

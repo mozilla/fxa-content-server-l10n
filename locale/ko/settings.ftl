@@ -1499,6 +1499,9 @@ complete-reset-pw-recovery-key-link = 계정 복구 키 사용
 reset-password-complete-banner-heading = 비밀번호가 재설정되었습니다.
 reset-password-complete-banner-message = 향후 로그인 문제가 생기는 것을 방지하기 위해 { -product-mozilla-account } 계정 설정에서 새로운 계정 복구 키를 생성하는 것을 잊지 마세요.
 
+# ConfirmBackupCodeResetPassword page
+
+
 ## Confirm Reset Password With Code
 
 confirm-reset-password-with-code-heading = 이메일을 확인하세요.
@@ -1525,8 +1528,6 @@ confirm-totp-reset-password-trouble-code = 코드 입력에 문제가 있나요?
 confirm-totp-reset-password-confirm-button = 확인
 confirm-totp-reset-password-input-label-v2 = 6자리 숫자 코드 입력
 confirm-totp-reset-password-use-different-account = 다른 계정 사용
-confirm-recovery-code-reset-password-input-label = 10자리 코드 입력
-confirm-recovery-code-reset-password-trouble-code = 뒤로
 
 ## ResetPassword start page
 

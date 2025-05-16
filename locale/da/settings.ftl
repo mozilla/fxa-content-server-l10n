@@ -1545,6 +1545,9 @@ reset-password-complete-banner-message = Glem ikke at oprette en ny genoprettels
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 complete-reset-password-desktop-relay = { -brand-firefox } vil forsøge at sende dig tilbage, så du kan bruge en mail-maske, når du har logget ind.
 
+# ConfirmBackupCodeResetPassword page
+
+
 ## Confirm Reset Password With Code
 
 confirm-reset-password-with-code-heading = Tjek din mail
@@ -1571,8 +1574,6 @@ confirm-totp-reset-password-trouble-code = Har du problemer med at indtaste kode
 confirm-totp-reset-password-confirm-button = Bekræft
 confirm-totp-reset-password-input-label-v2 = Indtast 6-cifret kode
 confirm-totp-reset-password-use-different-account = Brug en anden konto
-confirm-recovery-code-reset-password-input-label = Indtast koden på 10 tegn
-confirm-recovery-code-reset-password-trouble-code = Tilbage
 
 ## ResetPassword start page
 

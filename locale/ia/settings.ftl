@@ -1549,6 +1549,9 @@ reset-password-complete-banner-message = Non oblida de generar un nove clave de 
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 complete-reset-password-desktop-relay = { -brand-firefox } tentara inviar te retro pro usar un alias email post que tu accede.
 
+# ConfirmBackupCodeResetPassword page
+
+
 ## Confirm Reset Password With Code
 
 confirm-reset-password-with-code-heading = Controla tu email
@@ -1575,8 +1578,6 @@ confirm-totp-reset-password-trouble-code = Problemas a inserer le codice?
 confirm-totp-reset-password-confirm-button = Confirmar
 confirm-totp-reset-password-input-label-v2 = Insere le codice de 6 digitos
 confirm-totp-reset-password-use-different-account = Usa un conto differente
-confirm-recovery-code-reset-password-input-label = Insere le codice de 10 characteres
-confirm-recovery-code-reset-password-trouble-code = Retro
 
 ## ResetPassword start page
 

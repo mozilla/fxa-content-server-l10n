@@ -419,6 +419,9 @@ cs-sign-out-button = Mag-sign out
 ## User followed a password reset link and is now prompted to create a new password
 
 
+# ConfirmBackupCodeResetPassword page
+
+
 ## Confirm Reset Password With Code
 
 

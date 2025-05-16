@@ -1523,6 +1523,9 @@ reset-password-complete-banner-heading = Ojeguerujeýma ne ñe’ẽñemi.
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 complete-reset-password-desktop-relay = { -brand-firefox } orahaukajeýta ndéve eiporu hag̃ua ñanduti veve rovamo’ãha eike rire ñandutípe.
 
+# ConfirmBackupCodeResetPassword page
+
+
 ## Confirm Reset Password With Code
 
 confirm-reset-password-with-code-heading = Ehechajey ne ñanduti veve
@@ -1549,8 +1552,6 @@ confirm-totp-reset-password-trouble-code = ¿Apañuái emoinge hag̃ua ayvu?
 confirm-totp-reset-password-confirm-button = Moneĩ
 confirm-totp-reset-password-input-label-v2 = Emoinge mba’eñemi 6 taíva
 confirm-totp-reset-password-use-different-account = Eiporu ambuéva mba’ete
-confirm-recovery-code-reset-password-input-label = Ehai mba’eñemi 10 taíva
-confirm-recovery-code-reset-password-trouble-code = Tapykue
 
 ## ResetPassword start page
 

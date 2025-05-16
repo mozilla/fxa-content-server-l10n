@@ -787,6 +787,9 @@ pair-unsupported-message = ¿La xawokisaj relesäy wachib'äl q'inoj? K'atzinel 
 # Displayed in an alert bar
 complete-reset-password-success-alert = Xjikib'äx ewan tzij
 
+# ConfirmBackupCodeResetPassword page
+
+
 ## Confirm Reset Password With Code
 
 

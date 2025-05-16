@@ -560,6 +560,9 @@ auth-error-1008 = Noua ta parolă trebuie să fie diferită
 ## User followed a password reset link and is now prompted to create a new password
 
 
+# ConfirmBackupCodeResetPassword page
+
+
 ## Confirm Reset Password With Code
 
 

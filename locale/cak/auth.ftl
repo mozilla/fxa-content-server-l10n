@@ -88,9 +88,11 @@ subscriptionFirstInvoice-content-invoice-number = Rajilab'al Paktura': <b>{ $inv
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 subscriptionFirstInvoice-content-invoice-number-plaintext = Rajilab'al Paktura': { $invoiceNumber }
-# Variables:
-#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
-#  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
+
+## Variables:
+##  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
+
 subscriptionFirstInvoice-content-charge = Xk'ul rajil { $invoiceTotal } pa { $invoiceDateOnly }
 subscriptionSupport = ¿La nak'utuj chi rij ri rutz'ib'axik ab'i'? Ri <a data-l10n-name="subscriptionSupportUrl">to'onel qamolaj</a> e k'o wawe' richin yatkito'.
 # After the colon, there's a link to https://accounts.firefox.com/support
@@ -220,6 +222,14 @@ subscriptionSubsequentInvoice-content-next-invoice = Jun chik Rajil Paktura': { 
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = Xak'ëx pa { $productName }
 subscriptionUpgrade-title = ¡Matyox ruma xak’ëx!
+
+## Variables:
+## $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
+## $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
+## $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
+## $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
+## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+
 subscriptionUpgrade-auto-renew = Xtijalatäj ri rutz’ib‘axik ab'i' toq xtanojisala' paktura', man ke ta ri' we xtaq'ät.
 unblockCode-subject = Rub’itz‘ib' ruya'oj q'ij ri rub'i' taqoya'l
 unblockCode-title = ¿La ja rat yatajowan natikirisaj molojri’ïl?

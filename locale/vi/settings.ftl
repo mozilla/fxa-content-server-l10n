@@ -1543,6 +1543,9 @@ reset-password-complete-banner-message = Đừng quên tạo khóa khôi phục 
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 complete-reset-password-desktop-relay = { -brand-firefox } sẽ điều hướng bạn quay trở lại để sử dụng email ẩn danh sau khi bạn đăng nhập.
 
+# ConfirmBackupCodeResetPassword page
+
+
 ## Confirm Reset Password With Code
 
 confirm-reset-password-with-code-heading = Kiểm tra email của bạn
@@ -1569,8 +1572,6 @@ confirm-totp-reset-password-trouble-code = Khó khăn khi nhập mã?
 confirm-totp-reset-password-confirm-button = Xác nhận
 confirm-totp-reset-password-input-label-v2 = Nhập mã gồm 6 chữ số
 confirm-totp-reset-password-use-different-account = Sử dụng một tài khoản khác
-confirm-recovery-code-reset-password-input-label = Nhập mã gồm 10 ký tự
-confirm-recovery-code-reset-password-trouble-code = Quay lại
 
 ## ResetPassword start page
 

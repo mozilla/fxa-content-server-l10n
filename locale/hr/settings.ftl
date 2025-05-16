@@ -1262,6 +1262,9 @@ complete-reset-password-error-alert = Žao nam je. Došlo je do greške prilikom
 # Displayed on the sign in page
 reset-password-complete-banner-heading = Tvoja je lozinka resetirana.
 
+# ConfirmBackupCodeResetPassword page
+
+
 ## Confirm Reset Password With Code
 
 confirm-reset-password-with-code-heading = Provjeri tvoju e-mail adresu
@@ -1285,8 +1288,6 @@ confirm-totp-reset-password-header = Resetiraj tvoju lozinku
 confirm-totp-reset-password-confirm-button = Potvrdi
 confirm-totp-reset-password-input-label-v2 = Upiši šesteroznamenkasti kod
 confirm-totp-reset-password-use-different-account = Koristi jedan drugi račun
-confirm-recovery-code-reset-password-input-label = Upiši desetoznamenkasti kod
-confirm-recovery-code-reset-password-trouble-code = Natrag
 
 ## ResetPassword start page
 

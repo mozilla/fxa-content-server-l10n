@@ -1369,6 +1369,9 @@ complete-reset-password-success-alert = パスワードを設定しました
 # Displayed in an alert bar
 complete-reset-password-error-alert = 申し訳ありませんが、パスワードの設定中に問題が発生しました
 
+# ConfirmBackupCodeResetPassword page
+
+
 ## Confirm Reset Password With Code
 
 confirm-reset-password-with-code-heading = メールを確認してください
@@ -1395,8 +1398,6 @@ confirm-totp-reset-password-trouble-code = コードの入力時に問題が発�
 confirm-totp-reset-password-confirm-button = 確認
 confirm-totp-reset-password-input-label-v2 = 6 桁のコードを入力
 confirm-totp-reset-password-use-different-account = 別のアカウントを使用する
-confirm-recovery-code-reset-password-input-label = 10 文字のコードを入力
-confirm-recovery-code-reset-password-trouble-code = 戻る
 
 ## ResetPassword start page
 

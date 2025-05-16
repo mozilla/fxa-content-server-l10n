@@ -21,6 +21,11 @@ change-password-plaintext = यदि आपको संदेह है कि
 manage-account = खाता प्रबंधित करें
 manage-account-plaintext = { manage-account }:
 payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
+
+## Variables:
+##  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
+
 newDeviceLogin-action = खाता प्रबंधित करें
 passwordChanged-subject = पासवर्ड अपडेट किया गया
 passwordChanged-title = कूटशब्द सफलतापूर्वक परिवर्तित
@@ -47,6 +52,14 @@ recovery-action = नया कूटशब्द बनाएँ
 ##   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 ##   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 ##   $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
+
+
+## Variables:
+## $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
+## $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
+## $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
+## $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
+## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
 unblockCode-subject = खाता प्राधिकरण कोड
 unblockCode-title = क्या आप ही साइन-इन कर रहे हैं?

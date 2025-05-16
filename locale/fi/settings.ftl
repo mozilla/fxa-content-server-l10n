@@ -1462,6 +1462,9 @@ complete-reset-pw-recovery-key-link = Käytä tilin palautusavainta
 # Displayed on the sign in page
 reset-password-complete-banner-heading = Salasanasi on nollattu.
 
+# ConfirmBackupCodeResetPassword page
+
+
 ## Confirm Reset Password With Code
 
 confirm-reset-password-with-code-heading = Tarkista sähköpostisi
@@ -1486,8 +1489,6 @@ confirm-totp-reset-password-trouble-code = Ongelmia koodin kirjoittamisen kanssa
 confirm-totp-reset-password-confirm-button = Vahvista
 confirm-totp-reset-password-input-label-v2 = Kirjoita 6-numeroinen koodi
 confirm-totp-reset-password-use-different-account = Käytä toista tiliä
-confirm-recovery-code-reset-password-input-label = Kirjoita 10-merkkinen koodi
-confirm-recovery-code-reset-password-trouble-code = Takaisin
 
 ## ResetPassword start page
 

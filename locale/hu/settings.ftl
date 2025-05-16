@@ -1549,6 +1549,9 @@ reset-password-complete-banner-message = Ne felejtsen el egy új fiók-helyreál
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 complete-reset-password-desktop-relay = Bejelentkezés után a { -brand-firefox } megpróbálja visszaküldeni Önt az e-mail-maszk használatához.
 
+# ConfirmBackupCodeResetPassword page
+
+
 ## Confirm Reset Password With Code
 
 confirm-reset-password-with-code-heading = Ellenőrizze a leveleit
@@ -1575,8 +1578,6 @@ confirm-totp-reset-password-trouble-code = Nem tudja beírni a kódot?
 confirm-totp-reset-password-confirm-button = Megerősítés
 confirm-totp-reset-password-input-label-v2 = Adja meg a 6 számjegyű kódot
 confirm-totp-reset-password-use-different-account = Másik fiók használata
-confirm-recovery-code-reset-password-input-label = Adja meg a 10 karakteres kódot
-confirm-recovery-code-reset-password-trouble-code = Vissza
 
 ## ResetPassword start page
 

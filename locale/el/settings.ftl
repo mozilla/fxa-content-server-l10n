@@ -1552,6 +1552,9 @@ reset-password-complete-banner-message = Μην ξεχάσετε να δημιο
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 complete-reset-password-desktop-relay = Το { -brand-firefox } θα προσπαθήσει να σας μεταφέρει στην αρχική καρτέλα για να χρησιμοποιήσετε μια μάσκα email αφού συνδεθείτε.
 
+# ConfirmBackupCodeResetPassword page
+
+
 ## Confirm Reset Password With Code
 
 confirm-reset-password-with-code-heading = Ελέγξτε τα email σας
@@ -1578,8 +1581,6 @@ confirm-totp-reset-password-trouble-code = Πρόβλημα με την εισα
 confirm-totp-reset-password-confirm-button = Επιβεβαίωση
 confirm-totp-reset-password-input-label-v2 = Εισαγάγετε τον εξαψήφιο κωδικό
 confirm-totp-reset-password-use-different-account = Χρήση διαφορετικού λογαριασμού
-confirm-recovery-code-reset-password-input-label = Εισαγάγετε τον κωδικό 10 χαρακτήρων
-confirm-recovery-code-reset-password-trouble-code = Πίσω
 
 ## ResetPassword start page
 
