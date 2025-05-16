@@ -843,6 +843,9 @@ recent-activity-account-recovery-phone-removed = Pumbyry guerujeyrã mboguepyre
 recent-activity-account-recovery-codes-replaced = Ayvu guerujeyrã myengoviapyre
 recent-activity-account-recovery-codes-created = Ayvu guerujeyrã moheñoimbyre
 recent-activity-account-recovery-codes-signin-complete = Ojavy emba’apóvo nde ayvu guerujeyrã henyhẽva ndive
+recent-activity-password-reset-otp-sent = Ohóma ayvu ñemoneĩ oiko jey hag̃ua ñe’ẽñemi
+recent-activity-password-reset-otp-verified = Ojehechajey ayvu ñemoneĩ oikoporã hag̃ua ñe’ẽñemi
+recent-activity-must-reset-password = Tekotevẽ emoĩporã ñe’ẽñemi
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Mba’ete rembiapo ambuéva
 
@@ -1525,6 +1528,11 @@ complete-reset-password-desktop-relay = { -brand-firefox } orahaukajeýta ndéve
 
 # ConfirmBackupCodeResetPassword page
 
+confirm-backup-code-reset-password-input-label = Ehai ayvu orekóva 10 tai
+confirm-backup-code-reset-password-confirm-button = Moneĩ
+confirm-backup-code-reset-password-subheader = Emoinge ayvu ñemoneĩrã jeykekoha
+# Link out to support article: https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+confirm-backup-code-reset-password-locked-out-link = ¿Rejehejáma okápe?
 
 ## Confirm Reset Password With Code
 
