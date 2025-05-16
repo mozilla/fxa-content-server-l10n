@@ -484,7 +484,7 @@ sub-invoice-error =
     .title = Πρόβλημα φόρτωσης τιμολογίων
 sub-billing-update-success = Τα στοιχεία χρέωσής σας ενημερώθηκαν με επιτυχία
 sub-invoice-previews-error-title = Πρόβλημα φόρτωσης προεπισκοπήσεων τιμολογίου
-sub-invoice-previews-error-text = Δεν ήταν δυνατή η φόρτωση προεπισκοπήσεων τιμολογίου
+sub-invoice-previews-error-text = Δεν ήταν δυνατή η φόρτωση προεπισκοπήσεων παραστατικού
 
 ## Routes - Subscription - ActionButton
 
@@ -516,10 +516,10 @@ sub-route-funding-source-payment-alert = Μη έγκυρα στοιχεία πλ
 ## Routes - Subscription - SubscriptionItem
 
 sub-item-no-such-plan = Δεν υπάρχει τέτοιο πλάνο για αυτή τη συνδρομή.
-invoice-not-found = Δεν βρέθηκε επόμενο τιμολόγιο
-sub-item-no-such-subsequent-invoice = Δεν βρέθηκε επόμενο τιμολόγιο για αυτήν τη συνδρομή.
-sub-invoice-preview-error-title = Δεν βρέθηκε προεπισκόπηση τιμολογίου
-sub-invoice-preview-error-text = Δεν βρέθηκε προεπισκόπηση απόδειξης για αυτήν τη συνδρομή
+invoice-not-found = Δεν βρέθηκε επόμενο παραστατικό
+sub-item-no-such-subsequent-invoice = Δεν βρέθηκε επόμενο παραστατικό για αυτήν τη συνδρομή.
+sub-invoice-preview-error-title = Δεν βρέθηκε προεπισκόπηση παραστατικού
+sub-invoice-preview-error-text = Δεν βρέθηκε προεπισκόπηση παραστατικού για αυτήν τη συνδρομή
 
 ## Routes - Subscriptions - Pocket Subscription
 

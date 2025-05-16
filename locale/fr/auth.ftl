@@ -221,7 +221,7 @@ subscriptionCharges-content-tax = Taxes et frais : { $invoiceTaxAmount }
 ##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
 
 subscriptionFirstInvoice-content-charge = { $invoiceTotal } facturés le { $invoiceDateOnly }
-subscriptionFirstInvoice-content-credit = Vous avez reçu un crédit de { $invoiceTotal }, qui sera appliqué à vos futures factures.
+subscriptionFirstInvoice-content-credit = Vous avez reçu un crédit de { $invoiceTotal }, qui sera appliqué à vos prochaines factures.
 subscriptionSupport = Des questions sur votre abonnement ? Notre <a data-l10n-name="subscriptionSupportUrl">équipe d’assistance</a> est là pour vous aider.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Des questions sur votre abonnement ? Notre équipe d’assistance est là pour vous aider :

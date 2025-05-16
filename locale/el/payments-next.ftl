@@ -50,7 +50,7 @@ next-payment-confirmation-thanks-heading-account-exists = Ευχαριστούμ
 payment-confirmation-thanks-subheading-account-exists-2 = Θα λάβετε ένα email στο { $email } με οδηγίες σχετικά με τη συνδρομή σας, καθώς και τα στοιχεία πληρωμής σας.
 next-payment-confirmation-order-heading = Λεπτομέρειες παραγγελίας
 # $invoiceNumber (String) - Invoice number of the successful payment
-next-payment-confirmation-invoice-number = Τιμολόγιο #{ $invoiceNumber }
+next-payment-confirmation-invoice-number = Παραστατικό #{ $invoiceNumber }
 # $invoiceDate (Date) - Start date of the latest invoice
 next-payment-confirmation-invoice-date = { $invoiceDate }
 next-payment-confirmation-details-heading-2 = Στοιχεία πληρωμής

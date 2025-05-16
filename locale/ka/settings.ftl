@@ -1551,6 +1551,12 @@ complete-reset-password-desktop-relay = { -brand-firefox } ეცდება �
 
 # ConfirmBackupCodeResetPassword page
 
+confirm-backup-code-reset-password-input-label = შეიყვანეთ 10-ნიშნა კოდი
+confirm-backup-code-reset-password-confirm-button = თანხმობა
+confirm-backup-code-reset-password-subheader = შეიყვანეთ შესვლის სამარქაფო კოდი
+confirm-backup-code-reset-password-instruction = შეიყვანეთ რომელიმე ერთჯერადი კოდი, რომელიც შეინახეთ ორბიჯიანი დამოწმების გამართვისას.
+# Link out to support article: https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+confirm-backup-code-reset-password-locked-out-link = ვერ ახერხებთ შესვლას?
 
 ## Confirm Reset Password With Code
 
@@ -1755,6 +1761,8 @@ signin-reported-message = ჩვენი გუნდი უკვე გაფ
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 signin-token-code-heading-2 = შეიყვანეთ დასტურის კოდი<span> თქვენი { -product-mozilla-account(case: "ben") }</span>
+# { $email } represents the email that the user entered to sign in
+signin-token-code-instruction-v2 = შეიყვანეთ კოდი, რომელიც მოგივათ ელფოსტაზე <email>{ $email }</email> 5 წუთის განმავლობაში.
 signin-token-code-input-label-v2 = შეიყვანეთ 6-ციფრიანი კოდი
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = დასტური
@@ -1819,6 +1827,8 @@ confirm-signup-code-page-title = შეიყვანეთ დადასტ�
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 confirm-signup-code-heading-2 = შეიყვანეთ დასტურის კოდი <span>თქვენი { -product-mozilla-account(case: "ben") }</span>
+# { $email } represents the email that the user entered to sign in
+confirm-signup-code-instruction-v2 = შეიყვანეთ კოდი, რომელიც მოგივათ ელფოსტაზე <email>{ $email }</email> 5 წუთის განმავლობაში.
 confirm-signup-code-input-label = შეიყვანეთ 6-ციფრიანი კოდი
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = დასტური

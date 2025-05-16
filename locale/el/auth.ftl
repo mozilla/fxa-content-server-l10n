@@ -170,14 +170,14 @@ manage-account-plaintext = { manage-account }:
 payment-details = Στοιχεία πληρωμής:
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
-payment-plan-invoice-number = Αριθμός τιμολογίου: { $invoiceNumber }
+payment-plan-invoice-number = Αριθμός παραστατικού: { $invoiceNumber }
 # Variables:
 #  $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 payment-plan-charged = Χρέωση: { $invoiceTotal } στις { $invoiceDateOnly }
 # Variables
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
-payment-plan-next-invoice = Επόμενο τιμολόγιο: { $nextInvoiceDateOnly }
+payment-plan-next-invoice = Επόμενο παραστατικό: { $nextInvoiceDateOnly }
 # After the colon is how the user paid, e.g. PayPal or credit card
 payment-method = Μέθοδος πληρωμής:
 payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
@@ -221,6 +221,7 @@ subscriptionCharges-content-tax = Φόροι και τέλη: { $invoiceTaxAmoun
 ##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
 
 subscriptionFirstInvoice-content-charge = Χρεώθηκαν { $invoiceTotal } στις { $invoiceDateOnly }
+subscriptionFirstInvoice-content-credit = Έχετε λάβει μια πίστωση λογαριασμού των { $invoiceTotal }, η οποία θα εφαρμοστεί στα μελλοντικά σας παραστατικά.
 subscriptionSupport = Έχετε απορίες σχετικά με τη συνδρομή σας; Η <a data-l10n-name="subscriptionSupportUrl">ομάδα υποστήριξής</a> μας είναι εδώ για να σας βοηθήσει.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Έχετε απορίες για τη συνδρομή σας; Η ομάδα υποστήριξής μας είναι εδώ για να σας βοηθήσει:
@@ -664,6 +665,9 @@ subscriptionUpgrade-upgrade-info-2 = Κάνατε επιτυχώς αναβάθ�
 ## $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
+subscriptionUpgrade-content-charge-prorated = Έχετε χρεωθεί εφάπαξ το ποσό των { $paymentProrated }, που αντικατοπτρίζει την υψηλότερη τιμή της συνδρομής σας για το υπόλοιπο αυτής της περιόδου χρέωσης ({ $productPaymentCycleOld }).
+subscriptionUpgrade-content-charge-credit = Έχετε λάβει ως πίστωση λογαριασμού το ποσό των { $paymentProrated }.
+subscriptionUpgrade-content-starting = Ξεκινώντας από τον επόμενο λογαριασμό σας, η χρέωσή σας θα αλλάξει από { $paymentAmountOld } ανά { $productPaymentCycleOld } σε { $paymentAmountNew } ανά { $productPaymentCycleNew }.
 # Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-existing = Αν κάποια από τις υπάρχουσες συνδρομές σας συμπίπτει με αυτήν την αναβάθμιση, θα τη διαχειριστούμε και θα σας στείλουμε ξεχωριστό email με τις λεπτομέρειες. Αν το νέο σας πακέτο περιλαμβάνει προϊόντα που απαιτούν εγκατάσταση, θα σας στείλουμε ξεχωριστό email με τις οδηγίες.

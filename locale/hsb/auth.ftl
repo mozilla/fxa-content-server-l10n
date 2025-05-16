@@ -667,6 +667,9 @@ subscriptionUpgrade-upgrade-info-2 = Sće wuspěšnje na { $productName } zaktua
 ## $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
+subscriptionUpgrade-content-charge-prorated = Wam je so jónkróćny popłatk { $paymentProrated } wobličił, zo by so wyša płaćizna wašeho abonementa za zbytk tuteje wotličenskeje periody wotbłyšćowała ({ $productPaymentCycleOld }).
+subscriptionUpgrade-content-charge-credit = Sće dobroměće we wysokosći { $paymentProrated } dóstał.
+subscriptionUpgrade-content-starting = Wot wašeje přichodneje zličbowanki so waš popłatk wot { $paymentAmountOld } na { $productPaymentCycleOld } do { $paymentAmountNew } na { $productPaymentCycleNew } změni.
 # Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-existing = Jeli so jedyn z wašich eksistowacych abonementow z tutej aktualizaciju překrywaja, budźemy so z nim zaběrać a wam separatnu mejlku z podrobnosćemi słać. Jeli waš nowy plan produkty wopřijima, kotrež sej instalaciju wužaduja, budźemy wam separatnu mejlku z instalaciskimi instrukcijemi słać.

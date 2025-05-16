@@ -667,7 +667,7 @@ subscriptionUpgrade-upgrade-info-2 = Sćo wuspěšnje aktualizěrował na { $pro
 ## $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
-subscriptionUpgrade-content-charge-prorated = Wam jo se jadnorazowy płaśonk { $paymentProrated } woblicy, aby se wuša płaśizna wašogo abonementa za zbytk toś teje wótliceńskeje periody wótbłyšćowała ({ $productPaymentCycleOld }).
+subscriptionUpgrade-content-charge-prorated = Wam jo se jadnorazowy płaśonk { $paymentProrated } woblicył, aby se wuša płaśizna wašogo abonementa za zbytk toś teje wótliceńskeje periody wótbłyšćowała ({ $productPaymentCycleOld }).
 subscriptionUpgrade-content-charge-credit = Sćo dostał kontowy plus we wusokosći { $paymentProrated }.
 subscriptionUpgrade-content-starting = Wót wašeje pśiduceje zliceńki se waš płaśonk wót { $paymentAmountOld } na { $productPaymentCycleOld } do { $paymentAmountNew } na { $productPaymentCycleNew } změnijo.
 # Variables:
