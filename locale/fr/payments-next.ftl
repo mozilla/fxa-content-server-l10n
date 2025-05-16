@@ -32,7 +32,7 @@ next-payment-error-retry-button = Veuillez réessayer
 next-basic-error-message = Une erreur est survenue. Merci de réessayer plus tard.
 checkout-error-contact-support-button = Contacter l’assistance
 checkout-error-not-eligible = Vous n’avez pas le droit de vous abonner à ce produit. Veuillez contacter notre équipe d’assistance afin que nous puissions vous aider.
-checkout-error-already-subscribed = Vous êtes déjà abonné à ce produit.
+checkout-error-already-subscribed = Vous êtes déjà abonné·e à ce produit.
 checkout-error-contact-support = Veuillez contacter l’assistance afin que nous puissions vous aider.
 cart-error-currency-not-determined = Nous n’avons pas pu déterminer la devise pour cet achat, veuillez réessayer.
 checkout-processing-general-error = Une erreur inattendue s’est produite lors du traitement de votre paiement, veuillez réessayer.
@@ -160,7 +160,7 @@ select-tax-location-error-invalid-postal-code = Veuillez saisir un code postal v
 select-tax-location-successfully-updated = Votre localisation a été mise à jour.
 select-tax-location-error-location-not-updated = Votre localisation n’a pas pu être mise à jour. Veuillez réessayer.
 #  $currencyDisplayName (String) - The display name of a currency code, e.g. US Dollar
-select-tax-location-invalid-currency-change = Votre compte est facturé en { $currencyDisplayName }. Sélectionnez un pays qui utilise l’{ $currencyDisplayName }.
+select-tax-location-invalid-currency-change = Votre compte est facturé en { $currencyDisplayName }. Sélectionnez un pays qui utilise la devise { $currencyDisplayName }.
 select-tax-location-invalid-currency-change-default = Sélectionnez un pays qui correspond à la devise de vos abonnements actifs.
 select-tax-location-new-tax-rate-info = La mise à jour de votre localisation appliquera le nouveau taux de taxe à tous les abonnements actifs sur votre compte, à partir de votre prochain cycle de facturation.
 signin-form-continue-button = Continuer

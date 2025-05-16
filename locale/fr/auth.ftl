@@ -390,7 +390,7 @@ postAddLinkedAccount-title-2 = Votre compte { $providerName } a été lié à vo
 postAddLinkedAccount-action = Gérer le compte
 postAddRecoveryPhone-subject = Numéro de téléphone de secours ajouté
 postAddRecoveryPhone-preview = Compte protégé par l’authentification en deux étapes
-postAddRecoveryPhone-title-v2 = Vous avez ajouté un numéro de téléphone de récupération
+postAddRecoveryPhone-title-v2 = Vous avez ajouté un numéro de téléphone de secours
 # Variables:
 #  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
 postAddRecoveryPhone-description-v2 = Vous avez ajouté { $maskedLastFourPhoneNumber } comme numéro de téléphone de secours
@@ -443,7 +443,7 @@ postRemoveAccountRecovery-action = Gérer le compte
 postRemoveRecoveryPhone-subject = Le numéro de téléphone de secours a été supprimé
 postRemoveRecoveryPhone-preview = Compte protégé par l’authentification en deux étapes
 postRemoveRecoveryPhone-title = Le numéro de téléphone de secours a été supprimé
-postRemoveRecoveryPhone-description-v2 = Votre numéro de téléphone de récupération a été supprimé de vos paramètres d’authentification en deux étapes.
+postRemoveRecoveryPhone-description-v2 = Votre numéro de téléphone de secours a été supprimé de vos paramètres d’authentification en deux étapes.
 postRemoveRecoveryPhone-description-extra = Vous pouvez toujours utiliser vos codes d’authentification de secours pour vous connecter si vous ne pouvez pas utiliser votre application d’authentification.
 postRemoveRecoveryPhone-requested-device = La demande a été effectuée depuis :
 postRemoveSecondary-subject = L’adresse e-mail secondaire a été supprimée
@@ -627,9 +627,9 @@ subscriptionRenewalReminder-content-signature = L’équipe { $productName }
 subscriptionReplaced-subject = Votre abonnement a été mis à jour dans le cadre de votre mise à niveau
 subscriptionReplaced-title = Votre abonnement a été mis à jour
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionReplaced-content-replaced = Votre abonnement individuel { $productName } a été remplacé et est maintenant inclus dans votre nouveau pack.
-subscriptionReplaced-content-credit = Vous recevrez un crédit pour le temps inutilisé de votre abonnement précédent. Ce crédit sera automatiquement appliqué à votre compte et utilisé pour de futurs paiements.
-subscriptionReplaced-content-no-action = Aucune action n'est requise de votre part.
+subscriptionReplaced-content-replaced = Votre abonnement individuel à { $productName } a été remplacé et est maintenant inclus dans votre nouveau pack.
+subscriptionReplaced-content-credit = Vous recevrez un crédit pour le temps inutilisé de votre abonnement précédent. Ce crédit sera automatiquement appliqué à votre compte et utilisé pour les prochains paiements.
+subscriptionReplaced-content-no-action = Aucune action n’est requise de votre part.
 subscriptionsPaymentExpired-subject-1 = La carte bancaire pour vos abonnements a expiré ou expire bientôt
 subscriptionsPaymentExpired-title-1 = Votre carte bancaire est arrivée à expiration ou est sur le point d’y être
 subscriptionsPaymentExpired-content-1 = La carte bancaire que vous utilisez pour régler les abonnements suivants est arrivée à expiration ou est sur le point d’y être.
@@ -668,7 +668,7 @@ subscriptionUpgrade-content-charge-credit = Vous avez reçu un crédit d’un mo
 subscriptionUpgrade-content-starting = À partir de votre prochaine facture, vos frais passeront de { $paymentAmountOld } par { $productPaymentCycleOld } à { $paymentAmountNew } par { $productPaymentCycleNew }.
 # Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
-subscriptionUpgrade-existing = Si l’un de vos abonnements existants chevauche ce surclassement, nous le traiterons et vous enverrons un e-mail séparé avec les détails. Si votre nouveau forfait comprend des produits qui doivent être installés, nous vous enverrons un courriel séparé avec des instructions d’installation.
+subscriptionUpgrade-existing = Si l’un de vos abonnements existants comprend tout ou partie de cette mise à niveau, nous le prendrons en compte et vous enverrons un e-mail séparé avec tous les détails. Si votre nouveau forfait comprend des produits qui doivent être installés, nous vous enverrons un e-mail séparé contenant les instructions d’installation.
 subscriptionUpgrade-auto-renew = Votre abonnement sera automatiquement renouvelé à chaque période de facturation, sauf si vous choisissez de l’annuler.
 unblockCode-subject = Code d’autorisation du compte
 unblockCode-title = Étiez-vous à l’origine de cette connexion ?
