@@ -1555,6 +1555,12 @@ complete-reset-password-desktop-relay = { -brand-firefox } probearret jo werom t
 
 # ConfirmBackupCodeResetPassword page
 
+confirm-backup-code-reset-password-input-label = Fier koade fan 10 tekens yn
+confirm-backup-code-reset-password-confirm-button = Befêstigje
+confirm-backup-code-reset-password-subheader = Fier reserve-autentikaasjekoade yn
+confirm-backup-code-reset-password-instruction = Fier ien fan de koaden om ien kear te brûken yn dy’t jo bewarre hawwe by it ynstellen fan autentikaasje yn twa stappen.
+# Link out to support article: https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+confirm-backup-code-reset-password-locked-out-link = Binne jo bûten sluten?
 
 ## Confirm Reset Password With Code
 
