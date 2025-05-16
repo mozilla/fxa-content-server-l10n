@@ -852,6 +852,9 @@ recent-activity-account-recovery-phone-removed = Recovery phone removed
 recent-activity-account-recovery-codes-replaced = Recovery codes replaced
 recent-activity-account-recovery-codes-created = Recovery codes created
 recent-activity-account-recovery-codes-signin-complete = Sign-in with recovery codes completed
+recent-activity-password-reset-otp-sent = Reset password confirmation code sent
+recent-activity-password-reset-otp-verified = Reset password confirmation code verified
+recent-activity-must-reset-password = Password reset required
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Other account activity
 
@@ -1190,6 +1193,7 @@ auth-error-114-generic = You’ve tried too many times. Please try again later.
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = You've tried too many times. Please try again { $retryAfter }.
 auth-error-125 = The request was blocked for security reasons
+auth-error-129-2 = You entered an invalid phone number. Please check it and try again.
 auth-error-138-2 = Unconfirmed session
 auth-error-139 = Secondary email must be different than your account email
 auth-error-155 = TOTP token not found
@@ -1539,6 +1543,12 @@ complete-reset-password-desktop-relay = { -brand-firefox } will try sending you 
 
 # ConfirmBackupCodeResetPassword page
 
+confirm-backup-code-reset-password-input-label = Enter 10-character code
+confirm-backup-code-reset-password-confirm-button = Confirm
+confirm-backup-code-reset-password-subheader = Enter backup authentication code
+confirm-backup-code-reset-password-instruction = Enter one of the one-time-use codes you saved when you set up two-step authentication.
+# Link out to support article: https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+confirm-backup-code-reset-password-locked-out-link = Are you locked out?
 
 ## Confirm Reset Password With Code
 
@@ -1743,6 +1753,8 @@ signin-reported-message = Our team has been notified. Reports like this help us 
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 signin-token-code-heading-2 = Enter confirmation code <span>for your { -product-mozilla-account }</span>
+# { $email } represents the email that the user entered to sign in
+signin-token-code-instruction-v2 = Enter the code that was sent to <email>{ $email }</email> within 5 minutes.
 signin-token-code-input-label-v2 = Enter 6-digit code
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Confirm
@@ -1807,6 +1819,8 @@ confirm-signup-code-page-title = Enter confirmation code
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 confirm-signup-code-heading-2 = Enter confirmation code <span>for your { -product-mozilla-account }</span>
+# { $email } represents the email that the user entered to sign in
+confirm-signup-code-instruction-v2 = Enter the code that was sent to <email>{ $email }</email> within 5 minutes.
 confirm-signup-code-input-label = Enter 6-digit code
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = Confirm

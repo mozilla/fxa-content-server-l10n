@@ -22,6 +22,16 @@ recovery-phone-signin-sms-body = { $code } is your { -brand-mozilla } recovery c
 # Messages should be limited to one segment
 # $code  - 6 digit code used to sign in with a recovery phone as backup for two-step authentication
 recovery-phone-signin-sms-short-body = { -brand-mozilla } code: { $code }
+# Message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to sign in with a recovery phone as backup for account password reset
+recovery-phone-reset-password-sms-body = { $code } is your { -brand-mozilla } recovery code. Expires in 5 minutes.
+# Shorter message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to sign in with a recovery phone as backup for account password reset
+recovery-phone-reset-password-short-body = { -brand-mozilla } code: { $code }
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
@@ -211,6 +221,7 @@ subscriptionCharges-content-tax = Taxes & fees: { $invoiceTaxAmount }
 ##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
 
 subscriptionFirstInvoice-content-charge = Charged { $invoiceTotal } on { $invoiceDateOnly }
+subscriptionFirstInvoice-content-credit = You have received an account credit of { $invoiceTotal }, which will be applied to your future invoices.
 subscriptionSupport = Questions about your subscription? Our <a data-l10n-name="subscriptionSupportUrl">support team</a> is here to help you.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Questions about your subscription? Our support team is here to help you:
@@ -379,6 +390,7 @@ postAddLinkedAccount-title-2 = Your { $providerName } account has been linked to
 postAddLinkedAccount-action = Manage account
 postAddRecoveryPhone-subject = Recovery phone added
 postAddRecoveryPhone-preview = Account protected by two-step authentication
+postAddRecoveryPhone-title-v2 = You added a recovery phone number
 # Variables:
 #  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
 postAddRecoveryPhone-description-v2 = You added { $maskedLastFourPhoneNumber } as your recovery phone number
@@ -431,6 +443,8 @@ postRemoveAccountRecovery-action = Manage account
 postRemoveRecoveryPhone-subject = Recovery phone removed
 postRemoveRecoveryPhone-preview = Account protected by two-step authentication
 postRemoveRecoveryPhone-title = Recovery phone removed
+postRemoveRecoveryPhone-description-v2 = Your recovery phone has been removed from your two-step authentication settings.
+postRemoveRecoveryPhone-description-extra = You can still use your backup authentication codes to sign in if you arenʼt able to use your authenticator app.
 postRemoveRecoveryPhone-requested-device = You requested it from:
 postRemoveSecondary-subject = Secondary email removed
 postRemoveSecondary-title = Secondary email removed
@@ -610,6 +624,12 @@ subscriptionRenewalReminder-content-closing = Sincerely,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = The { $productName } team
+subscriptionReplaced-subject = Your subscription has been updated as part of your upgrade
+subscriptionReplaced-title = Your subscription has been updated
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReplaced-content-replaced = Your individual { $productName } subscription has been replaced and is now included in your new bundle.
+subscriptionReplaced-content-credit = You’ll receive a credit for any unused time from your previous subscription. This credit will be automatically applied to your account and used toward future charges.
+subscriptionReplaced-content-no-action = No action is required on your part.
 subscriptionsPaymentExpired-subject-1 = Credit card for your subscriptions is expired or expiring soon
 subscriptionsPaymentExpired-title-1 = Your credit card is expired or about to expire
 subscriptionsPaymentExpired-content-1 = The credit card you’re using to make payments for the following subscriptions is expired or about to expire.
@@ -631,6 +651,10 @@ subscriptionSubsequentInvoice-content-next-invoice = Next Invoice: { $nextInvoic
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = You have upgraded to { $productName }
 subscriptionUpgrade-title = Thank you for upgrading!
+# Variables:
+# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
+# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-upgrade-info-2 = You have successfully upgraded to { $productName }.
 
 ## Variables:
 ## $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
@@ -639,6 +663,12 @@ subscriptionUpgrade-title = Thank you for upgrading!
 ## $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
+subscriptionUpgrade-content-charge-prorated = You have been charged a one-time fee of { $paymentProrated } to reflect your subscription’s higher price for the remainder of this billing period ({ $productPaymentCycleOld }).
+subscriptionUpgrade-content-charge-credit = You have received an account credit in the amount of { $paymentProrated }.
+subscriptionUpgrade-content-starting = Starting with your next bill, your charge will change from { $paymentAmountOld } per { $productPaymentCycleOld } to { $paymentAmountNew } per { $productPaymentCycleNew }.
+# Variables:
+# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-existing = If any of your existing subscriptions overlap with this upgrade, we’ll handle them and send you a separate email with the details. If your new plan includes products that require installation, we’ll send you a separate email with setup instructions.
 subscriptionUpgrade-auto-renew = Your subscription will automatically renew each billing period unless you choose to cancel.
 unblockCode-subject = Account authorization code
 unblockCode-title = Is this you signing in?

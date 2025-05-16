@@ -1,12 +1,19 @@
 ## Page
 
 checkout-signin-or-create = 1. Sign in or create a { -product-mozilla-account }
+# This string appears as a separation between the two sign-in options, "Enter your email"(signin-form-email-input) "or"(this string) "Continue with Google"(continue-signin-with-google-button) / "Continue with Apple"(continue-signin-with-apple-button)
+checkout-signin-options-or = or
 continue-signin-with-google-button = Continue with { -brand-google }
 continue-signin-with-apple-button = Continue with { -brand-apple }
 next-payment-method-header = Choose your payment method
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = First you’ll need to approve your subscription
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+location-header = Select your country and enter your postal code <p>to continue to checkout for { $productName }</p>
+location-banner-info = We weren’t able to detect your location automatically
+location-required-disclaimer = We only use this information to calculate taxes and currency.
+location-banner-currency-change = Currency change not supported. To continue, select a country that matches your current billing currency.
 
 ## Page - Upgrade page
 
@@ -25,7 +32,10 @@ next-payment-error-retry-button = Try again
 next-basic-error-message = Something went wrong. Please try again later.
 checkout-error-contact-support-button = Contact Support
 checkout-error-not-eligible = You are not eligible to subscribe to this product - please contact support so we can help you.
+checkout-error-already-subscribed = You’re already subscribed to this product.
 checkout-error-contact-support = Please contact support so we can help you.
+cart-error-currency-not-determined = We were unable to determine the currency for this purchase, please try again.
+checkout-processing-general-error = An unexpected error has occurred while processing your payment, please try again.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -55,6 +65,10 @@ next-payment-confirmation-download-button = Continue to download
 
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Card ending in { $last4 }
+# Page - Not Found
+page-not-found-title = Page not found
+page-not-found-description = The page you requested was not found. We’ve been notified and will fix any links that may be broken.
+page-not-found-back-button = Go Back
 
 ## Component - Payment Consent Checkbox
 
@@ -132,6 +146,7 @@ next-coupon-success-repeating = Your plan will automatically renew after { $coup
 select-tax-location-title = Location
 select-tax-location-edit-button = Edit
 select-tax-location-save-button = Save
+select-tax-location-continue-to-checkout-button = Continue to checkout
 select-tax-location-country-code-label = Country
 select-tax-location-country-code-placeholder = Select your country
 select-tax-location-error-missing-country-code = Please select your country
@@ -144,6 +159,10 @@ select-tax-location-error-missing-postal-code = Please enter your postal code
 select-tax-location-error-invalid-postal-code = Please enter a valid postal code
 select-tax-location-successfully-updated = Your location has been updated.
 select-tax-location-error-location-not-updated = Your location could not be updated. Please try again.
+#  $currencyDisplayName (String) - The display name of a currency code, e.g. US Dollar
+select-tax-location-invalid-currency-change = Your account is billed in { $currencyDisplayName }. Select a country that uses the { $currencyDisplayName }.
+select-tax-location-invalid-currency-change-default = Select a country that matches the currency of your active subscriptions.
+select-tax-location-new-tax-rate-info = Updating your location will apply the new tax rate to all active subscriptions on your account, starting with your next billing cycle.
 signin-form-continue-button = Continue
 signin-form-email-input = Enter your email
 signin-form-email-input-missing = Please enter your email
@@ -171,6 +190,7 @@ next-subscription-create-title = Set up your subscription
 next-subscription-success-title = Subscription confirmation
 next-subscription-processing-title = Confirming subscription…
 next-subscription-error-title = Error confirming subscription…
+subscription-title-sub-exists = You’ve already subscribed
 subscription-title-plan-change-heading = Review your change
 next-sub-guarantee = 30-day money-back guarantee
 
