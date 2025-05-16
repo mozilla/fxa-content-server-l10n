@@ -22,6 +22,16 @@ recovery-phone-signin-sms-body = { $code } კოდი { -brand-mozilla }-ა�
 # Messages should be limited to one segment
 # $code  - 6 digit code used to sign in with a recovery phone as backup for two-step authentication
 recovery-phone-signin-sms-short-body = { -brand-mozilla }-ს კოდი: { $code }
+# Message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to sign in with a recovery phone as backup for account password reset
+recovery-phone-reset-password-sms-body = { $code } კოდი { -brand-mozilla }-ანგარიშის აღსადგენად. ვადა ეწურება 5 წუთში.
+# Shorter message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to sign in with a recovery phone as backup for account password reset
+recovery-phone-reset-password-short-body = { -brand-mozilla }-ს კოდი: { $code }
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
@@ -211,6 +221,7 @@ subscriptionCharges-content-tax = გადასახადები და �
 ##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
 
 subscriptionFirstInvoice-content-charge = ჩამოიჭრა { $invoiceTotal } თარიღზე { $invoiceDateOnly }
+subscriptionFirstInvoice-content-credit = თქვენ მიიღეთ ანგარიშზე ნაშთი { $invoiceTotal }, რომელიც გათვალისწინებული იქნება მომდევნო ზედნადებების გამოწერისას.
 subscriptionSupport = კითხვები გაქვთ თქვენი გამოწერის შესახებ? ჩვენი <a data-l10n-name="subscriptionSupportUrl">მხარდაჭერის გუნდი</a> მზადაა თქვენ დასახმარებლად.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = კითხვები გაქვთ თქვენი გამოწერის შესახებ? ჩვენი მხარდაჭერის გუნდი მზადაა თქვენ დასახმარებლად:
