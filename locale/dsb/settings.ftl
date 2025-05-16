@@ -1547,6 +1547,12 @@ complete-reset-password-desktop-relay = { -brand-firefox } buźo was slědk sła
 
 # ConfirmBackupCodeResetPassword page
 
+confirm-backup-code-reset-password-input-label = 10-městnowy kod zapódaś
+confirm-backup-code-reset-password-confirm-button = Wobkšuśiś
+confirm-backup-code-reset-password-subheader = Zapódajśo kod za zawěsćeńsku awtentifikaciju
+confirm-backup-code-reset-password-instruction = Zapódajśo jaden z kodow za jadnorazowe wužywanje, gaž dwójokšacowu awtentifikaciju konfigurěrujośo.
+# Link out to support article: https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+confirm-backup-code-reset-password-locked-out-link = Sćo se wuzamknuł?
 
 ## Confirm Reset Password With Code
 
