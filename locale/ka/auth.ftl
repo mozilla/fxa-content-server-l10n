@@ -613,6 +613,7 @@ subscriptionRenewalReminder-content-closing = პატივისცემი�
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = { $productName } პროდუქტის გუნდი
+subscriptionReplaced-content-no-action = საჭირო არაა, რამე მოიმოქმედოთ.
 subscriptionsPaymentExpired-subject-1 = თქვენი გამოწერების საკრედიტო ბარათი ვადაგასულია ან მალე გასდის ვადა
 subscriptionsPaymentExpired-title-1 = თქვენი საკრედიტო ბარათი ვადაგასულია ან მალე გასდის ვადა
 subscriptionsPaymentExpired-content-1 = საკრედიტო ბარათის, რომელსაც გადახდებისთვის იყენებთ, ვადაგასულია ან მალე გასდის ვადა.
