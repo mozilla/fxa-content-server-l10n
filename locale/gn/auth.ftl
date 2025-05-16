@@ -606,6 +606,8 @@ subscriptionRenewalReminder-content-closing = Ma’ẽag̃uíme,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = { $productName } atyguáva
+subscriptionReplaced-title = Ne ñemboheraguapy oñembohekopyahu
+subscriptionReplaced-content-no-action = Noikotevẽi mba’evete ndehegui.
 subscriptionsPaymentExpired-subject-1 = Nde kuatia’atã ñemurã ne ñemboheraguapýpe g̃uarã ndoikói térã ndokovéitama
 subscriptionsPaymentExpired-title-1 = Nde kuatia’atã ñemurã ndoikói térã ndoikovéitama.
 subscriptionsPaymentExpired-content-1 = Pe kuatia’atã ñemurã eiporúva ehepyme’ẽ hag̃ua ne ñemboheraguapy tenondevegua ndoikói térã ndoikovéitama.
