@@ -1554,6 +1554,12 @@ complete-reset-password-desktop-relay = Το { -brand-firefox } θα προσπ�
 
 # ConfirmBackupCodeResetPassword page
 
+confirm-backup-code-reset-password-input-label = Εισαγάγετε τον κωδικό 10 χαρακτήρων
+confirm-backup-code-reset-password-confirm-button = Επιβεβαίωση
+confirm-backup-code-reset-password-subheader = Εισαγάγετε εφεδρικό κωδικό ταυτοποίησης
+confirm-backup-code-reset-password-instruction = Εισαγάγετε έναν από τους κωδικούς μίας χρήσης που αποθηκεύσατε κατά τη ρύθμιση της ταυτοποίησης δύο παραγόντων.
+# Link out to support article: https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+confirm-backup-code-reset-password-locked-out-link = Έχετε κλειδωθεί;
 
 ## Confirm Reset Password With Code
 
