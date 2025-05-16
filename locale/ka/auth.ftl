@@ -666,6 +666,9 @@ subscriptionUpgrade-upgrade-info-2 = წარმატებით განა
 subscriptionUpgrade-content-charge-prorated = თქვენ ერთჯერადად ჩამოგეჭრათ გადასახადი { $paymentProrated } გამოწერის უფრო მაღალი საფასურის ასახვისთვის ანგარიშსწორების დარჩენილ პერიოდში ({ $productPaymentCycleOld }).
 subscriptionUpgrade-content-charge-credit = თქვენ მიიღეთ ნაშთი ანგარიშზე ოდენობით { $paymentProrated }.
 subscriptionUpgrade-content-starting = შემდეგი გადახდიდან ჩამოსაჭრელი თანხა { $paymentAmountOld } თითოეული { $productPaymentCycleOld } მონაკვეთისთვის შეიცვლება და გახდება { $paymentAmountNew } ყოველი { $productPaymentCycleNew } შუალედისთვის.
+# Variables:
+# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-existing = თუ თქვენს რომელიმე გამოწერას ემთხვევა ეს განახლება, განვიხილავთ და ელფოსტაზე ცალკე მიიღებთ წერილს დაწვრილებით. თუ თქვენი ახალი გეგმა მოიცავს პროდუქტებს, რომლებიც საჭიროებს დაყენებას, ელფოსტაზე ცალკე მიიღებთ წერილს გამართვის მითითებებითაც.
 subscriptionUpgrade-auto-renew = თქვენი გამოწერა თავისთავად განახლდება ყოველ მომდევნო საანგარიშო პერიოდში, სანამ არ გააუქმებთ.
 unblockCode-subject = ანგარიშზე დაშვების კოდი
 unblockCode-title = ეს თქვენი შესვლაა?
