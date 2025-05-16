@@ -1522,6 +1522,12 @@ complete-reset-password-desktop-relay = 登入後，{ -brand-firefox } 將嘗試
 
 # ConfirmBackupCodeResetPassword page
 
+confirm-backup-code-reset-password-input-label = 請輸入 10 字元長的驗證碼
+confirm-backup-code-reset-password-confirm-button = 確認
+confirm-backup-code-reset-password-subheader = 請輸入備用驗證碼
+confirm-backup-code-reset-password-instruction = 請輸入設定兩階段驗證時保存的任一組備用驗證碼。
+# Link out to support article: https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+confirm-backup-code-reset-password-locked-out-link = 被鎖住了嗎？
 
 ## Confirm Reset Password With Code
 
