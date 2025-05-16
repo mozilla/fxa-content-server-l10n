@@ -624,6 +624,11 @@ subscriptionRenewalReminder-content-closing = პატივისცემი�
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = { $productName } პროდუქტის გუნდი
+subscriptionReplaced-subject = თქვენი გამოწერა განახლდა მომდევნო დონეზე გადასვლით
+subscriptionReplaced-title = თქვენი გამოწერა განახლებულია
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReplaced-content-replaced = თქვენი მიერ ცალკე გამოწერილი { $productName } ჩანაცვლებულია და ახალი კრებულის ნაწილს წარმოდგენს.
+subscriptionReplaced-content-credit = თქვენ მიიღებთ ნაშთს წინა გამოწერის დარჩენილი დროის ასანაზღაურებლად. თავისთავად აისახება ანგარიშზე და გამოყენებული იქნება სამომავლო გადახდებისას.
 subscriptionReplaced-content-no-action = საჭირო არაა, რამე მოიმოქმედოთ.
 subscriptionsPaymentExpired-subject-1 = თქვენი გამოწერების საკრედიტო ბარათი ვადაგასულია ან მალე გასდის ვადა
 subscriptionsPaymentExpired-title-1 = თქვენი საკრედიტო ბარათი ვადაგასულია ან მალე გასდის ვადა
@@ -646,6 +651,10 @@ subscriptionSubsequentInvoice-content-next-invoice = შემდეგი ზ�
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = განახლების შედეგად მიიღეთ { $productName }
 subscriptionUpgrade-title = გმადლობთ, განახლებისთვის!
+# Variables:
+# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
+# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-upgrade-info-2 = წარმატებით განახლდა { $productName }.
 
 ## Variables:
 ## $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
