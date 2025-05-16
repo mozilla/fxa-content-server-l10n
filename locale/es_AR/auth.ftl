@@ -26,7 +26,7 @@ recovery-phone-signin-sms-short-body = Código de { -brand-mozilla }: { $code }
 # https://twiliodeved.github.io/message-segment-calculator/
 # Messages should be limited to one segment
 # $code  - 6 digit code used to sign in with a recovery phone as backup for account password reset
-recovery-phone-reset-password-sms-body = { $code } es tu código de recuperación de { -brand-mozilla }. Caduca en 5 minutos.
+recovery-phone-reset-password-sms-body = { $code } es tu código de recuperación de { -brand-mozilla }. Expira en 5 minutos.
 # Shorter message sent by SMS with limited character length, please test translation with the messaging segment calculator
 # https://twiliodeved.github.io/message-segment-calculator/
 # Messages should be limited to one segment
@@ -221,7 +221,7 @@ subscriptionCharges-content-tax = Impuestos y cargos: { $invoiceTaxAmount }
 ##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
 
 subscriptionFirstInvoice-content-charge = Cobrado { $invoiceTotal } el { $invoiceDateOnly }
-subscriptionFirstInvoice-content-credit = Recibió un crédito a la cuenta de { $invoiceTotal }, que se aplicará a sus facturas futuras.
+subscriptionFirstInvoice-content-credit = Recibiste un crédito en cuenta de { $invoiceTotal }, que se aplicará a tus facturas futuras.
 subscriptionSupport = ¿Tenés preguntas acerca de tu suscripción? Nuestro <a data-l10n-name="subscriptionSupportUrl">equipo de ayuda</a> está aquí para ayudarte.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = ¿Preguntas acerca de la suscripción? Nuestro equipo de soporte está acá para ayudarte:
@@ -664,7 +664,7 @@ subscriptionUpgrade-upgrade-info-2 = Se actualizó exitosamente a { $productName
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
 subscriptionUpgrade-content-charge-prorated = Se te cobró una tarifa única de { $paymentProrated } para reflejar el precio más alto de tu suscripción por el resto de este período de facturación ({ $productPaymentCycleOld }).
-subscriptionUpgrade-content-charge-credit = Recibiste un crédito en la cuenta por la cantidad de { $paymentProrated }.
+subscriptionUpgrade-content-charge-credit = Recibiste un crédito en cuenta por la cantidad de { $paymentProrated }.
 subscriptionUpgrade-content-starting = A partir de tu próxima factura, tu cargo cambiará de { $paymentAmountOld } por { $productPaymentCycleOld } a { $paymentAmountNew } por { $productPaymentCycleNew }.
 # Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
