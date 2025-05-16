@@ -221,6 +221,7 @@ subscriptionCharges-content-tax = Impostos e taxas: { $invoiceTaxAmount }
 ##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
 
 subscriptionFirstInvoice-content-charge = { $invoiceTotal } facturate le { $invoiceDateOnly }
+subscriptionFirstInvoice-content-credit = Tu ha recipite un  accreditation de conto de { $invoiceTotal }, que sera applicate a tu futur facturas.
 subscriptionSupport = Questiones re tu subscription? Nostre <a data-l10n-name="subscriptionSupportUrl">equipa de assistentia</a> es hic pro adjutar te.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Questiones re tu subscription? Nostre equipa de supporto es ci pro te adjutar:
@@ -664,6 +665,9 @@ subscriptionUpgrade-upgrade-info-2 = Tu era con successo promovite a { $productN
 ## $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
+subscriptionUpgrade-content-charge-prorated = Te ha essite cargate un onere de un-vice de { $paymentProrated } pro reflecter tu precio de abonamento superior pro le resto de iste termino de facturation ({ $productPaymentCycleOld }).
+subscriptionUpgrade-content-charge-credit = Tu ha recipite un accreditation de conto in le amonta de { $paymentProrated }.
+subscriptionUpgrade-content-starting = Comenciante con tu factura successive, tu carga cambiara de { $paymentAmountOld } per { $productPaymentCycleOld } a { $paymentAmountNew } per { $productPaymentCycleNew }.
 # Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-existing = Si il ha alcun imbrication de tu abonamentos existente con iste promotion, nos los tractara e te inviara un email separate con le detalios. Si tu nove plano include productos que require installation, nos te inviara un email separate con le instructiones de installation.
