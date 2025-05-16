@@ -192,10 +192,10 @@ credit-card-ending-in = Κάρτα { $cardName } με κατάληξη { $lastFo
 unknown-card-ending-in = Άγνωστη κάρτα με κατάληξη { $lastFour }
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
-subscriptionFirstInvoice-content-invoice-number = Αριθμός τιμολογίου: <b>{ $invoiceNumber }</b>
+subscriptionFirstInvoice-content-invoice-number = Αριθμός παραστατικού: <b>{ $invoiceNumber }</b>
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
-subscriptionFirstInvoice-content-invoice-number-plaintext = Αριθμός τιμολογίου: { $invoiceNumber }
+subscriptionFirstInvoice-content-invoice-number-plaintext = Αριθμός παραστατικού: { $invoiceNumber }
 # Variables:
 #  $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 subscriptionSubsequentInvoice-content-plan-change = Αλλαγή προγράμματος: { $paymentProrated }
@@ -251,11 +251,11 @@ device-all = { $uaBrowser } σε { $uaOS } { $uaOSVersion }
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 device-browser-os = { $uaBrowser } σε { $uaOS }
-view-invoice = <a data-l10n-name="invoiceLink">Δείτε το τιμολόγιό σας</a>.
+view-invoice = <a data-l10n-name="invoiceLink">Δείτε το παραστατικό σας</a>.
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
 # After the colon, there's a link to https://pay.stripe.com/
-view-invoice-plaintext = Προβολή τιμολογίου: { $invoiceLink }
+view-invoice-plaintext = Προβολή παραστατικού: { $invoiceLink }
 cadReminderFirst-subject-1 = Υπενθύμιση! Ας συγχρονίσουμε το { -brand-firefox }
 cadReminderFirst-action = Συγχρονισμός άλλης συσκευής
 cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
@@ -575,7 +575,7 @@ subscriptionFirstInvoice-content-install-2 = Θα λάβετε ένα ξεχωρ
 subscriptionFirstInvoice-content-auto-renew = Η συνδρομή σας θα ανανεώνεται αυτόματα σε κάθε περίοδο χρέωσης, εκτός αν κάνετε ακύρωση.
 # Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
-subscriptionFirstInvoice-content-next-invoice = Επόμενο τιμολόγιο: { $nextInvoiceDateOnly }
+subscriptionFirstInvoice-content-next-invoice = Επόμενο παραστατικό: { $nextInvoiceDateOnly }
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-subject-1 = Η πιστωτική κάρτα για το { $productName } έληξε ή λήγει σύντομα
@@ -648,7 +648,7 @@ subscriptionSubsequentInvoice-title = Ευχαριστούμε για τη συ�
 subscriptionSubsequentInvoice-content-received = Λάβαμε την τελευταία σας πληρωμή για το { $productName }.
 # Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
-subscriptionSubsequentInvoice-content-next-invoice = Επόμενο τιμολόγιο: { $nextInvoiceDateOnly }
+subscriptionSubsequentInvoice-content-next-invoice = Επόμενο παραστατικό: { $nextInvoiceDateOnly }
 # Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = Έχετε αναβαθμίσει στο { $productName }

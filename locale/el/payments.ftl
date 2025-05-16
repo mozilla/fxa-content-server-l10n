@@ -63,7 +63,7 @@ payment-confirmation-thanks-subheading = Έχει αποσταλεί ένα emai
 # $email (string) - The user's email.
 payment-confirmation-thanks-subheading-account-exists = Θα λάβετε ένα email στο { $email } με οδηγίες για τη ρύθμιση του λογαριασμού και των στοιχείων πληρωμής σας.
 payment-confirmation-order-heading = Λεπτομέρειες παραγγελίας
-payment-confirmation-invoice-number = Τιμολόγιο #{ $invoiceNumber }
+payment-confirmation-invoice-number = Παραστατικό #{ $invoiceNumber }
 # $invoiceDate (Date) - Start date of the latest invoice
 payment-confirmation-invoice-date = { $invoiceDate }
 payment-confirmation-details-heading-2 = Στοιχεία πληρωμής
@@ -398,8 +398,8 @@ sub-update-payment-title = Πληροφορίες πληρωμής
 ## Used in both Routes - Checkout and Product/SubscriptionCreate
 
 pay-with-heading-card-only = Πληρωμή με κάρτα
-product-invoice-preview-error-title = Πρόβλημα φόρτωσης προεπισκόπησης τιμολογίου
-product-invoice-preview-error-text = Δεν ήταν δυνατή η φόρτωση προεπισκόπησης τιμολογίου
+product-invoice-preview-error-title = Πρόβλημα φόρτωσης προεπισκόπησης παραστατικού
+product-invoice-preview-error-text = Δεν ήταν δυνατή η φόρτωση προεπισκόπησης παραστατικού
 
 ## Routes - Product - IapRoadblock
 
@@ -481,10 +481,10 @@ sub-route-idx-cancel-aside-2 = Έχετε απορίες; Επισκεφτείτ
 sub-customer-error =
     .title = Πρόβλημα φόρτωσης πελάτη
 sub-invoice-error =
-    .title = Πρόβλημα φόρτωσης τιμολογίων
+    .title = Πρόβλημα φόρτωσης παραστατικών
 sub-billing-update-success = Τα στοιχεία χρέωσής σας ενημερώθηκαν με επιτυχία
-sub-invoice-previews-error-title = Πρόβλημα φόρτωσης προεπισκοπήσεων τιμολογίου
-sub-invoice-previews-error-text = Δεν ήταν δυνατή η φόρτωση προεπισκοπήσεων παραστατικού
+sub-invoice-previews-error-title = Πρόβλημα φόρτωσης προεπισκοπήσεων παραστατικών
+sub-invoice-previews-error-text = Δεν ήταν δυνατή η φόρτωση προεπισκοπήσεων παραστατικών
 
 ## Routes - Subscription - ActionButton
 
