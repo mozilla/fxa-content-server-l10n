@@ -96,6 +96,7 @@ subscriptionCharges-content-tax = നികുതികളും കൂലിക
 ##  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 ##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
 
+subscriptionFirstInvoice-content-charge = { $invoiceDateOnly } ന് { $invoiceTotal } ഈടാക്കി.
 # Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
@@ -125,11 +126,25 @@ downloadSubscription-title = { $productName }-ലേക്കു് സ്വാ
 downloadSubscription-link-action-2 = തുടങ്ങാം
 fraudulentAccountDeletion-subject-2 = താങ്ങളുടെ { -product-mozilla-account } മായ്ക്കപ്പെട്ടു
 fraudulentAccountDeletion-title = താങ്ങളുടെ അക്കൗണ്ടു് മായ്ക്കപ്പെട്ടിരിക്കുന്നു
+inactiveAccountFinalWarning-preview = അക്കൗണ്ടു് കളയാതിരിക്കണമെങ്കിൽ ഉടൻ പ്രവേശിക്കുക
+inactiveAccountFinalWarning-action = അക്കൗണ്ടു് കളയാതിരിക്കണമെങ്കിൽ ഉടൻ പ്രവേശിക്കുക
+# followed by link to sign in
+inactiveAccountFinalWarning-action-plaintext = അക്കൗണ്ടു് കളയാതിരിക്കണമെങ്കിൽ ഉടൻ പ്രവേശിക്കുക:
+inactiveAccountFirstWarning-subject = അക്കൗണ്ടു് ചേതപ്പെടാതിരിക്കുവിൻ
 inactiveAccountFirstWarning-inactive-status = താങ്ങൾ 2 കൊല്ലമായി പ്രവേശിച്ചിട്ടില്ലയെന്നു് ഞങ്ങളുടെ ശ്രദ്ധയിൽപ്പെട്ടു.
+inactiveAccountSecondWarning-action = അക്കൗണ്ടു് കളയാതിരിക്കണമെങ്കിൽ ഉടൻ പ്രവേശിക്കുക
+inactiveAccountSecondWarning-preview = അക്കൗണ്ടു് കളയാതിരിക്കണമെങ്കിൽ ഉടൻ പ്രവേശിക്കുക
+# followed by link to sign in
+inactiveAccountSecondWarning-action-plaintext = അക്കൗണ്ടു് കളയാതിരിക്കണമെങ്കിൽ ഉടൻ പ്രവേശിക്കുക:
+lowRecoveryCodes-action-2 = സങ്കേതങ്ങളുണ്ടാക്കുക
 codes-create-plaintext = { lowRecoveryCodes-action-2 }:
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = { $clientName } ലോട്ടുള്ള പുതിയ പ്രവേശനം
+newDeviceLogin-title-3 = താങ്ങളുടെ { -product-mozilla-account } അക്കൗണ്ടുവഴി പ്രവേശനമുണ്ടായി
+# The "Not you?" question is asking whether the recipient of the email is the
+# person who performed the action that triggered the email.
+newDeviceLogin-change-password = താങ്ങളല്ലെ? എന്നാൽ <a data-l10n-name="passwordChangeLink">രഹസ്യവാക്കു് മാറ്റുക</a>.
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
 newDeviceLogin-change-password-plain = താങ്ങളല്ലെ? പിന്നെ രഹസ്യവാക്കു് മാറ്റുവിൻ
@@ -140,6 +155,8 @@ passwordChangeRequired-subject = സംശയകരമായ പ്രവൎത�
 passwordChangeRequired-title = രഹസ്യവാക്കു് മാറ്റണ്ടിവരും
 password-forgot-otp-subject = രഹസ്യവാക്കു് മറന്നോ?
 password-forgot-otp-title = രഹസ്യവാക്കു് മറന്നോ?
+password-forgot-otp-expiry-notice = ഈ സങ്കേതം പത്തു മിനിറ്റിൽ തീരും.
+passwordResetAccountRecovery-action-4 = അക്കൗണ്ടു് കൈകാര്യം ചെയ്യുക
 passwordResetWithRecoveryKeyPrompt-subject = താങ്കളുടെ രഹസ്യവാക്കു് പുനഃസജ്ജമാക്കി
 passwordResetWithRecoveryKeyPrompt-title = താങ്കളുടെ രഹസ്യവാക്കു് പുനഃസജ്ജമാക്കി
 # Text for button action to create a new account recovery key
@@ -149,7 +166,13 @@ passwordResetWithRecoveryKeyPrompt-action-txt = അക്കൌണ്ടു് �
 postAddAccountRecovery-subject-3 = പുതിയ അക്കൗണ്ടു് വീണ്ടെടുപ്പുസ്സങ്കേതം ഉണ്ടാക്കി
 postAddAccountRecovery-title2 = താങ്ങളൊരു പുതിയ അക്കൗണ്ടു് വീണ്ടെടുപ്പുസ്സങ്കേതം ഉണ്ടാക്കിയിരിക്കുന്നു
 postAddAccountRecovery-action = അക്കൗണ്ട് കൈകാര്യം ചെയ്യുക
+postAddLinkedAccount-action = അക്കൗണ്ടു് കൈകാര്യം ചെയ്യുക
+postAddRecoveryPhone-subject = വീണ്ടെടുപ്പു് ഫോൺ ചേൎത്തു
+postAddRecoveryPhone-action = അക്കൗണ്ടു് കൈകാര്യം ചെയ്യുക
+postAddTwoStepAuthentication-subject-2 = രണ്ടുപ്പടി അധിക്കാരികപ്പെടുത്തൽ തുടങ്ങിവച്ചു
+postAddTwoStepAuthentication-title-2 = താങ്ങൾ രണ്ടുപ്പടി അധിക്കാരിക്കൽ തുടങ്ങിവച്ചിട്ടുണ്ടു്.
 postAddTwoStepAuthentication-action = അക്കൗണ്ട് കൈകാര്യം ചെയ്യുക
+postChangeAccountRecovery-action = അക്കൗണ്ടു് കൈകാര്യം ചെയ്യുക
 postChangePrimary-title = പുതിയ പ്രാഥമിക ഇമെയിൽ
 postChangePrimary-action = അക്കൗണ്ട് കൈകാര്യം ചെയ്യുക
 postConsumeRecoveryCode-action = അക്കൗണ്ട് കൈകാര്യം ചെയ്യുക
@@ -162,6 +185,7 @@ postRemoveSecondary-title = ദ്വിതീയ ഇമെയിൽ നീക�
 postRemoveSecondary-action = അക്കൗണ്ട് കൈകാര്യം ചെയ്യുക
 postRemoveTwoStepAuthentication-action = അക്കൗണ്ട് കൈകാര്യം ചെയ്യുക
 postSigninRecoveryCode-action = അക്കൗണ്ട് കൈകാര്യം ചെയ്യുക
+postSigninRecoveryPhone-action = അക്കൗണ്ടു് കൈകാര്യം ചെയ്യുക
 postVerifySecondary-subject = ദ്വിതീയ ഇമെയിൽ ചേർത്തു
 postVerifySecondary-title = ദ്വിതീയ ഇമെയിൽ ചേർത്തു
 postVerifySecondary-action = അക്കൗണ്ട് കൈകാര്യം ചെയ്യുക
