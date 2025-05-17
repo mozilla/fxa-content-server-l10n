@@ -1031,13 +1031,20 @@ unit-row-recovery-key-delete-icon-button-title = Scancella a chiavi di ricùpiru
 
 ## Auth-server based errors that originate from backend service
 
+auth-error-129-2 = Mittisti un nùmmaru di tilèfunu chi nun è vàlitu. Pi favuri cuntròllalu e torna a prova.
 auth-error-139 = U nnirizzu di posta elittrònica sicunnariu àv'a siri diversu dû to nnirizzu primariu
 auth-error-155 = Nun attruvai u tistimoni TOTP
 # Error shown when the user submits an invalid backup authentication code
 auth-error-156 = U còdici d'autinticazzioni di sicurizza nun fu truvatu
 auth-error-159 = A chiavi di ricùpiru dû cuntu nun è vàlita
 auth-error-183-2 = U còdici di cunferma nun è vàlitu o scadìu
+auth-error-202 = Sta carattarìstica nun è attiva
+auth-error-203 = U sistema nun è dispunìbbili, torna a prova ntra picca
 auth-error-206 = Nun potti criari a chiavi, fu già mpustata
+auth-error-214 = U nùmmaru di tilèfunu di ricùpiru esisti già
+auth-error-215 = U nùmmaru di tilèfunu di ricùpiru nun esisti
+auth-error-216 = Agghicasti ô nùmmaru màssimu dî missaggi di testu
+auth-error-218 = Nun fu pussìbbili livari u nùmmaru di tilèfunu di ricùpiru, màncanu i còdici d'autinticazzioni di sicurizza.
 auth-error-999 = Erruri nun privistu
 auth-error-1001 = U tintativu di trasuta sfallìu
 auth-error-1002 = A sissioni scadìu. Trasi pi cuntinuari.
@@ -1048,22 +1055,58 @@ auth-error-1011 = È nicissariu nu nnirizzu di posta elittrònica vàlitu
 auth-error-1031 = Pi cumplitari a riggistrazzioni hâ mèttiri a to età
 auth-error-1032 = Pi cumplitari a riggistrazzioni hâ mèttiri n'età vàlita
 auth-error-1054 = U còdici d'autinticazzioni a du' fattura nun è vàlitu
+auth-error-1056 = U còdici d'autinticazzioni di sicurizza nun è vàlitu
 auth-error-1062 = U rinnirizzu nun è vàlitu
 oauth-error-1000 = Quarchi cosa sfarsijau. Pi favuri chiuji sta scheda e torna a prova.
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
+cannot-create-account-header = Nun potti criari un cuntu
+cannot-create-account-requirements-2 = Pi criari un { -product-mozilla-account } hâ aviri certi riquisiti d'età.
+# For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
+cannot-create-account-learn-more-link = Cchiù nfurmazzioni
 
 ## Connect Another Device page
 
+# A user will only see this header if they are signed in. The header will be preceded by a green checkmark (rtl/ltr sensitive)
+connect-another-device-signed-in-header = Trasisti nne { -brand-firefox }
+# A "success" message visible to users who verified via email
+connect-another-device-email-confirmed-banner = U nnirizzu di posta elittrònica fu cunfirmatu
+# A "success" message visible to users who verified via sign-in
+connect-another-device-signin-confirmed-banner = Trasuta cunfirmata
+# A message prompts the user to sign in to this instance of the Firefox browser so as to complete device sync. This is followed by a link labeled "Sign in"
+connect-another-device-signin-to-complete-message = Trasi nna stu { -brand-firefox } pi cumplitari a cunfijurazzioni
+# A link for the user to sign in to the current Firefox browser, preceded by a message prompting the user to sign in so as to complete the device sync setup
+connect-another-device-signin-link = Trasi
+# A message prompting the user to sign in via a different device than the current one so as to complete the device-syncing process
+connect-another-device-still-adding-devices-message = Vo' jùnciri autri dispusitivi? Trasi nne { -brand-firefox } nta n'autru dispusitivu pi cumplitari a cunfijurazzioni
+# A message prompting the user to sign in via a different device than the current one so as to complete the device-syncing process
+connect-another-device-signin-another-device-to-complete-message = Trasi nne { -brand-firefox } nta n'autru dispusitivu pi cumplitari a cunfijurazzioni
+# This message is a value-proposition prompting the user to sync another device so as to get tabs, bookmarks, and passwords shared between devices
+connect-another-device-get-data-on-another-device-message = Vo' ricupigghiari i to schedi, i nzingalibbra e i chiavi nta n'autru dispusitivu?
+# This link leads the user back to the `/pair` page so as to connect another device
+connect-another-device-cad-link = Cunnetti n'autru dispusitivu
+# This link cancels the process of connecting another device, and takes the user back to Account Settings
+connect-another-device-not-now-link = Ora no
+# This is a message for Firefox Android users, prompting them to complete the process of connecting another device by signing into Firefox for Android
+connect-another-device-android-complete-setup-message = Trasi nne { -brand-firefox } pi Android pi cumplitari a cunfijurazzioni
+# This is a message for Firefox iOS users, prompting them to complete the process of connecting another device by signing into Firefox for iOS
+connect-another-device-ios-complete-setup-message = Trasi nne { -brand-firefox } pi iOS pi cumplitari a cunfijurazzioni
 
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
 
+cookies-disabled-header = È nicissariu attivari l'archiviu lucali e i viscotta
+cookies-disabled-enable-prompt-2 = Pi favuri abbìlita i viscotta e l'archiviu lucali nnô to navicaturi pi tràsiri nnô to { -product-mozilla-account }. Facènnulu abbìliti carattarìstichi a tipu ricurdari l'utenti ntra na sissioni e n'autra.
+# A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
+cookies-disabled-button-try-again = Prova arrè
+# An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
+cookies-disabled-learn-more = Cchiù nfurmazzioni
 
 ## Index / home page
 
+index-header = Metti u to nnirizzu di posta elittrònica
 
 ## InlineRecoveryKeySetup page component
 
