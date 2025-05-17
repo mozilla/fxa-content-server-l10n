@@ -1224,57 +1224,148 @@ pair-success-message-2 = L'accucchiamentu arriniscìu.
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be confirmed from both devices to succeed
 
+# Strings within the <span> elements appear as a subheading.
+# Variable $email is the user's email address
+pair-supp-allow-heading-text = Cunferma l'accucchiamentu <span>pi { $email }</span>
+pair-supp-allow-confirm-button = Cunferma l'accucchiamentu
+pair-supp-allow-cancel-link = Sfai
 
 ## WaitForAuth page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be approved from both devices to succeed
 
+# The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
+# Strings within the <span> elements appear as a subheading.
+pair-wait-for-auth-heading-text = È nicissariu chi approvi <span>di l'autru dispusitivu</span>
 
 ## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
 
+pair-unsupported-header = Accucchia usannu n'app
+pair-unsupported-message = Usasti a fotucàmmira di sistema? Hâ fari l'accucchiamentu di n'app { -brand-firefox }.
 
 ## SetPassword page
 ## Third party auth users that do not have a password set yet are prompted for a
 ## password to complete their sign-in when they want to login to a service requiring it.
 
+set-password-heading = Crìa na chiavi
+set-password-info = I dati sincrunizzati sunnu crittati câ to chiavi pi prutèggiri a to privatizza.
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
 
+third-party-auth-callback-message = Pi favuri aspetta, ti stamu rinnirizzannu a l'applicazzioni auturizzata.
 
 ## AccountRecoveryConfirmKey page
 
+account-recovery-confirm-key-heading = Metti a to chiavi di ricùpiru dû cuntu
+account-recovery-confirm-key-instruction = Sta chiavi ricupigghia i to dati crittati di navicazzioni, a tipu chiavi e nzingalibbra, dî sirbura { -brand-firefox }.
+# Prompts the user to enter their account recovery key
+# Account recovery key contains a mix of letters and numbers, no special characters
+account-recovery-confirm-key-input-label =
+    .label = Metti a to chiavi di ricùpiru dû cuntu di 32 caràttari.
+# When setting up an account recovery key, users have the option of storing an account recovery key hint that is shown during password reset
+account-recovery-confirm-key-hint = U to suggirimentu pi l'archiviu è:
+# Clicking this button checks if the recovery key provided by the user is correct and associated with their account
+account-recovery-confirm-key-button-2 = Cuntinua
+# Link that leads to the password reset page (without recovery code)
+account-recovery-lost-recovery-key-link-2 = Nun po' attruvari a chiavi di ricùpiru dû cuntu?
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
+complete-reset-pw-header-v2 = Crìa na chiavi nova
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+complete-reset-password-desktop-relay = Doppu chi trasisti, { -brand-firefox } prova a mannàriti arrè â pàggina p'usari nu nnirizzu di posta elittrònica mascaratu.
 
 # ConfirmBackupCodeResetPassword page
 
 
 ## Confirm Reset Password With Code
 
+confirm-reset-password-with-code-heading = Cuntrolla a to posta elittrònica
+# Text within span appears in bold
+# $email - email address for which a password reset was requested
+confirm-reset-password-with-code-instruction = Mannammu un còdici di cunferma a <span>{ $email }</span>.
+# Shown above a group of 8 single-digit input boxes
+# Only numbers allowed
+confirm-reset-password-code-input-group-label = Metti un còdici di 8 cifri prima di 10 minuti
+# Clicking the button submits and verifies the code
+# If succesful, continues to the next step of the password reset
+confirm-reset-password-otp-submit-button = Cuntinua
+# Button to request a new reset password confirmation code
+confirm-reset-password-otp-resend-code-button = Manna arrè u còdici
+# Link to cancel the password reset and sign in with a different account
+confirm-reset-password-otp-different-account-link = Usa n'autru cuntu
 
 ## PasswordResetConfirmTotp Page
 
+confirm-totp-reset-password-header = Risetta a to chiavi
+confirm-totp-reset-password-subheader-v2 = Metti u còdici d'autinticazzioni a du' fattura
+confirm-totp-reset-password-instruction-v2 = Cuntrolla a to <strong>app d'autinticazzioni</strong> pi risittari a to chiavi.
+confirm-totp-reset-password-trouble-code = Ài prubblemi a mèttiri u còdici?
+confirm-totp-reset-password-confirm-button = Cunferma
+confirm-totp-reset-password-input-label-v2 = Metti u còdici di 6 cifri
+confirm-totp-reset-password-use-different-account = Usa n'autru cuntu
 
 ## ResetPassword start page
 
+password-reset-flow-heading = Risetta a to chiavi
+password-reset-body-2 = T'addumannamu na para di cosi chi sai sulu tu pi prutèggiri u to cuntu.
+password-reset-email-input =
+    .label = Metti u to nnirizzu di posta elittrònica
+password-reset-submit-button-2 = Cuntinua
 
 ## ResetPasswordConfirmed
 
+reset-password-complete-header = A chiavi fu risittata
+# $serviceName is a product name such as Monitor, Pocket, Relay
+reset-password-confirmed-cta = Cuntinua nne { $serviceName }
+reset-password-with-recovery-key-verified-page-title = U risettu dâ chiavi jìu bonu
+reset-password-complete-new-password-saved = A chiavi nova fu sarbata!
+reset-password-complete-recovery-key-created = A chiavi di ricùpiru dû cuntu nova fu criata. Scàrricala e sàrbala sùbbitu.
+reset-password-complete-recovery-key-download-info = Sta chiavi è essinziali pi ricupigghiari i to dati si ti scordi a chiavi. <b>Scàrricala e sàrbala sùbbitu, picchì nun è pussìbbili turnari arrè a sta pàggina</b>.
 
 ## CompleteSignin component
 
+# This is a label that precedes any error which could arise from trying to validate the user's signin
+error-label = Erruri:
+# This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
+validating-signin = Staju cunfirmannu a trasuta…
+# Shown above an error banner (e.g., invalid confirmation code, unexpected error)
+complete-signin-error-header = Erruri di cunferma
+# The user followed a signin confirmation link, but that link is expired and no longer valid
+signin-link-expired-header = A lijami di cunferma scadìu
+signin-link-expired-message-2 = A lijami chi ammaccasti scadìu o già fu usata.
 
 ## Signin page
 
+# Strings within the <span> elements appear as a subheading.
+signin-password-needed-header-2 = Metti a chiavi <span>pû to { -product-mozilla-account }</span>
+# $serviceLogo - an image of the logo of the service which the user is authenticating for.
+# For languages structured like English, the phrase can read "to continue to"
+signin-subheader-with-logo = Cuntinua nne <span>{ $serviceLogo }</span>
+# $serviceName - the name of the service which the user authenticating for
+# For languages structured like English, the phrase can read "to continue to { $serviceName }"
+signin-subheader-without-logo-with-servicename = Cuntinua nne { $serviceName }
+signin-subheader-without-logo-default = Cuntinua ê mpustazzioni dû cuntu
+signin-button = Trasi
+signin-header = Trasi
+signin-use-a-different-account-link = Usa n'autru cuntu
+signin-forgot-password-link = Ti scurdasti a chiavi?
+signin-password-button-label = Chiavi
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-desktop-relay = Doppu chi trasisti, { -brand-firefox } prova a mannàriti arrè â pàggina p'usari nu nnirizzu di posta elittrònica mascaratu.
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
 ## they can click "report it to us" if they did not attempt to sign in.
 ## This will be the page shown to users to block the sign in and report it.
 
+report-signin-link-damaged-body = Â lijami chi ammaccasti ci ammancàvanu caràttari, e capaci chi fu rumputa dû to prugramma di posta elittròncia. Copia u nnirizzu stannu accura, e torna a prova.
 
 ## SigninPushCode page
 ## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
