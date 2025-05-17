@@ -665,6 +665,7 @@ subscriptionUpgrade-upgrade-info-2 = Du har opgraderet til { $productName }.
 
 subscriptionUpgrade-content-charge-prorated = Du er blevet opkrævet et engangsgebyr på { $paymentProrated } for at afspejle dit abonnements højere pris for resten af denne faktureringsperiode ({ $productPaymentCycleOld }).
 subscriptionUpgrade-content-charge-credit = Du er blevet godskrevet et beløb på { $paymentProrated }.
+subscriptionUpgrade-content-starting = Fra og med din næste regning vil din opkrævning blive ændret fra { $paymentAmountOld } pr. { $productPaymentCycleOld } til { $paymentAmountNew } pr. { $productPaymentCycleNew }.
 # Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-existing = Hvis nogle af dine eksisterende abonnementer overlapper med denne opgradering, tager vi højde for det og sender dig en separat mail med detaljerne. Hvis din nye plan inkluderer produkter, der kræver installation, sender vi dig en separat mail med en opsætningsvejledning.
