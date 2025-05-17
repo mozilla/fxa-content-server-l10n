@@ -504,6 +504,8 @@ connect-another-app-store-image-2 =
 
 cs-heading = Sirbizza cunnessi
 cs-description = Tuttu chiḍḍu ca usi e unni trasisti.
+cs-cannot-refresh = Ni dispiaci, cci fu un prubblema mentri chi carricava a lista dî sirbizza cunnessi.
+cs-cannot-disconnect = Nun attruvai u client, nun u pozzu scullijari
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $service (String) - the name of a device or service that uses Mozilla accounts
@@ -522,6 +524,7 @@ cs-disconnect-sync-heading = Scullèjati di Sync
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
 cs-disconnect-sync-content-3 = I to dati di navicazzioni arrèstanu nnô dispusitivu <span>{ $device }</span>, ma nun sunnu cchiù sincrunizzati cû to cuntu.
+cs-disconnect-sync-reason-3 = Picchì stai scullijannu <span>{ $device }</span>?
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -539,6 +542,7 @@ cs-disconnect-advice-confirm = D'accordu
 cs-disconnect-lost-advice-heading = U dispusitivu persu o arrubbatu fu scullijatu
 cs-disconnect-lost-advice-content-3 = Siccomu pirdisti u to dispusitivu, o ti fu arrubbatu, ti cunzigghiamu di canciari a chiavi dû to { -product-mozilla-account } nnê mpustazzioni dû cuntu. Avissi a fari macari na risciduta cû prudutturi dû to dispusitivu ncapu a comu scancillari i to dati di rimotu.
 cs-disconnect-suspicious-advice-heading = U dispusitivu suspettu fu scullijatu
+cs-disconnect-suspicious-advice-content-2 = Si u dispusitivu scullijatu è veru suspettu, pi tèniri i tu nfurmazzioni ô sicuru avissi a canciari a chiavi dû { -product-mozilla-account } nnê mpustazzioni dû cuntu. Avissi a canciari macari l'autri chiavi chi avìi sarbati nne { -brand-firefox } scrivennu about:logins nnâ barra dî nnirizzi.
 cs-sign-out-button = Nesci
 
 ## Data collection section
@@ -547,6 +551,10 @@ dc-heading = Ricugghiuta e usu dî dati
 dc-subheader-moz-accounts = { -product-mozilla-accounts(capitalization: "uppercase") }
 dc-subheader-ff-browser = Navicaturi { -brand-firefox }
 dc-subheader-content-2 = Pirmèttici ê { -product-mozilla-accounts } di mannàrici a { -brand-mozilla } i dati tècnici e di ntirazzioni.
+dc-subheader-ff-content = Pi virificari o attualizzari i paràmitri tècnici e i mpustazzioni dî dati di ntirazzioni di { -brand-firefox }, grapi i mpustazzioni di { -brand-firefox } e vai nne Privatizza e Sicurizza.
+dc-opt-out-success-2 = Sdisattivatu. { -product-mozilla-accounts } nun manna cchiù dati tècnici o di ntirazzioni a { -brand-mozilla }.
+dc-opt-in-success-2 = Grazzi! Spàrtiri sti dati n'ajuta a ammigghiurari { -product-mozilla-accounts }.
+dc-opt-in-out-error-2 = Ni dispiaci, cci fu un prubblema mentri chi canciava i to prifirenzi ncapu â ricota dî dati.
 dc-learn-more = Cchiù nfurmazzioni
 
 # DropDownAvatarMenu component
@@ -578,6 +586,7 @@ flow-recovery-key-confirm-pwd-submit-button-change-key = Crìa na chiavi di ric�
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
 
+flow-recovery-key-download-heading-v2 = Criasti na chiavi di ricùpiru dû cuntu — scàrricala e sàrbala sùbbitu
 # This link allows user to proceed to the next step without clicking the download button
 flow-recovery-key-download-next-link-v2 = Cuntinua senza scarricari
 

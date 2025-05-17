@@ -618,6 +618,10 @@ subscriptionRenewalReminder-content-closing = Saluti cari,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = A squatra di { $productName }
+subscriptionReplaced-subject = U to abbunamentu fu canciatu nnô quatru dû to attualizzu.
+subscriptionReplaced-title = U to abbunamentu fu attualizzatu
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReplaced-content-replaced = U to abbunamentu a { $productName } fu scanciatu picchì ora è nchiusu nnô pacchettu nova.
 subscriptionsPaymentExpired-subject-1 = A carta di crèditu pî to abbunamenti scadìu o sta scadennu
 subscriptionsPaymentExpired-title-1 = A to carta di crèditu scadìu o sta scadennu
 subscriptionsPaymentExpired-content-1 = A carta di crèditu chi usi pi pagari l'abbunamenti appressu scadìu o sta scadennu.
@@ -695,10 +699,15 @@ verifyPrimary-description = Fu addumannatu un canciu di cuntu di stu dispusitivu
 verifyPrimary-subject = Cunferma u nnirizzu di posta elittrònica primariu
 verifyPrimary-action-2 = Cunferma nnirizzu di posta elittrònica
 verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
+verifyPrimary-post-verify-2 = Na vota chi cunfirmasti, di stu dispusitivu sarà pussìbbili fari canci ô cuntu, a tipu jùnciri nu nnirizzu di posta elittrònica sicunnariu.
 verifySecondaryCode-subject = Cunferma u nnirizzu di posta elittrònica sicunnariu
 verifySecondaryCode-title-2 = Cunferma u nnirizzu di posta elittrònica sicunnariu
 verifySecondaryCode-action-2 = Cunferma nnirizzu di posta elittrònica
+# Variables:
+#  $email (string) A user's unverified secondary email address
+verifySecondaryCode-explainer-2 = U { -product-mozilla-account } appressu addumanna di usari { $email } comu nnirizzu di posta elittrònica sicunnariu:
 verifySecondaryCode-prompt-2 = Usa stu còdici di cunferma:
+verifySecondaryCode-expiry-notice-2 = Scadi ntra 5 minuti. Na vota chi cunfirmasti, stu nnirizzu accumincia a ricìviri i nutìfichi e i cunfermi di sicurizza.
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = Cunferma u to cuntu
