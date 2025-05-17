@@ -381,6 +381,7 @@ error-bad-request = Dumanna nun vàlita
 ## Balloon displayed next to password input field
 
 password-info-balloon-why-password-info = Ti serbi sta chiavi pi accèdiri a tutti i dati crittati chi sarbi cu nuiautri.
+password-info-balloon-reset-risk-info = Risittari u cuntu veni a diri chi putissi pèrdiri dati a tipu chiavi e nzingalibbra.
 
 ## PasswordStrengthBalloon component
 
@@ -587,6 +588,8 @@ flow-recovery-key-confirm-pwd-submit-button-change-key = Crìa na chiavi di ric�
 ## This screen displays the generated key and allows users to download or copy the key
 
 flow-recovery-key-download-heading-v2 = Criasti na chiavi di ricùpiru dû cuntu — scàrricala e sàrbala sùbbitu
+# The "key" here refers to the term "account recovery key"
+flow-recovery-key-download-info-v2 = Sta chiavi ti pirmetti di ricupigghiari i to dati si ti scordi a chiavi. Scàrricala ora e sàrbala unni t'arricordi — nun è pussìbbili turnari arrè a sta pàggina doppu.
 # This link allows user to proceed to the next step without clicking the download button
 flow-recovery-key-download-next-link-v2 = Cuntinua senza scarricari
 
@@ -603,6 +606,10 @@ flow-recovery-key-success-alert = Chiavi di ricùpiru dû cuntu criata
 flow-recovery-key-info-header = Crìa na chiavi di ricùpiru dû cuntu siḍḍu ti scordi a chiavi
 # The header of the first view in the Recovery Key Create flow when replacing an existing recovery key
 flow-recovery-key-info-header-change-key = Cancia a to chiavi di ricùpiru dû cuntu
+# In the first view of the PageRecoveryKeyCreate flow, this is the first of two bullet points explaining why the user should create an account recovery key
+flow-recovery-key-info-shield-bullet-point-v2 = Crittamu i dati di navicazzioni –– chiavi, nzingalibbra e autri cosi. È assai bonu pâ privatizza, ma si ti scordi a chiavi perdi tutti i to dati.
+# In the first view of the PageRecoveryKeyCreate flow, this is the second of two bullet points explaining why the user should create an account recovery key
+flow-recovery-key-info-key-bullet-point-v2 = Chista è a scaciuni picchì criari na chiavi di ricùpiru dû cuntu è accussì mpurtanti –– a po' usari pi ricupigghiari i to dati.
 # The text of the "submit" button to start creating (or changing) an account recovery key
 flow-recovery-key-info-cta-text-v3 = Accumincia
 # Link to cancel account recovery key change and return to settings
@@ -613,6 +620,9 @@ flow-recovery-key-info-cancel-link = Sfai
 # verification code refers to a code sent by text message to confirm phone number ownership
 # and complete setup
 flow-setup-phone-confirm-code-heading = Metti u còdici di virìfica
+# $phoneNumber is a partially obfuscated phone number with only the last 4 digits showing (e.g., *** *** 1234)
+# span element applies formatting to ensure the number is always displayed left-to-right
+flow-setup-phone-confirm-code-instruction = Mannammu un còdici di 6 cifri a <span>{ $phoneNumber }</span>. Stu còdici scadi doppu 5 minuti.
 flow-setup-phone-confirm-code-input-label = Metti u còdici di 6 cifri
 flow-setup-phone-confirm-code-button = Cunferma
 # button to resend a code by text message to the user's phone
@@ -625,6 +635,8 @@ flow-setup-phone-confirm-code-success-message-v2 = Juncisti u nùmmaru di tilèf
 ## FlowSetupPhoneConfirmCode
 
 flow-setup-phone-submit-number-heading = Virìfica u to nùmmaru di tilèfunu
+# The code is a 6-digit code send by text message/SMS
+flow-setup-phone-verify-number-instruction = T'arriva un missaggiu di testu di { -brand-mozilla } c'un còdici pi virificari u to nùmmaru. Nun spàrtiri stu còdici cu nuḍḍu.
 # cliking on the button sends a code by text message to the phone number typed in by the user
 flow-setup-phone-submit-number-button = Manna u còdici
 

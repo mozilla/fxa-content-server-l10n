@@ -628,6 +628,8 @@ subscriptionReplaced-subject = U to abbunamentu fu canciatu nnô quatru dû to a
 subscriptionReplaced-title = U to abbunamentu fu attualizzatu
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReplaced-content-replaced = U to abbunamentu a { $productName } fu scanciatu picchì ora è nchiusu nnô pacchettu nova.
+subscriptionReplaced-content-credit = Ricivirai un crèditu pâ parti dû to abbunamentu pricidenti chi nun usasti. Stu crèditu veni misu direttu nnô to cuntu e veni usatu pi l'addèbbiti futuri.
+subscriptionReplaced-content-no-action = Nun è nicissariu chi fai nenti.
 subscriptionsPaymentExpired-subject-1 = A carta di crèditu pî to abbunamenti scadìu o sta scadennu
 subscriptionsPaymentExpired-title-1 = A to carta di crèditu scadìu o sta scadennu
 subscriptionsPaymentExpired-content-1 = A carta di crèditu chi usi pi pagari l'abbunamenti appressu scadìu o sta scadennu.
@@ -649,6 +651,10 @@ subscriptionSubsequentInvoice-content-next-invoice = Pròssima fattura: { $nextI
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = Attualizzasti a { $productName }
 subscriptionUpgrade-title = Grazzi pi l'attualizzu!
+# Variables:
+# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
+# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-upgrade-info-2 = L'attualizzu a { $productName } jìu bonu.
 
 ## Variables:
 ## $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
@@ -657,6 +663,12 @@ subscriptionUpgrade-title = Grazzi pi l'attualizzu!
 ## $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
+subscriptionUpgrade-content-charge-prorated = Ti fu addibbitata na còtima una tantum di { $paymentProrated } pi appattari cû prezzu cchiù autu dû to abbunamentu pû restu di stu ciclu di fatturazzioni ({ $productPaymentCycleOld }).
+subscriptionUpgrade-content-charge-credit = Ricivisti un crèditu di { $paymentProrated } nnô to cuntu.
+subscriptionUpgrade-content-starting = Accuminciannu dâ pròssima fattura, u to addèbbitu cancia di { $paymentAmountOld } pi { $productPaymentCycleOld } a { $paymentAmountNew } pi { $productPaymentCycleNew }.
+# Variables:
+# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-existing = Si quarchidunu di l'abbunamenti chi già ài nchiudi parti di st'attualizzu, manijamu nuiautri a situazzioni e ti mannamu n'e-mail chî minutagghi. Si u to chianu novu abbisogna di nzitari autri prudutti, ti mannamu n'autra e-mail cu l'istruzzioni pû nzitamentu.
 subscriptionUpgrade-auto-renew = U to abbunamentu si rinova di manera autumàtica p'ogni ciclu di fatturazzioni sparti si scarti di scancillàrilu.
 unblockCode-subject = Còdici d'auturizzazzioni dû cuntu
 unblockCode-title = Sì tu chi sta' trasennu?
@@ -680,6 +692,8 @@ verificationReminderFirst-action-2 = Cunferma u cuntu
 verificationReminderSecond-subject-2 = Ricòrdati di cunfirmari u to cuntu
 verificationReminderSecond-title-3 = Nun ti pèrdiri nenti di { -brand-mozilla }!
 verificationReminderSecond-description-4 = Na para di jorna nn'arrè criasti un { -product-mozilla-account }, ma 'un u cunfirmasti mai. Pi favuri cunfirma u to cuntu nnî pròssimi 10 jorna, o sarà scancillatu di manera autumàtica.
+verificationReminderSecond-second-description-3 = U to { -product-mozilla-account } ti pirmetti di sincrunizzari a to spirienza cu { -brand-firefox } ntra tutti i to dispusitivi, e sblocca l'accessu a cchiù assai prudutti { -brand-mozilla } pinzati pi prutèggiri a privatizza.
+verificationReminderSecond-sub-description-2 = Jùnciti â nostra missiuni pi trasfurmari a riti nnôn locu graputu pi tutti.
 verificationReminderSecond-action-2 = Cunferma u cuntu
 verify-title-3 = Grapi a riti cu { -brand-mozilla }
 verify-description-2 = Cunferma u to cuntu e pìgghiati u megghiu di { -brand-mozilla } unni trasi-trasi, principiannu di:
