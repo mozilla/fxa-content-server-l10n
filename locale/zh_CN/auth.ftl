@@ -659,6 +659,7 @@ subscriptionUpgrade-upgrade-info-2 = 您已成功升级至 { $productName }。
 ## $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
+subscriptionUpgrade-content-charge-prorated = 我们已向您一次性收取 { $paymentProrated }，以补足您的订阅在本账单周期（{ $productPaymentCycleOld }）内剩余天数的差额。
 subscriptionUpgrade-content-charge-credit = 您已收到合计 { $paymentProrated } 的账户余额。
 subscriptionUpgrade-content-starting = 自下期账单起，我们将从每{ $productPaymentCycleOld }收费 { $paymentAmountOld } 调整为每{ $productPaymentCycleNew }收费 { $productPaymentCycleOld }。
 # Variables:
