@@ -802,19 +802,51 @@ display-name-input =
     .label = Metti u nomu mustratu
 submit-display-name = Sarba
 cancel-display-name = Sfai
+display-name-update-error-2 = Cci fu un prubblema mentri chi canciava u nomu mustratu
+display-name-success-alert-2 = Canciasti u nomu mustratu
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
 ## These are displayed as a list with the date when the event occured
 
+recent-activity-title = Attività ricenti dû cuntu
 recent-activity-account-create-v2 = Cuntu criatu
 recent-activity-account-disable-v2 = Cuntu sdisabbilitatu
 recent-activity-account-enable-v2 = Cuntu abbilitatu
+recent-activity-account-login-v2 = Fu principiata na trasuta nnô cuntu
+recent-activity-account-reset-v2 = Fu principiata na rimpustazzioni dâ chiavi
+# This string appears under recent account activity when there were email bounces associated with the account, but those were recently cleared (i.e. removed/deleted).
+# An email bounce is when an email is sent to an email address and fails/receives a non-delivery receipt from the recipient's mail server.
+recent-activity-emails-clearBounces-v2 = Foru scancillati i nutìfichi dî ricàpiti sfalluti dâ posta elittrònica
+recent-activity-account-login-failure = Sfallìu na trasuta nnô cuntu
+recent-activity-account-two-factor-added = Fu abbilitata l'autinticazzioni a du' fattura
+recent-activity-account-two-factor-requested = Fu addumannata l'autinticazzioni a du' fattura
+recent-activity-account-two-factor-failure = Sfallìu l'autinticazzioni a du' fattura
+recent-activity-account-two-factor-success = L'autinticazzioni a du' fattura jìu bonu
+recent-activity-account-two-factor-removed = Fu livata l'autinticazzioni a du' fattura
+recent-activity-account-password-reset-requested = Fu addumannata na rimpustazzioni dâ chiavi
+recent-activity-account-password-reset-success = A rimpustazzioni dâ chiavi jìu bonu
+recent-activity-account-recovery-key-added = Fu abbilitata a chiavi di ricùpiru dû cuntu
+recent-activity-account-recovery-key-verification-failure = Sfallìu a virìfica dâ chiavi di ricùpiru dû cuntu
+recent-activity-account-recovery-key-verification-success = A virìfica dâ chiavi di ricùpiru dû cuntu jìu bonu
+recent-activity-account-recovery-key-removed = Fu livata a chiavi di ricùpiru dû cuntu
+recent-activity-account-password-added = Fu junciuta na chiavi nova
 recent-activity-account-password-changed = Chiavi canciata
+recent-activity-account-secondary-email-added = Fu junciutu nu nnirizzu di posta elittrònica sicunnariu
+recent-activity-account-secondary-email-removed = Fu livatu u nnirizzu di posta elittrònica sicunnariu
+recent-activity-account-emails-swapped = Foru scanciati i nnirizzi di posta elittrònica primariu e sicunnariu
+recent-activity-session-destroy = Scullijatu dâ sissioni
 recent-activity-account-recovery-phone-setup-complete = Cumplitasti a cunfijurazzioni dû nùmmaru di tilèfunu pi ricupigghiari u cuntu
+# Security event was recorded, but the activity details are unknown or not shown to user
+recent-activity-unknown = Autri attività dû cuntu
 
 ## PageRecoveryKeyCreate
 
+# The page title displayed at the top of the flow container
+recovery-key-create-page-title = Chiavi di ricùpiru dû cuntu
+# Tooltip text and aria label for back arrow that takes users out of the account recovery key generation flow
+# and back to account settings
+recovery-key-create-back-button-title = Torna ê mpustazzioni
 
 ## PageRecoveryPhoneRemove
 ## Users reach this page from account settings when they want to remove a backup phone number.
@@ -823,10 +855,14 @@ recovery-phone-remove-header = Scancella u nùmmaru di tilèfunu di ricùpiru
 
 ## PageSetupRecoveryPhone
 
+page-setup-recovery-phone-heading = Junci u nùmmaru di tilèfunu di ricùpiru dû cuntu
 
 ## Add secondary email page
 
 add-secondary-email-step-1 = Passu 1 di 2
+add-secondary-email-error-2 = Cci fu un prubblema mentri chi criava stu nnirizzu di posta elittrònica
+add-secondary-email-page-title =
+    .title = Nnirizzu di posta elittrònica sicunnariu
 add-secondary-email-enter-address =
     .label = Metti u nnirizzu di posta elittrònica
 add-secondary-email-cancel-button = Sfai
