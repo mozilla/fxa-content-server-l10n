@@ -836,6 +836,7 @@ recent-activity-account-secondary-email-added = Fu junciutu nu nnirizzu di posta
 recent-activity-account-secondary-email-removed = Fu livatu u nnirizzu di posta elittrònica sicunnariu
 recent-activity-account-emails-swapped = Foru scanciati i nnirizzi di posta elittrònica primariu e sicunnariu
 recent-activity-session-destroy = Scullijatu dâ sissioni
+recent-activity-account-recovery-phone-send-code = Fu mannatu u còdici di ricùpiru dû cuntu ô tilèfunu
 recent-activity-account-recovery-phone-setup-complete = Cumplitasti a cunfijurazzioni dû nùmmaru di tilèfunu pi ricupigghiari u cuntu
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Autri attività dû cuntu
@@ -852,6 +853,9 @@ recovery-key-create-back-button-title = Torna ê mpustazzioni
 ## Users reach this page from account settings when they want to remove a backup phone number.
 
 recovery-phone-remove-header = Scancella u nùmmaru di tilèfunu di ricùpiru
+# Variables:
+#   $formattedFullPhoneNumber (String) - the user's full phone number
+settings-recovery-phone-remove-info = Chistu scancella <strong>{ $formattedFullPhoneNumber }</strong> comu nùmmaru di tilèfunu di ricùpiru.
 
 ## PageSetupRecoveryPhone
 
@@ -889,34 +893,101 @@ tfa-button-cancel = Sfai
 tfa-button-finish = Cumpleta
 tfa-qa-code =
     .alt = { tfa-qa-code-alt }
+# codes here refers to backup authentication codes
+tfa-enter-code-to-confirm-setup = Cunferma chi sarbasti i to còdici mittènnunni unu. Senza di sti còdici, nun po' tràsiri nnô to cuntu senza l'app d'autinticazzioni.
 
 ## Product promotion
 
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
+# Links out to the Monitor pricing site
+product-promo-monitor-plus-cta = Accumincia
 
 ## Profile section
 
+profile-heading = Prufilu
+profile-picture =
+    .header = Mmàggini
+profile-display-name =
+    .header = Nomu mustratu
+profile-primary-email =
+    .header = Nnirizzu di posta elittrònica primariu
 
 ## Progress bar
 
+# This is the aria-label text for the progress bar. The progress bar is meant to visually show the user how much progress they have made through the steps of a given flow.
+# Variables:
+#   $currentStep (number) - the step which the user is currently on
+#   $numberOfSteps (number) - the total number of steps in a given flow
+progress-bar-aria-label-v2 = Passu { $currentStep } di { $numberOfSteps }.
 
 ## Security section of Setting
 
 security-heading = Sicurizza
 security-password =
     .header = Chiavi
+# This is a string that shows when the user's password was created.
+# Variables:
+#   $date (String) - a localized date and time string
+security-password-created-date = Criata jornu { $date }
+security-not-set = Nun fu mpustata
 security-action-create = Crìa
+security-set-password = Mposta na chiavi pi sincrunizzari e usari certi carattarìstichi di sicurizza dû cuntu.
+# Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
+security-recent-activity-link = Vidi l'attività ricenti dû cuntu
+signout-sync-header = Sissioni scaduta
+signout-sync-session-expired = Ni dispiaci, quarchi cosa sfallìu. Pi favuri nesci dû minù dû navicaturi e torna a prova.
 
 ## SubRow component
 
+tfa-row-backup-codes-title = Còdici d'autinticazzioni di sicurizza
+# Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
+# Users that have not enabled or verified 2FA will not see this
+tfa-row-backup-codes-not-available = Nun cci sunnu còdici dispunìbbili
+# $numCodesRemaining - the number of backup authentication codes that have not yet been used (generally between 1 to 5)
+# A different message is shown when no codes are available
+tfa-row-backup-codes-available-v2 =
+    { $numCodesAvailable ->
+        [one] Arresta { $numCodesAvailable } còdici
+       *[other] Arrèstanu { $numCodesAvailable } còdici
+    }
+# Shown to users who have no backup authentication codes
+# Button to add backup authentication codes when none are configured
+tfa-row-backup-codes-add-cta = Junci
+# 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
+tfa-row-backup-codes-description-2 = Chistu è u mètudu di ricùpiru cchiù sicuru si nun po' usari u to dispusitivu mòbbili o l'app d'autinticazzioni.
+# Recovery phone is a recovery method for two-step authentication
+# A recovery code can be sent to the user's phone
+tfa-row-backup-phone-title-v2 = Nùmmaru di tilèfunu di ricùpiru
+# button to change the configured recovery phone
+tfa-row-backup-phone-change-cta = Cancia
+# button to add/configure a recovery phone
+tfa-row-backup-phone-add-cta = Junci
+# Button to remove a recovery phone from the user's account
+tfa-row-backup-phone-delete-button = Leva
+# Shown in tooltip on delete button or delete icon
+tfa-row-backup-phone-delete-title-v2 = Nùmmaru di tilèfunu di ricùpiru
+# A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
+# into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
+# with SMS-based two-factor authentication.
+tfa-row-backup-phone-sim-swap-risk-link = Cchiù nfurmazzioni ncapu ô rìsicu di scanciu dî schedi SIM
 
 ## Switch component
 
+# Used as "title" attribute when the switch is "on" and interaction turns the switch to "off"
+switch-turn-off = Sdisattiva
+# Used as "title" attribute when the switch is "off" and interaction turns the switch to "on"
+switch-turn-on = Attiva
+# Used as "title" attribute when switch has been interacted with and form is submitting
+switch-submitting = Staju mannannu…
+switch-is-on = attivu
+switch-is-off = sdisattivu
 
 ## Sub-section row Defaults
 
 row-defaults-action-add = Junci
+row-defaults-action-change = Cancia
+row-defaults-action-disable = Sdisabbìlita
 
 ## Account recovery key sub-section on main Settings page
 
