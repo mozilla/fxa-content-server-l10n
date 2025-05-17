@@ -855,6 +855,7 @@ recent-activity-account-recovery-codes-created = Genoprettelseskoder oprettet
 recent-activity-account-recovery-codes-signin-complete = Login med genoprettelseskoder fuldført
 recent-activity-password-reset-otp-sent = Bekræftelseskode til nulstilling af adgangskode sendt
 recent-activity-password-reset-otp-verified = Bekræftelseskode til nulstilling af adgangskode bekræftet
+recent-activity-must-reset-password = Nulstilling af adgangskode påkrævet
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Anden kontoaktivitet
 
