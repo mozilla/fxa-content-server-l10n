@@ -838,6 +838,15 @@ recent-activity-account-emails-swapped = Foru scanciati i nnirizzi di posta elit
 recent-activity-session-destroy = Scullijatu dâ sissioni
 recent-activity-account-recovery-phone-send-code = Fu mannatu u còdici di ricùpiru dû cuntu ô tilèfunu
 recent-activity-account-recovery-phone-setup-complete = Cumplitasti a cunfijurazzioni dû nùmmaru di tilèfunu pi ricupigghiari u cuntu
+recent-activity-account-recovery-phone-signin-complete = Fu cumplitata na trasuta cû nùmmaru di tilèfunu di ricùpiru
+recent-activity-account-recovery-phone-signin-failed = Sfallìu na trasuta cû nùmmaru di tilèfunu di ricùpiru
+recent-activity-account-recovery-phone-removed = Nùmmaru di tilèfunu di ricùpiru scancillatu
+recent-activity-account-recovery-codes-replaced = I còdici di ricùpiru foru canciati
+recent-activity-account-recovery-codes-created = I còdici di ricùpiru foru criati
+recent-activity-account-recovery-codes-signin-complete = Fu cumplitata na trasuta chî còdici di ricùpiru
+recent-activity-password-reset-otp-sent = Fu mannatu un còdici di cunferma di rimpustazzioni dâ chiavi
+recent-activity-password-reset-otp-verified = Fu virificatu un còdici di cunferma di rimpustazzioni dâ chiavi
+recent-activity-must-reset-password = Fu addumannata na rimpustazzioni dâ chiavi
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Autri attività dû cuntu
 
@@ -856,10 +865,19 @@ recovery-phone-remove-header = Scancella u nùmmaru di tilèfunu di ricùpiru
 # Variables:
 #   $formattedFullPhoneNumber (String) - the user's full phone number
 settings-recovery-phone-remove-info = Chistu scancella <strong>{ $formattedFullPhoneNumber }</strong> comu nùmmaru di tilèfunu di ricùpiru.
+settings-recovery-phone-remove-recommend = Ti cunzigghiamu di mantiniri stu mètudu picchì è cchiù fàcili di sarbari i còdici d'autinticazzioni di sicurizza.
+# "Saved backup authentication codes" refers to previously saved backup authentication codes
+settings-recovery-phone-remove-recovery-methods = Si u scancelli, cuntrolla chi ài sarbati i to còdici d'autinticazzioni di sicurizza. <linkExternal>Apparaggia i mètudi di ricùpiru</linkExternal>
+settings-recovery-phone-remove-button = Leva u nùmmaru di tilèfunu
+settings-recovery-phone-remove-cancel = Sfai
+settings-recovery-phone-remove-success = Nùmmaru di tilèfunu di ricùpiru scancillatu
 
 ## PageSetupRecoveryPhone
 
 page-setup-recovery-phone-heading = Junci u nùmmaru di tilèfunu di ricùpiru dû cuntu
+page-setup-recovery-phone-back-button-title = Torna ê mpustazzioni
+# Back arrow to return to step 1 of recovery phone setup flow
+page-setup-recovery-phone-step2-back-button-title = Cancia u nùmmaru di tilèfunu
 
 ## Add secondary email page
 
@@ -871,16 +889,36 @@ add-secondary-email-enter-address =
     .label = Metti u nnirizzu di posta elittrònica
 add-secondary-email-cancel-button = Sfai
 add-secondary-email-save-button = Sarba
+# This message is shown when a user tries to add a secondary email that is a
+# Firefox Relay email mask (generated email address that can be used in place of
+# your real email address)
+add-secondary-email-mask = I nnirizzi di posta elittrònica mascarati nun ponnu èssiri usati comu nnirizzi sicunnari
 
 ## Verify secondary email page
 
+add-secondary-email-step-2 = Passu 2 di 2
+verify-secondary-email-error-3 = Cci fu un prubblema mentri chi mannava u còdici di cunferma
+verify-secondary-email-page-title =
+    .title = Nnirizzu di posta elittrònica sicunnariu
+verify-secondary-email-verification-code-2 =
+    .label = Metti u còdici di cunferma
 verify-secondary-email-cancel-button = Sfai
 verify-secondary-email-verify-button-2 = Cunferma
+# This string is an instruction in a form.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-please-enter-code-2 = Pi favuri metti prima di 5 minuti u còdici di cunferma chi mannammu a <strong>{ $email }</strong>.
+# This string is a confirmation message shown after verifying an email.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-success-alert-2 = U nnirizzu { $email } fu junciutu
 
 ##
 
 # Link to delete account on main Settings page
 delete-account-link = Scancella cuntu
+# Success message displayed in alert bar after the user has successfully confirmed their account is not inactive.
+inactive-update-status-success-alert = Trasisti. U to { -product-mozilla-account } e i to dati arrèstanu attivi.
 
 ## Two Step Authentication
 
@@ -891,6 +929,12 @@ tfa-step-3-3 = Passu 3 di 3
 tfa-button-continue = Cuntinua
 tfa-button-cancel = Sfai
 tfa-button-finish = Cumpleta
+tfa-incorrect-totp = U còdici d'autinticazzioni a du' fattura è sbagghiatu
+tfa-cannot-retrieve-code = Cci fu un prubblema mentri chi ricupirava u to còdici.
+tfa-cannot-verify-code-4 = Cci fu un prubblema mentri chi cunfirmava u to còdici d'autinticazzioni di sicurizza
+tfa-incorrect-recovery-code-1 = U còdici d'autinticazzioni di sicurizza è sbagghiatu
+tfa-enabled-v2 = Fu abbilitata l'autinticazzioni a du' fattura
+tfa-scan-this-code = Scanziuna stu còdici QR usannu una di <linkExternal>st'app d'autinticazzioni</linkExternal>.
 tfa-qa-code =
     .alt = { tfa-qa-code-alt }
 # codes here refers to backup authentication codes
@@ -1281,6 +1325,7 @@ complete-reset-password-desktop-relay = Doppu chi trasisti, { -brand-firefox } p
 
 # ConfirmBackupCodeResetPassword page
 
+confirm-backup-code-reset-password-input-label = Metti u còdici di 10 caràttari
 
 ## Confirm Reset Password With Code
 
@@ -1366,6 +1411,17 @@ signin-desktop-relay = Doppu chi trasisti, { -brand-firefox } prova a mannàriti
 ## This will be the page shown to users to block the sign in and report it.
 
 report-signin-link-damaged-body = Â lijami chi ammaccasti ci ammancàvanu caràttari, e capaci chi fu rumputa dû to prugramma di posta elittròncia. Copia u nnirizzu stannu accura, e torna a prova.
+report-signin-header = Vo' signalijari na trasuta nun auturizzata?
+report-signin-body = Ricivisti n'e-mail supra ôn tintativu di tràsiri nnô to cuntu. Vo' signalijari st'attività comu suspetta?
+report-signin-submit-button = Signalija attività
+report-signin-support-link = Chi sta mmattennu?
+report-signin-error = Ni dispiaci, cci fu un prubblema mentri chi mannava a signalijazzioni.
+signin-bounced-header = Ni dispiaci. Bluccammu u to cuntu.
+# $email (string) - The user's email.
+signin-bounced-message = L'e-mail di cunferma chi mannammu a { $email } turnau nn'arrè e bluccammu u to cuntu pi prutèggiri i to dati di { -brand-firefox }.
+# linkExternal is button which logs the user's action and navigates them to mozilla support
+signin-bounced-help = Si chistu è nu nnirizzu di posta elittrònica vàlitu, <linkExternal>fannillu sapiri</linkExternal> e t'ajutamu a sbluccari u to cuntu.
+signin-bounced-create-new-account = Nun ài cchiù accessu a stu nnirizzu di posta elittrònica? Crìa un cuntu novu
 
 ## SigninPushCode page
 ## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
