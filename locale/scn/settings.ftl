@@ -951,6 +951,8 @@ tfa-row-backup-codes-available-v2 =
         [one] Arresta { $numCodesAvailable } còdici
        *[other] Arrèstanu { $numCodesAvailable } còdici
     }
+# Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
+tfa-row-backup-codes-get-new-cta-v2 = Crìa còdici novi
 # Shown to users who have no backup authentication codes
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = Junci
@@ -959,6 +961,8 @@ tfa-row-backup-codes-description-2 = Chistu è u mètudu di ricùpiru cchiù sic
 # Recovery phone is a recovery method for two-step authentication
 # A recovery code can be sent to the user's phone
 tfa-row-backup-phone-title-v2 = Nùmmaru di tilèfunu di ricùpiru
+# Shown with an alert icon to indicate that no recovery phone is configured
+tfa-row-backup-phone-not-available-v2 = Nun juncisti nuḍḍu nùmmaru di tilèfunu
 # button to change the configured recovery phone
 tfa-row-backup-phone-change-cta = Cancia
 # button to add/configure a recovery phone
@@ -967,6 +971,7 @@ tfa-row-backup-phone-add-cta = Junci
 tfa-row-backup-phone-delete-button = Leva
 # Shown in tooltip on delete button or delete icon
 tfa-row-backup-phone-delete-title-v2 = Nùmmaru di tilèfunu di ricùpiru
+tfa-row-backup-phone-delete-restriction-v2 = Si vo' livari u to nùmmaru di tilèfunu dû ricùpiru, junci i còdici d'autinticazzioni di sicurizza o prima sdisabbìlita l'autinticazzioni a du' fattura pi scanzàriti di bluccàriti fora dû to cuntu.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
@@ -988,9 +993,27 @@ switch-is-off = sdisattivu
 row-defaults-action-add = Junci
 row-defaults-action-change = Cancia
 row-defaults-action-disable = Sdisabbìlita
+row-defaults-status = Nuḍḍu
 
 ## Account recovery key sub-section on main Settings page
 
+rk-header-1 = Chiavi di ricùpiru dû cuntu
+rk-enabled = Abbilitata
+rk-not-set = Nun fu mpustata
+rk-action-create = Crìa
+# Button to delete the existing account recovery key and create a new one
+rk-action-change-button = Cancia
+rk-action-remove = Leva
+rk-key-removed-2 = Fu livata a chiavi di ricùpiru dû cuntu
+rk-cannot-remove-key = Nun potti livari a to chiavi di ricùpiru dû cuntu.
+rk-refresh-key-1 = Attualizza a chiavi di ricùpiru dû cuntu
+rk-content-explain = Ricupigghia i to nfurmazzioni quannu ti scordi a chiavi.
+rk-cannot-verify-session-4 = Ni dispiaci, cci fu un prubblema mentri chi cunfirmava a to sissioni
+rk-remove-modal-heading-1 = Vo' livari a chiavi di ricùpiru dû cuntu?
+rk-remove-modal-content-1 = Siḍḍu dicidi di risittari a chiavi, nun è pussìbbili usari a chiavi di ricùpiru dû cuntu pi aviri i to dati. Nun po' sfari st'azzioni.
+rk-remove-error-2 = Nun potti livari a to chiavi di ricùpiru dû cuntu
+# Icon button to delete user's account recovery key. Text appears in tooltip on hover and as alt text for screen readers.
+unit-row-recovery-key-delete-icon-button-title = Scancella a chiavi di ricùpiru dû cuntu
 
 ## Secondary email sub-section on main Settings page
 
@@ -1008,6 +1031,25 @@ row-defaults-action-disable = Sdisabbìlita
 
 ## Auth-server based errors that originate from backend service
 
+auth-error-139 = U nnirizzu di posta elittrònica sicunnariu àv'a siri diversu dû to nnirizzu primariu
+auth-error-155 = Nun attruvai u tistimoni TOTP
+# Error shown when the user submits an invalid backup authentication code
+auth-error-156 = U còdici d'autinticazzioni di sicurizza nun fu truvatu
+auth-error-159 = A chiavi di ricùpiru dû cuntu nun è vàlita
+auth-error-183-2 = U còdici di cunferma nun è vàlitu o scadìu
+auth-error-206 = Nun potti criari a chiavi, fu già mpustata
+auth-error-999 = Erruri nun privistu
+auth-error-1001 = U tintativu di trasuta sfallìu
+auth-error-1002 = A sissioni scadìu. Trasi pi cuntinuari.
+auth-error-1003 = L'archiviu lucali o i viscotta sunnu ancora sdisabbilitati
+auth-error-1008 = A to chiavi nova àv'a siri diversa
+auth-error-1010 = È nicissaria na chiavi vàlita
+auth-error-1011 = È nicissariu nu nnirizzu di posta elittrònica vàlitu
+auth-error-1031 = Pi cumplitari a riggistrazzioni hâ mèttiri a to età
+auth-error-1032 = Pi cumplitari a riggistrazzioni hâ mèttiri n'età vàlita
+auth-error-1054 = U còdici d'autinticazzioni a du' fattura nun è vàlitu
+auth-error-1062 = U rinnirizzu nun è vàlitu
+oauth-error-1000 = Quarchi cosa sfarsijau. Pi favuri chiuji sta scheda e torna a prova.
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
