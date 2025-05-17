@@ -12,6 +12,16 @@ recovery-phone-setup-sms-body = { $code } คือรหัสยืนยั�
 # Messages should be limited to one segment
 # $code  - 6 digit code used to verify phone ownership when registering a recovery phone
 recovery-phone-setup-sms-short-body = รหัสยืนยัน { -brand-mozilla }: { $code }
+# Message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to sign in with a recovery phone as backup for two-step authentication
+recovery-phone-signin-sms-body = { $code } คือรหัสกู้คืน { -brand-mozilla } ของคุณ ซึ่งจะหมดอายุใน 5 นาที
+# Shorter message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to sign in with a recovery phone as backup for two-step authentication
+recovery-phone-signin-sms-short-body = รหัส { -brand-mozilla }: { $code }
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
@@ -59,6 +69,10 @@ subplat-legal = ข้อกฎหมาย
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = ความเป็นส่วนตัว
 subplat-privacy-website-plaintext = { subplat-privacy }:
+account-deletion-info-block-communications = ถ้าบัญชีของคุณถูกลบแล้ว คุณจะยังคงได้รับอีเมลจาก Mozilla Corporation และ Mozilla Foundation เว้นแต่คุณจะ<a data-l10n-name="unsubscribeLink">เลิกบอกรับ</a>
+account-deletion-info-block-support = ถ้าคุณมีคำถามใดๆ หรือต้องการความช่วยเหลือ โปรดติดต่อ<a data-l10n-name="supportLink">ทีมสนับสนุน</a>ของเรา
+account-deletion-info-block-communications-plaintext = ถ้าบัญชีของคุณถูกลบแล้ว คุณจะยังคงได้รับอีเมลจาก Mozilla Corporation และ Mozilla Foundation เว้นแต่คุณจะเลิกบอกรับ:
+account-deletion-info-block-support-plaintext = ถ้าคุณมีคำถามใดๆ หรือต้องการความช่วยเหลือ โปรดติดต่อทีมสนับสนุนของเรา:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-android-badge = <img data-l10n-name="google-play-badge" alt="ดาวน์โหลด { $productName } บน { -google-play }">
