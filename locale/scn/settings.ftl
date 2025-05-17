@@ -637,6 +637,12 @@ flow-setup-phone-confirm-code-success-message-v2 = Juncisti u nùmmaru di tilèf
 flow-setup-phone-submit-number-heading = Virìfica u to nùmmaru di tilèfunu
 # The code is a 6-digit code send by text message/SMS
 flow-setup-phone-verify-number-instruction = T'arriva un missaggiu di testu di { -brand-mozilla } c'un còdici pi virificari u to nùmmaru. Nun spàrtiri stu còdici cu nuḍḍu.
+# The initial rollout of the recovery phone is only available to users with US and Canada mobile phone numbers.
+# Voice over Internet Protocol (VoIP), is a technology that uses a broadband Internet connection instead of a regular (or analog) phone line to make calls.
+# Phone mask services (for example Relay) provide a temporary virtual number to avoid providing a real phone number.
+# Both VoIP and phone masks can be unreliable for one-time-passcode (OTP) verification
+flow-setup-phone-submit-number-info-message-v2 = U nùmmaru di tilèfunu di ricùpiru dû cuntu è dispunìbbili sulu nnê Stati Junciuti e nnô Cànada. Nun cunzigghiamu di usari nùmmari VoIP e i nùmmari mascarati.
+flow-setup-phone-submit-number-legal = Dànnuni u to nùmmaru di tilèfunu, sì d'accordu chi u sarbamu pi mannàriti missaggi pi virificari u cuntu. Cci putìssiru èssiri cosi di pagari pi missaggi o tràficu dati.
 # cliking on the button sends a code by text message to the phone number typed in by the user
 flow-setup-phone-submit-number-button = Manna u còdici
 
@@ -652,10 +658,13 @@ header-help = Ajutu
 ## Linked Accounts section
 
 la-heading = Cunti lijati
+la-description = Auturizzasti l'accessu ê cunti appressu.
 la-unlink-button = Slija
 la-unlink-account-button = Slija
 la-set-password-button = Mpusta chiavi
 la-unlink-heading = Slija d'un cuntu terzu
+la-unlink-content-3 = Vo' scullijari u to cuntu? Scullijari u cuntu nun ti fa nèsciri di manera autumàtica di tutti i Sirbizza cunnessi. Pi fallu, hâ nèsciri a manu dâ sizzioni Sirbizza cunnessi.
+la-unlink-content-4 = Prima di scullijari u to cuntu, hâ mpustari na chiavi. Senza nuḍḍa chiavi, nun cc'è nuḍḍa manera di tràsiri nnô cuntu doppu chi u scullijasti.
 nav-linked-accounts = { la-heading }
 
 ## Modal - Default values for a message directed at the user where the user can typically Confirm or Cancel.
@@ -758,6 +767,7 @@ delete-account-header =
     .title = Scancella cuntu
 delete-account-step-1-2 = Passu 1 di 2
 delete-account-step-2-2 = Passu 2 di 2
+delete-account-confirm-title-4 = Capaci chi cullijasti u to { -product-mozilla-account } a unu o cchiù assai di sti prudutti o sirbizza { -brand-mozilla } chi ti garantìscinu na spirienza di riti sicura e pruduttiva:
 delete-account-product-mozilla-account = { -product-mozilla-account(capitalization: "uppercase") }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
@@ -767,9 +777,20 @@ delete-account-product-mozilla-monitor = { -product-mozilla-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = Staju sincrunizzannu i dati di { -brand-firefox }
 delete-account-product-firefox-addons = Juncitini di { -brand-firefox }
+delete-account-acknowledge = Teni 'n cuntu chi, scancillannu u to cuntu:
+delete-account-chk-box-1-v3 =
+    .label = Tutti l'abbunamenti a pagamentu chi ài vennu scancillati (abbestra di { -product-pocket })
+delete-account-chk-box-2 =
+    .label = Putissi pèrdiri i nfurmazzioni e i funziunalità dî prudutti { -brand-mozilla }
+delete-account-chk-box-3 =
+    .label = Puru siḍḍu attivi arrè u cuntu cu stu nnirizzu di posta elittrònica, nun è pussìbbili ricupigghiari i nfurmazzioni sarbati
+delete-account-chk-box-4 =
+    .label = Tutti i stinneri e i temi chi pubblicasti nne addons.mozilla.org vennu scancillati
 delete-account-continue-button = Cuntinua
 delete-account-password-input =
     .label = Metti a chiavi
+pocket-delete-notice = Si t'abboni a Pocket Premium, pi favuri <a>scancella u to abbunamentu</a> prima di scancillari u to cuntu.
+pocket-delete-notice-marketing = Pi nun ricìviri cchiù posta pubblicitaria di Mozilla Corporation e Mozilla Foundation, hâ <a>addumannari di scancillari i to dati pubblicitari</a>.
 delete-account-cancel-button = Sfai
 delete-account-delete-button-2 = Scancella
 
