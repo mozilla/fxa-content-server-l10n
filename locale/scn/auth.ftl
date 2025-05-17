@@ -22,6 +22,16 @@ recovery-phone-signin-sms-body = { $code } è u to còdici di ricùpiru { -brand
 # Messages should be limited to one segment
 # $code  - 6 digit code used to sign in with a recovery phone as backup for two-step authentication
 recovery-phone-signin-sms-short-body = Còdici di { -brand-mozilla }: { $code }
+# Message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to sign in with a recovery phone as backup for account password reset
+recovery-phone-reset-password-sms-body = { $code } è u to còdici di ricùpiru { -brand-mozilla }. Scadi ntra 5 minuti.
+# Shorter message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to sign in with a recovery phone as backup for account password reset
+recovery-phone-reset-password-short-body = Còdici di { -brand-mozilla }: { $code }
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
@@ -211,6 +221,7 @@ subscriptionCharges-content-tax = Tassi e cummissioni: { $invoiceTaxAmount }
 ##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
 
 subscriptionFirstInvoice-content-charge = Addibbitatu { $invoiceTotal } u { $invoiceDateOnly }
+subscriptionFirstInvoice-content-credit = Ricivisti nnô cuntu un crèditu di { $invoiceTotal }, chi sarà appricatu ê pròssimi fatturi.
 subscriptionSupport = Ài dumanni ncapu ô to abbunamentu? A nostra <a data-l10n-name="subscriptionSupportUrl">squatra di supportu</a> è cca p'ajutàriti.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Ài dumanni ncapu ô to abbunamento? A nostra squatra di supportu è cca p'ajutàriti:
@@ -494,6 +505,7 @@ subscriptionAccountFinishSetup-subject = Bummegna nne { $productName }: pi favur
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-title = Bummegna nne { $productName }
+subscriptionAccountFinishSetup-content-processing = Stamu prucissannu u to pagamentu e ponnu sèrbiri nzinu a quattru jorna di travagghiu pi cumplitallu. U to abbunamentu si rinova di manera autumàtica p'ogni ciclu di fatturazzioni, sparti si nun scarti di scancillàrilu.
 subscriptionAccountFinishSetup-content-create-3 = Doppu, hâ criari na chiavi pû { -product-mozilla-account } pi principiari a usari u to abbunamentu novu.
 subscriptionAccountFinishSetup-action-2 = Accumincia
 subscriptionAccountReminderFirst-subject = Ricòrdati: cumpleta a cunfijurazzioni dû to cuntu
@@ -530,6 +542,17 @@ subscriptionDowngrade-subject = Canciasti a { $productName }
 # $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionDowngrade-content-switch = Canciasti bonu di { $productNameOld } a { $productName }.
+# Variables:
+# $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
+# $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
+# $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
+# $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
+# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+subscriptionDowngrade-content-charge-info = Principiannu dâ pròssima fattura, l'addèbbitu canciarà di { $paymentAmountOld } pi { $productPaymentCycleOld } a { $paymentAmountNew } pi { $productPaymentCycleNew }. Ti daremu macari un crèditu di { $paymentProrated } pi na vota sula, p'appattari câ còtima cchiù vascia pû restu di stu { $productPaymentCycleOld }.
+# Variables:
+# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionDowngrade-content-install = Siḍḍu ti serbi di nzitari quarchi prugramma superchiu pi usari { $productName }, t'agghica n'autra e-mail cu l'istruzzioni pi scarricàrilu.
+subscriptionDowngrade-content-auto-renew = U to abbunamentu si rinova di manera autumàtica p'ogni ciclu di fatturazzioni sparti si scarti di scancillàrilu.
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFailedPaymentsCancellation-subject = U to abbunamentu a { $productName } fu scancillatu
@@ -543,9 +566,11 @@ subscriptionFirstInvoice-subject = U pagamentu di { $productName } fu cunfirmatu
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFirstInvoice-title = Grazzi pû to abbunamentu a { $productName }
+subscriptionFirstInvoice-content-processing = Stamu prucissannu u to pagamentu e ponnu sèrbiri nzinu a quattru jorna di travagghiu pi cumplitallu.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFirstInvoice-content-install-2 = T'agghicarà n'autra littra ncapu a comu principiari a usari { $productName }.
+subscriptionFirstInvoice-content-auto-renew = U to abbunamentu si rinova di manera autumàtica p'ogni ciclu di fatturazzioni sparti si scarti di scancillàrilu.
 # Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionFirstInvoice-content-next-invoice = Pròssima fattura: { $nextInvoiceDateOnly }
@@ -578,6 +603,10 @@ subscriptionReactivation-subject = Abbunamentu a { $productName } arrè attivu
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-title = Grazzi chi attivasti arrè u to abbunamentu a { $productName }!
+# Variables:
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
+subscriptionReactivation-content = U to ciclu di fatturazzioni e u pagamentu arrèstanu i stissi. U pròssimu addèbbitu sarà di { $invoiceTotal } jornu { $nextInvoiceDateOnly }. U to abbunamentu si rinova di manera autumàtica p'ogni ciclu di fatturazzioni sparti si scarti di scancillàrilu.
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-subject = Abbisu di rinovu autumàticu di { $productName }
@@ -648,6 +677,7 @@ verify-action-2 = Cunferma u cuntu
 # Variables:
 #  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title-2 = Trasisti cu { $clientName }?
+verifyLogin-description-2 = Ajùtani a tèniri u to cuntu ô sicuru cunfirmannu chi trasisti nne:
 verifyLogin-subject-2 = Cunferma a trasuta
 verifyLogin-action = Cunferma a trasuta
 # Variables:
@@ -656,8 +686,12 @@ verifyLoginCode-subject-line-2 = Approva trasuta nne { $serviceName }
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-title-2 = Trasisti nne { $serviceName }?
+# After the colon is a description of the device used to sign in to the service
+verifyLoginCode-safe = Ajùtani a tèniri u to cuntu ô sicuru appruvannu a to trasuta nne:
+verifyLoginCode-prompt-3 = Si sì tu, chistu è u còdici d'auturizzazzioni:
 verifyLoginCode-expiry-notice = Scadi nna 5 minuti.
 verifyPrimary-title-2 = Cunferma u nnirizzu di posta elittrònica primariu
+verifyPrimary-description = Fu addumannatu un canciu di cuntu di stu dispusitivu:
 verifyPrimary-subject = Cunferma u nnirizzu di posta elittrònica primariu
 verifyPrimary-action-2 = Cunferma nnirizzu di posta elittrònica
 verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
