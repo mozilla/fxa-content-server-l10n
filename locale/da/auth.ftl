@@ -221,6 +221,7 @@ subscriptionCharges-content-tax = Skatter og gebyrer: { $invoiceTaxAmount }
 ##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
 
 subscriptionFirstInvoice-content-charge = Opkrævet { $invoiceTotal } den { $invoiceDateOnly }
+subscriptionFirstInvoice-content-credit = Du er blevet godskrevet { $invoiceTotal }, som vil blive anvendt på dine fremtidige fakturaer.
 subscriptionSupport = Har du spørgsmål til dit abonnement? Vores <a data-l10n-name="subscriptionSupportUrl">supportteam</a> står klar til at hjælpe dig.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Har du spørgsmål om dit abonnement? Vores supportteam står klar til at hjælpe dig:
@@ -623,6 +624,12 @@ subscriptionRenewalReminder-content-closing = Med venlig hilsen
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = Holdet bag { $productName }
+subscriptionReplaced-subject = Dit abonnement er blevet opdateret som en del af din opgradering
+subscriptionReplaced-title = Dit abonnement er blevet opdateret
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReplaced-content-replaced = Dit individuelle abonnement på { $productName } er blevet erstattet og er nu inkluderet i din nye pakke.
+subscriptionReplaced-content-credit = Du vil blive godskrevet et beløb for ubrugt tid fra dit tidligere abonnement. Dette beløb vil automatisk blive anvendt på din konto og brugt til at dække fremtidige betalinger.
+subscriptionReplaced-content-no-action = Du behøver ikke at foretage dig noget.
 subscriptionsPaymentExpired-subject-1 = Betalingskort for dine abonnementer er udløbet eller udløber snart
 subscriptionsPaymentExpired-title-1 = Dit betalingskort er udløbet eller udløber snart
 subscriptionsPaymentExpired-content-1 = Betalingskortet, du bruger til at betale for følgende abonnementer, er udløbet eller udløber snart.
@@ -644,6 +651,10 @@ subscriptionSubsequentInvoice-content-next-invoice = Næste faktura: { $nextInvo
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = Du har opgraderet til { $productName }
 subscriptionUpgrade-title = Tak fordi du opgraderer!
+# Variables:
+# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
+# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-upgrade-info-2 = Du har opgraderet til { $productName }.
 
 ## Variables:
 ## $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
@@ -652,6 +663,8 @@ subscriptionUpgrade-title = Tak fordi du opgraderer!
 ## $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
+subscriptionUpgrade-content-charge-prorated = Du er blevet opkrævet et engangsgebyr på { $paymentProrated } for at afspejle dit abonnements højere pris for resten af denne faktureringsperiode ({ $productPaymentCycleOld }).
+subscriptionUpgrade-content-charge-credit = Du er blevet godskrevet et beløb på { $paymentProrated }.
 subscriptionUpgrade-auto-renew = Dit abonnement fornys automatisk hver faktureringsperiode, medmindre du vælger at annullere.
 unblockCode-subject = Godkendelseskode til konto
 unblockCode-title = Er det dig, der logger ind?
