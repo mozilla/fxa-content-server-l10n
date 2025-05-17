@@ -614,6 +614,12 @@ subscriptionRenewalReminder-title = U to abbunamentu veni rinuvatu ntra picca
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-greeting = Caru clienti di { $productName },
+# Variables
+#   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#   $planIntervalCount (String) - The interval count of subscription plan, e.g. 2
+#   $planInterval (String) - The interval of time of the subscription plan, e.g. week
+#   $reminderLength (String) - The number of days until the current subscription is set to automatically renew, e.g. 14
+subscriptionRenewalReminder-content-current = U to abbunamentu attuali è mpustatu pi rinuvàrisi di manera autumàtica ntra { $reminderLength } jorna. { -brand-mozilla } rinova u to abbunamentu di { $planIntervalCount } { $planInterval } e un tutali di { $invoiceTotal } veni addibbitatu ô mètudu di pagamentu dû to cuntu.
 subscriptionRenewalReminder-content-closing = Saluti cari,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -651,6 +657,7 @@ subscriptionUpgrade-title = Grazzi pi l'attualizzu!
 ## $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
+subscriptionUpgrade-auto-renew = U to abbunamentu si rinova di manera autumàtica p'ogni ciclu di fatturazzioni sparti si scarti di scancillàrilu.
 unblockCode-subject = Còdici d'auturizzazzioni dû cuntu
 unblockCode-title = Sì tu chi sta' trasennu?
 unblockCode-prompt = Si sì tu, chistu è u còdici d'auturizzazzioni chi ti serbi:
