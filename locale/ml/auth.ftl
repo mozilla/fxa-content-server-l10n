@@ -36,6 +36,8 @@ subplat-privacy-plaintext = സ്വകാര്യത അറിയിപ്പ
 subplat-update-billing-plaintext = { subplat-update-billing }:
 subplat-terms-policy = നിബന്ധനകളും റദ്ദാക്കൽ നയവും
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
+subplat-cancel-plaintext = { subplat-cancel }:
+subplat-reactivate = വീണ്ടും വരിക്കാരാവുക
 subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-privacy-policy = { -brand-mozilla } സ്വകാര്യത നയം
 subplat-privacy-policy-2 = { -product-mozilla-accounts(capitalization: "uppercase") } സ്വകാര്യത അറിയിപ്പു്
@@ -61,6 +63,9 @@ automatedEmailRecoveryKey-more-info-plaintext = കൂടുതൽ വിവര�
 manage-account = അക്കൗണ്ട് കൈകാര്യം ചെയ്യുക
 manage-account-plaintext = { manage-account }:
 payment-details = പണമടക്കൽമുറ വിശദാംശങ്ങൾ:
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+payment-plan-invoice-number = വിലവിവരപ്പട്ടിക അക്കം: { $invoiceNumber }
 # Variables
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 payment-plan-next-invoice = അടുത്ത വിലവിവരപ്പട്ടിക: { $nextInvoiceDateOnly }
@@ -73,6 +78,19 @@ subscriptionFirstInvoice-content-invoice-number-plaintext = വിലവിവ�
 # Variables:
 #  $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
 subscriptionFirstInvoiceDiscount-content-subtotal = ആകെത്തുക: { $invoiceSubtotal }
+# Variables:
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+subscriptionFirstInvoiceDiscount-content-discount = കിഴിവു് : -{ $invoiceDiscountAmount }
+# Variables
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+subscriptionFirstInvoiceDiscount-content-discount-one-time = ഒറ്റത്തവണ കിഴിവു് : -{ $invoiceDiscountAmount }
+# Variables
+#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+#  $discountDuration - The duration of the discount in number of months, e.g. 3 months
+subscriptionFirstInvoiceDiscount-content-discount-repeating = { $discountDuration }-മാസ കിഴിവു് : -{ $invoiceDiscountAmount }
+# Variables:
+#  $invoiceTaxAmount (String) - The amount of the tax of the subscription invoice, including currency, e.g. $2.00
+subscriptionCharges-content-tax = നികുതികളും കൂലികളും: { $invoiceTaxAmount }
 
 ## Variables:
 ##  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
