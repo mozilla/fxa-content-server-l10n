@@ -853,6 +853,8 @@ recent-activity-account-recovery-phone-removed = Telefonnummer til genoprettelse
 recent-activity-account-recovery-codes-replaced = Genoprettelseskoder udskiftet
 recent-activity-account-recovery-codes-created = Genoprettelseskoder oprettet
 recent-activity-account-recovery-codes-signin-complete = Login med genoprettelseskoder fuldført
+recent-activity-password-reset-otp-sent = Bekræftelseskode til nulstilling af adgangskode sendt
+recent-activity-password-reset-otp-verified = Bekræftelseskode til nulstilling af adgangskode bekræftet
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Anden kontoaktivitet
 
@@ -1547,6 +1549,12 @@ complete-reset-password-desktop-relay = { -brand-firefox } vil forsøge at sende
 
 # ConfirmBackupCodeResetPassword page
 
+confirm-backup-code-reset-password-input-label = Indtast koden på 10 tegn
+confirm-backup-code-reset-password-confirm-button = Bekræft
+confirm-backup-code-reset-password-subheader = Indtast reserve-godkendelseskode
+confirm-backup-code-reset-password-instruction = Indtast en af engangskoderne, du gemte, da du opsatte totrinsgodkendelse.
+# Link out to support article: https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+confirm-backup-code-reset-password-locked-out-link = Er du blevet låst ude?
 
 ## Confirm Reset Password With Code
 
@@ -1749,6 +1757,8 @@ signin-reported-message = Vores team har fået besked. Rapporter som denne hjæl
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 signin-token-code-heading-2 = Indtast bekræftelseskoden<span> til din { -product-mozilla-account }</span>
+# { $email } represents the email that the user entered to sign in
+signin-token-code-instruction-v2 = Indtast koden, der blev sendt til <email>{ $email }</email>, indenfor 5 minutter.
 signin-token-code-input-label-v2 = Indtast 6-cifret kode
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Bekræft
@@ -1813,6 +1823,8 @@ confirm-signup-code-page-title = Indtast bekræftelseskode
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 confirm-signup-code-heading-2 = Indtast bekræftelseskoden <span>til din { -product-mozilla-account }</span>
+# { $email } represents the email that the user entered to sign in
+confirm-signup-code-instruction-v2 = Indtast koden, der blev sendt til <email>{ $email }</email>, indenfor 5 minutter.
 confirm-signup-code-input-label = Indtast 6-cifret kode
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = Bekræft
