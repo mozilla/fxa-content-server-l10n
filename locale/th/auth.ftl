@@ -2,6 +2,16 @@
 
 session-verify-send-push-title-2 = กำลังจะเข้าสู่ระบบ{ -product-mozilla-account } ของคุณใช่หรือไม่?
 session-verify-send-push-body-2 = คลิกที่นี่เพื่อยืนยันว่าเป็นคุณ
+# Message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to verify phone ownership when registering a recovery phone
+recovery-phone-setup-sms-body = { $code } คือรหัสยืนยัน { -brand-mozilla } ของคุณ ซึ่งจะหมดอายุใน 5 นาที
+# Shorter message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to verify phone ownership when registering a recovery phone
+recovery-phone-setup-sms-short-body = รหัสยืนยัน { -brand-mozilla }: { $code }
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
@@ -248,6 +258,7 @@ inactiveAccountFinalWarning-preview = ลงชื่อเข้าใช้เ
 inactiveAccountFinalWarning-action = ลงชื่อเข้าใช้เพื่อรักษาบัญชีของคุณ
 # followed by link to sign in
 inactiveAccountFinalWarning-action-plaintext = ลงชื่อเข้าใช้เพื่อรักษาบัญชีของคุณ:
+inactiveAccountFirstWarning-inactive-status = เราสังเกตว่าคุณไม่ได้ลงชื่อเข้าใช้มา 2 ปีแล้ว
 inactiveAccountFirstWarning-action = ลงชื่อเข้าใช้เพื่อรักษาบัญชีของคุณ
 inactiveAccountFirstWarning-preview = ลงชื่อเข้าใช้เพื่อรักษาบัญชีของคุณ
 # followed by link to sign in

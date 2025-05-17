@@ -325,6 +325,7 @@ input-password-sr-only-now-hidden = รหัสผ่านของคุณ�
 
 # This is an aria-label available to screen readers for a selection list that includes country flags, country name and country code
 input-phone-number-country-list-aria-label = เลือกประเทศ
+input-phone-number-enter-number = กรอกหมายเลขโทรศัพท์
 input-phone-number-country-united-states = สหรัฐอเมริกา
 input-phone-number-country-canada = แคนาดา
 # Back button on legal/terms or legal/privacy that takes users to the previous page
@@ -558,6 +559,9 @@ dc-learn-more = เรียนรู้เพิ่มเติม
 # DropDownAvatarMenu component
 
 drop-down-menu-title-2 = เมนู { -product-mozilla-account }
+# This is displayed in the Settings menu after user's click on their profile icon.
+# Following this string on a new line will be their display name (user's name or email)
+drop-down-menu-signed-in-as-v2 = ลงชื่อเข้าเป็น
 drop-down-menu-sign-out = ลงชื่อออก
 drop-down-menu-sign-out-error-2 = ขออภัย เกิดปัญหาในการลงชื่อออก
 
@@ -611,6 +615,13 @@ flow-recovery-key-info-cancel-link = ยกเลิก
 
 ## FlowSetupPhoneConfirmCode
 
+# verification code refers to a code sent by text message to confirm phone number ownership
+# and complete setup
+flow-setup-phone-confirm-code-heading = กรอกรหัสยืนยัน
+# $phoneNumber is a partially obfuscated phone number with only the last 4 digits showing (e.g., *** *** 1234)
+# span element applies formatting to ensure the number is always displayed left-to-right
+flow-setup-phone-confirm-code-instruction = รหัส 6 หลักถูกส่งไปยัง <span>{ $phoneNumber }</span> ทางข้อความแล้ว รหัสนี้จะหมดอายุหลังจาก 5 นาที
+flow-setup-phone-confirm-code-input-label = ใส่รหัส 6 หลัก
 flow-setup-phone-confirm-code-button = ยืนยัน
 # button to resend a code by text message to the user's phone
 # followed by a button to resend a code
@@ -620,6 +631,7 @@ flow-setup-phone-confirm-code-resend-code-success = ส่งรหัสแล�
 
 ## FlowSetupPhoneConfirmCode
 
+flow-setup-phone-submit-number-heading = ยืนยันหมายเลขโทรศัพท์ของคุณ
 # cliking on the button sends a code by text message to the phone number typed in by the user
 flow-setup-phone-submit-number-button = ส่งรหัส
 
