@@ -1045,6 +1045,7 @@ auth-error-214 = U nùmmaru di tilèfunu di ricùpiru esisti già
 auth-error-215 = U nùmmaru di tilèfunu di ricùpiru nun esisti
 auth-error-216 = Agghicasti ô nùmmaru màssimu dî missaggi di testu
 auth-error-218 = Nun fu pussìbbili livari u nùmmaru di tilèfunu di ricùpiru, màncanu i còdici d'autinticazzioni di sicurizza.
+auth-error-219 = Stu nùmmaru di tilèfunu fu riggistratu nna troppu assai cunti. Pi favuri prova n'autru nùmmaru.
 auth-error-999 = Erruri nun privistu
 auth-error-1001 = U tintativu di trasuta sfallìu
 auth-error-1002 = A sissioni scadìu. Trasi pi cuntinuari.
@@ -1107,6 +1108,14 @@ cookies-disabled-learn-more = Cchiù nfurmazzioni
 ## Index / home page
 
 index-header = Metti u to nnirizzu di posta elittrònica
+index-sync-header = Cuntinua cû to { -product-mozilla-account }
+index-sync-subheader = Sincrunizza i to chiavi, i schedi e i nzingalibbra unn'è-è ca usi { -brand-firefox }.
+# $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
+index-subheader-with-servicename = Cuntinua nne { $serviceName }
+# When users delete their Mozilla account inside account Settings, they are redirected to this page with a success message
+index-account-delete-success = U cuntu fu scancillatu bonu
+# Displayed when users try to sign up for an account and their confirmation code email bounces
+index-email-bounced = L'e-mail di cunferma turnau nn'arrè. Sbagghiasti a scrìviri u nnirizzu?
 
 ## InlineRecoveryKeySetup page component
 
@@ -1123,37 +1132,93 @@ index-header = Metti u to nnirizzu di posta elittrònica
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
 
+# Links to our internal "Firefox Cloud" /legal/terms page
+legal-privacy-link = Abbisu di privatizza
 
 ## Legal privacy notice page. Most content comes from https://github.com/mozilla/legal-docs
 
+legal-privacy-heading = Abbisu di privatizza
 
 ## Legal terms of service page. Most content comes from https://github.com/mozilla/legal-docs
 
+legal-terms-heading = Tèrmini di sirbizzu
 
 ## AuthAllow page - Part of the device pairing flow
 
+pair-auth-allow-heading-text = Trasisti ora nne { -product-firefox }?
+# Submit button to confirm that the user initiated the device pairing
+# and that they approve of the new device being added to their account
+pair-auth-allow-confirm-button = Se, appruva u dispusitivu
+# "If this wasn't you" means "If it wasn't you that just signed in to Firefox"
+# The text with the <link> tags links to a `reset password` page
+pair-auth-allow-refuse-device-link = Si nun fusti tu, <link>cancia a to chiavi</link>
 
 ## PairAuthComplete page - part of the device pairing flow
 
+# Heading to confirm the successful pairing of a new device with the user's account
+# Device here is non specific (could be a laptop, tablet, phone, etc.)
+pair-auth-complete-heading = Dispusitivu cullijatu
+# Variable { $deviceFamily } is generally a browser name, for example "Firefox"
+# Variable { $deviceOS } is an operating system short name, for example "iOS", "Android"
+pair-auth-complete-now-syncing-device-text = Ora stai sincrunizzannu cu: { $deviceFamily } nne { $deviceOS }
+pair-auth-complete-sync-benefits-text = Ora po' accèdiri ê to schedi graputi, chiavi e nzingalibbra ncapu a tutti i to dispusitivi.
+pair-auth-complete-see-tabs-button = Vidi i schedi dî dispusitivi sincrunizzati
+pair-auth-complete-manage-devices-link = Manija i dispusitivi
 
 ## AuthTotp page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during device pairing.
 
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+auth-totp-heading-w-default-service = Metti u còdici d'autinticazzioni <span>pi cuntinuari chî mpustazzioni dû cuntu</span>
+# String within the <span> element appears on a separate line
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+auth-totp-heading-w-custom-service = Metti u còdici d'autinticazzioni <span>pi cuntinuari cu { $serviceName }</span>
+auth-totp-instruction = Grapi a to app d'autinticazzioni e metti u còdici d'autinticazzioni chi ti duna.
+auth-totp-input-label = Metti u còdici di 6 cifri
+# Form button to confirm if the authentication code entered by the user is valid
+auth-totp-confirm-button = Cunferma
+# Error displayed in a tooltip when the form is submitted without a code
+auth-totp-code-required-error = È nicissariu un còdici d'autinticazzioni
 
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be approved from both devices to succeed
 
+# The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
+# Strings within the <span> elements appear as a subheading.
+pair-wait-for-supp-heading-text = È nicissariu chi approvi <span>di l'autru dispusitivu</span>
 
 ## PairFailure - a view which displays on failure of the device pairing process
 
+pair-failure-header = L'accucchiamentu nun arriniscìu
+pair-failure-message = U prucessu di cunfijurazzioni sfallìu.
 
 ## Pair index page
 
+pair-sync-header = Sincrunizza { -brand-firefox } nnô to tilèfunu o a to tavuliḍḍa
+pair-cad-header = Culleja { -brand-firefox } nta n'autru dispusitivu
+pair-already-have-firefox-paragraph = Ài già { -brand-firefox } nnô tilèfunu o nnâ tavuliḍḍa?
+# Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
+pair-sync-your-device-button = Sincrunizza u to dispusitivu
+# This is a heading element immediately preceded by "Sync your device" and followed by a link and QR code to download Firefox
+pair-or-download-subheader = o scàrricalu
+# Directs user to scan a QR code to download Firefox. <linkExternal> is an anchor tag that directs the user to where they can download the { -brand-firefox } app
+pair-scan-to-download-message = Scanziuna pi scarricari { -brand-firefox } pî dispusitivi mòbbili, o mànnati na <linkExternal>lijami pû scarricamentu</linkExternal>.
+# This allows the user to exit the sync/pair flow, and redirects them back to Settings
+pair-not-now-button = Ora no
+pair-take-your-data-message = Pòrtati i schedi, i nzingalibbra e i chiavi unn'è-è ca usi { -brand-firefox }.
+# This initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
+pair-get-started-button = Accumincia
+# This is the aria label on the QR code image
+pair-qr-code-aria-label = Còdici QR
 
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
+pair-success-header-2 = Dispusitivu cullijatu
+pair-success-message-2 = L'accucchiamentu arriniscìu.
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
