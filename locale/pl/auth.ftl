@@ -670,6 +670,12 @@ subscriptionUpgrade-upgrade-info-2 = Pomyślnie przełączono na { $productName 
 ## $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
+subscriptionUpgrade-content-charge-prorated = Została naliczona jednorazowa opłata w wysokości { $paymentProrated }, która odzwierciedla wyższą cenę subskrypcji za pozostałą część tego okresu rozliczeniowego ({ $productPaymentCycleOld }).
+subscriptionUpgrade-content-charge-credit = Otrzymano środki na koncie w wysokości { $paymentProrated }.
+subscriptionUpgrade-content-starting = Zaczynając od następnego rachunku, opłata zmieni się z { $paymentAmountOld } za { $productPaymentCycleOld } na { $paymentAmountNew } za { $productPaymentCycleNew }.
+# Variables:
+# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-existing = Jeśli któraś z istniejących subskrypcji pokrywa się z tym przełączeniem, zajmiemy się nimi i wyślemy Ci osobną wiadomość e-mail z informacjami. Jeśli nowy plan obejmuje produkty wymagające instalacji, wyślemy Ci osobną wiadomość e-mail z instrukcjami konfiguracji.
 subscriptionUpgrade-auto-renew = Subskrypcja będzie automatycznie odnawiana z każdym okresem rozliczeniowym, chyba że zdecydujesz się ją anulować.
 unblockCode-subject = Kod upoważnienia konta
 unblockCode-title = Czy to Ty się logujesz?
