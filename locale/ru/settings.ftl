@@ -1548,6 +1548,7 @@ complete-reset-password-desktop-relay = { -brand-firefox } попытается 
 
 # ConfirmBackupCodeResetPassword page
 
+confirm-backup-code-reset-password-input-label = Введите 10-значный код
 
 ## Confirm Reset Password With Code
 
