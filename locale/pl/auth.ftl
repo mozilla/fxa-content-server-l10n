@@ -226,6 +226,7 @@ subscriptionCharges-content-tax = Podatki i opłaty: { $invoiceTaxAmount }
 ##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
 
 subscriptionFirstInvoice-content-charge = Obciążono { $invoiceTotal } w dniu { $invoiceDateOnly }
+subscriptionFirstInvoice-content-credit = Otrzymano środki na koncie w wysokości { $invoiceTotal }, które zostaną zastosowane do przyszłych faktur.
 subscriptionSupport = Masz pytania dotyczące subskrypcji? Nasz <a data-l10n-name="subscriptionSupportUrl">zespół wsparcia</a> Ci pomoże.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Masz pytania dotyczące subskrypcji? Nasz zespół wsparcia Ci pomoże:
@@ -449,6 +450,8 @@ postRemoveAccountRecovery-action = Zarządzaj kontem
 postRemoveRecoveryPhone-subject = Usunięto telefon odzyskiwania
 postRemoveRecoveryPhone-preview = Konto chronione przez uwierzytelnianie dwuetapowe
 postRemoveRecoveryPhone-title = Usunięto telefon odzyskiwania
+postRemoveRecoveryPhone-description-v2 = Telefon odzyskiwania został usunięty z ustawień uwierzytelniania dwuetapowego.
+postRemoveRecoveryPhone-description-extra = Jeśli nie możesz użyć aplikacji uwierzytelniającej, nadal możesz się zalogować za pomocą zapasowych kodów uwierzytelniania.
 postRemoveRecoveryPhone-requested-device = Zażądano z urządzenia:
 postRemoveSecondary-subject = Usunięto dodatkowy adres e-mail
 postRemoveSecondary-title = Usunięto dodatkowy adres e-mail
@@ -628,6 +631,12 @@ subscriptionRenewalReminder-content-closing = Z pozdrowieniami,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = Zespół { $productName }
+subscriptionReplaced-subject = Subskrypcja została zaktualizowana w ramach przełączenia
+subscriptionReplaced-title = Subskrypcja została zaktualizowana
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReplaced-content-replaced = Indywidualna subskrypcja { $productName } została zastąpiona i jest teraz częścią pakietu.
+subscriptionReplaced-content-credit = Otrzymasz środki za wszelki niewykorzystany czas z poprzedniej subskrypcji. Te środki zostaną automatycznie zastosowane do konta i będą wykorzystywane na rzecz przyszłych opłat.
+subscriptionReplaced-content-no-action = Nic nie musisz robić.
 subscriptionsPaymentExpired-subject-1 = Karta płatnicza dla subskrypcji wygasła lub wkrótce wygaśnie
 subscriptionsPaymentExpired-title-1 = Karta płatnicza wygasła lub wkrótce wygaśnie
 subscriptionsPaymentExpired-content-1 = Karta płatnicza używana do dokonywania płatności za poniższe subskrypcje wygasła lub niedługo wygaśnie.
@@ -649,6 +658,10 @@ subscriptionSubsequentInvoice-content-next-invoice = Następna faktura: { $nextI
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = Przełączono na { $productName }
 subscriptionUpgrade-title = Dziękujemy!
+# Variables:
+# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
+# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-upgrade-info-2 = Pomyślnie przełączono na { $productName }
 
 ## Variables:
 ## $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
