@@ -22,6 +22,16 @@ recovery-phone-signin-sms-body = { $code } là mã phục hồi { -brand-mozilla
 # Messages should be limited to one segment
 # $code  - 6 digit code used to sign in with a recovery phone as backup for two-step authentication
 recovery-phone-signin-sms-short-body = Mã { -brand-mozilla }: { $code }
+# Message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to sign in with a recovery phone as backup for account password reset
+recovery-phone-reset-password-sms-body = { $code } là mã phục hồi { -brand-mozilla } của bạn. Hết hạn sau 5 phút.
+# Shorter message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to sign in with a recovery phone as backup for account password reset
+recovery-phone-reset-password-short-body = Mã { -brand-mozilla }: { $code }
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
@@ -211,6 +221,7 @@ subscriptionCharges-content-tax = Thuế & phí: { $invoiceTaxAmount }
 ##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
 
 subscriptionFirstInvoice-content-charge = Đã tính phí { $invoiceTotal } vào { $invoiceDateOnly }
+subscriptionFirstInvoice-content-credit = Bạn đã nhận được khoản tín dụng tài khoản là { $invoiceTotal }, sẽ được áp dụng cho các thanh toán trong tương lai của bạn.
 subscriptionSupport = Câu hỏi về thuê bao của bạn? <a data-l10n-name="subscriptionSupportUrl">Nhóm hỗ trợ</a> của chúng tôi sẵn sàng giúp đỡ bạn.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Có câu hỏi về thuê bao của bạn? Nhóm hỗ trợ của chúng tôi sẵn sàng giúp bạn:
@@ -650,6 +661,9 @@ subscriptionUpgrade-upgrade-info-2 = Bạn đã nâng cấp thành công { $prod
 ## $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
+subscriptionUpgrade-content-charge-prorated = Bạn đã bị tính khoản phí một lần là { $paymentProrated } để phản ánh mức giá cao hơn của gói đăng ký của bạn trong thời gian còn lại của kỳ thanh toán này ({ $productPaymentCycleOld }).
+subscriptionUpgrade-content-charge-credit = Bạn đã nhận được khoản tín dụng tài khoản với số tiền là { $paymentProrated }.
+subscriptionUpgrade-content-starting = Bắt đầu từ hóa đơn tiếp theo của bạn, khoản phí của bạn sẽ thay đổi từ { $paymentAmountOld } với { $productPaymentCycleOld } thành { $paymentAmountNew } với { $productPaymentCycleNew }.
 # Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-existing = Nếu bất kỳ gói đăng ký hiện tại nào của bạn trùng với bản nâng cấp này, chúng tôi sẽ xử lý chúng và gửi cho bạn một email riêng có thông tin chi tiết. Nếu gói mới của bạn bao gồm các sản phẩm yêu cầu cài đặt, chúng tôi sẽ gửi cho bạn một email riêng có hướng dẫn thiết lập.

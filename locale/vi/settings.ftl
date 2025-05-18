@@ -1545,6 +1545,12 @@ complete-reset-password-desktop-relay = { -brand-firefox } sẽ điều hướng
 
 # ConfirmBackupCodeResetPassword page
 
+confirm-backup-code-reset-password-input-label = Nhập mã gồm 10 ký tự
+confirm-backup-code-reset-password-confirm-button = Xác nhận
+confirm-backup-code-reset-password-subheader = Nhập mã xác thực dự phòng
+confirm-backup-code-reset-password-instruction = Nhập một trong các mã sử dụng một lần bạn đã lưu khi bạn thiết lập xác thực hai bước.
+# Link out to support article: https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+confirm-backup-code-reset-password-locked-out-link = Tài khoản của bạn đang bị khóa?
 
 ## Confirm Reset Password With Code
 
