@@ -852,7 +852,7 @@ recent-activity-account-recovery-phone-removed = Usunięto telefon odzyskiwania
 recent-activity-account-recovery-codes-replaced = Zastąpiono kody odzyskiwania
 recent-activity-account-recovery-codes-created = Utworzono kody odzyskiwania
 recent-activity-account-recovery-codes-signin-complete = Ukończono logowanie za pomocą kodów odzyskiwania
-recent-activity-must-reset-password = Wymagane zresetowanie hasła
+recent-activity-must-reset-password = Wymagana jest zmiana hasła
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Inne działanie na koncie
 
