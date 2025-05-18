@@ -13,6 +13,7 @@ next-payment-method-first-approve = Najpierw musisz zatwierdzić subskrypcję
 location-header = Wybierz swój kraj i wprowadź kod pocztowy, <p>aby przejść do zapłaty za { $productName }</p>
 location-banner-info = Nie udało nam się automatycznie wykryć Twojej lokalizacji
 location-required-disclaimer = Używamy tych informacji wyłącznie w celu wyliczenia podatków i walut.
+location-banner-currency-change = Wymiana waluty nie jest obsługiwana. Aby kontynuować, wybierz kraj odpowiadający obecnej walucie rozliczeniowej.
 
 ## Page - Upgrade page
 
@@ -31,7 +32,9 @@ next-payment-error-retry-button = Spróbuj ponownie
 next-basic-error-message = Coś się nie powiodło. Proszę spróbować ponownie później.
 checkout-error-contact-support-button = Skontaktuj się z pomocą
 checkout-error-not-eligible = Nie kwalifikujesz się do subskrypcji tego produktu — prosimy o kontakt z zespołem wsparcia, abyśmy mogli Ci pomóc.
+checkout-error-already-subscribed = Już subskrybujesz ten produkt.
 checkout-error-contact-support = Prosimy o kontakt z zespołem wsparcia, abyśmy mogli Ci pomóc.
+cart-error-currency-not-determined = Nie możemy ustalić waluty dla tego zakupu. Spróbuj ponownie.
 checkout-processing-general-error = Wystąpił nieoczekiwany błąd podczas przetwarzania płatności, proszę spróbować ponownie.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
@@ -156,6 +159,10 @@ select-tax-location-error-missing-postal-code = Proszę wpisać kod pocztowy
 select-tax-location-error-invalid-postal-code = Proszę wpisać prawidłowy kod pocztowy
 select-tax-location-successfully-updated = Położenie zostało zaktualizowane.
 select-tax-location-error-location-not-updated = Nie można zaktualizować położenia. Proszę spróbować ponownie.
+#  $currencyDisplayName (String) - The display name of a currency code, e.g. US Dollar
+select-tax-location-invalid-currency-change = Twoje konto jest rozliczane w walucie „{ $currencyDisplayName }”. Wybierz kraj, który używa tej waluty.
+select-tax-location-invalid-currency-change-default = Wybierz kraj zgodny z walutą aktywnych subskrypcji.
+select-tax-location-new-tax-rate-info = Po zmianie położenia nowa stawka podatku zostanie zastosowana do wszystkich aktywnych subskrypcji na koncie, zaczynając od kolejnego cyklu rozliczeniowego.
 signin-form-continue-button = Kontynuuj
 signin-form-email-input = Wpisz adres e-mail
 signin-form-email-input-missing = Proszę wpisać adres e-mail
@@ -183,6 +190,7 @@ next-subscription-create-title = Skonfiguruj swoją subskrypcję
 next-subscription-success-title = Potwierdzenie subskrypcji
 next-subscription-processing-title = Potwierdzanie subskrypcji…
 next-subscription-error-title = Błąd podczas potwierdzania subskrypcji…
+subscription-title-sub-exists = Już subskrybujesz
 subscription-title-plan-change-heading = Sprawdź zmianę
 next-sub-guarantee = 30-dniowa gwarancja zwrotu pieniędzy
 

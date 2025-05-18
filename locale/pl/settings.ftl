@@ -852,6 +852,8 @@ recent-activity-account-recovery-phone-removed = Usunięto telefon odzyskiwania
 recent-activity-account-recovery-codes-replaced = Zastąpiono kody odzyskiwania
 recent-activity-account-recovery-codes-created = Utworzono kody odzyskiwania
 recent-activity-account-recovery-codes-signin-complete = Ukończono logowanie za pomocą kodów odzyskiwania
+recent-activity-password-reset-otp-sent = Wysłano kod potwierdzenia zmiany hasła
+recent-activity-password-reset-otp-verified = Zweryfikowano kod potwierdzenia zmiany hasła
 recent-activity-must-reset-password = Wymagana jest zmiana hasła
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Inne działanie na koncie
@@ -1546,6 +1548,12 @@ complete-reset-password-desktop-relay = { -brand-firefox } po zalogowaniu sprób
 
 # ConfirmBackupCodeResetPassword page
 
+confirm-backup-code-reset-password-input-label = Wpisz 10-znakowy kod
+confirm-backup-code-reset-password-confirm-button = Potwierdź
+confirm-backup-code-reset-password-subheader = Wpisz zapasowy kod uwierzytelniania
+confirm-backup-code-reset-password-instruction = Wpisz jeden z jednorazowych kodów zachowanych podczas konfigurowania uwierzytelniania dwuetapowego.
+# Link out to support article: https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+confirm-backup-code-reset-password-locked-out-link = Nie możesz się zalogować?
 
 ## Confirm Reset Password With Code
 
@@ -1749,6 +1757,8 @@ signin-reported-message = Nasz zespół został powiadomiony. Zgłoszenia pomaga
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 signin-token-code-heading-2 = Wpisz kod potwierdzenia <span>do { -product-mozilla-account(case: "gen", capitalization: "lower") }</span>
+# { $email } represents the email that the user entered to sign in
+signin-token-code-instruction-v2 = Wpisz kod potwierdzenia wysłany na adres <email>{ $email }</email> w ciągu 5 minut.
 signin-token-code-input-label-v2 = Wpisz sześciocyfrowy kod
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Potwierdź
@@ -1813,6 +1823,8 @@ confirm-signup-code-page-title = Wpisz kod potwierdzenia
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 confirm-signup-code-heading-2 = Wpisz kod potwierdzenia <span>do { -product-mozilla-account(case: "gen", capitalization: "lower") }</span>
+# { $email } represents the email that the user entered to sign in
+confirm-signup-code-instruction-v2 = Wpisz kod potwierdzenia wysłany na adres <email>{ $email }</email> w ciągu 5 minut.
 confirm-signup-code-input-label = Wpisz sześciocyfrowy kod
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = Potwierdź

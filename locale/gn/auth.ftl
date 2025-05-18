@@ -22,6 +22,11 @@ recovery-phone-signin-sms-body = { $code } ha’e ayvu guerujeyha { -brand-mozil
 # Messages should be limited to one segment
 # $code  - 6 digit code used to sign in with a recovery phone as backup for two-step authentication
 recovery-phone-signin-sms-short-body = { -brand-mozilla } ayvu: { $code }
+# Message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to sign in with a recovery phone as backup for account password reset
+recovery-phone-reset-password-sms-body = { $code } ha’e ayvu guerujeyha { -brand-mozilla } mba’e. Opáta 5 aravo’ípe.
 # Shorter message sent by SMS with limited character length, please test translation with the messaging segment calculator
 # https://twiliodeved.github.io/message-segment-calculator/
 # Messages should be limited to one segment
@@ -611,6 +616,7 @@ subscriptionRenewalReminder-content-closing = Ma’ẽag̃uíme,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = { $productName } atyguáva
+subscriptionReplaced-subject = Ne ñemboheraguapy hekopyahu nembohekopyahu reheguávaramo
 subscriptionReplaced-title = Ne ñemboheraguapy oñembohekopyahu
 subscriptionReplaced-content-no-action = Noikotevẽi mba’evete ndehegui.
 subscriptionsPaymentExpired-subject-1 = Nde kuatia’atã ñemurã ne ñemboheraguapýpe g̃uarã ndoikói térã ndokovéitama
