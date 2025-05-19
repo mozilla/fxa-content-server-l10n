@@ -18,6 +18,11 @@
 ## Clicking on this button downloads a PDF file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
 
+# Button to download the account recovery key as a PDF file and navigate to the next step
+# The next (and final) step is an optional prompt to save a storage hint
+# .title will displayed as a tooltip on the button
+recovery-key-download-button-v3 = Laadi alla ja jätka
+    .title = Laadi alla ja jätka
 recovery-key-pdf-heading = Konto taastevõti
 # Shown directly above recovery key value and preceeded by a key icon
 recovery-key-pdf-key-legend = Konto taastevõti
@@ -28,6 +33,8 @@ recovery-key-pdf-instructions = See võti võimaldab sul parooli unustamisel taa
 # This heading is shown above a list of options for storing the account recovery key
 # "key" here refers to "account recovery key"
 recovery-key-pdf-storage-ideas-heading = Kohad võtme hoidmiseks
+# Followed by a link (https://mzl.la/3bNrM1I) to get more information and support
+recovery-key-pdf-support = Rohkem teavet konto taastevõtmest
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -129,12 +136,20 @@ account-recovery-notification-header-value = Ära kaota oma andmeid, kui unustad
 # "key" here refers to "account recovery key"
 flow-recovery-key-download-storage-ideas-heading-v2 = Kohad võtme hoidmiseks:
 flow-recovery-key-download-storage-ideas-folder-v2 = Kaust turvalises seadmes
+flow-recovery-key-download-storage-ideas-cloud = Usaldusväärne pilveteenus
 flow-recovery-key-download-storage-ideas-print-v2 = Trükitud füüsiline koopia
+flow-recovery-key-download-storage-ideas-pwd-manager = Paroolihaldur
 
 ## RecoveryKeySetupHint
 ## This is the final step in the account recovery key creation flow after a Sync signin or in account settings
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
+# The header of the last step in the account recovery key creation flow
+# "key" here refers to the "account recovery key"
+flow-recovery-key-hint-header-v2 = Lisa vihje võtme leidmiseks
+# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
+# "it" here refers to the storage hint, NOT the "account recovery key"
+flow-recovery-key-hint-message-v3 = Vihje peaks aitama sul meeles pidada, kuhu konto taastevõtme salvestasid. Saame seda sulle parooli lähtestamise ajal näidata, et sinu andmed taastada.
 
 ## ResetPasswordWarning component
 ## Warning shown to sync users that reset their password without using an account recovery key
@@ -243,6 +258,8 @@ flow-recovery-key-confirm-pwd-submit-button = Loo konto taastevõti
 
 # The "key" here refers to the term "account recovery key"
 flow-recovery-key-download-info-v2 = See võti võimaldab sul parooli unustamisel taastada krüptitud brauseriandmed (sh paroolid, järjehoidjad ja ajaloo). Hoia seda kohas, mida mäletad — sa ei saa sellele lehele hiljem naasta.
+# This link allows user to proceed to the next step without clicking the download button
+flow-recovery-key-download-next-link-v2 = Jätka allalaadimiseta
 
 ## FlowRecoveryKeyHint
 ## This is the fourth and final step in the account recovery key creation flow in account settings
@@ -259,6 +276,8 @@ flow-recovery-key-info-shield-bullet-point-v2 = Krüpteerime sirvimisandmeid –
 flow-recovery-key-info-key-bullet-point-v2 = Seetõttu on konto taastevõtme loomine ülioluline – saad seda kasutada andmete taastamiseks.
 # The text of the "submit" button to start creating (or changing) an account recovery key
 flow-recovery-key-info-cta-text-v3 = Alusta
+# Link to cancel account recovery key change and return to settings
+flow-recovery-key-info-cancel-link = Loobu
 
 ## FlowSetupPhoneConfirmCode
 
@@ -409,6 +428,7 @@ recovery-key-create-page-title = Konto taastevõti
 ## PageRecoveryPhoneRemove
 ## Users reach this page from account settings when they want to remove a backup phone number.
 
+settings-recovery-phone-remove-cancel = Loobu
 
 ## PageSetupRecoveryPhone
 
@@ -615,6 +635,9 @@ auth-error-1008 = Vana ja uus parool peavad erinema
 ## When users are creating an account, they may get pushed to setup 2FA
 ## in this case, they will encounter this page in the signup process (hence calling it "Inline)
 
+# This button allows a user to copy their recovery codes to their clipboard
+# This button allows the user to cancel setup of two-factor authentication for their account
+inline-recovery-cancel-button = Loobu
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -661,6 +684,7 @@ pair-get-started-button = Alusta
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be confirmed from both devices to succeed
 
+pair-supp-allow-cancel-link = Loobu
 
 ## WaitForAuth page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
