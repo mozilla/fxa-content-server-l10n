@@ -270,6 +270,8 @@ flow-recovery-key-download-next-link-v2 = Jätka allalaadimiseta
 
 # The header of the first view in the Recovery Key Create flow
 flow-recovery-key-info-header = Loo konto taastevõti juhuks, kui parooli unustad
+# The header of the first view in the Recovery Key Create flow when replacing an existing recovery key
+flow-recovery-key-info-header-change-key = Konto taastevõtme muutmine
 # In the first view of the PageRecoveryKeyCreate flow, this is the first of two bullet points explaining why the user should create an account recovery key
 flow-recovery-key-info-shield-bullet-point-v2 = Krüpteerime sirvimisandmeid – paroole, järjehoidjaid ja muud. See on suurepäraselt privaatne, kuid parooli unustamisel võid oma andmed kaotada.
 # In the first view of the PageRecoveryKeyCreate flow, this is the second of two bullet points explaining why the user should create an account recovery key
