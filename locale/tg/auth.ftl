@@ -357,7 +357,9 @@ postRemoveTwoStepAuthentication-from-device = Шумо онро дар даст�
 postRemoveTwoStepAuthentication-action = Идоракунии ҳисоб
 postSigninRecoveryCode-subject = Нусхаи эҳтиётии рамзҳои санҷиши ҳаққоният, ки барои воридшавӣ истифода мешавад
 postSigninRecoveryCode-preview = Тасдиқ кардани фаъолияти ҳисоб
+postSigninRecoveryCode-device = Шумо аз дастгоҳи зерин ворид шудед:
 postSigninRecoveryCode-action = Идоракунии ҳисоб
+postSigninRecoveryPhone-subject = Рақами телефони барқарорсозӣ барои воридшавӣ истифода шуд
 postSigninRecoveryPhone-preview = Тасдиқ кардани фаъолияти ҳисоб
 postSigninRecoveryPhone-title = Рақами телефони барқарорсозии шумо барои воридшавӣ истифода шуд
 postSigninRecoveryPhone-action = Идоракунии ҳисоб
@@ -399,6 +401,13 @@ subscriptionCancellation-title = Афсӯс, ки шумо меравед
 ##   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 ##   $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
 
+# Variables:
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionDowngrade-subject = Шумо ба «{ $productName }» гузаштед
+# Variables:
+# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
+# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionDowngrade-content-switch = Шумо бо муваффақият аз «{ $productNameOld }» ба «{ $productName }» гузаштед.
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFailedPaymentsCancellation-subject = Обунаи шумо ба «{ $productName }» бекор карда шуд
@@ -406,6 +415,9 @@ subscriptionFailedPaymentsCancellation-title = Обунаи шумо бекор 
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFirstInvoice-subject = Пардохт барои «{ $productName }» тасдиқ карда шуд
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoice-title = Ташаккур барои обунашавии шумо ба «{ $productName }»
 # Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionFirstInvoice-content-next-invoice = Санади дархости пардохти навбатӣ: { $nextInvoiceDateOnly }
@@ -425,6 +437,9 @@ subscriptionSubsequentInvoice-subject = Пардохт барои «{ $productNa
 # Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
 subscriptionSubsequentInvoice-content-next-invoice = Санади дархости пардохти навбатӣ: { $nextInvoiceDateOnly }
+# Variables:
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-subject = Шумо ба «{ $productName }» навсозӣ кардед
 subscriptionUpgrade-title = Ташаккур ба шумо барои такмилдиҳӣ!
 
 ## Variables:
@@ -436,6 +451,7 @@ subscriptionUpgrade-title = Ташаккур ба шумо барои такми
 
 unblockCode-subject = Рамзи санҷиши дастрасӣ ба ҳисоб
 unblockCode-title = Оё ин шумо ворид мешавед?
+verificationReminderFinal-subject = Ёдоварии ниҳоӣ барои тасдиқ кардани ҳисоби худ
 confirm-account = Тасдиқ кардани ҳисоб
 confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Дар хотир доред, ки ҳисоби худро тасдиқ намоед
@@ -444,9 +460,14 @@ confirm-email-2 = Тасдиқ кардани ҳисоб
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Тасдиқ кардани ҳисоб
 verificationReminderSecond-subject-2 = Дар хотир доред, ки ҳисоби худро тасдиқ намоед
+verificationReminderSecond-title-3 = Дар «{ -brand-mozilla }» аз даст надиҳед!
 verificationReminderSecond-action-2 = Тасдиқ кардани ҳисоб
 verify-title-3 = Интернетро боз бо «{ -brand-mozilla }» кашф кунед
+verify-subject = Эҷоди ҳисоби худро ба анҷом расонед
 verify-action-2 = Тасдиқ кардани ҳисоб
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+verifyLogin-title-2 = Оё ин шумо ба «{ $clientName }» ворид шудед?
 verifyLogin-subject-2 = Тасдиқ кардани воридшавӣ
 verifyLogin-action = Тасдиқ кардани воридшавӣ
 # Variables:
@@ -455,6 +476,7 @@ verifyLoginCode-subject-line-2 = Тасдиқ кардани воридшавӣ 
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-title-2 = Оё ин шумо ба «{ $serviceName }» ворид шудаед?
+verifyLoginCode-expiry-notice = Муҳлаташ пас аз 5 дақиқа ба анҷом мерасад.
 verifyPrimary-title-2 = Почтаи электронии асосиро тасдиқ кунед
 verifyPrimary-subject = Почтаи электронии асосиро тасдиқ кунед
 verifyPrimary-action-2 = Тасдиқ кардани почтаи электронӣ

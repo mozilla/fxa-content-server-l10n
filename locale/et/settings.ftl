@@ -18,6 +18,9 @@
 ## Clicking on this button downloads a PDF file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
 
+recovery-key-pdf-heading = Konto taastevõti
+# Shown directly above recovery key value and preceeded by a key icon
+recovery-key-pdf-key-legend = Konto taastevõti
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -229,6 +232,14 @@ flow-container-back = Tagasi
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
+# The header of the first view in the Recovery Key Create flow
+flow-recovery-key-info-header = Loo konto taastevõti juhuks, kui parooli unustad
+# In the first view of the PageRecoveryKeyCreate flow, this is the first of two bullet points explaining why the user should create an account recovery key
+flow-recovery-key-info-shield-bullet-point-v2 = Krüpteerime sirvimisandmeid – paroole, järjehoidjaid ja muud. See on suurepäraselt privaatne, kuid parooli unustamisel võid oma andmed kaotada.
+# In the first view of the PageRecoveryKeyCreate flow, this is the second of two bullet points explaining why the user should create an account recovery key
+flow-recovery-key-info-key-bullet-point-v2 = Seetõttu on konto taastevõtme loomine ülioluline – saad seda kasutada andmete taastamiseks.
+# The text of the "submit" button to start creating (or changing) an account recovery key
+flow-recovery-key-info-cta-text-v3 = Alusta
 
 ## FlowSetupPhoneConfirmCode
 
@@ -373,6 +384,8 @@ display-name-success-alert-2 = Kuvatav nimi on uuendatud
 
 ## PageRecoveryKeyCreate
 
+# The page title displayed at the top of the flow container
+recovery-key-create-page-title = Konto taastevõti
 
 ## PageRecoveryPhoneRemove
 ## Users reach this page from account settings when they want to remove a backup phone number.
@@ -433,6 +446,8 @@ tfa-enter-secret-key = Sisesta see turvakood oma autentimisäppi:
 
 ## Product promotion
 
+# Links out to the Monitor pricing site
+product-promo-monitor-plus-cta = Alustamine
 
 ## Profile section
 
@@ -483,6 +498,7 @@ row-defaults-status = Puudub
 
 ## Account recovery key sub-section on main Settings page
 
+rk-header-1 = Konto taastevõti
 rk-enabled = Lubatud
 rk-not-set = Pole määratud
 rk-action-create = Loo
@@ -616,6 +632,8 @@ auth-error-1008 = Vana ja uus parool peavad erinema
 
 ## Pair index page
 
+# This initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
+pair-get-started-button = Alusta
 
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
