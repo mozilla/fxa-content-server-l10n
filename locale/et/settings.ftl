@@ -69,6 +69,7 @@ datablock-print =
 ## Users see this view when we prompt them to generate an account recovery key
 ## after signing in.
 
+inline-recovery-key-setup-info = Loo konto taastevõti, et saaksid sünkroonitud sirvimisandmed taastada, kui peaksid parooli unustama.
 
 ## Input Password
 
@@ -94,6 +95,8 @@ input-password-show = Kuva parooli
 
 ## Notification Promo Banner component
 
+account-recovery-notification-cta = Loo
+account-recovery-notification-header-value = Ära kaota oma andmeid, kui unustad parooli
 
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field

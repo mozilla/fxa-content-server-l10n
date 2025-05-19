@@ -22,6 +22,16 @@ recovery-phone-signin-sms-body = Рамзи { $code } барои барқаро�
 # Messages should be limited to one segment
 # $code  - 6 digit code used to sign in with a recovery phone as backup for two-step authentication
 recovery-phone-signin-sms-short-body = Рамзи «{ -brand-mozilla }»: { $code }
+# Message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to sign in with a recovery phone as backup for account password reset
+recovery-phone-reset-password-sms-body = Рамзи { $code } барои барқарорсозии ҳисоби шумо дар «{ -brand-mozilla }». Муҳлаташ пас аз 5 дақиқа ба анҷом мерасад.
+# Shorter message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to sign in with a recovery phone as backup for account password reset
+recovery-phone-reset-password-short-body = Рамзи «{ -brand-mozilla }»: { $code }
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
@@ -226,6 +236,9 @@ view-invoice-plaintext = Дидани санади дархости пардох
 cadReminderFirst-subject-1 = Ёдоварӣ! Биёед «{ -brand-firefox }»-ро ҳамоҳанг созем
 cadReminderFirst-action = Ҳамоҳанг кардани дастгоҳи дигар
 cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
+# In the title of the email, "It takes two to sync", "two" refers to syncing two devices
+cadReminderFirst-title-1 = Барои ҳамоҳангсозӣ дуто лозим аст
+cadReminderSecond-subject-2 = Аз даст надиҳед! Биёед танзимоти ҳамоҳангсозии шуморо ба анҷом расонем
 cadReminderSecond-action = Ҳамоҳанг кардани дастгоҳи дигар
 cadReminderSecond-title-2 = Ҳамоҳангсозиро фаромӯш накунед!
 cadReminderSecond-description-sync = Хатбаракҳо, ниҳонвожаҳо, варақаҳои кушодашуда ва чизҳои бештарро дар ҳама ҷойе, ки шумо аз «{ -brand-firefox }» истифода мебаред, ҳамоҳанг созед.
@@ -238,11 +251,16 @@ downloadSubscription-title = Хуш омадед ба «{ $productName }»
 downloadSubscription-link-action-2 = Оғози кор
 fraudulentAccountDeletion-subject-2 = Ҳисоби шумо дар «{ -product-mozilla-account }» нест карда шуд
 fraudulentAccountDeletion-title = Ҳисоби шумо нест карда шуд
+fraudulentAccountDeletion-contact = Агар шумо ягон савол дошта бошед, лутфан, бо <a data-l10n-name="mozillaSupportUrl">дастаи дастгирии мо</a> дар тамос шавед.
+# Variables:
+#  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
+fraudulentAccountDeletion-contact-plaintext = Агар шумо ягон савол дошта бошед, лутфан, бо дастаи дастгирии мо дар тамос шавед: { $mozillaSupportUrl }
 inactiveAccountFinalWarning-preview = Барои нигоҳ доштани ҳисоби худ ворид шавед
 inactiveAccountFinalWarning-action = Барои нигоҳ доштани ҳисоби худ ворид шавед
 # followed by link to sign in
 inactiveAccountFinalWarning-action-plaintext = Барои нигоҳ доштани ҳисоби худ ворид шавед:
 inactiveAccountFirstWarning-subject = Ҳисоби худро гум накунед
+inactiveAccountFirstWarning-title = Оё шумо мехоҳед ҳисоб ва маълумоти «{ -brand-mozilla }»-и худро нигоҳ доред?
 inactiveAccountFirstWarning-action = Барои нигоҳ доштани ҳисоби худ ворид шавед
 inactiveAccountFirstWarning-preview = Барои нигоҳ доштани ҳисоби худ ворид шавед
 # followed by link to sign in

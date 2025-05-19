@@ -17,6 +17,11 @@ recovery-phone-signin-sms-body = { $code }-ആണു് താങ്ങളുട
 # Messages should be limited to one segment
 # $code  - 6 digit code used to sign in with a recovery phone as backup for two-step authentication
 recovery-phone-signin-sms-short-body = { -brand-mozilla } സങ്കേതം: { $code }
+# Shorter message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to sign in with a recovery phone as backup for account password reset
+recovery-phone-reset-password-short-body = { -brand-mozilla } സങ്കേതം: { $code }
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
@@ -49,6 +54,9 @@ subplat-legal = നിയമപരം
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = സ്വകാര്യത
 subplat-privacy-website-plaintext = { subplat-privacy }:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+body-android-badge = <img data-l10n-name="google-play-badge" alt="Download { $productName } on { -google-play }">
 # After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-change-plaintext-2 = താങ്ങൾ ഈ നടപടി എടുത്തില്ലെങ്കിൽ ഉടൻ തന്നെ താങ്ങളുടെ രഹസ്യവാക്കു് മാറ്റുക
 #  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
