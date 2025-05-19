@@ -139,6 +139,10 @@ passwordChangeRequired-subject = Tuvastati kahtlane tegevus
 passwordChangeRequired-title = Parooli muutmine on vajalik
 passwordChangeRequired-different-password = <b>Tähtis:</b> vali varem kasutatud paroolist erinev parool ja veendu, et see erineks ka e-posti konto paroolist.
 passwordChangeRequired-different-password-plaintext = Tähtis: vali varem kasutatud paroolist erinev parool ja veendu, et see erineks ka e-posti konto paroolist.
+# Text for button action to create a new account recovery key
+passwordResetWithRecoveryKeyPrompt-action = Loo konto taastevõti
+# colon is followed by a link to create an account recovery key from the account settings page
+passwordResetWithRecoveryKeyPrompt-action-txt = Konto taastevõtme loomine:
 postAddAccountRecovery-action = Konto haldamine
 postAddLinkedAccount-action = Halda kontot
 postAddTwoStepAuthentication-action = Konto haldamine

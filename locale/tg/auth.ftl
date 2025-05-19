@@ -441,6 +441,10 @@ subscriptionSubsequentInvoice-content-next-invoice = Санади дархост
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = Шумо ба «{ $productName }» навсозӣ кардед
 subscriptionUpgrade-title = Ташаккур ба шумо барои такмилдиҳӣ!
+# Variables:
+# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
+# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-upgrade-info-2 = Шумо бо муваффақият ба «{ $productName }» такмил додед.
 
 ## Variables:
 ## $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
@@ -489,3 +493,5 @@ verifySecondaryCode-prompt-2 = Аз ин рамзи тасдиқкунанда �
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = Ҳисоби худро тасдиқ кунед
 verifyShortCode-title-3 = Интернетро боз бо «{ -brand-mozilla }» кашф кунед
+verifyShortCode-prompt-3 = Аз ин рамзи тасдиқкунанда истифода баред:
+verifyShortCode-expiry-notice = Муҳлаташ пас аз 5 дақиқа ба анҷом мерасад.

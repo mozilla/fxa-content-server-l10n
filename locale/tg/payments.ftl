@@ -36,11 +36,13 @@ new-user-enter-email =
     .label = Почтаи электронии худро ворид кунед
 new-user-confirm-email =
     .label = Почтаи электронии худро тасдиқ кунед
+new-user-email-validate = Нишонии почтаи электронӣ эътибор надорад
 new-user-email-validate-confirm = Нишониҳои почтаи электронӣ мувофиқат намекунанд
 
 ## Component - PaymentConfirmation
 
 payment-confirmation-thanks-heading = Ташаккур!
+payment-confirmation-thanks-heading-account-exists = Ташаккур, акнун почтаи электронии худро тафтиш кунед!
 payment-confirmation-order-heading = Тафсилоти фармоиш
 payment-confirmation-invoice-number = Санади дархости пардохт №{ $invoiceNumber }
 # $invoiceDate (Date) - Start date of the latest invoice
@@ -91,6 +93,9 @@ iap-upgrade-get-help-button = Гирифтани кумак
 
 ## Component - PaymentForm
 
+payment-name =
+    .placeholder = Номи пурра
+    .label = Номе, ки дар корти шумо чоп шудааст
 payment-cc =
     .label = Корти шумо
 payment-cancel-btn = Бекор кардан
@@ -101,6 +106,7 @@ payment-validate-name-error = Лутфан, номи худро ворид на�
 
 ## Component - PaymentLegalBlurb
 
+payment-legal-link-paypal-3 = <paypalPrivacyLink>Сиёсати махфияти «{ -brand-paypal }»</paypalPrivacyLink>
 
 ## Component - PaymentMethodHeader
 
@@ -125,9 +131,11 @@ plan-details-list-price = Нархнома
 plan-details-show-button = Намоиш додани тафсилот
 plan-details-hide-button = Пинҳон кардани тафсилот
 plan-details-total-label = Ҳамагӣ
+plan-details-tax = Андозҳо ва ҳаққи хизматрасонӣ
 
 ## Component - PlanErrorDialog
 
+product-no-such-plan = Барои ин маҳсул чунин нақша вуҷуд надорад.
 
 ## Price details including tax
 ## $priceAmount (Number) - The amount billed. It will be formatted as currency.
@@ -135,6 +143,50 @@ plan-details-total-label = Ҳамагӣ
 
 price-details-no-tax = { $priceAmount }
 price-details-tax = { $priceAmount } + { $taxAmount } андоз
+# $intervalCount (Number) - The interval between payments, in days.
+price-details-no-tax-day =
+    { $intervalCount ->
+        [one] { $priceAmount } барои ҳар рӯз
+       *[other] { $priceAmount } барои ҳар { $intervalCount } рӯз
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } барои ҳар рӯз
+           *[other] { $priceAmount } барои ҳар { $intervalCount } рӯз
+        }
+# $intervalCount (Number) - The interval between payments, in weeks.
+price-details-no-tax-week =
+    { $intervalCount ->
+        [one] { $priceAmount } барои ҳар ҳафта
+       *[other] { $priceAmount } барои ҳар { $intervalCount } ҳафта
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } барои ҳар ҳафта
+           *[other] { $priceAmount } барои ҳар { $intervalCount } ҳафта
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+price-details-no-tax-month =
+    { $intervalCount ->
+        [one] { $priceAmount } барои ҳар моҳ
+       *[other] { $priceAmount } барои ҳар { $intervalCount } моҳ
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } барои ҳар моҳ
+           *[other] { $priceAmount } барои ҳар { $intervalCount } моҳ
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+price-details-no-tax-year =
+    { $intervalCount ->
+        [one] { $priceAmount } барои ҳар сол
+       *[other] { $priceAmount } барои ҳар { $intervalCount } сол
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } барои ҳар сол
+           *[other] { $priceAmount } барои ҳар { $intervalCount } сол
+        }
 
 ## Component - SubscriptionTitle
 

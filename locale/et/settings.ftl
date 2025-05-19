@@ -21,6 +21,13 @@
 recovery-key-pdf-heading = Konto taastevõti
 # Shown directly above recovery key value and preceeded by a key icon
 recovery-key-pdf-key-legend = Konto taastevõti
+# Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
+# Password resets without this account recovery key can result in data loss.
+# "key" here refers to "account recovery key"
+recovery-key-pdf-instructions = See võti võimaldab sul parooli unustamisel taastada krüptitud brauseriandmed (sh paroolid, järjehoidjad ja ajaloo). Hoia seda kohas, mida mäletad.
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+recovery-key-pdf-storage-ideas-heading = Kohad võtme hoidmiseks
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -73,6 +80,7 @@ datablock-print =
 ## after signing in.
 
 inline-recovery-key-setup-info = Loo konto taastevõti, et saaksid sünkroonitud sirvimisandmed taastada, kui peaksid parooli unustama.
+inline-recovery-key-setup-start-button = Loo konto taastevõti
 
 ## Input Password
 
@@ -117,6 +125,11 @@ account-recovery-notification-header-value = Ära kaota oma andmeid, kui unustad
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
 
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+flow-recovery-key-download-storage-ideas-heading-v2 = Kohad võtme hoidmiseks:
+flow-recovery-key-download-storage-ideas-folder-v2 = Kaust turvalises seadmes
+flow-recovery-key-download-storage-ideas-print-v2 = Trükitud füüsiline koopia
 
 ## RecoveryKeySetupHint
 ## This is the final step in the account recovery key creation flow after a Sync signin or in account settings
@@ -219,11 +232,17 @@ flow-container-back = Tagasi
 ## Users see this view when they are generating a new account recovery key
 ## This screen asks the user to confirm their password before generating a new key
 
+flow-recovery-key-confirm-pwd-heading-v2 = Turvalisuse huvides sisesta parool uuesti
+flow-recovery-key-confirm-pwd-input-label = Sisesta parool
+# Clicking on this button will check the password and create an account recovery key
+flow-recovery-key-confirm-pwd-submit-button = Loo konto taastevõti
 
 ## FlowRecoveryKeyDownload - Third view in the PageRecoveryKeyCreate flow
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
 
+# The "key" here refers to the term "account recovery key"
+flow-recovery-key-download-info-v2 = See võti võimaldab sul parooli unustamisel taastada krüptitud brauseriandmed (sh paroolid, järjehoidjad ja ajaloo). Hoia seda kohas, mida mäletad — sa ei saa sellele lehele hiljem naasta.
 
 ## FlowRecoveryKeyHint
 ## This is the fourth and final step in the account recovery key creation flow in account settings
@@ -681,6 +700,7 @@ pair-get-started-button = Alusta
 
 ## ResetPasswordConfirmed
 
+reset-password-complete-recovery-key-created = Uus konto taastevõti on loodud. Laadi see kohe alla ja salvesta.
 
 ## CompleteSignin component
 
