@@ -1552,6 +1552,12 @@ complete-reset-password-desktop-relay = { -brand-firefox } спробує пов
 
 # ConfirmBackupCodeResetPassword page
 
+confirm-backup-code-reset-password-input-label = Введіть 10-значний код
+confirm-backup-code-reset-password-confirm-button = Підтвердити
+confirm-backup-code-reset-password-subheader = Введіть резервний код автентифікації
+confirm-backup-code-reset-password-instruction = Введіть один із одноразових кодів, які ви зберегли під час налаштування двоетапної перевірки.
+# Link out to support article: https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+confirm-backup-code-reset-password-locked-out-link = Не можете отримати доступ?
 
 ## Confirm Reset Password With Code
 
@@ -1755,6 +1761,8 @@ signin-reported-message = Наша команда була сповіщена. �
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 signin-token-code-heading-2 = Введіть код підтвердження<span> для свого { -product-mozilla-account(case: "gen") }</span>
+# { $email } represents the email that the user entered to sign in
+signin-token-code-instruction-v2 = Протягом 5 хвилин уведіть код, надісланий на <email>{ $email }</email>.
 signin-token-code-input-label-v2 = Введіть 6-значний код
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Підтвердити
@@ -1819,6 +1827,8 @@ confirm-signup-code-page-title = Введіть код підтвердженн�
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 confirm-signup-code-heading-2 = Введіть код підтвердження <span>для свого { -product-mozilla-account(case: "gen") }</span>
+# { $email } represents the email that the user entered to sign in
+confirm-signup-code-instruction-v2 = Протягом 5 хвилин уведіть код, надісланий на <email>{ $email }</email>.
 confirm-signup-code-input-label = Введіть 6-значний код
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = Підтвердити

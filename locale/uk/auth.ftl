@@ -22,6 +22,16 @@ recovery-phone-signin-sms-body = { $code } – ваш код відновлен�
 # Messages should be limited to one segment
 # $code  - 6 digit code used to sign in with a recovery phone as backup for two-step authentication
 recovery-phone-signin-sms-short-body = Код { -brand-mozilla }: { $code }
+# Message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to sign in with a recovery phone as backup for account password reset
+recovery-phone-reset-password-sms-body = { $code } – ваш код відновлення { -brand-mozilla }. Термін дії закінчується через 5 хвилин.
+# Shorter message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to sign in with a recovery phone as backup for account password reset
+recovery-phone-reset-password-short-body = Код { -brand-mozilla }: { $code }
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
@@ -211,6 +221,7 @@ subscriptionCharges-content-tax = Податки та збори: { $invoiceTaxA
 ##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
 
 subscriptionFirstInvoice-content-charge = Сплачено { $invoiceTotal }, { $invoiceDateOnly }
+subscriptionFirstInvoice-content-credit = Ви отримали кредит у розмірі { $invoiceTotal }, який буде застосовано до ваших майбутніх рахунків.
 subscriptionSupport = Маєте питання щодо передплати? Наша <a data-l10n-name="subscriptionSupportUrl">команда підтримки</a> з радістю вам допоможе.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Маєте питання щодо передплати? Наша команда підтримки з радістю допоможе вам:
@@ -615,6 +626,12 @@ subscriptionRenewalReminder-content-closing = З повагою,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = Команда { $productName }
+subscriptionReplaced-subject = Вашу передплату оновлено у зв'язку з переходом на тарифний план вищого рівня
+subscriptionReplaced-title = Вашу передплату оновлено
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReplaced-content-replaced = Вашу індивідуальну передплату { $productName } замінено, і тепер включено до вашого нового пакету.
+subscriptionReplaced-content-credit = Ви отримаєте кредит за невикористаний час попередньої передплати. Цей кредит буде автоматично застосовано до вашого облікового запису та використано для майбутніх платежів.
+subscriptionReplaced-content-no-action = Вам не потрібно виконувати жодних дій.
 subscriptionsPaymentExpired-subject-1 = Термін дії кредитної картки для ваших передплат завершився, або невдовзі завершиться
 subscriptionsPaymentExpired-title-1 = Термін дії вашої кредитної картки завершився, або невдовзі завершиться
 subscriptionsPaymentExpired-content-1 = Термін дії кредитної картки, якою ви користуєтеся для сплати зазначених передплат, завершився, або невдовзі завершиться.
@@ -636,6 +653,10 @@ subscriptionSubsequentInvoice-content-next-invoice = Наступний плат
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = Ви перейшли на { $productName }
 subscriptionUpgrade-title = Дякуємо вам за передплату!
+# Variables:
+# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
+# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-upgrade-info-2 = Ви успішно перейшли на { $productName }.
 
 ## Variables:
 ## $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
@@ -644,6 +665,12 @@ subscriptionUpgrade-title = Дякуємо вам за передплату!
 ## $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
+subscriptionUpgrade-content-charge-prorated = З вас стягнуто одноразову плату в розмірі { $paymentProrated }, щоб покрити вищу ціну вашої передплати на решту цього розрахункового періоду ({ $productPaymentCycleOld }).
+subscriptionUpgrade-content-charge-credit = Ви отримали кредит у розмірі { $paymentProrated }.
+subscriptionUpgrade-content-starting = Починаючи з наступного рахунку, ваша плата зміниться з { $paymentAmountOld } за { $productPaymentCycleOld } на { $paymentAmountNew } за { $productPaymentCycleNew }.
+# Variables:
+# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-existing = Якщо ваші наявні передплати перетинаються з цим оновленням, ми обробимо їх і надішлемо вам окремий електронний лист із детальною інформацією. Якщо ваш новий план включає продукти, які потребують встановлення, ми надішлемо вам окремий електронний лист з інструкціями щодо налаштування.
 subscriptionUpgrade-auto-renew = Ваша передплата автоматично поновлюватиметься на кожен наступний період, доки ви не її не скасуєте.
 unblockCode-subject = Код підтвердження облікового запису
 unblockCode-title = Це ви виконуєте вхід?
