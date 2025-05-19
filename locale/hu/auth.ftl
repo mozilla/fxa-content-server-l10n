@@ -221,7 +221,7 @@ subscriptionCharges-content-tax = Adók és díjak: { $invoiceTaxAmount }
 ##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
 
 subscriptionFirstInvoice-content-charge = { $invoiceTotal } levonva ekkor: { $invoiceDateOnly }
-subscriptionFirstInvoice-content-credit = { $invoiceTotal } összegű fiókjóváírást kapott, amely a jövőbeni számláin lesz felhasználva.
+subscriptionFirstInvoice-content-credit = { $invoiceTotal } összegű jóváírást kapott, amely a jövőbeni számláin lesz felhasználva.
 subscriptionSupport = Kérdése van az előfizetéséről? A <a data-l10n-name="subscriptionSupportUrl">támogatási csapatunk</a> itt van, hogy segítsen.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Kérdése van az előfizetéséről? A támogatási csapatunk itt van, hogy segítsen:
@@ -663,8 +663,8 @@ subscriptionUpgrade-upgrade-info-2 = Sikeresen frissített erre: { $productName 
 ## $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
-subscriptionUpgrade-content-charge-prorated = Egy egyszeri { $paymentProrated } összegű díjat számoltunk fel, amely a számlázási időszak ({ $productPaymentCycleOld }) hátralévő részében az előfizetés magasabb árat tükrözi.
-subscriptionUpgrade-content-charge-credit = { $paymentProrated } összegű fiókjóváírást kapott.
+subscriptionUpgrade-content-charge-prorated = Egy egyszeri { $paymentProrated } összegű díjat számoltunk fel, amely a számlázási időszak ({ $productPaymentCycleOld }) hátralévő részében a magasabb előfizetési díjat tükrözi.
+subscriptionUpgrade-content-charge-credit = { $paymentProrated } összegű jóváírást kapott.
 subscriptionUpgrade-content-starting = A következő számlától fogva a terhelése megváltozik { $paymentAmountOld }/{ $productPaymentCycleOld } összegről erre: { $paymentAmountNew }/{ $productPaymentCycleNew }.
 # Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
