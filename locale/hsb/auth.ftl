@@ -160,6 +160,11 @@ automated-email-reset =
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext-v2 = Jeli njejsće tutu akciju awtorizował, stajće prošu nětko swoje hesło na { $resetLink } wróćo
+# This message is used by multiple automated emails that notify users of security events on their account
+# "this action" is meant to be a generic term, and could, for example, refer to using a backup authentication code to confirm a password reset
+automated-email-reset-pwd-two-factor =
+    Jeli njejsće tutu akciju wuwjedł, <a data-l10n-name="resetLink">stajće swoje hesło</a> a <a data-l10n-name="twoFactorSettingsLink">stajće dwukročelowu awtentifikaciju</a> hnydom wróćo.
+    Za dalše informacije wopytajće prošu <a data-l10n-name="supportLink">Pomoc { -brand-mozilla }</a>.
 # Followed by link to https://accounts.firefox.com/reset_password
 automated-email-reset-pwd-plaintext-v3 = Jeli njejsće tutu akciju wuwjedł, stajće swoje hesło hnydom wróćo:
 # Followed by link to https://accounts.firefox.com/settings#two-step-authentication
@@ -427,7 +432,7 @@ postChangeRecoveryPhone-preview = Konto so přez dwukročelowu awtentifikaciju �
 postChangeRecoveryPhone-title = Sće swój wobnowjenski telefon změnił
 postChangeRecoveryPhone-description = Maće nětko nowy wobnowjenski telefon. Waše předchadne telefonowe čisło je so zhašało.
 postChangeRecoveryPhone-requested-device = Sće jón požadał wot:
-postConsumeRecoveryCode-title-3 = Waš awtentifikaciski kod za zawěsćenje je so za wróćostajenje hesła wužił
+postConsumeRecoveryCode-title-3 = Waš awtentifikaciski kod za zawěsćenje je so wobkrućenje wróćostajenja hesła wužił
 # After the colon, there is description of the device that the backup authentication code was used on
 # E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
 postConsumeRecoveryCode-description-3 = Wužity kod z:

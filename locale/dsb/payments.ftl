@@ -490,6 +490,7 @@ sub-update-new-plan-daily = { $productName } (kuždy źeń)
 sub-update-new-plan-weekly = { $productName } (kuždy tyźeń)
 sub-update-new-plan-monthly = { $productName } (kuždy mjasec)
 sub-update-new-plan-yearly = { $productName } (kužde lěto)
+sub-update-prorated-upgrade-credit = Pokazany kontowy staw se wašomu kontu pśidawa a za pśiduce zliceńki wužywa.
 
 ## Routes - Subscriptions - Cancel
 

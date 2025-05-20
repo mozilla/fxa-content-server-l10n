@@ -160,6 +160,10 @@ automated-email-reset =
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext-v2 = Jolic njejsćo awtorizěrował toś tu akciju, stajśo pšosym něnto swójo gronidło na { $resetLink } slědk
+# Followed by link to https://accounts.firefox.com/reset_password
+automated-email-reset-pwd-plaintext-v3 = Jolic njejsćo wuwjadł toś tu akciju, stajśo ned swójo gronidło slědk:
+# Followed by link to https://accounts.firefox.com/settings#two-step-authentication
+automated-email-reset-two-factor-plaintext = Stajśo teke dwójokšacowu awtentifikaciju slědk:
 brand-banner-message = Sćo wěźeł, až smy  změnili našo mě wót { -product-firefox-accounts } do { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Dalšne informacije</a>
 cancellationSurvey = Pšosym wobźělśo se na toś tom <a data-l10n-name="cancellationSurveyUrl">krotkem napšašowanju</a>, aby nam pomagał, naše słužby pólěpšyś.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
@@ -423,7 +427,13 @@ postChangeRecoveryPhone-preview = Konto se pśez dwójokšacowu awtentifikaciju 
 postChangeRecoveryPhone-title = Sćo změnił swój wótnowjeński telefon
 postChangeRecoveryPhone-description = Maśo něnto nowy wótnowjeński telefon. Waš pjerwjejšny telefonowy numer jo se wulašował.
 postChangeRecoveryPhone-requested-device = Sćo póžedał jen wót:
+postConsumeRecoveryCode-title-3 = Waš awtentifikaciski kod za zawěsćenje jo se wužył za wobkšuśenje slědkstajenja gronidła
+# After the colon, there is description of the device that the backup authentication code was used on
+# E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
+postConsumeRecoveryCode-description-3 = Wužyty kod z:
 postConsumeRecoveryCode-action = Konto zastojaś
+postConsumeRecoveryCode-subject-v3 = Awtentifikaciski kod za zawěsćenje jo se wužył
+postConsumeRecoveryCode-preview = Pśeglědajśo, lěc wy sćo to był
 postNewRecoveryCodes-subject-2 = Nowy awtentifikaciski kod za zawěsćenje jo se napórał
 postNewRecoveryCodes-title-2 = Sćo napórał kod za zawěsćeńsku awtentifikaciju
 # After the colon, there is information about the device that the authentication codes were created on
