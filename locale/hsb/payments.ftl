@@ -490,6 +490,7 @@ sub-update-new-plan-daily = { $productName } (kóždy dźeń)
 sub-update-new-plan-weekly = { $productName } (kóždy tydźeń)
 sub-update-new-plan-monthly = { $productName } (kóždy měsac)
 sub-update-new-plan-yearly = { $productName } (kóžde lěto)
+sub-update-prorated-upgrade-credit = Pokazany kontowy staw so wašemu kontu přidawa a za přichodne zličbowanki wužiwa.
 
 ## Routes - Subscriptions - Cancel
 
@@ -517,6 +518,7 @@ sub-item-cancel-confirm =
 # Cybersecurity Awareness Month 2023 coupon applied: $11.20 + $0.35 tax
 # Summer Promo VPN coupon applied: $11.20
 sub-promo-coupon-applied = Dobropis { $promotion_name } nałoženy: <priceDetails></priceDetails>
+subscription-management-account-credit-balance = Tute abonementowe płaćenje je k derjeměću na wašim konće wjedło: <priceDetails></priceDetails>
 
 ## Routes - Subscription
 
