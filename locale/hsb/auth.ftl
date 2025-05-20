@@ -427,11 +427,13 @@ postChangeRecoveryPhone-preview = Konto so přez dwukročelowu awtentifikaciju �
 postChangeRecoveryPhone-title = Sće swój wobnowjenski telefon změnił
 postChangeRecoveryPhone-description = Maće nětko nowy wobnowjenski telefon. Waše předchadne telefonowe čisło je so zhašało.
 postChangeRecoveryPhone-requested-device = Sće jón požadał wot:
+postConsumeRecoveryCode-title-3 = Waš awtentifikaciski kod za zawěsćenje je so za wróćostajenje hesła wužił
 # After the colon, there is description of the device that the backup authentication code was used on
 # E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
 postConsumeRecoveryCode-description-3 = Wužity kod z:
 postConsumeRecoveryCode-action = Konto rjadować
 postConsumeRecoveryCode-subject-v3 = Awtentifikaciski kod za zawěsćenje je so wužił
+postConsumeRecoveryCode-preview = Přepruwujće, hač wy sće to był
 postNewRecoveryCodes-subject-2 = Nowe kody za zawěsćensku awtentifikaciju su so wutworili
 postNewRecoveryCodes-title-2 = Sće nowy kod za zawěsćensku awtentifikaciju wutworił
 # After the colon, there is information about the device that the authentication codes were created on
