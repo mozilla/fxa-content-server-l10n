@@ -160,6 +160,10 @@ automated-email-reset =
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext-v2 = Jeli njejsće tutu akciju awtorizował, stajće prošu nětko swoje hesło na { $resetLink } wróćo
+# Followed by link to https://accounts.firefox.com/reset_password
+automated-email-reset-pwd-plaintext-v3 = Jeli njejsće tutu akciju wuwjedł, stajće swoje hesło hnydom wróćo:
+# Followed by link to https://accounts.firefox.com/settings#two-step-authentication
+automated-email-reset-two-factor-plaintext = Stajće tež dwukročelowu awtentifikaciju wróćo:
 brand-banner-message = Sće wědźał, zo smy naše mjeno wot { -product-firefox-accounts } do { -product-mozilla-accounts } změnili? <a data-l10n-name="learnMore">Dalše informacije</a>
 cancellationSurvey = Prošu wobdźělće so na tutym <a data-l10n-name="cancellationSurveyUrl">krótkim naprašowanju</a>, zo byšće nam pomhał, naše słužby polěpšić.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
@@ -423,7 +427,11 @@ postChangeRecoveryPhone-preview = Konto so přez dwukročelowu awtentifikaciju �
 postChangeRecoveryPhone-title = Sće swój wobnowjenski telefon změnił
 postChangeRecoveryPhone-description = Maće nětko nowy wobnowjenski telefon. Waše předchadne telefonowe čisło je so zhašało.
 postChangeRecoveryPhone-requested-device = Sće jón požadał wot:
+# After the colon, there is description of the device that the backup authentication code was used on
+# E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
+postConsumeRecoveryCode-description-3 = Wužity kod z:
 postConsumeRecoveryCode-action = Konto rjadować
+postConsumeRecoveryCode-subject-v3 = Awtentifikaciski kod za zawěsćenje je so wužił
 postNewRecoveryCodes-subject-2 = Nowe kody za zawěsćensku awtentifikaciju su so wutworili
 postNewRecoveryCodes-title-2 = Sće nowy kod za zawěsćensku awtentifikaciju wutworił
 # After the colon, there is information about the device that the authentication codes were created on
