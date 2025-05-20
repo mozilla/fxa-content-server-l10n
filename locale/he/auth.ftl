@@ -413,7 +413,11 @@ postChangeRecoveryPhone-preview = החשבון מוגן באמצעות אימו�
 postChangeRecoveryPhone-title = שינית את טלפון השחזור שלך
 postChangeRecoveryPhone-description = כעת יש לך טלפון חדש לשחזור. מספר הטלפון הקודם שלך נמחק.
 postChangeRecoveryPhone-requested-device = ביקשת אותו מ:
+# After the colon, there is description of the device that the backup authentication code was used on
+# E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
+postConsumeRecoveryCode-description-3 = נעשה שימוש בקוד מ:
 postConsumeRecoveryCode-action = ניהול חשבון
+postConsumeRecoveryCode-preview = כדאי לוודא שהפעולה בוצעה על ידך
 postNewRecoveryCodes-action = ניהול חשבון
 postRemoveAccountRecovery-subject-2 = מפתח לשחזור החשבון נמחק
 postRemoveAccountRecovery-title-3 = מחקת את מפתח שחזור החשבון שלך
@@ -423,6 +427,7 @@ postRemoveAccountRecovery-action = ניהול חשבון
 postRemoveRecoveryPhone-subject = הוסר טלפון לשחזור
 postRemoveRecoveryPhone-preview = החשבון מוגן באמצעות אימות דו־שלבי
 postRemoveRecoveryPhone-title = הוסר טלפון לשחזור
+postRemoveRecoveryPhone-description-v2 = טלפון השחזור שלך הוסר מהגדרות האימות הדו־שלבי שלך.
 postRemoveRecoveryPhone-requested-device = ביקשת אותו מ:
 postRemoveSecondary-subject = כתובת דוא״ל משנית הוסרה
 postRemoveSecondary-title = כתובת דוא״ל משנית הוסרה

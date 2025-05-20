@@ -217,3 +217,4 @@ upgrade-purchase-details-new-plan-weekly = ‏{ $productName } (שבועי)
 upgrade-purchase-details-new-plan-monthly = ‏{ $productName } (חודשי)
 upgrade-purchase-details-new-plan-halfyearly = ‏{ $productName } (6 חודשים)
 upgrade-purchase-details-new-plan-yearly = ‏{ $productName } (שנתי)
+upgrade-purchase-details-prorated-credits = יתרה שלילית המוצגת תחול כזיכוי בחשבון שלך ותשמש לחשבוניות עתידיות.

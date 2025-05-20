@@ -444,6 +444,7 @@ sub-update-new-plan-daily = { $productName } (יומי)
 sub-update-new-plan-weekly = { $productName } (שבועי)
 sub-update-new-plan-monthly = { $productName } (חודשי)
 sub-update-new-plan-yearly = { $productName } (שנתי)
+sub-update-prorated-upgrade-credit = יתרה שלילית המוצגת תחול כזיכוי בחשבון שלך ותשמש לחשבוניות עתידיות.
 
 ## Routes - Subscriptions - Cancel
 
@@ -471,6 +472,7 @@ sub-item-cancel-confirm =
 # Cybersecurity Awareness Month 2023 coupon applied: $11.20 + $0.35 tax
 # Summer Promo VPN coupon applied: $11.20
 sub-promo-coupon-applied = קופון של { $promotion_name } הוחל: <priceDetails></priceDetails>
+subscription-management-account-credit-balance = תשלום מינוי זה הביא לזיכוי ביתרת החשבון שלך: <priceDetails></priceDetails>
 
 ## Routes - Subscription
 
