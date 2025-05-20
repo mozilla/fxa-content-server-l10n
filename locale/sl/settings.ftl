@@ -1214,7 +1214,7 @@ auth-error-214 = Telefonska številka za obnovitev že obstaja
 auth-error-215 = Telefonska številka za obnovitev ne obstaja
 auth-error-216 = Dosežena omejitev števila besedilnih sporočil
 auth-error-218 = Telefonske številke za obnovitev ni mogoče odstraniti, ker manjkajo rezervne overitvene kode.
-auth-error-219 = Ta telefonska številka je registrirana s preveč računi. Poskusite z drugo številko.
+auth-error-219 = To telefonsko številko je registriralo preveč računov. Poskusite z drugo številko.
 auth-error-999 = Nepričakovana napaka
 auth-error-1001 = Poskus prijave preklican
 auth-error-1002 = Seja je potekla. Za nadaljevanje se prijavite.
@@ -1237,7 +1237,7 @@ auth-error-1067 = Napačen e-poštni naslov?
 # number, but they are not completely signed in yet. We'll only show the last 4 digits.
 # Variables:
 #  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
-recovery-phone-number-ending-digits = Števila, ki se končuje s { $lastFourPhoneNumber }
+recovery-phone-number-ending-digits = Številka, ki se končuje na { $lastFourPhoneNumber }
 oauth-error-1000 = Nekaj je šlo narobe. Zaprite ta zavihek in poskusite znova.
 
 ## Cannot Create Account page

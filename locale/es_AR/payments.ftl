@@ -462,7 +462,7 @@ sub-item-cancel-confirm =
 # Cybersecurity Awareness Month 2023 coupon applied: $11.20 + $0.35 tax
 # Summer Promo VPN coupon applied: $11.20
 sub-promo-coupon-applied = Cupón de { $promotion_name } aplicado: <priceDetails></priceDetails>
-subscription-management-account-credit-balance = El pago de esta suscripción resultó en un crédito al saldo de su cuenta: <priceDetails></priceDetails>
+subscription-management-account-credit-balance = El pago de esta suscripción resultó en un crédito al saldo de tu cuenta: <priceDetails></priceDetails>
 
 ## Routes - Subscription
 

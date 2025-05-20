@@ -164,9 +164,9 @@ automated-email-reset-plaintext-v2 = Če tega dejanja niste sprožili vi, takoj 
 # "this action" is meant to be a generic term, and could, for example, refer to using a backup authentication code to confirm a password reset
 automated-email-reset-pwd-two-factor = Če tega dejanja niste storili vi, <a data-l10n-name="resetLink">ponastavite geslo</a> in <a data-l10n-name="twoFactorSettingsLink">ponastavite overitev v dveh korakih</a> desno stran. Za več informacij obiščite <a data-l10n-name="supportLink">Podporo { -brand-mozilla }</a>.
 # Followed by link to https://accounts.firefox.com/reset_password
-automated-email-reset-pwd-plaintext-v3 = Če tega dejanja niste storili vi, takoj ponastavite geslo na:
+automated-email-reset-pwd-plaintext-v3 = Če tega dejanja niste storili vi, takoj ponastavite geslo:
 # Followed by link to https://accounts.firefox.com/settings#two-step-authentication
-automated-email-reset-two-factor-plaintext = Ponastavi tudi overitev v dveh korakih na:
+automated-email-reset-two-factor-plaintext = Ponastavite tudi overitev v dveh korakih:
 brand-banner-message = Ali ste vedeli, da smo se preimenovali iz { -product-firefox-accounts } v { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Več o tem</a>
 cancellationSurvey = Pomagajte nam izboljšati naše storitve, tako da izpolnite to <a data-l10n-name="cancellationSurveyUrl">kratko anketo</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
