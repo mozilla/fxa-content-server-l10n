@@ -154,6 +154,15 @@ automated-email-reset =
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext-v2 = אם לא אישרת פעולה זו, נא לאפס את הססמה שלך כעת בכתובת { $resetLink }
+# This message is used by multiple automated emails that notify users of security events on their account
+# "this action" is meant to be a generic term, and could, for example, refer to using a backup authentication code to confirm a password reset
+automated-email-reset-pwd-two-factor =
+    אם לא ביצעת פעולה זו, יש <a data-l10n-name="resetLink">לאפס את הססמה שלך</a> ובנוסף <a data-l10n-name="twoFactorSettingsLink">לאפס את האימות הדו־שלבי</a> באופן מיידי.
+    למידע נוסף, נא לבקר ב<a data-l10n-name="supportLink">תמיכה של { -brand-mozilla }</a>.
+# Followed by link to https://accounts.firefox.com/reset_password
+automated-email-reset-pwd-plaintext-v3 = אם לא ביצעת פעולה זו, יש לאפס את הססמה שלך באופן מיידי בכתובת:
+# Followed by link to https://accounts.firefox.com/settings#two-step-authentication
+automated-email-reset-two-factor-plaintext = בנוסף, יש לאפס את האימות הדו־שלבי בכתובת:
 brand-banner-message = האם ידעת ששינינו את השם שלנו מ־{ -product-firefox-accounts } ל{ -product-mozilla-accounts }? <a data-l10n-name="learnMore">מידע נוסף</a>
 cancellationSurvey = באפשרותך לעזור לנו לשפר את השירותים שלך על־ידי מילוי <a data-l10n-name="cancellationSurveyUrl">סקר קצר</a> זה.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
