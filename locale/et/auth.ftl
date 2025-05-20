@@ -143,6 +143,10 @@ passwordChangeRequired-different-password-plaintext = Tähtis: vali varem kasuta
 passwordResetWithRecoveryKeyPrompt-action = Loo konto taastevõti
 # colon is followed by a link to create an account recovery key from the account settings page
 passwordResetWithRecoveryKeyPrompt-action-txt = Konto taastevõtme loomine:
+postAddAccountRecovery-subject-3 = Uus konto taastevõti on loodud
+postAddAccountRecovery-title2 = Lõid uue konto taastevõtme
+# Key here refers to account recovery key
+postAddAccountRecovery-body-part1 = Salvesta see võti kindlasse kohta – seda on vaja krüpteeritud sirvimisandmete taastamiseks, kui peaksid parooli unustama.
 postAddAccountRecovery-action = Konto haldamine
 postAddLinkedAccount-action = Halda kontot
 postAddTwoStepAuthentication-action = Konto haldamine
