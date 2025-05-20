@@ -22,6 +22,16 @@ recovery-phone-signin-sms-body = { $code } is your { -brand-mozilla } recovery c
 # Messages should be limited to one segment
 # $code  - 6 digit code used to sign in with a recovery phone as backup for two-step authentication
 recovery-phone-signin-sms-short-body = { -brand-mozilla } code: { $code }
+# Message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to sign in with a recovery phone as backup for account password reset
+recovery-phone-reset-password-sms-body = { $code } is your { -brand-mozilla } recovery code. Expires in 5 minutes.
+# Shorter message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to sign in with a recovery phone as backup for account password reset
+recovery-phone-reset-password-short-body = { -brand-mozilla } code: { $code }
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
@@ -150,6 +160,15 @@ automated-email-reset =
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext-v2 = If you did not authorise this action, please reset your password now at { $resetLink }
+# This message is used by multiple automated emails that notify users of security events on their account
+# "this action" is meant to be a generic term, and could, for example, refer to using a backup authentication code to confirm a password reset
+automated-email-reset-pwd-two-factor =
+    If you didnʼt take this action, then <a data-l10n-name="resetLink">reset your password</a> and <a data-l10n-name="twoFactorSettingsLink">reset two-step authentication</a> right away.
+    For more information, please visit <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
+# Followed by link to https://accounts.firefox.com/reset_password
+automated-email-reset-pwd-plaintext-v3 = If you didnʼt take this action, then reset your password right away at:
+# Followed by link to https://accounts.firefox.com/settings#two-step-authentication
+automated-email-reset-two-factor-plaintext = Also, reset two-step authentication at:
 brand-banner-message = Did you know we changed our name from { -product-firefox-accounts } to { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Learn more</a>
 cancellationSurvey = Please help us improve our services by taking this <a data-l10n-name="cancellationSurveyUrl">short survey</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
@@ -211,6 +230,7 @@ subscriptionCharges-content-tax = Taxes & fees: { $invoiceTaxAmount }
 ##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
 
 subscriptionFirstInvoice-content-charge = Charged { $invoiceTotal } on { $invoiceDateOnly }
+subscriptionFirstInvoice-content-credit = You have received an account credit of { $invoiceTotal }, which will be applied to your future invoices.
 subscriptionSupport = Questions about your subscription? Our <a data-l10n-name="subscriptionSupportUrl">support team</a> is here to help you.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Questions about your subscription? Our support team is here to help you:
@@ -410,7 +430,13 @@ postChangeRecoveryPhone-preview = Account protected by two-step authentication
 postChangeRecoveryPhone-title = You changed your recovery phone
 postChangeRecoveryPhone-description = You now have a new recovery phone. Your previous phone number was deleted.
 postChangeRecoveryPhone-requested-device = You requested it from:
+postConsumeRecoveryCode-title-3 = Your backup authentication code was used to confirm a password reset
+# After the colon, there is description of the device that the backup authentication code was used on
+# E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
+postConsumeRecoveryCode-description-3 = Code used from:
 postConsumeRecoveryCode-action = Manage account
+postConsumeRecoveryCode-subject-v3 = Backup authentication code used
+postConsumeRecoveryCode-preview = Check to make sure this was you
 postNewRecoveryCodes-subject-2 = New backup authentication codes created
 postNewRecoveryCodes-title-2 = You created new backup authentication codes
 # After the colon, there is information about the device that the authentication codes were created on
@@ -644,6 +670,9 @@ subscriptionUpgrade-upgrade-info-2 = You have successfully upgraded to { $produc
 ## $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
+subscriptionUpgrade-content-charge-prorated = You have been charged a one-time fee of { $paymentProrated } to reflect your subscription’s higher price for the remainder of this billing period ({ $productPaymentCycleOld }).
+subscriptionUpgrade-content-charge-credit = You have received an account credit in the amount of { $paymentProrated }.
+subscriptionUpgrade-content-starting = Starting with your next bill, your charge will change from { $paymentAmountOld } per { $productPaymentCycleOld } to { $paymentAmountNew } per { $productPaymentCycleNew }.
 # Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-existing = If any of your existing subscriptions overlap with this upgrade, we’ll handle them and send you a separate email with the details. If your new plan includes products that require installation, we’ll send you a separate email with setup instructions.
