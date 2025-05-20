@@ -164,9 +164,9 @@ automated-email-reset-plaintext-v2 = Wenn Sie diese Aktion nicht autorisiert hab
 # "this action" is meant to be a generic term, and could, for example, refer to using a backup authentication code to confirm a password reset
 automated-email-reset-pwd-two-factor = Wenn Sie diese Maßnahme nicht ausgelöst haben, <a data-l10n-name="resetLink">setzen Sie Ihr Passwort zurück</a> und <a data-l10n-name="twoFactorSettingsLink">setzen Sie die Zwei-Schritt-Authentifizierung zurück</a> richtig entfernt. Weitere Informationen erhalten Sie bei der <a data-l10n-name="supportLink">{ -brand-mozilla }-Hilfe</a>.
 # Followed by link to https://accounts.firefox.com/reset_password
-automated-email-reset-pwd-plaintext-v3 = Wenn Sie diese Maßnahme nicht ausgelöst haben, setzen Sie Ihr Passwort sofort zurück auf:
+automated-email-reset-pwd-plaintext-v3 = Wenn Sie diese Maßnahme nicht ausgelöst haben, setzen Sie Ihr Passwort unter folgender Adresse sofort zurück:
 # Followed by link to https://accounts.firefox.com/settings#two-step-authentication
-automated-email-reset-two-factor-plaintext = Auch Zwei-Schritt-Authentifizierung zurücksetzen auf:
+automated-email-reset-two-factor-plaintext = Setzen Sie außerdem die Zwei-Schritt-Authentifizierung unter folgender Adresse zurück:
 brand-banner-message = Wussten Sie, dass wir unseren Namen von { -product-firefox-accounts } in { -product-mozilla-accounts } geändert haben? <a data-l10n-name="learnMore">Weitere Informationen</a>
 cancellationSurvey = Bitte helfen Sie uns, unsere Dienste zu verbessern, indem Sie an dieser <a data-l10n-name="cancellationSurveyUrl">kurzen Umfrage</a> teilnehmen.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
