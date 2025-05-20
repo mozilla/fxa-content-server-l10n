@@ -228,3 +228,4 @@ upgrade-purchase-details-new-plan-weekly = { $productName } (kuždy tyźeń)
 upgrade-purchase-details-new-plan-monthly = { $productName } (kuždy mjasec)
 upgrade-purchase-details-new-plan-halfyearly = { $productName } (6-mjasecny)
 upgrade-purchase-details-new-plan-yearly = { $productName } (kužde lěto)
+upgrade-purchase-details-prorated-credits = Pokazany kontowy staw se wašomu kontu pśidawa a za pśiduce zliceńki wužywa.
