@@ -160,6 +160,15 @@ automated-email-reset =
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext-v2 = Si tu non autorisa iste action, per favor reinitialisa tu contrasigno ora a { $resetLink }
+# This message is used by multiple automated emails that notify users of security events on their account
+# "this action" is meant to be a generic term, and could, for example, refer to using a backup authentication code to confirm a password reset
+automated-email-reset-pwd-two-factor =
+    Si tu non faceva iste action, alora <a data-l10n-name="resetLink">reinitialisa tu contrasigno</a> e <a data-l10n-name="twoFactorSettingsLink">reinitialisa tu authentication a duo passos</a> immediatemente.
+    Pro altere informationes, visita <a data-l10n-name="supportLink">{ -brand-mozilla } supporto</a>.
+# Followed by link to https://accounts.firefox.com/reset_password
+automated-email-reset-pwd-plaintext-v3 = Si tu non faceva iste action, alora reinitialisa tu contrasigno immediatemente in:
+# Followed by link to https://accounts.firefox.com/settings#two-step-authentication
+automated-email-reset-two-factor-plaintext = Alsi, reinitialisa tu authentication a duo passos in:
 brand-banner-message = Sape tu que nos cambiava nostre nomine ab { -product-firefox-accounts } a { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Saper plus</a>
 cancellationSurvey = Per favor adjuta nos a meliorar nostre servicios redigente iste <a data-l10n-name="cancellationSurveyUrl">breve questionario</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
