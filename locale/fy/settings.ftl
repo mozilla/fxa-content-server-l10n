@@ -1553,6 +1553,15 @@ reset-password-complete-banner-message = Ferjit net in nije accountwerstelkaai t
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 complete-reset-password-desktop-relay = { -brand-firefox } probearret jo werom te stjoeren om in e-mailmasker te brûken neidat jo jo oanmeld hawwe.
 
+# ConfirmBackupCodeResetPassword page
+
+confirm-backup-code-reset-password-input-label = Fier koade fan 10 tekens yn
+confirm-backup-code-reset-password-confirm-button = Befêstigje
+confirm-backup-code-reset-password-subheader = Fier reserve-autentikaasjekoade yn
+confirm-backup-code-reset-password-instruction = Fier ien fan de koaden om ien kear te brûken yn dy’t jo bewarre hawwe by it ynstellen fan autentikaasje yn twa stappen.
+# Link out to support article: https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+confirm-backup-code-reset-password-locked-out-link = Binne jo bûten sluten?
+
 ## Confirm Reset Password With Code
 
 confirm-reset-password-with-code-heading = Kontrolearje jo e-mail
@@ -1579,8 +1588,6 @@ confirm-totp-reset-password-trouble-code = Problemen by it ynfieren fan de koade
 confirm-totp-reset-password-confirm-button = Befêstigje
 confirm-totp-reset-password-input-label-v2 = Fier 6-siferige koade yn
 confirm-totp-reset-password-use-different-account = In oar account brûke
-confirm-recovery-code-reset-password-input-label = Fier koade fan 10 tekens yn
-confirm-recovery-code-reset-password-trouble-code = Tebek
 
 ## ResetPassword start page
 

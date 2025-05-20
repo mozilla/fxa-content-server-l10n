@@ -22,6 +22,16 @@ recovery-phone-signin-sms-body = { $code } är din återställningskod för { -b
 # Messages should be limited to one segment
 # $code  - 6 digit code used to sign in with a recovery phone as backup for two-step authentication
 recovery-phone-signin-sms-short-body = { -brand-mozilla } kod: { $code }
+# Message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to sign in with a recovery phone as backup for account password reset
+recovery-phone-reset-password-sms-body = { $code } är din återställningskod för { -brand-mozilla }. Upphör om 5 minuter.
+# Shorter message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to sign in with a recovery phone as backup for account password reset
+recovery-phone-reset-password-short-body = { -brand-mozilla } kod: { $code }
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
@@ -205,10 +215,13 @@ subscriptionFirstInvoiceDiscount-content-discount-repeating = { $discountDuratio
 # Variables:
 #  $invoiceTaxAmount (String) - The amount of the tax of the subscription invoice, including currency, e.g. $2.00
 subscriptionCharges-content-tax = Skatter och avgifter: { $invoiceTaxAmount }
-# Variables:
-#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
-#  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
+
+## Variables:
+##  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
+
 subscriptionFirstInvoice-content-charge = Debiterade { $invoiceTotal } den { $invoiceDateOnly }
+subscriptionFirstInvoice-content-credit = Du har fått en kredit på { $invoiceTotal } som kommer att tillämpas på dina framtida fakturor.
 subscriptionSupport = Frågor om ditt abonnemang? Vårt <a data-l10n-name="subscriptionSupportUrl">supportteam</a> är här för att hjälpa dig.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Frågor om din prenumeration? Vårt supportteam är här för att hjälpa dig:
@@ -642,13 +655,17 @@ subscriptionUpgrade-title = Tack för att du har uppgraderat!
 # $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-upgrade-info-2 = Du har uppgraderat till { $productName }.
-# Variables:
-# $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
-# $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
-# $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
-# $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
-# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
-subscriptionUpgrade-content-charge-info-different-cycle-2 = Du har debiterats en engångsavgift på { $paymentProrated } för att återspegla ditt abonnemangs högre pris för återstoden av denna { $productPaymentCycleOld }. Från och med din nästa räkning ändras din debitering från { $paymentAmountOld } per { $productPaymentCycleOld } till { $paymentAmountNew } per { $productPaymentCycleNew }.
+
+## Variables:
+## $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
+## $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
+## $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
+## $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
+## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+
+subscriptionUpgrade-content-charge-prorated = Du har debiterats en engångsavgift på { $paymentProrated } för att återspegla ditt abonnemangs högre pris för resten av denna faktureringsperiod ({ $productPaymentCycleOld }).
+subscriptionUpgrade-content-charge-credit = Du har fått en kredit på beloppet { $paymentProrated }.
+subscriptionUpgrade-content-starting = Från och med din nästa räkning ändras din debitering från { $paymentAmountOld } per { $productPaymentCycleOld } till { $paymentAmountNew } per { $productPaymentCycleNew }.
 # Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-existing = Om några av dina befintliga prenumerationer överlappar denna uppgradering, hanterar vi dem och skickar ett separat mejl med detaljerna. Om din nya plan innehåller produkter som kräver installation, skickar vi ett separat e-postmeddelande med installationsinstruktioner.

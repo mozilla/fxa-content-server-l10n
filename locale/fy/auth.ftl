@@ -22,6 +22,16 @@ recovery-phone-signin-sms-body = { $code } is jo { -brand-mozilla }-werstelkoade
 # Messages should be limited to one segment
 # $code  - 6 digit code used to sign in with a recovery phone as backup for two-step authentication
 recovery-phone-signin-sms-short-body = { -brand-mozilla }-koade: { $code }
+# Message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to sign in with a recovery phone as backup for account password reset
+recovery-phone-reset-password-sms-body = { $code } is jo { -brand-mozilla }-werstelkoade. Ferrint oer 5 minuten.
+# Shorter message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to sign in with a recovery phone as backup for account password reset
+recovery-phone-reset-password-short-body = { -brand-mozilla }-koade: { $code }
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
@@ -205,10 +215,13 @@ subscriptionFirstInvoiceDiscount-content-discount-repeating = Koarting foar { $d
 # Variables:
 #  $invoiceTaxAmount (String) - The amount of the tax of the subscription invoice, including currency, e.g. $2.00
 subscriptionCharges-content-tax = Belestingen en taslagen: { $invoiceTaxAmount }
-# Variables:
-#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
-#  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
+
+## Variables:
+##  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
+
 subscriptionFirstInvoice-content-charge = { $invoiceTotal } yn rekkening brocht op { $invoiceDateOnly }
+subscriptionFirstInvoice-content-credit = Jo hawwe in accounttegoed fan { $invoiceTotal } ûntfongen. Dit tegoed wurdt op jo takomstige faktueren tapast.
 subscriptionSupport = Fragen oer jo abonnemint? Us <a data-l10n-name="subscriptionSupportUrl">stipeteam</a> is der om jo te helpen.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Fragen oer jo abonnemint? Us stipeteam is der om jo te helpen:
@@ -642,13 +655,17 @@ subscriptionUpgrade-title = Tank foar it opwurdearjen!
 # $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-upgrade-info-2 = Jo hawwe mei sukses opwurdearre nei { $productName }
-# Variables:
-# $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
-# $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
-# $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
-# $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
-# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
-subscriptionUpgrade-content-charge-info-different-cycle-2 = Der is in ienmalige fergoeding fan { $paymentProrated } yn rekkening brocht om de hegere priis fan jo abonnemint wer te jaan foar de rest fan dizze { $productPaymentCycleOld }. Fan jo folgjende faktuer ôf wiziget jo betelling fan { $paymentAmountOld } yn de { $productPaymentCycleOld } nei { $paymentAmountNew } yn de { $productPaymentCycleNew }.
+
+## Variables:
+## $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
+## $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
+## $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
+## $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
+## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+
+subscriptionUpgrade-content-charge-prorated = Der is ien kear in fergoeding fan { $paymentProrated } yn rekkening brocht om de hegere priis fan jo abonnemint foar de rest fan dizze fakturearingsperioade ({ $productPaymentCycleOld }) wer te jaan.
+subscriptionUpgrade-content-charge-credit = Jo hawwe in accounttegoed ûntfongen foar in bedrach fan { $paymentProrated }.
+subscriptionUpgrade-content-starting = Fan jo folgjende faktuer ôf wizigje jo kosten fan { $paymentAmountOld } per { $productPaymentCycleOld } nei { $paymentAmountNew } per { $productPaymentCycleNew }.
 # Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-existing = As ien fan jo besteande abonneminten oerlaapje mei dizze opwurdearring, sille wy se behannelje en jo in aparte e-mailberjocht stjoere mei de details. As jo nije plan produkten omfettet dy’t ynstallaasje fereaskje, sille wy jo in apart e-mailberjocht stjoere mei ynstallaasje-ynstruksjes.
