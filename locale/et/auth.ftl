@@ -35,6 +35,7 @@ body-android-badge = <img data-l10n-name="google-play-badge" alt="Laadi { $produ
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-ios-badge = <img data-l10n-name="apple-app-badge" alt="Laadi { $productName } alla teenusest { -app-store }">
+automated-email-support = Lisateabe saamiseks külasta <a data-l10n-name="supportLink">{ -brand-mozilla } kasutajatuge</a>.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = See on automaatne teavitus. Kui sa ei algatanud seda toimingut, siis palun muuda ära oma parool:
 # "This request" refers to a modification (addition, change or removal) to the account recovery key.
@@ -61,6 +62,7 @@ automatedEmailRecoveryKey-origin-device-OS-version-only = See päring tuli { $ua
 # Variables:
 # - $uaOS: the user agent's operating system (e.g, MacOS)
 automatedEmailRecoveryKey-origin-device-OS-only = See päring tuli { $uaOS } seadmelt.
+automatedEmailRecoveryKey-delete-key-change-pwd = Kui see ei teinud sina, siis <a data-l10n-name="revokeAccountRecoveryLink">kustuta uus võti</a> ja <a data-l10n-name="passwordChangeLink">muuda oma parooli</a>.
 # Colon is followed by user device info on a separate line (e.g., "Firefox Nightly on Mac OSX 10.11")
 automatedEmailRecoveryKey-origin-plaintext = See päring tuli:
 automated-email-reset =
