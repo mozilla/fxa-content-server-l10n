@@ -427,16 +427,7 @@ postChangeRecoveryPhone-preview = Konto chronione przez uwierzytelnianie dwuetap
 postChangeRecoveryPhone-title = Zmieniono telefon odzyskiwania
 postChangeRecoveryPhone-description = Masz teraz nowy telefon odzyskiwania. Twój poprzedni numer telefonu został usunięty.
 postChangeRecoveryPhone-requested-device = Zażądano z urządzenia:
-postConsumeRecoveryCode-title-2 = Użyto zapasowy kod uwierzytelniania
-# After the colon, there is description of the device that the backup authentication code was used on
-postConsumeRecoveryCode-description-2 = Użyto go na urządzeniu:
 postConsumeRecoveryCode-action = Zarządzaj kontem
-postConsumeRecoveryCode-subject-2 =
-    { $numberRemaining ->
-        [one] Został { $numberRemaining } zapasowy kod uwierzytelniania
-        [few] Zostały { $numberRemaining } zapasowe kody uwierzytelniania
-       *[many] Zostało { $numberRemaining } zapasowych kodów uwierzytelniania
-    }
 postNewRecoveryCodes-subject-2 = Nowe zapasowe kody uwierzytelniania zostały utworzone
 postNewRecoveryCodes-title-2 = Utworzono nowe zapasowe kody uwierzytelniania
 # After the colon, there is information about the device that the authentication codes were created on

@@ -414,15 +414,7 @@ postChangeRecoveryPhone-preview = Mba’ete oñemo’ãva ñemoneĩ mokõi jeku�
 postChangeRecoveryPhone-title = Emoambue pumbyry jeguerujeyrã
 postChangeRecoveryPhone-description = Eguerekóma pumbyry guerujeyrã pyahu. Oguetéma pe pumbyry papapy.
 postChangeRecoveryPhone-requested-device = Ejerure upe guive:
-postConsumeRecoveryCode-title-2 = Reiporureína auvu ñemoneĩ jeykekoha
-# After the colon, there is description of the device that the backup authentication code was used on
-postConsumeRecoveryCode-description-2 = Ojeporu amo:
 postConsumeRecoveryCode-action = Mba’ete ñangareko
-postConsumeRecoveryCode-subject-2 =
-    { $numberRemaining ->
-        [one] 1 auvu ñemoneĩ jeykekoha
-       *[other] Opyta { $numberRemaining } auvu ñemoneĩ jeykekoha
-    }
 postNewRecoveryCodes-subject-2 = Ayvu ñemoneĩrã pyahu jeykekoha moheñoimbyre
 postNewRecoveryCodes-title-2 = Emoheñói ayvu ñemoneĩrã pyahu jeykekoha
 # After the colon, there is information about the device that the authentication codes were created on

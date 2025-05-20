@@ -404,9 +404,6 @@ sub-update-new-plan-weekly = { $productName } (毎週)
 sub-update-new-plan-monthly = { $productName } (毎月)
 sub-update-new-plan-yearly = { $productName } (毎年)
 
-##
-
-
 ## Routes - Subscriptions - Cancel
 
 sub-item-cancel-sub = サブスクリプションをキャンセル

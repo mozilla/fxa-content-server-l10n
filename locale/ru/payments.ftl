@@ -299,7 +299,7 @@ sub-guarantee = 30-дневная гарантия возврата денег
 
 # "Mozilla Accounts" is capitalized in this instance for title case in English
 # This heading is followed by links to Terms of Service and Privacy Notice
-subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts("nominative_uppercase") }
+subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts }
 terms = Условия службы
 privacy = Уведомление о конфиденциальности
 terms-download = Условия загрузки
@@ -462,9 +462,6 @@ sub-update-new-plan-daily = { $productName } (ежедневно)
 sub-update-new-plan-weekly = { $productName } (еженедельно)
 sub-update-new-plan-monthly = { $productName } (ежемесячно)
 sub-update-new-plan-yearly = { $productName } (ежегодно)
-
-##
-
 
 ## Routes - Subscriptions - Cancel
 

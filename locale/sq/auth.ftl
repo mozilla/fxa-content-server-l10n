@@ -410,15 +410,7 @@ postChangeRecoveryPhone-preview = Llogari e mbrojtur nga mirëfilltësim dyfakto
 postChangeRecoveryPhone-title = Ndryshuat telefonin tuaj të rimarrjes
 postChangeRecoveryPhone-description = Tani keni një telefon të ri rimarrjeje. Numri juaj i mëparshëm telefonik u fshi.
 postChangeRecoveryPhone-requested-device = E kërkuar prej:
-postConsumeRecoveryCode-title-2 = Përdorët një kod mirëfilltësimi kopjeruajtje
-# After the colon, there is description of the device that the backup authentication code was used on
-postConsumeRecoveryCode-description-2 = Qe përdorur në:
 postConsumeRecoveryCode-action = Administroni llogarinë
-postConsumeRecoveryCode-subject-2 =
-    { $numberRemaining ->
-        [one] Edhe 1 kod mirëfilltësimi kopjeruajtjeje
-       *[other] Edhe { $numberRemaining } kode mirëfilltësimi kopjeruajtjeje
-    }
 postNewRecoveryCodes-subject-2 = U krijuan kode të rinj mirëfilltësimi kopjeruajtjeje
 postNewRecoveryCodes-title-2 = Krijuat kode të rinj mirëfilltësimi kopjeruajtje
 # After the colon, there is information about the device that the authentication codes were created on

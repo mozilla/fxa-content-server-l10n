@@ -435,9 +435,6 @@ sub-update-new-plan-weekly = { $productName } (astero)
 sub-update-new-plan-monthly = { $productName } (hilero)
 sub-update-new-plan-yearly = { $productName } (urtero)
 
-##
-
-
 ## Routes - Subscriptions - Cancel
 
 sub-item-cancel-sub = Utzi harpidetza

@@ -421,15 +421,7 @@ postChangeRecoveryPhone-preview = Kontot skyddas av tvåstegsautentisering
 postChangeRecoveryPhone-title = Du har bytt återställningstelefon
 postChangeRecoveryPhone-description = Du har nu en ny återställningstelefon. Ditt tidigare telefonnummer raderades.
 postChangeRecoveryPhone-requested-device = Du har begärt det från:
-postConsumeRecoveryCode-title-2 = Du använde en reservautentiseringskod
-# After the colon, there is description of the device that the backup authentication code was used on
-postConsumeRecoveryCode-description-2 = Den användes på:
 postConsumeRecoveryCode-action = Hantera konto
-postConsumeRecoveryCode-subject-2 =
-    { $numberRemaining ->
-        [one] 1 reservautentiseringskod kvar
-       *[other] { $numberRemaining } reservautentiseringskoder kvar
-    }
 postNewRecoveryCodes-subject-2 = Nya reservautentiseringskoder har skapats
 postNewRecoveryCodes-title-2 = Du skapade nya reservautentiseringskoder
 # After the colon, there is information about the device that the authentication codes were created on

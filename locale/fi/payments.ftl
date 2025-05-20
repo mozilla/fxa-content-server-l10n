@@ -429,9 +429,6 @@ sub-update-new-plan-weekly = { $productName } (viikoittain)
 sub-update-new-plan-monthly = { $productName } (kuukausittain)
 sub-update-new-plan-yearly = { $productName } (vuosittain)
 
-##
-
-
 ## Routes - Subscriptions - Cancel
 
 sub-item-cancel-sub = Peruuta tilaus

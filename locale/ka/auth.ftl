@@ -421,15 +421,7 @@ postChangeRecoveryPhone-preview = ანგარიში დაცულია
 postChangeRecoveryPhone-title = თქვენ შეცვალეთ აღდგენის ტელეფონი
 postChangeRecoveryPhone-description = თქვენ უკვე გაქვთ მითითებული აღდგენის ახალი ტელეფონი. წინა ტელეფონი წაშლილია.
 postChangeRecoveryPhone-requested-device = მოთხოვნა იყო აქედან:
-postConsumeRecoveryCode-title-2 = გამოყენებულია შესვლის დასამოწმებელი სამარქაფო კოდი
-# After the colon, there is description of the device that the backup authentication code was used on
-postConsumeRecoveryCode-description-2 = გამოყენებულია აქედან:
 postConsumeRecoveryCode-action = ანგარიშის მართვა
-postConsumeRecoveryCode-subject-2 =
-    { $numberRemaining ->
-        [one] 1 სამარქაფო კოდია დარცენილი შესვლის დასამოწმებლად
-       *[other] { $numberRemaining } სამარქაფო კოდია დარჩენილი შესვლის დასამოწმებლად
-    }
 postNewRecoveryCodes-subject-2 = შეიქმნა შესვლის დასამოწმებელი ახალი სამარქაფო კოდები
 postNewRecoveryCodes-title-2 = შექმნილია შესვლის დასამოწმებელი ახალი სამარქაფო კოდები
 # After the colon, there is information about the device that the authentication codes were created on

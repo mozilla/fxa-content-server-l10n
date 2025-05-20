@@ -435,9 +435,6 @@ sub-update-new-plan-weekly = { $productName } (emnil)
 sub-update-new-plan-monthly = { $productName } (mensil)
 sub-update-new-plan-yearly = { $productName } (annual)
 
-##
-
-
 ## Routes - Subscriptions - Cancel
 
 sub-item-cancel-sub = Annullar l'abunament

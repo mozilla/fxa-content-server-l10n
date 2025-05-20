@@ -432,9 +432,6 @@ sub-update-new-plan-weekly = { $productName } (wöchentlich)
 sub-update-new-plan-monthly = { $productName } (monatlich)
 sub-update-new-plan-yearly = { $productName } (jährlich)
 
-##
-
-
 ## Routes - Subscriptions - Cancel
 
 sub-item-cancel-sub = Dauerauftrag stornieren

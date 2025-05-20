@@ -463,9 +463,6 @@ sub-update-new-plan-weekly = { $productName } (tjedno)
 sub-update-new-plan-monthly = { $productName } (mjesečno)
 sub-update-new-plan-yearly = { $productName } (godišnje)
 
-##
-
-
 ## Routes - Subscriptions - Cancel
 
 sub-item-cancel-sub = Otkaži pretplatu

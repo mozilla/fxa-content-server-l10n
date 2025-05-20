@@ -308,16 +308,7 @@ postChangePrimary-title = Новы асноўны адрас эл.пошты
 #  $email (String) - A user's email address
 postChangePrimary-description-2 = Вы паспяхова змянілі свой асноўны адрас электроннай пошты на { $email }. Гэты адрас цяпер - ваша імя карыстальніка пры ўваходзе ў ваш уліковы запіс { -product-mozilla-account }, а таксама для атрымання абвестак бяспекі
 postChangePrimary-action = Кіраванне ўліковым запісам
-postConsumeRecoveryCode-title-2 = Вы выкарысталі рэзервовы код аўтэнтыфікацыі
-# After the colon, there is description of the device that the backup authentication code was used on
-postConsumeRecoveryCode-description-2 = Ён быў выкарыстаны на:
 postConsumeRecoveryCode-action = Кіраванне ўліковым запісам
-postConsumeRecoveryCode-subject-2 =
-    { $numberRemaining ->
-        [one] Застаўся 1 рэзервовы код аўтэнтыфікацыі
-        [few] Засталося { $numberRemaining } рэзервовых кода аўтэнтыфікацыі
-       *[many] Засталося { $numberRemaining } рэзервовых кодаў аўтэнтыфікацыі
-    }
 postNewRecoveryCodes-subject-2 = Створаны новыя рэзервовыя коды аўтэнтыфікацыі
 postNewRecoveryCodes-title-2 = Вы стварылі новыя рэзервовыя коды аўтэнтыфікацыі
 # After the colon, there is information about the device that the authentication codes were created on

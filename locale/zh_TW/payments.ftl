@@ -432,9 +432,6 @@ sub-update-new-plan-weekly = { $productName }（每週收費）
 sub-update-new-plan-monthly = { $productName }（每月收費）
 sub-update-new-plan-yearly = { $productName }（每年收費）
 
-##
-
-
 ## Routes - Subscriptions - Cancel
 
 sub-item-cancel-sub = 取消訂閱

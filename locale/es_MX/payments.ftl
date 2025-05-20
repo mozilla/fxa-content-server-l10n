@@ -380,9 +380,6 @@ sub-update-new-plan-weekly = { $productName } (Semanal)
 sub-update-new-plan-monthly = { $productName } (Mensual)
 sub-update-new-plan-yearly = { $productName } (Anual)
 
-##
-
-
 ## Routes - Subscriptions - Cancel
 
 sub-item-cancel-sub = Cancelar suscripción

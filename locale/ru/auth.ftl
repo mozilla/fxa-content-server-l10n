@@ -422,16 +422,7 @@ postChangeRecoveryPhone-preview = Аккаунт защищен двухэтап
 postChangeRecoveryPhone-title = Вы изменили свой телефон для восстановления
 postChangeRecoveryPhone-description = Теперь у вас есть новый телефон для восстановления. Ваш предыдущий номер телефона был удалён.
 postChangeRecoveryPhone-requested-device = Вы запросили его из:
-postConsumeRecoveryCode-title-2 = Вы использовали резервный код аутентификации
-# After the colon, there is description of the device that the backup authentication code was used on
-postConsumeRecoveryCode-description-2 = Он был использован на:
 postConsumeRecoveryCode-action = Управление аккаунтом
-postConsumeRecoveryCode-subject-2 =
-    { $numberRemaining ->
-        [one] Остался { $numberRemaining } резервный код аутентификации
-        [few] Осталось { $numberRemaining } резервных кода аутентификации
-       *[many] Осталось { $numberRemaining } резервных кодов аутентификации
-    }
 postNewRecoveryCodes-subject-2 = Созданы новые резервные коды аутентификации
 postNewRecoveryCodes-title-2 = Вы создали новые резервные коды аутентификации
 # After the colon, there is information about the device that the authentication codes were created on

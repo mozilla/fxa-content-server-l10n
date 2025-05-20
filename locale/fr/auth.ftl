@@ -421,15 +421,7 @@ postChangeRecoveryPhone-preview = Compte protégé par l’authentification en d
 postChangeRecoveryPhone-title = Vous avez changé votre numéro de téléphone de secours
 postChangeRecoveryPhone-description = Vous avez maintenant un nouveau numéro de téléphone de secours. Votre précédent numéro de téléphone a été supprimé.
 postChangeRecoveryPhone-requested-device = La demande a été effectuée depuis :
-postConsumeRecoveryCode-title-2 = Vous avez utilisé un code d’authentification de secours
-# After the colon, there is description of the device that the backup authentication code was used on
-postConsumeRecoveryCode-description-2 = Il a été utilisé sur :
 postConsumeRecoveryCode-action = Gérer le compte
-postConsumeRecoveryCode-subject-2 =
-    { $numberRemaining ->
-        [one] Il reste un code d’authentification de secours
-       *[other] Il reste { $numberRemaining } codes d’authentification de secours
-    }
 postNewRecoveryCodes-subject-2 = Nouveaux codes d’authentification de secours créés
 postNewRecoveryCodes-title-2 = Vous avez créé de nouveaux codes d’authentification de secours
 # After the colon, there is information about the device that the authentication codes were created on

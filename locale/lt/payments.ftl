@@ -105,9 +105,6 @@ payment-confirmation-download-button = Pereiti prie atsisiuntimo
 ##   $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 
 
-##
-
-
 ## Routes - Subscriptions - Cancel
 
 

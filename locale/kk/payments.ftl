@@ -435,9 +435,6 @@ sub-update-new-plan-weekly = { $productName } (апта сайын)
 sub-update-new-plan-monthly = { $productName } (ай сайын)
 sub-update-new-plan-yearly = { $productName } (жыл сайын)
 
-##
-
-
 ## Routes - Subscriptions - Cancel
 
 sub-item-cancel-sub = Жазылудан бас тарту

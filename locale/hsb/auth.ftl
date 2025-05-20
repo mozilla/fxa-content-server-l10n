@@ -423,17 +423,7 @@ postChangeRecoveryPhone-preview = Konto so přez dwukročelowu awtentifikaciju �
 postChangeRecoveryPhone-title = Sće swój wobnowjenski telefon změnił
 postChangeRecoveryPhone-description = Maće nětko nowy wobnowjenski telefon. Waše předchadne telefonowe čisło je so zhašało.
 postChangeRecoveryPhone-requested-device = Sće jón požadał wot:
-postConsumeRecoveryCode-title-2 = Sće kod za zawěsćensku awtentifikaciju wužił
-# After the colon, there is description of the device that the backup authentication code was used on
-postConsumeRecoveryCode-description-2 = Je so wužil na:
 postConsumeRecoveryCode-action = Konto rjadować
-postConsumeRecoveryCode-subject-2 =
-    { $numberRemaining ->
-        [one] { $numberRemaining } kod za zawěsćensku awtentifikaciju wyše
-        [two] { $numberRemaining } kodaj za zawěsćensku awtentifikaciju wyše
-        [few] { $numberRemaining } kody za zawěsćensku awtentifikaciju wyše
-       *[other] { $numberRemaining } kodow za zawěsćensku awtentifikaciju wyše
-    }
 postNewRecoveryCodes-subject-2 = Nowe kody za zawěsćensku awtentifikaciju su so wutworili
 postNewRecoveryCodes-title-2 = Sće nowy kod za zawěsćensku awtentifikaciju wutworił
 # After the colon, there is information about the device that the authentication codes were created on

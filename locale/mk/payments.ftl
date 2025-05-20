@@ -111,9 +111,6 @@ new-user-submit = Претплати се сега
 ##   $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 
 
-##
-
-
 ## Routes - Subscriptions - Cancel
 
 

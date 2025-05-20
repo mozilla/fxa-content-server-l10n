@@ -421,15 +421,7 @@ postChangeRecoveryPhone-preview = Account beskerme troch twa-stapsautentikaasje
 postChangeRecoveryPhone-title = Jo hawwe jo wersteltelefoannûmer wizige
 postChangeRecoveryPhone-description = Jo hawwe no in nij wersteltelefoannûmer. Jo foarige telefoannûmer is fuortsmiten.
 postChangeRecoveryPhone-requested-device = Jo hawwe it opfrege fanôf:
-postConsumeRecoveryCode-title-2 = Jo hawwe in reserve-autentikaasjekoade brûkt
-# After the colon, there is description of the device that the backup authentication code was used on
-postConsumeRecoveryCode-description-2 = Dizze is brûkt op:
 postConsumeRecoveryCode-action = Account beheare
-postConsumeRecoveryCode-subject-2 =
-    { $numberRemaining ->
-        [one] Noch 1 reserve-autentikaasjekoade oer
-       *[other] Noch { $numberRemaining } reserve-autentikaasjekoaden oer
-    }
 postNewRecoveryCodes-subject-2 = Nije reserve-autentikaasjekoaden oanmakke
 postNewRecoveryCodes-title-2 = Jo hawwe nije reserve-autentikaasjekoaden oanmakke
 # After the colon, there is information about the device that the authentication codes were created on

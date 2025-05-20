@@ -409,15 +409,7 @@ postChangeRecoveryPhone-preview = Reikningur er varinn með tveggja-þrepa auðk
 postChangeRecoveryPhone-title = Þú breyttir endurheimtusímanúmerinu þínu
 postChangeRecoveryPhone-description = Þú ert nú með nýtt endurheimtusímanúmer. Fyrra endurheimtusímanúmeri þínu var eytt.
 postChangeRecoveryPhone-requested-device = Þú baðst um það frá:
-postConsumeRecoveryCode-title-2 = Þú notaðir varaauðkenningarkóða
-# After the colon, there is description of the device that the backup authentication code was used on
-postConsumeRecoveryCode-description-2 = Hann var notaður á:
 postConsumeRecoveryCode-action = Sýsla með reikning
-postConsumeRecoveryCode-subject-2 =
-    { $numberRemaining ->
-        [one] 1 varaauðkenningarkóði eftir
-       *[other] { $numberRemaining } varaauðkenningarkóðar eftir
-    }
 postNewRecoveryCodes-subject-2 = Nýjir varaauðkenningarkóðar búnir til
 postNewRecoveryCodes-title-2 = Þú bjóst til varaauðkenningarkóða
 # After the colon, there is information about the device that the authentication codes were created on

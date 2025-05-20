@@ -408,11 +408,7 @@ postChangeRecoveryPhone-preview = Akun dilindungi oleh otentikasi dua langkah
 postChangeRecoveryPhone-title = Anda mengubah ponsel pemulihan Anda
 postChangeRecoveryPhone-description = Anda sekarang memiliki telepon pemulihan baru. Nomor telepon Anda sebelumnya telah dihapus.
 postChangeRecoveryPhone-requested-device = Anda memintanya dari:
-postConsumeRecoveryCode-title-2 = Anda menggunakan kode autentikasi cadangan
-# After the colon, there is description of the device that the backup authentication code was used on
-postConsumeRecoveryCode-description-2 = Itu digunakan pada:
 postConsumeRecoveryCode-action = Kelola akun
-postConsumeRecoveryCode-subject-2 = { $numberRemaining } kode otentikasi cadangan tersisa
 postNewRecoveryCodes-subject-2 = Kode otentikasi cadangan baru dibuat
 postNewRecoveryCodes-title-2 = Anda membuat kode autentikasi cadangan baru
 # After the colon, there is information about the device that the authentication codes were created on

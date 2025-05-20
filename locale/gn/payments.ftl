@@ -435,9 +435,6 @@ sub-update-new-plan-weekly = { $productName } (Arapokõindygua)
 sub-update-new-plan-monthly = { $productName } (Jasygua)
 sub-update-new-plan-yearly = { $productName } (Arygua)
 
-##
-
-
 ## Routes - Subscriptions - Cancel
 
 sub-item-cancel-sub = Mboheraguapy jeheja

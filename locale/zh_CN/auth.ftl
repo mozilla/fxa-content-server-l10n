@@ -418,14 +418,7 @@ postChangeRecoveryPhone-preview = 账户受两步验证保护
 postChangeRecoveryPhone-title = 您更改了恢复电话号码
 postChangeRecoveryPhone-description = 您已设置新的恢复电话号码，先前的电话号码已删除。
 postChangeRecoveryPhone-requested-device = 您从下列位置请求：
-postConsumeRecoveryCode-title-2 = 您使用了备用验证码
-# After the colon, there is description of the device that the backup authentication code was used on
-postConsumeRecoveryCode-description-2 = 使用于：
 postConsumeRecoveryCode-action = 管理账户
-postConsumeRecoveryCode-subject-2 =
-    { $numberRemaining ->
-       *[other] 剩下 { $numberRemaining } 枚备用验证码
-    }
 postNewRecoveryCodes-subject-2 = 已生成新的备份验证码
 postNewRecoveryCodes-title-2 = 您已生成新的备用验证码
 # After the colon, there is information about the device that the authentication codes were created on

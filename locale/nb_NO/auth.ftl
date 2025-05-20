@@ -370,15 +370,7 @@ postChangePrimary-title = Ny primær e-post
 #  $email (String) - A user's email address
 postChangePrimary-description-2 = Du har endret den primære e-postadressen din til { $email }. Denne adressen benytter du som brukernavn for å logge inn på din { -product-mozilla-account }, samt for å ta imot sikkerhetsvarsler og bekreftelser på innlogginger.
 postChangePrimary-action = Behandle konto
-postConsumeRecoveryCode-title-2 = Du brukte en reserve-autentiseringskode
-# After the colon, there is description of the device that the backup authentication code was used on
-postConsumeRecoveryCode-description-2 = Den ble brukt på:
 postConsumeRecoveryCode-action = Behandle konto
-postConsumeRecoveryCode-subject-2 =
-    { $numberRemaining ->
-        [one] 1 reserve-autentiseringskode igjen
-       *[other] { $numberRemaining } reserve-autentiseringskoder igjen
-    }
 postNewRecoveryCodes-subject-2 = Nye reserve-autentiseringskoder opprettet
 postNewRecoveryCodes-title-2 = Du opprettet nye reserve-autentiseringskoder
 # After the colon, there is information about the device that the authentication codes were created on

@@ -174,9 +174,6 @@ sub-update-new-plan-label = Нов план
 ##   $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 
 
-##
-
-
 ## Routes - Subscriptions - Cancel
 
 sub-item-cancel-sub = Прекратяване на абонамент

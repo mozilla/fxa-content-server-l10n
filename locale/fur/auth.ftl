@@ -409,15 +409,7 @@ postChangeRecoveryPhone-preview = Account protet de autenticazion in doi passaç
 postChangeRecoveryPhone-title = Tu âs cambiât il numar di telefon pal recupar dal account
 postChangeRecoveryPhone-description = Cumò tu âs un gnûf numar di telefon pal recupar dal account. Il numar di telefon di prime al è stât eliminât.
 postChangeRecoveryPhone-requested-device = Richieste fate di:
-postConsumeRecoveryCode-title-2 = Tu âs doprât un codiç di autenticazion di backup
-# After the colon, there is description of the device that the backup authentication code was used on
-postConsumeRecoveryCode-description-2 = Al è stât doprât su:
 postConsumeRecoveryCode-action = Gjestìs account
-postConsumeRecoveryCode-subject-2 =
-    { $numberRemaining ->
-        [one] Al reste 1 codiç di autenticazion di backup
-       *[other] A restin { $numberRemaining } codiçs di autenticazion di backup
-    }
 postNewRecoveryCodes-subject-2 = A son stâts creâts gnûfs codiçs di autenticazion di backup
 postNewRecoveryCodes-title-2 = Tu âs creât gnûfs codiçs di autenticazion di backup
 # After the colon, there is information about the device that the authentication codes were created on

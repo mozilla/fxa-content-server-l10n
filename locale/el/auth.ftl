@@ -423,15 +423,7 @@ postChangeRecoveryPhone-preview = Ο λογαριασμός προστατεύε
 postChangeRecoveryPhone-title = Αλλάξατε το τηλέφωνο ανάκτησής σας
 postChangeRecoveryPhone-description = Έχετε πλέον ένα νέο τηλέφωνο ανάκτησης. Ο προηγούμενος αριθμός τηλεφώνου σας διαγράφηκε.
 postChangeRecoveryPhone-requested-device = Το ζητήσατε από το:
-postConsumeRecoveryCode-title-2 = Χρησιμοποιήσατε έναν εφεδρικό κωδικό ταυτοποίησης
-# After the colon, there is description of the device that the backup authentication code was used on
-postConsumeRecoveryCode-description-2 = Χρησιμοποιήθηκε στο:
 postConsumeRecoveryCode-action = Διαχείριση λογαριασμού
-postConsumeRecoveryCode-subject-2 =
-    { $numberRemaining ->
-        [one] Απομένει 1 εφεδρικός κωδικός ταυτοποίησης
-       *[other] Απομένουν { $numberRemaining } εφεδρικοί κωδικοί ταυτοποίησης
-    }
 postNewRecoveryCodes-subject-2 = Δημιουργήθηκαν νέοι εφεδρικοί κωδικοί ταυτοποίησης
 postNewRecoveryCodes-title-2 = Δημιουργήσατε νέους εφεδρικούς κωδικούς ταυτοποίησης
 # After the colon, there is information about the device that the authentication codes were created on

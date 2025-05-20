@@ -418,14 +418,7 @@ postChangeRecoveryPhone-preview = 已透過兩階段驗證機制保護您的帳�
 postChangeRecoveryPhone-title = 您已更改救援電話號碼
 postChangeRecoveryPhone-description = 您已更新救援電話號碼，舊號碼已刪除。
 postChangeRecoveryPhone-requested-device = 您從下列位置要求：
-postConsumeRecoveryCode-title-2 = 您使用了備用驗證碼
-# After the colon, there is description of the device that the backup authentication code was used on
-postConsumeRecoveryCode-description-2 = 使用於：
 postConsumeRecoveryCode-action = 管理帳號
-postConsumeRecoveryCode-subject-2 =
-    { $numberRemaining ->
-       *[other] 剩下 { $numberRemaining } 組備用驗證碼
-    }
 postNewRecoveryCodes-subject-2 = 已產生新的備用驗證碼
 postNewRecoveryCodes-title-2 = 您已產生新的備用驗證碼
 # After the colon, there is information about the device that the authentication codes were created on

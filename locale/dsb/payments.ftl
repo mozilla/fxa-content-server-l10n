@@ -491,9 +491,6 @@ sub-update-new-plan-weekly = { $productName } (kuždy tyźeń)
 sub-update-new-plan-monthly = { $productName } (kuždy mjasec)
 sub-update-new-plan-yearly = { $productName } (kužde lěto)
 
-##
-
-
 ## Routes - Subscriptions - Cancel
 
 sub-item-cancel-sub = Abonement wupowěźeś

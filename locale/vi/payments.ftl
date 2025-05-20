@@ -407,9 +407,6 @@ sub-update-new-plan-weekly = { $productName } (Hàng tuần)
 sub-update-new-plan-monthly = { $productName } (Hàng tháng)
 sub-update-new-plan-yearly = { $productName } (Hàng năm)
 
-##
-
-
 ## Routes - Subscriptions - Cancel
 
 sub-item-cancel-sub = Hủy đăng ký

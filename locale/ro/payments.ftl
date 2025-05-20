@@ -197,9 +197,6 @@ sub-update-total-label = Total nou
 ##   $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 
 
-##
-
-
 ## Routes - Subscriptions - Cancel
 
 sub-item-cancel-sub = Anulează abonamentul

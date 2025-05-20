@@ -421,15 +421,7 @@ postChangeRecoveryPhone-preview = Cuntu prutettu cu l'autinticazzioni a du' fatt
 postChangeRecoveryPhone-title = Canciasti u nùmmaru di tilèfunu di ricùpiru
 postChangeRecoveryPhone-description = Ora ài un nùmmaru di tilèfunu di ricùpiru novu. Chiḍḍu vecchiu fu scancillatu.
 postChangeRecoveryPhone-requested-device = L'addumannasti di:
-postConsumeRecoveryCode-title-2 = Usasti un còdici d'autinticazzioni di sicurizza
-# After the colon, there is description of the device that the backup authentication code was used on
-postConsumeRecoveryCode-description-2 = Fu usatu nni:
 postConsumeRecoveryCode-action = Manija cuntu
-postConsumeRecoveryCode-subject-2 =
-    { $numberRemaining ->
-        [one] arristau 1 còdici d'autinticazzioni di sicurizza
-       *[other] arristaru { $numberRemaining } còdici d'autinticazzioni di sicurizza
-    }
 postNewRecoveryCodes-subject-2 = Còdici d'autinticazzioni di sicurizza criati novi
 postNewRecoveryCodes-title-2 = Criasti còdici d'autinticazzioni di sicurizza novi
 # After the colon, there is information about the device that the authentication codes were created on

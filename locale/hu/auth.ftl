@@ -421,15 +421,7 @@ postChangeRecoveryPhone-preview = Kétlépcsős hitelesítéssel védett fiók
 postChangeRecoveryPhone-title = Módosította a helyreállítási telefonszámát
 postChangeRecoveryPhone-description = Új helyreállítási telefonszáma van. Az előző telefonszám törölve lett.
 postChangeRecoveryPhone-requested-device = Innen kérte:
-postConsumeRecoveryCode-title-2 = Egy tartalék hitelesítési kódot használt
-# After the colon, there is description of the device that the backup authentication code was used on
-postConsumeRecoveryCode-description-2 = A következőn használták:
 postConsumeRecoveryCode-action = Fiók kezelése
-postConsumeRecoveryCode-subject-2 =
-    { $numberRemaining ->
-        [one] 1 tartalék hitelesítési kódja maradt
-       *[other] { $numberRemaining } tartalék hitelesítési kódja maradt
-    }
 postNewRecoveryCodes-subject-2 = Új tartalék hitelesítési kódok létrehozva
 postNewRecoveryCodes-title-2 = Új tartalék hitelesítési kódokat hozott létre
 # After the colon, there is information about the device that the authentication codes were created on

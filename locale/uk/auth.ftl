@@ -422,16 +422,7 @@ postChangeRecoveryPhone-preview = Обліковий запис захищено
 postChangeRecoveryPhone-title = Ви змінили телефон для відновлення
 postChangeRecoveryPhone-description = Тепер у вас є новий телефон для відновлення. Ваш попередній номер телефону видалено.
 postChangeRecoveryPhone-requested-device = Ви зробили запит з:
-postConsumeRecoveryCode-title-2 = Ви використали резервний код автентифікації
-# After the colon, there is description of the device that the backup authentication code was used on
-postConsumeRecoveryCode-description-2 = Його використано на:
 postConsumeRecoveryCode-action = Керування обліковим записом
-postConsumeRecoveryCode-subject-2 =
-    { $numberRemaining ->
-        [one] Залишився 1 резервний код автентифікації
-        [few] Залишилося { $numberRemaining } резервні коди автентифікації
-       *[many] Залишилося { $numberRemaining }резервних кодів автентифікації
-    }
 postNewRecoveryCodes-subject-2 = Створено нові резервні коди автентифікації
 postNewRecoveryCodes-title-2 = Ви створили нові резервні коди автентифікації
 # After the colon, there is information about the device that the authentication codes were created on

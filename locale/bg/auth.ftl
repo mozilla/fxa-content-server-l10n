@@ -148,8 +148,6 @@ postAddTwoStepAuthentication-action = Управление на профила
 postChangePrimary-subject = Основен електронен адрес е обновен
 postChangePrimary-title = Нов основен ел. адрес
 postChangePrimary-action = Управление на профила
-# After the colon, there is description of the device that the backup authentication code was used on
-postConsumeRecoveryCode-description-2 = Използван е на:
 postConsumeRecoveryCode-action = Управление на профила
 postNewRecoveryCodes-action = Управление на профила
 postRemoveAccountRecovery-action = Управление на профила

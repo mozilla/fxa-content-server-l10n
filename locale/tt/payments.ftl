@@ -255,9 +255,6 @@ sub-update-new-plan-weekly = { $productName } (атналык)
 sub-update-new-plan-monthly = { $productName } (айлык)
 sub-update-new-plan-yearly = { $productName } (еллык)
 
-##
-
-
 ## Routes - Subscriptions - Cancel
 
 sub-item-cancel-sub = Язылудан баш тарту

@@ -432,9 +432,6 @@ sub-update-new-plan-weekly = { $productName } (Haftalık)
 sub-update-new-plan-monthly = { $productName } (Aylık)
 sub-update-new-plan-yearly = { $productName } (Yıllık)
 
-##
-
-
 ## Routes - Subscriptions - Cancel
 
 sub-item-cancel-sub = Aboneliği iptal et

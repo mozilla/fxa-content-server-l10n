@@ -224,16 +224,7 @@ postAddTwoStepAuthentication-code-required-2 = Од сада, од вас ће �
 postChangePrimary-subject = Примарна адреса е-поште је ажурирана
 postChangePrimary-title = Нова примарна адреса е-поште
 postChangePrimary-action = Управљајте налогом
-postConsumeRecoveryCode-title-2 = Искористили сте резервни приступни код
-# After the colon, there is description of the device that the backup authentication code was used on
-postConsumeRecoveryCode-description-2 = Искоришћен је на:
 postConsumeRecoveryCode-action = Управљајте налогом
-postConsumeRecoveryCode-subject-2 =
-    { $numberRemaining ->
-        [one] Остао је 1 резервни приступни код
-        [few] Остала су { $numberRemaining } резервна приступна кода
-       *[other] Остало је { $numberRemaining } резервних приступних кодова
-    }
 postNewRecoveryCodes-subject-2 = Нови резервни приступни кодови су направљени
 postNewRecoveryCodes-title-2 = Направили сте нове резервне приступне кодове
 # After the colon, there is information about the device that the authentication codes were created on

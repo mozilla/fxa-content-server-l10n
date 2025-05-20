@@ -371,9 +371,6 @@ sub-update-new-plan-weekly = { $productName } (ਹਫ਼ਤੇਵਾਰ)
 sub-update-new-plan-monthly = { $productName } (ਮਹੀਨੇਵਾਰ)
 sub-update-new-plan-yearly = { $productName } (ਸਾਲਾਨਾ)
 
-##
-
-
 ## Routes - Subscriptions - Cancel
 
 sub-item-cancel-sub = ਮੈਂਬਰੀ ਰੱਦ ਕਰੋ

@@ -335,9 +335,6 @@ postChangeRecoveryPhone-subject = Телефони барқарорсозӣ на
 postChangeRecoveryPhone-preview = Ҳисоб бо санҷиши ҳаққонияти дуқадама ҳифз карда шуд
 postChangeRecoveryPhone-title = Шумо телефони барқарорсозии худро иваз кардед
 postChangeRecoveryPhone-requested-device = Шумо онро дар дастгоҳи зерин дархост кардед:
-postConsumeRecoveryCode-title-2 = Шумо аз нусхаи эҳтиётии рамзи санҷиши ҳаққоният истифода кардед
-# After the colon, there is description of the device that the backup authentication code was used on
-postConsumeRecoveryCode-description-2 = Он дар дастгоҳи зерин истифода карда шуд:
 postConsumeRecoveryCode-action = Идоракунии ҳисоб
 postNewRecoveryCodes-action = Идоракунии ҳисоб
 postRemoveAccountRecovery-subject-2 = Калиди барқарорсозии ҳисоб нест карда шуд

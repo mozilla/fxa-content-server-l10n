@@ -420,15 +420,7 @@ postChangeRecoveryPhone-preview = Hesabınız iki aşamalı doğrulamayla korunu
 postChangeRecoveryPhone-title = Kurtarma telefonunuzu değiştirdiniz
 postChangeRecoveryPhone-description = Artık yeni bir kurtarma telefonunuz var. Önceki telefon numaranız silindi.
 postChangeRecoveryPhone-requested-device = Bu cihazdan istediniz:
-postConsumeRecoveryCode-title-2 = Yedek kimlik doğrulama kodu kullandınız
-# After the colon, there is description of the device that the backup authentication code was used on
-postConsumeRecoveryCode-description-2 = Kullanılan cihaz:
 postConsumeRecoveryCode-action = Hesabı yönet
-postConsumeRecoveryCode-subject-2 =
-    { $numberRemaining ->
-        [one] 1 yedek kimlik doğrulama kodunuz kaldı
-       *[other] { $numberRemaining } yedek kimlik doğrulama kodunuz kaldı
-    }
 postNewRecoveryCodes-subject-2 = Yeni yedek kimlik doğrulama kodları oluşturuldu
 postNewRecoveryCodes-title-2 = Yeni yedek kimlik doğrulama kodları oluşturdunuz
 # After the colon, there is information about the device that the authentication codes were created on

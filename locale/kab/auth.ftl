@@ -315,9 +315,6 @@ postChangePrimary-title = Imayl amezwaru amaynut
 #  $email (String) - A user's email address
 postChangePrimary-description-2 = Asnifel n { $email } am imay amezwaru yedda akken iwata.tansa-agi attan tura d isem-ik n useqdac i yis ad teqneḍ γer umiḍan-ik { -product-mozilla-account }, daγen tansa-a ar γur-s ad ttwaznen ilγa n teγlist akked
 postChangePrimary-action = Sefrek amiḍan
-postConsumeRecoveryCode-title-2 = tesqedceḍ tangalt n usesteb n uḥraz
-# After the colon, there is description of the device that the backup authentication code was used on
-postConsumeRecoveryCode-description-2 = Yettwaseqdec deg:
 postConsumeRecoveryCode-action = Sefrek amiḍan
 postNewRecoveryCodes-action = Sefrek amiḍan
 postRemoveAccountRecovery-subject-2 = Tasarut n tririt n umiḍan tettwakkes

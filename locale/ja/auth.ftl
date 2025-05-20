@@ -399,14 +399,7 @@ postChangePrimary-title = 新しい優先メールアドレス
 #  $email (String) - A user's email address
 postChangePrimary-description-2 = 優先メールアドレスが { $email } に変更されました。このアドレスは今後、{ -product-mozilla-account }へログインする際、そしてセキュリティ通知やログイン確認を受け取る際のユーザー名となります。
 postChangePrimary-action = アカウント管理
-postConsumeRecoveryCode-title-2 = バックアップ認証コードを使用しました
-# After the colon, there is description of the device that the backup authentication code was used on
-postConsumeRecoveryCode-description-2 = コードを使用した端末:
 postConsumeRecoveryCode-action = アカウント管理
-postConsumeRecoveryCode-subject-2 =
-    { $numberRemaining ->
-       *[other] 残りバックアップ認証コードは { $numberRemaining } 個です
-    }
 postNewRecoveryCodes-subject-2 = 新しいバックアップ認証コードが生成されました
 postNewRecoveryCodes-title-2 = 新しいバックアップ認証コードを生成しました
 # After the colon, there is information about the device that the authentication codes were created on

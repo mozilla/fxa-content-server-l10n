@@ -421,15 +421,7 @@ postChangeRecoveryPhone-preview = Konto beskyttet af totrinsgodkendelse
 postChangeRecoveryPhone-title = Du ændrede dit telefonnummer til genoprettelse
 postChangeRecoveryPhone-description = Du har nu et nyt telefonnummer til genoprettelse. Dit tidligere telefonnummer blev slettet.
 postChangeRecoveryPhone-requested-device = Du har bedt om det fra:
-postConsumeRecoveryCode-title-2 = Du har brugt en reserve-godkendelseskode
-# After the colon, there is description of the device that the backup authentication code was used on
-postConsumeRecoveryCode-description-2 = Den blev brugt på:
 postConsumeRecoveryCode-action = Håndter konto
-postConsumeRecoveryCode-subject-2 =
-    { $numberRemaining ->
-        [one] 1 reserve-godkendelseskode tilbage
-       *[other] { $numberRemaining } reserve-godkendelseskoder tilbage
-    }
 postNewRecoveryCodes-subject-2 = Nye reserve-godkendelseskoder oprettet
 postNewRecoveryCodes-title-2 = Du oprettede nye reserve-godkendelseskoder
 # After the colon, there is information about the device that the authentication codes were created on

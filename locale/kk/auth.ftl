@@ -368,15 +368,7 @@ postChangePrimary-action = Тіркелгіні басқару
 postChangeRecoveryPhone-subject = Қалпына келтіру телефоны жаңартылды
 postChangeRecoveryPhone-preview = Тіркелгі екі факторлы аутентификациямен қорғалған
 postChangeRecoveryPhone-title = Сіз қалпына келтіру телефон нөмірін өзгерттіңіз
-postConsumeRecoveryCode-title-2 = Сіз сақтық аутентификация кодын пайдаландыңыз
-# After the colon, there is description of the device that the backup authentication code was used on
-postConsumeRecoveryCode-description-2 = Ол келесі жерде пайдаланылды:
 postConsumeRecoveryCode-action = Тіркелгіні басқару
-postConsumeRecoveryCode-subject-2 =
-    { $numberRemaining ->
-        [one] 1 сақтық аутентификация коды қалды
-       *[other] { $numberRemaining } сақтық аутентификация коды қалды
-    }
 postNewRecoveryCodes-subject-2 = Жаңа сақтық көшірме аутентификация кодтары жасалды
 postNewRecoveryCodes-title-2 = Сіз жаңа сақтық көшірме аутентификация кодтарын жасадыңыз
 # After the colon, there is information about the device that the authentication codes were created on

@@ -381,15 +381,7 @@ postChangeRecoveryPhone-preview = ਖਾਤਾ ਦੋ-ਪੜ੍ਹਾਵੀਂ �
 postChangeRecoveryPhone-title = ਤੁਸੀਂ ਆਪਣੇ ਰਿਕਵਰੀ ਫ਼ੋਨ ਨੂੰ ਬਦਲਿਆ ਹੈ
 postChangeRecoveryPhone-description = ਤੁਹਾਡੇ ਕੋਲ ਹੁਣ ਨਵਾਂ ਰਿਕਵਰੀ ਫ਼ੋਨ ਨੰਬਰ ਹੈ। ਤੁਹਾਡਾ ਪੁਰਾਣਾ ਫ਼ੋਨ ਨੰਬਰ ਹਟਾਇਆ ਗਿਆ ਸੀ।
 postChangeRecoveryPhone-requested-device = ਤੁਸੀ ਇਸ ਨੂੰ ਇੱਥੋਂ ਬੇਨਤੀ ਕੀਤੀ ਸੀ:
-postConsumeRecoveryCode-title-2 = ਤੁਸੀਂ ਇੱਕ ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਵਰਤਿਆ ਹੈ
-# After the colon, there is description of the device that the backup authentication code was used on
-postConsumeRecoveryCode-description-2 = ਇਸ ਨੂੰ ਵਰਤਿਆ ਗਿਆ ਸੀ:
 postConsumeRecoveryCode-action = ਖਾਤੇ ਦਾ ਇੰਤਜ਼ਾਮ ਕਰੋ
-postConsumeRecoveryCode-subject-2 =
-    { $numberRemaining ->
-        [one] 1 ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਬਚਿਆ
-       *[other] { $numberRemaining } ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਬਚੇ ਹਨ
-    }
 postNewRecoveryCodes-subject-2 = ਨਵੇਂ ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਬਣਾਏ
 postNewRecoveryCodes-title-2 = ਤੁਸੀਂ ਨਵੇਂ ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਬਣਾਏ
 # After the colon, there is information about the device that the authentication codes were created on

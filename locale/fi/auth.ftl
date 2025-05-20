@@ -394,15 +394,7 @@ postChangePrimary-title = Uusi ensisijainen sähköposti
 postChangePrimary-description-2 = Olet vaihtanut ensisijaiseksi sähköpostiosoitteeksi { $email }. Tämä osoite on nyt käyttäjätunnuksesi { -product-mozilla-account }lle kirjautuessasi sekä osoite, johon tietoturvailmoitukset ja kirjautumisvahvistukset lähetetään.
 postChangePrimary-action = Hallinnoi tiliä
 postChangeRecoveryPhone-preview = Tili suojattu kaksivaiheisella todennuksella
-postConsumeRecoveryCode-title-2 = Käytit varatodennuskoodin
-# After the colon, there is description of the device that the backup authentication code was used on
-postConsumeRecoveryCode-description-2 = Se käytettiin käyttäen:
 postConsumeRecoveryCode-action = Hallinnoi tiliä
-postConsumeRecoveryCode-subject-2 =
-    { $numberRemaining ->
-        [one] 1 varatodennuskoodi jäljellä
-       *[other] { $numberRemaining } varatodennuskoodia jäljellä
-    }
 postNewRecoveryCodes-subject-2 = Uudet varatodennuskoodit luotu
 postNewRecoveryCodes-title-2 = Loit uudet varatodennuskoodit
 # After the colon, there is information about the device that the authentication codes were created on

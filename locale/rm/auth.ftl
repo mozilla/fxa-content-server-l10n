@@ -409,15 +409,7 @@ postChangeRecoveryPhone-preview = Il conto è protegì da l’autentificaziun en
 postChangeRecoveryPhone-title = Ti has midà il numer da telefon per la recuperaziun da tes conto
 postChangeRecoveryPhone-description = Ti has ussa in nov numer da telefon per la recuperaziun dal conto. Il numer da telefon precedent è vegnida stizzà.
 postChangeRecoveryPhone-requested-device = Tia dumonda deriva da:
-postConsumeRecoveryCode-title-2 = Ti has utilisà in code d'autentificaziun da backup
-# After the colon, there is description of the device that the backup authentication code was used on
-postConsumeRecoveryCode-description-2 = El è vegnì utilisà sin:
 postConsumeRecoveryCode-action = Administrar il conto
-postConsumeRecoveryCode-subject-2 =
-    { $numberRemaining ->
-        [one] I resta anc 1 code d'autentificaziun da backup
-       *[other] I restan anc { $numberRemaining } codes d'autentificaziun da backup
-    }
 postNewRecoveryCodes-subject-2 = Creà novs codes d'autentificaziun da backup
 postNewRecoveryCodes-title-2 = Ti has creà novs codes d'autentificaziun da backup
 # After the colon, there is information about the device that the authentication codes were created on

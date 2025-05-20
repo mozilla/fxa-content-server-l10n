@@ -425,19 +425,7 @@ postChangeRecoveryPhone-preview = Mae'r cyfrif wedi'i ddiogelu gan ddilysiad dau
 postChangeRecoveryPhone-title = Rydych wedi newid eich ffôn adfer
 postChangeRecoveryPhone-description = Mae gennych ffôn adfer newydd nawr. Cafodd eich rhif ffôn blaenorol ei ddileu.
 postChangeRecoveryPhone-requested-device = Rydych wedi gofyn amdano o:
-postConsumeRecoveryCode-title-2 = Rydych wedi defnyddio cod dilysu wrth gefn
-# After the colon, there is description of the device that the backup authentication code was used on
-postConsumeRecoveryCode-description-2 = Cafodd ei ddefnyddio ar:
 postConsumeRecoveryCode-action = Rheoli cyfrif
-postConsumeRecoveryCode-subject-2 =
-    { $numberRemaining ->
-        [zero] Dim cod dilysu wrth gefn ar ôl
-        [one] 1 cod dilysu wrth gefn ar ôl
-        [two] { $numberRemaining } cod dilysu wrth gefn ar ôl
-        [few] { $numberRemaining } cod dilysu wrth gefn ar ôl
-        [many] { $numberRemaining } cod dilysu wrth gefn ar ôl
-       *[other] { $numberRemaining } cod dilysu wrth gefn ar ôl
-    }
 postNewRecoveryCodes-subject-2 = Crëwyd codau dilysu wrth gefn newydd
 postNewRecoveryCodes-title-2 = Rydych wedi creu codau dilysu wrth gefn newydd
 # After the colon, there is information about the device that the authentication codes were created on

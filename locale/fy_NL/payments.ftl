@@ -435,9 +435,6 @@ sub-update-new-plan-weekly = { $productName } (wykliks)
 sub-update-new-plan-monthly = { $productName } (moanliks)
 sub-update-new-plan-yearly = { $productName } (jierliks)
 
-##
-
-
 ## Routes - Subscriptions - Cancel
 
 sub-item-cancel-sub = Abonnemint opsizze

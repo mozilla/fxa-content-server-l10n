@@ -422,16 +422,7 @@ postChangeRecoveryPhone-preview = Účet chránený dvojstupňovou autentifikác
 postChangeRecoveryPhone-title = Zmenili ste si telefón na obnovenie účtu
 postChangeRecoveryPhone-description = Teraz máte nové telefónne číslo na obnovenie účtu. Vaše predchádzajúce telefónne číslo bolo odstránené.
 postChangeRecoveryPhone-requested-device = Požiadali ste o to z:
-postConsumeRecoveryCode-title-2 = Použili ste záložný overovací kód
-# After the colon, there is description of the device that the backup authentication code was used on
-postConsumeRecoveryCode-description-2 = Bol použitý na:
 postConsumeRecoveryCode-action = Spravovať účet
-postConsumeRecoveryCode-subject-2 =
-    { $numberRemaining ->
-        [one] Zostáva { $numberRemaining } záložný overovací kód
-        [few] Zostávajú { $numberRemaining } záložné overovacie kódy
-       *[other] Zostáva { $numberRemaining } záložných overovacích kódov
-    }
 postNewRecoveryCodes-subject-2 = Boli vytvorené nové záložné overovacie kódy
 postNewRecoveryCodes-title-2 = Vytvorili ste nové záložné overovacie kódy
 # After the colon, there is information about the device that the authentication codes were created on

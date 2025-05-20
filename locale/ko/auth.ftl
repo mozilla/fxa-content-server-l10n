@@ -409,11 +409,7 @@ postChangeRecoveryPhone-preview = 2단계 인증으로 보호되는 계정
 postChangeRecoveryPhone-title = 복구 전화번호를 변경했습니다.
 postChangeRecoveryPhone-description = 새로운 계정 복구 전화번호가 생성되었습니다. 이전 전화번호는 삭제되었습니다.
 postChangeRecoveryPhone-requested-device = 다음에서 요청했습니다:
-postConsumeRecoveryCode-title-2 = 백업 인증 코드를 사용하였습니다.
-# After the colon, there is description of the device that the backup authentication code was used on
-postConsumeRecoveryCode-description-2 = 사용된 기기:
 postConsumeRecoveryCode-action = 계정 관리
-postConsumeRecoveryCode-subject-2 = { $numberRemaining }개의 백업 인증 코드 남음
 postNewRecoveryCodes-subject-2 = 새 백업 인증 코드가 생성됨
 postNewRecoveryCodes-title-2 = 새 백업 인증 코드를 생성했습니다
 # After the colon, there is information about the device that the authentication codes were created on

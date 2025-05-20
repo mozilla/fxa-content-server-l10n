@@ -410,15 +410,7 @@ postChangeRecoveryPhone-preview = Conta protegida por autenticação em duas eta
 postChangeRecoveryPhone-title = Você alterou seu celular de recuperação de conta
 postChangeRecoveryPhone-description = Agora você tem um novo celular de recuperação de conta. Seu número de celular anterior foi excluído.
 postChangeRecoveryPhone-requested-device = Você solicitou a partir de:
-postConsumeRecoveryCode-title-2 = Você usou um código de autenticação de backup
-# After the colon, there is description of the device that the backup authentication code was used on
-postConsumeRecoveryCode-description-2 = Foi usado no:
 postConsumeRecoveryCode-action = Gerenciar conta
-postConsumeRecoveryCode-subject-2 =
-    { $numberRemaining ->
-        [one] Resta 1 código de autenticação de backup
-       *[other] Resta { $numberRemaining } códigos de autenticação de backup
-    }
 postNewRecoveryCodes-subject-2 = Criados novos códigos de autenticação de backup
 postNewRecoveryCodes-title-2 = Você criou novos códigos de autenticação de backup
 # After the colon, there is information about the device that the authentication codes were created on

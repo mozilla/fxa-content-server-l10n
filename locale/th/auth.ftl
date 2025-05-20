@@ -375,15 +375,7 @@ postChangePrimary-title = อีเมลหลักใหม่
 #  $email (String) - A user's email address
 postChangePrimary-description-2 = คุณได้เปลี่ยนแปลงอีเมลหลักเป็น { $email } สำเร็จแล้ว ที่อยู่นี้จะเป็นชื่อผู้ใช้ของคุณสำหรับการลงชื่อเข้าใน{ -product-mozilla-account } ของคุณ รวมถึงการรับการแจ้งเตือนความปลอดภัยและการยืนยันการลงชื่อเข้า
 postChangePrimary-action = จัดการบัญชี
-postConsumeRecoveryCode-title-2 = คุณใช้รหัสยืนยันตัวตนสำรองไปแล้ว
-# After the colon, there is description of the device that the backup authentication code was used on
-postConsumeRecoveryCode-description-2 = รหัสถูกใช้ใน:
 postConsumeRecoveryCode-action = จัดการบัญชี
-postConsumeRecoveryCode-subject-2 =
-    { $numberRemaining ->
-        [one] เหลือรหัสยืนยันตัวตนสำรองอีก 1 รหัส
-       *[other] เหลือรหัสยืนยันตัวตนสำรองอีก { $numberRemaining } รหัส
-    }
 postNewRecoveryCodes-subject-2 = สร้างรหัสยืนยันตัวตนสำรองใหม่แล้ว
 postNewRecoveryCodes-title-2 = คุณได้สร้างรหัสยืนยันตัวตนสำรองใหม่แล้ว
 # After the colon, there is information about the device that the authentication codes were created on

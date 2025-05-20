@@ -138,9 +138,6 @@ sub-update-new-plan-label = نیا منصوبہ
 ##   $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 
 
-##
-
-
 ## Routes - Subscriptions - Cancel
 
 sub-item-cancel-sub = رکنیت منسوخ کریں

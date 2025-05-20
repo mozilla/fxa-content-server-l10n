@@ -434,9 +434,6 @@ sub-update-new-plan-weekly = { $productName } (E përjavshme)
 sub-update-new-plan-monthly = { $productName } (E përmuajshme)
 sub-update-new-plan-yearly = { $productName } (E përvitshme)
 
-##
-
-
 ## Routes - Subscriptions - Cancel
 
 sub-item-cancel-sub = Anulojeni Pajtimin

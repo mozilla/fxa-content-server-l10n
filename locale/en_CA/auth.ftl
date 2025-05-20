@@ -421,15 +421,7 @@ postChangeRecoveryPhone-preview = Account protected by two-step authentication
 postChangeRecoveryPhone-title = You changed your recovery phone
 postChangeRecoveryPhone-description = You now have a new recovery phone. Your previous phone number was deleted.
 postChangeRecoveryPhone-requested-device = You requested it from:
-postConsumeRecoveryCode-title-2 = You used a backup authentication code
-# After the colon, there is description of the device that the backup authentication code was used on
-postConsumeRecoveryCode-description-2 = It was used on:
 postConsumeRecoveryCode-action = Manage account
-postConsumeRecoveryCode-subject-2 =
-    { $numberRemaining ->
-        [one] 1 backup authentication code left
-       *[other] { $numberRemaining } backup authentication codes left
-    }
 postNewRecoveryCodes-subject-2 = New backup authentication codes created
 postNewRecoveryCodes-title-2 = You created new backup authentication codes
 # After the colon, there is information about the device that the authentication codes were created on

@@ -410,15 +410,7 @@ postChangeRecoveryPhone-preview = Kontoen er verna av tostegs-godkjenning
 postChangeRecoveryPhone-title = Du endra gjenopprettingstelefon
 postChangeRecoveryPhone-description = Du har no ein ny gjenopprettingstelefon. Det førre telefon-nummeret ditt vart sletta.
 postChangeRecoveryPhone-requested-device = Du ba om det frå:
-postConsumeRecoveryCode-title-2 = Du brukte ein reserve-godkjenningskode
-# After the colon, there is description of the device that the backup authentication code was used on
-postConsumeRecoveryCode-description-2 = Han vart brukt på:
 postConsumeRecoveryCode-action = Handsam kontoen
-postConsumeRecoveryCode-subject-2 =
-    { $numberRemaining ->
-        [one] 1 reserve-godkjenningskode
-       *[other] { $numberRemaining } reserve-godkjenningskodar att
-    }
 postNewRecoveryCodes-subject-2 = Nye reserve-godkjenningskodar oppretta
 postNewRecoveryCodes-title-2 = Du oppretta nye reserve-godkjenningskodar
 # After the colon, there is information about the device that the authentication codes were created on

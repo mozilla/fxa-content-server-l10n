@@ -222,9 +222,6 @@ sub-update-total-label = Ronojel k'ak'a'
 ##   $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 
 
-##
-
-
 ## Routes - Subscriptions - Cancel
 
 sub-item-cancel-sub = Tiq'at tz'ib'axïk b'i'aj

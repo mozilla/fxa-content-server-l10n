@@ -423,17 +423,7 @@ postChangeRecoveryPhone-preview = Račun je zaščiten s overjanjem v dveh korak
 postChangeRecoveryPhone-title = Spremenili ste telefonsko številko za obnovitev
 postChangeRecoveryPhone-description = Zdaj imate novo telefonsko številko za obnovitev. Prejšnja številka je bila izbrisana.
 postChangeRecoveryPhone-requested-device = To ste zahtevali z naslednje naprave:
-postConsumeRecoveryCode-title-2 = Uporabili ste rezervno overitveno kodo
-# After the colon, there is description of the device that the backup authentication code was used on
-postConsumeRecoveryCode-description-2 = Uporabljena je bila na naslednji napravi:
 postConsumeRecoveryCode-action = Upravljanje računa
-postConsumeRecoveryCode-subject-2 =
-    { $numberRemaining ->
-        [one] Imate še 1 rezervno overitveno kodo
-        [two] Imate še { $numberRemaining } rezervni overitveni kodi
-        [few] Imate še { $numberRemaining } rezervne overitvene kode
-       *[other] Imate še { $numberRemaining } rezervnih overitvenih kod
-    }
 postNewRecoveryCodes-subject-2 = Ustvarjene nove rezervne overitvene kode
 postNewRecoveryCodes-title-2 = Ustvarili ste nove rezervne overitvene kode
 # After the colon, there is information about the device that the authentication codes were created on

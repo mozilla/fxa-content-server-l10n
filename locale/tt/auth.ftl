@@ -284,15 +284,7 @@ postChangeAccountRecovery-action = Хисап белән идарә итү
 postChangePrimary-subject = Төп эл. почта адресы яңартылды
 postChangePrimary-title = Яңа төп электрон почта адресы
 postChangePrimary-action = Хисап белән идарә итү
-postConsumeRecoveryCode-title-2 = Сез резерв копия аутентификация кодын кулландыгыз
-# After the colon, there is description of the device that the backup authentication code was used on
-postConsumeRecoveryCode-description-2 = Бу җиһазда кулланылды:
 postConsumeRecoveryCode-action = Хисап белән идарә итү
-postConsumeRecoveryCode-subject-2 =
-    { $numberRemaining ->
-        [one] Бары тик бер резерв копия аутентификация коды калды
-       *[other] Бары тик { $numberRemaining } резерв копия аутентификация коды калды
-    }
 postNewRecoveryCodes-subject-2 = Яңа резерв копия аутентификация кодлары ясалды
 postNewRecoveryCodes-title-2 = Сез яңа резерв копия аутентификация кодларын булдырдгыз
 # After the colon, there is information about the device that the authentication codes were created on

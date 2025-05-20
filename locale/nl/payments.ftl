@@ -435,9 +435,6 @@ sub-update-new-plan-weekly = { $productName } (wekelijks)
 sub-update-new-plan-monthly = { $productName } (maandelijks)
 sub-update-new-plan-yearly = { $productName } (jaarlijks)
 
-##
-
-
 ## Routes - Subscriptions - Cancel
 
 sub-item-cancel-sub = Abonnement opzeggen

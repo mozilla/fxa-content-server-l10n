@@ -409,15 +409,7 @@ postChangeRecoveryPhone-preview = Bi urratseko autentifikazioaren bidez babestut
 postChangeRecoveryPhone-title = Berreskuratzeko telefonoa aldatu duzu
 postChangeRecoveryPhone-description = Orain berreskuratzeko telefono berri bat duzu. Zure aurreko telefono-zenbakia ezabatu egin da.
 postChangeRecoveryPhone-requested-device = Honi eskatu diozu:
-postConsumeRecoveryCode-title-2 = Babeskopiarako autentifikazio-kodea erabili duzu
-# After the colon, there is description of the device that the backup authentication code was used on
-postConsumeRecoveryCode-description-2 = Data honetan erabili zen:
 postConsumeRecoveryCode-action = Kudeatu kontua
-postConsumeRecoveryCode-subject-2 =
-    { $numberRemaining ->
-        [one] Autentifikazio-kode 1 bakarrik gelditzen da
-       *[other] { $numberRemaining } autentifikazio-kode bakarrik gelditzen dira
-    }
 postNewRecoveryCodes-subject-2 = Sortu dira babeskopiko autentifikazio-kode berriak
 postNewRecoveryCodes-title-2 = Babeskopiarako autentifikazio-kodea berriak sortu dituzu
 # After the colon, there is information about the device that the authentication codes were created on

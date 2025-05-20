@@ -423,15 +423,7 @@ postChangeRecoveryPhone-description =
     Tu ora ha un nove numero de telephono de recuperation.
     Tu previe numero de telephono ha essite delite.
 postChangeRecoveryPhone-requested-device = Tu ha requirite illo ab:
-postConsumeRecoveryCode-title-2 = Tu ha usate un codice de authentication de reserva
-# After the colon, there is description of the device that the backup authentication code was used on
-postConsumeRecoveryCode-description-2 = Illo era usate sur:
 postConsumeRecoveryCode-action = Gerer le conto
-postConsumeRecoveryCode-subject-2 =
-    { $numberRemaining ->
-        [one] 1 codice authentication de reserva restate
-       *[other] { $numberRemaining } codices authentication de reserva restate
-    }
 postNewRecoveryCodes-subject-2 = Nove codice authentication de reserva create
 postNewRecoveryCodes-title-2 = Tu ha create nove codices authentication de reserva
 # After the colon, there is information about the device that the authentication codes were created on

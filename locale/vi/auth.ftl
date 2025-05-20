@@ -420,14 +420,7 @@ postChangeRecoveryPhone-preview = Tài khoản được bảo vệ bằng xác t
 postChangeRecoveryPhone-title = Bạn đã thay đổi số điện thoại khôi phục của mình
 postChangeRecoveryPhone-description = Bây giờ bạn có số điện thoại khôi phục mới. Số điện thoại trước đó của bạn đã bị xóa.
 postChangeRecoveryPhone-requested-device = Bạn đã yêu cầu nó từ:
-postConsumeRecoveryCode-title-2 = Bạn đã sử dụng mã xác thực dự phòng
-# After the colon, there is description of the device that the backup authentication code was used on
-postConsumeRecoveryCode-description-2 = Nó đã được sử dụng vào:
 postConsumeRecoveryCode-action = Quản lý tài khoản
-postConsumeRecoveryCode-subject-2 =
-    { $numberRemaining ->
-       *[other] Còn lại { $numberRemaining } mã xác thực dự phòng
-    }
 postNewRecoveryCodes-subject-2 = Đã tạo mã xác thực dự phòng mới
 postNewRecoveryCodes-title-2 = Bạn đã tạo mã xác thực dự phòng mới
 # After the colon, there is information about the device that the authentication codes were created on

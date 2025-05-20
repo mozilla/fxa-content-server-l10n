@@ -435,9 +435,6 @@ sub-update-new-plan-weekly = { $productName } (heti)
 sub-update-new-plan-monthly = { $productName } (havi)
 sub-update-new-plan-yearly = { $productName } (évi)
 
-##
-
-
 ## Routes - Subscriptions - Cancel
 
 sub-item-cancel-sub = Előfizetés lemondása
