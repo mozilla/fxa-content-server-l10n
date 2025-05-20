@@ -8,6 +8,8 @@
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Sünkrooniseeri seadmed">
 body-devices-image = <img data-l10n-name="devices-image" alt="Seadmed">
 fxa-privacy-url = { -brand-mozilla } privaatsuspoliitika
+moz-accounts-privacy-url-2 = { -product-mozilla-accounts(capitalization: "uppercase") } privaatsusteatis
+moz-accounts-terms-url = { -product-mozilla-accounts(capitalization: "uppercase") } kasutustingimused
 subplat-automated-email = See e-kiri on saadetud automaatselt. Kui sa ei tellinud seda, siis ei ole sul vaja midagi teha.
 subplat-privacy-notice = Privaatsusreeglid
 subplat-privacy-plaintext = Privaatsusreeglid:
@@ -20,7 +22,9 @@ subplat-reactivate = Aktiveeri tellimus uuesti
 subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Värskenda arveldusinfot
 subplat-privacy-policy = { -brand-mozilla } privaatsuspoliitika
+subplat-privacy-policy-2 = { -product-mozilla-accounts(capitalization: "uppercase") } privaatsusteatis
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
+subplat-moz-terms = { -product-mozilla-accounts(capitalization: "uppercase") } kasutustingimused
 subplat-legal = Õiguslik teave
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Privaatsusest
@@ -33,6 +37,32 @@ body-android-badge = <img data-l10n-name="google-play-badge" alt="Laadi { $produ
 body-ios-badge = <img data-l10n-name="apple-app-badge" alt="Laadi { $productName } alla teenusest { -app-store }">
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = See on automaatne teavitus. Kui sa ei algatanud seda toimingut, siis palun muuda ära oma parool:
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+# - $uaOSVersion - the user agent's operating system version
+automatedEmailRecoveryKey-origin-device-all = See päring tuli { $uaBrowser } brauserilt { $uaOS } { $uaOSVersion } seadmes.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+automatedEmailRecoveryKey-origin-device-browser-os = See päring tuli { $uaBrowser } brauserilt { $uaOS } seadmes.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+automatedEmailRecoveryKey-origin-device-browser-only = See päring tuli { $uaBrowser } brauserilt.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+# - $uaOSVersion - the user agent's operating system version
+automatedEmailRecoveryKey-origin-device-OS-version-only = See päring tuli { $uaOS } { $uaOSVersion } seadmelt.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+automatedEmailRecoveryKey-origin-device-OS-only = See päring tuli { $uaOS } seadmelt.
+# Colon is followed by user device info on a separate line (e.g., "Firefox Nightly on Mac OSX 10.11")
+automatedEmailRecoveryKey-origin-plaintext = See päring tuli:
 automated-email-reset =
     Tegemist on automaatselt saadetud kirjaga; kui sa pole seda toimingut lubanud, siis <a data-l10n-name="resetLink">palun lähtesta oma parool</a>.
     Lisateabe saamiseks külasta <a data-l10n-name="supportLink">{ -brand-mozilla } abikeskust</a>.
@@ -147,9 +177,12 @@ postAddAccountRecovery-subject-3 = Uus konto taastevõti on loodud
 postAddAccountRecovery-title2 = Lõid uue konto taastevõtme
 # Key here refers to account recovery key
 postAddAccountRecovery-body-part1 = Salvesta see võti kindlasse kohta – seda on vaja krüpteeritud sirvimisandmete taastamiseks, kui peaksid parooli unustama.
+# Key here refers to account recovery key
+postAddAccountRecovery-body-part2 = Seda võtit saab kasutada ainult üks kord. Pärast selle kasutamist loome sulle automaatselt uue. Või saad igal ajal konto seadetes uue luua.
 postAddAccountRecovery-action = Konto haldamine
 postAddLinkedAccount-action = Halda kontot
 postAddTwoStepAuthentication-action = Konto haldamine
+postChangeAccountRecovery-body-part2 = Salvesta uus võti kindlasse kohta – seda on vaja krüpteeritud sirvimisandmete taastamiseks, kui peaksid parooli unustama.
 postChangePrimary-subject = Peamine e-posti aadress on uuendatud
 postChangePrimary-title = Uus peamine e-posti aadress
 postChangePrimary-action = Konto haldamine
