@@ -431,6 +431,7 @@ sub-update-new-plan-daily = { $productName }（每日收費）
 sub-update-new-plan-weekly = { $productName }（每週收費）
 sub-update-new-plan-monthly = { $productName }（每月收費）
 sub-update-new-plan-yearly = { $productName }（每年收費）
+sub-update-prorated-upgrade-credit = 下方的負值將轉為您帳號中的餘額點數，並在後續付款時折抵。
 
 ## Routes - Subscriptions - Cancel
 

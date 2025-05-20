@@ -158,6 +158,15 @@ automated-email-reset = 這是由系統自動發出的郵件，若您並未授�
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext-v2 = 若您並未進行此變更，請到 { $resetLink } 重設密碼
+# This message is used by multiple automated emails that notify users of security events on their account
+# "this action" is meant to be a generic term, and could, for example, refer to using a backup authentication code to confirm a password reset
+automated-email-reset-pwd-two-factor =
+    若這不是您操作的，請立即<a data-l10n-name="resetLink">重設密碼</a>並<a data-l10n-name="twoFactorSettingsLink">重設兩階段驗證設定</a>。
+    若需更多資訊，請造訪 <a data-l10n-name="supportLink">{ -brand-mozilla } 技術支援站</a>。
+# Followed by link to https://accounts.firefox.com/reset_password
+automated-email-reset-pwd-plaintext-v3 = 若您並未進行此操作，請立即至此處重設密碼：
+# Followed by link to https://accounts.firefox.com/settings#two-step-authentication
+automated-email-reset-two-factor-plaintext = 也請到此處重設兩階段驗證設定：
 brand-banner-message = 您知道我們將 { -product-firefox-accounts }的名稱更改為 { -product-mozilla-accounts }了嗎？<a data-l10n-name="learnMore">更多資訊</a>
 cancellationSurvey = 請填寫這份<a data-l10n-name="cancellationSurveyUrl">簡短問卷</a>幫助我們改善服務品質。
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
@@ -418,7 +427,13 @@ postChangeRecoveryPhone-preview = 已透過兩階段驗證機制保護您的帳�
 postChangeRecoveryPhone-title = 您已更改救援電話號碼
 postChangeRecoveryPhone-description = 您已更新救援電話號碼，舊號碼已刪除。
 postChangeRecoveryPhone-requested-device = 您從下列位置要求：
+postConsumeRecoveryCode-title-3 = 已使用您的備用驗證碼確認密碼重設
+# After the colon, there is description of the device that the backup authentication code was used on
+# E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
+postConsumeRecoveryCode-description-3 = 驗證碼是從下列位置使用的：
 postConsumeRecoveryCode-action = 管理帳號
+postConsumeRecoveryCode-subject-v3 = 已使用備用驗證碼
+postConsumeRecoveryCode-preview = 請確認是否是您的操作
 postNewRecoveryCodes-subject-2 = 已產生新的備用驗證碼
 postNewRecoveryCodes-title-2 = 您已產生新的備用驗證碼
 # After the colon, there is information about the device that the authentication codes were created on
