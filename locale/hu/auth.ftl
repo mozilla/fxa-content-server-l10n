@@ -160,6 +160,13 @@ automated-email-reset =
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext-v2 = Ha nem adott engedélyt erre a műveletre, akkor állítsa vissza a jelszavát itt: { $resetLink }
+# This message is used by multiple automated emails that notify users of security events on their account
+# "this action" is meant to be a generic term, and could, for example, refer to using a backup authentication code to confirm a password reset
+automated-email-reset-pwd-two-factor = Ha nem Ön tette meg ezt a műveletet, akkor <a data-l10n-name="resetLink">állítsa vissza a jelszavát</a> és a <a data-l10n-name="twoFactorSettingsLink">állítsa vissza a kétlépcsős hitelesítést</a> jobb el. További információkért keresse fel a <a data-l10n-name="supportLink">{ -brand-mozilla } Támogatást</a>.
+# Followed by link to https://accounts.firefox.com/reset_password
+automated-email-reset-pwd-plaintext-v3 = Ha nem Ön tette meg ezt a műveletet, akkor azonnal állítsa vissza a jelszavát itt:
+# Followed by link to https://accounts.firefox.com/settings#two-step-authentication
+automated-email-reset-two-factor-plaintext = Állítsa vissza a kétlépcsős hitelesítést is itt:
 brand-banner-message = Tudta, hogy megváltoztattuk a nevünket { -product-firefox-accounts }ról { -product-mozilla-accounts }ra? <a data-l10n-name="learnMore">További tudnivalók</a>
 cancellationSurvey = Segítsen bennünket szolgáltatásunk fejlesztésében azzal, hogy kitölti ezt a <a data-l10n-name="cancellationSurveyUrl">rövid kérdőívet</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
@@ -421,7 +428,13 @@ postChangeRecoveryPhone-preview = Kétlépcsős hitelesítéssel védett fiók
 postChangeRecoveryPhone-title = Módosította a helyreállítási telefonszámát
 postChangeRecoveryPhone-description = Új helyreállítási telefonszáma van. Az előző telefonszám törölve lett.
 postChangeRecoveryPhone-requested-device = Innen kérte:
+postConsumeRecoveryCode-title-3 = A tartalék hitelesítési kódját a jelszó-visszaállítás megerősítésére használták
+# After the colon, there is description of the device that the backup authentication code was used on
+# E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
+postConsumeRecoveryCode-description-3 = Használt kód innen:
 postConsumeRecoveryCode-action = Fiók kezelése
+postConsumeRecoveryCode-subject-v3 = Tartalék hitelesítési kód felhasználva
+postConsumeRecoveryCode-preview = Ellenőrizze, hogy ez Ön volt-e
 postNewRecoveryCodes-subject-2 = Új tartalék hitelesítési kódok létrehozva
 postNewRecoveryCodes-title-2 = Új tartalék hitelesítési kódokat hozott létre
 # After the colon, there is information about the device that the authentication codes were created on

@@ -225,3 +225,4 @@ upgrade-purchase-details-new-plan-weekly = { $productName } (wöchentlich)
 upgrade-purchase-details-new-plan-monthly = { $productName } (monatlich)
 upgrade-purchase-details-new-plan-halfyearly = { $productName } (sechs Monate)
 upgrade-purchase-details-new-plan-yearly = { $productName } (jährlich)
+upgrade-purchase-details-prorated-credits = Der angezeigte negative Kontostand wird Ihrem Konto als Guthaben hinzugefügt und für zukünftige Rechnungen verwendet.

@@ -487,6 +487,7 @@ sub-update-new-plan-daily = { $productName } (dnevno)
 sub-update-new-plan-weekly = { $productName } (tedensko)
 sub-update-new-plan-monthly = { $productName } (mesečno)
 sub-update-new-plan-yearly = { $productName } (letno)
+sub-update-prorated-upgrade-credit = Prikazano negativno stanje bo knjiženo v dobroimetje na vašem računu in uporabljeno za prihodnje račune.
 
 ## Routes - Subscriptions - Cancel
 
@@ -512,6 +513,7 @@ sub-item-cancel-confirm =
 # Cybersecurity Awareness Month 2023 coupon applied: $11.20 + $0.35 tax
 # Summer Promo VPN coupon applied: $11.20
 sub-promo-coupon-applied = Unovčen kupon { $promotion_name }: <priceDetails></priceDetails>
+subscription-management-account-credit-balance = To plačilo naročnine je povzročilo dobroimetje na vašem računu: <priceDetails></priceDetails>
 
 ## Routes - Subscription
 

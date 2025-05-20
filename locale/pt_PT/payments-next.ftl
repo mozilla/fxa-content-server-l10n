@@ -225,3 +225,4 @@ upgrade-purchase-details-new-plan-weekly = { $productName } (semanalmente)
 upgrade-purchase-details-new-plan-monthly = { $productName } (mensalmente)
 upgrade-purchase-details-new-plan-halfyearly = { $productName } (6-meses)
 upgrade-purchase-details-new-plan-yearly = { $productName } (anualmente)
+upgrade-purchase-details-prorated-credits = O balanço negativo apresentado será aplicado como créditos na sua conta e utilizado para futuras faturas.

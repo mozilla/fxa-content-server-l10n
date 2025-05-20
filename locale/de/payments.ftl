@@ -431,6 +431,7 @@ sub-update-new-plan-daily = { $productName } (täglich)
 sub-update-new-plan-weekly = { $productName } (wöchentlich)
 sub-update-new-plan-monthly = { $productName } (monatlich)
 sub-update-new-plan-yearly = { $productName } (jährlich)
+sub-update-prorated-upgrade-credit = Der angezeigte negative Kontostand wird Ihrem Konto als Guthaben hinzugefügt und für zukünftige Rechnungen verwendet.
 
 ## Routes - Subscriptions - Cancel
 
@@ -458,6 +459,7 @@ sub-item-cancel-confirm =
 # Cybersecurity Awareness Month 2023 coupon applied: $11.20 + $0.35 tax
 # Summer Promo VPN coupon applied: $11.20
 sub-promo-coupon-applied = Gutschein { $promotion_name } angewendet: <priceDetails></priceDetails>
+subscription-management-account-credit-balance = Diese Abonnementzahlung hat zu einem Guthaben auf Ihrem Konto geführt: <priceDetails></priceDetails>
 
 ## Routes - Subscription
 

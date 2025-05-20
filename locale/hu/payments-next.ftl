@@ -227,3 +227,4 @@ upgrade-purchase-details-new-plan-weekly = { $productName } (heti)
 upgrade-purchase-details-new-plan-monthly = { $productName } (havi)
 upgrade-purchase-details-new-plan-halfyearly = { $productName } (6 hónapos)
 upgrade-purchase-details-new-plan-yearly = { $productName } (évi)
+upgrade-purchase-details-prorated-credits = A megjelenített negatív egyenleg jóváírásként jelenik meg a fiókjában, és a jövőbeni számlákra lesz használva.

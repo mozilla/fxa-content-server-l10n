@@ -431,6 +431,7 @@ sub-update-new-plan-daily = { $productName } (al giorno)
 sub-update-new-plan-weekly = { $productName } (alla settimana)
 sub-update-new-plan-monthly = { $productName } (al mese)
 sub-update-new-plan-yearly = { $productName } (all’anno)
+sub-update-prorated-upgrade-credit = Il saldo negativo visualizzato verrà addebitato come credito al tuo account e utilizzato per fatture future.
 
 ## Routes - Subscriptions - Cancel
 
@@ -454,6 +455,7 @@ sub-item-cancel-confirm = Disattiva il mio accesso e rimuovi le informazioni per
 # Cybersecurity Awareness Month 2023 coupon applied: $11.20 + $0.35 tax
 # Summer Promo VPN coupon applied: $11.20
 sub-promo-coupon-applied = Coupon { $promotion_name } applicato: <priceDetails></priceDetails>
+subscription-management-account-credit-balance = Il pagamento di questo abbonamento ha comportato un accredito sul saldo del tuo account: <priceDetails></priceDetails>
 
 ## Routes - Subscription
 

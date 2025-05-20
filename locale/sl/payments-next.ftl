@@ -225,3 +225,4 @@ upgrade-purchase-details-new-plan-weekly = { $productName } (tedensko)
 upgrade-purchase-details-new-plan-monthly = { $productName } (mesečno)
 upgrade-purchase-details-new-plan-halfyearly = { $productName } (na 6 mesecev)
 upgrade-purchase-details-new-plan-yearly = { $productName } (letno)
+upgrade-purchase-details-prorated-credits = Prikazano negativno stanje bo knjiženo v dobroimetje na vašem računu in uporabljeno za prihodnje račune.

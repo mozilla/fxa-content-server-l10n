@@ -434,6 +434,7 @@ sub-update-new-plan-daily = { $productName } (napi)
 sub-update-new-plan-weekly = { $productName } (heti)
 sub-update-new-plan-monthly = { $productName } (havi)
 sub-update-new-plan-yearly = { $productName } (évi)
+sub-update-prorated-upgrade-credit = A megjelenített negatív egyenleg jóváírásként jelenik meg a fiókjában, és a jövőbeni számlákra lesz használva.
 
 ## Routes - Subscriptions - Cancel
 
@@ -461,6 +462,7 @@ sub-item-cancel-confirm =
 # Cybersecurity Awareness Month 2023 coupon applied: $11.20 + $0.35 tax
 # Summer Promo VPN coupon applied: $11.20
 sub-promo-coupon-applied = { $promotion_name } kupon felhasználva: <priceDetails></priceDetails>
+subscription-management-account-credit-balance = Ez az előfizetés jóváírást eredményezett a számlaegyenlegén: <priceDetails></priceDetails>
 
 ## Routes - Subscription
 

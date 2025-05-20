@@ -160,6 +160,13 @@ automated-email-reset =
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext-v2 = Če tega dejanja niste sprožili vi, takoj ponastavite geslo na { $resetLink }
+# This message is used by multiple automated emails that notify users of security events on their account
+# "this action" is meant to be a generic term, and could, for example, refer to using a backup authentication code to confirm a password reset
+automated-email-reset-pwd-two-factor = Če tega dejanja niste storili vi, <a data-l10n-name="resetLink">ponastavite geslo</a> in <a data-l10n-name="twoFactorSettingsLink">ponastavite overitev v dveh korakih</a> desno stran. Za več informacij obiščite <a data-l10n-name="supportLink">Podporo { -brand-mozilla }</a>.
+# Followed by link to https://accounts.firefox.com/reset_password
+automated-email-reset-pwd-plaintext-v3 = Če tega dejanja niste storili vi, takoj ponastavite geslo na:
+# Followed by link to https://accounts.firefox.com/settings#two-step-authentication
+automated-email-reset-two-factor-plaintext = Ponastavi tudi overitev v dveh korakih na:
 brand-banner-message = Ali ste vedeli, da smo se preimenovali iz { -product-firefox-accounts } v { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Več o tem</a>
 cancellationSurvey = Pomagajte nam izboljšati naše storitve, tako da izpolnite to <a data-l10n-name="cancellationSurveyUrl">kratko anketo</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
@@ -423,7 +430,13 @@ postChangeRecoveryPhone-preview = Račun je zaščiten s overjanjem v dveh korak
 postChangeRecoveryPhone-title = Spremenili ste telefonsko številko za obnovitev
 postChangeRecoveryPhone-description = Zdaj imate novo telefonsko številko za obnovitev. Prejšnja številka je bila izbrisana.
 postChangeRecoveryPhone-requested-device = To ste zahtevali z naslednje naprave:
+postConsumeRecoveryCode-title-3 = Za potrditev ponastavitve gesla je bila uporabljena vaša rezervna overitvena koda
+# After the colon, there is description of the device that the backup authentication code was used on
+# E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
+postConsumeRecoveryCode-description-3 = Uporabljena koda iz:
 postConsumeRecoveryCode-action = Upravljanje računa
+postConsumeRecoveryCode-subject-v3 = Rezervna overitvena koda je bila uporabljena
+postConsumeRecoveryCode-preview = Preverite, ali ste to bili vi
 postNewRecoveryCodes-subject-2 = Ustvarjene nove rezervne overitvene kode
 postNewRecoveryCodes-title-2 = Ustvarili ste nove rezervne overitvene kode
 # After the colon, there is information about the device that the authentication codes were created on
