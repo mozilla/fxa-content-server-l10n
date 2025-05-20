@@ -431,7 +431,7 @@ sub-update-new-plan-daily = { $productName }（每日收費）
 sub-update-new-plan-weekly = { $productName }（每週收費）
 sub-update-new-plan-monthly = { $productName }（每月收費）
 sub-update-new-plan-yearly = { $productName }（每年收費）
-sub-update-prorated-upgrade-credit = 下方的負值將轉為您帳號中的餘額點數，並在後續付款時折抵。
+sub-update-prorated-upgrade-credit = 下方的負值將轉為您帳號中的儲值餘額，並在後續付款時折抵。
 
 ## Routes - Subscriptions - Cancel
 
@@ -455,6 +455,7 @@ sub-item-cancel-confirm = 在 { $period }之後取消我對 { $name } 的使用�
 # Cybersecurity Awareness Month 2023 coupon applied: $11.20 + $0.35 tax
 # Summer Promo VPN coupon applied: $11.20
 sub-promo-coupon-applied = 已套用「{ $promotion_name }」折扣碼：<priceDetails></priceDetails>
+subscription-management-account-credit-balance = 這筆訂閱付款將把部分金額轉為您的儲值餘額：<priceDetails></priceDetails>
 
 ## Routes - Subscription
 
