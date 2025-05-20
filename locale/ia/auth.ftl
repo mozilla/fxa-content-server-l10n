@@ -432,8 +432,13 @@ postChangeRecoveryPhone-description =
     Tu ora ha un nove numero de telephono de recuperation.
     Tu previe numero de telephono ha essite delite.
 postChangeRecoveryPhone-requested-device = Tu ha requirite illo ab:
+postConsumeRecoveryCode-title-3 = Tu codice de authentication de reserva era usate pro confirmar un redefinition de contrasigno
+# After the colon, there is description of the device that the backup authentication code was used on
+# E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
+postConsumeRecoveryCode-description-3 = Codice usate ab:
 postConsumeRecoveryCode-action = Gerer le conto
 postConsumeRecoveryCode-subject-v3 = Codice de authentication de salvamento usate
+postConsumeRecoveryCode-preview = Verificar que iste era tu
 postNewRecoveryCodes-subject-2 = Nove codice authentication de reserva create
 postNewRecoveryCodes-title-2 = Tu ha create nove codices authentication de reserva
 # After the colon, there is information about the device that the authentication codes were created on
