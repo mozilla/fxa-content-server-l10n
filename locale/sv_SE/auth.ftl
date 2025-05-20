@@ -160,6 +160,10 @@ automated-email-reset =
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext-v2 = Om du inte godkände den här åtgärden, vänligen återställ ditt lösenord nu på { $resetLink }
+# Followed by link to https://accounts.firefox.com/reset_password
+automated-email-reset-pwd-plaintext-v3 = Om du inte vidtog den här åtgärden, återställ ditt lösenord direkt på:
+# Followed by link to https://accounts.firefox.com/settings#two-step-authentication
+automated-email-reset-two-factor-plaintext = Återställ också tvåstegsautentisering på:
 brand-banner-message = Visste du att vi ändrade vårt namn från { -product-firefox-accounts } till { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Läs mer</a>
 cancellationSurvey = Hjälp oss att förbättra våra tjänster genom att svara på denna <a data-l10n-name="cancellationSurveyUrl">korta undersökning</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
@@ -421,6 +425,7 @@ postChangeRecoveryPhone-preview = Kontot skyddas av tvåstegsautentisering
 postChangeRecoveryPhone-title = Du har bytt återställningstelefon
 postChangeRecoveryPhone-description = Du har nu en ny återställningstelefon. Ditt tidigare telefonnummer raderades.
 postChangeRecoveryPhone-requested-device = Du har begärt det från:
+postConsumeRecoveryCode-title-3 = Din reservautentiseringskod användes för att bekräfta en lösenordsåterställning
 postConsumeRecoveryCode-action = Hantera konto
 postNewRecoveryCodes-subject-2 = Nya reservautentiseringskoder har skapats
 postNewRecoveryCodes-title-2 = Du skapade nya reservautentiseringskoder
