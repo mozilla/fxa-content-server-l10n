@@ -1549,6 +1549,12 @@ complete-reset-password-desktop-relay = { -brand-firefox } vil prøve å sende d
 
 # ConfirmBackupCodeResetPassword page
 
+confirm-backup-code-reset-password-input-label = Skriv inn 10-sifra kode
+confirm-backup-code-reset-password-confirm-button = Stadfest
+confirm-backup-code-reset-password-subheader = Skriv inn reserve-godkjenningskode
+confirm-backup-code-reset-password-instruction = Skriv inn ein av eingongskodane du lagra då du sette opp tostegs-godkjenning.
+# Link out to support article: https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+confirm-backup-code-reset-password-locked-out-link = Er du sperra ute?
 
 ## Confirm Reset Password With Code
 
