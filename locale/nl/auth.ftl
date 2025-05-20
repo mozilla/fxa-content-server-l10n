@@ -422,6 +422,7 @@ postChangeRecoveryPhone-title = U hebt uw hersteltelefoonnummer gewijzigd
 postChangeRecoveryPhone-description = U hebt nu een nieuw hersteltelefoonnummer. Uw vorige telefoonnummer is verwijderd.
 postChangeRecoveryPhone-requested-device = U hebt het opgevraagd vanaf:
 postConsumeRecoveryCode-action = Account beheren
+postConsumeRecoveryCode-subject-v3 = Reserve-authenticatiecode gebruikt
 postNewRecoveryCodes-subject-2 = Nieuwe reserve-authenticatiecodes aangemaakt
 postNewRecoveryCodes-title-2 = U hebt nieuwe reserve-authenticatiecodes aangemaakt
 # After the colon, there is information about the device that the authentication codes were created on
