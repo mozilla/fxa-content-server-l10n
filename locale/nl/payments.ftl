@@ -434,6 +434,7 @@ sub-update-new-plan-daily = { $productName } (dagelijks)
 sub-update-new-plan-weekly = { $productName } (wekelijks)
 sub-update-new-plan-monthly = { $productName } (maandelijks)
 sub-update-new-plan-yearly = { $productName } (jaarlijks)
+sub-update-prorated-upgrade-credit = Het getoonde negatieve saldo wordt als tegoed op uw account bijgeschreven en gebruikt voor toekomstige facturen.
 
 ## Routes - Subscriptions - Cancel
 
@@ -461,6 +462,7 @@ sub-item-cancel-confirm =
 # Cybersecurity Awareness Month 2023 coupon applied: $11.20 + $0.35 tax
 # Summer Promo VPN coupon applied: $11.20
 sub-promo-coupon-applied = { $promotion_name }-waardebon toegepast: <priceDetails></priceDetails>
+subscription-management-account-credit-balance = Deze abonnementsbetaling heeft geleid tot een bijschrijving op uw accountsaldo: <priceDetails></priceDetails>
 
 ## Routes - Subscription
 

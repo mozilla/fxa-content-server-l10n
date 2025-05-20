@@ -225,3 +225,4 @@ upgrade-purchase-details-new-plan-weekly = { $productName } (wekelijks)
 upgrade-purchase-details-new-plan-monthly = { $productName } (maandelijks)
 upgrade-purchase-details-new-plan-halfyearly = { $productName } (halfjaarlijks)
 upgrade-purchase-details-new-plan-yearly = { $productName } (jaarlijks)
+upgrade-purchase-details-prorated-credits = Het getoonde negatieve saldo wordt als tegoed op uw account bijgeschreven en gebruikt voor toekomstige facturen.
