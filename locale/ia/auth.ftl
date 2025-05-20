@@ -424,6 +424,7 @@ postChangeRecoveryPhone-description =
     Tu previe numero de telephono ha essite delite.
 postChangeRecoveryPhone-requested-device = Tu ha requirite illo ab:
 postConsumeRecoveryCode-action = Gerer le conto
+postConsumeRecoveryCode-subject-v3 = Codice de authentication de salvamento usate
 postNewRecoveryCodes-subject-2 = Nove codice authentication de reserva create
 postNewRecoveryCodes-title-2 = Tu ha create nove codices authentication de reserva
 # After the colon, there is information about the device that the authentication codes were created on
