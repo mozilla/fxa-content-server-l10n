@@ -661,7 +661,7 @@ subscriptionUpgrade-upgrade-info-2 = 您已成功升级至 { $productName }。
 
 subscriptionUpgrade-content-charge-prorated = 我们已向您一次性收取 { $paymentProrated }，以补足您的订阅在本账单周期（{ $productPaymentCycleOld }）内剩余天数的差额。
 subscriptionUpgrade-content-charge-credit = 您已收到合计 { $paymentProrated } 的账户余额。
-subscriptionUpgrade-content-starting = 自下期账单起，我们将从每{ $productPaymentCycleOld }收费 { $paymentAmountOld } 调整为每{ $productPaymentCycleNew }收费 { $productPaymentCycleOld }。
+subscriptionUpgrade-content-starting = 自下期账单起，我们将从每{ $productPaymentCycleOld }收费 { $paymentAmountOld } 调整为每{ $productPaymentCycleNew }收费 { $paymentAmountNew }。
 # Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-existing = 若此次的升级内容与您现有的订阅重合，我们将进行处理，并向您单独发送一封邮件说明详细信息。若您的新方案包含需要安装的产品，我们将向您单独发送一封邮件说明安装方法。
