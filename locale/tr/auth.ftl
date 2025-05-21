@@ -160,6 +160,8 @@ automated-email-reset =
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext-v2 = Bu işleme onay vermediyseniz lütfen hemen { $resetLink } adresinden parolanızı sıfırlayın
+# Followed by link to https://accounts.firefox.com/reset_password
+automated-email-reset-pwd-plaintext-v3 = Bu işlemi siz yapmadıysanız hemen parolanızı sıfırlayın:
 brand-banner-message = { -product-firefox-accounts } adını { -product-mozilla-accounts } olarak değiştirdiğimizi biliyor muydunuz? <a data-l10n-name="learnMore">Bilgi alın</a>
 cancellationSurvey = Hizmetlerimizi iyileştirebilmemiz için bu <a data-l10n-name="cancellationSurveyUrl">kısa ankete</a> katılmanızı rica ederiz.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
@@ -420,7 +422,9 @@ postChangeRecoveryPhone-preview = Hesabınız iki aşamalı doğrulamayla korunu
 postChangeRecoveryPhone-title = Kurtarma telefonunuzu değiştirdiniz
 postChangeRecoveryPhone-description = Artık yeni bir kurtarma telefonunuz var. Önceki telefon numaranız silindi.
 postChangeRecoveryPhone-requested-device = Bu cihazdan istediniz:
+postConsumeRecoveryCode-title-3 = Parola sıfırlamayı onaylamak için yedek kimlik doğrulama kodunuz kullanıldı
 postConsumeRecoveryCode-action = Hesabı yönet
+postConsumeRecoveryCode-subject-v3 = Kullanılan yedek kimlik doğrulama kodu
 postNewRecoveryCodes-subject-2 = Yeni yedek kimlik doğrulama kodları oluşturuldu
 postNewRecoveryCodes-title-2 = Yeni yedek kimlik doğrulama kodları oluşturdunuz
 # After the colon, there is information about the device that the authentication codes were created on
