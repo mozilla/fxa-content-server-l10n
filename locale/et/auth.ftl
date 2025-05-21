@@ -183,6 +183,9 @@ postAddAccountRecovery-body-part1 = Salvesta see võti kindlasse kohta – seda 
 postAddAccountRecovery-body-part2 = Seda võtit saab kasutada ainult üks kord. Pärast selle kasutamist loome sulle automaatselt uue. Või saad igal ajal konto seadetes uue luua.
 postAddAccountRecovery-action = Konto haldamine
 postAddLinkedAccount-action = Halda kontot
+# Links out to a support article about two factor authentication
+postAddRecoveryPhone-how-protect = Kuidas see sinu kontot kaitseb
+postAddRecoveryPhone-how-protect-plaintext = Kuidas see sinu kontot kaitseb:
 postAddTwoStepAuthentication-action = Konto haldamine
 postChangeAccountRecovery-body-part2 = Salvesta uus võti kindlasse kohta – seda on vaja krüpteeritud sirvimisandmete taastamiseks, kui peaksid parooli unustama.
 postChangePrimary-subject = Peamine e-posti aadress on uuendatud

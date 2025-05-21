@@ -231,6 +231,11 @@ cs-sign-out-button = Logi välja
 ## Data collection section
 
 dc-heading = Andmete kogumine ja kasutamine
+dc-subheader-ff-browser = { -brand-firefox }i veebilehitseja
+dc-subheader-content-2 = Teenusel { -product-mozilla-accounts } lubatakse saata tehnilisi ja interaktsiooniandmeid { -brand-mozilla }le.
+dc-subheader-ff-content = { -brand-firefox }i veebilehitseja tehniliste ja interaktsiooniandmete sätete ülevaatamiseks või värskendamiseks ava { -brand-firefox }I seaded ja liigu Privaatsus ja turvalisus juurde.
+dc-opt-out-success-2 = Loobumine õnnestus. Teenus { -product-mozilla-accounts }ei saada enam tehnilisi ja interaktsiooniandmeid { -brand-mozilla }le.
+dc-opt-in-success-2 = Täname! Nende andmete jagamine aitab meil teenust { -product-mozilla-accounts } paremaks teha.
 dc-opt-in-out-error-2 = Vabandust, kahjuks esines andmete kogumise eelistuste muutmisel probleem
 dc-learn-more = Rohkem teavet
 
@@ -421,6 +426,7 @@ display-name-success-alert-2 = Kuvatav nimi on uuendatud
 ## All strings except title indicate an event that occurred from the user's account
 ## These are displayed as a list with the date when the event occured
 
+recent-activity-title = Hiljutised kontotegevused
 
 ## PageRecoveryKeyCreate
 
@@ -515,6 +521,8 @@ security-password-created-date = Loodud { $date }
 security-not-set = Pole määratud
 security-action-create = Loo
 security-set-password = Sünkroniseerimiseks ja teatud konto turvafunktsioonide kasutamiseks määra parool.
+# Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
+security-recent-activity-link = Vaata hiljutisi kontotegevusi
 
 ## SubRow component
 
@@ -593,6 +601,7 @@ tfa-row-button-refresh =
 tfa-row-cannot-refresh =
     Vabandust, kaheastmelise autentimise uuendamisel
     esines probleem.
+tfa-row-disabled-description-v2 = Aita kontot turvalisena hoida, kasutades sisselogimise teise sammuna kolmanda osapoole autentimisrakendust.
 tfa-row-disable-modal-heading = Kas keelata kaheastmeline autentimine?
 tfa-row-disable-modal-confirm = Keela
 # Shown in an alert bar after two-step authentication is disabled
