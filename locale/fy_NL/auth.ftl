@@ -160,6 +160,15 @@ automated-email-reset =
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext-v2 = As jo dizze aksje net autorisearre hawwe, stel dan no jo wachtwurd opnij yn op { $resetLink }
+# This message is used by multiple automated emails that notify users of security events on their account
+# "this action" is meant to be a generic term, and could, for example, refer to using a backup authentication code to confirm a password reset
+automated-email-reset-pwd-two-factor =
+    As jo dizze aksje net útfierd hawwe, stel dan daliks <a data-l10n-name="resetLink">jo wachtwurd</a> en <a data-l10n-name="twoFactorSettingsLink">autentikaasje yn twa stappen</a> opnij yn.
+    Besykje <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a> foar mear ynformaasje.
+# Followed by link to https://accounts.firefox.com/reset_password
+automated-email-reset-pwd-plaintext-v3 = As jo dizze aksje net útfierd hawwe, stel dan daliks jo wachtwurd opnij yn op:
+# Followed by link to https://accounts.firefox.com/settings#two-step-authentication
+automated-email-reset-two-factor-plaintext = Stel ek autentikaasje yn twa stappen opnij yn op:
 brand-banner-message = Wisten jo dat wy ús namme wizige hawwe fan { -product-firefox-accounts } nei { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Mear ynfo</a>
 cancellationSurvey = Help ús de tsjinstferliening te ferbetterjen troch dizze <a data-l10n-name="cancellationSurveyUrl">koarte enkête</a> yn te foljen.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
@@ -421,8 +430,13 @@ postChangeRecoveryPhone-preview = Account beskerme troch twa-stapsautentikaasje
 postChangeRecoveryPhone-title = Jo hawwe jo wersteltelefoannûmer wizige
 postChangeRecoveryPhone-description = Jo hawwe no in nij wersteltelefoannûmer. Jo foarige telefoannûmer is fuortsmiten.
 postChangeRecoveryPhone-requested-device = Jo hawwe it opfrege fanôf:
+postConsumeRecoveryCode-title-3 = Jo reserve-autentikaasjekoade is brûkt om in wachtwurdwerinisjalisaasje te befêstigjen
+# After the colon, there is description of the device that the backup authentication code was used on
+# E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
+postConsumeRecoveryCode-description-3 = Koade brûkt fan:
 postConsumeRecoveryCode-action = Account beheare
 postConsumeRecoveryCode-subject-v3 = Reserve-autentikaasjekoade brûkt
+postConsumeRecoveryCode-preview = Kontrolearje oft jo dit yndied dien hawwe
 postNewRecoveryCodes-subject-2 = Nije reserve-autentikaasjekoaden oanmakke
 postNewRecoveryCodes-title-2 = Jo hawwe nije reserve-autentikaasjekoaden oanmakke
 # After the colon, there is information about the device that the authentication codes were created on
