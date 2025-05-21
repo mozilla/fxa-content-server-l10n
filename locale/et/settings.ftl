@@ -241,6 +241,9 @@ dc-learn-more = Rohkem teavet
 
 # DropDownAvatarMenu component
 
+# This is displayed in the Settings menu after user's click on their profile icon.
+# Following this string on a new line will be their display name (user's name or email)
+drop-down-menu-signed-in-as-v2 = Sisse logitud kasutajana
 drop-down-menu-sign-out = Logi välja
 drop-down-menu-sign-out-error-2 = Vabandust, väljalogimisel esines probleem
 

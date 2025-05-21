@@ -54,6 +54,7 @@ next-coupon-submit = Rakenda
 
 # Component - Header
 
+payments-header-avatar-expanded-signed-in-as = Sisse logitud kasutajana
 
 ## Payment Section
 
