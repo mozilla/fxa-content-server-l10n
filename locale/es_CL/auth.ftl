@@ -160,6 +160,15 @@ automated-email-reset =
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext-v2 = Si no autorizaste esta acción, por favor restablece tu contraseña ahora en { $resetLink }
+# This message is used by multiple automated emails that notify users of security events on their account
+# "this action" is meant to be a generic term, and could, for example, refer to using a backup authentication code to confirm a password reset
+automated-email-reset-pwd-two-factor =
+    Si no realizaste esta acción, restablece tu contraseña y la autenticación en dos pasos inmediatamente.
+    Para obtener más información, visita el soporte de <a data-l10n-name="supportLink">{ -brand-mozilla }</a>.
+# Followed by link to https://accounts.firefox.com/reset_password
+automated-email-reset-pwd-plaintext-v3 = Si no realizaste esta acción, restablece tu contraseña de inmediato en:
+# Followed by link to https://accounts.firefox.com/settings#two-step-authentication
+automated-email-reset-two-factor-plaintext = Además, restablece la autenticación en dos pasos en:
 brand-banner-message = ¿Sabías que cambiamos nuestro nombre de { -product-firefox-accounts } a { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Aprender más</a>
 cancellationSurvey = Por favor, ayúdanos a mejorar nuestros servicios contestando esta <a data-l10n-name="cancellationSurveyUrl">breve encuesta</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
@@ -421,7 +430,13 @@ postChangeRecoveryPhone-preview = Cuenta protegida mediante autenticación de do
 postChangeRecoveryPhone-title = Cambiaste tu teléfono de recuperación
 postChangeRecoveryPhone-description = Ahora tienes un nuevo teléfono de recuperación. Se eliminó tu número de teléfono anterior.
 postChangeRecoveryPhone-requested-device = Lo solicitaste desde:
+postConsumeRecoveryCode-title-3 = Tu código de autenticación de respaldo fue utilizado para confirmar un restablecimiento de contraseña
+# After the colon, there is description of the device that the backup authentication code was used on
+# E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
+postConsumeRecoveryCode-description-3 = Código utilizado desde:
 postConsumeRecoveryCode-action = Administrar cuenta
+postConsumeRecoveryCode-subject-v3 = Código de autenticación de respaldo usado
+postConsumeRecoveryCode-preview = Revisa para asegurarte de que fuiste tú
 postNewRecoveryCodes-subject-2 = Nuevos códigos de autenticación de respaldo creados
 postNewRecoveryCodes-title-2 = Haz creado nuevos códigos de autenticación de respaldo
 # After the colon, there is information about the device that the authentication codes were created on
