@@ -518,6 +518,8 @@ security-set-password = Sünkroniseerimiseks ja teatud konto turvafunktsioonide 
 
 ## SubRow component
 
+# button to change the configured recovery phone
+tfa-row-backup-phone-change-cta = Muuda
 
 ## Switch component
 
@@ -543,6 +545,8 @@ rk-header-1 = Konto taastevõti
 rk-enabled = Lubatud
 rk-not-set = Pole määratud
 rk-action-create = Loo
+# Button to delete the existing account recovery key and create a new one
+rk-action-change-button = Muuda
 rk-action-remove = Eemalda
 rk-key-removed-2 = Konto taastamisvõti eemaldati
 rk-cannot-remove-key = Konto taastevõtit polnud võimalik eemaldada.
@@ -573,6 +577,7 @@ se-refresh-email =
 # Button to make secondary email the primary
 se-make-primary = Määra peamiseks
 se-default-content = Pääse ligi oma kontole, kui sa ei saa kasutada oma peamist e-posti aadressi.
+se-content-note-1 = Märkus: teist e-posti aadressi pole võimalik kasutada andmete taastamiseks — selleks vajad<a>konto taastevõtit</a>.
 # Default value for the secondary email
 se-secondary-email-none = Puudub
 
@@ -580,6 +585,7 @@ se-secondary-email-none = Puudub
 
 tfa-row-header = Kaheastmeline autentimine
 tfa-row-enabled = Lubatud
+tfa-row-disabled-status = Keelatud
 tfa-row-action-add = Lisa
 tfa-row-action-disable = Keela
 tfa-row-button-refresh =
