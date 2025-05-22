@@ -160,6 +160,13 @@ automated-email-reset =
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext-v2 = Caso não tenha autorizado esta ação, por favor, proceda imediatamente à reposição da sua palavra-passe em { $resetLink }
+# This message is used by multiple automated emails that notify users of security events on their account
+# "this action" is meant to be a generic term, and could, for example, refer to using a backup authentication code to confirm a password reset
+automated-email-reset-pwd-two-factor = Se não executou esta ação, <a data-l10n-name="resetLink">reponha a sua palavra-passe</a> e <a data-l10n-name="twoFactorSettingsLink">reponha a autenticação de dois passos</a> certo ausente. Para mais informação, por favor visite o <a data-l10n-name="supportLink">Apoio da { -brand-mozilla }</a>.
+# Followed by link to https://accounts.firefox.com/reset_password
+automated-email-reset-pwd-plaintext-v3 = Se não executou esta ação, reponha a sua palavra-passe imediatamente em:
+# Followed by link to https://accounts.firefox.com/settings#two-step-authentication
+automated-email-reset-two-factor-plaintext = Além disso, reponha a autenticação de dois passos em:
 brand-banner-message = Sabia que nós alterámos o nosso nome de { -product-firefox-accounts } para { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Saiba mais</a>
 cancellationSurvey = Ajude-nos a melhorar os nossos serviços preenchendo este <a data-l10n-name="cancellationSurveyUrl">pequeno questionário</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
@@ -421,15 +428,13 @@ postChangeRecoveryPhone-preview = Conta protegida por autenticação de dois pas
 postChangeRecoveryPhone-title = Você alterou o seu telefone de recuperação
 postChangeRecoveryPhone-description = Tem agora um novo telefone de recuperação. O seu número de telefone anterior foi eliminado.
 postChangeRecoveryPhone-requested-device = Solicitado de:
-postConsumeRecoveryCode-title-2 = Utilizou um código de autenticação de recuperação
+postConsumeRecoveryCode-title-3 = O seu código de autenticação de recuperação foi utilizado para confirmar uma redefinição da palavra-passe
 # After the colon, there is description of the device that the backup authentication code was used on
-postConsumeRecoveryCode-description-2 = Este foi utilizado em:
+# E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
+postConsumeRecoveryCode-description-3 = Código utilizado de:
 postConsumeRecoveryCode-action = Gerir conta
-postConsumeRecoveryCode-subject-2 =
-    { $numberRemaining ->
-        [one] Resta 1 código de autenticação de recuperação
-       *[other] Restam { $numberRemaining } códigos de autenticação de recuperação
-    }
+postConsumeRecoveryCode-subject-v3 = Código de autenticação de recuperação utilizado
+postConsumeRecoveryCode-preview = Confirmar para ter a certeza que foi você
 postNewRecoveryCodes-subject-2 = Novos códigos de autenticação de recuperação criados
 postNewRecoveryCodes-title-2 = Criou novos códigos de autenticação de recuperação
 # After the colon, there is information about the device that the authentication codes were created on

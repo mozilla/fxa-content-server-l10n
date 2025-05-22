@@ -160,6 +160,15 @@ automated-email-reset =
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext-v2 = Om du inte godkände den här åtgärden, vänligen återställ ditt lösenord nu på { $resetLink }
+# This message is used by multiple automated emails that notify users of security events on their account
+# "this action" is meant to be a generic term, and could, for example, refer to using a backup authentication code to confirm a password reset
+automated-email-reset-pwd-two-factor =
+    Om du inte vidtog den här åtgärden <a data-l10n-name="resetLink">återställ ditt lösenord</a> och <a data-l10n-name="twoFactorSettingsLink">återställ tvåstegsautentiseringen</a> direkt.
+    För mer information besök <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
+# Followed by link to https://accounts.firefox.com/reset_password
+automated-email-reset-pwd-plaintext-v3 = Om du inte vidtog den här åtgärden, återställ ditt lösenord direkt på:
+# Followed by link to https://accounts.firefox.com/settings#two-step-authentication
+automated-email-reset-two-factor-plaintext = Återställ också tvåstegsautentisering på:
 brand-banner-message = Visste du att vi ändrade vårt namn från { -product-firefox-accounts } till { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Läs mer</a>
 cancellationSurvey = Hjälp oss att förbättra våra tjänster genom att svara på denna <a data-l10n-name="cancellationSurveyUrl">korta undersökning</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
@@ -421,15 +430,13 @@ postChangeRecoveryPhone-preview = Kontot skyddas av tvåstegsautentisering
 postChangeRecoveryPhone-title = Du har bytt återställningstelefon
 postChangeRecoveryPhone-description = Du har nu en ny återställningstelefon. Ditt tidigare telefonnummer raderades.
 postChangeRecoveryPhone-requested-device = Du har begärt det från:
-postConsumeRecoveryCode-title-2 = Du använde en reservautentiseringskod
+postConsumeRecoveryCode-title-3 = Din reservautentiseringskod användes för att bekräfta en lösenordsåterställning
 # After the colon, there is description of the device that the backup authentication code was used on
-postConsumeRecoveryCode-description-2 = Den användes på:
+# E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
+postConsumeRecoveryCode-description-3 = Kod som används från:
 postConsumeRecoveryCode-action = Hantera konto
-postConsumeRecoveryCode-subject-2 =
-    { $numberRemaining ->
-        [one] 1 reservautentiseringskod kvar
-       *[other] { $numberRemaining } reservautentiseringskoder kvar
-    }
+postConsumeRecoveryCode-subject-v3 = Reservautentiseringskod använd
+postConsumeRecoveryCode-preview = Kontrollera att det var du
 postNewRecoveryCodes-subject-2 = Nya reservautentiseringskoder har skapats
 postNewRecoveryCodes-title-2 = Du skapade nya reservautentiseringskoder
 # After the colon, there is information about the device that the authentication codes were created on

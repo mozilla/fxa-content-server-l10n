@@ -225,3 +225,4 @@ upgrade-purchase-details-new-plan-weekly = { $productName } (veckovis)
 upgrade-purchase-details-new-plan-monthly = { $productName } (månadsvis)
 upgrade-purchase-details-new-plan-halfyearly = { $productName } (6 månader)
 upgrade-purchase-details-new-plan-yearly = { $productName } (årligen)
+upgrade-purchase-details-prorated-credits = Negativt saldo som visas kommer att krediteras ditt konto och användas för framtida fakturor.
