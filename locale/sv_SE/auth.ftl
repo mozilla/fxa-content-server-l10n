@@ -379,6 +379,8 @@ passwordResetAccountRecovery-action-4 = Hantera konto
 passwordResetRecoveryPhone-subject = Återställningstelefon använd
 passwordResetRecoveryPhone-preview = Kontrollera att det var du
 passwordResetRecoveryPhone-title = Ditt återställningstelefon användes för att bekräfta en lösenordsåterställning
+passwordResetRecoveryPhone-device = Återställningstelefon används från:
+passwordResetRecoveryPhone-action = Hantera konto
 passwordResetWithRecoveryKeyPrompt-subject = Ditt lösenord har återställts
 passwordResetWithRecoveryKeyPrompt-title = Ditt lösenord har återställts
 # Details of the device and date/time where the password was reset

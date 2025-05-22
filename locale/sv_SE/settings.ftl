@@ -397,6 +397,7 @@ password-strength-inline-confirmed-must-match = Bekräftelse matchar det nya lö
 account-recovery-notification-cta = Skapa
 account-recovery-notification-header-value = Förlora inte din data om du glömmer ditt lösenord
 account-recovery-notification-header-description = Skapa en kontoåterställningsnyckel för att återställa din synkroniserade webbläsardata om du glömmer ditt lösenord.
+recovery-phone-promo-cta = Lägg till återställningstelefon
 
 ## Ready component
 
