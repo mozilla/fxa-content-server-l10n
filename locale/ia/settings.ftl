@@ -368,12 +368,6 @@ primary-email-confirmation-link-reused = Email primari ja confirmate
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Session ja confirmate
 confirmation-link-reused-message = Ille ligamine de confirmation ha ja essite usate, e pote esser usate solmente un vice.
-
-## Notification Promo Banner component
-
-account-recovery-notification-cta = Crear
-account-recovery-notification-header-value = Non perde tu datos si tu oblida tu contrasigno
-account-recovery-notification-header-description = Crea un clave de recuperation del conto proque tu pote restaurar le datos de navigation synchronisate si tu oblida tu contrasigno.
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Mal requesta
 
@@ -397,6 +391,12 @@ password-strength-inline-min-length = Al minus 8 characteres
 password-strength-inline-not-email = Non tu adresse email
 password-strength-inline-not-common = Non un contrasigno commun
 password-strength-inline-confirmed-must-match = Le confirmation concorda con le nove contrasigno
+
+## Notification Promo Banner component
+
+account-recovery-notification-cta = Crear
+account-recovery-notification-header-value = Non perde tu datos si tu oblida tu contrasigno
+account-recovery-notification-header-description = Crea un clave de recuperation del conto proque tu pote restaurar le datos de navigation synchronisate si tu oblida tu contrasigno.
 
 ## Ready component
 
@@ -1598,6 +1598,13 @@ password-reset-submit-button-2 = Continuar
 reset-password-complete-header = Tu contrasigno ha essite remontate
 # $serviceName is a product name such as Monitor, Pocket, Relay
 reset-password-confirmed-cta = Continuar a { $serviceName }
+
+## Reset password recovery method page
+## This page is shown to users when they are having trouble resetting their
+
+
+# password, and they previously had set up an account recovery method.
+
 reset-password-with-recovery-key-verified-page-title = Contrasigno remontate con successo
 reset-password-complete-new-password-saved = Nove contrasigno salvate!
 reset-password-complete-recovery-key-created = Un nove clave de recuperation del conto ha essite create. Discarga lo e conserva lo ora.

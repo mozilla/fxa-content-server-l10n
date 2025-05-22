@@ -368,12 +368,6 @@ primary-email-confirmation-link-reused = L'adressa dad e-mail principala è gia 
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = L'annunzia è gia confermada
 confirmation-link-reused-message = Questa colliaziun da conferma è gia vegnida utilisada e po mo vegnir duvrada ina giada.
-
-## Notification Promo Banner component
-
-account-recovery-notification-cta = Crear
-account-recovery-notification-header-value = Na perda betg tias datas sche ti emblidas tes pled-clav
-account-recovery-notification-header-description = Creescha ina clav da recuperaziun dal conto per che ti possias recuperar tias datas da navigaziun sincronisadas sche ti avessas dad emblidar tes pled-clav.
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Dumonda nuncorrecta
 
@@ -397,6 +391,12 @@ password-strength-inline-min-length = Almain 8 caracters
 password-strength-inline-not-email = Betg tia adressa dad e-mail
 password-strength-inline-not-common = Betg in pled-clav frequent
 password-strength-inline-confirmed-must-match = La conferma correspunda al nov pled-clav
+
+## Notification Promo Banner component
+
+account-recovery-notification-cta = Crear
+account-recovery-notification-header-value = Na perda betg tias datas sche ti emblidas tes pled-clav
+account-recovery-notification-header-description = Creescha ina clav da recuperaziun dal conto per che ti possias recuperar tias datas da navigaziun sincronisadas sche ti avessas dad emblidar tes pled-clav.
 
 ## Ready component
 
@@ -1594,6 +1594,13 @@ password-reset-submit-button-2 = Cuntinuar
 reset-password-complete-header = Tes pled-clav è vegnì reinizialisà
 # $serviceName is a product name such as Monitor, Pocket, Relay
 reset-password-confirmed-cta = Cuntinuar vers { $serviceName }
+
+## Reset password recovery method page
+## This page is shown to users when they are having trouble resetting their
+
+
+# password, and they previously had set up an account recovery method.
+
 reset-password-with-recovery-key-verified-page-title = Reinizialisà cun success il pled-clav
 reset-password-complete-new-password-saved = Memorisà il nov pled-clav!
 reset-password-complete-recovery-key-created = Creà ina nova clav da recuperaziun dal conto. Telechargia ussa la clav e la tegna en salv.

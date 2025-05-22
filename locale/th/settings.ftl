@@ -364,12 +364,6 @@ primary-email-confirmation-link-reused = ยืนยันอีเมลหล
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = ยืนยันการลงชื่อเข้าไปแล้ว
 confirmation-link-reused-message = ลิงก์ยืนยันนั้นถูกใช้ไปแล้ว และสามารถใช้ได้แค่ครั้งเดียว
-
-## Notification Promo Banner component
-
-account-recovery-notification-cta = สร้าง
-account-recovery-notification-header-value = ไม่ต้องสูญเสียข้อมูลของคุณถ้าลืมรหัสผ่าน
-account-recovery-notification-header-description = สร้างคีย์กู้คืนบัญชีเพื่อเรียกคืนข้อมูลการเรียกดูที่ซิงค์ไว้ของคุณกลับมาในกรณีที่คุณเกิดลืมรหัสผ่าน
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = คำขอไม่ถูกต้อง
 
@@ -393,6 +387,12 @@ password-strength-inline-min-length = อย่างน้อย 8 ตัวอ
 password-strength-inline-not-email = ไม่ใช่ที่อยู่อีเมลของคุณ
 password-strength-inline-not-common = ไม่ใช่รหัสผ่านที่พบบ่อย
 password-strength-inline-confirmed-must-match = รหัสยืนยันตรงกับรหัสผ่านใหม่
+
+## Notification Promo Banner component
+
+account-recovery-notification-cta = สร้าง
+account-recovery-notification-header-value = ไม่ต้องสูญเสียข้อมูลของคุณถ้าลืมรหัสผ่าน
+account-recovery-notification-header-description = สร้างคีย์กู้คืนบัญชีเพื่อเรียกคืนข้อมูลการเรียกดูที่ซิงค์ไว้ของคุณกลับมาในกรณีที่คุณเกิดลืมรหัสผ่าน
 
 ## Ready component
 
@@ -1472,6 +1472,13 @@ password-reset-submit-button-2 = ดำเนินการต่อ
 reset-password-complete-header = ตั้งรหัสผ่านของคุณใหม่แล้ว
 # $serviceName is a product name such as Monitor, Pocket, Relay
 reset-password-confirmed-cta = ดำเนินการต่อไปยัง { $serviceName }
+
+## Reset password recovery method page
+## This page is shown to users when they are having trouble resetting their
+
+
+# password, and they previously had set up an account recovery method.
+
 reset-password-with-recovery-key-verified-page-title = ตั้งรหัสผ่านใหม่สำเร็จแล้ว
 reset-password-complete-new-password-saved = บันทึกรหัสผ่านใหม่แล้ว!
 reset-password-complete-recovery-key-created = สร้างคีย์กู้คืนบัญชีใหม่แล้ว กรุณาดาวน์โหลดและจัดเก็บคีย์นี้ทันที

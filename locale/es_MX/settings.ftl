@@ -334,11 +334,6 @@ primary-email-confirmation-link-reused = El correo principal ya fue confirmado
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Inicio de sesión ya confirmado
 confirmation-link-reused-message = Ya se ha usado ese enlace de confirmación y es de un solo uso.
-
-## Notification Promo Banner component
-
-account-recovery-notification-cta = Crear
-account-recovery-notification-header-value = No pierdas tus datos si olvidas tu contraseña
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Solicitud errónea
 
@@ -362,6 +357,11 @@ password-strength-inline-min-length = Al menos 8 carácteres
 password-strength-inline-not-email = No es tu dirección de correo electrónico
 password-strength-inline-not-common = No es una contraseña de uso común
 password-strength-inline-confirmed-must-match = La confirmación coincide con la nueva contraseña
+
+## Notification Promo Banner component
+
+account-recovery-notification-cta = Crear
+account-recovery-notification-header-value = No pierdas tus datos si olvidas tu contraseña
 
 ## Ready component
 
@@ -1427,6 +1427,13 @@ password-reset-submit-button-2 = Continuar
 reset-password-complete-header = Tu contraseña ha sido restablecida
 # $serviceName is a product name such as Monitor, Pocket, Relay
 reset-password-confirmed-cta = Continuar a { $serviceName }
+
+## Reset password recovery method page
+## This page is shown to users when they are having trouble resetting their
+
+
+# password, and they previously had set up an account recovery method.
+
 reset-password-with-recovery-key-verified-page-title = La contraseña se restableció exitosamente
 reset-password-complete-new-password-saved = ¡Nueva contraseña guardada!
 reset-password-complete-recovery-key-created = Se ha creado una nueva clave de recuperación de cuenta. Descargar y guardar ahora.

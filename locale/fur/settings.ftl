@@ -368,12 +368,6 @@ primary-email-confirmation-link-reused = E-mail primarie za confermade
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Acès za confermât
 confirmation-link-reused-message = Chel colegament di conferme al è za stât doprât e al è pussibil doprâlu dome une volte.
-
-## Notification Promo Banner component
-
-account-recovery-notification-cta = Cree
-account-recovery-notification-header-value = No sta pierdi i tiei dâts se tu dismenteis la password
-account-recovery-notification-header-description = Cree une clâf di recupar dal account par ripristinâ i tiei dâts di navigazion sincronizâts tal câs che tu ti dismenteis la password.
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Richieste sbaliade
 
@@ -397,6 +391,12 @@ password-strength-inline-min-length = Almancul 8 caratars
 password-strength-inline-not-email = No compagne de direzion e-mail
 password-strength-inline-not-common = No une password di ûs comun
 password-strength-inline-confirmed-must-match = La conferme e corispuint ae gnove password
+
+## Notification Promo Banner component
+
+account-recovery-notification-cta = Cree
+account-recovery-notification-header-value = No sta pierdi i tiei dâts se tu dismenteis la password
+account-recovery-notification-header-description = Cree une clâf di recupar dal account par ripristinâ i tiei dâts di navigazion sincronizâts tal câs che tu ti dismenteis la password.
 
 ## Ready component
 
@@ -1584,6 +1584,13 @@ password-reset-submit-button-2 = Continue
 reset-password-complete-header = La password e je stade ristabilide
 # $serviceName is a product name such as Monitor, Pocket, Relay
 reset-password-confirmed-cta = Continue su { $serviceName }
+
+## Reset password recovery method page
+## This page is shown to users when they are having trouble resetting their
+
+
+# password, and they previously had set up an account recovery method.
+
 reset-password-with-recovery-key-verified-page-title = Ripristinament password lât ben
 reset-password-complete-new-password-saved = Gnove password salvade!
 reset-password-complete-recovery-key-created = E je stade creade une gnove clâf di recupar dal account. Discjamile e salvile daurman.

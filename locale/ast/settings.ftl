@@ -84,9 +84,6 @@ signup-new-password-label =
 ## LinkUsed component
 
 
-## Notification Promo Banner component
-
-
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
 
@@ -95,6 +92,9 @@ signup-new-password-label =
 
 
 ## PasswordStrengthBalloon component
+
+
+## Notification Promo Banner component
 
 
 ## Ready component
@@ -504,6 +504,13 @@ auth-error-1008 = La contraseña nueva ha ser diferente
 
 
 ## ResetPasswordConfirmed
+
+
+## Reset password recovery method page
+## This page is shown to users when they are having trouble resetting their
+
+
+# password, and they previously had set up an account recovery method.
 
 
 ## CompleteSignin component

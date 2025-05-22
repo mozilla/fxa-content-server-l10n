@@ -368,12 +368,6 @@ primary-email-confirmation-link-reused = Mae'r prif e-bost wedi ei ddilysu eisoe
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Mae'r mewngofnod eisoes wedi ei gadarnhau
 confirmation-link-reused-message = Mae'r ddolen cadarnhau honno wedi ei defnyddio eisoes a dim ond unwaith mae modd ie defnyddio.
-
-## Notification Promo Banner component
-
-account-recovery-notification-cta = Crëwch
-account-recovery-notification-header-value = Peidiwch â cholli'ch data os byddwch yn anghofio eich cyfrinair
-account-recovery-notification-header-description = Crëwch allwedd adfer cyfrif fel y gallwch adfer eich data cydweddu pori os byddwch byth yn anghofio eich cyfrinair.
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Cais Gwael
 
@@ -397,6 +391,12 @@ password-strength-inline-min-length = O leiaf 8 nod
 password-strength-inline-not-email = Nid eich cyfeiriad e-bost
 password-strength-inline-not-common = Nid cyfrinair sy'n cael ei ddefnyddio'n gyffredin
 password-strength-inline-confirmed-must-match = Cadarnhad ei fod yn cydweddu â'r cyfrinair newydd
+
+## Notification Promo Banner component
+
+account-recovery-notification-cta = Crëwch
+account-recovery-notification-header-value = Peidiwch â cholli'ch data os byddwch yn anghofio eich cyfrinair
+account-recovery-notification-header-description = Crëwch allwedd adfer cyfrif fel y gallwch adfer eich data cydweddu pori os byddwch byth yn anghofio eich cyfrinair.
 
 ## Ready component
 
@@ -1594,6 +1594,13 @@ password-reset-submit-button-2 = Parhau
 reset-password-complete-header = Mae eich cyfrinair wedi ei ailosod
 # $serviceName is a product name such as Monitor, Pocket, Relay
 reset-password-confirmed-cta = Parhau i { $serviceName }
+
+## Reset password recovery method page
+## This page is shown to users when they are having trouble resetting their
+
+
+# password, and they previously had set up an account recovery method.
+
 reset-password-with-recovery-key-verified-page-title = Mae'r cyfrinair wedi ei ailosod yn llwyddiannus
 reset-password-complete-new-password-saved = Cyfrinair newydd wedi'i gadw!
 reset-password-complete-recovery-key-created = Mae allwedd adfer cyfrif newydd wedi'i chreu. Llwythwch hi i lawr a'i chadw nawr.

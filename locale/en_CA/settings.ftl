@@ -368,12 +368,6 @@ primary-email-confirmation-link-reused = Primary email already confirmed
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Sign-in already confirmed
 confirmation-link-reused-message = That confirmation link was already used, and can only be used once.
-
-## Notification Promo Banner component
-
-account-recovery-notification-cta = Create
-account-recovery-notification-header-value = Don’t lose your data if you forget your password
-account-recovery-notification-header-description = Create an account recovery key to restore your sync browsing data if you ever forget your password.
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Bad Request
 
@@ -397,6 +391,12 @@ password-strength-inline-min-length = At least 8 characters
 password-strength-inline-not-email = Not your email address
 password-strength-inline-not-common = Not a commonly used password
 password-strength-inline-confirmed-must-match = Confirmation matches the new password
+
+## Notification Promo Banner component
+
+account-recovery-notification-cta = Create
+account-recovery-notification-header-value = Don’t lose your data if you forget your password
+account-recovery-notification-header-description = Create an account recovery key to restore your sync browsing data if you ever forget your password.
 
 ## Ready component
 
@@ -1592,6 +1592,13 @@ password-reset-submit-button-2 = Continue
 reset-password-complete-header = Your password has been reset
 # $serviceName is a product name such as Monitor, Pocket, Relay
 reset-password-confirmed-cta = Continue to { $serviceName }
+
+## Reset password recovery method page
+## This page is shown to users when they are having trouble resetting their
+
+
+# password, and they previously had set up an account recovery method.
+
 reset-password-with-recovery-key-verified-page-title = Password reset successful
 reset-password-complete-new-password-saved = New password saved!
 reset-password-complete-recovery-key-created = New account recovery key created. Download and store it now.

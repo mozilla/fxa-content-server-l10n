@@ -111,11 +111,6 @@ input-password-show = Kuva parooli
 ## LinkUsed component
 
 
-## Notification Promo Banner component
-
-account-recovery-notification-cta = Loo
-account-recovery-notification-header-value = Ära kaota oma andmeid, kui unustad parooli
-
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
 
@@ -125,6 +120,11 @@ account-recovery-notification-header-value = Ära kaota oma andmeid, kui unustad
 
 ## PasswordStrengthBalloon component
 
+
+## Notification Promo Banner component
+
+account-recovery-notification-cta = Loo
+account-recovery-notification-header-value = Ära kaota oma andmeid, kui unustad parooli
 
 ## Ready component
 
@@ -743,6 +743,13 @@ pair-supp-allow-cancel-link = Loobu
 
 
 ## ResetPasswordConfirmed
+
+
+## Reset password recovery method page
+## This page is shown to users when they are having trouble resetting their
+
+
+# password, and they previously had set up an account recovery method.
 
 reset-password-complete-recovery-key-created = Uus konto taastevõti on loodud. Laadi see kohe alla ja salvesta.
 

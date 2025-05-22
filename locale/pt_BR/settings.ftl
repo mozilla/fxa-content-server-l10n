@@ -368,12 +368,6 @@ primary-email-confirmation-link-reused = Email principal já foi confirmado
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Acesso já confirmado
 confirmation-link-reused-message = Esse link de confirmação já foi usado e só pode ser usado uma vez.
-
-## Notification Promo Banner component
-
-account-recovery-notification-cta = Criar
-account-recovery-notification-header-value = Não perca seus dados se esquecer sua senha
-account-recovery-notification-header-description = Crie uma chave de recuperação de conta para restaurar os dados de navegação sincronizados, caso esqueça sua senha.
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Requisição inválida
 
@@ -397,6 +391,12 @@ password-strength-inline-min-length = Pelo menos 8 caracteres
 password-strength-inline-not-email = Não ter seu endereço de email
 password-strength-inline-not-common = Não ser uma senha comumente usada
 password-strength-inline-confirmed-must-match = A confirmação corresponde à nova senha
+
+## Notification Promo Banner component
+
+account-recovery-notification-cta = Criar
+account-recovery-notification-header-value = Não perca seus dados se esquecer sua senha
+account-recovery-notification-header-description = Crie uma chave de recuperação de conta para restaurar os dados de navegação sincronizados, caso esqueça sua senha.
 
 ## Ready component
 
@@ -1567,6 +1567,13 @@ password-reset-submit-button-2 = Avançar
 reset-password-complete-header = Sua senha foi redefinida
 # $serviceName is a product name such as Monitor, Pocket, Relay
 reset-password-confirmed-cta = Continuar para { $serviceName }
+
+## Reset password recovery method page
+## This page is shown to users when they are having trouble resetting their
+
+
+# password, and they previously had set up an account recovery method.
+
 reset-password-with-recovery-key-verified-page-title = Senha redefinida com sucesso
 reset-password-complete-new-password-saved = Nova senha salva!
 reset-password-complete-recovery-key-created = Criada nova chave de recuperação de conta. Baixe e guarde agora mesmo.

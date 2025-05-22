@@ -368,12 +368,6 @@ primary-email-confirmation-link-reused = 主邮箱地址已经确认
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = 登录已确认
 confirmation-link-reused-message = 此确认链接已被使用，并只能使用一次。
-
-## Notification Promo Banner component
-
-account-recovery-notification-cta = 创建
-account-recovery-notification-header-value = 忘记密码也不致丢失数据
-account-recovery-notification-header-description = 创建账户恢复密钥，以在忘记密码时恢复同步的浏览数据。
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = 错误请求
 
@@ -397,6 +391,12 @@ password-strength-inline-min-length = 至少 8 个字符
 password-strength-inline-not-email = 不包含您的邮箱地址
 password-strength-inline-not-common = 不是常见密码
 password-strength-inline-confirmed-must-match = 再次输入的密码与新密码一致
+
+## Notification Promo Banner component
+
+account-recovery-notification-cta = 创建
+account-recovery-notification-header-value = 忘记密码也不致丢失数据
+account-recovery-notification-header-description = 创建账户恢复密钥，以在忘记密码时恢复同步的浏览数据。
 
 ## Ready component
 
@@ -1577,6 +1577,13 @@ password-reset-submit-button-2 = 继续
 reset-password-complete-header = 您的密码已重置
 # $serviceName is a product name such as Monitor, Pocket, Relay
 reset-password-confirmed-cta = 继续使用 { $serviceName }
+
+## Reset password recovery method page
+## This page is shown to users when they are having trouble resetting their
+
+
+# password, and they previously had set up an account recovery method.
+
 reset-password-with-recovery-key-verified-page-title = 密码重置成功
 reset-password-complete-new-password-saved = 已保存新密码！
 reset-password-complete-recovery-key-created = 已创建新的账户恢复密钥，请立即下载并存储。

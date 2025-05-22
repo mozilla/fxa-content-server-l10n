@@ -368,12 +368,6 @@ primary-email-confirmation-link-reused = Email chính đã được xác minh tr
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Đăng nhập đã được xác nhận trước đó
 confirmation-link-reused-message = Liên kết xác nhận đó đã được sử dụng và chỉ có thể được sử dụng một lần.
-
-## Notification Promo Banner component
-
-account-recovery-notification-cta = Tạo
-account-recovery-notification-header-value = Đừng để mất dữ liệu nếu bạn quên mật khẩu
-account-recovery-notification-header-description = Tạo khóa khôi phục tài khoản để khôi phục dữ liệu đồng bộ hóa của bạn nếu bạn quên mật khẩu.
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Yêu cầu không hợp lệ
 
@@ -397,6 +391,12 @@ password-strength-inline-min-length = Ít nhất 8 ký tự
 password-strength-inline-not-email = Không phải địa chỉ email của bạn
 password-strength-inline-not-common = Không phải mật khẩu thường được sử dụng
 password-strength-inline-confirmed-must-match = Xác nhận khớp với mật khẩu mới
+
+## Notification Promo Banner component
+
+account-recovery-notification-cta = Tạo
+account-recovery-notification-header-value = Đừng để mất dữ liệu nếu bạn quên mật khẩu
+account-recovery-notification-header-description = Tạo khóa khôi phục tài khoản để khôi phục dữ liệu đồng bộ hóa của bạn nếu bạn quên mật khẩu.
 
 ## Ready component
 
@@ -1594,6 +1594,13 @@ password-reset-submit-button-2 = Tiếp tục
 reset-password-complete-header = Mật khẩu của bạn đã được đặt lại
 # $serviceName is a product name such as Monitor, Pocket, Relay
 reset-password-confirmed-cta = Tiếp tục đến { $serviceName }
+
+## Reset password recovery method page
+## This page is shown to users when they are having trouble resetting their
+
+
+# password, and they previously had set up an account recovery method.
+
 reset-password-with-recovery-key-verified-page-title = Đặt lại mật khẩu thành công
 reset-password-complete-new-password-saved = Đã đặt mật khẩu mới!
 reset-password-complete-recovery-key-created = Đã tạo khóa khôi phục tài khoản mới. Tải xuống và lưu trữ ngay bây giờ.

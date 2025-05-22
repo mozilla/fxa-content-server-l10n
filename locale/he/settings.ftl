@@ -352,12 +352,6 @@ primary-email-confirmation-link-reused = כתובת הדוא״ל הראשית כ
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = ההתחברות כבר אושרה
 confirmation-link-reused-message = נעשה שימוש קודם בקישור האימות, וניתן להשתמש בו רק פעם אחת.
-
-## Notification Promo Banner component
-
-account-recovery-notification-cta = יצירה
-account-recovery-notification-header-value = לא לאבד את הנתונים שלך אם הססמה שלך תישכח
-account-recovery-notification-header-description = ניתן ליצור מפתח לשחזור חשבון כדי לשחזר את נתוני הגלישה המסונכרנים שלך אם הססמה שלך תישכח.
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = בקשה שגויה
 
@@ -381,6 +375,12 @@ password-strength-inline-min-length = לפחות 8 תווים
 password-strength-inline-not-email = לא כתובת הדוא״ל שלך
 password-strength-inline-not-common = לא ססמה נפוצה
 password-strength-inline-confirmed-must-match = האימות מתאים לססמה החדשה
+
+## Notification Promo Banner component
+
+account-recovery-notification-cta = יצירה
+account-recovery-notification-header-value = לא לאבד את הנתונים שלך אם הססמה שלך תישכח
+account-recovery-notification-header-description = ניתן ליצור מפתח לשחזור חשבון כדי לשחזר את נתוני הגלישה המסונכרנים שלך אם הססמה שלך תישכח.
 
 ## Ready component
 
@@ -1506,6 +1506,13 @@ password-reset-submit-button-2 = המשך
 reset-password-complete-header = הססמה שלך אופסה
 # $serviceName is a product name such as Monitor, Pocket, Relay
 reset-password-confirmed-cta = המשך אל { $serviceName }
+
+## Reset password recovery method page
+## This page is shown to users when they are having trouble resetting their
+
+
+# password, and they previously had set up an account recovery method.
+
 reset-password-with-recovery-key-verified-page-title = הססמה אופסה בהצלחה
 reset-password-complete-new-password-saved = הססמה החדשה נשמרה!
 reset-password-complete-recovery-key-created = מפתח חדש לשחזור החשבון נוצר. יש להוריד ולאחסן אותו כעת במקום בטוח.

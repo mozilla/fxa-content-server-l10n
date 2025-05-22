@@ -261,10 +261,6 @@ primary-email-confirmation-link-reused = Imayl amezwaru ittwasentem yakan
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Tuqqna tettwasentem yakan
 confirmation-link-reused-message = Aseɣwen n usentem yettwaseqdec yakan, tzemreḍ kan ad tesqedceḍ yiwet n tikkelt.
-
-## Notification Promo Banner component
-
-account-recovery-notification-cta = Rnu
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Yir tuttra
 
@@ -281,6 +277,10 @@ password-strength-balloon-not-email = Mačči d tansa-k·m n yimayl
 
 password-strength-inline-min-length = Ma drus 8 yisekkilen
 password-strength-inline-not-email = Mačči d tansa-k·m n yimayl
+
+## Notification Promo Banner component
+
+account-recovery-notification-cta = Rnu
 
 ## Ready component
 
@@ -1112,6 +1112,13 @@ password-reset-submit-button-2 = Kemmel
 ## ResetPasswordConfirmed
 
 reset-password-complete-header = Awla inek uffir yettuwennez
+
+## Reset password recovery method page
+## This page is shown to users when they are having trouble resetting their
+
+
+# password, and they previously had set up an account recovery method.
+
 reset-password-with-recovery-key-verified-page-title = Awal uffir yettuwennez akken iwata
 
 ## CompleteSignin component

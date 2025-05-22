@@ -370,12 +370,6 @@ primary-email-confirmation-link-reused = მთავარი ელფოს�
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = შესვლა უკვე დამოწმებულია
 confirmation-link-reused-message = დადასტურების ბმული უკვე გამოყენებულია, მისი გამოყენება მხოლოდ ერთხელ შეიძლება.
-
-## Notification Promo Banner component
-
-account-recovery-notification-cta = შექმნა
-account-recovery-notification-header-value = ნუ დაკარგავთ მონაცემებს პაროლის დავიწყებისას
-account-recovery-notification-header-description = შექმენით ანგარიშის აღდგენის გასაღები და შეგეძლებათ ბრაუზერის დასინქრონებული მონაცემების აღდგენა, თუ დაგავიწყდებათ პაროლი.
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = გაუმართავი მოთხოვნა
 
@@ -399,6 +393,12 @@ password-strength-inline-min-length = სულ მცირე 8 სიმბ�
 password-strength-inline-not-email = თქვენი ელფოსტის გარდა
 password-strength-inline-not-common = ხშირად გამოყენებული პაროლის გარდა
 password-strength-inline-confirmed-must-match = დამადასტურებელი ემთხვევა ახალ პაროლს
+
+## Notification Promo Banner component
+
+account-recovery-notification-cta = შექმნა
+account-recovery-notification-header-value = ნუ დაკარგავთ მონაცემებს პაროლის დავიწყებისას
+account-recovery-notification-header-description = შექმენით ანგარიშის აღდგენის გასაღები და შეგეძლებათ ბრაუზერის დასინქრონებული მონაცემების აღდგენა, თუ დაგავიწყდებათ პაროლი.
 
 ## Ready component
 
@@ -1600,6 +1600,13 @@ password-reset-submit-button-2 = განაგრძეთ
 reset-password-complete-header = თქვენი პაროლი აღდგა.
 # $serviceName is a product name such as Monitor, Pocket, Relay
 reset-password-confirmed-cta = განაგრძეთ და იხილეთ { $serviceName }
+
+## Reset password recovery method page
+## This page is shown to users when they are having trouble resetting their
+
+
+# password, and they previously had set up an account recovery method.
+
 reset-password-with-recovery-key-verified-page-title = პაროლი აღდგა წარმატებით
 reset-password-complete-new-password-saved = ახალი პაროლი შენახულია!
 reset-password-complete-recovery-key-created = შექმნილია ანგარიშის აღდგენის გასაღები. ჩამოტვირთეთ და შეინახეთ ახლავე

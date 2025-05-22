@@ -368,12 +368,6 @@ primary-email-confirmation-link-reused = Glavni e-poštni naslov je že potrjen
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Prijava je že potrjena
 confirmation-link-reused-message = Ta potrditvena povezava je bila že uporabljena, uporabiti pa jo je mogoče le enkrat.
-
-## Notification Promo Banner component
-
-account-recovery-notification-cta = Ustvari
-account-recovery-notification-header-value = Ne izgubite podatkov, če pozabite geslo
-account-recovery-notification-header-description = Ustvarite ključ, ki omogoča obnovitev sinhroniziranih podatkov iz računa v primeru, da kadarkoli pozabite geslo.
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Zahteva z napako
 
@@ -397,6 +391,12 @@ password-strength-inline-min-length = vsebuje vsaj 8 znakov
 password-strength-inline-not-email = ni vaš e-poštni naslov
 password-strength-inline-not-common = ni eno od pogostih gesel
 password-strength-inline-confirmed-must-match = Potrditev se ujema z novim geslom
+
+## Notification Promo Banner component
+
+account-recovery-notification-cta = Ustvari
+account-recovery-notification-header-value = Ne izgubite podatkov, če pozabite geslo
+account-recovery-notification-header-description = Ustvarite ključ, ki omogoča obnovitev sinhroniziranih podatkov iz računa v primeru, da kadarkoli pozabite geslo.
 
 ## Ready component
 
@@ -1596,6 +1596,13 @@ password-reset-submit-button-2 = Nadaljuj
 reset-password-complete-header = Vaše geslo je bilo ponastavljeno
 # $serviceName is a product name such as Monitor, Pocket, Relay
 reset-password-confirmed-cta = Nadaljuj na { $serviceName }
+
+## Reset password recovery method page
+## This page is shown to users when they are having trouble resetting their
+
+
+# password, and they previously had set up an account recovery method.
+
 reset-password-with-recovery-key-verified-page-title = Ponastavitev gesla je uspela
 reset-password-complete-new-password-saved = Novo geslo shranjeno!
 reset-password-complete-recovery-key-created = Nov obnovitveni ključ za račun je ustvarjen. Prenesite in shranite ga zdaj.

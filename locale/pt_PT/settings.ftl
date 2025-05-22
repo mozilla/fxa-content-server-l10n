@@ -368,12 +368,6 @@ primary-email-confirmation-link-reused = O e-mail primário já foi confirmado
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = O início de sessão já foi confirmado
 confirmation-link-reused-message = A ligação de confirmação já foi utilizada e só pode ser utilizada uma vez.
-
-## Notification Promo Banner component
-
-account-recovery-notification-cta = Criar
-account-recovery-notification-header-value = Não perca os seus dados se se esquecer da sua palavra-passe
-account-recovery-notification-header-description = Crie uma chave de recuperação da conta para restaurar os seus dados de navegação sincronizados caso se esqueça da sua palavra-passe.
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Pedido inválido
 
@@ -397,6 +391,12 @@ password-strength-inline-min-length = Pelo menos 8 caracteres
 password-strength-inline-not-email = Não é o seu endereço de e-mail
 password-strength-inline-not-common = Não é uma palavra-passe habitualmente utilizada
 password-strength-inline-confirmed-must-match = A confirmação corresponde à nova palavra-passe
+
+## Notification Promo Banner component
+
+account-recovery-notification-cta = Criar
+account-recovery-notification-header-value = Não perca os seus dados se se esquecer da sua palavra-passe
+account-recovery-notification-header-description = Crie uma chave de recuperação da conta para restaurar os seus dados de navegação sincronizados caso se esqueça da sua palavra-passe.
 
 ## Ready component
 
@@ -1589,6 +1589,13 @@ password-reset-submit-button-2 = Continuar
 reset-password-complete-header = A sua palavra-passe foi reposta
 # $serviceName is a product name such as Monitor, Pocket, Relay
 reset-password-confirmed-cta = Continuar para { $serviceName }
+
+## Reset password recovery method page
+## This page is shown to users when they are having trouble resetting their
+
+
+# password, and they previously had set up an account recovery method.
+
 reset-password-with-recovery-key-verified-page-title = Palavra-passe redefinida com sucesso
 reset-password-complete-new-password-saved = Nova palavra-passe guardada!
 reset-password-complete-recovery-key-created = Nova chave de recuperação da conta criada. Transferir e guardar agora.

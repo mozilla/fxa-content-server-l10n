@@ -368,12 +368,6 @@ primary-email-confirmation-link-reused = Основная электронная
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Вход уже подтверждён
 confirmation-link-reused-message = Эта ссылка для подтверждения уже была использована, и может использоваться только один раз.
-
-## Notification Promo Banner component
-
-account-recovery-notification-cta = Создать
-account-recovery-notification-header-value = Не потеряйте свои данные, если забудете пароль
-account-recovery-notification-header-description = Создайте ключ восстановления аккаунта, чтобы восстановить синхронизированные данные о просмотре, если забудете пароль.
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Неверный запрос
 
@@ -397,6 +391,12 @@ password-strength-inline-min-length = Не менее 8 символов
 password-strength-inline-not-email = Не ваш адрес электронной почты
 password-strength-inline-not-common = Не часто используемый пароль
 password-strength-inline-confirmed-must-match = Подтверждение соответствует новому паролю
+
+## Notification Promo Banner component
+
+account-recovery-notification-cta = Создать
+account-recovery-notification-header-value = Не потеряйте свои данные, если забудете пароль
+account-recovery-notification-header-description = Создайте ключ восстановления аккаунта, чтобы восстановить синхронизированные данные о просмотре, если забудете пароль.
 
 ## Ready component
 
@@ -1595,6 +1595,13 @@ password-reset-submit-button-2 = Продолжить
 reset-password-complete-header = Ваш пароль был сброшен
 # $serviceName is a product name such as Monitor, Pocket, Relay
 reset-password-confirmed-cta = Перейти к { $serviceName }
+
+## Reset password recovery method page
+## This page is shown to users when they are having trouble resetting their
+
+
+# password, and they previously had set up an account recovery method.
+
 reset-password-with-recovery-key-verified-page-title = Пароль успешно восстановлен
 reset-password-complete-new-password-saved = Новый пароль сохранён!
 reset-password-complete-recovery-key-created = Новый ключ восстановления аккаунта создан. Загрузите и сохраните его сейчас.

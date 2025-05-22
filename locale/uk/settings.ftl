@@ -368,12 +368,6 @@ primary-email-confirmation-link-reused = Основна адреса елект�
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Вхід вже підтверджений
 confirmation-link-reused-message = Це посилання для підтвердження вже було використане, і може використовуватись лише один раз.
-
-## Notification Promo Banner component
-
-account-recovery-notification-cta = Створити
-account-recovery-notification-header-value = Не втратьте свої дані, якщо забудете пароль
-account-recovery-notification-header-description = Створіть ключ відновлення облікового запису для можливості відновлення синхронізованих даних перегляду в разі втрати пароля.
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Неправильний запит
 
@@ -397,6 +391,12 @@ password-strength-inline-min-length = Принаймні 8 символів
 password-strength-inline-not-email = Не ваша адреса електронної пошти
 password-strength-inline-not-common = Не загальновживаний пароль
 password-strength-inline-confirmed-must-match = Підтвердження відповідає новому паролю
+
+## Notification Promo Banner component
+
+account-recovery-notification-cta = Створити
+account-recovery-notification-header-value = Не втратьте свої дані, якщо забудете пароль
+account-recovery-notification-header-description = Створіть ключ відновлення облікового запису для можливості відновлення синхронізованих даних перегляду в разі втрати пароля.
 
 ## Ready component
 
@@ -1599,6 +1599,13 @@ password-reset-submit-button-2 = Продовжити
 reset-password-complete-header = Ваш пароль було відновлено
 # $serviceName is a product name such as Monitor, Pocket, Relay
 reset-password-confirmed-cta = Продовжити в { $serviceName }
+
+## Reset password recovery method page
+## This page is shown to users when they are having trouble resetting their
+
+
+# password, and they previously had set up an account recovery method.
+
 reset-password-with-recovery-key-verified-page-title = Пароль успішно відновлено
 reset-password-complete-new-password-saved = Новий пароль збережено!
 reset-password-complete-recovery-key-created = Створено новий ключ відновлення облікового запису. Завантажте та збережіть його зараз.

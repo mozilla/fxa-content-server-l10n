@@ -357,12 +357,6 @@ primary-email-confirmation-link-reused = Ensisijainen sähköposti on jo vahvist
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Kirjautuminen on jo vahvistettu
 confirmation-link-reused-message = Tämä vahvistuslinkki on jo käytetty, ja linkkiä voi käyttää vain kerran.
-
-## Notification Promo Banner component
-
-account-recovery-notification-cta = Luo
-account-recovery-notification-header-value = Älä menetä tietojasi, jos unohdat salasanasi
-account-recovery-notification-header-description = Luo tilin palautusavain synkronoitujen selaustietojen palauttamiseksi, jos unohdat salasanasi.
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Virheellinen pyyntö
 
@@ -386,6 +380,12 @@ password-strength-inline-min-length = Vähintään 8 merkkiä
 password-strength-inline-not-email = Ei sinun sähköpostiosoite
 password-strength-inline-not-common = Ei yleisesti käytetty salasana
 password-strength-inline-confirmed-must-match = Vahvistus vastaa uutta salasanaa
+
+## Notification Promo Banner component
+
+account-recovery-notification-cta = Luo
+account-recovery-notification-header-value = Älä menetä tietojasi, jos unohdat salasanasi
+account-recovery-notification-header-description = Luo tilin palautusavain synkronoitujen selaustietojen palauttamiseksi, jos unohdat salasanasi.
 
 ## Ready component
 
@@ -1502,6 +1502,13 @@ password-reset-submit-button-2 = Jatka
 reset-password-complete-header = Salasanasi on nollattu
 # $serviceName is a product name such as Monitor, Pocket, Relay
 reset-password-confirmed-cta = Jatka palveluun { $serviceName }
+
+## Reset password recovery method page
+## This page is shown to users when they are having trouble resetting their
+
+
+# password, and they previously had set up an account recovery method.
+
 reset-password-with-recovery-key-verified-page-title = Salasanan nollaus onnistui
 reset-password-complete-new-password-saved = Uusi salasana tallennettu!
 reset-password-complete-recovery-key-created = Uusi tilin palautusavain luotu. Lataa ja tallenna se nyt.

@@ -368,12 +368,6 @@ primary-email-confirmation-link-reused = Główny adres e-mail został już potw
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Już potwierdzono logowanie
 confirmation-link-reused-message = Ten odnośnik potwierdzenia został już użyty, a może być używany tylko raz.
-
-## Notification Promo Banner component
-
-account-recovery-notification-cta = Utwórz
-account-recovery-notification-header-value = Nie strać swoich danych, jeśli zapomnisz hasła
-account-recovery-notification-header-description = Utwórz klucz odzyskiwania konta, aby odzyskać synchronizowane dane przeglądania, jeśli kiedykolwiek zapomnisz hasła.
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Błędne żądanie
 
@@ -397,6 +391,12 @@ password-strength-inline-min-length = Musi mieć co najmniej 8 znaków
 password-strength-inline-not-email = Nie może być Twoim adresem e-mail
 password-strength-inline-not-common = Nie może być często używanym hasłem
 password-strength-inline-confirmed-must-match = Potwierdzenie zgadza się z nowym hasłem
+
+## Notification Promo Banner component
+
+account-recovery-notification-cta = Utwórz
+account-recovery-notification-header-value = Nie strać swoich danych, jeśli zapomnisz hasła
+account-recovery-notification-header-description = Utwórz klucz odzyskiwania konta, aby odzyskać synchronizowane dane przeglądania, jeśli kiedykolwiek zapomnisz hasła.
 
 ## Ready component
 
@@ -1595,6 +1595,13 @@ password-reset-submit-button-2 = Kontynuuj
 reset-password-complete-header = Zmieniono hasło
 # $serviceName is a product name such as Monitor, Pocket, Relay
 reset-password-confirmed-cta = Przejdź do usługi { $serviceName }
+
+## Reset password recovery method page
+## This page is shown to users when they are having trouble resetting their
+
+
+# password, and they previously had set up an account recovery method.
+
 reset-password-with-recovery-key-verified-page-title = Pomyślnie zmieniono hasło
 reset-password-complete-new-password-saved = Zachowano nowe hasło
 reset-password-complete-recovery-key-created = Utworzono nowy klucz odzyskiwania konta. Teraz pobierz go i zachowaj.

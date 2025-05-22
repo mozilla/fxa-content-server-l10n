@@ -368,12 +368,6 @@ primary-email-confirmation-link-reused = Primarna e-mailowa adresa jo južo wok�
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Pśizjawjenje jo se južo wobkšuśiło
 confirmation-link-reused-message = Toś ten wobkšuśeński wótkaz jo se južo wužył a dajo se jano jaden raz wužywaś.
-
-## Notification Promo Banner component
-
-account-recovery-notification-cta = Napóraś
-account-recovery-notification-header-value = Njezgubujśo swóje daty, jolic swójo gronidło zabydnjośo.
-account-recovery-notification-header-description = Napórajśo kontowy wótnowjeński kluc, aby swóje synchronizaciske pśeglědowańske daty wótnowiś, jolic swójo gronidło zabydnjośo.
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Špatne napšašowanje
 
@@ -397,6 +391,12 @@ password-strength-inline-min-length = Nanejmjenjej 8 znamuškow
 password-strength-inline-not-email = Nic waša e-mailowa adresa
 password-strength-inline-not-common = Nic cesto wužywane gronidło
 password-strength-inline-confirmed-must-match = Wobkšuśenje nowemu gronidłoju wótpowědujo
+
+## Notification Promo Banner component
+
+account-recovery-notification-cta = Napóraś
+account-recovery-notification-header-value = Njezgubujśo swóje daty, jolic swójo gronidło zabydnjośo.
+account-recovery-notification-header-description = Napórajśo kontowy wótnowjeński kluc, aby swóje synchronizaciske pśeglědowańske daty wótnowiś, jolic swójo gronidło zabydnjośo.
 
 ## Ready component
 
@@ -1596,6 +1596,13 @@ password-reset-submit-button-2 = Dalej
 reset-password-complete-header = Wašo gronidło jo se slědk stajiło
 # $serviceName is a product name such as Monitor, Pocket, Relay
 reset-password-confirmed-cta = Dalej k { $serviceName }
+
+## Reset password recovery method page
+## This page is shown to users when they are having trouble resetting their
+
+
+# password, and they previously had set up an account recovery method.
+
 reset-password-with-recovery-key-verified-page-title = Gronidło jo se wuspěšnje slědk stajiło
 reset-password-complete-new-password-saved = Nowe gronidło jo se składło!
 reset-password-complete-recovery-key-created = Nowy kontowy wótnowjeński kluc jo se napórał. Ześěgniśo a składujśo jen něnto.

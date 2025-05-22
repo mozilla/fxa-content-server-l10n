@@ -306,10 +306,6 @@ remember-password-signin-link = ورود
 ## LinkUsed component
 
 
-## Notification Promo Banner component
-
-account-recovery-notification-cta = ایجاد
-
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
 
@@ -319,6 +315,10 @@ account-recovery-notification-cta = ایجاد
 
 ## PasswordStrengthBalloon component
 
+
+## Notification Promo Banner component
+
+account-recovery-notification-cta = ایجاد
 
 ## Ready component
 
@@ -715,6 +715,13 @@ rk-action-remove = برداشتن
 
 
 ## ResetPasswordConfirmed
+
+
+## Reset password recovery method page
+## This page is shown to users when they are having trouble resetting their
+
+
+# password, and they previously had set up an account recovery method.
 
 
 ## CompleteSignin component

@@ -368,12 +368,6 @@ primary-email-confirmation-link-reused = 主要電子郵件地址已經驗證過
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = 已確認過此次登入
 confirmation-link-reused-message = 該確認鏈結只能使用一次，已經被使用過了。
-
-## Notification Promo Banner component
-
-account-recovery-notification-cta = 建立
-account-recovery-notification-header-value = 就算忘記密碼也不失去資料
-account-recovery-notification-header-description = 建立帳號救援金鑰，讓您在忘記密碼時也能還原同步過的瀏覽資料。
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = 請求錯誤
 
@@ -397,6 +391,12 @@ password-strength-inline-min-length = 至少八個字元長
 password-strength-inline-not-email = 不可以與您的電子郵件地址相同
 password-strength-inline-not-common = 不可以是常見的密碼
 password-strength-inline-confirmed-must-match = 再次輸入的密碼與新密碼相符
+
+## Notification Promo Banner component
+
+account-recovery-notification-cta = 建立
+account-recovery-notification-header-value = 就算忘記密碼也不失去資料
+account-recovery-notification-header-description = 建立帳號救援金鑰，讓您在忘記密碼時也能還原同步過的瀏覽資料。
 
 ## Ready component
 
@@ -1569,6 +1569,13 @@ password-reset-submit-button-2 = 繼續
 reset-password-complete-header = 已重設您的密碼
 # $serviceName is a product name such as Monitor, Pocket, Relay
 reset-password-confirmed-cta = 繼續前往 { $serviceName }
+
+## Reset password recovery method page
+## This page is shown to users when they are having trouble resetting their
+
+
+# password, and they previously had set up an account recovery method.
+
 reset-password-with-recovery-key-verified-page-title = 密碼重設成功
 reset-password-complete-new-password-saved = 已儲存新密碼！
 reset-password-complete-recovery-key-created = 已建立新的帳號救援金鑰，請立即下載並儲存。

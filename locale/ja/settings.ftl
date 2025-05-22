@@ -315,12 +315,6 @@ primary-email-confirmation-link-reused = 優先メールアドレスは既に確
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = ログインは既に確認されています
 confirmation-link-reused-message = 確認リンクは一度のみ使用でき、このリンクは既に使用されています。
-
-## Notification Promo Banner component
-
-account-recovery-notification-cta = 作成
-account-recovery-notification-header-value = パスワードを忘れてもデータを復元できるように設定してください
-account-recovery-notification-header-description = アカウント回復用キーを作成すると、もしパスワードを忘れても同期しているブラウジングデータを回復できます。
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = 不正なリクエスト
 
@@ -340,6 +334,12 @@ password-strength-balloon-stay-safe-tips = 安全のため、パスワードを�
 
 ## PasswordStrengthBalloon component
 
+
+## Notification Promo Banner component
+
+account-recovery-notification-cta = 作成
+account-recovery-notification-header-value = パスワードを忘れてもデータを復元できるように設定してください
+account-recovery-notification-header-description = アカウント回復用キーを作成すると、もしパスワードを忘れても同期しているブラウジングデータを回復できます。
 
 ## Ready component
 
@@ -1412,6 +1412,13 @@ password-reset-submit-button-2 = 続行
 reset-password-complete-header = パスワードがリセットされました
 # $serviceName is a product name such as Monitor, Pocket, Relay
 reset-password-confirmed-cta = { $serviceName } へ進む
+
+## Reset password recovery method page
+## This page is shown to users when they are having trouble resetting their
+
+
+# password, and they previously had set up an account recovery method.
+
 reset-password-with-recovery-key-verified-page-title = パスワードのリセットが完了しました
 
 ## CompleteSignin component

@@ -368,12 +368,6 @@ primary-email-confirmation-link-reused = Ñanduti veve tuichavéva moneĩmbyre
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Tembiapo ñepyrũ moneĩmbyre
 confirmation-link-reused-message = Ojeporúma pe joajuha ñemoneĩrãva ha peteĩjeýnte ikatu eiporu.
-
-## Notification Promo Banner component
-
-account-recovery-notification-cta = Moheñói
-account-recovery-notification-header-value = Nokañyiva’erã ne mba’ekuaarã nderesaráirõ ne ñe’ẽñemi
-account-recovery-notification-header-description = Emoheñói mba’ete guerujeyrã mba’eñemi emyatyrõ hag̃ua ne ñeikundaha mba’ekuaarã mbojuehepyre nderesaráirõ ne ñe’ẽñemi.
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Mba’ejerure ojavýva
 
@@ -397,6 +391,12 @@ password-strength-inline-min-length = Michĩvéramo 8 tai
 password-strength-inline-not-email = Ani ne ñanduti veve kundaharape
 password-strength-inline-not-common = Ndaha’éi ne ñe’ẽñemi eiporumeméva
 password-strength-inline-confirmed-must-match = Pe ñemoneĩ ojokupyty ñe’ẽñemi pyahúre
+
+## Notification Promo Banner component
+
+account-recovery-notification-cta = Moheñói
+account-recovery-notification-header-value = Nokañyiva’erã ne mba’ekuaarã nderesaráirõ ne ñe’ẽñemi
+account-recovery-notification-header-description = Emoheñói mba’ete guerujeyrã mba’eñemi emyatyrõ hag̃ua ne ñeikundaha mba’ekuaarã mbojuehepyre nderesaráirõ ne ñe’ẽñemi.
 
 ## Ready component
 
@@ -1576,6 +1576,13 @@ password-reset-submit-button-2 = Ku’ejey
 reset-password-complete-header = Oikojeýma ne ñe’ẽñemi
 # $serviceName is a product name such as Monitor, Pocket, Relay
 reset-password-confirmed-cta = Eku’ejey { $serviceName } ndive
+
+## Reset password recovery method page
+## This page is shown to users when they are having trouble resetting their
+
+
+# password, and they previously had set up an account recovery method.
+
 reset-password-with-recovery-key-verified-page-title = Ñe’ẽñemi jeguerujeypyre
 reset-password-complete-new-password-saved = ¡Ñe’ẽñemi pyahu ñongatupyre!
 reset-password-complete-recovery-key-created = Mba’ete mba’eñemi guerujeyrã moheñoimbyre. Emboguejy ha eñongatu.

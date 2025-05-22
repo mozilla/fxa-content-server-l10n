@@ -260,10 +260,6 @@ remember-password-signin-link = Керү
 primary-email-confirmation-link-reused = Беренчел эл. почта адресы расланды инде
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Керү расланды инде
-
-## Notification Promo Banner component
-
-account-recovery-notification-cta = Булдыру
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Яраксыз сорау
 
@@ -283,6 +279,10 @@ password-strength-balloon-not-common = Еш кулланыла торган се
 password-strength-inline-min-length = Кимендә 8 символ
 password-strength-inline-not-email = Эл. почта адресыгыз түгел
 password-strength-inline-not-common = Еш кулланылучы серсүз түгел
+
+## Notification Promo Banner component
+
+account-recovery-notification-cta = Булдыру
 
 ## Ready component
 
@@ -1085,6 +1085,13 @@ password-reset-submit-button-2 = Дәвам итү
 reset-password-complete-header = Серсүзегез алмаштырылды
 # $serviceName is a product name such as Monitor, Pocket, Relay
 reset-password-confirmed-cta = { $serviceName } хезмәтенә күчү
+
+## Reset password recovery method page
+## This page is shown to users when they are having trouble resetting their
+
+
+# password, and they previously had set up an account recovery method.
+
 reset-password-with-recovery-key-verified-page-title = Серзүз уңышлы ташлатылды
 reset-password-complete-new-password-saved = Яңа серсүз сакланды!
 

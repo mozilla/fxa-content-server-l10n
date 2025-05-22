@@ -368,12 +368,6 @@ primary-email-confirmation-link-reused = 기본 이메일이 이미 승인됨
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = 이 로그인은 이미 승인됨
 confirmation-link-reused-message = 이 승인 링크는 이미 사용되었고, 승인 링크는 단 한 번만 사용할 수 있습니다.
-
-## Notification Promo Banner component
-
-account-recovery-notification-cta = 생성
-account-recovery-notification-header-value = 비밀번호를 잊어버려도 데이터를 지킬 수 있습니다.
-account-recovery-notification-header-description = 계정 복구 키를 만들어 비밀번호를 잊어버렸을 때 동기화 브라우징 데이터를 복원하세요.
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = 잘못된 요청
 
@@ -397,6 +391,12 @@ password-strength-inline-min-length = 최소 8자 이상
 password-strength-inline-not-email = 이메일 주소가 아님
 password-strength-inline-not-common = 흔히 사용되는 비밀번호가 아님
 password-strength-inline-confirmed-must-match = 새 비밀번호 확인이 새 비밀번호와 일치
+
+## Notification Promo Banner component
+
+account-recovery-notification-cta = 생성
+account-recovery-notification-header-value = 비밀번호를 잊어버려도 데이터를 지킬 수 있습니다.
+account-recovery-notification-header-description = 계정 복구 키를 만들어 비밀번호를 잊어버렸을 때 동기화 브라우징 데이터를 복원하세요.
 
 ## Ready component
 
@@ -1544,6 +1544,13 @@ password-reset-submit-button-2 = 계속
 reset-password-complete-header = 비밀번호가 재설정되었습니다
 # $serviceName is a product name such as Monitor, Pocket, Relay
 reset-password-confirmed-cta = { $serviceName }로 계속
+
+## Reset password recovery method page
+## This page is shown to users when they are having trouble resetting their
+
+
+# password, and they previously had set up an account recovery method.
+
 reset-password-with-recovery-key-verified-page-title = 비밀번호 재설정 성공
 reset-password-complete-new-password-saved = 새 비밀번호 저장됨!
 reset-password-complete-recovery-key-created = 새로운 계정 복구 키가 생성되었습니다. 지금 다운로드하고 저장하세요.

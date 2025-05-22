@@ -368,12 +368,6 @@ primary-email-confirmation-link-reused = Hlavná e‑mailová adresa už bola ov
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Prihlásenie je už potvrdené
 confirmation-link-reused-message = Tento potvrdzovací odkaz bol už použitý (dá sa použiť len raz).
-
-## Notification Promo Banner component
-
-account-recovery-notification-cta = Vytvoriť
-account-recovery-notification-header-value = Ak zabudnete heslo, neprídete o svoje údaje
-account-recovery-notification-header-description = Vytvorte si kľúč na obnovenie účtu na obnovenie synchronizovaných údajov prehliadania, ak niekedy zabudnete svoje heslo.
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Nesprávna požiadavka
 
@@ -397,6 +391,12 @@ password-strength-inline-min-length = Minimálne 8 znakov
 password-strength-inline-not-email = Nie je to vaša e‑mailová adresa
 password-strength-inline-not-common = Nie je to bežne používané heslo
 password-strength-inline-confirmed-must-match = Potvrdenie sa zhoduje s novým heslom
+
+## Notification Promo Banner component
+
+account-recovery-notification-cta = Vytvoriť
+account-recovery-notification-header-value = Ak zabudnete heslo, neprídete o svoje údaje
+account-recovery-notification-header-description = Vytvorte si kľúč na obnovenie účtu na obnovenie synchronizovaných údajov prehliadania, ak niekedy zabudnete svoje heslo.
 
 ## Ready component
 
@@ -1593,6 +1593,13 @@ password-reset-submit-button-2 = Pokračovať
 reset-password-complete-header = Vaše heslo bolo obnovené
 # $serviceName is a product name such as Monitor, Pocket, Relay
 reset-password-confirmed-cta = A pokračovať do služby { $serviceName }
+
+## Reset password recovery method page
+## This page is shown to users when they are having trouble resetting their
+
+
+# password, and they previously had set up an account recovery method.
+
 reset-password-with-recovery-key-verified-page-title = Obnovenie hesla bolo úspešné
 reset-password-complete-new-password-saved = Nové heslo bolo uložené!
 reset-password-complete-recovery-key-created = Bol vytvorený nový kľúč na obnovenie účtu. Stiahnite si ho a uložte teraz.

@@ -368,12 +368,6 @@ primary-email-confirmation-link-reused = Az elsődleges e-mail már meg lett er�
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = A bejelentkezés már meg lett erősítve
 confirmation-link-reused-message = A megerősítési hivatkozás már volt használva, és csak egyszer használható.
-
-## Notification Promo Banner component
-
-account-recovery-notification-cta = Létrehozás
-account-recovery-notification-header-value = Ne veszítse el adatait, ha elfelejti a jelszavát
-account-recovery-notification-header-description = Hozzon létre egy fiók-helyreállítási kulcsot, hogy helyreállítsa a szinkronizált böngészési adatait, ha elfelejtené a jelszavát.
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Hibás kérés
 
@@ -397,6 +391,12 @@ password-strength-inline-min-length = Legalább 8 karakter
 password-strength-inline-not-email = Nem az Ön e-mail-címe
 password-strength-inline-not-common = Nem gyakran használt jelszó
 password-strength-inline-confirmed-must-match = A megerősítés egyezik az új jelszóval
+
+## Notification Promo Banner component
+
+account-recovery-notification-cta = Létrehozás
+account-recovery-notification-header-value = Ne veszítse el adatait, ha elfelejti a jelszavát
+account-recovery-notification-header-description = Hozzon létre egy fiók-helyreállítási kulcsot, hogy helyreállítsa a szinkronizált böngészési adatait, ha elfelejtené a jelszavát.
 
 ## Ready component
 
@@ -1598,6 +1598,13 @@ password-reset-submit-button-2 = Folytatás
 reset-password-complete-header = A jelszó vissza lett állítva
 # $serviceName is a product name such as Monitor, Pocket, Relay
 reset-password-confirmed-cta = Tovább erre: { $serviceName }
+
+## Reset password recovery method page
+## This page is shown to users when they are having trouble resetting their
+
+
+# password, and they previously had set up an account recovery method.
+
 reset-password-with-recovery-key-verified-page-title = Jelszó sikeresen visszaállítva
 reset-password-complete-new-password-saved = Új jelszó elmentve!
 reset-password-complete-recovery-key-created = Új fiók-helyreállítási kulcs létrehozva. Töltse le és tárolja most.

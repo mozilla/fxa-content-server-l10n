@@ -368,12 +368,6 @@ primary-email-confirmation-link-reused = Helbide elektroniko nagusia dagoeneko b
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Saio-hasiera dagoeneko berretsita
 confirmation-link-reused-message = Berrespen-lotura hori erabilita dago eta behin bakarrik erabil daiteke.
-
-## Notification Promo Banner component
-
-account-recovery-notification-cta = Sortu
-account-recovery-notification-header-value = Ez galdu zure datuak pasahitza ahazten baduzu
-account-recovery-notification-header-description = Sortu kontua berreskuratzeko gako bat, zure sinkronizazioaren arakatze-datuak leheneratu ahal izateko pasahitza ahazten baduzu.
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Eskaera okerra
 
@@ -397,6 +391,12 @@ password-strength-inline-min-length = Gutxienez 8 karaktere
 password-strength-inline-not-email = Ezin da zure helbide elektronikoa izan
 password-strength-inline-not-common = Ezin da askotan erabilitako pasahitza izan
 password-strength-inline-confirmed-must-match = Berrespena pasahitz berriarekin bat dator
+
+## Notification Promo Banner component
+
+account-recovery-notification-cta = Sortu
+account-recovery-notification-header-value = Ez galdu zure datuak pasahitza ahazten baduzu
+account-recovery-notification-header-description = Sortu kontua berreskuratzeko gako bat, zure sinkronizazioaren arakatze-datuak leheneratu ahal izateko pasahitza ahazten baduzu.
 
 ## Ready component
 
@@ -1592,6 +1592,13 @@ password-reset-submit-button-2 = Jarraitu
 reset-password-complete-header = Zure pasahitza berrezarri egin da
 # $serviceName is a product name such as Monitor, Pocket, Relay
 reset-password-confirmed-cta = Jarraitu { $serviceName } zerbitzura
+
+## Reset password recovery method page
+## This page is shown to users when they are having trouble resetting their
+
+
+# password, and they previously had set up an account recovery method.
+
 reset-password-with-recovery-key-verified-page-title = Pasahitza ondo berrezarri da
 reset-password-complete-new-password-saved = Pasahitz berria gorde da!
 reset-password-complete-recovery-key-created = Kontua berreskuratzeko gako berria sortu da. Deskargatu eta gorde ezazu orain.

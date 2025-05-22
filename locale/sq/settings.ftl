@@ -368,12 +368,6 @@ primary-email-confirmation-link-reused = Email-i parësor tashmë i verifikuar
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Hyrje tashmë e ripohuar
 confirmation-link-reused-message = Ajo lidhje ripohimi qe përdorur tashmë dhe mund të përdoret vetëm një herë.
-
-## Notification Promo Banner component
-
-account-recovery-notification-cta = Krijoje
-account-recovery-notification-header-value = Mos humbni të dhënat tuaja, nëse harroni fjalëkalimin
-account-recovery-notification-header-description = Krijoni një kyç rimarrjeje llogarie, që të riktheni të dhëna shfletimi të njëkohësuara, nëse harroni ndonjëherë fjalëkalimin tuaj.
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Kërkesë e Gabuar
 
@@ -397,6 +391,12 @@ password-strength-inline-min-length = Të paktën 8 shenja
 password-strength-inline-not-email = Jo adresën tuaj email
 password-strength-inline-not-common = Jo një fjalëkalim të përdorur rëndom
 password-strength-inline-confirmed-must-match = Ripohimi përkon me fjalëkalimin e ri
+
+## Notification Promo Banner component
+
+account-recovery-notification-cta = Krijoje
+account-recovery-notification-header-value = Mos humbni të dhënat tuaja, nëse harroni fjalëkalimin
+account-recovery-notification-header-description = Krijoni një kyç rimarrjeje llogarie, që të riktheni të dhëna shfletimi të njëkohësuara, nëse harroni ndonjëherë fjalëkalimin tuaj.
 
 ## Ready component
 
@@ -1587,6 +1587,13 @@ password-reset-submit-button-2 = Vazhdo
 reset-password-complete-header = Fjalëkalimi juaj u ricaktua
 # $serviceName is a product name such as Monitor, Pocket, Relay
 reset-password-confirmed-cta = Vazhdoni te { $serviceName }
+
+## Reset password recovery method page
+## This page is shown to users when they are having trouble resetting their
+
+
+# password, and they previously had set up an account recovery method.
+
 reset-password-with-recovery-key-verified-page-title = Fjalëkalimi u ricaktua me sukses
 reset-password-complete-new-password-saved = Fjalëkalimi i ri u ruajt!
 reset-password-complete-recovery-key-created = U krijua kyç i ri rimarrjeje llogarie. Tani shkarkojeni dhe depozitojeni.

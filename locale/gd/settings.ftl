@@ -88,9 +88,6 @@ datablock-print =
 ## LinkUsed component
 
 
-## Notification Promo Banner component
-
-
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
 
@@ -99,6 +96,9 @@ datablock-print =
 
 
 ## PasswordStrengthBalloon component
+
+
+## Notification Promo Banner component
 
 
 ## Ready component
@@ -529,6 +529,13 @@ auth-error-1008 = Feumaidh am facal-faire ùr a bhith eadar-dhealaichte
 
 
 ## ResetPasswordConfirmed
+
+
+## Reset password recovery method page
+## This page is shown to users when they are having trouble resetting their
+
+
+# password, and they previously had set up an account recovery method.
 
 
 ## CompleteSignin component

@@ -316,10 +316,6 @@ remember-password-signin-link = Ворид шудан
 # The user followed a primary email confirmation link, but that link is has been used and is no longer valid
 primary-email-confirmation-link-reused = Почтаи электронии асосӣ алакай тасдиқ карда шуд
 
-## Notification Promo Banner component
-
-account-recovery-notification-cta = Эҷод кардан
-
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
 
@@ -330,6 +326,10 @@ password-strength-balloon-heading = Талаботи ниҳонвожа
 
 ## PasswordStrengthBalloon component
 
+
+## Notification Promo Banner component
+
+account-recovery-notification-cta = Эҷод кардан
 
 ## Ready component
 
@@ -988,6 +988,13 @@ password-reset-submit-button-2 = Идома додан
 ## ResetPasswordConfirmed
 
 reset-password-complete-header = Ниҳонвожаи шумо аз нав барқарор карда шуд
+
+## Reset password recovery method page
+## This page is shown to users when they are having trouble resetting their
+
+
+# password, and they previously had set up an account recovery method.
+
 reset-password-with-recovery-key-verified-page-title = Ниҳонвожа бо муваффақият аз нав танзим карда шуд
 reset-password-complete-new-password-saved = Ниҳонвожаи нав нигоҳ дошта шуд!
 

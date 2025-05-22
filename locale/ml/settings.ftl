@@ -311,10 +311,6 @@ remember-password-signin-link = പ്രവേശിക്കുക
 primary-email-confirmation-link-reused = പ്രാഥമിക ഇതപാൽ മുൻപേ ഉറപ്പിച്ചതാണു്
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = പ്രവേശനം ഉറപ്പിച്ചു
-
-## Notification Promo Banner component
-
-account-recovery-notification-cta = നിര്‍മ്മിക്കുക
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = കേടായ അഭ്യൎത്ഥനം
 
@@ -334,6 +330,10 @@ password-strength-balloon-not-common = സാധാരണമുപയോഗപ�
 password-strength-inline-min-length = 8 പ്രതീകങ്ങളെങ്കിലും
 password-strength-inline-not-email = താങ്ങളുടെ ഇതപാൽ വിലാസമല്ല
 password-strength-inline-not-common = സാധാരണമുപയോഗപ്പെട്ട രഹസ്യവാക്കല്ല
+
+## Notification Promo Banner component
+
+account-recovery-notification-cta = നിര്‍മ്മിക്കുക
 
 ## Ready component
 
@@ -887,6 +887,13 @@ password-reset-submit-button-2 = തുടരുക
 reset-password-complete-header = താങ്കളുടെ രഹസ്യവാക്കു് പുനഃസജ്ജമാക്കി
 # $serviceName is a product name such as Monitor, Pocket, Relay
 reset-password-confirmed-cta = { $serviceName }-ലോട്ടു് തുടരുക
+
+## Reset password recovery method page
+## This page is shown to users when they are having trouble resetting their
+
+
+# password, and they previously had set up an account recovery method.
+
 
 ## CompleteSignin component
 

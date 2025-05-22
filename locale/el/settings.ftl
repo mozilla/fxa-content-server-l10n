@@ -368,12 +368,6 @@ primary-email-confirmation-link-reused = Το κύριο email έχει ήδη �
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Η σύνδεση έχει ήδη επιβεβαιωθεί
 confirmation-link-reused-message = Αυτός ο σύνδεσμος επιβεβαίωσης έχει ήδη χρησιμοποιηθεί και μπορεί να χρησιμοποιηθεί μόνο μία φορά.
-
-## Notification Promo Banner component
-
-account-recovery-notification-cta = Δημιουργία
-account-recovery-notification-header-value = Μην χάσετε τα δεδομένα σας εάν ξεχάσετε τον κωδικό πρόσβασής σας
-account-recovery-notification-header-description = Δημιουργήστε ένα κλειδί ανάκτησης λογαριασμού, για να επαναφέρετε τα συγχρονισμένα δεδομένα περιήγησής σας σε περίπτωση που ξεχάσετε τον κωδικό πρόσβασής σας.
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Εσφαλμένο αίτημα
 
@@ -397,6 +391,12 @@ password-strength-inline-min-length = Τουλάχιστον 8 χαρακτήρ�
 password-strength-inline-not-email = Όχι τη διεύθυνση email σας
 password-strength-inline-not-common = Όχι κάποιο συνήθη κωδικό πρόσβασής σας
 password-strength-inline-confirmed-must-match = Η επιβεβαίωση ταιριάζει με τον νέο κωδικό πρόσβασης
+
+## Notification Promo Banner component
+
+account-recovery-notification-cta = Δημιουργία
+account-recovery-notification-header-value = Μην χάσετε τα δεδομένα σας εάν ξεχάσετε τον κωδικό πρόσβασής σας
+account-recovery-notification-header-description = Δημιουργήστε ένα κλειδί ανάκτησης λογαριασμού, για να επαναφέρετε τα συγχρονισμένα δεδομένα περιήγησής σας σε περίπτωση που ξεχάσετε τον κωδικό πρόσβασής σας.
 
 ## Ready component
 
@@ -1603,6 +1603,13 @@ password-reset-submit-button-2 = Συνέχεια
 reset-password-complete-header = Έγινε επαναφορά του κωδικού πρόσβασής σας
 # $serviceName is a product name such as Monitor, Pocket, Relay
 reset-password-confirmed-cta = Συνέχεια στο { $serviceName }
+
+## Reset password recovery method page
+## This page is shown to users when they are having trouble resetting their
+
+
+# password, and they previously had set up an account recovery method.
+
 reset-password-with-recovery-key-verified-page-title = Επιτυχής επαναφορά κωδικού πρόσβασης
 reset-password-complete-new-password-saved = Ο νέος κωδικός πρόσβασης αποθηκεύτηκε!
 reset-password-complete-recovery-key-created = Το νέο κλειδί ανάκτησης λογαριασμού δημιουργήθηκε. Κάντε λήψη και αποθήκευσή του τώρα

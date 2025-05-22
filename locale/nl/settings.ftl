@@ -368,12 +368,6 @@ primary-email-confirmation-link-reused = Primair e-mailadres al bevestigd
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Aanmelding is al bevestigd
 confirmation-link-reused-message = Die bevestigingskoppeling is al gebruikt, en kan maar één keer worden gebruikt.
-
-## Notification Promo Banner component
-
-account-recovery-notification-cta = Aanmaken
-account-recovery-notification-header-value = Verlies uw gegevens niet als u uw wachtwoord vergeet
-account-recovery-notification-header-description = Maak een accountherstelsleutel aan, zodat u uw gesynchroniseerde navigatiegegevens kunt herstellen als u ooit uw wachtwoord vergeet.
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Ongeldige aanvraag
 
@@ -397,6 +391,12 @@ password-strength-inline-min-length = Ten minste 8 tekens
 password-strength-inline-not-email = Niet uw e-mailadres
 password-strength-inline-not-common = Geen veelgebruikt wachtwoord
 password-strength-inline-confirmed-must-match = Bevestiging komt overeen met het nieuwe wachtwoord
+
+## Notification Promo Banner component
+
+account-recovery-notification-cta = Aanmaken
+account-recovery-notification-header-value = Verlies uw gegevens niet als u uw wachtwoord vergeet
+account-recovery-notification-header-description = Maak een accountherstelsleutel aan, zodat u uw gesynchroniseerde navigatiegegevens kunt herstellen als u ooit uw wachtwoord vergeet.
 
 ## Ready component
 
@@ -1600,6 +1600,13 @@ password-reset-submit-button-2 = Doorgaan
 reset-password-complete-header = Uw wachtwoord is opnieuw ingesteld
 # $serviceName is a product name such as Monitor, Pocket, Relay
 reset-password-confirmed-cta = Doorgaan naar { $serviceName }
+
+## Reset password recovery method page
+## This page is shown to users when they are having trouble resetting their
+
+
+# password, and they previously had set up an account recovery method.
+
 reset-password-with-recovery-key-verified-page-title = Wachtwoord met succes opnieuw ingesteld
 reset-password-complete-new-password-saved = Nieuw wachtwoord opgeslagen!
 reset-password-complete-recovery-key-created = Nieuwe accountherstelsleutel aangemaakt. Download en bewaar deze nu.

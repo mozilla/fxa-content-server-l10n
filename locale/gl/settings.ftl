@@ -256,9 +256,6 @@ primary-email-confirmation-link-reused = O correo electrónico principal xa est�
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Xa se confirmou o inicio de sesión
 confirmation-link-reused-message = Esa ligazón de confirmación xa se usou e só pode usarse unha vez.
-
-## Notification Promo Banner component
-
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Solicitude incorrecta
 
@@ -272,6 +269,9 @@ password-info-balloon-why-password-info = Necesita este contrasinal para acceder
 password-strength-balloon-not-email = Non é o seu enderezo de correo electrónico
 
 ## PasswordStrengthBalloon component
+
+
+## Notification Promo Banner component
 
 
 ## Ready component
@@ -575,6 +575,13 @@ avatar-page-delete-error-3 = Houbo un problema ao borrar a túa foto de perfil.
 
 
 ## ResetPasswordConfirmed
+
+
+## Reset password recovery method page
+## This page is shown to users when they are having trouble resetting their
+
+
+# password, and they previously had set up an account recovery method.
 
 
 ## CompleteSignin component

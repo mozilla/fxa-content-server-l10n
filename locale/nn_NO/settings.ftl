@@ -368,12 +368,6 @@ primary-email-confirmation-link-reused = Primær e-postadresse allereie stadfest
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Innlogging allereie stadfesta
 confirmation-link-reused-message = Denne stadfestingslenka er allereie brukt, og kan berre brukast ein gong.
-
-## Notification Promo Banner component
-
-account-recovery-notification-cta = Opprett
-account-recovery-notification-header-value = Ikkje mist dataa dine om du gløymer passordet ditt
-account-recovery-notification-header-description = Opprett ein kontogjenopprettingsnøkkel for å gjenopprette synkroniserte nettlesardata viss du nokon gong gløymer passordet ditt.
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Ugyldig førespurnad
 
@@ -397,6 +391,12 @@ password-strength-inline-min-length = Minst 8 teikn
 password-strength-inline-not-email = Ikkje di e-postadresse
 password-strength-inline-not-common = Ikkje eit vanleg brukt passord
 password-strength-inline-confirmed-must-match = Stadfesting samsvarar med det nye passordet
+
+## Notification Promo Banner component
+
+account-recovery-notification-cta = Opprett
+account-recovery-notification-header-value = Ikkje mist dataa dine om du gløymer passordet ditt
+account-recovery-notification-header-description = Opprett ein kontogjenopprettingsnøkkel for å gjenopprette synkroniserte nettlesardata viss du nokon gong gløymer passordet ditt.
 
 ## Ready component
 
@@ -1598,6 +1598,13 @@ password-reset-submit-button-2 = Hald fram
 reset-password-complete-header = Passordet ditt er tilbakestilt
 # $serviceName is a product name such as Monitor, Pocket, Relay
 reset-password-confirmed-cta = Hald fram til { $serviceName }
+
+## Reset password recovery method page
+## This page is shown to users when they are having trouble resetting their
+
+
+# password, and they previously had set up an account recovery method.
+
 reset-password-with-recovery-key-verified-page-title = Passordet er tilbakestilt
 reset-password-complete-new-password-saved = Nytt passord lagra!
 reset-password-complete-recovery-key-created = Ny kontogjenopprettingsnøkkel oppretta. Last ned og lagre han no.

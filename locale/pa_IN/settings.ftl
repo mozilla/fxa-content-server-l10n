@@ -351,11 +351,6 @@ primary-email-confirmation-link-reused = ਮੁੱਢਲਾ ਈਮੇਲ ਪਹ�
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = ਸਾਈਨ-ਇਨ ਨੂੰ ਪਹਿਲਾਂ ਹੀ ਤਸਦੀਕ ਕੀਤਾ ਹੈ
 confirmation-link-reused-message = ਇਹ ਪੁਸ਼ਟੀ ਲਿੰਕ ਪਹਿਲਾਂ ਹੀ ਵਰਤਿਆ ਗਿਆ ਸੀ, ਅਤੇ ਸਿਰਫ਼ ਇੱਕ ਵਾਰ ਹੀ ਵਰਤਿਆ ਜਾ ਸਕਦਾ ਹੈ।
-
-## Notification Promo Banner component
-
-account-recovery-notification-cta = ਬਣਾਓ
-account-recovery-notification-header-value = ਜੇ ਤੁਸੀਂ ਆਪਣਾ ਪਾਸਵਰਡ ਭੁੱਲ ਜਾਓ ਤਾਂ ਆਪਣਾ ਡਾਟਾ ਨਾ ਗੁਆਓ
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = ਖ਼ਰਾਬ ਬੇਨਤੀ
 
@@ -379,6 +374,11 @@ password-strength-inline-min-length = ਘੱਟੋ-ਘੱਟ 8 ਅੱਖਰ
 password-strength-inline-not-email = ਤੁਹਾਡਾ ਈਮੇਲ ਸਿਰਨਾਵਾਂ ਨਹੀਂ ਹੈ
 password-strength-inline-not-common = ਕੋਈ ਆਮ ਵਰਤਿਆ ਪਾਸਵਰਡ ਨਹੀਂ ਹੈ
 password-strength-inline-confirmed-must-match = ਨਵੇਂ ਪਾਸਵਰਡ ਮਿਲਦੇ ਹੋਣ ਦੀ ਤਸਦੀਕ
+
+## Notification Promo Banner component
+
+account-recovery-notification-cta = ਬਣਾਓ
+account-recovery-notification-header-value = ਜੇ ਤੁਸੀਂ ਆਪਣਾ ਪਾਸਵਰਡ ਭੁੱਲ ਜਾਓ ਤਾਂ ਆਪਣਾ ਡਾਟਾ ਨਾ ਗੁਆਓ
 
 ## Ready component
 
@@ -1448,6 +1448,13 @@ password-reset-submit-button-2 = ਜਾਰੀ ਰੱਖੋ
 reset-password-complete-header = ਤੁਹਾਡੇ ਪਾਸਵਰਡ ਨੂੰ ਮੁੜ ਸੈੱਟ ਕੀਤਾ ਗਿਆ ਹੈ
 # $serviceName is a product name such as Monitor, Pocket, Relay
 reset-password-confirmed-cta = { $serviceName } ਨਾਲ ਜਾਰੀ ਰੱਖੋ
+
+## Reset password recovery method page
+## This page is shown to users when they are having trouble resetting their
+
+
+# password, and they previously had set up an account recovery method.
+
 reset-password-with-recovery-key-verified-page-title = ਪਾਸਵਰਡ ਮੁੜ-ਸੈਟ ਕਰਨਾ ਕਾਮਯਾਬੀ ਰਿਹਾ
 reset-password-complete-new-password-saved = ਨਵਾਂ ਪਾਸਵਰਡ ਸੰਭਾਲਿਆ!
 reset-password-complete-recovery-key-created = ਨਵੀਂ ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਬਣਾਈ ਗਈ। ਇਸ ਨੂੰ ਹੁਣੇ ਡਾਊਨਲੋਡ ਕਰਕੇ ਸੰਭਾਲੋ।

@@ -272,10 +272,6 @@ primary-email-confirmation-link-reused = Асноўны адрас электр�
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Уваход у сістэму ўжо пацверджаны
 confirmation-link-reused-message = Гэта спасылка для пацвярджэння ўжо была выкарыстана, і можа выкарыстоўвацца толькі адзін раз.
-
-## Notification Promo Banner component
-
-account-recovery-notification-cta = Стварыць
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Дрэнны запыт
 
@@ -295,6 +291,10 @@ password-strength-balloon-stay-safe-tips = Будзьце ў бяспецы —
 
 ## PasswordStrengthBalloon component
 
+
+## Notification Promo Banner component
+
+account-recovery-notification-cta = Стварыць
 
 ## Ready component
 
@@ -1260,6 +1260,13 @@ password-reset-email-input =
 ## ResetPasswordConfirmed
 
 reset-password-complete-header = Ваш пароль быў скінуты
+
+## Reset password recovery method page
+## This page is shown to users when they are having trouble resetting their
+
+
+# password, and they previously had set up an account recovery method.
+
 reset-password-with-recovery-key-verified-page-title = Пароль паспяхова скінуты
 
 ## CompleteSignin component

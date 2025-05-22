@@ -368,12 +368,6 @@ primary-email-confirmation-link-reused = Primär e-postadress redan bekräftad
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Inloggning redan bekräftad
 confirmation-link-reused-message = Den bekräftelselänken har redan använts och kan bara användas en gång.
-
-## Notification Promo Banner component
-
-account-recovery-notification-cta = Skapa
-account-recovery-notification-header-value = Förlora inte din data om du glömmer ditt lösenord
-account-recovery-notification-header-description = Skapa en kontoåterställningsnyckel för att återställa din synkroniserade webbläsardata om du glömmer ditt lösenord.
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Felaktig begäran
 
@@ -397,6 +391,12 @@ password-strength-inline-min-length = Minst 8 tecken
 password-strength-inline-not-email = Inte din e-postadress
 password-strength-inline-not-common = Inte ett vanligt använt lösenord
 password-strength-inline-confirmed-must-match = Bekräftelse matchar det nya lösenordet
+
+## Notification Promo Banner component
+
+account-recovery-notification-cta = Skapa
+account-recovery-notification-header-value = Förlora inte din data om du glömmer ditt lösenord
+account-recovery-notification-header-description = Skapa en kontoåterställningsnyckel för att återställa din synkroniserade webbläsardata om du glömmer ditt lösenord.
 
 ## Ready component
 
@@ -1602,6 +1602,13 @@ password-reset-submit-button-2 = Fortsätt
 reset-password-complete-header = Ditt lösenord har återställts
 # $serviceName is a product name such as Monitor, Pocket, Relay
 reset-password-confirmed-cta = Fortsätt till { $serviceName }
+
+## Reset password recovery method page
+## This page is shown to users when they are having trouble resetting their
+
+
+# password, and they previously had set up an account recovery method.
+
 reset-password-with-recovery-key-verified-page-title = Lösenordsåterställningen lyckades
 reset-password-complete-new-password-saved = Nytt lösenord sparat!
 reset-password-complete-recovery-key-created = Ny nyckel för kontoåterställning skapad. Ladda ner och lagra den nu.

@@ -160,9 +160,6 @@ primary-email-confirmation-link-reused = Xjikib'äx yan ri nab'ey taqoya'l
 signin-confirmation-link-reused = Xjikib'äx yan rutikirisaxik molojri'ïl
 confirmation-link-reused-message = Chi ri ruximonel jikib'anïk xokisäx yan, xa xe tikirel nokisäx jun mul.
 
-## Notification Promo Banner component
-
-
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
 
@@ -171,6 +168,9 @@ confirmation-link-reused-message = Chi ri ruximonel jikib'anïk xokisäx yan, xa
 
 
 ## PasswordStrengthBalloon component
+
+
+## Notification Promo Banner component
 
 
 ## Ready component
@@ -802,6 +802,13 @@ complete-reset-password-success-alert = Xjikib'äx ewan tzij
 ## ResetPasswordConfirmed
 
 reset-password-complete-header = Xtzolïx ri ewan atzij
+
+## Reset password recovery method page
+## This page is shown to users when they are having trouble resetting their
+
+
+# password, and they previously had set up an account recovery method.
+
 reset-password-with-recovery-key-verified-page-title = Xtzolïx ütz ri ewan tzij
 
 ## CompleteSignin component

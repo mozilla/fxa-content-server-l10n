@@ -190,9 +190,6 @@ primary-email-confirmation-link-reused = Примарна адреса е-пош
 signin-confirmation-link-reused = Пријава је већ потврђена
 confirmation-link-reused-message = Ова веза за потврду је већ искоришћена, може се искористити само једном.
 
-## Notification Promo Banner component
-
-
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
 
@@ -208,6 +205,9 @@ password-strength-balloon-not-common = Није често употребљав�
 password-strength-balloon-stay-safe-tips = Будите безбедни — немојте да дуплирате лозинке. Погледајте савете за <LinkExternal>прављење јаких лозинки</LinkExternal>.
 
 ## PasswordStrengthBalloon component
+
+
+## Notification Promo Banner component
 
 
 ## Ready component
@@ -1094,6 +1094,13 @@ complete-reset-password-error-alert = Жао нам је, дошло је до �
 ## ResetPasswordConfirmed
 
 reset-password-complete-header = Ваша лозинка је ресетована
+
+## Reset password recovery method page
+## This page is shown to users when they are having trouble resetting their
+
+
+# password, and they previously had set up an account recovery method.
+
 reset-password-with-recovery-key-verified-page-title = Успешно ресетовање лозинке
 
 ## CompleteSignin component

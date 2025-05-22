@@ -368,12 +368,6 @@ primary-email-confirmation-link-reused = U nnirizzu di posta elittrònica primar
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = A trasuta già fu cunfirmata
 confirmation-link-reused-message = Sta lijami di cunferma fu già usata, e po èssiri usata na vota sula.
-
-## Notification Promo Banner component
-
-account-recovery-notification-cta = Crìa
-account-recovery-notification-header-value = Nun pèrdiri i to dati si ti scordi a chiavi
-account-recovery-notification-header-description = Crìa na chiavi di ricùpiru dû cuntu pi ricupigghiari i dati sincrunizzati dû navicaturi si ti scordi a chiavi.
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Dumanna nun vàlita
 
@@ -397,6 +391,12 @@ password-strength-inline-min-length = Armenu 8 caràttari
 password-strength-inline-not-email = Nun cci àv'a èssiri u to nnirizzu di posta elittrònica
 password-strength-inline-not-common = Nun àv'a èssiri na chiavi cumuni
 password-strength-inline-confirmed-must-match = A cunferma appatta câ chiavi nova
+
+## Notification Promo Banner component
+
+account-recovery-notification-cta = Crìa
+account-recovery-notification-header-value = Nun pèrdiri i to dati si ti scordi a chiavi
+account-recovery-notification-header-description = Crìa na chiavi di ricùpiru dû cuntu pi ricupigghiari i dati sincrunizzati dû navicaturi si ti scordi a chiavi.
 
 ## Ready component
 
@@ -1367,6 +1367,13 @@ password-reset-submit-button-2 = Cuntinua
 reset-password-complete-header = A chiavi fu risittata
 # $serviceName is a product name such as Monitor, Pocket, Relay
 reset-password-confirmed-cta = Cuntinua nne { $serviceName }
+
+## Reset password recovery method page
+## This page is shown to users when they are having trouble resetting their
+
+
+# password, and they previously had set up an account recovery method.
+
 reset-password-with-recovery-key-verified-page-title = U risettu dâ chiavi jìu bonu
 reset-password-complete-new-password-saved = A chiavi nova fu sarbata!
 reset-password-complete-recovery-key-created = A chiavi di ricùpiru dû cuntu nova fu criata. Scàrricala e sàrbala sùbbitu.

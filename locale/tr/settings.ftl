@@ -368,12 +368,6 @@ primary-email-confirmation-link-reused = Ana e-posta zaten onaylanmış
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Giriş zaten onaylanmış
 confirmation-link-reused-message = Bu onay bağlantısı daha önce kullanılmış ve yeniden kullanılamaz.
-
-## Notification Promo Banner component
-
-account-recovery-notification-cta = Oluştur
-account-recovery-notification-header-value = Parolanızı unutursanız verileriniz kaybolmasın
-account-recovery-notification-header-description = Parolanızı unutursanız eşitlenmiş gezinti verilerinizi kurtarmak için bir hesap kurtarma anahtarı oluşturun.
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Hatalı istek
 
@@ -397,6 +391,12 @@ password-strength-inline-min-length = En az 8 karakter
 password-strength-inline-not-email = E-posta adresiniz olmamalı
 password-strength-inline-not-common = Yaygın olarak kullanılan bir parola olmamalı
 password-strength-inline-confirmed-must-match = Onay yeni parola ile eşleşiyor
+
+## Notification Promo Banner component
+
+account-recovery-notification-cta = Oluştur
+account-recovery-notification-header-value = Parolanızı unutursanız verileriniz kaybolmasın
+account-recovery-notification-header-description = Parolanızı unutursanız eşitlenmiş gezinti verilerinizi kurtarmak için bir hesap kurtarma anahtarı oluşturun.
 
 ## Ready component
 
@@ -1581,6 +1581,13 @@ password-reset-submit-button-2 = Devam et
 reset-password-complete-header = Parolanız sıfırlandı
 # $serviceName is a product name such as Monitor, Pocket, Relay
 reset-password-confirmed-cta = { $serviceName } hizmetine devam et
+
+## Reset password recovery method page
+## This page is shown to users when they are having trouble resetting their
+
+
+# password, and they previously had set up an account recovery method.
+
 reset-password-with-recovery-key-verified-page-title = Parola başarıyla sıfırlandı
 reset-password-complete-new-password-saved = Yeni parola kaydedildi!
 reset-password-complete-recovery-key-created = Yeni hesap kurtarma anahtarı oluşturuldu. Hemen indirip saklayın.

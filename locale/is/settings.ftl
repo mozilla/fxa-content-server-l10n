@@ -368,12 +368,6 @@ primary-email-confirmation-link-reused = Aðallykilorð hefur þegar verið sta�
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Innskráning hefur þegar verið staðfest
 confirmation-link-reused-message = Þessi staðfestingartengill hefur þegar verið notaður, og er aðeins hægt að nota einu sinni.
-
-## Notification Promo Banner component
-
-account-recovery-notification-cta = Búa til
-account-recovery-notification-header-value = Ekki tapa gögnunum þínum ef þú gleymir lykilorðinu þínu
-account-recovery-notification-header-description = Búðu til endurheimtulykil fyrir reikninginn svo þú getir endurheimt samstilltu vafragögnin þín ef þú gleymir lykilorðinu þínu.
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Röng beiðni
 
@@ -397,6 +391,12 @@ password-strength-inline-min-length = Að minnsta kosti 8 stafir
 password-strength-inline-not-email = Ekki tölvupóstfangið þitt
 password-strength-inline-not-common = Ekki algengt lykilorð
 password-strength-inline-confirmed-must-match = Staðfesting passar við nýja lykilorðið
+
+## Notification Promo Banner component
+
+account-recovery-notification-cta = Búa til
+account-recovery-notification-header-value = Ekki tapa gögnunum þínum ef þú gleymir lykilorðinu þínu
+account-recovery-notification-header-description = Búðu til endurheimtulykil fyrir reikninginn svo þú getir endurheimt samstilltu vafragögnin þín ef þú gleymir lykilorðinu þínu.
 
 ## Ready component
 
@@ -1588,6 +1588,13 @@ password-reset-submit-button-2 = Halda áfram
 reset-password-complete-header = Lykilorðið þitt var endurstillt
 # $serviceName is a product name such as Monitor, Pocket, Relay
 reset-password-confirmed-cta = Halda áfram í { $serviceName }
+
+## Reset password recovery method page
+## This page is shown to users when they are having trouble resetting their
+
+
+# password, and they previously had set up an account recovery method.
+
 reset-password-with-recovery-key-verified-page-title = Endurstilling lykilorðs tókst
 reset-password-complete-new-password-saved = Nýtt lykilorð vistað!
 reset-password-complete-recovery-key-created = Nýr endurheimtulykill reiknings búinn til - Sæktu hann núna og geymdu vel.

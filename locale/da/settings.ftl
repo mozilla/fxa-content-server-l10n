@@ -368,12 +368,6 @@ primary-email-confirmation-link-reused = Primær mailadresse allerede bekræftet
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Login er allerede bekræftet
 confirmation-link-reused-message = Det bekræftelseslink er allerede blevet brugt, og det kan kun bruges én gang.
-
-## Notification Promo Banner component
-
-account-recovery-notification-cta = Opret
-account-recovery-notification-header-value = Mist ikke dine data, hvis du glemmer din adgangskode
-account-recovery-notification-header-description = Opret en genoprettelsesnøgle til kontoen for at gendanne dine synkroniserede data, hvis du nogensinde glemmer din adgangskode.
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Ugyldig forespørgsel
 
@@ -397,6 +391,12 @@ password-strength-inline-min-length = Mindst 8 tegn
 password-strength-inline-not-email = Ikke din mailadresse
 password-strength-inline-not-common = Ikke en almindeligt brugt adgangskode
 password-strength-inline-confirmed-must-match = Bekræftelsen matcher den nye adgangskode
+
+## Notification Promo Banner component
+
+account-recovery-notification-cta = Opret
+account-recovery-notification-header-value = Mist ikke dine data, hvis du glemmer din adgangskode
+account-recovery-notification-header-description = Opret en genoprettelsesnøgle til kontoen for at gendanne dine synkroniserede data, hvis du nogensinde glemmer din adgangskode.
 
 ## Ready component
 
@@ -1597,6 +1597,13 @@ password-reset-submit-button-2 = Fortsæt
 reset-password-complete-header = Din adgangskode er blevet nulstillet
 # $serviceName is a product name such as Monitor, Pocket, Relay
 reset-password-confirmed-cta = Fortsæt til { $serviceName }
+
+## Reset password recovery method page
+## This page is shown to users when they are having trouble resetting their
+
+
+# password, and they previously had set up an account recovery method.
+
 reset-password-with-recovery-key-verified-page-title = Adgangskoden er blevet nulstillet
 reset-password-complete-new-password-saved = Ny adgangskode gemt!
 reset-password-complete-recovery-key-created = Ny genoprettelsesnøgle til kontoen oprettet. Hent og gem den nu.

@@ -368,12 +368,6 @@ primary-email-confirmation-link-reused = Біріншілік эл. пошта �
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Кіру расталған болып тұр
 confirmation-link-reused-message = Бұл растау сілтемесі қолданылған, және оны тек бір рет қолдануға болады.
-
-## Notification Promo Banner component
-
-account-recovery-notification-cta = Жасау
-account-recovery-notification-header-value = Пароліңізді ұмытып қалсаңыз, деректеріңізді жоғалтпаңыз
-account-recovery-notification-header-description = Парольді ұмытып қалсаңыз, синхрондалған шолу деректерін қалпына келтіру үшін тіркелгіні қалпына келтіру кілтін жасаңыз.
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Жарамсыз сұраным
 
@@ -397,6 +391,12 @@ password-strength-inline-min-length = Кемінде 8 таңба
 password-strength-inline-not-email = Сіздің эл. пошта адресіңіз емес
 password-strength-inline-not-common = Жиі қолданылатын пароль емес
 password-strength-inline-confirmed-must-match = Растау жаңа парольге сәйкес келеді
+
+## Notification Promo Banner component
+
+account-recovery-notification-cta = Жасау
+account-recovery-notification-header-value = Пароліңізді ұмытып қалсаңыз, деректеріңізді жоғалтпаңыз
+account-recovery-notification-header-description = Парольді ұмытып қалсаңыз, синхрондалған шолу деректерін қалпына келтіру үшін тіркелгіні қалпына келтіру кілтін жасаңыз.
 
 ## Ready component
 
@@ -1497,6 +1497,13 @@ password-reset-submit-button-2 = Жалғастыру
 reset-password-complete-header = Пароліңіз тасталды
 # $serviceName is a product name such as Monitor, Pocket, Relay
 reset-password-confirmed-cta = { $serviceName } қызметіне жалғастыру
+
+## Reset password recovery method page
+## This page is shown to users when they are having trouble resetting their
+
+
+# password, and they previously had set up an account recovery method.
+
 reset-password-with-recovery-key-verified-page-title = Пароль тастау сәтті аяқталды
 reset-password-complete-new-password-saved = Жаңа пароль сақталды!
 reset-password-complete-recovery-key-created = Тіркелгіні қалпына келтірудің жаңа кілті жасалды. Оны қазір жүктеп алыңыз және сақтаңыз.

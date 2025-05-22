@@ -94,9 +94,6 @@ input-password-show = సంకేతపదాన్ని చూపించు
 ## LinkUsed component
 
 
-## Notification Promo Banner component
-
-
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
 
@@ -105,6 +102,9 @@ input-password-show = సంకేతపదాన్ని చూపించు
 
 
 ## PasswordStrengthBalloon component
+
+
+## Notification Promo Banner component
 
 
 ## Ready component
@@ -600,6 +600,13 @@ auth-error-1008 = మీ కొత్త సంకేతపదం వేరు�
 ## ResetPasswordConfirmed
 
 reset-password-complete-header = మీ సంకేతపదము మార్చబడినది.
+
+## Reset password recovery method page
+## This page is shown to users when they are having trouble resetting their
+
+
+# password, and they previously had set up an account recovery method.
+
 
 ## CompleteSignin component
 
