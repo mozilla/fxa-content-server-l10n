@@ -398,6 +398,11 @@ account-recovery-notification-cta = Skapa
 account-recovery-notification-header-value = Förlora inte din data om du glömmer ditt lösenord
 account-recovery-notification-header-description = Skapa en kontoåterställningsnyckel för att återställa din synkroniserade webbläsardata om du glömmer ditt lösenord.
 recovery-phone-promo-cta = Lägg till återställningstelefon
+recovery-phone-promo-heading = Lägg till extra skydd till ditt konto med en återställningstelefon
+recovery-phone-promo-description = Nu kan du logga in med ett engångslösenord via SMS om du inte kan använda din tvåstegsautentiseringsapp.
+recovery-phone-promo-info-link = Läs mer om återställning och risker att byta SIM-kort
+promo-banner-dismiss-button =
+    .aria-label = Ignorera banner
 
 ## Ready component
 
@@ -1610,6 +1615,21 @@ reset-password-confirmed-cta = Fortsätt till { $serviceName }
 
 # password, and they previously had set up an account recovery method.
 
+password-reset-recovery-method-header = Återställ lösenordet
+password-reset-recovery-method-subheader = Välj en återställningsmetod
+# This is displayed to the user when they are choosing an alternative method to authenticate themself in the password reset process when they do not have access to their two-factor authenticator application
+password-reset-recovery-method-details = Låt oss se till att det är du som använder dina återställningsmetoder.
+password-reset-recovery-method-phone = Telefon för återställning
+password-reset-recovery-method-code = Reservautentiseringskoder
+# Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
+password-reset-recovery-method-code-info =
+    { $numBackupCodes ->
+        [one] { $numBackupCodes } kod återstår
+       *[other] { $numBackupCodes } koder återstår
+    }
+# Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
+password-reset-recovery-method-send-code-error-heading = Det gick inte att skicka en kod till ditt återställningstelefon
+password-reset-recovery-method-send-code-error-description = Försök igen senare eller använd dina reservautentiseringskoder.
 reset-password-with-recovery-key-verified-page-title = Lösenordsåterställningen lyckades
 reset-password-complete-new-password-saved = Nytt lösenord sparat!
 reset-password-complete-recovery-key-created = Ny nyckel för kontoåterställning skapad. Ladda ner och lagra den nu.
