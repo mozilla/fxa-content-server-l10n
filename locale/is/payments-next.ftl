@@ -1,15 +1,27 @@
 ## Page
 
 checkout-signin-or-create = 1. Skráðu þig inn eða útbúðu { -product-mozilla-account }
+# This string appears as a separation between the two sign-in options, "Enter your email"(signin-form-email-input) "or"(this string) "Continue with Google"(continue-signin-with-google-button) / "Continue with Apple"(continue-signin-with-apple-button)
+checkout-signin-options-or = eða
 continue-signin-with-google-button = Halda áfram með { -brand-google }
 continue-signin-with-apple-button = Halda áfram með { -brand-apple }
 next-payment-method-header = Veldu greiðslumáta þinn
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = Fyrst þarftu að samþykkja áskriftina þína
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+location-header = Veldu landið þitt og settu inn póstnúmerið þitt <p>til að halda áfram að ganga frá greiðslu fyrir { $productName } </p>
+location-banner-info = Við gátum ekki greint staðsetningu þína sjálfkrafa
+location-required-disclaimer = Við notum þessar upplýsingar eingöngu til að reikna út skatta og gjaldmiðil.
 
 ## Page - Upgrade page
 
+upgrade-page-payment-information = Greiðsluupplýsingar
+# $nextInvoiceDate (number) - The date of the next invoice
+upgrade-page-acknowledgment =
+    Áskriftarleiðin þín mun breytast strax og þú færð kröfu um leiðrétta
+    upphæð fyrir það sem eftir er af greiðslutímabilinu þínu. Frá og með 
+    { $nextInvoiceDate } færð þú kröfu um alla upphæðina.
 checkout-error-boundary-retry-button = Reyna aftur
 checkout-error-boundary-basic-error-message = Eitthvað fór úrskeiðis. Reyndu aftur eða <contactSupportLink>hafðu samband við aðstoðarteymið.</contactSupportLink>
 
@@ -21,6 +33,10 @@ next-iap-upgrade-contact-support = Þú getur samt fengið þennan hugbúnað - 
 next-payment-error-retry-button = Reyndu aftur
 next-basic-error-message = Eitthvað fór úrskeiðis. Reyndu aftur síðar.
 checkout-error-contact-support-button = Hafa samband við aðstoðarteymi
+checkout-error-not-eligible = Þú ert ekki gjaldgeng/ur til að gerast áskrifandi að þessum hugbúnaði - hafðu samband við aðstoðargáttina svo við getum hjálpað þér.
+checkout-error-already-subscribed = Þú ert nú þegar áskrifandi að þessum hugbúnaði.
+checkout-error-contact-support = Hafðu samband við aðstoðargáttina svo við getum hjálpað þér.
+checkout-processing-general-error = Óvænt villa kom upp við vinnslu greiðslunnar þinnar, reyndu aftur.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -50,6 +66,10 @@ next-payment-confirmation-download-button = Halda áfram í niðurhal
 
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Kort sem endar á { $last4 }
+# Page - Not Found
+page-not-found-title = Síða fannst ekki
+page-not-found-description = Síðan sem þú baðst um fannst ekki. Við höfum fengið tilkynningu og munum fara í að lagfæra þá tengla sem eru bilaðir.
+page-not-found-back-button = Til baka
 
 ## Component - Payment Consent Checkbox
 
@@ -78,6 +98,30 @@ next-coupon-submit = Virkja
 
 # Component - Header
 
+payments-header-help =
+    .title = Hjálp
+    .aria-label = Hjálp
+    .alt = Hjálp
+payments-header-bento =
+    .title = { -brand-mozilla } hugbúnaður
+    .aria-label = { -brand-mozilla } hugbúnaður
+    .alt = { -brand-mozilla } táknmerki
+payments-header-bento-close =
+    .alt = Loka
+payments-header-bento-tagline = Fleiri vörur frá { -brand-mozilla } sem vernda friðhelgi þína
+payments-header-bento-firefox-desktop = { -brand-firefox }-vafri fyrir vinnutölvur
+payments-header-bento-firefox-mobile = { -brand-firefox }-vafri fyrir farsíma
+payments-header-bento-monitor = { -product-mozilla-monitor }
+payments-header-bento-firefox-relay = { -product-firefox-relay }
+payments-header-bento-vpn = { -product-mozilla-vpn }
+payments-header-bento-pocket = { -product-pocket }
+payments-header-bento-made-by-mozilla = Gert af { -brand-mozilla }
+payments-header-avatar =
+    .title = { -product-mozilla-account }-valmynd
+payments-header-avatar-icon =
+    .alt = Auðkennismynd reiknings
+payments-header-avatar-expanded-signed-in-as = Skráð/ur inn sem
+payments-header-avatar-expanded-sign-out = Skrá út
 payments-client-loading-spinner =
     .aria-label = Hleður…
     .alt = Hleður…
@@ -103,6 +147,7 @@ next-coupon-success-repeating = Áskriftin þín endurnýjast sjálfkrafa eftir 
 select-tax-location-title = Staðsetning
 select-tax-location-edit-button = Breyta
 select-tax-location-save-button = Vista
+select-tax-location-continue-to-checkout-button = Halda áfram í greiðslu
 select-tax-location-country-code-label = Land
 select-tax-location-country-code-placeholder = Veldu landið þitt
 select-tax-location-error-missing-country-code = Veldu landið þitt
@@ -133,6 +178,7 @@ next-new-user-subscribe-product-assurance = Við notum aðeins tölvupóstfangi�
 plan-price-interval-daily = { $amount } daglega
 plan-price-interval-weekly = { $amount } vikulega
 plan-price-interval-monthly = { $amount } mánaðarlega
+plan-price-interval-halfyearly = { $amount } á 6 mánaða fresti
 plan-price-interval-yearly = { $amount } á ári
 
 ## Component - SubscriptionTitle
@@ -141,6 +187,7 @@ next-subscription-create-title = Settu upp áskriftina þína
 next-subscription-success-title = Staðfesting áskriftar
 next-subscription-processing-title = Staðfesti áskrift…
 next-subscription-error-title = Villa við að staðfesta áskrift…
+subscription-title-sub-exists = Þú ert nú þegar áskrifandi
 subscription-title-plan-change-heading = Farðu yfir breytinguna þína
 next-sub-guarantee = 30-daga skilafrestur
 
@@ -152,6 +199,10 @@ next-subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capita
 next-terms = Þjónustuskilmálar
 next-privacy = Meðferð persónuupplýsinga
 next-terms-download = Sækja skilmála
+terms-and-privacy-stripe-label = { -brand-mozilla } notar { -brand-name-stripe } fyrir örugga vinnslu greiðslna.
+terms-and-privacy-stripe-link = Persónuverndarstefna { -brand-name-stripe }
+terms-and-privacy-paypal-label = { -brand-mozilla } notar { -brand-paypal } fyrir örugga vinnslu greiðslna.
+terms-and-privacy-paypal-link = Persónuverndarstefna { -brand-paypal }
 
 ## Component - UpdatedPurchaseDetails
 
@@ -168,4 +219,5 @@ upgrade-purchase-details-prorated-upgrade = Leiðrétt uppfærsla
 upgrade-purchase-details-new-plan-daily = { $productName } (daglega)
 upgrade-purchase-details-new-plan-weekly = { $productName } (vikulega)
 upgrade-purchase-details-new-plan-monthly = { $productName } (mánaðarlega)
+upgrade-purchase-details-new-plan-halfyearly = { $productName } (6 mánuðir)
 upgrade-purchase-details-new-plan-yearly = { $productName } (árlega)
