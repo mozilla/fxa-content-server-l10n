@@ -462,6 +462,7 @@ sub-update-new-plan-daily = { $productName } (ежедневно)
 sub-update-new-plan-weekly = { $productName } (еженедельно)
 sub-update-new-plan-monthly = { $productName } (ежемесячно)
 sub-update-new-plan-yearly = { $productName } (ежегодно)
+sub-update-prorated-upgrade-credit = Указанный отрицательный баланс будет зачислен на ваш счёт в виде кредитов и использован для оплаты будущих счетов.
 
 ## Routes - Subscriptions - Cancel
 
@@ -489,6 +490,7 @@ sub-item-cancel-confirm =
 # Cybersecurity Awareness Month 2023 coupon applied: $11.20 + $0.35 tax
 # Summer Promo VPN coupon applied: $11.20
 sub-promo-coupon-applied = Применён купон { $promotion_name }: <priceDetails></priceDetails>
+subscription-management-account-credit-balance = В результате оплаты подписки баланс вашего аккаунта был пополнен:: <priceDetails></priceDetails>
 
 ## Routes - Subscription
 

@@ -160,6 +160,15 @@ automated-email-reset =
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext-v2 = Если вы не авторизовали это действие, пожалуйста, немедленно сбросьте свой пароль по ссылке { $resetLink }
+# This message is used by multiple automated emails that notify users of security events on their account
+# "this action" is meant to be a generic term, and could, for example, refer to using a backup authentication code to confirm a password reset
+automated-email-reset-pwd-two-factor =
+    Если вы не производили это действие, <a data-l10n-name="resetLink">сбросьте ваш пароль</a> и <a data-l10n-name="twoFactorSettingsLink">сбросьте двухэтапную аутентификацию</a> немедленно.
+    Для получения дополнительной информации посетите <a data-l10n-name="supportLink">Поддержку { -brand-mozilla }</a>.
+# Followed by link to https://accounts.firefox.com/reset_password
+automated-email-reset-pwd-plaintext-v3 = Если вы не производили это действие, немедленно сбросьте свой пароль на:
+# Followed by link to https://accounts.firefox.com/settings#two-step-authentication
+automated-email-reset-two-factor-plaintext = Также сбросьте двухэтапную аутентификацию на:
 brand-banner-message = Знаете ли вы, что мы изменили наше название с «{ -product-firefox-accounts }» на «{ -product-mozilla-accounts }»? <a data-l10n-name="learnMore">Подробнее</a>
 cancellationSurvey = Пожалуйста, помогите нам улучшить наши службы, приняв участие в этом <a data-l10n-name="cancellationSurveyUrl">кратком опросе</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
@@ -422,7 +431,13 @@ postChangeRecoveryPhone-preview = Аккаунт защищен двухэтап
 postChangeRecoveryPhone-title = Вы изменили свой телефон для восстановления
 postChangeRecoveryPhone-description = Теперь у вас есть новый телефон для восстановления. Ваш предыдущий номер телефона был удалён.
 postChangeRecoveryPhone-requested-device = Вы запросили его из:
+postConsumeRecoveryCode-title-3 = Ваш резервный код аутентификации был использован для подтверждения сброса пароля
+# After the colon, there is description of the device that the backup authentication code was used on
+# E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
+postConsumeRecoveryCode-description-3 = Использован код из:
 postConsumeRecoveryCode-action = Управление аккаунтом
+postConsumeRecoveryCode-subject-v3 = Использован резервный код аутентификации
+postConsumeRecoveryCode-preview = Проверьте, чтобы убедиться, что это были вы
 postNewRecoveryCodes-subject-2 = Созданы новые резервные коды аутентификации
 postNewRecoveryCodes-title-2 = Вы создали новые резервные коды аутентификации
 # After the colon, there is information about the device that the authentication codes were created on

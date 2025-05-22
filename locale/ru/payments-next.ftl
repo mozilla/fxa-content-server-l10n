@@ -225,3 +225,4 @@ upgrade-purchase-details-new-plan-weekly = { $productName } (еженедель�
 upgrade-purchase-details-new-plan-monthly = { $productName } (ежемесячно)
 upgrade-purchase-details-new-plan-halfyearly = { $productName } (каждые полгода)
 upgrade-purchase-details-new-plan-yearly = { $productName } (ежегодно)
+upgrade-purchase-details-prorated-credits = Указанный отрицательный баланс будет зачислен на ваш счёт в виде кредитов и использован для оплаты будущих счетов.
