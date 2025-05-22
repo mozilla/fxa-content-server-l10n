@@ -376,6 +376,11 @@ passwordResetAccountRecovery-information = Odjavili smo vas iz vseh sinhronizira
 # After the colon there is a link to account settings
 passwordResetAccountRecovery-information-txt = Odjavili smo vas iz vseh sinhroniziranih naprav. Ustvarili smo nov ključ za obnovitev računa, ki je nadomestil uporabljenega dosedanjega. Lahko ga spremenite v nastavitvah računa:
 passwordResetAccountRecovery-action-4 = Upravljanje računa
+passwordResetRecoveryPhone-subject = Uporabljena je telefonska številka za obnovitev
+passwordResetRecoveryPhone-preview = Preverite, ali ste to bili vi
+passwordResetRecoveryPhone-title = Za potrditev ponastavitve gesla je bila uporabljena vaša obnovitvena telefonska številka
+passwordResetRecoveryPhone-device = Uporabljena obnovitvena telefonska številka od:
+passwordResetRecoveryPhone-action = Upravljanje računa
 passwordResetWithRecoveryKeyPrompt-subject = Vaše geslo je bilo ponastavljeno
 passwordResetWithRecoveryKeyPrompt-title = Vaše geslo je bilo ponastavljeno
 # Details of the device and date/time where the password was reset

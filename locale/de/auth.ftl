@@ -374,6 +374,11 @@ passwordResetAccountRecovery-information = Wir haben Sie von allen synchronisier
 # After the colon there is a link to account settings
 passwordResetAccountRecovery-information-txt = Wir haben Sie von allen synchronisierten Geräten abgemeldet. Wir haben einen neuen Kontowiederherstellungsschlüssel erstellt, um den von Ihnen verwendeten zu ersetzen. Dies können Sie in Ihren Kontoeinstellungen ändern:
 passwordResetAccountRecovery-action-4 = Benutzerkonto verwalten
+passwordResetRecoveryPhone-subject = Telefonnummer zur Wiederherstellung verwendet
+passwordResetRecoveryPhone-preview = Überprüfen Sie, ob Sie das waren
+passwordResetRecoveryPhone-title = Ihre Telefonnummer wurde verwendet, um das Zurücksetzen des Passworts zu bestätigen
+passwordResetRecoveryPhone-device = Telefonnummer zur Wiederherstellung verwendet von:
+passwordResetRecoveryPhone-action = Benutzerkonto verwalten
 passwordResetWithRecoveryKeyPrompt-subject = Ihr Passwort wurde zurückgesetzt.
 passwordResetWithRecoveryKeyPrompt-title = Ihr Passwort wurde zurückgesetzt.
 # Details of the device and date/time where the password was reset

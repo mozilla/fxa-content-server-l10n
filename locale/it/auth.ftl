@@ -378,6 +378,11 @@ passwordResetAccountRecovery-information = Ti abbiamo disconnesso da tutti i tuo
 # After the colon there is a link to account settings
 passwordResetAccountRecovery-information-txt = Ti abbiamo disconnesso da tutti i tuoi dispositivi sincronizzati. Abbiamo creato una nuova chiave di recupero dell’account per sostituire quella che hai utilizzato. Puoi modificarla nelle impostazioni del tuo account:
 passwordResetAccountRecovery-action-4 = Gestisci account
+passwordResetRecoveryPhone-subject = Telefono di recupero utilizzato
+passwordResetRecoveryPhone-preview = Assicurati di essere stato tu
+passwordResetRecoveryPhone-title = Il numero di telefono di recupero è stato utilizzato per confermare la reimpostazione della password
+passwordResetRecoveryPhone-device = Telefono di recupero utilizzato da:
+passwordResetRecoveryPhone-action = Gestisci account
 passwordResetWithRecoveryKeyPrompt-subject = La password è stata reimpostata
 passwordResetWithRecoveryKeyPrompt-title = La password è stata reimpostata
 # Details of the device and date/time where the password was reset

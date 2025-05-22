@@ -376,6 +376,11 @@ passwordResetAccountRecovery-information = Odhlásili jsme vás ze všech vašic
 # After the colon there is a link to account settings
 passwordResetAccountRecovery-information-txt = Odhlásili jsme vás ze všech vašich synchronizovaných zařízení. Vytvořili jsme nový obnovovací klíč k účtu, jako náhradu toho, který jste používali dříve. Můžete to změnit v nastavení účtu:
 passwordResetAccountRecovery-action-4 = Správa účtu
+passwordResetRecoveryPhone-subject = Telefon pro obnovení byl použit
+passwordResetRecoveryPhone-preview = Zkontrolujte, zda jste to byli vy
+passwordResetRecoveryPhone-title = K potvrzení obnovení hesla bylo použito vaše telefonní číslo
+passwordResetRecoveryPhone-device = Telefon pro obnovení použit z:
+passwordResetRecoveryPhone-action = Správa účtu
 passwordResetWithRecoveryKeyPrompt-subject = Vaše heslo bylo obnoveno
 passwordResetWithRecoveryKeyPrompt-title = Vaše heslo bylo obnoveno
 # Details of the device and date/time where the password was reset

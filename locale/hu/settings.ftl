@@ -397,6 +397,12 @@ password-strength-inline-confirmed-must-match = A megerősítés egyezik az új 
 account-recovery-notification-cta = Létrehozás
 account-recovery-notification-header-value = Ne veszítse el adatait, ha elfelejti a jelszavát
 account-recovery-notification-header-description = Hozzon létre egy fiók-helyreállítási kulcsot, hogy helyreállítsa a szinkronizált böngészési adatait, ha elfelejtené a jelszavát.
+recovery-phone-promo-cta = Helyreállítási telefonszám hozzáadása
+recovery-phone-promo-heading = Adjon további védelmet a fiókjának egy helyreállítási telefonszámmal
+recovery-phone-promo-description = Mostantól bejelentkezhet egy egyszer használatos jelszóval SMS-ben, ha nem tudja használni a kétlépcsős hitelesítő alkalmazását.
+recovery-phone-promo-info-link = Tudjon meg többet a helyreállítás és a SIM-csere kockázatáról
+promo-banner-dismiss-button =
+    .aria-label = Banner elvetése
 
 ## Ready component
 
@@ -1605,6 +1611,21 @@ reset-password-confirmed-cta = Tovább erre: { $serviceName }
 
 # password, and they previously had set up an account recovery method.
 
+password-reset-recovery-method-header = Jelszó visszaállítása
+password-reset-recovery-method-subheader = Válasszon helyreállítási módot
+# This is displayed to the user when they are choosing an alternative method to authenticate themself in the password reset process when they do not have access to their two-factor authenticator application
+password-reset-recovery-method-details = A helyreállítási módok segítségével meggyőződünk arról, hogy Ön az.
+password-reset-recovery-method-phone = Helyreállítási telefonszám
+password-reset-recovery-method-code = Tartalék hitelesítési kódok
+# Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
+password-reset-recovery-method-code-info =
+    { $numBackupCodes ->
+        [one] { $numBackupCodes } kód maradt
+       *[other] { $numBackupCodes } kód maradt
+    }
+# Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
+password-reset-recovery-method-send-code-error-heading = Hiba történt a kód helyreállítási telefonra küldésekor
+password-reset-recovery-method-send-code-error-description = Próbálja meg később, vagy használja a tartalék hitelesítési kódjait.
 reset-password-with-recovery-key-verified-page-title = Jelszó sikeresen visszaállítva
 reset-password-complete-new-password-saved = Új jelszó elmentve!
 reset-password-complete-recovery-key-created = Új fiók-helyreállítási kulcs létrehozva. Töltse le és tárolja most.

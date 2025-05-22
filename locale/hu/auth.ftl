@@ -374,6 +374,11 @@ passwordResetAccountRecovery-information = Kijelentkeztettük az összes szinkro
 # After the colon there is a link to account settings
 passwordResetAccountRecovery-information-txt = Kijelentkeztettük az összes szinkronizált eszközéről. Készítettünk egy új fiók-helyreállítási kulcsot a most használt kulcs helyett. Ezt a fiókbeállításokban módosíthatja:
 passwordResetAccountRecovery-action-4 = Fiók kezelése
+passwordResetRecoveryPhone-subject = Használt helyreállítási telefonszám
+passwordResetRecoveryPhone-preview = Ellenőrizze, hogy ez Ön volt-e
+passwordResetRecoveryPhone-title = A helyreállítási telefonszáma egy jelszó-visszaállítás megerősítéséhez lett használva
+passwordResetRecoveryPhone-device = Használt helyreállítási telefonszám:
+passwordResetRecoveryPhone-action = Fiók kezelése
 passwordResetWithRecoveryKeyPrompt-subject = A jelszó vissza lett állítva
 passwordResetWithRecoveryKeyPrompt-title = A jelszó vissza lett állítva
 # Details of the device and date/time where the password was reset

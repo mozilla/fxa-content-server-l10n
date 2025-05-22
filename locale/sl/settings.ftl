@@ -397,6 +397,12 @@ password-strength-inline-confirmed-must-match = Potrditev se ujema z novim geslo
 account-recovery-notification-cta = Ustvari
 account-recovery-notification-header-value = Ne izgubite podatkov, če pozabite geslo
 account-recovery-notification-header-description = Ustvarite ključ, ki omogoča obnovitev sinhroniziranih podatkov iz računa v primeru, da kadarkoli pozabite geslo.
+recovery-phone-promo-cta = Dodaj telefonsko številko za obnovitev
+recovery-phone-promo-heading = Dodatno zaščitite svoj račun s telefonsko številko za obnovitev
+recovery-phone-promo-description = Zdaj se lahko prijavite z enkratnim geslom preko sporočila SMS, če ne morete uporabiti aplikacije za overjanje v dveh korakih.
+recovery-phone-promo-info-link = Preberite več o tveganju pri obnovi in zamenjavi SIM-kartice
+promo-banner-dismiss-button =
+    .aria-label = Skrij pasico
 
 ## Ready component
 
@@ -1603,6 +1609,23 @@ reset-password-confirmed-cta = Nadaljuj na { $serviceName }
 
 # password, and they previously had set up an account recovery method.
 
+password-reset-recovery-method-header = Ponastavite geslo
+password-reset-recovery-method-subheader = Izberite način obnovitve
+# This is displayed to the user when they are choosing an alternative method to authenticate themself in the password reset process when they do not have access to their two-factor authenticator application
+password-reset-recovery-method-details = Prepričajmo se, da ste to naredili vi. Uporabite svoje metode za obnovitev.
+password-reset-recovery-method-phone = Telefonska številka za obnovitev
+password-reset-recovery-method-code = Rezervne overitvene kode
+# Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
+password-reset-recovery-method-code-info =
+    { $numBackupCodes ->
+        [one] { $numBackupCodes } preostali kode
+        [two] { $numBackupCodes } preostalih kod
+        [few] { $numBackupCodes } preostalih kod
+       *[other] { $numBackupCodes } preostalih kod
+    }
+# Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
+password-reset-recovery-method-send-code-error-heading = Pri pošiljanju kode na telefonsko številko za obnovitev je prišlo do težave
+password-reset-recovery-method-send-code-error-description = Poskusite znova pozneje ali uporabite rezervne overitvene kode.
 reset-password-with-recovery-key-verified-page-title = Ponastavitev gesla je uspela
 reset-password-complete-new-password-saved = Novo geslo shranjeno!
 reset-password-complete-recovery-key-created = Nov obnovitveni ključ za račun je ustvarjen. Prenesite in shranite ga zdaj.

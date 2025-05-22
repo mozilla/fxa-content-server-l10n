@@ -397,6 +397,12 @@ password-strength-inline-confirmed-must-match = La conferma corrisponde alla nuo
 account-recovery-notification-cta = Genera
 account-recovery-notification-header-value = Non perdere i tuoi dati se dimentichi la password
 account-recovery-notification-header-description = Genera una chiave di recupero dell’account in modo da poter ripristinare i dati di navigazione sincronizzati nel caso in cui dimenticassi la password.
+recovery-phone-promo-cta = Aggiungi numero di telefono di recupero
+recovery-phone-promo-heading = Aggiungi ulteriore protezione al tuo account con un numero di telefono di recupero
+recovery-phone-promo-description = Ora puoi accedere con una password monouso via SMS se non puoi utilizzare l’app di autenticazione in due passaggi.
+recovery-phone-promo-info-link = Ulteriori informazioni sul rischio di recupero e swap SIM
+promo-banner-dismiss-button =
+    .aria-label = Ignora banner
 
 ## Ready component
 
@@ -1586,6 +1592,21 @@ reset-password-confirmed-cta = Continua su { $serviceName }
 
 # password, and they previously had set up an account recovery method.
 
+password-reset-recovery-method-header = Reimpostazione della password
+password-reset-recovery-method-subheader = Scegli un metodo di recupero
+# This is displayed to the user when they are choosing an alternative method to authenticate themself in the password reset process when they do not have access to their two-factor authenticator application
+password-reset-recovery-method-details = Verifichiamo che sia davvero tu a utilizzare i metodi di recupero.
+password-reset-recovery-method-phone = Telefono per il recupero dell’account
+password-reset-recovery-method-code = Codici di autenticazione di backup
+# Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
+password-reset-recovery-method-code-info =
+    { $numBackupCodes ->
+        [one] { $numBackupCodes } codice rimanente
+       *[other] { $numBackupCodes } codici rimanenti
+    }
+# Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
+password-reset-recovery-method-send-code-error-heading = Si è verificato un problema durante l’invio del codice al telefono per il recupero dell’account
+password-reset-recovery-method-send-code-error-description = Riprova più tardi o utilizza i codici di autenticazione di backup.
 reset-password-with-recovery-key-verified-page-title = Password reimpostata correttamente
 reset-password-complete-new-password-saved = Nuova password salvata.
 reset-password-complete-recovery-key-created = È stata creata una nuova chiave di recupero dell’account. Scaricala e salvala subito.

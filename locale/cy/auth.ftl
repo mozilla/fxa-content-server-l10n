@@ -378,6 +378,11 @@ passwordResetAccountRecovery-information = Fe wnaethom eich allgofnodi o'ch holl
 # After the colon there is a link to account settings
 passwordResetAccountRecovery-information-txt = Fe wnaethom eich allgofnodi o'ch holl ddyfeisiau wedi'u cydweddu. Rydym wedi creu allwedd adfer cyfrif newydd yn lle'r un a ddefnyddiwyd gennych. Gallwch ei newid yng ngosodiadau eich cyfrif:
 passwordResetAccountRecovery-action-4 = Rheoli cyfrif
+passwordResetRecoveryPhone-subject = Ffôn adfer wedi'i ddefnyddio
+passwordResetRecoveryPhone-preview = Gwiriwch i wneud yn siŵr mai chi oedd hwn
+passwordResetRecoveryPhone-title = Defnyddiwyd eich ffôn adfer i gadarnhau ailosodiad cyfrinair
+passwordResetRecoveryPhone-device = Ffôn adfer a ddefnyddiwyd o:
+passwordResetRecoveryPhone-action = Rheoli cyfrif
 passwordResetWithRecoveryKeyPrompt-subject = Mae eich cyfrinair wedi ei ailosod
 passwordResetWithRecoveryKeyPrompt-title = Mae eich cyfrinair wedi ei ailosod
 # Details of the device and date/time where the password was reset

@@ -397,6 +397,12 @@ password-strength-inline-confirmed-must-match = Potvrzení odpovídá novému he
 account-recovery-notification-cta = Vytvořit
 account-recovery-notification-header-value = Neztraťte svá data, pokud zapomenete své heslo
 account-recovery-notification-header-description = Vytvořte si k účtu obnovovací klíč pro obnovení synchronizovaných dat v případě, že zapomenete své heslo.
+recovery-phone-promo-cta = Přidat telefon pro obnovení
+recovery-phone-promo-heading = Přidejte do svého účtu další ochranu pomocí telefonu pro obnovení
+recovery-phone-promo-description = Nyní se můžete přihlásit pomocí jednorázového hesla přes SMS, pokud nemůžete použít aplikaci dvoufázového ověření.
+recovery-phone-promo-info-link = Přečtěte si více o riziku pro obnovu a výměnu SIM
+promo-banner-dismiss-button =
+    .aria-label = Zavřít banner
 
 ## Ready component
 
@@ -1598,6 +1604,22 @@ reset-password-confirmed-cta = Pokračovat do služby { $serviceName }
 
 # password, and they previously had set up an account recovery method.
 
+password-reset-recovery-method-header = Obnovit heslo
+password-reset-recovery-method-subheader = Vyberte způsob obnovení
+# This is displayed to the user when they are choosing an alternative method to authenticate themself in the password reset process when they do not have access to their two-factor authenticator application
+password-reset-recovery-method-details = Ujistěte se, že jste to vy, kdo používá vaše metody obnovy.
+password-reset-recovery-method-phone = Telefon pro obnovení
+password-reset-recovery-method-code = Záložní ověřovací kódy
+# Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
+password-reset-recovery-method-code-info =
+    { $numBackupCodes ->
+        [one] Zbývá { $numBackupCodes } kódu
+        [few] Zbývá { $numBackupCodes } kódů
+       *[other] Zbývá { $numBackupCodes } kódů
+    }
+# Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
+password-reset-recovery-method-send-code-error-heading = Nepodařilo se odeslat kód na vaše telefonní číslo
+password-reset-recovery-method-send-code-error-description = Zkuste to prosím později nebo použijte záložní ověřovací kódy.
 reset-password-with-recovery-key-verified-page-title = Heslo bylo úspěšně obnoveno
 reset-password-complete-new-password-saved = Nové heslo uloženo!
 reset-password-complete-recovery-key-created = Nový obnovovací klíč k účtu byl vytvořen. Stáhněte si ho a uložte.

@@ -397,6 +397,12 @@ password-strength-inline-confirmed-must-match = La confirmation correspond au no
 account-recovery-notification-cta = Créer
 account-recovery-notification-header-value = Ne perdez pas vos données si vous oubliez votre mot de passe
 account-recovery-notification-header-description = Créez une clé de récupération de compte pour restaurer vos données de navigation synchronisées si jamais vous oubliez votre mot de passe.
+recovery-phone-promo-cta = Ajoutez un numéro de téléphone de secours
+recovery-phone-promo-heading = Ajoutez une protection supplémentaire à votre compte avec un numéro de téléphone de récupération
+recovery-phone-promo-description = Vous pouvez désormais vous connecter par SMS avec un mot de passe à usage unique si vous ne pouvez pas utiliser votre application d’authentification en deux étapes.
+recovery-phone-promo-info-link = En savoir plus sur la récupération et les risques d’échange de SIM
+promo-banner-dismiss-button =
+    .aria-label = Fermer la bannière
 
 ## Ready component
 
@@ -1594,6 +1600,21 @@ reset-password-confirmed-cta = Continuer vers { $serviceName }
 
 # password, and they previously had set up an account recovery method.
 
+password-reset-recovery-method-header = Réinitialiser le mot de passe
+password-reset-recovery-method-subheader = Choisissez une méthode de récupération
+# This is displayed to the user when they are choosing an alternative method to authenticate themself in the password reset process when they do not have access to their two-factor authenticator application
+password-reset-recovery-method-details = Assurons-nous qu’il s’agit bien de vous à l’aide de vos méthodes de récupération.
+password-reset-recovery-method-phone = Numéro de téléphone de secours
+password-reset-recovery-method-code = Codes d’authentification de secours
+# Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
+password-reset-recovery-method-code-info =
+    { $numBackupCodes ->
+        [one] { $numBackupCodes } code restant
+       *[other] { $numBackupCodes } codes restants
+    }
+# Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
+password-reset-recovery-method-send-code-error-heading = Un problème est survenu lors de l’envoi d’un code à votre numéro de téléphone de secours
+password-reset-recovery-method-send-code-error-description = Veuillez réessayer plus tard ou utiliser vos codes d’authentification de secours.
 reset-password-with-recovery-key-verified-page-title = Mot de passe réinitialisé
 reset-password-complete-new-password-saved = Nouveau mot de passe enregistré !
 reset-password-complete-recovery-key-created = Nouvelle clé de récupération de compte créée. Téléchargez-la et stockez-la maintenant.

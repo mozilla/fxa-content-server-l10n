@@ -374,6 +374,11 @@ passwordResetAccountRecovery-information = Cerramos la sesión en todos tus disp
 # After the colon there is a link to account settings
 passwordResetAccountRecovery-information-txt = Cerramos la sesión en todos tus dispositivos sincronizados. Creamos una nueva clave de recuperación de cuenta para reemplazar la que usaste. Podés cambiarla en la configuración de tu cuenta:
 passwordResetAccountRecovery-action-4 = Administrar cuenta
+passwordResetRecoveryPhone-subject = Teléfono de recuperación usado
+passwordResetRecoveryPhone-preview = Verificá para asegurarte de que fuiste vos
+passwordResetRecoveryPhone-title = Tu teléfono de recuperación fue usado para confirmar un restablecimiento de contraseña
+passwordResetRecoveryPhone-device = Teléfono de recuperación usado desde:
+passwordResetRecoveryPhone-action = Administrar cuenta
 passwordResetWithRecoveryKeyPrompt-subject = Tu contraseña fue restablecida
 passwordResetWithRecoveryKeyPrompt-title = Tu contraseña fue restablecida
 # Details of the device and date/time where the password was reset
