@@ -22,6 +22,16 @@ recovery-phone-signin-sms-body = { $code } er { -brand-mozilla } endurheimtukó�
 # Messages should be limited to one segment
 # $code  - 6 digit code used to sign in with a recovery phone as backup for two-step authentication
 recovery-phone-signin-sms-short-body = { -brand-mozilla } kóði: { $code }
+# Message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to sign in with a recovery phone as backup for account password reset
+recovery-phone-reset-password-sms-body = { $code } er { -brand-mozilla } endurheimtukóðinn þinn. Hann rennur út eftir 5 mínútur.
+# Shorter message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to sign in with a recovery phone as backup for account password reset
+recovery-phone-reset-password-short-body = { -brand-mozilla } kóði: { $code }
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
@@ -150,6 +160,8 @@ automated-email-reset =
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext-v2 = Ef það varst ekki þú sem leyfðir þessa aðgerð, þá skaltu endurstilla lykilorðið þitt núna á { $resetLink }
+# Followed by link to https://accounts.firefox.com/reset_password
+automated-email-reset-pwd-plaintext-v3 = Ef það varst ekki þú sem gerðir þessa aðgerð skaltu endurstilla lykilorðið þitt strax:
 brand-banner-message = Vissir þú að við breyttum nafni okkar úr { -product-firefox-accounts } í { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Frekari upplýsingar</a>
 cancellationSurvey = Hjálpaðu okkur við að bæta þjónustuna með því að taka þátt í <a data-l10n-name="cancellationSurveyUrl">stuttri könnun</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
@@ -379,6 +391,7 @@ postAddLinkedAccount-title-2 = { $providerName } reikningurinn þinn hefur veri�
 postAddLinkedAccount-action = Sýsla með aðgang
 postAddRecoveryPhone-subject = Endurheimtusímanúmeri bætt við
 postAddRecoveryPhone-preview = Reikningur er varinn með tveggja-þrepa auðkenningu
+postAddRecoveryPhone-title-v2 = Þú bættir við endurheimtusímanúmeri
 # Variables:
 #  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
 postAddRecoveryPhone-description-v2 = Þú bættir { $maskedLastFourPhoneNumber } við sem endurheimtusímanúmeri
@@ -409,6 +422,10 @@ postChangeRecoveryPhone-preview = Reikningur er varinn með tveggja-þrepa auðk
 postChangeRecoveryPhone-title = Þú breyttir endurheimtusímanúmerinu þínu
 postChangeRecoveryPhone-description = Þú ert nú með nýtt endurheimtusímanúmer. Fyrra endurheimtusímanúmeri þínu var eytt.
 postChangeRecoveryPhone-requested-device = Þú baðst um það frá:
+postConsumeRecoveryCode-title-3 = Varaauðkenningarkóðinn þinn var notaður til að staðfesta endurstillingu lykilorðsins
+# After the colon, there is description of the device that the backup authentication code was used on
+# E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
+postConsumeRecoveryCode-description-3 = Kóði notaður frá:
 postConsumeRecoveryCode-action = Sýsla með reikning
 postNewRecoveryCodes-subject-2 = Nýjir varaauðkenningarkóðar búnir til
 postNewRecoveryCodes-title-2 = Þú bjóst til varaauðkenningarkóða
@@ -602,6 +619,7 @@ subscriptionRenewalReminder-content-closing = Með bestu kveðjum,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = { $productName }-teymið
+subscriptionReplaced-title = Áskriftin þín hefur verið uppfærð
 subscriptionsPaymentExpired-subject-1 = Greiðslukort fyrir áskriftirnar þínar er útrunnið eða rennur út bráðlega
 subscriptionsPaymentExpired-title-1 = Greiðslukortið þitt er útrunnið eða er við það að renna út
 subscriptionsPaymentExpired-content-1 = Greiðslukortið sem þú notar til að greiða fyrir eftirfarandi áskriftir er útrunnið eða er við það að renna út.

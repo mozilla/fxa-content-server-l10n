@@ -160,6 +160,7 @@ select-tax-location-error-missing-postal-code = Settu inn póstnúmerið þitt
 select-tax-location-error-invalid-postal-code = Settu inn löglegt póstnúmer
 select-tax-location-successfully-updated = Staðsetningin þín hefur verið uppfærð.
 select-tax-location-error-location-not-updated = Ekki var hægt að uppfæra staðsetninguna þína. Endilega reyndu aftur.
+select-tax-location-invalid-currency-change-default = Veldu land sem passar við gjaldmiðil virkra áskrifta þinna.
 signin-form-continue-button = Halda áfram
 signin-form-email-input = Settu inn tölvupóstfangið þitt
 signin-form-email-input-missing = Settu inn tölvupóstfangið þitt
@@ -203,6 +204,7 @@ terms-and-privacy-stripe-label = { -brand-mozilla } notar { -brand-name-stripe }
 terms-and-privacy-stripe-link = Persónuverndarstefna { -brand-name-stripe }
 terms-and-privacy-paypal-label = { -brand-mozilla } notar { -brand-paypal } fyrir örugga vinnslu greiðslna.
 terms-and-privacy-paypal-link = Persónuverndarstefna { -brand-paypal }
+terms-and-privacy-stripe-and-paypal-label = { -brand-mozilla } notar { -brand-name-stripe } og { -brand-paypal } fyrir örugga vinnslu greiðslna.
 
 ## Component - UpdatedPurchaseDetails
 

@@ -846,6 +846,9 @@ recent-activity-account-recovery-phone-removed = Endurheimtusímanúmer fjarlæg
 recent-activity-account-recovery-codes-replaced = Skipt um endurheimtukóða
 recent-activity-account-recovery-codes-created = Endurheimtukóði útbúinn
 recent-activity-account-recovery-codes-signin-complete = Innskráningu með endurheimtukóða lokið
+recent-activity-password-reset-otp-sent = Staðfestingarkóði fyrir endurstillingu lykilorðs sendur
+recent-activity-password-reset-otp-verified = Staðfestingarkóði fyrir endurstillingu lykilorðs staðfestur
+recent-activity-must-reset-password = Beðið er um endurstillingu lykilorðs
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Önnur virkni á reikningi
 
@@ -1016,6 +1019,8 @@ tfa-row-backup-codes-available-v2 =
         [one] { $numCodesAvailable } kóði eftir
        *[other] { $numCodesAvailable } kóðar eftir
     }
+# Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
+tfa-row-backup-codes-get-new-cta-v2 = Búa til nýja kóða
 # Shown to users who have no backup authentication codes
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = Bæta við
@@ -1024,6 +1029,8 @@ tfa-row-backup-codes-description-2 = Þetta er öruggasta endurheimtuaðferðin 
 # Recovery phone is a recovery method for two-step authentication
 # A recovery code can be sent to the user's phone
 tfa-row-backup-phone-title-v2 = Endurheimtusímanúmer
+# Shown with an alert icon to indicate that no recovery phone is configured
+tfa-row-backup-phone-not-available-v2 = Engu símanúmeri bætt við
 # button to change the configured recovery phone
 tfa-row-backup-phone-change-cta = Breyta
 # button to add/configure a recovery phone
@@ -1033,6 +1040,8 @@ tfa-row-backup-phone-delete-button = Fjarlægja
 # Shown in tooltip on delete button or delete icon
 tfa-row-backup-phone-delete-title-v2 = Fjarlægja endurheimtusímanúmer
 tfa-row-backup-phone-delete-restriction-v2 = Ef þú vilt fjarlægja endurheimtusímanúmer skaltu bæta við auðkenningarkóðum öryggisafritunar eða slökkva fyrst á tveggja-þrepa auðkenningu til að forðast það að læsast úti á reikningnum þínum.
+# "this" refers to recovery phone
+tfa-row-backup-phone-description-v2 = Þetta er auðveldasta endurheimtuaðferðin ef þú getur ekki notað auðkenningarforritið þitt.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
@@ -1182,6 +1191,7 @@ auth-error-114-generic = Þú hefur prófað of oft. Reyndu aftur síðar.
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Þú hefur prófað of oft. Reyndu aftur { $retryAfter }.
 auth-error-125 = Lokað var á beiðnina af öryggisástæðum
+auth-error-129-2 = Þú settir inn ógilt símanúmer. Yfirfarðu það og reyndu aftur.
 auth-error-138-2 = Óstaðfest seta
 auth-error-139 = Aukatölvupóstfang verður að vera frábrugðið tölvupóstfangi reikningsins þíns
 auth-error-155 = TOTP-teikn fannst ekki
@@ -1195,6 +1205,7 @@ auth-error-206 = Get ekki búið til lykilorð, lykilorð er þegar stillt
 auth-error-214 = Endurheimtusímanúmer er þegar til staðar
 auth-error-215 = Endurheimtusímanúmer er ekki til staðar
 auth-error-216 = Takmörkum textaskilaboða náð
+auth-error-219 = Þetta símanúmer hefur verið skráð á of marga reikninga. Reyndu eitthvað annað númer.
 auth-error-999 = Óvænt villa
 auth-error-1001 = Hætt við tilraun til innskráningar
 auth-error-1002 = Lota rann út. Skráðu þig inn til að halda áfram.
@@ -1202,11 +1213,22 @@ auth-error-1003 = Staðvært geymslurými eða vefkökur eru enn óvirkt
 auth-error-1008 = Nýja lykilorðið þitt verður að vera frábrugðið
 auth-error-1010 = Gerð er krafa um gilt lykilorð
 auth-error-1011 = Krafist er gilds tölvupóstfangs
+auth-error-1018 = Staðfestingarpósturinn þinn var endursendur. Rangt tölvupóstfang?
+auth-error-1020 = Rangt skrifað tölvupóstfang? firefox.com er ekki gild tölvupóstþjónusta
 auth-error-1031 = Þú verður að setja inn aldur þinn til að geta nýskráð þig
 auth-error-1032 = Þú verður að setja inn gildan aldur til að geta nýskráð þig
 auth-error-1054 = Ógildur tveggja-þrepa auðkenningarkóði
 auth-error-1056 = Ógildur varaauðkenningarkóði
 auth-error-1062 = Ógild endurbeining
+# Shown when a user tries to sign up with an email address with a domain that doesn't receive emails
+auth-error-1064 = Rangt skrifað tölvupóstfang? { $domain } er ekki gild tölvupóstþjónusta
+auth-error-1066 = Ekki er hægt að nota tölvupósthulur til að búa til reikning.
+auth-error-1067 = Rangt skrifað tölvupóstfang?
+# Displayed when we want to reference a user's previously set up recovery phone
+# number, but they are not completely signed in yet. We'll only show the last 4 digits.
+# Variables:
+#  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
+recovery-phone-number-ending-digits = Númer sem endar á { $lastFourPhoneNumber }
 oauth-error-1000 = Eitthvað fór úrskeiðis. Lokaðu þessum flipa og prófaðu aftur.
 
 ## Cannot Create Account page
@@ -1259,6 +1281,8 @@ cookies-disabled-learn-more = Frekari upplýsingar
 index-header = Settu inn tölvupóstfangið þitt
 index-sync-header = Haltu áfram á { -product-mozilla-account }
 index-sync-subheader = Samstilltu lykilorðin þín, flipa og bókamerki alls staðar þar sem þú notar { -brand-firefox }.
+index-relay-header = Útbúa tölvupósthulu
+index-relay-subheader = Gefðu upp póstfangið sem þú vilt áframsenda á tölvupóst frá hulda póstinum þínum.
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = Halda áfram í { $serviceName }
 index-subheader-with-logo = Halda áfram í <span>{ $serviceLogo }</span>
@@ -1267,6 +1291,10 @@ index-cta = Nýskráðu þig eða skráðu þig inn
 index-account-info = { -product-mozilla-account }-reikningur opnar einnig aðgang að öðrum persónuverndandi hugbúnaði frá { -brand-mozilla }.
 index-email-input =
     .label = Settu inn tölvupóstfangið þitt
+# When users delete their Mozilla account inside account Settings, they are redirected to this page with a success message
+index-account-delete-success = Tókst að eyða reikningi
+# Displayed when users try to sign up for an account and their confirmation code email bounces
+index-email-bounced = Staðfestingarpósturinn þinn var endursendur. Rangt tölvupóstfang?
 
 ## InlineRecoveryKeySetup page component
 
@@ -1512,6 +1540,11 @@ complete-reset-password-desktop-relay = { -brand-firefox } mun reyna að senda �
 
 # ConfirmBackupCodeResetPassword page
 
+confirm-backup-code-reset-password-input-label = Settu inn 10-stafa kóða
+confirm-backup-code-reset-password-confirm-button = Staðfesta
+confirm-backup-code-reset-password-subheader = Settu inn varaauðkenningarkóða
+# Link out to support article: https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+confirm-backup-code-reset-password-locked-out-link = Ertu læst/ur úti?
 
 ## Confirm Reset Password With Code
 
@@ -1690,6 +1723,7 @@ signin-recovery-phone-send-code-error-heading = Vandamál kom upp við að senda
 signin-recovery-phone-code-verification-error-heading = Vandamál kom upp við að staðfesta kóðann þinn
 # Follows the error message (e.g, "There was a problem sending a code")
 signin-recovery-phone-general-error-description = Reyndu aftur seinna.
+signin-recovery-phone-invalid-code-error-description = Kóðinn er ógildur eða útrunninn.
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
