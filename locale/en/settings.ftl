@@ -409,10 +409,6 @@ signin-confirmation-link-reused = Sign-in already confirmed
 
 confirmation-link-reused-message = That confirmation link was already used, and can only be used once.
 
-## Notification Promo Banner component
-account-recovery-notification-cta = Create
-account-recovery-notification-header-value = Don’t lose your data if you forget your password
-account-recovery-notification-header-description = Create an account recovery key to restore your sync browsing data if you ever forget your password.
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Bad Request
 
@@ -436,6 +432,17 @@ password-strength-inline-min-length = At least 8 characters
 password-strength-inline-not-email = Not your email address
 password-strength-inline-not-common = Not a commonly used password
 password-strength-inline-confirmed-must-match = Confirmation matches the new password
+
+## Notification Promo Banner component
+account-recovery-notification-cta = Create
+account-recovery-notification-header-value = Don’t lose your data if you forget your password
+account-recovery-notification-header-description = Create an account recovery key to restore your sync browsing data if you ever forget your password.
+recovery-phone-promo-cta = Add recovery phone
+recovery-phone-promo-heading = Add extra protection to your account with a recovery phone
+recovery-phone-promo-description = Now you can sign in with a one-time-password via SMS if you can’t use your two-step authenticator app.
+recovery-phone-promo-info-link = Learn more about recovery and SIM swap risk
+promo-banner-dismiss-button =
+  .aria-label = Dismiss banner
 
 ## Ready component
 
@@ -1718,6 +1725,26 @@ password-reset-submit-button-2 = Continue
 reset-password-complete-header = Your password has been reset
 # $serviceName is a product name such as Monitor, Pocket, Relay
 reset-password-confirmed-cta = Continue to { $serviceName }
+
+## Reset password recovery method page
+## This page is shown to users when they are having trouble resetting their
+# password, and they previously had set up an account recovery method.
+
+password-reset-recovery-method-header = Reset your password
+password-reset-recovery-method-subheader = Choose a recovery method
+# This is displayed to the user when they are choosing an alternative method to authenticate themself in the password reset process when they do not have access to their two-factor authenticator application
+password-reset-recovery-method-details = Let’s make sure it’s you using your recovery methods.
+password-reset-recovery-method-phone = Recovery phone
+password-reset-recovery-method-code = Backup authentication codes
+# Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
+password-reset-recovery-method-code-info =
+  { $numBackupCodes ->
+      [one] { $numBackupCodes } code remaining
+      *[other] { $numBackupCodes } codes remaining
+  }
+# Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
+password-reset-recovery-method-send-code-error-heading = There was a problem sending a code to your recovery phone
+password-reset-recovery-method-send-code-error-description = Please try again later or use your backup authentication codes.
 
 reset-password-with-recovery-key-verified-page-title = Password reset successful
 reset-password-complete-new-password-saved = New password saved!

@@ -160,9 +160,6 @@ pay-with-heading-card-only = कार्ड से भुगतान करे
 ##   $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 
 
-##
-
-
 ## Routes - Subscriptions - Cancel
 
 sub-item-cancel-sub = सदस्यता रद्द करें

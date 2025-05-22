@@ -434,9 +434,7 @@ sub-update-new-plan-daily = { $productName } (dagligen)
 sub-update-new-plan-weekly = { $productName } (veckovis)
 sub-update-new-plan-monthly = { $productName } (månadsvis)
 sub-update-new-plan-yearly = { $productName } (årligen)
-
-##
-
+sub-update-prorated-upgrade-credit = Negativt saldo som visas kommer att krediteras ditt konto och användas för framtida fakturor.
 
 ## Routes - Subscriptions - Cancel
 
@@ -464,6 +462,7 @@ sub-item-cancel-confirm =
 # Cybersecurity Awareness Month 2023 coupon applied: $11.20 + $0.35 tax
 # Summer Promo VPN coupon applied: $11.20
 sub-promo-coupon-applied = Utnyttjar erbjudande { $promotion_name }: <priceDetails> </priceDetails>
+subscription-management-account-credit-balance = Denna prenumerationsbetalning resulterade i en kreditering till ditt konto: <priceDetails></priceDetails>
 
 ## Routes - Subscription
 
