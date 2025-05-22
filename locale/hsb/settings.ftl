@@ -397,6 +397,9 @@ password-strength-inline-confirmed-must-match = Wobkrućenje nowemu hesłu wotpo
 account-recovery-notification-cta = Wutworić
 account-recovery-notification-header-value = Njezhubjejće swoje daty, jeli swoje hesło zabudźeće.
 account-recovery-notification-header-description = Wutworće kontowy wobnowjenski kluč, zo byšće swoje synchronizaciske přehladowanske daty wobnowił, jeli swoje hesło zabudźeće.
+recovery-phone-promo-cta = Wobnowjenski telefon přidać
+promo-banner-dismiss-button =
+    .aria-label = Chorhoj zaćisnyć
 
 ## Ready component
 
@@ -1605,6 +1608,23 @@ reset-password-confirmed-cta = Dale k { $serviceName }
 
 # password, and they previously had set up an account recovery method.
 
+password-reset-recovery-method-header = Waše hesło wróćo stajić
+password-reset-recovery-method-subheader = Wubjerće wobnowjensku metodu
+# This is displayed to the user when they are choosing an alternative method to authenticate themself in the password reset process when they do not have access to their two-factor authenticator application
+password-reset-recovery-method-details = Přeswědčće so, zo wy swoje wobnowjenske metody wužiwaće.
+password-reset-recovery-method-phone = Wobnowjenski telefon
+password-reset-recovery-method-code = Zawěsćenske awtentifikaciske kody
+# Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
+password-reset-recovery-method-code-info =
+    { $numBackupCodes ->
+        [one] { $numBackupCodes } kod zwostawacy
+        [two] { $numBackupCodes } kodaj zwostawacej
+        [few] { $numBackupCodes } kody zwostawace
+       *[other] { $numBackupCodes } kodow zwostawace
+    }
+# Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
+password-reset-recovery-method-send-code-error-heading = Při słanju koda na waš wobnowjenski telefon je problem nastał
+password-reset-recovery-method-send-code-error-description = Prošu spytajće pozdźišo hišće raz abo wužiwajće swoje awtentifikaciske kody za zawěsćenje.
 reset-password-with-recovery-key-verified-page-title = Hesło je so wuspěšnje wróćo stajiło
 reset-password-complete-new-password-saved = Nowe hesło je so składowało!
 reset-password-complete-recovery-key-created = Nowy kontowy wobnowjenski kluč je so wutworił. Sćehńće a składujće jón nětko.
