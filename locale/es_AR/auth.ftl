@@ -162,7 +162,7 @@ automated-email-reset =
 automated-email-reset-plaintext-v2 = Si no la autorizaste está acción, restablecé tu contraseña ahora mismo en { $resetLink }
 # This message is used by multiple automated emails that notify users of security events on their account
 # "this action" is meant to be a generic term, and could, for example, refer to using a backup authentication code to confirm a password reset
-automated-email-reset-pwd-two-factor = Si no realizó esta acción, entonces <a data-l10n-name="resetLink">restablezca su contraseña</a> y <a data-l10n-name="twoFactorSettingsLink">restablezca la autenticación de dos pasos</a> correctamente lejos. Para más información, visitá <a data-l10n-name="supportLink">Soporte de { -brand-mozilla }</a>.
+automated-email-reset-pwd-two-factor = Si no hiciste esta acción, entonces <a data-l10n-name="resetLink">restablecé tu contraseña</a> y <a data-l10n-name="twoFactorSettingsLink">restablecé la autenticación de dos pasos</a> ahora mismo. Para más información, visitá <a data-l10n-name="supportLink">Soporte de { -brand-mozilla }</a>.
 # Followed by link to https://accounts.firefox.com/reset_password
 automated-email-reset-pwd-plaintext-v3 = Si no hiciste esta acción, restablecé tu contraseña ahora mismo en:
 # Followed by link to https://accounts.firefox.com/settings#two-step-authentication
