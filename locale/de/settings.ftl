@@ -1612,8 +1612,8 @@ password-reset-recovery-method-code = Sicherungs-Authentifizierungscodes
 # Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
 password-reset-recovery-method-code-info =
     { $numBackupCodes ->
-        [one] { $numBackupCodes } Code verbleibend
-       *[other] Noch { $numBackupCodes } Codes übrig
+        [one] { $numBackupCodes } Code übrig
+       *[other] { $numBackupCodes } Codes übrig
     }
 # Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
 password-reset-recovery-method-send-code-error-heading = Beim Senden eines Codes an Ihre Telefonnummer zur Wiederherstellung ist ein Fehler aufgetreten
