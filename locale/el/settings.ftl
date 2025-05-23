@@ -397,6 +397,9 @@ password-strength-inline-confirmed-must-match = Η επιβεβαίωση ται
 account-recovery-notification-cta = Δημιουργία
 account-recovery-notification-header-value = Μην χάσετε τα δεδομένα σας εάν ξεχάσετε τον κωδικό πρόσβασής σας
 account-recovery-notification-header-description = Δημιουργήστε ένα κλειδί ανάκτησης λογαριασμού, για να επαναφέρετε τα συγχρονισμένα δεδομένα περιήγησής σας σε περίπτωση που ξεχάσετε τον κωδικό πρόσβασής σας.
+recovery-phone-promo-cta = Προσθήκη τηλεφώνου ανάκτησης
+promo-banner-dismiss-button =
+    .aria-label = Απόρριψη μηνύματος
 
 ## Ready component
 
@@ -1610,6 +1613,19 @@ reset-password-confirmed-cta = Συνέχεια στο { $serviceName }
 
 # password, and they previously had set up an account recovery method.
 
+password-reset-recovery-method-header = Επαναφέρετε τον κωδικό πρόσβασής σας
+password-reset-recovery-method-subheader = Επιλέξτε μια μέθοδο ανάκτησης
+password-reset-recovery-method-phone = Τηλέφωνο ανάκτησης
+password-reset-recovery-method-code = Εφεδρικοί κωδικοί ταυτοποίησης
+# Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
+password-reset-recovery-method-code-info =
+    { $numBackupCodes ->
+        [one] Απομένει { $numBackupCodes } κωδικός
+       *[other] Απομένουν { $numBackupCodes } κωδικοί
+    }
+# Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
+password-reset-recovery-method-send-code-error-heading = Προέκυψε πρόβλημα κατά την αποστολή του κωδικού στο τηλέφωνο ανάκτησής σας
+password-reset-recovery-method-send-code-error-description = Δοκιμάστε ξανά αργότερα ή χρησιμοποιήστε τους εφεδρικούς κωδικούς ταυτοποίησής σας.
 reset-password-with-recovery-key-verified-page-title = Επιτυχής επαναφορά κωδικού πρόσβασης
 reset-password-complete-new-password-saved = Ο νέος κωδικός πρόσβασης αποθηκεύτηκε!
 reset-password-complete-recovery-key-created = Το νέο κλειδί ανάκτησης λογαριασμού δημιουργήθηκε. Κάντε λήψη και αποθήκευσή του τώρα

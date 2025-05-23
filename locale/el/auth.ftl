@@ -369,6 +369,7 @@ passwordResetAccountRecovery-information = Σας αποσυνδέσαμε απ�
 # After the colon there is a link to account settings
 passwordResetAccountRecovery-information-txt = Σας αποσυνδέσαμε από όλες τις συγχρονισμένες συσκευές σας. Δημιουργήσαμε ένα νέο κλειδί ανάκτησης λογαριασμού για να αντικαταστήσουμε αυτό που χρησιμοποιήσατε. Μπορείτε να το αλλάξετε στις ρυθμίσεις του λογαριασμού σας:
 passwordResetAccountRecovery-action-4 = Διαχείριση λογαριασμού
+passwordResetRecoveryPhone-subject = Χρησιμοποιήθηκε τηλέφωνο ανάκτησης
 passwordResetWithRecoveryKeyPrompt-subject = Έγινε επαναφορά του κωδικού πρόσβασής σας
 passwordResetWithRecoveryKeyPrompt-title = Έγινε επαναφορά του κωδικού πρόσβασής σας
 # Details of the device and date/time where the password was reset
@@ -423,7 +424,11 @@ postChangeRecoveryPhone-preview = Ο λογαριασμός προστατεύε
 postChangeRecoveryPhone-title = Αλλάξατε το τηλέφωνο ανάκτησής σας
 postChangeRecoveryPhone-description = Έχετε πλέον ένα νέο τηλέφωνο ανάκτησης. Ο προηγούμενος αριθμός τηλεφώνου σας διαγράφηκε.
 postChangeRecoveryPhone-requested-device = Το ζητήσατε από το:
+# After the colon, there is description of the device that the backup authentication code was used on
+# E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
+postConsumeRecoveryCode-description-3 = Χρησιμοποιήθηκε κωδικός από:
 postConsumeRecoveryCode-action = Διαχείριση λογαριασμού
+postConsumeRecoveryCode-subject-v3 = Χρησιμοποιήθηκε εφεδρικός κωδικός ταυτοποίησης
 postNewRecoveryCodes-subject-2 = Δημιουργήθηκαν νέοι εφεδρικοί κωδικοί ταυτοποίησης
 postNewRecoveryCodes-title-2 = Δημιουργήσατε νέους εφεδρικούς κωδικούς ταυτοποίησης
 # After the colon, there is information about the device that the authentication codes were created on
