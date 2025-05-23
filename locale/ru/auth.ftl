@@ -377,6 +377,11 @@ passwordResetAccountRecovery-information = Мы отключили вас на �
 # After the colon there is a link to account settings
 passwordResetAccountRecovery-information-txt = Мы отключили вас на всех синхронизируемых устройствах. Мы создали новый ключ восстановления аккаунта, чтобы заменить тот, который вы использовали. Вы можете изменить его в настройках вашего аккаунта:
 passwordResetAccountRecovery-action-4 = Управление аккаунтом
+passwordResetRecoveryPhone-subject = Использован телефон для восстановления
+passwordResetRecoveryPhone-preview = Проверьте, чтобы убедиться, что это были вы
+passwordResetRecoveryPhone-title = Ваш телефон для восстановления был использован для подтверждения сброса пароля
+passwordResetRecoveryPhone-device = Телефон для восстановления был использован из:
+passwordResetRecoveryPhone-action = Управление аккаунтом
 passwordResetWithRecoveryKeyPrompt-subject = Ваш пароль был сброшен
 passwordResetWithRecoveryKeyPrompt-title = Ваш пароль был сброшен
 # Details of the device and date/time where the password was reset
