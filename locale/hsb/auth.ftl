@@ -381,6 +381,7 @@ passwordResetAccountRecovery-action-4 = Konto rjadować
 passwordResetRecoveryPhone-subject = Wobnowjenski telefon wužity
 passwordResetRecoveryPhone-preview = Přepruwujće, hač wy sće to był
 passwordResetRecoveryPhone-title = Waš wobnowjenski telefon je so wužił, zo by wróćostajenje hesło wobkrućił
+passwordResetRecoveryPhone-device = Wobnowjenski telefon wužity wot:
 passwordResetRecoveryPhone-action = Konto rjadować
 passwordResetWithRecoveryKeyPrompt-subject = Waše hesło je so wróćo stajiło
 passwordResetWithRecoveryKeyPrompt-title = Waše hesło je so wróćo stajiło

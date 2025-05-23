@@ -398,6 +398,9 @@ account-recovery-notification-cta = Wutworić
 account-recovery-notification-header-value = Njezhubjejće swoje daty, jeli swoje hesło zabudźeće.
 account-recovery-notification-header-description = Wutworće kontowy wobnowjenski kluč, zo byšće swoje synchronizaciske přehladowanske daty wobnowił, jeli swoje hesło zabudźeće.
 recovery-phone-promo-cta = Wobnowjenski telefon přidać
+recovery-phone-promo-heading = Přidajće swojemu kontu přidatny škit z wobnowjenskim telefonom
+recovery-phone-promo-description = Nětko móžeće so z jónkróćnym hesłom přez SMS přizjewić, jeli njemóžeće swoje nałoženje za dwukročelowu awtentifikaciju wužiwać.
+recovery-phone-promo-info-link = Zhońće wjace wo wobnowjenju a riziku SIM swap
 promo-banner-dismiss-button =
     .aria-label = Chorhoj zaćisnyć
 

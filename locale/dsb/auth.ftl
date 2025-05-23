@@ -378,6 +378,8 @@ passwordResetAccountRecovery-information = Smy wótzjawili was ze wšych wašych
 # After the colon there is a link to account settings
 passwordResetAccountRecovery-information-txt = Smy wótzjawili was ze wšych wašych synchronizěrowanych rědow. Smy napórali nowy kontowy wótnowjeński kluc, kótaryž ten narownajo, kótaryž sćo wužywał. Móžośo jen w swójich kontowych nastajenjach změniś:
 passwordResetAccountRecovery-action-4 = Konto zastojaś
+passwordResetRecoveryPhone-subject = Wótnowjeński telefon wužyty
+passwordResetRecoveryPhone-preview = Pśeglědajśo, lěc wy sćo to był
 passwordResetWithRecoveryKeyPrompt-subject = Wašo gronidło jo se slědk stajiło
 passwordResetWithRecoveryKeyPrompt-title = Wašo gronidło jo se slědk stajiło
 # Details of the device and date/time where the password was reset
