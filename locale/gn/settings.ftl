@@ -1593,6 +1593,16 @@ password-reset-recovery-method-subheader = Eiporavo mba’éichapa erujeýta
 # This is displayed to the user when they are choosing an alternative method to authenticate themself in the password reset process when they do not have access to their two-factor authenticator application
 password-reset-recovery-method-details = Eñeha’ãke ndete eiporu mba’éichapa erujeýta eipotáva.
 password-reset-recovery-method-phone = Pumbyry guerujeyrã
+password-reset-recovery-method-code = Ayvu ñemoneĩrã jeykekoha
+# Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
+password-reset-recovery-method-code-info =
+    { $numBackupCodes ->
+        [one] { $numBackupCodes } ayvu hembýva
+       *[other] { $numBackupCodes } ayvukuéra hembýva
+    }
+# Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
+password-reset-recovery-method-send-code-error-heading = Oiko apañuãi emondóvo pe ayvu ne pumbyry jeguerujeyrãme
+password-reset-recovery-method-send-code-error-description = Eha’ã jey ag̃amieve térã eiporu nde ñemoneĩrã jeykekoha ayvu.
 reset-password-with-recovery-key-verified-page-title = Ñe’ẽñemi jeguerujeypyre
 reset-password-complete-new-password-saved = ¡Ñe’ẽñemi pyahu ñongatupyre!
 reset-password-complete-recovery-key-created = Mba’ete mba’eñemi guerujeyrã moheñoimbyre. Emboguejy ha eñongatu.
