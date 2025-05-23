@@ -367,6 +367,10 @@ passwordResetAccountRecovery-title-3 = Oikojeýma ne ñe’ẽñemi
 passwordResetAccountRecovery-description-3 = Eiporu mba’ete ayvu jeguerujeyrã embojevy hag̃ua ne ñe’ẽñemi { -product-mozilla-account } amo:
 passwordResetAccountRecovery-action-4 = Mba’ete ñangareko
 passwordResetRecoveryPhone-subject = Pumbyry guerujeyrã porupyry
+passwordResetRecoveryPhone-preview = Ehechauka ndeteha eikéva
+passwordResetRecoveryPhone-title = Ne pumbyry guerujeyrã ojeporu ñemoneĩrã ñe’ẽñemi moĩporãrã
+passwordResetRecoveryPhone-device = Pumbyry guerujeyrã ojeporúva amo guive:
+passwordResetRecoveryPhone-action = Mba’ete ñangarekoha
 passwordResetWithRecoveryKeyPrompt-subject = Oikojeýma ne ñe’ẽñemi
 passwordResetWithRecoveryKeyPrompt-title = Oikojeýma ne ñe’ẽñemi
 # Details of the device and date/time where the password was reset
