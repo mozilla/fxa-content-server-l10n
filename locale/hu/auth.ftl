@@ -162,7 +162,7 @@ automated-email-reset =
 automated-email-reset-plaintext-v2 = Ha nem adott engedélyt erre a műveletre, akkor állítsa vissza a jelszavát itt: { $resetLink }
 # This message is used by multiple automated emails that notify users of security events on their account
 # "this action" is meant to be a generic term, and could, for example, refer to using a backup authentication code to confirm a password reset
-automated-email-reset-pwd-two-factor = Ha nem Ön tette meg ezt a műveletet, akkor <a data-l10n-name="resetLink">állítsa vissza a jelszavát</a> és a <a data-l10n-name="twoFactorSettingsLink">állítsa vissza a kétlépcsős hitelesítést</a> jobb el. További információkért keresse fel a <a data-l10n-name="supportLink">{ -brand-mozilla } Támogatást</a>.
+automated-email-reset-pwd-two-factor = Ha nem Ön végezte ezt a műveletet, akkor azonnal <a data-l10n-name="resetLink">állítsa vissza a jelszavát</a> és a <a data-l10n-name="twoFactorSettingsLink">állítsa vissza a kétlépcsős hitelesítést</a>. További információkért keresse fel a <a data-l10n-name="supportLink">{ -brand-mozilla } Támogatást</a>.
 # Followed by link to https://accounts.firefox.com/reset_password
 automated-email-reset-pwd-plaintext-v3 = Ha nem Ön tette meg ezt a műveletet, akkor azonnal állítsa vissza a jelszavát itt:
 # Followed by link to https://accounts.firefox.com/settings#two-step-authentication
