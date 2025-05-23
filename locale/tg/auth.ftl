@@ -68,6 +68,7 @@ subplat-cancel = Бекор кардани обуна
 subplat-cancel-plaintext = { subplat-cancel }:
 subplat-reactivate = Аз нав барқарор кардани обуна
 subplat-reactivate-plaintext = { subplat-reactivate }:
+subplat-update-billing = Навсозии маълумоти санади ҳисоббарорӣ
 subplat-privacy-policy = Сиёсати махфияти «{ -brand-mozilla }»
 subplat-privacy-policy-2 = Огоҳномаи махфияти «{ -product-mozilla-accounts(capitalization: "uppercase") }»
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
@@ -155,6 +156,8 @@ automatedEmailRecoveryKey-more-info-plaintext = Барои маълумоти и
 automated-email-reset =
     Ин паёми худкори почтаи элекронӣ мебошад; агар шумо барои иҷро кардани ин амал иҷозат надодед, пас, лутфан, <a data-l10n-name="resetLink">ниҳонвожаи худро иваз намоед</a>.
     Барои гирифтани маълумоти бештар, лутфан, ба бахши <a data-l10n-name="supportLink">Дастгирии «{ -brand-mozilla }»</a> ворид шавед.
+# Followed by link to https://accounts.firefox.com/settings#two-step-authentication
+automated-email-reset-two-factor-plaintext = Инчунин, санҷиши ҳаққонияти дуқадамаро аз нав танзим кунед:
 cancellationSurvey = Лутфан, ба воситаи гузаронидани ин <a data-l10n-name="cancellationSurveyUrl">саволномаи кутоҳ</a> ба мо барои беҳтар кардани хизматрасониҳои мо кумак расонед.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = Лутфан, ба воситаи гузаронидани ин саволномаи кутоҳ ба мо барои беҳтар кардани хизматрасониҳои мо кумак расонед:
@@ -269,6 +272,7 @@ inactiveAccountSecondWarning-action = Барои нигоҳ доштани ҳи�
 inactiveAccountSecondWarning-preview = Барои нигоҳ доштани ҳисоби худ ворид шавед
 # followed by link to sign in
 inactiveAccountSecondWarning-action-plaintext = Барои нигоҳ доштани ҳисоби худ ворид шавед:
+codes-reminder-description-two-left = Шумо танҳо ду рамз доред.
 lowRecoveryCodes-action-2 = Эҷод кардани рамзҳо
 codes-create-plaintext = { lowRecoveryCodes-action-2 }:
 # Variables:
@@ -299,6 +303,9 @@ passwordReset-description-2 = Маълумоти барқарорсозии ни
 passwordResetAccountRecovery-subject-2 = Ниҳонвожаи шумо аз нав барқарор карда шуд
 passwordResetAccountRecovery-title-3 = Ниҳонвожаи шумо аз нав барқарор карда шуд
 passwordResetAccountRecovery-action-4 = Идоракунии ҳисоб
+passwordResetRecoveryPhone-subject = Телефони барқарорсозӣ истифода карда шуд
+passwordResetRecoveryPhone-device = Телефони барқарорсозӣ истифода карда шуд аз:
+passwordResetRecoveryPhone-action = Идоракунии ҳисоб
 passwordResetWithRecoveryKeyPrompt-subject = Ниҳонвожаи шумо аз нав барқарор карда шуд
 passwordResetWithRecoveryKeyPrompt-title = Ниҳонвожаи шумо аз нав барқарор карда шуд
 # Text for button action to create a new account recovery key
@@ -314,6 +321,7 @@ postAddLinkedAccount-subject-2 = Ҳисоби нав, ки ба «{ -product-moz
 postAddLinkedAccount-title-2 = Ҳисоби «{ $providerName }»-и шумо ба «{ -product-mozilla-account }»-и шумо пайваст карда шуд
 postAddLinkedAccount-action = Идоракунии ҳисоб
 postAddRecoveryPhone-subject = Телефони барқарорсозӣ илова карда шуд
+postAddRecoveryPhone-preview = Ҳисоб бо санҷиши ҳаққонияти дуқадама ҳифз карда шуд
 postAddRecoveryPhone-title-v2 = Шумо рақами телефони барқарорсозиро илова кардед
 # Links out to a support article about two factor authentication
 postAddRecoveryPhone-how-protect = Ин чӣ тавр ҳисоби шуморо муҳофизат мекунад
@@ -335,7 +343,11 @@ postChangeRecoveryPhone-subject = Телефони барқарорсозӣ на
 postChangeRecoveryPhone-preview = Ҳисоб бо санҷиши ҳаққонияти дуқадама ҳифз карда шуд
 postChangeRecoveryPhone-title = Шумо телефони барқарорсозии худро иваз кардед
 postChangeRecoveryPhone-requested-device = Шумо онро дар дастгоҳи зерин дархост кардед:
+# After the colon, there is description of the device that the backup authentication code was used on
+# E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
+postConsumeRecoveryCode-description-3 = Рамз истифода карда шуд аз:
 postConsumeRecoveryCode-action = Идоракунии ҳисоб
+postConsumeRecoveryCode-subject-v3 = Рамзи санҷиши ҳаққоният истифода карда шуд
 postNewRecoveryCodes-action = Идоракунии ҳисоб
 postRemoveAccountRecovery-subject-2 = Калиди барқарорсозии ҳисоб нест карда шуд
 postRemoveAccountRecovery-title-3 = Шумо калиди барқарорсозии ҳисобро нест кардед
