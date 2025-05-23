@@ -8,7 +8,7 @@
 resend-code-success-banner-heading = Oñemondo mba’eñemi ne ñanduti vevépe.
 resend-link-success-banner-heading = Oñemondo juajuha ne ñanduti vevépe.
 # $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
-resend-success-banner-description = Embojuaju { $accountsEmail } ne ñomongetahápe og̃uahẽ hag̃ua apañuãi’ỹre.
+resend-success-banner-description = Embojuaju { $accountsEmail } ne ñomongetahápe og̃uahẽ hag̃ua apañuai’ỹre.
 
 ## Brand Messaging component
 ## Used to show in product messaging about upcoming brand changes
@@ -1601,7 +1601,7 @@ password-reset-recovery-method-code-info =
        *[other] { $numBackupCodes } ayvukuéra hembýva
     }
 # Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
-password-reset-recovery-method-send-code-error-heading = Oiko apañuãi emondóvo pe ayvu ne pumbyry jeguerujeyrãme
+password-reset-recovery-method-send-code-error-heading = Oiko apañuái emondóvo pe ayvu ne pumbyry jeguerujeyrãme
 password-reset-recovery-method-send-code-error-description = Eha’ã jey ag̃amieve térã eiporu nde ñemoneĩrã jeykekoha ayvu.
 reset-password-with-recovery-key-verified-page-title = Ñe’ẽñemi jeguerujeypyre
 reset-password-complete-new-password-saved = ¡Ñe’ẽñemi pyahu ñongatupyre!
@@ -1694,7 +1694,7 @@ signin-recovery-method-code-info-v2 =
        *[other] { $numBackupCodes } ayvu hembýva
     }
 # Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
-signin-recovery-method-send-code-error-heading = Oiko apañuãi emondóvo pe ayvu ne pumbyry jeguerujeyrãme
+signin-recovery-method-send-code-error-heading = Oiko apañuái emondóvo pe ayvu ne pumbyry jeguerujeyrãme
 signin-recovery-method-send-code-error-description = Eha’ã jey ag̃amieva térã eiporu nde ñemoneĩrã jeykekoha ayvu.
 
 ## SigninRecoveryCode page
@@ -1718,7 +1718,7 @@ signin-recovery-code-required-error = Ayvu ñemoneĩrã jeykekoha jerurepyre
 # Message to user after they were redirected to the Mozilla account sign-in page in a new browser
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
-signin-recovery-code-use-phone-failure = Oiko apañuãi emondóvo pe ayvu ne pumbyry jeguerujeyrãme
+signin-recovery-code-use-phone-failure = Oiko apañuái emondóvo pe ayvu ne pumbyry jeguerujeyrãme
 signin-recovery-code-use-phone-failure-description = Eha’ãjey ag̃amieve.
 
 ## SigninRecoveryPhone page
