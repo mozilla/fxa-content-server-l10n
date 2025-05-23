@@ -397,6 +397,12 @@ password-strength-inline-confirmed-must-match = Confirmation matches the new pas
 account-recovery-notification-cta = Create
 account-recovery-notification-header-value = Don’t lose your data if you forget your password
 account-recovery-notification-header-description = Create an account recovery key to restore your synchronised browsing data if you ever forget your password.
+recovery-phone-promo-cta = Add recovery phone
+recovery-phone-promo-heading = Add extra protection to your account with a recovery phone
+recovery-phone-promo-description = Now you can sign in with a one-time-password via SMS if you can’t use your two-step authenticator app.
+recovery-phone-promo-info-link = Learn more about recovery and SIM swap risk
+promo-banner-dismiss-button =
+    .aria-label = Dismiss banner
 
 ## Ready component
 
@@ -1607,6 +1613,21 @@ reset-password-confirmed-cta = Continue to { $serviceName }
 
 # password, and they previously had set up an account recovery method.
 
+password-reset-recovery-method-header = Reset your password
+password-reset-recovery-method-subheader = Choose a recovery method
+# This is displayed to the user when they are choosing an alternative method to authenticate themself in the password reset process when they do not have access to their two-factor authenticator application
+password-reset-recovery-method-details = Let’s make sure it’s you using your recovery methods.
+password-reset-recovery-method-phone = Recovery phone
+password-reset-recovery-method-code = Backup authentication codes
+# Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
+password-reset-recovery-method-code-info =
+    { $numBackupCodes ->
+        [one] { $numBackupCodes } code remaining
+       *[other] { $numBackupCodes } codes remaining
+    }
+# Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
+password-reset-recovery-method-send-code-error-heading = There was a problem sending a code to your recovery phone
+password-reset-recovery-method-send-code-error-description = Please try again later or use your backup authentication codes.
 reset-password-with-recovery-key-verified-page-title = Password reset successful
 reset-password-complete-new-password-saved = New password saved!
 reset-password-complete-recovery-key-created = New account recovery key created. Download and store it now.

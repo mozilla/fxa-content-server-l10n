@@ -376,6 +376,11 @@ passwordResetAccountRecovery-information = We logged you out of all your synchro
 # After the colon there is a link to account settings
 passwordResetAccountRecovery-information-txt = We logged you out of all your synchronised devices. We created a new account recovery key to replace the one you used. You can change it in your account settings:
 passwordResetAccountRecovery-action-4 = Manage account
+passwordResetRecoveryPhone-subject = Recovery phone used
+passwordResetRecoveryPhone-preview = Check to make sure this was you
+passwordResetRecoveryPhone-title = Your recovery phone was used to confirm a password reset
+passwordResetRecoveryPhone-device = Recovery phone used from:
+passwordResetRecoveryPhone-action = Manage account
 passwordResetWithRecoveryKeyPrompt-subject = Your password has been reset
 passwordResetWithRecoveryKeyPrompt-title = Your password has been reset
 # Details of the device and date/time where the password was reset

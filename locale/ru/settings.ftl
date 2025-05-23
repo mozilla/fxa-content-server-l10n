@@ -399,6 +399,10 @@ account-recovery-notification-header-value = Не потеряйте свои д
 account-recovery-notification-header-description = Создайте ключ восстановления аккаунта, чтобы восстановить синхронизированные данные о просмотре, если забудете пароль.
 recovery-phone-promo-cta = Добавить телефон для восстановления
 recovery-phone-promo-heading = Добавьте своему аккаунту дополнительную защиту с помощью телефона для восстановления
+recovery-phone-promo-description = Теперь вы можете войти с одноразовым паролем из SMS, если не можете использовать приложение двухэтапной аутентификации.
+recovery-phone-promo-info-link = Узнайте больше о восстановлении и риске подмены SIM-карт
+promo-banner-dismiss-button =
+    .aria-label = Скрыть баннер
 
 ## Ready component
 
@@ -1604,6 +1608,22 @@ reset-password-confirmed-cta = Перейти к { $serviceName }
 
 # password, and they previously had set up an account recovery method.
 
+password-reset-recovery-method-header = Сбросить пароль
+password-reset-recovery-method-subheader = Выберите метод восстановления
+# This is displayed to the user when they are choosing an alternative method to authenticate themself in the password reset process when they do not have access to their two-factor authenticator application
+password-reset-recovery-method-details = Давайте удостоверимся, что это вы используете ваши методы восстановления.
+password-reset-recovery-method-phone = Телефон для восстановления
+password-reset-recovery-method-code = Резервные коды аутентификации
+# Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
+password-reset-recovery-method-code-info =
+    { $numBackupCodes ->
+        [one] Остался { $numBackupCodes } код
+        [few] Осталось { $numBackupCodes } кодов
+       *[many] Осталось { $numBackupCodes } кодов
+    }
+# Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
+password-reset-recovery-method-send-code-error-heading = При отправке кода на ваш телефон восстановления возникла проблема
+password-reset-recovery-method-send-code-error-description = Пожалуйста, попробуйте ещё раз позже или используйте ваши резервные коды аутентификации.
 reset-password-with-recovery-key-verified-page-title = Пароль успешно восстановлен
 reset-password-complete-new-password-saved = Новый пароль сохранён!
 reset-password-complete-recovery-key-created = Новый ключ восстановления аккаунта создан. Загрузите и сохраните его сейчас.
