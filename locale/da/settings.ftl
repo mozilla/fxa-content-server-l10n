@@ -1604,6 +1604,7 @@ reset-password-confirmed-cta = Fortsæt til { $serviceName }
 
 # password, and they previously had set up an account recovery method.
 
+password-reset-recovery-method-phone = Telefonnummer til genoprettelse
 reset-password-with-recovery-key-verified-page-title = Adgangskoden er blevet nulstillet
 reset-password-complete-new-password-saved = Ny adgangskode gemt!
 reset-password-complete-recovery-key-created = Ny genoprettelsesnøgle til kontoen oprettet. Hent og gem den nu.
