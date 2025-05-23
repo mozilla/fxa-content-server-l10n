@@ -376,6 +376,8 @@ passwordResetAccountRecovery-information = We hebben u op al uw gesynchroniseerd
 # After the colon there is a link to account settings
 passwordResetAccountRecovery-information-txt = We hebben u op al uw gesynchroniseerde apparaten afgemeld. We hebben een nieuwe accountherstelsleutel aangemaakt om de gebruikte sleutel te vervangen. U kunt dit wijzigen in uw accountinstellingen:
 passwordResetAccountRecovery-action-4 = Account beheren
+passwordResetRecoveryPhone-subject = Hersteltelefoonnummer gebruikt
+passwordResetRecoveryPhone-preview = Controleer of u dit inderdaad hebt gedaan
 passwordResetWithRecoveryKeyPrompt-subject = Uw wachtwoord is opnieuw ingesteld
 passwordResetWithRecoveryKeyPrompt-title = Uw wachtwoord is opnieuw ingesteld
 # Details of the device and date/time where the password was reset
