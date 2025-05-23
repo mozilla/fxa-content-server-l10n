@@ -397,6 +397,7 @@ password-strength-inline-confirmed-must-match = Stadfesting samsvarar med det ny
 account-recovery-notification-cta = Opprett
 account-recovery-notification-header-value = Ikkje mist dataa dine om du gløymer passordet ditt
 account-recovery-notification-header-description = Opprett ein kontogjenopprettingsnøkkel for å gjenopprette synkroniserte nettlesardata viss du nokon gong gløymer passordet ditt.
+recovery-phone-promo-cta = Legg til gjenopprettingstelefon
 
 ## Ready component
 
@@ -1605,6 +1606,15 @@ reset-password-confirmed-cta = Hald fram til { $serviceName }
 
 # password, and they previously had set up an account recovery method.
 
+password-reset-recovery-method-header = Tilbakestill passord
+password-reset-recovery-method-subheader = Vel ein gjenopprettingsmetode
+# This is displayed to the user when they are choosing an alternative method to authenticate themself in the password reset process when they do not have access to their two-factor authenticator application
+password-reset-recovery-method-details = La oss forsikre oss om at det er du som brukar gjenopprettingsmetodane dine.
+password-reset-recovery-method-phone = Gjenopprettingstelefon
+password-reset-recovery-method-code = Reserve-godkjenningskodar
+# Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
+password-reset-recovery-method-send-code-error-heading = Det oppstod eit problem med å sende ein kode til gjenopprettingstelefonen din
+password-reset-recovery-method-send-code-error-description = Prøv igjen seinare eller bruk reserve-godkjenningskodane dine.
 reset-password-with-recovery-key-verified-page-title = Passordet er tilbakestilt
 reset-password-complete-new-password-saved = Nytt passord lagra!
 reset-password-complete-recovery-key-created = Ny kontogjenopprettingsnøkkel oppretta. Last ned og lagre han no.

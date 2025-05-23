@@ -366,6 +366,7 @@ passwordResetAccountRecovery-information = Vi logga deg ut frå alle dei synkron
 # After the colon there is a link to account settings
 passwordResetAccountRecovery-information-txt = Vi logga deg ut frå alle synkroniserte einingar. Vi oppretta ein ny kontogjenopprettingsnøkkel for å erstatte den du brukte. Du kan endre det i kontoinnstillingane dine:
 passwordResetAccountRecovery-action-4 = Handsam kontoen
+passwordResetRecoveryPhone-action = Handsam kontoen
 passwordResetWithRecoveryKeyPrompt-subject = Passordet ditt er tilbakestilt
 passwordResetWithRecoveryKeyPrompt-title = Passordet ditt er tilbakestilt
 # Details of the device and date/time where the password was reset

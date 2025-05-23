@@ -400,9 +400,9 @@ account-recovery-notification-header-description = Genera una chiave di recupero
 recovery-phone-promo-cta = Aggiungi telefono per il recupero dell’account
 recovery-phone-promo-heading = Aggiungi ulteriore protezione al tuo account con un telefono per il recupero dell’account
 recovery-phone-promo-description = Ora puoi accedere con una password monouso via SMS se non puoi utilizzare l’app di autenticazione in due passaggi.
-recovery-phone-promo-info-link = Ulteriori informazioni sul rischio di recupero e swap SIM
+recovery-phone-promo-info-link = Ulteriori informazioni sul recupero e sui rischi legati a “SIM swap”
 promo-banner-dismiss-button =
-    .aria-label = Ignora banner
+    .aria-label = Chiudi banner
 
 ## Ready component
 
