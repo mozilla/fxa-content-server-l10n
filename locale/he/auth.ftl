@@ -469,7 +469,7 @@ postVerifySecondary-title = נוספה כתובת דוא״ל משנית
 #  $secondaryEmail (String) - A user's secondary email address
 postVerifySecondary-content-3 = אימתת בהצלחה את { $secondaryEmail } ככתובת הדוא״ל המשנית מ{ -product-mozilla-account(case: "the") } שלך. התרעות אבטחה ואישורי כניסה כעת יישלחו אל שתי כתובות הדוא״ל שלך.
 postVerifySecondary-action = ניהול חשבון
-recovery-subject = איפוס ססמה
+recovery-subject = איפוס הססמה שלך
 recovery-title-2 = שכחת את הססמה שלך?
 # Information on the device, date and time of the request that triggered the email follows.
 recovery-request-origin-2 = קיבלנו בקשה לשינוי ססמה ב{ -product-mozilla-account(case: "the") } שלך מ:

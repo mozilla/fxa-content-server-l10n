@@ -381,6 +381,12 @@ password-strength-inline-confirmed-must-match = האימות מתאים לססמ
 account-recovery-notification-cta = יצירה
 account-recovery-notification-header-value = לא לאבד את הנתונים שלך אם הססמה שלך תישכח
 account-recovery-notification-header-description = ניתן ליצור מפתח לשחזור חשבון כדי לשחזר את נתוני הגלישה המסונכרנים שלך אם הססמה שלך תישכח.
+recovery-phone-promo-cta = הוספת טלפון לשחזור
+recovery-phone-promo-heading = הוספת הגנה נוספת לחשבון שלך באמצעות טלפון לשחזור
+recovery-phone-promo-description = כעת ניתן להתחבר עם ססמה חד פעמית באמצעות SMS אם אין באפשרותך להשתמש ביישומון האימות הדו־שלבי שלך.
+recovery-phone-promo-info-link = מידע נוסף על שחזור וסיכון החלפת כרטיס SIM
+promo-banner-dismiss-button =
+    .aria-label = סגירת באנר
 
 ## Ready component
 
@@ -1513,6 +1519,11 @@ reset-password-confirmed-cta = המשך אל { $serviceName }
 
 # password, and they previously had set up an account recovery method.
 
+password-reset-recovery-method-header = איפוס הססמה שלך
+password-reset-recovery-method-subheader = בחירת אמצעי לשחזור
+# This is displayed to the user when they are choosing an alternative method to authenticate themself in the password reset process when they do not have access to their two-factor authenticator application
+password-reset-recovery-method-details = בואו נוודא שזה אתה המשתמש בשיטות השחזור שלך.
+password-reset-recovery-method-phone = טלפון לשחזור
 reset-password-with-recovery-key-verified-page-title = הססמה אופסה בהצלחה
 reset-password-complete-new-password-saved = הססמה החדשה נשמרה!
 reset-password-complete-recovery-key-created = מפתח חדש לשחזור החשבון נוצר. יש להוריד ולאחסן אותו כעת במקום בטוח.
