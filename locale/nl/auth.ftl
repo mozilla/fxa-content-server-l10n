@@ -378,6 +378,9 @@ passwordResetAccountRecovery-information-txt = We hebben u op al uw gesynchronis
 passwordResetAccountRecovery-action-4 = Account beheren
 passwordResetRecoveryPhone-subject = Hersteltelefoonnummer gebruikt
 passwordResetRecoveryPhone-preview = Controleer of u dit inderdaad hebt gedaan
+passwordResetRecoveryPhone-title = Uw hersteltelefoonnummer is gebruikt om een wachtwoordherinitialisatie te bevestigen
+passwordResetRecoveryPhone-device = Hersteltelefoonnummer gebruikt vanaf:
+passwordResetRecoveryPhone-action = Account beheren
 passwordResetWithRecoveryKeyPrompt-subject = Uw wachtwoord is opnieuw ingesteld
 passwordResetWithRecoveryKeyPrompt-title = Uw wachtwoord is opnieuw ingesteld
 # Details of the device and date/time where the password was reset

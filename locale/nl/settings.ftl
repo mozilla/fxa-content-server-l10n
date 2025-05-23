@@ -397,6 +397,12 @@ password-strength-inline-confirmed-must-match = Bevestiging komt overeen met het
 account-recovery-notification-cta = Aanmaken
 account-recovery-notification-header-value = Verlies uw gegevens niet als u uw wachtwoord vergeet
 account-recovery-notification-header-description = Maak een accountherstelsleutel aan, zodat u uw gesynchroniseerde navigatiegegevens kunt herstellen als u ooit uw wachtwoord vergeet.
+recovery-phone-promo-cta = Hersteltelefoonnummer toevoegen
+recovery-phone-promo-heading = Voeg extra bescherming toe aan uw account met een hersteltelefoonnummer
+recovery-phone-promo-description = U kunt zich nu aanmelden met een eenmalig wachtwoord via sms als u uw app voor tweestapsauthenticatie niet kunt gebruiken.
+recovery-phone-promo-info-link = Meer info over herstel en simswaprisico
+promo-banner-dismiss-button =
+    .aria-label = Banner sluiten
 
 ## Ready component
 
@@ -1607,6 +1613,21 @@ reset-password-confirmed-cta = Doorgaan naar { $serviceName }
 
 # password, and they previously had set up an account recovery method.
 
+password-reset-recovery-method-header = Uw wachtwoord herinitialiseren
+password-reset-recovery-method-subheader = Een herstelmethode kiezen
+# This is displayed to the user when they are choosing an alternative method to authenticate themself in the password reset process when they do not have access to their two-factor authenticator application
+password-reset-recovery-method-details = Laten we controleren dat u het bent die uw herstelmethoden gebruikt.
+password-reset-recovery-method-phone = Hersteltelefoonnummer
+password-reset-recovery-method-code = Reserve-authenticatiecodes
+# Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
+password-reset-recovery-method-code-info =
+    { $numBackupCodes ->
+        [one] { $numBackupCodes } code resterend
+       *[other] { $numBackupCodes } codes resterend
+    }
+# Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
+password-reset-recovery-method-send-code-error-heading = Er is een probleem opgetreden bij het verzenden van een code naar uw hersteltelefoonnummer
+password-reset-recovery-method-send-code-error-description = Probeer het later opnieuw of gebruik uw reserve-authenticatiecodes.
 reset-password-with-recovery-key-verified-page-title = Wachtwoord met succes opnieuw ingesteld
 reset-password-complete-new-password-saved = Nieuw wachtwoord opgeslagen!
 reset-password-complete-recovery-key-created = Nieuwe accountherstelsleutel aangemaakt. Download en bewaar deze nu.
