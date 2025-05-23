@@ -397,6 +397,12 @@ password-strength-inline-confirmed-must-match = Xác nhận khớp với mật k
 account-recovery-notification-cta = Tạo
 account-recovery-notification-header-value = Đừng để mất dữ liệu nếu bạn quên mật khẩu
 account-recovery-notification-header-description = Tạo khóa khôi phục tài khoản để khôi phục dữ liệu đồng bộ hóa của bạn nếu bạn quên mật khẩu.
+recovery-phone-promo-cta = Thêm số điện thoại khôi phục
+recovery-phone-promo-heading = Thêm lớp bảo vệ bổ sung cho tài khoản của bạn bằng số điện thoại khôi phục
+recovery-phone-promo-description = Bây giờ bạn có thể đăng nhập bằng mật khẩu một lần qua SMS nếu bạn không thể sử dụng ứng dụng xác thực hai bước.
+recovery-phone-promo-info-link = Tìm hiểu thêm về khôi phục và rủi ro hoán đổi SIM
+promo-banner-dismiss-button =
+    .aria-label = Loại bỏ biểu ngữ
 
 ## Ready component
 
@@ -1601,6 +1607,17 @@ reset-password-confirmed-cta = Tiếp tục đến { $serviceName }
 
 # password, and they previously had set up an account recovery method.
 
+password-reset-recovery-method-header = Đặt lại mật khẩu của bạn
+password-reset-recovery-method-subheader = Chọn phương pháp khôi phục
+# This is displayed to the user when they are choosing an alternative method to authenticate themself in the password reset process when they do not have access to their two-factor authenticator application
+password-reset-recovery-method-details = Hãy đảm bảo rằng bạn chính là người đang sử dụng phương thức khôi phục của mình.
+password-reset-recovery-method-phone = Số điện thoại khôi phục
+password-reset-recovery-method-code = Mã xác thực dự phòng
+# Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
+password-reset-recovery-method-code-info = { $numBackupCodes } còn lại
+# Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
+password-reset-recovery-method-send-code-error-heading = Có sự cố khi gửi mã đến số điện thoại khôi phục của bạn
+password-reset-recovery-method-send-code-error-description = Vui lòng thử lại sau hoặc sử dụng mã xác thực dự phòng của bạn.
 reset-password-with-recovery-key-verified-page-title = Đặt lại mật khẩu thành công
 reset-password-complete-new-password-saved = Đã đặt mật khẩu mới!
 reset-password-complete-recovery-key-created = Đã tạo khóa khôi phục tài khoản mới. Tải xuống và lưu trữ ngay bây giờ.

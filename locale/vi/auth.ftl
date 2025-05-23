@@ -160,6 +160,15 @@ automated-email-reset =
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext-v2 = Nếu bạn không cho phép hành động này, vui lòng đặt lại mật khẩu của bạn ngay bây giờ tại { $resetLink }
+# This message is used by multiple automated emails that notify users of security events on their account
+# "this action" is meant to be a generic term, and could, for example, refer to using a backup authentication code to confirm a password reset
+automated-email-reset-pwd-two-factor =
+    Nếu bạn không thực hiện hành động này, hãy <a data-l10n-name="resetLink">đặt lại mật khẩu của bạn</a> và <a data-l10n-name="twoFactorSettingsLink">đặt lại xác thực hai bước</a> ngay.
+    Để biết thêm thông tin, vui lòng truy cập <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
+# Followed by link to https://accounts.firefox.com/reset_password
+automated-email-reset-pwd-plaintext-v3 = Nếu bạn không thực hiện hành động này, hãy đặt lại mật khẩu ngay tại:
+# Followed by link to https://accounts.firefox.com/settings#two-step-authentication
+automated-email-reset-two-factor-plaintext = Ngoài ra, hãy đặt lại xác thực hai bước tại:
 brand-banner-message = Bạn có biết chúng tôi đã đổi tên từ { -product-firefox-accounts } thành { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Tìm hiểu thêm</a>
 cancellationSurvey = Vui lòng giúp chúng tôi cải thiện dịch vụ của mình bằng cách thực hiện <a data-l10n-name="cancellationSurveyUrl">khảo sát ngắn</a> này.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
@@ -366,6 +375,11 @@ passwordResetAccountRecovery-information = Chúng tôi đã đăng xuất bạn 
 # After the colon there is a link to account settings
 passwordResetAccountRecovery-information-txt = Chúng tôi đã đăng xuất bạn khỏi tất cả các thiết bị được đồng bộ hóa của bạn. Chúng tôi đã tạo khóa khôi phục tài khoản mới để thay thế khóa bạn đã sử dụng. Bạn có thể thay đổi nó trong cài đặt tài khoản của bạn:
 passwordResetAccountRecovery-action-4 = Quản lý tài khoản
+passwordResetRecoveryPhone-subject = Đã sử dụng số điện thoại khôi phục
+passwordResetRecoveryPhone-preview = Hãy kiểm tra để chắc chắn rằng điều này do bạn làm
+passwordResetRecoveryPhone-title = Số điện thoại khôi phục của bạn đã được sử dụng để xác nhận đặt lại mật khẩu
+passwordResetRecoveryPhone-device = Số điện thoại khôi phục được sử dụng từ:
+passwordResetRecoveryPhone-action = Quản lý tài khoản
 passwordResetWithRecoveryKeyPrompt-subject = Mật khẩu của bạn đã được đặt lại
 passwordResetWithRecoveryKeyPrompt-title = Mật khẩu của bạn đã được đặt lại
 # Details of the device and date/time where the password was reset
@@ -420,7 +434,13 @@ postChangeRecoveryPhone-preview = Tài khoản được bảo vệ bằng xác t
 postChangeRecoveryPhone-title = Bạn đã thay đổi số điện thoại khôi phục của mình
 postChangeRecoveryPhone-description = Bây giờ bạn có số điện thoại khôi phục mới. Số điện thoại trước đó của bạn đã bị xóa.
 postChangeRecoveryPhone-requested-device = Bạn đã yêu cầu nó từ:
+postConsumeRecoveryCode-title-3 = Mã xác thực dự phòng của bạn đã được sử dụng để xác nhận đặt lại mật khẩu
+# After the colon, there is description of the device that the backup authentication code was used on
+# E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
+postConsumeRecoveryCode-description-3 = Mã được sử dụng từ:
 postConsumeRecoveryCode-action = Quản lý tài khoản
+postConsumeRecoveryCode-subject-v3 = Đã sử dụng mã xác thực dự phòng
+postConsumeRecoveryCode-preview = Hãy kiểm tra để chắc chắn rằng điều này do bạn làm
 postNewRecoveryCodes-subject-2 = Đã tạo mã xác thực dự phòng mới
 postNewRecoveryCodes-title-2 = Bạn đã tạo mã xác thực dự phòng mới
 # After the colon, there is information about the device that the authentication codes were created on
