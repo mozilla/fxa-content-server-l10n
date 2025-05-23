@@ -79,6 +79,7 @@ subplat-legal = Añete
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Ñemigua
 subplat-privacy-website-plaintext = { subplat-privacy }:
+account-deletion-info-block-communications = Oñemboguérõ ne mba’ete, og̃uahẽta gueteri ñanduti veve Mozilla Corporation ha Mozilla Foundation-gui, ndete <a data-l10n-name="unsubscribeLink"> ndereipe’áirõ ñemboheraguapy</a>.
 account-deletion-info-block-support = Eporanduséramo térã eikotevẽramo ñepytyvõ, eñe’ẽ ore <a data-l10n-name="supportLink">aty pytyvõha ndive</a>.
 account-deletion-info-block-communications-plaintext = Oñemboguérõ ne mba’ete, og̃uahẽta gueteri ñanduti veve Mozilla Corporation ha Mozilla Foundation guive, ndete ndereipe’áirõ ne ñemboheraguapy:
 account-deletion-info-block-support-plaintext = Eporanduse térã eikotevẽramo ñepytyvõ, eñe’ẽ ore aty ñepytyvõha ndive:
@@ -158,6 +159,10 @@ automated-email-reset =
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext-v2 = Neremoneĩriramo ko jeku’e, embojevyjey ne ñe’ẽñemi ko’ag̃aite { $resetLink } ndive
+# Followed by link to https://accounts.firefox.com/reset_password
+automated-email-reset-pwd-plaintext-v3 = Nandéiramo ejapo ko jeku’e, emoambue ne ñe’ẽñemi ko’ag̃aite amo guive:
+# Followed by link to https://accounts.firefox.com/settings#two-step-authentication
+automated-email-reset-two-factor-plaintext = Avei, erujey ñemoneĩha mokõi jeku’egua amo guive:
 brand-banner-message = ¿Eikuaa romoambueha ore réra { -product-firefox-accounts } ko’ág̃a { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Eikuaave</a>
 cancellationSurvey = Orepytyvõna romoĩporãvévo mba’eporu ejapóvo ko <a data-l10n-name="cancellationSurveyUrl">ñeporandu mbykymi</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
@@ -361,6 +366,7 @@ passwordResetAccountRecovery-title-3 = Oikojeýma ne ñe’ẽñemi
 # Followed by details on the device and date/time of the password reset.
 passwordResetAccountRecovery-description-3 = Eiporu mba’ete ayvu jeguerujeyrã embojevy hag̃ua ne ñe’ẽñemi { -product-mozilla-account } amo:
 passwordResetAccountRecovery-action-4 = Mba’ete ñangareko
+passwordResetRecoveryPhone-subject = Pumbyry guerujeyrã porupyry
 passwordResetWithRecoveryKeyPrompt-subject = Oikojeýma ne ñe’ẽñemi
 passwordResetWithRecoveryKeyPrompt-title = Oikojeýma ne ñe’ẽñemi
 # Details of the device and date/time where the password was reset
