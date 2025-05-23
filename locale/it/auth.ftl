@@ -378,10 +378,10 @@ passwordResetAccountRecovery-information = Ti abbiamo disconnesso da tutti i tuo
 # After the colon there is a link to account settings
 passwordResetAccountRecovery-information-txt = Ti abbiamo disconnesso da tutti i tuoi dispositivi sincronizzati. Abbiamo creato una nuova chiave di recupero dell’account per sostituire quella che hai utilizzato. Puoi modificarla nelle impostazioni del tuo account:
 passwordResetAccountRecovery-action-4 = Gestisci account
-passwordResetRecoveryPhone-subject = Telefono di recupero utilizzato
+passwordResetRecoveryPhone-subject = Utilizzato telefono per il recupero dell’account
 passwordResetRecoveryPhone-preview = Assicurati di essere stato tu
-passwordResetRecoveryPhone-title = Il numero di telefono di recupero è stato utilizzato per confermare la reimpostazione della password
-passwordResetRecoveryPhone-device = Telefono di recupero utilizzato da:
+passwordResetRecoveryPhone-title = Il telefono per il recupero dell’account è stato utilizzato per confermare la reimpostazione della password
+passwordResetRecoveryPhone-device = Telefono per il recupero dell’account utilizzato da:
 passwordResetRecoveryPhone-action = Gestisci account
 passwordResetWithRecoveryKeyPrompt-subject = La password è stata reimpostata
 passwordResetWithRecoveryKeyPrompt-title = La password è stata reimpostata
@@ -406,10 +406,10 @@ postAddLinkedAccount-title-2 = Il tuo account { $providerName } è stato collega
 postAddLinkedAccount-action = Gestisci account
 postAddRecoveryPhone-subject = Aggiunto telefono per il recupero dell’account
 postAddRecoveryPhone-preview = Account protetto da autenticazione in due passaggi
-postAddRecoveryPhone-title-v2 = Hai aggiunto un numero di telefono per il recupero dell’account
+postAddRecoveryPhone-title-v2 = Hai aggiunto un telefono per il recupero dell’account
 # Variables:
 #  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
-postAddRecoveryPhone-description-v2 = Hai aggiunto { $maskedLastFourPhoneNumber } come numero di telefono di recupero
+postAddRecoveryPhone-description-v2 = Hai aggiunto { $maskedLastFourPhoneNumber } come telefono per il recupero dell’account
 # Links out to a support article about two factor authentication
 postAddRecoveryPhone-how-protect = Come aiuta a proteggere il tuo account
 postAddRecoveryPhone-how-protect-plaintext = Come aiuta a proteggere il tuo account:
@@ -432,10 +432,10 @@ postChangePrimary-title = Nuovo indirizzo email primario
 #  $email (String) - A user's email address
 postChangePrimary-description-2 = Hai modificato correttamente il tuo indirizzo email primario in { $email }. Da questo momento puoi utilizzare il nuovo indirizzo email per accedere all’{ -product-mozilla-account }, ricevere notifiche di sicurezza e conferme.
 postChangePrimary-action = Gestisci account
-postChangeRecoveryPhone-subject = Telefono per il recupero dell’account aggiornato
+postChangeRecoveryPhone-subject = Aggiornato telefono per il recupero dell’account
 postChangeRecoveryPhone-preview = Account protetto da autenticazione in due passaggi
-postChangeRecoveryPhone-title = Hai cambiato il numero di telefono per il recupero dell’account
-postChangeRecoveryPhone-description = Ora hai un nuovo numero di telefono per il recupero dell’account. Il numero di telefono precedente è stato eliminato.
+postChangeRecoveryPhone-title = Modificato telefono per il recupero dell’account
+postChangeRecoveryPhone-description = Ora hai un nuovo telefono per il recupero dell’account. Il telefono precedente è stato eliminato.
 postChangeRecoveryPhone-requested-device = L’hai richiesto da:
 postConsumeRecoveryCode-title-3 = Il codice di autenticazione di backup è stato utilizzato per confermare la reimpostazione della password
 # After the colon, there is description of the device that the backup authentication code was used on
@@ -454,9 +454,9 @@ postRemoveAccountRecovery-title-3 = Hai eliminato la chiave di recupero dell’a
 postRemoveAccountRecovery-body-part1 = La chiave di recupero dell’account è necessaria per ripristinare i dati di navigazione crittati se dimentichi la password.
 postRemoveAccountRecovery-body-part2 = Se non l’hai già fatto, genera una nuova chiave di recupero dell’account nelle impostazioni per evitare di perdere i dati salvati quali password, segnalibri, cronologia di navigazione e altro ancora.
 postRemoveAccountRecovery-action = Gestisci account
-postRemoveRecoveryPhone-subject = Il numero di telefono per il recupero dell’account è stato rimosso
+postRemoveRecoveryPhone-subject = Rimosso telefono per il recupero dell’account
 postRemoveRecoveryPhone-preview = Account protetto da autenticazione in due passaggi
-postRemoveRecoveryPhone-title = Il numero di telefono per il recupero dell’account è stato rimosso
+postRemoveRecoveryPhone-title = Rimosso telefono per il recupero dell’account
 postRemoveRecoveryPhone-description-v2 = Il telefono per il recupero dell’account è stato rimosso dalle impostazioni di autenticazione in due passaggi.
 postRemoveRecoveryPhone-description-extra = Puoi comunque utilizzare i codici di autenticazione di backup per accedere se non puoi utilizzare l’app di autenticazione.
 postRemoveRecoveryPhone-requested-device = L’hai richiesto da:
@@ -478,9 +478,9 @@ postSigninRecoveryCode-title = Il codice di autenticazione di backup è stato ut
 postSigninRecoveryCode-description = In caso contrario, dovresti cambiare immediatamente la password per mantenere il tuo account al sicuro.
 postSigninRecoveryCode-device = Hai effettuato l’accesso da:
 postSigninRecoveryCode-action = Gestisci account
-postSigninRecoveryPhone-subject = Numero di telefono per il recupero dell’account utilizzato per accedere
+postSigninRecoveryPhone-subject = Telefono per il recupero dell’account utilizzato per accedere
 postSigninRecoveryPhone-preview = Conferma l’attività dell’account
-postSigninRecoveryPhone-title = Numero di telefono per il recupero dell’account utilizzato per accedere
+postSigninRecoveryPhone-title = Telefono per il recupero dell’account utilizzato per accedere
 postSigninRecoveryPhone-description = In caso contrario, dovresti cambiare immediatamente la password per mantenere il tuo account al sicuro.
 postSigninRecoveryPhone-device = Hai effettuato l’accesso da:
 postSigninRecoveryPhone-action = Gestisci account

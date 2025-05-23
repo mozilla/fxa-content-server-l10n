@@ -397,8 +397,8 @@ password-strength-inline-confirmed-must-match = La conferma corrisponde alla nuo
 account-recovery-notification-cta = Genera
 account-recovery-notification-header-value = Non perdere i tuoi dati se dimentichi la password
 account-recovery-notification-header-description = Genera una chiave di recupero dell’account in modo da poter ripristinare i dati di navigazione sincronizzati nel caso in cui dimenticassi la password.
-recovery-phone-promo-cta = Aggiungi numero di telefono di recupero
-recovery-phone-promo-heading = Aggiungi ulteriore protezione al tuo account con un numero di telefono di recupero
+recovery-phone-promo-cta = Aggiungi telefono per il recupero dell’account
+recovery-phone-promo-heading = Aggiungi ulteriore protezione al tuo account con un telefono per il recupero dell’account
 recovery-phone-promo-description = Ora puoi accedere con una password monouso via SMS se non puoi utilizzare l’app di autenticazione in due passaggi.
 recovery-phone-promo-info-link = Ulteriori informazioni sul rischio di recupero e swap SIM
 promo-banner-dismiss-button =
@@ -647,7 +647,7 @@ flow-setup-phone-verify-number-instruction = Riceverai un SMS da { -brand-mozill
 # Voice over Internet Protocol (VoIP), is a technology that uses a broadband Internet connection instead of a regular (or analog) phone line to make calls.
 # Phone mask services (for example Relay) provide a temporary virtual number to avoid providing a real phone number.
 # Both VoIP and phone masks can be unreliable for one-time-passcode (OTP) verification
-flow-setup-phone-submit-number-info-message-v2 = Il numero di telefono per il recupero dell’account è disponibile solo negli Stati Uniti e in Canada. I numeri VoIP e gli alias telefonici non sono consigliati.
+flow-setup-phone-submit-number-info-message-v2 = Il telefono per il recupero dell’account è disponibile solo negli Stati Uniti e in Canada. I numeri VoIP e gli alias telefonici non sono consigliati.
 flow-setup-phone-submit-number-legal = Fornendo il tuo numero, accetti che venga salvato in modo che possiamo inviarti un messaggio solo per la verifica dell’account. Potrebbero essere applicate tariffe per messaggi e traffico dati.
 # cliking on the button sends a code by text message to the phone number typed in by the user
 flow-setup-phone-submit-number-button = Invia codice
@@ -845,8 +845,8 @@ recent-activity-account-emails-swapped = Indirizzo email principale e secondario
 recent-activity-session-destroy = Disconnesso dalla sessione
 recent-activity-account-recovery-phone-send-code = Il codice è stato inviato al telefono per il recupero dell’account
 recent-activity-account-recovery-phone-setup-complete = Configurazione del telefono per il recupero dell’account completata
-recent-activity-account-recovery-phone-signin-complete = Accesso con il telefono per il recupero dell’account completato
-recent-activity-account-recovery-phone-signin-failed = Accesso con il telefono per il recupero dell’account non riuscito
+recent-activity-account-recovery-phone-signin-complete = Completato accesso con telefono per il recupero dell’account
+recent-activity-account-recovery-phone-signin-failed = Accesso con telefono per il recupero dell’account non riuscito
 recent-activity-account-recovery-phone-removed = Il telefono per il recupero dell’account è stato rimosso
 recent-activity-account-recovery-codes-replaced = Sostituiti codici di recupero
 recent-activity-account-recovery-codes-created = Creati codici di recupero
@@ -868,20 +868,20 @@ recovery-key-create-back-button-title = Torna alle impostazioni
 ## PageRecoveryPhoneRemove
 ## Users reach this page from account settings when they want to remove a backup phone number.
 
-recovery-phone-remove-header = Rimuovi il numero di telefono per il recupero dell’account
+recovery-phone-remove-header = Rimuovi telefono per il recupero dell’account
 # Variables:
 #   $formattedFullPhoneNumber (String) - the user's full phone number
-settings-recovery-phone-remove-info = Questo rimuoverà <strong>{ $formattedFullPhoneNumber }</strong> come numero di telefono per il recupero dell’account.
+settings-recovery-phone-remove-info = Questo rimuoverà <strong>{ $formattedFullPhoneNumber }</strong> come telefono per il recupero dell’account.
 settings-recovery-phone-remove-recommend = Ti consigliamo di mantenere questo metodo perché è più semplice rispetto al salvataggio dei codici di autenticazione di backup.
 # "Saved backup authentication codes" refers to previously saved backup authentication codes
 settings-recovery-phone-remove-recovery-methods = Se lo elimini, assicurati di avere ancora i codici di autenticazione di backup salvati. <linkExternal>Confronta i metodi di recupero</linkExternal>
 settings-recovery-phone-remove-button = Rimuovi numero di telefono
 settings-recovery-phone-remove-cancel = Annulla
-settings-recovery-phone-remove-success = Il numero di telefono per il recupero dell’account è stato rimosso
+settings-recovery-phone-remove-success = Il telefono per il recupero dell’account è stato rimosso
 
 ## PageSetupRecoveryPhone
 
-page-setup-recovery-phone-heading = Aggiungi numero di telefono di recupero
+page-setup-recovery-phone-heading = Aggiungi telefono per il recupero dell’account
 page-setup-recovery-phone-back-button-title = Torna alle impostazioni
 # Back arrow to return to step 1 of recovery phone setup flow
 page-setup-recovery-phone-step2-back-button-title = Cambia numero di telefono
@@ -1043,8 +1043,8 @@ tfa-row-backup-phone-add-cta = Aggiungi
 # Button to remove a recovery phone from the user's account
 tfa-row-backup-phone-delete-button = Rimuovi
 # Shown in tooltip on delete button or delete icon
-tfa-row-backup-phone-delete-title-v2 = Rimuovi il numero di telefono per il recupero dell’account
-tfa-row-backup-phone-delete-restriction-v2 = Se desideri rimuovere il numero di telefono per il recupero dell’account, aggiungi i codici di autenticazione di backup o disattiva l’autenticazione in due passaggi per evitare di rimanere bloccato fuori dal tuo account.
+tfa-row-backup-phone-delete-title-v2 = Rimuovi telefono per il recupero dell’account
+tfa-row-backup-phone-delete-restriction-v2 = Se desideri rimuovere il telefono per il recupero dell’account, aggiungi i codici di autenticazione di backup o disattiva l’autenticazione in due passaggi per evitare di rimanere bloccato fuori dal tuo account.
 # "this" refers to recovery phone
 tfa-row-backup-phone-description-v2 = Questo è il metodo di recupero più semplice se non puoi utilizzare l’app di autenticazione.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
@@ -1199,10 +1199,10 @@ auth-error-183-2 = Codice di conferma non valido o scaduto
 auth-error-202 = Caratteristica non attiva
 auth-error-203 = Il sistema non è disponibile, riprova tra qualche secondo
 auth-error-206 = Impossibile creare la password, la password è già stata impostata
-auth-error-214 = Il numero di telefono per il recupero dell’account esiste già
-auth-error-215 = Il numero di telefono per il recupero dell’account non esiste
+auth-error-214 = Il telefono per il recupero dell’account è già presente
+auth-error-215 = Il telefono per il recupero dell’account non esiste
 auth-error-216 = È stato raggiunto il limite di messaggi di testo
-auth-error-218 = Impossibile rimuovere il numero di telefono per il recupero dell’account, codici di autenticazione di backup non presenti.
+auth-error-218 = Impossibile rimuovere il telefono per il recupero dell’account, codici di autenticazione di backup non presenti.
 auth-error-219 = Questo numero di telefono è stato registrato con troppi account. Prova con un numero diverso.
 auth-error-999 = Errore imprevisto
 auth-error-1001 = Tentativo di accesso annullato
