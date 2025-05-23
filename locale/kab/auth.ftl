@@ -287,11 +287,18 @@ password-forgot-otp-request = Neṭṭef-d assuter n ubeddel n wawal uffir ɣqef
 password-forgot-otp-expiry-notice = Tangalt-a ad temmet deg 10 n tseddatin.
 passwordReset-subject-2 = Awla inek uffir yettuwennez
 passwordReset-title-2 = Awla inek uffir yettuwennez
+# This sentence is followed by information about the device and time of the password reset
+passwordReset-description-2 = Twennzeḍ awal-ik⋅im n uɛeddi { -product-mozilla-account }:
 passwordResetAccountRecovery-subject-2 = Awla inek uffir yettuwennez
 passwordResetAccountRecovery-title-3 = Awla inek uffir yettuwennez
 passwordResetAccountRecovery-action-4 = Sefrek amiḍan
+passwordResetRecoveryPhone-subject = Uṭṭun n tiliɣri yettwaseqdec
+passwordResetRecoveryPhone-device = Uṭṭun n tiliɣri yettwaseqdec seg:
+passwordResetRecoveryPhone-action = Sefrek amiḍan
 passwordResetWithRecoveryKeyPrompt-subject = Awla inek uffir yettuwennez
 passwordResetWithRecoveryKeyPrompt-title = Awla inek uffir yettuwennez
+# Details of the device and date/time where the password was reset
+passwordResetWithRecoveryKeyPrompt-description = Twennzeḍ awal-ik⋅im n uɛeddi { -product-mozilla-account }:
 # Text for button action to create a new account recovery key
 passwordResetWithRecoveryKeyPrompt-action = Rnu tasarut n tririt n umiḍan
 # colon is followed by a link to create an account recovery key from the account settings page
@@ -299,11 +306,16 @@ passwordResetWithRecoveryKeyPrompt-action-txt = Rnu tasarut n tririt n umiḍan:
 postAddAccountRecovery-subject-3 = Tasarut n tririt n umiḍan amaynut i tettwarna
 postAddAccountRecovery-title2 = Terniḍ tasarut n tririt n umiḍani tamaynut
 postAddAccountRecovery-action = Sefrek amiḍan
+postAddLinkedAccount-subject-2 = Amiḍan amaynut yeqqen ɣer { -product-mozilla-account }-ik⋅im
 #  Variables:
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = Amiḍan-ik·im { $providerName } yettwaqqen ɣer { -product-mozilla-account }-ik·im
 postAddLinkedAccount-action = Sefrek amiḍan
+postAddRecoveryPhone-subject = Uṭṭun n tiliɣri yettwarna
 postAddRecoveryPhone-title-v2 = Terniḍ uṭṭun n tiliɣri n tririt
+# Links out to a support article about two factor authentication
+postAddRecoveryPhone-how-protect = Amek ara yemmesten waya amiḍan-ik⋅im
+postAddRecoveryPhone-how-protect-plaintext = Amek ara yemmesten waya amiḍan-ik⋅im:
 postAddRecoveryPhone-enabled-device = Tremdeḍ-t-d seg:
 postAddRecoveryPhone-action = Sefrek amiḍan
 postAddTwoStepAuthentication-subject-2 = Asesteb s snat n tarrayin yettwarmed
@@ -320,11 +332,20 @@ postChangePrimary-title = Imayl amezwaru amaynut
 #  $email (String) - A user's email address
 postChangePrimary-description-2 = Asnifel n { $email } am imay amezwaru yedda akken iwata.tansa-agi attan tura d isem-ik n useqdac i yis ad teqneḍ γer umiḍan-ik { -product-mozilla-account }, daγen tansa-a ar γur-s ad ttwaznen ilγa n teγlist akked
 postChangePrimary-action = Sefrek amiḍan
+postChangeRecoveryPhone-subject = Tilifun n tririt tettwaleqqem
+# After the colon, there is description of the device that the backup authentication code was used on
+# E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
+postConsumeRecoveryCode-description-3 = Tangalt tettwaseqdec seg:
 postConsumeRecoveryCode-action = Sefrek amiḍan
+postConsumeRecoveryCode-subject-v3 = Tingalin n usesteb n uḥraz tettwaseqdec
+# After the colon, there is information about the device that the authentication codes were created on
+postNewRecoveryCodes-description-2 = Ttwarnan ɣef:
 postNewRecoveryCodes-action = Sefrek amiḍan
 postRemoveAccountRecovery-subject-2 = Tasarut n tririt n umiḍan tettwakkes
 postRemoveAccountRecovery-title-3 = Tekkseḍ tasarut-ik·im n tririt n umiḍani tamaynut
 postRemoveAccountRecovery-action = Sefrek amiḍan
+postRemoveRecoveryPhone-subject = Uṭṭun n tiliɣri yettwakkes
+postRemoveRecoveryPhone-title = Uṭṭun n tiliɣri yettwakkes
 postRemoveSecondary-subject = Imay wis sin ittwakkes
 postRemoveSecondary-title = Imay wis sin ittwakkes
 postRemoveSecondary-action = Sefrek amiḍan
