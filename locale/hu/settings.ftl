@@ -402,7 +402,7 @@ recovery-phone-promo-heading = Adjon további védelmet a fiókjának egy helyre
 recovery-phone-promo-description = Mostantól bejelentkezhet egy egyszer használatos jelszóval SMS-ben, ha nem tudja használni a kétlépcsős hitelesítő alkalmazását.
 recovery-phone-promo-info-link = Tudjon meg többet a helyreállítás és a SIM-csere kockázatáról
 promo-banner-dismiss-button =
-    .aria-label = Banner elvetése
+    .aria-label = Banner eltüntetése
 
 ## Ready component
 

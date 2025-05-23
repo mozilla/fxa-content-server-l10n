@@ -359,6 +359,11 @@ passwordResetAccountRecovery-information = ניתקנו אותך מכל המכש
 # After the colon there is a link to account settings
 passwordResetAccountRecovery-information-txt = ניתקנו אותך מכל המכשירים המסונכרנים שלך. יצרנו מפתח חדש לשחזור החשבון שלך כדי להחליף את זה שהשתמשת בו. באפשרות לשנות אותו בהגדרות החשבון שלך:
 passwordResetAccountRecovery-action-4 = ניהול חשבון
+passwordResetRecoveryPhone-subject = נעשה שימוש בטלפון שחזור
+passwordResetRecoveryPhone-preview = כדאי לוודא שהפעולה בוצעה על ידך
+passwordResetRecoveryPhone-title = טלפון השחזור שלך שימש לאישור איפוס ססמה
+passwordResetRecoveryPhone-device = נעשה שימוש בטלפון השחזור מ:
+passwordResetRecoveryPhone-action = ניהול חשבון
 passwordResetWithRecoveryKeyPrompt-subject = הססמה שלך אופסה
 passwordResetWithRecoveryKeyPrompt-title = הססמה שלך אופסה
 # Details of the device and date/time where the password was reset
