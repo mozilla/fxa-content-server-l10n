@@ -380,6 +380,9 @@ passwordResetAccountRecovery-information-txt = Smy wótzjawili was ze wšych wa�
 passwordResetAccountRecovery-action-4 = Konto zastojaś
 passwordResetRecoveryPhone-subject = Wótnowjeński telefon wužyty
 passwordResetRecoveryPhone-preview = Pśeglědajśo, lěc wy sćo to był
+passwordResetRecoveryPhone-title = Waš wótnowjeński telefon jo se wužył, aby slědkstajenje gronidła wobkšuśił
+passwordResetRecoveryPhone-device = Wótnowjeński telefon wužyty wót:
+passwordResetRecoveryPhone-action = Konto zastojaś
 passwordResetWithRecoveryKeyPrompt-subject = Wašo gronidło jo se slědk stajiło
 passwordResetWithRecoveryKeyPrompt-title = Wašo gronidło jo se slědk stajiło
 # Details of the device and date/time where the password was reset

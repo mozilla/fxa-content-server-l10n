@@ -397,6 +397,12 @@ password-strength-inline-confirmed-must-match = Wobkšuśenje nowemu gronidłoju
 account-recovery-notification-cta = Napóraś
 account-recovery-notification-header-value = Njezgubujśo swóje daty, jolic swójo gronidło zabydnjośo.
 account-recovery-notification-header-description = Napórajśo kontowy wótnowjeński kluc, aby swóje synchronizaciske pśeglědowańske daty wótnowiś, jolic swójo gronidło zabydnjośo.
+recovery-phone-promo-cta = Wótnowjeński telefon pśidaś
+recovery-phone-promo-heading = Pśidajśo swójomu kontoju pśidatny šćit z wótnowjeńskim telefonom
+recovery-phone-promo-description = Něnto móžośo se z jadnorazowym gronidłom pśez SMS pśizjawiś, jolic njamóžośo swójo nałoženje za dwójokšacowu awtentifikaciju wužywaś.
+recovery-phone-promo-info-link = Zgóńśo wěcej wó wótnowjenju a riziku SIM swap
+promo-banner-dismiss-button =
+    .aria-label = Chórgoj zachyśiś
 
 ## Ready component
 
@@ -1603,6 +1609,23 @@ reset-password-confirmed-cta = Dalej k { $serviceName }
 
 # password, and they previously had set up an account recovery method.
 
+password-reset-recovery-method-header = Stajśo swójo gronidło slědk
+password-reset-recovery-method-subheader = Wubjeŕśo wótnowjeńsku metodu
+# This is displayed to the user when they are choosing an alternative method to authenticate themself in the password reset process when they do not have access to their two-factor authenticator application
+password-reset-recovery-method-details = Pśeznańśo se, až wy swóje wótnowjeńske metody wužywaśo.
+password-reset-recovery-method-phone = Wótnowjeński telefon
+password-reset-recovery-method-code = Kody za zawěsćeńsku awtentifikaciju
+# Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
+password-reset-recovery-method-code-info =
+    { $numBackupCodes ->
+        [one] { $numBackupCodes } kod zwóstawajucy
+        [two] { $numBackupCodes } koda zwóstawajucej
+        [few] { $numBackupCodes } kody zwóstawajuce
+       *[other] { $numBackupCodes } kody zwóstawajuce
+    }
+# Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
+password-reset-recovery-method-send-code-error-heading = Pśi słanju koda na waš wótnowjeński telefon jo problem nastał
+password-reset-recovery-method-send-code-error-description = Pšosym wopytajśo pózdźej hyšći raz abo wužywajśo swóje awtentifikaciske kody za zawěsćenje.
 reset-password-with-recovery-key-verified-page-title = Gronidło jo se wuspěšnje slědk stajiło
 reset-password-complete-new-password-saved = Nowe gronidło jo se składło!
 reset-password-complete-recovery-key-created = Nowy kontowy wótnowjeński kluc jo se napórał. Ześěgniśo a składujśo jen něnto.
