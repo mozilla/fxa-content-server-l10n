@@ -190,6 +190,7 @@ price-details-no-tax-year =
 
 ## Component - SubscriptionTitle
 
+subscription-create-title = Обунаи худро танзим кунед
 sub-guarantee = Кафолати 30-рӯза барои бозпардохти маблағи шумо
 
 ## Component - TermsAndPrivacy
