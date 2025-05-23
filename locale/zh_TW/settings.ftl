@@ -397,6 +397,12 @@ password-strength-inline-confirmed-must-match = 再次輸入的密碼與新密�
 account-recovery-notification-cta = 建立
 account-recovery-notification-header-value = 就算忘記密碼也不失去資料
 account-recovery-notification-header-description = 建立帳號救援金鑰，讓您在忘記密碼時也能還原同步過的瀏覽資料。
+recovery-phone-promo-cta = 新增救援電話號碼
+recovery-phone-promo-heading = 使用救援電話號碼，為您的帳號再加一層保護
+recovery-phone-promo-description = 現在起，若您無法使用兩階段驗證應用程式，還可以透過接收簡訊驗證碼的方式來登入。
+recovery-phone-promo-info-link = 了解救援與 SIM Swap 風險的更多資訊
+promo-banner-dismiss-button =
+    .aria-label = 關閉橫幅
 
 ## Ready component
 
@@ -1576,6 +1582,17 @@ reset-password-confirmed-cta = 繼續前往 { $serviceName }
 
 # password, and they previously had set up an account recovery method.
 
+password-reset-recovery-method-header = 重設您的密碼
+password-reset-recovery-method-subheader = 選擇救援方式
+# This is displayed to the user when they are choosing an alternative method to authenticate themself in the password reset process when they do not have access to their two-factor authenticator application
+password-reset-recovery-method-details = 請使用您原先設定的救援方式確認身分。
+password-reset-recovery-method-phone = 救援電話號碼
+password-reset-recovery-method-code = 備用驗證碼
+# Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
+password-reset-recovery-method-code-info = 剩餘 { $numBackupCodes } 組備用驗證碼
+# Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
+password-reset-recovery-method-send-code-error-heading = 傳送代碼到您的救援電話號碼時遇到問題
+password-reset-recovery-method-send-code-error-description = 請稍後再試，或使用您的備用驗證碼。
 reset-password-with-recovery-key-verified-page-title = 密碼重設成功
 reset-password-complete-new-password-saved = 已儲存新密碼！
 reset-password-complete-recovery-key-created = 已建立新的帳號救援金鑰，請立即下載並儲存。

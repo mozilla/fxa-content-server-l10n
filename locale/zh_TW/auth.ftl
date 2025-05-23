@@ -373,6 +373,10 @@ passwordResetAccountRecovery-information = 我們已將您從所有同步裝置�
 # After the colon there is a link to account settings
 passwordResetAccountRecovery-information-txt = 我們已將您從所有同步裝置登出，並產生一把新的帳號救援金鑰取代原金鑰。您可以到帳號設定中更改：
 passwordResetAccountRecovery-action-4 = 管理帳號
+passwordResetRecoveryPhone-subject = 已使用救援電話號碼
+passwordResetRecoveryPhone-preview = 請確認是否是您的操作
+passwordResetRecoveryPhone-title = 以使用您的救援電話號碼，來確認重設密碼
+passwordResetRecoveryPhone-action = 管理帳號
 passwordResetWithRecoveryKeyPrompt-subject = 已重設您的密碼
 passwordResetWithRecoveryKeyPrompt-title = 已重設您的密碼
 # Details of the device and date/time where the password was reset
