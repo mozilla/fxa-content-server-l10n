@@ -399,6 +399,9 @@ account-recovery-notification-header-value = Nokañyiva’erã ne mba’ekuaarã
 account-recovery-notification-header-description = Emoheñói mba’ete guerujeyrã mba’eñemi emyatyrõ hag̃ua ne ñeikundaha mba’ekuaarã mbojuehepyre nderesaráirõ ne ñe’ẽñemi.
 recovery-phone-promo-cta = Embojuaju pumbyry guerujeyrã
 recovery-phone-promo-heading = Embojuaju ñemo’ãha ne mba’etépe pumbyry guerujeyrã ndive
+recovery-phone-promo-info-link = Eikuaave guerujeyrã rehegua ha SIM ñemoambue imarãkuaaha
+promo-banner-dismiss-button =
+    .aria-label = Emboyke báner
 
 ## Ready component
 
