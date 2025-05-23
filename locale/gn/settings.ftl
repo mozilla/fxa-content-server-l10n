@@ -1588,6 +1588,11 @@ reset-password-confirmed-cta = Eku’ejey { $serviceName } ndive
 
 # password, and they previously had set up an account recovery method.
 
+password-reset-recovery-method-header = Embojevyjey ne ñe’ẽñemi
+password-reset-recovery-method-subheader = Eiporavo mba’éichapa erujeýta
+# This is displayed to the user when they are choosing an alternative method to authenticate themself in the password reset process when they do not have access to their two-factor authenticator application
+password-reset-recovery-method-details = Eñeha’ãke ndete eiporu mba’éichapa erujeýta eipotáva.
+password-reset-recovery-method-phone = Pumbyry guerujeyrã
 reset-password-with-recovery-key-verified-page-title = Ñe’ẽñemi jeguerujeypyre
 reset-password-complete-new-password-saved = ¡Ñe’ẽñemi pyahu ñongatupyre!
 reset-password-complete-recovery-key-created = Mba’ete mba’eñemi guerujeyrã moheñoimbyre. Emboguejy ha eñongatu.
