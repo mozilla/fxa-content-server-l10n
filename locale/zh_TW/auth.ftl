@@ -376,6 +376,7 @@ passwordResetAccountRecovery-action-4 = 管理帳號
 passwordResetRecoveryPhone-subject = 已使用救援電話號碼
 passwordResetRecoveryPhone-preview = 請確認是否是您的操作
 passwordResetRecoveryPhone-title = 以使用您的救援電話號碼，來確認重設密碼
+passwordResetRecoveryPhone-device = 救援電話號碼是從下列位置使用的：
 passwordResetRecoveryPhone-action = 管理帳號
 passwordResetWithRecoveryKeyPrompt-subject = 已重設您的密碼
 passwordResetWithRecoveryKeyPrompt-title = 已重設您的密碼

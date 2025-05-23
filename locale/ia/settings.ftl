@@ -397,6 +397,9 @@ password-strength-inline-confirmed-must-match = Le confirmation concorda con le 
 account-recovery-notification-cta = Crear
 account-recovery-notification-header-value = Non perde tu datos si tu oblida tu contrasigno
 account-recovery-notification-header-description = Crea un clave de recuperation del conto proque tu pote restaurar le datos de navigation synchronisate si tu oblida tu contrasigno.
+recovery-phone-promo-cta = Adder telephono de recuperation
+promo-banner-dismiss-button =
+    .aria-label = Dimitter le bandiera
 
 ## Ready component
 
@@ -1605,6 +1608,21 @@ reset-password-confirmed-cta = Continuar a { $serviceName }
 
 # password, and they previously had set up an account recovery method.
 
+password-reset-recovery-method-header = Reinitialisa tu contrasigno
+password-reset-recovery-method-subheader = Elige un methodo de recuperation
+# This is displayed to the user when they are choosing an alternative method to authenticate themself in the password reset process when they do not have access to their two-factor authenticator application
+password-reset-recovery-method-details = Que nos verifica que il es tu que usa tu methodos de recuperation.
+password-reset-recovery-method-phone = Telephono de recuperation
+password-reset-recovery-method-code = Codices de authentication de reserva
+# Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
+password-reset-recovery-method-code-info =
+    { $numBackupCodes ->
+        [one] { $numBackupCodes } codice restante
+       *[other] { $numBackupCodes } codices restante
+    }
+# Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
+password-reset-recovery-method-send-code-error-heading = Il habeva un problema inviante un codices a tu telephono de recuperation
+password-reset-recovery-method-send-code-error-description = Retenta plus tarde o usa tu codices de authentication de reserva.
 reset-password-with-recovery-key-verified-page-title = Contrasigno remontate con successo
 reset-password-complete-new-password-saved = Nove contrasigno salvate!
 reset-password-complete-recovery-key-created = Un nove clave de recuperation del conto ha essite create. Discarga lo e conserva lo ora.

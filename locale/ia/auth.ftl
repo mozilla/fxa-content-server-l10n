@@ -376,6 +376,10 @@ passwordResetAccountRecovery-information = Nos te disconnecteva de tote le tu ap
 # After the colon there is a link to account settings
 passwordResetAccountRecovery-information-txt = Nos te disconnecteva de tote le tu apparatos synchronisate. Nos creava un nove clave recuperation del conto pro reimplaciar le sol que tu usava. Tu pote cambiar lo in parametros de tu conto:
 passwordResetAccountRecovery-action-4 = Gerer le conto
+passwordResetRecoveryPhone-subject = Telephono de recuperation usate
+passwordResetRecoveryPhone-preview = Verifica que iste era tu
+passwordResetRecoveryPhone-device = Telephono de recuperation usate per:
+passwordResetRecoveryPhone-action = Gerer le conto
 passwordResetWithRecoveryKeyPrompt-subject = Tu contrasigno ha essite remontate
 passwordResetWithRecoveryKeyPrompt-title = Tu contrasigno ha essite remontate
 # Details of the device and date/time where the password was reset
