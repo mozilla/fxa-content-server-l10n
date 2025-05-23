@@ -424,7 +424,13 @@ postChangeRecoveryPhone-preview = Mba’ete oñemo’ãva ñemoneĩ mokõi jeku�
 postChangeRecoveryPhone-title = Emoambue pumbyry jeguerujeyrã
 postChangeRecoveryPhone-description = Eguerekóma pumbyry guerujeyrã pyahu. Oguetéma pe pumbyry papapy.
 postChangeRecoveryPhone-requested-device = Ejerure upe guive:
+postConsumeRecoveryCode-title-3 = Nde ayvu ñemoneĩrã jeykekoha ojeporu oñemoneĩ hag̃ua ñe’ẽñemi moĩporãrã
+# After the colon, there is description of the device that the backup authentication code was used on
+# E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
+postConsumeRecoveryCode-description-3 = Ayvu ojeporúva amógui:
 postConsumeRecoveryCode-action = Mba’ete ñangareko
+postConsumeRecoveryCode-subject-v3 = Ayvu ñemoneĩrã jeykekoha porupyre
+postConsumeRecoveryCode-preview = Ehechajey ndeteha pe eikeva’ekue
 postNewRecoveryCodes-subject-2 = Ayvu ñemoneĩrã pyahu jeykekoha moheñoimbyre
 postNewRecoveryCodes-title-2 = Emoheñói ayvu ñemoneĩrã pyahu jeykekoha
 # After the colon, there is information about the device that the authentication codes were created on

@@ -397,6 +397,8 @@ password-strength-inline-confirmed-must-match = Pe ñemoneĩ ojokupyty ñe’ẽ
 account-recovery-notification-cta = Moheñói
 account-recovery-notification-header-value = Nokañyiva’erã ne mba’ekuaarã nderesaráirõ ne ñe’ẽñemi
 account-recovery-notification-header-description = Emoheñói mba’ete guerujeyrã mba’eñemi emyatyrõ hag̃ua ne ñeikundaha mba’ekuaarã mbojuehepyre nderesaráirõ ne ñe’ẽñemi.
+recovery-phone-promo-cta = Embojuaju pumbyry guerujeyrã
+recovery-phone-promo-heading = Embojuaju ñemo’ãha ne mba’etépe pumbyry guerujeyrã ndive
 
 ## Ready component
 
