@@ -434,7 +434,7 @@ sub-update-new-plan-daily = { $productName } (napi)
 sub-update-new-plan-weekly = { $productName } (heti)
 sub-update-new-plan-monthly = { $productName } (havi)
 sub-update-new-plan-yearly = { $productName } (évi)
-sub-update-prorated-upgrade-credit = A megjelenített negatív egyenleg jóváírásként jelenik meg a fiókjában, és a jövőbeni számlákra lesz használva.
+sub-update-prorated-upgrade-credit = A megjelenített negatív egyenleg jóváírásként jelenik meg, és a jövőbeni számlákra lesz használva.
 
 ## Routes - Subscriptions - Cancel
 

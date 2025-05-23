@@ -164,7 +164,7 @@ automated-email-reset-plaintext-v2 = Ha nem adott engedélyt erre a műveletre, 
 # "this action" is meant to be a generic term, and could, for example, refer to using a backup authentication code to confirm a password reset
 automated-email-reset-pwd-two-factor = Ha nem Ön végezte ezt a műveletet, akkor azonnal <a data-l10n-name="resetLink">állítsa vissza a jelszavát</a> és a <a data-l10n-name="twoFactorSettingsLink">állítsa vissza a kétlépcsős hitelesítést</a>. További információkért keresse fel a <a data-l10n-name="supportLink">{ -brand-mozilla } Támogatást</a>.
 # Followed by link to https://accounts.firefox.com/reset_password
-automated-email-reset-pwd-plaintext-v3 = Ha nem Ön tette meg ezt a műveletet, akkor azonnal állítsa vissza a jelszavát itt:
+automated-email-reset-pwd-plaintext-v3 = Ha nem Ön végezte ezt a műveletet, akkor azonnal állítsa vissza a jelszavát itt:
 # Followed by link to https://accounts.firefox.com/settings#two-step-authentication
 automated-email-reset-two-factor-plaintext = Állítsa vissza a kétlépcsős hitelesítést is itt:
 brand-banner-message = Tudta, hogy megváltoztattuk a nevünket { -product-firefox-accounts }ról { -product-mozilla-accounts }ra? <a data-l10n-name="learnMore">További tudnivalók</a>
@@ -374,10 +374,10 @@ passwordResetAccountRecovery-information = Kijelentkeztettük az összes szinkro
 # After the colon there is a link to account settings
 passwordResetAccountRecovery-information-txt = Kijelentkeztettük az összes szinkronizált eszközéről. Készítettünk egy új fiók-helyreállítási kulcsot a most használt kulcs helyett. Ezt a fiókbeállításokban módosíthatja:
 passwordResetAccountRecovery-action-4 = Fiók kezelése
-passwordResetRecoveryPhone-subject = Használt helyreállítási telefonszám
+passwordResetRecoveryPhone-subject = Helyreállítási telefonszám használva
 passwordResetRecoveryPhone-preview = Ellenőrizze, hogy ez Ön volt-e
 passwordResetRecoveryPhone-title = A helyreállítási telefonszáma egy jelszó-visszaállítás megerősítéséhez lett használva
-passwordResetRecoveryPhone-device = Használt helyreállítási telefonszám:
+passwordResetRecoveryPhone-device = Helyreállítási telefonszám innen használva:
 passwordResetRecoveryPhone-action = Fiók kezelése
 passwordResetWithRecoveryKeyPrompt-subject = A jelszó vissza lett állítva
 passwordResetWithRecoveryKeyPrompt-title = A jelszó vissza lett állítva
@@ -433,10 +433,10 @@ postChangeRecoveryPhone-preview = Kétlépcsős hitelesítéssel védett fiók
 postChangeRecoveryPhone-title = Módosította a helyreállítási telefonszámát
 postChangeRecoveryPhone-description = Új helyreállítási telefonszáma van. Az előző telefonszám törölve lett.
 postChangeRecoveryPhone-requested-device = Innen kérte:
-postConsumeRecoveryCode-title-3 = A tartalék hitelesítési kódját a jelszó-visszaállítás megerősítésére használták
+postConsumeRecoveryCode-title-3 = A tartalék hitelesítési kódját egy jelszó-visszaállítás megerősítéséhez használták
 # After the colon, there is description of the device that the backup authentication code was used on
 # E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
-postConsumeRecoveryCode-description-3 = Használt kód innen:
+postConsumeRecoveryCode-description-3 = Kód innen használva:
 postConsumeRecoveryCode-action = Fiók kezelése
 postConsumeRecoveryCode-subject-v3 = Tartalék hitelesítési kód felhasználva
 postConsumeRecoveryCode-preview = Ellenőrizze, hogy ez Ön volt-e
@@ -675,7 +675,7 @@ subscriptionUpgrade-upgrade-info-2 = Sikeresen frissített erre: { $productName 
 
 subscriptionUpgrade-content-charge-prorated = Egy egyszeri { $paymentProrated } összegű díjat számoltunk fel, amely a számlázási időszak ({ $productPaymentCycleOld }) hátralévő részében a magasabb előfizetési díjat tükrözi.
 subscriptionUpgrade-content-charge-credit = { $paymentProrated } összegű jóváírást kapott.
-subscriptionUpgrade-content-starting = A következő számlától fogva a terhelése megváltozik { $paymentAmountOld }/{ $productPaymentCycleOld } összegről erre: { $paymentAmountNew }/{ $productPaymentCycleNew }.
+subscriptionUpgrade-content-starting = A következő számlától fogva a terhelése { $paymentAmountOld }/{ $productPaymentCycleOld } összegről erre változik: { $paymentAmountNew }/{ $productPaymentCycleNew }.
 # Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-existing = Ha bármelyik meglévő előfizetése fedi ezt a frissítést, akkor azt kezeljük, és külön e-mailt küldünk a részletekről. Ha az új előfizetése telepítést igénylő termékeket tartalmaz, akkor külön e-mailt küldünk a beállítási utasításokkal.
