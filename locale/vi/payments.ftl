@@ -406,6 +406,7 @@ sub-update-new-plan-daily = { $productName } (Hàng ngày)
 sub-update-new-plan-weekly = { $productName } (Hàng tuần)
 sub-update-new-plan-monthly = { $productName } (Hàng tháng)
 sub-update-new-plan-yearly = { $productName } (Hàng năm)
+sub-update-prorated-upgrade-credit = Số dư âm được hiển thị sẽ được coi là khoản tiền được ghi vào tài khoản của bạn và sẽ được dùng để thanh toán các hóa đơn sau này.
 
 ## Routes - Subscriptions - Cancel
 
@@ -433,6 +434,7 @@ sub-item-cancel-confirm =
 # Cybersecurity Awareness Month 2023 coupon applied: $11.20 + $0.35 tax
 # Summer Promo VPN coupon applied: $11.20
 sub-promo-coupon-applied = Phiếu giảm giá { $promotion_name } đã được áp dụng: <priceDetails></priceDetails>
+subscription-management-account-credit-balance = Khoản thanh toán gói đăng ký này đã được ghi vào số dư tài khoản của bạn: <priceDetails></priceDetails>
 
 ## Routes - Subscription
 
