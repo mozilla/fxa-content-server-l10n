@@ -2,16 +2,31 @@
 
 session-verify-send-push-title-2 = Qqen ɣer { -product-mozilla-account }?
 session-verify-send-push-body-2 = Sit da i wakken ad nẓer d kečč·kemm
+# Message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to verify phone ownership when registering a recovery phone
+recovery-phone-setup-sms-body = { $code } d tangalt-ik⋅im n uselkin { -brand-mozilla }. Ad temmet deg 5 tesdidin.
 # Shorter message sent by SMS with limited character length, please test translation with the messaging segment calculator
 # https://twiliodeved.github.io/message-segment-calculator/
 # Messages should be limited to one segment
 # $code  - 6 digit code used to verify phone ownership when registering a recovery phone
 recovery-phone-setup-sms-short-body = { -brand-mozilla } tangalt n usenqed: { $code }
+# Message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to sign in with a recovery phone as backup for two-step authentication
+recovery-phone-signin-sms-body = { $code } d tangalt-ik⋅im n tririt { -brand-mozilla }. Ad temmet deg 5 tesdidin.
 # Shorter message sent by SMS with limited character length, please test translation with the messaging segment calculator
 # https://twiliodeved.github.io/message-segment-calculator/
 # Messages should be limited to one segment
 # $code  - 6 digit code used to sign in with a recovery phone as backup for two-step authentication
 recovery-phone-signin-sms-short-body = { -brand-mozilla } tangalt: { $code }
+# Message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to sign in with a recovery phone as backup for account password reset
+recovery-phone-reset-password-sms-body = { $code } d tangalt-ik⋅im n tririt { -brand-mozilla }. Ad temmet deg 5 tesdidin.
 # Shorter message sent by SMS with limited character length, please test translation with the messaging segment calculator
 # https://twiliodeved.github.io/message-segment-calculator/
 # Messages should be limited to one segment
@@ -120,6 +135,8 @@ automatedEmailRecoveryKey-origin-device-OS-version-only = Assuter-a yusa-d seg {
 # Variables:
 # - $uaOS: the user agent's operating system (e.g, MacOS)
 automatedEmailRecoveryKey-origin-device-OS-only = Assuter-a yusa-d seg { $uaOS }.
+automatedEmailRecoveryKey-delete-key-change-pwd = Ma yella mačči d kečč⋅kemm, <a data-l10n-name="revokeAccountRecoveryLink">kkes tisirit tamaynut</a> akked <a data-l10n-name="passwordChangeLink">beddel n wawal-ik⋅im n uɛeddi</a>.
+automatedEmailRecoveryKey-change-pwd-only = Ma yella mačči d kečč⋅kemm, <a data-l10n-name="passwordChangeLink">beddel n wawal-ik⋅im n uɛeddi</a>.
 automatedEmailRecoveryKey-more-info = I wugar n yisallen, rzu ɣer <a data-l10n-name="supportLink">{ -brand-mozilla } Tallelt </a>.
 # Colon is followed by user device info on a separate line (e.g., "Firefox Nightly on Mac OSX 10.11")
 automatedEmailRecoveryKey-origin-plaintext = Assuter-a yusa-d seg:
