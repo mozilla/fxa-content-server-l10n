@@ -1016,11 +1016,13 @@ tfa-row-cannot-disable-2 = Nije bilo moguće deaktivirati autentifikaciju u dva 
 ## These terms are used in signin and signup for Firefox account
 
 # This message is followed by a bulleted list
-terms-privacy-agreement-intro-2 = Nastavljanjem prihvaćaš:
+terms-privacy-agreement-intro-2 = Ako nastaviš, prihvaćaš:
 # links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-pocket-2 = { -product-pocket } <pocketTos>uvjete usluge</pocketTos> i <pocketPrivacy>napomene o privatnosti</pocketPrivacy>
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-mozilla = { -product-mozilla-accounts(capitalization: "uppercase") } – <mozillaAccountsTos>Uvjeti usluge</mozillaAccountsTos> i <mozillaAccountsPrivacy>Obavijest o privatnosti</mozillaAccountsPrivacy>
+# links to Mozilla Account's Terms of Service and Privacy Notice
+terms-privacy-agreement-default-2 = Ako nastaviš, prihvaćaš <mozillaAccountsTos>uvjete usluge</mozillaAccountsTos> i <mozillaAccountsPrivacy>napomene o privatnosti</mozillaAccountsPrivacy>.
 
 ## ThirdPartyAuth component
 ## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
