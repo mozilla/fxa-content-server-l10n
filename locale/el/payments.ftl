@@ -434,6 +434,7 @@ sub-update-new-plan-daily = { $productName } (Ημερησίως)
 sub-update-new-plan-weekly = { $productName } (Εβδομαδιαία)
 sub-update-new-plan-monthly = { $productName } (Μηνιαία)
 sub-update-new-plan-yearly = { $productName } (Ετησίως)
+sub-update-prorated-upgrade-credit = Το αρνητικό υπόλοιπο που εμφανίζεται θα πιστωθεί στον λογαριασμό σας και θα χρησιμοποιηθεί σε μελλοντικά παραστατικά.
 
 ## Routes - Subscriptions - Cancel
 

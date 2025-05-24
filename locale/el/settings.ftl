@@ -398,6 +398,9 @@ account-recovery-notification-cta = Δημιουργία
 account-recovery-notification-header-value = Μην χάσετε τα δεδομένα σας εάν ξεχάσετε τον κωδικό πρόσβασής σας
 account-recovery-notification-header-description = Δημιουργήστε ένα κλειδί ανάκτησης λογαριασμού, για να επαναφέρετε τα συγχρονισμένα δεδομένα περιήγησής σας σε περίπτωση που ξεχάσετε τον κωδικό πρόσβασής σας.
 recovery-phone-promo-cta = Προσθήκη τηλεφώνου ανάκτησης
+recovery-phone-promo-heading = Προσθέστε επιπλέον προστασία στον λογαριασμό σας με ένα τηλέφωνο ανάκτησης
+recovery-phone-promo-description = Μπορείτε πλέον να συνδεθείτε με έναν κωδικό πρόσβασης μίας χρήσης μέσω SMS εάν δεν μπορείτε να χρησιμοποιήσετε την εφαρμογή ελέγχου ταυτότητας δύο παραγόντων.
+recovery-phone-promo-info-link = Μάθετε περισσότερα σχετικά με την ανάκτηση και τον κίνδυνο εναλλαγής SIM
 promo-banner-dismiss-button =
     .aria-label = Απόρριψη μηνύματος
 
@@ -1615,6 +1618,8 @@ reset-password-confirmed-cta = Συνέχεια στο { $serviceName }
 
 password-reset-recovery-method-header = Επαναφέρετε τον κωδικό πρόσβασής σας
 password-reset-recovery-method-subheader = Επιλέξτε μια μέθοδο ανάκτησης
+# This is displayed to the user when they are choosing an alternative method to authenticate themself in the password reset process when they do not have access to their two-factor authenticator application
+password-reset-recovery-method-details = Ας βεβαιωθούμε ότι είστε εσείς, χρησιμοποιώντας τις μεθόδους ανάκτησής σας.
 password-reset-recovery-method-phone = Τηλέφωνο ανάκτησης
 password-reset-recovery-method-code = Εφεδρικοί κωδικοί ταυτοποίησης
 # Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4

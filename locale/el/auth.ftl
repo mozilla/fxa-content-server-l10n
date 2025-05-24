@@ -160,6 +160,15 @@ automated-email-reset =
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext-v2 = Εάν δεν εξουσιοδοτήσατε αυτήν την ενέργεια, επαναφέρετε τον κωδικό πρόσβασής σας τώρα στο { $resetLink }
+# This message is used by multiple automated emails that notify users of security events on their account
+# "this action" is meant to be a generic term, and could, for example, refer to using a backup authentication code to confirm a password reset
+automated-email-reset-pwd-two-factor =
+    Εάν δεν εκτελέσατε εσείς αυτήν την ενέργεια, τότε <a data-l10n-name="resetLink">επαναφέρετε τον κωδικό πρόσβασης</a> και την <a data-l10n-name="twoFactorSettingsLink">ταυτοποίηση δύο παραγόντων</a> σας αμέσως.
+    Για περισσότερες πληροφορίες, επισκεφθείτε την <a data-l10n-name="supportLink">Υποστήριξη { -brand-mozilla }</a>.
+# Followed by link to https://accounts.firefox.com/reset_password
+automated-email-reset-pwd-plaintext-v3 = Αν δεν εκτελέσατε εσείς αυτήν την ενέργεια, επαναφέρετε τον κωδικό πρόσβασής σας αμέσως στο:
+# Followed by link to https://accounts.firefox.com/settings#two-step-authentication
+automated-email-reset-two-factor-plaintext = Επίσης, επαναφέρετε την ταυτοποίηση δύο παραγόντων στο:
 brand-banner-message = Γνωρίζατε ότι αλλάξαμε το όνομά μας από «{ -product-firefox-accounts }» σε «{ -product-mozilla-accounts }»; <a data-l10n-name="learnMore">Μάθετε περισσότερα</a>
 cancellationSurvey = Βοηθήστε μας να βελτιώσουμε τις υπηρεσίες μας λαμβάνοντας μέρος σε αυτήν τη <a data-l10n-name="cancellationSurveyUrl">σύντομη έρευνα</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
@@ -370,6 +379,10 @@ passwordResetAccountRecovery-information = Σας αποσυνδέσαμε απ�
 passwordResetAccountRecovery-information-txt = Σας αποσυνδέσαμε από όλες τις συγχρονισμένες συσκευές σας. Δημιουργήσαμε ένα νέο κλειδί ανάκτησης λογαριασμού για να αντικαταστήσουμε αυτό που χρησιμοποιήσατε. Μπορείτε να το αλλάξετε στις ρυθμίσεις του λογαριασμού σας:
 passwordResetAccountRecovery-action-4 = Διαχείριση λογαριασμού
 passwordResetRecoveryPhone-subject = Χρησιμοποιήθηκε τηλέφωνο ανάκτησης
+passwordResetRecoveryPhone-preview = Βεβαιωθείτε ότι ήσασταν εσείς
+passwordResetRecoveryPhone-title = Το τηλέφωνο ανάκτησής σας χρησιμοποιήθηκε για την επιβεβαίωση μιας επαναφοράς του κωδικού πρόσβασης
+passwordResetRecoveryPhone-device = Χρησιμοποιήθηκε τηλέφωνο ανάκτησης από:
+passwordResetRecoveryPhone-action = Διαχείριση λογαριασμού
 passwordResetWithRecoveryKeyPrompt-subject = Έγινε επαναφορά του κωδικού πρόσβασής σας
 passwordResetWithRecoveryKeyPrompt-title = Έγινε επαναφορά του κωδικού πρόσβασής σας
 # Details of the device and date/time where the password was reset
@@ -424,11 +437,13 @@ postChangeRecoveryPhone-preview = Ο λογαριασμός προστατεύε
 postChangeRecoveryPhone-title = Αλλάξατε το τηλέφωνο ανάκτησής σας
 postChangeRecoveryPhone-description = Έχετε πλέον ένα νέο τηλέφωνο ανάκτησης. Ο προηγούμενος αριθμός τηλεφώνου σας διαγράφηκε.
 postChangeRecoveryPhone-requested-device = Το ζητήσατε από το:
+postConsumeRecoveryCode-title-3 = Ο εφεδρικός κωδικός ταυτοποίησής σας χρησιμοποιήθηκε για την επιβεβαίωση μιας επαναφοράς του κωδικού πρόσβασης
 # After the colon, there is description of the device that the backup authentication code was used on
 # E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
 postConsumeRecoveryCode-description-3 = Χρησιμοποιήθηκε κωδικός από:
 postConsumeRecoveryCode-action = Διαχείριση λογαριασμού
 postConsumeRecoveryCode-subject-v3 = Χρησιμοποιήθηκε εφεδρικός κωδικός ταυτοποίησης
+postConsumeRecoveryCode-preview = Βεβαιωθείτε ότι ήσασταν εσείς
 postNewRecoveryCodes-subject-2 = Δημιουργήθηκαν νέοι εφεδρικοί κωδικοί ταυτοποίησης
 postNewRecoveryCodes-title-2 = Δημιουργήσατε νέους εφεδρικούς κωδικούς ταυτοποίησης
 # After the colon, there is information about the device that the authentication codes were created on

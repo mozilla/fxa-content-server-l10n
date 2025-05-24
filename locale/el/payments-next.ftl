@@ -225,3 +225,4 @@ upgrade-purchase-details-new-plan-weekly = { $productName } (Εβδομαδια�
 upgrade-purchase-details-new-plan-monthly = { $productName } (Μηνιαία)
 upgrade-purchase-details-new-plan-halfyearly = { $productName } (εξαμηνιαίο)
 upgrade-purchase-details-new-plan-yearly = { $productName } (Ετησίως)
+upgrade-purchase-details-prorated-credits = Το αρνητικό υπόλοιπο που εμφανίζεται θα πιστωθεί στον λογαριασμό σας και θα χρησιμοποιηθεί σε μελλοντικά παραστατικά.
