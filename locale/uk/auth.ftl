@@ -104,10 +104,10 @@ ios-download-plaintext = Завантажити { $productName } з App Store:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 another-device-plaintext = Установити { $productName } на інший пристрій:
-automated-email-change-2 = Якщо ви цього не робили, негайно <a data-l10n-name="passwordChangeLink">змініть свій пароль</a>.
+automated-email-change-2 = Якщо це були не ви, негайно <a data-l10n-name="passwordChangeLink">змініть свій пароль</a>.
 automated-email-support = Щоб дізнатися більше, відвідайте <a data-l10n-name="supportLink">підтримку { -brand-mozilla }</a>.
 # After the colon, there's a link to https://accounts.firefox.com/settings/change_password
-automated-email-change-plaintext-2 = Якщо ви цього не робили, негайно змініть пароль:
+automated-email-change-plaintext-2 = Якщо це були не ви, негайно змініть свій пароль:
 #  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-support-plaintext = Для отримання додаткової інформації відвідайте підтримку { -brand-mozilla }:
 automated-email-inactive-account = Це автоматичний електронний лист. Ви отримуєте його, тому що маєте { -product-mozilla-account }, до якого не входили вже 2 роки.

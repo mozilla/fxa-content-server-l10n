@@ -1691,7 +1691,7 @@ signin-push-code-confirm-link-error = Посилання пошкоджено. �
 
 signin-recovery-method-header = Увійти
 signin-recovery-method-subheader = Виберіть спосіб відновлення
-signin-recovery-method-details = Переконаймося, що ви використовуєте свої способи відновлення.
+signin-recovery-method-details = Переконаймося, що це ви використовуєте свої способи відновлення.
 signin-recovery-method-phone = Телефон для відновлення
 signin-recovery-method-code-v2 = Резервні коди автентифікації
 # Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
