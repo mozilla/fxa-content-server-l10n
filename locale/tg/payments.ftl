@@ -267,6 +267,12 @@ plan-price-interval-year =
 # App error dialog
 general-error-heading = Хатои умумии барнома
 basic-error-message = Чизе нодуруст иҷро шуд. Лутфан, баъдтар аз нав кӯшиш кунед.
+product-plan-error =
+    .title = Мушкилии боркунии нақшаҳо
+product-profile-error =
+    .title = Мушкилии боркунии профил
+product-customer-error =
+    .title = Мушкилии боркунии муштарӣ
 product-plan-not-found = Нақша ёфт нашуд
 product-location-unsupported-error = Ҷойгиршавӣ дастгирӣ намешавад
 
@@ -275,6 +281,8 @@ product-location-unsupported-error = Ҷойгиршавӣ дастгирӣ на�
 
 ## Routes - Checkout - New user
 
+new-user-step-1-2 = 1. «{ -product-mozilla-account }»-ро эҷод кунед
+new-user-card-title = Маълумоти корти худро ворид кунед
 new-user-submit = Ҳозир обуна шавед
 
 ## Routes - Product and Subscriptions
@@ -285,17 +293,23 @@ sub-update-payment-title = Маълумоти пардохт
 ## Used in both Routes - Checkout and Product/SubscriptionCreate
 
 pay-with-heading-card-only = Бо корт пардохт кунед
+product-invoice-preview-error-title = Мушкилии боркунии пешнамоиши санади дархости пардохт
+product-invoice-preview-error-text = Пешнамоиши санади дархости пардохт бор карда нашуд
 
 ## Routes - Product - IapRoadblock
 
+subscription-iaperrorupgrade-title = Айни ҳол мо ҳисоби шуморо такмил дода наметавонем
 
 # The following are not terms because they are not used directly in messages,
 # but rather looked up in code and passed into the message as variables.
 
+brand-name-google-play-2 = Дукони «{ -google-play }»
 brand-name-apple-app-store-2 = { -app-store }
 
 ## Routes - Product - Subscription upgrade
 
+product-plan-change-heading = Тағйироти худро аз назар гузаронед
+sub-change-failed = Ивази нақша иҷро нашуд
 sub-change-submit = Тағйиротро тасдиқ кунед
 sub-update-current-plan-label = Нақшаи ҷорӣ
 sub-update-new-plan-label = Нақшаи нав
@@ -319,9 +333,12 @@ sub-item-cancel-sub = Бекор кардани обуна
 
 ## Routes - Subscription
 
+sub-route-idx-contact = Дастаи дастгирии корбарон
 
 ## Routes - Subscriptions - Errors
 
+sub-invoice-error =
+    .title = Мушкилии боркунии санадҳои дархости пардохт
 
 ## Routes - Subscription - ActionButton
 

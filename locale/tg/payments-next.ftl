@@ -1,5 +1,6 @@
 ## Page
 
+checkout-signin-or-create = 1. Ворид шавед ё «{ -product-mozilla-account }»-ро эҷод намоед
 # This string appears as a separation between the two sign-in options, "Enter your email"(signin-form-email-input) "or"(this string) "Continue with Google"(continue-signin-with-google-button) / "Continue with Apple"(continue-signin-with-apple-button)
 checkout-signin-options-or = ё
 
@@ -14,6 +15,7 @@ checkout-error-boundary-retry-button = Аз нав кӯшиш кардан
 next-payment-error-manage-subscription-button = Идоракунии обунаи ман
 next-payment-error-retry-button = Аз нав кӯшиш кардан
 next-basic-error-message = Чизе нодуруст иҷро шуд. Лутфан, баъдтар аз нав кӯшиш кунед.
+checkout-error-contact-support-button = Дастаи дастгирии корбарон
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
