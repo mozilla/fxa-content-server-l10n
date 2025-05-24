@@ -268,6 +268,8 @@ inactiveAccountFirstWarning-action = Барои нигоҳ доштани ҳис
 inactiveAccountFirstWarning-preview = Барои нигоҳ доштани ҳисоби худ ворид шавед
 # followed by link to sign in
 inactiveAccountFirstWarning-action-plaintext = Барои нигоҳ доштани ҳисоби худ ворид шавед:
+inactiveAccountSecondWarning-subject = Амал диққати шуморо талаб мекунад: Ҳисоб пас аз 7 рӯз нест карда мешавад
+inactiveAccountSecondWarning-title = Ҳисоб ва маълумоти шахсии шумо дар «{ -brand-mozilla }» пас аз 7 рӯз нест карда мешавад
 inactiveAccountSecondWarning-action = Барои нигоҳ доштани ҳисоби худ ворид шавед
 inactiveAccountSecondWarning-preview = Барои нигоҳ доштани ҳисоби худ ворид шавед
 # followed by link to sign in
@@ -440,6 +442,7 @@ subscriptionRenewalReminder-content-closing = Бо эҳтиром,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = Дастаи «{ $productName }»
+subscriptionReplaced-content-no-action = Аз ҷониби шумо ягон амал талаб карда намешавад.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-subject = Пардохт барои «{ $productName }» қабул шуд

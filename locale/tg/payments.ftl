@@ -38,6 +38,7 @@ new-user-confirm-email =
     .label = Почтаи электронии худро тасдиқ кунед
 new-user-email-validate = Нишонии почтаи электронӣ эътибор надорад
 new-user-email-validate-confirm = Нишониҳои почтаи электронӣ мувофиқат намекунанд
+new-user-already-has-account-sign-in = Шумо аллакай ҳисоб доред. <a>Ворид шавед</a>
 
 ## Component - PaymentConfirmation
 
