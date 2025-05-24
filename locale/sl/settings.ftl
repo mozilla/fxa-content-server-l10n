@@ -1618,9 +1618,9 @@ password-reset-recovery-method-code = Rezervne overitvene kode
 # Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
 password-reset-recovery-method-code-info =
     { $numBackupCodes ->
-        [one] { $numBackupCodes } preostali kode
-        [two] { $numBackupCodes } preostalih kod
-        [few] { $numBackupCodes } preostalih kod
+        [one] { $numBackupCodes } preostala koda
+        [two] { $numBackupCodes } preostali kodi
+        [few] { $numBackupCodes } preostale kode
        *[other] { $numBackupCodes } preostalih kod
     }
 # Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
