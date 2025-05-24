@@ -398,6 +398,9 @@ account-recovery-notification-cta = Crear
 account-recovery-notification-header-value = Non perde tu datos si tu oblida tu contrasigno
 account-recovery-notification-header-description = Crea un clave de recuperation del conto proque tu pote restaurar le datos de navigation synchronisate si tu oblida tu contrasigno.
 recovery-phone-promo-cta = Adder telephono de recuperation
+recovery-phone-promo-heading = Adde extra protection a tu conto con un telephono de recuperation
+recovery-phone-promo-description = Ora tu pote acceder con un contrasigno monouso via SMS si tu non pote usar tu app de authentication a duo passos.
+recovery-phone-promo-info-link = Pro saper plus re le risco de recuperation e mutar SIM
 promo-banner-dismiss-button =
     .aria-label = Dimitter le bandiera
 

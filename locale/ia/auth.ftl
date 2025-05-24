@@ -378,6 +378,7 @@ passwordResetAccountRecovery-information-txt = Nos te disconnecteva de tote le t
 passwordResetAccountRecovery-action-4 = Gerer le conto
 passwordResetRecoveryPhone-subject = Telephono de recuperation usate
 passwordResetRecoveryPhone-preview = Verifica que iste era tu
+passwordResetRecoveryPhone-title = Tu telephono de recuperation era usate pro confirmar un reinitialisation de contrasigno
 passwordResetRecoveryPhone-device = Telephono de recuperation usate per:
 passwordResetRecoveryPhone-action = Gerer le conto
 passwordResetWithRecoveryKeyPrompt-subject = Tu contrasigno ha essite remontate
