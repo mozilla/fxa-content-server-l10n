@@ -339,6 +339,8 @@ sub-route-idx-contact = Дастаи дастгирии корбарон
 
 sub-invoice-error =
     .title = Мушкилии боркунии санадҳои дархости пардохт
+sub-invoice-previews-error-title = Мушкилии боркунии пешнамоиши санадҳои дархости пардохт
+sub-invoice-previews-error-text = Пешнамоиши санадҳои дархости пардохт бор карда нашуд
 
 ## Routes - Subscription - ActionButton
 
@@ -356,6 +358,8 @@ pay-update-manage-btn = Идора кардан
 
 # $expirationDate (Date) - The payment card's expiration date.
 
+sub-route-idx-updating = Дар ҳоли навсозии маълумоти санади ҳисоббарорӣ…
+sub-route-payment-modal-heading = Маълумоти санади ҳисоббарорӣ беэътибор аст
 
 ## Routes - Subscription - SubscriptionItem
 
@@ -366,6 +370,7 @@ pay-update-manage-btn = Идора кардан
 ## Routes - Subscriptions - Reactivate
 ## $name (String) - The name of the subscribed product.
 
+reactivate-confirm-button = Аз нав обуна шавед
 
 ## $date (Date) - Last day of product access
 

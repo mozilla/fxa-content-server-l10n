@@ -444,6 +444,8 @@ flow-recovery-key-confirm-pwd-submit-button-change-key = Эҷод кардани
 ## This screen displays the generated key and allows users to download or copy the key
 
 flow-recovery-key-download-heading-v2 = Калиди барқарорсозии ҳисоб эҷод шудааст — Онро ҳозир боргирӣ карда, нигоҳ доред
+# This link allows user to proceed to the next step without clicking the download button
+flow-recovery-key-download-next-link-v2 = Бе боргирӣ идома диҳед
 
 ## FlowRecoveryKeyHint
 ## This is the fourth and final step in the account recovery key creation flow in account settings
@@ -770,6 +772,8 @@ tfa-row-disable-modal-confirm = Ғайрифаъол кардан
 # Firefox account login appears on top, and third party options appear on bottom. 
 # This string appears as a separation between the two, in the following order: "Enter your password" "Or"(this string) "Continue with Google"(continue-with-google-button) / "Continue with Apple"(continue-with-apple-button)
 third-party-auth-options-or = ё
+continue-with-google-button = Бо «{ -brand-google }» идома диҳед
+continue-with-apple-button = Бо «{ -brand-apple }» идома диҳед
 
 ## Auth-server based errors that originate from backend service
 

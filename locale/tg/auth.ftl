@@ -442,6 +442,7 @@ subscriptionRenewalReminder-content-closing = Бо эҳтиром,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = Дастаи «{ $productName }»
+subscriptionReplaced-title = Обунаи шумо навсозӣ карда шуд
 subscriptionReplaced-content-no-action = Аз ҷониби шумо ягон амал талаб карда намешавад.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN

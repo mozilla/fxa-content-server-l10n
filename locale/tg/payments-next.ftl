@@ -3,6 +3,8 @@
 checkout-signin-or-create = 1. Ворид шавед ё «{ -product-mozilla-account }»-ро эҷод намоед
 # This string appears as a separation between the two sign-in options, "Enter your email"(signin-form-email-input) "or"(this string) "Continue with Google"(continue-signin-with-google-button) / "Continue with Apple"(continue-signin-with-apple-button)
 checkout-signin-options-or = ё
+continue-signin-with-google-button = Бо «{ -brand-google }» идома диҳед
+continue-signin-with-apple-button = Бо «{ -brand-apple }» идома диҳед
 
 ## Page - Upgrade page
 
