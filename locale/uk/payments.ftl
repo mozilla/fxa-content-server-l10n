@@ -462,6 +462,7 @@ sub-update-new-plan-daily = { $productName } (щодня)
 sub-update-new-plan-weekly = { $productName } (щотижня)
 sub-update-new-plan-monthly = { $productName } (щомісяця)
 sub-update-new-plan-yearly = { $productName } (щороку)
+sub-update-prorated-upgrade-credit = Зазначений негативний баланс буде зараховано на ваш обліковий запис у вигляді кредитів, які буде використано для оплати майбутніх рахунків.
 
 ## Routes - Subscriptions - Cancel
 
@@ -487,6 +488,7 @@ sub-item-cancel-confirm = Скасувати мій доступ до { $name } 
 # Cybersecurity Awareness Month 2023 coupon applied: $11.20 + $0.35 tax
 # Summer Promo VPN coupon applied: $11.20
 sub-promo-coupon-applied = Застосовано купон { $promotion_name }: <priceDetails></priceDetails>
+subscription-management-account-credit-balance = Цей платіж за передплату призвів до утворення кредитів на балансі вашого облікового запису: <priceDetails></priceDetails>
 
 ## Routes - Subscription
 

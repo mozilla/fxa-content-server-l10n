@@ -397,6 +397,12 @@ password-strength-inline-confirmed-must-match = Підтвердження ві�
 account-recovery-notification-cta = Створити
 account-recovery-notification-header-value = Не втратьте свої дані, якщо забудете пароль
 account-recovery-notification-header-description = Створіть ключ відновлення облікового запису для можливості відновлення синхронізованих даних перегляду в разі втрати пароля.
+recovery-phone-promo-cta = Додати телефон для відновлення
+recovery-phone-promo-heading = Посильте захист свого облікового запису за допомогою телефона для відновлення
+recovery-phone-promo-description = Тепер ви можете увійти за допомогою одноразового пароля з SMS, якщо не зможете скористатися програмою автентифікації.
+recovery-phone-promo-info-link = Дізнайтеся більше про відновлення і ризик заміни SIM-карти
+promo-banner-dismiss-button =
+    .aria-label = Відхилити банер
 
 ## Ready component
 
@@ -1606,6 +1612,22 @@ reset-password-confirmed-cta = Продовжити в { $serviceName }
 
 # password, and they previously had set up an account recovery method.
 
+password-reset-recovery-method-header = Скинути пароль
+password-reset-recovery-method-subheader = Виберіть спосіб відновлення
+# This is displayed to the user when they are choosing an alternative method to authenticate themself in the password reset process when they do not have access to their two-factor authenticator application
+password-reset-recovery-method-details = Переконаймося, що це ви використовуєте свої способи відновлення.
+password-reset-recovery-method-phone = Телефон для відновлення
+password-reset-recovery-method-code = Резервні коди автентифікації
+# Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
+password-reset-recovery-method-code-info =
+    { $numBackupCodes ->
+        [one] Залишився { $numBackupCodes } код
+        [few] Залишилося { $numBackupCodes } коди
+       *[many] Залишилося { $numBackupCodes } кодів
+    }
+# Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
+password-reset-recovery-method-send-code-error-heading = Під час надсилання коду на ваш телефон для відновлення виникла проблема
+password-reset-recovery-method-send-code-error-description = Повторіть спробу пізніше або скористайтеся резервними кодами автентифікації.
 reset-password-with-recovery-key-verified-page-title = Пароль успішно відновлено
 reset-password-complete-new-password-saved = Новий пароль збережено!
 reset-password-complete-recovery-key-created = Створено новий ключ відновлення облікового запису. Завантажте та збережіть його зараз.

@@ -160,6 +160,15 @@ automated-email-reset =
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext-v2 = Якщо ви не дозволяли цю дію, скиньте свій пароль зараз за цим посиланням { $resetLink }
+# This message is used by multiple automated emails that notify users of security events on their account
+# "this action" is meant to be a generic term, and could, for example, refer to using a backup authentication code to confirm a password reset
+automated-email-reset-pwd-two-factor =
+    Якщо це були не ви, негайно <a data-l10n-name="resetLink">скиньте свій пароль</a> і <a data-l10n-name="twoFactorSettingsLink">скиньте двоетапну перевірку</a>.
+    Для отримання додаткової інформації відвідайте <a data-l10n-name="supportLink">Службу підтримки { -brand-mozilla }</a>.
+# Followed by link to https://accounts.firefox.com/reset_password
+automated-email-reset-pwd-plaintext-v3 = Якщо це були не ви, негайно змініть пароль:
+# Followed by link to https://accounts.firefox.com/settings#two-step-authentication
+automated-email-reset-two-factor-plaintext = Також скиньте двоетапну перевірку:
 brand-banner-message = Чи знаєте ви, що ми змінили назву з { -product-firefox-accounts } на { -product-mozilla-accounts(capitalization: "upper") }? <a data-l10n-name="learnMore">Докладніше</a>
 cancellationSurvey = Будь ласка, допоможіть вдосконалити наші послуги, долучившись до цього <a data-l10n-name="cancellationSurveyUrl">простого опитування</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
@@ -368,6 +377,11 @@ passwordResetAccountRecovery-information = Ви вийшли з усіх ваш�
 # After the colon there is a link to account settings
 passwordResetAccountRecovery-information-txt = Ви вийшли з усіх ваших синхронізованих пристроїв. Ми створили новий ключ відновлення облікового запису замість використаного. Ви можете змінити його в налаштуваннях облікового запису.
 passwordResetAccountRecovery-action-4 = Керувати обліковим записом
+passwordResetRecoveryPhone-subject = Використано телефон для відновлення
+passwordResetRecoveryPhone-preview = Підтвердьте, що це були ви
+passwordResetRecoveryPhone-title = Ваш телефон для відновлення використано для підтвердження скидання пароля
+passwordResetRecoveryPhone-device = Використано телефон для відновлення:
+passwordResetRecoveryPhone-action = Керування обліковим записом
 passwordResetWithRecoveryKeyPrompt-subject = Ваш пароль було скинуто
 passwordResetWithRecoveryKeyPrompt-title = Ваш пароль було скинуто
 # Details of the device and date/time where the password was reset
@@ -422,7 +436,13 @@ postChangeRecoveryPhone-preview = Обліковий запис захищено
 postChangeRecoveryPhone-title = Ви змінили телефон для відновлення
 postChangeRecoveryPhone-description = Тепер у вас є новий телефон для відновлення. Ваш попередній номер телефону видалено.
 postChangeRecoveryPhone-requested-device = Ви зробили запит з:
+postConsumeRecoveryCode-title-3 = Ваш резервний код автентифікації використано для підтвердження скидання пароля
+# After the colon, there is description of the device that the backup authentication code was used on
+# E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
+postConsumeRecoveryCode-description-3 = Використано код:
 postConsumeRecoveryCode-action = Керування обліковим записом
+postConsumeRecoveryCode-subject-v3 = Використано резервний код автентифікації
+postConsumeRecoveryCode-preview = Підтвердьте, що це були ви
 postNewRecoveryCodes-subject-2 = Створено нові резервні коди автентифікації
 postNewRecoveryCodes-title-2 = Ви створили нові резервні коди автентифікації
 # After the colon, there is information about the device that the authentication codes were created on

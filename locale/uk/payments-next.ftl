@@ -225,3 +225,4 @@ upgrade-purchase-details-new-plan-weekly = { $productName } (щотижня)
 upgrade-purchase-details-new-plan-monthly = { $productName } (щомісяця)
 upgrade-purchase-details-new-plan-halfyearly = { $productName } (кожні 6 місяців)
 upgrade-purchase-details-new-plan-yearly = { $productName } (щороку)
+upgrade-purchase-details-prorated-credits = Зазначений негативний баланс буде зараховано на ваш обліковий запис у вигляді кредитів, які буде використано для оплати майбутніх рахунків.
