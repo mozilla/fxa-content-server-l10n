@@ -49,6 +49,9 @@ next-payment-confirmation-download-button = Nastavi s preuzimanjem
 
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Kartica završava s { $last4 }
+# Page - Not Found
+page-not-found-title = Stranica nije pronađena
+page-not-found-back-button = Idi natrag
 
 ## Component - Payment Consent Checkbox
 
@@ -77,6 +80,20 @@ next-coupon-submit = Primijeni
 
 # Component - Header
 
+payments-header-help =
+    .title = Pomoć
+    .aria-label = Pomoć
+    .alt = Pomoć
+payments-header-bento =
+    .title = { -brand-mozilla } proizvodi
+    .aria-label = { -brand-mozilla } proizvodi
+    .alt = { -brand-mozilla } logotip
+payments-header-bento-close =
+    .alt = Zatvori
+payments-header-bento-monitor = { -product-mozilla-monitor }
+payments-header-bento-firefox-relay = { -product-firefox-relay }
+payments-header-bento-vpn = { -product-mozilla-vpn }
+payments-header-bento-pocket = { -product-pocket }
 payments-client-loading-spinner =
     .aria-label = Učitavanje …
     .alt = Učitavanje …
@@ -155,3 +172,6 @@ next-terms-download = Uvjeti preuzimanja
 ## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
 
+upgrade-purchase-details-new-plan-daily = { $productName } (dnevno)
+upgrade-purchase-details-new-plan-weekly = { $productName } (tjedno)
+upgrade-purchase-details-new-plan-monthly = { $productName } (mjesečno)

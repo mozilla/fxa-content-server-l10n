@@ -392,6 +392,8 @@ password-strength-inline-confirmed-must-match = Potvrda odgovara novoj lozinci
 ## Notification Promo Banner component
 
 account-recovery-notification-cta = Stvori
+promo-banner-dismiss-button =
+    .aria-label = Ukloni natpis
 
 ## Ready component
 
