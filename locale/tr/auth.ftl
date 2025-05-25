@@ -368,6 +368,9 @@ passwordResetAccountRecovery-information = Eşitlenen tüm cihazlarınızdaki ot
 # After the colon there is a link to account settings
 passwordResetAccountRecovery-information-txt = Eşitlenen tüm cihazlarınızdaki oturumlarınızı kapattık. Biraz önce kullandığınız hesap kurtarma anahtarının yerine yeni bir tane oluşturduk. Hesap ayarlarınızdan değiştirebilirsiniz:
 passwordResetAccountRecovery-action-4 = Hesabı yönet
+passwordResetRecoveryPhone-subject = Kurtarma telefonu kullanıldı
+passwordResetRecoveryPhone-title = Parola sıfırlamayı onaylamak için kurtarma telefonunuz kullanıldı
+passwordResetRecoveryPhone-action = Hesabı yönet
 passwordResetWithRecoveryKeyPrompt-subject = Parolanız sıfırlandı
 passwordResetWithRecoveryKeyPrompt-title = Parolanız sıfırlandı
 # Details of the device and date/time where the password was reset

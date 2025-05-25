@@ -397,6 +397,10 @@ password-strength-inline-confirmed-must-match = Onay yeni parola ile eşleşiyor
 account-recovery-notification-cta = Oluştur
 account-recovery-notification-header-value = Parolanızı unutursanız verileriniz kaybolmasın
 account-recovery-notification-header-description = Parolanızı unutursanız eşitlenmiş gezinti verilerinizi kurtarmak için bir hesap kurtarma anahtarı oluşturun.
+recovery-phone-promo-cta = Kurtarma telefonu ekleyin
+recovery-phone-promo-heading = Kurtarma telefonuyla hesabınıza ekstra koruma ekleyin
+promo-banner-dismiss-button =
+    .aria-label = Bildirimi kapat
 
 ## Ready component
 
@@ -1588,6 +1592,21 @@ reset-password-confirmed-cta = { $serviceName } hizmetine devam et
 
 # password, and they previously had set up an account recovery method.
 
+password-reset-recovery-method-header = Parolanızı sıfırlayın
+password-reset-recovery-method-subheader = Bir kurtarma yöntemi seçin
+# This is displayed to the user when they are choosing an alternative method to authenticate themself in the password reset process when they do not have access to their two-factor authenticator application
+password-reset-recovery-method-details = Kurtarma yöntemlerinizi kullanan kişinin siz olduğunuzdan emin olmamız gerekiyor.
+password-reset-recovery-method-phone = Kurtarma telefonu
+password-reset-recovery-method-code = Yedek kimlik doğrulama kodları
+# Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
+password-reset-recovery-method-code-info =
+    { $numBackupCodes ->
+        [one] { $numBackupCodes } kod kaldı
+       *[other] { $numBackupCodes } kod kaldı
+    }
+# Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
+password-reset-recovery-method-send-code-error-heading = Kurtarma telefonunuza kod gönderilirken bir sorun oluştu
+password-reset-recovery-method-send-code-error-description = Lütfen daha sonra yeniden deneyin veya yedek kimlik doğrulama kodlarınızı kullanın.
 reset-password-with-recovery-key-verified-page-title = Parola başarıyla sıfırlandı
 reset-password-complete-new-password-saved = Yeni parola kaydedildi!
 reset-password-complete-recovery-key-created = Yeni hesap kurtarma anahtarı oluşturuldu. Hemen indirip saklayın.
