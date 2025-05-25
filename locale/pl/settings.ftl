@@ -1602,6 +1602,7 @@ reset-password-confirmed-cta = Przejdź do usługi { $serviceName }
 
 # password, and they previously had set up an account recovery method.
 
+password-reset-recovery-method-phone = Telefon odzyskiwania
 reset-password-with-recovery-key-verified-page-title = Pomyślnie zmieniono hasło
 reset-password-complete-new-password-saved = Zachowano nowe hasło
 reset-password-complete-recovery-key-created = Utworzono nowy klucz odzyskiwania konta. Teraz pobierz go i zachowaj.

@@ -373,6 +373,7 @@ passwordResetAccountRecovery-information = Wylogowaliśmy Cię ze wszystkich syn
 # After the colon there is a link to account settings
 passwordResetAccountRecovery-information-txt = Wylogowaliśmy Cię ze wszystkich synchronizowanych urządzeń. Utworzyliśmy nowy klucz odzyskiwania konta, aby zastąpić ten zużyty. Można go zmienić w ustawieniach konta:
 passwordResetAccountRecovery-action-4 = Zarządzaj kontem
+passwordResetRecoveryPhone-subject = Użyto telefon odzyskiwania
 passwordResetWithRecoveryKeyPrompt-subject = Zmieniono hasło
 passwordResetWithRecoveryKeyPrompt-title = Zmieniono hasło
 # Details of the device and date/time where the password was reset
