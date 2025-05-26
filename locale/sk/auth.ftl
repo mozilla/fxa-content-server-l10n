@@ -159,7 +159,9 @@ automated-email-reset =
     Ďalšie informácie nájdete na stránkach <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
-automated-email-reset-plaintext-v2 = Ak ste túto akciu nepovolili, obnovte svoje heslo teraz na stránke { $resetLink }
+automated-email-reset-plaintext-v2 = Ak ste túto akciu nepovolili, urýchlene si zmeňte svoje heslo na stránke { $resetLink }
+# Followed by link to https://accounts.firefox.com/reset_password
+automated-email-reset-pwd-plaintext-v3 = Ak ste túto akciu nevykonali, ihneď si zmeňte heslo na adrese:
 brand-banner-message = Vedeli ste, že sme zmenili názov z { -product-firefox-accounts(case: "gen") } na { -product-mozilla-accounts(case: "acc") }? <a data-l10n-name="learnMore">Ďalšie informácie</a>
 cancellationSurvey = Vyplňte, prosím, tento <a data-l10n-name="cancellationSurveyUrl">krátky prieskum</a> a pomôžte nám zlepšiť naše služby.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
@@ -356,12 +358,12 @@ password-forgot-otp-title = Zabudli ste heslo?
 password-forgot-otp-request = Dostali sme žiadosť o zmenu hesla k vášmu { -product-mozilla-account(capitalization: "lower", case: "dat") } z:
 password-forgot-otp-code-2 = Ak ste to boli vy, tu je váš potvrdzovací kód, aby ste mohli pokračovať:
 password-forgot-otp-expiry-notice = Platnosť tohto kódu vyprší o 10 minút.
-passwordReset-subject-2 = Vaše heslo bolo obnovené
-passwordReset-title-2 = Vaše heslo bolo obnovené
+passwordReset-subject-2 = Vaše heslo bolo zmenené
+passwordReset-title-2 = Vaše heslo bolo zmenené
 # This sentence is followed by information about the device and time of the password reset
-passwordReset-description-2 = Heslo k { -product-mozilla-account(case: "dat", capitalization: "lower") } ste obnovili na:
-passwordResetAccountRecovery-subject-2 = Vaše heslo bolo obnovené
-passwordResetAccountRecovery-title-3 = Vaše heslo bolo obnovené
+passwordReset-description-2 = Heslo k { -product-mozilla-account(case: "dat", capitalization: "lower") } ste zmenili na:
+passwordResetAccountRecovery-subject-2 = Vaše heslo bolo zmenené
+passwordResetAccountRecovery-title-3 = Vaše heslo bolo zmenené
 # Followed by details on the device and date/time of the password reset.
 passwordResetAccountRecovery-description-3 = Použili ste kľúč na obnovenie účtu na obnovenie hesla { -product-mozilla-account(case: "dat", capitalization: "lower") } na:
 passwordResetAccountRecovery-information = Odhlásili sme vás zo všetkých vašich synchronizovaných zariadení. Vytvorili sme nový kľúč na obnovenie účtu, ktorý nahradí ten, ktorý ste používali. Môžete ho zmeniť v nastaveniach účtu.

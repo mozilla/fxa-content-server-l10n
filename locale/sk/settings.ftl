@@ -1572,9 +1572,9 @@ confirm-reset-password-otp-different-account-link = Použiť iný účet
 
 ## PasswordResetConfirmTotp Page
 
-confirm-totp-reset-password-header = Obnovenie hesla
+confirm-totp-reset-password-header = Zmena hesla
 confirm-totp-reset-password-subheader-v2 = Zadajte kód pre dvojstupňové overenie
-confirm-totp-reset-password-instruction-v2 = Ak chcete obnoviť heslo, skontrolujte <strong>overovaciu aplikáciu</strong>.
+confirm-totp-reset-password-instruction-v2 = Ak chcete zmeniť heslo, skontrolujte <strong>overovaciu aplikáciu</strong>.
 confirm-totp-reset-password-trouble-code = Máte problémy so zadaním kódu?
 confirm-totp-reset-password-confirm-button = Potvrdiť
 confirm-totp-reset-password-input-label-v2 = Zadajte šesťmiestny kód
@@ -1582,7 +1582,7 @@ confirm-totp-reset-password-use-different-account = Použiť iný účet
 
 ## ResetPassword start page
 
-password-reset-flow-heading = Obnovenie hesla
+password-reset-flow-heading = Zmena hesla
 password-reset-body-2 = Požiadame vás o niekoľko vecí, ktoré viete iba vy, aby ste si ponechali svoj účet v bezpečí.
 password-reset-email-input =
     .label = Zadajte svoju e‑mailovú adresu
@@ -1590,7 +1590,7 @@ password-reset-submit-button-2 = Pokračovať
 
 ## ResetPasswordConfirmed
 
-reset-password-complete-header = Vaše heslo bolo obnovené
+reset-password-complete-header = Vaše heslo bolo zmenené
 # $serviceName is a product name such as Monitor, Pocket, Relay
 reset-password-confirmed-cta = A pokračovať do služby { $serviceName }
 
@@ -1600,7 +1600,8 @@ reset-password-confirmed-cta = A pokračovať do služby { $serviceName }
 
 # password, and they previously had set up an account recovery method.
 
-reset-password-with-recovery-key-verified-page-title = Obnovenie hesla bolo úspešné
+password-reset-recovery-method-header = Zmena hesla
+reset-password-with-recovery-key-verified-page-title = Zmena hesla bolo úspešná
 reset-password-complete-new-password-saved = Nové heslo bolo uložené!
 reset-password-complete-recovery-key-created = Bol vytvorený nový kľúč na obnovenie účtu. Stiahnite si ho a uložte teraz.
 reset-password-complete-recovery-key-download-info =
