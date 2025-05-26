@@ -160,6 +160,11 @@ automated-email-reset =
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext-v2 = Hvis du ikke har godkendt denne handling, så nulstil din adgangskode nu på { $resetLink }
+# This message is used by multiple automated emails that notify users of security events on their account
+# "this action" is meant to be a generic term, and could, for example, refer to using a backup authentication code to confirm a password reset
+automated-email-reset-pwd-two-factor =
+    Hvis du ikke foretog denne handling, så <a data-l10n-name="resetLink">nulstil din adgangskode</a> og <a data-l10n-name="twoFactorSettingsLink">nulstil totrinsgodkendelse</a> med det samme.
+    For mere information, besøg <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
 brand-banner-message = Vidste du, at vi har ændret vores navn fra { -product-firefox-accounts } til { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Læs mere</a>
 cancellationSurvey = Hjælp os med at forbedre vores tjenester ved at deltage i denne <a data-l10n-name="cancellationSurveyUrl">korte undersøgelse</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
@@ -367,6 +372,8 @@ passwordResetAccountRecovery-information = Vi har logget dig ud af alle dine syn
 # After the colon there is a link to account settings
 passwordResetAccountRecovery-information-txt = Vi har logget dig ud af alle dine synkroniserede enheder. Vi har oprettet en ny genoprettelsesnøgle til kontoen til at erstatte den, du brugte. Du kan ændre den i dine kontoindstillinger:
 passwordResetAccountRecovery-action-4 = Håndter konto
+passwordResetRecoveryPhone-subject = Telefonnummer til genoprettelse brugt
+passwordResetRecoveryPhone-preview = Kontroller at det var dig
 passwordResetWithRecoveryKeyPrompt-subject = Din adgangskode er blevet nulstillet
 passwordResetWithRecoveryKeyPrompt-title = Din adgangskode er blevet nulstillet
 # Details of the device and date/time where the password was reset
