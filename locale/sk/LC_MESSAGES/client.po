@@ -2,26 +2,20 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-05 20:09+0000\n"
-"PO-Revision-Date: 2025-02-02 19:44+0000\n"
-"Last-Translator: wladow <valastiak@mozilla.sk>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sk\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Pontoon\n"
-"X-POOTLE-MTIME: 1440878496.0\n"
+"Generated-By: Pontoon\n"
 
 #: .es5/views/confirm_reset_password.js:170
 msgid "Password reset"
-msgstr "Obnova hesla"
+msgstr "Zmena hesla"
 
 #: .es5/views/confirm_reset_password.js:185
 msgid "Password reset successfully. Sign in to continue."
-msgstr "Heslo bolo úspešne obnovené. Môžete sa prihlásiť."
+msgstr "Heslo bolo úspešne zmenené. Môžete sa prihlásiť."
 
 #. submit button
 #: .es5/views/force_auth.js:170 .es5/lib/strings.js:49 .es5/templates/connect_another_device.mustache:16 .es5/templates/force_auth.mustache:3 .es5/templates/sign_in_password.mustache:3
@@ -63,7 +57,7 @@ msgstr "Firefox Sync bude za chvíľu pokračovať v synchronizácii"
 
 #: .es5/views/ready.js:48 .es5/views/ready.js:53
 msgid "Your password has been reset"
-msgstr "Vaše heslo bolo obnovené"
+msgstr "Vaše heslo bolo zmenené"
 
 #: .es5/views/ready.js:49 .es5/views/ready.js:54
 msgid "Complete set-up by entering the new password on your other Firefox devices."
@@ -144,7 +138,7 @@ msgstr "Váš účet bol z bezpečnostných dôvodov uzamknutý"
 
 #: .es5/views/mixins/account-reset-mixin.js:40 .es5/templates/complete_reset_password.mustache:15 .es5/templates/reset_password.mustache:1
 msgid "Reset password"
-msgstr "Obnoviť heslo"
+msgstr "Zmeniť heslo"
 
 #: .es5/views/mixins/last-checked-time-mixin.js:37
 msgid "none"
@@ -284,7 +278,7 @@ msgstr "Alternatívna e‑mailová adresa bola úspešne overená"
 
 #: .es5/models/auth_brokers/web.js:30
 msgid "Password reset successfully"
-msgstr "Heslo bolo úspešne obnovené"
+msgstr "Heslo bolo úspešne zmenené"
 
 #: .es5/lib/auth-errors.js:21 .es5/lib/oauth-errors.js:23 .es5/lib/pairing-channel-client-errors.js:13 .es5/lib/profile-errors.js:57 .es5/lib/profile-errors.js:65
 msgid "Unexpected error"
@@ -533,7 +527,7 @@ msgstr "Tento koncový bod už nie je podporovaný"
 
 #: .es5/lib/auth-errors.js:306
 msgid "Complete account setup, please <a href=\"/reset_password\">reset password</a> to continue."
-msgstr "Dokončite nastavenie účtu. Ak chcete pokračovať, <a href=\"/reset_password\">obnovte heslo</a>."
+msgstr "Dokončite nastavenie účtu. Ak chcete pokračovať, <a href=\"/reset_password\">zmeňte si heslo</a>."
 
 #: .es5/lib/auth-errors.js:314
 msgid "Login attempt cancelled"
@@ -879,11 +873,11 @@ msgstr "Niečo sa pokazilo. Boli sme na to upozornení a čo najskôr začneme p
 
 #: .es5/templates/account_recovery_confirm_key.mustache:1 .es5/templates/complete_reset_password.mustache:1
 msgid "Reset password link expired"
-msgstr "Platnosť odkazu na obnovenie hesla vypršala"
+msgstr "Platnosť odkazu na zmenu hesla vypršala"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:2 .es5/templates/complete_reset_password.mustache:2
 msgid "The link you clicked to reset your password is expired."
-msgstr "Platnosť odkazu, na ktorý ste klikli s cieľom obnoviť heslo, už vypršala."
+msgstr "Platnosť odkazu, na ktorý ste klikli s cieľom zmeniť heslo, už vypršala."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:3 .es5/templates/complete_reset_password.mustache:3
 msgid "Receive new link"
@@ -891,7 +885,7 @@ msgstr "Získať nový odkaz"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:5
 msgid "Reset password with account recovery key"
-msgstr "Obnovte heslo pomocou kľúča na obnovenie účtu"
+msgstr "Zmena hesla pomocou kľúča na obnovenie účtu"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:6 .es5/templates/force_auth.mustache:4 .es5/templates/index.mustache:7 .es5/templates/inline_recovery_setup.mustache:2
 #: .es5/templates/inline_recovery_setup.mustache:13 .es5/templates/inline_totp_setup.mustache:2 .es5/templates/inline_totp_setup.mustache:8 .es5/templates/inline_totp_setup.mustache:11
@@ -906,7 +900,7 @@ msgstr "Zadajte jednorázový kľúč na obnovenie účtu, ktorý ste uložili n
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
 msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
-msgstr "<span class=\"note\">POZNÁMKA:</span> Ak obnovíte svoje heslo a nemáte obnovovací kľúč, niektoré vaše údaje uložené na serveri budú odstránené (napríklad história či záložky)."
+msgstr "<span class=\"note\">POZNÁMKA:</span> Ak zmeníte svoje heslo a nemáte obnovovací kľúč, niektoré vaše údaje uložené na serveri budú odstránené (napríklad história či záložky)."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:9
 msgid "Enter account recovery key"
@@ -934,7 +928,7 @@ msgstr "Toto zariadenie nesynchronizovať"
 
 #: .es5/templates/complete_reset_password.mustache:5
 msgid "Reset password link damaged"
-msgstr "Odkaz na obnovenie hesla je poškodený"
+msgstr "Odkaz na zmenu hesla je poškodený"
 
 #: .es5/templates/complete_reset_password.mustache:6 .es5/templates/complete_sign_up.mustache:12 .es5/templates/report_sign_in.mustache:2
 msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
@@ -949,7 +943,7 @@ msgid ""
 "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
 "your data with your password to protect your privacy. You’ll still keep any subscriptions you may have and Pocket data will not be affected."
 msgstr ""
-"<span>PAMÄTAJTE:</span> Keď obnovíte svoje heslo, obnovíte aj svoj účet. Je možné, že stratíte niektoré údaje (históriu, záložky a heslá). Deje sa tak z toho dôvodu, že vaše údaje šifrujeme vašim "
+"<span>PAMÄTAJTE:</span> Keď zmeníte svoje heslo, obnovíte svoj účet. Je možné, že stratíte niektoré údaje (históriu, záložky a heslá). Deje sa tak z toho dôvodu, že vaše údaje šifrujeme vašim "
 "heslom. Naďalej vám zostane akékoľvek predplatné, ktoré máte, a takisto nebudú ovplyvnené ani údaje služby Pocket."
 
 #: .es5/templates/complete_reset_password.mustache:11
@@ -1024,7 +1018,7 @@ msgstr "Naspäť"
 
 #: .es5/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
-msgstr "E‑mailová správa na obnovu hesla bola odoslaná"
+msgstr "E‑mailová správa na zmenu hesla bola odoslaná"
 
 #: .es5/templates/confirm_reset_password.mustache:2
 msgid "Click the link emailed to %(email)s within the next hour to create a new password."
@@ -1371,7 +1365,7 @@ msgid ""
 "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
 "data with your password to protect your privacy. You’ll still keep any subscriptions you may have and Pocket data will not be affected."
 msgstr ""
-"<span>POZNÁMKA:</span> Keď obnovíte svoje heslo, obnovíte aj svoj účet. Je možné, že stratíte niektoré údaje (históriu, záložky a heslá). Deje sa tak z toho dôvodu, že vaše údaje šifrujeme vašim "
+"<span>POZNÁMKA:</span> Keď zmeníte svoje heslo, obnovíte tým svoj účet. Je možné, že stratíte niektoré údaje (históriu, záložky a heslá). Deje sa tak z toho dôvodu, že vaše údaje šifrujeme vašim "
 "heslom. Naďalej vám zostane akékoľvek predplatné, ktoré máte, a takisto nebudú ovplyvnené ani údaje služby Pocket."
 
 #: .es5/templates/reset_password.mustache:5 .es5/templates/partial/email-autocomplete-domains.mustache:1
@@ -1380,7 +1374,7 @@ msgstr "E‑mailová adresa"
 
 #: .es5/templates/reset_password.mustache:6
 msgid "Begin reset"
-msgstr "Spustiť obnovu"
+msgstr "Spustiť proces zmeny"
 
 #: .es5/templates/security_events.mustache:1
 msgid "Recent Activity"
@@ -1496,7 +1490,7 @@ msgstr "Zopakujte heslo"
 
 #: .es5/templates/sign_up_password.mustache:6 .es5/templates/post_verify/third_party_auth/set_password.mustache:5
 msgid "You need this password to access any encrypted data you store with us.<br class=\"mb-3\">A reset means potentially losing data like passwords and bookmarks."
-msgstr "Toto heslo potrebujete na prístup k šifrovaným údajom, ktoré u nás ukladáte.<br class=\"mb-3\">Obnovenie znamená, že môžete stratiť údaje, ako sú heslá a záložky."
+msgstr "Toto heslo potrebujete na prístup k šifrovaným údajom, ktoré u nás ukladáte.<br class=\"mb-3\">Jeho zmena znamená, že môžete stratiť údaje, ako sú heslá a záložky."
 
 #: .es5/templates/sign_up_password.mustache:7
 msgid "Get more from Mozilla:"

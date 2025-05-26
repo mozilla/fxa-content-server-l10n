@@ -151,7 +151,7 @@ form-reset-password-with-balloon-new-password =
     .label = Nové heslo
 form-reset-password-with-balloon-confirm-password =
     .label = Znova zadajte heslo
-form-reset-password-with-balloon-submit-button = Obnoviť heslo
+form-reset-password-with-balloon-submit-button = Zmeniť heslo
 form-reset-password-with-balloon-match-error = Heslá sa nezhodujú
 form-password-sr-too-short-message = Heslo musí obsahovať aspoň 8 znakov.
 form-password-sr-not-email-message = Heslo nesmie obsahovať vašu e‑mailovú adresu.
@@ -339,7 +339,7 @@ legal-back-button = Naspäť
 
 # The user followed a password reset link that was received by email
 # but the link is damaged (for example mistyped or broken by the email client)
-reset-pwd-link-damaged-header = Odkaz na obnovenie hesla je poškodený
+reset-pwd-link-damaged-header = Odkaz na zmenu hesla je poškodený
 # The user followed a link to signin that was received by email
 # but the link was damaged (for example mistyped or broken by the email client).
 signin-link-damaged-header = Potvrdzovací odkaz je poškodený
@@ -375,7 +375,7 @@ error-bad-request = Nesprávna požiadavka
 ## Balloon displayed next to password input field
 
 password-info-balloon-why-password-info = Toto heslo potrebujete na prístup ku všetkým zašifrovaným údajom, ktoré u nás ukladáte.
-password-info-balloon-reset-risk-info = Vynulovanie znamená možnú stratu údajov, ako sú heslá a záložky.
+password-info-balloon-reset-risk-info = Zmena hesla môže znamenať stratu údajov, ako sú heslá a záložky.
 
 ## PasswordStrengthBalloon component
 
@@ -435,7 +435,7 @@ flow-recovery-key-download-storage-ideas-pwd-manager = Správca hesiel
 flow-recovery-key-hint-header-v2 = Pridajte si pomôcku, ktorá vám pomôže nájsť kľúč
 # This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
 # "it" here refers to the storage hint, NOT the "account recovery key"
-flow-recovery-key-hint-message-v3 = Táto pomôcka by vám mala pomôcť zapamätať si, kde ste uložili kľúč na obnovenie účtu. Zobrazíme vám ju počas procesu obnovenia hesla a vašich údajov.
+flow-recovery-key-hint-message-v3 = Táto pomôcka by vám mala pomôcť zapamätať si, kde ste uložili kľúč na obnovenie účtu. Zobrazíme vám ju počas procesu zmeny hesla a vašich údajov.
 # The label for the text input where the user types in the storage hint they want to save.
 # The storage hint is optional, and users can leave this blank.
 flow-recovery-key-hint-input-v2 =
@@ -458,11 +458,11 @@ password-reset-chevron-expanded = Zbaliť upozornenie
 password-reset-chevron-collapsed = Rozbaliť upozornenie
 password-reset-data-may-not-be-recovered = Údaje vášho prehliadača nemusia byť obnovené
 password-reset-previously-signed-in-device-2 = Máte nejaké zariadenie, na ktorom ste sa predtým prihlásili?
-password-reset-data-may-be-saved-locally-2 = Údaje vášho prehliadača môžu byť uložené v danom zariadení. Obnovte svoje heslo a potom sa prihláste, aby ste obnovili a synchronizovali svoje údaje.
+password-reset-data-may-be-saved-locally-2 = Údaje vášho prehliadača môžu byť uložené v danom zariadení. Zmeňte svoje heslo a potom sa prihláste, aby ste obnovili a synchronizovali svoje údaje.
 password-reset-no-old-device-2 = Máte nové zariadenie, ale nemáte prístup k žiadnemu zo svojich predchádzajúcich?
 password-reset-encrypted-data-cannot-be-recovered-2 = Je nám ľúto, ale vaše šifrované údaje prehliadača na serveroch { -brand-firefox(case: "gen") } nie je možné obnoviť.
 password-reset-warning-have-key = Máte kľúč na obnovenie účtu?
-password-reset-warning-use-key-link = Použite ho teraz na obnovenie hesla a uchovanie údajov
+password-reset-warning-use-key-link = Použite ho teraz na zmenu hesla a uchovanie údajov
 
 ## Alert Bar
 
@@ -820,7 +820,7 @@ recent-activity-account-create-v2 = Účet bol vytvorený
 recent-activity-account-disable-v2 = Účet bol deaktivovaný
 recent-activity-account-enable-v2 = Účet je povolený
 recent-activity-account-login-v2 = Bolo spustené prihlásenie pomocou účtu
-recent-activity-account-reset-v2 = Bolo spustené obnovenie hesla
+recent-activity-account-reset-v2 = Bol spustený proces zmeny hesla
 # This string appears under recent account activity when there were email bounces associated with the account, but those were recently cleared (i.e. removed/deleted).
 # An email bounce is when an email is sent to an email address and fails/receives a non-delivery receipt from the recipient's mail server.
 recent-activity-emails-clearBounces-v2 = E‑maily o nedoručení vymazané
@@ -830,8 +830,8 @@ recent-activity-account-two-factor-requested = Vyžaduje sa dvojstupňové overe
 recent-activity-account-two-factor-failure = Dvojstupňové overenie zlyhalo
 recent-activity-account-two-factor-success = Dvojstupňové overenie bolo úspešné
 recent-activity-account-two-factor-removed = Dvojstupňové overenie bolo odstránené
-recent-activity-account-password-reset-requested = Účet si vyžiadal obnovenie hesla
-recent-activity-account-password-reset-success = Obnovenie hesla účtu bolo úspešné
+recent-activity-account-password-reset-requested = Účet si vyžiadal zmenu hesla
+recent-activity-account-password-reset-success = Zmena hesla účtu bola úspešná
 recent-activity-account-recovery-key-added = Kľúč na obnovenie účtu je povolený
 recent-activity-account-recovery-key-verification-failure = Overenie kľúča na obnovenie účtu zlyhalo
 recent-activity-account-recovery-key-verification-success = Overenie kľúča na obnovenie účtu bolo úspešné
@@ -850,9 +850,9 @@ recent-activity-account-recovery-phone-removed = Obnovenie pomocou telefónu bol
 recent-activity-account-recovery-codes-replaced = Obnovovacie kódy boli vymenené
 recent-activity-account-recovery-codes-created = Boli vytvorené obnovovacie kódy
 recent-activity-account-recovery-codes-signin-complete = Prihláste sa pomocou obnovovacích kódov
-recent-activity-password-reset-otp-sent = Potvrdzovací kód pre obnovenie hesla bol odoslaný
-recent-activity-password-reset-otp-verified = Potvrdzovací kód pre obnovenie hesla bol overený
-recent-activity-must-reset-password = Vyžaduje sa obnovenie hesla
+recent-activity-password-reset-otp-sent = Potvrdzovací kód pre zmenu hesla bol odoslaný
+recent-activity-password-reset-otp-verified = Potvrdzovací kód pre zmenu hesla bol overený
+recent-activity-must-reset-password = Vyžaduje sa zmena hesla
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Iná aktivita účtu
 
