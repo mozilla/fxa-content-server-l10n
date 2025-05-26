@@ -1089,7 +1089,7 @@ rk-content-explain = Získajte prístup k svojim údajom v prípade, že zabudne
 rk-cannot-verify-session-4 = Ľutujeme, pri potvrdení vašej relácie sa vyskytol problém
 rk-remove-modal-heading-1 = Chcete odstrániť kľúč na obnovenie účtu?
 rk-remove-modal-content-1 =
-    V prípade, že si nastavíte nové heslo, nebudete už môcť
+    V prípade, že si zmeníte heslo, nebudete už môcť
     použiť kľúč na obnovenie účtu na prístup k vašim údajom.
     Túto akciu nie je možné vrátiť späť.
 rk-remove-error-2 = Kľúč na obnovenie účtu nebolo možné odstrániť
@@ -1537,7 +1537,7 @@ complete-reset-password-error-alert = Ľutujeme, pri nastavovaní hesla sa vysky
 complete-reset-pw-recovery-key-link = Použiť kľúč na obnovenie účtu
 # A message informing the user that the password reset was successful and reminding them to create another recovery key
 # Displayed on the sign in page
-reset-password-complete-banner-heading = Vaše heslo bolo obnovené.
+reset-password-complete-banner-heading = Vaše heslo bolo zmenené.
 reset-password-complete-banner-message = Nezabudnite si vygenerovať nový kľúč na obnovenie účtu v nastaveniach { -product-mozilla-account(case: "gen", capitalization: "lower") }, aby ste predišli budúcim problémom s prihlásením.
 # Message to user after they were redirected to the Mozilla account sign-in page in a new browser
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
