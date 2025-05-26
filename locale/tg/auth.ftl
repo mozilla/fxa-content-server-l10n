@@ -251,6 +251,7 @@ downloadSubscription-subject = Хуш омадед ба «{ $productName }»
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-title = Хуш омадед ба «{ $productName }»
+downloadSubscription-content-2 = Биёед бо истифода аз ҳамаи хусусиятҳои дохилшуда барои обунаи шумо оғоз намоем:
 downloadSubscription-link-action-2 = Оғози кор
 fraudulentAccountDeletion-subject-2 = Ҳисоби шумо дар «{ -product-mozilla-account }» нест карда шуд
 fraudulentAccountDeletion-title = Ҳисоби шумо нест карда шуд
@@ -274,6 +275,10 @@ inactiveAccountSecondWarning-action = Барои нигоҳ доштани ҳи�
 inactiveAccountSecondWarning-preview = Барои нигоҳ доштани ҳисоби худ ворид шавед
 # followed by link to sign in
 inactiveAccountSecondWarning-action-plaintext = Барои нигоҳ доштани ҳисоби худ ворид шавед:
+# The user has a low number of valid recovery codes remaining for use
+codes-reminder-title-zero = Нусхаҳои эҳтиётии рамзи санҷиши ҳаққоният тамом шуданд!
+codes-reminder-title-one = Шумо аз нусхаи эҳтиётии рамзи санҷиши ҳаққонияти охирини худ истифода мебаред
+codes-reminder-title-two = Акнун вақт барои эҷод кардани нусхаҳои эҳтиётии иловагии рамзи санҷиши ҳаққоният расидааст
 codes-reminder-description-two-left = Шумо танҳо ду рамз доред.
 lowRecoveryCodes-action-2 = Эҷод кардани рамзҳо
 codes-create-plaintext = { lowRecoveryCodes-action-2 }:
