@@ -167,6 +167,8 @@ automated-email-reset-pwd-two-factor =
     Ďalšie informácie nájdete na stránkach <a data-l10n-name="supportLink"> Podpory { -brand-mozilla(case: "gen") }</a>.
 # Followed by link to https://accounts.firefox.com/reset_password
 automated-email-reset-pwd-plaintext-v3 = Ak ste túto akciu nevykonali, ihneď si zmeňte heslo na adrese:
+# Followed by link to https://accounts.firefox.com/settings#two-step-authentication
+automated-email-reset-two-factor-plaintext = Taktiež obnovte dvojstupňové overenie na adrese:
 brand-banner-message = Vedeli ste, že sme zmenili názov z { -product-firefox-accounts(case: "gen") } na { -product-mozilla-accounts(case: "acc") }? <a data-l10n-name="learnMore">Ďalšie informácie</a>
 cancellationSurvey = Vyplňte, prosím, tento <a data-l10n-name="cancellationSurveyUrl">krátky prieskum</a> a pomôžte nám zlepšiť naše služby.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
@@ -375,6 +377,11 @@ passwordResetAccountRecovery-information = Odhlásili sme vás zo všetkých va�
 # After the colon there is a link to account settings
 passwordResetAccountRecovery-information-txt = Odhlásili sme vás zo všetkých vašich synchronizovaných zariadení. Vytvorili sme nový kľúč na obnovenie účtu, ktorý nahradí ten, ktorý ste používali. Môžete ho zmeniť v nastaveniach účtu:
 passwordResetAccountRecovery-action-4 = Spravovať účet
+passwordResetRecoveryPhone-subject = Bolo použité obnovenie pomocou telefónu
+passwordResetRecoveryPhone-preview = Skontrolujte, či ste to boli vy
+passwordResetRecoveryPhone-title = Obnovenie pomocou telefónu bolo použité na potvrdenie zmeny hesla
+passwordResetRecoveryPhone-device = Obnovenie pomocou telefónu bolo použité na zariadení:
+passwordResetRecoveryPhone-action = Spravovať účet
 passwordResetWithRecoveryKeyPrompt-subject = Vaše heslo bolo zmenené
 passwordResetWithRecoveryKeyPrompt-title = Vaše heslo bolo zmenené
 # Details of the device and date/time where the password was reset
