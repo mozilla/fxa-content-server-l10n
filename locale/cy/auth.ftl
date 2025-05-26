@@ -162,9 +162,9 @@ automated-email-reset =
 automated-email-reset-plaintext-v2 = Os nad chi wnaeth awdurdodi'r weithred hon, ailosodwch eich cyfrinair nawr yn { $resetLink }
 # This message is used by multiple automated emails that notify users of security events on their account
 # "this action" is meant to be a generic term, and could, for example, refer to using a backup authentication code to confirm a password reset
-automated-email-reset-pwd-two-factor = Os na wnaethoch chi wneud hyn, yna <a data-l10n-name="resetLink">ailosodwch eich cyfrinair</a> ac <a data-l10n-name="twoFactorSettingsLink">ailosod dilysiad dau gam</a> i'r dde i ffwrdd. Am ragor o wybodaeth, ewch i <a data-l10n-name="supportLink">{ -brand-mozilla } Cefnogaeth</a>.
+automated-email-reset-pwd-two-factor = Os na chi wnaeth hyn, yna <a data-l10n-name="resetLink">ailosodwch eich cyfrinair</a> ac <a data-l10n-name="twoFactorSettingsLink">ailosod dilysiad dau gam</a>yn syth. Am ragor o wybodaeth, ewch i <a data-l10n-name="supportLink">{ -brand-mozilla } Cefnogaeth</a>.
 # Followed by link to https://accounts.firefox.com/reset_password
-automated-email-reset-pwd-plaintext-v3 = Os na wnaethoch chi wneud hyn, yna ailosodwch eich cyfrinair ar unwaith yn:
+automated-email-reset-pwd-plaintext-v3 = Os nad chi wnaeth hyn, yna ailosodwch eich cyfrinair ar unwaith yn:
 # Followed by link to https://accounts.firefox.com/settings#two-step-authentication
 automated-email-reset-two-factor-plaintext = Hefyd, ailosodwch ddilysiad dau gam yn:
 brand-banner-message = Oeddech chi'n gwybod ein bod ni wedi newid ein henw o { -product-firefox-accounts } i { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Darllen rhagor</a>
@@ -380,8 +380,8 @@ passwordResetAccountRecovery-information-txt = Fe wnaethom eich allgofnodi o'ch 
 passwordResetAccountRecovery-action-4 = Rheoli cyfrif
 passwordResetRecoveryPhone-subject = Ffôn adfer wedi'i ddefnyddio
 passwordResetRecoveryPhone-preview = Gwiriwch i wneud yn siŵr mai chi oedd hwn
-passwordResetRecoveryPhone-title = Defnyddiwyd eich ffôn adfer i gadarnhau ailosodiad cyfrinair
-passwordResetRecoveryPhone-device = Ffôn adfer a ddefnyddiwyd o:
+passwordResetRecoveryPhone-title = Cafodd eich ffôn adfer ei ddefnyddio i gadarnhau ailosod cyfrinair
+passwordResetRecoveryPhone-device = Defnyddiwch ffôn adfer o:
 passwordResetRecoveryPhone-action = Rheoli cyfrif
 passwordResetWithRecoveryKeyPrompt-subject = Mae eich cyfrinair wedi ei ailosod
 passwordResetWithRecoveryKeyPrompt-title = Mae eich cyfrinair wedi ei ailosod
@@ -437,10 +437,10 @@ postChangeRecoveryPhone-preview = Mae'r cyfrif wedi'i ddiogelu gan ddilysiad dau
 postChangeRecoveryPhone-title = Rydych wedi newid eich ffôn adfer
 postChangeRecoveryPhone-description = Mae gennych ffôn adfer newydd nawr. Cafodd eich rhif ffôn blaenorol ei ddileu.
 postChangeRecoveryPhone-requested-device = Rydych wedi gofyn amdano o:
-postConsumeRecoveryCode-title-3 = Defnyddiwyd eich cod dilysu wrth gefn i gadarnhau ailosodiad cyfrinair
+postConsumeRecoveryCode-title-3 = Defnyddiwyd eich cod dilysu wrth gefn i gadarnhau ailosod y cyfrinair
 # After the colon, there is description of the device that the backup authentication code was used on
 # E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
-postConsumeRecoveryCode-description-3 = Cod a ddefnyddiwyd o:
+postConsumeRecoveryCode-description-3 = Cod defnyddiwyd o:
 postConsumeRecoveryCode-action = Rheoli cyfrif
 postConsumeRecoveryCode-subject-v3 = Defnyddiwyd cod dilysu wrth gefn
 postConsumeRecoveryCode-preview = Gwiriwch i wneud yn siŵr mai chi oedd hwn

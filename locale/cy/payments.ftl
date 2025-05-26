@@ -543,7 +543,7 @@ sub-update-new-plan-daily = { $productName } ( Dyddiol )
 sub-update-new-plan-weekly = { $productName } ( Wythnosol )
 sub-update-new-plan-monthly = { $productName } ( Misol)
 sub-update-new-plan-yearly = { $productName } (Blynyddol)
-sub-update-prorated-upgrade-credit = Bydd y balans negyddol a ddangosir yn cael ei gymhwyso fel credydau i'ch cyfrif a'i ddefnyddio tuag at anfonebau yn y dyfodol.
+sub-update-prorated-upgrade-credit = Bydd y balans negyddol sy'n cael ei ddangos yn cael ei osod fel credydau i'ch cyfrif a'i ddefnyddio tuag at anfonebau yn y dyfodol.
 
 ## Routes - Subscriptions - Cancel
 
