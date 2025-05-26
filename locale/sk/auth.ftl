@@ -368,11 +368,11 @@ password-forgot-otp-expiry-notice = Platnosť tohto kódu vyprší o 10 minút.
 passwordReset-subject-2 = Vaše heslo bolo zmenené
 passwordReset-title-2 = Vaše heslo bolo zmenené
 # This sentence is followed by information about the device and time of the password reset
-passwordReset-description-2 = Heslo k { -product-mozilla-account(case: "dat", capitalization: "lower") } ste zmenili na:
+passwordReset-description-2 = Heslo k { -product-mozilla-account(case: "dat", capitalization: "lower") } ste zmenili na zariadení:
 passwordResetAccountRecovery-subject-2 = Vaše heslo bolo zmenené
 passwordResetAccountRecovery-title-3 = Vaše heslo bolo zmenené
 # Followed by details on the device and date/time of the password reset.
-passwordResetAccountRecovery-description-3 = Použili ste kľúč na obnovenie účtu na zmenu hesla { -product-mozilla-account(case: "dat", capitalization: "lower") } na:
+passwordResetAccountRecovery-description-3 = Použili ste kľúč na obnovenie účtu na zmenu hesla { -product-mozilla-account(case: "dat", capitalization: "lower") } na zariadení:
 passwordResetAccountRecovery-information = Odhlásili sme vás zo všetkých vašich synchronizovaných zariadení. Vytvorili sme nový kľúč na obnovenie účtu, ktorý nahradí ten, ktorý ste používali. Môžete ho zmeniť v nastaveniach účtu.
 # After the colon there is a link to account settings
 passwordResetAccountRecovery-information-txt = Odhlásili sme vás zo všetkých vašich synchronizovaných zariadení. Vytvorili sme nový kľúč na obnovenie účtu, ktorý nahradí ten, ktorý ste používali. Môžete ho zmeniť v nastaveniach účtu:
@@ -385,7 +385,7 @@ passwordResetRecoveryPhone-action = Spravovať účet
 passwordResetWithRecoveryKeyPrompt-subject = Vaše heslo bolo zmenené
 passwordResetWithRecoveryKeyPrompt-title = Vaše heslo bolo zmenené
 # Details of the device and date/time where the password was reset
-passwordResetWithRecoveryKeyPrompt-description = Heslo k { -product-mozilla-account(case: "dat", capitalization: "lower") } ste zmenili na:
+passwordResetWithRecoveryKeyPrompt-description = Heslo k { -product-mozilla-account(case: "dat", capitalization: "lower") } ste zmenili na zariadení:
 # Text for button action to create a new account recovery key
 passwordResetWithRecoveryKeyPrompt-action = Vytvoriť kľúč na obnovenie účtu
 # colon is followed by a link to create an account recovery key from the account settings page
@@ -437,11 +437,16 @@ postChangeRecoveryPhone-title = Zmenili ste si telefón na obnovenie účtu
 postChangeRecoveryPhone-description = Teraz máte nové telefónne číslo na obnovenie účtu. Vaše predchádzajúce telefónne číslo bolo odstránené.
 postChangeRecoveryPhone-requested-device = Požiadali ste o to z:
 postConsumeRecoveryCode-title-3 = Váš záložný overovací kód bol použitý na potvrdenie zmeny hesla
+# After the colon, there is description of the device that the backup authentication code was used on
+# E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
+postConsumeRecoveryCode-description-3 = Kód bol použítý na zariadení:
 postConsumeRecoveryCode-action = Spravovať účet
+postConsumeRecoveryCode-subject-v3 = Bol použitý záložný overovací kód
+postConsumeRecoveryCode-preview = Skontrolujte, či ste to boli vy
 postNewRecoveryCodes-subject-2 = Boli vytvorené nové záložné overovacie kódy
 postNewRecoveryCodes-title-2 = Vytvorili ste nové záložné overovacie kódy
 # After the colon, there is information about the device that the authentication codes were created on
-postNewRecoveryCodes-description-2 = Boli vytvorené na:
+postNewRecoveryCodes-description-2 = Boli vytvorené na zariadení:
 postNewRecoveryCodes-action = Spravovať účet
 postRemoveAccountRecovery-subject-2 = Kľúč na obnovenie účtu bol odstránený
 postRemoveAccountRecovery-title-3 = Odstránili ste kľúč na obnovenie účtu

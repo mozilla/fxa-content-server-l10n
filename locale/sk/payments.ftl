@@ -459,6 +459,7 @@ sub-update-new-plan-daily = { $productName } (denne)
 sub-update-new-plan-weekly = { $productName } (týždenne)
 sub-update-new-plan-monthly = { $productName } (mesačne)
 sub-update-new-plan-yearly = { $productName } (ročne)
+sub-update-prorated-upgrade-credit = Zobrazený záporný zostatok bude pripísaný na váš účet a použitý na budúce faktúry.
 
 ## Routes - Subscriptions - Cancel
 
@@ -482,6 +483,7 @@ sub-item-cancel-confirm = Zrušiť môj prístup k produktu { $name } a dáta v 
 # Cybersecurity Awareness Month 2023 coupon applied: $11.20 + $0.35 tax
 # Summer Promo VPN coupon applied: $11.20
 sub-promo-coupon-applied = Kupón { $promotion_name } bol použitý: <priceDetails></priceDetails>
+subscription-management-account-credit-balance = Táto platba za predplatné viedla k pripísaniu sumy na váš účet: <priceDetails></priceDetails>
 
 ## Routes - Subscription
 

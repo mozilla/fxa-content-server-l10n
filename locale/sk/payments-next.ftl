@@ -225,3 +225,4 @@ upgrade-purchase-details-new-plan-weekly = { $productName } (týždenne)
 upgrade-purchase-details-new-plan-monthly = { $productName } (mesačne)
 upgrade-purchase-details-new-plan-halfyearly = { $productName } (6 mesiacov)
 upgrade-purchase-details-new-plan-yearly = { $productName } (ročne)
+upgrade-purchase-details-prorated-credits = Zobrazený záporný zostatok bude pripísaný na váš účet a použitý na budúce faktúry.
