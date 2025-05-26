@@ -376,6 +376,11 @@ passwordResetAccountRecovery-information = Wy hawwe jo ôfmeld op al jo syngroni
 # After the colon there is a link to account settings
 passwordResetAccountRecovery-information-txt = Wy hawwe jo ôfmeld op al jo syngronisearre apparaten. Wy hawwe in nije accountwerstelkaai oanmakke om de brûkte kaai te ferfangen. Jo kinne dit wizigje yn jo accountynstellingen:
 passwordResetAccountRecovery-action-4 = Account beheare
+passwordResetRecoveryPhone-subject = Wersteltelefoannûmer brûkt
+passwordResetRecoveryPhone-preview = Kontrolearje oft jo dit yndied dien hawwe
+passwordResetRecoveryPhone-title = Jo wersteltelefoannûmer is brûkt om in wachtwurdwerinisjalisaasje te befêstigjen
+passwordResetRecoveryPhone-device = Wersteltelefoannûmer brûkt fanôf:
+passwordResetRecoveryPhone-action = Account beheare
 passwordResetWithRecoveryKeyPrompt-subject = Jo wachtwurd is opnij ynsteld
 passwordResetWithRecoveryKeyPrompt-title = Jo wachtwurd is opnij ynsteld
 # Details of the device and date/time where the password was reset

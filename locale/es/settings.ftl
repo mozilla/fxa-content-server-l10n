@@ -368,12 +368,6 @@ primary-email-confirmation-link-reused = El correo electrónico principal ya fue
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Inicio de sesión ya confirmado
 confirmation-link-reused-message = Ese enlace de confirmación ya ha sido usado y solo puede usarse una vez.
-
-## Notification Promo Banner component
-
-account-recovery-notification-cta = Crear
-account-recovery-notification-header-value = No pierdas tus datos si olvidas tu contraseña
-account-recovery-notification-header-description = Crea una clave de recuperación de cuenta para restaurar tus datos de navegación sincronizados si alguna vez olvidas tu contraseña.
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Solicitud incorrecta
 
@@ -397,6 +391,12 @@ password-strength-inline-min-length = Al menos 8 caracteres
 password-strength-inline-not-email = Diferente a tu dirección de correo electrónico
 password-strength-inline-not-common = Que no sea una contraseña de uso común
 password-strength-inline-confirmed-must-match = La confirmación coincide con la nueva contraseña
+
+## Notification Promo Banner component
+
+account-recovery-notification-cta = Crear
+account-recovery-notification-header-value = No pierdas tus datos si olvidas tu contraseña
+account-recovery-notification-header-description = Crea una clave de recuperación de cuenta para restaurar tus datos de navegación sincronizados si alguna vez olvidas tu contraseña.
 
 ## Ready component
 
@@ -1590,6 +1590,13 @@ password-reset-submit-button-2 = Continuar
 reset-password-complete-header = Se ha restablecido tu contraseña
 # $serviceName is a product name such as Monitor, Pocket, Relay
 reset-password-confirmed-cta = Continuar a { $serviceName }
+
+## Reset password recovery method page
+## This page is shown to users when they are having trouble resetting their
+
+
+# password, and they previously had set up an account recovery method.
+
 reset-password-with-recovery-key-verified-page-title = Contraseña restablecida correctamente
 reset-password-complete-new-password-saved = ¡Nueva contraseña guardada!
 reset-password-complete-recovery-key-created = Se ha creado una nueva clave de recuperación de cuenta. Descárgala y guárdala ahora.
