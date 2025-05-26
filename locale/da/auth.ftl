@@ -378,6 +378,7 @@ passwordResetAccountRecovery-information-txt = Vi har logget dig ud af alle dine
 passwordResetAccountRecovery-action-4 = Håndter konto
 passwordResetRecoveryPhone-subject = Telefonnummer til genoprettelse brugt
 passwordResetRecoveryPhone-preview = Kontroller at det var dig
+passwordResetRecoveryPhone-title = Dit telefonnummer til genoprettelse blev brugt til at bekræfte nulstilling af adgangskode
 passwordResetRecoveryPhone-device = Telefonnummer til genoprettelse brugt fra:
 passwordResetRecoveryPhone-action = Håndter konto
 passwordResetWithRecoveryKeyPrompt-subject = Din adgangskode er blevet nulstillet
@@ -434,6 +435,7 @@ postChangeRecoveryPhone-preview = Konto beskyttet af totrinsgodkendelse
 postChangeRecoveryPhone-title = Du ændrede dit telefonnummer til genoprettelse
 postChangeRecoveryPhone-description = Du har nu et nyt telefonnummer til genoprettelse. Dit tidligere telefonnummer blev slettet.
 postChangeRecoveryPhone-requested-device = Du har bedt om det fra:
+postConsumeRecoveryCode-title-3 = Din reserve-godkendelseskode blev brugt til at bekræfte nulstilling af adgangskode
 # After the colon, there is description of the device that the backup authentication code was used on
 # E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
 postConsumeRecoveryCode-description-3 = Kode brugt fra:

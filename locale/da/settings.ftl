@@ -398,7 +398,11 @@ account-recovery-notification-cta = Opret
 account-recovery-notification-header-value = Mist ikke dine data, hvis du glemmer din adgangskode
 account-recovery-notification-header-description = Opret en genoprettelsesnøgle til kontoen for at gendanne dine synkroniserede data, hvis du nogensinde glemmer din adgangskode.
 recovery-phone-promo-cta = Tilføj telefonnummer til genoprettelse
+recovery-phone-promo-heading = Få ekstra beskyttelse af din konto med et telefonnummer til genoprettelse
+recovery-phone-promo-description = Nu kan du logge ind med en engangs-adgangskode via SMS, hvis du ikke kan bruge din godkendelsesapp til totrinsgodkendelse.
 recovery-phone-promo-info-link = Læs mere om genoprettelse og SIM-swapping-risiko
+promo-banner-dismiss-button =
+    .aria-label = Afvis banner
 
 ## Ready component
 
