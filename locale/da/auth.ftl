@@ -165,6 +165,10 @@ automated-email-reset-plaintext-v2 = Hvis du ikke har godkendt denne handling, s
 automated-email-reset-pwd-two-factor =
     Hvis du ikke foretog denne handling, så <a data-l10n-name="resetLink">nulstil din adgangskode</a> og <a data-l10n-name="twoFactorSettingsLink">nulstil totrinsgodkendelse</a> med det samme.
     For mere information, besøg <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
+# Followed by link to https://accounts.firefox.com/reset_password
+automated-email-reset-pwd-plaintext-v3 = Hvis du ikke foretog denne handling, så nulstil din adgangskode med det samme på:
+# Followed by link to https://accounts.firefox.com/settings#two-step-authentication
+automated-email-reset-two-factor-plaintext = Nulstil også totrinsgodkendelse på:
 brand-banner-message = Vidste du, at vi har ændret vores navn fra { -product-firefox-accounts } til { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Læs mere</a>
 cancellationSurvey = Hjælp os med at forbedre vores tjenester ved at deltage i denne <a data-l10n-name="cancellationSurveyUrl">korte undersøgelse</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
