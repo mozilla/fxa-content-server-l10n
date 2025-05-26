@@ -397,6 +397,8 @@ password-strength-inline-confirmed-must-match = Bekræftelsen matcher den nye ad
 account-recovery-notification-cta = Opret
 account-recovery-notification-header-value = Mist ikke dine data, hvis du glemmer din adgangskode
 account-recovery-notification-header-description = Opret en genoprettelsesnøgle til kontoen for at gendanne dine synkroniserede data, hvis du nogensinde glemmer din adgangskode.
+recovery-phone-promo-cta = Tilføj telefonnummer til genoprettelse
+recovery-phone-promo-info-link = Læs mere om genoprettelse og SIM-swapping-risiko
 
 ## Ready component
 
@@ -1604,7 +1606,21 @@ reset-password-confirmed-cta = Fortsæt til { $serviceName }
 
 # password, and they previously had set up an account recovery method.
 
+password-reset-recovery-method-header = Nulstil din adgangskode
+password-reset-recovery-method-subheader = Vælg en genoprettelsesmetode
+# This is displayed to the user when they are choosing an alternative method to authenticate themself in the password reset process when they do not have access to their two-factor authenticator application
+password-reset-recovery-method-details = Lad os sikre os, at det er dig, der bruger dine genoprettelsesmetoder.
 password-reset-recovery-method-phone = Telefonnummer til genoprettelse
+password-reset-recovery-method-code = Reserve-godkendelseskoder
+# Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
+password-reset-recovery-method-code-info =
+    { $numBackupCodes ->
+        [one] { $numBackupCodes } kode tilbage
+       *[other] { $numBackupCodes } koder tilbage
+    }
+# Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
+password-reset-recovery-method-send-code-error-heading = Der opstod et problem under afsendelse af en kode til dit telefonnummer til genoprettelse
+password-reset-recovery-method-send-code-error-description = Prøv igen senere eller brug dine reserve-godkendelseskoder.
 reset-password-with-recovery-key-verified-page-title = Adgangskoden er blevet nulstillet
 reset-password-complete-new-password-saved = Ny adgangskode gemt!
 reset-password-complete-recovery-key-created = Ny genoprettelsesnøgle til kontoen oprettet. Hent og gem den nu.

@@ -374,6 +374,8 @@ passwordResetAccountRecovery-information-txt = Vi har logget dig ud af alle dine
 passwordResetAccountRecovery-action-4 = Håndter konto
 passwordResetRecoveryPhone-subject = Telefonnummer til genoprettelse brugt
 passwordResetRecoveryPhone-preview = Kontroller at det var dig
+passwordResetRecoveryPhone-device = Telefonnummer til genoprettelse brugt fra:
+passwordResetRecoveryPhone-action = Håndter konto
 passwordResetWithRecoveryKeyPrompt-subject = Din adgangskode er blevet nulstillet
 passwordResetWithRecoveryKeyPrompt-title = Din adgangskode er blevet nulstillet
 # Details of the device and date/time where the password was reset
@@ -428,7 +430,12 @@ postChangeRecoveryPhone-preview = Konto beskyttet af totrinsgodkendelse
 postChangeRecoveryPhone-title = Du ændrede dit telefonnummer til genoprettelse
 postChangeRecoveryPhone-description = Du har nu et nyt telefonnummer til genoprettelse. Dit tidligere telefonnummer blev slettet.
 postChangeRecoveryPhone-requested-device = Du har bedt om det fra:
+# After the colon, there is description of the device that the backup authentication code was used on
+# E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
+postConsumeRecoveryCode-description-3 = Kode brugt fra:
 postConsumeRecoveryCode-action = Håndter konto
+postConsumeRecoveryCode-subject-v3 = Reserve-godkendelseskode brugt
+postConsumeRecoveryCode-preview = Kontroller at det var dig
 postNewRecoveryCodes-subject-2 = Nye reserve-godkendelseskoder oprettet
 postNewRecoveryCodes-title-2 = Du oprettede nye reserve-godkendelseskoder
 # After the colon, there is information about the device that the authentication codes were created on

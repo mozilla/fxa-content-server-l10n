@@ -225,3 +225,4 @@ upgrade-purchase-details-new-plan-weekly = { $productName } (Ugentligt)
 upgrade-purchase-details-new-plan-monthly = { $productName } (Månedligt)
 upgrade-purchase-details-new-plan-halfyearly = { $productName } (6 måneder)
 upgrade-purchase-details-new-plan-yearly = { $productName } (Årligt)
+upgrade-purchase-details-prorated-credits = Den viste negative saldo vil blive anvendt som tilgodehavende på din konto og brugt til fremtidige fakturaer.

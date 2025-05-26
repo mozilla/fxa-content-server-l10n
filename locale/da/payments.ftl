@@ -434,6 +434,7 @@ sub-update-new-plan-daily = { $productName } (Dagligt)
 sub-update-new-plan-weekly = { $productName } (Ugentligt)
 sub-update-new-plan-monthly = { $productName } (Månedligt)
 sub-update-new-plan-yearly = { $productName } (Årligt)
+sub-update-prorated-upgrade-credit = Den viste negative saldo vil blive anvendt som tilgodehavende på din konto og brugt til fremtidige fakturaer.
 
 ## Routes - Subscriptions - Cancel
 
