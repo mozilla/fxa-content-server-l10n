@@ -259,6 +259,7 @@ fraudulentAccountDeletion-contact = Агар шумо ягон савол дош
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Агар шумо ягон савол дошта бошед, лутфан, бо дастаи дастгирии мо дар тамос шавед: { $mozillaSupportUrl }
+inactiveAccountFinalWarning-subject = Охирин имконият барои нигоҳ доштани «{ -product-mozilla-account }»-и худ
 inactiveAccountFinalWarning-preview = Барои нигоҳ доштани ҳисоби худ ворид шавед
 inactiveAccountFinalWarning-action = Барои нигоҳ доштани ҳисоби худ ворид шавед
 # followed by link to sign in
@@ -279,6 +280,8 @@ inactiveAccountSecondWarning-action-plaintext = Барои нигоҳ дошта
 codes-reminder-title-zero = Нусхаҳои эҳтиётии рамзи санҷиши ҳаққоният тамом шуданд!
 codes-reminder-title-one = Шумо аз нусхаи эҳтиётии рамзи санҷиши ҳаққонияти охирини худ истифода мебаред
 codes-reminder-title-two = Акнун вақт барои эҷод кардани нусхаҳои эҳтиётии иловагии рамзи санҷиши ҳаққоният расидааст
+codes-reminder-description-part-one = Нусхаҳои эҳтиётии рамзи санҷиши ҳаққоният ба шумо барои барқарорсозии маълумоти шахсӣ ҳангоми фаромӯш кардани ниҳонвожа кумак мерасонанд.
+codes-reminder-description-part-two = Ҳозир рамзҳои навро эҷод кунед, то баъдан маълумоти шахсии худро аз даст надиҳед.
 codes-reminder-description-two-left = Шумо танҳо ду рамз доред.
 lowRecoveryCodes-action-2 = Эҷод кардани рамзҳо
 codes-create-plaintext = { lowRecoveryCodes-action-2 }:
