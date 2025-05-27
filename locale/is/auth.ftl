@@ -368,6 +368,7 @@ passwordResetAccountRecovery-information = Við skráðum þig út úr öllum sa
 # After the colon there is a link to account settings
 passwordResetAccountRecovery-information-txt = Við skráðum þig út úr öllum samstilltu tækjunum þínum. Við bjuggum til nýjan endurheimtulykil í stað þess sem þú notaðir. Þú getur breytt þessu í reikningsstillingunum þínum:
 passwordResetAccountRecovery-action-4 = Sýsla með reikning
+passwordResetRecoveryPhone-action = Sýsla með reikning
 passwordResetWithRecoveryKeyPrompt-subject = Lykilorðið þitt var endurstillt
 passwordResetWithRecoveryKeyPrompt-title = Lykilorðið þitt var endurstillt
 # Details of the device and date/time where the password was reset
@@ -620,6 +621,7 @@ subscriptionRenewalReminder-content-closing = Með bestu kveðjum,
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = { $productName }-teymið
 subscriptionReplaced-title = Áskriftin þín hefur verið uppfærð
+subscriptionReplaced-content-no-action = Þú þarft ekki að gera neitt.
 subscriptionsPaymentExpired-subject-1 = Greiðslukort fyrir áskriftirnar þínar er útrunnið eða rennur út bráðlega
 subscriptionsPaymentExpired-title-1 = Greiðslukortið þitt er útrunnið eða er við það að renna út
 subscriptionsPaymentExpired-content-1 = Greiðslukortið sem þú notar til að greiða fyrir eftirfarandi áskriftir er útrunnið eða er við það að renna út.
@@ -641,6 +643,10 @@ subscriptionSubsequentInvoice-content-next-invoice = Næsti reikningur: { $nextI
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = Þú hefur uppfært í { $productName }
 subscriptionUpgrade-title = Takk fyrir að uppfæra!
+# Variables:
+# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
+# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-upgrade-info-2 = Þú hefur uppfært í { $productName }.
 
 ## Variables:
 ## $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
