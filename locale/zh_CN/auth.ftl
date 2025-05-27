@@ -158,6 +158,13 @@ automated-email-reset = 这是一封自动发送的邮件。若您并未授权�
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext-v2 = 如果您未授权此操作，请立即在 { $resetLink } 修改您的密码
+# This message is used by multiple automated emails that notify users of security events on their account
+# "this action" is meant to be a generic term, and could, for example, refer to using a backup authentication code to confirm a password reset
+automated-email-reset-pwd-two-factor = 如非本人操作，请立即<a data-l10n-name="resetLink">重设密码</a>并<a data-l10n-name="twoFactorSettingsLink">重设两步验证</a>。有关更多信息，请访问 <a data-l10n-name="supportLink">{ -brand-mozilla } 技术支持</a>。
+# Followed by link to https://accounts.firefox.com/reset_password
+automated-email-reset-pwd-plaintext-v3 = 如非本人操作，请立即在此重设密码：
+# Followed by link to https://accounts.firefox.com/settings#two-step-authentication
+automated-email-reset-two-factor-plaintext = 同时在此重设两步验证：
 brand-banner-message = 您知道我们已由 { -product-firefox-accounts }更名为 { -product-mozilla-accounts }吗？<a data-l10n-name="learnMore">详细了解</a>
 cancellationSurvey = 请填写这份<a data-l10n-name="cancellationSurveyUrl">简短问卷</a> ，帮助我们改善服务质量。
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
@@ -364,6 +371,11 @@ passwordResetAccountRecovery-information = 我们已将您从所有同步的设�
 # After the colon there is a link to account settings
 passwordResetAccountRecovery-information-txt = 我们已将您从所有同步的设备上退出登录。我们创建了新的账户恢复密钥，用以替换已使用的密钥，您可以在账户设置中进行更改。
 passwordResetAccountRecovery-action-4 = 管理账户
+passwordResetRecoveryPhone-subject = 已使用恢复电话号码
+passwordResetRecoveryPhone-preview = 请确认是否为本人操作
+passwordResetRecoveryPhone-title = 您的恢复电话号码已用于确认密码重设
+passwordResetRecoveryPhone-device = 恢复电话号码已从以下位置使用：
+passwordResetRecoveryPhone-action = 管理账户
 passwordResetWithRecoveryKeyPrompt-subject = 您的密码已重置
 passwordResetWithRecoveryKeyPrompt-title = 您的密码已重置
 # Details of the device and date/time where the password was reset
@@ -418,7 +430,13 @@ postChangeRecoveryPhone-preview = 账户受两步验证保护
 postChangeRecoveryPhone-title = 您更改了恢复电话号码
 postChangeRecoveryPhone-description = 您已设置新的恢复电话号码，先前的电话号码已删除。
 postChangeRecoveryPhone-requested-device = 您从下列位置请求：
+postConsumeRecoveryCode-title-3 = 您的备用验证码已用于确认密码重设
+# After the colon, there is description of the device that the backup authentication code was used on
+# E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
+postConsumeRecoveryCode-description-3 = 验证码已从以下位置使用：
 postConsumeRecoveryCode-action = 管理账户
+postConsumeRecoveryCode-subject-v3 = 备用验证码已使用
+postConsumeRecoveryCode-preview = 请确认是否为本人操作
 postNewRecoveryCodes-subject-2 = 已生成新的备份验证码
 postNewRecoveryCodes-title-2 = 您已生成新的备用验证码
 # After the colon, there is information about the device that the authentication codes were created on

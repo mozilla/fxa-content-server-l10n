@@ -427,6 +427,7 @@ sub-update-new-plan-daily = { $productName }（日付）
 sub-update-new-plan-weekly = { $productName }（周付）
 sub-update-new-plan-monthly = { $productName }（月付）
 sub-update-new-plan-yearly = { $productName }（年付）
+sub-update-prorated-upgrade-credit = 此处显示的溢余款项将以余额形式返还至您的账户，并将于以后付款时抵用。
 
 ## Routes - Subscriptions - Cancel
 
@@ -450,6 +451,7 @@ sub-item-cancel-confirm = 在 { $period } 之后取消我对 { $name } 的访问
 # Cybersecurity Awareness Month 2023 coupon applied: $11.20 + $0.35 tax
 # Summer Promo VPN coupon applied: $11.20
 sub-promo-coupon-applied = 已应用 { $promotion_name } 折扣码：<priceDetails></priceDetails>
+subscription-management-account-credit-balance = 此次订阅付款产生了账户余额：<priceDetails></priceDetails>
 
 ## Routes - Subscription
 

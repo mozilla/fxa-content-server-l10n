@@ -397,6 +397,12 @@ password-strength-inline-confirmed-must-match = 再次输入的密码与新密�
 account-recovery-notification-cta = 创建
 account-recovery-notification-header-value = 忘记密码也不致丢失数据
 account-recovery-notification-header-description = 创建账户恢复密钥，以在忘记密码时恢复同步的浏览数据。
+recovery-phone-promo-cta = 添加恢复电话号码
+recovery-phone-promo-heading = 添加恢复电话号码，为账户增添额外保护
+recovery-phone-promo-description = 现在，您可在无法使用双因子身份验证应用时，通过由短信发送的一次性密码登录。
+recovery-phone-promo-info-link = 详细了解“恢复”和“SIM 卡交换”风险
+promo-banner-dismiss-button =
+    .aria-label = 关闭横幅
 
 ## Ready component
 
@@ -1584,6 +1590,17 @@ reset-password-confirmed-cta = 继续使用 { $serviceName }
 
 # password, and they previously had set up an account recovery method.
 
+password-reset-recovery-method-header = 重设密码
+password-reset-recovery-method-subheader = 选择恢复方式
+# This is displayed to the user when they are choosing an alternative method to authenticate themself in the password reset process when they do not have access to their two-factor authenticator application
+password-reset-recovery-method-details = 请协助确认是您本人在使用恢复方式。
+password-reset-recovery-method-phone = 恢复电话号码
+password-reset-recovery-method-code = 备用验证码
+# Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
+password-reset-recovery-method-code-info = 剩余 { $numBackupCodes } 个验证码
+# Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
+password-reset-recovery-method-send-code-error-heading = 向恢复电话号码发送验证码时出现问题
+password-reset-recovery-method-send-code-error-description = 请稍后再试，或改用备用验证码。
 reset-password-with-recovery-key-verified-page-title = 密码重置成功
 reset-password-complete-new-password-saved = 已保存新密码！
 reset-password-complete-recovery-key-created = 已创建新的账户恢复密钥，请立即下载并存储。
