@@ -100,6 +100,10 @@ payments-header-bento-monitor = { -product-mozilla-monitor }
 payments-header-bento-firefox-relay = { -product-firefox-relay }
 payments-header-bento-vpn = { -product-mozilla-vpn }
 payments-header-bento-pocket = { -product-pocket }
+payments-header-avatar-icon =
+    .alt = Slika profila računa
+payments-header-avatar-expanded-signed-in-as = Prijavljen/a kao
+payments-header-avatar-expanded-sign-out = Odjavi se
 payments-client-loading-spinner =
     .aria-label = Učitavanje …
     .alt = Učitavanje …
@@ -125,6 +129,7 @@ next-coupon-success-repeating = Tvoj plan će se automatski obnoviti nakon { $co
 select-tax-location-title = Mjesto
 select-tax-location-edit-button = Uredi
 select-tax-location-save-button = Spremi
+select-tax-location-continue-to-checkout-button = Idi na blagajnu
 select-tax-location-country-code-label = Zemlja
 select-tax-location-country-code-placeholder = Odaberi zemlju
 select-tax-location-error-missing-country-code = Odaberi zemlju
@@ -153,6 +158,7 @@ next-new-user-subscribe-product-assurance = Tvoju e-mail adresu koristimo samo z
 plan-price-interval-daily = { $amount } dnevno
 plan-price-interval-weekly = { $amount } tjedno
 plan-price-interval-monthly = { $amount } mjesečno
+plan-price-interval-halfyearly = { $amount } svakih 6 mjeseci
 plan-price-interval-yearly = { $amount } godišnje
 
 ## Component - SubscriptionTitle
@@ -161,6 +167,7 @@ next-subscription-create-title = Postavi svoju pretplatu
 next-subscription-success-title = Potvrda pretplate
 next-subscription-processing-title = Potvrđivanje pretplate…
 next-subscription-error-title = Pogreška pri potvrđivanju pretplate…
+subscription-title-plan-change-heading = Pregledaj svoju promjenu
 next-sub-guarantee = 30-dnevno jamstvo povrata novca
 
 ## Component - TermsAndPrivacy
@@ -171,9 +178,13 @@ next-subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capita
 next-terms = Uvjeti usluge
 next-privacy = Napomena o privatnosti
 next-terms-download = Uvjeti preuzimanja
+terms-and-privacy-stripe-label = { -brand-mozilla } koristi { -brand-name-stripe } za sigurnu obradu plaćanja.
 
 ## Component - UpdatedPurchaseDetails
 
+upgrade-purchase-details-current-plan-label = Aktualni plan
+upgrade-purchase-details-new-plan-label = Novi plan
+upgrade-purchase-details-promo-code = Kod kupona
 
 ## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
