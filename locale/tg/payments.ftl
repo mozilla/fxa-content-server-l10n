@@ -14,6 +14,7 @@ settings-project-header-title = { -product-mozilla-account }
 coupon-promo-code-applied = Рамзи таблиғотӣ татбиқ карда шуд
 coupon-submit = Татбиқ кардан
 coupon-remove = Тоза кардан
+coupon-error-invalid = Рамзе, ки шумо ворид кардед, нодуруст аст.
 # $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
 coupon-enter-code =
     .placeholder = Рамзро ворид кунед
@@ -29,6 +30,7 @@ brand-name-mozilla-logo = Тамғаи «{ -brand-mozilla }»
 
 ## Component - NewUserEmailForm
 
+new-user-sign-in-link-2 = Аллакай «{ -product-mozilla-account }» доред? <a>Ворид шавед</a>
 # "Required" to indicate that the user must use the checkbox below this text to
 # agree to a payment method's terms of service and privacy notice in order to
 # continue.
@@ -120,6 +122,7 @@ payment-method-header-second-step = 2. { payment-method-header }
 
 ## Component - PaymentProviderDetails
 
+payment-confirmation-cc-card-ending-in = Корте, ки бо { $last4 } анҷом меёбад
 
 ## Component - PayPalButton
 
@@ -187,6 +190,17 @@ price-details-no-tax-year =
         { $intervalCount ->
             [one] { $priceAmount } барои ҳар сол
            *[other] { $priceAmount } барои ҳар { $intervalCount } сол
+        }
+# $intervalCount (Number) - The interval between payments, in days.
+price-details-tax-day =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } андоз барои ҳар як рӯз
+       *[other] { $priceAmount } + { $taxAmount } андоз барои ҳар { $intervalCount } рӯз
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } андоз барои ҳар як рӯз
+           *[other] { $priceAmount } + { $taxAmount } андоз барои ҳар { $intervalCount } рӯз
         }
 
 ## Component - SubscriptionTitle

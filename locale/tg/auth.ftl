@@ -318,6 +318,8 @@ passwordResetRecoveryPhone-device = Телефони барқарорсозӣ и
 passwordResetRecoveryPhone-action = Идоракунии ҳисоб
 passwordResetWithRecoveryKeyPrompt-subject = Ниҳонвожаи шумо аз нав барқарор карда шуд
 passwordResetWithRecoveryKeyPrompt-title = Ниҳонвожаи шумо аз нав барқарор карда шуд
+# Details of the device and date/time where the password was reset
+passwordResetWithRecoveryKeyPrompt-description = Маълумоти барқарорсозии ниҳонвожаи «{ -product-mozilla-account }»-и шумо дар:
 # Text for button action to create a new account recovery key
 passwordResetWithRecoveryKeyPrompt-action = Эҷод кардани калиди барқарорсозии ҳисоб
 # colon is followed by a link to create an account recovery key from the account settings page
@@ -358,6 +360,10 @@ postChangeRecoveryPhone-requested-device = Шумо онро дар дастго
 postConsumeRecoveryCode-description-3 = Рамз истифода карда шуд аз:
 postConsumeRecoveryCode-action = Идоракунии ҳисоб
 postConsumeRecoveryCode-subject-v3 = Рамзи санҷиши ҳаққоният истифода карда шуд
+postNewRecoveryCodes-subject-2 = Нусхаҳои эҳтиётии нави рамзи санҷиши ҳаққоният эҷод карда шуданд
+postNewRecoveryCodes-title-2 = Шумо нусхаҳои эҳтиётии нави рамзи санҷиши ҳаққониятро эҷод кардед
+# After the colon, there is information about the device that the authentication codes were created on
+postNewRecoveryCodes-description-2 = Онҳо эҷод карда шудаанд дар:
 postNewRecoveryCodes-action = Идоракунии ҳисоб
 postRemoveAccountRecovery-subject-2 = Калиди барқарорсозии ҳисоб нест карда шуд
 postRemoveAccountRecovery-title-3 = Шумо калиди барқарорсозии ҳисобро нест кардед
@@ -376,11 +382,13 @@ postRemoveTwoStepAuthentication-from-device = Шумо онро дар даст�
 postRemoveTwoStepAuthentication-action = Идоракунии ҳисоб
 postSigninRecoveryCode-subject = Нусхаи эҳтиётии рамзҳои санҷиши ҳаққоният, ки барои воридшавӣ истифода мешавад
 postSigninRecoveryCode-preview = Тасдиқ кардани фаъолияти ҳисоб
+postSigninRecoveryCode-title = Нусхаи эҳтиётии рамзи санҷиши ҳаққонияти шумо барои воридшавӣ истифода шуд
 postSigninRecoveryCode-device = Шумо аз дастгоҳи зерин ворид шудед:
 postSigninRecoveryCode-action = Идоракунии ҳисоб
 postSigninRecoveryPhone-subject = Рақами телефони барқарорсозӣ барои воридшавӣ истифода шуд
 postSigninRecoveryPhone-preview = Тасдиқ кардани фаъолияти ҳисоб
 postSigninRecoveryPhone-title = Рақами телефони барқарорсозии шумо барои воридшавӣ истифода шуд
+postSigninRecoveryPhone-device = Шумо аз дастгоҳи зерин ворид шудед:
 postSigninRecoveryPhone-action = Идоракунии ҳисоб
 postVerify-subject-4 = Хуш омадед ба «{ -brand-mozilla }»!
 postVerify-setup-2 = Пайваст кардани дастгоҳи дигар:
