@@ -1629,7 +1629,7 @@ msgstr "Kartica ne stiže? Pošalji e-mail umjesto toga"
 
 #: .es5/templates/post_verify/third_party_auth/set_password.mustache:2
 msgid "Please create a password to continue to Firefox Sync. Your data is encrypted with your password to protect your privacy."
-msgstr ""
+msgstr "Stvori lozinku za nastavljanje s Firefox sinkronizacijom. Tvoji se podaci šifriraju s tvojom lozinkom kako bi se zaštitila tvoja privatnost."
 
 #: .es5/templates/post_verify/third_party_auth/set_password.mustache:9 .es5/templates/post_verify/finish_account_setup/set_password.mustache:9
 msgid "Create password"
@@ -1678,7 +1678,7 @@ msgstr "za nastavak na %(serviceName)s"
 #: .es5/templates/post_verify/password/force_password_change.mustache:5
 msgid ""
 "We detected suspicious behavior on your Mozilla account. To protect your account, please create a new password. You’ll use this password to sign back in to all of your Mozilla account services."
-msgstr ""
+msgstr "Otkrili smo sumnjivo ponašanje na tvom Mozilla računu. Za zaštitu tvog računa, stvori novu lozinku. Koristit ćeš ovu lozinku za ponovnu prijavu na sve tvoje usluge Mozilla računa."
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:6
 msgid "Synced history, bookmarks, logins, and other personal data will not be lost."
@@ -1718,7 +1718,7 @@ msgstr "Pretplati se na %(email)s"
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:2
 msgid "The link you clicked was missing characters, and may have been broken by your email client."
-msgstr ""
+msgstr "Poveznici koju si kliknuo/la su nedostajali znakovi i možda ju je tvoj program za e-poštu oštetio."
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:3 .es5/templates/post_verify/finish_account_setup/set_password.mustache:6
 msgid "Create a Mozilla account"
@@ -1818,7 +1818,7 @@ msgstr "<span class=\"number\">4</span>Prijavi se na svoj račun"
 
 #: .es5/templates/partial/account-suggestion.mustache:1
 msgid "Why do I need to create this account? <a %(escapedSuggestionAttrs)s>Find out here</a>"
-msgstr ""
+msgstr "Zašto moram stvoriti ovaj račun? <a %(escapedSuggestionAttrs)s>Saznaj ovdje</a>"
 
 #: .es5/templates/partial/brand-messaging.mustache:2
 msgid "Firefox accounts will be renamed Mozilla accounts on Nov 1"
@@ -1826,7 +1826,7 @@ msgstr "Firefox računi će se preimenovani u Mozilla račune 1. studenoga"
 
 #: .es5/templates/partial/brand-messaging.mustache:3
 msgid "You’ll still sign in with the same username and password, and there are no other changes to the products that you use."
-msgstr ""
+msgstr "I dalje ćeš se prijavljivati s istim korisničkim imenom i lozinkom i ništa se neće promijeniti u proizvodima koje koristiš."
 
 #: .es5/templates/partial/brand-messaging.mustache:4 .es5/templates/partial/brand-messaging.mustache:7 .es5/templates/partial/unsupported-pair.mustache:3
 msgid "Learn more"
@@ -1842,7 +1842,7 @@ msgstr "Zatvori natpis"
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you? To learn why we ask for your age, follow the “why do we ask” link below."
-msgstr ""
+msgstr "Koliko imaš godina? Klikni poveznicu „zašto pitamo” i saznaj zašto te to pitamo."
 
 #: .es5/templates/partial/coppa-age-input.mustache:2
 msgid "How old are you?"
