@@ -1613,11 +1613,11 @@ msgstr "Ako misliš da netko pokušava dobiti pristup tvom računu, <a id=\"chan
 
 #: .es5/templates/push/send_login.mustache:2
 msgid "Send login push notification"
-msgstr ""
+msgstr "Šalji push obavijest o prijavi"
 
 #: .es5/templates/push/send_login.mustache:3
 msgid "Check your connected Firefox devices for the sign-in confirmation tab we've sent."
-msgstr ""
+msgstr "Provjeri svoje povezane Firefox uređaje za karticu s potvrdom prijave koju smo poslali."
 
 #: .es5/templates/push/send_login.mustache:4
 msgid "Resend tab"
