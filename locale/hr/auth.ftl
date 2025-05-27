@@ -158,6 +158,15 @@ automated-email-reset = Ovo je automatizirana e-mail poruka; ako nisi odobrio/la
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext-v2 = Ako nisi odobrio/la ovu radnju, resetiraj lozinku sada na { $resetLink }
+# This message is used by multiple automated emails that notify users of security events on their account
+# "this action" is meant to be a generic term, and could, for example, refer to using a backup authentication code to confirm a password reset
+automated-email-reset-pwd-two-factor =
+    Ako nisi poduzeo/la ovu radnju, odmah <a data-l10n-name="resetLink">resetiraj lozinku</a> i <a data-l10n-name="twoFactorSettingsLink">resetiraj dvofaktorsku autentifikaciju</a>.
+    Za više informacija posjeti stranicu <a data-l10n-name="supportLink">{ -brand-mozilla } podrške</a>.
+# Followed by link to https://accounts.firefox.com/reset_password
+automated-email-reset-pwd-plaintext-v3 = Ako nisi poduzeo/la ovu radnju, odmah resetiraj lozinku na:
+# Followed by link to https://accounts.firefox.com/settings#two-step-authentication
+automated-email-reset-two-factor-plaintext = Također resetiraj dvofaktorsku autentifikaciju na:
 brand-banner-message = Znaš li da smo promijenili ime { -product-firefox-accounts } u { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Saznaj više</a>
 cancellationSurvey = Pomogni nam poboljšati naše usluge ispunjavanjem ove <a data-l10n-name="cancellationSurveyUrl">kratke ankete</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
@@ -219,6 +228,7 @@ subscriptionCharges-content-tax = Porezi i naknade: { $invoiceTaxAmount }
 ##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
 
 subscriptionFirstInvoice-content-charge = Naplaćeno { $invoiceTotal }, { $invoiceDateOnly }
+subscriptionFirstInvoice-content-credit = Primio/la si kredit u iznosu od { $invoiceTotal }, koji će se obračunati s tvojim budućim računima.
 subscriptionSupport = Imaš pitanja o tvojoj pretplati? Naš <a data-l10n-name="subscriptionSupportUrl">tim za podršku</a> ti može pomoći.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Pitanja o tvojoj pretplati? Naš tim za podršku spreman je pomoći:
@@ -365,6 +375,7 @@ passwordResetAccountRecovery-information = Odjavili smo te sa svih tvojih sinkro
 # After the colon there is a link to account settings
 passwordResetAccountRecovery-information-txt = Odjavili smo te sa svih tvojih sinkroniziranih uređaja. Generirali smo novi ključ za obnavljanje računa koji će zamijeniti prijašnji ključ. Možeš ga promijeniti u postavkama računa.
 passwordResetAccountRecovery-action-4 = Upravljaj računom
+passwordResetRecoveryPhone-subject = Telefonski broj za obnavljanje je korišten
 passwordResetWithRecoveryKeyPrompt-subject = Tvoja je lozinka resetirana
 passwordResetWithRecoveryKeyPrompt-title = Tvoja je lozinka resetirana
 # Details of the device and date/time where the password was reset
@@ -386,9 +397,11 @@ postAddLinkedAccount-subject-2 = Novi račun je povezan s tvojim { -product-mozi
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = Tvoj { $providerName } račun je povezan s tvojim { -product-mozilla-account }
 postAddLinkedAccount-action = Upravljaj računom
+postAddRecoveryPhone-subject = Telefonski broj za obnavljanje je dodan
 # Links out to a support article about two factor authentication
 postAddRecoveryPhone-how-protect = Kako ovo štiti tvoj račun
 postAddRecoveryPhone-how-protect-plaintext = Kako ovo štiti tvoj račun:
+postAddRecoveryPhone-enabled-device = Aktivirao/la si ga s:
 postAddRecoveryPhone-action = Upravljaj računom
 postAddTwoStepAuthentication-subject-2 = Dvofaktorska autentifikacija aktivirana
 postAddTwoStepAuthentication-title-2 = Aktivirao/la si dvofaktorsku autentifikaciju
@@ -407,6 +420,9 @@ postChangePrimary-title = Nova primarna adresa e-pošte
 #  $email (String) - A user's email address
 postChangePrimary-description-2 = Uspješno si promijenio/la svoju primarnu e-mail adresu u { $email }. Ova je adresa sada tvoje korisničko ime za prijavu na tvoj { -product-mozilla-account }, kao i za primanje sigurnosnih obavijesti i potvrda prijava.
 postChangePrimary-action = Upravljaj računom
+postChangeRecoveryPhone-subject = Telefonski broj za obnavljanje je aktualiziran
+postChangeRecoveryPhone-title = Promijenio/la si telefonski broj za obnavljanje
+postChangeRecoveryPhone-description = Sada imaš novi telefonski broj za obnavljanje. Tvoj prethodni telefonski broj je izbrisan.
 postConsumeRecoveryCode-action = Upravljaj računom
 postNewRecoveryCodes-subject-2 = Stvoreni su novi kodovi autentifikacije za spremanje sigurnosnih kopija
 postNewRecoveryCodes-title-2 = Stvorio/la si nove kodove autentifikacije za spremanje sigurnosnih kopija
