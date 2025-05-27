@@ -392,6 +392,7 @@ password-strength-inline-confirmed-must-match = Potvrda odgovara novoj lozinci
 ## Notification Promo Banner component
 
 account-recovery-notification-cta = Stvori
+recovery-phone-promo-cta = Dodaj telefonski broj za obnavljanje
 promo-banner-dismiss-button =
     .aria-label = Ukloni natpis
 

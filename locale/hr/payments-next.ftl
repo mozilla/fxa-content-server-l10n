@@ -167,6 +167,7 @@ next-subscription-create-title = Postavi svoju pretplatu
 next-subscription-success-title = Potvrda pretplate
 next-subscription-processing-title = Potvrđivanje pretplate…
 next-subscription-error-title = Pogreška pri potvrđivanju pretplate…
+subscription-title-sub-exists = Već si pretplaćen/a
 subscription-title-plan-change-heading = Pregledaj svoju promjenu
 next-sub-guarantee = 30-dnevno jamstvo povrata novca
 
@@ -194,4 +195,6 @@ upgrade-purchase-details-promo-code = Kod kupona
 upgrade-purchase-details-new-plan-daily = { $productName } (dnevno)
 upgrade-purchase-details-new-plan-weekly = { $productName } (tjedno)
 upgrade-purchase-details-new-plan-monthly = { $productName } (mjesečno)
+upgrade-purchase-details-new-plan-halfyearly = { $productName } (6 mjeseci)
+upgrade-purchase-details-new-plan-yearly = { $productName } (godišnje)
 upgrade-purchase-details-prorated-credits = Prikazani negativni saldo će se primijeniti kao krediti na tvoj račun i koristit će se za buduće račune.
