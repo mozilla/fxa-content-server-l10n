@@ -179,6 +179,8 @@ next-terms = Uvjeti usluge
 next-privacy = Napomena o privatnosti
 next-terms-download = Uvjeti preuzimanja
 terms-and-privacy-stripe-label = { -brand-mozilla } koristi { -brand-name-stripe } za sigurnu obradu plaćanja.
+terms-and-privacy-stripe-link = { -brand-name-stripe } politika privatnosti
+terms-and-privacy-paypal-link = { -brand-paypal } politika privatnosti
 
 ## Component - UpdatedPurchaseDetails
 
