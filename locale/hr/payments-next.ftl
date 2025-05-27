@@ -1,6 +1,8 @@
 ## Page
 
 checkout-signin-or-create = 1. Prijavi se ili stvori { -product-mozilla-account }
+# This string appears as a separation between the two sign-in options, "Enter your email"(signin-form-email-input) "or"(this string) "Continue with Google"(continue-signin-with-google-button) / "Continue with Apple"(continue-signin-with-apple-button)
+checkout-signin-options-or = ili
 continue-signin-with-google-button = Nastavi s { -brand-google }
 continue-signin-with-apple-button = Nastavi s { -brand-apple }
 next-payment-method-header = Odaberi način plaćanja
@@ -10,6 +12,7 @@ next-payment-method-first-approve = Najprije moraš odobriti tvoju pretplatu
 
 ## Page - Upgrade page
 
+upgrade-page-payment-information = Informacije o plaćanju
 checkout-error-boundary-retry-button = Pokušaj ponovo
 checkout-error-boundary-basic-error-message = Nešto nije u redu. Pokušaj ponovo ili <contactSupportLink>kontaktiraj podršku.</contactSupportLink>
 
@@ -20,6 +23,9 @@ next-payment-error-manage-subscription-button = Upravljaj mojom pretplatom
 next-iap-upgrade-contact-support = Još uvijek možeš dobiti ovaj proizvod – kontaktiraj podršku kako bismo ti pomogli.
 next-payment-error-retry-button = Pokušaj ponovo
 next-basic-error-message = Nešto nije u redu. Pokušaj kasnije ponovo.
+checkout-error-contact-support-button = Kontaktiraj podršku
+checkout-error-not-eligible = Ne ispunjavaš uvjete za pretplatu na ovaj proizvod – kontaktiraj podršku kako bismo ti pomogli.
+checkout-error-contact-support = Kontaktiraj podršku kako bismo ti pomogli.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -175,3 +181,4 @@ next-terms-download = Uvjeti preuzimanja
 upgrade-purchase-details-new-plan-daily = { $productName } (dnevno)
 upgrade-purchase-details-new-plan-weekly = { $productName } (tjedno)
 upgrade-purchase-details-new-plan-monthly = { $productName } (mjesečno)
+upgrade-purchase-details-prorated-credits = Prikazani negativni saldo će se primijeniti kao krediti na tvoj račun i koristit će se za buduće račune.

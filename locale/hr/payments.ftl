@@ -490,12 +490,13 @@ sub-item-cancel-confirm =
 # Cybersecurity Awareness Month 2023 coupon applied: $11.20 + $0.35 tax
 # Summer Promo VPN coupon applied: $11.20
 sub-promo-coupon-applied = Kupon { $promotion_name } primijenjen: <priceDetails></priceDetails>
+subscription-management-account-credit-balance = Kao rezultat plaćanja pretplate, stanje na vašem računu je nadopunjeno: <priceDetails></priceDetails>
 
 ## Routes - Subscription
 
 sub-route-idx-reactivating = Ponovno aktiviranje pretplate nije uspjelo
 sub-route-idx-cancel-failed = Otkazivanje pretplate nije uspjelo
-sub-route-idx-contact = Obrati se podršci
+sub-route-idx-contact = Kontaktiraj podršku
 sub-route-idx-cancel-msg-title = Žao nam je što nas napuštaš
 # $name (String) - The name of the subscribed product.
 # $date (Date) - Last day of product access
