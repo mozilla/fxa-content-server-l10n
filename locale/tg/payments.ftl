@@ -202,10 +202,48 @@ price-details-tax-day =
             [one] { $priceAmount } + { $taxAmount } андоз барои ҳар як рӯз
            *[other] { $priceAmount } + { $taxAmount } андоз барои ҳар { $intervalCount } рӯз
         }
+# $intervalCount (Number) - The interval between payments, in weeks.
+price-details-tax-week =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } андоз барои ҳар як ҳафта
+       *[other] { $priceAmount } + { $taxAmount } андоз барои ҳар { $intervalCount } ҳафта
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } андоз барои ҳар як ҳафта
+           *[other] { $priceAmount } + { $taxAmount } андоз барои ҳар { $intervalCount } ҳафта
+        }
+# $intervalCount (Number) - The interval between payments, in months.
+price-details-tax-month =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } андоз барои ҳар як моҳ
+       *[other] { $priceAmount } + { $taxAmount } андоз барои ҳар { $intervalCount } моҳ
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } андоз барои ҳар як моҳ
+           *[other] { $priceAmount } + { $taxAmount } андоз барои ҳар { $intervalCount } моҳ
+        }
+# $intervalCount (Number) - The interval between payments, in years.
+price-details-tax-year =
+    { $intervalCount ->
+        [one] { $priceAmount } + { $taxAmount } андоз барои ҳар як сол
+       *[other] { $priceAmount } + { $taxAmount } андоз барои ҳар { $intervalCount } сол
+    }
+    .title =
+        { $intervalCount ->
+            [one] { $priceAmount } + { $taxAmount } андоз барои ҳар як сол
+           *[other] { $priceAmount } + { $taxAmount } андоз барои ҳар { $intervalCount } сол
+        }
 
 ## Component - SubscriptionTitle
 
 subscription-create-title = Обунаи худро танзим кунед
+subscription-success-title = Тасдиқи обуна
+subscription-processing-title = Дар ҳоли тасдиқи обуна…
+subscription-error-title = Хатои тасдиқи обуна…
+subscription-noplanchange-title = Ин тағйироти нақшаи обуна дастгирӣ намешавад
+subscription-iapsubscribed-title = Аллакай обуна шудааст
 sub-guarantee = Кафолати 30-рӯза барои бозпардохти маблағи шумо
 
 ## Component - TermsAndPrivacy
@@ -281,6 +319,8 @@ plan-price-interval-year =
 # App error dialog
 general-error-heading = Хатои умумии барнома
 basic-error-message = Чизе нодуруст иҷро шуд. Лутфан, баъдтар аз нав кӯшиш кунед.
+expired-card-error = Чунин ба назар мерасад, ки муҳлати эътибории корти бонкии шумо ба охир расидааст. Корти дигареро кӯшиш кунед.
+insufficient-funds-error = Чунин ба назар мерасад, ки корти бонкии шумо маблағи кофӣ надорад. Корти дигареро кӯшиш кунед.
 product-plan-error =
     .title = Мушкилии боркунии нақшаҳо
 product-profile-error =
