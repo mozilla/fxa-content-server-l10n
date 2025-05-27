@@ -1894,7 +1894,7 @@ msgstr "Nije često korištena lozinka"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:11
 msgid "Stay safe &mdash; don’t reuse passwords. See more tips to <a %(escapedCommonPasswordLinkAttrs)s class=\"link-grey\">create strong passwords</a>."
-msgstr ""
+msgstr "Čuvaj se &ndash; nemoj ponovo koristiti lozinke. Pogledaj savjete za <a %(escapedCommonPasswordLinkAttrs)s class=\"link-grey\">stvaranje jakih lozinki</a>."
 
 #: .es5/templates/partial/support-form-error.mustache:1
 msgid "Hmm, we're having trouble with our system. We're working on fixing it for you and apologize for the inconvenience. Please try again later."
@@ -1922,11 +1922,11 @@ msgstr "Nastavi s Apple"
 
 #: .es5/templates/partial/unsupported-pair.mustache:1
 msgid "Connecting your mobile device with your Mozilla account"
-msgstr ""
+msgstr "Povezivanje mobilnog uređaja s tvojim Mozilla računom"
 
 #: .es5/templates/partial/unsupported-pair.mustache:2
 msgid "Open Firefox on your computer, visit <b class=\"whitespace-nowrap\">firefox.com/pair</b>, and follow the on-screen instructions to connect your mobile device."
-msgstr ""
+msgstr "Otvori Firefox na računalu, idi na stranicu <b class=\"whitespace-nowrap\">firefox.com/pair</b> i slijedi upute za povezivanje mobilnog uređaja."
 
 #: .es5/templates/pair/auth_allow.mustache:1
 msgid "Did you just sign in to Firefox?"

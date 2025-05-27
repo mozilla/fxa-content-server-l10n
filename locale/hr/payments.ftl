@@ -462,6 +462,7 @@ sub-update-new-plan-daily = { $productName } (dnevno)
 sub-update-new-plan-weekly = { $productName } (tjedno)
 sub-update-new-plan-monthly = { $productName } (mjesečno)
 sub-update-new-plan-yearly = { $productName } (godišnje)
+sub-update-prorated-upgrade-credit = Prikazani negativni saldo će se primijeniti kao krediti na tvoj račun i koristit će se za buduće račune.
 
 ## Routes - Subscriptions - Cancel
 
