@@ -1612,6 +1612,12 @@ password-reset-recovery-method-subheader = Vel ein gjenopprettingsmetode
 password-reset-recovery-method-details = La oss forsikre oss om at det er du som brukar gjenopprettingsmetodane dine.
 password-reset-recovery-method-phone = Gjenopprettingstelefon
 password-reset-recovery-method-code = Reserve-godkjenningskodar
+# Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
+password-reset-recovery-method-code-info =
+    { $numBackupCodes ->
+        [one] { $numBackupCodes } kode er att
+       *[other] { $numBackupCodes } kodar er att
+    }
 # Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
 password-reset-recovery-method-send-code-error-heading = Det oppstod eit problem med å sende ein kode til gjenopprettingstelefonen din
 password-reset-recovery-method-send-code-error-description = Prøv igjen seinare eller bruk reserve-godkjenningskodane dine.
