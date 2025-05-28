@@ -379,7 +379,11 @@ passwordResetAccountRecovery-information = ანგარიშიდან გ
 # After the colon there is a link to account settings
 passwordResetAccountRecovery-information-txt = ანგარიშიდან გამოხვალთ ყველა დასინქრონებული მოწყობილობიდან. თქვენთვის შექმნილია აღდგენის ახალი გასაღები გამოყენებულის სანაცვლოდ. შეცვლა შეგიძლიათ ანგარიშის პარამეტრებიდან:
 passwordResetAccountRecovery-action-4 = ანგარიშის მართვა
-passwordResetRecoveryPhone-subject = აღდგენის ტელეფონინ გამოყენებულია
+passwordResetRecoveryPhone-subject = გამოყენებულია აღდგენის ტელეფონი
+passwordResetRecoveryPhone-preview = გადაამოწმეთ, რომ ნამდვილად თქვენ იყავით
+passwordResetRecoveryPhone-title = თქვენი აღდგენის ტელეფონი გამოყენებულია პაროლის განულების დასადასტურებლად
+passwordResetRecoveryPhone-device = აღდგენის ტელეფონის გამოყენების ადგილი:
+passwordResetRecoveryPhone-action = ანგარიშის მართვა
 passwordResetWithRecoveryKeyPrompt-subject = თქვენი პაროლი აღდგენილია
 passwordResetWithRecoveryKeyPrompt-title = თქვენი პაროლი აღდგენილია
 # Details of the device and date/time where the password was reset
@@ -434,7 +438,13 @@ postChangeRecoveryPhone-preview = ანგარიში დაცულია
 postChangeRecoveryPhone-title = თქვენ შეცვალეთ აღდგენის ტელეფონი
 postChangeRecoveryPhone-description = თქვენ უკვე გაქვთ მითითებული აღდგენის ახალი ტელეფონი. წინა ტელეფონი წაშლილია.
 postChangeRecoveryPhone-requested-device = მოთხოვნა იყო აქედან:
+postConsumeRecoveryCode-title-3 = თქვენი სამარქაფო კოდია გამოყენებული პაროლის გასანულებლად
+# After the colon, there is description of the device that the backup authentication code was used on
+# E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
+postConsumeRecoveryCode-description-3 = კოდის გამოყენების ადგილი:
 postConsumeRecoveryCode-action = ანგარიშის მართვა
+postConsumeRecoveryCode-subject-v3 = გამოყენებულია შესვლის სამარქაფო კოდი
+postConsumeRecoveryCode-preview = გადაამოწმეთ, რომ ნამდვილად თქვენ იყავით
 postNewRecoveryCodes-subject-2 = შეიქმნა შესვლის დასამოწმებელი ახალი სამარქაფო კოდები
 postNewRecoveryCodes-title-2 = შექმნილია შესვლის დასამოწმებელი ახალი სამარქაფო კოდები
 # After the colon, there is information about the device that the authentication codes were created on
@@ -463,13 +473,13 @@ postRemoveTwoStepAuthentication-title-2 = ორბიჯიანი დამ�
 postRemoveTwoStepAuthentication-from-device = გამოირთო აქედან:
 postRemoveTwoStepAuthentication-action = ანგარიშის მართვა
 postRemoveTwoStepAuthentication-not-required-2 = შესვლისას აღარ დაგჭირდებათ უსაფრთხოების კოდები შესვლის დასამოწმებელი აპიდან.
-postSigninRecoveryCode-subject = სამარქაფო კოდია გამოყენებული შესასვლელად
+postSigninRecoveryCode-subject = გამოყენებულია სამარქაფო კოდი შესასვლელად
 postSigninRecoveryCode-preview = დაამოწმეთ ანგარიშზე მოქმედება
 postSigninRecoveryCode-title = თქვენი სამარქაფო კოდია გამოყენებული შესასვლელად
 postSigninRecoveryCode-description = თუ ეს თქვენ არ მოგიმოქმედებიათ, დაუყოვნებლივ უნდა შეცვალოთ პაროლი ანგარიშის უსაფრთხოების დასაცავად.
 postSigninRecoveryCode-device = შესული ხართ აქედან:
 postSigninRecoveryCode-action = ანგარიშის მართვა
-postSigninRecoveryPhone-subject = შესასვლელად გამოყენებულია აღდგენის ტელეფონი
+postSigninRecoveryPhone-subject = გამოყენებულია აღდგენის ტელეფონი შესვლისთვის
 postSigninRecoveryPhone-preview = დაამოწმეთ ანგარიშზე მოქმედება
 postSigninRecoveryPhone-title = თქვენს აღდგენის ტელეფონია გამოყენებული შესასვლელად
 postSigninRecoveryPhone-description = თუ ეს თქვენ არ მოგიმოქმედებიათ, დაუყოვნებლივ უნდა შეცვალოთ პაროლი ანგარიშის უსაფრთხოების დასაცავად.
