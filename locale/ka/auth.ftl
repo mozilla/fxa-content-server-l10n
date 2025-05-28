@@ -160,6 +160,15 @@ automated-email-reset =
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext-v2 = თუ თქვენ არ მოგიმოქმედებიათ რამე, გთხოვთ, ახლავე გაანულოთ პაროლი ბმულზე { $resetLink }
+# This message is used by multiple automated emails that notify users of security events on their account
+# "this action" is meant to be a generic term, and could, for example, refer to using a backup authentication code to confirm a password reset
+automated-email-reset-pwd-two-factor =
+    თუ თქვენ არაფერი მოგიმოქმედებიათ, მაშინ <a data-l10n-name="resetLink">გაანულეთ პაროლი</a> და <a data-l10n-name="twoFactorSettingsLink">ახლიდან გამართეთ ორსაფეხურიანი დამოწმება</a> დაუყოვნებლივ.
+    ვრცლად იხილეთ <a data-l10n-name="supportLink">{ -brand-mozilla } მხარდაჭერა</a>.
+# Followed by link to https://accounts.firefox.com/reset_password
+automated-email-reset-pwd-plaintext-v3 = თუ თქვენ არაფერი მოგიმოქმედებიათ, მაშინ გაანულეთ პაროლი დაუყოვნებლივ:
+# Followed by link to https://accounts.firefox.com/settings#two-step-authentication
+automated-email-reset-two-factor-plaintext = ამასთანავე, ხელახლა გამართეთ ორბიჯიანი დამოწმება:
 brand-banner-message = იცოდით, რომ { -product-firefox-accounts(case: "dat") } სახელი შეეცვლება და ერქმევა { -product-mozilla-accounts }? <a data-l10n-name="learnMore">ვრცლად</a>
 cancellationSurvey = გთხოვთ, დაგვეხმაროთ მომსახურების გაუმჯობესებაში და შეავსოთ ეს <a data-l10n-name="cancellationSurveyUrl">მცირე კითხვარი</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
@@ -370,6 +379,7 @@ passwordResetAccountRecovery-information = ანგარიშიდან გ
 # After the colon there is a link to account settings
 passwordResetAccountRecovery-information-txt = ანგარიშიდან გამოხვალთ ყველა დასინქრონებული მოწყობილობიდან. თქვენთვის შექმნილია აღდგენის ახალი გასაღები გამოყენებულის სანაცვლოდ. შეცვლა შეგიძლიათ ანგარიშის პარამეტრებიდან:
 passwordResetAccountRecovery-action-4 = ანგარიშის მართვა
+passwordResetRecoveryPhone-subject = აღდგენის ტელეფონინ გამოყენებულია
 passwordResetWithRecoveryKeyPrompt-subject = თქვენი პაროლი აღდგენილია
 passwordResetWithRecoveryKeyPrompt-title = თქვენი პაროლი აღდგენილია
 # Details of the device and date/time where the password was reset
