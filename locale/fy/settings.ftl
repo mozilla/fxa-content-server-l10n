@@ -368,12 +368,6 @@ primary-email-confirmation-link-reused = Primêr e-mailadres al befêstige
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Oanmelding is al befêstige
 confirmation-link-reused-message = Dy befêstigingskeppeling is al brûkt en kin mar ien kear brûkt wurde.
-
-## Notification Promo Banner component
-
-account-recovery-notification-cta = Oanmeitsje
-account-recovery-notification-header-value = Ferlies jo gegevens net as jo jo wachtwurd ferjitte
-account-recovery-notification-header-description = Meitsje in accountwerstelkaai oan, sadat jo jo syngronisearre navigaasjegegevens weromsette kinne as jo jo wachtwurd ea ferjitte.
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Unjildige oanfraach
 
@@ -397,6 +391,18 @@ password-strength-inline-min-length = Op syn minst 8 karakters
 password-strength-inline-not-email = Net jo e-mailadres
 password-strength-inline-not-common = Net in faaks brûkt wachtwurd
 password-strength-inline-confirmed-must-match = Befêstiging komt oerien mei it nije wachtwurd
+
+## Notification Promo Banner component
+
+account-recovery-notification-cta = Oanmeitsje
+account-recovery-notification-header-value = Ferlies jo gegevens net as jo jo wachtwurd ferjitte
+account-recovery-notification-header-description = Meitsje in accountwerstelkaai oan, sadat jo jo syngronisearre navigaasjegegevens weromsette kinne as jo jo wachtwurd ea ferjitte.
+recovery-phone-promo-cta = Wersteltelefoannûmer tafoegje
+recovery-phone-promo-heading = Foegje ekstra beskerming ta oan jo account mei in wersteltelefoannûmer
+recovery-phone-promo-description = Jo kinne jo no oanmelde mei in ienmalich wachtwurd fia sms as jo jo twa-staps-autentikaasje-app net brûke kinne.
+recovery-phone-promo-info-link = Mear ynfo oer werstel en simswaprisiko
+promo-banner-dismiss-button =
+    .aria-label = Banner slute
 
 ## Ready component
 
@@ -1604,6 +1610,28 @@ password-reset-submit-button-2 = Trochgean
 reset-password-complete-header = Jo wachtwurd is opnij ynsteld
 # $serviceName is a product name such as Monitor, Pocket, Relay
 reset-password-confirmed-cta = Trochgean nei { $serviceName }
+
+## Reset password recovery method page
+## This page is shown to users when they are having trouble resetting their
+
+
+# password, and they previously had set up an account recovery method.
+
+password-reset-recovery-method-header = Jo wachtwurd werinisjalisearje
+password-reset-recovery-method-subheader = In werstelmetoade kieze
+# This is displayed to the user when they are choosing an alternative method to authenticate themself in the password reset process when they do not have access to their two-factor authenticator application
+password-reset-recovery-method-details = Litte wy der wis fan wêze dat jo it binne dy’t jo werstelmetoaden brûke.
+password-reset-recovery-method-phone = Wersteltelefoannûmer
+password-reset-recovery-method-code = Reserve-autentikaasjekoaden
+# Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
+password-reset-recovery-method-code-info =
+    { $numBackupCodes ->
+        [one] { $numBackupCodes } koade restearjend
+       *[other] { $numBackupCodes } koaden restearjend
+    }
+# Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
+password-reset-recovery-method-send-code-error-heading = Der is in probleem bard by it ferstjoeren fan in koade nei jo wersteltelefoannûmer
+password-reset-recovery-method-send-code-error-description = Probearje it letter opnij of brûk jo reservekopy-autentikaasjekoaden.
 reset-password-with-recovery-key-verified-page-title = Wachtwurd mei sukses opnij ynsteld
 reset-password-complete-new-password-saved = Nij wachtwurd bewarre!
 reset-password-complete-recovery-key-created = Nije accountwerstelkaai oanmakke. Download en bewarje dizze no.

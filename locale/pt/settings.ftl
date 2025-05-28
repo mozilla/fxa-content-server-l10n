@@ -368,12 +368,6 @@ primary-email-confirmation-link-reused = O e-mail primário já foi confirmado
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = O início de sessão já foi confirmado
 confirmation-link-reused-message = A ligação de confirmação já foi utilizada e só pode ser utilizada uma vez.
-
-## Notification Promo Banner component
-
-account-recovery-notification-cta = Criar
-account-recovery-notification-header-value = Não perca os seus dados se se esquecer da sua palavra-passe
-account-recovery-notification-header-description = Crie uma chave de recuperação da conta para restaurar os seus dados de navegação sincronizados caso se esqueça da sua palavra-passe.
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Pedido inválido
 
@@ -397,6 +391,18 @@ password-strength-inline-min-length = Pelo menos 8 caracteres
 password-strength-inline-not-email = Não é o seu endereço de e-mail
 password-strength-inline-not-common = Não é uma palavra-passe habitualmente utilizada
 password-strength-inline-confirmed-must-match = A confirmação corresponde à nova palavra-passe
+
+## Notification Promo Banner component
+
+account-recovery-notification-cta = Criar
+account-recovery-notification-header-value = Não perca os seus dados se se esquecer da sua palavra-passe
+account-recovery-notification-header-description = Crie uma chave de recuperação da conta para restaurar os seus dados de navegação sincronizados caso se esqueça da sua palavra-passe.
+recovery-phone-promo-cta = Adicionar telefone de recuperação
+recovery-phone-promo-heading = Adicione proteção extra à sua conta com um telefone de recuperação
+recovery-phone-promo-description = Agora pode iniciar sessão com uma palavra-passe única via SMS, se não puder utilizar a sua aplicação de autenticação de dois passos.
+recovery-phone-promo-info-link = Saber mais acerca da recuperação e risco de troca de SIM
+promo-banner-dismiss-button =
+    .aria-label = Ignorar banner
 
 ## Ready component
 
@@ -1589,6 +1595,28 @@ password-reset-submit-button-2 = Continuar
 reset-password-complete-header = A sua palavra-passe foi reposta
 # $serviceName is a product name such as Monitor, Pocket, Relay
 reset-password-confirmed-cta = Continuar para { $serviceName }
+
+## Reset password recovery method page
+## This page is shown to users when they are having trouble resetting their
+
+
+# password, and they previously had set up an account recovery method.
+
+password-reset-recovery-method-header = Repor a sua palavra-passe
+password-reset-recovery-method-subheader = Escolha um método de recuperação
+# This is displayed to the user when they are choosing an alternative method to authenticate themself in the password reset process when they do not have access to their two-factor authenticator application
+password-reset-recovery-method-details = Vamos ter a certeza de que é você a utilizar os seus métodos de recuperação.
+password-reset-recovery-method-phone = Telefone de recuperação
+password-reset-recovery-method-code = Códigos de autenticação de recuperação
+# Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
+password-reset-recovery-method-code-info =
+    { $numBackupCodes ->
+        [one] { $numBackupCodes } código remanescente
+       *[other] { $numBackupCodes } códigos remanescentes
+    }
+# Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
+password-reset-recovery-method-send-code-error-heading = Ocorreu um problema ao enviar um código para o seu telefone de recuperação
+password-reset-recovery-method-send-code-error-description = Por favor, tente mais tarde ou utilize os seus códigos de autenticação de recuperação.
 reset-password-with-recovery-key-verified-page-title = Palavra-passe redefinida com sucesso
 reset-password-complete-new-password-saved = Nova palavra-passe guardada!
 reset-password-complete-recovery-key-created = Nova chave de recuperação da conta criada. Transferir e guardar agora.

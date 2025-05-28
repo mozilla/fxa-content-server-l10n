@@ -376,6 +376,11 @@ passwordResetAccountRecovery-information = Vi loggade ut dig från alla dina syn
 # After the colon there is a link to account settings
 passwordResetAccountRecovery-information-txt = Vi loggade ut dig från alla dina synkroniserade enheter. Vi skapade en ny kontoåterställningsnyckel för att ersätta den du använde. Du kan ändra det i dina kontoinställningar:
 passwordResetAccountRecovery-action-4 = Hantera konto
+passwordResetRecoveryPhone-subject = Återställningstelefon använd
+passwordResetRecoveryPhone-preview = Kontrollera att det var du
+passwordResetRecoveryPhone-title = Ditt återställningstelefon användes för att bekräfta en lösenordsåterställning
+passwordResetRecoveryPhone-device = Återställningstelefon används från:
+passwordResetRecoveryPhone-action = Hantera konto
 passwordResetWithRecoveryKeyPrompt-subject = Ditt lösenord har återställts
 passwordResetWithRecoveryKeyPrompt-title = Ditt lösenord har återställts
 # Details of the device and date/time where the password was reset
