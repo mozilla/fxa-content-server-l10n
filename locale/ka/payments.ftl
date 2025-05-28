@@ -434,6 +434,7 @@ sub-update-new-plan-daily = { $productName } (ყოველდღიური)
 sub-update-new-plan-weekly = { $productName } (ყოველკვირეული)
 sub-update-new-plan-monthly = { $productName } (ყოველთვიური)
 sub-update-new-plan-yearly = { $productName } (ყოველწლიური)
+sub-update-prorated-upgrade-credit = მოცემული უარყოფითი ნაშთი აისახება თქვენს ანგარიშზე სამომავლო გადახდებისთვის.
 
 ## Routes - Subscriptions - Cancel
 
@@ -461,6 +462,7 @@ sub-item-cancel-confirm =
 # Cybersecurity Awareness Month 2023 coupon applied: $11.20 + $0.35 tax
 # Summer Promo VPN coupon applied: $11.20
 sub-promo-coupon-applied = გამოყენებულია { $promotion_name } ფასდაკლებისთვის: <priceDetails></priceDetails>
+subscription-management-account-credit-balance = ამ გამოწერის შეძენისას თანხა აისახება თქვენს ანგარიშზე: <priceDetails></priceDetails>
 
 ## Routes - Subscription
 

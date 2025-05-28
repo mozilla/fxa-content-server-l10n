@@ -228,3 +228,4 @@ upgrade-purchase-details-new-plan-weekly = { $productName } (ყოველკ�
 upgrade-purchase-details-new-plan-monthly = { $productName } (ყოველთვიური)
 upgrade-purchase-details-new-plan-halfyearly = { $productName } (6-თვიანი)
 upgrade-purchase-details-new-plan-yearly = { $productName } (ყოველწლიური)
+upgrade-purchase-details-prorated-credits = მოცემული უარყოფითი ნაშთი აისახება თქვენს ანგარიშზე სამომავლო გადახდებისთვის.

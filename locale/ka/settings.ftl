@@ -1615,6 +1615,19 @@ reset-password-confirmed-cta = განაგრძეთ და იხილ�
 
 password-reset-recovery-method-header = პაროლის განულება
 password-reset-recovery-method-subheader = აირჩიეთ აღდგენის გზა
+# This is displayed to the user when they are choosing an alternative method to authenticate themself in the password reset process when they do not have access to their two-factor authenticator application
+password-reset-recovery-method-details = დარწმუნდით, რომ იყენებთ აღდგენის რომელიმე საშუალებას.
+password-reset-recovery-method-phone = აღდგენის ტელეფონი
+password-reset-recovery-method-code = შესვლის სამარქაფო კოდები
+# Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
+password-reset-recovery-method-code-info =
+    { $numBackupCodes ->
+        [one] { $numBackupCodes } კოდია დარჩენილი
+       *[other] { $numBackupCodes } კოდია დარჩენილი
+    }
+# Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
+password-reset-recovery-method-send-code-error-heading = ხარვეზი წარმოიშვა კოდის გამოგზავნისას თქვენს აღდგენის ტელეფონზე
+password-reset-recovery-method-send-code-error-description = გთხოვთ, სცადოთ მოგვიანებით ან გამოიყენოთ დამოწმების სამარქაფო კოდები.
 reset-password-with-recovery-key-verified-page-title = პაროლი აღდგა წარმატებით
 reset-password-complete-new-password-saved = ახალი პაროლი შენახულია!
 reset-password-complete-recovery-key-created = შექმნილია ანგარიშის აღდგენის გასაღები. ჩამოტვირთეთ და შეინახეთ ახლავე
