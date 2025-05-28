@@ -105,6 +105,9 @@ subscriptionCharges-content-tax = നികുതികളും കൂലിക
 ##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
 
 subscriptionFirstInvoice-content-charge = { $invoiceDateOnly } ന് { $invoiceTotal } ഈടാക്കി.
+
+##
+
 # Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX

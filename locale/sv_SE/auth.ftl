@@ -231,6 +231,9 @@ subscriptionCharges-content-tax = Skatter och avgifter: { $invoiceTaxAmount }
 
 subscriptionFirstInvoice-content-charge = Debiterade { $invoiceTotal } den { $invoiceDateOnly }
 subscriptionFirstInvoice-content-credit = Du har fått en kredit på { $invoiceTotal } som kommer att tillämpas på dina framtida fakturor.
+
+##
+
 subscriptionSupport = Frågor om ditt abonnemang? Vårt <a data-l10n-name="subscriptionSupportUrl">supportteam</a> är här för att hjälpa dig.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Frågor om din prenumeration? Vårt supportteam är här för att hjälpa dig:

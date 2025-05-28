@@ -116,6 +116,9 @@ subscriptionFirstInvoiceDiscount-content-discount-repeating = { $discountDuratio
 ##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
 
 subscriptionFirstInvoice-content-charge = Tasu: { $invoiceTotal } kuupäeval { $invoiceDateOnly }
+
+##
+
 subscriptionSupport = Kas sul on tellimuse kohta küsimusi? Meie <a data-l10n-name="subscriptionSupportUrl">tugitiim</a> on siin ja valmis aitama.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Kas sul on tellimuse kohta küsimusi? Meie tugitiim asub järgneval aadressil ja on valmis aitama:

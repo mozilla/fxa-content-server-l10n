@@ -211,6 +211,9 @@ subscriptionCharges-content-tax = Taksa & tarifa: { $invoiceTaxAmount }
 ##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
 
 subscriptionFirstInvoice-content-charge = U faturuan { $invoiceTotal } më { $invoiceDateOnly }
+
+##
+
 subscriptionSupport = Pyetje rreth pajtimit tuaj? <a data-l10n-name="subscriptionSupportUrl">Ekipi ynë i asistencës</a> është këtu për t’ju ndihmuar.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Pyetje rreth pajtimit tuaj? Ekipi ynë i asistencës është këtu për t’ju ndihmuar:

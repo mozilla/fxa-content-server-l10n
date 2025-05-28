@@ -229,6 +229,9 @@ subscriptionCharges-content-tax = Trethi a ffioedd: { $invoiceTaxAmount }
 
 subscriptionFirstInvoice-content-charge = Codwyd { $invoiceTotal }s ar { $invoiceDateOnly }
 subscriptionFirstInvoice-content-credit = Rydych wedi derbyn credyd cyfrif o { $invoiceTotal }, a fydd yn cael ei gyfrannu at eich anfonebau yn y dyfodol.
+
+##
+
 subscriptionSupport = Cwestiynau am eich tanysgrifiad? Mae ein tîm cymorth <a data-l10n-name="subscriptionSupportUrl">tîm cymorth</a> yma i'ch helpu chi.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Cwestiynau am eich tanysgrifiad? Mae ein tîm cymorth yma i’ch helpu chi:

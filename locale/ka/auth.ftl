@@ -222,6 +222,9 @@ subscriptionCharges-content-tax = გადასახადები და �
 
 subscriptionFirstInvoice-content-charge = ჩამოიჭრა { $invoiceTotal } თარიღზე { $invoiceDateOnly }
 subscriptionFirstInvoice-content-credit = თქვენ მიიღეთ ანგარიშზე ნაშთი { $invoiceTotal }, რომელიც გათვალისწინებული იქნება მომდევნო ზედნადებების გამოწერისას.
+
+##
+
 subscriptionSupport = კითხვები გაქვთ თქვენი გამოწერის შესახებ? ჩვენი <a data-l10n-name="subscriptionSupportUrl">მხარდაჭერის გუნდი</a> მზადაა თქვენ დასახმარებლად.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = კითხვები გაქვთ თქვენი გამოწერის შესახებ? ჩვენი მხარდაჭერის გუნდი მზადაა თქვენ დასახმარებლად:

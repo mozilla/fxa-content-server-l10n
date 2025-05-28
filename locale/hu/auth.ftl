@@ -229,6 +229,9 @@ subscriptionCharges-content-tax = Adók és díjak: { $invoiceTaxAmount }
 
 subscriptionFirstInvoice-content-charge = { $invoiceTotal } levonva ekkor: { $invoiceDateOnly }
 subscriptionFirstInvoice-content-credit = { $invoiceTotal } összegű jóváírást kapott, amely a jövőbeni számláin lesz felhasználva.
+
+##
+
 subscriptionSupport = Kérdése van az előfizetéséről? A <a data-l10n-name="subscriptionSupportUrl">támogatási csapatunk</a> itt van, hogy segítsen.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Kérdése van az előfizetéséről? A támogatási csapatunk itt van, hogy segítsen:

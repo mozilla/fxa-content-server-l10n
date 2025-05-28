@@ -231,6 +231,9 @@ subscriptionCharges-content-tax = Thuế & phí: { $invoiceTaxAmount }
 
 subscriptionFirstInvoice-content-charge = Đã tính phí { $invoiceTotal } vào { $invoiceDateOnly }
 subscriptionFirstInvoice-content-credit = Bạn đã nhận được khoản tín dụng tài khoản là { $invoiceTotal }, sẽ được áp dụng cho các thanh toán trong tương lai của bạn.
+
+##
+
 subscriptionSupport = Câu hỏi về thuê bao của bạn? <a data-l10n-name="subscriptionSupportUrl">Nhóm hỗ trợ</a> của chúng tôi sẵn sàng giúp đỡ bạn.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Có câu hỏi về thuê bao của bạn? Nhóm hỗ trợ của chúng tôi sẵn sàng giúp bạn:

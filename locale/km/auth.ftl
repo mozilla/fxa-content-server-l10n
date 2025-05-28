@@ -12,6 +12,9 @@ subplat-automated-email = នេះ​គឺ​ជា​អ៊ីម៉ែល​
 ##  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 ##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
 
+
+##
+
 passwordChanged-title = បាន​ផ្លាស់ប្ដូរ​ពាក្យសម្ងាត់​ដោយ​ជោគជ័យ
 
 ## Variables

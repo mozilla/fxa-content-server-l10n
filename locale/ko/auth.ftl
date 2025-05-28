@@ -211,6 +211,9 @@ subscriptionCharges-content-tax = 세금 및 수수료: { $invoiceTaxAmount }
 ##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
 
 subscriptionFirstInvoice-content-charge = { $invoiceDateOnly }에 { $invoiceTotal } 금액이 청구됩니다
+
+##
+
 subscriptionSupport = 구독에 관해 궁금한 점이 있으신가요? <a data-l10n-name="subscriptionSupportUrl">지원팀</a>이 도와드리겠습니다.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = 구독에 대한 질문이 있으십니까? 지원팀이 도와드리겠습니다.

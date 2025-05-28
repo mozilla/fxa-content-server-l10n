@@ -107,6 +107,9 @@ subscriptionCharges-content-tax = Данъци и такси: { $invoiceTaxAmoun
 ##  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 ##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
 
+
+##
+
 # Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX

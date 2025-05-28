@@ -231,6 +231,9 @@ subscriptionCharges-content-tax = Danki a płaśonki: { $invoiceTaxAmount }
 
 subscriptionFirstInvoice-content-charge = { $invoiceTotal } dnja { $invoiceDateOnly } wópisane
 subscriptionFirstInvoice-content-credit = Sćo dostał kontowy plus { $invoiceTotal }, kótaryž se do wašych pśichodnych zliceńkow zalicyjo.
+
+##
+
 subscriptionSupport = Maśo pšašanja wó swójom abonemenśe? Naš <a data-l10n-name="subscriptionSupportUrl">team pomocy</a> jo how, aby wam pomagał.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Maśo pšašanja wó swójom abonemenśe? Naš team pomocy jo how, aby wam pomagał:

@@ -231,6 +231,9 @@ subscriptionCharges-content-tax = Φόροι και τέλη: { $invoiceTaxAmoun
 
 subscriptionFirstInvoice-content-charge = Χρεώθηκαν { $invoiceTotal } στις { $invoiceDateOnly }
 subscriptionFirstInvoice-content-credit = Έχετε λάβει μια πίστωση λογαριασμού των { $invoiceTotal }, η οποία θα εφαρμοστεί στα μελλοντικά σας παραστατικά.
+
+##
+
 subscriptionSupport = Έχετε απορίες σχετικά με τη συνδρομή σας; Η <a data-l10n-name="subscriptionSupportUrl">ομάδα υποστήριξής</a> μας είναι εδώ για να σας βοηθήσει.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Έχετε απορίες για τη συνδρομή σας; Η ομάδα υποστήριξής μας είναι εδώ για να σας βοηθήσει:

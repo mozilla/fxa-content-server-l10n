@@ -211,6 +211,9 @@ subscriptionCharges-content-tax = Zergak eta tasak: { $invoiceTaxAmount }
 ##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
 
 subscriptionFirstInvoice-content-charge = Kobratuta { $invoiceTotal }  { $invoiceDateOnly } egunean
+
+##
+
 subscriptionSupport = Zure harpidetzari buruzko galderarik ba al duzu? Gure <a data-l10n-name="subscriptionSupportUrl"> laguntza taldea </a> zuri laguntzeko prest dago.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Zure harpidetzari buruzko galderarik ba al duzu? Gure laguntza taldea laguntzeko prest dago.

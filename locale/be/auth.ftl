@@ -176,6 +176,9 @@ subscriptionCharges-content-tax = Падаткі і зборы: { $invoiceTaxAmo
 ##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
 
 subscriptionFirstInvoice-content-charge = Спагнана { $invoiceTotal } { $invoiceDateOnly }
+
+##
+
 subscriptionSupport = Пытанні наконт вашай падпіскі? Наша <a data-l10n-name="subscriptionSupportUrl">служба падтрымкі</a> тут, каб дапамагчы вам.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Пытанні наконт вашай падпіскі? Наша служба падтрымкі тут, каб дапамагчы вам:

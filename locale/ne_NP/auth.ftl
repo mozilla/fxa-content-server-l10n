@@ -13,6 +13,9 @@ manage-account = खाता व्यवस्थापन गर्नुह�
 ##  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 ##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
 
+
+##
+
 newDeviceLogin-action = खाता व्यवस्थापन गर्नुहोस्
 passwordChanged-title = पासवर्ड सफलतापूर्वक परिवर्तन भयो
 postAddAccountRecovery-action = खाता व्यवस्थापन गर्नुहोस्

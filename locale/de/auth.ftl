@@ -229,6 +229,9 @@ subscriptionCharges-content-tax = Steuern und Gebühren: { $invoiceTaxAmount }
 
 subscriptionFirstInvoice-content-charge = { $invoiceTotal } am { $invoiceDateOnly } abgebucht
 subscriptionFirstInvoice-content-credit = Sie haben eine Gutschrift in Höhe von { $invoiceTotal } erhalten, die mit Ihren zukünftigen Rechnungen verrechnet wird.
+
+##
+
 subscriptionSupport = Fragen zu Ihrem Abonnement? Unser <a data-l10n-name="subscriptionSupportUrl">Hilfe-Team</a> unterstützt Sie gerne.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Fragen zu Ihrem Abonnement? Unser Hilfe-Team unterstützt Sie gerne:

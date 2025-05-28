@@ -25,6 +25,9 @@ subplat-privacy-website-plaintext = { subplat-privacy }:
 ##  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 ##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
 
+
+##
+
 recovery-subject = Restabelecer o contrasinal
 
 ## Variables

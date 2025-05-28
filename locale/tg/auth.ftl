@@ -217,6 +217,9 @@ subscriptionCharges-content-tax = Андозҳо ва ҳаққи ҳизматр�
 ##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
 
 subscriptionFirstInvoice-content-charge = { $invoiceTotal } дар { $invoiceDateOnly } пардохт шуд
+
+##
+
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Саволҳо дар бораи обунаи худ доред? Дар ин ҷой дастаи дастгирии мо ба шумо кумак мерасонад:
 # Variables:

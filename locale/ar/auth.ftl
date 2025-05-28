@@ -17,6 +17,9 @@ manage-account = أدِر الحساب
 ##  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 ##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
 
+
+##
+
 newDeviceLogin-action = أدِر الحساب
 passwordChanged-subject = تحدّثت كلمة السر
 passwordChanged-title = غُيّرت كلمة السرّ بنجاح

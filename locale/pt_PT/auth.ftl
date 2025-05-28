@@ -229,6 +229,9 @@ subscriptionCharges-content-tax = Impostos e taxas: { $invoiceTaxAmount }
 
 subscriptionFirstInvoice-content-charge = Debitado { $invoiceTotal } em { $invoiceDateOnly }
 subscriptionFirstInvoice-content-credit = Recebeu um crédito em conta de { $invoiceTotal }, que será aplicado às suas futuras faturas.
+
+##
+
 subscriptionSupport = Dúvidas sobre a sua subscrição? A nossa <a data-l10n-name="subscriptionSupportUrl">equipa de apoio</a> está aqui para ajudar.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Dúvidas sobre a sua subscrição? A nossa equipa de apoio está aqui para ajudar.

@@ -231,6 +231,9 @@ subscriptionCharges-content-tax = Dawki a popłatki: { $invoiceTaxAmount }
 
 subscriptionFirstInvoice-content-charge = { $invoiceTotal } dnja { $invoiceDateOnly } wotknihowane
 subscriptionFirstInvoice-content-credit = Sće dobroměće { $invoiceTotal } dóstał, kotrež so z wašimi přichodnymi zličbowankami rozličujo.
+
+##
+
 subscriptionSupport = Maće prašenja wo swojim abonemenće? Naš <a data-l10n-name="subscriptionSupportUrl">team pomocy</a> je tu, zo by wam pomhał.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Maće prašenja wo swojim abonemenće? Naš team pomocy je tu, zo by wam pomhał:

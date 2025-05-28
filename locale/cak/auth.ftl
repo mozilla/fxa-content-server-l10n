@@ -94,6 +94,9 @@ subscriptionFirstInvoice-content-invoice-number-plaintext = Rajilab'al Paktura':
 ##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
 
 subscriptionFirstInvoice-content-charge = Xk'ul rajil { $invoiceTotal } pa { $invoiceDateOnly }
+
+##
+
 subscriptionSupport = ¿La nak'utuj chi rij ri rutz'ib'axik ab'i'? Ri <a data-l10n-name="subscriptionSupportUrl">to'onel qamolaj</a> e k'o wawe' richin yatkito'.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = ¿La nak’utuj chi rij ri rutz‘ib'axik ab'i'? Ri to'onel qamolaj e k'o wawe' richin yatkito'.

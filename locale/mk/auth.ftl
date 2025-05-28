@@ -25,6 +25,9 @@ payment-method = Метод за плаќање:
 ##  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 ##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
 
+
+##
+
 postAddTwoStepAuthentication-action = Уреди ја сметката
 postChangePrimary-action = Уреди ја сметката
 postRemoveSecondary-action = Уреди ја сметката

@@ -24,6 +24,9 @@ manage-account = Gestionează contul
 ##  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 ##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
 
+
+##
+
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Întrebări despre abonament? Echipa noastră de asistență este aici pentru a te ajuta:
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions

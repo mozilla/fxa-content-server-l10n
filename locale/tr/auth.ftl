@@ -223,6 +223,9 @@ subscriptionCharges-content-tax = Vergiler ve ücretler: { $invoiceTaxAmount }
 ##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
 
 subscriptionFirstInvoice-content-charge = { $invoiceDateOnly } tarihinde { $invoiceTotal } tahsil edildi
+
+##
+
 subscriptionSupport = Aboneliğinizle ilgili sorularınız mı var? <a data-l10n-name="subscriptionSupportUrl">Destek ekibimiz</a> size yardımcı olabilir.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Aboneliğinizle ilgili sorularınız mı var? Destek ekibimiz size yardımcı olabilir:

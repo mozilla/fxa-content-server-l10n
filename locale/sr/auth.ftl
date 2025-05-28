@@ -121,6 +121,9 @@ subscriptionCharges-content-tax = Порези и надокнаде: { $invoice
 ##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
 
 subscriptionFirstInvoice-content-charge = Наплаћено { $invoiceTotal }, { $invoiceDateOnly }
+
+##
+
 subscriptionSupport = Имате питања о вашој претплати? Наш <a data-l10n-name="subscriptionSupportUrl">тим за подршку</a> је ту да вам помогне.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Имате питања о претплати? Наш тим за подршку је ту да вам помогне:

@@ -231,6 +231,9 @@ subscriptionCharges-content-tax = Belastingen en toeslagen: { $invoiceTaxAmount 
 
 subscriptionFirstInvoice-content-charge = { $invoiceTotal } in rekening gebracht op { $invoiceDateOnly }
 subscriptionFirstInvoice-content-credit = U hebt een accounttegoed van { $invoiceTotal } ontvangen. Dit tegoed wordt op uw toekomstige facturen toegepast.
+
+##
+
 subscriptionSupport = Vragen over uw abonnement? Ons <a data-l10n-name="subscriptionSupportUrl">ondersteuningsteam</a> is er om u te helpen.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Vragen over uw abonnement? Ons ondersteuningsteam is er om u te helpen:

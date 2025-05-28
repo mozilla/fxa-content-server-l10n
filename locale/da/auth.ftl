@@ -231,6 +231,9 @@ subscriptionCharges-content-tax = Skatter og gebyrer: { $invoiceTaxAmount }
 
 subscriptionFirstInvoice-content-charge = Opkrævet { $invoiceTotal } den { $invoiceDateOnly }
 subscriptionFirstInvoice-content-credit = Du er blevet godskrevet { $invoiceTotal }, som vil blive anvendt på dine fremtidige fakturaer.
+
+##
+
 subscriptionSupport = Har du spørgsmål til dit abonnement? Vores <a data-l10n-name="subscriptionSupportUrl">supportteam</a> står klar til at hjælpe dig.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Har du spørgsmål om dit abonnement? Vores supportteam står klar til at hjælpe dig:

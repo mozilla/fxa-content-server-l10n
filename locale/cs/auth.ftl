@@ -229,6 +229,9 @@ subscriptionCharges-content-tax = Daně a poplatky: { $invoiceTaxAmount }
 
 subscriptionFirstInvoice-content-charge = Dne { $invoiceDateOnly } účtováno { $invoiceTotal }
 subscriptionFirstInvoice-content-credit = Obdrželi jste kredit ve výši { $invoiceTotal }, který bude použit na vaše budoucí faktury.
+
+##
+
 subscriptionSupport = Máte dotaz ohledně vašeho předplatného? Pomůže vám náš <a data-l10n-name="subscriptionSupportUrl">tým podpory</a>.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Máte dotaz ohledně vašeho předplatného? Pomůže vám náš tým podpory:

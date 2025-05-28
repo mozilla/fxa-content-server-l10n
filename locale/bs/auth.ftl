@@ -14,6 +14,9 @@ manage-account = Upravljanje računom
 ##  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 ##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
 
+
+##
+
 newDeviceLogin-action = Upravljanje računom
 passwordChanged-title = Promjena lozinke uspješna
 postAddAccountRecovery-action = Upravljanje računom

@@ -222,6 +222,9 @@ subscriptionCharges-content-tax = Tassi e cummissioni: { $invoiceTaxAmount }
 
 subscriptionFirstInvoice-content-charge = Addibbitatu { $invoiceTotal } u { $invoiceDateOnly }
 subscriptionFirstInvoice-content-credit = Ricivisti nnô cuntu un crèditu di { $invoiceTotal }, chi sarà appricatu ê pròssimi fatturi.
+
+##
+
 subscriptionSupport = Ài dumanni ncapu ô to abbunamentu? A nostra <a data-l10n-name="subscriptionSupportUrl">squatra di supportu</a> è cca p'ajutàriti.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Ài dumanni ncapu ô to abbunamento? A nostra squatra di supportu è cca p'ajutàriti:

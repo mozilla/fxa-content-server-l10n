@@ -26,6 +26,9 @@ subplat-privacy = Maxfiylik
 ##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
 
 
+##
+
+
 ## Variables
 ##   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 ##   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00

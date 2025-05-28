@@ -227,6 +227,9 @@ subscriptionCharges-content-tax = מיסים ועמלות: { $invoiceTaxAmount }
 
 subscriptionFirstInvoice-content-charge = חיוב של { $invoiceTotal } בתאריך { $invoiceDateOnly }
 subscriptionFirstInvoice-content-credit = קיבלת זיכוי בחשבון שלך בסך { $invoiceTotal }, אשר יחול על החשבוניות העתידיות שלך.
+
+##
+
 subscriptionSupport = שאלות לגבי המינוי שלך? <a data-l10n-name="subscriptionSupportUrl">צוות התמיכה</a> שלנו כאן כדי לעזור לך.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = שאלות לגבי המנוי שלך? צוות התמיכה שלנו כאן כדי לעזור לך:

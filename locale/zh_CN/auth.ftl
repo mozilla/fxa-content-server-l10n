@@ -227,6 +227,9 @@ subscriptionCharges-content-tax = 税费：{ $invoiceTaxAmount }
 
 subscriptionFirstInvoice-content-charge = 已于 { $invoiceDateOnly } 收取 { $invoiceTotal }
 subscriptionFirstInvoice-content-credit = 您已收到 { $invoiceTotal } 账户余额，将于以后付款时抵用。
+
+##
+
 subscriptionSupport = 遇到订阅相关的问题？我们的<a data-l10n-name="subscriptionSupportUrl">用户支持团队</a>在此为您答疑。
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = 遇到订阅相关的问题？我们的支持团队在此为您答疑：

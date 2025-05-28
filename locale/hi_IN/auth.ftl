@@ -26,6 +26,9 @@ payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
 ##  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 ##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
 
+
+##
+
 newDeviceLogin-action = खाता प्रबंधित करें
 passwordChanged-subject = पासवर्ड अपडेट किया गया
 passwordChanged-title = कूटशब्द सफलतापूर्वक परिवर्तित

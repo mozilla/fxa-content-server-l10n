@@ -231,6 +231,9 @@ subscriptionCharges-content-tax = Податки та збори: { $invoiceTaxA
 
 subscriptionFirstInvoice-content-charge = Сплачено { $invoiceTotal }, { $invoiceDateOnly }
 subscriptionFirstInvoice-content-credit = Ви отримали кредит у розмірі { $invoiceTotal }, який буде застосовано до ваших майбутніх рахунків.
+
+##
+
 subscriptionSupport = Маєте питання щодо передплати? Наша <a data-l10n-name="subscriptionSupportUrl">команда підтримки</a> з радістю вам допоможе.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Маєте питання щодо передплати? Наша команда підтримки з радістю допоможе вам:
