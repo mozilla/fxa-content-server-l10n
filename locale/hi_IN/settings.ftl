@@ -26,6 +26,14 @@
 ## ChooseWhatToSync component
 ## Checklist of services/information that can be synced across signed in devices
 
+choose-what-to-sync-option-bookmarks =
+    .label = बुकमार्क
+choose-what-to-sync-option-history =
+    .label = इतिहास
+choose-what-to-sync-option-passwords =
+    .label = पासवर्ड
+choose-what-to-sync-option-addons =
+    .label = ऐड-ऑन
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -54,6 +62,7 @@ datablock-copy =
 
 # GetDataTrio component, part of Account Recovery Key flow
 
+get-data-trio-title-firefox = { -brand-firefox }
 
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
@@ -77,6 +86,11 @@ input-password-show = पासवर्ड दिखाएं
 
 ## Phone number component
 
+# This is an aria-label available to screen readers for a selection list that includes country flags, country name and country code
+input-phone-number-country-list-aria-label = देश चुनें
+input-phone-number-enter-number = फ़ोन नंबर दर्ज करें
+input-phone-number-country-united-states = संयुक्त राज्य अमेरिका
+input-phone-number-country-canada = कनाडा
 
 ## LinkDamaged component
 
@@ -132,6 +146,10 @@ avatar-your-avatar =
 
 # BentoMenu component
 
+bento-menu-vpn-2 = { -product-mozilla-vpn }
+bento-menu-monitor-3 = { -product-mozilla-monitor }
+bento-menu-pocket-2 = { -product-pocket }
+bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = डेस्कटॉप के लिए { -brand-firefox } ब्राउज़र
 bento-menu-firefox-mobile = मोबाइल के लिए { -brand-firefox } ब्राउज़र
 bento-menu-made-by-mozilla = { -brand-mozilla } द्वारा निर्मित
@@ -165,10 +183,13 @@ cs-sign-out-button = साइन आउट करें
 
 ## Data collection section
 
+dc-subheader-moz-accounts = { -product-mozilla-accounts }
+dc-subheader-ff-browser = { -brand-firefox } ब्राउज़र
 dc-learn-more = अधिक जानें
 
 # DropDownAvatarMenu component
 
+drop-down-menu-title-2 = { -product-mozilla-account } मेन्यू
 
 ## Flow Container
 
@@ -200,9 +221,11 @@ dc-learn-more = अधिक जानें
 ## HeaderLockup component, the header in account settings
 
 header-menu-open = मेन्यू बंद करें
+header-title-2 = { -product-mozilla-account }
 
 ## Linked Accounts section
 
+nav-linked-accounts = { la-heading }
 
 ## Modal - Default values for a message directed at the user where the user can typically Confirm or Cancel.
 
@@ -251,6 +274,11 @@ pw-change-confirm-password =
 
 ## Delete account page
 
+delete-account-product-mozilla-account = { -product-mozilla-account }
+delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
+delete-account-product-mdn-plus = { -product-mdn-plus }
+delete-account-product-mozilla-monitor = { -product-mozilla-monitor }
+delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-continue-button = जारी रखें
 delete-account-password-input =
     .label = पासवर्ड दर्ज करें
@@ -298,9 +326,13 @@ verify-secondary-email-cancel-button = रद्द करें
 ## Two Step Authentication
 
 tfa-button-cancel = रद्द करें
+tfa-qa-code =
+    .alt = { tfa-qa-code-alt }
 
 ## Product promotion
 
+product-promo-monitor =
+    .alt = { -product-mozilla-monitor }
 
 ## Profile section
 
@@ -345,6 +377,10 @@ tfa-row-action-add = जोड़ें
 ## ThirdPartyAuth component
 ## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
 
+# This appears when a user has the option to authenticate via third party accounts in addition to their Firefox account. 
+# Firefox account login appears on top, and third party options appear on bottom. 
+# This string appears as a separation between the two, in the following order: "Enter your password" "Or"(this string) "Continue with Google"(continue-with-google-button) / "Continue with Apple"(continue-with-apple-button)
+third-party-auth-options-or = या
 
 ## Auth-server based errors that originate from backend service
 
@@ -365,6 +401,8 @@ auth-error-110 = अमान्य टोकन
 
 ## Index / home page
 
+index-email-input =
+    .label = अपना ईमेल दर्ज करें
 
 ## InlineRecoveryKeySetup page component
 
@@ -373,6 +411,9 @@ auth-error-110 = अमान्य टोकन
 ## When users are creating an account, they may get pushed to setup 2FA
 ## in this case, they will encounter this page in the signup process (hence calling it "Inline)
 
+# This button allows a user to copy their recovery codes to their clipboard
+# This button allows the user to cancel setup of two-factor authentication for their account
+inline-recovery-cancel-button = रद्द करें
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -409,6 +450,10 @@ auth-error-110 = अमान्य टोकन
 
 ## Pair index page
 
+# This allows the user to exit the sync/pair flow, and redirects them back to Settings
+pair-not-now-button = अभी नहीं
+# This is the aria label on the QR code image
+pair-qr-code-aria-label = QR कोड
 
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
@@ -417,6 +462,7 @@ auth-error-110 = अमान्य टोकन
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be confirmed from both devices to succeed
 
+pair-supp-allow-cancel-link = रद्द करें
 
 ## WaitForAuth page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
