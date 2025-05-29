@@ -456,16 +456,28 @@ subscriptionFirstInvoice-content-next-invoice = Санади дархости п
 subscriptionPaymentFailed-subject = Пардохт барои «{ $productName }» иҷро шуд
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentProviderCancelled-subject = Навсозии маълумоти пардохт барои «{ $productName }» лозим аст
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-subject = Обунаи «{ $productName }» аз нав фаъол карда шуд
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-title = Ташаккур барои аз нав фаъол кардани обунашавии худ дар «{ $productName }»!
+subscriptionRenewalReminder-title = Обунаи шумо ба зудӣ нав карда мешавад
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionRenewalReminder-content-greeting = Муҳтарам корбари «{ $productName }»,
 subscriptionRenewalReminder-content-closing = Бо эҳтиром,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = Дастаи «{ $productName }»
+subscriptionReplaced-subject = Обунаи шумо ҳамчун як қисми навсозии шумо нав карда шуд
 subscriptionReplaced-title = Обунаи шумо навсозӣ карда шуд
 subscriptionReplaced-content-no-action = Аз ҷониби шумо ягон амал талаб карда намешавад.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-subject = Пардохт барои «{ $productName }» қабул шуд
+subscriptionSubsequentInvoice-title = Ташаккур ба шумо барои обунашавӣ!
 # Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
 subscriptionSubsequentInvoice-content-next-invoice = Санади дархости пардохти навбатӣ: { $nextInvoiceDateOnly }
@@ -512,6 +524,7 @@ verifyLoginCode-subject-line-2 = Тасдиқ кардани воридшавӣ 
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-title-2 = Оё ин шумо ба «{ $serviceName }» ворид шудаед?
+verifyLoginCode-prompt-3 = Агар ҳа, рамзи санҷиши дастрасии шумо ҳамин аст:
 verifyLoginCode-expiry-notice = Муҳлаташ пас аз 5 дақиқа ба анҷом мерасад.
 verifyPrimary-title-2 = Почтаи электронии асосиро тасдиқ кунед
 verifyPrimary-subject = Почтаи электронии асосиро тасдиқ кунед
