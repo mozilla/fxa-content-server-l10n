@@ -402,7 +402,7 @@ recovery-phone-promo-heading = Ychwanegwch amddiffyniad ychwanegol i'ch cyfrif g
 recovery-phone-promo-description = Nawr gallwch chi fewngofnodi gyda chyfrinair un-tro trwy SMS os na allwch ddefnyddio'ch ap dilysu dau gam.
 recovery-phone-promo-info-link = Dysgwch fwy am adfer a risg cyfnewid SIM
 promo-banner-dismiss-button =
-    .aria-label = Diystyru'r faner
+    .aria-label = Cau'r faner
 
 ## Ready component
 
@@ -1610,22 +1610,22 @@ reset-password-confirmed-cta = Parhau i { $serviceName }
 password-reset-recovery-method-header = Ailosod eich cyfrinair
 password-reset-recovery-method-subheader = Dewiswch ddull adfer
 # This is displayed to the user when they are choosing an alternative method to authenticate themself in the password reset process when they do not have access to their two-factor authenticator application
-password-reset-recovery-method-details = Gadewch i ni sicrhau mai chi sy'n defnyddio'ch dulliau adfer.
+password-reset-recovery-method-details = Gadewch i ni wneud yn siŵr mai chi sy'n defnyddio'ch dulliau adfer.
 password-reset-recovery-method-phone = Ffôn adfer
 password-reset-recovery-method-code = Codau dilysu wrth gefn
 # Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
 password-reset-recovery-method-code-info =
     { $numBackupCodes ->
-        [zero] { $numBackupCodes } cod yn weddill
+        [zero] { $numBackupCodes } codau'n weddill
         [one] { $numBackupCodes } cod yn weddill
-        [two] { $numBackupCodes } cod yn weddill
+        [two] { $numBackupCodes } god yn weddill
         [few] { $numBackupCodes } cod yn weddill
-        [many] { $numBackupCodes } cod yn weddill
+        [many] { $numBackupCodes } chod yn weddill
        *[other] { $numBackupCodes } cod yn weddill
     }
 # Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
-password-reset-recovery-method-send-code-error-heading = Bu problem wrth anfon cod i'ch ffôn adfer
-password-reset-recovery-method-send-code-error-description = Ceisiwch eto yn nes ymlaen neu defnyddiwch eich codau dilysu wrth gefn.
+password-reset-recovery-method-send-code-error-heading = Bu anhawster wrth anfon cod i'ch ffôn adfer
+password-reset-recovery-method-send-code-error-description = Ceisiwch eto yn nes ymlaen neu defnyddio eich codau dilysu wrth gefn.
 reset-password-with-recovery-key-verified-page-title = Mae'r cyfrinair wedi ei ailosod yn llwyddiannus
 reset-password-complete-new-password-saved = Cyfrinair newydd wedi'i gadw!
 reset-password-complete-recovery-key-created = Mae allwedd adfer cyfrif newydd wedi'i chreu. Llwythwch hi i lawr a'i chadw nawr.
