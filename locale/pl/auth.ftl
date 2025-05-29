@@ -377,6 +377,7 @@ passwordResetAccountRecovery-information = Wylogowaliśmy Cię ze wszystkich syn
 passwordResetAccountRecovery-information-txt = Wylogowaliśmy Cię ze wszystkich synchronizowanych urządzeń. Utworzyliśmy nowy klucz odzyskiwania konta, aby zastąpić ten zużyty. Można go zmienić w ustawieniach konta:
 passwordResetAccountRecovery-action-4 = Zarządzaj kontem
 passwordResetRecoveryPhone-subject = Użyto telefon odzyskiwania
+passwordResetRecoveryPhone-action = Zarządzaj kontem
 passwordResetWithRecoveryKeyPrompt-subject = Zmieniono hasło
 passwordResetWithRecoveryKeyPrompt-title = Zmieniono hasło
 # Details of the device and date/time where the password was reset
@@ -431,6 +432,7 @@ postChangeRecoveryPhone-preview = Konto chronione przez uwierzytelnianie dwuetap
 postChangeRecoveryPhone-title = Zmieniono telefon odzyskiwania
 postChangeRecoveryPhone-description = Masz teraz nowy telefon odzyskiwania. Twój poprzedni numer telefonu został usunięty.
 postChangeRecoveryPhone-requested-device = Zażądano z urządzenia:
+postConsumeRecoveryCode-title-3 = Zapasowy kod uwierzytelniania został użyty do potwierdzenia zmiany hasła
 postConsumeRecoveryCode-action = Zarządzaj kontem
 postNewRecoveryCodes-subject-2 = Nowe zapasowe kody uwierzytelniania zostały utworzone
 postNewRecoveryCodes-title-2 = Utworzono nowe zapasowe kody uwierzytelniania
