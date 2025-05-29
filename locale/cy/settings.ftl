@@ -399,8 +399,8 @@ account-recovery-notification-header-value = Peidiwch â cholli'ch data os byddw
 account-recovery-notification-header-description = Crëwch allwedd adfer cyfrif fel y gallwch adfer eich data cydweddu pori os byddwch byth yn anghofio eich cyfrinair.
 recovery-phone-promo-cta = Ychwanegu ffôn adfer
 recovery-phone-promo-heading = Ychwanegwch amddiffyniad ychwanegol i'ch cyfrif gyda ffôn adfer
-recovery-phone-promo-description = Nawr gallwch chi fewngofnodi gyda chyfrinair un-amser trwy SMS os na allwch ddefnyddio'ch ap dilysu dau gam.
-recovery-phone-promo-info-link = Dysgwch fwy am adferiad a risg cyfnewid SIM
+recovery-phone-promo-description = Nawr gallwch chi fewngofnodi gyda chyfrinair un-tro trwy SMS os na allwch ddefnyddio'ch ap dilysu dau gam.
+recovery-phone-promo-info-link = Dysgwch fwy am adfer a risg cyfnewid SIM
 promo-banner-dismiss-button =
     .aria-label = Diystyru'r faner
 
