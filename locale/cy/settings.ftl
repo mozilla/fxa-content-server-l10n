@@ -400,7 +400,7 @@ account-recovery-notification-header-description = Crëwch allwedd adfer cyfrif 
 recovery-phone-promo-cta = Ychwanegu ffôn adfer
 recovery-phone-promo-heading = Ychwanegwch amddiffyniad ychwanegol i'ch cyfrif gyda ffôn adfer
 recovery-phone-promo-description = Nawr gallwch chi fewngofnodi gyda chyfrinair un-tro trwy SMS os na allwch ddefnyddio'ch ap dilysu dau gam.
-recovery-phone-promo-info-link = Dysgwch fwy am adfer a risg cyfnewid SIM
+recovery-phone-promo-info-link = Dysgwch fwy am adfer a risg o gyfnewid SIM
 promo-banner-dismiss-button =
     .aria-label = Cau'r faner
 
