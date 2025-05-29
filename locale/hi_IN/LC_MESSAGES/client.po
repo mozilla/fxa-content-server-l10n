@@ -1887,7 +1887,7 @@ msgstr "वापस सदस्यताओं पर"
 
 #: .es5/templates/partial/third-party-auth.mustache:1
 msgid "or"
-msgstr ""
+msgstr "या"
 
 #: .es5/templates/partial/third-party-auth.mustache:3
 msgid "Continue with Google"
@@ -1911,7 +1911,7 @@ msgstr ""
 
 #: .es5/templates/pair/auth_allow.mustache:2
 msgid " %(email)s "
-msgstr ""
+msgstr " %(email)s "
 
 #: .es5/templates/pair/auth_allow.mustache:3
 msgid "location balloon"
@@ -2066,7 +2066,7 @@ msgstr ""
 
 #: .es5/templates/pair/unsupported.mustache:14
 msgid "Download Firefox now"
-msgstr ""
+msgstr "Firefox अभी डाउनलोड करें"
 
 #: .es5/templates/pair/unsupported.mustache:17
 msgid "Oops! Something went wrong."
