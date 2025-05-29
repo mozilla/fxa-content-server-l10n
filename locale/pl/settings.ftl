@@ -397,6 +397,7 @@ password-strength-inline-confirmed-must-match = Potwierdzenie zgadza się z now
 account-recovery-notification-cta = Utwórz
 account-recovery-notification-header-value = Nie strać swoich danych, jeśli zapomnisz hasła
 account-recovery-notification-header-description = Utwórz klucz odzyskiwania konta, aby odzyskać synchronizowane dane przeglądania, jeśli kiedykolwiek zapomnisz hasła.
+recovery-phone-promo-cta = Dodaj telefon odzyskiwania
 
 ## Ready component
 
@@ -1603,7 +1604,21 @@ reset-password-confirmed-cta = Przejdź do usługi { $serviceName }
 # password, and they previously had set up an account recovery method.
 
 password-reset-recovery-method-header = Zmień hasło
+password-reset-recovery-method-subheader = Wybierz metodę odzyskiwania
+# This is displayed to the user when they are choosing an alternative method to authenticate themself in the password reset process when they do not have access to their two-factor authenticator application
+password-reset-recovery-method-details = Upewnijmy się, że to Ty korzystasz ze swoich metod odzyskiwania.
 password-reset-recovery-method-phone = Telefon odzyskiwania
+password-reset-recovery-method-code = Zapasowe kody uwierzytelniania
+# Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
+password-reset-recovery-method-code-info =
+    { $numBackupCodes ->
+        [one] Został { $numBackupCodes } kod
+        [few] Zostały { $numBackupCodes } kody
+       *[many] Zostało { $numBackupCodes } kodów
+    }
+# Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
+password-reset-recovery-method-send-code-error-heading = Wystąpił problem podczas wysyłania kodu do telefonu odzyskiwania
+password-reset-recovery-method-send-code-error-description = Proszę spróbować ponownie później lub użyć zapasowych kodów uwierzytelniania.
 reset-password-with-recovery-key-verified-page-title = Pomyślnie zmieniono hasło
 reset-password-complete-new-password-saved = Zachowano nowe hasło
 reset-password-complete-recovery-key-created = Utworzono nowy klucz odzyskiwania konta. Teraz pobierz go i zachowaj.

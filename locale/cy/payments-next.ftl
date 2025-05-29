@@ -225,4 +225,4 @@ upgrade-purchase-details-new-plan-weekly = { $productName } ( Wythnosol )
 upgrade-purchase-details-new-plan-monthly = { $productName } ( Misol)
 upgrade-purchase-details-new-plan-halfyearly = { $productName } (6-mis)
 upgrade-purchase-details-new-plan-yearly = { $productName } (Blynyddol)
-upgrade-purchase-details-prorated-credits = Bydd y balans negyddol a ddangosir yn cael ei gymhwyso fel credydau i'ch cyfrif a'i ddefnyddio tuag at anfonebau yn y dyfodol.
+upgrade-purchase-details-prorated-credits = Bydd y balans negyddol sy'n cael ei ddangos yn cael ei osod fel credydau i'ch cyfrif a'i ddefnyddio tuag at anfonebau yn y dyfodol.

@@ -571,7 +571,7 @@ sub-item-cancel-confirm =
 # Cybersecurity Awareness Month 2023 coupon applied: $11.20 + $0.35 tax
 # Summer Promo VPN coupon applied: $11.20
 sub-promo-coupon-applied = Cwpon { $promotion_name } wedi'i osod: <priceDetails></priceDetails>
-subscription-management-account-credit-balance = Arweiniodd y taliad tanysgrifiad hwn at gredyd i falans eich cyfrif: <priceDetails></priceDetails>
+subscription-management-account-credit-balance = Mae'r taliad tanysgrifiad hwn yn dangos credyd i falans eich cyfrif: <priceDetails></priceDetails>
 
 ## Routes - Subscription
 
