@@ -5,6 +5,7 @@
 
 ## Component - AppLayout
 
+settings-project-header-title = { -product-mozilla-account }
 
 ## Component - CouponForm
 
@@ -14,9 +15,15 @@
 
 ## Component - Header
 
+brand-name-mozilla-logo = { -brand-mozilla } लोगो
 
 ## Component - NewUserEmailForm
 
+# "Required" to indicate that the user must use the checkbox below this text to
+# agree to a payment method's terms of service and privacy notice in order to
+# continue.
+new-user-enter-email =
+    .label = अपना ईमेल दर्ज करें
 new-user-confirm-email =
     .label = अपने ईमेल की पुष्टि करें
 new-user-email-validate = ईमेल मान्य नहीं है
@@ -25,6 +32,8 @@ new-user-email-validate = ईमेल मान्य नहीं है
 
 payment-confirmation-thanks-heading = धन्यवाद!
 payment-confirmation-order-heading = ऑर्डर का विवरण
+# $invoiceDate (Date) - Start date of the latest invoice
+payment-confirmation-invoice-date = { $invoiceDate }
 payment-confirmation-amount = { $amount } हर { $interval }
 # $amount (Number) - The amount billed. It will be formatted as currency.
 # $intervalCount (Number) - The interval between payments, in days.
@@ -82,6 +91,8 @@ payment-validate-name-error = कृपया अपना नाम दर्�
 
 ## Component - PaymentMethodHeader
 
+# This message is used to indicate the second step in a multi step process.
+payment-method-header-second-step = 2. { payment-method-header }
 
 ## Component - PaymentProcessing
 
@@ -106,12 +117,16 @@ plan-details-total-label = कुल
 ## $priceAmount (Number) - The amount billed. It will be formatted as currency.
 ## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
+price-details-no-tax = { $priceAmount }
 
 ## Component - SubscriptionTitle
 
 
 ## Component - TermsAndPrivacy
 
+# "Mozilla Accounts" is capitalized in this instance for title case in English
+# This heading is followed by links to Terms of Service and Privacy Notice
+subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capitalization: "uppercase") }
 terms = सेवा की शर्तें
 privacy = गोपनीयता सूचना
 
@@ -150,6 +165,7 @@ pay-with-heading-card-only = कार्ड से भुगतान करे
 # The following are not terms because they are not used directly in messages,
 # but rather looked up in code and passed into the message as variables.
 
+brand-name-apple-app-store-2 = { -app-store }
 
 ## Routes - Product - Subscription upgrade
 

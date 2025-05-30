@@ -24,7 +24,12 @@
 # "account" should be localized and lowercase, "Firefox" must be treated as a brand.
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account = Firefox खाता
+-product-mozilla-vpn = Mozilla VPN
+# Mozilla Developer Network
+-product-mdn = MDN
 -product-firefox-cloud = Firefox Cloud
+-brand-apple = Apple
+-brand-google = Google
 -brand-paypal = PayPal
 -brand-name-stripe = Stripe
 -app-store = App Store
