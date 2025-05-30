@@ -27,7 +27,7 @@ checkout-error-boundary-basic-error-message = Si è verificato un errore. Riprov
 ## Common strings used in multiple pages
 
 next-payment-error-manage-subscription-button = Gestione abbonamento
-next-iap-blocked-contact-support = Hai un abbonamento in-app per dispositivi mobili in conflitto con questo prodotto. Contatta il supporto per ricevere assistenza.
+next-iap-blocked-contact-support = Hai un abbonamento in-app effettuato da mobile in conflitto con questo prodotto. Contatta il supporto per ricevere assistenza.
 next-payment-error-retry-button = Riprova
 next-basic-error-message = Qualcosa è andato storto. Riprovare più tardi.
 checkout-error-contact-support-button = Contatta l’assistenza
@@ -237,7 +237,7 @@ metadata-title-checkout-error = Errore | { $productTitle }
 metadata-description-checkout-error = Si è verificato un errore durante l’elaborazione dell’abbonamento. Se il problema persiste, contattare il supporto.
 # Checkout success
 metadata-title-checkout-success = Operazione riuscita | { $productTitle }
-metadata-description-checkout-success = Congratulazioni! L’acquisto è stato completato correttamente.
+metadata-description-checkout-success = Congratulazioni. L’acquisto è stato completato correttamente.
 # Checkout needs_input
 metadata-title-checkout-needs-input = Azione richiesta | { $productTitle }
 metadata-description-checkout-needs-input = Completare l’azione richiesta per procedere con il pagamento.
@@ -252,7 +252,7 @@ metadata-title-upgrade-error = Errore | { $productTitle }
 metadata-description-upgrade-error = Si è verificato un errore durante l’aggiornamento. Se il problema persiste, contattare il supporto.
 # Upgrade success
 metadata-title-upgrade-success = Operazione riuscita | { $productTitle }
-metadata-description-upgrade-success = Congratulazioni! L’aggiornamento è stato completato correttamente.
+metadata-description-upgrade-success = Congratulazioni. L’aggiornamento è stato completato correttamente.
 # Upgrade needs_input
 metadata-title-upgrade-needs-input = Azione richiesta | { $productTitle }
 metadata-description-upgrade-needs-input = Completare l’azione richiesta per procedere con il pagamento.
