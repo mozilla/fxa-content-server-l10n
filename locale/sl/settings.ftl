@@ -644,7 +644,7 @@ flow-setup-phone-confirm-code-expired = Je koda potekla?
 flow-setup-phone-confirm-code-resend-code-button = Znova pošlji kodo
 flow-setup-phone-confirm-code-resend-code-success = Koda poslana
 flow-setup-phone-confirm-code-success-message-v2 = Telefonska številka za obnovitev je dodana
-flow-change-phone-confirm-code-success-message = Telefonska številka za obnovitev spremenjena
+flow-change-phone-confirm-code-success-message = Telefonska številka za obnovitev je spremenjena
 
 ## FlowSetupPhoneConfirmCode
 

@@ -258,4 +258,4 @@ metadata-title-upgrade-needs-input = Zahtevano dejanje | { $productTitle }
 metadata-description-upgrade-needs-input = Izvedite zahtevano dejanje za nadaljevanje plačila.
 # Default
 metadata-title-default = Strani ni bilo mogoče najti | { $productTitle }
-metadata-description-default = Zahtevane strani ni mogoče najti.
+metadata-description-default = Zahtevane strani ni bilo mogoče najti.
