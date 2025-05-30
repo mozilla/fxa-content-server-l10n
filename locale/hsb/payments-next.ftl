@@ -30,6 +30,7 @@ checkout-error-boundary-basic-error-message = Něšto je so nimokuliło. Prošu 
 ## Common strings used in multiple pages
 
 next-payment-error-manage-subscription-button = Abonement zrjadować
+next-iap-blocked-contact-support = Maće mobilny abonement w nałoženju, kotryž je w konfilkće z tutym produktom – stajće so prošu z teamom pomocy do zwiska, zo bychmy móhli wam pomhać.
 next-payment-error-retry-button = Hišće raz spytać
 next-basic-error-message = Něšto je so nimokuliło. Prošu spytajće pozdźišo hišće raz.
 checkout-error-contact-support-button = Pomoc skontaktować
@@ -236,11 +237,13 @@ metadata-title-checkout-processing = Předźěłanje | { $productTitle }
 metadata-description-checkout-processing = Prošu čakajće, mjeztym zo waše płaćenje předźěłanje dokónčimy…
 # Checkout error
 metadata-title-checkout-error = Zmylk | { $productTitle }
+metadata-description-checkout-error = Při předźěłowanju wašeho abonementa je zmylk nastał. Jeli tutón problem dale eksistuje, stajće so z teamom pomocy do zwiska.
 # Checkout success
 metadata-title-checkout-success = Wuspěšny | { $productTitle }
 metadata-description-checkout-success = Zbožopřeće! Sće swoju kup wuspěšnje dokónčił.
 # Checkout needs_input
 metadata-title-checkout-needs-input = Akcija trěbna | { $productTitle }
+metadata-description-checkout-needs-input = Prošu dokónčće trěbnu akciju, zo byšće ze swojim płaćenjom pokročował.
 # Upgrade start
 metadata-title-upgrade-start = Aktualizacija | { $productTitle }
 metadata-description-upgrade-start = Zapodajće swoje płaćenske podrobnosće, zo byšće swoju aktualizaciju dokónčił.
@@ -249,6 +252,7 @@ metadata-title-upgrade-processing = Předźěłanje | { $productTitle }
 metadata-description-upgrade-processing = Prošu čakajće, mjeztym zo waše płaćenje předźěłanje dokónčimy…
 # Upgrade error
 metadata-title-upgrade-error = Zmylk | { $productTitle }
+metadata-description-upgrade-error = Při předźěłowanju wašeje aktualizacije je zmylk nastał. Jeli tutón problem dale eksistuje, stajće so z teamom pomocy do zwiska.
 # Upgrade success
 metadata-title-upgrade-success = Wuspěšny | { $productTitle }
 metadata-description-upgrade-success = Zbožopřeće! Sće swoju aktualizaciju wuspěšnje dokónčił.
