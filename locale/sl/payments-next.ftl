@@ -27,6 +27,7 @@ checkout-error-boundary-basic-error-message = Nekaj je šlo narobe. Poskusite zn
 ## Common strings used in multiple pages
 
 next-payment-error-manage-subscription-button = Upravljaj z naročnino
+next-iap-blocked-contact-support = Imate mobilno naročnino, ki je v nasprotju s tem izdelkom — obrnite se na podporo, da vam lahko pomagamo.
 next-payment-error-retry-button = Poskusi znova
 next-basic-error-message = Prišlo je do napake. Poskusite znova pozneje.
 checkout-error-contact-support-button = Obrnite se na podporo
@@ -225,3 +226,36 @@ upgrade-purchase-details-new-plan-monthly = { $productName } (mesečno)
 upgrade-purchase-details-new-plan-halfyearly = { $productName } (na 6 mesecev)
 upgrade-purchase-details-new-plan-yearly = { $productName } (letno)
 upgrade-purchase-details-prorated-credits = Prikazano negativno stanje bo knjiženo v dobroimetje na vašem računu in uporabljeno za prihodnje račune.
+# Checkout start
+metadata-title-checkout-start = Na blagajni | { $productTitle }
+metadata-description-checkout-start = Za dokončanje nakupa vnesite podatke za plačilo.
+# Checkout processing
+metadata-title-checkout-processing = Obdelovanje | { $productTitle }
+metadata-description-checkout-processing = Počakajte, da končamo z obdelavo plačila.
+# Checkout error
+metadata-title-checkout-error = Napaka | { $productTitle }
+metadata-description-checkout-error = Pri obdelavi vaše naročnine je prišlo do napake. Če se težava ponovi, se obrnite na podporo.
+# Checkout success
+metadata-title-checkout-success = Uspeh | { $productTitle }
+metadata-description-checkout-success = Čestitke! Uspešno ste opravili nakup.
+# Checkout needs_input
+metadata-title-checkout-needs-input = Zahtevano dejanje | { $productTitle }
+metadata-description-checkout-needs-input = Izvedite zahtevano dejanje za nadaljevanje plačila.
+# Upgrade start
+metadata-title-upgrade-start = Nadgradnja | { $productTitle }
+metadata-description-upgrade-start = Za dokončanje nadgradnje vnesite podatke o plačilu.
+# Upgrade processing
+metadata-title-upgrade-processing = Obdelovanje | { $productTitle }
+metadata-description-upgrade-processing = Počakajte, da končamo z obdelavo plačila.
+# Upgrade error
+metadata-title-upgrade-error = Napaka | { $productTitle }
+metadata-description-upgrade-error = Pri obdelavi nadgradnje je prišlo do napake. Če se težava ponovi, se obrnite na podporo.
+# Upgrade success
+metadata-title-upgrade-success = Uspeh | { $productTitle }
+metadata-description-upgrade-success = Čestitke! Uspešno ste zaključili nadgradnjo.
+# Upgrade needs_input
+metadata-title-upgrade-needs-input = Zahtevano dejanje | { $productTitle }
+metadata-description-upgrade-needs-input = Izvedite zahtevano dejanje za nadaljevanje plačila.
+# Default
+metadata-title-default = Strani ni bilo mogoče najti | { $productTitle }
+metadata-description-default = Zahtevane strani ni mogoče najti.

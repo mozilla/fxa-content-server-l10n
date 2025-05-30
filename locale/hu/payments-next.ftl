@@ -29,6 +29,7 @@ checkout-error-boundary-basic-error-message = Hiba történt. Próbálja újra, 
 ## Common strings used in multiple pages
 
 next-payment-error-manage-subscription-button = Saját feliratkozások kezelése
+next-iap-blocked-contact-support = Van egy mobil alkalmazáson belüli előfizetése, amely ütközik ezzel a termékkel – lépjen kapcsolatba az ügyfélszolgálattal, hogy segíthessünk.
 next-payment-error-retry-button = Próbálja újra
 next-basic-error-message = Hiba történt, próbálja újra később.
 checkout-error-contact-support-button = Kapcsolatfelvétel az ügyfélszolgálattal
@@ -227,3 +228,36 @@ upgrade-purchase-details-new-plan-monthly = { $productName } (havi)
 upgrade-purchase-details-new-plan-halfyearly = { $productName } (6 hónapos)
 upgrade-purchase-details-new-plan-yearly = { $productName } (évi)
 upgrade-purchase-details-prorated-credits = A megjelenített negatív egyenleg jóváírásként jelenik meg, és a jövőbeni számlákra lesz használva.
+# Checkout start
+metadata-title-checkout-start = Kijelentkezés | { $productTitle }
+metadata-description-checkout-start = A vásárlás befejezéséhez adja meg a fizetési adatait.
+# Checkout processing
+metadata-title-checkout-processing = Feldolgozás | { $productTitle }
+metadata-description-checkout-processing = Várjon, amíg befejezzük a fizetés feldolgozását.
+# Checkout error
+metadata-title-checkout-error = Hiba | { $productTitle }
+metadata-description-checkout-error = Hiba történt az előfizetés feldolgozása közben. Ha a probléma továbbra is fennáll, forduljon a támogatáshoz.
+# Checkout success
+metadata-title-checkout-success = Siker | { $productTitle }
+metadata-description-checkout-success = Gratulálunk! Sikeresen befejezte a vásárlást.
+# Checkout needs_input
+metadata-title-checkout-needs-input = Művelet szükséges | { $productTitle }
+metadata-description-checkout-needs-input = Kérjük, végezze el a szükséges műveletet a fizetés folytatásához.
+# Upgrade start
+metadata-title-upgrade-start = Frissítés | { $productTitle }
+metadata-description-upgrade-start = Adja meg a fizetési adatait a frissítés befejezéséhez.
+# Upgrade processing
+metadata-title-upgrade-processing = Feldolgozás | { $productTitle }
+metadata-description-upgrade-processing = Várjon, amíg befejezzük a fizetés feldolgozását.
+# Upgrade error
+metadata-title-upgrade-error = Hiba | { $productTitle }
+metadata-description-upgrade-error = Hiba történt a frissítés feldolgozása közben. Ha a probléma továbbra is fennáll, forduljon a támogatáshoz.
+# Upgrade success
+metadata-title-upgrade-success = Siker | { $productTitle }
+metadata-description-upgrade-success = Gratulálunk! Sikeresen befejezte a frissítést.
+# Upgrade needs_input
+metadata-title-upgrade-needs-input = Művelet szükséges | { $productTitle }
+metadata-description-upgrade-needs-input = Kérjük, végezze el a szükséges műveletet a fizetés folytatásához.
+# Default
+metadata-title-default = Az oldal nem található | { $productTitle }
+metadata-description-default = A kért oldal nem található.

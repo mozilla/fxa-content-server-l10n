@@ -27,6 +27,7 @@ checkout-error-boundary-basic-error-message = Něco se pokazilo. Zkuste to znovu
 ## Common strings used in multiple pages
 
 next-payment-error-manage-subscription-button = Správa předplatného
+next-iap-blocked-contact-support = Vaše předplatné v mobilní aplikaci je v konfliktu s tímto produktem – kontaktujte prosím podporu, abychom vám mohli pomoci.
 next-payment-error-retry-button = Zkusit znovu
 next-basic-error-message = Něco se pokazilo. Zkuste to prosím znovu později.
 checkout-error-contact-support-button = Kontaktovat podporu
@@ -225,3 +226,36 @@ upgrade-purchase-details-new-plan-monthly = { $productName } (měsíčně)
 upgrade-purchase-details-new-plan-halfyearly = { $productName } (6 měsíců)
 upgrade-purchase-details-new-plan-yearly = { $productName } (ročně)
 upgrade-purchase-details-prorated-credits = Zobrazený záporný zůstatek bude připsán ve prospěch vašeho účtu a bude použit k úhradě budoucích faktur.
+# Checkout start
+metadata-title-checkout-start = Pokladna | { $productTitle }
+metadata-description-checkout-start = Pro dokončení nákupu zadejte své platební údaje.
+# Checkout processing
+metadata-title-checkout-processing = Probíhá zpracování | { $productTitle }
+metadata-description-checkout-processing = Počkejte prosím na dokončení vaší platby.
+# Checkout error
+metadata-title-checkout-error = Chyba | { $productTitle }
+metadata-description-checkout-error = Při zpracování vašeho předplatného nastala chyba. Pokud problém přetrvává, kontaktujte podporu.
+# Checkout success
+metadata-title-checkout-success = Úspěch | { $productTitle }
+metadata-description-checkout-success = Gratulujeme! Úspěšně jste dokončili svůj nákup.
+# Checkout needs_input
+metadata-title-checkout-needs-input = Je vyžadována akce | { $productTitle }
+metadata-description-checkout-needs-input = Pro dokončení platby prosím dokončete akci požadovanou.
+# Upgrade start
+metadata-title-upgrade-start = Aktualizace | { $productTitle }
+metadata-description-upgrade-start = Pro dokončení aktualizace zadejte své platební údaje.
+# Upgrade processing
+metadata-title-upgrade-processing = Probíhá zpracování | { $productTitle }
+metadata-description-upgrade-processing = Počkejte prosím na dokončení vaší platby.
+# Upgrade error
+metadata-title-upgrade-error = Chyba | { $productTitle }
+metadata-description-upgrade-error = Při zpracování aktualizace nastala chyba. Pokud problém přetrvává, kontaktujte podporu.
+# Upgrade success
+metadata-title-upgrade-success = Úspěch | { $productTitle }
+metadata-description-upgrade-success = Gratulujeme! Úspěšně jste dokončili aktualizaci.
+# Upgrade needs_input
+metadata-title-upgrade-needs-input = Je vyžadována akce | { $productTitle }
+metadata-description-upgrade-needs-input = Pro dokončení platby prosím dokončete akci požadovanou.
+# Default
+metadata-title-default = Stránka nebyla nalezena | { $productTitle }
+metadata-description-default = Požadovaná stránka nebyla nalezena.

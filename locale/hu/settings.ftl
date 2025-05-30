@@ -114,6 +114,9 @@ datablock-copy =
     .message = Másolva
 datablock-print =
     .message = Kinyomtatva
+# Tooltip notification when an account recovery key or one-time use code is copied.
+datablock-inline-copy =
+    .message = Másolva
 
 ## DeviceInfoBlock component
 ## The strings here are used to display information about the origin of activity happening on a user's account
@@ -645,6 +648,7 @@ flow-setup-phone-confirm-code-expired = A kód lejárt?
 flow-setup-phone-confirm-code-resend-code-button = Kód újraküldése
 flow-setup-phone-confirm-code-resend-code-success = Kód elküldve
 flow-setup-phone-confirm-code-success-message-v2 = Helyreállítási telefonszám hozzáadva
+flow-change-phone-confirm-code-success-message = A helyreállítási telefonszám megváltozott
 
 ## FlowSetupPhoneConfirmCode
 
@@ -893,6 +897,7 @@ settings-recovery-phone-remove-success = Helyreállítási telefonszám eltávol
 ## PageSetupRecoveryPhone
 
 page-setup-recovery-phone-heading = Helyreállítási telefonszám hozzáadása
+page-change-recovery-phone = Helyreállítási telefonszám módosítása
 page-setup-recovery-phone-back-button-title = Vissza a beállításokhoz
 # Back arrow to return to step 1 of recovery phone setup flow
 page-setup-recovery-phone-step2-back-button-title = Telefonszám módosítása

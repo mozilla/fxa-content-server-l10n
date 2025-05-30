@@ -27,6 +27,7 @@ checkout-error-boundary-basic-error-message = Algo salió mal. Volvé a intentar
 ## Common strings used in multiple pages
 
 next-payment-error-manage-subscription-button = Administrar mi suscripción
+next-iap-blocked-contact-support = Tiene una suscripción a la aplicación móvil que entra en conflicto con este producto. Contacte a soporte para que podamos ayudarlo.
 next-payment-error-retry-button = Intentar de nuevo
 next-basic-error-message = Algo salió mal. Probá de nuevo más tarde.
 checkout-error-contact-support-button = Contactar soporte
@@ -225,3 +226,36 @@ upgrade-purchase-details-new-plan-monthly = { $productName } (Mensual)
 upgrade-purchase-details-new-plan-halfyearly = { $productName } (6 meses)
 upgrade-purchase-details-new-plan-yearly = { $productName } (Anual)
 upgrade-purchase-details-prorated-credits = El saldo negativo mostrado se aplicará como créditos a tu cuenta y se usará para facturas futuras.
+# Checkout start
+metadata-title-checkout-start = Finalizar compra | { $productTitle }
+metadata-description-checkout-start = Ingresá tus detalles de pago para completar la compra.
+# Checkout processing
+metadata-title-checkout-processing = Procesando | { $productTitle }
+metadata-description-checkout-processing = Esperá mientras terminamos de procesar tu pago.
+# Checkout error
+metadata-title-checkout-error = Error | { $productTitle }
+metadata-description-checkout-error = Hubo un error procesando tu suscripción. Si este problema persiste, contactá a soporte.
+# Checkout success
+metadata-title-checkout-success = Éxito | { $productTitle }
+metadata-description-checkout-success = ¡Felicitaciones! Has completado exitosamente tu compra.
+# Checkout needs_input
+metadata-title-checkout-needs-input = Acción requerida | { $productTitle }
+metadata-description-checkout-needs-input = Complete la acción requerida para proceder con su pago.
+# Upgrade start
+metadata-title-upgrade-start = Actualizar | { $productTitle }
+metadata-description-upgrade-start = Ingresá tus detalles de pago para completar la actualización.
+# Upgrade processing
+metadata-title-upgrade-processing = Procesando | { $productTitle }
+metadata-description-upgrade-processing = Esperá mientras terminamos de procesar tu pago.
+# Upgrade error
+metadata-title-upgrade-error = Error | { $productTitle }
+metadata-description-upgrade-error = Hubo un error procesando la actualización. Si este problema persiste, contactá a soporte.
+# Upgrade success
+metadata-title-upgrade-success = Éxito | { $productTitle }
+metadata-description-upgrade-success = ¡Felicitaciones! Ha completado correctamente la actualización.
+# Upgrade needs_input
+metadata-title-upgrade-needs-input = Acción requerida | { $productTitle }
+metadata-description-upgrade-needs-input = Complete la acción requerida para proceder con su pago.
+# Default
+metadata-title-default = Página no encontrada | { $productTitle }
+metadata-description-default = La página solicitada no fue encontrada.

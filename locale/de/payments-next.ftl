@@ -27,6 +27,7 @@ checkout-error-boundary-basic-error-message = Es trat ein Problem auf. Bitte ver
 ## Common strings used in multiple pages
 
 next-payment-error-manage-subscription-button = Mein Abonnement verwalten
+next-iap-blocked-contact-support = Sie haben ein mobiles App-internes Abonnement, das in Konflikt mit diesem Produkt steht – bitte wenden Sie sich an den Support, damit wir Ihnen helfen können.
 next-payment-error-retry-button = Erneut versuchen
 next-basic-error-message = Etwas ist schiefgegangen. Bitte versuchen Sie es später erneut.
 checkout-error-contact-support-button = Hilfe kontaktieren
@@ -225,3 +226,36 @@ upgrade-purchase-details-new-plan-monthly = { $productName } (monatlich)
 upgrade-purchase-details-new-plan-halfyearly = { $productName } (sechs Monate)
 upgrade-purchase-details-new-plan-yearly = { $productName } (jährlich)
 upgrade-purchase-details-prorated-credits = Der angezeigte negative Kontostand wird Ihrem Konto als Guthaben hinzugefügt und für zukünftige Rechnungen verwendet.
+# Checkout start
+metadata-title-checkout-start = Zur Zahlung | { $productTitle }
+metadata-description-checkout-start = Geben Sie Ihre Zahlungsdaten ein, um Ihren Kauf abzuschließen.
+# Checkout processing
+metadata-title-checkout-processing = Verarbeiten… { $productTitle }
+metadata-description-checkout-processing = Bitte warten Sie, während die Verarbeitung Ihrer Zahlung abgeschlossen wird.
+# Checkout error
+metadata-title-checkout-error = Fehler | { $productTitle }
+metadata-description-checkout-error = Beim Verarbeiten Ihres Dauerauftrags ist ein Fehler aufgetreten. Wenn dieses Problem weiterhin besteht, wenden Sie sich bitte an den Support.
+# Checkout success
+metadata-title-checkout-success = Geschafft | { $productTitle }
+metadata-description-checkout-success = Herzlichen Glückwunsch! Sie haben Ihren Kauf erfolgreich abgeschlossen.
+# Checkout needs_input
+metadata-title-checkout-needs-input = Handeln erforderlich | { $productTitle }
+metadata-description-checkout-needs-input = Bitte schließen Sie die benötigte Aktion ab, um mit der Zahlung fortzufahren.
+# Upgrade start
+metadata-title-upgrade-start = Aktualisieren | { $productTitle }
+metadata-description-upgrade-start = Geben Sie Ihre Zahlungsdaten ein, um das Upgrade abzuschließen.
+# Upgrade processing
+metadata-title-upgrade-processing = Verarbeiten… { $productTitle }
+metadata-description-upgrade-processing = Bitte warten Sie, während die Verarbeitung Ihrer Zahlung abgeschlossen wird.
+# Upgrade error
+metadata-title-upgrade-error = Fehler | { $productTitle }
+metadata-description-upgrade-error = Beim Verarbeiten Ihres Upgrades ist ein Fehler aufgetreten. Wenn dieses Problem weiterhin besteht, wenden Sie sich bitte an den Support.
+# Upgrade success
+metadata-title-upgrade-success = Geschafft | { $productTitle }
+metadata-description-upgrade-success = Herzlichen Glückwunsch! Sie haben Ihr Upgrade erfolgreich abgeschlossen.
+# Upgrade needs_input
+metadata-title-upgrade-needs-input = Handeln erforderlich | { $productTitle }
+metadata-description-upgrade-needs-input = Bitte schließen Sie die benötigte Aktion ab, um mit der Zahlung fortzufahren.
+# Default
+metadata-title-default = Seite nicht gefunden | { $productTitle }
+metadata-description-default = Die angeforderte Seite wurde nicht gefunden.

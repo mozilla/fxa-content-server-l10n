@@ -114,6 +114,9 @@ datablock-copy =
     .message = Copiato
 datablock-print =
     .message = Stampato
+# Tooltip notification when an account recovery key or one-time use code is copied.
+datablock-inline-copy =
+    .message = Copiato
 
 ## DeviceInfoBlock component
 ## The strings here are used to display information about the origin of activity happening on a user's account
@@ -637,6 +640,7 @@ flow-setup-phone-confirm-code-expired = Codice scaduto?
 flow-setup-phone-confirm-code-resend-code-button = Invia di nuovo il codice
 flow-setup-phone-confirm-code-resend-code-success = Codice inviato
 flow-setup-phone-confirm-code-success-message-v2 = Aggiunto telefono per il recupero dell’account
+flow-change-phone-confirm-code-success-message = Il numero di telefono di recupero è stato modificato
 
 ## FlowSetupPhoneConfirmCode
 
@@ -882,6 +886,7 @@ settings-recovery-phone-remove-success = Il telefono per il recupero dell’acco
 ## PageSetupRecoveryPhone
 
 page-setup-recovery-phone-heading = Aggiungi telefono per il recupero dell’account
+page-change-recovery-phone = Cambia numero di telefono di recupero
 page-setup-recovery-phone-back-button-title = Torna alle impostazioni
 # Back arrow to return to step 1 of recovery phone setup flow
 page-setup-recovery-phone-step2-back-button-title = Cambia numero di telefono

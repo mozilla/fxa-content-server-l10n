@@ -114,6 +114,9 @@ datablock-copy =
     .message = Copïwyd
 datablock-print =
     .message = Argraffwyd
+# Tooltip notification when an account recovery key or one-time use code is copied.
+datablock-inline-copy =
+    .message = Copïwyd
 
 ## DeviceInfoBlock component
 ## The strings here are used to display information about the origin of activity happening on a user's account
@@ -639,6 +642,7 @@ flow-setup-phone-confirm-code-expired = Cod wedi dod i ben?
 flow-setup-phone-confirm-code-resend-code-button = Ail-anfon y cod
 flow-setup-phone-confirm-code-resend-code-success = Anfonwyd y cod
 flow-setup-phone-confirm-code-success-message-v2 = Ffôn adfer wedi'i ychwanegu
+flow-change-phone-confirm-code-success-message = Ffôn adfer wedi'i newid
 
 ## FlowSetupPhoneConfirmCode
 
@@ -887,6 +891,7 @@ settings-recovery-phone-remove-success = Ffôn adfer wedi'i dynnu
 ## PageSetupRecoveryPhone
 
 page-setup-recovery-phone-heading = Ychwanegu ffôn adfer
+page-change-recovery-phone = Newid ffôn adfer
 page-setup-recovery-phone-back-button-title = Nôl i'r gosodiadau
 # Back arrow to return to step 1 of recovery phone setup flow
 page-setup-recovery-phone-step2-back-button-title = Newid rhif ffôn

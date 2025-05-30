@@ -27,6 +27,7 @@ checkout-error-boundary-basic-error-message = Aeth rhywbeth o'i le. Ceisiwch eto
 ## Common strings used in multiple pages
 
 next-payment-error-manage-subscription-button = Rheoli fy nhanysgrifiad
+next-iap-blocked-contact-support = Mae gennych danysgrifiad mewn-app symudol sy'n gwrthdaro â'r cynnyrch hwn - cysylltwch â'r tîm cymorth fel y gallwn eich helpu.
 next-payment-error-retry-button = Ceisiwch eto
 next-basic-error-message = Aeth rhywbeth o'i le. Ceisiwch eto.
 checkout-error-contact-support-button = Cysylltu â Chefnogaeth
@@ -225,3 +226,36 @@ upgrade-purchase-details-new-plan-monthly = { $productName } ( Misol)
 upgrade-purchase-details-new-plan-halfyearly = { $productName } (6-mis)
 upgrade-purchase-details-new-plan-yearly = { $productName } (Blynyddol)
 upgrade-purchase-details-prorated-credits = Bydd y balans negyddol sy'n cael ei ddangos yn cael ei osod fel credydau i'ch cyfrif a'i ddefnyddio tuag at anfonebau yn y dyfodol.
+# Checkout start
+metadata-title-checkout-start = Desg dalu | { $productTitle }
+metadata-description-checkout-start = Rhowch eich manylion talu i gwblhau eich pryniant.
+# Checkout processing
+metadata-title-checkout-processing = Prosesu | { $productTitle }
+metadata-description-checkout-processing = Arhoswch tra byddwn yn gorffen prosesu eich taliad.
+# Checkout error
+metadata-title-checkout-error = Gwall | { $productTitle }
+metadata-description-checkout-error = Bu gwall wrth brosesu eich tanysgrifiad. Os bydd y broblem hon yn parhau, cysylltwch â'r tîm cymorth.
+# Checkout success
+metadata-title-checkout-success = Llwyddiant | { $productTitle }
+metadata-description-checkout-success = Llongyfarchiadau! Rydych chi wedi cwblhau eich pryniant yn llwyddiannus.
+# Checkout needs_input
+metadata-title-checkout-needs-input = Camau i'w cymryd | { $productTitle }
+metadata-description-checkout-needs-input = Cwblhewch y camau gofynnol i barhau â'ch taliad.
+# Upgrade start
+metadata-title-upgrade-start = Uwchraddio | { $productTitle }
+metadata-description-upgrade-start = Rhowch eich manylion talu i gwblhau eich uwchraddiad.
+# Upgrade processing
+metadata-title-upgrade-processing = Prosesu | { $productTitle }
+metadata-description-upgrade-processing = Arhoswch tra byddwn yn gorffen prosesu eich taliad.
+# Upgrade error
+metadata-title-upgrade-error = Gwall | { $productTitle }
+metadata-description-upgrade-error = Bu gwall wrth brosesu eich uwchraddiad. Os bydd y broblem hon yn parhau, cysylltwch â'r tîm cymorth.
+# Upgrade success
+metadata-title-upgrade-success = Llwyddiant | { $productTitle }
+metadata-description-upgrade-success = Llongyfarchiadau! Rydych chi wedi cwblhau eich uwchraddiad yn llwyddiannus.
+# Upgrade needs_input
+metadata-title-upgrade-needs-input = Camau i'w cymryd | { $productTitle }
+metadata-description-upgrade-needs-input = Cwblhewch y camau gofynnol i barhau â'ch taliad.
+# Default
+metadata-title-default = Tudalen heb ei chanfod | { $productTitle }
+metadata-description-default = Ni chanfuwyd y dudalen y gofynnoch amdani.
