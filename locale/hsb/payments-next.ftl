@@ -30,7 +30,7 @@ checkout-error-boundary-basic-error-message = Něšto je so nimokuliło. Prošu 
 ## Common strings used in multiple pages
 
 next-payment-error-manage-subscription-button = Abonement zrjadować
-next-iap-blocked-contact-support = Maće mobilny abonement w nałoženju, kotryž je w konfilkće z tutym produktom – stajće so prošu z teamom pomocy do zwiska, zo bychmy móhli wam pomhać.
+next-iap-blocked-contact-support = Maće mobilny abonement w nałoženju, kotryž je w konflikće z tutym produktom – stajće so prošu z teamom pomocy do zwiska, zo bychmy móhli wam pomhać.
 next-payment-error-retry-button = Hišće raz spytać
 next-basic-error-message = Něšto je so nimokuliło. Prošu spytajće pozdźišo hišće raz.
 checkout-error-contact-support-button = Pomoc skontaktować

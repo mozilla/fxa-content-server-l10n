@@ -114,6 +114,9 @@ datablock-copy =
     .message = Kopěrowane
 datablock-print =
     .message = Śišćane
+# Tooltip notification when an account recovery key or one-time use code is copied.
+datablock-inline-copy =
+    .message = Kopěrowany
 
 ## DeviceInfoBlock component
 ## The strings here are used to display information about the origin of activity happening on a user's account
@@ -641,6 +644,7 @@ flow-setup-phone-confirm-code-expired = Kod jo spadnuł?
 flow-setup-phone-confirm-code-resend-code-button = Kod znowego słaś
 flow-setup-phone-confirm-code-resend-code-success = Kod jo se pósłał
 flow-setup-phone-confirm-code-success-message-v2 = Wótnowjeński telefon pśidany
+flow-change-phone-confirm-code-success-message = Wótnowjeński telefon změnjony
 
 ## FlowSetupPhoneConfirmCode
 
@@ -891,6 +895,7 @@ settings-recovery-phone-remove-success = Wótnowjeński telefon wótwónoźony
 ## PageSetupRecoveryPhone
 
 page-setup-recovery-phone-heading = Wótnowjeński telefon pśidaś
+page-change-recovery-phone = Wótnowjeński telefon změniś
 page-setup-recovery-phone-back-button-title = Slědk k nastajenjam
 # Back arrow to return to step 1 of recovery phone setup flow
 page-setup-recovery-phone-step2-back-button-title = Telefonowy numer změniś

@@ -30,6 +30,7 @@ checkout-error-boundary-basic-error-message = Něco njejo se raźiło. Pšosym w
 ## Common strings used in multiple pages
 
 next-payment-error-manage-subscription-button = Abonoment zastojaś
+next-iap-blocked-contact-support = Maśo mobilny abonement w nałoženju, kótaryž jo w konflikśe z toś tym produktom – stajśo se pšosym z teamom pomocy do zwiska, aby my mógli wam pomagaś.
 next-payment-error-retry-button = Hyšći raz wopytaś
 next-basic-error-message = Něco jo se mimo kuliło. Pšosym wopytajśo pózdźej hyšći raz.
 checkout-error-contact-support-button = Pomoc kontaktěrowaś
@@ -233,3 +234,31 @@ metadata-title-checkout-start = Płaśenje | { $productTitle }
 metadata-description-checkout-start = Zapódajśo swóje płaśeńske drobnostki, aby swóju kup dokóńcył.
 # Checkout processing
 metadata-title-checkout-processing = Pśeźěłanje | { $productTitle }
+metadata-description-checkout-processing = Pšosym cakajśo, mjaztym až waše płaśenje pśeźěłanje dokóńcyjomy.
+# Checkout error
+metadata-title-checkout-error = Zmólka | { $productTitle }
+metadata-description-checkout-error = Pśi pśeźěłowanju wašogo abonementa jo zmólka nastała. Jolic toś ten problem dalej eksistěrujo, stajśo se z teamom pomocy do zwiska.
+# Checkout success
+metadata-title-checkout-success = Wuspěšny | { $productTitle }
+metadata-description-checkout-success = Glukužycenje! Sćo wuspěšnje dokóńcył swóju kup.
+# Checkout needs_input
+metadata-title-checkout-needs-input = Akcija trjebna | { $productTitle }
+metadata-description-checkout-needs-input = Pšosym dokóńcćo trjebnu akciju, aby ze swójim płaśenim pókšacował.
+# Upgrade start
+metadata-title-upgrade-start = Aktualizacija | { $productTitle }
+metadata-description-upgrade-start = Zapódajśo swóje płaśeńske drobnostki, aby swóju aktualizaciju dokóńcył.
+# Upgrade processing
+metadata-title-upgrade-processing = Pśeźěłanje | { $productTitle }
+metadata-description-upgrade-processing = Pšosym cakajśo, mjaztym až waše płaśenje pśeźěłanje dokóńcyjomy.
+# Upgrade error
+metadata-title-upgrade-error = Zmólka | { $productTitle }
+metadata-description-upgrade-error = Pśi pśeźěłowanju wašeje aktualizacije jo zmólka nastała. Jolic toś ten problem dalej eksistěrujo, stajśo se z teamom pomocy do zwiska.
+# Upgrade success
+metadata-title-upgrade-success = Wuspěšny | { $productTitle }
+metadata-description-upgrade-success = Glukužycenje! Sćo wuspěšnje dokóńcył swóju aktualizaciju.
+# Upgrade needs_input
+metadata-title-upgrade-needs-input = Akcija trjebna | { $productTitle }
+metadata-description-upgrade-needs-input = Pšosym dokóńcćo trjebnu akciju, aby ze swójim płaśenim pókšacował.
+# Default
+metadata-title-default = Bok njenamakany | { $productTitle }
+metadata-description-default = Bok, wó kótaryž sćo pšosył, njejo se namakał.
