@@ -234,7 +234,7 @@ metadata-title-checkout-start = Płaćenje | { $productTitle }
 metadata-description-checkout-start = Zapodajće swoje płaćenske podrobnosće, zo byšće swoju kup dokónčił.
 # Checkout processing
 metadata-title-checkout-processing = Předźěłanje | { $productTitle }
-metadata-description-checkout-processing = Prošu čakajće, mjeztym zo waše płaćenje předźěłanje dokónčimy…
+metadata-description-checkout-processing = Prošu čakajće, mjeztym zo waše płaćenje předźěłanje dokónčimy.
 # Checkout error
 metadata-title-checkout-error = Zmylk | { $productTitle }
 metadata-description-checkout-error = Při předźěłowanju wašeho abonementa je zmylk nastał. Jeli tutón problem dale eksistuje, stajće so z teamom pomocy do zwiska.

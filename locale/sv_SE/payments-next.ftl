@@ -27,6 +27,7 @@ checkout-error-boundary-basic-error-message = Något gick fel. Försök igen ell
 ## Common strings used in multiple pages
 
 next-payment-error-manage-subscription-button = Hantera min prenumeration
+next-iap-blocked-contact-support = Du har ett abonnemang i appar för mobil som är i konflikt med den här produkten — vänligen kontakta supporten så kan vi hjälpa dig.
 next-payment-error-retry-button = Försök igen
 next-basic-error-message = Något gick fel. Vänligen försök igen.
 checkout-error-contact-support-button = Kontakta supporten
@@ -225,3 +226,36 @@ upgrade-purchase-details-new-plan-monthly = { $productName } (månadsvis)
 upgrade-purchase-details-new-plan-halfyearly = { $productName } (6 månader)
 upgrade-purchase-details-new-plan-yearly = { $productName } (årligen)
 upgrade-purchase-details-prorated-credits = Negativt saldo som visas kommer att krediteras ditt konto och användas för framtida fakturor.
+# Checkout start
+metadata-title-checkout-start = Köp | { $productTitle }
+metadata-description-checkout-start = Ange dina betalningsuppgifter för att slutföra ditt köp.
+# Checkout processing
+metadata-title-checkout-processing = Behandlar | { $productTitle }
+metadata-description-checkout-processing = Vänta medan vi slutför behandlingen av din betalning.
+# Checkout error
+metadata-title-checkout-error = Fel | { $productTitle }
+metadata-description-checkout-error = Det uppstod ett fel vid bearbetning av din prenumeration. Om problemet kvarstår, vänligen kontakta supporten.
+# Checkout success
+metadata-title-checkout-success = Lyckad betalning | { $productTitle }
+metadata-description-checkout-success = Grattis! Du har slutfört ditt köp.
+# Checkout needs_input
+metadata-title-checkout-needs-input = Åtgärd krävs | { $productTitle }
+metadata-description-checkout-needs-input = Slutför nödvändiga åtgärder för att fortsätta med din betalning.
+# Upgrade start
+metadata-title-upgrade-start = Uppgradera | { $productTitle }
+metadata-description-upgrade-start = Ange din betalningsinformation för att slutföra din uppgradering.
+# Upgrade processing
+metadata-title-upgrade-processing = Behandlar | { $productTitle }
+metadata-description-upgrade-processing = Vänta medan vi slutför behandlingen av din betalning.
+# Upgrade error
+metadata-title-upgrade-error = Fel | { $productTitle }
+metadata-description-upgrade-error = Det uppstod ett fel vid bearbetningen av din uppgradering. Om problemet kvarstår, vänligen kontakta supporten.
+# Upgrade success
+metadata-title-upgrade-success = Lyckad uppgradering | { $productTitle }
+metadata-description-upgrade-success = Grattis! Du har slutfört din uppgradering.
+# Upgrade needs_input
+metadata-title-upgrade-needs-input = Åtgärd krävs | { $productTitle }
+metadata-description-upgrade-needs-input = Slutför nödvändiga åtgärder för att fortsätta med din betalning.
+# Default
+metadata-title-default = Sidan hittades inte | { $productTitle }
+metadata-description-default = Sidan du begärde hittades inte.

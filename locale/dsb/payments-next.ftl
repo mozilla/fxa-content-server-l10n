@@ -228,3 +228,8 @@ upgrade-purchase-details-new-plan-monthly = { $productName } (kuždy mjasec)
 upgrade-purchase-details-new-plan-halfyearly = { $productName } (6-mjasecny)
 upgrade-purchase-details-new-plan-yearly = { $productName } (kužde lěto)
 upgrade-purchase-details-prorated-credits = Pokazany kontowy staw se wašomu kontu pśidawa a za pśiduce zliceńki wužywa.
+# Checkout start
+metadata-title-checkout-start = Płaśenje | { $productTitle }
+metadata-description-checkout-start = Zapódajśo swóje płaśeńske drobnostki, aby swóju kup dokóńcył.
+# Checkout processing
+metadata-title-checkout-processing = Pśeźěłanje | { $productTitle }
