@@ -377,10 +377,10 @@ passwordResetAccountRecovery-information = Nous vous avons déconnecté·e de to
 # After the colon there is a link to account settings
 passwordResetAccountRecovery-information-txt = Nous vous avons déconnecté·e de tous vos appareils synchronisés. Nous avons créé une nouvelle clé de récupération de compte pour remplacer celle que vous avez utilisée. Vous pouvez la modifier dans les paramètres de votre compte :
 passwordResetAccountRecovery-action-4 = Gérer le compte
-passwordResetRecoveryPhone-subject = Numéro de téléphone utilisé pour la récupération
+passwordResetRecoveryPhone-subject = Numéro de téléphone de secours utilisé
 passwordResetRecoveryPhone-preview = Vérifiez qu’il s’agit bien de vous
-passwordResetRecoveryPhone-title = Votre numéro de téléphone de récupération a été utilisé pour confirmer la réinitialisation d’un mot de passe
-passwordResetRecoveryPhone-device = Numéro de téléphone utilisé depuis :
+passwordResetRecoveryPhone-title = Votre numéro de téléphone de secours a été utilisé pour confirmer la réinitialisation du mot de passe
+passwordResetRecoveryPhone-device = Numéro de téléphone de secours utilisé depuis :
 passwordResetRecoveryPhone-action = Gérer le compte
 passwordResetWithRecoveryKeyPrompt-subject = Votre mot de passe à été réinitialisé
 passwordResetWithRecoveryKeyPrompt-title = Votre mot de passe à été réinitialisé
@@ -436,7 +436,7 @@ postChangeRecoveryPhone-preview = Compte protégé par l’authentification en d
 postChangeRecoveryPhone-title = Vous avez changé votre numéro de téléphone de secours
 postChangeRecoveryPhone-description = Vous avez maintenant un nouveau numéro de téléphone de secours. Votre précédent numéro de téléphone a été supprimé.
 postChangeRecoveryPhone-requested-device = La demande a été effectuée depuis :
-postConsumeRecoveryCode-title-3 = Votre code d’authentification de secours a été utilisé pour confirmer la réinitialisation d’un mot de passe
+postConsumeRecoveryCode-title-3 = Votre code d’authentification de secours a été utilisé pour confirmer la réinitialisation du mot de passe
 # After the colon, there is description of the device that the backup authentication code was used on
 # E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
 postConsumeRecoveryCode-description-3 = Code utilisé depuis :
