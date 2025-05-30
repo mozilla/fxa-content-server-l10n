@@ -642,7 +642,7 @@ flow-setup-phone-confirm-code-expired = Code abgelaufen?
 flow-setup-phone-confirm-code-resend-code-button = Code erneut senden
 flow-setup-phone-confirm-code-resend-code-success = Code gesendet
 flow-setup-phone-confirm-code-success-message-v2 = Telefonnummer zur Kontowiederherstellung hinzugefügt
-flow-change-phone-confirm-code-success-message = Telefonnummer für Wiederhersteller geändert
+flow-change-phone-confirm-code-success-message = Telefonnummer zur Kontowiederherstellung geändert
 
 ## FlowSetupPhoneConfirmCode
 
@@ -891,7 +891,7 @@ settings-recovery-phone-remove-success = Telefonnummer für Kontowiederherstellu
 ## PageSetupRecoveryPhone
 
 page-setup-recovery-phone-heading = Telefonnummer zur Wiederherstellung hinzufügen
-page-change-recovery-phone = Die Telefonnummer zur Wiederherstellung ändern
+page-change-recovery-phone = Telefonnummer zur Kontowiederherstellung ändern
 page-setup-recovery-phone-back-button-title = Zurück zu den Einstellungen
 # Back arrow to return to step 1 of recovery phone setup flow
 page-setup-recovery-phone-step2-back-button-title = Telefonnummer ändern

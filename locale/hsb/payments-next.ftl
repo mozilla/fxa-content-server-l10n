@@ -228,3 +228,22 @@ upgrade-purchase-details-new-plan-monthly = { $productName } (kóždy měsac)
 upgrade-purchase-details-new-plan-halfyearly = { $productName } (6-měsacny)
 upgrade-purchase-details-new-plan-yearly = { $productName } (kóžde lěto)
 upgrade-purchase-details-prorated-credits = Pokazany kontowy staw so wašemu kontu přidawa a za přichodne zličbowanki wužiwa.
+# Checkout error
+metadata-title-checkout-error = Zmylk | { $productTitle }
+# Checkout success
+metadata-title-checkout-success = Wuspěšny | { $productTitle }
+# Checkout needs_input
+metadata-title-checkout-needs-input = Akcija trěbna | { $productTitle }
+# Upgrade start
+metadata-title-upgrade-start = Aktualizacija | { $productTitle }
+# Upgrade processing
+metadata-title-upgrade-processing = Předźěłanje | { $productTitle }
+metadata-description-upgrade-processing = Prošu čakajće, mjeztym zo waše płaćenje předźěłanje dokónčimy…
+# Upgrade error
+metadata-title-upgrade-error = Zmylk | { $productTitle }
+# Upgrade success
+metadata-title-upgrade-success = Wuspěšny | { $productTitle }
+# Upgrade needs_input
+metadata-title-upgrade-needs-input = Akcija trěbna | { $productTitle }
+# Default
+metadata-title-default = Strona njenamakana | { $productTitle }

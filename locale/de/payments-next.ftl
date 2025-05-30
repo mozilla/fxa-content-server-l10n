@@ -227,7 +227,7 @@ upgrade-purchase-details-new-plan-halfyearly = { $productName } (sechs Monate)
 upgrade-purchase-details-new-plan-yearly = { $productName } (jährlich)
 upgrade-purchase-details-prorated-credits = Der angezeigte negative Kontostand wird Ihrem Konto als Guthaben hinzugefügt und für zukünftige Rechnungen verwendet.
 # Checkout start
-metadata-title-checkout-start = Zur Zahlung | { $productTitle }
+metadata-title-checkout-start = Bezahlen| { $productTitle }
 metadata-description-checkout-start = Geben Sie Ihre Zahlungsdaten ein, um Ihren Kauf abzuschließen.
 # Checkout processing
 metadata-title-checkout-processing = Verarbeiten… { $productTitle }
@@ -242,7 +242,7 @@ metadata-description-checkout-success = Herzlichen Glückwunsch! Sie haben Ihren
 metadata-title-checkout-needs-input = Handeln erforderlich | { $productTitle }
 metadata-description-checkout-needs-input = Bitte schließen Sie die benötigte Aktion ab, um mit der Zahlung fortzufahren.
 # Upgrade start
-metadata-title-upgrade-start = Aktualisieren | { $productTitle }
+metadata-title-upgrade-start = Upgrade | { $productTitle }
 metadata-description-upgrade-start = Geben Sie Ihre Zahlungsdaten ein, um das Upgrade abzuschließen.
 # Upgrade processing
 metadata-title-upgrade-processing = Verarbeiten… { $productTitle }
