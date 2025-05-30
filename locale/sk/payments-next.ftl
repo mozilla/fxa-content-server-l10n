@@ -27,6 +27,7 @@ checkout-error-boundary-basic-error-message = Niečo sa pokazilo. Skúste to zno
 ## Common strings used in multiple pages
 
 next-payment-error-manage-subscription-button = Spravovať moje predplatné
+next-iap-blocked-contact-support = Máte predplatné v mobilnej aplikácii, ktoré koliduje s týmto produktom – kontaktujte podporu, aby sme vám mohli pomôcť.
 next-payment-error-retry-button = Skúsiť znova
 next-basic-error-message = Niečo sa pokazilo. Skúste to znova neskôr.
 checkout-error-contact-support-button = Kontaktovať podporu
@@ -225,3 +226,11 @@ upgrade-purchase-details-new-plan-monthly = { $productName } (mesačne)
 upgrade-purchase-details-new-plan-halfyearly = { $productName } (6 mesiacov)
 upgrade-purchase-details-new-plan-yearly = { $productName } (ročne)
 upgrade-purchase-details-prorated-credits = Zobrazený záporný zostatok bude pripísaný na váš účet a použitý na budúce faktúry.
+# Checkout start
+metadata-title-checkout-start = Pokladňa | { $productTitle }
+metadata-description-checkout-start = Nákup dokončíte zadaním svojich platobných údajov.
+# Checkout processing
+metadata-title-checkout-processing = Spracováva sa | { $productTitle }
+metadata-description-checkout-processing = Počkajte, prosím, kým dokončíme spracovanie vašej platby.
+# Checkout error
+metadata-title-checkout-error = Chyba | { $productTitle }
