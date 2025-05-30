@@ -16,7 +16,6 @@ checkout-error-boundary-retry-button = Қайтадан көру
 ## Common strings used in multiple pages
 
 next-payment-error-manage-subscription-button = Менің жазылуымды басқару
-next-iap-upgrade-contact-support = Сіз бұл өнімді әлі де ала аласыз — көмек алу үшін қолдау қызметіне хабарласыңыз.
 next-payment-error-retry-button = Қайтадан көру
 next-basic-error-message = Бірнәрсе қате кетті. Кейінірек қайталап көріңіз.
 checkout-error-contact-support-button = Қолдау қызметіне хабарласу

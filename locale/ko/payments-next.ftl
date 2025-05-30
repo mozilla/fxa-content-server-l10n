@@ -27,7 +27,6 @@ checkout-error-boundary-basic-error-message = 무언가 잘못되었습니다. �
 ## Common strings used in multiple pages
 
 next-payment-error-manage-subscription-button = 내 구독 관리
-next-iap-upgrade-contact-support = 아직 이 제품을 구매할 수 있습니다. 지원팀에 문의하시면 도와드리겠습니다.
 next-payment-error-retry-button = 다시 시도하세요
 next-basic-error-message = 문제가 발생했습니다. 나중에 다시 시도하세요.
 checkout-error-contact-support-button = 연락하기

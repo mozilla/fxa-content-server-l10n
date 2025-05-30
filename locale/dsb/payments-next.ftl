@@ -30,7 +30,6 @@ checkout-error-boundary-basic-error-message = Něco njejo se raźiło. Pšosym w
 ## Common strings used in multiple pages
 
 next-payment-error-manage-subscription-button = Abonoment zastojaś
-next-iap-upgrade-contact-support = Móžośo toś ten produkt hyšći dostaś – stajśo se z teamom pomocy do zwiska, aby mógli wam pomagaś.
 next-payment-error-retry-button = Hyšći raz wopytaś
 next-basic-error-message = Něco jo se mimo kuliło. Pšosym wopytajśo pózdźej hyšći raz.
 checkout-error-contact-support-button = Pomoc kontaktěrowaś

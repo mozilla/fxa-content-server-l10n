@@ -27,7 +27,6 @@ checkout-error-boundary-basic-error-message = Något gick fel. Försök igen ell
 ## Common strings used in multiple pages
 
 next-payment-error-manage-subscription-button = Hantera min prenumeration
-next-iap-upgrade-contact-support = Du kan fortfarande få den här produkten — kontakta supporten så att vi kan hjälpa dig.
 next-payment-error-retry-button = Försök igen
 next-basic-error-message = Något gick fel. Vänligen försök igen.
 checkout-error-contact-support-button = Kontakta supporten

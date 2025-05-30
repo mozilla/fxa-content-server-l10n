@@ -27,7 +27,6 @@ checkout-error-boundary-basic-error-message = Щось пішло не так. �
 ## Common strings used in multiple pages
 
 next-payment-error-manage-subscription-button = Керувати передплатою
-next-iap-upgrade-contact-support = Ви все одно можете отримати цей продукт — зверніться до служби підтримки по допомогу.
 next-payment-error-retry-button = Спробувати знову
 next-basic-error-message = Щось пішло не так. Будь ласка, спробуйте знову пізніше.
 checkout-error-contact-support-button = Звернутися до служби підтримки

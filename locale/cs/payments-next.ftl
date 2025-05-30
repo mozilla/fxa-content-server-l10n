@@ -27,7 +27,6 @@ checkout-error-boundary-basic-error-message = Něco se pokazilo. Zkuste to znovu
 ## Common strings used in multiple pages
 
 next-payment-error-manage-subscription-button = Správa předplatného
-next-iap-upgrade-contact-support = Tento produkt můžete stále získat – abychom vám mohli pomoci, kontaktujte prosím podporu.
 next-payment-error-retry-button = Zkusit znovu
 next-basic-error-message = Něco se pokazilo. Zkuste to prosím znovu později.
 checkout-error-contact-support-button = Kontaktovat podporu

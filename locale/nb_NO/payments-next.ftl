@@ -10,7 +10,6 @@ next-payment-method-first-approve = Først må du godkjenne abonnementet ditt
 ## Common strings used in multiple pages
 
 next-payment-error-manage-subscription-button = Behandle mitt abonnement
-next-iap-upgrade-contact-support = Du kan fortsatt få dette produktet — kontakt brukerstøtten, så kan vi hjelpe deg.
 next-payment-error-retry-button = Prøv igjen
 next-basic-error-message = Noe gikk galt. Prøv igjen senere.
 

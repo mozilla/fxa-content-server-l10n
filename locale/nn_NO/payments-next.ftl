@@ -26,7 +26,6 @@ checkout-error-boundary-basic-error-message = Noko gjekk gale. Prøv på nytt el
 ## Common strings used in multiple pages
 
 next-payment-error-manage-subscription-button = Handsame abonnementet mitt
-next-iap-upgrade-contact-support = Du kan framleis få dette produktet — kontakt brukarstøtte, så kan vi hjelpe deg.
 next-payment-error-retry-button = Prøv igjen
 next-basic-error-message = Noko gjekk gale. Prøv igjen seinare.
 checkout-error-contact-support-button = Kontakt brukarstøtte

@@ -27,7 +27,6 @@ checkout-error-boundary-basic-error-message = Đã xảy ra lỗi. Vui lòng th�
 ## Common strings used in multiple pages
 
 next-payment-error-manage-subscription-button = Quản lý thuê bao của tôi
-next-iap-upgrade-contact-support = Bạn vẫn có thể nhận được sản phẩm này — vui lòng liên hệ với bộ phận hỗ trợ để chúng tôi có thể giúp bạn.
 next-payment-error-retry-button = Thử lại
 next-basic-error-message = Có gì đó không ổn. Vui lòng thử lại sau.
 checkout-error-contact-support-button = Liên hệ hỗ trợ

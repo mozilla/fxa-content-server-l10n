@@ -30,7 +30,6 @@ checkout-error-boundary-basic-error-message = Diç shkoi ters. Ju lutemi, riprov
 ## Common strings used in multiple pages
 
 next-payment-error-manage-subscription-button = Administroni pajtimet e mia
-next-iap-upgrade-contact-support = Mundeni prapë ta merrni këtë produkt — ju lutemi, lidhuni me asistencën, që të mund t’ju ndihmojmë.
 next-payment-error-retry-button = Riprovoni
 next-basic-error-message = Diç shkoi ters. Ju lutemi, riprovoni.
 checkout-error-contact-support-button = Lidhuni Me Asistencën

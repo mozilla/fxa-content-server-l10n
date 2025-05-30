@@ -10,7 +10,6 @@ next-payment-method-first-approve = Прво ћете морати да одоб
 ## Common strings used in multiple pages
 
 next-payment-error-manage-subscription-button = Управљај претплатом
-next-iap-upgrade-contact-support = Овај производ вам је и даље доступан — контактирајте подршку да вам помогне.
 next-payment-error-retry-button = Покушај поново
 next-basic-error-message = Нешто није у реду. Покушајте поново касније.
 

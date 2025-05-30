@@ -27,7 +27,6 @@ checkout-error-boundary-basic-error-message = Cci fu un prubblema. Pi favuri tor
 ## Common strings used in multiple pages
 
 next-payment-error-manage-subscription-button = Manija u me abbunamentu
-next-iap-upgrade-contact-support = Po' ancora aviri stu pruduttu — pi favuri cuntatta u supportu p'aviri ajutu.
 next-payment-error-retry-button = Prova arrè
 next-basic-error-message = Cci fu un prubblema. Pi favuri torna a prova cchiù tardu.
 checkout-error-contact-support-button = Cuntatta l'assistenza

@@ -20,7 +20,6 @@ checkout-error-boundary-basic-error-message = Nešto nije u redu. Pokušaj ponov
 ## Common strings used in multiple pages
 
 next-payment-error-manage-subscription-button = Upravljaj mojom pretplatom
-next-iap-upgrade-contact-support = Još uvijek možeš dobiti ovaj proizvod – kontaktiraj podršku kako bismo ti pomogli.
 next-payment-error-retry-button = Pokušaj ponovo
 next-basic-error-message = Nešto nije u redu. Pokušaj kasnije ponovo.
 checkout-error-contact-support-button = Kontaktiraj podršku

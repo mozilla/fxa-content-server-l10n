@@ -26,7 +26,6 @@ checkout-error-boundary-basic-error-message = Alc al è lât strucj. Torne prove
 ## Common strings used in multiple pages
 
 next-payment-error-manage-subscription-button = Gjestion abonament
-next-iap-upgrade-contact-support = Tu puedis ancjemò otignî chest prodot — contate il supuart pe assistence par ricevi jutori.
 next-payment-error-retry-button = Torne prove
 next-basic-error-message = Alc al è lât strucj. Torne prove plui indenant.
 checkout-error-contact-support-button = Contate la assistence

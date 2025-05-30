@@ -27,7 +27,6 @@ checkout-error-boundary-basic-error-message = Si è verificato un errore. Riprov
 ## Common strings used in multiple pages
 
 next-payment-error-manage-subscription-button = Gestione abbonamento
-next-iap-upgrade-contact-support = Puoi ancora ottenere questo prodotto: contatta l’assistenza per ricevere supporto.
 next-payment-error-retry-button = Riprova
 next-basic-error-message = Qualcosa è andato storto. Riprovare più tardi.
 checkout-error-contact-support-button = Contatta l’assistenza

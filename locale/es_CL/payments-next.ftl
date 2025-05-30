@@ -27,7 +27,6 @@ checkout-error-boundary-basic-error-message = Algo se fue a las pailas. Por favo
 ## Common strings used in multiple pages
 
 next-payment-error-manage-subscription-button = Gestionar mi suscripción
-next-iap-upgrade-contact-support = Todavía puede obtener este producto — por favor contacta con el soporte para que podamos ayudarte.
 next-payment-error-retry-button = Volver a intentarlo
 next-basic-error-message = Algo se fue a las pailas. Por favor, vuelve a intentarlo más tarde.
 checkout-error-contact-support-button = Contactar al soporte

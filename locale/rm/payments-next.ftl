@@ -24,7 +24,6 @@ checkout-error-boundary-basic-error-message = Igl ha dà in problem. Emprova per
 ## Common strings used in multiple pages
 
 next-payment-error-manage-subscription-button = Administrar mes abunament
-next-iap-upgrade-contact-support = Ti pos tuttina survegnir quest product – contactescha per plaschair il support per che nus pudain ta gidar.
 next-payment-error-retry-button = Reempruvar
 next-basic-error-message = Insatge è ì mal. Emprova per plaschair pli tard anc ina giada.
 checkout-error-contact-support-button = Contactar l’agid

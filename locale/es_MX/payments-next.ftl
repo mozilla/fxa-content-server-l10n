@@ -14,7 +14,6 @@ checkout-error-boundary-retry-button = Intentar de nuevo
 ## Common strings used in multiple pages
 
 next-payment-error-manage-subscription-button = Administrar mi suscripción
-next-iap-upgrade-contact-support = Todavía puedes obtener este producto —  por favor, pónte en contacto con el soporte para poder ayudarte.
 next-payment-error-retry-button = Intentar de nuevo
 next-basic-error-message = Algo salió mal. Por favor, inténtalo de nuevo más tarde.
 

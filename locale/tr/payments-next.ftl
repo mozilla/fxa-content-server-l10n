@@ -26,7 +26,6 @@ checkout-error-boundary-basic-error-message = Bir sorun oluştu. Lütfen yeniden
 ## Common strings used in multiple pages
 
 next-payment-error-manage-subscription-button = Aboneliğimi yönet
-next-iap-upgrade-contact-support = Bu ürünü yine de alabilirsiniz. Size yardımcı olabilmemiz için lütfen destek ile iletişime geçin.
 next-payment-error-retry-button = Tekrar dene
 next-basic-error-message = Bir şeyler yanlış gitti. Lütfen daha sonra tekrar deneyin.
 checkout-error-contact-support-button = Destek birimiyle iletişime geçin

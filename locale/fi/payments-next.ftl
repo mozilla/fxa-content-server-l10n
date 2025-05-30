@@ -22,7 +22,6 @@ checkout-error-boundary-basic-error-message = Jotain meni pieleen. Yritä uudell
 ## Common strings used in multiple pages
 
 next-payment-error-manage-subscription-button = Hallitse tilausta
-next-iap-upgrade-contact-support = Voit edelleen hankkia tämän tuotteen — ota yhteyttä tukeen, jotta voimme auttaa sinua.
 next-payment-error-retry-button = Yritä uudestaan
 next-basic-error-message = Jokin meni pieleen. Yritä uudelleen myöhemmin.
 checkout-error-contact-support-button = Ota yhteys tukeen

@@ -30,7 +30,6 @@ checkout-error-boundary-basic-error-message = რაღაც ხარვეზ
 ## Common strings used in multiple pages
 
 next-payment-error-manage-subscription-button = გამოწერების მართვა
-next-iap-upgrade-contact-support = კვლავ შეგიძლიათ ამ პროდუქტის მიღება — გთხოვთ მიმართოთ მხარდაჭერის გუნდს, რომ შევძლოთ დახმარება.
 next-payment-error-retry-button = ხელახლა ცდა
 next-basic-error-message = რაღაც ხარვეზი წარმოიქმნა. გთხოვთ, სცადოთ მოგვიანებით.
 checkout-error-contact-support-button = დაკავშირება მხარდაჭერისთვის

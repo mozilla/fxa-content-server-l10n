@@ -17,7 +17,6 @@ checkout-error-boundary-basic-error-message = 問題が発生しました。も�
 ## Common strings used in multiple pages
 
 next-payment-error-manage-subscription-button = サブスクリプションの管理
-next-iap-upgrade-contact-support = それでも、この製品が入手できますので、サポートへお問い合わせください。
 next-payment-error-retry-button = 再度お試しください
 next-basic-error-message = 何か問題が発生しました。また後で試してください。
 

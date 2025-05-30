@@ -27,7 +27,6 @@ checkout-error-boundary-basic-error-message = 有些東西不對勁，請再試�
 ## Common strings used in multiple pages
 
 next-payment-error-manage-subscription-button = 管理我的訂閱
-next-iap-upgrade-contact-support = 您還是可以獲得此產品，請聯絡支援團隊，讓我們來協助。
 next-payment-error-retry-button = 重試
 next-basic-error-message = 某些東西不對勁，請稍候再試一次。
 checkout-error-contact-support-button = 聯絡支援團隊

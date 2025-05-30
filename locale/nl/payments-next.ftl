@@ -27,7 +27,6 @@ checkout-error-boundary-basic-error-message = Er is iets misgegaan. Probeer het 
 ## Common strings used in multiple pages
 
 next-payment-error-manage-subscription-button = Mijn abonnement beheren
-next-iap-upgrade-contact-support = U kunt dit product nog steeds verkrijgen – neem contact op met de ondersteuningsafdeling zodat we u kunnen helpen.
 next-payment-error-retry-button = Opnieuw proberen
 next-basic-error-message = Er is iets misgegaan. Probeer het later opnieuw.
 checkout-error-contact-support-button = Contact opnemen

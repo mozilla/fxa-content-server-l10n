@@ -27,7 +27,6 @@ checkout-error-boundary-basic-error-message = Alco errate eveniva. Retenta o con
 ## Common strings used in multiple pages
 
 next-payment-error-manage-subscription-button = Gerer mi subscription
-next-iap-upgrade-contact-support = Tu pote ancora obtener iste producto. Contacta nostre equipa de assistentia a fin que nos pote adjutar te.
 next-payment-error-retry-button = Retentar
 next-basic-error-message = Alco errate eveniva. Reproba plus tarde.
 checkout-error-contact-support-button = Contactar assistentia
