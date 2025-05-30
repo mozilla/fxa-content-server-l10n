@@ -234,3 +234,28 @@ metadata-title-checkout-processing = Spracováva sa | { $productTitle }
 metadata-description-checkout-processing = Počkajte, prosím, kým dokončíme spracovanie vašej platby.
 # Checkout error
 metadata-title-checkout-error = Chyba | { $productTitle }
+metadata-description-checkout-error = Pri spracovaní vášho predplatného sa vyskytla chyba. Ak problém pretrváva, kontaktujte podporu.
+# Checkout success
+metadata-title-checkout-success = Úspech | { $productTitle }
+metadata-description-checkout-success = Gratulujeme! Úspešne ste dokončili nákup.
+# Checkout needs_input
+metadata-title-checkout-needs-input = Vyžaduje sa akcia | { $productTitle }
+metadata-description-checkout-needs-input = Ak chcete pokračovať v platbe, vykonajte požadované kroky.
+# Upgrade start
+metadata-title-upgrade-start = Inovácia | { $productTitle }
+metadata-description-upgrade-start = Zadajte svoje platobné údaje a dokončite inováciu.
+# Upgrade processing
+metadata-title-upgrade-processing = Spracováva sa | { $productTitle }
+metadata-description-upgrade-processing = Počkajte, prosím, kým dokončíme spracovanie vašej platby.
+# Upgrade error
+metadata-title-upgrade-error = Chyba | { $productTitle }
+metadata-description-upgrade-error = Pri spracovaní vašej inovácie sa vyskytla chyba. Ak problém pretrváva, kontaktujte podporu.
+# Upgrade success
+metadata-title-upgrade-success = Úspech | { $productTitle }
+metadata-description-upgrade-success = Gratulujeme! Úspešne ste dokončili inováciu.
+# Upgrade needs_input
+metadata-title-upgrade-needs-input = Vyžaduje sa akcia | { $productTitle }
+metadata-description-upgrade-needs-input = Ak chcete pokračovať v platbe, vykonajte požadované kroky.
+# Default
+metadata-title-default = Stránka sa nenašla | { $productTitle }
+metadata-description-default = Požadovaná stránka sa nenašla.

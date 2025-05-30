@@ -114,6 +114,9 @@ datablock-copy =
     .message = Skopírovaný
 datablock-print =
     .message = Vytlačený
+# Tooltip notification when an account recovery key or one-time use code is copied.
+datablock-inline-copy =
+    .message = Skopírovaný
 
 ## DeviceInfoBlock component
 ## The strings here are used to display information about the origin of activity happening on a user's account
@@ -639,6 +642,7 @@ flow-setup-phone-confirm-code-expired = Platnosť kódu vypršala?
 flow-setup-phone-confirm-code-resend-code-button = Znova odoslať kód
 flow-setup-phone-confirm-code-resend-code-success = Kód bol odoslaný
 flow-setup-phone-confirm-code-success-message-v2 = Obnovenie pomocou telefónu bolo pridané
+flow-change-phone-confirm-code-success-message = Obnovenie pomocou telefónu bolo zmenené
 
 ## FlowSetupPhoneConfirmCode
 
@@ -887,6 +891,7 @@ settings-recovery-phone-remove-success = Obnovenie pomocou telefónu bolo zruše
 ## PageSetupRecoveryPhone
 
 page-setup-recovery-phone-heading = Pridajte obnovenie pomocou telefónu
+page-change-recovery-phone = Zmeniť telefón na obnovenie účtu
 page-setup-recovery-phone-back-button-title = Späť na nastavenia
 # Back arrow to return to step 1 of recovery phone setup flow
 page-setup-recovery-phone-step2-back-button-title = Zmeniť telefónne číslo
