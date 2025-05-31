@@ -220,3 +220,5 @@ upgrade-purchase-details-new-plan-weekly = { $productName } (Arapokõindygua)
 upgrade-purchase-details-new-plan-monthly = { $productName } (Jasygua)
 upgrade-purchase-details-new-plan-halfyearly = { $productName } (6 jasygua)
 upgrade-purchase-details-new-plan-yearly = { $productName } (Arygua)
+# Checkout start
+metadata-title-checkout-start = Ehechajey | { $productTitle }
