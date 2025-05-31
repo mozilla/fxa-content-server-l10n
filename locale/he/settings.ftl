@@ -852,6 +852,7 @@ settings-recovery-phone-remove-success = הוסר טלפון לשחזור
 ## PageSetupRecoveryPhone
 
 page-setup-recovery-phone-heading = הוספת טלפון לשחזור
+page-change-recovery-phone = שינוי טלפון השחזור
 page-setup-recovery-phone-back-button-title = חזרה להגדרות
 # Back arrow to return to step 1 of recovery phone setup flow
 page-setup-recovery-phone-step2-back-button-title = שינוי מספר טלפון
@@ -1528,6 +1529,14 @@ password-reset-recovery-method-subheader = בחירת אמצעי לשחזור
 # This is displayed to the user when they are choosing an alternative method to authenticate themself in the password reset process when they do not have access to their two-factor authenticator application
 password-reset-recovery-method-details = בואו נוודא שזה אתה המשתמש בשיטות השחזור שלך.
 password-reset-recovery-method-phone = טלפון לשחזור
+# Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
+password-reset-recovery-method-code-info =
+    { $numBackupCodes ->
+        [one] נשאר קוד אחד
+       *[other] נשארו { $numBackupCodes } קודים
+    }
+# Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
+password-reset-recovery-method-send-code-error-heading = הייתה בעיה בשליחת קוד לטלפון השחזור שלך
 reset-password-with-recovery-key-verified-page-title = הססמה אופסה בהצלחה
 reset-password-complete-new-password-saved = הססמה החדשה נשמרה!
 reset-password-complete-recovery-key-created = מפתח חדש לשחזור החשבון נוצר. יש להוריד ולאחסן אותו כעת במקום בטוח.
