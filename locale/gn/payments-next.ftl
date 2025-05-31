@@ -224,3 +224,4 @@ upgrade-purchase-details-new-plan-yearly = { $productName } (Arygua)
 metadata-title-checkout-start = Ehechajey | { $productTitle }
 # Checkout processing
 metadata-title-checkout-processing = Ojejapohína | { $productTitle }
+metadata-description-checkout-processing = Ikatúpiko eha’ãrõmi romongu’e aja ne jehepyme’ẽrã.
