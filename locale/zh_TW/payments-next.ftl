@@ -225,3 +225,5 @@ upgrade-purchase-details-new-plan-monthly = { $productName }（每月收費）
 upgrade-purchase-details-new-plan-halfyearly = { $productName }（每 6 個月收費）
 upgrade-purchase-details-new-plan-yearly = { $productName }（每年收費）
 upgrade-purchase-details-prorated-credits = 下方的負值將轉為您帳號中的儲值餘額，並在後續付款時折抵。
+# Checkout start
+metadata-title-checkout-start = 結帳 | { $productTitle }
