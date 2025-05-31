@@ -255,5 +255,7 @@ metadata-title-upgrade-success = 升級成功 | { $productTitle }
 metadata-description-upgrade-success = 恭喜！您已成功完成升級！
 # Upgrade needs_input
 metadata-title-upgrade-needs-input = 需要處理 | { $productTitle }
+metadata-description-upgrade-needs-input = 請完成要求的操作，以繼續付款。
 # Default
 metadata-title-default = 找不到頁面 | { $productTitle }
+metadata-description-default = 找不到您要求的頁面。
