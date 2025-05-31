@@ -114,6 +114,9 @@ datablock-copy =
     .message = Kopyalandı
 datablock-print =
     .message = Yazdırıldı
+# Tooltip notification when an account recovery key or one-time use code is copied.
+datablock-inline-copy =
+    .message = Kopyalandı
 
 ## DeviceInfoBlock component
 ## The strings here are used to display information about the origin of activity happening on a user's account
@@ -399,6 +402,7 @@ account-recovery-notification-header-value = Parolanızı unutursanız verilerin
 account-recovery-notification-header-description = Parolanızı unutursanız eşitlenmiş gezinti verilerinizi kurtarmak için bir hesap kurtarma anahtarı oluşturun.
 recovery-phone-promo-cta = Kurtarma telefonu ekleyin
 recovery-phone-promo-heading = Kurtarma telefonuyla hesabınıza ekstra koruma ekleyin
+recovery-phone-promo-info-link = Kurtarma ve SIM swap saldırısı hakkında daha fazla bilgi alın
 promo-banner-dismiss-button =
     .aria-label = Bildirimi kapat
 
@@ -639,6 +643,7 @@ flow-setup-phone-confirm-code-expired = Kodun süresi mi doldu?
 flow-setup-phone-confirm-code-resend-code-button = Kodu yeniden gönder
 flow-setup-phone-confirm-code-resend-code-success = Kod gönderildi
 flow-setup-phone-confirm-code-success-message-v2 = Kurtarma telefonu eklendi
+flow-change-phone-confirm-code-success-message = Kurtarma telefonu değiştirildi
 
 ## FlowSetupPhoneConfirmCode
 
@@ -886,6 +891,7 @@ settings-recovery-phone-remove-success = Kurtarma telefonu kaldırıldı
 ## PageSetupRecoveryPhone
 
 page-setup-recovery-phone-heading = Kurtarma telefonu ekle
+page-change-recovery-phone = Kurtarma telefonunu değiştir
 page-setup-recovery-phone-back-button-title = Ayarlara dön
 # Back arrow to return to step 1 of recovery phone setup flow
 page-setup-recovery-phone-step2-back-button-title = Telefon numarasını değiştir

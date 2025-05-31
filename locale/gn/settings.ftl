@@ -114,6 +114,9 @@ datablock-copy =
     .message = Monguatiapyre
 datablock-print =
     .message = Monguatiapyre
+# Tooltip notification when an account recovery key or one-time use code is copied.
+datablock-inline-copy =
+    .message = Monguatiapyre
 
 ## DeviceInfoBlock component
 ## The strings here are used to display information about the origin of activity happening on a user's account
@@ -639,6 +642,7 @@ flow-setup-phone-confirm-code-expired = ¿Ndoikovéima ayvu?
 flow-setup-phone-confirm-code-resend-code-button = Emondojey ayvu
 flow-setup-phone-confirm-code-resend-code-success = Ayvu mondopyre
 flow-setup-phone-confirm-code-success-message-v2 = Pumbyry guerujeyrã mbojuajupyre
+flow-change-phone-confirm-code-success-message = Oñemoambue pumbyry guerujeyrã
 
 ## FlowSetupPhoneConfirmCode
 
@@ -877,6 +881,7 @@ settings-recovery-phone-remove-success = Pumbyry guerujeyrã mboguepyre
 ## PageSetupRecoveryPhone
 
 page-setup-recovery-phone-heading = Embojuaju pumbyry guerujeyrã
+page-change-recovery-phone = Emoambue pumbyry guerujeyrã
 page-setup-recovery-phone-back-button-title = Eguevi ñembohekópe
 # Back arrow to return to step 1 of recovery phone setup flow
 page-setup-recovery-phone-step2-back-button-title = Emoambue pumbyry papapy

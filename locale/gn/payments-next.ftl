@@ -225,3 +225,22 @@ metadata-title-checkout-start = Ehechajey | { $productTitle }
 # Checkout processing
 metadata-title-checkout-processing = Ojejapohína | { $productTitle }
 metadata-description-checkout-processing = Ikatúpiko eha’ãrõmi romongu’e aja ne jehepyme’ẽrã.
+# Checkout error
+metadata-title-checkout-error = Ojavy | { $productTitle }
+# Checkout success
+metadata-title-checkout-success = Osẽporã | { $productTitle }
+# Checkout needs_input
+metadata-title-checkout-needs-input = Tembiapo ojeruréva | { $productTitle }
+# Upgrade start
+metadata-title-upgrade-start = Ñemboheko | { $productTitle }
+# Upgrade processing
+metadata-title-upgrade-processing = Ojejapohína | { $productTitle }
+metadata-description-upgrade-processing = Ikatúpiko eha’ãrõmi romongu’e aja nde jehepyme’ẽrã.
+# Upgrade error
+metadata-title-upgrade-error = Ojavy | { $productTitle }
+# Upgrade success
+metadata-title-upgrade-success = Osẽporã | { $productTitle }
+# Upgrade needs_input
+metadata-title-upgrade-needs-input = Tembiapo ojeruréva | { $productTitle }
+# Default
+metadata-title-default = Kuatiarogue ojejuhu’ỹva | { $productTitle }

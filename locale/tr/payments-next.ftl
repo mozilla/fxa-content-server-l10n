@@ -219,3 +219,20 @@ upgrade-purchase-details-new-plan-weekly = { $productName } (Haftalık)
 upgrade-purchase-details-new-plan-monthly = { $productName } (Aylık)
 upgrade-purchase-details-new-plan-halfyearly = { $productName } (6 aylık)
 upgrade-purchase-details-new-plan-yearly = { $productName } (Yıllık)
+# Checkout error
+metadata-title-checkout-error = Hata | { $productTitle }
+# Checkout success
+metadata-title-checkout-success = Başarılı | { $productTitle }
+# Checkout needs_input
+metadata-title-checkout-needs-input = İşlem gerekli | { $productTitle }
+# Upgrade start
+metadata-title-upgrade-start = Yükselt | { $productTitle }
+# Upgrade error
+metadata-title-upgrade-error = Hata | { $productTitle }
+# Upgrade success
+metadata-title-upgrade-success = Başarılı | { $productTitle }
+# Upgrade needs_input
+metadata-title-upgrade-needs-input = İşlem gerekli | { $productTitle }
+# Default
+metadata-title-default = Sayfa bulunamadı | { $productTitle }
+metadata-description-default = İstediğiniz sayfa bulunamadı.
