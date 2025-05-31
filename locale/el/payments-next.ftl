@@ -227,8 +227,10 @@ upgrade-purchase-details-new-plan-yearly = { $productName } (Ετησίως)
 upgrade-purchase-details-prorated-credits = Το αρνητικό υπόλοιπο που εμφανίζεται θα πιστωθεί στον λογαριασμό σας και θα χρησιμοποιηθεί σε μελλοντικά παραστατικά.
 # Checkout start
 metadata-title-checkout-start = Ολοκλήρωση αγοράς | { $productTitle }
+metadata-description-checkout-start = Εισαγάγετε τα στοιχεία πληρωμής σας για να ολοκληρώσετε την αγορά σας.
 # Checkout processing
 metadata-title-checkout-processing = Επεξεργασία | { $productTitle }
+metadata-description-checkout-processing = Περιμένετε μέχρι να ολοκληρώσουμε την επεξεργασια της πληρωμής σας.
 # Checkout error
 metadata-title-checkout-error = Σφάλμα | { $productTitle }
 # Checkout success
@@ -236,15 +238,21 @@ metadata-title-checkout-success = Επιτυχία | { $productTitle }
 metadata-description-checkout-success = Συγχαρητήρια! Έχετε ολοκληρώσει επιτυχώς την αγορά σας.
 # Checkout needs_input
 metadata-title-checkout-needs-input = Απαιτείται ενέργεια | { $productTitle }
+metadata-description-checkout-needs-input = Ολοκληρώστε την απαιτούμενη ενέργεια για να συνεχίσετε με την πληρωμή σας.
 # Upgrade start
 metadata-title-upgrade-start = Αναβάθμιση | { $productTitle }
+metadata-description-upgrade-start = Εισαγάγετε τα στοιχεία πληρωμής σας για να ολοκληρώσετε την αναβάθμισή σας.
 # Upgrade processing
 metadata-title-upgrade-processing = Επεξεργασία | { $productTitle }
+metadata-description-upgrade-processing = Περιμένετε μέχρι να ολοκληρώσουμε την επεξεργασια της πληρωμής σας.
 # Upgrade error
 metadata-title-upgrade-error = Σφάλμα | { $productTitle }
 # Upgrade success
 metadata-title-upgrade-success = Επιτυχία | { $productTitle }
+metadata-description-upgrade-success = Συγχαρητήρια! Έχετε ολοκληρώσει επιτυχώς την αναβάθμισή σας.
 # Upgrade needs_input
 metadata-title-upgrade-needs-input = Απαιτείται ενέργεια | { $productTitle }
+metadata-description-upgrade-needs-input = Ολοκληρώστε την απαιτούμενη ενέργεια για να συνεχίσετε με την πληρωμή σας.
 # Default
 metadata-title-default = Η σελίδα δεν βρέθηκε | { $productTitle }
+metadata-description-default = Η σελίδα που ζητήσατε δεν βρέθηκε.

@@ -646,6 +646,7 @@ flow-setup-phone-confirm-code-expired = Έληξε ο κωδικός;
 flow-setup-phone-confirm-code-resend-code-button = Αποστολή νέου κωδικού
 flow-setup-phone-confirm-code-resend-code-success = Ο κωδικός απεστάλη
 flow-setup-phone-confirm-code-success-message-v2 = Προστέθηκε τηλέφωνο ανάκτησης
+flow-change-phone-confirm-code-success-message = Το τηλέφωνο ανάκτησης άλλαξε
 
 ## FlowSetupPhoneConfirmCode
 
