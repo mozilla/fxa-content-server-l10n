@@ -246,9 +246,14 @@ metadata-title-upgrade-start = 升級 | { $productTitle }
 metadata-description-upgrade-start = 請輸入您的詳細付款資訊完成升級。
 # Upgrade processing
 metadata-title-upgrade-processing = 升級處理中 | { $productTitle }
+metadata-description-upgrade-processing = 請稍候，我們正在處理付款…
 # Upgrade error
 metadata-title-upgrade-error = 升級錯誤 | { $productTitle }
+metadata-description-upgrade-error = 處理您的升級時發生錯誤。若此問題持續存在，請聯絡支援團隊。
 # Upgrade success
 metadata-title-upgrade-success = 升級成功 | { $productTitle }
+metadata-description-upgrade-success = 恭喜！您已成功完成升級！
+# Upgrade needs_input
+metadata-title-upgrade-needs-input = 需要處理 | { $productTitle }
 # Default
 metadata-title-default = 找不到頁面 | { $productTitle }
