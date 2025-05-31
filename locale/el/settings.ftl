@@ -114,6 +114,9 @@ datablock-copy =
     .message = Έγινε αντιγραφή
 datablock-print =
     .message = Έγινε εκτύπωση
+# Tooltip notification when an account recovery key or one-time use code is copied.
+datablock-inline-copy =
+    .message = Αντιγράφηκε
 
 ## DeviceInfoBlock component
 ## The strings here are used to display information about the origin of activity happening on a user's account
@@ -894,6 +897,7 @@ settings-recovery-phone-remove-success = Το τηλέφωνο ανάκτηση�
 ## PageSetupRecoveryPhone
 
 page-setup-recovery-phone-heading = Προσθήκη τηλεφώνου ανάκτησης
+page-change-recovery-phone = Αλλαγή τηλεφώνου ανάκτησης
 page-setup-recovery-phone-back-button-title = Πίσω στις ρυθμίσεις
 # Back arrow to return to step 1 of recovery phone setup flow
 page-setup-recovery-phone-step2-back-button-title = Αλλαγή αριθμού τηλεφώνου

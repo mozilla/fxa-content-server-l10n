@@ -225,3 +225,26 @@ upgrade-purchase-details-new-plan-monthly = { $productName } (Μηνιαία)
 upgrade-purchase-details-new-plan-halfyearly = { $productName } (εξαμηνιαίο)
 upgrade-purchase-details-new-plan-yearly = { $productName } (Ετησίως)
 upgrade-purchase-details-prorated-credits = Το αρνητικό υπόλοιπο που εμφανίζεται θα πιστωθεί στον λογαριασμό σας και θα χρησιμοποιηθεί σε μελλοντικά παραστατικά.
+# Checkout start
+metadata-title-checkout-start = Ολοκλήρωση αγοράς | { $productTitle }
+# Checkout processing
+metadata-title-checkout-processing = Επεξεργασία | { $productTitle }
+# Checkout error
+metadata-title-checkout-error = Σφάλμα | { $productTitle }
+# Checkout success
+metadata-title-checkout-success = Επιτυχία | { $productTitle }
+metadata-description-checkout-success = Συγχαρητήρια! Έχετε ολοκληρώσει επιτυχώς την αγορά σας.
+# Checkout needs_input
+metadata-title-checkout-needs-input = Απαιτείται ενέργεια | { $productTitle }
+# Upgrade start
+metadata-title-upgrade-start = Αναβάθμιση | { $productTitle }
+# Upgrade processing
+metadata-title-upgrade-processing = Επεξεργασία | { $productTitle }
+# Upgrade error
+metadata-title-upgrade-error = Σφάλμα | { $productTitle }
+# Upgrade success
+metadata-title-upgrade-success = Επιτυχία | { $productTitle }
+# Upgrade needs_input
+metadata-title-upgrade-needs-input = Απαιτείται ενέργεια | { $productTitle }
+# Default
+metadata-title-default = Η σελίδα δεν βρέθηκε | { $productTitle }
