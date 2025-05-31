@@ -231,31 +231,31 @@ metadata-title-checkout-start = Paiement | { $productTitle }
 metadata-description-checkout-start = Saisissez vos informations de paiement pour terminer votre achat.
 # Checkout processing
 metadata-title-checkout-processing = Traitement en cours | { $productTitle }
-metadata-description-checkout-processing = Veuillez patienter pendant que nous avons terminé le traitement de votre paiement.
+metadata-description-checkout-processing = Veuillez patienter pendant que nous terminons de traiter votre paiement.
 # Checkout error
 metadata-title-checkout-error = Erreur | { $productTitle }
 metadata-description-checkout-error = Une erreur s’est produite lors du traitement de votre abonnement. Si le problème persiste, veuillez contacter l’assistance.
 # Checkout success
-metadata-title-checkout-success = Succès | { $productTitle }
+metadata-title-checkout-success = Terminé | { $productTitle }
 metadata-description-checkout-success = Félicitations ! Vous avez terminé votre achat.
 # Checkout needs_input
 metadata-title-checkout-needs-input = Action requise | { $productTitle }
-metadata-description-checkout-needs-input = Veuillez effectuer les actions nécessaires pour procéder à votre paiement.
+metadata-description-checkout-needs-input = Veuillez effectuer les actions nécessaires pour réaliser votre paiement.
 # Upgrade start
-metadata-title-upgrade-start = Mettre à jour | { $productTitle }
-metadata-description-upgrade-start = Saisissez vos informations de paiement pour terminer le surclassement.
+metadata-title-upgrade-start = Mise à niveau | { $productTitle }
+metadata-description-upgrade-start = Saisissez vos informations de paiement pour terminer la mise à niveau.
 # Upgrade processing
 metadata-title-upgrade-processing = Traitement en cours | { $productTitle }
-metadata-description-upgrade-processing = Veuillez patienter pendant que nous avons terminé le traitement de votre paiement.
+metadata-description-upgrade-processing = Veuillez patienter pendant que nous terminons de traiter votre paiement.
 # Upgrade error
 metadata-title-upgrade-error = Erreur | { $productTitle }
-metadata-description-upgrade-error = Une erreur s’est produite lors du traitement de votre mise à jour. Si le problème persiste, veuillez contacter l’assistance.
+metadata-description-upgrade-error = Une erreur s’est produite lors du traitement de votre mise à niveau. Si le problème persiste, veuillez contacter l’assistance.
 # Upgrade success
-metadata-title-upgrade-success = Succès | { $productTitle }
-metadata-description-upgrade-success = Félicitations ! Vous avez terminé la mise à jour.
+metadata-title-upgrade-success = Terminé | { $productTitle }
+metadata-description-upgrade-success = Félicitations ! Vous avez effectué la mise à niveau.
 # Upgrade needs_input
 metadata-title-upgrade-needs-input = Action requise | { $productTitle }
-metadata-description-upgrade-needs-input = Veuillez effectuer les actions nécessaires pour procéder à votre paiement.
+metadata-description-upgrade-needs-input = Veuillez effectuer les actions nécessaires pour réaliser votre paiement.
 # Default
 metadata-title-default = Page introuvable | { $productTitle }
-metadata-description-default = La page demandée n'a pas été trouvée.
+metadata-description-default = La page demandée n’a pas été trouvée.

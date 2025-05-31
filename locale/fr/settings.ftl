@@ -640,7 +640,7 @@ flow-setup-phone-confirm-code-expired = Code expiré ?
 flow-setup-phone-confirm-code-resend-code-button = Renvoyer le code
 flow-setup-phone-confirm-code-resend-code-success = Code envoyé
 flow-setup-phone-confirm-code-success-message-v2 = Numéro de téléphone de secours ajouté
-flow-change-phone-confirm-code-success-message = Le numéro de téléphone de récupération a changé
+flow-change-phone-confirm-code-success-message = Numéro de téléphone de secours modifié
 
 ## FlowSetupPhoneConfirmCode
 
