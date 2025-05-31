@@ -27,6 +27,7 @@ checkout-error-boundary-basic-error-message = Что-то пошло не так
 ## Common strings used in multiple pages
 
 next-payment-error-manage-subscription-button = Управление моей подпиской
+next-iap-blocked-contact-support = У вас есть мобильная подписка в приложении, которая конфликтует с этим продуктом — обратитесь, пожалуйста, в службу поддержки, чтобы мы могли вам помочь.
 next-payment-error-retry-button = Попробовать снова
 next-basic-error-message = Что-то пошло не так. Пожалуйста, попробуйте позже.
 checkout-error-contact-support-button = Связаться с поддержкой
@@ -225,3 +226,36 @@ upgrade-purchase-details-new-plan-monthly = { $productName } (ежемесячн
 upgrade-purchase-details-new-plan-halfyearly = { $productName } (каждые полгода)
 upgrade-purchase-details-new-plan-yearly = { $productName } (ежегодно)
 upgrade-purchase-details-prorated-credits = Указанный отрицательный баланс будет зачислен на ваш счёт в виде кредитов и использован для оплаты будущих счетов.
+# Checkout start
+metadata-title-checkout-start = Оплатить | { $productTitle }
+metadata-description-checkout-start = Введите ваши платежные реквизиты, чтобы завершить покупку.
+# Checkout processing
+metadata-title-checkout-processing = Обработка | { $productTitle }
+metadata-description-checkout-processing = Пожалуйста, подождите, пока мы закончим обработку вашего платежа.
+# Checkout error
+metadata-title-checkout-error = Ошибка | { $productTitle }
+metadata-description-checkout-error = При обработке вашей подписки произошла ошибка. Если эта проблема не будет устранена, обратитесь в службу поддержки.
+# Checkout success
+metadata-title-checkout-success = Успешно | { $productTitle }
+metadata-description-checkout-success = Поздравляем! Вы успешно завершили свою покупку.
+# Checkout needs_input
+metadata-title-checkout-needs-input = Требуется действие | { $productTitle }
+metadata-description-checkout-needs-input = Пожалуйста, выполните требуемые действия для продолжения платежа.
+# Upgrade start
+metadata-title-upgrade-start = Обновить | { $productTitle }
+metadata-description-upgrade-start = Введите ваши платежные реквизиты, чтобы завершить обновление.
+# Upgrade processing
+metadata-title-upgrade-processing = Обработка | { $productTitle }
+metadata-description-upgrade-processing = Пожалуйста, подождите, пока мы закончим обработку вашего платежа.
+# Upgrade error
+metadata-title-upgrade-error = Ошибка | { $productTitle }
+metadata-description-upgrade-error = При обработке вашего обновления произошла ошибка. Если эта проблема не будет устранена, обратитесь в службу поддержки.
+# Upgrade success
+metadata-title-upgrade-success = Успешно | { $productTitle }
+metadata-description-upgrade-success = Поздравляем! Вы успешно завершили обновление.
+# Upgrade needs_input
+metadata-title-upgrade-needs-input = Требуется действие | { $productTitle }
+metadata-description-upgrade-needs-input = Пожалуйста, выполните требуемые действия для продолжения платежа.
+# Default
+metadata-title-default = Страница не найдена | { $productTitle }
+metadata-description-default = Запрошенная вами страница не найдена.
