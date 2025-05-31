@@ -889,7 +889,7 @@ settings-recovery-phone-remove-success = Le numéro de téléphone de secours a 
 ## PageSetupRecoveryPhone
 
 page-setup-recovery-phone-heading = Ajoutez un numéro de téléphone de secours
-page-change-recovery-phone = Modifier le numéro de téléphone de récupération
+page-change-recovery-phone = Modifier le numéro de téléphone de secours
 page-setup-recovery-phone-back-button-title = Retour aux paramètres
 # Back arrow to return to step 1 of recovery phone setup flow
 page-setup-recovery-phone-step2-back-button-title = Modifier le numéro de téléphone
