@@ -106,6 +106,9 @@ datablock-copy =
     .message = הועתק
 datablock-print =
     .message = הודפס
+# Tooltip notification when an account recovery key or one-time use code is copied.
+datablock-inline-copy =
+    .message = הועתק
 
 ## DeviceInfoBlock component
 ## The strings here are used to display information about the origin of activity happening on a user's account
@@ -620,6 +623,7 @@ flow-setup-phone-confirm-code-expired = פג תוקף הקוד?
 flow-setup-phone-confirm-code-resend-code-button = שליחת הקוד מחדש
 flow-setup-phone-confirm-code-resend-code-success = הקוד נשלח
 flow-setup-phone-confirm-code-success-message-v2 = נוסף טלפון לשחזור
+flow-change-phone-confirm-code-success-message = טלפון לשחזור השתנה
 
 ## FlowSetupPhoneConfirmCode
 

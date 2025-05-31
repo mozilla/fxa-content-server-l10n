@@ -217,3 +217,36 @@ upgrade-purchase-details-new-plan-monthly = ‏{ $productName } (חודשי)
 upgrade-purchase-details-new-plan-halfyearly = ‏{ $productName } (6 חודשים)
 upgrade-purchase-details-new-plan-yearly = ‏{ $productName } (שנתי)
 upgrade-purchase-details-prorated-credits = יתרה שלילית המוצגת תחול כזיכוי בחשבון שלך ותשמש לחשבוניות עתידיות.
+# Checkout start
+metadata-title-checkout-start = קופה | { $productTitle }
+metadata-description-checkout-start = נא להכניס את פרטי התשלום שלך כדי להשלים את הרכישה.
+# Checkout processing
+metadata-title-checkout-processing = בתהליך עיבוד | { $productTitle }
+metadata-description-checkout-processing = נא להמתין בזמן שאנחנו מסיימים לעבד את התשלום שלך.
+# Checkout error
+metadata-title-checkout-error = שגיאה | { $productTitle }
+metadata-description-checkout-error = אירעה שגיאה בעת עיבוד המינוי שלך. אם בעיה זו נמשכת, נא ליצור קשר עם התמיכה.
+# Checkout success
+metadata-title-checkout-success = הצלחה | { $productTitle }
+metadata-description-checkout-success = ברכותינו! השלמת בהצלחה את הרכישה.
+# Checkout needs_input
+metadata-title-checkout-needs-input = פעולה נדרשת | { $productTitle }
+metadata-description-checkout-needs-input = נא להשלים את הפעולה הנדרשת כדי להמשיך בתשלום שלך.
+# Upgrade start
+metadata-title-upgrade-start = שדרוג | { $productTitle }
+metadata-description-upgrade-start = נא להכניס את פרטי התשלום שלך כדי להשלים את השדרוג.
+# Upgrade processing
+metadata-title-upgrade-processing = בתהליך עיבוד | { $productTitle }
+metadata-description-upgrade-processing = נא להמתין בזמן שאנחנו מסיימים לעבד את התשלום שלך.
+# Upgrade error
+metadata-title-upgrade-error = שגיאה | { $productTitle }
+metadata-description-upgrade-error = אירעה שגיאה בעת עיבוד השדרוג שלך. אם בעיה זו נמשכת, נא ליצור קשר עם התמיכה.
+# Upgrade success
+metadata-title-upgrade-success = הצלחה | { $productTitle }
+metadata-description-upgrade-success = ברכותינו! השלמת בהצלחה את השדרוג.
+# Upgrade needs_input
+metadata-title-upgrade-needs-input = פעולה נדרשת | { $productTitle }
+metadata-description-upgrade-needs-input = נא להשלים את הפעולה הנדרשת כדי להמשיך בתשלום שלך.
+# Default
+metadata-title-default = הדף לא נמצא | { $productTitle }
+metadata-description-default = הדף שביקשת לא נמצא.

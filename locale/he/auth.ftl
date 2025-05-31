@@ -641,6 +641,7 @@ subscriptionUpgrade-upgrade-info-2 = שודרגת בהצלחה ל־{ $productNam
 ## $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
+subscriptionUpgrade-content-charge-prorated = חויבת בתשלום חד פעמי בסך { $paymentProrated } כדי לשקף את המחיר הגבוה יותר של המינוי שלך למשך שארית תקופת החיוב הזו ({ $productPaymentCycleOld }).
 subscriptionUpgrade-content-charge-credit = קיבלת זיכוי בחשבון שלך בסכום של { $paymentProrated }.
 subscriptionUpgrade-content-starting = החל מהחשבון הבא שלך, החיוב שלך ישתנה מ־{ $paymentAmountOld } ל{ $productPaymentCycleOld } ל־{ $paymentAmountNew } ל{ $productPaymentCycleNew }.
 # Variables:
