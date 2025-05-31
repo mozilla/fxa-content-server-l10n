@@ -222,3 +222,5 @@ upgrade-purchase-details-new-plan-halfyearly = { $productName } (6 jasygua)
 upgrade-purchase-details-new-plan-yearly = { $productName } (Arygua)
 # Checkout start
 metadata-title-checkout-start = Ehechajey | { $productTitle }
+# Checkout processing
+metadata-title-checkout-processing = Ojejapohína | { $productTitle }

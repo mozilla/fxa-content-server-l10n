@@ -647,6 +647,8 @@ auth-error-1008 = Vana ja uus parool peavad erinema
 
 ## Index / home page
 
+# When users delete their Mozilla account inside account Settings, they are redirected to this page with a success message
+index-account-delete-success = Konto kustutati edukalt
 
 ## InlineRecoveryKeySetup page component
 

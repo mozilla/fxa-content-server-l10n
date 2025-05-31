@@ -164,6 +164,7 @@ downloadSubscription-subject = Tere tulemast kasutama teenust { $productName }
 downloadSubscription-title = Tere tulemast kasutama teenust { $productName }
 downloadSubscription-content-2 = Alustame kõigi sinu tellimusega kaasnevate funktsionaalsuste kasutamisega:
 downloadSubscription-link-action-2 = Tee algust
+fraudulentAccountDeletion-title = Sinu konto kustutati
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = { $clientName } - uus sisselogimine
