@@ -397,6 +397,12 @@ password-strength-inline-confirmed-must-match = 새 비밀번호 확인이 새 �
 account-recovery-notification-cta = 생성
 account-recovery-notification-header-value = 비밀번호를 잊어버려도 데이터를 지킬 수 있습니다.
 account-recovery-notification-header-description = 계정 복구 키를 만들어 비밀번호를 잊어버렸을 때 동기화 브라우징 데이터를 복원하세요.
+recovery-phone-promo-cta = 복구 전화번호 추가
+recovery-phone-promo-heading = 복구 전화번호로 계정을 더욱 안전하게 보호하세요
+recovery-phone-promo-description = 이제 2단계 인증 앱을 사용할 수 없는 경우에도, SMS를 통해 일회용 비밀번호로 로그인할 수 있습니다.
+recovery-phone-promo-info-link = SIM 복구 및 SIM 교환 위험에 대해 자세히 알아보기
+promo-banner-dismiss-button =
+    .aria-label = 배너 닫기
 
 ## Ready component
 
@@ -1136,6 +1142,10 @@ tfa-row-cannot-refresh =
     죄송합니다. 2단계 인증을 새로고침하는 중에 문제가
     발생했습니다.
 tfa-row-enabled-description = 계정은 2단계 인증으로 보호되고 있습니다. { -product-mozilla-account }에 로그인할 때 인증 앱의 일회용 비밀번호를 입력해야 합니다.
+# "this" refers to two-step authentication
+# Link goes to https://support.mozilla.org/kb/secure-mozilla-account-two-step-authentication
+tfa-row-enabled-info-link = 사용자의 계정을 보호하는 방법
+tfa-row-disabled-description-v2 = 로그인의 두 번째 단계로, 서드 파티 인증 앱을 사용하여 계정을 보호하세요.
 tfa-row-cannot-verify-session-4 = 세션을 확인하는 중 오류가 발생했습니다.
 tfa-row-disable-modal-heading = 2단계 인증을 비활성화하시겠습니까?
 tfa-row-disable-modal-confirm = 비활성화
@@ -1186,11 +1196,22 @@ auth-error-114-generic = 너무 많이 시도하였습니다. 잠시 후에 다�
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = 너무 많이 시도했습니다. { $retryAfter } 다시 시도하십시오.
 auth-error-125 = 보안상의 이유로 요청이 차단 되었습니다
+auth-error-129-2 = 유효하지 않은 전화번호입니다. 확인 후 다시 시도해 주세요.
 auth-error-138-2 = 확인되지 않은 세션
 auth-error-139 = 보조 이메일은 계정 이메일과 달라야 합니다.
 auth-error-155 = TOTP 토큰 찾을 수 없음
+# Error shown when the user submits an invalid backup authentication code
+auth-error-156 = 백업 인증 코드를 찾을 수 없습니다
 auth-error-159 = 잘못된 계정 복구 키
 auth-error-183-2 = 유효하지 않거나 만료된 인증 코드
+auth-error-202 = 기능이 활성화되지 않음
+auth-error-203 = 서비스를 이용할 수 없습니다. 잠시 후 다시 시도하세요
+auth-error-206 = 비밀번호가 이미 설정되어 있어, 비밀번호를 만들 수 없음
+auth-error-214 = 복구 전화번호가 이미 존재합니다
+auth-error-215 = 복구 전화번호가 존재하지 않습니다
+auth-error-216 = 문자 메시지 한도에 도달
+auth-error-218 = 백업 인증 코드가 없어 복구 전화번호를 제거할 수 없습니다.
+auth-error-219 = 이 전화 번호는 너무 많은 계정에 등록되었습니다. 다른 번호로 시도해 주세요.
 auth-error-999 = 알 수 없는 오류
 auth-error-1001 = 로그인 시도 취소됨
 auth-error-1002 = 세션이 만료되었습니다. 계속하려면 로그인하세요.
@@ -1198,9 +1219,21 @@ auth-error-1003 = 로컬 저장소 또는 쿠키가 여전히 비활성화되어
 auth-error-1008 = 새 비밀번호는 이전의 비밀번호와 달라야 합니다.
 auth-error-1010 = 올바른 비밀번호 필요
 auth-error-1011 = 올바른 이메일이 필요합니다
+auth-error-1020 = 이메일을 잘못 입력하셨나요? firefox.com은 올바른 이메일 서비스가 아닙니다
 auth-error-1031 = 가입을 하려면 나이를 입력해야 합니다.
 auth-error-1032 = 가입을 하려면 유효한 나이를 입력해야 합니다.
+auth-error-1054 = 잘못된 2단계 인증 코드
+auth-error-1056 = 유효하지 않은 백업 인증 코드
 auth-error-1062 = 잘못된 리디렉션
+# Shown when a user tries to sign up with an email address with a domain that doesn't receive emails
+auth-error-1064 = 이메일을 잘못 입력하셨나요? { $domain }은 올바른 이메일 서비스가 아닙니다.
+auth-error-1066 = 이메일 마스크는 계정 생성에 사용할 수 없습니다.
+auth-error-1067 = 이메일을 잘못 입력하셨나요?
+# Displayed when we want to reference a user's previously set up recovery phone
+# number, but they are not completely signed in yet. We'll only show the last 4 digits.
+# Variables:
+#  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
+recovery-phone-number-ending-digits = { $lastFourPhoneNumber }로 끝나는 번호
 oauth-error-1000 = 오류가 발생했습니다. 현재 탭을 닫고 다시 실행해주세요.
 
 ## Cannot Create Account page
@@ -1253,6 +1286,8 @@ cookies-disabled-learn-more = 더 알아보기
 index-header = 이메일 입력
 index-sync-header = { -product-mozilla-account }로 계속 진행하세요.
 index-sync-subheader = { -brand-firefox }를 사용하는 모든 곳에서 비밀번호, 탭, 북마크를 동기화하세요.
+index-relay-header = 이메일 마스크 생성
+index-relay-subheader = 마스킹된 이메일에서 받은 이메일을 전달할 이메일 주소를 입력해 주세요.
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = { $serviceName }로 계속
 index-subheader-with-logo = <span>{ $serviceLogo }</span>로 계속
@@ -1261,6 +1296,8 @@ index-cta = 가입 또는 로그인
 index-account-info = { -product-mozilla-account }를 사용하면 { -brand-mozilla }의 더 많은 개인 정보 보호 제품에 접근할 수 있습니다.
 index-email-input =
     .label = 이메일 입력
+# When users delete their Mozilla account inside account Settings, they are redirected to this page with a success message
+index-account-delete-success = 계정이 성공적으로 삭제됨
 
 ## InlineRecoveryKeySetup page component
 
@@ -1303,6 +1340,7 @@ inline-recovery-confirmation-header-default = <span>계정 설정을 계속하�
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = <span>{ $serviceName } 서비스를 계속하려면</span> 백업 인증 코드를 확인하세요.
+inline-recovery-2fa-enabled-v2 = 2단계 인증이 활성화되었어요
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1501,6 +1539,11 @@ reset-password-complete-banner-message = 향후 로그인 문제가 생기는 �
 
 # ConfirmBackupCodeResetPassword page
 
+confirm-backup-code-reset-password-input-label = 10자리 코드 입력
+confirm-backup-code-reset-password-confirm-button = 확인
+confirm-backup-code-reset-password-subheader = 백업 인증 코드 입력
+# Link out to support article: https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+confirm-backup-code-reset-password-locked-out-link = 접근이 불가능한 상태이신가요?
 
 ## Confirm Reset Password With Code
 
@@ -1551,6 +1594,13 @@ reset-password-confirmed-cta = { $serviceName }로 계속
 
 # password, and they previously had set up an account recovery method.
 
+password-reset-recovery-method-header = 비밀번호 재설정
+password-reset-recovery-method-subheader = 복구 방법 선택
+password-reset-recovery-method-phone = 복구 전화번호
+password-reset-recovery-method-code = 백업 인증 코드
+# Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
+password-reset-recovery-method-code-info = 남은 코드 { $numBackupCodes }개
+password-reset-recovery-method-send-code-error-description = 나중에 다시 시도하시거나 백업 인증 코드를 사용해 주세요.
 reset-password-with-recovery-key-verified-page-title = 비밀번호 재설정 성공
 reset-password-complete-new-password-saved = 새 비밀번호 저장됨!
 reset-password-complete-recovery-key-created = 새로운 계정 복구 키가 생성되었습니다. 지금 다운로드하고 저장하세요.
@@ -1630,6 +1680,12 @@ signin-push-code-confirm-link-error = 링크가 손상되었습니다. 다시 �
 ## This page is shown to users when they are having trouble signing in with
 ## their password, and they previously had set up an account recovery method.
 
+signin-recovery-method-header = 로그인
+signin-recovery-method-subheader = 복구 방법 선택
+signin-recovery-method-phone = 복구 전화번호
+signin-recovery-method-code-v2 = 백업 인증 코드
+# Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
+signin-recovery-method-code-info-v2 = 남은 코드 { $numBackupCodes }개
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
@@ -1638,16 +1694,25 @@ signin-push-code-confirm-link-error = 링크가 손상되었습니다. 다시 �
 
 signin-recovery-code-heading = 로그인
 signin-recovery-code-sub-heading = 백업 인증 코드 입력
+# code here refers to backup authentication code
+signin-recovery-code-input-label-v2 = 10자리 코드 입력
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = 확인
+# Link to go to the page to use recovery phone instead
+signin-recovery-code-phone-link = 복구 전화번호 사용
 # External link for support if the user can't use two-step autentication or a backup authentication code
 # https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 signin-recovery-code-support-link = 접근이 불가능한 상태이신가요?
 # Error displayed in a tooltip when form is submitted witout a code
 signin-recovery-code-required-error = 백업 인증 코드 필요
+signin-recovery-code-use-phone-failure-description = 다음에 다시 시도해 주세요.
 
 ## SigninRecoveryPhone page
 
+signin-recovery-phone-flow-heading = 로그인
+# A recovery code in context of this page is a one time code sent to the user's phone
+signin-recovery-phone-heading = 복구 코드 입력
+signin-recovery-phone-input-label = 6자리 숫자 코드 입력
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -1676,6 +1741,7 @@ signin-token-code-resend-error = 문제가 발생했습니다. 새 코드를 보
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+signin-totp-code-header = 로그인
 signin-totp-code-subheader-v2 = 2단계 인증 코드 입력
 signin-totp-code-instruction-v4 = <strong>인증기 앱</strong>에서 로그인을 확인하세요.
 signin-totp-code-input-label-v4 = 6자리 숫자 코드 입력
