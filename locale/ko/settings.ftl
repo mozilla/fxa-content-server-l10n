@@ -1713,6 +1713,17 @@ signin-recovery-phone-flow-heading = 로그인
 # A recovery code in context of this page is a one time code sent to the user's phone
 signin-recovery-phone-heading = 복구 코드 입력
 signin-recovery-phone-input-label = 6자리 숫자 코드 입력
+signin-recovery-phone-code-submit-button = 확인
+signin-recovery-phone-resend-code-button = 코드 재전송
+signin-recovery-phone-resend-success = 코드 전송됨
+# links to https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+signin-recovery-phone-locked-out-link = 접근이 불가능한 상태이신가요?
+# Follows the error message (e.g, "There was a problem sending a code")
+signin-recovery-phone-general-error-description = 다시 시도해 주십시오.
+signin-recovery-phone-invalid-code-error-description = 코드가 유효하지 않거나 만료되었습니다.
+# "Limits" refers to potential restrictions on how often a recovery phone number can be used for signing in within a given time period.
+# If limits are reached, users may have to use an alternate two-step authentication method or wait until the restriction period is over.
+signin-recovery-phone-success-message = 성공적으로 로그인되었습니다. 복구 전화번호를 다시 사용하면 제한이 적용될 수 있습니다.
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -1727,6 +1738,8 @@ signin-reported-message = 우리 팀에 통보되었습니다. 이와 같은 보
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 signin-token-code-heading-2 = <span>{ -product-mozilla-account }</span> 확인 코드를 입력하세요.
+# { $email } represents the email that the user entered to sign in
+signin-token-code-instruction-v2 = 5분 이내에 <email>{ $email }</email> 메일로 전송된 코드를 입력하세요.
 signin-token-code-input-label-v2 = 6자리 숫자 코드 입력
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = 확인
@@ -1779,6 +1792,8 @@ confirm-signup-code-page-title = 확인 코드를 입력하세요.
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 confirm-signup-code-heading-2 = <span>{ -product-mozilla-account }</span> 확인 코드를 입력하세요.
+# { $email } represents the email that the user entered to sign in
+confirm-signup-code-instruction-v2 = 5분 이내에 <email>{ $email }</email> 메일로 전송된 코드를 입력하세요.
 confirm-signup-code-input-label = 6자리 숫자 코드 입력
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = 확인
