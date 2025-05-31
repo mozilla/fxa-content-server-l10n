@@ -27,6 +27,7 @@ checkout-error-boundary-basic-error-message = 有些東西不對勁，請再試�
 ## Common strings used in multiple pages
 
 next-payment-error-manage-subscription-button = 管理我的訂閱
+next-iap-blocked-contact-support = 您有一套行動版的應用程式內訂閱，與此產品相衝突。請聯絡支援團隊，讓我們來協助。
 next-payment-error-retry-button = 重試
 next-basic-error-message = 某些東西不對勁，請稍候再試一次。
 checkout-error-contact-support-button = 聯絡支援團隊
@@ -227,3 +228,27 @@ upgrade-purchase-details-new-plan-yearly = { $productName }（每年收費）
 upgrade-purchase-details-prorated-credits = 下方的負值將轉為您帳號中的儲值餘額，並在後續付款時折抵。
 # Checkout start
 metadata-title-checkout-start = 結帳 | { $productTitle }
+metadata-description-checkout-start = 請輸入您的詳細付款資訊完成購買。
+# Checkout processing
+metadata-title-checkout-processing = 付款處理中 | { $productTitle }
+metadata-description-checkout-processing = 請稍候，我們正在處理付款…
+# Checkout error
+metadata-title-checkout-error = 付款錯誤 | { $productTitle }
+metadata-description-checkout-error = 處理您的訂閱時發生錯誤。若此問題持續存在，請聯絡支援團隊。
+# Checkout success
+metadata-title-checkout-success = 付款成功 | { $productTitle }
+metadata-description-checkout-success = 恭喜！您已成功完成購買！
+# Checkout needs_input
+metadata-title-checkout-needs-input = 需要處理 | { $productTitle }
+metadata-description-checkout-needs-input = 請完成要求的操作，以繼續付款。
+# Upgrade start
+metadata-title-upgrade-start = 升級 | { $productTitle }
+metadata-description-upgrade-start = 請輸入您的詳細付款資訊完成升級。
+# Upgrade processing
+metadata-title-upgrade-processing = 升級處理中 | { $productTitle }
+# Upgrade error
+metadata-title-upgrade-error = 升級錯誤 | { $productTitle }
+# Upgrade success
+metadata-title-upgrade-success = 升級成功 | { $productTitle }
+# Default
+metadata-title-default = 找不到頁面 | { $productTitle }
