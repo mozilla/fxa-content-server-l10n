@@ -237,7 +237,25 @@ metadata-title-checkout-error = Error | { $productTitle }
 metadata-description-checkout-error = Un error occurreva durante le elaboration de tu abonamento. Si iste problema persiste, contacta le supporto.
 # Checkout success
 metadata-title-checkout-success = Successo | { $productTitle }
+metadata-description-checkout-success = Tu ha completate con successo tu compra.
+# Checkout needs_input
+metadata-title-checkout-needs-input = Action necessari | { $productTitle }
+metadata-description-checkout-needs-input = Completa le action necessari pro continuar con tu pagamento.
+# Upgrade start
+metadata-title-upgrade-start = Promover | { $productTitle }
+metadata-description-upgrade-start = Insere tu detalios de pagamento pro completar tu promotion.
+# Upgrade processing
+metadata-title-upgrade-processing = Tractamento in curso | { $productTitle }
+metadata-description-upgrade-processing = Attende dum nos fini le elaboration de tu pagamento.
 # Upgrade error
 metadata-title-upgrade-error = Error | { $productTitle }
+metadata-description-upgrade-error = Un error occurreva durante le elaboration de tu promotion. Si iste problema persiste, contacta le supporto.
 # Upgrade success
 metadata-title-upgrade-success = Successo | { $productTitle }
+metadata-description-upgrade-success = Congratulationes! Tu ha completate con successo tu promotion.
+# Upgrade needs_input
+metadata-title-upgrade-needs-input = Action necessari | { $productTitle }
+metadata-description-upgrade-needs-input = Completa le action necessari pro continuar con tu pagamento.
+# Default
+metadata-title-default = Pagina non trovate | { $productTitle }
+metadata-description-default = Le pagina que tu ha requirite non era trovate.
