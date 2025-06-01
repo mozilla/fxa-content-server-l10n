@@ -1516,6 +1516,12 @@ reset-password-confirmed-cta = Jatka palveluun { $serviceName }
 # password, and they previously had set up an account recovery method.
 
 password-reset-recovery-method-subheader = Valitse palautustapa
+# Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
+password-reset-recovery-method-code-info =
+    { $numBackupCodes ->
+        [one] { $numBackupCodes } koodi jäljellä
+       *[other] { $numBackupCodes } koodia jäljellä
+    }
 reset-password-with-recovery-key-verified-page-title = Salasanan nollaus onnistui
 reset-password-complete-new-password-saved = Uusi salasana tallennettu!
 reset-password-complete-recovery-key-created = Uusi tilin palautusavain luotu. Lataa ja tallenna se nyt.

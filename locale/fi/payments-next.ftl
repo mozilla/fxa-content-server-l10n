@@ -209,3 +209,18 @@ upgrade-purchase-details-new-plan-daily = { $productName } (päivittäin)
 upgrade-purchase-details-new-plan-weekly = { $productName } (viikoittain)
 upgrade-purchase-details-new-plan-monthly = { $productName } (kuukausittain)
 upgrade-purchase-details-new-plan-yearly = { $productName } (vuosittain)
+# Checkout processing
+metadata-title-checkout-processing = Käsitellään | { $productTitle }
+# Checkout error
+metadata-title-checkout-error = Virhe | { $productTitle }
+# Checkout success
+metadata-title-checkout-success = Onnistui | { $productTitle }
+# Upgrade processing
+metadata-title-upgrade-processing = Käsitellään | { $productTitle }
+# Upgrade error
+metadata-title-upgrade-error = Virhe | { $productTitle }
+# Upgrade success
+metadata-title-upgrade-success = Onnistui | { $productTitle }
+# Default
+metadata-title-default = Sivua ei löytynyt | { $productTitle }
+metadata-description-default = Pyytämääsi sivua ei löytynyt.
