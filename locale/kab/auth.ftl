@@ -379,6 +379,8 @@ postRemoveTwoStepAuthentication-title-2 = Tessenseḍ asesteb s snat tarrayin
 postRemoveTwoStepAuthentication-from-device = Tessenseḍ-t seg:
 postRemoveTwoStepAuthentication-action = Sefrek amiḍan
 postSigninRecoveryCode-action = Sefrek amiḍan
+postSigninRecoveryPhone-preview = Sentem armud n umiḍan
+postSigninRecoveryPhone-device = Teqqneḍ-d seg:
 postSigninRecoveryPhone-action = Sefrek amiḍan
 postVerify-title-2 = Tebɣiḍ kifkif iccer ara twaliḍ ɣef sin yibenkan?
 postVerify-subject-4 = Ansuf ɣer { -brand-mozilla }!
@@ -499,6 +501,7 @@ subscriptionRenewalReminder-content-closing = S tumert,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = Tarbaεt { $productName }
+subscriptionReplaced-content-no-action = Ulac tigawt i yettwasran seg tama-k⋅m.
 subscriptionsPaymentExpired-title-1 = Takarḍa-k n usmad temmut neɣ qrib ad temmet
 subscriptionsPaymentExpired-content-1 = Takarḍa n usmad i tesseqdaceḍ i uxelleṣ deg yimultaɣen-a temmut neɣ qrib ad temmet.
 subscriptionsPaymentProviderCancelled-subject = Aleqqem n telɣut n lexlaṣ yettusra i yimultaɣ { -brand-mozilla }
@@ -519,6 +522,10 @@ subscriptionSubsequentInvoice-content-next-invoice = Tafaṭurt i d-iteddun: { $
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = Tuliḍ ɣer { $productName }
 subscriptionUpgrade-title = Tanemmirt ɣef uleqqem!
+# Variables:
+# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
+# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-upgrade-info-2 = Tleqqmeḍ akken iwata ɣer { $productName }.
 
 ## Variables:
 ## $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
