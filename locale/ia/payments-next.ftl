@@ -225,3 +225,11 @@ upgrade-purchase-details-new-plan-monthly = { $productName } (mensual)
 upgrade-purchase-details-new-plan-halfyearly = { $productName } (6 menses)
 upgrade-purchase-details-new-plan-yearly = { $productName } (annual)
 upgrade-purchase-details-prorated-credits = Le saldo negative monstrate sera applicate como creditos a tu conto e usate verso facturas futur.
+# Checkout error
+metadata-title-checkout-error = Error | { $productTitle }
+# Checkout success
+metadata-title-checkout-success = Successo | { $productTitle }
+# Upgrade error
+metadata-title-upgrade-error = Error | { $productTitle }
+# Upgrade success
+metadata-title-upgrade-success = Successo | { $productTitle }

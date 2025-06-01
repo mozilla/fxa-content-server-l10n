@@ -114,6 +114,9 @@ datablock-copy =
     .message = Copiate
 datablock-print =
     .message = Imprimite
+# Tooltip notification when an account recovery key or one-time use code is copied.
+datablock-inline-copy =
+    .message = Copiate
 
 ## DeviceInfoBlock component
 ## The strings here are used to display information about the origin of activity happening on a user's account
