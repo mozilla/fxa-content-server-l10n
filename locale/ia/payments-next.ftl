@@ -27,6 +27,7 @@ checkout-error-boundary-basic-error-message = Alco errate eveniva. Retenta o con
 ## Common strings used in multiple pages
 
 next-payment-error-manage-subscription-button = Gerer mi subscription
+next-iap-blocked-contact-support = Tu ha un abonamento mobile in-app que conflige con iste producto, contacta le supporto assi que nos pote adjutar te.
 next-payment-error-retry-button = Retentar
 next-basic-error-message = Alco errate eveniva. Reproba plus tarde.
 checkout-error-contact-support-button = Contactar assistentia
@@ -225,8 +226,15 @@ upgrade-purchase-details-new-plan-monthly = { $productName } (mensual)
 upgrade-purchase-details-new-plan-halfyearly = { $productName } (6 menses)
 upgrade-purchase-details-new-plan-yearly = { $productName } (annual)
 upgrade-purchase-details-prorated-credits = Le saldo negative monstrate sera applicate como creditos a tu conto e usate verso facturas futur.
+# Checkout start
+metadata-title-checkout-start = Momento del pagamento | { $productTitle }
+metadata-description-checkout-start = Insere tu detalios de pagamento pro completar tu compra.
+# Checkout processing
+metadata-title-checkout-processing = Tractamento in curso | { $productTitle }
+metadata-description-checkout-processing = Attende dum nos fini le elaboration de tu pagamento.
 # Checkout error
 metadata-title-checkout-error = Error | { $productTitle }
+metadata-description-checkout-error = Un error occurreva durante le elaboration de tu abonamento. Si iste problema persiste, contacta le supporto.
 # Checkout success
 metadata-title-checkout-success = Successo | { $productTitle }
 # Upgrade error
