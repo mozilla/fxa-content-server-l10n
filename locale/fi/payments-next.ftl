@@ -22,10 +22,12 @@ checkout-error-boundary-basic-error-message = Jotain meni pieleen. Yritä uudell
 ## Common strings used in multiple pages
 
 next-payment-error-manage-subscription-button = Hallitse tilausta
+next-iap-blocked-contact-support = Sinulla on mobiilisovelluksen sisäinen tilaus, joka on ristiriidassa tämän tuotteen kanssa. Ota yhteys tukeen, niin voimme auttaa sinua.
 next-payment-error-retry-button = Yritä uudestaan
 next-basic-error-message = Jokin meni pieleen. Yritä uudelleen myöhemmin.
 checkout-error-contact-support-button = Ota yhteys tukeen
 checkout-error-not-eligible = Et voi tilata tätä tuotetta - ota yhteys tukeemme, jotta voimme auttaa sinua.
+checkout-error-already-subscribed = Olet jo tilannut tämän tuotteen.
 checkout-error-contact-support = Ota yhteys tukeen, jotta voimme auttaa sinua.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
@@ -177,6 +179,7 @@ next-subscription-create-title = Määritä tilaus
 next-subscription-success-title = Tilauksen vahvistus
 next-subscription-processing-title = Vahvistetaan tilausta…
 next-subscription-error-title = Virhe tilausta vahvistaessa…
+subscription-title-sub-exists = Olet jo tilannut
 subscription-title-plan-change-heading = Tarkista muutos
 next-sub-guarantee = 30 päivän rahat takaisin -takuu
 
@@ -209,18 +212,24 @@ upgrade-purchase-details-new-plan-daily = { $productName } (päivittäin)
 upgrade-purchase-details-new-plan-weekly = { $productName } (viikoittain)
 upgrade-purchase-details-new-plan-monthly = { $productName } (kuukausittain)
 upgrade-purchase-details-new-plan-yearly = { $productName } (vuosittain)
+# Checkout start
+metadata-title-checkout-start = Kassa | { $productTitle }
 # Checkout processing
 metadata-title-checkout-processing = Käsitellään | { $productTitle }
 # Checkout error
 metadata-title-checkout-error = Virhe | { $productTitle }
 # Checkout success
 metadata-title-checkout-success = Onnistui | { $productTitle }
+# Checkout needs_input
+metadata-title-checkout-needs-input = Toimenpiteitä vaaditaan | { $productTitle }
 # Upgrade processing
 metadata-title-upgrade-processing = Käsitellään | { $productTitle }
 # Upgrade error
 metadata-title-upgrade-error = Virhe | { $productTitle }
 # Upgrade success
 metadata-title-upgrade-success = Onnistui | { $productTitle }
+# Upgrade needs_input
+metadata-title-upgrade-needs-input = Toimenpiteitä vaaditaan | { $productTitle }
 # Default
 metadata-title-default = Sivua ei löytynyt | { $productTitle }
 metadata-description-default = Pyytämääsi sivua ei löytynyt.
