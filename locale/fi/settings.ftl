@@ -114,6 +114,9 @@ datablock-copy =
     .message = Kopioitu
 datablock-print =
     .message = Tulostettu
+# Tooltip notification when an account recovery key or one-time use code is copied.
+datablock-inline-copy =
+    .message = Kopioitu
 
 ## DeviceInfoBlock component
 ## The strings here are used to display information about the origin of activity happening on a user's account
@@ -1464,6 +1467,9 @@ reset-password-complete-banner-heading = Salasanasi on nollattu.
 
 # ConfirmBackupCodeResetPassword page
 
+confirm-backup-code-reset-password-input-label = Kirjoita 10-merkkinen koodi
+confirm-backup-code-reset-password-confirm-button = Vahvista
+confirm-backup-code-reset-password-subheader = Anna varatodennuskoodi
 
 ## Confirm Reset Password With Code
 
@@ -1509,6 +1515,7 @@ reset-password-confirmed-cta = Jatka palveluun { $serviceName }
 
 # password, and they previously had set up an account recovery method.
 
+password-reset-recovery-method-subheader = Valitse palautustapa
 reset-password-with-recovery-key-verified-page-title = Salasanan nollaus onnistui
 reset-password-complete-new-password-saved = Uusi salasana tallennettu!
 reset-password-complete-recovery-key-created = Uusi tilin palautusavain luotu. Lataa ja tallenna se nyt.
