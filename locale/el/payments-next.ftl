@@ -27,6 +27,7 @@ checkout-error-boundary-basic-error-message = Κάτι πήγε στραβά. Δ
 ## Common strings used in multiple pages
 
 next-payment-error-manage-subscription-button = Διαχείριση συνδρομής
+next-iap-blocked-contact-support = Διαθέτετε μια συνδρομή εντός εφαρμογής που δημιουργεί διένεξη με αυτό το προϊόν. Επικοινωνήστε με την υποστήριξη, ώστε να μπορέσουμε να σας βοηθήσουμε.
 next-payment-error-retry-button = Δοκιμή ξανά
 next-basic-error-message = Κάτι πήγε στραβά. Δοκιμάστε ξανά αργότερα.
 checkout-error-contact-support-button = Επικοινωνία με την υποστήριξη
@@ -233,6 +234,7 @@ metadata-title-checkout-processing = Επεξεργασία | { $productTitle }
 metadata-description-checkout-processing = Περιμένετε μέχρι να ολοκληρώσουμε την επεξεργασια της πληρωμής σας.
 # Checkout error
 metadata-title-checkout-error = Σφάλμα | { $productTitle }
+metadata-description-checkout-error = Προέκυψε σφάλμα κατά την επεξεργασία της συνδρομής σας. Εάν το πρόβλημα παραμένει, επικοινωνήστε με την υποστήριξη.
 # Checkout success
 metadata-title-checkout-success = Επιτυχία | { $productTitle }
 metadata-description-checkout-success = Συγχαρητήρια! Έχετε ολοκληρώσει επιτυχώς την αγορά σας.
@@ -247,6 +249,7 @@ metadata-title-upgrade-processing = Επεξεργασία | { $productTitle }
 metadata-description-upgrade-processing = Περιμένετε μέχρι να ολοκληρώσουμε την επεξεργασια της πληρωμής σας.
 # Upgrade error
 metadata-title-upgrade-error = Σφάλμα | { $productTitle }
+metadata-description-upgrade-error = Προέκυψε σφάλμα κατά την επεξεργασία της αναβάθμισής σας. Εάν το πρόβλημα παραμένει, επικοινωνήστε με την υποστήριξη.
 # Upgrade success
 metadata-title-upgrade-success = Επιτυχία | { $productTitle }
 metadata-description-upgrade-success = Συγχαρητήρια! Έχετε ολοκληρώσει επιτυχώς την αναβάθμισή σας.
