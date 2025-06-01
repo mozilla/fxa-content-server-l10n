@@ -245,6 +245,7 @@ view-invoice = <a data-l10n-name="invoiceLink">Wali tafaṭurt-ik·im</a>.
 #  $invoiceLink (String) - The link to the invoice
 # After the colon, there's a link to https://pay.stripe.com/
 view-invoice-plaintext = Wali tafaṭurt-ik·im: { $invoiceLink }
+cadReminderFirst-subject-1 = asmekti! Aha mtawi { -brand-firefox }
 cadReminderFirst-action = Mtawi ibenk-nniḍen
 cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
@@ -273,6 +274,8 @@ inactiveAccountFirstWarning-action = Kcem akken ad tḥerzeḍ amiḍan-ik·im
 inactiveAccountFirstWarning-preview = Kcem akken ad tḥerzeḍ amiḍan-ik·im
 # followed by link to sign in
 inactiveAccountFirstWarning-action-plaintext = Kcem akken ad tḥerzeḍ amiḍan-ik·im:
+inactiveAccountSecondWarning-subject = Tigawt tettwasra: Amiḍan ad yettwakkes deg 7 wussan
+inactiveAccountSecondWarning-title = Amiḍan-ik·im { -brand-mozilla } akked isefka-inek·inem ad ttwakksen deg 7 wussan
 inactiveAccountSecondWarning-action = Kcem akken ad tḥerzeḍ amiḍan-ik·im
 inactiveAccountSecondWarning-preview = Kcem akken ad tḥerzeḍ amiḍan-ik·im
 # followed by link to sign in
@@ -280,6 +283,7 @@ inactiveAccountSecondWarning-action-plaintext = Kcem akken ad tḥerzeḍ amiḍ
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title-zero = Ur tesɛiḍ ula  yiwet n tengalt n usesteb n uḥraz!
 codes-reminder-title-one = Tesseqdaceḍ tangalt-ik·im taneggarut  n usesteb n uḥraz
+codes-reminder-description-part-two = Rnu tingalin timaynutin tura i wakken ar tesruḥuyeḍ ara isefka-k⋅ù mbaɛd.
 codes-reminder-description-two-left = Mazal-ak kan snat tengalin.
 lowRecoveryCodes-action-2 = Rnu tingalin
 codes-create-plaintext = { lowRecoveryCodes-action-2 }:
