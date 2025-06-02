@@ -243,3 +243,19 @@ metadata-title-checkout-needs-input = Actie vereist | { $productTitle }
 metadata-description-checkout-needs-input = Voltooi de benodigde actie om door te gaan met uw betaling.
 # Upgrade start
 metadata-title-upgrade-start = Upgraden | { $productTitle }
+metadata-description-upgrade-start = Voer uw betalingsgegevens in om uw upgrade te voltooien.
+# Upgrade processing
+metadata-title-upgrade-processing = Verwerken | { $productTitle }
+metadata-description-upgrade-processing = Een ogenblik terwijl uw betaling wordt verwerkt.
+# Upgrade error
+metadata-title-upgrade-error = Fout | { $productTitle }
+metadata-description-upgrade-error = Er is een fout opgetreden bij het verwerken van uw upgrade. Als dit probleem aanhoudt, neem dan contact op met de ondersteuningsafdeling.
+# Upgrade success
+metadata-title-upgrade-success = Geslaagd | { $productTitle }
+metadata-description-upgrade-success = Gefeliciteerd! U hebt uw upgrade met succes voltooid.
+# Upgrade needs_input
+metadata-title-upgrade-needs-input = Actie vereist | { $productTitle }
+metadata-description-upgrade-needs-input = Voltooi de benodigde actie om door te gaan met uw betaling.
+# Default
+metadata-title-default = Pagina niet gevonden | { $productTitle }
+metadata-description-default = De opgevraagde pagina is niet gevonden.

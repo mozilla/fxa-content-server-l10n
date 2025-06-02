@@ -114,6 +114,9 @@ datablock-copy =
     .message = Gekopieerd
 datablock-print =
     .message = Afgedrukt
+# Tooltip notification when an account recovery key or one-time use code is copied.
+datablock-inline-copy =
+    .message = Gekopieerd
 
 ## DeviceInfoBlock component
 ## The strings here are used to display information about the origin of activity happening on a user's account
@@ -641,6 +644,7 @@ flow-setup-phone-confirm-code-expired = Code verlopen?
 flow-setup-phone-confirm-code-resend-code-button = Code nogmaals versturen
 flow-setup-phone-confirm-code-resend-code-success = Code verzonden
 flow-setup-phone-confirm-code-success-message-v2 = Hersteltelefoonnummer toegevoegd
+flow-change-phone-confirm-code-success-message = Hersteltelefoonnummer gewijzigd
 
 ## FlowSetupPhoneConfirmCode
 
@@ -891,6 +895,7 @@ settings-recovery-phone-remove-success = Hersteltelefoonnummer verwijderd
 ## PageSetupRecoveryPhone
 
 page-setup-recovery-phone-heading = Hersteltelefoonnummer toevoegen
+page-change-recovery-phone = Hersteltelefoonnummer wijzigen
 page-setup-recovery-phone-back-button-title = Terug naar instellingen
 # Back arrow to return to step 1 of recovery phone setup flow
 page-setup-recovery-phone-step2-back-button-title = Telefoonnummer wijzigen
