@@ -258,6 +258,9 @@ metadata-description-default = הדף שביקשת לא נמצא.
 
 ## Coupon Error Messages
 
+next-coupon-error-expired = פג תוקף הקוד שהזנת.
+next-coupon-error-generic = אירעה שגיאה בעיבוד הקוד. נא לנסות שוב.
+next-coupon-error-invalid = הקוד שהזנת אינו חוקי.
 
 ##
 
