@@ -1639,6 +1639,12 @@ password-reset-recovery-method-send-code-error-description = Försök igen senar
 ## ResetPasswordRecoveryPhone page
 
 reset-password-recovery-phone-flow-heading = Återställ lösenordet
+# A recovery code in context of this page is a one time code sent to the user's phone
+reset-password-recovery-phone-heading = Ange återställningskod
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+reset-password-recovery-phone-instruction-v3 = En 6-siffrig kod skickades till telefonnumret som slutar på <span>{ $lastFourPhoneDigits }</span> via sms. Denna kod upphör efter 5 minuter. Dela inte den här koden med någon.
+reset-password-recovery-phone-input-label = Ange 6-siffrig kod
 reset-password-with-recovery-key-verified-page-title = Lösenordsåterställningen lyckades
 reset-password-complete-new-password-saved = Nytt lösenord sparat!
 reset-password-complete-recovery-key-created = Ny nyckel för kontoåterställning skapad. Ladda ner och lagra den nu.
