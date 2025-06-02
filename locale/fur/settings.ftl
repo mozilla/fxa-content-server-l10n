@@ -114,6 +114,9 @@ datablock-copy =
     .message = Copiât
 datablock-print =
     .message = Stampât
+# Tooltip notification when an account recovery key or one-time use code is copied.
+datablock-inline-copy =
+    .message = Copiât
 
 ## DeviceInfoBlock component
 ## The strings here are used to display information about the origin of activity happening on a user's account
@@ -397,6 +400,8 @@ password-strength-inline-confirmed-must-match = La conferme e corispuint ae gnov
 account-recovery-notification-cta = Cree
 account-recovery-notification-header-value = No sta pierdi i tiei dâts se tu dismenteis la password
 account-recovery-notification-header-description = Cree une clâf di recupar dal account par ripristinâ i tiei dâts di navigazion sincronizâts tal câs che tu ti dismenteis la password.
+recovery-phone-promo-cta = Zonte telefon pal recupar dal account
+recovery-phone-promo-heading = Zonte une protezion in plui al to account cul telefon pal recupar dal account
 
 ## Ready component
 

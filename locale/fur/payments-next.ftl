@@ -190,6 +190,7 @@ next-subscription-create-title = Configure l’abonament
 next-subscription-success-title = Conferme dal abonament
 next-subscription-processing-title = Daûr a confermâ l’abonament…
 next-subscription-error-title = Erôr te conferme dal abonament…
+subscription-title-sub-exists = Tu âs za l'abonament
 subscription-title-plan-change-heading = Riviôt la tô modifiche
 next-sub-guarantee = Garanzie di rimbors di 30 dîs
 
@@ -224,3 +225,37 @@ upgrade-purchase-details-new-plan-weekly = { $productName } (ae setemane)
 upgrade-purchase-details-new-plan-monthly = { $productName } (al mês)
 upgrade-purchase-details-new-plan-halfyearly = { $productName } (6 mês)
 upgrade-purchase-details-new-plan-yearly = { $productName } (al an)
+upgrade-purchase-details-prorated-credits = Il salt negatîf mostrât al vignarà aplicât tant che credit sul to account e al vignarà doprât pes prossimis faturis.
+# Checkout start
+metadata-title-checkout-start = Compre | { $productTitle }
+metadata-description-checkout-start = Inserìs i dâts pal paiament par completâ l'acuist.
+# Checkout processing
+metadata-title-checkout-processing = Elaborazion | { $productTitle }
+metadata-description-checkout-processing = Par plasê spiete intant che o completìn la elaborazion dal paiament.
+# Checkout error
+metadata-title-checkout-error = Erôr | { $productTitle }
+metadata-description-checkout-error = Al è vignût fûr un erôr tal elaborâ l'abonament. Se chest probleme al indure, contate la assistence.
+# Checkout success
+metadata-title-checkout-success = Sucès | { $productTitle }
+metadata-description-checkout-success = Congratulazions! Tu âs completât cun sucès l'acuist.
+# Checkout needs_input
+metadata-title-checkout-needs-input = Azion necessarie | { $productTitle }
+metadata-description-checkout-needs-input = Complete la azion domandade par lâ indevant cul paiament.
+# Upgrade start
+metadata-title-upgrade-start = Inzorne | { $productTitle }
+metadata-description-upgrade-start = Inserìs i dâts pal paiament par completâ l'inzornament.
+# Upgrade processing
+metadata-title-upgrade-processing = Elaborazion | { $productTitle }
+metadata-description-upgrade-processing = Par plasê spiete intant che o completìn la elaborazion dal paiament.
+# Upgrade error
+metadata-title-upgrade-error = Erôr | { $productTitle }
+metadata-description-upgrade-error = Al è vignût fûr un erôr tal elaborâ l'inzornament. Se chest probleme al indure, contate la assistence.
+# Upgrade success
+metadata-title-upgrade-success = Sucès | { $productTitle }
+metadata-description-upgrade-success = Congratulazions! Tu âs completât cun sucès l'inzornament.
+# Upgrade needs_input
+metadata-title-upgrade-needs-input = Azion necessarie | { $productTitle }
+metadata-description-upgrade-needs-input = Complete la azion domandade par lâ indevant cul paiament.
+# Default
+metadata-title-default = Pagjine no cjatade | { $productTitle }
+metadata-description-default = La pagjine domandade no je stade cjatade.
