@@ -160,6 +160,15 @@ automated-email-reset =
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext-v2 = Se cheste azion no je stade fate di te, azere e riconfigure la password daurman su { $resetLink }
+# This message is used by multiple automated emails that notify users of security events on their account
+# "this action" is meant to be a generic term, and could, for example, refer to using a backup authentication code to confirm a password reset
+automated-email-reset-pwd-two-factor =
+    Se no tu âs fat tu cheste operazion, alore <a data-l10n-name="resetLink">ristabilìs la tô password</a> e <a data-l10n-name="twoFactorSettingsLink">ristabilìs la autenticazion in doi passaçs</a> daurman.
+    Par vê plui informazions, visite il <a data-l10n-name="supportLink">supuart { -brand-mozilla }</a>.
+# Followed by link to https://accounts.firefox.com/reset_password
+automated-email-reset-pwd-plaintext-v3 = Se no tu âs fat tu cheste operazion, alore ristabilìs la tô password daurman su:
+# Followed by link to https://accounts.firefox.com/settings#two-step-authentication
+automated-email-reset-two-factor-plaintext = Ristabilìs ancje la autenticazion in doi passaçs su:
 brand-banner-message = Savevistu che o vin cambiât non di { -product-firefox-accounts } a { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Plui informazions</a>
 cancellationSurvey = Judinus a miorâ i nestris servizis partecipant a chest <a data-l10n-name="cancellationSurveyUrl">curt sondaç</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
@@ -221,6 +230,7 @@ subscriptionCharges-content-tax = Tassis e comissions: { $invoiceTaxAmount }
 ##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
 
 subscriptionFirstInvoice-content-charge = Contizât { $invoiceTotal } ai { $invoiceDateOnly }
+subscriptionFirstInvoice-content-credit = Tu âs ricevût un credit di { $invoiceTotal } che al vignarà aplicât aes tôs prossimis faturis.
 
 ##
 
@@ -369,6 +379,8 @@ passwordResetAccountRecovery-information = Ti vin disconetût/disconetude di duc
 # After the colon there is a link to account settings
 passwordResetAccountRecovery-information-txt = Ti vin disconetût/disconetude di ducj i tiei dispositîfs sincronizâts. O vin creât une gnove clâf di recupar dal account par sostituî chê che tu âs doprât. Tu puedis modificâle tes impostazions dal account:
 passwordResetAccountRecovery-action-4 = Gjestìs account
+passwordResetRecoveryPhone-subject = Doprât telefon pal recupar dal account
+passwordResetRecoveryPhone-preview = Controle che tu jeris tu
 passwordResetWithRecoveryKeyPrompt-subject = La password e je stade ristabilide
 passwordResetWithRecoveryKeyPrompt-title = La password e je stade ristabilide
 # Details of the device and date/time where the password was reset
