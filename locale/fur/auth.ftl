@@ -679,6 +679,8 @@ subscriptionUpgrade-upgrade-info-2 = L'inzornament a { $productName } al è stâ
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
 subscriptionUpgrade-content-charge-prorated = Ti je stade adebitade une comission "una tantum" di { $paymentProrated } par rifleti il presit plui alt dal to abonament pal periodi di faturazion che al reste ({ $productPaymentCycleOld }).
+subscriptionUpgrade-content-charge-credit = Tu âs ricevût un credit di { $paymentProrated } sul cont.
+subscriptionUpgrade-content-starting = Scomençant de prossime fature, il to adebit al cambiarà di { $paymentAmountOld } par { $productPaymentCycleOld } a { $paymentAmountNew } par { $productPaymentCycleNew }.
 # Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-existing = Se un dai tiei abonaments esistents si sorepon cun chest inzornament, lu tratarìn e ti inviarìn une e-mail separade cui detais. Se il to gnûf plan al inclût prodots di instalâ, ti mandarìn une e-mail separade cu lis istruzions pe instalazion.

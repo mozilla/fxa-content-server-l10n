@@ -431,6 +431,7 @@ sub-update-new-plan-daily = { $productName } (al dì)
 sub-update-new-plan-weekly = { $productName } (ae setemane)
 sub-update-new-plan-monthly = { $productName } (al mês)
 sub-update-new-plan-yearly = { $productName } (al an)
+sub-update-prorated-upgrade-credit = Il salt negatîf mostrât al vignarà aplicât tant che credit sul to account e al vignarà doprât pes prossimis faturis.
 
 ## Routes - Subscriptions - Cancel
 
@@ -456,6 +457,7 @@ sub-item-cancel-confirm =
 # Cybersecurity Awareness Month 2023 coupon applied: $11.20 + $0.35 tax
 # Summer Promo VPN coupon applied: $11.20
 sub-promo-coupon-applied = Coupon { $promotion_name } aplicât: <priceDetails></priceDetails>
+subscription-management-account-credit-balance = Il paiament di chest abonament al à gjenerât un credit sul salt dal to account: <priceDetails></priceDetails>
 
 ## Routes - Subscription
 

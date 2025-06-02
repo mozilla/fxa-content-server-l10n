@@ -13,6 +13,7 @@ next-payment-method-first-approve = Par prime robe tu scugnis aprovâ il to abon
 location-header = Selezione il to paîs e inserìs il to codiç postâl <p>par continuâ cul paiament par { $productName }</p>
 location-banner-info = No sin rivâts a rilevâ in automatic la tô posizion
 location-required-disclaimer = O doprìn chestis informazions nome par calcolâ tassis e valude.
+location-banner-currency-change = Cambi valude no supuartât. Par continuâ, selezione un paîs che al corispuint ae valude di faturazion corinte.
 
 ## Page - Upgrade page
 
@@ -26,11 +27,15 @@ checkout-error-boundary-basic-error-message = Alc al è lât strucj. Torne prove
 ## Common strings used in multiple pages
 
 next-payment-error-manage-subscription-button = Gjestion abonament
+next-iap-blocked-contact-support = Tu âs un abonament in-app fat di dispositîf mobil che al va in conflit cun chest prodot — contate la assistence si che o podìn judâti.
 next-payment-error-retry-button = Torne prove
 next-basic-error-message = Alc al è lât strucj. Torne prove plui indenant.
 checkout-error-contact-support-button = Contate la assistence
 checkout-error-not-eligible = No tu âs i recuisîts par abonâti a chest prodot - Contate la assistence cussì che o podìn judâti.
+checkout-error-already-subscribed = Tu âs za l'abonament par chest prodot.
 checkout-error-contact-support = Contate la assistence par ricevi il nestri jutori.
+cart-error-currency-not-determined = Nol è stât pussibil determinâ la valude par chest acuist. Torne prove.
+checkout-processing-general-error = Al è capitât un erôr inspietât dilunc la elaborazion dal paiament, torne prove.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -154,6 +159,10 @@ select-tax-location-error-missing-postal-code = Inserìs il to codiç postâl
 select-tax-location-error-invalid-postal-code = Inserìs un codiç postâl valit
 select-tax-location-successfully-updated = La tô posizion e je stade inzornade.
 select-tax-location-error-location-not-updated = Impussibil inzornâ la posizion. Torne prove.
+#  $currencyDisplayName (String) - The display name of a currency code, e.g. US Dollar
+select-tax-location-invalid-currency-change = Il to account al ven faturât in { $currencyDisplayName }. Selezione un paîs che al dopre { $currencyDisplayName }.
+select-tax-location-invalid-currency-change-default = Selezione un paîs che al corispuint ae valude dai tiei abonaments atîfs.
+select-tax-location-new-tax-rate-info = Inzornant la tô posizion e vignarà aplicade la gnove alicuote fiscâl a ducj i abonaments atîfs sul to account, scomençant dal prossim cicli di faturazion.
 signin-form-continue-button = Continue
 signin-form-email-input = Inserìs la tô e-mail
 signin-form-email-input-missing = Inserìs la tô direzion e-mail
