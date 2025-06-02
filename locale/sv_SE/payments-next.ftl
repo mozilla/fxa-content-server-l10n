@@ -266,6 +266,11 @@ metadata-description-default = Sidan du begärde hittades inte.
 
 ## Coupon Error Messages
 
+next-coupon-error-expired = Koden du angav har upphört.
+next-coupon-error-generic = Ett fel uppstod vid bearbetning av koden. Försök igen.
+next-coupon-error-invalid = Koden du angav är ogiltig.
+# "Limit" refers to the maximum number of times a coupon can be redeemed.
+next-coupon-error-limit-reached = Koden du angav har nått sin gräns.
 
 ##
 
