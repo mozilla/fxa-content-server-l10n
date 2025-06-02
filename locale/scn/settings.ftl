@@ -1374,6 +1374,9 @@ reset-password-confirmed-cta = Cuntinua nne { $serviceName }
 
 # password, and they previously had set up an account recovery method.
 
+
+## ResetPasswordRecoveryPhone page
+
 reset-password-with-recovery-key-verified-page-title = U risettu dâ chiavi jìu bonu
 reset-password-complete-new-password-saved = A chiavi nova fu sarbata!
 reset-password-complete-recovery-key-created = A chiavi di ricùpiru dû cuntu nova fu criata. Scàrricala e sàrbala sùbbitu.

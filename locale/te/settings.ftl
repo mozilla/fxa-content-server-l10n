@@ -608,6 +608,9 @@ reset-password-complete-header = మీ సంకేతపదము మార్
 # password, and they previously had set up an account recovery method.
 
 
+## ResetPasswordRecoveryPhone page
+
+
 ## CompleteSignin component
 
 

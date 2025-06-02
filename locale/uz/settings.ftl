@@ -403,6 +403,9 @@ tfa-qa-code-alt = Qoʻllab-quvvatlanadigan ilovalarda ikki bosqichli autentifika
 # password, and they previously had set up an account recovery method.
 
 
+## ResetPasswordRecoveryPhone page
+
+
 ## CompleteSignin component
 
 

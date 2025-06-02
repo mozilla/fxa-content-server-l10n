@@ -1101,6 +1101,9 @@ reset-password-complete-header = Ваша лозинка је ресетован
 
 # password, and they previously had set up an account recovery method.
 
+
+## ResetPasswordRecoveryPhone page
+
 reset-password-with-recovery-key-verified-page-title = Успешно ресетовање лозинке
 
 ## CompleteSignin component

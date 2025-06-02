@@ -224,3 +224,13 @@ upgrade-purchase-details-new-plan-weekly = { $productName } (매주)
 upgrade-purchase-details-new-plan-monthly = { $productName } (월간)
 upgrade-purchase-details-new-plan-halfyearly = { $productName } (6개월)
 upgrade-purchase-details-new-plan-yearly = { $productName } (연간)
+
+## Page Metadata Information
+## $productTitle (String) - The name of the product to create subscription, e.g. Mozilla VPN
+
+
+## Coupon Error Messages
+
+
+##
+

@@ -225,3 +225,13 @@ upgrade-purchase-details-new-plan-monthly = { $productName } (mensual)
 upgrade-purchase-details-new-plan-halfyearly = { $productName } (semestral)
 upgrade-purchase-details-new-plan-yearly = { $productName } (anual)
 upgrade-purchase-details-prorated-credits = El saldo negativo mostrado se aplicará como crédito a tu cuenta y se utilizará para futuras facturas.
+
+## Page Metadata Information
+## $productTitle (String) - The name of the product to create subscription, e.g. Mozilla VPN
+
+
+## Coupon Error Messages
+
+
+##
+

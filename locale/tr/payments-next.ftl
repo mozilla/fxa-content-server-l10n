@@ -219,6 +219,10 @@ upgrade-purchase-details-new-plan-weekly = { $productName } (Haftalık)
 upgrade-purchase-details-new-plan-monthly = { $productName } (Aylık)
 upgrade-purchase-details-new-plan-halfyearly = { $productName } (6 aylık)
 upgrade-purchase-details-new-plan-yearly = { $productName } (Yıllık)
+
+## Page Metadata Information
+## $productTitle (String) - The name of the product to create subscription, e.g. Mozilla VPN
+
 # Checkout start
 metadata-title-checkout-start = Ödeme | { $productTitle }
 metadata-description-checkout-start = Satın alma işleminizi tamamlamak için ödeme bilgilerinizi girin.
@@ -252,3 +256,9 @@ metadata-description-upgrade-needs-input = Ödemeye devam etmek için lütfen ge
 # Default
 metadata-title-default = Sayfa bulunamadı | { $productTitle }
 metadata-description-default = İstediğiniz sayfa bulunamadı.
+
+## Coupon Error Messages
+
+
+##
+

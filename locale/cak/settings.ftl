@@ -809,6 +809,9 @@ reset-password-complete-header = Xtzolïx ri ewan atzij
 
 # password, and they previously had set up an account recovery method.
 
+
+## ResetPasswordRecoveryPhone page
+
 reset-password-with-recovery-key-verified-page-title = Xtzolïx ütz ri ewan tzij
 
 ## CompleteSignin component

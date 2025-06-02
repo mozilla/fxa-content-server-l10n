@@ -226,6 +226,10 @@ upgrade-purchase-details-new-plan-monthly = { $productName } (al mese)
 upgrade-purchase-details-new-plan-halfyearly = { $productName } (6 mesi)
 upgrade-purchase-details-new-plan-yearly = { $productName } (all’anno)
 upgrade-purchase-details-prorated-credits = Il saldo negativo visualizzato verrà applicato come credito al tuo account e utilizzato per le prossime fatture.
+
+## Page Metadata Information
+## $productTitle (String) - The name of the product to create subscription, e.g. Mozilla VPN
+
 # Checkout start
 metadata-title-checkout-start = Acquista | { $productTitle }
 metadata-description-checkout-start = Inserisci i dati per il pagamento per completare l’acquisto.
@@ -259,3 +263,9 @@ metadata-description-upgrade-needs-input = Completare l’azione richiesta per p
 # Default
 metadata-title-default = Pagina non trovata | { $productTitle }
 metadata-description-default = La pagina richiesta non è stata trovata.
+
+## Coupon Error Messages
+
+
+##
+

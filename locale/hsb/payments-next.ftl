@@ -229,6 +229,10 @@ upgrade-purchase-details-new-plan-monthly = { $productName } (kóždy měsac)
 upgrade-purchase-details-new-plan-halfyearly = { $productName } (6-měsacny)
 upgrade-purchase-details-new-plan-yearly = { $productName } (kóžde lěto)
 upgrade-purchase-details-prorated-credits = Pokazany kontowy staw so wašemu kontu přidawa a za přichodne zličbowanki wužiwa.
+
+## Page Metadata Information
+## $productTitle (String) - The name of the product to create subscription, e.g. Mozilla VPN
+
 # Checkout start
 metadata-title-checkout-start = Płaćenje | { $productTitle }
 metadata-description-checkout-start = Zapodajće swoje płaćenske podrobnosće, zo byšće swoju kup dokónčił.
@@ -262,3 +266,9 @@ metadata-description-upgrade-needs-input = Prošu dokónčće trěbnu akciju, zo
 # Default
 metadata-title-default = Strona njenamakana | { $productTitle }
 metadata-description-default = Strona, wo kotruž sće prosył, njeje so namakała.
+
+## Coupon Error Messages
+
+
+##
+

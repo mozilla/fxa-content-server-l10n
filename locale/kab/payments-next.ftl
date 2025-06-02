@@ -179,3 +179,13 @@ upgrade-purchase-details-new-plan-weekly = { $productName } (i ddurt)
 upgrade-purchase-details-new-plan-monthly = { $productName } (i wayyur)
 upgrade-purchase-details-new-plan-halfyearly = { $productName } (6-wayyuren)
 upgrade-purchase-details-new-plan-yearly = { $productName } (i useggas)
+
+## Page Metadata Information
+## $productTitle (String) - The name of the product to create subscription, e.g. Mozilla VPN
+
+
+## Coupon Error Messages
+
+
+##
+

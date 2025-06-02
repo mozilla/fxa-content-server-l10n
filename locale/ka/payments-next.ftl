@@ -228,3 +228,13 @@ upgrade-purchase-details-new-plan-monthly = { $productName } (ყოველთ
 upgrade-purchase-details-new-plan-halfyearly = { $productName } (6-თვიანი)
 upgrade-purchase-details-new-plan-yearly = { $productName } (ყოველწლიური)
 upgrade-purchase-details-prorated-credits = მოცემული უარყოფითი ნაშთი აისახება თქვენს ანგარიშზე სამომავლო გადახდებისთვის.
+
+## Page Metadata Information
+## $productTitle (String) - The name of the product to create subscription, e.g. Mozilla VPN
+
+
+## Coupon Error Messages
+
+
+##
+

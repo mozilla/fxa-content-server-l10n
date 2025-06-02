@@ -1613,6 +1613,9 @@ password-reset-recovery-method-code-info =
 # Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
 password-reset-recovery-method-send-code-error-heading = Kurtarma telefonunuza kod gönderilirken bir sorun oluştu
 password-reset-recovery-method-send-code-error-description = Lütfen daha sonra yeniden deneyin veya yedek kimlik doğrulama kodlarınızı kullanın.
+
+## ResetPasswordRecoveryPhone page
+
 reset-password-with-recovery-key-verified-page-title = Parola başarıyla sıfırlandı
 reset-password-complete-new-password-saved = Yeni parola kaydedildi!
 reset-password-complete-recovery-key-created = Yeni hesap kurtarma anahtarı oluşturuldu. Hemen indirip saklayın.

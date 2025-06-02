@@ -222,3 +222,13 @@ upgrade-purchase-details-new-plan-weekly = { $productName } (vikulega)
 upgrade-purchase-details-new-plan-monthly = { $productName } (mánaðarlega)
 upgrade-purchase-details-new-plan-halfyearly = { $productName } (6 mánuðir)
 upgrade-purchase-details-new-plan-yearly = { $productName } (árlega)
+
+## Page Metadata Information
+## $productTitle (String) - The name of the product to create subscription, e.g. Mozilla VPN
+
+
+## Coupon Error Messages
+
+
+##
+

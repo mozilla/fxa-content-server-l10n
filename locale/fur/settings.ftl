@@ -1627,6 +1627,9 @@ password-reset-recovery-method-code-info =
 # Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
 password-reset-recovery-method-send-code-error-heading = Al è vignût fûr un probleme tal mandâ il codiç al telefon pal recupar dal account
 password-reset-recovery-method-send-code-error-description = Torne prove plui indevant o dopre i tiei codiçs di autenticazion di backup.
+
+## ResetPasswordRecoveryPhone page
+
 reset-password-with-recovery-key-verified-page-title = Ripristinament password lât ben
 reset-password-complete-new-password-saved = Gnove password salvade!
 reset-password-complete-recovery-key-created = E je stade creade une gnove clâf di recupar dal account. Discjamile e salvile daurman.

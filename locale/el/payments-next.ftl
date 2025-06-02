@@ -226,6 +226,10 @@ upgrade-purchase-details-new-plan-monthly = { $productName } (Μηνιαία)
 upgrade-purchase-details-new-plan-halfyearly = { $productName } (εξαμηνιαίο)
 upgrade-purchase-details-new-plan-yearly = { $productName } (Ετησίως)
 upgrade-purchase-details-prorated-credits = Το αρνητικό υπόλοιπο που εμφανίζεται θα πιστωθεί στον λογαριασμό σας και θα χρησιμοποιηθεί σε μελλοντικά παραστατικά.
+
+## Page Metadata Information
+## $productTitle (String) - The name of the product to create subscription, e.g. Mozilla VPN
+
 # Checkout start
 metadata-title-checkout-start = Ολοκλήρωση αγοράς | { $productTitle }
 metadata-description-checkout-start = Εισαγάγετε τα στοιχεία πληρωμής σας για να ολοκληρώσετε την αγορά σας.
@@ -259,3 +263,9 @@ metadata-description-upgrade-needs-input = Ολοκληρώστε την απα�
 # Default
 metadata-title-default = Η σελίδα δεν βρέθηκε | { $productTitle }
 metadata-description-default = Η σελίδα που ζητήσατε δεν βρέθηκε.
+
+## Coupon Error Messages
+
+
+##
+

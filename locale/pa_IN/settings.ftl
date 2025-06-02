@@ -1455,6 +1455,9 @@ reset-password-confirmed-cta = { $serviceName } ਨਾਲ ਜਾਰੀ ਰੱਖ
 
 # password, and they previously had set up an account recovery method.
 
+
+## ResetPasswordRecoveryPhone page
+
 reset-password-with-recovery-key-verified-page-title = ਪਾਸਵਰਡ ਮੁੜ-ਸੈਟ ਕਰਨਾ ਕਾਮਯਾਬੀ ਰਿਹਾ
 reset-password-complete-new-password-saved = ਨਵਾਂ ਪਾਸਵਰਡ ਸੰਭਾਲਿਆ!
 reset-password-complete-recovery-key-created = ਨਵੀਂ ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਬਣਾਈ ਗਈ। ਇਸ ਨੂੰ ਹੁਣੇ ਡਾਊਨਲੋਡ ਕਰਕੇ ਸੰਭਾਲੋ।

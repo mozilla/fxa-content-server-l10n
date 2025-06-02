@@ -530,6 +530,9 @@ auth-error-1008 = آپ کا نیا پاس ورڈ مختلف ہونا چاہیئ�
 # password, and they previously had set up an account recovery method.
 
 
+## ResetPasswordRecoveryPhone page
+
+
 ## CompleteSignin component
 
 

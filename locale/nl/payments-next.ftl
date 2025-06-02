@@ -226,6 +226,10 @@ upgrade-purchase-details-new-plan-monthly = { $productName } (maandelijks)
 upgrade-purchase-details-new-plan-halfyearly = { $productName } (halfjaarlijks)
 upgrade-purchase-details-new-plan-yearly = { $productName } (jaarlijks)
 upgrade-purchase-details-prorated-credits = Het getoonde negatieve saldo wordt als tegoed op uw account bijgeschreven en gebruikt voor toekomstige facturen.
+
+## Page Metadata Information
+## $productTitle (String) - The name of the product to create subscription, e.g. Mozilla VPN
+
 # Checkout start
 metadata-title-checkout-start = Afrekenen | { $productTitle }
 metadata-description-checkout-start = Voer uw betalingsgegevens in om uw aankoop te voltooien.
@@ -259,3 +263,9 @@ metadata-description-upgrade-needs-input = Voltooi de benodigde actie om door te
 # Default
 metadata-title-default = Pagina niet gevonden | { $productTitle }
 metadata-description-default = De opgevraagde pagina is niet gevonden.
+
+## Coupon Error Messages
+
+
+##
+

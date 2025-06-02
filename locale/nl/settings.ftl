@@ -1633,6 +1633,9 @@ password-reset-recovery-method-code-info =
 # Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
 password-reset-recovery-method-send-code-error-heading = Er is een probleem opgetreden bij het verzenden van een code naar uw hersteltelefoonnummer
 password-reset-recovery-method-send-code-error-description = Probeer het later opnieuw of gebruik uw reserve-authenticatiecodes.
+
+## ResetPasswordRecoveryPhone page
+
 reset-password-with-recovery-key-verified-page-title = Wachtwoord met succes opnieuw ingesteld
 reset-password-complete-new-password-saved = Nieuw wachtwoord opgeslagen!
 reset-password-complete-recovery-key-created = Nieuwe accountherstelsleutel aangemaakt. Download en bewaar deze nu.

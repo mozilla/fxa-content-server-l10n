@@ -225,3 +225,13 @@ upgrade-purchase-details-new-plan-monthly = { $productName } (moanliks)
 upgrade-purchase-details-new-plan-halfyearly = { $productName } (6 moanliks)
 upgrade-purchase-details-new-plan-yearly = { $productName } (jierliks)
 upgrade-purchase-details-prorated-credits = It toande negative saldo wurdt as tegoed op jo account byskreaun en brûkt foar takomstige faktueren.
+
+## Page Metadata Information
+## $productTitle (String) - The name of the product to create subscription, e.g. Mozilla VPN
+
+
+## Coupon Error Messages
+
+
+##
+

@@ -196,3 +196,13 @@ upgrade-purchase-details-new-plan-weekly = { $productName } (апта сайын
 upgrade-purchase-details-new-plan-monthly = { $productName } (ай сайын)
 upgrade-purchase-details-new-plan-halfyearly = { $productName } (6 ай сайын)
 upgrade-purchase-details-new-plan-yearly = { $productName } (жыл сайын)
+
+## Page Metadata Information
+## $productTitle (String) - The name of the product to create subscription, e.g. Mozilla VPN
+
+
+## Coupon Error Messages
+
+
+##
+

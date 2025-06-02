@@ -1608,6 +1608,9 @@ password-reset-recovery-method-code-info =
 # Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
 password-reset-recovery-method-send-code-error-heading = Oiko apañuái emondóvo pe ayvu ne pumbyry jeguerujeyrãme
 password-reset-recovery-method-send-code-error-description = Eha’ã jey ag̃amieve térã eiporu nde ñemoneĩrã jeykekoha ayvu.
+
+## ResetPasswordRecoveryPhone page
+
 reset-password-with-recovery-key-verified-page-title = Ñe’ẽñemi jeguerujeypyre
 reset-password-complete-new-password-saved = ¡Ñe’ẽñemi pyahu ñongatupyre!
 reset-password-complete-recovery-key-created = Mba’ete mba’eñemi guerujeyrã moheñoimbyre. Emboguejy ha eñongatu.

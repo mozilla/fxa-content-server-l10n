@@ -226,6 +226,10 @@ upgrade-purchase-details-new-plan-monthly = { $productName } (měsíčně)
 upgrade-purchase-details-new-plan-halfyearly = { $productName } (6 měsíců)
 upgrade-purchase-details-new-plan-yearly = { $productName } (ročně)
 upgrade-purchase-details-prorated-credits = Zobrazený záporný zůstatek bude připsán ve prospěch vašeho účtu a bude použit k úhradě budoucích faktur.
+
+## Page Metadata Information
+## $productTitle (String) - The name of the product to create subscription, e.g. Mozilla VPN
+
 # Checkout start
 metadata-title-checkout-start = Pokladna | { $productTitle }
 metadata-description-checkout-start = Pro dokončení nákupu zadejte své platební údaje.
@@ -259,3 +263,9 @@ metadata-description-upgrade-needs-input = Pro dokončení platby prosím dokon�
 # Default
 metadata-title-default = Stránka nebyla nalezena | { $productTitle }
 metadata-description-default = Požadovaná stránka nebyla nalezena.
+
+## Coupon Error Messages
+
+
+##
+

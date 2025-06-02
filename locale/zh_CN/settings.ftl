@@ -1606,6 +1606,9 @@ password-reset-recovery-method-code-info = 剩余 { $numBackupCodes } 个验证�
 # Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
 password-reset-recovery-method-send-code-error-heading = 向恢复电话号码发送验证码时出现问题
 password-reset-recovery-method-send-code-error-description = 请稍后再试，或改用备用验证码。
+
+## ResetPasswordRecoveryPhone page
+
 reset-password-with-recovery-key-verified-page-title = 密码重置成功
 reset-password-complete-new-password-saved = 已保存新密码！
 reset-password-complete-recovery-key-created = 已创建新的账户恢复密钥，请立即下载并存储。

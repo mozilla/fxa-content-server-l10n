@@ -1595,6 +1595,9 @@ reset-password-confirmed-cta = Halda áfram í { $serviceName }
 
 # password, and they previously had set up an account recovery method.
 
+
+## ResetPasswordRecoveryPhone page
+
 reset-password-with-recovery-key-verified-page-title = Endurstilling lykilorðs tókst
 reset-password-complete-new-password-saved = Nýtt lykilorð vistað!
 reset-password-complete-recovery-key-created = Nýr endurheimtulykill reiknings búinn til - Sæktu hann núna og geymdu vel.

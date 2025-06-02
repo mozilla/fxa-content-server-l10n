@@ -1479,6 +1479,9 @@ reset-password-confirmed-cta = ดำเนินการต่อไปยั�
 
 # password, and they previously had set up an account recovery method.
 
+
+## ResetPasswordRecoveryPhone page
+
 reset-password-with-recovery-key-verified-page-title = ตั้งรหัสผ่านใหม่สำเร็จแล้ว
 reset-password-complete-new-password-saved = บันทึกรหัสผ่านใหม่แล้ว!
 reset-password-complete-recovery-key-created = สร้างคีย์กู้คืนบัญชีใหม่แล้ว กรุณาดาวน์โหลดและจัดเก็บคีย์นี้ทันที

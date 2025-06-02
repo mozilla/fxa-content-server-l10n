@@ -1504,6 +1504,9 @@ reset-password-confirmed-cta = { $serviceName } қызметіне жалғас�
 
 # password, and they previously had set up an account recovery method.
 
+
+## ResetPasswordRecoveryPhone page
+
 reset-password-with-recovery-key-verified-page-title = Пароль тастау сәтті аяқталды
 reset-password-complete-new-password-saved = Жаңа пароль сақталды!
 reset-password-complete-recovery-key-created = Тіркелгіні қалпына келтірудің жаңа кілті жасалды. Оны қазір жүктеп алыңыз және сақтаңыз.

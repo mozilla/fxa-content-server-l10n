@@ -999,6 +999,9 @@ reset-password-complete-header = Ниҳонвожаи шумо аз нав ба�
 
 # password, and they previously had set up an account recovery method.
 
+
+## ResetPasswordRecoveryPhone page
+
 reset-password-with-recovery-key-verified-page-title = Ниҳонвожа бо муваффақият аз нав танзим карда шуд
 reset-password-complete-new-password-saved = Ниҳонвожаи нав нигоҳ дошта шуд!
 

@@ -1574,6 +1574,9 @@ reset-password-confirmed-cta = Continuar para { $serviceName }
 
 # password, and they previously had set up an account recovery method.
 
+
+## ResetPasswordRecoveryPhone page
+
 reset-password-with-recovery-key-verified-page-title = Senha redefinida com sucesso
 reset-password-complete-new-password-saved = Nova senha salva!
 reset-password-complete-recovery-key-created = Criada nova chave de recuperação de conta. Baixe e guarde agora mesmo.

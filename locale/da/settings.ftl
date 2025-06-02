@@ -1625,6 +1625,9 @@ password-reset-recovery-method-code-info =
 # Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
 password-reset-recovery-method-send-code-error-heading = Der opstod et problem under afsendelse af en kode til dit telefonnummer til genoprettelse
 password-reset-recovery-method-send-code-error-description = Prøv igen senere eller brug dine reserve-godkendelseskoder.
+
+## ResetPasswordRecoveryPhone page
+
 reset-password-with-recovery-key-verified-page-title = Adgangskoden er blevet nulstillet
 reset-password-complete-new-password-saved = Ny adgangskode gemt!
 reset-password-complete-recovery-key-created = Ny genoprettelsesnøgle til kontoen oprettet. Hent og gem den nu.

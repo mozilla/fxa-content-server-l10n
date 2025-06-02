@@ -1522,6 +1522,9 @@ password-reset-recovery-method-code-info =
         [one] { $numBackupCodes } koodi jäljellä
        *[other] { $numBackupCodes } koodia jäljellä
     }
+
+## ResetPasswordRecoveryPhone page
+
 reset-password-with-recovery-key-verified-page-title = Salasanan nollaus onnistui
 reset-password-complete-new-password-saved = Uusi salasana tallennettu!
 reset-password-complete-recovery-key-created = Uusi tilin palautusavain luotu. Lataa ja tallenna se nyt.

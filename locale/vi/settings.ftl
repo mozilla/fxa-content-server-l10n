@@ -1618,6 +1618,9 @@ password-reset-recovery-method-code-info = { $numBackupCodes } còn lại
 # Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
 password-reset-recovery-method-send-code-error-heading = Có sự cố khi gửi mã đến số điện thoại khôi phục của bạn
 password-reset-recovery-method-send-code-error-description = Vui lòng thử lại sau hoặc sử dụng mã xác thực dự phòng của bạn.
+
+## ResetPasswordRecoveryPhone page
+
 reset-password-with-recovery-key-verified-page-title = Đặt lại mật khẩu thành công
 reset-password-complete-new-password-saved = Đã đặt mật khẩu mới!
 reset-password-complete-recovery-key-created = Đã tạo khóa khôi phục tài khoản mới. Tải xuống và lưu trữ ngay bây giờ.

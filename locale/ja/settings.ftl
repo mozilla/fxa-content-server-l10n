@@ -1419,6 +1419,9 @@ reset-password-confirmed-cta = { $serviceName } へ進む
 
 # password, and they previously had set up an account recovery method.
 
+
+## ResetPasswordRecoveryPhone page
+
 reset-password-with-recovery-key-verified-page-title = パスワードのリセットが完了しました
 
 ## CompleteSignin component

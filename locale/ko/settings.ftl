@@ -1601,6 +1601,9 @@ password-reset-recovery-method-code = 백업 인증 코드
 # Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
 password-reset-recovery-method-code-info = 남은 코드 { $numBackupCodes }개
 password-reset-recovery-method-send-code-error-description = 나중에 다시 시도하시거나 백업 인증 코드를 사용해 주세요.
+
+## ResetPasswordRecoveryPhone page
+
 reset-password-with-recovery-key-verified-page-title = 비밀번호 재설정 성공
 reset-password-complete-new-password-saved = 새 비밀번호 저장됨!
 reset-password-complete-recovery-key-created = 새로운 계정 복구 키가 생성되었습니다. 지금 다운로드하고 저장하세요.

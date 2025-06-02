@@ -226,3 +226,13 @@ upgrade-purchase-details-new-plan-weekly = { $productName } (E përjavshme)
 upgrade-purchase-details-new-plan-monthly = { $productName } (E përmuajshme)
 upgrade-purchase-details-new-plan-halfyearly = { $productName } (6-muaj)
 upgrade-purchase-details-new-plan-yearly = { $productName } (E përvitshme)
+
+## Page Metadata Information
+## $productTitle (String) - The name of the product to create subscription, e.g. Mozilla VPN
+
+
+## Coupon Error Messages
+
+
+##
+

@@ -1267,6 +1267,9 @@ reset-password-complete-header = Ваш пароль быў скінуты
 
 # password, and they previously had set up an account recovery method.
 
+
+## ResetPasswordRecoveryPhone page
+
 reset-password-with-recovery-key-verified-page-title = Пароль паспяхова скінуты
 
 ## CompleteSignin component

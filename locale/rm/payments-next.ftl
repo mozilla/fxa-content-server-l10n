@@ -208,3 +208,13 @@ upgrade-purchase-details-new-plan-weekly = { $productName } (emnil)
 upgrade-purchase-details-new-plan-monthly = { $productName } (mensil)
 upgrade-purchase-details-new-plan-halfyearly = { $productName } (mintga 6 mais)
 upgrade-purchase-details-new-plan-yearly = { $productName } (annual)
+
+## Page Metadata Information
+## $productTitle (String) - The name of the product to create subscription, e.g. Mozilla VPN
+
+
+## Coupon Error Messages
+
+
+##
+

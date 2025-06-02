@@ -582,6 +582,9 @@ auth-error-1008 = Noua ta parolă trebuie să fie diferită
 # password, and they previously had set up an account recovery method.
 
 
+## ResetPasswordRecoveryPhone page
+
+
 ## CompleteSignin component
 
 

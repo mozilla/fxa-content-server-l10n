@@ -1601,6 +1601,9 @@ reset-password-confirmed-cta = Cuntinuar vers { $serviceName }
 
 # password, and they previously had set up an account recovery method.
 
+
+## ResetPasswordRecoveryPhone page
+
 reset-password-with-recovery-key-verified-page-title = Reinizialisà cun success il pled-clav
 reset-password-complete-new-password-saved = Memorisà il nov pled-clav!
 reset-password-complete-recovery-key-created = Creà ina nova clav da recuperaziun dal conto. Telechargia ussa la clav e la tegna en salv.

@@ -1119,6 +1119,9 @@ reset-password-complete-header = Awla inek uffir yettuwennez
 
 # password, and they previously had set up an account recovery method.
 
+
+## ResetPasswordRecoveryPhone page
+
 reset-password-with-recovery-key-verified-page-title = Awal uffir yettuwennez akken iwata
 
 ## CompleteSignin component

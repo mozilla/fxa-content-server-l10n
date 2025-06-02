@@ -538,6 +538,9 @@ auth-error-1008 = Feumaidh am facal-faire ùr a bhith eadar-dhealaichte
 # password, and they previously had set up an account recovery method.
 
 
+## ResetPasswordRecoveryPhone page
+
+
 ## CompleteSignin component
 
 

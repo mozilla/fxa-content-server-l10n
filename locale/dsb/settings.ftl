@@ -1631,6 +1631,9 @@ password-reset-recovery-method-code-info =
 # Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
 password-reset-recovery-method-send-code-error-heading = Pśi słanju koda na waš wótnowjeński telefon jo problem nastał
 password-reset-recovery-method-send-code-error-description = Pšosym wopytajśo pózdźej hyšći raz abo wužywajśo swóje awtentifikaciske kody za zawěsćenje.
+
+## ResetPasswordRecoveryPhone page
+
 reset-password-with-recovery-key-verified-page-title = Gronidło jo se wuspěšnje slědk stajiło
 reset-password-complete-new-password-saved = Nowe gronidło jo se składło!
 reset-password-complete-recovery-key-created = Nowy kontowy wótnowjeński kluc jo se napórał. Ześěgniśo a składujśo jen něnto.

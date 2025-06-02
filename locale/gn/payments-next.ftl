@@ -220,6 +220,10 @@ upgrade-purchase-details-new-plan-weekly = { $productName } (Arapokõindygua)
 upgrade-purchase-details-new-plan-monthly = { $productName } (Jasygua)
 upgrade-purchase-details-new-plan-halfyearly = { $productName } (6 jasygua)
 upgrade-purchase-details-new-plan-yearly = { $productName } (Arygua)
+
+## Page Metadata Information
+## $productTitle (String) - The name of the product to create subscription, e.g. Mozilla VPN
+
 # Checkout start
 metadata-title-checkout-start = Ehechajey | { $productTitle }
 # Checkout processing
@@ -244,3 +248,9 @@ metadata-title-upgrade-success = Osẽporã | { $productTitle }
 metadata-title-upgrade-needs-input = Tembiapo ojeruréva | { $productTitle }
 # Default
 metadata-title-default = Kuatiarogue ojejuhu’ỹva | { $productTitle }
+
+## Coupon Error Messages
+
+
+##
+

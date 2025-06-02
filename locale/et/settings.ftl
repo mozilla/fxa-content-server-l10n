@@ -753,6 +753,9 @@ pair-supp-allow-cancel-link = Loobu
 
 # password, and they previously had set up an account recovery method.
 
+
+## ResetPasswordRecoveryPhone page
+
 reset-password-complete-recovery-key-created = Uus konto taastevõti on loodud. Laadi see kohe alla ja salvesta.
 
 ## CompleteSignin component

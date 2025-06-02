@@ -226,6 +226,10 @@ upgrade-purchase-details-new-plan-monthly = { $productName } ( Misol)
 upgrade-purchase-details-new-plan-halfyearly = { $productName } (6-mis)
 upgrade-purchase-details-new-plan-yearly = { $productName } (Blynyddol)
 upgrade-purchase-details-prorated-credits = Bydd y balans negyddol sy'n cael ei ddangos yn cael ei osod fel credydau i'ch cyfrif a'i ddefnyddio tuag at anfonebau yn y dyfodol.
+
+## Page Metadata Information
+## $productTitle (String) - The name of the product to create subscription, e.g. Mozilla VPN
+
 # Checkout start
 metadata-title-checkout-start = Desg dalu | { $productTitle }
 metadata-description-checkout-start = Rhowch eich manylion talu i gwblhau eich pryniant.
@@ -259,3 +263,9 @@ metadata-description-upgrade-needs-input = Cwblhewch y camau gofynnol i barhau Ã
 # Default
 metadata-title-default = Tudalen heb ei chanfod | { $productTitle }
 metadata-description-default = Ni chanfuwyd y dudalen y gofynnoch amdani.
+
+## Coupon Error Messages
+
+
+##
+

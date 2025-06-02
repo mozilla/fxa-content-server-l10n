@@ -1594,6 +1594,9 @@ reset-password-confirmed-cta = Vazhdoni te { $serviceName }
 
 # password, and they previously had set up an account recovery method.
 
+
+## ResetPasswordRecoveryPhone page
+
 reset-password-with-recovery-key-verified-page-title = Fjalëkalimi u ricaktua me sukses
 reset-password-complete-new-password-saved = Fjalëkalimi i ri u ruajt!
 reset-password-complete-recovery-key-created = U krijua kyç i ri rimarrjeje llogarie. Tani shkarkojeni dhe depozitojeni.

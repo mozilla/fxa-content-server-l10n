@@ -226,6 +226,10 @@ upgrade-purchase-details-new-plan-monthly = { $productName } (ежемесячн
 upgrade-purchase-details-new-plan-halfyearly = { $productName } (каждые полгода)
 upgrade-purchase-details-new-plan-yearly = { $productName } (ежегодно)
 upgrade-purchase-details-prorated-credits = Указанный отрицательный баланс будет зачислен на ваш счёт в виде кредитов и использован для оплаты будущих счетов.
+
+## Page Metadata Information
+## $productTitle (String) - The name of the product to create subscription, e.g. Mozilla VPN
+
 # Checkout start
 metadata-title-checkout-start = Оплатить | { $productTitle }
 metadata-description-checkout-start = Введите ваши платежные реквизиты, чтобы завершить покупку.
@@ -259,3 +263,9 @@ metadata-description-upgrade-needs-input = Пожалуйста, выполни�
 # Default
 metadata-title-default = Страница не найдена | { $productTitle }
 metadata-description-default = Запрошенная вами страница не найдена.
+
+## Coupon Error Messages
+
+
+##
+

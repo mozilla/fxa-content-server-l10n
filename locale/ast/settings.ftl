@@ -513,6 +513,9 @@ auth-error-1008 = La contraseña nueva ha ser diferente
 # password, and they previously had set up an account recovery method.
 
 
+## ResetPasswordRecoveryPhone page
+
+
 ## CompleteSignin component
 
 

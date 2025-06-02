@@ -1628,6 +1628,9 @@ password-reset-recovery-method-code-info =
 # Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
 password-reset-recovery-method-send-code-error-heading = Під час надсилання коду на ваш телефон для відновлення виникла проблема
 password-reset-recovery-method-send-code-error-description = Повторіть спробу пізніше або скористайтеся резервними кодами автентифікації.
+
+## ResetPasswordRecoveryPhone page
+
 reset-password-with-recovery-key-verified-page-title = Пароль успішно відновлено
 reset-password-complete-new-password-saved = Новий пароль збережено!
 reset-password-complete-recovery-key-created = Створено новий ключ відновлення облікового запису. Завантажте та збережіть його зараз.

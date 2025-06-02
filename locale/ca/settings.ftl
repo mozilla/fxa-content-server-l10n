@@ -613,6 +613,9 @@ pair-not-now-button = Ara no
 # password, and they previously had set up an account recovery method.
 
 
+## ResetPasswordRecoveryPhone page
+
+
 ## CompleteSignin component
 
 

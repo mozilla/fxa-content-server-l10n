@@ -225,3 +225,13 @@ upgrade-purchase-details-new-plan-monthly = { $productName } (Hàng tháng)
 upgrade-purchase-details-new-plan-halfyearly = { $productName } (6 tháng)
 upgrade-purchase-details-new-plan-yearly = { $productName } (Hàng năm)
 upgrade-purchase-details-prorated-credits = Số dư âm được hiển thị sẽ được coi là khoản tiền được ghi vào tài khoản của bạn và sẽ được dùng để thanh toán các hóa đơn sau này.
+
+## Page Metadata Information
+## $productTitle (String) - The name of the product to create subscription, e.g. Mozilla VPN
+
+
+## Coupon Error Messages
+
+
+##
+

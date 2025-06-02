@@ -226,6 +226,10 @@ upgrade-purchase-details-new-plan-monthly = { $productName } (mesečno)
 upgrade-purchase-details-new-plan-halfyearly = { $productName } (na 6 mesecev)
 upgrade-purchase-details-new-plan-yearly = { $productName } (letno)
 upgrade-purchase-details-prorated-credits = Prikazano negativno stanje bo knjiženo v dobroimetje na vašem računu in uporabljeno za prihodnje račune.
+
+## Page Metadata Information
+## $productTitle (String) - The name of the product to create subscription, e.g. Mozilla VPN
+
 # Checkout start
 metadata-title-checkout-start = Na blagajni | { $productTitle }
 metadata-description-checkout-start = Za dokončanje nakupa vnesite podatke za plačilo.
@@ -259,3 +263,9 @@ metadata-description-upgrade-needs-input = Izvedite zahtevano dejanje za nadalje
 # Default
 metadata-title-default = Strani ni bilo mogoče najti | { $productTitle }
 metadata-description-default = Zahtevane strani ni bilo mogoče najti.
+
+## Coupon Error Messages
+
+
+##
+

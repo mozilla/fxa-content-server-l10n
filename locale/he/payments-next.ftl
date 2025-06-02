@@ -218,6 +218,10 @@ upgrade-purchase-details-new-plan-monthly = ‏{ $productName } (חודשי)
 upgrade-purchase-details-new-plan-halfyearly = ‏{ $productName } (6 חודשים)
 upgrade-purchase-details-new-plan-yearly = ‏{ $productName } (שנתי)
 upgrade-purchase-details-prorated-credits = יתרה שלילית המוצגת תחול כזיכוי בחשבון שלך ותשמש לחשבוניות עתידיות.
+
+## Page Metadata Information
+## $productTitle (String) - The name of the product to create subscription, e.g. Mozilla VPN
+
 # Checkout start
 metadata-title-checkout-start = קופה | { $productTitle }
 metadata-description-checkout-start = נא להכניס את פרטי התשלום שלך כדי להשלים את הרכישה.
@@ -251,3 +255,9 @@ metadata-description-upgrade-needs-input = נא להשלים את הפעולה �
 # Default
 metadata-title-default = הדף לא נמצא | { $productTitle }
 metadata-description-default = הדף שביקשת לא נמצא.
+
+## Coupon Error Messages
+
+
+##
+

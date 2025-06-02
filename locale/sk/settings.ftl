@@ -1628,6 +1628,9 @@ password-reset-recovery-method-code-info =
 # Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
 password-reset-recovery-method-send-code-error-heading = Pri odosielaní kódu na váš telefón na obnovenie sa vyskytol problém
 password-reset-recovery-method-send-code-error-description = Skúste to znova neskôr alebo použite záložné overovacie kódy.
+
+## ResetPasswordRecoveryPhone page
+
 reset-password-with-recovery-key-verified-page-title = Zmena hesla bolo úspešná
 reset-password-complete-new-password-saved = Nové heslo bolo uložené!
 reset-password-complete-recovery-key-created = Bol vytvorený nový kľúč na obnovenie účtu. Stiahnite si ho a uložte teraz.

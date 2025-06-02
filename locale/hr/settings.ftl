@@ -1311,6 +1311,9 @@ reset-password-complete-header = Tvoja je lozinka resetirana
 
 # password, and they previously had set up an account recovery method.
 
+
+## ResetPasswordRecoveryPhone page
+
 reset-password-with-recovery-key-verified-page-title = Resetiranje lozinke je uspjelo
 reset-password-complete-new-password-saved = Nova lozinka je spremljena!
 

@@ -226,6 +226,10 @@ upgrade-purchase-details-new-plan-monthly = { $productName } (al mês)
 upgrade-purchase-details-new-plan-halfyearly = { $productName } (6 mês)
 upgrade-purchase-details-new-plan-yearly = { $productName } (al an)
 upgrade-purchase-details-prorated-credits = Il salt negatîf mostrât al vignarà aplicât tant che credit sul to account e al vignarà doprât pes prossimis faturis.
+
+## Page Metadata Information
+## $productTitle (String) - The name of the product to create subscription, e.g. Mozilla VPN
+
 # Checkout start
 metadata-title-checkout-start = Compre | { $productTitle }
 metadata-description-checkout-start = Inserìs i dâts pal paiament par completâ l'acuist.
@@ -259,3 +263,9 @@ metadata-description-upgrade-needs-input = Complete la azion domandade par lâ i
 # Default
 metadata-title-default = Pagjine no cjatade | { $productTitle }
 metadata-description-default = La pagjine domandade no je stade cjatade.
+
+## Coupon Error Messages
+
+
+##
+

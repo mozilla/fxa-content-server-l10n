@@ -226,6 +226,10 @@ upgrade-purchase-details-new-plan-monthly = { $productName } (månadsvis)
 upgrade-purchase-details-new-plan-halfyearly = { $productName } (6 månader)
 upgrade-purchase-details-new-plan-yearly = { $productName } (årligen)
 upgrade-purchase-details-prorated-credits = Negativt saldo som visas kommer att krediteras ditt konto och användas för framtida fakturor.
+
+## Page Metadata Information
+## $productTitle (String) - The name of the product to create subscription, e.g. Mozilla VPN
+
 # Checkout start
 metadata-title-checkout-start = Köp | { $productTitle }
 metadata-description-checkout-start = Ange dina betalningsuppgifter för att slutföra ditt köp.
@@ -259,3 +263,9 @@ metadata-description-upgrade-needs-input = Slutför nödvändiga åtgärder för
 # Default
 metadata-title-default = Sidan hittades inte | { $productTitle }
 metadata-description-default = Sidan du begärde hittades inte.
+
+## Coupon Error Messages
+
+
+##
+

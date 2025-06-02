@@ -228,6 +228,10 @@ upgrade-purchase-details-new-plan-monthly = { $productName } (havi)
 upgrade-purchase-details-new-plan-halfyearly = { $productName } (6 hónapos)
 upgrade-purchase-details-new-plan-yearly = { $productName } (évi)
 upgrade-purchase-details-prorated-credits = A megjelenített negatív egyenleg jóváírásként jelenik meg, és a jövőbeni számlákra lesz használva.
+
+## Page Metadata Information
+## $productTitle (String) - The name of the product to create subscription, e.g. Mozilla VPN
+
 # Checkout start
 metadata-title-checkout-start = Kijelentkezés | { $productTitle }
 metadata-description-checkout-start = A vásárlás befejezéséhez adja meg a fizetési adatait.
@@ -261,3 +265,9 @@ metadata-description-upgrade-needs-input = Végezze el a szükséges műveletet 
 # Default
 metadata-title-default = Az oldal nem található | { $productTitle }
 metadata-description-default = A kért oldal nem található.
+
+## Coupon Error Messages
+
+
+##
+

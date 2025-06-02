@@ -212,6 +212,10 @@ upgrade-purchase-details-new-plan-daily = { $productName } (päivittäin)
 upgrade-purchase-details-new-plan-weekly = { $productName } (viikoittain)
 upgrade-purchase-details-new-plan-monthly = { $productName } (kuukausittain)
 upgrade-purchase-details-new-plan-yearly = { $productName } (vuosittain)
+
+## Page Metadata Information
+## $productTitle (String) - The name of the product to create subscription, e.g. Mozilla VPN
+
 # Checkout start
 metadata-title-checkout-start = Kassa | { $productTitle }
 # Checkout processing
@@ -233,3 +237,9 @@ metadata-title-upgrade-needs-input = Toimenpiteitä vaaditaan | { $productTitle 
 # Default
 metadata-title-default = Sivua ei löytynyt | { $productTitle }
 metadata-description-default = Pyytämääsi sivua ei löytynyt.
+
+## Coupon Error Messages
+
+
+##
+

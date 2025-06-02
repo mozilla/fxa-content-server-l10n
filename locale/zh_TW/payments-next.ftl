@@ -226,6 +226,10 @@ upgrade-purchase-details-new-plan-monthly = { $productName }（每月收費）
 upgrade-purchase-details-new-plan-halfyearly = { $productName }（每 6 個月收費）
 upgrade-purchase-details-new-plan-yearly = { $productName }（每年收費）
 upgrade-purchase-details-prorated-credits = 下方的負值將轉為您帳號中的儲值餘額，並在後續付款時折抵。
+
+## Page Metadata Information
+## $productTitle (String) - The name of the product to create subscription, e.g. Mozilla VPN
+
 # Checkout start
 metadata-title-checkout-start = 結帳 | { $productTitle }
 metadata-description-checkout-start = 請輸入您的詳細付款資訊完成購買。
@@ -259,3 +263,9 @@ metadata-description-upgrade-needs-input = 請完成要求的操作，以繼續�
 # Default
 metadata-title-default = 找不到頁面 | { $productTitle }
 metadata-description-default = 找不到您要求的頁面。
+
+## Coupon Error Messages
+
+
+##
+

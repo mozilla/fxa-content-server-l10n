@@ -531,6 +531,9 @@ auth-totp-heading-w-custom-service = Skriv inn verifiseringskoden <span>for å f
 # password, and they previously had set up an account recovery method.
 
 
+## ResetPasswordRecoveryPhone page
+
+
 ## CompleteSignin component
 
 

@@ -1092,6 +1092,9 @@ reset-password-confirmed-cta = { $serviceName } хезмәтенә күчү
 
 # password, and they previously had set up an account recovery method.
 
+
+## ResetPasswordRecoveryPhone page
+
 reset-password-with-recovery-key-verified-page-title = Серзүз уңышлы ташлатылды
 reset-password-complete-new-password-saved = Яңа серсүз сакланды!
 

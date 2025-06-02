@@ -220,3 +220,13 @@ upgrade-purchase-details-new-plan-weekly = { $productName } (kvar veke)
 upgrade-purchase-details-new-plan-monthly = { $productName } (kvar månad)
 upgrade-purchase-details-new-plan-halfyearly = { $productName } (6 månadar)
 upgrade-purchase-details-new-plan-yearly = { $productName } (kvart år)
+
+## Page Metadata Information
+## $productTitle (String) - The name of the product to create subscription, e.g. Mozilla VPN
+
+
+## Coupon Error Messages
+
+
+##
+

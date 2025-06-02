@@ -584,6 +584,9 @@ avatar-page-delete-error-3 = Houbo un problema ao borrar a túa foto de perfil.
 # password, and they previously had set up an account recovery method.
 
 
+## ResetPasswordRecoveryPhone page
+
+
 ## CompleteSignin component
 
 

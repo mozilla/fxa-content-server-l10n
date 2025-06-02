@@ -405,6 +405,9 @@ auth-error-155 = Token TOTP teu kapanggih
 # password, and they previously had set up an account recovery method.
 
 
+## ResetPasswordRecoveryPhone page
+
+
 ## CompleteSignin component
 
 

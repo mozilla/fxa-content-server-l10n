@@ -895,6 +895,9 @@ reset-password-confirmed-cta = { $serviceName }-ലോട്ടു് തുട�
 # password, and they previously had set up an account recovery method.
 
 
+## ResetPasswordRecoveryPhone page
+
+
 ## CompleteSignin component
 
 # This is a label that precedes any error which could arise from trying to validate the user's signin
