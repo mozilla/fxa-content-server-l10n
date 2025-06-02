@@ -225,3 +225,6 @@ upgrade-purchase-details-new-plan-monthly = { $productName }（月付）
 upgrade-purchase-details-new-plan-halfyearly = { $productName }（半年付）
 upgrade-purchase-details-new-plan-yearly = { $productName }（年付）
 upgrade-purchase-details-prorated-credits = 此处显示的溢余款项将以余额形式返还至您的账户，并将于以后付款时抵用。
+# Default
+metadata-title-default = 找不到页面 | { $productTitle }
+metadata-description-default = 找不到您请求的页面。

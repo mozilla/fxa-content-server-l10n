@@ -402,6 +402,10 @@ account-recovery-notification-header-value = No sta pierdi i tiei dâts se tu di
 account-recovery-notification-header-description = Cree une clâf di recupar dal account par ripristinâ i tiei dâts di navigazion sincronizâts tal câs che tu ti dismenteis la password.
 recovery-phone-promo-cta = Zonte telefon pal recupar dal account
 recovery-phone-promo-heading = Zonte une protezion in plui al to account cul telefon pal recupar dal account
+recovery-phone-promo-description = Cumò tu puedis jentrâ cuntune password a utilizazion ugnule vie SMS se no tu rivis a doprâ la tô aplicazion di autenticazion in doi passaçs.
+recovery-phone-promo-info-link = Altris informazions sul recupar e sui risis leâts al "scambi SIM"
+promo-banner-dismiss-button =
+    .aria-label = Siere strisson
 
 ## Ready component
 
@@ -638,6 +642,7 @@ flow-setup-phone-confirm-code-expired = Codiç scjadût?
 flow-setup-phone-confirm-code-resend-code-button = Torne mande il codiç
 flow-setup-phone-confirm-code-resend-code-success = Codiç mandât
 flow-setup-phone-confirm-code-success-message-v2 = Zontât telefon pal recupar dal account
+flow-change-phone-confirm-code-success-message = Telefon pal recupar dal account cambiât
 
 ## FlowSetupPhoneConfirmCode
 
@@ -855,6 +860,9 @@ recent-activity-account-recovery-phone-removed = Il numar di telefon pal recupar
 recent-activity-account-recovery-codes-replaced = Codiçs di recupar sostituîts
 recent-activity-account-recovery-codes-created = Codiçs di recupar creâts
 recent-activity-account-recovery-codes-signin-complete = L’acès cui codiçs di recupar al è stât completât
+recent-activity-password-reset-otp-sent = Inviât codiç di conferme par ristabilî la password
+recent-activity-password-reset-otp-verified = Verificât codiç di conferme par ristabilî la password
+recent-activity-must-reset-password = Necessari ristabilî la password
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Altris ativitâts dal account
 
@@ -883,6 +891,7 @@ settings-recovery-phone-remove-success = Il numar di telefon pal recupar dal acc
 ## PageSetupRecoveryPhone
 
 page-setup-recovery-phone-heading = Zonte numar di telefon di recupar
+page-change-recovery-phone = Cambie telefon pal recupar dal account
 page-setup-recovery-phone-back-button-title = Torne aes impostazions
 # Back arrow to return to step 1 of recovery phone setup flow
 page-setup-recovery-phone-step2-back-button-title = Cambie numar di telefon
@@ -1197,6 +1206,7 @@ auth-error-114-generic = Tu âs provât masse voltis. Torne prove plui tart.
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Tu âs provât masse voltis. Torne prove { $retryAfter }.
 auth-error-125 = La richieste e je stade blocade par motîfs di sigurece
+auth-error-129-2 = Tu âs inserît un numar di telefon che nol è valit. Controlilu e torne prove.
 auth-error-138-2 = Session no confermade
 auth-error-139 = La e-mail secondarie e à di sei diferente di chê principâl dal to account
 auth-error-155 = Gjeton TOTP no cjatât
@@ -1546,6 +1556,12 @@ complete-reset-password-desktop-relay = Dopo fat l'acès, { -brand-firefox } al 
 
 # ConfirmBackupCodeResetPassword page
 
+confirm-backup-code-reset-password-input-label = Inserìs il codiç di 10 caratars
+confirm-backup-code-reset-password-confirm-button = Conferme
+confirm-backup-code-reset-password-subheader = Inserìs il codiç di autenticazion di backup
+confirm-backup-code-reset-password-instruction = Inserìs un dai codiçs ad ûs singul che tu âs salvât cuant che tu âs configurade la autenticazion in doi passaçs.
+# Link out to support article: https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+confirm-backup-code-reset-password-locked-out-link = Sêstu taiât/taiade fûr da to account?
 
 ## Confirm Reset Password With Code
 
@@ -1596,6 +1612,21 @@ reset-password-confirmed-cta = Continue su { $serviceName }
 
 # password, and they previously had set up an account recovery method.
 
+password-reset-recovery-method-header = Ristabilìs la tô password
+password-reset-recovery-method-subheader = Sielç un metodi di recupar
+# This is displayed to the user when they are choosing an alternative method to authenticate themself in the password reset process when they do not have access to their two-factor authenticator application
+password-reset-recovery-method-details = Controlìn la tô identitât prime di doprâ i metodis di recupar sielts.
+password-reset-recovery-method-phone = Telefon pal recupar dal account
+password-reset-recovery-method-code = Codiçs di autenticazion di backup
+# Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
+password-reset-recovery-method-code-info =
+    { $numBackupCodes ->
+        [one] al reste { $numBackupCodes } codiç
+       *[other] a restin { $numBackupCodes } codiçs
+    }
+# Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
+password-reset-recovery-method-send-code-error-heading = Al è vignût fûr un probleme tal mandâ il codiç al telefon pal recupar dal account
+password-reset-recovery-method-send-code-error-description = Torne prove plui indevant o dopre i tiei codiçs di autenticazion di backup.
 reset-password-with-recovery-key-verified-page-title = Ripristinament password lât ben
 reset-password-complete-new-password-saved = Gnove password salvade!
 reset-password-complete-recovery-key-created = E je stade creade une gnove clâf di recupar dal account. Discjamile e salvile daurman.
@@ -1757,6 +1788,8 @@ signin-reported-message = Il nestri grup al è stât visât. Lis segnalazions co
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 signin-token-code-heading-2 = Inserìs il codiç di conferme <span>pal to { -product-mozilla-account }</span>
+# { $email } represents the email that the user entered to sign in
+signin-token-code-instruction-v2 = Inserìs dentri di 5 minûts il codiç che al è stât mandât a <email>{ $email }</email>.
 signin-token-code-input-label-v2 = Inserìs il codiç a 6 cifris
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Conferme
@@ -1821,6 +1854,8 @@ confirm-signup-code-page-title = Inserìs il codiç di conferme
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 confirm-signup-code-heading-2 = Inserìs il codiç di conferme <span>pal to { -product-mozilla-account }</span>
+# { $email } represents the email that the user entered to sign in
+confirm-signup-code-instruction-v2 = Inserìs dentri di 5 minûts il codiç che al è stât mandât a <email>{ $email }</email>.
 confirm-signup-code-input-label = Inserìs il codiç a 6 cifris
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = Conferme
