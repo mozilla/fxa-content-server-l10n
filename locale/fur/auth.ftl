@@ -678,6 +678,10 @@ subscriptionUpgrade-upgrade-info-2 = L'inzornament a { $productName } al è stâ
 ## $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
+subscriptionUpgrade-content-charge-prorated = Ti je stade adebitade une comission "una tantum" di { $paymentProrated } par rifleti il presit plui alt dal to abonament pal periodi di faturazion che al reste ({ $productPaymentCycleOld }).
+# Variables:
+# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-existing = Se un dai tiei abonaments esistents si sorepon cun chest inzornament, lu tratarìn e ti inviarìn une e-mail separade cui detais. Se il to gnûf plan al inclût prodots di instalâ, ti mandarìn une e-mail separade cu lis istruzions pe instalazion.
 subscriptionUpgrade-auto-renew = Il to abonament si rinovarà in automatic a ogni periodi di faturazion, gjavant il câs che no tu decidis di anulâlu.
 unblockCode-subject = Codiç di autorizazion pal account
 unblockCode-title = Sêstu tu a jentrâ?
