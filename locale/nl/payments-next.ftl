@@ -27,6 +27,7 @@ checkout-error-boundary-basic-error-message = Er is iets misgegaan. Probeer het 
 ## Common strings used in multiple pages
 
 next-payment-error-manage-subscription-button = Mijn abonnement beheren
+next-iap-blocked-contact-support = U hebt een mobiel in-app-abonnement dat conflicteert met dit product – neem contact op met de ondersteuningsafdeling zodat we u kunnen helpen.
 next-payment-error-retry-button = Opnieuw proberen
 next-basic-error-message = Er is iets misgegaan. Probeer het later opnieuw.
 checkout-error-contact-support-button = Contact opnemen
@@ -225,3 +226,20 @@ upgrade-purchase-details-new-plan-monthly = { $productName } (maandelijks)
 upgrade-purchase-details-new-plan-halfyearly = { $productName } (halfjaarlijks)
 upgrade-purchase-details-new-plan-yearly = { $productName } (jaarlijks)
 upgrade-purchase-details-prorated-credits = Het getoonde negatieve saldo wordt als tegoed op uw account bijgeschreven en gebruikt voor toekomstige facturen.
+# Checkout start
+metadata-title-checkout-start = Afrekenen | { $productTitle }
+metadata-description-checkout-start = Voer uw betalingsgegevens in om uw aankoop te voltooien.
+# Checkout processing
+metadata-title-checkout-processing = Verwerken | { $productTitle }
+metadata-description-checkout-processing = Een ogenblik terwijl uw betaling wordt verwerkt.
+# Checkout error
+metadata-title-checkout-error = Fout | { $productTitle }
+metadata-description-checkout-error = Er is een fout opgetreden bij het verwerken van uw abonnement. Als dit probleem aanhoudt, neem dan contact op met de ondersteuningsafdeling.
+# Checkout success
+metadata-title-checkout-success = Geslaagd | { $productTitle }
+metadata-description-checkout-success = Gefeliciteerd! U hebt uw aankoop met succes voltooid.
+# Checkout needs_input
+metadata-title-checkout-needs-input = Actie vereist | { $productTitle }
+metadata-description-checkout-needs-input = Voltooi de benodigde actie om door te gaan met uw betaling.
+# Upgrade start
+metadata-title-upgrade-start = Upgraden | { $productTitle }
