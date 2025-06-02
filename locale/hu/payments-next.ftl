@@ -238,26 +238,26 @@ metadata-description-checkout-processing = Várjon, amíg befejezzük a fizetés
 metadata-title-checkout-error = Hiba | { $productTitle }
 metadata-description-checkout-error = Hiba történt az előfizetés feldolgozása közben. Ha a probléma továbbra is fennáll, forduljon a támogatáshoz.
 # Checkout success
-metadata-title-checkout-success = Siker | { $productTitle }
+metadata-title-checkout-success = Sikeres | { $productTitle }
 metadata-description-checkout-success = Gratulálunk! Sikeresen befejezte a vásárlást.
 # Checkout needs_input
 metadata-title-checkout-needs-input = Művelet szükséges | { $productTitle }
-metadata-description-checkout-needs-input = Kérjük, végezze el a szükséges műveletet a fizetés folytatásához.
+metadata-description-checkout-needs-input = Végezze el a szükséges műveletet a fizetés folytatásához.
 # Upgrade start
-metadata-title-upgrade-start = Frissítés | { $productTitle }
-metadata-description-upgrade-start = Adja meg a fizetési adatait a frissítés befejezéséhez.
+metadata-title-upgrade-start = Csomagváltás | { $productTitle }
+metadata-description-upgrade-start = Adja meg a fizetési adatait a csomagváltás befejezéséhez.
 # Upgrade processing
 metadata-title-upgrade-processing = Feldolgozás | { $productTitle }
 metadata-description-upgrade-processing = Várjon, amíg befejezzük a fizetés feldolgozását.
 # Upgrade error
 metadata-title-upgrade-error = Hiba | { $productTitle }
-metadata-description-upgrade-error = Hiba történt a frissítés feldolgozása közben. Ha a probléma továbbra is fennáll, forduljon a támogatáshoz.
+metadata-description-upgrade-error = Hiba történt a csomagváltás feldolgozása közben. Ha a probléma továbbra is fennáll, forduljon a támogatáshoz.
 # Upgrade success
-metadata-title-upgrade-success = Siker | { $productTitle }
-metadata-description-upgrade-success = Gratulálunk! Sikeresen befejezte a frissítést.
+metadata-title-upgrade-success = Sikeres | { $productTitle }
+metadata-description-upgrade-success = Gratulálunk! Sikeresen befejezte a csomagváltást.
 # Upgrade needs_input
 metadata-title-upgrade-needs-input = Művelet szükséges | { $productTitle }
-metadata-description-upgrade-needs-input = Kérjük, végezze el a szükséges műveletet a fizetés folytatásához.
+metadata-description-upgrade-needs-input = Végezze el a szükséges műveletet a fizetés folytatásához.
 # Default
 metadata-title-default = Az oldal nem található | { $productTitle }
 metadata-description-default = A kért oldal nem található.
