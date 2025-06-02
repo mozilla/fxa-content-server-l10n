@@ -219,20 +219,36 @@ upgrade-purchase-details-new-plan-weekly = { $productName } (Haftalık)
 upgrade-purchase-details-new-plan-monthly = { $productName } (Aylık)
 upgrade-purchase-details-new-plan-halfyearly = { $productName } (6 aylık)
 upgrade-purchase-details-new-plan-yearly = { $productName } (Yıllık)
+# Checkout start
+metadata-title-checkout-start = Ödeme | { $productTitle }
+metadata-description-checkout-start = Satın alma işleminizi tamamlamak için ödeme bilgilerinizi girin.
+# Checkout processing
+metadata-title-checkout-processing = İşleniyor | { $productTitle }
+metadata-description-checkout-processing = Ödemeniz tamamlanırken lütfen bekleyin.
 # Checkout error
 metadata-title-checkout-error = Hata | { $productTitle }
+metadata-description-checkout-error = Aboneliğiniz işlenirken bir hata oluştu. Bu sorun devam ederse lütfen destek ekibiyle iletişime geçin.
 # Checkout success
 metadata-title-checkout-success = Başarılı | { $productTitle }
+metadata-description-checkout-success = Tebrikler! Satın alma işleminizi başarıyla tamamladınız.
 # Checkout needs_input
 metadata-title-checkout-needs-input = İşlem gerekli | { $productTitle }
+metadata-description-checkout-needs-input = Ödemeye devam etmek için lütfen gerekli işemi tamamlayın.
 # Upgrade start
 metadata-title-upgrade-start = Yükselt | { $productTitle }
+metadata-description-upgrade-start = Yükseltmenizi tamamlamak için ödeme bilgilerinizi girin.
+# Upgrade processing
+metadata-title-upgrade-processing = İşleniyor | { $productTitle }
+metadata-description-upgrade-processing = Ödemeniz tamamlanırken lütfen bekleyin.
 # Upgrade error
 metadata-title-upgrade-error = Hata | { $productTitle }
+metadata-description-upgrade-error = Yükseltmeniz işlenirken bir hata oluştu. Bu sorun devam ederse lütfen destek ekibiyle iletişime geçin.
 # Upgrade success
 metadata-title-upgrade-success = Başarılı | { $productTitle }
+metadata-description-upgrade-success = Tebrikler! Yükseltmenizi başarıyla tamamladınız.
 # Upgrade needs_input
 metadata-title-upgrade-needs-input = İşlem gerekli | { $productTitle }
+metadata-description-upgrade-needs-input = Ödemeye devam etmek için lütfen gerekli işemi tamamlayın.
 # Default
 metadata-title-default = Sayfa bulunamadı | { $productTitle }
 metadata-description-default = İstediğiniz sayfa bulunamadı.
