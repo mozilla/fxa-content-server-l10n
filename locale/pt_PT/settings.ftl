@@ -1625,6 +1625,24 @@ password-reset-recovery-method-send-code-error-description = Por favor, tente ma
 
 ## ResetPasswordRecoveryPhone page
 
+reset-password-recovery-phone-flow-heading = Repor a sua palavra-passe
+# A recovery code in context of this page is a one time code sent to the user's phone
+reset-password-recovery-phone-heading = Introduza o código de recuperação
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+reset-password-recovery-phone-instruction-v3 = Foi enviado um código de 6 dígitos para o número de telefone que termina com <span>{ $lastFourPhoneDigits }</span> por mensagem de texto. Este código expira após 5 minutos. Não partilhe este código com ninguém.
+reset-password-recovery-phone-input-label = Inserir código de 6 dígitos
+reset-password-recovery-phone-code-submit-button = Confirmar
+reset-password-recovery-phone-resend-code-button = Reenviar código
+reset-password-recovery-phone-resend-success = Código enviado
+# links to https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+reset-password-recovery-phone-locked-out-link = Está bloqueado?
+reset-password-recovery-phone-send-code-error-heading = Ocorreu um problema ao enviar o código
+reset-password-recovery-phone-code-verification-error-heading = Ocorreu um problema ao confirmar o seu código
+# Follows the error message (e.g, "There was a problem sending a code")
+reset-password-recovery-phone-general-error-description = Por favor tente mais tarde.
+reset-password-recovery-phone-invalid-code-error-description = O código é inválido ou expirou.
+reset-password-recovery-phone-invalid-code-error-link = Em vez disso, utilizar códigos de autenticação de recuperação?
 reset-password-with-recovery-key-verified-page-title = Palavra-passe redefinida com sucesso
 reset-password-complete-new-password-saved = Nova palavra-passe guardada!
 reset-password-complete-recovery-key-created = Nova chave de recuperação da conta criada. Transferir e guardar agora.

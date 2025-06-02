@@ -1634,6 +1634,24 @@ password-reset-recovery-method-send-code-error-description = Ceisiwch eto yn nes
 
 ## ResetPasswordRecoveryPhone page
 
+reset-password-recovery-phone-flow-heading = Ailosod eich cyfrinair
+# A recovery code in context of this page is a one time code sent to the user's phone
+reset-password-recovery-phone-heading = Rhowch y cod adfer
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+reset-password-recovery-phone-instruction-v3 = Anfonwyd cod 6 digid i'r rhif ffôn sy'n gorffen â <span>{ $lastFourPhoneDigits }</span> drwy neges destun. Daw'r cod hwn i ben ar ôl 5 munud. Peidiwch â rhannu’r cod hwn ag unrhyw un.
+reset-password-recovery-phone-input-label = Rhowch y cod 6 digid
+reset-password-recovery-phone-code-submit-button = Cadarnhau
+reset-password-recovery-phone-resend-code-button = Ail-anfon y cod
+reset-password-recovery-phone-resend-success = Anfonwyd y cod
+# links to https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+reset-password-recovery-phone-locked-out-link = Ydych chi wedi'ch cloi allan?
+reset-password-recovery-phone-send-code-error-heading = Bu problem wrth anfon cod
+reset-password-recovery-phone-code-verification-error-heading = Bu problem wrth wirio'ch cod
+# Follows the error message (e.g, "There was a problem sending a code")
+reset-password-recovery-phone-general-error-description = Ceisiwch eto'n ddiweddarach.
+reset-password-recovery-phone-invalid-code-error-description = Mae'r cod yn annilys neu wedi dod i ben.
+reset-password-recovery-phone-invalid-code-error-link = Defnyddio codau dilysu wrth gefn yn lle hynny?
 reset-password-with-recovery-key-verified-page-title = Mae'r cyfrinair wedi ei ailosod yn llwyddiannus
 reset-password-complete-new-password-saved = Cyfrinair newydd wedi'i gadw!
 reset-password-complete-recovery-key-created = Mae allwedd adfer cyfrif newydd wedi'i chreu. Llwythwch hi i lawr a'i chadw nawr.

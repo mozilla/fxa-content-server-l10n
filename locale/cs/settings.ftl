@@ -1628,6 +1628,24 @@ password-reset-recovery-method-send-code-error-description = Zkuste to prosím p
 
 ## ResetPasswordRecoveryPhone page
 
+reset-password-recovery-phone-flow-heading = Obnovit heslo
+# A recovery code in context of this page is a one time code sent to the user's phone
+reset-password-recovery-phone-heading = Zadejte obnovovací kód
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+reset-password-recovery-phone-instruction-v3 = Na telefonní číslo končící číslicemi <span>{ $lastFourPhoneDigits }</span> byl odeslán šestimístný kód formou textové zprávy. Tento kód vyprší po 5 minutách. Tento kód s nikým nesdílejte.
+reset-password-recovery-phone-input-label = Zadejte šestimístný kód
+reset-password-recovery-phone-code-submit-button = Potvrdit
+reset-password-recovery-phone-resend-code-button = Znovu odeslat kód
+reset-password-recovery-phone-resend-success = Kód byl odeslán
+# links to https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+reset-password-recovery-phone-locked-out-link = Ztratili jste přístup?
+reset-password-recovery-phone-send-code-error-heading = Při odesílání kódu se vyskytl problém
+reset-password-recovery-phone-code-verification-error-heading = Váš kód se nepodařilo ověřit
+# Follows the error message (e.g, "There was a problem sending a code")
+reset-password-recovery-phone-general-error-description = Prosím zopakujte pokus později
+reset-password-recovery-phone-invalid-code-error-description = Kód je neplatný nebo jeho platnost vypršela.
+reset-password-recovery-phone-invalid-code-error-link = Chcete místo toho použít záložní ověřovací kódy?
 reset-password-with-recovery-key-verified-page-title = Heslo bylo úspěšně obnoveno
 reset-password-complete-new-password-saved = Nové heslo uloženo!
 reset-password-complete-recovery-key-created = Nový obnovovací klíč k účtu byl vytvořen. Stáhněte si ho a uložte.

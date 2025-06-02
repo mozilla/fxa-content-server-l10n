@@ -1615,6 +1615,24 @@ password-reset-recovery-method-send-code-error-description = Riprova più tardi 
 
 ## ResetPasswordRecoveryPhone page
 
+reset-password-recovery-phone-flow-heading = Reimpostazione della password
+# A recovery code in context of this page is a one time code sent to the user's phone
+reset-password-recovery-phone-heading = Inserisci il codice di recupero
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+reset-password-recovery-phone-instruction-v3 = È stato inviato un codice di 6 cifre al numero di telefono che termina con <span>{ $lastFourPhoneDigits }</span> tramite SMS. Questo codice scade dopo 5 minuti. Non condividere questo codice con nessuno.
+reset-password-recovery-phone-input-label = Inserisci il codice a 6 cifre
+reset-password-recovery-phone-code-submit-button = Conferma
+reset-password-recovery-phone-resend-code-button = Invia di nuovo il codice
+reset-password-recovery-phone-resend-success = Codice inviato
+# links to https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+reset-password-recovery-phone-locked-out-link = Sei rimasto bloccato fuori dal tuo account?
+reset-password-recovery-phone-send-code-error-heading = Si è verificato un problema durante l’invio del codice
+reset-password-recovery-phone-code-verification-error-heading = Si è verificato un problema durante la verifica del codice
+# Follows the error message (e.g, "There was a problem sending a code")
+reset-password-recovery-phone-general-error-description = Riprovare più tardi.
+reset-password-recovery-phone-invalid-code-error-description = Il codice non è valido o è scaduto.
+reset-password-recovery-phone-invalid-code-error-link = Utilizzare invece i codici di autenticazione di backup?
 reset-password-with-recovery-key-verified-page-title = Password reimpostata correttamente
 reset-password-complete-new-password-saved = Nuova password salvata.
 reset-password-complete-recovery-key-created = È stata creata una nuova chiave di recupero dell’account. Scaricala e salvala subito.

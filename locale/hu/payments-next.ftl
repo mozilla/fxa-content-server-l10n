@@ -268,6 +268,11 @@ metadata-description-default = A kért oldal nem található.
 
 ## Coupon Error Messages
 
+next-coupon-error-expired = A megadott kód lejárt.
+next-coupon-error-generic = Hiba történt a kód feldolgozása során. Próbálja újra.
+next-coupon-error-invalid = A megadott kód érvénytelen.
+# "Limit" refers to the maximum number of times a coupon can be redeemed.
+next-coupon-error-limit-reached = A megadott kód elérte a korlátját.
 
 ##
 

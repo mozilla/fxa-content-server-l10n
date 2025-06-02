@@ -266,6 +266,11 @@ metadata-description-default = Ni chanfuwyd y dudalen y gofynnoch amdani.
 
 ## Coupon Error Messages
 
+next-coupon-error-expired = Mae'r cod a roesoch wedi dod i ben.
+next-coupon-error-generic = Bu gwall wrth brosesu'r cod. Ceisiwch eto, os gwelwch yn dda.
+next-coupon-error-invalid = Mae'r cod a roesoch yn annilys.
+# "Limit" refers to the maximum number of times a coupon can be redeemed.
+next-coupon-error-limit-reached = Mae'r cod a roesoch wedi cyrraedd ei derfyn.
 
 ##
 

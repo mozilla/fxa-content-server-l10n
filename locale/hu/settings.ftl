@@ -1634,6 +1634,24 @@ password-reset-recovery-method-send-code-error-description = Próbálja meg kés
 
 ## ResetPasswordRecoveryPhone page
 
+reset-password-recovery-phone-flow-heading = Jelszó visszaállítása
+# A recovery code in context of this page is a one time code sent to the user's phone
+reset-password-recovery-phone-heading = Adja meg a helyreállítási kódot
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+reset-password-recovery-phone-instruction-v3 = Egy 6 számjegyű kódot küldtek SMS-ben a <span>{ $lastFourPhoneDigits }</span> végű telefonszámra. Ez a kód 5 perc után lejár. Ne ossza meg ezt a kódot másokkal.
+reset-password-recovery-phone-input-label = Adja meg a 6 számjegyű kódot
+reset-password-recovery-phone-code-submit-button = Megerősítés
+reset-password-recovery-phone-resend-code-button = Kód újraküldése
+reset-password-recovery-phone-resend-success = Kód elküldve
+# links to https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+reset-password-recovery-phone-locked-out-link = Kizárta magát?
+reset-password-recovery-phone-send-code-error-heading = Hiba történt a kód küldésekor
+reset-password-recovery-phone-code-verification-error-heading = Hiba történt a kód ellenőrzésekor
+# Follows the error message (e.g, "There was a problem sending a code")
+reset-password-recovery-phone-general-error-description = Próbálja meg újra később.
+reset-password-recovery-phone-invalid-code-error-description = A kód érvénytelen vagy lejárt.
+reset-password-recovery-phone-invalid-code-error-link = Inkább tartalék hitelesítési kódokat használ?
 reset-password-with-recovery-key-verified-page-title = Jelszó sikeresen visszaállítva
 reset-password-complete-new-password-saved = Új jelszó elmentve!
 reset-password-complete-recovery-key-created = Új fiók-helyreállítási kulcs létrehozva. Töltse le és tárolja most.

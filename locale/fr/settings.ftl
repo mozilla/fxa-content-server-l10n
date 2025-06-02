@@ -1623,6 +1623,24 @@ password-reset-recovery-method-send-code-error-description = Veuillez réessayer
 
 ## ResetPasswordRecoveryPhone page
 
+reset-password-recovery-phone-flow-heading = Réinitialiser le mot de passe
+# A recovery code in context of this page is a one time code sent to the user's phone
+reset-password-recovery-phone-heading = Saisissez le code de récupération
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+reset-password-recovery-phone-instruction-v3 = Un code à six chiffres a été envoyé au numéro de téléphone se terminant par <span>{ $lastFourPhoneDigits }</span> par SMS. Ce code expire au bout de 5 minutes. Ne partagez pas ce code avec qui que ce soit.
+reset-password-recovery-phone-input-label = Saisissez le code à 6 chiffres
+reset-password-recovery-phone-code-submit-button = Confirmer
+reset-password-recovery-phone-resend-code-button = Renvoyer le code
+reset-password-recovery-phone-resend-success = Code envoyé
+# links to https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+reset-password-recovery-phone-locked-out-link = Vous ne parvenez pas à accéder à votre compte ?
+reset-password-recovery-phone-send-code-error-heading = Un problème est survenu lors de l’envoi d’un code
+reset-password-recovery-phone-code-verification-error-heading = Un problème est survenu lors de la vérification de votre code
+# Follows the error message (e.g, "There was a problem sending a code")
+reset-password-recovery-phone-general-error-description = Veuillez réessayer plus tard.
+reset-password-recovery-phone-invalid-code-error-description = Le code est invalide ou a expiré.
+reset-password-recovery-phone-invalid-code-error-link = Utiliser plutôt des codes d’authentification de secours ?
 reset-password-with-recovery-key-verified-page-title = Mot de passe réinitialisé
 reset-password-complete-new-password-saved = Nouveau mot de passe enregistré !
 reset-password-complete-recovery-key-created = Nouvelle clé de récupération de compte créée. Téléchargez-la et stockez-la maintenant.

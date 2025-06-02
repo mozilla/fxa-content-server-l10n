@@ -1626,6 +1626,24 @@ password-reset-recovery-method-send-code-error-description = Bitte versuchen Sie
 
 ## ResetPasswordRecoveryPhone page
 
+reset-password-recovery-phone-flow-heading = Setzen Sie Ihr Passwort zurück
+# A recovery code in context of this page is a one time code sent to the user's phone
+reset-password-recovery-phone-heading = Wiederherstellungscode eingeben
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+reset-password-recovery-phone-instruction-v3 = Ein 6-stelliger Code wurde an die Telefonnummer, die auf <span>{ $lastFourPhoneDigits }</span> endet, per SMS gesendet. Dieser Code läuft nach 5 Minuten ab. Geben Sie diesen Code an niemanden weiter.
+reset-password-recovery-phone-input-label = 6-stelligen Code eingeben
+reset-password-recovery-phone-code-submit-button = Bestätigen
+reset-password-recovery-phone-resend-code-button = Code erneut senden
+reset-password-recovery-phone-resend-success = Code gesendet
+# links to https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+reset-password-recovery-phone-locked-out-link = Haben Sie sich ausgesperrt?
+reset-password-recovery-phone-send-code-error-heading = Beim Senden eines Codes ist ein Fehler aufgetreten
+reset-password-recovery-phone-code-verification-error-heading = Beim Bestätigen Ihres Codes ist ein Fehler aufgetreten
+# Follows the error message (e.g, "There was a problem sending a code")
+reset-password-recovery-phone-general-error-description = Bitte versuchen Sie es später erneut.
+reset-password-recovery-phone-invalid-code-error-description = Der Code ist ungültig oder abgelaufen.
+reset-password-recovery-phone-invalid-code-error-link = Stattdessen Sicherungs-Authentifizierungscodes verwenden?
 reset-password-with-recovery-key-verified-page-title = Passwort erfolgreich zurückgesetzt
 reset-password-complete-new-password-saved = Neues Passwort gespeichert!
 reset-password-complete-recovery-key-created = Neuer Kontowiederherstellungsschlüssel erstellt. Jetzt herunterladen und speichern.

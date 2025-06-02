@@ -266,6 +266,11 @@ metadata-description-default = A página solicitada não foi encontrada.
 
 ## Coupon Error Messages
 
+next-coupon-error-expired = O código que introduziu expirou.
+next-coupon-error-generic = Ocorreu um erro ao processar o código. Por favor, tente novamente.
+next-coupon-error-invalid = O código que introduziu é inválido.
+# "Limit" refers to the maximum number of times a coupon can be redeemed.
+next-coupon-error-limit-reached = O código que introduziu chegou ao seu limite.
 
 ##
 

@@ -266,6 +266,11 @@ metadata-description-default = Zahtevane strani ni bilo mogoče najti.
 
 ## Coupon Error Messages
 
+next-coupon-error-expired = Kodi, ki ste jo vnesli, je potekla veljavnost.
+next-coupon-error-generic = Pri obdelavi kode je prišlo do napake. Poskusite znova.
+next-coupon-error-invalid = Koda, ki ste jo vnesli, je neveljavna.
+# "Limit" refers to the maximum number of times a coupon can be redeemed.
+next-coupon-error-limit-reached = Koda, ki ste jo vnesli, je dosegla svojo omejitev.
 
 ##
 
