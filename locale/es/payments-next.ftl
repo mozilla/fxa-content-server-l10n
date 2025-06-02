@@ -27,7 +27,6 @@ checkout-error-boundary-basic-error-message = Algo salió mal. Inténtalo de nue
 ## Common strings used in multiple pages
 
 next-payment-error-manage-subscription-button = Administrar mi suscripción
-next-iap-upgrade-contact-support = Todavía puedes obtener este producto — por favor contacta con el equipo de soporte para que podamos ayudarte.
 next-payment-error-retry-button = Volver a intentarlo
 next-basic-error-message = Algo ha salido mal. Por favor, inténtalo de nuevo más tarde.
 checkout-error-contact-support-button = Contactar con la asistencia
