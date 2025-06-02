@@ -381,6 +381,9 @@ passwordResetAccountRecovery-information-txt = Ti vin disconetût/disconetude di
 passwordResetAccountRecovery-action-4 = Gjestìs account
 passwordResetRecoveryPhone-subject = Doprât telefon pal recupar dal account
 passwordResetRecoveryPhone-preview = Controle che tu jeris tu
+passwordResetRecoveryPhone-title = Al è stât doprât il telefon pal recupar dal account par confermâ il ripristinament de password
+passwordResetRecoveryPhone-device = Telefon pal recupar dal account doprât di:
+passwordResetRecoveryPhone-action = Gjestìs account
 passwordResetWithRecoveryKeyPrompt-subject = La password e je stade ristabilide
 passwordResetWithRecoveryKeyPrompt-title = La password e je stade ristabilide
 # Details of the device and date/time where the password was reset
@@ -404,6 +407,7 @@ postAddLinkedAccount-title-2 = Il to account { $providerName } al è stât coleg
 postAddLinkedAccount-action = Gjestìs account
 postAddRecoveryPhone-subject = Zontât telefon pal recupar dal account
 postAddRecoveryPhone-preview = Account protet de autenticazion in doi passaçs
+postAddRecoveryPhone-title-v2 = Tu âs zontât un telefon pal recupar dal account
 # Variables:
 #  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
 postAddRecoveryPhone-description-v2 = Tu âs zontât { $maskedLastFourPhoneNumber } tant che numar di telefon di recupar
@@ -434,7 +438,13 @@ postChangeRecoveryPhone-preview = Account protet de autenticazion in doi passaç
 postChangeRecoveryPhone-title = Tu âs cambiât il numar di telefon pal recupar dal account
 postChangeRecoveryPhone-description = Cumò tu âs un gnûf numar di telefon pal recupar dal account. Il numar di telefon di prime al è stât eliminât.
 postChangeRecoveryPhone-requested-device = Richieste fate di:
+postConsumeRecoveryCode-title-3 = Il codiç di autenticazion di backup al è stât doprât par confermâ il ripristinament de password
+# After the colon, there is description of the device that the backup authentication code was used on
+# E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
+postConsumeRecoveryCode-description-3 = Codiç doprât di:
 postConsumeRecoveryCode-action = Gjestìs account
+postConsumeRecoveryCode-subject-v3 = Al è stât doprât un codiç di autenticazion di backup
+postConsumeRecoveryCode-preview = Controle che tu jeris tu
 postNewRecoveryCodes-subject-2 = A son stâts creâts gnûfs codiçs di autenticazion di backup
 postNewRecoveryCodes-title-2 = Tu âs creât gnûfs codiçs di autenticazion di backup
 # After the colon, there is information about the device that the authentication codes were created on
@@ -448,6 +458,8 @@ postRemoveAccountRecovery-action = Gjestìs account
 postRemoveRecoveryPhone-subject = Il numar di telefon pal recupar dal account al è stât gjavât
 postRemoveRecoveryPhone-preview = Account protet de autenticazion in doi passaçs
 postRemoveRecoveryPhone-title = Il numar di telefon pal recupar dal account al è stât gjavât
+postRemoveRecoveryPhone-description-v2 = Il telefon pal recupar dal account al è stât gjavât da lis impostazions di autenticazion in doi passaçs.
+postRemoveRecoveryPhone-description-extra = Tu puedis distès doprâ i codiçs di autenticazion di backup par jentrâ tal câs che tu rivedis a doprâ la aplicazion di autenticazion.
 postRemoveRecoveryPhone-requested-device = Richieste fate di:
 postRemoveSecondary-subject = E-mail secondarie gjavade
 postRemoveSecondary-title = E-mail secondarie gjavade
@@ -627,6 +639,12 @@ subscriptionRenewalReminder-content-closing = Cun rispiet,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = Il grup di { $productName }
+subscriptionReplaced-subject = Il to abonament al è stât inzornât tant che part dal to inzornament
+subscriptionReplaced-title = Il to abonament al è stât inzornât
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReplaced-content-replaced = Il to abonament individuâl a { $productName } al è stât sostituît e cumò al è includût tal gnûf pachet.
+subscriptionReplaced-content-credit = Tu ricevarâs un credit pe part che no tu âs doprât dal to vecjo abonament. Chest credit al vignarà aplicât in automatic al to account e al vignarà doprât pai adebits futûrs.
+subscriptionReplaced-content-no-action = No je domandade nissune azion de bande tô.
 subscriptionsPaymentExpired-subject-1 = La cjarte di credit colegade ai tiei abonaments e je scjadude o e je prossime ae scjadince
 subscriptionsPaymentExpired-title-1 = La tô cjarte di credit e je scjadude o e sta par scjadê
 subscriptionsPaymentExpired-content-1 = La cjarte di credit, che tu stâs doprant pai paiaments di chescj abonaments, e je scjadude o e sta par scjadê.
