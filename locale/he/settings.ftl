@@ -1540,6 +1540,20 @@ password-reset-recovery-method-send-code-error-heading = הייתה בעיה ב�
 
 ## ResetPasswordRecoveryPhone page
 
+reset-password-recovery-phone-flow-heading = איפוס הססמה שלך
+# A recovery code in context of this page is a one time code sent to the user's phone
+reset-password-recovery-phone-heading = נא להכניס קוד לשחזור
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+reset-password-recovery-phone-instruction-v3 = קוד בן 6 ספרות נשלח אל מספר הטלפון שמסתיים ב־<span>{ $lastFourPhoneDigits }</span> בהודעת טקסט. קוד זה יפוג לאחר 5 דקות. אין לשתף את הקוד הזה עם אף אחד.
+reset-password-recovery-phone-resend-success = הקוד נשלח
+# links to https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+reset-password-recovery-phone-locked-out-link = ננעלת מחוץ לחשבון?
+reset-password-recovery-phone-send-code-error-heading = הייתה בעיה בשליחת קוד
+reset-password-recovery-phone-code-verification-error-heading = הייתה בעיה באימות הקוד שלך
+# Follows the error message (e.g, "There was a problem sending a code")
+reset-password-recovery-phone-general-error-description = נא לנסות שוב מאוחר יותר.
+reset-password-recovery-phone-invalid-code-error-description = הקוד לא חוקי או שפג תוקפו.
 reset-password-with-recovery-key-verified-page-title = הססמה אופסה בהצלחה
 reset-password-complete-new-password-saved = הססמה החדשה נשמרה!
 reset-password-complete-recovery-key-created = מפתח חדש לשחזור החשבון נוצר. יש להוריד ולאחסן אותו כעת במקום בטוח.

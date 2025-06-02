@@ -261,6 +261,8 @@ metadata-description-default = הדף שביקשת לא נמצא.
 next-coupon-error-expired = פג תוקף הקוד שהזנת.
 next-coupon-error-generic = אירעה שגיאה בעיבוד הקוד. נא לנסות שוב.
 next-coupon-error-invalid = הקוד שהזנת אינו חוקי.
+# "Limit" refers to the maximum number of times a coupon can be redeemed.
+next-coupon-error-limit-reached = הקוד שהזנת הגיע למגבלה שלו.
 
 ##
 
