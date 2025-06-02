@@ -666,6 +666,10 @@ subscriptionSubsequentInvoice-content-next-invoice = Prossime fature: { $nextInv
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = Tu âs inzornât a { $productName }
 subscriptionUpgrade-title = Graciis pal inzornament!
+# Variables:
+# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
+# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-upgrade-info-2 = L'inzornament a { $productName } al è stât fat cun sucès.
 
 ## Variables:
 ## $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
