@@ -269,6 +269,11 @@ metadata-description-default = Bok, wó kótaryž sćo pšosył, njejo se namaka
 
 ## Coupon Error Messages
 
+next-coupon-error-expired = Zapódany kod jo spadnuł.
+next-coupon-error-generic = Pśi pśeźěłowanju koda jo zmólka nastała. Pšosym wopytajśo hyšći raz.
+next-coupon-error-invalid = Zapódany kod jo njepłaśiwy.
+# "Limit" refers to the maximum number of times a coupon can be redeemed.
+next-coupon-error-limit-reached = Zapódany kod jo dostał swój limit.
 
 ##
 

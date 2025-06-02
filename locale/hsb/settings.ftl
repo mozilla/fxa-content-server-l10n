@@ -1636,6 +1636,24 @@ password-reset-recovery-method-send-code-error-description = Prošu spytajće po
 
 ## ResetPasswordRecoveryPhone page
 
+reset-password-recovery-phone-flow-heading = Stajće swoje hesło wróćo
+# A recovery code in context of this page is a one time code sent to the user's phone
+reset-password-recovery-phone-heading = Wobnowjenski kod zapodać
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+reset-password-recovery-phone-instruction-v3 = 6-městnowy kod je so na telefonowe čisło pósłał, kotrež so na <span>{ $lastFourPhoneDigits }</span> kónči. Tutón kod za 5 mjeńšin płaćiwosć zhubi. Njezdźělejće nikomu tutón kod.
+reset-password-recovery-phone-input-label = 6-městnowy kod zapodać
+reset-password-recovery-phone-code-submit-button = Wobkrućić
+reset-password-recovery-phone-resend-code-button = Kod znowa słać
+reset-password-recovery-phone-resend-success = Kod je so pósłał
+# links to https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+reset-password-recovery-phone-locked-out-link = Sće wuzamknjeny?
+reset-password-recovery-phone-send-code-error-heading = Při słanju koda je problem nastał
+reset-password-recovery-phone-code-verification-error-heading = Při přepruwowanju wašeho koda je problem nastał
+# Follows the error message (e.g, "There was a problem sending a code")
+reset-password-recovery-phone-general-error-description = Prošu spytaj pozdźišo hišće raz.
+reset-password-recovery-phone-invalid-code-error-description = Kod je njepłaćiwy abo zestarjeny.
+reset-password-recovery-phone-invalid-code-error-link = Awtentifikaciske kody za zawěsćenje město toho wužiwać?
 reset-password-with-recovery-key-verified-page-title = Hesło je so wuspěšnje wróćo stajiło
 reset-password-complete-new-password-saved = Nowe hesło je so składowało!
 reset-password-complete-recovery-key-created = Nowy kontowy wobnowjenski kluč je so wutworił. Sćehńće a składujće jón nětko.
