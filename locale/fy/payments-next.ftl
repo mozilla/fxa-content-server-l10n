@@ -27,7 +27,6 @@ checkout-error-boundary-basic-error-message = Der gie wat mis. Probearje it opni
 ## Common strings used in multiple pages
 
 next-payment-error-manage-subscription-button = Myn abonnemint beheare
-next-iap-upgrade-contact-support = Jo kinne dit produkt noch hieltyd krije – nim kontakt op mei de stipeôfdieling, sadat wy jo helpe kinne.
 next-payment-error-retry-button = Opnij probearje
 next-basic-error-message = Der is wat misgien. Probearje it letter opnij.
 checkout-error-contact-support-button = Kontakt opnimme
