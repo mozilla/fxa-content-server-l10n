@@ -1631,7 +1631,7 @@ reset-password-recovery-phone-flow-heading = Setzen Sie Ihr Passwort zurück
 reset-password-recovery-phone-heading = Wiederherstellungscode eingeben
 # Text that explains the user should check their phone for a recovery code
 # $maskedPhoneNumber - The users masked phone number
-reset-password-recovery-phone-instruction-v3 = Ein 6-stelliger Code wurde an die Telefonnummer, die auf <span>{ $lastFourPhoneDigits }</span> endet, per SMS gesendet. Dieser Code läuft nach 5 Minuten ab. Geben Sie diesen Code an niemanden weiter.
+reset-password-recovery-phone-instruction-v3 = Ein sechsstelliger Code wurde per SMS an die Telefonnummer gesendet, die auf <span>{ $lastFourPhoneDigits }</span> endet. Dieser Code läuft nach 5 Minuten ab. Geben Sie diesen Code an niemanden weiter.
 reset-password-recovery-phone-input-label = 6-stelligen Code eingeben
 reset-password-recovery-phone-code-submit-button = Bestätigen
 reset-password-recovery-phone-resend-code-button = Code erneut senden
