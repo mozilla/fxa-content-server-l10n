@@ -232,6 +232,13 @@ upgrade-purchase-details-prorated-credits = მოცემული უარ�
 ## Page Metadata Information
 ## $productTitle (String) - The name of the product to create subscription, e.g. Mozilla VPN
 
+metadata-description-checkout-start = შეიყვანეთ თქვენი საგადასახადო მონაცემები შეძენის დასასრულებლად.
+# Checkout processing
+metadata-title-checkout-processing = დამუშავება | { $productTitle }
+metadata-description-checkout-processing = გთხოვთ, მოითმინოთ, სანამ თქვენი გადახდა მუშავდება.
+# Checkout error
+metadata-title-checkout-error = შეცდომა | { $productTitle }
+metadata-description-checkout-error = გამოწერის დამუშავებისას შეცდომა წარმოიქმნა. თუ ეს ხარვეზი გამეორდა, გთხოვთ მიმართოთ მხარდაჭერის გუნდს.
 
 ## Coupon Error Messages
 

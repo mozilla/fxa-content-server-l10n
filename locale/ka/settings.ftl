@@ -116,6 +116,9 @@ datablock-copy =
     .message = ასლი აღებულია
 datablock-print =
     .message = ამოიბეჭდა
+# Tooltip notification when an account recovery key or one-time use code is copied.
+datablock-inline-copy =
+    .message = ასლი აღებულია
 
 ## DeviceInfoBlock component
 ## The strings here are used to display information about the origin of activity happening on a user's account
@@ -643,6 +646,7 @@ flow-setup-phone-confirm-code-expired = კოდი ვადაგასულ
 flow-setup-phone-confirm-code-resend-code-button = კოდის კვლავ გაგზავნა
 flow-setup-phone-confirm-code-resend-code-success = კოდი გამოგზავნილია
 flow-setup-phone-confirm-code-success-message-v2 = აღდგენის ტელეფონი დამატებულია
+flow-change-phone-confirm-code-success-message = აღდგენის ტელეფონი შეცვლილია
 
 ## FlowSetupPhoneConfirmCode
 
@@ -893,6 +897,7 @@ settings-recovery-phone-remove-success = აღდგენის ტელე�
 ## PageSetupRecoveryPhone
 
 page-setup-recovery-phone-heading = აღდგენის ტელეფონის დამატება
+page-change-recovery-phone = აღდგენის ტელეფონის შეცვლა
 page-setup-recovery-phone-back-button-title = პარამეტრებზე დაბრუნება
 # Back arrow to return to step 1 of recovery phone setup flow
 page-setup-recovery-phone-step2-back-button-title = ტელეფონის ნომრის შეცვლა
@@ -1631,6 +1636,24 @@ password-reset-recovery-method-send-code-error-description = გთხოვთ,
 
 ## ResetPasswordRecoveryPhone page
 
+reset-password-recovery-phone-flow-heading = პაროლის განულება
+# A recovery code in context of this page is a one time code sent to the user's phone
+reset-password-recovery-phone-heading = შეიყვანეთ აღდგენის კოდი
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+reset-password-recovery-phone-instruction-v3 = 6-ციფრიანი კოდი ტექსტური შეტყობინებით გამოიგზავნა ნომერზე დაბოლოებით <span>{ $lastFourPhoneDigits }</span>. კოდს ვადა გაუვა 5 წუთში. არავის გაუზიაროთ.
+reset-password-recovery-phone-input-label = შეიყვანეთ 6-ციფრიანი კოდი
+reset-password-recovery-phone-code-submit-button = თანხმობა
+reset-password-recovery-phone-resend-code-button = კოდის კვლავ გაგზავნა
+reset-password-recovery-phone-resend-success = კოდი გამოგზავნილია
+# links to https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+reset-password-recovery-phone-locked-out-link = ვეღარ ახერხებთ შესვლას?
+reset-password-recovery-phone-send-code-error-heading = ხარვეზი წარმოიშვა კოდის გამოგზავნისას
+reset-password-recovery-phone-code-verification-error-heading = ხარვეზი წარმოიშვა კოდის დამოწმებისას
+# Follows the error message (e.g, "There was a problem sending a code")
+reset-password-recovery-phone-general-error-description = გთხოვთ სცადოთ მოგვიანებით.
+reset-password-recovery-phone-invalid-code-error-description = კოდი უმართებულო ან ვადაგასულია.
+reset-password-recovery-phone-invalid-code-error-link = სანაცვლოდ გამოიყენებთ დამოწმების სამარქაფო კოდებს?
 reset-password-with-recovery-key-verified-page-title = პაროლი აღდგა წარმატებით
 reset-password-complete-new-password-saved = ახალი პაროლი შენახულია!
 reset-password-complete-recovery-key-created = შექმნილია ანგარიშის აღდგენის გასაღები. ჩამოტვირთეთ და შეინახეთ ახლავე
