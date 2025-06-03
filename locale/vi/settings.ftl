@@ -114,6 +114,9 @@ datablock-copy =
     .message = Đã sao chép
 datablock-print =
     .message = Đã in
+# Tooltip notification when an account recovery key or one-time use code is copied.
+datablock-inline-copy =
+    .message = Đã sao chép
 
 ## DeviceInfoBlock component
 ## The strings here are used to display information about the origin of activity happening on a user's account
@@ -641,6 +644,7 @@ flow-setup-phone-confirm-code-expired = Mã đã hết hạn?
 flow-setup-phone-confirm-code-resend-code-button = Gửi lại mã
 flow-setup-phone-confirm-code-resend-code-success = Đã gửi mã
 flow-setup-phone-confirm-code-success-message-v2 = Đã thêm số điện thoại khôi phục
+flow-change-phone-confirm-code-success-message = Đã thay đổi số điện thoại khôi phục
 
 ## FlowSetupPhoneConfirmCode
 
@@ -891,6 +895,7 @@ settings-recovery-phone-remove-success = Đã xóa số điện thoại khôi ph
 ## PageSetupRecoveryPhone
 
 page-setup-recovery-phone-heading = Thêm số điện thoại khôi phục
+page-change-recovery-phone = Thay đổi số điện thoại khôi phục
 page-setup-recovery-phone-back-button-title = Quay lại cài đặt
 # Back arrow to return to step 1 of recovery phone setup flow
 page-setup-recovery-phone-step2-back-button-title = Thay đổi số điện thoại
@@ -1621,6 +1626,24 @@ password-reset-recovery-method-send-code-error-description = Vui lòng thử l�
 
 ## ResetPasswordRecoveryPhone page
 
+reset-password-recovery-phone-flow-heading = Đặt lại mật khẩu của bạn
+# A recovery code in context of this page is a one time code sent to the user's phone
+reset-password-recovery-phone-heading = Nhập mã khôi phục
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+reset-password-recovery-phone-instruction-v3 = Một mã 6 chữ số đã được gửi đến số điện thoại kết thúc bằng <span>{ $lastFourPhoneDigits }</span> bằng tin nhắn văn bản. Mã này hết hạn sau 5 phút. Đừng chia sẻ mã này với bất cứ ai.
+reset-password-recovery-phone-input-label = Nhập mã gồm 6 chữ số
+reset-password-recovery-phone-code-submit-button = Xác nhận
+reset-password-recovery-phone-resend-code-button = Gửi lại mã
+reset-password-recovery-phone-resend-success = Mã đã được gửi
+# links to https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+reset-password-recovery-phone-locked-out-link = Tài khoản của bạn đang bị khóa?
+reset-password-recovery-phone-send-code-error-heading = Có vấn đề khi gửi mã
+reset-password-recovery-phone-code-verification-error-heading = Có vấn đề khi xác minh mã của bạn.
+# Follows the error message (e.g, "There was a problem sending a code")
+reset-password-recovery-phone-general-error-description = Vui lòng thử lại sau.
+reset-password-recovery-phone-invalid-code-error-description = Mã không hợp lệ hoặc đã hết hạn.
+reset-password-recovery-phone-invalid-code-error-link = Bạn muốn sử dụng mã xác thực dự phòng?
 reset-password-with-recovery-key-verified-page-title = Đặt lại mật khẩu thành công
 reset-password-complete-new-password-saved = Đã đặt mật khẩu mới!
 reset-password-complete-recovery-key-created = Đã tạo khóa khôi phục tài khoản mới. Tải xuống và lưu trữ ngay bây giờ.

@@ -27,6 +27,7 @@ checkout-error-boundary-basic-error-message = Đã xảy ra lỗi. Vui lòng th�
 ## Common strings used in multiple pages
 
 next-payment-error-manage-subscription-button = Quản lý thuê bao của tôi
+next-iap-blocked-contact-support = Bạn có gói đăng ký trong ứng dụng di động xung đột với sản phẩm này — vui lòng liên hệ với bộ phận hỗ trợ để chúng tôi có thể giúp bạn.
 next-payment-error-retry-button = Thử lại
 next-basic-error-message = Có gì đó không ổn. Vui lòng thử lại sau.
 checkout-error-contact-support-button = Liên hệ hỗ trợ
@@ -229,9 +230,47 @@ upgrade-purchase-details-prorated-credits = Số dư âm được hiển thị s
 ## Page Metadata Information
 ## $productTitle (String) - The name of the product to create subscription, e.g. Mozilla VPN
 
+# Checkout start
+metadata-title-checkout-start = Thanh toán | { $productTitle }
+metadata-description-checkout-start = Nhập thông tin thanh toán để hoàn tất giao dịch mua hàng.
+# Checkout processing
+metadata-title-checkout-processing = Đang xử lý | { $productTitle }
+metadata-description-checkout-processing = Vui lòng đợi trong khi chúng tôi xử lý xong thanh toán của bạn.
+# Checkout error
+metadata-title-checkout-error = Lỗi | { $productTitle }
+metadata-description-checkout-error = Đã xảy ra lỗi khi xử lý gói đăng ký của bạn. Nếu sự cố này vẫn tiếp diễn, vui lòng liên hệ với bộ phận hỗ trợ.
+# Checkout success
+metadata-title-checkout-success = Thành công | { $productTitle }
+metadata-description-checkout-success = Xin chúc mừng! Bạn đã hoàn tất giao dịch mua hàng.
+# Checkout needs_input
+metadata-title-checkout-needs-input = Yêu cầu thêm hành động | { $productTitle }
+metadata-description-checkout-needs-input = Vui lòng hoàn tất các bước bắt buộc để tiến hành thanh toán.
+# Upgrade start
+metadata-title-upgrade-start = Nâng cấp | { $productTitle }
+metadata-description-upgrade-start = Nhập thông tin thanh toán của bạn để hoàn tất nâng cấp.
+# Upgrade processing
+metadata-title-upgrade-processing = Đang xử lý | { $productTitle }
+metadata-description-upgrade-processing = Vui lòng đợi trong khi chúng tôi xử lý xong thanh toán của bạn.
+# Upgrade error
+metadata-title-upgrade-error = Lỗi | { $productTitle }
+metadata-description-upgrade-error = Đã xảy ra lỗi khi xử lý nâng cấp gói của bạn. Nếu sự cố này vẫn tiếp diễn, vui lòng liên hệ với bộ phận hỗ trợ.
+# Upgrade success
+metadata-title-upgrade-success = Thành công | { $productTitle }
+metadata-description-upgrade-success = Xin chúc mừng! Bạn đã hoàn tất nâng cấp gói của bạn.
+# Upgrade needs_input
+metadata-title-upgrade-needs-input = Yêu cầu thêm hành động | { $productTitle }
+metadata-description-upgrade-needs-input = Vui lòng hoàn tất các bước bắt buộc để tiến hành thanh toán.
+# Default
+metadata-title-default = Không tìm thấy trang | { $productTitle }
+metadata-description-default = Không tìm thấy trang bạn yêu cầu.
 
 ## Coupon Error Messages
 
+next-coupon-error-expired = Mã bạn đã nhập đã hết hạn.
+next-coupon-error-generic = Đã xảy ra lỗi khi xử lý mã. Vui lòng thử lại.
+next-coupon-error-invalid = Mã bạn đã nhập không hợp lệ.
+# "Limit" refers to the maximum number of times a coupon can be redeemed.
+next-coupon-error-limit-reached = Mã bạn đã nhập đã đạt đến giới hạn.
 
 ##
 
