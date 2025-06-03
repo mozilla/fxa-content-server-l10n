@@ -1604,8 +1604,21 @@ password-reset-recovery-method-send-code-error-description = 請稍後再試，�
 reset-password-recovery-phone-flow-heading = 重設您的密碼
 # A recovery code in context of this page is a one time code sent to the user's phone
 reset-password-recovery-phone-heading = 請輸入救援碼
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+reset-password-recovery-phone-instruction-v3 = 已透過簡訊將六位數救援碼發送至尾碼為 <span>{ $lastFourPhoneDigits }</span> 的門號，此驗證碼將於 5 分鐘後失效，請勿將此驗證碼提供給任何人。
 reset-password-recovery-phone-input-label = 請輸入六位數的救援碼
 reset-password-recovery-phone-code-submit-button = 確認
+reset-password-recovery-phone-resend-code-button = 重船救援碼
+reset-password-recovery-phone-resend-success = 已傳送救援碼
+# links to https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+reset-password-recovery-phone-locked-out-link = 被鎖住了嗎？
+reset-password-recovery-phone-send-code-error-heading = 傳送救援碼時遇到問題
+reset-password-recovery-phone-code-verification-error-heading = 確認您輸入的救援碼時遇到問題
+# Follows the error message (e.g, "There was a problem sending a code")
+reset-password-recovery-phone-general-error-description = 請稍候再試。
+reset-password-recovery-phone-invalid-code-error-description = 此救援碼無效，或已失效。
+reset-password-recovery-phone-invalid-code-error-link = 要改用備用驗證碼嗎？
 reset-password-with-recovery-key-verified-page-title = 密碼重設成功
 reset-password-complete-new-password-saved = 已儲存新密碼！
 reset-password-complete-recovery-key-created = 已建立新的帳號救援金鑰，請立即下載並儲存。
