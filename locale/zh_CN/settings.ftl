@@ -1609,6 +1609,24 @@ password-reset-recovery-method-send-code-error-description = 请稍后再试，�
 
 ## ResetPasswordRecoveryPhone page
 
+reset-password-recovery-phone-flow-heading = 重设密码
+# A recovery code in context of this page is a one time code sent to the user's phone
+reset-password-recovery-phone-heading = 请输入恢复代码
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+reset-password-recovery-phone-instruction-v3 = 一个六位数验证码已通过短信发送到尾号为 <span>{ $lastFourPhoneDigits }</span> 的电话号码，5 分钟内有效。请勿向任何人透露。
+reset-password-recovery-phone-input-label = 请输入 6 位验证码
+reset-password-recovery-phone-code-submit-button = 确认
+reset-password-recovery-phone-resend-code-button = 重新发送验证码
+reset-password-recovery-phone-resend-success = 验证码已发送
+# links to https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+reset-password-recovery-phone-locked-out-link = 无法通过验证？
+reset-password-recovery-phone-send-code-error-heading = 发送验证码时出现问题
+reset-password-recovery-phone-code-verification-error-heading = 验证您的验证码时出现问题
+# Follows the error message (e.g, "There was a problem sending a code")
+reset-password-recovery-phone-general-error-description = 请稍后再试。
+reset-password-recovery-phone-invalid-code-error-description = 验证码无效或已过期。
+reset-password-recovery-phone-invalid-code-error-link = 改用备用验证码？
 reset-password-with-recovery-key-verified-page-title = 密码重置成功
 reset-password-complete-new-password-saved = 已保存新密码！
 reset-password-complete-recovery-key-created = 已创建新的账户恢复密钥，请立即下载并存储。
@@ -1717,7 +1735,7 @@ signin-recovery-code-confirm-button = 确认
 signin-recovery-code-phone-link = 使用恢复电话号码
 # External link for support if the user can't use two-step autentication or a backup authentication code
 # https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
-signin-recovery-code-support-link = 被锁定了吗？
+signin-recovery-code-support-link = 无法通过验证？
 # Error displayed in a tooltip when form is submitted witout a code
 signin-recovery-code-required-error = 需要使用备用验证码
 # Message to user after they were redirected to the Mozilla account sign-in page in a new browser

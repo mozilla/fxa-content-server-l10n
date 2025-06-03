@@ -239,13 +239,38 @@ metadata-description-checkout-processing = 正在处理您的付款，请稍候�
 # Checkout error
 metadata-title-checkout-error = 错误 | { $productTitle }
 metadata-description-checkout-error = 处理您的订阅时发生错误。若此问题始终存在，请联系支持。
+# Checkout success
+metadata-title-checkout-success = 成功 | { $productTitle }
 metadata-description-checkout-success = 恭喜！您已成功完成购买。
+# Checkout needs_input
+metadata-title-checkout-needs-input = 需要操作 | { $productTitle }
+metadata-description-checkout-needs-input = 请完成必要的操作以继续付款。
+# Upgrade start
+metadata-title-upgrade-start = 升级 | { $productTitle }
+metadata-description-upgrade-start = 请输入付款详细信息以完成升级。
+# Upgrade processing
+metadata-title-upgrade-processing = 正在处理 | { $productTitle }
+metadata-description-upgrade-processing = 正在处理您的付款，请稍候。
+# Upgrade error
+metadata-title-upgrade-error = 错误 | { $productTitle }
+metadata-description-upgrade-error = 处理您的升级时发生错误。若此问题始终存在，请联系支持。
+# Upgrade success
+metadata-title-upgrade-success = 成功 | { $productTitle }
+metadata-description-upgrade-success = 恭喜！您已成功完成升级。
+# Upgrade needs_input
+metadata-title-upgrade-needs-input = 需要操作 | { $productTitle }
+metadata-description-upgrade-needs-input = 请完成必要的操作以继续付款。
 # Default
 metadata-title-default = 找不到页面 | { $productTitle }
 metadata-description-default = 找不到您请求的页面。
 
 ## Coupon Error Messages
 
+next-coupon-error-expired = 您输入的折扣码已过期。
+next-coupon-error-generic = 处理折扣码时出错，请重试。
+next-coupon-error-invalid = 您输入的折扣码无效。
+# "Limit" refers to the maximum number of times a coupon can be redeemed.
+next-coupon-error-limit-reached = 您输入的折扣码已达使用次数上限。
 
 ##
 

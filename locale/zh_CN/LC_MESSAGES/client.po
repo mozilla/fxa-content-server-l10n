@@ -1426,7 +1426,7 @@ msgstr "请输入 10 位备用验证码"
 
 #: .es5/templates/sign_in_recovery_code.mustache:7
 msgid "Are you locked out?"
-msgstr "被锁定了吗？"
+msgstr "无法通过验证？"
 
 #: .es5/templates/sign_in_reported.mustache:1
 msgid "Thank you for your vigilance"
