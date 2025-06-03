@@ -1642,6 +1642,9 @@ password-reset-recovery-method-send-code-error-description = Δοκιμάστε 
 reset-password-recovery-phone-flow-heading = Επαναφορά κωδικού πρόσβασης
 # A recovery code in context of this page is a one time code sent to the user's phone
 reset-password-recovery-phone-heading = Εισαγάγετε κωδικό ανάκτησης
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+reset-password-recovery-phone-instruction-v3 = Ένας εξαψήφιος κωδικός έχει αποσταλεί στον αριθμό τηλεφώνου που λήγει σε <span>{ $lastFourPhoneDigits }</span> μέσω μηνύματος κειμένου. Αυτός ο κωδικός λήγει μετά από 5 λεπτά. Μη μοιραστείτε αυτόν τον κωδικό με κανέναν.
 reset-password-recovery-phone-input-label = Εισαγάγετε τον εξαψήφιο κωδικό
 reset-password-recovery-phone-code-submit-button = Επιβεβαίωση
 reset-password-recovery-phone-resend-code-button = Αποστολή νέου κωδικού
@@ -1650,6 +1653,10 @@ reset-password-recovery-phone-resend-success = Ο κωδικός απεστάλ�
 reset-password-recovery-phone-locked-out-link = Έχετε κλειδωθεί;
 reset-password-recovery-phone-send-code-error-heading = Προέκυψε πρόβλημα κατά την αποστολή του κωδικού
 reset-password-recovery-phone-code-verification-error-heading = Προέκυψε πρόβλημα κατά την επαλήθευση του κωδικού σας
+# Follows the error message (e.g, "There was a problem sending a code")
+reset-password-recovery-phone-general-error-description = Δοκιμάστε ξανά αργότερα.
+reset-password-recovery-phone-invalid-code-error-description = Ο κωδικός δεν είναι έγκυρος ή έχει λήξει.
+reset-password-recovery-phone-invalid-code-error-link = Χρήση εφεδρικών κωδικών ταυτοποίησης;
 reset-password-with-recovery-key-verified-page-title = Επιτυχής επαναφορά κωδικού πρόσβασης
 reset-password-complete-new-password-saved = Ο νέος κωδικός πρόσβασης αποθηκεύτηκε!
 reset-password-complete-recovery-key-created = Το νέο κλειδί ανάκτησης λογαριασμού δημιουργήθηκε. Κάντε λήψη και αποθήκευσή του τώρα

@@ -160,6 +160,10 @@ automated-email-reset =
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext-v2 = Nëse s’e autorizuat këtë veprim, ju lutemi, ricaktoni fjalëkalimin tuaj tani, te { $resetLink }
+# Followed by link to https://accounts.firefox.com/reset_password
+automated-email-reset-pwd-plaintext-v3 = Nëse këtë veprim s’e ndërmorët ju, atëherë ricaktoni fjalëkalimin tuaj mu tani, te:
+# Followed by link to https://accounts.firefox.com/settings#two-step-authentication
+automated-email-reset-two-factor-plaintext = Riujdisni gjithashtu mirëfilltësimin dyhapësh, te:
 brand-banner-message = E dini se ndryshuam emrin tonë nga { -product-firefox-accounts } në { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Mësoni më tepër</a>
 cancellationSurvey = Ju lutemi, ndihmonani të përmirësojmë shërbimet tona duke plotësuar këtë <a data-l10n-name="cancellationSurveyUrl">pyetësor të shkurtër</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
@@ -369,6 +373,7 @@ passwordResetAccountRecovery-information = Kemi bërë nxjerrjen tuaj nga krejt 
 # After the colon there is a link to account settings
 passwordResetAccountRecovery-information-txt = Kemi bërë nxjerrjen tuaj nga krejt llogaritë në krejt pajisjet tuaja të njëkohësuara. Krijuam një kyç të ri rimarrjeje llogarie, për të zëvendësuar atë që përdorët. Mund ta ndryshoni që nga rregullimet e llogarisë tuaj:
 passwordResetAccountRecovery-action-4 = Administroni llogarinë
+passwordResetRecoveryPhone-action = Administroni llogarinë
 passwordResetWithRecoveryKeyPrompt-subject = Fjalëkalimi juaj u ricaktua
 passwordResetWithRecoveryKeyPrompt-title = Fjalëkalimi juaj u ricaktua
 # Details of the device and date/time where the password was reset
@@ -423,6 +428,10 @@ postChangeRecoveryPhone-preview = Llogari e mbrojtur nga mirëfilltësim dyfakto
 postChangeRecoveryPhone-title = Ndryshuat telefonin tuaj të rimarrjes
 postChangeRecoveryPhone-description = Tani keni një telefon të ri rimarrjeje. Numri juaj i mëparshëm telefonik u fshi.
 postChangeRecoveryPhone-requested-device = E kërkuar prej:
+postConsumeRecoveryCode-title-3 = Kodi juaj i mirëfilltësimit të kopjeruajtjes qe përdorur për të ripohuar një ricaktim fjalëkalimi
+# After the colon, there is description of the device that the backup authentication code was used on
+# E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
+postConsumeRecoveryCode-description-3 = Kod i përdorur për:
 postConsumeRecoveryCode-action = Administroni llogarinë
 postNewRecoveryCodes-subject-2 = U krijuan kode të rinj mirëfilltësimi kopjeruajtjeje
 postNewRecoveryCodes-title-2 = Krijuat kode të rinj mirëfilltësimi kopjeruajtje
@@ -618,6 +627,8 @@ subscriptionRenewalReminder-content-closing = Sinqerisht,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = Ekipi i { $productName }-s
+subscriptionReplaced-title = Pajtimi juaj është përditësuar
+subscriptionReplaced-content-no-action = Nga ana juaj s’lypset ndonjë veprim.
 subscriptionsPaymentExpired-subject-1 = Karta e kreditit për pajtimet tuaja ka skaduar, ose skadon së shpejti
 subscriptionsPaymentExpired-title-1 = Karta juaj e kreditit ka skaduar ose është afër skadimit
 subscriptionsPaymentExpired-content-1 = Karta e kreditit që po përdorni për të bërë pagesa për pajtimet vijuese ka skaduar, ose është afër skadimit.
@@ -639,6 +650,10 @@ subscriptionSubsequentInvoice-content-next-invoice = Fatura Pasuese: { $nextInvo
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = E përmirësuat me { $productName }
 subscriptionUpgrade-title = Faleminderit për përmirësimin!
+# Variables:
+# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
+# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-upgrade-info-2 = E keni përmirësuar me sukses me { $productName }.
 
 ## Variables:
 ## $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
