@@ -1631,6 +1631,18 @@ password-reset-recovery-method-send-code-error-description = Skúste to znova ne
 
 ## ResetPasswordRecoveryPhone page
 
+reset-password-recovery-phone-flow-heading = Zmeniť heslo
+# A recovery code in context of this page is a one time code sent to the user's phone
+reset-password-recovery-phone-heading = Zadajte obnovovací kód
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+reset-password-recovery-phone-instruction-v3 = Na telefónne číslo končiace číslicami <span>{ $lastFourPhoneDigits }</span> bol prostredníctvom textovej správy odoslaný šesťmiestny kód. Platnosť tohto kódu vyprší po 5 minútach. Nezdieľajte tento kód s nikým.
+reset-password-recovery-phone-input-label = Zadajte šesťmiestny kód
+reset-password-recovery-phone-code-submit-button = Potvrdiť
+reset-password-recovery-phone-resend-code-button = Znova odoslať kód
+reset-password-recovery-phone-resend-success = Kód bol odoslaný
+# links to https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+reset-password-recovery-phone-locked-out-link = Stratili ste prístup?
 reset-password-with-recovery-key-verified-page-title = Zmena hesla bolo úspešná
 reset-password-complete-new-password-saved = Nové heslo bolo uložené!
 reset-password-complete-recovery-key-created = Bol vytvorený nový kľúč na obnovenie účtu. Stiahnite si ho a uložte teraz.

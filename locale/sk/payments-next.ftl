@@ -266,6 +266,11 @@ metadata-description-default = Požadovaná stránka sa nenašla.
 
 ## Coupon Error Messages
 
+next-coupon-error-expired = Platnosť zadaného kódu vypršala.
+next-coupon-error-generic = Pri spracovaní kódu sa vyskytla chyba. Prosím, skúste to znova.
+next-coupon-error-invalid = Zadaný kód je neplatný.
+# "Limit" refers to the maximum number of times a coupon can be redeemed.
+next-coupon-error-limit-reached = Zadaný kód dosiahol svoj limit.
 
 ##
 
