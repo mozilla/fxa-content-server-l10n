@@ -266,6 +266,11 @@ metadata-description-default = De opgevraagde pagina is niet gevonden.
 
 ## Coupon Error Messages
 
+next-coupon-error-expired = De ingevoerde code is verlopen.
+next-coupon-error-generic = Er is een fout opgetreden bij het verwerken van de code. Probeer het opnieuw.
+next-coupon-error-invalid = De ingevoerde code is ongeldig.
+# "Limit" refers to the maximum number of times a coupon can be redeemed.
+next-coupon-error-limit-reached = De ingevoerde code heeft zijn limiet bereikt.
 
 ##
 

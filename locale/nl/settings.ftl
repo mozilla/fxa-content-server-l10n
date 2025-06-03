@@ -1636,6 +1636,21 @@ password-reset-recovery-method-send-code-error-description = Probeer het later o
 
 ## ResetPasswordRecoveryPhone page
 
+reset-password-recovery-phone-flow-heading = Herinitialiseer uw wachtwoord
+# A recovery code in context of this page is a one time code sent to the user's phone
+reset-password-recovery-phone-heading = Voer herstelcode in
+reset-password-recovery-phone-input-label = Voer 6-cijferige code in
+reset-password-recovery-phone-code-submit-button = Bevestigen
+reset-password-recovery-phone-resend-code-button = Code nogmaals versturen
+reset-password-recovery-phone-resend-success = Code verzonden
+# links to https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+reset-password-recovery-phone-locked-out-link = Bent u buitengesloten?
+reset-password-recovery-phone-send-code-error-heading = Er is een probleem opgetreden bij het verzenden van een code
+reset-password-recovery-phone-code-verification-error-heading = Er is een probleem opgetreden bij het verifiëren van uw code
+# Follows the error message (e.g, "There was a problem sending a code")
+reset-password-recovery-phone-general-error-description = Probeer het later opnieuw.
+reset-password-recovery-phone-invalid-code-error-description = De code is ongeldig of verlopen.
+reset-password-recovery-phone-invalid-code-error-link = Reserve-authenticatiecodes in plaats hiervan gebruiken?
 reset-password-with-recovery-key-verified-page-title = Wachtwoord met succes opnieuw ingesteld
 reset-password-complete-new-password-saved = Nieuw wachtwoord opgeslagen!
 reset-password-complete-recovery-key-created = Nieuwe accountherstelsleutel aangemaakt. Download en bewaar deze nu.
