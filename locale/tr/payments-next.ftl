@@ -259,6 +259,11 @@ metadata-description-default = İstediğiniz sayfa bulunamadı.
 
 ## Coupon Error Messages
 
+next-coupon-error-expired = Girdiğiniz kodun süresi dolmuş.
+next-coupon-error-generic = Kod işlenirken bir hata oluştu. Lütfen yeniden deneyin.
+next-coupon-error-invalid = Girdiğiniz kod geçersiz.
+# "Limit" refers to the maximum number of times a coupon can be redeemed.
+next-coupon-error-limit-reached = Girdiğiniz kodun kullanım limiti doldu.
 
 ##
 

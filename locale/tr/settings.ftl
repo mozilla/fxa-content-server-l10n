@@ -1616,6 +1616,24 @@ password-reset-recovery-method-send-code-error-description = Lütfen daha sonra 
 
 ## ResetPasswordRecoveryPhone page
 
+reset-password-recovery-phone-flow-heading = Parolanızı sıfırlayın
+# A recovery code in context of this page is a one time code sent to the user's phone
+reset-password-recovery-phone-heading = Kurtarma kodunu girin
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+reset-password-recovery-phone-instruction-v3 = <span>{ $lastFourPhoneDigits }</span> ile biten telefon numarasına kısa mesajla 6 basamaklı bir kod gönderdik. Bu kodun geçerlilik süresi 5 dakikadır. Kodu hiç kimseyle paylaşmayın.
+reset-password-recovery-phone-input-label = 6 basamaklı kodu yazın
+reset-password-recovery-phone-code-submit-button = Onayla
+reset-password-recovery-phone-resend-code-button = Kodu yeniden gönder
+reset-password-recovery-phone-resend-success = Kod gönderildi
+# links to https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+reset-password-recovery-phone-locked-out-link = Hesabınız kilitlendi mi?
+reset-password-recovery-phone-send-code-error-heading = Kod gönderilirken bir sorun oluştu
+reset-password-recovery-phone-code-verification-error-heading = Kodunuz doğrulanırken bir sorun oluştu
+# Follows the error message (e.g, "There was a problem sending a code")
+reset-password-recovery-phone-general-error-description = Lütfen daha sonra yeniden deneyin.
+reset-password-recovery-phone-invalid-code-error-description = Kod geçersiz veya süresi dolmuş.
+reset-password-recovery-phone-invalid-code-error-link = Bunun yerine yedek kimlik doğrulama kodları kullanılsın mı?
 reset-password-with-recovery-key-verified-page-title = Parola başarıyla sıfırlandı
 reset-password-complete-new-password-saved = Yeni parola kaydedildi!
 reset-password-complete-recovery-key-created = Yeni hesap kurtarma anahtarı oluşturuldu. Hemen indirip saklayın.
