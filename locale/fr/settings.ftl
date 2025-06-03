@@ -1623,7 +1623,7 @@ password-reset-recovery-method-send-code-error-description = Veuillez réessayer
 
 ## ResetPasswordRecoveryPhone page
 
-reset-password-recovery-phone-flow-heading = Réinitialiser le mot de passe
+reset-password-recovery-phone-flow-heading = Réinitialisez votre mot de passe
 # A recovery code in context of this page is a one time code sent to the user's phone
 reset-password-recovery-phone-heading = Saisissez le code de récupération
 # Text that explains the user should check their phone for a recovery code
