@@ -266,6 +266,9 @@ metadata-description-default = Η σελίδα που ζητήσατε δεν β
 
 ## Coupon Error Messages
 
+next-coupon-error-expired = Ο κωδικός που καταχωρήσατε έχει λήξει.
+next-coupon-error-generic = Προέκυψε σφάλμα κατά την επεξεργασία του κωδικού. Δοκιμάστε ξανά.
+next-coupon-error-invalid = Ο κωδικός που καταχωρήσατε δεν είναι έγκυρος.
 
 ##
 

@@ -1639,6 +1639,17 @@ password-reset-recovery-method-send-code-error-description = Δοκιμάστε 
 
 ## ResetPasswordRecoveryPhone page
 
+reset-password-recovery-phone-flow-heading = Επαναφορά κωδικού πρόσβασης
+# A recovery code in context of this page is a one time code sent to the user's phone
+reset-password-recovery-phone-heading = Εισαγάγετε κωδικό ανάκτησης
+reset-password-recovery-phone-input-label = Εισαγάγετε τον εξαψήφιο κωδικό
+reset-password-recovery-phone-code-submit-button = Επιβεβαίωση
+reset-password-recovery-phone-resend-code-button = Αποστολή νέου κωδικού
+reset-password-recovery-phone-resend-success = Ο κωδικός απεστάλη
+# links to https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+reset-password-recovery-phone-locked-out-link = Έχετε κλειδωθεί;
+reset-password-recovery-phone-send-code-error-heading = Προέκυψε πρόβλημα κατά την αποστολή του κωδικού
+reset-password-recovery-phone-code-verification-error-heading = Προέκυψε πρόβλημα κατά την επαλήθευση του κωδικού σας
 reset-password-with-recovery-key-verified-page-title = Επιτυχής επαναφορά κωδικού πρόσβασης
 reset-password-complete-new-password-saved = Ο νέος κωδικός πρόσβασης αποθηκεύτηκε!
 reset-password-complete-recovery-key-created = Το νέο κλειδί ανάκτησης λογαριασμού δημιουργήθηκε. Κάντε λήψη και αποθήκευσή του τώρα
