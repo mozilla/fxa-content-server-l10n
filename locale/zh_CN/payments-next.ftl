@@ -27,6 +27,7 @@ checkout-error-boundary-basic-error-message = 出了点问题。请重试或<con
 ## Common strings used in multiple pages
 
 next-payment-error-manage-subscription-button = 管理我的订阅
+next-iap-blocked-contact-support = 您有一份移动版应用内订阅与此产品冲突，请联系支持以获取帮助。
 next-payment-error-retry-button = 请重试
 next-basic-error-message = 出了点问题，请稍后再试。
 checkout-error-contact-support-button = 联系支持
@@ -229,6 +230,16 @@ upgrade-purchase-details-prorated-credits = 此处显示的溢余款项将以余
 ## Page Metadata Information
 ## $productTitle (String) - The name of the product to create subscription, e.g. Mozilla VPN
 
+# Checkout start
+metadata-title-checkout-start = 结算 | { $productTitle }
+metadata-description-checkout-start = 请输入付款详细信息以完成购买。
+# Checkout processing
+metadata-title-checkout-processing = 正在处理 | { $productTitle }
+metadata-description-checkout-processing = 正在处理您的付款，请稍候。
+# Checkout error
+metadata-title-checkout-error = 错误 | { $productTitle }
+metadata-description-checkout-error = 处理您的订阅时发生错误。若此问题始终存在，请联系支持。
+metadata-description-checkout-success = 恭喜！您已成功完成购买。
 # Default
 metadata-title-default = 找不到页面 | { $productTitle }
 metadata-description-default = 找不到您请求的页面。
