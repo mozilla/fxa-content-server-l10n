@@ -79,6 +79,10 @@ subplat-legal = ملاحظات حقوقی
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = محرمانگی
 subplat-privacy-website-plaintext = { subplat-privacy }:
+account-deletion-info-block-communications = اگر حساب کاربری شما حذف شود، همچنان رایانامه‌هایی از Mozilla Corporation و Mozilla Foundation دریافت خواهید کرد، مگر اینکه <a data-l10n-name="unsubscribeLink">درخواست لغو اشتراک</a> دهید.
+account-deletion-info-block-support = اگر سوالی دارید یا به کمک نیاز دارید، لطفا با <a data-l10n-name="supportLink">تیم پشتیبانی</a> ما تماس بگیرید.
+account-deletion-info-block-communications-plaintext = اگر حساب کاربری شما حذف شود، همچنان رایانامه‌هایی از Mozilla Corporation و Mozilla Foundation دریافت خواهید کرد، مگر اینکه درخواست لغو اشتراک دهید:
+account-deletion-info-block-support-plaintext = اگر سوالی دارید یا به کمک نیاز دارید، لطفا با تیم پشتیبانی ما تماس بگیرید:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-android-badge = <img data-l10n-name="google-play-badge" alt="بارگیری { $productName } از { -google-play }">
@@ -104,6 +108,10 @@ automated-email-change-2 = اگر این اقدام را انجام نداده�
 automated-email-support = برای اطلاعات بیشتر، به <a data-l10n-name="supportLink">پشتیبانی { -brand-mozilla }</a> مراجعه کنید.
 change-password-plaintext = اگر شما مشکوک هستید که فرد دیگری قصد ورود به حساب‌کاربری شما را دارد، لطفا کلمه عبور خود را تغییر دهید.
 manage-account = مدیریت حساب‌کاربری
+manage-account-plaintext = { manage-account }:
+# After the colon is how the user paid, e.g. PayPal or credit card
+payment-method = روش پرداخت:
+payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
 
 ## Variables:
 ##  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
