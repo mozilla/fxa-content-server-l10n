@@ -1639,7 +1639,7 @@ reset-password-recovery-phone-flow-heading = Jelszó visszaállítása
 reset-password-recovery-phone-heading = Adja meg a helyreállítási kódot
 # Text that explains the user should check their phone for a recovery code
 # $maskedPhoneNumber - The users masked phone number
-reset-password-recovery-phone-instruction-v3 = Egy 6 számjegyű kódot küldtek SMS-ben a <span>{ $lastFourPhoneDigits }</span> végű telefonszámra. Ez a kód 5 perc után lejár. Ne ossza meg ezt a kódot másokkal.
+reset-password-recovery-phone-instruction-v3 = SMS-ben egy 6 számjegyű kód lett küldve a(z) <span>{ $lastFourPhoneDigits }</span> végű telefonszámra. Ez a kód 5 perc után lejár. Ne ossza meg ezt a kódot másokkal.
 reset-password-recovery-phone-input-label = Adja meg a 6 számjegyű kódot
 reset-password-recovery-phone-code-submit-button = Megerősítés
 reset-password-recovery-phone-resend-code-button = Kód újraküldése
