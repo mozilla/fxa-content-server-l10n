@@ -1645,6 +1645,17 @@ reset-password-recovery-phone-heading = Ange återställningskod
 # $maskedPhoneNumber - The users masked phone number
 reset-password-recovery-phone-instruction-v3 = En 6-siffrig kod skickades till telefonnumret som slutar på <span>{ $lastFourPhoneDigits }</span> via sms. Denna kod upphör efter 5 minuter. Dela inte den här koden med någon.
 reset-password-recovery-phone-input-label = Ange 6-siffrig kod
+reset-password-recovery-phone-code-submit-button = Bekräfta
+reset-password-recovery-phone-resend-code-button = Skicka koden igen
+reset-password-recovery-phone-resend-success = Kod skickad
+# links to https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+reset-password-recovery-phone-locked-out-link = Är du utelåst?
+reset-password-recovery-phone-send-code-error-heading = Det gick inte att skicka en kod
+reset-password-recovery-phone-code-verification-error-heading = Det uppstod ett problem med att verifiera din kod
+# Follows the error message (e.g, "There was a problem sending a code")
+reset-password-recovery-phone-general-error-description = Försök igen senare.
+reset-password-recovery-phone-invalid-code-error-description = Koden är ogiltig eller har upphört.
+reset-password-recovery-phone-invalid-code-error-link = Använd reservautentiseringskoder istället?
 reset-password-with-recovery-key-verified-page-title = Lösenordsåterställningen lyckades
 reset-password-complete-new-password-saved = Nytt lösenord sparat!
 reset-password-complete-recovery-key-created = Ny nyckel för kontoåterställning skapad. Ladda ner och lagra den nu.
