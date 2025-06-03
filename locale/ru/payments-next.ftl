@@ -266,6 +266,11 @@ metadata-description-default = Запрошенная вами страница 
 
 ## Coupon Error Messages
 
+next-coupon-error-expired = Срок действия введённого вами кода истёк.
+next-coupon-error-generic = При обработке кода произошла ошибка. Пожалуйста, попробуйте ещё раз.
+next-coupon-error-invalid = Введённый вами код некорректен.
+# "Limit" refers to the maximum number of times a coupon can be redeemed.
+next-coupon-error-limit-reached = Введённый вами код достиг своего лимита.
 
 ##
 

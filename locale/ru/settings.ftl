@@ -1632,6 +1632,24 @@ password-reset-recovery-method-send-code-error-description = Пожалуйст�
 
 ## ResetPasswordRecoveryPhone page
 
+reset-password-recovery-phone-flow-heading = Сбросить пароль
+# A recovery code in context of this page is a one time code sent to the user's phone
+reset-password-recovery-phone-heading = Введите код восстановления
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+reset-password-recovery-phone-instruction-v3 = 6-значный код был отправлен на номер телефона, заканчивающийся на <span>{ $lastFourPhoneDigits }</span>, в текстовом сообщении. Срок действия этого кода истекает через 5 минут. Не делитесь этим кодом ни с кем.
+reset-password-recovery-phone-input-label = Введите код из 6 цифр
+reset-password-recovery-phone-code-submit-button = Подтвердить
+reset-password-recovery-phone-resend-code-button = Отправить код ещё раз
+reset-password-recovery-phone-resend-success = Код отправлен
+# links to https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+reset-password-recovery-phone-locked-out-link = Аккаунт заблокирован?
+reset-password-recovery-phone-send-code-error-heading = При отправке кода возникла проблема
+reset-password-recovery-phone-code-verification-error-heading = При проверке вашего кода возникла проблема
+# Follows the error message (e.g, "There was a problem sending a code")
+reset-password-recovery-phone-general-error-description = Подождите некоторое время и попробуйте снова.
+reset-password-recovery-phone-invalid-code-error-description = Код неверен или просрочен.
+reset-password-recovery-phone-invalid-code-error-link = Использовать резервные коды аутентификации?
 reset-password-with-recovery-key-verified-page-title = Пароль успешно восстановлен
 reset-password-complete-new-password-saved = Новый пароль сохранён!
 reset-password-complete-recovery-key-created = Новый ключ восстановления аккаунта создан. Загрузите и сохраните его сейчас.
