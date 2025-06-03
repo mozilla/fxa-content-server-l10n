@@ -1601,6 +1601,11 @@ password-reset-recovery-method-send-code-error-description = 請稍後再試，�
 
 ## ResetPasswordRecoveryPhone page
 
+reset-password-recovery-phone-flow-heading = 重設您的密碼
+# A recovery code in context of this page is a one time code sent to the user's phone
+reset-password-recovery-phone-heading = 請輸入救援碼
+reset-password-recovery-phone-input-label = 請輸入六位數的救援碼
+reset-password-recovery-phone-code-submit-button = 確認
 reset-password-with-recovery-key-verified-page-title = 密碼重設成功
 reset-password-complete-new-password-saved = 已儲存新密碼！
 reset-password-complete-recovery-key-created = 已建立新的帳號救援金鑰，請立即下載並儲存。

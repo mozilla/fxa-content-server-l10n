@@ -266,6 +266,11 @@ metadata-description-default = 找不到您要求的頁面。
 
 ## Coupon Error Messages
 
+next-coupon-error-expired = 您輸入的折扣碼已失效。
+next-coupon-error-generic = 處理折扣碼時發生錯誤，請再試一次。
+next-coupon-error-invalid = 您輸入的折扣碼無效。
+# "Limit" refers to the maximum number of times a coupon can be redeemed.
+next-coupon-error-limit-reached = 您輸入的折扣碼已達使用次數上限。
 
 ##
 
