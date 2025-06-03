@@ -1561,7 +1561,7 @@ confirm-backup-code-reset-password-confirm-button = Conferme
 confirm-backup-code-reset-password-subheader = Inserìs il codiç di autenticazion di backup
 confirm-backup-code-reset-password-instruction = Inserìs un dai codiçs ad ûs singul che tu âs salvât cuant che tu âs configurade la autenticazion in doi passaçs.
 # Link out to support article: https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
-confirm-backup-code-reset-password-locked-out-link = Sêstu taiât/taiade fûr da to account?
+confirm-backup-code-reset-password-locked-out-link = Sêstu taiât/taiade fûr dal to account?
 
 ## Confirm Reset Password With Code
 
@@ -1630,6 +1630,24 @@ password-reset-recovery-method-send-code-error-description = Torne prove plui in
 
 ## ResetPasswordRecoveryPhone page
 
+reset-password-recovery-phone-flow-heading = Ristabilìs la tô password
+# A recovery code in context of this page is a one time code sent to the user's phone
+reset-password-recovery-phone-heading = Inserìs il codiç di recupar
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+reset-password-recovery-phone-instruction-v3 = Al è stât inviât un SMS cuntun codiç di 6 cifris al numar che al finìs par <span>{ $lastFourPhoneDigits }</span>. Chest codiç al scjât dopo 5 minûts. No sta condividi chest codiç cun nissun.
+reset-password-recovery-phone-input-label = Inserìs il codiç a 6 cifris
+reset-password-recovery-phone-code-submit-button = Conferme
+reset-password-recovery-phone-resend-code-button = Torne mande il codiç
+reset-password-recovery-phone-resend-success = Codiç mandât
+# links to https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+reset-password-recovery-phone-locked-out-link = Sêstu taiât/taiade fûr dal to account?
+reset-password-recovery-phone-send-code-error-heading = Al è vignût fûr un probleme tal inviâ il codiç
+reset-password-recovery-phone-code-verification-error-heading = Al è vignût fûr un probleme tal verificâ il codiç
+# Follows the error message (e.g, "There was a problem sending a code")
+reset-password-recovery-phone-general-error-description = Torne prove plui tart.
+reset-password-recovery-phone-invalid-code-error-description = Il codiç nol è valit o al è scjadût.
+reset-password-recovery-phone-invalid-code-error-link = Doprâ invezit i codiç di autenticazion di backup?
 reset-password-with-recovery-key-verified-page-title = Ripristinament password lât ben
 reset-password-complete-new-password-saved = Gnove password salvade!
 reset-password-complete-recovery-key-created = E je stade creade une gnove clâf di recupar dal account. Discjamile e salvile daurman.
@@ -1745,7 +1763,7 @@ signin-recovery-code-confirm-button = Conferme
 signin-recovery-code-phone-link = Dopre il telefon pal recupar dal account
 # External link for support if the user can't use two-step autentication or a backup authentication code
 # https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
-signin-recovery-code-support-link = Sêstu taiât/taiade fûr da to account?
+signin-recovery-code-support-link = Sêstu taiât/taiade fûr dal to account?
 # Error displayed in a tooltip when form is submitted witout a code
 signin-recovery-code-required-error = Al covente il codiç di autenticazion di backup
 # Message to user after they were redirected to the Mozilla account sign-in page in a new browser
@@ -1767,7 +1785,7 @@ signin-recovery-phone-code-submit-button = Conferme
 signin-recovery-phone-resend-code-button = Torne mande il codiç
 signin-recovery-phone-resend-success = Codiç mandât
 # links to https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
-signin-recovery-phone-locked-out-link = Sêstu taiât/taiade fûr da to account?
+signin-recovery-phone-locked-out-link = Sêstu taiât/taiade fûr dal to account?
 signin-recovery-phone-send-code-error-heading = Al è vignût fûr un probleme tal inviâ il codiç
 signin-recovery-phone-code-verification-error-heading = Al è vignût fûr un probleme tal verificâ il codiç
 # Follows the error message (e.g, "There was a problem sending a code")

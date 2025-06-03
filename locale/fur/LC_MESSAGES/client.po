@@ -1437,7 +1437,7 @@ msgstr "Inserìs il codiç di autenticazion di backup di 10 cifris"
 
 #: .es5/templates/sign_in_recovery_code.mustache:7
 msgid "Are you locked out?"
-msgstr "Sêstu taiât/taiade fûr da to account?"
+msgstr "Sêstu taiât/taiade fûr dal to account?"
 
 #: .es5/templates/sign_in_reported.mustache:1
 msgid "Thank you for your vigilance"

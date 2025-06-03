@@ -266,6 +266,11 @@ metadata-description-default = La pagjine domandade no je stade cjatade.
 
 ## Coupon Error Messages
 
+next-coupon-error-expired = Il codiç inserît al è scjadût.
+next-coupon-error-generic = Al è capitât un erôr te elaborazion dal codiç. Torne prove.
+next-coupon-error-invalid = Il codiç inserît nol è valit.
+# "Limit" refers to the maximum number of times a coupon can be redeemed.
+next-coupon-error-limit-reached = Il codiç inserît al è rivât al so limit.
 
 ##
 
