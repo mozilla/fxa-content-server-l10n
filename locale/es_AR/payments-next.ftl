@@ -244,7 +244,7 @@ metadata-title-checkout-success = Éxito | { $productTitle }
 metadata-description-checkout-success = ¡Felicitaciones! Has completado exitosamente tu compra.
 # Checkout needs_input
 metadata-title-checkout-needs-input = Acción requerida | { $productTitle }
-metadata-description-checkout-needs-input = Complete la acción requerida para proceder con su pago.
+metadata-description-checkout-needs-input = Completá la acción requerida para proceder con tu pago.
 # Upgrade start
 metadata-title-upgrade-start = Actualizar | { $productTitle }
 metadata-description-upgrade-start = Ingresá tus detalles de pago para completar la actualización.
@@ -256,10 +256,10 @@ metadata-title-upgrade-error = Error | { $productTitle }
 metadata-description-upgrade-error = Hubo un error procesando la actualización. Si este problema persiste, contactá a soporte.
 # Upgrade success
 metadata-title-upgrade-success = Éxito | { $productTitle }
-metadata-description-upgrade-success = ¡Felicitaciones! Ha completado correctamente la actualización.
+metadata-description-upgrade-success = ¡Felicitaciones! Has completado exitosamente la actualización.
 # Upgrade needs_input
 metadata-title-upgrade-needs-input = Acción requerida | { $productTitle }
-metadata-description-upgrade-needs-input = Complete la acción requerida para proceder con su pago.
+metadata-description-upgrade-needs-input = Completá la acción requerida para proceder con tu pago.
 # Default
 metadata-title-default = Página no encontrada | { $productTitle }
 metadata-description-default = La página solicitada no fue encontrada.

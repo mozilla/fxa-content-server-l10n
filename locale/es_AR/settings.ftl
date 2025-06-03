@@ -1634,7 +1634,7 @@ reset-password-recovery-phone-flow-heading = Restablecé tu contraseña
 reset-password-recovery-phone-heading = Ingresá el código de recuperación
 # Text that explains the user should check their phone for a recovery code
 # $maskedPhoneNumber - The users masked phone number
-reset-password-recovery-phone-instruction-v3 = Se envió un código de 6 dígitos al número de teléfono que termina en <span>{ $lastFourPhoneDigits }</span> por mensaje de texto. Este código expira después de 5 minutos. No compartas este código con nadie.
+reset-password-recovery-phone-instruction-v3 = Se envió un código de 6 dígitos al número de teléfono que termina en <span> { $lastFourPhoneDigits }</span> por mensaje de texto. Este código caduca después de 5 minutos. No compartás este código con nadie.
 reset-password-recovery-phone-input-label = Ingresá el código de 6 dígitos
 reset-password-recovery-phone-code-submit-button = Confirmar
 reset-password-recovery-phone-resend-code-button = Reenviar codigo
@@ -1644,7 +1644,7 @@ reset-password-recovery-phone-locked-out-link = ¿Te dejaron afuera?
 reset-password-recovery-phone-send-code-error-heading = Hubo un problema enviando un código
 reset-password-recovery-phone-code-verification-error-heading = Hubo un problema verificando tu código
 # Follows the error message (e.g, "There was a problem sending a code")
-reset-password-recovery-phone-general-error-description = Inténtelo de nuevo más tarde.
+reset-password-recovery-phone-general-error-description = Probá de nuevo más tarde.
 reset-password-recovery-phone-invalid-code-error-description = El código no es válido o ya venció.
 reset-password-recovery-phone-invalid-code-error-link = ¿Usar códigos de autenticación de respaldo en su lugar?
 reset-password-with-recovery-key-verified-page-title = Contraseña restablecida correctamente
