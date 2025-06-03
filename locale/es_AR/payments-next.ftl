@@ -27,7 +27,7 @@ checkout-error-boundary-basic-error-message = Algo salió mal. Volvé a intentar
 ## Common strings used in multiple pages
 
 next-payment-error-manage-subscription-button = Administrar mi suscripción
-next-iap-blocked-contact-support = Tiene una suscripción a la aplicación móvil que entra en conflicto con este producto. Contacte a soporte para que podamos ayudarlo.
+next-iap-blocked-contact-support = Tenés una suscripción a la aplicación móvil que entra en conflicto con este producto. Contactá a soporte para que podamos ayudarte.
 next-payment-error-retry-button = Intentar de nuevo
 next-basic-error-message = Algo salió mal. Probá de nuevo más tarde.
 checkout-error-contact-support-button = Contactar soporte
