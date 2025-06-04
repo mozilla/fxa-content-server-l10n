@@ -30,6 +30,7 @@ checkout-error-boundary-basic-error-message = რაღაც ხარვეზ
 ## Common strings used in multiple pages
 
 next-payment-error-manage-subscription-button = გამოწერების მართვა
+next-iap-blocked-contact-support = თქვენ სარგებლობთ აპსშიდა შესყიდვით, რაც შეუსაბამოა ამ პროდუქტთან — გთხოვთ მიმართოთ მხარდაჭერის გუნდს, რომ შევძლოთ დახმარება.
 next-payment-error-retry-button = ხელახლა ცდა
 next-basic-error-message = რაღაც ხარვეზი წარმოიქმნა. გთხოვთ, სცადოთ მოგვიანებით.
 checkout-error-contact-support-button = დაკავშირება მხარდაჭერისთვის
@@ -247,13 +248,18 @@ metadata-description-checkout-success = გილოცავთ! თქვე�
 # Checkout needs_input
 metadata-title-checkout-needs-input = მოქმედებას საჭიროებს | { $productTitle }
 metadata-description-checkout-needs-input = გთხოვთ, შეასრულოთ საჭირო მოთხოვნა გადახდის გასაგრძელებლად.
+# Upgrade start
+metadata-title-upgrade-start = ახალი დონე | { $productTitle }
+metadata-description-upgrade-start = შეიყვანეთ თქვენი საგადასახადო მონაცემები დონის მატების დასასრულებლად.
 # Upgrade processing
 metadata-title-upgrade-processing = დამუშავება | { $productTitle }
 metadata-description-upgrade-processing = გთხოვთ, მოითმინოთ, სანამ თქვენი გადახდა მუშავდება.
 # Upgrade error
 metadata-title-upgrade-error = შეცდომა | { $productTitle }
+metadata-description-upgrade-error = დონის ცვლილების დამუშავებისას შეცდომა წარმოიქმნა. თუ ეს ხარვეზი გამეორდა, გთხოვთ მიმართოთ მხარდაჭერის გუნდს.
 # Upgrade success
 metadata-title-upgrade-success = მზადაა | { $productTitle }
+metadata-description-upgrade-success = გილოცავთ! თქვენ წარმატებით დაასრულეთ დონის ცვლილება.
 # Upgrade needs_input
 metadata-title-upgrade-needs-input = მოქმედებას საჭიროებს | { $productTitle }
 metadata-description-upgrade-needs-input = გთხოვთ, შეასრულოთ საჭირო მოთხოვნა გადახდის გასაგრძელებლად.
