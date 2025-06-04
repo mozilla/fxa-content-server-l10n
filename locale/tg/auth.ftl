@@ -317,6 +317,7 @@ passwordResetAccountRecovery-subject-2 = Ниҳонвожаи шумо аз на
 passwordResetAccountRecovery-title-3 = Ниҳонвожаи шумо аз нав барқарор карда шуд
 passwordResetAccountRecovery-action-4 = Идоракунии ҳисоб
 passwordResetRecoveryPhone-subject = Телефони барқарорсозӣ истифода карда шуд
+passwordResetRecoveryPhone-preview = Тасдиқ кунед, то мутмаин шавед, ки ин шумо будед
 passwordResetRecoveryPhone-device = Телефони барқарорсозӣ истифода карда шуд аз:
 passwordResetRecoveryPhone-action = Идоракунии ҳисоб
 passwordResetWithRecoveryKeyPrompt-subject = Ниҳонвожаи шумо аз нав барқарор карда шуд
@@ -358,11 +359,13 @@ postChangeRecoveryPhone-subject = Телефони барқарорсозӣ на
 postChangeRecoveryPhone-preview = Ҳисоб бо санҷиши ҳаққонияти дуқадама ҳифз карда шуд
 postChangeRecoveryPhone-title = Шумо телефони барқарорсозии худро иваз кардед
 postChangeRecoveryPhone-requested-device = Шумо онро дар дастгоҳи зерин дархост кардед:
+postConsumeRecoveryCode-title-3 = Нусхаи эҳтиётии рамзи санҷиши ҳаққонияти шумо барои тасдиқи барқарорсозии ниҳонвожа истифода шуд
 # After the colon, there is description of the device that the backup authentication code was used on
 # E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
 postConsumeRecoveryCode-description-3 = Рамз истифода карда шуд аз:
 postConsumeRecoveryCode-action = Идоракунии ҳисоб
 postConsumeRecoveryCode-subject-v3 = Рамзи санҷиши ҳаққоният истифода карда шуд
+postConsumeRecoveryCode-preview = Тасдиқ кунед, то мутмаин шавед, ки ин шумо будед
 postNewRecoveryCodes-subject-2 = Нусхаҳои эҳтиётии нави рамзи санҷиши ҳаққоният эҷод карда шуданд
 postNewRecoveryCodes-title-2 = Шумо нусхаҳои эҳтиётии нави рамзи санҷиши ҳаққониятро эҷод кардед
 # After the colon, there is information about the device that the authentication codes were created on
@@ -393,6 +396,8 @@ postSigninRecoveryPhone-preview = Тасдиқ кардани фаъолияти
 postSigninRecoveryPhone-title = Рақами телефони барқарорсозии шумо барои воридшавӣ истифода шуд
 postSigninRecoveryPhone-device = Шумо аз дастгоҳи зерин ворид шудед:
 postSigninRecoveryPhone-action = Идоракунии ҳисоб
+postVerify-sub-title-3 = Мо аз дидани шумо хурсандем!
+postVerify-title-2 = Мехоҳед, ки ҳамон варақаро дар ду дастгоҳ бинед?
 postVerify-subject-4 = Хуш омадед ба «{ -brand-mozilla }»!
 postVerify-setup-2 = Пайваст кардани дастгоҳи дигар:
 postVerify-action-2 = Пайваст кардани дастгоҳи дигар
