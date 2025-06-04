@@ -27,6 +27,7 @@ checkout-error-boundary-basic-error-message = Der gie wat mis. Probearje it opni
 ## Common strings used in multiple pages
 
 next-payment-error-manage-subscription-button = Myn abonnemint beheare
+next-iap-blocked-contact-support = Jo hawwe in mobyl yn-app-abonnemint dat konfliktearret mei dit produkt – nim kontakt op mei de stipeôfdieling, sadat wy jo helpe kinne.
 next-payment-error-retry-button = Opnij probearje
 next-basic-error-message = Der is wat misgien. Probearje it letter opnij.
 checkout-error-contact-support-button = Kontakt opnimme
@@ -229,6 +230,9 @@ upgrade-purchase-details-prorated-credits = It toande negative saldo wurdt as te
 ## Page Metadata Information
 ## $productTitle (String) - The name of the product to create subscription, e.g. Mozilla VPN
 
+# Checkout start
+metadata-title-checkout-start = Ofrekkenje | { $productTitle }
+metadata-description-checkout-start = Fier jo betellingsgegevens yn om jo oankeap te foltôgjen.
 
 ## Coupon Error Messages
 

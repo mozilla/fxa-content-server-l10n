@@ -1635,6 +1635,8 @@ password-reset-recovery-method-send-code-error-description = Probearje it letter
 
 ## ResetPasswordRecoveryPhone page
 
+reset-password-recovery-phone-invalid-code-error-description = De koade is ûnjildich of ferrûn.
+reset-password-recovery-phone-invalid-code-error-link = Reserve-autentikaasjekoaden yn stee hjirfan brûke?
 reset-password-with-recovery-key-verified-page-title = Wachtwurd mei sukses opnij ynsteld
 reset-password-complete-new-password-saved = Nij wachtwurd bewarre!
 reset-password-complete-recovery-key-created = Nije accountwerstelkaai oanmakke. Download en bewarje dizze no.
