@@ -233,6 +233,15 @@ upgrade-purchase-details-prorated-credits = It toande negative saldo wurdt as te
 # Checkout start
 metadata-title-checkout-start = Ofrekkenje | { $productTitle }
 metadata-description-checkout-start = Fier jo betellingsgegevens yn om jo oankeap te foltôgjen.
+# Checkout processing
+metadata-title-checkout-processing = Ferwurkje | { $productTitle }
+metadata-description-checkout-processing = In momint wylst jo betelling ferwurke wurdt.
+# Checkout error
+metadata-title-checkout-error = Flater | { $productTitle }
+metadata-description-checkout-error = Der is in flater bard by it ferwurkjen fan jo abonnemint. As dit probleem oanhâldt, nim dan kontakt op mei de stipeôfdieling.
+# Checkout success
+metadata-title-checkout-success = Slagge | { $productTitle }
+metadata-description-checkout-success = Lokwinske! Jo hawwe jo oankeap mei sukses foltôge.
 
 ## Coupon Error Messages
 
