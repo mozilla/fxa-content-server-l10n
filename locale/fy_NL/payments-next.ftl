@@ -242,9 +242,35 @@ metadata-description-checkout-error = Der is in flater bard by it ferwurkjen fan
 # Checkout success
 metadata-title-checkout-success = Slagge | { $productTitle }
 metadata-description-checkout-success = Lokwinske! Jo hawwe jo oankeap mei sukses foltôge.
+# Checkout needs_input
+metadata-title-checkout-needs-input = Aksje fereaske | { $productTitle }
+metadata-description-checkout-needs-input = Foltôgje de fereaske aksje om troch te gean mei jo betelling.
+# Upgrade start
+metadata-title-upgrade-start = Opwurdearje | { $productTitle }
+metadata-description-upgrade-start = Fier jo betellingsgegevens yn om jo opwurdearring te foltôgjen.
+# Upgrade processing
+metadata-title-upgrade-processing = Ferwurkje | { $productTitle }
+metadata-description-upgrade-processing = In momint wylst jo betelling ferwurke wurdt.
+# Upgrade error
+metadata-title-upgrade-error = Flater | { $productTitle }
+metadata-description-upgrade-error = Der is in flater bard by it ferwurkjen fan jo opwurdearring. As dit probleem oanhâldt, nim dan kontakt op mei de stipeôfdieling.
+# Upgrade success
+metadata-title-upgrade-success = Slagge | { $productTitle }
+metadata-description-upgrade-success = Lokwinske! Jo hawwe jo opwurdearring mei sukses foltôge.
+# Upgrade needs_input
+metadata-title-upgrade-needs-input = Aksje fereaske | { $productTitle }
+metadata-description-upgrade-needs-input = Foltôgje de fereaske aksje om troch te gean mei jo betelling.
+# Default
+metadata-title-default = Side net fûn | { $productTitle }
+metadata-description-default = De opfrege side is net fûn.
 
 ## Coupon Error Messages
 
+next-coupon-error-expired = De ynfierde koade is ferrûn.
+next-coupon-error-generic = Der is in flater bard by it ferwurkjen fan de koade. Probearje it opnij.
+next-coupon-error-invalid = De ynfierde koade is ûnjildich.
+# "Limit" refers to the maximum number of times a coupon can be redeemed.
+next-coupon-error-limit-reached = De ynfierde koade hat syn limyt berikt.
 
 ##
 
