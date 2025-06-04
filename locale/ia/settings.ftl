@@ -1634,6 +1634,24 @@ password-reset-recovery-method-send-code-error-description = Retenta plus tarde 
 
 ## ResetPasswordRecoveryPhone page
 
+reset-password-recovery-phone-flow-heading = Reinitialisa tu contrasigno
+# A recovery code in context of this page is a one time code sent to the user's phone
+reset-password-recovery-phone-heading = Insere le codice de recuperation
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+reset-password-recovery-phone-instruction-v3 = Un codice de 6 cifras era inviate  al numero di telephono finiente con <span>{ $lastFourPhoneDigits }</span> per message SMS. Iste codice expira post 5 minutas. Non comparti iste codice con alcuno.
+reset-password-recovery-phone-input-label = Insere le codice de 6 digitos
+reset-password-recovery-phone-code-submit-button = Confirmar
+reset-password-recovery-phone-resend-code-button = Reinviar le codice
+reset-password-recovery-phone-resend-success = Codice inviate
+# links to https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+reset-password-recovery-phone-locked-out-link = Es tu blocate?
+reset-password-recovery-phone-send-code-error-heading = Il ha habite un problema inviante un codice.
+reset-password-recovery-phone-code-verification-error-heading = Il ha habite un problema verificante tu codice.
+# Follows the error message (e.g, "There was a problem sending a code")
+reset-password-recovery-phone-general-error-description = Retenta plus tarde.
+reset-password-recovery-phone-invalid-code-error-description = Le codice non es valide o ha expirate.
+reset-password-recovery-phone-invalid-code-error-link = Usar in vice codice de authentication de salvamento?
 reset-password-with-recovery-key-verified-page-title = Contrasigno remontate con successo
 reset-password-complete-new-password-saved = Nove contrasigno salvate!
 reset-password-complete-recovery-key-created = Un nove clave de recuperation del conto ha essite create. Discarga lo e conserva lo ora.

@@ -266,6 +266,11 @@ metadata-description-default = Le pagina que tu ha requirite non era trovate.
 
 ## Coupon Error Messages
 
+next-coupon-error-expired = Le codice que tu ha inserite ha expirate.
+next-coupon-error-generic = Un error occurreva processante le codice. Retenta.
+next-coupon-error-invalid = Le codice que tu ha inserite non es valide.
+# "Limit" refers to the maximum number of times a coupon can be redeemed.
+next-coupon-error-limit-reached = Le codice que tu ha inserite ha attingite su limite.
 
 ##
 
