@@ -232,6 +232,8 @@ upgrade-purchase-details-prorated-credits = მოცემული უარ�
 ## Page Metadata Information
 ## $productTitle (String) - The name of the product to create subscription, e.g. Mozilla VPN
 
+# Checkout start
+metadata-title-checkout-start = შეძენა | { $productTitle }
 metadata-description-checkout-start = შეიყვანეთ თქვენი საგადასახადო მონაცემები შეძენის დასასრულებლად.
 # Checkout processing
 metadata-title-checkout-processing = დამუშავება | { $productTitle }
@@ -239,9 +241,33 @@ metadata-description-checkout-processing = გთხოვთ, მოითმ�
 # Checkout error
 metadata-title-checkout-error = შეცდომა | { $productTitle }
 metadata-description-checkout-error = გამოწერის დამუშავებისას შეცდომა წარმოიქმნა. თუ ეს ხარვეზი გამეორდა, გთხოვთ მიმართოთ მხარდაჭერის გუნდს.
+# Checkout success
+metadata-title-checkout-success = მზადაა | { $productTitle }
+metadata-description-checkout-success = გილოცავთ! თქვენ წარმატებით დაასრულეთ შეძენა.
+# Checkout needs_input
+metadata-title-checkout-needs-input = მოქმედებას საჭიროებს | { $productTitle }
+metadata-description-checkout-needs-input = გთხოვთ, შეასრულოთ საჭირო მოთხოვნა გადახდის გასაგრძელებლად.
+# Upgrade processing
+metadata-title-upgrade-processing = დამუშავება | { $productTitle }
+metadata-description-upgrade-processing = გთხოვთ, მოითმინოთ, სანამ თქვენი გადახდა მუშავდება.
+# Upgrade error
+metadata-title-upgrade-error = შეცდომა | { $productTitle }
+# Upgrade success
+metadata-title-upgrade-success = მზადაა | { $productTitle }
+# Upgrade needs_input
+metadata-title-upgrade-needs-input = მოქმედებას საჭიროებს | { $productTitle }
+metadata-description-upgrade-needs-input = გთხოვთ, შეასრულოთ საჭირო მოთხოვნა გადახდის გასაგრძელებლად.
+# Default
+metadata-title-default = გვერდი ვერ მოიძებნა | { $productTitle }
+metadata-description-default = თქვენ მიერ მოთხოვნილი გვერდი ვერ მოიძებნა.
 
 ## Coupon Error Messages
 
+next-coupon-error-expired = თქვენ მიერ შეყვანილი კოდი ვადაგასულია.
+next-coupon-error-generic = კოდის დამუშავებისას წარმოიშვა შეცდომა. გთხოვთ კვლავ სცადოთ.
+next-coupon-error-invalid = თქვენ მიერ შეყვანილი კოდი არამართებულია.
+# "Limit" refers to the maximum number of times a coupon can be redeemed.
+next-coupon-error-limit-reached = შეყვანილი კოდის გამოყენების რაოდენობა ამოწურულია.
 
 ##
 

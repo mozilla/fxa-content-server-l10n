@@ -695,7 +695,7 @@ msgstr "სურათის ფაილის ზომა ზედმეტ
 
 #: .es5/lib/auth-errors.js:612
 msgid "Email masks can’t be used to create an account."
-msgstr ""
+msgstr "ელფოსტის ნიღბები ვერ იქნება გამოყენებული ანგარიშის შესაქმნელად."
 
 #: .es5/lib/auth-errors.js:685
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
