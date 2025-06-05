@@ -25,6 +25,7 @@ checkout-error-boundary-basic-error-message = Oĩ osẽvaíva. Eha’ãjey upéi
 ## Common strings used in multiple pages
 
 next-payment-error-manage-subscription-button = Ñemboheraguapy jeipota
+next-iap-blocked-contact-support = Eñemboheraguapy pumbyry rembiporu’ípe ndojokupytýiva ko apopyre ndive. Eñe’ẽ pytyvõha aty ndive roipytyvõkuaa hag̃ua.
 next-payment-error-retry-button = Eha’ãjey
 next-basic-error-message = Oĩ osẽvaíva. Ikatúpiko eha’ãjey ag̃amieve.
 checkout-error-contact-support-button = Eheka Ñepytyvõha
