@@ -27,7 +27,7 @@ checkout-error-boundary-basic-error-message = Aeth rhywbeth o'i le. Ceisiwch eto
 ## Common strings used in multiple pages
 
 next-payment-error-manage-subscription-button = Rheoli fy nhanysgrifiad
-next-iap-blocked-contact-support = Mae gennych danysgrifiad mewn-app symudol sy'n gwrthdaro â'r cynnyrch hwn - cysylltwch â'r tîm cymorth fel y gallwn eich helpu.
+next-iap-blocked-contact-support = Mae gennych danysgrifiad o fewn yr ap symudol sy'n gwrthdaro â'r cynnyrch hwn - cysylltwch â'r tîm cymorth fel y gallwn eich helpu.
 next-payment-error-retry-button = Ceisiwch eto
 next-basic-error-message = Aeth rhywbeth o'i le. Ceisiwch eto.
 checkout-error-contact-support-button = Cysylltu â Chefnogaeth
