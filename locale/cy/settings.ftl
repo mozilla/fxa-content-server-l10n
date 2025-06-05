@@ -891,7 +891,7 @@ settings-recovery-phone-remove-success = Ffôn adfer wedi'i dynnu
 ## PageSetupRecoveryPhone
 
 page-setup-recovery-phone-heading = Ychwanegu ffôn adfer
-page-change-recovery-phone = Newid ffôn adfer
+page-change-recovery-phone = Newid y ffôn adfer
 page-setup-recovery-phone-back-button-title = Nôl i'r gosodiadau
 # Back arrow to return to step 1 of recovery phone setup flow
 page-setup-recovery-phone-step2-back-button-title = Newid rhif ffôn
@@ -1639,7 +1639,7 @@ reset-password-recovery-phone-flow-heading = Ailosod eich cyfrinair
 reset-password-recovery-phone-heading = Rhowch y cod adfer
 # Text that explains the user should check their phone for a recovery code
 # $maskedPhoneNumber - The users masked phone number
-reset-password-recovery-phone-instruction-v3 = Anfonwyd cod 6 digid i'r rhif ffôn sy'n gorffen â <span>{ $lastFourPhoneDigits }</span> drwy neges destun. Daw'r cod hwn i ben ar ôl 5 munud. Peidiwch â rhannu’r cod hwn ag unrhyw un.
+reset-password-recovery-phone-instruction-v3 = Anfonwyd cod 6 digid i'r rhif ffôn sy'n gorffen gyda <span>{ $lastFourPhoneDigits }</span> drwy neges destun. Daw'r cod hwn i ben ar ôl 5 munud. Peidiwch â rhannu’r cod hwn ag unrhyw un.
 reset-password-recovery-phone-input-label = Rhowch y cod 6 digid
 reset-password-recovery-phone-code-submit-button = Cadarnhau
 reset-password-recovery-phone-resend-code-button = Ail-anfon y cod
