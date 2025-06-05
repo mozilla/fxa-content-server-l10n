@@ -11,6 +11,7 @@ payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = Emoneĩraẽva’erã ne ñemboheraguapy
 location-banner-info = Ndaikatúi rojuhu ne rendaite ore jeheguireínte
 location-required-disclaimer = Roiporu ko marandu roikuaa hag̃ua impuesto ha viru rehegua.
+location-banner-currency-change = Viru moambue noñemoneĩri. Eku’ejey hag̃ua, eiporavo tetã ojokupytýva nde viru embokuatiaha ne ñemukue.
 
 ## Page - Upgrade page
 
