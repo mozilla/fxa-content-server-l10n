@@ -1639,6 +1639,9 @@ password-reset-recovery-method-send-code-error-description = Probeer het later o
 reset-password-recovery-phone-flow-heading = Herinitialiseer uw wachtwoord
 # A recovery code in context of this page is a one time code sent to the user's phone
 reset-password-recovery-phone-heading = Voer herstelcode in
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+reset-password-recovery-phone-instruction-v3 = Er is per sms een 6-cijferige code verstuurd naar het telefoonnummer eindigend op <span>{ $lastFourPhoneDigits }</span>. Deze code verloopt na 5 minuten. Deel deze code met niemand.
 reset-password-recovery-phone-input-label = Voer 6-cijferige code in
 reset-password-recovery-phone-code-submit-button = Bevestigen
 reset-password-recovery-phone-resend-code-button = Code nogmaals versturen
