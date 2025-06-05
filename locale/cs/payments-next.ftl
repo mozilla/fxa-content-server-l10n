@@ -259,7 +259,7 @@ metadata-title-upgrade-success = Úspěch | { $productTitle }
 metadata-description-upgrade-success = Gratulujeme! Úspěšně jste dokončili aktualizaci.
 # Upgrade needs_input
 metadata-title-upgrade-needs-input = Je vyžadována akce | { $productTitle }
-metadata-description-upgrade-needs-input = Pro dokončení platby prosím dokončete akci požadovanou.
+metadata-description-upgrade-needs-input = Pokud chcete pokračovat v platbě, vykonejte požadované kroky.
 # Default
 metadata-title-default = Stránka nebyla nalezena | { $productTitle }
 metadata-description-default = Požadovaná stránka nebyla nalezena.
