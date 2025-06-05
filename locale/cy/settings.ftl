@@ -1646,8 +1646,8 @@ reset-password-recovery-phone-resend-code-button = Ail-anfon y cod
 reset-password-recovery-phone-resend-success = Anfonwyd y cod
 # links to https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 reset-password-recovery-phone-locked-out-link = Ydych chi wedi'ch cloi allan?
-reset-password-recovery-phone-send-code-error-heading = Bu problem wrth anfon cod
-reset-password-recovery-phone-code-verification-error-heading = Bu problem wrth wirio'ch cod
+reset-password-recovery-phone-send-code-error-heading = Bu anhawster wrth anfon cod
+reset-password-recovery-phone-code-verification-error-heading = Bu anhawster wrth wirio'ch cod
 # Follows the error message (e.g, "There was a problem sending a code")
 reset-password-recovery-phone-general-error-description = Ceisiwch eto'n ddiweddarach.
 reset-password-recovery-phone-invalid-code-error-description = Mae'r cod yn annilys neu wedi dod i ben.
