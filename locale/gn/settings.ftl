@@ -1611,6 +1611,21 @@ password-reset-recovery-method-send-code-error-description = Eha’ã jey ag̃am
 
 ## ResetPasswordRecoveryPhone page
 
+reset-password-recovery-phone-flow-heading = Embojevyjey ne ñe’ẽñemi
+# A recovery code in context of this page is a one time code sent to the user's phone
+reset-password-recovery-phone-heading = Emoinge ayvu guerujeyrã
+reset-password-recovery-phone-input-label = Emoinge ayvu 6 taíva
+reset-password-recovery-phone-code-submit-button = Moneĩ
+reset-password-recovery-phone-resend-code-button = Emondojey ayvu
+reset-password-recovery-phone-resend-success = Ayvu mondopyre
+# links to https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+reset-password-recovery-phone-locked-out-link = ¿Rejehejáma okápe?
+reset-password-recovery-phone-send-code-error-heading = Oiko apañuái emondokuévo pe ayvu
+reset-password-recovery-phone-code-verification-error-heading = Oiko peteĩ apañuái ehechajeývo ayvu
+# Follows the error message (e.g, "There was a problem sending a code")
+reset-password-recovery-phone-general-error-description = Eha’ãjey ag̃amieve.
+reset-password-recovery-phone-invalid-code-error-description = Pe ayvu naiporãi térã ndoikovéima.
+reset-password-recovery-phone-invalid-code-error-link = ¿Eiporu ayvu ñemoneĩrã jeykekoha hendaguépe?
 reset-password-with-recovery-key-verified-page-title = Ñe’ẽñemi jeguerujeypyre
 reset-password-complete-new-password-saved = ¡Ñe’ẽñemi pyahu ñongatupyre!
 reset-password-complete-recovery-key-created = Mba’ete mba’eñemi guerujeyrã moheñoimbyre. Emboguejy ha eñongatu.
