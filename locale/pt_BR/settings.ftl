@@ -397,6 +397,12 @@ password-strength-inline-confirmed-must-match = A confirmação corresponde à n
 account-recovery-notification-cta = Criar
 account-recovery-notification-header-value = Não perca seus dados se esquecer sua senha
 account-recovery-notification-header-description = Crie uma chave de recuperação de conta para restaurar os dados de navegação sincronizados, caso esqueça sua senha.
+recovery-phone-promo-cta = Adicionar celular de recuperação
+recovery-phone-promo-heading = Adicione proteção extra à sua conta com um celular de recuperação
+recovery-phone-promo-description = Agora você pode entrar com uma senha de uso único via SMS, se não puder usar seu aplicativo de autenticação em duas etapas.
+recovery-phone-promo-info-link = Saiba mais sobre recuperação e risco de troca de SIM
+promo-banner-dismiss-button =
+    .aria-label = Descartar aviso
 
 ## Ready component
 
@@ -1526,6 +1532,10 @@ complete-reset-password-desktop-relay = O { -brand-firefox } irá tentar redirec
 
 # ConfirmBackupCodeResetPassword page
 
+confirm-backup-code-reset-password-input-label = Insira o código de 10 caracteres
+confirm-backup-code-reset-password-confirm-button = Confirmar
+confirm-backup-code-reset-password-subheader = Digite um código de autenticação de backup
+confirm-backup-code-reset-password-instruction = Digite um dos códigos de uso único que você salvou ao configurar a autenticação em duas etapas.
 
 ## Confirm Reset Password With Code
 

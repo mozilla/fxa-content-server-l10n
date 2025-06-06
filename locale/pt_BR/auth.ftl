@@ -438,7 +438,13 @@ postChangeRecoveryPhone-preview = Conta protegida por autenticação em duas eta
 postChangeRecoveryPhone-title = Você alterou seu celular de recuperação de conta
 postChangeRecoveryPhone-description = Agora você tem um novo celular de recuperação de conta. Seu número de celular anterior foi excluído.
 postChangeRecoveryPhone-requested-device = Você solicitou a partir de:
+postConsumeRecoveryCode-title-3 = Seu código de autenticação de backup foi usado para confirmar uma redefinição de senha
+# After the colon, there is description of the device that the backup authentication code was used on
+# E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
+postConsumeRecoveryCode-description-3 = Código usado de:
 postConsumeRecoveryCode-action = Gerenciar conta
+postConsumeRecoveryCode-subject-v3 = Código de autenticação de backup usado
+postConsumeRecoveryCode-preview = Verifique se foi você
 postNewRecoveryCodes-subject-2 = Criados novos códigos de autenticação de backup
 postNewRecoveryCodes-title-2 = Você criou novos códigos de autenticação de backup
 # After the colon, there is information about the device that the authentication codes were created on
@@ -633,6 +639,7 @@ subscriptionRenewalReminder-content-closing = Atenciosamente,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = A equipe do { $productName }
+subscriptionReplaced-title = Sua assinatura foi atualizada
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReplaced-content-replaced = Sua assinatura individual do { $productName } foi substituída e agora está incluída em seu novo pacote.
 subscriptionReplaced-content-credit = Você receberá um crédito por qualquer tempo não usado da sua assinatura anterior. Este crédito será aplicado automaticamente à sua conta e usado em futuras cobranças.
@@ -666,6 +673,9 @@ subscriptionUpgrade-title = Obrigado por atualizar!
 ## $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
+subscriptionUpgrade-content-charge-prorated = Foi cobrada uma taxa única de { $paymentProrated } para refletir o preço maior da sua assinatura pelo restante deste período de cobrança ({ $productPaymentCycleOld }).
+subscriptionUpgrade-content-charge-credit = Você recebeu um crédito na conta no valor de { $paymentProrated }.
+subscriptionUpgrade-content-starting = A partir da próxima fatura, sua cobrança será alterada de { $paymentAmountOld } por { $productPaymentCycleOld } para { $paymentAmountNew } por { $productPaymentCycleNew }.
 subscriptionUpgrade-auto-renew = Sua assinatura é renovada automaticamente a cada período de cobrança, a menos que você escolha cancelar.
 unblockCode-subject = Código de autorização da conta
 unblockCode-title = Foi você que tentou entrar na sua conta?
