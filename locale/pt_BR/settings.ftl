@@ -1536,6 +1536,8 @@ confirm-backup-code-reset-password-input-label = Insira o código de 10 caracter
 confirm-backup-code-reset-password-confirm-button = Confirmar
 confirm-backup-code-reset-password-subheader = Digite um código de autenticação de backup
 confirm-backup-code-reset-password-instruction = Digite um dos códigos de uso único que você salvou ao configurar a autenticação em duas etapas.
+# Link out to support article: https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+confirm-backup-code-reset-password-locked-out-link = Não consegue acessar sua conta?
 
 ## Confirm Reset Password With Code
 
@@ -1584,6 +1586,21 @@ reset-password-confirmed-cta = Continuar para { $serviceName }
 
 # password, and they previously had set up an account recovery method.
 
+password-reset-recovery-method-header = Redefina sua senha
+password-reset-recovery-method-subheader = Escolha um método de recuperação
+# This is displayed to the user when they are choosing an alternative method to authenticate themself in the password reset process when they do not have access to their two-factor authenticator application
+password-reset-recovery-method-details = Vamos garantir que é mesmo você usando seus métodos de recuperação.
+password-reset-recovery-method-phone = Celular de recuperação
+password-reset-recovery-method-code = Códigos de autenticação de backup
+# Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
+password-reset-recovery-method-code-info =
+    { $numBackupCodes ->
+        [one] { $numBackupCodes } código restante
+       *[other] { $numBackupCodes } códigos restantes
+    }
+# Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
+password-reset-recovery-method-send-code-error-heading = Houve um problema ao enviar um código para seu celular de recuperação
+password-reset-recovery-method-send-code-error-description = Tente novamente mais tarde ou use seus códigos de autenticação de backup.
 
 ## ResetPasswordRecoveryPhone page
 
