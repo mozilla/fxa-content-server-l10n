@@ -230,6 +230,7 @@ subscriptionCharges-content-tax = Impostos e taxas: { $invoiceTaxAmount }
 ##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
 
 subscriptionFirstInvoice-content-charge = Cobrado { $invoiceTotal } em { $invoiceDateOnly }
+subscriptionFirstInvoice-content-credit = Você recebeu um crédito em conta de { $invoiceTotal }, que será aplicado em suas futuras faturas.
 
 ##
 
@@ -378,6 +379,11 @@ passwordResetAccountRecovery-information = Desconectamos você de todos os seus 
 # After the colon there is a link to account settings
 passwordResetAccountRecovery-information-txt = Desconectamos você de todos os seus dispositivos sincronizados. Criamos uma nova chave de recuperação de conta para substituir a que você usou. Você pode alterar nas configurações da sua conta:
 passwordResetAccountRecovery-action-4 = Gerenciar conta
+passwordResetRecoveryPhone-subject = Usado celular de recuperação
+passwordResetRecoveryPhone-preview = Verifique se foi você
+passwordResetRecoveryPhone-title = Seu celular de recuperação foi usado para confirmar uma redefinição de senha
+passwordResetRecoveryPhone-device = Celular de recuperação usado de:
+passwordResetRecoveryPhone-action = Gerenciar conta
 passwordResetWithRecoveryKeyPrompt-subject = Sua senha foi redefinida
 passwordResetWithRecoveryKeyPrompt-title = Sua senha foi redefinida
 # Details of the device and date/time where the password was reset
