@@ -27,6 +27,7 @@ checkout-error-boundary-basic-error-message = Algo se fue a las pailas. Por favo
 ## Common strings used in multiple pages
 
 next-payment-error-manage-subscription-button = Gestionar mi suscripción
+next-iap-blocked-contact-support = Tienes una suscripción en la aplicación móvil que entra en conflicto con este producto — por favor comunícate con el servicio de soporte para que podamos ayudarte.
 next-payment-error-retry-button = Volver a intentarlo
 next-basic-error-message = Algo se fue a las pailas. Por favor, vuelve a intentarlo más tarde.
 checkout-error-contact-support-button = Contactar al soporte
@@ -229,9 +230,47 @@ upgrade-purchase-details-prorated-credits = El saldo negativo mostrado se aplica
 ## Page Metadata Information
 ## $productTitle (String) - The name of the product to create subscription, e.g. Mozilla VPN
 
+# Checkout start
+metadata-title-checkout-start = Pagar | { $productTitle }
+metadata-description-checkout-start = Ingresa tus detalles de pago para completar la compra.
+# Checkout processing
+metadata-title-checkout-processing = Procesando | { $productTitle }
+metadata-description-checkout-processing = Por favor, espera mientras terminamos de procesar tu pago.
+# Checkout error
+metadata-title-checkout-error = Error | { $productTitle }
+metadata-description-checkout-error = Hubo un error procesando tu suscripción. Si este problema persiste, contacta a soporte.
+# Checkout success
+metadata-title-checkout-success = Éxito | { $productTitle }
+metadata-description-checkout-success = ¡Felicitaciones! Has completado exitosamente tu compra.
+# Checkout needs_input
+metadata-title-checkout-needs-input = Acción requerida | { $productTitle }
+metadata-description-checkout-needs-input = Por favor, completa la acción requerida para proceder con tu pago.
+# Upgrade start
+metadata-title-upgrade-start = Actualizar | { $productTitle }
+metadata-description-upgrade-start = Ingresa tus detalles de pago para completar la actualización.
+# Upgrade processing
+metadata-title-upgrade-processing = Procesando | { $productTitle }
+metadata-description-upgrade-processing = Por favor, espera mientras terminamos de procesar tu pago.
+# Upgrade error
+metadata-title-upgrade-error = Error | { $productTitle }
+metadata-description-upgrade-error = Hubo un error procesando tu actualización. Si este problema persiste, contacta a soporte.
+# Upgrade success
+metadata-title-upgrade-success = Éxito | { $productTitle }
+metadata-description-upgrade-success = ¡Felicitaciones! Has completado exitosamente la actualización.
+# Upgrade needs_input
+metadata-title-upgrade-needs-input = Acción requerida | { $productTitle }
+metadata-description-upgrade-needs-input = Por favor, completa la acción requerida para proceder con tu pago.
+# Default
+metadata-title-default = Página no encontrada | { $productTitle }
+metadata-description-default = La página que solicitaste no fue encontrada.
 
 ## Coupon Error Messages
 
+next-coupon-error-expired = El código que ingresaste ha expirado.
+next-coupon-error-generic = Ocurrió un error al procesar el código. Por favor, vuelve a intentarlo.
+next-coupon-error-invalid = El código que ingresaste es inválido.
+# "Limit" refers to the maximum number of times a coupon can be redeemed.
+next-coupon-error-limit-reached = El código que ingresaste ha alcanzado su límite.
 
 ##
 

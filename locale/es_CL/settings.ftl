@@ -114,6 +114,9 @@ datablock-copy =
     .message = Copiado
 datablock-print =
     .message = Impreso
+# Tooltip notification when an account recovery key or one-time use code is copied.
+datablock-inline-copy =
+    .message = Copiado
 
 ## DeviceInfoBlock component
 ## The strings here are used to display information about the origin of activity happening on a user's account
@@ -639,6 +642,7 @@ flow-setup-phone-confirm-code-expired = ¿Código expirado?
 flow-setup-phone-confirm-code-resend-code-button = Reenviar código
 flow-setup-phone-confirm-code-resend-code-success = Código enviado
 flow-setup-phone-confirm-code-success-message-v2 = Teléfono de recuperación añadido
+flow-change-phone-confirm-code-success-message = Teléfono de recuperación cambiado
 
 ## FlowSetupPhoneConfirmCode
 
@@ -887,6 +891,7 @@ settings-recovery-phone-remove-success = Teléfono de recuperación eliminado
 ## PageSetupRecoveryPhone
 
 page-setup-recovery-phone-heading = Añadir teléfono de recuperación
+page-change-recovery-phone = Cambiar teléfono de recuperación
 page-setup-recovery-phone-back-button-title = Regresar a los ajustes
 # Back arrow to return to step 1 of recovery phone setup flow
 page-setup-recovery-phone-step2-back-button-title = Cambiar número de teléfono
@@ -1621,6 +1626,24 @@ password-reset-recovery-method-send-code-error-description = Por favor, vuelve a
 
 ## ResetPasswordRecoveryPhone page
 
+reset-password-recovery-phone-flow-heading = Restablecer tu contraseña
+# A recovery code in context of this page is a one time code sent to the user's phone
+reset-password-recovery-phone-heading = Ingresar código de recuperación
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+reset-password-recovery-phone-instruction-v3 = Se envió un código de 6 dígitos al número de teléfono terminado en <span>{ $lastFourPhoneDigits }</span> por mensaje de texto. Este código expira después de 5 minutos. No compartas este código con nadie.
+reset-password-recovery-phone-input-label = Ingresa el código de 6 dígitos
+reset-password-recovery-phone-code-submit-button = Confirmar
+reset-password-recovery-phone-resend-code-button = Reenviar código
+reset-password-recovery-phone-resend-success = Código enviado
+# links to https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+reset-password-recovery-phone-locked-out-link = ¿Quedaste sin poder entrar?
+reset-password-recovery-phone-send-code-error-heading = Hubo un problema al enviar un código
+reset-password-recovery-phone-code-verification-error-heading = Hubo un problema al verificar tu código
+# Follows the error message (e.g, "There was a problem sending a code")
+reset-password-recovery-phone-general-error-description = Por favor, vuelve a intentarlo más tarde.
+reset-password-recovery-phone-invalid-code-error-description = El código no es válido o ha expirado.
+reset-password-recovery-phone-invalid-code-error-link = ¿Usar un código de autenticación de respaldo en su lugar?
 reset-password-with-recovery-key-verified-page-title = Restablecimiento de contraseña exitoso
 reset-password-complete-new-password-saved = ¡Nueva contraseña guardada!
 reset-password-complete-recovery-key-created = Nueva clave de recuperación de cuenta creada. Descárgala y guárdala ahora.
