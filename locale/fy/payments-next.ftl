@@ -27,6 +27,7 @@ checkout-error-boundary-basic-error-message = Der gie wat mis. Probearje it opni
 ## Common strings used in multiple pages
 
 next-payment-error-manage-subscription-button = Myn abonnemint beheare
+next-iap-blocked-contact-support = Jo hawwe in mobyl yn-app-abonnemint dat konfliktearret mei dit produkt – nim kontakt op mei de stipeôfdieling, sadat wy jo helpe kinne.
 next-payment-error-retry-button = Opnij probearje
 next-basic-error-message = Der is wat misgien. Probearje it letter opnij.
 checkout-error-contact-support-button = Kontakt opnimme
@@ -225,3 +226,51 @@ upgrade-purchase-details-new-plan-monthly = { $productName } (moanliks)
 upgrade-purchase-details-new-plan-halfyearly = { $productName } (6 moanliks)
 upgrade-purchase-details-new-plan-yearly = { $productName } (jierliks)
 upgrade-purchase-details-prorated-credits = It toande negative saldo wurdt as tegoed op jo account byskreaun en brûkt foar takomstige faktueren.
+
+## Page Metadata Information
+## $productTitle (String) - The name of the product to create subscription, e.g. Mozilla VPN
+
+# Checkout start
+metadata-title-checkout-start = Ofrekkenje | { $productTitle }
+metadata-description-checkout-start = Fier jo betellingsgegevens yn om jo oankeap te foltôgjen.
+# Checkout processing
+metadata-title-checkout-processing = Ferwurkje | { $productTitle }
+metadata-description-checkout-processing = In momint wylst jo betelling ferwurke wurdt.
+# Checkout error
+metadata-title-checkout-error = Flater | { $productTitle }
+metadata-description-checkout-error = Der is in flater bard by it ferwurkjen fan jo abonnemint. As dit probleem oanhâldt, nim dan kontakt op mei de stipeôfdieling.
+# Checkout success
+metadata-title-checkout-success = Slagge | { $productTitle }
+metadata-description-checkout-success = Lokwinske! Jo hawwe jo oankeap mei sukses foltôge.
+# Checkout needs_input
+metadata-title-checkout-needs-input = Aksje fereaske | { $productTitle }
+metadata-description-checkout-needs-input = Foltôgje de fereaske aksje om troch te gean mei jo betelling.
+# Upgrade start
+metadata-title-upgrade-start = Opwurdearje | { $productTitle }
+metadata-description-upgrade-start = Fier jo betellingsgegevens yn om jo opwurdearring te foltôgjen.
+# Upgrade processing
+metadata-title-upgrade-processing = Ferwurkje | { $productTitle }
+metadata-description-upgrade-processing = In momint wylst jo betelling ferwurke wurdt.
+# Upgrade error
+metadata-title-upgrade-error = Flater | { $productTitle }
+metadata-description-upgrade-error = Der is in flater bard by it ferwurkjen fan jo opwurdearring. As dit probleem oanhâldt, nim dan kontakt op mei de stipeôfdieling.
+# Upgrade success
+metadata-title-upgrade-success = Slagge | { $productTitle }
+metadata-description-upgrade-success = Lokwinske! Jo hawwe jo opwurdearring mei sukses foltôge.
+# Upgrade needs_input
+metadata-title-upgrade-needs-input = Aksje fereaske | { $productTitle }
+metadata-description-upgrade-needs-input = Foltôgje de fereaske aksje om troch te gean mei jo betelling.
+# Default
+metadata-title-default = Side net fûn | { $productTitle }
+metadata-description-default = De opfrege side is net fûn.
+
+## Coupon Error Messages
+
+next-coupon-error-expired = De ynfierde koade is ferrûn.
+next-coupon-error-generic = Der is in flater bard by it ferwurkjen fan de koade. Probearje it opnij.
+next-coupon-error-invalid = De ynfierde koade is ûnjildich.
+# "Limit" refers to the maximum number of times a coupon can be redeemed.
+next-coupon-error-limit-reached = De ynfierde koade hat syn limyt berikt.
+
+##
+

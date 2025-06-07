@@ -226,6 +226,10 @@ upgrade-purchase-details-new-plan-monthly = { $productName } (mensalmente)
 upgrade-purchase-details-new-plan-halfyearly = { $productName } (6-meses)
 upgrade-purchase-details-new-plan-yearly = { $productName } (anualmente)
 upgrade-purchase-details-prorated-credits = O balanço negativo apresentado será aplicado como créditos na sua conta e utilizado para futuras faturas.
+
+## Page Metadata Information
+## $productTitle (String) - The name of the product to create subscription, e.g. Mozilla VPN
+
 # Checkout start
 metadata-title-checkout-start = Sair | { $productTitle }
 metadata-description-checkout-start = Introduza os seus dados de pagamento para concluir a sua compra.
@@ -259,3 +263,14 @@ metadata-description-upgrade-needs-input = Por favor, conclua a ação necessár
 # Default
 metadata-title-default = Página não encontrada | { $productTitle }
 metadata-description-default = A página solicitada não foi encontrada.
+
+## Coupon Error Messages
+
+next-coupon-error-expired = O código que introduziu expirou.
+next-coupon-error-generic = Ocorreu um erro ao processar o código. Por favor, tente novamente.
+next-coupon-error-invalid = O código que introduziu é inválido.
+# "Limit" refers to the maximum number of times a coupon can be redeemed.
+next-coupon-error-limit-reached = O código que introduziu chegou ao seu limite.
+
+##
+
