@@ -176,7 +176,7 @@ cancellationSurvey-plaintext = Hjælp os med at forbedre vores tjenester ved at 
 change-password-plaintext = Hvis du har mistanke om, at nogen forsøger at få adgang til din konto, så skift din adgangskode.
 manage-account = Håndter konto
 manage-account-plaintext = { manage-account }:
-payment-details = Betalingsdetaljer:
+payment-details = Betalingsoplysninger:
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 payment-plan-invoice-number = Fakturanummer: { $invoiceNumber }

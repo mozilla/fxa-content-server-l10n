@@ -231,6 +231,7 @@ upgrade-purchase-details-prorated-credits = Den viste negative saldo vil blive a
 
 # Checkout start
 metadata-title-checkout-start = Kasse | { $productTitle }
+metadata-description-checkout-start = Indtast dine betalingsoplysninger for at gennemføre dit køb.
 # Checkout processing
 metadata-title-checkout-processing = Behandler | { $productTitle }
 # Checkout error
@@ -243,6 +244,7 @@ metadata-title-checkout-needs-input = Handling påkrævet | { $productTitle }
 metadata-description-checkout-needs-input = Udfør den påkrævede handling for at fortsætte med din betaling.
 # Upgrade start
 metadata-title-upgrade-start = Opgradering | { $productTitle }
+metadata-description-upgrade-start = Indtast dine betalingsoplysninger for at gennemføre din opgradering.
 # Upgrade processing
 metadata-title-upgrade-processing = Behandler | { $productTitle }
 # Upgrade error
