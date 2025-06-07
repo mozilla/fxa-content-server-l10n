@@ -1636,6 +1636,9 @@ password-reset-recovery-method-send-code-error-description = Prøv igen senere e
 reset-password-recovery-phone-flow-heading = Nulstil din adgangskode
 # A recovery code in context of this page is a one time code sent to the user's phone
 reset-password-recovery-phone-heading = Indtast genoprettelseskode
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+reset-password-recovery-phone-instruction-v3 = En sekscifret kode blev sendt i en SMS-besked til telefonnummeret, der ender på <span>{ $lastFourPhoneDigits }</span>. Denne kode udløber efter fem minutter. Del ikke denne kode med nogen.
 reset-password-recovery-phone-code-submit-button = Bekræft
 reset-password-recovery-phone-resend-code-button = Send kode igen
 reset-password-recovery-phone-resend-success = Kode sendt
