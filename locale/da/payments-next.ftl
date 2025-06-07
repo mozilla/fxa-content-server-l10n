@@ -238,6 +238,7 @@ metadata-title-checkout-processing = Behandler | { $productTitle }
 metadata-description-checkout-processing = Vent, mens vi afslutter behandlingen af din betaling.
 # Checkout error
 metadata-title-checkout-error = Fejl | { $productTitle }
+metadata-description-checkout-error = Der opstod en fejl under behandling af dit abonnement. Kontakt supporten, hvis problemet fortsætter.
 # Checkout success
 metadata-title-checkout-success = Succes | { $productTitle }
 metadata-description-checkout-success = Tillykke! Du har gennemført dit køb.
@@ -252,6 +253,7 @@ metadata-title-upgrade-processing = Behandler | { $productTitle }
 metadata-description-upgrade-processing = Vent, mens vi afslutter behandlingen af din betaling.
 # Upgrade error
 metadata-title-upgrade-error = Fejl | { $productTitle }
+metadata-description-upgrade-error = Der opstod en fejl under behandling af din opgradering. Kontakt supporten, hvis problemet fortsætter.
 # Upgrade success
 metadata-title-upgrade-success = Succes | { $productTitle }
 metadata-description-upgrade-success = Tillykke! Du har gennemført din opgradering.
