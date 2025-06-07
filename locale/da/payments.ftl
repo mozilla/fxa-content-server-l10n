@@ -14,11 +14,11 @@ settings-project-header-title = { -product-mozilla-account }
 coupon-promo-code-applied = Rabatkode anvendt
 coupon-submit = Anvend
 coupon-remove = Fjern
-coupon-error = Den angivne kode er ugyldig eller udløbet.
+coupon-error = Den indtastede kode er ugyldig eller udløbet.
 coupon-error-generic = Der opstod en fejl under behandlingen af koden. Prøv igen.
-coupon-error-expired = Den angivne kode er udløbet.
+coupon-error-expired = Den indtastede kode er udløbet.
 coupon-error-limit-reached = Den angivne kode har nået sin grænse.
-coupon-error-invalid = Den angivne kode er ugyldig.
+coupon-error-invalid = Den indtastede kode er ugyldig.
 # $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
 coupon-enter-code =
     .placeholder = Indtast kode

@@ -234,6 +234,7 @@ metadata-title-checkout-start = Kasse | { $productTitle }
 metadata-description-checkout-start = Indtast dine betalingsoplysninger for at gennemføre dit køb.
 # Checkout processing
 metadata-title-checkout-processing = Behandler | { $productTitle }
+metadata-description-checkout-processing = Vent, mens vi afslutter behandlingen af din betaling.
 # Checkout error
 metadata-title-checkout-error = Fejl | { $productTitle }
 # Checkout success
@@ -247,6 +248,7 @@ metadata-title-upgrade-start = Opgradering | { $productTitle }
 metadata-description-upgrade-start = Indtast dine betalingsoplysninger for at gennemføre din opgradering.
 # Upgrade processing
 metadata-title-upgrade-processing = Behandler | { $productTitle }
+metadata-description-upgrade-processing = Vent, mens vi afslutter behandlingen af din betaling.
 # Upgrade error
 metadata-title-upgrade-error = Fejl | { $productTitle }
 # Upgrade success
@@ -261,7 +263,9 @@ metadata-description-default = Siden, du bad om, blev ikke fundet.
 
 ## Coupon Error Messages
 
+next-coupon-error-expired = Den indtastede kode er udløbet.
 next-coupon-error-generic = Der opstod en fejl under behandlingen af koden. Prøv igen.
+next-coupon-error-invalid = Den indtastede kode er ugyldig.
 
 ##
 
