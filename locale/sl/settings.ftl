@@ -1639,7 +1639,7 @@ reset-password-recovery-phone-flow-heading = Ponastavite geslo
 reset-password-recovery-phone-heading = Vnesite kodo za obnovitev
 # Text that explains the user should check their phone for a recovery code
 # $maskedPhoneNumber - The users masked phone number
-reset-password-recovery-phone-instruction-v3 = Na telefonsko številko, ki se končuje s <span>{ $lastFourPhoneDigits }</span>, je bila poslana 6-mestna koda v obliki sporočila SMS. Koda poteče po 5 minutah. Ne delite te kode z nikomer.
+reset-password-recovery-phone-instruction-v3 = Na telefonsko številko, ki se končuje s <span>{ $lastFourPhoneDigits }</span>, je bila poslana 6-mestna koda v obliki sporočila SMS. Koda poteče po 5 minutah. Ne delite je z nikomer.
 reset-password-recovery-phone-input-label = Vnesite 6-mestno kodo
 reset-password-recovery-phone-code-submit-button = Potrdi
 reset-password-recovery-phone-resend-code-button = Znova pošlji kodo
@@ -1650,7 +1650,7 @@ reset-password-recovery-phone-send-code-error-heading = Pri pošiljanju kode je 
 reset-password-recovery-phone-code-verification-error-heading = Pri preverjanju kode je prišlo do težave
 # Follows the error message (e.g, "There was a problem sending a code")
 reset-password-recovery-phone-general-error-description = Poskusite znova kasneje.
-reset-password-recovery-phone-invalid-code-error-description = Koda je neveljavna ali pretečena.
+reset-password-recovery-phone-invalid-code-error-description = Koda je neveljavna ali ji je potekla veljavnost.
 reset-password-recovery-phone-invalid-code-error-link = Želite namesto tega uporabiti rezervne overitvene kode?
 reset-password-with-recovery-key-verified-page-title = Ponastavitev gesla je uspela
 reset-password-complete-new-password-saved = Novo geslo shranjeno!
