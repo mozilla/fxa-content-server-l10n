@@ -1636,6 +1636,17 @@ password-reset-recovery-method-send-code-error-description = Prøv igen senere e
 reset-password-recovery-phone-flow-heading = Nulstil din adgangskode
 # A recovery code in context of this page is a one time code sent to the user's phone
 reset-password-recovery-phone-heading = Indtast genoprettelseskode
+reset-password-recovery-phone-code-submit-button = Bekræft
+reset-password-recovery-phone-resend-code-button = Send kode igen
+reset-password-recovery-phone-resend-success = Kode sendt
+# links to https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+reset-password-recovery-phone-locked-out-link = Er du blevet låst ude?
+reset-password-recovery-phone-send-code-error-heading = Der opstod et problem med at sende en kode
+reset-password-recovery-phone-code-verification-error-heading = Der opstod et problem med at bekræfte din kode
+# Follows the error message (e.g, "There was a problem sending a code")
+reset-password-recovery-phone-general-error-description = Prøv igen senere.
+reset-password-recovery-phone-invalid-code-error-description = Koden er ugyldig eller udløbet.
+reset-password-recovery-phone-invalid-code-error-link = Brug reserve-godkendelseskoder i stedet?
 reset-password-with-recovery-key-verified-page-title = Adgangskoden er blevet nulstillet
 reset-password-complete-new-password-saved = Ny adgangskode gemt!
 reset-password-complete-recovery-key-created = Ny genoprettelsesnøgle til kontoen oprettet. Hent og gem den nu.
