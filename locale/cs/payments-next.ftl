@@ -225,7 +225,7 @@ upgrade-purchase-details-new-plan-weekly = { $productName } (týdně)
 upgrade-purchase-details-new-plan-monthly = { $productName } (měsíčně)
 upgrade-purchase-details-new-plan-halfyearly = { $productName } (6 měsíců)
 upgrade-purchase-details-new-plan-yearly = { $productName } (ročně)
-upgrade-purchase-details-prorated-credits = Zobrazený záporný zůstatek bude připsán ve prospěch vašeho účtu a bude použit k úhradě budoucích faktur.
+upgrade-purchase-details-prorated-credits = Uvedený záporný zůstatek bude použit jako kredit na vašem účtu a bude použit na budoucí faktury.
 
 ## Page Metadata Information
 ## $productTitle (String) - The name of the product to create subscription, e.g. Mozilla VPN
@@ -244,7 +244,7 @@ metadata-title-checkout-success = Úspěch | { $productTitle }
 metadata-description-checkout-success = Gratulujeme! Úspěšně jste dokončili svůj nákup.
 # Checkout needs_input
 metadata-title-checkout-needs-input = Je vyžadována akce | { $productTitle }
-metadata-description-checkout-needs-input = Pro dokončení platby prosím dokončete akci požadovanou.
+metadata-description-checkout-needs-input = Pro provedení platby vyplňte požadovanou akci.
 # Upgrade start
 metadata-title-upgrade-start = Aktualizace | { $productTitle }
 metadata-description-upgrade-start = Pro dokončení aktualizace zadejte své platební údaje.
