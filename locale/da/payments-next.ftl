@@ -229,6 +229,12 @@ upgrade-purchase-details-prorated-credits = Den viste negative saldo vil blive a
 ## Page Metadata Information
 ## $productTitle (String) - The name of the product to create subscription, e.g. Mozilla VPN
 
+# Checkout start
+metadata-title-checkout-start = Kasse | { $productTitle }
+# Checkout processing
+metadata-title-checkout-processing = Behandler | { $productTitle }
+# Checkout error
+metadata-title-checkout-error = Fejl | { $productTitle }
 
 ## Coupon Error Messages
 
