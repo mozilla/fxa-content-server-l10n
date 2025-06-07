@@ -114,6 +114,9 @@ datablock-copy =
     .message = Kopieret
 datablock-print =
     .message = Udskrevet
+# Tooltip notification when an account recovery key or one-time use code is copied.
+datablock-inline-copy =
+    .message = Kopieret
 
 ## DeviceInfoBlock component
 ## The strings here are used to display information about the origin of activity happening on a user's account
@@ -641,6 +644,7 @@ flow-setup-phone-confirm-code-expired = Er koden udløbet?
 flow-setup-phone-confirm-code-resend-code-button = Send kode igen
 flow-setup-phone-confirm-code-resend-code-success = Kode sendt
 flow-setup-phone-confirm-code-success-message-v2 = Telefonnummer til genoprettelse tilføjet
+flow-change-phone-confirm-code-success-message = Telefonnummer til genoprettelse ændret
 
 ## FlowSetupPhoneConfirmCode
 
@@ -890,6 +894,7 @@ settings-recovery-phone-remove-success = Telefonnummer til genoprettelse fjernet
 ## PageSetupRecoveryPhone
 
 page-setup-recovery-phone-heading = Tilføj telefonnummer til genoprettelse
+page-change-recovery-phone = Skift telefonnummer til genoprettelse
 page-setup-recovery-phone-back-button-title = Tilbage til indstillinger
 # Back arrow to return to step 1 of recovery phone setup flow
 page-setup-recovery-phone-step2-back-button-title = Skift telefonnummer
@@ -1628,6 +1633,9 @@ password-reset-recovery-method-send-code-error-description = Prøv igen senere e
 
 ## ResetPasswordRecoveryPhone page
 
+reset-password-recovery-phone-flow-heading = Nulstil din adgangskode
+# A recovery code in context of this page is a one time code sent to the user's phone
+reset-password-recovery-phone-heading = Indtast genoprettelseskode
 reset-password-with-recovery-key-verified-page-title = Adgangskoden er blevet nulstillet
 reset-password-complete-new-password-saved = Ny adgangskode gemt!
 reset-password-complete-recovery-key-created = Ny genoprettelsesnøgle til kontoen oprettet. Hent og gem den nu.

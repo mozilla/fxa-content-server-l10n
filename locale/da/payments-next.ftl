@@ -235,9 +235,31 @@ metadata-title-checkout-start = Kasse | { $productTitle }
 metadata-title-checkout-processing = Behandler | { $productTitle }
 # Checkout error
 metadata-title-checkout-error = Fejl | { $productTitle }
+# Checkout success
+metadata-title-checkout-success = Succes | { $productTitle }
+metadata-description-checkout-success = Tillykke! Du har gennemført dit køb.
+# Checkout needs_input
+metadata-title-checkout-needs-input = Handling påkrævet | { $productTitle }
+metadata-description-checkout-needs-input = Udfør den påkrævede handling for at fortsætte med din betaling.
+# Upgrade start
+metadata-title-upgrade-start = Opgradering | { $productTitle }
+# Upgrade processing
+metadata-title-upgrade-processing = Behandler | { $productTitle }
+# Upgrade error
+metadata-title-upgrade-error = Fejl | { $productTitle }
+# Upgrade success
+metadata-title-upgrade-success = Succes | { $productTitle }
+metadata-description-upgrade-success = Tillykke! Du har gennemført din opgradering.
+# Upgrade needs_input
+metadata-title-upgrade-needs-input = Handling påkrævet | { $productTitle }
+metadata-description-upgrade-needs-input = Udfør den påkrævede handling for at fortsætte med din betaling.
+# Default
+metadata-title-default = Siden blev ikke fundet | { $productTitle }
+metadata-description-default = Siden, du bad om, blev ikke fundet.
 
 ## Coupon Error Messages
 
+next-coupon-error-generic = Der opstod en fejl under behandlingen af koden. Prøv igen.
 
 ##
 
