@@ -27,6 +27,7 @@ checkout-error-boundary-basic-error-message = Noget gik galt. Prøv igen eller <
 ## Common strings used in multiple pages
 
 next-payment-error-manage-subscription-button = Håndter mine abonnementer
+next-iap-blocked-contact-support = Du har købt et abonnement i mobil-appen, der er i konflikt med dette produkt. Kontakt supporten, så vi kan hjælpe dig.
 next-payment-error-retry-button = Prøv igen
 next-basic-error-message = Noget gik galt. Prøv igen senere.
 checkout-error-contact-support-button = Kontakt Support
@@ -266,6 +267,8 @@ metadata-description-default = Siden, du bad om, blev ikke fundet.
 next-coupon-error-expired = Den indtastede kode er udløbet.
 next-coupon-error-generic = Der opstod en fejl under behandlingen af koden. Prøv igen.
 next-coupon-error-invalid = Den indtastede kode er ugyldig.
+# "Limit" refers to the maximum number of times a coupon can be redeemed.
+next-coupon-error-limit-reached = Den indtastede kode kan ikke bruges mere.
 
 ##
 
