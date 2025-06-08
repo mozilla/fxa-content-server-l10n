@@ -554,7 +554,7 @@ dc-subheader-ff-browser = Navicaturi { -brand-firefox }
 dc-subheader-content-2 = Pirmèttici ê { -product-mozilla-accounts } di mannàrici a { -brand-mozilla } i dati tècnici e di ntirazzioni.
 dc-subheader-ff-content = Pi virificari o attualizzari i paràmitri tècnici e i mpustazzioni dî dati di ntirazzioni di { -brand-firefox }, grapi i mpustazzioni di { -brand-firefox } e vai nne Privatizza e Sicurizza.
 dc-opt-out-success-2 = Sdisattivatu. { -product-mozilla-accounts } nun manna cchiù dati tècnici o di ntirazzioni a { -brand-mozilla }.
-dc-opt-in-success-2 = Grazzi! Spàrtiri sti dati n'ajuta a ammigghiurari { -product-mozilla-accounts }.
+dc-opt-in-success-2 = Grazzi! Spàrtiri sti dati n'ajuta a fari megghiu { -product-mozilla-accounts }.
 dc-opt-in-out-error-2 = Ni dispiaci, cci fu un prubblema mentri chi canciava i to prifirenzi ncapu â ricota dî dati.
 dc-learn-more = Cchiù nfurmazzioni
 

@@ -161,9 +161,9 @@ automated-email-reset =
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext-v2 = Si nun auturizzasti st'azzioni, pi favuri risetta a to chiavi ora: { $resetLink }
 brand-banner-message = U sai chi canciammu nomu di { -product-firefox-accounts } a { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Cchiù nfurmazzioni</a>
-cancellationSurvey = Pi favuri ajùtani a 'mmigghiurari i nostri sirbizzi arrispunnennu a sta <a data-l10n-name="cancellationSurveyUrl">ntirbista nicareḍḍa</a>.
+cancellationSurvey = Pi favuri ajùtani a fari megghiu i nostri sirbizzi arrispunnennu a sta <a data-l10n-name="cancellationSurveyUrl">ntirbista nicareḍḍa</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
-cancellationSurvey-plaintext = Pi favuri ajùtani a 'mmigghiurari i nostri sirbizzi arrispunnennu a sta ntirbista nicareḍḍa:
+cancellationSurvey-plaintext = Pi favuri ajùtani a fari megghiu i nostri sirbizzi arrispunnennu a sta ntirbista nicareḍḍa:
 change-password-plaintext = Si ài u suspettu chi quarchidunu sta pruvannu a tràsiri nnô to cuntu, pi favuri cancia a to chiavi.
 manage-account = Manija cuntu
 manage-account-plaintext = { manage-account }:
