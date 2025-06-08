@@ -393,7 +393,7 @@ passwordResetWithRecoveryKeyPrompt-action = Crìa na chiavi di ricùpiru dû cun
 # colon is followed by a link to create an account recovery key from the account settings page
 passwordResetWithRecoveryKeyPrompt-action-txt = Crìa na chiavi di ricùpiru dû cuntu:
 passwordResetWithRecoveryKeyPrompt-cta-description = Hâ tràsiri arrè nna tutti i to dispusitivi sincrunizzati. A pròssima vota, teni i to dati ô sicuru cu na chiavi di ricùpiru dû cuntu. Chistu ti duna a pussibbilità di ricupigghiari i to dati si ti scurdasti a chiavi.
-postAddAccountRecovery-subject-3 = Chiavi di ricùpiru dû cuntu criata nova
+postAddAccountRecovery-subject-3 = Criasti na chiavi di ricùpiru dû cuntu nova
 postAddAccountRecovery-title2 = Criasti na chiavi di ricùpiru dû cuntu nova
 # Key here refers to account recovery key
 postAddAccountRecovery-body-part1 = Sarba sta chiavi nnôn locu sicuru — ti serbi si vo' ricupigghiari i to dati crittati di navicazzioni si ti scordi a chiavi.

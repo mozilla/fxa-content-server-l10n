@@ -607,7 +607,7 @@ flow-recovery-key-download-next-link-v2 = Cuntinua senza scarricari
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
 # Success message displayed in alert bar after the user has finished creating an account recovery key.
-flow-recovery-key-success-alert = Chiavi di ricùpiru dû cuntu criata
+flow-recovery-key-success-alert = Criasti na chiavi di ricùpiru dû cuntu
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
@@ -712,6 +712,7 @@ tfa-replace-code-success-1 = Foru criati còdici novi. Sarba sti còdici d'autin
 tfa-replace-code-success-alert-4 = Còdici d'autinticazzioni di sicurizza attualizzati
 tfa-replace-code-1-2 = Passu 1 di 2
 tfa-replace-code-2-2 = Passu 2 di 2
+tfa-enter-code-to-confirm-v2 = Pi favuri metti unu dî còdici d'autinticazzioni di sicurizza chi facisti novi pi cunfirmari chi i sarbasti. Na vota chi cumpleti stu cuntrollu, i to còdici vecchi sunnu sdisabbilitati.
 
 ## Avatar change page
 
@@ -836,10 +837,10 @@ recent-activity-account-two-factor-success = L'autinticazzioni a du' fattura jì
 recent-activity-account-two-factor-removed = Fu livata l'autinticazzioni a du' fattura
 recent-activity-account-password-reset-requested = Fu addumannata na rimpustazzioni dâ chiavi
 recent-activity-account-password-reset-success = A rimpustazzioni dâ chiavi jìu bonu
-recent-activity-account-recovery-key-added = Fu abbilitata a chiavi di ricùpiru dû cuntu
+recent-activity-account-recovery-key-added = Abbilitasti a chiavi di ricùpiru dû cuntu
 recent-activity-account-recovery-key-verification-failure = Sfallìu a virìfica dâ chiavi di ricùpiru dû cuntu
 recent-activity-account-recovery-key-verification-success = A virìfica dâ chiavi di ricùpiru dû cuntu jìu bonu
-recent-activity-account-recovery-key-removed = Fu livata a chiavi di ricùpiru dû cuntu
+recent-activity-account-recovery-key-removed = Livasti a chiavi di ricùpiru dû cuntu
 recent-activity-account-password-added = Fu junciuta na chiavi nova
 recent-activity-account-password-changed = Chiavi canciata
 recent-activity-account-secondary-email-added = Fu junciutu nu nnirizzu di posta elittrònica sicunnariu
@@ -885,6 +886,7 @@ settings-recovery-phone-remove-success = Nùmmaru di tilèfunu di ricùpiru scan
 ## PageSetupRecoveryPhone
 
 page-setup-recovery-phone-heading = Junci u nùmmaru di tilèfunu di ricùpiru dû cuntu
+page-change-recovery-phone = Cancia u nùmmaru di tilèfunu di ricùpiru
 page-setup-recovery-phone-back-button-title = Torna ê mpustazzioni
 # Back arrow to return to step 1 of recovery phone setup flow
 page-setup-recovery-phone-step2-back-button-title = Cancia u nùmmaru di tilèfunu
@@ -952,13 +954,26 @@ tfa-scan-this-code = Scanziuna stu còdici QR usannu una di <linkExternal>st'app
 tfa-qa-code-alt = Usa u còdici { $secret } pi cunfijurari l'autinticazzioni a du' fattura nni l'applicazzioni suppurtati.
 tfa-qa-code =
     .alt = { tfa-qa-code-alt }
+tfa-button-cant-scan-qr = Nun po' scanziunari u còdici?
+# When the user cannot use a QR code.
+tfa-enter-secret-key = Metti stu còdici sicritu nnâ to applicazzioni d'autinticazzioni:
+tfa-enter-totp-v2 = Ora metti u còdici d'autinticazzioni chi ti duna l'applicazzioni.
+tfa-input-enter-totp-v2 =
+    .label = Metti u còdici d'autinticazzioni
+tfa-save-these-codes-1 = Sàrbati sti còdici d'autinticazzioni di sicurizza nnôn postu sicuru pi quannu nun ài u to dispusitivu mòbbili.
 # codes here refers to backup authentication codes
 tfa-enter-code-to-confirm-setup = Cunferma chi sarbasti i to còdici mittènnunni unu. Senza di sti còdici, nun po' tràsiri nnô to cuntu senza l'app d'autinticazzioni.
+tfa-enter-recovery-code-1 =
+    .label = Metti un còdici d'autinticazzioni di sicurizza
 
 ## Product promotion
 
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
+product-promo-monitor-description = Scopri unni nisceru fora i to nfurmazzioni pirsunali — e pigghiatilli nn'arrè
+product-promo-monitor-plus-description = A privatizza è mpurtanti: scopri unni nisceru fora i to nfurmazzioni pirsunali e pigghiatilli nn'arrè
+# Links out to the Monitor site
+product-promo-monitor-cta = Fai na risciduta a francu
 # Links out to the Monitor pricing site
 product-promo-monitor-plus-cta = Accumincia
 
@@ -1063,7 +1078,7 @@ rk-action-create = Crìa
 # Button to delete the existing account recovery key and create a new one
 rk-action-change-button = Cancia
 rk-action-remove = Leva
-rk-key-removed-2 = Fu livata a chiavi di ricùpiru dû cuntu
+rk-key-removed-2 = Livasti a chiavi di ricùpiru dû cuntu
 rk-cannot-remove-key = Nun potti livari a to chiavi di ricùpiru dû cuntu.
 rk-refresh-key-1 = Attualizza a chiavi di ricùpiru dû cuntu
 rk-content-explain = Ricupigghia i to nfurmazzioni quannu ti scordi a chiavi.
@@ -1140,6 +1155,7 @@ auth-error-1003 = L'archiviu lucali o i viscotta sunnu ancora sdisabbilitati
 auth-error-1008 = A to chiavi nova àv'a siri diversa
 auth-error-1010 = È nicissaria na chiavi vàlita
 auth-error-1011 = È nicissariu nu nnirizzu di posta elittrònica vàlitu
+auth-error-1018 = L'e-mail di cunferma turnau nn'arrè. Sbagghiasti a scrìviri u nnirizzu?
 auth-error-1031 = Pi cumplitari a riggistrazzioni hâ mèttiri a to età
 auth-error-1032 = Pi cumplitari a riggistrazzioni hâ mèttiri n'età vàlita
 auth-error-1054 = U còdici d'autinticazzioni a du' fattura nun è vàlitu
@@ -1212,6 +1228,8 @@ index-email-bounced = L'e-mail di cunferma turnau nn'arrè. Sbagghiasti a scrìv
 
 ## InlineRecoveryKeySetup page component
 
+inline-recovery-key-setup-create-error = Ah! Nun pòttimu criari a to chiavi di ricùpiru dû cuntu. Pi favuri torna a prova cchiù tardu.
+inline-recovery-key-setup-recovery-created = Criasti na chiavi di ricùpiru dû cuntu
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
@@ -1428,7 +1446,7 @@ reset-password-confirmed-cta = Cuntinua nne { $serviceName }
 
 reset-password-with-recovery-key-verified-page-title = U risettu dâ chiavi jìu bonu
 reset-password-complete-new-password-saved = A chiavi nova fu sarbata!
-reset-password-complete-recovery-key-created = A chiavi di ricùpiru dû cuntu nova fu criata. Scàrricala e sàrbala sùbbitu.
+reset-password-complete-recovery-key-created = Criasti na chiavi di ricùpiru dû cuntu. Scàrricala e sàrbala sùbbitu.
 reset-password-complete-recovery-key-download-info = Sta chiavi è essinziali pi ricupigghiari i to dati si ti scordi a chiavi. <b>Scàrricala e sàrbala sùbbitu, picchì nun è pussìbbili turnari arrè a sta pàggina</b>.
 
 ## CompleteSignin component
