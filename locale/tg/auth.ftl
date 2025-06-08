@@ -263,6 +263,7 @@ fraudulentAccountDeletion-contact = Агар шумо ягон савол дош
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Агар шумо ягон савол дошта бошед, лутфан, бо дастаи дастгирии мо дар тамос шавед: { $mozillaSupportUrl }
 inactiveAccountFinalWarning-subject = Охирин имконият барои нигоҳ доштани «{ -product-mozilla-account }»-и худ
+inactiveAccountFinalWarning-title = Ҳисоб ва маълумоти шахсии шумо дар «{ -brand-mozilla }» нест карда мешавад
 inactiveAccountFinalWarning-preview = Барои нигоҳ доштани ҳисоби худ ворид шавед
 inactiveAccountFinalWarning-action = Барои нигоҳ доштани ҳисоби худ ворид шавед
 # followed by link to sign in
@@ -339,6 +340,9 @@ postAddLinkedAccount-action = Идоракунии ҳисоб
 postAddRecoveryPhone-subject = Телефони барқарорсозӣ илова карда шуд
 postAddRecoveryPhone-preview = Ҳисоб бо санҷиши ҳаққонияти дуқадама ҳифз карда шуд
 postAddRecoveryPhone-title-v2 = Шумо рақами телефони барқарорсозиро илова кардед
+# Variables:
+#  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
+postAddRecoveryPhone-description-v2 = Шумо «{ $maskedLastFourPhoneNumber }»-ро ҳамчун рақами телефони барқарорсозӣ илова кардед
 # Links out to a support article about two factor authentication
 postAddRecoveryPhone-how-protect = Ин чӣ тавр ҳисоби шуморо муҳофизат мекунад
 postAddRecoveryPhone-how-protect-plaintext = Ин чӣ тавр ҳисоби шуморо муҳофизат мекунад:

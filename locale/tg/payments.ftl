@@ -14,6 +14,8 @@ settings-project-header-title = { -product-mozilla-account }
 coupon-promo-code-applied = Рамзи таблиғотӣ татбиқ карда шуд
 coupon-submit = Татбиқ кардан
 coupon-remove = Тоза кардан
+coupon-error = Рамзе, ки шумо ворид кардед, нодуруст аст ё аз муҳлаташ гузашт.
+coupon-error-expired = Рамзе, ки шумо ворид кардед, аз муҳлаташ гузашт.
 coupon-error-invalid = Рамзе, ки шумо ворид кардед, нодуруст аст.
 # $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
 coupon-enter-code =
