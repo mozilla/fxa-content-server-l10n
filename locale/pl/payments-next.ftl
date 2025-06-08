@@ -228,6 +228,21 @@ upgrade-purchase-details-new-plan-yearly = { $productName } (rocznie)
 ## Page Metadata Information
 ## $productTitle (String) - The name of the product to create subscription, e.g. Mozilla VPN
 
+# Checkout processing
+metadata-title-checkout-processing = Przetwarzanie | { $productTitle }
+# Checkout error
+metadata-title-checkout-error = Błąd | { $productTitle }
+# Checkout success
+metadata-title-checkout-success = Sukces | { $productTitle }
+# Checkout needs_input
+metadata-title-checkout-needs-input = Wymagane działanie | { $productTitle }
+metadata-description-checkout-needs-input = Aby dokonać płatności, wykonaj wymagane czynności.
+# Upgrade processing
+metadata-title-upgrade-processing = Przetwarzanie | { $productTitle }
+# Upgrade error
+metadata-title-upgrade-error = Błąd | { $productTitle }
+# Upgrade success
+metadata-title-upgrade-success = Sukces | { $productTitle }
 
 ## Coupon Error Messages
 
