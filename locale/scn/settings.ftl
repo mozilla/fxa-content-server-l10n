@@ -1203,6 +1203,8 @@ index-subheader-with-logo = Cuntinua nne <span>{ $serviceLogo }</span>
 index-subheader-default = Cuntinua ê mpustazzioni dû cuntu
 index-cta = Riggìstrati o trasi
 index-account-info = Un { -product-mozilla-account } ti duna l'accessu a autri prudutti di { -brand-mozilla } chi prutègginu a to privatizza.
+index-email-input =
+    .label = Metti u to nnirizzu di posta elittrònica
 # When users delete their Mozilla account inside account Settings, they are redirected to this page with a success message
 index-account-delete-success = U cuntu fu scancillatu bonu
 # Displayed when users try to sign up for an account and their confirmation code email bounces
