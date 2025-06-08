@@ -27,6 +27,7 @@ checkout-error-boundary-basic-error-message = Cci fu un prubblema. Pi favuri tor
 ## Common strings used in multiple pages
 
 next-payment-error-manage-subscription-button = Manija u me abbunamentu
+next-iap-blocked-contact-support = Ài n'abbunamentu in-app fattu d'un dispusitivu mòbbili chi va 'n cunflittu cu stu pruduttu — pi favuri cuntatta l'assistenza p'addumannari ajutu.
 next-payment-error-retry-button = Prova arrè
 next-basic-error-message = Cci fu un prubblema. Pi favuri torna a prova cchiù tardu.
 checkout-error-contact-support-button = Cuntatta l'assistenza
@@ -228,9 +229,45 @@ upgrade-purchase-details-new-plan-yearly = { $productName } (a l'annu)
 ## Page Metadata Information
 ## $productTitle (String) - The name of the product to create subscription, e.g. Mozilla VPN
 
+# Checkout start
+metadata-title-checkout-start = Pagamentu | { $productTitle }
+metadata-description-checkout-start = Metti i nfurmazzioni pû pagamentu pi cumplitari l'accàttitu.
+# Checkout processing
+metadata-title-checkout-processing = Pagamentu 'n cursu | { $productTitle }
+metadata-description-checkout-processing = Pi favuri aspetta mentri chi cumplitamu u to pagamentu.
+# Checkout error
+metadata-title-checkout-error = Erruri | { $productTitle }
+metadata-description-checkout-error = Cci fu n'erruri mentri chi cunfirmàvamu l'abbunamentu. Si stu prubblema arresta, pi favuri cuntatta l'assistenza.
+# Checkout success
+metadata-title-checkout-success = Fattu | { $productTitle }
+metadata-description-checkout-success = Cungratulazzioni! Cumplitasti u to accàttitu.
+# Checkout needs_input
+metadata-title-checkout-needs-input = Azzioni nicissaria | { $productTitle }
+metadata-description-checkout-needs-input = Pi favuri fai soccu serbi pi jiri avanti cû pagamentu.
+# Upgrade start
+metadata-title-upgrade-start = Attualizza | { $productTitle }
+metadata-description-upgrade-start = Metti i nfurmazzioni pû pagamentu pi cumplitari l'attualizzu.
+# Upgrade processing
+metadata-title-upgrade-processing = Pagamentu 'n cursu | { $productTitle }
+metadata-description-upgrade-processing = Pi favuri aspetta mentri chi cumplitamu u to pagamentu.
+# Upgrade error
+metadata-title-upgrade-error = Erruri | { $productTitle }
+metadata-description-upgrade-error = Cci fu n'erruri mentri chi cunfirmàvamu l'attualizzu. Si stu prubblema arresta, pi favuri cuntatta l'assistenza.
+# Upgrade success
+metadata-title-upgrade-success = Fattu | { $productTitle }
+metadata-description-upgrade-success = Cungratulazzioni! Cumplitasti u to attualizzu.
+# Upgrade needs_input
+metadata-title-upgrade-needs-input = Azzioni nicissaria | { $productTitle }
+metadata-description-upgrade-needs-input = Pi favuri fai soccu serbi pi jiri avanti cû pagamentu.
+# Default
+metadata-title-default = Nun truvai a pàggina | { $productTitle }
+metadata-description-default = Nun potti attruvari a pàggina chi addumannasti.
 
 ## Coupon Error Messages
 
+next-coupon-error-expired = U còdici chi mittisti scadìu.
+next-coupon-error-generic = Cci fu un prubblema riggistrannu u còdici. Pi favuri torna a prova.
+next-coupon-error-invalid = U còdici chi mittisti nun è vàlitu.
 
 ##
 
