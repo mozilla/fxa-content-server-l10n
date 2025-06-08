@@ -897,7 +897,7 @@ settings-recovery-phone-remove-success = Telefon pro obnovení byl odebrán
 ## PageSetupRecoveryPhone
 
 page-setup-recovery-phone-heading = Přidat telefon pro obnovení
-page-change-recovery-phone = Změnit telefonní číslo pro obnovení
+page-change-recovery-phone = Změna telefonu pro obnovení
 page-setup-recovery-phone-back-button-title = Zpět na nastavení
 # Back arrow to return to step 1 of recovery phone setup flow
 page-setup-recovery-phone-step2-back-button-title = Změna telefonního čísla
@@ -1618,12 +1618,12 @@ password-reset-recovery-method-code = Záložní ověřovací kódy
 # Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
 password-reset-recovery-method-code-info =
     { $numBackupCodes ->
-        [one] Zbývá { $numBackupCodes } kódu
-        [few] Zbývá { $numBackupCodes } kódů
+        [one] Zbývá { $numBackupCodes } kód
+        [few] Zbývají { $numBackupCodes } kódy
        *[other] Zbývá { $numBackupCodes } kódů
     }
 # Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
-password-reset-recovery-method-send-code-error-heading = Nepodařilo se odeslat kód na vaše telefonní číslo
+password-reset-recovery-method-send-code-error-heading = Došlo k problému s odesláním kódu do telefonu pro obnovení
 password-reset-recovery-method-send-code-error-description = Zkuste to prosím později nebo použijte záložní ověřovací kódy.
 
 ## ResetPasswordRecoveryPhone page
