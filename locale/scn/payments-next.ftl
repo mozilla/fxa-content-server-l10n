@@ -67,7 +67,7 @@ next-payment-confirmation-download-button = Cuntinua cû scarricamentu
 next-payment-confirmation-cc-card-ending-in = Carta chi finisci pi { $last4 }
 # Page - Not Found
 page-not-found-title = Pàggina nun truvata
-page-not-found-description = A pàggina chi addumannasti nun fu truvata. Ni fu signalijatu e circamu d'abbirsari tutti i lijami chi sfarsìjanu.
+page-not-found-description = Nun attruvai a pàggina chi addumannasti. Ni fu signalijatu e circamu d'abbirsari tutti i lijami chi sfarsìjanu.
 page-not-found-back-button = Vai nn'arrè
 
 ## Component - Payment Consent Checkbox

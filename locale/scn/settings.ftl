@@ -1175,7 +1175,7 @@ auth-error-138-2 = Sissioni nun cunfirmata
 auth-error-139 = U nnirizzu di posta elittrònica sicunnariu àv'a siri diversu dû to nnirizzu primariu
 auth-error-155 = Nun attruvai u tistimoni TOTP
 # Error shown when the user submits an invalid backup authentication code
-auth-error-156 = U còdici d'autinticazzioni di sicurizza nun fu truvatu
+auth-error-156 = Nun attruvai u còdici d'autinticazzioni di sicurizza
 auth-error-159 = A chiavi di ricùpiru dû cuntu nun è vàlita
 auth-error-183-2 = U còdici di cunferma nun è vàlitu o scadìu
 auth-error-202 = Sta carattarìstica nun è attiva
