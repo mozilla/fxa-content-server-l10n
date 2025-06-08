@@ -160,6 +160,15 @@ automated-email-reset =
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext-v2 = Si nun auturizzasti st'azzioni, pi favuri risetta a to chiavi ora: { $resetLink }
+# This message is used by multiple automated emails that notify users of security events on their account
+# "this action" is meant to be a generic term, and could, for example, refer to using a backup authentication code to confirm a password reset
+automated-email-reset-pwd-two-factor =
+    Si nun fusti tu, <a data-l10n-name="resetLink">risetta a to chiavi</a> e <a data-l10n-name="twoFactorSettingsLink">risetta l'autinticazzioni a du' fattura</a> prima chi poi.
+    P'aviri cchiù assai nfurmazzioni, pi favuri vìsita l'<a data-l10n-name="supportLink">Assistenza di { -brand-mozilla }</a>.
+# Followed by link to https://accounts.firefox.com/reset_password
+automated-email-reset-pwd-plaintext-v3 = Si nun fusti tu, risetta a to chiavi prima chi poi ô nnirizzu:
+# Followed by link to https://accounts.firefox.com/settings#two-step-authentication
+automated-email-reset-two-factor-plaintext = Risetta macari l'autinticazzioni a du' fattura:
 brand-banner-message = U sai chi canciammu nomu di { -product-firefox-accounts } a { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Cchiù nfurmazzioni</a>
 cancellationSurvey = Pi favuri ajùtani a fari megghiu i nostri sirbizzi arrispunnennu a sta <a data-l10n-name="cancellationSurveyUrl">ntirbista nicareḍḍa</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
@@ -370,6 +379,11 @@ passwordResetAccountRecovery-information = Ti scullijammu di tutti i to dispusit
 # After the colon there is a link to account settings
 passwordResetAccountRecovery-information-txt = Ti scullijammu di tutti i to dispusitivi sincrunizzati. Criammu na chiavi di ricùpiru dû cuntu nova pi sustituiri chiḍḍa chi usasti. A po' canciari nnê mpustazzioni dû to cuntu:
 passwordResetAccountRecovery-action-4 = Manija cuntu
+passwordResetRecoveryPhone-subject = Fu usatu u nùmmaru di tilèfunu di ricùpiru
+passwordResetRecoveryPhone-preview = Virìfica chi fusti tu
+passwordResetRecoveryPhone-title = U to nùmmaru di tilèfunu di ricùpiru fu usatu pi cunfirmari u risettu dâ chiavi
+passwordResetRecoveryPhone-device = U nùmmaru di tilèfunu di ricùpiru fu usatu di:
+passwordResetRecoveryPhone-action = Manija cuntu
 passwordResetWithRecoveryKeyPrompt-subject = A chiavi fu risittata
 passwordResetWithRecoveryKeyPrompt-title = A chiavi fu risittata
 # Details of the device and date/time where the password was reset
@@ -424,7 +438,13 @@ postChangeRecoveryPhone-preview = Cuntu prutettu cu l'autinticazzioni a du' fatt
 postChangeRecoveryPhone-title = Canciasti u nùmmaru di tilèfunu di ricùpiru
 postChangeRecoveryPhone-description = Ora ài un nùmmaru di tilèfunu di ricùpiru novu. Chiḍḍu vecchiu fu scancillatu.
 postChangeRecoveryPhone-requested-device = L'addumannasti di:
+postConsumeRecoveryCode-title-3 = Fu usatu un còdici d'autinticazzioni di sicurizza pi cunfirmari u risettu dâ chiavi
+# After the colon, there is description of the device that the backup authentication code was used on
+# E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
+postConsumeRecoveryCode-description-3 = Còdici usatu di:
 postConsumeRecoveryCode-action = Manija cuntu
+postConsumeRecoveryCode-subject-v3 = Fu usatu un còdici d'autinticazzioni di sicurizza
+postConsumeRecoveryCode-preview = Virìfica chi fusti tu
 postNewRecoveryCodes-subject-2 = Còdici d'autinticazzioni di sicurizza criati novi
 postNewRecoveryCodes-title-2 = Criasti còdici d'autinticazzioni di sicurizza novi
 # After the colon, there is information about the device that the authentication codes were created on
