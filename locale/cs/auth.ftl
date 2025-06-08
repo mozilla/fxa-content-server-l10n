@@ -162,7 +162,7 @@ automated-email-reset =
 automated-email-reset-plaintext-v2 = Pokud jste tuto akci neschválili, obnovte si prosím své heslo na adrese { $resetLink }
 # This message is used by multiple automated emails that notify users of security events on their account
 # "this action" is meant to be a generic term, and could, for example, refer to using a backup authentication code to confirm a password reset
-automated-email-reset-pwd-two-factor = Pokud jste tuto akci neprovedli, <a data-l10n-name="resetLink">obnovte své heslo</a> a <a data-l10n-name="twoFactorSettingsLink">dvoufázové ověřování</a> pryč. Pro více informací prosím navštivte <a data-l10n-name="supportLink">Podporu { -brand-mozilla(case: "gen") }</a>.
+automated-email-reset-pwd-two-factor = Pokud jste tuto akci neprovedli, ihned <a data-l10n-name="resetLink">obnovte své heslo</a> a <a data-l10n-name="twoFactorSettingsLink">dvoufázové ověřování</a>. Pro více informací prosím navštivte stránky <a data-l10n-name="supportLink">Podpory { -brand-mozilla(case: "gen") }</a>.
 # Followed by link to https://accounts.firefox.com/reset_password
 automated-email-reset-pwd-plaintext-v3 = Pokud jste tuto akci neprovedli, okamžitě obnovte své heslo na:
 # Followed by link to https://accounts.firefox.com/settings#two-step-authentication

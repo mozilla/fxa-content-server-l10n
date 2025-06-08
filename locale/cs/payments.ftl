@@ -509,7 +509,6 @@ sub-item-cancel-confirm = Zrušit můj přístup a smazat má uložená data ve 
 # Cybersecurity Awareness Month 2023 coupon applied: $11.20 + $0.35 tax
 # Summer Promo VPN coupon applied: $11.20
 sub-promo-coupon-applied = Kupón { $promotion_name } byl použit: <priceDetails></priceDetails>
-subscription-management-account-credit-balance = Tato platba za předplatné způsobila, že se na vašem účtu připsal kredit: <priceDetails></priceDetails>
 
 ## Routes - Subscription
 
