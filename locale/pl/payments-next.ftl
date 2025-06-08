@@ -237,12 +237,17 @@ metadata-title-checkout-success = Sukces | { $productTitle }
 # Checkout needs_input
 metadata-title-checkout-needs-input = Wymagane działanie | { $productTitle }
 metadata-description-checkout-needs-input = Aby dokonać płatności, wykonaj wymagane czynności.
+# Upgrade start
+metadata-title-upgrade-start = Rozszerzenie subskrypcji | { $productTitle }
+metadata-description-upgrade-start = Wprowadź dane płatności, aby dokończyć rozszerzenie subskrypcji.
 # Upgrade processing
 metadata-title-upgrade-processing = Przetwarzanie | { $productTitle }
 # Upgrade error
 metadata-title-upgrade-error = Błąd | { $productTitle }
+metadata-description-upgrade-error = Wystąpił błąd podczas przetwarzania zmiany subskrypcji. Jeśli ten problem będzie się powtarzał, skontaktuj się z pomocą techniczną.
 # Upgrade success
 metadata-title-upgrade-success = Sukces | { $productTitle }
+metadata-description-upgrade-success = Gratulacje! Subskrypcja została pomyślnie zmieniona.
 
 ## Coupon Error Messages
 
