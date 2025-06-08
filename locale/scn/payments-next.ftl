@@ -268,6 +268,8 @@ metadata-description-default = Nun potti attruvari a pàggina chi addumannasti.
 next-coupon-error-expired = U còdici chi mittisti scadìu.
 next-coupon-error-generic = Cci fu un prubblema riggistrannu u còdici. Pi favuri torna a prova.
 next-coupon-error-invalid = U còdici chi mittisti nun è vàlitu.
+# "Limit" refers to the maximum number of times a coupon can be redeemed.
+next-coupon-error-limit-reached = U còdici chi mittisti passau u so lìmiti d'usu.
 
 ##
 

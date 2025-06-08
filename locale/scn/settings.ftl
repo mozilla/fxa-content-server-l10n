@@ -114,6 +114,9 @@ datablock-copy =
     .message = Cupiatu
 datablock-print =
     .message = Stampatu
+# Tooltip notification when an account recovery key or one-time use code is copied.
+datablock-inline-copy =
+    .message = Cupiatu
 
 ## DeviceInfoBlock component
 ## The strings here are used to display information about the origin of activity happening on a user's account
@@ -397,6 +400,12 @@ password-strength-inline-confirmed-must-match = A cunferma appatta câ chiavi no
 account-recovery-notification-cta = Crìa
 account-recovery-notification-header-value = Nun pèrdiri i to dati si ti scordi a chiavi
 account-recovery-notification-header-description = Crìa na chiavi di ricùpiru dû cuntu pi ricupigghiari i dati sincrunizzati dû navicaturi si ti scordi a chiavi.
+recovery-phone-promo-cta = Junci u nùmmaru di tilèfunu di ricùpiru
+recovery-phone-promo-heading = Junci na prutizzioni superchiu ô to cuntu c'un nùmmaru di tilèfunu di ricùpiru
+recovery-phone-promo-description = Ora po' tràsiri c'un missaggiu SMS cu na chiavi a usu sìngulu si nun po' usari l'applicazzioni pi l'autinticazzioni a du' fattura.
+recovery-phone-promo-info-link = Autri nfurmazzioni ncapu ô ricùpiru e u rìsicu dû scanciu di SIM
+promo-banner-dismiss-button =
+    .aria-label = Chiuji a bannera
 
 ## Ready component
 
@@ -631,6 +640,7 @@ flow-setup-phone-confirm-code-expired = Còdici scadutu?
 flow-setup-phone-confirm-code-resend-code-button = Manna arrè
 flow-setup-phone-confirm-code-resend-code-success = Còdici mannatu
 flow-setup-phone-confirm-code-success-message-v2 = Juncisti u nùmmaru di tilèfunu di ricùpiru
+flow-change-phone-confirm-code-success-message = Canciasti u nùmmaru di tilèfunu di ricùpiru
 
 ## FlowSetupPhoneConfirmCode
 
@@ -935,6 +945,11 @@ tfa-cannot-verify-code-4 = Cci fu un prubblema mentri chi cunfirmava u to còdic
 tfa-incorrect-recovery-code-1 = U còdici d'autinticazzioni di sicurizza è sbagghiatu
 tfa-enabled-v2 = Fu abbilitata l'autinticazzioni a du' fattura
 tfa-scan-this-code = Scanziuna stu còdici QR usannu una di <linkExternal>st'app d'autinticazzioni</linkExternal>.
+# This is the image alt text for a QR code.
+# Variables:
+#   $secret (String) - a long alphanumeric string that does not require translation
+# DEV NOTE: Set image alt text per fluent/react documentation, do not use the below as an example
+tfa-qa-code-alt = Usa u còdici { $secret } pi cunfijurari l'autinticazzioni a du' fattura nni l'applicazzioni suppurtati.
 tfa-qa-code =
     .alt = { tfa-qa-code-alt }
 # codes here refers to backup authentication codes
@@ -1064,18 +1079,46 @@ unit-row-recovery-key-delete-icon-button-title = Scancella a chiavi di ricùpiru
 
 ## Two Step Auth sub-section on Settings main page
 
+tfa-row-cannot-verify-session-4 = Ni dispiaci, cci fu un prubblema mentri chi cunfirmava a to sissioni
+tfa-row-disable-modal-heading = Vo' sdisabbilitari l'autinticazzioni a du' fattura?
+tfa-row-disable-modal-confirm = Sdisabbìlita
+tfa-row-disable-modal-explain-1 = Nun po' sfari st'azzioni. Ài macari a pussibbilità di <linkExternal>scanciari i to còdici d'autinticazzioni di sicurizza</linkExternal>.
+# Shown in an alert bar after two-step authentication is disabled
+tfa-row-disabled-2 = Fu sdisabbilitata l'autinticazzioni a du' fattura
+tfa-row-cannot-disable-2 = Nun potti sdisabbilitari l'autinticazzioni a du' fattura
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
 
+# This message is followed by a bulleted list
+terms-privacy-agreement-intro-2 = Cuntinuannu, accetti i:
+# links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-pocket-2 = <pocketTos>Tèrmini di sirbizzu</pocketTos> e l'<pocketPrivacy>Abbisu di risirbatizza</pocketPrivacy> di { -product-pocket }
 
 ## ThirdPartyAuth component
 ## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
 
+continue-with-google-button = Cuntinua cu { -brand-google }
+continue-with-apple-button = Cuntinua cu { -brand-apple }
 
 ## Auth-server based errors that originate from backend service
 
+auth-error-102 = Cuntu scanusciutu
+auth-error-103 = Chiavi sbagghiata
+auth-error-105-2 = Còdici di cunferma nun vàlitu
+auth-error-110 = Tistimoni nun vàlitu
+# Error shown to users when they have attempted a request (e.g., requesting a password reset) too many times
+# and their requests have been throttled, but the specific amount of time before they can retry is unknown.
+auth-error-114-generic = Pruvasti troppu assai voti. Torna a prova cchiù tardu.
+# This string is the amount of time required before a user can attempt another request.
+# Variables:
+#   $retryAfter (String) - Time required before retrying a request. The variable is localized by our
+#                          formatting library (momentjs) as a "time from now" and automatically includes
+#                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
+auth-error-114 = Pruvasti troppu assai voti. Torna a prova { $retryAfter }.
+auth-error-125 = A dumanna fu bluccata pi scaciuni di sicurizza
 auth-error-129-2 = Mittisti un nùmmaru di tilèfunu chi nun è vàlitu. Pi favuri cuntròllalu e torna a prova.
+auth-error-138-2 = Sissioni nun cunfirmata
 auth-error-139 = U nnirizzu di posta elittrònica sicunnariu àv'a siri diversu dû to nnirizzu primariu
 auth-error-155 = Nun attruvai u tistimoni TOTP
 # Error shown when the user submits an invalid backup authentication code
@@ -1156,6 +1199,9 @@ index-sync-header = Cuntinua cû to { -product-mozilla-account }
 index-sync-subheader = Sincrunizza i to chiavi, i schedi e i nzingalibbra unn'è-è ca usi { -brand-firefox }.
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = Cuntinua nne { $serviceName }
+index-subheader-with-logo = Cuntinua nne <span>{ $serviceLogo }</span>
+index-subheader-default = Cuntinua ê mpustazzioni dû cuntu
+index-cta = Riggìstrati o trasi
 # When users delete their Mozilla account inside account Settings, they are redirected to this page with a success message
 index-account-delete-success = U cuntu fu scancillatu bonu
 # Displayed when users try to sign up for an account and their confirmation code email bounces
