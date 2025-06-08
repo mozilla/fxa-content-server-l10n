@@ -35,7 +35,7 @@ checkout-error-not-eligible = Nun ti po' abbunari a stu pruduttu. Pi favuri cunt
 checkout-error-already-subscribed = Già t'abbunasti a stu pruduttu.
 checkout-error-contact-support = Pi favuri cuntatta l'assistenza p'addumannari ajutu.
 cart-error-currency-not-determined = Nun pòttimu stabbiliri a valuta pi st'accàttitu, pi favuri torna a prova.
-checkout-processing-general-error = Cci fu n'erruri amentri chi prucissàvamu u to pagamentu, pi favuri torna a prova.
+checkout-processing-general-error = Cci fu n'erruri mentri chi prucissàvamu u to pagamentu, pi favuri torna a prova.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages

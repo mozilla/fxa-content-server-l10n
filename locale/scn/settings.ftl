@@ -444,7 +444,7 @@ flow-recovery-key-download-storage-ideas-pwd-manager = Manijaturi di chiavi
 flow-recovery-key-hint-header-v2 = Junci un suggirimentu p'arricurdàriti a chiavi
 # This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
 # "it" here refers to the storage hint, NOT the "account recovery key"
-flow-recovery-key-hint-message-v3 = Stu suggirimentu t'avissi a 'jutari unni sarbasti a to chiavi di ricùpiru dû cuntu. Tû putemu mustrari amentri chi risetti a chiavi pi ricupigghiari i to dati.
+flow-recovery-key-hint-message-v3 = Stu suggirimentu t'avissi a 'jutari unni sarbasti a to chiavi di ricùpiru dû cuntu. Tû putemu mustrari mentri chi risetti a chiavi pi ricupigghiari i to dati.
 # The label for the text input where the user types in the storage hint they want to save.
 # The storage hint is optional, and users can leave this blank.
 flow-recovery-key-hint-input-v2 =
@@ -706,8 +706,8 @@ nav-email-comm = Cumunicazzioni pi posta elittrònica
 
 ## Two Step Authentication - replace backup authentication code
 
-tfa-replace-code-error-3 = Cci fu un prubblema amentri chi canciava i còdici d'autinticazzioni di sicurizza
-tfa-create-code-error = Cci fu un prubblema amentri chi criava i còdici d'autinticazzioni di sicurizza
+tfa-replace-code-error-3 = Cci fu un prubblema mentri chi canciava i còdici d'autinticazzioni di sicurizza
+tfa-create-code-error = Cci fu un prubblema mentri chi criava i còdici d'autinticazzioni di sicurizza
 tfa-replace-code-success-1 = Foru criati còdici novi. Sarba sti còdici d'autinticazzioni di sicurizza nnôn postu sicuru — ti sèrbinu pi tràsiri nnô to cuntu si nun ài u to dispusitivu mòbbili.
 tfa-replace-code-success-alert-4 = Còdici d'autinticazzioni di sicurizza attualizzati
 tfa-replace-code-1-2 = Passu 1 di 2
@@ -740,8 +740,8 @@ avatar-page-rotate-button =
 avatar-page-camera-error = Mpussìbbili inizializzari a fotucàmmira
 avatar-page-new-avatar =
     .alt = mmàggini dû prufilu nova
-avatar-page-file-upload-error-3 = Cci fu un prubblema amentri chi carricava a to mmàggini dû prufilu
-avatar-page-delete-error-3 = Cci fu un prubblema amentri chi scancillava a to mmàggini dû prufilu
+avatar-page-file-upload-error-3 = Cci fu un prubblema mentri chi carricava a to mmàggini dû prufilu
+avatar-page-delete-error-3 = Cci fu un prubblema mentri chi scancillava a to mmàggini dû prufilu
 avatar-page-image-too-large-error-2 = U pricu è troppu assai grossu pû carricamentu
 
 ## Password change page
@@ -1046,6 +1046,8 @@ tfa-row-backup-phone-delete-button = Leva
 # Shown in tooltip on delete button or delete icon
 tfa-row-backup-phone-delete-title-v2 = Nùmmaru di tilèfunu di ricùpiru
 tfa-row-backup-phone-delete-restriction-v2 = Si vo' livari u to nùmmaru di tilèfunu dû ricùpiru, junci i còdici d'autinticazzioni di sicurizza o prima sdisabbìlita l'autinticazzioni a du' fattura pi scanzàriti di bluccàriti fora dû to cuntu.
+# "this" refers to recovery phone
+tfa-row-backup-phone-description-v2 = Chista è u mètudu di ricùpiru cchiù fàcili si nun po' usari l'app d'autinticazzioni.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
@@ -1091,9 +1093,41 @@ unit-row-recovery-key-delete-icon-button-title = Scancella a chiavi di ricùpiru
 
 ## Secondary email sub-section on main Settings page
 
+se-heading = Nnirizzu di posta elittrònica sicunnariu
+    .header = Nnirizzu di posta elittrònica sicunnariu
+se-cannot-refresh-email = Ni dispiaci, cci fu un prubblema mentri chi attualizzava stu nnirizzu di posta elittrònica
+se-cannot-resend-code-3 = Ni dispiaci, cci fu un prubblema mentri chi mannava arrè u còdici di cunferma
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-set-primary-successful-2 = { $email } ora è u to nnirizzu di posta elittrònica primariu
+se-verify-session-3 = Serbi chi cunfermi a sissioni attuali pi fari st'azzioni
+se-verify-session-error-3 = Ni dispiaci, cci fu un prubblema mentri chi cunfirmava a to sissioni
+# Button to remove the secondary email
+se-remove-email =
+    .title = Leva nnirizzu di posta elittrònica
+# Button to refresh secondary email status
+se-refresh-email =
+    .title = Attualizza nnirizzu di posta elittrònica
+se-unverified-2 = nun cunfirmatu
+# Button to make secondary email the primary
+se-make-primary = Fallu primariu
+# Default value for the secondary email
+se-secondary-email-none = Nuḍḍu
 
 ## Two Step Auth sub-section on Settings main page
 
+tfa-row-header = Autinticazzioni a du' fattura
+tfa-row-enabled = Abbilitata
+tfa-row-disabled-status = Sdisabbilitata
+tfa-row-action-add = Junci
+tfa-row-action-disable = Sdisabbìlita
+tfa-row-button-refresh =
+    .title = Attualizza l'autinticazzioni a du' fattura
+tfa-row-cannot-refresh = Ni dispiaci, cci fu un prubblema mentri chi attualizzava l'autinticazzioni a du' fattura.
+# "this" refers to two-step authentication
+# Link goes to https://support.mozilla.org/kb/secure-mozilla-account-two-step-authentication
+tfa-row-enabled-info-link = Comu pruteggi u to cuntu
 tfa-row-cannot-verify-session-4 = Ni dispiaci, cci fu un prubblema mentri chi cunfirmava a to sissioni
 tfa-row-disable-modal-heading = Vo' sdisabbilitari l'autinticazzioni a du' fattura?
 tfa-row-disable-modal-confirm = Sdisabbìlita
@@ -1113,6 +1147,10 @@ terms-privacy-agreement-pocket-2 = <pocketTos>Tèrmini di sirbizzu</pocketTos> e
 ## ThirdPartyAuth component
 ## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
 
+# This appears when a user has the option to authenticate via third party accounts in addition to their Firefox account. 
+# Firefox account login appears on top, and third party options appear on bottom. 
+# This string appears as a separation between the two, in the following order: "Enter your password" "Or"(this string) "Continue with Google"(continue-with-google-button) / "Continue with Apple"(continue-with-apple-button)
+third-party-auth-options-or = o puru
 continue-with-google-button = Cuntinua cu { -brand-google }
 continue-with-apple-button = Cuntinua cu { -brand-apple }
 
@@ -1156,11 +1194,17 @@ auth-error-1008 = A to chiavi nova àv'a siri diversa
 auth-error-1010 = È nicissaria na chiavi vàlita
 auth-error-1011 = È nicissariu nu nnirizzu di posta elittrònica vàlitu
 auth-error-1018 = L'e-mail di cunferma turnau nn'arrè. Sbagghiasti a scrìviri u nnirizzu?
+auth-error-1020 = Sbagghiasti a scrìviri u nnirizzu? firefox.com nun è un sirbizzu di posta elittrònica vàlitu
 auth-error-1031 = Pi cumplitari a riggistrazzioni hâ mèttiri a to età
 auth-error-1032 = Pi cumplitari a riggistrazzioni hâ mèttiri n'età vàlita
 auth-error-1054 = U còdici d'autinticazzioni a du' fattura nun è vàlitu
 auth-error-1056 = U còdici d'autinticazzioni di sicurizza nun è vàlitu
 auth-error-1062 = U rinnirizzu nun è vàlitu
+# Displayed when we want to reference a user's previously set up recovery phone
+# number, but they are not completely signed in yet. We'll only show the last 4 digits.
+# Variables:
+#  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
+recovery-phone-number-ending-digits = Nùmmaru chi finisci pi { $lastFourPhoneNumber }
 oauth-error-1000 = Quarchi cosa sfarsijau. Pi favuri chiuji sta scheda e torna a prova.
 
 ## Cannot Create Account page
@@ -1213,6 +1257,8 @@ cookies-disabled-learn-more = Cchiù nfurmazzioni
 index-header = Metti u to nnirizzu di posta elittrònica
 index-sync-header = Cuntinua cû to { -product-mozilla-account }
 index-sync-subheader = Sincrunizza i to chiavi, i schedi e i nzingalibbra unn'è-è ca usi { -brand-firefox }.
+index-relay-header = Crìa nu nnirizzu di posta mascaratu
+index-relay-subheader = Pi favuri metti u nnirizzu di posta elittrònica unni âm'a mannari l'e-mail ricivuti dû nnirizzu mascaratu.
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = Cuntinua nne { $serviceName }
 index-subheader-with-logo = Cuntinua nne <span>{ $serviceLogo }</span>
@@ -1230,6 +1276,8 @@ index-email-bounced = L'e-mail di cunferma turnau nn'arrè. Sbagghiasti a scrìv
 
 inline-recovery-key-setup-create-error = Ah! Nun pòttimu criari a to chiavi di ricùpiru dû cuntu. Pi favuri torna a prova cchiù tardu.
 inline-recovery-key-setup-recovery-created = Criasti na chiavi di ricùpiru dû cuntu
+inline-recovery-key-setup-download-header = Pruteggi u to cuntu
+inline-recovery-key-setup-download-subheader = Scàrricala e sàrbala ora
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
@@ -1239,10 +1287,20 @@ inline-recovery-key-setup-recovery-created = Criasti na chiavi di ricùpiru dû 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-on-completion-description = Na vota chi cumplitasti, accumincia a ginirari còdici d'autinticazzioni chi doppu po' usari.
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-security-code-placeholder = Còdici d'autinticazzioni
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-code-required-error = È nicissariu un còdici d'autinticazzioni
+tfa-qr-code-alt = Usa u còdici { $code } pi cunfijurari l'autinticazzioni a du' fattura nni l'applicazzioni suppurtati.
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
 
+legal-header = Noti ligali
+# Links to our internal "Firefox Cloud" /legal/terms page
+legal-terms-of-service-link = Tèrmini di sirbizzu
 # Links to our internal "Firefox Cloud" /legal/terms page
 legal-privacy-link = Abbisu di privatizza
 
@@ -1385,6 +1443,12 @@ account-recovery-lost-recovery-key-link-2 = Nun po' attruvari a chiavi di ricùp
 ## User followed a password reset link and is now prompted to create a new password
 
 complete-reset-pw-header-v2 = Crìa na chiavi nova
+# A new password was successfully set for the user's account
+# Displayed in an alert bar
+complete-reset-password-success-alert = Chiavi mpustata
+# An error occurred while attempting to set a new password (password reset flow)
+# Displayed in an alert bar
+complete-reset-password-error-alert = Ni dispiaci, cci fu un prubblema mentri chi mpustava a to chiavi
 # Message to user after they were redirected to the Mozilla account sign-in page in a new browser
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
