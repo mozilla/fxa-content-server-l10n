@@ -1449,6 +1449,11 @@ complete-reset-password-success-alert = Chiavi mpustata
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
 complete-reset-password-error-alert = Ni dispiaci, cci fu un prubblema mentri chi mpustava a to chiavi
+# Link to go back and use an account recovery key before resetting the password
+complete-reset-pw-recovery-key-link = Usa na chiavi di ricùpiru dû cuntu
+# A message informing the user that the password reset was successful and reminding them to create another recovery key
+# Displayed on the sign in page
+reset-password-complete-banner-heading = Risittasti a to chiavi.
 # Message to user after they were redirected to the Mozilla account sign-in page in a new browser
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
