@@ -770,7 +770,7 @@ pw-change-success-alert-2 = Chiavi attualizzata
 pw-create-header =
     .title = Crìa na chiavi
 pw-create-success-alert-2 = Chiavi mpustata
-pw-create-error-2 = Ni dispiaci, cci fu un prubblema amentri chi mpustava a to chiavi
+pw-create-error-2 = Ni dispiaci, cci fu un prubblema mentri chi mpustava a to chiavi
 
 ## Delete account page
 
