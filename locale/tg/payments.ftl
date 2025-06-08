@@ -16,6 +16,7 @@ coupon-submit = Татбиқ кардан
 coupon-remove = Тоза кардан
 coupon-error = Рамзе, ки шумо ворид кардед, нодуруст аст ё аз муҳлаташ гузашт.
 coupon-error-expired = Рамзе, ки шумо ворид кардед, аз муҳлаташ гузашт.
+coupon-error-limit-reached = Рамзе, ки шумо ворид кардед, аз меъёраш зиёд истифода шуд.
 coupon-error-invalid = Рамзе, ки шумо ворид кардед, нодуруст аст.
 # $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
 coupon-enter-code =
@@ -112,12 +113,14 @@ payment-validate-name-error = Лутфан, номи худро ворид на�
 ## Component - PaymentLegalBlurb
 
 payment-legal-link-paypal-3 = <paypalPrivacyLink>Сиёсати махфияти «{ -brand-paypal }»</paypalPrivacyLink>
+payment-legal-link-stripe-3 = <stripePrivacyLink>Сиёсати махфияти «{ -brand-name-stripe }»</stripePrivacyLink>
 
 ## Component - PaymentMethodHeader
 
 payment-method-header = Тарзи пардохти худро интихоб кунед
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step = 2. { payment-method-header }
+payment-method-first-approve = Аввал шумо бояд обунаи худро тасдиқ кунед
 
 ## Component - PaymentProcessing
 
@@ -408,12 +411,14 @@ pay-update-manage-btn = Идора кардан
 ## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
 ## $date (Date) - The date for the next time a charge will occur.
 
+sub-expires-on = Анҷоми муҳлат дар { $date }
 
 ## Routes - Subscription - PaymentUpdate
 
 
 # $expirationDate (Date) - The payment card's expiration date.
 
+pay-update-card-exp = Муҳлаташ дар { $date } ба анҷом мерасад
 sub-route-idx-updating = Дар ҳоли навсозии маълумоти санади ҳисоббарорӣ…
 sub-route-payment-modal-heading = Маълумоти санади ҳисоббарорӣ беэътибор аст
 
@@ -430,6 +435,7 @@ reactivate-confirm-button = Аз нав обуна шавед
 
 ## $date (Date) - Last day of product access
 
+reactivate-success-copy = Ташаккур! Шумо ҳамаи қадамҳоро иҷро кардед.
 reactivate-success-button = Пӯшидан
 
 ## Routes - Subscriptions - Subscription iap item
