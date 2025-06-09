@@ -10,7 +10,7 @@ next-payment-method-header = Scarta u to mètudu di pagamentu
 payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = Pi prima cosa, hâ appruvari u to abbunamentu
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
-location-header = Scarta u to pajisi e metti u to còdici pustali <p>pi cuntinuari l'accàttitu di { $productName }</p>
+location-header = Scarta u to pajisi e metti u to còdici pustali <p>pi cuntinuari l’accàttitu di { $productName }</p>
 location-banner-info = Nun pòttimu pigghiari di manera autumàtica i nfurmazzioni ncapu â to pusizzioni
 location-required-disclaimer = Usamu sti nfurmazzioni sulu pi carculari i tassi e a valuta.
 location-banner-currency-change = Nun suppurtamu u canciu di valuta. Pi cuntinuari, pi favuri scarta un pajisi chi appatta câ valuta di fatturazzioni.
@@ -21,21 +21,21 @@ upgrade-page-payment-information = Nfurmazzioni di pagamentu
 # $nextInvoiceDate (number) - The date of the next invoice
 upgrade-page-acknowledgment = U to chianu veni attualizzatu sùbbitu, e ti veni addibbitatu chiḍḍu chi ammanca, di manera prupurziunali, pû restu dû piriudu di fatturazzioni. Accuminciannu dû { $nextInvoiceDate } ti veni addibbitata a còtima sana.
 checkout-error-boundary-retry-button = Prova arrè
-checkout-error-boundary-basic-error-message = Cci fu un prubblema. Pi favuri torna a prova o <contactSupportLink>cuntatta l'assistenza</contactSupportLink>.
+checkout-error-boundary-basic-error-message = Cci fu un prubblema. Pi favuri torna a prova o <contactSupportLink>cuntatta l’assistenza</contactSupportLink>.
 
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages
 
 next-payment-error-manage-subscription-button = Manija u me abbunamentu
-next-iap-blocked-contact-support = Ài n'abbunamentu in-app fattu d'un dispusitivu mòbbili chi va 'n cunflittu cu stu pruduttu — pi favuri cuntatta l'assistenza p'addumannari ajutu.
+next-iap-blocked-contact-support = Ài n’abbunamentu in-app fattu d’un dispusitivu mòbbili chi va ’n cunflittu cu stu pruduttu — pi favuri cuntatta l’assistenza p’addumannari ajutu.
 next-payment-error-retry-button = Prova arrè
 next-basic-error-message = Cci fu un prubblema. Pi favuri torna a prova cchiù tardu.
-checkout-error-contact-support-button = Cuntatta l'assistenza
-checkout-error-not-eligible = Nun ti po' abbunari a stu pruduttu. Pi favuri cuntatta l'assistenza p'addumannari ajutu.
-checkout-error-already-subscribed = Già t'abbunasti a stu pruduttu.
-checkout-error-contact-support = Pi favuri cuntatta l'assistenza p'addumannari ajutu.
-cart-error-currency-not-determined = Nun pòttimu stabbiliri a valuta pi st'accàttitu, pi favuri torna a prova.
-checkout-processing-general-error = Cci fu n'erruri mentri chi prucissàvamu u to pagamentu, pi favuri torna a prova.
+checkout-error-contact-support-button = Cuntatta l’assistenza
+checkout-error-not-eligible = Nun ti po’ abbunari a stu pruduttu. Pi favuri cuntatta l’assistenza p’addumannari ajutu.
+checkout-error-already-subscribed = Già t’abbunasti a stu pruduttu.
+checkout-error-contact-support = Pi favuri cuntatta l’assistenza p’addumannari ajutu.
+cart-error-currency-not-determined = Nun pòttimu stabbiliri a valuta pi st’accàttitu, pi favuri torna a prova.
+checkout-processing-general-error = Cci fu n’erruri mentri chi prucissàvamu u to pagamentu, pi favuri torna a prova.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -47,8 +47,8 @@ next-payment-processing-message = Pi favuri aspetta mentri chi prucissamu u paga
 
 next-payment-confirmation-thanks-heading-account-exists = Grazzi! Ora cuntrolla a to posta elittrònica.
 # $email (String) - The user's email.
-payment-confirmation-thanks-subheading-account-exists-2 = Hâ ricìviri na littra ô nnirizzu { $email } cu l'istruzzioni ncapu ô to abbunamentu, e chî to minutagghi di pagamentu.
-next-payment-confirmation-order-heading = Minutagghi di l'ùrdini
+payment-confirmation-thanks-subheading-account-exists-2 = Hâ ricìviri na littra ô nnirizzu { $email } cu l’istruzzioni ncapu ô to abbunamentu, e chî to minutagghi di pagamentu.
+next-payment-confirmation-order-heading = Minutagghi di l’ùrdini
 # $invoiceNumber (String) - Invoice number of the successful payment
 next-payment-confirmation-invoice-number = Fattura #{ $invoiceNumber }
 # $invoiceDate (Date) - Start date of the latest invoice
@@ -67,12 +67,12 @@ next-payment-confirmation-download-button = Cuntinua cû scarricamentu
 next-payment-confirmation-cc-card-ending-in = Carta chi finisci pi { $last4 }
 # Page - Not Found
 page-not-found-title = Pàggina nun truvata
-page-not-found-description = Nun attruvai a pàggina chi addumannasti. Ni fu signalijatu e circamu d'abbirsari tutti i lijami chi sfarsìjanu.
-page-not-found-back-button = Vai nn'arrè
+page-not-found-description = Nun attruvai a pàggina chi addumannasti. Ni fu signalijatu e circamu d’abbirsari tutti i lijami chi sfarsìjanu.
+page-not-found-back-button = Vai nn’arrè
 
 ## Component - Payment Consent Checkbox
 
-next-payment-confirm-with-legal-links-static-3 = Auturizzu { -brand-mozilla } a pigghiàrisi u mportu mustratu dû me mètudu di pagamentu, sicunnu i <termsOfServiceLink>tèrmini di sirbizzu</termsOfServiceLink> e l'<privacyNoticeLink>abbisu di privatizza</privacyNoticeLink>, nzinu a quannu nun mi disiscrivu.
+next-payment-confirm-with-legal-links-static-3 = Auturizzu { -brand-mozilla } a pigghiàrisi u mportu mustratu dû me mètudu di pagamentu, sicunnu i <termsOfServiceLink>tèrmini di sirbizzu</termsOfServiceLink> e l’<privacyNoticeLink>abbisu di privatizza</privacyNoticeLink>, nzinu a quannu nun mi disiscrivu.
 next-payment-confirm-checkbox-error = Hâ cumplitari stu passaggiu prima di jiri innanzi
 
 ## Checkout Form
@@ -162,7 +162,7 @@ select-tax-location-error-location-not-updated = Nun potti attualizzari a to pus
 #  $currencyDisplayName (String) - The display name of a currency code, e.g. US Dollar
 select-tax-location-invalid-currency-change = U to cuntu veni fatturatu cu { $currencyDisplayName }. Scarta un pajisi chi usa { $currencyDisplayName }.
 select-tax-location-invalid-currency-change-default = Scarta un pajisi chi appatta câ valuta dî to abbunamenti attivi.
-select-tax-location-new-tax-rate-info = Si attualizzi a to pusizzioni veni canciata macari a tassazzioni di tutti l'abbunamenti attivi nnô to cuntu, accuminciannu dû ciclu di fatturazzioni vinturu.
+select-tax-location-new-tax-rate-info = Si attualizzi a to pusizzioni veni canciata macari a tassazzioni di tutti l’abbunamenti attivi nnô to cuntu, accuminciannu dû ciclu di fatturazzioni vinturu.
 signin-form-continue-button = Cuntinua
 signin-form-email-input = Metti u to nnirizzu di posta elittrònica
 signin-form-email-input-missing = Pi favuri metti u to nnirizzu di posta elittrònica
@@ -187,10 +187,10 @@ plan-price-interval-yearly = { $amount } ogni annu
 ## Component - SubscriptionTitle
 
 next-subscription-create-title = Cunfijura u to abbunamentu
-next-subscription-success-title = Cunferma di l'abbunamentu
-next-subscription-processing-title = Staju cunfirmannu l'abbunamentu…
-next-subscription-error-title = Cci fu un prubblema mentri chi cunfirmava l'abbunamentu…
-subscription-title-sub-exists = Già t'abbunasti
+next-subscription-success-title = Cunferma di l’abbunamentu
+next-subscription-processing-title = Staju cunfirmannu l’abbunamentu…
+next-subscription-error-title = Cci fu un prubblema mentri chi cunfirmava l’abbunamentu…
+subscription-title-sub-exists = Già t’abbunasti
 subscription-title-plan-change-heading = Rividi u to canciu
 next-sub-guarantee = Priggiarìa di rifazzioni pi 30 jorna
 
@@ -224,20 +224,20 @@ upgrade-purchase-details-new-plan-daily = { $productName } (ô jornu)
 upgrade-purchase-details-new-plan-weekly = { $productName } (â simana)
 upgrade-purchase-details-new-plan-monthly = { $productName } (ô misi)
 upgrade-purchase-details-new-plan-halfyearly = { $productName } (ogni 6 misi)
-upgrade-purchase-details-new-plan-yearly = { $productName } (a l'annu)
+upgrade-purchase-details-new-plan-yearly = { $productName } (a l’annu)
 
 ## Page Metadata Information
 ## $productTitle (String) - The name of the product to create subscription, e.g. Mozilla VPN
 
 # Checkout start
 metadata-title-checkout-start = Pagamentu | { $productTitle }
-metadata-description-checkout-start = Metti i nfurmazzioni pû pagamentu pi cumplitari l'accàttitu.
+metadata-description-checkout-start = Metti i nfurmazzioni pû pagamentu pi cumplitari l’accàttitu.
 # Checkout processing
-metadata-title-checkout-processing = Pagamentu 'n cursu | { $productTitle }
+metadata-title-checkout-processing = Pagamentu ’n cursu | { $productTitle }
 metadata-description-checkout-processing = Pi favuri aspetta mentri chi cumplitamu u to pagamentu.
 # Checkout error
 metadata-title-checkout-error = Erruri | { $productTitle }
-metadata-description-checkout-error = Cci fu n'erruri mentri chi cunfirmàvamu l'abbunamentu. Si stu prubblema arresta, pi favuri cuntatta l'assistenza.
+metadata-description-checkout-error = Cci fu n’erruri mentri chi cunfirmàvamu l’abbunamentu. Si stu prubblema arresta, pi favuri cuntatta l’assistenza.
 # Checkout success
 metadata-title-checkout-success = Fattu | { $productTitle }
 metadata-description-checkout-success = Cungratulazzioni! Cumplitasti u to accàttitu.
@@ -246,13 +246,13 @@ metadata-title-checkout-needs-input = Azzioni nicissaria | { $productTitle }
 metadata-description-checkout-needs-input = Pi favuri fai soccu serbi pi jiri avanti cû pagamentu.
 # Upgrade start
 metadata-title-upgrade-start = Attualizza | { $productTitle }
-metadata-description-upgrade-start = Metti i nfurmazzioni pû pagamentu pi cumplitari l'attualizzu.
+metadata-description-upgrade-start = Metti i nfurmazzioni pû pagamentu pi cumplitari l’attualizzu.
 # Upgrade processing
-metadata-title-upgrade-processing = Pagamentu 'n cursu | { $productTitle }
+metadata-title-upgrade-processing = Pagamentu ’n cursu | { $productTitle }
 metadata-description-upgrade-processing = Pi favuri aspetta mentri chi cumplitamu u to pagamentu.
 # Upgrade error
 metadata-title-upgrade-error = Erruri | { $productTitle }
-metadata-description-upgrade-error = Cci fu n'erruri mentri chi cunfirmàvamu l'attualizzu. Si stu prubblema arresta, pi favuri cuntatta l'assistenza.
+metadata-description-upgrade-error = Cci fu n’erruri mentri chi cunfirmàvamu l’attualizzu. Si stu prubblema arresta, pi favuri cuntatta l’assistenza.
 # Upgrade success
 metadata-title-upgrade-success = Fattu | { $productTitle }
 metadata-description-upgrade-success = Cungratulazzioni! Cumplitasti u to attualizzu.
@@ -269,7 +269,7 @@ next-coupon-error-expired = U còdici chi mittisti scadìu.
 next-coupon-error-generic = Cci fu un prubblema riggistrannu u còdici. Pi favuri torna a prova.
 next-coupon-error-invalid = U còdici chi mittisti nun è vàlitu.
 # "Limit" refers to the maximum number of times a coupon can be redeemed.
-next-coupon-error-limit-reached = U còdici chi mittisti passau u so lìmiti d'usu.
+next-coupon-error-limit-reached = U còdici chi mittisti passau u so lìmiti d’usu.
 
 ##
 

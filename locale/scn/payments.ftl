@@ -17,7 +17,7 @@ coupon-remove = Leva
 coupon-error = U còdici chi mittisti nun è vàlitu o scadìu.
 coupon-error-generic = Cci fu un prubblema riggistrannu u còdici. Pi favuri torna a prova.
 coupon-error-expired = U còdici chi mittisti scadìu.
-coupon-error-limit-reached = U còdici chi mittisti passau u so lìmiti d'usu.
+coupon-error-limit-reached = U còdici chi mittisti passau u so lìmiti d’usu.
 coupon-error-invalid = U còdici chi mittisti nun è vàlitu.
 # $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
 coupon-enter-code =
@@ -61,8 +61,8 @@ payment-confirmation-thanks-heading-account-exists = Grazzi! Ora cuntrolla a to 
 # $productName (String) - The name of the subscribed product.
 payment-confirmation-thanks-subheading = Na littra di cunferma fu mannata ô nnirizzu { $email } chî minutagghi pi principijari cu { $product_name }.
 # $email (string) - The user's email.
-payment-confirmation-thanks-subheading-account-exists = Hâ ricìviri na littra ô nnirizzu { $email } cu l'istruzzioni pi cunfijurari u to cuntu, e chî to minutagghi di pagamentu.
-payment-confirmation-order-heading = Minutagghi di l'ùrdini
+payment-confirmation-thanks-subheading-account-exists = Hâ ricìviri na littra ô nnirizzu { $email } cu l’istruzzioni pi cunfijurari u to cuntu, e chî to minutagghi di pagamentu.
+payment-confirmation-order-heading = Minutagghi di l’ùrdini
 payment-confirmation-invoice-number = Fattura #{ $invoiceNumber }
 # $invoiceDate (Date) - Start date of the latest invoice
 payment-confirmation-invoice-date = { $invoiceDate }
@@ -100,7 +100,7 @@ payment-confirmation-download-button = Cuntinua cû scarricamentu
 
 ## Component - PaymentConsentCheckbox
 
-payment-confirm-with-legal-links-static-3 = Auturizzu { -brand-mozilla } a pigghiàrisi u mportu mustratu dû me mètudu di pagamentu, sicunnu i <termsOfServiceLink>tèrmini di sirbizzu</termsOfServiceLink> e l'<privacyNoticeLink>abbisu di privatizza</privacyNoticeLink>, nzinu a quannu nun mi disiscrivu.
+payment-confirm-with-legal-links-static-3 = Auturizzu { -brand-mozilla } a pigghiàrisi u mportu mustratu dû me mètudu di pagamentu, sicunnu i <termsOfServiceLink>tèrmini di sirbizzu</termsOfServiceLink> e l’<privacyNoticeLink>abbisu di privatizza</privacyNoticeLink>, nzinu a quannu nun mi disiscrivu.
 payment-confirm-checkbox-error = Hâ cumplitari stu passaggiu prima di jiri innanzi
 
 ## Component - PaymentErrorView
@@ -111,9 +111,9 @@ payment-error-manage-subscription-button = Manija u me abbunamentu
 ## Component - PaymentErrorView - IAP upgrade errors
 
 # $productName (String) - The name of the subscribed product.
-iap-upgrade-already-subscribed-2 = Già ài n'abbunamentu a { $productName } fattu nta l'app store di { -brand-google } o { -brand-apple }.
-iap-upgrade-no-bundle-support = Pi st'abbunamenti nun suppurtamu l'attualizzi accamora, ma prestu i suppurtaremu.
-iap-upgrade-contact-support = Po' ancora aviri stu pruduttu — pi favuri cuntatta u supportu p'aviri ajutu.
+iap-upgrade-already-subscribed-2 = Già ài n’abbunamentu a { $productName } fattu nta l’app store di { -brand-google } o { -brand-apple }.
+iap-upgrade-no-bundle-support = Pi st’abbunamenti nun suppurtamu l’attualizzi accamora, ma prestu i suppurtaremu.
+iap-upgrade-contact-support = Po’ ancora aviri stu pruduttu — pi favuri cuntatta u supportu p’aviri ajutu.
 iap-upgrade-get-help-button = Fatti ajutari
 
 ## Component - PaymentForm
@@ -168,7 +168,7 @@ plan-details-tax = Tassi e cummissioni
 
 ## Component - PlanErrorDialog
 
-product-no-such-plan = Nun cc'è nuḍḍu chianu di stu tipu pi stu pruduttu.
+product-no-such-plan = Nun cc’è nuḍḍu chianu di stu tipu pi stu pruduttu.
 
 ## Price details including tax
 ## $priceAmount (Number) - The amount billed. It will be formatted as currency.
@@ -268,10 +268,10 @@ price-details-tax-year =
 ## Component - SubscriptionTitle
 
 subscription-create-title = Cunfijura u to abbunamentu
-subscription-success-title = Cunferma di l'abbunamentu
-subscription-processing-title = Staju cunfirmannu l'abbunamentu…
-subscription-error-title = Cci fu un prubblema mentri chi cunfirmava l'abbunamentu…
-subscription-noplanchange-title = Stu canciu ô chianu d'abbunamentu nun è suppurtatu
+subscription-success-title = Cunferma di l’abbunamentu
+subscription-processing-title = Staju cunfirmannu l’abbunamentu…
+subscription-error-title = Cci fu un prubblema mentri chi cunfirmava l’abbunamentu…
+subscription-noplanchange-title = Stu canciu ô chianu d’abbunamentu nun è suppurtatu
 subscription-iapsubscribed-title = Già abbunatu
 sub-guarantee = Priggiarìa di rifazzioni pi 30 jorna
 
@@ -346,29 +346,29 @@ plan-price-interval-year =
 ## Error messages
 
 # App error dialog
-general-error-heading = Erruri ginirali di l'applicazzioni
+general-error-heading = Erruri ginirali di l’applicazzioni
 basic-error-message = Cci fu un prubblema. Pi favuri torna a prova cchiù tardu.
-payment-error-1 = Mmh. Cci fu un prubblema cu l'auturizzazzioni dû to pagamentu. Pi favuri torna a prova o cuntatta cu' ti rilassau a carta.
-payment-error-2 = Mmh. Cci fu un prubblema cu l'auturizzazzioni dû to pagamentu. Pi favuri cuntatta cu' ti rilassau a carta.
-payment-error-3b = Cci fu n'erruri mentri chi prucissàvamu u to pagamentu, pi favuri torna a prova.
-expired-card-error = Parissi chi a to carta scadìu. Prova a usari n'autra carta.
-insufficient-funds-error = Parissi chi a to carta nun àvi sordi bastanti. Prova a usari n'autra carta.
-withdrawal-count-limit-exceeded-error = Parissi chi stu pagamentu ti facissi passari a finaita di spisa dâ to carta. Prova a usari n'autra carta.
-charge-exceeds-source-limit = Parissi chi stu pagamentu ti facissi passari a finaita di spisa jurnalera dâ to carta. Prova a usari n'autra carta, o aspetta 24 uri.
-instant-payouts-unsupported = Parissi chi a to carta di dèbbitu nun è cunfijurata pî pagamenti subbitànii. Pi favuri prova a usari n'autra carta di dèbbitu o di crèditu.
+payment-error-1 = Mmh. Cci fu un prubblema cu l’auturizzazzioni dû to pagamentu. Pi favuri torna a prova o cuntatta cu’ ti rilassau a carta.
+payment-error-2 = Mmh. Cci fu un prubblema cu l’auturizzazzioni dû to pagamentu. Pi favuri cuntatta cu’ ti rilassau a carta.
+payment-error-3b = Cci fu n’erruri mentri chi prucissàvamu u to pagamentu, pi favuri torna a prova.
+expired-card-error = Parissi chi a to carta scadìu. Prova a usari n’autra carta.
+insufficient-funds-error = Parissi chi a to carta nun àvi sordi bastanti. Prova a usari n’autra carta.
+withdrawal-count-limit-exceeded-error = Parissi chi stu pagamentu ti facissi passari a finaita di spisa dâ to carta. Prova a usari n’autra carta.
+charge-exceeds-source-limit = Parissi chi stu pagamentu ti facissi passari a finaita di spisa jurnalera dâ to carta. Prova a usari n’autra carta, o aspetta 24 uri.
+instant-payouts-unsupported = Parissi chi a to carta di dèbbitu nun è cunfijurata pî pagamenti subbitànii. Pi favuri prova a usari n’autra carta di dèbbitu o di crèditu.
 duplicate-transaction = Uhm… parissi chi fu fattu un pagamentu avali di picca. Cuntrolla a crunuluggìa dî pagamenti.
 coupon-expired = U còdici prumuzzionali scadìu.
 card-error = Nun pòttimu prucissari u to pagamentu. Pi favuri cuntrolla i nfurmazzioni dâ to carta di crèditu e torna a prova.
-country-currency-mismatch = A valuta di st'abbunamentu nun è vàlita pû pajisi assuciatu cû to pagamentu.
-currency-currency-mismatch = Ni dispiaci, ma nun po' scanciari a valuta.
+country-currency-mismatch = A valuta di st’abbunamentu nun è vàlita pû pajisi assuciatu cû to pagamentu.
+currency-currency-mismatch = Ni dispiaci, ma nun po’ scanciari a valuta.
 location-unsupported = A to pusizzioni attuali nun è suppurtata dî nostri Tèrmini di sirbizzu.
-no-subscription-change = Ni dispiaci, nun po' canciari u to chianu d'abbunamentu.
+no-subscription-change = Ni dispiaci, nun po’ canciari u to chianu d’abbunamentu.
 # $mobileAppStore (String) - "Google Play Store" or "App Store", localized when the translation is available.
-iap-already-subscribed = Già facisti l'abbunamentu pi tràmiti di { $mobileAppStore }.
+iap-already-subscribed = Già facisti l’abbunamentu pi tràmiti di { $mobileAppStore }.
 # $productName (String) - The name of the subscribed product.
 fxa-account-signup-error-2 = Nu sbagghiu di sistema fici sfalliri u to abbunamentu a { $productName }. Nun fu addibbitatu nenti ô to mètudu di pagamentu. Pi favuri torna a prova.
 fxa-post-passwordless-sub-error = Abbunamentu cunfirmatu, ma a pàggina di cunferma sfallìu di carricari. Pi favuri cuntrolla a to posta elittrònica pi cunfijurari u to cuntu.
-newsletter-signup-error = Nun ti scrivisti pî nutìfichi nnâ posta elittrònica ncapu a l'attualizzi dî prudutti. Po' pruvari arrè nnê mpustazzioni dû to cuntu.
+newsletter-signup-error = Nun ti scrivisti pî nutìfichi nnâ posta elittrònica ncapu a l’attualizzi dî prudutti. Po’ pruvari arrè nnê mpustazzioni dû to cuntu.
 product-plan-error =
     .title = Cci fu un prubblema mentri chi carricava i chiani
 product-profile-error =
@@ -398,12 +398,12 @@ sub-update-payment-title = Nfurmazzioni di pagamentu
 ## Used in both Routes - Checkout and Product/SubscriptionCreate
 
 pay-with-heading-card-only = Paga câ carta
-product-invoice-preview-error-title = Cci fu un prubblema mentri chi carricava l'antiprima dâ fattura
-product-invoice-preview-error-text = Nun potti carricari l'antiprima dâ fattura
+product-invoice-preview-error-title = Cci fu un prubblema mentri chi carricava l’antiprima dâ fattura
+product-invoice-preview-error-text = Nun potti carricari l’antiprima dâ fattura
 
 ## Routes - Product - IapRoadblock
 
-subscription-iaperrorupgrade-title = Nun è pussìbbili fari l'attualizzu ancora
+subscription-iaperrorupgrade-title = Nun è pussìbbili fari l’attualizzu ancora
 
 # The following are not terms because they are not used directly in messages,
 # but rather looked up in code and passed into the message as variables.
@@ -430,17 +430,17 @@ sub-update-prorated-upgrade = Attualizzu carculatu prupurziunali
 sub-update-new-plan-daily = { $productName } (ô jornu)
 sub-update-new-plan-weekly = { $productName } (â simana)
 sub-update-new-plan-monthly = { $productName } (ô misi)
-sub-update-new-plan-yearly = { $productName } (a l'annu)
+sub-update-new-plan-yearly = { $productName } (a l’annu)
 
 ## Routes - Subscriptions - Cancel
 
-sub-item-cancel-sub = Scancella l'abbunamentu
+sub-item-cancel-sub = Scancella l’abbunamentu
 sub-item-stay-sub = Arresta abbunatu
 
 ## $name (String) - The name of the subscribed product.
 ## $period (Date) - The last day of product access
 
-sub-item-cancel-msg = Nun po' cchiù usari { $name } doppu dû { $period }, chi è l'ùrtimu jornu dû to ciclu di fatturazzioni.
+sub-item-cancel-msg = Nun po’ cchiù usari { $name } doppu dû { $period }, chi è l’ùrtimu jornu dû to ciclu di fatturazzioni.
 sub-item-cancel-confirm = Sdisattiva u me cuntu e scancella i me nfurmazzioni pirsunali sarbati nne { $name } jornu { $period }
 # $promotion_name (String) - The name of the promotion.
 # The <priceDetails></priceDetails> component acts as a placeholder and could use one of the following IDs:
@@ -457,17 +457,17 @@ sub-promo-coupon-applied = Prumuzzioni { $promotion_name } appricata: <priceDeta
 
 ## Routes - Subscription
 
-sub-route-idx-reactivating = Sfallìu a riattivazzioni di l'abbunamentu
-sub-route-idx-cancel-failed = Sfallìu u sfacimentu di l'abbunamentu
-sub-route-idx-contact = Cuntatta l'assistenza
+sub-route-idx-reactivating = Sfallìu a riattivazzioni di l’abbunamentu
+sub-route-idx-cancel-failed = Sfallìu u sfacimentu di l’abbunamentu
+sub-route-idx-contact = Cuntatta l’assistenza
 sub-route-idx-cancel-msg-title = Ni dispiaci chi dicidisti di jiritinni
 # $name (String) - The name of the subscribed product.
 # $date (Date) - Last day of product access
 sub-route-idx-cancel-msg =
     U to abbunamentu a { $name } fu scancillatu.
           <br />
-          Po' ancora tràsiri a { $name } nzinu a jornu { $date }.
-sub-route-idx-cancel-aside-2 = Ài dumanni? Vìsita l'<a>assistenza di { -brand-mozilla }</a>.
+          Po’ ancora tràsiri a { $name } nzinu a jornu { $date }.
+sub-route-idx-cancel-aside-2 = Ài dumanni? Vìsita l’<a>assistenza di { -brand-mozilla }</a>.
 
 ## Routes - Subscriptions - Errors
 
@@ -476,8 +476,8 @@ sub-customer-error =
 sub-invoice-error =
     .title = Cci fu un prubblema mentri chi carricava i fatturi
 sub-billing-update-success = Attualizzasti i to nfurmazzioni di fatturazzioni
-sub-invoice-previews-error-title = Cci fu un prubblema mentri chi carricava l'antiprimi dî fatturi
-sub-invoice-previews-error-text = Nun potti carricari l'antiprimi dî fatturi
+sub-invoice-previews-error-title = Cci fu un prubblema mentri chi carricava l’antiprimi dî fatturi
+sub-invoice-previews-error-text = Nun potti carricari l’antiprimi dî fatturi
 
 ## Routes - Subscription - ActionButton
 
@@ -502,17 +502,17 @@ sub-expires-on = Scadi u { $date }
 pay-update-card-exp = Scadi u { $expirationDate }
 sub-route-idx-updating = Staju attualizzannu i nfurmazzioni di fatturazzioni…
 sub-route-payment-modal-heading = Nfurmazzioni di fatturazzioni nun vàliti
-sub-route-payment-modal-message-2 = Parissi chi cci fu n'erruri cû to cuntu { -brand-paypal }, serbi chi fai chiḍḍu chi serbi p'arrisòrbiri stu prubblema di pagamentu.
-sub-route-missing-billing-agreement-payment-alert = Nfurmazzioni di pagamentu nun vàliti; cc'è n'erruri cû to cuntu. <div>Manija</div>
-sub-route-funding-source-payment-alert = Nfurmazzioni di pagamentu nun vàliti, cc'è n'erruri cû to cuntu. Capaci ca serbi n'anticchia di tempu picchì st'abbisu sparisci doppu chi attualizzi i to nfurmazzioni. <div>Manija</div>
+sub-route-payment-modal-message-2 = Parissi chi cci fu n’erruri cû to cuntu { -brand-paypal }, serbi chi fai chiḍḍu chi serbi p’arrisòrbiri stu prubblema di pagamentu.
+sub-route-missing-billing-agreement-payment-alert = Nfurmazzioni di pagamentu nun vàliti; cc’è n’erruri cû to cuntu. <div>Manija</div>
+sub-route-funding-source-payment-alert = Nfurmazzioni di pagamentu nun vàliti, cc’è n’erruri cû to cuntu. Capaci ca serbi n’anticchia di tempu picchì st’abbisu sparisci doppu chi attualizzi i to nfurmazzioni. <div>Manija</div>
 
 ## Routes - Subscription - SubscriptionItem
 
-sub-item-no-such-plan = Nun cc'è nuḍḍu chianu di stu tipu pi st'abbunamentu.
+sub-item-no-such-plan = Nun cc’è nuḍḍu chianu di stu tipu pi st’abbunamentu.
 invoice-not-found = Nun attruvai a fattura doppu
-sub-item-no-such-subsequent-invoice = Nun attruvai a fattura doppu pi st'abbunamentu.
-sub-invoice-preview-error-title = Nun attruvai l'antiprima dâ fattura
-sub-invoice-preview-error-text = Nun attruvai l'antiprima dâ fattura pi st'abbunamentu
+sub-item-no-such-subsequent-invoice = Nun attruvai a fattura doppu pi st’abbunamentu.
+sub-invoice-preview-error-title = Nun attruvai l’antiprima dâ fattura
+sub-invoice-preview-error-text = Nun attruvai l’antiprima dâ fattura pi st’abbunamentu
 
 ## Routes - Subscriptions - Pocket Subscription
 
@@ -522,25 +522,25 @@ manage-pocket-body-2 = Pi manijàrilu, <linkExternal>ammacca cca</linkExternal>.
 ## Routes - Subscriptions - Reactivate
 ## $name (String) - The name of the subscribed product.
 
-reactivate-confirm-dialog-header = Vo' cuntinuari a usari { $name }?
+reactivate-confirm-dialog-header = Vo’ cuntinuari a usari { $name }?
 # $amount (Number) - The amount billed. It will be formatted as currency.
 # $last (String) - The last 4 digits of the card that will be charged
 # $endDate (Date) - Last day of product access
-reactivate-confirm-copy = Po' cuntinuari a tràsiri nne { $name }, e u to ciclu di fatturazzioni arresta u stissu. L'addèbbitu pròssimu sarà di { $amount } ncapu â carta chi finisci pi { $last } jornu { $endDate }.
+reactivate-confirm-copy = Po’ cuntinuari a tràsiri nne { $name }, e u to ciclu di fatturazzioni arresta u stissu. L’addèbbitu pròssimu sarà di { $amount } ncapu â carta chi finisci pi { $last } jornu { $endDate }.
 # Alternate copy used when a payment method is not available, e.g. for free trials
 # $amount (Number) - The amount billed. It will be formatted as currency.
 # $endDate (Date) - Last day of product access
-reactivate-confirm-without-payment-method-copy = Po' cuntinuari a tràsiri nne { $name }, e u to ciclu di fatturazzioni arresta u stissu. L'addèbbitu pròssimu sarà di { $amount } jornu { $endDate }.
+reactivate-confirm-without-payment-method-copy = Po’ cuntinuari a tràsiri nne { $name }, e u to ciclu di fatturazzioni arresta u stissu. L’addèbbitu pròssimu sarà di { $amount } jornu { $endDate }.
 reactivate-confirm-button = Abbònati arrè
 
 ## $date (Date) - Last day of product access
 
-reactivate-panel-copy = Nun po' tràsiri cchiù nne { $name } di jornu <strong>{ $date }</strong>.
+reactivate-panel-copy = Nun po’ tràsiri cchiù nne { $name } di jornu <strong>{ $date }</strong>.
 reactivate-success-copy = Grazzi! Allistemu.
 reactivate-success-button = Chiuji
 
 ## Routes - Subscriptions - Subscription iap item
 
-sub-iap-item-google-purchase-2 = { -brand-google }: accàttiti di l'app
-sub-iap-item-apple-purchase-2 = { -brand-apple }: accàttiti di l'app
+sub-iap-item-google-purchase-2 = { -brand-google }: accàttiti di l’app
+sub-iap-item-apple-purchase-2 = { -brand-apple }: accàttiti di l’app
 sub-iap-item-manage-button = Manija

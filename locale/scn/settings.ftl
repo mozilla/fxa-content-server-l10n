@@ -20,10 +20,10 @@ brand-banner-dismiss-button-2 =
 # This message is displayed as the title element in the banner, prior to actually launching the new brand
 brand-prelaunch-title = I { -product-firefox-accounts } addivèntanu { -product-mozilla-accounts } dû 1ᵘ di nuvèmmiru
 # This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
-brand-prelaunch-subtitle = Trasi sempri cû stissu nomu utenti e a stissa chiavi, e nun cc'è nuḍḍu autru canciamentu nnî prudutti chi usi.
+brand-prelaunch-subtitle = Trasi sempri cû stissu nomu utenti e a stissa chiavi, e nun cc’è nuḍḍu autru canciamentu nnî prudutti chi usi.
 # This message is displayed as title element in the banner, after the brand changes take affect letting the user know that
 # no action is required on their part
-brand-postlaunch-title = Canciamu u nomu dî { -product-firefox-accounts } a { -product-mozilla-accounts }. Trasi sempri cû stissu nomu utenti e a stissa chiavi, e nun cc'è nuḍḍu autru canciamentu nnî prudutti chi usi.
+brand-postlaunch-title = Canciamu u nomu dî { -product-firefox-accounts } a { -product-mozilla-accounts }. Trasi sempri cû stissu nomu utenti e a stissa chiavi, e nun cc’è nuḍḍu autru canciamentu nnî prudutti chi usi.
 # This is an extra link element, that directs users to a page where they can learn more about the branding changes.
 brand-learn-more = Cchiù nfurmazzioni
 # Alt text for close banner image
@@ -36,8 +36,8 @@ brand-m-logo =
 ## ButtonBack component
 ## Allows users to click a back arrow to navigate to the previous page
 
-button-back-aria-label = Nn'arrè
-button-back-title = Nn'arrè
+button-back-aria-label = Nn’arrè
+button-back-title = Nn’arrè
 
 ## ButtonDownloadRecoveryKeyPDF
 ## Clicking on this button downloads a PDF file that contains the user's account recovery key
@@ -57,7 +57,7 @@ recovery-key-pdf-key-legend = Chiavi di ricùpiru dû cuntu
 # Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
 # Password resets without this account recovery key can result in data loss.
 # "key" here refers to "account recovery key"
-recovery-key-pdf-instructions = Sta chiavi ti pirmetti di ricupigghiari i dati crittati dû navicaturi (chiavi, nzingalibbra e crunuluggìa) si ti scordi a chiavi dû cuntu. Sàrbala nnôn postu chi t'arricordi.
+recovery-key-pdf-instructions = Sta chiavi ti pirmetti di ricupigghiari i dati crittati dû navicaturi (chiavi, nzingalibbra e crunuluggìa) si ti scordi a chiavi dû cuntu. Sàrbala nnôn postu chi t’arricordi.
 # This heading is shown above a list of options for storing the account recovery key
 # "key" here refers to "account recovery key"
 recovery-key-pdf-storage-ideas-heading = Unni sarbari sta chiavi
@@ -73,10 +73,10 @@ recovery-key-pdf-download-error = Ni dispiaci, cci fu un prubblema nnô scarrica
 choose-newsletters-prompt-2 = Ricivi cchiù assai di { -brand-mozilla }:
 # Newsletter checklist item
 choose-newsletters-option-latest-news =
-    .label = Ricivi l'ùrtimi nutizzi e attualizzi ncapu ê prudutti
+    .label = Ricivi l’ùrtimi nutizzi e attualizzi ncapu ê prudutti
 # Newsletter checklist item
 choose-newsletters-option-test-pilot =
-    .label = Accessu 'n antiprima pi pruvari i prudutti novi
+    .label = Accessu ’n antiprima pi pruvari i prudutti novi
 # Newsletter checklist item. This for a Mozilla Foundation newsletters,
 # "Action alerts" can be interpreted as "Calls to action"
 choose-newsletters-option-reclaim-the-internet =
@@ -156,9 +156,9 @@ form-reset-password-with-balloon-confirm-password =
     .label = Metti arrè a chiavi
 form-reset-password-with-balloon-submit-button = Risetta a chiavi
 form-reset-password-with-balloon-match-error = I chiavi chi mittisti nun appàttanu
-form-password-sr-too-short-message = A chiavi àv'a èssiri di armenu 8 caràttari.
-form-password-sr-not-email-message = Nnâ chiavi nun cci àv'a èssiri u to nnirizzu di posta elittrònica.
-form-password-sr-not-common-message = A chiavi nun àv'a èssiri una di chiḍḍi usati cumuni.
+form-password-sr-too-short-message = A chiavi àv’a èssiri di armenu 8 caràttari.
+form-password-sr-not-email-message = Nnâ chiavi nun cci àv’a èssiri u to nnirizzu di posta elittrònica.
+form-password-sr-not-common-message = A chiavi nun àv’a èssiri una di chiḍḍi usati cumuni.
 form-password-sr-requirements-met = A chiavi chi mittisti rispetta tutti i riquisiti pî chiavi.
 form-password-sr-passwords-match = I chiavi chi mittisti appàttanu.
 
@@ -175,9 +175,9 @@ form-password-with-inline-criteria-confirm-password =
     .label = Cunferma a chiavi
 form-password-with-inline-criteria-reset-submit-button = Crìa na chiavi nova
 form-password-with-inline-criteria-match-error = I chiavi chi mittisti nun appàttanu
-form-password-with-inline-criteria-sr-too-short-message = A chiavi àv'a èssiri di armenu 8 caràttari.
-form-password-with-inline-criteria-sr-not-email-message = Nnâ chiavi nun cci àv'a èssiri u to nnirizzu di posta elittrònica.
-form-password-with-inline-criteria-sr-not-common-message = A chiavi nun àv'a èssiri una di chiḍḍi usati cumuni.
+form-password-with-inline-criteria-sr-too-short-message = A chiavi àv’a èssiri di armenu 8 caràttari.
+form-password-with-inline-criteria-sr-not-email-message = Nnâ chiavi nun cci àv’a èssiri u to nnirizzu di posta elittrònica.
+form-password-with-inline-criteria-sr-not-common-message = A chiavi nun àv’a èssiri una di chiḍḍi usati cumuni.
 form-password-with-inline-criteria-sr-requirements-met = A chiavi chi mittisti rispetta tutti i riquisiti pî chiavi.
 form-password-with-inline-criteria-sr-passwords-match = I chiavi chi mittisti appàttanu.
 
@@ -204,7 +204,7 @@ form-verify-totp-disabled-button-title-alphanumeric = Metti u còdici di { $code
 
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = Chiavi di ricùpiru dû cuntu { -brand-firefox }
-get-data-trio-title-backup-verification-codes = Còdici d'autinticazzioni di sicurizza
+get-data-trio-title-backup-verification-codes = Còdici d’autinticazzioni di sicurizza
 get-data-trio-download-2 =
     .title = Scàrrica
     .aria-label = Scàrrica
@@ -228,11 +228,11 @@ icon-attention-aria-label =
 icon-warning-aria-label =
     .aria-label = Accura
 authenticator-app-aria-label =
-    .aria-label = App d'autinticazzioni
+    .aria-label = App d’autinticazzioni
 backup-codes-icon-aria-label-v2 =
-    .aria-label = Còdici d'autinticazzioni di sicurizza abbilitati
+    .aria-label = Còdici d’autinticazzioni di sicurizza abbilitati
 backup-codes-disabled-icon-aria-label-v2 =
-    .aria-label = Còdici d'autinticazzioni di sicurizza sdisabbilitati
+    .aria-label = Còdici d’autinticazzioni di sicurizza sdisabbilitati
 # An icon of phone with text message. A back recovery phone number
 backup-recovery-sms-icon-aria-label =
     .aria-label = SMS di ricùpiru abbilitatu
@@ -270,13 +270,13 @@ usa-flag-icon-aria-label =
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
 hearts-broken-image-aria-label =
-    .aria-label = Un computer e un tilèfunu e na mmàggini d'un cori ciaccatu ncapu a iḍḍi
+    .aria-label = Un computer e un tilèfunu e na mmàggini d’un cori ciaccatu ncapu a iḍḍi
 hearts-verified-image-aria-label =
-    .aria-label = Un computer e un tilèfunu e na tavuliḍḍa c'un cori chi batti ncapu a iḍḍi
+    .aria-label = Un computer e un tilèfunu e na tavuliḍḍa c’un cori chi batti ncapu a iḍḍi
 signin-recovery-code-image-description =
     .aria-label = Ducumentu chi àvi testu ammucciatu
 signin-totp-code-image-label =
-    .aria-label = Un dispusitivu c'un còdici a 6 cifri ammucciatu
+    .aria-label = Un dispusitivu c’un còdici a 6 cifri ammucciatu
 confirm-signup-aria-label =
     .aria-label = Na busta cu na lijami
 # Used for an image of a key on a shield surrounded by 5 other icons representing information that can be recovered with the account recovery key.
@@ -289,13 +289,13 @@ recovery-key-image-aria-label =
 password-image-aria-label =
     .aria-label = Mmàggini chi riprisenta u nzirimentu di na chiavi.
 lightbulb-aria-label =
-    .aria-label = Mmàggini chi riprisenta a criazzioni d'un suggirimentu pi l'archiviu.
+    .aria-label = Mmàggini chi riprisenta a criazzioni d’un suggirimentu pi l’archiviu.
 email-code-image-aria-label =
-    .aria-label = Mmàggini chi riprisenta n'email chi àvi un còdici.
+    .aria-label = Mmàggini chi riprisenta n’email chi àvi un còdici.
 recovery-phone-image-description =
     .aria-label = Dispusitivu mòbbili chi ricivi un còdici pi SMS.
 recovery-phone-code-image-description =
-    .aria-label = Còdici ricivutu d'un dispusitivu mòbbili.
+    .aria-label = Còdici ricivutu d’un dispusitivu mòbbili.
 backup-recovery-phone-image-aria-label =
     .aria-label = Dispusitivu mòbbili chi po mannari SMS
 backup-authentication-codes-image-aria-label =
@@ -309,7 +309,7 @@ inline-recovery-key-setup-signed-in-firefox-2 = Trasisti nne { -brand-firefox }.
 inline-recovery-key-setup-create-header = Pruteggi u to cuntu
 # This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
 inline-recovery-key-setup-create-subheader = Ài un minutu pi prutèggiri i to dati?
-inline-recovery-key-setup-info = Crìa na chiavi di ricùpiru dû cuntu accussì po' ricupigghiari i dati sincrunizzati dû navicaturi si ti scordi a chiavi.
+inline-recovery-key-setup-info = Crìa na chiavi di ricùpiru dû cuntu accussì po’ ricupigghiari i dati sincrunizzati dû navicaturi si ti scordi a chiavi.
 inline-recovery-key-setup-start-button = Crìa na chiavi di ricùpiru dû cuntu
 inline-recovery-key-setup-later-button = Cchiù tardu
 
@@ -336,7 +336,7 @@ input-phone-number-enter-number = Metti u nùmmaru di tilèfunu
 input-phone-number-country-united-states = Stati Junciuti
 input-phone-number-country-canada = Cànada
 # Back button on legal/terms or legal/privacy that takes users to the previous page
-legal-back-button = Nn'arrè
+legal-back-button = Nn’arrè
 
 ## LinkDamaged component
 
@@ -384,15 +384,15 @@ password-info-balloon-reset-risk-info = Risittari u cuntu veni a diri chi putiss
 
 password-strength-balloon-heading = Riquisiti dî chiavi
 password-strength-balloon-min-length = Armenu 8 caràttari
-password-strength-balloon-not-email = Nun cci àv'a èssiri u to nnirizzu di posta elittrònica
-password-strength-balloon-not-common = Nun àv'a èssiri na chiavi cumuni
-password-strength-balloon-stay-safe-tips = Arresta ô sicuru — nun usare i chiavi nna cchiù assai d'un locu. Vidi i nostri cunzigghi ncapu a comu <LinkExternal>criari chiavi forti</LinkExternal>.
+password-strength-balloon-not-email = Nun cci àv’a èssiri u to nnirizzu di posta elittrònica
+password-strength-balloon-not-common = Nun àv’a èssiri na chiavi cumuni
+password-strength-balloon-stay-safe-tips = Arresta ô sicuru — nun usare i chiavi nna cchiù assai d’un locu. Vidi i nostri cunzigghi ncapu a comu <LinkExternal>criari chiavi forti</LinkExternal>.
 
 ## PasswordStrengthBalloon component
 
 password-strength-inline-min-length = Armenu 8 caràttari
-password-strength-inline-not-email = Nun cci àv'a èssiri u to nnirizzu di posta elittrònica
-password-strength-inline-not-common = Nun àv'a èssiri na chiavi cumuni
+password-strength-inline-not-email = Nun cci àv’a èssiri u to nnirizzu di posta elittrònica
+password-strength-inline-not-common = Nun àv’a èssiri na chiavi cumuni
 password-strength-inline-confirmed-must-match = A cunferma appatta câ chiavi nova
 
 ## Notification Promo Banner component
@@ -401,22 +401,22 @@ account-recovery-notification-cta = Crìa
 account-recovery-notification-header-value = Nun pèrdiri i to dati si ti scordi a chiavi
 account-recovery-notification-header-description = Crìa na chiavi di ricùpiru dû cuntu pi ricupigghiari i dati sincrunizzati dû navicaturi si ti scordi a chiavi.
 recovery-phone-promo-cta = Junci u nùmmaru di tilèfunu di ricùpiru
-recovery-phone-promo-heading = Junci na prutizzioni superchiu ô to cuntu c'un nùmmaru di tilèfunu di ricùpiru
-recovery-phone-promo-description = Ora po' tràsiri c'un missaggiu SMS cu na chiavi a usu sìngulu si nun po' usari l'applicazzioni pi l'autinticazzioni a du' fattura.
+recovery-phone-promo-heading = Junci na prutizzioni superchiu ô to cuntu c’un nùmmaru di tilèfunu di ricùpiru
+recovery-phone-promo-description = Ora po’ tràsiri c’un missaggiu SMS cu na chiavi a usu sìngulu si nun po’ usari l’applicazzioni pi l’autinticazzioni a du’ fattura.
 recovery-phone-promo-info-link = Autri nfurmazzioni ncapu ô ricùpiru e u rìsicu dû scanciu di SIM
 promo-banner-dismiss-button =
     .aria-label = Chiuji a bannera
 
 ## Ready component
 
-ready-complete-set-up-instruction = Cumpleta a cunfijurazzioni mittennu a to chiavi nova nni l'autri dispusitivi { -brand-firefox }.
+ready-complete-set-up-instruction = Cumpleta a cunfijurazzioni mittennu a to chiavi nova nni l’autri dispusitivi { -brand-firefox }.
 manage-your-account-button = Manija u to cuntu
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-ready-use-service = Ora po' usari { $serviceName }
+ready-use-service = Ora po’ usari { $serviceName }
 # The user successfully accomplished a task (password reset, confirm email) that lets them use their account
-ready-use-service-default = Ora po' usari i mpustazzioni dû cuntu
+ready-use-service-default = Ora po’ usari i mpustazzioni dû cuntu
 # Message shown when the account is ready but the user is not signed in
 ready-account-ready = U to cuntu è lestu!
 ready-continue = Cuntinua
@@ -441,10 +441,10 @@ flow-recovery-key-download-storage-ideas-pwd-manager = Manijaturi di chiavi
 
 # The header of the last step in the account recovery key creation flow
 # "key" here refers to the "account recovery key"
-flow-recovery-key-hint-header-v2 = Junci un suggirimentu p'arricurdàriti a chiavi
+flow-recovery-key-hint-header-v2 = Junci un suggirimentu p’arricurdàriti a chiavi
 # This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
 # "it" here refers to the storage hint, NOT the "account recovery key"
-flow-recovery-key-hint-message-v3 = Stu suggirimentu t'avissi a 'jutari unni sarbasti a to chiavi di ricùpiru dû cuntu. Tû putemu mustrari mentri chi risetti a chiavi pi ricupigghiari i to dati.
+flow-recovery-key-hint-message-v3 = Stu suggirimentu t’avissi a ’jutari unni sarbasti a to chiavi di ricùpiru dû cuntu. Tû putemu mustrari mentri chi risetti a chiavi pi ricupigghiari i to dati.
 # The label for the text input where the user types in the storage hint they want to save.
 # The storage hint is optional, and users can leave this blank.
 flow-recovery-key-hint-input-v2 =
@@ -454,10 +454,10 @@ flow-recovery-key-hint-input-v2 =
 flow-recovery-key-hint-cta-text = Cumpleta
 # Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
 # "Hint" refers to "storage hint"
-flow-recovery-key-hint-char-limit-error = U suggirimentu àv'a èssiri cchiù curtu di 255 caràttari.
+flow-recovery-key-hint-char-limit-error = U suggirimentu àv’a èssiri cchiù curtu di 255 caràttari.
 # Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
 # "Hint" refers to "storage hint"
-flow-recovery-key-hint-unsafe-char-error = U suggirimentu nun po' aviri caràttari Unicode nun sicuri. Sunnu pirmisi sulu littri, nùmmari, signi di puntijatura e sìmmuli.
+flow-recovery-key-hint-unsafe-char-error = U suggirimentu nun po’ aviri caràttari Unicode nun sicuri. Sunnu pirmisi sulu littri, nùmmari, signi di puntijatura e sìmmuli.
 
 ## ResetPasswordWarning component
 ## Warning shown to sync users that reset their password without using an account recovery key
@@ -468,7 +468,7 @@ password-reset-chevron-collapsed = Allarga abbisu
 password-reset-data-may-not-be-recovered = Putissi èssiri ca nun si ponnu ricupigghiari i dati dû navicaturi
 password-reset-previously-signed-in-device-2 = Ài autri dispusitivi unni già trasisti?
 password-reset-data-may-be-saved-locally-2 = Capaci ca i dati dû navicaturi sunnu sarbati nna ḍḍu dispusitivu. Risetta a to chiavi e trasi ḍḍocu pi ricupigghiari e sincrunizzari i to dati.
-password-reset-no-old-device-2 = Ài un dispusitivu novu ma nun ài accessu a nuḍḍu di l'autri to dispusitivi?
+password-reset-no-old-device-2 = Ài un dispusitivu novu ma nun ài accessu a nuḍḍu di l’autri to dispusitivi?
 password-reset-encrypted-data-cannot-be-recovered-2 = Ni dispiaci, ma nun è pussìbbili ricupigghiari i dati crittati dû to navicaturi dî sirbura { -brand-firefox }.
 password-reset-warning-have-key = Ài na chiavi di ricùpiru dû cuntu?
 password-reset-warning-use-key-link = Ùsala pi risittari a to chiavi e sarbari i to dati
@@ -548,11 +548,11 @@ cs-disconnect-sync-opt-not-say = Nun u vogghiu diri
 
 ##
 
-cs-disconnect-advice-confirm = D'accordu
+cs-disconnect-advice-confirm = D’accordu
 cs-disconnect-lost-advice-heading = U dispusitivu persu o arrubbatu fu scullijatu
 cs-disconnect-lost-advice-content-3 = Siccomu pirdisti u to dispusitivu, o ti fu arrubbatu, ti cunzigghiamu di canciari a chiavi dû to { -product-mozilla-account } nnê mpustazzioni dû cuntu. Avissi a fari macari na risciduta cû prudutturi dû to dispusitivu ncapu a comu scancillari i to dati di rimotu.
 cs-disconnect-suspicious-advice-heading = U dispusitivu suspettu fu scullijatu
-cs-disconnect-suspicious-advice-content-2 = Si u dispusitivu scullijatu è veru suspettu, pi tèniri i tu nfurmazzioni ô sicuru avissi a canciari a chiavi dû { -product-mozilla-account } nnê mpustazzioni dû cuntu. Avissi a canciari macari l'autri chiavi chi avìi sarbati nne { -brand-firefox } scrivennu about:logins nnâ barra dî nnirizzi.
+cs-disconnect-suspicious-advice-content-2 = Si u dispusitivu scullijatu è veru suspettu, pi tèniri i tu nfurmazzioni ô sicuru avissi a canciari a chiavi dû { -product-mozilla-account } nnê mpustazzioni dû cuntu. Avissi a canciari macari l’autri chiavi chi avìi sarbati nne { -brand-firefox } scrivennu about:logins nnâ barra dî nnirizzi.
 cs-sign-out-button = Nesci
 
 ## Data collection section
@@ -563,7 +563,7 @@ dc-subheader-ff-browser = Navicaturi { -brand-firefox }
 dc-subheader-content-2 = Pirmèttici ê { -product-mozilla-accounts } di mannàrici a { -brand-mozilla } i dati tècnici e di ntirazzioni.
 dc-subheader-ff-content = Pi virificari o attualizzari i paràmitri tècnici e i mpustazzioni dî dati di ntirazzioni di { -brand-firefox }, grapi i mpustazzioni di { -brand-firefox } e vai nne Privatizza e Sicurizza.
 dc-opt-out-success-2 = Sdisattivatu. { -product-mozilla-accounts } nun manna cchiù dati tècnici o di ntirazzioni a { -brand-mozilla }.
-dc-opt-in-success-2 = Grazzi! Spàrtiri sti dati n'ajuta a fari megghiu { -product-mozilla-accounts }.
+dc-opt-in-success-2 = Grazzi! Spàrtiri sti dati n’ajuta a fari megghiu { -product-mozilla-accounts }.
 dc-opt-in-out-error-2 = Ni dispiaci, cci fu un prubblema mentri chi canciava i to prifirenzi ncapu â ricota dî dati.
 dc-learn-more = Cchiù nfurmazzioni
 
@@ -578,7 +578,7 @@ drop-down-menu-sign-out-error-2 = Ni dispiaci, mmattìu un prubblema mentri chi 
 
 ## Flow Container
 
-flow-container-back = Nn'arrè
+flow-container-back = Nn’arrè
 
 ## FlowRecoveryKeyConfirmPwd - Second view in the PageRecoveryKeyCreate flow
 ## Users see this view when they are generating a new account recovery key
@@ -598,7 +598,7 @@ flow-recovery-key-confirm-pwd-submit-button-change-key = Crìa na chiavi di ric�
 
 flow-recovery-key-download-heading-v2 = Criasti na chiavi di ricùpiru dû cuntu — scàrricala e sàrbala sùbbitu
 # The "key" here refers to the term "account recovery key"
-flow-recovery-key-download-info-v2 = Sta chiavi ti pirmetti di ricupigghiari i to dati si ti scordi a chiavi. Scàrricala ora e sàrbala unni t'arricordi — nun è pussìbbili turnari arrè a sta pàggina doppu.
+flow-recovery-key-download-info-v2 = Sta chiavi ti pirmetti di ricupigghiari i to dati si ti scordi a chiavi. Scàrricala ora e sàrbala unni t’arricordi — nun è pussìbbili turnari arrè a sta pàggina doppu.
 # This link allows user to proceed to the next step without clicking the download button
 flow-recovery-key-download-next-link-v2 = Cuntinua senza scarricari
 
@@ -618,7 +618,7 @@ flow-recovery-key-info-header-change-key = Cancia a to chiavi di ricùpiru dû c
 # In the first view of the PageRecoveryKeyCreate flow, this is the first of two bullet points explaining why the user should create an account recovery key
 flow-recovery-key-info-shield-bullet-point-v2 = Crittamu i dati di navicazzioni –– chiavi, nzingalibbra e autri cosi. È assai bonu pâ privatizza, ma si ti scordi a chiavi perdi tutti i to dati.
 # In the first view of the PageRecoveryKeyCreate flow, this is the second of two bullet points explaining why the user should create an account recovery key
-flow-recovery-key-info-key-bullet-point-v2 = Chista è a scaciuni picchì criari na chiavi di ricùpiru dû cuntu è accussì mpurtanti –– a po' usari pi ricupigghiari i to dati.
+flow-recovery-key-info-key-bullet-point-v2 = Chista è a scaciuni picchì criari na chiavi di ricùpiru dû cuntu è accussì mpurtanti –– a po’ usari pi ricupigghiari i to dati.
 # The text of the "submit" button to start creating (or changing) an account recovery key
 flow-recovery-key-info-cta-text-v3 = Accumincia
 # Link to cancel account recovery key change and return to settings
@@ -646,13 +646,13 @@ flow-change-phone-confirm-code-success-message = Canciasti u nùmmaru di tilèfu
 
 flow-setup-phone-submit-number-heading = Virìfica u to nùmmaru di tilèfunu
 # The code is a 6-digit code send by text message/SMS
-flow-setup-phone-verify-number-instruction = T'arriva un missaggiu di testu di { -brand-mozilla } c'un còdici pi virificari u to nùmmaru. Nun spàrtiri stu còdici cu nuḍḍu.
+flow-setup-phone-verify-number-instruction = T’arriva un missaggiu di testu di { -brand-mozilla } c’un còdici pi virificari u to nùmmaru. Nun spàrtiri stu còdici cu nuḍḍu.
 # The initial rollout of the recovery phone is only available to users with US and Canada mobile phone numbers.
 # Voice over Internet Protocol (VoIP), is a technology that uses a broadband Internet connection instead of a regular (or analog) phone line to make calls.
 # Phone mask services (for example Relay) provide a temporary virtual number to avoid providing a real phone number.
 # Both VoIP and phone masks can be unreliable for one-time-passcode (OTP) verification
 flow-setup-phone-submit-number-info-message-v2 = U nùmmaru di tilèfunu di ricùpiru dû cuntu è dispunìbbili sulu nnê Stati Junciuti e nnô Cànada. Nun cunzigghiamu di usari nùmmari VoIP e i nùmmari mascarati.
-flow-setup-phone-submit-number-legal = Dànnuni u to nùmmaru di tilèfunu, sì d'accordu chi u sarbamu pi mannàriti missaggi pi virificari u cuntu. Cci putìssiru èssiri cosi di pagari pi missaggi o tràficu dati.
+flow-setup-phone-submit-number-legal = Dànnuni u to nùmmaru di tilèfunu, sì d’accordu chi u sarbamu pi mannàriti missaggi pi virificari u cuntu. Cci putìssiru èssiri cosi di pagari pi missaggi o tràficu dati.
 # cliking on the button sends a code by text message to the phone number typed in by the user
 flow-setup-phone-submit-number-button = Manna u còdici
 
@@ -668,13 +668,13 @@ header-help = Ajutu
 ## Linked Accounts section
 
 la-heading = Cunti lijati
-la-description = Auturizzasti l'accessu ê cunti appressu.
+la-description = Auturizzasti l’accessu ê cunti appressu.
 la-unlink-button = Slija
 la-unlink-account-button = Slija
 la-set-password-button = Mpusta chiavi
-la-unlink-heading = Slija d'un cuntu terzu
-la-unlink-content-3 = Vo' scullijari u to cuntu? Scullijari u cuntu nun ti fa nèsciri di manera autumàtica di tutti i Sirbizza cunnessi. Pi fallu, hâ nèsciri a manu dâ sizzioni Sirbizza cunnessi.
-la-unlink-content-4 = Prima di scullijari u to cuntu, hâ mpustari na chiavi. Senza nuḍḍa chiavi, nun cc'è nuḍḍa manera di tràsiri nnô cuntu doppu chi u scullijasti.
+la-unlink-heading = Slija d’un cuntu terzu
+la-unlink-content-3 = Vo’ scullijari u to cuntu? Scullijari u cuntu nun ti fa nèsciri di manera autumàtica di tutti i Sirbizza cunnessi. Pi fallu, hâ nèsciri a manu dâ sizzioni Sirbizza cunnessi.
+la-unlink-content-4 = Prima di scullijari u to cuntu, hâ mpustari na chiavi. Senza nuḍḍa chiavi, nun cc’è nuḍḍa manera di tràsiri nnô cuntu doppu chi u scullijasti.
 nav-linked-accounts = { la-heading }
 
 ## Modal - Default values for a message directed at the user where the user can typically Confirm or Cancel.
@@ -706,13 +706,13 @@ nav-email-comm = Cumunicazzioni pi posta elittrònica
 
 ## Two Step Authentication - replace backup authentication code
 
-tfa-replace-code-error-3 = Cci fu un prubblema mentri chi canciava i còdici d'autinticazzioni di sicurizza
-tfa-create-code-error = Cci fu un prubblema mentri chi criava i còdici d'autinticazzioni di sicurizza
-tfa-replace-code-success-1 = Foru criati còdici novi. Sarba sti còdici d'autinticazzioni di sicurizza nnôn postu sicuru — ti sèrbinu pi tràsiri nnô to cuntu si nun ài u to dispusitivu mòbbili.
-tfa-replace-code-success-alert-4 = Còdici d'autinticazzioni di sicurizza attualizzati
+tfa-replace-code-error-3 = Cci fu un prubblema mentri chi canciava i còdici d’autinticazzioni di sicurizza
+tfa-create-code-error = Cci fu un prubblema mentri chi criava i còdici d’autinticazzioni di sicurizza
+tfa-replace-code-success-1 = Foru criati còdici novi. Sarba sti còdici d’autinticazzioni di sicurizza nnôn postu sicuru — ti sèrbinu pi tràsiri nnô to cuntu si nun ài u to dispusitivu mòbbili.
+tfa-replace-code-success-alert-4 = Còdici d’autinticazzioni di sicurizza attualizzati
 tfa-replace-code-1-2 = Passu 1 di 2
 tfa-replace-code-2-2 = Passu 2 di 2
-tfa-enter-code-to-confirm-v2 = Pi favuri metti unu dî còdici d'autinticazzioni di sicurizza chi facisti novi pi cunfirmari chi i sarbasti. Na vota chi cumpleti stu cuntrollu, i to còdici vecchi sunnu sdisabbilitati.
+tfa-enter-code-to-confirm-v2 = Pi favuri metti unu dî còdici d’autinticazzioni di sicurizza chi facisti novi pi cunfirmari chi i sarbasti. Na vota chi cumpleti stu cuntrollu, i to còdici vecchi sunnu sdisabbilitati.
 
 ## Avatar change page
 
@@ -749,11 +749,11 @@ avatar-page-image-too-large-error-2 = U pricu è troppu assai grossu pû carrica
 pw-change-header =
     .title = Cancia a chiavi
 pw-8-chars = Armenu 8 caràttari
-pw-not-email = Nun cci àv'a èssiri u to nnirizzu di posta elittrònica
+pw-not-email = Nun cci àv’a èssiri u to nnirizzu di posta elittrònica
 pw-change-must-match = A chiavi nova appatta câ cunferma
-pw-commonly-used = Nun àv'a èssiri na chiavi cumuni
+pw-commonly-used = Nun àv’a èssiri na chiavi cumuni
 # linkExternal is a link to a mozilla.org support article on password strength
-pw-tips = Arresta ô sicuru — nun usare i chiavi nna cchiù assai d'un locu. Vidi i nostri cunzigghi ncapu a comu <linkExternal>criari chiavi forti</linkExternal>.
+pw-tips = Arresta ô sicuru — nun usare i chiavi nna cchiù assai d’un locu. Vidi i nostri cunzigghi ncapu a comu <linkExternal>criari chiavi forti</linkExternal>.
 pw-change-cancel-button = Sfai
 pw-change-save-button = Sarba
 pw-change-forgot-password-link = Ti scurdasti a chiavi?
@@ -788,9 +788,9 @@ delete-account-product-mozilla-monitor = { -product-mozilla-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = Staju sincrunizzannu i dati di { -brand-firefox }
 delete-account-product-firefox-addons = Juncitini di { -brand-firefox }
-delete-account-acknowledge = Teni 'n cuntu chi, scancillannu u to cuntu:
+delete-account-acknowledge = Teni ’n cuntu chi, scancillannu u to cuntu:
 delete-account-chk-box-1-v3 =
-    .label = Tutti l'abbunamenti a pagamentu chi ài vennu scancillati (abbestra di { -product-pocket })
+    .label = Tutti l’abbunamenti a pagamentu chi ài vennu scancillati (abbestra di { -product-pocket })
 delete-account-chk-box-2 =
     .label = Putissi pèrdiri i nfurmazzioni e i funziunalità dî prudutti { -brand-mozilla }
 delete-account-chk-box-3 =
@@ -800,7 +800,7 @@ delete-account-chk-box-4 =
 delete-account-continue-button = Cuntinua
 delete-account-password-input =
     .label = Metti a chiavi
-pocket-delete-notice = Si t'abboni a Pocket Premium, pi favuri <a>scancella u to abbunamentu</a> prima di scancillari u to cuntu.
+pocket-delete-notice = Si t’abboni a Pocket Premium, pi favuri <a>scancella u to abbunamentu</a> prima di scancillari u to cuntu.
 pocket-delete-notice-marketing = Pi nun ricìviri cchiù posta pubblicitaria di Mozilla Corporation e Mozilla Foundation, hâ <a>addumannari di scancillari i to dati pubblicitari</a>.
 delete-account-cancel-button = Sfai
 delete-account-delete-button-2 = Scancella
@@ -830,11 +830,11 @@ recent-activity-account-reset-v2 = Fu principiata na rimpustazzioni dâ chiavi
 # An email bounce is when an email is sent to an email address and fails/receives a non-delivery receipt from the recipient's mail server.
 recent-activity-emails-clearBounces-v2 = Foru scancillati i nutìfichi dî ricàpiti sfalluti dâ posta elittrònica
 recent-activity-account-login-failure = Sfallìu na trasuta nnô cuntu
-recent-activity-account-two-factor-added = Fu abbilitata l'autinticazzioni a du' fattura
-recent-activity-account-two-factor-requested = Fu addumannata l'autinticazzioni a du' fattura
-recent-activity-account-two-factor-failure = Sfallìu l'autinticazzioni a du' fattura
-recent-activity-account-two-factor-success = L'autinticazzioni a du' fattura jìu bonu
-recent-activity-account-two-factor-removed = Fu livata l'autinticazzioni a du' fattura
+recent-activity-account-two-factor-added = Fu abbilitata l’autinticazzioni a du’ fattura
+recent-activity-account-two-factor-requested = Fu addumannata l’autinticazzioni a du’ fattura
+recent-activity-account-two-factor-failure = Sfallìu l’autinticazzioni a du’ fattura
+recent-activity-account-two-factor-success = L’autinticazzioni a du’ fattura jìu bonu
+recent-activity-account-two-factor-removed = Fu livata l’autinticazzioni a du’ fattura
 recent-activity-account-password-reset-requested = Fu addumannata na rimpustazzioni dâ chiavi
 recent-activity-account-password-reset-success = A rimpustazzioni dâ chiavi jìu bonu
 recent-activity-account-recovery-key-added = Abbilitasti a chiavi di ricùpiru dû cuntu
@@ -876,9 +876,9 @@ recovery-phone-remove-header = Scancella u nùmmaru di tilèfunu di ricùpiru
 # Variables:
 #   $formattedFullPhoneNumber (String) - the user's full phone number
 settings-recovery-phone-remove-info = Chistu scancella <strong>{ $formattedFullPhoneNumber }</strong> comu nùmmaru di tilèfunu di ricùpiru.
-settings-recovery-phone-remove-recommend = Ti cunzigghiamu di mantiniri stu mètudu picchì è cchiù fàcili di sarbari i còdici d'autinticazzioni di sicurizza.
+settings-recovery-phone-remove-recommend = Ti cunzigghiamu di mantiniri stu mètudu picchì è cchiù fàcili di sarbari i còdici d’autinticazzioni di sicurizza.
 # "Saved backup authentication codes" refers to previously saved backup authentication codes
-settings-recovery-phone-remove-recovery-methods = Si u scancelli, cuntrolla chi ài sarbati i to còdici d'autinticazzioni di sicurizza. <linkExternal>Apparaggia i mètudi di ricùpiru</linkExternal>
+settings-recovery-phone-remove-recovery-methods = Si u scancelli, cuntrolla chi ài sarbati i to còdici d’autinticazzioni di sicurizza. <linkExternal>Apparaggia i mètudi di ricùpiru</linkExternal>
 settings-recovery-phone-remove-button = Leva u nùmmaru di tilèfunu
 settings-recovery-phone-remove-cancel = Sfai
 settings-recovery-phone-remove-success = Nùmmaru di tilèfunu di ricùpiru scancillatu
@@ -934,44 +934,44 @@ inactive-update-status-success-alert = Trasisti. U to { -product-mozilla-account
 
 ## Two Step Authentication
 
-tfa-title = Autinticazzioni a du' fattura
+tfa-title = Autinticazzioni a du’ fattura
 tfa-step-1-3 = Passu 1 di 3
 tfa-step-2-3 = Passu 2 di 3
 tfa-step-3-3 = Passu 3 di 3
 tfa-button-continue = Cuntinua
 tfa-button-cancel = Sfai
 tfa-button-finish = Cumpleta
-tfa-incorrect-totp = U còdici d'autinticazzioni a du' fattura è sbagghiatu
+tfa-incorrect-totp = U còdici d’autinticazzioni a du’ fattura è sbagghiatu
 tfa-cannot-retrieve-code = Cci fu un prubblema mentri chi ricupirava u to còdici.
-tfa-cannot-verify-code-4 = Cci fu un prubblema mentri chi cunfirmava u to còdici d'autinticazzioni di sicurizza
-tfa-incorrect-recovery-code-1 = U còdici d'autinticazzioni di sicurizza è sbagghiatu
-tfa-enabled-v2 = Fu abbilitata l'autinticazzioni a du' fattura
-tfa-scan-this-code = Scanziuna stu còdici QR usannu una di <linkExternal>st'app d'autinticazzioni</linkExternal>.
+tfa-cannot-verify-code-4 = Cci fu un prubblema mentri chi cunfirmava u to còdici d’autinticazzioni di sicurizza
+tfa-incorrect-recovery-code-1 = U còdici d’autinticazzioni di sicurizza è sbagghiatu
+tfa-enabled-v2 = Fu abbilitata l’autinticazzioni a du’ fattura
+tfa-scan-this-code = Scanziuna stu còdici QR usannu una di <linkExternal>st’app d’autinticazzioni</linkExternal>.
 # This is the image alt text for a QR code.
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
 # DEV NOTE: Set image alt text per fluent/react documentation, do not use the below as an example
-tfa-qa-code-alt = Usa u còdici { $secret } pi cunfijurari l'autinticazzioni a du' fattura nni l'applicazzioni suppurtati.
+tfa-qa-code-alt = Usa u còdici { $secret } pi cunfijurari l’autinticazzioni a du’ fattura nni l’applicazzioni suppurtati.
 tfa-qa-code =
     .alt = { tfa-qa-code-alt }
-tfa-button-cant-scan-qr = Nun po' scanziunari u còdici?
+tfa-button-cant-scan-qr = Nun po’ scanziunari u còdici?
 # When the user cannot use a QR code.
-tfa-enter-secret-key = Metti stu còdici sicritu nnâ to applicazzioni d'autinticazzioni:
-tfa-enter-totp-v2 = Ora metti u còdici d'autinticazzioni chi ti duna l'applicazzioni.
+tfa-enter-secret-key = Metti stu còdici sicritu nnâ to applicazzioni d’autinticazzioni:
+tfa-enter-totp-v2 = Ora metti u còdici d’autinticazzioni chi ti duna l’applicazzioni.
 tfa-input-enter-totp-v2 =
-    .label = Metti u còdici d'autinticazzioni
-tfa-save-these-codes-1 = Sàrbati sti còdici d'autinticazzioni di sicurizza nnôn postu sicuru pi quannu nun ài u to dispusitivu mòbbili.
+    .label = Metti u còdici d’autinticazzioni
+tfa-save-these-codes-1 = Sàrbati sti còdici d’autinticazzioni di sicurizza nnôn postu sicuru pi quannu nun ài u to dispusitivu mòbbili.
 # codes here refers to backup authentication codes
-tfa-enter-code-to-confirm-setup = Cunferma chi sarbasti i to còdici mittènnunni unu. Senza di sti còdici, nun po' tràsiri nnô to cuntu senza l'app d'autinticazzioni.
+tfa-enter-code-to-confirm-setup = Cunferma chi sarbasti i to còdici mittènnunni unu. Senza di sti còdici, nun po’ tràsiri nnô to cuntu senza l’app d’autinticazzioni.
 tfa-enter-recovery-code-1 =
-    .label = Metti un còdici d'autinticazzioni di sicurizza
+    .label = Metti un còdici d’autinticazzioni di sicurizza
 
 ## Product promotion
 
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
-product-promo-monitor-description = Scopri unni nisceru fora i to nfurmazzioni pirsunali — e pigghiatilli nn'arrè
-product-promo-monitor-plus-description = A privatizza è mpurtanti: scopri unni nisceru fora i to nfurmazzioni pirsunali e pigghiatilli nn'arrè
+product-promo-monitor-description = Scopri unni nisceru fora i to nfurmazzioni pirsunali — e pigghiatilli nn’arrè
+product-promo-monitor-plus-description = A privatizza è mpurtanti: scopri unni nisceru fora i to nfurmazzioni pirsunali e pigghiatilli nn’arrè
 # Links out to the Monitor site
 product-promo-monitor-cta = Fai na risciduta a francu
 # Links out to the Monitor pricing site
@@ -1008,13 +1008,13 @@ security-not-set = Nun fu mpustata
 security-action-create = Crìa
 security-set-password = Mposta na chiavi pi sincrunizzari e usari certi carattarìstichi di sicurizza dû cuntu.
 # Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
-security-recent-activity-link = Vidi l'attività ricenti dû cuntu
+security-recent-activity-link = Vidi l’attività ricenti dû cuntu
 signout-sync-header = Sissioni scaduta
 signout-sync-session-expired = Ni dispiaci, quarchi cosa sfallìu. Pi favuri nesci dû minù dû navicaturi e torna a prova.
 
 ## SubRow component
 
-tfa-row-backup-codes-title = Còdici d'autinticazzioni di sicurizza
+tfa-row-backup-codes-title = Còdici d’autinticazzioni di sicurizza
 # Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
 # Users that have not enabled or verified 2FA will not see this
 tfa-row-backup-codes-not-available = Nun cci sunnu còdici dispunìbbili
@@ -1031,7 +1031,7 @@ tfa-row-backup-codes-get-new-cta-v2 = Crìa còdici novi
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = Junci
 # 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
-tfa-row-backup-codes-description-2 = Chistu è u mètudu di ricùpiru cchiù sicuru si nun po' usari u to dispusitivu mòbbili o l'app d'autinticazzioni.
+tfa-row-backup-codes-description-2 = Chistu è u mètudu di ricùpiru cchiù sicuru si nun po’ usari u to dispusitivu mòbbili o l’app d’autinticazzioni.
 # Recovery phone is a recovery method for two-step authentication
 # A recovery code can be sent to the user's phone
 tfa-row-backup-phone-title-v2 = Nùmmaru di tilèfunu di ricùpiru
@@ -1045,9 +1045,9 @@ tfa-row-backup-phone-add-cta = Junci
 tfa-row-backup-phone-delete-button = Leva
 # Shown in tooltip on delete button or delete icon
 tfa-row-backup-phone-delete-title-v2 = Nùmmaru di tilèfunu di ricùpiru
-tfa-row-backup-phone-delete-restriction-v2 = Si vo' livari u to nùmmaru di tilèfunu dû ricùpiru, junci i còdici d'autinticazzioni di sicurizza o prima sdisabbìlita l'autinticazzioni a du' fattura pi scanzàriti di bluccàriti fora dû to cuntu.
+tfa-row-backup-phone-delete-restriction-v2 = Si vo’ livari u to nùmmaru di tilèfunu dû ricùpiru, junci i còdici d’autinticazzioni di sicurizza o prima sdisabbìlita l’autinticazzioni a du’ fattura pi scanzàriti di bluccàriti fora dû to cuntu.
 # "this" refers to recovery phone
-tfa-row-backup-phone-description-v2 = Chista è u mètudu di ricùpiru cchiù fàcili si nun po' usari l'app d'autinticazzioni.
+tfa-row-backup-phone-description-v2 = Chista è u mètudu di ricùpiru cchiù fàcili si nun po’ usari l’app d’autinticazzioni.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
@@ -1085,8 +1085,8 @@ rk-cannot-remove-key = Nun potti livari a to chiavi di ricùpiru dû cuntu.
 rk-refresh-key-1 = Attualizza a chiavi di ricùpiru dû cuntu
 rk-content-explain = Ricupigghia i to nfurmazzioni quannu ti scordi a chiavi.
 rk-cannot-verify-session-4 = Ni dispiaci, cci fu un prubblema mentri chi cunfirmava a to sissioni
-rk-remove-modal-heading-1 = Vo' livari a chiavi di ricùpiru dû cuntu?
-rk-remove-modal-content-1 = Siḍḍu dicidi di risittari a chiavi, nun è pussìbbili usari a chiavi di ricùpiru dû cuntu pi aviri i to dati. Nun po' sfari st'azzioni.
+rk-remove-modal-heading-1 = Vo’ livari a chiavi di ricùpiru dû cuntu?
+rk-remove-modal-content-1 = Siḍḍu dicidi di risittari a chiavi, nun è pussìbbili usari a chiavi di ricùpiru dû cuntu pi aviri i to dati. Nun po’ sfari st’azzioni.
 rk-remove-error-2 = Nun potti livari a to chiavi di ricùpiru dû cuntu
 # Icon button to delete user's account recovery key. Text appears in tooltip on hover and as alt text for screen readers.
 unit-row-recovery-key-delete-icon-button-title = Scancella a chiavi di ricùpiru dû cuntu
@@ -1101,7 +1101,7 @@ se-cannot-resend-code-3 = Ni dispiaci, cci fu un prubblema mentri chi mannava ar
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 se-set-primary-successful-2 = { $email } ora è u to nnirizzu di posta elittrònica primariu
-se-verify-session-3 = Serbi chi cunfermi a sissioni attuali pi fari st'azzioni
+se-verify-session-3 = Serbi chi cunfermi a sissioni attuali pi fari st’azzioni
 se-verify-session-error-3 = Ni dispiaci, cci fu un prubblema mentri chi cunfirmava a to sissioni
 # Button to remove the secondary email
 se-remove-email =
@@ -1117,24 +1117,24 @@ se-secondary-email-none = Nuḍḍu
 
 ## Two Step Auth sub-section on Settings main page
 
-tfa-row-header = Autinticazzioni a du' fattura
+tfa-row-header = Autinticazzioni a du’ fattura
 tfa-row-enabled = Abbilitata
 tfa-row-disabled-status = Sdisabbilitata
 tfa-row-action-add = Junci
 tfa-row-action-disable = Sdisabbìlita
 tfa-row-button-refresh =
-    .title = Attualizza l'autinticazzioni a du' fattura
-tfa-row-cannot-refresh = Ni dispiaci, cci fu un prubblema mentri chi attualizzava l'autinticazzioni a du' fattura.
+    .title = Attualizza l’autinticazzioni a du’ fattura
+tfa-row-cannot-refresh = Ni dispiaci, cci fu un prubblema mentri chi attualizzava l’autinticazzioni a du’ fattura.
 # "this" refers to two-step authentication
 # Link goes to https://support.mozilla.org/kb/secure-mozilla-account-two-step-authentication
 tfa-row-enabled-info-link = Comu pruteggi u to cuntu
 tfa-row-cannot-verify-session-4 = Ni dispiaci, cci fu un prubblema mentri chi cunfirmava a to sissioni
-tfa-row-disable-modal-heading = Vo' sdisabbilitari l'autinticazzioni a du' fattura?
+tfa-row-disable-modal-heading = Vo’ sdisabbilitari l’autinticazzioni a du’ fattura?
 tfa-row-disable-modal-confirm = Sdisabbìlita
-tfa-row-disable-modal-explain-1 = Nun po' sfari st'azzioni. Ài macari a pussibbilità di <linkExternal>scanciari i to còdici d'autinticazzioni di sicurizza</linkExternal>.
+tfa-row-disable-modal-explain-1 = Nun po’ sfari st’azzioni. Ài macari a pussibbilità di <linkExternal>scanciari i to còdici d’autinticazzioni di sicurizza</linkExternal>.
 # Shown in an alert bar after two-step authentication is disabled
-tfa-row-disabled-2 = Fu sdisabbilitata l'autinticazzioni a du' fattura
-tfa-row-cannot-disable-2 = Nun potti sdisabbilitari l'autinticazzioni a du' fattura
+tfa-row-disabled-2 = Fu sdisabbilitata l’autinticazzioni a du’ fattura
+tfa-row-cannot-disable-2 = Nun potti sdisabbilitari l’autinticazzioni a du’ fattura
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
@@ -1142,7 +1142,7 @@ tfa-row-cannot-disable-2 = Nun potti sdisabbilitari l'autinticazzioni a du' fatt
 # This message is followed by a bulleted list
 terms-privacy-agreement-intro-2 = Cuntinuannu, accetti i:
 # links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-pocket-2 = <pocketTos>Tèrmini di sirbizzu</pocketTos> e l'<pocketPrivacy>Abbisu di risirbatizza</pocketPrivacy> di { -product-pocket }
+terms-privacy-agreement-pocket-2 = <pocketTos>Tèrmini di sirbizzu</pocketTos> e l’<pocketPrivacy>Abbisu di risirbatizza</pocketPrivacy> di { -product-pocket }
 
 ## ThirdPartyAuth component
 ## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
@@ -1172,10 +1172,10 @@ auth-error-114 = Pruvasti troppu assai voti. Torna a prova { $retryAfter }.
 auth-error-125 = A dumanna fu bluccata pi scaciuni di sicurizza
 auth-error-129-2 = Mittisti un nùmmaru di tilèfunu chi nun è vàlitu. Pi favuri cuntròllalu e torna a prova.
 auth-error-138-2 = Sissioni nun cunfirmata
-auth-error-139 = U nnirizzu di posta elittrònica sicunnariu àv'a siri diversu dû to nnirizzu primariu
+auth-error-139 = U nnirizzu di posta elittrònica sicunnariu àv’a siri diversu dû to nnirizzu primariu
 auth-error-155 = Nun attruvai u tistimoni TOTP
 # Error shown when the user submits an invalid backup authentication code
-auth-error-156 = Nun attruvai u còdici d'autinticazzioni di sicurizza
+auth-error-156 = Nun attruvai u còdici d’autinticazzioni di sicurizza
 auth-error-159 = A chiavi di ricùpiru dû cuntu nun è vàlita
 auth-error-183-2 = U còdici di cunferma nun è vàlitu o scadìu
 auth-error-202 = Sta carattarìstica nun è attiva
@@ -1184,21 +1184,21 @@ auth-error-206 = Nun potti criari a chiavi, fu già mpustata
 auth-error-214 = U nùmmaru di tilèfunu di ricùpiru esisti già
 auth-error-215 = U nùmmaru di tilèfunu di ricùpiru nun esisti
 auth-error-216 = Agghicasti ô nùmmaru màssimu dî missaggi di testu
-auth-error-218 = Nun fu pussìbbili livari u nùmmaru di tilèfunu di ricùpiru, màncanu i còdici d'autinticazzioni di sicurizza.
-auth-error-219 = Stu nùmmaru di tilèfunu fu riggistratu nna troppu assai cunti. Pi favuri prova n'autru nùmmaru.
+auth-error-218 = Nun fu pussìbbili livari u nùmmaru di tilèfunu di ricùpiru, màncanu i còdici d’autinticazzioni di sicurizza.
+auth-error-219 = Stu nùmmaru di tilèfunu fu riggistratu nna troppu assai cunti. Pi favuri prova n’autru nùmmaru.
 auth-error-999 = Erruri nun privistu
 auth-error-1001 = U tintativu di trasuta sfallìu
 auth-error-1002 = A sissioni scadìu. Trasi pi cuntinuari.
-auth-error-1003 = L'archiviu lucali o i viscotta sunnu ancora sdisabbilitati
-auth-error-1008 = A to chiavi nova àv'a siri diversa
+auth-error-1003 = L’archiviu lucali o i viscotta sunnu ancora sdisabbilitati
+auth-error-1008 = A to chiavi nova àv’a siri diversa
 auth-error-1010 = È nicissaria na chiavi vàlita
 auth-error-1011 = È nicissariu nu nnirizzu di posta elittrònica vàlitu
-auth-error-1018 = L'e-mail di cunferma turnau nn'arrè. Sbagghiasti a scrìviri u nnirizzu?
+auth-error-1018 = L’e-mail di cunferma turnau nn’arrè. Sbagghiasti a scrìviri u nnirizzu?
 auth-error-1020 = Sbagghiasti a scrìviri u nnirizzu? firefox.com nun è un sirbizzu di posta elittrònica vàlitu
 auth-error-1031 = Pi cumplitari a riggistrazzioni hâ mèttiri a to età
-auth-error-1032 = Pi cumplitari a riggistrazzioni hâ mèttiri n'età vàlita
-auth-error-1054 = U còdici d'autinticazzioni a du' fattura nun è vàlitu
-auth-error-1056 = U còdici d'autinticazzioni di sicurizza nun è vàlitu
+auth-error-1032 = Pi cumplitari a riggistrazzioni hâ mèttiri n’età vàlita
+auth-error-1054 = U còdici d’autinticazzioni a du’ fattura nun è vàlitu
+auth-error-1056 = U còdici d’autinticazzioni di sicurizza nun è vàlitu
 auth-error-1062 = U rinnirizzu nun è vàlitu
 # Displayed when we want to reference a user's previously set up recovery phone
 # number, but they are not completely signed in yet. We'll only show the last 4 digits.
@@ -1211,7 +1211,7 @@ oauth-error-1000 = Quarchi cosa sfarsijau. Pi favuri chiuji sta scheda e torna a
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
 cannot-create-account-header = Nun potti criari un cuntu
-cannot-create-account-requirements-2 = Pi criari un { -product-mozilla-account } hâ aviri certi riquisiti d'età.
+cannot-create-account-requirements-2 = Pi criari un { -product-mozilla-account } hâ aviri certi riquisiti d’età.
 # For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
 cannot-create-account-learn-more-link = Cchiù nfurmazzioni
 
@@ -1228,13 +1228,13 @@ connect-another-device-signin-to-complete-message = Trasi nna stu { -brand-firef
 # A link for the user to sign in to the current Firefox browser, preceded by a message prompting the user to sign in so as to complete the device sync setup
 connect-another-device-signin-link = Trasi
 # A message prompting the user to sign in via a different device than the current one so as to complete the device-syncing process
-connect-another-device-still-adding-devices-message = Vo' jùnciri autri dispusitivi? Trasi nne { -brand-firefox } nta n'autru dispusitivu pi cumplitari a cunfijurazzioni
+connect-another-device-still-adding-devices-message = Vo’ jùnciri autri dispusitivi? Trasi nne { -brand-firefox } nta n’autru dispusitivu pi cumplitari a cunfijurazzioni
 # A message prompting the user to sign in via a different device than the current one so as to complete the device-syncing process
-connect-another-device-signin-another-device-to-complete-message = Trasi nne { -brand-firefox } nta n'autru dispusitivu pi cumplitari a cunfijurazzioni
+connect-another-device-signin-another-device-to-complete-message = Trasi nne { -brand-firefox } nta n’autru dispusitivu pi cumplitari a cunfijurazzioni
 # This message is a value-proposition prompting the user to sync another device so as to get tabs, bookmarks, and passwords shared between devices
-connect-another-device-get-data-on-another-device-message = Vo' ricupigghiari i to schedi, i nzingalibbra e i chiavi nta n'autru dispusitivu?
+connect-another-device-get-data-on-another-device-message = Vo’ ricupigghiari i to schedi, i nzingalibbra e i chiavi nta n’autru dispusitivu?
 # This link leads the user back to the `/pair` page so as to connect another device
-connect-another-device-cad-link = Cunnetti n'autru dispusitivu
+connect-another-device-cad-link = Cunnetti n’autru dispusitivu
 # This link cancels the process of connecting another device, and takes the user back to Account Settings
 connect-another-device-not-now-link = Ora no
 # This is a message for Firefox Android users, prompting them to complete the process of connecting another device by signing into Firefox for Android
@@ -1245,8 +1245,8 @@ connect-another-device-ios-complete-setup-message = Trasi nne { -brand-firefox }
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
 
-cookies-disabled-header = È nicissariu attivari l'archiviu lucali e i viscotta
-cookies-disabled-enable-prompt-2 = Pi favuri abbìlita i viscotta e l'archiviu lucali nnô to navicaturi pi tràsiri nnô to { -product-mozilla-account }. Facènnulu abbìliti carattarìstichi a tipu ricurdari l'utenti ntra na sissioni e n'autra.
+cookies-disabled-header = È nicissariu attivari l’archiviu lucali e i viscotta
+cookies-disabled-enable-prompt-2 = Pi favuri abbìlita i viscotta e l’archiviu lucali nnô to navicaturi pi tràsiri nnô to { -product-mozilla-account }. Facènnulu abbìliti carattarìstichi a tipu ricurdari l’utenti ntra na sissioni e n’autra.
 # A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
 cookies-disabled-button-try-again = Prova arrè
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
@@ -1256,21 +1256,21 @@ cookies-disabled-learn-more = Cchiù nfurmazzioni
 
 index-header = Metti u to nnirizzu di posta elittrònica
 index-sync-header = Cuntinua cû to { -product-mozilla-account }
-index-sync-subheader = Sincrunizza i to chiavi, i schedi e i nzingalibbra unn'è-è ca usi { -brand-firefox }.
+index-sync-subheader = Sincrunizza i to chiavi, i schedi e i nzingalibbra unn’è-è ca usi { -brand-firefox }.
 index-relay-header = Crìa nu nnirizzu di posta mascaratu
-index-relay-subheader = Pi favuri metti u nnirizzu di posta elittrònica unni âm'a mannari l'e-mail ricivuti dû nnirizzu mascaratu.
+index-relay-subheader = Pi favuri metti u nnirizzu di posta elittrònica unni âm’a mannari l’e-mail ricivuti dû nnirizzu mascaratu.
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = Cuntinua nne { $serviceName }
 index-subheader-with-logo = Cuntinua nne <span>{ $serviceLogo }</span>
 index-subheader-default = Cuntinua ê mpustazzioni dû cuntu
 index-cta = Riggìstrati o trasi
-index-account-info = Un { -product-mozilla-account } ti duna l'accessu a autri prudutti di { -brand-mozilla } chi prutègginu a to privatizza.
+index-account-info = Un { -product-mozilla-account } ti duna l’accessu a autri prudutti di { -brand-mozilla } chi prutègginu a to privatizza.
 index-email-input =
     .label = Metti u to nnirizzu di posta elittrònica
 # When users delete their Mozilla account inside account Settings, they are redirected to this page with a success message
 index-account-delete-success = U cuntu fu scancillatu bonu
 # Displayed when users try to sign up for an account and their confirmation code email bounces
-index-email-bounced = L'e-mail di cunferma turnau nn'arrè. Sbagghiasti a scrìviri u nnirizzu?
+index-email-bounced = L’e-mail di cunferma turnau nn’arrè. Sbagghiasti a scrìviri u nnirizzu?
 
 ## InlineRecoveryKeySetup page component
 
@@ -1288,12 +1288,12 @@ inline-recovery-key-setup-download-subheader = Scàrricala e sàrbala ora
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 
 # The "authentication code" here refers to the code provided by an authentication app.
-inline-totp-setup-on-completion-description = Na vota chi cumplitasti, accumincia a ginirari còdici d'autinticazzioni chi doppu po' usari.
+inline-totp-setup-on-completion-description = Na vota chi cumplitasti, accumincia a ginirari còdici d’autinticazzioni chi doppu po’ usari.
 # The "authentication code" here refers to the code provided by an authentication app.
-inline-totp-setup-security-code-placeholder = Còdici d'autinticazzioni
+inline-totp-setup-security-code-placeholder = Còdici d’autinticazzioni
 # The "authentication code" here refers to the code provided by an authentication app.
-inline-totp-setup-code-required-error = È nicissariu un còdici d'autinticazzioni
-tfa-qr-code-alt = Usa u còdici { $code } pi cunfijurari l'autinticazzioni a du' fattura nni l'applicazzioni suppurtati.
+inline-totp-setup-code-required-error = È nicissariu un còdici d’autinticazzioni
+tfa-qr-code-alt = Usa u còdici { $code } pi cunfijurari l’autinticazzioni a du’ fattura nni l’applicazzioni suppurtati.
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
@@ -1330,7 +1330,7 @@ pair-auth-complete-heading = Dispusitivu cullijatu
 # Variable { $deviceFamily } is generally a browser name, for example "Firefox"
 # Variable { $deviceOS } is an operating system short name, for example "iOS", "Android"
 pair-auth-complete-now-syncing-device-text = Ora stai sincrunizzannu cu: { $deviceFamily } nne { $deviceOS }
-pair-auth-complete-sync-benefits-text = Ora po' accèdiri ê to schedi graputi, chiavi e nzingalibbra ncapu a tutti i to dispusitivi.
+pair-auth-complete-sync-benefits-text = Ora po’ accèdiri ê to schedi graputi, chiavi e nzingalibbra ncapu a tutti i to dispusitivi.
 pair-auth-complete-see-tabs-button = Vidi i schedi dî dispusitivi sincrunizzati
 pair-auth-complete-manage-devices-link = Manija i dispusitivi
 
@@ -1340,17 +1340,17 @@ pair-auth-complete-manage-devices-link = Manija i dispusitivi
 
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-auth-totp-heading-w-default-service = Metti u còdici d'autinticazzioni <span>pi cuntinuari chî mpustazzioni dû cuntu</span>
+auth-totp-heading-w-default-service = Metti u còdici d’autinticazzioni <span>pi cuntinuari chî mpustazzioni dû cuntu</span>
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-auth-totp-heading-w-custom-service = Metti u còdici d'autinticazzioni <span>pi cuntinuari cu { $serviceName }</span>
-auth-totp-instruction = Grapi a to app d'autinticazzioni e metti u còdici d'autinticazzioni chi ti duna.
+auth-totp-heading-w-custom-service = Metti u còdici d’autinticazzioni <span>pi cuntinuari cu { $serviceName }</span>
+auth-totp-instruction = Grapi a to app d’autinticazzioni e metti u còdici d’autinticazzioni chi ti duna.
 auth-totp-input-label = Metti u còdici di 6 cifri
 # Form button to confirm if the authentication code entered by the user is valid
 auth-totp-confirm-button = Cunferma
 # Error displayed in a tooltip when the form is submitted without a code
-auth-totp-code-required-error = È nicissariu un còdici d'autinticazzioni
+auth-totp-code-required-error = È nicissariu un còdici d’autinticazzioni
 
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -1358,17 +1358,17 @@ auth-totp-code-required-error = È nicissariu un còdici d'autinticazzioni
 
 # The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
 # Strings within the <span> elements appear as a subheading.
-pair-wait-for-supp-heading-text = È nicissariu chi approvi <span>di l'autru dispusitivu</span>
+pair-wait-for-supp-heading-text = È nicissariu chi approvi <span>di l’autru dispusitivu</span>
 
 ## PairFailure - a view which displays on failure of the device pairing process
 
-pair-failure-header = L'accucchiamentu nun arriniscìu
+pair-failure-header = L’accucchiamentu nun arriniscìu
 pair-failure-message = U prucessu di cunfijurazzioni sfallìu.
 
 ## Pair index page
 
 pair-sync-header = Sincrunizza { -brand-firefox } nnô to tilèfunu o a to tavuliḍḍa
-pair-cad-header = Culleja { -brand-firefox } nta n'autru dispusitivu
+pair-cad-header = Culleja { -brand-firefox } nta n’autru dispusitivu
 pair-already-have-firefox-paragraph = Ài già { -brand-firefox } nnô tilèfunu o nnâ tavuliḍḍa?
 # Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-sync-your-device-button = Sincrunizza u to dispusitivu
@@ -1378,7 +1378,7 @@ pair-or-download-subheader = o scàrricalu
 pair-scan-to-download-message = Scanziuna pi scarricari { -brand-firefox } pî dispusitivi mòbbili, o mànnati na <linkExternal>lijami pû scarricamentu</linkExternal>.
 # This allows the user to exit the sync/pair flow, and redirects them back to Settings
 pair-not-now-button = Ora no
-pair-take-your-data-message = Pòrtati i schedi, i nzingalibbra e i chiavi unn'è-è ca usi { -brand-firefox }.
+pair-take-your-data-message = Pòrtati i schedi, i nzingalibbra e i chiavi unn’è-è ca usi { -brand-firefox }.
 # This initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-get-started-button = Accumincia
 # This is the aria label on the QR code image
@@ -1387,7 +1387,7 @@ pair-qr-code-aria-label = Còdici QR
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
 pair-success-header-2 = Dispusitivu cullijatu
-pair-success-message-2 = L'accucchiamentu arriniscìu.
+pair-success-message-2 = L’accucchiamentu arriniscìu.
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -1395,8 +1395,8 @@ pair-success-message-2 = L'accucchiamentu arriniscìu.
 
 # Strings within the <span> elements appear as a subheading.
 # Variable $email is the user's email address
-pair-supp-allow-heading-text = Cunferma l'accucchiamentu <span>pi { $email }</span>
-pair-supp-allow-confirm-button = Cunferma l'accucchiamentu
+pair-supp-allow-heading-text = Cunferma l’accucchiamentu <span>pi { $email }</span>
+pair-supp-allow-confirm-button = Cunferma l’accucchiamentu
 pair-supp-allow-cancel-link = Sfai
 
 ## WaitForAuth page - Part of the devide pairing flow
@@ -1405,12 +1405,12 @@ pair-supp-allow-cancel-link = Sfai
 
 # The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
 # Strings within the <span> elements appear as a subheading.
-pair-wait-for-auth-heading-text = È nicissariu chi approvi <span>di l'autru dispusitivu</span>
+pair-wait-for-auth-heading-text = È nicissariu chi approvi <span>di l’autru dispusitivu</span>
 
 ## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
 
-pair-unsupported-header = Accucchia usannu n'app
-pair-unsupported-message = Usasti a fotucàmmira di sistema? Hâ fari l'accucchiamentu di n'app { -brand-firefox }.
+pair-unsupported-header = Accucchia usannu n’app
+pair-unsupported-message = Usasti a fotucàmmira di sistema? Hâ fari l’accucchiamentu di n’app { -brand-firefox }.
 
 ## SetPassword page
 ## Third party auth users that do not have a password set yet are prompted for a
@@ -1422,7 +1422,7 @@ set-password-info = I dati sincrunizzati sunnu crittati câ to chiavi pi prutèg
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
 
-third-party-auth-callback-message = Pi favuri aspetta, ti stamu rinnirizzannu a l'applicazzioni auturizzata.
+third-party-auth-callback-message = Pi favuri aspetta, ti stamu rinnirizzannu a l’applicazzioni auturizzata.
 
 ## AccountRecoveryConfirmKey page
 
@@ -1433,11 +1433,11 @@ account-recovery-confirm-key-instruction = Sta chiavi ricupigghia i to dati crit
 account-recovery-confirm-key-input-label =
     .label = Metti a to chiavi di ricùpiru dû cuntu di 32 caràttari.
 # When setting up an account recovery key, users have the option of storing an account recovery key hint that is shown during password reset
-account-recovery-confirm-key-hint = U to suggirimentu pi l'archiviu è:
+account-recovery-confirm-key-hint = U to suggirimentu pi l’archiviu è:
 # Clicking this button checks if the recovery key provided by the user is correct and associated with their account
 account-recovery-confirm-key-button-2 = Cuntinua
 # Link that leads to the password reset page (without recovery code)
-account-recovery-lost-recovery-key-link-2 = Nun po' attruvari a chiavi di ricùpiru dû cuntu?
+account-recovery-lost-recovery-key-link-2 = Nun po’ attruvari a chiavi di ricùpiru dû cuntu?
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
@@ -1457,7 +1457,7 @@ reset-password-complete-banner-heading = Risittasti a to chiavi.
 # Message to user after they were redirected to the Mozilla account sign-in page in a new browser
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
-complete-reset-password-desktop-relay = Doppu chi trasisti, { -brand-firefox } prova a mannàriti arrè â pàggina p'usari nu nnirizzu di posta elittrònica mascaratu.
+complete-reset-password-desktop-relay = Doppu chi trasisti, { -brand-firefox } prova a mannàriti arrè â pàggina p’usari nu nnirizzu di posta elittrònica mascaratu.
 
 # ConfirmBackupCodeResetPassword page
 
@@ -1478,22 +1478,22 @@ confirm-reset-password-otp-submit-button = Cuntinua
 # Button to request a new reset password confirmation code
 confirm-reset-password-otp-resend-code-button = Manna arrè u còdici
 # Link to cancel the password reset and sign in with a different account
-confirm-reset-password-otp-different-account-link = Usa n'autru cuntu
+confirm-reset-password-otp-different-account-link = Usa n’autru cuntu
 
 ## PasswordResetConfirmTotp Page
 
 confirm-totp-reset-password-header = Risetta a to chiavi
-confirm-totp-reset-password-subheader-v2 = Metti u còdici d'autinticazzioni a du' fattura
-confirm-totp-reset-password-instruction-v2 = Cuntrolla a to <strong>app d'autinticazzioni</strong> pi risittari a to chiavi.
+confirm-totp-reset-password-subheader-v2 = Metti u còdici d’autinticazzioni a du’ fattura
+confirm-totp-reset-password-instruction-v2 = Cuntrolla a to <strong>app d’autinticazzioni</strong> pi risittari a to chiavi.
 confirm-totp-reset-password-trouble-code = Ài prubblemi a mèttiri u còdici?
 confirm-totp-reset-password-confirm-button = Cunferma
 confirm-totp-reset-password-input-label-v2 = Metti u còdici di 6 cifri
-confirm-totp-reset-password-use-different-account = Usa n'autru cuntu
+confirm-totp-reset-password-use-different-account = Usa n’autru cuntu
 
 ## ResetPassword start page
 
 password-reset-flow-heading = Risetta a to chiavi
-password-reset-body-2 = T'addumannamu na para di cosi chi sai sulu tu pi prutèggiri u to cuntu.
+password-reset-body-2 = T’addumannamu na para di cosi chi sai sulu tu pi prutèggiri u to cuntu.
 password-reset-email-input =
     .label = Metti u to nnirizzu di posta elittrònica
 password-reset-submit-button-2 = Cuntinua
@@ -1543,13 +1543,13 @@ signin-subheader-without-logo-with-servicename = Cuntinua nne { $serviceName }
 signin-subheader-without-logo-default = Cuntinua ê mpustazzioni dû cuntu
 signin-button = Trasi
 signin-header = Trasi
-signin-use-a-different-account-link = Usa n'autru cuntu
+signin-use-a-different-account-link = Usa n’autru cuntu
 signin-forgot-password-link = Ti scurdasti a chiavi?
 signin-password-button-label = Chiavi
 # Message to user after they were redirected to the Mozilla account sign-in page in a new browser
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
-signin-desktop-relay = Doppu chi trasisti, { -brand-firefox } prova a mannàriti arrè â pàggina p'usari nu nnirizzu di posta elittrònica mascaratu.
+signin-desktop-relay = Doppu chi trasisti, { -brand-firefox } prova a mannàriti arrè â pàggina p’usari nu nnirizzu di posta elittrònica mascaratu.
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
@@ -1557,16 +1557,16 @@ signin-desktop-relay = Doppu chi trasisti, { -brand-firefox } prova a mannàriti
 ## This will be the page shown to users to block the sign in and report it.
 
 report-signin-link-damaged-body = Â lijami chi ammaccasti ci ammancàvanu caràttari, e capaci chi fu rumputa dû to prugramma di posta elittròncia. Copia u nnirizzu stannu accura, e torna a prova.
-report-signin-header = Vo' signalijari na trasuta nun auturizzata?
-report-signin-body = Ricivisti n'e-mail supra ôn tintativu di tràsiri nnô to cuntu. Vo' signalijari st'attività comu suspetta?
+report-signin-header = Vo’ signalijari na trasuta nun auturizzata?
+report-signin-body = Ricivisti n’e-mail supra ôn tintativu di tràsiri nnô to cuntu. Vo’ signalijari st’attività comu suspetta?
 report-signin-submit-button = Signalija attività
 report-signin-support-link = Chi sta mmattennu?
 report-signin-error = Ni dispiaci, cci fu un prubblema mentri chi mannava a signalijazzioni.
 signin-bounced-header = Ni dispiaci. Bluccammu u to cuntu.
 # $email (string) - The user's email.
-signin-bounced-message = L'e-mail di cunferma chi mannammu a { $email } turnau nn'arrè e bluccammu u to cuntu pi prutèggiri i to dati di { -brand-firefox }.
+signin-bounced-message = L’e-mail di cunferma chi mannammu a { $email } turnau nn’arrè e bluccammu u to cuntu pi prutèggiri i to dati di { -brand-firefox }.
 # linkExternal is button which logs the user's action and navigates them to mozilla support
-signin-bounced-help = Si chistu è nu nnirizzu di posta elittrònica vàlitu, <linkExternal>fannillu sapiri</linkExternal> e t'ajutamu a sbluccari u to cuntu.
+signin-bounced-help = Si chistu è nu nnirizzu di posta elittrònica vàlitu, <linkExternal>fannillu sapiri</linkExternal> e t’ajutamu a sbluccari u to cuntu.
 signin-bounced-create-new-account = Nun ài cchiù accessu a stu nnirizzu di posta elittrònica? Crìa un cuntu novu
 
 ## SigninPushCode page

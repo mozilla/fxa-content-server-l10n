@@ -1,6 +1,6 @@
 ## Non-email strings
 
-session-verify-send-push-title-2 = Vo' tràsiri nnô to { -product-mozilla-account }?
+session-verify-send-push-title-2 = Vo’ tràsiri nnô to { -product-mozilla-account }?
 session-verify-send-push-body-2 = Ammacca cca pi cunfirmari a to idintità
 # Message sent by SMS with limited character length, please test translation with the messaging segment calculator
 # https://twiliodeved.github.io/message-segment-calculator/
@@ -52,12 +52,12 @@ subplat-update-billing-plaintext = { subplat-update-billing }:
 # Variables:
 #  $email (String) - A user's primary email address
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subplat-explainer-specific-2 = Stai ricivennu sta littra picchì u nnirizzu { $email } è assuciatu c'un { -product-mozilla-account } e ti scrivisti pi { $productName }.
+subplat-explainer-specific-2 = Stai ricivennu sta littra picchì u nnirizzu { $email } è assuciatu c’un { -product-mozilla-account } e ti scrivisti pi { $productName }.
 # Variables:
 #  $email (String) - A user's primary email address
-subplat-explainer-reminder-form-2 = Stai ricivennu sta littra picchì u nnirizzu { $email } è assuciatu c'un { -product-mozilla-account }.
-subplat-explainer-multiple-2 = Stai ricivennu sta littra picchì u nnirizzu { $email } è assuciatu c'un { -product-mozilla-account } e t'abbunasti a cchiù assai prudutti.
-subplat-explainer-was-deleted-2 = Stai ricivennu sta littra picchì u nnirizzu { $email } fu assuciatu c'un { -product-mozilla-account }.
+subplat-explainer-reminder-form-2 = Stai ricivennu sta littra picchì u nnirizzu { $email } è assuciatu c’un { -product-mozilla-account }.
+subplat-explainer-multiple-2 = Stai ricivennu sta littra picchì u nnirizzu { $email } è assuciatu c’un { -product-mozilla-account } e t’abbunasti a cchiù assai prudutti.
+subplat-explainer-was-deleted-2 = Stai ricivennu sta littra picchì u nnirizzu { $email } fu assuciatu c’un { -product-mozilla-account }.
 subplat-manage-account-2 = Manija i mpustazzioni dû to { -product-mozilla-account } nnâ <a data-l10n-name="subplat-account-page">pàggina dû cuntu</a>.
 # Variables:
 #  $accountSettingsUrl (String) - URL to Account Settings
@@ -66,7 +66,7 @@ subplat-terms-policy = Tèrmini e pulìtica di scancellamentu
 subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Scancella abbunamentu
 subplat-cancel-plaintext = { subplat-cancel }:
-subplat-reactivate = Riattiva l'abbunamentu
+subplat-reactivate = Riattiva l’abbunamentu
 subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Attualizza i nfurmazzioni di fatturazzioni
 subplat-privacy-policy = Pulìtica di privatizza di { -brand-mozilla }
@@ -80,42 +80,42 @@ subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Privatizza
 subplat-privacy-website-plaintext = { subplat-privacy }:
 account-deletion-info-block-communications = Si u to cuntu veni scancillatu, cuntinui a ricìviri posta elittrònica di Mozilla Corporation e dâ Funnazzioni Mozilla, nzinu a quannu nun <a data-l10n-name="unsubscribeLink">addumanni di sdisiscrivìriti</a>.
-account-deletion-info-block-support = Si ài dumanni o abbisogni d'ajutu, cuntatta a nostra <a data-l10n-name="supportLink">squatra di supportu</a>.
+account-deletion-info-block-support = Si ài dumanni o abbisogni d’ajutu, cuntatta a nostra <a data-l10n-name="supportLink">squatra di supportu</a>.
 account-deletion-info-block-communications-plaintext = Si u to cuntu veni scancillatu, cuntinui a ricìviri posta elittrònica di Mozilla Corporation e dâ Funnazzioni Mozilla, nzinu a quannu nun addumanni di sdisiscrivìriti:
-account-deletion-info-block-support-plaintext = Si ài dumanni u abbisogni d'ajutu, cuntatta a nostra squatra di supportu:
+account-deletion-info-block-support-plaintext = Si ài dumanni u abbisogni d’ajutu, cuntatta a nostra squatra di supportu:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-android-badge = <img data-l10n-name="google-play-badge" alt="Scàrrica { $productName } di { -google-play }">
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
-body-ios-badge = <img data-l10n-name="apple-app-badge" alt="Scàrrica { $productName } di l'{ -app-store }">
+body-ios-badge = <img data-l10n-name="apple-app-badge" alt="Scàrrica { $productName } di l’{ -app-store }">
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
-another-desktop-device-2 = Nzita { $productName } nta n'<a data-l10n-name="anotherDeviceLink">autru dispusitivu pû scagnu</a>.
+another-desktop-device-2 = Nzita { $productName } nta n’<a data-l10n-name="anotherDeviceLink">autru dispusitivu pû scagnu</a>.
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
-another-device-2 = Nzita { $productName } nta n'<a data-l10n-name="anotherDeviceLink">autru dispusitivu</a>.
+another-device-2 = Nzita { $productName } nta n’<a data-l10n-name="anotherDeviceLink">autru dispusitivu</a>.
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 android-download-plaintext = Scàrrica { $productName } di Google Play:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
-ios-download-plaintext = Scàrrica { $productName } di l'App Store:
+ios-download-plaintext = Scàrrica { $productName } di l’App Store:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
-another-device-plaintext = Nzita { $productName } nta n'autru dispusitivu:
+another-device-plaintext = Nzita { $productName } nta n’autru dispusitivu:
 automated-email-change-2 = Si nun fusti tu a fari sta cosa, <a data-l10n-name="passwordChangeLink">cancia sùbbitu a to chiavi</a>.
-automated-email-support = P'aviri cchiù assai nfurmazzioni, vìsita <a data-l10n-name="supportLink">u situ di supportu di { -brand-mozilla }</a>.
+automated-email-support = P’aviri cchiù assai nfurmazzioni, vìsita <a data-l10n-name="supportLink">u situ di supportu di { -brand-mozilla }</a>.
 # After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-change-plaintext-2 = Si nun fusti tu a fari sta cosa, cancia sùbbitu a to chiavi:
 #  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
-automated-email-support-plaintext = P'aviri cchiù assai nfurmazzioni, vìsita u situ di supportu di { -brand-mozilla }:
+automated-email-support-plaintext = P’aviri cchiù assai nfurmazzioni, vìsita u situ di supportu di { -brand-mozilla }:
 automated-email-inactive-account = Chista è na littra mannata di manera autumàtica. A stai ricivennu picchì ài un { -product-mozilla-account } e sunnu 2 anni dâ to ùrtima trasuta.
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
-automated-email-no-action = { automated-email-no-action-plaintext } Pi nfurmazzioni superchiu, vìsita l'<a data-l10n-name="supportLink">assistenza di { -brand-mozilla }</a>.
+automated-email-no-action = { automated-email-no-action-plaintext } Pi nfurmazzioni superchiu, vìsita l’<a data-l10n-name="supportLink">assistenza di { -brand-mozilla }</a>.
 automated-email-no-action-plaintext = Chista è na littra mannata di manera autumàtica. Si a ricivisti pi sbagghiu, nun hâ fari nenti.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
-automated-email-not-authorized-plaintext = Chista è na littra mannata di manera autumàtica; si nun l'auturizzasti, allura pi favuri cancia a to chiavi:
+automated-email-not-authorized-plaintext = Chista è na littra mannata di manera autumàtica; si nun l’auturizzasti, allura pi favuri cancia a to chiavi:
 # "This request" refers to a modification (addition, change or removal) to the account recovery key.
 # Variables:
 # - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
@@ -142,7 +142,7 @@ automatedEmailRecoveryKey-origin-device-OS-version-only = Sta dumanna vinni di {
 automatedEmailRecoveryKey-origin-device-OS-only = Sta dumanna vinni di { $uaOS }.
 automatedEmailRecoveryKey-delete-key-change-pwd = Si nun fusti tu, <a data-l10n-name="revokeAccountRecoveryLink">scancella u novu còdici</a> e <a data-l10n-name="passwordChangeLink">cancia a to chiavi</a>.
 automatedEmailRecoveryKey-change-pwd-only = Si nun fusti tu, <a data-l10n-name="passwordChangeLink">cancia a to chiavi</a>.
-automatedEmailRecoveryKey-more-info = P'aviri cchiù assai nfurmazzioni, vìsita <a data-l10n-name="supportLink">u situ di supportu di { -brand-mozilla }</a>.
+automatedEmailRecoveryKey-more-info = P’aviri cchiù assai nfurmazzioni, vìsita <a data-l10n-name="supportLink">u situ di supportu di { -brand-mozilla }</a>.
 # Colon is followed by user device info on a separate line (e.g., "Firefox Nightly on Mac OSX 10.11")
 automatedEmailRecoveryKey-origin-plaintext = Sta dumanna vinni di:
 # Colon is followed by a URL to the account recovery key section of account settings
@@ -153,22 +153,22 @@ automatedEmailRecoveryKey-notyou-change-pwd-only-plaintext = Si nun fusti tu, ca
 # Colon is followed by a URL to the change password section of account settings
 automatedEmailRecoveryKey-notyou-change-pwd-plaintext = e cancia a to chiavi:
 # Colon is followed by a URL to Mozilla Support's "I'm having problems with my account" page
-automatedEmailRecoveryKey-more-info-plaintext = P'aviri cchiù assai nfurmazzioni, vìsita u situ di supportu di { -brand-mozilla }:
+automatedEmailRecoveryKey-more-info-plaintext = P’aviri cchiù assai nfurmazzioni, vìsita u situ di supportu di { -brand-mozilla }:
 automated-email-reset =
-    Chista è na littra mannata di manera autumàtica; si nun l'auturizzasti, pi favuri <a data-l10n-name="resetLink">risetta a to chiavi</a>.
-    P'aviri cchiù assai nfurmazzioni, vìsita u <a data-l10n-name="supportLink">situ di supportu di { -brand-mozilla }</a>.
+    Chista è na littra mannata di manera autumàtica; si nun l’auturizzasti, pi favuri <a data-l10n-name="resetLink">risetta a to chiavi</a>.
+    P’aviri cchiù assai nfurmazzioni, vìsita u <a data-l10n-name="supportLink">situ di supportu di { -brand-mozilla }</a>.
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
-automated-email-reset-plaintext-v2 = Si nun auturizzasti st'azzioni, pi favuri risetta a to chiavi ora: { $resetLink }
+automated-email-reset-plaintext-v2 = Si nun auturizzasti st’azzioni, pi favuri risetta a to chiavi ora: { $resetLink }
 # This message is used by multiple automated emails that notify users of security events on their account
 # "this action" is meant to be a generic term, and could, for example, refer to using a backup authentication code to confirm a password reset
 automated-email-reset-pwd-two-factor =
-    Si nun fusti tu, <a data-l10n-name="resetLink">risetta a to chiavi</a> e <a data-l10n-name="twoFactorSettingsLink">risetta l'autinticazzioni a du' fattura</a> prima chi poi.
-    P'aviri cchiù assai nfurmazzioni, pi favuri vìsita l'<a data-l10n-name="supportLink">Assistenza di { -brand-mozilla }</a>.
+    Si nun fusti tu, <a data-l10n-name="resetLink">risetta a to chiavi</a> e <a data-l10n-name="twoFactorSettingsLink">risetta l’autinticazzioni a du’ fattura</a> prima chi poi.
+    P’aviri cchiù assai nfurmazzioni, pi favuri vìsita l’<a data-l10n-name="supportLink">Assistenza di { -brand-mozilla }</a>.
 # Followed by link to https://accounts.firefox.com/reset_password
 automated-email-reset-pwd-plaintext-v3 = Si nun fusti tu, risetta a to chiavi prima chi poi ô nnirizzu:
 # Followed by link to https://accounts.firefox.com/settings#two-step-authentication
-automated-email-reset-two-factor-plaintext = Risetta macari l'autinticazzioni a du' fattura:
+automated-email-reset-two-factor-plaintext = Risetta macari l’autinticazzioni a du’ fattura:
 brand-banner-message = U sai chi canciammu nomu di { -product-firefox-accounts } a { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Cchiù nfurmazzioni</a>
 cancellationSurvey = Pi favuri ajùtani a fari megghiu i nostri sirbizzi arrispunnennu a sta <a data-l10n-name="cancellationSurveyUrl">ntirbista nicareḍḍa</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
@@ -234,14 +234,14 @@ subscriptionFirstInvoice-content-credit = Ricivisti nnô cuntu un crèditu di { 
 
 ##
 
-subscriptionSupport = Ài dumanni ncapu ô to abbunamentu? A nostra <a data-l10n-name="subscriptionSupportUrl">squatra di supportu</a> è cca p'ajutàriti.
+subscriptionSupport = Ài dumanni ncapu ô to abbunamentu? A nostra <a data-l10n-name="subscriptionSupportUrl">squatra di supportu</a> è cca p’ajutàriti.
 # After the colon, there's a link to https://accounts.firefox.com/support
-subscriptionSupport-plaintext = Ài dumanni ncapu ô to abbunamento? A nostra squatra di supportu è cca p'ajutàriti:
+subscriptionSupport-plaintext = Ài dumanni ncapu ô to abbunamento? A nostra squatra di supportu è cca p’ajutàriti:
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionSupportContact = Grazzi chi t'abbunasti a { $productName }. Si ài dumanni ncapu ô to abbunamentu o ti sèrbinu cchiù assai nfurmazzioni ncapu a { $productName }, pi favuri <a data-l10n-name="subscriptionSupportUrl">cuntàttani</a>.
+subscriptionSupportContact = Grazzi chi t’abbunasti a { $productName }. Si ài dumanni ncapu ô to abbunamentu o ti sèrbinu cchiù assai nfurmazzioni ncapu a { $productName }, pi favuri <a data-l10n-name="subscriptionSupportUrl">cuntàttani</a>.
 # After the colon, there's a link to https://accounts.firefox.com/support
-subscriptionSupportContact-plaintext = Grazzi chi t'abbunasti a { $productName }. Si ài dumanni ncapu ô to abbunamentu o ti sèrbinu cchiù assai nfurmazzioni ncapu a { $productName }, pi favuri cuntàttani:
+subscriptionSupportContact-plaintext = Grazzi chi t’abbunasti a { $productName }. Si ài dumanni ncapu ô to abbunamentu o ti sèrbinu cchiù assai nfurmazzioni ncapu a { $productName }, pi favuri cuntàttani:
 subscriptionUpdateBillingEnsure = <a data-l10n-name="updateBillingUrl">Cuntrolla</a> si i nfurmazzioni ncapu ô to cuntu e ncapu ê furmi di pagamentu sunnu attualizzati.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdateBillingEnsure-plaintext = Cuntrolla si i nfurmazzioni ncapu ô to cuntu e ncapu ê furmi di pagamentu sunnu attualizzati:
@@ -253,7 +253,7 @@ subscriptionUpdatePayment = Pi scanzari di firmari u sirbizzu, pi favuri <a data
 subscriptionUpdatePayment-plaintext = Pi scanzari di firmari u sirbizzu, pi favuri attualizza i to nfurmazzioni di pagamentu prima ca poi:
 # Variables:
 #  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
-support-message-2 = P'aviri cchiù assai nfurmazzioni, vìsita u situ di supportu di { -brand-mozilla }: { $supportUrl }.
+support-message-2 = P’aviri cchiù assai nfurmazzioni, vìsita u situ di supportu di { -brand-mozilla }: { $supportUrl }.
 # Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
@@ -269,15 +269,15 @@ view-invoice = <a data-l10n-name="invoiceLink">Vidi a to fattura</a>.
 # After the colon, there's a link to https://pay.stripe.com/
 view-invoice-plaintext = Vidi fattura: { $invoiceLink }
 cadReminderFirst-subject-1 = Ricòrdati! Sincrunizza { -brand-firefox }
-cadReminderFirst-action = Sincrunizza n'autru dispusitivu
+cadReminderFirst-action = Sincrunizza n’autru dispusitivu
 cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
-cadReminderFirst-title-1 = Sèrbinu du' sincrunizzazzioni
-cadReminderFirst-description-v2 = Pòrtati i schedi ncapu a tutti i to dispusitivi. Pigghia i to nzingalibbra, i chiavi e l'autri dati unn'è-è cu { -brand-firefox }.
-cadReminderSecond-subject-2 = Nun ti pèrdiri nenti! Cumpleta a cunfijurazzioni p'accuminciari a sincrunizzari
-cadReminderSecond-action = Sincrunizza n'autru dispusitivu
+cadReminderFirst-title-1 = Sèrbinu du’ sincrunizzazzioni
+cadReminderFirst-description-v2 = Pòrtati i schedi ncapu a tutti i to dispusitivi. Pigghia i to nzingalibbra, i chiavi e l’autri dati unn’è-è cu { -brand-firefox }.
+cadReminderSecond-subject-2 = Nun ti pèrdiri nenti! Cumpleta a cunfijurazzioni p’accuminciari a sincrunizzari
+cadReminderSecond-action = Sincrunizza n’autru dispusitivu
 cadReminderSecond-title-2 = Nun ti scurdari di sincrunizzari!
-cadReminderSecond-description-sync = Sincrunizza i to nzingalibbri, i chiavi e autru unn'è-è ca usi { -brand-firefox }.
+cadReminderSecond-description-sync = Sincrunizza i to nzingalibbri, i chiavi e autru unn’è-è ca usi { -brand-firefox }.
 cadReminderSecond-description-plus = Cchiù assai, i to dati sunnu sempri crittati. Sulu tu e i dispusitivi chi appruvi i ponnu vìdiri.
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -289,9 +289,9 @@ downloadSubscription-content-2 = Accuminciamu a usari tutti i funzioni nchiusi n
 downloadSubscription-link-action-2 = Accumincia
 fraudulentAccountDeletion-subject-2 = U to { -product-mozilla-account } fu scancillatu
 fraudulentAccountDeletion-title = U to cuntu fu scancillatu
-fraudulentAccountDeletion-content-part1-v2 = Di ricenti criaru un { -product-mozilla-account } cu stu nnirizzu di posta elittrònica, e cci fu pagatu n'abbunamentu. Comu règula pi tutti i cunti novi, t'addumannammu di cunfirmari u to cuntu virificannu stu nnirizzu di posta elittrònica.
-fraudulentAccountDeletion-content-part2-v2 = Nzinu a ora, videmu chi stu cuntu nun fu mai cunfirmatu. Siccomu stu passu nun fu cumplitatu, nun semu sicuri chi l'abbunamentu era auturizzatu. Pi sta scaciuni, u { -product-mozilla-account } riggistratu cu stu nnirizzu di posta elittrònica fu scancillatu, e fu scancillatu macari l'abbunamentu, cu tutti i sordi turnati nn'arrè.
-fraudulentAccountDeletion-contact = Si ài dumanni, pi favuri cuntatta a nostra <a data-l10n-name="mozillaSupportUrl">squatra d'assistenza</a>.
+fraudulentAccountDeletion-content-part1-v2 = Di ricenti criaru un { -product-mozilla-account } cu stu nnirizzu di posta elittrònica, e cci fu pagatu n’abbunamentu. Comu règula pi tutti i cunti novi, t’addumannammu di cunfirmari u to cuntu virificannu stu nnirizzu di posta elittrònica.
+fraudulentAccountDeletion-content-part2-v2 = Nzinu a ora, videmu chi stu cuntu nun fu mai cunfirmatu. Siccomu stu passu nun fu cumplitatu, nun semu sicuri chi l’abbunamentu era auturizzatu. Pi sta scaciuni, u { -product-mozilla-account } riggistratu cu stu nnirizzu di posta elittrònica fu scancillatu, e fu scancillatu macari l’abbunamentu, cu tutti i sordi turnati nn’arrè.
+fraudulentAccountDeletion-contact = Si ài dumanni, pi favuri cuntatta a nostra <a data-l10n-name="mozillaSupportUrl">squatra d’assistenza</a>.
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Si ài dumanni, pi favuri cuntatta a nostra squatra di supportu: { $mozillaSupportUrl }
@@ -306,7 +306,7 @@ inactiveAccountFinalWarning-action = Trasi pi mantiniri u to cuntu
 # followed by link to sign in
 inactiveAccountFinalWarning-action-plaintext = Trasi pi mantiniri u to cuntu:
 inactiveAccountFirstWarning-subject = Nun pèrdiri u to cuntu
-inactiveAccountFirstWarning-title = Vo' sarbari i to dati e u cuntu { -brand-mozilla }?
+inactiveAccountFirstWarning-title = Vo’ sarbari i to dati e u cuntu { -brand-mozilla }?
 inactiveAccountFirstWarning-account-description-v2 = Usa u to { -product-mozilla-account } pi tràsiri dintra a prudutti a francu pâ privatizza e a navicazzioni, a tipu { -brand-firefox } sync, { -product-mozilla-monitor }, { -product-firefox-relay } e { -product-mdn }.
 inactiveAccountFirstWarning-inactive-status = Vìttimu chi nun trasisti di 2 anni.
 # $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
@@ -326,20 +326,20 @@ inactiveAccountSecondWarning-preview = Trasi pi mantiniri u to cuntu
 # followed by link to sign in
 inactiveAccountSecondWarning-action-plaintext = Trasi pi mantiniri u to cuntu:
 # The user has a low number of valid recovery codes remaining for use
-codes-reminder-title-zero = Finisti tutti i còdici d'autinticazzioni di sicurizza!
-codes-reminder-title-one = Arristau l'ùrtimu còdici d'autinticazzioni di sicurizza
-codes-reminder-title-two = Agghicau u mumentu di criari cchiù assai còdici d'autinticazzioni di sicurizza
-codes-reminder-description-part-one = I còdici d'autinticazzioni di sicurizza t'ajùtanu a ricupigghiari i to nfurmazzioni quannu ti scordi a chiavi.
-codes-reminder-description-part-two = Crìa novi còdici ora, accussì nun t'arrìsichi di pèrdiri i to dati 'n futuru.
-codes-reminder-description-two-left = T'arrèstanu sulu du' còdici.
-codes-reminder-description-create-codes = Crìa novi còdici d'autinticazzioni di sicurizza p'ajutàriti a tràsiri nnô to cuntu si nun arrinesci a tràsiri cchiù.
+codes-reminder-title-zero = Finisti tutti i còdici d’autinticazzioni di sicurizza!
+codes-reminder-title-one = Arristau l’ùrtimu còdici d’autinticazzioni di sicurizza
+codes-reminder-title-two = Agghicau u mumentu di criari cchiù assai còdici d’autinticazzioni di sicurizza
+codes-reminder-description-part-one = I còdici d’autinticazzioni di sicurizza t’ajùtanu a ricupigghiari i to nfurmazzioni quannu ti scordi a chiavi.
+codes-reminder-description-part-two = Crìa novi còdici ora, accussì nun t’arrìsichi di pèrdiri i to dati ’n futuru.
+codes-reminder-description-two-left = T’arrèstanu sulu du’ còdici.
+codes-reminder-description-create-codes = Crìa novi còdici d’autinticazzioni di sicurizza p’ajutàriti a tràsiri nnô to cuntu si nun arrinesci a tràsiri cchiù.
 lowRecoveryCodes-action-2 = Crìa còdici
 codes-create-plaintext = { lowRecoveryCodes-action-2 }:
 lowRecoveryCodes-subject-2 =
     { $numberRemaining ->
-        [0] Nun arristau nuḍḍu còdici d'autinticazzioni di sicurizza
-        [one] Arristau sulu 1 còdici d'autinticazzioni di sicurizza
-       *[other] Arristaru sulu { $numberRemaining } còdici d'autinticazzioni di sicurizza!
+        [0] Nun arristau nuḍḍu còdici d’autinticazzioni di sicurizza
+        [one] Arristau sulu 1 còdici d’autinticazzioni di sicurizza
+       *[other] Arristaru sulu { $numberRemaining } còdici d’autinticazzioni di sicurizza!
     }
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
@@ -356,16 +356,16 @@ newDeviceLogin-action = Manija cuntu
 passwordChanged-subject = Chiavi attualizzata
 passwordChanged-title = A chiavi fu canciata
 passwordChanged-description-2 = A chiavi dû { -product-mozilla-account } fu canciata di stu dispusitivu:
-passwordChangeRequired-subject = Attruvammu n'attività suspetta
+passwordChangeRequired-subject = Attruvammu n’attività suspetta
 passwordChangeRequired-title = È nicissariu canciari a chiavi
-passwordChangeRequired-suspicious-activity-2 = Vìttimu un cumpurtamentu suspettu nnô to { -product-mozilla-account }. Pi bluccari na trasuta nun auturizzata, scullijammu tutti i dispusitivi dû to cuntu, e t'addumannamu di canciari a chiavi pi sicurizza.
+passwordChangeRequired-suspicious-activity-2 = Vìttimu un cumpurtamentu suspettu nnô to { -product-mozilla-account }. Pi bluccari na trasuta nun auturizzata, scullijammu tutti i dispusitivi dû to cuntu, e t’addumannamu di canciari a chiavi pi sicurizza.
 passwordChangeRequired-sign-in-2 = Trasi arrè nna tutti i dispusitivi o sirbizzi unni usi u to { -product-mozilla-account } e sicuta i passi chi ti vennu mustrati.
 passwordChangeRequired-different-password = <b>Mpurtanti:</b> scarta na chiavi diversa di chiḍḍa chi usavi prima, e stai accura a nun scartari a stissa di chiḍḍa dû to nnirizzu di posta elittrònica.
 passwordChangeRequired-different-password-plaintext = Mpurtanti: scarta na chiavi diversa di chiḍḍa chi usavi prima, e stai accura a nun scartari a stissa di chiḍḍa dû to nnirizzu di posta elittrònica.
 password-forgot-otp-subject = Ti scurdasti a chiavi?
 password-forgot-otp-title = Ti scurdasti a chiavi?
 password-forgot-otp-request = Ricivemmu na dumanna di canciu dâ chiavi dû to { -product-mozilla-account } di:
-password-forgot-otp-code-2 = Siḍḍu fusti tu, cca cc'è u còdici di cunferma pi jiri avanti:
+password-forgot-otp-code-2 = Siḍḍu fusti tu, cca cc’è u còdici di cunferma pi jiri avanti:
 password-forgot-otp-expiry-notice = Stu còdici scadi ntra 10 minuti.
 passwordReset-subject-2 = A chiavi fu risittata
 passwordReset-title-2 = A chiavi fu risittata
@@ -375,9 +375,9 @@ passwordResetAccountRecovery-subject-2 = A chiavi fu risittata
 passwordResetAccountRecovery-title-3 = A chiavi fu risittata
 # Followed by details on the device and date/time of the password reset.
 passwordResetAccountRecovery-description-3 = Usasti a chiavi di ricùpiru dû cuntu pi risittari a chiavi dû to { -product-mozilla-account } nne:
-passwordResetAccountRecovery-information = Ti scullijammu di tutti i to dispusitivi sincrunizzati. Criammu na chiavi di ricùpiru dû cuntu nova pi sustituiri chiḍḍa chi usasti. A po' canciari nnê mpustazzioni dû to cuntu.
+passwordResetAccountRecovery-information = Ti scullijammu di tutti i to dispusitivi sincrunizzati. Criammu na chiavi di ricùpiru dû cuntu nova pi sustituiri chiḍḍa chi usasti. A po’ canciari nnê mpustazzioni dû to cuntu.
 # After the colon there is a link to account settings
-passwordResetAccountRecovery-information-txt = Ti scullijammu di tutti i to dispusitivi sincrunizzati. Criammu na chiavi di ricùpiru dû cuntu nova pi sustituiri chiḍḍa chi usasti. A po' canciari nnê mpustazzioni dû to cuntu:
+passwordResetAccountRecovery-information-txt = Ti scullijammu di tutti i to dispusitivi sincrunizzati. Criammu na chiavi di ricùpiru dû cuntu nova pi sustituiri chiḍḍa chi usasti. A po’ canciari nnê mpustazzioni dû to cuntu:
 passwordResetAccountRecovery-action-4 = Manija cuntu
 passwordResetRecoveryPhone-subject = Fu usatu u nùmmaru di tilèfunu di ricùpiru
 passwordResetRecoveryPhone-preview = Virìfica chi fusti tu
@@ -396,9 +396,9 @@ passwordResetWithRecoveryKeyPrompt-cta-description = Hâ tràsiri arrè nna tutt
 postAddAccountRecovery-subject-3 = Criasti na chiavi di ricùpiru dû cuntu nova
 postAddAccountRecovery-title2 = Criasti na chiavi di ricùpiru dû cuntu nova
 # Key here refers to account recovery key
-postAddAccountRecovery-body-part1 = Sarba sta chiavi nnôn locu sicuru — ti serbi si vo' ricupigghiari i to dati crittati di navicazzioni si ti scordi a chiavi.
+postAddAccountRecovery-body-part1 = Sarba sta chiavi nnôn locu sicuru — ti serbi si vo’ ricupigghiari i to dati crittati di navicazzioni si ti scordi a chiavi.
 # Key here refers to account recovery key
-postAddAccountRecovery-body-part2 = Sta chiavi si po' usari na vota sula. Doppu chi l'usi, ni criamu una nova di manera autumàtica. Nni po' macari ginirari una nova quannu vo' tu, dî mpustazzioni dû to cuntu.
+postAddAccountRecovery-body-part2 = Sta chiavi si po’ usari na vota sula. Doppu chi l’usi, ni criamu una nova di manera autumàtica. Nni po’ macari ginirari una nova quannu vo’ tu, dî mpustazzioni dû to cuntu.
 postAddAccountRecovery-action = Manija cuntu
 postAddLinkedAccount-subject-2 = Novu cuntu lijatu ô to { -product-mozilla-account }
 #  Variables:
@@ -406,7 +406,7 @@ postAddLinkedAccount-subject-2 = Novu cuntu lijatu ô to { -product-mozilla-acco
 postAddLinkedAccount-title-2 = U to cuntu { $providerName } fu lijatu ô to { -product-mozilla-account }
 postAddLinkedAccount-action = Manija cuntu
 postAddRecoveryPhone-subject = Juncisti u nùmmaru di tilèfunu di ricùpiru
-postAddRecoveryPhone-preview = Cuntu prutettu cu l'autinticazzioni a du' fattura
+postAddRecoveryPhone-preview = Cuntu prutettu cu l’autinticazzioni a du’ fattura
 postAddRecoveryPhone-title-v2 = Juncisti un nùmmaru di tilèfunu di ricùpiru
 # Variables:
 #  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
@@ -414,18 +414,18 @@ postAddRecoveryPhone-description-v2 = Juncisti { $maskedLastFourPhoneNumber } co
 # Links out to a support article about two factor authentication
 postAddRecoveryPhone-how-protect = Comu pruteggi u to cuntu
 postAddRecoveryPhone-how-protect-plaintext = Comu pruteggi u to cuntu:
-postAddRecoveryPhone-enabled-device = L'abbilitasti di:
+postAddRecoveryPhone-enabled-device = L’abbilitasti di:
 postAddRecoveryPhone-action = Manija cuntu
-postAddTwoStepAuthentication-subject-2 = Autinticazzioni a du' fattura abbilitata
-postAddTwoStepAuthentication-title-2 = Abbilitasti l'autinticazzioni a du' fattura
+postAddTwoStepAuthentication-subject-2 = Autinticazzioni a du’ fattura abbilitata
+postAddTwoStepAuthentication-title-2 = Abbilitasti l’autinticazzioni a du’ fattura
 # After the colon, there is a description of the device that the user used to enable two-step authentication
-postAddTwoStepAuthentication-from-device = L'abbilitasti di:
+postAddTwoStepAuthentication-from-device = L’abbilitasti di:
 postAddTwoStepAuthentication-action = Manija cuntu
-postAddTwoStepAuthentication-code-required-2 = D'ora innanzi, ogni vota chi trasi sèrbinu i còdici di sicurizza ginirati di l'app d'autinticazzioni.
+postAddTwoStepAuthentication-code-required-2 = D’ora innanzi, ogni vota chi trasi sèrbinu i còdici di sicurizza ginirati di l’app d’autinticazzioni.
 postChangeAccountRecovery-subject = Chiavi di ricùpiru dû cuntu canciata
 postChangeAccountRecovery-title = Canciasti a chiavi di ricùpiru dû cuntu
 postChangeAccountRecovery-body-part1 = Ora ài na chiavi di ricùpiru dû cuntu nova. Chiḍḍa vecchia fu scancillata.
-postChangeAccountRecovery-body-part2 = Sarba sta chiavi nova nnôn locu sicuru — ti serbi si vo' ricupigghiari i to dati crittati di navicazzioni si ti scordi a chiavi.
+postChangeAccountRecovery-body-part2 = Sarba sta chiavi nova nnôn locu sicuru — ti serbi si vo’ ricupigghiari i to dati crittati di navicazzioni si ti scordi a chiavi.
 postChangeAccountRecovery-action = Manija cuntu
 postChangePrimary-subject = Nnirizzu di posta elittrònica primariu attualizzatu
 postChangePrimary-title = Novu nnirizzu di posta elittrònica primariu
@@ -434,48 +434,48 @@ postChangePrimary-title = Novu nnirizzu di posta elittrònica primariu
 postChangePrimary-description-2 = Canciasti bonu u to nnirizzu di posta elittrònica primariu a { $email }. Stu nnirizzu ora addivintau u to nomu utenti pi tràsiri nnô to cuntu { -product-mozilla-account }, pi ricìviri nutìfichi di sicurizza e cunfermi di trasuti.
 postChangePrimary-action = Manija cuntu
 postChangeRecoveryPhone-subject = Nùmmaru di tilèfunu di ricùpiru attualizzatu
-postChangeRecoveryPhone-preview = Cuntu prutettu cu l'autinticazzioni a du' fattura
+postChangeRecoveryPhone-preview = Cuntu prutettu cu l’autinticazzioni a du’ fattura
 postChangeRecoveryPhone-title = Canciasti u nùmmaru di tilèfunu di ricùpiru
 postChangeRecoveryPhone-description = Ora ài un nùmmaru di tilèfunu di ricùpiru novu. Chiḍḍu vecchiu fu scancillatu.
-postChangeRecoveryPhone-requested-device = L'addumannasti di:
-postConsumeRecoveryCode-title-3 = Fu usatu un còdici d'autinticazzioni di sicurizza pi cunfirmari u risettu dâ chiavi
+postChangeRecoveryPhone-requested-device = L’addumannasti di:
+postConsumeRecoveryCode-title-3 = Fu usatu un còdici d’autinticazzioni di sicurizza pi cunfirmari u risettu dâ chiavi
 # After the colon, there is description of the device that the backup authentication code was used on
 # E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
 postConsumeRecoveryCode-description-3 = Còdici usatu di:
 postConsumeRecoveryCode-action = Manija cuntu
-postConsumeRecoveryCode-subject-v3 = Fu usatu un còdici d'autinticazzioni di sicurizza
+postConsumeRecoveryCode-subject-v3 = Fu usatu un còdici d’autinticazzioni di sicurizza
 postConsumeRecoveryCode-preview = Virìfica chi fusti tu
-postNewRecoveryCodes-subject-2 = Còdici d'autinticazzioni di sicurizza criati novi
-postNewRecoveryCodes-title-2 = Criasti còdici d'autinticazzioni di sicurizza novi
+postNewRecoveryCodes-subject-2 = Còdici d’autinticazzioni di sicurizza criati novi
+postNewRecoveryCodes-title-2 = Criasti còdici d’autinticazzioni di sicurizza novi
 # After the colon, there is information about the device that the authentication codes were created on
 postNewRecoveryCodes-description-2 = Foru criati nni:
 postNewRecoveryCodes-action = Manija cuntu
 postRemoveAccountRecovery-subject-2 = Chiavi di ricùpiru dû cuntu scancillata
 postRemoveAccountRecovery-title-3 = Scancillasti a chiavi di ricùpiru dû cuntu
 postRemoveAccountRecovery-body-part1 = A to chiavi di ricùpiru dû cuntu serbi pi ricupigghiari i dati sincrunizzati dû navicaturi si ti scordi a chiavi.
-postRemoveAccountRecovery-body-part2 = Si già nun u facisti, crìa na chiavi di ricùpiru dû cuntu nova nnê mpustazzioni dû to cuntu, p'allascàriti di pèrdiri i chiavi chi sarbasti, i nzingalibbra, a crunuluggìa di navicazzioni e autri dati riggistrati.
+postRemoveAccountRecovery-body-part2 = Si già nun u facisti, crìa na chiavi di ricùpiru dû cuntu nova nnê mpustazzioni dû to cuntu, p’allascàriti di pèrdiri i chiavi chi sarbasti, i nzingalibbra, a crunuluggìa di navicazzioni e autri dati riggistrati.
 postRemoveAccountRecovery-action = Manija cuntu
 postRemoveRecoveryPhone-subject = Nùmmaru di tilèfunu di ricùpiru scancillatu
-postRemoveRecoveryPhone-preview = Cuntu prutettu cu l'autinticazzioni a du' fattura
+postRemoveRecoveryPhone-preview = Cuntu prutettu cu l’autinticazzioni a du’ fattura
 postRemoveRecoveryPhone-title = Nùmmaru di tilèfunu di ricùpiru scancillatu
-postRemoveRecoveryPhone-description-v2 = U nùmmaru di tilèfunu di ricùpiru fu livatu dî mpustazzioni di l'autinticazzioni a du' fattura.
-postRemoveRecoveryPhone-description-extra = Po' usari i to còdici d'autinticazzioni di sicurizza pi tràsiri si nun po' usari a to app d'autinticazzioni.
-postRemoveRecoveryPhone-requested-device = L'addumannasti di:
+postRemoveRecoveryPhone-description-v2 = U nùmmaru di tilèfunu di ricùpiru fu livatu dî mpustazzioni di l’autinticazzioni a du’ fattura.
+postRemoveRecoveryPhone-description-extra = Po’ usari i to còdici d’autinticazzioni di sicurizza pi tràsiri si nun po’ usari a to app d’autinticazzioni.
+postRemoveRecoveryPhone-requested-device = L’addumannasti di:
 postRemoveSecondary-subject = Nnirizzu di posta elittrònica sicunnariu scancillatu
 postRemoveSecondary-title = Nnirizzu di posta elittrònica sicunnariu scancillatu
 # Variables:
 #  $secondaryEmail (String) - A user's email address
-postRemoveSecondary-description-2 = Scancillasti bonu { $secondaryEmail } comu nnirizzu di posta elittrònica sicunnariu pû to { -product-mozilla-account }. D'ora innanzi, i nutizzi di sicurizza e i cunfermi di trasuta nun vennu cchiù mannati a stu nnirizzu.
+postRemoveSecondary-description-2 = Scancillasti bonu { $secondaryEmail } comu nnirizzu di posta elittrònica sicunnariu pû to { -product-mozilla-account }. D’ora innanzi, i nutizzi di sicurizza e i cunfermi di trasuta nun vennu cchiù mannati a stu nnirizzu.
 postRemoveSecondary-action = Manija cuntu
-postRemoveTwoStepAuthentication-subject-line-2 = Autinticazzioni a du' fattura sdisabbilitata
-postRemoveTwoStepAuthentication-title-2 = Sdisabbilitasti l'autinticazzioni a du' fattura
+postRemoveTwoStepAuthentication-subject-line-2 = Autinticazzioni a du’ fattura sdisabbilitata
+postRemoveTwoStepAuthentication-title-2 = Sdisabbilitasti l’autinticazzioni a du’ fattura
 # After the colon is a description of the device the user used to disable two-step authentication
 postRemoveTwoStepAuthentication-from-device = A sdisabbilitasti di:
 postRemoveTwoStepAuthentication-action = Manija cuntu
-postRemoveTwoStepAuthentication-not-required-2 = Nun ti sèrbinu cchiù i còdici di sicurizza di l'app pi l'autinticazzioni quannu trasi.
-postSigninRecoveryCode-subject = Còdici d'autinticazzioni di sicurizza usatu pi tràsiri
+postRemoveTwoStepAuthentication-not-required-2 = Nun ti sèrbinu cchiù i còdici di sicurizza di l’app pi l’autinticazzioni quannu trasi.
+postSigninRecoveryCode-subject = Còdici d’autinticazzioni di sicurizza usatu pi tràsiri
 postSigninRecoveryCode-preview = Cunferma attività dû cuntu
-postSigninRecoveryCode-title = U to còdici d'autinticazzioni di sicurizza fu usatu pi tràsiri
+postSigninRecoveryCode-title = U to còdici d’autinticazzioni di sicurizza fu usatu pi tràsiri
 postSigninRecoveryCode-description = Si nun fusti tu, hâ canciari sùbbitu a to chiavi pi tèniri u to cuntu ô sicuru.
 postSigninRecoveryCode-device = Trasisti di:
 postSigninRecoveryCode-action = Manija cuntu
@@ -486,24 +486,24 @@ postSigninRecoveryPhone-description = Si nun fusti tu, hâ canciari sùbbitu a t
 postSigninRecoveryPhone-device = Trasisti di:
 postSigninRecoveryPhone-action = Manija cuntu
 postVerify-sub-title-3 = Semu cuntenti chi sì cca!
-postVerify-title-2 = Vo' vìdiri a stissa scheda ncapu a du' dispusitivi?
-postVerify-description-2 = È fàcili! Nzìtati { -brand-firefox } ncapu a n'autru dispusitivu e trasi pi sincrunizzari. È na magarìa!
-postVerify-sub-description = (Ah… veni a diri macari chi po' aviri i to nzingalibbra, i to chiavi e l'autri dati di { -brand-firefox } unni sì-sì.)
+postVerify-title-2 = Vo’ vìdiri a stissa scheda ncapu a du’ dispusitivi?
+postVerify-description-2 = È fàcili! Nzìtati { -brand-firefox } ncapu a n’autru dispusitivu e trasi pi sincrunizzari. È na magarìa!
+postVerify-sub-description = (Ah… veni a diri macari chi po’ aviri i to nzingalibbra, i to chiavi e l’autri dati di { -brand-firefox } unni sì-sì.)
 postVerify-subject-4 = Bummegna nne { -brand-mozilla }!
-postVerify-setup-2 = Culleja n'autru dispusitivu:
-postVerify-action-2 = Cunnetti n'autru dispusitivu
+postVerify-setup-2 = Culleja n’autru dispusitivu:
+postVerify-action-2 = Cunnetti n’autru dispusitivu
 postVerifySecondary-subject = Nnirizzu di posta elittrònica sicunnariu junciutu
 postVerifySecondary-title = Nnirizzu di posta elittrònica sicunnariu junciutu
 # Variables:
 #  $secondaryEmail (String) - A user's secondary email address
-postVerifySecondary-content-3 = Cunfirmasti bonu { $secondaryEmail } comu nnirizzu di posta elittrònica sicunnariu pû to { -product-mozilla-account }. D'ora innanzi, i nutizzi di sicurizza e i cunfermi di trasuta vennu mannati a tutti du' i nnirizzi di posta elittrònica.
+postVerifySecondary-content-3 = Cunfirmasti bonu { $secondaryEmail } comu nnirizzu di posta elittrònica sicunnariu pû to { -product-mozilla-account }. D’ora innanzi, i nutizzi di sicurizza e i cunfermi di trasuta vennu mannati a tutti du’ i nnirizzi di posta elittrònica.
 postVerifySecondary-action = Manija cuntu
 recovery-subject = Risetta a to chiavi
 recovery-title-2 = Ti scurdasti a chiavi?
 # Information on the device, date and time of the request that triggered the email follows.
 recovery-request-origin-2 = Ricivemmu na dumanna di canciu dâ chiavi dû to { -product-mozilla-account } di:
-recovery-new-password-button = Crìa na chiavi nova ammaccannu u buttuni appressu. Sta lijami scadi nta n'ura.
-recovery-copy-paste = Crìa na chiavi nova cupiannu e ncuḍḍannu a lijami appressu nnô to navicaturi. Sta lijami scadi nta n'ura.
+recovery-new-password-button = Crìa na chiavi nova ammaccannu u buttuni appressu. Sta lijami scadi nta n’ura.
+recovery-copy-paste = Crìa na chiavi nova cupiannu e ncuḍḍannu a lijami appressu nnô to navicaturi. Sta lijami scadi nta n’ura.
 recovery-action = Crìa na chiavi nova
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -520,18 +520,18 @@ subscriptionAccountFinishSetup-subject = Bummegna nne { $productName }: pi favur
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-title = Bummegna nne { $productName }
-subscriptionAccountFinishSetup-content-processing = Stamu prucissannu u to pagamentu e ponnu sèrbiri nzinu a quattru jorna di travagghiu pi cumplitallu. U to abbunamentu si rinova di manera autumàtica p'ogni ciclu di fatturazzioni, sparti si nun scarti di scancillàrilu.
+subscriptionAccountFinishSetup-content-processing = Stamu prucissannu u to pagamentu e ponnu sèrbiri nzinu a quattru jorna di travagghiu pi cumplitallu. U to abbunamentu si rinova di manera autumàtica p’ogni ciclu di fatturazzioni, sparti si nun scarti di scancillàrilu.
 subscriptionAccountFinishSetup-content-create-3 = Doppu, hâ criari na chiavi pû { -product-mozilla-account } pi principiari a usari u to abbunamentu novu.
 subscriptionAccountFinishSetup-action-2 = Accumincia
 subscriptionAccountReminderFirst-subject = Ricòrdati: cumpleta a cunfijurazzioni dû to cuntu
-subscriptionAccountReminderFirst-title = Ancora nun po' tràsiri ô to abbunamentu
-subscriptionAccountReminderFirst-content-info-3 = Quarchi jornu nn'arrè criasti un { -product-mozilla-account } ma nun u cunfirmasti mai. Spiramu chi cumpleti a cunfijurazzioni, accussì po' usari u to abbunamentu novu.
+subscriptionAccountReminderFirst-title = Ancora nun po’ tràsiri ô to abbunamentu
+subscriptionAccountReminderFirst-content-info-3 = Quarchi jornu nn’arrè criasti un { -product-mozilla-account } ma nun u cunfirmasti mai. Spiramu chi cumpleti a cunfijurazzioni, accussì po’ usari u to abbunamentu novu.
 subscriptionAccountReminderFirst-content-select-2 = Scarta “Crìa na chiavi” pi mpustari na chiavi nova e cumplitari a cunferma dû to cuntu.
 subscriptionAccountReminderFirst-action = Crìa na chiavi
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-subject = Abbisu finali: cunfijura u to cuntu
 subscriptionAccountReminderSecond-title-2 = Bummegna nne { -brand-mozilla }!
-subscriptionAccountReminderSecond-content-info-3 = Quarchi jornu nn'arrè criasti un { -product-mozilla-account } ma nun u cunfirmasti mai. Spiramu chi cumpleti a cunfijurazzioni, accussì po' usari u to abbunamentu novu.
+subscriptionAccountReminderSecond-content-info-3 = Quarchi jornu nn’arrè criasti un { -product-mozilla-account } ma nun u cunfirmasti mai. Spiramu chi cumpleti a cunfijurazzioni, accussì po’ usari u to abbunamentu novu.
 subscriptionAccountReminderSecond-content-select-2 = Scarta “Crìa na chiavi” pi mpustari na chiavi nova e cumplitari a cunferma dû to cuntu.
 subscriptionAccountReminderSecond-action = Crìa na chiavi
 subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
@@ -563,18 +563,18 @@ subscriptionDowngrade-content-switch = Canciasti bonu di { $productNameOld } a {
 # $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
 # $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 # $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
-subscriptionDowngrade-content-charge-info = Principiannu dâ pròssima fattura, l'addèbbitu canciarà di { $paymentAmountOld } pi { $productPaymentCycleOld } a { $paymentAmountNew } pi { $productPaymentCycleNew }. Ti daremu macari un crèditu di { $paymentProrated } pi na vota sula, p'appattari câ còtima cchiù vascia pû restu di stu { $productPaymentCycleOld }.
+subscriptionDowngrade-content-charge-info = Principiannu dâ pròssima fattura, l’addèbbitu canciarà di { $paymentAmountOld } pi { $productPaymentCycleOld } a { $paymentAmountNew } pi { $productPaymentCycleNew }. Ti daremu macari un crèditu di { $paymentProrated } pi na vota sula, p’appattari câ còtima cchiù vascia pû restu di stu { $productPaymentCycleOld }.
 # Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
-subscriptionDowngrade-content-install = Siḍḍu ti serbi di nzitari quarchi prugramma superchiu pi usari { $productName }, t'agghica n'autra e-mail cu l'istruzzioni pi scarricàrilu.
-subscriptionDowngrade-content-auto-renew = U to abbunamentu si rinova di manera autumàtica p'ogni ciclu di fatturazzioni sparti si scarti di scancillàrilu.
+subscriptionDowngrade-content-install = Siḍḍu ti serbi di nzitari quarchi prugramma superchiu pi usari { $productName }, t’agghica n’autra e-mail cu l’istruzzioni pi scarricàrilu.
+subscriptionDowngrade-content-auto-renew = U to abbunamentu si rinova di manera autumàtica p’ogni ciclu di fatturazzioni sparti si scarti di scancillàrilu.
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFailedPaymentsCancellation-subject = U to abbunamentu a { $productName } fu scancillatu
 subscriptionFailedPaymentsCancellation-title = U to abbunamentu fu scancillatu
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionFailedPaymentsCancellation-content = Scancillammu u to abbunamentu pi { $productName } picchì assai voti i pagamenti sfalleru. Pi tràsiri arrè, fatti n'abbunamentu novu cu n'autra furma di pagamentu.
+subscriptionFailedPaymentsCancellation-content = Scancillammu u to abbunamentu pi { $productName } picchì assai voti i pagamenti sfalleru. Pi tràsiri arrè, fatti n’abbunamentu novu cu n’autra furma di pagamentu.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFirstInvoice-subject = U pagamentu di { $productName } fu cunfirmatu
@@ -584,8 +584,8 @@ subscriptionFirstInvoice-title = Grazzi pû to abbunamentu a { $productName }
 subscriptionFirstInvoice-content-processing = Stamu prucissannu u to pagamentu e ponnu sèrbiri nzinu a quattru jorna di travagghiu pi cumplitallu.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionFirstInvoice-content-install-2 = T'agghicarà n'autra littra ncapu a comu principiari a usari { $productName }.
-subscriptionFirstInvoice-content-auto-renew = U to abbunamentu si rinova di manera autumàtica p'ogni ciclu di fatturazzioni sparti si scarti di scancillàrilu.
+subscriptionFirstInvoice-content-install-2 = T’agghicarà n’autra littra ncapu a comu principiari a usari { $productName }.
+subscriptionFirstInvoice-content-auto-renew = U to abbunamentu si rinova di manera autumàtica p’ogni ciclu di fatturazzioni sparti si scarti di scancillàrilu.
 # Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionFirstInvoice-content-next-invoice = Pròssima fattura: { $nextInvoiceDateOnly }
@@ -606,7 +606,7 @@ subscriptionPaymentFailed-content-problem = Àppimu un prubblema cû to ùrtimu 
 subscriptionPaymentFailed-content-outdated = Po èssiri chi a to carta di crèditu scadìu, o chi a furma di pagamentu chi scartasti nun è cchiù bona.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentProviderCancelled-subject = Abbisogna n'attualizzu dî nfurmazzioni di pagamentu pi { $productName }
+subscriptionPaymentProviderCancelled-subject = Abbisogna n’attualizzu dî nfurmazzioni di pagamentu pi { $productName }
 subscriptionPaymentProviderCancelled-title = Ni dispiaci, accamora avemu prubblemi câ to furma di pagamentu
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -621,7 +621,7 @@ subscriptionReactivation-title = Grazzi chi attivasti arrè u to abbunamentu a {
 # Variables:
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
-subscriptionReactivation-content = U to ciclu di fatturazzioni e u pagamentu arrèstanu i stissi. U pròssimu addèbbitu sarà di { $invoiceTotal } jornu { $nextInvoiceDateOnly }. U to abbunamentu si rinova di manera autumàtica p'ogni ciclu di fatturazzioni sparti si scarti di scancillàrilu.
+subscriptionReactivation-content = U to ciclu di fatturazzioni e u pagamentu arrèstanu i stissi. U pròssimu addèbbitu sarà di { $invoiceTotal } jornu { $nextInvoiceDateOnly }. U to abbunamentu si rinova di manera autumàtica p’ogni ciclu di fatturazzioni sparti si scarti di scancillàrilu.
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-subject = Abbisu di rinovu autumàticu di { $productName }
@@ -643,19 +643,19 @@ subscriptionReplaced-subject = U to abbunamentu fu canciatu nnô quatru dû to a
 subscriptionReplaced-title = U to abbunamentu fu attualizzatu
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReplaced-content-replaced = U to abbunamentu a { $productName } fu scanciatu picchì ora è nchiusu nnô pacchettu nova.
-subscriptionReplaced-content-credit = Ricivirai un crèditu pâ parti dû to abbunamentu pricidenti chi nun usasti. Stu crèditu veni misu direttu nnô to cuntu e veni usatu pi l'addèbbiti futuri.
+subscriptionReplaced-content-credit = Ricivirai un crèditu pâ parti dû to abbunamentu pricidenti chi nun usasti. Stu crèditu veni misu direttu nnô to cuntu e veni usatu pi l’addèbbiti futuri.
 subscriptionReplaced-content-no-action = Nun è nicissariu chi fai nenti.
 subscriptionsPaymentExpired-subject-1 = A carta di crèditu pî to abbunamenti scadìu o sta scadennu
 subscriptionsPaymentExpired-title-1 = A to carta di crèditu scadìu o sta scadennu
-subscriptionsPaymentExpired-content-1 = A carta di crèditu chi usi pi pagari l'abbunamenti appressu scadìu o sta scadennu.
-subscriptionsPaymentProviderCancelled-subject = Abbisogna n'attualizzu dî nfurmazzioni di pagamentu pi l'abbunamenti { -brand-mozilla }
+subscriptionsPaymentExpired-content-1 = A carta di crèditu chi usi pi pagari l’abbunamenti appressu scadìu o sta scadennu.
+subscriptionsPaymentProviderCancelled-subject = Abbisogna n’attualizzu dî nfurmazzioni di pagamentu pi l’abbunamenti { -brand-mozilla }
 subscriptionsPaymentProviderCancelled-title = Ni dispiaci, accamora avemu prubblemi câ to furma di pagamentu
-subscriptionsPaymentProviderCancelled-content-detected = Cci fu un prubblema câ to furma di pagamentu pi l'abbunamenti appressu.
+subscriptionsPaymentProviderCancelled-content-detected = Cci fu un prubblema câ to furma di pagamentu pi l’abbunamenti appressu.
 subscriptionsPaymentProviderCancelled-content-payment = Po èssiri chi a to carta di crèditu scadìu, o chi a furma di pagamentu chi scartasti nun è cchiù bona.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-subject = Ricivemmu u pagamentu pi { $productName }
-subscriptionSubsequentInvoice-title = Grazzi chi t'abbunasti!
+subscriptionSubsequentInvoice-title = Grazzi chi t’abbunasti!
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-content-received = Ricivemmu u to ùrtimu pagamentu pi { $productName }.
@@ -665,11 +665,11 @@ subscriptionSubsequentInvoice-content-next-invoice = Pròssima fattura: { $nextI
 # Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = Attualizzasti a { $productName }
-subscriptionUpgrade-title = Grazzi pi l'attualizzu!
+subscriptionUpgrade-title = Grazzi pi l’attualizzu!
 # Variables:
 # $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
-subscriptionUpgrade-upgrade-info-2 = L'attualizzu a { $productName } jìu bonu.
+subscriptionUpgrade-upgrade-info-2 = L’attualizzu a { $productName } jìu bonu.
 
 ## Variables:
 ## $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
@@ -683,31 +683,31 @@ subscriptionUpgrade-content-charge-credit = Ricivisti un crèditu di { $paymentP
 subscriptionUpgrade-content-starting = Accuminciannu dâ pròssima fattura, u to addèbbitu cancia di { $paymentAmountOld } pi { $productPaymentCycleOld } a { $paymentAmountNew } pi { $productPaymentCycleNew }.
 # Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
-subscriptionUpgrade-existing = Si quarchidunu di l'abbunamenti chi già ài nchiudi parti di st'attualizzu, manijamu nuiautri a situazzioni e ti mannamu n'e-mail chî minutagghi. Si u to chianu novu abbisogna di nzitari autri prudutti, ti mannamu n'autra e-mail cu l'istruzzioni pû nzitamentu.
-subscriptionUpgrade-auto-renew = U to abbunamentu si rinova di manera autumàtica p'ogni ciclu di fatturazzioni sparti si scarti di scancillàrilu.
-unblockCode-subject = Còdici d'auturizzazzioni dû cuntu
-unblockCode-title = Sì tu chi sta' trasennu?
-unblockCode-prompt = Si sì tu, chistu è u còdici d'auturizzazzioni chi ti serbi:
+subscriptionUpgrade-existing = Si quarchidunu di l’abbunamenti chi già ài nchiudi parti di st’attualizzu, manijamu nuiautri a situazzioni e ti mannamu n’e-mail chî minutagghi. Si u to chianu novu abbisogna di nzitari autri prudutti, ti mannamu n’autra e-mail cu l’istruzzioni pû nzitamentu.
+subscriptionUpgrade-auto-renew = U to abbunamentu si rinova di manera autumàtica p’ogni ciclu di fatturazzioni sparti si scarti di scancillàrilu.
+unblockCode-subject = Còdici d’auturizzazzioni dû cuntu
+unblockCode-title = Sì tu chi sta’ trasennu?
+unblockCode-prompt = Si sì tu, chistu è u còdici d’auturizzazzioni chi ti serbi:
 # Variables:
 #  $unblockCode (String) - An alphanumeric code
-unblockCode-prompt-plaintext = Si sì tu, chistu è u còdici d'auturizzazzioni chi ti serbi: { $unblockCode }
-unblockCode-report = Si 'un sì tu, ajùtani a jittari fora l'intrusi e <a data-l10n-name="reportSignInLink">signalijanilli</a>.
-unblockCode-report-plaintext = Si 'un sì tu, ajùtani a jittari fora l'intrusi e signalijanilli.
+unblockCode-prompt-plaintext = Si sì tu, chistu è u còdici d’auturizzazzioni chi ti serbi: { $unblockCode }
+unblockCode-report = Si ’un sì tu, ajùtani a jittari fora l’intrusi e <a data-l10n-name="reportSignInLink">signalijanilli</a>.
+unblockCode-report-plaintext = Si ’un sì tu, ajùtani a jittari fora l’intrusi e signalijanilli.
 verificationReminderFinal-subject = Ùrtimu abbisu pi cunfirmari u to cuntu
-verificationReminderFinal-description-2 = Na para di simani nn'arrè criasti un { -product-mozilla-account }, ma 'un u cunfirmasti mai. Pâ to sicurizza, scancillamu u cuntu si nun veni virificatu nnê pròssimi 24 uri.
+verificationReminderFinal-description-2 = Na para di simani nn’arrè criasti un { -product-mozilla-account }, ma ’un u cunfirmasti mai. Pâ to sicurizza, scancillamu u cuntu si nun veni virificatu nnê pròssimi 24 uri.
 confirm-account = Cunferma u cuntu
 confirm-account-plaintext = { confirm-account }:
 verificationReminderFirst-subject-2 = Ricòrdati di cunfirmari u to cuntu
 verificationReminderFirst-title-3 = Bummegna nne { -brand-mozilla }!
-verificationReminderFirst-description-3 = Na para di jorna nn'arrè criasti un { -product-mozilla-account }, ma 'un u cunfirmasti mai. Pi favuri cunfirma u to cuntu nnî pròssimi 15 jorna, o sarà scancillatu di manera autumàtica.
+verificationReminderFirst-description-3 = Na para di jorna nn’arrè criasti un { -product-mozilla-account }, ma ’un u cunfirmasti mai. Pi favuri cunfirma u to cuntu nnî pròssimi 15 jorna, o sarà scancillatu di manera autumàtica.
 verificationReminderFirst-sub-description-3 = Nun ti pèrdiri nenti dû navicaturi chi metti a tia e â to sicurizza ô primu postu.
 confirm-email-2 = Cunferma u cuntu
 confirm-email-plaintext-2 = { confirm-email-2 }:
 verificationReminderFirst-action-2 = Cunferma u cuntu
 verificationReminderSecond-subject-2 = Ricòrdati di cunfirmari u to cuntu
 verificationReminderSecond-title-3 = Nun ti pèrdiri nenti di { -brand-mozilla }!
-verificationReminderSecond-description-4 = Na para di jorna nn'arrè criasti un { -product-mozilla-account }, ma 'un u cunfirmasti mai. Pi favuri cunfirma u to cuntu nnî pròssimi 10 jorna, o sarà scancillatu di manera autumàtica.
-verificationReminderSecond-second-description-3 = U to { -product-mozilla-account } ti pirmetti di sincrunizzari a to spirienza cu { -brand-firefox } ntra tutti i to dispusitivi, e sblocca l'accessu a cchiù assai prudutti { -brand-mozilla } pinzati pi prutèggiri a privatizza.
+verificationReminderSecond-description-4 = Na para di jorna nn’arrè criasti un { -product-mozilla-account }, ma ’un u cunfirmasti mai. Pi favuri cunfirma u to cuntu nnî pròssimi 10 jorna, o sarà scancillatu di manera autumàtica.
+verificationReminderSecond-second-description-3 = U to { -product-mozilla-account } ti pirmetti di sincrunizzari a to spirienza cu { -brand-firefox } ntra tutti i to dispusitivi, e sblocca l’accessu a cchiù assai prudutti { -brand-mozilla } pinzati pi prutèggiri a privatizza.
 verificationReminderSecond-sub-description-2 = Jùnciti â nostra missiuni pi trasfurmari a riti nnôn locu graputu pi tutti.
 verificationReminderSecond-action-2 = Cunferma u cuntu
 verify-title-3 = Grapi a riti cu { -brand-mozilla }
@@ -728,7 +728,7 @@ verifyLoginCode-subject-line-2 = Approva trasuta nne { $serviceName }
 verifyLoginCode-title-2 = Trasisti nne { $serviceName }?
 # After the colon is a description of the device used to sign in to the service
 verifyLoginCode-safe = Ajùtani a tèniri u to cuntu ô sicuru appruvannu a to trasuta nne:
-verifyLoginCode-prompt-3 = Si sì tu, chistu è u còdici d'auturizzazzioni:
+verifyLoginCode-prompt-3 = Si sì tu, chistu è u còdici d’auturizzazzioni:
 verifyLoginCode-expiry-notice = Scadi nna 5 minuti.
 verifyPrimary-title-2 = Cunferma u nnirizzu di posta elittrònica primariu
 verifyPrimary-description = Fu addumannatu un canciu di cuntu di stu dispusitivu:
