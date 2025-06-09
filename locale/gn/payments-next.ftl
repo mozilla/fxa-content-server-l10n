@@ -256,6 +256,11 @@ metadata-description-default = Ndojejuhúi upe kuatiarogue ojehekáva.
 
 ## Coupon Error Messages
 
+next-coupon-error-expired = Pe ayvu emoingéva ndoikovéima.
+next-coupon-error-generic = Oiko jejavy emomba’apóvo pe ayvu. Eha’ãjey ag̃amieve.
+next-coupon-error-invalid = Pe ayvu emoingéva ndoikovéima.
+# "Limit" refers to the maximum number of times a coupon can be redeemed.
+next-coupon-error-limit-reached = Pe ayvu emoingéva og̃uahẽma hu’ãme.
 
 ##
 
