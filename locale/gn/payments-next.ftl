@@ -228,6 +228,7 @@ upgrade-purchase-details-new-plan-yearly = { $productName } (Arygua)
 
 # Checkout start
 metadata-title-checkout-start = Ehechajey | { $productTitle }
+metadata-description-checkout-start = Ehai nde jehepyme’ẽrã emohu’ã hag̃ua ne mba’ejogua.
 # Checkout processing
 metadata-title-checkout-processing = Ojejapohína | { $productTitle }
 metadata-description-checkout-processing = Ikatúpiko eha’ãrõmi romongu’e aja ne jehepyme’ẽrã.
@@ -239,6 +240,7 @@ metadata-title-checkout-success = Osẽporã | { $productTitle }
 metadata-title-checkout-needs-input = Tembiapo ojeruréva | { $productTitle }
 # Upgrade start
 metadata-title-upgrade-start = Ñemboheko | { $productTitle }
+metadata-description-upgrade-start = Ehai nde jehepyme’ẽrã emohu’ã hag̃ua ne mbohekopyahu.
 # Upgrade processing
 metadata-title-upgrade-processing = Ojejapohína | { $productTitle }
 metadata-description-upgrade-processing = Ikatúpiko eha’ãrõmi romongu’e aja nde jehepyme’ẽrã.
@@ -250,6 +252,7 @@ metadata-title-upgrade-success = Osẽporã | { $productTitle }
 metadata-title-upgrade-needs-input = Tembiapo ojeruréva | { $productTitle }
 # Default
 metadata-title-default = Kuatiarogue ojejuhu’ỹva | { $productTitle }
+metadata-description-default = Ndojejuhúi upe kuatiarogue ojehekáva.
 
 ## Coupon Error Messages
 
