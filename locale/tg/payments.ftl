@@ -418,7 +418,7 @@ sub-expires-on = Анҷоми муҳлат дар { $date }
 
 # $expirationDate (Date) - The payment card's expiration date.
 
-pay-update-card-exp = Муҳлаташ дар { $date } ба анҷом мерасад
+pay-update-card-exp = Муҳлаташ дар { $expirationDate } ба анҷом мерасад
 sub-route-idx-updating = Дар ҳоли навсозии маълумоти санади ҳисоббарорӣ…
 sub-route-payment-modal-heading = Маълумоти санади ҳисоббарорӣ беэътибор аст
 
