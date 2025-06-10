@@ -229,6 +229,16 @@ upgrade-purchase-details-prorated-credits = O saldo negativo exibido será aplic
 ## Page Metadata Information
 ## $productTitle (String) - The name of the product to create subscription, e.g. Mozilla VPN
 
+# Checkout processing
+metadata-title-checkout-processing = Processando | { $productTitle }
+metadata-description-checkout-processing = Aguarde enquanto terminamos de processar seu pagamento.
+# Checkout error
+metadata-title-checkout-error = Erro | { $productTitle }
+# Checkout success
+metadata-title-checkout-success = Sucesso | { $productTitle }
+metadata-description-checkout-success = Parabéns! Você concluiu sua compra com sucesso.
+# Checkout needs_input
+metadata-title-checkout-needs-input = Ação necessária | { $productTitle }
 
 ## Coupon Error Messages
 
