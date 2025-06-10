@@ -200,6 +200,8 @@ upgrade-purchase-details-new-plan-yearly = { $productName } (жыл сайын)
 ## Page Metadata Information
 ## $productTitle (String) - The name of the product to create subscription, e.g. Mozilla VPN
 
+# Checkout error
+metadata-title-checkout-error = Қате | { $productTitle }
 
 ## Coupon Error Messages
 

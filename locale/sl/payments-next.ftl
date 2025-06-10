@@ -256,7 +256,7 @@ metadata-title-upgrade-error = Napaka | { $productTitle }
 metadata-description-upgrade-error = Pri obdelavi nadgradnje je prišlo do napake. Če se težava ponovi, se obrnite na podporo.
 # Upgrade success
 metadata-title-upgrade-success = Uspeh | { $productTitle }
-metadata-description-upgrade-success = Čestitke! Uspešno ste zaključili nadgradnjo.
+metadata-description-upgrade-success = Čestitke! Uspešno ste opravili nadgradnjo.
 # Upgrade needs_input
 metadata-title-upgrade-needs-input = Zahtevano dejanje | { $productTitle }
 metadata-description-upgrade-needs-input = Izvedite zahtevano dejanje za nadaljevanje plačila.

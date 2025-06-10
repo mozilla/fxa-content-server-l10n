@@ -1241,7 +1241,7 @@ auth-error-1054 = Neveljavna koda za overitev v dveh korakih
 auth-error-1056 = Neveljavna rezervna overitvena koda
 auth-error-1062 = Neveljavna preusmeritev
 # Shown when a user tries to sign up with an email address with a domain that doesn't receive emails
-auth-error-1064 = Napačna e-pošta? { $domain } ni veljavna e-poštna storitev
+auth-error-1064 = Napačen naslov? { $domain } ni veljavna e-poštna storitev
 auth-error-1066 = Za ustvaritev računa ni mogoče uporabiti e-poštne maske.
 auth-error-1067 = Napačen e-poštni naslov?
 # Displayed when we want to reference a user's previously set up recovery phone
@@ -1785,7 +1785,7 @@ signin-recovery-phone-flow-heading = Prijava
 signin-recovery-phone-heading = Vnesite kodo za obnovitev
 # Text that explains the user should check their phone for a recovery code
 # $maskedPhoneNumber - The users masked phone number
-signin-recovery-phone-instruction-v3 = Na telefonsko številko, ki se končuje s <span>{ $lastFourPhoneDigits }</span>, je bila poslana šestmestna koda v obliki sporočila SMS. Koda poteče po 5 minutah. Ne delite te kode z nikomer.
+signin-recovery-phone-instruction-v3 = Na telefonsko številko, ki se končuje s <span>{ $lastFourPhoneDigits }</span>, je bila poslana 6-mestna koda v obliki sporočila SMS. Koda poteče po 5 minutah. Ne delite je z nikomer.
 signin-recovery-phone-input-label = Vnesite 6-mestno kodo
 signin-recovery-phone-code-submit-button = Potrdi
 signin-recovery-phone-resend-code-button = Znova pošlji kodo
@@ -1796,7 +1796,7 @@ signin-recovery-phone-send-code-error-heading = Pri pošiljanju kode je prišlo 
 signin-recovery-phone-code-verification-error-heading = Pri preverjanju kode je prišlo do težave
 # Follows the error message (e.g, "There was a problem sending a code")
 signin-recovery-phone-general-error-description = Poskusite znova kasneje.
-signin-recovery-phone-invalid-code-error-description = Koda je neveljavna ali pretečena.
+signin-recovery-phone-invalid-code-error-description = Koda je neveljavna ali ji je potekla veljavnost.
 signin-recovery-phone-invalid-code-error-link = Želite namesto tega uporabiti rezervne overitvene kode?
 # "Limits" refers to potential restrictions on how often a recovery phone number can be used for signing in within a given time period.
 # If limits are reached, users may have to use an alternate two-step authentication method or wait until the restriction period is over.
@@ -1816,7 +1816,7 @@ signin-reported-message = Naša ekipa je bila obveščena. Takšna poročila nam
 # can stand alone as "{ -product-mozilla-account }"
 signin-token-code-heading-2 = Vnesite potrditveno kodo<span> za svoj { -product-mozilla-account }</span>
 # { $email } represents the email that the user entered to sign in
-signin-token-code-instruction-v2 = Vnesite kodo, ki je bila poslana na <email>{ $email }</email>, v 5 minutah.
+signin-token-code-instruction-v2 = V 5 minutah vnesite kodo, ki je bila poslana na <email>{ $email }</email>.
 signin-token-code-input-label-v2 = Vnesite 6-mestno kodo
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Potrdi
@@ -1882,7 +1882,7 @@ confirm-signup-code-page-title = Vnesite potrditveno kodo
 # can stand alone as "{ -product-mozilla-account }"
 confirm-signup-code-heading-2 = Vnesite potrditveno kodo <span>za svoj { -product-mozilla-account }</span>
 # { $email } represents the email that the user entered to sign in
-confirm-signup-code-instruction-v2 = Vnesite kodo, ki je bila poslana na <email>{ $email }</email>, v 5 minutah.
+confirm-signup-code-instruction-v2 = V 5 minutah vnesite kodo, ki je bila poslana na <email>{ $email }</email>.
 confirm-signup-code-input-label = Vnesite 6-mestno kodo
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = Potrdi

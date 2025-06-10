@@ -114,6 +114,9 @@ datablock-copy =
     .message = Көшірілді
 datablock-print =
     .message = Басып шығарылды
+# Tooltip notification when an account recovery key or one-time use code is copied.
+datablock-inline-copy =
+    .message = Көшірілді
 
 ## DeviceInfoBlock component
 ## The strings here are used to display information about the origin of activity happening on a user's account
@@ -397,6 +400,7 @@ password-strength-inline-confirmed-must-match = Растау жаңа парол
 account-recovery-notification-cta = Жасау
 account-recovery-notification-header-value = Пароліңізді ұмытып қалсаңыз, деректеріңізді жоғалтпаңыз
 account-recovery-notification-header-description = Парольді ұмытып қалсаңыз, синхрондалған шолу деректерін қалпына келтіру үшін тіркелгіні қалпына келтіру кілтін жасаңыз.
+recovery-phone-promo-cta = Қалпына келтіру телефонын қосу
 
 ## Ready component
 
@@ -634,6 +638,7 @@ flow-setup-phone-confirm-code-expired = Кодтың мерзімі бітті �
 flow-setup-phone-confirm-code-resend-code-button = Кодты қайта жіберу
 flow-setup-phone-confirm-code-resend-code-success = Код жіберілді
 flow-setup-phone-confirm-code-success-message-v2 = Қалпына келтіру телефоны қосылды
+flow-change-phone-confirm-code-success-message = Қалпына келтіру телефоны өзгертілді
 
 ## FlowSetupPhoneConfirmCode
 
@@ -833,6 +838,9 @@ recent-activity-account-password-changed = Пароль өзгертілді
 recent-activity-account-secondary-email-added = Екіншілік эл. пошта адресі қосылды
 recent-activity-account-secondary-email-removed = Екіншілік эл. пошта адресі өшірілді
 recent-activity-account-emails-swapped = Негізгі және екіншілік эл. пошталар өзара ауыстырылды
+recent-activity-account-recovery-phone-removed = Қалпына келтіру телефоны өшірілді
+recent-activity-account-recovery-codes-replaced = Қалпына келтіру кодтары алмастырылды
+recent-activity-account-recovery-codes-created = Қалпына келтіру кодтары жасалды
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Тіркелгінің басқа белсенділігі
 
@@ -853,6 +861,9 @@ settings-recovery-phone-remove-cancel = Бас тарту
 ## PageSetupRecoveryPhone
 
 page-setup-recovery-phone-heading = Қалпына келтіру телефонын қосу
+page-setup-recovery-phone-back-button-title = Баптауларға оралу
+# Back arrow to return to step 1 of recovery phone setup flow
+page-setup-recovery-phone-step2-back-button-title = Телефон нөмірін өзгерту
 
 ## Add secondary email page
 
@@ -906,6 +917,7 @@ tfa-incorrect-totp = Екі қадамды аутентификация коды
 tfa-cannot-retrieve-code = Кодыңызды сұрау кезінде мәселе орын алды.
 tfa-cannot-verify-code-4 = Сақтық көшірме аутентификация кодын растау кезінде мәселе орын алды
 tfa-incorrect-recovery-code-1 = Жарамсыз сақтық аутентификация коды
+tfa-enabled-v2 = Екі қадамды аутентификация іске қосылды
 tfa-scan-this-code =
     <linkExternal>осы аутентификация қолданбаларының</linkExternal>
     біреуін пайдаланып, осы QR кодын сканерлеңіз.
@@ -1144,6 +1156,8 @@ auth-error-139 = Екіншілік эл. пошта адресі негізгі
 auth-error-155 = TOTP токені табылмады
 auth-error-159 = Тіркелгіні қалпына келтіру кілті жарамсыз
 auth-error-183-2 = Жарамсыз немесе мерзімі өткен растау коды
+auth-error-202 = Мүмкіндік іске қосылмаған
+auth-error-203 = Жүйе бос емес, біраздан кейін қайталап көріңіз
 auth-error-206 = Парольді жасау мүмкін емес, пароль орнатылған болып тұр
 auth-error-999 = Күтпеген қате
 auth-error-1001 = Кіру талабынан бас тартылды
@@ -1456,6 +1470,11 @@ reset-password-complete-banner-message = Жүйеге кірудің болаш�
 
 # ConfirmBackupCodeResetPassword page
 
+confirm-backup-code-reset-password-input-label = 10 таңбалы кодты енгізіңіз
+confirm-backup-code-reset-password-confirm-button = Растау
+confirm-backup-code-reset-password-subheader = Сақтық аутентификация кодын енгізіңіз
+# Link out to support article: https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+confirm-backup-code-reset-password-locked-out-link = Тіркелгі бұғатталған ба?
 
 ## Confirm Reset Password With Code
 
@@ -1504,9 +1523,13 @@ reset-password-confirmed-cta = { $serviceName } қызметіне жалғас�
 
 # password, and they previously had set up an account recovery method.
 
+password-reset-recovery-method-header = Парольді тастау
+password-reset-recovery-method-phone = Қалпына келтіру телефоны
+password-reset-recovery-method-code = Сақтық аутентификация кодтары
 
 ## ResetPasswordRecoveryPhone page
 
+reset-password-recovery-phone-input-label = 6-цифрлық кодты енгізіңіз
 reset-password-with-recovery-key-verified-page-title = Пароль тастау сәтті аяқталды
 reset-password-complete-new-password-saved = Жаңа пароль сақталды!
 reset-password-complete-recovery-key-created = Тіркелгіні қалпына келтірудің жаңа кілті жасалды. Оны қазір жүктеп алыңыз және сақтаңыз.
@@ -1587,6 +1610,7 @@ signin-push-code-confirm-link-error = Сілтеме зақымдалған. Қ�
 ## their password, and they previously had set up an account recovery method.
 
 signin-recovery-method-header = Кіру
+signin-recovery-method-subheader = Қалпына келтіру тәсілін таңдаңыз
 signin-recovery-method-phone = Қалпына келтіру телефоны
 
 ## SigninRecoveryCode page

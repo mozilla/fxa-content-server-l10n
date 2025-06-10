@@ -162,7 +162,7 @@ automated-email-reset =
 automated-email-reset-plaintext-v2 = Če tega dejanja niste sprožili vi, takoj ponastavite geslo na { $resetLink }
 # This message is used by multiple automated emails that notify users of security events on their account
 # "this action" is meant to be a generic term, and could, for example, refer to using a backup authentication code to confirm a password reset
-automated-email-reset-pwd-two-factor = Če tega dejanja niste storili vi, <a data-l10n-name="resetLink">ponastavite geslo</a> in <a data-l10n-name="twoFactorSettingsLink">ponastavite overitev v dveh korakih</a> desno stran. Za več informacij obiščite <a data-l10n-name="supportLink">Podporo { -brand-mozilla }</a>.
+automated-email-reset-pwd-two-factor = Če tega niste storili vi, takoj <a data-l10n-name="resetLink">ponastavite geslo</a> in <a data-l10n-name="twoFactorSettingsLink">ponastavite overjanje v dveh korakih</a>. Za več informacij obiščite <a data-l10n-name="supportLink">Podporo { -brand-mozilla }</a>.
 # Followed by link to https://accounts.firefox.com/reset_password
 automated-email-reset-pwd-plaintext-v3 = Če tega dejanja niste storili vi, takoj ponastavite geslo:
 # Followed by link to https://accounts.firefox.com/settings#two-step-authentication
@@ -228,7 +228,7 @@ subscriptionCharges-content-tax = Davki in pristojbine: { $invoiceTaxAmount }
 ##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
 
 subscriptionFirstInvoice-content-charge = Zaračunano { $invoiceTotal } dne { $invoiceDateOnly }
-subscriptionFirstInvoice-content-credit = Prejeli ste dobroimetje { $invoiceTotal }, ki se bo uporabljalo pri vaših prihodnjih računih.
+subscriptionFirstInvoice-content-credit = Prejeli ste dobroimetje { $invoiceTotal }, ki se bo izkoristilo na prihodnjih računih.
 
 ##
 
@@ -644,7 +644,7 @@ subscriptionReplaced-title = Vaša naročnina je bila posodobljena
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReplaced-content-replaced = Vaša posamezna naročnina na { $productName } je bila zamenjana in je zdaj vključena v vašo novo svežnjo.
 subscriptionReplaced-content-credit = Prejeli boste dobro za ves neporabljen čas iz prejšnje naročnine. Dobroimetje bo samodejno pripisano vašemu računu in porabljeno za prihodnje stroške.
-subscriptionReplaced-content-no-action = Ni potrebno ukrepati.
+subscriptionReplaced-content-no-action = Ni vam treba storiti ničesar.
 subscriptionsPaymentExpired-subject-1 = Kreditni kartici za vaše naročnine je ali bo kmalu potekla veljavnost
 subscriptionsPaymentExpired-title-1 = Vaši kreditni kartica je ali bo kmalu potekla veljavnost
 subscriptionsPaymentExpired-content-1 = Kreditni kartici, s katero plačujete naslednje naročnine, je ali bo kmalu potekla veljavnost.
@@ -679,7 +679,7 @@ subscriptionUpgrade-upgrade-info-2 = Uspešno ste nadgradili na { $productName }
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
 subscriptionUpgrade-content-charge-prorated = Zaračunali smo vam enkraten prispevek v višini { $paymentProrated }, ki odraža višjo ceno naročnine za preostanek tega obračunskega obdobja ({ $productPaymentCycleOld }).
-subscriptionUpgrade-content-charge-credit = Prejeli ste dobroimetje na računu v višini { $paymentProrated }.
+subscriptionUpgrade-content-charge-credit = Na račun ste prejeli dobroimetje v višini { $paymentProrated }.
 subscriptionUpgrade-content-starting = Od naslednjega računa se bo bremenitev spremenila iz { $paymentAmountOld } na { $productPaymentCycleOld } na { $paymentAmountNew } na { $productPaymentCycleNew }.
 # Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
