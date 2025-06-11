@@ -1101,6 +1101,12 @@ se-cannot-resend-code-3 = Ni dispiaci, cci fu un prubblema mentri chi mannava ar
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 se-set-primary-successful-2 = { $email } ora è u to nnirizzu di posta elittrònica primariu
+se-set-primary-error-2 = Ni dispiaci, cci fu un prubblema mentri chi canciava u to nnirizzu di posta elittrònica primariu
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-delete-email-successful-2 = U nnirizzu { $email } fu scancillatu
+se-delete-email-error-2 = Ni dispiaci, cci fu un prubblema mentri chi scancillava stu nnirizzu di posta elittrònica
 se-verify-session-3 = Serbi chi cunfermi a sissioni attuali pi fari st’azzioni
 se-verify-session-error-3 = Ni dispiaci, cci fu un prubblema mentri chi cunfirmava a to sissioni
 # Button to remove the secondary email
@@ -1110,8 +1116,13 @@ se-remove-email =
 se-refresh-email =
     .title = Attualizza nnirizzu di posta elittrònica
 se-unverified-2 = nun cunfirmatu
+se-resend-code-2 =
+    Abbisugnamu di na cunferma. <button>Manna arrè u còdici di cunferma</button>
+    si nun agghicau nnâ to posta 'n arrivu o nnâ carpetta spam.
 # Button to make secondary email the primary
 se-make-primary = Fallu primariu
+se-default-content = Trasi nnô to cuntu si nun arrinesci a tràsiri nnâ to posta elittrònica primaria.
+se-content-note-1 = Abbisu: nu nnirizzu di posta elittrònica sicunnariu nun ricùpira i to nfurmazzioni — ti serbi na <a>chiavi di ricùpiru dû cuntu</a> pi chiḍḍu.
 # Default value for the secondary email
 se-secondary-email-none = Nuḍḍu
 
@@ -1125,9 +1136,11 @@ tfa-row-action-disable = Sdisabbìlita
 tfa-row-button-refresh =
     .title = Attualizza l’autinticazzioni a du’ fattura
 tfa-row-cannot-refresh = Ni dispiaci, cci fu un prubblema mentri chi attualizzava l’autinticazzioni a du’ fattura.
+tfa-row-enabled-description = U to cuntu è prutettu cu l'autinticazzioni a du' fattura. Hâ mèttiri un còdici a usu sìngulu pigghiatu dâ to app pi l'autinticazzioni quannu trasi nnô to { -product-mozilla-account }.
 # "this" refers to two-step authentication
 # Link goes to https://support.mozilla.org/kb/secure-mozilla-account-two-step-authentication
 tfa-row-enabled-info-link = Comu pruteggi u to cuntu
+tfa-row-disabled-description-v2 = Ajùtani a tèniri u to cuntu ô sicuru usannu n'app d'autinticazzioni comu sicunnu passaggiu pi tràsiri.
 tfa-row-cannot-verify-session-4 = Ni dispiaci, cci fu un prubblema mentri chi cunfirmava a to sissioni
 tfa-row-disable-modal-heading = Vo’ sdisabbilitari l’autinticazzioni a du’ fattura?
 tfa-row-disable-modal-confirm = Sdisabbìlita
@@ -1278,6 +1291,7 @@ inline-recovery-key-setup-create-error = Ah! Nun pòttimu criari a to chiavi di 
 inline-recovery-key-setup-recovery-created = Criasti na chiavi di ricùpiru dû cuntu
 inline-recovery-key-setup-download-header = Pruteggi u to cuntu
 inline-recovery-key-setup-download-subheader = Scàrricala e sàrbala ora
+inline-recovery-key-setup-hint-header = Cunzigghiu di sicurizza
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
