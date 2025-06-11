@@ -27,6 +27,7 @@ checkout-error-boundary-basic-error-message = Algo salió mal. Inténtalo de nue
 ## Common strings used in multiple pages
 
 next-payment-error-manage-subscription-button = Administrar mi suscripción
+next-iap-blocked-contact-support = Tienes una suscripción en la aplicación móvil que entra en conflicto con este producto — por favor comunícate con el servicio de soporte para que podamos ayudarte.
 next-payment-error-retry-button = Volver a intentarlo
 next-basic-error-message = Algo ha salido mal. Por favor, inténtalo de nuevo más tarde.
 checkout-error-contact-support-button = Contactar con la asistencia
@@ -224,3 +225,16 @@ upgrade-purchase-details-new-plan-weekly = { $productName } (semanal)
 upgrade-purchase-details-new-plan-monthly = { $productName } (mensual)
 upgrade-purchase-details-new-plan-halfyearly = { $productName } (6 meses)
 upgrade-purchase-details-new-plan-yearly = { $productName } (anual)
+upgrade-purchase-details-prorated-credits = El saldo negativo mostrado se aplicará como crédito a tu cuenta y se utilizará para futuras facturas.
+
+## Page Metadata Information
+## $productTitle (String) - The name of the product to create subscription, e.g. Mozilla VPN
+
+# Checkout start
+metadata-title-checkout-start = Pagar | { $productTitle }
+
+## Coupon Error Messages
+
+
+##
+

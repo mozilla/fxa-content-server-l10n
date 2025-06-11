@@ -23,6 +23,10 @@ upgrade-page-payment-information = Payment Information
 # $nextInvoiceDate (number) - The date of the next invoice
 upgrade-page-acknowledgment =  Your plan will change immediately, and you’ll be charged a prorated amount today for the rest of this billing cycle. Starting { $nextInvoiceDate } you’ll be charged the full amount.
 
+## Authentication Error page
+
+auth-error-page-title = We Couldn’t Sign You In
+
 checkout-error-boundary-retry-button = Try again
 checkout-error-boundary-basic-error-message = Something went wrong. Please try again or <contactSupportLink>contact support.</contactSupportLink>
 
@@ -122,7 +126,6 @@ payments-header-bento-firefox-mobile = { -brand-firefox } Browser for Mobile
 payments-header-bento-monitor = { -product-mozilla-monitor }
 payments-header-bento-firefox-relay = { -product-firefox-relay }
 payments-header-bento-vpn = { -product-mozilla-vpn }
-payments-header-bento-pocket = { -product-pocket }
 payments-header-bento-made-by-mozilla = Made by { -brand-mozilla }
 
 payments-header-avatar =
@@ -214,6 +217,7 @@ next-subscription-processing-title = Confirming subscription…
 next-subscription-error-title = Error confirming subscription…
 subscription-title-sub-exists = You’ve already subscribed
 subscription-title-plan-change-heading = Review your change
+subscription-title-not-supported = This subscription plan change is not supported
 
 next-sub-guarantee = 30-day money-back guarantee
 
