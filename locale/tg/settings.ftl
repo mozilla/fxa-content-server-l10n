@@ -279,11 +279,32 @@ signin-totp-code-image-label =
     .aria-label = Дастгоҳе, ки дорои рамзи 6-рақамаи ноаён мебошад.
 confirm-signup-aria-label =
     .aria-label = Лифофае, ки дорои пайванд мебошад
+# Used for an image of a key on a shield surrounded by 5 other icons representing information that can be recovered with the account recovery key.
+# Other icons and their meaning: Gear (settings), star (favorites), clock (history), magnifying glass (search) and lock (passwords).
+security-shield-aria-label =
+    .aria-label = Тасвир барои муаррифӣ кардани калиди барқарорсозии ҳисоб.
+# Used for an image of a single key.
+recovery-key-image-aria-label =
+    .aria-label = Тасвир барои муаррифӣ кардани калиди барқарорсозии ҳисоб.
+password-image-aria-label =
+    .aria-label = Тасвир барои муаррифӣ кардани тарзи вориди ниҳонвожа.
+lightbulb-aria-label =
+    .aria-label = Тасвир барои муаррифӣ кардани эҷоди маслиҳати захирагоҳ.
+email-code-image-aria-label =
+    .aria-label = Тасвир барои муаррифӣ кардани паёми почтаи электроние, ки дорои рамз мебошад.
+recovery-phone-image-description =
+    .aria-label = Дастгоҳи мобилие, ки рамзро тавассути паёми матнӣ қабул мекунад.
+recovery-phone-code-image-description =
+    .aria-label = Рамзе, ки дар дастгоҳи мобилӣ қабул карда шуд.
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
 ## after signing in.
 
+inline-recovery-key-setup-signed-in-firefox-2 = Шумо ба «{ -brand-firefox }» ворид шудаед.
+inline-recovery-key-setup-create-header = Ҳисоби худро муҳофизат кунед
+# This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
+inline-recovery-key-setup-create-subheader = Оё шумо як дақиқа вақт ҷудо мекунед, то маълумоти шахсии худро ҳифз кунед?
 inline-recovery-key-setup-start-button = Эҷод кардани калиди барқарорсозии ҳисоб
 
 ## Input Password
@@ -410,6 +431,11 @@ cs-heading = Хизматрасониҳои пайвастшуда
 ## The following are the options for selecting a reason for disconnecting the
 ## device
 
+cs-disconnect-sync-opt-prefix = Ҳамин дастгоҳ:
+cs-disconnect-sync-opt-suspicious = Шубҳанок
+cs-disconnect-sync-opt-lost = Гумшуда ё дуздидашуда
+cs-disconnect-sync-opt-old = Куҳна ё ивазшуда
+cs-disconnect-sync-opt-duplicate = Такроран истифода мешавад
 
 ##
 
