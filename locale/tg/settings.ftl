@@ -439,6 +439,9 @@ cs-disconnect-sync-opt-duplicate = Такроран истифода мешав�
 
 ##
 
+cs-disconnect-advice-confirm = Хуб, фаҳмидам
+cs-disconnect-lost-advice-heading = Пайвасти дастгоҳи гумшуда ё дуздидашуда ҷудо карда шудааст
+cs-disconnect-suspicious-advice-heading = Пайвасти дастгоҳи шубҳанок ҷудо карда шудааст
 cs-sign-out-button = Баромад
 
 ## Data collection section
@@ -494,9 +497,13 @@ flow-recovery-key-info-cancel-link = Бекор кардан
 
 flow-setup-phone-confirm-code-input-label = Рамзи 6-рақамро ворид кунед
 flow-setup-phone-confirm-code-button = Тасдиқ кардан
+# button to resend a code by text message to the user's phone
+# followed by a button to resend a code
+flow-setup-phone-confirm-code-expired = Муҳлати рамз ба анҷом расид?
 flow-setup-phone-confirm-code-resend-code-button = Аз нав фиристодани рамз
 flow-setup-phone-confirm-code-resend-code-success = Рамз фиристода шуд
 flow-setup-phone-confirm-code-success-message-v2 = Телефони барқарорсозӣ илова карда шуд
+flow-change-phone-confirm-code-success-message = Телефони барқарорсозӣ иваз карда шуд
 
 ## FlowSetupPhoneConfirmCode
 
@@ -507,6 +514,7 @@ flow-setup-phone-submit-number-button = Фиристодани рамз
 ## HeaderLockup component, the header in account settings
 
 header-menu-open = Пӯшидани меню
+header-menu-closed = Менюи паймоиши сомона
 header-back-to-top-link =
     .title = Бозгашт ба боло
 header-title-2 = { -product-mozilla-account }
@@ -515,6 +523,8 @@ header-help = Кумак
 ## Linked Accounts section
 
 la-heading = Ҳисобҳои пайвастшуда
+la-unlink-button = Ҷудо кардани пайванд
+la-unlink-account-button = Ҷудо кардани пайванд
 la-set-password-button = Танзим кардани ниҳонвожа
 
 ## Modal - Default values for a message directed at the user where the user can typically Confirm or Cancel.
@@ -534,6 +544,7 @@ msv-submit-button-2 = Тасдиқ кардан
 
 nav-settings = Танзимот
 nav-data-collection = Ҷамъоварӣ ва истифодабарии маълумот
+nav-paid-subs = Обунаҳо пардохтшуда
 
 ## Two Step Authentication - replace backup authentication code
 

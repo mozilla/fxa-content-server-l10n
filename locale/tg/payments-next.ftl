@@ -152,6 +152,7 @@ next-subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capita
 next-terms = Шартҳои хизматрасонӣ
 next-privacy = Огоҳномаи махфият
 next-terms-download = Шартҳои боргирӣ
+terms-and-privacy-paypal-link = Сиёсати махфияти «{ -brand-paypal }»
 
 ## Component - UpdatedPurchaseDetails
 
@@ -163,6 +164,20 @@ next-terms-download = Шартҳои боргирӣ
 ## Page Metadata Information
 ## $productTitle (String) - The name of the product to create subscription, e.g. Mozilla VPN
 
+# Checkout error
+metadata-title-checkout-error = Хато | { $productTitle }
+# Checkout success
+metadata-title-checkout-success = Муваффақият | { $productTitle }
+# Upgrade start
+metadata-title-upgrade-start = Такмил додан | { $productTitle }
+# Upgrade error
+metadata-title-upgrade-error = Хато | { $productTitle }
+# Upgrade success
+metadata-title-upgrade-success = Муваффақият | { $productTitle }
+# Upgrade needs_input
+metadata-title-upgrade-needs-input = Амал лозим аст | { $productTitle }
+# Default
+metadata-title-default = Саҳифа ёфт нашуд | { $productTitle }
 
 ## Coupon Error Messages
 
