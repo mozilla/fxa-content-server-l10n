@@ -114,6 +114,9 @@ datablock-copy =
     .message = Нусхабардошташуда
 datablock-print =
     .message = Чопшуда
+# Tooltip notification when an account recovery key or one-time use code is copied.
+datablock-inline-copy =
+    .message = Нусха бардошта шуд
 
 ## DeviceInfoBlock component
 ## The strings here are used to display information about the origin of activity happening on a user's account
