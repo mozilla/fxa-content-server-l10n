@@ -62,6 +62,8 @@ page-not-found-back-button = Бозгашт
 next-new-user-submit = Ҳозир обуна шавед
 next-payment-validate-name-error = Лутфан, номи пурраи худро ворид кунед
 next-pay-with-heading-paypal = Бо «{ -brand-paypal }» пардохт кунед
+# Label for the Full Name input
+payment-name-label = Номе, ки дар корти бонкии шумо чоп шудааст
 payment-name-placeholder = Номи пурра
 
 ## Component - CouponForm

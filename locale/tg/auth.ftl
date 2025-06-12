@@ -488,6 +488,8 @@ subscriptionRenewalReminder-content-signature = Дастаи «{ $productName }�
 subscriptionReplaced-subject = Обунаи шумо ҳамчун як қисми навсозии шумо нав карда шуд
 subscriptionReplaced-title = Обунаи шумо навсозӣ карда шуд
 subscriptionReplaced-content-no-action = Аз ҷониби шумо ягон амал талаб карда намешавад.
+subscriptionsPaymentExpired-subject-1 = Муҳлати истифодаи корти бонкӣ барои обунаи шумо ба анҷом расид ё ба наздикӣ ба анҷом мерасад
+subscriptionsPaymentExpired-title-1 = Муҳлати истифодаи корти бонкии шумо ба анҷом расид ё ба наздикӣ ба анҷом мерасад
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-subject = Пардохт барои «{ $productName }» қабул шуд

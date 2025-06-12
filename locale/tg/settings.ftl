@@ -354,6 +354,7 @@ password-strength-balloon-heading = Талаботи ниҳонвожа
 ## Notification Promo Banner component
 
 account-recovery-notification-cta = Эҷод кардан
+recovery-phone-promo-cta = Илова кардани телефони барқарорсозӣ
 
 ## Ready component
 
@@ -387,6 +388,7 @@ flow-recovery-key-hint-cta-text = Анҷом додан
 password-reset-warning-icon = Огоҳӣ
 password-reset-chevron-expanded = Печондани огоҳӣ
 password-reset-chevron-collapsed = Баркушодани огоҳӣ
+password-reset-warning-have-key = Калиди барқарорсозии ҳисоб надоред?
 
 ## Alert Bar
 
@@ -488,6 +490,8 @@ flow-recovery-key-success-alert = Калиди барқарорсозии ҳис
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
+# The header of the first view in the Recovery Key Create flow when replacing an existing recovery key
+flow-recovery-key-info-header-change-key = Иваз кардани калиди барқарорсозии ҳисоби худ
 # The text of the "submit" button to start creating (or changing) an account recovery key
 flow-recovery-key-info-cta-text-v3 = Оғози кор
 # Link to cancel account recovery key change and return to settings
@@ -641,12 +645,21 @@ display-name-success-alert-2 = Номи намоишӣ нав карда шуд
 recent-activity-account-create-v2 = Ҳисоб эҷод карда шуд
 recent-activity-account-disable-v2 = Ҳисоб ғайрифаъол шуд
 recent-activity-account-enable-v2 = Ҳисоб фаъол шуд
+recent-activity-account-recovery-key-added = Калиди барқарорсозии ҳисоб фаъол карда шуд
+recent-activity-account-recovery-key-verification-failure = Тасдиқи калиди барқарорсозии ҳисоб иҷро карда нашуд
+recent-activity-account-recovery-key-verification-success = Тасдиқи калиди барқарорсозии ҳисоб бо муваффақият иҷро карда шуд
+recent-activity-account-recovery-key-removed = Калиди барқарорсозии ҳисоб тоза карда шуд
 recent-activity-account-password-added = Ниҳонвожаи нав илова шуд
 recent-activity-account-secondary-email-added = Нишонии почтаи электронии иловагӣ илова шуд
 recent-activity-account-secondary-email-removed = Нишонии почтаи электронии иловагӣ тоза шуд
+recent-activity-account-recovery-phone-send-code = Рамзи телефони барқарорсозӣ фиристода шуд
+recent-activity-account-recovery-phone-setup-complete = Танзими телефони барқарорсозӣ ба анҷом расид
+recent-activity-account-recovery-phone-removed = Телефони барқарорсозӣ тоза карда шуд
 
 ## PageRecoveryKeyCreate
 
+# The page title displayed at the top of the flow container
+recovery-key-create-page-title = Калиди барқарорсозии ҳисоб
 
 ## PageRecoveryPhoneRemove
 ## Users reach this page from account settings when they want to remove a backup phone number.
@@ -659,7 +672,10 @@ settings-recovery-phone-remove-success = Телефони барқарорсоз
 ## PageSetupRecoveryPhone
 
 page-setup-recovery-phone-heading = Илова кардани телефони барқарорсозӣ
+page-change-recovery-phone = Иваз кардани телефони барқарорсозӣ
 page-setup-recovery-phone-back-button-title = Бозгашт ба Танзимот
+# Back arrow to return to step 1 of recovery phone setup flow
+page-setup-recovery-phone-step2-back-button-title = Иваз кардани рақами телефон
 
 ## Add secondary email page
 
@@ -741,6 +757,8 @@ tfa-row-backup-codes-add-cta = Илова кардан
 # Recovery phone is a recovery method for two-step authentication
 # A recovery code can be sent to the user's phone
 tfa-row-backup-phone-title-v2 = Телефони барқарорсозӣ
+# Shown with an alert icon to indicate that no recovery phone is configured
+tfa-row-backup-phone-not-available-v2 = Ягон рақами телефон илова карда нашуд
 # button to change the configured recovery phone
 tfa-row-backup-phone-change-cta = Тағйир додан
 # button to add/configure a recovery phone
@@ -1039,6 +1057,7 @@ reset-password-complete-header = Ниҳонвожаи шумо аз нав ба�
 
 # password, and they previously had set up an account recovery method.
 
+password-reset-recovery-method-phone = Телефони барқарорсозӣ
 
 ## ResetPasswordRecoveryPhone page
 
