@@ -654,6 +654,7 @@ flow-setup-2fa-backup-choice-heading = Välj en återställningsmetod
 flow-setup-2fa-backup-choice-description = Detta låter dig logga in om du inte kan komma åt din mobila enhet eller autentiseringsapp.
 flow-setup-2fa-backup-choice-phone-title = Telefon för återställning
 flow-setup-2fa-backup-choice-phone-badge = Enklast
+flow-setup-2fa-backup-choice-phone-info = Få en återställningskod via sms. För närvarande tillgänglig i USA och Kanada.
 
 ## The backup code confirm step of the setup 2 factor authentication flow,
 ## where the user confirm that they have saved their backup authentication codes
