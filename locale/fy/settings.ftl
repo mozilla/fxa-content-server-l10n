@@ -114,6 +114,9 @@ datablock-copy =
     .message = Kopiearre
 datablock-print =
     .message = Ofdrukt
+# Tooltip notification when an account recovery key or one-time use code is copied.
+datablock-inline-copy =
+    .message = Kopiearre
 
 ## DeviceInfoBlock component
 ## The strings here are used to display information about the origin of activity happening on a user's account
@@ -645,6 +648,7 @@ flow-setup-phone-confirm-code-expired = Koade ferrûn?
 flow-setup-phone-confirm-code-resend-code-button = Koade nochris ferstjoere
 flow-setup-phone-confirm-code-resend-code-success = Koade ferstjoerd
 flow-setup-phone-confirm-code-success-message-v2 = Wersteltelefoannûmer tafoege
+flow-change-phone-confirm-code-success-message = Wersteltelefoannûmer wizige
 
 ## FlowSetupPhoneConfirmCode
 
@@ -895,6 +899,7 @@ settings-recovery-phone-remove-success = Wersteltelefoannûmer fuortsmiten
 ## PageSetupRecoveryPhone
 
 page-setup-recovery-phone-heading = Wersteltelefoannûmer tafoegje
+page-change-recovery-phone = Wersteltelefoannûmer wizigje
 page-setup-recovery-phone-back-button-title = Tebek nei ynstellingen
 # Back arrow to return to step 1 of recovery phone setup flow
 page-setup-recovery-phone-step2-back-button-title = Telefoannûmer wizigje
@@ -1632,6 +1637,27 @@ password-reset-recovery-method-code-info =
 # Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
 password-reset-recovery-method-send-code-error-heading = Der is in probleem bard by it ferstjoeren fan in koade nei jo wersteltelefoannûmer
 password-reset-recovery-method-send-code-error-description = Probearje it letter opnij of brûk jo reservekopy-autentikaasjekoaden.
+
+## ResetPasswordRecoveryPhone page
+
+reset-password-recovery-phone-flow-heading = Inisjalisearje jo wachtwurd opnij
+# A recovery code in context of this page is a one time code sent to the user's phone
+reset-password-recovery-phone-heading = Fier werstelkoade yn
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+reset-password-recovery-phone-instruction-v3 = Der is in 6-siferige koade ferstjoerd nei it telefoannûmer einigjend op <span>{ $lastFourPhoneDigits }</span>. Dizze koade ferrint nei 5 minuten. Diel dizze koade mei net ien.
+reset-password-recovery-phone-input-label = Fier 6-siferige koade yn
+reset-password-recovery-phone-code-submit-button = Befêstigje
+reset-password-recovery-phone-resend-code-button = Koade nochris ferstjoere
+reset-password-recovery-phone-resend-success = Koade ferstjoerd
+# links to https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+reset-password-recovery-phone-locked-out-link = Binne jo bûten sluten?
+reset-password-recovery-phone-send-code-error-heading = Der is in probleem bard by it ferstjoeren fan in koade
+reset-password-recovery-phone-code-verification-error-heading = Der is in probleem bard by it ferifiearjen fan jo koade.
+# Follows the error message (e.g, "There was a problem sending a code")
+reset-password-recovery-phone-general-error-description = Probearje it letter noch ris.
+reset-password-recovery-phone-invalid-code-error-description = De koade is ûnjildich of ferrûn.
+reset-password-recovery-phone-invalid-code-error-link = Reserve-autentikaasjekoaden yn stee hjirfan brûke?
 reset-password-with-recovery-key-verified-page-title = Wachtwurd mei sukses opnij ynsteld
 reset-password-complete-new-password-saved = Nij wachtwurd bewarre!
 reset-password-complete-recovery-key-created = Nije accountwerstelkaai oanmakke. Download en bewarje dizze no.
