@@ -655,14 +655,28 @@ flow-setup-2fa-backup-choice-description = Detta låter dig logga in om du inte 
 flow-setup-2fa-backup-choice-phone-title = Telefon för återställning
 flow-setup-2fa-backup-choice-phone-badge = Enklast
 flow-setup-2fa-backup-choice-phone-info = Få en återställningskod via sms. För närvarande tillgänglig i USA och Kanada.
+flow-setup-2fa-backup-choice-code-title = Reservautentiseringskoder
+flow-setup-2fa-backup-choice-code-badge = Säkrast
+flow-setup-2fa-backup-choice-code-info = Skapa och spara engångsautentiseringskoder.
+# This link points to https://support.mozilla.org/kb/secure-mozilla-account-two-step-authentication
+flow-setup-2fa-backup-choice-learn-more-link = Läs mer om återställning och risker att byta SIM-kort
 
 ## The backup code confirm step of the setup 2 factor authentication flow,
 ## where the user confirm that they have saved their backup authentication codes
 ## by entering one of them.
 
+flow-setup-2fa-backup-code-confirm-heading = Ange reservautentiseringskod
+# codes here refers to backup authentication codes
+flow-setup-2fa-backup-code-confirm-confirm-saved = Bekräfta att du sparat dina koder genom att ange en. Utan dessa koder kanske du inte kan logga in om du inte har din autentiseringsapp.
+flow-setup-2fa-backup-code-confirm-code-input = Ange en 10-siffrig kod
+# Clicking on this button finishes the whole flow upon success.
+flow-setup-2fa-backup-code-confirm-button-finish = Slutför
 
 ## The backup codes download step of the setup 2 factor authentication flow
 
+flow-setup-2fa-backup-code-dl-heading = Spara reservautentiseringskoder
+flow-setup-2fa-backup-code-dl-save-these-codes = Förvara dessa på en plats du kommer ihåg. Om du inte har åtkomst till din autentiseringsapp måste du ange en för att logga in.
+flow-setup-2fa-backup-code-dl-button-continue = Fortsätt
 
 ## FlowSetupPhoneConfirmCode
 
