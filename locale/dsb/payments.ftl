@@ -579,11 +579,6 @@ sub-item-no-such-subsequent-invoice = Naslědna zliceńka njejo se namakała za 
 sub-invoice-preview-error-title = Pśeglěd zliceńki njejo se namakał
 sub-invoice-preview-error-text = Pśeglěd zliceńki njejo se namakał za toś ten abonement
 
-## Routes - Subscriptions - Pocket Subscription
-
-manage-pocket-title-2 = Pytaśo za premiumowym abonementom { -product-pocket }?
-manage-pocket-body-2 = <linkExternal>Klikniśo how</linkExternal>, aby to zastojał.
-
 ## Routes - Subscriptions - Reactivate
 ## $name (String) - The name of the subscribed product.
 

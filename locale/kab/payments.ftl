@@ -351,10 +351,6 @@ sub-item-no-such-plan = Ulac aɣawas s wanaw-a i ujerred-a.
 invoice-not-found = Tafaṭurt-a ulac-itt
 sub-item-no-such-subsequent-invoice = Tafaṭurt-a ulac-itt i umultaɣ-a.
 
-## Routes - Subscriptions - Pocket Subscription
-
-manage-pocket-title-2 = Tettnadiḍ amulteɣ-ik·im premium { -product-pocket }?
-
 ## Routes - Subscriptions - Reactivate
 ## $name (String) - The name of the subscribed product.
 

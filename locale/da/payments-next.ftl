@@ -20,6 +20,9 @@ location-banner-currency-change = Ændring af valuta understøttes ikke. Vælg e
 upgrade-page-payment-information = Betalingsinformation
 # $nextInvoiceDate (number) - The date of the next invoice
 upgrade-page-acknowledgment = Din plan bliver ændret med det samme, og du vil blive opkrævet et forholdsmæssigt beløb i dag for resten af denne faktureringsperiode. Fra og med { $nextInvoiceDate } vil du blive opkrævet det fulde beløb.
+
+## Authentication Error page
+
 checkout-error-boundary-retry-button = Prøv igen
 checkout-error-boundary-basic-error-message = Noget gik galt. Prøv igen eller <contactSupportLink>kontakt support.</contactSupportLink>
 
@@ -113,7 +116,6 @@ payments-header-bento-firefox-mobile = { -brand-firefox } Browser til din telefo
 payments-header-bento-monitor = { -product-mozilla-monitor }
 payments-header-bento-firefox-relay = { -product-firefox-relay }
 payments-header-bento-vpn = { -product-mozilla-vpn }
-payments-header-bento-pocket = { -product-pocket }
 payments-header-bento-made-by-mozilla = Lavet af { -brand-mozilla }
 payments-header-avatar =
     .title = { -product-mozilla-account }-menu

@@ -311,10 +311,6 @@ sub-item-no-such-plan = Selle tellimuse jaoks pole sellist plaani.
 invoice-not-found = Hilisemat arvet ei leitud
 sub-item-no-such-subsequent-invoice = Selle tellimuse kohta ei leitud hilisemat arvet.
 
-## Routes - Subscriptions - Pocket Subscription
-
-manage-pocket-body-2 = Selle haldamiseks <linkExternal>klõpsa siia</linkExternal>.
-
 ## Routes - Subscriptions - Reactivate
 ## $name (String) - The name of the subscribed product.
 

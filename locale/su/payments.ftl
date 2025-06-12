@@ -171,9 +171,6 @@ sub-route-idx-cancel-msg-title = Pileuleuyan
 ## Routes - Subscription - SubscriptionItem
 
 
-## Routes - Subscriptions - Pocket Subscription
-
-
 ## Routes - Subscriptions - Reactivate
 ## $name (String) - The name of the subscribed product.
 

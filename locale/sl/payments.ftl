@@ -574,11 +574,6 @@ sub-item-no-such-subsequent-invoice = Naknadnega računa za to naročnino ni mog
 sub-invoice-preview-error-title = Predogleda računa ni bilo mogoče najti
 sub-invoice-preview-error-text = Predogleda računa za to naročnino ni bilo mogoče najti
 
-## Routes - Subscriptions - Pocket Subscription
-
-manage-pocket-title-2 = Iščete svojo premium naročnino na { -product-pocket }?
-manage-pocket-body-2 = Za upravljanje <linkExternal>kliknite tukaj</linkExternal>.
-
 ## Routes - Subscriptions - Reactivate
 ## $name (String) - The name of the subscribed product.
 

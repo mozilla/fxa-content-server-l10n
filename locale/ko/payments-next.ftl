@@ -20,6 +20,9 @@ location-banner-currency-change = 통화 변경은 지원되지 않습니다. �
 upgrade-page-payment-information = 결제 정보
 # $nextInvoiceDate (number) - The date of the next invoice
 upgrade-page-acknowledgment = 요금제가 즉시 변경되며, 결제 주기의 나머지 기간 동안 비례 분배된 금액만큼 사용할 수 있습니다. { $nextInvoiceDate }일부터 전체 금액이 청구됩니다.
+
+## Authentication Error page
+
 checkout-error-boundary-retry-button = 다시 시도
 checkout-error-boundary-basic-error-message = 무언가 잘못되었습니다. 다시 시도하시거나 <contactSupportLink>지원 팀에 문의</contactSupportLink>하세요.
 
@@ -112,7 +115,6 @@ payments-header-bento-firefox-mobile = 모바일 용 { -brand-firefox } 브라�
 payments-header-bento-monitor = { -product-mozilla-monitor }
 payments-header-bento-firefox-relay = { -product-firefox-relay }
 payments-header-bento-vpn = { -product-mozilla-vpn }
-payments-header-bento-pocket = { -product-pocket }
 payments-header-bento-made-by-mozilla = { -brand-mozilla } 제작
 payments-header-avatar =
     .title = { -product-mozilla-account } 메뉴

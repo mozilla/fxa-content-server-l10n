@@ -23,6 +23,9 @@ upgrade-page-acknowledgment =
     Plani juaj do të ndryshojë menjëherë dhe do t’ju faturohet sot vlera e
     cila i takon pjesës së mbetur e këtij cikli faturimi. Duke filluar nga
     { $nextInvoiceDate } do t’ju faturohet vlera e plotë.
+
+## Authentication Error page
+
 checkout-error-boundary-retry-button = Riprovoni
 checkout-error-boundary-basic-error-message = Diç shkoi ters. Ju lutemi, riprovoni, ose <contactSupportLink>lidhuni me asistencën.</contactSupportLink>
 
@@ -115,7 +118,6 @@ payments-header-bento-firefox-mobile = Shfletuesi { -brand-firefox } për Celula
 payments-header-bento-monitor = { -product-mozilla-monitor }
 payments-header-bento-firefox-relay = { -product-firefox-relay }
 payments-header-bento-vpn = { -product-mozilla-vpn }
-payments-header-bento-pocket = { -product-pocket }
 payments-header-bento-made-by-mozilla = Krijuar nga { -brand-mozilla }
 payments-header-avatar =
     .title = Menu { -product-mozilla-account }

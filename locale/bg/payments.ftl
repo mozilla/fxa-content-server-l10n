@@ -211,9 +211,6 @@ sub-expires-on = Изтича на { $date }
 ## Routes - Subscription - SubscriptionItem
 
 
-## Routes - Subscriptions - Pocket Subscription
-
-
 ## Routes - Subscriptions - Reactivate
 ## $name (String) - The name of the subscribed product.
 

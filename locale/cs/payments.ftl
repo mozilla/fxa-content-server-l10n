@@ -570,11 +570,6 @@ sub-item-no-such-subsequent-invoice = Následná faktura pro toto předplatné n
 sub-invoice-preview-error-title = Náhled faktury nenalezen
 sub-invoice-preview-error-text = Náhled faktury pro toto předplatné nebyl nalezen
 
-## Routes - Subscriptions - Pocket Subscription
-
-manage-pocket-title-2 = Hledáte své prémiové předplatné služby { -product-pocket }?
-manage-pocket-body-2 = Pro správu <linkExternal>klepněte zde</linkExternal>.
-
 ## Routes - Subscriptions - Reactivate
 ## $name (String) - The name of the subscribed product.
 

@@ -551,11 +551,6 @@ sub-item-no-such-subsequent-invoice = Naknadni račun nije pronađen za ovu pret
 sub-invoice-preview-error-title = Pregled računa nije pronađen
 sub-invoice-preview-error-text = Pregled računa nije pronađen za ovu pretplatu
 
-## Routes - Subscriptions - Pocket Subscription
-
-manage-pocket-title-2 = Tražiš svoju { -product-pocket } premium pretplatu?
-manage-pocket-body-2 = Za upravljanje <linkExternal>klikni ovdje</linkExternal>.
-
 ## Routes - Subscriptions - Reactivate
 ## $name (String) - The name of the subscribed product.
 

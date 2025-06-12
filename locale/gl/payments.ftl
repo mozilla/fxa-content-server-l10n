@@ -240,9 +240,6 @@ sub-route-idx-updating = Actualizando a información de facturación…
 
 sub-item-no-such-plan = Non hai ningún plan para esta subscrición.
 
-## Routes - Subscriptions - Pocket Subscription
-
-
 ## Routes - Subscriptions - Reactivate
 ## $name (String) - The name of the subscribed product.
 

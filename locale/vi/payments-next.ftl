@@ -20,6 +20,9 @@ location-banner-currency-change = Không hỗ trợ thay đổi tiền tệ. Đ�
 upgrade-page-payment-information = Thông tin thanh toán
 # $nextInvoiceDate (number) - The date of the next invoice
 upgrade-page-acknowledgment = Gói của bạn sẽ thay đổi ngay lập tức và bạn sẽ bị tính phí theo tỷ lệ ngày hôm nay cho phần còn lại của chu kỳ thanh toán này. Bắt đầu vào { $nextInvoiceDate } bạn sẽ bị tính toàn bộ số tiền này.
+
+## Authentication Error page
+
 checkout-error-boundary-retry-button = Thử lại
 checkout-error-boundary-basic-error-message = Đã xảy ra lỗi. Vui lòng thử lại hoặc <contactSupportLink>liên hệ hỗ trợ.</contactSupportLink>
 
@@ -113,7 +116,6 @@ payments-header-bento-firefox-mobile = Trình duyệt { -brand-firefox } dành c
 payments-header-bento-monitor = { -product-mozilla-monitor }
 payments-header-bento-firefox-relay = { -product-firefox-relay }
 payments-header-bento-vpn = { -product-mozilla-vpn }
-payments-header-bento-pocket = { -product-pocket }
 payments-header-bento-made-by-mozilla = Được tạo bởi { -brand-mozilla }
 payments-header-avatar =
     .title = Menu { -product-mozilla-account }

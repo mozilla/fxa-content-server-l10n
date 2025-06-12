@@ -4,6 +4,9 @@ next-payment-method-header = روش پرداخت خود را انتخاب کنی
 
 ## Page - Upgrade page
 
+
+## Authentication Error page
+
 checkout-error-boundary-retry-button = تلاش دوباره
 
 ## Error pages - /checkout and /upgrade

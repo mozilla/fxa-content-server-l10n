@@ -13,6 +13,9 @@ next-payment-method-first-approve = Najprije moraš odobriti tvoju pretplatu
 ## Page - Upgrade page
 
 upgrade-page-payment-information = Informacije o plaćanju
+
+## Authentication Error page
+
 checkout-error-boundary-retry-button = Pokušaj ponovo
 checkout-error-boundary-basic-error-message = Nešto nije u redu. Pokušaj ponovo ili <contactSupportLink>kontaktiraj podršku.</contactSupportLink>
 
@@ -98,7 +101,6 @@ payments-header-bento-close =
 payments-header-bento-monitor = { -product-mozilla-monitor }
 payments-header-bento-firefox-relay = { -product-firefox-relay }
 payments-header-bento-vpn = { -product-mozilla-vpn }
-payments-header-bento-pocket = { -product-pocket }
 payments-header-avatar-icon =
     .alt = Slika profila računa
 payments-header-avatar-expanded-signed-in-as = Prijavljen/a kao

@@ -257,9 +257,6 @@ sub-route-funding-source-payment-alert = Informații de plată nevalide; a apăr
 
 sub-item-no-such-plan = Nu există un asemenea plan pentru acest abonament.
 
-## Routes - Subscriptions - Pocket Subscription
-
-
 ## Routes - Subscriptions - Reactivate
 ## $name (String) - The name of the subscribed product.
 

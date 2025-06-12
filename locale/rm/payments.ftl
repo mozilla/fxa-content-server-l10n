@@ -521,11 +521,6 @@ sub-item-no-such-subsequent-invoice = Betg chattà il proxim quint per quest abu
 sub-invoice-preview-error-title = Betg chattà la prevista dal quint
 sub-invoice-preview-error-text = Betg chattà la prevista dal quint per quest abunament
 
-## Routes - Subscriptions - Pocket Subscription
-
-manage-pocket-title-2 = Tschertgas ti tes abunament premium da { -product-pocket }?
-manage-pocket-body-2 = Per l'administrar, <linkExternal>cliccar qua</linkExternal>.
-
 ## Routes - Subscriptions - Reactivate
 ## $name (String) - The name of the subscribed product.
 

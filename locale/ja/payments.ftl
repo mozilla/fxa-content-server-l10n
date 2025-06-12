@@ -485,11 +485,6 @@ sub-item-no-such-subsequent-invoice = このサブスクリプションの後続
 sub-invoice-preview-error-title = 請求書プレビューが見つかりません
 sub-invoice-preview-error-text = サブスクリプションの請求書プレビューが見つかりませんでした
 
-## Routes - Subscriptions - Pocket Subscription
-
-manage-pocket-title-2 = { -product-pocket } の有料サブスクリプションをお探しですか？
-manage-pocket-body-2 = 管理するには、 <linkExternal>ここをクリック</linkExternal>してください。
-
 ## Routes - Subscriptions - Reactivate
 ## $name (String) - The name of the subscribed product.
 

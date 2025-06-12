@@ -426,9 +426,6 @@ sub-route-payment-modal-heading = Маълумоти санади ҳисобба
 ## Routes - Subscription - SubscriptionItem
 
 
-## Routes - Subscriptions - Pocket Subscription
-
-
 ## Routes - Subscriptions - Reactivate
 ## $name (String) - The name of the subscribed product.
 

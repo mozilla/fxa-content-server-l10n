@@ -514,11 +514,6 @@ sub-item-no-such-subsequent-invoice = Bu abonelik için sonraki fatura bulunamad
 sub-invoice-preview-error-title = Fatura ön izlemesi bulunamadı
 sub-invoice-preview-error-text = Bu abonelik için fatura ön izlemesi bulunamadı
 
-## Routes - Subscriptions - Pocket Subscription
-
-manage-pocket-title-2 = { -product-pocket } premium aboneliğinizi mi arıyorsunuz?
-manage-pocket-body-2 = Yönetmek için <linkExternal>buraya tıklayın</linkExternal>.
-
 ## Routes - Subscriptions - Reactivate
 ## $name (String) - The name of the subscribed product.
 

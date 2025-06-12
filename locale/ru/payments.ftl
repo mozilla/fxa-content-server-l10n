@@ -551,11 +551,6 @@ sub-item-no-such-subsequent-invoice = Следующий счёт для это�
 sub-invoice-preview-error-title = Предварительный просмотр счёта не найден
 sub-invoice-preview-error-text = Предварительный просмотр счёта для этой подписки не найден
 
-## Routes - Subscriptions - Pocket Subscription
-
-manage-pocket-title-2 = Ищете премиум-подписку на { -product-pocket }?
-manage-pocket-body-2 = Для управления им, <linkExternal>нажмите здесь</linkExternal>.
-
 ## Routes - Subscriptions - Reactivate
 ## $name (String) - The name of the subscribed product.
 

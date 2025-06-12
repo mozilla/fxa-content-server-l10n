@@ -521,11 +521,6 @@ sub-item-no-such-subsequent-invoice = Ndojejuhúi kuatiañemure ko ñemboheragua
 sub-invoice-preview-error-title = Kuatiañemure jehecha’ypy jejuhu’ỹva
 sub-invoice-preview-error-text = Kuatiañemungue jehecha ypy ndojejuhúi ko ñemboheraguapyrã
 
-## Routes - Subscriptions - Pocket Subscription
-
-manage-pocket-title-2 = ¿Eheka ne ñemboheraguapy guasu { -product-pocket } pegua?
-manage-pocket-body-2 = Eñagareko hag̃ua, <linkExternal>eikutu ápe</linkExternal>.
-
 ## Routes - Subscriptions - Reactivate
 ## $name (String) - The name of the subscribed product.
 

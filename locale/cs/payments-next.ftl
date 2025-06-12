@@ -20,6 +20,9 @@ location-banner-currency-change = Změna měny není podporována. Pro pokračov
 upgrade-page-payment-information = Informace o platbě
 # $nextInvoiceDate (number) - The date of the next invoice
 upgrade-page-acknowledgment = Váš tarif se okamžitě změní a po zbytek tohoto zúčtovacího období vám bude účtována poměrná částka. Od { $nextInvoiceDate } vám bude účtována plná částka.
+
+## Authentication Error page
+
 checkout-error-boundary-retry-button = Zkusit znovu
 checkout-error-boundary-basic-error-message = Něco se pokazilo. Zkuste to znovu nebo <contactSupportLink>kontaktujte podporu</contactSupportLink>.
 
@@ -113,7 +116,6 @@ payments-header-bento-firefox-mobile = Prohlížeč { -brand-firefox } pro mobil
 payments-header-bento-monitor = { -product-mozilla-monitor }
 payments-header-bento-firefox-relay = { -product-firefox-relay }
 payments-header-bento-vpn = { -product-mozilla-vpn }
-payments-header-bento-pocket = { -product-pocket }
 payments-header-bento-made-by-mozilla = Od { -brand-mozilla(case: "gen") }
 payments-header-avatar =
     .title = Nabídka { -product-mozilla-account(case: "gen", capitalization: "lower") }

@@ -188,9 +188,6 @@ sub-route-idx-updating = در حال به‌روزرسانی اطلاعات صو
 ## Routes - Subscription - SubscriptionItem
 
 
-## Routes - Subscriptions - Pocket Subscription
-
-
 ## Routes - Subscriptions - Reactivate
 ## $name (String) - The name of the subscribed product.
 

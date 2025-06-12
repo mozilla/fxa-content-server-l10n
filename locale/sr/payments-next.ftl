@@ -6,6 +6,9 @@ next-payment-method-first-approve = Прво ћете морати да одоб
 ## Page - Upgrade page
 
 
+## Authentication Error page
+
+
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages
 

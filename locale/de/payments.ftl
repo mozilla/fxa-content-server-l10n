@@ -520,11 +520,6 @@ sub-item-no-such-subsequent-invoice = Folgerechnung für dieses Abonnement nicht
 sub-invoice-preview-error-title = Rechnungsvorschau nicht gefunden
 sub-invoice-preview-error-text = Rechnungsvorschau für dieses Abonnement nicht gefunden
 
-## Routes - Subscriptions - Pocket Subscription
-
-manage-pocket-title-2 = Suchen Sie nach Ihrem { -product-pocket }-Premium-Abonnement?
-manage-pocket-body-2 = <linkExternal>Klicken Sie hier</linkExternal> zum Verwalten.
-
 ## Routes - Subscriptions - Reactivate
 ## $name (String) - The name of the subscribed product.
 

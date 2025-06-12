@@ -20,6 +20,9 @@ location-banner-currency-change = Зміна валюти не підтриму�
 upgrade-page-payment-information = Платіжні дані
 # $nextInvoiceDate (number) - The date of the next invoice
 upgrade-page-acknowledgment = Ваш тарифний план зміниться негайно і сьогодні з вас буде стягнуто пропорційну суму за решту циклу передплати. Починаючи з { $nextInvoiceDate } з вас стягуватиметься повна сума.
+
+## Authentication Error page
+
 checkout-error-boundary-retry-button = Спробувати знову
 checkout-error-boundary-basic-error-message = Щось пішло не так. Спробуйте ще раз або <contactSupportLink>зверніться до служби підтримки.</contactSupportLink>
 
@@ -112,7 +115,6 @@ payments-header-bento-firefox-mobile = Браузер { -brand-firefox } для 
 payments-header-bento-monitor = { -product-mozilla-monitor }
 payments-header-bento-firefox-relay = { -product-firefox-relay }
 payments-header-bento-vpn = { -product-mozilla-vpn }
-payments-header-bento-pocket = { -product-pocket }
 payments-header-bento-made-by-mozilla = Створено в { -brand-mozilla }
 payments-header-avatar =
     .title = Меню { -product-mozilla-account(case: "gen") }

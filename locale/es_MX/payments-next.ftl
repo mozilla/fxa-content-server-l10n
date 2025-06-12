@@ -8,6 +8,9 @@ payment-method-header-second-step-next = 2. { next-payment-method-header }
 
 ## Page - Upgrade page
 
+
+## Authentication Error page
+
 checkout-error-boundary-retry-button = Intentar de nuevo
 
 ## Error pages - /checkout and /upgrade

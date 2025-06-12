@@ -20,6 +20,9 @@ location-banner-currency-change = W채hrungs채nderung nicht unterst체tzt. W채hlen
 upgrade-page-payment-information = Zahlungsinformationen
 # $nextInvoiceDate (number) - The date of the next invoice
 upgrade-page-acknowledgment = Ihr Plan wird sofort ge채ndert und Ihnen wird heute ein anteiliger Betrag f체r den Rest dieses Abrechnungszeitraums berechnet. Ab dem { $nextInvoiceDate } wird Ihnen der volle Betrag berechnet.
+
+## Authentication Error page
+
 checkout-error-boundary-retry-button = Erneut versuchen
 checkout-error-boundary-basic-error-message = Es trat ein Problem auf. Bitte versuchen Sie es erneut oder <contactSupportLink>wenden Sie sich an den Support</contactSupportLink>
 
@@ -113,7 +116,6 @@ payments-header-bento-firefox-mobile = { -brand-firefox } Browser f체r Mobilger�
 payments-header-bento-monitor = { -product-mozilla-monitor }
 payments-header-bento-firefox-relay = { -product-firefox-relay }
 payments-header-bento-vpn = { -product-mozilla-vpn }
-payments-header-bento-pocket = { -product-pocket }
 payments-header-bento-made-by-mozilla = Entwickelt von { -brand-mozilla }
 payments-header-avatar =
     .title = { -product-mozilla-account }-Men체

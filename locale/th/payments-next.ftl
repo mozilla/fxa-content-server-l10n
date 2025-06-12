@@ -12,6 +12,9 @@ location-required-disclaimer = เราใช้ข้อมูลนี้เ�
 ## Page - Upgrade page
 
 upgrade-page-payment-information = ข้อมูลการชำระเงิน
+
+## Authentication Error page
+
 checkout-error-boundary-retry-button = ลองอีกครั้ง
 checkout-error-boundary-basic-error-message = มีบางอย่างผิดพลาด โปรดลองอีกครั้งหรือ <contactSupportLink>ติดต่อฝ่ายสนับสนุน</contactSupportLink>
 
@@ -83,7 +86,6 @@ payments-header-bento-close =
 payments-header-bento-monitor = { -product-mozilla-monitor }
 payments-header-bento-firefox-relay = { -product-firefox-relay }
 payments-header-bento-vpn = { -product-mozilla-vpn }
-payments-header-bento-pocket = { -product-pocket }
 payments-header-bento-made-by-mozilla = สร้างโดย { -brand-mozilla }
 payments-header-avatar-expanded-signed-in-as = ลงชื่อเข้าใช้เป็น
 

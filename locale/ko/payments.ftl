@@ -421,11 +421,6 @@ sub-item-no-such-subsequent-invoice = 이 구독에 대한 다음 청구서를 �
 sub-invoice-preview-error-title = 송장 미리보기를 찾을 수 없습니다
 sub-invoice-preview-error-text = 이 구독에 대한 송장 미리보기를 찾을 수 없습니다.
 
-## Routes - Subscriptions - Pocket Subscription
-
-manage-pocket-title-2 = { -product-pocket } 프리미엄 구독을 원하시나요?
-manage-pocket-body-2 = 관리하려면 <linkExternal>여기를 클릭하세요</linkExternal>.
-
 ## Routes - Subscriptions - Reactivate
 ## $name (String) - The name of the subscribed product.
 

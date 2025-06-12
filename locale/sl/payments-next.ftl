@@ -20,6 +20,9 @@ location-banner-currency-change = Spreminjanje valute ni podprto. Za nadaljevanj
 upgrade-page-payment-information = Podatki o plačilu
 # $nextInvoiceDate (number) - The date of the next invoice
 upgrade-page-acknowledgment = Vaš načrt se bo takoj spremenil in danes vam bomo zaračunali sorazmeren znesek do preostanka obračunskega cikla. Od { $nextInvoiceDate } vam bomo zaračunali celoten znesek.
+
+## Authentication Error page
+
 checkout-error-boundary-retry-button = Poskusi znova
 checkout-error-boundary-basic-error-message = Nekaj je šlo narobe. Poskusite znova ali <contactSupportLink>se obrnite na podporo</contactSupportLink>.
 
@@ -113,7 +116,6 @@ payments-header-bento-firefox-mobile = Mobilni brskalnik { -brand-firefox }
 payments-header-bento-monitor = { -product-mozilla-monitor }
 payments-header-bento-firefox-relay = { -product-firefox-relay }
 payments-header-bento-vpn = { -product-mozilla-vpn }
-payments-header-bento-pocket = { -product-pocket }
 payments-header-bento-made-by-mozilla = Izpod rok { -brand-mozilla(sklon: "rodilnik") }
 payments-header-avatar =
     .title = Meni { -product-mozilla-account(sklon: "rodilnik") }

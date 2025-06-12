@@ -512,11 +512,6 @@ sub-item-no-such-subsequent-invoice = 找不到此订阅的后续发票。
 sub-invoice-preview-error-title = 找不到发票预览
 sub-invoice-preview-error-text = 找不到此订阅的发票预览
 
-## Routes - Subscriptions - Pocket Subscription
-
-manage-pocket-title-2 = 在寻找您的 { -product-pocket } Premium 订阅吗？
-manage-pocket-body-2 = 请<linkExternal>点击此处</linkExternal>进行管理。
-
 ## Routes - Subscriptions - Reactivate
 ## $name (String) - The name of the subscribed product.
 

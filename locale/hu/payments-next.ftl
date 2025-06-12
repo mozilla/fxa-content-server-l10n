@@ -22,6 +22,9 @@ upgrade-page-payment-information = Fizetési információk
 upgrade-page-acknowledgment =
     A csomagja azonnal megváltozik, és a mai napon arányos összeget fog fizetni a számlázási időszak hátralévő részéből. A következő dátumtól
     kezdve a teljes összeg levonásra kerül: { $nextInvoiceDate }.
+
+## Authentication Error page
+
 checkout-error-boundary-retry-button = Próbálja újra
 checkout-error-boundary-basic-error-message = Hiba történt. Próbálja újra, vagy <contactSupportLink>lépjen kapcsolatba a támogatással.</contactSupportLink>
 
@@ -115,7 +118,6 @@ payments-header-bento-firefox-mobile = { -brand-firefox } mobilböngésző
 payments-header-bento-monitor = { -product-mozilla-monitor }
 payments-header-bento-firefox-relay = { -product-firefox-relay }
 payments-header-bento-vpn = { -product-mozilla-vpn }
-payments-header-bento-pocket = { -product-pocket }
 payments-header-bento-made-by-mozilla = A { -brand-mozilla } készítette
 payments-header-avatar =
     .title = { -product-mozilla-account } menü

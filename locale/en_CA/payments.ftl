@@ -521,11 +521,6 @@ sub-item-no-such-subsequent-invoice = Subsequent invoice not found for this subs
 sub-invoice-preview-error-title = Invoice preview not found
 sub-invoice-preview-error-text = Invoice preview not found for this subscription
 
-## Routes - Subscriptions - Pocket Subscription
-
-manage-pocket-title-2 = Looking for your { -product-pocket } premium subscription?
-manage-pocket-body-2 = To manage it, <linkExternal>click here</linkExternal>.
-
 ## Routes - Subscriptions - Reactivate
 ## $name (String) - The name of the subscribed product.
 

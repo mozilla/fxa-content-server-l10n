@@ -10,6 +10,9 @@ next-payment-method-first-approve = ਪਹਿਲਾਂ ਤੁਹਾਨੂੰ ਆ
 
 ## Page - Upgrade page
 
+
+## Authentication Error page
+
 checkout-error-boundary-retry-button = ਫੇਰ ਕੋਸ਼ਿਸ਼ ਕਰੋ
 
 ## Error pages - /checkout and /upgrade

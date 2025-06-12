@@ -518,11 +518,6 @@ sub-item-no-such-subsequent-invoice = Fature sucessive no cjatade par chest abon
 sub-invoice-preview-error-title = Anteprime fature no cjatade
 sub-invoice-preview-error-text = Anteprime fature no cjatade par chest abonament
 
-## Routes - Subscriptions - Pocket Subscription
-
-manage-pocket-title-2 = Ciristu il to abonament premium a { -product-pocket }?
-manage-pocket-body-2 = Par gjestîlu, <linkExternal>fâs clic achì</linkExternal>.
-
 ## Routes - Subscriptions - Reactivate
 ## $name (String) - The name of the subscribed product.
 

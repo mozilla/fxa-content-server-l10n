@@ -10,6 +10,9 @@ next-payment-method-first-approve = まず、サブスクリプションの承�
 
 ## Page - Upgrade page
 
+
+## Authentication Error page
+
 checkout-error-boundary-retry-button = 再試行
 checkout-error-boundary-basic-error-message = 問題が発生しました。もう一度試すか、<contactSupportLink>サポートにお問い合わせください。</contactSupportLink>
 
@@ -82,7 +85,6 @@ payments-header-bento-close =
     .alt = 閉じる
 payments-header-bento-firefox-relay = { -product-firefox-relay }
 payments-header-bento-vpn = { -product-mozilla-vpn }
-payments-header-bento-pocket = { -product-pocket }
 payments-header-bento-made-by-mozilla = Made by { -brand-mozilla }
 payments-header-avatar =
     .title = { -product-mozilla-account }メニュー

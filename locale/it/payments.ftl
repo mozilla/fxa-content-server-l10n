@@ -516,11 +516,6 @@ sub-item-no-such-subsequent-invoice = Fattura successiva non trovata per questo 
 sub-invoice-preview-error-title = Anteprima fattura non trovata
 sub-invoice-preview-error-text = Anteprima fattura non trovata per questo abbonamento
 
-## Routes - Subscriptions - Pocket Subscription
-
-manage-pocket-title-2 = Cerchi il tuo abbonamento premium a { -product-pocket }?
-manage-pocket-body-2 = Per gestirlo, <linkExternal>fai clic qui</linkExternal>.
-
 ## Routes - Subscriptions - Reactivate
 ## $name (String) - The name of the subscribed product.
 

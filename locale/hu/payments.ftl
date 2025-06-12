@@ -523,11 +523,6 @@ sub-item-no-such-subsequent-invoice = Későbbi számlák nem találhatók ehhez
 sub-invoice-preview-error-title = A számla előnézete nem található
 sub-invoice-preview-error-text = A számla előnézete nem található ehhez az előfizetéshez
 
-## Routes - Subscriptions - Pocket Subscription
-
-manage-pocket-title-2 = A { -product-pocket } prémium előfizetését keresi?
-manage-pocket-body-2 = A kezeléséhez <linkExternal>kattintson ide</linkExternal>.
-
 ## Routes - Subscriptions - Reactivate
 ## $name (String) - The name of the subscribed product.
 

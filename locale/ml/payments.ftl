@@ -215,9 +215,6 @@ sub-route-idx-updating = ബില്ലിംഗ് വിവരങ്ങൾ �
 
 sub-item-no-such-plan = ഈ സബ്‌സ്‌ക്രിപ്‌ഷനായി അത്തരം പദ്ധതികളൊന്നുമില്ല.
 
-## Routes - Subscriptions - Pocket Subscription
-
-
 ## Routes - Subscriptions - Reactivate
 ## $name (String) - The name of the subscribed product.
 

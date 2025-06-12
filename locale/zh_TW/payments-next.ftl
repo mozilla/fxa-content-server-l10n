@@ -20,6 +20,9 @@ location-banner-currency-change = 不支援以外幣結帳。若要繼續，請�
 upgrade-page-payment-information = 付款資訊
 # $nextInvoiceDate (number) - The date of the next invoice
 upgrade-page-acknowledgment = 您的方案內容會立刻變更，且會向您收取本帳務週期剩餘天數的差額。自 { $nextInvoiceDate } 起將會向您收取全額。
+
+## Authentication Error page
+
 checkout-error-boundary-retry-button = 重試
 checkout-error-boundary-basic-error-message = 有些東西不對勁，請再試一次或<contactSupportLink>聯絡我們的技術支援團隊。</contactSupportLink>
 
@@ -113,7 +116,6 @@ payments-header-bento-firefox-mobile = { -brand-firefox } 瀏覽器行動版
 payments-header-bento-monitor = { -product-mozilla-monitor }
 payments-header-bento-firefox-relay = { -product-firefox-relay }
 payments-header-bento-vpn = { -product-mozilla-vpn }
-payments-header-bento-pocket = { -product-pocket }
 payments-header-bento-made-by-mozilla = 由 { -brand-mozilla } 打造
 payments-header-avatar =
     .title = { -product-mozilla-account } 選單

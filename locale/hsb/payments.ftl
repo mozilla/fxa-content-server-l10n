@@ -579,11 +579,6 @@ sub-item-no-such-subsequent-invoice = Naslědna zličbowanka njeje so za tutón 
 sub-invoice-preview-error-title = Přehlad zličbowanki njeje so namakał
 sub-invoice-preview-error-text = Přehlad zličbowanki njeje so za tutón abonement namakał
 
-## Routes - Subscriptions - Pocket Subscription
-
-manage-pocket-title-2 = Pytaće za premiumowym abonementom { -product-pocket }?
-manage-pocket-body-2 = <linkExternal>Klikńće tu</linkExternal>, zo byšće to rjadował.
-
 ## Routes - Subscriptions - Reactivate
 ## $name (String) - The name of the subscribed product.
 

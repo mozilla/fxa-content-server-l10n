@@ -20,6 +20,9 @@ location-banner-currency-change = Falutawiziging wurdt net stipe. Selektearje in
 upgrade-page-payment-information = Betellingsgegevens
 # $nextInvoiceDate (number) - The date of the next invoice
 upgrade-page-acknowledgment = Jo abonnemint wiziget daliks, en der wurdt in grut bedrach yn rekkening brocht foar it restant fan jo fakturaasjeperioade. Fan { $nextInvoiceDate } ôf wurdt jo it folsleine bedrach yn rekkening brocht.
+
+## Authentication Error page
+
 checkout-error-boundary-retry-button = Opnij probearje
 checkout-error-boundary-basic-error-message = Der gie wat mis. Probearje it opnij of <contactSupportLink>nim kontakt op mei de stipeôfdieling.</contactSupportLink>
 
@@ -113,7 +116,6 @@ payments-header-bento-firefox-mobile = { -brand-firefox } Browser foar mobyl
 payments-header-bento-monitor = { -product-mozilla-monitor }
 payments-header-bento-firefox-relay = { -product-firefox-relay }
 payments-header-bento-vpn = { -product-mozilla-vpn }
-payments-header-bento-pocket = { -product-pocket }
 payments-header-bento-made-by-mozilla = Makke troch { -brand-mozilla }
 payments-header-avatar =
     .title = { -product-mozilla-account }-menu

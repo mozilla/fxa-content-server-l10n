@@ -523,11 +523,6 @@ sub-item-no-such-subsequent-invoice = Δεν βρέθηκε επόμενο πα�
 sub-invoice-preview-error-title = Δεν βρέθηκε προεπισκόπηση παραστατικού
 sub-invoice-preview-error-text = Δεν βρέθηκε προεπισκόπηση παραστατικού για αυτήν τη συνδρομή
 
-## Routes - Subscriptions - Pocket Subscription
-
-manage-pocket-title-2 = Ψάχνετε την premium συνδρομή του { -product-pocket } σας;
-manage-pocket-body-2 = Για να τη διαχειριστείτε, <linkExternal>κάντε κλικ εδώ</linkExternal>.
-
 ## Routes - Subscriptions - Reactivate
 ## $name (String) - The name of the subscribed product.
 

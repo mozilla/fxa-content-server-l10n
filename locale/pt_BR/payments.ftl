@@ -518,11 +518,6 @@ sub-item-no-such-subsequent-invoice = Próxima fatura não encontrada desta assi
 sub-invoice-preview-error-title = Visão prévia da fatura não encontrada
 sub-invoice-preview-error-text = Visão prévia da fatura não foi encontrada para esta assinatura
 
-## Routes - Subscriptions - Pocket Subscription
-
-manage-pocket-title-2 = Procurando sua assinatura premium do { -product-pocket }?
-manage-pocket-body-2 = Para gerenciar, <linkExternal>clique aqui</linkExternal>.
-
 ## Routes - Subscriptions - Reactivate
 ## $name (String) - The name of the subscribed product.
 

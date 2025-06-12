@@ -523,11 +523,6 @@ sub-item-no-such-subsequent-invoice = Efterfølgende faktura ikke fundet for det
 sub-invoice-preview-error-title = Eksempel på faktura ikke fundet
 sub-invoice-preview-error-text = Eksempel på faktura ikke fundet for dette abonnement
 
-## Routes - Subscriptions - Pocket Subscription
-
-manage-pocket-title-2 = Leder du efter dit premium-abonnement på { -product-pocket }?
-manage-pocket-body-2 = <linkExternal>Klik her</linkExternal> for at håndtere det.
-
 ## Routes - Subscriptions - Reactivate
 ## $name (String) - The name of the subscribed product.
 

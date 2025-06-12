@@ -9,6 +9,9 @@ payment-method-header-second-step-next = 2. { next-payment-method-header }
 
 ## Page - Upgrade page
 
+
+## Authentication Error page
+
 checkout-error-boundary-retry-button = വീണ്ടും ശ്രമിയ്ക്കുക
 checkout-error-boundary-basic-error-message = എന്തോ കുഴപ്പമുണ്ടായി. ദയവായി വീണ്ടും ശ്രമിക്കിൻ അല്ലെങ്കിൽ <contactSupportLink>പിന്തുണയുമായി ബന്ധപ്പെടുക.</contactSupportLink>
 

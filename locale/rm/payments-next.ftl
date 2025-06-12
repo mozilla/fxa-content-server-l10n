@@ -17,6 +17,9 @@ upgrade-page-acknowledgment =
     Tes plan vegn immediat midà ed i vegn debità oz ina summa proporziunala
     per il rest da tes ciclus da facturaziun. A partir dals { $nextInvoiceDate }
     vegn debità l’entir import.
+
+## Authentication Error page
+
 checkout-error-boundary-retry-button = Empruvar anc ina giada
 checkout-error-boundary-basic-error-message = Igl ha dà in problem. Emprova per plaschair anc ina giada u <contactSupportLink>contactescha l’agid</contactSupportLink>.
 
@@ -102,7 +105,6 @@ payments-header-bento-firefox-mobile = Navigatur { -brand-firefox } per apparats
 payments-header-bento-monitor = { -product-mozilla-monitor }
 payments-header-bento-firefox-relay = { -product-firefox-relay }
 payments-header-bento-vpn = { -product-mozilla-vpn }
-payments-header-bento-pocket = { -product-pocket }
 payments-header-bento-made-by-mozilla = Realisà da { -brand-mozilla }
 payments-header-avatar =
     .title = Menu { -product-mozilla-account }

@@ -517,11 +517,6 @@ sub-item-no-such-subsequent-invoice = ไม่พบใบแจ้งหนี
 sub-invoice-preview-error-title = ไม่พบตัวอย่างใบแจ้งหนี้
 sub-invoice-preview-error-text = ไม่พบตัวอย่างใบแจ้งหนี้สำหรับการสมัครสมาชิกนี้
 
-## Routes - Subscriptions - Pocket Subscription
-
-manage-pocket-title-2 = กำลังมองหาการสมัครสมาชิก { -product-pocket } แบบพรีเมียมของคุณอยู่ใช่ไหม?
-manage-pocket-body-2 = หากต้องการจัดการ ให้<linkExternal>คลิกที่นี่</linkExternal>
-
 ## Routes - Subscriptions - Reactivate
 ## $name (String) - The name of the subscribed product.
 

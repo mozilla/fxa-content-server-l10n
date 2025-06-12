@@ -521,11 +521,6 @@ sub-item-no-such-subsequent-invoice = Ez da aurkitu harpidetza honen ondorengo f
 sub-invoice-preview-error-title = Ez da fakturen aurrebista aurkitu
 sub-invoice-preview-error-text = Ez da aurkitu harpidetza honetarako fakturen aurrebista
 
-## Routes - Subscriptions - Pocket Subscription
-
-manage-pocket-title-2 = Zure { -product-pocket } premium harpidetza bilatzen ari zara?
-manage-pocket-body-2 = Kudeatzeko, <linkExternal>egin klik hemen</linkExternal>.
-
 ## Routes - Subscriptions - Reactivate
 ## $name (String) - The name of the subscribed product.
 

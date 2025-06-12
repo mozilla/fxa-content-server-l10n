@@ -22,6 +22,9 @@ upgrade-page-acknowledgment =
     Áskriftarleiðin þín mun breytast strax og þú færð kröfu um leiðrétta
     upphæð fyrir það sem eftir er af greiðslutímabilinu þínu. Frá og með 
     { $nextInvoiceDate } færð þú kröfu um alla upphæðina.
+
+## Authentication Error page
+
 checkout-error-boundary-retry-button = Reyna aftur
 checkout-error-boundary-basic-error-message = Eitthvað fór úrskeiðis. Reyndu aftur eða <contactSupportLink>hafðu samband við aðstoðarteymið.</contactSupportLink>
 
@@ -113,7 +116,6 @@ payments-header-bento-firefox-mobile = { -brand-firefox }-vafri fyrir farsíma
 payments-header-bento-monitor = { -product-mozilla-monitor }
 payments-header-bento-firefox-relay = { -product-firefox-relay }
 payments-header-bento-vpn = { -product-mozilla-vpn }
-payments-header-bento-pocket = { -product-pocket }
 payments-header-bento-made-by-mozilla = Gert af { -brand-mozilla }
 payments-header-avatar =
     .title = { -product-mozilla-account }-valmynd

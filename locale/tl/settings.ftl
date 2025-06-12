@@ -222,6 +222,21 @@ cs-sign-out-button = Mag-sign out
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
 
+## FlowSetup2faApp
+
+
+## The step to choose the two step authentication method in the two step
+## authentication setup flow.
+
+
+## The backup code confirm step of the setup 2 factor authentication flow,
+## where the user confirm that they have saved their backup authentication codes
+## by entering one of them.
+
+
+## The backup codes download step of the setup 2 factor authentication flow
+
+
 ## FlowSetupPhoneConfirmCode
 
 

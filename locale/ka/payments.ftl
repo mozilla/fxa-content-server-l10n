@@ -523,11 +523,6 @@ sub-item-no-such-subsequent-invoice = შემდგომი ზედნა�
 sub-invoice-preview-error-title = ზედნადების შესათვალიერებელი ვერ მოიძებნა
 sub-invoice-preview-error-text = ზედნადების შესათვალიერებელი ვერ მოიძებნა ამ გამოწერისთვის
 
-## Routes - Subscriptions - Pocket Subscription
-
-manage-pocket-title-2 = გსურთ, შეიძინოთ { -product-pocket }-ის რჩეული ვერსია?
-manage-pocket-body-2 = მის სამართავად <linkExternal>დაწკაპეთ აქ</linkExternal>
-
 ## Routes - Subscriptions - Reactivate
 ## $name (String) - The name of the subscribed product.
 

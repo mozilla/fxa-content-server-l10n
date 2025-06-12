@@ -23,6 +23,9 @@ upgrade-page-acknowledgment =
     თქვენი გეგმა დაუყოვნებლივ შეიცვლება და დღეს ჩამოგეჭრებათ სათანადო წილის
     ოდენობა დარჩენილი საანგარიშო პერიოდისთვის. თარიღიდან { $nextInvoiceDate }
     კი ჩამოგეჭრებათ სრული ოდენობა.
+
+## Authentication Error page
+
 checkout-error-boundary-retry-button = ხელახლა ცდა
 checkout-error-boundary-basic-error-message = რაღაც ხარვეზი წარმოიშვა. გთხოვთ, სცადოთ ხელახლა ან <contactSupportLink>დაუკავშირდეთ მხარდაჭერის გუნდს.</contactSupportLink>
 
@@ -116,7 +119,6 @@ payments-header-bento-firefox-mobile = { -brand-firefox }-ბრაუზერ�
 payments-header-bento-monitor = { -product-mozilla-monitor }
 payments-header-bento-firefox-relay = { -product-firefox-relay }
 payments-header-bento-vpn = { -product-mozilla-vpn }
-payments-header-bento-pocket = { -product-pocket }
 payments-header-bento-made-by-mozilla = ქმნის { -brand-mozilla }
 payments-header-avatar =
     .title = { -product-mozilla-account(case: "gen") } მენიუ

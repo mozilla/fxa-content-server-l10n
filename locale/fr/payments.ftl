@@ -518,11 +518,6 @@ sub-item-no-such-subsequent-invoice = Facture suivante introuvable pour cet abon
 sub-invoice-preview-error-title = Aperçu de la facture introuvable
 sub-invoice-preview-error-text = Aperçu de la facture introuvable pour cet abonnement
 
-## Routes - Subscriptions - Pocket Subscription
-
-manage-pocket-title-2 = Vous recherchez votre abonnement premium { -product-pocket } ?
-manage-pocket-body-2 = Pour le gérer, <linkExternal>cliquez ici</linkExternal>.
-
 ## Routes - Subscriptions - Reactivate
 ## $name (String) - The name of the subscribed product.
 

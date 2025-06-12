@@ -18,6 +18,9 @@ location-banner-currency-change = Viru moambue noñemoneĩri. Eku’ejey hag̃ua
 upgrade-page-payment-information = Jehepyme’ẽrã marandu
 # $nextInvoiceDate (number) - The date of the next invoice
 upgrade-page-acknowledgment = Pe tembiaporape iñambuéta ha ojehepyme’ẽta ndahetái ojokupytýva umi jehepyme’ẽ oútava rehe. { $nextInvoiceDate } guive ojehepyme’ẽmbaitéta hepytaháicha tenondeve gotyo.
+
+## Authentication Error page
+
 checkout-error-boundary-retry-button = Eha’ãjey
 checkout-error-boundary-basic-error-message = Oĩ osẽvaíva. Eha’ãjey upéi térã <contactSupportLink>eñe’ẽ pytyvõha renda ndive</contactSupportLink>.
 
@@ -111,7 +114,6 @@ payments-header-bento-firefox-mobile = { -brand-firefox } kundahára pumbyrýpe 
 payments-header-bento-monitor = { -product-mozilla-monitor }
 payments-header-bento-firefox-relay = { -product-firefox-relay }
 payments-header-bento-vpn = { -product-mozilla-vpn }
-payments-header-bento-pocket = { -product-pocket }
 payments-header-bento-made-by-mozilla = { -brand-mozilla } moheñoimby
 payments-header-avatar =
     .title = { -product-mozilla-account } poravorã

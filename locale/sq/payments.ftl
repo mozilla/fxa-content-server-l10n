@@ -516,11 +516,6 @@ sub-item-no-such-subsequent-invoice = S’u gjet fatura pasuese për këtë pajt
 sub-invoice-preview-error-title = S’u gjet paraparje fature
 sub-invoice-preview-error-text = S’u gjet paraparje fature për këtë pajtim
 
-## Routes - Subscriptions - Pocket Subscription
-
-manage-pocket-title-2 = Po shihni për pajtimin tuaj me pagesë në { -product-pocket }?
-manage-pocket-body-2 = Për ta administruar, <linkExternal>klikoni këtu</linkExternal>.
-
 ## Routes - Subscriptions - Reactivate
 ## $name (String) - The name of the subscribed product.
 

@@ -155,9 +155,6 @@ iap-already-subscribed = Siz allaqachon { $mobileAppStore } orqali obuna boʻlga
 ## Routes - Subscription - SubscriptionItem
 
 
-## Routes - Subscriptions - Pocket Subscription
-
-
 ## Routes - Subscriptions - Reactivate
 ## $name (String) - The name of the subscribed product.
 

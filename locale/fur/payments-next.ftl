@@ -20,6 +20,9 @@ location-banner-currency-change = Cambi valude no supuartât. Par continuâ, sel
 upgrade-page-payment-information = Informazions sul paiament
 # $nextInvoiceDate (number) - The date of the next invoice
 upgrade-page-acknowledgment = Il to plan al cambiarà daurman e vuê ti vignarà contizât un impuart proporzionâl pe part che e reste dal cicli di faturazion. Scomençant dal/dai { $nextInvoiceDate } ti vignarà contizât dut l’impuart.
+
+## Authentication Error page
+
 checkout-error-boundary-retry-button = Torne prove
 checkout-error-boundary-basic-error-message = Alc al è lât strucj. Torne prove opûr <contactSupportLink>contate il supuart.</contactSupportLink>
 
@@ -113,7 +116,6 @@ payments-header-bento-firefox-mobile = Navigadôr { -brand-firefox } par disposi
 payments-header-bento-monitor = { -product-mozilla-monitor }
 payments-header-bento-firefox-relay = { -product-firefox-relay }
 payments-header-bento-vpn = { -product-mozilla-vpn }
-payments-header-bento-pocket = { -product-pocket }
 payments-header-bento-made-by-mozilla = Fat di { -brand-mozilla }
 payments-header-avatar =
     .title = Menù { -product-mozilla-account }

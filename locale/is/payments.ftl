@@ -521,11 +521,6 @@ sub-item-no-such-subsequent-invoice = Næsti greiðsluseðill fannst ekki fyrir 
 sub-invoice-preview-error-title = Forskoðun greiðsluseðils fannst ekki
 sub-invoice-preview-error-text = Forskoðun greiðsluseðils fyrir þessa áskrift fannst ekki
 
-## Routes - Subscriptions - Pocket Subscription
-
-manage-pocket-title-2 = Ertu að leita að { -product-pocket } forgangsáskriftinni þinni?
-manage-pocket-body-2 = Til að stjórna þessu skaltu <linkExternal>smella hér</linkExternal>.
-
 ## Routes - Subscriptions - Reactivate
 ## $name (String) - The name of the subscribed product.
 

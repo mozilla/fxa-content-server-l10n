@@ -11,6 +11,9 @@ payment-method-header-second-step-next = 2. { next-payment-method-header }
 ## Page - Upgrade page
 
 upgrade-page-payment-information = Talɣut n lexlaṣ
+
+## Authentication Error page
+
 checkout-error-boundary-retry-button = Ɛreḍ tikelt niḍen
 
 ## Error pages - /checkout and /upgrade
@@ -89,7 +92,6 @@ payments-header-bento-firefox-mobile = Iminig { -brand-firefox } i uziraz
 payments-header-bento-monitor = { -product-mozilla-monitor }
 payments-header-bento-firefox-relay = { -product-firefox-relay }
 payments-header-bento-vpn = { -product-mozilla-vpn }
-payments-header-bento-pocket = { -product-pocket }
 payments-header-avatar-icon =
     .alt = Tugna n umaɣnu n umiḍan
 payments-header-avatar-expanded-signed-in-as = Tkecmeḍ s yisem

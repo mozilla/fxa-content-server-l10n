@@ -522,10 +522,6 @@ sub-item-no-such-subsequent-invoice = Наступны рахунак-факту
 sub-invoice-preview-error-title = Папярэдні прагляд рахунка-фактуры не знойдзены
 sub-invoice-preview-error-text = Папярэдні прагляд рахунка-фактуры не знойдзены для гэтай падпіскі
 
-## Routes - Subscriptions - Pocket Subscription
-
-manage-pocket-body-2 = Каб кіраваць ім, <linkExternal>націсніце тут</linkExternal>.
-
 ## Routes - Subscriptions - Reactivate
 ## $name (String) - The name of the subscribed product.
 

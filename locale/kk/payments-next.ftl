@@ -10,6 +10,9 @@ next-payment-method-first-approve = Алдымен жазылуыңызды ра
 ## Page - Upgrade page
 
 upgrade-page-payment-information = Төлем ақпараты
+
+## Authentication Error page
+
 checkout-error-boundary-retry-button = Қайтадан көру
 
 ## Error pages - /checkout and /upgrade
@@ -94,7 +97,6 @@ payments-header-bento-firefox-mobile = Мобильді { -brand-firefox } бр�
 payments-header-bento-monitor = { -product-mozilla-monitor }
 payments-header-bento-firefox-relay = { -product-firefox-relay }
 payments-header-bento-vpn = { -product-mozilla-vpn }
-payments-header-bento-pocket = { -product-pocket }
 payments-header-bento-made-by-mozilla = { -brand-mozilla } жасаған
 payments-header-avatar =
     .title = { -product-mozilla-account } мәзірі

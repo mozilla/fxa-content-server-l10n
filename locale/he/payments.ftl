@@ -528,10 +528,6 @@ sub-item-no-such-plan = אין תוכנית כזו למנוי הזה.
 sub-invoice-preview-error-title = תצוגה מקדימה של החשבונית לא נמצאה
 sub-invoice-preview-error-text = תצוגה מקדימה של החשבונית לא נמצאה עבור מינוי זה
 
-## Routes - Subscriptions - Pocket Subscription
-
-manage-pocket-title-2 = חיפשת את מינוי הפרימיום שלך עבור { -product-pocket }?
-
 ## Routes - Subscriptions - Reactivate
 ## $name (String) - The name of the subscribed product.
 

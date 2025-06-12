@@ -20,6 +20,9 @@ location-banner-currency-change = Cambio de valuta non supportate. Pro continuar
 upgrade-page-payment-information = Informationes de pagamento
 # $nextInvoiceDate (number) - The date of the next invoice
 upgrade-page-acknowledgment = Tu plano cambiara immediatemente, e hodie te sera cargate un amonta proportional al resto de iste cyclo de facturation. Desde le { $nextInvoiceDate } te sera cargate le amonta complete.
+
+## Authentication Error page
+
 checkout-error-boundary-retry-button = Retentar
 checkout-error-boundary-basic-error-message = Alco errate eveniva. Retenta o contacta le <contactSupportLink>supporto.</contactSupportLink>
 
@@ -113,7 +116,6 @@ payments-header-bento-firefox-mobile = Navigator { -brand-firefox } pro apparato
 payments-header-bento-monitor = { -product-mozilla-monitor }
 payments-header-bento-firefox-relay = { -product-firefox-relay }
 payments-header-bento-vpn = { -product-mozilla-vpn }
-payments-header-bento-pocket = { -product-pocket }
 payments-header-bento-made-by-mozilla = Producite per{ -brand-mozilla }
 payments-header-avatar =
     .title = Menu de { -product-mozilla-account }

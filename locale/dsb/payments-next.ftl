@@ -23,6 +23,9 @@ upgrade-page-acknowledgment =
     Waš plan se ned změnijo, a za zbytk toś teje wótliceńskeje periody se wam źinsa
     późělna suma woblicujo. Zachopinajucy z { $nextInvoiceDate }
     se połna suma woblicujo.
+
+## Authentication Error page
+
 checkout-error-boundary-retry-button = Hyšći raz wopytaś
 checkout-error-boundary-basic-error-message = Něco njejo se raźiło. Pšosym wopytajśo hyšći raz abo <contactSupportLink>stajśo se z pomocu do zwiska.</contactSupportLink>
 
@@ -116,7 +119,6 @@ payments-header-bento-firefox-mobile = Wobglědowak { -brand-firefox } za mobiln
 payments-header-bento-monitor = { -product-mozilla-monitor }
 payments-header-bento-firefox-relay = { -product-firefox-relay }
 payments-header-bento-vpn = { -product-mozilla-vpn }
-payments-header-bento-pocket = { -product-pocket }
 payments-header-bento-made-by-mozilla = Wót { -brand-mozilla } wuwity
 payments-header-avatar =
     .title = Meni { -product-mozilla-account(case: "gen", capitalization: "lower") }

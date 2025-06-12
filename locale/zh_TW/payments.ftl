@@ -513,11 +513,6 @@ sub-item-no-such-subsequent-invoice = 找不到此訂閱後續的請款單
 sub-invoice-preview-error-title = 找不到請款單預覽頁面
 sub-invoice-preview-error-text = 找不到此訂閱的請款單預覽頁面
 
-## Routes - Subscriptions - Pocket Subscription
-
-manage-pocket-title-2 = 在尋找您的 { -product-pocket } Premium 訂閱嗎？
-manage-pocket-body-2 = 請<linkExternal>點擊此處</linkExternal>即可管理。
-
 ## Routes - Subscriptions - Reactivate
 ## $name (String) - The name of the subscribed product.
 

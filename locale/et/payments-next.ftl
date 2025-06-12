@@ -5,6 +5,9 @@ next-payment-method-header = Vali maksemeetod
 ## Page - Upgrade page
 
 
+## Authentication Error page
+
+
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages
 

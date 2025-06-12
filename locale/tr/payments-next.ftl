@@ -19,6 +19,9 @@ location-required-disclaimer = Bu bilgileri yalnızca vergileri ve para birimini
 upgrade-page-payment-information = Ödeme bilgileri
 # $nextInvoiceDate (number) - The date of the next invoice
 upgrade-page-acknowledgment = Planınız hemen değişecek ve bu fatura döneminin kalan süresi için hesaplanan ek ücret tahsil edilecektir. { $nextInvoiceDate } tarihinden itibaren tam ücret tahsil edilecektir.
+
+## Authentication Error page
+
 checkout-error-boundary-retry-button = Yeniden dene
 checkout-error-boundary-basic-error-message = Bir sorun oluştu. Lütfen yeniden deneyin veya <contactSupportLink>destek ekibiyle iletişime geçin.</contactSupportLink>
 
@@ -111,7 +114,6 @@ payments-header-bento-firefox-mobile = Mobil cihazlar için { -brand-firefox } t
 payments-header-bento-monitor = { -product-mozilla-monitor }
 payments-header-bento-firefox-relay = { -product-firefox-relay }
 payments-header-bento-vpn = { -product-mozilla-vpn }
-payments-header-bento-pocket = { -product-pocket }
 payments-header-bento-made-by-mozilla = { -brand-mozilla } güvencesiyle
 payments-header-avatar =
     .title = { -product-mozilla-account } menüsü

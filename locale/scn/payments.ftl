@@ -514,11 +514,6 @@ sub-item-no-such-subsequent-invoice = Nun attruvai a fattura doppu pi st’abbun
 sub-invoice-preview-error-title = Nun attruvai l’antiprima dâ fattura
 sub-invoice-preview-error-text = Nun attruvai l’antiprima dâ fattura pi st’abbunamentu
 
-## Routes - Subscriptions - Pocket Subscription
-
-manage-pocket-title-2 = Stai circannu u to abbunamentu a { -product-pocket }?
-manage-pocket-body-2 = Pi manijàrilu, <linkExternal>ammacca cca</linkExternal>.
-
 ## Routes - Subscriptions - Reactivate
 ## $name (String) - The name of the subscribed product.
 

@@ -139,9 +139,6 @@ insufficient-funds-error = Mukhang kulang na ang laman ng iyong card. Sumubok ng
 ## Routes - Subscription - SubscriptionItem
 
 
-## Routes - Subscriptions - Pocket Subscription
-
-
 ## Routes - Subscriptions - Reactivate
 ## $name (String) - The name of the subscribed product.
 

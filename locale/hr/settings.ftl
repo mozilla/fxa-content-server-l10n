@@ -589,6 +589,21 @@ flow-recovery-key-info-cta-text-v3 = Započni
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = Odustani
 
+## FlowSetup2faApp
+
+
+## The step to choose the two step authentication method in the two step
+## authentication setup flow.
+
+
+## The backup code confirm step of the setup 2 factor authentication flow,
+## where the user confirm that they have saved their backup authentication codes
+## by entering one of them.
+
+
+## The backup codes download step of the setup 2 factor authentication flow
+
+
 ## FlowSetupPhoneConfirmCode
 
 flow-setup-phone-confirm-code-input-label = Upiši šesteroznamenkasti kod

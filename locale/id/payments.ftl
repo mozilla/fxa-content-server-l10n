@@ -279,9 +279,6 @@ sub-route-idx-updating = Memperbarui informasi penagihan…
 
 sub-item-no-such-plan = Tidak ada paket untuk langganan ini.
 
-## Routes - Subscriptions - Pocket Subscription
-
-
 ## Routes - Subscriptions - Reactivate
 ## $name (String) - The name of the subscribed product.
 

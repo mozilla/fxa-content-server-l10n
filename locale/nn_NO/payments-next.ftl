@@ -19,6 +19,9 @@ location-required-disclaimer = Vi brukar berre denne informasjonen til å rekne 
 upgrade-page-payment-information = Betalingsinformasjon
 # $nextInvoiceDate (number) - The date of the next invoice
 upgrade-page-acknowledgment = Planen din vert omg[ande endra, og du vil bli belasta eit justert beløp for resten av denne faktureringssyklusen. Frå og med { $nextInvoiceDate } vert du belasta med heile beløpet.
+
+## Authentication Error page
+
 checkout-error-boundary-retry-button = Prøv på nytt
 checkout-error-boundary-basic-error-message = Noko gjekk gale. Prøv på nytt eller <contactSupportLink>kontakt support.</contactSupportLink>
 
@@ -111,7 +114,6 @@ payments-header-bento-firefox-mobile = { -brand-firefox }-nettlesaren for mobil
 payments-header-bento-monitor = { -product-mozilla-monitor }
 payments-header-bento-firefox-relay = { -product-firefox-relay }
 payments-header-bento-vpn = { -product-mozilla-vpn }
-payments-header-bento-pocket = { -product-pocket }
 payments-header-bento-made-by-mozilla = Laga av { -brand-mozilla }
 payments-header-avatar =
     .title = { -product-mozilla-account }-meny

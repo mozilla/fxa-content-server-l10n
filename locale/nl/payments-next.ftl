@@ -20,6 +20,9 @@ location-banner-currency-change = Valutawijziging wordt niet ondersteund. Select
 upgrade-page-payment-information = Betalingsgegevens
 # $nextInvoiceDate (number) - The date of the next invoice
 upgrade-page-acknowledgment = Uw abonnement wijzigt direct, en er wordt een proportioneel bedrag in rekening gebracht voor het restant van deze facturatieperiode. Vanaf { $nextInvoiceDate } wordt u het volledige bedrag in rekening gebracht.
+
+## Authentication Error page
+
 checkout-error-boundary-retry-button = Opnieuw proberen
 checkout-error-boundary-basic-error-message = Er is iets misgegaan. Probeer het opnieuw of <contactSupportLink>neem contact op met de ondersteuningsafdeling.</contactSupportLink>
 
@@ -113,7 +116,6 @@ payments-header-bento-firefox-mobile = { -brand-firefox } Browser voor mobiel
 payments-header-bento-monitor = { -product-mozilla-monitor }
 payments-header-bento-firefox-relay = { -product-firefox-relay }
 payments-header-bento-vpn = { -product-mozilla-vpn }
-payments-header-bento-pocket = { -product-pocket }
 payments-header-bento-made-by-mozilla = Gemaakt door { -brand-mozilla }
 payments-header-avatar =
     .title = { -product-mozilla-account }-menu

@@ -20,6 +20,9 @@ location-banner-currency-change = Δεν υποστηρίζεται η αλλα�
 upgrade-page-payment-information = Στοιχεία πληρωμής
 # $nextInvoiceDate (number) - The date of the next invoice
 upgrade-page-acknowledgment = Το πρόγραμμά σας θα αλλάξει άμεσα και θα χρεωθείτε σήμερα το ποσό που αναλογεί στο υπόλοιπο αυτού του κύκλου χρέωσης. Από τις { $nextInvoiceDate } θα χρεώνεστε το πλήρες ποσό.
+
+## Authentication Error page
+
 checkout-error-boundary-retry-button = Δοκιμή ξανά
 checkout-error-boundary-basic-error-message = Κάτι πήγε στραβά. Δοκιμάστε ξανά ή <contactSupportLink>επικοινωνήστε με την υποστήριξη.</contactSupportLink>
 
@@ -113,7 +116,6 @@ payments-header-bento-firefox-mobile = { -brand-firefox } για κινητές 
 payments-header-bento-monitor = { -product-mozilla-monitor }
 payments-header-bento-firefox-relay = { -product-firefox-relay }
 payments-header-bento-vpn = { -product-mozilla-vpn }
-payments-header-bento-pocket = { -product-pocket }
 payments-header-bento-made-by-mozilla = Από τη { -brand-mozilla }
 payments-header-avatar =
     .title = Μενού { -product-mozilla-account(case: "gen", capitalization: "lower") }

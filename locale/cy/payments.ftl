@@ -632,11 +632,6 @@ sub-item-no-such-subsequent-invoice = Heb ganfod anfoneb ddilynol y tanysgrifiad
 sub-invoice-preview-error-title = Heb ganfod rhagolwg anfoneb
 sub-invoice-preview-error-text = Heb ganfod rhagolwg anfoneb y tanysgrifiad hwn
 
-## Routes - Subscriptions - Pocket Subscription
-
-manage-pocket-title-2 = Yn chwilio am eich tanysgrifiad premiwm { -product-pocket }?
-manage-pocket-body-2 = I'w reoli, <linkExternal>cliciwch yma</linkExternal>.
-
 ## Routes - Subscriptions - Reactivate
 ## $name (String) - The name of the subscribed product.
 

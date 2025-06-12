@@ -310,9 +310,6 @@ sub-item-no-such-plan = Әлеге язылу өчен андый план юк.
 invoice-not-found = Киләсе квитанция табылмады
 sub-item-no-such-subsequent-invoice = Бу язылу өчен киләсе квитанция табылмады.
 
-## Routes - Subscriptions - Pocket Subscription
-
-
 ## Routes - Subscriptions - Reactivate
 ## $name (String) - The name of the subscribed product.
 

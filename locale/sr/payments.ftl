@@ -499,10 +499,6 @@ sub-item-no-such-subsequent-invoice = Накнадни рачун није пр�
 sub-invoice-preview-error-title = Преглед рачуна није пронађен
 sub-invoice-preview-error-text = Преглед рачуна није пронађен за ову претплату
 
-## Routes - Subscriptions - Pocket Subscription
-
-manage-pocket-body-2 = Да управљате, <linkExternal>кликните овде</linkExternal>.
-
 ## Routes - Subscriptions - Reactivate
 ## $name (String) - The name of the subscribed product.
 

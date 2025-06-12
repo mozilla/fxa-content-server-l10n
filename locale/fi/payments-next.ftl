@@ -15,6 +15,9 @@ location-required-disclaimer = Käytämme tätä tietoa vain verojen ja valuutan
 ## Page - Upgrade page
 
 upgrade-page-payment-information = Maksun tiedot
+
+## Authentication Error page
+
 checkout-error-boundary-retry-button = Yritä uudelleen
 checkout-error-boundary-basic-error-message = Jotain meni pieleen. Yritä uudelleen tai <contactSupportLink>ota yhteyttä tukeen.</contactSupportLink>
 
@@ -106,7 +109,6 @@ payments-header-bento-firefox-mobile = { -brand-firefox }-selain mobiililaitteil
 payments-header-bento-monitor = { -product-mozilla-monitor }
 payments-header-bento-firefox-relay = { -product-firefox-relay }
 payments-header-bento-vpn = { -product-mozilla-vpn }
-payments-header-bento-pocket = { -product-pocket }
 payments-header-bento-made-by-mozilla = { -brand-mozilla }lta
 payments-header-avatar =
     .title = { -product-mozilla-account }en valikko

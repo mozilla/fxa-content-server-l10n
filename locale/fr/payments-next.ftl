@@ -20,6 +20,9 @@ location-banner-currency-change = Changement de devise non pris en charge. Pour 
 upgrade-page-payment-information = Informations de paiement
 # $nextInvoiceDate (number) - The date of the next invoice
 upgrade-page-acknowledgment = Votre forfait changera immédiatement et un montant calculé au prorata vous sera facturé aujourd’hui pour le reste du cycle de facturation. À partir du { $nextInvoiceDate }, le montant total vous sera facturé.
+
+## Authentication Error page
+
 checkout-error-boundary-retry-button = Réessayer
 checkout-error-boundary-basic-error-message = Quelque chose s’est mal passé. Veuillez réessayer ou <contactSupportLink>contacter l’assistance.</contactSupportLink>
 
@@ -113,7 +116,6 @@ payments-header-bento-firefox-mobile = Navigateur { -brand-firefox } pour mobile
 payments-header-bento-monitor = { -product-mozilla-monitor }
 payments-header-bento-firefox-relay = { -product-firefox-relay }
 payments-header-bento-vpn = { -product-mozilla-vpn }
-payments-header-bento-pocket = { -product-pocket }
 payments-header-bento-made-by-mozilla = Conçu par { -brand-mozilla }
 payments-header-avatar =
     .title = Menu { -product-mozilla-account(capitalization: "uppercase") }

@@ -523,11 +523,6 @@ sub-item-no-such-subsequent-invoice = Volgende factuur niet gevonden voor dit ab
 sub-invoice-preview-error-title = Factuurvoorbeeld niet gevonden
 sub-invoice-preview-error-text = Factuurvoorbeeld niet gevonden voor dit abonnement
 
-## Routes - Subscriptions - Pocket Subscription
-
-manage-pocket-title-2 = Op zoek naar uw abonnement op { -product-pocket } premium?
-manage-pocket-body-2 = <linkExternal>Klik hier</linkExternal> om dit te beheren.
-
 ## Routes - Subscriptions - Reactivate
 ## $name (String) - The name of the subscribed product.
 

@@ -419,10 +419,6 @@ sub-route-payment-modal-heading = ਅਢੁੱਕਵੀਂ ਬਿੱਲ ਸੰ�
 
 sub-item-no-such-plan = ਉਸ ਮੈਂਬਰੀ ਲਈ ਕੋਈ ਪਲਾਨ ਨਹੀਂ ਹੈ।
 
-## Routes - Subscriptions - Pocket Subscription
-
-manage-pocket-body-2 = ਇਸ ਦਾ ਇੰਤਜ਼ਾਮ ਕਰਨ ਲਈ, <linkExternal>ਇੱਥੇ ਕਲਿੱਕ ਕਰੋ</linkExternal>।
-
 ## Routes - Subscriptions - Reactivate
 ## $name (String) - The name of the subscribed product.
 

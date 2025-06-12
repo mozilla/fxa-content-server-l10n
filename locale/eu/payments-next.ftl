@@ -22,6 +22,9 @@ upgrade-page-acknowledgment =
     Zure plana berehala aldatuko da, eta proportzioan kobratuko dizugu
     zenbatekoa. gaurtik fakturazio-ziklo honen gainerako. { $nextInvoiceDate }
     hasita kopuru osoa kobratuko dizute.
+
+## Authentication Error page
+
 checkout-error-boundary-retry-button = Saiatu berriro
 checkout-error-boundary-basic-error-message = Zerbait gaizki joan da. Mesedez, saiatu berriro edo <contactSupportLink>jarri laguntzarekin harremanetan.</contactSupportLink>
 
@@ -114,7 +117,6 @@ payments-header-bento-firefox-mobile = Mugikorrerako { -brand-firefox } nabigatz
 payments-header-bento-monitor = { -product-mozilla-monitor }
 payments-header-bento-firefox-relay = { -product-firefox-relay }
 payments-header-bento-vpn = { -product-mozilla-vpn }
-payments-header-bento-pocket = { -product-pocket }
 payments-header-bento-made-by-mozilla = { -brand-mozilla }(e)k egina
 payments-header-avatar =
     .title = { -product-mozilla-account } menua

@@ -495,11 +495,6 @@ sub-item-no-such-subsequent-invoice = Không tìm thấy hóa đơn tiếp theo 
 sub-invoice-preview-error-title = Không tìm thấy bản xem trước hóa đơn
 sub-invoice-preview-error-text = Không tìm thấy bản xem trước hóa đơn cho thuê bao này
 
-## Routes - Subscriptions - Pocket Subscription
-
-manage-pocket-title-2 = Bạn đang tìm cách đăng ký { -product-pocket } premium?
-manage-pocket-body-2 = Để quản lý nó, hãy <linkExternal>nhấp vào đây</linkExternal>.
-
 ## Routes - Subscriptions - Reactivate
 ## $name (String) - The name of the subscribed product.
 

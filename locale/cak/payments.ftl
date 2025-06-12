@@ -280,9 +280,6 @@ sub-route-idx-updating = Nik'ex ri retamab'al wujil…
 
 sub-item-no-such-plan = Majun ajil richin re rutz'ib'axik b'i'aj.
 
-## Routes - Subscriptions - Pocket Subscription
-
-
 ## Routes - Subscriptions - Reactivate
 ## $name (String) - The name of the subscribed product.
 

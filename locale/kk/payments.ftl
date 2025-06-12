@@ -517,11 +517,6 @@ sub-item-no-such-subsequent-invoice = Бұл жазылу үшін келесі 
 sub-invoice-preview-error-title = Шот-фактураны алдын ала қарау табылмады
 sub-invoice-preview-error-text = Бұл жазылу үшін шот-фактураны алдын ала қарау табылмады
 
-## Routes - Subscriptions - Pocket Subscription
-
-manage-pocket-title-2 = { -product-pocket } премиум жазылымын іздедіңіз бе?
-manage-pocket-body-2 = Оны басқару үшін <linkExternal>осы жерді басыңыз</linkExternal>.
-
 ## Routes - Subscriptions - Reactivate
 ## $name (String) - The name of the subscribed product.
 

@@ -518,11 +518,6 @@ sub-item-no-such-subsequent-invoice = Factura posterior non trovate pro iste abo
 sub-invoice-preview-error-title = Vista previe de factura non trovate
 sub-invoice-preview-error-text = Vista previe de factura non trovate pro iste abonamento
 
-## Routes - Subscriptions - Pocket Subscription
-
-manage-pocket-title-2 = Recerca tu un abonamento premio pro tu { -product-pocket }?
-manage-pocket-body-2 = Pro gerer lo, <linkExternal>clicca ci</linkExternal>.
-
 ## Routes - Subscriptions - Reactivate
 ## $name (String) - The name of the subscribed product.
 

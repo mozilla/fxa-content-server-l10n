@@ -13,6 +13,9 @@ next-payment-method-first-approve = Аввал шумо бояд обунаи х
 ## Page - Upgrade page
 
 upgrade-page-payment-information = Маълумоти пардохт
+
+## Authentication Error page
+
 checkout-error-boundary-retry-button = Аз нав кӯшиш кардан
 
 ## Error pages - /checkout and /upgrade
@@ -95,7 +98,6 @@ payments-header-bento-firefox-mobile = Браузери «{ -brand-firefox }» �
 payments-header-bento-monitor = { -product-mozilla-monitor }
 payments-header-bento-firefox-relay = { -product-firefox-relay }
 payments-header-bento-vpn = { -product-mozilla-vpn }
-payments-header-bento-pocket = { -product-pocket }
 payments-header-bento-made-by-mozilla = Аз ҷониби «{ -brand-mozilla }» сохта шудааст
 payments-header-avatar =
     .title = Менюи «{ -product-mozilla-account }»

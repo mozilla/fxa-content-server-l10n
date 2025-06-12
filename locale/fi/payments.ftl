@@ -515,11 +515,6 @@ sub-item-no-such-subsequent-invoice = Seuraavaa laskua ei löydy tälle tilaukse
 sub-invoice-preview-error-title = Laskun esikatselua ei löydy
 sub-invoice-preview-error-text = Tälle tilaukselle ei löytynyt laskun esikatselua
 
-## Routes - Subscriptions - Pocket Subscription
-
-manage-pocket-title-2 = Etsitkö { -product-pocket }in premium-tilaustasi?
-manage-pocket-body-2 = Hallinnoi sitä <linkExternal>napsauttamalla tästä</linkExternal>.
-
 ## Routes - Subscriptions - Reactivate
 ## $name (String) - The name of the subscribed product.
 

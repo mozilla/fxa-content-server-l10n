@@ -20,6 +20,9 @@ location-banner-currency-change = Nun suppurtamu u canciu di valuta. Pi cuntinua
 upgrade-page-payment-information = Nfurmazzioni di pagamentu
 # $nextInvoiceDate (number) - The date of the next invoice
 upgrade-page-acknowledgment = U to chianu veni attualizzatu sùbbitu, e ti veni addibbitatu chiḍḍu chi ammanca, di manera prupurziunali, pû restu dû piriudu di fatturazzioni. Accuminciannu dû { $nextInvoiceDate } ti veni addibbitata a còtima sana.
+
+## Authentication Error page
+
 checkout-error-boundary-retry-button = Prova arrè
 checkout-error-boundary-basic-error-message = Cci fu un prubblema. Pi favuri torna a prova o <contactSupportLink>cuntatta l’assistenza</contactSupportLink>.
 
@@ -113,7 +116,6 @@ payments-header-bento-firefox-mobile = { -brand-firefox } pû Tilèfunu
 payments-header-bento-monitor = { -product-mozilla-monitor }
 payments-header-bento-firefox-relay = { -product-firefox-relay }
 payments-header-bento-vpn = { -product-mozilla-vpn }
-payments-header-bento-pocket = { -product-pocket }
 payments-header-bento-made-by-mozilla = Fattu di { -brand-mozilla }
 payments-header-avatar =
     .title = Minù di { -product-mozilla-account }

@@ -452,9 +452,6 @@ sub-item-no-such-plan = Ingen slik plan for dette abonnementet.
 invoice-not-found = Påfølgende faktura ble ikke funnet
 sub-item-no-such-subsequent-invoice = Finner ikke påfølgende faktura for dette abonnementet.
 
-## Routes - Subscriptions - Pocket Subscription
-
-
 ## Routes - Subscriptions - Reactivate
 ## $name (String) - The name of the subscribed product.
 

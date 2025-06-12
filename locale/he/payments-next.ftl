@@ -16,6 +16,9 @@ location-banner-currency-change = שינוי מטבע אינו נתמך. כדי 
 ## Page - Upgrade page
 
 upgrade-page-payment-information = פרטי תשלום
+
+## Authentication Error page
+
 checkout-error-boundary-retry-button = ניסיון חוזר
 checkout-error-boundary-basic-error-message = משהו השתבש. נא לנסות שוב או <contactSupportLink>ליצור קשר עם התמיכה</contactSupportLink>.
 
@@ -109,7 +112,6 @@ payments-header-bento-firefox-mobile = דפדפן ‏{ -brand-firefox } לטלפ
 payments-header-bento-monitor = { -product-mozilla-monitor }
 payments-header-bento-firefox-relay = { -product-firefox-relay }
 payments-header-bento-vpn = { -product-mozilla-vpn }
-payments-header-bento-pocket = { -product-pocket }
 payments-header-bento-made-by-mozilla = נוצר על־ידי { -brand-mozilla }
 payments-header-avatar =
     .title = תפריט { -product-mozilla-account(case: "a") }

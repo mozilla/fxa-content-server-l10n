@@ -20,6 +20,9 @@ location-banner-currency-change = Dyw newid arian cyfred ddim yn cael ei gefnogi
 upgrade-page-payment-information = Manylion Talu
 # $nextInvoiceDate (number) - The date of the next invoice
 upgrade-page-acknowledgment = Bydd eich cynllun yn newid ar unwaith, a byddwn yn codi swm pro rata arnoch heddiw am weddill y cylch bilio hwn. Gan ddechrau ar { $nextInvoiceDate } byddwn yn codi'r swm llawn arnoch.
+
+## Authentication Error page
+
 checkout-error-boundary-retry-button = Ceisiwch eto
 checkout-error-boundary-basic-error-message = Aeth rhywbeth o'i le. Ceisiwch eto neu <contactSupportLink>cysylltwch â'n cymorth.</contactSupportLink>
 
@@ -113,7 +116,6 @@ payments-header-bento-firefox-mobile = Porwr { -brand-firefox } ar gyfer Symudol
 payments-header-bento-monitor = { -product-mozilla-monitor }
 payments-header-bento-firefox-relay = { -product-firefox-relay }
 payments-header-bento-vpn = { -product-mozilla-vpn }
-payments-header-bento-pocket = { -product-pocket }
 payments-header-bento-made-by-mozilla = Wedi'i wneud gan { -brand-mozilla }
 payments-header-avatar =
     .title = Dewislen cyfrif { -product-mozilla-account }
