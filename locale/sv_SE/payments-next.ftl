@@ -23,6 +23,7 @@ upgrade-page-acknowledgment = Din plan kommer att ändras omedelbart och du debi
 
 ## Authentication Error page
 
+auth-error-page-title = Vi kunde inte logga in dig
 checkout-error-boundary-retry-button = Försök igen
 checkout-error-boundary-basic-error-message = Något gick fel. Försök igen eller <contactSupportLink>kontakta supporten.</contactSupportLink>
 
@@ -194,6 +195,7 @@ next-subscription-processing-title = Bekräftar prenumerationen…
 next-subscription-error-title = Fel vid bekräftelse av prenumeration…
 subscription-title-sub-exists = Du prenumererar redan
 subscription-title-plan-change-heading = Granska din ändring
+subscription-title-not-supported = Ändringen av prenumerationsplanen stöds inte
 next-sub-guarantee = 30-dagars återbetalningsgaranti
 
 ## Component - TermsAndPrivacy
