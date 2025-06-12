@@ -319,6 +319,7 @@ passwordResetAccountRecovery-title-3 = Ниҳонвожаи шумо аз нав
 passwordResetAccountRecovery-action-4 = Идоракунии ҳисоб
 passwordResetRecoveryPhone-subject = Телефони барқарорсозӣ истифода карда шуд
 passwordResetRecoveryPhone-preview = Тасдиқ кунед, то мутмаин шавед, ки ин шумо будед
+passwordResetRecoveryPhone-title = Телефони барқарорсозии шумо барои тасдиқи барқарорсозии ниҳонвожа истифода шуд
 passwordResetRecoveryPhone-device = Телефони барқарорсозӣ истифода карда шуд аз:
 passwordResetRecoveryPhone-action = Идоракунии ҳисоб
 passwordResetWithRecoveryKeyPrompt-subject = Ниҳонвожаи шумо аз нав барқарор карда шуд
@@ -460,6 +461,10 @@ subscriptionFirstInvoice-title = Ташаккур барои обунашави�
 # Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionFirstInvoice-content-next-invoice = Санади дархости пардохти навбатӣ: { $nextInvoiceDateOnly }
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-subject-1 = Муҳлати истифодаи корти бонкии шумо барои «{ $productName }» ба анҷом расид ё ба наздикӣ ба анҷом мерасад
+subscriptionPaymentExpired-title-1 = Муҳлати истифодаи корти бонкии шумо ба анҷом расид ё ба наздикӣ ба анҷом мерасад
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = Пардохт барои «{ $productName }» иҷро шуд
