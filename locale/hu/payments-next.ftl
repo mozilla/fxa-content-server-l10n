@@ -25,6 +25,7 @@ upgrade-page-acknowledgment =
 
 ## Authentication Error page
 
+auth-error-page-title = Nem tudtuk bejelentkeztetni
 checkout-error-boundary-retry-button = Próbálja újra
 checkout-error-boundary-basic-error-message = Hiba történt. Próbálja újra, vagy <contactSupportLink>lépjen kapcsolatba a támogatással.</contactSupportLink>
 
@@ -196,6 +197,7 @@ next-subscription-processing-title = Feliratkozás megerősítése…
 next-subscription-error-title = Hiba a feliratkozás megerősítésekor…
 subscription-title-sub-exists = Már előfizető
 subscription-title-plan-change-heading = A változtatás áttekintése
+subscription-title-not-supported = Az előfizetési csomag ezen módosítása nem támogatott
 next-sub-guarantee = 30 napos pénzvisszafizetési garancia
 
 ## Component - TermsAndPrivacy

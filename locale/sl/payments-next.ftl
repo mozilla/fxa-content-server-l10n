@@ -23,6 +23,7 @@ upgrade-page-acknowledgment = Vaš načrt se bo takoj spremenil in danes vam bom
 
 ## Authentication Error page
 
+auth-error-page-title = Nismo vas mogli prijaviti
 checkout-error-boundary-retry-button = Poskusi znova
 checkout-error-boundary-basic-error-message = Nekaj je šlo narobe. Poskusite znova ali <contactSupportLink>se obrnite na podporo</contactSupportLink>.
 
@@ -194,6 +195,7 @@ next-subscription-processing-title = Potrjevanje naročnine …
 next-subscription-error-title = Napaka pri potrjevanju naročnine …
 subscription-title-sub-exists = Že ste naročeni
 subscription-title-plan-change-heading = Preglejte spremembo
+subscription-title-not-supported = Ta sprememba naročniškega načrta ni podprta
 next-sub-guarantee = 30-dnevno vračilo denarja
 
 ## Component - TermsAndPrivacy

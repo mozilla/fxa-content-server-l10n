@@ -23,6 +23,7 @@ upgrade-page-acknowledgment = Il tuo piano verrà cambiato immediatamente e ti v
 
 ## Authentication Error page
 
+auth-error-page-title = Impossibile accedere
 checkout-error-boundary-retry-button = Riprova
 checkout-error-boundary-basic-error-message = Si è verificato un errore. Riprovare o <contactSupportLink>contattare il supporto</contactSupportLink>.
 
@@ -194,6 +195,7 @@ next-subscription-processing-title = Conferma abbonamento…
 next-subscription-error-title = Errore durante la conferma dell’abbonamento…
 subscription-title-sub-exists = Sei già abbonato
 subscription-title-plan-change-heading = Rivedi la tua modifica
+subscription-title-not-supported = Questa modifica al piano di abbonamento non è supportata
 next-sub-guarantee = Garanzia di rimborso di 30 giorni
 
 ## Component - TermsAndPrivacy

@@ -23,6 +23,7 @@ upgrade-page-acknowledgment = O seu plano será alterado imediatamente e ser-lhe
 
 ## Authentication Error page
 
+auth-error-page-title = Não conseguimos iniciar a sua sessão
 checkout-error-boundary-retry-button = Tentar novamente
 checkout-error-boundary-basic-error-message = Algo correu mal. Tente novamente ou <contactSupportLink>contacte o apoio.</contactSupportLink>
 
@@ -194,6 +195,7 @@ next-subscription-processing-title = A confirmar a subscrição…
 next-subscription-error-title = Erro ao confirmar a subscrição…
 subscription-title-sub-exists = Já está subscrito
 subscription-title-plan-change-heading = Rever a sua alteração
+subscription-title-not-supported = Esta alteração do plano de subscrição não é suportada
 next-sub-guarantee = Garantia de devolução do dinheiro em 30 dias
 
 ## Component - TermsAndPrivacy

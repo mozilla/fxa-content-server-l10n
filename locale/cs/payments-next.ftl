@@ -23,6 +23,7 @@ upgrade-page-acknowledgment = Váš tarif se okamžitě změní a po zbytek toho
 
 ## Authentication Error page
 
+auth-error-page-title = Přihlášení se nezdařilo
 checkout-error-boundary-retry-button = Zkusit znovu
 checkout-error-boundary-basic-error-message = Něco se pokazilo. Zkuste to znovu nebo <contactSupportLink>kontaktujte podporu</contactSupportLink>.
 
@@ -194,6 +195,7 @@ next-subscription-processing-title = Potvrzování předplatného…
 next-subscription-error-title = Potvrzení předplatného se nezdařilo…
 subscription-title-sub-exists = Již jste se přihlásili k odběru
 subscription-title-plan-change-heading = Zkontrolujte změnu předplatného
+subscription-title-not-supported = Tato změna předplatného není podporována
 next-sub-guarantee = 30denní záruka vrácení peněz
 
 ## Component - TermsAndPrivacy

@@ -23,6 +23,7 @@ upgrade-page-acknowledgment = Votre forfait changera immédiatement et un montan
 
 ## Authentication Error page
 
+auth-error-page-title = Nous n’avons pas pu vous connecter
 checkout-error-boundary-retry-button = Réessayer
 checkout-error-boundary-basic-error-message = Quelque chose s’est mal passé. Veuillez réessayer ou <contactSupportLink>contacter l’assistance.</contactSupportLink>
 
@@ -194,6 +195,7 @@ next-subscription-processing-title = Confirmation de l’abonnement…
 next-subscription-error-title = Erreur lors de la confirmation de l’abonnement…
 subscription-title-sub-exists = Vous êtes déjà abonné·e
 subscription-title-plan-change-heading = Passez en revue vos modifications
+subscription-title-not-supported = Ce changement de forfait d’abonnement n’est pas pris en charge
 next-sub-guarantee = Garantie de remboursement de 30 jours
 
 ## Component - TermsAndPrivacy
