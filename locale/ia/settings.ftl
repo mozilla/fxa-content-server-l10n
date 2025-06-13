@@ -632,18 +632,34 @@ flow-recovery-key-info-cancel-link = Cancellar
 
 ## FlowSetup2faApp
 
+flow-setup-2fa-manual-key-heading = Inserer codice manualmente
+flow-setup-2fa-button = Continuar
+flow-setup-2fa-input-label = Insere le codice de 6 digitos
 
 ## The step to choose the two step authentication method in the two step
 ## authentication setup flow.
 
+flow-setup-2fa-backup-choice-heading = Selige un methodo de recuperation
+flow-setup-2fa-backup-choice-phone-title = Telephono de recuperation
+flow-setup-2fa-backup-choice-phone-badge = Plus facile
+flow-setup-2fa-backup-choice-code-title = Codices de authentication de reserva
+flow-setup-2fa-backup-choice-code-badge = Plu secur
 
 ## The backup code confirm step of the setup 2 factor authentication flow,
 ## where the user confirm that they have saved their backup authentication codes
 ## by entering one of them.
 
+flow-setup-2fa-backup-code-confirm-heading = Insere codice de authentication de reserva
+# codes here refers to backup authentication codes
+flow-setup-2fa-backup-code-confirm-confirm-saved = Confirma que tu salvava tu codices inserente un. Sin iste codices, tu poterea non poter acceder si tu non ha tu app de authentication.
+flow-setup-2fa-backup-code-confirm-code-input = Insere le codice de 10 characteres
+# Clicking on this button finishes the whole flow upon success.
+flow-setup-2fa-backup-code-confirm-button-finish = Finir
 
 ## The backup codes download step of the setup 2 factor authentication flow
 
+flow-setup-2fa-backup-code-dl-heading = Salvar codices de authentication de reserva
+flow-setup-2fa-backup-code-dl-button-continue = Continuar
 
 ## FlowSetupPhoneConfirmCode
 
