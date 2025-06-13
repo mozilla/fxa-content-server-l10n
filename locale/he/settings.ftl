@@ -631,14 +631,28 @@ flow-setup-2fa-input-label = נא להזין קוד בן 6 ספרות
 
 flow-setup-2fa-backup-choice-heading = בחירת אמצעי לשחזור
 flow-setup-2fa-backup-choice-description = שיטה זו מאפשרת לך להתחבר אם אין באפשרותך לגשת למכשיר הנייד או ליישומון המאמת שלך.
+flow-setup-2fa-backup-choice-phone-title = טלפון לשחזור
+flow-setup-2fa-backup-choice-phone-badge = הכי קל
+flow-setup-2fa-backup-choice-phone-info = קבלת קוד לשחזור באמצעות הודעת טקסט. כרגע זמין בארה״ב ובקנדה.
+flow-setup-2fa-backup-choice-code-badge = הכי בטוח
+flow-setup-2fa-backup-choice-code-info = יצירה ושמירה של קודי אימות לשימוש חד פעמי.
+# This link points to https://support.mozilla.org/kb/secure-mozilla-account-two-step-authentication
+flow-setup-2fa-backup-choice-learn-more-link = מידע על שחזור וסיכון החלפת כרטיס SIM
 
 ## The backup code confirm step of the setup 2 factor authentication flow,
 ## where the user confirm that they have saved their backup authentication codes
 ## by entering one of them.
 
+# codes here refers to backup authentication codes
+flow-setup-2fa-backup-code-confirm-confirm-saved = נא לאשר ששמרת את הקודים שלך על־ידי הזנת אחד מהם. ללא קודים אלה, ייתכן שלא יהיה באפשרותך להתחבר אם אין לך את היישומון המאמת שלך.
+flow-setup-2fa-backup-code-confirm-code-input = נא להזין קוד בן 10 תווים
+# Clicking on this button finishes the whole flow upon success.
+flow-setup-2fa-backup-code-confirm-button-finish = סיום
 
 ## The backup codes download step of the setup 2 factor authentication flow
 
+flow-setup-2fa-backup-code-dl-save-these-codes = יש לשמור אותם במקום שקל לזכור. אם אין לך גישה ליישומון המאמת שלך, יהיה עליך להזין אחד מהם כדי להיכנס.
+flow-setup-2fa-backup-code-dl-button-continue = המשך
 
 ## FlowSetupPhoneConfirmCode
 
@@ -1579,6 +1593,7 @@ reset-password-recovery-phone-heading = נא להכניס קוד לשחזור
 # Text that explains the user should check their phone for a recovery code
 # $maskedPhoneNumber - The users masked phone number
 reset-password-recovery-phone-instruction-v3 = קוד בן 6 ספרות נשלח אל מספר הטלפון שמסתיים ב־<span>{ $lastFourPhoneDigits }</span> בהודעת טקסט. קוד זה יפוג לאחר 5 דקות. אין לשתף את הקוד הזה עם אף אחד.
+reset-password-recovery-phone-resend-code-button = שליחת הקוד מחדש
 reset-password-recovery-phone-resend-success = הקוד נשלח
 # links to https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 reset-password-recovery-phone-locked-out-link = ננעלת מחוץ לחשבון?
