@@ -622,18 +622,33 @@ flow-recovery-key-info-cancel-link = Avbryt
 
 ## FlowSetup2faApp
 
+flow-setup-2fa-manual-key-heading = Skriv inn kode manuelt
+flow-setup-2fa-scan-qr-instead-button = Skanne QR-kode i staden?
+flow-setup-2fa-button = Hald fram
+flow-setup-2fa-input-label = Skriv inn 6-sifra kode
 
 ## The step to choose the two step authentication method in the two step
 ## authentication setup flow.
 
+flow-setup-2fa-backup-choice-heading = Vel ein gjenopprettingsmetode
+flow-setup-2fa-backup-choice-phone-title = Gjenopprettingstelefon
+flow-setup-2fa-backup-choice-code-title = Reserve-godkjenningskodar
 
 ## The backup code confirm step of the setup 2 factor authentication flow,
 ## where the user confirm that they have saved their backup authentication codes
 ## by entering one of them.
 
+flow-setup-2fa-backup-code-confirm-heading = Skriv inn reserve-godkjenningskode
+# codes here refers to backup authentication codes
+flow-setup-2fa-backup-code-confirm-confirm-saved = Stadfest at du har lagra kodane dine ved å skrive inn ein av dei. Utan desse kodane kan det hende du ikkje kan logge på viss du ikkje har autentiseringsappen din.
+flow-setup-2fa-backup-code-confirm-code-input = Skriv inn 10-sifra kode
+# Clicking on this button finishes the whole flow upon success.
+flow-setup-2fa-backup-code-confirm-button-finish = Fullfør
 
 ## The backup codes download step of the setup 2 factor authentication flow
 
+flow-setup-2fa-backup-code-dl-heading = Lagre reserve-godkjenningskodar
+flow-setup-2fa-backup-code-dl-button-continue = Hald fram
 
 ## FlowSetupPhoneConfirmCode
 
@@ -1639,6 +1654,24 @@ password-reset-recovery-method-send-code-error-description = Prøv igjen seinare
 
 ## ResetPasswordRecoveryPhone page
 
+reset-password-recovery-phone-flow-heading = Tilbakestill passord
+# A recovery code in context of this page is a one time code sent to the user's phone
+reset-password-recovery-phone-heading = Skriv inn gjenopprettingskode
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+reset-password-recovery-phone-instruction-v3 = Ein 6-sifra kode vart send til telefonnummeret som sluttar på <span>{ $lastFourPhoneDigits }</span> via tekstmelding. Denne koden går ut etter 5 minutt. Ikkje del denne koden med nokon.
+reset-password-recovery-phone-input-label = Skriv inn 6-sifra kode
+reset-password-recovery-phone-code-submit-button = Stadfest
+reset-password-recovery-phone-resend-code-button = Send koden på nytt
+reset-password-recovery-phone-resend-success = Kode sendt
+# links to https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+reset-password-recovery-phone-locked-out-link = Er du sperra ute?
+reset-password-recovery-phone-send-code-error-heading = Det oppstod eit problem med å sende ein kode
+reset-password-recovery-phone-code-verification-error-heading = Det oppstod eit problem med å stadfeste koden din
+# Follows the error message (e.g, "There was a problem sending a code")
+reset-password-recovery-phone-general-error-description = Prøv igjen seinare.
+reset-password-recovery-phone-invalid-code-error-description = Koden er ugyldig eller utgått.
+reset-password-recovery-phone-invalid-code-error-link = Vil du bruke reserve-godkjenningskodar i staden?
 reset-password-with-recovery-key-verified-page-title = Passordet er tilbakestilt
 reset-password-complete-new-password-saved = Nytt passord lagra!
 reset-password-complete-recovery-key-created = Ny kontogjenopprettingsnøkkel oppretta. Last ned og lagre han no.

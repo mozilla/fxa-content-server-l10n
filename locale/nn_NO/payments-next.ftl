@@ -22,6 +22,7 @@ upgrade-page-acknowledgment = Planen din vert omg[ande endra, og du vil bli bela
 
 ## Authentication Error page
 
+auth-error-page-title = Vi klarte ikkje å logge deg inn
 checkout-error-boundary-retry-button = Prøv på nytt
 checkout-error-boundary-basic-error-message = Noko gjekk gale. Prøv på nytt eller <contactSupportLink>kontakt support.</contactSupportLink>
 
@@ -189,6 +190,7 @@ next-subscription-processing-title = Stadfestar abonnementet…
 next-subscription-error-title = Feil ved stadfesting av abonnementet…
 subscription-title-sub-exists = Du abonnerer allereie
 subscription-title-plan-change-heading = Sjå gjennom endringa
+subscription-title-not-supported = Denne endringa av abonnementsplanen er ikkje stødd
 next-sub-guarantee = 30-dagar pengane-tilbake-garanti
 
 ## Component - TermsAndPrivacy
@@ -226,6 +228,14 @@ upgrade-purchase-details-new-plan-yearly = { $productName } (kvart år)
 ## Page Metadata Information
 ## $productTitle (String) - The name of the product to create subscription, e.g. Mozilla VPN
 
+# Checkout error
+metadata-title-checkout-error = Feil | { $productTitle }
+# Upgrade start
+metadata-title-upgrade-start = Oppgrader | { $productTitle }
+# Upgrade error
+metadata-title-upgrade-error = Feil | { $productTitle }
+# Default
+metadata-title-default = Fann ikkje sida | { $productTitle }
 
 ## Coupon Error Messages
 
