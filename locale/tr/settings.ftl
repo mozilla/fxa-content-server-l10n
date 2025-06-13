@@ -629,18 +629,47 @@ flow-recovery-key-info-cancel-link = İptal
 
 ## FlowSetup2faApp
 
+flow-setup-2fa-qr-heading = Kimlik doğrulama uygulamanıza bağlanın
+flow-setup-2a-qr-instruction = <strong>1. adım:</strong> Duo veya Google Authenticator gibi bir kimlik doğrulama uygulamasına bu QR kodunu okutun.
+flow-setup-2fa-cant-scan-qr-button = QR kodunu okutamıyor musunuz?
+flow-setup-2fa-manual-key-heading = Kodu kendiniz yazın
+flow-setup-2fa-manual-key-instruction = <strong>1. adım:</strong> Bu kodu istediğiniz bir kimlik doğrulama uygulamasına yazın.
+flow-setup-2fa-scan-qr-instead-button = Bunun yerine QR kodu okutulsun mu?
+# links to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication#w_step-one
+flow-setup-2fa-more-info-link = Kimlik doğrulama uygulamaları hakkında daha fazla bilgi alın
+flow-setup-2fa-button = İleri
+flow-setup-2fa-step-2-instruction = <strong>2. adım:</strong>Kimlik doğrulama uygulamanızdaki kodu yazın.
+flow-setup-2fa-input-label = 6 basamaklı kodu yazın
 
 ## The step to choose the two step authentication method in the two step
 ## authentication setup flow.
 
+flow-setup-2fa-backup-choice-heading = Bir kurtarma yöntemi seçin
+flow-setup-2fa-backup-choice-description = Bu yöntem, mobil cihazınıza veya kimlik doğrulama uygulamanıza erişemiyorsanız giriş yapmanızı sağlar.
+flow-setup-2fa-backup-choice-phone-title = Kurtarma telefonu
+flow-setup-2fa-backup-choice-phone-badge = En kolay
+flow-setup-2fa-backup-choice-phone-info = SMS ile kurtarma kodu alın. yalnızca Şu anda ABD ve Kanada’da kullanılabilir.
+flow-setup-2fa-backup-choice-code-title = Yedek kimlik doğrulama kodları
+flow-setup-2fa-backup-choice-code-badge = En güvenli
+flow-setup-2fa-backup-choice-code-info = Tek kullanımlık kimlik doğrulama kodları oluşturup kaydedin.
+# This link points to https://support.mozilla.org/kb/secure-mozilla-account-two-step-authentication
+flow-setup-2fa-backup-choice-learn-more-link = Kurtarma ve SIM swap saldırısı hakkında bilgi alın
 
 ## The backup code confirm step of the setup 2 factor authentication flow,
 ## where the user confirm that they have saved their backup authentication codes
 ## by entering one of them.
 
+flow-setup-2fa-backup-code-confirm-heading = Yedek kimlik doğrulama kodunu yazın
+# codes here refers to backup authentication codes
+flow-setup-2fa-backup-code-confirm-confirm-saved = Kodları kaydettiğinizi onaylamak için kodlardan birini yazın. Kimlik doğrulama uygulamanıza erişemediğinizde bu kodlar olmadan giriş yapamayabilirsiniz.
+flow-setup-2fa-backup-code-confirm-code-input = 10 karakterli kodu yazın
+# Clicking on this button finishes the whole flow upon success.
+flow-setup-2fa-backup-code-confirm-button-finish = Bitir
 
 ## The backup codes download step of the setup 2 factor authentication flow
 
+flow-setup-2fa-backup-code-dl-heading = Yedek kimlik doğrulama kodlarını kaydedin
+flow-setup-2fa-backup-code-dl-button-continue = İleri
 
 ## FlowSetupPhoneConfirmCode
 

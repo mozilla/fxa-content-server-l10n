@@ -26,6 +26,7 @@ upgrade-page-acknowledgment =
 
 ## Authentication Error page
 
+auth-error-page-title = Njejsmy mógli was pśizjawiś
 checkout-error-boundary-retry-button = Hyšći raz wopytaś
 checkout-error-boundary-basic-error-message = Něco njejo se raźiło. Pšosym wopytajśo hyšći raz abo <contactSupportLink>stajśo se z pomocu do zwiska.</contactSupportLink>
 
@@ -197,6 +198,7 @@ next-subscription-processing-title = Abonement se wobkšuśijo…
 next-subscription-error-title = Zmólka pśi wobkšuśenju abonementa…
 subscription-title-sub-exists = Sćo južo aboněrował
 subscription-title-plan-change-heading = Pśeglědujśo swóju změnu
+subscription-title-not-supported = Toś ta změna abonementnego plana se njepódpěra
 next-sub-guarantee = 30-dnjowna garantija slědkdaśa pjenjez
 
 ## Component - TermsAndPrivacy
