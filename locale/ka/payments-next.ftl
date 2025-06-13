@@ -26,6 +26,7 @@ upgrade-page-acknowledgment =
 
 ## Authentication Error page
 
+auth-error-page-title = თქვენს ანგარიშზე შესვლა ვერ მოხერხდა
 checkout-error-boundary-retry-button = ხელახლა ცდა
 checkout-error-boundary-basic-error-message = რაღაც ხარვეზი წარმოიშვა. გთხოვთ, სცადოთ ხელახლა ან <contactSupportLink>დაუკავშირდეთ მხარდაჭერის გუნდს.</contactSupportLink>
 
@@ -197,6 +198,7 @@ next-subscription-processing-title = გამოწერა მოწმდე
 next-subscription-error-title = შეცდომა, გამოწერის დადასტურებისას…
 subscription-title-sub-exists = უკვე გამოწერილი გაქვთ
 subscription-title-plan-change-heading = გადახედეთ თქვენს ცვლილებას
+subscription-title-not-supported = გამოწერის გეგმის ცვლილება არაა მხარდაჭერილი
 next-sub-guarantee = 30-დღიანი ვადით თანხის დასაბრუნებლად
 
 ## Component - TermsAndPrivacy

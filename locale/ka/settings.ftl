@@ -632,6 +632,7 @@ flow-recovery-key-info-cancel-link = გაუქმება
 
 ## FlowSetup2faApp
 
+flow-setup-2fa-qr-heading = თქვენი დამმოწმებელი პროგრამის დაკავშირება
 
 ## The step to choose the two step authentication method in the two step
 ## authentication setup flow.
