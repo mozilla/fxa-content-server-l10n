@@ -2,18 +2,12 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-05 20:09+0000\n"
-"PO-Revision-Date: 2024-12-06 15:56+0000\n"
-"Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: dsb\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3);\n"
-"X-Generator: Pontoon\n"
-"X-POOTLE-MTIME: 1444481518.0\n"
+"Generated-By: Pontoon\n"
 
 #: .es5/views/confirm_reset_password.js:170
 msgid "Password reset"
@@ -1259,7 +1253,7 @@ msgstr "Pominajśo wěstotne kody z jadnogo z <a %(escapedTotpSupportAttributes)
 
 #: .es5/templates/inline_totp_setup.mustache:7
 msgid "Scan authentication code"
-msgstr "Awtentificěrowański kod skannowaś"
+msgstr "Awtentificěrowański kod scannowaś"
 
 #: .es5/templates/inline_totp_setup.mustache:10
 msgid "Enter code manually"
@@ -1267,11 +1261,11 @@ msgstr "Kod manuelnje zapódaś"
 
 #: .es5/templates/inline_totp_setup.mustache:12
 msgid "Scan the QR code in your authentication app and then enter the security code it provides."
-msgstr "Skannujśo QR-kod w swójom awtentifikaciskem nałoženju a zapódajśo pótom k dispoziciji stajony wěstotny kod."
+msgstr "Scannujśo QR-kod w swójom awtentifikaciskem nałoženju a zapódajśo pótom k dispoziciji stajony wěstotny kod."
 
 #: .es5/templates/inline_totp_setup.mustache:13
 msgid "Can’t scan code?"
-msgstr "Njamóžośo kod skannowaś?"
+msgstr "Njamóžośo kod scannowaś?"
 
 #: .es5/templates/inline_totp_setup.mustache:14 .es5/templates/inline_totp_setup.mustache:18
 msgid "Once complete, it will begin generating security codes for you to enter."
@@ -1283,7 +1277,7 @@ msgstr "Zapišćo toś ten pótajmny kluc do swójogo awtentificěrowańskego na
 
 #: .es5/templates/inline_totp_setup.mustache:17
 msgid "Scan QR code instead?"
-msgstr "QR-kod město togo skannowaś?"
+msgstr "QR-kod město togo scannowaś?"
 
 #: .es5/templates/inline_totp_setup.mustache:19
 msgid "Security code"
@@ -1791,7 +1785,7 @@ msgstr "Instalěrowanje Firefox a sycnhronizěrowanje mjazy najnejmjenjej dwěma
 
 #: .es5/templates/post_verify/cad_qr/ready_to_scan.mustache:3
 msgid "Ready to scan"
-msgstr "Gótowy za skannowanje"
+msgstr "Gótowy za scannowanje"
 
 #: .es5/templates/post_verify/cad_qr/scan_code.mustache:1
 msgid "<h1 id=\"fxa-cad-qr-connect-your-mobile-device-header\">Connect your mobile device</h1><p>with a QR code we've created just for you</p>"
