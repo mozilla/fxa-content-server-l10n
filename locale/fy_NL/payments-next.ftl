@@ -23,6 +23,7 @@ upgrade-page-acknowledgment = Jo abonnemint wiziget daliks, en der wurdt in grut
 
 ## Authentication Error page
 
+auth-error-page-title = Wy koene jo net oanmelde
 checkout-error-boundary-retry-button = Opnij probearje
 checkout-error-boundary-basic-error-message = Der gie wat mis. Probearje it opnij of <contactSupportLink>nim kontakt op mei de stipeôfdieling.</contactSupportLink>
 
@@ -194,6 +195,7 @@ next-subscription-processing-title = Abonnemint befêstigje…
 next-subscription-error-title = Flater by befêstigjen abonnemint…
 subscription-title-sub-exists = Jo binne al abonnearre
 subscription-title-plan-change-heading = Jo wiziging besjen
+subscription-title-not-supported = Dizze abonnemintswiziging wurdt net stipe
 next-sub-guarantee = 30-dagen-jildweromgarânsje
 
 ## Component - TermsAndPrivacy
