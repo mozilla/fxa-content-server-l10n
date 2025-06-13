@@ -434,6 +434,7 @@ sub-update-new-plan-daily = { $productName } (Aragua)
 sub-update-new-plan-weekly = { $productName } (Arapokõindygua)
 sub-update-new-plan-monthly = { $productName } (Jasygua)
 sub-update-new-plan-yearly = { $productName } (Arygua)
+sub-update-prorated-upgrade-credit = Oimeraẽ mba’e vai oikóva ojehúta crédito-ramo ne mba’etépe ha ojeporúta kuatia ñemure og̃uahẽtavape.
 
 ## Routes - Subscriptions - Cancel
 

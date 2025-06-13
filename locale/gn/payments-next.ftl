@@ -21,6 +21,7 @@ upgrade-page-acknowledgment = Pe tembiaporape iñambuéta ha ojehepyme’ẽta n
 
 ## Authentication Error page
 
+auth-error-page-title = Ndaikatúikuri roike
 checkout-error-boundary-retry-button = Eha’ãjey
 checkout-error-boundary-basic-error-message = Oĩ osẽvaíva. Eha’ãjey upéi térã <contactSupportLink>eñe’ẽ pytyvõha renda ndive</contactSupportLink>.
 
@@ -191,6 +192,7 @@ next-subscription-processing-title = Ñemboheraguapy oñemoneĩhína…
 next-subscription-error-title = Ojavy oñemoneĩvo ñemboheraguapy…
 subscription-title-sub-exists = Eñemboheraguapýmapa
 subscription-title-plan-change-heading = Ehecha ne moambuekue
+subscription-title-not-supported = Ko ñemoambue rape mboheraguapygua noñepytyvõi
 next-sub-guarantee = 30 ára haguépe ome’ẽkuaajey viru
 
 ## Component - TermsAndPrivacy
@@ -224,6 +226,7 @@ upgrade-purchase-details-new-plan-weekly = { $productName } (Arapokõindygua)
 upgrade-purchase-details-new-plan-monthly = { $productName } (Jasygua)
 upgrade-purchase-details-new-plan-halfyearly = { $productName } (6 jasygua)
 upgrade-purchase-details-new-plan-yearly = { $productName } (Arygua)
+upgrade-purchase-details-prorated-credits = Oimeraẽ mba’e vai oikóva ojehúta crédito-ramo ne mba’etépe ha ojeporúta kuatia ñemure og̃uahẽtavape.
 
 ## Page Metadata Information
 ## $productTitle (String) - The name of the product to create subscription, e.g. Mozilla VPN
