@@ -243,6 +243,7 @@ metadata-description-checkout-processing = Ikatúpiko eha’ãrõmi romongu’e 
 metadata-title-checkout-error = Ojavy | { $productTitle }
 # Checkout success
 metadata-title-checkout-success = Osẽporã | { $productTitle }
+metadata-description-checkout-success = ¡Vy’apavẽ! Remohu’ãma hekópe porã ne mba’ejogua.
 # Checkout needs_input
 metadata-title-checkout-needs-input = Tembiapo ojeruréva | { $productTitle }
 # Upgrade start
