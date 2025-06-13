@@ -9,6 +9,8 @@ next-payment-method-header = Eiporavo mba’éichapa ehepyme’ẽta
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = Emoneĩraẽva’erã ne ñemboheraguapy
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+location-header = Eiporavo ne retã ha emoinge nde código postal <p>eñepyrũ hag̃ua ehepyme’ẽ { $productName }</p> rehegua
 location-banner-info = Ndaikatúi rojuhu ne rendaite ore jeheguireínte
 location-required-disclaimer = Roiporu ko marandu roikuaa hag̃ua impuesto ha viru rehegua.
 location-banner-currency-change = Viru moambue noñemoneĩri. Eku’ejey hag̃ua, eiporavo tetã ojokupytýva nde viru embokuatiaha ne ñemukue.
