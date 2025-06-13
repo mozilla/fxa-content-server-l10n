@@ -679,7 +679,7 @@ flow-setup-2fa-backup-code-confirm-button-finish = Foltôgje
 ## The backup codes download step of the setup 2 factor authentication flow
 
 flow-setup-2fa-backup-code-dl-heading = Reserve-autentikaasjekoaden bewarje
-flow-setup-2fa-backup-code-dl-save-these-codes = Bewarje dizze op in plak dat jo ûnthâlde kinne. As jo gjin tagong hawwe ta jo autentikaasje-app, moatte jo ien ynfiere om oan te melden.
+flow-setup-2fa-backup-code-dl-save-these-codes = Bewarje dizze op in plak dat jo ûnthâlde kinne. As jo gjin tagong hawwe ta jo autentikaasje-app, moatte jo in koade ynfiere om oan te melden.
 flow-setup-2fa-backup-code-dl-button-continue = Trochgean
 
 ## FlowSetupPhoneConfirmCode
