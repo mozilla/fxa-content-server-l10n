@@ -632,10 +632,14 @@ flow-recovery-key-info-cancel-link = Ακύρωση
 
 ## FlowSetup2faApp
 
+flow-setup-2fa-manual-key-heading = Εισαγάγετε τον κωδικό χειροκίνητα
+flow-setup-2fa-button = Συνέχεια
+flow-setup-2fa-input-label = Εισαγάγετε τον εξαψήφιο κωδικό
 
 ## The step to choose the two step authentication method in the two step
 ## authentication setup flow.
 
+flow-setup-2fa-backup-choice-heading = Επιλέξτε μια μέθοδο ανάκτησης
 
 ## The backup code confirm step of the setup 2 factor authentication flow,
 ## where the user confirm that they have saved their backup authentication codes

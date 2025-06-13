@@ -369,6 +369,9 @@ passwordResetAccountRecovery-subject-2 = Oikojeýma ne ñe’ẽñemi
 passwordResetAccountRecovery-title-3 = Oikojeýma ne ñe’ẽñemi
 # Followed by details on the device and date/time of the password reset.
 passwordResetAccountRecovery-description-3 = Eiporu mba’ete ayvu jeguerujeyrã embojevy hag̃ua ne ñe’ẽñemi { -product-mozilla-account } amo:
+passwordResetAccountRecovery-information = Romboty reikeha opaite ne mba’e’oka ojuehévape. Romoheñói mba’ete ñe’ẽñemi guerujeyrã emyengovia hag̃ua eiporuva’ekue. Emoambuekuaa ne mba’ete mbohekohápe.
+# After the colon there is a link to account settings
+passwordResetAccountRecovery-information-txt = Romboty reikeha opaite ne mba’e’oka ojuehévape. Romoheñói mba’ete ñe’ẽñemi guerujeyrã emyengovia hag̃ua eiporuva’ekue. Emoambuekuaa ne mba’ete mbohekohápe:
 passwordResetAccountRecovery-action-4 = Mba’ete ñangareko
 passwordResetRecoveryPhone-subject = Pumbyry guerujeyrã porupyry
 passwordResetRecoveryPhone-preview = Ehechauka ndeteha eikéva
