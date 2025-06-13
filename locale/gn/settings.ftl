@@ -647,11 +647,15 @@ flow-setup-2fa-backup-choice-phone-title = Pumbyry guerujeyrã
 flow-setup-2fa-backup-choice-phone-badge = Ndahasýi
 flow-setup-2fa-backup-choice-code-title = Ayvu ñemoneĩrã jeykekoha
 flow-setup-2fa-backup-choice-code-badge = Hekorosãve
+# This link points to https://support.mozilla.org/kb/secure-mozilla-account-two-step-authentication
+flow-setup-2fa-backup-choice-learn-more-link = Eikuaave guerujeyrã rehegua ha SIM ñemoambue imarãkuaaha
 
 ## The backup code confirm step of the setup 2 factor authentication flow,
 ## where the user confirm that they have saved their backup authentication codes
 ## by entering one of them.
 
+flow-setup-2fa-backup-code-confirm-heading = Emoinge ayvu ñemoneĩrã jeykekoha
+flow-setup-2fa-backup-code-confirm-code-input = Ehai ayvu orekóva 10 tai
 # Clicking on this button finishes the whole flow upon success.
 flow-setup-2fa-backup-code-confirm-button-finish = Mbopaha
 
