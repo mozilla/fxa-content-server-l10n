@@ -630,6 +630,7 @@ flow-recovery-key-info-cancel-link = Annuller
 
 ## FlowSetup2faApp
 
+flow-setup-2fa-input-label = Indtast sekscifret kode
 
 ## The step to choose the two step authentication method in the two step
 ## authentication setup flow.
@@ -651,7 +652,7 @@ flow-setup-phone-confirm-code-heading = Indtast bekræftelseskode
 # $phoneNumber is a partially obfuscated phone number with only the last 4 digits showing (e.g., *** *** 1234)
 # span element applies formatting to ensure the number is always displayed left-to-right
 flow-setup-phone-confirm-code-instruction = En sekscifret kode blev sendt til <span>{ $phoneNumber }</span> i en SMS-besked. Denne kode udløber efter 5 minutter.
-flow-setup-phone-confirm-code-input-label = Indtast 6-cifret kode
+flow-setup-phone-confirm-code-input-label = Indtast sekscifret kode
 flow-setup-phone-confirm-code-button = Bekræft
 # button to resend a code by text message to the user's phone
 # followed by a button to resend a code
@@ -1460,7 +1461,7 @@ auth-totp-heading-w-default-service = Indtast godkendelseskoden <span>for at for
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 auth-totp-heading-w-custom-service = Indtast godkendelseskoden <span>for at fortsætte til { $serviceName }</span>
 auth-totp-instruction = Åbn din godkendelsesapp og indtast den angivne godkendelseskode.
-auth-totp-input-label = Indtast 6-cifret kode
+auth-totp-input-label = Indtast sekscifret kode
 # Form button to confirm if the authentication code entered by the user is valid
 auth-totp-confirm-button = Bekræft
 # Error displayed in a tooltip when the form is submitted without a code
@@ -1607,7 +1608,7 @@ confirm-totp-reset-password-subheader-v2 = Indtast kode til totrinsgodkendelse
 confirm-totp-reset-password-instruction-v2 = Tjek din <strong>godkendelsesapp</strong> for at nulstille din adgangskode.
 confirm-totp-reset-password-trouble-code = Har du problemer med at indtaste koden?
 confirm-totp-reset-password-confirm-button = Bekræft
-confirm-totp-reset-password-input-label-v2 = Indtast 6-cifret kode
+confirm-totp-reset-password-input-label-v2 = Indtast sekscifret kode
 confirm-totp-reset-password-use-different-account = Brug en anden konto
 
 ## ResetPassword start page
@@ -1798,7 +1799,7 @@ signin-recovery-phone-heading = Indtast genoprettelseskode
 # Text that explains the user should check their phone for a recovery code
 # $maskedPhoneNumber - The users masked phone number
 signin-recovery-phone-instruction-v3 = En sekscifret kode blev sendt i en SMS-besked til telefonnummeret, der ender på <span>{ $lastFourPhoneDigits }</span>. Denne kode udløber efter 5 minutter. Del ikke denne kode med nogen.
-signin-recovery-phone-input-label = Indtast 6-cifret kode
+signin-recovery-phone-input-label = Indtast sekscifret kode
 signin-recovery-phone-code-submit-button = Bekræft
 signin-recovery-phone-resend-code-button = Send kode igen
 signin-recovery-phone-resend-success = Kode sendt
@@ -1829,7 +1830,7 @@ signin-reported-message = Vores team har fået besked. Rapporter som denne hjæl
 signin-token-code-heading-2 = Indtast bekræftelseskoden<span> til din { -product-mozilla-account }</span>
 # { $email } represents the email that the user entered to sign in
 signin-token-code-instruction-v2 = Indtast koden, der blev sendt til <email>{ $email }</email>, indenfor 5 minutter.
-signin-token-code-input-label-v2 = Indtast 6-cifret kode
+signin-token-code-input-label-v2 = Indtast sekscifret kode
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Bekræft
 signin-token-code-code-expired = Er koden udløbet?
@@ -1850,7 +1851,7 @@ signin-token-code-instruction-desktop-relay = { -brand-firefox } vil forsøge at
 signin-totp-code-header = Log ind
 signin-totp-code-subheader-v2 = Indtast kode til totrinsgodkendelse
 signin-totp-code-instruction-v4 = Tjek din <strong>godkendelsesapp</strong> for at bekræfte dit login.
-signin-totp-code-input-label-v4 = Indtast 6-cifret kode
+signin-totp-code-input-label-v4 = Indtast sekscifret kode
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Bekræft
 signin-totp-code-other-account-link = Brug en anden konto
@@ -1895,7 +1896,7 @@ confirm-signup-code-page-title = Indtast bekræftelseskode
 confirm-signup-code-heading-2 = Indtast bekræftelseskoden <span>til din { -product-mozilla-account }</span>
 # { $email } represents the email that the user entered to sign in
 confirm-signup-code-instruction-v2 = Indtast koden, der blev sendt til <email>{ $email }</email>, indenfor 5 minutter.
-confirm-signup-code-input-label = Indtast 6-cifret kode
+confirm-signup-code-input-label = Indtast sekscifret kode
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = Bekræft
 confirm-signup-code-code-expired = Er koden udløbet?

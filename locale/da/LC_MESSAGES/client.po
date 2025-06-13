@@ -1,19 +1,13 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Firefox Accounts\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-05 20:09+0000\n"
-"PO-Revision-Date: 2024-12-06 09:59+0000\n"
-"Last-Translator: Joergen <joradan0@gmail.com>\n"
-"Language-Team: MozillaDanmark\n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pontoon\n"
-"X-POOTLE-MTIME: 1448305874.0\n"
+"Generated-By: Pontoon\n"
 
 #: .es5/views/confirm_reset_password.js:170
 msgid "Password reset"
@@ -1043,7 +1037,7 @@ msgstr "Indtast koden, der blev sendt til %(escapedEmail)s, indenfor 5 minutter.
 #: .es5/templates/confirm_signup_code.mustache:3 .es5/templates/sign_in_token_code.mustache:3 .es5/templates/sign_in_totp_code.mustache:4
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:6
 msgid "Enter 6-digit code"
-msgstr "Indtast 6-cifret kode"
+msgstr "Indtast sekscifret kode"
 
 #: .es5/templates/confirm_signup_code.mustache:4 .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_token_code.mustache:4
 #: .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7

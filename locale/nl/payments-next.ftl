@@ -194,6 +194,7 @@ next-subscription-processing-title = Abonnement bevestigen…
 next-subscription-error-title = Fout bij bevestigen abonnement…
 subscription-title-sub-exists = U bent al geabonneerd
 subscription-title-plan-change-heading = Uw wijziging bekijken
+subscription-title-not-supported = Deze abonnementswijziging wordt niet ondersteund
 next-sub-guarantee = 30-dagen-geldteruggarantie
 
 ## Component - TermsAndPrivacy

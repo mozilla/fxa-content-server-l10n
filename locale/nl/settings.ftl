@@ -630,18 +630,33 @@ flow-recovery-key-info-cancel-link = Annuleren
 
 ## FlowSetup2faApp
 
+flow-setup-2fa-cant-scan-qr-button = Kunt u de QR-code niet scannen?
+flow-setup-2fa-manual-key-heading = Code handmatig invoeren
+flow-setup-2fa-button = Doorgaan
+flow-setup-2fa-input-label = Voer 6-cijferige code in
 
 ## The step to choose the two step authentication method in the two step
 ## authentication setup flow.
 
+flow-setup-2fa-backup-choice-heading = Kies een herstelmethode
+flow-setup-2fa-backup-choice-phone-title = Hersteltelefoonnummer
+flow-setup-2fa-backup-choice-code-title = Reserve-authenticatiecodes
 
 ## The backup code confirm step of the setup 2 factor authentication flow,
 ## where the user confirm that they have saved their backup authentication codes
 ## by entering one of them.
 
+flow-setup-2fa-backup-code-confirm-heading = Voer reserve-authenticatiecode in
+# codes here refers to backup authentication codes
+flow-setup-2fa-backup-code-confirm-confirm-saved = Bevestig dat u uw codes hebt opgeslagen door er een in te voeren. Zonder deze codes kunt u zich mogelijk niet aanmelden als u uw authenticator-app niet hebt.
+flow-setup-2fa-backup-code-confirm-code-input = Voer code van 10 tekens in
+# Clicking on this button finishes the whole flow upon success.
+flow-setup-2fa-backup-code-confirm-button-finish = Voltooien
 
 ## The backup codes download step of the setup 2 factor authentication flow
 
+flow-setup-2fa-backup-code-dl-heading = Reserve-authenticatiecodes opslaan
+flow-setup-2fa-backup-code-dl-button-continue = Doorgaan
 
 ## FlowSetupPhoneConfirmCode
 
