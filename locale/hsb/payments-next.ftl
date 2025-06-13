@@ -197,6 +197,7 @@ next-subscription-processing-title = Abonement so wobkruća…
 next-subscription-error-title = Zmylk při wobkrućenju abonementa…
 subscription-title-sub-exists = Sće hižo abonował
 subscription-title-plan-change-heading = Přepruwujće swoju změnu
+subscription-title-not-supported = Tuta změna abonementoweho plana so njepodpěruje
 next-sub-guarantee = 30-dnjowska garantija wróćenja pjenjez
 
 ## Component - TermsAndPrivacy

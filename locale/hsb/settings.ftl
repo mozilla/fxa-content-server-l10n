@@ -630,18 +630,39 @@ flow-recovery-key-info-cancel-link = Přetorhnyć
 
 ## FlowSetup2faApp
 
+flow-setup-2fa-cant-scan-qr-button = Njemóžeće QR-kod skenować?
+flow-setup-2fa-manual-key-heading = Kod manuelnje zapodać
+flow-setup-2fa-scan-qr-instead-button = QR-kod město toho skenować?
+flow-setup-2fa-button = Dale
+flow-setup-2fa-input-label = Zapodajće 6-městnowy kod
 
 ## The step to choose the two step authentication method in the two step
 ## authentication setup flow.
 
+flow-setup-2fa-backup-choice-heading = Wubjerće wobnowjensku metodu
+flow-setup-2fa-backup-choice-description = To wam zmóžnja so přizjewić, jeli přistup k swojemu mobilnemu gratej abo awtentifikaciskemu nałoženju nimaće.
+flow-setup-2fa-backup-choice-phone-title = Wobnowjenski telefon
+flow-setup-2fa-backup-choice-phone-badge = Najlóši
+flow-setup-2fa-backup-choice-code-title = Zawěsćenske awtentifikaciske kody
+flow-setup-2fa-backup-choice-code-badge = Najwěsćiši
+# This link points to https://support.mozilla.org/kb/secure-mozilla-account-two-step-authentication
+flow-setup-2fa-backup-choice-learn-more-link = Zhońće wjace wo wobnowjenju a riziku SIM swap
 
 ## The backup code confirm step of the setup 2 factor authentication flow,
 ## where the user confirm that they have saved their backup authentication codes
 ## by entering one of them.
 
+flow-setup-2fa-backup-code-confirm-heading = Zapodajće kod za zawěsćensku awtentifikaciju
+# codes here refers to backup authentication codes
+flow-setup-2fa-backup-code-confirm-confirm-saved = Zapodajće kod, zo byšće wobkrućił, zo sće swoje kody składował. Bjez tutych kodow njemóžeće so snano přizjewić, jeli swoje autentifikaciske nałoženje nimaće.
+flow-setup-2fa-backup-code-confirm-code-input = 10-městnowy kod zapodać
+# Clicking on this button finishes the whole flow upon success.
+flow-setup-2fa-backup-code-confirm-button-finish = Dokónčić
 
 ## The backup codes download step of the setup 2 factor authentication flow
 
+flow-setup-2fa-backup-code-dl-heading = Kod za zawěsćensku awtentifikaciju składować
+flow-setup-2fa-backup-code-dl-button-continue = Dale
 
 ## FlowSetupPhoneConfirmCode
 
