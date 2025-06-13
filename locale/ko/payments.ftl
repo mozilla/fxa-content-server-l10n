@@ -334,6 +334,7 @@ sub-update-new-plan-daily = { $productName } (매일)
 sub-update-new-plan-weekly = { $productName }(매주)
 sub-update-new-plan-monthly = { $productName } (월간)
 sub-update-new-plan-yearly = { $productName } (연간)
+sub-update-prorated-upgrade-credit = 표시된 음수 잔액은 귀하의 계정에 크레딧으로 적용되고 향후 청구서 결제에 사용됩니다.
 
 ## Routes - Subscriptions - Cancel
 
@@ -361,6 +362,7 @@ sub-item-cancel-confirm =
 # Cybersecurity Awareness Month 2023 coupon applied: $11.20 + $0.35 tax
 # Summer Promo VPN coupon applied: $11.20
 sub-promo-coupon-applied = { $promotion_name } 쿠폰 적용됨: <priceDetails></priceDetails>
+subscription-management-account-credit-balance = 이 구독 결제로 계정 잔액에 크레딧이 추가됐습니다: <priceDetails></priceDetail>
 
 ## Routes - Subscription
 
