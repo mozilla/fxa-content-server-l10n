@@ -23,6 +23,7 @@ upgrade-page-acknowledgment = Your plan will change immediately, and you’ll be
 
 ## Authentication Error page
 
+auth-error-page-title = We Couldn’t Sign You In
 checkout-error-boundary-retry-button = Try again
 checkout-error-boundary-basic-error-message = Something went wrong. Please try again or <contactSupportLink>contact support.</contactSupportLink>
 
@@ -194,6 +195,7 @@ next-subscription-processing-title = Confirming subscription…
 next-subscription-error-title = Error confirming subscription…
 subscription-title-sub-exists = You’ve already subscribed
 subscription-title-plan-change-heading = Review your change
+subscription-title-not-supported = This subscription plan change is not supported
 next-sub-guarantee = 30-day money-back guarantee
 
 ## Component - TermsAndPrivacy
