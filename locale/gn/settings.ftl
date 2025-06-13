@@ -628,6 +628,11 @@ flow-recovery-key-info-cancel-link = Heja
 
 ## FlowSetup2faApp
 
+flow-setup-2fa-qr-heading = Eike tembiporu’i ñemoneĩhávape
+flow-setup-2fa-cant-scan-qr-button = ¿Ndaikatúi emoha’ãnga QR ayvu?
+flow-setup-2fa-manual-key-heading = Emoinge ayvu nde poitépe
+flow-setup-2fa-manual-key-instruction = <strong>Ku’e 1:</strong> Emoinge ko ayvu ne rembiporu’i ñemoneĩrã eipotávape.
+flow-setup-2fa-scan-qr-instead-button = ¿Emoha’ãnga QR ayvu hendaguépe?
 
 ## The step to choose the two step authentication method in the two step
 ## authentication setup flow.
