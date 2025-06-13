@@ -638,7 +638,7 @@ flow-setup-2fa-scan-qr-instead-button = Bunun yerine QR kodu okutulsun mu?
 # links to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication#w_step-one
 flow-setup-2fa-more-info-link = Kimlik doğrulama uygulamaları hakkında daha fazla bilgi alın
 flow-setup-2fa-button = İleri
-flow-setup-2fa-step-2-instruction = <strong>2. adım:</strong>Kimlik doğrulama uygulamanızdaki kodu yazın.
+flow-setup-2fa-step-2-instruction = <strong>2. adım:</strong> Kimlik doğrulama uygulamanızdaki kodu yazın.
 flow-setup-2fa-input-label = 6 basamaklı kodu yazın
 
 ## The step to choose the two step authentication method in the two step

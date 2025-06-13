@@ -640,7 +640,7 @@ flow-setup-2fa-scan-qr-instead-button = Vuoi scansionare il codice QR?
 # links to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication#w_step-one
 flow-setup-2fa-more-info-link = Ulteriori informazioni sulle app di autenticazione
 flow-setup-2fa-button = Continua
-flow-setup-2fa-step-2-instruction = <strong>Passaggio 2:</strong>inserisci il codice dall’app di autenticazione.
+flow-setup-2fa-step-2-instruction = <strong>Passaggio 2:</strong> inserisci il codice dall’app di autenticazione.
 flow-setup-2fa-input-label = Inserisci il codice a 6 cifre
 
 ## The step to choose the two step authentication method in the two step
