@@ -644,7 +644,7 @@ flow-setup-2fa-scan-qr-instead-button = Želite namesto tega skenirati QR-kodo?
 # links to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication#w_step-one
 flow-setup-2fa-more-info-link = Preberite več o aplikacijah za overitev
 flow-setup-2fa-button = Nadaljuj
-flow-setup-2fa-step-2-instruction = <Strong>2. korak:</strong> Vnesite kodo iz aplikacije za overitev.
+flow-setup-2fa-step-2-instruction = <strong>2. korak:</strong> Vnesite kodo iz aplikacije za overitev.
 flow-setup-2fa-input-label = Vnesite 6-mestno kodo
 
 ## The step to choose the two step authentication method in the two step

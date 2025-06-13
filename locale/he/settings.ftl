@@ -623,7 +623,7 @@ flow-setup-2fa-scan-qr-instead-button = האם לסרוק קוד QR במקום?
 # links to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication#w_step-one
 flow-setup-2fa-more-info-link = מידע נוסף על יישומוני אימות
 flow-setup-2fa-button = המשך
-flow-setup-2fa-step-2-instruction = <Strong>שלב 2:</strong> יש להזין את הקוד מיישומון האימות שלך.
+flow-setup-2fa-step-2-instruction = <strong>שלב 2:</strong> יש להזין את הקוד מיישומון האימות שלך.
 flow-setup-2fa-input-label = נא להזין קוד בן 6 ספרות
 
 ## The step to choose the two step authentication method in the two step
