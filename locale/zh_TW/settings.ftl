@@ -635,18 +635,44 @@ flow-setup-2fa-qr-alt-text =
     .alt = 用來設定兩階段驗證的 QR Code，請掃描，或點擊「無法掃描 QR Code？」以取得私鑰字串。
 flow-setup-2fa-cant-scan-qr-button = 無法掃描 QR Code？
 flow-setup-2fa-manual-key-heading = 手動輸入驗證碼
+flow-setup-2fa-manual-key-instruction = <strong>第 1 步：</strong>於您想要使用的驗證器程式輸入此代碼。
+flow-setup-2fa-scan-qr-instead-button = 改成掃描 QR Code？
+# links to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication#w_step-one
+flow-setup-2fa-more-info-link = 了解驗證程式的更多資訊
+flow-setup-2fa-button = 繼續
+flow-setup-2fa-step-2-instruction = <strong>第 2 步：</strong>使用驗證程式產生的驗證碼。
+flow-setup-2fa-input-label = 請輸入六位數的驗證碼
 
 ## The step to choose the two step authentication method in the two step
 ## authentication setup flow.
 
+flow-setup-2fa-backup-choice-heading = 選擇救援方式
+flow-setup-2fa-backup-choice-description = 萬一無法再使用您的行動裝置或驗證程式時，讓您依然能夠登入。
+flow-setup-2fa-backup-choice-phone-title = 救援電話號碼
+flow-setup-2fa-backup-choice-phone-badge = 最簡單
+flow-setup-2fa-backup-choice-phone-info = 透過簡訊接收救援碼，目前只在美國與加拿大提供。
+flow-setup-2fa-backup-choice-code-title = 備用驗證碼
+flow-setup-2fa-backup-choice-code-badge = 最安全
+flow-setup-2fa-backup-choice-code-info = 建立並保存僅可使用一次的驗證碼。
+# This link points to https://support.mozilla.org/kb/secure-mozilla-account-two-step-authentication
+flow-setup-2fa-backup-choice-learn-more-link = 了解救援與 SIM Swap 風險的更多資訊
 
 ## The backup code confirm step of the setup 2 factor authentication flow,
 ## where the user confirm that they have saved their backup authentication codes
 ## by entering one of them.
 
+flow-setup-2fa-backup-code-confirm-heading = 請輸入備用驗證碼
+# codes here refers to backup authentication codes
+flow-setup-2fa-backup-code-confirm-confirm-saved = 請輸入任一組備用驗證碼，以確認您已安全記錄下來。如果未來遺失了這些代碼，無法再使用驗證器時可能就無法再登入帳號。
+flow-setup-2fa-backup-code-confirm-code-input = 請輸入 10 字元長的驗證碼
+# Clicking on this button finishes the whole flow upon success.
+flow-setup-2fa-backup-code-confirm-button-finish = 完成
 
 ## The backup codes download step of the setup 2 factor authentication flow
 
+flow-setup-2fa-backup-code-dl-heading = 儲存備用驗證碼
+flow-setup-2fa-backup-code-dl-save-these-codes = 請將驗證碼保存在您記得的地方，萬一無法再使用驗證程式，就要使用備用驗證碼才能登入。
+flow-setup-2fa-backup-code-dl-button-continue = 繼續
 
 ## FlowSetupPhoneConfirmCode
 
