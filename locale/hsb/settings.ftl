@@ -644,6 +644,7 @@ flow-setup-2fa-scan-qr-instead-button = QR-kod město toho skenować?
 # links to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication#w_step-one
 flow-setup-2fa-more-info-link = Zhońće wjace wo nałoženjach awtentifikacije
 flow-setup-2fa-button = Dale
+flow-setup-2fa-step-2-instruction = <strong>Krok 2:</strong> Zapodajće kod ze swojeho nałoženja awtentifikacije.
 flow-setup-2fa-input-label = Zapodajće 6-městnowy kod
 
 ## The step to choose the two step authentication method in the two step
@@ -653,8 +654,10 @@ flow-setup-2fa-backup-choice-heading = Wubjerće wobnowjensku metodu
 flow-setup-2fa-backup-choice-description = To wam zmóžnja so přizjewić, jeli přistup k swojemu mobilnemu gratej abo awtentifikaciskemu nałoženju nimaće.
 flow-setup-2fa-backup-choice-phone-title = Wobnowjenski telefon
 flow-setup-2fa-backup-choice-phone-badge = Najlóši
+flow-setup-2fa-backup-choice-phone-info = Wobstarajće sej wobnowjenski kod přez tekstowu zdźělenku. Tuchwilu w USA a Kanadźe k dispoziciji.
 flow-setup-2fa-backup-choice-code-title = Zawěsćenske awtentifikaciske kody
 flow-setup-2fa-backup-choice-code-badge = Najwěsćiši
+flow-setup-2fa-backup-choice-code-info = Wutworće a składujće kody awtentifikacije za jónkróćne wužiće.
 # This link points to https://support.mozilla.org/kb/secure-mozilla-account-two-step-authentication
 flow-setup-2fa-backup-choice-learn-more-link = Zhońće wjace wo wobnowjenju a riziku SIM swap
 
@@ -672,6 +675,7 @@ flow-setup-2fa-backup-code-confirm-button-finish = Dokónčić
 ## The backup codes download step of the setup 2 factor authentication flow
 
 flow-setup-2fa-backup-code-dl-heading = Kod za zawěsćensku awtentifikaciju składować
+flow-setup-2fa-backup-code-dl-save-these-codes = Wobchowajće je na městnje, na kotrež so dopominaće. Jeli přistup k swojemu nałoženju awtentifikacije nimaće, dyrbiće jedyn zapodać, zo byšće so přizjewił.
 flow-setup-2fa-backup-code-dl-button-continue = Dale
 
 ## FlowSetupPhoneConfirmCode
