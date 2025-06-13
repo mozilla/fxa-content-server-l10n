@@ -633,18 +633,32 @@ flow-setup-2fa-cant-scan-qr-button = ¿Ndaikatúi emoha’ãnga QR ayvu?
 flow-setup-2fa-manual-key-heading = Emoinge ayvu nde poitépe
 flow-setup-2fa-manual-key-instruction = <strong>Ku’e 1:</strong> Emoinge ko ayvu ne rembiporu’i ñemoneĩrã eipotávape.
 flow-setup-2fa-scan-qr-instead-button = ¿Emoha’ãnga QR ayvu hendaguépe?
+# links to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication#w_step-one
+flow-setup-2fa-more-info-link = Eikuaave tembiporu’i ñemoneĩrã rehegua
+flow-setup-2fa-button = Ku’ejey
+flow-setup-2fa-step-2-instruction = <strong>Ku’e 1:</strong> Emoinge ko ayvu ne rembiporu’i ñemoneĩrã.
+flow-setup-2fa-input-label = Emoinge ayvu 6 taíva
 
 ## The step to choose the two step authentication method in the two step
 ## authentication setup flow.
 
+flow-setup-2fa-backup-choice-heading = Eiporavo mba’éichapa erujeýta
+flow-setup-2fa-backup-choice-phone-title = Pumbyry guerujeyrã
+flow-setup-2fa-backup-choice-phone-badge = Ndahasýi
+flow-setup-2fa-backup-choice-code-title = Ayvu ñemoneĩrã jeykekoha
+flow-setup-2fa-backup-choice-code-badge = Hekorosãve
 
 ## The backup code confirm step of the setup 2 factor authentication flow,
 ## where the user confirm that they have saved their backup authentication codes
 ## by entering one of them.
 
+# Clicking on this button finishes the whole flow upon success.
+flow-setup-2fa-backup-code-confirm-button-finish = Mbopaha
 
 ## The backup codes download step of the setup 2 factor authentication flow
 
+flow-setup-2fa-backup-code-dl-heading = Eñongatu ayvu ñemoneĩrã jeykekoha
+flow-setup-2fa-backup-code-dl-button-continue = Ku’ejey
 
 ## FlowSetupPhoneConfirmCode
 
