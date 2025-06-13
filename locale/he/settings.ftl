@@ -609,6 +609,7 @@ flow-recovery-key-info-cancel-link = ביטול
 
 ## FlowSetup2faApp
 
+flow-setup-2fa-qr-heading = חיבור ליישומון המאמת שלך
 
 ## The step to choose the two step authentication method in the two step
 ## authentication setup flow.

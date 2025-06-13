@@ -19,6 +19,7 @@ upgrade-page-payment-information = פרטי תשלום
 
 ## Authentication Error page
 
+auth-error-page-title = לא הצלחנו להכניס אותך
 checkout-error-boundary-retry-button = ניסיון חוזר
 checkout-error-boundary-basic-error-message = משהו השתבש. נא לנסות שוב או <contactSupportLink>ליצור קשר עם התמיכה</contactSupportLink>.
 
