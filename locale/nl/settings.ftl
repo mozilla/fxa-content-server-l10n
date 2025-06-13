@@ -644,7 +644,7 @@ flow-setup-2fa-scan-qr-instead-button = QR-code scannen?
 # links to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication#w_step-one
 flow-setup-2fa-more-info-link = Meer info over authenticator-apps
 flow-setup-2fa-button = Doorgaan
-flow-setup-2fa-step-2-instruction = <Strong>Stap 2:</strong>voer de code van uw authenticator-app in.
+flow-setup-2fa-step-2-instruction = <strong>Stap 2:</strong> voer de code van uw authenticator-app in.
 flow-setup-2fa-input-label = Voer 6-cijferige code in
 
 ## The step to choose the two step authentication method in the two step
