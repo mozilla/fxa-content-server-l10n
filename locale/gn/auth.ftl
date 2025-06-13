@@ -633,6 +633,9 @@ subscriptionRenewalReminder-content-closing = Ma’ẽag̃uíme,
 subscriptionRenewalReminder-content-signature = { $productName } atyguáva
 subscriptionReplaced-subject = Ne ñemboheraguapy hekopyahu nembohekopyahu reheguávaramo
 subscriptionReplaced-title = Ne ñemboheraguapy oñembohekopyahu
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReplaced-content-replaced = Ne ñembokuatia peteĩteĩva { $productName } rehegua oñemyengovia ha ko’ág̃a oike ne mba’e’oka pyahúpe.
+subscriptionReplaced-content-credit = Rehupytýta peteĩ crédito oimeraẽ aravo ndojeporúiva rehe ne ñembokuatia ymavévape. Ko crédito ojejapóta ijeheguiete nde mba’etépe ha ojeporúta umi oútavape g̃uarã.
 subscriptionReplaced-content-no-action = Noikotevẽi mba’evete ndehegui.
 subscriptionsPaymentExpired-subject-1 = Nde kuatia’atã ñemurã ne ñemboheraguapýpe g̃uarã ndoikói térã ndokovéitama
 subscriptionsPaymentExpired-title-1 = Nde kuatia’atã ñemurã ndoikói térã ndoikovéitama.
@@ -667,6 +670,8 @@ subscriptionUpgrade-upgrade-info-2 = Oñembohekopyahúma { $productName } hekope
 ## $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
+subscriptionUpgrade-content-charge-credit = Rehupyty peteĩ crédito mba’ete rehegua { $paymentProrated } repykuépe.
+subscriptionUpgrade-content-starting = Oñepyrũvo nde kuatia ñemure oúvagui, nde cargo iñambuéta { $paymentAmountOld }-gui { $productPaymentCycleOld }-pe { $paymentAmountNew }-gui { $productPaymentCycleNew }-pe.
 subscriptionUpgrade-auto-renew = Ne ñemboheraguapy ipyahúta ijeheguiete ehepyme’ẽvo eiporuva’ekue neremoneĩriramo ndete voi.
 unblockCode-subject = Ayvu ñemoneĩva mba’ete rehegua
 unblockCode-title = ¿Ndépa emoñepyrũve tembiapo?
