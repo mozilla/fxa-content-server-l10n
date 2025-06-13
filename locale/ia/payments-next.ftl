@@ -23,6 +23,7 @@ upgrade-page-acknowledgment = Tu plano cambiara immediatemente, e hodie te sera 
 
 ## Authentication Error page
 
+auth-error-page-title = Nos non poteva aperir tu session
 checkout-error-boundary-retry-button = Retentar
 checkout-error-boundary-basic-error-message = Alco errate eveniva. Retenta o contacta le <contactSupportLink>supporto.</contactSupportLink>
 
@@ -194,6 +195,7 @@ next-subscription-processing-title = Confirmation del subscription…
 next-subscription-error-title = Error in confirmation de subscription…
 subscription-title-sub-exists = Tu jam es abonate
 subscription-title-plan-change-heading = Revide tu cambiamento
+subscription-title-not-supported = Iste cambiamento de plano de abonamento non es supportate
 next-sub-guarantee = Garantia de reimbursamento de 30 dies
 
 ## Component - TermsAndPrivacy
