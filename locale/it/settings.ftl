@@ -647,7 +647,7 @@ flow-setup-2fa-input-label = Inserisci il codice a 6 cifre
 ## authentication setup flow.
 
 flow-setup-2fa-backup-choice-heading = Scegli un metodo di recupero
-flow-setup-2fa-backup-choice-description = Questo ti consente di accedere se non riesci ad accedere al tuo dispositivo mobile o all’app di autenticazione.
+flow-setup-2fa-backup-choice-description = Questo ti consente di completare l’accesso se non riesci ad accedere al tuo dispositivo mobile o all’app di autenticazione.
 flow-setup-2fa-backup-choice-phone-title = Telefono per il recupero dell’account
 flow-setup-2fa-backup-choice-phone-badge = Più semplice
 flow-setup-2fa-backup-choice-phone-info = Ricevi un codice di recupero via SMS. Attualmente disponibile negli Stati Uniti e in Canada.
@@ -655,7 +655,7 @@ flow-setup-2fa-backup-choice-code-title = Codici di autenticazione di backup
 flow-setup-2fa-backup-choice-code-badge = Più sicuro
 flow-setup-2fa-backup-choice-code-info = Crea e salva codici di autenticazione monouso.
 # This link points to https://support.mozilla.org/kb/secure-mozilla-account-two-step-authentication
-flow-setup-2fa-backup-choice-learn-more-link = Ulteriori informazioni sul rischio di recupero e swap SIM
+flow-setup-2fa-backup-choice-learn-more-link = Ulteriori informazioni sul recupero e i rischi legati al SIM swap
 
 ## The backup code confirm step of the setup 2 factor authentication flow,
 ## where the user confirm that they have saved their backup authentication codes
@@ -671,7 +671,7 @@ flow-setup-2fa-backup-code-confirm-button-finish = Fine
 ## The backup codes download step of the setup 2 factor authentication flow
 
 flow-setup-2fa-backup-code-dl-heading = Salva i codici di autenticazione di backup
-flow-setup-2fa-backup-code-dl-save-these-codes = Conservali in un posto che ricorderai. Se non hai accesso alla tua app di autenticazione, dovrai inserirne una per accedere.
+flow-setup-2fa-backup-code-dl-save-these-codes = Conservali in un posto facile da ricordare. Se non hai accesso alla tua app di autenticazione, dovrai inserirne uno per accedere.
 flow-setup-2fa-backup-code-dl-button-continue = Continua
 
 ## FlowSetupPhoneConfirmCode
