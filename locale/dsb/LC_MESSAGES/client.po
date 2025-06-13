@@ -2039,7 +2039,7 @@ msgstr "Aby Firefox na swójom telefonje abo tableśe synchronizěrował, musyś
 
 #: .es5/templates/pair/index.mustache:20
 msgid "<b>Step 1</b>: Download Firefox by scanning this QR code with the camera on your mobile device:"
-msgstr "<b>Kšac 1</b>: Skannujśo toś ten QR-kod z kameru na swójom mobilnem rěźe, aby Firefox ześěgnuł:"
+msgstr "<b>Kšac 1</b>: Scannujśo toś ten QR-kod z kameru na swójom mobilnem rěźe, aby Firefox ześěgnuł:"
 
 #: .es5/templates/pair/index.mustache:21
 msgid "QR code (located in the middle of the screen)"
