@@ -23,6 +23,7 @@ upgrade-page-acknowledgment = Uw abonnement wijzigt direct, en er wordt een prop
 
 ## Authentication Error page
 
+auth-error-page-title = We konden u niet aanmelden
 checkout-error-boundary-retry-button = Opnieuw proberen
 checkout-error-boundary-basic-error-message = Er is iets misgegaan. Probeer het opnieuw of <contactSupportLink>neem contact op met de ondersteuningsafdeling.</contactSupportLink>
 

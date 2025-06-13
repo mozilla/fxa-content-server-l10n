@@ -26,6 +26,7 @@ upgrade-page-acknowledgment =
 
 ## Authentication Error page
 
+auth-error-page-title = Njemóžachmy was přizjewić
 checkout-error-boundary-retry-button = Hišće raz spytać
 checkout-error-boundary-basic-error-message = Něšto je so nimokuliło. Prošu spytajće hišće raz abo <contactSupportLink>stajće so z pomocu do zwiska.</contactSupportLink>
 

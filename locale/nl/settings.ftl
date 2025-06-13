@@ -630,6 +630,8 @@ flow-recovery-key-info-cancel-link = Annuleren
 
 ## FlowSetup2faApp
 
+flow-setup-2fa-qr-heading = Maak verbinding met uw authenticator-app
+flow-setup-2a-qr-instruction = <strong>Stap 1:</strong> scan deze QR-code met een authenticator-app, zoals Duo of Google Authenticator.
 flow-setup-2fa-cant-scan-qr-button = Kunt u de QR-code niet scannen?
 flow-setup-2fa-manual-key-heading = Code handmatig invoeren
 flow-setup-2fa-button = Doorgaan
