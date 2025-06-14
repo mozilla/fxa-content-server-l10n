@@ -637,10 +637,12 @@ flow-setup-2fa-qr-alt-text =
     .alt = Código QR para configurar la autenticación en dos pasos. Escanéalo o selecciona "¿No puedes escanear el código QR?" para obtener una clave secreta de configuración.
 flow-setup-2fa-cant-scan-qr-button = ¿No puedes escanear el código QR?
 flow-setup-2fa-manual-key-heading = Ingresa el código manualmente
+flow-setup-2fa-manual-key-instruction = <strong>Paso 1:</strong> Ingresa este código en tu aplicación de autenticación preferida.
 flow-setup-2fa-scan-qr-instead-button = ¿Escanear código QR en su lugar?
 # links to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication#w_step-one
 flow-setup-2fa-more-info-link = Aprende más sobre las aplicaciones de autenticación
 flow-setup-2fa-button = Continuar
+flow-setup-2fa-step-2-instruction = <strong>Paso 2:</strong> Ingresa el código de tu aplicación de autenticación.
 flow-setup-2fa-input-label = Ingresa el código de 6 dígitos
 
 ## The step to choose the two step authentication method in the two step
