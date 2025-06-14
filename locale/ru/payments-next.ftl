@@ -23,6 +23,7 @@ upgrade-page-acknowledgment = Ваш план сменится сразу, и у
 
 ## Authentication Error page
 
+auth-error-page-title = Нам не удалось вас пустить
 checkout-error-boundary-retry-button = Попробовать снова
 checkout-error-boundary-basic-error-message = Что-то пошло не так. Пожалуйста, попробуйте ещё раз или <contactSupportLink>обратитесь в службу поддержки.</contactSupportLink>
 
@@ -194,6 +195,7 @@ next-subscription-processing-title = Подтверждение подписки
 next-subscription-error-title = Ошибка подтверждения подписки…
 subscription-title-sub-exists = Вы уже подписались
 subscription-title-plan-change-heading = Проверьте свое изменение
+subscription-title-not-supported = Это изменение плана подписки не поддерживается
 next-sub-guarantee = 30-дневная гарантия возврата денег
 
 ## Component - TermsAndPrivacy
