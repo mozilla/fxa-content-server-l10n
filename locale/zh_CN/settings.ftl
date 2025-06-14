@@ -640,14 +640,26 @@ flow-setup-2fa-input-label = 请输入 6 位验证码
 flow-setup-2fa-backup-choice-heading = 请选择一项恢复方式
 flow-setup-2fa-backup-choice-phone-title = 恢复电话号码
 flow-setup-2fa-backup-choice-phone-badge = 最简单
+flow-setup-2fa-backup-choice-phone-info = 通过短信获取恢复验证码。目前仅在美国和加拿大可用。
+flow-setup-2fa-backup-choice-code-title = 备用验证码
+flow-setup-2fa-backup-choice-code-badge = 最安全
+flow-setup-2fa-backup-choice-code-info = 创建并保存一次性验证码。
 
 ## The backup code confirm step of the setup 2 factor authentication flow,
 ## where the user confirm that they have saved their backup authentication codes
 ## by entering one of them.
 
+flow-setup-2fa-backup-code-confirm-heading = 请输入备用验证码
+# codes here refers to backup authentication codes
+flow-setup-2fa-backup-code-confirm-confirm-saved = 请输入任意一个验证码，以确认您已保存验证码。若遗失这些验证码，且无法使用身份验证应用，则可能导致无法登录。
+flow-setup-2fa-backup-code-confirm-code-input = 请输入由 10 个字符组成的验证码
+# Clicking on this button finishes the whole flow upon success.
+flow-setup-2fa-backup-code-confirm-button-finish = 完成
 
 ## The backup codes download step of the setup 2 factor authentication flow
 
+flow-setup-2fa-backup-code-dl-heading = 保存备用验证码
+flow-setup-2fa-backup-code-dl-button-continue = 继续
 
 ## FlowSetupPhoneConfirmCode
 
