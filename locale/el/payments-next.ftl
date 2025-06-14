@@ -23,6 +23,7 @@ upgrade-page-acknowledgment = Το πρόγραμμά σας θα αλλάξει
 
 ## Authentication Error page
 
+auth-error-page-title = Δεν ήταν δυνατή η σύνδεση
 checkout-error-boundary-retry-button = Δοκιμή ξανά
 checkout-error-boundary-basic-error-message = Κάτι πήγε στραβά. Δοκιμάστε ξανά ή <contactSupportLink>επικοινωνήστε με την υποστήριξη.</contactSupportLink>
 
@@ -194,6 +195,7 @@ next-subscription-processing-title = Επιβεβαίωση συνδρομής�
 next-subscription-error-title = Σφάλμα επιβεβαίωσης συνδρομής…
 subscription-title-sub-exists = Έχετε ήδη εγγραφεί
 subscription-title-plan-change-heading = Ελέγξτε την αλλαγή σας
+subscription-title-not-supported = Δεν υποστηρίζεται αυτή η αλλαγή πακέτου συνδρομής
 next-sub-guarantee = Εγγύηση επιστροφής χρημάτων 30 ημερών
 
 ## Component - TermsAndPrivacy

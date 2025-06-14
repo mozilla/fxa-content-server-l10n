@@ -640,6 +640,8 @@ flow-setup-2fa-input-label = Εισαγάγετε τον εξαψήφιο κωδ
 ## authentication setup flow.
 
 flow-setup-2fa-backup-choice-heading = Επιλέξτε μια μέθοδο ανάκτησης
+flow-setup-2fa-backup-choice-phone-title = Τηλέφωνο ανάκτησης
+flow-setup-2fa-backup-choice-code-title = Εφεδρικοί κωδικοί ταυτοποίησης
 
 ## The backup code confirm step of the setup 2 factor authentication flow,
 ## where the user confirm that they have saved their backup authentication codes
