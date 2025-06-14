@@ -649,14 +649,32 @@ flow-setup-2fa-input-label = Inserìs il codiç a 6 cifris
 ## authentication setup flow.
 
 flow-setup-2fa-backup-choice-heading = Sielç un metodi di recupar
+flow-setup-2fa-backup-choice-description = Chest ti permet di completâ l’acès tal câs che no tu rivis a doprâ il to dispositîf mobil o la aplicazion di autenticazion.
+flow-setup-2fa-backup-choice-phone-title = Telefon pal recupar dal account
+flow-setup-2fa-backup-choice-phone-badge = Plui facil
+flow-setup-2fa-backup-choice-phone-info = Ricêf un codiç di recupar vie messaç testuâl (SMS). In chest moment al è disponibil tai Stâts Unîts e in Canadà.
+flow-setup-2fa-backup-choice-code-title = Codiçs di autenticazion di backup
+flow-setup-2fa-backup-choice-code-badge = Plui sigûr
+flow-setup-2fa-backup-choice-code-info = Cree e salve codiçs di autenticazion a ûs ugnul.
+# This link points to https://support.mozilla.org/kb/secure-mozilla-account-two-step-authentication
+flow-setup-2fa-backup-choice-learn-more-link = Altris informazions sul recupar e sui risis leâts al scambi di SIM
 
 ## The backup code confirm step of the setup 2 factor authentication flow,
 ## where the user confirm that they have saved their backup authentication codes
 ## by entering one of them.
 
+flow-setup-2fa-backup-code-confirm-heading = Inserìs il codiç di autenticazion di backup
+# codes here refers to backup authentication codes
+flow-setup-2fa-backup-code-confirm-confirm-saved = Inserìs un dai codiçs par confermâ che tu ju âs salvâts. Tal câs che no tu vedis la tô aplicazion di autenticazion, cence chescj codiçs al è pussibil che no tu rivedis a jentrâ.
+flow-setup-2fa-backup-code-confirm-code-input = Inserìs il codiç di 10 caratars
+# Clicking on this button finishes the whole flow upon success.
+flow-setup-2fa-backup-code-confirm-button-finish = Fin
 
 ## The backup codes download step of the setup 2 factor authentication flow
 
+flow-setup-2fa-backup-code-dl-heading = Salve i codiçs di autenticazion di backup
+flow-setup-2fa-backup-code-dl-save-these-codes = Tegniju di cont intun puest là che tu ti impensis. Se no tu rivis a doprâ la tô aplicazion di autenticazion, tu scugnarâs inserînt un jentrâ.
+flow-setup-2fa-backup-code-dl-button-continue = Continue
 
 ## FlowSetupPhoneConfirmCode
 
