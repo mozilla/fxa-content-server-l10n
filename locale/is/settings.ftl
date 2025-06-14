@@ -400,6 +400,9 @@ password-strength-inline-confirmed-must-match = Staðfesting passar við nýja l
 account-recovery-notification-cta = Búa til
 account-recovery-notification-header-value = Ekki tapa gögnunum þínum ef þú gleymir lykilorðinu þínu
 account-recovery-notification-header-description = Búðu til endurheimtulykil fyrir reikninginn svo þú getir endurheimt samstilltu vafragögnin þín ef þú gleymir lykilorðinu þínu.
+recovery-phone-promo-cta = Bæta við endurheimtusímanúmeri
+promo-banner-dismiss-button =
+    .aria-label = Hunsa borða
 
 ## Ready component
 
@@ -624,18 +627,37 @@ flow-recovery-key-info-cancel-link = Hætta við
 
 ## FlowSetup2faApp
 
+flow-setup-2fa-qr-heading = Tengstu við auðkenningarforritið þitt
+flow-setup-2fa-cant-scan-qr-button = Geturðu ekki skannað QR-kóða?
+flow-setup-2fa-manual-key-heading = Settu kóðann inn handvirkt
+flow-setup-2fa-scan-qr-instead-button = Skanna frekar QR-kóða?
+# links to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication#w_step-one
+flow-setup-2fa-more-info-link = Frekari upplýsingar um auðkenningarforrit
+flow-setup-2fa-button = Halda áfram
+flow-setup-2fa-step-2-instruction = <strong>Skref 2:</strong> Sláðu inn kóðann úr auðkenningarforritinu þínu.
+flow-setup-2fa-input-label = Settu inn 6-stafa kóða
 
 ## The step to choose the two step authentication method in the two step
 ## authentication setup flow.
 
+flow-setup-2fa-backup-choice-heading = Veldu aðferð fyrir endurheimtingu
+flow-setup-2fa-backup-choice-phone-title = Endurheimtusímanúmer
+flow-setup-2fa-backup-choice-phone-badge = Auðveldast
+flow-setup-2fa-backup-choice-code-title = Varaauðkenningarkóðar
+flow-setup-2fa-backup-choice-code-badge = Öruggast
 
 ## The backup code confirm step of the setup 2 factor authentication flow,
 ## where the user confirm that they have saved their backup authentication codes
 ## by entering one of them.
 
+flow-setup-2fa-backup-code-confirm-code-input = Settu inn 10-stafa kóða
+# Clicking on this button finishes the whole flow upon success.
+flow-setup-2fa-backup-code-confirm-button-finish = Ljúka
 
 ## The backup codes download step of the setup 2 factor authentication flow
 
+flow-setup-2fa-backup-code-dl-heading = Vista varaauðkenningarkóða
+flow-setup-2fa-backup-code-dl-button-continue = Halda áfram
 
 ## FlowSetupPhoneConfirmCode
 
@@ -653,6 +675,7 @@ flow-setup-phone-confirm-code-expired = Útrunninn kóði?
 flow-setup-phone-confirm-code-resend-code-button = Senda kóða aftur
 flow-setup-phone-confirm-code-resend-code-success = Kóði sendur
 flow-setup-phone-confirm-code-success-message-v2 = Endurheimtusímanúmeri bætt við
+flow-change-phone-confirm-code-success-message = Endurheimtusímanúmeri breytt
 
 ## FlowSetupPhoneConfirmCode
 
@@ -895,6 +918,7 @@ settings-recovery-phone-remove-success = Endurheimtusímanúmer fjarlægt
 ## PageSetupRecoveryPhone
 
 page-setup-recovery-phone-heading = Bæta við endurheimtusímanúmeri
+page-change-recovery-phone = Skipta um endurheimtusímanúmer
 page-setup-recovery-phone-back-button-title = Til baka í stillingar
 # Back arrow to return to step 1 of recovery phone setup flow
 page-setup-recovery-phone-step2-back-button-title = Skipta um símanúmer
@@ -1613,6 +1637,18 @@ reset-password-confirmed-cta = Halda áfram í { $serviceName }
 
 # password, and they previously had set up an account recovery method.
 
+password-reset-recovery-method-header = Endurstilltu lykilorðið þitt
+password-reset-recovery-method-subheader = Veldu aðferð fyrir endurheimtingu
+# This is displayed to the user when they are choosing an alternative method to authenticate themself in the password reset process when they do not have access to their two-factor authenticator application
+password-reset-recovery-method-details = Við skulum ganga úr skugga um að það sért þú sjálf/ur sem notar endurheimtuaðferðirnar þínar.
+password-reset-recovery-method-phone = Endurheimtusímanúmer
+password-reset-recovery-method-code = Varaauðkenningarkóðar
+# Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
+password-reset-recovery-method-code-info =
+    { $numBackupCodes ->
+        [one] { $numBackupCodes } kóði eftir
+       *[other] { $numBackupCodes } kóðar eftir
+    }
 
 ## ResetPasswordRecoveryPhone page
 
@@ -1701,6 +1737,7 @@ signin-push-code-confirm-link-error = Tengillinn er skemmdur. Reyndu aftur.
 
 signin-recovery-method-header = Innskráning
 signin-recovery-method-subheader = Veldu aðferð fyrir endurheimtingu
+signin-recovery-method-details = Við skulum ganga úr skugga um að það sért þú sjálf/ur sem notar endurheimtuaðferðirnar þínar.
 signin-recovery-method-phone = Endurheimtusímanúmer
 signin-recovery-method-code-v2 = Varaauðkenningarkóðar
 # Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4

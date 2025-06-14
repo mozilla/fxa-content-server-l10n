@@ -371,6 +371,8 @@ passwordResetAccountRecovery-information = Við skráðum þig út úr öllum sa
 # After the colon there is a link to account settings
 passwordResetAccountRecovery-information-txt = Við skráðum þig út úr öllum samstilltu tækjunum þínum. Við bjuggum til nýjan endurheimtulykil í stað þess sem þú notaðir. Þú getur breytt þessu í reikningsstillingunum þínum:
 passwordResetAccountRecovery-action-4 = Sýsla með reikning
+passwordResetRecoveryPhone-subject = Endurheimtusímanúmer sem var notað
+passwordResetRecoveryPhone-preview = Göngum úr skugga um að þetta hafi verið þú
 passwordResetRecoveryPhone-action = Sýsla með reikning
 passwordResetWithRecoveryKeyPrompt-subject = Lykilorðið þitt var endurstillt
 passwordResetWithRecoveryKeyPrompt-title = Lykilorðið þitt var endurstillt
@@ -431,6 +433,8 @@ postConsumeRecoveryCode-title-3 = Varaauðkenningarkóðinn þinn var notaður t
 # E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
 postConsumeRecoveryCode-description-3 = Kóði notaður frá:
 postConsumeRecoveryCode-action = Sýsla með reikning
+postConsumeRecoveryCode-subject-v3 = Varaauðkenningarkóði sem var notaður
+postConsumeRecoveryCode-preview = Göngum úr skugga um að þetta hafi verið þú
 postNewRecoveryCodes-subject-2 = Nýjir varaauðkenningarkóðar búnir til
 postNewRecoveryCodes-title-2 = Þú bjóst til varaauðkenningarkóða
 # After the colon, there is information about the device that the authentication codes were created on
