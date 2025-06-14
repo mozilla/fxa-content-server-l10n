@@ -82,7 +82,7 @@ subplat-privacy-website-plaintext = { subplat-privacy }:
 account-deletion-info-block-communications = Hvis kontoen din slettes, vil du fortsatt motta e-poster fra Mozilla Corporation og Mozilla Foundation, med mindre du <a data-l10n-name="unsubscribeLink">ber om å avslutte abonnementet</a>.
 account-deletion-info-block-support = Hvis du har spørsmål eller trenger hjelp, kan du gjerne kontakte <a data-l10n-name="supportLink">støtteteamet</a> vårt.
 account-deletion-info-block-communications-plaintext = Hvis kontoen din slettes, vil du fortsatt motta e-poster fra Mozilla Corporation og Mozilla Foundation, med mindre du ber om å avslutte abonnementet:
-account-deletion-info-block-support-plaintext = Hvis du har spørsmål eller trenger hjelp, kan du gjerne kontakte support-teamet vårt:
+account-deletion-info-block-support-plaintext = Hvis du har spørsmål eller trenger hjelp, kan du gjerne kontakte brukerstøtte-teamet vårt:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-android-badge = <img data-l10n-name="google-play-badge" alt="Last ned { $productName } i { -google-play }">
@@ -166,6 +166,10 @@ automated-email-reset-pwd-two-factor =
     Hvis du ikke utførte dette, må du <a data-l10n-name="resetLink">tilbakestille passordet ditt</a> og <a data-l10n-name="twoFactorSettingsLink">tilbakestille totrinnsautentisering</a> med en gang.
     
     For mer informasjon, besøk <a data-l10n-name="supportLink">{ -brand-mozilla } brukerstøtte</a>.
+# Followed by link to https://accounts.firefox.com/reset_password
+automated-email-reset-pwd-plaintext-v3 = Hvis du ikke utførte dette, kan du tilbakestille passordet ditt med en gang på:
+# Followed by link to https://accounts.firefox.com/settings#two-step-authentication
+automated-email-reset-two-factor-plaintext = Tilbakestill også totrinnsautentisering på:
 brand-banner-message = Visste du at vi endret navnet vårt fra { -product-firefox-accounts } til { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Les mer</a>
 cancellationSurvey = Hjelp oss med å forbedre tjenestene våre ved å være med i denne <a data-l10n-name="cancellationSurveyUrl">korte undersøkelsen</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
@@ -227,6 +231,7 @@ subscriptionCharges-content-tax = Skatter og avgifter: { $invoiceTaxAmount }
 ##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
 
 subscriptionFirstInvoice-content-charge = Belastet { $invoiceTotal } den { $invoiceDateOnly }
+subscriptionFirstInvoice-content-credit = Du har mottatt en kontokreditt på { $invoiceTotal }, som vil bli brukt på dine fremtidige fakturaer.
 
 ##
 
@@ -291,6 +296,7 @@ fraudulentAccountDeletion-contact = Hvis du har spørsmål, så kontakt <a data-
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Hvis du har spørsmål, så kontakt support-teamet vårt: { $mozillaSupportUrl }
+inactiveAccountFinalWarning-subject = Siste sjanse til å beholde din { -product-mozilla-account }
 inactiveAccountFinalWarning-title = Din { -brand-mozilla }-konto og data vil bli slettet
 inactiveAccountFinalWarning-preview = Logg inn for å beholde kontoen din
 inactiveAccountFinalWarning-account-description = Din { -product-mozilla-account } brukes til å få tilgang til gratis personvern- og surfeprodukter som { -brand-firefox } sync, { -product-mozilla-monitor }, { -product-firefox-relay } og { -product-mdn }.
@@ -364,7 +370,26 @@ password-forgot-otp-code-2 = Hvis dette var deg, her er bekreftelseskoden for å
 password-forgot-otp-expiry-notice = Denne koden utløper om 10 minutter.
 passwordReset-subject-2 = Passordet ditt har blitt tilbakestilt
 passwordReset-title-2 = Passordet ditt har blitt tilbakestilt
+# This sentence is followed by information about the device and time of the password reset
+passwordReset-description-2 = Du tilbakestilte { -product-mozilla-account }-passordet ditt den:
 passwordResetAccountRecovery-subject-2 = Passordet ditt er tilbakestilt
+passwordResetAccountRecovery-title-3 = Passordet ditt har blitt tilbakestilt
+# Followed by details on the device and date/time of the password reset.
+passwordResetAccountRecovery-description-3 = Du brukte kontogjenopprettingsnøkkelen din til å tilbakestille passordet ditt for { -product-mozilla-account } den:
+passwordResetAccountRecovery-information = Vi logget deg ut av alle dine synkroniserte enheter. Vi opprettet en ny kontogjenopprettingsnøkkel for å erstatte den du brukte. Du kan endre den i kontoinnstillingene dine.
+# After the colon there is a link to account settings
+passwordResetAccountRecovery-information-txt = Vi logget deg ut av alle dine synkroniserte enheter. Vi opprettet en ny kontogjenopprettingsnøkkel for å erstatte den du brukte. Du kan endre den i kontoinnstillingene dine:
+passwordResetAccountRecovery-action-4 = Behandle konto
+passwordResetRecoveryPhone-subject = Gjenopprettingstelefon brukt
+passwordResetWithRecoveryKeyPrompt-subject = Passordet ditt har blitt tilbakestilt
+passwordResetWithRecoveryKeyPrompt-title = Passordet ditt har blitt tilbakestilt
+# Details of the device and date/time where the password was reset
+passwordResetWithRecoveryKeyPrompt-description = Du tilbakestilte { -product-mozilla-account }-passordet ditt den:
+# Text for button action to create a new account recovery key
+passwordResetWithRecoveryKeyPrompt-action = Opprett kontogjenopprettingsnøkkel
+# colon is followed by a link to create an account recovery key from the account settings page
+passwordResetWithRecoveryKeyPrompt-action-txt = Opprett kontogjenopprettingsnøkkel:
+passwordResetWithRecoveryKeyPrompt-cta-description = Du må logge inn igjen på alle de synkroniserte enhetene dine. Hold dataene dine trygge neste gang med en kontogjenopprettingsnøkkel. Dette lar deg gjenopprette dataene dine hvis du glemmer passordet ditt.
 postAddAccountRecovery-subject-3 = Ny kontogjenopprettingsnøkkel opprettet
 postAddAccountRecovery-title2 = Du opprettet en ny kontogjenopprettingsnøkkel
 # Key here refers to account recovery key
@@ -377,6 +402,12 @@ postAddLinkedAccount-subject-2 = Ny konto knyttet til { -product-mozilla-account
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = { $providerName }-kontoen er koblet til { -product-mozilla-account }-en din
 postAddLinkedAccount-action = Behandle konto
+postAddRecoveryPhone-subject = Gjenopprettingstelefon lagt til
+# Links out to a support article about two factor authentication
+postAddRecoveryPhone-how-protect = Slik beskytter dette kontoen din
+postAddRecoveryPhone-how-protect-plaintext = Slik beskytter dette kontoen din:
+postAddRecoveryPhone-enabled-device = Du har slått det på fra:
+postAddRecoveryPhone-action = Behandle konto
 postAddTwoStepAuthentication-subject-2 = Totrinns-verifisering er slått på
 postAddTwoStepAuthentication-title-2 = Du har slått på totrinns-verifisering
 # After the colon, there is a description of the device that the user used to enable two-step authentication
@@ -394,6 +425,9 @@ postChangePrimary-title = Ny primær e-post
 #  $email (String) - A user's email address
 postChangePrimary-description-2 = Du har endret den primære e-postadressen din til { $email }. Denne adressen benytter du som brukernavn for å logge inn på din { -product-mozilla-account }, samt for å ta imot sikkerhetsvarsler og bekreftelser på innlogginger.
 postChangePrimary-action = Behandle konto
+postChangeRecoveryPhone-subject = Gjenopprettingstelefon oppdatert
+postChangeRecoveryPhone-title = Du endret gjenopprettingstelefonen din
+postChangeRecoveryPhone-requested-device = Du ba om det fra:
 postConsumeRecoveryCode-action = Behandle konto
 postNewRecoveryCodes-subject-2 = Nye reserve-autentiseringskoder opprettet
 postNewRecoveryCodes-title-2 = Du opprettet nye reserve-autentiseringskoder
