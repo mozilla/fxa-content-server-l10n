@@ -22,6 +22,16 @@ recovery-phone-signin-sms-body = { $code } er din { -brand-mozilla }-gjenopprett
 # Messages should be limited to one segment
 # $code  - 6 digit code used to sign in with a recovery phone as backup for two-step authentication
 recovery-phone-signin-sms-short-body = { -brand-mozilla }-kode: { $code }
+# Message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to sign in with a recovery phone as backup for account password reset
+recovery-phone-reset-password-sms-body = { $code } er din { -brand-mozilla }-gjenopprettingskode. Utløper om 5 minutter.
+# Shorter message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to sign in with a recovery phone as backup for account password reset
+recovery-phone-reset-password-short-body = { -brand-mozilla }-kode: { $code }
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
@@ -72,6 +82,7 @@ subplat-privacy-website-plaintext = { subplat-privacy }:
 account-deletion-info-block-communications = Hvis kontoen din slettes, vil du fortsatt motta e-poster fra Mozilla Corporation og Mozilla Foundation, med mindre du <a data-l10n-name="unsubscribeLink">ber om å avslutte abonnementet</a>.
 account-deletion-info-block-support = Hvis du har spørsmål eller trenger hjelp, kan du gjerne kontakte <a data-l10n-name="supportLink">støtteteamet</a> vårt.
 account-deletion-info-block-communications-plaintext = Hvis kontoen din slettes, vil du fortsatt motta e-poster fra Mozilla Corporation og Mozilla Foundation, med mindre du ber om å avslutte abonnementet:
+account-deletion-info-block-support-plaintext = Hvis du har spørsmål eller trenger hjelp, kan du gjerne kontakte support-teamet vårt:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-android-badge = <img data-l10n-name="google-play-badge" alt="Last ned { $productName } i { -google-play }">
@@ -99,6 +110,7 @@ automated-email-support = For mer informasjon, besøk <a data-l10n-name="support
 automated-email-change-plaintext-2 = Hvis du ikke gjorde denne handlingen, endre passordet ditt med en gang:
 #  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-support-plaintext = For mer informasjon, besøk { -brand-mozilla } Support:
+automated-email-inactive-account = Dette er en automatisert e-post. Du mottar den fordi du har en { -product-mozilla-account } og det har gått 2 år siden sist pålogging.
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } For mer informasjon, besøk <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
 automated-email-no-action-plaintext = Dette er en automatisert e-post. Hvis du mottok den ved en feil, trenger du ikke gjøre noe.
@@ -145,6 +157,15 @@ automatedEmailRecoveryKey-more-info-plaintext = For mer informasjon, besøk { -b
 automated-email-reset =
     Dette er en automatisert e-post; hvis du ikke autoriserte denne handlingen, <a data-l10n-name="resetLink">tilbakestill passordet ditt</a>.
     For mer informasjon, besøk <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
+# Variables:
+#  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
+automated-email-reset-plaintext-v2 = Hvis du ikke autoriserte denne handlingen, kan du tilbakestille passordet ditt nå på { $resetLink }
+# This message is used by multiple automated emails that notify users of security events on their account
+# "this action" is meant to be a generic term, and could, for example, refer to using a backup authentication code to confirm a password reset
+automated-email-reset-pwd-two-factor =
+    Hvis du ikke utførte dette, må du <a data-l10n-name="resetLink">tilbakestille passordet ditt</a> og <a data-l10n-name="twoFactorSettingsLink">tilbakestille totrinnsautentisering</a> med en gang.
+    
+    For mer informasjon, besøk <a data-l10n-name="supportLink">{ -brand-mozilla } brukerstøtte</a>.
 brand-banner-message = Visste du at vi endret navnet vårt fra { -product-firefox-accounts } til { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Les mer</a>
 cancellationSurvey = Hjelp oss med å forbedre tjenestene våre ved å være med i denne <a data-l10n-name="cancellationSurveyUrl">korte undersøkelsen</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
