@@ -228,6 +228,28 @@ upgrade-purchase-details-new-plan-yearly = { $productName } (árlega)
 ## Page Metadata Information
 ## $productTitle (String) - The name of the product to create subscription, e.g. Mozilla VPN
 
+# Checkout start
+metadata-title-checkout-start = Afgreiðsla | { $productTitle }
+# Checkout processing
+metadata-title-checkout-processing = Vinnsla | { $productTitle }
+# Checkout error
+metadata-title-checkout-error = Villa | { $productTitle }
+# Checkout success
+metadata-title-checkout-success = Tókst | { $productTitle }
+# Checkout needs_input
+metadata-title-checkout-needs-input = Aðgerðar krafist | { $productTitle }
+# Upgrade start
+metadata-title-upgrade-start = Uppfærsla | { $productTitle }
+# Upgrade processing
+metadata-title-upgrade-processing = Vinnsla | { $productTitle }
+# Upgrade error
+metadata-title-upgrade-error = Villa | { $productTitle }
+# Upgrade success
+metadata-title-upgrade-success = Tókst | { $productTitle }
+# Upgrade needs_input
+metadata-title-upgrade-needs-input = Aðgerðar krafist | { $productTitle }
+# Default
+metadata-title-default = Síða fannst ekki | { $productTitle }
 
 ## Coupon Error Messages
 
