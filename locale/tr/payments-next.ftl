@@ -13,6 +13,7 @@ next-payment-method-first-approve = Öncelikle aboneliğinizi onaylamanız gerek
 location-header = <p>{ $productName } ödemesine devam etmek için ülkenizi seçip posta kodunuzu girin</p>
 location-banner-info = Konumunuzu otomatik olarak tespit edemedik
 location-required-disclaimer = Bu bilgileri yalnızca vergileri ve para birimini tespit etmek için kullanıyoruz.
+location-banner-currency-change = Para birimi değişikliği desteklenmiyor. Devam etmek için geçerli para biriminizle eşleşen bir ülke seçin.
 
 ## Page - Upgrade page
 
@@ -22,6 +23,7 @@ upgrade-page-acknowledgment = Planınız hemen değişecek ve bu fatura dönemin
 
 ## Authentication Error page
 
+auth-error-page-title = Girişinizi yapamadık
 checkout-error-boundary-retry-button = Yeniden dene
 checkout-error-boundary-basic-error-message = Bir sorun oluştu. Lütfen yeniden deneyin veya <contactSupportLink>destek ekibiyle iletişime geçin.</contactSupportLink>
 
@@ -29,6 +31,7 @@ checkout-error-boundary-basic-error-message = Bir sorun oluştu. Lütfen yeniden
 ## Common strings used in multiple pages
 
 next-payment-error-manage-subscription-button = Aboneliğimi yönet
+next-iap-blocked-contact-support = Bu ürünle çakışan bir mobil uygulama içi aboneliğiniz var. Size yardımcı olabilmemiz için lütfen destek ekibiyle iletişime geçin.
 next-payment-error-retry-button = Tekrar dene
 next-basic-error-message = Bir şeyler yanlış gitti. Lütfen daha sonra tekrar deneyin.
 checkout-error-contact-support-button = Destek birimiyle iletişime geçin

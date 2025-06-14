@@ -373,6 +373,7 @@ passwordResetAccountRecovery-information-txt = Eşitlenen tüm cihazlarınızdak
 passwordResetAccountRecovery-action-4 = Hesabı yönet
 passwordResetRecoveryPhone-subject = Kurtarma telefonu kullanıldı
 passwordResetRecoveryPhone-title = Parola sıfırlamayı onaylamak için kurtarma telefonunuz kullanıldı
+passwordResetRecoveryPhone-device = Kurtarma telefonunun kullanıldığı yer:
 passwordResetRecoveryPhone-action = Hesabı yönet
 passwordResetWithRecoveryKeyPrompt-subject = Parolanız sıfırlandı
 passwordResetWithRecoveryKeyPrompt-title = Parolanız sıfırlandı
@@ -429,8 +430,12 @@ postChangeRecoveryPhone-title = Kurtarma telefonunuzu değiştirdiniz
 postChangeRecoveryPhone-description = Artık yeni bir kurtarma telefonunuz var. Önceki telefon numaranız silindi.
 postChangeRecoveryPhone-requested-device = Bu cihazdan istediniz:
 postConsumeRecoveryCode-title-3 = Parola sıfırlamayı onaylamak için yedek kimlik doğrulama kodunuz kullanıldı
+# After the colon, there is description of the device that the backup authentication code was used on
+# E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
+postConsumeRecoveryCode-description-3 = Kodun kullanıldığı yer:
 postConsumeRecoveryCode-action = Hesabı yönet
 postConsumeRecoveryCode-subject-v3 = Kullanılan yedek kimlik doğrulama kodu
+postConsumeRecoveryCode-preview = Bunu sizin yaptığınızdan emin olun
 postNewRecoveryCodes-subject-2 = Yeni yedek kimlik doğrulama kodları oluşturuldu
 postNewRecoveryCodes-title-2 = Yeni yedek kimlik doğrulama kodları oluşturdunuz
 # After the colon, there is information about the device that the authentication codes were created on
@@ -625,6 +630,7 @@ subscriptionRenewalReminder-content-closing = Saygılarımızla,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = { $productName } ekibi
+subscriptionReplaced-subject = Yükseltmeniz kapsamında aboneliğiniz güncellendi
 subscriptionReplaced-title = Aboneliğiniz güncellendi
 subscriptionReplaced-content-no-action = Herhangi bir işlem yapmanız gerekmiyor.
 subscriptionsPaymentExpired-subject-1 = Abonelikleriniz için kullandığınız kredi kartının kullanım süresi dolmuş veya yakında dolacak
@@ -660,6 +666,7 @@ subscriptionUpgrade-upgrade-info-2 = Başarıyla { $productName } aboneliğine y
 ## $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
+subscriptionUpgrade-content-charge-credit = Hesabınıza { $paymentProrated } tutarında kredi yüklendi.
 subscriptionUpgrade-auto-renew = İptal etmediğiniz sürece aboneliğiniz her fatura döneminde otomatik olarak yenilenir.
 unblockCode-subject = Hesap yetkilendirme kodu
 unblockCode-title = Giriş yapan siz misiniz?
