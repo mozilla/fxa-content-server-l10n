@@ -23,7 +23,7 @@ upgrade-page-acknowledgment = Bydd eich cynllun yn newid ar unwaith, a byddwn yn
 
 ## Authentication Error page
 
-auth-error-page-title = Ni allem Eich Arwyddo i Mewn
+auth-error-page-title = Doedd Dim Modd Eich Mewngofnodi
 checkout-error-boundary-retry-button = Ceisiwch eto
 checkout-error-boundary-basic-error-message = Aeth rhywbeth o'i le. Ceisiwch eto neu <contactSupportLink>cysylltwch â'n cymorth.</contactSupportLink>
 
@@ -195,7 +195,7 @@ next-subscription-processing-title = Yn cadarnhau eich tanysgrifiad…
 next-subscription-error-title = Gwall wrth gadarnhau eich tanysgrifiad…
 subscription-title-sub-exists = Rydych chi eisoes wedi tanysgrifio
 subscription-title-plan-change-heading = Adolygwch eich newid
-subscription-title-not-supported = Nid yw newid cynllun tanysgrifio yn cael ei gynnal
+subscription-title-not-supported = Dyw newid cynllun tanysgrifio ddim yn cael ei gynnal
 next-sub-guarantee = Gwarant arian-yn-ôl 30 diwrnod
 
 ## Component - TermsAndPrivacy
