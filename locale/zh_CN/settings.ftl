@@ -628,10 +628,18 @@ flow-recovery-key-info-cancel-link = 取消
 
 ## FlowSetup2faApp
 
+flow-setup-2fa-cant-scan-qr-button = 无法扫描二维码？
+flow-setup-2fa-manual-key-heading = 手动输入代码
+flow-setup-2fa-scan-qr-instead-button = 改为扫描二维码？
+flow-setup-2fa-button = 继续
+flow-setup-2fa-input-label = 请输入 6 位验证码
 
 ## The step to choose the two step authentication method in the two step
 ## authentication setup flow.
 
+flow-setup-2fa-backup-choice-heading = 请选择一项恢复方式
+flow-setup-2fa-backup-choice-phone-title = 恢复电话号码
+flow-setup-2fa-backup-choice-phone-badge = 最简单
 
 ## The backup code confirm step of the setup 2 factor authentication flow,
 ## where the user confirm that they have saved their backup authentication codes

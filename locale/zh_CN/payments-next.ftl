@@ -23,6 +23,7 @@ upgrade-page-acknowledgment = 您的方案将立即更改，并向您收取本�
 
 ## Authentication Error page
 
+auth-error-page-title = 无法登录
 checkout-error-boundary-retry-button = 重试
 checkout-error-boundary-basic-error-message = 出了点问题。请重试或<contactSupportLink>联系用户支持</contactSupportLink>。
 
@@ -194,6 +195,7 @@ next-subscription-processing-title = 正在确认订阅…
 next-subscription-error-title = 确认订阅时出现错误…
 subscription-title-sub-exists = 您此前已经订阅。
 subscription-title-plan-change-heading = 确认更改内容
+subscription-title-not-supported = 不支持更改此订阅方案
 next-sub-guarantee = 30 天退款保证
 
 ## Component - TermsAndPrivacy
