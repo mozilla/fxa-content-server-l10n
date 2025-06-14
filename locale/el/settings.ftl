@@ -632,6 +632,7 @@ flow-recovery-key-info-cancel-link = Ακύρωση
 
 ## FlowSetup2faApp
 
+flow-setup-2fa-qr-heading = Συνδεθείτε στην εφαρμογή ελέγχου ταυτότητάς σας
 flow-setup-2fa-manual-key-heading = Εισαγάγετε τον κωδικό χειροκίνητα
 flow-setup-2fa-button = Συνέχεια
 flow-setup-2fa-input-label = Εισαγάγετε τον εξαψήφιο κωδικό
@@ -641,13 +642,21 @@ flow-setup-2fa-input-label = Εισαγάγετε τον εξαψήφιο κωδ
 
 flow-setup-2fa-backup-choice-heading = Επιλέξτε μια μέθοδο ανάκτησης
 flow-setup-2fa-backup-choice-phone-title = Τηλέφωνο ανάκτησης
+flow-setup-2fa-backup-choice-phone-badge = Ευκολότερη μέθοδος
+flow-setup-2fa-backup-choice-phone-info = Λάβετε έναν κωδικό ανάκτησης μέσω γραπτού μηνύματος. Διατίθεται προς το παρόν στις ΗΠΑ και τον Καναδά.
 flow-setup-2fa-backup-choice-code-title = Εφεδρικοί κωδικοί ταυτοποίησης
+flow-setup-2fa-backup-choice-code-badge = Ασφαλέστερη μέθοδος
+flow-setup-2fa-backup-choice-code-info = Δημιουργήστε και αποθηκεύστε κωδικούς ταυτοποίησης μιας χρήσης.
+# This link points to https://support.mozilla.org/kb/secure-mozilla-account-two-step-authentication
+flow-setup-2fa-backup-choice-learn-more-link = Μάθετε για την ανάκτηση και τον κίνδυνο εναλλαγής SIM
 
 ## The backup code confirm step of the setup 2 factor authentication flow,
 ## where the user confirm that they have saved their backup authentication codes
 ## by entering one of them.
 
 flow-setup-2fa-backup-code-confirm-heading = Εισαγάγετε εφεδρικό κωδικό ταυτοποίησης
+# codes here refers to backup authentication codes
+flow-setup-2fa-backup-code-confirm-confirm-saved = Πληκτρολογήστε έναν από τους κωδικούς σας για να επιβεβαιώσετε ότι τους έχετε αποθηκεύσει. Χωρίς αυτούς τους κωδικούς, ενδέχεται να μην μπορείτε να συνδεθείτε αν δεν έχετε την εφαρμογή ελέγχου ταυτότητάς σας.
 flow-setup-2fa-backup-code-confirm-code-input = Εισαγάγετε κωδικό 10 χαρακτήρων
 # Clicking on this button finishes the whole flow upon success.
 flow-setup-2fa-backup-code-confirm-button-finish = Τέλος
