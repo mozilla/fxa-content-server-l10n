@@ -23,6 +23,7 @@ upgrade-page-acknowledgment = Il to plan al cambiarà daurman e vuê ti vignarà
 
 ## Authentication Error page
 
+auth-error-page-title = No rivìn a fâti jentrâ
 checkout-error-boundary-retry-button = Torne prove
 checkout-error-boundary-basic-error-message = Alc al è lât strucj. Torne prove opûr <contactSupportLink>contate il supuart.</contactSupportLink>
 
@@ -194,6 +195,7 @@ next-subscription-processing-title = Daûr a confermâ l’abonament…
 next-subscription-error-title = Erôr te conferme dal abonament…
 subscription-title-sub-exists = Tu âs za l'abonament
 subscription-title-plan-change-heading = Riviôt la tô modifiche
+subscription-title-not-supported = Cheste modifiche al plan di abonament no je supuartade
 next-sub-guarantee = Garanzie di rimbors di 30 dîs
 
 ## Component - TermsAndPrivacy
