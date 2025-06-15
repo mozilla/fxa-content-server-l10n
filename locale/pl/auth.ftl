@@ -144,7 +144,7 @@ automatedEmailRecoveryKey-delete-key-change-pwd = Jeśli to nie Ty, <a data-l10n
 automatedEmailRecoveryKey-change-pwd-only = Jeśli to nie Ty, <a data-l10n-name="passwordChangeLink">zmień hasło</a>.
 automatedEmailRecoveryKey-more-info = Więcej informacji można znaleźć w <a data-l10n-name="supportLink">pomocy { -brand-mozilla(case: "gen") }</a>.
 # Colon is followed by user device info on a separate line (e.g., "Firefox Nightly on Mac OSX 10.11")
-automatedEmailRecoveryKey-origin-plaintext = Zmiana z:
+automatedEmailRecoveryKey-origin-plaintext = Zmiana z urządzenia:
 # Colon is followed by a URL to the account recovery key section of account settings
 automatedEmailRecoveryKey-notyou-delete-key-plaintext = Jeśli to nie Ty, usuń nowy klucz:
 # Colon is followed by a URL to the change password section of account settings
@@ -160,6 +160,15 @@ automated-email-reset =
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext-v2 = Jeżeli nie upoważniono wykonania tej czynności, to należy teraz zmienić hasło pod adresem { $resetLink }
+# This message is used by multiple automated emails that notify users of security events on their account
+# "this action" is meant to be a generic term, and could, for example, refer to using a backup authentication code to confirm a password reset
+automated-email-reset-pwd-two-factor =
+    Jeśli to nie Twoje działanie, to natychmiast <a data-l10n-name="resetLink">zmień swoje hasło</a> i <a data-l10n-name="twoFactorSettingsLink">przywróć uwierzytelnianie dwuetapowe</a>.
+    Więcej informacji można znaleźć w <a data-l10n-name="supportLink">pomocy { -brand-mozilla(case: "gen") }</a>.
+# Followed by link to https://accounts.firefox.com/reset_password
+automated-email-reset-pwd-plaintext-v3 = Jeśli to nie Twoje działanie, natychmiast zmień hasło na:
+# Followed by link to https://accounts.firefox.com/settings#two-step-authentication
+automated-email-reset-two-factor-plaintext = Zmień także uwierzytelnianie dwuetapowe na:
 brand-banner-message = Czy wiesz, że zmieniliśmy naszą nazwę z { -product-firefox-accounts(case: "gen", capitalization: "lower") } na { -product-mozilla-accounts(case: "acc", capitalization: "lower") }? <a data-l10n-name="learnMore">Więcej informacji</a>
 cancellationSurvey = Pomóż nam ulepszać nasze usługi wypełniając tę <a data-l10n-name="cancellationSurveyUrl">krótką ankietę</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
@@ -361,7 +370,7 @@ passwordChangeRequired-different-password = <b>Ważne:</b> wybierz inne hasło n
 passwordChangeRequired-different-password-plaintext = Ważne: wybierz inne hasło niż to, które było używane wcześniej i upewnij się, że jest inne niż hasło Twojego konta e-mail.
 password-forgot-otp-subject = Nie pamiętasz hasła?
 password-forgot-otp-title = Nie pamiętasz hasła?
-password-forgot-otp-request = Otrzymaliśmy prośbę o zmianę hasła Twojego { -product-mozilla-account(case: "gen", capitalization: "lower") } z:
+password-forgot-otp-request = Otrzymaliśmy prośbę o zmianę hasła Twojego { -product-mozilla-account(case: "gen", capitalization: "lower") } z urządzenia:
 password-forgot-otp-code-2 = Jeśli to Ty, oto kod potwierdzenia:
 password-forgot-otp-expiry-notice = Ten kod wygaśnie za 10 minut.
 passwordReset-subject-2 = Zmieniono hasło
@@ -377,7 +386,9 @@ passwordResetAccountRecovery-information = Wylogowaliśmy Cię ze wszystkich syn
 passwordResetAccountRecovery-information-txt = Wylogowaliśmy Cię ze wszystkich synchronizowanych urządzeń. Utworzyliśmy nowy klucz odzyskiwania konta, aby zastąpić ten zużyty. Można go zmienić w ustawieniach konta:
 passwordResetAccountRecovery-action-4 = Zarządzaj kontem
 passwordResetRecoveryPhone-subject = Użyto telefonu odzyskiwania
+passwordResetRecoveryPhone-preview = Sprawdź, czy to na pewno Ty
 passwordResetRecoveryPhone-title = Telefon odzyskiwania został użyty do potwierdzenia zmiany hasła
+passwordResetRecoveryPhone-device = Użyto telefonu odzyskiwania z urządzenia:
 passwordResetRecoveryPhone-action = Zarządzaj kontem
 passwordResetWithRecoveryKeyPrompt-subject = Zmieniono hasło
 passwordResetWithRecoveryKeyPrompt-title = Zmieniono hasło
@@ -434,7 +445,12 @@ postChangeRecoveryPhone-title = Zmieniono telefon odzyskiwania
 postChangeRecoveryPhone-description = Masz teraz nowy telefon odzyskiwania. Twój poprzedni numer telefonu został usunięty.
 postChangeRecoveryPhone-requested-device = Zażądano z urządzenia:
 postConsumeRecoveryCode-title-3 = Zapasowy kod uwierzytelniania został użyty do potwierdzenia zmiany hasła
+# After the colon, there is description of the device that the backup authentication code was used on
+# E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
+postConsumeRecoveryCode-description-3 = Użyto kodu z urządzenia:
 postConsumeRecoveryCode-action = Zarządzaj kontem
+postConsumeRecoveryCode-subject-v3 = Użyto zapasowego kodu uwierzytelniania
+postConsumeRecoveryCode-preview = Sprawdź, czy to na pewno Ty
 postNewRecoveryCodes-subject-2 = Nowe zapasowe kody uwierzytelniania zostały utworzone
 postNewRecoveryCodes-title-2 = Utworzono nowe zapasowe kody uwierzytelniania
 # After the colon, there is information about the device that the authentication codes were created on
@@ -491,7 +507,7 @@ postVerifySecondary-action = Zarządzaj kontem
 recovery-subject = Zmień hasło
 recovery-title-2 = Nie pamiętasz hasła?
 # Information on the device, date and time of the request that triggered the email follows.
-recovery-request-origin-2 = Otrzymaliśmy prośbę o zmianę hasła Twojego { -product-mozilla-account(case: "gen", capitalization: "lower") } z:
+recovery-request-origin-2 = Otrzymaliśmy prośbę o zmianę hasła Twojego { -product-mozilla-account(case: "gen", capitalization: "lower") } z urządzenia:
 recovery-new-password-button = Utwórz nowe hasło, klikając poniższy przycisk. Ten odnośnik wygaśnie w ciągu godziny.
 recovery-copy-paste = Utwórz nowe hasło, kopiując i wklejając poniższy adres do przeglądarki. Ten odnośnik wygaśnie w ciągu godziny.
 recovery-action = Utwórz nowe hasło
