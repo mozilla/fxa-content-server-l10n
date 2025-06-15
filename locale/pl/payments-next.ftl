@@ -235,21 +235,21 @@ metadata-title-checkout-processing = Przetwarzanie | { $productTitle }
 # Checkout error
 metadata-title-checkout-error = Błąd | { $productTitle }
 # Checkout success
-metadata-title-checkout-success = Sukces | { $productTitle }
+metadata-title-checkout-success = Powodzenie | { $productTitle }
 # Checkout needs_input
-metadata-title-checkout-needs-input = Wymagane działanie | { $productTitle }
+metadata-title-checkout-needs-input = Wymagane jest działanie | { $productTitle }
 metadata-description-checkout-needs-input = Aby dokonać płatności, wykonaj wymagane czynności.
 # Upgrade start
-metadata-title-upgrade-start = Rozszerzenie subskrypcji | { $productTitle }
-metadata-description-upgrade-start = Wprowadź dane płatności, aby dokończyć rozszerzenie subskrypcji.
+metadata-title-upgrade-start = Przełączenie subskrypcji | { $productTitle }
+metadata-description-upgrade-start = Wprowadź dane płatności, aby dokończyć przełączenie subskrypcji.
 # Upgrade processing
 metadata-title-upgrade-processing = Przetwarzanie | { $productTitle }
 # Upgrade error
 metadata-title-upgrade-error = Błąd | { $productTitle }
-metadata-description-upgrade-error = Wystąpił błąd podczas przetwarzania zmiany subskrypcji. Jeśli ten problem będzie się powtarzał, skontaktuj się z pomocą techniczną.
+metadata-description-upgrade-error = Wystąpił błąd podczas przetwarzania przełączenia subskrypcji. Jeśli ten problem będzie się powtarzał, skontaktuj się z zespołem wsparcia.
 # Upgrade success
-metadata-title-upgrade-success = Sukces | { $productTitle }
-metadata-description-upgrade-success = Gratulacje! Subskrypcja została pomyślnie zmieniona.
+metadata-title-upgrade-success = Powodzenie | { $productTitle }
+metadata-description-upgrade-success = Gratulacje! Subskrypcja została pomyślnie przełączona.
 
 ## Coupon Error Messages
 
