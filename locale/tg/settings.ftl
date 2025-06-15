@@ -514,14 +514,19 @@ flow-setup-2fa-input-label = Рамзи 6-рақамро ворид кунед
 flow-setup-2fa-backup-choice-heading = Тарзи барқарорсозиро интихоб кунед
 flow-setup-2fa-backup-choice-phone-title = Телефони барқарорсозӣ
 flow-setup-2fa-backup-choice-phone-badge = Осонтарин
+flow-setup-2fa-backup-choice-code-title = Нусхаи эҳтиётии рамзҳои санҷиши ҳаққоният
+flow-setup-2fa-backup-choice-code-badge = Бехатартарин
 
 ## The backup code confirm step of the setup 2 factor authentication flow,
 ## where the user confirm that they have saved their backup authentication codes
 ## by entering one of them.
 
+# Clicking on this button finishes the whole flow upon success.
+flow-setup-2fa-backup-code-confirm-button-finish = Анҷом
 
 ## The backup codes download step of the setup 2 factor authentication flow
 
+flow-setup-2fa-backup-code-dl-button-continue = Идома додан
 
 ## FlowSetupPhoneConfirmCode
 
@@ -556,6 +561,7 @@ la-heading = Ҳисобҳои пайвастшуда
 la-unlink-button = Ҷудо кардани пайванд
 la-unlink-account-button = Ҷудо кардани пайванд
 la-set-password-button = Танзим кардани ниҳонвожа
+nav-linked-accounts = { la-heading }
 
 ## Modal - Default values for a message directed at the user where the user can typically Confirm or Cancel.
 
@@ -573,6 +579,9 @@ msv-submit-button-2 = Тасдиқ кардан
 ## Settings Nav
 
 nav-settings = Танзимот
+nav-profile = Профил
+nav-security = Амният
+nav-connected-services = Хизматрасониҳои пайвастшуда
 nav-data-collection = Ҷамъоварӣ ва истифодабарии маълумот
 nav-paid-subs = Обунаҳо пардохтшуда
 
@@ -777,6 +786,8 @@ security-action-create = Эҷод кардан
 
 ## SubRow component
 
+# Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
+tfa-row-backup-codes-get-new-cta-v2 = Эҷод кардани рамзҳои нав
 # Shown to users who have no backup authentication codes
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = Илова кардан
@@ -960,6 +971,9 @@ legal-terms-heading = Шартҳои хизматрасонӣ
 
 ## AuthAllow page - Part of the device pairing flow
 
+# Submit button to confirm that the user initiated the device pairing
+# and that they approve of the new device being added to their account
+pair-auth-allow-confirm-button = Бале, дастгоҳро тасдиқ кунед
 
 ## PairAuthComplete page - part of the device pairing flow
 
