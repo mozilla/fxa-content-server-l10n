@@ -160,8 +160,15 @@ automated-email-reset =
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext-v2 = Bu işleme onay vermediyseniz lütfen hemen { $resetLink } adresinden parolanızı sıfırlayın
+# This message is used by multiple automated emails that notify users of security events on their account
+# "this action" is meant to be a generic term, and could, for example, refer to using a backup authentication code to confirm a password reset
+automated-email-reset-pwd-two-factor =
+    Bu işlemi siz yapmadıysanız hemen <a data-l10n-name="resetLink">parolanızı</a> ve <a data-l10n-name="twoFactorSettingsLink">iki aşamalı kimlik doğrulamayı</a> sıfırlayın.
+    Daha fazla bilgi için <a data-l10n-name="supportLink">{ -brand-mozilla } Destek</a>ʼi ziyaret edebilirsiniz.
 # Followed by link to https://accounts.firefox.com/reset_password
 automated-email-reset-pwd-plaintext-v3 = Bu işlemi siz yapmadıysanız hemen parolanızı sıfırlayın:
+# Followed by link to https://accounts.firefox.com/settings#two-step-authentication
+automated-email-reset-two-factor-plaintext = Ayrıca iki aşamalı doğrulamayı da sıfırlayın:
 brand-banner-message = { -product-firefox-accounts } adını { -product-mozilla-accounts } olarak değiştirdiğimizi biliyor muydunuz? <a data-l10n-name="learnMore">Bilgi alın</a>
 cancellationSurvey = Hizmetlerimizi iyileştirebilmemiz için bu <a data-l10n-name="cancellationSurveyUrl">kısa ankete</a> katılmanızı rica ederiz.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
@@ -372,6 +379,7 @@ passwordResetAccountRecovery-information = Eşitlenen tüm cihazlarınızdaki ot
 passwordResetAccountRecovery-information-txt = Eşitlenen tüm cihazlarınızdaki oturumlarınızı kapattık. Biraz önce kullandığınız hesap kurtarma anahtarının yerine yeni bir tane oluşturduk. Hesap ayarlarınızdan değiştirebilirsiniz:
 passwordResetAccountRecovery-action-4 = Hesabı yönet
 passwordResetRecoveryPhone-subject = Kurtarma telefonu kullanıldı
+passwordResetRecoveryPhone-preview = Bunu sizin yaptığınızdan emin olun
 passwordResetRecoveryPhone-title = Parola sıfırlamayı onaylamak için kurtarma telefonunuz kullanıldı
 passwordResetRecoveryPhone-device = Kurtarma telefonunun kullanıldığı yer:
 passwordResetRecoveryPhone-action = Hesabı yönet

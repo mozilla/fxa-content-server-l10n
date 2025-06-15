@@ -162,6 +162,7 @@ select-tax-location-error-missing-postal-code = Lütfen posta kodunuzu girin
 select-tax-location-error-invalid-postal-code = Lütfen geçerli bir posta kodu girin
 select-tax-location-successfully-updated = Konumunuz güncellendi.
 select-tax-location-error-location-not-updated = Konumunuz güncellenemedi. Lütfen yeniden deneyin.
+select-tax-location-invalid-currency-change-default = Aktif aboneliklerinizin para birimiyle eşleşen bir ülke seçin.
 signin-form-continue-button = Devam et
 signin-form-email-input = E-postanızı girin
 signin-form-email-input-missing = Lütfen e-posta adresinizi yazın
@@ -191,6 +192,7 @@ next-subscription-processing-title = Abonelik onaylanıyor…
 next-subscription-error-title = Abonelik onaylanırken hata oluştu…
 subscription-title-sub-exists = Zaten abonesiniz
 subscription-title-plan-change-heading = Değişikliğinizi gözden geçirin
+subscription-title-not-supported = Bu abonelik planı değişikliği desteklemiyor
 next-sub-guarantee = 30 gün para iade garantisi
 
 ## Component - TermsAndPrivacy
