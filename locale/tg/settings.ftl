@@ -296,6 +296,10 @@ recovery-phone-image-description =
     .aria-label = Дастгоҳи мобилие, ки рамзро тавассути паёми матнӣ қабул мекунад.
 recovery-phone-code-image-description =
     .aria-label = Рамзе, ки дар дастгоҳи мобилӣ қабул карда шуд.
+backup-recovery-phone-image-aria-label =
+    .aria-label = Дастгоҳи мобилӣ бо имкониятҳои интиқоли паёмҳои матнии «SMS»
+backup-authentication-codes-image-aria-label =
+    .aria-label = Экрани дастгоҳ бо рамзҳо
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -306,6 +310,7 @@ inline-recovery-key-setup-create-header = Ҳисоби худро муҳофиз
 # This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
 inline-recovery-key-setup-create-subheader = Оё шумо як дақиқа вақт ҷудо мекунед, то маълумоти шахсии худро ҳифз кунед?
 inline-recovery-key-setup-start-button = Эҷод кардани калиди барқарорсозии ҳисоб
+inline-recovery-key-setup-later-button = Онро дертар иҷро намоед
 
 ## Input Password
 
@@ -499,10 +504,16 @@ flow-recovery-key-info-cancel-link = Бекор кардан
 
 ## FlowSetup2faApp
 
+flow-setup-2fa-manual-key-heading = Рамзро ба таври дастӣ ворид намоед
+flow-setup-2fa-button = Идома додан
+flow-setup-2fa-input-label = Рамзи 6-рақамро ворид кунед
 
 ## The step to choose the two step authentication method in the two step
 ## authentication setup flow.
 
+flow-setup-2fa-backup-choice-heading = Тарзи барқарорсозиро интихоб кунед
+flow-setup-2fa-backup-choice-phone-title = Телефони барқарорсозӣ
+flow-setup-2fa-backup-choice-phone-badge = Осонтарин
 
 ## The backup code confirm step of the setup 2 factor authentication flow,
 ## where the user confirm that they have saved their backup authentication codes
