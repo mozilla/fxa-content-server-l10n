@@ -23,6 +23,7 @@ upgrade-page-acknowledgment = 요금제가 즉시 변경되며, 결제 주기의
 
 ## Authentication Error page
 
+auth-error-page-title = 로그인할 수 없습니다.
 checkout-error-boundary-retry-button = 다시 시도
 checkout-error-boundary-basic-error-message = 무언가 잘못되었습니다. 다시 시도하시거나 <contactSupportLink>지원 팀에 문의</contactSupportLink>하세요.
 
@@ -30,6 +31,7 @@ checkout-error-boundary-basic-error-message = 무언가 잘못되었습니다. �
 ## Common strings used in multiple pages
 
 next-payment-error-manage-subscription-button = 내 구독 관리
+next-iap-blocked-contact-support = 이 제품과 충돌하는 모바일 앱 내부 구독이 있습니다 — 지원팀에 문의하시면 도와드리겠습니다.
 next-payment-error-retry-button = 다시 시도하세요
 next-basic-error-message = 문제가 발생했습니다. 나중에 다시 시도하세요.
 checkout-error-contact-support-button = 연락하기
@@ -193,6 +195,7 @@ next-subscription-processing-title = 구독 확인 중…
 next-subscription-error-title = 구독 확인 오류…
 subscription-title-sub-exists = 이미 구독 중입니다
 subscription-title-plan-change-heading = 변경사항 검토
+subscription-title-not-supported = 해당 구독 일정 변경이 지원되지 않습니다.
 next-sub-guarantee = 30 일 환불 보장
 
 ## Component - TermsAndPrivacy
@@ -226,13 +229,52 @@ upgrade-purchase-details-new-plan-weekly = { $productName } (매주)
 upgrade-purchase-details-new-plan-monthly = { $productName } (월간)
 upgrade-purchase-details-new-plan-halfyearly = { $productName } (6개월)
 upgrade-purchase-details-new-plan-yearly = { $productName } (연간)
+upgrade-purchase-details-prorated-credits = 표시된 음수 잔액은 귀하의 계정에 크레딧으로 적용되고 향후 청구서 결제에 사용됩니다.
 
 ## Page Metadata Information
 ## $productTitle (String) - The name of the product to create subscription, e.g. Mozilla VPN
 
+# Checkout start
+metadata-title-checkout-start = 결제 | { $productTitle }
+metadata-description-checkout-start = 결제 세부 정보를 입력하여 구매를 완료하세요.
+# Checkout processing
+metadata-title-checkout-processing = 처리 | { $productTitle }
+metadata-description-checkout-processing = 결제 처리를 완료하는 동안 잠시 기다려 주세요.
+# Checkout error
+metadata-title-checkout-error = 오류 | { $productTitle }
+metadata-description-checkout-error = 구독을 처리하는 동안 오류가 발생했습니다. 문제가 지속되면 지원팀에 문의하세요.
+# Checkout success
+metadata-title-checkout-success = 성공 | { $productTitle }
+metadata-description-checkout-success = 축하합니다! 구매를 완료했습니다.
+# Checkout needs_input
+metadata-title-checkout-needs-input = 조치 필요 | { $productTitle }
+metadata-description-checkout-needs-input = 결제를 계속 하려면 필수 절차를 완료해 주세요.
+# Upgrade start
+metadata-title-upgrade-start = 업그레이드 | { $productTitle }
+metadata-description-upgrade-start = 업그레이드를 완료하려면 결제 세부 정보를 입력하세요.
+# Upgrade processing
+metadata-title-upgrade-processing = 처리 | { $productTitle }
+metadata-description-upgrade-processing = 결제 처리를 완료하는 동안 잠시 기다려 주세요.
+# Upgrade error
+metadata-title-upgrade-error = 오류 | { $productTitle }
+metadata-description-upgrade-error = 업그레이드를 처리하는 중 오류가 발생했습니다. 문제가 지속되면 지원팀에 문의하세요.
+# Upgrade success
+metadata-title-upgrade-success = 성공 | { $productTitle }
+metadata-description-upgrade-success = 축하합니다! 성공적으로 업그레이드를 완료했습니다.
+# Upgrade needs_input
+metadata-title-upgrade-needs-input = 조치 필요 | { $productTitle }
+metadata-description-upgrade-needs-input = 결제를 계속 하려면 필수 절차를 완료해 주세요.
+# Default
+metadata-title-default = 페이지를 찾을 수 없음 | { $productTitle }
+metadata-description-default = 요청하신 페이지를 찾을 수 없습니다.
 
 ## Coupon Error Messages
 
+next-coupon-error-expired = 입력한 코드가 만료되었습니다.
+next-coupon-error-generic = 코드 처리 과정에서 오류가 발생했습니다. 다시 시도해 주세요.
+next-coupon-error-invalid = 입력한 코드가 유효하지 않습니다.
+# "Limit" refers to the maximum number of times a coupon can be redeemed.
+next-coupon-error-limit-reached = 입력한 코드가 제한에 도달했습니다.
 
 ##
 
