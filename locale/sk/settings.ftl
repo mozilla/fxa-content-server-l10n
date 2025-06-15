@@ -648,14 +648,33 @@ flow-setup-2fa-input-label = Zadajte šesťmiestny kód
 ## The step to choose the two step authentication method in the two step
 ## authentication setup flow.
 
+flow-setup-2fa-backup-choice-heading = Vyberte spôsob obnovy
+flow-setup-2fa-backup-choice-description = To vám umožní prihlásiť sa, ak nemáte prístup k mobilnému zariadeniu alebo overovacej aplikácii.
+flow-setup-2fa-backup-choice-phone-title = Obnovenie pomocou telefónu
+flow-setup-2fa-backup-choice-phone-badge = Najjednoduchšie
+flow-setup-2fa-backup-choice-phone-info = Získajte kód na obnovenie prostredníctvom textovej správy. Momentálne k dispozícii v USA a Kanade.
+flow-setup-2fa-backup-choice-code-title = Záložné overovacie kódy
+flow-setup-2fa-backup-choice-code-badge = Najbezpečnejšie
+flow-setup-2fa-backup-choice-code-info = Vytvorte a uložte si jednorazové overovacie kódy.
+# This link points to https://support.mozilla.org/kb/secure-mozilla-account-two-step-authentication
+flow-setup-2fa-backup-choice-learn-more-link = Informácie o obnovení a rizikách pri výmene SIM karty
 
 ## The backup code confirm step of the setup 2 factor authentication flow,
 ## where the user confirm that they have saved their backup authentication codes
 ## by entering one of them.
 
+flow-setup-2fa-backup-code-confirm-heading = Zadajte záložný overovací kód
+# codes here refers to backup authentication codes
+flow-setup-2fa-backup-code-confirm-confirm-saved = Zadaním kódu potvrďte, že ste kódy uložili. Bez týchto kódov sa možno nebudete môcť prihlásiť, ak nemáte aplikáciu na overenie totožnosti.
+flow-setup-2fa-backup-code-confirm-code-input = Zadajte 10‑miestny kód
+# Clicking on this button finishes the whole flow upon success.
+flow-setup-2fa-backup-code-confirm-button-finish = Dokončiť
 
 ## The backup codes download step of the setup 2 factor authentication flow
 
+flow-setup-2fa-backup-code-dl-heading = Uložte si záložné overovacie kódy
+flow-setup-2fa-backup-code-dl-save-these-codes = Uschovajte si ich na mieste, na ktoré si nezabudnete. Ak nemáte prístup k aplikácii na overenie totožnosti, budete jeden z nich musieť zadať pri prihlásení.
+flow-setup-2fa-backup-code-dl-button-continue = Pokračovať
 
 ## FlowSetupPhoneConfirmCode
 

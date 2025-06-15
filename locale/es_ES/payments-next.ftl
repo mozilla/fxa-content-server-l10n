@@ -23,6 +23,7 @@ upgrade-page-acknowledgment = Tu plan cambiará de inmediato y se te cobrará ho
 
 ## Authentication Error page
 
+auth-error-page-title = No hemos podido iniciar la sesión
 checkout-error-boundary-retry-button = Volver a intentarlo
 checkout-error-boundary-basic-error-message = Algo salió mal. Inténtalo de nuevo o <contactSupportLink>contacta con el servicio de asistencia</contactSupportLink>.
 
@@ -194,6 +195,7 @@ next-subscription-processing-title = Confirmando la suscripción…
 next-subscription-error-title = Error al confirmar la suscripción…
 subscription-title-sub-exists = Ya te has suscrito
 subscription-title-plan-change-heading = Revisa tu cambio
+subscription-title-not-supported = Este cambio del plan de suscripción no está soportado
 next-sub-guarantee = 30 días de garantía de devolución de dinero
 
 ## Component - TermsAndPrivacy
@@ -234,9 +236,45 @@ upgrade-purchase-details-prorated-credits = El saldo negativo mostrado se aplica
 
 # Checkout start
 metadata-title-checkout-start = Pagar | { $productTitle }
+metadata-description-checkout-start = Introduce tus detalles de pago para completar la compra.
+# Checkout processing
+metadata-title-checkout-processing = Procesando | { $productTitle }
+metadata-description-checkout-processing = Por favor, espera mientras terminamos de procesar tu pago.
+# Checkout error
+metadata-title-checkout-error = Error | { $productTitle }
+metadata-description-checkout-error = Se ha producido un error procesando tu suscripción. Si este problema persiste, contacta con la asistencia.
+# Checkout success
+metadata-title-checkout-success = Éxito | { $productTitle }
+metadata-description-checkout-success = ¡Enhorabuena! Has completado con éxito tu compra.
+# Checkout needs_input
+metadata-title-checkout-needs-input = Acción requerida | { $productTitle }
+metadata-description-checkout-needs-input = Por favor, completa la acción requerida para proceder con tu pago.
+# Upgrade start
+metadata-title-upgrade-start = Actualizar | { $productTitle }
+metadata-description-upgrade-start = Introduce tus detalles de pago para completar la actualización.
+# Upgrade processing
+metadata-title-upgrade-processing = Procesando | { $productTitle }
+metadata-description-upgrade-processing = Por favor, espera mientras terminamos de procesar tu pago.
+# Upgrade error
+metadata-title-upgrade-error = Error | { $productTitle }
+metadata-description-upgrade-error = Se ha producido un error procesando tu actualización. Si el problema persiste, contacta a con la asistencia.
+# Upgrade success
+metadata-title-upgrade-success = Éxito | { $productTitle }
+metadata-description-upgrade-success = ¡Enhorabuena! Has completado con éxito tu actualización.
+# Upgrade needs_input
+metadata-title-upgrade-needs-input = Acción requerida | { $productTitle }
+metadata-description-upgrade-needs-input = Por favor, completa la acción requerida para proceder con tu pago.
+# Default
+metadata-title-default = Página no encontrada | { $productTitle }
+metadata-description-default = No se ha encontrado la página solicitada.
 
 ## Coupon Error Messages
 
+next-coupon-error-expired = El código que has introducido había caducado.
+next-coupon-error-generic = Ha ocurrido un error procesando el código. Por favor, inténtalo de nuevo.
+next-coupon-error-invalid = El código que has introducido no es válido.
+# "Limit" refers to the maximum number of times a coupon can be redeemed.
+next-coupon-error-limit-reached = El código que has introducido ha alcanzado su límite.
 
 ##
 

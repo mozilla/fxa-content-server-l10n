@@ -114,6 +114,9 @@ datablock-copy =
     .message = Copiado
 datablock-print =
     .message = Imprimido
+# Tooltip notification when an account recovery key or one-time use code is copied.
+datablock-inline-copy =
+    .message = Copiado
 
 ## DeviceInfoBlock component
 ## The strings here are used to display information about the origin of activity happening on a user's account
@@ -397,6 +400,12 @@ password-strength-inline-confirmed-must-match = La confirmación coincide con la
 account-recovery-notification-cta = Crear
 account-recovery-notification-header-value = No pierdas tus datos si olvidas tu contraseña
 account-recovery-notification-header-description = Crea una clave de recuperación de cuenta para restaurar tus datos de navegación sincronizados si alguna vez olvidas tu contraseña.
+recovery-phone-promo-cta = Añadir teléfono de recuperación
+recovery-phone-promo-heading = Añade una protección adicional a tu cuenta con un teléfono de recuperación
+recovery-phone-promo-description = Ahora puedes iniciar sesión con una contraseña de un solo uso a través de SMS si no puedes usar tu aplicación de autenticación de dos pasos.
+recovery-phone-promo-info-link = Saber más sobre la recuperación y el riesgo de intercambio de SIM
+promo-banner-dismiss-button =
+    .aria-label = Descartar aviso
 
 ## Ready component
 
@@ -623,6 +632,7 @@ flow-recovery-key-info-cancel-link = Cancelar
 
 ## FlowSetup2faApp
 
+flow-setup-2fa-qr-heading = Conéctate a tu aplicación de autenticación
 
 ## The step to choose the two step authentication method in the two step
 ## authentication setup flow.

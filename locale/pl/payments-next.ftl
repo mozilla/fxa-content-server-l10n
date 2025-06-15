@@ -23,6 +23,7 @@ upgrade-page-acknowledgment = Twój plan zmieni się natychmiast, a dzisiejsza 
 
 ## Authentication Error page
 
+auth-error-page-title = Nie można się zalogować
 checkout-error-boundary-retry-button = Spróbuj ponownie
 checkout-error-boundary-basic-error-message = Coś się nie powiodło. Proszę spróbować ponownie lub <contactSupportLink>skontaktować się z zespołem wsparcia</contactSupportLink>.
 
@@ -30,6 +31,7 @@ checkout-error-boundary-basic-error-message = Coś się nie powiodło. Proszę s
 ## Common strings used in multiple pages
 
 next-payment-error-manage-subscription-button = Zarządzaj moją subskrypcją
+next-iap-blocked-contact-support = Masz subskrypcję w aplikacji na telefon, która koliduje z tym produktem — prosimy o kontakt z zespołem wsparcia, abyśmy mogli Ci pomóc.
 next-payment-error-retry-button = Spróbuj ponownie
 next-basic-error-message = Coś się nie powiodło. Proszę spróbować ponownie później.
 checkout-error-contact-support-button = Skontaktuj się z pomocą
@@ -193,6 +195,7 @@ next-subscription-processing-title = Potwierdzanie subskrypcji…
 next-subscription-error-title = Błąd podczas potwierdzania subskrypcji…
 subscription-title-sub-exists = Już subskrybujesz
 subscription-title-plan-change-heading = Sprawdź zmianę
+subscription-title-not-supported = Ta zmiana planu subskrypcji nie jest obsługiwana
 next-sub-guarantee = 30-dniowa gwarancja zwrotu pieniędzy
 
 ## Component - TermsAndPrivacy
@@ -226,16 +229,23 @@ upgrade-purchase-details-new-plan-weekly = { $productName } (tygodniowo)
 upgrade-purchase-details-new-plan-monthly = { $productName } (miesięcznie)
 upgrade-purchase-details-new-plan-halfyearly = { $productName } (co 6 miesięcy)
 upgrade-purchase-details-new-plan-yearly = { $productName } (rocznie)
+upgrade-purchase-details-prorated-credits = Widoczne ujemne saldo zostanie zastosowane jako środki na koncie, które zostaną użyte na poczet przyszłych faktur.
 
 ## Page Metadata Information
 ## $productTitle (String) - The name of the product to create subscription, e.g. Mozilla VPN
 
+# Checkout start
+metadata-title-checkout-start = Kasa | { $productTitle }
+metadata-description-checkout-start = Wprowadź dane płatności, aby dokończyć zakup.
 # Checkout processing
 metadata-title-checkout-processing = Przetwarzanie | { $productTitle }
+metadata-description-checkout-processing = Prosimy czekać na ukończenie przetwarzania płatności.
 # Checkout error
 metadata-title-checkout-error = Błąd | { $productTitle }
+metadata-description-checkout-error = Wystąpił błąd podczas przetwarzania subskrypcji. Jeśli ten problem będzie się powtarzał, skontaktuj się z zespołem wsparcia.
 # Checkout success
 metadata-title-checkout-success = Powodzenie | { $productTitle }
+metadata-description-checkout-success = Gratulacje! Pomyślnie dokonano zakupu.
 # Checkout needs_input
 metadata-title-checkout-needs-input = Wymagane jest działanie | { $productTitle }
 metadata-description-checkout-needs-input = Aby dokonać płatności, wykonaj wymagane czynności.
@@ -244,15 +254,27 @@ metadata-title-upgrade-start = Przełączenie subskrypcji | { $productTitle }
 metadata-description-upgrade-start = Wprowadź dane płatności, aby dokończyć przełączenie subskrypcji.
 # Upgrade processing
 metadata-title-upgrade-processing = Przetwarzanie | { $productTitle }
+metadata-description-upgrade-processing = Prosimy czekać na ukończenie przetwarzania płatności.
 # Upgrade error
 metadata-title-upgrade-error = Błąd | { $productTitle }
 metadata-description-upgrade-error = Wystąpił błąd podczas przetwarzania przełączenia subskrypcji. Jeśli ten problem będzie się powtarzał, skontaktuj się z zespołem wsparcia.
 # Upgrade success
 metadata-title-upgrade-success = Powodzenie | { $productTitle }
 metadata-description-upgrade-success = Gratulacje! Subskrypcja została pomyślnie przełączona.
+# Upgrade needs_input
+metadata-title-upgrade-needs-input = Wymagane jest działanie | { $productTitle }
+metadata-description-upgrade-needs-input = Aby dokonać płatności, wykonaj wymagane czynności.
+# Default
+metadata-title-default = Nie odnaleziono strony | { $productTitle }
+metadata-description-default = Otwierana strona nie została odnaleziona.
 
 ## Coupon Error Messages
 
+next-coupon-error-expired = Wpisany kod wygasł.
+next-coupon-error-generic = Wystąpił błąd podczas przetwarzania kodu. Proszę spróbować ponownie.
+next-coupon-error-invalid = Wpisany kod jest nieprawidłowy.
+# "Limit" refers to the maximum number of times a coupon can be redeemed.
+next-coupon-error-limit-reached = Wpisany kod osiągnął swoje ograniczenie.
 
 ##
 

@@ -401,6 +401,11 @@ account-recovery-notification-cta = Utwórz
 account-recovery-notification-header-value = Nie strać swoich danych, jeśli zapomnisz hasła
 account-recovery-notification-header-description = Utwórz klucz odzyskiwania konta, aby odzyskać synchronizowane dane przeglądania, jeśli kiedykolwiek zapomnisz hasła.
 recovery-phone-promo-cta = Dodaj telefon odzyskiwania
+recovery-phone-promo-heading = Dodaj dodatkową ochronę do swojego konta za pomocą telefonu odzyskiwania
+recovery-phone-promo-description = Teraz możesz logować się za pomocą jednorazowego hasła otrzymanego SMS-em, jeśli nie możesz skorzystać z aplikacji uwierzytelniania dwuetapowego.
+recovery-phone-promo-info-link = Więcej informacji o odzyskiwania i ryzyku podmiany karty SIM
+promo-banner-dismiss-button =
+    .aria-label = Zamknij komunikat
 
 ## Ready component
 
@@ -625,6 +630,8 @@ flow-recovery-key-info-cancel-link = Anuluj
 
 ## FlowSetup2faApp
 
+flow-setup-2fa-qr-heading = Połącz się ze swoją aplikacją uwierzytelniającą
+flow-setup-2a-qr-instruction = <strong>1. krok:</strong> zeskanuj ten kod QR za pomocą dowolnej aplikacji uwierzytelniającej, takiej jak Duo lub Google Authenticator.
 
 ## The step to choose the two step authentication method in the two step
 ## authentication setup flow.
