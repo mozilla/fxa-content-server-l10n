@@ -1695,6 +1695,11 @@ reset-password-recovery-phone-resend-success = Wysłano kod
 # links to https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 reset-password-recovery-phone-locked-out-link = Nie możesz się zalogować?
 reset-password-recovery-phone-send-code-error-heading = Wystąpił problem podczas wysyłania kodu
+reset-password-recovery-phone-code-verification-error-heading = Wystąpił problem podczas weryfikowania kodu
+# Follows the error message (e.g, "There was a problem sending a code")
+reset-password-recovery-phone-general-error-description = Proszę spróbować ponownie później.
+reset-password-recovery-phone-invalid-code-error-description = Kod jest nieprawidłowy lub wygasł.
+reset-password-recovery-phone-invalid-code-error-link = Czy zamiast tego użyć zapasowych kodów uwierzytelniania?
 reset-password-with-recovery-key-verified-page-title = Pomyślnie zmieniono hasło
 reset-password-complete-new-password-saved = Zachowano nowe hasło
 reset-password-complete-recovery-key-created = Utworzono nowy klucz odzyskiwania konta. Teraz pobierz go i zachowaj.
