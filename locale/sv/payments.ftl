@@ -523,11 +523,6 @@ sub-item-no-such-subsequent-invoice = Efterföljande faktura hittades inte för 
 sub-invoice-preview-error-title = Förhandsgranskning av faktura hittades inte
 sub-invoice-preview-error-text = Förhandsgranskning av faktura hittades inte för denna prenumeration
 
-## Routes - Subscriptions - Pocket Subscription
-
-manage-pocket-title-2 = Letar du efter din premiumprenumeration på { -product-pocket }?
-manage-pocket-body-2 = För att hantera det, <linkExternal>klicka här</linkExternal>.
-
 ## Routes - Subscriptions - Reactivate
 ## $name (String) - The name of the subscribed product.
 

@@ -210,9 +210,6 @@ pay-update-change-btn = बदलें
 
 sub-item-no-such-plan = इस सदस्यता के लिए ऐसी कोई योजना नहीं है।
 
-## Routes - Subscriptions - Pocket Subscription
-
-
 ## Routes - Subscriptions - Reactivate
 ## $name (String) - The name of the subscribed product.
 

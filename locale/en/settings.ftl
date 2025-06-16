@@ -336,6 +336,8 @@ backup-recovery-phone-image-aria-label =
   .aria-label = Mobile device with SMS text message capabilities
 backup-authentication-codes-image-aria-label =
   .aria-label = Device screen with codes
+sync-clouds-image-aria-label =
+  .aria-label = Clouds with a sync icon
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -2123,3 +2125,14 @@ signup-pocket-info-banner = Why do I need to create this account?
 signup-pocket-info-banner-link = Find out here
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Change email
+
+## SignupConfirmedSync page
+## Shown to users when they finish confirming their account through Sync
+signup-confirmed-sync-header = Sync is turned on
+signup-confirmed-sync-success-banner = { -product-mozilla-account } confirmed
+signup-confirmed-sync-button = Start browsing
+# Shown when payment methods are also synced
+signup-confirmed-sync-description-with-payment = Your passwords, payment methods, addresses, bookmarks, history, and more can sync everywhere you use { -product-firefox }.
+signup-confirmed-sync-description = Your passwords, addresses, bookmarks, history, and more can sync everywhere you use { -product-firefox }.
+signup-confirmed-sync-add-device-link = Add another device
+signup-confirmed-sync-manage-sync-button = Manage sync

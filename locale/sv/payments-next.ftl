@@ -20,6 +20,10 @@ location-banner-currency-change = Valutaändring stöds inte. För att fortsätt
 upgrade-page-payment-information = Betalningsinformation
 # $nextInvoiceDate (number) - The date of the next invoice
 upgrade-page-acknowledgment = Din plan kommer att ändras omedelbart och du debiteras ett proportionellt belopp idag för resten av denna faktureringscykel. Från och med { $nextInvoiceDate } debiteras du för hela beloppet.
+
+## Authentication Error page
+
+auth-error-page-title = Vi kunde inte logga in dig
 checkout-error-boundary-retry-button = Försök igen
 checkout-error-boundary-basic-error-message = Något gick fel. Försök igen eller <contactSupportLink>kontakta supporten.</contactSupportLink>
 
@@ -113,7 +117,6 @@ payments-header-bento-firefox-mobile = { -brand-firefox } webbläsare för mobil
 payments-header-bento-monitor = { -product-mozilla-monitor }
 payments-header-bento-firefox-relay = { -product-firefox-relay }
 payments-header-bento-vpn = { -product-mozilla-vpn }
-payments-header-bento-pocket = { -product-pocket }
 payments-header-bento-made-by-mozilla = Skapad av { -brand-mozilla }
 payments-header-avatar =
     .title = { -product-mozilla-account }-meny
@@ -192,6 +195,7 @@ next-subscription-processing-title = Bekräftar prenumerationen…
 next-subscription-error-title = Fel vid bekräftelse av prenumeration…
 subscription-title-sub-exists = Du prenumererar redan
 subscription-title-plan-change-heading = Granska din ändring
+subscription-title-not-supported = Ändringen av prenumerationsplanen stöds inte
 next-sub-guarantee = 30-dagars återbetalningsgaranti
 
 ## Component - TermsAndPrivacy

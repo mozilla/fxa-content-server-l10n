@@ -160,6 +160,11 @@ automated-email-reset =
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext-v2 = Si no autorizaste esta acción, por favor restablece tu contraseña ahora en { $resetLink }
+# This message is used by multiple automated emails that notify users of security events on their account
+# "this action" is meant to be a generic term, and could, for example, refer to using a backup authentication code to confirm a password reset
+automated-email-reset-pwd-two-factor =
+    Si no realizaste esta acción, <a data-l10n-name="resetLink">restablece tu contraseña</a> y <a data-l10n-name="twoFactorSettingsLink">la autenticación en dos pasos</a> inmediatamente.
+    Para obtener más información, visita la <a data-l10n-name="supportLink">asistencia de { -brand-mozilla }</a>.
 # Followed by link to https://accounts.firefox.com/reset_password
 automated-email-reset-pwd-plaintext-v3 = Si no realizaste esta acción, restablece tu contraseña de inmediato en:
 # Followed by link to https://accounts.firefox.com/settings#two-step-authentication

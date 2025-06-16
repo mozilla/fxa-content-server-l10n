@@ -20,6 +20,10 @@ location-banner-currency-change = Alteração da moeda não suportada. Para cont
 upgrade-page-payment-information = Informação de pagamento
 # $nextInvoiceDate (number) - The date of the next invoice
 upgrade-page-acknowledgment = O seu plano será alterado imediatamente e ser-lhe-á debitado hoje um valor proporcional para o resto deste ciclo de faturação. A partir de { $nextInvoiceDate } ser-lhe-á cobrado o valor total.
+
+## Authentication Error page
+
+auth-error-page-title = Não conseguimos iniciar a sua sessão
 checkout-error-boundary-retry-button = Tentar novamente
 checkout-error-boundary-basic-error-message = Algo correu mal. Tente novamente ou <contactSupportLink>contacte o apoio.</contactSupportLink>
 
@@ -113,7 +117,6 @@ payments-header-bento-firefox-mobile = Navegador { -brand-firefox } para disposi
 payments-header-bento-monitor = { -product-mozilla-monitor }
 payments-header-bento-firefox-relay = { -product-firefox-relay }
 payments-header-bento-vpn = { -product-mozilla-vpn }
-payments-header-bento-pocket = { -product-pocket }
 payments-header-bento-made-by-mozilla = Criado pela { -brand-mozilla }
 payments-header-avatar =
     .title = Menu { -product-mozilla-account }
@@ -192,6 +195,7 @@ next-subscription-processing-title = A confirmar a subscrição…
 next-subscription-error-title = Erro ao confirmar a subscrição…
 subscription-title-sub-exists = Já está subscrito
 subscription-title-plan-change-heading = Rever a sua alteração
+subscription-title-not-supported = Esta alteração do plano de subscrição não é suportada
 next-sub-guarantee = Garantia de devolução do dinheiro em 30 dias
 
 ## Component - TermsAndPrivacy
