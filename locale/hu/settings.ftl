@@ -657,13 +657,13 @@ flow-setup-2fa-input-label = Adja meg a 6 számjegyű kódot
 flow-setup-2fa-backup-choice-heading = Válasszon helyreállítási módot
 flow-setup-2fa-backup-choice-description = Ez lehetővé teszi, hogy bejelentkezzen, ha nem tudja elérni mobileszközét vagy hitelesítő alkalmazását.
 flow-setup-2fa-backup-choice-phone-title = Helyreállítási telefonszám
-flow-setup-2fa-backup-choice-phone-badge = A legkönnyebb
+flow-setup-2fa-backup-choice-phone-badge = Legkönnyebb
 flow-setup-2fa-backup-choice-phone-info = Kapjon helyreállítási kódot szöveges üzenetben. Jelenleg az Amerikai Egyesült Államokban és Kanadában érhető el.
 flow-setup-2fa-backup-choice-code-title = Tartalék hitelesítési kódok
-flow-setup-2fa-backup-choice-code-badge = A legbiztonságosabb
+flow-setup-2fa-backup-choice-code-badge = Legbiztonságosabb
 flow-setup-2fa-backup-choice-code-info = Egyszeri hitelesítési kódok létrehozása és mentése.
 # This link points to https://support.mozilla.org/kb/secure-mozilla-account-two-step-authentication
-flow-setup-2fa-backup-choice-learn-more-link = Tudjon meg többet a helyreállítás és a SIM-csere kockázatáról
+flow-setup-2fa-backup-choice-learn-more-link = Tudjon meg többet a helyreállításról és a SIM-csere kockázatáról
 
 ## The backup code confirm step of the setup 2 factor authentication flow,
 ## where the user confirm that they have saved their backup authentication codes
@@ -678,7 +678,7 @@ flow-setup-2fa-backup-code-confirm-button-finish = Befejezés
 
 ## The backup codes download step of the setup 2 factor authentication flow
 
-flow-setup-2fa-backup-code-dl-heading = A tartalék hitelesítési kódok mentése
+flow-setup-2fa-backup-code-dl-heading = Tartalék hitelesítési kódok mentése
 flow-setup-2fa-backup-code-dl-save-these-codes = Tartsa ezeket egy olyan helyen, amelyre emlékezni fog. Ha nincs hozzáférése a hitelesítő alkalmazáshoz, akkor meg kell adnia egyet a bejelentkezéshez.
 flow-setup-2fa-backup-code-dl-button-continue = Folytatás
 
