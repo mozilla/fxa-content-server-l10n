@@ -362,7 +362,7 @@ sub-item-cancel-confirm =
 # Cybersecurity Awareness Month 2023 coupon applied: $11.20 + $0.35 tax
 # Summer Promo VPN coupon applied: $11.20
 sub-promo-coupon-applied = { $promotion_name } 쿠폰 적용됨: <priceDetails></priceDetails>
-subscription-management-account-credit-balance = 이 구독 결제로 계정 잔액에 크레딧이 추가됐습니다: <priceDetails></priceDetail>
+subscription-management-account-credit-balance = 이 구독 결제로 계정 잔액에 크레딧이 추가됐습니다: <priceDetails></priceDetails>
 
 ## Routes - Subscription
 
