@@ -670,7 +670,7 @@ flow-setup-2fa-backup-code-confirm-button-finish = Terminer
 ## The backup codes download step of the setup 2 factor authentication flow
 
 flow-setup-2fa-backup-code-dl-heading = Enregistrez vos codes d’authentification de secours
-flow-setup-2fa-backup-code-dl-save-these-codes = Conservez-les dans un endroit inoubliable. Si vous n’avez pas accès à votre application d’authentification, vous devrez en donner une pour vous connecter.
+flow-setup-2fa-backup-code-dl-save-these-codes = Conservez-les en lieu sûr. Si vous n’avez pas accès à votre application d’authentification, vous devrez en saisir un pour vous connecter.
 flow-setup-2fa-backup-code-dl-button-continue = Continuer
 
 ## FlowSetupPhoneConfirmCode
