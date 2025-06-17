@@ -644,6 +644,7 @@ flow-setup-2fa-input-label = Emoinge ayvu 6 taíva
 ## authentication setup flow.
 
 flow-setup-2fa-backup-choice-heading = Eiporavo mba’éichapa erujeýta
+flow-setup-2fa-backup-choice-description = Kóva omoneĩ eikévo ndaikatúiramo jepe eike ne mba’e’oka pumbyrygua térã ne rembiporu’i ñemoneĩhápe.
 flow-setup-2fa-backup-choice-phone-title = Pumbyry guerujeyrã
 flow-setup-2fa-backup-choice-phone-badge = Ndahasýi
 flow-setup-2fa-backup-choice-code-title = Ayvu ñemoneĩrã jeykekoha
