@@ -1970,7 +1970,10 @@ signup-change-email-link = Αλλαγή email
 ## Shown to users when they finish confirming their account through Sync
 
 signup-confirmed-sync-header = Ο συγχρονισμός είναι ενεργός
+signup-confirmed-sync-success-banner = Ο { -product-mozilla-account(case: "nom", capitalization: "lower") } επιβεβαιώθηκε
 signup-confirmed-sync-button = Έναρξη περιήγησης
+# Shown when payment methods are also synced
+signup-confirmed-sync-description-with-payment = Οι κωδικοί πρόσβασης, οι μέθοδοι πληρωμής, οι διευθύνσεις, οι σελιδοδείκτες, το ιστορικό σας και πολλά άλλα μπορούν να συγχρονίζονται σε όποια συσκευή χρησιμοποιείτε το { -product-firefox }.
 signup-confirmed-sync-description = Οι κωδικοί πρόσβασης, οι διευθύνσεις, οι σελιδοδείκτες, το ιστορικό σας και πολλά άλλα μπορούν να συγχρονίζονται σε όποια συσκευή χρησιμοποιείτε το { -product-firefox }.
 signup-confirmed-sync-add-device-link = Προσθήκη άλλης συσκευής
 signup-confirmed-sync-manage-sync-button = Διαχείριση συγχρονισμού

@@ -1966,8 +1966,8 @@ signup-change-email-link = Spremeni e-pošto
 ## SignupConfirmedSync page
 ## Shown to users when they finish confirming their account through Sync
 
-signup-confirmed-sync-header = Sync je vključen
-signup-confirmed-sync-success-banner = { -product-mozilla-account } je potrjen
+signup-confirmed-sync-header = Sinhronizacija je vključena
+signup-confirmed-sync-success-banner = { -product-mozilla-account } potrjen
 signup-confirmed-sync-button = Začnite z brskanjem
 # Shown when payment methods are also synced
 signup-confirmed-sync-description-with-payment = Vaša gesla, načini plačila, naslovi, zaznamki, zgodovina in drugo se lahko sinhronizirajo povsod, kjer uporabljate { -product-firefox }.
