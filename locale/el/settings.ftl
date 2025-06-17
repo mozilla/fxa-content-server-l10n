@@ -300,6 +300,8 @@ backup-recovery-phone-image-aria-label =
     .aria-label = Κινητή συσκευή με δυνατότητες μηνυμάτων κειμένου SMS
 backup-authentication-codes-image-aria-label =
     .aria-label = Οθόνη συσκευής με κωδικούς
+sync-clouds-image-aria-label =
+    .aria-label = Σύννεφα με εικονίδιο συγχρονισμού
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -1967,3 +1969,8 @@ signup-change-email-link = Αλλαγή email
 ## SignupConfirmedSync page
 ## Shown to users when they finish confirming their account through Sync
 
+signup-confirmed-sync-header = Ο συγχρονισμός είναι ενεργός
+signup-confirmed-sync-button = Έναρξη περιήγησης
+signup-confirmed-sync-description = Οι κωδικοί πρόσβασης, οι διευθύνσεις, οι σελιδοδείκτες, το ιστορικό σας και πολλά άλλα μπορούν να συγχρονίζονται σε όποια συσκευή χρησιμοποιείτε το { -product-firefox }.
+signup-confirmed-sync-add-device-link = Προσθήκη άλλης συσκευής
+signup-confirmed-sync-manage-sync-button = Διαχείριση συγχρονισμού

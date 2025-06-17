@@ -1968,6 +1968,8 @@ signup-change-email-link = Ändra e-post
 ## SignupConfirmedSync page
 ## Shown to users when they finish confirming their account through Sync
 
+signup-confirmed-sync-header = Synkronisering är aktiverad
+signup-confirmed-sync-success-banner = { -product-mozilla-account } har bekräftats
 signup-confirmed-sync-button = Börja surfa
 # Shown when payment methods are also synced
 signup-confirmed-sync-description-with-payment = Dina lösenord, betalningsmetoder, adresser, bokmärken, historik och mer kan synkroniseras överallt där du använder { -product-firefox }.
