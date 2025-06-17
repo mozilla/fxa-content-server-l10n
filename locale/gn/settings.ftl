@@ -1094,6 +1094,7 @@ tfa-row-backup-phone-add-cta = Mbojuaju
 tfa-row-backup-phone-delete-button = Mboguete
 # Shown in tooltip on delete button or delete icon
 tfa-row-backup-phone-delete-title-v2 = Embogue pumbyry guerujeyrã
+tfa-row-backup-phone-delete-restriction-v2 = Embogueséramo ne pumbyry guerujeyharã, emoĩraẽ umi ayvu ñemoneĩrã jeykekoha térã embogue ñemoneĩrã mokõi jeku’eguáva emboykekuaa hag̃ua ne mba’ete jejoko.
 # "this" refers to recovery phone
 tfa-row-backup-phone-description-v2 = Kóicha añoite erujeýta tekorosãme ndereiporukuaáirõ pumbyry mba’e’oka térã tembiporu’i ñemoneĩrã.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
@@ -1190,6 +1191,7 @@ tfa-row-button-refresh =
 tfa-row-cannot-refresh =
     Rombyasy, oiko apañuái embopyahúvo ñemoneĩ
     mokõi jeku’egua.
+tfa-row-enabled-description = Ne mba’ete oñemo’ã hechajeyha mokõi jeku’eguáva rupive. Tekotevẽta emoinge peteĩ ayvu eiporútava ha’eñomi eikévo { -product-mozilla-account } rembiporu’i ñemoneĩrãme.
 # "this" refers to two-step authentication
 # Link goes to https://support.mozilla.org/kb/secure-mozilla-account-two-step-authentication
 tfa-row-enabled-info-link = Mba’éicha omo’ãta ne mba’ete
