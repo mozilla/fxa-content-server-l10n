@@ -160,6 +160,11 @@ automated-email-reset =
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext-v2 = Neremoneĩriramo ko jeku’e, embojevyjey ne ñe’ẽñemi ko’ag̃aite { $resetLink } ndive
+# This message is used by multiple automated emails that notify users of security events on their account
+# "this action" is meant to be a generic term, and could, for example, refer to using a backup authentication code to confirm a password reset
+automated-email-reset-pwd-two-factor =
+    Nderejapóiramo ko tembiapo, <a data-l10n-name="resetLink">emoĩjey ne ñe’ẽñemi</a> ha <a data-l10n-name="twoFactorSettingsLink">ñemoneĩrã mokõi jeku’egua</a> pya’eterei.
+    Ojeikuaave hag̃ua, ehesakutu <a data-l10n-name="supportLink">{ -brand-mozilla } pytyvõha</a>.
 # Followed by link to https://accounts.firefox.com/reset_password
 automated-email-reset-pwd-plaintext-v3 = Nandéiramo ejapo ko jeku’e, emoambue ne ñe’ẽñemi ko’ag̃aite amo guive:
 # Followed by link to https://accounts.firefox.com/settings#two-step-authentication
