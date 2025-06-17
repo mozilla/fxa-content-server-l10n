@@ -291,7 +291,7 @@ subscription-create-title = Налаштуйте передплату
 subscription-success-title = Підтвердження передплати
 subscription-processing-title = Підтвердження передплати…
 subscription-error-title = Помилка підтвердження передплати…
-subscription-noplanchange-title = Зміна цього тарифного плану не підтримується
+subscription-noplanchange-title = Ця зміна тарифного плану не підтримується
 subscription-iapsubscribed-title = Уже передплачено
 sub-guarantee = Гарантоване повернення коштів упродовж 30 днів
 

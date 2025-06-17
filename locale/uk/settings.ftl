@@ -1457,7 +1457,7 @@ auth-totp-heading-w-default-service = Введіть код автентифік
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 auth-totp-heading-w-custom-service = Введіть код автентифікації, <span>щоб продовжити в { $serviceName }</span>
 auth-totp-instruction = Відкрийте вашу програму автентифікації та введіть код, який вона пропонує.
-auth-totp-input-label = Введіть 6-значний код
+auth-totp-input-label = Введіть код із 6 цифр
 # Form button to confirm if the authentication code entered by the user is valid
 auth-totp-confirm-button = Підтвердити
 # Error displayed in a tooltip when the form is submitted without a code
@@ -1762,7 +1762,7 @@ signin-recovery-code-confirm-button = Підтвердити
 signin-recovery-code-phone-link = Скористатися телефоном для відновлення
 # External link for support if the user can't use two-step autentication or a backup authentication code
 # https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
-signin-recovery-code-support-link = Ви заблоковані?
+signin-recovery-code-support-link = Не можете отримати доступ?
 # Error displayed in a tooltip when form is submitted witout a code
 signin-recovery-code-required-error = Потрібен резервний код автентифікації
 # Message to user after they were redirected to the Mozilla account sign-in page in a new browser
@@ -1778,7 +1778,7 @@ signin-recovery-phone-flow-heading = Увійти
 signin-recovery-phone-heading = Введіть код відновлення
 # Text that explains the user should check their phone for a recovery code
 # $maskedPhoneNumber - The users masked phone number
-signin-recovery-phone-instruction-v3 = На номер телефону, що закінчується на <span>{ $lastFourPhoneDigits }</span>, надіслано текстове повідомлення з кодом із 6 цифр. Термі дії цього коду завершиться через 5 хвилин. Не повідомляйте цей код нікому.
+signin-recovery-phone-instruction-v3 = На номер телефону, що закінчується на <span>{ $lastFourPhoneDigits }</span>, надіслано текстове повідомлення з кодом із 6 цифр. Термін дії цього коду завершиться через 5 хвилин. Не повідомляйте цей код нікому.
 signin-recovery-phone-input-label = Введіть код із 6 цифр
 signin-recovery-phone-code-submit-button = Підтвердити
 signin-recovery-phone-resend-code-button = Надіслати код повторно
@@ -1810,7 +1810,7 @@ signin-reported-message = Наша команда була сповіщена. �
 signin-token-code-heading-2 = Введіть код підтвердження<span> для свого { -product-mozilla-account(case: "gen") }</span>
 # { $email } represents the email that the user entered to sign in
 signin-token-code-instruction-v2 = Протягом 5 хвилин уведіть код, надісланий на <email>{ $email }</email>.
-signin-token-code-input-label-v2 = Введіть 6-значний код
+signin-token-code-input-label-v2 = Введіть код із 6 цифр
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Підтвердити
 signin-token-code-code-expired = Код застарів?
@@ -1876,7 +1876,7 @@ confirm-signup-code-page-title = Введіть код підтвердженн�
 confirm-signup-code-heading-2 = Введіть код підтвердження <span>для свого { -product-mozilla-account(case: "gen") }</span>
 # { $email } represents the email that the user entered to sign in
 confirm-signup-code-instruction-v2 = Протягом 5 хвилин уведіть код, надісланий на <email>{ $email }</email>.
-confirm-signup-code-input-label = Введіть 6-значний код
+confirm-signup-code-input-label = Введіть код із 6 цифр
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = Підтвердити
 confirm-signup-code-code-expired = Код застарів?
