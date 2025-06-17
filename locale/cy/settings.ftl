@@ -1959,3 +1959,7 @@ signup-pocket-info-banner = Pam fod angen i mi greu'r cyfrif hwn?
 signup-pocket-info-banner-link = Dysgu rhagor
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Newid e-bost
+
+## SignupConfirmedSync page
+## Shown to users when they finish confirming their account through Sync
+

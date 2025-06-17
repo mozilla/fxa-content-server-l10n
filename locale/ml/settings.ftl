@@ -1013,3 +1013,7 @@ signup-heading-relay = രഹസ്യവാക്കു് ഉണ്ടാക�
 signup-pocket-info-banner-link = ഇവിടെ കണ്ടെത്തുക
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = ഇതപാൽ മാറ്റുക
+
+## SignupConfirmedSync page
+## Shown to users when they finish confirming their account through Sync
+

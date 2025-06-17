@@ -1746,3 +1746,7 @@ signup-pocket-info-banner = Miksi minun pitää luoda tämä tili?
 signup-pocket-info-banner-link = Lue lisää
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Vaihda sähköpostiosoite
+
+## SignupConfirmedSync page
+## Shown to users when they finish confirming their account through Sync
+

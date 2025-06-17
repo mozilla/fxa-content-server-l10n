@@ -1918,3 +1918,7 @@ signup-pocket-info-banner = 為什麼需要建立此帳號？
 signup-pocket-info-banner-link = 到此了解
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = 更改電子郵件地址
+
+## SignupConfirmedSync page
+## Shown to users when they finish confirming their account through Sync
+

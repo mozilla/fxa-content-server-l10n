@@ -1958,3 +1958,7 @@ signup-pocket-info-banner = Miért kell létrehoznia ezt a fiókot?
 signup-pocket-info-banner-link = Tudja meg itt
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = E-mail-cím módosítása
+
+## SignupConfirmedSync page
+## Shown to users when they finish confirming their account through Sync
+

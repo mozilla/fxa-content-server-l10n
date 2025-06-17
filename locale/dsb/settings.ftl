@@ -1960,3 +1960,7 @@ signup-pocket-info-banner = Cogodla musym toś to konto załožyś?
 signup-pocket-info-banner-link = Namakajśo how wen
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = E-mailowu adresu změniś
+
+## SignupConfirmedSync page
+## Shown to users when they finish confirming their account through Sync
+

@@ -1922,3 +1922,7 @@ signup-pocket-info-banner = 为什么要创建此账户？
 signup-pocket-info-banner-link = 请参阅此处
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = 更改邮箱
+
+## SignupConfirmedSync page
+## Shown to users when they finish confirming their account through Sync
+

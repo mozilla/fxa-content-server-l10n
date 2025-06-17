@@ -1931,3 +1931,7 @@ signup-pocket-info-banner = Kvifor må eg opprette denne kontoen?
 signup-pocket-info-banner-link = Finn ut av det her
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Endre e-post
+
+## SignupConfirmedSync page
+## Shown to users when they finish confirming their account through Sync
+

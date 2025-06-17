@@ -626,3 +626,7 @@ confirm-signup-code-heading-2 = Skriv inn bekreftelseskoden <span>for { -product
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
+
+## SignupConfirmedSync page
+## Shown to users when they finish confirming their account through Sync
+

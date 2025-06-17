@@ -1894,3 +1894,7 @@ signup-pocket-info-banner = Af hverju þarf ég að búa til þennan reikning?
 signup-pocket-info-banner-link = Kynntu þér málið hér
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Breyta tölvupóstfangi
+
+## SignupConfirmedSync page
+## Shown to users when they finish confirming their account through Sync
+

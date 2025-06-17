@@ -1272,3 +1272,7 @@ signup-heading-relay = Snulfu-d awal n uɛeddi
 signup-pocket-info-banner = Acuɣer i ilaq ad d-snulfuɣ amiḍan-a?
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Snifel imayl
+
+## SignupConfirmedSync page
+## Shown to users when they finish confirming their account through Sync
+

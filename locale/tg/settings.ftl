@@ -1256,3 +1256,7 @@ confirm-signup-code-is-required-error = Рамзи тасдиқкунанда л
 
 signup-heading = Ниҳонвожаи худро танзим кунед
 signup-heading-relay = Эҷод кардани ниҳонвожа
+
+## SignupConfirmedSync page
+## Shown to users when they finish confirming their account through Sync
+

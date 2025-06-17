@@ -1242,3 +1242,7 @@ confirm-signup-code-is-required-error = Потребан је код за пот
 signup-heading = Поставите лозинку
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Промени е-пошту
+
+## SignupConfirmedSync page
+## Shown to users when they finish confirming their account through Sync
+

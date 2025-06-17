@@ -1962,3 +1962,7 @@ signup-pocket-info-banner = Varför måste jag skapa det här kontot?
 signup-pocket-info-banner-link = Ta reda på det här
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Ändra e-post
+
+## SignupConfirmedSync page
+## Shown to users when they finish confirming their account through Sync
+

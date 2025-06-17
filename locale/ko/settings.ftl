@@ -1878,3 +1878,7 @@ signup-pocket-info-banner = 왜 이 계정을 만들어야 하나요?
 signup-pocket-info-banner-link = 자세히 보기
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = 이메일 변경
+
+## SignupConfirmedSync page
+## Shown to users when they finish confirming their account through Sync
+

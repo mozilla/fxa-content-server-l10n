@@ -1678,3 +1678,7 @@ signup-pocket-info-banner = ਮੈਨੂੰ ਇਹ ਖਾਤਾ ਬਣਾਉਣ 
 signup-pocket-info-banner-link = ਇੱਥੇ ਹੋਰ ਲੱਭੋ
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = ਈਮੇਲ ਬਦਲੋ
+
+## SignupConfirmedSync page
+## Shown to users when they finish confirming their account through Sync
+

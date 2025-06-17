@@ -1961,3 +1961,7 @@ signup-pocket-info-banner = Чому мені потрібно створити 
 signup-pocket-info-banner-link = Дізнайтеся тут
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Змінити адресу електронної пошти
+
+## SignupConfirmedSync page
+## Shown to users when they finish confirming their account through Sync
+

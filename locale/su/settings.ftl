@@ -483,3 +483,7 @@ auth-error-155 = Token TOTP teu kapanggih
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
+
+## SignupConfirmedSync page
+## Shown to users when they finish confirming their account through Sync
+

@@ -1960,3 +1960,7 @@ signup-pocket-info-banner = რისთვისაა საჭირო ა�
 signup-pocket-info-banner-link = გაეცანით სრულად აქ
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = ელფოსტის შეცვლა
+
+## SignupConfirmedSync page
+## Shown to users when they finish confirming their account through Sync
+

@@ -1502,3 +1502,7 @@ signup-pocket-info-banner = Zašto moram stvoriti ovaj račun?
 signup-pocket-info-banner-link = Saznaj ovdje
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Promijeni e-mail adresu
+
+## SignupConfirmedSync page
+## Shown to users when they finish confirming their account through Sync
+

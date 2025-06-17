@@ -1954,3 +1954,7 @@ signup-pocket-info-banner = Parcè scuegnio creâ chest account?
 signup-pocket-info-banner-link = Scuvierzilu achì
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Cambie e-mail
+
+## SignupConfirmedSync page
+## Shown to users when they finish confirming their account through Sync
+

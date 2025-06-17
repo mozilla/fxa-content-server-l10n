@@ -608,3 +608,7 @@ auth-error-1008 = آپ کا نیا پاس ورڈ مختلف ہونا چاہیئ�
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
+
+## SignupConfirmedSync page
+## Shown to users when they finish confirming their account through Sync
+

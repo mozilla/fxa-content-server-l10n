@@ -1962,3 +1962,7 @@ signup-pocket-info-banner = Čehodla dyrbju tute konto załožić?
 signup-pocket-info-banner-link = Namakajće tu won
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = E-mejlowu adresu změnić
+
+## SignupConfirmedSync page
+## Shown to users when they finish confirming their account through Sync
+

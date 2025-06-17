@@ -1956,3 +1956,7 @@ signup-pocket-info-banner = ¿Por qué necesito crear esta cuenta?
 signup-pocket-info-banner-link = Descúbrelo aquí
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Cambiar correo
+
+## SignupConfirmedSync page
+## Shown to users when they finish confirming their account through Sync
+

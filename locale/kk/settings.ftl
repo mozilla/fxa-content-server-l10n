@@ -1748,3 +1748,7 @@ signup-pocket-info-banner = Бұл тіркелгіні маған не үшін
 signup-pocket-info-banner-link = Осы жерден біліңіз
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Эл. поштаны өзгерту
+
+## SignupConfirmedSync page
+## Shown to users when they finish confirming their account through Sync
+

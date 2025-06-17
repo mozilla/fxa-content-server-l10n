@@ -1957,3 +1957,7 @@ signup-pocket-info-banner = Waarom moet ik deze account aanmaken?
 signup-pocket-info-banner-link = Ontdek het hier
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = E-mailadres wijzigen
+
+## SignupConfirmedSync page
+## Shown to users when they finish confirming their account through Sync
+

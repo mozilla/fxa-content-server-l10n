@@ -1864,3 +1864,7 @@ signup-pocket-info-banner = Pse më duhet të krijoj një llogari?
 signup-pocket-info-banner-link = Shiheni këtu
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Ndryshoni email
+
+## SignupConfirmedSync page
+## Shown to users when they finish confirming their account through Sync
+

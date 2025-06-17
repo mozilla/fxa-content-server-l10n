@@ -1911,3 +1911,7 @@ signup-pocket-info-banner = Tại sao tôi cần tạo tài khoản này?
 signup-pocket-info-banner-link = Tìm hiểu ở đây
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Thay đổi email
+
+## SignupConfirmedSync page
+## Shown to users when they finish confirming their account through Sync
+

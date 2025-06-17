@@ -1426,3 +1426,7 @@ confirm-signup-code-is-required-error = Патрабуецца код пацвя
 signup-heading = Усталюйце пароль
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Змяніць адрас электроннай пошты
+
+## SignupConfirmedSync page
+## Shown to users when they finish confirming their account through Sync
+

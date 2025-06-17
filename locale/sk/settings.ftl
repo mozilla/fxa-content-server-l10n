@@ -1956,3 +1956,7 @@ signup-pocket-info-banner = Prečo si musím vytvoriť tento účet?
 signup-pocket-info-banner-link = Ďalšie informácie
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Zmeniť e‑mailovú adresu
+
+## SignupConfirmedSync page
+## Shown to users when they finish confirming their account through Sync
+

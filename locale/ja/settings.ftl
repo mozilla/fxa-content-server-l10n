@@ -1608,3 +1608,7 @@ confirm-signup-code-is-required-error = 確認コードが必要です
 signup-heading = パスワードを設定
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = メールアドレスを変更
+
+## SignupConfirmedSync page
+## Shown to users when they finish confirming their account through Sync
+

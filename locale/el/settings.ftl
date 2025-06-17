@@ -1963,3 +1963,7 @@ signup-pocket-info-banner = Γιατί πρέπει να δημιουργήσω 
 signup-pocket-info-banner-link = Μάθετέ το εδώ
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Αλλαγή email
+
+## SignupConfirmedSync page
+## Shown to users when they finish confirming their account through Sync
+
