@@ -919,6 +919,8 @@ recovery-phone-remove-header = Embogue pumbyry papapy guerujeyrã
 #   $formattedFullPhoneNumber (String) - the user's full phone number
 settings-recovery-phone-remove-info = Kóva omboguetéta <strong>{ $formattedFullPhoneNumber }</strong> ne pumbyry guerujeyha.
 settings-recovery-phone-remove-recommend = Roñemoñe’ẽ ndéve ereko tapia hag̃ua ko ayvu ndahasyive rupi iñeñongatu ayvu ñemoneĩrã jeykekoha.
+# "Saved backup authentication codes" refers to previously saved backup authentication codes
+settings-recovery-phone-remove-recovery-methods = Emboguérõ, eñangareko ereko gueteriha ñongatuhápe umi ayvu ñemoneĩrã jeykekoha. <linkExternal>Emoñondive umi jegueru jeyha</linkExternal>
 settings-recovery-phone-remove-button = Embogue pumbyry papapy
 settings-recovery-phone-remove-cancel = Heja
 settings-recovery-phone-remove-success = Pumbyry guerujeyrã mboguepyre
