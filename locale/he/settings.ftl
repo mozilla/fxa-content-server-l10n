@@ -1859,3 +1859,10 @@ signup-change-email-link = שינוי כתובת דוא״ל
 ## Shown to users when they finish confirming their account through Sync
 
 signup-confirmed-sync-header = הסנכרון מופעל
+signup-confirmed-sync-success-banner = { -product-mozilla-account(case: "the") } אומת
+signup-confirmed-sync-button = התחלת גלישה
+# Shown when payment methods are also synced
+signup-confirmed-sync-description-with-payment = ניתן לסנכרן את הססמאות, אמצעי התשלום, הכתובות, הסימניות, ההיסטוריה ועוד בכל מקום שבו משתמשים ב־{ -product-firefox }.
+signup-confirmed-sync-description = ניתן לסנכרן את הססמאות, הכתובות, הסימניות, ההיסטוריה ועוד בכל מקום שבו משתמשים ב־{ -product-firefox }.
+signup-confirmed-sync-add-device-link = הוספת מכשיר נוסף
+signup-confirmed-sync-manage-sync-button = ניהול סנכרון
