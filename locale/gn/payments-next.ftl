@@ -260,8 +260,10 @@ metadata-title-upgrade-error = Ojavy | { $productTitle }
 metadata-description-upgrade-error = Oiko peteĩ jejavy oñemboguata aja ne ñembohekopyahu. Ko apañuái ipukuvéramo, eñe’ẽ pytyvõha ndive.
 # Upgrade success
 metadata-title-upgrade-success = Osẽporã | { $productTitle }
+metadata-description-upgrade-success = ¡Vy’apavẽ! Remohu’ãma hekópe porã ne ñembohekopyahu.
 # Upgrade needs_input
 metadata-title-upgrade-needs-input = Tembiapo ojeruréva | { $productTitle }
+metadata-description-upgrade-needs-input = Ikatúpiko, emohu’ã pe jeku’e teikotevẽva ehepyme’ẽkuaa hag̃ua.
 # Default
 metadata-title-default = Kuatiarogue ojejuhu’ỹva | { $productTitle }
 metadata-description-default = Ndojejuhúi upe kuatiarogue ojehekáva.
