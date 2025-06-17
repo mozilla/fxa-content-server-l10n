@@ -756,6 +756,7 @@ tfa-replace-code-success-1 =
 tfa-replace-code-success-alert-4 = Ayvu ñemoneĩrã jeykekoha hekopyahupyre
 tfa-replace-code-1-2 = Ku’e 1 2-gui
 tfa-replace-code-2-2 = Ku’e 2 2-gui
+tfa-enter-code-to-confirm-v2 = Ikatúpiko, ehai peteĩva umi ayvu ñemoneĩrã pyahu jekuaaukarã emoañete hag̃ua eñongatuhague. Nde ayvu ñemoneĩrã jeykekoha itujavéva ojeítama remohu’ã rire ko tembiaporã.
 
 ## Avatar change page
 
@@ -1009,6 +1010,8 @@ tfa-input-enter-totp-v2 =
 tfa-save-these-codes-1 =
     Eñongatu ko’ã ayvu ñemoneĩrã ijeporu peteĩva tenda hekorosãvévape
     ndereguerekói jave ne pumbyry jeheguáva.
+# codes here refers to backup authentication codes
+tfa-enter-code-to-confirm-setup = Emoañete eñongatuhague ne ayvukuéra ehaívo peteĩ. Ko’ã ayvu’ỹre, ikatuhína ndereikekuaái ndereguerekóiramo ne rembiporu’i ñemoneĩrã.
 tfa-enter-recovery-code-1 =
     .label = Emoinge ayvu ñemoneĩrã jeykekoha
 
