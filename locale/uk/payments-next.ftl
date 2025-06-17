@@ -23,6 +23,7 @@ upgrade-page-acknowledgment = Ваш тарифний план змінитьс�
 
 ## Authentication Error page
 
+auth-error-page-title = Не вдається виконати вхід
 checkout-error-boundary-retry-button = Спробувати знову
 checkout-error-boundary-basic-error-message = Щось пішло не так. Спробуйте ще раз або <contactSupportLink>зверніться до служби підтримки.</contactSupportLink>
 
@@ -30,6 +31,7 @@ checkout-error-boundary-basic-error-message = Щось пішло не так. �
 ## Common strings used in multiple pages
 
 next-payment-error-manage-subscription-button = Керувати передплатою
+next-iap-blocked-contact-support = У вас є мобільна передплата в програмі, яка конфліктує з цим продуктом. Зверніться до служби підтримки по допомогу.
 next-payment-error-retry-button = Спробувати знову
 next-basic-error-message = Щось пішло не так. Будь ласка, спробуйте знову пізніше.
 checkout-error-contact-support-button = Звернутися до служби підтримки
@@ -193,6 +195,7 @@ next-subscription-processing-title = Підтвердження передпла
 next-subscription-error-title = Помилка підтвердження передплати…
 subscription-title-sub-exists = У вас вже є передплата
 subscription-title-plan-change-heading = Перегляньте свої зміни
+subscription-title-not-supported = Ця зміна тарифного плану не підтримується
 next-sub-guarantee = Гарантоване повернення коштів упродовж 30 днів
 
 ## Component - TermsAndPrivacy
@@ -231,9 +234,47 @@ upgrade-purchase-details-prorated-credits = Зазначений негатив�
 ## Page Metadata Information
 ## $productTitle (String) - The name of the product to create subscription, e.g. Mozilla VPN
 
+# Checkout start
+metadata-title-checkout-start = Оформлення замовлення | { $productTitle }
+metadata-description-checkout-start = Введіть свої платіжні дані, щоб завершити покупку.
+# Checkout processing
+metadata-title-checkout-processing = Обробка | { $productTitle }
+metadata-description-checkout-processing = Зачекайте, поки завершиться обробка вашого платежу.
+# Checkout error
+metadata-title-checkout-error = Помилка | { $productTitle }
+metadata-description-checkout-error = Під час обробки вашої передплати сталася помилка. Якщо проблема не зникне, зверніться до служби підтримки.
+# Checkout success
+metadata-title-checkout-success = Успішно | { $productTitle }
+metadata-description-checkout-success = Вітаємо! Ви успішно завершили покупку.
+# Checkout needs_input
+metadata-title-checkout-needs-input = Потрібна дія | { $productTitle }
+metadata-description-checkout-needs-input = Будь ласка, виконайте необхідні дії, щоб продовжити оплату.
+# Upgrade start
+metadata-title-upgrade-start = Оновлення | { $productTitle }
+metadata-description-upgrade-start = Введіть платіжні дані, щоб завершити оновлення.
+# Upgrade processing
+metadata-title-upgrade-processing = Обробка | { $productTitle }
+metadata-description-upgrade-processing = Зачекайте, поки завершиться обробка вашого платежу.
+# Upgrade error
+metadata-title-upgrade-error = Помилка | { $productTitle }
+metadata-description-upgrade-error = Під час обробки вашого оновлення сталася помилка. Якщо проблема не зникне, зверніться до служби підтримки.
+# Upgrade success
+metadata-title-upgrade-success = Успішно | { $productTitle }
+metadata-description-upgrade-success = Вітаємо! Ви успішно завершили оновлення.
+# Upgrade needs_input
+metadata-title-upgrade-needs-input = Потрібна дія | { $productTitle }
+metadata-description-upgrade-needs-input = Будь ласка, виконайте необхідні дії, щоб продовжити оплату.
+# Default
+metadata-title-default = Сторінку не знайдено | { $productTitle }
+metadata-description-default = Запитану вами сторінку не знайдено.
 
 ## Coupon Error Messages
 
+next-coupon-error-expired = Термін дії введеного коду закінчився.
+next-coupon-error-generic = Під час обробки коду сталася помилка. Спробуйте ще раз.
+next-coupon-error-invalid = Введений вами код недійсний.
+# "Limit" refers to the maximum number of times a coupon can be redeemed.
+next-coupon-error-limit-reached = Введений вами код вичерпав свій ліміт.
 
 ##
 
