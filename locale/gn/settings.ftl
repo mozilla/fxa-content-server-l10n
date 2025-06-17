@@ -1338,6 +1338,7 @@ index-header = Emoinge ne ñanduti veve
 index-sync-header = Eku’e jey nde { -product-mozilla-account } ndive
 index-sync-subheader = Embojuehe ñe’ẽñemi, tendayke ha techaukaha tenda eiporuhápe { -brand-firefox }.
 index-relay-header = Emoheñói ñanduti veve rovamo’ãha
+index-relay-subheader = Ikatúpa, eme’ẽ ne ñanditi veve réra emondojeyseha ne ñanditi veve hovañemo’ãva guive.
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = Eku’ejey { $serviceName } ndive
 index-subheader-with-logo = Eku’ejey <span>{ $serviceLogo }</span> ndive
@@ -1816,6 +1817,9 @@ signin-recovery-phone-code-verification-error-heading = Oiko peteĩ apañuái eh
 signin-recovery-phone-general-error-description = Eha’ãjey ag̃amieve.
 signin-recovery-phone-invalid-code-error-description = Pe ayvu naiporãi térã ndoikovéima
 signin-recovery-phone-invalid-code-error-link = ¿Eiporu ayvu ñemoneĩrã jeykekoha hendaguépe?
+# "Limits" refers to potential restrictions on how often a recovery phone number can be used for signing in within a given time period.
+# If limits are reached, users may have to use an alternate two-step authentication method or wait until the restriction period is over.
+signin-recovery-phone-success-message = Eike porãiterei. Ikatu ojeporu hu’ã meve eipuru jeýramo ne pumbyry guerujeyrã.
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -1830,6 +1834,8 @@ signin-reported-message = Ore aty oñemomarandu. Marandu’i kóva rehegua ore p
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 signin-token-code-heading-2 = Emoinge ayvu ñemoneĩrã<span> ne { -product-mozilla-account }</span> peg̃uarã
+# { $email } represents the email that the user entered to sign in
+signin-token-code-instruction-v2 = Ehai ayvu jehechajeyrã 5 aravo’i oútavape oñemondóva <email>{ $email }</email>.
 signin-token-code-input-label-v2 = Emoinge ayvu 6 taíva
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Moneĩ
