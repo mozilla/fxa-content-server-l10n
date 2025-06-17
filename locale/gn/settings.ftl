@@ -1195,6 +1195,7 @@ tfa-row-enabled-description = Ne mba’ete oñemo’ã hechajeyha mokõi jeku’
 # "this" refers to two-step authentication
 # Link goes to https://support.mozilla.org/kb/secure-mozilla-account-two-step-authentication
 tfa-row-enabled-info-link = Mba’éicha omo’ãta ne mba’ete
+tfa-row-disabled-description-v2 = Eipytyvõ emo’ã hag̃ua ne mba’ete eiporúvo tembiporu’i ñemoneĩrã mbohapyháva mokõiha jeku’egua eike hag̃ua.
 tfa-row-cannot-verify-session-4 = Rombyasy, oiko apañuái guasu emoneĩjeývo tembiapo
 tfa-row-disable-modal-heading = ¿Eipe’a ñemoneĩ mokõi jeku’egua?
 tfa-row-disable-modal-confirm = Pe’a
@@ -1245,6 +1246,7 @@ auth-error-114-generic = Eiporuse heta jeýma. Ikatúpiko eha’ãjey ag̃amieve
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Eiporuse heta jeýma. Eha’ãjey { $retryAfter }-pe.
 auth-error-125 = Ojejokóma ko mba’ejerure tekorosãrãve
+auth-error-129-2 = Ehaíma peteĩ pumbyry papapy ndovaléiva. Ehechajey ha eha’ã ag̃amie.
 auth-error-138-2 = Tembiapo oñemoneĩ’ỹva
 auth-error-139 = Pe ñanduti veve mokõiháva iñambueva’erã ñanduti veve ne mba’ete reheguávagui
 auth-error-155 = Token TOTP ojejuhu’ỹva
@@ -1259,6 +1261,7 @@ auth-error-214 = Pe pumbyry papapy guerujeyrã oĩmavoi
 auth-error-215 = Pumbyry papapy guerujeyrã noĩri gueteri
 auth-error-216 = Ehupytýma hu’ã ñe’ẽmondorã
 auth-error-218 = Ndaikatúi embogue pumbyry guerujeyha, ndorekói ayvukuéra ñemoneĩha.
+auth-error-219 = Ko pumbyry papapy ojeporu hetaiterei mba’etépe. Eha’ã ambue papapýpe.
 auth-error-999 = Jejavy eha’ãrõ’ỹva
 auth-error-1001 = Ojejokóma tembiapo ñepyrũ
 auth-error-1002 = Hu’ãma tembiapo. Eñepyrũjey emba’apo hag̃ua.
