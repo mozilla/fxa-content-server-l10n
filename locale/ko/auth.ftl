@@ -160,6 +160,15 @@ automated-email-reset =
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext-v2 = 이 작업을 승인하지 않으셨다면 지금 { $resetLink }에서 비밀번호를 재설정하세요.
+# This message is used by multiple automated emails that notify users of security events on their account
+# "this action" is meant to be a generic term, and could, for example, refer to using a backup authentication code to confirm a password reset
+automated-email-reset-pwd-two-factor =
+    이 행동을 하지 않았다면 즉시 <a data-l10n-name="resetLink">비밀번호를 재설정</a>하고 <a data-l10n-name="twoFactorSettingsLink">2단계 인증을 재설정</a>하세요.
+    자세한 내용은 <a data-l10n-name="supportLink">{ -brand-mozilla } 지원</a>을 참조하세요.
+# Followed by link to https://accounts.firefox.com/reset_password
+automated-email-reset-pwd-plaintext-v3 = 이 행동을 하지 않았다면 즉시 비밀번호를 변경하세요:
+# Followed by link to https://accounts.firefox.com/settings#two-step-authentication
+automated-email-reset-two-factor-plaintext = 또한, 2단계 인증 재설정하세요:
 brand-banner-message = { -product-firefox-accounts } 명칭이 { -product-mozilla-accounts }으로 변경되었다는 사실을 알고 계신가요? <a data-l10n-name="learnMore">자세히 알아보세요</a>
 cancellationSurvey = 간단한 <a data-l10n-name="cancellationSurveyUrl">설문 조사</a>에 참여하여, 서비스 개선에 도움을 주세요.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
