@@ -300,6 +300,8 @@ backup-recovery-phone-image-aria-label =
     .aria-label = Dyfais symudol gyda galluoedd neges destun SMS
 backup-authentication-codes-image-aria-label =
     .aria-label = Sgrin dyfais gyda chodau
+sync-clouds-image-aria-label =
+    .aria-label = Cymylau gydag eicon cysoni
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -1963,3 +1965,11 @@ signup-change-email-link = Newid e-bost
 ## SignupConfirmedSync page
 ## Shown to users when they finish confirming their account through Sync
 
+signup-confirmed-sync-header = Mae cysoni wedi'i droi ymlaen
+signup-confirmed-sync-success-banner = { -product-mozilla-account } wedi'i gadarnhau
+signup-confirmed-sync-button = Cychwyn pori
+# Shown when payment methods are also synced
+signup-confirmed-sync-description-with-payment = Gall eich cyfrineiriau, dulliau talu, cyfeiriadau, nodau tudalen, hanes, a mwy gysoni ym mhobman y byddwch yn defnyddio { -product-firefox }.
+signup-confirmed-sync-description = Gall eich cyfrineiriau, cyfeiriadau, nodau tudalen, hanes, a mwy gysoni ym mhobman y byddwch yn defnyddio { -product-firefox }.
+signup-confirmed-sync-add-device-link = Ychwanegu dyfais arall
+signup-confirmed-sync-manage-sync-button = Rheoli cysoni

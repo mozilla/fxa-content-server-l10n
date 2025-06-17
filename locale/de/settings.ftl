@@ -300,6 +300,8 @@ backup-recovery-phone-image-aria-label =
     .aria-label = SMS-fähiges Mobilgerät
 backup-authentication-codes-image-aria-label =
     .aria-label = Gerätebildschirm mit Codes
+sync-clouds-image-aria-label =
+    .aria-label = Wolken mit einem Sync-Symbol
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -1951,3 +1953,11 @@ signup-change-email-link = E-Mail-Adresse ändern
 ## SignupConfirmedSync page
 ## Shown to users when they finish confirming their account through Sync
 
+signup-confirmed-sync-header = Sync ist aktiviert
+signup-confirmed-sync-success-banner = { -product-mozilla-account } bestätigt
+signup-confirmed-sync-button = Lossurfen
+# Shown when payment methods are also synced
+signup-confirmed-sync-description-with-payment = Ihre Passwörter, Zahlungsmethoden, Adressen, Lesezeichen, Chronik und mehr werden überall synchronisiert, wo Sie { -product-firefox } verwenden.
+signup-confirmed-sync-description = Ihre Passwörter, Adressen, Lesezeichen, Chronik und mehr können überall synchronisiert werden, wo Sie { -product-firefox } verwenden.
+signup-confirmed-sync-add-device-link = Weiteres Gerät hinzufügen
+signup-confirmed-sync-manage-sync-button = Synchronisierung verwalten

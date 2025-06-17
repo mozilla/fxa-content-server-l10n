@@ -300,6 +300,8 @@ backup-recovery-phone-image-aria-label =
     .aria-label = Mobilny grat z móžnosću, tekstowe zdźělenki SMS słać
 backup-authentication-codes-image-aria-label =
     .aria-label = Gratowa wobrazowka z kodami
+sync-clouds-image-aria-label =
+    .aria-label = Mróčele ze synchronizaciskim symbolom
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -1966,3 +1968,11 @@ signup-change-email-link = E-mejlowu adresu změnić
 ## SignupConfirmedSync page
 ## Shown to users when they finish confirming their account through Sync
 
+signup-confirmed-sync-header = Synchronizacija je zmóžnjena
+signup-confirmed-sync-success-banner = { -product-mozilla-account } wobkrućene
+signup-confirmed-sync-button = Přehladowanje započeć
+# Shown when payment methods are also synced
+signup-confirmed-sync-description-with-payment = Waše hesła, płaćenske metody, adresy, zapołožki, historija a wjace dadźa so wšudźe synchronizować, hdźež { -product-firefox } wužiwaće.
+signup-confirmed-sync-description = Waše hesła, adresy, zapołožki, historija a wjace dadźa so wšudźe synchronizować, hdźež { -product-firefox } wužiwaće.
+signup-confirmed-sync-add-device-link = Dalši grat přidać
+signup-confirmed-sync-manage-sync-button = Synchronizaciju rjadować

@@ -300,6 +300,8 @@ backup-recovery-phone-image-aria-label =
     .aria-label = Mobil enhet med SMS-funktioner
 backup-authentication-codes-image-aria-label =
     .aria-label = Enhetens skärm med koder
+sync-clouds-image-aria-label =
+    .aria-label = Moln med en synkroniseringsikon
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -1966,3 +1968,9 @@ signup-change-email-link = Ändra e-post
 ## SignupConfirmedSync page
 ## Shown to users when they finish confirming their account through Sync
 
+signup-confirmed-sync-button = Börja surfa
+# Shown when payment methods are also synced
+signup-confirmed-sync-description-with-payment = Dina lösenord, betalningsmetoder, adresser, bokmärken, historik och mer kan synkroniseras överallt där du använder { -product-firefox }.
+signup-confirmed-sync-description = Dina lösenord, adresser, bokmärken, historik och mer kan synkroniseras överallt där du använder { -product-firefox }.
+signup-confirmed-sync-add-device-link = Lägg till en annan enhet
+signup-confirmed-sync-manage-sync-button = Hantera synkronisering
