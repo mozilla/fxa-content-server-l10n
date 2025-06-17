@@ -110,6 +110,7 @@ automated-email-support = Eñemomaranduve hag̃ua, eike <a data-l10n-name="suppo
 automated-email-change-plaintext-2 = Nandéiramo ejapo, emoambue ne ñe’ẽñemi pya’e:
 #  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-support-plaintext = Eikuaave hag̃ua, eike { -brand-mozilla } pytyvõme:
+automated-email-inactive-account = Kóva ha’e peteĩ ñanduti veve ijeheguíva. Rehupyty kóva reguerekógui { -product-mozilla-account } mba’ete ha ohasáma 2 ary reike pahahague guive.
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } Eñemomaranduve hag̃ua, eike <a data-l10n-name="supportLink">{ -brand-mozilla } Pytyvõme</a>.
 automated-email-no-action-plaintext = Kóva ha’e peteĩ ñanduti veve hekojeheguíva. Og̃uahẽrei rire ndéve, anínte ejapo mba’eve.
@@ -452,6 +453,7 @@ postRemoveRecoveryPhone-subject = Pumbyry guerujeyrã mboguepyre
 postRemoveRecoveryPhone-preview = Mba’ete oñemo’ãva ñemoneĩ mokõi jeku’eguápe
 postRemoveRecoveryPhone-title = Pumbyry guerujeyrã mboguepyre
 postRemoveRecoveryPhone-description-v2 = Ne pumbyry guerujeyha oñembogue nde ñemoneĩ ñembohekoha mokõi jeku’eguávagui.
+postRemoveRecoveryPhone-description-extra = Eiporukuaa gueteri nde ayvukuéra ñemoneĩrã jeykekorã eike hag̃ua ndaikatúiramo eiporu ne rembiporu’i jeykekorãva.
 postRemoveRecoveryPhone-requested-device = Ejerure chupe:
 postRemoveSecondary-subject = Oguéma ñandutiveve mokõiguáva
 postRemoveSecondary-title = Oguéma ñandutiveve mokõiguáva
