@@ -301,7 +301,7 @@ backup-recovery-phone-image-aria-label =
 backup-authentication-codes-image-aria-label =
     .aria-label = Schermo del dispositivo con codici
 sync-clouds-image-aria-label =
-    .aria-label = Nuvole con un’icona di sincronizzazione
+    .aria-label = Nuvole con un’icona che rappresenta la sincronizzazione
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
