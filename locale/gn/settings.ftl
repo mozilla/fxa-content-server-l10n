@@ -648,6 +648,7 @@ flow-setup-2fa-backup-choice-phone-title = Pumbyry guerujeyrã
 flow-setup-2fa-backup-choice-phone-badge = Ndahasýi
 flow-setup-2fa-backup-choice-code-title = Ayvu ñemoneĩrã jeykekoha
 flow-setup-2fa-backup-choice-code-badge = Hekorosãve
+flow-setup-2fa-backup-choice-code-info = Ejapo ha eñongatu umi ayvu ñemoneĩrã peteĩ jeygua.
 # This link points to https://support.mozilla.org/kb/secure-mozilla-account-two-step-authentication
 flow-setup-2fa-backup-choice-learn-more-link = Eikuaave guerujeyrã rehegua ha SIM ñemoambue imarãkuaaha
 
