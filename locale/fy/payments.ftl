@@ -523,11 +523,6 @@ sub-item-no-such-subsequent-invoice = Folgjende faktuer net fûn foar dit abonne
 sub-invoice-preview-error-title = Faktuerfoarbyld net fûn
 sub-invoice-preview-error-text = Faktuerfoarbyld net fûn foar dit abonnemint
 
-## Routes - Subscriptions - Pocket Subscription
-
-manage-pocket-title-2 = Op syk nei jo abonnemint op { -product-pocket } premium?
-manage-pocket-body-2 = <linkExternal>Klik hjir</linkExternal> om dit te behearen.
-
 ## Routes - Subscriptions - Reactivate
 ## $name (String) - The name of the subscribed product.
 

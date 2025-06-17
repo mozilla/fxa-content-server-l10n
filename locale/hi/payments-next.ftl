@@ -8,6 +8,9 @@ payment-method-header-second-step-next = 2. { next-payment-method-header }
 ## Page - Upgrade page
 
 
+## Authentication Error page
+
+
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages
 
@@ -50,7 +53,6 @@ next-coupon-promo-code = प्रोमो कोड
 # Component - Header
 
 payments-header-bento-monitor = { -product-mozilla-monitor }
-payments-header-bento-pocket = { -product-pocket }
 payments-header-avatar =
     .title = { -product-mozilla-account } मेन्यू
 
