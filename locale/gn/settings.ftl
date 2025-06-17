@@ -630,6 +630,7 @@ flow-recovery-key-info-cancel-link = Heja
 ## FlowSetup2faApp
 
 flow-setup-2fa-qr-heading = Eike tembiporu’i ñemoneĩhávape
+flow-setup-2a-qr-instruction = <strong>Jeku’e 1:</strong> Emoha’ãnga QR ayvu eiporúvo peteĩva tembiporu’i ñemoneĩrã, ikatúva Duo térã Google Authenticator.
 flow-setup-2fa-cant-scan-qr-button = ¿Ndaikatúi emoha’ãnga QR ayvu?
 flow-setup-2fa-manual-key-heading = Emoinge ayvu nde poitépe
 flow-setup-2fa-manual-key-instruction = <strong>Ku’e 1:</strong> Emoinge ko ayvu ne rembiporu’i ñemoneĩrã eipotávape.
@@ -647,6 +648,7 @@ flow-setup-2fa-backup-choice-heading = Eiporavo mba’éichapa erujeýta
 flow-setup-2fa-backup-choice-description = Kóva omoneĩ eikévo ndaikatúiramo jepe eike ne mba’e’oka pumbyrygua térã ne rembiporu’i ñemoneĩhápe.
 flow-setup-2fa-backup-choice-phone-title = Pumbyry guerujeyrã
 flow-setup-2fa-backup-choice-phone-badge = Ndahasýi
+flow-setup-2fa-backup-choice-phone-info = Ehupyty peteĩ ayvu guerujerã SMS rupive. Ko’ág̃a oĩva EE. UU. ha Canadá-pe.
 flow-setup-2fa-backup-choice-code-title = Ayvu ñemoneĩrã jeykekoha
 flow-setup-2fa-backup-choice-code-badge = Hekorosãve
 flow-setup-2fa-backup-choice-code-info = Ejapo ha eñongatu umi ayvu ñemoneĩrã peteĩ jeygua.
@@ -658,6 +660,8 @@ flow-setup-2fa-backup-choice-learn-more-link = Eikuaave guerujeyrã rehegua ha S
 ## by entering one of them.
 
 flow-setup-2fa-backup-code-confirm-heading = Emoinge ayvu ñemoneĩrã jeykekoha
+# codes here refers to backup authentication codes
+flow-setup-2fa-backup-code-confirm-confirm-saved = Emoañete eñongatuhague ne ayvukuéra ehaívo peteĩ. Ko’ã ayvu’ỹre, ikatuhína ndereikekuaái ndereguerekóiramo ne rembiporu’i ñemoneĩrã.
 flow-setup-2fa-backup-code-confirm-code-input = Ehai ayvu orekóva 10 tai
 # Clicking on this button finishes the whole flow upon success.
 flow-setup-2fa-backup-code-confirm-button-finish = Mbopaha
