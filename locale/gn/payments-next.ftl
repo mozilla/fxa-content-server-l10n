@@ -165,6 +165,7 @@ select-tax-location-error-location-not-updated = Ndaikatúi embohekopyahu ne ren
 #  $currencyDisplayName (String) - The display name of a currency code, e.g. US Dollar
 select-tax-location-invalid-currency-change = Ne mba’ete iñemurekuatia { $currencyDisplayName }-pe. Eiporavo peteĩ tetã oiporúva { $currencyDisplayName }.
 select-tax-location-invalid-currency-change-default = Eiporavo peteĩ tetã iviru ojokupytýva ne ñemboheraguapy oikóva rehe.
+select-tax-location-new-tax-rate-info = Embohekopyahúvo ne rendaite ojeporúta tasa tributaria pyahu opaite ñemboheraguapy ne mba’etepegua, ñemukuatiarã oútava rehegua.
 signin-form-continue-button = Ku’ejey
 signin-form-email-input = Emoinge ne ñanduti veve
 signin-form-email-input-missing = Emoingemi ne ñanduti veve
@@ -241,11 +242,13 @@ metadata-title-checkout-processing = Ojejapohína | { $productTitle }
 metadata-description-checkout-processing = Ikatúpiko eha’ãrõmi romongu’e aja ne jehepyme’ẽrã.
 # Checkout error
 metadata-title-checkout-error = Ojavy | { $productTitle }
+metadata-description-checkout-error = Oiko peteĩ jejavy oñemboguata aja ne ñemboheraguapy. Ko apañuái ipukuvéramo, eñe’ẽ pytyvõha ndive.
 # Checkout success
 metadata-title-checkout-success = Osẽporã | { $productTitle }
 metadata-description-checkout-success = ¡Vy’apavẽ! Remohu’ãma hekópe porã ne mba’ejogua.
 # Checkout needs_input
 metadata-title-checkout-needs-input = Tembiapo ojeruréva | { $productTitle }
+metadata-description-checkout-needs-input = Ikatúpiko, emohu’ã pe jeku’e teikotevẽva ehepyme’ẽkuaa hag̃ua.
 # Upgrade start
 metadata-title-upgrade-start = Ñemboheko | { $productTitle }
 metadata-description-upgrade-start = Ehai nde jehepyme’ẽrã emohu’ã hag̃ua ne mbohekopyahu.
@@ -254,6 +257,7 @@ metadata-title-upgrade-processing = Ojejapohína | { $productTitle }
 metadata-description-upgrade-processing = Ikatúpiko eha’ãrõmi romongu’e aja nde jehepyme’ẽrã.
 # Upgrade error
 metadata-title-upgrade-error = Ojavy | { $productTitle }
+metadata-description-upgrade-error = Oiko peteĩ jejavy oñemboguata aja ne ñembohekopyahu. Ko apañuái ipukuvéramo, eñe’ẽ pytyvõha ndive.
 # Upgrade success
 metadata-title-upgrade-success = Osẽporã | { $productTitle }
 # Upgrade needs_input
