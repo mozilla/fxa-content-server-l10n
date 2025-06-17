@@ -284,6 +284,8 @@ backup-recovery-phone-image-aria-label =
     .aria-label = מכשיר נייד עם יכולות של הודעות SMS
 backup-authentication-codes-image-aria-label =
     .aria-label = מסך מכשיר עם קודים
+sync-clouds-image-aria-label =
+    .aria-label = עננים עם סמל של סנכרון
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -1521,6 +1523,7 @@ complete-reset-password-desktop-relay = ‏{ -brand-firefox } ינסה לשלו�
 
 confirm-backup-code-reset-password-input-label = נא להזין קוד בן 10 תווים
 confirm-backup-code-reset-password-confirm-button = אישור
+confirm-backup-code-reset-password-instruction = נא להכניס את אחד מהקודים החד־פעמיים ששמרת כשהגדרת את האימות הדו־שלבי.
 # Link out to support article: https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 confirm-backup-code-reset-password-locked-out-link = ננעלת מחוץ לחשבון?
 
@@ -1593,6 +1596,8 @@ reset-password-recovery-phone-heading = נא להכניס קוד לשחזור
 # Text that explains the user should check their phone for a recovery code
 # $maskedPhoneNumber - The users masked phone number
 reset-password-recovery-phone-instruction-v3 = קוד בן 6 ספרות נשלח אל מספר הטלפון שמסתיים ב־<span>{ $lastFourPhoneDigits }</span> בהודעת טקסט. קוד זה יפוג לאחר 5 דקות. אין לשתף את הקוד הזה עם אף אחד.
+reset-password-recovery-phone-input-label = נא להזין קוד בן 6 ספרות
+reset-password-recovery-phone-code-submit-button = אישור
 reset-password-recovery-phone-resend-code-button = שליחת הקוד מחדש
 reset-password-recovery-phone-resend-success = הקוד נשלח
 # links to https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
@@ -1853,3 +1858,4 @@ signup-change-email-link = שינוי כתובת דוא״ל
 ## SignupConfirmedSync page
 ## Shown to users when they finish confirming their account through Sync
 
+signup-confirmed-sync-header = הסנכרון מופעל
