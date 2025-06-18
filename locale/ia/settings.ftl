@@ -1959,3 +1959,8 @@ signup-change-email-link = Cambiar email
 ## SignupConfirmedSync page
 ## Shown to users when they finish confirming their account through Sync
 
+signup-confirmed-sync-header = Synchronisation active
+signup-confirmed-sync-success-banner = { -product-mozilla-account } confirmate
+signup-confirmed-sync-button = Comenciar a navigar
+signup-confirmed-sync-add-device-link = Adder un altere apparato
+signup-confirmed-sync-manage-sync-button = Gerer synchronisation
