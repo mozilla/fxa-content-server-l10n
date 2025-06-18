@@ -20,7 +20,7 @@ brand-banner-dismiss-button-2 =
 # This message is displayed as the title element in the banner, prior to actually launching the new brand
 brand-prelaunch-title = നവമ്പർ ഒന്നാംതീയതിക്കു് { -product-firefox-accounts }-ന്റെ പേരു് { -product-mozilla-accounts }-ആയി തീരും.
 # This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
-brand-prelaunch-subtitle = താങ്ങൾ അതേ രഹസ്യവാക്കും ഉപയോക്തൃപ്പേരുകൊണ്ടു് പ്രവേശിക്കും, താങ്ങളൾ ഉപയോഗിക്കുന്ന ഉൽപ്പന്നങ്ങളിൽ ഒരു മാറ്റാവുമുണ്ടാവത്തില്ല.
+brand-prelaunch-subtitle = താങ്ങൾ അതേ ഒളിവാക്കും ഉപയോക്തൃപ്പേരുകൊണ്ടു് പ്രവേശിക്കും, താങ്ങളൾ ഉപയോഗിക്കുന്ന ഉൽപ്പന്നങ്ങളിൽ ഒരു മാറ്റാവുമുണ്ടാവത്തില്ല.
 # This is an extra link element, that directs users to a page where they can learn more about the branding changes.
 brand-learn-more = കൂടുതല്‍ അറിയുക
 # Alt text for close banner image
@@ -76,7 +76,7 @@ choose-what-to-sync-option-bookmarks =
 choose-what-to-sync-option-history =
     .label = നാള്‍വഴി
 choose-what-to-sync-option-passwords =
-    .label = രഹസ്യവാക്കുകൾ
+    .label = ഒളിവാക്കുകൾ
 choose-what-to-sync-option-addons =
     .label = ആഡ്-ഓണുകള്‍
 # Refers to 'tabs that are open', not the action
@@ -126,40 +126,40 @@ device-info-ip-address = ഐപി വിലാസം: { $ipAddress }
 ## FormPasswordWithBalloons
 
 signup-new-password-label =
-    .label = രഹസ്യവാക്കു്
+    .label = ഒളിവാക്കു്
 signup-confirm-password-label =
-    .label = രഹസ്യവാക്ക് വീണ്ടും എഴുതുക
+    .label = ഒളിവാക്ക് വീണ്ടും എഴുതുക
 signup-submit-button = അക്കൗണ്ടു് ഉണ്ടാക്കുക
 form-reset-password-with-balloon-new-password =
-    .label = പുതിയ രഹസ്യവാക്കു്
+    .label = പുതിയ ഒളിവാക്കു്
 form-reset-password-with-balloon-confirm-password =
-    .label = രഹസ്യവാക്കു് വീണ്ടും നല്കുക:
-form-reset-password-with-balloon-submit-button = രഹസ്യവാക്കു് പുനസജ്ജീകരിക്കുക
-form-reset-password-with-balloon-match-error = രഹസ്യവാക്കുകൾ പൊരുത്തപ്പെടുന്നില്ല
-form-password-sr-too-short-message = രഹസ്യവാക്കിൽ 8 പ്രതീകങ്ങളെങ്കിലും ഉണ്ടാവണം.
-form-password-sr-not-email-message = രഹസ്യവാക്കിൽ താങ്ങളുടെ ഇതപാൽവിലാസം ഉൾപ്പെടരുതു്
-form-password-sr-not-common-message = രഹസ്യവാക്കു് ഒരു സാധാരണമായി ഉപയോഗിക്കപ്പെട്ട രഹസ്യവാക്കു് ആവരുതു്
-form-password-sr-requirements-met = നല്കിയ രഹസ്യവാക്കു് എല്ലാ ആവശ്യങ്ങളെയും പൂൎതീകരിക്കുന്നു.
-form-password-sr-passwords-match = നല്കിയ രഹസ്യവാക്കുകൾ പൊരുത്തപ്പെടുന്നു
+    .label = ഒളിവാക്കു് വീണ്ടും നല്കുക:
+form-reset-password-with-balloon-submit-button = ഒളിവാക്കു് പുനസജ്ജീകരിക്കുക
+form-reset-password-with-balloon-match-error = ഒളിവാക്കുകൾ പൊരുത്തപ്പെടുന്നില്ല
+form-password-sr-too-short-message = ഒളിവാക്കിൽ 8 പ്രതീകങ്ങളെങ്കിലും ഉണ്ടാവണം.
+form-password-sr-not-email-message = ഒളിവാക്കിൽ താങ്ങളുടെ ഇതപാൽവിലാസം ഉൾപ്പെടരുതു്
+form-password-sr-not-common-message = ഒളിവാക്കു് ഒരു സാധാരണമായി ഉപയോഗിക്കപ്പെട്ട ഒളിവാക്കു് ആവരുതു്
+form-password-sr-requirements-met = നല്കിയ ഒളിവാക്കു് എല്ലാ ആവശ്യങ്ങളെയും പൂൎതീകരിക്കുന്നു.
+form-password-sr-passwords-match = നല്കിയ ഒളിവാക്കുകൾ പൊരുത്തപ്പെടുന്നു
 
 ## FormPasswordInlineCriteria
 
 form-password-with-inline-criteria-signup-new-password-label =
-    .label = രഹസ്യവാക്കു്
+    .label = ഒളിവാക്കു്
 form-password-with-inline-criteria-signup-confirm-password-label =
-    .label = രഹസ്യവാക്കു് വീണ്ടും എഴുതുക
+    .label = ഒളിവാക്കു് വീണ്ടും എഴുതുക
 form-password-with-inline-criteria-signup-submit-button = അക്കൗണ്ടു് ഉണ്ടാക്കുക
 form-password-with-inline-criteria-reset-new-password =
-    .label = പുതിയ രഹസ്യവാക്കു്
+    .label = പുതിയ ഒളിവാക്കു്
 form-password-with-inline-criteria-confirm-password =
-    .label = രഹസ്യവാക്കു് ഉറപ്പിക്കുക
-form-password-with-inline-criteria-reset-submit-button = പുതിയ രഹസ്യവാക്കു് ഉണ്ടാക്കുക
-form-password-with-inline-criteria-match-error = രഹസ്യവാക്കുകൾ പൊരുത്തപ്പെടുന്നില്ല
-form-password-with-inline-criteria-sr-too-short-message = രഹസ്യവാക്കിൽ 8 പ്രതീകങ്ങളെങ്കിലും ഉണ്ടാവണം.
-form-password-with-inline-criteria-sr-not-email-message = രഹസ്യവാക്കിൽ താങ്ങളുടെ ഇതപാൽവിലാസം ഉൾപ്പെടരുതു്
-form-password-with-inline-criteria-sr-not-common-message = രഹസ്യവാക്കു് ഒരു സാധാരണമായി ഉപയോഗിക്കപ്പെട്ട രഹസ്യവാക്കു് ആവരുതു്
-form-password-with-inline-criteria-sr-requirements-met = നല്കിയ രഹസ്യവാക്കു് എല്ലാ ആവശ്യങ്ങളെയും പൂൎതീകരിക്കുന്നു.
-form-password-with-inline-criteria-sr-passwords-match = നല്കിയ രഹസ്യവാക്കുകൾ പൊരുത്തപ്പെടുന്നു
+    .label = ഒളിവാക്കു് ഉറപ്പിക്കുക
+form-password-with-inline-criteria-reset-submit-button = പുതിയ ഒളിവാക്കു് ഉണ്ടാക്കുക
+form-password-with-inline-criteria-match-error = ഒളിവാക്കുകൾ പൊരുത്തപ്പെടുന്നില്ല
+form-password-with-inline-criteria-sr-too-short-message = ഒളിവാക്കിൽ 8 പ്രതീകങ്ങളെങ്കിലും ഉണ്ടാവണം.
+form-password-with-inline-criteria-sr-not-email-message = ഒളിവാക്കിൽ താങ്ങളുടെ ഇതപാൽവിലാസം ഉൾപ്പെടരുതു്
+form-password-with-inline-criteria-sr-not-common-message = ഒളിവാക്കു് ഒരു സാധാരണമായി ഉപയോഗിക്കപ്പെട്ട ഒളിവാക്കു് ആവരുതു്
+form-password-with-inline-criteria-sr-requirements-met = നല്കിയ ഒളിവാക്കു് എല്ലാ ആവശ്യങ്ങളെയും പൂൎതീകരിക്കുന്നു.
+form-password-with-inline-criteria-sr-passwords-match = നല്കിയ ഒളിവാക്കുകൾ പൊരുത്തപ്പെടുന്നു
 
 ## FormVerifyCode
 
@@ -259,17 +259,17 @@ inline-recovery-key-setup-later-button = പിന്നീടു് ചെയ�
 ## Input Password
 
 # Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will hide the password.
-input-password-hide = രഹസ്യവാക്കു് മറയ്ക്കുക
+input-password-hide = ഒളിവാക്കു് മറയ്ക്കുക
 # Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will show the password.
-input-password-show = രഹസ്യവാക്കു് കാണിയ്ക്കുക
+input-password-show = ഒളിവാക്കു് കാണിയ്ക്കുക
 # Message read by screen readers when focus is on a password input visibility toggle. Expresses current (visible) state of the textbox content.
-input-password-hide-aria-2 = താങ്ങളുടെ രഹസ്യവാക്കു് പ്രതലത്തിൽ നിലവിൽ കാണാം.
+input-password-hide-aria-2 = താങ്ങളുടെ ഒളിവാക്കു് പ്രതലത്തിൽ നിലവിൽ കാണാം.
 # Message read by screen readers when focus is on a password input visibility toggle. Expresses current (hidden) state of the textbox content.
-input-password-show-aria-2 = താങ്ങളുടെ രഹസ്യവാക്കു് നിലവിൽ മറച്ചിരിക്കുന്നു.
+input-password-show-aria-2 = താങ്ങളുടെ ഒളിവാക്കു് നിലവിൽ മറച്ചിരിക്കുന്നു.
 # Message read by screen readers after clicking on a password input visibility toggle to show the password. Expresses the new (visible) state of the textbox content.
-input-password-sr-only-now-visible = താങ്ങളുടെ രഹസ്യവാക്കു് പ്രതലത്തിൽ ഇപ്പോൾ കാണാം.
+input-password-sr-only-now-visible = താങ്ങളുടെ ഒളിവാക്കു് പ്രതലത്തിൽ ഇപ്പോൾ കാണാം.
 # Message read by screen readers after clicking on a password input visibility toggle to hide the password. Expresses the new (hidden) state of the textbox content.
-input-password-sr-only-now-hidden = താങ്ങളുടെ രഹസ്യവാക്കു് ഇപ്പോൾ മറച്ചിരിക്കുന്നു
+input-password-sr-only-now-hidden = താങ്ങളുടെ ഒളിവാക്കു് ഇപ്പോൾ മറച്ചിരിക്കുന്നു
 
 ## Phone number component
 
@@ -285,7 +285,7 @@ legal-back-button = പുറകോട്ടു്
 
 # The user followed a password reset link that was received by email
 # but the link is damaged (for example mistyped or broken by the email client)
-reset-pwd-link-damaged-header = രഹസ്യവാക്ക് പുനസജ്ജീകരണ കണ്ണി കേടായി
+reset-pwd-link-damaged-header = ഒളിവാക്ക് പുനസജ്ജീകരണ കണ്ണി കേടായി
 # The user followed a link to signin that was received by email
 # but the link was damaged (for example mistyped or broken by the email client).
 signin-link-damaged-header = ഉറപ്പിക്കൽകണ്ണി കേടായി
@@ -301,7 +301,7 @@ link-expired-new-link-button = പുതിയ കണ്ണിക്കായി
 ## LinkRememberPassword component
 
 # immediately before remember-password-signin-link
-remember-password-text = രഹസ്യവാക്കു് ഓൎമ്മയുണ്ടോ?
+remember-password-text = ഒളിവാക്കു് ഓൎമ്മയുണ്ടോ?
 # link navigates to the sign in page
 remember-password-signin-link = പ്രവേശിക്കുക
 
@@ -320,16 +320,16 @@ error-bad-request = കേടായ അഭ്യൎത്ഥനം
 
 ## PasswordStrengthBalloon component
 
-password-strength-balloon-heading = രഹസ്യവാക്കു് ആവശ്യങ്ങൾ
+password-strength-balloon-heading = ഒളിവാക്കു് ആവശ്യങ്ങൾ
 password-strength-balloon-min-length = 8 പ്രതീകങ്ങളെങ്കിലും
 password-strength-balloon-not-email = താങ്ങളുടെ ഇതപാൽ വിലാസമല്ല
-password-strength-balloon-not-common = സാധാരണമുപയോഗപ്പെട്ട രഹസ്യവാക്കല്ല
+password-strength-balloon-not-common = സാധാരണമുപയോഗപ്പെട്ട ഒളിവാക്കല്ല
 
 ## PasswordStrengthBalloon component
 
 password-strength-inline-min-length = 8 പ്രതീകങ്ങളെങ്കിലും
 password-strength-inline-not-email = താങ്ങളുടെ ഇതപാൽ വിലാസമല്ല
-password-strength-inline-not-common = സാധാരണമുപയോഗപ്പെട്ട രഹസ്യവാക്കല്ല
+password-strength-inline-not-common = സാധാരണമുപയോഗപ്പെട്ട ഒളിവാക്കല്ല
 
 ## Notification Promo Banner component
 
@@ -479,7 +479,7 @@ header-help = പിന്തുണ
 ## Linked Accounts section
 
 la-heading = ഇണച്ച അക്കൗണ്ടുകൾ
-la-set-password-button = രഹസ്യവാക്കു് വയ്ക്കുക
+la-set-password-button = ഒളിവാക്കു് വയ്ക്കുക
 nav-linked-accounts = { la-heading }
 
 ## Modal - Default values for a message directed at the user where the user can typically Confirm or Cancel.
@@ -539,25 +539,25 @@ avatar-page-new-avatar =
 ## Password change page
 
 pw-change-header =
-    .title = രഹസ്യവാക്കു് മാറ്റുക
+    .title = ഒളിവാക്കു് മാറ്റുക
 pw-not-email = താങ്ങളുടെ ഇതപാൽ വിലാസമല്ല
-pw-commonly-used = സാധാരണമുപയോഗപ്പെട്ട രഹസ്യവാക്കല്ല
+pw-commonly-used = സാധാരണമുപയോഗപ്പെട്ട ഒളിവാക്കല്ല
 pw-change-cancel-button = റദ്ദാക്കുക
 pw-change-save-button = കരുതിവയ്ക്കുക
-pw-change-forgot-password-link = താങ്ങളുടെ രഹസ്യവാക്കു് മറന്നോ?
+pw-change-forgot-password-link = താങ്ങളുടെ ഒളിവാക്കു് മറന്നോ?
 pw-change-current-password =
-    .label = നിലവിലുള്ള രഹസ്യവാക്കു് നല്കുക
+    .label = നിലവിലുള്ള ഒളിവാക്കു് നല്കുക
 pw-change-new-password =
-    .label = പുതിയ രഹസ്യവാക്കു് നല്കുക
+    .label = പുതിയ ഒളിവാക്കു് നല്കുക
 pw-change-confirm-password =
-    .label = പുതിയ രഹസ്യവാക്കു് ഉറപ്പിക്കുക
-pw-change-success-alert-2 = രഹസ്യവാക്കു് പുതുച്ചു
+    .label = പുതിയ ഒളിവാക്കു് ഉറപ്പിക്കുക
+pw-change-success-alert-2 = ഒളിവാക്കു് പുതുച്ചു
 
 ## Password create page
 
 pw-create-header =
-    .title = രഹസ്യവാക്കു് ഉണ്ടാക്കുക
-pw-create-success-alert-2 = രഹസ്യവാക്കു് സജ്ജം
+    .title = ഒളിവാക്കു് ഉണ്ടാക്കുക
+pw-create-success-alert-2 = ഒളിവാക്കു് സജ്ജം
 
 ## Delete account page
 
@@ -576,7 +576,7 @@ delete-account-product-firefox-sync = { -brand-firefox } ദത്ത സമന�
 delete-account-product-firefox-addons = { -brand-firefox } ആഡ് ഓണുകൾ
 delete-account-continue-button = തുടരുക
 delete-account-password-input =
-    .label = രഹസ്യവാക്ക് നല്‍കുക
+    .label = ഒളിവാക്ക് നല്‍കുക
 delete-account-cancel-button = റദ്ദാക്കുക
 delete-account-delete-button-2 = മായ്ക്കുക
 
@@ -604,7 +604,7 @@ recent-activity-account-two-factor-requested = രണ്ടുപ്പടി �
 recent-activity-account-two-factor-failure = രണ്ടുപ്പടി അധിക്കാരികപ്പെടുത്തൽ തോറ്റുപോയി
 recent-activity-account-two-factor-success = രണ്ടുപ്പടി അധിക്കാരികപ്പെടുത്തൽ നടന്നു
 recent-activity-account-two-factor-removed = രണ്ടുപ്പടി അധിക്കാരികപ്പെടുത്തൽ മാറ്റി
-recent-activity-account-password-changed = രഹസ്യവാക്കു് മാറ്റി
+recent-activity-account-password-changed = ഒളിവാക്കു് മാറ്റി
 
 ## PageRecoveryKeyCreate
 
@@ -675,7 +675,7 @@ profile-primary-email =
 
 security-heading = സുരക്ഷ
 security-password =
-    .header = രഹസ്യവാക്കു്
+    .header = ഒളിവാക്കു്
 # This is a string that shows when the user's password was created.
 # Variables:
 #   $date (String) - a localized date and time string
@@ -744,7 +744,7 @@ third-party-auth-options-or = അല്ലെങ്കിൽ
 ## Auth-server based errors that originate from backend service
 
 auth-error-102 = അറിയാത്ത അക്കൗണ്ടു്
-auth-error-103 = തെറ്റായ രഹസ്യവാക്കു്
+auth-error-103 = തെറ്റായ ഒളിവാക്കു്
 # Error shown to users when they have attempted a request (e.g., requesting a password reset) too many times
 # and their requests have been throttled, but the specific amount of time before they can retry is unknown.
 auth-error-114-generic = താങ്ങൾ ഒരുപാടു് വട്ടം ശ്രമിച്ചിരിക്കുന്നു. പിന്നീട് വീണ്ടും ശ്രമിക്കുക.
@@ -899,7 +899,7 @@ password-reset-submit-button-2 = തുടരുക
 
 ## ResetPasswordConfirmed
 
-reset-password-complete-header = താങ്കളുടെ രഹസ്യവാക്കു് പുനഃസജ്ജമാക്കി
+reset-password-complete-header = താങ്കളുടെ ഒളിവാക്കു് പുനഃസജ്ജമാക്കി
 # $serviceName is a product name such as Monitor, Pocket, Relay
 reset-password-confirmed-cta = { $serviceName }-ലോട്ടു് തുടരുക
 
@@ -923,8 +923,8 @@ error-label = പിഴവു്:
 signin-button = പ്രവേശിക്കുക
 signin-header = പ്രവേശിക്കുക
 signin-use-a-different-account-link = മറ്റൊരു അക്കൗണ്ട് ഉപയോഗിക്കുക
-signin-forgot-password-link = രഹസ്യവാക്കു് മറന്നോ?
-signin-password-button-label = രഹസ്യവാക്കു്
+signin-forgot-password-link = ഒളിവാക്കു് മറന്നോ?
+signin-password-button-label = ഒളിവാക്കു്
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
@@ -1006,8 +1006,8 @@ signin-unblock-submit-button = തുടരുക
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
-signup-heading = രഹസ്യവാക്കു് വയ്ക്കുക
-signup-heading-relay = രഹസ്യവാക്കു് ഉണ്ടാക്കുക
+signup-heading = ഒളിവാക്കു് വയ്ക്കുക
+signup-heading-relay = ഒളിവാക്കു് ഉണ്ടാക്കുക
 # Link included in a dismissible info banner that is only displayed to Pocket clients
 # Link leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
 signup-pocket-info-banner-link = ഇവിടെ കണ്ടെത്തുക

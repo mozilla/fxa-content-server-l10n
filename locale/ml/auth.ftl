@@ -58,14 +58,14 @@ subplat-privacy-website-plaintext = { subplat-privacy }:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-android-badge = <img data-l10n-name="google-play-badge" alt="Download { $productName } on { -google-play }">
 # After the colon, there's a link to https://accounts.firefox.com/settings/change_password
-automated-email-change-plaintext-2 = താങ്ങൾ ഈ നടപടി എടുത്തില്ലെങ്കിൽ ഉടൻ തന്നെ താങ്ങളുടെ രഹസ്യവാക്കു് മാറ്റുക
+automated-email-change-plaintext-2 = താങ്ങൾ ഈ നടപടി എടുത്തില്ലെങ്കിൽ ഉടൻ തന്നെ താങ്ങളുടെ ഒളിവാക്കു് മാറ്റുക
 #  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-support-plaintext = കൂടുതൽ വിവരത്തിനുവേണ്ടി { -brand-mozilla } പിന്തുണയിലേക്കു് ചെല്ലുക:
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } കൂടുതൽ വിവരത്തിനുവേണ്ടി <a data-l10n-name="supportLink"> { -brand-mozilla } പിന്തുണയിലേക്കു് ചെല്ലുക.</a>
 # This string is shown on its own line, after automatedEmailRecoveryKey-notyou-delete-key-plaintext and its URL
 # Colon is followed by a URL to the change password section of account settings
-automatedEmailRecoveryKey-notyou-change-pwd-plaintext = കൂടാതെ താങ്ങളുടെ രഹസ്യവാക്കും മാറ്റുക:
+automatedEmailRecoveryKey-notyou-change-pwd-plaintext = കൂടാതെ താങ്ങളുടെ ഒളിവാക്കും മാറ്റുക:
 # Colon is followed by a URL to Mozilla Support's "I'm having problems with my account" page
 automatedEmailRecoveryKey-more-info-plaintext = കൂടുതൽ വിവരത്തിനുവേണ്ടി { -brand-mozilla } പിന്തുണയിലേക്കു് ചെല്ലുക:
 manage-account = അക്കൗണ്ട് കൈകാര്യം ചെയ്യുക
@@ -155,21 +155,21 @@ newDeviceLogin-subject = { $clientName } ലോട്ടുള്ള പുത�
 newDeviceLogin-title-3 = താങ്ങളുടെ { -product-mozilla-account } അക്കൗണ്ടുവഴി പ്രവേശനമുണ്ടായി
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
-newDeviceLogin-change-password = താങ്ങളല്ലെ? എന്നാൽ <a data-l10n-name="passwordChangeLink">രഹസ്യവാക്കു് മാറ്റുക</a>.
+newDeviceLogin-change-password = താങ്ങളല്ലെ? എന്നാൽ <a data-l10n-name="passwordChangeLink">ഒളിവാക്കു് മാറ്റുക</a>.
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
-newDeviceLogin-change-password-plain = താങ്ങളല്ലെ? പിന്നെ രഹസ്യവാക്കു് മാറ്റുവിൻ
+newDeviceLogin-change-password-plain = താങ്ങളല്ലെ? പിന്നെ ഒളിവാക്കു് മാറ്റുവിൻ
 newDeviceLogin-action = അക്കൗണ്ട് കൈകാര്യം ചെയ്യുക
-passwordChanged-subject = രഹസ്യവാക്കു് പുതുച്ചു
-passwordChanged-title = രഹസ്യവാക്ക് വിജയകരമായി മാറ്റി
+passwordChanged-subject = ഒളിവാക്കു് പുതുച്ചു
+passwordChanged-title = ഒളിവാക്ക് വിജയകരമായി മാറ്റി
 passwordChangeRequired-subject = സംശയകരമായ പ്രവൎത്തനം കണ്ടെത്തി
-passwordChangeRequired-title = രഹസ്യവാക്കു് മാറ്റണ്ടിവരും
-password-forgot-otp-subject = രഹസ്യവാക്കു് മറന്നോ?
-password-forgot-otp-title = രഹസ്യവാക്കു് മറന്നോ?
+passwordChangeRequired-title = ഒളിവാക്കു് മാറ്റണ്ടിവരും
+password-forgot-otp-subject = ഒളിവാക്കു് മറന്നോ?
+password-forgot-otp-title = ഒളിവാക്കു് മറന്നോ?
 password-forgot-otp-expiry-notice = ഈ സങ്കേതം പത്തു മിനിറ്റിൽ തീരും.
 passwordResetAccountRecovery-action-4 = അക്കൗണ്ടു് കൈകാര്യം ചെയ്യുക
-passwordResetWithRecoveryKeyPrompt-subject = താങ്കളുടെ രഹസ്യവാക്കു് പുനഃസജ്ജമാക്കി
-passwordResetWithRecoveryKeyPrompt-title = താങ്കളുടെ രഹസ്യവാക്കു് പുനഃസജ്ജമാക്കി
+passwordResetWithRecoveryKeyPrompt-subject = താങ്കളുടെ ഒളിവാക്കു് പുനഃസജ്ജമാക്കി
+passwordResetWithRecoveryKeyPrompt-title = താങ്കളുടെ ഒളിവാക്കു് പുനഃസജ്ജമാക്കി
 # Text for button action to create a new account recovery key
 passwordResetWithRecoveryKeyPrompt-action = അക്കൌണ്ടു് വീണ്ടെടുപ്പു് സങ്കേതം ഉണ്ടാക്കുക
 # colon is followed by a link to create an account recovery key from the account settings page
@@ -200,15 +200,15 @@ postSigninRecoveryPhone-action = അക്കൗണ്ടു് കൈകാര�
 postVerifySecondary-subject = ദ്വിതീയ ഇമെയിൽ ചേർത്തു
 postVerifySecondary-title = ദ്വിതീയ ഇമെയിൽ ചേർത്തു
 postVerifySecondary-action = അക്കൗണ്ട് കൈകാര്യം ചെയ്യുക
-recovery-action = പുതിയ രഹസ്യവാക്ക് ശ്രഷ്ടിക്കുക
+recovery-action = പുതിയ ഒളിവാക്ക് ശ്രഷ്ടിക്കുക
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-title = { $productName }-ലേക്കു് സ്വാഗതം
 subscriptionAccountFinishSetup-action-2 = തുടങ്ങാം
-subscriptionAccountReminderFirst-action = രഹസ്യവാക്കു് ഉണ്ടാക്കുക
+subscriptionAccountReminderFirst-action = ഒളിവാക്കു് ഉണ്ടാക്കുക
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-title-2 = { -brand-mozilla } ലേക്ക് സ്വാഗതം
-subscriptionAccountReminderSecond-action = രഹസ്യവാക്കു് ഉണ്ടാക്കുക
+subscriptionAccountReminderSecond-action = ഒളിവാക്കു് ഉണ്ടാക്കുക
 
 ## Variables
 ##   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
