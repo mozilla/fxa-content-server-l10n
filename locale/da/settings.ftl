@@ -1959,3 +1959,9 @@ signup-change-email-link = Skift mailadresse
 
 signup-confirmed-sync-header = Synkronisering er slået til
 signup-confirmed-sync-success-banner = { -product-mozilla-account } bekræftet
+signup-confirmed-sync-button = Gå i gang
+# Shown when payment methods are also synced
+signup-confirmed-sync-description-with-payment = Dine adgangskoder, betalingsmetoder, adresser, bogmærker, historik og mere kan synkroniseres overalt, hvor du bruger{ -product-firefox }.
+signup-confirmed-sync-description = Dine adgangskoder, adresser, bogmærker, historik og mere kan synkroniseres overalt, hvor du bruger { -product-firefox }.
+signup-confirmed-sync-add-device-link = Tilføj en ny enhed
+signup-confirmed-sync-manage-sync-button = Håndter synkronisering
