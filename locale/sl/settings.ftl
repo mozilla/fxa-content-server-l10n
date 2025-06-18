@@ -1970,7 +1970,7 @@ signup-confirmed-sync-header = Sinhronizacija je vključena
 signup-confirmed-sync-success-banner = { -product-mozilla-account } potrjen
 signup-confirmed-sync-button = Začnite z brskanjem
 # Shown when payment methods are also synced
-signup-confirmed-sync-description-with-payment = Vaša gesla, načini plačila, naslovi, zaznamki, zgodovina in drugo se lahko sinhronizirajo povsod, kjer uporabljate { -product-firefox }.
-signup-confirmed-sync-description = Vaša gesla, naslovi, zaznamki, zgodovina in drugo se lahko sinhronizirajo povsod, kjer uporabljate { -product-firefox }.
+signup-confirmed-sync-description-with-payment = Vaša gesla, plačilna sredstva, naslovi, zaznamki, zgodovina in drugi podatki se lahko sinhronizirajo povsod, kjer uporabljate { -product-firefox(sklon: "tozilnik") }.
+signup-confirmed-sync-description = Vaša gesla, naslovi, zaznamki, zgodovina in drugi podatki se lahko sinhronizirajo povsod, kjer uporabljate { -product-firefox(sklon: "tozilnik") }.
 signup-confirmed-sync-add-device-link = Dodaj drugo napravo
 signup-confirmed-sync-manage-sync-button = Upravljanje sinhronizacije
