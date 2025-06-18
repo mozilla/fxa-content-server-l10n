@@ -300,6 +300,8 @@ backup-recovery-phone-image-aria-label =
     .aria-label = Pumbyry popegua ikatuhápe eñe’ẽmondo
 backup-authentication-codes-image-aria-label =
     .aria-label = Mba’e’oka rechaha ijayvúva
+sync-clouds-image-aria-label =
+    .aria-label = Arai ñembojuehe ra’ãnga’i ndive
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -1932,3 +1934,7 @@ signup-change-email-link = Emoambue  ñanduti veve
 ## SignupConfirmedSync page
 ## Shown to users when they finish confirming their account through Sync
 
+signup-confirmed-sync-success-banner = { -product-mozilla-account } moneĩmbyre
+signup-confirmed-sync-button = Eñepyrũ eikundaha
+signup-confirmed-sync-add-device-link = Embojuaju ambue mba’e’oka
+signup-confirmed-sync-manage-sync-button = Eñangareko ñembojuehére
