@@ -300,6 +300,8 @@ backup-recovery-phone-image-aria-label =
     .aria-label = Mobiel apparaat met sms-mogelijkheden
 backup-authentication-codes-image-aria-label =
     .aria-label = Apparaatscherm met codes
+sync-clouds-image-aria-label =
+    .aria-label = Wolken met een synchronisatiepictogram
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -1961,3 +1963,11 @@ signup-change-email-link = E-mailadres wijzigen
 ## SignupConfirmedSync page
 ## Shown to users when they finish confirming their account through Sync
 
+signup-confirmed-sync-header = Synchronisatie is ingeschakeld
+signup-confirmed-sync-success-banner = { -product-mozilla-account } bevestigd
+signup-confirmed-sync-button = Beginnen met surfen
+# Shown when payment methods are also synced
+signup-confirmed-sync-description-with-payment = Uw wachtwoorden, betalingsmethoden, adressen, bladwijzers, geschiedenis en meer kunnen overal waar u { -product-firefox } gebruikt synchroniseren.
+signup-confirmed-sync-description = Uw wachtwoorden, adressen, bladwijzers, geschiedenis en meer kunnen overal waar u { -product-firefox } gebruikt synchroniseren.
+signup-confirmed-sync-add-device-link = Nog een apparaat toevoegen
+signup-confirmed-sync-manage-sync-button = Synchronisatie beheren
