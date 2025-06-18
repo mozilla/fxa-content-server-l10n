@@ -675,7 +675,7 @@ flow-setup-2fa-backup-code-confirm-button-finish = 完成
 ## The backup codes download step of the setup 2 factor authentication flow
 
 flow-setup-2fa-backup-code-dl-heading = 保存备用验证码
-flow-setup-2fa-backup-code-dl-save-these-codes = 请将这些验证码保存在您不会遗忘的地方。如果您无法使用身份验证应用，则需要输入备用验证码才能登录。
+flow-setup-2fa-backup-code-dl-save-these-codes = 请将这些验证码保存在您不会遗忘的地方。如果您无法使用身份验证应用，则需要输入其中一个验证码才能登录。
 flow-setup-2fa-backup-code-dl-button-continue = 继续
 
 ## FlowSetupPhoneConfirmCode
@@ -1935,3 +1935,8 @@ signup-change-email-link = 更改邮箱
 signup-confirmed-sync-header = 同步服务已开启
 signup-confirmed-sync-success-banner = 已确认 { -product-mozilla-account }
 signup-confirmed-sync-button = 开始浏览
+# Shown when payment methods are also synced
+signup-confirmed-sync-description-with-payment = 您可以在使用 { -product-firefox } 的各设备间，同步密码、付款方式、地址、书签、历史记录等数据。
+signup-confirmed-sync-description = 您可以在使用 { -product-firefox } 的各设备间，同步密码、地址、书签、历史记录等数据。
+signup-confirmed-sync-add-device-link = 添加其他设备
+signup-confirmed-sync-manage-sync-button = 管理同步
