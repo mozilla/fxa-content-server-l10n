@@ -300,6 +300,8 @@ backup-recovery-phone-image-aria-label =
     .aria-label = 具有短信功能的移动设备
 backup-authentication-codes-image-aria-label =
     .aria-label = 显示验证码的设备屏幕
+sync-clouds-image-aria-label =
+    .aria-label = 带同步图标的云朵图案
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -649,12 +651,15 @@ flow-setup-2fa-input-label = 请输入 6 位验证码
 ## authentication setup flow.
 
 flow-setup-2fa-backup-choice-heading = 请选择一项恢复方式
+flow-setup-2fa-backup-choice-description = 这是您在无法使用移动设备或身份验证应用时的登录方法。
 flow-setup-2fa-backup-choice-phone-title = 恢复电话号码
 flow-setup-2fa-backup-choice-phone-badge = 最简单
 flow-setup-2fa-backup-choice-phone-info = 通过短信获取恢复验证码。目前仅在美国和加拿大可用。
 flow-setup-2fa-backup-choice-code-title = 备用验证码
 flow-setup-2fa-backup-choice-code-badge = 最安全
 flow-setup-2fa-backup-choice-code-info = 创建并保存一次性验证码。
+# This link points to https://support.mozilla.org/kb/secure-mozilla-account-two-step-authentication
+flow-setup-2fa-backup-choice-learn-more-link = 了解“恢复”，以及“SIM 卡交换”风险
 
 ## The backup code confirm step of the setup 2 factor authentication flow,
 ## where the user confirm that they have saved their backup authentication codes
@@ -670,6 +675,7 @@ flow-setup-2fa-backup-code-confirm-button-finish = 完成
 ## The backup codes download step of the setup 2 factor authentication flow
 
 flow-setup-2fa-backup-code-dl-heading = 保存备用验证码
+flow-setup-2fa-backup-code-dl-save-these-codes = 请将这些验证码保存在您不会遗忘的地方。如果您无法使用身份验证应用，则需要输入备用验证码才能登录。
 flow-setup-2fa-backup-code-dl-button-continue = 继续
 
 ## FlowSetupPhoneConfirmCode
@@ -1926,3 +1932,6 @@ signup-change-email-link = 更改邮箱
 ## SignupConfirmedSync page
 ## Shown to users when they finish confirming their account through Sync
 
+signup-confirmed-sync-header = 同步服务已开启
+signup-confirmed-sync-success-banner = 已确认 { -product-mozilla-account }
+signup-confirmed-sync-button = 开始浏览
