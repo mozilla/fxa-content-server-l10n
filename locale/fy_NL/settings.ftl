@@ -1973,3 +1973,5 @@ signup-confirmed-sync-button = Start mei browsen
 # Shown when payment methods are also synced
 signup-confirmed-sync-description-with-payment = Jo wachtwurden, betellingsmetoaden, adressen, blêdwizers, skiednis en mear, kinne oeral syngronisearre wurde wêr’t jo { -product-firefox } brûke.
 signup-confirmed-sync-description = Jo wachtwurden, adressen, blêdwizers, skiednis en mear, kinne oeral syngronisearre wurde wêr’t jo { -product-firefox } brûke.
+signup-confirmed-sync-add-device-link = Noch in apparaat tafoegje
+signup-confirmed-sync-manage-sync-button = Syngronisaasje beheare
