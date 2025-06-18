@@ -300,6 +300,8 @@ backup-recovery-phone-image-aria-label =
     .aria-label = 可收發簡訊的行動裝置
 backup-authentication-codes-image-aria-label =
     .aria-label = 裝置畫面中顯示驗證碼
+sync-clouds-image-aria-label =
+    .aria-label = 雲端同步圖示
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -1922,3 +1924,11 @@ signup-change-email-link = 更改電子郵件地址
 ## SignupConfirmedSync page
 ## Shown to users when they finish confirming their account through Sync
 
+signup-confirmed-sync-header = 已開啟同步
+signup-confirmed-sync-success-banner = { -product-mozilla-account } 已確認
+signup-confirmed-sync-button = 開始上網
+# Shown when payment methods are also synced
+signup-confirmed-sync-description-with-payment = 隨時隨地使用 { -product-firefox } 都可同步使用您的密碼、付款方式、地址、書籤、上網紀錄與更多資訊。
+signup-confirmed-sync-description = 隨時隨地使用 { -product-firefox } 都可同步使用您的密碼、地址、書籤、上網紀錄與更多資訊。
+signup-confirmed-sync-add-device-link = 新增另一台裝置
+signup-confirmed-sync-manage-sync-button = 管理同步
