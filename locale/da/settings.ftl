@@ -300,6 +300,8 @@ backup-recovery-phone-image-aria-label =
     .aria-label = Mobil enhed med SMS-meddelelsesfunktioner
 backup-authentication-codes-image-aria-label =
     .aria-label = Enhedsskærm med koder
+sync-clouds-image-aria-label =
+    .aria-label = Skyer med et synkroniseringsikon
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -630,19 +632,47 @@ flow-recovery-key-info-cancel-link = Annuller
 
 ## FlowSetup2faApp
 
+flow-setup-2fa-qr-heading = Opret forbindelse til din godkendelsesapp
+flow-setup-2a-qr-instruction = <strong>Trin 1:</strong> Skan denne QR-kode ved hjælp af en godkendelsesapp, såsom Duo eller Google Authenticator.
+flow-setup-2fa-cant-scan-qr-button = Kan du ikke skanne QR-koden?
+flow-setup-2fa-manual-key-heading = Indtast kode manuelt
+flow-setup-2fa-manual-key-instruction = <strong>Trin 1:</strong> Indtast denne kode i din foretrukne godkendelsesapp.
+flow-setup-2fa-scan-qr-instead-button = Skan QR-kode i stedet?
+# links to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication#w_step-one
+flow-setup-2fa-more-info-link = Læs mere om godkendelsesapps
+flow-setup-2fa-button = Fortsæt
+flow-setup-2fa-step-2-instruction = <Strong>Trin 2:</strong> Indtast koden fra din godkendelsesapp.
 flow-setup-2fa-input-label = Indtast sekscifret kode
 
 ## The step to choose the two step authentication method in the two step
 ## authentication setup flow.
 
+flow-setup-2fa-backup-choice-heading = Vælg en genoprettelsesmetode
+flow-setup-2fa-backup-choice-description = Dette giver dig mulighed for at logge ind, hvis du ikke har adgang til din mobile enhed eller godkendelsesapp.
+flow-setup-2fa-backup-choice-phone-title = Telefonnummer til genoprettelse
+flow-setup-2fa-backup-choice-phone-badge = Nemmeste
+flow-setup-2fa-backup-choice-phone-info = Få en genoprettelseskode i en SMS-besked. Er i øjeblikket kun tilgængeligt i USA og Canada.
+flow-setup-2fa-backup-choice-code-title = Reserve-godkendelseskoder
+flow-setup-2fa-backup-choice-code-badge = Sikreste
+flow-setup-2fa-backup-choice-code-info = Opret og gem engangs-godkendelseskoder.
+# This link points to https://support.mozilla.org/kb/secure-mozilla-account-two-step-authentication
+flow-setup-2fa-backup-choice-learn-more-link = Læs om genoprettelse og SIM-swapping-risiko
 
 ## The backup code confirm step of the setup 2 factor authentication flow,
 ## where the user confirm that they have saved their backup authentication codes
 ## by entering one of them.
 
+flow-setup-2fa-backup-code-confirm-heading = Indtast reserve-godkendelseskode
+# codes here refers to backup authentication codes
+flow-setup-2fa-backup-code-confirm-confirm-saved = Bekræft at du har gemt dine koder ved at indtaste en af dem. Uden disse koder kan du muligvis ikke logge ind, hvis du ikke har din godkendelsesapp.
+flow-setup-2fa-backup-code-confirm-code-input = Indtast koden på 10 tegn
+# Clicking on this button finishes the whole flow upon success.
+flow-setup-2fa-backup-code-confirm-button-finish = Afslut
 
 ## The backup codes download step of the setup 2 factor authentication flow
 
+flow-setup-2fa-backup-code-dl-heading = Gem reserve-godkendelseskoder
+flow-setup-2fa-backup-code-dl-button-continue = Fortsæt
 
 ## FlowSetupPhoneConfirmCode
 
@@ -1927,3 +1957,5 @@ signup-change-email-link = Skift mailadresse
 ## SignupConfirmedSync page
 ## Shown to users when they finish confirming their account through Sync
 
+signup-confirmed-sync-header = Synkronisering er slået til
+signup-confirmed-sync-success-banner = { -product-mozilla-account } bekræftet

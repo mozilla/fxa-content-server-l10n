@@ -23,6 +23,7 @@ upgrade-page-acknowledgment = Din plan bliver ændret med det samme, og du vil b
 
 ## Authentication Error page
 
+auth-error-page-title = Vi kunne ikke logge dig ind
 checkout-error-boundary-retry-button = Prøv igen
 checkout-error-boundary-basic-error-message = Noget gik galt. Prøv igen eller <contactSupportLink>kontakt support.</contactSupportLink>
 
@@ -194,6 +195,7 @@ next-subscription-processing-title = Bekræfter abonnement…
 next-subscription-error-title = Der opstod en fejl under bekræftelse af abonnement…
 subscription-title-sub-exists = Du abonnerer allerede
 subscription-title-plan-change-heading = Gennemgå dine ændringer
+subscription-title-not-supported = Denne ændring af abonnementsplan understøttes ikke
 next-sub-guarantee = 30-dages pengene-tilbage-garanti
 
 ## Component - TermsAndPrivacy
