@@ -642,6 +642,7 @@ flow-setup-2fa-scan-qr-instead-button = Scanner plutôt un code QR ?
 # links to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication#w_step-one
 flow-setup-2fa-more-info-link = En savoir plus sur les applications d’authentification
 flow-setup-2fa-button = Continuer
+flow-setup-2fa-step-2-instruction = <strong>Étape 2 :</strong> saisissez le code de votre application d’authentification.
 flow-setup-2fa-input-label = Saisissez le code à 6 chiffres
 
 ## The step to choose the two step authentication method in the two step
@@ -1635,6 +1636,7 @@ confirm-totp-reset-password-instruction-v2 = Consultez votre <strong>application
 confirm-totp-reset-password-trouble-code = Un problème pour saisir le code ?
 confirm-totp-reset-password-confirm-button = Confirmer
 confirm-totp-reset-password-input-label-v2 = Saisissez le code à 6 chiffres
+confirm-totp-reset-password-use-different-account = Utiliser un autre { -product-mozilla-account }
 
 ## ResetPassword start page
 
