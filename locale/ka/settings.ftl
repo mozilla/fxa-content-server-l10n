@@ -302,6 +302,8 @@ backup-recovery-phone-image-aria-label =
     .aria-label = მობილური მოწყობილობა SMS-შეტყობინების მიღების შესაძლებლობით
 backup-authentication-codes-image-aria-label =
     .aria-label = მოწყობილობის ეკრანი კოდებით
+sync-clouds-image-aria-label =
+    .aria-label = ღრუბლები სინქრონიზაციის ხატულით
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -1964,3 +1966,11 @@ signup-change-email-link = ელფოსტის შეცვლა
 ## SignupConfirmedSync page
 ## Shown to users when they finish confirming their account through Sync
 
+signup-confirmed-sync-header = სინქრონიზაცია ჩართულია
+signup-confirmed-sync-success-banner = { -product-mozilla-account } დამოწმებულია
+signup-confirmed-sync-button = დაიწყეთ მოგზაურობა ინტერნეტში
+# Shown when payment methods are also synced
+signup-confirmed-sync-description-with-payment = თქვენი პაროლები, გადახდის საშუალებები, მისამართები, სანიშნები, ისტორია და ა. შ. შესაძლებელია დაასინქრონოთ ყველგან, სადაც გიყენიათ { -product-firefox }.
+signup-confirmed-sync-description = თქვენი პაროლები, მისამართები, სანიშნები, ისტორია და ა. შ. შესაძლებელია დაასინქრონოთ ყველგან, სადაც გიყენიათ { -product-firefox }.
+signup-confirmed-sync-add-device-link = სხვა მოწყობილობის დამატება
+signup-confirmed-sync-manage-sync-button = სინქრონიზაციის მართვა
