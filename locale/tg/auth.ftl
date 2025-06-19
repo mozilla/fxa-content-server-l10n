@@ -477,6 +477,9 @@ subscriptionReactivation-subject = Обунаи «{ $productName }» аз нав
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-title = Ташаккур барои аз нав фаъол кардани обунашавии худ дар «{ $productName }»!
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionRenewalReminder-subject = Огоҳнома дар бораи навсозии худкори «{ $productName }»
 subscriptionRenewalReminder-title = Обунаи шумо ба зудӣ нав карда мешавад
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
