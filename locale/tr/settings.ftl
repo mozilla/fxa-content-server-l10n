@@ -300,6 +300,8 @@ backup-recovery-phone-image-aria-label =
     .aria-label = SMS mesajı özelliğine sahip mobil cihaz
 backup-authentication-codes-image-aria-label =
     .aria-label = Kodlar görünen cihaz ekranı
+sync-clouds-image-aria-label =
+    .aria-label = Eşitleme simgesi olan bulutlar
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -402,6 +404,7 @@ account-recovery-notification-header-value = Parolanızı unutursanız verilerin
 account-recovery-notification-header-description = Parolanızı unutursanız eşitlenmiş gezinti verilerinizi kurtarmak için bir hesap kurtarma anahtarı oluşturun.
 recovery-phone-promo-cta = Kurtarma telefonu ekleyin
 recovery-phone-promo-heading = Kurtarma telefonuyla hesabınıza ekstra koruma ekleyin
+recovery-phone-promo-description = İki aşamalı kimlik doğrulama uygulamanızı kullanamıyorsanız artık SMS yoluyla tek kullanımlık parolayla giriş yapabilirsiniz.
 recovery-phone-promo-info-link = Kurtarma ve SIM swap saldırısı hakkında daha fazla bilgi alın
 promo-banner-dismiss-button =
     .aria-label = Bildirimi kapat
@@ -1935,3 +1938,8 @@ signup-change-email-link = E-postayı değiştir
 ## SignupConfirmedSync page
 ## Shown to users when they finish confirming their account through Sync
 
+signup-confirmed-sync-header = Eşitleme açıldı
+signup-confirmed-sync-success-banner = { -product-mozilla-account } onaylandı
+signup-confirmed-sync-button = Gezinmeye başla
+signup-confirmed-sync-add-device-link = Başka bir cihaz ekle
+signup-confirmed-sync-manage-sync-button = Eşitlemeyi yönet
