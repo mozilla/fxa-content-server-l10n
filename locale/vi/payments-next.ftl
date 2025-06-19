@@ -23,6 +23,7 @@ upgrade-page-acknowledgment = Gói của bạn sẽ thay đổi ngay lập tức
 
 ## Authentication Error page
 
+auth-error-page-title = Chúng tôi không thể đăng nhập cho bạn
 checkout-error-boundary-retry-button = Thử lại
 checkout-error-boundary-basic-error-message = Đã xảy ra lỗi. Vui lòng thử lại hoặc <contactSupportLink>liên hệ hỗ trợ.</contactSupportLink>
 
@@ -194,6 +195,7 @@ next-subscription-processing-title = Đang xác nhận thuê bao…
 next-subscription-error-title = Lỗi khi xác nhận thuê bao…
 subscription-title-sub-exists = Bạn đã đăng ký trước đó
 subscription-title-plan-change-heading = Xem lại thay đổi của bạn
+subscription-title-not-supported = Thay đổi gói thuê bao này không được hỗ trợ
 next-sub-guarantee = Đảm bảo hoàn tiền trong 30 ngày
 
 ## Component - TermsAndPrivacy
