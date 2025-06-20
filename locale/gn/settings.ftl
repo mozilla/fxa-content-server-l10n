@@ -1934,6 +1934,7 @@ signup-change-email-link = Emoambue  ñanduti veve
 ## SignupConfirmedSync page
 ## Shown to users when they finish confirming their account through Sync
 
+signup-confirmed-sync-header = Ñembojuehe hendyhína
 signup-confirmed-sync-success-banner = { -product-mozilla-account } moneĩmbyre
 signup-confirmed-sync-button = Eñepyrũ eikundaha
 signup-confirmed-sync-add-device-link = Embojuaju ambue mba’e’oka
