@@ -1543,6 +1543,8 @@ pair-unsupported-message = Sće systemowu kameru wužił? Dyrbiće w nałoženju
 # password to complete their sign-in when they want to login to a service requiring it.
 
 set-password-heading-v2 = Wutworće hesło za synchronizaciju
+# "This" refers to the heading, "Create password to sync"
+set-password-info-v2 = To waše daty zaklučuje. Dyrbi so wot kontoweho hesła { -brand-google } abo { -brand-apple } rozeznać.
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
@@ -1721,6 +1723,7 @@ signin-password-button-label = Hesło
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-desktop-relay = { -brand-firefox } budźe was wróćo słać, zo byšće po přizjewjenju e-mejlowu masku wužiwał.
+signin-code-expired-error = Kod je spadnjeny. Prošu přizjewće so znowa.
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
@@ -1953,3 +1956,4 @@ signup-confirmed-sync-description-with-payment-v2 = Waše hesła, płaćenske me
 signup-confirmed-sync-description-v2 = Waše hesła, adresy, zapołožki, historija a wjace dadźa so wšudźe synchronizować, hdźež { -brand-firefox } wužiwaće.
 signup-confirmed-sync-add-device-link = Dalši grat přidać
 signup-confirmed-sync-manage-sync-button = Synchronizaciju rjadować
+signup-confirmed-sync-set-password-success-banner = Hesło za synchronizaciju wutworjene

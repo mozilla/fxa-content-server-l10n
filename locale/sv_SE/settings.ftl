@@ -1962,3 +1962,4 @@ signup-confirmed-sync-description-with-payment-v2 = Dina lösenord, betalningsme
 signup-confirmed-sync-description-v2 = Dina lösenord, adresser, bokmärken, historik och mer kan synkroniseras överallt där du använder { -brand-firefox }.
 signup-confirmed-sync-add-device-link = Lägg till en annan enhet
 signup-confirmed-sync-manage-sync-button = Hantera synkronisering
+signup-confirmed-sync-set-password-success-banner = Synkroniseringslösenord skapat
