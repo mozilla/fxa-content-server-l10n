@@ -126,6 +126,7 @@ signup-new-password-label =
 signup-confirm-password-label =
     .label = Hesło wospjetować
 signup-submit-button = Konto załožić
+post-verify-set-password-submit-button = Synchronizaciju započeć
 form-reset-password-with-balloon-new-password =
     .label = Nowe hesło
 form-reset-password-with-balloon-confirm-password =
@@ -1009,6 +1010,7 @@ tfa-enter-recovery-code-1 =
 
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
+product-promo-monitor-description-v2 = Wuslědźće, hdźež so waše informacije wotkrywaja a přewozmiće kontrolu
 # Links out to the Monitor site
 product-promo-monitor-cta = Dóstańće darmotny sken
 
@@ -1540,6 +1542,7 @@ pair-unsupported-message = Sće systemowu kameru wužił? Dyrbiće w nałoženju
 
 # password to complete their sign-in when they want to login to a service requiring it.
 
+set-password-heading-v2 = Wutworće hesło za synchronizaciju
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
@@ -1912,6 +1915,7 @@ confirm-signup-code-instruction-v2 = Zapodajće kod, kotryž je so za 5 mjeńši
 confirm-signup-code-input-label = 6-městnowy kod zapodać
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = Wobkrućić
+confirm-signup-code-sync-button = Synchronizaciju započeć
 confirm-signup-code-code-expired = Je kod spadnył?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Nowy kod přez e-mejl pósłać.
@@ -1926,7 +1930,10 @@ confirm-signup-code-desktop-relay = { -brand-firefox } budźe was wróćo słać
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
+signup-heading-v2 = Hesło wutworić
 signup-relay-info = Hesło je trěbna, zo byšće swoje maskowane mejlki wěsće rjadować a k wěstotnym nastrojam { -brand-mozilla } přistup měł.
+signup-sync-info = Synchronizujće swoje hesła, zapołožki a wjace wšudźe, hdźež { -brand-firefox } wužiwaće.
+signup-sync-info-with-payments = Synchronizujće swoje hesła, płaćenske metody, zapołožki a wjace wšudźe, hdźež { -brand-firefox } wužiwaće.
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = Čehodla dyrbju tute konto załožić?
 # Link included in a dismissible info banner that is only displayed to Pocket clients
@@ -1941,5 +1948,8 @@ signup-change-email-link = E-mejlowu adresu změnić
 signup-confirmed-sync-header = Synchronizacija je zmóžnjena
 signup-confirmed-sync-success-banner = { -product-mozilla-account } wobkrućene
 signup-confirmed-sync-button = Přehladowanje započeć
+# Shown when payment methods are also synced
+signup-confirmed-sync-description-with-payment-v2 = Waše hesła, płaćenske metody, adresy, zapołožki, historija a wjace dadźa so wšudźe synchronizować, hdźež { -brand-firefox } wužiwaće.
+signup-confirmed-sync-description-v2 = Waše hesła, adresy, zapołožki, historija a wjace dadźa so wšudźe synchronizować, hdźež { -brand-firefox } wužiwaće.
 signup-confirmed-sync-add-device-link = Dalši grat přidać
 signup-confirmed-sync-manage-sync-button = Synchronizaciju rjadować

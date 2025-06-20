@@ -1015,8 +1015,14 @@ tfa-enter-recovery-code-1 =
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
 product-promo-monitor-description-v2 = Hitta var din privata information exponeras och ta kontrollen
+# this message will only be shown to users eligible for a special promotion, based on their location (initially USA only)
+# $price - formatted for user locale, in the target market's currency (for launch, always USD)
+# /mo is 'per month'
+product-promo-monitor-special-promo-description = För { $price }/månad, spara på { -product-mozilla-vpn-short }, { -product-mozilla-monitor-short }:s datamäklarskydd och { -product-firefox-relay-short }: s obegränsade e-postalias.
 # Links out to the Monitor site
 product-promo-monitor-cta = Få en gratis skanning
+# Links out to the Monitor pricing site
+product-promo-monitor-special-promo-cta = Få skydd året runt
 
 ## Profile section
 
@@ -1546,6 +1552,9 @@ pair-unsupported-message = Använde du systemkameran? Du måste parkoppla från 
 
 # password to complete their sign-in when they want to login to a service requiring it.
 
+set-password-heading-v2 = Skapa lösenord för att synkronisera
+# "This" refers to the heading, "Create password to sync"
+set-password-info-v2 = Detta krypterar din data. Det måste skilja sig från lösenordet för ditt { -brand-google }- eller { -brand-apple }-konto.
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
@@ -1722,6 +1731,7 @@ signin-password-button-label = Lösenord
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-desktop-relay = { -brand-firefox } försöker skicka dig tillbaka för att använda ett e-postalias efter du loggat in.
+signin-code-expired-error = Koden upphörde. Vänligen logga in igen.
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
@@ -1914,6 +1924,7 @@ confirm-signup-code-instruction-v2 = Ange koden som skickades till <email>{ $ema
 confirm-signup-code-input-label = Ange 6-siffrig kod
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = Bekräfta
+confirm-signup-code-sync-button = Starta synkronisering
 confirm-signup-code-code-expired = Har koden upphört?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Mejla ny kod.
@@ -1931,6 +1942,7 @@ confirm-signup-code-desktop-relay = { -brand-firefox } försöker skicka dig til
 signup-heading-v2 = Skapa ett lösenord
 signup-relay-info = Ett lösenord behövs för att säkert hantera dina maskerade e-postmeddelanden och komma åt { -brand-mozilla }:s säkerhetsverktyg.
 signup-sync-info = Synkronisera dina lösenord, bokmärken och mer överallt där du använder { -brand-firefox }.
+signup-sync-info-with-payments = Synkronisera dina lösenord, betalningsmetoder, bokmärken och mer överallt där du använder { -brand-firefox }.
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = Varför måste jag skapa det här kontot?
 # Link included in a dismissible info banner that is only displayed to Pocket clients
@@ -1945,5 +1957,8 @@ signup-change-email-link = Ändra e-post
 signup-confirmed-sync-header = Synkronisering är aktiverad
 signup-confirmed-sync-success-banner = { -product-mozilla-account } har bekräftats
 signup-confirmed-sync-button = Börja surfa
+# Shown when payment methods are also synced
+signup-confirmed-sync-description-with-payment-v2 = Dina lösenord, betalningsmetoder, adresser, bokmärken, historik och mer kan synkroniseras överallt där du använder { -brand-firefox }.
+signup-confirmed-sync-description-v2 = Dina lösenord, adresser, bokmärken, historik och mer kan synkroniseras överallt där du använder { -brand-firefox }.
 signup-confirmed-sync-add-device-link = Lägg till en annan enhet
 signup-confirmed-sync-manage-sync-button = Hantera synkronisering
