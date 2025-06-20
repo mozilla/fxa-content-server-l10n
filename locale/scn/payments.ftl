@@ -431,6 +431,7 @@ sub-update-new-plan-daily = { $productName } (ô jornu)
 sub-update-new-plan-weekly = { $productName } (â simana)
 sub-update-new-plan-monthly = { $productName } (ô misi)
 sub-update-new-plan-yearly = { $productName } (a l’annu)
+sub-update-prorated-upgrade-credit = U balanzu nigativu chi vidi veni scanciatu cu crèditi pû to cuntu, chi po' usari pi fatturi futuri.
 
 ## Routes - Subscriptions - Cancel
 
@@ -454,6 +455,7 @@ sub-item-cancel-confirm = Sdisattiva u me cuntu e scancella i me nfurmazzioni pi
 # Cybersecurity Awareness Month 2023 coupon applied: $11.20 + $0.35 tax
 # Summer Promo VPN coupon applied: $11.20
 sub-promo-coupon-applied = Prumuzzioni { $promotion_name } appricata: <priceDetails></priceDetails>
+subscription-management-account-credit-balance = U pagamentu di st'abbunamentu ginirau un crèditu nnô balanzu dû to cuntu: <priceDetails></priceDetails>
 
 ## Routes - Subscription
 

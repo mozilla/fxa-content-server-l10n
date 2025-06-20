@@ -23,6 +23,7 @@ upgrade-page-acknowledgment = U to chianu veni attualizzatu sùbbitu, e ti veni 
 
 ## Authentication Error page
 
+auth-error-page-title = Nun ti pòttimu fari tràsiri
 checkout-error-boundary-retry-button = Prova arrè
 checkout-error-boundary-basic-error-message = Cci fu un prubblema. Pi favuri torna a prova o <contactSupportLink>cuntatta l’assistenza</contactSupportLink>.
 
@@ -194,6 +195,7 @@ next-subscription-processing-title = Staju cunfirmannu l’abbunamentu…
 next-subscription-error-title = Cci fu un prubblema mentri chi cunfirmava l’abbunamentu…
 subscription-title-sub-exists = Già t’abbunasti
 subscription-title-plan-change-heading = Rividi u to canciu
+subscription-title-not-supported = Stu canciu ô chianu d’abbunamentu nun è suppurtatu
 next-sub-guarantee = Priggiarìa di rifazzioni pi 30 jorna
 
 ## Component - TermsAndPrivacy
@@ -227,6 +229,7 @@ upgrade-purchase-details-new-plan-weekly = { $productName } (â simana)
 upgrade-purchase-details-new-plan-monthly = { $productName } (ô misi)
 upgrade-purchase-details-new-plan-halfyearly = { $productName } (ogni 6 misi)
 upgrade-purchase-details-new-plan-yearly = { $productName } (a l’annu)
+upgrade-purchase-details-prorated-credits = U balanzu nigativu chi vidi veni scanciatu cu crèditi pû to cuntu, chi po' usari pi fatturi futuri.
 
 ## Page Metadata Information
 ## $productTitle (String) - The name of the product to create subscription, e.g. Mozilla VPN
