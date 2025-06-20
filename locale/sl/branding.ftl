@@ -126,6 +126,7 @@
        *[imenovalnik] Firefox račun
     }
 -product-mozilla-vpn = Mozilla VPN
+-product-mozilla-vpn-short = VPN
 -product-mozilla-hubs = Mozilla Hubs
 # Mozilla Developer Network
 -product-mdn = MDN
@@ -140,7 +141,9 @@
         [orodnik] Mozilla Monitorjem
        *[imenovalnik] Mozilla Monitor
     }
+-product-mozilla-monitor-short = Monitor
 -product-firefox-relay = Firefox Relay
+-product-firefox-relay-short = Relay
 -product-pocket = Pocket
 -brand-apple =
     { $sklon ->

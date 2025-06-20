@@ -126,6 +126,7 @@ signup-new-password-label =
 signup-confirm-password-label =
     .label = Ailadrodd y cyfrinair
 signup-submit-button = Creu cyfrif
+post-verify-set-password-submit-button = Dechrau cysoni
 form-reset-password-with-balloon-new-password =
     .label = Cyfrinair newydd
 form-reset-password-with-balloon-confirm-password =
@@ -1009,8 +1010,15 @@ tfa-enter-recovery-code-1 =
 
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
+product-promo-monitor-description-v2 = Dewch o hyd i ble mae'ch gwybodaeth breifat yn agored a chymerwch reolaeth
+# this message will only be shown to users eligible for a special promotion, based on their location (initially USA only)
+# $price - formatted for user locale, in the target market's currency (for launch, always USD)
+# /mo is 'per month'
+product-promo-monitor-special-promo-description = Am { $price }/mo, cadwch ar { -product-mozilla-vpn-short }, amddiffyniad brocer data-broceriaid { -product-mozilla-monitor-short }, a { -product-firefox-relay-short }' s mygydau e-bost diderfyn.
 # Links out to the Monitor site
 product-promo-monitor-cta = Cael sgan am ddim
+# Links out to the Monitor pricing site
+product-promo-monitor-special-promo-cta = Sicrhewch amddiffyniad trwy gydol y flwyddyn
 
 ## Profile section
 
@@ -1538,6 +1546,9 @@ pair-unsupported-message = Oeddech chi'n defnyddio camera'r system? Rhaid i chi 
 
 # password to complete their sign-in when they want to login to a service requiring it.
 
+set-password-heading-v2 = Creu cyfrinair i gysoni
+# "This" refers to the heading, "Create password to sync"
+set-password-info-v2 = Mae hyn yn amgryptio eich data. Mae angen iddo fod yn wahanol i gyfrinair eich cyfrif { -brand-google } neu { -brand-apple }.
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
@@ -1713,6 +1724,7 @@ signin-password-button-label = Cyfrinair
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-desktop-relay = Bydd { -brand-firefox } yn ceisio eich anfon yn ôl i ddefnyddio e-bost arallenw ar ôl i chi fewngofnodi.
+signin-code-expired-error = Cod wedi dod i ben. Mewngofnodwch eto.
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
@@ -1909,6 +1921,7 @@ confirm-signup-code-instruction-v2 = Rhowch y cod anfonwyd at <email>{ $email }<
 confirm-signup-code-input-label = Rhowch y cod 6 digid
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = Cadarnhau
+confirm-signup-code-sync-button = Dechrau cysoni
 confirm-signup-code-code-expired = Cod wedi dod i ben?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = E-bostiwch god newydd.
@@ -1923,7 +1936,10 @@ confirm-signup-code-desktop-relay = Bydd { -brand-firefox } yn ceisio eich anfon
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
+signup-heading-v2 = Crëwch gyfrinair
 signup-relay-info = Mae angen cyfrinair i reoli'ch e-byst ag arallenw yn ddiogel a chael mynediad at offer diogelwch { -brand-mozilla }.
+signup-sync-info = Cysonwch eich cyfrineiriau, nodau tudalen, a mwy ym mhob man y byddwch yn defnyddio { -brand-firefox }.
+signup-sync-info-with-payments = Cysonwch eich cyfrineiriau, dulliau talu, nodau tudalen, a mwy ym mhob man y byddwch yn defnyddio { -brand-firefox }.
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = Pam fod angen i mi greu'r cyfrif hwn?
 # Link included in a dismissible info banner that is only displayed to Pocket clients
@@ -1938,5 +1954,9 @@ signup-change-email-link = Newid e-bost
 signup-confirmed-sync-header = Mae cydweddu wedi'i droi ymlaen
 signup-confirmed-sync-success-banner = Cyfrif { -product-mozilla-account } wedi'i gadarnhau
 signup-confirmed-sync-button = Cychwyn pori
+# Shown when payment methods are also synced
+signup-confirmed-sync-description-with-payment-v2 = Gall eich cyfrineiriau, dulliau talu, cyfeiriadau, nodau tudalen, hanes, a mwy gysoni ym mhobman y byddwch yn defnyddio { -brand-firefox }.
+signup-confirmed-sync-description-v2 = Gall eich cyfrineiriau, cyfeiriadau, nodau tudalen, hanes, a mwy gysoni ym mhobman y byddwch yn defnyddio { -brand-firefox }.
 signup-confirmed-sync-add-device-link = Ychwanegu dyfais arall
 signup-confirmed-sync-manage-sync-button = Rheoli cydweddu
+signup-confirmed-sync-set-password-success-banner = Cyfrinair cysoni wedi'i greu

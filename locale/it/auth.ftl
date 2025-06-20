@@ -418,8 +418,16 @@ postAddRecoveryPhone-how-protect = Come aiuta a proteggere il tuo account
 postAddRecoveryPhone-how-protect-plaintext = Come aiuta a proteggere il tuo account:
 postAddRecoveryPhone-enabled-device = L’hai attivata da:
 postAddRecoveryPhone-action = Gestisci account
+postAddTwoStepAuthentication-subject-v3 = L’autenticazione in due passaggi è attiva
 postAddTwoStepAuthentication-title-2 = Hai attivato l’autenticazione in due passaggi
+# After the colon, there is a description of the device that the user used to enable two-step authentication
+postAddTwoStepAuthentication-from-device-v2 = L’hai richiesto a:
 postAddTwoStepAuthentication-action = Gestisci account
+postAddTwoStepAuthentication-code-required-v3 = Ora devi utilizzare l’app di autenticazione ogni volta che accedi.
+postAddTwoStepAuthentication-recovery-method-codes = Hai anche aggiunto dei codici di autenticazione di backup come metodo di recupero.
+# Variables:
+#  $maskedPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
+postAddTwoStepAuthentication-recovery-method-phone = Hai anche aggiunto { $maskedPhoneNumber } come numero di telefono di recupero.
 postChangeAccountRecovery-subject = Chiave di recupero dell’account modificata
 postChangeAccountRecovery-title = Hai modificato la chiave di recupero dell’account
 postChangeAccountRecovery-body-part1 = Ora hai una nuova chiave di recupero dell’account. La chiave precedente è stata eliminata.

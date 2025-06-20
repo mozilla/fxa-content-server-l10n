@@ -126,6 +126,7 @@ signup-new-password-label =
 signup-confirm-password-label =
     .label = Jelszó megismétlése
 signup-submit-button = Fiók létrehozása
+post-verify-set-password-submit-button = Szinkronizálás indítása
 form-reset-password-with-balloon-new-password =
     .label = Új jelszó
 form-reset-password-with-balloon-confirm-password =
@@ -1013,8 +1014,15 @@ tfa-enter-recovery-code-1 =
 
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
+product-promo-monitor-description-v2 = Találja meg, hol kerülnek ki a személyes adatai, és vegye kezébe az irányítást
+# this message will only be shown to users eligible for a special promotion, based on their location (initially USA only)
+# $price - formatted for user locale, in the target market's currency (for launch, always USD)
+# /mo is 'per month'
+product-promo-monitor-special-promo-description = { $price }/hó áron, spóroljon a { -product-mozilla-vpn-short }en, a { -product-mozilla-monitor-short } adatbrokervédelmén, és a { -product-firefox-relay-short }en' korlátlan e-mail-maszkok.
 # Links out to the Monitor site
 product-promo-monitor-cta = Ingyenes vizsgálat kérése
+# Links out to the Monitor pricing site
+product-promo-monitor-special-promo-cta = Kapjon egész éves védelmet
 
 ## Profile section
 
@@ -1542,6 +1550,9 @@ pair-unsupported-message = Használta a rendszerkamerát? Párosítania kell egy
 
 # password to complete their sign-in when they want to login to a service requiring it.
 
+set-password-heading-v2 = Jelszó létrehozása a szinkronizáláshoz
+# "This" refers to the heading, "Create password to sync"
+set-password-info-v2 = Ez titkosítja az adatait. Ennek különböznie kell a { -brand-google } vagy { -brand-apple }-fiókjához tartozó jelszavától.
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
@@ -1716,6 +1727,7 @@ signin-password-button-label = Jelszó
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-desktop-relay = Bejelentkezés után a { -brand-firefox } megpróbálja visszaküldeni Önt az e-mail-maszk használatához.
+signin-code-expired-error = A kód lejárt. Jelentkezzen be újra.
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
@@ -1908,6 +1920,7 @@ confirm-signup-code-instruction-v2 = Adja meg 5 percen belül a(z) <email>{ $ema
 confirm-signup-code-input-label = Adja meg a 6 számjegyű kódot
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = Megerősítés
+confirm-signup-code-sync-button = Szinkronizálás indítása
 confirm-signup-code-code-expired = A kód lejárt?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Új kód elküldése e-mailben.
@@ -1922,7 +1935,10 @@ confirm-signup-code-desktop-relay = Bejelentkezés után a { -brand-firefox } me
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
+signup-heading-v2 = Jelszó létrehozása
 signup-relay-info = Egy jelszóra van szükség a maszkolt e-mailek biztonságos kezeléséhez és a { -brand-mozilla } biztonsági eszközeinek eléréséhez.
+signup-sync-info = Szinkronizálja jelszavait, könyvjelzőit és egyebeket mindenhol, ahol a { -brand-firefox }ot használja.
+signup-sync-info-with-payments = Szinkronizálja jelszavait, fizetési módjait, könyvjelzőit és egyebeket mindenhol, ahol { -brand-firefox }ot használ.
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = Miért kell létrehoznia ezt a fiókot?
 # Link included in a dismissible info banner that is only displayed to Pocket clients
@@ -1937,5 +1953,9 @@ signup-change-email-link = E-mail-cím módosítása
 signup-confirmed-sync-header = A szinkronizálás be van kapcsolva
 signup-confirmed-sync-success-banner = A { -product-mozilla-account } megerősítve
 signup-confirmed-sync-button = Böngészés megkezdése
+# Shown when payment methods are also synced
+signup-confirmed-sync-description-with-payment-v2 = Jelszavai, fizetési módjai, címei, könyvjelzői, előzményei és egyebek mindenhol szinkronizálhatók, ahol a { -brand-firefox }ot használja.
+signup-confirmed-sync-description-v2 = Jelszavai, címei, könyvjelzői, előzményei és egyebei mindenhol szinkronizálhatók, ahol a { -brand-firefox }ot használja.
 signup-confirmed-sync-add-device-link = További eszköz hozzáadása
 signup-confirmed-sync-manage-sync-button = Szinkronizálás kezelése
+signup-confirmed-sync-set-password-success-banner = A szinkronizálási jelszó létrehozva

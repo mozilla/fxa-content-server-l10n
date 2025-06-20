@@ -126,6 +126,7 @@ signup-new-password-label =
 signup-confirm-password-label =
     .label = Ponovite geslo
 signup-submit-button = Ustvari račun
+post-verify-set-password-submit-button = Začnite sinhronizacijo
 form-reset-password-with-balloon-new-password =
     .label = Novo geslo
 form-reset-password-with-balloon-confirm-password =
@@ -1009,8 +1010,15 @@ tfa-enter-recovery-code-1 =
 
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
+product-promo-monitor-description-v2 = Ugotovite, kje so izpostavljeni vaši zasebni podatki in prevzemite nadzor
+# this message will only be shown to users eligible for a special promotion, based on their location (initially USA only)
+# $price - formatted for user locale, in the target market's currency (for launch, always USD)
+# /mo is 'per month'
+product-promo-monitor-special-promo-description = Za { $price }/mesec prihranite pri { -product-mozilla-vpn-short }u, zaščiti data-brokerja za { -product-mozilla-monitor-short } in { -product-firefox-relay-short }u neomejene e-poštne maske.
 # Links out to the Monitor site
 product-promo-monitor-cta = Zagotovite si brezplačen pregled
+# Links out to the Monitor pricing site
+product-promo-monitor-special-promo-cta = Pridobite celoletno zaščito
 
 ## Profile section
 
@@ -1540,6 +1548,9 @@ pair-unsupported-message = Ste uporabili sistemsko kamero? Seznanitev morate opr
 
 # password to complete their sign-in when they want to login to a service requiring it.
 
+set-password-heading-v2 = Ustvarite geslo za sinhronizacijo
+# "This" refers to the heading, "Create password to sync"
+set-password-info-v2 = S tem se vaši podatki šifrirajo. Geslo mora biti drugačno od gesla vašega računa { -brand-google } ali { -brand-apple }.
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
@@ -1716,6 +1727,7 @@ signin-password-button-label = Geslo
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-desktop-relay = Po prijavi vas bo { -brand-firefox } poskusil poslati nazaj na uporabo e-poštne maske.
+signin-code-expired-error = Koda je potekla. Ponovno se prijavite.
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
@@ -1910,6 +1922,7 @@ confirm-signup-code-instruction-v2 = V 5 minutah vnesite kodo, ki je bila poslan
 confirm-signup-code-input-label = Vnesite 6-mestno kodo
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = Potrdi
+confirm-signup-code-sync-button = Začnite sinhronizacijo
 confirm-signup-code-code-expired = Je koda potekla?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Pošlji novo kodo.
@@ -1924,7 +1937,10 @@ confirm-signup-code-desktop-relay = Po prijavi vas bo { -brand-firefox } poskusi
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
+signup-heading-v2 = Ustvarite geslo
 signup-relay-info = Geslo je potrebno za varno upravljanje zamaskirane e-pošte in dostop do { -brand-mozilla(sklon: "rodilnik") } varnostnih orodij.
+signup-sync-info = Sinhronizirajte gesla, zaznamke in drugo povsod, kjer uporabljate { -brand-firefox }.
+signup-sync-info-with-payments = Sinhronizirajte gesla, plačilna sredstva, zaznamke in drugo povsod, kjer uporabljate { -brand-firefox }.
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = Zakaj moram ustvariti ta račun?
 # Link included in a dismissible info banner that is only displayed to Pocket clients
@@ -1939,5 +1955,9 @@ signup-change-email-link = Spremeni e-pošto
 signup-confirmed-sync-header = Sinhronizacija je vključena
 signup-confirmed-sync-success-banner = { -product-mozilla-account } potrjen
 signup-confirmed-sync-button = Začnite z brskanjem
+# Shown when payment methods are also synced
+signup-confirmed-sync-description-with-payment-v2 = Vaša gesla, načini plačila, naslovi, zaznamki, zgodovina in drugo se lahko sinhronizirajo povsod, kjer uporabljate { -brand-firefox }.
+signup-confirmed-sync-description-v2 = Vaša gesla, naslovi, zaznamki, zgodovina in drugo se lahko sinhronizirajo povsod, kjer uporabljate { -brand-firefox }.
 signup-confirmed-sync-add-device-link = Dodaj drugo napravo
 signup-confirmed-sync-manage-sync-button = Upravljanje sinhronizacije
+signup-confirmed-sync-set-password-success-banner = Geslo za sinhronizacijo ustvarjeno

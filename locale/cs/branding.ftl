@@ -236,6 +236,7 @@
        *[nom] Mozilla VPN
     }
     .gender = feminine
+-product-mozilla-vpn-short = VPN
 -product-mozilla-hubs = Mozilla Hubs
 # Mozilla Developer Network
 -product-mdn = MDN
@@ -252,6 +253,7 @@
     }
     .gender = masculine
 -product-mozilla-monitor = Mozilla Monitor
+-product-mozilla-monitor-short = Monitor
 -product-firefox-relay =
     { $case ->
         [gen] Firefoxu Relay
@@ -263,6 +265,7 @@
        *[nom] Firefox Relay
     }
     .gender = masculine
+-product-firefox-relay-short = Relay
 -product-pocket =
     { $case ->
         [gen] Pocketu

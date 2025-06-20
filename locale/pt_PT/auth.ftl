@@ -414,8 +414,16 @@ postAddRecoveryPhone-how-protect = Como isto protege a sua conta
 postAddRecoveryPhone-how-protect-plaintext = Como isto protege a sua conta:
 postAddRecoveryPhone-enabled-device = Foi ativado de:
 postAddRecoveryPhone-action = Gerir conta
+postAddTwoStepAuthentication-subject-v3 = A autenticação de dois passos está ativada
 postAddTwoStepAuthentication-title-2 = Ativou a autenticação de dois fatores
+# After the colon, there is a description of the device that the user used to enable two-step authentication
+postAddTwoStepAuthentication-from-device-v2 = Pediu isto de:
 postAddTwoStepAuthentication-action = Gerir conta
+postAddTwoStepAuthentication-code-required-v3 = Agora precisa de utilizar a sua aplicação de autenticação sempre que iniciar sessão.
+postAddTwoStepAuthentication-recovery-method-codes = Também adicionou códigos de autenticação de recuperação como o seu método de recuperação.
+# Variables:
+#  $maskedPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
+postAddTwoStepAuthentication-recovery-method-phone = Também adicionou { $mastedPhoneNumber } como o seu número de telefone de recuperação.
 postChangeAccountRecovery-subject = Chave de recuperação da conta alterada
 postChangeAccountRecovery-title = Alterou a sua chave de recuperação da conta
 postChangeAccountRecovery-body-part1 = Agora tem uma nova chave de recuperação da conta. A sua chave anterior foi eliminada.

@@ -126,6 +126,7 @@ signup-new-password-label =
 signup-confirm-password-label =
     .label = Upprepa lösenord
 signup-submit-button = Skapa konto
+post-verify-set-password-submit-button = Starta synkronisering
 form-reset-password-with-balloon-new-password =
     .label = Nytt lösenord
 form-reset-password-with-balloon-confirm-password =
@@ -1013,6 +1014,7 @@ tfa-enter-recovery-code-1 =
 
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
+product-promo-monitor-description-v2 = Hitta var din privata information exponeras och ta kontrollen
 # Links out to the Monitor site
 product-promo-monitor-cta = Få en gratis skanning
 
@@ -1926,7 +1928,9 @@ confirm-signup-code-desktop-relay = { -brand-firefox } försöker skicka dig til
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
+signup-heading-v2 = Skapa ett lösenord
 signup-relay-info = Ett lösenord behövs för att säkert hantera dina maskerade e-postmeddelanden och komma åt { -brand-mozilla }:s säkerhetsverktyg.
+signup-sync-info = Synkronisera dina lösenord, bokmärken och mer överallt där du använder { -brand-firefox }.
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = Varför måste jag skapa det här kontot?
 # Link included in a dismissible info banner that is only displayed to Pocket clients

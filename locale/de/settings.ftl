@@ -126,6 +126,7 @@ signup-new-password-label =
 signup-confirm-password-label =
     .label = Passwort wiederholen
 signup-submit-button = Konto erstellen
+post-verify-set-password-submit-button = Mit Synchronisierung beginnen
 form-reset-password-with-balloon-new-password =
     .label = Neues Passwort
 form-reset-password-with-balloon-confirm-password =
@@ -1005,8 +1006,15 @@ tfa-enter-recovery-code-1 =
 
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
+product-promo-monitor-description-v2 = Finden Sie heraus, wo Ihre persönlichen Daten offengelegt sind und übernehmen Sie die Kontrolle
+# this message will only be shown to users eligible for a special promotion, based on their location (initially USA only)
+# $price - formatted for user locale, in the target market's currency (for launch, always USD)
+# /mo is 'per month'
+product-promo-monitor-special-promo-description = Für { $price }/Monat und sparen Sie bei { -product-mozilla-vpn-short }, dem Datenmaklerschutz von { -product-mozilla-monitor-short } und { -product-firefox-relay-short } s Unbegrenzte E-Mail-Masken.
 # Links out to the Monitor site
 product-promo-monitor-cta = Kostenloser Scan
+# Links out to the Monitor pricing site
+product-promo-monitor-special-promo-cta = Schützen Sie sich das ganze Jahr über
 
 ## Profile section
 
@@ -1534,6 +1542,9 @@ pair-unsupported-message = Haben Sie die Systemkamera verwendet? Dann müssen Si
 
 # password to complete their sign-in when they want to login to a service requiring it.
 
+set-password-heading-v2 = Passwort zum Synchronisieren erstellen
+# "This" refers to the heading, "Create password to sync"
+set-password-info-v2 = Dadurch werden Ihre Daten verschlüsselt. Es muss sich nicht vom Passwort Ihres { -brand-google }- oder { -brand-apple }-Kontos unterscheiden.
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
@@ -1705,6 +1716,7 @@ signin-password-button-label = Passwort
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-desktop-relay = { -brand-firefox } wird versuchen, Sie nach der Anmeldung zurückzugeben, um eine E-Mail-Maske zu verwenden.
+signin-code-expired-error = Code abgelaufen. Bitte melden Sie sich erneut an.
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
@@ -1897,6 +1909,7 @@ confirm-signup-code-instruction-v2 = Geben Sie innerhalb von fünf Minuten den C
 confirm-signup-code-input-label = 6-stelligen Code eingeben
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = Bestätigen
+confirm-signup-code-sync-button = Mit Synchronisierung beginnen
 confirm-signup-code-code-expired = Code abgelaufen?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Neuen Code per E-Mail senden.
@@ -1911,7 +1924,10 @@ confirm-signup-code-desktop-relay = { -brand-firefox } wird versuchen, Sie nach 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
+signup-heading-v2 = Passwort erstellen
 signup-relay-info = Sie benötigen ein Passwort, um Ihre maskierten E-Mail-Adressen sicher zu verwalten und auf die Sicherheitswerkzeuge von { -brand-mozilla } zuzugreifen.
+signup-sync-info = Synchronisieren Sie Ihre Passwörter, Lesezeichen und mehr überall dort, wo Sie { -brand-firefox } verwenden.
+signup-sync-info-with-payments = Synchronisieren Sie Ihre Passwörter, Zahlungsmethoden, Lesezeichen und mehr überall dort, wo Sie { -brand-firefox } verwenden.
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = Warum muss ich dieses Konto erstellen?
 # Link included in a dismissible info banner that is only displayed to Pocket clients
@@ -1926,5 +1942,9 @@ signup-change-email-link = E-Mail-Adresse ändern
 signup-confirmed-sync-header = Sync ist aktiviert
 signup-confirmed-sync-success-banner = { -product-mozilla-account } bestätigt
 signup-confirmed-sync-button = Lossurfen
+# Shown when payment methods are also synced
+signup-confirmed-sync-description-with-payment-v2 = Ihre Passwörter, Zahlungsmethoden, Adressen, Lesezeichen, Chronik und mehr werden überall synchronisiert, wo Sie { -brand-firefox } verwenden.
+signup-confirmed-sync-description-v2 = Ihre Passwörter, Adressen, Lesezeichen, Chronik und mehr können überall synchronisiert werden, wo Sie { -brand-firefox } verwenden.
 signup-confirmed-sync-add-device-link = Weiteres Gerät hinzufügen
 signup-confirmed-sync-manage-sync-button = Synchronisierung verwalten
+signup-confirmed-sync-set-password-success-banner = Sync-Passwort erstellt

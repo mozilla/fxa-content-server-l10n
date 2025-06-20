@@ -272,6 +272,7 @@ metadata-description-default = A kért oldal nem található.
 
 ## Coupon Error Messages
 
+next-coupon-error-cannot-redeem = A megadott kód nem váltható be – a fiókjával korábban előfizetett az egyik szolgáltatásunkra.
 next-coupon-error-expired = A megadott kód lejárt.
 next-coupon-error-generic = Hiba történt a kód feldolgozása során. Próbálja újra.
 next-coupon-error-invalid = A megadott kód érvénytelen.

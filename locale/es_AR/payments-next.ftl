@@ -270,6 +270,7 @@ metadata-description-default = La página solicitada no fue encontrada.
 
 ## Coupon Error Messages
 
+next-coupon-error-cannot-redeem = El código que ingresaste no puede canjearse — tu cuenta tiene una suscripción previa a uno de nuestros servicios.
 next-coupon-error-expired = El código que ingresaste ya caducó.
 next-coupon-error-generic = Ocurrió un error al procesar el código. Volvé a probar.
 next-coupon-error-invalid = El código que ingresaste es inválido.
