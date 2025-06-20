@@ -270,6 +270,7 @@ metadata-description-default = Запрошенная вами страница 
 
 ## Coupon Error Messages
 
+next-coupon-error-cannot-redeem = Введённый вами код не может быть использован — у вашего аккаунта ранее была подписка на одну из наших служб.
 next-coupon-error-expired = Срок действия введённого вами кода истёк.
 next-coupon-error-generic = При обработке кода произошла ошибка. Пожалуйста, попробуйте ещё раз.
 next-coupon-error-invalid = Введённый вами код некорректен.
