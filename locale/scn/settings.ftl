@@ -1157,7 +1157,7 @@ se-set-primary-error-2 = Ni dispiaci, cci fu un prubblema mentri chi canciava u 
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
-se-delete-email-successful-2 = U nnirizzu { $email } fu scancillatu
+se-delete-email-successful-2 = Scancillasti u nnirizzu { $email }
 se-delete-email-error-2 = Ni dispiaci, cci fu un prubblema mentri chi scancillava stu nnirizzu di posta elittrònica
 se-verify-session-3 = Serbi chi cunfermi a sissioni attuali pi fari st’azzioni
 se-verify-session-error-3 = Ni dispiaci, cci fu un prubblema mentri chi cunfirmava a to sissioni
@@ -1337,7 +1337,7 @@ index-account-info = Un { -product-mozilla-account } ti duna l’accessu a autri
 index-email-input =
     .label = Metti u to nnirizzu di posta elittrònica
 # When users delete their Mozilla account inside account Settings, they are redirected to this page with a success message
-index-account-delete-success = U cuntu fu scancillatu bonu
+index-account-delete-success = Scancillasti u to cuntu
 # Displayed when users try to sign up for an account and their confirmation code email bounces
 index-email-bounced = L’e-mail di cunferma turnau nn’arrè. Sbagghiasti a scrìviri u nnirizzu?
 
@@ -1695,6 +1695,7 @@ signin-bounced-create-new-account = Nun ài cchiù accessu a stu nnirizzu di pos
 
 # and a confirmation code has been sent to their email address.
 
+confirm-signup-code-success-alert = Cunfirmasti u cuntu
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
