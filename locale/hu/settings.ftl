@@ -301,7 +301,7 @@ backup-recovery-phone-image-aria-label =
 backup-authentication-codes-image-aria-label =
     .aria-label = Eszközképernyő kódokkal
 sync-clouds-image-aria-label =
-    .aria-label = Felhők egy szinkronizálás ikonnal
+    .aria-label = Felhők egy szinkronizálási ikonnal
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -1968,7 +1968,7 @@ signup-confirmed-sync-header = A szinkronizálás be van kapcsolva
 signup-confirmed-sync-success-banner = A { -product-mozilla-account } megerősítve
 signup-confirmed-sync-button = Böngészés megkezdése
 # Shown when payment methods are also synced
-signup-confirmed-sync-description-with-payment = Jelszavai, fizetési módjai, címei, könyvjelzői, előzményei és egyebei mindenhol szinkronizálhatók, ahol a { -product-firefox }ot használja.
-signup-confirmed-sync-description = Jelszavai, címei, könyvjelzői, előzményei és egyebei mindenhol szinkronizálhatók, ahol a { -product-firefox }ot használja.
+signup-confirmed-sync-description-with-payment = Jelszavai, fizetési módjai, címei, könyvjelzői, előzményei és egyebei mindenhol szinkronizálhatóak, ahol a { -product-firefox }ot használja.
+signup-confirmed-sync-description = Jelszavai, címei, könyvjelzői, előzményei és egyebei mindenhol szinkronizálhatóak, ahol a { -product-firefox }ot használja.
 signup-confirmed-sync-add-device-link = További eszköz hozzáadása
 signup-confirmed-sync-manage-sync-button = Szinkronizálás kezelése
