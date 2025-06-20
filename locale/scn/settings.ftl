@@ -657,15 +657,24 @@ flow-setup-2fa-backup-choice-code-title = Còdici d’autinticazzioni di sicuriz
 flow-setup-2fa-backup-choice-code-badge = Cchiù sicuru
 flow-setup-2fa-backup-choice-code-info = Crìa e sarba còdici d'autinticazzioni chi po' usari na vota sula.
 # This link points to https://support.mozilla.org/kb/secure-mozilla-account-two-step-authentication
-flow-setup-2fa-backup-choice-learn-more-link = Cchi nfurmazzioni ncapu ô ricùpiru e u rìsicu dû scanciu di SIM
+flow-setup-2fa-backup-choice-learn-more-link = Nfurmazzioni ncapu ô ricùpiru e u rìsicu dû scanciu di SIM
 
 ## The backup code confirm step of the setup 2 factor authentication flow,
 ## where the user confirm that they have saved their backup authentication codes
 ## by entering one of them.
 
+flow-setup-2fa-backup-code-confirm-heading = Metti u còdici d’autinticazzioni di sicurizza
+# codes here refers to backup authentication codes
+flow-setup-2fa-backup-code-confirm-confirm-saved = Cunferma chi sarbasti i to còdici mittènnunni unu. Senza di sti còdici, nun po’ tràsiri nnô to cuntu senza l’app d’autinticazzioni.
+flow-setup-2fa-backup-code-confirm-code-input = Metti u còdici di 10 caràttari
+# Clicking on this button finishes the whole flow upon success.
+flow-setup-2fa-backup-code-confirm-button-finish = Cumpleta
 
 ## The backup codes download step of the setup 2 factor authentication flow
 
+flow-setup-2fa-backup-code-dl-heading = Sarba i còdici d’autinticazzioni di sicurizza
+flow-setup-2fa-backup-code-dl-save-these-codes = Sàrbali nnôn postu unni ti ricordi. Si nun ài accessu â to app d'autinticazzioni, ti serbi unu di chisti pi tràsiri.
+flow-setup-2fa-backup-code-dl-button-continue = Cuntinua
 
 ## FlowSetupPhoneConfirmCode
 
@@ -873,7 +882,7 @@ recent-activity-account-reset-v2 = Fu principiata na rimpustazzioni dâ chiavi
 # An email bounce is when an email is sent to an email address and fails/receives a non-delivery receipt from the recipient's mail server.
 recent-activity-emails-clearBounces-v2 = Foru scancillati i nutìfichi dî ricàpiti sfalluti dâ posta elittrònica
 recent-activity-account-login-failure = Sfallìu na trasuta nnô cuntu
-recent-activity-account-two-factor-added = Fu abbilitata l’autinticazzioni a du’ fattura
+recent-activity-account-two-factor-added = Abbilitasti l’autinticazzioni a du’ fattura
 recent-activity-account-two-factor-requested = Fu addumannata l’autinticazzioni a du’ fattura
 recent-activity-account-two-factor-failure = Sfallìu l’autinticazzioni a du’ fattura
 recent-activity-account-two-factor-success = L’autinticazzioni a du’ fattura jìu bonu
@@ -988,7 +997,7 @@ tfa-incorrect-totp = U còdici d’autinticazzioni a du’ fattura è sbagghiatu
 tfa-cannot-retrieve-code = Cci fu un prubblema mentri chi ricupirava u to còdici.
 tfa-cannot-verify-code-4 = Cci fu un prubblema mentri chi cunfirmava u to còdici d’autinticazzioni di sicurizza
 tfa-incorrect-recovery-code-1 = U còdici d’autinticazzioni di sicurizza è sbagghiatu
-tfa-enabled-v2 = Fu abbilitata l’autinticazzioni a du’ fattura
+tfa-enabled-v2 = Abbilitasti l’autinticazzioni a du’ fattura
 tfa-scan-this-code = Scanziuna stu còdici QR usannu una di <linkExternal>st’app d’autinticazzioni</linkExternal>.
 # This is the image alt text for a QR code.
 # Variables:
@@ -1189,7 +1198,7 @@ tfa-row-disable-modal-heading = Vo’ sdisabbilitari l’autinticazzioni a du’
 tfa-row-disable-modal-confirm = Sdisabbìlita
 tfa-row-disable-modal-explain-1 = Nun po’ sfari st’azzioni. Ài macari a pussibbilità di <linkExternal>scanciari i to còdici d’autinticazzioni di sicurizza</linkExternal>.
 # Shown in an alert bar after two-step authentication is disabled
-tfa-row-disabled-2 = Fu sdisabbilitata l’autinticazzioni a du’ fattura
+tfa-row-disabled-2 = Sdisabbilitasti l’autinticazzioni a du’ fattura
 tfa-row-cannot-disable-2 = Nun potti sdisabbilitari l’autinticazzioni a du’ fattura
 
 ## TermsPrivacyAgreement
@@ -1256,6 +1265,10 @@ auth-error-1032 = Pi cumplitari a riggistrazzioni hâ mèttiri n’età vàlita
 auth-error-1054 = U còdici d’autinticazzioni a du’ fattura nun è vàlitu
 auth-error-1056 = U còdici d’autinticazzioni di sicurizza nun è vàlitu
 auth-error-1062 = U rinnirizzu nun è vàlitu
+# Shown when a user tries to sign up with an email address with a domain that doesn't receive emails
+auth-error-1064 = Sbagghiasti a scrìviri u nnirizzu? { $domain } nun è un sirbizzu di posta elittrònica vàlitu
+auth-error-1066 = Nun po' usari nu nnirizzu di posta mascaratu pi criari un cuntu.
+auth-error-1067 = Sbagghiasti a scrìviri u nnirizzu di posta elittrònica?
 # Displayed when we want to reference a user's previously set up recovery phone
 # number, but they are not completely signed in yet. We'll only show the last 4 digits.
 # Variables:
@@ -1340,6 +1353,18 @@ inline-recovery-key-setup-hint-header = Cunzigghiu di sicurizza
 ## When users are creating an account, they may get pushed to setup 2FA
 ## in this case, they will encounter this page in the signup process (hence calling it "Inline)
 
+# This button allows a user to copy their recovery codes to their clipboard
+# This button allows the user to cancel setup of two-factor authentication for their account
+inline-recovery-cancel-button = Sfai
+# This button allows the user to proceed to the next step in setting up two-factor authentication for their account
+inline-recovery-continue-button = Cuntinua
+# This button allows user to verify one of their recovery codes to show they downloaded them
+inline-recovery-confirm-button = Cunferma
+inline-recovery-back-link = Nn’arrè
+inline-recovery-cancel-setup = Sfai a cunfijurazzioni
+# Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
+inline-recovery-backup-authentication-code = Còdici d’autinticazzioni di sicurizza
+inline-recovery-2fa-enabled-v2 = Abbilitasti l’autinticazzioni a du’ fattura
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
