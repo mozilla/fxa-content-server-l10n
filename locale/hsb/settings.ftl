@@ -82,30 +82,6 @@ choose-newsletters-option-test-pilot =
 choose-newsletters-option-reclaim-the-internet =
     .label = Namołwy k akciji, zo byšće internet wróćo dóstał
 
-## ChooseWhatToSync component
-## Checklist of services/information that can be synced across signed in devices
-
-# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
-# That users can choose to sync
-choose-what-to-sync-prompt-2 = Wubjerće, štož ma so synchronizować
-choose-what-to-sync-option-bookmarks =
-    .label = Zapołožki
-choose-what-to-sync-option-history =
-    .label = Historija
-choose-what-to-sync-option-passwords =
-    .label = Hesła
-choose-what-to-sync-option-addons =
-    .label = Přidatki
-# Refers to 'tabs that are open', not the action
-choose-what-to-sync-option-tabs =
-    .label = Wočinjene rajtarki
-choose-what-to-sync-option-prefs =
-    .label = Nastajenja
-choose-what-to-sync-option-addresses =
-    .label = Adresy
-choose-what-to-sync-option-paymentmethods =
-    .label = Płaćenske metody
-
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
@@ -1033,12 +1009,8 @@ tfa-enter-recovery-code-1 =
 
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
-product-promo-monitor-description = Wuslědźće, hdźež so waše informacije wotkrywaja – a wzmiće je wróćo
-product-promo-monitor-plus-description = Priwatnosć je wažna: Wuslědźće, hdźež so waše informacije wotkrywaja – a wzmiće je wróćo
 # Links out to the Monitor site
 product-promo-monitor-cta = Dóstańće darmotny sken
-# Links out to the Monitor pricing site
-product-promo-monitor-plus-cta = Prěnje kroki
 
 ## Profile section
 
@@ -1564,10 +1536,10 @@ pair-unsupported-message = Sće systemowu kameru wužił? Dyrbiće w nałoženju
 
 ## SetPassword page
 ## Third party auth users that do not have a password set yet are prompted for a
-## password to complete their sign-in when they want to login to a service requiring it.
 
-set-password-heading = Hesło wutworić
-set-password-info = Waše synchronizaciske daty su ze swojim hesłom zaklučowane, zo by so waša priwatnosć škitała.
+
+# password to complete their sign-in when they want to login to a service requiring it.
+
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
@@ -1954,9 +1926,7 @@ confirm-signup-code-desktop-relay = { -brand-firefox } budźe was wróćo słać
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
-signup-heading = Zapodajće swoje hesło
 signup-relay-info = Hesło je trěbna, zo byšće swoje maskowane mejlki wěsće rjadować a k wěstotnym nastrojam { -brand-mozilla } přistup měł.
-signup-heading-relay = Hesło wutworić
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = Čehodla dyrbju tute konto załožić?
 # Link included in a dismissible info banner that is only displayed to Pocket clients
@@ -1971,8 +1941,5 @@ signup-change-email-link = E-mejlowu adresu změnić
 signup-confirmed-sync-header = Synchronizacija je zmóžnjena
 signup-confirmed-sync-success-banner = { -product-mozilla-account } wobkrućene
 signup-confirmed-sync-button = Přehladowanje započeć
-# Shown when payment methods are also synced
-signup-confirmed-sync-description-with-payment = Waše hesła, płaćenske metody, adresy, zapołožki, historija a wjace dadźa so wšudźe synchronizować, hdźež { -product-firefox } wužiwaće.
-signup-confirmed-sync-description = Waše hesła, adresy, zapołožki, historija a wjace dadźa so wšudźe synchronizować, hdźež { -product-firefox } wužiwaće.
 signup-confirmed-sync-add-device-link = Dalši grat přidać
 signup-confirmed-sync-manage-sync-button = Synchronizaciju rjadować

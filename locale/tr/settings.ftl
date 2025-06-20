@@ -82,30 +82,6 @@ choose-newsletters-option-test-pilot =
 choose-newsletters-option-reclaim-the-internet =
     .label = İnternete sahip çıkmak için harekete geçme çağrıları
 
-## ChooseWhatToSync component
-## Checklist of services/information that can be synced across signed in devices
-
-# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
-# That users can choose to sync
-choose-what-to-sync-prompt-2 = Nelerin eşitleneceğini seçin
-choose-what-to-sync-option-bookmarks =
-    .label = Yer imleri
-choose-what-to-sync-option-history =
-    .label = Geçmiş
-choose-what-to-sync-option-passwords =
-    .label = Parolalar
-choose-what-to-sync-option-addons =
-    .label = Eklentiler
-# Refers to 'tabs that are open', not the action
-choose-what-to-sync-option-tabs =
-    .label = Açık sekmeler
-choose-what-to-sync-option-prefs =
-    .label = Tercihler
-choose-what-to-sync-option-addresses =
-    .label = Adresler
-choose-what-to-sync-option-paymentmethods =
-    .label = Ödeme yöntemleri
-
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
@@ -1022,12 +998,8 @@ tfa-enter-recovery-code-1 =
 
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
-product-promo-monitor-description = Kişisel bilgilerinizin nerede ele geçirildiğini öğrenin
-product-promo-monitor-plus-description = Gizliliğiniz önemli: Kişisel bilgilerinizin nerede ele geçirildiğini öğrenin
 # Links out to the Monitor site
 product-promo-monitor-cta = Ücretsiz taramayı başlat
-# Links out to the Monitor pricing site
-product-promo-monitor-plus-cta = Kullanmaya başlayın
 
 ## Profile section
 
@@ -1543,10 +1515,10 @@ pair-unsupported-message = Sistem kamerasını mı kullandınız? Bir { -brand-f
 
 ## SetPassword page
 ## Third party auth users that do not have a password set yet are prompted for a
-## password to complete their sign-in when they want to login to a service requiring it.
 
-set-password-heading = Parola oluştur
-set-password-info = Eşitlenen verileriniz gizliliğinizi korumak için parolanızla şifrelenir.
+
+# password to complete their sign-in when they want to login to a service requiring it.
+
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
@@ -1924,9 +1896,7 @@ confirm-signup-code-desktop-relay = { -brand-firefox }, giriş yaptıktan sonra 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
-signup-heading = Parolanızı ayarlayın
 signup-relay-info = Maskeli e-postalarınızı güvenli bir şekilde yönetmek ve { -brand-mozilla }’nın güvenlik araçlarına erişmek için bir parolaya ihtiyacınız var.
-signup-heading-relay = Parola oluşturun
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = Neden bu hesabı oluşturmam gerekiyor?
 # Link included in a dismissible info banner that is only displayed to Pocket clients

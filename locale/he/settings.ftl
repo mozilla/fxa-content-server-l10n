@@ -74,30 +74,6 @@ choose-newsletters-option-latest-news =
 choose-newsletters-option-test-pilot =
     .label = גישה מוקדמת לבדיקת מוצרים חדשים
 
-## ChooseWhatToSync component
-## Checklist of services/information that can be synced across signed in devices
-
-# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
-# That users can choose to sync
-choose-what-to-sync-prompt-2 = בחירת הפריטים לסנכרון
-choose-what-to-sync-option-bookmarks =
-    .label = סימניות
-choose-what-to-sync-option-history =
-    .label = היסטוריה
-choose-what-to-sync-option-passwords =
-    .label = ססמאות
-choose-what-to-sync-option-addons =
-    .label = תוספות
-# Refers to 'tabs that are open', not the action
-choose-what-to-sync-option-tabs =
-    .label = לשוניות פתוחות
-choose-what-to-sync-option-prefs =
-    .label = העדפות
-choose-what-to-sync-option-addresses =
-    .label = כתובות
-choose-what-to-sync-option-paymentmethods =
-    .label = אמצעי תשלום
-
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
@@ -980,12 +956,8 @@ tfa-enter-code-to-confirm-setup = נא לאשר ששמרת את הקודים ש�
 
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
-product-promo-monitor-description = למצוא היכן המידע הפרטי שלך חשוף - ולקבל אותו בחזרה
-product-promo-monitor-plus-description = הפרטיות חשובה: באפשרותך למצוא היכן המידע הפרטי שלך חשוף - ולקבל אותו בחזרה
 # Links out to the Monitor site
 product-promo-monitor-cta = קבלת סריקה בחינם
-# Links out to the Monitor pricing site
-product-promo-monitor-plus-cta = תחילת עבודה
 
 ## Profile section
 
@@ -1474,10 +1446,10 @@ pair-unsupported-message = האם השתמשת במצלמת המערכת? יש �
 
 ## SetPassword page
 ## Third party auth users that do not have a password set yet are prompted for a
-## password to complete their sign-in when they want to login to a service requiring it.
 
-set-password-heading = יצירת ססמה
-set-password-info = נתוני הסנכרון שלך מוצפנים עם הססמה שלך כדי להגן על הפרטיות שלך.
+
+# password to complete their sign-in when they want to login to a service requiring it.
+
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
@@ -1844,9 +1816,7 @@ confirm-signup-code-desktop-relay = ‏{ -brand-firefox } ינסה לשלוח א
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
-signup-heading = הגדרת הססמה שלך
 signup-relay-info = יש צורך בססמה כדי לנהל בצורה מאובטחת את חשבונות הדוא״ל המסוכות שלך ולגשת לכלי האבטחה של { -brand-mozilla }.
-signup-heading-relay = יצירת ססמה
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = מדוע עליי ליצור חשבון זה?
 # Link included in a dismissible info banner that is only displayed to Pocket clients
@@ -1861,8 +1831,5 @@ signup-change-email-link = שינוי כתובת דוא״ל
 signup-confirmed-sync-header = הסנכרון מופעל
 signup-confirmed-sync-success-banner = { -product-mozilla-account(case: "the") } אומת
 signup-confirmed-sync-button = התחלת גלישה
-# Shown when payment methods are also synced
-signup-confirmed-sync-description-with-payment = ניתן לסנכרן את הססמאות, אמצעי התשלום, הכתובות, הסימניות, ההיסטוריה ועוד בכל מקום שבו משתמשים ב־{ -product-firefox }.
-signup-confirmed-sync-description = ניתן לסנכרן את הססמאות, הכתובות, הסימניות, ההיסטוריה ועוד בכל מקום שבו משתמשים ב־{ -product-firefox }.
 signup-confirmed-sync-add-device-link = הוספת מכשיר נוסף
 signup-confirmed-sync-manage-sync-button = ניהול סנכרון

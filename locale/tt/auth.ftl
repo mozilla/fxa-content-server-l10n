@@ -275,10 +275,7 @@ postAddAccountRecovery-subject-3 = Яңа хисапны коткару ачкы
 postAddAccountRecovery-title2 = Сез яңа хисапны коткару ачкычы булдырдыгыз
 postAddAccountRecovery-action = Хисап белән идарә итү
 postAddLinkedAccount-action = Хисап белән идарә итү
-postAddTwoStepAuthentication-subject-2 = Ике адымлы аутентификация кабызылды
 postAddTwoStepAuthentication-title-2 = Сез ике адымлы аутентификацияне кабыздыгыз
-# After the colon, there is a description of the device that the user used to enable two-step authentication
-postAddTwoStepAuthentication-from-device = Сез аны бу җиһаздан кабыздыгыз:
 postAddTwoStepAuthentication-action = Хисап белән идарә итү
 postChangeAccountRecovery-subject = Хисапны коткару ачкычы үзгәртелде
 postChangeAccountRecovery-title = Сез хисапны коткару ачкычыгызны үзгәрттегез

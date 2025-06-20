@@ -71,30 +71,6 @@ choose-newsletters-prompt-2 = Атрымайце больш ад { -brand-mozill
 choose-newsletters-option-test-pilot =
     .label = Ранні доступ да тэставання новых прадуктаў
 
-## ChooseWhatToSync component
-## Checklist of services/information that can be synced across signed in devices
-
-# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
-# That users can choose to sync
-choose-what-to-sync-prompt-2 = Выберыце, што сінхранізаваць
-choose-what-to-sync-option-bookmarks =
-    .label = Закладкі
-choose-what-to-sync-option-history =
-    .label = Гісторыя
-choose-what-to-sync-option-passwords =
-    .label = Паролі
-choose-what-to-sync-option-addons =
-    .label = Дадаткі
-# Refers to 'tabs that are open', not the action
-choose-what-to-sync-option-tabs =
-    .label = Адкрытыя карткі
-choose-what-to-sync-option-prefs =
-    .label = Налады
-choose-what-to-sync-option-addresses =
-    .label = Адрасы
-choose-what-to-sync-option-paymentmethods =
-    .label = Спосабы аплаты
-
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
@@ -1229,7 +1205,9 @@ pair-unsupported-message = Выкарыстоўвалі сістэмную ка�
 
 ## SetPassword page
 ## Third party auth users that do not have a password set yet are prompted for a
-## password to complete their sign-in when they want to login to a service requiring it.
+
+
+# password to complete their sign-in when they want to login to a service requiring it.
 
 
 ## ThirdPartyAuthCallback Page
@@ -1423,7 +1401,6 @@ confirm-signup-code-is-required-error = Патрабуецца код пацвя
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
-signup-heading = Усталюйце пароль
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Змяніць адрас электроннай пошты
 

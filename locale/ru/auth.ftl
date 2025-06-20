@@ -417,12 +417,8 @@ postAddRecoveryPhone-how-protect = Как это защищает ваш акк�
 postAddRecoveryPhone-how-protect-plaintext = Как это защищает ваш аккаунт:
 postAddRecoveryPhone-enabled-device = Вы включили его из:
 postAddRecoveryPhone-action = Управление аккаунтом
-postAddTwoStepAuthentication-subject-2 = Двухэтапная аутентификация включена
 postAddTwoStepAuthentication-title-2 = Вы включили двухэтапную аутентификацию
-# After the colon, there is a description of the device that the user used to enable two-step authentication
-postAddTwoStepAuthentication-from-device = Вы включили её с:
 postAddTwoStepAuthentication-action = Управление аккаунтом
-postAddTwoStepAuthentication-code-required-2 = Коды безопасности от вашего приложения аутентификации теперь требуются каждый раз, когда вы входите в систему.
 postChangeAccountRecovery-subject = Ключ восстановления аккаунта изменён
 postChangeAccountRecovery-title = Вы изменили ключ восстановления своего аккаунта
 postChangeAccountRecovery-body-part1 = Теперь у вас есть новый ключ восстановления аккаунта. Ваш предыдущий ключ был удалён.

@@ -406,12 +406,8 @@ postAddRecoveryPhone-how-protect = Hvernig þetta verndar reikninginn þinn
 postAddRecoveryPhone-how-protect-plaintext = Hvernig þetta verndar reikninginn þinn:
 postAddRecoveryPhone-enabled-device = Þú virkjaðir það frá:
 postAddRecoveryPhone-action = Sýsla með reikning
-postAddTwoStepAuthentication-subject-2 = Kveikt er á tveggja-þrepa auðkenningu
 postAddTwoStepAuthentication-title-2 = Þú kveiktir á tveggja-þrepa auðkenningu
-# After the colon, there is a description of the device that the user used to enable two-step authentication
-postAddTwoStepAuthentication-from-device = Þú virkjaðir hana frá:
 postAddTwoStepAuthentication-action = Sýsla með reikning
-postAddTwoStepAuthentication-code-required-2 = Öryggiskóða frá auðkenningarforritinu þínu verður nú krafist við hverja innskráningu.
 postChangeAccountRecovery-subject = Endurheimtulykli reiknings breytt
 postChangeAccountRecovery-title = Þú breyttir endurheimtulykli reikningsins þíns
 postChangeAccountRecovery-body-part1 = Þú ert nú með nýjan endurheimtulykil. Fyrri lyklinum þínum var eytt.

@@ -82,30 +82,6 @@ choose-newsletters-option-test-pilot =
 choose-newsletters-option-reclaim-the-internet =
     .label = Aksjewarskôgingen om it ynternet werom te easken
 
-## ChooseWhatToSync component
-## Checklist of services/information that can be synced across signed in devices
-
-# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
-# That users can choose to sync
-choose-what-to-sync-prompt-2 = Kies wat jo syngronisearje wolle
-choose-what-to-sync-option-bookmarks =
-    .label = Blêdwizers
-choose-what-to-sync-option-history =
-    .label = Skiednis
-choose-what-to-sync-option-passwords =
-    .label = Wachtwurden
-choose-what-to-sync-option-addons =
-    .label = Add-ons
-# Refers to 'tabs that are open', not the action
-choose-what-to-sync-option-tabs =
-    .label = Iepen ljeplêden
-choose-what-to-sync-option-prefs =
-    .label = Foarkarren
-choose-what-to-sync-option-addresses =
-    .label = Adressen
-choose-what-to-sync-option-paymentmethods =
-    .label = Betellingsmetoaden
-
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
@@ -1041,12 +1017,8 @@ tfa-enter-recovery-code-1 =
 
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
-product-promo-monitor-description = Untdek wêr’t jo priveegegevens lekt binne – en nim se werom
-product-promo-monitor-plus-description = Privacy docht der ta: ûntdek wêr’t jo priveegegevens lekt binne en nim se werom
 # Links out to the Monitor site
 product-promo-monitor-cta = Untfang in fergeze scan
-# Links out to the Monitor pricing site
-product-promo-monitor-plus-cta = Begjinne
 
 ## Profile section
 
@@ -1570,10 +1542,10 @@ pair-unsupported-message = Hawwe jo de systeemkamera brûkt? Jo moatte fan in { 
 
 ## SetPassword page
 ## Third party auth users that do not have a password set yet are prompted for a
-## password to complete their sign-in when they want to login to a service requiring it.
 
-set-password-heading = Wachtwurd oanmeitsje
-set-password-info = Jo syngronisearre gegevens wurde fersifere mei jo wachtwurd om jo privacy te beskermjen.
+
+# password to complete their sign-in when they want to login to a service requiring it.
+
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
@@ -1953,9 +1925,7 @@ confirm-signup-code-desktop-relay = { -brand-firefox } probearret jo werom te st
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
-signup-heading = Stel jo wachtwurd yn
 signup-relay-info = Der is in wachtwurd nedich om jo maskearre e-mailadressen feilich te behearen en tagong te krijen ta de befeiligingshelpmiddelen fan { -brand-mozilla }.
-signup-heading-relay = In wachtwurd oanmeitsje
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = Wêrom moat ik dizze account oanmeitsje?
 # Link included in a dismissible info banner that is only displayed to Pocket clients
@@ -1970,8 +1940,5 @@ signup-change-email-link = E-mailadres wizigje
 signup-confirmed-sync-header = Syngronisaasje is ynskeakele
 signup-confirmed-sync-success-banner = { -product-mozilla-account } befêstige
 signup-confirmed-sync-button = Start mei browsen
-# Shown when payment methods are also synced
-signup-confirmed-sync-description-with-payment = Jo wachtwurden, betellingsmetoaden, adressen, blêdwizers, skiednis en mear, kinne oeral syngronisearre wurde wêr’t jo { -product-firefox } brûke.
-signup-confirmed-sync-description = Jo wachtwurden, adressen, blêdwizers, skiednis en mear, kinne oeral syngronisearre wurde wêr’t jo { -product-firefox } brûke.
 signup-confirmed-sync-add-device-link = Noch in apparaat tafoegje
 signup-confirmed-sync-manage-sync-button = Syngronisaasje beheare

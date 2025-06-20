@@ -379,12 +379,8 @@ postAddLinkedAccount-title-2 = { $providerName }-tilisi on linkitetty { -product
 postAddLinkedAccount-action = Hallinnoi tiliä
 postAddRecoveryPhone-preview = Tili suojattu kaksivaiheisella todennuksella
 postAddRecoveryPhone-action = Hallinnoi tiliä
-postAddTwoStepAuthentication-subject-2 = Kaksivaiheinen todennus otettu käyttöön
 postAddTwoStepAuthentication-title-2 = Otit kaksivaiheisen todennuksen käyttöön
-# After the colon, there is a description of the device that the user used to enable two-step authentication
-postAddTwoStepAuthentication-from-device = Otit sen käyttöön käyttäen:
 postAddTwoStepAuthentication-action = Hallinnoi tiliä
-postAddTwoStepAuthentication-code-required-2 = Todennussovelluksen turvallisuuskoodit vaaditaan tästä lähtien aina kirjauduttaessa.
 postChangeAccountRecovery-subject = Tilin palautusavain vaihdettu
 postChangeAccountRecovery-title = Vaihdoit tilisi palautusavaimen
 postChangeAccountRecovery-body-part1 = Sinulla on nyt uusi tilin palautusavain. Edellinen avaimesi poistettiin.

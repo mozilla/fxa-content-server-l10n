@@ -416,12 +416,8 @@ postAddRecoveryPhone-how-protect = Comu pruteggi u to cuntu
 postAddRecoveryPhone-how-protect-plaintext = Comu pruteggi u to cuntu:
 postAddRecoveryPhone-enabled-device = L’abbilitasti di:
 postAddRecoveryPhone-action = Manija cuntu
-postAddTwoStepAuthentication-subject-2 = Autinticazzioni a du’ fattura abbilitata
 postAddTwoStepAuthentication-title-2 = Abbilitasti l’autinticazzioni a du’ fattura
-# After the colon, there is a description of the device that the user used to enable two-step authentication
-postAddTwoStepAuthentication-from-device = L’abbilitasti di:
 postAddTwoStepAuthentication-action = Manija cuntu
-postAddTwoStepAuthentication-code-required-2 = D’ora innanzi, ogni vota chi trasi sèrbinu i còdici di sicurizza ginirati di l’app d’autinticazzioni.
 postChangeAccountRecovery-subject = Chiavi di ricùpiru dû cuntu canciata
 postChangeAccountRecovery-title = Canciasti a chiavi di ricùpiru dû cuntu
 postChangeAccountRecovery-body-part1 = Ora ài na chiavi di ricùpiru dû cuntu nova. Chiḍḍa vecchia fu scancillata.

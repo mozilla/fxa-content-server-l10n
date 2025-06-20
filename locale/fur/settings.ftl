@@ -82,30 +82,6 @@ choose-newsletters-option-test-pilot =
 choose-newsletters-option-reclaim-the-internet =
     .label = Avîs ae azion par tornâ a cjapâ in man il control di internet
 
-## ChooseWhatToSync component
-## Checklist of services/information that can be synced across signed in devices
-
-# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
-# That users can choose to sync
-choose-what-to-sync-prompt-2 = Sielç ce sincronizâ
-choose-what-to-sync-option-bookmarks =
-    .label = Segnelibris
-choose-what-to-sync-option-history =
-    .label = Cronologjie
-choose-what-to-sync-option-passwords =
-    .label = Passwords
-choose-what-to-sync-option-addons =
-    .label = Components adizionâi
-# Refers to 'tabs that are open', not the action
-choose-what-to-sync-option-tabs =
-    .label = Schedis viertis
-choose-what-to-sync-option-prefs =
-    .label = Preferencis
-choose-what-to-sync-option-addresses =
-    .label = Direzions
-choose-what-to-sync-option-paymentmethods =
-    .label = Metodis di paiament
-
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
@@ -1029,12 +1005,8 @@ tfa-enter-recovery-code-1 =
 
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
-product-promo-monitor-description = Cjate là che a son esponudis lis tôs informazions personâls e torne a cjapâtes
-product-promo-monitor-plus-description = La riservatece e je impuartante: scuvierç là che son esponudis lis tôs informazions privadis e torne a cjapâtes
 # Links out to the Monitor site
 product-promo-monitor-cta = Oten une scansion gratuite
-# Links out to the Monitor pricing site
-product-promo-monitor-plus-cta = Scomence
 
 ## Profile section
 
@@ -1558,10 +1530,10 @@ pair-unsupported-message = Âstu doprât la fotocjamare di sisteme? Tu scugnis a
 
 ## SetPassword page
 ## Third party auth users that do not have a password set yet are prompted for a
-## password to complete their sign-in when they want to login to a service requiring it.
 
-set-password-heading = Cree password
-set-password-info = I dâts sincronizâts a son stâts cifrâts cu la tô password par protezi la tô riservatece.
+
+# password to complete their sign-in when they want to login to a service requiring it.
+
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
@@ -1944,9 +1916,7 @@ confirm-signup-code-desktop-relay = Dopo fat l'acès, { -brand-firefox } al cira
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
-signup-heading = Definìs la tô password
 signup-relay-info = E covente une password par gjestî in sigurece lis tôs mascaris di pueste e acedi ai struments di sigurece di { -brand-mozilla }.
-signup-heading-relay = Cree une password
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = Parcè scuegnio creâ chest account?
 # Link included in a dismissible info banner that is only displayed to Pocket clients

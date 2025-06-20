@@ -73,30 +73,6 @@ choose-newsletters-option-test-pilot =
 choose-newsletters-option-reclaim-the-internet =
     .label = Alertas de acción para recuperar Internet
 
-## ChooseWhatToSync component
-## Checklist of services/information that can be synced across signed in devices
-
-# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
-# That users can choose to sync
-choose-what-to-sync-prompt-2 = Escolla que sincronizar
-choose-what-to-sync-option-bookmarks =
-    .label = Marcadores
-choose-what-to-sync-option-history =
-    .label = Historial
-choose-what-to-sync-option-passwords =
-    .label = Contrasinais
-choose-what-to-sync-option-addons =
-    .label = Complementos
-# Refers to 'tabs that are open', not the action
-choose-what-to-sync-option-tabs =
-    .label = Lapelas abertas
-choose-what-to-sync-option-prefs =
-    .label = Axustes
-choose-what-to-sync-option-addresses =
-    .label = Enderezos
-choose-what-to-sync-option-paymentmethods =
-    .label = Métodos de pagamento
-
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
@@ -563,7 +539,9 @@ avatar-page-delete-error-3 = Houbo un problema ao borrar a túa foto de perfil.
 
 ## SetPassword page
 ## Third party auth users that do not have a password set yet are prompted for a
-## password to complete their sign-in when they want to login to a service requiring it.
+
+
+# password to complete their sign-in when they want to login to a service requiring it.
 
 
 ## ThirdPartyAuthCallback Page

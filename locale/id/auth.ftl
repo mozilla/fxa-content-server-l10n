@@ -389,12 +389,8 @@ postAddRecoveryPhone-how-protect = Cara ini melindungi akun Anda
 postAddRecoveryPhone-how-protect-plaintext = Cara ini melindungi akun Anda:
 postAddRecoveryPhone-enabled-device = Anda mengaktifkannya dari:
 postAddRecoveryPhone-action = Kelola akun
-postAddTwoStepAuthentication-subject-2 = Autentikasi dua langkah diaktifkan
 postAddTwoStepAuthentication-title-2 = Anda mengaktifkan autentikasi dua langkah
-# After the colon, there is a description of the device that the user used to enable two-step authentication
-postAddTwoStepAuthentication-from-device = Anda mengaktifkannya dari:
 postAddTwoStepAuthentication-action = Kelola akun
-postAddTwoStepAuthentication-code-required-2 = Kode keamanan dari aplikasi autentikasi Anda sekarang diperlukan setiap kali Anda masuk.
 postChangeAccountRecovery-subject = Kunci pemulihan akun diubah
 postChangeAccountRecovery-title = Anda mengubah kunci pemulihan akun Anda
 postChangeAccountRecovery-body-part1 = Anda sekarang memiliki kunci pemulihan akun baru. Kunci Anda sebelumnya telah dihapus.

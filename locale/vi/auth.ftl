@@ -415,12 +415,8 @@ postAddRecoveryPhone-how-protect = Tìm hiểu cách mà nó bảo vệ tài kho
 postAddRecoveryPhone-how-protect-plaintext = Tìm hiểu cách mà nó bảo vệ tài khoản của bạn:
 postAddRecoveryPhone-enabled-device = Bạn đã bật nó từ:
 postAddRecoveryPhone-action = Quản lý tài khoản
-postAddTwoStepAuthentication-subject-2 = Đã bật xác thực hai bước
 postAddTwoStepAuthentication-title-2 = Bạn đã bật xác thực hai bước
-# After the colon, there is a description of the device that the user used to enable two-step authentication
-postAddTwoStepAuthentication-from-device = Bạn đã bật nó từ:
 postAddTwoStepAuthentication-action = Quản lý tài khoản
-postAddTwoStepAuthentication-code-required-2 = Mã bảo mật từ ứng dụng xác thực của bạn hiện được yêu cầu mỗi khi bạn đăng nhập.
 postChangeAccountRecovery-subject = Khóa khôi phục tài khoản đã thay đổi
 postChangeAccountRecovery-title = Bạn đã thay đổi khóa khôi phục tài khoản của mình
 postChangeAccountRecovery-body-part1 = Bây giờ bạn đã có khóa khôi phục tài khoản mới. Khóa trước của bạn đã bị xóa.

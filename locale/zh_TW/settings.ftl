@@ -82,30 +82,6 @@ choose-newsletters-option-test-pilot =
 choose-newsletters-option-reclaim-the-internet =
     .label = 採取行動奪回網路環境
 
-## ChooseWhatToSync component
-## Checklist of services/information that can be synced across signed in devices
-
-# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
-# That users can choose to sync
-choose-what-to-sync-prompt-2 = 選擇要同步的內容
-choose-what-to-sync-option-bookmarks =
-    .label = 書籤
-choose-what-to-sync-option-history =
-    .label = 瀏覽紀錄
-choose-what-to-sync-option-passwords =
-    .label = 密碼
-choose-what-to-sync-option-addons =
-    .label = 附加元件
-# Refers to 'tabs that are open', not the action
-choose-what-to-sync-option-tabs =
-    .label = 開啟分頁
-choose-what-to-sync-option-prefs =
-    .label = 偏好設定
-choose-what-to-sync-option-addresses =
-    .label = 地址
-choose-what-to-sync-option-paymentmethods =
-    .label = 付款方式
-
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
@@ -1022,12 +998,8 @@ tfa-enter-recovery-code-1 =
 
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
-product-promo-monitor-description = 看看您的隱私資訊在哪裡外洩，並且搶回控制權
-product-promo-monitor-plus-description = 隱私權很重要：看看您的個資在哪裡外洩，並且搶回控制權
 # Links out to the Monitor site
 product-promo-monitor-cta = 免費掃描
-# Links out to the Monitor pricing site
-product-promo-monitor-plus-cta = 開始使用
 
 ## Profile section
 
@@ -1537,10 +1509,10 @@ pair-unsupported-message = 您用的是系統相機嗎？必須透過 { -brand-f
 
 ## SetPassword page
 ## Third party auth users that do not have a password set yet are prompted for a
-## password to complete their sign-in when they want to login to a service requiring it.
 
-set-password-heading = 設定密碼
-set-password-info = 已使用密碼加密您同步的資料，以保護您的隱私。
+
+# password to complete their sign-in when they want to login to a service requiring it.
+
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
@@ -1910,9 +1882,7 @@ confirm-signup-code-desktop-relay = 登入後，{ -brand-firefox } 將嘗試使�
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
-signup-heading = 請設定密碼
 signup-relay-info = 需要設定密碼，才能安全地管理轉寄信箱，並使用 { -brand-mozilla } 的安全工具。
-signup-heading-relay = 設定密碼
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = 為什麼需要建立此帳號？
 # Link included in a dismissible info banner that is only displayed to Pocket clients
@@ -1927,8 +1897,5 @@ signup-change-email-link = 更改電子郵件地址
 signup-confirmed-sync-header = 已開啟同步
 signup-confirmed-sync-success-banner = { -product-mozilla-account } 已確認
 signup-confirmed-sync-button = 開始上網
-# Shown when payment methods are also synced
-signup-confirmed-sync-description-with-payment = 隨時隨地使用 { -product-firefox } 都可同步使用您的密碼、付款方式、地址、書籤、上網紀錄與更多資訊。
-signup-confirmed-sync-description = 隨時隨地使用 { -product-firefox } 都可同步使用您的密碼、地址、書籤、上網紀錄與更多資訊。
 signup-confirmed-sync-add-device-link = 新增另一台裝置
 signup-confirmed-sync-manage-sync-button = 管理同步

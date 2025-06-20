@@ -82,30 +82,6 @@ choose-newsletters-option-test-pilot =
 choose-newsletters-option-reclaim-the-internet =
     .label = Výzvy na opätovné získanie internetu
 
-## ChooseWhatToSync component
-## Checklist of services/information that can be synced across signed in devices
-
-# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
-# That users can choose to sync
-choose-what-to-sync-prompt-2 = Zvoľte, čo chcete synchronizovať
-choose-what-to-sync-option-bookmarks =
-    .label = Záložky
-choose-what-to-sync-option-history =
-    .label = História
-choose-what-to-sync-option-passwords =
-    .label = Heslá
-choose-what-to-sync-option-addons =
-    .label = Doplnky
-# Refers to 'tabs that are open', not the action
-choose-what-to-sync-option-tabs =
-    .label = Otvorené karty
-choose-what-to-sync-option-prefs =
-    .label = Nastavenia
-choose-what-to-sync-option-addresses =
-    .label = Adresy
-choose-what-to-sync-option-paymentmethods =
-    .label = Spôsoby platby
-
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
@@ -1033,12 +1009,8 @@ tfa-enter-recovery-code-1 =
 
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
-product-promo-monitor-description = Zistite, kde sú vaše súkromné informácie zverejnené – a vezmite si ich späť
-product-promo-monitor-plus-description = Na súkromí záleží: zistite, kde sú vaše súkromné informácie zverejnené – a vezmite si ich späť
 # Links out to the Monitor site
 product-promo-monitor-cta = Skontrolovať
-# Links out to the Monitor pricing site
-product-promo-monitor-plus-cta = Začíname
 
 ## Profile section
 
@@ -1561,10 +1533,10 @@ pair-unsupported-message = Použili ste fotoaparát systému? Párovanie je potr
 
 ## SetPassword page
 ## Third party auth users that do not have a password set yet are prompted for a
-## password to complete their sign-in when they want to login to a service requiring it.
 
-set-password-heading = Vytvoriť heslo
-set-password-info = Údaje o synchronizácii sú zašifrované pomocou hesla, aby sa chránilo vaše súkromie.
+
+# password to complete their sign-in when they want to login to a service requiring it.
+
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
@@ -1948,9 +1920,7 @@ confirm-signup-code-desktop-relay = { -brand-firefox } sa vás po prihlásení p
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
-signup-heading = Nastavte si heslo
 signup-relay-info = Heslo je potrebné na bezpečnú správu vašich maskovaných e‑mailov a prístup k bezpečnostným nástrojom od { -brand-mozilla(case: "gen") }.
-signup-heading-relay = Vytvorenie hesla
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = Prečo si musím vytvoriť tento účet?
 # Link included in a dismissible info banner that is only displayed to Pocket clients
@@ -1965,8 +1935,5 @@ signup-change-email-link = Zmeniť e‑mailovú adresu
 signup-confirmed-sync-header = Synchronizácia je zapnutá
 signup-confirmed-sync-success-banner = { -product-mozilla-account } potvrdený
 signup-confirmed-sync-button = Začať prehliadanie
-# Shown when payment methods are also synced
-signup-confirmed-sync-description-with-payment = Vaše heslá, spôsoby platby, adresy, záložky, história a ďalšie sa môžu synchronizovať všade, kde používate { -product-firefox }.
-signup-confirmed-sync-description = Vaše heslá, adresy, záložky, história a ďalšie sa môžu synchronizovať všade, kde používate { -product-firefox }.
 signup-confirmed-sync-add-device-link = Pridať ďalšie zariadenie
 signup-confirmed-sync-manage-sync-button = Spravovať synchronizáciu

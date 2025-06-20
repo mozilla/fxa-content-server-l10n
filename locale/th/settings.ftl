@@ -82,30 +82,6 @@ choose-newsletters-option-test-pilot =
 choose-newsletters-option-reclaim-the-internet =
     .label = โฆษณากระตุ้นการตัดสินใจเพื่อร่วมปฏิรูปอินเทอร์เน็ต
 
-## ChooseWhatToSync component
-## Checklist of services/information that can be synced across signed in devices
-
-# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
-# That users can choose to sync
-choose-what-to-sync-prompt-2 = เลือกสิ่งที่จะซิงค์
-choose-what-to-sync-option-bookmarks =
-    .label = ที่คั่นหน้า
-choose-what-to-sync-option-history =
-    .label = ประวัติ
-choose-what-to-sync-option-passwords =
-    .label = รหัสผ่าน
-choose-what-to-sync-option-addons =
-    .label = ส่วนเสริม
-# Refers to 'tabs that are open', not the action
-choose-what-to-sync-option-tabs =
-    .label = แท็บที่เปิด
-choose-what-to-sync-option-prefs =
-    .label = การกำหนดลักษณะ
-choose-what-to-sync-option-addresses =
-    .label = ที่อยู่
-choose-what-to-sync-option-paymentmethods =
-    .label = วิธีการชำระเงิน
-
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
@@ -933,12 +909,8 @@ tfa-enter-recovery-code-1 =
 
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
-product-promo-monitor-description = ค้นพบว่าข้อมูลส่วนตัวของคุณถูกเปิดเผยที่ไหนบ้าง และเอาข้อมูลเหล่านั้นกลับคืนมา
-product-promo-monitor-plus-description = ความเป็นส่วนตัวนั้นสำคัญ ค้นพบว่าข้อมูลส่วนตัวของคุณถูกเปิดเผยที่ไหนบ้าง และเอาข้อมูลเหล่านั้นกลับคืนมา
 # Links out to the Monitor site
 product-promo-monitor-cta = รับการสแกนฟรี
-# Links out to the Monitor pricing site
-product-promo-monitor-plus-cta = เริ่มต้นใช้งาน
 
 ## Profile section
 
@@ -1398,10 +1370,10 @@ pair-unsupported-message = คุณใช้กล้องระบบหร�
 
 ## SetPassword page
 ## Third party auth users that do not have a password set yet are prompted for a
-## password to complete their sign-in when they want to login to a service requiring it.
 
-set-password-heading = สร้างรหัสผ่าน
-set-password-info = ข้อมูลซิงค์ของคุณจะถูกเข้ารหัสลับด้วยรหัสผ่านของคุณเพื่อปกป้องความเป็นส่วนตัวของคุณ
+
+# password to complete their sign-in when they want to login to a service requiring it.
+
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
@@ -1691,9 +1663,7 @@ confirm-signup-code-desktop-relay = { -brand-firefox } จะลองนำค�
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
-signup-heading = ตั้งรหัสผ่านของคุณ
 signup-relay-info = คุณต้องใส่รหัสผ่านเพื่อที่จะจัดการอีเมลที่ปกปิดของคุณและเข้าถึงเครื่องมือความปลอดภัยของ { -brand-mozilla } ได้อย่างปลอดภัย
-signup-heading-relay = สร้างรหัสผ่าน
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = ทำไมฉันถึงต้องสร้างบัญชีนี้ด้วย?
 # Link included in a dismissible info banner that is only displayed to Pocket clients

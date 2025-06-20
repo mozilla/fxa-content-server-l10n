@@ -417,12 +417,8 @@ postAddRecoveryPhone-how-protect = Як це захищає ваш обліко�
 postAddRecoveryPhone-how-protect-plaintext = Як це захищає ваш обліковий запис:
 postAddRecoveryPhone-enabled-device = Ви ввімкнули це з:
 postAddRecoveryPhone-action = Керувати обліковим записом
-postAddTwoStepAuthentication-subject-2 = Двоетапну перевірку увімкнено
 postAddTwoStepAuthentication-title-2 = Ви увімкнули двоетапну перевірку
-# After the colon, there is a description of the device that the user used to enable two-step authentication
-postAddTwoStepAuthentication-from-device = Ви увімкнули її на:
 postAddTwoStepAuthentication-action = Керування обліковим записом
-postAddTwoStepAuthentication-code-required-2 = Відтепер під час кожного входу необхідно вводити коди безпеки з вашої програми автентифікації.
 postChangeAccountRecovery-subject = Ключ відновлення облікового запису змінено
 postChangeAccountRecovery-title = Ви змінили ключ відновлення облікового запису
 postChangeAccountRecovery-body-part1 = Тепер у вас є новий ключ відновлення облікового запису. Ваш попередній ключ видалено.

@@ -351,12 +351,8 @@ postAddRecoveryPhone-how-protect = Бұл сіздің тіркелгіңізд�
 postAddRecoveryPhone-how-protect-plaintext = Бұл сіздің тіркелгіңізді қалай қорғайды:
 postAddRecoveryPhone-enabled-device = Сіз оны келесі жерден іске қостыңыз:
 postAddRecoveryPhone-action = Тіркелгіні басқару
-postAddTwoStepAuthentication-subject-2 = Екі қадамды аутентификация іске қосылды
 postAddTwoStepAuthentication-title-2 = Сіз екі қадамды аутентификацияны іске қостыңыз
-# After the colon, there is a description of the device that the user used to enable two-step authentication
-postAddTwoStepAuthentication-from-device = Сіз оны келесі жерден іске қостыңыз:
 postAddTwoStepAuthentication-action = Тіркелгіні басқару
-postAddTwoStepAuthentication-code-required-2 = Аутентификация қолданбасының қауіпсіздік кодтары енді жүйеге әр рет кірген сайын керек болады.
 postChangeAccountRecovery-subject = Тіркелгіні қалпына келтіру кілті өзгертілді
 postChangeAccountRecovery-title = Сіз тіркелгіңізді қалпына келтіру кілтін өзгерттіңіз
 postChangeAccountRecovery-body-part1 = Енді сізде тіркелгіні қалпына келтірудің жаңа кілті бар. Сіздің алдыңғы кілтіңіз өшірілді.

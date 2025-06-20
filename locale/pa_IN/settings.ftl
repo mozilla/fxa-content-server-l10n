@@ -78,30 +78,6 @@ choose-newsletters-option-test-pilot =
 choose-newsletters-option-reclaim-the-internet =
     .label = ਇੰਟਰਨੈੱਟ ਉੱਤੇ ਦਾਅਵਾ ਕਰਨ ਲਈ ਕਾਰਵਾਈ ਚੇਤਾਵਨੀਆਂ
 
-## ChooseWhatToSync component
-## Checklist of services/information that can be synced across signed in devices
-
-# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
-# That users can choose to sync
-choose-what-to-sync-prompt-2 = ਚੁਣੋ ਕਿ ਕੀ ਸਿੰਕ ਕਰਨਾ ਹੈ
-choose-what-to-sync-option-bookmarks =
-    .label = ਬੁੱਕਮਾਰਕ
-choose-what-to-sync-option-history =
-    .label = ਅਤੀਤ
-choose-what-to-sync-option-passwords =
-    .label = ਪਾਸਵਰਡ
-choose-what-to-sync-option-addons =
-    .label = ਐਡ-ਆਨ
-# Refers to 'tabs that are open', not the action
-choose-what-to-sync-option-tabs =
-    .label = ਟੈਬਾਂ ਖੋਲ੍ਹੋ
-choose-what-to-sync-option-prefs =
-    .label = ਮੇਰੀ ਪਸੰਦ
-choose-what-to-sync-option-addresses =
-    .label = ਸਿਰਨਾਵੇਂ
-choose-what-to-sync-option-paymentmethods =
-    .label = ਭੁਗਤਾਨ ਦੇ ਢੰਗ
-
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
@@ -907,8 +883,6 @@ product-promo-monitor =
     .alt = { -product-mozilla-monitor }
 # Links out to the Monitor site
 product-promo-monitor-cta = ਮੁਫ਼ਤ ਸਕੈਨ ਲਵੋ
-# Links out to the Monitor pricing site
-product-promo-monitor-plus-cta = ਸ਼ੁਰੂ ਕਰੀਏ
 
 ## Profile section
 
@@ -1380,10 +1354,10 @@ pair-unsupported-message = ਕੀ ਤੁਸੀਂ ਸਿਸਟਮ ਕੈਮਰ�
 
 ## SetPassword page
 ## Third party auth users that do not have a password set yet are prompted for a
-## password to complete their sign-in when they want to login to a service requiring it.
 
-set-password-heading = ਪਾਸਵਰਡ ਬਣਾਓ
-set-password-info = ਤੁਹਾਡੇ ਸਿੰਕ ਡਾਟੇ ਨੂੰ ਤੁਹਾਡੀ ਪਰਦੇਦਾਰੀ ਨੂੰ ਸੁਰੱਖਿਅਤ ਰੱਖਣ ਲਈ ਤੁਹਾਡੇ ਪਾਸਵਰਡ ਨਾਲ ਇੰਕ੍ਰਿਪਟ ਕੀਤਾ ਜਾਂਦਾ ਹੈ।
+
+# password to complete their sign-in when they want to login to a service requiring it.
+
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
@@ -1669,8 +1643,6 @@ confirm-signup-code-is-required-error = ਤਸਦੀਕੀਕਰਨ ਕੋਡ �
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
-signup-heading = ਆਪਣਾ ਪਾਸਵਰਡ ਲਾਓ
-signup-heading-relay = ਪਾਸਵਰਡ ਬਣਾਓ
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = ਮੈਨੂੰ ਇਹ ਖਾਤਾ ਬਣਾਉਣ ਦੀ ਲੋੜ ਕਿਉਂ ਹੈ?
 # Link included in a dismissible info banner that is only displayed to Pocket clients

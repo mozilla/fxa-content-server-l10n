@@ -82,30 +82,6 @@ choose-newsletters-option-test-pilot =
 choose-newsletters-option-reclaim-the-internet =
     .label = Napominanja k akciji, aby internet slědk dostał
 
-## ChooseWhatToSync component
-## Checklist of services/information that can be synced across signed in devices
-
-# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
-# That users can choose to sync
-choose-what-to-sync-prompt-2 = Wubjeŕśo, což ma se synchronizěrowaś
-choose-what-to-sync-option-bookmarks =
-    .label = Cytańske znamjenja
-choose-what-to-sync-option-history =
-    .label = Historija
-choose-what-to-sync-option-passwords =
-    .label = Gronidła
-choose-what-to-sync-option-addons =
-    .label = Dodanki
-# Refers to 'tabs that are open', not the action
-choose-what-to-sync-option-tabs =
-    .label = Wócynjone rejtariki
-choose-what-to-sync-option-prefs =
-    .label = Nastajenja
-choose-what-to-sync-option-addresses =
-    .label = Adrese
-choose-what-to-sync-option-paymentmethods =
-    .label = Płaśeńske metody
-
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
@@ -1031,12 +1007,8 @@ tfa-enter-recovery-code-1 =
 
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
-product-promo-monitor-description = Wuslěźćo, źož se waše informacije wótekšywaju – a wzejśo je slědk
-product-promo-monitor-plus-description = Priwatnosć jo wažna: Wuslěźćo, źož se waše informacije wótekšywaju – a wzejśo je slědk
 # Links out to the Monitor site
 product-promo-monitor-cta = Dostańśo dermotny scan
-# Links out to the Monitor pricing site
-product-promo-monitor-plus-cta = Prědne kšace
 
 ## Profile section
 
@@ -1562,10 +1534,10 @@ pair-unsupported-message = Sćo wužył systemowu kameru? Musyśo w nałoženju 
 
 ## SetPassword page
 ## Third party auth users that do not have a password set yet are prompted for a
-## password to complete their sign-in when they want to login to a service requiring it.
 
-set-password-heading = Gronidło napóraś
-set-password-info = Daty wašeje synchronizacije ze swójim gronidłom skoděrowane, aby se waša priwatnosć šćitała.
+
+# password to complete their sign-in when they want to login to a service requiring it.
+
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
@@ -1952,9 +1924,7 @@ confirm-signup-code-desktop-relay = { -brand-firefox } buźo was slědk słaś, 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
-signup-heading = Zapódajśo swójo gronidło
 signup-relay-info = Gronidło jo trjebna, aby swóje maskěrowane mejlki wěsće zastojaś a k wěstotnym rědam { -brand-mozilla } pśistup měł.
-signup-heading-relay = Gronidło napóraś
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = Cogodla musym toś to konto załožyś?
 # Link included in a dismissible info banner that is only displayed to Pocket clients
@@ -1969,8 +1939,5 @@ signup-change-email-link = E-mailowu adresu změniś
 signup-confirmed-sync-header = Synchronizacija jo zmóžnjona
 signup-confirmed-sync-success-banner = { -product-mozilla-account } wobkšuśone
 signup-confirmed-sync-button = Pśeglědowanje zachopiś
-# Shown when payment methods are also synced
-signup-confirmed-sync-description-with-payment = Waše gronidła, płaśeńske metody, adrese, cytańske znamjenja, historija a wěcej daju se wšuźi synchronizěrowaś, źož { -product-firefox } wužywaśo.
-signup-confirmed-sync-description = Waše gronidła, adrese, cytańske znamjenja, historija a wěcej daju se wšuźi synchronizěrowaś, źož { -product-firefox } wužywaśo.
 signup-confirmed-sync-add-device-link = Drugi rěd pśidaś
 signup-confirmed-sync-manage-sync-button = Synchronizaciju zastojaś

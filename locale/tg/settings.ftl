@@ -82,30 +82,6 @@ choose-newsletters-option-test-pilot =
 choose-newsletters-option-reclaim-the-internet =
     .label = Огоҳиҳои фаврӣ барои барқарорсозии дастрасӣ ба Интернет
 
-## ChooseWhatToSync component
-## Checklist of services/information that can be synced across signed in devices
-
-# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
-# That users can choose to sync
-choose-what-to-sync-prompt-2 = Интихоб кунед, ки чӣ ҳамоҳанг карда мешавад
-choose-what-to-sync-option-bookmarks =
-    .label = Хатбаракҳо
-choose-what-to-sync-option-history =
-    .label = Таърих
-choose-what-to-sync-option-passwords =
-    .label = Ниҳонвожаҳо
-choose-what-to-sync-option-addons =
-    .label = Ҷузъҳои иловагӣ
-# Refers to 'tabs that are open', not the action
-choose-what-to-sync-option-tabs =
-    .label = Варақаҳои кушодашуда
-choose-what-to-sync-option-prefs =
-    .label = Хусусиятҳо
-choose-what-to-sync-option-addresses =
-    .label = Нишониҳо
-choose-what-to-sync-option-paymentmethods =
-    .label = Тарзҳои пардохт
-
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
@@ -756,8 +732,6 @@ tfa-qa-code =
 
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
-# Links out to the Monitor pricing site
-product-promo-monitor-plus-cta = Оғози кор
 
 ## Profile section
 
@@ -1034,9 +1008,10 @@ pair-supp-allow-cancel-link = Бекор кардан
 
 ## SetPassword page
 ## Third party auth users that do not have a password set yet are prompted for a
-## password to complete their sign-in when they want to login to a service requiring it.
 
-set-password-heading = Эҷод кардани ниҳонвожа
+
+# password to complete their sign-in when they want to login to a service requiring it.
+
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
@@ -1254,8 +1229,6 @@ confirm-signup-code-is-required-error = Рамзи тасдиқкунанда л
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
-signup-heading = Ниҳонвожаи худро танзим кунед
-signup-heading-relay = Эҷод кардани ниҳонвожа
 
 ## SignupConfirmedSync page
 ## Shown to users when they finish confirming their account through Sync

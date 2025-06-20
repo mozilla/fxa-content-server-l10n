@@ -411,12 +411,8 @@ postAddRecoveryPhone-how-protect = 此举如何保护您的账户
 postAddRecoveryPhone-how-protect-plaintext = 此举如何保护您的账户：
 postAddRecoveryPhone-enabled-device = 您已从下列位置启用：
 postAddRecoveryPhone-action = 管理账户
-postAddTwoStepAuthentication-subject-2 = 两步验证已开启
 postAddTwoStepAuthentication-title-2 = 您已开启两步验证
-# After the colon, there is a description of the device that the user used to enable two-step authentication
-postAddTwoStepAuthentication-from-device = 您已从下列位置启用：
 postAddTwoStepAuthentication-action = 管理账户
-postAddTwoStepAuthentication-code-required-2 = 现在起，每次登录时都会要求您输入身份验证应用上的安全码。
 postChangeAccountRecovery-subject = 账户恢复密钥已更改
 postChangeAccountRecovery-title = 您更改了账户恢复密钥
 postChangeAccountRecovery-body-part1 = 您现在有了新的账户恢复密钥，先前的密钥已删除。

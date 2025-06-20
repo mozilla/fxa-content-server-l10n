@@ -57,13 +57,13 @@
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account =
     { $case ->
-       *[nominative] аккаунт Firefox
         [nominative_uppercase] Аккаунт Firefox
         [genitive] аккаунта Firefox
         [dative] аккаунту Firefox
         [accusative] аккаунт Firefox
         [instrumental] аккаунтом Firefox
         [prepositional] аккаунте Firefox
+       *[nominative] аккаунт Firefox
     }
 -product-mozilla-vpn = Mozilla VPN
 -product-mozilla-hubs = Клубы Mozilla

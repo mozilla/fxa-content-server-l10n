@@ -296,12 +296,8 @@ postAddAccountRecovery-action = Кіраванне ўліковым запіса
 postAddLinkedAccount-title-2 = Уліковы запіс { $providerName } быў звязаны з вашым { -product-mozilla-account }
 postAddLinkedAccount-action = Кіраваць уліковым запісам
 postAddRecoveryPhone-action = Кіраванне ўліковым запісам
-postAddTwoStepAuthentication-subject-2 = Двухэтапная аўтарызацыя ўключана
 postAddTwoStepAuthentication-title-2 = Вы ўключылі двухэтапную аўтэнтыфікацыю
-# After the colon, there is a description of the device that the user used to enable two-step authentication
-postAddTwoStepAuthentication-from-device = Вы ўключылі яе з:
 postAddTwoStepAuthentication-action = Кіраванне ўліковым запісам
-postAddTwoStepAuthentication-code-required-2 = Цяпер пры кожным уваходзе неабходна ўводзіць коды бяспекі з вашай праграмы аўтэнтыфікацыі.
 postChangeAccountRecovery-subject = Ключ аднаўлення ўліковага запісу зменены
 postChangeAccountRecovery-body-part2 = Захавайце гэты новы ключ у надзейным месцы — ён спатрэбіцца вам для аднаўлення зашыфраваных звестак аглядання, калі вы забудзеце пароль.
 postChangeAccountRecovery-action = Кіраванне ўліковым запісам

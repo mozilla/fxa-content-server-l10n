@@ -414,12 +414,8 @@ postAddRecoveryPhone-how-protect = Hogyan védi ez a fiókját
 postAddRecoveryPhone-how-protect-plaintext = Hogyan védi ez a fiókját:
 postAddRecoveryPhone-enabled-device = Innen engedélyezte:
 postAddRecoveryPhone-action = Fiók kezelése
-postAddTwoStepAuthentication-subject-2 = Kétlépcsős hitelesítés bekapcsolva
 postAddTwoStepAuthentication-title-2 = Bekapcsolta a kétlépcsős hitelesítést
-# After the colon, there is a description of the device that the user used to enable two-step authentication
-postAddTwoStepAuthentication-from-device = Innen engedélyezte:
 postAddTwoStepAuthentication-action = Fiók kezelése
-postAddTwoStepAuthentication-code-required-2 = A hitelesítő alkalmazásból származó biztonsági kódokra minden bejelentkezésnél szükség lesz.
 postChangeAccountRecovery-subject = A fiók-helyreállítási kulcs megváltozott
 postChangeAccountRecovery-title = Módosította a fiók-helyreállítási kulcsát
 postChangeAccountRecovery-body-part1 = Új fiók-helyreállítási kulcsa van. Az előző kulcsát törölték.

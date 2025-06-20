@@ -82,30 +82,6 @@ choose-newsletters-option-test-pilot =
 choose-newsletters-option-reclaim-the-internet =
     .label = Åtgärdsvarningar för att återta internet
 
-## ChooseWhatToSync component
-## Checklist of services/information that can be synced across signed in devices
-
-# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
-# That users can choose to sync
-choose-what-to-sync-prompt-2 = Välj vad som ska synkroniseras
-choose-what-to-sync-option-bookmarks =
-    .label = Bokmärken
-choose-what-to-sync-option-history =
-    .label = Historik
-choose-what-to-sync-option-passwords =
-    .label = Lösenord
-choose-what-to-sync-option-addons =
-    .label = Tillägg
-# Refers to 'tabs that are open', not the action
-choose-what-to-sync-option-tabs =
-    .label = Öppna flikar
-choose-what-to-sync-option-prefs =
-    .label = Inställningar
-choose-what-to-sync-option-addresses =
-    .label = Adresser
-choose-what-to-sync-option-paymentmethods =
-    .label = Betalningsmetoder
-
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
@@ -1037,12 +1013,8 @@ tfa-enter-recovery-code-1 =
 
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
-product-promo-monitor-description = Hitta var din privata information är exponerad — och ta tillbaka den
-product-promo-monitor-plus-description = Integritetsfrågor: Ta reda på var din privata information är exponerad och ta tillbaka den
 # Links out to the Monitor site
 product-promo-monitor-cta = Få en gratis skanning
-# Links out to the Monitor pricing site
-product-promo-monitor-plus-cta = Kom igång
 
 ## Profile section
 
@@ -1568,10 +1540,10 @@ pair-unsupported-message = Använde du systemkameran? Du måste parkoppla från 
 
 ## SetPassword page
 ## Third party auth users that do not have a password set yet are prompted for a
-## password to complete their sign-in when they want to login to a service requiring it.
 
-set-password-heading = Skapa lösenord
-set-password-info = Din synkroniseringsdata krypteras med ditt lösenord för att skydda din integritet.
+
+# password to complete their sign-in when they want to login to a service requiring it.
+
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
@@ -1954,9 +1926,7 @@ confirm-signup-code-desktop-relay = { -brand-firefox } försöker skicka dig til
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
-signup-heading = Ställ in ditt lösenord
 signup-relay-info = Ett lösenord behövs för att säkert hantera dina maskerade e-postmeddelanden och komma åt { -brand-mozilla }:s säkerhetsverktyg.
-signup-heading-relay = Skapa ett lösenord
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = Varför måste jag skapa det här kontot?
 # Link included in a dismissible info banner that is only displayed to Pocket clients
@@ -1971,8 +1941,5 @@ signup-change-email-link = Ändra e-post
 signup-confirmed-sync-header = Synkronisering är aktiverad
 signup-confirmed-sync-success-banner = { -product-mozilla-account } har bekräftats
 signup-confirmed-sync-button = Börja surfa
-# Shown when payment methods are also synced
-signup-confirmed-sync-description-with-payment = Dina lösenord, betalningsmetoder, adresser, bokmärken, historik och mer kan synkroniseras överallt där du använder { -product-firefox }.
-signup-confirmed-sync-description = Dina lösenord, adresser, bokmärken, historik och mer kan synkroniseras överallt där du använder { -product-firefox }.
 signup-confirmed-sync-add-device-link = Lägg till en annan enhet
 signup-confirmed-sync-manage-sync-button = Hantera synkronisering

@@ -18,22 +18,22 @@
 # Firefox and Mozilla Brand
 -brand-mozilla =
     { $case ->
-       *[nom] Mozilla
         [gen] Mozilly
         [dat] Mozille
         [acc] Mozillu
         [loc] Mozille
         [ins] Mozillou
+       *[nom] Mozilla
     }
     .gender = feminine
 -brand-firefox =
     { $case ->
-       *[nom] Firefox
         [gen] Firefoxu
         [dat] Firefoxu
         [acc] Firefox
         [loc] Firefoxe
         [ins] Firefoxom
+       *[nom] Firefox
     }
     .gender = masculine
 # "accounts" can be localized and should be lowercase, "Firefox" must be treated as a brand.

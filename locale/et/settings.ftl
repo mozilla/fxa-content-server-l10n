@@ -40,10 +40,6 @@ recovery-key-pdf-support = Rohkem teavet konto taastevõtmest
 ## Checklist of newsletters that the user can choose to sign up to
 
 
-## ChooseWhatToSync component
-## Checklist of services/information that can be synced across signed in devices
-
-
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
@@ -511,8 +507,6 @@ tfa-enter-secret-key = Sisesta see turvakood oma autentimisäppi:
 
 ## Product promotion
 
-# Links out to the Monitor pricing site
-product-promo-monitor-plus-cta = Alustamine
 
 ## Profile section
 
@@ -733,7 +727,9 @@ pair-supp-allow-cancel-link = Loobu
 
 ## SetPassword page
 ## Third party auth users that do not have a password set yet are prompted for a
-## password to complete their sign-in when they want to login to a service requiring it.
+
+
+# password to complete their sign-in when they want to login to a service requiring it.
 
 
 ## ThirdPartyAuthCallback Page

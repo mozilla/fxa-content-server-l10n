@@ -406,12 +406,8 @@ postAddRecoveryPhone-how-protect = Si e mbron kjo llogarinë tuaj
 postAddRecoveryPhone-how-protect-plaintext = Si e mbron kjo llogarinë tuaj:
 postAddRecoveryPhone-enabled-device = E aktivizuat që nga:
 postAddRecoveryPhone-action = Administroni llogarinë
-postAddTwoStepAuthentication-subject-2 = Mirëfilltësimi dyhapësh u aktivizua
 postAddTwoStepAuthentication-title-2 = Aktivizuat mirëfilltësim dyhapësh
-# After the colon, there is a description of the device that the user used to enable two-step authentication
-postAddTwoStepAuthentication-from-device = E aktivizuat që nga:
 postAddTwoStepAuthentication-action = Administroni llogarinë
-postAddTwoStepAuthentication-code-required-2 = Tani e tutje, sa herë që bëni hyrjen, kërkohet kod sigurie nga aplikacioni juaj i mirëfilltësimeve.
 postChangeAccountRecovery-subject = U ndryshua kyç rimarrjeje llogarie
 postChangeAccountRecovery-title = Ndryshuat kyçin e rimarrjes së llogarisë tuaj
 postChangeAccountRecovery-body-part1 = Tani keni një kyç të ri rimarrjeje llogarie. Kyçi juaj i mëparshëm u fshi.

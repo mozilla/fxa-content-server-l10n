@@ -82,30 +82,6 @@ choose-newsletters-option-test-pilot =
 choose-newsletters-option-reclaim-the-internet =
     .label = 인터넷을 되찾기 위한 조치 알림
 
-## ChooseWhatToSync component
-## Checklist of services/information that can be synced across signed in devices
-
-# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
-# That users can choose to sync
-choose-what-to-sync-prompt-2 = 동기화할 항목 선택
-choose-what-to-sync-option-bookmarks =
-    .label = 북마크
-choose-what-to-sync-option-history =
-    .label = 방문 기록
-choose-what-to-sync-option-passwords =
-    .label = 비밀번호
-choose-what-to-sync-option-addons =
-    .label = 부가 기능
-# Refers to 'tabs that are open', not the action
-choose-what-to-sync-option-tabs =
-    .label = 열린 탭
-choose-what-to-sync-option-prefs =
-    .label = 설정
-choose-what-to-sync-option-addresses =
-    .label = 주소
-choose-what-to-sync-option-paymentmethods =
-    .label = 결제 방법
-
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
@@ -1025,12 +1001,8 @@ tfa-enter-recovery-code-1 =
 
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
-product-promo-monitor-description = 개인 정보가 어디에 유출됐는지 찾아 보세요. — 다시 가져오세요.
-product-promo-monitor-plus-description = 개인 정보 보호는 중요합니다: 개인 정보가 노출된 곳을 찾아 다시 가져오세요.
 # Links out to the Monitor site
 product-promo-monitor-cta = 무료 검사 받기
-# Links out to the Monitor pricing site
-product-promo-monitor-plus-cta = 시작하기
 
 ## Profile section
 
@@ -1550,10 +1522,10 @@ pair-unsupported-message = 기본 카메라를 쓰셨습니까? { -brand-firefox
 
 ## SetPassword page
 ## Third party auth users that do not have a password set yet are prompted for a
-## password to complete their sign-in when they want to login to a service requiring it.
 
-set-password-heading = 비밀번호 생성
-set-password-info = 개인정보 보호를 위해 동기화 데이터는 사용자의 비밀번호로 암호화됩니다.
+
+# password to complete their sign-in when they want to login to a service requiring it.
+
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
@@ -1868,9 +1840,7 @@ confirm-signup-code-is-required-error = 확인 코드가 필요합니다.
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
-signup-heading = 비밀번호 설정
 signup-relay-info = 안전하게 가려진 이메일을 관리하고 { -brand-mozilla }의 보안 도구에 접근하려면 비밀번호가 필요합니다.
-signup-heading-relay = 비밀번호 생성
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = 왜 이 계정을 만들어야 하나요?
 # Link included in a dismissible info banner that is only displayed to Pocket clients

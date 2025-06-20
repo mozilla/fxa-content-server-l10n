@@ -82,30 +82,6 @@ choose-newsletters-option-test-pilot =
 choose-newsletters-option-reclaim-the-internet =
     .label = Action alerts to reclaim the internet
 
-## ChooseWhatToSync component
-## Checklist of services/information that can be synced across signed in devices
-
-# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
-# That users can choose to sync
-choose-what-to-sync-prompt-2 = Choose what to synchronise
-choose-what-to-sync-option-bookmarks =
-    .label = Bookmarks
-choose-what-to-sync-option-history =
-    .label = History
-choose-what-to-sync-option-passwords =
-    .label = Passwords
-choose-what-to-sync-option-addons =
-    .label = Add-ons
-# Refers to 'tabs that are open', not the action
-choose-what-to-sync-option-tabs =
-    .label = Open Tabs
-choose-what-to-sync-option-prefs =
-    .label = Preferences
-choose-what-to-sync-option-addresses =
-    .label = Addresses
-choose-what-to-sync-option-paymentmethods =
-    .label = Payment Methods
-
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
@@ -1037,12 +1013,8 @@ tfa-enter-recovery-code-1 =
 
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
-product-promo-monitor-description = Find where your private info is exposed — and take it back
-product-promo-monitor-plus-description = Privacy Matters: Find where your private info is exposed and take it back
 # Links out to the Monitor site
 product-promo-monitor-cta = Get free scan
-# Links out to the Monitor pricing site
-product-promo-monitor-plus-cta = Get started
 
 ## Profile section
 
@@ -1566,10 +1538,10 @@ pair-unsupported-message = Did you use the system camera? You must pair from wit
 
 ## SetPassword page
 ## Third party auth users that do not have a password set yet are prompted for a
-## password to complete their sign-in when they want to login to a service requiring it.
 
-set-password-heading = Create password
-set-password-info = Your synchronised data is encrypted with your password to protect your privacy.
+
+# password to complete their sign-in when they want to login to a service requiring it.
+
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
@@ -1952,9 +1924,7 @@ confirm-signup-code-desktop-relay = { -brand-firefox } will try sending you back
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
-signup-heading = Set your password
 signup-relay-info = A password is needed to securely manage your masked emails and access { -brand-mozilla }’s security tools.
-signup-heading-relay = Create a password
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = Why do I need to create this account?
 # Link included in a dismissible info banner that is only displayed to Pocket clients
@@ -1969,8 +1939,5 @@ signup-change-email-link = Change email
 signup-confirmed-sync-header = Synchronisation is turned on
 signup-confirmed-sync-success-banner = { -product-mozilla-account } confirmed
 signup-confirmed-sync-button = Start browsing
-# Shown when payment methods are also synced
-signup-confirmed-sync-description-with-payment = Your passwords, payment methods, addresses, bookmarks, history and more can synchronise everywhere you use { -product-firefox }.
-signup-confirmed-sync-description = Your passwords, addresses, bookmarks, history and more can synchronise everywhere you use { -product-firefox }.
 signup-confirmed-sync-add-device-link = Add another device
 signup-confirmed-sync-manage-sync-button = Manage synchronisation

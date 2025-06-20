@@ -18,64 +18,64 @@
 # Firefox and Mozilla Brand
 -brand-mozilla =
     { $case ->
-       *[nom] Mozilla
         [gen] Mozilly
         [dat] Mozille
         [acc] Mozillu
         [voc] Mozillo
         [loc] Mozille
         [ins] Mozillou
+       *[nom] Mozilla
     }
     .gender = feminine
 -brand-firefox =
     { $case ->
-       *[nom] Firefox
         [gen] Firefoxu
         [dat] Firefoxu
         [acc] Firefox
         [voc] Firefoxe
         [loc] Firefoxu
         [ins] Firefoxem
+       *[nom] Firefox
     }
     .gender = masculine
 # "accounts" can be localized and should be lowercase, "Firefox" must be treated as a brand.
 # "Firefox accounts" refers to the service
 -product-firefox-accounts =
     { $case ->
-       *[nom]
-            { $capitalization ->
-               *[upper] Účet Firefoxu
-                [lower] účet Firefoxu
-            }
         [gen]
             { $capitalization ->
-               *[upper] Účtu Firefoxu
                 [lower] účtu Firefoxu
+               *[upper] Účtu Firefoxu
             }
         [dat]
             { $capitalization ->
-               *[upper] Účtu Firefoxu
                 [lower] účtu Firefoxu
+               *[upper] Účtu Firefoxu
             }
         [acc]
             { $capitalization ->
-               *[upper] Účet Firefoxu
                 [lower] účet Firefoxu
+               *[upper] Účet Firefoxu
             }
         [voc]
             { $capitalization ->
-               *[upper] Účte Firefoxu
                 [lower] účte Firefoxu
+               *[upper] Účte Firefoxu
             }
         [loc]
             { $capitalization ->
-               *[upper] Účtu Firefoxu
                 [lower] účtu Firefoxu
+               *[upper] Účtu Firefoxu
             }
         [ins]
             { $capitalization ->
-               *[upper] Účtem Firefoxu
                 [lower] účtem Firefoxu
+               *[upper] Účtem Firefoxu
+            }
+       *[nom]
+            { $capitalization ->
+                [lower] účet Firefoxu
+               *[upper] Účet Firefoxu
             }
     }
 # "account" can and should be localized, "Mozilla" must be treated as a brand. Singular "Mozilla account" should be used in most cases.
@@ -189,40 +189,40 @@
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account =
     { $case ->
-       *[nom]
-            { $capitalization ->
-               *[upper] Účet Firefoxu
-                [lower] účet Firefoxu
-            }
         [gen]
             { $capitalization ->
-               *[upper] Účtu Firefoxu
                 [lower] účtu Firefoxu
+               *[upper] Účtu Firefoxu
             }
         [dat]
             { $capitalization ->
-               *[upper] Účtu Firefoxu
                 [lower] účtu Firefoxu
+               *[upper] Účtu Firefoxu
             }
         [acc]
             { $capitalization ->
-               *[upper] Účet Firefoxu
                 [lower] účet Firefoxu
+               *[upper] Účet Firefoxu
             }
         [voc]
             { $capitalization ->
-               *[upper] Účte Firefoxu
                 [lower] účte Firefoxu
+               *[upper] Účte Firefoxu
             }
         [loc]
             { $capitalization ->
-               *[upper] Účtu Firefoxu
                 [lower] účtu Firefoxu
+               *[upper] Účtu Firefoxu
             }
         [ins]
             { $capitalization ->
-               *[upper] Účtem Firefoxu
                 [lower] účtem Firefoxu
+               *[upper] Účtem Firefoxu
+            }
+       *[nom]
+            { $capitalization ->
+                [lower] účet Firefoxu
+               *[upper] Účet Firefoxu
             }
     }
 -product-mozilla-vpn =
@@ -242,13 +242,13 @@
 -product-mdn-plus = MDN Plus
 -product-firefox-cloud =
     { $case ->
-       *[nom] Firefox Cloud
         [gen] Firefox Cloudu
         [dat] Firefox Cloudu
         [acc] Firefox Cloud
         [voc] Firefox Cloude
         [loc] Firefox Cloudu
         [ins] Firefox Cloudem
+       *[nom] Firefox Cloud
     }
     .gender = masculine
 -product-mozilla-monitor = Mozilla Monitor
@@ -276,57 +276,57 @@
     .gender = masculine
 -brand-apple =
     { $case ->
-       *[nom] Apple
         [gen] Applu
         [dat] Applu
         [acc] Apple
         [voc] Apple
         [loc] Applu
         [ins] Applem
+       *[nom] Apple
     }
     .gender = masculine
 -brand-google =
     { $case ->
-       *[nom] Google
         [gen] Googlu
         [dat] Googlu
         [acc] Google
         [voc] Google
         [loc] Googlu
         [ins] Googlem
+       *[nom] Google
     }
     .gender = masculine
 -brand-paypal =
     { $case ->
-       *[nom] PayPal
         [gen] PayPalu
         [dat] PayPalu
         [acc] PayPal
         [voc] PayPale
         [loc] PayPalu
         [ins] PayPalem
+       *[nom] PayPal
     }
     .gender = masculine
 -brand-name-stripe =
     { $case ->
-       *[nom] Stripe
         [gen] Stripu
         [dat] Stripu
         [acc] Stripe
         [voc] Stripe
         [loc] Stripu
         [ins] Stripem
+       *[nom] Stripe
     }
     .gender = masculine
 -app-store =
     { $case ->
-       *[nom] App Store
         [gen] App Storu
         [dat] App Storu
         [acc] App Store
         [voc] App Store
         [loc] App Storu
         [ins] App Storem
+       *[nom] App Store
     }
     .gender = masculine
 -google-play = Google Play

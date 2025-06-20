@@ -418,12 +418,8 @@ postAddRecoveryPhone-how-protect = Kak to waše konto škita
 postAddRecoveryPhone-how-protect-plaintext = Kak to waše konto škita:
 postAddRecoveryPhone-enabled-device = Sće ju zmóžnił z:
 postAddRecoveryPhone-action = Konto rjadować
-postAddTwoStepAuthentication-subject-2 = Dwukročelowa awtentifikacija zmóžnjena
 postAddTwoStepAuthentication-title-2 = Sće dwukročelowu awtentifikaciju zmóžnił
-# After the colon, there is a description of the device that the user used to enable two-step authentication
-postAddTwoStepAuthentication-from-device = Sće ju zmóžnił z:
 postAddTwoStepAuthentication-action = Konto rjadować
-postAddTwoStepAuthentication-code-required-2 = Wěstotne kody z wašeho nałoženja awtentizowanja su kóždy raz trěbne, hdyž so přizjewjeće.
 postChangeAccountRecovery-subject = Kontowy wobnowjenski kluč je so změnił
 postChangeAccountRecovery-title = Sće swój kontowy wobnowjenski kluč změnił
 postChangeAccountRecovery-body-part1 = Maće nětko nowy kontowy wobnowjenski kluč. Waš předchadny kluč je so zhašał.

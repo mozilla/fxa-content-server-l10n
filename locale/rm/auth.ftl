@@ -390,12 +390,8 @@ postAddRecoveryPhone-how-protect = Co quai protegia tes conto
 postAddRecoveryPhone-how-protect-plaintext = Co quai protegia tes conto:
 postAddRecoveryPhone-enabled-device = Ti l’has activà ord:
 postAddRecoveryPhone-action = Administrar il conto
-postAddTwoStepAuthentication-subject-2 = L'autentificaziun en dus pass è activada
 postAddTwoStepAuthentication-title-2 = Ti has activà l'autentificaziun en dus pass
-# After the colon, there is a description of the device that the user used to enable two-step authentication
-postAddTwoStepAuthentication-from-device = Ti l'has activà ord:
 postAddTwoStepAuthentication-action = Administrar il conto
-postAddTwoStepAuthentication-code-required-2 = A partir dad ussa è necessari per mintga annunzia in code da segirezza furnì da tia applicaziun d'autentificaziun.
 postChangeAccountRecovery-subject = Midà la clav da recuperaziun dal conto
 postChangeAccountRecovery-title = Ti has midà tia clav da recuperaziun dal conto
 postChangeAccountRecovery-body-part1 = Ti has ussa ina nova clav da recuperaziun dal conto. Tia clav precedenta è vegnida stizzada.

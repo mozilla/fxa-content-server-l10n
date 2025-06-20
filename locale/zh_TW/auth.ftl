@@ -413,12 +413,8 @@ postAddRecoveryPhone-how-protect = 此功能如何保護您的帳號
 postAddRecoveryPhone-how-protect-plaintext = 此功能如何保護您的帳號：
 postAddRecoveryPhone-enabled-device = 您從下列位置開啟：
 postAddRecoveryPhone-action = 管理帳號
-postAddTwoStepAuthentication-subject-2 = 已開啟兩階段驗證
 postAddTwoStepAuthentication-title-2 = 您已開啟兩階段驗證
-# After the colon, there is a description of the device that the user used to enable two-step authentication
-postAddTwoStepAuthentication-from-device = 您從下列位置開啟：
 postAddTwoStepAuthentication-action = 管理帳號
-postAddTwoStepAuthentication-code-required-2 = 現在起，每次登入時都會要求您輸入驗證程式中的安全碼。
 postChangeAccountRecovery-subject = 已變更帳號救援金鑰
 postChangeAccountRecovery-title = 您已更換帳號救援金鑰
 postChangeAccountRecovery-body-part1 = 您已產生新的帳號救援金鑰，舊金鑰已刪除。

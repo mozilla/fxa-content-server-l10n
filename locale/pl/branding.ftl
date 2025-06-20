@@ -18,55 +18,55 @@
 # Firefox and Mozilla Brand
 -brand-mozilla =
     { $case ->
-       *[nom] Mozilla
         [gen] Mozilli
         [dat] Mozilli
         [acc] Mozillę
         [ins] Mozillą
         [loc] Mozilli
+       *[nom] Mozilla
     }
 -brand-firefox =
     { $case ->
-       *[nom] Firefox
         [gen] Firefoksa
         [dat] Firefoksowi
         [acc] Firefoksa
         [ins] Firefoksem
         [loc] Firefoksie
+       *[nom] Firefox
     }
 # "accounts" can be localized and should be lowercase, "Firefox" must be treated as a brand.
 # "Firefox accounts" refers to the service
 -product-firefox-accounts =
     { $case ->
-       *[nom]
-            { $capitalization ->
-               *[upper] Konta Firefoksa
-                [lower] konta Firefoksa
-            }
         [gen]
             { $capitalization ->
-               *[upper] Kont Firefoksa
                 [lower] kont Firefoksa
+               *[upper] Kont Firefoksa
             }
         [dat]
             { $capitalization ->
-               *[upper] Kontom Firefoksa
                 [lower] kontom Firefoksa
+               *[upper] Kontom Firefoksa
             }
         [acc]
             { $capitalization ->
-               *[upper] Konta Firefoksa
                 [lower] konta Firefoksa
+               *[upper] Konta Firefoksa
             }
         [ins]
             { $capitalization ->
-               *[upper] Kontami Firefoksa
                 [lower] kontami Firefoksa
+               *[upper] Kontami Firefoksa
             }
         [loc]
             { $capitalization ->
-               *[upper] Kontach Firefoksa
                 [lower] kontach Firefoksa
+               *[upper] Kontach Firefoksa
+            }
+       *[nom]
+            { $capitalization ->
+                [lower] konta Firefoksa
+               *[upper] Konta Firefoksa
             }
     }
 # "account" can and should be localized, "Mozilla" must be treated as a brand. Singular "Mozilla account" should be used in most cases.
@@ -142,35 +142,35 @@
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account =
     { $case ->
-       *[nom]
-            { $capitalization ->
-               *[upper] Konto Firefoksa
-                [lower] konto Firefoksa
-            }
         [gen]
             { $capitalization ->
-               *[upper] Konta Firefoksa
                 [lower] konta Firefoksa
+               *[upper] Konta Firefoksa
             }
         [dat]
             { $capitalization ->
-               *[upper] Kontu Firefoksa
                 [lower] kontu Firefoksa
+               *[upper] Kontu Firefoksa
             }
         [acc]
             { $capitalization ->
-               *[upper] Konto Firefoksa
                 [lower] konto Firefoksa
+               *[upper] Konto Firefoksa
             }
         [ins]
             { $capitalization ->
-               *[upper] Kontem Firefoksa
                 [lower] kontem Firefoksa
+               *[upper] Kontem Firefoksa
             }
         [loc]
             { $capitalization ->
-               *[upper] Koncie Firefoksa
                 [lower] koncie Firefoksa
+               *[upper] Koncie Firefoksa
+            }
+       *[nom]
+            { $capitalization ->
+                [lower] konto Firefoksa
+               *[upper] Konto Firefoksa
             }
     }
 -product-mozilla-vpn = Mozilla VPN

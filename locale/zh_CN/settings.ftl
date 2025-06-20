@@ -82,30 +82,6 @@ choose-newsletters-option-test-pilot =
 choose-newsletters-option-reclaim-the-internet =
     .label = 重领互联网的行动号召
 
-## ChooseWhatToSync component
-## Checklist of services/information that can be synced across signed in devices
-
-# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
-# That users can choose to sync
-choose-what-to-sync-prompt-2 = 选择要同步的项目
-choose-what-to-sync-option-bookmarks =
-    .label = 书签
-choose-what-to-sync-option-history =
-    .label = 历史记录
-choose-what-to-sync-option-passwords =
-    .label = 密码
-choose-what-to-sync-option-addons =
-    .label = 附加组件
-# Refers to 'tabs that are open', not the action
-choose-what-to-sync-option-tabs =
-    .label = 打开的标签页
-choose-what-to-sync-option-prefs =
-    .label = 首选项
-choose-what-to-sync-option-addresses =
-    .label = 地址
-choose-what-to-sync-option-paymentmethods =
-    .label = 付款方式
-
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
@@ -1024,12 +1000,8 @@ tfa-enter-recovery-code-1 =
 
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
-product-promo-monitor-description = 扫描隐私信息泄露，收回属于您的秘密
-product-promo-monitor-plus-description = 个人隐私事关重大：扫描隐私信息泄露，收回属于您的秘密
 # Links out to the Monitor site
 product-promo-monitor-cta = 免费扫描
-# Links out to the Monitor pricing site
-product-promo-monitor-plus-cta = 开始使用
 
 ## Profile section
 
@@ -1545,10 +1517,10 @@ pair-unsupported-message = 您用的是系统相机？配对必须通过 { -bran
 
 ## SetPassword page
 ## Third party auth users that do not have a password set yet are prompted for a
-## password to complete their sign-in when they want to login to a service requiring it.
 
-set-password-heading = 创建密码
-set-password-info = 同步的数据已通过您的密码加密，以保护隐私。
+
+# password to complete their sign-in when they want to login to a service requiring it.
+
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
@@ -1918,9 +1890,7 @@ confirm-signup-code-desktop-relay = { -brand-firefox } 将尝试在您登录后�
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
-signup-heading = 创建您的密码
 signup-relay-info = 需通过密码来安全管理您的马甲邮箱，以及使用 { -brand-mozilla } 的安全工具。
-signup-heading-relay = 创建密码
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = 为什么要创建此账户？
 # Link included in a dismissible info banner that is only displayed to Pocket clients
@@ -1935,8 +1905,5 @@ signup-change-email-link = 更改邮箱
 signup-confirmed-sync-header = 同步服务已开启
 signup-confirmed-sync-success-banner = 已确认 { -product-mozilla-account }
 signup-confirmed-sync-button = 开始浏览
-# Shown when payment methods are also synced
-signup-confirmed-sync-description-with-payment = 您可以在使用 { -product-firefox } 的各设备间，同步密码、付款方式、地址、书签、历史记录等数据。
-signup-confirmed-sync-description = 您可以在使用 { -product-firefox } 的各设备间，同步密码、地址、书签、历史记录等数据。
 signup-confirmed-sync-add-device-link = 添加其他设备
 signup-confirmed-sync-manage-sync-button = 管理同步

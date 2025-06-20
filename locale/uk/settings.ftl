@@ -82,30 +82,6 @@ choose-newsletters-option-test-pilot =
 choose-newsletters-option-reclaim-the-internet =
     .label = Сповіщення про дії для відновлення доступу до інтернету
 
-## ChooseWhatToSync component
-## Checklist of services/information that can be synced across signed in devices
-
-# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
-# That users can choose to sync
-choose-what-to-sync-prompt-2 = Виберіть що синхронізувати
-choose-what-to-sync-option-bookmarks =
-    .label = Закладки
-choose-what-to-sync-option-history =
-    .label = Історія
-choose-what-to-sync-option-passwords =
-    .label = Паролі
-choose-what-to-sync-option-addons =
-    .label = Додатки
-# Refers to 'tabs that are open', not the action
-choose-what-to-sync-option-tabs =
-    .label = Відкриті вкладки
-choose-what-to-sync-option-prefs =
-    .label = Налаштування
-choose-what-to-sync-option-addresses =
-    .label = Адреси
-choose-what-to-sync-option-paymentmethods =
-    .label = Способи оплати
-
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
@@ -1035,12 +1011,8 @@ tfa-enter-recovery-code-1 =
 
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
-product-promo-monitor-description = Дізнайтеся, де розкрита ваша особиста інформація, та відновіть контроль
-product-promo-monitor-plus-description = Приватність важлива: Дізнайтеся, де розкрита ваша особиста інформація, та відновіть над нею контроль
 # Links out to the Monitor site
 product-promo-monitor-cta = Скористайтеся безплатним скануванням
-# Links out to the Monitor pricing site
-product-promo-monitor-plus-cta = Розпочати
 
 ## Profile section
 
@@ -1565,10 +1537,10 @@ pair-unsupported-message = Ви використали системну каме
 
 ## SetPassword page
 ## Third party auth users that do not have a password set yet are prompted for a
-## password to complete their sign-in when they want to login to a service requiring it.
 
-set-password-heading = Створити пароль
-set-password-info = Для захисту вашої приватності синхронізовані дані зашифровано за допомогою пароля.
+
+# password to complete their sign-in when they want to login to a service requiring it.
+
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
@@ -1951,9 +1923,7 @@ confirm-signup-code-desktop-relay = { -brand-firefox } спробує повер
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
-signup-heading = Встановіть пароль
 signup-relay-info = Пароль потрібен для безпечного керування замаскованими адресами е-пошти та доступу до інструментів безпеки { -brand-mozilla }.
-signup-heading-relay = Створити пароль
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = Чому мені потрібно створити цей обліковий запис?
 # Link included in a dismissible info banner that is only displayed to Pocket clients

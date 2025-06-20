@@ -349,10 +349,7 @@ postAddRecoveryPhone-how-protect = Ин чӣ тавр ҳисоби шуморо 
 postAddRecoveryPhone-how-protect-plaintext = Ин чӣ тавр ҳисоби шуморо муҳофизат мекунад:
 postAddRecoveryPhone-enabled-device = Шумо онро дар дастгоҳи зерин фаъол кардед:
 postAddRecoveryPhone-action = Идоракунии ҳисоб
-postAddTwoStepAuthentication-subject-2 = Санҷиши ҳаққонияти дуқадама фаъол аст
 postAddTwoStepAuthentication-title-2 = Шумо санҷиши ҳаққонияти дуқадамаро фаъол кардед
-# After the colon, there is a description of the device that the user used to enable two-step authentication
-postAddTwoStepAuthentication-from-device = Шумо онро дар дастгоҳи зерин фаъол кардед:
 postAddTwoStepAuthentication-action = Идоракунии ҳисоб
 postChangeAccountRecovery-subject = Калиди барқарорсозии ҳисоб иваз шуд
 postChangeAccountRecovery-title = Шумо калиди барқарорсозии ҳисоби худро иваз кардед

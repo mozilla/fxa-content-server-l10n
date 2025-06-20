@@ -23,10 +23,6 @@
 ## Checklist of newsletters that the user can choose to sign up to
 
 
-## ChooseWhatToSync component
-## Checklist of services/information that can be synced across signed in devices
-
-
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 
@@ -437,7 +433,9 @@ inline-totp-setup-enter-key-or-use-qr-instructions = Въведете тайни
 
 ## SetPassword page
 ## Third party auth users that do not have a password set yet are prompted for a
-## password to complete their sign-in when they want to login to a service requiring it.
+
+
+# password to complete their sign-in when they want to login to a service requiring it.
 
 
 ## ThirdPartyAuthCallback Page

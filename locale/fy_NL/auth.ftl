@@ -416,12 +416,8 @@ postAddRecoveryPhone-how-protect = Hoe dit jo account beskermet
 postAddRecoveryPhone-how-protect-plaintext = Hoe dit jo account beskermet:
 postAddRecoveryPhone-enabled-device = Jo hawwe it ynskeakele fanôf:
 postAddRecoveryPhone-action = Account beheare
-postAddTwoStepAuthentication-subject-2 = Autentikaasje yn twa stappen is ynskeakele
 postAddTwoStepAuthentication-title-2 = Jo hawwe autentikaasje yn twa stappen ynskeakele
-# After the colon, there is a description of the device that the user used to enable two-step authentication
-postAddTwoStepAuthentication-from-device = Jo hawwe it ynskeakele fanôf:
 postAddTwoStepAuthentication-action = Account beheare
-postAddTwoStepAuthentication-code-required-2 = Hieltyd as jo jo oanmelde binne no befeiligingskoaden fan jo autentikaasje-app ôf fereaske.
 postChangeAccountRecovery-subject = Accountwerstelkaai wizige
 postChangeAccountRecovery-title = Jo hawwe jo accountwerstelkaai wizigje
 postChangeAccountRecovery-body-part1 = Jo hawwe no in nije accountwerstelkaai. Jo foarige kaai is fuortsmiten.

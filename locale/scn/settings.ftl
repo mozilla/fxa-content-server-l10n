@@ -82,30 +82,6 @@ choose-newsletters-option-test-pilot =
 choose-newsletters-option-reclaim-the-internet =
     .label = Abbisi di azzioni pi pigghiàriti arrè u cuntrollu dâ riti
 
-## ChooseWhatToSync component
-## Checklist of services/information that can be synced across signed in devices
-
-# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
-# That users can choose to sync
-choose-what-to-sync-prompt-2 = Scarta soccu sincrunizzari
-choose-what-to-sync-option-bookmarks =
-    .label = Nzingalibbra
-choose-what-to-sync-option-history =
-    .label = Crunuluggìa
-choose-what-to-sync-option-passwords =
-    .label = Chiavi
-choose-what-to-sync-option-addons =
-    .label = Juncitini
-# Refers to 'tabs that are open', not the action
-choose-what-to-sync-option-tabs =
-    .label = Schedi graputi
-choose-what-to-sync-option-prefs =
-    .label = Prifirenzi
-choose-what-to-sync-option-addresses =
-    .label = Nnirizzi
-choose-what-to-sync-option-paymentmethods =
-    .label = Furmi di pagamentu
-
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
@@ -1022,12 +998,8 @@ tfa-enter-recovery-code-1 =
 
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
-product-promo-monitor-description = Scopri unni nisceru fora i to nfurmazzioni pirsunali — e pigghiatilli nn’arrè
-product-promo-monitor-plus-description = A privatizza è mpurtanti: scopri unni nisceru fora i to nfurmazzioni pirsunali e pigghiatilli nn’arrè
 # Links out to the Monitor site
 product-promo-monitor-cta = Fai na risciduta a francu
-# Links out to the Monitor pricing site
-product-promo-monitor-plus-cta = Accumincia
 
 ## Profile section
 
@@ -1496,10 +1468,10 @@ pair-unsupported-message = Usasti a fotucàmmira di sistema? Hâ fari l’accucc
 
 ## SetPassword page
 ## Third party auth users that do not have a password set yet are prompted for a
-## password to complete their sign-in when they want to login to a service requiring it.
 
-set-password-heading = Crìa na chiavi
-set-password-info = I dati sincrunizzati sunnu crittati câ to chiavi pi prutèggiri a to privatizza.
+
+# password to complete their sign-in when they want to login to a service requiring it.
+
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.

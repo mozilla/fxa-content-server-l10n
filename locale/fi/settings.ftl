@@ -82,30 +82,6 @@ choose-newsletters-option-test-pilot =
 choose-newsletters-option-reclaim-the-internet =
     .label = Kutsut Internetin kunnostamiseksi
 
-## ChooseWhatToSync component
-## Checklist of services/information that can be synced across signed in devices
-
-# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
-# That users can choose to sync
-choose-what-to-sync-prompt-2 = Valitse synkronoitavat tiedot
-choose-what-to-sync-option-bookmarks =
-    .label = Kirjanmerkit
-choose-what-to-sync-option-history =
-    .label = Sivuhistoria
-choose-what-to-sync-option-passwords =
-    .label = Salasanat
-choose-what-to-sync-option-addons =
-    .label = Lisäosat
-# Refers to 'tabs that are open', not the action
-choose-what-to-sync-option-tabs =
-    .label = Avoimet välilehdet
-choose-what-to-sync-option-prefs =
-    .label = Asetukset
-choose-what-to-sync-option-addresses =
-    .label = Osoitteet
-choose-what-to-sync-option-paymentmethods =
-    .label = Maksutavat
-
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
@@ -943,12 +919,8 @@ tfa-enter-recovery-code-1 =
 
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
-product-promo-monitor-description = Selvitä missä yksityiset tietosi ovat paljastuneet – ja ota ne takaisin
-product-promo-monitor-plus-description = Yksityisyys on tärkeää: Selvitä missä yksityiset tietosi ovat paljastuneet – ja ota ne takaisin
 # Links out to the Monitor site
 product-promo-monitor-cta = Hanki ilmainen tarkistus
-# Links out to the Monitor pricing site
-product-promo-monitor-plus-cta = Aloitetaan
 
 ## Profile section
 
@@ -1443,9 +1415,10 @@ pair-unsupported-message = Käytitkö järjestelmän kameraa? Parin muodostamine
 
 ## SetPassword page
 ## Third party auth users that do not have a password set yet are prompted for a
-## password to complete their sign-in when they want to login to a service requiring it.
 
-set-password-heading = Luo salasana
+
+# password to complete their sign-in when they want to login to a service requiring it.
+
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
@@ -1737,8 +1710,6 @@ confirm-signup-code-is-required-error = Vahvistuskoodi vaaditaan
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
-signup-heading = Aseta salasana
-signup-heading-relay = Luo salasana
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = Miksi minun pitää luoda tämä tili?
 # Link included in a dismissible info banner that is only displayed to Pocket clients

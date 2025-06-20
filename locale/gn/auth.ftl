@@ -415,12 +415,8 @@ postAddRecoveryPhone-how-protect = Mba’éicha omo’ãta ne mba’ete
 postAddRecoveryPhone-how-protect-plaintext = Mba’éicha omo’ãta ne mba’ete:
 postAddRecoveryPhone-enabled-device = Embojuruja upe guive:
 postAddRecoveryPhone-action = Mba’ete ñangareko
-postAddTwoStepAuthentication-subject-2 = Ñemoneĩ mokõi jeýpe myandypyre
 postAddTwoStepAuthentication-title-2 = Embojuruja ñemoneĩ mokõi jeku’egua
-# After the colon, there is a description of the device that the user used to enable two-step authentication
-postAddTwoStepAuthentication-from-device = Embojuruja upe guive:
 postAddTwoStepAuthentication-action = Mba’ete ñangareko
-postAddTwoStepAuthentication-code-required-2 = Ko’ág̃a guive ojejeruréta ne rembiporu’i ayvu rekorosã ñemoneĩrã eñepyrũjeývo tembiapo.
 postChangeAccountRecovery-subject = Mba’eñemi guerujeyrã oñemoambuéma
 postChangeAccountRecovery-title = Emoambue ne mba’ete mba’eñemi guerujeyrã
 postChangeAccountRecovery-body-part1 = Eguerekóma mba’ete mba’eñemi guerujeyrã pyahu. Oguéma pe mba’eñemi tuja.

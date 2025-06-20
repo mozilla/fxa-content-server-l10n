@@ -78,30 +78,6 @@ choose-newsletters-option-test-pilot =
 choose-newsletters-option-reclaim-the-internet =
     .label = インターネットを取り戻すために行動を起こしましょう
 
-## ChooseWhatToSync component
-## Checklist of services/information that can be synced across signed in devices
-
-# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
-# That users can choose to sync
-choose-what-to-sync-prompt-2 = 同期するデータを選択する
-choose-what-to-sync-option-bookmarks =
-    .label = ブックマーク
-choose-what-to-sync-option-history =
-    .label = 履歴
-choose-what-to-sync-option-passwords =
-    .label = パスワード
-choose-what-to-sync-option-addons =
-    .label = アドオン
-# Refers to 'tabs that are open', not the action
-choose-what-to-sync-option-tabs =
-    .label = 開いているタブ
-choose-what-to-sync-option-prefs =
-    .label = 設定
-choose-what-to-sync-option-addresses =
-    .label = 住所
-choose-what-to-sync-option-paymentmethods =
-    .label = 決済方法
-
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
@@ -885,12 +861,8 @@ tfa-enter-recovery-code-1 =
 
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
-product-promo-monitor-description = 個人情報が漏えいした場所を発見 — そして取り戻します
-product-promo-monitor-plus-description = 重要なプライバシーのために、個人情報が漏えいした場所を発見し、そして取り戻します
 # Links out to the Monitor site
 product-promo-monitor-cta = 無料でスキャン
-# Links out to the Monitor pricing site
-product-promo-monitor-plus-cta = はじめる
 
 ## Profile section
 
@@ -1352,7 +1324,9 @@ pair-unsupported-message = システムカメラを使用しましたか？ { -b
 
 ## SetPassword page
 ## Third party auth users that do not have a password set yet are prompted for a
-## password to complete their sign-in when they want to login to a service requiring it.
+
+
+# password to complete their sign-in when they want to login to a service requiring it.
 
 
 ## ThirdPartyAuthCallback Page
@@ -1605,7 +1579,6 @@ confirm-signup-code-is-required-error = 確認コードが必要です
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
-signup-heading = パスワードを設定
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = メールアドレスを変更
 

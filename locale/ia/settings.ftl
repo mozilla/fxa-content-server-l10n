@@ -82,30 +82,6 @@ choose-newsletters-option-test-pilot =
 choose-newsletters-option-reclaim-the-internet =
     .label = Avisos de action pro reprender le controlo de internet
 
-## ChooseWhatToSync component
-## Checklist of services/information that can be synced across signed in devices
-
-# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
-# That users can choose to sync
-choose-what-to-sync-prompt-2 = Elige lo que synchronisar
-choose-what-to-sync-option-bookmarks =
-    .label = Marcapaginas
-choose-what-to-sync-option-history =
-    .label = Chronologia
-choose-what-to-sync-option-passwords =
-    .label = Contrasignos
-choose-what-to-sync-option-addons =
-    .label = Additivos
-# Refers to 'tabs that are open', not the action
-choose-what-to-sync-option-tabs =
-    .label = Schedas aperte
-choose-what-to-sync-option-prefs =
-    .label = Preferentias
-choose-what-to-sync-option-addresses =
-    .label = Adresses
-choose-what-to-sync-option-paymentmethods =
-    .label = Methodos de pagamento
-
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
@@ -1036,12 +1012,8 @@ tfa-enter-recovery-code-1 =
 
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
-product-promo-monitor-description = Discoperi ubi tu info private es exponite, e recupera los
-product-promo-monitor-plus-description = Le confidentialitate es importante, discoperi ubi tu info private es exponite, e recupera los
 # Links out to the Monitor site
 product-promo-monitor-cta = Obtene un scansion gratuite
-# Links out to the Monitor pricing site
-product-promo-monitor-plus-cta = Comenciar
 
 ## Profile section
 
@@ -1566,10 +1538,10 @@ pair-unsupported-message = Ha tu usate le camera del systema? Tu debe accopular 
 
 ## SetPassword page
 ## Third party auth users that do not have a password set yet are prompted for a
-## password to complete their sign-in when they want to login to a service requiring it.
 
-set-password-heading = Crear contrasigno
-set-password-info = Tu datos synchronisate es cryptate con tu contrasigno pro proteger tu confidentialitate.
+
+# password to complete their sign-in when they want to login to a service requiring it.
+
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
@@ -1947,9 +1919,7 @@ confirm-signup-code-desktop-relay = { -brand-firefox } tentara inviar te retro p
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
-signup-heading = Defini tu contrasigno
 signup-relay-info = Un contrasigno es necesse pro gerer in modo secur tu alias de posta electronic e acceder al instrumentos de securitate de { -brand-mozilla }.
-signup-heading-relay = Crear un contrasigno
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = Perque debe io crear iste conto?
 # Link included in a dismissible info banner that is only displayed to Pocket clients
@@ -1964,8 +1934,5 @@ signup-change-email-link = Cambiar email
 signup-confirmed-sync-header = Synchronisation active
 signup-confirmed-sync-success-banner = { -product-mozilla-account } confirmate
 signup-confirmed-sync-button = Comenciar a navigar
-# Shown when payment methods are also synced
-signup-confirmed-sync-description-with-payment = Tu contrasignos, methodos de pagamento, adresses, marcapaginas, chronologia, e plus pote synchronisar se ubique tu usa { -product-firefox }.
-signup-confirmed-sync-description = Tu contrasignos, adresses, marcapaginas, chronologia, e plus pote synchronisar se ubique tu usa { -product-firefox }.
 signup-confirmed-sync-add-device-link = Adder un altere apparato
 signup-confirmed-sync-manage-sync-button = Gerer synchronisation

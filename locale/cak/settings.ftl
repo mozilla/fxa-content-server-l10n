@@ -23,25 +23,6 @@
 ## Checklist of newsletters that the user can choose to sign up to
 
 
-## ChooseWhatToSync component
-## Checklist of services/information that can be synced across signed in devices
-
-choose-what-to-sync-option-bookmarks =
-    .label = Taq yaketal
-choose-what-to-sync-option-history =
-    .label = Natab'äl
-choose-what-to-sync-option-passwords =
-    .label = Ewan taq tzij
-choose-what-to-sync-option-addons =
-    .label = Taq tz'aqat
-# Refers to 'tabs that are open', not the action
-choose-what-to-sync-option-tabs =
-    .label = Kejaq taq ruwi'
-choose-what-to-sync-option-prefs =
-    .label = Taq ajowab'äl
-choose-what-to-sync-option-addresses =
-    .label = Taq ochochib'äl
-
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
@@ -785,7 +766,9 @@ pair-unsupported-message = ¿La xawokisaj relesäy wachib'äl q'inoj? K'atzinel 
 
 ## SetPassword page
 ## Third party auth users that do not have a password set yet are prompted for a
-## password to complete their sign-in when they want to login to a service requiring it.
+
+
+# password to complete their sign-in when they want to login to a service requiring it.
 
 
 ## ThirdPartyAuthCallback Page

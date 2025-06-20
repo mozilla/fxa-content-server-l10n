@@ -82,30 +82,6 @@ choose-newsletters-option-test-pilot =
 choose-newsletters-option-reclaim-the-internet =
     .label = Invitaziuns ad acziuns per deliberar l’internet
 
-## ChooseWhatToSync component
-## Checklist of services/information that can be synced across signed in devices
-
-# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
-# That users can choose to sync
-choose-what-to-sync-prompt-2 = Tscherna quai che duai vegnir sincronisà
-choose-what-to-sync-option-bookmarks =
-    .label = Segnapaginas
-choose-what-to-sync-option-history =
-    .label = Cronologia
-choose-what-to-sync-option-passwords =
-    .label = Pleds-clav
-choose-what-to-sync-option-addons =
-    .label = Supplements
-# Refers to 'tabs that are open', not the action
-choose-what-to-sync-option-tabs =
-    .label = Tabs averts
-choose-what-to-sync-option-prefs =
-    .label = Preferenzas
-choose-what-to-sync-option-addresses =
-    .label = Adressas
-choose-what-to-sync-option-paymentmethods =
-    .label = Metodas da pajament
-
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
@@ -990,12 +966,8 @@ tfa-enter-recovery-code-1 =
 
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
-product-promo-monitor-description = Ve a savair nua che tias infurmaziuns privatas èn vegnidas expostas – e reprenda la controlla
-product-promo-monitor-plus-description = La protecziun da tias datas è impurtanta: Ve a savair nua che tias infurmaziuns privatas èn vegnidas expostas e reprenda la controlla
 # Links out to the Monitor site
 product-promo-monitor-cta = Fa in scan gratuit
-# Links out to the Monitor pricing site
-product-promo-monitor-plus-cta = Emprims pass
 
 ## Profile section
 
@@ -1518,10 +1490,10 @@ pair-unsupported-message = Has ti utilisà la camera dal sistem? Ti stos associa
 
 ## SetPassword page
 ## Third party auth users that do not have a password set yet are prompted for a
-## password to complete their sign-in when they want to login to a service requiring it.
 
-set-password-heading = Crear in pled-clav
-set-password-info = Tias datas sincronisadas èn criptadas cun tes pled-clav per proteger tia sfera privata.
+
+# password to complete their sign-in when they want to login to a service requiring it.
+
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
@@ -1861,9 +1833,7 @@ confirm-signup-code-desktop-relay = { -brand-firefox } vegn ad empruvar da ta re
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
-signup-heading = Definescha tes pled-clav
 signup-relay-info = In pled-clav è necessari per administrar a moda segira tes e-mails cun alias e per pudair acceder als utensils da segirezza da { -brand-mozilla }.
-signup-heading-relay = Crear in pled-clav
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = Pertge stoss jau crear quest conto?
 # Link included in a dismissible info banner that is only displayed to Pocket clients

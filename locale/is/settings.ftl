@@ -82,30 +82,6 @@ choose-newsletters-option-test-pilot =
 choose-newsletters-option-reclaim-the-internet =
     .label = Aðvaranir um aðgerðir til að endurheimta internetið
 
-## ChooseWhatToSync component
-## Checklist of services/information that can be synced across signed in devices
-
-# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
-# That users can choose to sync
-choose-what-to-sync-prompt-2 = Veldu hvað á að samstilla
-choose-what-to-sync-option-bookmarks =
-    .label = Bókamerki
-choose-what-to-sync-option-history =
-    .label = Feril
-choose-what-to-sync-option-passwords =
-    .label = Lykilorð
-choose-what-to-sync-option-addons =
-    .label = Viðbætur
-# Refers to 'tabs that are open', not the action
-choose-what-to-sync-option-tabs =
-    .label = Opna flipa
-choose-what-to-sync-option-prefs =
-    .label = Kjörstillingar
-choose-what-to-sync-option-addresses =
-    .label = Tölvupóstföng
-choose-what-to-sync-option-paymentmethods =
-    .label = Greiðslumátar
-
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
@@ -1006,12 +982,8 @@ tfa-enter-recovery-code-1 =
 
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
-product-promo-monitor-description = Sjáðu hvar einkaupplýsingarnar þínar eru afhjúpaðar - og taktu þær aftur
-product-promo-monitor-plus-description = Persónuvernd skiptir máli: Finndu hvar einkaupplýsingarnar þínar eru afhjúpaðar og taktu þær til baka
 # Links out to the Monitor site
 product-promo-monitor-cta = Fáðu fría yfirferð
-# Links out to the Monitor pricing site
-product-promo-monitor-plus-cta = Hefjumst handa
 
 ## Profile section
 
@@ -1534,10 +1506,10 @@ pair-unsupported-message = Notaðirðu myndavél stýrikerfisins? Þú verður a
 
 ## SetPassword page
 ## Third party auth users that do not have a password set yet are prompted for a
-## password to complete their sign-in when they want to login to a service requiring it.
 
-set-password-heading = Búa til lykilorð
-set-password-info = Samstillingargögnin þín eru dulrituð með lykilorðinu þínu til að vernda friðhelgi þína.
+
+# password to complete their sign-in when they want to login to a service requiring it.
+
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
@@ -1884,9 +1856,7 @@ confirm-signup-code-desktop-relay = { -brand-firefox } mun reyna að senda þig 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
-signup-heading = Stilltu lykilorðið þitt
 signup-relay-info = Lykilorð er nauðsynlegt til að stýra huldum póstföngum þínum á öruggan hátt og fá aðgang að öryggisverkfærum { -brand-mozilla }.
-signup-heading-relay = Búðu til lykilorð
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = Af hverju þarf ég að búa til þennan reikning?
 # Link included in a dismissible info banner that is only displayed to Pocket clients

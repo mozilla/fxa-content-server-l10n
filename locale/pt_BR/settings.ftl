@@ -82,30 +82,6 @@ choose-newsletters-option-test-pilot =
 choose-newsletters-option-reclaim-the-internet =
     .label = Avisos de ações para recuperar o controle da internet
 
-## ChooseWhatToSync component
-## Checklist of services/information that can be synced across signed in devices
-
-# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
-# That users can choose to sync
-choose-what-to-sync-prompt-2 = Escolha o que sincronizar
-choose-what-to-sync-option-bookmarks =
-    .label = Favoritos
-choose-what-to-sync-option-history =
-    .label = Histórico
-choose-what-to-sync-option-passwords =
-    .label = Senhas
-choose-what-to-sync-option-addons =
-    .label = Extensões
-# Refers to 'tabs that are open', not the action
-choose-what-to-sync-option-tabs =
-    .label = Abas abertas
-choose-what-to-sync-option-prefs =
-    .label = Preferências
-choose-what-to-sync-option-addresses =
-    .label = Endereços
-choose-what-to-sync-option-paymentmethods =
-    .label = Métodos de pagamento
-
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
@@ -980,12 +956,8 @@ tfa-enter-recovery-code-1 =
 
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
-product-promo-monitor-description = Descubra onde suas informações privativas estão expostas e recupere o controle sobre elas
-product-promo-monitor-plus-description = Privacidade é importante: Descubra onde suas informações privativas estão expostas e recupere o controle sobre elas
 # Links out to the Monitor site
 product-promo-monitor-cta = Obtenha uma verificação gratuita
-# Links out to the Monitor pricing site
-product-promo-monitor-plus-cta = Iniciar
 
 ## Profile section
 
@@ -1499,10 +1471,10 @@ pair-unsupported-message = Você usou a câmera do sistema? Você deve conectar 
 
 ## SetPassword page
 ## Third party auth users that do not have a password set yet are prompted for a
-## password to complete their sign-in when they want to login to a service requiring it.
 
-set-password-heading = Criar senha
-set-password-info = Os dados sincronizados são criptografados com sua senha para proteger sua privacidade.
+
+# password to complete their sign-in when they want to login to a service requiring it.
+
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
@@ -1862,9 +1834,7 @@ confirm-signup-code-desktop-relay = O { -brand-firefox } irá tentar redireciona
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
-signup-heading = Defina sua senha
 signup-relay-info = É necessária uma senha para gerenciar de forma segura suas máscaras de email e acessar as ferramentas de segurança da { -brand-mozilla }.
-signup-heading-relay = Crie uma senha
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = Por que preciso criar esta conta?
 # Link included in a dismissible info banner that is only displayed to Pocket clients

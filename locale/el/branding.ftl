@@ -22,20 +22,20 @@
 # "Firefox accounts" refers to the service
 -product-firefox-accounts =
     { $case ->
-       *[nom]
-            { $capitalization ->
-               *[upper] Λογαριασμοί Firefox
-                [lower] λογαριασμοί Firefox
-            }
         [gen]
             { $capitalization ->
-               *[upper] Λογαριασμών Firefox
                 [lower] λογαριασμών Firefox
+               *[upper] Λογαριασμών Firefox
             }
         [acc]
             { $capitalization ->
-               *[upper] Λογαριασμούς Firefox
                 [lower] λογαριασμούς Firefox
+               *[upper] Λογαριασμούς Firefox
+            }
+       *[nom]
+            { $capitalization ->
+                [lower] λογαριασμοί Firefox
+               *[upper] Λογαριασμοί Firefox
             }
     }
 # "account" can and should be localized, "Mozilla" must be treated as a brand. Singular "Mozilla account" should be used in most cases.
@@ -81,20 +81,20 @@
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account =
     { $case ->
-       *[nom]
-            { $capitalization ->
-               *[upper] Λογαριασμός Firefox
-                [lower] λογαριασμός Firefox
-            }
         [gen]
             { $capitalization ->
-               *[upper] Λογαριασμού Firefox
                 [lower] λογαριασμού Firefox
+               *[upper] Λογαριασμού Firefox
             }
         [acc]
             { $capitalization ->
-               *[upper] Λογαριασμό Firefox
                 [lower] λογαριασμό Firefox
+               *[upper] Λογαριασμό Firefox
+            }
+       *[nom]
+            { $capitalization ->
+                [lower] λογαριασμός Firefox
+               *[upper] Λογαριασμός Firefox
             }
     }
 -product-mozilla-vpn = Mozilla VPN

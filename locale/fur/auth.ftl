@@ -416,12 +416,8 @@ postAddRecoveryPhone-how-protect = Cemût che al jude a protezi il to account
 postAddRecoveryPhone-how-protect-plaintext = Cemût che al jude a protezi il to account:
 postAddRecoveryPhone-enabled-device = Tu le âs ativade di:
 postAddRecoveryPhone-action = Gjestìs account
-postAddTwoStepAuthentication-subject-2 = Autenticazion in doi passaçs ativade
 postAddTwoStepAuthentication-title-2 = Tu âs ativât la autenticazion in doi passaçs
-# After the colon, there is a description of the device that the user used to enable two-step authentication
-postAddTwoStepAuthentication-from-device = Tu le âs ativade di:
 postAddTwoStepAuthentication-action = Gjestìs account
-postAddTwoStepAuthentication-code-required-2 = Di ca indenant ogni volte che tu jentris ti vignaran domandâts i codiçs gjenerâts de aplicazion di autenticazion.
 postChangeAccountRecovery-subject = Clâf di recupar dal account cambiade
 postChangeAccountRecovery-title = Tu âs modificât la clâf di recupar dal account
 postChangeAccountRecovery-body-part1 = Cumò tu âs une gnove clâf di recupar dal account. La clâf di prime e je stade eliminade.

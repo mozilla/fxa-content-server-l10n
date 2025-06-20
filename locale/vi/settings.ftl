@@ -82,30 +82,6 @@ choose-newsletters-option-test-pilot =
 choose-newsletters-option-reclaim-the-internet =
     .label = Cảnh báo hành động để lấy lại môi trường trực tuyến
 
-## ChooseWhatToSync component
-## Checklist of services/information that can be synced across signed in devices
-
-# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
-# That users can choose to sync
-choose-what-to-sync-prompt-2 = Chọn những gì để đồng bộ hóa
-choose-what-to-sync-option-bookmarks =
-    .label = Dấu trang
-choose-what-to-sync-option-history =
-    .label = Lịch sử
-choose-what-to-sync-option-passwords =
-    .label = Mật khẩu
-choose-what-to-sync-option-addons =
-    .label = Tiện ích
-# Refers to 'tabs that are open', not the action
-choose-what-to-sync-option-tabs =
-    .label = Các thẻ đang mở
-choose-what-to-sync-option-prefs =
-    .label = Tùy chỉnh
-choose-what-to-sync-option-addresses =
-    .label = Địa chỉ
-choose-what-to-sync-option-paymentmethods =
-    .label = Phương thức thanh toán
-
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
@@ -1037,12 +1013,8 @@ tfa-enter-recovery-code-1 =
 
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
-product-promo-monitor-description = Tìm hiểu xem thông tin cá nhân của bạn bị lộ ở đâu — và lấy lại thông tin đó
-product-promo-monitor-plus-description = Vấn đề riêng tư: Tìm hiểu xem thông tin cá nhân của bạn bị lộ ở đâu và lấy lại thông tin đó
 # Links out to the Monitor site
 product-promo-monitor-cta = Quét miễn phí
-# Links out to the Monitor pricing site
-product-promo-monitor-plus-cta = Bắt đầu
 
 ## Profile section
 
@@ -1560,10 +1532,10 @@ pair-unsupported-message = Bạn đã sử dụng máy ảnh hệ thống? Bạn
 
 ## SetPassword page
 ## Third party auth users that do not have a password set yet are prompted for a
-## password to complete their sign-in when they want to login to a service requiring it.
 
-set-password-heading = Tạo mật khẩu
-set-password-info = Dữ liệu đồng bộ hóa của bạn được mã hóa bằng mật khẩu để bảo vệ quyền riêng tư của bạn.
+
+# password to complete their sign-in when they want to login to a service requiring it.
+
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
@@ -1938,9 +1910,7 @@ confirm-signup-code-desktop-relay = { -brand-firefox } sẽ điều hướng b�
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
-signup-heading = Đặt mật khẩu của bạn
 signup-relay-info = Cần có mật khẩu để quản lý an toàn các email ẩn danh và quyền truy cập vào các công cụ bảo mật của { -brand-mozilla } của bạn.
-signup-heading-relay = Tạo một mật khẩu
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = Tại sao tôi cần tạo tài khoản này?
 # Link included in a dismissible info banner that is only displayed to Pocket clients
@@ -1955,8 +1925,5 @@ signup-change-email-link = Thay đổi email
 signup-confirmed-sync-header = Đồng bộ hoá đang được bật
 signup-confirmed-sync-success-banner = Đã xác nhận { -product-mozilla-account }
 signup-confirmed-sync-button = Bắt đầu duyệt web
-# Shown when payment methods are also synced
-signup-confirmed-sync-description-with-payment = Mật khẩu, phương thức thanh toán, địa chỉ, dấu trang, lịch sử và nhiều thông tin khác của bạn có thể đồng bộ hóa ở mọi nơi bạn sử dụng { -product-firefox }.
-signup-confirmed-sync-description = Mật khẩu, địa chỉ, dấu trang, lịch sử và nhiều thông tin khác của bạn có thể đồng bộ hóa ở mọi nơi bạn sử dụng { -product-firefox }.
 signup-confirmed-sync-add-device-link = Thêm thiết bị khác
 signup-confirmed-sync-manage-sync-button = Quản lý đồng bộ hoá

@@ -28,25 +28,6 @@ recovery-key-download-button-v3 = Преузми и настави
 ## Checklist of newsletters that the user can choose to sign up to
 
 
-## ChooseWhatToSync component
-## Checklist of services/information that can be synced across signed in devices
-
-choose-what-to-sync-option-bookmarks =
-    .label = Обележивачи
-choose-what-to-sync-option-history =
-    .label = Историју
-choose-what-to-sync-option-passwords =
-    .label = Лозинке
-choose-what-to-sync-option-addons =
-    .label = Додатке
-# Refers to 'tabs that are open', not the action
-choose-what-to-sync-option-tabs =
-    .label = Отворене картице
-choose-what-to-sync-option-prefs =
-    .label = Поставке
-choose-what-to-sync-option-addresses =
-    .label = Адресе
-
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
@@ -1073,7 +1054,9 @@ pair-unsupported-message = Да ли сте користили системск�
 
 ## SetPassword page
 ## Third party auth users that do not have a password set yet are prompted for a
-## password to complete their sign-in when they want to login to a service requiring it.
+
+
+# password to complete their sign-in when they want to login to a service requiring it.
 
 
 ## ThirdPartyAuthCallback Page
@@ -1239,7 +1222,6 @@ confirm-signup-code-is-required-error = Потребан је код за пот
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
-signup-heading = Поставите лозинку
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Промени е-пошту
 

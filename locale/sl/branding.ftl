@@ -18,21 +18,21 @@
 # Firefox and Mozilla Brand
 -brand-mozilla =
     { $sklon ->
-       *[imenovalnik] Mozilla
         [rodilnik] Mozille
         [dajalnik] Mozilli
         [tozilnik] Mozillo
         [mestnik] Mozilli
         [orodnik] Mozillo
+       *[imenovalnik] Mozilla
     }
 -brand-firefox =
     { $sklon ->
-       *[imenovalnik] Firefox
         [rodilnik] Firefoxa
         [dajalnik] Firefoxu
         [tozilnik] Firefox
         [mestnik] Firefoxu
         [orodnik] Firefoxom
+       *[imenovalnik] Firefox
     }
 # "accounts" can be localized and should be lowercase, "Firefox" must be treated as a brand.
 # "Firefox accounts" refers to the service

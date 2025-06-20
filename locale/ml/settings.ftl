@@ -65,30 +65,6 @@ recovery-key-pdf-download-error = അക്കൌണ്ടു് വീണ്ട
 # Prompt above a checklist of newsletters
 choose-newsletters-prompt-2 = { -brand-mozilla }-ൽ നിന്നു് ഇനിയും നേടുക
 
-## ChooseWhatToSync component
-## Checklist of services/information that can be synced across signed in devices
-
-# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
-# That users can choose to sync
-choose-what-to-sync-prompt-2 = എന്തൊക്കെയാണു് സമന്വയിപ്പിക്കേണ്ടതെന്നു് തിരഞ്ഞെടുക്കുക
-choose-what-to-sync-option-bookmarks =
-    .label = അടയാളക്കുറിപ്പുകള്‍
-choose-what-to-sync-option-history =
-    .label = നാള്‍വഴി
-choose-what-to-sync-option-passwords =
-    .label = ഒളിവാക്കുകൾ
-choose-what-to-sync-option-addons =
-    .label = ആഡ്-ഓണുകള്‍
-# Refers to 'tabs that are open', not the action
-choose-what-to-sync-option-tabs =
-    .label = തുറന്ന ടാബുകള്‍
-choose-what-to-sync-option-prefs =
-    .label = മുന്‍ഗണനകള്‍
-choose-what-to-sync-option-addresses =
-    .label = വിലാസങ്ങള്‍
-choose-what-to-sync-option-paymentmethods =
-    .label = പണമടക്കൽ മുറകൾ
-
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
@@ -655,8 +631,6 @@ tfa-button-cant-scan-qr = സങ്കേതം പരിശോധിക്ക�
 
 ## Product promotion
 
-# Links out to the Monitor pricing site
-product-promo-monitor-plus-cta = ഉപയോഗിക്കാൻ തുടങ്ങുക
 
 ## Profile section
 
@@ -850,7 +824,9 @@ pair-success-header-2 = ഉപകരണം ബന്ധിപ്പിച്ച�
 
 ## SetPassword page
 ## Third party auth users that do not have a password set yet are prompted for a
-## password to complete their sign-in when they want to login to a service requiring it.
+
+
+# password to complete their sign-in when they want to login to a service requiring it.
 
 
 ## ThirdPartyAuthCallback Page
@@ -1006,8 +982,6 @@ signin-unblock-submit-button = തുടരുക
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
-signup-heading = ഒളിവാക്കു് വയ്ക്കുക
-signup-heading-relay = ഒളിവാക്കു് ഉണ്ടാക്കുക
 # Link included in a dismissible info banner that is only displayed to Pocket clients
 # Link leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
 signup-pocket-info-banner-link = ഇവിടെ കണ്ടെത്തുക

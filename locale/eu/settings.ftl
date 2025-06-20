@@ -82,30 +82,6 @@ choose-newsletters-option-test-pilot =
 choose-newsletters-option-reclaim-the-internet =
     .label = Ekintza alertak Internet berreskuratzeko
 
-## ChooseWhatToSync component
-## Checklist of services/information that can be synced across signed in devices
-
-# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
-# That users can choose to sync
-choose-what-to-sync-prompt-2 = Aukeratu zer sinkronizatu
-choose-what-to-sync-option-bookmarks =
-    .label = Laster-markak
-choose-what-to-sync-option-history =
-    .label = Historia
-choose-what-to-sync-option-passwords =
-    .label = Pasahitzak
-choose-what-to-sync-option-addons =
-    .label = Gehigarriak
-# Refers to 'tabs that are open', not the action
-choose-what-to-sync-option-tabs =
-    .label = Irekitako fitxak
-choose-what-to-sync-option-prefs =
-    .label = Hobespenak
-choose-what-to-sync-option-addresses =
-    .label = Helbideak
-choose-what-to-sync-option-paymentmethods =
-    .label = Ordainketa metodoak
-
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
@@ -990,12 +966,8 @@ tfa-enter-recovery-code-1 =
 
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
-product-promo-monitor-description = Aurkitu zure informazio pribatua non agertzen den, eta itzuli
-product-promo-monitor-plus-description = Pribatutasunak axola du: aurkitu zure informazio pribatua non azaltzen den eta itzuli
 # Links out to the Monitor site
 product-promo-monitor-cta = Lortu eskaneatzea doan
-# Links out to the Monitor pricing site
-product-promo-monitor-plus-cta = Hasi erabiltzen
 
 ## Profile section
 
@@ -1516,10 +1488,10 @@ pair-unsupported-message = Sistemako kamera darabilzu? { -brand-firefox } aplika
 
 ## SetPassword page
 ## Third party auth users that do not have a password set yet are prompted for a
-## password to complete their sign-in when they want to login to a service requiring it.
 
-set-password-heading = Sortu pasahitza
-set-password-info = Zure sinkronizazio-datuak zure pasahitzarekin enkriptatuta daude zure pribatutasuna babesteko.
+
+# password to complete their sign-in when they want to login to a service requiring it.
+
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
@@ -1859,9 +1831,7 @@ confirm-signup-code-desktop-relay = { -brand-firefox } saioa hasi ondoren posta 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
-signup-heading = Ezarri zure pasahitza
 signup-relay-info = Pasahitz bat behar da maskaratutako mezu elektronikoak modu seguruan kudeatzeko eta { -brand-mozilla }-ren segurtasun-tresnetara atzitzeko.
-signup-heading-relay = Sortu pasahitz bat
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = Zergatik sortu behar dut kontu hau?
 # Link included in a dismissible info banner that is only displayed to Pocket clients

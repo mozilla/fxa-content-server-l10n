@@ -82,30 +82,6 @@ choose-newsletters-option-test-pilot =
 choose-newsletters-option-reclaim-the-internet =
     .label = Ειδοποιήσεις για δράσεις που αφορούν την ανάκτηση του ελέγχου του διαδικτύου
 
-## ChooseWhatToSync component
-## Checklist of services/information that can be synced across signed in devices
-
-# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
-# That users can choose to sync
-choose-what-to-sync-prompt-2 = Επιλέξτε τι θα συγχρονίζεται
-choose-what-to-sync-option-bookmarks =
-    .label = Σελιδοδείκτες
-choose-what-to-sync-option-history =
-    .label = Ιστορικό
-choose-what-to-sync-option-passwords =
-    .label = Κωδικοί πρόσβασης
-choose-what-to-sync-option-addons =
-    .label = Πρόσθετα
-# Refers to 'tabs that are open', not the action
-choose-what-to-sync-option-tabs =
-    .label = Ανοικτές καρτέλες
-choose-what-to-sync-option-prefs =
-    .label = Προτιμήσεις
-choose-what-to-sync-option-addresses =
-    .label = Διευθύνσεις
-choose-what-to-sync-option-paymentmethods =
-    .label = Μέθοδοι πληρωμής
-
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
@@ -1040,12 +1016,8 @@ tfa-enter-recovery-code-1 =
 
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
-product-promo-monitor-description = Μάθετε πού εκτίθενται τα προσωπικά σας δεδομένα και ανακτήστε τα
-product-promo-monitor-plus-description = Το απόρρητό σας είναι σημαντικό: Μάθετε πού εκτίθενται τα προσωπικά σας δεδομένα και ανακτήστε τα
 # Links out to the Monitor site
 product-promo-monitor-cta = Δωρεάν σάρωση
-# Links out to the Monitor pricing site
-product-promo-monitor-plus-cta = Έναρξη
 
 ## Profile section
 
@@ -1569,10 +1541,10 @@ pair-unsupported-message = Χρησιμοποιήσατε την κάμερα σ
 
 ## SetPassword page
 ## Third party auth users that do not have a password set yet are prompted for a
-## password to complete their sign-in when they want to login to a service requiring it.
 
-set-password-heading = Δημιουργία κωδικού πρόσβασης
-set-password-info = Τα δεδομένα συγχρονισμού κρυπτογραφούνται με τον κωδικό πρόσβασής σας για την προστασία του απορρήτου σας.
+
+# password to complete their sign-in when they want to login to a service requiring it.
+
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
@@ -1955,9 +1927,7 @@ confirm-signup-code-desktop-relay = Το { -brand-firefox } θα προσπαθ�
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
-signup-heading = Ορισμός κωδικού πρόσβασης
 signup-relay-info = Απαιτείται ένας κωδικός πρόσβασης για τη διαχείριση των μασκών email σας και την πρόσβαση στα εργαλεία ασφαλείας της { -brand-mozilla }.
-signup-heading-relay = Δημιουργία κωδικού πρόσβασης
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = Γιατί πρέπει να δημιουργήσω αυτόν τον λογαριασμό;
 # Link included in a dismissible info banner that is only displayed to Pocket clients
@@ -1972,8 +1942,5 @@ signup-change-email-link = Αλλαγή email
 signup-confirmed-sync-header = Ο συγχρονισμός είναι ενεργός
 signup-confirmed-sync-success-banner = Ο { -product-mozilla-account(case: "nom", capitalization: "lower") } επιβεβαιώθηκε
 signup-confirmed-sync-button = Έναρξη περιήγησης
-# Shown when payment methods are also synced
-signup-confirmed-sync-description-with-payment = Οι κωδικοί πρόσβασης, οι μέθοδοι πληρωμής, οι διευθύνσεις, οι σελιδοδείκτες, το ιστορικό σας και πολλά άλλα μπορούν να συγχρονίζονται σε όποια συσκευή χρησιμοποιείτε το { -product-firefox }.
-signup-confirmed-sync-description = Οι κωδικοί πρόσβασης, οι διευθύνσεις, οι σελιδοδείκτες, το ιστορικό σας και πολλά άλλα μπορούν να συγχρονίζονται σε όποια συσκευή χρησιμοποιείτε το { -product-firefox }.
 signup-confirmed-sync-add-device-link = Προσθήκη άλλης συσκευής
 signup-confirmed-sync-manage-sync-button = Διαχείριση συγχρονισμού

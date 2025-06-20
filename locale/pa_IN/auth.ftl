@@ -365,12 +365,8 @@ postAddRecoveryPhone-how-protect = ਇਹ ਤੁਹਾਡੇ ਖਾਤੇ ਨੂ
 postAddRecoveryPhone-how-protect-plaintext = ਇਹ ਤੁਹਾਡੇ ਖਾਤੇ ਨੂੰ ਸੁਰੱਖਿਅਤ ਕਿਵੇਂ ਕਰਦਾ ਹੈ:
 postAddRecoveryPhone-enabled-device = ਤੁਸੀ ਇਸ ਨੂੰ ਇੱਥੋਂ ਸਮਰੱਥ ਕੀਤਾ:
 postAddRecoveryPhone-action = ਖਾਤੇ ਦਾ ਇੰਤਜ਼ਾਮ ਕਰੋ
-postAddTwoStepAuthentication-subject-2 = ਦੋ-ਪੜਾਵੀਂ ਪਰਮਾਣੀਕਰਨ ਚਾਲੂ ਕੀਤੀ ਹੈ
 postAddTwoStepAuthentication-title-2 = ਤੁਸੀਂ ਦੋ-ਪੜ੍ਹਾਵੀਂ ਪਰਮਾਣੀਕਰਨ ਚਾਲੂ ਕੀਤੀ
-# After the colon, there is a description of the device that the user used to enable two-step authentication
-postAddTwoStepAuthentication-from-device = ਤੁਸੀ ਇਸ ਨੂੰ ਇੱਥੋਂ ਸਮਰੱਥ ਕੀਤਾ:
 postAddTwoStepAuthentication-action = ਖਾਤੇ ਦਾ ਇੰਤਜ਼ਾਮ ਕਰੋ
-postAddTwoStepAuthentication-code-required-2 = ਜਦੋਂ ਵੀ ਤੁਸੀਂ ਸਾਈਨ ਇਨ ਕਰੋਗੇ ਤਾਂ ਤੁਹਾਨੂੰ ਆਪਣੀ ਪ੍ਰਮਾਣਕਿਤਾ ਐਪ ਤੋਂ ਸੁਰੱਖਿਆ ਕੋਡ ਭਰਨੇ ਪੈਣਗੇ।
 postChangeAccountRecovery-subject = ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਬਦਲੀ ਗਈ
 postChangeAccountRecovery-title = ਤੁਸੀਂ ਆਪਣੀ ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਨੂੰ ਬਦਲਿਆ ਹੈ
 postChangeAccountRecovery-body-part1 = ਤੁਹਾਡੇ ਕੋਲ ਨਵੀਂ ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਹੈ। ਤੁਹਾਡੀ ਪੁਰਾਣੀ ਕੁੰਜੀ ਨੂੰ ਹਟਾਇਆ ਗਿਆ ਹੈ।

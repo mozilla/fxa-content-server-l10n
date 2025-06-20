@@ -342,10 +342,7 @@ postAddRecoveryPhone-how-protect = Amek ara yemmesten waya amiḍan-ik⋅im
 postAddRecoveryPhone-how-protect-plaintext = Amek ara yemmesten waya amiḍan-ik⋅im:
 postAddRecoveryPhone-enabled-device = Tremdeḍ-t-d seg:
 postAddRecoveryPhone-action = Sefrek amiḍan
-postAddTwoStepAuthentication-subject-2 = Asesteb s snat n tarrayin yettwarmed
 postAddTwoStepAuthentication-title-2 = Tremseḍ asesteb s snat tarrayin
-# After the colon, there is a description of the device that the user used to enable two-step authentication
-postAddTwoStepAuthentication-from-device = Tremdeḍ-t-d seg:
 postAddTwoStepAuthentication-action = Sefrek amiḍan
 postChangeAccountRecovery-subject = Tasarut n tririt n umiḍan tbeddel
 postChangeAccountRecovery-title = Tbeddleḍ tasarut-ik·im n tririt n umiḍani tamaynut

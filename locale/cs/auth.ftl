@@ -416,12 +416,8 @@ postAddRecoveryPhone-how-protect = Jak tato funkce chrání váš účet
 postAddRecoveryPhone-how-protect-plaintext = Jak tato nastavení chrání váš účet:
 postAddRecoveryPhone-enabled-device = Povolili jste ho z:
 postAddRecoveryPhone-action = Správa účtu
-postAddTwoStepAuthentication-subject-2 = Dvoufázové ověření je zapnuto
 postAddTwoStepAuthentication-title-2 = Zapnuli jste dvoufázové ověření
-# After the colon, there is a description of the device that the user used to enable two-step authentication
-postAddTwoStepAuthentication-from-device = Povolili jste ho z:
 postAddTwoStepAuthentication-action = Správa účtu
-postAddTwoStepAuthentication-code-required-2 = Při každém přihlášení teď bude nutné zadat bezpečnostní kód z vaší ověřovací aplikace.
 postChangeAccountRecovery-subject = Obnovovací klíč k účtu byl změněn
 postChangeAccountRecovery-title = Změnili jste svůj obnovovací klíč k účtu
 postChangeAccountRecovery-body-part1 = Nyní máte nový obnovovací klíč k účtu. Váš předchozí klíč byl smazán.

@@ -52,30 +52,6 @@ recovery-key-pdf-key-legend = Tasarut n tririt n umiḍan
 # Prompt above a checklist of newsletters
 choose-newsletters-prompt-2 = Awi ugar seg { -brand-mozilla }:
 
-## ChooseWhatToSync component
-## Checklist of services/information that can be synced across signed in devices
-
-# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
-# That users can choose to sync
-choose-what-to-sync-prompt-2 = Fren ayen ara temtawiḍ
-choose-what-to-sync-option-bookmarks =
-    .label = Ticraḍ n isebtar
-choose-what-to-sync-option-history =
-    .label = Amazray
-choose-what-to-sync-option-passwords =
-    .label = Awalen uffiren
-choose-what-to-sync-option-addons =
-    .label = Izegrar
-# Refers to 'tabs that are open', not the action
-choose-what-to-sync-option-tabs =
-    .label = Ldi iccaren
-choose-what-to-sync-option-prefs =
-    .label = Ismenyifen
-choose-what-to-sync-option-addresses =
-    .label = Tansiwin
-choose-what-to-sync-option-paymentmethods =
-    .label = Tarrayin n uxelleṣ
-
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
@@ -730,8 +706,6 @@ tfa-enter-recovery-code-1 =
 
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
-# Links out to the Monitor pricing site
-product-promo-monitor-plus-cta = Bdu
 
 ## Profile section
 
@@ -1077,9 +1051,10 @@ pair-unsupported-header = Cudd s usnas
 
 ## SetPassword page
 ## Third party auth users that do not have a password set yet are prompted for a
-## password to complete their sign-in when they want to login to a service requiring it.
 
-set-password-heading = Snulfu-d awal n uɛeddi
+
+# password to complete their sign-in when they want to login to a service requiring it.
+
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
@@ -1266,8 +1241,6 @@ confirm-signup-code-is-required-error = Tangalt n usentem tettwasra
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
-signup-heading = Sbadu awal uffir-ik
-signup-heading-relay = Snulfu-d awal n uɛeddi
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = Acuɣer i ilaq ad d-snulfuɣ amiḍan-a?
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address

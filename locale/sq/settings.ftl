@@ -82,30 +82,6 @@ choose-newsletters-option-test-pilot =
 choose-newsletters-option-reclaim-the-internet =
     .label = Thirrje për veprim për të rifituar internetin
 
-## ChooseWhatToSync component
-## Checklist of services/information that can be synced across signed in devices
-
-# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
-# That users can choose to sync
-choose-what-to-sync-prompt-2 = Zgjidhni çfarë të njëkohësohet
-choose-what-to-sync-option-bookmarks =
-    .label = Faqerojtës
-choose-what-to-sync-option-history =
-    .label = Historik
-choose-what-to-sync-option-passwords =
-    .label = Fjalëkalime
-choose-what-to-sync-option-addons =
-    .label = Shtesa
-# Refers to 'tabs that are open', not the action
-choose-what-to-sync-option-tabs =
-    .label = Skeda të Hapura
-choose-what-to-sync-option-prefs =
-    .label = Parapëlqime
-choose-what-to-sync-option-addresses =
-    .label = Adresa
-choose-what-to-sync-option-paymentmethods =
-    .label = Metoda Pagese
-
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
@@ -982,12 +958,8 @@ tfa-enter-recovery-code-1 =
 
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
-product-promo-monitor-description = Gjeni se ku është ekspozuar informacion i juaji privat — dhe rimerreni
-product-promo-monitor-plus-description = Privatësi Ka Rëndësi: Gjeni se ku është ekspozuar informacion i juaji privat dhe rimerreni
 # Links out to the Monitor site
 product-promo-monitor-cta = Përfitoni kontroll falas
-# Links out to the Monitor pricing site
-product-promo-monitor-plus-cta = Fillojani
 
 ## Profile section
 
@@ -1511,10 +1483,10 @@ pair-unsupported-message = Përdorët kamerën e sistemit? Duhet të bëni çift
 
 ## SetPassword page
 ## Third party auth users that do not have a password set yet are prompted for a
-## password to complete their sign-in when they want to login to a service requiring it.
 
-set-password-heading = Krijoni fjalëkalim
-set-password-info = Që të mbrohet privatësia juaj, të dhënat tuaja të njëkohësimit fshehtëzohen me fjalëkalimin tuaj.
+
+# password to complete their sign-in when they want to login to a service requiring it.
+
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
@@ -1854,9 +1826,7 @@ confirm-signup-code-desktop-relay = Pasi të bëni hyrjen në llogari, { -brand-
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
-signup-heading = Caktoni fjalëkalimin tuaj
 signup-relay-info = A password is needed Që të administroni në mënyrë të siguruar email-et tuaj të maskuar dhe të përdorni mjete sigurie { -brand-mozilla }, lypset një fjalëkalim.
-signup-heading-relay = Krijoni fjalëkalim
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = Pse më duhet të krijoj një llogari?
 # Link included in a dismissible info banner that is only displayed to Pocket clients

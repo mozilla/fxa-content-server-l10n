@@ -416,12 +416,8 @@ postAddRecoveryPhone-how-protect = Kako to ščiti vaš račun
 postAddRecoveryPhone-how-protect-plaintext = Kako to ščiti vaš račun:
 postAddRecoveryPhone-enabled-device = Omogočili ste jo z naslednje naprave:
 postAddRecoveryPhone-action = Upravljanje računa
-postAddTwoStepAuthentication-subject-2 = Overitev v dveh korakih vklopljena
 postAddTwoStepAuthentication-title-2 = Vklopili ste overitev v dveh korakih
-# After the colon, there is a description of the device that the user used to enable two-step authentication
-postAddTwoStepAuthentication-from-device = Omogočili ste jo z naslednje naprave:
 postAddTwoStepAuthentication-action = Upravljanje računa
-postAddTwoStepAuthentication-code-required-2 = Varnostne kode iz vaše aplikacije za overitev so odslej zahtevane ob vsaki prijavi.
 postChangeAccountRecovery-subject = Ključ za obnovitev računa spremenjen
 postChangeAccountRecovery-title = Spremenili ste ključ za obnovitev računa
 postChangeAccountRecovery-body-part1 = Zdaj imate nov ključ za obnovitev računa. Vaš prejšnji ključ je bil izbrisan.

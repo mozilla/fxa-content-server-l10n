@@ -22,8 +22,8 @@
 # "Firefox accounts" refers to the service
 -product-firefox-accounts =
     { $capitalization ->
-       *[lowercase] comptes Firefox
         [uppercase] Comptes Firefox
+       *[lowercase] comptes Firefox
     }
 # "account" can and should be localized, "Mozilla" must be treated as a brand. Singular "Mozilla account" should be used in most cases.
 -product-mozilla-account =
@@ -42,8 +42,8 @@
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account =
     { $capitalization ->
-       *[lowercase] compte Firefox
         [uppercase] Compte Firefox
+       *[lowercase] compte Firefox
     }
 -product-mozilla-vpn = Mozilla VPN
 -product-mozilla-hubs = Mozilla Hubs

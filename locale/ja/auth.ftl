@@ -385,12 +385,8 @@ postAddRecoveryPhone-how-protect = アカウント保護に役立つ理由
 postAddRecoveryPhone-how-protect-plaintext = アカウント保護に役立つ理由:
 postAddRecoveryPhone-enabled-device = 次の端末から有効にしました:
 postAddRecoveryPhone-action = アカウントの管理
-postAddTwoStepAuthentication-subject-2 = 2 段階認証がオンになりました
 postAddTwoStepAuthentication-title-2 = 2 段階認証をオンにしました
-# After the colon, there is a description of the device that the user used to enable two-step authentication
-postAddTwoStepAuthentication-from-device = 次の端末から有効にしました:
 postAddTwoStepAuthentication-action = アカウント管理
-postAddTwoStepAuthentication-code-required-2 = 今後はログインのたびに認証アプリに表示されるセキュリティコードが必要となります。
 postChangeAccountRecovery-subject = アカウント回復用キーが変更されました
 postChangeAccountRecovery-title = アカウント回復用キーを変更しました
 postChangeAccountRecovery-body-part1 = 新しいアカウント回復キーを作成しました。以前のキーは削除されました。

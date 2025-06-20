@@ -415,12 +415,8 @@ postAddRecoveryPhone-how-protect = İki aşamalı kimlik doğrulama, hesabınız
 postAddRecoveryPhone-how-protect-plaintext = İki aşamalı kimlik doğrulama, hesabınızı nasıl korur?
 postAddRecoveryPhone-enabled-device = Bu cihazdan etkinleştirdiniz:
 postAddRecoveryPhone-action = Hesabı yönet
-postAddTwoStepAuthentication-subject-2 = İki aşamalı doğrulama açıldı
 postAddTwoStepAuthentication-title-2 = İki aşamalı doğrulamayı açtınız
-# After the colon, there is a description of the device that the user used to enable two-step authentication
-postAddTwoStepAuthentication-from-device = Bu cihazdan etkinleştirdiniz:
 postAddTwoStepAuthentication-action = Hesabı yönet
-postAddTwoStepAuthentication-code-required-2 = Artık her girişinizde kimlik doğrulama uygulamanızdaki güvenlik kodları gerekecektir.
 postChangeAccountRecovery-subject = Hesap kurtarma anahtarı değiştirildi
 postChangeAccountRecovery-title = Hesap kurtarma anahtarınızı değiştirdiniz
 postChangeAccountRecovery-body-part1 = Artık yeni bir hesap kurtarma anahtarınız var. Önceki anahtarınız silindi.

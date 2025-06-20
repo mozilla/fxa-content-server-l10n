@@ -82,30 +82,6 @@ choose-newsletters-option-test-pilot =
 choose-newsletters-option-reclaim-the-internet =
     .label = Интернетті қалпына келтіруге арналған әрекет ескертулері
 
-## ChooseWhatToSync component
-## Checklist of services/information that can be synced across signed in devices
-
-# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
-# That users can choose to sync
-choose-what-to-sync-prompt-2 = Нені синхрондауды таңдаңыз
-choose-what-to-sync-option-bookmarks =
-    .label = Бетбелгілер
-choose-what-to-sync-option-history =
-    .label = Тарихы
-choose-what-to-sync-option-passwords =
-    .label = Парольдер
-choose-what-to-sync-option-addons =
-    .label = Қосымшалар
-# Refers to 'tabs that are open', not the action
-choose-what-to-sync-option-tabs =
-    .label = Ашық беттер
-choose-what-to-sync-option-prefs =
-    .label = Баптаулар
-choose-what-to-sync-option-addresses =
-    .label = Адрестер
-choose-what-to-sync-option-paymentmethods =
-    .label = Төлем әдістері
-
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
@@ -959,12 +935,8 @@ tfa-enter-recovery-code-1 =
 
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
-product-promo-monitor-description = Жеке ақпаратыңыз қай жерде ашылатынын тауып, оны қайтарыңыз
-product-promo-monitor-plus-description = Жекелігіңіз маңызды: жеке ақпаратыңыздың қай жерде ашылғанын тауып, оны қайтарыңыз
 # Links out to the Monitor site
 product-promo-monitor-cta = Тегін сканерлеуді алу
-# Links out to the Monitor pricing site
-product-promo-monitor-plus-cta = Бастау
 
 ## Profile section
 
@@ -1441,10 +1413,10 @@ pair-unsupported-message = Жүйелік камераны пайдаланды�
 
 ## SetPassword page
 ## Third party auth users that do not have a password set yet are prompted for a
-## password to complete their sign-in when they want to login to a service requiring it.
 
-set-password-heading = Парольді жасау
-set-password-info = Синхрондау деректеріңіз жекелігіңізді қорғау үшін сіздің пароліңізбен шифрленген.
+
+# password to complete their sign-in when they want to login to a service requiring it.
+
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
@@ -1738,9 +1710,7 @@ confirm-signup-code-is-required-error = Растау коды қажет
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
-signup-heading = Парольді орнату
 signup-relay-info = Маскамен жасырылған эл. пошталарды қауіпсіз басқару және { -brand-mozilla } қауіпсіздік құралдарына кіру үшін пароль керек.
-signup-heading-relay = Парольді жасау
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = Бұл тіркелгіні маған не үшін жасау керек?
 # Link included in a dismissible info banner that is only displayed to Pocket clients

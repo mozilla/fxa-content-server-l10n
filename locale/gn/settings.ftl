@@ -82,30 +82,6 @@ choose-newsletters-option-test-pilot =
 choose-newsletters-option-reclaim-the-internet =
     .label = Nehenói tembiaporã Ñanduti mopu’ãjeyrã
 
-## ChooseWhatToSync component
-## Checklist of services/information that can be synced across signed in devices
-
-# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
-# That users can choose to sync
-choose-what-to-sync-prompt-2 = Eiporavo mba’épa embojuehéta
-choose-what-to-sync-option-bookmarks =
-    .label = Techaukaha
-choose-what-to-sync-option-history =
-    .label = Tembiasakue
-choose-what-to-sync-option-passwords =
-    .label = Ñe’ẽñemi
-choose-what-to-sync-option-addons =
-    .label = Moĩmbaha
-# Refers to 'tabs that are open', not the action
-choose-what-to-sync-option-tabs =
-    .label = Tendayke ijurujáva
-choose-what-to-sync-option-prefs =
-    .label = Jerohoryvéva
-choose-what-to-sync-option-addresses =
-    .label = Kundaharape
-choose-what-to-sync-option-paymentmethods =
-    .label = Mba’éicha ehepyme’ẽta
-
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
@@ -1021,12 +997,8 @@ tfa-enter-recovery-code-1 =
 
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
-product-promo-monitor-description = Ehecha ne marandu ñemiguáva oñembyaikuaápa — ha egueru jey
-product-promo-monitor-plus-description = Pe tekoñemi tuichamba’e: Ehecha ne marandu ñemiguáva oñembyaikuaa ha egueru jey
 # Links out to the Monitor site
 product-promo-monitor-cta = Emoha’ãnga reiete
-# Links out to the Monitor pricing site
-product-promo-monitor-plus-cta = Ñepyrũ
 
 ## Profile section
 
@@ -1550,10 +1522,10 @@ pair-unsupported-message = ¿Eiporu apopyvusu ra’ãnganohẽha? Eikeva’erã 
 
 ## SetPassword page
 ## Third party auth users that do not have a password set yet are prompted for a
-## password to complete their sign-in when they want to login to a service requiring it.
 
-set-password-heading = Emoheñói ñe’ẽñemi
-set-password-info = Ne mba’ekuaarã mbojuehepyre ipapapy ne ñe’ẽñemi ndive emo’ã hag̃ua nde rekoñemi.
+
+# password to complete their sign-in when they want to login to a service requiring it.
+
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
@@ -1921,8 +1893,6 @@ confirm-signup-code-desktop-relay = { -brand-firefox } orahaukajeýta eimehápe 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
-signup-heading = Emboaje ñe’ẽñemi
-signup-heading-relay = Emoheñói ñe’ẽñemi
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = ¿Mba’ére amoheñoiva’erã ko mba’ete?
 # Link included in a dismissible info banner that is only displayed to Pocket clients

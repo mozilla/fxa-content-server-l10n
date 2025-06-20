@@ -84,30 +84,6 @@ choose-newsletters-option-test-pilot =
 choose-newsletters-option-reclaim-the-internet =
     .label = სამოქმედო ცნობები ინტერნეტის დასაბრუნებლად
 
-## ChooseWhatToSync component
-## Checklist of services/information that can be synced across signed in devices
-
-# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
-# That users can choose to sync
-choose-what-to-sync-prompt-2 = მონაცემების შერჩევა დასასინქრონებელად
-choose-what-to-sync-option-bookmarks =
-    .label = სანიშნები
-choose-what-to-sync-option-history =
-    .label = ისტორია
-choose-what-to-sync-option-passwords =
-    .label = პაროლები
-choose-what-to-sync-option-addons =
-    .label = დამატებები
-# Refers to 'tabs that are open', not the action
-choose-what-to-sync-option-tabs =
-    .label = გახსნილი ჩანართები
-choose-what-to-sync-option-prefs =
-    .label = პარამეტრები
-choose-what-to-sync-option-addresses =
-    .label = მისამართები
-choose-what-to-sync-option-paymentmethods =
-    .label = გადახდის საშუალებები
-
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
@@ -1039,12 +1015,8 @@ tfa-enter-recovery-code-1 =
 
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
-product-promo-monitor-description = გამოარკვიეთ, სადმე ხომ არ გამჟღავნდა თქვენი მონაცემები — და დაიბრუნეთ
-product-promo-monitor-plus-description = პირადულობა გადამწყვეტია: გამოარკვიეთ, სადმე ხომ არ გამჟღავნდა თქვენი მონაცემები და დაიბრუნეთ
 # Links out to the Monitor site
 product-promo-monitor-cta = შეამოწმეთ უფასოდ
-# Links out to the Monitor pricing site
-product-promo-monitor-plus-cta = დაიწყეთ
 
 ## Profile section
 
@@ -1566,10 +1538,10 @@ pair-unsupported-message = სისტემის კამერას იყ
 
 ## SetPassword page
 ## Third party auth users that do not have a password set yet are prompted for a
-## password to complete their sign-in when they want to login to a service requiring it.
 
-set-password-heading = პაროლის შექმნა
-set-password-info = თქვენი სინქრონიზაციის მონაცემები იშიფრება პაროლით პირადულობის დასაცავად.
+
+# password to complete their sign-in when they want to login to a service requiring it.
+
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
@@ -1952,9 +1924,7 @@ confirm-signup-code-desktop-relay = { -brand-firefox } ეცდება შე
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
-signup-heading = მიუთითეთ თქვენი პაროლი
 signup-relay-info = პაროლი საჭიროა შენიღბული ელფოსტის უსაფრთხოდ სამართავად და დაცვის საშუალებებთან წვდომისთვის, რომელთაც უზრუნველყოფს { -brand-mozilla }.
-signup-heading-relay = შექმენით პაროლი
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = რისთვისაა საჭირო ანგარიშის შექმნა?
 # Link included in a dismissible info banner that is only displayed to Pocket clients
@@ -1969,8 +1939,5 @@ signup-change-email-link = ელფოსტის შეცვლა
 signup-confirmed-sync-header = სინქრონიზაცია ჩართულია
 signup-confirmed-sync-success-banner = { -product-mozilla-account } დამოწმებულია
 signup-confirmed-sync-button = დაიწყეთ მოგზაურობა ინტერნეტში
-# Shown when payment methods are also synced
-signup-confirmed-sync-description-with-payment = თქვენი პაროლები, გადახდის საშუალებები, მისამართები, სანიშნები, ისტორია და ა. შ. შესაძლებელია დაასინქრონოთ ყველგან, სადაც გიყენიათ { -product-firefox }.
-signup-confirmed-sync-description = თქვენი პაროლები, მისამართები, სანიშნები, ისტორია და ა. შ. შესაძლებელია დაასინქრონოთ ყველგან, სადაც გიყენიათ { -product-firefox }.
 signup-confirmed-sync-add-device-link = სხვა მოწყობილობის დამატება
 signup-confirmed-sync-manage-sync-button = სინქრონიზაციის მართვა

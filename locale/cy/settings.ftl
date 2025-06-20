@@ -82,30 +82,6 @@ choose-newsletters-option-test-pilot =
 choose-newsletters-option-reclaim-the-internet =
     .label = Rhybuddion gweithredu i adennill y rhyngrwyd
 
-## ChooseWhatToSync component
-## Checklist of services/information that can be synced across signed in devices
-
-# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
-# That users can choose to sync
-choose-what-to-sync-prompt-2 = Dewis beth i gydweddu
-choose-what-to-sync-option-bookmarks =
-    .label = Nodau Tudalen
-choose-what-to-sync-option-history =
-    .label = Hanes
-choose-what-to-sync-option-passwords =
-    .label = Cyfrineiriau
-choose-what-to-sync-option-addons =
-    .label = Ychwanegion
-# Refers to 'tabs that are open', not the action
-choose-what-to-sync-option-tabs =
-    .label = Agor Tabiau
-choose-what-to-sync-option-prefs =
-    .label = Dewisiadau
-choose-what-to-sync-option-addresses =
-    .label = Cyfeiriadau
-choose-what-to-sync-option-paymentmethods =
-    .label = Dulliau Talu
-
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
@@ -1033,12 +1009,8 @@ tfa-enter-recovery-code-1 =
 
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
-product-promo-monitor-description = Canfod lle mae'ch manylion preifat yn cael eu hamlygu — a'u cipio nôl
-product-promo-monitor-plus-description = Mae Preifatrwydd yn Bwysig: Dewch o hyd i ble mae'ch manylion preifat yn cael ei datgelu a'i gipio nôl
 # Links out to the Monitor site
 product-promo-monitor-cta = Cael sgan am ddim
-# Links out to the Monitor pricing site
-product-promo-monitor-plus-cta = Cychwyn arni
 
 ## Profile section
 
@@ -1562,10 +1534,10 @@ pair-unsupported-message = Oeddech chi'n defnyddio camera'r system? Rhaid i chi 
 
 ## SetPassword page
 ## Third party auth users that do not have a password set yet are prompted for a
-## password to complete their sign-in when they want to login to a service requiring it.
 
-set-password-heading = Crëwch gyfrinair
-set-password-info = Mae eich data cydweddu wedi'i amgryptio gyda'ch cyfrinair i ddiogelu eich preifatrwydd.
+
+# password to complete their sign-in when they want to login to a service requiring it.
+
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
@@ -1951,9 +1923,7 @@ confirm-signup-code-desktop-relay = Bydd { -brand-firefox } yn ceisio eich anfon
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
-signup-heading = Gosod eich cyfrinair
 signup-relay-info = Mae angen cyfrinair i reoli'ch e-byst ag arallenw yn ddiogel a chael mynediad at offer diogelwch { -brand-mozilla }.
-signup-heading-relay = Crëwch gyfrinair
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = Pam fod angen i mi greu'r cyfrif hwn?
 # Link included in a dismissible info banner that is only displayed to Pocket clients
@@ -1968,8 +1938,5 @@ signup-change-email-link = Newid e-bost
 signup-confirmed-sync-header = Mae cydweddu wedi'i droi ymlaen
 signup-confirmed-sync-success-banner = Cyfrif { -product-mozilla-account } wedi'i gadarnhau
 signup-confirmed-sync-button = Cychwyn pori
-# Shown when payment methods are also synced
-signup-confirmed-sync-description-with-payment = Gall eich cyfrineiriau, dulliau talu, cyfeiriadau, nodau tudalen, hanes, a mwy gydweddu ym mhobman y byddwch yn defnyddio { -product-firefox }.
-signup-confirmed-sync-description = Gall eich cyfrineiriau, cyfeiriadau, nodau tudalen, hanes, a mwy gydweddu ym mhobman y byddwch yn defnyddio { -product-firefox }.
 signup-confirmed-sync-add-device-link = Ychwanegu dyfais arall
 signup-confirmed-sync-manage-sync-button = Rheoli cydweddu

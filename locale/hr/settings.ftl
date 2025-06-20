@@ -82,30 +82,6 @@ choose-newsletters-option-test-pilot =
 choose-newsletters-option-reclaim-the-internet =
     .label = Upozorenja radnji za vraćanje interneta
 
-## ChooseWhatToSync component
-## Checklist of services/information that can be synced across signed in devices
-
-# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
-# That users can choose to sync
-choose-what-to-sync-prompt-2 = Odaberi što sinkronizirati
-choose-what-to-sync-option-bookmarks =
-    .label = Zabilješke
-choose-what-to-sync-option-history =
-    .label = Povijest
-choose-what-to-sync-option-passwords =
-    .label = Lozinke
-choose-what-to-sync-option-addons =
-    .label = Dodaci
-# Refers to 'tabs that are open', not the action
-choose-what-to-sync-option-tabs =
-    .label = Otvorene kartice
-choose-what-to-sync-option-prefs =
-    .label = Postavke
-choose-what-to-sync-option-addresses =
-    .label = Adrese
-choose-what-to-sync-option-paymentmethods =
-    .label = Načini plaćanja
-
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
@@ -885,12 +861,8 @@ tfa-input-enter-totp-v2 =
 
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
-product-promo-monitor-description = Pronađi gdje su tvoji privatni podaci izloženi i vrati ih
-product-promo-monitor-plus-description = Privatnost je važna: Pronađi gdje su tvoji privatni podaci izloženi i vrati ih
 # Links out to the Monitor site
 product-promo-monitor-cta = Nabavi besplatno snimanje
-# Links out to the Monitor pricing site
-product-promo-monitor-plus-cta = Započni
 
 ## Profile section
 
@@ -1255,7 +1227,9 @@ pair-supp-allow-cancel-link = Odustani
 
 ## SetPassword page
 ## Third party auth users that do not have a password set yet are prompted for a
-## password to complete their sign-in when they want to login to a service requiring it.
+
+
+# password to complete their sign-in when they want to login to a service requiring it.
 
 
 ## ThirdPartyAuthCallback Page
@@ -1492,9 +1466,7 @@ confirm-signup-code-desktop-relay = { -brand-firefox } će te pokušati vratiti 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
-signup-heading = Postavi tvoju lozinku
 signup-relay-info = Za sigurno upravljanje tvojim maskiranim e-mail adresama i pristup sigurnosnim { -brand-mozilla } alatima je potrebna lozinka.
-signup-heading-relay = Stvori lozinku
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = Zašto moram stvoriti ovaj račun?
 # Link included in a dismissible info banner that is only displayed to Pocket clients

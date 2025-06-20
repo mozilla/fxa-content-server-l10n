@@ -414,12 +414,8 @@ postAddRecoveryPhone-how-protect = Como isto protege a sua conta
 postAddRecoveryPhone-how-protect-plaintext = Como isto protege a sua conta:
 postAddRecoveryPhone-enabled-device = Foi ativado de:
 postAddRecoveryPhone-action = Gerir conta
-postAddTwoStepAuthentication-subject-2 = Autenticação de dois fatores ativada
 postAddTwoStepAuthentication-title-2 = Ativou a autenticação de dois fatores
-# After the colon, there is a description of the device that the user used to enable two-step authentication
-postAddTwoStepAuthentication-from-device = Ativou-a de:
 postAddTwoStepAuthentication-action = Gerir conta
-postAddTwoStepAuthentication-code-required-2 = Os códigos de segurança da sua aplicação de autenticação são agora obrigatórios em cada início de sessão.
 postChangeAccountRecovery-subject = Chave de recuperação da conta alterada
 postChangeAccountRecovery-title = Alterou a sua chave de recuperação da conta
 postChangeAccountRecovery-body-part1 = Agora tem uma nova chave de recuperação da conta. A sua chave anterior foi eliminada.

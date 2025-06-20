@@ -82,30 +82,6 @@ choose-newsletters-option-test-pilot =
 choose-newsletters-option-reclaim-the-internet =
     .label = Opfordringer til handling for at tage kontrollen over internettet tilbage
 
-## ChooseWhatToSync component
-## Checklist of services/information that can be synced across signed in devices
-
-# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
-# That users can choose to sync
-choose-what-to-sync-prompt-2 = Vælg, hvad der skal synkroniseres
-choose-what-to-sync-option-bookmarks =
-    .label = Bogmærker
-choose-what-to-sync-option-history =
-    .label = Historik
-choose-what-to-sync-option-passwords =
-    .label = Adgangskoder
-choose-what-to-sync-option-addons =
-    .label = Tilføjelser
-# Refers to 'tabs that are open', not the action
-choose-what-to-sync-option-tabs =
-    .label = Åbne faneblade
-choose-what-to-sync-option-prefs =
-    .label = Indstillinger
-choose-what-to-sync-option-addresses =
-    .label = Adresser
-choose-what-to-sync-option-paymentmethods =
-    .label = Betalingsmetoder
-
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
@@ -1035,12 +1011,8 @@ tfa-enter-recovery-code-1 =
 
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
-product-promo-monitor-description = Find ud af, hvor dine private oplysninger er blevet eksponeret - og tag dem tilbage
-product-promo-monitor-plus-description = Du har ret til et privatliv: Find ud af, hvor dine private oplysninger er blevet eksponeret, og tag dem tilbage
 # Links out to the Monitor site
 product-promo-monitor-cta = Få en gratis skanning
-# Links out to the Monitor pricing site
-product-promo-monitor-plus-cta = Kom i gang
 
 ## Profile section
 
@@ -1564,10 +1536,10 @@ pair-unsupported-message = Brugte du systemets kamera? Du skal parre ved hjælp 
 
 ## SetPassword page
 ## Third party auth users that do not have a password set yet are prompted for a
-## password to complete their sign-in when they want to login to a service requiring it.
 
-set-password-heading = Opret adgangskode
-set-password-info = Dine synkroniseringsdata er krypteret med din adgangskode for at beskytte dit privatliv.
+
+# password to complete their sign-in when they want to login to a service requiring it.
+
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
@@ -1948,9 +1920,7 @@ confirm-signup-code-desktop-relay = { -brand-firefox } vil forsøge at sende dig
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
-signup-heading = Angiv din adgangskode
 signup-relay-info = En adgangskode er nødvendig for at kunne håndtere dine maskerede mailadresser sikkert og få adgang til { -brand-mozilla }s sikkerhedsværktøjer.
-signup-heading-relay = Opret en adgangskode
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = Hvorfor skal jeg oprette denne konto?
 # Link included in a dismissible info banner that is only displayed to Pocket clients
@@ -1965,8 +1935,5 @@ signup-change-email-link = Skift mailadresse
 signup-confirmed-sync-header = Synkronisering er slået til
 signup-confirmed-sync-success-banner = { -product-mozilla-account } bekræftet
 signup-confirmed-sync-button = Gå i gang
-# Shown when payment methods are also synced
-signup-confirmed-sync-description-with-payment = Dine adgangskoder, betalingsmetoder, adresser, bogmærker, historik og mere kan synkroniseres overalt, hvor du bruger{ -product-firefox }.
-signup-confirmed-sync-description = Dine adgangskoder, adresser, bogmærker, historik og mere kan synkroniseres overalt, hvor du bruger { -product-firefox }.
 signup-confirmed-sync-add-device-link = Tilføj en ny enhed
 signup-confirmed-sync-manage-sync-button = Håndter synkronisering

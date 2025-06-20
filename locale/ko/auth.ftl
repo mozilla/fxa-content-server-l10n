@@ -409,12 +409,8 @@ postAddRecoveryPhone-how-protect = 계정을 보호하는 방법
 postAddRecoveryPhone-how-protect-plaintext = 계정을 보호하는 방법:
 postAddRecoveryPhone-enabled-device = 다음에서 활성화했습니다:
 postAddRecoveryPhone-action = 계정 관리
-postAddTwoStepAuthentication-subject-2 = 2단계 인증이 켜져 있습니다
 postAddTwoStepAuthentication-title-2 = 2단계 인증을 켰습니다
-# After the colon, there is a description of the device that the user used to enable two-step authentication
-postAddTwoStepAuthentication-from-device = 다음에서 활성화했습니다:
 postAddTwoStepAuthentication-action = 계정 관리
-postAddTwoStepAuthentication-code-required-2 = 이제 로그인할 때마다 인증 앱의 보안 코드가 필요합니다.
 postChangeAccountRecovery-subject = 계정 복구 키 변경됨
 postChangeAccountRecovery-title = 계정 복구 키를 변경했습니다.
 postChangeAccountRecovery-body-part1 = 새로운 계정 복구 키가 생성되었습니다. 이전 키는 삭제되었습니다.

@@ -416,12 +416,8 @@ postAddRecoveryPhone-how-protect = როგორ იცავს ეს თქ
 postAddRecoveryPhone-how-protect-plaintext = როგორ იცავს ეს თქვენს ანგარიშს:
 postAddRecoveryPhone-enabled-device = ჩაირთო აქედან:
 postAddRecoveryPhone-action = ანგარიშის მართვა
-postAddTwoStepAuthentication-subject-2 = ორბიჯიანი დამოწმება ჩართულია
 postAddTwoStepAuthentication-title-2 = ორბიჯიანი დამოწმება ჩაირთო
-# After the colon, there is a description of the device that the user used to enable two-step authentication
-postAddTwoStepAuthentication-from-device = ჩაირთო აქედან:
 postAddTwoStepAuthentication-action = ანგარიშის მართვა
-postAddTwoStepAuthentication-code-required-2 = შესვლის დასამოწმებელი პროგრამიდან კოდები ახლა უკვე მოითხოვება ყოველი შესვლისას.
 postChangeAccountRecovery-subject = ანგარიშის აღდგენის გასაღები შეიცვალა
 postChangeAccountRecovery-title = თქვენ შეცვალეთ ანგარიშის აღდგენის გასაღები
 postChangeAccountRecovery-body-part1 = თქვენ უკვე გაქვთ ანგარიშის აღდგენის ახალი გასაღები. წინა გასაღები წაშლილია.

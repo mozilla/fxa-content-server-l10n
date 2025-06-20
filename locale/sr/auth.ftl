@@ -218,12 +218,8 @@ passwordResetAccountRecovery-subject-2 = Ваша лозинка је ресет
 postAddAccountRecovery-title2 = Направили сте нови кључ за опоравак налога
 postAddAccountRecovery-action = Управљајте налогом
 postAddLinkedAccount-action = Управљај налогом
-postAddTwoStepAuthentication-subject-2 = Аутентификација у два корака је укључена
 postAddTwoStepAuthentication-title-2 = Укључили сте аутентификацију у два корака
-# After the colon, there is a description of the device that the user used to enable two-step authentication
-postAddTwoStepAuthentication-from-device = Омогућили сте је са:
 postAddTwoStepAuthentication-action = Управљајте налогом
-postAddTwoStepAuthentication-code-required-2 = Од сада, од вас ће се тражити да унесете код из апликације за аутентификацију сваки пут када се пријавите.
 postChangePrimary-subject = Примарна адреса е-поште је ажурирана
 postChangePrimary-title = Нова примарна адреса е-поште
 postChangePrimary-action = Управљајте налогом

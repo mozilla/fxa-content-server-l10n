@@ -390,12 +390,8 @@ postAddRecoveryPhone-how-protect = Honek zure kontua nola babesten duen
 postAddRecoveryPhone-how-protect-plaintext = Honek zure kontua nola babesten duen:
 postAddRecoveryPhone-enabled-device = Hemendik gaitu duzu:
 postAddRecoveryPhone-action = Kudeatu kontua
-postAddTwoStepAuthentication-subject-2 = Bi urratseko autentifikazioa aktibatu da
 postAddTwoStepAuthentication-title-2 = Bi urratseko autentifikazioa aktibatu duzu
-# After the colon, there is a description of the device that the user used to enable two-step authentication
-postAddTwoStepAuthentication-from-device = Hemendik gaitu duzu:
 postAddTwoStepAuthentication-action = Kudeatu kontua
-postAddTwoStepAuthentication-code-required-2 = Zure autentifikazio-aplikazioko segurtasun-kodeak behar dira orain saioa hasten duzun bakoitzean.
 postChangeAccountRecovery-subject = Kontuaren berreskuratze-gakoa aldatuta
 postChangeAccountRecovery-title = Kontua berreskuratzeko gakoa aldatu duzu
 postChangeAccountRecovery-body-part1 = Orain kontua berreskuratzeko gako berri bat duzu. Zure aurreko gakoa ezabatu egin da.

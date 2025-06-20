@@ -416,12 +416,8 @@ postAddRecoveryPhone-how-protect = How this protects your account
 postAddRecoveryPhone-how-protect-plaintext = How this protects your account:
 postAddRecoveryPhone-enabled-device = You enabled it from:
 postAddRecoveryPhone-action = Manage account
-postAddTwoStepAuthentication-subject-2 = Two-step authentication turned on
 postAddTwoStepAuthentication-title-2 = You turned on two-step authentication
-# After the colon, there is a description of the device that the user used to enable two-step authentication
-postAddTwoStepAuthentication-from-device = You enabled it from:
 postAddTwoStepAuthentication-action = Manage account
-postAddTwoStepAuthentication-code-required-2 = Security codes from your authentication app are now required every time you sign in.
 postChangeAccountRecovery-subject = Account recovery key changed
 postChangeAccountRecovery-title = You changed your account recovery key
 postChangeAccountRecovery-body-part1 = You now have a new account recovery key. Your previous key was deleted.

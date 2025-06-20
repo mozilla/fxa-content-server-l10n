@@ -82,30 +82,6 @@ choose-newsletters-option-test-pilot =
 choose-newsletters-option-reclaim-the-internet =
     .label = Felhívások az internet visszaszerzésére
 
-## ChooseWhatToSync component
-## Checklist of services/information that can be synced across signed in devices
-
-# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
-# That users can choose to sync
-choose-what-to-sync-prompt-2 = Válassza ki, mit szeretne szinkronizálni
-choose-what-to-sync-option-bookmarks =
-    .label = Könyvjelzők
-choose-what-to-sync-option-history =
-    .label = Előzmények
-choose-what-to-sync-option-passwords =
-    .label = Jelszavak
-choose-what-to-sync-option-addons =
-    .label = Kiegészítők
-# Refers to 'tabs that are open', not the action
-choose-what-to-sync-option-tabs =
-    .label = Nyitott lapok
-choose-what-to-sync-option-prefs =
-    .label = Beállítások
-choose-what-to-sync-option-addresses =
-    .label = Címek
-choose-what-to-sync-option-paymentmethods =
-    .label = Fizetési módok
-
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
@@ -1037,12 +1013,8 @@ tfa-enter-recovery-code-1 =
 
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
-product-promo-monitor-description = Tudja meg, hogy hol kerültek ki a személyes adatai – és szerezze vissza azokat
-product-promo-monitor-plus-description = Számít az adatvédelem: Tudja meg, hogy hol kerültek ki a személyes adatai – és szerezze vissza azokat
 # Links out to the Monitor site
 product-promo-monitor-cta = Ingyenes vizsgálat kérése
-# Links out to the Monitor pricing site
-product-promo-monitor-plus-cta = Kezdő lépések
 
 ## Profile section
 
@@ -1566,10 +1538,10 @@ pair-unsupported-message = Használta a rendszerkamerát? Párosítania kell egy
 
 ## SetPassword page
 ## Third party auth users that do not have a password set yet are prompted for a
-## password to complete their sign-in when they want to login to a service requiring it.
 
-set-password-heading = Jelszó létrehozása
-set-password-info = Szinkronizálási adatai a jelszavával vannak titkosítva az adatvédelme érdekében.
+
+# password to complete their sign-in when they want to login to a service requiring it.
+
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
@@ -1950,9 +1922,7 @@ confirm-signup-code-desktop-relay = Bejelentkezés után a { -brand-firefox } me
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
-signup-heading = Állítsa be a jelszavát
 signup-relay-info = Egy jelszóra van szükség a maszkolt e-mailek biztonságos kezeléséhez és a { -brand-mozilla } biztonsági eszközeinek eléréséhez.
-signup-heading-relay = Jelszó létrehozása
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = Miért kell létrehoznia ezt a fiókot?
 # Link included in a dismissible info banner that is only displayed to Pocket clients
@@ -1967,8 +1937,5 @@ signup-change-email-link = E-mail-cím módosítása
 signup-confirmed-sync-header = A szinkronizálás be van kapcsolva
 signup-confirmed-sync-success-banner = A { -product-mozilla-account } megerősítve
 signup-confirmed-sync-button = Böngészés megkezdése
-# Shown when payment methods are also synced
-signup-confirmed-sync-description-with-payment = Jelszavai, fizetési módjai, címei, könyvjelzői, előzményei és egyebei mindenhol szinkronizálhatóak, ahol a { -product-firefox }ot használja.
-signup-confirmed-sync-description = Jelszavai, címei, könyvjelzői, előzményei és egyebei mindenhol szinkronizálhatóak, ahol a { -product-firefox }ot használja.
 signup-confirmed-sync-add-device-link = További eszköz hozzáadása
 signup-confirmed-sync-manage-sync-button = Szinkronizálás kezelése

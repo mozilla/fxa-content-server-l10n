@@ -418,12 +418,8 @@ postAddRecoveryPhone-how-protect = Sut mae hyn yn diogelu eich cyfrif
 postAddRecoveryPhone-how-protect-plaintext = Sut mae hyn yn diogelu eich cyfrif:
 postAddRecoveryPhone-enabled-device = Rydych chi wedi'i alluogi o:
 postAddRecoveryPhone-action = Rheoli cyfrif
-postAddTwoStepAuthentication-subject-2 = Mae dilysu dau gam wedi ei droi ymlaen
 postAddTwoStepAuthentication-title-2 = Rydych chi wedi troi dilysu dau gam ymlaen
-# After the colon, there is a description of the device that the user used to enable two-step authentication
-postAddTwoStepAuthentication-from-device = Rydych chi wedi'i alluogi o:
 postAddTwoStepAuthentication-action = Rheoli cyfrif
-postAddTwoStepAuthentication-code-required-2 = Bellach bydd angen codau diogelwch o'ch ap dilysu bob tro y byddwch chi'n mewngofnodi.
 postChangeAccountRecovery-subject = Allwedd adfer cyfrif wedi'i newid
 postChangeAccountRecovery-title = Rydych wedi newid eich allwedd adfer cyfrif
 postChangeAccountRecovery-body-part1 = Mae gennych bellach allwedd adfer cyfrif newydd. Cafodd eich allwedd flaenorol ei dileu.

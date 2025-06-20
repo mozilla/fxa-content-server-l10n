@@ -416,12 +416,8 @@ postAddRecoveryPhone-how-protect = Hur detta skyddar ditt konto
 postAddRecoveryPhone-how-protect-plaintext = Hur detta skyddar ditt konto:
 postAddRecoveryPhone-enabled-device = Du aktiverade det från:
 postAddRecoveryPhone-action = Hantera konto
-postAddTwoStepAuthentication-subject-2 = Tvåstegsautentisering har aktiverats
 postAddTwoStepAuthentication-title-2 = Du har aktiverat tvåstegsautentisering
-# After the colon, there is a description of the device that the user used to enable two-step authentication
-postAddTwoStepAuthentication-from-device = Du aktiverade det från:
 postAddTwoStepAuthentication-action = Hantera konto
-postAddTwoStepAuthentication-code-required-2 = Säkerhetskoder från din autentiseringsapp krävs nu varje gång du loggar in.
 postChangeAccountRecovery-subject = Nyckeln för kontoåterställning har ändrats
 postChangeAccountRecovery-title = Du har ändrat din kontoåterställningsnyckel
 postChangeAccountRecovery-body-part1 = Du har nu en ny kontoåterställningsnyckel. Din tidigare nyckel raderades.

@@ -23,12 +23,6 @@
 ## Checklist of newsletters that the user can choose to sign up to
 
 
-## ChooseWhatToSync component
-## Checklist of services/information that can be synced across signed in devices
-
-choose-what-to-sync-option-paymentmethods =
-    .label = Metode de plată
-
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 
@@ -561,7 +555,9 @@ auth-error-1008 = Noua ta parolă trebuie să fie diferită
 
 ## SetPassword page
 ## Third party auth users that do not have a password set yet are prompted for a
-## password to complete their sign-in when they want to login to a service requiring it.
+
+
+# password to complete their sign-in when they want to login to a service requiring it.
 
 
 ## ThirdPartyAuthCallback Page
