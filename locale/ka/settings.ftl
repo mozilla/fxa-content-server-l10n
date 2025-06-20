@@ -1019,6 +1019,8 @@ product-promo-monitor =
 product-promo-monitor-description-v2 = გამოარკვიეთ, სადმე ხომ არ გამჟღავნდა თქვენი მონაცემები და დაიბრუნეთ განკარგვის უფლება
 # Links out to the Monitor site
 product-promo-monitor-cta = შეამოწმეთ უფასოდ
+# Links out to the Monitor pricing site
+product-promo-monitor-special-promo-cta = ისარგებლეთ სრულწლიანი დაცვით
 
 ## Profile section
 
@@ -1723,6 +1725,7 @@ signin-password-button-label = პაროლი
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-desktop-relay = { -brand-firefox } ეცდება შესვლის შემდგომ უკან დაგაბრუნოთ ელფოსტის ნიღბის გამოსაყენებლად.
+signin-code-expired-error = კოდი ვადაგასულია. გთხოვთ, ხელახლა შეხვიდეთ ანგარიშზე.
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
@@ -1915,6 +1918,7 @@ confirm-signup-code-instruction-v2 = შეიყვანეთ კოდი, �
 confirm-signup-code-input-label = შეიყვანეთ 6-ციფრიანი კოდი
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = დასტური
+confirm-signup-code-sync-button = დასინქ. დაწყება
 confirm-signup-code-code-expired = კოდი ვადაგასულია?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = ახალი კოდის გაგზავნა.
@@ -1929,7 +1933,10 @@ confirm-signup-code-desktop-relay = { -brand-firefox } ეცდება შე
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
+signup-heading-v2 = პაროლის შექმნა
 signup-relay-info = პაროლი საჭიროა შენიღბული ელფოსტის უსაფრთხოდ სამართავად და დაცვის საშუალებებთან წვდომისთვის, რომელთაც უზრუნველყოფს { -brand-mozilla }.
+signup-sync-info = დაასინქრონეთ თქვენი პაროლები, სანიშნები და სხვა მონაცემები ყველგან, სადაც კი გიყენიათ { -brand-firefox }.
+signup-sync-info-with-payments = დაასინქრონეთ თქვენი პაროლები, გადახდის საშუალებები, სანიშნები და სხვა მონაცემები ყველგან, სადაც კი გიყენიათ { -brand-firefox }.
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = რისთვისაა საჭირო ანგარიშის შექმნა?
 # Link included in a dismissible info banner that is only displayed to Pocket clients
@@ -1944,5 +1951,9 @@ signup-change-email-link = ელფოსტის შეცვლა
 signup-confirmed-sync-header = სინქრონიზაცია ჩართულია
 signup-confirmed-sync-success-banner = { -product-mozilla-account } დამოწმებულია
 signup-confirmed-sync-button = დაიწყეთ მოგზაურობა ინტერნეტში
+# Shown when payment methods are also synced
+signup-confirmed-sync-description-with-payment-v2 = თქვენი პაროლები, გადახდის საშუალებები, მისამართები, სანიშნები, ისტორია და ა. შ. შესაძლებელია დაასინქრონოთ ყველგან, სადაც გიყენიათ { -brand-firefox }.
+signup-confirmed-sync-description-v2 = თქვენი პაროლები, მისამართები, სანიშნები, ისტორია და ა. შ. შესაძლებელია დაასინქრონოთ ყველგან, სადაც გიყენიათ { -brand-firefox }.
 signup-confirmed-sync-add-device-link = სხვა მოწყობილობის დამატება
 signup-confirmed-sync-manage-sync-button = სინქრონიზაციის მართვა
+signup-confirmed-sync-set-password-success-banner = დასინქრონების პაროლი შეიქმნა
