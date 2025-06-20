@@ -416,8 +416,16 @@ postAddRecoveryPhone-how-protect = როგორ იცავს ეს თქ
 postAddRecoveryPhone-how-protect-plaintext = როგორ იცავს ეს თქვენს ანგარიშს:
 postAddRecoveryPhone-enabled-device = ჩაირთო აქედან:
 postAddRecoveryPhone-action = ანგარიშის მართვა
+postAddTwoStepAuthentication-subject-v3 = ორბიჯიანი დამოწმება ჩართულია
 postAddTwoStepAuthentication-title-2 = ორბიჯიანი დამოწმება ჩაირთო
+# After the colon, there is a description of the device that the user used to enable two-step authentication
+postAddTwoStepAuthentication-from-device-v2 = თქვენი მოთხოვნის წყარო იყო:
 postAddTwoStepAuthentication-action = ანგარიშის მართვა
+postAddTwoStepAuthentication-code-required-v3 = ამიერიდან დაგჭირდებათ დამმოწმებელი პროგრამის გამოყენება ყოველი შესვლისას.
+postAddTwoStepAuthentication-recovery-method-codes = აგრეთვე დამატებული გაქვთ შესვლის სამარქაფო კოდები აღდგენის საშუალებად.
+# Variables:
+#  $maskedPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
+postAddTwoStepAuthentication-recovery-method-phone = თქვენ დაამატეთ { $maskedPhoneNumber } ნომერი თქვენს აღდგენის ტელეფონად
 postChangeAccountRecovery-subject = ანგარიშის აღდგენის გასაღები შეიცვალა
 postChangeAccountRecovery-title = თქვენ შეცვალეთ ანგარიშის აღდგენის გასაღები
 postChangeAccountRecovery-body-part1 = თქვენ უკვე გაქვთ ანგარიშის აღდგენის ახალი გასაღები. წინა გასაღები წაშლილია.

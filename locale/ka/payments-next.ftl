@@ -273,6 +273,7 @@ metadata-description-default = თქვენ მიერ მოთხოვ�
 
 ## Coupon Error Messages
 
+next-coupon-error-cannot-redeem = თქვენ მიერ შეყვანილი კოდის გამოყენება შეუძლებელია — თქვენს ანგარიშზე უკვე იყო გამოწერილი ჩვენი ერთ-ერთი მომსახურება.
 next-coupon-error-expired = თქვენ მიერ შეყვანილი კოდი ვადაგასულია.
 next-coupon-error-generic = კოდის დამუშავებისას წარმოიშვა შეცდომა. გთხოვთ კვლავ სცადოთ.
 next-coupon-error-invalid = თქვენ მიერ შეყვანილი კოდი არამართებულია.

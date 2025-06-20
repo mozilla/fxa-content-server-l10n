@@ -128,6 +128,7 @@ signup-new-password-label =
 signup-confirm-password-label =
     .label = გაიმეორეთ პაროლი
 signup-submit-button = ანგარიშის შექმნა
+post-verify-set-password-submit-button = დასინქ. დაწყება
 form-reset-password-with-balloon-new-password =
     .label = ახალი პაროლი
 form-reset-password-with-balloon-confirm-password =
@@ -1015,6 +1016,7 @@ tfa-enter-recovery-code-1 =
 
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
+product-promo-monitor-description-v2 = გამოარკვიეთ, სადმე ხომ არ გამჟღავნდა თქვენი მონაცემები და დაიბრუნეთ განკარგვის უფლება
 # Links out to the Monitor site
 product-promo-monitor-cta = შეამოწმეთ უფასოდ
 
@@ -1542,6 +1544,9 @@ pair-unsupported-message = სისტემის კამერას იყ
 
 # password to complete their sign-in when they want to login to a service requiring it.
 
+set-password-heading-v2 = პაროლის შექმნა დასინქრონებისთვის
+# "This" refers to the heading, "Create password to sync"
+set-password-info-v2 = ამით დაიშიფრება თქვენი მონაცემები. უნდა განსხვავდებოდეს თქვენი { -brand-google }- ან { -brand-apple }-ანგარიშის პაროლისგან.
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
