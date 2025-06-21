@@ -423,7 +423,7 @@ postAddTwoStepAuthentication-code-required-v3 = Sie müssen Ihre Authentifizieru
 postAddTwoStepAuthentication-recovery-method-codes = Sie haben auch Sicherungs-Authentifizierungscodes als Wiederherstellungsmethode hinzugefügt.
 # Variables:
 #  $maskedPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
-postAddTwoStepAuthentication-recovery-method-phone = Sie haben auch { $maskedPhoneNumber } als Telefonnummer zum Wiederherstellen hinzugefügt.
+postAddTwoStepAuthentication-recovery-method-phone = Sie haben auch { $maskedPhoneNumber } als Telefonnummer zur Kontowiederherstellung hinzugefügt.
 postChangeAccountRecovery-subject = Kontowiederherstellungsschlüssel geändert
 postChangeAccountRecovery-title = Sie haben Ihren Kontowiederherstellungsschlüssel geändert
 postChangeAccountRecovery-body-part1 = Sie haben jetzt einen neuen Kontowiederherstellungsschlüssel. Ihr vorheriger Schlüssel wurde gelöscht.

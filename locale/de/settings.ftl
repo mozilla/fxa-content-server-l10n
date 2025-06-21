@@ -1006,11 +1006,11 @@ tfa-enter-recovery-code-1 =
 
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
-product-promo-monitor-description-v2 = Finden Sie heraus, wo Ihre persönlichen Daten offengelegt sind und übernehmen Sie die Kontrolle
+product-promo-monitor-description-v2 = Finden Sie heraus, wo Ihre persönlichen Daten offengelegt wurden und übernehmen Sie die Kontrolle
 # this message will only be shown to users eligible for a special promotion, based on their location (initially USA only)
 # $price - formatted for user locale, in the target market's currency (for launch, always USD)
 # /mo is 'per month'
-product-promo-monitor-special-promo-description = Für { $price }/Monat und sparen Sie bei { -product-mozilla-vpn-short }, dem Datenmaklerschutz von { -product-mozilla-monitor-short } und { -product-firefox-relay-short } s Unbegrenzte E-Mail-Masken.
+product-promo-monitor-special-promo-description = Für { $price }/Monat und sparen Sie bei { -product-mozilla-vpn-short }, dem Datenhändlerschutz von { -product-mozilla-monitor-short }, und unbegrenzte E-Mail-Masken von { -product-firefox-relay-short }.
 # Links out to the Monitor site
 product-promo-monitor-cta = Kostenloser Scan
 # Links out to the Monitor pricing site
@@ -1544,7 +1544,7 @@ pair-unsupported-message = Haben Sie die Systemkamera verwendet? Dann müssen Si
 
 set-password-heading-v2 = Passwort zum Synchronisieren erstellen
 # "This" refers to the heading, "Create password to sync"
-set-password-info-v2 = Dadurch werden Ihre Daten verschlüsselt. Es muss sich nicht vom Passwort Ihres { -brand-google }- oder { -brand-apple }-Kontos unterscheiden.
+set-password-info-v2 = Dadurch werden Ihre Daten verschlüsselt. Es muss sich vom Passwort Ihres { -brand-google }- oder { -brand-apple }-Kontos unterscheiden.
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
