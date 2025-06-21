@@ -1939,8 +1939,8 @@ confirm-signup-code-desktop-relay = Po prijavi vas bo { -brand-firefox } poskusi
 
 signup-heading-v2 = Ustvarite geslo
 signup-relay-info = Geslo je potrebno za varno upravljanje zamaskirane e-pošte in dostop do { -brand-mozilla(sklon: "rodilnik") } varnostnih orodij.
-signup-sync-info = Sinhronizirajte gesla, zaznamke in drugo povsod, kjer uporabljate { -brand-firefox }.
-signup-sync-info-with-payments = Sinhronizirajte gesla, plačilna sredstva, zaznamke in drugo povsod, kjer uporabljate { -brand-firefox }.
+signup-sync-info = Sinhronizirajte gesla, zaznamke in ostale podatke povsod, kjer uporabljate { -brand-firefox(sklon: "tozilnik") }.
+signup-sync-info-with-payments = Sinhronizirajte gesla, plačilna sredstva, zaznamke in ostale podatke povsod, kjer uporabljate { -brand-firefox(sklon: "tozilnik") }.
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = Zakaj moram ustvariti ta račun?
 # Link included in a dismissible info banner that is only displayed to Pocket clients
@@ -1956,8 +1956,8 @@ signup-confirmed-sync-header = Sinhronizacija je vključena
 signup-confirmed-sync-success-banner = { -product-mozilla-account } potrjen
 signup-confirmed-sync-button = Začnite z brskanjem
 # Shown when payment methods are also synced
-signup-confirmed-sync-description-with-payment-v2 = Vaša gesla, načini plačila, naslovi, zaznamki, zgodovina in drugo se lahko sinhronizirajo povsod, kjer uporabljate { -brand-firefox }.
-signup-confirmed-sync-description-v2 = Vaša gesla, naslovi, zaznamki, zgodovina in drugo se lahko sinhronizirajo povsod, kjer uporabljate { -brand-firefox }.
+signup-confirmed-sync-description-with-payment-v2 = Vaša gesla, plačilna sredstva, naslovi, zaznamki, zgodovina in drugi podatki se lahko sinhronizirajo povsod, kjer uporabljate { -brand-firefox(sklon: "tozilnik") }.
+signup-confirmed-sync-description-v2 = Vaša gesla, naslovi, zaznamki, zgodovina in drugi podatki se lahko sinhronizirajo povsod, kjer uporabljate { -brand-firefox(sklon: "tozilnik") }.
 signup-confirmed-sync-add-device-link = Dodaj drugo napravo
 signup-confirmed-sync-manage-sync-button = Upravljanje sinhronizacije
 signup-confirmed-sync-set-password-success-banner = Geslo za sinhronizacijo ustvarjeno

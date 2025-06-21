@@ -270,7 +270,7 @@ metadata-description-default = Zahtevane strani ni bilo mogoče najti.
 
 ## Coupon Error Messages
 
-next-coupon-error-cannot-redeem = Kode, ki ste jo vnesli, ni mogoče unovčiti – vaš račun ima že naročnino na eno od naših storitev.
+next-coupon-error-cannot-redeem = Kode, ki ste jo vnesli, ni mogoče unovčiti – vaš račun je že naročen na eno od naših storitev.
 next-coupon-error-expired = Kodi, ki ste jo vnesli, je potekla veljavnost.
 next-coupon-error-generic = Pri obdelavi kode je prišlo do napake. Poskusite znova.
 next-coupon-error-invalid = Koda, ki ste jo vnesli, je neveljavna.
