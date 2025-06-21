@@ -126,6 +126,7 @@ signup-new-password-label =
 signup-confirm-password-label =
     .label = Επανάληψη κωδικού πρόσβασης
 signup-submit-button = Δημιουργία λογαριασμού
+post-verify-set-password-submit-button = Έναρξη συγχρονισμού
 form-reset-password-with-balloon-new-password =
     .label = Νέος κωδικός πρόσβασης
 form-reset-password-with-balloon-confirm-password =
@@ -1913,6 +1914,7 @@ confirm-signup-code-instruction-v2 = Εισαγάγετε τον κωδικό ε
 confirm-signup-code-input-label = Εισαγάγετε τον εξαψήφιο κωδικό
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = Επιβεβαίωση
+confirm-signup-code-sync-button = Έναρξη συγχρονισμού
 confirm-signup-code-code-expired = Έληξε ο κωδικός;
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Αποστολή νέου κωδικού.
@@ -1927,6 +1929,7 @@ confirm-signup-code-desktop-relay = Το { -brand-firefox } θα προσπαθ�
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
+signup-heading-v2 = Δημιουργία κωδικού πρόσβασης
 signup-relay-info = Απαιτείται ένας κωδικός πρόσβασης για τη διαχείριση των μασκών email σας και την πρόσβαση στα εργαλεία ασφαλείας της { -brand-mozilla }.
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = Γιατί πρέπει να δημιουργήσω αυτόν τον λογαριασμό;
@@ -1944,3 +1947,4 @@ signup-confirmed-sync-success-banner = Ο { -product-mozilla-account(case: "nom"
 signup-confirmed-sync-button = Έναρξη περιήγησης
 signup-confirmed-sync-add-device-link = Προσθήκη άλλης συσκευής
 signup-confirmed-sync-manage-sync-button = Διαχείριση συγχρονισμού
+signup-confirmed-sync-set-password-success-banner = Ο κωδικός πρόσβασης συγχρονισμού δημιουργήθηκε
