@@ -419,7 +419,7 @@ postAddTwoStepAuthentication-title-2 = Activaste la autenticación en dos pasos
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postAddTwoStepAuthentication-from-device-v2 = Pediste esto a:
 postAddTwoStepAuthentication-action = Administrar cuenta
-postAddTwoStepAuthentication-code-required-v3 = Ahora necesita usar su aplicación de autenticación cada vez que inicie sesión.
+postAddTwoStepAuthentication-code-required-v3 = Ahora necesitás usar tu aplicación de autenticación cada vez que iniciés sesión.
 postAddTwoStepAuthentication-recovery-method-codes = También agregaste códigos de autenticación de respaldo como tu método de recuperación.
 # Variables:
 #  $maskedPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234

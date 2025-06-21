@@ -413,7 +413,10 @@ postAddRecoveryPhone-how-protect = 此功能如何保護您的帳號
 postAddRecoveryPhone-how-protect-plaintext = 此功能如何保護您的帳號：
 postAddRecoveryPhone-enabled-device = 您從下列位置開啟：
 postAddRecoveryPhone-action = 管理帳號
+postAddTwoStepAuthentication-subject-v3 = 兩階段驗證已開啟
 postAddTwoStepAuthentication-title-2 = 您已開啟兩階段驗證
+# After the colon, there is a description of the device that the user used to enable two-step authentication
+postAddTwoStepAuthentication-from-device-v2 = 您從下列位置要求：
 postAddTwoStepAuthentication-action = 管理帳號
 postChangeAccountRecovery-subject = 已變更帳號救援金鑰
 postChangeAccountRecovery-title = 您已更換帳號救援金鑰
