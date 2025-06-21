@@ -418,6 +418,11 @@ postAddTwoStepAuthentication-title-2 = 您已開啟兩階段驗證
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postAddTwoStepAuthentication-from-device-v2 = 您從下列位置要求：
 postAddTwoStepAuthentication-action = 管理帳號
+postAddTwoStepAuthentication-code-required-v3 = 現在起，您每次登入時都需要使用驗證程式進行第二階段驗證。
+postAddTwoStepAuthentication-recovery-method-codes = 您也新增了備用驗證碼作為救援方式。
+# Variables:
+#  $maskedPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
+postAddTwoStepAuthentication-recovery-method-phone = 您也將 { $maskedPhoneNumber } 新增為救援電話號碼。
 postChangeAccountRecovery-subject = 已變更帳號救援金鑰
 postChangeAccountRecovery-title = 您已更換帳號救援金鑰
 postChangeAccountRecovery-body-part1 = 您已產生新的帳號救援金鑰，舊金鑰已刪除。

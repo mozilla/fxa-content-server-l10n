@@ -1949,8 +1949,8 @@ signup-confirmed-sync-header = La sincronización está activada
 signup-confirmed-sync-success-banner = { -product-mozilla-account } confirmada
 signup-confirmed-sync-button = Empezar a navegar
 # Shown when payment methods are also synced
-signup-confirmed-sync-description-with-payment-v2 = Tus contraseñas, métodos de pago, direcciones, marcadores, historial y más pueden sincronizarse en cualquier lugar donde uses { -brand-firefox }.
-signup-confirmed-sync-description-v2 = Tus contraseñas, direcciones, marcadores, historial y más pueden sincronizarse en cualquier lugar donde uses { -brand-firefox }.
+signup-confirmed-sync-description-with-payment-v2 = Tus contraseñas, métodos de pago, direcciones, marcadores, historial y más pueden sincronizarse en cualquier lugar donde usés { -brand-firefox }.
+signup-confirmed-sync-description-v2 = Tus contraseñas, direcciones, marcadores, historial y más pueden sincronizarse en cualquier lugar donde usés { -brand-firefox }.
 signup-confirmed-sync-add-device-link = Agregar otro dispositivo
 signup-confirmed-sync-manage-sync-button = Administrar sincronización
 signup-confirmed-sync-set-password-success-banner = Contraseña de Sync creada

@@ -126,6 +126,7 @@ signup-new-password-label =
 signup-confirm-password-label =
     .label = 重複輸入密碼
 signup-submit-button = 註冊帳號
+post-verify-set-password-submit-button = 開始同步
 form-reset-password-with-balloon-new-password =
     .label = 新密碼
 form-reset-password-with-balloon-confirm-password =
@@ -998,8 +999,15 @@ tfa-enter-recovery-code-1 =
 
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
+product-promo-monitor-description-v2 = 看看您的隱私資訊在哪裡外洩，並且進行管控
+# this message will only be shown to users eligible for a special promotion, based on their location (initially USA only)
+# $price - formatted for user locale, in the target market's currency (for launch, always USD)
+# /mo is 'per month'
+product-promo-monitor-special-promo-description = 只需每月 { $price }，即可獲得 { -product-mozilla-vpn-short }、{ -product-mozilla-monitor-short } 的資料交易商保護，以及 { -product-firefox-relay-short } 的無限轉寄信箱優惠。
 # Links out to the Monitor site
 product-promo-monitor-cta = 免費掃描
+# Links out to the Monitor pricing site
+product-promo-monitor-special-promo-cta = 獲得全年保護
 
 ## Profile section
 
@@ -1513,6 +1521,9 @@ pair-unsupported-message = 您用的是系統相機嗎？必須透過 { -brand-f
 
 # password to complete their sign-in when they want to login to a service requiring it.
 
+set-password-heading-v2 = 設定同步密碼
+# "This" refers to the heading, "Create password to sync"
+set-password-info-v2 = 將會加密您的資料，必須與您的 { -brand-google } 或 { -brand-apple } 帳號密碼不同。
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
@@ -1680,6 +1691,7 @@ signin-password-button-label = 密碼
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-desktop-relay = 登入後，{ -brand-firefox } 將嘗試使用您的轉寄信箱帶您回到原網站。
+signin-code-expired-error = 驗證碼已失效，請重新登入。
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
@@ -1868,6 +1880,7 @@ confirm-signup-code-instruction-v2 = 請在 5 分鐘內輸入寄送到 <email>{ 
 confirm-signup-code-input-label = 請輸入六位數的驗證碼
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = 確認
+confirm-signup-code-sync-button = 開始同步
 confirm-signup-code-code-expired = 驗證碼失效？
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = 重寄新驗證碼。
@@ -1882,7 +1895,10 @@ confirm-signup-code-desktop-relay = 登入後，{ -brand-firefox } 將嘗試使�
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
+signup-heading-v2 = 設定密碼
 signup-relay-info = 需要設定密碼，才能安全地管理轉寄信箱，並使用 { -brand-mozilla } 的安全工具。
+signup-sync-info = 在使用 { -brand-firefox } 的所有地方同步您的密碼、書籤與更多資料。
+signup-sync-info-with-payments = 在使用 { -brand-firefox } 的所有地方同步您的密碼、付款方式、書籤與更多資料。
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = 為什麼需要建立此帳號？
 # Link included in a dismissible info banner that is only displayed to Pocket clients
@@ -1897,5 +1913,9 @@ signup-change-email-link = 更改電子郵件地址
 signup-confirmed-sync-header = 已開啟同步
 signup-confirmed-sync-success-banner = { -product-mozilla-account } 已確認
 signup-confirmed-sync-button = 開始上網
+# Shown when payment methods are also synced
+signup-confirmed-sync-description-with-payment-v2 = 隨時隨地使用 { -brand-firefox } 都可同步使用您的密碼、付款方式、地址、書籤、上網紀錄與更多資訊。
+signup-confirmed-sync-description-v2 = 隨時隨地使用 { -brand-firefox } 都可同步使用您的密碼、地址、書籤、上網紀錄與更多資訊。
 signup-confirmed-sync-add-device-link = 新增另一台裝置
 signup-confirmed-sync-manage-sync-button = 管理同步
+signup-confirmed-sync-set-password-success-banner = 已設定同步密碼

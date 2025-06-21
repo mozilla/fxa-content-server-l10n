@@ -230,6 +230,7 @@ subscriptionCharges-content-tax = 세금 및 수수료: { $invoiceTaxAmount }
 ##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
 
 subscriptionFirstInvoice-content-charge = { $invoiceDateOnly }에 { $invoiceTotal } 금액이 청구됩니다
+subscriptionFirstInvoice-content-credit = { $invoiceTotal }의 계정 크레딧을 받았습니다. 이는 향후 청구서에 적용됩니다.
 
 ##
 
@@ -377,6 +378,8 @@ passwordResetAccountRecovery-information = 동기화된 모든 기기에서 로�
 # After the colon there is a link to account settings
 passwordResetAccountRecovery-information-txt = 동기화된 모든 기기에서 로그아웃되었습니다. 기존의 계정 복구 키를 대체할 새로운 계정 복구 키를 만들었습니다. 계정 설정에서 변경할 수 있습니다:
 passwordResetAccountRecovery-action-4 = 계정 관리
+passwordResetRecoveryPhone-subject = 사용된 복구 전화번호
+passwordResetRecoveryPhone-preview = 본인인지 확인하세요.
 passwordResetWithRecoveryKeyPrompt-subject = 비밀번호가 재설정되었습니다
 passwordResetWithRecoveryKeyPrompt-title = 비밀번호가 재설정되었습니다
 # Details of the device and date/time where the password was reset
