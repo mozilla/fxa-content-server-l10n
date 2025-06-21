@@ -126,6 +126,7 @@ signup-new-password-label =
 signup-confirm-password-label =
     .label = Gronidło wóspjetowaś
 signup-submit-button = Konto załožyś
+post-verify-set-password-submit-button = Synchronizaciju zachopiś
 form-reset-password-with-balloon-new-password =
     .label = Nowe gronidło
 form-reset-password-with-balloon-confirm-password =
@@ -1007,6 +1008,7 @@ tfa-enter-recovery-code-1 =
 
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
+product-promo-monitor-description-v2 = Wuslěźćo, źož se waše priwatne informacije wótekšywaju a pśewzejśo kontrolu
 # Links out to the Monitor site
 product-promo-monitor-cta = Dostańśo dermotny scan
 
@@ -1538,6 +1540,9 @@ pair-unsupported-message = Sćo wužył systemowu kameru? Musyśo w nałoženju 
 
 # password to complete their sign-in when they want to login to a service requiring it.
 
+set-password-heading-v2 = Napórajśo gronidło za synchronizaciju
+# "This" refers to the heading, "Create password to sync"
+set-password-info-v2 = To waše daty koděrujo. Musy se wót kontowego gronidła { -brand-google } abo { -brand-apple } rozeznaś.
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
@@ -1716,6 +1721,7 @@ signin-password-button-label = Gronidło
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-desktop-relay = { -brand-firefox } buźo was slědk słaś, aby pó pśizjawjenju e-mailowu masku wužywał.
+signin-code-expired-error = Kod jo spadnjony. Pšosym pśizjawśo se znowego.
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
@@ -1910,6 +1916,7 @@ confirm-signup-code-instruction-v2 = Zapódajśo kod, kótaryž jo se pósłał 
 confirm-signup-code-input-label = 6-městnowy kod zapódaś
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = Wobkšuśiś
+confirm-signup-code-sync-button = Synchronizaciju zachopiś
 confirm-signup-code-code-expired = Kod jo spadnuł?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Nowy kod pśez e-mail pósłaś.
@@ -1924,7 +1931,10 @@ confirm-signup-code-desktop-relay = { -brand-firefox } buźo was slědk słaś, 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
+signup-heading-v2 = Gronidło napóraś
 signup-relay-info = Gronidło jo trjebna, aby swóje maskěrowane mejlki wěsće zastojaś a k wěstotnym rědam { -brand-mozilla } pśistup měł.
+signup-sync-info = Synchronizěrujśo swóje gronidła, cytańske znamjenja a wěcej wšuźi, źož { -brand-firefox } wužywaśo.
+signup-sync-info-with-payments = Synchronizěrujśo swóje gronidła, płaśeńske metody, cytańske znamjenja a wěcej wšuźi, źož { -brand-firefox } wužywaśo.
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = Cogodla musym toś to konto załožyś?
 # Link included in a dismissible info banner that is only displayed to Pocket clients
@@ -1939,5 +1949,9 @@ signup-change-email-link = E-mailowu adresu změniś
 signup-confirmed-sync-header = Synchronizacija jo zmóžnjona
 signup-confirmed-sync-success-banner = { -product-mozilla-account } wobkšuśone
 signup-confirmed-sync-button = Pśeglědowanje zachopiś
+# Shown when payment methods are also synced
+signup-confirmed-sync-description-with-payment-v2 = Waše gronidła, płaśeńske metody, adrese, cytańske znamjenja, historija a wěcej daju se wšuźi synchronizěrowaś, źož { -brand-firefox } wužywaśo.
+signup-confirmed-sync-description-v2 = Waše gronidła, adrese, cytańske znamjenja, historija a wěcej daju se wšuźi synchronizěrowaś, źož { -brand-firefox } wužywaśo.
 signup-confirmed-sync-add-device-link = Drugi rěd pśidaś
 signup-confirmed-sync-manage-sync-button = Synchronizaciju zastojaś
+signup-confirmed-sync-set-password-success-banner = Gronidło za synchronizaciju napórane
