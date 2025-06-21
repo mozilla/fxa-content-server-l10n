@@ -653,6 +653,7 @@ flow-setup-2fa-backup-code-confirm-button-finish = Afslut
 ## The backup codes download step of the setup 2 factor authentication flow
 
 flow-setup-2fa-backup-code-dl-heading = Gem reserve-godkendelseskoder
+flow-setup-2fa-backup-code-dl-save-these-codes = Gem dem et sted, du kan huske. Du skal indtaste en kode for at logge ind, hvis du ikke har adgang til din godkendelsesapp.
 flow-setup-2fa-backup-code-dl-button-continue = Fortsæt
 
 ## FlowSetupPhoneConfirmCode
