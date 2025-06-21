@@ -417,7 +417,7 @@ postAddRecoveryPhone-action = Benutzerkonto verwalten
 postAddTwoStepAuthentication-subject-v3 = Zwei-Schritt-Authentifizierung ist aktiviert
 postAddTwoStepAuthentication-title-2 = Sie haben die Zwei-Schritt-Authentifizierung aktiviert
 # After the colon, there is a description of the device that the user used to enable two-step authentication
-postAddTwoStepAuthentication-from-device-v2 = Sie haben angefordert von:
+postAddTwoStepAuthentication-from-device-v2 = Sie haben dies angefordert von:
 postAddTwoStepAuthentication-action = Benutzerkonto verwalten
 postAddTwoStepAuthentication-code-required-v3 = Sie müssen Ihre Authentifizierungs-App jetzt bei jeder Anmeldung verwenden.
 postAddTwoStepAuthentication-recovery-method-codes = Sie haben auch Sicherungs-Authentifizierungscodes als Wiederherstellungsmethode hinzugefügt.
