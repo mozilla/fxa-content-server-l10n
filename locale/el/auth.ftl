@@ -418,6 +418,7 @@ postAddRecoveryPhone-how-protect = Πώς προστατεύεται ο λογα
 postAddRecoveryPhone-how-protect-plaintext = Πώς προστατεύεται ο λογαριασμός σας:
 postAddRecoveryPhone-enabled-device = Το ενεργοποιήσατε από:
 postAddRecoveryPhone-action = Διαχείριση λογαριασμού
+postAddTwoStepAuthentication-subject-v3 = Η ταυτοποίηση δύο παραγόντων είναι ενεργή
 postAddTwoStepAuthentication-title-2 = Ενεργοποιήσατε την ταυτοποίηση δύο παραγόντων
 postAddTwoStepAuthentication-action = Διαχείριση λογαριασμού
 postChangeAccountRecovery-subject = Το κλειδί ανάκτησης λογαριασμού άλλαξε
