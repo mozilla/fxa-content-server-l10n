@@ -399,8 +399,15 @@ postAddRecoveryPhone-how-protect = כיצד זה מגן על החשבון שלך
 postAddRecoveryPhone-how-protect-plaintext = כיצד זה מגן על החשבון שלך:
 postAddRecoveryPhone-enabled-device = הפעלת אותו מ:
 postAddRecoveryPhone-action = ניהול חשבון
+postAddTwoStepAuthentication-subject-v3 = אימות דו־שלבי מופעל
 postAddTwoStepAuthentication-title-2 = הפעלת את האימות הדו־שלבי
+# After the colon, there is a description of the device that the user used to enable two-step authentication
+postAddTwoStepAuthentication-from-device-v2 = ביקשת את זה מ:
 postAddTwoStepAuthentication-action = ניהול חשבון
+postAddTwoStepAuthentication-code-required-v3 = כעת עליך להשתמש ביישומון האימות שלך בכל ניסיון התחברות.
+# Variables:
+#  $maskedPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
+postAddTwoStepAuthentication-recovery-method-phone = הוספת גם את { $maskedPhoneNumber } כמספר טלפון השחזור שלך.
 postChangeAccountRecovery-subject = מפתח לשחזור החשבון השתנה
 postChangeAccountRecovery-title = שינית את המפתח לשחזור החשבון שלך
 postChangeAccountRecovery-body-part1 = כעת יש לך מפתח שחזור חשבון חדש. המפתח הקודם שלך נמחק.

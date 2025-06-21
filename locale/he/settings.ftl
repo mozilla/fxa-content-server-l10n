@@ -118,6 +118,7 @@ signup-new-password-label =
 signup-confirm-password-label =
     .label = חזרה על הססמה
 signup-submit-button = יצירת חשבון
+post-verify-set-password-submit-button = התחלה בסנכרון
 form-reset-password-with-balloon-new-password =
     .label = ססמה חדשה
 form-reset-password-with-balloon-confirm-password =
@@ -1450,6 +1451,9 @@ pair-unsupported-message = האם השתמשת במצלמת המערכת? יש �
 
 # password to complete their sign-in when they want to login to a service requiring it.
 
+set-password-heading-v2 = יצירת ססמה לסנכרון
+# "This" refers to the heading, "Create password to sync"
+set-password-info-v2 = ססמה זו מצפינה את הנתונים שלך. היא צריכה להיות שונה מססמת החשבון שלך ב־{ -brand-google } או ב־{ -brand-apple }.
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
@@ -1616,6 +1620,7 @@ signin-password-button-label = ססמה
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-desktop-relay = ‏{ -brand-firefox } ינסה לשלוח אותך בחזרה להשתמש במסיכת דוא״ל לאחר ההתחברות.
+signin-code-expired-error = פג תוקף הקוד. נא להתחבר שוב.
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
@@ -1802,6 +1807,7 @@ confirm-signup-code-instruction-v2 = נא להכניס את הקוד שנשלח 
 confirm-signup-code-input-label = נא להזין קוד בן 6 ספרות
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = אישור
+confirm-signup-code-sync-button = התחלה בסנכרון
 confirm-signup-code-code-expired = פג תוקף הקוד?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = שליחת קוד חדש בדוא״ל.
@@ -1816,6 +1822,7 @@ confirm-signup-code-desktop-relay = ‏{ -brand-firefox } ינסה לשלוח א
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
+signup-heading-v2 = יצירת ססמה
 signup-relay-info = יש צורך בססמה כדי לנהל בצורה מאובטחת את חשבונות הדוא״ל המסוכות שלך ולגשת לכלי האבטחה של { -brand-mozilla }.
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = מדוע עליי ליצור חשבון זה?
