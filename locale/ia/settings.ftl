@@ -126,6 +126,7 @@ signup-new-password-label =
 signup-confirm-password-label =
     .label = Repete le contrasigno
 signup-submit-button = Crear conto
+post-verify-set-password-submit-button = Comencia a synchronisar
 form-reset-password-with-balloon-new-password =
     .label = Nove contrasigno
 form-reset-password-with-balloon-confirm-password =
@@ -1920,6 +1921,7 @@ confirm-signup-code-desktop-relay = { -brand-firefox } tentara inviar te retro p
 ## This is the second page of the sign up flow, users have already entered their email
 
 signup-relay-info = Un contrasigno es necesse pro gerer in modo secur tu alias de posta electronic e acceder al instrumentos de securitate de { -brand-mozilla }.
+signup-sync-info = Synchronisa tu contrasignos, marcapaginas e altero ubique tu usa { -brand-firefox }.
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = Perque debe io crear iste conto?
 # Link included in a dismissible info banner that is only displayed to Pocket clients

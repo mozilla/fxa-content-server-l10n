@@ -416,8 +416,16 @@ postAddRecoveryPhone-how-protect = Como isto protege tu conto
 postAddRecoveryPhone-how-protect-plaintext = Como isto protege tu conto:
 postAddRecoveryPhone-enabled-device = Tu lo activava ab:
 postAddRecoveryPhone-action = Gerer le conto
+postAddTwoStepAuthentication-subject-v3 = Le authentication a duo passos es active
 postAddTwoStepAuthentication-title-2 = Tu activava le authentication a duo passos
+# After the colon, there is a description of the device that the user used to enable two-step authentication
+postAddTwoStepAuthentication-from-device-v2 = Tu lo ha requirite ab:
 postAddTwoStepAuthentication-action = Gerer le conto
+postAddTwoStepAuthentication-code-required-v3 = Tu ora debe usar tu app authenticator cata vice tu te connecte.
+postAddTwoStepAuthentication-recovery-method-codes = Tu alsi addeva codices de authentication de reserva como tu methodo de recuperation.
+# Variables:
+#  $maskedPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
+postAddTwoStepAuthentication-recovery-method-phone = Tu alsi addeva { $maskedPhoneNumber } como tu numero de telephono de recuperation.
 postChangeAccountRecovery-subject = Clave de recuperation del conto cambiate
 postChangeAccountRecovery-title = Tu cambiava tu clave de recuperation del conto
 postChangeAccountRecovery-body-part1 = Tu ora ha un nove clave de recuperation del conto.Tu clave precedente era delite.

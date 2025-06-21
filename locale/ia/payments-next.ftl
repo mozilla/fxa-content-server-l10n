@@ -270,6 +270,7 @@ metadata-description-default = Le pagina que tu ha requirite non era trovate.
 
 ## Coupon Error Messages
 
+next-coupon-error-cannot-redeem = Le codice inserite non pote esser redimite, tu conto ha jam un previe abonamento a un de nostre servicios.
 next-coupon-error-expired = Le codice que tu ha inserite ha expirate.
 next-coupon-error-generic = Un error occurreva processante le codice. Retenta.
 next-coupon-error-invalid = Le codice que tu ha inserite non es valide.
