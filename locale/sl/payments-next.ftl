@@ -195,7 +195,7 @@ next-subscription-processing-title = Potrjevanje naročnine …
 next-subscription-error-title = Napaka pri potrjevanju naročnine …
 subscription-title-sub-exists = Že ste naročeni
 subscription-title-plan-change-heading = Preglejte spremembo
-subscription-title-not-supported = Ta sprememba naročniškega načrta ni podprta
+subscription-title-not-supported = Ta sprememba naročniškega paketa ni podprta
 next-sub-guarantee = 30-dnevno vračilo denarja
 
 ## Component - TermsAndPrivacy

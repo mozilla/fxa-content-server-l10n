@@ -126,7 +126,7 @@ signup-new-password-label =
 signup-confirm-password-label =
     .label = Ponovite geslo
 signup-submit-button = Ustvari račun
-post-verify-set-password-submit-button = Začnite sinhronizacijo
+post-verify-set-password-submit-button = Začni s sinhronizacijo
 form-reset-password-with-balloon-new-password =
     .label = Novo geslo
 form-reset-password-with-balloon-confirm-password =
@@ -646,7 +646,7 @@ flow-setup-2fa-backup-choice-learn-more-link = Spoznajte tveganje pri obnovi in 
 
 flow-setup-2fa-backup-code-confirm-heading = Vnesite rezervno overitveno kodo
 # codes here refers to backup authentication codes
-flow-setup-2fa-backup-code-confirm-confirm-saved = Potrdite z vnosom, da ste shranili kode. Brez teh kod se morda ne boste mogli prijaviti, če ne boste imeli aplikacije za overjanje.
+flow-setup-2fa-backup-code-confirm-confirm-saved = Z vnosom potrdite, da ste shranili kode. Brez teh kod se morda ne boste mogli prijaviti, če ne boste imeli aplikacije za overjanje.
 flow-setup-2fa-backup-code-confirm-code-input = Vnesite 10-mestno kodo
 # Clicking on this button finishes the whole flow upon success.
 flow-setup-2fa-backup-code-confirm-button-finish = Končaj
@@ -1010,7 +1010,7 @@ tfa-enter-recovery-code-1 =
 
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
-product-promo-monitor-description-v2 = Ugotovite, kje so izpostavljeni vaši zasebni podatki in prevzemite nadzor
+product-promo-monitor-description-v2 = Ugotovite, kje so razkriti vaši zasebni podatki, in prevzemite nadzor
 # this message will only be shown to users eligible for a special promotion, based on their location (initially USA only)
 # $price - formatted for user locale, in the target market's currency (for launch, always USD)
 # /mo is 'per month'
@@ -1727,7 +1727,7 @@ signin-password-button-label = Geslo
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-desktop-relay = Po prijavi vas bo { -brand-firefox } poskusil poslati nazaj na uporabo e-poštne maske.
-signin-code-expired-error = Koda je potekla. Ponovno se prijavite.
+signin-code-expired-error = Koda je potekla. Prijavite se znova.
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
@@ -1922,7 +1922,7 @@ confirm-signup-code-instruction-v2 = V 5 minutah vnesite kodo, ki je bila poslan
 confirm-signup-code-input-label = Vnesite 6-mestno kodo
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = Potrdi
-confirm-signup-code-sync-button = Začnite sinhronizacijo
+confirm-signup-code-sync-button = Začni s sinhronizacijo
 confirm-signup-code-code-expired = Je koda potekla?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Pošlji novo kodo.
