@@ -270,6 +270,7 @@ metadata-description-default = Không tìm thấy trang bạn yêu cầu.
 
 ## Coupon Error Messages
 
+next-coupon-error-cannot-redeem = Mã bạn nhập không thể đổi được — tài khoản của bạn đã đăng ký một trong các dịch vụ của chúng tôi trước đó.
 next-coupon-error-expired = Mã bạn đã nhập đã hết hạn.
 next-coupon-error-generic = Đã xảy ra lỗi khi xử lý mã. Vui lòng thử lại.
 next-coupon-error-invalid = Mã bạn đã nhập không hợp lệ.

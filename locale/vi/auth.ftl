@@ -415,8 +415,16 @@ postAddRecoveryPhone-how-protect = Tìm hiểu cách mà nó bảo vệ tài kho
 postAddRecoveryPhone-how-protect-plaintext = Tìm hiểu cách mà nó bảo vệ tài khoản của bạn:
 postAddRecoveryPhone-enabled-device = Bạn đã bật nó từ:
 postAddRecoveryPhone-action = Quản lý tài khoản
+postAddTwoStepAuthentication-subject-v3 = Đã bật xác thực hai bước
 postAddTwoStepAuthentication-title-2 = Bạn đã bật xác thực hai bước
+# After the colon, there is a description of the device that the user used to enable two-step authentication
+postAddTwoStepAuthentication-from-device-v2 = Bạn đã yêu cầu điều này từ:
 postAddTwoStepAuthentication-action = Quản lý tài khoản
+postAddTwoStepAuthentication-code-required-v3 = Bây giờ bạn cần phải sử dụng ứng dụng xác thực mỗi khi đăng nhập.
+postAddTwoStepAuthentication-recovery-method-codes = Bạn cũng đã thêm mã xác thực dự phòng làm phương pháp khôi phục của mình.
+# Variables:
+#  $maskedPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
+postAddTwoStepAuthentication-recovery-method-phone = Bạn cũng đã thêm { $maskedPhoneNumber } làm số điện thoại khôi phục của mình.
 postChangeAccountRecovery-subject = Khóa khôi phục tài khoản đã thay đổi
 postChangeAccountRecovery-title = Bạn đã thay đổi khóa khôi phục tài khoản của mình
 postChangeAccountRecovery-body-part1 = Bây giờ bạn đã có khóa khôi phục tài khoản mới. Khóa trước của bạn đã bị xóa.

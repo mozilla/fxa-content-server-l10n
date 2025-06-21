@@ -126,6 +126,7 @@ signup-new-password-label =
 signup-confirm-password-label =
     .label = Nhập lại mật khẩu
 signup-submit-button = Tạo tài khoản
+post-verify-set-password-submit-button = Bắt đầu đồng bộ hóa
 form-reset-password-with-balloon-new-password =
     .label = Mật khẩu mới
 form-reset-password-with-balloon-confirm-password =
@@ -1013,6 +1014,7 @@ tfa-enter-recovery-code-1 =
 
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
+product-promo-monitor-description-v2 = Tìm nơi thông tin cá nhân của bạn bị lộ và kiểm soát chúng
 # Links out to the Monitor site
 product-promo-monitor-cta = Quét miễn phí
 
@@ -1536,6 +1538,9 @@ pair-unsupported-message = Bạn đã sử dụng máy ảnh hệ thống? Bạn
 
 # password to complete their sign-in when they want to login to a service requiring it.
 
+set-password-heading-v2 = Tạo mật khẩu để đồng bộ
+# "This" refers to the heading, "Create password to sync"
+set-password-info-v2 = Điều này sẽ mã hóa dữ liệu của bạn. Mật khẩu này phải khác với mật khẩu tài khoản { -brand-google } hoặc { -brand-apple } của bạn.
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
@@ -1708,6 +1713,7 @@ signin-password-button-label = Mật khẩu
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-desktop-relay = { -brand-firefox } sẽ điều hướng bạn quay trở lại để sử dụng email ẩn danh sau khi bạn đăng nhập.
+signin-code-expired-error = Mã đã hết hạn. Vui lòng đăng nhập lại.
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
@@ -1896,6 +1902,7 @@ confirm-signup-code-instruction-v2 = Nhập mã đã được gửi tới <email
 confirm-signup-code-input-label = Nhập mã gồm 6 chữ số
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = Xác nhận
+confirm-signup-code-sync-button = Bắt đầu đồng bộ hóa
 confirm-signup-code-code-expired = Mã đã hết hạn?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Gửi mã mới qua email.
@@ -1910,7 +1917,10 @@ confirm-signup-code-desktop-relay = { -brand-firefox } sẽ điều hướng b�
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
+signup-heading-v2 = Tạo một mật khẩu
 signup-relay-info = Cần có mật khẩu để quản lý an toàn các email ẩn danh và quyền truy cập vào các công cụ bảo mật của { -brand-mozilla } của bạn.
+signup-sync-info = Đồng bộ hóa mật khẩu, dấu trang và nhiều thứ khác ở mọi nơi bạn sử dụng { -brand-firefox }.
+signup-sync-info-with-payments = Đồng bộ hóa mật khẩu, phương thức thanh toán, dấu trang và nhiều thông tin khác ở mọi nơi bạn sử dụng { -brand-firefox }.
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = Tại sao tôi cần tạo tài khoản này?
 # Link included in a dismissible info banner that is only displayed to Pocket clients
@@ -1925,5 +1935,9 @@ signup-change-email-link = Thay đổi email
 signup-confirmed-sync-header = Đồng bộ hoá đang được bật
 signup-confirmed-sync-success-banner = Đã xác nhận { -product-mozilla-account }
 signup-confirmed-sync-button = Bắt đầu duyệt web
+# Shown when payment methods are also synced
+signup-confirmed-sync-description-with-payment-v2 = Mật khẩu, phương thức thanh toán, địa chỉ, dấu trang, lịch sử và nhiều thông tin khác của bạn có thể đồng bộ hóa ở mọi nơi bạn sử dụng { -brand-firefox }.
+signup-confirmed-sync-description-v2 = Mật khẩu, địa chỉ, dấu trang, lịch sử và nhiều thông tin khác của bạn có thể đồng bộ hóa ở mọi nơi bạn sử dụng { -brand-firefox }.
 signup-confirmed-sync-add-device-link = Thêm thiết bị khác
 signup-confirmed-sync-manage-sync-button = Quản lý đồng bộ hoá
+signup-confirmed-sync-set-password-success-banner = Đã tạo mật khẩu đồng bộ hoá
