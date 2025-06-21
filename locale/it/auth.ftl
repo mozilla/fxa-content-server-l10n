@@ -427,7 +427,7 @@ postAddTwoStepAuthentication-code-required-v3 = Ora devi utilizzare l’app di a
 postAddTwoStepAuthentication-recovery-method-codes = Hai anche aggiunto dei codici di autenticazione di backup come metodo di recupero.
 # Variables:
 #  $maskedPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
-postAddTwoStepAuthentication-recovery-method-phone = Hai anche aggiunto { $maskedPhoneNumber } come numero di telefono di recupero.
+postAddTwoStepAuthentication-recovery-method-phone = Hai anche aggiunto { $maskedPhoneNumber } come telefono per il recupero dell’account.
 postChangeAccountRecovery-subject = Chiave di recupero dell’account modificata
 postChangeAccountRecovery-title = Hai modificato la chiave di recupero dell’account
 postChangeAccountRecovery-body-part1 = Ora hai una nuova chiave di recupero dell’account. La chiave precedente è stata eliminata.

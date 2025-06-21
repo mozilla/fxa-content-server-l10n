@@ -1003,11 +1003,11 @@ tfa-enter-recovery-code-1 =
 
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
-product-promo-monitor-description-v2 = Scopri dove sono esposte le tue informazioni private e prendi il controllo
+product-promo-monitor-description-v2 = Scopri dove sono esposte le tue informazioni personali e riprendine il controllo
 # this message will only be shown to users eligible for a special promotion, based on their location (initially USA only)
 # $price - formatted for user locale, in the target market's currency (for launch, always USD)
 # /mo is 'per month'
-product-promo-monitor-special-promo-description = Per { $price }/mese, risparmia su { -product-mozilla-vpn-short }, sulla protezione anti-data-broker di { -product-mozilla-monitor-short } e su { -product-firefox-relay-short }' s alias di posta elettronica illimitati.
+product-promo-monitor-special-promo-description = Per { $price }/mese, risparmia su { -product-mozilla-vpn-short }, sulla protezione anti-data-broker di { -product-mozilla-monitor-short } e sugli alias di posta elettronica illimitati di { -product-firefox-relay-short }.
 # Links out to the Monitor site
 product-promo-monitor-cta = Ottieni una scansione gratuita
 # Links out to the Monitor pricing site
@@ -1531,9 +1531,9 @@ pair-unsupported-message = Hai utilizzato la fotocamera di sistema? Bisogna effe
 
 # password to complete their sign-in when they want to login to a service requiring it.
 
-set-password-heading-v2 = Crea una password da sincronizzare
+set-password-heading-v2 = Crea una password per sincronizzare
 # "This" refers to the heading, "Create password to sync"
-set-password-info-v2 = Questo critta i tuoi dati. Deve essere diversa dalla password del tuo account { -brand-google } o { -brand-apple }.
+set-password-info-v2 = Questa operazione critta i tuoi dati. Deve essere diversa dalla password del tuo account { -brand-google } o { -brand-apple }.
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
@@ -1898,7 +1898,7 @@ confirm-signup-code-instruction-v2 = Inserisci entro 5 minuti il codice che è s
 confirm-signup-code-input-label = Inserisci il codice a 6 cifre
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = Conferma
-confirm-signup-code-sync-button = Inizia la sincronizzazione
+confirm-signup-code-sync-button = Avvia la sincronizzazione
 confirm-signup-code-code-expired = Codice scaduto?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Invia email con nuovo codice.
