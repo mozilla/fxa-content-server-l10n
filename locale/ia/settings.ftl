@@ -1014,8 +1014,14 @@ tfa-enter-recovery-code-1 =
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
 product-promo-monitor-description-v2 = Discoperi ubi tu info private es exponite, e recupera controlo
+# this message will only be shown to users eligible for a special promotion, based on their location (initially USA only)
+# $price - formatted for user locale, in the target market's currency (for launch, always USD)
+# /mo is 'per month'
+product-promo-monitor-special-promo-description = Pro { $price }/me, sparnia sur le protection contra le mercatores de datos de { -product-mozilla-vpn-short }, { -product-mozilla-monitor-short }, e maskas email illimitate de { -product-firefox-relay-short }.
 # Links out to the Monitor site
 product-promo-monitor-cta = Obtene un scansion gratuite
+# Links out to the Monitor pricing site
+product-promo-monitor-special-promo-cta = Obtener protection de tote le anno
 
 ## Profile section
 
