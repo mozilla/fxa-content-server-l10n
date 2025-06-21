@@ -126,6 +126,7 @@ signup-new-password-label =
 signup-confirm-password-label =
     .label = Repetir contraseña
 signup-submit-button = Crear cuenta
+post-verify-set-password-submit-button = Empezar a sincronizar
 form-reset-password-with-balloon-new-password =
     .label = Nueva contraseña
 form-reset-password-with-balloon-confirm-password =
