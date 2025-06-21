@@ -1013,6 +1013,7 @@ tfa-enter-recovery-code-1 =
 
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
+product-promo-monitor-description-v2 = Discoperi ubi tu info private es exponite, e recupera controlo
 # Links out to the Monitor site
 product-promo-monitor-cta = Obtene un scansion gratuite
 
@@ -1543,6 +1544,9 @@ pair-unsupported-message = Ha tu usate le camera del systema? Tu debe accopular 
 
 # password to complete their sign-in when they want to login to a service requiring it.
 
+set-password-heading-v2 = Crear password pro synchronisar
+# "This" refers to the heading, "Create password to sync"
+set-password-info-v2 = Isto crypta tu datos. Illo debe esser differente contrasigno de conto { -brand-google } o { -brand-apple }.
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
@@ -1714,6 +1718,7 @@ signin-password-button-label = Contrasigno
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-desktop-relay = { -brand-firefox } tentara inviar te retro pro usar un alias email post que tu accede.
+signin-code-expired-error = Codice expirate. Reconnecte te.
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
@@ -1906,6 +1911,7 @@ confirm-signup-code-instruction-v2 = Insere in 5 minutas le codice inviate a <em
 confirm-signup-code-input-label = Insere le codice de 6 cifras
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = Confirmar
+confirm-signup-code-sync-button = Comencia a synchronisar
 confirm-signup-code-code-expired = Codice expirate?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Inviar nove codice per email.
@@ -1920,8 +1926,10 @@ confirm-signup-code-desktop-relay = { -brand-firefox } tentara inviar te retro p
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
+signup-heading-v2 = Crear un contrasigno
 signup-relay-info = Un contrasigno es necesse pro gerer in modo secur tu alias de posta electronic e acceder al instrumentos de securitate de { -brand-mozilla }.
 signup-sync-info = Synchronisa tu contrasignos, marcapaginas e altero ubique tu usa { -brand-firefox }.
+signup-sync-info-with-payments = Synchronisa tu contrasignos, methodos de pagamento, marcapaginas e altero ubique tu usa { -brand-firefox }.
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = Perque debe io crear iste conto?
 # Link included in a dismissible info banner that is only displayed to Pocket clients
@@ -1936,5 +1944,9 @@ signup-change-email-link = Cambiar email
 signup-confirmed-sync-header = Synchronisation active
 signup-confirmed-sync-success-banner = { -product-mozilla-account } confirmate
 signup-confirmed-sync-button = Comenciar a navigar
+# Shown when payment methods are also synced
+signup-confirmed-sync-description-with-payment-v2 = Tu contrasignos, methodos de pagamento, adresses, marcapaginas, chronologia, e plus pote synchronisar se ubique tu usa { -brand-firefox }.
+signup-confirmed-sync-description-v2 = Tu contrasignos, adresses, marcapaginas, chronologia, e plus pote synchronisar se ubique tu usa { -brand-firefox }.
 signup-confirmed-sync-add-device-link = Adder un altere apparato
 signup-confirmed-sync-manage-sync-button = Gerer synchronisation
+signup-confirmed-sync-set-password-success-banner = Contrasigno de synchronisation create
