@@ -1018,6 +1018,10 @@ tfa-enter-recovery-code-1 =
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
 product-promo-monitor-description-v2 = Μάθετε πού εκτίθενται τα προσωπικά σας δεδομένα και ανακτήστε τον έλεγχό τους
+# this message will only be shown to users eligible for a special promotion, based on their location (initially USA only)
+# $price - formatted for user locale, in the target market's currency (for launch, always USD)
+# /mo is 'per month'
+product-promo-monitor-special-promo-description = Με { $price }/μήνα, εξοικονομήστε χρήματα στο { -product-mozilla-vpn-short }, την προστασία από εμπόρους δεδομένων του { -product-mozilla-monitor-short } και τις απεριόριστες μάσκες email του { -product-firefox-relay-short }.
 # Links out to the Monitor site
 product-promo-monitor-cta = Δωρεάν σάρωση
 # Links out to the Monitor pricing site
@@ -1550,6 +1554,8 @@ pair-unsupported-message = Χρησιμοποιήσατε την κάμερα σ
 # password to complete their sign-in when they want to login to a service requiring it.
 
 set-password-heading-v2 = Δημιουργία κωδικού πρόσβασης για συγχρονισμό
+# "This" refers to the heading, "Create password to sync"
+set-password-info-v2 = Αυτός κρυπτογραφεί τα δεδομένα σας. Πρέπει να είναι διαφορετικός από τον κωδικό πρόσβασης του λογαριασμού { -brand-google } ή { -brand-apple } σας.
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
@@ -1936,7 +1942,8 @@ confirm-signup-code-desktop-relay = Το { -brand-firefox } θα προσπαθ�
 
 signup-heading-v2 = Δημιουργία κωδικού πρόσβασης
 signup-relay-info = Απαιτείται ένας κωδικός πρόσβασης για τη διαχείριση των μασκών email σας και την πρόσβαση στα εργαλεία ασφαλείας της { -brand-mozilla }.
-signup-sync-info = Συγχρονίστε τους κωδικούς πρόσβασης, τους σελιδοδείκτες και πολλά άλλα, οπουδήποτε χρησιμοποιείτε το { -brand-firefox }.
+signup-sync-info = Συγχρονίστε τους κωδικούς πρόσβασης, τους σελιδοδείκτες και πολλά άλλα, σε όποια συσκευή χρησιμοποιείτε το { -brand-firefox }.
+signup-sync-info-with-payments = Συγχρονίστε τους κωδικούς πρόσβασης, τις μεθόδους πληρωμής, τους σελιδοδείκτες και πολλά άλλα, σε όποια συσκευή χρησιμοποιείτε το { -brand-firefox }.
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = Γιατί πρέπει να δημιουργήσω αυτόν τον λογαριασμό;
 # Link included in a dismissible info banner that is only displayed to Pocket clients
@@ -1951,6 +1958,9 @@ signup-change-email-link = Αλλαγή email
 signup-confirmed-sync-header = Ο συγχρονισμός είναι ενεργός
 signup-confirmed-sync-success-banner = Ο { -product-mozilla-account(case: "nom", capitalization: "lower") } επιβεβαιώθηκε
 signup-confirmed-sync-button = Έναρξη περιήγησης
+# Shown when payment methods are also synced
+signup-confirmed-sync-description-with-payment-v2 = Οι κωδικοί πρόσβασης, οι μέθοδοι πληρωμής, οι διευθύνσεις, οι σελιδοδείκτες, το ιστορικό σας και πολλά άλλα μπορούν να συγχρονίζονται σε όποια συσκευή χρησιμοποιείτε το { -brand-firefox }.
+signup-confirmed-sync-description-v2 = Οι κωδικοί πρόσβασης, οι διευθύνσεις, οι σελιδοδείκτες, το ιστορικό σας και πολλά άλλα μπορούν να συγχρονίζονται σε όποια συσκευή χρησιμοποιείτε το { -brand-firefox }.
 signup-confirmed-sync-add-device-link = Προσθήκη άλλης συσκευής
 signup-confirmed-sync-manage-sync-button = Διαχείριση συγχρονισμού
 signup-confirmed-sync-set-password-success-banner = Ο κωδικός πρόσβασης συγχρονισμού δημιουργήθηκε
