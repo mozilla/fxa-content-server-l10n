@@ -273,6 +273,7 @@ metadata-description-default = Bok, wó kótaryž sćo pšosył, njejo se namaka
 
 ## Coupon Error Messages
 
+next-coupon-error-cannot-redeem = Kod, kótaryž sćo zapódał, njedajo se slědk wześ – wašo konto ma pjerwjejšny abonement jadnogo z našych słužbow.
 next-coupon-error-expired = Zapódany kod jo spadnuł.
 next-coupon-error-generic = Pśi pśeźěłowanju koda jo zmólka nastała. Pšosym wopytajśo hyšći raz.
 next-coupon-error-invalid = Zapódany kod jo njepłaśiwy.

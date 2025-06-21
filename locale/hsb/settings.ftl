@@ -1014,7 +1014,7 @@ product-promo-monitor-description-v2 = Wuslědźće, hdźež so waše informacij
 # this message will only be shown to users eligible for a special promotion, based on their location (initially USA only)
 # $price - formatted for user locale, in the target market's currency (for launch, always USD)
 # /mo is 'per month'
-product-promo-monitor-special-promo-description = Lutujće za { $price }/měsac z { -product-mozilla-vpn-short }, ze škitom datowych wikowarjow { -product-mozilla-monitor-short } a njewobmjezowane e-mejlowe maski { -product-firefox-relay-short }.
+product-promo-monitor-special-promo-description = Lutujće za { $price }/měsac z { -product-mozilla-vpn-short }, ze škitom datowych wikowarjow { -product-mozilla-monitor-short } a z njewobmjezowanymi e-mejlowymi maskami { -product-firefox-relay-short }.
 # Links out to the Monitor site
 product-promo-monitor-cta = Dóstańće darmotny sken
 # Links out to the Monitor pricing site
