@@ -1017,8 +1017,11 @@ tfa-enter-recovery-code-1 =
 
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
+product-promo-monitor-description-v2 = Μάθετε πού εκτίθενται τα προσωπικά σας δεδομένα και ανακτήστε τον έλεγχό τους
 # Links out to the Monitor site
 product-promo-monitor-cta = Δωρεάν σάρωση
+# Links out to the Monitor pricing site
+product-promo-monitor-special-promo-cta = Λάβετε προστασία όλο τον χρόνο
 
 ## Profile section
 
@@ -1546,6 +1549,7 @@ pair-unsupported-message = Χρησιμοποιήσατε την κάμερα σ
 
 # password to complete their sign-in when they want to login to a service requiring it.
 
+set-password-heading-v2 = Δημιουργία κωδικού πρόσβασης για συγχρονισμό
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
@@ -1722,6 +1726,7 @@ signin-password-button-label = Κωδικός πρόσβασης
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-desktop-relay = Το { -brand-firefox } θα προσπαθήσει να σας μεταφέρει στην αρχική καρτέλα για να χρησιμοποιήσετε μια μάσκα email αφού συνδεθείτε.
+signin-code-expired-error = Ο κωδικός έληξε. Κάντε ξανά σύνδεση.
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
@@ -1931,6 +1936,7 @@ confirm-signup-code-desktop-relay = Το { -brand-firefox } θα προσπαθ�
 
 signup-heading-v2 = Δημιουργία κωδικού πρόσβασης
 signup-relay-info = Απαιτείται ένας κωδικός πρόσβασης για τη διαχείριση των μασκών email σας και την πρόσβαση στα εργαλεία ασφαλείας της { -brand-mozilla }.
+signup-sync-info = Συγχρονίστε τους κωδικούς πρόσβασης, τους σελιδοδείκτες και πολλά άλλα, οπουδήποτε χρησιμοποιείτε το { -brand-firefox }.
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = Γιατί πρέπει να δημιουργήσω αυτόν τον λογαριασμό;
 # Link included in a dismissible info banner that is only displayed to Pocket clients

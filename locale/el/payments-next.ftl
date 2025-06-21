@@ -270,6 +270,7 @@ metadata-description-default = Η σελίδα που ζητήσατε δεν β
 
 ## Coupon Error Messages
 
+next-coupon-error-cannot-redeem = Δεν είναι δυνατή η εξαργύρωση του κωδικού που πληκτρολογήσατε· ο λογαριασμός σας διαθέτει προηγούμενη συνδρομή σε κάποια από τις υπηρεσίες μας.
 next-coupon-error-expired = Ο κωδικός που καταχωρήσατε έχει λήξει.
 next-coupon-error-generic = Προέκυψε σφάλμα κατά την επεξεργασία του κωδικού. Δοκιμάστε ξανά.
 next-coupon-error-invalid = Ο κωδικός που καταχωρήσατε δεν είναι έγκυρος.
