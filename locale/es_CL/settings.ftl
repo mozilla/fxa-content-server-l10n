@@ -1007,6 +1007,10 @@ tfa-enter-recovery-code-1 =
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
 product-promo-monitor-description-v2 = Encuentra donde tu información privada fue expuesta y toma el control
+# this message will only be shown to users eligible for a special promotion, based on their location (initially USA only)
+# $price - formatted for user locale, in the target market's currency (for launch, always USD)
+# /mo is 'per month'
+product-promo-monitor-special-promo-description = Por { $price }/mes, ahorra en la protección de data-broker de { -product-mozilla-vpn-short }, { -product-mozilla-monitor-short } y las máscaras de correo electrónico ilimitadas de { -product-firefox-relay-short }.
 # Links out to the Monitor site
 product-promo-monitor-cta = Obtén un escaneo gratuito
 # Links out to the Monitor pricing site
