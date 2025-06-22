@@ -126,6 +126,7 @@ signup-new-password-label =
 signup-confirm-password-label =
     .label = Gjenta passord
 signup-submit-button = Opprett konto
+post-verify-set-password-submit-button = Start synkronisering
 form-reset-password-with-balloon-new-password =
     .label = Nytt passord
 form-reset-password-with-balloon-confirm-password =
@@ -174,7 +175,7 @@ form-verify-totp-disabled-button-title-numeric = Skriv inn { $codeLength }-sifra
 # Submit button is disabled unless a valid code format is entered
 # Used when the code may contain numbers and/or letters
 # $codeLength : number of characters in a valid code
-form-verify-totp-disabled-button-title-alphanumeric = Skriv inn den { $codeLength }-sifra koden for å halde fram
+form-verify-totp-disabled-button-title-alphanumeric = Skriv inn koden på { $codeLength } teikn for å halde fram
 
 # GetDataTrio component, part of Account Recovery Key flow
 
@@ -534,7 +535,7 @@ cs-sign-out-button = Logg ut
 
 dc-heading = Datainnsamling og bruk
 dc-subheader-moz-accounts = { -product-mozilla-accounts }
-dc-subheader-ff-browser = { -brand-firefox } nettlesar
+dc-subheader-ff-browser = { -brand-firefox }-nettlesar
 dc-subheader-content-2 = Tillat { -product-mozilla-accounts } å sende tekniske data og interaksjonsdata til { -brand-mozilla }?
 dc-subheader-ff-content = For å sjå gjennom eller oppdatere tekniske data og interaksjonsdata-innstillingar i { -brand-firefox }-nettlesaren, opne { -brand-firefox }-innstillingane og naviger til Personvern og sikkerheit.
 dc-opt-out-success-2 = Vellykka utmelding. { -product-mozilla-accounts } sender ikkje tekniske data eller interaksjonsdata til { -brand-mozilla }.
@@ -1879,6 +1880,7 @@ confirm-signup-code-instruction-v2 = Skriv inn koden som vart sendt til <email>{
 confirm-signup-code-input-label = Skriv inn 6-sifra kode
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = Stadfest
+confirm-signup-code-sync-button = Start synkronisering
 confirm-signup-code-code-expired = Har koden gått ut?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Send ny kode på e-post.
@@ -1893,6 +1895,7 @@ confirm-signup-code-desktop-relay = { -brand-firefox } vil prøve å sende deg t
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
+signup-heading-v2 = Opprett passord
 signup-relay-info = Eit passord er nødvendig for å sikkert administrere dei maskerte e-postane dine og få tilgang til tryggingsverktøya til { -brand-mozilla }.
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = Kvifor må eg opprette denne kontoen?
@@ -1905,3 +1908,5 @@ signup-change-email-link = Endre e-post
 ## SignupConfirmedSync page
 ## Shown to users when they finish confirming their account through Sync
 
+signup-confirmed-sync-header = Synkronisering er slått på
+signup-confirmed-sync-manage-sync-button = Handsam synkronisering
