@@ -168,7 +168,7 @@ checkmark-success-icon-aria-label =
     .aria-label = Suksess
 # Used to indicate a check mark for an enabled state/option
 checkmark-enabled-icon-aria-label =
-    .aria-label = Skrudd på
+    .aria-label = Slått på
 
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
@@ -225,10 +225,20 @@ input-password-show = Vis passord
 ## This is the final step in the account recovery key creation flow after a Sync signin or in account settings
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
+# The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
+# "Finish" refers to "Finish the account recovery key creation process"
+flow-recovery-key-hint-cta-text = Fullfør
+# Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-char-limit-error = Hintet må inneholde færre enn 255 tegn.
 
 ## ResetPasswordWarning component
 ## Warning shown to sync users that reset their password without using an account recovery key
 
+password-reset-warning-icon = Advarsel
+password-reset-chevron-expanded = Skjul advarsel
+password-reset-chevron-collapsed = Vis advarsel
+password-reset-warning-have-key = Har du en kontogjenopprettingsnøkkel?
 
 ## Alert Bar
 
@@ -246,8 +256,14 @@ avatar-default-avatar =
 
 # BentoMenu component
 
+bento-menu-title-3 = { -brand-mozilla }-produkter
+bento-menu-vpn-2 = { -product-mozilla-vpn }
+bento-menu-monitor-3 = { -product-mozilla-monitor }
+bento-menu-pocket-2 = { -product-pocket }
+bento-menu-firefox-relay-2 = { -product-firefox-relay }
 bento-menu-firefox-desktop = { -brand-firefox }-nettleser for datamaskiner
 bento-menu-firefox-mobile = { -brand-firefox }-nettleser for mobil
+bento-menu-made-by-mozilla = Utviklet av { -brand-mozilla }
 
 ## Connect another device promo
 
@@ -263,6 +279,13 @@ connect-another-app-store-image-2 =
 
 cs-heading = Tilknyttede tjenester
 cs-description = Alt du bruker og er innlogget på.
+cs-cannot-refresh = Beklager, det oppsto ett problem under oppdatering av listen over tilkoblede tjenester.
+cs-cannot-disconnect = Klienten ble ikke funnet, kan ikke koble fra
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $service (String) - the name of a device or service that uses Mozilla accounts
+#                       (for example: "Firefox Lockwise")
+cs-logged-out-2 = Logget ut av { $service }
 cs-refresh-button =
     .title = Oppdater tilkoblede tjenester
 # Link text to a support page on missing or duplicate devices
@@ -298,6 +321,8 @@ cs-sign-out-button = Logg ut
 ## Data collection section
 
 dc-heading = Datainnsamling og -bruk
+dc-subheader-moz-accounts = { -product-mozilla-accounts }
+dc-subheader-ff-browser = { -brand-firefox }-nettleser
 dc-subheader-content-2 = Tillate { -product-mozilla-accounts } å sende tekniske- og interaksjonsdata til { -brand-mozilla }?
 dc-opt-out-success-2 = Fravalget vellykket. { -product-mozilla-accounts } sender ikke tekniske data eller interaksjonsdata til { -brand-mozilla }.
 dc-opt-in-success-2 = Takk! Deling av disse data hjelper oss med å forbedre { -product-mozilla-accounts }.
@@ -307,6 +332,7 @@ dc-learn-more = Les mer
 
 drop-down-menu-title-2 = { -product-mozilla-account }-meny
 drop-down-menu-sign-out = Logg ut
+drop-down-menu-sign-out-error-2 = Beklager, det oppsto et problem med å logge deg av
 
 ## Flow Container
 
@@ -316,11 +342,19 @@ flow-container-back = Tilbake
 ## Users see this view when they are generating a new account recovery key
 ## This screen asks the user to confirm their password before generating a new key
 
+flow-recovery-key-confirm-pwd-heading-v2 = Skriv inn passordet ditt på nytt for å øke sikkerheten
+flow-recovery-key-confirm-pwd-input-label = Skriv inn passordet ditt
+# Clicking on this button will check the password and create an account recovery key
+flow-recovery-key-confirm-pwd-submit-button = Opprett kontogjenopprettingsnøkkel
+# For users with an existing account recovery key, clicking on this button will
+# check the password, delete the existing key and create a new account recovery key
+flow-recovery-key-confirm-pwd-submit-button-change-key = Opprett en ny kontogjenopprettingsnøkkel
 
 ## FlowRecoveryKeyDownload - Third view in the PageRecoveryKeyCreate flow
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
 
+flow-recovery-key-download-heading-v2 = Kontogjenopprettingsnøkkelen ble opprettet — Last ned og lagre den nå
 # This link allows user to proceed to the next step without clicking the download button
 flow-recovery-key-download-next-link-v2 = Fortsett uten å laste ned
 
@@ -328,9 +362,19 @@ flow-recovery-key-download-next-link-v2 = Fortsett uten å laste ned
 ## This is the fourth and final step in the account recovery key creation flow in account settings
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
+# Success message displayed in alert bar after the user has finished creating an account recovery key.
+flow-recovery-key-success-alert = Kontogjenopprettingsnøkkel opprettet
 
 ## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
 
+# The header of the first view in the Recovery Key Create flow
+flow-recovery-key-info-header = Opprett en kontogjenopprettingsnøkkel i tilfelle du glemmer passordet ditt
+# The header of the first view in the Recovery Key Create flow when replacing an existing recovery key
+flow-recovery-key-info-header-change-key = Endre din kontogjenopprettingsnøkkel
+# The text of the "submit" button to start creating (or changing) an account recovery key
+flow-recovery-key-info-cta-text-v3 = Kom i gang
+# Link to cancel account recovery key change and return to settings
+flow-recovery-key-info-cancel-link = Avbryt
 
 ## FlowSetup2faApp
 
@@ -368,15 +412,26 @@ la-heading = Tilknyttede kontoer
 la-description = Du har autorisert tilgang til følgende kontoer.
 la-unlink-button = Fjern tilknytning
 la-unlink-account-button = Fjern tilknytning
+la-set-password-button = Velg passord
+la-unlink-heading = Fjern tilknyting til tredjepartskonto
+nav-linked-accounts = { la-heading }
 
 ## Modal - Default values for a message directed at the user where the user can typically Confirm or Cancel.
 
 modal-close-title = Lukk
 modal-cancel-button = Avbryt
+modal-default-confirm-button = Bekreft
 
 ## Modal Verify Session
 
+mvs-verify-your-email-2 = Bekreft e-postadressen din
+mvs-enter-verification-code-2 = Skriv inn bekreftelseskode
+# This string is used to show a notification to the user for them to enter confirmation code to confirm their email.
+# Variables:
+#   email (String) - the user's email
+mvs-enter-verification-code-desc-2 = Skriv inn bekreftelseskoden som ble sendt til <email>{ $email }</email> innen 5 minutter.
 msv-cancel-button = Avbryt
+msv-submit-button-2 = Bekreft
 
 ## Settings Nav
 
@@ -385,6 +440,8 @@ nav-profile = Profil
 nav-security = Sikkerhet
 nav-connected-services = Tilknyttede tjenester
 nav-data-collection = Datainnsamling og -bruk
+nav-paid-subs = Betalte abonnement
+nav-email-comm = E-postkommunikasjon
 
 ## Two Step Authentication - replace backup authentication code
 
@@ -395,6 +452,7 @@ tfa-replace-code-2-2 = Trinn 2 av 2
 
 avatar-page-title =
     .title = Profilbilde
+avatar-page-add-photo = Legg til bilde
 avatar-page-add-photo-button =
     .title = { avatar-page-add-photo }
 avatar-page-take-photo = Ta bilde
@@ -413,11 +471,18 @@ avatar-page-zoom-in-button =
     .title = Zoom inn
 avatar-page-rotate-button =
     .title = Rotere
+avatar-page-camera-error = Kunne ikke starte kameraet
+avatar-page-new-avatar =
+    .alt = nytt profilbilde
+avatar-page-file-upload-error-3 = Det oppsto et problem med å laste opp profilbildet ditt.
 
 ## Password change page
 
 pw-change-header =
     .title = Endre passord
+pw-8-chars = Minst 8 tegn
+pw-not-email = Ikke e-postadressen din
+pw-commonly-used = Ikke et typisk brukt passord
 pw-change-cancel-button = Avbryt
 pw-change-save-button = Lagre
 pw-change-forgot-password-link = Glemt passord?
@@ -427,9 +492,13 @@ pw-change-new-password =
     .label = Skriv inn nytt passord
 pw-change-confirm-password =
     .label = Bekreft nytt passord
+pw-change-success-alert-2 = Passordet er oppdatert
 
 ## Password create page
 
+pw-create-header =
+    .title = Opprett passord
+pw-create-success-alert-2 = Passord satt
 
 ## Delete account page
 
@@ -439,6 +508,8 @@ delete-account-step-1-2 = Trinn 1 av 2
 delete-account-step-2-2 = Trinn 2 av 2
 delete-account-confirm-title-4 = Du kan ha koblet { -product-mozilla-account } til ett eller flere av følgende { -brand-mozilla }-produkter eller -tjenester som holder deg sikker og produktiv på nettet:
 delete-account-product-mozilla-account = { -product-mozilla-account }
+delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
+delete-account-product-mdn-plus = { -product-mdn-plus }
 delete-account-continue-button = Fortsett
 delete-account-password-input =
     .label = Skriv inn passord
@@ -492,21 +563,56 @@ add-secondary-email-step-1 = Trinn 1 av 2
 
 ## SubRow component
 
+# Shown to users who have no backup authentication codes
+# Button to add backup authentication codes when none are configured
+tfa-row-backup-codes-add-cta = Legg til
 
 ## Switch component
 
+# Used as "title" attribute when the switch is "on" and interaction turns the switch to "off"
+switch-turn-off = Slå av
+# Used as "title" attribute when the switch is "off" and interaction turns the switch to "on"
+switch-turn-on = Slå på
+# Used as "title" attribute when switch has been interacted with and form is submitting
+switch-submitting = Sender inn…
+switch-is-on = på
+switch-is-off = av
 
 ## Sub-section row Defaults
 
+row-defaults-action-add = Legg til
+row-defaults-action-change = Endre
+row-defaults-action-disable = Slå av
+row-defaults-status = Ingen
 
 ## Account recovery key sub-section on main Settings page
 
+rk-header-1 = Kontogjenopprettingsnøkkel
+rk-enabled = Slått på
+rk-action-create = Opprett
+# Button to delete the existing account recovery key and create a new one
+rk-action-change-button = Endre
+rk-action-remove = Fjern
+rk-key-removed-2 = Kontogjenopprettingsnøkkelen er fjernet
+# Icon button to delete user's account recovery key. Text appears in tooltip on hover and as alt text for screen readers.
+unit-row-recovery-key-delete-icon-button-title = Slett kontogjenopprettingsnøkkelen
 
 ## Secondary email sub-section on main Settings page
 
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-delete-email-successful-2 = { $email } er slettet
+# Default value for the secondary email
+se-secondary-email-none = Ingen
 
 ## Two Step Auth sub-section on Settings main page
 
+tfa-row-enabled = Slått på
+tfa-row-disabled-status = Slått av
+tfa-row-action-add = Legg til
+tfa-row-action-disable = Slå av
+tfa-row-disable-modal-confirm = Slå av
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
@@ -526,16 +632,31 @@ continue-with-apple-button = Fortsett med { -brand-apple }
 
 ## Auth-server based errors that originate from backend service
 
+auth-error-102 = Ukjent konto
+auth-error-103 = Feil passord
+auth-error-105-2 = Ugyldig bekreftelseskode
+auth-error-110 = Ugyldig token
+auth-error-138-2 = Ubekreftet økt
+auth-error-159 = Ugyldig kontogjenopprettingsnøkkel
+auth-error-183-2 = Ugyldig eller utløpt bekreftelseskode
+auth-error-999 = Uventet feil
+auth-error-1001 = Innloggingsforsøk avbrutt
+auth-error-1002 = Økt utløpt. Logg inn for å fortsette.
+auth-error-1010 = Gyldig passord kreves
+auth-error-1062 = Ugyldig omdirigering
 
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
+cannot-create-account-header = Kan ikke opprette konto
 cannot-create-account-requirements-2 = Du må oppfylle visse alderskrav for å opprette en { -product-mozilla-account }.
 # For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
 cannot-create-account-learn-more-link = Les mer
 
 ## Connect Another Device page
 
+# A user will only see this header if they are signed in. The header will be preceded by a green checkmark (rtl/ltr sensitive)
+connect-another-device-signed-in-header = Du er logget inn på { -brand-firefox }
 
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
