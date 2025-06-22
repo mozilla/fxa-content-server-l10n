@@ -657,17 +657,36 @@ cannot-create-account-learn-more-link = Les mer
 
 # A user will only see this header if they are signed in. The header will be preceded by a green checkmark (rtl/ltr sensitive)
 connect-another-device-signed-in-header = Du er logget inn på { -brand-firefox }
+# A "success" message visible to users who verified via sign-in
+connect-another-device-signin-confirmed-banner = Innlogging bekreftet
+# A link for the user to sign in to the current Firefox browser, preceded by a message prompting the user to sign in so as to complete the device sync setup
+connect-another-device-signin-link = Logg inn
+# This link leads the user back to the `/pair` page so as to connect another device
+connect-another-device-cad-link = Koble til en annen enhet
+# This link cancels the process of connecting another device, and takes the user back to Account Settings
+connect-another-device-not-now-link = Ikke nå
 
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
 
 cookies-disabled-enable-prompt-2 = Slå på infokapsler og lokal lagring i nettleseren din for å få tilgang til din { -product-mozilla-account }. Dette vil aktivere funksjonalitet som for eksempel å huske deg mellom økter.
+# A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
+cookies-disabled-button-try-again = Prøv igjen
+# An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
+cookies-disabled-learn-more = Les mer
 
 ## Index / home page
 
+# $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
+index-subheader-with-servicename = Fortsett til { $serviceName }
+index-subheader-with-logo = Fortsett til <span>{ $serviceLogo }</span>
+index-subheader-default = Fortsett til kontoinnstillingene
+index-cta = Registrer deg eller logg inn
 
 ## InlineRecoveryKeySetup page component
 
+inline-recovery-key-setup-recovery-created = Kontogjenopprettingsnøkkel opprettet
+inline-recovery-key-setup-download-header = Sikre kontoen din
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
@@ -775,9 +794,14 @@ auth-totp-heading-w-custom-service = Skriv inn verifiseringskoden <span>for å f
 
 ## ResetPasswordRecoveryPhone page
 
+reset-password-with-recovery-key-verified-page-title = Passordet er tilbakestilt
 
 ## CompleteSignin component
 
+# This is a label that precedes any error which could arise from trying to validate the user's signin
+error-label = Feil:
+# Shown above an error banner (e.g., invalid confirmation code, unexpected error)
+complete-signin-error-header = Bekreftelsesfeil
 
 ## Signin page
 
@@ -790,12 +814,20 @@ signin-subheader-with-logo = Fortsett til <span>{ $serviceLogo }</span>
 # For languages structured like English, the phrase can read "to continue to { $serviceName }"
 signin-subheader-without-logo-with-servicename = Fortsett til { $serviceName }
 signin-subheader-without-logo-default = Fortsett til kontoinnstillingene
+signin-button = Logg inn
+signin-header = Logg inn
+signin-use-a-different-account-link = Bruk en annen konto
+signin-forgot-password-link = Glemt passord?
+signin-password-button-label = Passord
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
 ## they can click "report it to us" if they did not attempt to sign in.
 ## This will be the page shown to users to block the sign in and report it.
 
+report-signin-submit-button = Rapporter aktivitet
+report-signin-support-link = Hvorfor skjer dette?
+back = Tilbake
 
 ## SigninPushCode page
 ## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
@@ -803,6 +835,10 @@ signin-subheader-without-logo-default = Fortsett til kontoinnstillingene
 
 ## SigninPushCodeConfirmPage
 
+signin-push-code-confirm-verifying = Kontrollerer
+signin-push-code-confirm-login = Bekreft innlogging
+signin-push-code-confirm-wasnt-me = Det var ikke meg, endre passordet.
+signin-push-code-confirm-link-error = Lenken er skadet. Prøv på nytt.
 
 ## Signin recovery method page
 ## This page is shown to users when they are having trouble signing in with
@@ -814,6 +850,9 @@ signin-subheader-without-logo-default = Fortsett til kontoinnstillingene
 ## (provided to the user when they first set up two-step authentication)
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
+signin-recovery-code-heading = Logg inn
+# Form button to confirm if the backup authentication code entered by the user is valid
+signin-recovery-code-confirm-button = Bekreft
 
 ## SigninRecoveryPhone page
 
@@ -829,15 +868,31 @@ signin-subheader-without-logo-default = Fortsett til kontoinnstillingene
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 signin-token-code-heading-2 = Skriv inn bekreftelseskoden<span> for { -product-mozilla-account }en din</span>
+signin-token-code-input-label-v2 = Skriv inn 6-sifret kode
+# Form button to confirm if the confirmation code entered by the user is valid
+signin-token-code-confirm-button = Bekreft
+signin-token-code-code-expired = Har koden utløpt?
+# Link to resend a new code to the user's email.
+signin-token-code-resend-code-link = Send ny kode på e-post.
+# Error displayed in a tooltip when the form is submitted without a code
+signin-token-code-required-error = Bekreftelseskode kreves
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+signin-totp-code-input-label-v4 = Skriv inn 6-sifret kode
+# Form button to confirm if the authentication code entered by the user is valid
+signin-totp-code-confirm-button = Bekreft
+signin-totp-code-other-account-link = Bruk en annen konto
+signin-totp-code-recovery-code-link = Har du problemer med å oppgi kode?
+# Error displayed in a tooltip when the form is submitted without a code
+signin-totp-code-required-error = Autentiseringskode kreves
 
 ## Signin Unblock Page
 ## Page shown when signin has been blocked by rate limiting (too many requests)
 
+signin-unblock-header = Godkjenn denne innloggingen
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
