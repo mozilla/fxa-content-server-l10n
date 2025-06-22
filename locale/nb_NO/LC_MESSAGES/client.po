@@ -948,7 +948,7 @@ msgstr ""
 
 #: .es5/templates/complete_reset_password.mustache:11
 msgid "You have successfully restored your account using your account recovery key. Create a new password to secure your data, and store it in a safe location."
-msgstr "Du har gjenopprettet kontoen din ved hjelp av kontogjenopprettingsnøkkelen. Opprett et nytt passord for å sikre dataene dine, og lagre det på et trygt sted."
+msgstr "Du har gjenopprettet kontoen din ved hjelp av kontogjenopprettingsnøkkelen. Opprett et nytt passord for å sikre dataene dine, og oppbevar den på et trygt sted."
 
 #: .es5/templates/complete_reset_password.mustache:13 .es5/templates/post_verify/password/force_password_change.mustache:8
 msgid "New password"
@@ -1048,7 +1048,7 @@ msgstr "Har koden utløpt?"
 
 #: .es5/templates/confirm_signup_code.mustache:6 .es5/templates/sign_in_token_code.mustache:6
 msgid "Email new code."
-msgstr ""
+msgstr "Send ny kode på e-post."
 
 #: .es5/templates/connect_another_device.mustache:1 .es5/templates/connect_another_device.mustache:23 .es5/templates/pair/index.mustache:7 .es5/templates/pair/unsupported.mustache:1
 msgid "Connect another device"
@@ -1056,7 +1056,7 @@ msgstr "Koble til en annen enhet"
 
 #: .es5/templates/connect_another_device.mustache:3
 msgid "You’re signed into Firefox"
-msgstr ""
+msgstr "Du er logget inn på Firefox"
 
 #: .es5/templates/connect_another_device.mustache:5
 msgid "Email confirmed"
@@ -1068,7 +1068,7 @@ msgstr ""
 
 #: .es5/templates/connect_another_device.mustache:11
 msgid "You’re signed in to Firefox"
-msgstr ""
+msgstr "Du er logget inn på Firefox"
 
 #: .es5/templates/connect_another_device.mustache:15
 msgid "Sign in to this Firefox to complete set-up"
@@ -1088,7 +1088,7 @@ msgstr ""
 
 #: .es5/templates/connect_another_device.mustache:24 .es5/templates/ready.mustache:2
 msgid "Manage your account"
-msgstr ""
+msgstr "Behandle kontoen din"
 
 #: .es5/templates/force_auth.mustache:1 .es5/templates/sign_in_password.mustache:1
 msgid "Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Mozilla account</span>"
@@ -1131,7 +1131,7 @@ msgstr "Glemt passord?"
 
 #: .es5/templates/index.mustache:1
 msgid "Continue to your Mozilla account"
-msgstr ""
+msgstr "Fortsett til Mozilla-kontoen din"
 
 #: .es5/templates/index.mustache:2
 msgid "Sync your passwords, tabs, and bookmarks everywhere you use Firefox."
@@ -1155,7 +1155,7 @@ msgstr ""
 
 #: .es5/templates/index.mustache:12
 msgid "Sign up or sign in"
-msgstr ""
+msgstr "Registrer deg eller logg inn"
 
 #: .es5/templates/index.mustache:14
 msgid "A Mozilla account also unlocks access to more privacy-protecting products from Mozilla."
@@ -1320,7 +1320,7 @@ msgstr "Kontoen er klar!"
 
 #: .es5/templates/ready.mustache:15
 msgid "Generate a new account recovery key"
-msgstr ""
+msgstr "Generer en ny kontogjenopprettingsnøkkel"
 
 #: .es5/templates/report_sign_in.mustache:4
 msgid "Report unauthorized sign-in?"
@@ -1366,7 +1366,7 @@ msgstr "Hendelsesnavn"
 
 #: .es5/templates/security_events.mustache:4
 msgid "Confirmed"
-msgstr ""
+msgstr "Bekreftet"
 
 #: .es5/templates/security_events.mustache:5
 msgid "Created At"
@@ -1406,7 +1406,7 @@ msgstr ""
 
 #: .es5/templates/sign_in_recovery_code.mustache:4
 msgid "Enter 10-digit backup authentication code"
-msgstr ""
+msgstr "Skriv inn 10-sifret reserve-verifiseringskode"
 
 #: .es5/templates/sign_in_recovery_code.mustache:7
 msgid "Are you locked out?"
@@ -1454,7 +1454,7 @@ msgstr "Skriv inn godkjenningskode"
 
 #: .es5/templates/sign_up_password.mustache:1 .es5/templates/post_verify/third_party_auth/set_password.mustache:1
 msgid "Set your password"
-msgstr ""
+msgstr "Angi passordet ditt"
 
 #: .es5/templates/sign_up_password.mustache:2
 msgid "Change email"
@@ -1466,11 +1466,11 @@ msgstr "Gjenta passord"
 
 #: .es5/templates/sign_up_password.mustache:6 .es5/templates/post_verify/third_party_auth/set_password.mustache:5
 msgid "You need this password to access any encrypted data you store with us.<br class=\"mb-3\">A reset means potentially losing data like passwords and bookmarks."
-msgstr ""
+msgstr "Du trenger dette passordet for å få tilgang til alle krypterte data du lagrer hos oss.<br class=\"mb-3\">En tilbakestilling kan medføre tap av data som f.eks. passord og bokmerker."
 
 #: .es5/templates/sign_up_password.mustache:7
 msgid "Get more from Mozilla:"
-msgstr ""
+msgstr "Få mer fra Mozilla:"
 
 #: .es5/templates/sign_up_password.mustache:10 .es5/templates/post_verify/third_party_auth/set_password.mustache:6
 msgid "Choose what to sync"
@@ -1486,7 +1486,7 @@ msgstr ""
 
 #: .es5/templates/support.mustache:2
 msgid "Mozilla account"
-msgstr ""
+msgstr "Mozilla-konto"
 
 #: .es5/templates/support.mustache:3
 msgid "Account Home"
@@ -1566,7 +1566,7 @@ msgstr "Trinn 1 av 2: Gjenta passord"
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:2
 msgid "Enter your password to view your account recovery key."
-msgstr ""
+msgstr "Skriv inn passordet ditt for å se kontogjenopprettingsnøkkelen din."
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:3
 msgid "Enter Password"
@@ -1614,7 +1614,7 @@ msgstr "Opprett et passord for å fortsette til Firefox Sync. Dataene dine er kr
 
 #: .es5/templates/post_verify/third_party_auth/set_password.mustache:9 .es5/templates/post_verify/finish_account_setup/set_password.mustache:9
 msgid "Create password"
-msgstr ""
+msgstr "Opprett passord"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:4
 msgid "Add a secondary email address"
@@ -1634,7 +1634,7 @@ msgstr "Kanskje senere"
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:4
 msgid "Enter confirmation code"
-msgstr ""
+msgstr "Skriv inn bekreftelseskode"
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
 msgid "Please enter the confirmation code that was sent to %(escapedEmail)s within 5 minutes."
@@ -1703,7 +1703,7 @@ msgstr "Lenken du klikket på manglet tegn, og kan ha blitt ødelagt av e-postkl
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:3 .es5/templates/post_verify/finish_account_setup/set_password.mustache:6
 msgid "Create a Mozilla account"
-msgstr ""
+msgstr "Opprett en Mozilla-konto"
 
 #: .es5/templates/post_verify/finish_account_setup/set_password.mustache:4
 msgid "Continue to %(productName)s"
@@ -1803,7 +1803,7 @@ msgstr ""
 
 #: .es5/templates/partial/brand-messaging.mustache:2
 msgid "Firefox accounts will be renamed Mozilla accounts on Nov 1"
-msgstr ""
+msgstr "Firefox-kontoer vil bytte navn til Mozilla-kontoer den 1. november"
 
 #: .es5/templates/partial/brand-messaging.mustache:3
 msgid "You’ll still sign in with the same username and password, and there are no other changes to the products that you use."
@@ -1811,7 +1811,7 @@ msgstr ""
 
 #: .es5/templates/partial/brand-messaging.mustache:4 .es5/templates/partial/brand-messaging.mustache:7 .es5/templates/partial/unsupported-pair.mustache:3
 msgid "Learn more"
-msgstr ""
+msgstr "Les mer"
 
 #: .es5/templates/partial/brand-messaging.mustache:6
 msgid "We’ve renamed Firefox accounts to Mozilla accounts. You’ll still sign in with the same username and password, and there are no other changes to the products that you use."
@@ -1823,7 +1823,7 @@ msgstr ""
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you? To learn why we ask for your age, follow the “why do we ask” link below."
-msgstr ""
+msgstr "Hvor gammel er du? For å finne ut hvorfor vi spør om alderen din, følg lenken «Hvorfor spør vi?» nedenfor."
 
 #: .es5/templates/partial/coppa-age-input.mustache:2
 msgid "How old are you?"
@@ -1831,7 +1831,7 @@ msgstr "Hvor gammel er du?"
 
 #: .es5/templates/partial/coppa-age-input.mustache:4
 msgid "Why do we ask?"
-msgstr ""
+msgstr "Hvorfor spør vi?"
 
 #: .es5/templates/partial/device-being-paired.mustache:2
 msgid "%(family)s on %(OS)s"

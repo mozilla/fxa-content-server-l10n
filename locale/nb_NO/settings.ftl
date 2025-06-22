@@ -23,10 +23,23 @@ brand-postlaunch-title = Vi har endret navn på { -product-firefox-accounts } ti
 ## Clicking on this button downloads a PDF file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
 
+# Date when the account recovery key was created and this file was downloaded
+# { $date }: formatted date with 'medium' dateStyle format (e.g., for 'en': Jul 31, 2023)
+recovery-key-pdf-download-date = Opprettet den { $date }
+# Shown directly above recovery key value and preceeded by a key icon
+recovery-key-pdf-key-legend = Kontogjenopprettingsnøkkel
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+recovery-key-pdf-storage-ideas-heading = Steder å oppbevare nøkkelen din
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
 
+# Prompt above a checklist of newsletters
+choose-newsletters-prompt-2 = Få mer fra { -brand-mozilla }:
+# Newsletter checklist item
+choose-newsletters-option-test-pilot =
+    .label = Tidlig tilgang til å teste nye produkter
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -41,26 +54,121 @@ datablock-print =
 ## The strings here are used to display information about the origin of activity happening on a user's account
 ## For example, when connecting another device to the user's account
 
+# Variables { $city }, { $region }, { $country } represent the estimated location of the user's device
+# For example, 'Vancouver, British Columbia, Canada (estimated)'
+device-info-block-location-city-region-country = { $city }, { $stateCode }, { $country } (anslått)
+# Variables { $region }, { $country } represent the estimated location of the user's device
+# For example, 'British Columbia, Canada (estimated)'
+device-info-block-location-region-country = { $city }, { $country } (anslått)
+# Variables { $city }, { $country } represent the estimated location of the user's device
+# For example, 'Vancouver, Canada (estimated)'
+device-info-block-location-city-country = { $city }, { $country } (anslått)
+# Variable { $country } represent the estimated location of the user's device
+# For example, 'Canada (estimated)'
+device-info-block-location-country = { $country } (anslått)
+# When an approximate location for the user's device could not be determined
+device-info-block-location-unknown = Ukjent plassering
+# Variable { $browserName } is the browser that created the request (e.g., Firefox)
+# Variable { $genericOSName } is the name of the operating system that created the request (e.g., MacOS, Windows, iOS)
+device-info-browser-os = { $browserName } på { $genericOSName }
+# Variable { $ipAddress } represents the IP address where the request originated
+# The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
+device-info-ip-address = IP-adresse: { $ip-address }
 
 ## FormPasswordWithBalloons
 
+signup-new-password-label =
+    .label = Passord
+signup-confirm-password-label =
+    .label = Gjenta passord
+signup-submit-button = Opprett konto
+form-reset-password-with-balloon-new-password =
+    .label = Nytt passord
+form-reset-password-with-balloon-confirm-password =
+    .label = Gjenta passord
+form-reset-password-with-balloon-submit-button = Tilbakestill passord
+form-reset-password-with-balloon-match-error = Passordene samsvarer ikke
+form-password-sr-too-short-message = Passordet må inneholde minst 8 tegn.
+form-password-sr-not-email-message = Passordet kan ikke inneholde e-postadressen din.
+form-password-sr-not-common-message = Passordet kan ikke være et typisk brukt passord.
+form-password-sr-requirements-met = Det angitte passordet følger alle passordkrav.
+form-password-sr-passwords-match = De angitte passordene samsvarer.
 
 ## FormPasswordInlineCriteria
 
+form-password-with-inline-criteria-signup-new-password-label =
+    .label = Passord
+form-password-with-inline-criteria-signup-confirm-password-label =
+    .label = Gjenta passord
+form-password-with-inline-criteria-signup-submit-button = Opprett konto
+form-password-with-inline-criteria-reset-new-password =
+    .label = Nytt passord
+form-password-with-inline-criteria-confirm-password =
+    .label = Bekreft passord
+form-password-with-inline-criteria-reset-submit-button = Lag nytt passord
+form-password-with-inline-criteria-match-error = Passordene er ikke like
+form-password-with-inline-criteria-sr-too-short-message = Passordet må inneholde minst 8 tegn.
+form-password-with-inline-criteria-sr-not-email-message = Passordet kan ikke inneholde e-postadressen din.
+form-password-with-inline-criteria-sr-not-common-message = Passordet kan ikke være et typisk brukt passord.
+form-password-with-inline-criteria-sr-passwords-match = De angitte passordene samsvarer.
 
 ## FormVerifyCode
 
+# Fallback default localized error message for empty input field
+form-verify-code-default-error = Dette feltet er obligatorisk
 
 ## FormVerifyTotp component
 ## Form to enter a time-based one-time-passcode (e.g., 6-digit numeric code or 8-digit alphanumeric code)
 
+# Information explaining why button is disabled, also read to screen readers
+# Submit button is disabled unless a valid code format is entered
+# Used when the code may only contain numbers
+# $codeLength : number of digits in a valid code
+form-verify-totp-disabled-button-title-numeric = Skriv inn { $codeLength }-sifret kode for å fortsette
+# Information explaining why button is disabled, also read to screen readers
+# Submit button is disabled unless a valid code format is entered
+# Used when the code may contain numbers and/or letters
+# $codeLength : number of characters in a valid code
+form-verify-totp-disabled-button-title-alphanumeric = Skriv inn koden på { $codeLength } tegn for å fortsette
 
 # GetDataTrio component, part of Account Recovery Key flow
 
+get-data-trio-title-firefox = { -brand-firefox }
+get-data-trio-title-firefox-recovery-key = { -brand-firefox }-kontogjenopprettingsnøkkel
+get-data-trio-download-2 =
+    .title = Last ned
+    .aria-label = Last ned
+get-data-trio-copy-2 =
+    .title = Kopier
+    .aria-label = Kopier
+get-data-trio-print-2 =
+    .title = Skriv ut
+    .aria-label = Skriv ut
 
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
+# Aria-label option for an alert symbol
+alert-icon-aria-label =
+    .aria-label = Varsel
+# Aria-label option for an alert symbol
+icon-warning-aria-label =
+    .aria-label = Advarsel
+# An icon of phone with text message. A back recovery phone number
+backup-recovery-sms-icon-aria-label =
+    .aria-label = Gjenopprettings-SMS slått på
+# Disabled version of backup-recovery-sms-icon-aria-label
+backup-recovery-sms-disabled-icon-aria-label =
+    .aria-label = Gjenopprettings-SMS slått av
+# Used to select Canada as country code for phone number
+canadian-flag-icon-aria-label =
+    .aria-label = Canadisk flagg
+# Used to  indicate a check mark for a successful state/action
+checkmark-success-icon-aria-label =
+    .aria-label = Suksess
+# Used to indicate a check mark for an enabled state/option
+checkmark-enabled-icon-aria-label =
+    .aria-label = Skrudd på
 
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
