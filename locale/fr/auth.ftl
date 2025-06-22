@@ -419,13 +419,13 @@ postAddRecoveryPhone-action = Gérer le compte
 postAddTwoStepAuthentication-subject-v3 = Authentification en deux étapes activée
 postAddTwoStepAuthentication-title-2 = Vous avez activé l’authentification en deux étapes
 # After the colon, there is a description of the device that the user used to enable two-step authentication
-postAddTwoStepAuthentication-from-device-v2 = Vous avez demandé cette information depuis :
+postAddTwoStepAuthentication-from-device-v2 = La demande a été effectuée depuis :
 postAddTwoStepAuthentication-action = Gérer le compte
 postAddTwoStepAuthentication-code-required-v3 = Vous devez désormais utiliser votre application d’authentification à chaque connexion.
 postAddTwoStepAuthentication-recovery-method-codes = Vous avez également ajouté des codes d’authentification de secours comme méthode de récupération.
 # Variables:
 #  $maskedPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
-postAddTwoStepAuthentication-recovery-method-phone = Vous avez également ajouté { $maskedPhoneNumber } comme numéro de téléphone de récupération.
+postAddTwoStepAuthentication-recovery-method-phone = Vous avez également ajouté { $maskedPhoneNumber } comme numéro de téléphone de secours.
 postChangeAccountRecovery-subject = La clé de récupération du compte a été modifiée
 postChangeAccountRecovery-title = Vous avez modifié la clé de récupération de votre compte
 postChangeAccountRecovery-body-part1 = Vous disposez maintenant d’une nouvelle clé de récupération de compte. Votre clé précédente a été supprimée.

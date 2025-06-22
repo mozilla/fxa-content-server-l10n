@@ -126,7 +126,7 @@ signup-new-password-label =
 signup-confirm-password-label =
     .label = Répéter le mot de passe
 signup-submit-button = Créer un compte
-post-verify-set-password-submit-button = Commencez la synchronisation
+post-verify-set-password-submit-button = Démarrer la synchronisation
 form-reset-password-with-balloon-new-password =
     .label = Nouveau mot de passe
 form-reset-password-with-balloon-confirm-password =
@@ -1008,7 +1008,7 @@ tfa-enter-recovery-code-1 =
 
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
-product-promo-monitor-description-v2 = Découvrez où sont exposées vos informations privées et prenez le contrôle
+product-promo-monitor-description-v2 = Découvrez où vos informations personnelles ont fuité et reprenez le contrôle
 # this message will only be shown to users eligible for a special promotion, based on their location (initially USA only)
 # $price - formatted for user locale, in the target market's currency (for launch, always USD)
 # /mo is 'per month'
@@ -1542,7 +1542,7 @@ pair-unsupported-message = Avez-vous utilisé la caméra du système ? L’asso
 
 set-password-heading-v2 = Créez un mot de passe pour la synchronisation
 # "This" refers to the heading, "Create password to sync"
-set-password-info-v2 = Ceci chiffre vos données. Il doit être différent du mot de passe de votre compte { -brand-google } ou { -brand-apple }.
+set-password-info-v2 = Cela permet de chiffrer vos données. Il doit être différent du mot de passe de votre compte { -brand-google } ou { -brand-apple }.
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
@@ -1907,7 +1907,7 @@ confirm-signup-code-instruction-v2 = Saisissez le code envoyé à <email>{ $emai
 confirm-signup-code-input-label = Saisissez le code à 6 chiffres
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = Confirmer
-confirm-signup-code-sync-button = Commencez la synchronisation
+confirm-signup-code-sync-button = Démarrer la synchronisation
 confirm-signup-code-code-expired = Code expiré ?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Envoyer un nouveau code.
@@ -1941,8 +1941,8 @@ signup-confirmed-sync-header = La synchronisation est activée
 signup-confirmed-sync-success-banner = { -product-mozilla-account(capitalization: "uppercase") } confirmé
 signup-confirmed-sync-button = Commencer la navigation
 # Shown when payment methods are also synced
-signup-confirmed-sync-description-with-payment-v2 = Vos mots de passe, modes de paiement, adresses, marque-pages, historique, etc. peuvent être synchronisés partout où vous utilisez { -brand-firefox }.
-signup-confirmed-sync-description-v2 = Vos mots de passe, adresses, marque-pages, historique et bien plus peuvent être synchronisés partout où vous utilisez { -brand-firefox }.
+signup-confirmed-sync-description-with-payment-v2 = Vos mots de passe, modes de paiement, adresses, marque-pages, historique, et plus encore peuvent être synchronisés partout où vous utilisez { -brand-firefox }.
+signup-confirmed-sync-description-v2 = Vos mots de passe, adresses, marque-pages, historique, et plus encore peuvent être synchronisés partout où vous utilisez { -brand-firefox }.
 signup-confirmed-sync-add-device-link = Ajouter un autre appareil
 signup-confirmed-sync-manage-sync-button = Gérer la synchronisation
 signup-confirmed-sync-set-password-success-banner = Mot de passe Sync créé
