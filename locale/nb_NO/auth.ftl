@@ -658,7 +658,18 @@ verificationReminderSecond-sub-description-2 = Bli en del av vårt oppdrag om å
 verificationReminderSecond-action-2 = Bekreft konto
 verify-title-3 = Åpne internett med { -brand-mozilla }
 verify-subject = Fullfør oppretting av kontoen din
+verify-action-2 = Bekreft konto
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+verifyLogin-title-2 = Logget du inn på { $clientName }?
+verifyLogin-subject-2 = Bekreft innlogging
 verifyLogin-action = Bekreft innlogging
+# Variables:
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-subject-line-2 = Godkjenn innlogging på { $serviceName }
+# Variables:
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-title-2 = Logget du inn på { $serviceName }?
 verifyLoginCode-expiry-notice = Den løper ut om 5 minutter.
 verifyPrimary-description = En forespørsel om å utføre en kontoendring er gjort fra følgende enhet:
 verifyPrimary-subject = Bekreft primær e-postadresse
@@ -670,4 +681,9 @@ verifySecondaryCode-action-2 = Bekreft e-postadressen
 # Variables:
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer-2 = En forespørsel om å bruke { $email } som en sekundær e-postadresse er gjort fra følgende { -product-mozilla-account }:
+verifySecondaryCode-prompt-2 = Bruk denne bekreftelseskoden:
+# Variables:
+#  $code (Number) - e.g. 123456
+verifyShortCode-subject-3 = Bekreft kontoen din
+verifyShortCode-prompt-3 = Bruk denne bekreftelseskoden:
 verifyShortCode-expiry-notice = Den løper ut om 5 minutter.

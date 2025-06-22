@@ -1012,7 +1012,7 @@ product-promo-monitor-description-v2 = Découvrez où vos informations personnel
 # this message will only be shown to users eligible for a special promotion, based on their location (initially USA only)
 # $price - formatted for user locale, in the target market's currency (for launch, always USD)
 # /mo is 'per month'
-product-promo-monitor-special-promo-description = Pour { $price }/mois, économisez sur { -product-mozilla-vpn-short }, la protection contre le courtier de données de { -product-mozilla-monitor-short } et { -product-firefox-relay-short } alias de messagerie illimités.
+product-promo-monitor-special-promo-description = Pour { $price }/mois, économisez sur { -product-mozilla-vpn-short }, la protection contre les courtiers en données  { -product-mozilla-monitor-short } et un nombre illimité d’alias de messagerie { -product-firefox-relay-short }.
 # Links out to the Monitor site
 product-promo-monitor-cta = Effectuer un scan gratuit
 # Links out to the Monitor pricing site
@@ -1945,4 +1945,4 @@ signup-confirmed-sync-description-with-payment-v2 = Vos mots de passe, modes de 
 signup-confirmed-sync-description-v2 = Vos mots de passe, adresses, marque-pages, historique, et plus encore peuvent être synchronisés partout où vous utilisez { -brand-firefox }.
 signup-confirmed-sync-add-device-link = Ajouter un autre appareil
 signup-confirmed-sync-manage-sync-button = Gérer la synchronisation
-signup-confirmed-sync-set-password-success-banner = Mot de passe Sync créé
+signup-confirmed-sync-set-password-success-banner = Mot de passe de synchronisation créé

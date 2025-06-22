@@ -2,18 +2,12 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-05 20:09+0000\n"
-"PO-Revision-Date: 2023-12-12 23:48+0000\n"
-"Last-Translator: Håvar Henriksen <havar@firefox.no>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: nb_NO\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pontoon\n"
-"X-POOTLE-MTIME: 1422140392.0\n"
+"Generated-By: Pontoon\n"
 
 #: .es5/views/confirm_reset_password.js:170
 msgid "Password reset"
@@ -71,7 +65,7 @@ msgstr "Fullfør oppsettet ved å skrive inn det nye passordet på de andre Fire
 
 #: .es5/views/ready.js:57
 msgid "You are now ready to make changes to your Mozilla account."
-msgstr ""
+msgstr "Du er nå klar til å gjøre endringer i Mozilla-kontoen din."
 
 #: .es5/views/ready.js:59
 msgid "Primary email confirmed"
@@ -95,7 +89,7 @@ msgstr "Du er nå klar til å bruke %(serviceName)s"
 
 #: .es5/views/ready.js:74
 msgid "Account confirmed"
-msgstr ""
+msgstr "Konto bekreftet"
 
 #: .es5/views/ready.js:79
 msgid "Connected"
@@ -128,7 +122,7 @@ msgstr "Takk for at du kontaktet Mozilla Support om <b>%(escapedLowercaseTopic)s
 #. aria label for banner/tooltip dismiss button
 #: .es5/views/tooltip.js:75 .es5/templates/partial/account-suggestion.mustache:2
 msgid "Close"
-msgstr ""
+msgstr "Lukk"
 
 #: .es5/views/post_verify/verified.js:37
 msgid "Account notifications will now also be sent to %(secondaryEmail)s."
@@ -192,7 +186,7 @@ msgstr "Totrinns-verifisering aktivert"
 
 #: .es5/views/mixins/recovery-key-mixin.js:28
 msgid "Firefox Account Recovery Key"
-msgstr ""
+msgstr "Firefox-kontogjenopprettingsnøkkel"
 
 #: .es5/views/mixins/resend-mixin.js:46
 msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
@@ -268,7 +262,7 @@ msgstr "Adresser"
 
 #: .es5/models/sync-engines.js:82
 msgid "Payment Methods"
-msgstr ""
+msgstr "Betalingsmåter"
 
 #: .es5/models/reliers/browser.js:68
 msgid "Firefox"
@@ -322,7 +316,6 @@ msgstr "Kontoen finnes allerede"
 msgid "Unknown account"
 msgstr "Ukjent konto"
 
-# Usikker på hva det menes med case i dette tilfellet …
 #: .es5/lib/auth-errors.js:55
 msgid "Incorrect email case"
 msgstr "Ugyldig e-posttilfelle"
@@ -473,11 +466,11 @@ msgstr "Utilgjengelig enhetskommando"
 
 #: .es5/lib/auth-errors.js:238
 msgid "Account recovery key not found"
-msgstr ""
+msgstr "Kontogjenopprettingsnøkkel ble ikke funnet"
 
 #: .es5/lib/auth-errors.js:242
 msgid "Invalid account recovery key"
-msgstr ""
+msgstr "Ugyldig kontogjenopprettingsnøkkel"
 
 #: .es5/lib/auth-errors.js:246 .es5/lib/auth-errors.js:254
 msgid "This request requires two step authentication enabled on your account."
@@ -513,7 +506,7 @@ msgstr "Oppdateringen ble avvist, prøv igjen"
 
 #: .es5/lib/auth-errors.js:282
 msgid "Invalid or expired confirmation code"
-msgstr ""
+msgstr "Ugyldig eller utløpt bekreftelseskode"
 
 #: .es5/lib/auth-errors.js:286 .es5/lib/auth-errors.js:486
 msgid "Server busy, try again soon"
@@ -542,7 +535,7 @@ msgstr "Innloggingsforsøk avbrutt"
 
 #: .es5/lib/auth-errors.js:318
 msgid "Session expired. Sign in to continue."
-msgstr "Sesjon utløpt. Logg inn for å fortsette."
+msgstr "Økt utløpt. Logg inn for å fortsette."
 
 #: .es5/lib/auth-errors.js:322
 msgid "Cookies are still disabled"
@@ -682,7 +675,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:578
 msgid "Account recovery key required"
-msgstr ""
+msgstr "Kontogjenopprettingsnøkkel kreves"
 
 #: .es5/lib/auth-errors.js:582
 msgid "Please enter verification code"
@@ -722,7 +715,7 @@ msgstr "Feilskreven e-postadresse?"
 
 #: .es5/lib/newsletters.js:24
 msgid "Early access to test new products"
-msgstr ""
+msgstr "Tidlig tilgang til å teste nye produkter"
 
 #: .es5/lib/newsletters.js:28
 msgid "Get the latest news about Mozilla and Firefox"
@@ -744,7 +737,6 @@ msgstr ""
 msgid "Unknown client"
 msgstr "Ukjent klient"
 
-# Usikker på hva det menes med case i dette tilfellet …
 #: .es5/lib/oauth-errors.js:31
 msgid "Incorrect redirect_uri"
 msgstr "Ugyldig redirect_uri"
@@ -922,7 +914,7 @@ msgstr "Bekreft kontogjenopprettingsnøkkel"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:11
 msgid "Don't have an account recovery key?"
-msgstr ""
+msgstr "Har du ikke en kontogjenopprettingsnøkkel?"
 
 #: .es5/templates/choose_what_to_sync.mustache:1
 msgid "Choose what to sync:"
@@ -956,7 +948,7 @@ msgstr ""
 
 #: .es5/templates/complete_reset_password.mustache:11
 msgid "You have successfully restored your account using your account recovery key. Create a new password to secure your data, and store it in a safe location."
-msgstr ""
+msgstr "Du har gjenopprettet kontoen din ved hjelp av kontogjenopprettingsnøkkelen. Opprett et nytt passord for å sikre dataene dine, og lagre det på et trygt sted."
 
 #: .es5/templates/complete_reset_password.mustache:13 .es5/templates/post_verify/password/force_password_change.mustache:8
 msgid "New password"
@@ -980,7 +972,7 @@ msgstr "Innlogging allerede bekreftet"
 
 #: .es5/templates/complete_sign_up.mustache:6
 msgid "Confirmation link expired"
-msgstr ""
+msgstr "Bekreftelseslenken er utløpt"
 
 #: .es5/templates/complete_sign_up.mustache:7
 msgid "The link you clicked to confirm your email is expired."
@@ -988,15 +980,15 @@ msgstr ""
 
 #: .es5/templates/complete_sign_up.mustache:8
 msgid "Click here to receive a new confirmation link"
-msgstr ""
+msgstr "Klikk her for å motta en ny bekreftelseslenke"
 
 #: .es5/templates/complete_sign_up.mustache:11
 msgid "Confirmation link damaged"
-msgstr ""
+msgstr "Bekreftelseslenken er skadet"
 
 #: .es5/templates/complete_sign_up.mustache:14
 msgid "Confirmation error"
-msgstr ""
+msgstr "Bekreftelsesfeil"
 
 #: .es5/templates/confirm.mustache:3
 msgid "Confirm your account"
@@ -1038,7 +1030,7 @@ msgstr ""
 
 #: .es5/templates/confirm_signup_code.mustache:2
 msgid "Enter the code that was sent to %(escapedEmail)s within 5 minutes."
-msgstr ""
+msgstr "Skriv inn koden som ble sendt til %(escapedEmail)s innen 5 minutter."
 
 #: .es5/templates/confirm_signup_code.mustache:3 .es5/templates/sign_in_token_code.mustache:3 .es5/templates/sign_in_totp_code.mustache:4
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:6
@@ -1052,7 +1044,7 @@ msgstr "Bekreft"
 
 #: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/sign_in_token_code.mustache:5
 msgid "Code expired?"
-msgstr ""
+msgstr "Har koden utløpt?"
 
 #: .es5/templates/confirm_signup_code.mustache:6 .es5/templates/sign_in_token_code.mustache:6
 msgid "Email new code."
