@@ -12,6 +12,8 @@ settings-project-header-title = { -product-mozilla-account }
 
 coupon-submit = Bruk
 coupon-remove = Fjern
+coupon-error-expired = Koden du skrev inn er utløpt.
+coupon-error-invalid = Koden du skrev inn er ugyldig.
 # $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
 coupon-enter-code =
     .placeholder = Skriv inn kode
@@ -23,14 +25,21 @@ input-error-is-required = { $label } er påkrevd
 
 ## Component - Header
 
+brand-name-mozilla-logo = { -brand-mozilla }-logo
 
 ## Component - NewUserEmailForm
 
 new-user-sign-in-link-2 = Har du allerede en { -product-mozilla-account }? <a>Logg inn</a>
+# "Required" to indicate that the user must use the checkbox below this text to
+# agree to a payment method's terms of service and privacy notice in order to
+# continue.
+new-user-enter-email =
+    .label = Skriv inn e-postadressen din
 
 ## Component - PaymentConfirmation
 
 payment-confirmation-thanks-heading = Takk skal du ha!
+payment-confirmation-thanks-heading-account-exists = Takk, sjekk e-posten din nå!
 payment-confirmation-order-heading = Ordredetaljer
 payment-confirmation-invoice-number = Fakturanummer { $invoiceNumber }
 # $invoiceDate (Date) - Start date of the latest invoice
@@ -241,6 +250,7 @@ subscription-success-title = Bekreftelse av abonnement
 subscription-processing-title = Bekrefter abonnementet …
 subscription-error-title = Feil under bekreftelse av abonnement …
 subscription-noplanchange-title = Denne endringen av abonnementsplanen støttes ikke
+subscription-iapsubscribed-title = Abonnerer allerede
 sub-guarantee = 30-dagers pengene-tilbake-garanti
 
 ## Component - TermsAndPrivacy
@@ -353,6 +363,8 @@ coupon-success-repeating = Planen din fornyes automatisk etter { $couponDuration
 ## Routes - Checkout - New user
 
 new-user-step-1-2 = 1. Opprett en { -product-mozilla-account }
+new-user-card-title = Skriv inn betalingskortinformasjon
+new-user-submit = Abonner nå
 
 ## Routes - Product and Subscriptions
 
@@ -387,6 +399,10 @@ sub-update-total-label = Ny sum
 ## Variables:
 ##   $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 
+sub-update-new-plan-daily = { $productName } (daglig)
+sub-update-new-plan-weekly = { $productName } (ukentlig)
+sub-update-new-plan-monthly = { $productName } (månedlig)
+sub-update-new-plan-yearly = { $productName } (årlig)
 
 ## Routes - Subscriptions - Cancel
 
@@ -415,6 +431,7 @@ sub-route-idx-cancel-msg =
     { $name }-abonnementet ditt er avsluttet.
           <br />
           Du vil fortsatt ha tilgang til { $name } til den { $date }.
+sub-route-idx-cancel-aside-2 = Har du spørsmål? Besøk <a>{ -brand-mozilla }-brukerstøtte</a>.
 
 ## Routes - Subscriptions - Errors
 

@@ -719,11 +719,11 @@ inline-recovery-key-setup-download-header = Sikre kontoen din
 
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-auth-totp-heading-w-default-service = Skriv inn verifiseringskoden <span>for å fortsette til kontoinnstillingene</span>
+auth-totp-heading-w-default-service = Skriv inn autentiseringskoden <span>for å fortsette til kontoinnstillingene</span>
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-auth-totp-heading-w-custom-service = Skriv inn verifiseringskoden <span>for å fortsette til { $serviceName }</span>
+auth-totp-heading-w-custom-service = Skriv inn autentiseringskoden <span>for å fortsette til { $serviceName }</span>
 
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -832,9 +832,12 @@ back = Tilbake
 ## SigninPushCode page
 ## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
 
+signin-push-code-did-not-recieve = Har du ikke mottatt varselet?
+signin-push-code-send-email-link = E-postkode
 
 ## SigninPushCodeConfirmPage
 
+signin-push-code-confirm-instruction = Bekreft innloggingen din
 signin-push-code-confirm-verifying = Kontrollerer
 signin-push-code-confirm-login = Bekreft innlogging
 signin-push-code-confirm-wasnt-me = Det var ikke meg, endre passordet.
@@ -893,6 +896,11 @@ signin-totp-code-required-error = Autentiseringskode kreves
 ## Page shown when signin has been blocked by rate limiting (too many requests)
 
 signin-unblock-header = Godkjenn denne innloggingen
+signin-unblock-code-input = Skriv inn godkjenningskode
+signin-unblock-submit-button = Fortsett
+# Shown when the user attempts to submit the form without including a code
+signin-unblock-code-required-error = Godkjenningskode kreves
+signin-unblock-support-link = Hvorfor skjer dette?
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -900,14 +908,27 @@ signin-unblock-header = Godkjenn denne innloggingen
 
 # and a confirmation code has been sent to their email address.
 
+# Page title show in browser title bar or page tab
+confirm-signup-code-page-title = Skriv inn bekreftelseskode
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 confirm-signup-code-heading-2 = Skriv inn bekreftelseskoden <span>for { -product-mozilla-account }en din</span>
+confirm-signup-code-input-label = Skriv inn 6-sifret kode
+# Form button to confirm if the confirmation code entered by the user is valid
+confirm-signup-code-confirm-button = Bekreft
+confirm-signup-code-code-expired = Har koden utløpt?
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
+# This text is displayed in a dismissible info banner and is only displayed to Pocket clients
+signup-pocket-info-banner = Hvorfor må jeg opprette denne kontoen?
+# Link included in a dismissible info banner that is only displayed to Pocket clients
+# Link leads to https://support.mozilla.org/kb/pocket-firefox-account-migration
+signup-pocket-info-banner-link = Finn ut av det her
+# Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
+signup-change-email-link = Endre e-postadresse
 
 ## SignupConfirmedSync page
 ## Shown to users when they finish confirming their account through Sync

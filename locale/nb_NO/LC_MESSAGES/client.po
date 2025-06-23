@@ -659,11 +659,11 @@ msgstr "Telefonnummer påkrevd"
 
 #: .es5/lib/auth-errors.js:552
 msgid "Two-step authentication code required"
-msgstr "Totrinns-verifiseringskode påkrevd"
+msgstr "Totrinns-autentiseringskode påkrevd"
 
 #: .es5/lib/auth-errors.js:556
 msgid "Invalid two-step authentication code"
-msgstr "Feil totrinns-verifiseringskode"
+msgstr "Feil totrinns-autentiseringskode"
 
 #: .es5/lib/auth-errors.js:560
 msgid "Backup authentication code required"
@@ -1230,7 +1230,7 @@ msgstr "Legg til et ekstra sikkerhetslag til kontoen din ved å kreve sikkerhets
 
 #: .es5/templates/inline_totp_setup.mustache:7
 msgid "Scan authentication code"
-msgstr "Skann verifiseringskode"
+msgstr "Skann autentiseringskode"
 
 #: .es5/templates/inline_totp_setup.mustache:10
 msgid "Enter code manually"
@@ -1406,7 +1406,7 @@ msgstr ""
 
 #: .es5/templates/sign_in_recovery_code.mustache:4
 msgid "Enter 10-digit backup authentication code"
-msgstr "Skriv inn 10-sifret reserve-verifiseringskode"
+msgstr "Skriv inn 10-sifret reserve-autentiseringskode"
 
 #: .es5/templates/sign_in_recovery_code.mustache:7
 msgid "Are you locked out?"
@@ -1859,11 +1859,11 @@ msgstr "IP-adresse: %(ipAddress)s"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:1
 msgid "Password requirements"
-msgstr ""
+msgstr "Passordkrav"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:3
 msgid "At least 8 characters"
-msgstr ""
+msgstr "Minst 8 tegn"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:6
 msgid "Not your email address"
@@ -1871,7 +1871,7 @@ msgstr ""
 
 #: .es5/templates/partial/password-strength-balloon.mustache:10
 msgid "Not a commonly used password"
-msgstr ""
+msgstr "Ikke et typisk brukt passord"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:11
 msgid "Stay safe &mdash; don’t reuse passwords. See more tips to <a %(escapedCommonPasswordLinkAttrs)s class=\"link-grey\">create strong passwords</a>."
@@ -1903,7 +1903,7 @@ msgstr "Fortsett med Apple"
 
 #: .es5/templates/partial/unsupported-pair.mustache:1
 msgid "Connecting your mobile device with your Mozilla account"
-msgstr ""
+msgstr "Koble mobilenheten din til Mozilla-kontoen din"
 
 #: .es5/templates/partial/unsupported-pair.mustache:2
 msgid "Open Firefox on your computer, visit <b class=\"whitespace-nowrap\">firefox.com/pair</b>, and follow the on-screen instructions to connect your mobile device."
@@ -1923,7 +1923,7 @@ msgstr ""
 
 #: .es5/templates/pair/auth_allow.mustache:4
 msgid "Yes, approve device"
-msgstr ""
+msgstr "Ja, godkjenn enheten"
 
 #: .es5/templates/pair/auth_allow.mustache:5
 msgid "If this wasn’t you, <a id=\"change-password\" class=\"link-blue\">change your password</a> "
@@ -1946,7 +1946,7 @@ msgstr ""
 
 #: .es5/templates/pair/auth_complete.mustache:5
 msgid "See tabs from synced devices"
-msgstr ""
+msgstr "Se faner fra synkroniserte enheter"
 
 #: .es5/templates/pair/auth_complete.mustache:7
 msgid "Manage devices"
@@ -1970,11 +1970,11 @@ msgstr ""
 
 #: .es5/templates/pair/index.mustache:8
 msgid "Sync your Firefox experience"
-msgstr ""
+msgstr "Synkroniser Firefox-opplevelsen din"
 
 #: .es5/templates/pair/index.mustache:9
 msgid "Download Firefox for mobile"
-msgstr ""
+msgstr "Last ned Firefox for mobil"
 
 #: .es5/templates/pair/index.mustache:11
 msgid "View your saved passwords, tabs, browsing history and more — across all your devices."
@@ -1982,23 +1982,23 @@ msgstr ""
 
 #: .es5/templates/pair/index.mustache:12
 msgid "Select an option to continue:"
-msgstr ""
+msgstr "Velg et alternativ for å fortsette:"
 
 #: .es5/templates/pair/index.mustache:13
 msgid "I already have Firefox for mobile"
-msgstr ""
+msgstr "Jeg har allerede Firefox for mobil"
 
 #: .es5/templates/pair/index.mustache:14
 msgid "Start your sync now if you already have Firefox on your mobile device."
-msgstr ""
+msgstr "Start synkroniseringen din nå hvis du allerede har Firefox på mobilenheten din."
 
 #: .es5/templates/pair/index.mustache:15
 msgid "I don’t have Firefox for mobile"
-msgstr ""
+msgstr "Jeg har ikke Firefox for mobil"
 
 #: .es5/templates/pair/index.mustache:16
 msgid "Download Firefox on your mobile device, then start your sync."
-msgstr ""
+msgstr "Last ned Firefox på mobilenheten din, og start deretter synkroniseringen."
 
 #: .es5/templates/pair/index.mustache:18 .es5/templates/pair/index.mustache:24
 msgid "Not now"
@@ -2022,7 +2022,7 @@ msgstr ""
 
 #: .es5/templates/pair/index.mustache:23
 msgid "Continue to sync"
-msgstr ""
+msgstr "Fortsett å synkronisere"
 
 #: .es5/templates/pair/success.mustache:2
 msgid "Device successfully paired"
@@ -2054,11 +2054,11 @@ msgstr ""
 
 #: .es5/templates/pair/unsupported.mustache:6
 msgid "Download Firefox"
-msgstr ""
+msgstr "Last ned Firefox"
 
 #: .es5/templates/pair/unsupported.mustache:7
 msgid "Opens in new window"
-msgstr ""
+msgstr "Åpnes i et nytt vindu"
 
 #: .es5/templates/pair/unsupported.mustache:9
 msgid "Pair using an app"
@@ -2070,7 +2070,7 @@ msgstr "Brukte du systemkamera? Du må pare ved hjelp av en Firefox-app"
 
 #: .es5/templates/pair/unsupported.mustache:14
 msgid "Download Firefox now"
-msgstr ""
+msgstr "Last ned Firefox nå"
 
 #: .es5/templates/pair/unsupported.mustache:17
 msgid "Oops! Something went wrong."
@@ -2078,4 +2078,4 @@ msgstr ""
 
 #: .es5/templates/pair/unsupported.mustache:18
 msgid "Please close this tab and try again."
-msgstr ""
+msgstr "Lukk denne fanen og prøv igjen."
