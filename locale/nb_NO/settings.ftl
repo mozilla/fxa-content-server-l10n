@@ -655,6 +655,13 @@ nav-email-comm = E-postkommunikasjon
 
 ## Two Step Authentication - replace backup authentication code
 
+tfa-replace-code-error-3 = Det oppsto et problem med å erstatte din reserve-autentiseringskode
+tfa-create-code-error = Det oppsto et problem med å opprette din reserve-autentiseringskode
+tfa-replace-code-success-1 =
+    Nye koder er opprettet. Oppbevar disse engangs
+    reserve-autentiseringskodene på et trygt sted – du trenger dem for å få tilgang til kontoen din hvis du ikke
+    har mobilenheten din.
+tfa-replace-code-success-alert-4 = Reserve-autentiseringskode oppdatert
 tfa-replace-code-1-2 = Trinn 1 av 2
 tfa-replace-code-2-2 = Trinn 2 av 2
 
@@ -685,6 +692,8 @@ avatar-page-camera-error = Kunne ikke starte kameraet
 avatar-page-new-avatar =
     .alt = nytt profilbilde
 avatar-page-file-upload-error-3 = Det oppsto et problem med å laste opp profilbildet ditt.
+avatar-page-delete-error-3 = Det oppstod et problem med å slette profilbildet ditt
+avatar-page-image-too-large-error-2 = Bildefilen er for stor til å lastes opp
 
 ## Password change page
 
@@ -692,7 +701,10 @@ pw-change-header =
     .title = Endre passord
 pw-8-chars = Minst 8 tegn
 pw-not-email = Ikke e-postadressen din
+pw-change-must-match = Nytt passord samsvarer med bekreftelsen
 pw-commonly-used = Ikke et typisk brukt passord
+# linkExternal is a link to a mozilla.org support article on password strength
+pw-tips = Vær trygg — Ikke bruk passord på nytt. Se flere tips for å <linkExternal>lage sterke passord</linkExternal>.
 pw-change-cancel-button = Avbryt
 pw-change-save-button = Lagre
 pw-change-forgot-password-link = Glemt passord?
@@ -709,6 +721,7 @@ pw-change-success-alert-2 = Passordet er oppdatert
 pw-create-header =
     .title = Opprett passord
 pw-create-success-alert-2 = Passord satt
+pw-create-error-2 = Beklager, det oppsto et problem med å angi passordet ditt
 
 ## Delete account page
 
@@ -726,6 +739,11 @@ delete-account-product-mozilla-monitor = { -product-mozilla-monitor }
 delete-account-product-firefox-relay = { -product-firefox-relay }
 delete-account-product-firefox-sync = Synkroniserer { -brand-firefox }-data
 delete-account-product-firefox-addons = { -brand-firefox }-tillegg
+delete-account-acknowledge = Bekreft at når du sletter kontoen din:
+delete-account-chk-box-1-v3 =
+    .label = Alle betalte abonnementer du har vil bli kansellert (unntatt { -product-pocket })
+delete-account-chk-box-2 =
+    .label = Du kan miste lagret informasjon og funksjoner i { -brand-mozilla }-produkter
 delete-account-continue-button = Fortsett
 delete-account-password-input =
     .label = Skriv inn passord
