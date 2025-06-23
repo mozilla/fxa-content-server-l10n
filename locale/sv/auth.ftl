@@ -416,12 +416,16 @@ postAddRecoveryPhone-how-protect = Hur detta skyddar ditt konto
 postAddRecoveryPhone-how-protect-plaintext = Hur detta skyddar ditt konto:
 postAddRecoveryPhone-enabled-device = Du aktiverade det från:
 postAddRecoveryPhone-action = Hantera konto
-postAddTwoStepAuthentication-subject-2 = Tvåstegsautentisering har aktiverats
+postAddTwoStepAuthentication-subject-v3 = Tvåstegsautentisering är på
 postAddTwoStepAuthentication-title-2 = Du har aktiverat tvåstegsautentisering
 # After the colon, there is a description of the device that the user used to enable two-step authentication
-postAddTwoStepAuthentication-from-device = Du aktiverade det från:
+postAddTwoStepAuthentication-from-device-v2 = Du begärde detta från:
 postAddTwoStepAuthentication-action = Hantera konto
-postAddTwoStepAuthentication-code-required-2 = Säkerhetskoder från din autentiseringsapp krävs nu varje gång du loggar in.
+postAddTwoStepAuthentication-code-required-v3 = Du måste nu använda din autentiseringsapp varje gång du loggar in.
+postAddTwoStepAuthentication-recovery-method-codes = Du har också lagt till reservautentiseringskoder som din återställningsmetod.
+# Variables:
+#  $maskedPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
+postAddTwoStepAuthentication-recovery-method-phone = Du har också lagt till { $maskedPhoneNumber } som ditt återställningstelefonnummer.
 postChangeAccountRecovery-subject = Nyckeln för kontoåterställning har ändrats
 postChangeAccountRecovery-title = Du har ändrat din kontoåterställningsnyckel
 postChangeAccountRecovery-body-part1 = Du har nu en ny kontoåterställningsnyckel. Din tidigare nyckel raderades.

@@ -270,6 +270,7 @@ metadata-description-default = De opfrege side is net fûn.
 
 ## Coupon Error Messages
 
+next-coupon-error-cannot-redeem = De ynfierde koade kin net ynwiksele wurde – jo account hat in earder abonnemint op ien fan ús tsjinsten.
 next-coupon-error-expired = De ynfierde koade is ferrûn.
 next-coupon-error-generic = Der is in flater bard by it ferwurkjen fan de koade. Probearje it opnij.
 next-coupon-error-invalid = De ynfierde koade is ûnjildich.
