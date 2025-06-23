@@ -1308,7 +1308,7 @@ msgstr "Suksess"
 
 #: .es5/templates/ready.mustache:4
 msgid "You are now ready to use <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
-msgstr ""
+msgstr "Du er nå klar til å bruke <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
 
 #: .es5/templates/ready.mustache:10 .es5/templates/ready.mustache:16
 msgid "Continue to my account"
@@ -1422,11 +1422,11 @@ msgstr "Teamet vårt er varslet. Rapporter som denne hjelper oss med å avverge 
 
 #: .es5/templates/sign_in_token_code.mustache:1
 msgid "Enter confirmation code <span class=\"card-subheader\">for your Mozilla account</span>"
-msgstr ""
+msgstr "Skriv inn bekreftelseskoden <span class=\"card-subheader\">for Mozilla-kontoen din</span>"
 
 #: .es5/templates/sign_in_token_code.mustache:2
 msgid "Enter the code that was sent to %(email)s within 5 minutes."
-msgstr ""
+msgstr "Skriv inn koden som ble sendt til %(email)s innen 5 minutter."
 
 #: .es5/templates/sign_in_totp_code.mustache:1
 msgid "Enter security code"
@@ -2037,7 +2037,7 @@ msgstr "Paring vellykket."
 
 #: .es5/templates/pair/supp_allow.mustache:1
 msgid "Confirm pairing <span class=\"card-subheader\">for <span class=\"break-all\">%(email)s</span></span>"
-msgstr ""
+msgstr "Bekreft paring <span class=\"card-subheader\">for <span class=\"break-all\">%(email)s</span></span>"
 
 #: .es5/templates/pair/supp_allow.mustache:2
 msgid "Confirm pairing"
@@ -2045,15 +2045,15 @@ msgstr "Bekreft paring"
 
 #: .es5/templates/pair/unsupported.mustache:3 .es5/templates/pair/unsupported.mustache:13
 msgid "Oops! It looks like you’re not using Firefox."
-msgstr ""
+msgstr "Ups! Det ser ut som om du ikke bruker Firefox."
 
 #: .es5/templates/pair/unsupported.mustache:4 .es5/templates/pair/unsupported.mustache:12
 msgid "Attention:"
-msgstr ""
+msgstr "Bemerk:"
 
 #: .es5/templates/pair/unsupported.mustache:5
 msgid "Switch to Firefox and open this page to connect another device."
-msgstr ""
+msgstr "Bytt til Firefox og åpne denne siden for å koble til en annen enhet."
 
 #: .es5/templates/pair/unsupported.mustache:6
 msgid "Download Firefox"
@@ -2077,7 +2077,7 @@ msgstr "Last ned Firefox nå"
 
 #: .es5/templates/pair/unsupported.mustache:17
 msgid "Oops! Something went wrong."
-msgstr ""
+msgstr "Ups! Noe gikk galt."
 
 #: .es5/templates/pair/unsupported.mustache:18
 msgid "Please close this tab and try again."

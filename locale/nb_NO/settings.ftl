@@ -863,8 +863,17 @@ recent-activity-account-password-reset-success = Tilbakestilling av kontopassord
 recent-activity-account-recovery-key-added = Kontogjenopprettingsnøkkel aktivert
 recent-activity-account-password-added = Nytt passord lagt til
 recent-activity-account-password-changed = Passordet er endret
+recent-activity-session-destroy = Logget ut av økten
+recent-activity-account-recovery-phone-send-code = Gjenopprettingstelefon-kode sendt
+recent-activity-account-recovery-phone-setup-complete = Konfigurasjonen av gjenopprettingstelefon er fullført
+recent-activity-account-recovery-phone-signin-complete = Innlogging med gjenopprettingstelefon fullført
+recent-activity-account-recovery-phone-signin-failed = Innlogging med gjenopprettingstelefon mislyktes
 recent-activity-account-recovery-phone-removed = Gjenopprettingstelefonen er fjernet
 recent-activity-account-recovery-codes-replaced = Gjenopprettingskoder erstattet
+recent-activity-account-recovery-codes-created = Gjenopprettingskoder opprettet
+recent-activity-account-recovery-codes-signin-complete = Innlogging med gjenopprettingskoder fullført
+recent-activity-password-reset-otp-sent = Bekreftelseskode for tilbakestilling av passord sendt
+recent-activity-password-reset-otp-verified = Bekreftelseskode for tilbakestilling av passord bekreftet
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Annen kontoaktivitet
 
@@ -879,14 +888,20 @@ recovery-key-create-back-button-title = Tilbake til innstillingene
 ## PageRecoveryPhoneRemove
 ## Users reach this page from account settings when they want to remove a backup phone number.
 
+recovery-phone-remove-header = Fjern gjenopprettingstelefonnummeret
+# Variables:
+#   $formattedFullPhoneNumber (String) - the user's full phone number
+settings-recovery-phone-remove-info = Dette vil fjerne <strong>{ $formattedFullPhoneNumber }</strong> som gjenopprettingstelefonnummeret ditt.
 settings-recovery-phone-remove-recommend = Vi anbefaler at du beholder denne metoden fordi den er enklere enn å lagre reserve-autentiseringskoder.
 # "Saved backup authentication codes" refers to previously saved backup authentication codes
 settings-recovery-phone-remove-recovery-methods = Hvis du sletter den, må du sørge for at du fortsatt har dine lagrede reserve-autentiseringskoder. <linkExternal>Sammenlign gjenopprettingsmetoder</linkExternal>
 settings-recovery-phone-remove-button = Fjern telefonnummeret
 settings-recovery-phone-remove-cancel = Avbryt
+settings-recovery-phone-remove-success = Gjenopprettingstelefonen er fjernet
 
 ## PageSetupRecoveryPhone
 
+page-setup-recovery-phone-heading = Legg til gjenopprettingstelefon
 page-change-recovery-phone = Endre gjenopprettingstelefon
 # Back arrow to return to step 1 of recovery phone setup flow
 page-setup-recovery-phone-step2-back-button-title = Endre telefonnummer
@@ -894,10 +909,17 @@ page-setup-recovery-phone-step2-back-button-title = Endre telefonnummer
 ## Add secondary email page
 
 add-secondary-email-step-1 = Trinn 1 av 2
+add-secondary-email-error-2 = Det oppstod et problem med å opprette denne e-posten.
+add-secondary-email-page-title =
+    .title = Sekundær e-postadresse
 add-secondary-email-enter-address =
     .label = Skriv inn e-postadresse
 add-secondary-email-cancel-button = Avbryt
 add-secondary-email-save-button = Lagre
+# This message is shown when a user tries to add a secondary email that is a
+# Firefox Relay email mask (generated email address that can be used in place of
+# your real email address)
+add-secondary-email-mask = E-postalias kan ikke brukes som en sekundær e-postadresse
 
 ## Verify secondary email page
 
@@ -909,6 +931,10 @@ verify-secondary-email-verification-code-2 =
     .label = Skriv inn bekreftelseskoden din
 verify-secondary-email-cancel-button = Avbryt
 verify-secondary-email-verify-button-2 = Bekreft
+# This string is an instruction in a form.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-please-enter-code-2 = Skriv inn bekreftelseskoden som ble sendt til <strong>{ $email }</strong> innen 5 minutter.
 # This string is a confirmation message shown after verifying an email.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
@@ -1243,7 +1269,7 @@ cookies-disabled-learn-more = Les mer
 index-header = Skriv inn e-postadressen din
 index-sync-header = Fortsett til din { -product-mozilla-account }
 index-sync-subheader = Synkroniser passordene, fanene og bokmerkene dine overalt hvor du bruker { -brand-firefox }.
-index-relay-header = Opprett en e-postalias
+index-relay-header = Opprett et e-postalias
 index-relay-subheader = Oppgi e-postadressen du vil videresende e-poster til fra den maskerte e-postadressen din.
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = Fortsett til { $serviceName }
