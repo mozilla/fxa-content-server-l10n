@@ -998,8 +998,11 @@ tfa-enter-recovery-code-1 =
 
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
+product-promo-monitor-description-v2 = Eikuaa moõpa ivaikuaa ne marandu ñemiguáva ha ehechameme
 # Links out to the Monitor site
 product-promo-monitor-cta = Emoha’ãnga reiete
+# Links out to the Monitor pricing site
+product-promo-monitor-special-promo-cta = Eñemo’ãkena ary pukukue
 
 ## Profile section
 
