@@ -126,6 +126,7 @@ signup-new-password-label =
 signup-confirm-password-label =
     .label = Zopakujte heslo
 signup-submit-button = Vytvoriť účet
+post-verify-set-password-submit-button = Spustiť synchronizáciu
 form-reset-password-with-balloon-new-password =
     .label = Nové heslo
 form-reset-password-with-balloon-confirm-password =
@@ -1009,8 +1010,15 @@ tfa-enter-recovery-code-1 =
 
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
+product-promo-monitor-description-v2 = Zistite, kde sú vaše súkromné informácie zverejnené, a prevezmite nad nimi kontrolu
+# this message will only be shown to users eligible for a special promotion, based on their location (initially USA only)
+# $price - formatted for user locale, in the target market's currency (for launch, always USD)
+# /mo is 'per month'
+product-promo-monitor-special-promo-description = Za { $price }/mesiac ušetrite na { -product-mozilla-vpn-short }, ochrane dátových sprostredkovateľov { -product-mozilla-monitor-short } a neobmedzených maskách e-mailov { -product-firefox-relay-short }.
 # Links out to the Monitor site
 product-promo-monitor-cta = Skontrolovať
+# Links out to the Monitor pricing site
+product-promo-monitor-special-promo-cta = Získajte ochranu na celý rok
 
 ## Profile section
 
@@ -1537,6 +1545,9 @@ pair-unsupported-message = Použili ste fotoaparát systému? Párovanie je potr
 
 # password to complete their sign-in when they want to login to a service requiring it.
 
+set-password-heading-v2 = Pre potreby synchronizácie si vytvorte heslo
+# "This" refers to the heading, "Create password to sync"
+set-password-info-v2 = Toto šifruje vaše údaje. Musí sa líšiť od hesla vášho účtu { -brand-google } alebo { -brand-apple }.
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
@@ -1712,6 +1723,7 @@ signin-password-button-label = Heslo
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-desktop-relay = { -brand-firefox } sa vás po prihlásení pokúsi poslať späť, aby ste mohli použiť e‑mailovú masku.
+signin-code-expired-error = Platnosť kódu vypršala. Prihláste sa znova.
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
@@ -1906,6 +1918,7 @@ confirm-signup-code-instruction-v2 = V priebehu 5 minút zadajte kód, ktorý bo
 confirm-signup-code-input-label = Zadajte šesťmiestny kód
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = Potvrdiť
+confirm-signup-code-sync-button = Spustiť synchronizáciu
 confirm-signup-code-code-expired = Platnosť kódu vypršala?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Odoslať e‑mailom nový kód.
@@ -1920,7 +1933,10 @@ confirm-signup-code-desktop-relay = { -brand-firefox } sa vás po prihlásení p
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
+signup-heading-v2 = Vytvoriť heslo
 signup-relay-info = Heslo je potrebné na bezpečnú správu vašich maskovaných e‑mailov a prístup k bezpečnostným nástrojom od { -brand-mozilla(case: "gen") }.
+signup-sync-info = Synchronizujte svoje heslá, záložky a ďalšie údaje všade, kde používate { -brand-firefox }.
+signup-sync-info-with-payments = Synchronizujte svoje heslá, spôsoby platby, záložky a ďalšie údaje všade, kde používate { -brand-firefox }.
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = Prečo si musím vytvoriť tento účet?
 # Link included in a dismissible info banner that is only displayed to Pocket clients
@@ -1935,5 +1951,9 @@ signup-change-email-link = Zmeniť e‑mailovú adresu
 signup-confirmed-sync-header = Synchronizácia je zapnutá
 signup-confirmed-sync-success-banner = { -product-mozilla-account } potvrdený
 signup-confirmed-sync-button = Začať prehliadanie
+# Shown when payment methods are also synced
+signup-confirmed-sync-description-with-payment-v2 = Vaše heslá, spôsoby platby, adresy, záložky, história a ďalšie sa môžu synchronizovať všade, kde používate { -brand-firefox }.
+signup-confirmed-sync-description-v2 = Vaše heslá, adresy, záložky, história a ďalšie sa môžu synchronizovať všade, kde používate { -brand-firefox }.
 signup-confirmed-sync-add-device-link = Pridať ďalšie zariadenie
 signup-confirmed-sync-manage-sync-button = Spravovať synchronizáciu
+signup-confirmed-sync-set-password-success-banner = Synchronizačné heslo vytvorené

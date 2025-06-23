@@ -270,6 +270,7 @@ metadata-description-default = Požadovaná stránka sa nenašla.
 
 ## Coupon Error Messages
 
+next-coupon-error-cannot-redeem = Zadaný kód nie je možné uplatniť – váš účet už má predplatné jednej z našich služieb.
 next-coupon-error-expired = Platnosť zadaného kódu vypršala.
 next-coupon-error-generic = Pri spracovaní kódu sa vyskytla chyba. Prosím, skúste to znova.
 next-coupon-error-invalid = Zadaný kód je neplatný.
