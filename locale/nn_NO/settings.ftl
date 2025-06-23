@@ -621,7 +621,7 @@ flow-setup-2fa-backup-choice-code-title = Reserve-godkjenningskodar
 flow-setup-2fa-backup-code-confirm-heading = Skriv inn reserve-godkjenningskode
 # codes here refers to backup authentication codes
 flow-setup-2fa-backup-code-confirm-confirm-saved = Stadfest at du har lagra kodane dine ved å skrive inn ein av dei. Utan desse kodane kan det hende du ikkje kan logge på viss du ikkje har autentiseringsappen din.
-flow-setup-2fa-backup-code-confirm-code-input = Skriv inn 10-sifra kode
+flow-setup-2fa-backup-code-confirm-code-input = Skriv inn kode på 10 teikn
 # Clicking on this button finishes the whole flow upon success.
 flow-setup-2fa-backup-code-confirm-button-finish = Fullfør
 
