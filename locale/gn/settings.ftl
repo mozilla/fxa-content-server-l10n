@@ -126,6 +126,7 @@ signup-new-password-label =
 signup-confirm-password-label =
     .label = Emoingejey ñe’ẽñemi
 signup-submit-button = Emoheñói mba’ete
+post-verify-set-password-submit-button = Eñepyrũ ñembojuehe
 form-reset-password-with-balloon-new-password =
     .label = Ñe’ẽñemi pyahu
 form-reset-password-with-balloon-confirm-password =
