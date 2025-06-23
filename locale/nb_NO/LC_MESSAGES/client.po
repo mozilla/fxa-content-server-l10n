@@ -723,7 +723,7 @@ msgstr "Få siste nytt om Mozilla og Firefox"
 
 #: .es5/lib/newsletters.js:32
 msgid "Help keep the internet healthy"
-msgstr ""
+msgstr "Hjelp med å holde internett sunt"
 
 #: .es5/lib/newsletters.js:36
 msgid "Be safer and smarter online"
@@ -731,7 +731,7 @@ msgstr "Vær tryggere og smartere på nettet"
 
 #: .es5/lib/newsletters.js:40
 msgid "Security & privacy news and updates"
-msgstr ""
+msgstr "Nyheter og oppdateringer om sikkerhet og personvern"
 
 #: .es5/lib/oauth-errors.js:27
 msgid "Unknown client"
@@ -885,7 +885,7 @@ msgstr "Motta ny lenke"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:5
 msgid "Reset password with account recovery key"
-msgstr ""
+msgstr "Nullstill passord med kontogjenopprettingsnøkkel"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:6 .es5/templates/force_auth.mustache:4 .es5/templates/index.mustache:7 .es5/templates/inline_recovery_setup.mustache:2
 #: .es5/templates/inline_recovery_setup.mustache:13 .es5/templates/inline_totp_setup.mustache:2 .es5/templates/inline_totp_setup.mustache:8 .es5/templates/inline_totp_setup.mustache:11
@@ -896,7 +896,7 @@ msgstr "Fortsett til %(serviceName)s"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:7
 msgid "Please enter the one time use account recovery key you stored in a safe place to regain access to your Mozilla account."
-msgstr ""
+msgstr "Skriv inn kontogjenopprettingsnøkkelen du lagret på et trygt sted, for å få tilgang til din Mozilla-konto igjen."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
 msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."

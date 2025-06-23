@@ -1,5 +1,7 @@
 ## Page
 
+# This string appears as a separation between the two sign-in options, "Enter your email"(signin-form-email-input) "or"(this string) "Continue with Google"(continue-signin-with-google-button) / "Continue with Apple"(continue-signin-with-apple-button)
+checkout-signin-options-or = eller
 next-payment-method-header = Velg betalingsmåte
 next-payment-method-first-approve = Først må du godkjenne abonnementet ditt
 
