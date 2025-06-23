@@ -511,12 +511,17 @@ sub-expires-on = Utløper { $date }
 pay-update-card-exp = Utløper { $expirationDate }
 sub-route-idx-updating = Oppdaterer faktureringsinformasjon…
 sub-route-payment-modal-heading = Ugyldig faktureringsinformasjon
+sub-route-payment-modal-message-2 = Det ser ut til å være en feil med { -brand-paypal }-kontoen din. Vi trenger at du tar de nødvendige skrittene for å løse dette betalingsproblemet.
+sub-route-missing-billing-agreement-payment-alert = Ugyldig betalingsinformasjon. Det er en feil med kontoen din. <div>Behandle</div>
+sub-route-funding-source-payment-alert = Ugyldig betalingsinformasjon. Det er en feil med kontoen din. Det kan ta litt tid før dette varselet forsvinner etter at du har oppdatert informasjonen din. <div>Behandle</div>
 
 ## Routes - Subscription - SubscriptionItem
 
 sub-item-no-such-plan = Ingen slik plan for dette abonnementet.
 invoice-not-found = Påfølgende faktura ble ikke funnet
 sub-item-no-such-subsequent-invoice = Finner ikke påfølgende faktura for dette abonnementet.
+sub-invoice-preview-error-title = Fant ikke forhåndsvisning av faktura
+sub-invoice-preview-error-text = Fant ikke forhåndsvisning av faktura for dette abonnementet
 
 ## Routes - Subscriptions - Reactivate
 ## $name (String) - The name of the subscribed product.

@@ -382,7 +382,7 @@ account-recovery-notification-header-description = Opprett en kontogjenopprettin
 recovery-phone-promo-cta = Legg til gjenopprettingstelefon
 recovery-phone-promo-heading = Legg til ekstra beskyttelse for kontoen din med en gjenopprettingstelefon
 recovery-phone-promo-description = Nå kan du logge på med et engangspassord via SMS hvis du ikke kan bruke totrinnsautentiseringsappen din.
-recovery-phone-promo-info-link = Lær mer om gjenoppretting og SIM-swapping-risiko
+recovery-phone-promo-info-link = Les mer om gjenoppretting og SIM-swapping-risiko
 promo-banner-dismiss-button =
     .aria-label = Avvis banner
 
@@ -629,13 +629,22 @@ flow-setup-2fa-input-label = Skriv inn 6-sifret kode
 
 flow-setup-2fa-backup-choice-heading = Velg en gjenopprettingsmetode
 flow-setup-2fa-backup-choice-description = Dette lar deg logge inn hvis du ikke har tilgang til mobilenheten eller autentiseringsappen din.
+flow-setup-2fa-backup-choice-phone-title = Gjenopprettingstelefon
+flow-setup-2fa-backup-choice-phone-badge = Enklest
+flow-setup-2fa-backup-choice-phone-info = Få en gjenopprettingskode via tekstmelding. For øyeblikket tilgjengelig i USA og Canada.
 flow-setup-2fa-backup-choice-code-title = Reserve-autentiseringskoder
+flow-setup-2fa-backup-choice-code-badge = Tryggest
+flow-setup-2fa-backup-choice-code-info = Opprett og lagre engangsautentiseringskoder.
+# This link points to https://support.mozilla.org/kb/secure-mozilla-account-two-step-authentication
+flow-setup-2fa-backup-choice-learn-more-link = Les mer om gjenoppretting og SIM-swapping-risiko
 
 ## The backup code confirm step of the setup 2 factor authentication flow,
 ## where the user confirm that they have saved their backup authentication codes
 ## by entering one of them.
 
 flow-setup-2fa-backup-code-confirm-heading = Skriv inn reserve-autentiseringskode
+# codes here refers to backup authentication codes
+flow-setup-2fa-backup-code-confirm-confirm-saved = Bekreft at du har lagret kodene dine ved å skrive inn en. Uten disse kodene kan du kanskje ikke logge på hvis du ikke har autentiseringsappen din.
 flow-setup-2fa-backup-code-confirm-code-input = Skriv inn kode på 10 tegn
 # Clicking on this button finishes the whole flow upon success.
 flow-setup-2fa-backup-code-confirm-button-finish = Fullfør
@@ -695,6 +704,8 @@ la-unlink-button = Fjern tilknytning
 la-unlink-account-button = Fjern tilknytning
 la-set-password-button = Velg passord
 la-unlink-heading = Fjern tilknyting til tredjepartskonto
+la-unlink-content-3 = Er du sikker på at du vil fjerne tilknytningen til kontoen din? Det at du fjerner tilknytningen til kontoen din, logger deg ikke automatisk ut av de tilkoblede tjenestene dine. For å gjøre det må du logge deg ut manuelt fra seksjonen Tilkoblede tjenester.
+la-unlink-content-4 = Før du fjerner tilknytningen til kontoen din, må du angi et passord. Uten et passord kan du ikke logge inn etter at du har fjernet tilknytningen til kontoen.
 nav-linked-accounts = { la-heading }
 
 ## Modal - Default values for a message directed at the user where the user can typically Confirm or Cancel.
@@ -861,8 +872,14 @@ recent-activity-account-two-factor-removed = Totrinns-verifisering fjernet
 recent-activity-account-password-reset-requested = Kontoen forespurte tilbakestilling av passord
 recent-activity-account-password-reset-success = Tilbakestilling av kontopassordet var vellykket
 recent-activity-account-recovery-key-added = Kontogjenopprettingsnøkkel aktivert
+recent-activity-account-recovery-key-verification-failure = Bekreftelse av kontogjenopprettingsnøkkel mislyktes
+recent-activity-account-recovery-key-verification-success = Bekreftelse av kontogjenopprettingsnøkkel var vellykket
+recent-activity-account-recovery-key-removed = Gjenopprettingsnøkkel for konto fjernet
 recent-activity-account-password-added = Nytt passord lagt til
 recent-activity-account-password-changed = Passordet er endret
+recent-activity-account-secondary-email-added = Sekundær e-postadresse lagt til
+recent-activity-account-secondary-email-removed = Sekundær e-postadesse fjernet
+recent-activity-account-emails-swapped = Primær og sekundær e-postadresse byttet om
 recent-activity-session-destroy = Logget ut av økten
 recent-activity-account-recovery-phone-send-code = Gjenopprettingstelefon-kode sendt
 recent-activity-account-recovery-phone-setup-complete = Konfigurasjonen av gjenopprettingstelefon er fullført
@@ -958,6 +975,7 @@ tfa-step-3-3 = Trinn 3 av 3
 tfa-button-continue = Fortsett
 tfa-button-cancel = Avbryt
 tfa-button-finish = Fullfør
+tfa-incorrect-totp = Ugyldig totrinns-verifiseringskode
 tfa-cannot-retrieve-code = Det oppstod et problem med å hente koden din.
 tfa-cannot-verify-code-4 = Det oppstod et problem med å bekrefte reserve-autentiseringskoden din
 tfa-incorrect-recovery-code-1 = Feil reserve-autentiseringskode
@@ -965,6 +983,11 @@ tfa-enabled-v2 = Totrinns-verifisering er aktivert
 tfa-scan-this-code =
     Skann denne QR-koden med en av <linkExternal>disse
     autentiseringsappene</linkExternal>.
+# This is the image alt text for a QR code.
+# Variables:
+#   $secret (String) - a long alphanumeric string that does not require translation
+# DEV NOTE: Set image alt text per fluent/react documentation, do not use the below as an example
+tfa-qa-code-alt = Bruk koden { $secret } for å sette opp totrinns-verifisering i støttede apper.
 tfa-qa-code =
     .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = Kan du ikke skanne koden?
@@ -984,6 +1007,10 @@ tfa-enter-recovery-code-1 =
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
 product-promo-monitor-description-v2 = Finn ut hvor din private informasjon er eksponert og ta kontroll
+# this message will only be shown to users eligible for a special promotion, based on their location (initially USA only)
+# $price - formatted for user locale, in the target market's currency (for launch, always USD)
+# /mo is 'per month'
+product-promo-monitor-special-promo-description = For { $price }/mnd, spar på { -product-mozilla-vpn-short }, { -product-mozilla-monitor-short } sin datameglerbeskyttelse og { -product-firefox-relay-short } sitt ubegrensede antall e-postaliaser.
 # Links out to the Monitor site
 product-promo-monitor-cta = Få gratis skanning
 # Links out to the Monitor pricing site
@@ -1113,10 +1140,12 @@ se-cannot-resend-code-3 = Beklager, det oppstod et problem med å sende bekrefte
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 se-set-primary-successful-2 = { $email } er nå din primære e-postadresse
+se-set-primary-error-2 = Beklager, det oppstod et problem med å endre den primære e-postadressen din.
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 se-delete-email-successful-2 = { $email } er slettet
+se-delete-email-error-2 = Beklager, det oppstod et problem med å slette denne e-postadressen.
 se-verify-session-3 = Du må bekrefte din nåværende økt for å utføre denne handlingen.
 se-verify-session-error-3 = Beklager, det oppsto et problem med å bekrefte økten din
 # Button to remove the secondary email

@@ -13,6 +13,7 @@ next-payment-method-first-approve = Først må du godkjenne abonnementet ditt
 location-header = Velg landet ditt og skriv inn postnummeret ditt <p>for å fortsette å betale for { $productName }</p>
 location-banner-info = Vi klarte ikke å oppdage posisjonen din automatisk
 location-required-disclaimer = Vi bruker kun denne informasjonen til å beregne skatter og valuta.
+location-banner-currency-change = Valutaendring støttes ikke. For å fortsette, velg et land som samsvarer med din nåværende faktureringsvaluta.
 
 ## Page - Upgrade page
 
@@ -49,6 +50,8 @@ next-payment-processing-message = Vent mens vi behandler betalingen din…
 ## Common strings used in multiple checkout pages
 
 next-payment-confirmation-thanks-heading-account-exists = Takk, sjekk e-posten din nå!
+# $email (String) - The user's email.
+payment-confirmation-thanks-subheading-account-exists-2 = Du vil motta en e-post på { $email } med instruksjoner om abonnementet ditt, samt betalingsinformasjonen din.
 next-payment-confirmation-order-heading = Ordredetaljer
 # $invoiceNumber (String) - Invoice number of the successful payment
 next-payment-confirmation-invoice-number = Fakturanummer { $invoiceNumber }
@@ -117,6 +120,8 @@ payments-header-bento-vpn = { -product-mozilla-vpn }
 payments-header-bento-made-by-mozilla = Utviklet av { -brand-mozilla }
 payments-header-avatar =
     .title = { -product-mozilla-account }-meny
+payments-header-avatar-icon =
+    .alt = Kontoprofilbilde
 payments-header-avatar-expanded-signed-in-as = Logget inn som
 payments-header-avatar-expanded-sign-out = Logg ut
 payments-client-loading-spinner =
