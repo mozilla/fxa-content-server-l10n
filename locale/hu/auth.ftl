@@ -414,7 +414,7 @@ postAddRecoveryPhone-how-protect = Hogyan védi ez a fiókját
 postAddRecoveryPhone-how-protect-plaintext = Hogyan védi ez a fiókját:
 postAddRecoveryPhone-enabled-device = Innen engedélyezte:
 postAddRecoveryPhone-action = Fiók kezelése
-postAddTwoStepAuthentication-subject-v3 = A kétlépcsős hitelesítés be
+postAddTwoStepAuthentication-subject-v3 = A kétlépcsős hitelesítés be van kapcsolva
 postAddTwoStepAuthentication-title-2 = Bekapcsolta a kétlépcsős hitelesítést
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postAddTwoStepAuthentication-from-device-v2 = Ezt kérte a következőtől:

@@ -1018,7 +1018,7 @@ product-promo-monitor-description-v2 = Találja meg, hol kerülnek ki a személy
 # this message will only be shown to users eligible for a special promotion, based on their location (initially USA only)
 # $price - formatted for user locale, in the target market's currency (for launch, always USD)
 # /mo is 'per month'
-product-promo-monitor-special-promo-description = { $price }/hó áron, spóroljon a { -product-mozilla-vpn-short }en, a { -product-mozilla-monitor-short } adatbrokervédelmén, és a { -product-firefox-relay-short }en' korlátlan e-mail-maszkok.
+product-promo-monitor-special-promo-description = { $price }/hó áron, spóroljon a { -product-mozilla-vpn-short }-en, a { -product-mozilla-monitor-short } adatbróker-védelmén, és a { -product-firefox-relay-short } korlátlan számú e-mail-maszkján.
 # Links out to the Monitor site
 product-promo-monitor-cta = Ingyenes vizsgálat kérése
 # Links out to the Monitor pricing site
@@ -1552,7 +1552,7 @@ pair-unsupported-message = Használta a rendszerkamerát? Párosítania kell egy
 
 set-password-heading-v2 = Jelszó létrehozása a szinkronizáláshoz
 # "This" refers to the heading, "Create password to sync"
-set-password-info-v2 = Ez titkosítja az adatait. Ennek különböznie kell a { -brand-google } vagy { -brand-apple }-fiókjához tartozó jelszavától.
+set-password-info-v2 = Ez titkosítja az adatait. Különböznie kell a { -brand-google } vagy { -brand-apple }-fiókjához tartozó jelszavától.
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
