@@ -181,7 +181,7 @@ form-verify-totp-disabled-button-title-alphanumeric = Skriv inn koden på { $cod
 
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = { -brand-firefox }-kontogjenopprettingsnøkkel
-get-data-trio-title-backup-verification-codes = Reserve-autentiseringskode
+get-data-trio-title-backup-verification-codes = Reserve-autentiseringskoder
 get-data-trio-download-2 =
     .title = Last ned
     .aria-label = Last ned
@@ -207,9 +207,9 @@ icon-warning-aria-label =
 authenticator-app-aria-label =
     .aria-label = Autentiseringsapplikasjon
 backup-codes-icon-aria-label-v2 =
-    .aria-label = Reserve-autentiseringskode aktivert
+    .aria-label = Reserve-autentiseringskoder aktivert
 backup-codes-disabled-icon-aria-label-v2 =
-    .aria-label = Reserve-autentiseringskode deaktivert
+    .aria-label = Reserve-autentiseringskoder deaktivert
 # An icon of phone with text message. A back recovery phone number
 backup-recovery-sms-icon-aria-label =
     .aria-label = Gjenopprettings-SMS slått på
@@ -585,6 +585,7 @@ flow-setup-2fa-input-label = Skriv inn 6-sifret kode
 ## authentication setup flow.
 
 flow-setup-2fa-backup-choice-heading = Velg en gjenopprettingsmetode
+flow-setup-2fa-backup-choice-code-title = Reserve-autentiseringskoder
 
 ## The backup code confirm step of the setup 2 factor authentication flow,
 ## where the user confirm that they have saved their backup authentication codes
@@ -596,7 +597,7 @@ flow-setup-2fa-backup-code-confirm-button-finish = Fullfør
 
 ## The backup codes download step of the setup 2 factor authentication flow
 
-flow-setup-2fa-backup-code-dl-heading = Lagre reserve-autentiseringskode
+flow-setup-2fa-backup-code-dl-heading = Lagre reserve-autentiseringskoder
 flow-setup-2fa-backup-code-dl-save-these-codes = Oppbevar disse på et sted du husker. Hvis du ikke har tilgang til autentiseringsappen din, må du oppgi en for å logge på.
 flow-setup-2fa-backup-code-dl-button-continue = Fortsett
 
@@ -655,13 +656,13 @@ nav-email-comm = E-postkommunikasjon
 
 ## Two Step Authentication - replace backup authentication code
 
-tfa-replace-code-error-3 = Det oppsto et problem med å erstatte din reserve-autentiseringskode
-tfa-create-code-error = Det oppsto et problem med å opprette din reserve-autentiseringskode
+tfa-replace-code-error-3 = Det oppsto et problem med å erstatte dine reserve-autentiseringskoder
+tfa-create-code-error = Det oppsto et problem med å opprette dine reserve-autentiseringskoder
 tfa-replace-code-success-1 =
     Nye koder er opprettet. Oppbevar disse engangs
     reserve-autentiseringskodene på et trygt sted – du trenger dem for å få tilgang til kontoen din hvis du ikke
     har mobilenheten din.
-tfa-replace-code-success-alert-4 = Reserve-autentiseringskode oppdatert
+tfa-replace-code-success-alert-4 = Reserve-autentiseringskoder oppdatert
 tfa-replace-code-1-2 = Trinn 1 av 2
 tfa-replace-code-2-2 = Trinn 2 av 2
 
@@ -807,6 +808,9 @@ recovery-key-create-back-button-title = Tilbake til innstillingene
 ## PageRecoveryPhoneRemove
 ## Users reach this page from account settings when they want to remove a backup phone number.
 
+settings-recovery-phone-remove-recommend = Vi anbefaler at du beholder denne metoden fordi den er enklere enn å lagre reserve-autentiseringskoder.
+# "Saved backup authentication codes" refers to previously saved backup authentication codes
+settings-recovery-phone-remove-recovery-methods = Hvis du sletter den, må du sørge for at du fortsatt har dine lagrede reserve-autentiseringskoder. <linkExternal>Sammenlign gjenopprettingsmetoder</linkExternal>
 settings-recovery-phone-remove-button = Fjern telefonnummeret
 settings-recovery-phone-remove-cancel = Avbryt
 
@@ -861,6 +865,7 @@ tfa-enter-secret-key = Skriv inn denne hemmelige nøkkelen i autentiseringsappen
 tfa-enter-totp-v2 = Skriv nå inn autentiseringskoden fra autentiseringsappen.
 tfa-input-enter-totp-v2 =
     .label = Skriv inn autentiseringskode
+tfa-save-these-codes-1 = Lagre disse reserve-autentiseringskodene på et trygt sted, i tilfelle du mister tilgang til mobilenheten din.
 
 ## Product promotion
 
@@ -1215,9 +1220,12 @@ reset-password-confirmed-cta = Fortsett til { $serviceName }
 
 # password, and they previously had set up an account recovery method.
 
+password-reset-recovery-method-code = Reserve-autentiseringskoder
+password-reset-recovery-method-send-code-error-description = Prøv igjen senere, eller bruk reserve-autentiseringskodene dine.
 
 ## ResetPasswordRecoveryPhone page
 
+reset-password-recovery-phone-invalid-code-error-link = Bruk reserve-autentiseringskoder i stedet?
 reset-password-with-recovery-key-verified-page-title = Passordet er tilbakestilt
 
 ## CompleteSignin component
@@ -1271,6 +1279,8 @@ signin-push-code-confirm-link-error = Lenken er skadet. Prøv på nytt.
 ## This page is shown to users when they are having trouble signing in with
 ## their password, and they previously had set up an account recovery method.
 
+signin-recovery-method-code-v2 = Reserve-autentiseringskoder
+signin-recovery-method-send-code-error-description = Prøv igjen senere, eller bruk reserve-autentiseringskodene dine.
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
@@ -1283,6 +1293,7 @@ signin-recovery-code-confirm-button = Bekreft
 
 ## SigninRecoveryPhone page
 
+signin-recovery-phone-invalid-code-error-link = Bruk reserve-autentiseringskoder i stedet?
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 

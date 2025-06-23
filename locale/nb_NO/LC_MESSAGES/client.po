@@ -178,7 +178,7 @@ msgstr "Vis passord"
 
 #: .es5/views/mixins/recovery-codes-mixin.js:68
 msgid "Firefox Backup Authentication Codes"
-msgstr ""
+msgstr "Firefox reserve-autentiseringskoder"
 
 #: .es5/views/mixins/recovery-codes-mixin.js:124
 msgid "Two-step authentication enabled"
@@ -1181,7 +1181,7 @@ msgstr ""
 
 #: .es5/templates/inline_recovery_setup.mustache:1
 msgid "Save backup authentication codes"
-msgstr ""
+msgstr "Lagre reserve-autentiseringskoder"
 
 #: .es5/templates/inline_recovery_setup.mustache:3
 msgid "Store these one-time use codes in a safe place for when you don't have your mobile device."
@@ -1210,15 +1210,15 @@ msgstr "Avbryt konfigurasjon"
 
 #: .es5/templates/inline_recovery_setup.mustache:12
 msgid "Confirm backup authentication code"
-msgstr ""
+msgstr "Bekreft reserve-autentiseringskode"
 
 #: .es5/templates/inline_recovery_setup.mustache:14
 msgid "To ensure that you will be able to regain access to your account, in the event of a lost device, please enter one of your saved backup authentication codes."
-msgstr ""
+msgstr "Angi en av de lagrede reserve-autentiseringskode for å sikre at du kan få tilgang til kontoen din igjen, hvis du mister en enhet."
 
 #: .es5/templates/inline_recovery_setup.mustache:15
 msgid "Backup authentication code"
-msgstr ""
+msgstr "Reserve-autentiseringskode"
 
 #: .es5/templates/inline_totp_setup.mustache:1
 msgid "Enable two-step authentication"

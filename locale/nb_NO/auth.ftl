@@ -329,7 +329,7 @@ inactiveAccountSecondWarning-action-plaintext = Logg inn for å beholde kontoen 
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title-zero = Du er tom for reserve-autentiseringskoder!
 codes-reminder-title-one = Du har kun én reserve-autentiseringskode igjen
-codes-reminder-title-two = På tide å lage flere sikkerhetskopiautentiseringskoder
+codes-reminder-title-two = På tide å lage flere reserve-autentiseringskoder
 codes-reminder-description-part-one = Reserve-autentiseringskoder hjelper deg med å gjenopprette informasjonen din når du glemmer passordet ditt.
 codes-reminder-description-part-two = Opprett nye koder nå, slik at du ikke mister dine data senere.
 codes-reminder-description-two-left = Du har bare to koder igjen.
@@ -645,6 +645,11 @@ subscriptionRenewalReminder-content-closing = Vennlig hilsen,
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = { $productName }-teamet
 subscriptionReplaced-subject = Abonnementet ditt har blitt oppdatert som en del av oppgraderingen
+subscriptionReplaced-title = Abonnementet ditt er oppdatert
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReplaced-content-replaced = Ditt individuelle { $productName }-abonnement er erstattet og er nå inkludert i den nye pakken din.
+subscriptionReplaced-content-credit = Du vil motta en kreditt for ubrukt tid fra ditt forrige abonnement. Denne kreditten vil automatisk bli lagt til kontoen din og brukes til fremtidige belastninger.
+subscriptionReplaced-content-no-action = Du trenger ikke å gjøre noe.
 subscriptionsPaymentExpired-subject-1 = Betalingskortet for abonnementene dine er utløpt eller utløper snart
 subscriptionsPaymentExpired-title-1 = Ditt betalingskort har utløpt eller i ferd med å utløpe
 subscriptionsPaymentExpired-content-1 = Betalingskortet du bruker for å utføre betalinger for følgende abonnementer, er utløpt eller utløper snart.
@@ -733,8 +738,12 @@ verifySecondaryCode-action-2 = Bekreft e-postadressen
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer-2 = En forespørsel om å bruke { $email } som en sekundær e-postadresse er gjort fra følgende { -product-mozilla-account }:
 verifySecondaryCode-prompt-2 = Bruk denne bekreftelseskoden:
+verifySecondaryCode-expiry-notice-2 = Den utløper om 5 minutter. Når e-postadressen er bekreftet, vil den begynne å motta sikkerhetsvarsler og bekreftelser.
 # Variables:
 #  $code (Number) - e.g. 123456
 verifyShortCode-subject-3 = Bekreft kontoen din
+verifyShortCode-title-3 = Åpne internett med { -brand-mozilla }
+# Information on the browser and device triggering this confirmation email follows below this string.
+verifyShortCode-title-subtext-2 = Bekreft kontoen din og få mest mulig ut av { -brand-mozilla } overalt hvor du logger deg på, og start med:
 verifyShortCode-prompt-3 = Bruk denne bekreftelseskoden:
 verifyShortCode-expiry-notice = Den løper ut om 5 minutter.
