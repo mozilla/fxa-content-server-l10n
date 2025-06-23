@@ -381,6 +381,10 @@ passwordResetAccountRecovery-information = Vi logget deg ut av alle dine synkron
 passwordResetAccountRecovery-information-txt = Vi logget deg ut av alle dine synkroniserte enheter. Vi opprettet en ny kontogjenopprettingsnøkkel for å erstatte den du brukte. Du kan endre den i kontoinnstillingene dine:
 passwordResetAccountRecovery-action-4 = Behandle konto
 passwordResetRecoveryPhone-subject = Gjenopprettingstelefon brukt
+passwordResetRecoveryPhone-preview = Kontroller at dette var deg
+passwordResetRecoveryPhone-title = Telefonnummeret ditt for gjenoppretting ble brukt til å bekrefte tilbakestilling av passord
+passwordResetRecoveryPhone-device = Gjenopprettingstelefon brukt fra:
+passwordResetRecoveryPhone-action = Behandle konto
 passwordResetWithRecoveryKeyPrompt-subject = Passordet ditt har blitt tilbakestilt
 passwordResetWithRecoveryKeyPrompt-title = Passordet ditt har blitt tilbakestilt
 # Details of the device and date/time where the password was reset
@@ -403,13 +407,26 @@ postAddLinkedAccount-subject-2 = Ny konto knyttet til { -product-mozilla-account
 postAddLinkedAccount-title-2 = { $providerName }-kontoen er koblet til { -product-mozilla-account }-en din
 postAddLinkedAccount-action = Behandle konto
 postAddRecoveryPhone-subject = Gjenopprettingstelefon lagt til
+postAddRecoveryPhone-preview = Konto beskyttet av totrinns-verifisering
+postAddRecoveryPhone-title-v2 = Du la til et telefonnummer for gjenoppretting
+# Variables:
+#  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
+postAddRecoveryPhone-description-v2 = Du la til { $maskedLastFourPhoneNumber } som telefonnummer for gjenoppretting
 # Links out to a support article about two factor authentication
 postAddRecoveryPhone-how-protect = Slik beskytter dette kontoen din
 postAddRecoveryPhone-how-protect-plaintext = Slik beskytter dette kontoen din:
 postAddRecoveryPhone-enabled-device = Du har slått det på fra:
 postAddRecoveryPhone-action = Behandle konto
+postAddTwoStepAuthentication-subject-v3 = Totrinns-verifisering er på
 postAddTwoStepAuthentication-title-2 = Du har slått på totrinns-verifisering
+# After the colon, there is a description of the device that the user used to enable two-step authentication
+postAddTwoStepAuthentication-from-device-v2 = Du ba om dette fra:
 postAddTwoStepAuthentication-action = Behandle konto
+postAddTwoStepAuthentication-code-required-v3 = Nå må du bruke autentiseringsappen din hver gang du logger på.
+postAddTwoStepAuthentication-recovery-method-codes = Du har også lagt til reserve-autentiseringskode som gjenopprettingsmetode.
+# Variables:
+#  $maskedPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
+postAddTwoStepAuthentication-recovery-method-phone = Du la også til { $maskedPhoneNumber } som telefonnummer for gjenoppretting.
 postChangeAccountRecovery-subject = Kontogjenopprettingsnøkkel endret
 postChangeAccountRecovery-title = Du endret kontogjenopprettingsnøkkelen
 postChangeAccountRecovery-body-part1 = Du har nå en ny kontogjenopprettingsnøkkel. Den forrige nøkkelen din ble slettet.
@@ -422,9 +439,17 @@ postChangePrimary-title = Ny primær e-post
 postChangePrimary-description-2 = Du har endret den primære e-postadressen din til { $email }. Denne adressen benytter du som brukernavn for å logge inn på din { -product-mozilla-account }, samt for å ta imot sikkerhetsvarsler og bekreftelser på innlogginger.
 postChangePrimary-action = Behandle konto
 postChangeRecoveryPhone-subject = Gjenopprettingstelefon oppdatert
+postChangeRecoveryPhone-preview = Konto beskyttet av totrinns-verifisering
 postChangeRecoveryPhone-title = Du endret gjenopprettingstelefonen din
+postChangeRecoveryPhone-description = Du har nå et nytt telefonnummer for gjenoppretting. Det forrige telefonnummeret ditt ble slettet.
 postChangeRecoveryPhone-requested-device = Du ba om det fra:
+postConsumeRecoveryCode-title-3 = Reserve-autentiseringskoden din ble brukt til å bekrefte tilbakestilling av passord
+# After the colon, there is description of the device that the backup authentication code was used on
+# E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
+postConsumeRecoveryCode-description-3 = Kode brukt fra:
 postConsumeRecoveryCode-action = Behandle konto
+postConsumeRecoveryCode-subject-v3 = Reserve-autentiseringskode brukt
+postConsumeRecoveryCode-preview = Kontroller at dette var deg
 postNewRecoveryCodes-subject-2 = Nye reserve-autentiseringskoder opprettet
 postNewRecoveryCodes-title-2 = Du opprettet nye reserve-autentiseringskoder
 # After the colon, there is information about the device that the authentication codes were created on
@@ -435,6 +460,12 @@ postRemoveAccountRecovery-title-3 = Du slettet din kontogjenopprettingsnøkkel
 postRemoveAccountRecovery-body-part1 = Kontogjenopprettingsnøkkelen din kreves for å gjenopprette de krypterte nettleserdataene dine hvis du glemmer passordet ditt.
 postRemoveAccountRecovery-body-part2 = Hvis du ikke allerede har gjort det, kan du opprette en ny kontogjenopprettingsnøkkel i kontoinnstillingene dine for å forhindre at du mister lagrede passord, bokmerker, nettleserhistorikk og mer.
 postRemoveAccountRecovery-action = Behandle konto
+postRemoveRecoveryPhone-subject = Gjenopprettingstelefonen er fjernet
+postRemoveRecoveryPhone-preview = Konto beskyttet av totrinns-verifisering
+postRemoveRecoveryPhone-title = Gjenopprettingstelefonen er fjernet
+postRemoveRecoveryPhone-description-v2 = Telefonnummeret ditt for gjenoppretting er fjernet fra innstillingene for totrinns-verifisering.
+postRemoveRecoveryPhone-description-extra = Du kan fortsatt bruke reserve-autentiseringskodene dine til å logge på hvis du ikke kan bruke autentiseringsappen din.
+postRemoveRecoveryPhone-requested-device = Du ba om det fra:
 postRemoveSecondary-subject = Sekundær e-postadesse fjernet
 postRemoveSecondary-title = Sekundær e-postadesse fjernet
 # Variables:
@@ -447,6 +478,18 @@ postRemoveTwoStepAuthentication-title-2 = Du har slått av totrinns-verifisering
 postRemoveTwoStepAuthentication-from-device = Du har slått det av fra:
 postRemoveTwoStepAuthentication-action = Behandle konto
 postRemoveTwoStepAuthentication-not-required-2 = Du trenger ikke lenger sikkerhetskoder fra autentiseringsappen når du logger inn.
+postSigninRecoveryCode-subject = Reserve-autentiseringskode brukt for å logge inn
+postSigninRecoveryCode-preview = Bekreft kontoaktivitet
+postSigninRecoveryCode-title = Reserve-autentiseringskoden din ble brukt for å logge inn
+postSigninRecoveryCode-description = Hvis du ikke gjorde dette, bør du endre passordet ditt umiddelbart for å holde kontoen din trygg.
+postSigninRecoveryCode-device = Du logget inn fra:
+postSigninRecoveryCode-action = Behandle konto
+postSigninRecoveryPhone-subject = Gjenopprettingstelefon brukt for å logge inn
+postSigninRecoveryPhone-preview = Bekreft kontoaktivitet
+postSigninRecoveryPhone-title = Gjenopprettingstelefonen din ble brukt for å logge inn
+postSigninRecoveryPhone-description = Hvis du ikke gjorde dette, bør du endre passordet ditt umiddelbart for å holde kontoen din trygg.
+postSigninRecoveryPhone-device = Du logget inn fra:
+postSigninRecoveryPhone-action = Behandle konto
 postVerify-sub-title-3 = Vi er glade for å se deg!
 postVerify-title-2 = Vil du se den samme fanen på to enheter?
 postVerify-description-2 = Det er lett! Installer bare { -brand-firefox } på en annen enhet og logg på for å synkronisere. Det er som magi!
@@ -601,6 +644,7 @@ subscriptionRenewalReminder-content-closing = Vennlig hilsen,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = { $productName }-teamet
+subscriptionReplaced-subject = Abonnementet ditt har blitt oppdatert som en del av oppgraderingen
 subscriptionsPaymentExpired-subject-1 = Betalingskortet for abonnementene dine er utløpt eller utløper snart
 subscriptionsPaymentExpired-title-1 = Ditt betalingskort har utløpt eller i ferd med å utløpe
 subscriptionsPaymentExpired-content-1 = Betalingskortet du bruker for å utføre betalinger for følgende abonnementer, er utløpt eller utløper snart.
@@ -657,11 +701,13 @@ verificationReminderSecond-second-description-3 = Din { -product-mozilla-account
 verificationReminderSecond-sub-description-2 = Bli en del av vårt oppdrag om å forvandle internett til et sted som er åpent for alle.
 verificationReminderSecond-action-2 = Bekreft konto
 verify-title-3 = Åpne internett med { -brand-mozilla }
+verify-description-2 = Bekreft kontoen din og få mest mulig ut av { -brand-mozilla } overalt hvor du logger deg på, og start med:
 verify-subject = Fullfør oppretting av kontoen din
 verify-action-2 = Bekreft konto
 # Variables:
 #  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title-2 = Logget du inn på { $clientName }?
+verifyLogin-description-2 = Hjelp oss med å holde kontoen din trygg ved å bekrefte at du er logget inn på:
 verifyLogin-subject-2 = Bekreft innlogging
 verifyLogin-action = Bekreft innlogging
 # Variables:
@@ -670,9 +716,14 @@ verifyLoginCode-subject-line-2 = Godkjenn innlogging på { $serviceName }
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-title-2 = Logget du inn på { $serviceName }?
+# After the colon is a description of the device used to sign in to the service
+verifyLoginCode-safe = Hjelp oss med å holde kontoen din trygg ved å godkjenne påloggingen din på:
+verifyLoginCode-prompt-3 = Hvis ja, her er autorisasjonskoden din:
 verifyLoginCode-expiry-notice = Den løper ut om 5 minutter.
+verifyPrimary-title-2 = Bekreft primær e-postadresse
 verifyPrimary-description = En forespørsel om å utføre en kontoendring er gjort fra følgende enhet:
 verifyPrimary-subject = Bekreft primær e-postadresse
+verifyPrimary-action-2 = Bekreft e-postadresse
 verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
 verifyPrimary-post-verify-2 = Når bekreftet, vil endringer i kontoen som å legge til en sekundær e-post, bli mulig fra denne enheten.
 verifySecondaryCode-subject = Bekreft sekundær e-postadresse
