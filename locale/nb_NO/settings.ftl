@@ -263,8 +263,22 @@ security-shield-aria-label =
 # Used for an image of a single key.
 recovery-key-image-aria-label =
     .aria-label = Illustrasjon som representerer en kontogjenopprettingsnøkkel.
+password-image-aria-label =
+    .aria-label = En illustrasjon av en inntasting av et passord.
 lightbulb-aria-label =
     .aria-label = Illustrasjon av hvordan du lager et oppbevaringshint.
+email-code-image-aria-label =
+    .aria-label = Illustrasjon av en e-post som inneholder en kode.
+recovery-phone-image-description =
+    .aria-label = Mobilenhet som mottar en kode via tekstmelding.
+recovery-phone-code-image-description =
+    .aria-label = Kode mottatt på en mobilenhet.
+backup-recovery-phone-image-aria-label =
+    .aria-label = Mobilenhet med SMS-funksjonalitet
+backup-authentication-codes-image-aria-label =
+    .aria-label = Enhetsskjerm med koder
+sync-clouds-image-aria-label =
+    .aria-label = Skyer med et synkroniseringsikon
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -274,6 +288,7 @@ inline-recovery-key-setup-signed-in-firefox-2 = Du er logget inn på { -brand-fi
 inline-recovery-key-setup-create-header = Sikre kontoen din
 # This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
 inline-recovery-key-setup-create-subheader = Har du et minutt til å beskytte dataene dine?
+inline-recovery-key-setup-info = Opprett en kontogjenopprettingsnøkkel slik at du kan gjenopprette synkroniserte nettleserdata hvis du glemmer passordet ditt.
 inline-recovery-key-setup-start-button = Opprett kontogjenopprettingsnøkkel
 inline-recovery-key-setup-later-button = Gjør det senere
 
@@ -294,6 +309,11 @@ input-password-sr-only-now-hidden = Passordet ditt er nå skjult.
 
 ## Phone number component
 
+# This is an aria-label available to screen readers for a selection list that includes country flags, country name and country code
+input-phone-number-country-list-aria-label = Velg land
+input-phone-number-enter-number = Skriv inn telefonnummer
+input-phone-number-country-united-states = USA
+input-phone-number-country-canada = Canada
 # Back button on legal/terms or legal/privacy that takes users to the previous page
 legal-back-button = Tilbake
 
@@ -325,11 +345,19 @@ remember-password-signin-link = Logg inn
 
 ## LinkUsed component
 
+# The user followed a primary email confirmation link, but that link is has been used and is no longer valid
+primary-email-confirmation-link-reused = Primær e-post allerede bekreftet
+# The user followed a sign-in confirmation link, but that link has been used and is no longer valid
+signin-confirmation-link-reused = Innlogging allerede bekreftet
 confirmation-link-reused-message = Den bekreftelseslenken ble allerede brukt, og kan bare brukes én gang.
+# Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
+error-bad-request = Ugyldig forespørsel
 
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
 
+password-info-balloon-why-password-info = Du trenger dette passordet for å få tilgang til krypterte data du lagrer hos oss.
+password-info-balloon-reset-risk-info = En tilbakestilling betyr potensielt tap av data som passord og bokmerker.
 
 ## PasswordStrengthBalloon component
 
@@ -337,20 +365,30 @@ password-strength-balloon-heading = Passordkrav
 password-strength-balloon-min-length = Minst 8 tegn
 password-strength-balloon-not-email = Ikke e-postadressen din
 password-strength-balloon-not-common = Ikke et typisk brukt passord
+password-strength-balloon-stay-safe-tips = Vær trygg — Ikke bruk passord på nytt. Se flere tips for å <LinkExternal>lage sterke passord</LinkExternal>.
 
 ## PasswordStrengthBalloon component
 
 password-strength-inline-min-length = Minst 8 tegn
 password-strength-inline-not-email = Ikke e-postadressen din
 password-strength-inline-not-common = Ikke et typisk brukt passord
+password-strength-inline-confirmed-must-match = Bekreftelsen samsvarer med det nye passordet
 
 ## Notification Promo Banner component
 
 account-recovery-notification-cta = Opprett
 account-recovery-notification-header-value = Ikke mist dataene dine hvis du glemmer passordet ditt
+account-recovery-notification-header-description = Opprett en kontogjenopprettingsnøkkel for å gjenopprette synkroniserte nettleserdata hvis du glemmer passordet ditt.
+recovery-phone-promo-cta = Legg til gjenopprettingstelefon
+recovery-phone-promo-heading = Legg til ekstra beskyttelse for kontoen din med en gjenopprettingstelefon
+recovery-phone-promo-description = Nå kan du logge på med et engangspassord via SMS hvis du ikke kan bruke totrinnsautentiseringsappen din.
+recovery-phone-promo-info-link = Lær mer om gjenoppretting og SIM-swapping-risiko
+promo-banner-dismiss-button =
+    .aria-label = Avvis banner
 
 ## Ready component
 
+ready-complete-set-up-instruction = Fullfør oppsettet ved å skrive inn det nye passordet ditt på de andre { -brand-firefox }-enhetene dine.
 manage-your-account-button = Behandle kontoen din
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
@@ -363,6 +401,7 @@ ready-account-ready = Kontoen din er klar!
 ready-continue = Fortsett
 sign-in-complete-header = Innlogging bekreftet
 sign-up-complete-header = Konto bekreftet
+primary-email-verified-header = Primær e-postadresse bekreftet
 
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
@@ -371,6 +410,8 @@ sign-up-complete-header = Konto bekreftet
 # "key" here refers to "account recovery key"
 flow-recovery-key-download-storage-ideas-heading-v2 = Steder å oppbevare nøkkelen din:
 flow-recovery-key-download-storage-ideas-folder-v2 = Mappe på sikker enhet
+flow-recovery-key-download-storage-ideas-cloud = Pålitelig skylagring
+flow-recovery-key-download-storage-ideas-print-v2 = Utskreven fysisk kopi
 flow-recovery-key-download-storage-ideas-pwd-manager = Passordbehandler
 
 ## RecoveryKeySetupHint
@@ -534,10 +575,16 @@ flow-recovery-key-info-cancel-link = Avbryt
 
 ## FlowSetup2faApp
 
+# links to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication#w_step-one
+flow-setup-2fa-more-info-link = Les mer om autentiseringsapper
+flow-setup-2fa-button = Fortsett
+flow-setup-2fa-step-2-instruction = <strong>Trinn 2:</strong> Skriv inn koden fra autentiseringsappen din.
+flow-setup-2fa-input-label = Skriv inn 6-sifret kode
 
 ## The step to choose the two step authentication method in the two step
 ## authentication setup flow.
 
+flow-setup-2fa-backup-choice-heading = Velg en gjenopprettingsmetode
 
 ## The backup code confirm step of the setup 2 factor authentication flow,
 ## where the user confirm that they have saved their backup authentication codes
@@ -549,6 +596,7 @@ flow-recovery-key-info-cancel-link = Avbryt
 
 ## FlowSetupPhoneConfirmCode
 
+flow-change-phone-confirm-code-success-message = Gjenopprettingstelefon endret
 
 ## FlowSetupPhoneConfirmCode
 
