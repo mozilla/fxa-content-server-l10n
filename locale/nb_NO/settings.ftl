@@ -100,7 +100,7 @@ datablock-inline-copy =
 
 # Variables { $city }, { $region }, { $country } represent the estimated location of the user's device
 # For example, 'Vancouver, British Columbia, Canada (estimated)'
-device-info-block-location-city-region-country = { $city }, { $stateCode }, { $country } (anslått)
+device-info-block-location-city-region-country = { $city }, { $region }, { $country } (anslått)
 # Variables { $region }, { $country } represent the estimated location of the user's device
 # For example, 'British Columbia, Canada (estimated)'
 device-info-block-location-region-country = { $city }, { $country } (anslått)
@@ -578,6 +578,8 @@ flow-recovery-key-confirm-pwd-submit-button-change-key = Opprett en ny kontogjen
 ## This screen displays the generated key and allows users to download or copy the key
 
 flow-recovery-key-download-heading-v2 = Kontogjenopprettingsnøkkelen ble opprettet — Last ned og lagre den nå
+# The "key" here refers to the term "account recovery key"
+flow-recovery-key-download-info-v2 = Denne nøkkelen lar deg gjenopprette dataene dine hvis du glemmer passordet ditt. Last den ned nå og oppbevar den et sted du husker — du vil ikke kunne gå tilbake til denne siden senere.
 # This link allows user to proceed to the next step without clicking the download button
 flow-recovery-key-download-next-link-v2 = Fortsett uten å laste ned
 
@@ -601,6 +603,8 @@ flow-recovery-key-info-cancel-link = Avbryt
 
 ## FlowSetup2faApp
 
+flow-setup-2fa-qr-heading = Koble til autentiseringsappen din
+flow-setup-2a-qr-instruction = <strong>Trinn 1:</strong> Skann denne QR-koden med en hvilken som helst autentiseringsapp, som Duo eller Google Authenticator.
 # links to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication#w_step-one
 flow-setup-2fa-more-info-link = Les mer om autentiseringsapper
 flow-setup-2fa-button = Fortsett
@@ -630,10 +634,28 @@ flow-setup-2fa-backup-code-dl-button-continue = Fortsett
 
 ## FlowSetupPhoneConfirmCode
 
+# verification code refers to a code sent by text message to confirm phone number ownership
+# and complete setup
+flow-setup-phone-confirm-code-heading = Skriv inn bekreftelseskode
+# $phoneNumber is a partially obfuscated phone number with only the last 4 digits showing (e.g., *** *** 1234)
+# span element applies formatting to ensure the number is always displayed left-to-right
+flow-setup-phone-confirm-code-instruction = En 6-sifret kode ble sendt til <span>{ $phoneNumber }</span> via tekstmelding. Denne koden utløper etter 5 minutter.
+flow-setup-phone-confirm-code-input-label = Skriv inn 6-sifret kode
+flow-setup-phone-confirm-code-button = Bekreft
+# button to resend a code by text message to the user's phone
+# followed by a button to resend a code
+flow-setup-phone-confirm-code-expired = Har koden utløpt?
+flow-setup-phone-confirm-code-resend-code-button = Send koden på nytt
+flow-setup-phone-confirm-code-resend-code-success = Kode sendt
+flow-setup-phone-confirm-code-success-message-v2 = Gjenopprettingstelefon lagt til
 flow-change-phone-confirm-code-success-message = Gjenopprettingstelefon endret
 
 ## FlowSetupPhoneConfirmCode
 
+flow-setup-phone-submit-number-heading = Bekreft telefonnummeret ditt
+# The code is a 6-digit code send by text message/SMS
+flow-setup-phone-verify-number-instruction = Du vil motta en tekstmelding fra { -brand-mozilla } med en kode for å bekrefte nummeret ditt. Ikke del denne koden med noen.
+flow-setup-phone-submit-number-legal = Ved å oppgi nummeret ditt, samtykker du i at vi lagrer det slik at vi kun kan sende deg tekstmeldinger for kontoverifisering. Meldings- og datatakster kan gjelde.
 
 ## HeaderLockup component, the header in account settings
 
@@ -887,6 +909,10 @@ tfa-button-cancel = Avbryt
 tfa-button-finish = Fullfør
 tfa-cannot-verify-code-4 = Det oppstod et problem med å bekrefte reserve-autentiseringskoden din
 tfa-incorrect-recovery-code-1 = Feil reserve-autentiseringskode
+tfa-enabled-v2 = Totrinns-verifisering er aktivert
+tfa-scan-this-code =
+    Skann denne QR-koden med en av <linkExternal>disse
+    autentiseringsappene</linkExternal>.
 tfa-qa-code =
     .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = Kan du ikke skanne koden?
@@ -896,6 +922,8 @@ tfa-enter-totp-v2 = Skriv nå inn autentiseringskoden fra autentiseringsappen.
 tfa-input-enter-totp-v2 =
     .label = Skriv inn autentiseringskode
 tfa-save-these-codes-1 = Lagre disse reserve-autentiseringskodene på et trygt sted, i tilfelle du mister tilgang til mobilenheten din.
+# codes here refers to backup authentication codes
+tfa-enter-code-to-confirm-setup = Bekreft at du har lagret kodene dine ved å skrive inn en. Uten disse kodene kan du kanskje ikke logge på hvis du ikke har autentiseringsappen din.
 tfa-enter-recovery-code-1 =
     .label = Skriv inn en reserve-autentiseringskode
 
@@ -903,8 +931,11 @@ tfa-enter-recovery-code-1 =
 
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
+product-promo-monitor-description-v2 = Finn ut hvor din private informasjon er eksponert og ta kontroll
 # Links out to the Monitor site
 product-promo-monitor-cta = Få gratis skanning
+# Links out to the Monitor pricing site
+product-promo-monitor-special-promo-cta = Få beskyttelse året rundt
 
 ## Profile section
 
@@ -913,9 +944,16 @@ profile-picture =
     .header = Bilde
 profile-display-name =
     .header = Visningsnavn
+profile-primary-email =
+    .header = Primær e-post
 
 ## Progress bar
 
+# This is the aria-label text for the progress bar. The progress bar is meant to visually show the user how much progress they have made through the steps of a given flow.
+# Variables:
+#   $currentStep (number) - the step which the user is currently on
+#   $numberOfSteps (number) - the total number of steps in a given flow
+progress-bar-aria-label-v2 = Trinn { $currentStep } av { $numberOfSteps }.
 
 ## Security section of Setting
 
@@ -932,6 +970,7 @@ security-set-password = Angi et passord for å synkronisere og bruke visse sikke
 # Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
 security-recent-activity-link = Vis nylig kontoaktivitet
 signout-sync-header = Økten har utløpt
+signout-sync-session-expired = Beklager, noe gikk galt. Logg ut fra nettlesermenyen og prøv på nytt.
 
 ## SubRow component
 
@@ -939,10 +978,40 @@ tfa-row-backup-codes-title = Reserve-autentiseringskoder
 # Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
 # Users that have not enabled or verified 2FA will not see this
 tfa-row-backup-codes-not-available = Ingen koder er tilgjengelige
+# $numCodesRemaining - the number of backup authentication codes that have not yet been used (generally between 1 to 5)
+# A different message is shown when no codes are available
+tfa-row-backup-codes-available-v2 =
+    { $numCodesAvailable ->
+        [one] { $numCodesAvailable } kode igjen
+       *[other] { $numCodesAvailable } koder igjen
+    }
+# Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
+tfa-row-backup-codes-get-new-cta-v2 = Opprett nye koder
 # Shown to users who have no backup authentication codes
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = Legg til
+# 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
+tfa-row-backup-codes-description-2 = Dette er den sikreste gjenopprettingsmetoden hvis du ikke kan bruke mobilenheten eller autentiseringsappen din.
+# Recovery phone is a recovery method for two-step authentication
+# A recovery code can be sent to the user's phone
+tfa-row-backup-phone-title-v2 = Gjenopprettingstelefon
+# Shown with an alert icon to indicate that no recovery phone is configured
+tfa-row-backup-phone-not-available-v2 = Ingen telefonnummer lagt til
+# button to change the configured recovery phone
+tfa-row-backup-phone-change-cta = Endre
+# button to add/configure a recovery phone
+tfa-row-backup-phone-add-cta = Legg til
+# Button to remove a recovery phone from the user's account
+tfa-row-backup-phone-delete-button = Fjern
+# Shown in tooltip on delete button or delete icon
+tfa-row-backup-phone-delete-title-v2 = Fjern gjenopprettingstelefonnummeret
 tfa-row-backup-phone-delete-restriction-v2 = Hvis du vil fjerne gjenopprettingstelefonen din, må du legge til reserve-autentiseringskoder eller deaktivere totrinns-verifisering først for å unngå å bli låst ute av kontoen din.
+# "this" refers to recovery phone
+tfa-row-backup-phone-description-v2 = Dette er den enkleste gjenopprettingsmetoden hvis du ikke kan bruke autentiseringsappen din.
+# A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
+# into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
+# with SMS-based two-factor authentication.
+tfa-row-backup-phone-sim-swap-risk-link = Les mer om SIM-swapping-risiko
 
 ## Switch component
 
@@ -966,29 +1035,65 @@ row-defaults-status = Ingen
 
 rk-header-1 = Kontogjenopprettingsnøkkel
 rk-enabled = Slått på
+rk-not-set = Ikke angitt
 rk-action-create = Opprett
 # Button to delete the existing account recovery key and create a new one
 rk-action-change-button = Endre
 rk-action-remove = Fjern
 rk-key-removed-2 = Kontogjenopprettingsnøkkelen er fjernet
+rk-cannot-remove-key = Kunne ikke fjerne kontogjenopprettingsnøkkelen.
+rk-refresh-key-1 = Oppdater kontogjenopprettingsnøkkelen
+rk-content-explain = Gjenopprett informasjonen din når du glemmer passordet ditt.
+rk-cannot-verify-session-4 = Beklager, det oppsto et problem med å bekrefte økten din
+rk-remove-modal-heading-1 = Fjerne kontogjenopprettingsnøkkel?
+rk-remove-modal-content-1 = Hvis du tilbakestiller passordet ditt, vil du ikke kunne bruke kontogjenopprettingsnøkkelen din til å få tilgang til dataene dine. Du kan ikke angre denne handlingen.
+rk-remove-error-2 = Kunne ikke fjerne kontogjenopprettingsnøkkelen
 # Icon button to delete user's account recovery key. Text appears in tooltip on hover and as alt text for screen readers.
 unit-row-recovery-key-delete-icon-button-title = Slett kontogjenopprettingsnøkkelen
 
 ## Secondary email sub-section on main Settings page
 
+se-heading = Sekundær e-postadresse
+    .header = Sekundær e-postadresse
+se-cannot-refresh-email = Dessverre oppsto det et problem med å oppdatere e-postadressen.
+se-cannot-resend-code-3 = Beklager, det oppstod et problem med å sende bekreftelseskoden
+# This string is used in a notification message near the top of the page.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+se-set-primary-successful-2 = { $email } er nå din primære e-postadresse
 # This string is used in a notification message near the top of the page.
 # Variables:
 #   $email (String) - the user's email address, which does not need translation.
 se-delete-email-successful-2 = { $email } er slettet
+se-verify-session-3 = Du må bekrefte din nåværende økt for å utføre denne handlingen.
+se-verify-session-error-3 = Beklager, det oppsto et problem med å bekrefte økten din
+# Button to remove the secondary email
+se-remove-email =
+    .title = Fjern e-postadresse
+# Button to refresh secondary email status
+se-refresh-email =
+    .title = Oppdater e-postadresse
+se-unverified-2 = ubekreftet
+se-resend-code-2 = Bekreftelse kreves. <button>Send bekreftelseskoden på nytt</button> hvis den ikke er i innboksen eller spam-mappen din.
+# Button to make secondary email the primary
+se-make-primary = Gjør til primær
+se-default-content = Få tilgang til kontoen din hvis du ikke kan logge inn med den primære e-postadressen din.
+se-content-note-1 = Merk: En sekundær e-postadresse gjenoppretter ikke informasjonen din — du trenger en <a>kontogjenopprettingsnøkkel</a> for det.
 # Default value for the secondary email
 se-secondary-email-none = Ingen
 
 ## Two Step Auth sub-section on Settings main page
 
+tfa-row-header = Totrinns-verifisering
 tfa-row-enabled = Slått på
 tfa-row-disabled-status = Slått av
 tfa-row-action-add = Legg til
 tfa-row-action-disable = Slå av
+tfa-row-button-refresh =
+    .title = Oppdater totrinns-verifisering
+# "this" refers to two-step authentication
+# Link goes to https://support.mozilla.org/kb/secure-mozilla-account-two-step-authentication
+tfa-row-enabled-info-link = Slik beskytter dette kontoen din
 tfa-row-disable-modal-confirm = Slå av
 tfa-row-disable-modal-explain-1 = Du kan ikke angre denne handlingen. Du har også muligheten til å <linkExternal>erstatte reserve-autentiseringskodene dine</linkExternal>.
 
@@ -1111,6 +1216,10 @@ inline-recovery-confirmation-header = Bekreft reserve-autentiseringskoden <span>
 
 inline-totp-setup-cancel-setup-button = Avbryt oppsett
 inline-totp-setup-continue-button = Fortsett
+# <authenticationAppsLink> links to a list of security apps
+inline-totp-setup-add-security-link = Legg til et ekstra sikkerhetslag til kontoen din ved å kreve sikkerhetskoder fra en av <authenticationAppsLink>disse godkjenningsappene</authenticationAppsLink>.
+#  The <enable2StepDefaultSpan> elements are just visual separation here
+inline-totp-setup-enable-two-step-authentication-default-header-2 = Aktiver totrinns-verifisering <span>for å fortsette til kontoinnstillingene</span>
 inline-totp-setup-ready-button = Klar
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = Autentiseringskode
