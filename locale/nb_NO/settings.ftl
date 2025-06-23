@@ -5,6 +5,8 @@
 
 ## Banner component
 
+resend-code-success-banner-heading = En ny kode ble sendt til e-posten din.
+resend-link-success-banner-heading = En ny lenke ble sendt til e-posten din.
 
 ## Brand Messaging component
 ## Used to show in product messaging about upcoming brand changes
@@ -14,6 +16,8 @@ brand-prelaunch-title = { -product-firefox-accounts } vil bli omdøpt til { -pro
 # This message is displayed as title element in the banner, after the brand changes take affect letting the user know that
 # no action is required on their part
 brand-postlaunch-title = Vi har endret navn på { -product-firefox-accounts } til { -product-mozilla-accounts }. Du vil fortsatt logge på med samme brukernavn og passord, og det er ingen andre endringer i produktene du bruker.
+# This is an extra link element, that directs users to a page where they can learn more about the branding changes.
+brand-learn-more = Les mer
 
 ## ButtonBack component
 ## Allows users to click a back arrow to navigate to the previous page
@@ -23,6 +27,12 @@ brand-postlaunch-title = Vi har endret navn på { -product-firefox-accounts } ti
 ## Clicking on this button downloads a PDF file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
 
+# Button to download the account recovery key as a PDF file and navigate to the next step
+# The next (and final) step is an optional prompt to save a storage hint
+# .title will displayed as a tooltip on the button
+recovery-key-download-button-v3 = Last ned og fortsett
+    .title = Last ned og fortsett
+recovery-key-pdf-heading = Kontogjenopprettingsnøkkel
 # Date when the account recovery key was created and this file was downloaded
 # { $date }: formatted date with 'medium' dateStyle format (e.g., for 'en': Jul 31, 2023)
 recovery-key-pdf-download-date = Opprettet den { $date }
@@ -169,15 +179,50 @@ checkmark-success-icon-aria-label =
 # Used to indicate a check mark for an enabled state/option
 checkmark-enabled-icon-aria-label =
     .aria-label = Slått på
+# Used on X icon to dismiss a message such as an alert or banner
+close-icon-aria-label =
+    .aria-label = Lukk melding
+# Used to decorate a code you enter for verification purposes
+code-icon-aria-label =
+    .aria-label = Kode
+error-icon-aria-label =
+    .aria-label = Feil
+# Used as information icon for informative messaging
+info-icon-aria-label =
+    .aria-label = Informasjon
+# Used to select United States as a country code for phone number
+usa-flag-icon-aria-label =
+    .aria-label = Amerikansk flagg
 
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
+signin-recovery-code-image-description =
+    .aria-label = Dokument som inneholder skjult tekst.
+signin-totp-code-image-label =
+    .aria-label = En enhet med en skjult 6-sifret kode.
+confirm-signup-aria-label =
+    .aria-label = En konvolutt som inneholder en lenke
+# Used for an image of a key on a shield surrounded by 5 other icons representing information that can be recovered with the account recovery key.
+# Other icons and their meaning: Gear (settings), star (favorites), clock (history), magnifying glass (search) and lock (passwords).
+security-shield-aria-label =
+    .aria-label = Illustrasjon som representerer en kontogjenopprettingsnøkkel.
+# Used for an image of a single key.
+recovery-key-image-aria-label =
+    .aria-label = Illustrasjon som representerer en kontogjenopprettingsnøkkel.
+lightbulb-aria-label =
+    .aria-label = Illustrasjon av hvordan du lager et oppbevaringshint.
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
 ## after signing in.
 
+inline-recovery-key-setup-signed-in-firefox-2 = Du er logget inn på { -brand-firefox }.
+inline-recovery-key-setup-create-header = Sikre kontoen din
+# This is a subheader asking users to create an account recovery key, indicating it will only take a moment to complete.
+inline-recovery-key-setup-create-subheader = Har du et minutt til å beskytte dataene dine?
+inline-recovery-key-setup-start-button = Opprett kontogjenopprettingsnøkkel
+inline-recovery-key-setup-later-button = Gjør det senere
 
 ## Input Password
 
@@ -185,21 +230,49 @@ checkmark-enabled-icon-aria-label =
 input-password-hide = Skjul passord
 # Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will show the password.
 input-password-show = Vis passord
+# Message read by screen readers when focus is on a password input visibility toggle. Expresses current (visible) state of the textbox content.
+input-password-hide-aria-2 = Passordet ditt er for øyeblikket synlig på skjermen.
+# Message read by screen readers when focus is on a password input visibility toggle. Expresses current (hidden) state of the textbox content.
+input-password-show-aria-2 = Passordet ditt er for øyeblikket skjult.
+# Message read by screen readers after clicking on a password input visibility toggle to show the password. Expresses the new (visible) state of the textbox content.
+input-password-sr-only-now-visible = Passordet ditt er nå synlig på skjermen.
+# Message read by screen readers after clicking on a password input visibility toggle to hide the password. Expresses the new (hidden) state of the textbox content.
+input-password-sr-only-now-hidden = Passordet ditt er nå skjult.
 
 ## Phone number component
 
+# Back button on legal/terms or legal/privacy that takes users to the previous page
+legal-back-button = Tilbake
 
 ## LinkDamaged component
 
+# The user followed a password reset link that was received by email
+# but the link is damaged (for example mistyped or broken by the email client)
+reset-pwd-link-damaged-header = Lenke for tilbakestilling av passordet er skadet
+# The user followed a link to signin that was received by email
+# but the link was damaged (for example mistyped or broken by the email client).
+signin-link-damaged-header = Bekreftelseslenken er skadet
+# The user followed a link to report an invalid signin attempt that was received by email
+# but the link was damaged (for example mistyped or broken by the email client).
+report-signin-link-damaged-header = Ødelagt lenke
+# The user followed a link received by email, but the link was damaged.
+reset-pwd-link-damaged-message = Linken du klikket på mangler noen tegn, og kan ha blitt forandret av e-postklienten. Sjekk at du kopierte riktig, og prøv igjen.
 
 ## LinkExpired component
 
+# Button to request a new link if the previous link that was emailed to the user is expired
+link-expired-new-link-button = Motta en ny lenke
 
 ## LinkRememberPassword component
 
+# immediately before remember-password-signin-link
+remember-password-text = Husker du passordet ditt?
+# link navigates to the sign in page
+remember-password-signin-link = Logg inn
 
 ## LinkUsed component
 
+confirmation-link-reused-message = Den bekreftelseslenken ble allerede brukt, og kan bare brukes én gang.
 
 ## PasswordInfoBalloon
 ## Balloon displayed next to password input field
@@ -207,12 +280,19 @@ input-password-show = Vis passord
 
 ## PasswordStrengthBalloon component
 
+password-strength-balloon-heading = Passordkrav
+password-strength-balloon-min-length = Minst 8 tegn
+password-strength-balloon-not-email = Ikke e-postadressen din
+password-strength-balloon-not-common = Ikke et typisk brukt passord
 
 ## PasswordStrengthBalloon component
 
+password-strength-inline-min-length = Minst 8 tegn
 
 ## Notification Promo Banner component
 
+account-recovery-notification-cta = Opprett
+account-recovery-notification-header-value = Ikke mist dataene dine hvis du glemmer passordet ditt
 
 ## Ready component
 
@@ -220,11 +300,17 @@ input-password-show = Vis passord
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
 
+flow-recovery-key-download-storage-ideas-folder-v2 = Mappe på sikker enhet
+flow-recovery-key-download-storage-ideas-pwd-manager = Passordbehandler
 
 ## RecoveryKeySetupHint
 ## This is the final step in the account recovery key creation flow after a Sync signin or in account settings
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
+# The label for the text input where the user types in the storage hint they want to save.
+# The storage hint is optional, and users can leave this blank.
+flow-recovery-key-hint-input-v2 =
+    .label = Skriv inn et hint (valgfritt)
 # The text of the "submit" button. Clicking on this button will save the hint (if provided) and exit the account recovery key creation flow.
 # "Finish" refers to "Finish the account recovery key creation process"
 flow-recovery-key-hint-cta-text = Fullfør
@@ -510,6 +596,12 @@ delete-account-confirm-title-4 = Du kan ha koblet { -product-mozilla-account } t
 delete-account-product-mozilla-account = { -product-mozilla-account }
 delete-account-product-mozilla-vpn = { -product-mozilla-vpn }
 delete-account-product-mdn-plus = { -product-mdn-plus }
+delete-account-product-mozilla-hubs = { -product-mozilla-hubs }
+delete-account-product-pocket = { -product-pocket }
+delete-account-product-mozilla-monitor = { -product-mozilla-monitor }
+delete-account-product-firefox-relay = { -product-firefox-relay }
+delete-account-product-firefox-sync = Synkroniserer { -brand-firefox }-data
+delete-account-product-firefox-addons = { -brand-firefox }-tillegg
 delete-account-continue-button = Fortsett
 delete-account-password-input =
     .label = Skriv inn passord
@@ -518,16 +610,34 @@ delete-account-delete-button-2 = Slett
 
 ## Display name page
 
+display-name-page-title =
+    .title = Visningsnavn
+display-name-input =
+    .label = Skriv inn visningsnavn
 submit-display-name = Lagre
 cancel-display-name = Avbryt
+display-name-success-alert-2 = Visningsnavn oppdatert
 
 ## Recent account activity
 ## All strings except title indicate an event that occurred from the user's account
 ## These are displayed as a list with the date when the event occured
 
+recent-activity-title = Nylig kontoaktivitet
+recent-activity-account-create-v2 = Konto opprettet
+recent-activity-account-disable-v2 = Konto deaktivert
+recent-activity-account-enable-v2 = Konto aktivert
+recent-activity-account-password-added = Nytt passord lagt til
+recent-activity-account-password-changed = Passordet er endret
+# Security event was recorded, but the activity details are unknown or not shown to user
+recent-activity-unknown = Annen kontoaktivitet
 
 ## PageRecoveryKeyCreate
 
+# The page title displayed at the top of the flow container
+recovery-key-create-page-title = Kontogjenopprettingsnøkkel
+# Tooltip text and aria label for back arrow that takes users out of the account recovery key generation flow
+# and back to account settings
+recovery-key-create-back-button-title = Tilbake til innstillingene
 
 ## PageRecoveryPhoneRemove
 ## Users reach this page from account settings when they want to remove a backup phone number.
@@ -539,27 +649,72 @@ cancel-display-name = Avbryt
 ## Add secondary email page
 
 add-secondary-email-step-1 = Trinn 1 av 2
+add-secondary-email-enter-address =
+    .label = Skriv inn e-postadresse
+add-secondary-email-cancel-button = Avbryt
+add-secondary-email-save-button = Lagre
 
 ## Verify secondary email page
 
+add-secondary-email-step-2 = Trinn 2 av 2
+verify-secondary-email-verification-code-2 =
+    .label = Skriv inn bekreftelseskoden din
+verify-secondary-email-cancel-button = Avbryt
+verify-secondary-email-verify-button-2 = Bekreft
+# This string is a confirmation message shown after verifying an email.
+# Variables:
+#   $email (String) - the user's email address, which does not need translation.
+verify-secondary-email-success-alert-2 = { $email } lagt til
 
 ##
 
+# Link to delete account on main Settings page
+delete-account-link = Slett kontoen
 
 ## Two Step Authentication
 
+tfa-step-1-3 = Trinn 1 av 3
+tfa-step-2-3 = Trinn 2 av 3
+tfa-step-3-3 = Trinn 3 av 3
+tfa-button-continue = Fortsett
+tfa-button-cancel = Avbryt
+tfa-button-finish = Fullfør
+tfa-qa-code =
+    .alt = { tfa-qa-code-alt }
+tfa-button-cant-scan-qr = Kan du ikke skanne koden?
+tfa-input-enter-totp-v2 =
+    .label = Skriv inn autentiseringskode
 
 ## Product promotion
 
+product-promo-monitor =
+    .alt = { -product-mozilla-monitor }
+# Links out to the Monitor site
+product-promo-monitor-cta = Få gratis skanning
 
 ## Profile section
 
+profile-heading = Profil
+profile-picture =
+    .header = Bilde
+profile-display-name =
+    .header = Visningsnavn
 
 ## Progress bar
 
 
 ## Security section of Setting
 
+security-heading = Sikkerhet
+security-password =
+    .header = Passord
+# This is a string that shows when the user's password was created.
+# Variables:
+#   $date (String) - a localized date and time string
+security-password-created-date = Opprettet den { $date }
+security-not-set = Ikke angitt
+security-action-create = Opprett
+security-set-password = Angi et passord for å synkronisere og bruke visse sikkerhetsfunksjoner for kontoen.
 
 ## SubRow component
 
@@ -784,6 +939,8 @@ auth-totp-heading-w-custom-service = Skriv inn autentiseringskoden <span>for å 
 
 ## ResetPasswordConfirmed
 
+# $serviceName is a product name such as Monitor, Pocket, Relay
+reset-password-confirmed-cta = Fortsett til { $serviceName }
 
 ## Reset password recovery method page
 ## This page is shown to users when they are having trouble resetting their
