@@ -495,6 +495,9 @@ subscriptionsPaymentExpired-title-1 = Муҳлати истифодаи корт
 subscriptionSubsequentInvoice-subject = Пардохт барои «{ $productName }» қабул шуд
 subscriptionSubsequentInvoice-title = Ташаккур ба шумо барои обунашавӣ!
 # Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSubsequentInvoice-content-received = Мо пардохти охирини шуморо барои «{ $productName }» қабул кардем.
+# Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
 subscriptionSubsequentInvoice-content-next-invoice = Санади дархости пардохти навбатӣ: { $nextInvoiceDateOnly }
 # Variables:
