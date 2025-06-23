@@ -1172,9 +1172,13 @@ tfa-row-action-add = Legg til
 tfa-row-action-disable = Slå av
 tfa-row-button-refresh =
     .title = Oppdater totrinns-verifisering
+tfa-row-cannot-refresh = Dessverre oppstod det et problem med å oppdatere totrinns-verifisering.
+tfa-row-enabled-description = Kontoen din er beskyttet av totrinns-verifisering. Du må oppgi en engangskode fra autentiseringsappen din når du logger deg på { -product-mozilla-account }.
 # "this" refers to two-step authentication
 # Link goes to https://support.mozilla.org/kb/secure-mozilla-account-two-step-authentication
 tfa-row-enabled-info-link = Slik beskytter dette kontoen din
+tfa-row-disabled-description-v2 = Bidra til å sikre kontoen din ved å bruke en tredjeparts autentiseringsapp som et andre trinn for å logge inn.
+tfa-row-cannot-verify-session-4 = Beklager, det oppsto et problem med å bekrefte økten din
 tfa-row-disable-modal-heading = Slå av totrinns-verifisering
 tfa-row-disable-modal-confirm = Slå av
 tfa-row-disable-modal-explain-1 = Du kan ikke angre denne handlingen. Du har også muligheten til å <linkExternal>erstatte reserve-autentiseringskodene dine</linkExternal>.
@@ -1528,6 +1532,9 @@ pair-unsupported-message = Brukte du systemkameraet? Du må koble til fra en { -
 
 # password to complete their sign-in when they want to login to a service requiring it.
 
+set-password-heading-v2 = Opprett passord for å synkronisere
+# "This" refers to the heading, "Create password to sync"
+set-password-info-v2 = Dette krypterer dataene dine. Det må være forskjellig fra passordet til { -brand-google }- eller { -brand-apple }-kontoen din.
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
@@ -1628,7 +1635,20 @@ reset-password-confirmed-cta = Fortsett til { $serviceName }
 
 # password, and they previously had set up an account recovery method.
 
+password-reset-recovery-method-header = Tilbakestill passord
+password-reset-recovery-method-subheader = Velg en gjenopprettingsmetode
+# This is displayed to the user when they are choosing an alternative method to authenticate themself in the password reset process when they do not have access to their two-factor authenticator application
+password-reset-recovery-method-details = La oss forsikre oss om at det er du som bruker gjenopprettingsmetodene dine.
+password-reset-recovery-method-phone = Gjenopprettingstelefon
 password-reset-recovery-method-code = Reserve-autentiseringskoder
+# Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
+password-reset-recovery-method-code-info =
+    { $numBackupCodes ->
+        [one] { $numBackupCodes } kode igjen
+       *[other] { $numBackupCodes } koder igjen
+    }
+# Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
+password-reset-recovery-method-send-code-error-heading = Det oppsto et problem da en kode skulle sendes til gjenopprettingstelefonen din
 password-reset-recovery-method-send-code-error-description = Prøv igjen senere, eller bruk reserve-autentiseringskodene dine.
 
 ## ResetPasswordRecoveryPhone page
@@ -1715,22 +1735,30 @@ back = Tilbake
 ## SigninPushCode page
 ## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
 
-signin-push-code-heading-w-default-service = Bekreft denne påloggingen <span>for å fortsette til kontoinnstillingene</span>
+signin-push-code-heading-w-default-service = Bekreft denne innloggingen <span>for å fortsette til kontoinnstillingene</span>
+signin-push-code-heading-w-custom-service = Bekreft denne innloggingen <span>for å fortsette til { $serviceName }</span>
+signin-push-code-instruction = Sjekk de andre enhetene dine og godkjenn denne påloggingen fra { -brand-firefox }-nettleseren din.
 signin-push-code-did-not-recieve = Har du ikke mottatt varselet?
 signin-push-code-send-email-link = E-postkode
 
 ## SigninPushCodeConfirmPage
 
 signin-push-code-confirm-instruction = Bekreft innloggingen din
+signin-push-code-confirm-description = Vi oppdaget et påloggingsforsøk fra følgende enhet. Hvis dette var deg, godkjenn påloggingen.
 signin-push-code-confirm-verifying = Kontrollerer
 signin-push-code-confirm-login = Bekreft innlogging
 signin-push-code-confirm-wasnt-me = Det var ikke meg, endre passordet.
+signin-push-code-confirm-login-approved = Påloggingen din er godkjent. Lukk dette vinduet.
 signin-push-code-confirm-link-error = Lenken er skadet. Prøv på nytt.
 
 ## Signin recovery method page
 ## This page is shown to users when they are having trouble signing in with
 ## their password, and they previously had set up an account recovery method.
 
+signin-recovery-method-header = Logg inn
+signin-recovery-method-subheader = Velg en gjenopprettingsmetode
+signin-recovery-method-details = La oss forsikre oss om at det er du som bruker gjenopprettingsmetodene dine.
+signin-recovery-method-phone = Gjenopprettingstelefon
 signin-recovery-method-code-v2 = Reserve-autentiseringskoder
 # Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
 signin-recovery-method-code-info-v2 =
@@ -1757,6 +1785,9 @@ signin-recovery-code-input-label-v2 = Skriv inn kode på 10 tegn
 signin-recovery-code-confirm-button = Bekreft
 # Link to go to the page to use recovery phone instead
 signin-recovery-code-phone-link = Bruk gjenopprettingstelefonnummer
+# External link for support if the user can't use two-step autentication or a backup authentication code
+# https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+signin-recovery-code-support-link = Er du utestengt?
 # Error displayed in a tooltip when form is submitted witout a code
 signin-recovery-code-required-error = Reserve-autentiseringskode påkrevd
 # Message to user after they were redirected to the Mozilla account sign-in page in a new browser
@@ -1791,6 +1822,8 @@ signin-recovery-phone-success-message = Logget inn. Begrensninger kan gjelde hvi
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
+signin-reported-header = Takk for din årvåkenhet
+signin-reported-message = Teamet vårt er varslet. Rapporter som denne hjelper oss med å avverge inntrengere.
 
 ## SigninTokenCode page
 ## Users see this page during the signin process. In this instance, the confirmation code is
@@ -1810,6 +1843,11 @@ signin-token-code-code-expired = Har koden utløpt?
 signin-token-code-resend-code-link = Send ny kode på e-post.
 # Error displayed in a tooltip when the form is submitted without a code
 signin-token-code-required-error = Bekreftelseskode kreves
+signin-token-code-resend-error = Noe gikk galt. En ny kode kunne ikke sendes.
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-token-code-instruction-desktop-relay = { -brand-firefox } vil prøve å sende deg tilbake til å bruke et e-postalias etter at du har logget inn.
 
 ## SigninTOTPCode page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).

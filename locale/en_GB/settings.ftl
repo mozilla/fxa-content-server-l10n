@@ -126,6 +126,7 @@ signup-new-password-label =
 signup-confirm-password-label =
     .label = Repeat password
 signup-submit-button = Create account
+post-verify-set-password-submit-button = Start synchronising
 form-reset-password-with-balloon-new-password =
     .label = New password
 form-reset-password-with-balloon-confirm-password =
@@ -1013,8 +1014,15 @@ tfa-enter-recovery-code-1 =
 
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
+product-promo-monitor-description-v2 = Find where your private info is exposed and take control
+# this message will only be shown to users eligible for a special promotion, based on their location (initially USA only)
+# $price - formatted for user locale, in the target market's currency (for launch, always USD)
+# /mo is 'per month'
+product-promo-monitor-special-promo-description = For { $price }/mo, save on { -product-mozilla-vpn-short }, { -product-mozilla-monitor-short }’s data-broker protection, and { -product-firefox-relay-short }’s unlimited email masks.
 # Links out to the Monitor site
 product-promo-monitor-cta = Get free scan
+# Links out to the Monitor pricing site
+product-promo-monitor-special-promo-cta = Get year-round protection
 
 ## Profile section
 
@@ -1542,6 +1550,9 @@ pair-unsupported-message = Did you use the system camera? You must pair from wit
 
 # password to complete their sign-in when they want to login to a service requiring it.
 
+set-password-heading-v2 = Create password to synchronise
+# "This" refers to the heading, "Create password to sync"
+set-password-info-v2 = This encrypts your data. It needs to be different from your { -brand-google } or { -brand-apple } account password.
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
@@ -1718,6 +1729,7 @@ signin-password-button-label = Password
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-desktop-relay = { -brand-firefox } will try sending you back to use an email mask after you sign in.
+signin-code-expired-error = Code expired. Please sign in again.
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
@@ -1910,6 +1922,7 @@ confirm-signup-code-instruction-v2 = Enter the code that was sent to <email>{ $e
 confirm-signup-code-input-label = Enter 6-digit code
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = Confirm
+confirm-signup-code-sync-button = Start synchronising
 confirm-signup-code-code-expired = Code expired?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Email new code.
@@ -1924,7 +1937,10 @@ confirm-signup-code-desktop-relay = { -brand-firefox } will try sending you back
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
+signup-heading-v2 = Create a password
 signup-relay-info = A password is needed to securely manage your masked emails and access { -brand-mozilla }’s security tools.
+signup-sync-info = Synchronise your passwords, bookmarks and more everywhere you use { -brand-firefox }.
+signup-sync-info-with-payments = Synchronise your passwords, bookmarks and more everywhere you use { -brand-firefox }.
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = Why do I need to create this account?
 # Link included in a dismissible info banner that is only displayed to Pocket clients
@@ -1939,5 +1955,9 @@ signup-change-email-link = Change email
 signup-confirmed-sync-header = Synchronisation is turned on
 signup-confirmed-sync-success-banner = { -product-mozilla-account } confirmed
 signup-confirmed-sync-button = Start browsing
+# Shown when payment methods are also synced
+signup-confirmed-sync-description-with-payment-v2 = Your passwords, payment methods, addresses, bookmarks, history and more can synchronise everywhere you use { -brand-firefox }.
+signup-confirmed-sync-description-v2 = Your passwords, addresses, bookmarks, history and more can synchronise everywhere you use { -brand-firefox }.
 signup-confirmed-sync-add-device-link = Add another device
 signup-confirmed-sync-manage-sync-button = Manage synchronisation
+signup-confirmed-sync-set-password-success-banner = Synchronisation password created

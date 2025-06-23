@@ -945,6 +945,8 @@ msgid ""
 "<span>REMEMBER:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt "
 "your data with your password to protect your privacy. You’ll still keep any subscriptions you may have and Pocket data will not be affected."
 msgstr ""
+"<span>HUSK:</span> Når du tilbakestiller passordet ditt, tilbakestiller du kontoen din. Du kan miste noen av dine personlige opplysninger (inkludert historikk, bokmerker og passord). Det er fordi vi"
+" krypterer dataene dine med passordet ditt for å beskytte ditt personvern. Du beholder eventuelle abonnementer du måtte ha, og Pocket-data vil ikke bli påvirket."
 
 #: .es5/templates/complete_reset_password.mustache:11
 msgid "You have successfully restored your account using your account recovery key. Create a new password to secure your data, and store it in a safe location."
@@ -976,7 +978,7 @@ msgstr "Bekreftelseslenken er utløpt"
 
 #: .es5/templates/complete_sign_up.mustache:7
 msgid "The link you clicked to confirm your email is expired."
-msgstr ""
+msgstr "Lenken du klikket på for å bekrefte e-postadressen din er utløpt."
 
 #: .es5/templates/complete_sign_up.mustache:8
 msgid "Click here to receive a new confirmation link"
@@ -1000,7 +1002,7 @@ msgstr "Bekreft denne innloggingen"
 
 #: .es5/templates/confirm.mustache:7
 msgid "Check your email for the confirmation link sent&nbsp;to %(escapedEmail)s"
-msgstr ""
+msgstr "Sjekk e-posten din for bekreftelseslenken som er sendt&nbsp;til %(escapedEmail)s"
 
 #: .es5/templates/confirm.mustache:9
 msgid "Check your email for the sign-in confirmation link sent to %(escapedEmail)s"
@@ -1106,6 +1108,11 @@ msgid ""
 "            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
+"\n"
+"            Ved å fortsette godtar du:<br />\n"
+"            Pocket sin <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">tjenestevilkår</a> og <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">personvernerklæring</a><br />\n"
+"            Mozilla-kontoer sin <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">tjenestevilkår</a> og <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">personvernerklæring</a>\n"
+"          "
 
 #: .es5/templates/force_auth.mustache:10 .es5/templates/sign_in_password.mustache:15 .es5/templates/sign_up_password.mustache:17
 msgid ""

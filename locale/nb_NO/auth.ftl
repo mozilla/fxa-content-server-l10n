@@ -683,8 +683,12 @@ subscriptionUpgrade-upgrade-info-2 = Du har oppgradert til { $productName }.
 ## $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
+subscriptionUpgrade-content-charge-prorated = Du har blitt belastet med et engangsgebyr på { $paymentProrated } for å gjenspeile abonnementets høyere pris for resten av denne faktureringsperioden ({ $productPaymentCycleOld }).
 subscriptionUpgrade-content-charge-credit = Du har mottatt en kontokreditt på beløpet { $paymentProrated }.
 subscriptionUpgrade-content-starting = Fra og med din neste faktura vil kostnaden endres fra { $paymentAmountOld } per { $productPaymentCycleOld } til { $paymentAmountNew } per { $productPaymentCycleNew }.
+# Variables:
+# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-existing = Hvis noen av dine eksisterende abonnementer overlapper med denne oppgraderingen, håndterer vi dem og sender deg en egen e-post med detaljene. Hvis den nye planen din inkluderer produkter som krever installasjon, sender vi deg en egen e-post med konfigurasjonsinstruksjoner.
 subscriptionUpgrade-auto-renew = Abonnementet ditt fornyes automatisk hver faktureringsperiode med mindre du velger å avslutte.
 unblockCode-subject = Godkjenningskode for konto
 unblockCode-title = Er det du som logger inn?
