@@ -126,6 +126,7 @@ signup-new-password-label =
 signup-confirm-password-label =
     .label = Nochris it wachtwurd
 signup-submit-button = Account oanmeitsje
+post-verify-set-password-submit-button = Begjin mei syngronisearjen
 form-reset-password-with-balloon-new-password =
     .label = Nij wachtwurd
 form-reset-password-with-balloon-confirm-password =
@@ -1017,8 +1018,15 @@ tfa-enter-recovery-code-1 =
 
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
+product-promo-monitor-description-v2 = Untdek wêr’t jo priveegegevens lekt binne en nim de kontrôle
+# this message will only be shown to users eligible for a special promotion, based on their location (initially USA only)
+# $price - formatted for user locale, in the target market's currency (for launch, always USD)
+# /mo is 'per month'
+product-promo-monitor-special-promo-description = Besparje foar { $price }/mne op { -product-mozilla-vpn-short }, de beskerming tsjin gegevenshannelers fan { -product-mozilla-monitor-short } en de ûnbeheinde e-mailmaskers fan { -product-firefox-relay-short }.
 # Links out to the Monitor site
 product-promo-monitor-cta = Untfang in fergeze scan
+# Links out to the Monitor pricing site
+product-promo-monitor-special-promo-cta = Untfang it hiele jier troch beskerming
 
 ## Profile section
 
@@ -1546,6 +1554,9 @@ pair-unsupported-message = Hawwe jo de systeemkamera brûkt? Jo moatte fan in { 
 
 # password to complete their sign-in when they want to login to a service requiring it.
 
+set-password-heading-v2 = Meitsje in wachtwurd oan om te syngronisearjen
+# "This" refers to the heading, "Create password to sync"
+set-password-info-v2 = Hjirtroch wurde jo gegevens fersifere. It moat wat oars wêze as jo { -brand-google }- of { -brand-apple }-accountwachtwurd.
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
@@ -1719,6 +1730,7 @@ signin-password-button-label = Wachtwurd
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-desktop-relay = { -brand-firefox } probearret jo werom te stjoeren om in e-mailmasker te brûken neidat jo jo oanmeld hawwe.
+signin-code-expired-error = Koade ferrûn. Meld jo opnij oan.
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
@@ -1911,6 +1923,7 @@ confirm-signup-code-instruction-v2 = Fier binnen 5 minuten de koade yn dy’t ne
 confirm-signup-code-input-label = Fier 6-siferige koade yn
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = Befêstigje
+confirm-signup-code-sync-button = Begjin mei syngronisearjen
 confirm-signup-code-code-expired = Koade ferrûn?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Nije koade ferstjoere pr e-mail.
@@ -1925,7 +1938,10 @@ confirm-signup-code-desktop-relay = { -brand-firefox } probearret jo werom te st
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
+signup-heading-v2 = Meitsje in wachtwurd oan
 signup-relay-info = Der is in wachtwurd nedich om jo maskearre e-mailadressen feilich te behearen en tagong te krijen ta de befeiligingshelpmiddelen fan { -brand-mozilla }.
+signup-sync-info = Syngronisearje jo wachtwurden, blêdwizers en mear, oeral wêr't jo { -brand-firefox } brûke.
+signup-sync-info-with-payments = Syngronisearje jo wachtwurden, betellingsmetoaden, blêdwizers en mear, oeral wêr't jo { -brand-firefox } brûke.
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = Wêrom moat ik dizze account oanmeitsje?
 # Link included in a dismissible info banner that is only displayed to Pocket clients
@@ -1940,5 +1956,9 @@ signup-change-email-link = E-mailadres wizigje
 signup-confirmed-sync-header = Syngronisaasje is ynskeakele
 signup-confirmed-sync-success-banner = { -product-mozilla-account } befêstige
 signup-confirmed-sync-button = Start mei browsen
+# Shown when payment methods are also synced
+signup-confirmed-sync-description-with-payment-v2 = Jo wachtwurden, betellingsmetoaden, adressen, blêdwizers, skiednis en mear, kinne oeral syngronisearre wurde wêr’t jo { -brand-firefox } brûke.
+signup-confirmed-sync-description-v2 = Jo wachtwurden, adressen, blêdwizers, skiednis en mear, kinne oeral syngronisearre wurde wêr’t jo { -brand-firefox } brûke.
 signup-confirmed-sync-add-device-link = Noch in apparaat tafoegje
 signup-confirmed-sync-manage-sync-button = Syngronisaasje beheare
+signup-confirmed-sync-set-password-success-banner = Syngronisaasjewachtwurd oanmakke
