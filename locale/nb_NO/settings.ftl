@@ -288,6 +288,8 @@ password-strength-balloon-not-common = Ikke et typisk brukt passord
 ## PasswordStrengthBalloon component
 
 password-strength-inline-min-length = Minst 8 tegn
+password-strength-inline-not-email = Ikke e-postadressen din
+password-strength-inline-not-common = Ikke et typisk brukt passord
 
 ## Notification Promo Banner component
 
@@ -296,10 +298,25 @@ account-recovery-notification-header-value = Ikke mist dataene dine hvis du glem
 
 ## Ready component
 
+manage-your-account-button = Behandle kontoen din
+# This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
+# Variables:
+# { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
+ready-use-service = Du er nå klar til å bruke { $serviceName }
+# The user successfully accomplished a task (password reset, confirm email) that lets them use their account
+ready-use-service-default = Du er nå klar til å bruke kontoinnstillingene
+# Message shown when the account is ready but the user is not signed in
+ready-account-ready = Kontoen din er klar!
+ready-continue = Fortsett
+sign-in-complete-header = Innlogging bekreftet
+sign-up-complete-header = Konto bekreftet
 
 ## Users see this view when they are generating a new account recovery key
 ## This screen displays the generated key and allows users to download or copy the key
 
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+flow-recovery-key-download-storage-ideas-heading-v2 = Steder å oppbevare nøkkelen din:
 flow-recovery-key-download-storage-ideas-folder-v2 = Mappe på sikker enhet
 flow-recovery-key-download-storage-ideas-pwd-manager = Passordbehandler
 
@@ -715,9 +732,15 @@ security-password-created-date = Opprettet den { $date }
 security-not-set = Ikke angitt
 security-action-create = Opprett
 security-set-password = Angi et passord for å synkronisere og bruke visse sikkerhetsfunksjoner for kontoen.
+# Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
+security-recent-activity-link = Vis nylig kontoaktivitet
+signout-sync-header = Økten har utløpt
 
 ## SubRow component
 
+# Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
+# Users that have not enabled or verified 2FA will not see this
+tfa-row-backup-codes-not-available = Ingen koder er tilgjengelige
 # Shown to users who have no backup authentication codes
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = Legg til
@@ -842,31 +865,64 @@ index-cta = Registrer deg eller logg inn
 
 inline-recovery-key-setup-recovery-created = Kontogjenopprettingsnøkkel opprettet
 inline-recovery-key-setup-download-header = Sikre kontoen din
+inline-recovery-key-setup-download-subheader = Last ned og oppbevar den nå
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
 ## in this case, they will encounter this page in the signup process (hence calling it "Inline)
 
+# This button allows a user to copy their recovery codes to their clipboard
+# This button allows the user to cancel setup of two-factor authentication for their account
+inline-recovery-cancel-button = Avbryt
+# This button allows the user to proceed to the next step in setting up two-factor authentication for their account
+inline-recovery-continue-button = Fortsett
+# This button allows user to verify one of their recovery codes to show they downloaded them
+inline-recovery-confirm-button = Bekreft
+inline-recovery-back-link = Tilbake
+inline-recovery-cancel-setup = Avbryt oppsett
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 
+inline-totp-setup-cancel-setup-button = Avbryt oppsett
+inline-totp-setup-continue-button = Fortsett
+inline-totp-setup-ready-button = Klar
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-security-code-placeholder = Autentiseringskode
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-code-required-error = Autentiseringskode kreves
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
 
+legal-header = Juridisk
+# Links to our internal "Firefox Cloud" /legal/terms page
+legal-terms-of-service-link = Tjenestevilkår
 
 ## Legal privacy notice page. Most content comes from https://github.com/mozilla/legal-docs
 
 
 ## Legal terms of service page. Most content comes from https://github.com/mozilla/legal-docs
 
+legal-terms-heading = Tjenestevilkår
 
 ## AuthAllow page - Part of the device pairing flow
 
+pair-auth-allow-heading-text = Logget du akkurat inn på { -product-firefox }?
+# Submit button to confirm that the user initiated the device pairing
+# and that they approve of the new device being added to their account
+pair-auth-allow-confirm-button = Ja, godkjenn enheten
+# "If this wasn't you" means "If it wasn't you that just signed in to Firefox"
+# The text with the <link> tags links to a `reset password` page
+pair-auth-allow-refuse-device-link = Hvis det ikke var deg, <link>endre passordet ditt</link>
 
 ## PairAuthComplete page - part of the device pairing flow
 
+# Heading to confirm the successful pairing of a new device with the user's account
+# Device here is non specific (could be a laptop, tablet, phone, etc.)
+pair-auth-complete-heading = Enhet tilkoblet
+pair-auth-complete-see-tabs-button = Se faner fra synkroniserte enheter
+pair-auth-complete-manage-devices-link = Behandle enheter
 
 ## AuthTotp page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -879,6 +935,11 @@ auth-totp-heading-w-default-service = Skriv inn autentiseringskoden <span>for å
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 auth-totp-heading-w-custom-service = Skriv inn autentiseringskoden <span>for å fortsette til { $serviceName }</span>
+auth-totp-input-label = Skriv inn 6-sifret kode
+# Form button to confirm if the authentication code entered by the user is valid
+auth-totp-confirm-button = Bekreft
+# Error displayed in a tooltip when the form is submitted without a code
+auth-totp-code-required-error = Autentiseringskode kreves
 
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -890,14 +951,27 @@ auth-totp-heading-w-custom-service = Skriv inn autentiseringskoden <span>for å 
 
 ## Pair index page
 
+pair-sync-header = Synkroniser { -brand-firefox } på telefonen eller nettbrettet ditt
+# Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
+pair-sync-your-device-button = Synkroniser enheten din
+# This is a heading element immediately preceded by "Sync your device" and followed by a link and QR code to download Firefox
+pair-or-download-subheader = Eller last ned
+# This allows the user to exit the sync/pair flow, and redirects them back to Settings
+pair-not-now-button = Ikke nå
+# This initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
+pair-get-started-button = Kom i gang
+# This is the aria label on the QR code image
+pair-qr-code-aria-label = QR-kode
 
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
+pair-success-header-2 = Enhet tilkoblet
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be confirmed from both devices to succeed
 
+pair-supp-allow-cancel-link = Avbryt
 
 ## WaitForAuth page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -920,25 +994,54 @@ auth-totp-heading-w-custom-service = Skriv inn autentiseringskoden <span>for å 
 
 ## AccountRecoveryConfirmKey page
 
+account-recovery-confirm-key-heading = Skriv inn kontogjenopprettingsnøkkelen din
+# When setting up an account recovery key, users have the option of storing an account recovery key hint that is shown during password reset
+account-recovery-confirm-key-hint = Oppbevaringshintet ditt er:
+# Clicking this button checks if the recovery key provided by the user is correct and associated with their account
+account-recovery-confirm-key-button-2 = Fortsett
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
 
+complete-reset-pw-header-v2 = Opprett et nytt passord
+# A new password was successfully set for the user's account
+# Displayed in an alert bar
+complete-reset-password-success-alert = Passord angitt
+# Link to go back and use an account recovery key before resetting the password
+complete-reset-pw-recovery-key-link = Bruk kontogjenopprettingsnøkkel
+# A message informing the user that the password reset was successful and reminding them to create another recovery key
+# Displayed on the sign in page
+reset-password-complete-banner-heading = Passordet ditt har blitt tilbakestilt.
 
 # ConfirmBackupCodeResetPassword page
 
 
 ## Confirm Reset Password With Code
 
+# Clicking the button submits and verifies the code
+# If succesful, continues to the next step of the password reset
+confirm-reset-password-otp-submit-button = Fortsett
+# Button to request a new reset password confirmation code
+confirm-reset-password-otp-resend-code-button = Send koden på nytt
+# Link to cancel the password reset and sign in with a different account
+confirm-reset-password-otp-different-account-link = Bruk en annen konto
 
 ## PasswordResetConfirmTotp Page
 
+confirm-totp-reset-password-header = Tilbakestill passordet ditt
+confirm-totp-reset-password-trouble-code = Har du problemer med å oppgi kode?
+confirm-totp-reset-password-confirm-button = Bekreft
+confirm-totp-reset-password-input-label-v2 = Skriv inn 6-sifret kode
+confirm-totp-reset-password-use-different-account = Bruk en annen konto
 
 ## ResetPassword start page
 
+password-reset-flow-heading = Tilbakestill passordet ditt
+password-reset-submit-button-2 = Fortsett
 
 ## ResetPasswordConfirmed
 
+reset-password-complete-header = Passordet ditt er tilbakestilt
 # $serviceName is a product name such as Monitor, Pocket, Relay
 reset-password-confirmed-cta = Fortsett til { $serviceName }
 
