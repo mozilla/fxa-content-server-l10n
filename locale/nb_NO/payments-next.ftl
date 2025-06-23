@@ -157,6 +157,10 @@ select-tax-location-error-missing-postal-code = Skriv inn postnummer
 select-tax-location-error-invalid-postal-code = Skriv inn et gyldig postnummer
 select-tax-location-successfully-updated = Posisjonen din er oppdatert.
 select-tax-location-error-location-not-updated = Kunne ikke oppdatere posisjonen din. Prøv på nytt.
+#  $currencyDisplayName (String) - The display name of a currency code, e.g. US Dollar
+select-tax-location-invalid-currency-change = Kontoen din faktureres i { $currencyDisplayName }. Velg et land som bruker { $currencyDisplayName }.
+select-tax-location-invalid-currency-change-default = Velg et land som samsvarer med valutaen til dine aktive abonnementer.
+select-tax-location-new-tax-rate-info = Hvis du oppdaterer posisjonen din, gjelder den nye skattesatsen for alle aktive abonnementer på kontoen din, fra og med neste faktureringsperiode.
 signin-form-continue-button = Fortsett
 signin-form-email-input = Skriv inn e-postadressen din
 signin-form-email-input-missing = Skriv inn e-postadressen din
@@ -175,6 +179,7 @@ next-new-user-subscribe-product-assurance = Vi bruker kun e-postadressen din til
 plan-price-interval-daily = { $amount } daglig
 plan-price-interval-weekly = { $amount } ukentlig
 plan-price-interval-monthly = { $amount } månedlig
+plan-price-interval-halfyearly = { $amount } hver 6. måned
 plan-price-interval-yearly = { $amount } årlig
 
 ## Component - SubscriptionTitle
@@ -183,6 +188,9 @@ next-subscription-create-title = Sett opp abonnementet ditt
 next-subscription-success-title = Bekreftelse av abonnement
 next-subscription-processing-title = Bekrefter abonnementet …
 next-subscription-error-title = Feil under bekreftelse av abonnement …
+subscription-title-sub-exists = Du har allerede abonnert
+subscription-title-plan-change-heading = Se gjennom endringen
+subscription-title-not-supported = Denne endringen av abonnementsplanen støttes ikke
 next-sub-guarantee = 30-dagers pengene-tilbake-garanti
 
 ## Component - TermsAndPrivacy
@@ -193,17 +201,51 @@ next-subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capita
 next-terms = Tjenestevilkår
 next-privacy = Personvernerklæring
 next-terms-download = Vilkår for nedlasting
+terms-and-privacy-stripe-label = { -brand-mozilla } bruker { -brand-name-stripe } for sikker behandling av betaling.
+terms-and-privacy-stripe-link = { -brand-name-stripe } personvernbestemmelser
+terms-and-privacy-paypal-label = { -brand-mozilla } bruker { -brand-paypal } for sikker behandling av betaling.
+terms-and-privacy-paypal-link = { -brand-paypal } personvernbestemmelser
+terms-and-privacy-stripe-and-paypal-label = { -brand-mozilla } bruker { -brand-name-stripe } og { -brand-paypal } for sikker behandling av betaling.
 
 ## Component - UpdatedPurchaseDetails
 
+upgrade-purchase-details-current-plan-label = Gjeldende plan
+upgrade-purchase-details-new-plan-label = Ny plan
+upgrade-purchase-details-promo-code = Rabattkode
+upgrade-purchase-details-tax-label = Skatter og avgifter
+upgrade-purchase-details-new-total-label = Ny sum
+upgrade-purchase-details-prorated-upgrade = Forholdsmessig oppgradering
 
 ## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
 
+upgrade-purchase-details-new-plan-daily = { $productName } (daglig)
+upgrade-purchase-details-new-plan-weekly = { $productName } (ukentlig)
+upgrade-purchase-details-new-plan-monthly = { $productName } (månedlig)
+upgrade-purchase-details-new-plan-halfyearly = { $productName } (6 måneder)
+upgrade-purchase-details-new-plan-yearly = { $productName } (årlig)
+upgrade-purchase-details-prorated-credits = Negativ saldo som vises vil bli kreditert kontoen din og brukt til fremtidige fakturaer.
 
 ## Page Metadata Information
 ## $productTitle (String) - The name of the product to create subscription, e.g. Mozilla VPN
 
+# Checkout start
+metadata-title-checkout-start = Kasse | { $productTitle }
+metadata-description-checkout-start = Skriv inn betalingsinformasjonen din for å fullføre kjøpet.
+# Checkout processing
+metadata-title-checkout-processing = Behandler | { $productTitle }
+metadata-description-checkout-processing = Vent litt mens vi avslutter behandlingen av din betaling.
+# Checkout error
+metadata-title-checkout-error = Feil | { $productTitle }
+metadata-description-checkout-error = Det oppsto en feil under behandling av abonnementet ditt. Hvis problemet vedvarer, kan du kontakte kundestøtte.
+# Checkout success
+metadata-title-checkout-success = Suksess | { $productTitle }
+metadata-description-checkout-success = Gratulerer! Du har fullført kjøpet.
+# Checkout needs_input
+metadata-title-checkout-needs-input = Handling kreves | { $productTitle }
+metadata-description-checkout-needs-input = Fullfør den nødvendige handlingen for å fortsette med betalingen.
+# Upgrade start
+metadata-title-upgrade-start = Oppgrader | { $productTitle }
 metadata-description-upgrade-start = Skriv inn betalingsinformasjonen din for å fullføre oppgraderingen.
 # Upgrade processing
 metadata-title-upgrade-processing = Behandler | { $productTitle }
