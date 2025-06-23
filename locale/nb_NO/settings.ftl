@@ -1168,11 +1168,17 @@ cookies-disabled-learn-more = Les mer
 
 ## Index / home page
 
+index-relay-header = Opprett en e-postalias
+index-relay-subheader = Oppgi e-postadressen du vil videresende e-poster til fra den maskerte e-postadressen din.
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = Fortsett til { $serviceName }
 index-subheader-with-logo = Fortsett til <span>{ $serviceLogo }</span>
 index-subheader-default = Fortsett til kontoinnstillingene
 index-cta = Registrer deg eller logg inn
+# When users delete their Mozilla account inside account Settings, they are redirected to this page with a success message
+index-account-delete-success = Kontoen er nå slettet
+# Displayed when users try to sign up for an account and their confirmation code email bounces
+index-email-bounced = Bekreftelsesmeldingen kom i retur. Feilstavet e-postadresse?
 
 ## InlineRecoveryKeySetup page component
 
@@ -1235,10 +1241,15 @@ inline-totp-setup-show-qr-default-service-header-2 = Skann autentiseringskoden <
 inline-totp-setup-no-qr-default-service-header-2 = Skriv inn koden manuelt <span>for å fortsette til kontoinnstillingene</span>
 # The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
 inline-totp-setup-enter-key-or-use-qr-instructions = Skriv inn denne hemmelige nøkkelen i autentiseringsappen din. <toggleToQRButton>Skanne QR-koden i stedet?</toggleToQRButton>
+# The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
+inline-totp-setup-use-qr-or-enter-key-instructions = Skann QR-koden i autentiseringsappen din, og skriv deretter inn autentiseringskoden den oppgir. <toggleToManualModeButton>Kan ikke skanne koden?</toggleToManualModeButton>
+# The "authentication code" here refers to the code provided by an authentication app.
+inline-totp-setup-on-completion-description = Når det er ferdig, vil det begynne å generere autentiseringskoder som du må taste inn.
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = Autentiseringskode
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-code-required-error = Autentiseringskode kreves
+tfa-qr-code-alt = Bruk koden { $code } for å sette opp totrinns-verifisering i støttede apper.
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
@@ -1246,9 +1257,12 @@ inline-totp-setup-code-required-error = Autentiseringskode kreves
 legal-header = Juridisk
 # Links to our internal "Firefox Cloud" /legal/terms page
 legal-terms-of-service-link = Tjenestevilkår
+# Links to our internal "Firefox Cloud" /legal/terms page
+legal-privacy-link = Personvernerklæring
 
 ## Legal privacy notice page. Most content comes from https://github.com/mozilla/legal-docs
 
+legal-privacy-heading = Personvernerklæring
 
 ## Legal terms of service page. Most content comes from https://github.com/mozilla/legal-docs
 
@@ -1269,6 +1283,10 @@ pair-auth-allow-refuse-device-link = Hvis det ikke var deg, <link>endre passorde
 # Heading to confirm the successful pairing of a new device with the user's account
 # Device here is non specific (could be a laptop, tablet, phone, etc.)
 pair-auth-complete-heading = Enhet tilkoblet
+# Variable { $deviceFamily } is generally a browser name, for example "Firefox"
+# Variable { $deviceOS } is an operating system short name, for example "iOS", "Android"
+pair-auth-complete-now-syncing-device-text = Du synkroniserer nå med: { $deviceFamily } på { $deviceOS }
+pair-auth-complete-sync-benefits-text = Nå kan du få tilgang til åpne faner, passord og bokmerker på alle enhetene dine.
 pair-auth-complete-see-tabs-button = Se faner fra synkroniserte enheter
 pair-auth-complete-manage-devices-link = Behandle enheter
 
@@ -1283,6 +1301,7 @@ auth-totp-heading-w-default-service = Skriv inn autentiseringskoden <span>for å
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 auth-totp-heading-w-custom-service = Skriv inn autentiseringskoden <span>for å fortsette til { $serviceName }</span>
+auth-totp-instruction = Åpne autentiseringsappen din og skriv inn autentiseringskoden den oppgir.
 auth-totp-input-label = Skriv inn 6-sifret kode
 # Form button to confirm if the authentication code entered by the user is valid
 auth-totp-confirm-button = Bekreft
@@ -1296,16 +1315,23 @@ auth-totp-code-required-error = Autentiseringskode kreves
 
 ## PairFailure - a view which displays on failure of the device pairing process
 
+pair-failure-header = Paring mislyktes
+pair-failure-message = Installasjonsprosessen ble avsluttet.
 
 ## Pair index page
 
 pair-sync-header = Synkroniser { -brand-firefox } på telefonen eller nettbrettet ditt
+pair-cad-header = Koble til { -brand-firefox } på en annen enhet
+pair-already-have-firefox-paragraph = Har du allerede { -brand-firefox } på en telefon eller et nettbrett?
 # Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-sync-your-device-button = Synkroniser enheten din
 # This is a heading element immediately preceded by "Sync your device" and followed by a link and QR code to download Firefox
 pair-or-download-subheader = Eller last ned
+# Directs user to scan a QR code to download Firefox. <linkExternal> is an anchor tag that directs the user to where they can download the { -brand-firefox } app
+pair-scan-to-download-message = Skann for å laste ned { -brand-firefox } for mobil, eller send deg selv en <linkExternal>nedlastingslenke</linkExternal>.
 # This allows the user to exit the sync/pair flow, and redirects them back to Settings
 pair-not-now-button = Ikke nå
+pair-take-your-data-message = Ta med deg faner, bokmerker og passord hvor enn du bruker { -brand-firefox }.
 # This initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-get-started-button = Kom i gang
 # This is the aria label on the QR code image
@@ -1314,20 +1340,30 @@ pair-qr-code-aria-label = QR-kode
 ## PairSuccess - a view which displays  on successful completion of the device pairing process
 
 pair-success-header-2 = Enhet tilkoblet
+pair-success-message-2 = Paring vellykket.
 
 ## SuppAllow page - Part of the device pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be confirmed from both devices to succeed
 
+# Strings within the <span> elements appear as a subheading.
+# Variable $email is the user's email address
+pair-supp-allow-heading-text = Bekreft paring <span>for { $email }</span>
+pair-supp-allow-confirm-button = Bekreft paring
 pair-supp-allow-cancel-link = Avbryt
 
 ## WaitForAuth page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be approved from both devices to succeed
 
+# The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
+# Strings within the <span> elements appear as a subheading.
+pair-wait-for-auth-heading-text = Godkjenning kreves nå <span>fra den andre enheten din</span>
 
 ## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
 
+pair-unsupported-header = Paring via en app
+pair-unsupported-message = Brukte du systemkameraet? Du må koble til fra en { -brand-firefox }-app.
 
 ## SetPassword page
 ## Third party auth users that do not have a password set yet are prompted for a
@@ -1339,6 +1375,7 @@ pair-supp-allow-cancel-link = Avbryt
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
 
+third-party-auth-callback-message = Vent litt, du blir omdirigert til det autoriserte programmet.
 
 ## AccountRecoveryConfirmKey page
 
