@@ -286,7 +286,7 @@ msgstr "Uventet feil"
 
 #: .es5/lib/auth-errors.js:22
 msgid "The link you clicked to verify your email is expired."
-msgstr "Linken du klikket på for å verifisere e-postadressen din er utløpt."
+msgstr "Lenken du klikket på for å verifisere e-postadressen din er utløpt."
 
 #: .es5/lib/auth-errors.js:23 .es5/lib/profile-errors.js:17
 msgid "You've tried too many times. Try again later."
@@ -587,7 +587,7 @@ msgstr "Gyldig URL er nødvendig"
 
 #: .es5/lib/auth-errors.js:388
 msgid "Your confirmation email was just returned. Mistyped email?"
-msgstr ""
+msgstr "Bekreftelsesmeldingen kom i retur. Feilstavet e-postadresse?"
 
 #: .es5/lib/auth-errors.js:396
 msgid "Enter a valid email address. firefox.com does not offer email."
@@ -877,7 +877,7 @@ msgstr "Lenke for tilbakestilling av passordet er utløpt"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:2 .es5/templates/complete_reset_password.mustache:2
 msgid "The link you clicked to reset your password is expired."
-msgstr "Linken du klikket på for å tilbakestille passordet ditt er utløpt."
+msgstr "Lenken du klikket på for å tilbakestille passordet ditt er utløpt."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:3 .es5/templates/complete_reset_password.mustache:3
 msgid "Receive new link"
@@ -934,7 +934,7 @@ msgstr "Lenke for tilbakestilling av passordet er skadet"
 
 #: .es5/templates/complete_reset_password.mustache:6 .es5/templates/complete_sign_up.mustache:12 .es5/templates/report_sign_in.mustache:2
 msgid "The link you clicked was missing characters, and may have been broken by your email client. Copy the address carefully, and try again."
-msgstr "Linken du klikket på mangler noen tegn, og kan ha blitt skadet av e-postklienten. Kopier adressen nøye, og prøv igjen."
+msgstr "Lenken du klikket på mangler noen tegn, og kan ha blitt forandret av e-postklienten. Sjekk at du kopierte riktig, og prøv igjen."
 
 #: .es5/templates/complete_reset_password.mustache:8
 msgid "Create new password"
@@ -1060,11 +1060,11 @@ msgstr "Du er logget inn på Firefox"
 
 #: .es5/templates/connect_another_device.mustache:5
 msgid "Email confirmed"
-msgstr ""
+msgstr "E-post bekreftet"
 
 #: .es5/templates/connect_another_device.mustache:10 .es5/templates/pair/unsupported.mustache:15
 msgid "Devices with hearts on their screens"
-msgstr ""
+msgstr "Enheter med hjerter på skjermene"
 
 #: .es5/templates/connect_another_device.mustache:11
 msgid "You’re signed in to Firefox"
@@ -1084,7 +1084,7 @@ msgstr "Logg på Firefox på en annen enhet for å fullføre oppsettet"
 
 #: .es5/templates/connect_another_device.mustache:22
 msgid "Want to get your tabs, bookmarks, and passwords on another device?"
-msgstr ""
+msgstr "Vil du ha fanene, bokmerkene og passordene dine på en annen enhet?"
 
 #: .es5/templates/connect_another_device.mustache:24 .es5/templates/ready.mustache:2
 msgid "Manage your account"
@@ -1135,7 +1135,7 @@ msgstr "Fortsett til Mozilla-kontoen din"
 
 #: .es5/templates/index.mustache:2
 msgid "Sync your passwords, tabs, and bookmarks everywhere you use Firefox."
-msgstr ""
+msgstr "Synkroniser passordene, fanene og bokmerkene dine overalt hvor du bruker Firefox."
 
 #: .es5/templates/index.mustache:4 .es5/templates/index.mustache:11
 msgid "Enter your email"
@@ -1143,15 +1143,15 @@ msgstr "Skriv inn e-postadressen din"
 
 #: .es5/templates/index.mustache:5 .es5/templates/sign_in_password.mustache:4
 msgid "Continue to <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
-msgstr ""
+msgstr "Fortsett til <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
 
 #: .es5/templates/index.mustache:8
 msgid "Create an email mask"
-msgstr ""
+msgstr "Opprett et e-postalias"
 
 #: .es5/templates/index.mustache:9
 msgid "Please provide the email address where you’d like to forward emails from your masked email."
-msgstr ""
+msgstr "Oppgi e-postadressen du vil videresende e-poster til fra den maskerte e-postadressen din."
 
 #: .es5/templates/index.mustache:12
 msgid "Sign up or sign in"
@@ -1659,7 +1659,7 @@ msgstr "for å fortsette til %(serviceName)s"
 #: .es5/templates/post_verify/password/force_password_change.mustache:5
 msgid ""
 "We detected suspicious behavior on your Mozilla account. To protect your account, please create a new password. You’ll use this password to sign back in to all of your Mozilla account services."
-msgstr ""
+msgstr "Vi oppdaget mistenkelig oppførsel på Mozilla-kontoen din. Opprett et nytt passord for å beskytte kontoen din. Du bruker dette passordet for å logge deg på alle Mozilla-kontotjenestene dine."
 
 #: .es5/templates/post_verify/password/force_password_change.mustache:6
 msgid "Synced history, bookmarks, logins, and other personal data will not be lost."
@@ -1799,7 +1799,7 @@ msgstr "<span class=\"number\">4</span>Logg inn på kontoen din"
 
 #: .es5/templates/partial/account-suggestion.mustache:1
 msgid "Why do I need to create this account? <a %(escapedSuggestionAttrs)s>Find out here</a>"
-msgstr ""
+msgstr "Hvorfor må jeg opprette denne kontoen? <a %(escapedSuggestionAttrs)s>Finn ut her</a>"
 
 #: .es5/templates/partial/brand-messaging.mustache:2
 msgid "Firefox accounts will be renamed Mozilla accounts on Nov 1"
@@ -1807,7 +1807,7 @@ msgstr "Firefox-kontoer vil bytte navn til Mozilla-kontoer den 1. november"
 
 #: .es5/templates/partial/brand-messaging.mustache:3
 msgid "You’ll still sign in with the same username and password, and there are no other changes to the products that you use."
-msgstr ""
+msgstr "Du vil fortsatt logge inn med samme brukernavn og passord, og det er ingen andre endringer i produktene du bruker."
 
 #: .es5/templates/partial/brand-messaging.mustache:4 .es5/templates/partial/brand-messaging.mustache:7 .es5/templates/partial/unsupported-pair.mustache:3
 msgid "Learn more"
@@ -1815,11 +1815,11 @@ msgstr "Les mer"
 
 #: .es5/templates/partial/brand-messaging.mustache:6
 msgid "We’ve renamed Firefox accounts to Mozilla accounts. You’ll still sign in with the same username and password, and there are no other changes to the products that you use."
-msgstr ""
+msgstr "Vi har endret navn på Firefox-kontoer til Mozilla-kontoer. Du vil fortsatt logge på med samme brukernavn og passord, og det er ingen andre endringer i produktene du bruker."
 
 #: .es5/templates/partial/brand-messaging.mustache:9 .es5/templates/partial/brand-messaging.mustache:10
 msgid "Close Banner"
-msgstr ""
+msgstr "Lukk banner"
 
 #: .es5/templates/partial/coppa-age-input.mustache:1
 msgid "How old are you? To learn why we ask for your age, follow the “why do we ask” link below."
@@ -1867,7 +1867,7 @@ msgstr "Minst 8 tegn"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:6
 msgid "Not your email address"
-msgstr ""
+msgstr "Ikke e-postadressen din"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:10
 msgid "Not a commonly used password"
@@ -1875,7 +1875,7 @@ msgstr "Ikke et typisk brukt passord"
 
 #: .es5/templates/partial/password-strength-balloon.mustache:11
 msgid "Stay safe &mdash; don’t reuse passwords. See more tips to <a %(escapedCommonPasswordLinkAttrs)s class=\"link-grey\">create strong passwords</a>."
-msgstr ""
+msgstr "Vær trygg &mdash; ikke bruk passord på nytt. Se flere tips for å <a %(escapedCommonPasswordLinkAttrs)s class=\"link-grey\">lage sterke passord</a>."
 
 #: .es5/templates/partial/support-form-error.mustache:1
 msgid "Hmm, we're having trouble with our system. We're working on fixing it for you and apologize for the inconvenience. Please try again later."
@@ -1907,7 +1907,7 @@ msgstr "Koble mobilenheten din til Mozilla-kontoen din"
 
 #: .es5/templates/partial/unsupported-pair.mustache:2
 msgid "Open Firefox on your computer, visit <b class=\"whitespace-nowrap\">firefox.com/pair</b>, and follow the on-screen instructions to connect your mobile device."
-msgstr ""
+msgstr "Åpne Firefox på datamaskinen din, gå til <b class=\"whitespace-nowrap\">firefox.com/pair</b>, og følg instruksjonene på skjermen for å koble til mobilenheten din."
 
 #: .es5/templates/pair/auth_allow.mustache:1
 msgid "Did you just sign in to Firefox?"
@@ -1919,7 +1919,7 @@ msgstr " %(email)s "
 
 #: .es5/templates/pair/auth_allow.mustache:3
 msgid "location balloon"
-msgstr ""
+msgstr "plasseringsballong"
 
 #: .es5/templates/pair/auth_allow.mustache:4
 msgid "Yes, approve device"
@@ -1927,7 +1927,7 @@ msgstr "Ja, godkjenn enheten"
 
 #: .es5/templates/pair/auth_allow.mustache:5
 msgid "If this wasn’t you, <a id=\"change-password\" class=\"link-blue\">change your password</a> "
-msgstr ""
+msgstr "Hvis dette ikke var deg, <a id=\"change-password\" class=\"link-blue\">endre passordet ditt</a> "
 
 #: .es5/templates/pair/auth_complete.mustache:1 .es5/templates/pair/success.mustache:1
 msgid "Device connected"
@@ -1939,10 +1939,13 @@ msgid ""
 "        You are now syncing with: <span>%(deviceFamily)s on %(deviceOS)s</span>\n"
 "      "
 msgstr ""
+"\n"
+"        Du synkroniserer nå med: <span>%(deviceFamily)s på %(deviceOS)s</span>\n"
+"      "
 
 #: .es5/templates/pair/auth_complete.mustache:4
 msgid "Now you can access your open tabs, passwords, and bookmarks on all your devices."
-msgstr ""
+msgstr "Nå kan du få tilgang til åpne faner, passord og bokmerker på alle enhetene dine."
 
 #: .es5/templates/pair/auth_complete.mustache:5
 msgid "See tabs from synced devices"
@@ -1954,19 +1957,19 @@ msgstr "Håndter enheter"
 
 #: .es5/templates/pair/auth_wait_for_supp.mustache:1 .es5/templates/pair/supp_wait_for_auth.mustache:1
 msgid "Approval now required <small class=\"card-subheader\">from your other device</small>"
-msgstr ""
+msgstr "Godkjenning kreves nå <small class=\"card-subheader\">fra den andre enheten din</small>"
 
 #: .es5/templates/pair/failure.mustache:1
 msgid "Device pairing failed"
-msgstr ""
+msgstr "Enhetsparing mislyktes"
 
 #: .es5/templates/pair/failure.mustache:2
 msgid "The setup couldn’t be completed. Please sign in with your email."
-msgstr ""
+msgstr "Konfigurasjonen kunne ikke fullføres. Logg inn med e-postadressen din."
 
 #: .es5/templates/pair/index.mustache:1
 msgid "Signed in successfully!"
-msgstr ""
+msgstr "Du er logget inn!"
 
 #: .es5/templates/pair/index.mustache:8
 msgid "Sync your Firefox experience"
@@ -1978,7 +1981,7 @@ msgstr "Last ned Firefox for mobil"
 
 #: .es5/templates/pair/index.mustache:11
 msgid "View your saved passwords, tabs, browsing history and more — across all your devices."
-msgstr ""
+msgstr "Se lagrede passord, faner, nettleserhistorikk og mer — på tvers av alle enhetene dine."
 
 #: .es5/templates/pair/index.mustache:12
 msgid "Select an option to continue:"
@@ -2006,19 +2009,19 @@ msgstr "Ikke nå"
 
 #: .es5/templates/pair/index.mustache:19
 msgid "To sync Firefox on your phone or tablet, you first need to download Firefox for mobile. Here’s how:"
-msgstr ""
+msgstr "For å synkronisere Firefox på telefonen eller nettbrettet ditt, må du først laste ned Firefox for mobil. Slik gjør du det:"
 
 #: .es5/templates/pair/index.mustache:20
 msgid "<b>Step 1</b>: Download Firefox by scanning this QR code with the camera on your mobile device:"
-msgstr ""
+msgstr "<b>Trinn 1</b>: Last ned Firefox ved å skanne denne QR-koden med kameraet på mobilenheten din:"
 
 #: .es5/templates/pair/index.mustache:21
 msgid "QR code (located in the middle of the screen)"
-msgstr ""
+msgstr "QR-kode (plassert midt på skjermen)"
 
 #: .es5/templates/pair/index.mustache:22
 msgid "<b>Step 2</b>: Select \"Continue to sync\" to sync your Firefox experience on your mobile device."
-msgstr ""
+msgstr "<b>Trinn 2</b>: Velg «Fortsett å synkronisere» for å synkronisere Firefox-opplevelsen på mobilenheten din."
 
 #: .es5/templates/pair/index.mustache:23
 msgid "Continue to sync"

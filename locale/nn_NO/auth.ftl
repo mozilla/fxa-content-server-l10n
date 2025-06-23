@@ -162,6 +162,8 @@ automated-email-reset =
 automated-email-reset-plaintext-v2 = Om du ikkje godkjende denne handlinga, må du stille tilbake passordet ditt no på { $resetLink }
 # Followed by link to https://accounts.firefox.com/reset_password
 automated-email-reset-pwd-plaintext-v3 = Om du ikkje utførte dette, kan du tilbakestille passordet ditt med ein gong på:
+# Followed by link to https://accounts.firefox.com/settings#two-step-authentication
+automated-email-reset-two-factor-plaintext = Tilbakestill også tostegs-godkjenning på:
 brand-banner-message = Visste du at vi endra namnet vårt frå { -product-firefox-accounts } til { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Les meir</a>
 cancellationSurvey = Hjelp oss med å forbetre tenestene våre ved å vere med i denne <a data-l10n-name="cancellationSurveyUrl">korte undersøkinga</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
@@ -371,6 +373,10 @@ passwordResetAccountRecovery-information = Vi logga deg ut frå alle dei synkron
 # After the colon there is a link to account settings
 passwordResetAccountRecovery-information-txt = Vi logga deg ut frå alle synkroniserte einingar. Vi oppretta ein ny kontogjenopprettingsnøkkel for å erstatte den du brukte. Du kan endre det i kontoinnstillingane dine:
 passwordResetAccountRecovery-action-4 = Handsam kontoen
+passwordResetRecoveryPhone-subject = Gjenopprettingstelefon brukt
+passwordResetRecoveryPhone-preview = Kontroller at dette var deg
+passwordResetRecoveryPhone-title = Telefonnummeret ditt for gjenopprettingvart brukt til å stadfeste tilbakestilling av passord
+passwordResetRecoveryPhone-device = Gjenopprettingstelefon brukt frå:
 passwordResetRecoveryPhone-action = Handsam kontoen
 passwordResetWithRecoveryKeyPrompt-subject = Passordet ditt er tilbakestilt
 passwordResetWithRecoveryKeyPrompt-title = Passordet ditt er tilbakestilt
@@ -404,7 +410,10 @@ postAddRecoveryPhone-how-protect = Korleis dette vernar kontoen din
 postAddRecoveryPhone-how-protect-plaintext = Korleis dette vernar kontoen din:
 postAddRecoveryPhone-enabled-device = Du har aktivert det frå:
 postAddRecoveryPhone-action = Handsam kontoen
+postAddTwoStepAuthentication-subject-v3 = Tostegs-godkjenning er på
 postAddTwoStepAuthentication-title-2 = Du slo på tostegs-godkjenning
+# After the colon, there is a description of the device that the user used to enable two-step authentication
+postAddTwoStepAuthentication-from-device-v2 = Du ba om dette frå:
 postAddTwoStepAuthentication-action = Handsam kontoen
 postChangeAccountRecovery-subject = Kontogjenopprettingsnøkkel endra
 postChangeAccountRecovery-title = Du endra kontogjenopprettingsnøkkelen

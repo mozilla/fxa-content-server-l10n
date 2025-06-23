@@ -329,7 +329,7 @@ signin-link-damaged-header = Bekreftelseslenken er skadet
 # but the link was damaged (for example mistyped or broken by the email client).
 report-signin-link-damaged-header = Ødelagt lenke
 # The user followed a link received by email, but the link was damaged.
-reset-pwd-link-damaged-message = Linken du klikket på mangler noen tegn, og kan ha blitt forandret av e-postklienten. Sjekk at du kopierte riktig, og prøv igjen.
+reset-pwd-link-damaged-message = Lenken du klikket på mangler noen tegn, og kan ha blitt forandret av e-postklienten. Sjekk at du kopierte riktig, og prøv igjen.
 
 ## LinkExpired component
 
