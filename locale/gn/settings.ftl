@@ -1697,6 +1697,7 @@ signin-password-button-label = Ñe’ẽñemi
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-desktop-relay = { -brand-firefox } orahaukajeýta eimehápe eiporu hag̃ua ñanduti veve rovamo’ãha eñepyrũ rire tembiapo.
+signin-code-expired-error = Ayvu hu’ãmava. Emoñepyrũjey tembiapo.
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
@@ -1884,6 +1885,7 @@ confirm-signup-code-instruction-v2 = Ehai ayvu jehechajeyrã 5 aravo’i oútava
 confirm-signup-code-input-label = Emoinge ayvu 6 taíva
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = Moneĩ
+confirm-signup-code-sync-button = Eñepyrũ ñembojuehe
 confirm-signup-code-code-expired = ¿Ayvu oiko’ỹva?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Emondo ayvu pyahu ñanduti vevépe.
@@ -1898,6 +1900,7 @@ confirm-signup-code-desktop-relay = { -brand-firefox } orahaukajeýta eimehápe 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
+signup-heading-v2 = Emoheñói ñe’ẽñemi
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = ¿Mba’ére amoheñoiva’erã ko mba’ete?
 # Link included in a dismissible info banner that is only displayed to Pocket clients
@@ -1914,3 +1917,4 @@ signup-confirmed-sync-success-banner = { -product-mozilla-account } moneĩmbyre
 signup-confirmed-sync-button = Eñepyrũ eikundaha
 signup-confirmed-sync-add-device-link = Embojuaju ambue mba’e’oka
 signup-confirmed-sync-manage-sync-button = Eñangareko ñembojuehére
+signup-confirmed-sync-set-password-success-banner = Ñe’ẽñemi ñembojuehe moheñoipyre
