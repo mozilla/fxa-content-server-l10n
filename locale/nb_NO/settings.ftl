@@ -418,6 +418,12 @@ flow-recovery-key-download-storage-ideas-pwd-manager = Passordbehandler
 ## This is the final step in the account recovery key creation flow after a Sync signin or in account settings
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
 
+# The header of the last step in the account recovery key creation flow
+# "key" here refers to the "account recovery key"
+flow-recovery-key-hint-header-v2 = Legg til et hint for å finne nøkkelen din
+# This message explains why saving a storage hint can be helpful. The account recovery key could be "stored" in a physical (e.g., printed) or virtual location (e.g., in a device folder or in the cloud).
+# "it" here refers to the storage hint, NOT the "account recovery key"
+flow-recovery-key-hint-message-v3 = Dette hintet skal hjelpe deg med å huske hvor du lagret kontogjenopprettingsnøkkelen din. Vi kan vise den til deg under tilbakestillingen av passordet for å gjenopprette dataene dine.
 # The label for the text input where the user types in the storage hint they want to save.
 # The storage hint is optional, and users can leave this blank.
 flow-recovery-key-hint-input-v2 =
@@ -428,6 +434,9 @@ flow-recovery-key-hint-cta-text = Fullfør
 # Error displayed in a tooltip if the hint entered by the user exceeds the character limit.
 # "Hint" refers to "storage hint"
 flow-recovery-key-hint-char-limit-error = Hintet må inneholde færre enn 255 tegn.
+# Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
+# "Hint" refers to "storage hint"
+flow-recovery-key-hint-unsafe-char-error = Hintet kan ikke inneholde usikre unicode-tegn. Bare bokstaver, tall, tegnsettingstegn og symboler er tillatt.
 
 ## ResetPasswordWarning component
 ## Warning shown to sync users that reset their password without using an account recovery key
@@ -435,7 +444,13 @@ flow-recovery-key-hint-char-limit-error = Hintet må inneholde færre enn 255 te
 password-reset-warning-icon = Advarsel
 password-reset-chevron-expanded = Skjul advarsel
 password-reset-chevron-collapsed = Vis advarsel
+password-reset-data-may-not-be-recovered = Nettleserdataene dine kan kanskje ikke gjenopprettes
+password-reset-previously-signed-in-device-2 = Har du en enhet du tidligere har logget på?
+password-reset-data-may-be-saved-locally-2 = Nettleserdataene dine kan være lagret på den enheten. Tilbakestill passordet ditt, og logg deretter inn der for å gjenopprette og synkronisere dataene dine.
+password-reset-no-old-device-2 = Har du en ny enhet, men har ikke tilgang til noen av de gamle?
+password-reset-encrypted-data-cannot-be-recovered-2 = Beklager, men de krypterte nettleserdataene dine på { -brand-firefox }-serverne kan ikke gjenopprettes.
 password-reset-warning-have-key = Har du en kontogjenopprettingsnøkkel?
+password-reset-warning-use-key-link = Bruk den nå for å tilbakestille passordet ditt og beholde dataene dine
 
 ## Alert Bar
 
@@ -454,6 +469,7 @@ avatar-default-avatar =
 # BentoMenu component
 
 bento-menu-title-3 = { -brand-mozilla }-produkter
+bento-menu-tagline = Flere produkter fra { -brand-mozilla } som beskytter personvernet ditt
 bento-menu-vpn-2 = { -product-mozilla-vpn }
 bento-menu-monitor-3 = { -product-mozilla-monitor }
 bento-menu-pocket-2 = { -product-pocket }
@@ -465,6 +481,7 @@ bento-menu-made-by-mozilla = Utviklet av { -brand-mozilla }
 ## Connect another device promo
 
 connect-another-fx-mobile = Få { -brand-firefox } på mobil eller nettbrett
+connect-another-find-fx-mobile-2 = Finn { -brand-firefox } i { -google-play } og { -app-store }.
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image =
@@ -495,6 +512,10 @@ cs-disconnect-sync-heading = Koble fra Sync
 ##   $device (String) - the name of a device using Mozilla accounts
 ##                      (for example: "Firefox Nightly on Google Pixel 4a")
 
+cs-disconnect-sync-content-3 =
+    Nettleserdataene dine vil forbli på <span>{ $device }</span>,
+    men de vil ikke lenger synkroniseres med kontoen din.
+cs-disconnect-sync-reason-3 = Hva er hovedårsaken for å koble fra <span>{ $device }</span>?
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -521,13 +542,18 @@ dc-heading = Datainnsamling og -bruk
 dc-subheader-moz-accounts = { -product-mozilla-accounts }
 dc-subheader-ff-browser = { -brand-firefox }-nettleser
 dc-subheader-content-2 = Tillate { -product-mozilla-accounts } å sende tekniske- og interaksjonsdata til { -brand-mozilla }?
+dc-subheader-ff-content = For å se gjennom eller oppdatere tekniske data og interaksjonsdata-innstillinger i { -brand-firefox }-nettleseren, åpne innstillingene for { -brand-firefox } og naviger til Personvern og sikkerhet.
 dc-opt-out-success-2 = Fravalget vellykket. { -product-mozilla-accounts } sender ikke tekniske data eller interaksjonsdata til { -brand-mozilla }.
 dc-opt-in-success-2 = Takk! Deling av disse data hjelper oss med å forbedre { -product-mozilla-accounts }.
+dc-opt-in-out-error-2 = Dessverre oppstod det et problem under endring av innstillingene for datainnsamling
 dc-learn-more = Les mer
 
 # DropDownAvatarMenu component
 
 drop-down-menu-title-2 = { -product-mozilla-account }-meny
+# This is displayed in the Settings menu after user's click on their profile icon.
+# Following this string on a new line will be their display name (user's name or email)
+drop-down-menu-signed-in-as-v2 = Logget inn som
 drop-down-menu-sign-out = Logg ut
 drop-down-menu-sign-out-error-2 = Beklager, det oppsto et problem med å logge deg av
 

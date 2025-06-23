@@ -2,6 +2,8 @@
 
 app-general-err-heading = Generell programfeil
 app-general-err-message = Noe gikk galt. Prøv igjen senere.
+# Specific handling for issues when bad or missing query parameters are detected
+app-query-parameter-err-heading = Ugyldig forespørsel: Ugyldige søkeparametere
 
 ## FxA React - Strings shared between multiple FxA products for application footer
 
@@ -31,3 +33,5 @@ app-loading-spinner-aria-label-loading = Laster …
 
 ## FxA React - Strings shared between multiple FxA products for logo lockup
 
+app-logo-alt-3 =
+    .alt = { -brand-mozilla } m-logo

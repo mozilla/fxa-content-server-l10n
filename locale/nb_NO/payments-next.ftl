@@ -194,9 +194,28 @@ next-terms-download = Vilkår for nedlasting
 metadata-description-upgrade-start = Skriv inn betalingsinformasjonen din for å fullføre oppgraderingen.
 # Upgrade processing
 metadata-title-upgrade-processing = Behandler | { $productTitle }
+metadata-description-upgrade-processing = Vent litt mens vi avslutter behandlingen av din betaling.
+# Upgrade error
+metadata-title-upgrade-error = Feil | { $productTitle }
+metadata-description-upgrade-error = Det oppsto en feil under behandling av oppgraderingen. Hvis problemet vedvarer, kan du kontakte kundestøtte.
+# Upgrade success
+metadata-title-upgrade-success = Suksess | { $productTitle }
+metadata-description-upgrade-success = Gratulerer! Du har fullført oppgraderingen.
+# Upgrade needs_input
+metadata-title-upgrade-needs-input = Handling kreves | { $productTitle }
+metadata-description-upgrade-needs-input = Fullfør den nødvendige handlingen for å fortsette med betalingen.
+# Default
+metadata-title-default = Siden ble ikke funnet | { $productTitle }
+metadata-description-default = Siden du ba om ble ikke funnet.
 
 ## Coupon Error Messages
 
+next-coupon-error-cannot-redeem = Koden du skrev inn kan ikke innløses — kontoen din har et tidligere abonnement på en av tjenestene våre.
+next-coupon-error-expired = Koden du skrev inn er utløpt.
+next-coupon-error-generic = Det oppsto en feil under behandling av koden. Prøv på nytt.
+next-coupon-error-invalid = Koden du skrev inn er ugyldig.
+# "Limit" refers to the maximum number of times a coupon can be redeemed.
+next-coupon-error-limit-reached = Koden du skrev inn har nådd grensen.
 
 ##
 
