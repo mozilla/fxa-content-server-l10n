@@ -590,9 +590,13 @@ flow-setup-2fa-backup-choice-heading = Velg en gjenopprettingsmetode
 ## where the user confirm that they have saved their backup authentication codes
 ## by entering one of them.
 
+# Clicking on this button finishes the whole flow upon success.
+flow-setup-2fa-backup-code-confirm-button-finish = Fullfør
 
 ## The backup codes download step of the setup 2 factor authentication flow
 
+flow-setup-2fa-backup-code-dl-heading = Lagre reserve-autentiseringskode
+flow-setup-2fa-backup-code-dl-button-continue = Fortsett
 
 ## FlowSetupPhoneConfirmCode
 
