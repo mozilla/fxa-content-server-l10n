@@ -744,9 +744,15 @@ delete-account-chk-box-1-v3 =
     .label = Alle betalte abonnementer du har vil bli kansellert (unntatt { -product-pocket })
 delete-account-chk-box-2 =
     .label = Du kan miste lagret informasjon og funksjoner i { -brand-mozilla }-produkter
+delete-account-chk-box-3 =
+    .label = Gjenaktivering med denne e-postadressen vil kanskje ikke gjenopprette den lagrede informasjonen
+delete-account-chk-box-4 =
+    .label = Eventuelle utvidelser og temaer som du har publisert til addons.mozilla.org blir slettet
 delete-account-continue-button = Fortsett
 delete-account-password-input =
     .label = Skriv inn passord
+pocket-delete-notice = Hvis du abonnerer på Pocket Premium, må du sørge for å <a>kansellere abonnementet</a> før du sletter kontoen din.
+pocket-delete-notice-marketing = For å slutte å motta markedsførings-e-poster fra Mozilla Corporation og Mozilla Foundation, må du <a>be om sletting av markedsføringsdataene dine.</a>
 delete-account-cancel-button = Avbryt
 delete-account-delete-button-2 = Slett
 
@@ -758,6 +764,7 @@ display-name-input =
     .label = Skriv inn visningsnavn
 submit-display-name = Lagre
 cancel-display-name = Avbryt
+display-name-update-error-2 = Det oppstod et problem med å oppdatere visningsnavnet ditt.
 display-name-success-alert-2 = Visningsnavn oppdatert
 
 ## Recent account activity
@@ -768,8 +775,24 @@ recent-activity-title = Nylig kontoaktivitet
 recent-activity-account-create-v2 = Konto opprettet
 recent-activity-account-disable-v2 = Konto deaktivert
 recent-activity-account-enable-v2 = Konto aktivert
+recent-activity-account-login-v2 = Kontoinnlogging startet
+recent-activity-account-reset-v2 = Tilbakestilling av passord startet
+# This string appears under recent account activity when there were email bounces associated with the account, but those were recently cleared (i.e. removed/deleted).
+# An email bounce is when an email is sent to an email address and fails/receives a non-delivery receipt from the recipient's mail server.
+recent-activity-emails-clearBounces-v2 = E-postavvisinger fjernet
+recent-activity-account-login-failure = Forsøk på kontoinnlogging mislyktes
+recent-activity-account-two-factor-added = Totrinns-verifisering aktivert
+recent-activity-account-two-factor-requested = Totrinns-verifisering forespurt
+recent-activity-account-two-factor-failure = Totrinns-verifisering mislyktes
+recent-activity-account-two-factor-success = Totrinns-verifisering vellykket
+recent-activity-account-two-factor-removed = Totrinns-verifisering fjernet
+recent-activity-account-password-reset-requested = Kontoen forespurte tilbakestilling av passord
+recent-activity-account-password-reset-success = Tilbakestilling av kontopassordet var vellykket
+recent-activity-account-recovery-key-added = Kontogjenopprettingsnøkkel aktivert
 recent-activity-account-password-added = Nytt passord lagt til
 recent-activity-account-password-changed = Passordet er endret
+recent-activity-account-recovery-phone-removed = Gjenopprettingstelefonen er fjernet
+recent-activity-account-recovery-codes-replaced = Gjenopprettingskoder erstattet
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Annen kontoaktivitet
 
@@ -784,9 +807,13 @@ recovery-key-create-back-button-title = Tilbake til innstillingene
 ## PageRecoveryPhoneRemove
 ## Users reach this page from account settings when they want to remove a backup phone number.
 
+settings-recovery-phone-remove-button = Fjern telefonnummeret
+settings-recovery-phone-remove-cancel = Avbryt
 
 ## PageSetupRecoveryPhone
 
+# Back arrow to return to step 1 of recovery phone setup flow
+page-setup-recovery-phone-step2-back-button-title = Endre telefonnummer
 
 ## Add secondary email page
 
@@ -799,6 +826,9 @@ add-secondary-email-save-button = Lagre
 ## Verify secondary email page
 
 add-secondary-email-step-2 = Trinn 2 av 2
+verify-secondary-email-error-3 = Det oppstod et problem med å sende bekreftelseskoden
+verify-secondary-email-page-title =
+    .title = Sekundær e-postadresse
 verify-secondary-email-verification-code-2 =
     .label = Skriv inn bekreftelseskoden din
 verify-secondary-email-cancel-button = Avbryt
@@ -815,6 +845,7 @@ delete-account-link = Slett kontoen
 
 ## Two Step Authentication
 
+tfa-title = Totrinns-verifisering
 tfa-step-1-3 = Trinn 1 av 3
 tfa-step-2-3 = Trinn 2 av 3
 tfa-step-3-3 = Trinn 3 av 3
