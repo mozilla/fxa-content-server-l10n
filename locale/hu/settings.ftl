@@ -1938,7 +1938,7 @@ confirm-signup-code-desktop-relay = Bejelentkezés után a { -brand-firefox } me
 signup-heading-v2 = Jelszó létrehozása
 signup-relay-info = Egy jelszóra van szükség a maszkolt e-mailek biztonságos kezeléséhez és a { -brand-mozilla } biztonsági eszközeinek eléréséhez.
 signup-sync-info = Szinkronizálja jelszavait, könyvjelzőit és egyebeket mindenhol, ahol a { -brand-firefox }ot használja.
-signup-sync-info-with-payments = Szinkronizálja jelszavait, fizetési módjait, könyvjelzőit és egyebeket mindenhol, ahol { -brand-firefox }ot használ.
+signup-sync-info-with-payments = Szinkronizálja jelszavait, fizetési módjait, könyvjelzőit és egyebeket mindenhol, ahol a { -brand-firefox }ot használja.
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = Miért kell létrehoznia ezt a fiókot?
 # Link included in a dismissible info banner that is only displayed to Pocket clients
@@ -1954,8 +1954,8 @@ signup-confirmed-sync-header = A szinkronizálás be van kapcsolva
 signup-confirmed-sync-success-banner = A { -product-mozilla-account } megerősítve
 signup-confirmed-sync-button = Böngészés megkezdése
 # Shown when payment methods are also synced
-signup-confirmed-sync-description-with-payment-v2 = Jelszavai, fizetési módjai, címei, könyvjelzői, előzményei és egyebek mindenhol szinkronizálhatók, ahol a { -brand-firefox }ot használja.
-signup-confirmed-sync-description-v2 = Jelszavai, címei, könyvjelzői, előzményei és egyebei mindenhol szinkronizálhatók, ahol a { -brand-firefox }ot használja.
+signup-confirmed-sync-description-with-payment-v2 = Jelszavai, fizetési módjai, címei, könyvjelzői, előzményei és egyebei mindenhol szinkronizálhatóak, ahol a { -brand-firefox }ot használja.
+signup-confirmed-sync-description-v2 = Jelszavai, címei, könyvjelzői, előzményei és egyebei mindenhol szinkronizálhatóak, ahol a { -brand-firefox }ot használja.
 signup-confirmed-sync-add-device-link = További eszköz hozzáadása
 signup-confirmed-sync-manage-sync-button = Szinkronizálás kezelése
-signup-confirmed-sync-set-password-success-banner = A szinkronizálási jelszó létrehozva
+signup-confirmed-sync-set-password-success-banner = Szinkronizálási jelszó létrehozva
