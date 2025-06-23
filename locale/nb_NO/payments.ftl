@@ -497,4 +497,6 @@ reactivate-success-button = Lukk
 
 ## Routes - Subscriptions - Subscription iap item
 
+sub-iap-item-google-purchase-2 = { -brand-google }: Kjøp i app
+sub-iap-item-apple-purchase-2 = { -brand-apple }: Kjøp i app
 sub-iap-item-manage-button = Behandle

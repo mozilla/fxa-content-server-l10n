@@ -1,12 +1,20 @@
 ## Page
 
+checkout-signin-or-create = 1. Logg inn eller opprett en { -product-mozilla-account }
 # This string appears as a separation between the two sign-in options, "Enter your email"(signin-form-email-input) "or"(this string) "Continue with Google"(continue-signin-with-google-button) / "Continue with Apple"(continue-signin-with-apple-button)
 checkout-signin-options-or = eller
+continue-signin-with-google-button = Fortsett med { -brand-google }
+continue-signin-with-apple-button = Fortsett med { -brand-apple }
 next-payment-method-header = Velg betalingsmåte
 next-payment-method-first-approve = Først må du godkjenne abonnementet ditt
+# $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
+location-header = Velg landet ditt og skriv inn postnummeret ditt <p>for å fortsette å betale for { $productName }</p>
 
 ## Page - Upgrade page
 
+upgrade-page-payment-information = Betalingsinformasjon
+# $nextInvoiceDate (number) - The date of the next invoice
+upgrade-page-acknowledgment = Abonnementet ditt endres umiddelbart, og du blir belastet et justert beløp i dag for resten av denne faktureringsperioden. Fra og med { $nextInvoiceDate } blir du belastet hele beløpet.
 
 ## Authentication Error page
 
@@ -17,6 +25,9 @@ next-payment-method-first-approve = Først må du godkjenne abonnementet ditt
 next-payment-error-manage-subscription-button = Behandle mitt abonnement
 next-payment-error-retry-button = Prøv igjen
 next-basic-error-message = Noe gikk galt. Prøv igjen senere.
+checkout-error-contact-support-button = Kontakt kundestøtte
+checkout-error-not-eligible = Du er ikke kvalifisert til å abonnere på dette produktet – ta kontakt med kundestøtte slik at vi kan hjelpe deg.
+checkout-error-contact-support = Ta kontakt med kundestøtte slik at vi kan hjelpe deg.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
