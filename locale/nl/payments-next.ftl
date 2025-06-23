@@ -270,6 +270,7 @@ metadata-description-default = De opgevraagde pagina is niet gevonden.
 
 ## Coupon Error Messages
 
+next-coupon-error-cannot-redeem = De ingevoerde code kan niet worden ingewisseld – uw account heeft een eerder abonnement op een van onze services.
 next-coupon-error-expired = De ingevoerde code is verlopen.
 next-coupon-error-generic = Er is een fout opgetreden bij het verwerken van de code. Probeer het opnieuw.
 next-coupon-error-invalid = De ingevoerde code is ongeldig.

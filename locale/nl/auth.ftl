@@ -416,8 +416,16 @@ postAddRecoveryPhone-how-protect = Hoe dit uw account beschermt
 postAddRecoveryPhone-how-protect-plaintext = Hoe dit uw account beschermt:
 postAddRecoveryPhone-enabled-device = U hebt het ingeschakeld vanaf:
 postAddRecoveryPhone-action = Account beheren
+postAddTwoStepAuthentication-subject-v3 = Authenticatie in twee stappen is ingeschakeld
 postAddTwoStepAuthentication-title-2 = U hebt authenticatie in twee stappen ingeschakeld
+# After the colon, there is a description of the device that the user used to enable two-step authentication
+postAddTwoStepAuthentication-from-device-v2 = U hebt dit opgevraagd van:
 postAddTwoStepAuthentication-action = Account beheren
+postAddTwoStepAuthentication-code-required-v3 = U moet nu uw authenticator-app gebruiken telkens wanneer u zich aanmeldt.
+postAddTwoStepAuthentication-recovery-method-codes = U hebt ook reserve-authenticatiecodes toegevoegd als uw herstelmethode.
+# Variables:
+#  $maskedPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
+postAddTwoStepAuthentication-recovery-method-phone = U hebt ook { $maskedPhoneNumber } toegevoegd als uw hersteltelefoonnummer.
 postChangeAccountRecovery-subject = Accountherstelsleutel gewijzigd
 postChangeAccountRecovery-title = U hebt uw accountherstelsleutel gewijzigd
 postChangeAccountRecovery-body-part1 = U hebt nu een nieuwe accountherstelsleutel. Uw vorige sleutel is verwijderd.
