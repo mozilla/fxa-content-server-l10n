@@ -647,7 +647,7 @@ flow-setup-2fa-backup-choice-learn-more-link = Läs mer om återställning och r
 flow-setup-2fa-backup-code-confirm-heading = Ange reservautentiseringskod
 # codes here refers to backup authentication codes
 flow-setup-2fa-backup-code-confirm-confirm-saved = Bekräfta att du sparat dina koder genom att ange en. Utan dessa koder kanske du inte kan logga in om du inte har din autentiseringsapp.
-flow-setup-2fa-backup-code-confirm-code-input = Ange en 10-siffrig kod
+flow-setup-2fa-backup-code-confirm-code-input = Ange en kod på 10 tecken
 # Clicking on this button finishes the whole flow upon success.
 flow-setup-2fa-backup-code-confirm-button-finish = Slutför
 
