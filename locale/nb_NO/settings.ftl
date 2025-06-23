@@ -812,6 +812,7 @@ settings-recovery-phone-remove-cancel = Avbryt
 
 ## PageSetupRecoveryPhone
 
+page-change-recovery-phone = Endre gjenopprettingstelefon
 # Back arrow to return to step 1 of recovery phone setup flow
 page-setup-recovery-phone-step2-back-button-title = Endre telefonnummer
 
@@ -855,6 +856,9 @@ tfa-button-finish = Fullfør
 tfa-qa-code =
     .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = Kan du ikke skanne koden?
+# When the user cannot use a QR code.
+tfa-enter-secret-key = Skriv inn denne hemmelige nøkkelen i autentiseringsappen din:
+tfa-enter-totp-v2 = Skriv nå inn autentiseringskoden fra autentiseringsappen.
 tfa-input-enter-totp-v2 =
     .label = Skriv inn autentiseringskode
 
@@ -973,6 +977,8 @@ auth-error-110 = Ugyldig token
 auth-error-138-2 = Ubekreftet økt
 auth-error-159 = Ugyldig kontogjenopprettingsnøkkel
 auth-error-183-2 = Ugyldig eller utløpt bekreftelseskode
+auth-error-214 = Telefonnummeret for gjenoppretting finnes allerede
+auth-error-215 = Telefonnummeret for gjenoppretting finnes ikke
 auth-error-999 = Uventet feil
 auth-error-1001 = Innloggingsforsøk avbrutt
 auth-error-1002 = Økt utløpt. Logg inn for å fortsette.
@@ -991,6 +997,8 @@ cannot-create-account-learn-more-link = Les mer
 
 # A user will only see this header if they are signed in. The header will be preceded by a green checkmark (rtl/ltr sensitive)
 connect-another-device-signed-in-header = Du er logget inn på { -brand-firefox }
+# A "success" message visible to users who verified via email
+connect-another-device-email-confirmed-banner = E-post bekreftet
 # A "success" message visible to users who verified via sign-in
 connect-another-device-signin-confirmed-banner = Innlogging bekreftet
 # A link for the user to sign in to the current Firefox browser, preceded by a message prompting the user to sign in so as to complete the device sync setup
