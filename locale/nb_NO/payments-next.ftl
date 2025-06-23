@@ -6,9 +6,13 @@ checkout-signin-options-or = eller
 continue-signin-with-google-button = Fortsett med { -brand-google }
 continue-signin-with-apple-button = Fortsett med { -brand-apple }
 next-payment-method-header = Velg betalingsmåte
+# This message is used to indicate the second step in a multi step process.
+payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = Først må du godkjenne abonnementet ditt
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
 location-header = Velg landet ditt og skriv inn postnummeret ditt <p>for å fortsette å betale for { $productName }</p>
+location-banner-info = Vi klarte ikke å oppdage posisjonen din automatisk
+location-required-disclaimer = Vi bruker kun denne informasjonen til å beregne skatter og valuta.
 
 ## Page - Upgrade page
 
@@ -18,16 +22,23 @@ upgrade-page-acknowledgment = Abonnementet ditt endres umiddelbart, og du blir b
 
 ## Authentication Error page
 
+auth-error-page-title = Vi kunne ikke logge deg inn
+checkout-error-boundary-retry-button = Prøv igjen
+checkout-error-boundary-basic-error-message = Noe gikk galt. Prøv igjen, eller <contactSupportLink>kontakt kundestøtte.</contactSupportLink>
 
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages
 
 next-payment-error-manage-subscription-button = Behandle mitt abonnement
+next-iap-blocked-contact-support = Du har et mobilabonnement i appen som er i konflikt med dette produktet — ta kontakt med kundestøtten slik at vi kan hjelpe deg.
 next-payment-error-retry-button = Prøv igjen
 next-basic-error-message = Noe gikk galt. Prøv igjen senere.
 checkout-error-contact-support-button = Kontakt kundestøtte
 checkout-error-not-eligible = Du er ikke kvalifisert til å abonnere på dette produktet – ta kontakt med kundestøtte slik at vi kan hjelpe deg.
+checkout-error-already-subscribed = Du abonnerer allerede på dette produktet.
 checkout-error-contact-support = Ta kontakt med kundestøtte slik at vi kan hjelpe deg.
+cart-error-currency-not-determined = Vi klarte ikke å bestemme valutaen for dette kjøpet. Prøv på nytt.
+checkout-processing-general-error = Det oppstod en uventet feil under behandlingen av betalingen. Prøv igjen.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -37,6 +48,7 @@ next-payment-processing-message = Vent mens vi behandler betalingen din…
 ## Success page - /checkout and /upgrade
 ## Common strings used in multiple checkout pages
 
+next-payment-confirmation-thanks-heading-account-exists = Takk, sjekk e-posten din nå!
 next-payment-confirmation-order-heading = Ordredetaljer
 # $invoiceNumber (String) - Invoice number of the successful payment
 next-payment-confirmation-invoice-number = Fakturanummer { $invoiceNumber }
@@ -54,6 +66,10 @@ next-payment-confirmation-download-button = Fortsett til nedlasting
 
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Kort som slutter på { $last4 }
+# Page - Not Found
+page-not-found-title = Fant ikke siden
+page-not-found-description = Siden du ba om ble ikke funnet. Vi har blitt varslet og vil fikse eventuelle lenker som ikke virker.
+page-not-found-back-button = Gå tilbake
 
 ## Component - Payment Consent Checkbox
 
@@ -62,7 +78,12 @@ next-payment-confirm-checkbox-error = Du må fullføre dette før du går videre
 
 ## Checkout Form
 
+next-new-user-submit = Abonner nå
 next-payment-validate-name-error = Skriv inn navnet ditt
+next-pay-with-heading-paypal = Betal med { -brand-paypal }
+# Label for the Full Name input
+payment-name-label = Navn slik det står på kortet ditt
+payment-name-placeholder = Fullt navn
 
 ## Component - CouponForm
 
@@ -70,14 +91,39 @@ next-coupon-enter-code =
     .placeholder = Skriv inn kode
 # Title of container where a user can input a coupon code to get a discount on a subscription.
 next-coupon-promo-code = Rabattkode
+# Title of container showing discount coupon code applied to a subscription.
+next-coupon-promo-code-applied = Kampanjekode brukt
 next-coupon-remove = Fjern
 next-coupon-submit = Bruk
 
 # Component - Header
 
+payments-header-help =
+    .title = Hjelp
+    .aria-label = Hjelp
+    .alt = Hjelp
+payments-header-bento =
+    .title = { -brand-mozilla }-produkter
+    .aria-label = { -brand-mozilla }-produkter
+    .alt = { -brand-mozilla }-logo
+payments-header-bento-close =
+    .alt = Lukk
+payments-header-bento-tagline = Flere produkter fra { -brand-mozilla } som beskytter personvernet ditt
+payments-header-bento-firefox-desktop = { -brand-firefox }-nettleser for datamaskiner
+payments-header-bento-firefox-mobile = { -brand-firefox }-nettleser for mobil
+payments-header-bento-monitor = { -product-mozilla-monitor }
+payments-header-bento-firefox-relay = { -product-firefox-relay }
+payments-header-bento-vpn = { -product-mozilla-vpn }
+payments-header-bento-made-by-mozilla = Utviklet av { -brand-mozilla }
+payments-header-avatar =
+    .title = { -product-mozilla-account }-meny
+payments-client-loading-spinner =
+    .aria-label = Laster …
+    .alt = Laster …
 
 ## Payment Section
 
+next-new-user-card-title = Skriv inn betalingskortinformasjon
 
 ## Component - PurchaseDetails
 
@@ -93,6 +139,23 @@ next-coupon-success-repeating = Planen din fornyes automatisk etter { $couponDur
 
 ## Select Tax Location
 
+select-tax-location-title = Adresse
+select-tax-location-edit-button = Rediger
+select-tax-location-save-button = Lagre
+select-tax-location-country-code-label = Land
+select-tax-location-country-code-placeholder = Velg ditt land
+select-tax-location-error-missing-country-code = Velg ditt land
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN
+select-tax-location-product-not-available = { $productName } er ikke tilgjengelig i dette området.
+select-tax-location-postal-code-label = Postnummer
+select-tax-location-postal-code =
+    .placeholder = Skriv inn postnummer
+select-tax-location-error-missing-postal-code = Skriv inn postnummer
+select-tax-location-error-invalid-postal-code = Skriv inn et gyldig postnummer
+select-tax-location-successfully-updated = Posisjonen din er oppdatert.
+select-tax-location-error-location-not-updated = Kunne ikke oppdatere posisjonen din. Prøv på nytt.
+signin-form-continue-button = Fortsett
+signin-form-email-input = Skriv inn e-postadressen din
 
 ## Component - PriceInterval
 
@@ -128,6 +191,9 @@ next-terms-download = Vilkår for nedlasting
 ## Page Metadata Information
 ## $productTitle (String) - The name of the product to create subscription, e.g. Mozilla VPN
 
+metadata-description-upgrade-start = Skriv inn betalingsinformasjonen din for å fullføre oppgraderingen.
+# Upgrade processing
+metadata-title-upgrade-processing = Behandler | { $productTitle }
 
 ## Coupon Error Messages
 
