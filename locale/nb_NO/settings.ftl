@@ -7,21 +7,37 @@
 
 resend-code-success-banner-heading = En ny kode ble sendt til e-posten din.
 resend-link-success-banner-heading = En ny lenke ble sendt til e-posten din.
+# $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
+resend-success-banner-description = Legg til { $accountsEmail } i kontaktene dine for å sikre en problemfri levering.
 
 ## Brand Messaging component
 ## Used to show in product messaging about upcoming brand changes
 
+# This aria-label applies to the dismiss/close button of the banner
+# This text is for screen-readers
+brand-banner-dismiss-button-2 =
+    .aria-label = Lukk banner
 # This message is displayed as the title element in the banner, prior to actually launching the new brand
 brand-prelaunch-title = { -product-firefox-accounts } vil bli omdøpt til { -product-mozilla-accounts } 1. november
+# This message is displayed as sub title element in the banner, giving a it more context about the brand changes.
+brand-prelaunch-subtitle = Du vil fortsatt logge inn med samme brukernavn og passord, og det er ingen andre endringer i produktene du bruker.
 # This message is displayed as title element in the banner, after the brand changes take affect letting the user know that
 # no action is required on their part
 brand-postlaunch-title = Vi har endret navn på { -product-firefox-accounts } til { -product-mozilla-accounts }. Du vil fortsatt logge på med samme brukernavn og passord, og det er ingen andre endringer i produktene du bruker.
 # This is an extra link element, that directs users to a page where they can learn more about the branding changes.
 brand-learn-more = Les mer
+# Alt text for close banner image
+brand-close-banner =
+    .alt = Lukk banner
+# Alt text for 'm' logo in banner header
+brand-m-logo =
+    .alt = { -brand-mozilla } m-logo
 
 ## ButtonBack component
 ## Allows users to click a back arrow to navigate to the previous page
 
+button-back-aria-label = Tilbake
+button-back-title = Tilbake
 
 ## ButtonDownloadRecoveryKeyPDF
 ## Clicking on this button downloads a PDF file that contains the user's account recovery key
@@ -38,9 +54,17 @@ recovery-key-pdf-heading = Kontogjenopprettingsnøkkel
 recovery-key-pdf-download-date = Opprettet den { $date }
 # Shown directly above recovery key value and preceeded by a key icon
 recovery-key-pdf-key-legend = Kontogjenopprettingsnøkkel
+# Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
+# Password resets without this account recovery key can result in data loss.
+# "key" here refers to "account recovery key"
+recovery-key-pdf-instructions = Denne nøkkelen lar deg gjenopprette krypterte nettleserdata (inkludert passord, bokmerker og historikk) hvis du glemmer passordet. Oppbevar det på et sted du husker.
 # This heading is shown above a list of options for storing the account recovery key
 # "key" here refers to "account recovery key"
 recovery-key-pdf-storage-ideas-heading = Steder å oppbevare nøkkelen din
+# Followed by a link (https://mzl.la/3bNrM1I) to get more information and support
+recovery-key-pdf-support = Les mer om kontogjenopprettingsnøkkel
+# Error message displayed in an alert bar if the PDF download failed.
+recovery-key-pdf-download-error = Beklager, det oppsto et problem da kontogjenopprettingsnøkkelen skulle lastes ned.
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -48,8 +72,15 @@ recovery-key-pdf-storage-ideas-heading = Steder å oppbevare nøkkelen din
 # Prompt above a checklist of newsletters
 choose-newsletters-prompt-2 = Få mer fra { -brand-mozilla }:
 # Newsletter checklist item
+choose-newsletters-option-latest-news =
+    .label = Få våre siste nyheter og produktoppdateringer
+# Newsletter checklist item
 choose-newsletters-option-test-pilot =
     .label = Tidlig tilgang til å teste nye produkter
+# Newsletter checklist item. This for a Mozilla Foundation newsletters,
+# "Action alerts" can be interpreted as "Calls to action"
+choose-newsletters-option-reclaim-the-internet =
+    .label = Handlingsvarsler for å vinne tilbake internett
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
@@ -59,6 +90,9 @@ datablock-copy =
     .message = Kopiert
 datablock-print =
     .message = Skrevet ut
+# Tooltip notification when an account recovery key or one-time use code is copied.
+datablock-inline-copy =
+    .message = Kopiert
 
 ## DeviceInfoBlock component
 ## The strings here are used to display information about the origin of activity happening on a user's account
@@ -92,6 +126,7 @@ signup-new-password-label =
 signup-confirm-password-label =
     .label = Gjenta passord
 signup-submit-button = Opprett konto
+post-verify-set-password-submit-button = Start synkronisering
 form-reset-password-with-balloon-new-password =
     .label = Nytt passord
 form-reset-password-with-balloon-confirm-password =
@@ -120,6 +155,7 @@ form-password-with-inline-criteria-match-error = Passordene er ikke like
 form-password-with-inline-criteria-sr-too-short-message = Passordet må inneholde minst 8 tegn.
 form-password-with-inline-criteria-sr-not-email-message = Passordet kan ikke inneholde e-postadressen din.
 form-password-with-inline-criteria-sr-not-common-message = Passordet kan ikke være et typisk brukt passord.
+form-password-with-inline-criteria-sr-requirements-met = Det angitte passordet følger alle passordkrav.
 form-password-with-inline-criteria-sr-passwords-match = De angitte passordene samsvarer.
 
 ## FormVerifyCode
@@ -145,6 +181,7 @@ form-verify-totp-disabled-button-title-alphanumeric = Skriv inn koden på { $cod
 
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = { -brand-firefox }-kontogjenopprettingsnøkkel
+get-data-trio-title-backup-verification-codes = Reserve-autentiseringskode
 get-data-trio-download-2 =
     .title = Last ned
     .aria-label = Last ned
@@ -162,8 +199,17 @@ get-data-trio-print-2 =
 alert-icon-aria-label =
     .aria-label = Varsel
 # Aria-label option for an alert symbol
+icon-attention-aria-label =
+    .aria-label = Merk
+# Aria-label option for an alert symbol
 icon-warning-aria-label =
     .aria-label = Advarsel
+authenticator-app-aria-label =
+    .aria-label = Autentiseringsapplikasjon
+backup-codes-icon-aria-label-v2 =
+    .aria-label = Reserve-autentiseringskode aktivert
+backup-codes-disabled-icon-aria-label-v2 =
+    .aria-label = Reserve-autentiseringskode deaktivert
 # An icon of phone with text message. A back recovery phone number
 backup-recovery-sms-icon-aria-label =
     .aria-label = Gjenopprettings-SMS slått på
@@ -173,6 +219,9 @@ backup-recovery-sms-disabled-icon-aria-label =
 # Used to select Canada as country code for phone number
 canadian-flag-icon-aria-label =
     .aria-label = Canadisk flagg
+# Used to  indicate a general checkmark, as in something checked off in a list!
+checkmark-icon-aria-label =
+    .aria-label = Valgt
 # Used to  indicate a check mark for a successful state/action
 checkmark-success-icon-aria-label =
     .aria-label = Suksess
@@ -197,6 +246,10 @@ usa-flag-icon-aria-label =
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
+hearts-broken-image-aria-label =
+    .aria-label = En datamaskin og en mobiltelefon og et bilde av et knust hjerte på hver av dem
+hearts-verified-image-aria-label =
+    .aria-label = En datamaskin, en mobiltelefon og et nettbrett med et pulserende hjerte på hver av dem.
 signin-recovery-code-image-description =
     .aria-label = Dokument som inneholder skjult tekst.
 signin-totp-code-image-label =
