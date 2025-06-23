@@ -117,6 +117,8 @@ payments-header-bento-vpn = { -product-mozilla-vpn }
 payments-header-bento-made-by-mozilla = Utviklet av { -brand-mozilla }
 payments-header-avatar =
     .title = { -product-mozilla-account }-meny
+payments-header-avatar-expanded-signed-in-as = Logget inn som
+payments-header-avatar-expanded-sign-out = Logg ut
 payments-client-loading-spinner =
     .aria-label = Laster …
     .alt = Laster …
@@ -142,6 +144,7 @@ next-coupon-success-repeating = Planen din fornyes automatisk etter { $couponDur
 select-tax-location-title = Adresse
 select-tax-location-edit-button = Rediger
 select-tax-location-save-button = Lagre
+select-tax-location-continue-to-checkout-button = Fortsett til kassen
 select-tax-location-country-code-label = Land
 select-tax-location-country-code-placeholder = Velg ditt land
 select-tax-location-error-missing-country-code = Velg ditt land
@@ -156,6 +159,12 @@ select-tax-location-successfully-updated = Posisjonen din er oppdatert.
 select-tax-location-error-location-not-updated = Kunne ikke oppdatere posisjonen din. Prøv på nytt.
 signin-form-continue-button = Fortsett
 signin-form-email-input = Skriv inn e-postadressen din
+signin-form-email-input-missing = Skriv inn e-postadressen din
+signin-form-email-input-invalid = Oppgi en gyldig e-postadresse
+next-new-user-subscribe-product-updates-mdnplus = Jeg vil gjerne motta produktnyheter og oppdateringer fra { -product-mdn-plus } og { -brand-mozilla }
+next-new-user-subscribe-product-updates-mozilla = Jeg vil gjerne motta produktnyheter og oppdateringer fra { -brand-mozilla }
+next-new-user-subscribe-product-updates-snp = Jeg vil gjerne motta nyheter og oppdateringer om sikkerhet og personvern fra { -brand-mozilla }
+next-new-user-subscribe-product-assurance = Vi bruker kun e-postadressen din til å opprette kontoen din. Vi vil aldri selge den til en tredjepart.
 
 ## Component - PriceInterval
 
@@ -163,6 +172,10 @@ signin-form-email-input = Skriv inn e-postadressen din
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+plan-price-interval-daily = { $amount } daglig
+plan-price-interval-weekly = { $amount } ukentlig
+plan-price-interval-monthly = { $amount } månedlig
+plan-price-interval-yearly = { $amount } årlig
 
 ## Component - SubscriptionTitle
 

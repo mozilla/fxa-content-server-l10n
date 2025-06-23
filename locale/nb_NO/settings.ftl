@@ -1380,10 +1380,16 @@ third-party-auth-callback-message = Vent litt, du blir omdirigert til det autori
 ## AccountRecoveryConfirmKey page
 
 account-recovery-confirm-key-heading = Skriv inn kontogjenopprettingsnøkkelen din
+# Prompts the user to enter their account recovery key
+# Account recovery key contains a mix of letters and numbers, no special characters
+account-recovery-confirm-key-input-label =
+    .label = Skriv inn kontogjenopprettingsnøkkelen din på 32 tegn
 # When setting up an account recovery key, users have the option of storing an account recovery key hint that is shown during password reset
 account-recovery-confirm-key-hint = Oppbevaringshintet ditt er:
 # Clicking this button checks if the recovery key provided by the user is correct and associated with their account
 account-recovery-confirm-key-button-2 = Fortsett
+# Link that leads to the password reset page (without recovery code)
+account-recovery-lost-recovery-key-link-2 = Finner du ikke kontogjenopprettingsnøkkelen din?
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
@@ -1392,11 +1398,19 @@ complete-reset-pw-header-v2 = Opprett et nytt passord
 # A new password was successfully set for the user's account
 # Displayed in an alert bar
 complete-reset-password-success-alert = Passord angitt
+# An error occurred while attempting to set a new password (password reset flow)
+# Displayed in an alert bar
+complete-reset-password-error-alert = Beklager, det oppsto et problem med å angi passordet ditt
 # Link to go back and use an account recovery key before resetting the password
 complete-reset-pw-recovery-key-link = Bruk kontogjenopprettingsnøkkel
 # A message informing the user that the password reset was successful and reminding them to create another recovery key
 # Displayed on the sign in page
 reset-password-complete-banner-heading = Passordet ditt har blitt tilbakestilt.
+reset-password-complete-banner-message = Ikke glem å generere en ny kontogjenopprettingsnøkkel fra innstillingene dine for { -product-mozilla-account } for å forhindre fremtidige innloggingsproblemer.
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+complete-reset-password-desktop-relay = { -brand-firefox } vil prøve å sende deg tilbake til å bruke et e-postalias etter at du har logget inn.
 
 # ConfirmBackupCodeResetPassword page
 
@@ -1404,6 +1418,13 @@ confirm-backup-code-reset-password-subheader = Skriv inn reserve-autentiseringsk
 
 ## Confirm Reset Password With Code
 
+confirm-reset-password-with-code-heading = Sjekk e-posten din
+# Text within span appears in bold
+# $email - email address for which a password reset was requested
+confirm-reset-password-with-code-instruction = Vi sendte en bekreftelseskode til <span>{ $email }</span>.
+# Shown above a group of 8 single-digit input boxes
+# Only numbers allowed
+confirm-reset-password-code-input-group-label = Skriv inn 8-sifret kode innen 10 minutter
 # Clicking the button submits and verifies the code
 # If succesful, continues to the next step of the password reset
 confirm-reset-password-otp-submit-button = Fortsett
@@ -1415,6 +1436,8 @@ confirm-reset-password-otp-different-account-link = Bruk en annen konto
 ## PasswordResetConfirmTotp Page
 
 confirm-totp-reset-password-header = Tilbakestill passordet ditt
+confirm-totp-reset-password-subheader-v2 = Skriv inn totrinns-autentiseringskode
+confirm-totp-reset-password-instruction-v2 = Sjekk <strong>autentiseringsappen</strong> din for å tilbakestille passordet ditt.
 confirm-totp-reset-password-trouble-code = Har du problemer med å oppgi kode?
 confirm-totp-reset-password-confirm-button = Bekreft
 confirm-totp-reset-password-input-label-v2 = Skriv inn 6-sifret kode
@@ -1423,6 +1446,11 @@ confirm-totp-reset-password-use-different-account = Bruk en annen konto
 ## ResetPassword start page
 
 password-reset-flow-heading = Tilbakestill passordet ditt
+password-reset-body-2 =
+    Vi ber om et par ting som bare du vet for å holde kontoen din
+    trygg.
+password-reset-email-input =
+    .label = Skriv inn e-postadressen din
 password-reset-submit-button-2 = Fortsett
 
 ## ResetPasswordConfirmed
@@ -1442,8 +1470,23 @@ password-reset-recovery-method-send-code-error-description = Prøv igjen senere,
 
 ## ResetPasswordRecoveryPhone page
 
+reset-password-recovery-phone-flow-heading = Tilbakestill passord
+# A recovery code in context of this page is a one time code sent to the user's phone
+reset-password-recovery-phone-heading = Oppgi gjenopprettingskode
+reset-password-recovery-phone-input-label = Skriv inn 6-sifret kode
+reset-password-recovery-phone-code-submit-button = Bekreft
+reset-password-recovery-phone-resend-code-button = Send koden på nytt
+reset-password-recovery-phone-resend-success = Kode sendt
+# links to https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+reset-password-recovery-phone-locked-out-link = Er du utestengt?
+reset-password-recovery-phone-send-code-error-heading = Det oppsto et problem med å sende en kode
+reset-password-recovery-phone-code-verification-error-heading = Det oppstod et problem med å bekrefte koden din.
+# Follows the error message (e.g, "There was a problem sending a code")
+reset-password-recovery-phone-general-error-description = Prøv igjen senere.
+reset-password-recovery-phone-invalid-code-error-description = Koden er ugyldig eller utløpt.
 reset-password-recovery-phone-invalid-code-error-link = Bruk reserve-autentiseringskoder i stedet?
 reset-password-with-recovery-key-verified-page-title = Passordet er tilbakestilt
+reset-password-complete-new-password-saved = Nytt passord lagret!
 
 ## CompleteSignin component
 
@@ -1468,6 +1511,7 @@ signin-header = Logg inn
 signin-use-a-different-account-link = Bruk en annen konto
 signin-forgot-password-link = Glemt passord?
 signin-password-button-label = Passord
+signin-code-expired-error = Koden er utløpt. Logg inn på nytt.
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
@@ -1497,6 +1541,14 @@ signin-push-code-confirm-link-error = Lenken er skadet. Prøv på nytt.
 ## their password, and they previously had set up an account recovery method.
 
 signin-recovery-method-code-v2 = Reserve-autentiseringskoder
+# Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
+signin-recovery-method-code-info-v2 =
+    { $numBackupCodes ->
+        [one] { $numBackupCodes } kode igjen
+       *[other] { $numBackupCodes } koder igjen
+    }
+# Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
+signin-recovery-method-send-code-error-heading = Det oppsto et problem da en kode skulle sendes til gjenopprettingstelefonen din
 signin-recovery-method-send-code-error-description = Prøv igjen senere, eller bruk reserve-autentiseringskodene dine.
 
 ## SigninRecoveryCode page
@@ -1506,14 +1558,45 @@ signin-recovery-method-send-code-error-description = Prøv igjen senere, eller b
 
 signin-recovery-code-heading = Logg inn
 signin-recovery-code-sub-heading = Skriv inn reserve-autentiseringskode
+# codes here refers to backup authentication codes
+signin-recovery-code-instruction-v3 = Skriv inn en av engangskodene du lagret da du konfigurerte totrinns-verifisering.
+# code here refers to backup authentication code
+signin-recovery-code-input-label-v2 = Skriv inn kode på 10 tegn
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Bekreft
+# Link to go to the page to use recovery phone instead
+signin-recovery-code-phone-link = Bruk gjenopprettingstelefonnummer
 # Error displayed in a tooltip when form is submitted witout a code
 signin-recovery-code-required-error = Reserve-autentiseringskode påkrevd
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-recovery-code-use-phone-failure = Det oppsto et problem da en kode skulle sendes til gjenopprettingstelefonen din
+signin-recovery-code-use-phone-failure-description = Prøv igjen senere.
 
 ## SigninRecoveryPhone page
 
+signin-recovery-phone-flow-heading = Logg inn
+# A recovery code in context of this page is a one time code sent to the user's phone
+signin-recovery-phone-heading = Oppgi gjenopprettingskode
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+signin-recovery-phone-instruction-v3 = En 6-sifret kode ble sendt til telefonnummeret som slutter på <span>{ $lastFourPhoneDigits }</span> via tekstmelding. Denne koden utløper etter 5 minutter. Ikke del denne koden med noen.
+signin-recovery-phone-input-label = Skriv inn 6-sifret kode
+signin-recovery-phone-code-submit-button = Bekreft
+signin-recovery-phone-resend-code-button = Send koden på nytt
+signin-recovery-phone-resend-success = Kode sendt
+# links to https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+signin-recovery-phone-locked-out-link = Er du utestengt?
+signin-recovery-phone-send-code-error-heading = Det oppsto et problem med å sende en kode
+signin-recovery-phone-code-verification-error-heading = Det oppstod et problem med å bekrefte koden din.
+# Follows the error message (e.g, "There was a problem sending a code")
+signin-recovery-phone-general-error-description = Prøv igjen senere.
+signin-recovery-phone-invalid-code-error-description = Koden er ugyldig eller utløpt.
 signin-recovery-phone-invalid-code-error-link = Bruk reserve-autentiseringskoder i stedet?
+# "Limits" refers to potential restrictions on how often a recovery phone number can be used for signing in within a given time period.
+# If limits are reached, users may have to use an alternate two-step authentication method or wait until the restriction period is over.
+signin-recovery-phone-success-message = Logget inn. Begrensninger kan gjelde hvis du bruker gjenopprettingstelefonen din igjen.
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -1526,6 +1609,8 @@ signin-recovery-phone-invalid-code-error-link = Bruk reserve-autentiseringskoder
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 signin-token-code-heading-2 = Skriv inn bekreftelseskoden<span> for { -product-mozilla-account }en din</span>
+# { $email } represents the email that the user entered to sign in
+signin-token-code-instruction-v2 = Skriv inn koden som ble sendt til <email>{ $email }</email> innen 5 minutter.
 signin-token-code-input-label-v2 = Skriv inn 6-sifret kode
 # Form button to confirm if the confirmation code entered by the user is valid
 signin-token-code-confirm-button = Bekreft
@@ -1546,16 +1631,28 @@ signin-totp-code-other-account-link = Bruk en annen konto
 signin-totp-code-recovery-code-link = Har du problemer med å oppgi kode?
 # Error displayed in a tooltip when the form is submitted without a code
 signin-totp-code-required-error = Autentiseringskode kreves
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-totp-code-desktop-relay = { -brand-firefox } vil prøve å sende deg tilbake til å bruke et e-postalias etter at du har logget inn.
 
 ## Signin Unblock Page
 ## Page shown when signin has been blocked by rate limiting (too many requests)
 
 signin-unblock-header = Godkjenn denne innloggingen
+# Where $email is the email address entered for the sign-in attempt
+signin-unblock-body = Sjekk e-posten din for å se om du har fått autorisasjonskoden sendt til { $email }.
 signin-unblock-code-input = Skriv inn godkjenningskode
 signin-unblock-submit-button = Fortsett
 # Shown when the user attempts to submit the form without including a code
 signin-unblock-code-required-error = Godkjenningskode kreves
+signin-unblock-code-incorrect-length = Autorisasjonskoden må inneholde 8 tegn
+signin-unblock-resend-code-button = Ikke i innboks eller mappen for uønsket e-post (spam)? Send på nytt
 signin-unblock-support-link = Hvorfor skjer dette?
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-unblock-desktop-relay = { -brand-firefox } vil prøve å sende deg tilbake til å bruke et e-postalias etter at du har logget inn.
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -1569,14 +1666,29 @@ confirm-signup-code-page-title = Skriv inn bekreftelseskode
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
 confirm-signup-code-heading-2 = Skriv inn bekreftelseskoden <span>for { -product-mozilla-account }en din</span>
+# { $email } represents the email that the user entered to sign in
+confirm-signup-code-instruction-v2 = Skriv inn koden som ble sendt til <email>{ $email }</email> innen 5 minutter.
 confirm-signup-code-input-label = Skriv inn 6-sifret kode
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = Bekreft
+confirm-signup-code-sync-button = Start synkronisering
 confirm-signup-code-code-expired = Har koden utløpt?
+# Link to resend a new code to the user's email.
+confirm-signup-code-resend-code-link = Send ny kode på e-post.
+confirm-signup-code-success-alert = Konto bekreftet
+# Error displayed in tooltip.
+confirm-signup-code-is-required-error = Bekreftelseskode kreves
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+confirm-signup-code-desktop-relay = { -brand-firefox } vil prøve å sende deg tilbake til å bruke et e-postalias etter at du har logget inn.
 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
+signup-heading-v2 = Opprett et passord
+signup-relay-info = Et passord er nødvendig for å administrere e-postalias på en sikker måte og få tilgang til sikkerhetsverktøyene til { -brand-mozilla }.
+signup-sync-info = Synkroniser passordene, bokmerkene og mer overalt hvor du bruker { -brand-firefox }.
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = Hvorfor må jeg opprette denne kontoen?
 # Link included in a dismissible info banner that is only displayed to Pocket clients
