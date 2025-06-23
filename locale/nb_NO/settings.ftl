@@ -591,6 +591,7 @@ flow-setup-2fa-backup-choice-code-title = Reserve-autentiseringskoder
 ## where the user confirm that they have saved their backup authentication codes
 ## by entering one of them.
 
+flow-setup-2fa-backup-code-confirm-heading = Skriv inn reserve-autentiseringskode
 flow-setup-2fa-backup-code-confirm-code-input = Skriv inn kode på 10 tegn
 # Clicking on this button finishes the whole flow upon success.
 flow-setup-2fa-backup-code-confirm-button-finish = Fullfør
@@ -665,6 +666,7 @@ tfa-replace-code-success-1 =
 tfa-replace-code-success-alert-4 = Reserve-autentiseringskoder oppdatert
 tfa-replace-code-1-2 = Trinn 1 av 2
 tfa-replace-code-2-2 = Trinn 2 av 2
+tfa-enter-code-to-confirm-v2 = Skriv inn en av de nye reserve-autentiseringskodene dine for å bekrefte at du har lagret dem. De gamle reserve-autentiseringskodene dine vil bli deaktivert når dette trinnet er fullført.
 
 ## Avatar change page
 
@@ -857,6 +859,8 @@ tfa-step-3-3 = Trinn 3 av 3
 tfa-button-continue = Fortsett
 tfa-button-cancel = Avbryt
 tfa-button-finish = Fullfør
+tfa-cannot-verify-code-4 = Det oppstod et problem med å bekrefte reserve-autentiseringskoden din
+tfa-incorrect-recovery-code-1 = Feil reserve-autentiseringskode
 tfa-qa-code =
     .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = Kan du ikke skanne koden?
@@ -866,6 +870,8 @@ tfa-enter-totp-v2 = Skriv nå inn autentiseringskoden fra autentiseringsappen.
 tfa-input-enter-totp-v2 =
     .label = Skriv inn autentiseringskode
 tfa-save-these-codes-1 = Lagre disse reserve-autentiseringskodene på et trygt sted, i tilfelle du mister tilgang til mobilenheten din.
+tfa-enter-recovery-code-1 =
+    .label = Skriv inn en reserve-autentiseringskode
 
 ## Product promotion
 
@@ -903,12 +909,14 @@ signout-sync-header = Økten har utløpt
 
 ## SubRow component
 
+tfa-row-backup-codes-title = Reserve-autentiseringskoder
 # Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
 # Users that have not enabled or verified 2FA will not see this
 tfa-row-backup-codes-not-available = Ingen koder er tilgjengelige
 # Shown to users who have no backup authentication codes
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = Legg til
+tfa-row-backup-phone-delete-restriction-v2 = Hvis du vil fjerne gjenopprettingstelefonen din, må du legge til reserve-autentiseringskoder eller deaktivere totrinns-verifisering først for å unngå å bli låst ute av kontoen din.
 
 ## Switch component
 
@@ -956,6 +964,7 @@ tfa-row-disabled-status = Slått av
 tfa-row-action-add = Legg til
 tfa-row-action-disable = Slå av
 tfa-row-disable-modal-confirm = Slå av
+tfa-row-disable-modal-explain-1 = Du kan ikke angre denne handlingen. Du har også muligheten til å <linkExternal>erstatte reserve-autentiseringskodene dine</linkExternal>.
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
@@ -980,14 +989,18 @@ auth-error-103 = Feil passord
 auth-error-105-2 = Ugyldig bekreftelseskode
 auth-error-110 = Ugyldig token
 auth-error-138-2 = Ubekreftet økt
+# Error shown when the user submits an invalid backup authentication code
+auth-error-156 = Fant ikke reserve-autentiseringskode
 auth-error-159 = Ugyldig kontogjenopprettingsnøkkel
 auth-error-183-2 = Ugyldig eller utløpt bekreftelseskode
 auth-error-214 = Telefonnummeret for gjenoppretting finnes allerede
 auth-error-215 = Telefonnummeret for gjenoppretting finnes ikke
+auth-error-218 = Kan ikke fjerne gjenopprettingstelefonen, mangler reserve-autentiseringskoder.
 auth-error-999 = Uventet feil
 auth-error-1001 = Innloggingsforsøk avbrutt
 auth-error-1002 = Økt utløpt. Logg inn for å fortsette.
 auth-error-1010 = Gyldig passord kreves
+auth-error-1056 = Ugyldig reserve-autentiseringskode
 auth-error-1062 = Ugyldig omdirigering
 
 ## Cannot Create Account page
@@ -1040,6 +1053,13 @@ inline-recovery-key-setup-download-subheader = Last ned og oppbevar den nå
 ## When users are creating an account, they may get pushed to setup 2FA
 ## in this case, they will encounter this page in the signup process (hence calling it "Inline)
 
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+inline-recovery-setup-header-default = Bekreft reserve-autentiseringskoden <span>for å fortsette til kontoinnstillingene</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# $serviceName - the name of the service which is using Mozilla accounts to authenticate
+inline-recovery-setup-header = Lagre reserve-autentiseringskoder <span>for å fortsette til { $serviceName }</span>
 # This button allows a user to copy their recovery codes to their clipboard
 # This button allows the user to cancel setup of two-factor authentication for their account
 inline-recovery-cancel-button = Avbryt
@@ -1049,6 +1069,16 @@ inline-recovery-continue-button = Fortsett
 inline-recovery-confirm-button = Bekreft
 inline-recovery-back-link = Tilbake
 inline-recovery-cancel-setup = Avbryt oppsett
+# Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
+inline-recovery-backup-authentication-code = Reserve-autentiseringskode
+inline-recovery-confirmation-description = Angi en av de lagrede reserve-autentiseringskode for å sikre at du kan få tilgang til kontoen din igjen, hvis du mister en enhet.
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
+inline-recovery-confirmation-header-default = Bekreft reserve-autentiseringskoden <span>for å fortsette til kontoinnstillingene</span>
+# Strings within the <span> elements appear as a subheading.
+# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
+# $serviceName - the name of the service which is using Mozilla accounts to authenticate
+inline-recovery-confirmation-header = Bekreft reserve-autentiseringskoden <span>for å fortsette til { $serviceName }</span>
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1184,6 +1214,7 @@ reset-password-complete-banner-heading = Passordet ditt har blitt tilbakestilt.
 
 # ConfirmBackupCodeResetPassword page
 
+confirm-backup-code-reset-password-subheader = Skriv inn reserve-autentiseringskode
 
 ## Confirm Reset Password With Code
 
@@ -1288,8 +1319,11 @@ signin-recovery-method-send-code-error-description = Prøv igjen senere, eller b
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
 signin-recovery-code-heading = Logg inn
+signin-recovery-code-sub-heading = Skriv inn reserve-autentiseringskode
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Bekreft
+# Error displayed in a tooltip when form is submitted witout a code
+signin-recovery-code-required-error = Reserve-autentiseringskode påkrevd
 
 ## SigninRecoveryPhone page
 
