@@ -411,8 +411,16 @@ postAddRecoveryPhone-how-protect = 此举如何保护您的账户
 postAddRecoveryPhone-how-protect-plaintext = 此举如何保护您的账户：
 postAddRecoveryPhone-enabled-device = 您已从下列位置启用：
 postAddRecoveryPhone-action = 管理账户
+postAddTwoStepAuthentication-subject-v3 = 两步验证已开启
 postAddTwoStepAuthentication-title-2 = 您已开启两步验证
+# After the colon, there is a description of the device that the user used to enable two-step authentication
+postAddTwoStepAuthentication-from-device-v2 = 您已从以下位置请求：
 postAddTwoStepAuthentication-action = 管理账户
+postAddTwoStepAuthentication-code-required-v3 = 从现在起，您每次登录时都将需要使用身份验证应用。
+postAddTwoStepAuthentication-recovery-method-codes = 您已同时将备用验证码添加为恢复方式。
+# Variables:
+#  $maskedPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
+postAddTwoStepAuthentication-recovery-method-phone = 您已同时将 { $maskedPhoneNumber } 添加为恢复电话号码。
 postChangeAccountRecovery-subject = 账户恢复密钥已更改
 postChangeAccountRecovery-title = 您更改了账户恢复密钥
 postChangeAccountRecovery-body-part1 = 您现在有了新的账户恢复密钥，先前的密钥已删除。

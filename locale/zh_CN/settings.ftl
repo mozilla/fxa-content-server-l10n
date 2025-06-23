@@ -126,6 +126,7 @@ signup-new-password-label =
 signup-confirm-password-label =
     .label = 再次输入密码
 signup-submit-button = 创建账户
+post-verify-set-password-submit-button = 开始同步
 form-reset-password-with-balloon-new-password =
     .label = 新密码
 form-reset-password-with-balloon-confirm-password =
@@ -1000,8 +1001,11 @@ tfa-enter-recovery-code-1 =
 
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
+product-promo-monitor-description-v2 = 扫描隐私信息泄露，掌控属于您的秘密
 # Links out to the Monitor site
 product-promo-monitor-cta = 免费扫描
+# Links out to the Monitor pricing site
+product-promo-monitor-special-promo-cta = 获取全年保护
 
 ## Profile section
 
@@ -1521,6 +1525,9 @@ pair-unsupported-message = 您用的是系统相机？配对必须通过 { -bran
 
 # password to complete their sign-in when they want to login to a service requiring it.
 
+set-password-heading-v2 = 创建密码以同步
+# "This" refers to the heading, "Create password to sync"
+set-password-info-v2 = 此密码将用于加密您的数据，请使用不同与 { -brand-google }、{ -brand-apple } 等账户的密码。
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
@@ -1688,6 +1695,7 @@ signin-password-button-label = 密码
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-desktop-relay = { -brand-firefox } 将尝试在您登录后返回原页面，供您使用马甲邮箱。
+signin-code-expired-error = 验证码已过期，请重新登录。
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
@@ -1876,6 +1884,7 @@ confirm-signup-code-instruction-v2 = 请在 5 分钟内输入发送到 <email>{ 
 confirm-signup-code-input-label = 请输入 6 位验证码
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = 确认
+confirm-signup-code-sync-button = 开始同步
 confirm-signup-code-code-expired = 验证码已过期？
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = 重新发送验证码。

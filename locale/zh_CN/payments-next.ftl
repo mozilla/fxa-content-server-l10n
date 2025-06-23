@@ -270,6 +270,7 @@ metadata-description-default = 找不到您请求的页面。
 
 ## Coupon Error Messages
 
+next-coupon-error-cannot-redeem = 无法兑换您输入的兑换码，因为您的账户此前已订阅我们的其中一项服务。
 next-coupon-error-expired = 您输入的折扣码已过期。
 next-coupon-error-generic = 处理折扣码时出错，请重试。
 next-coupon-error-invalid = 您输入的折扣码无效。
