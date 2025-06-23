@@ -103,7 +103,7 @@ datablock-inline-copy =
 device-info-block-location-city-region-country = { $city }, { $region }, { $country } (anslått)
 # Variables { $region }, { $country } represent the estimated location of the user's device
 # For example, 'British Columbia, Canada (estimated)'
-device-info-block-location-region-country = { $city }, { $country } (anslått)
+device-info-block-location-region-country = { $region }, { $country } (anslått)
 # Variables { $city }, { $country } represent the estimated location of the user's device
 # For example, 'Vancouver, Canada (estimated)'
 device-info-block-location-city-country = { $city }, { $country } (anslått)
@@ -117,7 +117,7 @@ device-info-block-location-unknown = Ukjent plassering
 device-info-browser-os = { $browserName } på { $genericOSName }
 # Variable { $ipAddress } represents the IP address where the request originated
 # The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
-device-info-ip-address = IP-adresse: { $ip-address }
+device-info-ip-address = IP-adresse: { $ipAddress }
 
 ## FormPasswordWithBalloons
 
@@ -1220,7 +1220,21 @@ inline-totp-setup-continue-button = Fortsett
 inline-totp-setup-add-security-link = Legg til et ekstra sikkerhetslag til kontoen din ved å kreve sikkerhetskoder fra en av <authenticationAppsLink>disse godkjenningsappene</authenticationAppsLink>.
 #  The <enable2StepDefaultSpan> elements are just visual separation here
 inline-totp-setup-enable-two-step-authentication-default-header-2 = Aktiver totrinns-verifisering <span>for å fortsette til kontoinnstillingene</span>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
+inline-totp-setup-enable-two-step-authentication-custom-header-2 = Aktiver totrinns-verifisering <span>for å fortsette til { $serviceName }</span>
 inline-totp-setup-ready-button = Klar
+# The authentication code a user is scanning is a QR code.
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-custom-service-header-2 = Skann autentiseringskoden <span>for å fortsette til { $serviceName }</span>
+# { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-custom-service-header-2 = Skriv inn koden manuelt <span>for å fortsette til { $serviceName }</span>
+# The authentication code a user is scanning is a QR code.
+# The <scanAuthHeaderSpan> elements are just visual separation
+inline-totp-setup-show-qr-default-service-header-2 = Skann autentiseringskoden <span>for å fortsette til kontoinnstillingene</span>
+# The <enterCodeManuallyHeaderSpan> elements are just visual separation
+inline-totp-setup-no-qr-default-service-header-2 = Skriv inn koden manuelt <span>for å fortsette til kontoinnstillingene</span>
+# The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
+inline-totp-setup-enter-key-or-use-qr-instructions = Skriv inn denne hemmelige nøkkelen i autentiseringsappen din. <toggleToQRButton>Skanne QR-koden i stedet?</toggleToQRButton>
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = Autentiseringskode
 # The "authentication code" here refers to the code provided by an authentication app.
