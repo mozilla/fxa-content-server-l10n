@@ -1167,6 +1167,7 @@ auth-error-214 = Telefonnummeret for gjenoppretting finnes allerede
 auth-error-215 = Telefonnummeret for gjenoppretting finnes ikke
 auth-error-216 = Grensen for tekstmeldinger er nådd
 auth-error-218 = Kan ikke fjerne gjenopprettingstelefonen, mangler reserve-autentiseringskoder.
+auth-error-219 = Dette telefonnummeret er registrert med for mange kontoer. Prøv et annet nummer.
 auth-error-999 = Uventet feil
 auth-error-1001 = Innloggingsforsøk avbrutt
 auth-error-1002 = Økt utløpt. Logg inn for å fortsette.
@@ -1174,11 +1175,22 @@ auth-error-1003 = Lokal lagring eller infokapsler er fortsatt slått av
 auth-error-1008 = Ditt nye passord må være forskjellig
 auth-error-1010 = Gyldig passord kreves
 auth-error-1011 = Gyldig e-postadresse er nødvendig
+auth-error-1018 = Bekreftelsesmeldingen kom i retur. Feilstavet e-postadresse?
+auth-error-1020 = Feilstavet e-postadresse? firefox.com er ikke en gyldig e-posttjeneste
 auth-error-1031 = Du må oppgi alder for å registrere deg
 auth-error-1032 = Du må skrive inn en gyldig alder for å registrere deg
 auth-error-1054 = Feil totrinns-autentiseringskode
 auth-error-1056 = Ugyldig reserve-autentiseringskode
 auth-error-1062 = Ugyldig omdirigering
+# Shown when a user tries to sign up with an email address with a domain that doesn't receive emails
+auth-error-1064 = Feilstavet e-postadresse? { $domain } er ikke en gyldig e-posttjeneste
+auth-error-1066 = E-postaliaser kan ikke brukes til å opprette en konto.
+auth-error-1067 = Feilskreven e-postadresse?
+# Displayed when we want to reference a user's previously set up recovery phone
+# number, but they are not completely signed in yet. We'll only show the last 4 digits.
+# Variables:
+#  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
+recovery-phone-number-ending-digits = Nummer som slutter på { $lastFourPhoneNumber }
 oauth-error-1000 = Noe gikk galt. Lukk denne fanen og prøv på nytt.
 
 ## Cannot Create Account page
@@ -1203,14 +1215,23 @@ connect-another-device-signin-to-complete-message = Logg inn på denne { -brand-
 connect-another-device-signin-link = Logg inn
 # A message prompting the user to sign in via a different device than the current one so as to complete the device-syncing process
 connect-another-device-still-adding-devices-message = Vil du fortsatt legge til enheter? Logg inn på { -brand-firefox } på en annen enhet for å fullføre oppsettet
+# A message prompting the user to sign in via a different device than the current one so as to complete the device-syncing process
+connect-another-device-signin-another-device-to-complete-message = Logg inn på { -brand-firefox } på en annen enhet for å fullføre oppsettet.
+# This message is a value-proposition prompting the user to sync another device so as to get tabs, bookmarks, and passwords shared between devices
+connect-another-device-get-data-on-another-device-message = Vil du ha fanene, bokmerkene og passordene dine på en annen enhet?
 # This link leads the user back to the `/pair` page so as to connect another device
 connect-another-device-cad-link = Koble til en annen enhet
 # This link cancels the process of connecting another device, and takes the user back to Account Settings
 connect-another-device-not-now-link = Ikke nå
+# This is a message for Firefox Android users, prompting them to complete the process of connecting another device by signing into Firefox for Android
+connect-another-device-android-complete-setup-message = Logg inn på { -brand-firefox } for Android for å fullføre oppsettet.
+# This is a message for Firefox iOS users, prompting them to complete the process of connecting another device by signing into Firefox for iOS
+connect-another-device-ios-complete-setup-message = Logg inn på { -brand-firefox } for iOS for å fullføre oppsettet.
 
 ## Cookies disabled page
 ## Users will see this page if they have local storage or cookies disabled.
 
+cookies-disabled-header = Lokal lagring og infokapsler er påkrevd
 cookies-disabled-enable-prompt-2 = Slå på infokapsler og lokal lagring i nettleseren din for å få tilgang til din { -product-mozilla-account }. Dette vil aktivere funksjonalitet som for eksempel å huske deg mellom økter.
 # A button users may click to check if cookies and local storage are enabled and be directed to the previous page if so.
 cookies-disabled-button-try-again = Prøv igjen
@@ -1219,6 +1240,9 @@ cookies-disabled-learn-more = Les mer
 
 ## Index / home page
 
+index-header = Skriv inn e-postadressen din
+index-sync-header = Fortsett til din { -product-mozilla-account }
+index-sync-subheader = Synkroniser passordene, fanene og bokmerkene dine overalt hvor du bruker { -brand-firefox }.
 index-relay-header = Opprett en e-postalias
 index-relay-subheader = Oppgi e-postadressen du vil videresende e-poster til fra den maskerte e-postadressen din.
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
@@ -1226,6 +1250,9 @@ index-subheader-with-servicename = Fortsett til { $serviceName }
 index-subheader-with-logo = Fortsett til <span>{ $serviceLogo }</span>
 index-subheader-default = Fortsett til kontoinnstillingene
 index-cta = Registrer deg eller logg inn
+index-account-info = En { -product-mozilla-account } gir også tilgang til flere personvernbeskyttende produkter fra { -brand-mozilla }.
+index-email-input =
+    .label = Skriv inn e-postadressen din
 # When users delete their Mozilla account inside account Settings, they are redirected to this page with a success message
 index-account-delete-success = Kontoen er nå slettet
 # Displayed when users try to sign up for an account and their confirmation code email bounces
@@ -1233,9 +1260,12 @@ index-email-bounced = Bekreftelsesmeldingen kom i retur. Feilstavet e-postadress
 
 ## InlineRecoveryKeySetup page component
 
+inline-recovery-key-setup-create-error = Beklager! Vi kunne ikke opprette kontogjenopprettingsnøkkelen din. Prøv på nytt senere.
 inline-recovery-key-setup-recovery-created = Kontogjenopprettingsnøkkel opprettet
 inline-recovery-key-setup-download-header = Sikre kontoen din
 inline-recovery-key-setup-download-subheader = Last ned og oppbevar den nå
+inline-recovery-key-setup-download-info = Oppbevar denne nøkkelen et sted du husker — du vil ikke kunne komme tilbake til denne siden senere.
+inline-recovery-key-setup-hint-header = Sikkerhetsanbefaling
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
@@ -1248,6 +1278,8 @@ inline-recovery-setup-header-default = Bekreft reserve-autentiseringskoden <span
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-setup-header = Lagre reserve-autentiseringskoder <span>for å fortsette til { $serviceName }</span>
+# Message refers to the recovery codes depicted below in the view
+inline-recovery-setup-message = Lagre disse engangskoder på et trygt sted, i tilfelle du mister tilgang til mobilenheten din.
 # This button allows a user to copy their recovery codes to their clipboard
 # This button allows the user to cancel setup of two-factor authentication for their account
 inline-recovery-cancel-button = Avbryt
@@ -1267,6 +1299,7 @@ inline-recovery-confirmation-header-default = Bekreft reserve-autentiseringskode
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = Bekreft reserve-autentiseringskoden <span>for å fortsette til { $serviceName }</span>
+inline-recovery-2fa-enabled-v2 = Totrinns-verifisering er aktivert
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1363,6 +1396,9 @@ auth-totp-code-required-error = Autentiseringskode kreves
 ## Users see this page when they have started to pair a second (or more) device to their account
 ## The pairing must be approved from both devices to succeed
 
+# The "other device" is non-specific and could be a desktop computer, laptop, tablet, mobile phone, etc.
+# Strings within the <span> elements appear as a subheading.
+pair-wait-for-supp-heading-text = Godkjenning kreves nå <span>fra den andre enheten din</span>
 
 ## PairFailure - a view which displays on failure of the device pairing process
 
@@ -1431,6 +1467,7 @@ third-party-auth-callback-message = Vent litt, du blir omdirigert til det autori
 ## AccountRecoveryConfirmKey page
 
 account-recovery-confirm-key-heading = Skriv inn kontogjenopprettingsnøkkelen din
+account-recovery-confirm-key-instruction = Denne nøkkelen gjenoppretter krypterte nettleserdata, for eksempel passord og bokmerker, fra { -brand-firefox }-servere.
 # Prompts the user to enter their account recovery key
 # Account recovery key contains a mix of letters and numbers, no special characters
 account-recovery-confirm-key-input-label =
@@ -1538,13 +1575,23 @@ reset-password-recovery-phone-invalid-code-error-description = Koden er ugyldig 
 reset-password-recovery-phone-invalid-code-error-link = Bruk reserve-autentiseringskoder i stedet?
 reset-password-with-recovery-key-verified-page-title = Passordet er tilbakestilt
 reset-password-complete-new-password-saved = Nytt passord lagret!
+reset-password-complete-recovery-key-created = Ny kontogjenopprettingsnøkkel er opprettet. Last ned og oppbevar den nå.
+reset-password-complete-recovery-key-download-info =
+    Denne nøkkelen er viktig for
+    datagjenoppretting hvis du glemmer passordet ditt. <b>Last ned og lagre den sikkert
+    nå, da du ikke vil kunne få tilgang til denne siden igjen senere.</b>
 
 ## CompleteSignin component
 
 # This is a label that precedes any error which could arise from trying to validate the user's signin
 error-label = Feil:
+# This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
+validating-signin = Validerer innlogging …
 # Shown above an error banner (e.g., invalid confirmation code, unexpected error)
 complete-signin-error-header = Bekreftelsesfeil
+# The user followed a signin confirmation link, but that link is expired and no longer valid
+signin-link-expired-header = Bekreftelseslenken er utløpt
+signin-link-expired-message-2 = Lenken du klikket på er utløpt eller har allerede blitt brukt.
 
 ## Signin page
 
@@ -1751,3 +1798,4 @@ signup-change-email-link = Endre e-postadresse
 ## SignupConfirmedSync page
 ## Shown to users when they finish confirming their account through Sync
 
+signup-confirmed-sync-manage-sync-button = Behandle synkronisering

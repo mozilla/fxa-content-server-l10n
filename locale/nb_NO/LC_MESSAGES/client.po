@@ -1482,7 +1482,7 @@ msgstr "Opprett konto"
 
 #: .es5/templates/support.mustache:1 .es5/templates/partial/brand-messaging.mustache:1
 msgid "Mozilla m logo"
-msgstr ""
+msgstr "Mozilla m-logo"
 
 #: .es5/templates/support.mustache:2
 msgid "Mozilla account"
@@ -1638,7 +1638,7 @@ msgstr "Skriv inn bekreftelseskode"
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:5
 msgid "Please enter the confirmation code that was sent to %(escapedEmail)s within 5 minutes."
-msgstr ""
+msgstr "Skriv inn bekreftelseskoden som ble sendt til %(escapedEmail)s, innen 5 minutt."
 
 #: .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:8
 msgid "Need another code? Resend"
