@@ -1026,7 +1026,7 @@ msgstr "Trykk på lenken som er sendt til %(email)s innen en time, for å lage e
 
 #: .es5/templates/confirm_signup_code.mustache:1
 msgid "Enter confirmation code <span class=\"card-subheader\" id=\"subheader\"> for your Mozilla account</span>"
-msgstr ""
+msgstr "Skriv inn bekreftelseskoden <span class=\"card-subheader\" id=\"subheader\"> for Mozilla-kontoen din</span>"
 
 #: .es5/templates/confirm_signup_code.mustache:2
 msgid "Enter the code that was sent to %(escapedEmail)s within 5 minutes."
@@ -1159,7 +1159,7 @@ msgstr "Registrer deg eller logg inn"
 
 #: .es5/templates/index.mustache:14
 msgid "A Mozilla account also unlocks access to more privacy-protecting products from Mozilla."
-msgstr ""
+msgstr "En Mozilla-konto gir også tilgang til flere personvernbeskyttende produkter fra Mozilla."
 
 #: .es5/templates/index.mustache:16
 msgid ""
@@ -1343,6 +1343,8 @@ msgid ""
 "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
 "data with your password to protect your privacy. You’ll still keep any subscriptions you may have and Pocket data will not be affected."
 msgstr ""
+"<span>MERK:</span> Når du tilbakestiller passordet ditt, tilbakestiller du kontoen din. Du kan miste noen av dine personlige opplysninger (inkludert historikk, bokmerker og passord). Det er fordi vi"
+" krypterer dataene dine med passordet ditt for å beskytte ditt personvern. Du beholder eventuelle abonnementer du måtte ha, og Pocket-data vil ikke bli påvirket."
 
 #: .es5/templates/reset_password.mustache:5 .es5/templates/partial/email-autocomplete-domains.mustache:1
 msgid "Email"

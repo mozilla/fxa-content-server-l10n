@@ -874,6 +874,7 @@ recent-activity-account-recovery-codes-created = Gjenopprettingskoder opprettet
 recent-activity-account-recovery-codes-signin-complete = Innlogging med gjenopprettingskoder fullført
 recent-activity-password-reset-otp-sent = Bekreftelseskode for tilbakestilling av passord sendt
 recent-activity-password-reset-otp-verified = Bekreftelseskode for tilbakestilling av passord bekreftet
+recent-activity-must-reset-password = Tilbakestilling av passord kreves
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = Annen kontoaktivitet
 
@@ -903,6 +904,7 @@ settings-recovery-phone-remove-success = Gjenopprettingstelefonen er fjernet
 
 page-setup-recovery-phone-heading = Legg til gjenopprettingstelefon
 page-change-recovery-phone = Endre gjenopprettingstelefon
+page-setup-recovery-phone-back-button-title = Tilbake til innstillinger
 # Back arrow to return to step 1 of recovery phone setup flow
 page-setup-recovery-phone-step2-back-button-title = Endre telefonnummer
 
@@ -944,6 +946,8 @@ verify-secondary-email-success-alert-2 = { $email } lagt til
 
 # Link to delete account on main Settings page
 delete-account-link = Slett kontoen
+# Success message displayed in alert bar after the user has successfully confirmed their account is not inactive.
+inactive-update-status-success-alert = Innlogget. { -product-mozilla-account }-en og dataene dine vil forbli aktive.
 
 ## Two Step Authentication
 
@@ -954,6 +958,7 @@ tfa-step-3-3 = Trinn 3 av 3
 tfa-button-continue = Fortsett
 tfa-button-cancel = Avbryt
 tfa-button-finish = Fullfør
+tfa-cannot-retrieve-code = Det oppstod et problem med å hente koden din.
 tfa-cannot-verify-code-4 = Det oppstod et problem med å bekrefte reserve-autentiseringskoden din
 tfa-incorrect-recovery-code-1 = Feil reserve-autentiseringskode
 tfa-enabled-v2 = Totrinns-verifisering er aktivert
@@ -1141,16 +1146,26 @@ tfa-row-button-refresh =
 # "this" refers to two-step authentication
 # Link goes to https://support.mozilla.org/kb/secure-mozilla-account-two-step-authentication
 tfa-row-enabled-info-link = Slik beskytter dette kontoen din
+tfa-row-disable-modal-heading = Slå av totrinns-verifisering
 tfa-row-disable-modal-confirm = Slå av
 tfa-row-disable-modal-explain-1 = Du kan ikke angre denne handlingen. Du har også muligheten til å <linkExternal>erstatte reserve-autentiseringskodene dine</linkExternal>.
+# Shown in an alert bar after two-step authentication is disabled
+tfa-row-disabled-2 = Totrinns-verifisering deaktivert
+tfa-row-cannot-disable-2 = Totrinns-verifisering kunne ikke deaktiveres
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
 
+# This message is followed by a bulleted list
+terms-privacy-agreement-intro-2 = Ved å fortsette godtar du:
+# links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-pocket-2 = { -product-pocket } <pocketTos>Tjenestevilkår</pocketTos> og <pocketPrivacy>personvernerklæring</pocketPrivacy>
 # link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-monitor-3 = { -brand-mozilla } Abonnementstjenester <mozSubscriptionTosLink>tjenestevilkår</mozSubscriptionTosLink> og <mozSubscriptionPrivacyLink>personvernerklæring</mozSubscriptionPrivacyLink>
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-mozilla = { -product-mozilla-accounts(capitalization: "uppercase") } <mozillaAccountsTos>tjenestevilkår</mozillaAccountsTos> og <mozillaAccountsPrivacy>personvernerklæring</mozillaAccountsPrivacy>
+# links to Mozilla Account's Terms of Service and Privacy Notice
+terms-privacy-agreement-default-2 = Ved å fortsette godtar du <mozillaAccountsTos>tjenestevilkårene</mozillaAccountsTos> og <mozillaAccountsPrivacy>personvernerklæringen</mozillaAccountsPrivacy>.
 
 ## ThirdPartyAuth component
 ## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
@@ -1528,7 +1543,12 @@ complete-reset-password-desktop-relay = { -brand-firefox } vil prøve å sende d
 
 # ConfirmBackupCodeResetPassword page
 
+confirm-backup-code-reset-password-input-label = Skriv inn kode på 10 tegn
+confirm-backup-code-reset-password-confirm-button = Bekreft
 confirm-backup-code-reset-password-subheader = Skriv inn reserve-autentiseringskode
+confirm-backup-code-reset-password-instruction = Skriv inn en av engangskodene du lagret da du konfigurerte totrinns-verifisering.
+# Link out to support article: https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+confirm-backup-code-reset-password-locked-out-link = Er du utestengt?
 
 ## Confirm Reset Password With Code
 
@@ -1587,6 +1607,9 @@ password-reset-recovery-method-send-code-error-description = Prøv igjen senere,
 reset-password-recovery-phone-flow-heading = Tilbakestill passord
 # A recovery code in context of this page is a one time code sent to the user's phone
 reset-password-recovery-phone-heading = Oppgi gjenopprettingskode
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+reset-password-recovery-phone-instruction-v3 = En 6-sifret kode ble sendt til telefonnummeret som slutter på <span>{ $lastFourPhoneDigits }</span> via tekstmelding. Denne koden utløper etter 5 minutter. Ikke del denne koden med noen.
 reset-password-recovery-phone-input-label = Skriv inn 6-sifret kode
 reset-password-recovery-phone-code-submit-button = Bekreft
 reset-password-recovery-phone-resend-code-button = Send koden på nytt
@@ -1635,6 +1658,10 @@ signin-header = Logg inn
 signin-use-a-different-account-link = Bruk en annen konto
 signin-forgot-password-link = Glemt passord?
 signin-password-button-label = Passord
+# Message to user after they were redirected to the Mozilla account sign-in page in a new browser
+# tab. Firefox will attempt to send the user back to their original tab to use an email mask after
+# they successfully sign in or sign up for a Mozilla account to receive a free email mask.
+signin-desktop-relay = { -brand-firefox } vil prøve å sende deg tilbake til å bruke et e-postalias etter at du har logget inn.
 signin-code-expired-error = Koden er utløpt. Logg inn på nytt.
 
 ## ReportSignin Page
@@ -1642,13 +1669,24 @@ signin-code-expired-error = Koden er utløpt. Logg inn på nytt.
 ## they can click "report it to us" if they did not attempt to sign in.
 ## This will be the page shown to users to block the sign in and report it.
 
+report-signin-link-damaged-body = Lenken du klikket på mangler noen tegn, og kan ha blitt forandret av e-postklienten. Sjekk at du kopierte riktig, og prøv igjen.
+report-signin-header = Rapporter uautorisert innlogging?
+report-signin-body = Du har fått e-post om forsøk på å få tilgang til kontoen din. Vil du rapportere denne aktiviteten som mistenkelig?
 report-signin-submit-button = Rapporter aktivitet
 report-signin-support-link = Hvorfor skjer dette?
+report-signin-error = Beklager, det oppsto et problem under innsending av rapporten.
+signin-bounced-header = Beklager. Vi har låst kontoen din.
+# $email (string) - The user's email.
+signin-bounced-message = Bekreftelsesmeldingen vi sendte til { $email } ble returnert, og vi har låst kontoen din for å beskytte dataene dine i { -brand-firefox }.
+# linkExternal is button which logs the user's action and navigates them to mozilla support
+signin-bounced-help = Om dette er en gyldig e-postadresse, <linkExternal>la oss få vite det</linkExternal> slik at vi kan hjelpe deg med å låse opp kontoen din.
+signin-bounced-create-new-account = Har du ikke lenger denne e-postadressen? Lag en ny konto
 back = Tilbake
 
 ## SigninPushCode page
 ## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
 
+signin-push-code-heading-w-default-service = Bekreft denne påloggingen <span>for å fortsette til kontoinnstillingene</span>
 signin-push-code-did-not-recieve = Har du ikke mottatt varselet?
 signin-push-code-send-email-link = E-postkode
 
@@ -1748,6 +1786,9 @@ signin-token-code-required-error = Bekreftelseskode kreves
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
+signin-totp-code-header = Logg inn
+signin-totp-code-subheader-v2 = Skriv inn totrinns-autentiseringskode
+signin-totp-code-instruction-v4 = Sjekk <strong>autentiseringsappen</strong> din for å bekrefte innloggingen din.
 signin-totp-code-input-label-v4 = Skriv inn 6-sifret kode
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = Bekreft
@@ -1771,6 +1812,7 @@ signin-unblock-submit-button = Fortsett
 # Shown when the user attempts to submit the form without including a code
 signin-unblock-code-required-error = Godkjenningskode kreves
 signin-unblock-code-incorrect-length = Autorisasjonskoden må inneholde 8 tegn
+signin-unblock-code-incorrect-format-2 = Autorisasjonskoden kan bare inneholde bokstaver og/eller tall
 signin-unblock-resend-code-button = Ikke i innboks eller mappen for uønsket e-post (spam)? Send på nytt
 signin-unblock-support-link = Hvorfor skjer dette?
 # Message to user after they were redirected to the Mozilla account sign-in page in a new browser
@@ -1813,6 +1855,7 @@ confirm-signup-code-desktop-relay = { -brand-firefox } vil prøve å sende deg t
 signup-heading-v2 = Opprett et passord
 signup-relay-info = Et passord er nødvendig for å administrere e-postalias på en sikker måte og få tilgang til sikkerhetsverktøyene til { -brand-mozilla }.
 signup-sync-info = Synkroniser passordene, bokmerkene og mer overalt hvor du bruker { -brand-firefox }.
+signup-sync-info-with-payments = Synkroniser passordene, betalingsmetoder, bokmerkene og mer overalt hvor du bruker { -brand-firefox }.
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = Hvorfor må jeg opprette denne kontoen?
 # Link included in a dismissible info banner that is only displayed to Pocket clients
@@ -1824,4 +1867,12 @@ signup-change-email-link = Endre e-postadresse
 ## SignupConfirmedSync page
 ## Shown to users when they finish confirming their account through Sync
 
+signup-confirmed-sync-header = Synkronisering er slått på
+signup-confirmed-sync-success-banner = { -product-mozilla-account } bekreftet
+signup-confirmed-sync-button = Begynn å surfe
+# Shown when payment methods are also synced
+signup-confirmed-sync-description-with-payment-v2 = Passordene dine, betalingsmetodene, adressene, bokmerkene, historikken din og mer kan synkroniseres overalt hvor du bruker { -brand-firefox }.
+signup-confirmed-sync-description-v2 = Passordene, adressene, bokmerkene, historikken og mer kan synkroniseres overalt hvor du bruker { -brand-firefox }.
+signup-confirmed-sync-add-device-link = Legg til en annen enhet
 signup-confirmed-sync-manage-sync-button = Behandle synkronisering
+signup-confirmed-sync-set-password-success-banner = Synkroniseringspassord opprettet

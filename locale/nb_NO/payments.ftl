@@ -462,6 +462,7 @@ sub-item-cancel-confirm =
 # Cybersecurity Awareness Month 2023 coupon applied: $11.20 + $0.35 tax
 # Summer Promo VPN coupon applied: $11.20
 sub-promo-coupon-applied = { $promotion_name }-kupong brukt: <priceDetails></priceDetails>
+subscription-management-account-credit-balance = Denne abonnementsbetalingen resulterte i en kreditering av kontosaldoen din: <priceDetails></priceDetails>
 
 ## Routes - Subscription
 
@@ -484,6 +485,8 @@ sub-customer-error =
 sub-invoice-error =
     .title = Problemer med å laste inn fakturaer
 sub-billing-update-success = Faktureringsinformasjonen din er oppdatert
+sub-invoice-previews-error-title = Problem med å laste inn forhåndsvisninger av fakturaer
+sub-invoice-previews-error-text = Kunne ikke laste inn forhåndsvisninger av fakturaer
 
 ## Routes - Subscription - ActionButton
 
@@ -496,6 +499,8 @@ pay-update-manage-btn = Behandle
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Neste fakturering den { $date }
+sub-next-bill-no-tax-1 = Neste regning på { $priceAmount } forfaller { $date }
+sub-next-bill-tax-1 = Neste regning på { $priceAmount } + { $taxAmount } moms forfaller { $date }
 sub-expires-on = Utløper { $date }
 
 ## Routes - Subscription - PaymentUpdate
