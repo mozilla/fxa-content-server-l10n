@@ -392,6 +392,7 @@ passwordResetWithRecoveryKeyPrompt-description = Egueru jey ne ñe’ẽñemi { 
 passwordResetWithRecoveryKeyPrompt-action = Emoheñói mba’ete mba’eñemi guerujeyrã
 # colon is followed by a link to create an account recovery key from the account settings page
 passwordResetWithRecoveryKeyPrompt-action-txt = Emoheñói mba’ete mba’eñemi gueru jeyrã
+passwordResetWithRecoveryKeyPrompt-cta-description = Eikejeyva’erã opaite mba’e’oka ñembojoajupyrépe. Ereko ne ayvukuéra tekorosãme mba’ete ñe’ẽñemi guerujeyrã ndive. Kóva omoneĩta erujey hag̃ua ne mba’ekuaarã nde resaráirõ ne ñe’ẽñemígui.
 postAddAccountRecovery-subject-3 = Mba’eñemi pyahu mba’ete guerujeyrã heñóima
 postAddAccountRecovery-title2 = Emoheñói mba’eñemi jeguerujeyrã pyahu
 # Key here refers to account recovery key
@@ -415,6 +416,7 @@ postAddRecoveryPhone-how-protect = Mba’éicha omo’ãta ne mba’ete
 postAddRecoveryPhone-how-protect-plaintext = Mba’éicha omo’ãta ne mba’ete:
 postAddRecoveryPhone-enabled-device = Embojuruja upe guive:
 postAddRecoveryPhone-action = Mba’ete ñangareko
+postAddTwoStepAuthentication-subject-v3 = Ñemoneĩ mokõi jeku’egua hendýma
 postAddTwoStepAuthentication-title-2 = Embojuruja ñemoneĩ mokõi jeku’egua
 postAddTwoStepAuthentication-action = Mba’ete ñangareko
 postChangeAccountRecovery-subject = Mba’eñemi guerujeyrã oñemoambuéma
