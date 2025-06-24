@@ -81,7 +81,7 @@ next-payment-confirm-checkbox-error = Πρέπει να ολοκληρώσετε
 
 ## Checkout Form
 
-next-new-user-submit = Συνδρομή τώρα
+next-new-user-submit = Εγγραφή τώρα
 next-payment-validate-name-error = Εισαγάγετε το ονοματεπώνυμό σας
 next-pay-with-heading-paypal = Πληρωμή με { -brand-paypal }
 # Label for the Full Name input

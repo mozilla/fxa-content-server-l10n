@@ -388,7 +388,7 @@ coupon-success-repeating = Το πρόγραμμά σας θα ανανεωθε�
 
 new-user-step-1-2 = 1. Δημιουργήστε έναν { -product-mozilla-account(case: "acc", capitalization: "lower") }
 new-user-card-title = Εισαγάγετε τα στοιχεία της κάρτας σας
-new-user-submit = Συνδρομή τώρα
+new-user-submit = Εγγραφή τώρα
 
 ## Routes - Product and Subscriptions
 
