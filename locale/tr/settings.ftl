@@ -1695,6 +1695,7 @@ signin-password-button-label = Parola
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-desktop-relay = { -brand-firefox }, giriş yaptıktan sonra sizi e-posta maskesi kullanmaya yönlendirecektir.
+signin-code-expired-error = Kodun süresi doldu. Lütfen yeniden giriş yapın.
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
@@ -1887,6 +1888,7 @@ confirm-signup-code-instruction-v2 = <email>{ $email }</email> adresine gönderd
 confirm-signup-code-input-label = 6 basamaklı kodu girin
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = Onayla
+confirm-signup-code-sync-button = Eşitlemeyi başlat
 confirm-signup-code-code-expired = Kodun süresi mi doldu?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = E-posta ile yeni kod gönder.
@@ -1901,7 +1903,10 @@ confirm-signup-code-desktop-relay = { -brand-firefox }, giriş yaptıktan sonra 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
+signup-heading-v2 = Parola oluşturun
 signup-relay-info = Maskeli e-postalarınızı güvenli bir şekilde yönetmek ve { -brand-mozilla }’nın güvenlik araçlarına erişmek için bir parolaya ihtiyacınız var.
+signup-sync-info = { -brand-firefox }’u kullandığınız her yerde parolalarınızı, yer imlerinizi ve daha fazlasını eşitleyin.
+signup-sync-info-with-payments = { -brand-firefox }’u kullandığınız her yerde parolalarınızı, ödeme yöntemlerinizi, yer imlerinizi ve daha fazlasını eşitleyin.
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = Neden bu hesabı oluşturmam gerekiyor?
 # Link included in a dismissible info banner that is only displayed to Pocket clients
@@ -1916,5 +1921,9 @@ signup-change-email-link = E-postayı değiştir
 signup-confirmed-sync-header = Eşitleme açıldı
 signup-confirmed-sync-success-banner = { -product-mozilla-account } onaylandı
 signup-confirmed-sync-button = Gezinmeye başla
+# Shown when payment methods are also synced
+signup-confirmed-sync-description-with-payment-v2 = Parolalarınız, ödeme yöntemleriniz, adresleriniz, yer imleriniz, geçmişiniz ve diğer bilgileriniz { -brand-firefox } kullandığınız her yerde eşitlenebilir.
+signup-confirmed-sync-description-v2 = Parolalarınız, adresleriniz, yer imleriniz, geçmişiniz ve diğer bilgileriniz { -brand-firefox } kullandığınız her yerde eşitlenebilir.
 signup-confirmed-sync-add-device-link = Başka bir cihaz ekle
 signup-confirmed-sync-manage-sync-button = Eşitlemeyi yönet
+signup-confirmed-sync-set-password-success-banner = Sync parolası oluşturuldu
