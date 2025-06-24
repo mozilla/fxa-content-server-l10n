@@ -160,6 +160,9 @@ automated-email-reset =
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext-v2 = Om du ikkje godkjende denne handlinga, må du stille tilbake passordet ditt no på { $resetLink }
+# This message is used by multiple automated emails that notify users of security events on their account
+# "this action" is meant to be a generic term, and could, for example, refer to using a backup authentication code to confirm a password reset
+automated-email-reset-pwd-two-factor = { "" }
 # Followed by link to https://accounts.firefox.com/reset_password
 automated-email-reset-pwd-plaintext-v3 = Om du ikkje utførte dette, kan du tilbakestille passordet ditt med ein gong på:
 # Followed by link to https://accounts.firefox.com/settings#two-step-authentication
