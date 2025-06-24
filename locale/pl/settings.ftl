@@ -276,6 +276,8 @@ backup-recovery-phone-image-aria-label =
     .aria-label = Telefon z możliwością wysyłania i odbierania wiadomości SMS
 backup-authentication-codes-image-aria-label =
     .aria-label = Ekran urządzenia z kodami
+sync-clouds-image-aria-label =
+    .aria-label = Chmury z ikoną synchronizacji
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -1919,7 +1921,9 @@ confirm-signup-code-desktop-relay = { -brand-firefox } po zalogowaniu spróbuje 
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
+signup-heading-v2 = Utwórz hasło
 signup-relay-info = Hasło jest potrzebne do bezpiecznego zarządzania zamaskowanymi adresami e-mail i do dostępu do narzędzi bezpieczeństwa { -brand-mozilla(case: "gen") }.
+signup-sync-info = Synchronizuj hasła, zakładki i nie tylko wszędzie tam, gdzie używasz { -brand-firefox(case: "acc") }.
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = Dlaczego muszę założyć to konto?
 # Link included in a dismissible info banner that is only displayed to Pocket clients
@@ -1931,3 +1935,4 @@ signup-change-email-link = Zmień adres e-mail
 ## SignupConfirmedSync page
 ## Shown to users when they finish confirming their account through Sync
 
+signup-confirmed-sync-header = Synchronizacja jest włączona
