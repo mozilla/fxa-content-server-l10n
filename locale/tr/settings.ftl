@@ -126,6 +126,7 @@ signup-new-password-label =
 signup-confirm-password-label =
     .label = Parola tekrarı
 signup-submit-button = Hesap oluştur
+post-verify-set-password-submit-button = Eşitlemeyi başlat
 form-reset-password-with-balloon-new-password =
     .label = Yeni parola
 form-reset-password-with-balloon-confirm-password =
@@ -998,8 +999,11 @@ tfa-enter-recovery-code-1 =
 
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
+product-promo-monitor-description-v2 = Kişisel bilgilerinizin nerede ele geçirildiğini öğrenin
 # Links out to the Monitor site
 product-promo-monitor-cta = Ücretsiz taramayı başlat
+# Links out to the Monitor pricing site
+product-promo-monitor-special-promo-cta = Yıl boyunca korumaya kavuşun
 
 ## Profile section
 
@@ -1519,6 +1523,7 @@ pair-unsupported-message = Sistem kamerasını mı kullandınız? Bir { -brand-f
 
 # password to complete their sign-in when they want to login to a service requiring it.
 
+set-password-heading-v2 = Eşitleme için parola oluşturun
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.

@@ -415,6 +415,7 @@ postAddRecoveryPhone-how-protect = İki aşamalı kimlik doğrulama, hesabınız
 postAddRecoveryPhone-how-protect-plaintext = İki aşamalı kimlik doğrulama, hesabınızı nasıl korur?
 postAddRecoveryPhone-enabled-device = Bu cihazdan etkinleştirdiniz:
 postAddRecoveryPhone-action = Hesabı yönet
+postAddTwoStepAuthentication-subject-v3 = İki aşamalı doğrulama açık
 postAddTwoStepAuthentication-title-2 = İki aşamalı doğrulamayı açtınız
 postAddTwoStepAuthentication-action = Hesabı yönet
 postChangeAccountRecovery-subject = Hesap kurtarma anahtarı değiştirildi
