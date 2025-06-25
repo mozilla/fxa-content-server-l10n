@@ -126,6 +126,7 @@ signup-new-password-label =
 signup-confirm-password-label =
     .label = Ripet password
 signup-submit-button = Cree un account
+post-verify-set-password-submit-button = Scomence la sincronizazion
 form-reset-password-with-balloon-new-password =
     .label = Gnove password
 form-reset-password-with-balloon-confirm-password =
@@ -276,6 +277,8 @@ backup-recovery-phone-image-aria-label =
     .aria-label = Dispositîf mobil cun funzionalitâts SMS
 backup-authentication-codes-image-aria-label =
     .aria-label = Schermi dal dispositîf cun codiçs
+sync-clouds-image-aria-label =
+    .aria-label = Nui cuntune icone di sincronizazion
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -1005,8 +1008,15 @@ tfa-enter-recovery-code-1 =
 
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
+product-promo-monitor-description-v2 = Scuvierç dulà che a vegnin metudis fûr lis tôs informazions personâls e torne cjape il control
+# this message will only be shown to users eligible for a special promotion, based on their location (initially USA only)
+# $price - formatted for user locale, in the target market's currency (for launch, always USD)
+# /mo is 'per month'
+product-promo-monitor-special-promo-description = Par { $price }/mês, sparagne su { -product-mozilla-vpn-short }, su la protezion dai brokers di dâts di { -product-mozilla-monitor-short } e su lis mascaris di e-mail ilimitadis di { -product-firefox-relay-short }.
 # Links out to the Monitor site
 product-promo-monitor-cta = Oten une scansion gratuite
+# Links out to the Monitor pricing site
+product-promo-monitor-special-promo-cta = Oten protezion par dut l’an
 
 ## Profile section
 
@@ -1534,6 +1544,9 @@ pair-unsupported-message = Âstu doprât la fotocjamare di sisteme? Tu scugnis a
 
 # password to complete their sign-in when they want to login to a service requiring it.
 
+set-password-heading-v2 = Cree une password par sincronizâ
+# "This" refers to the heading, "Create password to sync"
+set-password-info-v2 = Cheste operazion e cifre i tiei dâts. E à di jessi divierse di chê dal to account { -brand-google } o { -brand-apple }.
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
@@ -1710,6 +1723,7 @@ signin-password-button-label = Password
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-desktop-relay = Dopo fat l'acès, { -brand-firefox } al cirarà di tornâ a mandâti ae pagjine par doprâ la mascare di pueste eletroniche.
+signin-code-expired-error = Codiç scjadût. Torne jentre par plasê.
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
@@ -1902,6 +1916,7 @@ confirm-signup-code-instruction-v2 = Inserìs dentri di 5 minûts il codiç che 
 confirm-signup-code-input-label = Inserìs il codiç a 6 cifris
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = Conferme
+confirm-signup-code-sync-button = Scomence la sincronizazion
 confirm-signup-code-code-expired = Codiç scjadût?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Mande e-mail cul gnûf codiç.
@@ -1916,7 +1931,10 @@ confirm-signup-code-desktop-relay = Dopo fat l'acès, { -brand-firefox } al cira
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
+signup-heading-v2 = Cree une password
 signup-relay-info = E covente une password par gjestî in sigurece lis tôs mascaris di pueste e acedi ai struments di sigurece di { -brand-mozilla }.
+signup-sync-info = Sincronize passwords, segnelibris e altri dapardut là che tu dopris { -brand-firefox }.
+signup-sync-info-with-payments = Sincronize passwords, metodis di paiament, segnelibris e altri dapardut là che tu dopris { -brand-firefox }.
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = Parcè scuegnio creâ chest account?
 # Link included in a dismissible info banner that is only displayed to Pocket clients
@@ -1928,3 +1946,10 @@ signup-change-email-link = Cambie e-mail
 ## SignupConfirmedSync page
 ## Shown to users when they finish confirming their account through Sync
 
+signup-confirmed-sync-header = La sincronizazion e je ative
+signup-confirmed-sync-success-banner = { -product-mozilla-account } confermât
+signup-confirmed-sync-button = Scomence a navigâ
+# Shown when payment methods are also synced
+signup-confirmed-sync-description-with-payment-v2 = Al è pussibil sincronizâ passwords, metodis di paiament, direzions, segnelibris, cronologjie e altri dapardut là che tu dopris { -brand-firefox }.
+signup-confirmed-sync-description-v2 = Al è pussibil sincronizâ passwords, direzions, segnelibris, cronologjie e altri dapardut là che tu dopris { -brand-firefox }.
+signup-confirmed-sync-set-password-success-banner = Password di sincronizazion creade
