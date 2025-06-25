@@ -1952,4 +1952,6 @@ signup-confirmed-sync-button = Scomence a navigâ
 # Shown when payment methods are also synced
 signup-confirmed-sync-description-with-payment-v2 = Al è pussibil sincronizâ passwords, metodis di paiament, direzions, segnelibris, cronologjie e altri dapardut là che tu dopris { -brand-firefox }.
 signup-confirmed-sync-description-v2 = Al è pussibil sincronizâ passwords, direzions, segnelibris, cronologjie e altri dapardut là che tu dopris { -brand-firefox }.
+signup-confirmed-sync-add-device-link = Zonte un altri dispositîf
+signup-confirmed-sync-manage-sync-button = Gjestìs sincronizazion
 signup-confirmed-sync-set-password-success-banner = Password di sincronizazion creade
