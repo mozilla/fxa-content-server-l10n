@@ -1679,7 +1679,7 @@ reset-password-recovery-phone-flow-heading = Επαναφορά κωδικού �
 reset-password-recovery-phone-heading = Εισαγάγετε κωδικό ανάκτησης
 # Text that explains the user should check their phone for a recovery code
 # $maskedPhoneNumber - The users masked phone number
-reset-password-recovery-phone-instruction-v3 = Ένας εξαψήφιος κωδικός έχει αποσταλεί στον αριθμό τηλεφώνου που λήγει σε <span>{ $lastFourPhoneDigits }</span> μέσω μηνύματος κειμένου. Αυτός ο κωδικός λήγει μετά από 5 λεπτά. Μη μοιραστείτε αυτόν τον κωδικό με κανέναν.
+reset-password-recovery-phone-instruction-v3 = Ένας εξαψήφιος κωδικός έχει αποσταλεί στον αριθμό τηλεφώνου που λήγει σε <span>{ $lastFourPhoneDigits }</span> μέσω μηνύματος κειμένου. Αυτός ο κωδικός λήγει μετά από 5 λεπτά. Μην μοιραστείτε αυτόν τον κωδικό με κανέναν.
 reset-password-recovery-phone-input-label = Εισαγάγετε τον εξαψήφιο κωδικό
 reset-password-recovery-phone-code-submit-button = Επιβεβαίωση
 reset-password-recovery-phone-resend-code-button = Αποστολή νέου κωδικού
@@ -1824,7 +1824,7 @@ signin-recovery-phone-flow-heading = Σύνδεση
 signin-recovery-phone-heading = Εισαγάγετε τον κωδικό ανάκτησης
 # Text that explains the user should check their phone for a recovery code
 # $maskedPhoneNumber - The users masked phone number
-signin-recovery-phone-instruction-v3 = Ένας εξαψήφιος κωδικός έχει αποσταλεί στον αριθμό τηλεφώνου που λήγει σε <span>{ $lastFourPhoneDigits }</span> μέσω μηνύματος κειμένου. Αυτός ο κωδικός λήγει μετά από 5 λεπτά. Μη μοιραστείτε αυτόν τον κωδικό με κανέναν.
+signin-recovery-phone-instruction-v3 = Ένας εξαψήφιος κωδικός έχει αποσταλεί στον αριθμό τηλεφώνου που λήγει σε <span>{ $lastFourPhoneDigits }</span> μέσω μηνύματος κειμένου. Αυτός ο κωδικός λήγει μετά από 5 λεπτά. Μην μοιραστείτε αυτόν τον κωδικό με κανέναν.
 signin-recovery-phone-input-label = Εισαγάγετε τον εξαψήφιο κωδικό
 signin-recovery-phone-code-submit-button = Επιβεβαίωση
 signin-recovery-phone-resend-code-button = Αποστολή νέου κωδικού
