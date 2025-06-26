@@ -22,6 +22,16 @@ recovery-phone-signin-sms-body = { $code } คือรหัสกู้คื�
 # Messages should be limited to one segment
 # $code  - 6 digit code used to sign in with a recovery phone as backup for two-step authentication
 recovery-phone-signin-sms-short-body = รหัส { -brand-mozilla }: { $code }
+# Message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to sign in with a recovery phone as backup for account password reset
+recovery-phone-reset-password-sms-body = { $code } คือรหัสกู้คืน { -brand-mozilla } ของคุณ ซึ่งจะหมดอายุใน 5 นาที
+# Shorter message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to sign in with a recovery phone as backup for account password reset
+recovery-phone-reset-password-short-body = รหัส { -brand-mozilla }: { $code }
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
@@ -100,6 +110,7 @@ automated-email-support = สำหรับข้อมูลเพิ่มเ
 automated-email-change-plaintext-2 = หากคุณไม่ดำเนินการนี้ ให้เปลี่ยนรหัสผ่านของคุณทันที:
 #  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-support-plaintext = สำหรับข้อมูลเพิ่มเติม ให้ไปที่ฝ่ายช่วยเหลือของ { -brand-mozilla }:
+automated-email-inactive-account = นี่เป็นอีเมลอัตโนมัติ คุณได้รับอีเมลนี้เนื่องจากคุณมี{ -product-mozilla-account } และผ่านไป 2 ปีแล้วนับตั้งแต่คุณลงชื่อเข้าใช้ครั้งล่าสุด
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } สำหรับข้อมูลเพิ่มเติม ให้ไปที่<a data-l10n-name="supportLink">ฝ่ายช่วยเหลือของ { -brand-mozilla }</a>:
 automated-email-no-action-plaintext = นี่เป็นอีเมลที่ส่งแบบอัตโนมัติ ถ้าคุณได้รับอีเมลนี้เนื่องจากความผิดพลาด คุณไม่จำเป็นต้องทำสิ่งใด
@@ -146,6 +157,18 @@ automatedEmailRecoveryKey-more-info-plaintext = สำหรับข้อม�
 automated-email-reset =
     นี่เป็นอีเมลอัตโนมัติ; หากคุณไม่อนุญาตให้ดำเนินการนี้ <a data-l10n-name="resetLink">โปรดตั้งค่ารหัสผ่านของคุณใหม่</a>
     สำหรับข้อมูลเพิ่มเติม โปรดไปที่<a data-l10n-name="supportLink">ฝ่ายสนับสนุนของ { -brand-mozilla }</a>
+# Variables:
+#  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
+automated-email-reset-plaintext-v2 = ถ้าคุณไม่ได้อนุญาตการกระทำนี้ กรุณาตั้งรหัสผ่านของคุณใหม่ที่ { $resetLink }
+# This message is used by multiple automated emails that notify users of security events on their account
+# "this action" is meant to be a generic term, and could, for example, refer to using a backup authentication code to confirm a password reset
+automated-email-reset-pwd-two-factor =
+    ถ้าคุณไม่ได้ทำสิ่งนี้ ให้<a data-l10n-name="resetLink">ตั้งรหัสผ่านของคุณใหม่</a>และ<a data-l10n-name="twoFactorSettingsLink">ตั้งค่าการยืนยันตัวตนสองขั้นตอนใหม่</a>ทันที
+    สำหรับข้อมูลเพิ่มเติม โปรดไปที่<a data-l10n-name="supportLink">ฝ่ายสนับสนุนของ { -brand-mozilla }</a>
+# Followed by link to https://accounts.firefox.com/reset_password
+automated-email-reset-pwd-plaintext-v3 = ถ้าคุณไม่ได้ทำสิ่งนี้ ให้ตั้งรหัสผ่านใหม่ของคุณได้เลยที่:
+# Followed by link to https://accounts.firefox.com/settings#two-step-authentication
+automated-email-reset-two-factor-plaintext = นอกจากนั้น ให้ตั้งค่าการยืนยันตัวตนสองขั้นตอนใหม่ที่:
 brand-banner-message = คุณรู้หรือไม่ว่าเราเปลี่ยนชื่อของเราจาก { -product-firefox-accounts } เป็น { -product-mozilla-accounts } แล้ว? <a data-l10n-name="learnMore">เรียนรู้เพิ่มเติม</a>
 cancellationSurvey = โปรดช่วยเราปรับปรุงบริการของเราโดยทำ<a data-l10n-name="cancellationSurveyUrl">แบบสำรวจสั้น ๆ</a> นี้
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
@@ -207,6 +230,7 @@ subscriptionCharges-content-tax = ภาษีและค่าธรรมเ�
 ##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
 
 subscriptionFirstInvoice-content-charge = เรียกเก็บเงินจำนวน { $invoiceTotal } เมื่อ { $invoiceDateOnly }
+subscriptionFirstInvoice-content-credit = คุณได้รับเครดิตบัญชีจำนวน { $invoiceTotal } ซึ่งจะมีผลกับใบแจ้งหนี้ของคุณในอนาคต
 
 ##
 
@@ -271,7 +295,10 @@ fraudulentAccountDeletion-contact = หากคุณมีคำถามใ�
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = หากคุณมีคำถามใดๆ โปรดติดต่อทีมสนับสนุนของเรา: { $mozillaSupportUrl }
+inactiveAccountFinalWarning-subject = โอกาสสุดท้ายที่จะรักษา{ -product-mozilla-account } ของคุณไว้
+inactiveAccountFinalWarning-title = บัญชี { -brand-mozilla } และข้อมูลของคุณจะถูกลบ
 inactiveAccountFinalWarning-preview = ลงชื่อเข้าใช้เพื่อรักษาบัญชีของคุณ
+inactiveAccountFinalWarning-account-description = { -product-mozilla-account } ของคุณถูกใช้เพื่อเข้าถึงผลิตภัณฑ์ความเป็นส่วนตัวและการเรียกดูฟรี เช่น { -brand-firefox } Sync, { -product-mozilla-monitor }, { -product-firefox-relay } และ { -product-mdn }
 inactiveAccountFinalWarning-action = ลงชื่อเข้าใช้เพื่อรักษาบัญชีของคุณ
 # followed by link to sign in
 inactiveAccountFinalWarning-action-plaintext = ลงชื่อเข้าใช้เพื่อรักษาบัญชีของคุณ:
