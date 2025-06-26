@@ -1029,7 +1029,7 @@ msgstr "Απεστάλη email επαναφοράς"
 
 #: .es5/templates/confirm_reset_password.mustache:2
 msgid "Click the link emailed to %(email)s within the next hour to create a new password."
-msgstr "Κάντε κλικ στο σύνδεσμο που απεστάλη στο %(email)s μέσα στην επόμενη ώρα για να δημιουργήσετε ένα νέο κωδικό πρόσβασης."
+msgstr "Κάντε κλικ στον σύνδεσμο που απεστάλη στο %(email)s εντός της επόμενης ώρας για να δημιουργήσετε έναν νέο κωδικό πρόσβασης."
 
 #: .es5/templates/confirm_signup_code.mustache:1
 msgid "Enter confirmation code <span class=\"card-subheader\" id=\"subheader\"> for your Mozilla account</span>"
