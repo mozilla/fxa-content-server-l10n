@@ -664,6 +664,9 @@ subscriptionUpgrade-upgrade-info-2 = Du har oppgradert til { $productName }.
 ## $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
+subscriptionUpgrade-content-charge-prorated = Du har blitt debiterte eit eingongsgebyr på { $paymentProrated } for å reflektere den høgare prisen på abonnementet ditt for resten av denne faktureringsperioden ({ $productPaymentCycleOld }).
+subscriptionUpgrade-content-charge-credit = Du har fått ein kontokreditt på beløpet { $paymentProrated }.
+subscriptionUpgrade-content-starting = Frå og med den neste fakturaen din vil kostnaden endrast frå { $paymentAmountOld } per { $productPaymentCycleOld } til { $paymentAmountNew } per { $productPaymentCycleNew }.
 subscriptionUpgrade-auto-renew = Abonnementet ditt vert automatisk fornya kvar faktureringsperiode med mindre du vel å avbryte.
 unblockCode-subject = Godkjenningskode for konto
 unblockCode-title = Er det du som loggar inn?
