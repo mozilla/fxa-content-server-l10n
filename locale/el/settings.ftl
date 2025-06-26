@@ -516,7 +516,7 @@ cs-disconnect-sync-heading = Αποσύνδεση από το Sync
 
 cs-disconnect-sync-content-3 =
     Τα δεδομένα περιήγησής σας θα παραμείνουν στο <span>{ $device }</span>,
-    αλλά δε θα συγχρονίζονται πλέον με τον λογαριασμό σας.
+    αλλά δεν θα συγχρονίζονται πλέον με τον λογαριασμό σας.
 cs-disconnect-sync-reason-3 = Ποιος είναι ο κύριος λόγος για την αποσύνδεση του <span>{ $device }</span>;
 
 ## The following are the options for selecting a reason for disconnecting the
