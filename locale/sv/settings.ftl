@@ -82,30 +82,6 @@ choose-newsletters-option-test-pilot =
 choose-newsletters-option-reclaim-the-internet =
     .label = Åtgärdsvarningar för att återta internet
 
-## ChooseWhatToSync component
-## Checklist of services/information that can be synced across signed in devices
-
-# Prompt above a checklist of services/information (e.g., passwords, bookmarks, etc.)
-# That users can choose to sync
-choose-what-to-sync-prompt-2 = Välj vad som ska synkroniseras
-choose-what-to-sync-option-bookmarks =
-    .label = Bokmärken
-choose-what-to-sync-option-history =
-    .label = Historik
-choose-what-to-sync-option-passwords =
-    .label = Lösenord
-choose-what-to-sync-option-addons =
-    .label = Tillägg
-# Refers to 'tabs that are open', not the action
-choose-what-to-sync-option-tabs =
-    .label = Öppna flikar
-choose-what-to-sync-option-prefs =
-    .label = Inställningar
-choose-what-to-sync-option-addresses =
-    .label = Adresser
-choose-what-to-sync-option-paymentmethods =
-    .label = Betalningsmetoder
-
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
@@ -150,6 +126,7 @@ signup-new-password-label =
 signup-confirm-password-label =
     .label = Upprepa lösenord
 signup-submit-button = Skapa konto
+post-verify-set-password-submit-button = Starta synkronisering
 form-reset-password-with-balloon-new-password =
     .label = Nytt lösenord
 form-reset-password-with-balloon-confirm-password =
@@ -670,7 +647,7 @@ flow-setup-2fa-backup-choice-learn-more-link = Läs mer om återställning och r
 flow-setup-2fa-backup-code-confirm-heading = Ange reservautentiseringskod
 # codes here refers to backup authentication codes
 flow-setup-2fa-backup-code-confirm-confirm-saved = Bekräfta att du sparat dina koder genom att ange en. Utan dessa koder kanske du inte kan logga in om du inte har din autentiseringsapp.
-flow-setup-2fa-backup-code-confirm-code-input = Ange en 10-siffrig kod
+flow-setup-2fa-backup-code-confirm-code-input = Ange en kod på 10 tecken
 # Clicking on this button finishes the whole flow upon success.
 flow-setup-2fa-backup-code-confirm-button-finish = Slutför
 
@@ -1037,12 +1014,15 @@ tfa-enter-recovery-code-1 =
 
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
-product-promo-monitor-description = Hitta var din privata information är exponerad — och ta tillbaka den
-product-promo-monitor-plus-description = Integritetsfrågor: Ta reda på var din privata information är exponerad och ta tillbaka den
+product-promo-monitor-description-v2 = Hitta var din privata information exponeras och ta kontrollen
+# this message will only be shown to users eligible for a special promotion, based on their location (initially USA only)
+# $price - formatted for user locale, in the target market's currency (for launch, always USD)
+# /mo is 'per month'
+product-promo-monitor-special-promo-description = För { $price }/månad, spara på { -product-mozilla-vpn-short }, { -product-mozilla-monitor-short }:s datamäklarskydd och { -product-firefox-relay-short }: s obegränsade e-postalias.
 # Links out to the Monitor site
 product-promo-monitor-cta = Få en gratis skanning
 # Links out to the Monitor pricing site
-product-promo-monitor-plus-cta = Kom igång
+product-promo-monitor-special-promo-cta = Få skydd året runt
 
 ## Profile section
 
@@ -1568,10 +1548,13 @@ pair-unsupported-message = Använde du systemkameran? Du måste parkoppla från 
 
 ## SetPassword page
 ## Third party auth users that do not have a password set yet are prompted for a
-## password to complete their sign-in when they want to login to a service requiring it.
 
-set-password-heading = Skapa lösenord
-set-password-info = Din synkroniseringsdata krypteras med ditt lösenord för att skydda din integritet.
+
+# password to complete their sign-in when they want to login to a service requiring it.
+
+set-password-heading-v2 = Skapa lösenord för att synkronisera
+# "This" refers to the heading, "Create password to sync"
+set-password-info-v2 = Detta krypterar din data. Det måste skilja sig från lösenordet för ditt { -brand-google }- eller { -brand-apple }-konto.
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
@@ -1748,6 +1731,7 @@ signin-password-button-label = Lösenord
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-desktop-relay = { -brand-firefox } försöker skicka dig tillbaka för att använda ett e-postalias efter du loggat in.
+signin-code-expired-error = Koden upphörde. Vänligen logga in igen.
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
@@ -1940,6 +1924,7 @@ confirm-signup-code-instruction-v2 = Ange koden som skickades till <email>{ $ema
 confirm-signup-code-input-label = Ange 6-siffrig kod
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = Bekräfta
+confirm-signup-code-sync-button = Starta synkronisering
 confirm-signup-code-code-expired = Har koden upphört?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Mejla ny kod.
@@ -1954,9 +1939,10 @@ confirm-signup-code-desktop-relay = { -brand-firefox } försöker skicka dig til
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
-signup-heading = Ställ in ditt lösenord
+signup-heading-v2 = Skapa ett lösenord
 signup-relay-info = Ett lösenord behövs för att säkert hantera dina maskerade e-postmeddelanden och komma åt { -brand-mozilla }:s säkerhetsverktyg.
-signup-heading-relay = Skapa ett lösenord
+signup-sync-info = Synkronisera dina lösenord, bokmärken och mer överallt där du använder { -brand-firefox }.
+signup-sync-info-with-payments = Synkronisera dina lösenord, betalningsmetoder, bokmärken och mer överallt där du använder { -brand-firefox }.
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = Varför måste jag skapa det här kontot?
 # Link included in a dismissible info banner that is only displayed to Pocket clients
@@ -1972,7 +1958,8 @@ signup-confirmed-sync-header = Synkronisering är aktiverad
 signup-confirmed-sync-success-banner = { -product-mozilla-account } har bekräftats
 signup-confirmed-sync-button = Börja surfa
 # Shown when payment methods are also synced
-signup-confirmed-sync-description-with-payment = Dina lösenord, betalningsmetoder, adresser, bokmärken, historik och mer kan synkroniseras överallt där du använder { -product-firefox }.
-signup-confirmed-sync-description = Dina lösenord, adresser, bokmärken, historik och mer kan synkroniseras överallt där du använder { -product-firefox }.
+signup-confirmed-sync-description-with-payment-v2 = Dina lösenord, betalningsmetoder, adresser, bokmärken, historik och mer kan synkroniseras överallt där du använder { -brand-firefox }.
+signup-confirmed-sync-description-v2 = Dina lösenord, adresser, bokmärken, historik och mer kan synkroniseras överallt där du använder { -brand-firefox }.
 signup-confirmed-sync-add-device-link = Lägg till en annan enhet
 signup-confirmed-sync-manage-sync-button = Hantera synkronisering
+signup-confirmed-sync-set-password-success-banner = Synkroniseringslösenord skapat

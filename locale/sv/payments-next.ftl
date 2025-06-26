@@ -270,6 +270,7 @@ metadata-description-default = Sidan du begärde hittades inte.
 
 ## Coupon Error Messages
 
+next-coupon-error-cannot-redeem = Koden du angav kan inte lösas in — ditt konto har ett tidigare abonnemang på någon av våra tjänster.
 next-coupon-error-expired = Koden du angav har upphört.
 next-coupon-error-generic = Ett fel uppstod vid bearbetning av koden. Försök igen.
 next-coupon-error-invalid = Koden du angav är ogiltig.
