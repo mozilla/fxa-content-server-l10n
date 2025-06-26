@@ -436,6 +436,7 @@ sub-update-new-plan-daily = { $productName } (kvar dag)
 sub-update-new-plan-weekly = { $productName } (kvar veke)
 sub-update-new-plan-monthly = { $productName } (kvar månad)
 sub-update-new-plan-yearly = { $productName } (kvart år)
+sub-update-prorated-upgrade-credit = Negativ saldo som vest vist vil bli kreditert kontoen din og brukt til framtidige fakturaer.
 
 ## Routes - Subscriptions - Cancel
 
