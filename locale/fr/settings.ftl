@@ -339,9 +339,9 @@ link-expired-new-link-button = Recevoir un nouveau lien
 ## LinkRememberPassword component
 
 # immediately before remember-password-signin-link
-remember-password-text = Se souvenir de votre mot de passe ?
+remember-password-text = Vous vous souvenez de votre mot de passe ?
 # link navigates to the sign in page
-remember-password-signin-link = Connexion
+remember-password-signin-link = Connectez-vous
 
 ## LinkUsed component
 
