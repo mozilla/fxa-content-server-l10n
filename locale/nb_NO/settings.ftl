@@ -104,6 +104,11 @@ datablock-download-success =
         [one] Kode lastet ned
        *[other] Koder lastet ned
     }
+datablock-print-success =
+    { $count ->
+        [one] Kode skrevet ut
+       *[other] Koder skrevet ut
+    }
 
 ##
 
