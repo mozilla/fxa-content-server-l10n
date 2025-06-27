@@ -94,6 +94,24 @@ datablock-print =
 ## Success banners for datablock actions.
 ## $count – number of codes
 
+datablock-copy-success =
+    { $count ->
+        [one] Kód zkopírován
+        [few] Kódy zkopírovány
+       *[other] Kódy zkopírovány
+    }
+datablock-download-success =
+    { $count ->
+        [one] Kód byl stažen
+        [few] Kódy staženy
+       *[other] Kódy staženy
+    }
+datablock-print-success =
+    { $count ->
+        [one] Kód vytištěn
+        [few] Kódy vytištěny
+       *[other] Kódy vytištěny
+    }
 
 ##
 
@@ -634,6 +652,7 @@ flow-setup-2fa-more-info-link = Zjistit více o autentizačních aplikacích
 flow-setup-2fa-button = Pokračovat
 flow-setup-2fa-step-2-instruction = <strong>Krok 2:</strong>Zadejte kód z vaší ověřovací aplikace.
 flow-setup-2fa-input-label = Zadejte šestimístný kód
+flow-setup-2fa-code-error = Neplatný nebo starý kód. Zkontrolujte ověřovací aplikaci a zkuste to znovu.
 
 ## The step to choose the two step authentication method in the two step
 ## authentication setup flow.
@@ -763,6 +782,11 @@ tfa-enter-code-to-confirm-v2 =
 
 ## PageSetupRecoveryPhone
 
+page-2fa-setup-title = Dvoufázové ověřování
+page-2fa-setup-totpinfo-error = Při nastavování dvoufázového ověřování došlo k chybě. Zkuste to znovu později.
+# code here refers to "backup authentication code"
+page-2fa-setup-incorrect-backup-code-error = Tento kód není správný. Zkuste to znovu.
+page-2fa-setup-success = Bylo povoleno dvoufázové ověřování
 
 ## Avatar change page
 
@@ -1206,6 +1230,7 @@ tfa-row-disable-modal-explain-1 =
 # Shown in an alert bar after two-step authentication is disabled
 tfa-row-disabled-2 = Dvoufázové ověřování je vypnuto
 tfa-row-cannot-disable-2 = Dvoufázové ověřování se nepodařilo vypnout
+tfa-row-disable-cannot-verify-session = Omlouváme se, nastal problém s potvrzením vaší relace
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account

@@ -94,6 +94,21 @@ datablock-print =
 ## Success banners for datablock actions.
 ## $count – number of codes
 
+datablock-copy-success =
+    { $count ->
+        [one] Kód másolva
+       *[other] Kódok másolva
+    }
+datablock-download-success =
+    { $count ->
+        [one] Kód letöltve
+       *[other] Kódok letöltve
+    }
+datablock-print-success =
+    { $count ->
+        [one] Kód kinyomtatva
+       *[other] Kódok kinyomtatva
+    }
 
 ##
 
@@ -636,6 +651,7 @@ flow-setup-2fa-more-info-link = Tudjon meg többet a hitelesítő alkalmazásokr
 flow-setup-2fa-button = Folytatás
 flow-setup-2fa-step-2-instruction = <strong>2. lépés:</strong> Adja meg a hitelesítő alkalmazásból származó kódot.
 flow-setup-2fa-input-label = Adja meg a 6 számjegyű kódot
+flow-setup-2fa-code-error = Érvénytelen vagy lejárt kód. Ellenőrizze a hitelesítő alkalmazást, és próbálja újra.
 
 ## The step to choose the two step authentication method in the two step
 ## authentication setup flow.
@@ -763,6 +779,11 @@ tfa-enter-code-to-confirm-v2 = Adja meg az egyik új tartalék hitelesítési k�
 
 ## PageSetupRecoveryPhone
 
+page-2fa-setup-title = Kétlépcsős hitelesítés
+page-2fa-setup-totpinfo-error = Hiba történt a kétlépcsős hitelesítés beállításakor. Próbálja újra később.
+# code here refers to "backup authentication code"
+page-2fa-setup-incorrect-backup-code-error = Ez a kód nem helyes. Próbálja újra.
+page-2fa-setup-success = A kétlépcsős hitelesítés engedélyezve lett
 
 ## Avatar change page
 
@@ -1213,6 +1234,7 @@ tfa-row-disable-modal-explain-1 =
 # Shown in an alert bar after two-step authentication is disabled
 tfa-row-disabled-2 = Kétlépcsős hitelesítés letiltva
 tfa-row-cannot-disable-2 = A kétlépcsős hitelesítést nem lehetett letiltani
+tfa-row-disable-cannot-verify-session = Sajnos probléma merült fel a munkamenet megerősítésekor
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account

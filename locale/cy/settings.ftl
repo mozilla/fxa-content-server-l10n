@@ -94,6 +94,33 @@ datablock-print =
 ## Success banners for datablock actions.
 ## $count – number of codes
 
+datablock-copy-success =
+    { $count ->
+        [zero] Codau wedi eu copïo
+        [one] Cod wedi'i gopïo
+        [two] Codau wedi eu copïo
+        [few] Codau wedi eu copïo
+        [many] Codau wedi eu copïo
+       *[other] Codau wedi eu copïo
+    }
+datablock-download-success =
+    { $count ->
+        [zero] Codau wedi'u llwytho i lawr
+        [one] Cod wedi'i lawrlwytho
+        [two] Codau wedi'u llwytho i lawr
+        [few] Codau wedi'u llwytho i lawr
+        [many] Codau wedi'u llwytho i lawr
+       *[other] Codau wedi'u llwytho i lawr
+    }
+datablock-print-success =
+    { $count ->
+        [zero] Codau wedi'u hargraffu
+        [one] Cod wedi'i argraffu
+        [two] Codau wedi'u hargraffu
+        [few] Codau wedi'u hargraffu
+        [many] Codau wedi'u hargraffu
+       *[other] Codau wedi'u hargraffu
+    }
 
 ##
 
@@ -630,6 +657,7 @@ flow-setup-2fa-more-info-link = Dysgwch fwy am apiau dilysu
 flow-setup-2fa-button = Parhau
 flow-setup-2fa-step-2-instruction = <strong>Cam 2:</strong>Rhowch y cod o'ch ap dilysu.
 flow-setup-2fa-input-label = Rhowch y cod 6 digid
+flow-setup-2fa-code-error = Cod annilys neu wedi dod i ben. Gwiriwch eich app dilysu a rhowch gynnig arall arni.
 
 ## The step to choose the two step authentication method in the two step
 ## authentication setup flow.
@@ -757,6 +785,11 @@ tfa-enter-code-to-confirm-v2 = Rhowch un o'ch codau dilysu wrth gefn newydd i ga
 
 ## PageSetupRecoveryPhone
 
+page-2fa-setup-title = Dilysu dau gam
+page-2fa-setup-totpinfo-error = Bu gwall wrth sefydlu dilysiad dau gam. Ceisiwch eto yn nes ymlaen.
+# code here refers to "backup authentication code"
+page-2fa-setup-incorrect-backup-code-error = Nid yw'r cod hwnnw'n gywir. Ceisiwch eto.
+page-2fa-setup-success = Mae dilysu dau gam wedi'i alluogi
 
 ## Avatar change page
 
@@ -1209,6 +1242,7 @@ tfa-row-disable-modal-explain-1 =
 # Shown in an alert bar after two-step authentication is disabled
 tfa-row-disabled-2 = Mae dilysu dau gam wedi ei analluogi
 tfa-row-cannot-disable-2 = Nid oedd modd analluogi dilysu dau gam.
+tfa-row-disable-cannot-verify-session = Ymddiheuriadau, bu anhawster wrth gadarnhau eich sesiwn
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account

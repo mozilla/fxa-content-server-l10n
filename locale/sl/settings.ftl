@@ -94,6 +94,27 @@ datablock-print =
 ## Success banners for datablock actions.
 ## $count – number of codes
 
+datablock-copy-success =
+    { $count ->
+        [one] Koda kopirana
+        [two] Kode kopirane
+        [few] Kode kopirane
+       *[other] Kode kopirane
+    }
+datablock-download-success =
+    { $count ->
+        [one] Koda prenesena
+        [two] Kode prenesene
+        [few] Kode prenesene
+       *[other] Kode prenesene
+    }
+datablock-print-success =
+    { $count ->
+        [one] Koda natisnjena
+        [two] Kode natisnjene
+        [few] Kode natisnjene
+       *[other] Kode natisnjene
+    }
 
 ##
 
@@ -632,6 +653,7 @@ flow-setup-2fa-more-info-link = Preberite več o aplikacijah za overitev
 flow-setup-2fa-button = Nadaljuj
 flow-setup-2fa-step-2-instruction = <strong>2. korak:</strong> Vnesite kodo iz aplikacije za overitev.
 flow-setup-2fa-input-label = Vnesite 6-mestno kodo
+flow-setup-2fa-code-error = Neveljavna ali pretečena koda. Preverite aplikacijo za overitev in poskusite znova.
 
 ## The step to choose the two step authentication method in the two step
 ## authentication setup flow.
@@ -759,6 +781,11 @@ tfa-enter-code-to-confirm-v2 = Vnesite eno izmed novih rezervnih overitvenih kod
 
 ## PageSetupRecoveryPhone
 
+page-2fa-setup-title = Overitev v dveh korakih
+page-2fa-setup-totpinfo-error = Pri nastavljanju overjanja v dveh korakih je prišlo do napake. Poskusite znova pozneje.
+# code here refers to "backup authentication code"
+page-2fa-setup-incorrect-backup-code-error = Ta koda ni pravilna. Poskusite znova.
+page-2fa-setup-success = Overitev v dveh korakih je omogočena
 
 ## Avatar change page
 
@@ -1211,6 +1238,7 @@ tfa-row-disable-modal-explain-1 =
 # Shown in an alert bar after two-step authentication is disabled
 tfa-row-disabled-2 = Overitev v dveh korakih je onemogočena
 tfa-row-cannot-disable-2 = Overitve v dveh korakih ni bilo mogoče izključiti
+tfa-row-disable-cannot-verify-session = Oprostite, prišlo je do težave pri potrjevanju vaše seje
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account

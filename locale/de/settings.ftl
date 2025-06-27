@@ -94,6 +94,21 @@ datablock-print =
 ## Success banners for datablock actions.
 ## $count – number of codes
 
+datablock-copy-success =
+    { $count ->
+        [one] Code kopiert
+       *[other] Codes kopiert
+    }
+datablock-download-success =
+    { $count ->
+        [one] Code heruntergeladen
+       *[other] Heruntergeladene Codes
+    }
+datablock-print-success =
+    { $count ->
+        [one] Code gedruckt
+       *[other] Codes gedruckt
+    }
 
 ##
 
@@ -630,6 +645,7 @@ flow-setup-2fa-more-info-link = Weitere Informationen über Authentifizierungs-A
 flow-setup-2fa-button = Weiter
 flow-setup-2fa-step-2-instruction = <strong>Schritt 2:</strong> Geben Sie den Code aus Ihrer Authentifizierungs-App ein.
 flow-setup-2fa-input-label = 6-stelligen Code eingeben
+flow-setup-2fa-code-error = Ungültiger oder abgelaufener Code. Überprüfen Sie Ihre Authentifizierungs-App und versuchen Sie es erneut.
 
 ## The step to choose the two step authentication method in the two step
 ## authentication setup flow.
@@ -757,6 +773,11 @@ tfa-enter-code-to-confirm-v2 = Bitte geben Sie einen Ihrer neuen Sicherungs-Auth
 
 ## PageSetupRecoveryPhone
 
+page-2fa-setup-title = Zwei-Schritt-Authentifizierung
+page-2fa-setup-totpinfo-error = Beim Einrichten der Zwei-Schritt-Authentifizierung ist ein Fehler aufgetreten. Versuchen Sie es später erneut.
+# code here refers to "backup authentication code"
+page-2fa-setup-incorrect-backup-code-error = Dieser Code ist nicht korrekt. Erneut versuchen
+page-2fa-setup-success = Zwei-Schritt-Authentifizierung wurde aktiviert
 
 ## Avatar change page
 
@@ -1205,6 +1226,7 @@ tfa-row-disable-modal-explain-1 =
 # Shown in an alert bar after two-step authentication is disabled
 tfa-row-disabled-2 = Zwei-Schritt-Authentifizierung deaktiviert
 tfa-row-cannot-disable-2 = Zwei-Schritt-Authentifizierung konnte nicht deaktiviert werden.
+tfa-row-disable-cannot-verify-session = Beim Bestätigen Ihrer Sitzung ist ein Fehler aufgetreten.
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
