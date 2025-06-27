@@ -94,6 +94,27 @@ datablock-print =
 ## Success banners for datablock actions.
 ## $count – number of codes
 
+datablock-copy-success =
+    { $count ->
+        [one] { $count } kod kopěrowany
+        [two] { $count } kodaj kopěrowanej
+        [few] { $count } kody kopěrowane
+       *[other] { $count } kodow kopěrowane
+    }
+datablock-download-success =
+    { $count ->
+        [one] { $count } kod sćehnjeny
+        [two] { $count } kodaj sćehnjenej
+        [few] { $count } kody sćehnjene
+       *[other] { $count } kodow sćehnjene
+    }
+datablock-print-success =
+    { $count ->
+        [one] { $count } kod wućišćany
+        [two] { $count } kodaj wućišćanej
+        [few] { $count } kody wućišćane
+       *[other] { $count } kodow wućišćane
+    }
 
 ##
 
@@ -632,6 +653,7 @@ flow-setup-2fa-more-info-link = Zhońće wjace wo nałoženjach awtentifikacije
 flow-setup-2fa-button = Dale
 flow-setup-2fa-step-2-instruction = <strong>Krok 2:</strong> Zapodajće kod ze swojeho nałoženja awtentifikacije.
 flow-setup-2fa-input-label = Zapodajće 6-městnowy kod
+flow-setup-2fa-code-error = Njepłaćiwy abo spadnjeny kod. Přepruwujće swoje awtentifikaciske nałoženje a spytajće hišće raz.
 
 ## The step to choose the two step authentication method in the two step
 ## authentication setup flow.
@@ -761,6 +783,11 @@ tfa-enter-code-to-confirm-v2 =
 
 ## PageSetupRecoveryPhone
 
+page-2fa-setup-title = Dwukročelowa awtentifikacija
+page-2fa-setup-totpinfo-error = Při konfiguraciji dwukročeloweje awtentifikacije je zmylk nastał.
+# code here refers to "backup authentication code"
+page-2fa-setup-incorrect-backup-code-error = Tón kod korektny njeje. Spytajće hišće raz.
+page-2fa-setup-success = Dwukročelowa awtentifikacija je zmóžnjena
 
 ## Avatar change page
 
@@ -1211,6 +1238,7 @@ tfa-row-disable-modal-explain-1 =
 # Shown in an alert bar after two-step authentication is disabled
 tfa-row-disabled-2 = Dwukročelowa awtentifikacija znjemóžnjena
 tfa-row-cannot-disable-2 = Dwukročelowa awtentifikacija njeda so znjemóžnić
+tfa-row-disable-cannot-verify-session = Bohužel je při přepruwowanju wašeho posedźenja problem nastał
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
