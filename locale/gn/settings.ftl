@@ -94,6 +94,11 @@ datablock-print =
 ## Success banners for datablock actions.
 ## $count – number of codes
 
+datablock-copy-success =
+    { $count ->
+        [one] Ayvu monguatiapyre
+       *[other] Ayvukuéra monguatiapyre
+    }
 
 ##
 
