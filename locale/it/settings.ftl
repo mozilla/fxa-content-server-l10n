@@ -771,7 +771,7 @@ tfa-enter-code-to-confirm-v2 = Inserire uno dei nuovi codici di autenticazione d
 page-2fa-setup-title = Autenticazione in due passaggi
 page-2fa-setup-totpinfo-error = Si è verificato un errore durante la configurazione dell’autenticazione in due passaggi. Riprova più tardi.
 # code here refers to "backup authentication code"
-page-2fa-setup-incorrect-backup-code-error = Questo codice non è corretto. Riprova.
+page-2fa-setup-incorrect-backup-code-error = Il codice non è corretto. Riprova.
 page-2fa-setup-success = L’autenticazione in due passaggi è stata attivata
 
 ## Avatar change page
