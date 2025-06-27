@@ -2,6 +2,21 @@
 
 session-verify-send-push-title-2 = Уваходзіце ў { -product-mozilla-account }?
 session-verify-send-push-body-2 = Націсніце тут, каб пацвердзіць, што гэта вы
+# Message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to verify phone ownership when registering a recovery phone
+recovery-phone-setup-sms-body = { $code } — гэта ваш код пацверджання { -brand-mozilla }. Тэрмін дзеяння мінае праз 5 хвілін.
+# Shorter message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to verify phone ownership when registering a recovery phone
+recovery-phone-setup-sms-short-body = Код пацверджання { -brand-mozilla }: { $code }
+# Shorter message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to sign in with a recovery phone as backup for two-step authentication
+recovery-phone-signin-sms-short-body = Код { -brand-mozilla }: { $code }
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
@@ -240,6 +255,9 @@ fraudulentAccountDeletion-contact = Калі ў вас ёсць пытанні, 
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Калі ў вас ёсць пытанні, звярніцеся да нашай каманды падтрымкі: { $mozillaSupportUrl }
 inactiveAccountFinalWarning-preview = Увайдзіце ў свой уліковы запіс, каб захаваць яго
+inactiveAccountFirstWarning-action = Увайдзіце ў свой уліковы запіс, каб захаваць яго
+inactiveAccountSecondWarning-action = Увайдзіце ў свой уліковы запіс, каб захаваць яго
+inactiveAccountSecondWarning-preview = Увайдзіце ў свой уліковы запіс, каб захаваць яго
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title-zero = У вас скончыліся рэзервовыя коды аўтэнтыфікацыі!
 codes-reminder-title-one = Вы выкарыстоўваеце апошні рэзервовы код аўтэнтыфікацыі
@@ -260,6 +278,7 @@ lowRecoveryCodes-subject-2 =
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = Новы ўваход у { $clientName }
+newDeviceLogin-subjectForMozillaAccount = Новы ўваход у ваш { -product-mozilla-account }
 newDeviceLogin-title-3 = Ваш { -product-mozilla-account } быў выкарыстаны для ўваходу
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
