@@ -764,6 +764,9 @@ tfa-enter-code-to-confirm-v2 = Ikatúpiko, ehai peteĩva umi ayvu ñemoneĩrã p
 
 page-2fa-setup-title = Ñemoneĩ mokõi jeku’épe
 page-2fa-setup-totpinfo-error = Oiko jejavy embohekokuévo ñemoneĩ mokõi jeku’egua. Eha’ãjey ag̃amieve.
+# code here refers to "backup authentication code"
+page-2fa-setup-incorrect-backup-code-error = Pe ayvu naiporãi. Eha’ãjey ag̃amieve.
+page-2fa-setup-success = Oñembojurujáma ñemoneĩ mokõi jeku’egua
 
 ## Avatar change page
 
@@ -1211,6 +1214,7 @@ tfa-row-disable-modal-explain-1 =
 # Shown in an alert bar after two-step authentication is disabled
 tfa-row-disabled-2 = Ojepe’áma ñemoneĩ mokõi jeku’egua
 tfa-row-cannot-disable-2 = Ñemoneĩrigui mokõi jeku’egua ndaikatúi eipe’a
+tfa-row-disable-cannot-verify-session = Cheñerõmi, oiko apañuái guasu emoneĩjeývo tembiapo
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
