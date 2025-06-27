@@ -421,10 +421,10 @@ postAddRecoveryPhone-action = Rheoli cyfrif
 postAddTwoStepAuthentication-subject-v3 = Mae dilysu dau gam ymlaen
 postAddTwoStepAuthentication-title-2 = Rydych chi wedi troi dilysu dau gam ymlaen
 # After the colon, there is a description of the device that the user used to enable two-step authentication
-postAddTwoStepAuthentication-from-device-v2 = Fe wnaethoch chi ofyn am hyn oddi wrth:
+postAddTwoStepAuthentication-from-device-v2 = Rydych wedi gofyn am hyn oddi wrth:
 postAddTwoStepAuthentication-action = Rheoli cyfrif
 postAddTwoStepAuthentication-code-required-v3 = Nawr mae angen i chi ddefnyddio'ch ap dilysu bob tro y byddwch chi'n mewngofnodi.
-postAddTwoStepAuthentication-recovery-method-codes = Fe wnaethoch chi hefyd ychwanegu codau dilysu wrth gefn fel eich dull adfer.
+postAddTwoStepAuthentication-recovery-method-codes = Rydych chi hefyd wedi ychwanegu codau dilysu wrth gefn fel eich dull adfer.
 # Variables:
 #  $maskedPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
 postAddTwoStepAuthentication-recovery-method-phone = Rydych hefyd wedi ychwanegu { $maskedPhoneNumber } fel eich rhif ffôn adfer.
