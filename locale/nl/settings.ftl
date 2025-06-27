@@ -94,6 +94,21 @@ datablock-print =
 ## Success banners for datablock actions.
 ## $count – number of codes
 
+datablock-copy-success =
+    { $count ->
+        [one] Code gekopieerd
+       *[other] Codes gekopieerd
+    }
+datablock-download-success =
+    { $count ->
+        [one] Code gedownload
+       *[other] Codes gedownload
+    }
+datablock-print-success =
+    { $count ->
+        [one] Code afgedrukt
+       *[other] Codes afgedrukt
+    }
 
 ##
 
@@ -632,6 +647,7 @@ flow-setup-2fa-more-info-link = Meer info over authenticator-apps
 flow-setup-2fa-button = Doorgaan
 flow-setup-2fa-step-2-instruction = <strong>Stap 2:</strong> voer de code van uw authenticator-app in.
 flow-setup-2fa-input-label = Voer 6-cijferige code in
+flow-setup-2fa-code-error = Ongeldige of verlopen code. Controleer uw authenticator-app en probeer het opnieuw.
 
 ## The step to choose the two step authentication method in the two step
 ## authentication setup flow.
@@ -761,6 +777,11 @@ tfa-enter-code-to-confirm-v2 =
 
 ## PageSetupRecoveryPhone
 
+page-2fa-setup-title = Authenticatie in twee stappen
+page-2fa-setup-totpinfo-error = Er is een fout opgetreden bij het instellen van authenticatie in twee stappen. Probeer het later opnieuw.
+# code here refers to "backup authentication code"
+page-2fa-setup-incorrect-backup-code-error = Die code is niet juist. Probeer het opnieuw.
+page-2fa-setup-success = Authenticatie in twee stappen is ingeschakeld
 
 ## Avatar change page
 
@@ -1213,6 +1234,7 @@ tfa-row-disable-modal-explain-1 =
 # Shown in an alert bar after two-step authentication is disabled
 tfa-row-disabled-2 = Authenticatie in twee stappen uitgeschakeld
 tfa-row-cannot-disable-2 = Authenticatie in twee stappen kon niet worden uitgeschakeld
+tfa-row-disable-cannot-verify-session = Sorry, er is een probleem opgetreden bij het bevestigen van uw sessie
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
