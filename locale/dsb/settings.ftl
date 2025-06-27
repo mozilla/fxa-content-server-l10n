@@ -94,6 +94,27 @@ datablock-print =
 ## Success banners for datablock actions.
 ## $count – number of codes
 
+datablock-copy-success =
+    { $count ->
+        [one] { $count } kod kopěrowany
+        [two] { $count } koda kopěrowanej
+        [few] { $count } kody kopěrowane
+       *[other] { $count } kody kopěrowane
+    }
+datablock-download-success =
+    { $count ->
+        [one] { $count } kod ześěgnjony
+        [two] { $count } koda ześěgnjonej
+        [few] { $count } kody ześěgnjone
+       *[other] { $count } kody ześěgnjone
+    }
+datablock-print-success =
+    { $count ->
+        [one] { $count } kod wuśišćany
+        [two] { $count } koda wuśišćanej
+        [few] { $count } kody wuśišćane
+       *[other] { $count } kody wuśišćane
+    }
 
 ##
 
@@ -632,6 +653,7 @@ flow-setup-2fa-more-info-link = Zgóńśo wěcej wó nałoženjach awtentifikaci
 flow-setup-2fa-button = Dalej
 flow-setup-2fa-step-2-instruction = <strong>Kšac 2:</strong> Zapódajśo kod ze swójogo nałoženja awtentifikacije.
 flow-setup-2fa-input-label = 6-městnowy kod zapódaś
+flow-setup-2fa-code-error = Njepłaśiwy abo spadnjony kod. Pśeglědujśo swóje nałoženje awtentifikacije a wopytajśo hyšći raz.
 
 ## The step to choose the two step authentication method in the two step
 ## authentication setup flow.
@@ -761,6 +783,11 @@ tfa-enter-code-to-confirm-v2 =
 
 ## PageSetupRecoveryPhone
 
+page-2fa-setup-title = Dwójokšacowa awtentifikacija
+page-2fa-setup-totpinfo-error = Pśi konfiguraciji dwójokšacoweje awtentifikacije jo zmólka nastała.
+# code here refers to "backup authentication code"
+page-2fa-setup-incorrect-backup-code-error = Ten kod njejo korektny. Wopytajśo hyšći raz.
+page-2fa-setup-success = Dwójokšacowa awtentifikacija jo se zmóžniła
 
 ## Avatar change page
 
@@ -1209,6 +1236,7 @@ tfa-row-disable-modal-explain-1 =
 # Shown in an alert bar after two-step authentication is disabled
 tfa-row-disabled-2 = Dwójokšacowa awtentifikacija jo se znjemóžniła
 tfa-row-cannot-disable-2 = Dwójokšacowa awtentifikacija njedajo se znjemóžniś
+tfa-row-disable-cannot-verify-session = Bóžko jo bastał problem pśi wobkšuśenju pósejźenja
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
