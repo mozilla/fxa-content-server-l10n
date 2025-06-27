@@ -639,9 +639,15 @@ flow-setup-2fa-backup-choice-learn-more-link = Learn about recovery and SIM swap
 flow-setup-2fa-backup-code-confirm-heading = Enter backup authentication code
 # codes here refers to backup authentication codes
 flow-setup-2fa-backup-code-confirm-confirm-saved = Confirm you saved your codes by entering one. Without these codes, you might not be able to sign in if you don’t have your authenticator app.
+flow-setup-2fa-backup-code-confirm-code-input = Enter 10-character code
+# Clicking on this button finishes the whole flow upon success.
+flow-setup-2fa-backup-code-confirm-button-finish = Finish
 
 ## The backup codes download step of the setup 2 factor authentication flow
 
+flow-setup-2fa-backup-code-dl-heading = Save backup authentication codes
+flow-setup-2fa-backup-code-dl-save-these-codes = Keep these in a place you’ll remember. If you don’t have access to your authenticator app you’ll need to enter one to sign in.
+flow-setup-2fa-backup-code-dl-button-continue = Continue
 
 ## FlowSetupPhoneConfirmCode
 
@@ -740,6 +746,11 @@ tfa-enter-code-to-confirm-v2 =
 
 ## PageSetupRecoveryPhone
 
+page-2fa-setup-title = Two-step authentication
+page-2fa-setup-totpinfo-error = There was an error setting up two-step authentication. Try again later.
+# code here refers to "backup authentication code"
+page-2fa-setup-incorrect-backup-code-error = That code is not correct. Try again.
+page-2fa-setup-success = Two-step authentication has been enabled
 
 ## Avatar change page
 
@@ -913,6 +924,7 @@ settings-recovery-phone-remove-success = Recovery phone removed
 ## PageSetupRecoveryPhone
 
 page-setup-recovery-phone-heading = Add recovery phone
+page-change-recovery-phone = Change recovery phone
 page-setup-recovery-phone-back-button-title = Back to settings
 # Back arrow to return to step 1 of recovery phone setup flow
 page-setup-recovery-phone-step2-back-button-title = Change phone number
@@ -998,8 +1010,15 @@ tfa-enter-recovery-code-1 =
 
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
+product-promo-monitor-description-v2 = Find where your private info is exposed and take control
+# this message will only be shown to users eligible for a special promotion, based on their location (initially USA only)
+# $price - formatted for user locale, in the target market's currency (for launch, always USD)
+# /mo is 'per month'
+product-promo-monitor-special-promo-description = For { $price }/mo, save on { -product-mozilla-vpn-short }, { -product-mozilla-monitor-short }’s data-broker protection, and { -product-firefox-relay-short }’s unlimited email masks.
 # Links out to the Monitor site
 product-promo-monitor-cta = Get free scan
+# Links out to the Monitor pricing site
+product-promo-monitor-special-promo-cta = Get year-round protection
 
 ## Profile section
 
@@ -1178,6 +1197,7 @@ tfa-row-disable-modal-explain-1 =
 # Shown in an alert bar after two-step authentication is disabled
 tfa-row-disabled-2 = Two-step authentication disabled
 tfa-row-cannot-disable-2 = Two-step authentication could not be disabled
+tfa-row-disable-cannot-verify-session = Sorry, there was a problem confirming your session
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
@@ -1525,6 +1545,9 @@ pair-unsupported-message = Did you use the system camera? You must pair from wit
 
 # password to complete their sign-in when they want to login to a service requiring it.
 
+set-password-heading-v2 = Create password to sync
+# "This" refers to the heading, "Create password to sync"
+set-password-info-v2 = This encrypts your data. It needs to be different from your { -brand-google } or { -brand-apple } account password.
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
@@ -1625,9 +1648,31 @@ reset-password-confirmed-cta = Continue to { $serviceName }
 
 # password, and they previously had set up an account recovery method.
 
+password-reset-recovery-method-header = Reset your password
+password-reset-recovery-method-subheader = Choose a recovery method
+# This is displayed to the user when they are choosing an alternative method to authenticate themself in the password reset process when they do not have access to their two-factor authenticator application
+password-reset-recovery-method-details = Let’s make sure it’s you using your recovery methods.
+password-reset-recovery-method-phone = Recovery phone
+password-reset-recovery-method-code = Backup authentication codes
+# Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
+password-reset-recovery-method-code-info =
+    { $numBackupCodes ->
+        [one] { $numBackupCodes } code remaining
+       *[other] { $numBackupCodes } codes remaining
+    }
+# Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
+password-reset-recovery-method-send-code-error-heading = There was a problem sending a code to your recovery phone
+password-reset-recovery-method-send-code-error-description = Please try again later or use your backup authentication codes.
 
 ## ResetPasswordRecoveryPhone page
 
+reset-password-recovery-phone-flow-heading = Reset your password
+# A recovery code in context of this page is a one time code sent to the user's phone
+reset-password-recovery-phone-heading = Enter recovery code
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+reset-password-recovery-phone-instruction-v3 = A 6-digit code was sent to the phone number ending in <span>{ $lastFourPhoneDigits }</span> by text message. This code expires after 5 minutes. Donʼt share this code with anyone.
+reset-password-recovery-phone-input-label = Enter 6-digit code
 reset-password-with-recovery-key-verified-page-title = Password reset successful
 reset-password-complete-new-password-saved = New password saved!
 reset-password-complete-recovery-key-created = New account recovery key created. Download and store it now.

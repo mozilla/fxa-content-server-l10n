@@ -94,6 +94,24 @@ datablock-print =
 ## Success banners for datablock actions.
 ## $count – number of codes
 
+datablock-copy-success =
+    { $count ->
+        [one] Код скопирован
+        [few] Коды скопированы
+       *[many] Коды скопированы
+    }
+datablock-download-success =
+    { $count ->
+        [one] Код загружен
+        [few] Коды загружены
+       *[many] Коды загружены
+    }
+datablock-print-success =
+    { $count ->
+        [one] Код распечатан
+        [few] Коды распечатаны
+       *[many] Коды распечатаны
+    }
 
 ##
 
@@ -630,6 +648,7 @@ flow-setup-2fa-more-info-link = Узнайте больше о приложен�
 flow-setup-2fa-button = Продолжить
 flow-setup-2fa-step-2-instruction = <strong>Шаг 2:</strong> Введите код из вашего приложения для аутентификации.
 flow-setup-2fa-input-label = Введите код из 6 цифр
+flow-setup-2fa-code-error = Неверный или истёкший код. Проверьте своё приложение для аутентификации и попробуйте ещё раз.
 
 ## The step to choose the two step authentication method in the two step
 ## authentication setup flow.
@@ -759,6 +778,11 @@ tfa-enter-code-to-confirm-v2 =
 
 ## PageSetupRecoveryPhone
 
+page-2fa-setup-title = Двухэтапная аутентификация
+page-2fa-setup-totpinfo-error = При настройке двухэтапной аутентификации произошла ошибка. Подождите некоторое время и попробуйте снова.
+# code here refers to "backup authentication code"
+page-2fa-setup-incorrect-backup-code-error = Этот код неверен. Попробуйте снова.
+page-2fa-setup-success = Двухэтапная аутентификация включена
 
 ## Avatar change page
 
@@ -1210,6 +1234,7 @@ tfa-row-disable-modal-explain-1 =
 # Shown in an alert bar after two-step authentication is disabled
 tfa-row-disabled-2 = Двухэтапная аутентификация отключена
 tfa-row-cannot-disable-2 = Двухэтапная аутентификация не может быть отключена
+tfa-row-disable-cannot-verify-session = К сожалению, при подтверждении вашей сессии возникла проблема
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
