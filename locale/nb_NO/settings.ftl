@@ -773,6 +773,11 @@ tfa-enter-code-to-confirm-v2 = Skriv inn en av de nye reserve-autentiseringskode
 
 ## PageSetupRecoveryPhone
 
+page-2fa-setup-title = Totrinns-autentisering
+page-2fa-setup-totpinfo-error = Det oppsto en feil under oppsett av totrinns-autentisering. Prøv på nytt senere.
+# code here refers to "backup authentication code"
+page-2fa-setup-incorrect-backup-code-error = Den koden er ikke riktig. Prøv på nytt.
+page-2fa-setup-success = Totrinns-autentisering er aktivert
 
 ## Avatar change page
 
@@ -1211,6 +1216,7 @@ tfa-row-disable-modal-explain-1 = Du kan ikke angre denne handlingen. Du har ogs
 # Shown in an alert bar after two-step authentication is disabled
 tfa-row-disabled-2 = Totrinns-verifisering deaktivert
 tfa-row-cannot-disable-2 = Totrinns-verifisering kunne ikke deaktiveres
+tfa-row-disable-cannot-verify-session = Beklager, det oppsto et problem med å bekrefte økten din
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
