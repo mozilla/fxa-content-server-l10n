@@ -94,6 +94,16 @@ datablock-print =
 ## Success banners for datablock actions.
 ## $count – number of codes
 
+datablock-copy-success =
+    { $count ->
+        [one] Kode kopiert
+       *[other] Koder kopiert
+    }
+datablock-download-success =
+    { $count ->
+        [one] Kode lastet ned
+       *[other] Koder lastet ned
+    }
 
 ##
 
