@@ -94,6 +94,21 @@ datablock-print =
 ## Success banners for datablock actions.
 ## $count – number of codes
 
+datablock-copy-success =
+    { $count ->
+        [one] Kod kopierad
+       *[other] Koder kopierade
+    }
+datablock-download-success =
+    { $count ->
+        [one] Kod hämtad
+       *[other] Koder hämtade
+    }
+datablock-print-success =
+    { $count ->
+        [one] Kod utskriven
+       *[other] Koder utskrivna
+    }
 
 ##
 
@@ -632,6 +647,7 @@ flow-setup-2fa-more-info-link = Läs mer om autentiseringsappar
 flow-setup-2fa-button = Fortsätt
 flow-setup-2fa-step-2-instruction = <strong>Steg 2:</strong> Ange koden från din autentiseringsapp.
 flow-setup-2fa-input-label = Ange 6-siffrig kod
+flow-setup-2fa-code-error = Ogiltig eller utgången kod. Kontrollera din autentiseringsapp och försök igen.
 
 ## The step to choose the two step authentication method in the two step
 ## authentication setup flow.
@@ -761,6 +777,11 @@ tfa-enter-code-to-confirm-v2 =
 
 ## PageSetupRecoveryPhone
 
+page-2fa-setup-title = Tvåstegsautentisering
+page-2fa-setup-totpinfo-error = Det uppstod ett fel vid inställningen av tvåstegsautentisering. Försök igen senare.
+# code here refers to "backup authentication code"
+page-2fa-setup-incorrect-backup-code-error = Den koden är inte korrekt. Försök igen.
+page-2fa-setup-success = Tvåstegsautentisering har aktiverats
 
 ## Avatar change page
 
@@ -1213,6 +1234,7 @@ tfa-row-disable-modal-explain-1 =
 # Shown in an alert bar after two-step authentication is disabled
 tfa-row-disabled-2 = Tvåstegsautentisering inaktiverad
 tfa-row-cannot-disable-2 = Tvåstegsautentisering kunde inte inaktiveras
+tfa-row-disable-cannot-verify-session = Tyvärr, det uppstod ett problem med att bekräfta din session
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
