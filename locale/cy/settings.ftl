@@ -99,7 +99,7 @@ datablock-copy-success =
         [zero] Codau wedi eu copïo
         [one] Cod wedi'i gopïo
         [two] God wedi'u copïo
-        [few] Cod wedi'u copïo
+        [few] Chod wedi'u copïo
         [many] Chod wedi'u copïo
        *[other] Cod wedi'u copïo
     }
@@ -108,7 +108,7 @@ datablock-download-success =
         [zero] Codau wedi'u llwytho i lawr
         [one] Cod wedi'i lwytho i lawr
         [two] God wedi'u llwytho i lawr
-        [few] Cod wedi'u llwytho i lawr
+        [few] Chod wedi'u llwytho i lawr
         [many] Chod wedi'u llwytho i lawr
        *[other] Cod wedi'u llwytho i lawr
     }
@@ -116,10 +116,10 @@ datablock-print-success =
     { $count ->
         [zero] Codau wedi'u hargraffu
         [one] Cod wedi'i argraffu
-        [two] Codau wedi'u hargraffu
-        [few] Codau wedi'u hargraffu
-        [many] Codau wedi'u hargraffu
-       *[other] Codau wedi'u hargraffu
+        [two] God wedi'u hargraffu
+        [few] Chod wedi'u hargraffu
+        [many] Chod wedi'u hargraffu
+       *[other] Cod wedi'u hargraffu
     }
 
 ##
@@ -1057,11 +1057,11 @@ product-promo-monitor-description-v2 = Dewch o hyd i ble mae'ch manylion preifat
 # this message will only be shown to users eligible for a special promotion, based on their location (initially USA only)
 # $price - formatted for user locale, in the target market's currency (for launch, always USD)
 # /mo is 'per month'
-product-promo-monitor-special-promo-description = Am { $price }/mo, cadwch ar { -product-mozilla-vpn-short }, amddiffyniad brocer data-broceriaid { -product-mozilla-monitor-short }, a { -product-firefox-relay-short }' s mygydau e-bost diderfyn.
+product-promo-monitor-special-promo-description = Am { $price }/mis, arbedwch ar { -product-mozilla-vpn-short }, diogelwch rhag broceriaid data { -product-mozilla-monitor-short }, ac arallenwau e-bost diderfyn { -product-firefox-relay-short } .
 # Links out to the Monitor site
 product-promo-monitor-cta = Cael sgan am ddim
 # Links out to the Monitor pricing site
-product-promo-monitor-special-promo-cta = Sicrhewch amddiffyniad trwy gydol y flwyddyn
+product-promo-monitor-special-promo-cta = Cael diogelwch trwy gydol y flwyddyn
 
 ## Profile section
 
@@ -1590,7 +1590,7 @@ pair-unsupported-message = Oeddech chi'n defnyddio camera'r system? Rhaid i chi 
 
 # password to complete their sign-in when they want to login to a service requiring it.
 
-set-password-heading-v2 = Creu cyfrinair i gysoni
+set-password-heading-v2 = Creu cyfrinair i gydweddu
 # "This" refers to the heading, "Create password to sync"
 set-password-info-v2 = Mae hyn yn amgryptio eich data. Mae angen iddo fod yn wahanol i gyfrinair eich cyfrif { -brand-google } neu { -brand-apple }.
 
@@ -1965,7 +1965,7 @@ confirm-signup-code-instruction-v2 = Rhowch y cod anfonwyd at <email>{ $email }<
 confirm-signup-code-input-label = Rhowch y cod 6 digid
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = Cadarnhau
-confirm-signup-code-sync-button = Dechrau cysoni
+confirm-signup-code-sync-button = Cychwyn cydweddu
 confirm-signup-code-code-expired = Cod wedi dod i ben?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = E-bostiwch god newydd.
@@ -1982,8 +1982,8 @@ confirm-signup-code-desktop-relay = Bydd { -brand-firefox } yn ceisio eich anfon
 
 signup-heading-v2 = Crëwch gyfrinair
 signup-relay-info = Mae angen cyfrinair i reoli'ch e-byst ag arallenw yn ddiogel a chael mynediad at offer diogelwch { -brand-mozilla }.
-signup-sync-info = Cysonwch eich cyfrineiriau, nodau tudalen, a mwy ym mhob man y byddwch yn defnyddio { -brand-firefox }.
-signup-sync-info-with-payments = Cysonwch eich cyfrineiriau, dulliau talu, nodau tudalen, a mwy ym mhob man y byddwch yn defnyddio { -brand-firefox }.
+signup-sync-info = Cydweddwch eich cyfrineiriau a nodau tudalen a rhagor ym mhob man rydych yn defnyddio { -brand-firefox }.
+signup-sync-info-with-payments = Cydweddwch eich cyfrineiriau, dulliau talu a nodau tudalen, a rhagor ym mhob man rydych yn defnyddio { -brand-firefox }.
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = Pam fod angen i mi greu'r cyfrif hwn?
 # Link included in a dismissible info banner that is only displayed to Pocket clients
@@ -1999,8 +1999,8 @@ signup-confirmed-sync-header = Mae cydweddu wedi'i droi ymlaen
 signup-confirmed-sync-success-banner = Cyfrif { -product-mozilla-account } wedi'i gadarnhau
 signup-confirmed-sync-button = Cychwyn pori
 # Shown when payment methods are also synced
-signup-confirmed-sync-description-with-payment-v2 = Gall eich cyfrineiriau, dulliau talu, cyfeiriadau, nodau tudalen, hanes, a mwy gysoni ym mhobman y byddwch yn defnyddio { -brand-firefox }.
-signup-confirmed-sync-description-v2 = Gall eich cyfrineiriau, cyfeiriadau, nodau tudalen, hanes, a mwy gysoni ym mhobman y byddwch yn defnyddio { -brand-firefox }.
+signup-confirmed-sync-description-with-payment-v2 = Gall eich cyfrineiriau, dulliau talu, cyfeiriadau, nodau tudalen, hanes, a mwy gydweddu ym mhobman y byddwch yn defnyddio { -brand-firefox }.
+signup-confirmed-sync-description-v2 = Gall eich cyfrineiriau, cyfeiriadau, nodau tudalen, hanes, a mwy gydweddu ym mhobman y byddwch yn defnyddio { -brand-firefox }.
 signup-confirmed-sync-add-device-link = Ychwanegu dyfais arall
 signup-confirmed-sync-manage-sync-button = Rheoli cydweddu
-signup-confirmed-sync-set-password-success-banner = Cyfrinair cysoni wedi'i greu
+signup-confirmed-sync-set-password-success-banner = Cyfrinair cydweddu wedi'i greu
