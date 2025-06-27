@@ -1019,6 +1019,8 @@ tfa-row-cannot-disable-2 = Nije bilo moguće deaktivirati autentifikaciju u dva 
 terms-privacy-agreement-intro-2 = Ako nastaviš, prihvaćaš:
 # links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-pocket-2 = { -product-pocket } <pocketTos>uvjete usluge</pocketTos> i <pocketPrivacy>napomene o privatnosti</pocketPrivacy>
+# link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
+terms-privacy-agreement-monitor-3 = { -brand-mozilla } usluge pretplate <mozSubscriptionTosLink>uvjeti usluge</mozSubscriptionTosLink> i <mozSubscriptionPrivacyLink>napomena o privatnosti</mozSubscriptionPrivacyLink>
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-mozilla = { -product-mozilla-accounts(capitalization: "uppercase") } – <mozillaAccountsTos>Uvjeti usluge</mozillaAccountsTos> i <mozillaAccountsPrivacy>Obavijest o privatnosti</mozillaAccountsPrivacy>
 # links to Mozilla Account's Terms of Service and Privacy Notice
