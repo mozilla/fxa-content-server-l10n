@@ -783,6 +783,9 @@ tfa-enter-code-to-confirm-v2 =
 
 page-2fa-setup-title = Autentikaasje yn twa stappen
 page-2fa-setup-totpinfo-error = Der is in flater bard by it ynstellen fan twastapsautentikaasje. Probearje it letter opnij.
+# code here refers to "backup authentication code"
+page-2fa-setup-incorrect-backup-code-error = Dy koade is net korrekt. Probearje it opnij.
+page-2fa-setup-success = Autentikaasje yn twa stappen is ynskeakele
 
 ## Avatar change page
 
@@ -1235,6 +1238,7 @@ tfa-row-disable-modal-explain-1 =
 # Shown in an alert bar after two-step authentication is disabled
 tfa-row-disabled-2 = Twa-staps autentikaasje útskeakele
 tfa-row-cannot-disable-2 = Autentikaasje yn twa stappen koe net útskeakele wurde
+tfa-row-disable-cannot-verify-session = Sorry, der is in probleem bard by it befêstigjen fan jo sesje
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
