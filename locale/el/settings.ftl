@@ -94,6 +94,21 @@ datablock-print =
 ## Success banners for datablock actions.
 ## $count – number of codes
 
+datablock-copy-success =
+    { $count ->
+        [one] Έγινε αντιγραφή του κωδικού
+       *[other] Έγινε αντιγραφή των κωδικών
+    }
+datablock-download-success =
+    { $count ->
+        [one] Έγινε λήψη του κωδικού
+       *[other] Έγινε λήψη των κωδικών
+    }
+datablock-print-success =
+    { $count ->
+        [one] Έγινε εκτύπωση του κωδικού
+       *[other] Έγινε εκτύπωση των κωδικών
+    }
 
 ##
 
@@ -634,6 +649,7 @@ flow-setup-2fa-more-info-link = Μάθετε περισσότερα για τι�
 flow-setup-2fa-button = Συνέχεια
 flow-setup-2fa-step-2-instruction = <strong>Βήμα 2:</strong> Εισαγάγετε τον κωδικό από την εφαρμογή ελέγχου ταυτότητάς σας.
 flow-setup-2fa-input-label = Εισαγάγετε τον εξαψήφιο κωδικό
+flow-setup-2fa-code-error = Μη έγκυρος ή ληγμένος κωδικός. Ελέγξτε την εφαρμογή ελέγχου ταυτότητας και δοκιμάστε ξανά.
 
 ## The step to choose the two step authentication method in the two step
 ## authentication setup flow.
@@ -765,6 +781,7 @@ tfa-enter-code-to-confirm-v2 =
 ## PageSetupRecoveryPhone
 
 page-2fa-setup-title = Ταυτοποίηση δύο παραγόντων
+page-2fa-setup-totpinfo-error = Προέκυψε σφάλμα κατά τη ρύθμιση της ταυτοποίησης δύο παραγόντων. Δοκιμάστε ξανά αργότερα.
 # code here refers to "backup authentication code"
 page-2fa-setup-incorrect-backup-code-error = Αυτός ο κωδικός δεν είναι σωστός. Δοκιμάστε ξανά.
 page-2fa-setup-success = Η ταυτοποίηση δύο παραγόντων έχει ενεργοποιηθεί
