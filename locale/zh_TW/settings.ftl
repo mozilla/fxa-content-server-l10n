@@ -90,6 +90,13 @@ datablock-copy =
     .message = 已複製
 datablock-print =
     .message = 已列印
+
+## Success banners for datablock actions.
+## $count – number of codes
+
+
+##
+
 # Tooltip notification when an account recovery key or one-time use code is copied.
 datablock-inline-copy =
     .message = 已複製！
@@ -742,6 +749,9 @@ tfa-replace-code-success-alert-4 = 已更新備用驗證碼
 tfa-replace-code-1-2 = 第 1 步，共 2 步
 tfa-replace-code-2-2 = 第 2 步，共 2 步
 tfa-enter-code-to-confirm-v2 = 請輸入您的任一組備用驗證碼，以確認您已安全地儲存它們。完成本階段之後，將停用您舊的備用驗證碼。
+
+## PageSetupRecoveryPhone
+
 
 ## Avatar change page
 

@@ -90,6 +90,13 @@ datablock-copy =
     .message = Copié
 datablock-print =
     .message = Imprimé
+
+## Success banners for datablock actions.
+## $count – number of codes
+
+
+##
+
 # Tooltip notification when an account recovery key or one-time use code is copied.
 datablock-inline-copy =
     .message = Copié
@@ -745,6 +752,9 @@ tfa-replace-code-success-alert-4 = Codes d’authentification de secours mis à 
 tfa-replace-code-1-2 = Étape 1 sur 2
 tfa-replace-code-2-2 = Étape 2 sur 2
 tfa-enter-code-to-confirm-v2 = Veuillez saisir l’un de vos nouveaux codes d’authentification de secours pour confirmer que vous les avez enregistrés. Vos anciens codes d’authentification de secours seront désactivés une fois cette étape terminée.
+
+## PageSetupRecoveryPhone
+
 
 ## Avatar change page
 

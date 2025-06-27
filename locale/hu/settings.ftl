@@ -90,6 +90,13 @@ datablock-copy =
     .message = Másolva
 datablock-print =
     .message = Kinyomtatva
+
+## Success banners for datablock actions.
+## $count – number of codes
+
+
+##
+
 # Tooltip notification when an account recovery key or one-time use code is copied.
 datablock-inline-copy =
     .message = Másolva
@@ -753,6 +760,9 @@ tfa-replace-code-success-alert-4 = A tartalék hitelesítési kódok frissítve
 tfa-replace-code-1-2 = 1. / 2. lépés
 tfa-replace-code-2-2 = 2. / 2. lépés
 tfa-enter-code-to-confirm-v2 = Adja meg az egyik új tartalék hitelesítési kódot, hogy megerősítse, hogy elmentette azokat. A lépés befejeztével a régi tartalék hitelesítési kódok letiltásra kerülnek.
+
+## PageSetupRecoveryPhone
+
 
 ## Avatar change page
 

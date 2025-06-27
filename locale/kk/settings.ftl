@@ -90,6 +90,13 @@ datablock-copy =
     .message = Көшірілді
 datablock-print =
     .message = Басып шығарылды
+
+## Success banners for datablock actions.
+## $count – number of codes
+
+
+##
+
 # Tooltip notification when an account recovery key or one-time use code is copied.
 datablock-inline-copy =
     .message = Көшірілді
@@ -696,6 +703,9 @@ tfa-replace-code-success-1 =
 tfa-replace-code-success-alert-4 = Сақтық аутентификация кодтары жаңартылды
 tfa-replace-code-1-2 = Қадам 1, барлығы 2
 tfa-replace-code-2-2 = Қадам 2, барлығы 2
+
+## PageSetupRecoveryPhone
+
 
 ## Avatar change page
 

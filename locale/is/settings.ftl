@@ -90,6 +90,13 @@ datablock-copy =
     .message = Afritað
 datablock-print =
     .message = Prentað
+
+## Success banners for datablock actions.
+## $count – number of codes
+
+
+##
+
 # Tooltip notification when an account recovery key or one-time use code is copied.
 datablock-inline-copy =
     .message = Afritað
@@ -721,6 +728,9 @@ tfa-replace-code-2-2 = Skref 2 af 2
 tfa-enter-code-to-confirm-v2 =
     Settu inn einn af nýju öryggisafritunar-auðkenningarkóðunum þínum til að
     staðfesta að þú hafir vistað þá. Gömlu auðkenningarkóðarnir þínir verða óvirkir þegar þessu skrefi er lokið.
+
+## PageSetupRecoveryPhone
+
 
 ## Avatar change page
 

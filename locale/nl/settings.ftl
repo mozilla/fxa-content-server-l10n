@@ -90,6 +90,13 @@ datablock-copy =
     .message = Gekopieerd
 datablock-print =
     .message = Afgedrukt
+
+## Success banners for datablock actions.
+## $count – number of codes
+
+
+##
+
 # Tooltip notification when an account recovery key or one-time use code is copied.
 datablock-inline-copy =
     .message = Gekopieerd
@@ -751,6 +758,9 @@ tfa-replace-code-2-2 = Stap 2 van 2
 tfa-enter-code-to-confirm-v2 =
     Voer een van uw nieuwe reserve-authenticatiecodes in om te
     bevestigen dat u ze hebt opgeslagen. Uw oude reserve-authenticatiecodes worden uitgeschakeld zodra deze stap is voltooid.
+
+## PageSetupRecoveryPhone
+
 
 ## Avatar change page
 

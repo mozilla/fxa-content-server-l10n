@@ -90,6 +90,13 @@ datablock-copy =
     .message = Copïwyd
 datablock-print =
     .message = Argraffwyd
+
+## Success banners for datablock actions.
+## $count – number of codes
+
+
+##
+
 # Tooltip notification when an account recovery key or one-time use code is copied.
 datablock-inline-copy =
     .message = Copïwyd
@@ -747,6 +754,9 @@ tfa-replace-code-success-alert-4 = Codau dilysu wrth gefn wedi'u diweddaru
 tfa-replace-code-1-2 = Cam 1 o 2
 tfa-replace-code-2-2 = Cam 2 o 2
 tfa-enter-code-to-confirm-v2 = Rhowch un o'ch codau dilysu wrth gefn newydd i gadarnhau eich bod wedi eu cadw. Bydd eich hen godau dilysu wrth gefn yn cael eu hanalluogi unwaith y bydd y cam hwn wedi'i gwblhau.
+
+## PageSetupRecoveryPhone
+
 
 ## Avatar change page
 

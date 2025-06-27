@@ -90,6 +90,13 @@ datablock-copy =
     .message = Monguatiapyre
 datablock-print =
     .message = Monguatiapyre
+
+## Success banners for datablock actions.
+## $count – number of codes
+
+
+##
+
 # Tooltip notification when an account recovery key or one-time use code is copied.
 datablock-inline-copy =
     .message = Monguatiapyre
@@ -736,6 +743,9 @@ tfa-replace-code-success-alert-4 = Ayvu ñemoneĩrã jeykekoha hekopyahupyre
 tfa-replace-code-1-2 = Ku’e 1 2-gui
 tfa-replace-code-2-2 = Ku’e 2 2-gui
 tfa-enter-code-to-confirm-v2 = Ikatúpiko, ehai peteĩva umi ayvu ñemoneĩrã pyahu jekuaaukarã emoañete hag̃ua eñongatuhague. Nde ayvu ñemoneĩrã jeykekoha itujavéva ojeítama remohu’ã rire ko tembiaporã.
+
+## PageSetupRecoveryPhone
+
 
 ## Avatar change page
 

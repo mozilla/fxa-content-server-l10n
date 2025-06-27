@@ -90,6 +90,13 @@ datablock-copy =
     .message = Скопійовано
 datablock-print =
     .message = Надруковано
+
+## Success banners for datablock actions.
+## $count – number of codes
+
+
+##
+
 # Tooltip notification when an account recovery key or one-time use code is copied.
 datablock-inline-copy =
     .message = Скопійовано
@@ -748,6 +755,9 @@ tfa-replace-code-2-2 = Крок 2 з 2
 tfa-enter-code-to-confirm-v2 =
     Введіть один із ваших резервних кодів автентифікації,
     щоб упевнитися, що ви їх зберегли. Після завершення цього кроку ваші старі резервні коди автентифікації буде вимкнено.
+
+## PageSetupRecoveryPhone
+
 
 ## Avatar change page
 

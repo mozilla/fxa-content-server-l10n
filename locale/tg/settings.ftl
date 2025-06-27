@@ -90,6 +90,13 @@ datablock-copy =
     .message = Нусхабардошташуда
 datablock-print =
     .message = Чопшуда
+
+## Success banners for datablock actions.
+## $count – number of codes
+
+
+##
+
 # Tooltip notification when an account recovery key or one-time use code is copied.
 datablock-inline-copy =
     .message = Нусха бардошта шуд
@@ -566,6 +573,9 @@ nav-paid-subs = Обунаҳо пардохтшуда
 tfa-replace-code-success-alert-4 = Нусхаи эҳтиётии рамзҳои санҷиши ҳаққоният навсозӣ шуд
 tfa-replace-code-1-2 = Қадами 1 аз 2
 tfa-replace-code-2-2 = Қадами 2 аз 2
+
+## PageSetupRecoveryPhone
+
 
 ## Avatar change page
 

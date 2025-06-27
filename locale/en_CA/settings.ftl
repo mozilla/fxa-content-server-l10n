@@ -91,6 +91,13 @@ datablock-copy =
 datablock-print =
     .message = Printed
 
+## Success banners for datablock actions.
+## $count – number of codes
+
+
+##
+
+
 ## DeviceInfoBlock component
 ## The strings here are used to display information about the origin of activity happening on a user's account
 ## For example, when connecting another device to the user's account
@@ -701,6 +708,9 @@ tfa-replace-code-2-2 = Step 2 of 2
 tfa-enter-code-to-confirm-v2 =
     Please enter one of your new backup authentication codes to
     confirm that you have saved them. Your old backup authentication codes will be disabled once this step is completed.
+
+## PageSetupRecoveryPhone
+
 
 ## Avatar change page
 

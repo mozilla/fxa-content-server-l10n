@@ -91,6 +91,13 @@ datablock-copy =
 datablock-print =
     .message = U shtyp
 
+## Success banners for datablock actions.
+## $count – number of codes
+
+
+##
+
+
 ## DeviceInfoBlock component
 ## The strings here are used to display information about the origin of activity happening on a user's account
 ## For example, when connecting another device to the user's account
@@ -701,6 +708,9 @@ tfa-replace-code-2-2 = Hapi 2 nga 2
 tfa-enter-code-to-confirm-v2 =
     Ju lutemi, jepni një nga kodet tuaj të rinj të mirëfilltësimit të kopjeruajtjeve,
     që të ripohoni se i keni ruajtur. Kodet tuaj të vjetër të mirëfilltësimit të kopjeruajtjeve do të çaktivizohen, kur të jetë plotësuar ky hap.
+
+## PageSetupRecoveryPhone
+
 
 ## Avatar change page
 

@@ -68,6 +68,13 @@ datablock-copy =
 datablock-print =
     .message = Бастырылды
 
+## Success banners for datablock actions.
+## $count – number of codes
+
+
+##
+
+
 ## DeviceInfoBlock component
 ## The strings here are used to display information about the origin of activity happening on a user's account
 ## For example, when connecting another device to the user's account
@@ -495,6 +502,9 @@ nav-email-comm = Эл. почта элемтәләр
 
 tfa-replace-code-1-2 = Адым 1/2
 tfa-replace-code-2-2 = Адым 2/2
+
+## PageSetupRecoveryPhone
+
 
 ## Avatar change page
 

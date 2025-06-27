@@ -90,6 +90,13 @@ datablock-copy =
     .message = Kopěrowany
 datablock-print =
     .message = Ćišćane
+
+## Success banners for datablock actions.
+## $count – number of codes
+
+
+##
+
 # Tooltip notification when an account recovery key or one-time use code is copied.
 datablock-inline-copy =
     .message = Kopěrowany
@@ -751,6 +758,9 @@ tfa-replace-code-2-2 = Krok 2 z 2
 tfa-enter-code-to-confirm-v2 =
     Prošu zapodajće jedyn ze swojich awtentifikaciskich kodow za zawěsćenje, zo byšće
     wobkrućił, zo sće je składował. Waše stare awtentifikaciske kody za zawěsćenje so znjemóžnja, hdyž so tutón krok dokónča.
+
+## PageSetupRecoveryPhone
+
 
 ## Avatar change page
 

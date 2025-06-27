@@ -90,6 +90,13 @@ datablock-copy =
     .message = Kopierad
 datablock-print =
     .message = Utskriven
+
+## Success banners for datablock actions.
+## $count – number of codes
+
+
+##
+
 # Tooltip notification when an account recovery key or one-time use code is copied.
 datablock-inline-copy =
     .message = Kopierad
@@ -751,6 +758,9 @@ tfa-replace-code-2-2 = Steg 2 av 2
 tfa-enter-code-to-confirm-v2 =
     Ange en av dina nya reservautentiseringskoder för att
     bekräfta att du har sparat dem. Dina gamla reservautentiseringskoder kommer att inaktiveras när detta steg är slutfört.
+
+## PageSetupRecoveryPhone
+
 
 ## Avatar change page
 

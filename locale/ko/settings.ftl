@@ -90,6 +90,13 @@ datablock-copy =
     .message = 복사됨
 datablock-print =
     .message = 인쇄됨
+
+## Success banners for datablock actions.
+## $count – number of codes
+
+
+##
+
 # Tooltip notification when an account recovery key or one-time use code is copied.
 datablock-inline-copy =
     .message = 복사됨
@@ -741,6 +748,9 @@ tfa-replace-code-success-alert-4 = 백업 인증 코드 업데이트됨
 tfa-replace-code-1-2 = 1/2 단계
 tfa-replace-code-2-2 = 2/2 단계
 tfa-enter-code-to-confirm-v2 = 저장함을 확인하려면 새 백업 인증 코드 중 하나를 입력하세요. 이 단계가 완료되면 이전 백업 인증 코드를 사용할 수 없습니다.
+
+## PageSetupRecoveryPhone
+
 
 ## Avatar change page
 

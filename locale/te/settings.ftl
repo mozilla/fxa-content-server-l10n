@@ -32,6 +32,13 @@ datablock-copy =
 datablock-print =
     .message = ముద్రించబడింది
 
+## Success banners for datablock actions.
+## $count – number of codes
+
+
+##
+
+
 ## DeviceInfoBlock component
 ## The strings here are used to display information about the origin of activity happening on a user's account
 ## For example, when connecting another device to the user's account
@@ -275,6 +282,9 @@ nav-data-collection = డేటా సేకరణ మరియు ఉపయో�
 
 tfa-replace-code-1-2 = 2లో 1వ దశ
 tfa-replace-code-2-2 = 2లో 2వ దశ
+
+## PageSetupRecoveryPhone
+
 
 ## Avatar change page
 

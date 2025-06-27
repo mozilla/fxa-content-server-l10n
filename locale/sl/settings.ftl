@@ -90,6 +90,13 @@ datablock-copy =
     .message = Kopirano
 datablock-print =
     .message = Natisnjeno
+
+## Success banners for datablock actions.
+## $count – number of codes
+
+
+##
+
 # Tooltip notification when an account recovery key or one-time use code is copied.
 datablock-inline-copy =
     .message = Kopirano
@@ -749,6 +756,9 @@ tfa-replace-code-success-alert-4 = Rezervne overitvene kode so posodobljene
 tfa-replace-code-1-2 = Korak 1 od 2
 tfa-replace-code-2-2 = Korak 2 od 2
 tfa-enter-code-to-confirm-v2 = Vnesite eno izmed novih rezervnih overitvenih kod, da potrdite, da ste jih shranili. Vaše stare rezervne overitvene kode bodo prenehale veljati, ko boste zaključili ta korak.
+
+## PageSetupRecoveryPhone
+
 
 ## Avatar change page
 

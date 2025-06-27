@@ -91,6 +91,13 @@ datablock-copy =
 datablock-print =
     .message = Inprimatuta
 
+## Success banners for datablock actions.
+## $count – number of codes
+
+
+##
+
+
 ## DeviceInfoBlock component
 ## The strings here are used to display information about the origin of activity happening on a user's account
 ## For example, when connecting another device to the user's account
@@ -707,6 +714,9 @@ tfa-replace-code-success-alert-4 = Eguneratu dira babeskopiko autentifikazio-kod
 tfa-replace-code-1-2 = 2tik 1. urratsa
 tfa-replace-code-2-2 = 2tik 2. urratsa
 tfa-enter-code-to-confirm-v2 = Mesedez, sartu zure babeskopiko autentifikazio-kode berrietako bat, gorde dituzula berresteko. Zure babeskopien autentifikazio-kode zaharrak desgaitu egingo dira urrats hau amaitutakoan.
+
+## PageSetupRecoveryPhone
+
 
 ## Avatar change page
 

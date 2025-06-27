@@ -87,6 +87,13 @@ datablock-copy =
 datablock-print =
     .message = 印刷済み
 
+## Success banners for datablock actions.
+## $count – number of codes
+
+
+##
+
+
 ## DeviceInfoBlock component
 ## The strings here are used to display information about the origin of activity happening on a user's account
 ## For example, when connecting another device to the user's account
@@ -629,6 +636,9 @@ tfa-create-code-error = バックアップ認証コードの生成時に問題�
 tfa-replace-code-success-1 = 新しいバックアップ認証コードが作成されました。これらのワンタイム使用のコードは、モバイル端末を持っていない場合に備えて安全な場所に保管してください。
 tfa-replace-code-1-2 = ステップ 1/2
 tfa-replace-code-2-2 = ステップ 2/2
+
+## PageSetupRecoveryPhone
+
 
 ## Avatar change page
 

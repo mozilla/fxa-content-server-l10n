@@ -90,6 +90,13 @@ datablock-copy =
     .message = Έγινε αντιγραφή
 datablock-print =
     .message = Έγινε εκτύπωση
+
+## Success banners for datablock actions.
+## $count – number of codes
+
+
+##
+
 # Tooltip notification when an account recovery key or one-time use code is copied.
 datablock-inline-copy =
     .message = Αντιγράφηκε
@@ -754,6 +761,9 @@ tfa-enter-code-to-confirm-v2 =
     Εισαγάγετε έναν από τους νέους σας εφεδρικούς κωδικούς ταυτοποίησης για να
     επιβεβαιώσετε ότι τους έχετε αποθηκεύσει. Οι παλιοί σας εφεδρικοί κωδικοί ταυτοποίησης
     θα απενεργοποιηθούν μόλις ολοκληρωθεί αυτό το βήμα.
+
+## PageSetupRecoveryPhone
+
 
 ## Avatar change page
 

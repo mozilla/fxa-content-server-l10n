@@ -26,6 +26,13 @@
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 
+## Success banners for datablock actions.
+## $count – number of codes
+
+
+##
+
+
 ## DeviceInfoBlock component
 ## The strings here are used to display information about the origin of activity happening on a user's account
 ## For example, when connecting another device to the user's account
@@ -223,6 +230,9 @@ nav-paid-subs = Платени абонаменти
 
 tfa-replace-code-1-2 = Стъпка 1 от 2
 tfa-replace-code-2-2 = Стъпка 2 от 2
+
+## PageSetupRecoveryPhone
+
 
 ## Avatar change page
 

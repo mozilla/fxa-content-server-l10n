@@ -81,6 +81,13 @@ datablock-copy =
 datablock-print =
     .message = Imprimido
 
+## Success banners for datablock actions.
+## $count – number of codes
+
+
+##
+
+
 ## DeviceInfoBlock component
 ## The strings here are used to display information about the origin of activity happening on a user's account
 ## For example, when connecting another device to the user's account
@@ -645,6 +652,9 @@ tfa-replace-code-success-1 =
     en un lugar seguro, los necesitarás para acceder a tu cuenta si no tienes tu dispositivo móvil.
 tfa-replace-code-1-2 = Paso 1 de 2
 tfa-replace-code-2-2 = Paso 2 de 2
+
+## PageSetupRecoveryPhone
+
 
 ## Avatar change page
 

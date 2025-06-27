@@ -87,6 +87,13 @@ datablock-copy =
 datablock-print =
     .message = ਪਰਿੰਟ ਕੀਤਾ
 
+## Success banners for datablock actions.
+## $count – number of codes
+
+
+##
+
+
 ## DeviceInfoBlock component
 ## The strings here are used to display information about the origin of activity happening on a user's account
 ## For example, when connecting another device to the user's account
@@ -652,6 +659,9 @@ tfa-replace-code-error-3 = ਤੁਹਾਡੇ ਬੈਕਅੱਪ ਪਰਮਾਣ
 tfa-create-code-error = ਤੁਹਾਡੇ ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਬਣਾਉਣ ਦੌਰਾਨ ਸਮੱਸਿਆ ਆਈ ਸੀ
 tfa-replace-code-1-2 = 2 ਚੋਂ 1 ਪੜਾਅ
 tfa-replace-code-2-2 = 2 ਚੋਂ 2 ਪੜਾਅ
+
+## PageSetupRecoveryPhone
+
 
 ## Avatar change page
 

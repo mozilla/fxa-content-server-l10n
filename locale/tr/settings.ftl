@@ -90,6 +90,13 @@ datablock-copy =
     .message = Kopyalandı
 datablock-print =
     .message = Yazdırıldı
+
+## Success banners for datablock actions.
+## $count – number of codes
+
+
+##
+
 # Tooltip notification when an account recovery key or one-time use code is copied.
 datablock-inline-copy =
     .message = Kopyalandı
@@ -742,6 +749,9 @@ tfa-replace-code-2-2 = Adım 2/2
 tfa-enter-code-to-confirm-v2 =
     Yeni yedek kimlik doğrulama kodlarınızı kaydettiğinizi onaylamak için lütfen kodlardan birini girin.
     Bu adımı tamamladığınızda eski yedek kimlik doğrulama kodlarınız devre dışı bırakılacaktır.
+
+## PageSetupRecoveryPhone
+
 
 ## Avatar change page
 

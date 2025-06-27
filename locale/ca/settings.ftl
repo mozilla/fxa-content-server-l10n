@@ -32,6 +32,13 @@ datablock-copy =
 datablock-print =
     .message = S'ha imprès
 
+## Success banners for datablock actions.
+## $count – number of codes
+
+
+##
+
+
 ## DeviceInfoBlock component
 ## The strings here are used to display information about the origin of activity happening on a user's account
 ## For example, when connecting another device to the user's account
@@ -270,6 +277,9 @@ nav-paid-subs = Subscripcions de pagament
 nav-email-comm = Comunicacions per correu electrònic
 
 ## Two Step Authentication - replace backup authentication code
+
+
+## PageSetupRecoveryPhone
 
 
 ## Avatar change page

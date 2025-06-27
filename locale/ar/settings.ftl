@@ -26,6 +26,13 @@
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 
+## Success banners for datablock actions.
+## $count – number of codes
+
+
+##
+
+
 ## DeviceInfoBlock component
 ## The strings here are used to display information about the origin of activity happening on a user's account
 ## For example, when connecting another device to the user's account
@@ -209,6 +216,9 @@ cs-description = كل ما تستعمله وولجت إليه.
 
 
 ## Two Step Authentication - replace backup authentication code
+
+
+## PageSetupRecoveryPhone
 
 
 ## Avatar change page

@@ -90,6 +90,13 @@ datablock-copy =
     .message = Skopírovaný
 datablock-print =
     .message = Vytlačený
+
+## Success banners for datablock actions.
+## $count – number of codes
+
+
+##
+
 # Tooltip notification when an account recovery key or one-time use code is copied.
 datablock-inline-copy =
     .message = Skopírovaný
@@ -747,6 +754,9 @@ tfa-replace-code-success-alert-4 = Záložné overovacie kódy boli aktualizovan
 tfa-replace-code-1-2 = Krok 1 z 2
 tfa-replace-code-2-2 = Krok 2 z 2
 tfa-enter-code-to-confirm-v2 = Zadajte jeden zo svojich nových záložných overovacích kódov, aby ste potvrdili, že ste ich uložili. Po dokončení tohto kroku budú vaše staré záložné overovacie kódy deaktivované.
+
+## PageSetupRecoveryPhone
+
 
 ## Avatar change page
 

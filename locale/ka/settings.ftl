@@ -92,6 +92,13 @@ datablock-copy =
     .message = ასლი აღებულია
 datablock-print =
     .message = ამოიბეჭდა
+
+## Success banners for datablock actions.
+## $count – number of codes
+
+
+##
+
 # Tooltip notification when an account recovery key or one-time use code is copied.
 datablock-inline-copy =
     .message = ასლი აღებულია
@@ -753,6 +760,9 @@ tfa-replace-code-2-2 = მე-2 ნაბიჯი 2-იდან
 tfa-enter-code-to-confirm-v2 =
     გთხოვთ, შეიყვანოთ თქვენი ერთ-ერთი ახალი სამარქაფო კოდი და
     დაადასტუროთ, რომ მართლაც შენახული გაქვთ. თქვენი წინა სამარქაფო კოდები გაუქმდება ამ ნაბიჯის დასრულებისთანავე.
+
+## PageSetupRecoveryPhone
+
 
 ## Avatar change page
 

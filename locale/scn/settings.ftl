@@ -90,6 +90,13 @@ datablock-copy =
     .message = Cupiatu
 datablock-print =
     .message = Stampatu
+
+## Success banners for datablock actions.
+## $count – number of codes
+
+
+##
+
 # Tooltip notification when an account recovery key or one-time use code is copied.
 datablock-inline-copy =
     .message = Cupiatu
@@ -741,6 +748,9 @@ tfa-replace-code-success-alert-4 = Còdici d’autinticazzioni di sicurizza attu
 tfa-replace-code-1-2 = Passu 1 di 2
 tfa-replace-code-2-2 = Passu 2 di 2
 tfa-enter-code-to-confirm-v2 = Pi favuri metti unu dî còdici d’autinticazzioni di sicurizza chi facisti novi pi cunfirmari chi i sarbasti. Na vota chi cumpleti stu cuntrollu, i to còdici vecchi sunnu sdisabbilitati.
+
+## PageSetupRecoveryPhone
+
 
 ## Avatar change page
 

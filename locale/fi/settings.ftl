@@ -90,6 +90,13 @@ datablock-copy =
     .message = Kopioitu
 datablock-print =
     .message = Tulostettu
+
+## Success banners for datablock actions.
+## $count – number of codes
+
+
+##
+
 # Tooltip notification when an account recovery key or one-time use code is copied.
 datablock-inline-copy =
     .message = Kopioitu
@@ -678,6 +685,9 @@ tfa-replace-code-success-1 =
     jos mobiililaitteesi ei ole käytettävissäsi.
 tfa-replace-code-1-2 = Vaihe 1/2
 tfa-replace-code-2-2 = Vaihe 2/2
+
+## PageSetupRecoveryPhone
+
 
 ## Avatar change page
 

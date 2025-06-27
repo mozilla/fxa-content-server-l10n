@@ -91,6 +91,13 @@ datablock-copy =
 datablock-print =
     .message = Ispisano
 
+## Success banners for datablock actions.
+## $count – number of codes
+
+
+##
+
+
 ## DeviceInfoBlock component
 ## The strings here are used to display information about the origin of activity happening on a user's account
 ## For example, when connecting another device to the user's account
@@ -644,6 +651,9 @@ nav-email-comm = Komunikacija e-poštom
 
 tfa-replace-code-1-2 = Korak 1 od 2
 tfa-replace-code-2-2 = Korak 2 od 2
+
+## PageSetupRecoveryPhone
+
 
 ## Avatar change page
 

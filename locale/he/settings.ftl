@@ -82,6 +82,13 @@ datablock-copy =
     .message = הועתק
 datablock-print =
     .message = הודפס
+
+## Success banners for datablock actions.
+## $count – number of codes
+
+
+##
+
 # Tooltip notification when an account recovery key or one-time use code is copied.
 datablock-inline-copy =
     .message = הועתק
@@ -714,6 +721,9 @@ nav-email-comm = תקשורת בדוא״ל
 
 tfa-replace-code-1-2 = שלב 1 מתוך 2
 tfa-replace-code-2-2 = שלב 2 מתוך 2
+
+## PageSetupRecoveryPhone
+
 
 ## Avatar change page
 

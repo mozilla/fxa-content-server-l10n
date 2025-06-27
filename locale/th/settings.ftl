@@ -91,6 +91,13 @@ datablock-copy =
 datablock-print =
     .message = พิมพ์แล้ว
 
+## Success banners for datablock actions.
+## $count – number of codes
+
+
+##
+
+
 ## DeviceInfoBlock component
 ## The strings here are used to display information about the origin of activity happening on a user's account
 ## For example, when connecting another device to the user's account
@@ -682,6 +689,9 @@ tfa-replace-code-success-1 = รหัสใหม่ได้ถูกสร้
 tfa-replace-code-1-2 = ขั้นตอนที่ 1 จาก 2
 tfa-replace-code-2-2 = ขั้นตอนที่ 2 จาก 2
 tfa-enter-code-to-confirm-v2 = โปรดป้อนหนึ่งในรหัสยืนยันตัวตนสำรองใหม่ของคุณเพื่อยืนยันว่าคุณได้บันทึกรหัสเหล่านี้ไว้แล้ว รหัสยืนยันตัวตนสำรองเดิมของคุณจะถูกปิดใช้งานเมื่อดำเนินการขั้นตอนนี้เสร็จสมบูรณ์แล้ว
+
+## PageSetupRecoveryPhone
+
 
 ## Avatar change page
 

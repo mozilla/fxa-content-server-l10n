@@ -90,6 +90,13 @@ datablock-copy =
     .message = Đã sao chép
 datablock-print =
     .message = Đã in
+
+## Success banners for datablock actions.
+## $count – number of codes
+
+
+##
+
 # Tooltip notification when an account recovery key or one-time use code is copied.
 datablock-inline-copy =
     .message = Đã sao chép
@@ -751,6 +758,9 @@ tfa-replace-code-2-2 = Bước 2/2
 tfa-enter-code-to-confirm-v2 =
     Vui lòng nhập một trong các mã xác thực dự phòng mới của bạn để
     xác nhận rằng bạn đã lưu chúng. Mã xác thực dự phòng cũ của bạn sẽ bị vô hiệu hóa sau khi hoàn tất bước này.
+
+## PageSetupRecoveryPhone
+
 
 ## Avatar change page
 
