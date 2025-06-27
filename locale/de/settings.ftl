@@ -102,7 +102,7 @@ datablock-copy-success =
 datablock-download-success =
     { $count ->
         [one] Code heruntergeladen
-       *[other] Heruntergeladene Codes
+       *[other] Codes heruntergeladen
     }
 datablock-print-success =
     { $count ->
@@ -776,7 +776,7 @@ tfa-enter-code-to-confirm-v2 = Bitte geben Sie einen Ihrer neuen Sicherungs-Auth
 page-2fa-setup-title = Zwei-Schritt-Authentifizierung
 page-2fa-setup-totpinfo-error = Beim Einrichten der Zwei-Schritt-Authentifizierung ist ein Fehler aufgetreten. Versuchen Sie es später erneut.
 # code here refers to "backup authentication code"
-page-2fa-setup-incorrect-backup-code-error = Dieser Code ist nicht korrekt. Erneut versuchen
+page-2fa-setup-incorrect-backup-code-error = Dieser Code ist nicht korrekt. Versuchen Sie es erneut.
 page-2fa-setup-success = Zwei-Schritt-Authentifizierung wurde aktiviert
 
 ## Avatar change page
