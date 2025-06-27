@@ -764,6 +764,10 @@ tfa-enter-code-to-confirm-v2 =
 
 ## PageSetupRecoveryPhone
 
+page-2fa-setup-title = Ταυτοποίηση δύο παραγόντων
+# code here refers to "backup authentication code"
+page-2fa-setup-incorrect-backup-code-error = Αυτός ο κωδικός δεν είναι σωστός. Δοκιμάστε ξανά.
+page-2fa-setup-success = Η ταυτοποίηση δύο παραγόντων έχει ενεργοποιηθεί
 
 ## Avatar change page
 
@@ -1216,6 +1220,7 @@ tfa-row-disable-modal-explain-1 =
 # Shown in an alert bar after two-step authentication is disabled
 tfa-row-disabled-2 = Η ταυτοποίηση δύο παραγόντων απενεργοποιήθηκε
 tfa-row-cannot-disable-2 = Δεν ήταν δυνατή η απενεργοποίηση της ταυτοποίησης δύο παραγόντων
+tfa-row-disable-cannot-verify-session = Δυστυχώς, προέκυψε πρόβλημα με την επιβεβαίωση της συνεδρίας σας
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
