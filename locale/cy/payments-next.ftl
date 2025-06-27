@@ -270,7 +270,7 @@ metadata-description-default = Heb ganfod y dudalen roeddech wedi gofyn amdani.
 
 ## Coupon Error Messages
 
-next-coupon-error-cannot-redeem = Nid oes modd adbrynu'r cod a roesoch - mae gan eich cyfrif danysgrifiad blaenorol i un o'n gwasanaethau.
+next-coupon-error-cannot-redeem = Nid oes modd adbrynu'r cod rydych wedi'i roi - mae gan eich cyfrif danysgrifiad blaenorol i un o'n gwasanaethau.
 next-coupon-error-expired = Mae'r cod hynny wedi dod i ben.
 next-coupon-error-generic = Bu gwall wrth brosesu'r cod. Ceisiwch eto, os gwelwch yn dda.
 next-coupon-error-invalid = Mae'r cod hynny'n annilys.

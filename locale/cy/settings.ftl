@@ -98,19 +98,19 @@ datablock-copy-success =
     { $count ->
         [zero] Codau wedi eu copïo
         [one] Cod wedi'i gopïo
-        [two] Codau wedi eu copïo
-        [few] Codau wedi eu copïo
-        [many] Codau wedi eu copïo
-       *[other] Codau wedi eu copïo
+        [two] God wedi'u copïo
+        [few] Cod wedi'u copïo
+        [many] Chod wedi'u copïo
+       *[other] Cod wedi'u copïo
     }
 datablock-download-success =
     { $count ->
         [zero] Codau wedi'u llwytho i lawr
-        [one] Cod wedi'i lawrlwytho
-        [two] Codau wedi'u llwytho i lawr
-        [few] Codau wedi'u llwytho i lawr
-        [many] Codau wedi'u llwytho i lawr
-       *[other] Codau wedi'u llwytho i lawr
+        [one] Cod wedi'i lwytho i lawr
+        [two] God wedi'u llwytho i lawr
+        [few] Cod wedi'u llwytho i lawr
+        [many] Chod wedi'u llwytho i lawr
+       *[other] Cod wedi'u llwytho i lawr
     }
 datablock-print-success =
     { $count ->
@@ -160,7 +160,7 @@ signup-new-password-label =
 signup-confirm-password-label =
     .label = Ailadrodd y cyfrinair
 signup-submit-button = Creu cyfrif
-post-verify-set-password-submit-button = Dechrau cysoni
+post-verify-set-password-submit-button = Cychwyn cydweddu
 form-reset-password-with-balloon-new-password =
     .label = Cyfrinair newydd
 form-reset-password-with-balloon-confirm-password =
@@ -657,7 +657,7 @@ flow-setup-2fa-more-info-link = Dysgwch fwy am apiau dilysu
 flow-setup-2fa-button = Parhau
 flow-setup-2fa-step-2-instruction = <strong>Cam 2:</strong>Rhowch y cod o'ch ap dilysu.
 flow-setup-2fa-input-label = Rhowch y cod 6 digid
-flow-setup-2fa-code-error = Cod annilys neu wedi dod i ben. Gwiriwch eich app dilysu a rhowch gynnig arall arni.
+flow-setup-2fa-code-error = Cod annilys neu wedi dod i ben. Gwiriwch eich ap dilysu a rhowch gynnig arall arni.
 
 ## The step to choose the two step authentication method in the two step
 ## authentication setup flow.
@@ -786,7 +786,7 @@ tfa-enter-code-to-confirm-v2 = Rhowch un o'ch codau dilysu wrth gefn newydd i ga
 ## PageSetupRecoveryPhone
 
 page-2fa-setup-title = Dilysu dau gam
-page-2fa-setup-totpinfo-error = Bu gwall wrth sefydlu dilysiad dau gam. Ceisiwch eto yn nes ymlaen.
+page-2fa-setup-totpinfo-error = Bu gwall wrth osod dilysiad dau gam. Ceisiwch eto yn nes ymlaen.
 # code here refers to "backup authentication code"
 page-2fa-setup-incorrect-backup-code-error = Nid yw'r cod hwnnw'n gywir. Ceisiwch eto.
 page-2fa-setup-success = Mae dilysu dau gam wedi'i alluogi
@@ -1053,7 +1053,7 @@ tfa-enter-recovery-code-1 =
 
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
-product-promo-monitor-description-v2 = Dewch o hyd i ble mae'ch gwybodaeth breifat yn agored a chymerwch reolaeth
+product-promo-monitor-description-v2 = Dewch o hyd i ble mae'ch manylion preifat wedi'i ddatgelu a chymryd rheolaeth o'r sefyllfa
 # this message will only be shown to users eligible for a special promotion, based on their location (initially USA only)
 # $price - formatted for user locale, in the target market's currency (for launch, always USD)
 # /mo is 'per month'
