@@ -160,6 +160,15 @@ automated-email-reset =
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext-v2 = If you did not authorize this action, please reset your password now at { $resetLink }
+# This message is used by multiple automated emails that notify users of security events on their account
+# "this action" is meant to be a generic term, and could, for example, refer to using a backup authentication code to confirm a password reset
+automated-email-reset-pwd-two-factor =
+    If you didnʼt take this action, then <a data-l10n-name="resetLink">reset your password</a> and <a data-l10n-name="twoFactorSettingsLink">reset two-step authentication</a> right away.
+    For more information, please visit <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
+# Followed by link to https://accounts.firefox.com/reset_password
+automated-email-reset-pwd-plaintext-v3 = If you didnʼt take this action, then reset your password right away at:
+# Followed by link to https://accounts.firefox.com/settings#two-step-authentication
+automated-email-reset-two-factor-plaintext = Also, reset two-step authentication at:
 brand-banner-message = Did you know we changed our name from { -product-firefox-accounts } to { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Learn more</a>
 cancellationSurvey = Please help us improve our services by taking this <a data-l10n-name="cancellationSurveyUrl">short survey</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
@@ -370,6 +379,11 @@ passwordResetAccountRecovery-information = We logged you out of all your synced 
 # After the colon there is a link to account settings
 passwordResetAccountRecovery-information-txt = We logged you out of all your synced devices. We created a new account recovery key to replace the one you used. You can change it in your account settings:
 passwordResetAccountRecovery-action-4 = Manage account
+passwordResetRecoveryPhone-subject = Recovery phone used
+passwordResetRecoveryPhone-preview = Check to make sure this was you
+passwordResetRecoveryPhone-title = Your recovery phone was used to confirm a password reset
+passwordResetRecoveryPhone-device = Recovery phone used from:
+passwordResetRecoveryPhone-action = Manage account
 passwordResetWithRecoveryKeyPrompt-subject = Your password has been reset
 passwordResetWithRecoveryKeyPrompt-title = Your password has been reset
 # Details of the device and date/time where the password was reset
@@ -402,8 +416,16 @@ postAddRecoveryPhone-how-protect = How this protects your account
 postAddRecoveryPhone-how-protect-plaintext = How this protects your account:
 postAddRecoveryPhone-enabled-device = You enabled it from:
 postAddRecoveryPhone-action = Manage account
+postAddTwoStepAuthentication-subject-v3 = Two-step authentication is on
 postAddTwoStepAuthentication-title-2 = You turned on two-step authentication
+# After the colon, there is a description of the device that the user used to enable two-step authentication
+postAddTwoStepAuthentication-from-device-v2 = You requested this from:
 postAddTwoStepAuthentication-action = Manage account
+postAddTwoStepAuthentication-code-required-v3 = You now need to use your authenticator app every time you sign in.
+postAddTwoStepAuthentication-recovery-method-codes = You also added backup authentication codes as your recovery method.
+# Variables:
+#  $maskedPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
+postAddTwoStepAuthentication-recovery-method-phone = You also added { $maskedPhoneNumber } as your recovery phone number.
 postChangeAccountRecovery-subject = Account recovery key changed
 postChangeAccountRecovery-title = You changed your account recovery key
 postChangeAccountRecovery-body-part1 = You now have a new account recovery key. Your previous key was deleted.
@@ -420,6 +442,7 @@ postChangeRecoveryPhone-preview = Account protected by two-step authentication
 postChangeRecoveryPhone-title = You changed your recovery phone
 postChangeRecoveryPhone-description = You now have a new recovery phone. Your previous phone number was deleted.
 postChangeRecoveryPhone-requested-device = You requested it from:
+postConsumeRecoveryCode-title-3 = Your backup authentication code was used to confirm a password reset
 postConsumeRecoveryCode-action = Manage account
 postNewRecoveryCodes-subject-2 = New backup authentication codes created
 postNewRecoveryCodes-title-2 = You created new backup authentication codes
