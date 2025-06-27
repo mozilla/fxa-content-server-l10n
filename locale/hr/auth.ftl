@@ -41,7 +41,7 @@ fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozil
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Sinkroniziraj uređaje">
 body-devices-image = <img data-l10n-name="devices-image" alt="Uređaji">
 fxa-privacy-url = { -brand-mozilla } politika privatnosti
-moz-accounts-privacy-url-2 = Obavijest o privatnosti za { -product-mozilla-accounts(capitalization: "uppercase") }
+moz-accounts-privacy-url-2 = Napomena o privatnosti za { -product-mozilla-accounts(capitalization: "uppercase") }
 moz-accounts-terms-url = Uvjeti usluge za { -product-mozilla-accounts(capitalization: "uppercase") }
 subplat-header-mozilla-logo-2 = <img data-l10n-name="subplat-mozilla-logo" alt="{ -brand-mozilla } logotip">
 subplat-footer-mozilla-logo-2 = <img data-l10n-name="mozilla-logo-footer" alt="{ -brand-mozilla } logotip">
@@ -70,7 +70,7 @@ subplat-reactivate = Ponovo aktiviraj pretplatu
 subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Aktualiziraj podatke naplate
 subplat-privacy-policy = { -brand-mozilla } politika privatnosti
-subplat-privacy-policy-2 = Obavijest o privatnosti za { -product-mozilla-accounts(capitalization: "uppercase") }
+subplat-privacy-policy-2 = Napomena o privatnosti za { -product-mozilla-accounts(capitalization: "uppercase") }
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
 subplat-privacy-policy-plaintext-2 = { subplat-privacy-policy-2 }:
 subplat-moz-terms = Uvjeti usluge za { -product-mozilla-accounts(capitalization: "uppercase") }

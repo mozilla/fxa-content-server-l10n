@@ -551,7 +551,7 @@ msgstr "Rad…"
 
 #: .es5/lib/auth-errors.js:334
 msgid "Could not get Privacy Notice"
-msgstr "Neuspjelo dobavljanje obavijest o privatnosti"
+msgstr "Neuspjelo dobavljanje napomene o privatnosti"
 
 #: .es5/lib/auth-errors.js:338
 msgid "Could not get Terms of Service"
@@ -1319,7 +1319,7 @@ msgstr "Odustani"
 
 #: .es5/templates/pp.mustache:1 .es5/templates/support.mustache:25
 msgid "Privacy Notice"
-msgstr "Politika privatnosti"
+msgstr "Napomena o privatnosti"
 
 #: .es5/templates/ready.mustache:1 .es5/templates/post_verify/verified.mustache:1
 msgid "Success"
