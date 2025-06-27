@@ -649,7 +649,7 @@ subscriptionReplaced-subject = Η συνδρομή σας έχει ενημερ�
 subscriptionReplaced-title = Η συνδρομή σας έχει ενημερωθεί
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReplaced-content-replaced = Η μεμονωμένη συνδρομή σας στο { $productName } έχει αντικατασταθεί και περιλαμβάνεται στο νέο πακέτο σας.
-subscriptionReplaced-content-credit = Θα λάβετε πίστωση για κάθε αχρησιμοποίητο χρόνο από την προηγούμενη συνδρομή σας. Αυτή η πίστωση θα χρησιμοποιηθεί αυτόματα στον λογαριασμό σας και θα χρησιμοποιηθεί για μελλοντικές χρεώσεις.
+subscriptionReplaced-content-credit = Θα λάβετε πίστωση για τυχόν αχρησιμοποίητο χρόνο από την προηγούμενη συνδρομή σας. Αυτή η πίστωση θα προστεθεί αυτόματα στον λογαριασμό σας και θα χρησιμοποιηθεί στις μελλοντικές χρεώσεις.
 subscriptionReplaced-content-no-action = Δεν απαιτείται καμία ενέργεια από την πλευρά σας.
 subscriptionsPaymentExpired-subject-1 = Η πιστωτική κάρτα της συνδρομής σας έχει ή πρόκειται να λήξει σύντομα
 subscriptionsPaymentExpired-title-1 = Η πιστωτική σας κάρτα έχει ή πρόκειται να λήξει
