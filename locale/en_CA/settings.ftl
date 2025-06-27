@@ -94,9 +94,27 @@ datablock-print =
 ## Success banners for datablock actions.
 ## $count – number of codes
 
+datablock-copy-success =
+    { $count ->
+        [one] Code copied
+       *[other] Codes copied
+    }
+datablock-download-success =
+    { $count ->
+        [one] Code downloaded
+       *[other] Codes downloaded
+    }
+datablock-print-success =
+    { $count ->
+        [one] Code printed
+       *[other] Codes printed
+    }
 
 ##
 
+# Tooltip notification when an account recovery key or one-time use code is copied.
+datablock-inline-copy =
+    .message = Copied
 
 ## DeviceInfoBlock component
 ## The strings here are used to display information about the origin of activity happening on a user's account
@@ -130,6 +148,7 @@ signup-new-password-label =
 signup-confirm-password-label =
     .label = Repeat password
 signup-submit-button = Create account
+post-verify-set-password-submit-button = Start syncing
 form-reset-password-with-balloon-new-password =
     .label = New password
 form-reset-password-with-balloon-confirm-password =
@@ -280,6 +299,8 @@ backup-recovery-phone-image-aria-label =
     .aria-label = Mobile device with SMS text message capabilities
 backup-authentication-codes-image-aria-label =
     .aria-label = Device screen with codes
+sync-clouds-image-aria-label =
+    .aria-label = Clouds with a sync icon
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -380,6 +401,10 @@ password-strength-inline-confirmed-must-match = Confirmation matches the new pas
 account-recovery-notification-cta = Create
 account-recovery-notification-header-value = Don’t lose your data if you forget your password
 account-recovery-notification-header-description = Create an account recovery key to restore your sync browsing data if you ever forget your password.
+recovery-phone-promo-cta = Add recovery phone
+recovery-phone-promo-heading = Add extra protection to your account with a recovery phone
+recovery-phone-promo-description = Now you can sign in with a one-time-password via SMS if you can’t use your two-step authenticator app.
+recovery-phone-promo-info-link = Learn more about recovery and SIM swap risk
 
 ## Ready component
 

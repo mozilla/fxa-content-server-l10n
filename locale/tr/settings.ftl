@@ -94,6 +94,21 @@ datablock-print =
 ## Success banners for datablock actions.
 ## $count – number of codes
 
+datablock-copy-success =
+    { $count ->
+        [one] Kod kopyalandı
+       *[other] Kodlar kopyalandı
+    }
+datablock-download-success =
+    { $count ->
+        [one] Kod indirildi
+       *[other] Kodlar indirildi
+    }
+datablock-print-success =
+    { $count ->
+        [one] Kod yazdırıldı
+       *[other] Kodlar yazdırıldı
+    }
 
 ##
 
@@ -627,6 +642,7 @@ flow-setup-2fa-more-info-link = Kimlik doğrulama uygulamaları hakkında daha f
 flow-setup-2fa-button = İleri
 flow-setup-2fa-step-2-instruction = <strong>2. adım:</strong> Kimlik doğrulama uygulamanızdaki kodu yazın.
 flow-setup-2fa-input-label = 6 basamaklı kodu yazın
+flow-setup-2fa-code-error = Kod geçersiz veya süresi dolmuş. Kimlik doğrulama uygulamanızı kontrol edip yeniden deneyin.
 
 ## The step to choose the two step authentication method in the two step
 ## authentication setup flow.
@@ -656,6 +672,7 @@ flow-setup-2fa-backup-code-confirm-button-finish = Bitir
 ## The backup codes download step of the setup 2 factor authentication flow
 
 flow-setup-2fa-backup-code-dl-heading = Yedek kimlik doğrulama kodlarını kaydedin
+flow-setup-2fa-backup-code-dl-save-these-codes = Bunları unutmayacağınız bir yerde saklayın. Kimlik doğrulama uygulamanıza erişiminiz olmadığında giriş yapmak için bu kodlardan birini girmeniz gerekecek.
 flow-setup-2fa-backup-code-dl-button-continue = İleri
 
 ## FlowSetupPhoneConfirmCode
@@ -752,6 +769,11 @@ tfa-enter-code-to-confirm-v2 =
 
 ## PageSetupRecoveryPhone
 
+page-2fa-setup-title = İki aşamalı doğrulama
+page-2fa-setup-totpinfo-error = İki aşamalı doğrulama ayarlanırken bir hata oluştu. Daha sonra yeniden deneyin.
+# code here refers to "backup authentication code"
+page-2fa-setup-incorrect-backup-code-error = Bu kod doğru değil. Yeniden deneyin.
+page-2fa-setup-success = İki aşamalı kimlik doğrulama etkinleştirildi
 
 ## Avatar change page
 
@@ -1186,6 +1208,7 @@ tfa-row-disable-modal-explain-1 = Bu işlemi geri alamazsınız. İsterseniz <li
 # Shown in an alert bar after two-step authentication is disabled
 tfa-row-disabled-2 = İki aşamalı kimlik doğrulama kapatıldı
 tfa-row-cannot-disable-2 = İki aşamalı doğrulama devre dışı bırakılamadı
+tfa-row-disable-cannot-verify-session = Oturumunuz onaylanırken bir sorun oluştu
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
@@ -1534,6 +1557,8 @@ pair-unsupported-message = Sistem kamerasını mı kullandınız? Bir { -brand-f
 # password to complete their sign-in when they want to login to a service requiring it.
 
 set-password-heading-v2 = Eşitleme için parola oluşturun
+# "This" refers to the heading, "Create password to sync"
+set-password-info-v2 = Bu işlem verilerinizi şifreler. { -brand-google } veya { -brand-apple } hesabınızın parolasından farklı olmalıdır.
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
