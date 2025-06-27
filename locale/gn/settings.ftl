@@ -99,6 +99,16 @@ datablock-copy-success =
         [one] Ayvu monguatiapyre
        *[other] Ayvukuéra monguatiapyre
     }
+datablock-download-success =
+    { $count ->
+        [one] Ayvu mboguejypyre
+       *[other] Ayvukuéra mboguejypyre
+    }
+datablock-print-success =
+    { $count ->
+        [one] Ayvu Ikuatiapyréva
+       *[other] Ayvukuéra Ikuatiapyréva
+    }
 
 ##
 
@@ -631,6 +641,7 @@ flow-setup-2fa-more-info-link = Eikuaave tembiporu’i ñemoneĩrã rehegua
 flow-setup-2fa-button = Ku’ejey
 flow-setup-2fa-step-2-instruction = <strong>Ku’e 1:</strong> Emoinge ko ayvu ne rembiporu’i ñemoneĩrã.
 flow-setup-2fa-input-label = Emoinge ayvu 6 taíva
+flow-setup-2fa-code-error = Ayvu oiko’ỹ térã opámava. Ehecha tembiporu’i ñemoneĩha ha eha’ã ag̃ave.
 
 ## The step to choose the two step authentication method in the two step
 ## authentication setup flow.
@@ -751,6 +762,8 @@ tfa-enter-code-to-confirm-v2 = Ikatúpiko, ehai peteĩva umi ayvu ñemoneĩrã p
 
 ## PageSetupRecoveryPhone
 
+page-2fa-setup-title = Ñemoneĩ mokõi jeku’épe
+page-2fa-setup-totpinfo-error = Oiko jejavy embohekokuévo ñemoneĩ mokõi jeku’egua. Eha’ãjey ag̃amieve.
 
 ## Avatar change page
 
