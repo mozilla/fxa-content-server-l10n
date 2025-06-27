@@ -645,6 +645,7 @@ flow-setup-2fa-more-info-link = Les mer om autentiseringsapper
 flow-setup-2fa-button = Fortsett
 flow-setup-2fa-step-2-instruction = <strong>Trinn 2:</strong> Skriv inn koden fra autentiseringsappen din.
 flow-setup-2fa-input-label = Skriv inn 6-sifret kode
+flow-setup-2fa-code-error = Ugyldig eller utløpt kode. Sjekk autentiseringsappen din og prøv på nytt.
 
 ## The step to choose the two step authentication method in the two step
 ## authentication setup flow.
