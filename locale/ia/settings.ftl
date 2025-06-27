@@ -99,6 +99,16 @@ datablock-copy-success =
         [one] Codice copiate
        *[other] Codices copiate
     }
+datablock-download-success =
+    { $count ->
+        [one] Codice discargate
+       *[other] Codices discargate
+    }
+datablock-print-success =
+    { $count ->
+        [one] Codice imprimite
+       *[other] Codices imprimite
+    }
 
 ##
 
@@ -639,6 +649,7 @@ flow-setup-2fa-more-info-link = Discoperi le apps de authentication
 flow-setup-2fa-button = Continuar
 flow-setup-2fa-step-2-instruction = <strong>Passo 2:</strong> Insere le codice de tu app de authentication.
 flow-setup-2fa-input-label = Insere le codice de 6 digitos
+flow-setup-2fa-code-error = Codice invalide o expirate. Controla tu  application authenticator e retenta.
 
 ## The step to choose the two step authentication method in the two step
 ## authentication setup flow.
@@ -765,6 +776,11 @@ tfa-enter-code-to-confirm-v2 =
 
 ## PageSetupRecoveryPhone
 
+page-2fa-setup-title = Authentication a duo passos
+page-2fa-setup-totpinfo-error = Il habeva un error configurante le authentication a duo passos. Retenta.
+# code here refers to "backup authentication code"
+page-2fa-setup-incorrect-backup-code-error = Iste codice non es correcte. Retenta.
+page-2fa-setup-success = Authentication a duo passos activate
 
 ## Avatar change page
 
@@ -1218,6 +1234,7 @@ tfa-row-disable-modal-explain-1 =
 # Shown in an alert bar after two-step authentication is disabled
 tfa-row-disabled-2 = Authentication a duo passos disactivate
 tfa-row-cannot-disable-2 = Impossibile disactivar authentication a duo passos
+tfa-row-disable-cannot-verify-session = Desolate, problema a confirmar tu session
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
