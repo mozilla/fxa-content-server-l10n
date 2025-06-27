@@ -431,6 +431,9 @@ postChangeRecoveryPhone-preview = Kontoen er verna av tostegs-godkjenning
 postChangeRecoveryPhone-title = Du endra gjenopprettingstelefon
 postChangeRecoveryPhone-description = Du har no ein ny gjenopprettingstelefon. Det førre telefon-nummeret ditt vart sletta.
 postChangeRecoveryPhone-requested-device = Du ba om det frå:
+# After the colon, there is description of the device that the backup authentication code was used on
+# E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
+postConsumeRecoveryCode-description-3 = Kode brukt frå:
 postConsumeRecoveryCode-action = Handsam kontoen
 postNewRecoveryCodes-subject-2 = Nye reserve-godkjenningskodar oppretta
 postNewRecoveryCodes-title-2 = Du oppretta nye reserve-godkjenningskodar
