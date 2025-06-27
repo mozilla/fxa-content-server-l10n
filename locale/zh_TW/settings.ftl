@@ -94,6 +94,9 @@ datablock-print =
 ## Success banners for datablock actions.
 ## $count – number of codes
 
+datablock-copy-success = 已複製代碼
+datablock-download-success = 已下載代碼
+datablock-print-success = 已列印代碼
 
 ##
 
@@ -628,6 +631,7 @@ flow-setup-2fa-more-info-link = 了解驗證程式的更多資訊
 flow-setup-2fa-button = 繼續
 flow-setup-2fa-step-2-instruction = <strong>第 2 步：</strong>使用驗證程式產生的驗證碼。
 flow-setup-2fa-input-label = 請輸入六位數的驗證碼
+flow-setup-2fa-code-error = 代碼無效或已失效，請確認您的驗證器程式後再試一次。
 
 ## The step to choose the two step authentication method in the two step
 ## authentication setup flow.
@@ -752,6 +756,11 @@ tfa-enter-code-to-confirm-v2 = 請輸入您的任一組備用驗證碼，以確�
 
 ## PageSetupRecoveryPhone
 
+page-2fa-setup-title = 兩階段驗證
+page-2fa-setup-totpinfo-error = 設定兩階段驗證時發生錯誤，請稍後再試。
+# code here refers to "backup authentication code"
+page-2fa-setup-incorrect-backup-code-error = 備用驗證碼不正確，請再試一次。
+page-2fa-setup-success = 已開啟兩階段驗證
 
 ## Avatar change page
 
@@ -1184,6 +1193,7 @@ tfa-row-disable-modal-explain-1 = 將無法還原此動作。您還可以<linkEx
 # Shown in an alert bar after two-step authentication is disabled
 tfa-row-disabled-2 = 已關閉兩階段驗證
 tfa-row-cannot-disable-2 = 無法停用兩階段驗證
+tfa-row-disable-cannot-verify-session = 很抱歉，確認您的連線階段時發生問題
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
