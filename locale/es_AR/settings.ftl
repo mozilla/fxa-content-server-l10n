@@ -776,7 +776,7 @@ page-2fa-setup-title = Autenticación de dos pasos
 page-2fa-setup-totpinfo-error = Hubo un error configurando la autenticación de dos pasos. Probá de nuevo más tarde.
 # code here refers to "backup authentication code"
 page-2fa-setup-incorrect-backup-code-error = Ese código no es correcto. Probá de nuevo.
-page-2fa-setup-success = Se habilitó la autenticación en dos pasos
+page-2fa-setup-success = Se habilitó la autenticación de dos pasos
 
 ## Avatar change page
 
