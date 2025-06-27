@@ -23,18 +23,6 @@
 ## Checklist of newsletters that the user can choose to sign up to
 
 
-## ChooseWhatToSync component
-## Checklist of services/information that can be synced across signed in devices
-
-choose-what-to-sync-option-bookmarks =
-    .label = बुकमार्क
-choose-what-to-sync-option-history =
-    .label = इतिहास
-choose-what-to-sync-option-passwords =
-    .label = पासवर्ड
-choose-what-to-sync-option-addons =
-    .label = ऐड-ऑन
-
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
@@ -489,7 +477,9 @@ pair-supp-allow-cancel-link = रद्द करें
 
 ## SetPassword page
 ## Third party auth users that do not have a password set yet are prompted for a
-## password to complete their sign-in when they want to login to a service requiring it.
+
+
+# password to complete their sign-in when they want to login to a service requiring it.
 
 
 ## ThirdPartyAuthCallback Page

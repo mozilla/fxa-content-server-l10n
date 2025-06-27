@@ -104,6 +104,29 @@ datablock-copy =
 datablock-print =
   .message = Printed
 
+## Success banners for datablock actions.
+## $count – number of codes
+
+datablock-copy-success =
+  { $count ->
+      [one]  Code copied
+      *[other] Codes copied
+  }
+
+datablock-download-success =
+  { $count ->
+      [one]  Code downloaded
+      *[other] Codes downloaded
+  }
+
+datablock-print-success =
+  { $count ->
+      [one]  Code printed
+      *[other] Codes printed
+  }
+
+##
+
 # Tooltip notification when an account recovery key or one-time use code is copied.
 datablock-inline-copy =
   .message = Copied
@@ -683,7 +706,7 @@ flow-setup-2fa-button = Continue
 
 flow-setup-2fa-step-2-instruction = <strong>Step 2:</strong> Enter the code from your authenticator app.
 flow-setup-2fa-input-label = Enter 6-digit code
-
+flow-setup-2fa-code-error = Invalid or expired code. Check your authenticator app and try again.
 ##
 
 ## The step to choose the two step authentication method in the two step
@@ -826,6 +849,16 @@ tfa-replace-code-1-2 = Step 1 of 2
 tfa-replace-code-2-2 = Step 2 of 2
 
 tfa-enter-code-to-confirm-v2 = Please enter one of your new backup authentication codes to confirm that you have saved them. Your old backup authentication codes will be disabled once this step is completed.
+
+## PageSetupRecoveryPhone
+
+page-2fa-setup-title = Two-step authentication
+page-2fa-setup-totpinfo-error = There was an error setting up two-step authentication. Try again later.
+# code here refers to "backup authentication code"
+page-2fa-setup-incorrect-backup-code-error = That code is not correct. Try again.
+page-2fa-setup-success = Two-step authentication has been enabled
+
+##
 
 ## Avatar change page
 
@@ -1029,7 +1062,6 @@ settings-recovery-phone-remove-success = Recovery phone removed
 
 page-setup-recovery-phone-heading = Add recovery phone
 page-change-recovery-phone = Change recovery phone
-
 page-setup-recovery-phone-back-button-title = Back to settings
 # Back arrow to return to step 1 of recovery phone setup flow
 page-setup-recovery-phone-step2-back-button-title = Change phone number
@@ -1320,6 +1352,7 @@ tfa-row-disable-modal-explain-1 = You won’t be able to undo this action. You a
 # Shown in an alert bar after two-step authentication is disabled
 tfa-row-disabled-2 = Two-step authentication disabled
 tfa-row-cannot-disable-2 = Two-step authentication could not be disabled
+tfa-row-disable-cannot-verify-session = Sorry, there was a problem confirming your session
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
