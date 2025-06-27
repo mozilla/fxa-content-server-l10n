@@ -94,6 +94,21 @@ datablock-print =
 ## Success banners for datablock actions.
 ## $count – number of codes
 
+datablock-copy-success =
+    { $count ->
+        [one] Koade kopiearre
+       *[other] Koaden kopiearre
+    }
+datablock-download-success =
+    { $count ->
+        [one] Koade download
+       *[other] Koaden download
+    }
+datablock-print-success =
+    { $count ->
+        [one] Koade ôfdrukt
+       *[other] Koaden ôfdrukt
+    }
 
 ##
 
@@ -636,6 +651,7 @@ flow-setup-2fa-more-info-link = Mear ynfo oer autentikaasje-apps
 flow-setup-2fa-button = Trochgean
 flow-setup-2fa-step-2-instruction = <strong>Stap 2:</strong> fier de koade fan jo autentikaasje-app yn.
 flow-setup-2fa-input-label = Fier 6-siferige koade yn
+flow-setup-2fa-code-error = Unjildige of ferrûne koade. Kontrolearje jo autentikaasje-app en probearje it opnij.
 
 ## The step to choose the two step authentication method in the two step
 ## authentication setup flow.
@@ -765,6 +781,8 @@ tfa-enter-code-to-confirm-v2 =
 
 ## PageSetupRecoveryPhone
 
+page-2fa-setup-title = Autentikaasje yn twa stappen
+page-2fa-setup-totpinfo-error = Der is in flater bard by it ynstellen fan twastapsautentikaasje. Probearje it letter opnij.
 
 ## Avatar change page
 
