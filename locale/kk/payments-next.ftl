@@ -204,6 +204,14 @@ upgrade-purchase-details-new-plan-yearly = { $productName } (жыл сайын)
 
 # Checkout error
 metadata-title-checkout-error = Қате | { $productTitle }
+# Upgrade error
+metadata-title-upgrade-error = Қате | { $productTitle }
+metadata-description-upgrade-error = Жаңартуды өңдеу кезінде қате орын алды. Бұл мәселе шешілмесе, қолдау қызметіне хабарласыңыз.
+# Upgrade success
+metadata-title-upgrade-success = Сәтті | { $productTitle }
+metadata-description-upgrade-success = Құттықтаймыз! Сіз жаңартуды сәтті аяқтадыңыз.
+# Upgrade needs_input
+metadata-title-upgrade-needs-input = Әрекет қажет | { $productTitle }
 
 ## Coupon Error Messages
 

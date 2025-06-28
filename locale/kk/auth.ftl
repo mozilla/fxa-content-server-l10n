@@ -257,6 +257,7 @@ fraudulentAccountDeletion-contact = Сұрақтарыңыз болса, біз�
 # Variables:
 #  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
 fraudulentAccountDeletion-contact-plaintext = Сұрақтарыңыз болса, біздің қолдау көрсету тобымызға хабарласыңыз: { $mozillaSupportUrl }
+inactiveAccountFinalWarning-preview = Тіркелгіңізді сақтау үшін жүйеге кіріңіз
 inactiveAccountFinalWarning-action = Тіркелгіңізді сақтау үшін жүйеге кіріңіз
 # followed by link to sign in
 inactiveAccountFinalWarning-action-plaintext = Тіркелгіңізді сақтау үшін жүйеге кіріңіз:
@@ -323,6 +324,8 @@ passwordResetAccountRecovery-information = Сізді барлық синхро�
 # After the colon there is a link to account settings
 passwordResetAccountRecovery-information-txt = Сізді барлық синхрондалған құрылғылардан жүйеден шығардық. Сіз пайдаланған кілтті ауыстыру үшін тіркелгіні қалпына келтірудің жаға кілтін жасадық. Оны тіркелгі параметрлерінде өзгертуге болады:
 passwordResetAccountRecovery-action-4 = Тіркелгіні басқару
+passwordResetRecoveryPhone-subject = Қалпына келтіру телефоны пайдаланылды
+passwordResetRecoveryPhone-action = Тіркелгіні басқару
 passwordResetWithRecoveryKeyPrompt-subject = Пароліңіз тасталды
 passwordResetWithRecoveryKeyPrompt-title = Пароліңіз тасталды
 # Details of the device and date/time where the password was reset
@@ -345,12 +348,17 @@ postAddLinkedAccount-subject-2 = Сіздің { -product-mozilla-account } іш�
 postAddLinkedAccount-title-2 = Сіздің { $providerName } тіркелгіңіз { -product-mozilla-account } ішіне байланыстырылды.
 postAddLinkedAccount-action = Тіркелгіні басқару
 postAddRecoveryPhone-subject = Қалпына келтіру телефоны қосылды
+postAddRecoveryPhone-preview = Тіркелгі екі факторлы аутентификациямен қорғалған
 postAddRecoveryPhone-title-v2 = Сіз қалпына келтіру телефон нөмірін қостыңыз
+# Variables:
+#  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
+postAddRecoveryPhone-description-v2 = Сіз қалпына келтіру телефон нөмірі ретінде { $maskedLastFourPhoneNumber } қостыңыз
 # Links out to a support article about two factor authentication
 postAddRecoveryPhone-how-protect = Бұл сіздің тіркелгіңізді қалай қорғайды
 postAddRecoveryPhone-how-protect-plaintext = Бұл сіздің тіркелгіңізді қалай қорғайды:
 postAddRecoveryPhone-enabled-device = Сіз оны келесі жерден іске қостыңыз:
 postAddRecoveryPhone-action = Тіркелгіні басқару
+postAddTwoStepAuthentication-subject-v3 = Екі қадамды аутентификация іске қосылған
 postAddTwoStepAuthentication-title-2 = Сіз екі қадамды аутентификацияны іске қостыңыз
 postAddTwoStepAuthentication-action = Тіркелгіні басқару
 postChangeAccountRecovery-subject = Тіркелгіні қалпына келтіру кілті өзгертілді
