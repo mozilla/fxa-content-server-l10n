@@ -380,6 +380,9 @@ passwordResetAccountRecovery-information-txt = 동기화된 모든 기기에서 
 passwordResetAccountRecovery-action-4 = 계정 관리
 passwordResetRecoveryPhone-subject = 사용된 복구 전화번호
 passwordResetRecoveryPhone-preview = 본인인지 확인하세요.
+passwordResetRecoveryPhone-title = 비밀번호 재설정을 확인하는데 복구 전화번호가 사용되었습니다.
+passwordResetRecoveryPhone-device = 다음에서 복구 전화 사용됨:
+passwordResetRecoveryPhone-action = 계정 관리
 passwordResetWithRecoveryKeyPrompt-subject = 비밀번호가 재설정되었습니다
 passwordResetWithRecoveryKeyPrompt-title = 비밀번호가 재설정되었습니다
 # Details of the device and date/time where the password was reset
@@ -412,8 +415,16 @@ postAddRecoveryPhone-how-protect = 계정을 보호하는 방법
 postAddRecoveryPhone-how-protect-plaintext = 계정을 보호하는 방법:
 postAddRecoveryPhone-enabled-device = 다음에서 활성화했습니다:
 postAddRecoveryPhone-action = 계정 관리
+postAddTwoStepAuthentication-subject-v3 = 2단계 인증이 켜져 있습니다
 postAddTwoStepAuthentication-title-2 = 2단계 인증을 켰습니다
+# After the colon, there is a description of the device that the user used to enable two-step authentication
+postAddTwoStepAuthentication-from-device-v2 = 다음에서 요청함:
 postAddTwoStepAuthentication-action = 계정 관리
+postAddTwoStepAuthentication-code-required-v3 = 이제 로그인할 때마다 인증 앱을 사용해야 합니다.
+postAddTwoStepAuthentication-recovery-method-codes = 복구 방법으로 백업 인증 코드도 추가했습니다.
+# Variables:
+#  $maskedPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
+postAddTwoStepAuthentication-recovery-method-phone = 복구 전화번호로 { $maskedPhoneNumber }도 추가하였습니다.
 postChangeAccountRecovery-subject = 계정 복구 키 변경됨
 postChangeAccountRecovery-title = 계정 복구 키를 변경했습니다.
 postChangeAccountRecovery-body-part1 = 새로운 계정 복구 키가 생성되었습니다. 이전 키는 삭제되었습니다.
@@ -430,6 +441,7 @@ postChangeRecoveryPhone-preview = 2단계 인증으로 보호되는 계정
 postChangeRecoveryPhone-title = 복구 전화번호를 변경했습니다.
 postChangeRecoveryPhone-description = 새로운 계정 복구 전화번호가 생성되었습니다. 이전 전화번호는 삭제되었습니다.
 postChangeRecoveryPhone-requested-device = 다음에서 요청했습니다:
+postConsumeRecoveryCode-title-3 = 백업 인증 코드가 비밀번호 재설정 확인에 사용되었습니다.
 postConsumeRecoveryCode-action = 계정 관리
 postNewRecoveryCodes-subject-2 = 새 백업 인증 코드가 생성됨
 postNewRecoveryCodes-title-2 = 새 백업 인증 코드를 생성했습니다

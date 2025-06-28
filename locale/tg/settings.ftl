@@ -1047,6 +1047,8 @@ auth-totp-code-required-error = Рамзи санҷиши ҳаққоният л�
 
 ## Pair index page
 
+pair-sync-header = Ҳамоҳангсозии «{ -brand-firefox }» дар телефон ва планшет
+pair-cad-header = «{ -brand-firefox }»-ро дар дастгоҳи дигар пайваст кунед
 # Clicking this button initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox
 pair-sync-your-device-button = Дастгоҳи худро ҳамоҳанг созед
 # This is a heading element immediately preceded by "Sync your device" and followed by a link and QR code to download Firefox
@@ -1143,10 +1145,24 @@ reset-password-complete-header = Ниҳонвожаи шумо аз нав ба�
 
 # password, and they previously had set up an account recovery method.
 
+password-reset-recovery-method-header = Барқарор кардани ниҳонвожаи худ
+password-reset-recovery-method-subheader = Тарзи барқарорсозиро интихоб кунед
 password-reset-recovery-method-phone = Телефони барқарорсозӣ
 
 ## ResetPasswordRecoveryPhone page
 
+reset-password-recovery-phone-flow-heading = Барқарор кардани ниҳонвожаи худ
+# A recovery code in context of this page is a one time code sent to the user's phone
+reset-password-recovery-phone-heading = Рамзи барқарорсозиро ворид кунед
+reset-password-recovery-phone-input-label = Рамзи 6-рақамро ворид кунед
+reset-password-recovery-phone-code-submit-button = Тасдиқ кардан
+reset-password-recovery-phone-resend-code-button = Аз нав фиристодани рамз
+reset-password-recovery-phone-resend-success = Рамз фиристода шуд
+# links to https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+reset-password-recovery-phone-locked-out-link = Ҳисоби шумо қулф шудааст?
+reset-password-recovery-phone-send-code-error-heading = Ҳангоми фиристодани рамз мушкилӣ ба миён омад
+# Follows the error message (e.g, "There was a problem sending a code")
+reset-password-recovery-phone-general-error-description = Лутфан, баъдтар аз нав кӯшиш кунед.
 reset-password-with-recovery-key-verified-page-title = Ниҳонвожа бо муваффақият аз нав танзим карда шуд
 reset-password-complete-new-password-saved = Ниҳонвожаи нав нигоҳ дошта шуд!
 
@@ -1204,6 +1220,7 @@ signin-push-code-confirm-link-error = Пайванд вайрон шудааст
 ## their password, and they previously had set up an account recovery method.
 
 signin-recovery-method-header = Ворид шудан
+signin-recovery-method-subheader = Тарзи барқарорсозиро интихоб кунед
 signin-recovery-method-phone = Телефони барқарорсозӣ
 signin-recovery-method-code-v2 = Нусхаи эҳтиётии рамзҳои санҷиши ҳаққоният
 
@@ -1278,6 +1295,7 @@ signin-unblock-code-input = Рамзи санҷиши дастрасиро во�
 signin-unblock-submit-button = Идома додан
 # Shown when the user attempts to submit the form without including a code
 signin-unblock-code-required-error = Рамзи санҷиши дастрасӣ лозим аст
+signin-unblock-support-link = Чаро ин ба вуҷуд меояд?
 
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
@@ -1290,6 +1308,7 @@ confirm-signup-code-page-title = Рамзи тасдиқкунандаро во�
 confirm-signup-code-input-label = Рамзи 6-рақамро ворид кунед
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = Тасдиқ кардан
+confirm-signup-code-sync-button = Оғози ҳамоҳангсозӣ
 confirm-signup-code-code-expired = Муҳлати рамз ба анҷом расид?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Рамзи наверо ба почтаи электронӣ ирсол намоед.
@@ -1300,6 +1319,9 @@ confirm-signup-code-is-required-error = Рамзи тасдиқкунанда л
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
+signup-heading-v2 = Эҷод кардани ниҳонвожа
+# Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
+signup-change-email-link = Иваз кардани почтаи электронӣ
 
 ## SignupConfirmedSync page
 ## Shown to users when they finish confirming their account through Sync
