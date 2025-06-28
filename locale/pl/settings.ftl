@@ -151,6 +151,7 @@ signup-new-password-label =
 signup-confirm-password-label =
     .label = Powtórz hasło
 signup-submit-button = Utwórz konto
+post-verify-set-password-submit-button = Zacznij synchronizować
 form-reset-password-with-balloon-new-password =
     .label = Nowe hasło
 form-reset-password-with-balloon-confirm-password =
@@ -1750,6 +1751,7 @@ signin-password-button-label = Hasło
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-desktop-relay = { -brand-firefox } po zalogowaniu spróbuje odesłać Cię do użycia maski dla adresu e-mail.
+signin-code-expired-error = Kod wygasł. Zaloguj się ponownie.
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
@@ -1943,6 +1945,7 @@ confirm-signup-code-instruction-v2 = Wpisz kod potwierdzenia wysłany na adres <
 confirm-signup-code-input-label = Wpisz sześciocyfrowy kod
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = Potwierdź
+confirm-signup-code-sync-button = Zacznij synchronizować
 confirm-signup-code-code-expired = Kod wygasł?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Wyślij nowy.
@@ -1960,6 +1963,7 @@ confirm-signup-code-desktop-relay = { -brand-firefox } po zalogowaniu spróbuje 
 signup-heading-v2 = Utwórz hasło
 signup-relay-info = Hasło jest potrzebne do bezpiecznego zarządzania zamaskowanymi adresami e-mail i do dostępu do narzędzi bezpieczeństwa { -brand-mozilla(case: "gen") }.
 signup-sync-info = Synchronizuj hasła, zakładki i nie tylko wszędzie tam, gdzie używasz { -brand-firefox(case: "acc") }.
+signup-sync-info-with-payments = Synchronizuj hasła, metody płatności, zakładki i inne dane wszędzie tam, gdzie używasz { -brand-firefox(case: "acc") }.
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = Dlaczego muszę założyć to konto?
 # Link included in a dismissible info banner that is only displayed to Pocket clients
@@ -1972,3 +1976,11 @@ signup-change-email-link = Zmień adres e-mail
 ## Shown to users when they finish confirming their account through Sync
 
 signup-confirmed-sync-header = Synchronizacja jest włączona
+signup-confirmed-sync-success-banner = Potwierdzono { -product-mozilla-account(capitalization: "lower") }
+signup-confirmed-sync-button = Zacznij przeglądać Internet
+# Shown when payment methods are also synced
+signup-confirmed-sync-description-with-payment-v2 = Twoje hasła, metody płatności, adresy, zakładki, historia i inne dane mogą być synchronizowane wszędzie tam, gdzie używasz { -brand-firefox(case: "acc") }.
+signup-confirmed-sync-description-v2 = Twoje hasła, adresy, zakładki, historia i inne dane mogą być synchronizowane wszędzie tam, gdzie używasz { -brand-firefox(case: "acc") }.
+signup-confirmed-sync-add-device-link = Dodaj nowe urządzenie
+signup-confirmed-sync-manage-sync-button = Zarządzaj synchronizacją
+signup-confirmed-sync-set-password-success-banner = Utworzono hasło synchronizacji
