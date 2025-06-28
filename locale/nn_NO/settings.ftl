@@ -1920,5 +1920,6 @@ signup-change-email-link = Endre e-post
 
 signup-confirmed-sync-header = Synkronisering er slått på
 signup-confirmed-sync-button = Start nettlesinga
+signup-confirmed-sync-add-device-link = Legg til ei anna eining
 signup-confirmed-sync-manage-sync-button = Handsam synkronisering
 signup-confirmed-sync-set-password-success-banner = Synkroniseringspassord oppretta
