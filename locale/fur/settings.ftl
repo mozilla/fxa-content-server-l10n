@@ -94,6 +94,21 @@ datablock-print =
 ## Success banners for datablock actions.
 ## $count – number of codes
 
+datablock-copy-success =
+    { $count ->
+        [one] Codiç copiâ
+       *[other] Codiçs copiâts
+    }
+datablock-download-success =
+    { $count ->
+        [one] Codiç discjariât
+       *[other] Codiçs discjariâts
+    }
+datablock-print-success =
+    { $count ->
+        [one] Codiç stampât
+       *[other] Codiçs stampâts
+    }
 
 ##
 
@@ -630,6 +645,7 @@ flow-setup-2fa-more-info-link = Altris informazions su lis aplicazions di autent
 flow-setup-2fa-button = Continue
 flow-setup-2fa-step-2-instruction = <strong>Passaç 2:</strong> inserìs il codiç de aplicazion di autenticazion.
 flow-setup-2fa-input-label = Inserìs il codiç a 6 cifris
+flow-setup-2fa-code-error = Codiç no valit o scjadût. Controle la aplicazion di autenticazion e torne prove.
 
 ## The step to choose the two step authentication method in the two step
 ## authentication setup flow.
@@ -757,6 +773,7 @@ tfa-enter-code-to-confirm-v2 = Inserìs un dai gnûfs codiçs di autenticazion d
 
 ## PageSetupRecoveryPhone
 
+page-2fa-setup-title = Autenticazion in doi passaçs
 
 ## Avatar change page
 
