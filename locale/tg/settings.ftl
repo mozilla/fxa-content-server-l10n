@@ -343,6 +343,12 @@ legal-back-button = Ба қафо
 # The user followed a password reset link that was received by email
 # but the link is damaged (for example mistyped or broken by the email client)
 reset-pwd-link-damaged-header = Пайванди барқарорсозии ниҳонвожа вайрон шуд
+# The user followed a link to signin that was received by email
+# but the link was damaged (for example mistyped or broken by the email client).
+signin-link-damaged-header = Пайванди тасдиқ вайрон шуд
+# The user followed a link to report an invalid signin attempt that was received by email
+# but the link was damaged (for example mistyped or broken by the email client).
+report-signin-link-damaged-header = Пайванд вайрон шуд
 
 ## LinkExpired component
 
@@ -538,6 +544,7 @@ flow-setup-2fa-backup-code-confirm-button-finish = Анҷом
 
 ## The backup codes download step of the setup 2 factor authentication flow
 
+flow-setup-2fa-backup-code-dl-heading = Нигоҳ доштани рамзҳои санҷиши ҳаққоният
 flow-setup-2fa-backup-code-dl-button-continue = Идома додан
 
 ## FlowSetupPhoneConfirmCode
@@ -605,6 +612,7 @@ tfa-replace-code-2-2 = Қадами 2 аз 2
 
 ## PageSetupRecoveryPhone
 
+page-2fa-setup-title = Санҷиши ҳаққонияти дуқадама
 
 ## Avatar change page
 
@@ -695,21 +703,33 @@ display-name-success-alert-2 = Номи намоишӣ нав карда шуд
 recent-activity-account-create-v2 = Ҳисоб эҷод карда шуд
 recent-activity-account-disable-v2 = Ҳисоб ғайрифаъол шуд
 recent-activity-account-enable-v2 = Ҳисоб фаъол шуд
+recent-activity-account-two-factor-requested = Санҷиши ҳаққонияти дуқадама дархост шуд
+recent-activity-account-two-factor-failure = Санҷиши ҳаққонияти дуқадама иҷро нашуд
+recent-activity-account-two-factor-success = Санҷиши ҳаққонияти дуқадама бомуваффақият иҷро шуд
+recent-activity-account-two-factor-removed = Санҷиши ҳаққонияти дуқадама тоза карда шуд
+recent-activity-account-password-reset-requested = Ҳисоб барқарорсозии ниҳонвожаро дархост кард
+recent-activity-account-password-reset-success = Ниҳонвожаи ҳисоб бо муваффақият аз нав танзим карда шуд
 recent-activity-account-recovery-key-added = Калиди барқарорсозии ҳисоб фаъол карда шуд
 recent-activity-account-recovery-key-verification-failure = Тасдиқи калиди барқарорсозии ҳисоб иҷро карда нашуд
 recent-activity-account-recovery-key-verification-success = Тасдиқи калиди барқарорсозии ҳисоб бо муваффақият иҷро карда шуд
 recent-activity-account-recovery-key-removed = Калиди барқарорсозии ҳисоб тоза карда шуд
 recent-activity-account-password-added = Ниҳонвожаи нав илова шуд
+recent-activity-account-password-changed = Ниҳонвожа иваз карда шуд
 recent-activity-account-secondary-email-added = Нишонии почтаи электронии иловагӣ илова шуд
 recent-activity-account-secondary-email-removed = Нишонии почтаи электронии иловагӣ тоза шуд
 recent-activity-account-recovery-phone-send-code = Рамзи телефони барқарорсозӣ фиристода шуд
 recent-activity-account-recovery-phone-setup-complete = Танзими телефони барқарорсозӣ ба анҷом расид
 recent-activity-account-recovery-phone-removed = Телефони барқарорсозӣ тоза карда шуд
+# Security event was recorded, but the activity details are unknown or not shown to user
+recent-activity-unknown = Фаъолияти дигари ҳисоб
 
 ## PageRecoveryKeyCreate
 
 # The page title displayed at the top of the flow container
 recovery-key-create-page-title = Калиди барқарорсозии ҳисоб
+# Tooltip text and aria label for back arrow that takes users out of the account recovery key generation flow
+# and back to account settings
+recovery-key-create-back-button-title = Бозгашт ба Танзимот
 
 ## PageRecoveryPhoneRemove
 ## Users reach this page from account settings when they want to remove a backup phone number.
@@ -766,6 +786,8 @@ tfa-button-cancel = Бекор кардан
 tfa-button-finish = Анҷом додан
 tfa-qa-code =
     .alt = { tfa-qa-code-alt }
+tfa-input-enter-totp-v2 =
+    .label = Рамзи санҷиши ҳаққониятро ворид намоед
 
 ## Product promotion
 
@@ -784,6 +806,11 @@ profile-primary-email =
 
 ## Progress bar
 
+# This is the aria-label text for the progress bar. The progress bar is meant to visually show the user how much progress they have made through the steps of a given flow.
+# Variables:
+#   $currentStep (number) - the step which the user is currently on
+#   $numberOfSteps (number) - the total number of steps in a given flow
+progress-bar-aria-label-v2 = Қадами { $currentStep } аз { $numberOfSteps }.
 
 ## Security section of Setting
 
@@ -863,6 +890,7 @@ se-secondary-email-none = Ҳеҷ
 
 ## Two Step Auth sub-section on Settings main page
 
+tfa-row-header = Санҷиши ҳаққонияти дуқадама
 tfa-row-enabled = Фаъол аст
 tfa-row-disabled-status = Ғайрифаъол аст
 tfa-row-action-add = Илова кардан
@@ -909,6 +937,8 @@ cannot-create-account-learn-more-link = Маълумоти бештар
 
 # A "success" message visible to users who verified via email
 connect-another-device-email-confirmed-banner = Почтаи электронӣ тасдиқ карда шуд
+# A "success" message visible to users who verified via sign-in
+connect-another-device-signin-confirmed-banner = Воридшавӣ тасдиқ карда шуд
 # A link for the user to sign in to the current Firefox browser, preceded by a message prompting the user to sign in so as to complete the device sync setup
 connect-another-device-signin-link = Ворид шудан
 # This link leads the user back to the `/pair` page so as to connect another device
@@ -928,6 +958,8 @@ cookies-disabled-learn-more = Маълумоти бештар
 
 index-header = Почтаи электронии худро ворид кунед
 index-relay-header = Эҷод кардани ниқоби почтаи электронӣ
+# $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
+index-subheader-with-servicename = Ба «{ $serviceName }» идома диҳед
 index-cta = Сабти ном кунед ё ворид шавед
 index-email-input =
     .label = Почтаи электронии худро ворид кунед
