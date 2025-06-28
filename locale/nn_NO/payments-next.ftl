@@ -228,11 +228,17 @@ upgrade-purchase-details-new-plan-yearly = { $productName } (kvart år)
 ## Page Metadata Information
 ## $productTitle (String) - The name of the product to create subscription, e.g. Mozilla VPN
 
+# Checkout start
+metadata-title-checkout-start = Kasse | { $productTitle }
+metadata-description-checkout-start = Skriv inn betalingsinformasjonen din for å fullføre kjøpet.
 # Checkout processing
 metadata-title-checkout-processing = Handsamar | { $productTitle }
 metadata-description-checkout-processing = Vent litt medan vi avsluttar handsaminga av betalinga di.
 # Checkout error
 metadata-title-checkout-error = Feil | { $productTitle }
+metadata-description-checkout-error = Det oppstod ein feil under handsaming av abonnementet ditt. Viss problemet held fram, kan du kontakte kundestøtte.
+# Checkout success
+metadata-title-checkout-success = Suksess | { $productTitle }
 # Upgrade start
 metadata-title-upgrade-start = Oppgrader | { $productTitle }
 # Upgrade error
