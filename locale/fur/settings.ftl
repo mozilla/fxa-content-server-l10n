@@ -774,6 +774,10 @@ tfa-enter-code-to-confirm-v2 = Inserìs un dai gnûfs codiçs di autenticazion d
 ## PageSetupRecoveryPhone
 
 page-2fa-setup-title = Autenticazion in doi passaçs
+page-2fa-setup-totpinfo-error = Al è vignût fûr un erôr tal configurâ la autenticazion in doi passaçs. Torne prove plui tart.
+# code here refers to "backup authentication code"
+page-2fa-setup-incorrect-backup-code-error = Chel codiç nol è just. Torne prove.
+page-2fa-setup-success = La autenticazion in doi passaçs e je stade ativade
 
 ## Avatar change page
 
@@ -1224,6 +1228,7 @@ tfa-row-disable-modal-explain-1 =
 # Shown in an alert bar after two-step authentication is disabled
 tfa-row-disabled-2 = Autenticazion in doi passaçs disativade
 tfa-row-cannot-disable-2 = Impussibil disativâ la autenticazion in doi passaçs
+tfa-row-disable-cannot-verify-session = Nus displâs, al è vignût fûr un probleme tal confermâ la tô session
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
