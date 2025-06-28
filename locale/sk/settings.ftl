@@ -94,6 +94,13 @@ datablock-print =
 ## Success banners for datablock actions.
 ## $count – number of codes
 
+datablock-copy-success =
+    { $count ->
+        [one] Kód skopírovaný
+        [few] Kódy skopírované
+        [many] Kódy skopírované
+       *[other] Kódy skopírované
+    }
 
 ##
 
