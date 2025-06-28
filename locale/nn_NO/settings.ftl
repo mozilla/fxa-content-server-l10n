@@ -618,12 +618,15 @@ flow-setup-2fa-scan-qr-instead-button = Skanne QR-kode i staden?
 # links to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication#w_step-one
 flow-setup-2fa-more-info-link = Les meir om autentiseringsappar
 flow-setup-2fa-button = Hald fram
+flow-setup-2fa-step-2-instruction = <strong>Steg 2:</strong> Skriv inn koden frå autentiseringsappen din.
 flow-setup-2fa-input-label = Skriv inn 6-sifra kode
+flow-setup-2fa-code-error = Ugyldig eller utgått kode. Sjekk autentiseringsappen din og prøv på nytt.
 
 ## The step to choose the two step authentication method in the two step
 ## authentication setup flow.
 
 flow-setup-2fa-backup-choice-heading = Vel ein gjenopprettingsmetode
+flow-setup-2fa-backup-choice-description = Dette gjer at du kan logge inn dersom du ikkje får tilgang til mobilen eller autentiseringsappen din.
 flow-setup-2fa-backup-choice-phone-title = Gjenopprettingstelefon
 flow-setup-2fa-backup-choice-code-title = Reserve-godkjenningskodar
 
@@ -641,6 +644,7 @@ flow-setup-2fa-backup-code-confirm-button-finish = Fullfør
 ## The backup codes download step of the setup 2 factor authentication flow
 
 flow-setup-2fa-backup-code-dl-heading = Lagre reserve-godkjenningskodar
+flow-setup-2fa-backup-code-dl-save-these-codes = Oppbevar desse på ein stad du hugsar. Om du ikkje har tilgang til autentiseringsappen din, må du oppgi ein for å logge på.
 flow-setup-2fa-backup-code-dl-button-continue = Hald fram
 
 ## FlowSetupPhoneConfirmCode
