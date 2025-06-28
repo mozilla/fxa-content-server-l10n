@@ -422,6 +422,7 @@ postAddTwoStepAuthentication-title-2 = Du slo på tostegs-godkjenning
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postAddTwoStepAuthentication-from-device-v2 = Du ba om dette frå:
 postAddTwoStepAuthentication-action = Handsam kontoen
+postAddTwoStepAuthentication-code-required-v3 = No må du bruke autentiseringsappen din kvar gong du loggar på.
 postChangeAccountRecovery-subject = Kontogjenopprettingsnøkkel endra
 postChangeAccountRecovery-title = Du endra kontogjenopprettingsnøkkelen
 postChangeAccountRecovery-body-part1 = Du har no ein ny kontogjenopprettingsnøkkel. Den førre nøkkelen din vart sletta.
