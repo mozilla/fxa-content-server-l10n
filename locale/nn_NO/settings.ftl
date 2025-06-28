@@ -650,7 +650,7 @@ flow-setup-2fa-backup-code-confirm-button-finish = Fullfør
 
 ## The backup codes download step of the setup 2 factor authentication flow
 
-flow-setup-2fa-backup-code-dl-heading = Lagre reserve-godkjenningskodar
+flow-setup-2fa-backup-code-dl-heading = Lagre reserve-autentiseringskodar
 flow-setup-2fa-backup-code-dl-save-these-codes = Oppbevar desse på ein stad du hugsar. Om du ikkje har tilgang til autentiseringsappen din, må du oppgi ein for å logge på.
 flow-setup-2fa-backup-code-dl-button-continue = Hald fram
 
@@ -1411,9 +1411,9 @@ inline-totp-setup-use-qr-or-enter-key-instructions = Skann QR-koden i autentiser
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-on-completion-description = Ved fullføring, byrjar han å generere godkjenningskodar som du kan skrive inn.
 # The "authentication code" here refers to the code provided by an authentication app.
-inline-totp-setup-security-code-placeholder = godkjenningskode
+inline-totp-setup-security-code-placeholder = Autentiseringskode
 # The "authentication code" here refers to the code provided by an authentication app.
-inline-totp-setup-code-required-error = Godkjenningskode påkravd
+inline-totp-setup-code-required-error = Autentiseringskode påkravd
 tfa-qr-code-alt = Bruk koden { $code } or å stille inn tostegs-godkjenning i stødde appar.
 
 ## Legal page. This page contains simply a header and links to pages that display
@@ -1461,17 +1461,17 @@ pair-auth-complete-manage-devices-link = Handsam einingar
 
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-auth-totp-heading-w-default-service = Skriv inn godkjenningskoden <span>for å halde fram til kontoinnstillingar</span>
+auth-totp-heading-w-default-service = Skriv inn autentiseringskoden <span>for å halde fram til kontoinnstillingar</span>
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
-auth-totp-heading-w-custom-service = Skriv inn godkjenningskode <span>for å halde fram til { $serviceName }</span>
+auth-totp-heading-w-custom-service = Skriv inn autentiseringskode <span>for å halde fram til { $serviceName }</span>
 auth-totp-instruction = Opne autentiseringsappen din og skriv inn godkjenningskoden du får opp.
 auth-totp-input-label = Skriv inn 6-sifra kode
 # Form button to confirm if the authentication code entered by the user is valid
 auth-totp-confirm-button = Stadfest
 # Error displayed in a tooltip when the form is submitted without a code
-auth-totp-code-required-error = Godkjenningskode påkravd
+auth-totp-code-required-error = Autentiseringskode påkravd
 
 ## WaitForSupp page - Part of the devide pairing flow
 ## Users see this page when they have started to pair a second (or more) device to their account
@@ -1585,8 +1585,8 @@ complete-reset-password-desktop-relay = { -brand-firefox } vil prøve å sende d
 
 confirm-backup-code-reset-password-input-label = Skriv inn 10-sifra kode
 confirm-backup-code-reset-password-confirm-button = Stadfest
-confirm-backup-code-reset-password-subheader = Skriv inn reserve-godkjenningskode
-confirm-backup-code-reset-password-instruction = Skriv inn ein av eingongskodane du lagra då du sette opp tostegs-godkjenning.
+confirm-backup-code-reset-password-subheader = Skriv inn reserve-autentiseringskode
+confirm-backup-code-reset-password-instruction = Skriv inn ein av eingongskodane du lagra då du sette opp tostegs-autentisering
 # Link out to support article: https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 confirm-backup-code-reset-password-locked-out-link = Er du sperra ute?
 
@@ -1610,7 +1610,7 @@ confirm-reset-password-otp-different-account-link = Bruk ein annan konto
 ## PasswordResetConfirmTotp Page
 
 confirm-totp-reset-password-header = Tilbakestill passord
-confirm-totp-reset-password-subheader-v2 = Skriv inn tostegs-godkjenningskode
+confirm-totp-reset-password-subheader-v2 = Skriv inn tostegs-autentiseringskode
 confirm-totp-reset-password-instruction-v2 = Sjekk <strong>autentiseringsappen</strong> for å tilbakestille passordet ditt.
 confirm-totp-reset-password-trouble-code = Har du poblem med å taste inn koden?
 confirm-totp-reset-password-confirm-button = Stadfest
@@ -1644,7 +1644,7 @@ password-reset-recovery-method-subheader = Vel ein gjenopprettingsmetode
 # This is displayed to the user when they are choosing an alternative method to authenticate themself in the password reset process when they do not have access to their two-factor authenticator application
 password-reset-recovery-method-details = La oss forsikre oss om at det er du som brukar gjenopprettingsmetodane dine.
 password-reset-recovery-method-phone = Gjenopprettingstelefon
-password-reset-recovery-method-code = Reserve-godkjenningskodar
+password-reset-recovery-method-code = Reserve-autentiseringskodar
 # Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
 password-reset-recovery-method-code-info =
     { $numBackupCodes ->
@@ -1653,7 +1653,7 @@ password-reset-recovery-method-code-info =
     }
 # Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
 password-reset-recovery-method-send-code-error-heading = Det oppstod eit problem med å sende ein kode til gjenopprettingstelefonen din
-password-reset-recovery-method-send-code-error-description = Prøv igjen seinare eller bruk reserve-godkjenningskodane dine.
+password-reset-recovery-method-send-code-error-description = Prøv igjen seinare eller bruk reserve-autentiseringskodane dine.
 
 ## ResetPasswordRecoveryPhone page
 
@@ -1779,7 +1779,7 @@ signin-recovery-method-send-code-error-description = Prøv igjen seinare eller b
 ## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
 
 signin-recovery-code-heading = Logg inn
-signin-recovery-code-sub-heading = Skriv inn reserve-godkjenningskode
+signin-recovery-code-sub-heading = Skriv inn reserve-autentiseringskode
 # codes here refers to backup authentication codes
 signin-recovery-code-instruction-v3 = Skriv inn ein av eingongskodane du lagra då du sette opp tostegs-godkjenning.
 # code here refers to backup authentication code
@@ -1857,7 +1857,7 @@ signin-token-code-instruction-desktop-relay = { -brand-firefox } vil prøve å s
 ## Users that have set up two-factor authentication land on this page during sign-in.
 
 signin-totp-code-header = Logg inn
-signin-totp-code-subheader-v2 = Skriv inn tostegs-godkjenningskode
+signin-totp-code-subheader-v2 = Skriv inn tostegs-autentiseringskode
 signin-totp-code-instruction-v4 = Sjekk <strong>autentiseringsappen</strong> for å stadfeste innlogginga.
 signin-totp-code-input-label-v4 = Skriv inn 6-sifra kode
 # Form button to confirm if the authentication code entered by the user is valid
