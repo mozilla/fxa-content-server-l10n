@@ -94,6 +94,21 @@ datablock-print =
 ## Success banners for datablock actions.
 ## $count – number of codes
 
+datablock-copy-success =
+    { $count ->
+        [one] Рамз нусха бардошта шуд
+       *[other] Рамзҳо нусха бардошта шуданд
+    }
+datablock-download-success =
+    { $count ->
+        [one] Рамз боргирӣ карда шуд
+       *[other] Рамзҳо боргирӣ карда шуданд
+    }
+datablock-print-success =
+    { $count ->
+        [one] Рамз чоп карда шуд
+       *[other] Рамзҳо чоп карда шуданд
+    }
 
 ##
 
@@ -133,6 +148,7 @@ signup-new-password-label =
 signup-confirm-password-label =
     .label = Ниҳонвожаро такрор кунед
 signup-submit-button = Эҷод кардани ҳисоб
+post-verify-set-password-submit-button = Оғози ҳамоҳангсозӣ
 form-reset-password-with-balloon-new-password =
     .label = Ниҳонвожаи нав
 form-reset-password-with-balloon-confirm-password =
@@ -283,6 +299,8 @@ backup-recovery-phone-image-aria-label =
     .aria-label = Дастгоҳи мобилӣ бо имкониятҳои интиқоли паёмҳои матнии «SMS»
 backup-authentication-codes-image-aria-label =
     .aria-label = Экрани дастгоҳ бо рамзҳо
+sync-clouds-image-aria-label =
+    .aria-label = Абрҳо бо нишонаи ҳамоҳангсозӣ
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -301,6 +319,14 @@ inline-recovery-key-setup-later-button = Онро дертар иҷро намо
 input-password-hide = Пинҳон кардани ниҳонвожа
 # Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will show the password.
 input-password-show = Нишон додани ниҳонвожа
+# Message read by screen readers when focus is on a password input visibility toggle. Expresses current (visible) state of the textbox content.
+input-password-hide-aria-2 = Дар айни ҳол ниҳонвожаи шумо дар экран намоён аст.
+# Message read by screen readers when focus is on a password input visibility toggle. Expresses current (hidden) state of the textbox content.
+input-password-show-aria-2 = Дар айни ҳол ниҳонвожаи шумо ноаён аст.
+# Message read by screen readers after clicking on a password input visibility toggle to show the password. Expresses the new (visible) state of the textbox content.
+input-password-sr-only-now-visible = Акнун ниҳонвожаи шумо дар экран намоён аст.
+# Message read by screen readers after clicking on a password input visibility toggle to hide the password. Expresses the new (hidden) state of the textbox content.
+input-password-sr-only-now-hidden = Акнун ниҳонвожаи шумо ноаён аст.
 
 ## Phone number component
 
@@ -314,6 +340,9 @@ legal-back-button = Ба қафо
 
 ## LinkDamaged component
 
+# The user followed a password reset link that was received by email
+# but the link is damaged (for example mistyped or broken by the email client)
+reset-pwd-link-damaged-header = Пайванди барқарорсозии ниҳонвожа вайрон шуд
 
 ## LinkExpired component
 

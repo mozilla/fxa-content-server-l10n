@@ -1576,6 +1576,8 @@ pair-unsupported-message = Czy użyto aparatu systemowego? Należy powiązać z�
 # password to complete their sign-in when they want to login to a service requiring it.
 
 set-password-heading-v2 = Utwórz hasło do synchronizacji
+# "This" refers to the heading, "Create password to sync"
+set-password-info-v2 = To hasło szyfruje Twoje dane. Musi być inne niż Twoje hasło do konta { -brand-google } lub { -brand-apple }.
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
