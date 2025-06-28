@@ -338,9 +338,9 @@ lowRecoveryCodes-action-2 = Lag kodar
 codes-create-plaintext = { lowRecoveryCodes-action-2 }:
 lowRecoveryCodes-subject-2 =
     { $numberRemaining ->
-        [0] Ingen reserve-godkjenningskode att
-        [one] Berre 1 reserve-godkjenningskode att
-       *[other] Berre { $numberRemaining } reserve-godkjenningskode att!
+        [0] Ingen reserve-autentiseringskodar att
+        [one] Berre 1 reserve-autentiseringskode att
+       *[other] Berre { $numberRemaining } reserve-autentiseringskodar att!
     }
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
@@ -407,7 +407,7 @@ postAddLinkedAccount-subject-2 = Ny konto knytt til { -product-mozilla-account }
 postAddLinkedAccount-title-2 = { $providerName }-kontoen din er kopla til { -product-mozilla-account }-en din
 postAddLinkedAccount-action = Handsam kontoen
 postAddRecoveryPhone-subject = Gjenopprettingstelefon lagt til
-postAddRecoveryPhone-preview = Kontoen er verna av tostegs-godkjenning
+postAddRecoveryPhone-preview = Kontoen er verna av tostegs-autentisering
 postAddRecoveryPhone-title-v2 = Du la til eit gjenoprettingstelefonnummer
 # Variables:
 #  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
@@ -418,7 +418,7 @@ postAddRecoveryPhone-how-protect-plaintext = Korleis dette vernar kontoen din:
 postAddRecoveryPhone-enabled-device = Du har aktivert det frå:
 postAddRecoveryPhone-action = Handsam kontoen
 postAddTwoStepAuthentication-subject-v3 = Tostegs-godkjenning er på
-postAddTwoStepAuthentication-title-2 = Du slo på tostegs-godkjenning
+postAddTwoStepAuthentication-title-2 = Du slo på tostegs-autentisering
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postAddTwoStepAuthentication-from-device-v2 = Du ba om dette frå:
 postAddTwoStepAuthentication-action = Handsam kontoen
@@ -446,8 +446,8 @@ postConsumeRecoveryCode-title-3 = Reserve-autentiseringskoden din vart brukt til
 postConsumeRecoveryCode-description-3 = Kode brukt frå:
 postConsumeRecoveryCode-action = Handsam kontoen
 postConsumeRecoveryCode-subject-v3 = Reserve-autentiseringskode brukt
-postNewRecoveryCodes-subject-2 = Nye reserve-godkjenningskodar oppretta
-postNewRecoveryCodes-title-2 = Du oppretta nye reserve-godkjenningskodar
+postNewRecoveryCodes-subject-2 = Nye reserve-autentiseringskodar oppretta
+postNewRecoveryCodes-title-2 = Du oppretta nye reserve-autentiseringskodar
 # After the colon, there is information about the device that the authentication codes were created on
 postNewRecoveryCodes-description-2 = Dei vart oppretta på:
 postNewRecoveryCodes-action = Handsam kontoen
@@ -468,8 +468,8 @@ postRemoveSecondary-title = Sekundær e-postadesse fjerna
 #  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description-2 = Du har sletta { $secondaryEmail } som ei sekundær e-postadresse frå { -product-mozilla-account }en din. Tryggingsmeldingar og innloggingsstadfestingar vil ikkje lenger bli leverte til denne adressa.
 postRemoveSecondary-action = Handsam kontoen
-postRemoveTwoStepAuthentication-subject-line-2 = Tostegs-godkjenning er slått av
-postRemoveTwoStepAuthentication-title-2 = Du har slått på tostegs-godkjenning
+postRemoveTwoStepAuthentication-subject-line-2 = Tostegs-autentisering er slått av
+postRemoveTwoStepAuthentication-title-2 = Du har slått på tostegs-autentisering
 # After the colon is a description of the device the user used to disable two-step authentication
 postRemoveTwoStepAuthentication-from-device = Du har slått det av frå:
 postRemoveTwoStepAuthentication-action = Handsam kontoen
