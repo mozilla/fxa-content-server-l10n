@@ -385,6 +385,7 @@ account-recovery-notification-cta = Opprett
 account-recovery-notification-header-value = Ikkje mist dataa dine om du gløymer passordet ditt
 account-recovery-notification-header-description = Opprett ein kontogjenopprettingsnøkkel for å gjenopprette synkroniserte nettlesardata viss du nokon gong gløymer passordet ditt.
 recovery-phone-promo-cta = Legg til gjenopprettingstelefon
+recovery-phone-promo-description = No kan du logge på med eit eingongspassord via SMS viss du ikkje kan bruke tostegs-autentiseringsappen din.
 
 ## Ready component
 
