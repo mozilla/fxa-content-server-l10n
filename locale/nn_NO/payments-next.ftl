@@ -228,6 +228,9 @@ upgrade-purchase-details-new-plan-yearly = { $productName } (kvart år)
 ## Page Metadata Information
 ## $productTitle (String) - The name of the product to create subscription, e.g. Mozilla VPN
 
+# Checkout processing
+metadata-title-checkout-processing = Handsamar | { $productTitle }
+metadata-description-checkout-processing = Vent litt medan vi avsluttar handsaminga av betalinga di.
 # Checkout error
 metadata-title-checkout-error = Feil | { $productTitle }
 # Upgrade start
