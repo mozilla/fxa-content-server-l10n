@@ -735,7 +735,7 @@ nav-email-comm = E-postkommunikasjon
 
 ## Two Step Authentication - replace backup authentication code
 
-tfa-replace-code-error-3 = Det oppstod eit problem med å erstatte reserve-godkjenningskodane dine
+tfa-replace-code-error-3 = Det oppstod eit problem med å erstatte reserve-autentiseringskodane dine
 tfa-create-code-error = Det oppstod eit problem med å opprette reserve-godkjenningskodane dine
 tfa-replace-code-success-1 =
     Nye kodar er oppretta. Lagre desse eingongs
@@ -1771,7 +1771,7 @@ signin-recovery-method-code-info-v2 =
     }
 # Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
 signin-recovery-method-send-code-error-heading = Det oppstod eit problem med å sende ein kode til gjenopprettingstelefonen din
-signin-recovery-method-send-code-error-description = Prøv igjen seinare eller bruk reserve-godkjenningskodane dine.
+signin-recovery-method-send-code-error-description = Prøv igjen seinare eller bruk reserve-autentiseringskodane dine.
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
