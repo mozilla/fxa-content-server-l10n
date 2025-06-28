@@ -611,7 +611,9 @@ flow-recovery-key-info-cancel-link = Avbryt
 ## FlowSetup2faApp
 
 flow-setup-2fa-qr-heading = Kople til autentiseringsappen din
+flow-setup-2a-qr-instruction = <strong>Steg 1:</strong> Skann denne QR-koden med ein autentiseringsapp som Duo eller Google Authenticator.
 flow-setup-2fa-manual-key-heading = Skriv inn kode manuelt
+flow-setup-2fa-manual-key-instruction = <strong>Steg 1:</strong> Skriv inn denne koden i autentiseringsappen du føretrekkjer.
 flow-setup-2fa-scan-qr-instead-button = Skanne QR-kode i staden?
 # links to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication#w_step-one
 flow-setup-2fa-more-info-link = Les meir om autentiseringsappar
