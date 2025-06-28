@@ -29,7 +29,7 @@ msgstr "Kontoen er no sletta"
 
 #: .es5/views/inline_totp_setup.js:128
 msgid "Use the code %(code)s to set up two-step authentication in supported applications."
-msgstr "Bruk koden %(code)s for å setje opp tostegs-godkjenning i støtta appar."
+msgstr "Bruk koden %(code)s for å setje opp tostegs-autentisering i støtta appar."
 
 #: .es5/views/permissions.js:29
 msgid "%(permissionName)s (required)"
@@ -178,11 +178,11 @@ msgstr "Vis passord"
 
 #: .es5/views/mixins/recovery-codes-mixin.js:68
 msgid "Firefox Backup Authentication Codes"
-msgstr "Firefox reserve-godkjenningskodar"
+msgstr "Firefox reserve-autentiseringskodar"
 
 #: .es5/views/mixins/recovery-codes-mixin.js:124
 msgid "Two-step authentication enabled"
-msgstr "Tostegs-godkjenning aktivert"
+msgstr "Tostegs-autentisering aktivert"
 
 #: .es5/views/mixins/recovery-key-mixin.js:28
 msgid "Firefox Account Recovery Key"
@@ -474,7 +474,7 @@ msgstr "Ugyldig kontogjenopprettingsnøkkel"
 
 #: .es5/lib/auth-errors.js:246 .es5/lib/auth-errors.js:254
 msgid "This request requires two step authentication enabled on your account."
-msgstr "Denne førespurnaden krev tostegs-verifisering aktivert på kontoen din."
+msgstr "Denne førespurnaden krev tostegs-autentisering aktivert på kontoen din."
 
 #: .es5/lib/auth-errors.js:250
 msgid "Failed due to a conflicting request, please try again."
@@ -659,11 +659,11 @@ msgstr "Telefonnummer påkravd"
 
 #: .es5/lib/auth-errors.js:552
 msgid "Two-step authentication code required"
-msgstr "Tostegs-godkjenning påkravd"
+msgstr "Tostegs-autentisering påkravd"
 
 #: .es5/lib/auth-errors.js:556
 msgid "Invalid two-step authentication code"
-msgstr "Feil tostegs-godkjenningskode"
+msgstr "Feil tostegs-autentiseringskode"
 
 #: .es5/lib/auth-errors.js:560
 msgid "Backup authentication code required"
@@ -671,7 +671,7 @@ msgstr "Reserve-autentiseringskode påkravd"
 
 #: .es5/lib/auth-errors.js:564
 msgid "Invalid backup authentication code"
-msgstr "Ugyldig reserve-godkjenningskode"
+msgstr "Ugyldig reserve-autentiseringskode"
 
 #: .es5/lib/auth-errors.js:578
 msgid "Account recovery key required"
@@ -1203,7 +1203,7 @@ msgstr ""
 
 #: .es5/templates/inline_recovery_setup.mustache:1
 msgid "Save backup authentication codes"
-msgstr "Lagre reserve-godkjenningskodar"
+msgstr "Lagre reserve-autentiseringskodar"
 
 #: .es5/templates/inline_recovery_setup.mustache:3
 msgid "Store these one-time use codes in a safe place for when you don't have your mobile device."
@@ -1232,19 +1232,19 @@ msgstr "Avbryt konfigurasjon"
 
 #: .es5/templates/inline_recovery_setup.mustache:12
 msgid "Confirm backup authentication code"
-msgstr "Stadfest reserve-godkjenningskode"
+msgstr "Stadfest reserve-autentiseringskode"
 
 #: .es5/templates/inline_recovery_setup.mustache:14
 msgid "To ensure that you will be able to regain access to your account, in the event of a lost device, please enter one of your saved backup authentication codes."
-msgstr "For å sikre at du kan få tilgang til kontoen din igjen, i tilfelle ei mista eining, skriv inn ein av dei lagra reserve-godkjenningskodane dine."
+msgstr "For å sikre at du kan få tilgang til kontoen din igjen, i tilfelle ei mista eining, skriv inn ein av dei lagra reserve-autentiseringskodane dine."
 
 #: .es5/templates/inline_recovery_setup.mustache:15
 msgid "Backup authentication code"
-msgstr "Reserve-godkjenningskode"
+msgstr "Reserve-autentiseringskode"
 
 #: .es5/templates/inline_totp_setup.mustache:1
 msgid "Enable two-step authentication"
-msgstr "Slå på tostegs-godkjenning"
+msgstr "Slå på tostegs-autentisering"
 
 #: .es5/templates/inline_totp_setup.mustache:3
 msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps</a>."
