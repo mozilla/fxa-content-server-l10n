@@ -1919,4 +1919,6 @@ signup-change-email-link = Endre e-post
 ## Shown to users when they finish confirming their account through Sync
 
 signup-confirmed-sync-header = Synkronisering er slått på
+signup-confirmed-sync-button = Start nettlesinga
 signup-confirmed-sync-manage-sync-button = Handsam synkronisering
+signup-confirmed-sync-set-password-success-banner = Synkroniseringspassord oppretta

@@ -225,6 +225,7 @@ subscriptionCharges-content-tax = Skattar og gebyr: { $invoiceTaxAmount }
 ##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
 
 subscriptionFirstInvoice-content-charge = Belasta { $invoiceTotal } den { $invoiceDateOnly }
+subscriptionFirstInvoice-content-credit = Du har fått ein kontokreditt på { $invoiceTotal }, som vil bli brukt på dei framtidige fakturaane dine.
 
 ##
 
