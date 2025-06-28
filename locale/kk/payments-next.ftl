@@ -212,9 +212,13 @@ metadata-title-upgrade-success = Сәтті | { $productTitle }
 metadata-description-upgrade-success = Құттықтаймыз! Сіз жаңартуды сәтті аяқтадыңыз.
 # Upgrade needs_input
 metadata-title-upgrade-needs-input = Әрекет қажет | { $productTitle }
+# Default
+metadata-title-default = Бет табылмады | { $productTitle }
+metadata-description-default = Сіз сұраған бет табылмады.
 
 ## Coupon Error Messages
 
+next-coupon-error-expired = Сіз енгізген кодтың мерзімі аяқталды.
 
 ##
 
