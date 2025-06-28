@@ -423,6 +423,7 @@ postAddTwoStepAuthentication-title-2 = Du slo på tostegs-godkjenning
 postAddTwoStepAuthentication-from-device-v2 = Du ba om dette frå:
 postAddTwoStepAuthentication-action = Handsam kontoen
 postAddTwoStepAuthentication-code-required-v3 = Du må no bruke autentiseringsappen din kvar gong du loggar på.
+postAddTwoStepAuthentication-recovery-method-codes = Du har òg lagt til reserve-autentiseringskode som gjenopprettingsmetode.
 postChangeAccountRecovery-subject = Kontogjenopprettingsnøkkel endra
 postChangeAccountRecovery-title = Du endra kontogjenopprettingsnøkkelen
 postChangeAccountRecovery-body-part1 = Du har no ein ny kontogjenopprettingsnøkkel. Den førre nøkkelen din vart sletta.
@@ -439,10 +440,12 @@ postChangeRecoveryPhone-preview = Kontoen er verna av tostegs-godkjenning
 postChangeRecoveryPhone-title = Du endra gjenopprettingstelefon
 postChangeRecoveryPhone-description = Du har no ein ny gjenopprettingstelefon. Det førre telefon-nummeret ditt vart sletta.
 postChangeRecoveryPhone-requested-device = Du ba om det frå:
+postConsumeRecoveryCode-title-3 = Reserve-autentiseringskoden din vart brukt til å stadfeste tilbakestilling av passord
 # After the colon, there is description of the device that the backup authentication code was used on
 # E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
 postConsumeRecoveryCode-description-3 = Kode brukt frå:
 postConsumeRecoveryCode-action = Handsam kontoen
+postConsumeRecoveryCode-subject-v3 = Reserve-autentiseringskode brukt
 postNewRecoveryCodes-subject-2 = Nye reserve-godkjenningskodar oppretta
 postNewRecoveryCodes-title-2 = Du oppretta nye reserve-godkjenningskodar
 # After the colon, there is information about the device that the authentication codes were created on

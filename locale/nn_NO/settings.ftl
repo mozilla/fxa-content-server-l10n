@@ -629,6 +629,7 @@ flow-setup-2fa-backup-choice-heading = Vel ein gjenopprettingsmetode
 flow-setup-2fa-backup-choice-description = Dette gjer at du kan logge inn dersom du ikkje får tilgang til mobilen eller autentiseringsappen din.
 flow-setup-2fa-backup-choice-phone-title = Gjenopprettingstelefon
 flow-setup-2fa-backup-choice-code-title = Reserve-godkjenningskodar
+flow-setup-2fa-backup-choice-code-info = Opprett og lagre engangsautentiseringskodar.
 
 ## The backup code confirm step of the setup 2 factor authentication flow,
 ## where the user confirm that they have saved their backup authentication codes
