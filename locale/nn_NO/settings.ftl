@@ -1762,7 +1762,7 @@ signin-recovery-method-header = Logg inn
 signin-recovery-method-subheader = Vel ein gjenopprettingsmetode
 signin-recovery-method-details = La oss forsikre oss om at det er du som brukar gjenopprettingsmetodane dine.
 signin-recovery-method-phone = Gjenopprettingstelefon
-signin-recovery-method-code-v2 = Reserve-godkjenningskodar
+signin-recovery-method-code-v2 = Reserve-autentiseringskodar
 # Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
 signin-recovery-method-code-info-v2 =
     { $numBackupCodes ->
@@ -1865,7 +1865,7 @@ signin-totp-code-confirm-button = Stadfest
 signin-totp-code-other-account-link = Bruk ein annan konto
 signin-totp-code-recovery-code-link = Har du poblem med å taste inn koden?
 # Error displayed in a tooltip when the form is submitted without a code
-signin-totp-code-required-error = Godkjenningskode påkravd
+signin-totp-code-required-error = Autentiseringskode påkravd
 # Message to user after they were redirected to the Mozilla account sign-in page in a new browser
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
