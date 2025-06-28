@@ -94,6 +94,24 @@ datablock-print =
 ## Success banners for datablock actions.
 ## $count – number of codes
 
+datablock-copy-success =
+    { $count ->
+        [one] Kod skopiowany
+        [few] Kody skopiowane
+       *[many] Kodów skopiowanych
+    }
+datablock-download-success =
+    { $count ->
+        [one] Kod pobrany
+        [few] Kody pobrane
+       *[many] Kodów pobranych
+    }
+datablock-print-success =
+    { $count ->
+        [one] Kod wydrukowany
+        [few] Kody wydrukowane
+       *[many] Kodów wydrukowanych
+    }
 
 ##
 
@@ -631,6 +649,7 @@ flow-setup-2fa-more-info-link = Więcej informacji o aplikacjach uwierzytelniaj
 flow-setup-2fa-button = Kontynuuj
 flow-setup-2fa-step-2-instruction = <strong>2. krok:</strong> wpisz kod ze swojej aplikacji uwierzytelniającej.
 flow-setup-2fa-input-label = Wpisz sześciocyfrowy kod
+flow-setup-2fa-code-error = Nieprawidłowy lub wygasły kod. Sprawdź aplikację uwierzytelniającą i spróbuj ponownie.
 
 ## The step to choose the two step authentication method in the two step
 ## authentication setup flow.
@@ -758,6 +777,11 @@ tfa-enter-code-to-confirm-v2 = Proszę wpisać jeden z nowych zapasowych kodów
 
 ## PageSetupRecoveryPhone
 
+page-2fa-setup-title = Uwierzytelnianie dwuetapowe
+page-2fa-setup-totpinfo-error = Wystąpił błąd podczas konfigurowania uwierzytelniania dwuetapowego. Spróbuj ponownie później.
+# code here refers to "backup authentication code"
+page-2fa-setup-incorrect-backup-code-error = Ten kod jest niepoprawny. Spróbuj ponownie.
+page-2fa-setup-success = Uwierzytelnianie dwuetapowe zostało włączone
 
 ## Avatar change page
 
@@ -1202,6 +1226,7 @@ tfa-row-disable-modal-explain-1 =
 # Shown in an alert bar after two-step authentication is disabled
 tfa-row-disabled-2 = Uwierzytelnianie dwuetapowe jest wyłączone
 tfa-row-cannot-disable-2 = Nie można wyłączyć uwierzytelniania dwuetapowego
+tfa-row-disable-cannot-verify-session = Przepraszamy, wystąpił problem podczas potwierdzania sesji
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
@@ -1549,6 +1574,7 @@ pair-unsupported-message = Czy użyto aparatu systemowego? Należy powiązać z�
 
 # password to complete their sign-in when they want to login to a service requiring it.
 
+set-password-heading-v2 = Utwórz hasło do synchronizacji
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
