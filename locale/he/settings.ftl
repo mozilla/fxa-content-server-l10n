@@ -86,6 +86,21 @@ datablock-print =
 ## Success banners for datablock actions.
 ## $count – number of codes
 
+datablock-copy-success =
+    { $count ->
+        [one] הקוד הועתק
+       *[other] הקודים הועתקו
+    }
+datablock-download-success =
+    { $count ->
+        [one] הקוד הורד
+       *[other] הקודים הורדו
+    }
+datablock-print-success =
+    { $count ->
+        [one] הקוד הודפס
+       *[other] הקודים הודפסו
+    }
 
 ##
 
@@ -611,6 +626,7 @@ flow-setup-2fa-more-info-link = מידע נוסף על יישומוני אימו
 flow-setup-2fa-button = המשך
 flow-setup-2fa-step-2-instruction = <strong>שלב 2:</strong> יש להזין את הקוד מיישומון האימות שלך.
 flow-setup-2fa-input-label = נא להזין קוד בן 6 ספרות
+flow-setup-2fa-code-error = הקוד לא חוקי או שפג תוקפו. נא לבדוק את היישומון המאמת שלך ולנסות שוב.
 
 ## The step to choose the two step authentication method in the two step
 ## authentication setup flow.
@@ -724,6 +740,11 @@ tfa-replace-code-2-2 = שלב 2 מתוך 2
 
 ## PageSetupRecoveryPhone
 
+page-2fa-setup-title = אימות דו־שלבי
+page-2fa-setup-totpinfo-error = אירעה שגיאה בהגדרת האימות הדו־שלבי. נא לנסות שוב מאוחר יותר.
+# code here refers to "backup authentication code"
+page-2fa-setup-incorrect-backup-code-error = הקוד הזה שגוי. נא לנסות שוב.
+page-2fa-setup-success = אימות דו־שלבי הופעל
 
 ## Avatar change page
 
@@ -1135,6 +1156,7 @@ tfa-row-disable-modal-confirm = השבתה
 # Shown in an alert bar after two-step authentication is disabled
 tfa-row-disabled-2 = אימות דו־שלבי הושבת
 tfa-row-cannot-disable-2 = לא ניתן היה להשבית את האימות הדו־שלבי
+tfa-row-disable-cannot-verify-session = הייתה בעיה באימות ההפעלה שלך, עמך הסליחה
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
