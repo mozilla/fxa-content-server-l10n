@@ -212,7 +212,7 @@ icon-attention-aria-label =
 icon-warning-aria-label =
     .aria-label = Åtvaring
 authenticator-app-aria-label =
-    .aria-label = Godkjenningsapp
+    .aria-label = Autentiserings-app
 backup-codes-icon-aria-label-v2 =
     .aria-label = Reserve-godkjenningskodar slått på
 backup-codes-disabled-icon-aria-label-v2 =
@@ -609,8 +609,11 @@ flow-recovery-key-info-cancel-link = Avbryt
 
 ## FlowSetup2faApp
 
+flow-setup-2fa-qr-heading = Kople til autentiseringsappen din
 flow-setup-2fa-manual-key-heading = Skriv inn kode manuelt
 flow-setup-2fa-scan-qr-instead-button = Skanne QR-kode i staden?
+# links to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication#w_step-one
+flow-setup-2fa-more-info-link = Les meir om autentiseringsappar
 flow-setup-2fa-button = Hald fram
 flow-setup-2fa-input-label = Skriv inn 6-sifra kode
 

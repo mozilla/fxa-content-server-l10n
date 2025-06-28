@@ -422,7 +422,7 @@ postAddTwoStepAuthentication-title-2 = Du slo på tostegs-godkjenning
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postAddTwoStepAuthentication-from-device-v2 = Du ba om dette frå:
 postAddTwoStepAuthentication-action = Handsam kontoen
-postAddTwoStepAuthentication-code-required-v3 = No må du bruke autentiseringsappen din kvar gong du loggar på.
+postAddTwoStepAuthentication-code-required-v3 = Du må no bruke autentiseringsappen din kvar gong du loggar på.
 postChangeAccountRecovery-subject = Kontogjenopprettingsnøkkel endra
 postChangeAccountRecovery-title = Du endra kontogjenopprettingsnøkkelen
 postChangeAccountRecovery-body-part1 = Du har no ein ny kontogjenopprettingsnøkkel. Den førre nøkkelen din vart sletta.
@@ -457,7 +457,7 @@ postRemoveRecoveryPhone-subject = Gjenopprettingstelefon fjerna
 postRemoveRecoveryPhone-preview = Kontoen er verna av tostegs-godkjenning
 postRemoveRecoveryPhone-title = Gjenopprettingstelefon fjerna
 postRemoveRecoveryPhone-description-v2 = Gjenopprettingstelefonen din er fjerna frå innstillingane dine for tostegs-godkjenning.
-postRemoveRecoveryPhone-description-extra = Du kan framleis bruke reserve-godkjenningskodar for å logge inn om du ikkje kan bruke autentiseringsappen din.
+postRemoveRecoveryPhone-description-extra = Du kan framleis bruke reserve-autentiseringskodar for å logge inn om du ikkje kan bruke autentiseringsappen din.
 postRemoveRecoveryPhone-requested-device = Du ba om det frå:
 postRemoveSecondary-subject = Sekundær e-postadesse fjerna
 postRemoveSecondary-title = Sekundær e-postadesse fjerna
