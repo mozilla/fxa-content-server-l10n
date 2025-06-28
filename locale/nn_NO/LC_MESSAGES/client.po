@@ -1248,11 +1248,11 @@ msgstr "Slå på tostegs-autentisering"
 
 #: .es5/templates/inline_totp_setup.mustache:3
 msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps</a>."
-msgstr "Legg til eit ekstra sikkerheitslag til kontoen din ved å krevje sikkerheitskodar frå ein av <a %(escapedTotpSupportAttributes)s>desse godkjenningsappane</a>."
+msgstr "Legg til eit ekstra sikkerheitslag til kontoen din ved å krevje sikkerheitskodar frå ein av <a %(escapedTotpSupportAttributes)s>desse autentiseringsappane</a>."
 
 #: .es5/templates/inline_totp_setup.mustache:7
 msgid "Scan authentication code"
-msgstr "Skann verifiseringskode"
+msgstr "Skann autentiseringskode"
 
 #: .es5/templates/inline_totp_setup.mustache:10
 msgid "Enter code manually"
@@ -1422,15 +1422,15 @@ msgstr "Har du ikkje lenger denne e-postadressa? Lag ein ny konto"
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
 msgid "Enter backup authentication code"
-msgstr "Skriv inn reserve-godkjenningskode"
+msgstr "Skriv inn reserve-autentiseringskode"
 
 #: .es5/templates/sign_in_recovery_code.mustache:3
 msgid "Please enter a backup authentication code that was provided to you during two step authentication setup."
-msgstr "Skriv inn ein reserve-godkjenningskode som du fekk under installasjonen av tostegs-godkjenninga."
+msgstr "Skriv inn ein reserve-autentiseringskode som du fekk under oppsettet av tostegs-autentiseringa."
 
 #: .es5/templates/sign_in_recovery_code.mustache:4
 msgid "Enter 10-digit backup authentication code"
-msgstr "Skriv inn ein 10-sifra reserve-godkjenningskode"
+msgstr "Skriv inn ein 10-sifra reserve-autentiseringskode"
 
 #: .es5/templates/sign_in_recovery_code.mustache:7
 msgid "Are you locked out?"

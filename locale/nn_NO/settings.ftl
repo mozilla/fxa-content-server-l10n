@@ -188,7 +188,7 @@ form-verify-totp-disabled-button-title-alphanumeric = Skriv inn koden på { $cod
 
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = Kontogjenopprettingsnøkkel for { -brand-firefox }
-get-data-trio-title-backup-verification-codes = Reserve-godkjenningskodar
+get-data-trio-title-backup-verification-codes = Reserve-autentiseringskodar
 get-data-trio-download-2 =
     .title = Last ned
     .aria-label = Last ned
@@ -214,7 +214,7 @@ icon-warning-aria-label =
 authenticator-app-aria-label =
     .aria-label = Autentiserings-app
 backup-codes-icon-aria-label-v2 =
-    .aria-label = Reserve-godkjenningskodar slått på
+    .aria-label = Reserve-autentiseringskodar slått på
 backup-codes-disabled-icon-aria-label-v2 =
     .aria-label = Reserve-godkjenningskodar slått av
 # An icon of phone with text message. A back recovery phone number
