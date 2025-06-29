@@ -517,7 +517,7 @@ sub-route-funding-source-payment-alert = Μη έγκυρα στοιχεία πλ
 
 ## Routes - Subscription - SubscriptionItem
 
-sub-item-no-such-plan = Δεν υπάρχει τέτοιο πλάνο για αυτή τη συνδρομή.
+sub-item-no-such-plan = Δεν υπάρχει τέτοιο πλάνο για αυτήν τη συνδρομή.
 invoice-not-found = Δεν βρέθηκε επόμενο παραστατικό
 sub-item-no-such-subsequent-invoice = Δεν βρέθηκε επόμενο παραστατικό για αυτήν τη συνδρομή.
 sub-invoice-preview-error-title = Δεν βρέθηκε προεπισκόπηση παραστατικού
