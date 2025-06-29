@@ -553,7 +553,7 @@ cs-disconnect-sync-opt-not-say = Προτιμώ να μην πω
 
 ##
 
-cs-disconnect-advice-confirm = Εντάξει, το 'πιασα
+cs-disconnect-advice-confirm = Εντάξει, το κατάλαβα
 cs-disconnect-lost-advice-heading = Αποσυνδέθηκε απολεσθείσα ή κλεμμένη συσκευή
 cs-disconnect-lost-advice-content-3 = Εφόσον η συσκευή σας χάθηκε ή κλάπηκε, θα πρέπει να αλλάξετε τον κωδικό πρόσβασης του { -product-mozilla-account(case: "gen", capitalization: "lower") } στις ρυθμίσεις λογαριασμού σας, για την προστασία των δεδομένων σας. Θα πρέπει επίσης να αναζητήσετε πληροφορίες από τον κατασκευαστή της συσκευής σας σχετικά με την απομακρυσμένη διαγραφή δεδομένων.
 cs-disconnect-suspicious-advice-heading = Η ύποπτη συσκευή αποσυνδέθηκε
