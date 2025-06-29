@@ -648,9 +648,12 @@ flow-setup-2fa-backup-choice-heading = Vel ein gjenopprettingsmetode
 flow-setup-2fa-backup-choice-description = Dette gjer at du kan logge inn dersom du ikkje får tilgang til mobilen eller autentiseringsappen din.
 flow-setup-2fa-backup-choice-phone-title = Gjenopprettingstelefon
 flow-setup-2fa-backup-choice-phone-badge = Enklast
+flow-setup-2fa-backup-choice-phone-info = Få ein gjenopprettingskode via tekstmelding. For tida tilgjengeleg i USA og Canada.
 flow-setup-2fa-backup-choice-code-title = Reserve-autentiseringskodar
 flow-setup-2fa-backup-choice-code-badge = Tryggast
 flow-setup-2fa-backup-choice-code-info = Opprett og lagre eingongs-autentiseringskodar.
+# This link points to https://support.mozilla.org/kb/secure-mozilla-account-two-step-authentication
+flow-setup-2fa-backup-choice-learn-more-link = Les meir om gjenoppretting og SIM-swapping-risiko
 
 ## The backup code confirm step of the setup 2 factor authentication flow,
 ## where the user confirm that they have saved their backup authentication codes
@@ -766,6 +769,8 @@ tfa-enter-code-to-confirm-v2 = Skriv inn ein av dei nye reserve-autentiseringsko
 
 page-2fa-setup-title = Tostegs-autentisering
 page-2fa-setup-totpinfo-error = Det oppstod ein feil under oppsett av tostegs-autentisering. Prøv på nytt seinare.
+# code here refers to "backup authentication code"
+page-2fa-setup-incorrect-backup-code-error = Den koden er ikkje rett. Prøv på nytt.
 page-2fa-setup-success = Tostegs-autentisering er slått på
 
 ## Avatar change page
@@ -940,6 +945,7 @@ settings-recovery-phone-remove-success = Gjenopprettingstelefon fjerna
 ## PageSetupRecoveryPhone
 
 page-setup-recovery-phone-heading = Legg til gjenopprettingstelefon
+page-change-recovery-phone = Endre gjenopprettingstelefon
 page-setup-recovery-phone-back-button-title = Tilbake til innstillingar
 # Back arrow to return to step 1 of recovery phone setup flow
 page-setup-recovery-phone-step2-back-button-title = Endre telefonnummer
@@ -1029,8 +1035,15 @@ tfa-enter-recovery-code-1 =
 
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
+product-promo-monitor-description-v2 = Finn ut kvar den private informasjonen din er eksponert og ta kontroll
+# this message will only be shown to users eligible for a special promotion, based on their location (initially USA only)
+# $price - formatted for user locale, in the target market's currency (for launch, always USD)
+# /mo is 'per month'
+product-promo-monitor-special-promo-description = For { $price }/mnd, spar på { -product-mozilla-vpn-short }, { -product-mozilla-monitor-short } sitt datameklarvern og { -product-firefox-relay-short } sitt ubegrensa antal e-postaliasar.
 # Links out to the Monitor site
 product-promo-monitor-cta = Få ei gratis skanning
+# Links out to the Monitor pricing site
+product-promo-monitor-special-promo-cta = Få vern året rundt
 
 ## Profile section
 
@@ -1559,6 +1572,7 @@ pair-unsupported-message = Brukte du systemkameraet? Du må pare ved hjelp av ei
 
 # password to complete their sign-in when they want to login to a service requiring it.
 
+set-password-heading-v2 = Opprett passord for å synkronisere
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
