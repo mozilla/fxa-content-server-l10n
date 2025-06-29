@@ -1323,7 +1323,7 @@ oauth-error-1000 = Κάτι πήγε στραβά. Κλείστε αυτήν τ�
 ## Cannot Create Account page
 ## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
 
-cannot-create-account-header = Αδυναμία δημιουργίας λογαριασμού
+cannot-create-account-header = Δεν είναι δυνατή η δημιουργία του λογαριασμού
 cannot-create-account-requirements-2 = Πρέπει να πληροίτε ορισμένα ηλικιακά κριτήρια για τη δημιουργία ενός { -product-mozilla-account(case: "gen", capitalization: "lower") }.
 # For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
 cannot-create-account-learn-more-link = Μάθετε περισσότερα
