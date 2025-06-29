@@ -160,6 +160,8 @@ select-tax-location-error-missing-postal-code = Skriv inn postnummer
 select-tax-location-error-invalid-postal-code = Skriv inn eit gyldig postnummer
 select-tax-location-successfully-updated = Plasseringa di er oppdatert
 select-tax-location-error-location-not-updated = Klarte ikkje å oppdatere plasseringa di. Prøv på nytt.
+#  $currencyDisplayName (String) - The display name of a currency code, e.g. US Dollar
+select-tax-location-invalid-currency-change = Kontoen din vert fakturert i { $currencyDisplayName }. Vel eit land som brukar { $currencyDisplayName }.
 select-tax-location-invalid-currency-change-default = Vel eit land som passar med valutaen til dei aktive abonnementa dine.
 signin-form-continue-button = Hald fram
 signin-form-email-input = Skriv inn e-postadressa di
@@ -251,13 +253,17 @@ metadata-description-upgrade-processing = Vent litt medan vi avsluttar handsamin
 metadata-title-upgrade-error = Feil | { $productTitle }
 # Upgrade success
 metadata-title-upgrade-success = Suksess | { $productTitle }
+metadata-description-upgrade-success = Gratulerer! Du har fullført oppgraderinga.
 # Upgrade needs_input
 metadata-title-upgrade-needs-input = Handling påkravd | { $productTitle }
+metadata-description-upgrade-needs-input = Fullfør den påkravde handlinga for å halde fram med betalinga.
 # Default
 metadata-title-default = Fann ikkje sida | { $productTitle }
+metadata-description-default = Fann ikkje førespurd side.
 
 ## Coupon Error Messages
 
+next-coupon-error-cannot-redeem = Koden du skreiv inn kan ikkje løysast inn — kontoen din har eit tidlegare abonnement på ei av tenestene våre.
 next-coupon-error-expired = Koden du skreiv inn har gått ut.
 next-coupon-error-generic = Det oppstod ein feil under handsaming av koden. Prøv på nytt.
 next-coupon-error-invalid = Koden du skreiv inn er ugyldig.
