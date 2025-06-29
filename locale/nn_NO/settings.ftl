@@ -1573,6 +1573,8 @@ pair-unsupported-message = Brukte du systemkameraet? Du må pare ved hjelp av ei
 # password to complete their sign-in when they want to login to a service requiring it.
 
 set-password-heading-v2 = Opprett passord for å synkronisere
+# "This" refers to the heading, "Create password to sync"
+set-password-info-v2 = Dette krypterer dataa dine. Det kan ikkje vere det same som passordet på { -brand-google }- eller { -brand-apple }-kontoen din.
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
