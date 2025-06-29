@@ -104,6 +104,11 @@ datablock-download-success =
         [one] Kode lasta ned
        *[other] Kodar lasta ned
     }
+datablock-print-success =
+    { $count ->
+        [one] Koden skriven ut
+       *[other] Kodane skrivne ut
+    }
 
 ##
 
@@ -294,6 +299,8 @@ backup-recovery-phone-image-aria-label =
     .aria-label = Mobileining med tekstmeldingsfunksjonar
 backup-authentication-codes-image-aria-label =
     .aria-label = Einingsskjerm med kodar
+sync-clouds-image-aria-label =
+    .aria-label = Skyer med eit synkroniseringsikon
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -395,6 +402,7 @@ account-recovery-notification-cta = Opprett
 account-recovery-notification-header-value = Ikkje mist dataa dine om du gløymer passordet ditt
 account-recovery-notification-header-description = Opprett ein kontogjenopprettingsnøkkel for å gjenopprette synkroniserte nettlesardata viss du nokon gong gløymer passordet ditt.
 recovery-phone-promo-cta = Legg til gjenopprettingstelefon
+recovery-phone-promo-heading = Legg til ekstra vern for kontoen din med ein gjenopprettingstelefon
 recovery-phone-promo-description = No kan du logge på med eit eingongspassord via SMS viss du ikkje kan bruke tostegs-autentiseringsappen din.
 recovery-phone-promo-info-link = Les meir om gjenoppretting og SIM-swapping-risiko
 promo-banner-dismiss-button =

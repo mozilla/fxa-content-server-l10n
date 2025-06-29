@@ -648,6 +648,7 @@ subscriptionReplaced-subject = Abonnentet ditt er oppdatert som ein del av oppgr
 subscriptionReplaced-title = Abonnentet ditt er oppdatert
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReplaced-content-replaced = Det individuelle { $productName }-abonnementet ditt er erstatta og er no inkludert i den nye pakken din..
+subscriptionReplaced-content-credit = Du vil motta ein kreditt for ubrukt tid frå det førre abonnement ditt. Denne kreditten vil automatisk bli lagt til kontoen din og brukast til å dekkje framtidige betalingar.
 subscriptionReplaced-content-no-action = Du treng ikkje å gjere noko.
 subscriptionsPaymentExpired-subject-1 = Betalingskortet for abonnementa dine har gått ut eller går snart ut
 subscriptionsPaymentExpired-title-1 = Betalingskortet ditt har gått ut, eller er i ferd med å gå ut
