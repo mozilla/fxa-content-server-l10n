@@ -13,6 +13,7 @@ next-payment-method-first-approve = Først må du godkjenne abonnementet ditt
 location-header = Vel land og skriv inn postnummer <p>for å halde fram til kassa for { $productName }</p>
 location-banner-info = Vi klarte ikkje å oppdage plasseringa di automatisk
 location-required-disclaimer = Vi brukar berre denne informasjonen til å rekne ut skattar og valuta.
+location-banner-currency-change = Valutaendring er ikkje støtta. For å halde fram, vel eit land som samsvarar med den gjeldande faktureringsvalutaen din.
 
 ## Page - Upgrade page
 
@@ -30,6 +31,7 @@ checkout-error-boundary-basic-error-message = Noko gjekk gale. Prøv på nytt el
 ## Common strings used in multiple pages
 
 next-payment-error-manage-subscription-button = Handsame abonnementet mitt
+next-iap-blocked-contact-support = Du har eit mobilabonnement i appen som er i konflikt med dette produktet — ta kontakt med kundestøtta slik at vi kan hjelpe deg.
 next-payment-error-retry-button = Prøv igjen
 next-basic-error-message = Noko gjekk gale. Prøv igjen seinare.
 checkout-error-contact-support-button = Kontakt brukarstøtte
@@ -242,15 +244,19 @@ metadata-title-checkout-error = Feil | { $productTitle }
 metadata-description-checkout-error = Det oppstod ein feil under handsaming av abonnementet ditt. Viss problemet held fram, kan du kontakte kundestøtte.
 # Checkout success
 metadata-title-checkout-success = Suksess | { $productTitle }
+metadata-description-checkout-success = Gratulerer! Du har fullført kjøpet.
 # Checkout needs_input
 metadata-title-checkout-needs-input = Handling påkravd | { $productTitle }
+metadata-description-checkout-needs-input = Fullfør den påkravde handlinga for å halde fram med betalinga.
 # Upgrade start
 metadata-title-upgrade-start = Oppgrader | { $productTitle }
+metadata-description-upgrade-start = Skriv inn betalingsinformasjonen din for å fullføre oppgraderinga.
 # Upgrade processing
 metadata-title-upgrade-processing = Handsamar | { $productTitle }
 metadata-description-upgrade-processing = Vent litt medan vi avsluttar handsaminga av betalinga di.
 # Upgrade error
 metadata-title-upgrade-error = Feil | { $productTitle }
+metadata-description-upgrade-error = Det oppstod en feil under behandling av oppgraderinga. Om problemet varer ved, kan du kontakte kundestøtte.
 # Upgrade success
 metadata-title-upgrade-success = Suksess | { $productTitle }
 metadata-description-upgrade-success = Gratulerer! Du har fullført oppgraderinga.
