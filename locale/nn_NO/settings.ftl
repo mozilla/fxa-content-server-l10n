@@ -1375,15 +1375,15 @@ inline-recovery-back-link = Tilbake
 inline-recovery-cancel-setup = Avbryt konfigurasjon
 # Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
 inline-recovery-backup-authentication-code = Reserve-autentiseringskode
-inline-recovery-confirmation-description = For å sikre at du kan få tilgang til kontoen din igjen, i tilfelle ei mista eining, skriv inn ein av dei lagra reserve-godkjenningskodane dine.
+inline-recovery-confirmation-description = For å sikre at du kan få tilgang til kontoen din igjen, i tilfelle ei mista eining, skriv inn ein av dei lagra reserve-autentiseringskodane dine.
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-inline-recovery-confirmation-header-default = Stadfest reserve-godkjenningskoden <span>for å halde fram til kontoinnstillingane</span>
+inline-recovery-confirmation-header-default = Stadfest reserve-autentiseringskoden <span>for å halde fram til kontoinnstillingane</span>
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Mozilla accounts to authenticate
-inline-recovery-confirmation-header = Stadfest reserve-godkjenningskoden <span>for å halde fram til { $serviceName }</span>
-inline-recovery-2fa-enabled-v2 = Tostegs-godkjenning er slått på
+inline-recovery-confirmation-header = Stadfest reserve-autentiseringskode <span>for å halde fram til { $serviceName }</span>
+inline-recovery-2fa-enabled-v2 = Tostegs-autentisering er slått på
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1391,20 +1391,20 @@ inline-recovery-2fa-enabled-v2 = Tostegs-godkjenning er slått på
 inline-totp-setup-cancel-setup-button = Avbryt konfigurasjon
 inline-totp-setup-continue-button = Hald fram
 # <authenticationAppsLink> links to a list of security apps
-inline-totp-setup-add-security-link = Legg til eit lag med sikkerheit til kontoen din ved å krevje godkjenningskodar frå ein av <authenticationAppsLink>desse autentiseringsappane</authenticationAppsLink>.
+inline-totp-setup-add-security-link = Legg til eit lag med sikkerheit til kontoen din ved å krevje autentiseringskodar frå ein av <authenticationAppsLink>desse autentiseringsappane</authenticationAppsLink>.
 #  The <enable2StepDefaultSpan> elements are just visual separation here
-inline-totp-setup-enable-two-step-authentication-default-header-2 = Aktiver tostegs-godkjenning <span>for å halde fram til kontoinnstillingane</span>
+inline-totp-setup-enable-two-step-authentication-default-header-2 = Aktiver tostegs-autentisering <span>for å halde fram til kontoinnstillingane</span>
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
-inline-totp-setup-enable-two-step-authentication-custom-header-2 = Aktiver tostegs-godkjenning <span>for å halde fram til { $serviceName }</span>
+inline-totp-setup-enable-two-step-authentication-custom-header-2 = Aktiver tostegs-autentisering <span>for å halde fram til { $serviceName }</span>
 inline-totp-setup-ready-button = Klar
 # The authentication code a user is scanning is a QR code.
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
-inline-totp-setup-show-qr-custom-service-header-2 = Skann godkjenningskoden <span>for å halde fram til { $serviceName }</span>
+inline-totp-setup-show-qr-custom-service-header-2 = Skann gautentiseringskoden <span>for å halde fram til { $serviceName }</span>
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <enterCodeManuallyHeaderSpan> elements are just visual separation
 inline-totp-setup-no-qr-custom-service-header-2 = Skriv inn koden manuelt <span>for å halde fram til { $serviceName }</span>
 # The authentication code a user is scanning is a QR code.
 # The <scanAuthHeaderSpan> elements are just visual separation
-inline-totp-setup-show-qr-default-service-header-2 = Skann godkjenningskoden <span>for å halde fram til innstillingar</span>
+inline-totp-setup-show-qr-default-service-header-2 = Skann autentiseringskoden <span>for å halde fram til innstillingar</span>
 # The <enterCodeManuallyHeaderSpan> elements are just visual separation
 inline-totp-setup-no-qr-default-service-header-2 = Skriv inn koden manuelt <span>for å halde fram til kontoinnstillingar</span>
 # The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
@@ -1412,12 +1412,12 @@ inline-totp-setup-enter-key-or-use-qr-instructions = Skriv inn den hemmelege nø
 # The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
 inline-totp-setup-use-qr-or-enter-key-instructions = Skann QR-koden i autentiseringsappen din, og skriv deretter inn autentiseringskoden han gir. <toggleToManualModeButton>Kan du ikkje skanne koden?</toggleToManualModeButton>
 # The "authentication code" here refers to the code provided by an authentication app.
-inline-totp-setup-on-completion-description = Ved fullføring, byrjar han å generere godkjenningskodar som du kan skrive inn.
+inline-totp-setup-on-completion-description = Ved fullføring, byrjar han å generere autentiseringskodar som du kan skrive inn.
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-security-code-placeholder = Autentiseringskode
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-code-required-error = Autentiseringskode påkravd
-tfa-qr-code-alt = Bruk koden { $code } or å stille inn tostegs-godkjenning i stødde appar.
+tfa-qr-code-alt = Bruk koden { $code } or å stille inn tostegs-autentisering i støtta appar.
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
@@ -1469,7 +1469,7 @@ auth-totp-heading-w-default-service = Skriv inn autentiseringskoden <span>for å
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 auth-totp-heading-w-custom-service = Skriv inn autentiseringskode <span>for å halde fram til { $serviceName }</span>
-auth-totp-instruction = Opne autentiseringsappen din og skriv inn godkjenningskoden du får opp.
+auth-totp-instruction = Opne autentiseringsappen din og skriv inn autentiseringskoden du får opp.
 auth-totp-input-label = Skriv inn 6-sifra kode
 # Form button to confirm if the authentication code entered by the user is valid
 auth-totp-confirm-button = Stadfest
@@ -1589,7 +1589,7 @@ complete-reset-password-desktop-relay = { -brand-firefox } vil prøve å sende d
 confirm-backup-code-reset-password-input-label = Skriv inn 10-sifra kode
 confirm-backup-code-reset-password-confirm-button = Stadfest
 confirm-backup-code-reset-password-subheader = Skriv inn reserve-autentiseringskode
-confirm-backup-code-reset-password-instruction = Skriv inn ein av eingongskodane du lagra då du sette opp tostegs-autentisering
+confirm-backup-code-reset-password-instruction = Skriv inn ein av eingongskodane du lagra då du konfigurerte tostegs-autentisering
 # Link out to support article: https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 confirm-backup-code-reset-password-locked-out-link = Er du sperra ute?
 
@@ -1677,7 +1677,7 @@ reset-password-recovery-phone-code-verification-error-heading = Det oppstod eit 
 # Follows the error message (e.g, "There was a problem sending a code")
 reset-password-recovery-phone-general-error-description = Prøv igjen seinare.
 reset-password-recovery-phone-invalid-code-error-description = Koden er ugyldig eller utgått.
-reset-password-recovery-phone-invalid-code-error-link = Vil du bruke reserve-godkjenningskodar i staden?
+reset-password-recovery-phone-invalid-code-error-link = Vil du bruke reserve-autentiseringskodar i staden?
 reset-password-with-recovery-key-verified-page-title = Passordet er tilbakestilt
 reset-password-complete-new-password-saved = Nytt passord lagra!
 reset-password-complete-recovery-key-created = Ny kontogjenopprettingsnøkkel oppretta. Last ned og lagre han no.
@@ -1784,7 +1784,7 @@ signin-recovery-method-send-code-error-description = Prøv igjen seinare eller b
 signin-recovery-code-heading = Logg inn
 signin-recovery-code-sub-heading = Skriv inn reserve-autentiseringskode
 # codes here refers to backup authentication codes
-signin-recovery-code-instruction-v3 = Skriv inn ein av eingongskodane du lagra då du sette opp tostegs-godkjenning.
+signin-recovery-code-instruction-v3 = Skriv inn ein av eingongskodane du lagra då du sette opp tostegs-autentisering.
 # code here refers to backup authentication code
 signin-recovery-code-input-label-v2 = Skriv inn 10-sifra kode
 # Form button to confirm if the backup authentication code entered by the user is valid
