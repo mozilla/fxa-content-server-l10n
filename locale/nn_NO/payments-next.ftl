@@ -224,6 +224,7 @@ upgrade-purchase-details-new-plan-weekly = { $productName } (kvar veke)
 upgrade-purchase-details-new-plan-monthly = { $productName } (kvar månad)
 upgrade-purchase-details-new-plan-halfyearly = { $productName } (6 månadar)
 upgrade-purchase-details-new-plan-yearly = { $productName } (kvart år)
+upgrade-purchase-details-prorated-credits = Negativ saldo som vest vist vil bli kreditert kontoen din og brukt til framtidige fakturaer.
 
 ## Page Metadata Information
 ## $productTitle (String) - The name of the product to create subscription, e.g. Mozilla VPN
@@ -239,15 +240,29 @@ metadata-title-checkout-error = Feil | { $productTitle }
 metadata-description-checkout-error = Det oppstod ein feil under handsaming av abonnementet ditt. Viss problemet held fram, kan du kontakte kundestøtte.
 # Checkout success
 metadata-title-checkout-success = Suksess | { $productTitle }
+# Checkout needs_input
+metadata-title-checkout-needs-input = Handling påkravd | { $productTitle }
 # Upgrade start
 metadata-title-upgrade-start = Oppgrader | { $productTitle }
+# Upgrade processing
+metadata-title-upgrade-processing = Handsamar | { $productTitle }
+metadata-description-upgrade-processing = Vent litt medan vi avsluttar handsaminga av betalinga di.
 # Upgrade error
 metadata-title-upgrade-error = Feil | { $productTitle }
+# Upgrade success
+metadata-title-upgrade-success = Suksess | { $productTitle }
+# Upgrade needs_input
+metadata-title-upgrade-needs-input = Handling påkravd | { $productTitle }
 # Default
 metadata-title-default = Fann ikkje sida | { $productTitle }
 
 ## Coupon Error Messages
 
+next-coupon-error-expired = Koden du skreiv inn har gått ut.
+next-coupon-error-generic = Det oppstod ein feil under handsaming av koden. Prøv på nytt.
+next-coupon-error-invalid = Koden du skreiv inn er ugyldig.
+# "Limit" refers to the maximum number of times a coupon can be redeemed.
+next-coupon-error-limit-reached = Koden du skreiv inn har nådd grensa si.
 
 ##
 

@@ -634,7 +634,9 @@ flow-setup-2fa-code-error = Ugyldig eller utgått kode. Sjekk autentiseringsappe
 flow-setup-2fa-backup-choice-heading = Vel ein gjenopprettingsmetode
 flow-setup-2fa-backup-choice-description = Dette gjer at du kan logge inn dersom du ikkje får tilgang til mobilen eller autentiseringsappen din.
 flow-setup-2fa-backup-choice-phone-title = Gjenopprettingstelefon
+flow-setup-2fa-backup-choice-phone-badge = Enklast
 flow-setup-2fa-backup-choice-code-title = Reserve-autentiseringskodar
+flow-setup-2fa-backup-choice-code-badge = Tryggast
 flow-setup-2fa-backup-choice-code-info = Opprett og lagre eingongs-autentiseringskodar.
 
 ## The backup code confirm step of the setup 2 factor authentication flow,
@@ -1195,6 +1197,7 @@ tfa-row-disable-modal-explain-1 =
 # Shown in an alert bar after two-step authentication is disabled
 tfa-row-disabled-2 = Tostegs-autentisering deaktivert
 tfa-row-cannot-disable-2 = Klarte ikkje å deaktivere tostegs-autentisering
+tfa-row-disable-cannot-verify-session = Beklagar, det oppstod eit problem med å stadfeste økta
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
@@ -1939,6 +1942,7 @@ signup-change-email-link = Endre e-post
 ## Shown to users when they finish confirming their account through Sync
 
 signup-confirmed-sync-header = Synkronisering er slått på
+signup-confirmed-sync-success-banner = { -product-mozilla-account } stadfesta
 signup-confirmed-sync-button = Start nettlesinga
 signup-confirmed-sync-add-device-link = Legg til ei anna eining
 signup-confirmed-sync-manage-sync-button = Handsam synkronisering

@@ -424,6 +424,9 @@ postAddTwoStepAuthentication-from-device-v2 = Du ba om dette frå:
 postAddTwoStepAuthentication-action = Handsam kontoen
 postAddTwoStepAuthentication-code-required-v3 = Du må no bruke autentiseringsappen din kvar gong du loggar på.
 postAddTwoStepAuthentication-recovery-method-codes = Du har òg lagt til reserve-autentiseringskode som gjenopprettingsmetode.
+# Variables:
+#  $maskedPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
+postAddTwoStepAuthentication-recovery-method-phone = Du la òg til { $maskedPhoneNumber } som telefonnummer for gjenoppretting.
 postChangeAccountRecovery-subject = Kontogjenopprettingsnøkkel endra
 postChangeAccountRecovery-title = Du endra kontogjenopprettingsnøkkelen
 postChangeAccountRecovery-body-part1 = Du har no ein ny kontogjenopprettingsnøkkel. Den førre nøkkelen din vart sletta.
@@ -446,6 +449,7 @@ postConsumeRecoveryCode-title-3 = Reserve-autentiseringskoden din vart brukt til
 postConsumeRecoveryCode-description-3 = Kode brukt frå:
 postConsumeRecoveryCode-action = Handsam kontoen
 postConsumeRecoveryCode-subject-v3 = Reserve-autentiseringskode brukt
+postConsumeRecoveryCode-preview = Kontroller at dette var deg
 postNewRecoveryCodes-subject-2 = Nye reserve-autentiseringskodar oppretta
 postNewRecoveryCodes-title-2 = Du oppretta nye reserve-autentiseringskodar
 # After the colon, there is information about the device that the authentication codes were created on
