@@ -396,6 +396,9 @@ account-recovery-notification-header-value = Ikkje mist dataa dine om du gløyme
 account-recovery-notification-header-description = Opprett ein kontogjenopprettingsnøkkel for å gjenopprette synkroniserte nettlesardata viss du nokon gong gløymer passordet ditt.
 recovery-phone-promo-cta = Legg til gjenopprettingstelefon
 recovery-phone-promo-description = No kan du logge på med eit eingongspassord via SMS viss du ikkje kan bruke tostegs-autentiseringsappen din.
+recovery-phone-promo-info-link = Les meir om gjenoppretting og SIM-swapping-risiko
+promo-banner-dismiss-button =
+    .aria-label = Avvis banner
 
 ## Ready component
 
@@ -682,6 +685,7 @@ flow-setup-phone-confirm-code-expired = Har koden gått ut?
 flow-setup-phone-confirm-code-resend-code-button = Send koden på nytt
 flow-setup-phone-confirm-code-resend-code-success = Kode sendt
 flow-setup-phone-confirm-code-success-message-v2 = Gjenopprettingstelefon lagt til
+flow-change-phone-confirm-code-success-message = Gjenopprettingstelefon endra
 
 ## FlowSetupPhoneConfirmCode
 
