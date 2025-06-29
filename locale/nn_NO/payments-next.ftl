@@ -165,6 +165,7 @@ select-tax-location-error-location-not-updated = Klarte ikkje å oppdatere plass
 #  $currencyDisplayName (String) - The display name of a currency code, e.g. US Dollar
 select-tax-location-invalid-currency-change = Kontoen din vert fakturert i { $currencyDisplayName }. Vel eit land som brukar { $currencyDisplayName }.
 select-tax-location-invalid-currency-change-default = Vel eit land som passar med valutaen til dei aktive abonnementa dine.
+select-tax-location-new-tax-rate-info = Om du oppdaterer posisjonen din, gjeld den nye skattesatsen for alle aktive abonnement på kontoen din, frå og med neste faktureringsperiode.
 signin-form-continue-button = Hald fram
 signin-form-email-input = Skriv inn e-postadressa di
 signin-form-email-input-missing = Skriv inn e-postadressa di
