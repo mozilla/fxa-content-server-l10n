@@ -744,7 +744,7 @@ tfa-replace-code-success-1 =
 tfa-replace-code-success-alert-4 = Reserve-autentiseringskodar oppdaterte
 tfa-replace-code-1-2 = Steg 1 av 2
 tfa-replace-code-2-2 = Steg 2 av 2
-tfa-enter-code-to-confirm-v2 = Skriv inn ein av dei nye reserve-godkjenningskodane dine for å stadfeste at du har lagra dei. Dei gamle reserve-godkjenningskodane dine vil bli deaktiverte når dette steget er fullført.
+tfa-enter-code-to-confirm-v2 = Skriv inn ein av dei nye reserve-autentiseringskodane dine for å stadfeste at du har lagra dei. Dei gamle reserve-autentiseringskodane dine vil bli deaktiverte når dette steget er fullført.
 
 ## PageSetupRecoveryPhone
 
@@ -971,18 +971,18 @@ inactive-update-status-success-alert = Innlogga. { -product-mozilla-account }-en
 
 ## Two Step Authentication
 
-tfa-title = Tostegs-godkjenning
+tfa-title = Tostegs-autentisering
 tfa-step-1-3 = Steg 1 av 3
 tfa-step-2-3 = Steg 2 av 3
 tfa-step-3-3 = Steg 3 av 3
 tfa-button-continue = Hald fram
 tfa-button-cancel = Avbryt
 tfa-button-finish = Fullfør
-tfa-incorrect-totp = Feil tostegs-godkjenningskode
+tfa-incorrect-totp = Feil tostegs-autentiseringskode
 tfa-cannot-retrieve-code = Det oppstod eit problem med å hente koden din.
-tfa-cannot-verify-code-4 = Det oppstod eit problem med å stadfeste reserve-godkjenningskoden din
-tfa-incorrect-recovery-code-1 = Feil reserve-godkjenningskode
-tfa-enabled-v2 = Tostegs-godkjenning er slått på
+tfa-cannot-verify-code-4 = Det oppstod eit problem med å stadfeste reserve-autentiseringskoden din
+tfa-incorrect-recovery-code-1 = Feil reserve-autentiseringskode
+tfa-enabled-v2 = Tostegs-autentisering er slått på
 tfa-scan-this-code =
     Skann denne QR-koden med ein av <linkExternal>desse
     autentiseringsappane</linkExternal>.
@@ -991,23 +991,23 @@ tfa-scan-this-code =
 #   $secret (String) - a long alphanumeric string that does not require translation
 # DEV NOTE: Set image alt text per fluent/react documentation, do not use the below as an example
 tfa-qa-code-alt =
-    Bruk koden { $secret } for å setje opp tostegs-godkjenning i
+    Bruk koden { $secret } for å setje opp tostegs-autentisering i
     støtta appar.
 tfa-qa-code =
     .alt = { tfa-qa-code-alt }
 tfa-button-cant-scan-qr = Klarer du ikkje å skanne koden?
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Skriv inn denne hemmelege nøkkelen i autentiseringsappen din:
-tfa-enter-totp-v2 = Skriv no inn godkjenningskoden frå autentiseringsappen.
+tfa-enter-totp-v2 = Skriv no inn autentiseringskoden frå autentiseringsappen.
 tfa-input-enter-totp-v2 =
-    .label = SKriv inn godkjenningskode
+    .label = SKriv inn autentiseringskode
 tfa-save-these-codes-1 =
-    Lagre desse godkjenningskodane for eingongsbruk på ein trygg stad for å bruke dei 
+    Lagre desse autentiseringskodane for eingongsbruk på ein trygg stad for å bruke dei 
     når du ikkje har mobileininga di.
 # codes here refers to backup authentication codes
 tfa-enter-code-to-confirm-setup = Stadfest at du har lagra kodane dine ved å skrive inn ein av dei. Utan desse kodane kan det hende du ikkje kan logge på viss du ikkje har autentiseringsappen din.
 tfa-enter-recovery-code-1 =
-    .label = Skriv inn ein backup authentication code
+    .label = Skriv inn ein reserve-autentiseringskode
 
 ## Product promotion
 
@@ -1053,7 +1053,7 @@ signout-sync-session-expired = Noko gjekk diverre gale. Logg ut frå nettlesaren
 
 ## SubRow component
 
-tfa-row-backup-codes-title = Reserve-godkjenningskodar
+tfa-row-backup-codes-title = Reserve-autentiseringskodar
 # Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
 # Users that have not enabled or verified 2FA will not see this
 tfa-row-backup-codes-not-available = Ingen kodar tilgjengeleg
@@ -1084,7 +1084,7 @@ tfa-row-backup-phone-add-cta = Legg til
 tfa-row-backup-phone-delete-button = Fjern
 # Shown in tooltip on delete button or delete icon
 tfa-row-backup-phone-delete-title-v2 = Fjern gjenopprettingstelefon
-tfa-row-backup-phone-delete-restriction-v2 = Dersom du vil fjerne gjenopprettingstelefonen, legg til reserve-godkjenningskodar eller deaktivere tostegs-godkjenning først for å unngå å bli utestengd frå kontoen din.
+tfa-row-backup-phone-delete-restriction-v2 = Dersom du vil fjerne gjenopprettingstelefonen, legg til reserve-autentiseringskodar eller deaktivere tostegs-autentisering først for å unngå å bli utestengd frå kontoen din.
 # "this" refers to recovery phone
 tfa-row-backup-phone-description-v2 = Dette er den enklaste gjenopprettingsmetoden dersom du ikkje kan bruke autentiseringsappen din.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
@@ -1171,30 +1171,30 @@ se-secondary-email-none = Ingen
 
 ## Two Step Auth sub-section on Settings main page
 
-tfa-row-header = Tostegs-godkjenning
+tfa-row-header = Tostegs-autentisering
 tfa-row-enabled = Aktivert
 tfa-row-disabled-status = Avslått
 tfa-row-action-add = Legg til
 tfa-row-action-disable = Slå av
 tfa-row-button-refresh =
-    .title = Oppdater tostegs-godkjenning
+    .title = Oppdater tostegs-autentisering
 tfa-row-cannot-refresh =
-    Diverre oppstod eit problem med å oppdatere
-    tostegs-godkjenning.
-tfa-row-enabled-description = Kontoen din er beskytta av tostegs-godkjenning. Du må skrive inn eit eingongspassord frå autentiseringsappen når du loggar inn på { -product-mozilla-account }en din.
+    Diverre oppstod det eit problem med å oppdatere
+    tostegs-autentisering.
+tfa-row-enabled-description = Kontoen din er beskytta av tostegs-autentisering. Du må skrive inn eit eingongspassord frå autentiseringsappen når du loggar inn på { -product-mozilla-account }en din.
 # "this" refers to two-step authentication
 # Link goes to https://support.mozilla.org/kb/secure-mozilla-account-two-step-authentication
 tfa-row-enabled-info-link = Korleis dette vernar kontoen din
 tfa-row-disabled-description-v2 = Sikre kontoen din ved å bruke ein tredjeparts autentiseringsapp som eit andre steg for å logge på.
 tfa-row-cannot-verify-session-4 = Beklagar, det oppstod eit problem med å stadfeste økta
-tfa-row-disable-modal-heading = Deaktivere tostegs-godkjenning?
+tfa-row-disable-modal-heading = Deaktivere tostegs-autentisering?
 tfa-row-disable-modal-confirm = Slå av
 tfa-row-disable-modal-explain-1 =
     Du kan ikkje angre denne handlinga. Du har også
-    høve til å <linkExternal>erstatte reserve-godkjenningskodane dine</linkExternal>.
+    høve til å <linkExternal>erstatte reserve-autentiseringskodane dine</linkExternal>.
 # Shown in an alert bar after two-step authentication is disabled
-tfa-row-disabled-2 = Tostegs-godkjenning deaktivert
-tfa-row-cannot-disable-2 = Klarte ikkje å deaktivere tostegs-godkjenning.
+tfa-row-disabled-2 = Tostegs-autentisering deaktivert
+tfa-row-cannot-disable-2 = Klarte ikkje å deaktivere tostegs-autentisering
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
@@ -1250,7 +1250,7 @@ auth-error-206 = Kan ikkje opprette passord, passordet er allereie angitt
 auth-error-214 = Gjenopprettings-telefonnummeret finst allereie
 auth-error-215 = Gjenopprettings-telefonnummeret finst ikkje
 auth-error-216 = Grensa for tekstmeldingar er nådd
-auth-error-218 = Klarte ikkje å fjerne gjenopprettingstelefonen, manglar reserve-godkjenningskodar.
+auth-error-218 = Klarte ikkje å fjerne gjenopprettingstelefonen, manglar reserve-autentiseringskodar.
 auth-error-219 = Dette telefonnummeret er registrert med for mange kontoar. Prøv eit anna nummer.
 auth-error-999 = Uventa feil
 auth-error-1001 = Innloggingsforsøket avbrote
@@ -1263,8 +1263,8 @@ auth-error-1018 = Stadfestings e-posten din kom i retur. Feil i e-postadressa?
 auth-error-1020 = Feil e-postadresse? firefox.com er ikkje ei gyldig e-postteneste
 auth-error-1031 = Du må skrive inn alder for å registrere deg
 auth-error-1032 = Du må skrive inn ein gyldig alder for å registrere deg
-auth-error-1054 = Feil tostegs-godkjenningskode
-auth-error-1056 = Ugyldig reserve-godkjenningskode
+auth-error-1054 = Feil tostegs-autentiseringskode
+auth-error-1056 = Ugyldig reserve-autentiseringskode
 auth-error-1062 = Ugyldig omdirigering
 # Shown when a user tries to sign up with an email address with a domain that doesn't receive emails
 auth-error-1064 = Feil e-postadresse? { $domain } er ikkje ei gyldig e-postteneste
@@ -1357,11 +1357,11 @@ inline-recovery-key-setup-hint-header = Tryggingstilråding
 
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-inline-recovery-setup-header-default = Stadfest reserve-godkjenningskoden <span>for å halde fram til kontoinnstillingane</span>
+inline-recovery-setup-header-default = Stadfest reserve-autentiseringskoden <span>for å halde fram til kontoinnstillingane</span>
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Mozilla accounts to authenticate
-inline-recovery-setup-header = Lagre reserve-godkjenningskodar <span>for å halde fram til { $serviceName }</span>
+inline-recovery-setup-header = Lagre reserve-autentiseringskodar <span>for å halde fram til { $serviceName }</span>
 # Message refers to the recovery codes depicted below in the view
 inline-recovery-setup-message = Oppbevar desse eingongskodane på ein trygg stad, og bruk dei når du ikkje har tilgang til mobileininga di.
 # This button allows a user to copy their recovery codes to their clipboard
@@ -1374,7 +1374,7 @@ inline-recovery-confirm-button = Stadfest
 inline-recovery-back-link = Tilbake
 inline-recovery-cancel-setup = Avbryt konfigurasjon
 # Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
-inline-recovery-backup-authentication-code = Reserve-godkjenningskode
+inline-recovery-backup-authentication-code = Reserve-autentiseringskode
 inline-recovery-confirmation-description = For å sikre at du kan få tilgang til kontoen din igjen, i tilfelle ei mista eining, skriv inn ein av dei lagra reserve-godkjenningskodane dine.
 # Strings within the <span> elements appear as a subheading.
 # If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
