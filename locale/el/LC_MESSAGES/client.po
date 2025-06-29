@@ -1313,7 +1313,7 @@ msgstr "Λήψη του Firefox για κινητές συσκευές."
 
 #: .es5/templates/permissions.mustache:1
 msgid "Request for permission"
-msgstr "Αίτηση για άδεια"
+msgstr "Αίτημα για δικαίωμα"
 
 #: .es5/templates/permissions.mustache:2
 msgid "%(serviceName)s wants the following information from your account:"

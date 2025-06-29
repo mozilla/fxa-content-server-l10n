@@ -101,6 +101,20 @@ datablock-copy-success =
         [many] Kódy skopírované
        *[other] Kódy skopírované
     }
+datablock-download-success =
+    { $count ->
+        [one] Kód stiahnutý
+        [few] Kódy stiahnuté
+        [many] Kódy stiahnuté
+       *[other] Kódy stiahnuté
+    }
+datablock-print-success =
+    { $count ->
+        [one] Kód vytlačený
+        [few] Kódy vytlačené
+        [many] Kódy vytlačené
+       *[other] Kódy vytlačené
+    }
 
 ##
 
@@ -637,6 +651,7 @@ flow-setup-2fa-more-info-link = Ďalšie informácie o overovacích aplikáciác
 flow-setup-2fa-button = Pokračovať
 flow-setup-2fa-step-2-instruction = <strong>Krok 2:</strong> Zadajte kód z overovacej aplikácie.
 flow-setup-2fa-input-label = Zadajte šesťmiestny kód
+flow-setup-2fa-code-error = Neplatný alebo vypršaný kód. Skontrolujte si overovaciu aplikáciu a skúste to znova.
 
 ## The step to choose the two step authentication method in the two step
 ## authentication setup flow.
@@ -764,6 +779,11 @@ tfa-enter-code-to-confirm-v2 = Zadajte jeden zo svojich nových záložných ove
 
 ## PageSetupRecoveryPhone
 
+page-2fa-setup-title = Dvojstupňové overenie
+page-2fa-setup-totpinfo-error = Pri nastavovaní dvojstupňového overenia sa vyskytla chyba. Skúste to znova neskôr.
+# code here refers to "backup authentication code"
+page-2fa-setup-incorrect-backup-code-error = Tento kód nie je správny. Skúste to znova.
+page-2fa-setup-success = Dvojstupňové overenie bolo povolené
 
 ## Avatar change page
 
@@ -1215,6 +1235,7 @@ tfa-row-disable-modal-explain-1 =
 # Shown in an alert bar after two-step authentication is disabled
 tfa-row-disabled-2 = Dvojstupňové overenie bolo zakázané
 tfa-row-cannot-disable-2 = Dvojstupňové overenie sa nepodarilo zakázať
+tfa-row-disable-cannot-verify-session = Ľutujeme, pri potvrdení vašej relácie sa vyskytol problém
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
