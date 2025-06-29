@@ -1751,6 +1751,7 @@ signin-password-button-label = Passord
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-desktop-relay = { -brand-firefox } vil prøve å sende deg tilbake for å bruke eit e-postalias etter at du har logga på.
+signin-code-expired-error = Koden har gått ut. Logg inn på nytt.
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
@@ -1960,6 +1961,8 @@ confirm-signup-code-desktop-relay = { -brand-firefox } vil prøve å sende deg t
 
 signup-heading-v2 = Opprett passord
 signup-relay-info = Eit passord er nødvendig for å sikkert administrere dei maskerte e-postane dine og få tilgang til tryggingsverktøya til { -brand-mozilla }.
+signup-sync-info = Synkroniser passorda, bokmerka, og meir, overalt der du brukar { -brand-firefox }.
+signup-sync-info-with-payments = Synkroniser passorda, betalingsmetodar, bokmerka, og meir, overalt der du brukar { -brand-firefox }.
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = Kvifor må eg opprette denne kontoen?
 # Link included in a dismissible info banner that is only displayed to Pocket clients
@@ -1974,6 +1977,9 @@ signup-change-email-link = Endre e-post
 signup-confirmed-sync-header = Synkronisering er slått på
 signup-confirmed-sync-success-banner = { -product-mozilla-account } stadfesta
 signup-confirmed-sync-button = Start nettlesinga
+# Shown when payment methods are also synced
+signup-confirmed-sync-description-with-payment-v2 = Passorda dine, betalingsmetodane, adressene, bokmerka, historikken din, og meir, kan synkroniserast overalt der du brukar { -brand-firefox }.
+signup-confirmed-sync-description-v2 = Passorda, adressene, bokmerka, historikken, og meir, kan synkroniserast overalt der du brukar { -brand-firefox }.
 signup-confirmed-sync-add-device-link = Legg til ei anna eining
 signup-confirmed-sync-manage-sync-button = Handsam synkronisering
 signup-confirmed-sync-set-password-success-banner = Synkroniseringspassord oppretta
