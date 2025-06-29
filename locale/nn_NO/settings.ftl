@@ -736,18 +736,21 @@ nav-email-comm = E-postkommunikasjon
 ## Two Step Authentication - replace backup authentication code
 
 tfa-replace-code-error-3 = Det oppstod eit problem med å erstatte reserve-autentiseringskodane dine
-tfa-create-code-error = Det oppstod eit problem med å opprette reserve-godkjenningskodane dine
+tfa-create-code-error = Det oppstod eit problem med å opprette reserve-autentiseringskodane dine
 tfa-replace-code-success-1 =
     Nye kodar er oppretta. Lagre desse eingongs
-    reserve-godkjenningskodane på ein trygg stad – du treng dei for å få tilgang til 
+    reserve-autentiseringskodane på ein trygg stad – du treng dei for å få tilgang til 
     kontoen din om du ikkje har mobileininga di.
-tfa-replace-code-success-alert-4 = Reserve-godkjenningskodar oppdaterte
+tfa-replace-code-success-alert-4 = Reserve-autentiseringskodar oppdaterte
 tfa-replace-code-1-2 = Steg 1 av 2
 tfa-replace-code-2-2 = Steg 2 av 2
 tfa-enter-code-to-confirm-v2 = Skriv inn ein av dei nye reserve-godkjenningskodane dine for å stadfeste at du har lagra dei. Dei gamle reserve-godkjenningskodane dine vil bli deaktiverte når dette steget er fullført.
 
 ## PageSetupRecoveryPhone
 
+page-2fa-setup-title = Tostegs-autentisering
+page-2fa-setup-totpinfo-error = Det oppstod ein feil under oppsett av tostegs-autentisering. Prøv på nytt seinare.
+page-2fa-setup-success = Tostegs-autentisering er slått på
 
 ## Avatar change page
 
@@ -865,11 +868,11 @@ recent-activity-account-reset-v2 = Tilbakestilling av passord starta
 # An email bounce is when an email is sent to an email address and fails/receives a non-delivery receipt from the recipient's mail server.
 recent-activity-emails-clearBounces-v2 = E-postavvisingar fjerna
 recent-activity-account-login-failure = Forsøk på kontopålogging mislykkast
-recent-activity-account-two-factor-added = Tostegs-godkjenning aktivert
-recent-activity-account-two-factor-requested = Tostegs-godkjenning påkravd
-recent-activity-account-two-factor-failure = Tostegs-godkjenning, mislykka
-recent-activity-account-two-factor-success = Tostegs-godkjenning, vellykka
-recent-activity-account-two-factor-removed = Tostegs-verifisering fjerna
+recent-activity-account-two-factor-added = Tostegs-autentisering aktivert
+recent-activity-account-two-factor-requested = Tostegs-autentisering påkravd
+recent-activity-account-two-factor-failure = Tostegs-autentisering, mislykka
+recent-activity-account-two-factor-success = Tostegs-autentisering, vellykka
+recent-activity-account-two-factor-removed = Tostegs-autentisering fjerna
 recent-activity-account-password-reset-requested = Kontoen ba om tilbakestilling av passord
 recent-activity-account-password-reset-success = Kontopassordet er tilbakestilt
 recent-activity-account-recovery-key-added = Kontogjenopprettingsnøkkel aktivert
@@ -911,9 +914,9 @@ recovery-phone-remove-header = Fjern telefonnummeret for gjenoppretting
 # Variables:
 #   $formattedFullPhoneNumber (String) - the user's full phone number
 settings-recovery-phone-remove-info = Dette vil fjerne <strong>{ $formattedFullPhoneNumber }</strong> som din gjenopprettingstelefon.
-settings-recovery-phone-remove-recommend = Vi tilrår at du beheld denne metoden fordi det er enklare enn å lagre reserve-godkjenningskodar.
+settings-recovery-phone-remove-recommend = Vi tilrår at du beheld denne metoden fordi det er enklare enn å lagre reserve-autentiseringskodar.
 # "Saved backup authentication codes" refers to previously saved backup authentication codes
-settings-recovery-phone-remove-recovery-methods = Viss du slettar han, sørg for at du framleis har dei lagra reserve-godkjenningskodane. <linkExternal>Samanlikn gjenopprettingsmetodar</linkExternal>
+settings-recovery-phone-remove-recovery-methods = Viss du slettar han, sørg for at du framleis har dei lagra reserve-autentiseringskodane. <linkExternal>Samanlikn gjenopprettingsmetodar</linkExternal>
 settings-recovery-phone-remove-button = Fjern telefonnummeret
 settings-recovery-phone-remove-cancel = Avbryt
 settings-recovery-phone-remove-success = Gjenopprettingstelefon fjerna
