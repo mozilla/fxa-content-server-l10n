@@ -104,14 +104,14 @@ datablock-copy-success =
 datablock-download-success =
     { $count ->
         [one] Koda prenesena
-        [two] Kode prenesene
+        [two] Kodi preneseni
         [few] Kode prenesene
        *[other] Kode prenesene
     }
 datablock-print-success =
     { $count ->
         [one] Koda natisnjena
-        [two] Kode natisnjene
+        [two] Kodi natisnjeni
         [few] Kode natisnjene
        *[other] Kode natisnjene
     }
@@ -653,7 +653,7 @@ flow-setup-2fa-more-info-link = Preberite več o aplikacijah za overitev
 flow-setup-2fa-button = Nadaljuj
 flow-setup-2fa-step-2-instruction = <strong>2. korak:</strong> Vnesite kodo iz aplikacije za overitev.
 flow-setup-2fa-input-label = Vnesite 6-mestno kodo
-flow-setup-2fa-code-error = Neveljavna ali pretečena koda. Preverite aplikacijo za overitev in poskusite znova.
+flow-setup-2fa-code-error = Neveljavna ali pretečena koda. Preverite v aplikaciji za overjanje in poskusite znova.
 
 ## The step to choose the two step authentication method in the two step
 ## authentication setup flow.
