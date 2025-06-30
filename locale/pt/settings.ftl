@@ -90,6 +90,28 @@ datablock-copy =
     .message = Copiado
 datablock-print =
     .message = Impresso
+
+## Success banners for datablock actions.
+## $count – number of codes
+
+datablock-copy-success =
+    { $count ->
+        [one] Código copiado
+       *[other] Códigos copiados
+    }
+datablock-download-success =
+    { $count ->
+        [one] Código transferido
+       *[other] Códigos transferidos
+    }
+datablock-print-success =
+    { $count ->
+        [one] Código impresso
+       *[other] Códigos impressos
+    }
+
+##
+
 # Tooltip notification when an account recovery key or one-time use code is copied.
 datablock-inline-copy =
     .message = Copiada
@@ -622,6 +644,7 @@ flow-setup-2fa-scan-qr-instead-button = Digitalizar código QR?
 flow-setup-2fa-more-info-link = Saber mais sobre aplicações de autenticação
 flow-setup-2fa-button = Continuar
 flow-setup-2fa-input-label = Inserir código de 6 dígitos
+flow-setup-2fa-code-error = Código inválido ou expirado. Verifique a sua aplicação de autenticação e tente novamente.
 
 ## The step to choose the two step authentication method in the two step
 ## authentication setup flow.
@@ -743,6 +766,14 @@ tfa-replace-code-success-alert-4 = Códigos de autenticação de recuperação a
 tfa-replace-code-1-2 = Passo 1 de 2
 tfa-replace-code-2-2 = Passo 2 de 2
 tfa-enter-code-to-confirm-v2 = Por favor, insira um dos seus novos códigos de autenticação de recuperação para confirmar que os guardou. Os seus códigos de autenticação de recuperação antigos serão desativados assim que esta etapa for concluída.
+
+## PageSetupRecoveryPhone
+
+page-2fa-setup-title = Autenticação de dois fatores
+page-2fa-setup-totpinfo-error = Ocorreu um erro ao configurar a autenticação de dois passos. Tente novamente mais tarde.
+# code here refers to "backup authentication code"
+page-2fa-setup-incorrect-backup-code-error = Esse código não está correto. Tente novamente.
+page-2fa-setup-success = A autenticação de dois passos foi ativada
 
 ## Avatar change page
 
@@ -1191,6 +1222,7 @@ tfa-row-disable-modal-explain-1 = Não poderá anular esta ação. Tem também a
 # Shown in an alert bar after two-step authentication is disabled
 tfa-row-disabled-2 = Autenticação de dois fatores desativada
 tfa-row-cannot-disable-2 = Não foi possível desativar a autenticação de dois fatores
+tfa-row-disable-cannot-verify-session = Desculpe, mas ocorreu um problema ao confirmar a sua sessão
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
