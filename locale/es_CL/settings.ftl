@@ -94,6 +94,21 @@ datablock-print =
 ## Success banners for datablock actions.
 ## $count – number of codes
 
+datablock-copy-success =
+    { $count ->
+        [one] Código copiado
+       *[other] Códigos copiados
+    }
+datablock-download-success =
+    { $count ->
+        [one] Código descargado
+       *[other] Códigos descargados
+    }
+datablock-print-success =
+    { $count ->
+        [one] Código impreso
+       *[other] Códigos impresos
+    }
 
 ##
 
@@ -630,6 +645,7 @@ flow-setup-2fa-more-info-link = Aprende más sobre las aplicaciones de autentica
 flow-setup-2fa-button = Continuar
 flow-setup-2fa-step-2-instruction = <strong>Paso 2:</strong> Ingresa el código de tu aplicación de autenticación.
 flow-setup-2fa-input-label = Ingresa el código de 6 dígitos
+flow-setup-2fa-code-error = Código inválido o caducado. Revisa tu aplicación de autenticación y vuelve a intentarlo.
 
 ## The step to choose the two step authentication method in the two step
 ## authentication setup flow.
@@ -757,6 +773,11 @@ tfa-enter-code-to-confirm-v2 = Por favor, ingresa uno de tus nuevos códigos de 
 
 ## PageSetupRecoveryPhone
 
+page-2fa-setup-title = Autenticación en dos pasos
+page-2fa-setup-totpinfo-error = Se produjo un error al configurar la autenticación en dos pasos. Vuelve a inténtalo más tarde.
+# code here refers to "backup authentication code"
+page-2fa-setup-incorrect-backup-code-error = Ese código no es correcto. Vuelve a intentarlo.
+page-2fa-setup-success = La autenticación en dos pasos ha sido activada
 
 ## Avatar change page
 
@@ -1203,6 +1224,7 @@ tfa-row-disable-modal-explain-1 =
 # Shown in an alert bar after two-step authentication is disabled
 tfa-row-disabled-2 = Autenticación en dos pasos desactivada
 tfa-row-cannot-disable-2 = La autenticación en dos pasos no pudo ser deshabilitada
+tfa-row-disable-cannot-verify-session = Lo sentimos, hubo un problema al confirmar tu sesión
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
