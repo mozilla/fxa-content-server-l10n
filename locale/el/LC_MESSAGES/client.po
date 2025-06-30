@@ -216,7 +216,7 @@ msgstr "Επιτυχής επιβεβαίωση λογαριασμού"
 
 #: .es5/models/support-form.js:23
 msgid "payment & billing"
-msgstr "πληρωμή & χρέωση"
+msgstr "πληρωμή και χρέωση"
 
 #: .es5/models/support-form.js:23
 msgid "account issues"
