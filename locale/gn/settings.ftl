@@ -1563,6 +1563,8 @@ pair-unsupported-message = ¿Eiporu apopyvusu ra’ãnganohẽha? Eikeva’erã 
 # password to complete their sign-in when they want to login to a service requiring it.
 
 set-password-heading-v2 = Emoheñói ñe’ẽñemi embojuehe hag̃ua
+# "This" refers to the heading, "Create password to sync"
+set-password-info-v2 = Kóva ombopapapy ne mba’ekuaarã. Iñambueva’erã ne ñe’ẽñemi { -brand-google } térã { -brand-apple } mba’etepeguágui.
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
@@ -1608,6 +1610,7 @@ complete-reset-password-desktop-relay = { -brand-firefox } orahaukajeýta ndéve
 confirm-backup-code-reset-password-input-label = Ehai ayvu orekóva 10 tai
 confirm-backup-code-reset-password-confirm-button = Moneĩ
 confirm-backup-code-reset-password-subheader = Emoinge ayvu ñemoneĩrã jeykekoha
+confirm-backup-code-reset-password-instruction = Ehai peteĩva ayvueta ojeporu ha’eñóva eñongatúva embohekóvo ñemoneĩ mokõi jeku’eguáva.
 # Link out to support article: https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 confirm-backup-code-reset-password-locked-out-link = ¿Rejehejáma okápe?
 
@@ -1795,6 +1798,8 @@ signin-recovery-method-send-code-error-description = Eha’ã jey ag̃amieva té
 
 signin-recovery-code-heading = Eñepyrũ tembiapo
 signin-recovery-code-sub-heading = Emoinge ayvu ñemoneĩrã jeykekoha
+# codes here refers to backup authentication codes
+signin-recovery-code-instruction-v3 = Ehai peteĩva ayvueta ojeporu ha’eñóva eñongatúva embohekóvo ñemoneĩ mokõi jeku’eguáva.
 # code here refers to backup authentication code
 signin-recovery-code-input-label-v2 = Ehai ayvu orekóva 10 tai
 # Form button to confirm if the backup authentication code entered by the user is valid
