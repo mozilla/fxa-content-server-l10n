@@ -682,6 +682,7 @@ subscriptionUpgrade-upgrade-info-2 = Oñembohekopyahúma { $productName } hekope
 ## $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
+subscriptionUpgrade-content-charge-prorated = Ehepyme’ẽma peteĩ jeýnte { $paymentProrated } eikuaa hag̃ua ne ñemboheraguapy repykue hepyvéva ko kuatiañemure pukukue ryepýpe ({ $productPaymentCycleOld }).
 subscriptionUpgrade-content-charge-credit = Rehupyty peteĩ crédito mba’ete rehegua { $paymentProrated } repykuépe.
 subscriptionUpgrade-content-starting = Oñepyrũvo nde kuatia ñemure oúvagui, nde cargo iñambuéta { $paymentAmountOld }-gui { $productPaymentCycleOld }-pe { $paymentAmountNew }-gui { $productPaymentCycleNew }-pe.
 subscriptionUpgrade-auto-renew = Ne ñemboheraguapy ipyahúta ijeheguiete ehepyme’ẽvo eiporuva’ekue neremoneĩriramo ndete voi.
