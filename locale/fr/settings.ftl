@@ -643,7 +643,7 @@ flow-setup-2fa-more-info-link = En savoir plus sur les applications d’authenti
 flow-setup-2fa-button = Continuer
 flow-setup-2fa-step-2-instruction = <strong>Étape 2 :</strong> saisissez le code de votre application d’authentification.
 flow-setup-2fa-input-label = Saisissez le code à 6 chiffres
-flow-setup-2fa-code-error = Code invalide ou expiré. Vérifiez votre application d’authentification et réessayez.
+flow-setup-2fa-code-error = Code invalide ou expiré. Consultez votre application d’authentification et réessayez.
 
 ## The step to choose the two step authentication method in the two step
 ## authentication setup flow.
@@ -772,7 +772,7 @@ tfa-enter-code-to-confirm-v2 = Veuillez saisir l’un de vos nouveaux codes d’
 ## PageSetupRecoveryPhone
 
 page-2fa-setup-title = Authentification en deux étapes
-page-2fa-setup-totpinfo-error = Une erreur s’est produite lors de la configuration de l’authentification en deux étapes. Réessayer plus tard.
+page-2fa-setup-totpinfo-error = Une erreur s’est produite lors de la configuration de l’authentification en deux étapes. Réessayez plus tard.
 # code here refers to "backup authentication code"
 page-2fa-setup-incorrect-backup-code-error = Ce code est incorrect. Veuillez réessayer.
 page-2fa-setup-success = L’authentification en deux étapes a été activée
