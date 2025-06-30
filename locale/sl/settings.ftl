@@ -97,7 +97,7 @@ datablock-print =
 datablock-copy-success =
     { $count ->
         [one] Koda kopirana
-        [two] Kode kopirane
+        [two] Kodi kopirani
         [few] Kode kopirane
        *[other] Kode kopirane
     }
