@@ -94,6 +94,9 @@ datablock-print =
 ## Success banners for datablock actions.
 ## $count – number of codes
 
+datablock-copy-success = Đã sao chép mã
+datablock-download-success = Đã tải xuống mã
+datablock-print-success = Đã in mã
 
 ##
 
@@ -632,6 +635,7 @@ flow-setup-2fa-more-info-link = Tìm hiểu thêm về ứng dụng xác thực
 flow-setup-2fa-button = Tiếp tục
 flow-setup-2fa-step-2-instruction = <strong>Bước 2:</strong> Nhập mã từ ứng dụng xác thực của bạn.
 flow-setup-2fa-input-label = Nhập mã gồm 6 chữ số
+flow-setup-2fa-code-error = Mã không hợp lệ hoặc đã hết hạn. Hãy kiểm tra ứng dụng xác thực của bạn và thử lại.
 
 ## The step to choose the two step authentication method in the two step
 ## authentication setup flow.
@@ -761,6 +765,11 @@ tfa-enter-code-to-confirm-v2 =
 
 ## PageSetupRecoveryPhone
 
+page-2fa-setup-title = Xác thực hai bước
+page-2fa-setup-totpinfo-error = Đã xảy ra lỗi khi thiết lập xác thực hai bước. Hãy thử lại sau.
+# code here refers to "backup authentication code"
+page-2fa-setup-incorrect-backup-code-error = Mã đó không đúng. Hãy thử lại.
+page-2fa-setup-success = Xác thực hai bước đã được bật
 
 ## Avatar change page
 
@@ -1207,6 +1216,7 @@ tfa-row-disable-modal-explain-1 =
 # Shown in an alert bar after two-step authentication is disabled
 tfa-row-disabled-2 = Đã tắt xác thực hai bước
 tfa-row-cannot-disable-2 = Không thể tắt xác thực hai bước
+tfa-row-disable-cannot-verify-session = Xin lỗi, đã xảy ra sự cố khi xác minh phiên của bạn
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
