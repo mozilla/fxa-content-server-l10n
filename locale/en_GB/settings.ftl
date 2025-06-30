@@ -94,6 +94,21 @@ datablock-print =
 ## Success banners for datablock actions.
 ## $count – number of codes
 
+datablock-copy-success =
+    { $count ->
+        [one] Code copied
+       *[other] Codes copied
+    }
+datablock-download-success =
+    { $count ->
+        [one] Code downloaded
+       *[other] Codes downloaded
+    }
+datablock-print-success =
+    { $count ->
+        [one] Code printed
+       *[other] Codes printed
+    }
 
 ##
 
@@ -632,6 +647,7 @@ flow-setup-2fa-more-info-link = Learn more about authenticator apps
 flow-setup-2fa-button = Continue
 flow-setup-2fa-step-2-instruction = <strong>Step 2:</strong> Enter the code from your authenticator app.
 flow-setup-2fa-input-label = Enter 6-digit code
+flow-setup-2fa-code-error = Invalid or expired code. Check your authenticator app and try again.
 
 ## The step to choose the two step authentication method in the two step
 ## authentication setup flow.
@@ -761,6 +777,11 @@ tfa-enter-code-to-confirm-v2 =
 
 ## PageSetupRecoveryPhone
 
+page-2fa-setup-title = Two-step authentication
+page-2fa-setup-totpinfo-error = There was an error setting up two-step authentication. Try again later.
+# code here refers to "backup authentication code"
+page-2fa-setup-incorrect-backup-code-error = That code is not correct. Try again.
+page-2fa-setup-success = Two-step authentication has been enabled
 
 ## Avatar change page
 
@@ -1213,6 +1234,7 @@ tfa-row-disable-modal-explain-1 =
 # Shown in an alert bar after two-step authentication is disabled
 tfa-row-disabled-2 = Two-step authentication disabled
 tfa-row-cannot-disable-2 = Two-step authentication could not be disabled
+tfa-row-disable-cannot-verify-session = Sorry, there was a problem confirming your session
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
