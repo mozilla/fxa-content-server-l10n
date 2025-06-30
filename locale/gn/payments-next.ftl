@@ -270,6 +270,7 @@ metadata-description-default = Ndojejuhúi upe kuatiarogue ojehekáva.
 
 ## Coupon Error Messages
 
+next-coupon-error-cannot-redeem = Pe ayvu ehaiva’ekue ndaikatumoiã oñemboaje — ne mba’ete oñemboheraguapýma peteĩva umi ore mba’eporúpe.
 next-coupon-error-expired = Pe ayvu emoingéva ndoikovéima.
 next-coupon-error-generic = Oiko jejavy emomba’apóvo pe ayvu. Eha’ãjey ag̃amieve.
 next-coupon-error-invalid = Pe ayvu emoingéva ndoikovéima.
