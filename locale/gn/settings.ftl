@@ -696,6 +696,11 @@ flow-change-phone-confirm-code-success-message = Oñemoambue pumbyry guerujeyrã
 flow-setup-phone-submit-number-heading = Ehechajey ne pumbyry papapy
 # The code is a 6-digit code send by text message/SMS
 flow-setup-phone-verify-number-instruction = Og̃uahẽta ñe’ẽmondo jehaipy { -brand-mozilla } guive peteĩ ayvu ehechajey hag̃ua nde papapy. Aníke emoherakuã ko ayvu.
+# The initial rollout of the recovery phone is only available to users with US and Canada mobile phone numbers.
+# Voice over Internet Protocol (VoIP), is a technology that uses a broadband Internet connection instead of a regular (or analog) phone line to make calls.
+# Phone mask services (for example Relay) provide a temporary virtual number to avoid providing a real phone number.
+# Both VoIP and phone masks can be unreliable for one-time-passcode (OTP) verification
+flow-setup-phone-submit-number-info-message-v2 = Pumbyry guerujeyrã ojeporukuaa Estados Unidos ha Canadá-pe añoite. Noñemoneĩri VoIP papapy avei pumbyry rovamo’ãha.
 # cliking on the button sends a code by text message to the phone number typed in by the user
 flow-setup-phone-submit-number-button = Emondo ayvu
 
@@ -1938,6 +1943,8 @@ confirm-signup-code-desktop-relay = { -brand-firefox } orahaukajeýta eimehápe 
 ## This is the second page of the sign up flow, users have already entered their email
 
 signup-heading-v2 = Emoheñói ñe’ẽñemi
+signup-sync-info = Embojuehe ñe’ẽñemi, techaukaha ha hetave oimeraẽ tenda eiporuhápe { -brand-firefox }.
+signup-sync-info-with-payments = Embojuehe ñe’ẽñemi, jepagarã, techaukaha ha hetave oimeraẽ tenda eiporuhápe { -brand-firefox }.
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = ¿Mba’ére amoheñoiva’erã ko mba’ete?
 # Link included in a dismissible info banner that is only displayed to Pocket clients
@@ -1952,6 +1959,8 @@ signup-change-email-link = Emoambue  ñanduti veve
 signup-confirmed-sync-header = Ñembojuehe hendyhína
 signup-confirmed-sync-success-banner = { -product-mozilla-account } moneĩmbyre
 signup-confirmed-sync-button = Eñepyrũ eikundaha
+# Shown when payment methods are also synced
+signup-confirmed-sync-description-with-payment-v2 = Ñe ñe’ẽñemi, jepagarã, kundaharape, techaukaha, tembiasakue ha hetave embojuehekuaa oimeraẽ tenda eiporuhápe { -brand-firefox }.
 signup-confirmed-sync-add-device-link = Embojuaju ambue mba’e’oka
 signup-confirmed-sync-manage-sync-button = Eñangareko ñembojuehére
 signup-confirmed-sync-set-password-success-banner = Ñe’ẽñemi ñembojuehe moheñoipyre
