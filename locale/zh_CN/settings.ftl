@@ -94,6 +94,9 @@ datablock-print =
 ## Success banners for datablock actions.
 ## $count – number of codes
 
+datablock-copy-success = 已复制救援码
+datablock-download-success = 已下载救援码
+datablock-print-success = 已打印救援码
 
 ##
 
@@ -630,6 +633,7 @@ flow-setup-2fa-more-info-link = 详细了解身份验证应用
 flow-setup-2fa-button = 继续
 flow-setup-2fa-step-2-instruction = <strong>第 2 步：</strong>输入身份验证应用提供的代码。
 flow-setup-2fa-input-label = 请输入 6 位验证码
+flow-setup-2fa-code-error = 救援码无效或过期。请检查您的验证器并重试。
 
 ## The step to choose the two step authentication method in the two step
 ## authentication setup flow.
@@ -754,6 +758,10 @@ tfa-enter-code-to-confirm-v2 = 请输入新的备份验证码中的一个，以�
 
 ## PageSetupRecoveryPhone
 
+page-2fa-setup-title = 两步验证
+# code here refers to "backup authentication code"
+page-2fa-setup-incorrect-backup-code-error = 备用验证码不正确。请重试。
+page-2fa-setup-success = 已启用两步验证
 
 ## Avatar change page
 
