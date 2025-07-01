@@ -230,6 +230,7 @@ subscriptionCharges-content-tax = Vergiler ve ücretler: { $invoiceTaxAmount }
 ##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
 
 subscriptionFirstInvoice-content-charge = { $invoiceDateOnly } tarihinde { $invoiceTotal } tahsil edildi
+subscriptionFirstInvoice-content-credit = Hesabınıza { $invoiceTotal } tutarında kredi geldi. Bu tutar gelecekteki faturalarınızdan düşülecektir.
 
 ##
 
@@ -644,6 +645,9 @@ subscriptionRenewalReminder-content-closing = Saygılarımızla,
 subscriptionRenewalReminder-content-signature = { $productName } ekibi
 subscriptionReplaced-subject = Yükseltmeniz kapsamında aboneliğiniz güncellendi
 subscriptionReplaced-title = Aboneliğiniz güncellendi
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReplaced-content-replaced = Paket dışı { $productName } aboneliğiniz değiştirildi ve artık yeni paketinize dahil edildi.
+subscriptionReplaced-content-credit = Önceki aboneliğinizdeki kalan kullanmadığınız süre için hesabınıza kredi eklenecektir. Bu kredi otomatik olarak tanımlanacak ve gelecekteki faturalarınızdan düşülecektir.
 subscriptionReplaced-content-no-action = Herhangi bir işlem yapmanız gerekmiyor.
 subscriptionsPaymentExpired-subject-1 = Abonelikleriniz için kullandığınız kredi kartının kullanım süresi dolmuş veya yakında dolacak
 subscriptionsPaymentExpired-title-1 = Kredi kartınızın kullanım süresi dolmuş veya dolmak üzere
