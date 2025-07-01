@@ -2,26 +2,21 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-05 20:09+0000\n"
-"PO-Revision-Date: 2018-11-14 12:03+0000\n"
-"Last-Translator: Rok Žerdin <zerdo90@gmail.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bs\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Pontoon\n"
+"Generated-By: Pontoon\n"
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
 msgid "Mozilla accounts"
-msgstr ""
+msgstr "Mozilla računi"
 
 #: server/templates/pages/src/404.html:2 server/templates/pages/src/500.html:2 server/templates/pages/src/502.html:2 server/templates/pages/src/503.html:2 server/templates/pages/src/index.html:3
 #: server/templates/pages/src/update_firefox.html:2
 msgid "Mozilla logo"
-msgstr ""
+msgstr "Mozilla logotip"
 
 #: server/templates/pages/src/404.html:3
 msgid "Page not found"
@@ -32,6 +27,8 @@ msgid ""
 "The page you requested is not found. We've been notified and\n"
 "          will fix any links that may be broken."
 msgstr ""
+"Stranica koju ste tražili nije pronađena. Obaviješteni smo i\n"
+"          popravit ćemo sve linkove koji možda ne rade."
 
 #: server/templates/pages/src/404.html:5 server/templates/pages/src/500.html:5 server/templates/pages/src/502.html:5 server/templates/pages/src/503.html:5
 msgid "Home"
@@ -46,6 +43,8 @@ msgid ""
 "Oh dear, something went wrong there. We've been notified and\n"
 "          will get working on a fix."
 msgstr ""
+"O, dragi Bože, nešto je pošlo po zlu. Obaviješteni smo i\n"
+"          radit ćemo na rješenju."
 
 #: server/templates/pages/src/502.html:3
 msgid "502 Error"
@@ -60,6 +59,8 @@ msgid ""
 "We are currently under heavy strain and are working to return\n"
 "            the system to normal as soon as possible."
 msgstr ""
+"Trenutno smo pod velikim opterećenjem i radimo na tome\n"
+"            da sistem što prije vratimo u normalu."
 
 #: server/templates/pages/src/index.html:2
 msgid "Loading"
@@ -67,15 +68,15 @@ msgstr "Učitavanje"
 
 #: server/templates/pages/src/index.html:4
 msgid "Mozilla accounts require JavaScript."
-msgstr ""
+msgstr "Mozilla računi zahtijevaju JavaScript."
 
 #: server/templates/pages/src/update_firefox.html:1
 msgid "Mozilla account"
-msgstr ""
+msgstr "Mozilla račun"
 
 #: server/templates/pages/src/update_firefox.html:3
 msgid "Firefox update required"
-msgstr ""
+msgstr "Potrebno ažuriranje Firefoxa"
 
 #: server/templates/pages/src/update_firefox.html:4
 msgid ""
@@ -84,7 +85,11 @@ msgid ""
 "                        download and install the latest version of Firefox to\n"
 "                        continue."
 msgstr ""
+"Vaš Mozilla račun koristi funkcije koje nisu\n"
+"                        podržane u vašoj verziji Firefoxa. Molimo vas\n"
+"                        da preuzmete i instalirate najnoviju verziju Firefoxa\n"
+"                        da biste nastavili."
 
 #: server/templates/pages/src/update_firefox.html:5
 msgid "Download latest"
-msgstr ""
+msgstr "Preuzmite najnovije"
