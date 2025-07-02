@@ -373,7 +373,8 @@ password-strength-balloon-not-email = לא כתובת הדוא״ל שלך
 password-strength-balloon-not-common = לא ססמה נפוצה
 password-strength-balloon-stay-safe-tips = שמרו על עצמכם — אל תשתמשו באותה הססמה במקומות שונים. ניתן לעיין בעצות נוספות <LinkExternal>ליצירת ססמאות חזקות</LinkExternal>.
 
-## PasswordStrengthBalloon component
+## PasswordStrengthInline component
+## These strings are conditions that need to be met to qualify as a strong password
 
 password-strength-inline-min-length = לפחות 8 תווים
 password-strength-inline-not-email = לא כתובת הדוא״ל שלך

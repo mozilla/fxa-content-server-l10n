@@ -360,7 +360,8 @@ password-strength-balloon-not-email = Ei sinun sähköpostiosoite
 password-strength-balloon-not-common = Ei yleisesti käytetty salasana
 password-strength-balloon-stay-safe-tips = Pysy turvassa — älä käytä samoja salasanoja toistuvasti. Katso lisää <linkExternal>vahvojen salasanojen luontivinkkejä</linkExternal>.
 
-## PasswordStrengthBalloon component
+## PasswordStrengthInline component
+## These strings are conditions that need to be met to qualify as a strong password
 
 password-strength-inline-min-length = Vähintään 8 merkkiä
 password-strength-inline-not-email = Ei sinun sähköpostiosoite

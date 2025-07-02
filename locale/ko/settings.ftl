@@ -371,7 +371,8 @@ password-strength-balloon-not-email = 사용자의 이메일 주소가 아니어
 password-strength-balloon-not-common = 흔히 사용되는 비밀번호가 아니어야 합니다
 password-strength-balloon-stay-safe-tips = 안전을 위해 — 비밀번호를 재사용하지 마세요. <linkExternal>강력한 비밀번호를 생성</linkExternal>하는 방법에 대해 알아보세요.
 
-## PasswordStrengthBalloon component
+## PasswordStrengthInline component
+## These strings are conditions that need to be met to qualify as a strong password
 
 password-strength-inline-min-length = 최소 8자 이상
 password-strength-inline-not-email = 이메일 주소가 아님

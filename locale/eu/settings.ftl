@@ -368,7 +368,8 @@ password-strength-balloon-not-email = Ezin da zure helbide elektronikoa izan
 password-strength-balloon-not-common = Ezin da askotan erabilitako pasahitza izan
 password-strength-balloon-stay-safe-tips = Egon seguru — Ez berrerabili pasahitzak. Ikusi aholku gehiago <LinkExternal>pasahitz sendoak sortzeko</LinkExternal>.
 
-## PasswordStrengthBalloon component
+## PasswordStrengthInline component
+## These strings are conditions that need to be met to qualify as a strong password
 
 password-strength-inline-min-length = Gutxienez 8 karaktere
 password-strength-inline-not-email = Ezin da zure helbide elektronikoa izan

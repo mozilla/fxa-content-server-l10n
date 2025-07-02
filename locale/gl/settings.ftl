@@ -251,7 +251,8 @@ password-info-balloon-why-password-info = Necesita este contrasinal para acceder
 
 password-strength-balloon-not-email = Non é o seu enderezo de correo electrónico
 
-## PasswordStrengthBalloon component
+## PasswordStrengthInline component
+## These strings are conditions that need to be met to qualify as a strong password
 
 
 ## Notification Promo Banner component

@@ -389,7 +389,8 @@ password-strength-balloon-not-email = Ikkje di e-postadresse
 password-strength-balloon-not-common = Ikkje eit vanleg brukt passord
 password-strength-balloon-stay-safe-tips = Hald deg trygg – Ikkje bruk passord på nytt. Sjå fleire tips for å <LinkExternal>lage sterke passord</LinkExternal>.
 
-## PasswordStrengthBalloon component
+## PasswordStrengthInline component
+## These strings are conditions that need to be met to qualify as a strong password
 
 password-strength-inline-min-length = Minst 8 teikn
 password-strength-inline-not-email = Ikkje di e-postadresse

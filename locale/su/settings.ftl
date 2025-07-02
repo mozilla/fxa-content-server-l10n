@@ -92,7 +92,8 @@
 ## PasswordStrengthBalloon component
 
 
-## PasswordStrengthBalloon component
+## PasswordStrengthInline component
+## These strings are conditions that need to be met to qualify as a strong password
 
 
 ## Notification Promo Banner component

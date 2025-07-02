@@ -371,7 +371,8 @@ password-strength-balloon-not-email = Ekki tölvupóstfangið þitt
 password-strength-balloon-not-common = Ekki algengt lykilorð
 password-strength-balloon-stay-safe-tips = Tryggðu öriggið - ekki endurnýta lykilorð. Sjáðu fleiri aðferðir til að <LinkExternal>búa til sterk lykilorð</LinkExternal>.
 
-## PasswordStrengthBalloon component
+## PasswordStrengthInline component
+## These strings are conditions that need to be met to qualify as a strong password
 
 password-strength-inline-min-length = Að minnsta kosti 8 stafir
 password-strength-inline-not-email = Ekki tölvupóstfangið þitt

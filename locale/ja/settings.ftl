@@ -315,7 +315,8 @@ password-strength-balloon-not-email = メールアドレスと一致しないこ
 password-strength-balloon-not-common = よく使われるパスワードと一致しないこと
 password-strength-balloon-stay-safe-tips = 安全のため、パスワードを再利用してはいけません。<LinkExternal>強力なパスワードを作成する</LinkExternal>ためのヒントをご覧ください。
 
-## PasswordStrengthBalloon component
+## PasswordStrengthInline component
+## These strings are conditions that need to be met to qualify as a strong password
 
 
 ## Notification Promo Banner component

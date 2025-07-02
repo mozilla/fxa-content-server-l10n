@@ -389,7 +389,8 @@ password-strength-balloon-not-email = Nem az Ön e-mail-címe
 password-strength-balloon-not-common = Nem gyakran használt jelszó
 password-strength-balloon-stay-safe-tips = Maradjon biztonságban – ne használja újra a jelszavakat. Nézzen meg további tippeket az <linkExternal>erős jelszavak létrehozásához</linkExternal>.
 
-## PasswordStrengthBalloon component
+## PasswordStrengthInline component
+## These strings are conditions that need to be met to qualify as a strong password
 
 password-strength-inline-min-length = Legalább 8 karakter
 password-strength-inline-not-email = Nem az Ön e-mail-címe

@@ -192,7 +192,8 @@ password-strength-balloon-not-email = Није ваша адреса е-пошт
 password-strength-balloon-not-common = Није често употребљавана лозинка
 password-strength-balloon-stay-safe-tips = Будите безбедни — немојте да дуплирате лозинке. Погледајте савете за <LinkExternal>прављење јаких лозинки</LinkExternal>.
 
-## PasswordStrengthBalloon component
+## PasswordStrengthInline component
+## These strings are conditions that need to be met to qualify as a strong password
 
 
 ## Notification Promo Banner component

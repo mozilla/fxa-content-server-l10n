@@ -365,7 +365,8 @@ password-strength-balloon-not-email = Nije tvoja e-mail adresa
 password-strength-balloon-not-common = Nije često korištena lozinka
 password-strength-balloon-stay-safe-tips = Zaštiti se – nemoj koristiti već korištene lozinke. Pogledaj savjete za <LinkExternal>stvaranje jakih lozinki</LinkExternal>.
 
-## PasswordStrengthBalloon component
+## PasswordStrengthInline component
+## These strings are conditions that need to be met to qualify as a strong password
 
 password-strength-inline-min-length = Barem 8 znakova
 password-strength-inline-not-email = Nije tvoja e-mail adresa

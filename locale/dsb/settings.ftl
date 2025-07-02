@@ -395,7 +395,8 @@ password-strength-balloon-not-email = Nic waša e-mailowa adresa
 password-strength-balloon-not-common = Nic cesto wužywane gronidło
 password-strength-balloon-stay-safe-tips = Wóstańśo wěsty – njewužywajśo gronidła wěcej raz. Glejśo dalšne pokaze aby <LinkExternal>mócne gronidła napórał</LinkExternal>.
 
-## PasswordStrengthBalloon component
+## PasswordStrengthInline component
+## These strings are conditions that need to be met to qualify as a strong password
 
 password-strength-inline-min-length = Nanejmjenjej 8 znamuškow
 password-strength-inline-not-email = Nic waša e-mailowa adresa

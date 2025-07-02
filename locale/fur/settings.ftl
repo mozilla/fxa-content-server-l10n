@@ -389,7 +389,8 @@ password-strength-balloon-not-email = No compagne de direzion e-mail
 password-strength-balloon-not-common = No une password di ûs comun
 password-strength-balloon-stay-safe-tips = Reste al sigûr — No sta tornâ a doprâ lis passwords. Viôt altris sugjeriments par <LinkExternal>creâ passwords complessis</LinkExternal>.
 
-## PasswordStrengthBalloon component
+## PasswordStrengthInline component
+## These strings are conditions that need to be met to qualify as a strong password
 
 password-strength-inline-min-length = Almancul 8 caratars
 password-strength-inline-not-email = No compagne de direzion e-mail

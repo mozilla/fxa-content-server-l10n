@@ -257,7 +257,8 @@ password-strength-balloon-min-length = Кимендә 8 символ
 password-strength-balloon-not-email = Эл. почта адресыгыз түгел
 password-strength-balloon-not-common = Еш кулланыла торган серсүз түгел
 
-## PasswordStrengthBalloon component
+## PasswordStrengthInline component
+## These strings are conditions that need to be met to qualify as a strong password
 
 password-strength-inline-min-length = Кимендә 8 символ
 password-strength-inline-not-email = Эл. почта адресыгыз түгел

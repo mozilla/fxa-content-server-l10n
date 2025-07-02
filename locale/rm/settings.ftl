@@ -368,7 +368,8 @@ password-strength-balloon-not-email = Betg tia adressa dad e-mail
 password-strength-balloon-not-common = Betg in pled-clav frequent
 password-strength-balloon-stay-safe-tips = Ta protegia – na reutilisescha nagins pleds-clav. Ulteriurs cussegls: <LinkExternal>crear ferms pleds-clav</LinkExternal>.
 
-## PasswordStrengthBalloon component
+## PasswordStrengthInline component
+## These strings are conditions that need to be met to qualify as a strong password
 
 password-strength-inline-min-length = Almain 8 caracters
 password-strength-inline-not-email = Betg tia adressa dad e-mail

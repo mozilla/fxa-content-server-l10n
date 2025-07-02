@@ -401,7 +401,8 @@ password-strength-balloon-not-email = Nid eich cyfeiriad e-bost chi
 password-strength-balloon-not-common = Nid cyfrinair sy'n cael ei ddefnyddio'n arferol
 password-strength-balloon-stay-safe-tips = Cadwch yn ddiogel - Peidiwch ag ailddefnyddio cyfrineiriau. Dyma ragor o awgrymiadau i <linkExternal>greu cyfrineiriau cryf</linkExternal>.
 
-## PasswordStrengthBalloon component
+## PasswordStrengthInline component
+## These strings are conditions that need to be met to qualify as a strong password
 
 password-strength-inline-min-length = O leiaf 8 nod
 password-strength-inline-not-email = Nid eich cyfeiriad e-bost

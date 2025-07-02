@@ -308,7 +308,8 @@ password-strength-balloon-min-length = 8 പ്രതീകങ്ങളെങ്
 password-strength-balloon-not-email = താങ്ങളുടെ ഇതപാൽ വിലാസമല്ല
 password-strength-balloon-not-common = സാധാരണമുപയോഗപ്പെട്ട ഒളിവാക്കല്ല
 
-## PasswordStrengthBalloon component
+## PasswordStrengthInline component
+## These strings are conditions that need to be met to qualify as a strong password
 
 password-strength-inline-min-length = 8 പ്രതീകങ്ങളെങ്കിലും
 password-strength-inline-not-email = താങ്ങളുടെ ഇതപാൽ വിലാസമല്ല

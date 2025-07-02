@@ -368,7 +368,8 @@ password-strength-balloon-not-email = Jo adresën tuaj email
 password-strength-balloon-not-common = Jo një fjalëkalim të përdorur rëndom
 password-strength-balloon-stay-safe-tips = Jini të parrezik — Mos ripërdorni fjalëkalime. Shihni më tepër ndihmëza se si <LinkExternal>të krijohen fjalëkalime të fuqishëm</LinkExternal>.
 
-## PasswordStrengthBalloon component
+## PasswordStrengthInline component
+## These strings are conditions that need to be met to qualify as a strong password
 
 password-strength-inline-min-length = Të paktën 8 shenja
 password-strength-inline-not-email = Jo adresën tuaj email

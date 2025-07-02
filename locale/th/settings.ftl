@@ -364,7 +364,8 @@ password-strength-balloon-not-email = ไม่ใช่ที่อยู่อ
 password-strength-balloon-not-common = ไม่ใช่รหัสผ่านที่พบบ่อย
 password-strength-balloon-stay-safe-tips = รักษาความปลอดภัยด้วยการไม่ใช้รหัสผ่านซ้ำ ดูเคล็ดลับในการ<LinkExternal>สร้างรหัสผ่านที่รัดกุม</LinkExternal>เพิ่ม
 
-## PasswordStrengthBalloon component
+## PasswordStrengthInline component
+## These strings are conditions that need to be met to qualify as a strong password
 
 password-strength-inline-min-length = อย่างน้อย 8 ตัวอักษร
 password-strength-inline-not-email = ไม่ใช่ที่อยู่อีเมลของคุณ

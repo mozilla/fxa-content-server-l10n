@@ -389,7 +389,8 @@ password-strength-balloon-not-email = Not your email address
 password-strength-balloon-not-common = Not a commonly used password
 password-strength-balloon-stay-safe-tips = Stay safe — Don’t reuse passwords. See more tips to <LinkExternal>create strong passwords</LinkExternal>.
 
-## PasswordStrengthBalloon component
+## PasswordStrengthInline component
+## These strings are conditions that need to be met to qualify as a strong password
 
 password-strength-inline-min-length = At least 8 characters
 password-strength-inline-not-email = Not your email address

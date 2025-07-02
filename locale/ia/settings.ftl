@@ -389,7 +389,8 @@ password-strength-balloon-not-email = Non tu adresse email
 password-strength-balloon-not-common = Non un contrasigno commun
 password-strength-balloon-stay-safe-tips = Remane secur, non reusa tu contrasignos. Vide plus de consilios a in <LinkExternal>crear contrasignos forte</LinkExternal>
 
-## PasswordStrengthBalloon component
+## PasswordStrengthInline component
+## These strings are conditions that need to be met to qualify as a strong password
 
 password-strength-inline-min-length = Al minus 8 characteres
 password-strength-inline-not-email = Non tu adresse email

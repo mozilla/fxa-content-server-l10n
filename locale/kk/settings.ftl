@@ -371,7 +371,8 @@ password-strength-balloon-not-email = Сіздің эл. пошта адресі
 password-strength-balloon-not-common = Жиі қолданылатын пароль емес
 password-strength-balloon-stay-safe-tips = Қауіпсіз болыңыз — парольдерді қайта қолданбаңыз. <LinkExternal>Мықты парольдерді жасау</LinkExternal> бойынша қосымша кеңестерді қараңыз.
 
-## PasswordStrengthBalloon component
+## PasswordStrengthInline component
+## These strings are conditions that need to be met to qualify as a strong password
 
 password-strength-inline-min-length = Кемінде 8 таңба
 password-strength-inline-not-email = Сіздің эл. пошта адресіңіз емес

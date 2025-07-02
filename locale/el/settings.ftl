@@ -389,7 +389,8 @@ password-strength-balloon-not-email = Όχι τη διεύθυνση email σα�
 password-strength-balloon-not-common = Όχι κάποιο συνήθη κωδικό πρόσβασης
 password-strength-balloon-stay-safe-tips = Για την προστασία σας, μην επαναχρησιμοποιείτε κωδικούς πρόσβασης. Δείτε περισσότερες συμβουλές για τη <LinkExternal>δημιουργία ισχυρών κωδικών πρόσβασης</LinkExternal>.
 
-## PasswordStrengthBalloon component
+## PasswordStrengthInline component
+## These strings are conditions that need to be met to qualify as a strong password
 
 password-strength-inline-min-length = Τουλάχιστον 8 χαρακτήρες
 password-strength-inline-not-email = Όχι τη διεύθυνση email σας

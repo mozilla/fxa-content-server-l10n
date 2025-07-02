@@ -389,7 +389,8 @@ password-strength-balloon-not-email = Net jo e-mailadres
 password-strength-balloon-not-common = Net in faaks brûkt wachtwurd
 password-strength-balloon-stay-safe-tips = Bliuw feilich – Brûk wachtwurden net opnij. Besjoch mear tips om <LinkExternal>sterke wachtwurden te meitsjen</LinkExternal>.
 
-## PasswordStrengthBalloon component
+## PasswordStrengthInline component
+## These strings are conditions that need to be met to qualify as a strong password
 
 password-strength-inline-min-length = Op syn minst 8 karakters
 password-strength-inline-not-email = Net jo e-mailadres

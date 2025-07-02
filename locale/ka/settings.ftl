@@ -376,7 +376,8 @@ password-strength-balloon-not-email = თქვენი ელფოსტი�
 password-strength-balloon-not-common = ხშირად გამოყენებულის გარდა
 password-strength-balloon-stay-safe-tips = დაიცავით უსაფრთხოება – ნუ გამოიყენებთ ერთსა და იმავე პაროლებს. ვრცლად იხილეთ რჩევები <LinkExternal>ძლიერი პაროლის შესაქმნელად</LinkExternal>.
 
-## PasswordStrengthBalloon component
+## PasswordStrengthInline component
+## These strings are conditions that need to be met to qualify as a strong password
 
 password-strength-inline-min-length = სულ მცირე 8 სიმბოლო
 password-strength-inline-not-email = თქვენი ელფოსტის გარდა

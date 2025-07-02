@@ -389,7 +389,8 @@ password-strength-balloon-not-email = Aníke ne ñanduti veve kundaharape
 password-strength-balloon-not-common = Ndaha’éi ñe’ẽñemi ojeporumeméva
 password-strength-balloon-stay-safe-tips = Epyta tekorosãme — ani eiporujey ñe’ẽñemi. Ehechajey ñemoñe’ẽ <LinkExternal>emoheñói ñe’ẽñemi hekorosãva</LinkExternal> peg̃uarã.
 
-## PasswordStrengthBalloon component
+## PasswordStrengthInline component
+## These strings are conditions that need to be met to qualify as a strong password
 
 password-strength-inline-min-length = Michĩvéramo 8 tai
 password-strength-inline-not-email = Ani ne ñanduti veve kundaharape

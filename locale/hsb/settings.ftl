@@ -395,7 +395,8 @@ password-strength-balloon-not-email = Nic waša e-mejlowa adresa
 password-strength-balloon-not-common = Nic husto wužiwane hesło
 password-strength-balloon-stay-safe-tips = Wostańće wěsty – Njewužiwajće hesła wjacekróć. Hlejće dalše pokiwy, zo byšće <LinkExternal>sylne hesła wutworił</LinkExternal>.
 
-## PasswordStrengthBalloon component
+## PasswordStrengthInline component
+## These strings are conditions that need to be met to qualify as a strong password
 
 password-strength-inline-min-length = Znajmjeńša 8 znamješkow
 password-strength-inline-not-email = Nic waša e-mejlowa adresa

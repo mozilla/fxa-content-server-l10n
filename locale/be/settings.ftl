@@ -272,7 +272,8 @@ password-strength-balloon-not-email = Не ваш адрас электронн�
 password-strength-balloon-not-common = Не часта выкарыстаны пароль
 password-strength-balloon-stay-safe-tips = Будзьце ў бяспецы — не выкарыстоўвайце паролі паўторна. Даведайцеся больш пра <LinkExternal>стварэнне надзейных пароляў</LinkExternal>.
 
-## PasswordStrengthBalloon component
+## PasswordStrengthInline component
+## These strings are conditions that need to be met to qualify as a strong password
 
 
 ## Notification Promo Banner component

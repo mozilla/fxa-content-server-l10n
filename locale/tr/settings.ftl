@@ -389,7 +389,8 @@ password-strength-balloon-not-email = E-posta adresiniz olmamalı
 password-strength-balloon-not-common = Yaygın olarak kullanılan bir parola olmamalı
 password-strength-balloon-stay-safe-tips = Güvende kalın: Aynı parolaları farklı yerlerde kullanmayın. <LinkExternal>Güçlü parolalar oluşturmak</LinkExternal> için daha fazla ipucu görün.
 
-## PasswordStrengthBalloon component
+## PasswordStrengthInline component
+## These strings are conditions that need to be met to qualify as a strong password
 
 password-strength-inline-min-length = En az 8 karakter
 password-strength-inline-not-email = E-posta adresiniz olmamalı

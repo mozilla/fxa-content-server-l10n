@@ -392,7 +392,8 @@ password-strength-balloon-not-email = Není vaše e-mailová adresa
 password-strength-balloon-not-common = Není běžně používané heslo
 password-strength-balloon-stay-safe-tips = Nepřepoužívejte stejné heslo a přečtěte si další tipy pro <LinkExternal>vytváření silných hesel</LinkExternal>.
 
-## PasswordStrengthBalloon component
+## PasswordStrengthInline component
+## These strings are conditions that need to be met to qualify as a strong password
 
 password-strength-inline-min-length = Alespoň 8 znaků
 password-strength-inline-not-email = Není vaše e-mailová adresa

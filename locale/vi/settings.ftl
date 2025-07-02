@@ -377,7 +377,8 @@ password-strength-balloon-not-email = Không phải địa chỉ email của b�
 password-strength-balloon-not-common = Không phải mật khẩu thường được sử dụng
 password-strength-balloon-stay-safe-tips = Giữ an toàn — Không sử dụng lại mật khẩu. Xem thêm các mẹo để <LinkExternal>tạo mật khẩu mạnh</LinkExternal>.
 
-## PasswordStrengthBalloon component
+## PasswordStrengthInline component
+## These strings are conditions that need to be met to qualify as a strong password
 
 password-strength-inline-min-length = Ít nhất 8 ký tự
 password-strength-inline-not-email = Không phải địa chỉ email của bạn

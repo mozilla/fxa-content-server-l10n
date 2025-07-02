@@ -395,7 +395,8 @@ password-strength-balloon-not-email = ni vaš e-poštni naslov
 password-strength-balloon-not-common = ni eno od pogostih gesel
 password-strength-balloon-stay-safe-tips = Ostanite varni – ne reciklirajte gesel. Oglejte si več nasvetov za <LinkExternal>ustvarjanje močnih gesel</LinkExternal>.
 
-## PasswordStrengthBalloon component
+## PasswordStrengthInline component
+## These strings are conditions that need to be met to qualify as a strong password
 
 password-strength-inline-min-length = vsebuje vsaj 8 znakov
 password-strength-inline-not-email = ni vaš e-poštni naslov

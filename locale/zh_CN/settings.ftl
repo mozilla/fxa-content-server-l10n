@@ -377,7 +377,8 @@ password-strength-balloon-not-email = 不可以与邮箱地址相同
 password-strength-balloon-not-common = 不可以是常见密码
 password-strength-balloon-stay-safe-tips = 安全无小事——杜绝重复使用密码。请查看有关<LinkExternal>创建强密码</LinkExternal>的更多提示。
 
-## PasswordStrengthBalloon component
+## PasswordStrengthInline component
+## These strings are conditions that need to be met to qualify as a strong password
 
 password-strength-inline-min-length = 至少 8 个字符
 password-strength-inline-not-email = 不包含您的邮箱地址

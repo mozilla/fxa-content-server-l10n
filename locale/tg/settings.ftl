@@ -371,7 +371,8 @@ primary-email-confirmation-link-reused = Почтаи электронии ас�
 
 password-strength-balloon-heading = Талаботи ниҳонвожа
 
-## PasswordStrengthBalloon component
+## PasswordStrengthInline component
+## These strings are conditions that need to be met to qualify as a strong password
 
 
 ## Notification Promo Banner component

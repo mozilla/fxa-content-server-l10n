@@ -389,7 +389,8 @@ password-strength-balloon-not-email = Non uguale al tuo indirizzo email
 password-strength-balloon-not-common = Non una password di uso comune
 password-strength-balloon-stay-safe-tips = Rimani al sicuro: non riutilizzare le password. Scopri altri suggerimenti per <LinkExternal>generare password complesse</LinkExternal>.
 
-## PasswordStrengthBalloon component
+## PasswordStrengthInline component
+## These strings are conditions that need to be met to qualify as a strong password
 
 password-strength-inline-min-length = Almeno 8 caratteri
 password-strength-inline-not-email = Non uguale al tuo indirizzo email

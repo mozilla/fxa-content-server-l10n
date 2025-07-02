@@ -373,7 +373,8 @@ password-strength-balloon-not-email = Nun cci àv’a èssiri u to nnirizzu di p
 password-strength-balloon-not-common = Nun àv’a èssiri na chiavi cumuni
 password-strength-balloon-stay-safe-tips = Arresta ô sicuru — nun usare i chiavi nna cchiù assai d’un locu. Vidi i nostri cunzigghi ncapu a comu <LinkExternal>criari chiavi forti</LinkExternal>.
 
-## PasswordStrengthBalloon component
+## PasswordStrengthInline component
+## These strings are conditions that need to be met to qualify as a strong password
 
 password-strength-inline-min-length = Armenu 8 caràttari
 password-strength-inline-not-email = Nun cci àv’a èssiri u to nnirizzu di posta elittrònica

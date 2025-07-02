@@ -256,7 +256,8 @@ error-bad-request = Yir tuttra
 password-strength-balloon-min-length = Ma drus 8 yisekkilen
 password-strength-balloon-not-email = Mačči d tansa-k·m n yimayl
 
-## PasswordStrengthBalloon component
+## PasswordStrengthInline component
+## These strings are conditions that need to be met to qualify as a strong password
 
 password-strength-inline-min-length = Ma drus 8 yisekkilen
 password-strength-inline-not-email = Mačči d tansa-k·m n yimayl
