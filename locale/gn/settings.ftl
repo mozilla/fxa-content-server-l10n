@@ -707,6 +707,7 @@ flow-setup-phone-verify-number-instruction = Og̃uahẽta ñe’ẽmondo jehaipy
 # Phone mask services (for example Relay) provide a temporary virtual number to avoid providing a real phone number.
 # Both VoIP and phone masks can be unreliable for one-time-passcode (OTP) verification
 flow-setup-phone-submit-number-info-message-v2 = Pumbyry guerujeyrã ojeporukuaa Estados Unidos ha Canadá-pe añoite. Noñemoneĩri VoIP papapy avei pumbyry rovamo’ãha.
+flow-setup-phone-submit-number-legal = Reme’ẽvo papapy, emoneĩ rombyaty romondokuaa hag̃ua ñe’ẽmondo haipýva roikuaa potávo mba’ete. Ikatu jehepyme’ẽrã ñe’ẽmondo ha mba’ekuaarã rupi.
 # cliking on the button sends a code by text message to the phone number typed in by the user
 flow-setup-phone-submit-number-button = Emondo ayvu
 
