@@ -1931,7 +1931,7 @@ msgstr "Embojuaju ne pumbyry ne mba’ete Mozilla pegua ndive"
 
 #: .es5/templates/partial/unsupported-pair.mustache:2
 msgid "Open Firefox on your computer, visit <b class=\"whitespace-nowrap\">firefox.com/pair</b>, and follow the on-screen instructions to connect your mobile device."
-msgstr ""
+msgstr "Embojuruja Firefox ne mohendahápe, eike <b class=\"whitespace-nowrap\">firefox.com/pair</b>-pe ha ejapo oĩva mba’erechahápe embojoaju hag̃ua ne pumbyry."
 
 #: .es5/templates/pair/auth_allow.mustache:1
 msgid "Did you just sign in to Firefox?"
