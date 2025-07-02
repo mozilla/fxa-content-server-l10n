@@ -404,10 +404,13 @@ password-strength-balloon-stay-safe-tips = Cadwch yn ddiogel - Peidiwch ag aildd
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password
 
+password-strength-long-instruction = Dewiswch gyfrinair cryf nad ydych wedi'i ddefnyddio ar wefannau eraill. Sicrhewch ei fod yn bodloni'r gofynion diogelwch:
+password-strength-short-instruction = Dewiswch gyfrinair cryf:
 password-strength-inline-min-length = O leiaf 8 nod
 password-strength-inline-not-email = Nid eich cyfeiriad e-bost
 password-strength-inline-not-common = Nid cyfrinair sy'n cael ei ddefnyddio'n gyffredin
 password-strength-inline-confirmed-must-match = Cadarnhad ei fod yn cydweddu â'r cyfrinair newydd
+password-strength-inline-passwords-match = Cyfrineiriau yn cyfateb
 
 ## Notification Promo Banner component
 

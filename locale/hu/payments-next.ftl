@@ -42,6 +42,7 @@ checkout-error-already-subscribed = Már előfizet erre a termékre.
 checkout-error-contact-support = Lépjen kapcsolatba az ügyfélszolgálattal, hogy segíthessünk.
 cart-error-currency-not-determined = Nem sikerült meghatározni a vásárlás pénznemét, próbálja újra.
 checkout-processing-general-error = Váratlan hiba történt a fizetése feldolgozása során, próbálja újra.
+cart-total-mismatch-error = A számla összege megváltozott. Próbálja meg újra.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages

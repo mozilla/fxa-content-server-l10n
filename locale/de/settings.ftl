@@ -392,10 +392,13 @@ password-strength-balloon-stay-safe-tips = Schützen Sie sich – verwenden Sie 
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password
 
+password-strength-long-instruction = Wählen Sie ein starkes Passwort, das Sie auf anderen Websites nicht verwendet haben. Stellen Sie sicher, dass es die Sicherheitsanforderungen erfüllt:
+password-strength-short-instruction = Wählen Sie ein starkes Passwort:
 password-strength-inline-min-length = Mindestens 8 Zeichen
 password-strength-inline-not-email = Nicht Ihre E-Mail-Adresse
 password-strength-inline-not-common = Kein häufig verwendetes Passwort
 password-strength-inline-confirmed-must-match = Bestätigung stimmt mit neuem Passwort überein
+password-strength-inline-passwords-match = Passwörter stimmen überein
 
 ## Notification Promo Banner component
 

@@ -395,10 +395,13 @@ password-strength-balloon-stay-safe-tips = Nepřepoužívejte stejné heslo a p�
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password
 
+password-strength-long-instruction = Zvolte si silné heslo, které jste na jiných stránkách ještě nepoužívali. Ujistěte se, že splňuje bezpečnostní požadavky:
+password-strength-short-instruction = Zvolte silné heslo:
 password-strength-inline-min-length = Alespoň 8 znaků
 password-strength-inline-not-email = Není vaše e-mailová adresa
 password-strength-inline-not-common = Není běžně používané heslo
 password-strength-inline-confirmed-must-match = Potvrzení odpovídá novému heslu
+password-strength-inline-passwords-match = Hesla se shodují
 
 ## Notification Promo Banner component
 

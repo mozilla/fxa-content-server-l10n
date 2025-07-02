@@ -398,10 +398,13 @@ password-strength-balloon-stay-safe-tips = Ostanite varni – ne reciklirajte ge
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password
 
+password-strength-long-instruction = Izberite močno geslo, ki ga niste uporabili na drugih spletnih mestih. Zagotovite, da ustreza varnostnim zahtevam:
+password-strength-short-instruction = Izberite močno geslo:
 password-strength-inline-min-length = vsebuje vsaj 8 znakov
 password-strength-inline-not-email = ni vaš e-poštni naslov
 password-strength-inline-not-common = ni eno od pogostih gesel
 password-strength-inline-confirmed-must-match = Potrditev se ujema z novim geslom
+password-strength-inline-passwords-match = Gesla se ujemajo
 
 ## Notification Promo Banner component
 

@@ -40,6 +40,7 @@ checkout-error-already-subscribed = Rydych chi eisoes wedi tanysgrifio i'r cynny
 checkout-error-contact-support = Cysylltwch â'r tîm cymorth fel y gallwn eich helpu.
 cart-error-currency-not-determined = Doeddem ni ddim yn gallu pennu'r arian cyfred ar gyfer y pryniant hwn, ceisiwch eto.
 checkout-processing-general-error = Mae gwall annisgwyl wedi digwydd wrth brosesu'ch taliad, ceisiwch eto.
+cart-total-mismatch-error = Mae swm yr anfoneb wedi newid. Ceisiwch eto.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages

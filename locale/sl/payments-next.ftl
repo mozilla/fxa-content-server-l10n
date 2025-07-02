@@ -40,6 +40,7 @@ checkout-error-already-subscribed = Na ta izdelek ste že naročeni.
 checkout-error-contact-support = Obrnite se na podporo, da vam lahko pomagamo.
 cart-error-currency-not-determined = Valute za ta nakup ni bilo mogoče določiti, poskusite znova.
 checkout-processing-general-error = Med obdelavo vašega plačila je prišlo do nepričakovane napake, poskusite znova.
+cart-total-mismatch-error = Znesek na računu se je spremenil. Prosimo, poskusite znova.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
