@@ -566,6 +566,7 @@ dc-heading = Ñembyaty ha mba’ekuaarã jeporu
 dc-subheader-moz-accounts = { -product-mozilla-accounts }
 dc-subheader-ff-browser = { -brand-firefox } kundahára
 dc-subheader-content-2 = Emoneĩ { -product-mozilla-accounts } omondóvo mba’ekuaarã aporekogua ha ñomongeta { -brand-mozilla }-pe.
+dc-subheader-ff-content = Ehechajey térã embohekopyahu mba’ekuaarã ñomongeta ha aporekogua { -brand-firefox } kundahárape, embojuruja { -brand-firefox } moĩporãha ha eikundaha tekoñemi ha tekorosãme.
 dc-opt-out-success-2 = Esẽ porã. { -product-mozilla-accounts } nomondomo’ãi mba’ekuaarã aporeko térã ñomongetagua { -brand-mozilla }-pe.
 dc-opt-in-success-2 = ¡Aguyje! Emoherakuãvo ko’ã mba’ekuaarã ore pytyvõta { -product-mozilla-accounts } oiko porãvévo.
 dc-opt-in-out-error-2 = Ore ñyrõ, iñapañuái emoambuévo mba’ekuaarã ñembyaty eguerohoryvéva
