@@ -1042,6 +1042,10 @@ tfa-enter-recovery-code-1 =
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
 product-promo-monitor-description-v2 = Eikuaa moõpa ivaikuaa ne marandu ñemiguáva ha ehechameme
+# this message will only be shown to users eligible for a special promotion, based on their location (initially USA only)
+# $price - formatted for user locale, in the target market's currency (for launch, always USD)
+# /mo is 'per month'
+product-promo-monitor-special-promo-description = { $price }/jasy rupi, ereko { -product-mozilla-vpn-short }, tanemo’ã data-broker { -product-mozilla-monitor-short } ha ñanduti veve rovamo’ãha hu’ã’ỹva { -product-firefox-relay-short } rehegua.
 # Links out to the Monitor site
 product-promo-monitor-cta = Emoha’ãnga reiete
 # Links out to the Monitor pricing site
@@ -1586,6 +1590,7 @@ third-party-auth-callback-message = Eha’ãrõmína, ejeguerahajeyhína tembipo
 ## AccountRecoveryConfirmKey page
 
 account-recovery-confirm-key-heading = Ehai mba’ete mba’eñemi jeguerujeyrã
+account-recovery-confirm-key-instruction = Ko ñemigua orujey ne mba’ekuaarã kundahára ipapapýva, ha’éva ñe’ẽñemi ha techaukaha, { -brand-firefox } apopyvusu guive.
 # Prompts the user to enter their account recovery key
 # Account recovery key contains a mix of letters and numbers, no special characters
 account-recovery-confirm-key-input-label =
