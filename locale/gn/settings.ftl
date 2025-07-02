@@ -1948,6 +1948,7 @@ confirm-signup-code-desktop-relay = { -brand-firefox } orahaukajeýta eimehápe 
 ## This is the second page of the sign up flow, users have already entered their email
 
 signup-heading-v2 = Emoheñói ñe’ẽñemi
+signup-relay-info = Tekotevẽ ñe’ẽñemi eñangareko hag̃ua tekorosãme ñanduti veve hovamo’ãvare ha eike { -brand-mozilla } rembiporu hekorosãvape.
 signup-sync-info = Embojuehe ñe’ẽñemi, techaukaha ha hetave oimeraẽ tenda eiporuhápe { -brand-firefox }.
 signup-sync-info-with-payments = Embojuehe ñe’ẽñemi, jepagarã, techaukaha ha hetave oimeraẽ tenda eiporuhápe { -brand-firefox }.
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
@@ -1966,6 +1967,7 @@ signup-confirmed-sync-success-banner = { -product-mozilla-account } moneĩmbyre
 signup-confirmed-sync-button = Eñepyrũ eikundaha
 # Shown when payment methods are also synced
 signup-confirmed-sync-description-with-payment-v2 = Ñe ñe’ẽñemi, jepagarã, kundaharape, techaukaha, tembiasakue ha hetave embojuehekuaa oimeraẽ tenda eiporuhápe { -brand-firefox }.
+signup-confirmed-sync-description-v2 = Ñe’ẽñemi, kundaharape, techaukaha, tembiasakue ha embojuehekuaa oimeraẽ tenda eiporuhápe { -brand-firefox }.
 signup-confirmed-sync-add-device-link = Embojuaju ambue mba’e’oka
 signup-confirmed-sync-manage-sync-button = Eñangareko ñembojuehére
 signup-confirmed-sync-set-password-success-banner = Ñe’ẽñemi ñembojuehe moheñoipyre
