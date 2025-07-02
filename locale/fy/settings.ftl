@@ -90,6 +90,28 @@ datablock-copy =
     .message = Kopiearre
 datablock-print =
     .message = Ofdrukt
+
+## Success banners for datablock actions.
+## $count – number of codes
+
+datablock-copy-success =
+    { $count ->
+        [one] Koade kopiearre
+       *[other] Koaden kopiearre
+    }
+datablock-download-success =
+    { $count ->
+        [one] Koade download
+       *[other] Koaden download
+    }
+datablock-print-success =
+    { $count ->
+        [one] Koade ôfdrukt
+       *[other] Koaden ôfdrukt
+    }
+
+##
+
 # Tooltip notification when an account recovery key or one-time use code is copied.
 datablock-inline-copy =
     .message = Kopiearre
@@ -629,6 +651,7 @@ flow-setup-2fa-more-info-link = Mear ynfo oer autentikaasje-apps
 flow-setup-2fa-button = Trochgean
 flow-setup-2fa-step-2-instruction = <strong>Stap 2:</strong> fier de koade fan jo autentikaasje-app yn.
 flow-setup-2fa-input-label = Fier 6-siferige koade yn
+flow-setup-2fa-code-error = Unjildige of ferrûne koade. Kontrolearje jo autentikaasje-app en probearje it opnij.
 
 ## The step to choose the two step authentication method in the two step
 ## authentication setup flow.
@@ -755,6 +778,14 @@ tfa-replace-code-2-2 = Stap 2 fan 2
 tfa-enter-code-to-confirm-v2 =
     Fier ien fan jo nije reserve-autentikaasjekoaden yn om te
     befêstigjen dat jo se bewarre hawwe. Jo âlde reserve-autentikaasjekoaden wurde útskeakele sa gau dizze stap foltôge is.
+
+## PageSetupRecoveryPhone
+
+page-2fa-setup-title = Autentikaasje yn twa stappen
+page-2fa-setup-totpinfo-error = Der is in flater bard by it ynstellen fan twastapsautentikaasje. Probearje it letter opnij.
+# code here refers to "backup authentication code"
+page-2fa-setup-incorrect-backup-code-error = Dy koade is net korrekt. Probearje it opnij.
+page-2fa-setup-success = Autentikaasje yn twa stappen is ynskeakele
 
 ## Avatar change page
 
@@ -1207,6 +1238,7 @@ tfa-row-disable-modal-explain-1 =
 # Shown in an alert bar after two-step authentication is disabled
 tfa-row-disabled-2 = Twa-staps autentikaasje útskeakele
 tfa-row-cannot-disable-2 = Autentikaasje yn twa stappen koe net útskeakele wurde
+tfa-row-disable-cannot-verify-session = Sorry, der is in probleem bard by it befêstigjen fan jo sesje
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
