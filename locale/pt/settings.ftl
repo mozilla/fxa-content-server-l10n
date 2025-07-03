@@ -389,12 +389,16 @@ password-strength-balloon-not-email = Não é o seu endereço de e-mail
 password-strength-balloon-not-common = Não é uma palavra-passe comummente utilizada
 password-strength-balloon-stay-safe-tips = Mantenha-se em segurança: não reutilize palavras-passe. Consulte mais dicas para <LinkExternal>criar palavras-passe fortes</LinkExternal>.
 
-## PasswordStrengthBalloon component
+## PasswordStrengthInline component
+## These strings are conditions that need to be met to qualify as a strong password
 
+password-strength-long-instruction = Escolha uma palavra-passe forte que não tenha utilizado em outros sites. Certifique-se que cumpre os requisitos de segurança:
+password-strength-short-instruction = Escolha uma palavra-passe forte:
 password-strength-inline-min-length = Pelo menos 8 caracteres
 password-strength-inline-not-email = Não é o seu endereço de e-mail
 password-strength-inline-not-common = Não é uma palavra-passe habitualmente utilizada
 password-strength-inline-confirmed-must-match = A confirmação corresponde à nova palavra-passe
+password-strength-inline-passwords-match = As palavras-passe coincidem
 
 ## Notification Promo Banner component
 

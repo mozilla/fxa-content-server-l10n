@@ -253,7 +253,10 @@ subscriptionUpdatePayment = Wurkje sa gau as mooglik <a data-l10n-name="updateBi
 subscriptionUpdatePayment-plaintext = Wurkje sa gau as mooglik jo betellingsgegevens by om ûnderbrekking fan jo service foar te kommen:
 # Variables:
 #  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
-support-message-2 = Gean foar mear ynformaasje nei { -brand-mozilla } Support: { $supportUrl }.
+support-message-3 = Besykje foar mear ynfo <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
+# Variables:
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-plaintext = Gean foar mear ynformaasje nei { -brand-mozilla } Support: { $supportUrl }.
 # Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
@@ -357,11 +360,14 @@ passwordChanged-subject = Wachtwurd bywurke
 passwordChanged-title = Wachtwurd mei sukses wizige
 passwordChanged-description-2 = Jo { -product-mozilla-account }-wachtwurd is mei sukses op it folgjende apparaat wizige:
 passwordChangeRequired-subject = Fertochte aktiviteit detektearre
-passwordChangeRequired-title = Wachtwurdwiziging fereaske
-passwordChangeRequired-suspicious-activity-2 = Wy hawwe fertocht gedrach yn jo { -product-mozilla-account }-account detektearre. Om net tastiene tagong ta jo { -product-mozilla-account } op te kearen, hawwe wy alle apparaten yn jo account ûntkeppele en jo moatte út foarsoarch jo wachtwurd wizigje.
-passwordChangeRequired-sign-in-2 = Meld jo opnij oan op ien fan de apparaten of services wêr’t jo jo { -product-mozilla-account } brûke en folgje de presintearre stappen.
-passwordChangeRequired-different-password = <b>Wichtich:</b> kies in oar wachtwurd dan it earder brûkte en soargje derfoar dat it oars is as jo e-mailaccount.
-passwordChangeRequired-different-password-plaintext = Wichtich: kies in oar wachtwurd dan it earder brûkte en soargje derfoar dat it oars is as jo e-mailaccount.
+passwordChangeRequired-preview = Wizigje daliks jo wachtwurd
+passwordChangeRequired-title-2 = Wachtwurd opnij ynstelle
+passwordChangeRequired-suspicious-activity-3 = Wy hawwe jo account beskoattele om te beskermen tsjin fertochte aktiviteit. Jo binne ôfmeld by al jo apparaten en alle syngronisearre gegevens binne út foarsoarch fuortsmiten.
+passwordChangeRequired-sign-in-3 = Om wer by jo account oan te melden, hoege jo allinnich mar jo wachtwurd opnij yn te stellen.
+passwordChangeRequired-different-password-2 = <b>Wichtich:</b> kies in sterk wachtwurd dat oars is as in wachtwurd dat jo yn it ferline brûkt hawwe.
+passwordChangeRequired-different-password-plaintext-2 = Wichtich: kies in sterk wachtwurd dat oars is as in wachtwurd dat jo yn it ferline brûkt hawwe.
+passwordChangeRequired-action = Wachtwurd opnij ynstelle
+passwordChangeRequired-action-plaintext = { passwordChangeRequired-action }:
 password-forgot-otp-subject = Jo wachtwurd ferjitten?
 password-forgot-otp-title = Jo wachtwurd ferjitten?
 password-forgot-otp-request = Wy hawwe in fersyk ûntfongen foar in wachtwurdwiziging op jo { -product-mozilla-account } fan:

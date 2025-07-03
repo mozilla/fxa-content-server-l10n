@@ -252,9 +252,6 @@ subscriptionUpdatePayment = Para evitar cualquier interrupción en tu servicio, 
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Para evitar cualquier interrupción en tu servicio, por favor actualiza tu información de pago lo antes posible:
 # Variables:
-#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
-support-message-2 = Para más información, visita Ayuda de { -brand-mozilla }: { $supportUrl }.
-# Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 #  $uaOSVersion (String) - User's OS version, e.g. 10.11
@@ -357,11 +354,6 @@ passwordChanged-subject = Contraseña actualizada
 passwordChanged-title = Has cambiado la contraseña correctamente
 passwordChanged-description-2 = Se ha cambiado correctamente la contraseña de tu { -product-mozilla-account } desde el siguiente dispositivo:
 passwordChangeRequired-subject = Se ha detectado actividad sospechosa
-passwordChangeRequired-title = Se requiere cambair la contraseña
-passwordChangeRequired-suspicious-activity-2 = Hemos detectado un comportamiento sospechoso en tu { -product-mozilla-account }. Para evitar el acceso no autorizado a tu { -product-mozilla-account }, hemos desconectado todos los dispositivos de tu cuenta y te pedimos que cambies tu contraseña como precaución.
-passwordChangeRequired-sign-in-2 = Inicia sesión en cualquier dispositivo o servicio donde uses tu { -product-mozilla-account } y sigue los pasos que se te mostrarán.
-passwordChangeRequired-different-password = <b>Importante:</b> elige una contraseña diferente de la que estabas usando anteriormente y asegúrate de que sea diferente a la de tu cuenta de correo electrónico.
-passwordChangeRequired-different-password-plaintext = Importante: elige una contraseña diferente de la que estabas usando anteriormente y asegúrate de que sea diferente a la de tu cuenta de correo electrónico.
 password-forgot-otp-subject = ¿Olvidaste tu contraseña?
 password-forgot-otp-title = ¿Olvidaste tu contraseña?
 password-forgot-otp-request = Hemos recibido una solicitud para cambiar la contraseña en tu { -product-mozilla-account } desde:
