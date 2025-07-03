@@ -252,6 +252,12 @@ subscriptionUpdatePayment = Zo byšće přetorhnjenje swojeje słužby wobešoł
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Zo byšće přetorhnjenje swojeje słužby wobešoł, aktualizujće prošu swoje płaćenske informacije tak bórze kaž móžno:
 # Variables:
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-3 = Za dalše informacije wopytajće <a data-l10n-name="supportLink">pomoc { -brand-mozilla }</a>
+# Variables:
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-plaintext = Za dalše informacije wopytajće pomoc { -brand-mozilla }: { $supportUrl }
+# Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 #  $uaOSVersion (String) - User's OS version, e.g. 10.11
@@ -356,6 +362,10 @@ passwordChanged-subject = Hesło je so zaktualizowało
 passwordChanged-title = Hesło je so wuspěšnje změniło
 passwordChanged-description-2 = Hesło wašeho { -product-mozilla-account(case: "gen", capitalization: "lower") } je so wuspěšnje ze slědowaceho grata změniło:
 passwordChangeRequired-subject = Podhladna aktiwita wotkryta
+passwordChangeRequired-preview = Změńće hnydom swoje hesło
+passwordChangeRequired-title-2 = Stajće swoje hesło wróćo
+passwordChangeRequired-action = Hesło wróćo stajić
+passwordChangeRequired-action-plaintext = { passwordChangeRequired-action }:
 password-forgot-otp-subject = Sće swoje hesło zabył?
 password-forgot-otp-title = Sće swoje hesło zabył?
 password-forgot-otp-request = Smy próstwu wo změnjenje hesła za waše { -product-mozilla-account(case: "acc", capitalization: "lower") } dóstali:
