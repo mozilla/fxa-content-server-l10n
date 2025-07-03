@@ -40,6 +40,7 @@ checkout-error-already-subscribed = U bent al geabonneerd op dit product.
 checkout-error-contact-support = Neem contact op met de ondersteuningsafdeling zodat we u kunnen helpen.
 cart-error-currency-not-determined = We kunnen de valuta voor deze aankoop niet bepalen, probeer het opnieuw.
 checkout-processing-general-error = Er is een onverwachte fout opgetreden tijdens het verwerken van uw betaling, probeer het opnieuw.
+cart-total-mismatch-error = Het factuurbedrag is gewijzigd. Probeer het opnieuw.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages

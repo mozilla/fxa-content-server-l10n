@@ -252,6 +252,12 @@ subscriptionUpdatePayment = Wurkje sa gau as mooglik <a data-l10n-name="updateBi
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Wurkje sa gau as mooglik jo betellingsgegevens by om ûnderbrekking fan jo service foar te kommen:
 # Variables:
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-3 = Besykje foar mear ynfo <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
+# Variables:
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-plaintext = Gean foar mear ynformaasje nei { -brand-mozilla } Support: { $supportUrl }.
+# Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 #  $uaOSVersion (String) - User's OS version, e.g. 10.11
@@ -354,6 +360,11 @@ passwordChanged-subject = Wachtwurd bywurke
 passwordChanged-title = Wachtwurd mei sukses wizige
 passwordChanged-description-2 = Jo { -product-mozilla-account }-wachtwurd is mei sukses op it folgjende apparaat wizige:
 passwordChangeRequired-subject = Fertochte aktiviteit detektearre
+passwordChangeRequired-preview = Wizigje daliks jo wachtwurd
+passwordChangeRequired-title-2 = Wachtwurd opnij ynstelle
+passwordChangeRequired-suspicious-activity-3 = Wy hawwe jo account beskoattele om te beskermen tsjin fertochte aktiviteit. Jo binne ôfmeld by al jo apparaten en alle syngronisearre gegevens binne út foarsoarch fuortsmiten.
+passwordChangeRequired-sign-in-3 = Om wer by jo account oan te melden, hoege jo allinnich mar jo wachtwurd opnij yn te stellen.
+passwordChangeRequired-different-password-2 = <b>Wichtich:</b> kies in sterk wachtwurd dat oars is as in wachtwurd dat jo yn it ferline brûkt hawwe.
 password-forgot-otp-subject = Jo wachtwurd ferjitten?
 password-forgot-otp-title = Jo wachtwurd ferjitten?
 password-forgot-otp-request = Wy hawwe in fersyk ûntfongen foar in wachtwurdwiziging op jo { -product-mozilla-account } fan:

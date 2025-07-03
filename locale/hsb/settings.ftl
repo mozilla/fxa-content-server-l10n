@@ -398,10 +398,13 @@ password-strength-balloon-stay-safe-tips = Wostańće wěsty – Njewužiwajće 
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password
 
+password-strength-long-instruction = Wubjerće mócne hesło, kotrež njejsće na druhich sydłach wužił. Dźiwajće na to, zo wěstotnym žadanjam wotpowěduje:
+password-strength-short-instruction = Wubjerće mócne hesło:
 password-strength-inline-min-length = Znajmjeńša 8 znamješkow
 password-strength-inline-not-email = Nic waša e-mejlowa adresa
 password-strength-inline-not-common = Nic husto wužiwane hesło
 password-strength-inline-confirmed-must-match = Wobkrućenje nowemu hesłu wotpowěduje
+password-strength-inline-passwords-match = Hesle stej jenakej
 
 ## Notification Promo Banner component
 

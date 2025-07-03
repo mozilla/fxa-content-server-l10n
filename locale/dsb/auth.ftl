@@ -252,6 +252,12 @@ subscriptionUpdatePayment = Aby se pśetergnjenja swójeje słužby wobinuł, <a
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Aby se pśetergnjenja swójeje słužby wobinuł, aktualizěrujśo pšosym swóje płaśeńske informacije tak skóro ako móžno:
 # Variables:
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-3 = Za dalšne informacije woglědajśo s k <a data-l10n-name="supportLink">pomocy { -brand-mozilla }</a>
+# Variables:
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-plaintext = Za dalšne informacije woglědajśo se k pomocy { -brand-mozilla }: { $supportUrl }
+# Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 #  $uaOSVersion (String) - User's OS version, e.g. 10.11
@@ -356,6 +362,8 @@ passwordChanged-subject = Gronidło jo se zaktualizěrowało
 passwordChanged-title = Gronidło jo se wuspěšnje změniło
 passwordChanged-description-2 = Gronidło wašogo { -product-mozilla-account(case: "gen", capitalization: "lower") } jo se wuspěšnje ze slědujucego rěda změniło:
 passwordChangeRequired-subject = Zawózdatna aktiwita namakana
+passwordChangeRequired-preview = Změńśo ned swójo gronidło
+passwordChangeRequired-title-2 = Stajśo swójo gronidło slědk
 password-forgot-otp-subject = Sćo swójo gronidło zabył?
 password-forgot-otp-title = Sćo swójo gronidło zabył?
 password-forgot-otp-request = Smy dostali pšosbu wó změnjanje gronidła za wašo { -product-mozilla-account(case: "acc", capitalization: "lower") }:

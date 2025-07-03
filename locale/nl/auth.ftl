@@ -252,6 +252,12 @@ subscriptionUpdatePayment = Werk zo snel mogelijk <a data-l10n-name="updateBilli
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Werk zo snel mogelijk uw betalingsgegevens bij om onderbreking van uw service te voorkomen:
 # Variables:
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-3 = Bezoek voor meer info <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
+# Variables:
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-plaintext = Ga voor meer informatie naar { -brand-mozilla } Support: { $supportUrl }.
+# Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 #  $uaOSVersion (String) - User's OS version, e.g. 10.11
@@ -354,6 +360,14 @@ passwordChanged-subject = Wachtwoord bijgewerkt
 passwordChanged-title = Wachtwoord met succes gewijzigd
 passwordChanged-description-2 = Uw { -product-mozilla-account }-wachtwoord is met succes op het volgende apparaat gewijzigd:
 passwordChangeRequired-subject = Verdachte activiteit gedetecteerd
+passwordChangeRequired-preview = Wijzig direct uw wachtwoord
+passwordChangeRequired-title-2 = Uw wachtwoord opnieuw instellen
+passwordChangeRequired-suspicious-activity-3 = We hebben uw account vergrendeld om deze te beschermen tegen verdachte activiteit. U bent afgemeld bij al uw apparaten en alle gesynchroniseerde gegevens zijn uit voorzorg verwijderd.
+passwordChangeRequired-sign-in-3 = Om u weer bij uw account aan te melden, hoeft u alleen maar uw wachtwoord opnieuw in te stellen.
+passwordChangeRequired-different-password-2 = <b>Belangrijk:</b> kies een sterk wachtwoord dat anders is dan een wachtwoord dat u in het verleden hebt gebruikt.
+passwordChangeRequired-different-password-plaintext-2 = Belangrijk: kies een sterk wachtwoord dat anders is dan een wachtwoord dat u in het verleden hebt gebruikt.
+passwordChangeRequired-action = Wachtwoord opnieuw instellen
+passwordChangeRequired-action-plaintext = { passwordChangeRequired-action }:
 password-forgot-otp-subject = Uw wachtwoord vergeten?
 password-forgot-otp-title = Uw wachtwoord vergeten?
 password-forgot-otp-request = We hebben een verzoek ontvangen voor een wachtwoordwijziging op uw { -product-mozilla-account } van:
