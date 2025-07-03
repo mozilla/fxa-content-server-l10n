@@ -253,6 +253,12 @@ subscriptionUpdatePayment = <a data-l10n-name="updateBillingUrl">Oppdater betali
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Oppdater betalingsinformasjonen din snarast råd for å unngå avbrot i tenesta di:
 # Variables:
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-3 = Gå til <a data-l10n-name="supportLink">{ -brand-mozilla } brukarstøtte</a> for meir informasjon.
+# Variables:
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-plaintext = For meir informasjon, gå til { -brand-mozilla } brukarstøtte: { $supportUrl }.
+# Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 #  $uaOSVersion (String) - User's OS version, e.g. 10.11
@@ -355,6 +361,10 @@ passwordChanged-subject = Passord oppdatert
 passwordChanged-title = Passordet er endra
 passwordChanged-description-2 = Passordet til { -product-mozilla-account }-en din vart endra frå følgjande eining:
 passwordChangeRequired-subject = Mistenkt aktivitet oppdaga
+passwordChangeRequired-preview = Endre passordet ditt med ein gong
+passwordChangeRequired-title-2 = Tilbakestill passordet ditt
+passwordChangeRequired-action = Tilbakestill passordet
+passwordChangeRequired-action-plaintext = { passwordChangeRequired-action }:
 password-forgot-otp-subject = Gløymt passordet ditt?
 password-forgot-otp-title = Gløymt passordet ditt?
 password-forgot-otp-request = Vi fekk ein førespurnad om passordendring på { -product-mozilla-account }en din frå:
