@@ -398,10 +398,13 @@ password-strength-balloon-stay-safe-tips = Wóstańśo wěsty – njewužywajśo
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password
 
+password-strength-long-instruction = Wubjeŕśo mócne gronidło, kótarež njejsćo wužył na drugich sedłach. Źiwajśo na to, až wěstotnym pominanjam wótpowědujo:
+password-strength-short-instruction = Wubjeŕśo mócne gronidło:
 password-strength-inline-min-length = Nanejmjenjej 8 znamuškow
 password-strength-inline-not-email = Nic waša e-mailowa adresa
 password-strength-inline-not-common = Nic cesto wužywane gronidło
 password-strength-inline-confirmed-must-match = Wobkšuśenje nowemu gronidłoju wótpowědujo
+password-strength-inline-passwords-match = Gronidle stej jadnakej
 
 ## Notification Promo Banner component
 

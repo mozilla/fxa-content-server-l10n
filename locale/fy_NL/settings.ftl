@@ -392,10 +392,13 @@ password-strength-balloon-stay-safe-tips = Bliuw feilich – Brûk wachtwurden n
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password
 
+password-strength-long-instruction = Kies in sterk wachtwurd dat jo net op oare websites brûkt hawwe. Soargje derfoar dat it foldocht oan de befeiligingseasken:
+password-strength-short-instruction = Kies in sterk wachtwurd:
 password-strength-inline-min-length = Op syn minst 8 karakters
 password-strength-inline-not-email = Net jo e-mailadres
 password-strength-inline-not-common = Net in faaks brûkt wachtwurd
 password-strength-inline-confirmed-must-match = Befêstiging komt oerien mei it nije wachtwurd
+password-strength-inline-passwords-match = Wachtwurden komme oerien
 
 ## Notification Promo Banner component
 
