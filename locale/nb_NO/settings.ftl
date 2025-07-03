@@ -392,10 +392,13 @@ password-strength-balloon-stay-safe-tips = Vær trygg — Ikke bruk passord på 
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password
 
+password-strength-long-instruction = Velg et sterkt passord du ikke har brukt på andre nettsteder. Sørg for at det oppfyller sikkerhetskravene:
+password-strength-short-instruction = Velg et sterkt passord:
 password-strength-inline-min-length = Minst 8 tegn
 password-strength-inline-not-email = Ikke e-postadressen din
 password-strength-inline-not-common = Ikke et typisk brukt passord
 password-strength-inline-confirmed-must-match = Bekreftelsen samsvarer med det nye passordet
+password-strength-inline-passwords-match = Passordene samsvarer
 
 ## Notification Promo Banner component
 

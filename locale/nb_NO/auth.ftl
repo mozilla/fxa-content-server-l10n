@@ -105,14 +105,14 @@ ios-download-plaintext = Last ned { $productName } på App Store:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 another-device-plaintext = Installer { $productName } på en annen enhet:
 automated-email-change-2 = Hvis du ikke gjorde denne handlingen, <a data-l10n-name="passwordChangeLink">endre passordet ditt</a> med en gang.
-automated-email-support = For mer informasjon, besøk <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
+automated-email-support = For mer informasjon, besøk <a data-l10n-name="supportLink">{ -brand-mozilla } brukerstøtte</a>.
 # After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-change-plaintext-2 = Hvis du ikke gjorde denne handlingen, endre passordet ditt med en gang:
 #  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-support-plaintext = For mer informasjon, besøk { -brand-mozilla } Support:
 automated-email-inactive-account = Dette er en automatisert e-post. Du mottar den fordi du har en { -product-mozilla-account } og det har gått 2 år siden sist pålogging.
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
-automated-email-no-action = { automated-email-no-action-plaintext } For mer informasjon, besøk <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
+automated-email-no-action = { automated-email-no-action-plaintext } For mer informasjon, besøk <a data-l10n-name="supportLink">{ -brand-mozilla } brukerstøtte</a>.
 automated-email-no-action-plaintext = Dette er en automatisert e-post. Hvis du mottok den ved en feil, trenger du ikke gjøre noe.
 #  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
 automated-email-not-authorized-plaintext = Dette er en automatisert e-post; hvis du ikke autoriserte denne handlingen, endre passordet ditt:
@@ -142,7 +142,7 @@ automatedEmailRecoveryKey-origin-device-OS-version-only = Denne forespørselen k
 automatedEmailRecoveryKey-origin-device-OS-only = Denne forespørselen kom fra { $uaOS }.
 automatedEmailRecoveryKey-delete-key-change-pwd = Hvis dette ikke var deg, <a data-l10n-name="revokeAccountRecoveryLink">slett den nye nøkkelen</a> og <a data-l10n-name="passwordChangeLink">endre passordet ditt</a>.
 automatedEmailRecoveryKey-change-pwd-only = Hvis dette ikke var deg, <a data-l10n-name="passwordChangeLink">endre passordet ditt</a>.
-automatedEmailRecoveryKey-more-info = For mer informasjon, besøk <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
+automatedEmailRecoveryKey-more-info = For mer informasjon, besøk <a data-l10n-name="supportLink">{ -brand-mozilla } brukerstøtte</a>.
 # Colon is followed by user device info on a separate line (e.g., "Firefox Nightly on Mac OSX 10.11")
 automatedEmailRecoveryKey-origin-plaintext = Denne forespørselen kom fra:
 # Colon is followed by a URL to the account recovery key section of account settings
@@ -156,7 +156,7 @@ automatedEmailRecoveryKey-notyou-change-pwd-plaintext = og endre passordet ditt:
 automatedEmailRecoveryKey-more-info-plaintext = For mer informasjon, besøk { -brand-mozilla } Support:
 automated-email-reset =
     Dette er en automatisert e-post; hvis du ikke autoriserte denne handlingen, <a data-l10n-name="resetLink">tilbakestill passordet ditt</a>.
-    For mer informasjon, besøk <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
+    For mer informasjon, besøk <a data-l10n-name="supportLink">{ -brand-mozilla } brukerstøtte</a>.
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext-v2 = Hvis du ikke autoriserte denne handlingen, kan du tilbakestille passordet ditt nå på { $resetLink }
@@ -252,6 +252,12 @@ subscriptionUpdateBillingTry-plaintext = Vi prøver å gjennomføre betalingen d
 subscriptionUpdatePayment = <a data-l10n-name="updateBillingUrl">Oppdater betalingsinformasjonen din</a> så snart som mulig for å unngå avbrudd i din tjeneste.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Oppdater betalingsinformasjonen din så snart som mulig for å unngå avbrudd i din tjeneste:
+# Variables:
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-3 = For mer informasjon, besøk <a data-l10n-name="supportLink">{ -brand-mozilla } brukerstøte</a>.
+# Variables:
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-plaintext = For mer informasjon, besøk { -brand-mozilla } brukerstøtte: { $supportUrl }.
 # Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
@@ -355,6 +361,14 @@ passwordChanged-subject = Passord oppdatert
 passwordChanged-title = Passordet er endret
 passwordChanged-description-2 = Passordet til din { -product-mozilla-account } ble endret fra følgende enhet:
 passwordChangeRequired-subject = Mistenkt aktivitet oppdaget
+passwordChangeRequired-preview = Endre passordet ditt umiddelbart
+passwordChangeRequired-title-2 = Tilbakestill passordet ditt
+passwordChangeRequired-suspicious-activity-3 = Vi låste kontoen din for å beskytte den mot mistenkelig aktivitet. Du er logget av alle enhetene dine, og alle synkroniserte data er slettet som en forholdsregel.
+passwordChangeRequired-sign-in-3 = For å logge på kontoen din igjen, trenger du bare å tilbakestille passordet ditt.
+passwordChangeRequired-different-password-2 = <b>Viktig:</b> Velg et sterkt passord som er forskjellig fra et du har brukt tidligere.
+passwordChangeRequired-different-password-plaintext-2 = Viktig: Velg et sterkt passord som er forskjellig fra et du har brukt tidligere.
+passwordChangeRequired-action = Tilbakestill passord
+passwordChangeRequired-action-plaintext = { passwordChangeRequired-action }:
 password-forgot-otp-subject = Glemt passord ditt?
 password-forgot-otp-title = Glemt passord ditt?
 password-forgot-otp-request = Vi mottok en forespørsel om passordendring på din { -product-mozilla-account } fra:
