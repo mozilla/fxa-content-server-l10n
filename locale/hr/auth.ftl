@@ -250,6 +250,12 @@ subscriptionUpdatePayment = Za sprečavanje prekida korištenja usluge <a data-l
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Za sprečavanje prekida korištenja usluge, aktualiziraj podatke naplate što je prije:
 # Variables:
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-3 = Za više informacija posjeti stranicu <a data-l10n-name="supportLink">{ -brand-mozilla }podrške</a>.
+# Variables:
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-plaintext = Za više informacija posjeti stranicu { -brand-mozilla } podrške: { $supportUrl }
+# Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 #  $uaOSVersion (String) - User's OS version, e.g. 10.11
@@ -353,6 +359,9 @@ passwordChanged-subject = Lozinka aktualizirana
 passwordChanged-title = Lozinka je uspješno promijenjena
 passwordChanged-description-2 = Tvoja { -product-mozilla-account } lozinka je uspješno promijenjena sa sljedećeg uređaja:
 passwordChangeRequired-subject = Otkrivena je sumnjiva aktivnost
+passwordChangeRequired-preview = Odmah promijeni svoju lozinku
+passwordChangeRequired-title-2 = Resetiraj svoju lozinku
+passwordChangeRequired-suspicious-activity-3 = Zaključali smo tvoj račun kako bismo ga zaštitili od sumnjivih aktivnosti. Odjavljen/a si sa svih uređaja i svi sinkronizirani podaci su iz predostrožnosti izbrisani.
 password-forgot-otp-subject = Zaboravio/la si lozinku?
 password-forgot-otp-title = Zaboravio/la si lozinku?
 password-forgot-otp-request = Primili smo zahtjev za promjenu lozinke na tvom { -product-mozilla-account } od:
