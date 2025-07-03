@@ -252,9 +252,6 @@ subscriptionUpdatePayment = För att förhindra eventuella avbrott i din tjänst
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = För att förhindra avbrott i din tjänst, uppdatera din betalningsinformation så snart som möjligt:
 # Variables:
-#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
-support-message-2 = För mer information besök { -brand-mozilla } Support: { $supportUrl }.
-# Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 #  $uaOSVersion (String) - User's OS version, e.g. 10.11
@@ -357,11 +354,6 @@ passwordChanged-subject = Lösenord uppdaterat
 passwordChanged-title = Lösenord har ändrats
 passwordChanged-description-2 = Ditt lösenord för { -product-mozilla-account } har ändrats från följande enhet:
 passwordChangeRequired-subject = Misstänkt aktivitet upptäckt
-passwordChangeRequired-title = Lösenordsbyte krävs
-passwordChangeRequired-suspicious-activity-2 = Vi upptäckte misstänkt beteende på ditt { -product-mozilla-account }. För att förhindra obehörig åtkomst till ditt { -product-mozilla-account } har vi kopplat bort alla enheter på ditt konto och kräver att du ändrar ditt lösenord som en försiktighetsåtgärd.
-passwordChangeRequired-sign-in-2 = Logga in på valfri enhet eller tjänst där du använder ditt { -product-mozilla-account } och följ stegen som kommer att presenteras för dig.
-passwordChangeRequired-different-password = <b>Viktigt:</b> Välj ett annat lösenord än vad du tidigare använde och se till att det skiljer sig från ditt e-postkonto.
-passwordChangeRequired-different-password-plaintext = Viktigt: Välj ett annat lösenord än vad du tidigare använde och se till att det skiljer sig från ditt e-postkonto.
 password-forgot-otp-subject = Glömt ditt lösenord?
 password-forgot-otp-title = Glömt ditt lösenord?
 password-forgot-otp-request = Vi fick en begäran om lösenordsändring på ditt { -product-mozilla-account } från:

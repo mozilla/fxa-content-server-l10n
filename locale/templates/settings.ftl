@@ -1921,6 +1921,13 @@ signin-desktop-relay = { -brand-firefox } will try sending you back to use an em
 
 signin-code-expired-error = Code expired. Please sign in again.
 
+signin-account-locked-banner-heading = Reset your password
+signin-account-locked-banner-description = We locked your account to keep it safe from suspicious activity.
+# This link points to https://accounts.firefox.com/reset_password
+signin-account-locked-banner-link = Reset your password to sign in
+
+##
+
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
 ## they can click "report it to us" if they did not attempt to sign in.
@@ -2142,7 +2149,7 @@ confirm-signup-code-desktop-relay = { -brand-firefox } will try sending you back
 signup-heading-v2 = Create a password
 signup-relay-info = A password is needed to securely manage your masked emails and access { -brand-mozilla }’s security tools.
 signup-sync-info = Sync your passwords, bookmarks, and more everywhere you use { -brand-firefox }.
-signup-sync-info-with-payments = Sync your passwords, payment methods, bookmarks, and more everywhere you use { -brand-firefox }.
+signup-sync-info-with-payment = Sync your passwords, payment methods, bookmarks, and more everywhere you use { -brand-firefox }.
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = Why do I need to create this account?
 # Link included in a dismissible info banner that is only displayed to Pocket clients
