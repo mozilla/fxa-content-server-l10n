@@ -252,6 +252,12 @@ subscriptionUpdatePayment = Para evitar cualquier interrupción en tu servicio,<
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Para evitar cualquier interrupción en tu servicio, actualiza tu información de pago lo antes posible:
 # Variables:
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-3 = Para obtener más información, visita el <a data-l10n-name="supportLink">Soporte de { -brand-mozilla }</a>.
+# Variables:
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-plaintext = Para más información, visita el Soporte de { -brand-mozilla }: { $supportUrl }.
+# Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 #  $uaOSVersion (String) - User's OS version, e.g. 10.11
@@ -354,6 +360,14 @@ passwordChanged-subject = Contraseña actualizada
 passwordChanged-title = Contraseña cambiada exitosamente
 passwordChanged-description-2 = La contraseña de tu { -product-mozilla-account } fue cambiada exitosamente desde el siguiente dispositivo:
 passwordChangeRequired-subject = Actividad sospechosa detectada
+passwordChangeRequired-preview = Cambia tu contraseña inmediatamente
+passwordChangeRequired-title-2 = Restablecer tu contraseña
+passwordChangeRequired-suspicious-activity-3 = Bloqueamos tu cuenta para protegerla de actividades sospechosas. Se ha cerrado la sesión de todos tus dispositivos y se han eliminado todos los datos sincronizados como medida de precaución.
+passwordChangeRequired-sign-in-3 = Para volver a conectarte a tu cuenta, todo lo que necesitas hacer es restablecer tu contraseña.
+passwordChangeRequired-different-password-2 = <b>Importante:</b> Elige una contraseña segura que sea diferente a las que hayas usado en el pasado.
+passwordChangeRequired-different-password-plaintext-2 = Importante: Elige una contraseña segura que sea diferente a las que hayas usado en el pasado.
+passwordChangeRequired-action = Restablecer contraseña
+passwordChangeRequired-action-plaintext = { passwordChangeRequired-action }:
 password-forgot-otp-subject = ¿Olvidaste tu contraseña?
 password-forgot-otp-title = ¿Olvidaste tu contraseña?
 password-forgot-otp-request = Recibimos una solicitud de cambio de contraseña en tu { -product-mozilla-account } desde:
