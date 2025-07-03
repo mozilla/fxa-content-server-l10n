@@ -760,6 +760,7 @@ tfa-enter-code-to-confirm-v2 = 请输入新的备份验证码中的一个，以�
 ## PageSetupRecoveryPhone
 
 page-2fa-setup-title = 两步验证
+page-2fa-setup-totpinfo-error = 设置两步验证时出错。稍后再试。
 # code here refers to "backup authentication code"
 page-2fa-setup-incorrect-backup-code-error = 备用验证码不正确。请重试。
 page-2fa-setup-success = 已启用两步验证
