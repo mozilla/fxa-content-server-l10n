@@ -252,6 +252,12 @@ subscriptionUpdatePayment = Pro impedir ulle interruption a tu servicio, per fav
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Pro impedir ulle interruption a tu servicio, actualisa tu informationes de pagamento le plus tosto possibile:
 # Variables:
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-3 = Pro altere informationes, visita <a data-l10n-name="supportLink">{ -brand-mozilla } Supporto</a>.
+# Variables:
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-plaintext = Pro altere informationes, visita { -brand-mozilla } Supporto: { $supportUrl }.
+# Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 #  $uaOSVersion (String) - User's OS version, e.g. 10.11
@@ -354,6 +360,10 @@ passwordChanged-subject = Contrasigno actualisate
 passwordChanged-title = Contrasigno cambiate correctemente
 passwordChanged-description-2 = Tu contrasigno de { -product-mozilla-account } ha essite cambiate con successo cambiate ab le sequente apparato:
 passwordChangeRequired-subject = Activitate suspecte detegite
+passwordChangeRequired-preview = Cambia tu contrasigno immediatemente
+passwordChangeRequired-title-2 = Reinitialisa tu contrasigno
+passwordChangeRequired-action = Reinitialisar le contrasigno
+passwordChangeRequired-action-plaintext = { passwordChangeRequired-action }:
 password-forgot-otp-subject = Contrasigno oblidate?
 password-forgot-otp-title = Contrasigno oblidate?
 password-forgot-otp-request = Nos recipeva un requesta pro un cambio de contrasigno sur tu { -product-mozilla-account } ab:
