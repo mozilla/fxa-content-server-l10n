@@ -251,7 +251,7 @@ subscriptionUpdatePayment = A szolgáltatás folytonossága érdekében <a data-
 subscriptionUpdatePayment-plaintext = A szolgáltatás folytonossága érdekében frissítse a fizetési információit a lehető leghamarabb:
 # Variables:
 #  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
-support-message-2 = További információkért keresse fel a { -brand-mozilla } Támogatást: { $supportUrl }.
+support-message-plaintext = További információkért keresse fel a { -brand-mozilla } Támogatást: { $supportUrl }.
 # Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
@@ -355,11 +355,14 @@ passwordChanged-subject = A jelszó frissítve
 passwordChanged-title = Jelszó sikeresen módosítva
 passwordChanged-description-2 = A { -product-mozilla-account }jának jelszava sikeresen megváltoztatva erről az eszközről:
 passwordChangeRequired-subject = Gyanús tevékenység észlelve
-passwordChangeRequired-title = Jelszómódosítás szükséges
-passwordChangeRequired-suspicious-activity-2 = Gyanús viselkedést észleltünk a { -product-mozilla-account }jában. A { -product-mozilla-account }jához való jogosulatlan hozzáférés megakadályozása érdekében leválasztottuk a fiókja összes eszközét, és elővigyázatosságként arra kérjük, hogy módosítsa a jelszavát.
-passwordChangeRequired-sign-in-2 = Jelentkezzen újra be bármelyik eszközbe vagy szolgáltatásba, ahol a { -product-mozilla-account }ját használja, és kövesse a bemutatott lépéseket.
-passwordChangeRequired-different-password = <b>Fontos:</b> Válasszon egy másik jelszót, mint amit korábban használt, és ellenőrizze, hogy az eltér-e az e-mail-címétől.
-passwordChangeRequired-different-password-plaintext = Fontos: Válasszon egy másik jelszót, mint amit korábban használt, és ellenőrizze, hogy az eltér-e az e-mail-címétől.
+passwordChangeRequired-preview = Azonnal változtassa meg a jelszavát
+passwordChangeRequired-title-2 = Jelszó visszaállítása
+passwordChangeRequired-suspicious-activity-3 = Fiókját zároltuk, hogy biztonságban legyen a gyanús tevékenységektől. Elővigyázatosságból kijelentkezett az összes eszközéről, és a szinkronizált adatok törölve lettek.
+passwordChangeRequired-sign-in-3 = Hogy újra bejelentkezzen a fiókjába, csak annyit kell tennie, hogy visszaállítja a jelszavát.
+passwordChangeRequired-different-password-2 = <b>Fontos:</b> Válasszon egy erős jelszót, amely különbözik a korábban használttól.
+passwordChangeRequired-different-password-plaintext-2 = Fontos: Válasszon egy erős jelszót, amely különbözik a múltban használttól.
+passwordChangeRequired-action = Jelszó visszaállítása
+passwordChangeRequired-action-plaintext = { passwordChangeRequired-action }:
 password-forgot-otp-subject = Elfelejtette a jelszavát?
 password-forgot-otp-title = Elfelejtette a jelszavát?
 password-forgot-otp-request = A { -product-mozilla-account }ja jelszavának megváltoztatására vonatkozó kérést kaptunk a következőtől:

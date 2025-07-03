@@ -252,9 +252,6 @@ subscriptionUpdatePayment = Zo byšće přetorhnjenje swojeje słužby wobešoł
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Zo byšće přetorhnjenje swojeje słužby wobešoł, aktualizujće prošu swoje płaćenske informacije tak bórze kaž móžno:
 # Variables:
-#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
-support-message-2 = Za dalše informacije wopytajće pomoc { -brand-mozilla }: { $supportUrl }
-# Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 #  $uaOSVersion (String) - User's OS version, e.g. 10.11
@@ -359,11 +356,6 @@ passwordChanged-subject = Hesło je so zaktualizowało
 passwordChanged-title = Hesło je so wuspěšnje změniło
 passwordChanged-description-2 = Hesło wašeho { -product-mozilla-account(case: "gen", capitalization: "lower") } je so wuspěšnje ze slědowaceho grata změniło:
 passwordChangeRequired-subject = Podhladna aktiwita wotkryta
-passwordChangeRequired-title = Změnjenje hesła trěbne
-passwordChangeRequired-suspicious-activity-2 = Smy podhladne zadźerženje na wašim { -product-mozilla-account(case: "loc", capitalization: "lower") } zwěsćili. Zo bychmy njeawtorizowanemu přistupej k wašemu { -product-mozilla-account(case: "dat", capitalization: "lower") } zadźěwali, smy wšě graty we wašim konće dźělili a namołwjamy was, waše hesło wěstoty dla změnić.
-passwordChangeRequired-sign-in-2 = Přizjewće so zaso pola grata abo słužby, hdźež swoje { -product-mozilla-account(case: "acc", capitalization: "lower") } wužiwaće a sćěhujće kroćele, kotrež so wam pokazuja.
-passwordChangeRequired-different-password = <b>Wažny:</b> Wubjerće druhe hesło hač te, kotrež sće do toho wužiwał, a dźiwajće na to, zo so wot hesła za swoje e-mejlowe konto rozeznawa.
-passwordChangeRequired-different-password-plaintext = Wažny: Wubjerće druhe hesło hač te, kotrež sće do toho wužiwał, a dźiwajće na to, zo so wot hesła za swoje e-mejlowe konto rozeznawa.
 password-forgot-otp-subject = Sće swoje hesło zabył?
 password-forgot-otp-title = Sće swoje hesło zabył?
 password-forgot-otp-request = Smy próstwu wo změnjenje hesła za waše { -product-mozilla-account(case: "acc", capitalization: "lower") } dóstali:

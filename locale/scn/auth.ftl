@@ -252,9 +252,6 @@ subscriptionUpdatePayment = Pi scanzari di firmari u sirbizzu, pi favuri <a data
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Pi scanzari di firmari u sirbizzu, pi favuri attualizza i to nfurmazzioni di pagamentu prima ca poi:
 # Variables:
-#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
-support-message-2 = P’aviri cchiù assai nfurmazzioni, vìsita u situ di supportu di { -brand-mozilla }: { $supportUrl }.
-# Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 #  $uaOSVersion (String) - User's OS version, e.g. 10.11
@@ -357,11 +354,6 @@ passwordChanged-subject = Chiavi attualizzata
 passwordChanged-title = A chiavi fu canciata
 passwordChanged-description-2 = A chiavi dû { -product-mozilla-account } fu canciata di stu dispusitivu:
 passwordChangeRequired-subject = Attruvammu n’attività suspetta
-passwordChangeRequired-title = È nicissariu canciari a chiavi
-passwordChangeRequired-suspicious-activity-2 = Vìttimu un cumpurtamentu suspettu nnô to { -product-mozilla-account }. Pi bluccari na trasuta nun auturizzata, scullijammu tutti i dispusitivi dû to cuntu, e t’addumannamu di canciari a chiavi pi sicurizza.
-passwordChangeRequired-sign-in-2 = Trasi arrè nna tutti i dispusitivi o sirbizzi unni usi u to { -product-mozilla-account } e sicuta i passi chi ti vennu mustrati.
-passwordChangeRequired-different-password = <b>Mpurtanti:</b> scarta na chiavi diversa di chiḍḍa chi usavi prima, e stai accura a nun scartari a stissa di chiḍḍa dû to nnirizzu di posta elittrònica.
-passwordChangeRequired-different-password-plaintext = Mpurtanti: scarta na chiavi diversa di chiḍḍa chi usavi prima, e stai accura a nun scartari a stissa di chiḍḍa dû to nnirizzu di posta elittrònica.
 password-forgot-otp-subject = Ti scurdasti a chiavi?
 password-forgot-otp-title = Ti scurdasti a chiavi?
 password-forgot-otp-request = Ricivemmu na dumanna di canciu dâ chiavi dû to { -product-mozilla-account } di:

@@ -232,9 +232,6 @@ subscriptionUpdatePayment = Zure zerbitzua etenik ez izateko, mesedez <a data-l1
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Zure zerbitzua etenik ez izateko, mesedez eguneratu zure ordainketa-informazioa ahalik eta azkarren.
 # Variables:
-#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
-support-message-2 = Informazio gehiago lortzeko, bisitatu { -brand-mozilla } Laguntza: { $supportUrl }.
-# Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 #  $uaOSVersion (String) - User's OS version, e.g. 10.11
@@ -337,11 +334,6 @@ passwordChanged-subject = Pasahitza eguneratuta
 passwordChanged-title = Pasahitza ondo aldatu da
 passwordChanged-description-2 = Zure { -product-mozilla-account }-ko pasahitza ondo aldatu da ondorengo gailutik:
 passwordChangeRequired-subject = Aktibitate susmagarria detektatu da
-passwordChangeRequired-title = Pasahitza aldatzea beharrezkoa da
-passwordChangeRequired-suspicious-activity-2 = Jokabide susmagarriak hauteman ditugu zure { -product-mozilla-account }-n. Zure { -product-mozilla-account } baimenik gabeko sarbidea saihesteko, zure kontuko gailu guztiak deskonektatu ditugu eta zure pasahitza aldatzeko eskatzen dizugu prebentzio gisa.
-passwordChangeRequired-sign-in-2 = Hasi saioa berriro zure { -product-mozilla-account } erabiltzen duzun edozein gailu edo zerbitzutan eta jarraitu aurkeztuko zaizkizun urratsei.
-passwordChangeRequired-different-password = <b>Garrantzitsua:</b> Ez erabili aurretik erabilitako pasahitzik eta ziurtatu zure korreo kontuaren desberdina dela.
-passwordChangeRequired-different-password-plaintext = Garrantzitsua: Ez erabili aurretik erabilitako pasahitzik eta ziurtatu zure korreo kontuaren desberdina dela.
 password-forgot-otp-subject = Pasahitza ahaztu duzu?
 password-forgot-otp-title = Pasahitza ahaztu duzu?
 password-forgot-otp-request = Zure { -product-mozilla-account } pasahitza aldatzeko eskaera jaso dugu hemendik:

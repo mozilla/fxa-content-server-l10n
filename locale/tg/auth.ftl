@@ -223,9 +223,6 @@ subscriptionFirstInvoice-content-charge = { $invoiceTotal } дар { $invoiceDat
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Саволҳо дар бораи обунаи худ доред? Дар ин ҷой дастаи дастгирии мо ба шумо кумак мерасонад:
 # Variables:
-#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
-support-message-2 = Барои маълумоти иловагӣ, ба Дастгирии «{ -brand-mozilla }» муроҷиат кунед: { $supportUrl }.
-# Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 #  $uaOSVersion (String) - User's OS version, e.g. 10.11
@@ -305,7 +302,6 @@ passwordChanged-subject = Ниҳонвожа аз нав нигоҳ дошта �
 passwordChanged-title = Ниҳонвожа бо муваффақият иваз карда шуд
 passwordChanged-description-2 = Ниҳонвжаи шумо барои «{ -product-mozilla-account }» аз дастгоҳи зерин бо муваффақият иваз карда шуд:
 passwordChangeRequired-subject = Фаъолияти шубҳанок ошкор карда шуд
-passwordChangeRequired-title = Ниҳонвожа бояд иваз карда шавад
 password-forgot-otp-subject = Ниҳонвожаи худро фаромӯш кардед?
 password-forgot-otp-title = Ниҳонвожаи худро фаромӯш кардед?
 password-forgot-otp-code-2 = Агар ин шумо будед, он гоҳ ин рамзи тасдиқкунандаи шумо барои идома мебошад:

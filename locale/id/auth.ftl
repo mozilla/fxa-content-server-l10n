@@ -232,9 +232,6 @@ subscriptionUpdatePayment = Untuk mencegah gangguan pada layanan Anda, silakan <
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Untuk mencegah gangguan pada layanan Anda, silakan perbarui informasi pembayaran Anda sesegera mungkin:
 # Variables:
-#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
-support-message-2 = Untuk info lebih lanjut, kunjungi Dukungan { -brand-mozilla }: { $supportUrl }.
-# Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 #  $uaOSVersion (String) - User's OS version, e.g. 10.11
@@ -336,11 +333,6 @@ passwordChanged-subject = Sandi telah diperbarui
 passwordChanged-title = Sandi sukses diganti
 passwordChanged-description-2 = { -product-mozilla-account } Anda telah berhasil diubah untuk perangkat berikut ini:
 passwordChangeRequired-subject = Aktivitas mencurigakan terdeteksi
-passwordChangeRequired-title = Perubahan Kata Sandi Diperlukan
-passwordChangeRequired-suspicious-activity-2 = Kami mendeteksi aktivitas mencurigakan pada { -product-mozilla-account } Anda. Untuk mencegah akses tidak sah, kami telah memutuskan semua perangkat yang terhubung ke akun Anda dan meminta Anda mengubah kata sandi sebagai langkah pencegahan.
-passwordChangeRequired-sign-in-2 = Masuk kembali ke perangkat atau layanan apa pun yang menggunakan { -product-mozilla-account }, lalu ikuti langkah-langkah yang diberikan.
-passwordChangeRequired-different-password = <b>Penting:</b> Gunakan sandi yang berbeda dari yang Anda gunakan sebelumnya dan pastikan tidak sama dengan akun surel Anda.
-passwordChangeRequired-different-password-plaintext = Penting: Pilih sandi yang berbeda dari yang Anda gunakan sebelumnya dan pastikan sandi berbeda dari akun surel Anda.
 password-forgot-otp-subject = Lupa sandi Anda?
 password-forgot-otp-title = Lupa sandi Anda?
 password-forgot-otp-request = Kami menerima permintaan perubahan sandi pada { -product-mozilla-account } Anda dari:

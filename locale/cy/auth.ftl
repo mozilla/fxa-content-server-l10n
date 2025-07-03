@@ -251,7 +251,7 @@ subscriptionUpdatePayment = Er mwyn atal unrhyw darfu ar eich gwasanaeth, <a dat
 subscriptionUpdatePayment-plaintext = Er mwyn atal unrhyw darfu ar eich gwasanaeth, diweddarwch eich manylion talu cyn gynted â phosibl.
 # Variables:
 #  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
-support-message-2 = Am ragor o wybodaeth, ewch i Cefnogaeth: { -brand-mozilla } { $supportUrl }.
+support-message-plaintext = Am ragor o wybodaeth, ewch i Cefnogaeth: { -brand-mozilla } { $supportUrl }.
 # Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
@@ -359,11 +359,14 @@ passwordChanged-subject = Diweddarwyd y cyfrinair
 passwordChanged-title = Mae’r cyfrinair wedi ei newid yn llwyddiannus
 passwordChanged-description-2 = Cafodd eich cyfrinair cyfrif { -product-mozilla-account } ei newid yn llwyddiannus o'r ddyfais ganlynol:
 passwordChangeRequired-subject = Gweithgaredd amheus wedi’i ganfod
-passwordChangeRequired-title = Mae Angen Newid Cyfrinair
-passwordChangeRequired-suspicious-activity-2 = Rydym wedi canfod ymddygiad amheus ar eich cyfrif { -product-mozilla-account }. Er mwyn atal mynediad anawdurdodedig i'ch cyfrif { -product-mozilla-account }, rydym wedi datgysylltu pob dyfais ar eich cyfrif ac yn gofyn i chi newid eich cyfrinair rhag ofn.
-passwordChangeRequired-sign-in-2 = Mewngofnodwch yn ôl i unrhyw ddyfais neu wasanaeth lle rydych yn defnyddio'ch cyfrif { -product-mozilla-account } a dilynwch y camau sy'n cael eu cyflwyno i chi.
-passwordChangeRequired-different-password = <b>Pwysig:</b> Dewiswch gyfrinair gwahanol i’r hyn yr oeddech chi‘n ei ddefnyddio o'r blaen a gwnewch yn siŵr ei fod yn wahanol i'ch cyfrif e-bost.
-passwordChangeRequired-different-password-plaintext = Pwysig: Dewiswch gyfrinair gwahanol i’r hyn yr oeddech chi‘n ei ddefnyddio o'r blaen a gwnewch yn siŵr ei fod yn wahanol i'ch cyfrif e-bost.
+passwordChangeRequired-preview = Newidiwch eich cyfrinair ar unwaith
+passwordChangeRequired-title-2 = Ailosod eich cyfrinair
+passwordChangeRequired-suspicious-activity-3 = Rydym wedi cloi eich cyfrif i'w gadw'n ddiogel rhag gweithgarwch amheus. Rydych chi wedi cael eich allgofnodi o'ch holl ddyfeisiau ac mae unrhyw ddata sydd wedi'u cysoni wedi'u dileu fel rhagofal.
+passwordChangeRequired-sign-in-3 = I fewngofnodi yn ôl i'ch cyfrif, y cyfan sydd angen i chi ei wneud yw ailosod eich cyfrinair.
+passwordChangeRequired-different-password-2 = <b>Pwysig:</b> Dewiswch gyfrinair cryf sy'n wahanol i'r un rydych chi wedi'i ddefnyddio yn y gorffennol.
+passwordChangeRequired-different-password-plaintext-2 = Pwysig: Dewiswch gyfrinair cryf sy'n wahanol i'r un rydych chi wedi'i ddefnyddio yn y gorffennol.
+passwordChangeRequired-action = Ailosod y cyfrinair
+passwordChangeRequired-action-plaintext = { passwordChangeRequired-action }:
 password-forgot-otp-subject = Wedi anghofio eich cyfrinair?
 password-forgot-otp-title = Wedi anghofio eich cyfrinair?
 password-forgot-otp-request = Rydym wedi derbyn cais i newid cyfrinair ar eich cyfrif { -product-mozilla-account } oddi wrth:

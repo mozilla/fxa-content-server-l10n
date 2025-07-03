@@ -212,9 +212,6 @@ subscriptionUpdatePayment = Каб прадухіліць перарыванні
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Каб прадухіліць перарыванні ў рабоце вашай службы, абнавіце сваю плацежную інфармацыю як мага хутчэй:
 # Variables:
-#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
-support-message-2 = Для атрымання дадатковай інфармацыі наведайце старонку падтрымкі { -brand-mozilla }: { $supportUrl }.
-# Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 #  $uaOSVersion (String) - User's OS version, e.g. 10.11
@@ -290,10 +287,6 @@ newDeviceLogin-action = Кіраванне ўліковым запісам
 passwordChanged-subject = Пароль абноўлены
 passwordChanged-title = Пароль паспяхова зменены
 passwordChangeRequired-subject = Выяўлена падазроная актыўнасць
-passwordChangeRequired-title = Патрабуецца змена пароля
-passwordChangeRequired-sign-in-2 = Увайдзіце зноў на любой прыладзе або ў службе, дзе вы выкарыстоўваеце свой { -product-mozilla-account }, і выканайце крокі, якія будуць вам прапанаваны.
-passwordChangeRequired-different-password = <b>Важна</b>: Выберыце пароль адрозны ад выкарыстаных раней і пераканайцеся, што ён адрозніваецца ад пароля для вашага ўліковага запісу электроннай пошты.
-passwordChangeRequired-different-password-plaintext = Важна: Выберыце пароль адрозны ад выкарыстаных раней і пераканайцеся, што ён адрозніваецца ад пароля для вашага ўліковага запісу электроннай пошты.
 password-forgot-otp-subject = Забылі свой пароль?
 password-forgot-otp-title = Забылі свой пароль?
 password-forgot-otp-request = Мы атрымалі запыт на змену пароля для вашага { -product-mozilla-account } ад:

@@ -252,9 +252,6 @@ subscriptionUpdatePayment = Để ngăn chặn bất kỳ sự gián đoạn nà
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Để ngăn chặn bất kỳ sự gián đoạn nào đối với dịch vụ của bạn, vui lòng cập nhật thông tin thanh toán của bạn càng sớm càng tốt:
 # Variables:
-#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
-support-message-2 = Để biết thêm thông tin, hãy truy cập { -brand-mozilla } Support: { $supportUrl }.
-# Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 #  $uaOSVersion (String) - User's OS version, e.g. 10.11
@@ -356,11 +353,6 @@ passwordChanged-subject = Đã cập nhật mật khẩu
 passwordChanged-title = Mật khẩu đã thay đổi thành công
 passwordChanged-description-2 = Mật khẩu { -product-mozilla-account } của bạn đã được thay đổi thành công từ thiết bị sau:
 passwordChangeRequired-subject = Phát hiện hoạt động đáng ngờ
-passwordChangeRequired-title = Yêu cầu thay đổi mật khẩu
-passwordChangeRequired-suspicious-activity-2 = Chúng tôi đã phát hiện thấy hành vi đáng ngờ trên { -product-mozilla-account } của bạn. Để ngăn chặn truy cập trái phép vào { -product-mozilla-account } của bạn, chúng tôi đã ngắt kết nối tất cả các thiết bị trên tài khoản của bạn và yêu cầu bạn thay đổi mật khẩu để đề phòng.
-passwordChangeRequired-sign-in-2 = Đăng nhập lại vào bất kỳ thiết bị hoặc dịch vụ nào mà bạn sử dụng { -product-mozilla-account } và làm theo các bước sẽ được cung cấp cho bạn.
-passwordChangeRequired-different-password = <b>Quan trọng:</b> Chọn một mật khẩu khác với mật khẩu bạn đã sử dụng trước đó và đảm bảo rằng nó khác với tài khoản email của bạn.
-passwordChangeRequired-different-password-plaintext = Quan trọng: Chọn một mật khẩu khác với mật khẩu bạn đã sử dụng trước đó và đảm bảo rằng nó khác với tài khoản email của bạn.
 password-forgot-otp-subject = Bạn đã quên mật khẩu?
 password-forgot-otp-title = Bạn đã quên mật khẩu?
 password-forgot-otp-request = Chúng tôi đã nhận được yêu cầu thay đổi mật khẩu { -product-mozilla-account } của bạn từ:

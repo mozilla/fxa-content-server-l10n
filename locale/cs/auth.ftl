@@ -251,7 +251,7 @@ subscriptionUpdatePayment = Abyste zabránili jakémukoliv přerušení předpla
 subscriptionUpdatePayment-plaintext = Abyste zabránili jakémukoliv přerušení předplatného služeb, aktualizujte včas své platební údaje:
 # Variables:
 #  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
-support-message-2 = Pro více informací navštivte podporu { -brand-mozilla(case: "gen") }: { $supportUrl }.
+support-message-plaintext = Pro více informací navštivte podporu { -brand-mozilla(case: "gen") }: { $supportUrl }.
 # Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
@@ -357,11 +357,14 @@ passwordChanged-subject = Heslo změněno
 passwordChanged-title = Heslo bylo úspěšně změněno
 passwordChanged-description-2 = Heslo k vašemu { -product-mozilla-account(case: "dat", capitalization: "lower") } bylo úspěšně změněno z následujícího zařízení:
 passwordChangeRequired-subject = Zjištěna podezřelá aktivita
-passwordChangeRequired-title = Vyžadována změna hesla
-passwordChangeRequired-suspicious-activity-2 = Váš { -product-mozilla-account(capitalization: "lower") } se začal chovat podezřele. Abychom zabránili neoprávněnému přístupu k vašemu účtu, odpojili jsme od něj všechna vaše zařízení a preventivně vás žádáme o změnu hesla.
-passwordChangeRequired-sign-in-2 = Přihlaste se zpět v každém zařízením nebo službě, kde používáte { -product-mozilla-account(case: "acc", capitalization: "lower") }, a postupujte podle pokynů, které se vám zobrazí.
-passwordChangeRequired-different-password = <b>Důležité:</b> Jako nové heslo si nastavte takové, které jste dříve nepoužívali, a které je odlišené od hesla pro přihlašování do vaší e-maiové schránky.
-passwordChangeRequired-different-password-plaintext = Důležité: Jako nové heslo si nastavte takové, které jste dříve nepoužívali, a které je odlišené od hesla pro přihlašování do vaší e-maiové schránky.
+passwordChangeRequired-preview = Ihned si změňte heslo
+passwordChangeRequired-title-2 = Obnovit heslo
+passwordChangeRequired-suspicious-activity-3 = Váš účet jsme uzamkli, abychom ho ochránili před podezřelou aktivitou. Byli jste odhlášeni ze všech svých zařízení a veškerá synchronizovaná data byla v rámci opatření smazána.
+passwordChangeRequired-sign-in-3 = Pro opětovné přihlášení ke svému účtu stačí obnovit heslo.
+passwordChangeRequired-different-password-2 = <b>Důležité:</b> Zvolte silné heslo, které bude odlišné od hesla, které jste používali v minulosti.
+passwordChangeRequired-different-password-plaintext-2 = Důležité: Zvolte silné heslo, které se nebude lišit od hesla, které jste používali v minulosti.
+passwordChangeRequired-action = Obnovit heslo
+passwordChangeRequired-action-plaintext = { passwordChangeRequired-action }:
 password-forgot-otp-subject = Zapomněli jste heslo?
 password-forgot-otp-title = Zapomněli jste heslo?
 password-forgot-otp-request = Obdrželi jsme žádost o změnu hesla k vašemu { -product-mozilla-account(case: "dat", capitalization: "lowercase") } z:

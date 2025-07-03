@@ -252,9 +252,6 @@ subscriptionUpdatePayment = To prevent any interruption to your service, please 
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = To prevent any interruption to your service, please update your payment information as soon as possible:
 # Variables:
-#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
-support-message-2 = For more info, visit { -brand-mozilla } Support: { $supportUrl }.
-# Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 #  $uaOSVersion (String) - User's OS version, e.g. 10.11
@@ -357,11 +354,6 @@ passwordChanged-subject = Password updated
 passwordChanged-title = Password changed successfully
 passwordChanged-description-2 = Your { -product-mozilla-account } password was successfully changed from the following device:
 passwordChangeRequired-subject = Suspicious activity detected
-passwordChangeRequired-title = Password Change Required
-passwordChangeRequired-suspicious-activity-2 = We detected suspicious behaviour on your { -product-mozilla-account }. To prevent unauthorised access to your { -product-mozilla-account }, we’ve disconnected all devices on your account and are requiring you to change your password as a precaution.
-passwordChangeRequired-sign-in-2 = Sign back into any device or service where you use your { -product-mozilla-account } and follow the steps that will be presented to you.
-passwordChangeRequired-different-password = <b>Important:</b> Pick a different password than what you were previously using and make sure that it is different from your email account.
-passwordChangeRequired-different-password-plaintext = Important: Pick a different password than what you were previously using and make sure that it is different from your email account.
 password-forgot-otp-subject = Forgot your password?
 password-forgot-otp-title = Forgot your password?
 password-forgot-otp-request = We received a request for a password change on your { -product-mozilla-account } from:

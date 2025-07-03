@@ -251,7 +251,7 @@ subscriptionUpdatePayment = Para evitar qualquer interrupção no seu serviço, 
 subscriptionUpdatePayment-plaintext = Para evitar qualquer interrupção no seu serviço, por favor, atualize a sua informação de pagamento assim que possível:
 # Variables:
 #  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
-support-message-2 = Para mais informação, visite o Apoio da { -brand-mozilla }: { $supportUrl }.
+support-message-plaintext = Para mais informação, visite o Apoio da { -brand-mozilla }: { $supportUrl }.
 # Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
@@ -355,11 +355,14 @@ passwordChanged-subject = Palavra-passe atualizada
 passwordChanged-title = Palavra-passe alterada com sucesso
 passwordChanged-description-2 = A palavra-passe da { -product-mozilla-account } foi alterada com sucesso a partir do seguinte dispositivo:
 passwordChangeRequired-subject = Detetada atividade suspeita
-passwordChangeRequired-title = Alteração de palavra-passe necessária
-passwordChangeRequired-suspicious-activity-2 = Nós detetámos um comportamento suspeito na sua { -product-mozilla-account }. Para impedir acessos não autorizados na sua { -product-mozilla-account }, nós desassociamos todos os dispositivos da sua conta e como precaução solicitamos-lhe que altere a sua palavra-passe.
-passwordChangeRequired-sign-in-2 = Inicie novamente a sessão em qualquer dispositivo ou serviço em que utiliza a sua { -product-mozilla-account } e siga os passos que lhe serão apresentados.
-passwordChangeRequired-different-password = <b>Importante:</b> Escolha uma palavra-passe diferente da que estava a utilizar anteriormente e certifique-se que é diferente da da sua conta de e-mail.
-passwordChangeRequired-different-password-plaintext = Importante: Escolha uma palavra-passe diferente da que estava a utilizar anteriormente e certifique-se que é diferente da da sua conta de e-mail.
+passwordChangeRequired-preview = Altere a sua palavra-passe imediatamente
+passwordChangeRequired-title-2 = Repor a sua palavra-passe
+passwordChangeRequired-suspicious-activity-3 = Bloqueámos a sua conta para a manter segura de atividades suspeitas. A sua sessão foi terminada em todos os seus dispositivos e quaisquer dados sincronizados foram eliminados como precaução.
+passwordChangeRequired-sign-in-3 = Para iniciar sessão novamente na sua conta, tudo o que precisa de fazer é repor a sua palavra-passe.
+passwordChangeRequired-different-password-2 = <b>Importante:</b> Escolha uma palavra-passe forte que seja diferente das que utilizou no passado.
+passwordChangeRequired-different-password-plaintext-2 = Importante: Escolha uma palavra-passe forte que seja diferente das que utilizou no passado.
+passwordChangeRequired-action = Repor palavra-passe
+passwordChangeRequired-action-plaintext = { passwordChangeRequired-action }:
 password-forgot-otp-subject = Esqueceu-se da sua palavra-passe?
 password-forgot-otp-title = Esqueceu-se da sua palavra-passe?
 password-forgot-otp-request = Nós recebemos um pedido de alteração da palavra-passe na sua { -product-mozilla-account } de:

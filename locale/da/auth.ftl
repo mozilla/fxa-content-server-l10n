@@ -252,9 +252,6 @@ subscriptionUpdatePayment = <a data-l10n-name="updateBillingUrl">Opdater dine be
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Opdater dine betalingsinformationer så hurtigt som muligt for at undgå afbrydelse af din tjeneste:
 # Variables:
-#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
-support-message-2 = Besøg { -brand-mozilla } Support på { $supportUrl } for at få mere at vide.
-# Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 #  $uaOSVersion (String) - User's OS version, e.g. 10.11
@@ -357,11 +354,6 @@ passwordChanged-subject = Adgangskode opdateret
 passwordChanged-title = Adgangskoden blev ændret
 passwordChanged-description-2 = Adgangskoden til din { -product-mozilla-account } blev ændret fra følgende enhed:
 passwordChangeRequired-subject = Mistænkelig aktivitet konstateret
-passwordChangeRequired-title = Ændring af adgangskode påkrævet
-passwordChangeRequired-suspicious-activity-2 = Vi har konstateret mistænkelig adfærd på din { -product-mozilla-account }. For at undgå uautoriseret adgang til din { -product-mozilla-account }, har vi afbrudt forbindelsen til alle enheder på din konto og kræver af sikkerhedshensyn, at du ændrer din adgangskode.
-passwordChangeRequired-sign-in-2 = Log ind igen på en enhed eller tjeneste, hvor du bruger din { -product-mozilla-account }. Følg derefter de beskrevne trin.
-passwordChangeRequired-different-password = <b>Vigtigt:</b> Vælg en anden adgangskode end dén, du brugte tidligere - og sørg for, at den er anderledes end dén, du bruger til din mailkonto.
-passwordChangeRequired-different-password-plaintext = Vigtigt: Vælg en anden adgangskode end dén, du brugte tidligere - og sørg for, at den er anderledes end dén, du bruger til din mailkonto.
 password-forgot-otp-subject = Glemt din adgangskode?
 password-forgot-otp-title = Glemt din adgangskode?
 password-forgot-otp-request = Vi har modtaget en anmodning om at ændre adgangskoden til din { -product-mozilla-account } fra:

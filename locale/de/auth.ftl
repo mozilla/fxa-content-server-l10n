@@ -251,7 +251,7 @@ subscriptionUpdatePayment = Um eine Unterbrechung Ihres Dienstes zu vermeiden, a
 subscriptionUpdatePayment-plaintext = Um eine Unterbrechung Ihres Dienstes zu vermeiden, aktualisieren Sie bitte Ihre Zahlungsinformationen so bald wie möglich:
 # Variables:
 #  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
-support-message-2 = Weitere Informationen erhalten Sie bei der { -brand-mozilla }-Hilfe: { $supportUrl }.
+support-message-plaintext = Weitere Informationen erhalten Sie bei der { -brand-mozilla }-Hilfe: { $supportUrl }.
 # Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
@@ -355,11 +355,14 @@ passwordChanged-subject = Passwort aktualisiert
 passwordChanged-title = Passwort erfolgreich geändert
 passwordChanged-description-2 = Das Passwort Ihres { -product-mozilla-account } wurde erfolgreich von folgendem Gerät geändert:
 passwordChangeRequired-subject = Verdächtige Aktivität festgestellt
-passwordChangeRequired-title = Passwortänderung erforderlich
-passwordChangeRequired-suspicious-activity-2 = Wir haben in Ihrem { -product-mozilla-account } verdächtiges Verhalten festgestellt. Um den unbefugten Zugriff auf Ihr { -product-mozilla-account } zu verhindern, haben wir alle Geräte in Ihrem Konto getrennt und Sie müssen vorsorglich Ihr Passwort ändern.
-passwordChangeRequired-sign-in-2 = Melden Sie sich wieder bei einem Gerät oder Dienst an, auf dem Sie Ihr { -product-mozilla-account } verwenden, und befolgen Sie die Schritte, die Ihnen angezeigt werden.
-passwordChangeRequired-different-password = <b>Wichtig:</b> Wählen Sie ein anderes Passwort als das zuvor verwendete und nutzen Sie nicht das gleiche Passwort wie bei Ihrem E-Mail-Konto.
-passwordChangeRequired-different-password-plaintext = Wichtig: Wählen Sie ein anderes Passwort als das zuvor verwendete und nutzen Sie nicht das gleiche Passwort wie bei Ihrem E-Mail-Konto.
+passwordChangeRequired-preview = Ändern Sie sofort Ihr Passwort
+passwordChangeRequired-title-2 = Setzen Sie Ihr Passwort zurück
+passwordChangeRequired-suspicious-activity-3 = Wir haben Ihr Konto gesperrt, um es vor verdächtigen Aktivitäten zu schützen. Sie wurden von allen Ihren Geräten abgemeldet und alle synchronisierten Daten wurden vorsorglich gelöscht.
+passwordChangeRequired-sign-in-3 = Um sich wieder bei Ihrem Konto anzumelden, müssen Sie nur Ihr Passwort zurücksetzen.
+passwordChangeRequired-different-password-2 = <b>Wichtig:</b> Wählen Sie ein starkes Passwort, das sich von dem unterscheidet, das Sie in der Vergangenheit verwendet haben.
+passwordChangeRequired-different-password-plaintext-2 = Wichtig: Wählen Sie ein starkes Passwort, das sich von dem unterscheidet, das Sie in der Vergangenheit verwendet haben.
+passwordChangeRequired-action = Passwort zurücksetzen
+passwordChangeRequired-action-plaintext = { passwordChangeRequired-action }:
 password-forgot-otp-subject = Passwort vergessen?
 password-forgot-otp-title = Passwort vergessen?
 password-forgot-otp-request = Wir haben eine Anfrage zur Passwortänderung für Ihr { -product-mozilla-account } erhalten von:

@@ -252,9 +252,6 @@ subscriptionUpdatePayment = Pro impedir ulle interruption a tu servicio, per fav
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Pro impedir ulle interruption a tu servicio, actualisa tu informationes de pagamento le plus tosto possibile:
 # Variables:
-#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
-support-message-2 = Pro altere informationes, visita { -brand-mozilla } Supporto: { $supportUrl }.
-# Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 #  $uaOSVersion (String) - User's OS version, e.g. 10.11
@@ -357,11 +354,6 @@ passwordChanged-subject = Contrasigno actualisate
 passwordChanged-title = Contrasigno cambiate correctemente
 passwordChanged-description-2 = Tu contrasigno de { -product-mozilla-account } ha essite cambiate con successo cambiate ab le sequente apparato:
 passwordChangeRequired-subject = Activitate suspecte detegite
-passwordChangeRequired-title = Cambio de contrasigno obligatori
-passwordChangeRequired-suspicious-activity-2 = Nos ha revelate comportamento suspecte sur tu { -product-mozilla-account }. Pro impedir accesso non autorisate a tu { -product-mozilla-account }, nos ha disconnectite tote le apparatos sur tu conto e nos te demanda de cambiar tu contrasigno como precaution.
-passwordChangeRequired-sign-in-2 = Re-accede a ulle dispositivo o servicio ubi tu usa tu { -product-mozilla-account } e seque le passos que te sera presentate.
-passwordChangeRequired-different-password = <b>Importante:</b> elige un contrasigno differente de illos que tu ha previemente usate e verifica que illo es differente de tu conto email.
-passwordChangeRequired-different-password-plaintext = Importante: elige un contrasigno differente de illos que tu ha previemente usate e verifica que illo es differente de tu conto email.
 password-forgot-otp-subject = Contrasigno oblidate?
 password-forgot-otp-title = Contrasigno oblidate?
 password-forgot-otp-request = Nos recipeva un requesta pro un cambio de contrasigno sur tu { -product-mozilla-account } ab:

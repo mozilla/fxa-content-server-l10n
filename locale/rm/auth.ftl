@@ -232,9 +232,6 @@ subscriptionUpdatePayment = Per evitar l'interrupziun da tes servetsch, <a data-
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Per evitar l’interrupziun da tes servetsch, actualisescha per plaschair tias infurmaziuns da pajament il pli spert pussaivel:
 # Variables:
-#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
-support-message-2 = Per ulteriuras infurmaziuns, visita l'agid da { -brand-mozilla }: { $supportUrl }.
-# Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 #  $uaOSVersion (String) - User's OS version, e.g. 10.11
@@ -337,11 +334,6 @@ passwordChanged-subject = Actualisà il pled-clav
 passwordChanged-title = Midà cun success il pled-clav
 passwordChanged-description-2 = Il pled-clav da tes { -product-mozilla-account } è vegnì midà cun success cun agid da suandant apparat:
 passwordChangeRequired-subject = Observà ina activitad suspecta
-passwordChangeRequired-title = Midada dal pled-clav necessaria
-passwordChangeRequired-suspicious-activity-2 = Nus avain constatà in cumportament suspectus en tes { -product-mozilla-account }. Per impedir l'access nunautorisà a tes { -product-mozilla-account } avain nus deconnectà tut tes apparats da tes conto e sco mesira da precauziun stos ti midar tes pled-clav.
-passwordChangeRequired-sign-in-2 = T'annunzia danovamain sin in dals apparats tar in dals servetschs nua che ti utiliseschas tes { -product-mozilla-account } e suonda ils pass che ta vegnan proponids.
-passwordChangeRequired-different-password = <b>Impurtant:</b> Tscherna in pled-clav che sa differenziescha da quel che ti has duvrà enfin ussa e na dovra betg il pled-clav dal conto dad e-mail.
-passwordChangeRequired-different-password-plaintext = Impurtant: Tscherna in pled-clav che sa differenziescha da quel che ti has duvrà enfin ussa e na dovra betg il pled-clav dal conto dad e-mail.
 password-forgot-otp-subject = Emblidà tes pled-clav?
 password-forgot-otp-title = Emblidà tes pled-clav?
 password-forgot-otp-request = Nus avain retschavì ina dumonda da midar il pled-clav per tes { -product-mozilla-account } da:

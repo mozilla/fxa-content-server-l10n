@@ -252,9 +252,6 @@ subscriptionUpdatePayment = Par evitâ cualsisei interuzion dal servizi, <a data
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Par evitâ cualsisei interuzion dal servizi, inzorne lis informazions di paiament a pene pussibil:
 # Variables:
-#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
-support-message-2 = Par vê plui informazions, visite il supuart di { -brand-mozilla }: { $supportUrl }.
-# Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 #  $uaOSVersion (String) - User's OS version, e.g. 10.11
@@ -357,11 +354,6 @@ passwordChanged-subject = Password inzornade
 passwordChanged-title = Password modificade cun sucès
 passwordChanged-description-2 = La password dal { -product-mozilla-account } e je stade modificade cun sucès di chest dispositîf:
 passwordChangeRequired-subject = Rilevade ativitât suspiete
-passwordChangeRequired-title = Cambi di password necessari
-passwordChangeRequired-suspicious-activity-2 = O vin rilevât un compuartament suspiet sul to { -product-mozilla-account }. Par impedî acès no autorizâts, ducj i dispositîfs a son stâts disconetûts dal to { -product-mozilla-account } e, par motîfs precauzionâi, al è obligatori cambiâ la password.
-passwordChangeRequired-sign-in-2 = Torne jentre in cualsisei dispositîf o servizi là che tu dopris il to { -product-mozilla-account } e va daûr dai passaçs che ti vegnin mostrâts.
-passwordChangeRequired-different-password = <b>Impuartant:</b> sielç une password divierse di chê che tu dopravis prime e controle che no sedi compagne ae tô direzion di pueste.
-passwordChangeRequired-different-password-plaintext = Impuartant: sielç une password divierse di chê che tu dopravis prime e controle che no sedi compagne ae tô direzion di pueste.
 password-forgot-otp-subject = Password dismenteade?
 password-forgot-otp-title = Password dismenteade?
 password-forgot-otp-request = O vin ricevût une richieste di modifiche de tô password pal to { -product-mozilla-account } di:

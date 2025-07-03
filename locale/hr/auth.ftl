@@ -250,9 +250,6 @@ subscriptionUpdatePayment = Za sprečavanje prekida korištenja usluge <a data-l
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Za sprečavanje prekida korištenja usluge, aktualiziraj podatke naplate što je prije:
 # Variables:
-#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
-support-message-2 = Za više informacija posjeti stranicu { -brand-mozilla } podrške: { $supportUrl }
-# Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 #  $uaOSVersion (String) - User's OS version, e.g. 10.11
@@ -356,11 +353,6 @@ passwordChanged-subject = Lozinka aktualizirana
 passwordChanged-title = Lozinka je uspješno promijenjena
 passwordChanged-description-2 = Tvoja { -product-mozilla-account } lozinka je uspješno promijenjena sa sljedećeg uređaja:
 passwordChangeRequired-subject = Otkrivena je sumnjiva aktivnost
-passwordChangeRequired-title = Potrebna promjena lozinke
-passwordChangeRequired-suspicious-activity-2 = Otkrili smo sumnjivo ponašanje na tvom { -product-mozilla-account }. Da bismo spriječili neovlašteni pristup tvom { -product-mozilla-account }, prekinuli smo vezu sa svim uređajima na tvom računu i iz predostrožnosti zahtijevamo da promijeniš lozinku.
-passwordChangeRequired-sign-in-2 = Ponovo se prijavi na bilo koji uređaj ili uslugu gdje koristiš tvoj { -product-mozilla-account } i slijedi prikazane korake.
-passwordChangeRequired-different-password = <b>Važno:</b> odaberi lozinku koja je drugačija od prethodno korištenih i pobrini se da se razlikuje od one za tvoj račun e-pošte.
-passwordChangeRequired-different-password-plaintext = Važno: odaberi lozinku koja je drugačija od prethodno korištenih i pobrini se da se razlikuje od one za tvoj račun e-pošte.
 password-forgot-otp-subject = Zaboravio/la si lozinku?
 password-forgot-otp-title = Zaboravio/la si lozinku?
 password-forgot-otp-request = Primili smo zahtjev za promjenu lozinke na tvom { -product-mozilla-account } od:

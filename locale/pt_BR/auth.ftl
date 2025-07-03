@@ -252,9 +252,6 @@ subscriptionUpdatePayment = Para evitar qualquer interrupção em seu serviço, 
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Para evitar qualquer interrupção no serviço, atualize suas informações de pagamento assim que possível:
 # Variables:
-#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
-support-message-2 = Para mais informações, visite o Suporte { -brand-mozilla }: { $supportUrl }.
-# Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 #  $uaOSVersion (String) - User's OS version, e.g. 10.11
@@ -357,11 +354,6 @@ passwordChanged-subject = Senha atualizada
 passwordChanged-title = Senha alterada com sucesso
 passwordChanged-description-2 = A senha da sua { -product-mozilla-account } foi alterada com sucesso a partir do seguinte dispositivo:
 passwordChangeRequired-subject = Detectada atividade suspeita
-passwordChangeRequired-title = Necessário mudar a senha
-passwordChangeRequired-suspicious-activity-2 = Detectamos comportamento suspeito em sua { -product-mozilla-account }. Para evitar acesso não autorizado à sua { -product-mozilla-account }, por precaução desconectamos todos os dispositivos da sua conta e solicitamos que mude sua senha.
-passwordChangeRequired-sign-in-2 = Entre na sua conta novamente em qualquer dispositivo ou serviço em que use sua { -product-mozilla-account } e siga as instruções.
-passwordChangeRequired-different-password = <b>Importante:</b> Escolha uma senha diferente da que você estava usando anteriormente e certifique-se de ser diferente da senha da sua conta de email.
-passwordChangeRequired-different-password-plaintext = Importante: Escolha uma senha diferente da que você estava usando anteriormente e certifique-se de ser diferente da senha da sua conta de email.
 password-forgot-otp-subject = Esqueceu sua senha?
 password-forgot-otp-title = Esqueceu sua senha?
 password-forgot-otp-request = Recebemos uma solicitação de alteração de senha da sua { -product-mozilla-account } vinda de:

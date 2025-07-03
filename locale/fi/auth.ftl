@@ -232,9 +232,6 @@ subscriptionUpdatePayment = Estääksesi palvelun käytön häiriintymisen, <a d
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Päivitä maksutietosi mahdollisimman pian, jotta palvelusi ei keskeydy:
 # Variables:
-#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
-support-message-2 = Lisätietoja saat { -brand-mozilla }-tuesta: { $supportUrl }.
-# Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 #  $uaOSVersion (String) - User's OS version, e.g. 10.11
@@ -334,11 +331,6 @@ passwordChanged-subject = Salasana päivitetty
 passwordChanged-title = Salasanan vaihtaminen onnistui
 passwordChanged-description-2 = { -product-mozilla-account }si salasanasi vaihdettiin onnistuneesti seuraavalta laitteelta:
 passwordChangeRequired-subject = Epäilyttävää toimintaa havaittu
-passwordChangeRequired-title = Salasanan vaihto vaaditaan
-passwordChangeRequired-suspicious-activity-2 = Havaitsimme epäilyttävää toimintaa { -product-mozilla-account }lläsi. Estääksemme { -product-mozilla-account }si luvattoman käytön, olemme katkaisseet yhteyden kaikkiin laitteisiisi tilisi osalta. Vaadimme sinua vaihtamaan salasanan varotoimenpiteenä.
-passwordChangeRequired-sign-in-2 = Kirjaudu uudelleen sisään millä tahansa laitteella tai mihin tahansa palveluun, jossa käytät { -product-mozilla-account }äsi ja seuraa näkyviin ilmestyviä ohjeita.
-passwordChangeRequired-different-password = <b>Tärkeää:</b> Valitse eri salasana kuin mitä olet aiemmin käyttänyt ja varmistu, ettet käytä samaa salasanaa missään muualla.
-passwordChangeRequired-different-password-plaintext = Tärkeää: Valitse eri salasana kuin mitä olet aiemmin käyttänyt ja varmistu, ettet käytä samaa salasanaa missään muualla.
 password-forgot-otp-subject = Unohditko salasanan?
 password-forgot-otp-title = Unohditko salasanasi?
 password-forgot-otp-request = Saimme { -product-mozilla-account }n salasanan vaihtopyynnön lähteestä:

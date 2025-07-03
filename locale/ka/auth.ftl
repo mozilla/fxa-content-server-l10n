@@ -252,9 +252,6 @@ subscriptionUpdatePayment = მომსახურების უწყვე
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = მომსახურების უწყვეტობის უზრუნველსაყოფად, გთხოვთ განაახლოთ გადახდის მონაცემები, რაც შეიძლება მალე:
 # Variables:
-#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
-support-message-2 = დამატებით იხილეთ { -brand-mozilla }-ს მხარდაჭერის გვერდი: { $supportUrl }.
-# Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 #  $uaOSVersion (String) - User's OS version, e.g. 10.11
@@ -357,11 +354,6 @@ passwordChanged-subject = პაროლი განახლდა
 passwordChanged-title = პაროლი წარმატებით შეიცვალა
 passwordChanged-description-2 = თქვენი { -product-mozilla-account(case: "gen") } პაროლი წარმატებით შეიცვალა ამ მოწყობილობიდან:
 passwordChangeRequired-subject = აღმოჩენილია საეჭვო მოქმედება
-passwordChangeRequired-title = პაროლის შეცვლა აუცილებელია
-passwordChangeRequired-suspicious-activity-2 = თქვენს { -product-mozilla-account(case: "add") } დაკავშირებით საეჭვო მოქმედება შევნიშნეთ. ამ { -product-mozilla-account(case: "ins") } უნებართვო სარგებლობის აღსაკვეთად, ყველა მოწყობილობა გამოერთებულია და საჭიროა ახალი პაროლის შექმნა უსაფრთხოების ზომების მისაღებად.
-passwordChangeRequired-sign-in-2 = შედით ყველა იმ მოწყობილობასა თუ მომსახურებაზე, სადაც იყენებთ { -product-mozilla-account(case: "dat") } და მიჰყევით მოცემულ ნაბიჯებს.
-passwordChangeRequired-different-password = <b>მნიშვნელოვანია:</b> შეარჩიეთ ადრინდელისგან განსხვავებული პაროლი და დარწმუნდით, რომ არ ემთხვევა ელფოსტის ანგარიშს.
-passwordChangeRequired-different-password-plaintext = მნიშვნელოვანია: შეარჩიეთ ადრინდელისგან განსხვავებული პაროლი და დარწმუნდით, რომ არ ემთხვევა ელფოსტის ანგარიშს.
 password-forgot-otp-subject = დაგავიწყდათ პაროლი?
 password-forgot-otp-title = დაგავიწყდათ პაროლი?
 password-forgot-otp-request = პაროლის შეცვლის მოთხოვნა მივიღეთ თქვენს { -product-mozilla-account(case: "loc") } აქედან:

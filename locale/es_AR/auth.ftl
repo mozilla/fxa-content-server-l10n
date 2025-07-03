@@ -251,7 +251,7 @@ subscriptionUpdatePayment = Para evitar cualquier interrupción de tu servicio,<
 subscriptionUpdatePayment-plaintext = Para evitar cualquier interrupción en tu servicio, actualizá tu información de pago lo antes posible:
 # Variables:
 #  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
-support-message-2 = Para más información visitá Soporte de { -brand-mozilla }: { $supportUrl }.
+support-message-plaintext = Para más información visitá Soporte de { -brand-mozilla }: { $supportUrl }.
 # Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
@@ -355,11 +355,14 @@ passwordChanged-subject = Contraseña actualizada
 passwordChanged-title = Contraseña cambiada exitosamente
 passwordChanged-description-2 = Tu contraseña de { -product-mozilla-account } se cambió correctamente desde el siguiente dispositivo:
 passwordChangeRequired-subject = Actividad sospechosa detectada
-passwordChangeRequired-title = Se requiere cambio de contraseña
-passwordChangeRequired-suspicious-activity-2 = Detectamos un comportamiento sospechoso en tu { -product-mozilla-account }. Para evitar el acceso no autorizado a tu { -product-mozilla-account }, desconectamos todos los dispositivos en tu cuenta y te pedimos que cambiés tu contraseña como precaución.
-passwordChangeRequired-sign-in-2 = Volvé a iniciar sesión en cualquier dispositivo o servicio donde usés tu { -product-mozilla-account } y seguí los pasos que se te mostrarán.
-passwordChangeRequired-different-password = <b>Importante:</b> Elegí una contraseña diferente a la que estabas usando anteriormente y asegurate que sea diferente a la de tu cuenta de correo electrónico.
-passwordChangeRequired-different-password-plaintext = Importante: Elegí una contraseña diferente a la que estabas usando anteriormente y asegurate que sea diferente a la de tu cuenta de correo electrónico.
+passwordChangeRequired-preview = Cambiá tu contraseña inmediatamente
+passwordChangeRequired-title-2 = Restablecé tu contraseña
+passwordChangeRequired-suspicious-activity-3 = Bloqueamos tu cuenta para mantenerla a salvo de actividad sospechosa. Se cerró la sesión en todos sus dispositivos y todos los datos sincronizados se eliminaron como precaución.
+passwordChangeRequired-sign-in-3 = Para volver a iniciar sesión en tu cuenta, todo lo que tenés que hacer es restablecer tu contraseña.
+passwordChangeRequired-different-password-2 = <b>Importante:</b> Elegí una contraseña segura que sea diferente a la que usaste en el pasado.
+passwordChangeRequired-different-password-plaintext-2 = Importante: Elegí una contraseña segura que sea diferente a la que usaste en el pasado.
+passwordChangeRequired-action = Restablecer contraseña
+passwordChangeRequired-action-plaintext = { passwordChangeRequired-action }:
 password-forgot-otp-subject = ¿Te olvidaste la contraseña?
 password-forgot-otp-title = ¿Te olvidaste la contraseña?
 password-forgot-otp-request = Recibimos una solicitud de cambio de contraseña en tu { -product-mozilla-account } de:

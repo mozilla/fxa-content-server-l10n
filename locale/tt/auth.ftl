@@ -204,9 +204,6 @@ subscriptionUpdatePayment = Хезмәтегезнең өзелүен булды
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Хезмәтегезнең өзелүен булдырмас өчен, зинһар, тиз арада түләү турындагы мәгълүматыгызны яңартыгыз:
 # Variables:
-#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
-support-message-2 = Күбрәк мәгълүмат өчен { -brand-mozilla } Ярдәм битен зыярат итегез: { $supportUrl }.
-# Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 #  $uaOSVersion (String) - User's OS version, e.g. 10.11
@@ -256,7 +253,6 @@ newDeviceLogin-action = Хисап белән идарә итү
 passwordChanged-subject = Серсүз яңартылды
 passwordChanged-title = Парол уңышлы үзгәртелде
 passwordChangeRequired-subject = Шөбһәле гамәлләр ачыкланды
-passwordChangeRequired-title = Серсүзне үзгәртү кирәк
 password-forgot-otp-subject = Серсүзегезне оныттыгызмы?
 password-forgot-otp-title = Серсүзегезне оныттыгызмы?
 password-forgot-otp-expiry-notice = Бу кодның яраклылык вакыты 10 минут.

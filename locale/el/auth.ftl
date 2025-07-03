@@ -252,9 +252,6 @@ subscriptionUpdatePayment = Για την αποφυγή τυχόν διακοπ
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Για την αποφυγή τυχόν διακοπών στην υπηρεσία σας, ενημερώστε τα στοιχεία πληρωμής σας το συντομότερο δυνατό:
 # Variables:
-#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
-support-message-2 = Για περισσότερες πληροφορίες, επισκεφτείτε την Υποστήριξη { -brand-mozilla }: { $supportUrl }.
-# Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 #  $uaOSVersion (String) - User's OS version, e.g. 10.11
@@ -359,11 +356,6 @@ passwordChanged-subject = Ο κωδικός πρόσβασης ενημερώθ�
 passwordChanged-title = Επιτυχής αλλαγή κωδικού πρόσβασης
 passwordChanged-description-2 = Ο κωδικός πρόσβασης του { -product-mozilla-account(case: "gen", capitalization: "lower") } σας άλλαξε επιτυχώς από την ακόλουθη συσκευή:
 passwordChangeRequired-subject = Εντοπίστηκε ύποπτη δραστηριότητα
-passwordChangeRequired-title = Απαιτείται αλλαγή κωδικού πρόσβασης
-passwordChangeRequired-suspicious-activity-2 = Εντοπίσαμε ύποπτη συμπεριφορά στον { -product-mozilla-account(case: "acc", capitalization: "lower") } σας. Για να αποτρέψουμε τη μη εξουσιοδοτημένη πρόσβαση στον { -product-mozilla-account(case: "acc", capitalization: "lower") } σας, αποσυνδέσαμε όλες τις συσκευές του λογαριασμού σας και σας ζητούμε να αλλάξετε τον κωδικό πρόσβασής σας για προληπτικούς λόγους.
-passwordChangeRequired-sign-in-2 = Συνδεθείτε ξανά σε οποιαδήποτε συσκευή ή υπηρεσία, όπου χρησιμοποιείτε τον { -product-mozilla-account(case: "acc", capitalization: "lower") } σας και ακολουθήστε τα βήματα που θα σας παρουσιαστούν.
-passwordChangeRequired-different-password = <b>Σημαντικό:</b> Επιλέξτε έναν μοναδικό κωδικό πρόσβασης και βεβαιωθείτε ότι είναι διαφορετικός από αυτόν του λογαριασμού email σας.
-passwordChangeRequired-different-password-plaintext = Σημαντικό: Επιλέξτε έναν μοναδικό κωδικό πρόσβασης και βεβαιωθείτε ότι είναι διαφορετικός από αυτόν του λογαριασμού email σας.
 password-forgot-otp-subject = Ξεχάσατε τον κωδικό πρόσβασής σας;
 password-forgot-otp-title = Ξεχάσατε τον κωδικό πρόσβασής σας;
 password-forgot-otp-request = Λάβαμε ένα αίτημα αλλαγής κωδικού πρόσβασης για τον { -product-mozilla-account(case: "acc", capitalization: "lower") } σας από:

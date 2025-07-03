@@ -251,7 +251,7 @@ subscriptionUpdatePayment = Da preprečite kakršnokoli prekinitev storitve, či
 subscriptionUpdatePayment-plaintext = Da preprečite kakršnokoli prekinitev storitve, čim prej posodobite svoje podatke za plačilo:
 # Variables:
 #  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
-support-message-2 = Za več informacij obiščite Podporo { -brand-mozilla }: { $supportUrl }.
+support-message-plaintext = Za več informacij obiščite Podporo { -brand-mozilla }: { $supportUrl }.
 # Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
@@ -357,11 +357,14 @@ passwordChanged-subject = Geslo posodobljeno
 passwordChanged-title = Geslo uspešno spremenjeno
 passwordChanged-description-2 = Geslo vašega { -product-mozilla-account(sklon: "rodilnik") } je bilo uspešno spremenjeno iz naslednje naprave:
 passwordChangeRequired-subject = Odkrita sumljiva aktivnost
-passwordChangeRequired-title = Zahtevana je sprememba gesla
-passwordChangeRequired-suspicious-activity-2 = V vašem { -product-mozilla-account(sklon: "mestnik") } smo zaznali sumljivo dejavnost. Da bi preprečili nepooblaščen dostop do vašega računa, smo iz njega odklopili vse naprave in iz previdnosti zahtevamo, da spremenite geslo.
-passwordChangeRequired-sign-in-2 = Znova se prijavite v katerokoli napravo ali storitev, kjer uporabljate { -product-mozilla-account }, in sledite korakom, ki vam bodo predstavljeni.
-passwordChangeRequired-different-password = <b>Pomembno:</b> Izberite drugačno geslo od tistega, ki ste ga uporabljali prej, in od gesla vašega e-poštnega računa.
-passwordChangeRequired-different-password-plaintext = Pomembno: Izberite drugačno geslo od tistega, ki ste ga uporabljali prej, in od gesla vašega e-poštnega računa.
+passwordChangeRequired-preview = Takoj spremenite geslo
+passwordChangeRequired-title-2 = Ponastavite geslo
+passwordChangeRequired-suspicious-activity-3 = Vaš račun smo zaklenili, da bi bil zaščiten pred sumljivo dejavnostjo. Odjavljeni ste bili iz vseh naprav in vsi sinhronizirani podatki so bili previdnostno izbrisani.
+passwordChangeRequired-sign-in-3 = Če se želite znova prijaviti v svoj račun, morate samo ponastaviti geslo.
+passwordChangeRequired-different-password-2 = <b>Pomembno:</b> Izberite močno geslo, ki se razlikuje od tistega, ki ste ga uporabljali v preteklosti.
+passwordChangeRequired-different-password-plaintext-2 = Pomembno: izberite močno geslo, ki je drugačno od tistega, ki ste ga uporabljali v preteklosti.
+passwordChangeRequired-action = Ponastavi geslo
+passwordChangeRequired-action-plaintext = { passwordChangeRequired-action }:
 password-forgot-otp-subject = Ste pozabili geslo?
 password-forgot-otp-title = Ste pozabili geslo?
 password-forgot-otp-request = Prejeli smo zahtevo za spremembo gesla vašega { -product-mozilla-account(sklon: "rodilnik") } z:

@@ -249,7 +249,7 @@ subscriptionUpdatePayment = כדי למנוע הפרעה כלשהי לשירות
 subscriptionUpdatePayment-plaintext = כדי למנוע הפרעה כלשהי לשירות שלך, נא לעדכן את פרטי התשלום שלך בהקדם האפשרי:
 # Variables:
 #  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
-support-message-2 = למידע נוסף, ניתן לבקר בתמיכה של { -brand-mozilla }: ‏{ $supportUrl }
+support-message-plaintext = למידע נוסף, ניתן לבקר בתמיכה של { -brand-mozilla }: ‏{ $supportUrl }
 # Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
@@ -340,11 +340,14 @@ passwordChanged-subject = הססמה עודכנה
 passwordChanged-title = הססמה שונתה בהצלחה
 passwordChanged-description-2 = ססמת { -product-mozilla-account(case: "the") } שלך שונתה בהצלחה מהמכשיר הבא:
 passwordChangeRequired-subject = זוהתה פעילות חשודה
-passwordChangeRequired-title = נדרש שינוי לססמה
-passwordChangeRequired-suspicious-activity-2 = איתרנו התנהגות חשודה ב{ -product-mozilla-account(case: "the") } שלך. כדי למנוע גישה בלתי מורשית ל{ -product-mozilla-account(case: "the") } שלך, ניתקנו את כל המכשירים בחשבון שלך ואנו דורשים ממך לשנות את הססמה שלך כאמצעי זהירות.
-passwordChangeRequired-sign-in-2 = יש להתחבר שוב לכל מכשיר או שירות שבו { -product-mozilla-account(case: "the") } שלך משמש אותך ולעקוב אחר ההוראות שיוצגו בפניך.
-passwordChangeRequired-different-password = <b>חשוב:</b> יש לבחור בססמה שונה ממה שהשתמשת קודם לכן, ויש לוודא שהיא שונה מחשבון הדוא״ל שלך.
-passwordChangeRequired-different-password-plaintext = חשוב: יש לבחור בססמה שונה ממה שהשתמשת קודם לכן, ויש לוודא שהיא שונה מחשבון הדוא״ל שלך.
+passwordChangeRequired-preview = יש לשנות את הססמה שלך באופן מיידי
+passwordChangeRequired-title-2 = איפוס הססמה שלך
+passwordChangeRequired-suspicious-activity-3 = נעלנו את החשבון שלך כדי להגן עליו מפני פעילות חשודה. נותקת מכל המכשירים שלך וכל הנתונים המסונכרנים נמחקו כאמצעי זהירות.
+passwordChangeRequired-sign-in-3 = כדי להתחבר שוב לחשבון שלך, עליך רק לאפס את הססמה שלך.
+passwordChangeRequired-different-password-2 = <b>חשוב:</b> יש לבחור בססמה חזקה ושונה מזו שהשתמשת בה בעבר.
+passwordChangeRequired-different-password-plaintext-2 = חשוב: יש לבחור בססמה חזקה ושונה מזו שהשתמשת בה בעבר.
+passwordChangeRequired-action = איפוס ססמה
+passwordChangeRequired-action-plaintext = { passwordChangeRequired-action }:
 password-forgot-otp-subject = שכחת את הססמה שלך?
 password-forgot-otp-title = שכחת את הססמה שלך?
 password-forgot-otp-request = קיבלנו בקשה לשינוי ססמה ב{ -product-mozilla-account(case: "the") } שלך מ:

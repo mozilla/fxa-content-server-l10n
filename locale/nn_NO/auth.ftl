@@ -253,9 +253,6 @@ subscriptionUpdatePayment = <a data-l10n-name="updateBillingUrl">Oppdater betali
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Oppdater betalingsinformasjonen din snarast råd for å unngå avbrot i tenesta di:
 # Variables:
-#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
-support-message-2 = For meir informasjon, gå til { -brand-mozilla } brukarstøtte: { $supportUrl }.
-# Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 #  $uaOSVersion (String) - User's OS version, e.g. 10.11
@@ -358,11 +355,6 @@ passwordChanged-subject = Passord oppdatert
 passwordChanged-title = Passordet er endra
 passwordChanged-description-2 = Passordet til { -product-mozilla-account }-en din vart endra frå følgjande eining:
 passwordChangeRequired-subject = Mistenkt aktivitet oppdaga
-passwordChangeRequired-title = Passordendring påkravd
-passwordChangeRequired-suspicious-activity-2 = Vi oppdaga mistenkeleg oppførsel på { -product-mozilla-account }-en din. For å hindre uautorisert tilgang til { -product-mozilla-account }-en din, har vi kopla frå alle einingane på kontoen og krev at du endrar passordet ditt som eit førebyggjande tiltak.
-passwordChangeRequired-sign-in-2 = Logg deg tilbake på kva som helst eining eller teneste der du brukar { -product-mozilla-account }-en din, og følg stega som vil bli presenterte for deg.
-passwordChangeRequired-different-password = <b>Viktig:</b> Vel eit anna passord enn det du tidlegare brukte, og sørg for at det er eit anna enn det du brukar på e-postkontoen din.
-passwordChangeRequired-different-password-plaintext = Viktig: Vel eit anna passord enn det du tidlegare brukte, og sørg for at det er eit anna enn det du brukar på e-postkontoen din.
 password-forgot-otp-subject = Gløymt passordet ditt?
 password-forgot-otp-title = Gløymt passordet ditt?
 password-forgot-otp-request = Vi fekk ein førespurnad om passordendring på { -product-mozilla-account }en din frå:

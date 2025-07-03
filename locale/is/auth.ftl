@@ -244,9 +244,6 @@ subscriptionUpdatePayment = Til að koma í veg fyrir truflanir á þjónustunni
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Til að koma í veg fyrir truflanir á þjónustunni þinni skaltu uppfæra greiðsluupplýsingarnar þínar eins fljótt og auðið er:
 # Variables:
-#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
-support-message-2 = Til að sjá frekari upplýsingar, skaltu fara á { -brand-mozilla }aðstoðargáttina{ $supportUrl }.
-# Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 #  $uaOSVersion (String) - User's OS version, e.g. 10.11
@@ -349,11 +346,6 @@ passwordChanged-subject = Lykilorð uppfært
 passwordChanged-title = Tókst að breyta lykilorði
 passwordChanged-description-2 = Lykilorðinu fyrir { -product-mozilla-account } þinn var breytt af eftirfarandi tæki:
 passwordChangeRequired-subject = Vart við grunsamlega virkni
-passwordChangeRequired-title = Nauðsynlegt að skipta um lykilorð
-passwordChangeRequired-suspicious-activity-2 = Við fundum grunsamlega virkni á { -product-mozilla-account } þínum. Til að koma í veg fyrir óheimilan aðgang að { -product-mozilla-account } þínum höfum við aftengt öll tæki á reikningnum þínum og krefjumst þess að þú breytir lykilorðinu þínu í varúðarskyni.
-passwordChangeRequired-sign-in-2 = Skráðu þig aftur inn á hvaða tæki eða þjónustu sem er þar sem þú notar { -product-mozilla-account } og fylgdu skrefunum sem verða kynnt fyrir þér.
-passwordChangeRequired-different-password = <b>Mikilvægt:</b> Veldu annað lykilorð en það sem þú notaðir áður og vertu viss um að það sé annað en á tölvupóstreikningnum þínum.
-passwordChangeRequired-different-password-plaintext = Mikilvægt: Veldu annað lykilorð en það sem þú notaðir áður og vertu viss um að það sé annað en á tölvupóstreikningnum þínum.
 password-forgot-otp-subject = Gleymdirðu lykilorðinu þínu?
 password-forgot-otp-title = Gleymdirðu lykilorðinu þínu?
 password-forgot-otp-request = Við fengum beiðni um breytingu á lykilorði á { -product-mozilla-account }-reikningnum þínum frá:

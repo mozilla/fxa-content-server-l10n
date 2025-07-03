@@ -229,9 +229,6 @@ subscriptionUpdatePayment = Akken ur tḥebbes ara tenfiwt-ik, ttxil-k·m <a dat
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Akken ur tḥebbes ara tenfiwt-ik, ttxil leqqem talɣut n lexlaṣ-ik s lɛejlan:
 # Variables:
-#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
-support-message-2 = I wugar n telɣut, ddu ɣer tallalt n { -brand-mozilla }: { $supportUrl }.
-# Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 #  $uaOSVersion (String) - User's OS version, e.g. 10.11
@@ -300,11 +297,6 @@ passwordChanged-subject = Awal uffir yettuleqqem
 passwordChanged-title = Awal uffir yettusnifel akken iwata
 passwordChanged-description-2 = Awal-ik·im uffir n { -product-mozilla-account } yettwabeddel akken iwata seg yibenk-a:
 passwordChangeRequired-subject = Armud anida yella ccek yettwaf
-passwordChangeRequired-title = Yettusra ubeddel n wawal uffir
-passwordChangeRequired-suspicious-activity-2 = Nufa-d tikli ur aɣ-neεǧib ara deg umiḍan-ik·im n { -product-mozilla-account }. Akken ad tesweḥleḍ anekcum ur nettwasireg ara ɣer umiḍan-ik·im n { -product-mozilla-account }, nsens ibenkan akk n umiḍan-ik·im. Ad ak·am-nsuter ad tesnifleḍ awal-ik·im uffir i uḍman n tɣellist.
-passwordChangeRequired-sign-in-2 = Ɛawed qqen ɣer yibenk neɣ ɣer umeẓlu seg wanida i tesseqdaceḍ { -product-mozilla-account } syen ḍfer imecwaṛen ara ak·am-d-yettunefken.
-passwordChangeRequired-different-password = <b>Axatar:</b> Fren awal uffir yemgaraden ɣef win i telliḍ tseqdaceḍ yakan, tḍemneḍ belli yemgarad ɣef umiḍan-ik/im n tirawt.
-passwordChangeRequired-different-password-plaintext = Axatar: Fren awal uffir yemgaraden ɣef win i telliḍ tseqdaceḍ yakan, tḍemneḍ belli yemgarad ɣef umiḍan-ik/im n tirawt.
 password-forgot-otp-subject = Tettuḍ awal-ik n uεeddi?
 password-forgot-otp-title = Tettuḍ awal-ik n uεeddi?
 password-forgot-otp-request = Neṭṭef-d assuter n ubeddel n wawal uffir ɣqef { -product-mozilla-account }-inek·inem seg:

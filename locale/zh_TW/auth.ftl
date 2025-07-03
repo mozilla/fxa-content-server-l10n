@@ -251,7 +251,7 @@ subscriptionUpdatePayment = 為了避免服務中斷，請及早<a data-l10n-nam
 subscriptionUpdatePayment-plaintext = 為了避免服務中斷，請及早更新付款資訊：
 # Variables:
 #  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
-support-message-2 = 若需更多資訊，請造訪 { -brand-mozilla } 技術支援站：{ $supportUrl }。
+support-message-plaintext = 若需更多資訊，請造訪 { -brand-mozilla } 技術支援站：{ $supportUrl }。
 # Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
@@ -354,11 +354,8 @@ passwordChanged-subject = 密碼已更新
 passwordChanged-title = 已成功修改密碼
 passwordChanged-description-2 = 已從下列裝置成功更改您 { -product-mozilla-account }的密碼：
 passwordChangeRequired-subject = 偵測到可疑行為
-passwordChangeRequired-title = 需要更改密碼
-passwordChangeRequired-suspicious-activity-2 = 我們偵測到您的 { -product-mozilla-account }有可疑行為。為了防止您的 { -product-mozilla-account }未經授權被使用，我們已解除您的帳號下所有裝置的連結，並請您更改密碼。
-passwordChangeRequired-sign-in-2 = 請到您會使用 { -product-mozilla-account }的裝置重新登入，並依照顯示的步驟操作。
-passwordChangeRequired-different-password = <b>重要：</b>請改用您從來沒有使用過的密碼，且該密碼不要與電子郵件帳號的密碼相同。
-passwordChangeRequired-different-password-plaintext = 重要：請改用您從來沒有使用過的密碼，且該密碼不要與電子郵件帳號的密碼相同。
+passwordChangeRequired-preview = 立即更改密碼
+passwordChangeRequired-title-2 = 重設您的密碼
 password-forgot-otp-subject = 忘記密碼了嗎？
 password-forgot-otp-title = 忘記密碼了嗎？
 password-forgot-otp-request = 我們收到要更改您 { -product-mozilla-account }密碼的請求：

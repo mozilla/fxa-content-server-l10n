@@ -163,7 +163,6 @@ newDeviceLogin-action = അക്കൗണ്ട് കൈകാര്യം ച
 passwordChanged-subject = ഒളിവാക്കു് പുതുച്ചു
 passwordChanged-title = ഒളിവാക്ക് വിജയകരമായി മാറ്റി
 passwordChangeRequired-subject = സംശയകരമായ പ്രവൎത്തനം കണ്ടെത്തി
-passwordChangeRequired-title = ഒളിവാക്കു് മാറ്റണ്ടിവരും
 password-forgot-otp-subject = ഒളിവാക്കു് മറന്നോ?
 password-forgot-otp-title = ഒളിവാക്കു് മറന്നോ?
 password-forgot-otp-expiry-notice = ഈ സങ്കേതം പത്തു മിനിറ്റിൽ തീരും.

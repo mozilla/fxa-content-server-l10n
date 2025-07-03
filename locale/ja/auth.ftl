@@ -232,9 +232,6 @@ subscriptionUpdatePayment = サービスの中断を防ぐため、できるだ�
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = サービスの中断を防ぐため、できるだけ早くお支払い情報を更新してください:
 # Variables:
-#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
-support-message-2 = 詳しい情報は { -brand-mozilla } サポートをご覧ください: { $supportUrl }
-# Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 #  $uaOSVersion (String) - User's OS version, e.g. 10.11
@@ -336,11 +333,6 @@ passwordChanged-subject = パスワードを更新しました
 passwordChanged-title = パスワード変更完了
 passwordChanged-description-2 = あなたの { -product-mozilla-account }のパスワードが次の端末から変更されました:
 passwordChangeRequired-subject = 疑わしいアクティビティが検出されました
-passwordChangeRequired-title = パスワードの変更が必要です
-passwordChangeRequired-suspicious-activity-2 = { -product-mozilla-account }で疑わしい動作が検出されました。 { -product-mozilla-account }への不正アクセスを防ぐため、アカウント上のすべての端末を切断しました。予防措置として、パスワードの変更を求めています。
-passwordChangeRequired-sign-in-2 = { -product-mozilla-account }を使用している端末またはサービスに再度ログインし、表示される手順に従ってください。
-passwordChangeRequired-different-password = <b>重要:</b> 以前に使用していたものとは別のパスワードを設定し、それがメールアカウントとは異なることを確認してください。
-passwordChangeRequired-different-password-plaintext = 重要: 以前に使用していたものとは別のパスワードを設定し、それがメールアカウントとは異なることを確認してください。
 password-forgot-otp-subject = パスワードをお忘れですか？
 password-forgot-otp-title = パスワードをお忘れですか？
 password-forgot-otp-request = 次の端末で { -product-mozilla-account }のパスワード変更がリクエストされました:

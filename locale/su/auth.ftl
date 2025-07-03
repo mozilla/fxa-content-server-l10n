@@ -204,9 +204,6 @@ subscriptionUpdatePayment = Pikeun nyingkahan gangguan kana layanan anjeun, mang
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Ngarah layanan anjeun teu kapegat, mutahirkeun info pembayaran anjeun saénggalna:
 # Variables:
-#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
-support-message-2 = Pikeun leuwih teleb, buka Pangrojong { -brand-mozilla }: { $supportUrl }.
-# Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 #  $uaOSVersion (String) - User's OS version, e.g. 10.11
@@ -249,7 +246,6 @@ newDeviceLogin-action = Kokolakeun akun
 passwordChanged-subject = Kecap sandi geus diropéa
 passwordChanged-title = Ngarobah sandi geus hasil
 passwordChangeRequired-subject = Aya kagiatan picurigaeun
-passwordChangeRequired-title = Kudu Gandi Sandi
 passwordResetAccountRecovery-subject-2 = Sandi anjeun geus disetél ulang
 postAddAccountRecovery-action = Kokolakeun akun
 postAddLinkedAccount-action = Kokolakeun akun

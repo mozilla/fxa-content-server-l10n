@@ -257,9 +257,6 @@ subscriptionUpdatePayment = Aby zapobiec przerwom w działaniu, prosimy <a data
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Aby zapobiec przerwom w działaniu, prosimy zaktualizować informacje o płatności tak szybko, jak to możliwe:
 # Variables:
-#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
-support-message-2 = Więcej informacji można znaleźć w pomocy { -brand-mozilla(case: "gen") }: { $supportUrl }.
-# Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 #  $uaOSVersion (String) - User's OS version, e.g. 10.11
@@ -363,11 +360,6 @@ passwordChanged-subject = Zaktualizowano hasło
 passwordChanged-title = Pomyślnie zmieniono hasło
 passwordChanged-description-2 = Pomyślnie zmieniono hasło { -product-mozilla-account(case: "gen", capitalization: "lower") } z poniższego urządzenia:
 passwordChangeRequired-subject = Wykryto podejrzane działania
-passwordChangeRequired-title = Wymagana jest zmiana hasła
-passwordChangeRequired-suspicious-activity-2 = Wykryliśmy podejrzane zachowanie na Twoim { -product-mozilla-account(case: "loc", capitalization: "lower") }. Aby uniemożliwić nieupoważniony dostęp do konta, odłączyliśmy od niego wszystkie urządzenia i wymagamy zmiany hasła w ramach środków ostrożności.
-passwordChangeRequired-sign-in-2 = Zaloguj się z powrotem na dowolnym urządzeniu lub usłudze, na której korzystasz z { -product-mozilla-account(case: "gen", capitalization: "lower") } i postępuj zgodnie z instrukcją, która zostanie wyświetlona.
-passwordChangeRequired-different-password = <b>Ważne:</b> wybierz inne hasło niż to, które było używane wcześniej i upewnij się, że jest inne niż hasło Twojego konta e-mail.
-passwordChangeRequired-different-password-plaintext = Ważne: wybierz inne hasło niż to, które było używane wcześniej i upewnij się, że jest inne niż hasło Twojego konta e-mail.
 password-forgot-otp-subject = Nie pamiętasz hasła?
 password-forgot-otp-title = Nie pamiętasz hasła?
 password-forgot-otp-request = Otrzymaliśmy prośbę o zmianę hasła Twojego { -product-mozilla-account(case: "gen", capitalization: "lower") } z urządzenia:

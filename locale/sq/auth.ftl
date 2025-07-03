@@ -246,9 +246,6 @@ subscriptionUpdatePayment = Që të parandalohet çfarëdo ndërprerje në shër
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Që të parandalohet çfarëdo ndërprerje në shërbimin tuaj, ju lutemi, përditësoni të dhënat tuaja të pagesës sa më shpejt të jetë e mundur:
 # Variables:
-#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
-support-message-2 = Për më tepër hollësi, vizitoni Asistencën { -brand-mozilla }: { $supportUrl }.
-# Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 #  $uaOSVersion (String) - User's OS version, e.g. 10.11
@@ -351,11 +348,6 @@ passwordChanged-subject = Fjalëkalimi u përditësua
 passwordChanged-title = Fjalëkalimi u ndryshua me sukses
 passwordChanged-description-2 = Fjalëkalimi juaj për { -product-mozilla-account } u ndryshua me sukses që nga pajisja vijuese:
 passwordChangeRequired-subject = U pikas veprimtari e dyshimtë
-passwordChangeRequired-title = Lypset Ndryshim Fjalëkalimi
-passwordChangeRequired-suspicious-activity-2 = Pikasëm sjellje të dyshimtë në { -product-mozilla-account } tuajën. Për të parandaluar hyrje të paautorizuar te { -product-mozilla-account }, kemi shkëputur krejt pajisjet në llogarinë tuaj dhe, si masë parandaluese, po ju kërkojmë të ndryshoni doemos fjalëkalimin tuaj.
-passwordChangeRequired-sign-in-2 = Rihyni në çfarëdo pajisje ose shërbim ku përdorni { -product-mozilla-account } tuajën dhe ndiqni hapat që do t’ju paraqiten.
-passwordChangeRequired-different-password = <b>E rëndësishme:</b> zgjidhni një fjalëkalim të ndryshëm nga çka përdornit më parë dhe sigurohuni se është i ndryshëm nga ai i llogarisë tuaj për email.
-passwordChangeRequired-different-password-plaintext = E rëndësishme: zgjidhni një fjalëkalim të ndryshëm nga çka përdornit më parë dhe sigurohuni se është i ndryshëm nga ai i llogarisë tuaj për email.
 password-forgot-otp-subject = Harruat fjalëkalimin tuaj?
 password-forgot-otp-title = Harruat fjalëkalimin tuaj?
 password-forgot-otp-request = Morëm një kërkesë për ndryshim fjalëkalimi në { -product-mozilla-account } tuaj nga:

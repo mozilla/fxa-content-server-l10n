@@ -252,9 +252,6 @@ subscriptionUpdatePayment = Emboykekuaa hag̃ua pe mba’eporu ñekytĩ, ikatúp
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Emboykekuaa hag̃ua pe mba’eporu ñekytĩ, ikatúpiko embohekopyahumi ne marandu tepyme’ẽguáva pya’e porã:
 # Variables:
-#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
-support-message-2 = Eñemomaranduve hag̃ua eike { -brand-mozilla } pytyvõhápe: { $supportUrl }.
-# Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 #  $uaOSVersion (String) - User's OS version, e.g. 10.11
@@ -357,11 +354,6 @@ passwordChanged-subject = Ñe’ẽñemi hekopyahúva
 passwordChanged-title = Emoambue hekoitépe ñe’ẽñemi
 passwordChanged-description-2 = Oñemoambue hekoitépe nde { -product-mozilla-account } ñe’ẽñemi peteĩva mba’e’oka guive:
 passwordChangeRequired-subject = Tembiapo ivaikuaáva jehechapyre
-passwordChangeRequired-title = Eikotevẽ ñe’ẽñemi ñemoambue
-passwordChangeRequired-suspicious-activity-2 = Rohecha jeku’e ikatúva oñembyai nde { -product-mozilla-account } pegua. Romboyke hag̃ua jeike ñemoneĩ’ỹva nde { -product-mozilla-account }-pe, roipe’apa opaite mba’e’oka ne mba’etégui ha rojerure ndéve remoambue hag̃ua ne ñe’ẽñemi tekorosãverã.
-passwordChangeRequired-sign-in-2 = Emoñepyrũ tembiapo oimeraẽva mba’e’oka térã mba’eporu eiporuhápe nde { -product-mozilla-account } ha tereho pe tape ehechátavape.
-passwordChangeRequired-different-password = <b>Mba’eguasu:</b> Eiporavo peteĩ ñe’ẽñemi iñambuéva umi eiporúvagui reikóvo ha ehecha avei iñambueha pe ne ñanduti veve mba’etégui.
-passwordChangeRequired-different-password-plaintext = Mba’eguasu: eiporavo peteĩ ñe’ẽñemi iñambuéva umi eiporúvagui kuri ha ehecha avei iñambuéva pe ne ñanduti veve mba’etégui.
 password-forgot-otp-subject = Nderesaráipa ñe’ẽñemi
 password-forgot-otp-title = Nderesaráipa ñe’ẽñemi
 password-forgot-otp-request = Og̃uahẽ oréve jerure ñe’ẽñemi moambuerã nde { -product-mozilla-account } rehegua:

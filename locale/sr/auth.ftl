@@ -142,9 +142,6 @@ subscriptionUpdatePayment = Да бисте избегли било какве �
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Да бисте избегли било какве прекиде услуге, ажурирајте ваше податке о плаћању што је пре могуће:
 # Variables:
-#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
-support-message-2 = За више детаља, посетите { -brand-mozilla } подршку: { $supportUrl }.
-# Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 #  $uaOSVersion (String) - User's OS version, e.g. 10.11
@@ -211,9 +208,6 @@ newDeviceLogin-action = Управљајте налогом
 passwordChanged-subject = Лозинка је ажурирана
 passwordChanged-title = Лозинка је успешно промењена
 passwordChangeRequired-subject = Откривена је сумњива радња
-passwordChangeRequired-title = Потребна је промена лозинке
-passwordChangeRequired-different-password = <b>Важно:</b> користите нову лозинку коју никада раније нисте користили и уверите се да није иста као лозинка вашег налога е-поште.
-passwordChangeRequired-different-password-plaintext = Важно: користите нову лозинку коју никада раније нисте користили и уверите се да није иста као лозинка вашег налога е-поште.
 passwordResetAccountRecovery-subject-2 = Ваша лозинка је ресетована
 postAddAccountRecovery-title2 = Направили сте нови кључ за опоравак налога
 postAddAccountRecovery-action = Управљајте налогом

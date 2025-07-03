@@ -253,7 +253,7 @@ subscriptionUpdatePayment = Pour éviter toute interruption de votre service, ve
 subscriptionUpdatePayment-plaintext = Pour éviter toute interruption de votre service, veuillez mettre à jour vos informations de paiement dès que possible :
 # Variables:
 #  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
-support-message-2 = Pour plus d’informations, consultez l’assistance de { -brand-mozilla } : { $supportUrl }.
+support-message-plaintext = Pour plus d’informations, consultez l’assistance de { -brand-mozilla } : { $supportUrl }.
 # Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
@@ -357,11 +357,14 @@ passwordChanged-subject = Mot de passe mis à jour
 passwordChanged-title = Modification du mot de passe
 passwordChanged-description-2 = Le mot de passe de votre { -product-mozilla-account } a été correctement changé depuis cet appareil :
 passwordChangeRequired-subject = Activité suspecte détectée
-passwordChangeRequired-title = Changement de mot de passe nécessaire
-passwordChangeRequired-suspicious-activity-2 = Nous avons détecté un comportement suspect sur votre { -product-mozilla-account }. Pour empêcher tout accès non autorisé à votre { -product-mozilla-account }, nous avons déconnecté tous les appareils de votre compte et vous demandons de changer votre mot de passe par mesure de précaution.
-passwordChangeRequired-sign-in-2 = Reconnectez-vous à tout appareil ou service sur lequel vous utilisez votre { -product-mozilla-account } et suivez les étapes qui vous seront présentées.
-passwordChangeRequired-different-password = <b>Important :</b> choisissez un mot de passe différent de celui que vous utilisiez précédemment et assurez-vous qu’il soit différent de celui de votre compte de messagerie.
-passwordChangeRequired-different-password-plaintext = Important : choisissez un mot de passe différent de celui que vous utilisiez précédemment et assurez-vous qu’il soit différent de celui de votre compte de messagerie.
+passwordChangeRequired-preview = Changez votre mot de passe immédiatement
+passwordChangeRequired-title-2 = Réinitialiser le mot de passe
+passwordChangeRequired-suspicious-activity-3 = Nous avons verrouillé votre compte pour le protéger des activités suspectes. Vous avez été déconnecté de tous vos appareils et toutes les données synchronisées ont été supprimées par mesure de précaution.
+passwordChangeRequired-sign-in-3 = Pour vous reconnecter à votre compte, il vous suffit de réinitialiser votre mot de passe.
+passwordChangeRequired-different-password-2 = <b>Important :</b> choisissez un mot de passe fort, différent de celui que vous avez utilisé par le passé.
+passwordChangeRequired-different-password-plaintext-2 = Important : choisissez un mot de passe fort, différent de celui que vous avez utilisé par le passé.
+passwordChangeRequired-action = Réinitialiser le mot de passe
+passwordChangeRequired-action-plaintext = { passwordChangeRequired-action }:
 password-forgot-otp-subject = Mot de passe oublié ?
 password-forgot-otp-title = Mot de passe oublié ?
 password-forgot-otp-request = Nous avons reçu une demande de changement de mot de passe pour votre { -product-mozilla-account } depuis :

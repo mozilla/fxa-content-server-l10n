@@ -252,9 +252,6 @@ subscriptionUpdatePayment = Aby se pśetergnjenja swójeje słužby wobinuł, <a
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Aby se pśetergnjenja swójeje słužby wobinuł, aktualizěrujśo pšosym swóje płaśeńske informacije tak skóro ako móžno:
 # Variables:
-#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
-support-message-2 = Za dalšne informacije woglědajśo se k pomocy { -brand-mozilla }: { $supportUrl }
-# Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 #  $uaOSVersion (String) - User's OS version, e.g. 10.11
@@ -359,11 +356,6 @@ passwordChanged-subject = Gronidło jo se zaktualizěrowało
 passwordChanged-title = Gronidło jo se wuspěšnje změniło
 passwordChanged-description-2 = Gronidło wašogo { -product-mozilla-account(case: "gen", capitalization: "lower") } jo se wuspěšnje ze slědujucego rěda změniło:
 passwordChangeRequired-subject = Zawózdatna aktiwita namakana
-passwordChangeRequired-title = Změnjanje gronidła trjebne
-passwordChangeRequired-suspicious-activity-2 = Smy zwěsćili suspektne zaźaržanje na wašom { -product-mozilla-account(case: "loc", capitalization: "lower") }. Aby my njeawtorizěrowanemu pśistupoju k wašomu { -product-mozilla-account(case: "dat", capitalization: "lower") } zajźowali, smy źělili wšykne rědy we wašom konśe a napominamy was, wašo gronidło wěstoty dla změniś.
-passwordChangeRequired-sign-in-2 = Pśizjawśo se zasej pla rěda abo słužby, źož swójo { -product-mozilla-account(case: "acc", capitalization: "lower") } wužywaśo a slědujśo kšacam, kótarež se wam pokazuju.
-passwordChangeRequired-different-password = <b>Wažny:</b> Wubjeŕśo druge gronidło ako to, kótarež sćo do togo wužywał, a źiwajśo na to, až se wót gronidła za swójo e-mailowe konto rozeznawa.
-passwordChangeRequired-different-password-plaintext = Wažny: Wubjeŕśo druge gronidło ako to, kótarež sćo do togo wužywał, a źiwajśo na to, až se wót gronidła za swójo e-mailowe konto rozeznawa.
 password-forgot-otp-subject = Sćo swójo gronidło zabył?
 password-forgot-otp-title = Sćo swójo gronidło zabył?
 password-forgot-otp-request = Smy dostali pšosbu wó změnjanje gronidła za wašo { -product-mozilla-account(case: "acc", capitalization: "lower") }:

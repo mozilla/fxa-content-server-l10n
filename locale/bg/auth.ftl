@@ -143,7 +143,6 @@ newDeviceLogin-action = Управление на сметка
 passwordChanged-subject = Променена парола
 passwordChanged-title = Паролата е успешно променена
 passwordChangeRequired-subject = Открита подозрителна дейност
-passwordChangeRequired-title = Необходима е промяна на паролата
 passwordResetAccountRecovery-subject-2 = Паролата ви е нулирана
 postAddAccountRecovery-action = Управление на профила
 postAddLinkedAccount-action = Управление на профила

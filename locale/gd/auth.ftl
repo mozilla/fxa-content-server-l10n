@@ -139,9 +139,6 @@ subscriptionUpdatePayment = Airson ’s nach bris dad a-steach air an t-seirbhei
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Airson ’s nach bris dad a-steach air an t-seirbheis agad, ùraich am fiosrachadh pàighidh agad cho ùr ’s a ghabhas:
 # Variables:
-#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
-support-message-2 = Airson barrachd fiosrachaidh, tadhail air taic { -brand-mozilla }: { $supportUrl }.
-# Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 #  $uaOSVersion (String) - User's OS version, e.g. 10.11

@@ -220,9 +220,6 @@ subscriptionUpdateBillingEnsure = ਤੁਸੀਂ <a data-l10n-name="updateBilli
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdateBillingEnsure-plaintext = ਤੁਸੀਂ ਇੱਥੇ ਯਕੀਨੀ ਬਣਾ ਸਕਦੇ ਹੋ ਕਿ ਤੁਹਾਡਾ ਭੁਗਤਾਨ ਦਾ ਢੰਗ ਅਤੇ ਖਾਤਾ ਜਾਣਕਾਰੀ ਦਰੁਸਤ ਹੈ:
 # Variables:
-#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
-support-message-2 = ਹੋਰ ਜਾਣਕਾਰੀ ਲਈ { -brand-mozilla } ਸਹਿਯੋਗ ਨੂੰ ਵੇਖੋ: { $supportUrl }।
-# Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 #  $uaOSVersion (String) - User's OS version, e.g. 10.11
@@ -316,11 +313,6 @@ passwordChanged-subject = ਪਾਸਵਰਡ ਅੱਪਡੇਟ ਕੀਤਾ ਗ
 passwordChanged-title = ਪਾਸਵਰਡ ਕਾਮਯਾਬੀ ਨਾਲ ਬਦਲਿਆ
 passwordChanged-description-2 = ਤੁਹਾਡਾ{ -product-mozilla-account } ਪਾਸਵਰਡ ਹੇਠ ਦਿੱਤੇ ਡਿਵਾਈਸ ਤੋਂ ਕਾਮਯਾਬੀ ਨਾਲ ਬਦਲਿਆ ਗਿਆ:
 passwordChangeRequired-subject = ਸ਼ੱਕੀ ਸਰਗਰਮੀ ਖੋਜੀ ਗਈ ਹੈ
-passwordChangeRequired-title = ਪਾਸਵਰਡ ਬਦਲਣ ਦੀ ਲੋੜ ਹੈ
-passwordChangeRequired-suspicious-activity-2 = ਅਸੀਂ ਤੁਹਾਡੇ { -product-mozilla-account } ਲਈ ਸ਼ੱਕੀ ਸਰਗਰਮੀ ਖੋਜੀ ਹੈ। ਤੁਹਾਡੇ { -product-mozilla-account } ਲਈ ਨਾ-ਪਰਾਮਣਿਤ ਪਹੁੰਚ ਨੂੰ ਰੋਕਣ ਵਾਸਤੇ ਅਸੀਂ ਤੁਹਾਡੇ ਖਾਤੇ ਨਾਲੋਂ ਸਾਰੇ ਡਿਵਾਈਸ ਡਿਸ-ਕਨੈਕਟ ਕਰ ਦਿੱਤੇ ਹਨ ਅਤੇ ਸਾਵਧਾਨੀ ਦੇ ਵਜੋਂ ਤੁਹਾਨੂੰ ਆਪਣਾ ਪਾਸਵਰਡ ਬਦਲਣਾ ਪਵੇਗਾ।
-passwordChangeRequired-sign-in-2 = ਜਿੱਥੇ ਵੀ ਤੁਸੀਂ ਆਪਣਾ { -product-mozilla-account } ਖਾਤਾ ਵਰਤਿਆ ਹੋਵੇ, ਉਸ ਡਿਵਾਈਸ ਜਾਂ ਸੇਵਾ ਵਿੱਚ ਸਾਈਨ ਇਨ ਕਰੋ ਅਤੇ ਤੁਹਾਨੂੰ ਦਿੱਤੀਆਂ ਹਦਾਇਤਾਂ ਦੀ ਪਾਲਣਾ ਕਰੋ।
-passwordChangeRequired-different-password = <b>ਖਾਸ</b>: ਤੁਹਾਡੇ ਵਲੋਂ ਪਹਿਲਾਂ ਵਰਤੇ ਪਾਸਵਰਡ ਤੋਂ ਵੱਖਰਾ ਪਾਸਵਰਡ ਚੁਣੋ ਅਤੇ ਯਕੀਨੀ ਬਣਾਓ ਕਿ ਤੁਹਾਡੇ ਈਮੇਲ ਖਾਤੇ ਤੋਂ ਵੱਖਰਾ ਹੋਵੇ।
-passwordChangeRequired-different-password-plaintext = ਖਾਸ: ਤੁਹਾਡੇ ਵਲੋਂ ਪਹਿਲਾਂ ਵਰਤੇ ਪਾਸਵਰਡ ਤੋਂ ਵੱਖਰਾ ਪਾਸਵਰਡ ਚੁਣੋ ਅਤੇ ਯਕੀਨੀ ਬਣਾਓ ਕਿ ਤੁਹਾਡੇ ਈਮੇਲ ਖਾਤੇ ਤੋਂ ਵੱਖਰਾ ਹੋਵੇ।
 password-forgot-otp-subject = ਆਪਣਾ ਪਾਸਵਰਡ ਭੁੱਲ ਗਏ ਹੋ?
 password-forgot-otp-title = ਆਪਣਾ ਪਾਸਵਰਡ ਭੁੱਲ ਗਏ ਹੋ?
 password-forgot-otp-request = ਸਾਨੂੰ ਤੁਹਾਡੇ { -product-mozilla-account } ਰਾਹੀਂ ਇਸ ਤੋਂ ਪਾਸਵਰਡ ਬਦਲਣ ਦੀ ਬੇਨਤੀ ਮਿਲੀ ਹੈ:

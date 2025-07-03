@@ -37,7 +37,6 @@ newDeviceLogin-action = Gestionează contul
 passwordChanged-subject = Parolă actualizată
 passwordChanged-title = Parolă modificată cu succes
 passwordChangeRequired-subject = Activitate suspectă detectată
-passwordChangeRequired-title = Schimbarea parolei necesară
 postAddAccountRecovery-action = Gestionează contul
 postAddTwoStepAuthentication-action = Gestionează contul
 postChangePrimary-subject = E-mail principal actualizat

@@ -252,9 +252,6 @@ subscriptionUpdatePayment = Werk zo snel mogelijk <a data-l10n-name="updateBilli
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Werk zo snel mogelijk uw betalingsgegevens bij om onderbreking van uw service te voorkomen:
 # Variables:
-#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
-support-message-2 = Ga voor meer informatie naar { -brand-mozilla } Support: { $supportUrl }.
-# Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 #  $uaOSVersion (String) - User's OS version, e.g. 10.11
@@ -357,11 +354,6 @@ passwordChanged-subject = Wachtwoord bijgewerkt
 passwordChanged-title = Wachtwoord met succes gewijzigd
 passwordChanged-description-2 = Uw { -product-mozilla-account }-wachtwoord is met succes op het volgende apparaat gewijzigd:
 passwordChangeRequired-subject = Verdachte activiteit gedetecteerd
-passwordChangeRequired-title = Wachtwoordwijziging vereist
-passwordChangeRequired-suspicious-activity-2 = We hebben verdacht gedrag in uw { -product-mozilla-account } gedetecteerd. Om ongeoorloofde toegang tot uw { -product-mozilla-account } te voorkomen, hebben we alle apparaten in uw account ontkoppeld en u dient uit voorzorg uw wachtwoord te wijzigen.
-passwordChangeRequired-sign-in-2 = Meld u opnieuw aan op een van de apparaten of services waar u uw { -product-mozilla-account } gebruikt en volg de gepresenteerde stappen.
-passwordChangeRequired-different-password = <b>Belangrijk:</b> kies een ander wachtwoord dan u eerder gebruikte en zorg ervoor dat het anders is dan uw e-mailaccount.
-passwordChangeRequired-different-password-plaintext = Belangrijk: kies een ander wachtwoord dan u eerder gebruikte en zorg ervoor dat het anders is dan uw e-mailaccount.
 password-forgot-otp-subject = Uw wachtwoord vergeten?
 password-forgot-otp-title = Uw wachtwoord vergeten?
 password-forgot-otp-request = We hebben een verzoek ontvangen voor een wachtwoordwijziging op uw { -product-mozilla-account } van:

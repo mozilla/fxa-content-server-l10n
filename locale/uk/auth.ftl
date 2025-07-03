@@ -252,9 +252,6 @@ subscriptionUpdatePayment = Щоб уникнути будь-яких перер
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Щоб уникнути будь-яких переривань в роботі вашої служби, будь ласка, якнайшвидше оновіть платіжні дані:
 # Variables:
-#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
-support-message-2 = Докладніше на сторінці підтримки { -brand-mozilla }: { $supportUrl }.
-# Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 #  $uaOSVersion (String) - User's OS version, e.g. 10.11
@@ -358,11 +355,6 @@ passwordChanged-subject = Пароль оновлено
 passwordChanged-title = Пароль успішно змінено
 passwordChanged-description-2 = Пароль вашого { -product-mozilla-account(case: "gen") } успішно змінено з такого пристрою:
 passwordChangeRequired-subject = Виявлено підозрілу активність
-passwordChangeRequired-title = Необхідно змінити пароль
-passwordChangeRequired-suspicious-activity-2 = Ми помітили підозрілу діяльність у вашому { -product-mozilla-account(case: "loc") }. З міркувань безпеки та для запобігання несанкціонованому доступу до { -product-mozilla-account(case: "gen") } ми від'єднали всі пов'язані з ним пристрої та вимагаємо змінити пароль.
-passwordChangeRequired-sign-in-2 = Знову увійдіть на будь-якому пристрої або до служби, де ви використовуєте свій { -product-mozilla-account }, і виконайте запропоновані настанови.
-passwordChangeRequired-different-password = <b>Важливо:</b> Вигадайте новий пароль та переконайтеся, що він раніше не використовувався в інших облікових даних.
-passwordChangeRequired-different-password-plaintext = Важливо: Вигадайте новий пароль та переконайтеся, що він раніше не використовувався в інших облікових даних.
 password-forgot-otp-subject = Забули свій пароль?
 password-forgot-otp-title = Забули свій пароль?
 password-forgot-otp-request = Ми отримали запит на зміну пароля до вашого { -product-mozilla-account(case: "gen") } від:
