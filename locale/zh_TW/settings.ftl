@@ -380,10 +380,13 @@ password-strength-balloon-stay-safe-tips = 確保安全 — 請勿重複使用�
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password
 
+password-strength-long-instruction = 請使用您從未使用過的、足夠強大的密碼。密碼應符合下列安全性要求：
+password-strength-short-instruction = 使用較強的密碼：
 password-strength-inline-min-length = 至少八個字元長
 password-strength-inline-not-email = 不可以與您的電子郵件地址相同
 password-strength-inline-not-common = 不可以是常見的密碼
 password-strength-inline-confirmed-must-match = 再次輸入的密碼與新密碼相符
+password-strength-inline-passwords-match = 密碼符合
 
 ## Notification Promo Banner component
 
