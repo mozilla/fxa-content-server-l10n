@@ -376,10 +376,13 @@ password-strength-balloon-stay-safe-tips = שמרו על עצמכם — אל ת�
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password
 
+password-strength-long-instruction = יש לבחור בססמה חזקה שלא השתמשת בה באתרים אחרים. יש לוודא כי עומדת בדרישות האבטחה:
+password-strength-short-instruction = יש לבחור בססמה חזקה:
 password-strength-inline-min-length = לפחות 8 תווים
 password-strength-inline-not-email = לא כתובת הדוא״ל שלך
 password-strength-inline-not-common = לא ססמה נפוצה
 password-strength-inline-confirmed-must-match = האימות מתאים לססמה החדשה
+password-strength-inline-passwords-match = הססמאות תואמות
 
 ## Notification Promo Banner component
 

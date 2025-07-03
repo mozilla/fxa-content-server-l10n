@@ -36,6 +36,7 @@ checkout-error-already-subscribed = כבר יש לך מינוי למוצר זה.
 checkout-error-contact-support = נא ליצור קשר עם התמיכה כדי שנוכל לעזור לך.
 cart-error-currency-not-determined = לא הצלחנו לקבוע את המטבע עבור רכישה זו, נא לנסות שוב.
 checkout-processing-general-error = אירעה שגיאה לא צפויה בעת עיבוד התשלום שלך, נא לנסות שוב.
+cart-total-mismatch-error = סכום החשבונית השתנה. נא לנסות שוב.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -262,6 +263,7 @@ metadata-description-default = הדף שביקשת לא נמצא.
 
 ## Coupon Error Messages
 
+next-coupon-error-cannot-redeem = לא ניתן לממש את הקוד שהזנת - לחשבון שלך יש מינוי קודם לאחד מהשירותים שלנו.
 next-coupon-error-expired = פג תוקף הקוד שהזנת.
 next-coupon-error-generic = אירעה שגיאה בעיבוד הקוד. נא לנסות שוב.
 next-coupon-error-invalid = הקוד שהזנת אינו חוקי.
