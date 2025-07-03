@@ -392,10 +392,13 @@ password-strength-balloon-stay-safe-tips = Remane secur, non reusa tu contrasign
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password
 
+password-strength-long-instruction = Elige un contrasigno complexe que tu non ha usate sur altere sitos.
+password-strength-short-instruction = Elige un contrasigno complexe:
 password-strength-inline-min-length = Al minus 8 characteres
 password-strength-inline-not-email = Non tu adresse email
 password-strength-inline-not-common = Non un contrasigno commun
 password-strength-inline-confirmed-must-match = Le confirmation concorda con le nove contrasigno
+password-strength-inline-passwords-match = Le contrasignos concorda
 
 ## Notification Promo Banner component
 

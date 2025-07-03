@@ -40,6 +40,7 @@ checkout-error-already-subscribed = Tu es jam abonate a iste producto.
 checkout-error-contact-support = Contacta le assistentia proque nos pote adjutar te.
 cart-error-currency-not-determined = Impossibile definir le moneta pro iste compra, retenta.
 checkout-processing-general-error = Impossibile definir le moneta pro iste compra, retenta.
+cart-total-mismatch-error = Le amontar de factura ha cambiate. Retenta.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
