@@ -252,6 +252,12 @@ subscriptionUpdatePayment = Чтобы избежать прерывания р�
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Чтобы избежать прерывания работы служб, пожалуйста, как можно скорее обновите ваши платёжные сведения:
 # Variables:
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-3 = Для получения дополнительной информации посетите <a data-l10n-name="supportLink">Поддержку { -brand-mozilla }</a>.
+# Variables:
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-plaintext = Для получения дополнительных сведений посетите страницу поддержки { -brand-mozilla }: { $supportUrl }.
+# Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 #  $uaOSVersion (String) - User's OS version, e.g. 10.11
@@ -355,6 +361,14 @@ passwordChanged-subject = Пароль изменён
 passwordChanged-title = Пароль успешно изменён
 passwordChanged-description-2 = Ваш пароль для { -product-mozilla-account } был успешно изменен со следующего устройства:
 passwordChangeRequired-subject = Обнаружена подозрительная активность
+passwordChangeRequired-preview = Немедленно смените пароль
+passwordChangeRequired-title-2 = Сбросить пароль
+passwordChangeRequired-suspicious-activity-3 = Мы заблокировали ваш аккаунт, чтобы защитить его от подозрительной активности. Вы вышли из всех своих устройств, и в качестве меры предосторожности все синхронизированные данные были удалены.
+passwordChangeRequired-sign-in-3 = Чтобы снова войти в свой аккаунт, всё, что вам нужно сделать, — это сбросить пароль.
+passwordChangeRequired-different-password-2 = <b>Важно:</b> Выберите надежный пароль, отличный от тех, которые вы использовали в прошлом.
+passwordChangeRequired-different-password-plaintext-2 = Важно: Выберите надежный пароль, отличный от паролей, которые вы использовали в прошлом.
+passwordChangeRequired-action = Сбросить пароль
+passwordChangeRequired-action-plaintext = { passwordChangeRequired-action }:
 password-forgot-otp-subject = Забыли ваш пароль?
 password-forgot-otp-title = Забыли ваш пароль?
 password-forgot-otp-request = Мы получили запрос на смену пароля для вашего { -product-mozilla-account } от:
