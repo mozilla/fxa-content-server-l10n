@@ -251,6 +251,9 @@ subscriptionUpdatePayment = 為了避免服務中斷，請及早<a data-l10n-nam
 subscriptionUpdatePayment-plaintext = 為了避免服務中斷，請及早更新付款資訊：
 # Variables:
 #  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-3 = 若需更多資訊，請造訪 <a data-l10n-name="supportLink">{ -brand-mozilla } 技術支援站</a>。
+# Variables:
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 support-message-plaintext = 若需更多資訊，請造訪 { -brand-mozilla } 技術支援站：{ $supportUrl }。
 # Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
@@ -356,6 +359,8 @@ passwordChanged-description-2 = 已從下列裝置成功更改您 { -product-moz
 passwordChangeRequired-subject = 偵測到可疑行為
 passwordChangeRequired-preview = 立即更改密碼
 passwordChangeRequired-title-2 = 重設您的密碼
+passwordChangeRequired-suspicious-activity-3 = 我們已暫時鎖定您的帳號、登出所有裝置、也刪除所有同步資料，以避免您遭受可疑活動的影響。
+passwordChangeRequired-sign-in-3 = 請重設密碼，即可重新登入帳號。
 password-forgot-otp-subject = 忘記密碼了嗎？
 password-forgot-otp-title = 忘記密碼了嗎？
 password-forgot-otp-request = 我們收到要更改您 { -product-mozilla-account }密碼的請求：
