@@ -1772,6 +1772,7 @@ signin-password-button-label = Hesło
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-desktop-relay = { -brand-firefox } budźe was wróćo słać, zo byšće po přizjewjenju e-mejlowu masku wužiwał.
 signin-code-expired-error = Kod je spadnjeny. Prošu přizjewće so znowa.
+signin-account-locked-banner-heading = Stajće swoje hesło wróćo
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
@@ -1984,6 +1985,7 @@ confirm-signup-code-desktop-relay = { -brand-firefox } budźe was wróćo słać
 signup-heading-v2 = Hesło wutworić
 signup-relay-info = Hesło je trěbna, zo byšće swoje maskowane mejlki wěsće rjadować a k wěstotnym nastrojam { -brand-mozilla } přistup měł.
 signup-sync-info = Synchronizujće swoje hesła, zapołožki a wjace wšudźe, hdźež { -brand-firefox } wužiwaće.
+signup-sync-info-with-payment = Synchronizujće swoje hesła, płaćenske metody, zapołožki a wjace wšudźe, hdźež { -brand-firefox } wužiwaće.
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = Čehodla dyrbju tute konto załožić?
 # Link included in a dismissible info banner that is only displayed to Pocket clients

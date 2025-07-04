@@ -47,6 +47,11 @@ cart-total-mismatch-error = Suma zličbowanki je so změniła. Prošu spytajće 
 
 ## Error pages - Payment method failure messages
 
+intent-card-error = Waša transakcija njeda so předźěłować. Přepruwujće prošu informacije swojeje kreditneje karty a spytajće hišće raz.
+intent-expired-card-error = Zda so, kaž by waša kreditna karta spadnyła. Spytajće druhu kartu.
+intent-payment-error-try-again = Hmm. Při awtorizowanju wašeho płaćenja je problem nastał. Spytajće hišće raz abo stajće so z wudawaćelom swojeje karty do zwiska.
+intent-payment-error-get-in-touch = Hmm. Při awtorizowanju wašeho płaćenja je problem nastał. Stajće so z wudawaćelom swojeje karty do zwiska.
+intent-payment-error-generic = Při předźěłowanju wašeho płaćenja je njewočakowany zmylk nastał, prošu spytajće hišće raz.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
