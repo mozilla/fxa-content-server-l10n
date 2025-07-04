@@ -1975,7 +1975,6 @@ confirm-signup-code-desktop-relay = { -brand-firefox } sa vás po prihlásení p
 signup-heading-v2 = Vytvoriť heslo
 signup-relay-info = Heslo je potrebné na bezpečnú správu vašich maskovaných e‑mailov a prístup k bezpečnostným nástrojom od { -brand-mozilla(case: "gen") }.
 signup-sync-info = Synchronizujte svoje heslá, záložky a ďalšie údaje všade, kde používate { -brand-firefox }.
-signup-sync-info-with-payments = Synchronizujte svoje heslá, spôsoby platby, záložky a ďalšie údaje všade, kde používate { -brand-firefox }.
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = Prečo si musím vytvoriť tento účet?
 # Link included in a dismissible info banner that is only displayed to Pocket clients

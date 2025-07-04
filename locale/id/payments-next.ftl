@@ -15,6 +15,9 @@ next-payment-error-retry-button = Coba lagi
 next-basic-error-message = Terjadi kesalahan. Silakan coba lagi nanti.
 checkout-error-contact-support-button = Hubungi Bantuan
 
+## Error pages - Payment method failure messages
+
+
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
 

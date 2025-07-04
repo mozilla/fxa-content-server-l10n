@@ -41,6 +41,9 @@ checkout-error-contact-support = Pi favuri cuntatta l’assistenza p’addumanna
 cart-error-currency-not-determined = Nun pòttimu stabbiliri a valuta pi st’accàttitu, pi favuri torna a prova.
 checkout-processing-general-error = Cci fu n’erruri mentri chi prucissàvamu u to pagamentu, pi favuri torna a prova.
 
+## Error pages - Payment method failure messages
+
+
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
 

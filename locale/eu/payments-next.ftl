@@ -41,6 +41,9 @@ checkout-error-contact-support = Mesedez, jarri harremanetan laguntzarekin lagun
 cart-error-currency-not-determined = Ezin izan dugu erosketa honen moneta zehaztu, saiatu berriro mesedez.
 checkout-processing-general-error = Ustekabeko errore bat gertatu da ordainketa prozesatzen ari zaren bitartean. Saiatu berriro.
 
+## Error pages - Payment method failure messages
+
+
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
 

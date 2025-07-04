@@ -42,6 +42,9 @@ checkout-error-contact-support = Ju lutemi, lidhuni me asistencën, që të mund
 cart-error-currency-not-determined = S’qemë në gjendje të përcaktojmë monedhën për këtë blerje, ju lutemi, riprovoni.
 checkout-processing-general-error = Ndodhi një gabim i papritur teksa përpunohej pagesa juaj, ju lutemi, riprovoni.
 
+## Error pages - Payment method failure messages
+
+
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
 

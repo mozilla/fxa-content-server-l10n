@@ -22,6 +22,9 @@ next-payment-error-manage-subscription-button = ਮੇਰੀ ਮੈਂਬਰੀ 
 next-payment-error-retry-button = ਮੁੜ ਕੋਸ਼ਿਸ਼ ਕਰੋ
 next-basic-error-message = ਕੁਝ ਗਲਤ ਵਾਪਰਿਆ ਹੈ। ਬਾਅਦ ਵਿੱਚ ਮੁੜ ਕੋਸ਼ਿਸ਼ ਕਰੋ।
 
+## Error pages - Payment method failure messages
+
+
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
 

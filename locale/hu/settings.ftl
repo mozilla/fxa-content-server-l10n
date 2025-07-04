@@ -1974,7 +1974,6 @@ confirm-signup-code-desktop-relay = Bejelentkezés után a { -brand-firefox } me
 signup-heading-v2 = Jelszó létrehozása
 signup-relay-info = Egy jelszóra van szükség a maszkolt e-mailek biztonságos kezeléséhez és a { -brand-mozilla } biztonsági eszközeinek eléréséhez.
 signup-sync-info = Szinkronizálja jelszavait, könyvjelzőit és egyebeket mindenhol, ahol a { -brand-firefox }ot használja.
-signup-sync-info-with-payments = Szinkronizálja jelszavait, fizetési módjait, könyvjelzőit és egyebeket mindenhol, ahol a { -brand-firefox }ot használja.
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = Miért kell létrehoznia ezt a fiókot?
 # Link included in a dismissible info banner that is only displayed to Pocket clients

@@ -41,6 +41,9 @@ checkout-error-contact-support = Vänligen kontakta supporten så kan vi hjälpa
 cart-error-currency-not-determined = Vi kunde inte fastställa valutan för detta köp, var god försök igen.
 checkout-processing-general-error = Ett oväntat fel har uppstått vid bearbetningen av din betalning. Försök igen.
 
+## Error pages - Payment method failure messages
+
+
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
 

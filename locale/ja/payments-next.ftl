@@ -23,6 +23,9 @@ next-payment-error-manage-subscription-button = サブスクリプションの�
 next-payment-error-retry-button = 再度お試しください
 next-basic-error-message = 何か問題が発生しました。また後で試してください。
 
+## Error pages - Payment method failure messages
+
+
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
 

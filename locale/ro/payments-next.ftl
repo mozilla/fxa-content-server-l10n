@@ -13,6 +13,9 @@
 next-payment-error-manage-subscription-button = Gestionează abonamentul meu
 next-basic-error-message = Ceva nu a funcționat. Te rugăm să încerci mai târziu.
 
+## Error pages - Payment method failure messages
+
+
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
 

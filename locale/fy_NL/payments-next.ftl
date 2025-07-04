@@ -42,6 +42,9 @@ cart-error-currency-not-determined = Wy kinne de faluta foar dizze oankeap net b
 checkout-processing-general-error = Der is in ûnferwachte flater bard by it ferwurkjen fan jo betelling, probearje it opnij.
 cart-total-mismatch-error = It faktuerbedrach is wizige. Probearje it nochris.
 
+## Error pages - Payment method failure messages
+
+
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
 

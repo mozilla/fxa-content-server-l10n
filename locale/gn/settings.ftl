@@ -1958,7 +1958,6 @@ confirm-signup-code-desktop-relay = { -brand-firefox } orahaukajeýta eimehápe 
 signup-heading-v2 = Emoheñói ñe’ẽñemi
 signup-relay-info = Tekotevẽ ñe’ẽñemi eñangareko hag̃ua tekorosãme ñanduti veve hovamo’ãvare ha eike { -brand-mozilla } rembiporu hekorosãvape.
 signup-sync-info = Embojuehe ñe’ẽñemi, techaukaha ha hetave oimeraẽ tenda eiporuhápe { -brand-firefox }.
-signup-sync-info-with-payments = Embojuehe ñe’ẽñemi, jepagarã, techaukaha ha hetave oimeraẽ tenda eiporuhápe { -brand-firefox }.
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = ¿Mba’ére amoheñoiva’erã ko mba’ete?
 # Link included in a dismissible info banner that is only displayed to Pocket clients

@@ -1975,7 +1975,6 @@ confirm-signup-code-desktop-relay = { -brand-firefox } försöker skicka dig til
 signup-heading-v2 = Skapa ett lösenord
 signup-relay-info = Ett lösenord behövs för att säkert hantera dina maskerade e-postmeddelanden och komma åt { -brand-mozilla }:s säkerhetsverktyg.
 signup-sync-info = Synkronisera dina lösenord, bokmärken och mer överallt där du använder { -brand-firefox }.
-signup-sync-info-with-payments = Synkronisera dina lösenord, betalningsmetoder, bokmärken och mer överallt där du använder { -brand-firefox }.
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = Varför måste jag skapa det här kontot?
 # Link included in a dismissible info banner that is only displayed to Pocket clients

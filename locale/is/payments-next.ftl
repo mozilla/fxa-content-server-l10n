@@ -40,6 +40,9 @@ checkout-error-already-subscribed = Þú ert nú þegar áskrifandi að þessum 
 checkout-error-contact-support = Hafðu samband við aðstoðargáttina svo við getum hjálpað þér.
 checkout-processing-general-error = Óvænt villa kom upp við vinnslu greiðslunnar þinnar, reyndu aftur.
 
+## Error pages - Payment method failure messages
+
+
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
 

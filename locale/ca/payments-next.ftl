@@ -14,6 +14,9 @@ next-payment-error-manage-subscription-button = Gestiona la meva subscripció
 next-payment-error-retry-button = Torna-ho a provar
 next-basic-error-message = Alguna cosa ha anat malament. Torneu-ho a provar més tard.
 
+## Error pages - Payment method failure messages
+
+
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
 

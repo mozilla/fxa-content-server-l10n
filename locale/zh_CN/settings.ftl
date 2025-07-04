@@ -1926,7 +1926,6 @@ confirm-signup-code-desktop-relay = { -brand-firefox } 将尝试在您登录后�
 signup-heading-v2 = 创建密码
 signup-relay-info = 需通过密码来安全管理您的马甲邮箱，以及使用 { -brand-mozilla } 的安全工具。
 signup-sync-info = 在您使用 { -brand-firefox } 的各设备间，同步密码、书签等数据。
-signup-sync-info-with-payments = 在您使用 { -brand-firefox } 的各设备间，同步密码、付款信息、书签等数据。
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = 为什么要创建此账户？
 # Link included in a dismissible info banner that is only displayed to Pocket clients

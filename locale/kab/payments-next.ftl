@@ -25,6 +25,9 @@ next-basic-error-message = Yella wayen ur nteddu ara akken ilaq. Ma ulac aɣilif
 checkout-error-contact-support-button = Nadi tallalt
 checkout-processing-general-error = Tuccḍa ur netturaǧu ara teḍra-d deg usesfer lexlaṣ-ik·im, ɛreḍ tikkelt-nniḍen.
 
+## Error pages - Payment method failure messages
+
+
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
 

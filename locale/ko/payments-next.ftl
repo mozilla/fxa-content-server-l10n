@@ -41,6 +41,9 @@ checkout-error-contact-support = 도움을 드릴 수 있도록 지원팀에 문
 cart-error-currency-not-determined = 구매에 사용한 통화를 확인할 수 없습니다. 다시 시도하세요.
 checkout-processing-general-error = 결제를 처리하는 동안 예기치 못한 오류가 발생했습니다. 다시 시도하세요.
 
+## Error pages - Payment method failure messages
+
+
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
 

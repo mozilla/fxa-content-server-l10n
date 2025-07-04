@@ -42,6 +42,9 @@ cart-error-currency-not-determined = Vi klarte ikkje å bestemme valutaen for de
 checkout-processing-general-error = Det oppstod ein uventa feil under behandling av betalinga. Prøv igjen.
 cart-total-mismatch-error = Fakturabeløpet er endra. Prøv på nytt.
 
+## Error pages - Payment method failure messages
+
+
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
 

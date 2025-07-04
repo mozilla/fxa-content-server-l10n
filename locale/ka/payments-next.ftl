@@ -44,6 +44,9 @@ checkout-error-contact-support = გთხოვთ მიმართოთ მ
 cart-error-currency-not-determined = ვერ დგინდება ვალუტა ამ შენაძენისთვის, გთხოვთ სცადოთ ხელახლა.
 checkout-processing-general-error = მოულოდნელი შეცდომა წარმოიშვა თქვენი გადახდის დამუშავებისას. გთხოვთ, სცადოთ ხელახლა.
 
+## Error pages - Payment method failure messages
+
+
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
 

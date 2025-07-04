@@ -1947,7 +1947,6 @@ confirm-signup-code-desktop-relay = { -brand-firefox } sẽ điều hướng b�
 signup-heading-v2 = Tạo một mật khẩu
 signup-relay-info = Cần có mật khẩu để quản lý an toàn các email ẩn danh và quyền truy cập vào các công cụ bảo mật của { -brand-mozilla } của bạn.
 signup-sync-info = Đồng bộ hóa mật khẩu, dấu trang và nhiều thứ khác ở mọi nơi bạn sử dụng { -brand-firefox }.
-signup-sync-info-with-payments = Đồng bộ hóa mật khẩu, phương thức thanh toán, dấu trang và nhiều thông tin khác ở mọi nơi bạn sử dụng { -brand-firefox }.
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = Tại sao tôi cần tạo tài khoản này?
 # Link included in a dismissible info banner that is only displayed to Pocket clients

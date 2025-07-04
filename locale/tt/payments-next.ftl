@@ -15,6 +15,9 @@ next-payment-error-manage-subscription-button = Минем язылу белән
 next-payment-error-retry-button = Янәдән тырышып карау
 next-basic-error-message = Нидер булды. Зинһар соңрак тырышып карагыз.
 
+## Error pages - Payment method failure messages
+
+
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
 

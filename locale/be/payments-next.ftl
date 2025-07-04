@@ -16,6 +16,9 @@ next-payment-error-manage-subscription-button = Кіраваць маёй пад
 next-payment-error-retry-button = Паспрабаваць зноў
 next-basic-error-message = Нешта пайшло не так. Калі ласка, паспрабуйце зноў пазней.
 
+## Error pages - Payment method failure messages
+
+
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
 

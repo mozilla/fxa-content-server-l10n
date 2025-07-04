@@ -45,6 +45,9 @@ cart-error-currency-not-determined = Njejsmy mógli pjenjeze za toś tu kup pós
 checkout-processing-general-error = Pśi pśeźěłowanju wašogo płaśenja jo njewótcakana zmólka nastała, pšosym wopytajśo hyšći raz.
 cart-total-mismatch-error = Suma zliceńki jo se změniła. Pšosym wopytajśo hyšći raz.
 
+## Error pages - Payment method failure messages
+
+
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
 

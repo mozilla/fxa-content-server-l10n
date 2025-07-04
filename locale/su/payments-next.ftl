@@ -14,6 +14,9 @@ next-payment-error-manage-subscription-button = Kokolakeun langganan kami
 next-payment-error-retry-button = Pecakan deui
 next-basic-error-message = Aya anu salah. Cobaan deui engké.
 
+## Error pages - Payment method failure messages
+
+
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
 

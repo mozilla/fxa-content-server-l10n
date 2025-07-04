@@ -1861,7 +1861,6 @@ confirm-signup-code-desktop-relay = ‏{ -brand-firefox } ינסה לשלוח א
 signup-heading-v2 = יצירת ססמה
 signup-relay-info = יש צורך בססמה כדי לנהל בצורה מאובטחת את חשבונות הדוא״ל המסוכות שלך ולגשת לכלי האבטחה של { -brand-mozilla }.
 signup-sync-info = סנכרון הססמאות, הסימניות ועוד, בכל מקום בו יש לך את { -brand-firefox }.
-signup-sync-info-with-payments = סנכרון הססמאות, אמצעי התשלום, הסימניות ועוד, בכל מקום בו יש לך את { -brand-firefox }.
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = מדוע עליי ליצור חשבון זה?
 # Link included in a dismissible info banner that is only displayed to Pocket clients

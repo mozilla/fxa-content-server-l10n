@@ -41,6 +41,9 @@ checkout-error-contact-support = 请联系支持以获取帮助。
 cart-error-currency-not-determined = 无法确定此次交易使用的货币，请重试。
 checkout-processing-general-error = 处理付款时发生意外错误，请重试。
 
+## Error pages - Payment method failure messages
+
+
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
 

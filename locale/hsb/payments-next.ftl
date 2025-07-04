@@ -45,6 +45,9 @@ cart-error-currency-not-determined = Njemóžachmy měnu za tutu kup postajić, 
 checkout-processing-general-error = Při předźěłowanju wašeho płaćenja je njewočakowany zmylk nastał, prošu spytajće hišće raz.
 cart-total-mismatch-error = Suma zličbowanki je so změniła. Prošu spytajće hišće raz.
 
+## Error pages - Payment method failure messages
+
+
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
 

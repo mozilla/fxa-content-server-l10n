@@ -42,6 +42,9 @@ cart-error-currency-not-determined = Měnu tohoto nákupu se nám nepodařilo ur
 checkout-processing-general-error = Při zpracování vaší platby došlo k neočekávané chybě, zkuste to prosím znovu.
 cart-total-mismatch-error = Fakturovaná částka se změnila. Zkuste to prosím znovu.
 
+## Error pages - Payment method failure messages
+
+
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
 

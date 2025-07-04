@@ -1984,7 +1984,6 @@ confirm-signup-code-desktop-relay = { -brand-firefox } budźe was wróćo słać
 signup-heading-v2 = Hesło wutworić
 signup-relay-info = Hesło je trěbna, zo byšće swoje maskowane mejlki wěsće rjadować a k wěstotnym nastrojam { -brand-mozilla } přistup měł.
 signup-sync-info = Synchronizujće swoje hesła, zapołožki a wjace wšudźe, hdźež { -brand-firefox } wužiwaće.
-signup-sync-info-with-payments = Synchronizujće swoje hesła, płaćenske metody, zapołožki a wjace wšudźe, hdźež { -brand-firefox } wužiwaće.
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = Čehodla dyrbju tute konto załožić?
 # Link included in a dismissible info banner that is only displayed to Pocket clients

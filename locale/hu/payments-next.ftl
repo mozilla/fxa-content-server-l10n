@@ -44,6 +44,9 @@ cart-error-currency-not-determined = Nem sikerült meghatározni a vásárlás p
 checkout-processing-general-error = Váratlan hiba történt a fizetése feldolgozása során, próbálja újra.
 cart-total-mismatch-error = A számla összege megváltozott. Próbálja meg újra.
 
+## Error pages - Payment method failure messages
+
+
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
 

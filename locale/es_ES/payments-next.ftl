@@ -41,6 +41,9 @@ checkout-error-contact-support = Por favor contacta con el servicio de asistenci
 cart-error-currency-not-determined = No hemos podido determinar la moneda para esta compra, por favor vuelve a intentarlo.
 checkout-processing-general-error = Ha ocurrido un error inesperado al procesar el pago, por favor prueba de nuevo.
 
+## Error pages - Payment method failure messages
+
+
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
 

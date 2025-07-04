@@ -12,6 +12,9 @@
 
 next-basic-error-message = Algo fallou. Inténteo de novo máis tarde.
 
+## Error pages - Payment method failure messages
+
+
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
 

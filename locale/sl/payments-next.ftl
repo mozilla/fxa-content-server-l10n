@@ -42,6 +42,9 @@ cart-error-currency-not-determined = Valute za ta nakup ni bilo mogoče določit
 checkout-processing-general-error = Med obdelavo vašega plačila je prišlo do nepričakovane napake, poskusite znova.
 cart-total-mismatch-error = Znesek na računu se je spremenil. Prosimo, poskusite znova.
 
+## Error pages - Payment method failure messages
+
+
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
 

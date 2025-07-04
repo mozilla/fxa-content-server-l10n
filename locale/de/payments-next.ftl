@@ -42,6 +42,9 @@ cart-error-currency-not-determined = Wir konnten die Währung für diesen Kauf n
 checkout-processing-general-error = Beim Verarbeiten Ihrer Zahlung ist ein unerwarteter Fehler aufgetreten, versuchen Sie es bitte erneut.
 cart-total-mismatch-error = Der Rechnungsbetrag hat sich geändert. Bitte versuchen Sie es erneut.
 
+## Error pages - Payment method failure messages
+
+
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
 

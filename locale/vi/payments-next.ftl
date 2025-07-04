@@ -41,6 +41,9 @@ checkout-error-contact-support = Vui lòng liên hệ với hỗ trợ để ch�
 cart-error-currency-not-determined = Chúng tôi không thể xác định loại tiền tệ cho giao dịch mua này, vui lòng thử lại.
 checkout-processing-general-error = Đã xảy ra lỗi không mong muốn khi xử lý thanh toán của bạn, vui lòng thử lại.
 
+## Error pages - Payment method failure messages
+
+
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
 

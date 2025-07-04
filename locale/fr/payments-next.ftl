@@ -42,6 +42,9 @@ cart-error-currency-not-determined = Nous n’avons pas pu déterminer la devise
 checkout-processing-general-error = Une erreur inattendue s’est produite lors du traitement de votre paiement, veuillez réessayer.
 cart-total-mismatch-error = Le montant de la facture a changé. Veuillez réessayer.
 
+## Error pages - Payment method failure messages
+
+
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
 

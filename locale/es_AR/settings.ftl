@@ -1969,7 +1969,6 @@ confirm-signup-code-desktop-relay = { -brand-firefox } tratará de volver donde 
 signup-heading-v2 = Crear una contraseña
 signup-relay-info = Se necesita una contraseña para administrar de forma segura tus correos electrónicos enmascarados y acceder a las herramientas de seguridad de { -brand-mozilla }.
 signup-sync-info = Sincronizá tus contraseñas, marcadores y más en cualquier lugar donde usés { -brand-firefox }.
-signup-sync-info-with-payments = Sincronizá tus contraseñas, métodos de pago, marcadores y más en cualquier lugar donde usés { -brand-firefox }.
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = ¿Por qué necesito crear esta cuenta?
 # Link included in a dismissible info banner that is only displayed to Pocket clients

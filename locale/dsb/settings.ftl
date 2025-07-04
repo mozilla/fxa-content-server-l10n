@@ -1982,7 +1982,6 @@ confirm-signup-code-desktop-relay = { -brand-firefox } buźo was slědk słaś, 
 signup-heading-v2 = Gronidło napóraś
 signup-relay-info = Gronidło jo trjebna, aby swóje maskěrowane mejlki wěsće zastojaś a k wěstotnym rědam { -brand-mozilla } pśistup měł.
 signup-sync-info = Synchronizěrujśo swóje gronidła, cytańske znamjenja a wěcej wšuźi, źož { -brand-firefox } wužywaśo.
-signup-sync-info-with-payments = Synchronizěrujśo swóje gronidła, płaśeńske metody, cytańske znamjenja a wěcej wšuźi, źož { -brand-firefox } wužywaśo.
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = Cogodla musym toś to konto załožyś?
 # Link included in a dismissible info banner that is only displayed to Pocket clients

@@ -29,6 +29,9 @@ checkout-error-contact-support-button = Kontaktiraj podršku
 checkout-error-not-eligible = Ne ispunjavaš uvjete za pretplatu na ovaj proizvod – kontaktiraj podršku kako bismo ti pomogli.
 checkout-error-contact-support = Kontaktiraj podršku kako bismo ti pomogli.
 
+## Error pages - Payment method failure messages
+
+
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
 

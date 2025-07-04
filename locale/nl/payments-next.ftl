@@ -42,6 +42,9 @@ cart-error-currency-not-determined = We kunnen de valuta voor deze aankoop niet 
 checkout-processing-general-error = Er is een onverwachte fout opgetreden tijdens het verwerken van uw betaling, probeer het opnieuw.
 cart-total-mismatch-error = Het factuurbedrag is gewijzigd. Probeer het opnieuw.
 
+## Error pages - Payment method failure messages
+
+
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
 

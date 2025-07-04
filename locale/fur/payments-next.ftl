@@ -41,6 +41,9 @@ checkout-error-contact-support = Contate la assistence par ricevi il nestri juto
 cart-error-currency-not-determined = Nol è stât pussibil determinâ la valude par chest acuist. Torne prove.
 checkout-processing-general-error = Al è capitât un erôr inspietât dilunc la elaborazion dal paiament, torne prove.
 
+## Error pages - Payment method failure messages
+
+
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
 

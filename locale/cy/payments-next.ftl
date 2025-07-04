@@ -42,6 +42,9 @@ cart-error-currency-not-determined = Doeddem ni ddim yn gallu pennu'r arian cyfr
 checkout-processing-general-error = Mae gwall annisgwyl wedi digwydd wrth brosesu'ch taliad, ceisiwch eto.
 cart-total-mismatch-error = Mae swm yr anfoneb wedi newid. Ceisiwch eto.
 
+## Error pages - Payment method failure messages
+
+
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
 

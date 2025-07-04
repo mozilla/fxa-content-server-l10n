@@ -15,6 +15,9 @@ next-payment-error-manage-subscription-button = Halda tellimust
 next-payment-error-retry-button = Proovi uuesti
 next-basic-error-message = Midagi läks valesti. Palun proovi hiljem uuesti.
 
+## Error pages - Payment method failure messages
+
+
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
 

@@ -33,6 +33,9 @@ checkout-error-not-eligible = Et voi tilata tätä tuotetta - ota yhteys tukeemm
 checkout-error-already-subscribed = Olet jo tilannut tämän tuotteen.
 checkout-error-contact-support = Ota yhteys tukeen, jotta voimme auttaa sinua.
 
+## Error pages - Payment method failure messages
+
+
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
 

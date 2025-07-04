@@ -16,6 +16,9 @@ next-payment-error-manage-subscription-button = مدیریت اشتراک من
 next-payment-error-retry-button = تلاش دوباره
 next-basic-error-message = مشکلی پیش آمد. لطفاً بعداً دوباره امتحان کنید.
 
+## Error pages - Payment method failure messages
+
+
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
 

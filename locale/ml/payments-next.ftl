@@ -21,6 +21,9 @@ checkout-error-boundary-basic-error-message = എന്തോ കുഴപ്പ
 next-payment-error-retry-button = വീണ്ടും ശ്രമിയ്ക്കുക
 next-basic-error-message = എന്തോ ഒരു കുഴപ്പമുണ്ടായി. ദയവായി പിന്നീടു് വീണ്ടും ശ്രമിച്ചു നോക്കുക
 
+## Error pages - Payment method failure messages
+
+
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
 

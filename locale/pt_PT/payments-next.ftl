@@ -42,6 +42,9 @@ cart-error-currency-not-determined = Não conseguimos determinar a moeda para es
 checkout-processing-general-error = Ocorreu um erro inesperado ao processar o seu pagamento, por favor, tente novamente.
 cart-total-mismatch-error = O valor da fatura foi alterado. Por favor, tente novamente.
 
+## Error pages - Payment method failure messages
+
+
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
 

@@ -33,6 +33,9 @@ checkout-error-contact-support-button = Contactar l’agid
 checkout-error-not-eligible = Ti n’has betg il dretg dad abunar quest product – contactescha per plaschair l’agid per che nus possian ta gidar.
 checkout-error-contact-support = Contactescha per plaschair l’agid per che nus possian ta gidar.
 
+## Error pages - Payment method failure messages
+
+
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
 

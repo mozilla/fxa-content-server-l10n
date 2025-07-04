@@ -15,6 +15,9 @@ payment-method-header-second-step-next = 2. { next-payment-method-header }
 ## Common strings used in multiple pages
 
 
+## Error pages - Payment method failure messages
+
+
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
 

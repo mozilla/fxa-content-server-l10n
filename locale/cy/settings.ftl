@@ -1987,7 +1987,6 @@ confirm-signup-code-desktop-relay = Bydd { -brand-firefox } yn ceisio eich anfon
 signup-heading-v2 = Crëwch gyfrinair
 signup-relay-info = Mae angen cyfrinair i reoli'ch e-byst ag arallenw yn ddiogel a chael mynediad at offer diogelwch { -brand-mozilla }.
 signup-sync-info = Cydweddwch eich cyfrineiriau a nodau tudalen a rhagor ym mhob man rydych yn defnyddio { -brand-firefox }.
-signup-sync-info-with-payments = Cydweddwch eich cyfrineiriau, dulliau talu a nodau tudalen, a rhagor ym mhob man rydych yn defnyddio { -brand-firefox }.
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = Pam fod angen i mi greu'r cyfrif hwn?
 # Link included in a dismissible info banner that is only displayed to Pocket clients

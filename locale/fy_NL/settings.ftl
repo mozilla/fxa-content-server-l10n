@@ -1977,7 +1977,6 @@ confirm-signup-code-desktop-relay = { -brand-firefox } probearret jo werom te st
 signup-heading-v2 = Meitsje in wachtwurd oan
 signup-relay-info = Der is in wachtwurd nedich om jo maskearre e-mailadressen feilich te behearen en tagong te krijen ta de befeiligingshelpmiddelen fan { -brand-mozilla }.
 signup-sync-info = Syngronisearje jo wachtwurden, blêdwizers en mear, oeral wêr't jo { -brand-firefox } brûke.
-signup-sync-info-with-payments = Syngronisearje jo wachtwurden, betellingsmetoaden, blêdwizers en mear, oeral wêr't jo { -brand-firefox } brûke.
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = Wêrom moat ik dizze account oanmeitsje?
 # Link included in a dismissible info banner that is only displayed to Pocket clients

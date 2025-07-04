@@ -41,6 +41,9 @@ checkout-error-contact-support = Eñe’ẽ pytyvõhára ndive roipytyvõkuaa ha
 cart-error-currency-not-determined = Ndoroikuaái mba’e virúpa eguereko ejogua hag̃ua, ikatúpa eha’ãjey ag̃ave.
 checkout-processing-general-error = Oiko peteĩ jejavy eha’ãrõ’ỹva ehepyme’ẽnguévo. Eha’ãjey ag̃amieve.
 
+## Error pages - Payment method failure messages
+
+
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
 

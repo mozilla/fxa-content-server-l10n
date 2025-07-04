@@ -12,6 +12,9 @@
 
 next-payment-error-retry-button = మళ్ళీ ప్రయత్నించండి
 
+## Error pages - Payment method failure messages
+
+
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
 

@@ -27,6 +27,9 @@ next-basic-error-message = Чизе нодуруст иҷро шуд. Лутфа
 checkout-error-contact-support-button = Дастаи дастгирии корбарон
 checkout-error-already-subscribed = Шумо аллакай ба ин маҳсул обуна шудаед.
 
+## Error pages - Payment method failure messages
+
+
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
 

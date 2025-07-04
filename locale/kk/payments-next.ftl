@@ -23,6 +23,9 @@ next-payment-error-retry-button = Қайтадан көру
 next-basic-error-message = Бірнәрсе қате кетті. Кейінірек қайталап көріңіз.
 checkout-error-contact-support-button = Қолдау қызметіне хабарласу
 
+## Error pages - Payment method failure messages
+
+
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
 

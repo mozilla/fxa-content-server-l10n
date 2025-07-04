@@ -1922,7 +1922,6 @@ confirm-signup-code-desktop-relay = 登入後，{ -brand-firefox } 將嘗試使�
 signup-heading-v2 = 設定密碼
 signup-relay-info = 需要設定密碼，才能安全地管理轉寄信箱，並使用 { -brand-mozilla } 的安全工具。
 signup-sync-info = 在使用 { -brand-firefox } 的所有地方同步您的密碼、書籤與更多資料。
-signup-sync-info-with-payments = 在使用 { -brand-firefox } 的所有地方同步您的密碼、付款方式、書籤與更多資料。
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = 為什麼需要建立此帳號？
 # Link included in a dismissible info banner that is only displayed to Pocket clients

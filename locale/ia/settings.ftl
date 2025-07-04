@@ -1971,7 +1971,6 @@ confirm-signup-code-desktop-relay = { -brand-firefox } tentara inviar te retro p
 signup-heading-v2 = Crear un contrasigno
 signup-relay-info = Un contrasigno es necesse pro gerer in modo secur tu alias de posta electronic e acceder al instrumentos de securitate de { -brand-mozilla }.
 signup-sync-info = Synchronisa tu contrasignos, marcapaginas e altero ubique tu usa { -brand-firefox }.
-signup-sync-info-with-payments = Synchronisa tu contrasignos, methodos de pagamento, marcapaginas e altero ubique tu usa { -brand-firefox }.
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = Perque debe io crear iste conto?
 # Link included in a dismissible info banner that is only displayed to Pocket clients

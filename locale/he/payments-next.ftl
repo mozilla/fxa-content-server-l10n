@@ -38,6 +38,9 @@ cart-error-currency-not-determined = לא הצלחנו לקבוע את המטב�
 checkout-processing-general-error = אירעה שגיאה לא צפויה בעת עיבוד התשלום שלך, נא לנסות שוב.
 cart-total-mismatch-error = סכום החשבונית השתנה. נא לנסות שוב.
 
+## Error pages - Payment method failure messages
+
+
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
 

@@ -41,6 +41,9 @@ checkout-error-contact-support = Size yardımcı olabilmemiz için lütfen deste
 cart-error-currency-not-determined = Bu satın alma işleminin para birimini belirleyemedik, lütfen yeniden deneyin.
 checkout-processing-general-error = Ödemeniz işlenirken beklenmedik bir hata oluştu, lütfen yeniden deneyin.
 
+## Error pages - Payment method failure messages
+
+
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
 

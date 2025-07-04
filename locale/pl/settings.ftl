@@ -1966,7 +1966,6 @@ confirm-signup-code-desktop-relay = { -brand-firefox } po zalogowaniu spróbuje 
 signup-heading-v2 = Utwórz hasło
 signup-relay-info = Hasło jest potrzebne do bezpiecznego zarządzania zamaskowanymi adresami e-mail i do dostępu do narzędzi bezpieczeństwa { -brand-mozilla(case: "gen") }.
 signup-sync-info = Synchronizuj hasła, zakładki i nie tylko wszędzie tam, gdzie używasz { -brand-firefox(case: "acc") }.
-signup-sync-info-with-payments = Synchronizuj hasła, metody płatności, zakładki i inne dane wszędzie tam, gdzie używasz { -brand-firefox(case: "acc") }.
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = Dlaczego muszę założyć to konto?
 # Link included in a dismissible info banner that is only displayed to Pocket clients

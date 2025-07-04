@@ -42,6 +42,9 @@ cart-error-currency-not-determined = 無法確認此次購買使用的貨幣，�
 checkout-processing-general-error = 處理付款時發生未知錯誤，請再試一次。
 cart-total-mismatch-error = 金額已變動，請再試一次。
 
+## Error pages - Payment method failure messages
+
+
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
 

@@ -1951,7 +1951,6 @@ confirm-signup-code-desktop-relay = { -brand-firefox } ეცდება შე
 signup-heading-v2 = პაროლის შექმნა
 signup-relay-info = პაროლი საჭიროა შენიღბული ელფოსტის უსაფრთხოდ სამართავად და დაცვის საშუალებებთან წვდომისთვის, რომელთაც უზრუნველყოფს { -brand-mozilla }.
 signup-sync-info = დაასინქრონეთ თქვენი პაროლები, სანიშნები და სხვა მონაცემები ყველგან, სადაც კი გიყენიათ { -brand-firefox }.
-signup-sync-info-with-payments = დაასინქრონეთ თქვენი პაროლები, გადახდის საშუალებები, სანიშნები და სხვა მონაცემები ყველგან, სადაც კი გიყენიათ { -brand-firefox }.
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = რისთვისაა საჭირო ანგარიშის შექმნა?
 # Link included in a dismissible info banner that is only displayed to Pocket clients

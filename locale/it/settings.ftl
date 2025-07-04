@@ -1952,7 +1952,6 @@ confirm-signup-code-desktop-relay = Dopo aver effettuato l’accesso, { -brand-f
 signup-heading-v2 = Crea una password
 signup-relay-info = È necessaria una password per gestire in modo sicuro i tuoi alias di posta elettronica e accedere agli strumenti di sicurezza di { -brand-mozilla }.
 signup-sync-info = Sincronizza password, segnalibri e altro ancora ovunque utilizzi { -brand-firefox }.
-signup-sync-info-with-payments = Sincronizza password, metodi di pagamento, segnalibri e altro ancora ovunque utilizzi { -brand-firefox }.
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = Perché devo creare questo account?
 # Link included in a dismissible info banner that is only displayed to Pocket clients

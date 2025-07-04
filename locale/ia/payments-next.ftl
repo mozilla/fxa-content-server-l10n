@@ -42,6 +42,9 @@ cart-error-currency-not-determined = Impossibile definir le moneta pro iste comp
 checkout-processing-general-error = Impossibile definir le moneta pro iste compra, retenta.
 cart-total-mismatch-error = Le amontar de factura ha cambiate. Retenta.
 
+## Error pages - Payment method failure messages
+
+
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
 

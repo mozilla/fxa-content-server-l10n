@@ -16,6 +16,9 @@ next-payment-error-manage-subscription-button = Управљај претпла�
 next-payment-error-retry-button = Покушај поново
 next-basic-error-message = Нешто није у реду. Покушајте поново касније.
 
+## Error pages - Payment method failure messages
+
+
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
 

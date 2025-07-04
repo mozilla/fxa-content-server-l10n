@@ -41,6 +41,9 @@ checkout-error-contact-support = Prosimy o kontakt z zespołem wsparcia, abyś
 cart-error-currency-not-determined = Nie możemy ustalić waluty dla tego zakupu. Spróbuj ponownie.
 checkout-processing-general-error = Wystąpił nieoczekiwany błąd podczas przetwarzania płatności, proszę spróbować ponownie.
 
+## Error pages - Payment method failure messages
+
+
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
 

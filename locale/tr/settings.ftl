@@ -1951,7 +1951,6 @@ confirm-signup-code-desktop-relay = { -brand-firefox }, giriş yaptıktan sonra 
 signup-heading-v2 = Parola oluşturun
 signup-relay-info = Maskeli e-postalarınızı güvenli bir şekilde yönetmek ve { -brand-mozilla }’nın güvenlik araçlarına erişmek için bir parolaya ihtiyacınız var.
 signup-sync-info = { -brand-firefox }’u kullandığınız her yerde parolalarınızı, yer imlerinizi ve daha fazlasını eşitleyin.
-signup-sync-info-with-payments = { -brand-firefox }’u kullandığınız her yerde parolalarınızı, ödeme yöntemlerinizi, yer imlerinizi ve daha fazlasını eşitleyin.
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = Neden bu hesabı oluşturmam gerekiyor?
 # Link included in a dismissible info banner that is only displayed to Pocket clients

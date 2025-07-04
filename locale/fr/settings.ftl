@@ -1961,7 +1961,6 @@ confirm-signup-code-desktop-relay = Une fois connecté·e, { -brand-firefox } te
 signup-heading-v2 = Créer un mot de passe
 signup-relay-info = Un mot de passe est nécessaire pour gérer en toute sécurité vos alias de messagerie et accéder aux outils de sécurité de { -brand-mozilla }.
 signup-sync-info = Synchronisez vos mots de passe, marque-pages, et d’autres données, partout où vous utilisez { -brand-firefox }.
-signup-sync-info-with-payments = Synchronisez vos mots de passe, modes de paiement, marque-pages et bien d’autres choses partout où vous utilisez { -brand-firefox }.
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = Pourquoi dois-je créer ce compte ?
 # Link included in a dismissible info banner that is only displayed to Pocket clients

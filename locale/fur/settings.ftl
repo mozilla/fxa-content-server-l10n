@@ -1967,7 +1967,6 @@ confirm-signup-code-desktop-relay = Dopo fat l'acès, { -brand-firefox } al cira
 signup-heading-v2 = Cree une password
 signup-relay-info = E covente une password par gjestî in sigurece lis tôs mascaris di pueste e acedi ai struments di sigurece di { -brand-mozilla }.
 signup-sync-info = Sincronize passwords, segnelibris e altri dapardut là che tu dopris { -brand-firefox }.
-signup-sync-info-with-payments = Sincronize passwords, metodis di paiament, segnelibris e altri dapardut là che tu dopris { -brand-firefox }.
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = Parcè scuegnio creâ chest account?
 # Link included in a dismissible info banner that is only displayed to Pocket clients

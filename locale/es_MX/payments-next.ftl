@@ -20,6 +20,9 @@ next-payment-error-manage-subscription-button = Administrar mi suscripción
 next-payment-error-retry-button = Intentar de nuevo
 next-basic-error-message = Algo salió mal. Por favor, inténtalo de nuevo más tarde.
 
+## Error pages - Payment method failure messages
+
+
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
 

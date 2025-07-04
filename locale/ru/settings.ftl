@@ -1976,7 +1976,6 @@ confirm-signup-code-desktop-relay = { -brand-firefox } попытается от
 signup-heading-v2 = Создать пароль
 signup-relay-info = Пароль необходим для безопасного управления замаскированными адресами электронной почты и доступа к инструментам безопасности { -brand-mozilla }.
 signup-sync-info = Синхронизируйте ваши пароли, закладки и пр., где бы вы ни использовали { -brand-firefox }.
-signup-sync-info-with-payments = Синхронизируйте ваши пароли, способы оплаты, закладки и пр., где бы вы ни использовали { -brand-firefox }.
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = Зачем мне нужно создавать этот аккаунт?
 # Link included in a dismissible info banner that is only displayed to Pocket clients

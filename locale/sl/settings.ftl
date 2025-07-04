@@ -1982,7 +1982,6 @@ confirm-signup-code-desktop-relay = Po prijavi vas bo { -brand-firefox } poskusi
 signup-heading-v2 = Ustvarite geslo
 signup-relay-info = Geslo je potrebno za varno upravljanje zamaskirane e-pošte in dostop do { -brand-mozilla(sklon: "rodilnik") } varnostnih orodij.
 signup-sync-info = Sinhronizirajte gesla, zaznamke in ostale podatke povsod, kjer uporabljate { -brand-firefox(sklon: "tozilnik") }.
-signup-sync-info-with-payments = Sinhronizirajte gesla, plačilna sredstva, zaznamke in ostale podatke povsod, kjer uporabljate { -brand-firefox(sklon: "tozilnik") }.
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = Zakaj moram ustvariti ta račun?
 # Link included in a dismissible info banner that is only displayed to Pocket clients

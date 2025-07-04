@@ -42,6 +42,9 @@ cart-error-currency-not-determined = Нам не удалось определи
 checkout-processing-general-error = При обработке платежа произошла непредвиденная ошибка. Повторите попытку.
 cart-total-mismatch-error = Сумма счёта изменилась. Повторите попытку.
 
+## Error pages - Payment method failure messages
+
+
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
 

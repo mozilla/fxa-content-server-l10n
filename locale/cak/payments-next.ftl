@@ -14,6 +14,9 @@ next-payment-error-manage-subscription-button = Tinuk'samajïx rutz'ib'axik nub'
 next-payment-error-retry-button = Titojtob'ëx chik
 next-basic-error-message = K'o man xel ta ütz. Tatojtob'ej chik jub'a' chik na.
 
+## Error pages - Payment method failure messages
+
+
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
 
