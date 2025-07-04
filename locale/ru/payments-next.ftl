@@ -44,6 +44,11 @@ cart-total-mismatch-error = Сумма счёта изменилась. Повт
 
 ## Error pages - Payment method failure messages
 
+intent-card-error = Ваша транзакция не может быть обработана. Пожалуйста, проверьте данные своей банковской карты и попробуйте ещё раз.
+intent-expired-card-error = Похоже, срок действия вашей банковской карты истёк. Попробуйте другую карту.
+intent-payment-error-try-again = Хм. При авторизации платежа произошла ошибка. Повторите попытку или свяжитесь с издателем карты.
+intent-payment-error-get-in-touch = Хм. При авторизации платежа произошла ошибка. Свяжитесь с издателем вашей карты.
+intent-payment-error-generic = При обработке платежа произошла непредвиденная ошибка. Повторите попытку.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
