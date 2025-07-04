@@ -1717,6 +1717,9 @@ signin-password-button-label = 密碼
 signin-desktop-relay = 登入後，{ -brand-firefox } 將嘗試使用您的轉寄信箱帶您回到原網站。
 signin-code-expired-error = 驗證碼已失效，請重新登入。
 signin-account-locked-banner-heading = 重設您的密碼
+signin-account-locked-banner-description = 已鎖定您的帳號，避免遭受可疑活動影響。
+# This link points to https://accounts.firefox.com/reset_password
+signin-account-locked-banner-link = 請重設密碼即可登入
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
@@ -1923,6 +1926,7 @@ confirm-signup-code-desktop-relay = 登入後，{ -brand-firefox } 將嘗試使�
 signup-heading-v2 = 設定密碼
 signup-relay-info = 需要設定密碼，才能安全地管理轉寄信箱，並使用 { -brand-mozilla } 的安全工具。
 signup-sync-info = 在使用 { -brand-firefox } 的所有地方同步您的密碼、書籤與更多資料。
+signup-sync-info-with-payment = 在使用 { -brand-firefox } 的所有地方同步您的密碼、付款方式、書籤與更多資料。
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = 為什麼需要建立此帳號？
 # Link included in a dismissible info banner that is only displayed to Pocket clients
