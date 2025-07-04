@@ -251,6 +251,9 @@ subscriptionUpdatePayment = Er mwyn atal unrhyw darfu ar eich gwasanaeth, <a dat
 subscriptionUpdatePayment-plaintext = Er mwyn atal unrhyw darfu ar eich gwasanaeth, diweddarwch eich manylion talu cyn gynted â phosibl.
 # Variables:
 #  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-3 = Am ragor o wybodaeth, ewch i'n <a data-l10n-name="supportLink">{ -brand-mozilla } Cefnogaeth</a>.
+# Variables:
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 support-message-plaintext = Am ragor o wybodaeth, ewch i Cefnogaeth: { -brand-mozilla } { $supportUrl }.
 # Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox

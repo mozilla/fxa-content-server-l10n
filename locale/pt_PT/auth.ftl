@@ -251,6 +251,9 @@ subscriptionUpdatePayment = Para evitar qualquer interrupção no seu serviço, 
 subscriptionUpdatePayment-plaintext = Para evitar qualquer interrupção no seu serviço, por favor, atualize a sua informação de pagamento assim que possível:
 # Variables:
 #  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-3 = Para mais informação, visite o <a data-l10n-name="supportLink">Apoio da { -brand-mozilla }</a>.
+# Variables:
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 support-message-plaintext = Para mais informação, visite o Apoio da { -brand-mozilla }: { $supportUrl }.
 # Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox

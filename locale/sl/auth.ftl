@@ -251,6 +251,9 @@ subscriptionUpdatePayment = Da preprečite kakršnokoli prekinitev storitve, či
 subscriptionUpdatePayment-plaintext = Da preprečite kakršnokoli prekinitev storitve, čim prej posodobite svoje podatke za plačilo:
 # Variables:
 #  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-3 = Za več informacij obiščite <a data-l10n-name="supportLink">Podporo { -brand-mozilla }</a>.
+# Variables:
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 support-message-plaintext = Za več informacij obiščite Podporo { -brand-mozilla }: { $supportUrl }.
 # Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
