@@ -251,9 +251,6 @@ subscriptionUpdatePayment = 為了避免服務中斷，請及早<a data-l10n-nam
 subscriptionUpdatePayment-plaintext = 為了避免服務中斷，請及早更新付款資訊：
 # Variables:
 #  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
-support-message-3 = 若需更多資訊，請造訪 <a data-l10n-name="supportLink">{ -brand-mozilla } 技術支援站</a>。
-# Variables:
-#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 support-message-plaintext = 若需更多資訊，請造訪 { -brand-mozilla } 技術支援站：{ $supportUrl }。
 # Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox

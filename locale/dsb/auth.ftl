@@ -253,9 +253,6 @@ subscriptionUpdatePayment = Aby se pśetergnjenja swójeje słužby wobinuł, <a
 subscriptionUpdatePayment-plaintext = Aby se pśetergnjenja swójeje słužby wobinuł, aktualizěrujśo pšosym swóje płaśeńske informacije tak skóro ako móžno:
 # Variables:
 #  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
-support-message-3 = Za dalšne informacije woglědajśo s k <a data-l10n-name="supportLink">pomocy { -brand-mozilla }</a>
-# Variables:
-#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 support-message-plaintext = Za dalšne informacije woglědajśo se k pomocy { -brand-mozilla }: { $supportUrl }
 # Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox

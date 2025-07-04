@@ -253,9 +253,6 @@ subscriptionUpdatePayment = Werk zo snel mogelijk <a data-l10n-name="updateBilli
 subscriptionUpdatePayment-plaintext = Werk zo snel mogelijk uw betalingsgegevens bij om onderbreking van uw service te voorkomen:
 # Variables:
 #  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
-support-message-3 = Bezoek voor meer info <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
-# Variables:
-#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 support-message-plaintext = Ga voor meer informatie naar { -brand-mozilla } Support: { $supportUrl }.
 # Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox

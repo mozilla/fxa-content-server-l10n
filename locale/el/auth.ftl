@@ -253,9 +253,6 @@ subscriptionUpdatePayment = Για την αποφυγή τυχόν διακοπ
 subscriptionUpdatePayment-plaintext = Για την αποφυγή τυχόν διακοπών στην υπηρεσία σας, ενημερώστε τα στοιχεία πληρωμής σας το συντομότερο δυνατό:
 # Variables:
 #  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
-support-message-3 = Για περισσότερες πληροφορίες, επισκεφθείτε την <a data-l10n-name="supportLink">Υποστήριξη { -brand-mozilla }</a>.
-# Variables:
-#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 support-message-plaintext = Για περισσότερες πληροφορίες, επισκεφθείτε την Υποστήριξη { -brand-mozilla }: { $supportUrl }.
 # Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
