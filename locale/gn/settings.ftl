@@ -1756,6 +1756,8 @@ signin-desktop-relay = { -brand-firefox } orahaukajeýta eimehápe eiporu hag̃u
 signin-code-expired-error = Ayvu hu’ãmava. Emoñepyrũjey tembiapo.
 signin-account-locked-banner-heading = Eguerujey ne ñe’ẽñemi
 signin-account-locked-banner-description = Rojoko ne mba’ete ani hag̃ua oiko hese mba’e ivaíva.
+# This link points to https://accounts.firefox.com/reset_password
+signin-account-locked-banner-link = Erujey ne ñe’ẽñemi eike hag̃ua
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
@@ -1963,6 +1965,7 @@ confirm-signup-code-desktop-relay = { -brand-firefox } orahaukajeýta eimehápe 
 signup-heading-v2 = Emoheñói ñe’ẽñemi
 signup-relay-info = Tekotevẽ ñe’ẽñemi eñangareko hag̃ua tekorosãme ñanduti veve hovamo’ãvare ha eike { -brand-mozilla } rembiporu hekorosãvape.
 signup-sync-info = Embojuehe ñe’ẽñemi, techaukaha ha hetave oimeraẽ tenda eiporuhápe { -brand-firefox }.
+signup-sync-info-with-payment = Embojuehe ñe’ẽñemi, jepagarã, techaukaha ha hetave oimeraẽ tenda eiporuhápe { -brand-firefox }.
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = ¿Mba’ére amoheñoiva’erã ko mba’ete?
 # Link included in a dismissible info banner that is only displayed to Pocket clients

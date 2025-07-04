@@ -392,10 +392,13 @@ password-strength-balloon-stay-safe-tips = Var säker — Återanvänd inte lös
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password
 
+password-strength-long-instruction = Välj ett starkt lösenord som du inte har använt på andra webbplatser. Se till att det uppfyller säkerhetskraven:
+password-strength-short-instruction = Välj ett starkt lösenord:
 password-strength-inline-min-length = Minst 8 tecken
 password-strength-inline-not-email = Inte din e-postadress
 password-strength-inline-not-common = Inte ett vanligt använt lösenord
 password-strength-inline-confirmed-must-match = Bekräftelse matchar det nya lösenordet
+password-strength-inline-passwords-match = Lösenorden matchar
 
 ## Notification Promo Banner component
 
@@ -1765,6 +1768,10 @@ signin-password-button-label = Lösenord
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-desktop-relay = { -brand-firefox } försöker skicka dig tillbaka för att använda ett e-postalias efter du loggat in.
 signin-code-expired-error = Koden upphörde. Vänligen logga in igen.
+signin-account-locked-banner-heading = Återställ lösenordet
+signin-account-locked-banner-description = Vi låste ditt konto för att skydda det från misstänkt aktivitet.
+# This link points to https://accounts.firefox.com/reset_password
+signin-account-locked-banner-link = Återställ lösenordet för att logga in
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
@@ -1975,6 +1982,7 @@ confirm-signup-code-desktop-relay = { -brand-firefox } försöker skicka dig til
 signup-heading-v2 = Skapa ett lösenord
 signup-relay-info = Ett lösenord behövs för att säkert hantera dina maskerade e-postmeddelanden och komma åt { -brand-mozilla }:s säkerhetsverktyg.
 signup-sync-info = Synkronisera dina lösenord, bokmärken och mer överallt där du använder { -brand-firefox }.
+signup-sync-info-with-payment = Synkronisera dina lösenord, betalningsmetoder, bokmärken och mer, överallt där du använder { -brand-firefox }.
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = Varför måste jag skapa det här kontot?
 # Link included in a dismissible info banner that is only displayed to Pocket clients
