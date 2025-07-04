@@ -1764,6 +1764,10 @@ signin-password-button-label = Passord
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-desktop-relay = { -brand-firefox } vil prøve å sende deg tilbake for å bruke eit e-postalias etter at du har logga på.
 signin-code-expired-error = Koden har gått ut. Logg inn på nytt.
+signin-account-locked-banner-heading = Tilbakestill passord
+signin-account-locked-banner-description = Vi låste kontoen din for å verne han mot mistenkjeleg aktivitet.
+# This link points to https://accounts.firefox.com/reset_password
+signin-account-locked-banner-link = Tilbakestill passord for å logge inn
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
@@ -1974,6 +1978,7 @@ confirm-signup-code-desktop-relay = { -brand-firefox } vil prøve å sende deg t
 signup-heading-v2 = Opprett passord
 signup-relay-info = Eit passord er nødvendig for å sikkert administrere dei maskerte e-postane dine og få tilgang til tryggingsverktøya til { -brand-mozilla }.
 signup-sync-info = Synkroniser passorda, bokmerka, og meir, overalt der du brukar { -brand-firefox }.
+signup-sync-info-with-payment = Synkroniser passorda, betalingsmetodar, bokmerka, og meir, overalt der du brukar { -brand-firefox }.
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = Kvifor må eg opprette denne kontoen?
 # Link included in a dismissible info banner that is only displayed to Pocket clients
