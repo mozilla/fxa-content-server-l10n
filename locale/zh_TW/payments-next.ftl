@@ -44,6 +44,7 @@ cart-total-mismatch-error = 金額已變動，請再試一次。
 
 ## Error pages - Payment method failure messages
 
+intent-card-error = 無法處理本交易。請檢查您的信用卡資訊後再試一次。
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
