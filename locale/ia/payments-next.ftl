@@ -44,6 +44,11 @@ cart-total-mismatch-error = Le amontar de factura ha cambiate. Retenta.
 
 ## Error pages - Payment method failure messages
 
+intent-card-error = Tu transaction non pote esser processate. Verifica le informationes de tu carta de credito e reproba.
+intent-expired-card-error = Il pare que tu carta de credito ha expirate. Prova un altere carta.
+intent-payment-error-try-again = Hmm. Il habeva un problema durante le autorisation de tu pagamento. Reproba o contacta tu emissor de carta.
+intent-payment-error-get-in-touch = Hmm. Il habeva un problema durante le autorisation de tu pagamento. Contacta tu emissor de carta.
+intent-payment-error-generic = Un error impreviste ha occurrite durante le elaboration de tu pagamento, reproba.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
