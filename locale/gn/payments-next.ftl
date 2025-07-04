@@ -40,9 +40,12 @@ checkout-error-already-subscribed = Eñemboheraguapýma ko apopyrépe g̃uarã.
 checkout-error-contact-support = Eñe’ẽ pytyvõhára ndive roipytyvõkuaa hag̃ua.
 cart-error-currency-not-determined = Ndoroikuaái mba’e virúpa eguereko ejogua hag̃ua, ikatúpa eha’ãjey ag̃ave.
 checkout-processing-general-error = Oiko peteĩ jejavy eha’ãrõ’ỹva ehepyme’ẽnguévo. Eha’ãjey ag̃amieve.
+cart-total-mismatch-error = Pe kuatia ñemure ohupytýra iñambue. Eha’ã jey ag̃ave.
 
 ## Error pages - Payment method failure messages
 
+intent-card-error = Pe jejogua noñemoneĩjepéi. Ehechajey pe marandu kuatia’atã ñemurã rehegua ha eha’ãjey uperire.
+intent-expired-card-error = Nde kuatia’atã ñemurã ndoikovéima. Eiporu ambue kuatia’atã.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
