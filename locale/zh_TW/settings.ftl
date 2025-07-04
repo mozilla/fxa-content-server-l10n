@@ -1716,6 +1716,7 @@ signin-password-button-label = 密碼
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-desktop-relay = 登入後，{ -brand-firefox } 將嘗試使用您的轉寄信箱帶您回到原網站。
 signin-code-expired-error = 驗證碼已失效，請重新登入。
+signin-account-locked-banner-heading = 重設您的密碼
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
