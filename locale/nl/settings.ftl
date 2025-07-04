@@ -1763,6 +1763,7 @@ signin-password-button-label = Wachtwoord
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-desktop-relay = { -brand-firefox } probeert u terug te sturen om een e-mailmasker te gebruiken nadat u zich hebt aangemeld.
 signin-code-expired-error = Code verlopen. Meld u opnieuw aan.
+signin-account-locked-banner-heading = Herinitialiseer uw wachtwoord
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
@@ -1973,6 +1974,7 @@ confirm-signup-code-desktop-relay = { -brand-firefox } probeert u terug te sture
 signup-heading-v2 = Maak een wachtwoord aan
 signup-relay-info = Er is een wachtwoord nodig om uw gemaskeerde e-mailadressen veilig te beheren en toegang te krijgen tot de beveiligingshulpmiddelen van { -brand-mozilla }.
 signup-sync-info = Synchroniseer uw wachtwoorden, bladwijzers en meer, overal waar u { -brand-firefox } gebruikt.
+signup-sync-info-with-payment = Synchroniseer uw wachtwoorden, betalingsmethoden, bladwijzers en meer, overal waar u { -brand-firefox } gebruikt.
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = Waarom moet ik deze account aanmaken?
 # Link included in a dismissible info banner that is only displayed to Pocket clients

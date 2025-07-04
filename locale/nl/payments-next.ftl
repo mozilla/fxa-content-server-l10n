@@ -44,6 +44,11 @@ cart-total-mismatch-error = Het factuurbedrag is gewijzigd. Probeer het opnieuw.
 
 ## Error pages - Payment method failure messages
 
+intent-card-error = Uw transactie kon niet worden verwerkt. Controleer uw creditcardgegevens en probeer het opnieuw.
+intent-expired-card-error = Het lijkt erop dat uw creditcard is verlopen. Probeer een andere kaart.
+intent-payment-error-try-again = Hmm. Er is een probleem opgetreden bij het autoriseren van uw betaling. Probeer het opnieuw of neem contact op met uw kaartverstrekker.
+intent-payment-error-get-in-touch = Hmm. Er is een probleem opgetreden bij het autoriseren van uw betaling. Neem contact op met uw kaartverstrekker.
+intent-payment-error-generic = Er is een onverwachte fout opgetreden tijdens het verwerken van uw betaling, probeer het opnieuw.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
