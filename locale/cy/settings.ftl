@@ -404,13 +404,13 @@ password-strength-balloon-stay-safe-tips = Cadwch yn ddiogel - Peidiwch ag aildd
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password
 
-password-strength-long-instruction = Dewiswch gyfrinair cryf nad ydych wedi'i ddefnyddio ar wefannau eraill. Sicrhewch ei fod yn bodloni'r gofynion diogelwch:
+password-strength-long-instruction = Dewiswch gyfrinair cryf nad ydych wedi'i ddefnyddio ar wefannau eraill. Gwnewch yn siŵr ei fod yn bodloni'r gofynion diogelwch:
 password-strength-short-instruction = Dewiswch gyfrinair cryf:
 password-strength-inline-min-length = O leiaf 8 nod
 password-strength-inline-not-email = Nid eich cyfeiriad e-bost
 password-strength-inline-not-common = Nid cyfrinair sy'n cael ei ddefnyddio'n gyffredin
 password-strength-inline-confirmed-must-match = Cadarnhad ei fod yn cydweddu â'r cyfrinair newydd
-password-strength-inline-passwords-match = Cyfrineiriau yn cyfateb
+password-strength-inline-passwords-match = Mae'r cyfrineiriau'n cyfateb
 
 ## Notification Promo Banner component
 
@@ -1773,7 +1773,7 @@ signin-password-button-label = Cyfrinair
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-desktop-relay = Bydd { -brand-firefox } yn ceisio eich anfon yn ôl i ddefnyddio e-bost arallenw ar ôl i chi fewngofnodi.
 signin-code-expired-error = Cod wedi dod i ben. Mewngofnodwch eto.
-signin-account-locked-banner-heading = Ailosod eich cyfrinair
+signin-account-locked-banner-heading = Ailosodwch eich cyfrinair
 signin-account-locked-banner-description = Rydym wedi cloi eich cyfrif i'w gadw'n ddiogel rhag gweithgarwch amheus.
 # This link points to https://accounts.firefox.com/reset_password
 signin-account-locked-banner-link = Ailosodwch eich cyfrinair i fewngofnodi

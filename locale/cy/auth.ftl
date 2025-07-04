@@ -251,7 +251,7 @@ subscriptionUpdatePayment = Er mwyn atal unrhyw darfu ar eich gwasanaeth, <a dat
 subscriptionUpdatePayment-plaintext = Er mwyn atal unrhyw darfu ar eich gwasanaeth, diweddarwch eich manylion talu cyn gynted â phosibl.
 # Variables:
 #  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
-support-message-3 = Am ragor o wybodaeth, ewch i'n <a data-l10n-name="supportLink">{ -brand-mozilla } Cefnogaeth</a>.
+support-message-3 = Am ragor o wybodaeth, ewch i <a data-l10n-name="supportLink">Gefnogaeth { -brand-mozilla }</a>.
 # Variables:
 #  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 support-message-plaintext = Am ragor o wybodaeth, ewch i Cefnogaeth: { -brand-mozilla } { $supportUrl }.
@@ -363,12 +363,12 @@ passwordChanged-title = Mae’r cyfrinair wedi ei newid yn llwyddiannus
 passwordChanged-description-2 = Cafodd eich cyfrinair cyfrif { -product-mozilla-account } ei newid yn llwyddiannus o'r ddyfais ganlynol:
 passwordChangeRequired-subject = Gweithgaredd amheus wedi’i ganfod
 passwordChangeRequired-preview = Newidiwch eich cyfrinair ar unwaith
-passwordChangeRequired-title-2 = Ailosod eich cyfrinair
-passwordChangeRequired-suspicious-activity-3 = Rydym wedi cloi eich cyfrif i'w gadw'n ddiogel rhag gweithgarwch amheus. Rydych chi wedi cael eich allgofnodi o'ch holl ddyfeisiau ac mae unrhyw ddata sydd wedi'u cysoni wedi'u dileu fel rhagofal.
-passwordChangeRequired-sign-in-3 = I fewngofnodi yn ôl i'ch cyfrif, y cyfan sydd angen i chi ei wneud yw ailosod eich cyfrinair.
+passwordChangeRequired-title-2 = Ailosodwch eich cyfrinair
+passwordChangeRequired-suspicious-activity-3 = Rydym wedi cloi eich cyfrif i'w gadw'n ddiogel rhag gweithgarwch amheus. Rydych chi wedi cael eich allgofnodi o'ch holl ddyfeisiau ac mae unrhyw ddata sydd wedi'u cydweddu wedi'u dileu rhag ofn.
+passwordChangeRequired-sign-in-3 = I fewngofnodi'n ôl i'ch cyfrif, y cyfan sydd angen i chi ei wneud yw ailosod eich cyfrinair.
 passwordChangeRequired-different-password-2 = <b>Pwysig:</b> Dewiswch gyfrinair cryf sy'n wahanol i'r un rydych chi wedi'i ddefnyddio yn y gorffennol.
 passwordChangeRequired-different-password-plaintext-2 = Pwysig: Dewiswch gyfrinair cryf sy'n wahanol i'r un rydych chi wedi'i ddefnyddio yn y gorffennol.
-passwordChangeRequired-action = Ailosod y cyfrinair
+passwordChangeRequired-action = Ailosodwch y cyfrinair
 passwordChangeRequired-action-plaintext = { passwordChangeRequired-action }:
 password-forgot-otp-subject = Wedi anghofio eich cyfrinair?
 password-forgot-otp-title = Wedi anghofio eich cyfrinair?
