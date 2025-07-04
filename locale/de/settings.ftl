@@ -1753,6 +1753,10 @@ signin-password-button-label = Passwort
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-desktop-relay = { -brand-firefox } wird versuchen, Sie nach der Anmeldung zurückzugeben, um eine E-Mail-Maske zu verwenden.
 signin-code-expired-error = Code abgelaufen. Bitte melden Sie sich erneut an.
+signin-account-locked-banner-heading = Setzen Sie Ihr Passwort zurück
+signin-account-locked-banner-description = Wir haben Ihr Konto gesperrt, um es vor verdächtigen Aktivitäten zu schützen.
+# This link points to https://accounts.firefox.com/reset_password
+signin-account-locked-banner-link = Setzen Sie Ihr Passwort zur Anmeldung zurück
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
@@ -1963,6 +1967,7 @@ confirm-signup-code-desktop-relay = { -brand-firefox } wird versuchen, Sie nach 
 signup-heading-v2 = Passwort erstellen
 signup-relay-info = Sie benötigen ein Passwort, um Ihre maskierten E-Mail-Adressen sicher zu verwalten und auf die Sicherheitswerkzeuge von { -brand-mozilla } zuzugreifen.
 signup-sync-info = Synchronisieren Sie Ihre Passwörter, Lesezeichen und mehr überall dort, wo Sie { -brand-firefox } verwenden.
+signup-sync-info-with-payment = Synchronisieren Sie Ihre Passwörter, Zahlungsmethoden, Lesezeichen und mehr überall dort, wo Sie { -brand-firefox } verwenden.
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = Warum muss ich dieses Konto erstellen?
 # Link included in a dismissible info banner that is only displayed to Pocket clients

@@ -1758,6 +1758,10 @@ signin-password-button-label = Heslo
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-desktop-relay = { -brand-firefox } se vás pokusí po přihlášení přesměrovat na e-mailovou masku.
 signin-code-expired-error = Platnost kódu vypršela. Přihlaste se prosím znovu.
+signin-account-locked-banner-heading = Obnovit heslo
+signin-account-locked-banner-description = Váš účet jsme uzamkli, abychom ho ochránili před podezřelou aktivitou.
+# This link points to https://accounts.firefox.com/reset_password
+signin-account-locked-banner-link = Před přihlášením si obnovte heslo
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
@@ -1969,6 +1973,7 @@ confirm-signup-code-desktop-relay = { -brand-firefox } se vás pokusí po přihl
 signup-heading-v2 = Vytvoření hesla
 signup-relay-info = Heslo je potřeba pro bezpečnou správu e-mailových masek a pro přístup k bezpečnostním nástrojům { -brand-mozilla(case: "gen") }.
 signup-sync-info = Synchronizujte svá hesla, záložky a další data všude, kde používáte { -brand-firefox }.
+signup-sync-info-with-payment = Synchronizujte svá hesla, platební metody, záložky a další svá data všude, kde používáte { -brand-firefox }.
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = Proč si musím vytvořit tento účet?
 # Link included in a dismissible info banner that is only displayed to Pocket clients

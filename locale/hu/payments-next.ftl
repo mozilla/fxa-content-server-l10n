@@ -46,6 +46,11 @@ cart-total-mismatch-error = A számla összege megváltozott. Próbálja meg új
 
 ## Error pages - Payment method failure messages
 
+intent-card-error = A tranzakció nem dolgozható fel. Ellenőrizze a bankkártyaadatait, és próbálja újra.
+intent-expired-card-error = Úgy tűnik, hogy a bankkártya lejárt. Próbálkozzon egy másik kártyával.
+intent-payment-error-try-again = Hmm. Hiba történt a fizetés jóváhagyásakor. Próbálkozzon újra, vagy vegye fel a kapcsolatot a kártyakibocsátóval.
+intent-payment-error-get-in-touch = Hmm. Hiba történt a fizetés jóváhagyásakor. Vegye fel a kapcsolatot a kártyakibocsátóval.
+intent-payment-error-generic = Váratlan hiba történt a fizetése feldolgozása során, próbálja újra.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages

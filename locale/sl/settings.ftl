@@ -1770,6 +1770,10 @@ signin-password-button-label = Geslo
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-desktop-relay = Po prijavi vas bo { -brand-firefox } poskusil poslati nazaj na uporabo e-poštne maske.
 signin-code-expired-error = Koda je potekla. Prijavite se znova.
+signin-account-locked-banner-heading = Ponastavite geslo
+signin-account-locked-banner-description = Vaš račun smo zaklenili, da bi bil zaščiten pred sumljivo dejavnostjo.
+# This link points to https://accounts.firefox.com/reset_password
+signin-account-locked-banner-link = Ponastavite geslo za prijavo
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
@@ -1982,6 +1986,7 @@ confirm-signup-code-desktop-relay = Po prijavi vas bo { -brand-firefox } poskusi
 signup-heading-v2 = Ustvarite geslo
 signup-relay-info = Geslo je potrebno za varno upravljanje zamaskirane e-pošte in dostop do { -brand-mozilla(sklon: "rodilnik") } varnostnih orodij.
 signup-sync-info = Sinhronizirajte gesla, zaznamke in ostale podatke povsod, kjer uporabljate { -brand-firefox(sklon: "tozilnik") }.
+signup-sync-info-with-payment = Sinhronizirajte gesla, plačilna sredstva, zaznamke in ostale podatke povsod, kjer uporabljate { -brand-firefox(sklon: "tozilnik") }.
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = Zakaj moram ustvariti ta račun?
 # Link included in a dismissible info banner that is only displayed to Pocket clients

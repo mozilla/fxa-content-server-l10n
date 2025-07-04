@@ -1764,6 +1764,10 @@ signin-password-button-label = Jelszó
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-desktop-relay = Bejelentkezés után a { -brand-firefox } megpróbálja visszaküldeni Önt az e-mail-maszk használatához.
 signin-code-expired-error = A kód lejárt. Jelentkezzen be újra.
+signin-account-locked-banner-heading = Jelszó visszaállítása
+signin-account-locked-banner-description = Fiókját zároltuk, hogy biztonságban legyen a gyanús tevékenységektől.
+# This link points to https://accounts.firefox.com/reset_password
+signin-account-locked-banner-link = A bejelentkezéshez állítsa vissza a jelszavát
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
@@ -1974,6 +1978,7 @@ confirm-signup-code-desktop-relay = Bejelentkezés után a { -brand-firefox } me
 signup-heading-v2 = Jelszó létrehozása
 signup-relay-info = Egy jelszóra van szükség a maszkolt e-mailek biztonságos kezeléséhez és a { -brand-mozilla } biztonsági eszközeinek eléréséhez.
 signup-sync-info = Szinkronizálja jelszavait, könyvjelzőit és egyebeket mindenhol, ahol a { -brand-firefox }ot használja.
+signup-sync-info-with-payment = Szinkronizálja jelszavait, fizetési módjait, könyvjelzőit és egyebeket mindenhol, ahol a { -brand-firefox }ot használja.
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = Miért kell létrehoznia ezt a fiókot?
 # Link included in a dismissible info banner that is only displayed to Pocket clients

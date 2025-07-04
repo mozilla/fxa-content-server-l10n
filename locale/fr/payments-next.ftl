@@ -44,6 +44,11 @@ cart-total-mismatch-error = Le montant de la facture a changé. Veuillez réessa
 
 ## Error pages - Payment method failure messages
 
+intent-card-error = La transaction n’a pas pu être traitée. Veuillez vérifier les informations relatives à votre carte de crédit et réessayez.
+intent-expired-card-error = Il semble que votre carte bancaire ait expiré. Essayez avec une autre carte.
+intent-payment-error-try-again = Hum, une erreur s’est produite lors de l’autorisation du paiement. Réessayez ou contactez l’émetteur de votre carte.
+intent-payment-error-get-in-touch = Hum, une erreur s’est produite lors de l’autorisation du paiement. Contactez l’émetteur de votre carte.
+intent-payment-error-generic = Une erreur inattendue s’est produite lors du traitement de votre paiement, veuillez réessayer.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages

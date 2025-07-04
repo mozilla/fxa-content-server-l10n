@@ -1773,6 +1773,10 @@ signin-password-button-label = Cyfrinair
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-desktop-relay = Bydd { -brand-firefox } yn ceisio eich anfon yn ôl i ddefnyddio e-bost arallenw ar ôl i chi fewngofnodi.
 signin-code-expired-error = Cod wedi dod i ben. Mewngofnodwch eto.
+signin-account-locked-banner-heading = Ailosod eich cyfrinair
+signin-account-locked-banner-description = Rydym wedi cloi eich cyfrif i'w gadw'n ddiogel rhag gweithgarwch amheus.
+# This link points to https://accounts.firefox.com/reset_password
+signin-account-locked-banner-link = Ailosodwch eich cyfrinair i fewngofnodi
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
@@ -1987,6 +1991,7 @@ confirm-signup-code-desktop-relay = Bydd { -brand-firefox } yn ceisio eich anfon
 signup-heading-v2 = Crëwch gyfrinair
 signup-relay-info = Mae angen cyfrinair i reoli'ch e-byst ag arallenw yn ddiogel a chael mynediad at offer diogelwch { -brand-mozilla }.
 signup-sync-info = Cydweddwch eich cyfrineiriau a nodau tudalen a rhagor ym mhob man rydych yn defnyddio { -brand-firefox }.
+signup-sync-info-with-payment = Cydweddwch eich cyfrineiriau, dulliau talu a nodau tudalen, a rhagor ym mhob man rydych yn defnyddio { -brand-firefox }.
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = Pam fod angen i mi greu'r cyfrif hwn?
 # Link included in a dismissible info banner that is only displayed to Pocket clients

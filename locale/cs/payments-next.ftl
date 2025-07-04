@@ -44,6 +44,11 @@ cart-total-mismatch-error = Fakturovaná částka se změnila. Zkuste to prosím
 
 ## Error pages - Payment method failure messages
 
+intent-card-error = Vaši transakci se nepodařilo zpracovat. Zkontrolujte prosím zadané údaje o své kartě a zkuste to znovu.
+intent-expired-card-error = Vypadá to, že platnost vaší karty vypršela. Zkuste použít jinou.
+intent-payment-error-try-again = Autorizace vaší platby se nezdařila. Zkuste to prosím znovu nebo kontaktujte vydavatele vaší karty.
+intent-payment-error-get-in-touch = Autorizace vaší platby se nezdařila. Kontaktujte prosím vydavatele vaší karty.
+intent-payment-error-generic = Při zpracování platby došlo k neočekávané chybě, zkuste to prosím znovu.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
