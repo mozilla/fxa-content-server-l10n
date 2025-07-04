@@ -1770,6 +1770,10 @@ signin-password-button-label = Gronidło
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-desktop-relay = { -brand-firefox } buźo was slědk słaś, aby pó pśizjawjenju e-mailowu masku wužywał.
 signin-code-expired-error = Kod jo spadnjony. Pšosym pśizjawśo se znowego.
+signin-account-locked-banner-heading = Stajśo swójo gronidło slědk
+signin-account-locked-banner-description = Smy zastajali wašo konto, aby was pśed suspektneju aktiwitu šćitali.
+# This link points to https://accounts.firefox.com/reset_password
+signin-account-locked-banner-link = Stajśo swójo gronidło slědk, aby se pśizjawił
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
@@ -1982,6 +1986,7 @@ confirm-signup-code-desktop-relay = { -brand-firefox } buźo was slědk słaś, 
 signup-heading-v2 = Gronidło napóraś
 signup-relay-info = Gronidło jo trjebna, aby swóje maskěrowane mejlki wěsće zastojaś a k wěstotnym rědam { -brand-mozilla } pśistup měł.
 signup-sync-info = Synchronizěrujśo swóje gronidła, cytańske znamjenja a wěcej wšuźi, źož { -brand-firefox } wužywaśo.
+signup-sync-info-with-payment = Synchronizěrujśo swóje gronidła, płaśeńske metody, cytańske znamjenja a wěcej wšuźi, źož { -brand-firefox } wužywaśo.
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = Cogodla musym toś to konto załožyś?
 # Link included in a dismissible info banner that is only displayed to Pocket clients

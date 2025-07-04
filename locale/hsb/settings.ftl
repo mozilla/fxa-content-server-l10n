@@ -1773,6 +1773,9 @@ signin-password-button-label = Hesło
 signin-desktop-relay = { -brand-firefox } budźe was wróćo słać, zo byšće po přizjewjenju e-mejlowu masku wužiwał.
 signin-code-expired-error = Kod je spadnjeny. Prošu přizjewće so znowa.
 signin-account-locked-banner-heading = Stajće swoje hesło wróćo
+signin-account-locked-banner-description = Smy waše konto zawrěli, zo bychmy was před podhladnej aktiwitu škitali.
+# This link points to https://accounts.firefox.com/reset_password
+signin-account-locked-banner-link = Stajće swoje hesło wróćo, zo byšće so přizjewił
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,

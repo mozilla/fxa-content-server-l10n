@@ -47,6 +47,11 @@ cart-total-mismatch-error = Suma zliceńki jo se změniła. Pšosym wopytajśo h
 
 ## Error pages - Payment method failure messages
 
+intent-card-error = Waša transakcija njedajo se pśeźěłowaś. Pśeglědujśo pšosym informacije swójeje kreditoweje kórty a wopytajśo hyšći raz.
+intent-expired-card-error = Zda se, ako by waša kreditowa kórta spadnuła. Wopytajśo drugu kórtu.
+intent-payment-error-try-again = Hmm. Pśi awtorizěrowanju wašogo płaśenja jo problem nastał. Wopytajśo hyšći raz abo stajśo se z wudawarjom swójeje kórty do zwiska.
+intent-payment-error-get-in-touch = Hmm. Pśi awtorizěrowanju wašogo płaśenja jo problem nastał. Stajśo se z wudawarjom swójeje kórty do zwiska.
+intent-payment-error-generic = Pśi pśeźěłowanju wašogo płaśenja jo njewótcakana zmólka nastała, pšosym wopytajśo hyšći raz.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages

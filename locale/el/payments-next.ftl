@@ -44,6 +44,11 @@ cart-total-mismatch-error = Το ποσό του παραστατικού έχε
 
 ## Error pages - Payment method failure messages
 
+intent-card-error = Δεν ήταν δυνατή η επεξεργασία της συναλλαγής σας. Επαληθεύστε τα στοιχεία της πιστωτικής σας κάρτας και δοκιμάστε ξανά.
+intent-expired-card-error = Φαίνεται πως η πιστωτική σας κάρτα έχει λήξει. Δοκιμάστε μια άλλη κάρτα.
+intent-payment-error-try-again = Προέκυψε πρόβλημα κατά την έγκριση της πληρωμής σας. Δοκιμάστε ξανά ή επικοινωνήστε με τον εκδότη της κάρτας σας.
+intent-payment-error-get-in-touch = Προέκυψε πρόβλημα κατά την έγκριση της πληρωμής σας. Επικοινωνήστε με τον εκδότη της κάρτας σας.
+intent-payment-error-generic = Προέκυψε μη αναμενόμενο σφάλμα κατά την επεξεργασία της πληρωμής σας. Δοκιμάστε ξανά.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
