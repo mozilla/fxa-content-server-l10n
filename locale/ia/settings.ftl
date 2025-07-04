@@ -1762,6 +1762,9 @@ signin-password-button-label = Contrasigno
 signin-desktop-relay = { -brand-firefox } tentara inviar te retro pro usar un alias email post que tu accede.
 signin-code-expired-error = Codice expirate. Reconnecte te.
 signin-account-locked-banner-heading = Reinitialisa tu contrasigno
+signin-account-locked-banner-description = Nos blocava tu conto pro tener lo secur ab activitate suspecte..
+# This link points to https://accounts.firefox.com/reset_password
+signin-account-locked-banner-link = Reinitialisa tu contrasigno pro acceder.
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
