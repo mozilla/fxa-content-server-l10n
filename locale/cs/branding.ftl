@@ -253,7 +253,17 @@
     }
     .gender = masculine
 -product-mozilla-monitor = Mozilla Monitor
--product-mozilla-monitor-short = Monitor
+-product-mozilla-monitor-short =
+    { $case ->
+        [gen] Monitoru
+        [dat] Monitoru
+        [acc] Monitor
+        [voc] Monitore
+        [loc] Monitoru
+        [ins] Monitorem
+       *[nom] Monitor
+    }
+    .gender = masculine
 -product-firefox-relay =
     { $case ->
         [gen] Firefoxu Relay

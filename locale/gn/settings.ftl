@@ -392,10 +392,13 @@ password-strength-balloon-stay-safe-tips = Epyta tekorosãme — ani eiporujey �
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password
 
+password-strength-long-instruction = Eiporavo ñe’ẽñemi hekorosãva eiporu’ỹva ambue tendápe. Ehecha omoañetépa ojejeruréva tekorosãrã:
+password-strength-short-instruction = Eiporavo ñe’ẽñemi hekorosãva:
 password-strength-inline-min-length = Michĩvéramo 8 tai
 password-strength-inline-not-email = Ani ne ñanduti veve kundaharape
 password-strength-inline-not-common = Ndaha’éi ne ñe’ẽñemi eiporumeméva
 password-strength-inline-confirmed-must-match = Pe ñemoneĩ ojokupyty ñe’ẽñemi pyahúre
+password-strength-inline-passwords-match = Ñe’ẽñemi ojueheguáva
 
 ## Notification Promo Banner component
 
@@ -1751,6 +1754,8 @@ signin-password-button-label = Ñe’ẽñemi
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-desktop-relay = { -brand-firefox } orahaukajeýta eimehápe eiporu hag̃ua ñanduti veve rovamo’ãha eñepyrũ rire tembiapo.
 signin-code-expired-error = Ayvu hu’ãmava. Emoñepyrũjey tembiapo.
+signin-account-locked-banner-heading = Eguerujey ne ñe’ẽñemi
+signin-account-locked-banner-description = Rojoko ne mba’ete ani hag̃ua oiko hese mba’e ivaíva.
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
