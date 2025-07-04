@@ -46,6 +46,9 @@ cart-total-mismatch-error = Pe kuatia ñemure ohupytýra iñambue. Eha’ã jey 
 
 intent-card-error = Pe jejogua noñemoneĩjepéi. Ehechajey pe marandu kuatia’atã ñemurã rehegua ha eha’ãjey uperire.
 intent-expired-card-error = Nde kuatia’atã ñemurã ndoikovéima. Eiporu ambue kuatia’atã.
+intent-payment-error-try-again = Épa. Oiko apañuái ehepyme’ẽnguévo. Eha’ã jey térã eñe’ẽ pya’eterei nde kuatia’atã meẽha ndive.
+intent-payment-error-get-in-touch = Épa. Oĩ apañuái ehepyme’ẽnguévo. Eñe’ẽ pya’eterei nde kuatia’atã me’ẽha ndive.
+intent-payment-error-generic = Oiko peteĩ jejavy eha’ãrõ’ỹva ehepyme’ẽnguévo. Eha’ã jey uperireve.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages

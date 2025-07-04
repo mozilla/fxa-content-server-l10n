@@ -348,7 +348,7 @@ plan-price-interval-year =
 # App error dialog
 general-error-heading = Tembiporu’i jejavypaite
 basic-error-message = Oĩ osẽvaíva. Ikatúpiko eha’ãjey ag̃amieve.
-payment-error-1 = Épa. Oĩ apañuái ehepyme’ẽnguévo. Eha’ãjey térã eñe’ẽ pya’éterei nde kuatia’atã meẽha ndive.
+payment-error-1 = Épa. Oĩ apañuái ehepyme’ẽnguévo. Eha’ãjey térã eñe’ẽ pya’eterei nde kuatia’atã me’ẽha ndive.
 payment-error-2 = Épa. Oĩ apañuái ehepyme’ẽnguévo. Eñe’ẽ pya’éke nde kuatia’atã meẽha ndive.
 payment-error-3b = Oiko peteĩ jejavy eha’ãrõ’ỹva ehepyme’ẽnguévo. Eha’ãjey uperire.
 expired-card-error = Nde kuatia’atã ñemurã ndoikovéima. Eiporu ambue kuatia’atã.
