@@ -258,6 +258,9 @@ subscriptionUpdatePayment = Aby zapobiec przerwom w działaniu, prosimy <a data
 subscriptionUpdatePayment-plaintext = Aby zapobiec przerwom w działaniu, prosimy zaktualizować informacje o płatności tak szybko, jak to możliwe:
 # Variables:
 #  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-3 = Więcej informacji można znaleźć w <a data-l10n-name="supportLink">pomocy { -brand-mozilla(case: "gen") }</a>.
+# Variables:
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 support-message-plaintext = Więcej informacji można znaleźć w pomocy { -brand-mozilla(case: "gen") }: { $supportUrl }.
 # Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
@@ -363,6 +366,8 @@ passwordChanged-subject = Zaktualizowano hasło
 passwordChanged-title = Pomyślnie zmieniono hasło
 passwordChanged-description-2 = Pomyślnie zmieniono hasło { -product-mozilla-account(case: "gen", capitalization: "lower") } z poniższego urządzenia:
 passwordChangeRequired-subject = Wykryto podejrzane działania
+passwordChangeRequired-different-password-2 = <b>Ważne:</b> Wybierz silne hasło, inne niż to, którego używałeś wcześniej.
+passwordChangeRequired-different-password-plaintext-2 = Ważne: Wybierz silne hasło, inne niż to, którego używałeś wcześniej.
 password-forgot-otp-subject = Nie pamiętasz hasła?
 password-forgot-otp-title = Nie pamiętasz hasła?
 password-forgot-otp-request = Otrzymaliśmy prośbę o zmianę hasła Twojego { -product-mozilla-account(case: "gen", capitalization: "lower") } z urządzenia:
