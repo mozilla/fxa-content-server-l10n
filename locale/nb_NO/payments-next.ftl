@@ -44,6 +44,11 @@ cart-total-mismatch-error = Fakturabeløpet er endret. Prøv på nytt.
 
 ## Error pages - Payment method failure messages
 
+intent-card-error = Transaksjonen din kunne ikke behandles. Kontroller betalingskortinformasjonen din og prøv igjen.
+intent-expired-card-error = Det ser ut som om at bankkortet ditt har gått ut. Prøv et annet kort.
+intent-payment-error-try-again = Hmm. Det oppstod et problem med å godkjenne betalingen din. Prøv igjen eller ta kontakt med kortutstederen din.
+intent-payment-error-get-in-touch = Hmm. Det oppstod et problem med å godkjenne betalingen din. Ta kontakt med kortutstederen din.
+intent-payment-error-generic = Det oppstod en uventet feil under behandlingen av betalingen. Prøv igjen.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages

@@ -254,6 +254,9 @@ subscriptionUpdatePayment = <a data-l10n-name="updateBillingUrl">Oppdater betali
 subscriptionUpdatePayment-plaintext = Oppdater betalingsinformasjonen din så snart som mulig for å unngå avbrudd i din tjeneste:
 # Variables:
 #  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-3 = For mer informasjon, besøk <a data-l10n-name="supportLink">{ -brand-mozilla } brukerstøtte</a>.
+# Variables:
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 support-message-plaintext = For mer informasjon, besøk { -brand-mozilla } brukerstøtte: { $supportUrl }.
 # Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
