@@ -252,6 +252,9 @@ subscriptionUpdatePayment = Hizmetinizde kesinti olmaması için lütfen en kıs
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Hizmetinizde kesinti olmaması için lütfen ödeme bilgilerinizi en kısa zamanda güncelleyin:
 # Variables:
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-plaintext = Daha fazla bilgi için { -brand-mozilla } Destek’i ziyaret edin: { $supportUrl }.
+# Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 #  $uaOSVersion (String) - User's OS version, e.g. 10.11
@@ -354,6 +357,13 @@ passwordChanged-subject = Parola güncellendi
 passwordChanged-title = Parola başarıyla değiştirildi
 passwordChanged-description-2 = { -product-mozilla-account } parolanız aşağıdaki cihaz üzerinden değiştirildi:
 passwordChangeRequired-subject = Şüpheli etkinlik algılandı
+passwordChangeRequired-preview = Parolanızı hemen değiştirin
+passwordChangeRequired-title-2 = Parolanızı sıfırlayın
+passwordChangeRequired-sign-in-3 = Hesabınıza tekrar giriş yapmak için parolanızı sıfırlamanız yeterli.
+passwordChangeRequired-different-password-2 = <b>Önemli:</b> Geçmişte kullandığınızdan farklı ve güçlü bir parola seçin.
+passwordChangeRequired-different-password-plaintext-2 = Önemli: Geçmişte kullandığınızdan farklı ve güçlü bir parola seçin.
+passwordChangeRequired-action = Parolayı sıfırla
+passwordChangeRequired-action-plaintext = { passwordChangeRequired-action }:
 password-forgot-otp-subject = Parolanızı unuttunuz mu?
 password-forgot-otp-title = Parolanızı unuttunuz mu?
 password-forgot-otp-request = { -product-mozilla-account }nız için bu cihazdan bir parola değiştirme isteği aldık:

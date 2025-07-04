@@ -392,10 +392,13 @@ password-strength-balloon-stay-safe-tips = Güvende kalın: Aynı parolaları fa
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password
 
+password-strength-long-instruction = Başka sitelerde kullanmadığınız, güçlü bir parola seçin. Güvenlik gereksinimlerini karşıladığından emin olun:
+password-strength-short-instruction = Güçlü bir parola seçin:
 password-strength-inline-min-length = En az 8 karakter
 password-strength-inline-not-email = E-posta adresiniz olmamalı
 password-strength-inline-not-common = Yaygın olarak kullanılan bir parola olmamalı
 password-strength-inline-confirmed-must-match = Onay yeni parola ile eşleşiyor
+password-strength-inline-passwords-match = Parolalar eşleşiyor
 
 ## Notification Promo Banner component
 
