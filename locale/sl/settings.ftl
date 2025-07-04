@@ -1771,7 +1771,7 @@ signin-password-button-label = Geslo
 signin-desktop-relay = Po prijavi vas bo { -brand-firefox } poskusil poslati nazaj na uporabo e-poštne maske.
 signin-code-expired-error = Koda je potekla. Prijavite se znova.
 signin-account-locked-banner-heading = Ponastavite geslo
-signin-account-locked-banner-description = Vaš račun smo zaklenili, da bi bil zaščiten pred sumljivo dejavnostjo.
+signin-account-locked-banner-description = Vaš račun smo zaklenili, da bi ga zaščitili pred sumljivo dejavnostjo.
 # This link points to https://accounts.firefox.com/reset_password
 signin-account-locked-banner-link = Ponastavite geslo za prijavo
 
