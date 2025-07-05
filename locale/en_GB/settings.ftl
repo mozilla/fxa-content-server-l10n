@@ -392,10 +392,13 @@ password-strength-balloon-stay-safe-tips = Stay safe — Don’t reuse passwords
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password
 
+password-strength-long-instruction = Pick a strong password you haven’t used on other sites. Ensure it meets the security requirements:
+password-strength-short-instruction = Pick a strong password:
 password-strength-inline-min-length = At least 8 characters
 password-strength-inline-not-email = Not your email address
 password-strength-inline-not-common = Not a commonly used password
 password-strength-inline-confirmed-must-match = Confirmation matches the new password
+password-strength-inline-passwords-match = Passwords match
 
 ## Notification Promo Banner component
 
@@ -1763,6 +1766,10 @@ signin-password-button-label = Password
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-desktop-relay = { -brand-firefox } will try sending you back to use an email mask after you sign in.
 signin-code-expired-error = Code expired. Please sign in again.
+signin-account-locked-banner-heading = Reset your password
+signin-account-locked-banner-description = We locked your account to keep it safe from suspicious activity.
+# This link points to https://accounts.firefox.com/reset_password
+signin-account-locked-banner-link = Reset your password to sign in
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
@@ -1973,6 +1980,7 @@ confirm-signup-code-desktop-relay = { -brand-firefox } will try sending you back
 signup-heading-v2 = Create a password
 signup-relay-info = A password is needed to securely manage your masked emails and access { -brand-mozilla }’s security tools.
 signup-sync-info = Synchronise your passwords, bookmarks and more everywhere you use { -brand-firefox }.
+signup-sync-info-with-payment = Synchronise your passwords, bookmarks and more everywhere you use { -brand-firefox }.
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = Why do I need to create this account?
 # Link included in a dismissible info banner that is only displayed to Pocket clients
