@@ -163,7 +163,7 @@ automated-email-reset-plaintext-v2 = თუ თქვენ არ მოგი�
 # This message is used by multiple automated emails that notify users of security events on their account
 # "this action" is meant to be a generic term, and could, for example, refer to using a backup authentication code to confirm a password reset
 automated-email-reset-pwd-two-factor =
-    თუ თქვენ არაფერი მოგიმოქმედებიათ, მაშინ <a data-l10n-name="resetLink">გაანულეთ პაროლი</a> და <a data-l10n-name="twoFactorSettingsLink">ახლიდან გამართეთ ორსაფეხურიანი დამოწმება</a> დაუყოვნებლივ.
+    თუ თქვენ არაფერი მოგიმოქმედებიათ, მაშინ <a data-l10n-name="resetLink">გაანულეთ პაროლი</a> და <a data-l10n-name="twoFactorSettingsLink">ახლიდან გამართეთ ორბიჯიანი დამოწმება</a> დაუყოვნებლივ.
     ვრცლად იხილეთ <a data-l10n-name="supportLink">{ -brand-mozilla } მხარდაჭერა</a>.
 # Followed by link to https://accounts.firefox.com/reset_password
 automated-email-reset-pwd-plaintext-v3 = თუ თქვენ არაფერი მოგიმოქმედებიათ, მაშინ გაანულეთ პაროლი დაუყოვნებლივ:

@@ -96,6 +96,21 @@ datablock-print =
 ## Success banners for datablock actions.
 ## $count – number of codes
 
+datablock-copy-success =
+    { $count ->
+        [one] კოდის ასლი აღებულია
+       *[other] კოდების ასლი აღებულია
+    }
+datablock-download-success =
+    { $count ->
+        [one] კოდი ჩამოტვირთულია
+       *[other] კოდები ჩამოტვირთულია
+    }
+datablock-print-success =
+    { $count ->
+        [one] კოდი ამობეჭდილია
+       *[other] კოდები ამობეჭდილია
+    }
 
 ##
 
@@ -379,10 +394,13 @@ password-strength-balloon-stay-safe-tips = დაიცავით უსაფ
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password
 
+password-strength-long-instruction = აირჩიეთ ძლიერი პაროლი, რომელიც არ გამოგიყენებიათ სხვა საიტებზე. დარწმუნდით, რომ აკმაყოფილებს უსაფრთხოების მოთხოვნებს:
+password-strength-short-instruction = აირჩიეთ მძლავრი პაროლი:
 password-strength-inline-min-length = სულ მცირე 8 სიმბოლო
 password-strength-inline-not-email = თქვენი ელფოსტის გარდა
 password-strength-inline-not-common = ხშირად გამოყენებული პაროლის გარდა
 password-strength-inline-confirmed-must-match = დამადასტურებელი ემთხვევა ახალ პაროლს
+password-strength-inline-passwords-match = პაროლები ემთხვევა
 
 ## Notification Promo Banner component
 
@@ -635,6 +653,7 @@ flow-setup-2fa-more-info-link = ვრცლად დამმოწმებ�
 flow-setup-2fa-button = განაგრძეთ
 flow-setup-2fa-step-2-instruction = <strong>ნაბიჯი 2:</strong> შეიყვანეთ კოდი დამმოწმებელი პროგრამიდან.
 flow-setup-2fa-input-label = შეიყვანეთ 6-ციფრიანი კოდი
+flow-setup-2fa-code-error = უმართებულო ან ვადაგასული კოდი. შეამოწმეთ თქვენი დამმოწმებელი პროგრამა და სცადეთ ხელახლა.
 
 ## The step to choose the two step authentication method in the two step
 ## authentication setup flow.
@@ -764,6 +783,11 @@ tfa-enter-code-to-confirm-v2 =
 
 ## PageSetupRecoveryPhone
 
+page-2fa-setup-title = ორბიჯიანი დამოწმება
+page-2fa-setup-totpinfo-error = შეცდომა წარმოიშვა ორბიჯიანი დამოწმების დაყენებისას. სცადეთ მოგვიანებით.
+# code here refers to "backup authentication code"
+page-2fa-setup-incorrect-backup-code-error = ეს კოდი უმართებულოა. სცადეთ ხელახლა.
+page-2fa-setup-success = ორბიჯიანი დამოწმება შესვლისას ჩართულია
 
 ## Avatar change page
 
@@ -1105,7 +1129,7 @@ tfa-row-backup-phone-add-cta = დამატება
 tfa-row-backup-phone-delete-button = მოცილება
 # Shown in tooltip on delete button or delete icon
 tfa-row-backup-phone-delete-title-v2 = აღდგენის ტელეფონის მოცილება
-tfa-row-backup-phone-delete-restriction-v2 = თუ გსურთ ამოშალოთ თქვენი აღდგენის ტელეფონი, დაამატეთ შესვლის სამარქაფო კოდები ან ჯერ გათიშეთ ორსაფეხურიანი დამოწმება, ანგარიში რომ არ ჩაგეკეტოთ.
+tfa-row-backup-phone-delete-restriction-v2 = თუ გსურთ ამოშალოთ თქვენი აღდგენის ტელეფონი, დაამატეთ შესვლის სამარქაფო კოდები ან ჯერ გათიშეთ ორბიჯიანი დამოწმება, ანგარიში რომ არ ჩაგეკეტოთ.
 # "this" refers to recovery phone
 tfa-row-backup-phone-description-v2 = ესაა აღდგენის მეტად იოლი გზა, თუ ვერ იყენებთ თქვენს დამმოწმებელ პროგრამას.
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
@@ -1214,6 +1238,7 @@ tfa-row-disable-modal-explain-1 =
 # Shown in an alert bar after two-step authentication is disabled
 tfa-row-disabled-2 = ორბიჯიანი დამოწმება შესვლისას გამორთულია
 tfa-row-cannot-disable-2 = ორბიჯიანი დამოწმება ვერ გამოირთვება
+tfa-row-disable-cannot-verify-session = სამწუხაროდ, ხარვეზი წარმოიშვა თქვენი სეანსის დამოწმებისას
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
@@ -1741,6 +1766,10 @@ signin-password-button-label = პაროლი
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-desktop-relay = { -brand-firefox } ეცდება შესვლის შემდგომ უკან დაგაბრუნოთ ელფოსტის ნიღბის გამოსაყენებლად.
 signin-code-expired-error = კოდი ვადაგასულია. გთხოვთ, ხელახლა შეხვიდეთ ანგარიშზე.
+signin-account-locked-banner-heading = პაროლის განულება
+signin-account-locked-banner-description = ჩვენ ანგარიში ჩაიკეტა საეჭვო მოქმედებებისგან თავდასაცავად.
+# This link points to https://accounts.firefox.com/reset_password
+signin-account-locked-banner-link = შესვლისთვის გაანულეთ პაროლი
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
@@ -1951,6 +1980,7 @@ confirm-signup-code-desktop-relay = { -brand-firefox } ეცდება შე
 signup-heading-v2 = პაროლის შექმნა
 signup-relay-info = პაროლი საჭიროა შენიღბული ელფოსტის უსაფრთხოდ სამართავად და დაცვის საშუალებებთან წვდომისთვის, რომელთაც უზრუნველყოფს { -brand-mozilla }.
 signup-sync-info = დაასინქრონეთ თქვენი პაროლები, სანიშნები და სხვა მონაცემები ყველგან, სადაც კი გიყენიათ { -brand-firefox }.
+signup-sync-info-with-payment = დაასინქრონეთ თქვენი პაროლები, გადახდის საშუალებები, სანიშნები და სხვა მონაცემები ყველგან, სადაც კი გიყენიათ { -brand-firefox }.
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = რისთვისაა საჭირო ანგარიშის შექმნა?
 # Link included in a dismissible info banner that is only displayed to Pocket clients
