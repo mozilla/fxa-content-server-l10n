@@ -45,7 +45,7 @@ cart-total-mismatch-error = Fakturabeløpet er endra. Prøv på nytt.
 ## Error pages - Payment method failure messages
 
 intent-card-error = Transaksjonen din kunne ikkje behandlast. Kontroller betalingskortinformasjonen din og prøv igjen.
-intent-expired-card-error = Det ser ut som om at bankkortet ditt hargått ut. Prøv eit anna kort.
+intent-expired-card-error = Det ser ut som om at bankkortet ditt har gått ut. Prøv eit anna kort.
 intent-payment-error-try-again = Hmm. Det oppstod eit problem med å godkjenne betalinga di. Prøv igjen eller kontakt kortutskrivaren din.
 intent-payment-error-get-in-touch = Hmm. Det oppstod eit problem med å godkjenne betalinga di. Ta kontakt med kortutskrivaren din.
 intent-payment-error-generic = Det oppstod ein uventa feil under behandling av betalinga. Prøv igjen.
