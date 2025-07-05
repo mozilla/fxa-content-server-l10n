@@ -253,6 +253,9 @@ subscriptionUpdatePayment = Hizmetinizde kesinti olmaması için lütfen en kıs
 subscriptionUpdatePayment-plaintext = Hizmetinizde kesinti olmaması için lütfen ödeme bilgilerinizi en kısa zamanda güncelleyin:
 # Variables:
 #  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-3 = Daha fazla bilgi için <a data-l10n-name="supportLink">{ -brand-mozilla } Destek</a> sitesini ziyaret edebilirsiniz.
+# Variables:
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 support-message-plaintext = Daha fazla bilgi için { -brand-mozilla } Destek’i ziyaret edin: { $supportUrl }.
 # Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox

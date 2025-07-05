@@ -1744,6 +1744,10 @@ signin-password-button-label = Parola
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-desktop-relay = { -brand-firefox }, giriş yaptıktan sonra sizi e-posta maskesi kullanmaya yönlendirecektir.
 signin-code-expired-error = Kodun süresi doldu. Lütfen yeniden giriş yapın.
+signin-account-locked-banner-heading = Parolanızı sıfırlayın
+signin-account-locked-banner-description = Şüpheli etkinliklerden korumak için hesabınızı kilitledik.
+# This link points to https://accounts.firefox.com/reset_password
+signin-account-locked-banner-link = Giriş yapmak için parolanızı sıfırlayın
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
@@ -1954,6 +1958,7 @@ confirm-signup-code-desktop-relay = { -brand-firefox }, giriş yaptıktan sonra 
 signup-heading-v2 = Parola oluşturun
 signup-relay-info = Maskeli e-postalarınızı güvenli bir şekilde yönetmek ve { -brand-mozilla }’nın güvenlik araçlarına erişmek için bir parolaya ihtiyacınız var.
 signup-sync-info = { -brand-firefox }’u kullandığınız her yerde parolalarınızı, yer imlerinizi ve daha fazlasını eşitleyin.
+signup-sync-info-with-payment = { -brand-firefox }’u kullandığınız her yerde parolalarınızı, ödeme yöntemlerinizi, yer imlerinizi ve daha fazlasını eşitleyin.
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = Neden bu hesabı oluşturmam gerekiyor?
 # Link included in a dismissible info banner that is only displayed to Pocket clients

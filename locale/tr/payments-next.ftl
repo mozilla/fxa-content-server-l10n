@@ -43,6 +43,11 @@ checkout-processing-general-error = Ödemeniz işlenirken beklenmedik bir hata o
 
 ## Error pages - Payment method failure messages
 
+intent-card-error = İşleminiz gerçekleştirilemedi. Lütfen kredi kartı bilgilerinizi kontrol edip tekrar deneyin.
+intent-expired-card-error = Kredi kartınızın kullanım süresi dolmuş. Başka bir kart deneyin.
+intent-payment-error-try-again = Ödemeniz onaylanırken bir sorun oluştu. Tekrar deneyin ya da kartınızı veren kuruluşla iletişime geçin.
+intent-payment-error-get-in-touch = Ödemeniz onaylanırken bir sorun oluştu. Kartınızı veren kuruluşla iletişime geçin.
+intent-payment-error-generic = Ödemeniz işlenirken beklenmedik bir hata oluştu, lütfen yeniden deneyin.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
