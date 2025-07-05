@@ -252,6 +252,12 @@ subscriptionUpdatePayment = მომსახურების უწყვე
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = მომსახურების უწყვეტობის უზრუნველსაყოფად, გთხოვთ განაახლოთ გადახდის მონაცემები, რაც შეიძლება მალე:
 # Variables:
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-3 = დამატებით იხილეთ <a data-l10n-name="supportLink">{ -brand-mozilla }-ს მხარდაჭერის გვერდი</a>.
+# Variables:
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-plaintext = დამატებით იხილეთ { -brand-mozilla }-ს დახმარების გვერდი: { $supportUrl }.
+# Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 #  $uaOSVersion (String) - User's OS version, e.g. 10.11
@@ -354,6 +360,14 @@ passwordChanged-subject = პაროლი განახლდა
 passwordChanged-title = პაროლი წარმატებით შეიცვალა
 passwordChanged-description-2 = თქვენი { -product-mozilla-account(case: "gen") } პაროლი წარმატებით შეიცვალა ამ მოწყობილობიდან:
 passwordChangeRequired-subject = აღმოჩენილია საეჭვო მოქმედება
+passwordChangeRequired-preview = დაუყოვნებლივ შეცვალეთ პაროლი
+passwordChangeRequired-title-2 = პაროლის განულება
+passwordChangeRequired-suspicious-activity-3 = თქვენი ანგარიში ჩაიკეტა საეჭვო მოქმედებებისგან თავდასაცავად. გამოსული ხართ ყველა მოწყობილობიდან და ყველა დასინქრონებული მონაცემიც წაიშალა სიფრთხილის მიზნით.
+passwordChangeRequired-sign-in-3 = თქვენს ანგარიშზე ხელახლა შესასვლელად საკმარისი იქნება პაროლის განულება.
+passwordChangeRequired-different-password-2 = <b>მნიშვნელოვანია:</b> აირჩიეთ ძლიერი პაროლი, რომელიც განსხვავდება წინათ გამოყენებულისგან.
+passwordChangeRequired-different-password-plaintext-2 = მნიშვნელოვანია: აირჩიეთ ძლიერი პაროლი, რომელიც განსხვავდება წინათ გამოყენებულისგან.
+passwordChangeRequired-action = პაროლის განულება
+passwordChangeRequired-action-plaintext = { passwordChangeRequired-action }:
 password-forgot-otp-subject = დაგავიწყდათ პაროლი?
 password-forgot-otp-title = დაგავიწყდათ პაროლი?
 password-forgot-otp-request = პაროლის შეცვლის მოთხოვნა მივიღეთ თქვენს { -product-mozilla-account(case: "loc") } აქედან:

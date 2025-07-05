@@ -43,9 +43,15 @@ checkout-error-already-subscribed = თქვენ უკვე გამოწ
 checkout-error-contact-support = გთხოვთ მიმართოთ მხარდაჭერის გუნდს, რომ დაგეხმაროთ.
 cart-error-currency-not-determined = ვერ დგინდება ვალუტა ამ შენაძენისთვის, გთხოვთ სცადოთ ხელახლა.
 checkout-processing-general-error = მოულოდნელი შეცდომა წარმოიშვა თქვენი გადახდის დამუშავებისას. გთხოვთ, სცადოთ ხელახლა.
+cart-total-mismatch-error = ზედნადების ოდენობა შეიცვალა. გთხოვთ, კვლავ სცადოთ.
 
 ## Error pages - Payment method failure messages
 
+intent-card-error = თქვენი გადარიცხვა ვერ სრულდება . გთხოვთ, გადაამოწმოთ საკრედიტო ბარათის მონაცემები და კვლავ სცადოთ.
+intent-expired-card-error = როგორც ჩანს, თქვენი საკრედიტო ბარათი ვადაგასულია. სცადეთ სხვა ბარათი.
+intent-payment-error-try-again = ჰმ. რაღაც ხარვეზი იყო, თქვენი გადახდის დამოწმებისას. სცადეთ კვლავ ან დაუკავშირდით თქვენი ბარათის გამომშვებს.
+intent-payment-error-get-in-touch = ჰმ. რაღაც ხარვეზი იყო, გადახდის დამოწმებისას. დაუკავშირდით თქვენი ბარათის გამომშვებს.
+intent-payment-error-generic = მოულოდნელი შეცდომა წარმოიშვა გადახდის დამუშავებისას. გთხოვთ, სცადოთ ხელახლა.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
