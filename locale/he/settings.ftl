@@ -1657,6 +1657,10 @@ signin-password-button-label = ססמה
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-desktop-relay = ‏{ -brand-firefox } ינסה לשלוח אותך בחזרה להשתמש במסיכת דוא״ל לאחר ההתחברות.
 signin-code-expired-error = פג תוקף הקוד. נא להתחבר שוב.
+signin-account-locked-banner-heading = איפוס הססמה שלך
+signin-account-locked-banner-description = נעלנו את החשבון שלך כדי להגן עליו מפני פעילות חשודה.
+# This link points to https://accounts.firefox.com/reset_password
+signin-account-locked-banner-link = איפוס הססמה שלך כדי להיכנס
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
@@ -1861,6 +1865,7 @@ confirm-signup-code-desktop-relay = ‏{ -brand-firefox } ינסה לשלוח א
 signup-heading-v2 = יצירת ססמה
 signup-relay-info = יש צורך בססמה כדי לנהל בצורה מאובטחת את חשבונות הדוא״ל המסוכות שלך ולגשת לכלי האבטחה של { -brand-mozilla }.
 signup-sync-info = סנכרון הססמאות, הסימניות ועוד, בכל מקום בו יש לך את { -brand-firefox }.
+signup-sync-info-with-payment = סנכרון הססמאות, אמצעי התשלום, הסימניות ועוד, בכל מקום בו יש לך את { -brand-firefox }.
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = מדוע עליי ליצור חשבון זה?
 # Link included in a dismissible info banner that is only displayed to Pocket clients

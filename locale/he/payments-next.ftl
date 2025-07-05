@@ -40,6 +40,10 @@ cart-total-mismatch-error = סכום החשבונית השתנה. נא לנסו�
 
 ## Error pages - Payment method failure messages
 
+intent-card-error = לא ניתן היה לעבד את העסקה שלך. נא לאמת את פרטי כרטיס האשראי שלך ולנסות שוב.
+intent-payment-error-try-again = הממ. הייתה בעיה באישור התשלום שלך. נא לנסות שוב או ליצור קשר עם מנפיק הכרטיס שלך.
+intent-payment-error-get-in-touch = הממ. הייתה בעיה באישור התשלום שלך. נא ליצור קשר עם מנפיק הכרטיס שלך.
+intent-payment-error-generic = אירעה שגיאה לא צפויה בעת עיבוד התשלום שלך, נא לנסות שוב.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
