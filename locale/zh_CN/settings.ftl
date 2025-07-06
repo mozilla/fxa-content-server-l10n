@@ -380,6 +380,7 @@ password-strength-balloon-stay-safe-tips = 安全无小事——杜绝重复使�
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password
 
+password-strength-long-instruction = 请使用您没有在其它网站使用过的强密码。确保其符合安全要求：
 password-strength-inline-min-length = 至少 8 个字符
 password-strength-inline-not-email = 不包含您的邮箱地址
 password-strength-inline-not-common = 不是常见密码
@@ -1196,6 +1197,7 @@ tfa-row-disable-modal-explain-1 = 您将无法撤销此操作。您也可选择<
 # Shown in an alert bar after two-step authentication is disabled
 tfa-row-disabled-2 = 已禁用两步验证
 tfa-row-cannot-disable-2 = 无法禁用两步验证
+tfa-row-disable-cannot-verify-session = 抱歉，确认您的会话时出现问题
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
@@ -1720,6 +1722,9 @@ signin-password-button-label = 密码
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-desktop-relay = { -brand-firefox } 将尝试在您登录后返回原页面，供您使用马甲邮箱。
 signin-code-expired-error = 验证码已过期，请重新登录。
+signin-account-locked-banner-heading = 重设密码
+# This link points to https://accounts.firefox.com/reset_password
+signin-account-locked-banner-link = 重设密码以登录
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
@@ -1926,6 +1931,7 @@ confirm-signup-code-desktop-relay = { -brand-firefox } 将尝试在您登录后�
 signup-heading-v2 = 创建密码
 signup-relay-info = 需通过密码来安全管理您的马甲邮箱，以及使用 { -brand-mozilla } 的安全工具。
 signup-sync-info = 在您使用 { -brand-firefox } 的各设备间，同步密码、书签等数据。
+signup-sync-info-with-payment = 在您使用 { -brand-firefox } 的各设备间，同步密码、付款信息、书签等数据。
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = 为什么要创建此账户？
 # Link included in a dismissible info banner that is only displayed to Pocket clients

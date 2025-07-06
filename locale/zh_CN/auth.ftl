@@ -357,6 +357,7 @@ passwordChanged-description-2 = 已从下列设备成功更改您的 { -product-
 passwordChangeRequired-subject = 检测到可疑活动
 passwordChangeRequired-preview = 立即更改密码
 passwordChangeRequired-title-2 = 重设密码
+passwordChangeRequired-suspicious-activity-3 = 为防范可疑活动带来的威胁，我们锁定了您的账户。安全起见，您已被从所有设备退出登录，同步的数据也已全部删除。
 passwordChangeRequired-sign-in-3 = 您只需重设密码即可重新登录账户。
 passwordChangeRequired-action = 重设密码
 passwordChangeRequired-action-plaintext = { passwordChangeRequired-action }：
