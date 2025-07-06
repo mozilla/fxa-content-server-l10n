@@ -106,6 +106,7 @@ payments-header-avatar =
     .title = Менюи «{ -product-mozilla-account }»
 payments-header-avatar-icon =
     .alt = Расми профили ҳисоб
+payments-header-avatar-expanded-sign-out = Баромад
 payments-client-loading-spinner =
     .aria-label = Бор шуда истодааст…
     .alt = Бор шуда истодааст…
@@ -116,6 +117,10 @@ next-new-user-card-title = Маълумоти корти худро ворид �
 
 ## Component - PurchaseDetails
 
+next-plan-details-header = Тафсилоти маҳсул
+next-plan-details-list-price = Нархнома
+next-plan-details-tax = Андозҳо ва ҳаққи хизматрасонӣ
+next-plan-details-total-label = Ҳамагӣ
 next-plan-details-hide-button = Пинҳон кардани тафсилот
 next-plan-details-show-button = Намоиш додани тафсилот
 
@@ -124,6 +129,7 @@ next-plan-details-show-button = Намоиш додани тафсилот
 select-tax-location-title = Ҷойгиршавӣ
 select-tax-location-edit-button = Таҳрир кардан
 select-tax-location-save-button = Нигоҳ доштан
+select-tax-location-continue-to-checkout-button = Идома додан ба қадами пардохти харид
 select-tax-location-country-code-label = Кишвар
 select-tax-location-country-code-placeholder = Кишвари худро интихоб кунед
 select-tax-location-error-missing-country-code = Лутфан, кишвари худро интихоб кунед
@@ -139,6 +145,9 @@ select-tax-location-error-location-not-updated = Ҷойгиршавии шумо
 signin-form-continue-button = Идома додан
 signin-form-email-input = Почтаи электронии худро ворид кунед
 signin-form-email-input-missing = Лутфан, почтаи электронии худро ворид намоед
+next-new-user-subscribe-product-updates-mdnplus = Ман мехоҳам, ки аз «{ -product-mdn-plus }» ва «{ -brand-mozilla }» дар бораи маҳсулот хабарҳо ва навигариҳоро қабул кунам
+next-new-user-subscribe-product-updates-mozilla = Ман мехоҳам, ки аз «{ -brand-mozilla }» дар бораи маҳсулот хабарҳо ва навигариҳоро қабул кунам
+next-new-user-subscribe-product-updates-snp = Ман мехоҳам, ки аз «{ -brand-mozilla }» дар бораи амният ва махфият хабарҳо ва навигариҳоро қабул кунам
 
 ## Component - PriceInterval
 
@@ -146,9 +155,18 @@ signin-form-email-input-missing = Лутфан, почтаи электрони�
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
+plan-price-interval-daily = { $amount } ҳар рӯз
+plan-price-interval-weekly = { $amount } ҳар ҳафта
+plan-price-interval-monthly = { $amount } ҳар моҳ
+plan-price-interval-yearly = { $amount } ҳар сол
 
 ## Component - SubscriptionTitle
 
+next-subscription-create-title = Обунаи худро танзим кунед
+next-subscription-success-title = Тасдиқи обуна
+next-subscription-processing-title = Дар ҳоли тасдиқи обуна…
+next-subscription-error-title = Хатои тасдиқи обуна…
+subscription-title-plan-change-heading = Тағйироти худро аз назар гузаронед
 next-sub-guarantee = Кафолати 30-рӯза барои бозпардохти маблағи шумо
 
 ## Component - TermsAndPrivacy
@@ -159,18 +177,30 @@ next-subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capita
 next-terms = Шартҳои хизматрасонӣ
 next-privacy = Огоҳномаи махфият
 next-terms-download = Шартҳои боргирӣ
+terms-and-privacy-stripe-link = Сиёсати махфияти «{ -brand-name-stripe }»
 terms-and-privacy-paypal-link = Сиёсати махфияти «{ -brand-paypal }»
 
 ## Component - UpdatedPurchaseDetails
 
+upgrade-purchase-details-current-plan-label = Нақшаи ҷорӣ
+upgrade-purchase-details-new-plan-label = Нақшаи нав
+upgrade-purchase-details-promo-code = Рамзи таблиғотӣ
+upgrade-purchase-details-tax-label = Андозҳо ва ҳаққи хизматрасонӣ
 
 ## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
 
+upgrade-purchase-details-new-plan-daily = { $productName } (Барои ҳар рӯз)
+upgrade-purchase-details-new-plan-weekly = { $productName } (Барои ҳар ҳафта)
+upgrade-purchase-details-new-plan-monthly = { $productName } (Барои ҳар моҳ)
+upgrade-purchase-details-new-plan-halfyearly = { $productName } (Барои 6 моҳ)
+upgrade-purchase-details-new-plan-yearly = { $productName } (Барои ҳар сол)
 
 ## Page Metadata Information
 ## $productTitle (String) - The name of the product to create subscription, e.g. Mozilla VPN
 
+# Checkout start
+metadata-title-checkout-start = Пардохти харид | { $productTitle }
 # Checkout error
 metadata-title-checkout-error = Хато | { $productTitle }
 # Checkout success
