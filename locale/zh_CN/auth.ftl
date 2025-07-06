@@ -248,6 +248,12 @@ subscriptionUpdatePayment = 为避免服务中断，请您及时<a data-l10n-nam
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = 为避免服务中断，请您及时更新付款信息：
 # Variables:
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-3 = 如需了解更多信息，请访问 <a data-l10n-name="supportLink">{ -brand-mozilla } 技术支持</a>。
+# Variables:
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-plaintext = 如需了解更多信息，请访问 { -brand-mozilla } 技术支持：{ $supportUrl }。
+# Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 #  $uaOSVersion (String) - User's OS version, e.g. 10.11
@@ -349,6 +355,8 @@ passwordChanged-subject = 密码已更新
 passwordChanged-title = 密码更改成功
 passwordChanged-description-2 = 已从下列设备成功更改您的 { -product-mozilla-account }密码
 passwordChangeRequired-subject = 检测到可疑活动
+passwordChangeRequired-preview = 立即更改密码
+passwordChangeRequired-title-2 = 重设密码
 password-forgot-otp-subject = 忘记密码？
 password-forgot-otp-title = 忘记密码？
 password-forgot-otp-request = 我们收到更改 { -product-mozilla-account }密码的请求，来自：
