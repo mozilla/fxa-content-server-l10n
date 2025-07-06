@@ -43,6 +43,11 @@ checkout-processing-general-error = 处理付款时发生意外错误，请重�
 
 ## Error pages - Payment method failure messages
 
+intent-card-error = 无法处理您的交易。请检查您的信用卡信息，然后重试。
+intent-expired-card-error = 您的信用卡似乎已过期，请改用其他卡。
+intent-payment-error-try-again = 嗯… 在授权您的付款时出现问题。请再试一次，或联系您的发卡机构。
+intent-payment-error-get-in-touch = 嗯… 在授权您的付款时出现问题，请联系您的发卡机构。
+intent-payment-error-generic = 处理付款时发生意外错误，请重试。
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
