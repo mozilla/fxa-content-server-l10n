@@ -40,6 +40,7 @@ checkout-error-already-subscribed = 您此前已经订阅此产品。
 checkout-error-contact-support = 请联系支持以获取帮助。
 cart-error-currency-not-determined = 无法确定此次交易使用的货币，请重试。
 checkout-processing-general-error = 处理付款时发生意外错误，请重试。
+cart-total-mismatch-error = 发票金额已更改。请重试。
 
 ## Error pages - Payment method failure messages
 

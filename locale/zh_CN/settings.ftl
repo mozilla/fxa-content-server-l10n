@@ -381,10 +381,12 @@ password-strength-balloon-stay-safe-tips = 安全无小事——杜绝重复使�
 ## These strings are conditions that need to be met to qualify as a strong password
 
 password-strength-long-instruction = 请使用您没有在其它网站使用过的强密码。确保其符合安全要求：
+password-strength-short-instruction = 使用强密码：
 password-strength-inline-min-length = 至少 8 个字符
 password-strength-inline-not-email = 不包含您的邮箱地址
 password-strength-inline-not-common = 不是常见密码
 password-strength-inline-confirmed-must-match = 再次输入的密码与新密码一致
+password-strength-inline-passwords-match = 密码符合
 
 ## Notification Promo Banner component
 
@@ -1723,6 +1725,7 @@ signin-password-button-label = 密码
 signin-desktop-relay = { -brand-firefox } 将尝试在您登录后返回原页面，供您使用马甲邮箱。
 signin-code-expired-error = 验证码已过期，请重新登录。
 signin-account-locked-banner-heading = 重设密码
+signin-account-locked-banner-description = 我们已锁定您的账户，以防范可疑活动带来的威胁
 # This link points to https://accounts.firefox.com/reset_password
 signin-account-locked-banner-link = 重设密码以登录
 
