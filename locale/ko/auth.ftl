@@ -252,6 +252,12 @@ subscriptionUpdatePayment = 서비스 중단을 방지하려면 가능한 한 �
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = 서비스 중단을 방지하려면 가능한 한 빨리 결제 정보를 업데이트하십시오.
 # Variables:
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-3 = 자세한 내용은 <a data-l10n-name="supportLink">{ -brand-mozilla } 지원</a>을 참조하세요.
+# Variables:
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-plaintext = 자세한 내용은 { -brand-mozilla } 지원을 참조하세요: { $supportUrl }.
+# Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 #  $uaOSVersion (String) - User's OS version, e.g. 10.11
@@ -353,6 +359,14 @@ passwordChanged-subject = 비밀번호 수정 완료
 passwordChanged-title = 비밀번호 변경 성공
 passwordChanged-description-2 = { -product-mozilla-account } 비밀번호가 다음 기기에서 성공적으로 변경됨:
 passwordChangeRequired-subject = 의심스러운 활동 감지
+passwordChangeRequired-preview = 즉시 비밀번호를 변경하세요
+passwordChangeRequired-title-2 = 비밀번호 재설정
+passwordChangeRequired-suspicious-activity-3 = 의심스러운 활동으로부터 보호하기 위해 계정을 잠갔습니다. 모든 기기에서 로그아웃되었으며 예방책으로 모든 동기화 데이터가 삭제되었습니다.
+passwordChangeRequired-sign-in-3 = 계정에 다시 로그인하려면 비밀번호를 재설정하기만 하면 됩니다.
+passwordChangeRequired-different-password-2 = <b>중요:</b> 이전에 사용했던 것과 다른 강력한 비밀번호를 선택하세요.
+passwordChangeRequired-different-password-plaintext-2 = 중요: 이전에 사용했던 것과 다른 강력한 비밀번호를 선택하세요.
+passwordChangeRequired-action = 비밀번호 재설정
+passwordChangeRequired-action-plaintext = { passwordChangeRequired-action }:
 password-forgot-otp-subject = 비밀번호를 잊으셨나요?
 password-forgot-otp-title = 비밀번호를 잊으셨나요?
 password-forgot-otp-request = 다음으로부터 { -product-mozilla-account } 비밀번호 변경 요청을 받았습니다:
@@ -434,7 +448,12 @@ postChangeRecoveryPhone-title = 복구 전화번호를 변경했습니다.
 postChangeRecoveryPhone-description = 새로운 계정 복구 전화번호가 생성되었습니다. 이전 전화번호는 삭제되었습니다.
 postChangeRecoveryPhone-requested-device = 다음에서 요청했습니다:
 postConsumeRecoveryCode-title-3 = 백업 인증 코드가 비밀번호 재설정 확인에 사용되었습니다.
+# After the colon, there is description of the device that the backup authentication code was used on
+# E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
+postConsumeRecoveryCode-description-3 = 코드 사용됨:
 postConsumeRecoveryCode-action = 계정 관리
+postConsumeRecoveryCode-subject-v3 = 백업 인증 코드 사용됨
+postConsumeRecoveryCode-preview = 본인인지 확인하세요.
 postNewRecoveryCodes-subject-2 = 새 백업 인증 코드가 생성됨
 postNewRecoveryCodes-title-2 = 새 백업 인증 코드를 생성했습니다
 # After the colon, there is information about the device that the authentication codes were created on
