@@ -430,6 +430,7 @@ sub-route-payment-modal-heading = Маълумоти санади ҳисобба
 
 ## Routes - Subscription - SubscriptionItem
 
+sub-item-no-such-plan = Барои ин обуна чунин нақша вуҷуд надорад.
 
 ## Routes - Subscriptions - Reactivate
 ## $name (String) - The name of the subscribed product.
@@ -443,4 +444,6 @@ reactivate-success-button = Пӯшидан
 
 ## Routes - Subscriptions - Subscription iap item
 
+sub-iap-item-google-purchase-2 = { -brand-google }: Харид дар дохили барнома
+sub-iap-item-apple-purchase-2 = { -brand-apple }: Харид дар дохили барнома
 sub-iap-item-manage-button = Идора кардан

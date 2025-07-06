@@ -251,6 +251,7 @@ cadReminderSecond-subject-2 = Аз даст надиҳед! Биёед танз�
 cadReminderSecond-action = Ҳамоҳанг кардани дастгоҳи дигар
 cadReminderSecond-title-2 = Ҳамоҳангсозиро фаромӯш накунед!
 cadReminderSecond-description-sync = Хатбаракҳо, ниҳонвожаҳо, варақаҳои кушодашуда ва чизҳои бештарро дар ҳама ҷойе, ки шумо аз «{ -brand-firefox }» истифода мебаред, ҳамоҳанг созед.
+cadReminderSecond-description-plus = Илова бар ин, маълумоти шумо ҳамеша рамзгузорӣ карда мешавад. Танҳо шумо ва танҳо дар дастгоҳҳое, ки шумо тасдиқ мекунед, онро дида метавонед.
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-subject = Хуш омадед ба «{ $productName }»
@@ -308,6 +309,10 @@ passwordChanged-subject = Ниҳонвожа аз нав нигоҳ дошта �
 passwordChanged-title = Ниҳонвожа бо муваффақият иваз карда шуд
 passwordChanged-description-2 = Ниҳонвжаи шумо барои «{ -product-mozilla-account }» аз дастгоҳи зерин бо муваффақият иваз карда шуд:
 passwordChangeRequired-subject = Фаъолияти шубҳанок ошкор карда шуд
+passwordChangeRequired-preview = Ниҳонвожаи худро фавран иваз кунед
+passwordChangeRequired-title-2 = Барқарор кардани ниҳонвожаи худ
+passwordChangeRequired-action = Барқарор кардани ниҳонвожа
+passwordChangeRequired-action-plaintext = { passwordChangeRequired-action }:
 password-forgot-otp-subject = Ниҳонвожаи худро фаромӯш кардед?
 password-forgot-otp-title = Ниҳонвожаи худро фаромӯш кардед?
 password-forgot-otp-code-2 = Агар ин шумо будед, он гоҳ ин рамзи тасдиқкунандаи шумо барои идома мебошад:
@@ -351,7 +356,10 @@ postAddRecoveryPhone-how-protect = Ин чӣ тавр ҳисоби шуморо 
 postAddRecoveryPhone-how-protect-plaintext = Ин чӣ тавр ҳисоби шуморо муҳофизат мекунад:
 postAddRecoveryPhone-enabled-device = Шумо онро дар дастгоҳи зерин фаъол кардед:
 postAddRecoveryPhone-action = Идоракунии ҳисоб
+postAddTwoStepAuthentication-subject-v3 = Санҷиши ҳаққонияти дуқадама фаъол аст
 postAddTwoStepAuthentication-title-2 = Шумо санҷиши ҳаққонияти дуқадамаро фаъол кардед
+# After the colon, there is a description of the device that the user used to enable two-step authentication
+postAddTwoStepAuthentication-from-device-v2 = Шумо инро дар дастгоҳи зерин дархост кардед:
 postAddTwoStepAuthentication-action = Идоракунии ҳисоб
 postChangeAccountRecovery-subject = Калиди барқарорсозии ҳисоб иваз шуд
 postChangeAccountRecovery-title = Шумо калиди барқарорсозии ҳисоби худро иваз кардед
