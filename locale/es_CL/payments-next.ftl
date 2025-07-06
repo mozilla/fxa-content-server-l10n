@@ -44,6 +44,11 @@ cart-total-mismatch-error = El importe de la factura ha cambiado. Por favor, vue
 
 ## Error pages - Payment method failure messages
 
+intent-card-error = Tu transacción no pudo ser procesada. Verifica la información de tu tarjeta de crédito y vuelve a intentarlo.
+intent-expired-card-error = Parece que tu tarjeta de crédito está vencida. Prueba con otra.
+intent-payment-error-try-again = Hmm. Hubo un problema al autorizar tu pago. Vuelve a intentarlo o ponte en contacto con el emisor de tu tarjeta.
+intent-payment-error-get-in-touch = Hmm. Hubo un problema al autorizar tu pago. Ponte en contacto con el emisor de tu tarjeta.
+intent-payment-error-generic = Ha ocurrido un error inesperado mientras se procesaba tu pago, por favor vuelve a intentarlo.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
