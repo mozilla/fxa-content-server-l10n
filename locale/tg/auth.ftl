@@ -223,6 +223,12 @@ subscriptionFirstInvoice-content-charge = { $invoiceTotal } дар { $invoiceDat
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupport-plaintext = Саволҳо дар бораи обунаи худ доред? Дар ин ҷой дастаи дастгирии мо ба шумо кумак мерасонад:
 # Variables:
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-3 = Барои гирифтани маълумоти бештар, лутфан, ба бахши <a data-l10n-name="supportLink"> Дастгирии «{ -brand-mozilla }»</a> ворид шавед.
+# Variables:
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-plaintext = Барои маълумоти иловагӣ, ба Дастгирии «{ -brand-mozilla }» муроҷиат кунед: { $supportUrl }.
+# Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 #  $uaOSVersion (String) - User's OS version, e.g. 10.11
