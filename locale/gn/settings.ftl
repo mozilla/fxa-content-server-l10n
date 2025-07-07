@@ -1723,6 +1723,10 @@ reset-password-recovery-phone-invalid-code-error-link = ¿Eiporu ayvu ñemoneĩr
 reset-password-with-recovery-key-verified-page-title = Ñe’ẽñemi jeguerujeypyre
 reset-password-complete-new-password-saved = ¡Ñe’ẽñemi pyahu ñongatupyre!
 reset-password-complete-recovery-key-created = Mba’ete mba’eñemi guerujeyrã moheñoimbyre. Emboguejy ha eñongatu.
+reset-password-complete-recovery-key-download-info =
+    Ko mba’eñemi tuichamba’e ojeguerujey
+    hag̃ua mba’ekuaarãita nde resaráirõ ñe’ẽñemígui. <b>Emboguejy ha eñongatu tekorosãme
+    ko’ag̃a, ndaikatumo’ãigui ejevy ko kuatiaroguépe uperire.</b>
 
 ## CompleteSignin component
 
