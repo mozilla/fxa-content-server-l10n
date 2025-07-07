@@ -1764,6 +1764,9 @@ signin-password-button-label = Wachtwoord
 signin-desktop-relay = { -brand-firefox } probeert u terug te sturen om een e-mailmasker te gebruiken nadat u zich hebt aangemeld.
 signin-code-expired-error = Code verlopen. Meld u opnieuw aan.
 signin-account-locked-banner-heading = Herinitialiseer uw wachtwoord
+signin-account-locked-banner-description = We hebben uw account vergrendeld om deze te beschermen tegen verdachte activiteit.
+# This link points to https://accounts.firefox.com/reset_password
+signin-account-locked-banner-link = Herinitialiseer uw wachtwoord om u aan te melden
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
