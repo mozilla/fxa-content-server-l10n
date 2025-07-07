@@ -681,6 +681,7 @@ flow-setup-2fa-backup-code-confirm-button-finish = Mbopaha
 ## The backup codes download step of the setup 2 factor authentication flow
 
 flow-setup-2fa-backup-code-dl-heading = Eñongatu ayvu ñemoneĩrã jeykekoha
+flow-setup-2fa-backup-code-dl-save-these-codes = Eñongatu umíva peteĩ tenda nemanduʼatahápe. Ndaikatúiramo eike ne rembiporu’i ñemoneĩrãme, eikotevẽta peteĩ eikekuaa hag̃ua.
 flow-setup-2fa-backup-code-dl-button-continue = Ku’ejey
 
 ## FlowSetupPhoneConfirmCode
@@ -871,6 +872,7 @@ delete-account-continue-button = Ku’ejey
 delete-account-password-input =
     .label = Emoinge ñe’ẽñemi
 pocket-delete-notice = Eñemboheraguapýramo Pocket Premium ndive, ejapóke <a>ñemboheraguapy jejoko</a> emboguete mboyve ne mba’ete.
+pocket-delete-notice-marketing = Og̃uahẽ’ỹve hag̃ua ndéve ñanduti veve Mozilla Corporation ha Mozilla Foundation ñemurãgui, <a>ejeruréke toñembogue ne mba’ekuaarã ñemurãgui.</a>
 delete-account-cancel-button = Heja
 delete-account-delete-button-2 = Mboguete
 
