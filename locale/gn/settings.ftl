@@ -1708,6 +1708,9 @@ password-reset-recovery-method-send-code-error-description = Eha’ã jey ag̃am
 reset-password-recovery-phone-flow-heading = Embojevyjey ne ñe’ẽñemi
 # A recovery code in context of this page is a one time code sent to the user's phone
 reset-password-recovery-phone-heading = Emoinge ayvu guerujeyrã
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+reset-password-recovery-phone-instruction-v3 = Oñemondóma ayvu 6 taíva pumbyry papapy oñemohu’ãva <span>{ $lastFourPhoneDigits }</span>-pe ñe’ẽmondo jehaipyrépe. Ko ayvu hu’ãta 5 aravo’ípe. Ani emoherakuã ko ayvu avave ndive.
 reset-password-recovery-phone-input-label = Emoinge ayvu 6 taíva
 reset-password-recovery-phone-code-submit-button = Moneĩ
 reset-password-recovery-phone-resend-code-button = Emondojey ayvu
@@ -1854,6 +1857,9 @@ signin-recovery-code-use-phone-failure-description = Eha’ãjey ag̃amieve.
 signin-recovery-phone-flow-heading = Eñemboheraguapy
 # A recovery code in context of this page is a one time code sent to the user's phone
 signin-recovery-phone-heading = Emoinge ayvu jeguerujeyrã
+# Text that explains the user should check their phone for a recovery code
+# $maskedPhoneNumber - The users masked phone number
+signin-recovery-phone-instruction-v3 = Oñemondóma ayvu 6 taíva pumbyry papapy oñemohu’ãva <span>{ $lastFourPhoneDigits }</span>-pe ñe’ẽmondo jehaipyrépe. Ko ayvu hu’ãta 5 aravo’ípe. Ani emoherakuã ko ayvu avave ndive.
 signin-recovery-phone-input-label = Emoinge ayvu 6 taíva
 signin-recovery-phone-code-submit-button = Moneĩ
 signin-recovery-phone-resend-code-button = Emondojey ayvu
