@@ -362,6 +362,7 @@ passwordChanged-description-2 = Oñemoambue hekoitépe nde { -product-mozilla-ac
 passwordChangeRequired-subject = Tembiapo ivaikuaáva jehechapyre
 passwordChangeRequired-preview = Emoambue ne ñe’ẽñemi pya’eterei
 passwordChangeRequired-title-2 = Eguerujey ne ñe’ẽñemi
+passwordChangeRequired-suspicious-activity-3 = Rojoko ne mba’ete roñangareko hag̃ua hese mba’evaígui. Resẽma tembiapógui opaite mba’e’okapeguágui, ha umi mba’ekuaarã oñemboguétama ani oiko mba’evai tenondeve.
 passwordChangeRequired-sign-in-3 = Eike jey hag̃ua ne mba’etépe, pe ejapova’erã ha’e ne ñe’ẽñemi jeguerujey.
 passwordChangeRequired-different-password-2 = <b>Mba’eporã:</b> Eiporavo peteĩ ñe’ẽñemi hekorosãva iñambuéva pe eiporuva’ekuégui ymave.
 passwordChangeRequired-different-password-plaintext-2 = Mba’eporã: Eiporavo peteĩ ñe’ẽñemi hekorosãva iñambuéva pe eiporuva’ekuégui ymave.
@@ -690,6 +691,9 @@ subscriptionUpgrade-upgrade-info-2 = Oñembohekopyahúma { $productName } hekope
 subscriptionUpgrade-content-charge-prorated = Ehepyme’ẽma peteĩ jeýnte { $paymentProrated } eikuaa hag̃ua ne ñemboheraguapy repykue hepyvéva ko kuatiañemure pukukue ryepýpe ({ $productPaymentCycleOld }).
 subscriptionUpgrade-content-charge-credit = Rehupyty peteĩ crédito mba’ete rehegua { $paymentProrated } repykuépe.
 subscriptionUpgrade-content-starting = Oñepyrũvo nde kuatia ñemure oúvagui, nde cargo iñambuéta { $paymentAmountOld }-gui { $productPaymentCycleOld }-pe { $paymentAmountNew }-gui { $productPaymentCycleNew }-pe.
+# Variables:
+# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-existing = Oĩramo ne ñemboheraguapy ag̃agua okañy ko ñembohekopyahu ndive, roñangarekóta hese ha romondóta ndéve ñanduti veve umi mba’emimi reheve. Ne mba’epyahu orekórõ apopyre oikotevẽrõ ñemohenda, romondóta ndéve ñanduti veve orekóva mba’éichapa embohekóta.
 subscriptionUpgrade-auto-renew = Ne ñemboheraguapy ipyahúta ijeheguiete ehepyme’ẽvo eiporuva’ekue neremoneĩriramo ndete voi.
 unblockCode-subject = Ayvu ñemoneĩva mba’ete rehegua
 unblockCode-title = ¿Ndépa emoñepyrũve tembiapo?
