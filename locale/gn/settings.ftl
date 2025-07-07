@@ -1623,6 +1623,7 @@ complete-reset-pw-recovery-key-link = Eiporu mba’eñemi jeguerujeyrã
 # A message informing the user that the password reset was successful and reminding them to create another recovery key
 # Displayed on the sign in page
 reset-password-complete-banner-heading = Ojeguerujeýma ne ñe’ẽñemi.
+reset-password-complete-banner-message = Ani nderesarái emoheñóivo mba’eñemi pyahu mba’ete guerujeyrã { -product-mozilla-account } ñemboheko guive ani hag̃ua iñapañuái nde jeike.
 # Message to user after they were redirected to the Mozilla account sign-in page in a new browser
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
