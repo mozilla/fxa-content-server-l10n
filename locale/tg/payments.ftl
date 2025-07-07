@@ -387,6 +387,7 @@ sub-update-new-plan-label = Нақшаи нав
 sub-update-new-plan-daily = { $productName } (Барои ҳар рӯз)
 sub-update-new-plan-weekly = { $productName } (Барои ҳар ҳафта)
 sub-update-new-plan-monthly = { $productName } (Барои ҳар моҳ)
+sub-update-new-plan-yearly = { $productName } (Барои ҳар сол)
 
 ## Routes - Subscriptions - Cancel
 
