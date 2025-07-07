@@ -252,6 +252,12 @@ subscriptionUpdatePayment = För att förhindra eventuella avbrott i din tjänst
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = För att förhindra avbrott i din tjänst, uppdatera din betalningsinformation så snart som möjligt:
 # Variables:
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-3 = För mer information besök <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
+# Variables:
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-plaintext = För mer information besök { -brand-mozilla } Support: { $supportUrl }.
+# Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 #  $uaOSVersion (String) - User's OS version, e.g. 10.11
@@ -354,6 +360,14 @@ passwordChanged-subject = Lösenord uppdaterat
 passwordChanged-title = Lösenord har ändrats
 passwordChanged-description-2 = Ditt lösenord för { -product-mozilla-account } har ändrats från följande enhet:
 passwordChangeRequired-subject = Misstänkt aktivitet upptäckt
+passwordChangeRequired-preview = Ändra ditt lösenord omedelbart
+passwordChangeRequired-title-2 = Återställ lösenordet
+passwordChangeRequired-suspicious-activity-3 = Vi låste ditt konto för att skydda det från misstänkt aktivitet. Du har loggats ut från alla dina enheter och all synkroniserad data har raderats som en försiktighetsåtgärd.
+passwordChangeRequired-sign-in-3 = För att logga in på ditt konto behöver du bara återställa ditt lösenord.
+passwordChangeRequired-different-password-2 = <b>Viktigt:</b> Välj ett starkt lösenord som skiljer sig från ett du har använt tidigare.
+passwordChangeRequired-different-password-plaintext-2 = <b>Viktigt:</b> Välj ett starkt lösenord som skiljer sig från ett du har använt tidigare.
+passwordChangeRequired-action = Återställ lösenord
+passwordChangeRequired-action-plaintext = { passwordChangeRequired-action }:
 password-forgot-otp-subject = Glömt ditt lösenord?
 password-forgot-otp-title = Glömt ditt lösenord?
 password-forgot-otp-request = Vi fick en begäran om lösenordsändring på ditt { -product-mozilla-account } från:
