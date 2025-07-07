@@ -251,7 +251,7 @@ subscriptionUpdatePayment = Abyste zabránili jakémukoliv přerušení předpla
 subscriptionUpdatePayment-plaintext = Abyste zabránili jakémukoliv přerušení předplatného služeb, aktualizujte včas své platební údaje:
 # Variables:
 #  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
-support-message-3 = Další informace nalezete na stránkách <a data-l10n-name="supportLink">Podpory { -brand-mozilla(case: "gen") }</a>.
+support-message-3 = Další informace nalezete na stránkách <a data-l10n-name="supportLink">Podpora { -brand-mozilla(case: "gen") }</a>.
 # Variables:
 #  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 support-message-plaintext = Pro více informací navštivte podporu { -brand-mozilla(case: "gen") }: { $supportUrl }.
@@ -365,7 +365,7 @@ passwordChangeRequired-title-2 = Obnovit heslo
 passwordChangeRequired-suspicious-activity-3 = Váš účet jsme uzamkli, abychom ho ochránili před podezřelou aktivitou. Byli jste odhlášeni ze všech svých zařízení a veškerá synchronizovaná data byla v rámci opatření smazána.
 passwordChangeRequired-sign-in-3 = Pro opětovné přihlášení ke svému účtu stačí obnovit heslo.
 passwordChangeRequired-different-password-2 = <b>Důležité:</b> Zvolte silné heslo, které bude odlišné od hesla, které jste používali v minulosti.
-passwordChangeRequired-different-password-plaintext-2 = Důležité: Zvolte silné heslo, které se nebude lišit od hesla, které jste používali v minulosti.
+passwordChangeRequired-different-password-plaintext-2 = Důležité: Zvolte si silné heslo, které se liší od hesla, které jste používali v minulosti.
 passwordChangeRequired-action = Obnovit heslo
 passwordChangeRequired-action-plaintext = { passwordChangeRequired-action }:
 password-forgot-otp-subject = Zapomněli jste heslo?
@@ -425,7 +425,7 @@ postAddRecoveryPhone-action = Správa účtu
 postAddTwoStepAuthentication-subject-v3 = Dvoufázové ověřování je zapnuto
 postAddTwoStepAuthentication-title-2 = Zapnuli jste dvoufázové ověření
 # After the colon, there is a description of the device that the user used to enable two-step authentication
-postAddTwoStepAuthentication-from-device-v2 = Požádali jste o tuto zprávu z:
+postAddTwoStepAuthentication-from-device-v2 = Vyžádali jste si to z:
 postAddTwoStepAuthentication-action = Správa účtu
 postAddTwoStepAuthentication-code-required-v3 = Nyní je potřeba při každém přihlášení použít přihlašovací aplikaci.
 postAddTwoStepAuthentication-recovery-method-codes = Přidali jste také záložní ověřovací kódy jako metodu obnovení.
