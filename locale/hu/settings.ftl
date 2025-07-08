@@ -392,7 +392,7 @@ password-strength-balloon-stay-safe-tips = Maradjon biztonságban – ne haszná
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password
 
-password-strength-long-instruction = Válasszon erős jelszót, amit más oldalakon nem használt. Győződjön meg róla, hogy megfelel a biztonsági követelményeknek:
+password-strength-long-instruction = Válasszon erős jelszót, melyet más oldalakon nem használt. Győződjön meg róla, hogy megfelel a biztonsági követelményeknek:
 password-strength-short-instruction = Válasszon erős jelszót:
 password-strength-inline-min-length = Legalább 8 karakter
 password-strength-inline-not-email = Nem az Ön e-mail-címe
