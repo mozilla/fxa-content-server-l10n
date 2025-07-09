@@ -380,10 +380,13 @@ password-strength-balloon-stay-safe-tips = Giữ an toàn — Không sử dụng
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password
 
+password-strength-long-instruction = Chọn một mật khẩu mạnh mà bạn chưa từng sử dụng trên các trang web khác. Đảm bảo nó đáp ứng các yêu cầu bảo mật:
+password-strength-short-instruction = Chọn một mật khẩu mạnh:
 password-strength-inline-min-length = Ít nhất 8 ký tự
 password-strength-inline-not-email = Không phải địa chỉ email của bạn
 password-strength-inline-not-common = Không phải mật khẩu thường được sử dụng
 password-strength-inline-confirmed-must-match = Xác nhận khớp với mật khẩu mới
+password-strength-inline-passwords-match = Mật khẩu trùng khớp
 
 ## Notification Promo Banner component
 
@@ -1741,6 +1744,10 @@ signin-password-button-label = Mật khẩu
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-desktop-relay = { -brand-firefox } sẽ điều hướng bạn quay trở lại để sử dụng email ẩn danh sau khi bạn đăng nhập.
 signin-code-expired-error = Mã đã hết hạn. Vui lòng đăng nhập lại.
+signin-account-locked-banner-heading = Đặt lại mật khẩu của bạn
+signin-account-locked-banner-description = Chúng tôi đã khóa tài khoản của bạn để bảo vệ tài khoản khỏi hoạt động đáng ngờ.
+# This link points to https://accounts.firefox.com/reset_password
+signin-account-locked-banner-link = Đặt lại mật khẩu để đăng nhập
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
@@ -1947,6 +1954,7 @@ confirm-signup-code-desktop-relay = { -brand-firefox } sẽ điều hướng b�
 signup-heading-v2 = Tạo một mật khẩu
 signup-relay-info = Cần có mật khẩu để quản lý an toàn các email ẩn danh và quyền truy cập vào các công cụ bảo mật của { -brand-mozilla } của bạn.
 signup-sync-info = Đồng bộ hóa mật khẩu, dấu trang và nhiều thứ khác ở mọi nơi bạn sử dụng { -brand-firefox }.
+signup-sync-info-with-payment = Đồng bộ hóa mật khẩu, phương thức thanh toán, dấu trang và nhiều thông tin khác ở mọi nơi bạn sử dụng { -brand-firefox }.
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = Tại sao tôi cần tạo tài khoản này?
 # Link included in a dismissible info banner that is only displayed to Pocket clients

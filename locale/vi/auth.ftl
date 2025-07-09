@@ -252,6 +252,12 @@ subscriptionUpdatePayment = Để ngăn chặn bất kỳ sự gián đoạn nà
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Để ngăn chặn bất kỳ sự gián đoạn nào đối với dịch vụ của bạn, vui lòng cập nhật thông tin thanh toán của bạn càng sớm càng tốt:
 # Variables:
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-3 = Để biết thêm thông tin, hãy truy cập <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
+# Variables:
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-plaintext = Để biết thêm thông tin, hãy truy cập { -brand-mozilla } Support: { $supportUrl }.
+# Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 #  $uaOSVersion (String) - User's OS version, e.g. 10.11
@@ -353,6 +359,14 @@ passwordChanged-subject = Đã cập nhật mật khẩu
 passwordChanged-title = Mật khẩu đã thay đổi thành công
 passwordChanged-description-2 = Mật khẩu { -product-mozilla-account } của bạn đã được thay đổi thành công từ thiết bị sau:
 passwordChangeRequired-subject = Phát hiện hoạt động đáng ngờ
+passwordChangeRequired-preview = Hãy thay đổi mật khẩu ngay lập tức
+passwordChangeRequired-title-2 = Đặt lại mật khẩu của bạn
+passwordChangeRequired-suspicious-activity-3 = Chúng tôi đã khóa tài khoản của bạn để bảo vệ tài khoản khỏi hoạt động đáng ngờ. Bạn đã đăng xuất khỏi tất cả các thiết bị của mình và mọi dữ liệu đã đồng bộ hóa đã bị xóa như một biện pháp phòng ngừa.
+passwordChangeRequired-sign-in-3 = Để đăng nhập lại vào tài khoản, tất cả những gì bạn cần làm là đặt lại mật khẩu.
+passwordChangeRequired-different-password-2 = <b>Quan trọng:</b> Chọn một mật khẩu mạnh, khác với mật khẩu bạn đã từng sử dụng trước đây.
+passwordChangeRequired-different-password-plaintext-2 = Quan trọng: Chọn một mật khẩu mạnh, khác với mật khẩu bạn đã từng sử dụng trước đây.
+passwordChangeRequired-action = Đặt lại mật khẩu
+passwordChangeRequired-action-plaintext = { passwordChangeRequired-action }:
 password-forgot-otp-subject = Bạn đã quên mật khẩu?
 password-forgot-otp-title = Bạn đã quên mật khẩu?
 password-forgot-otp-request = Chúng tôi đã nhận được yêu cầu thay đổi mật khẩu { -product-mozilla-account } của bạn từ:

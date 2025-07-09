@@ -40,9 +40,15 @@ checkout-error-already-subscribed = Bạn đã đăng ký sản phẩm này.
 checkout-error-contact-support = Vui lòng liên hệ với hỗ trợ để chúng tôi có thể giúp bạn.
 cart-error-currency-not-determined = Chúng tôi không thể xác định loại tiền tệ cho giao dịch mua này, vui lòng thử lại.
 checkout-processing-general-error = Đã xảy ra lỗi không mong muốn khi xử lý thanh toán của bạn, vui lòng thử lại.
+cart-total-mismatch-error = Số tiền hóa đơn đã thay đổi. Vui lòng thử lại.
 
 ## Error pages - Payment method failure messages
 
+intent-card-error = Không thể xử lý giao dịch của bạn. Vui lòng xác minh thông tin thẻ tín dụng của bạn và thử lại.
+intent-expired-card-error = Có vẻ như thẻ tín dụng của bạn đã hết hạn. Hãy thử một thẻ khác.
+intent-payment-error-try-again = Hmm. Đã xảy ra sự cố khi cho phép thanh toán của bạn. Hãy thử lại hoặc liên lạc với công ty phát hành thẻ của bạn.
+intent-payment-error-get-in-touch = Hmm. Đã xảy ra sự cố khi cho phép thanh toán của bạn. Hãy liên lạc với công ty phát hành thẻ của bạn.
+intent-payment-error-generic = Đã xảy ra lỗi không mong muốn khi xử lý thanh toán của bạn, vui lòng thử lại.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
