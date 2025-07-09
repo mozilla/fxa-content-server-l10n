@@ -40,9 +40,15 @@ checkout-error-already-subscribed = Tento produkt už odoberáte.
 checkout-error-contact-support = Kontaktujte podporu, aby sme vám mohli pomôcť.
 cart-error-currency-not-determined = Nepodarilo sa nám určiť menu pre tento nákup, skúste to znova.
 checkout-processing-general-error = Počas spracovania platby došlo k neočakávanej chybe, skúste to znova.
+cart-total-mismatch-error = Suma faktúry sa zmenila. Skúste to znova.
 
 ## Error pages - Payment method failure messages
 
+intent-card-error = Vašu transakciu sa nepodarilo spracovať. Skontrolujte, prosím, zadané údaje o svojej karte a skúste to znova.
+intent-expired-card-error = Zdá sa, že platnosť vašej platobnej karty uplynula. Skúste inú kartu.
+intent-payment-error-try-again = Hmm. Pri autorizácii vašej platby sa vyskytol problém. Skúste to znova alebo sa obráťte na vydavateľa karty.
+intent-payment-error-get-in-touch = Hmm. Pri autorizácii vašej platby sa vyskytol problém. Obráťte sa na vydavateľa karty.
+intent-payment-error-generic = Počas spracovania platby došlo k neočakávanej chybe, skúste to znova.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages

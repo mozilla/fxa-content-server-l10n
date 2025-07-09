@@ -398,10 +398,13 @@ password-strength-balloon-stay-safe-tips = Zostaňte v bezpečí – nepoužíva
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password
 
+password-strength-long-instruction = Zvoľte si silné heslo, ktoré ste ešte nepoužívali na iných stránkach. Uistite sa, že spĺňa bezpečnostné požiadavky:
+password-strength-short-instruction = Zvoľte si silné heslo:
 password-strength-inline-min-length = Minimálne 8 znakov
 password-strength-inline-not-email = Nie je to vaša e‑mailová adresa
 password-strength-inline-not-common = Nie je to bežne používané heslo
 password-strength-inline-confirmed-must-match = Potvrdenie sa zhoduje s novým heslom
+password-strength-inline-passwords-match = Heslá sa zhodujú
 
 ## Notification Promo Banner component
 
@@ -1763,6 +1766,10 @@ signin-password-button-label = Heslo
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-desktop-relay = { -brand-firefox } sa vás po prihlásení pokúsi poslať späť, aby ste mohli použiť e‑mailovú masku.
 signin-code-expired-error = Platnosť kódu vypršala. Prihláste sa znova.
+signin-account-locked-banner-heading = Zmena hesla
+signin-account-locked-banner-description = Váš účet sme zablokovali, aby sme ho ochránili pred podozrivou aktivitou.
+# This link points to https://accounts.firefox.com/reset_password
+signin-account-locked-banner-link = Zmeňte si heslo a prihláste sa
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
@@ -1975,6 +1982,7 @@ confirm-signup-code-desktop-relay = { -brand-firefox } sa vás po prihlásení p
 signup-heading-v2 = Vytvoriť heslo
 signup-relay-info = Heslo je potrebné na bezpečnú správu vašich maskovaných e‑mailov a prístup k bezpečnostným nástrojom od { -brand-mozilla(case: "gen") }.
 signup-sync-info = Synchronizujte svoje heslá, záložky a ďalšie údaje všade, kde používate { -brand-firefox }.
+signup-sync-info-with-payment = Synchronizujte svoje heslá, spôsoby platby, záložky a ďalšie údaje všade, kde používate { -brand-firefox }.
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = Prečo si musím vytvoriť tento účet?
 # Link included in a dismissible info banner that is only displayed to Pocket clients

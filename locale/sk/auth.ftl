@@ -252,6 +252,12 @@ subscriptionUpdatePayment = Ak chcete zabrániť prerušeniu vašej služby, čo
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Ak chcete zabrániť prerušeniu vašej služby, čo najskôr aktualizujte svoje platobné údaje:
 # Variables:
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-3 = Ďalšie informácie nájdete na stránkach <a data-l10n-name="supportLink">Podpory { -brand-mozilla(case: "gen") }</a>.
+# Variables:
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-plaintext = Ďalšie informácie nájdete na stránkach Podpory { -brand-mozilla(case: "gen") } { $supportUrl }.
+# Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 #  $uaOSVersion (String) - User's OS version, e.g. 10.11
@@ -355,6 +361,14 @@ passwordChanged-subject = Heslo bolo aktualizované
 passwordChanged-title = Heslo bolo úspešne zmenené
 passwordChanged-description-2 = Heslo k vášmu { -product-mozilla-account(case: "dat", capitalization: "lower") } bolo úspešne zmenené z nasledovného zariadenia:
 passwordChangeRequired-subject = Bola zistená podozrivá aktivita
+passwordChangeRequired-preview = Okamžite si zmeňte heslo
+passwordChangeRequired-title-2 = Zmeňte si heslo
+passwordChangeRequired-suspicious-activity-3 = Váš účet sme zablokovali, aby sme ho ochránili pred podozrivou aktivitou. Boli ste odhlásený zo všetkých zariadení a všetky synchronizované údaje boli preventívne vymazané.
+passwordChangeRequired-sign-in-3 = Ak sa chcete znova prihlásiť do svojho účtu, stačí si zmeniť heslo.
+passwordChangeRequired-different-password-2 = <b>Dôležité:</b> zvoľte si silné heslo, ktoré sa líši od hesla, ktoré ste používali v minulosti.
+passwordChangeRequired-different-password-plaintext-2 = Dôležité: zvoľte si silné heslo, ktoré sa líši od hesla, ktoré ste používali v minulosti.
+passwordChangeRequired-action = Zmeniť heslo
+passwordChangeRequired-action-plaintext = { passwordChangeRequired-action }:
 password-forgot-otp-subject = Zabudli ste heslo?
 password-forgot-otp-title = Zabudli ste heslo?
 password-forgot-otp-request = Dostali sme žiadosť o zmenu hesla k vášmu { -product-mozilla-account(capitalization: "lower", case: "dat") } z:
