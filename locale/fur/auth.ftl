@@ -252,6 +252,12 @@ subscriptionUpdatePayment = Par evitâ cualsisei interuzion dal servizi, <a data
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Par evitâ cualsisei interuzion dal servizi, inzorne lis informazions di paiament a pene pussibil:
 # Variables:
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-3 = Par vê plui informazions, visite il <a data-l10n-name="supportLink">supuart { -brand-mozilla }</a>.
+# Variables:
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-plaintext = Par vê plui informazions, visite il supuart di { -brand-mozilla }: { $supportUrl }.
+# Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 #  $uaOSVersion (String) - User's OS version, e.g. 10.11
@@ -354,6 +360,9 @@ passwordChanged-subject = Password inzornade
 passwordChanged-title = Password modificade cun sucès
 passwordChanged-description-2 = La password dal { -product-mozilla-account } e je stade modificade cun sucès di chest dispositîf:
 passwordChangeRequired-subject = Rilevade ativitât suspiete
+passwordChangeRequired-preview = Cambie la tô password daurman
+passwordChangeRequired-title-2 = Ristabilìs la tô password
+passwordChangeRequired-suspicious-activity-3 = O vin blocât il to account par protezilu di ativitâts suspietis. E je stade fate la tô disconession a ducj i dispositîf e par precauzion ducj i dâts sincronizâts a son stâts eliminâts.
 password-forgot-otp-subject = Password dismenteade?
 password-forgot-otp-title = Password dismenteade?
 password-forgot-otp-request = O vin ricevût une richieste di modifiche de tô password pal to { -product-mozilla-account } di:
