@@ -40,9 +40,15 @@ checkout-error-already-subscribed = Tu âs za l'abonament par chest prodot.
 checkout-error-contact-support = Contate la assistence par ricevi il nestri jutori.
 cart-error-currency-not-determined = Nol è stât pussibil determinâ la valude par chest acuist. Torne prove.
 checkout-processing-general-error = Al è capitât un erôr inspietât dilunc la elaborazion dal paiament, torne prove.
+cart-total-mismatch-error = L’impuart de fature al è cambiât. Torne prove.
 
 ## Error pages - Payment method failure messages
 
+intent-card-error = Nol è stât pussibil elaborâ la transazion. Verifiche i dâts de tô cjarte di credit e torne prove.
+intent-expired-card-error = Al somee che la tô cjarte di credit e sedi scjadude. Prove cuntune altre cjarte.
+intent-payment-error-try-again = Uhm… al è vignût fûr un probleme tal autorizâ il paiament. Torne prove o contate l’emitent de cjarte.
+intent-payment-error-get-in-touch = Uhm… al è vignût fûr un probleme tal autorizâ il paiament. Contate l’emitent de cjarte.
+intent-payment-error-generic = Al è capitât un erôr inspietât dilunc la elaborazion dal paiament, torne prove.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
