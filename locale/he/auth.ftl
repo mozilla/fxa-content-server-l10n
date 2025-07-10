@@ -226,6 +226,7 @@ subscriptionCharges-content-tax = מיסים ועמלות: { $invoiceTaxAmount }
 ##  $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
 ##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
 
+subscriptionFirstInvoice-content-total-due = חיוב של { $invoiceAmountDue } בתאריך { $invoiceDateOnly }
 subscriptionFirstInvoice-content-credit = קיבלת זיכוי בחשבון שלך בסך { $invoiceTotal }, אשר יחול על החשבוניות העתידיות שלך.
 
 ##

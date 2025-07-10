@@ -52,6 +52,7 @@ intent-expired-card-error = Zda se, ako by waša kreditowa kórta spadnuła. Wop
 intent-payment-error-try-again = Hmm. Pśi awtorizěrowanju wašogo płaśenja jo problem nastał. Wopytajśo hyšći raz abo stajśo se z wudawarjom swójeje kórty do zwiska.
 intent-payment-error-get-in-touch = Hmm. Pśi awtorizěrowanju wašogo płaśenja jo problem nastał. Stajśo se z wudawarjom swójeje kórty do zwiska.
 intent-payment-error-generic = Pśi pśeźěłowanju wašogo płaśenja jo njewótcakana zmólka nastała, pšosym wopytajśo hyšći raz.
+intent-payment-error-insufficient-funds = Zda se, ako by waša kórta njedosegajucy kontowy plus měła. Wopytajśo drugu kórtu.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -150,6 +151,11 @@ next-plan-details-header = Produktowe drobnostki
 next-plan-details-list-price = Lisćinowa płaśizna
 next-plan-details-tax = Danki a płaśonki
 next-plan-details-total-label = Dogromady
+# "Unused time" refers to the remaining value of the current subscription that hasn't been used yet
+purchase-details-unused-time-label = Kontowy plus z njewužytego casa
+purchase-details-subtotal-label = Mjazyrezultat
+# "Credit applied" refers to account credit used to reduce the amount due on the invoice
+purchase-details-credit-applied-label = Kontowy plus jo nałožony
 next-plan-details-hide-button = Drobnostki schowaś
 next-plan-details-show-button = Drobnostki pokazaś
 next-coupon-success = Waš plan se awtomatiski za lisćinowu płaśiznu wótnowja.
