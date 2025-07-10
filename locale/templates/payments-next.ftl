@@ -50,6 +50,7 @@ intent-expired-card-error = It looks like your credit card has expired. Try anot
 intent-payment-error-try-again = Hmm. There was a problem authorizing your payment. Try again or get in touch with your card issuer.
 intent-payment-error-get-in-touch = Hmm. There was a problem authorizing your payment. Get in touch with your card issuer.
 intent-payment-error-generic = An unexpected error has occurred while processing your payment, please try again.
+intent-payment-error-insufficient-funds = It looks like your card has insufficient funds. Try another card.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -159,10 +160,15 @@ next-plan-details-header = Product details
 next-plan-details-list-price = List Price
 next-plan-details-tax = Taxes and Fees
 next-plan-details-total-label = Total
-
+# "Unused time" refers to the remaining value of the current subscription that hasn't been used yet
+purchase-details-unused-time-label = Credit from unused time
+purchase-details-subtotal-label = Subtotal
+# "Credit applied" refers to account credit used to reduce the amount due on the invoice
+purchase-details-credit-applied-label = Credit applied
+# "Total due" is the total that the customer owes after all credits, discounts, and taxes have been applied
+purchase-details-total-due-label = Total due
 next-plan-details-hide-button = Hide details
 next-plan-details-show-button = Show details
-
 next-coupon-success = Your plan will automatically renew at the list price.
 # $couponDurationDate (Date) - The date at which the coupon is no longer valid, and the subscription is billed the list price.
 next-coupon-success-repeating = Your plan will automatically renew after { $couponDurationDate } at the list price.
@@ -253,8 +259,9 @@ upgrade-purchase-details-current-plan-label = Current plan
 upgrade-purchase-details-new-plan-label = New plan
 upgrade-purchase-details-promo-code = Promo Code
 upgrade-purchase-details-tax-label = Taxes and Fees
-upgrade-purchase-details-new-total-label = New total
-upgrade-purchase-details-prorated-upgrade = Prorated Upgrade
+# "Credit issued to account" refers to credit that will be added to the account balance that will be used toward future invoices
+upgrade-purchase-details-credit-to-account = Credit issued to account
+upgrade-purchase-details-credit-will-be-applied = Credit will be applied to your account and used towards future invoices.
 
 ## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
@@ -263,8 +270,6 @@ upgrade-purchase-details-new-plan-weekly = { $productName } (Weekly)
 upgrade-purchase-details-new-plan-monthly = { $productName } (Monthly)
 upgrade-purchase-details-new-plan-halfyearly = { $productName } (6-month)
 upgrade-purchase-details-new-plan-yearly = { $productName } (Yearly)
-
-upgrade-purchase-details-prorated-credits = Negative balance shown will be applied as credits to your account and used towards future invoices.
 
 ## Page Metadata Information
 ## $productTitle (String) - The name of the product to create subscription, e.g. Mozilla VPN
