@@ -151,6 +151,10 @@ next-plan-details-total-label = Opavavete
 # "Unused time" refers to the remaining value of the current subscription that hasn't been used yet
 purchase-details-unused-time-label = Virume’ẽ aravo eiporu’ỹvare
 purchase-details-subtotal-label = Oĩmba’ỹva
+# "Credit applied" refers to account credit used to reduce the amount due on the invoice
+purchase-details-credit-applied-label = Virume’ẽmbyre
+# "Total due" is the total that the customer owes after all credits, discounts, and taxes have been applied
+purchase-details-total-due-label = Mboýpa edeve
 next-plan-details-hide-button = Mba’emimi mokañy
 next-plan-details-show-button = Mba’emimi jehechauka
 next-coupon-success = Ne rembiaporã ipyahúta ijehegui tysýi repýpe.
@@ -231,6 +235,8 @@ upgrade-purchase-details-current-plan-label = Ag̃agua tembiaporã
 upgrade-purchase-details-new-plan-label = Tembiaporã pyahu
 upgrade-purchase-details-promo-code = Ayvu ñemoherakuãgua
 upgrade-purchase-details-tax-label = Impuesto ha tása
+# "Credit issued to account" refers to credit that will be added to the account balance that will be used toward future invoices
+upgrade-purchase-details-credit-to-account = Virume’ẽ ohóva ne mba’etépe
 
 ## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
