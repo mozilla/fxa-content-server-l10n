@@ -150,7 +150,11 @@ next-plan-details-tax = Taxas e oneres
 next-plan-details-total-label = Total
 # "Unused time" refers to the remaining value of the current subscription that hasn't been used yet
 purchase-details-unused-time-label = Credito de tempore inutilisate
-purchase-details-subtotal-label = Subtotal
+purchase-details-subtotal-label = Sub-total
+# "Credit applied" refers to account credit used to reduce the amount due on the invoice
+purchase-details-credit-applied-label = Credito applicate
+# "Total due" is the total that the customer owes after all credits, discounts, and taxes have been applied
+purchase-details-total-due-label = Total debite
 next-plan-details-hide-button = Celar le detalios
 next-plan-details-show-button = Monstrar le detalios
 next-coupon-success = Tu plan automaticamente se renovara al lista precio.
@@ -231,6 +235,9 @@ upgrade-purchase-details-current-plan-label = Plano actual
 upgrade-purchase-details-new-plan-label = Nove plano
 upgrade-purchase-details-promo-code = Codice promo
 upgrade-purchase-details-tax-label = Taxas e oneres
+# "Credit issued to account" refers to credit that will be added to the account balance that will be used toward future invoices
+upgrade-purchase-details-credit-to-account = Credito attribuite a conto
+upgrade-purchase-details-credit-will-be-applied = Le credito sera applicate a tu conto e usate verso facturas futur.
 
 ## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
