@@ -49,6 +49,7 @@ intent-expired-card-error = Det ser ut som att ditt kreditkort har upphört att 
 intent-payment-error-try-again = Hmm. Det gick inte att godkänna din betalning. Försök igen eller kontakta din kortutgivare.
 intent-payment-error-get-in-touch = Hmm. Det gick inte att godkänna din betalning. Ta kontakt med din kortutgivare.
 intent-payment-error-generic = Ett oväntat fel har uppstått vid bearbetningen av din betalning. Försök igen.
+intent-payment-error-insufficient-funds = Det ser ut som att ditt kort inte har tillräckligt med pengar. Prova med ett annat kort.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -147,6 +148,13 @@ next-plan-details-header = Produktinformation
 next-plan-details-list-price = Listpris
 next-plan-details-tax = Skatter och avgifter
 next-plan-details-total-label = Totalt
+# "Unused time" refers to the remaining value of the current subscription that hasn't been used yet
+purchase-details-unused-time-label = Kredit från oanvänd tid
+purchase-details-subtotal-label = Delsumma
+# "Credit applied" refers to account credit used to reduce the amount due on the invoice
+purchase-details-credit-applied-label = Kredit tillämpas
+# "Total due" is the total that the customer owes after all credits, discounts, and taxes have been applied
+purchase-details-total-due-label = Totalt att betala
 next-plan-details-hide-button = Dölj detaljer
 next-plan-details-show-button = Visa detaljer
 next-coupon-success = Din plan förnyas automatiskt till listpriset.
@@ -227,6 +235,8 @@ upgrade-purchase-details-current-plan-label = Nuvarande plan
 upgrade-purchase-details-new-plan-label = Ny plan
 upgrade-purchase-details-promo-code = Kampanjkod
 upgrade-purchase-details-tax-label = Skatter och avgifter
+# "Credit issued to account" refers to credit that will be added to the account balance that will be used toward future invoices
+upgrade-purchase-details-credit-to-account = Kredit utfärdad till konto
 
 ## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
