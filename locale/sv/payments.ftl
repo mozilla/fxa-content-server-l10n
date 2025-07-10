@@ -499,8 +499,7 @@ pay-update-manage-btn = Hantera
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Nästa fakturering den { $date }
-sub-next-bill-no-tax-1 = Nästa faktura på { $priceAmount } förfaller { $date }
-sub-next-bill-tax-1 = Nästa faktura på { $priceAmount } + { $taxAmount } moms förfaller { $date }
+sub-next-bill-due-date = Nästa räkning förfaller { $date }
 sub-expires-on = Upphör { $date }
 
 ## Routes - Subscription - PaymentUpdate

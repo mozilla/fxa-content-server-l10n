@@ -499,8 +499,7 @@ pay-update-manage-btn = Beheare
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Folgjende ynkasso op { $date }
-sub-next-bill-no-tax-1 = De folgjende faktuer fan { $priceAmount } is ferskuldige op { $date }
-sub-next-bill-tax-1 = De folgjende faktuer fan { $priceAmount } + { $taxAmount } btw is ferskuldige op { $date }
+sub-next-bill-due-date = De folgjende faktuer moat betelle wurde op { $date }
 sub-expires-on = Ferrint op { $date }
 
 ## Routes - Subscription - PaymentUpdate
