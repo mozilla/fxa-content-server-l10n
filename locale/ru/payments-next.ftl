@@ -49,6 +49,7 @@ intent-expired-card-error = Похоже, срок действия вашей �
 intent-payment-error-try-again = Хм. При авторизации платежа произошла ошибка. Повторите попытку или свяжитесь с издателем карты.
 intent-payment-error-get-in-touch = Хм. При авторизации платежа произошла ошибка. Свяжитесь с издателем вашей карты.
 intent-payment-error-generic = При обработке платежа произошла непредвиденная ошибка. Повторите попытку.
+intent-payment-error-insufficient-funds = Похоже, на вашей карте недостаточно средств. Попробуйте другую карту.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -147,6 +148,13 @@ next-plan-details-header = Информация о продукте
 next-plan-details-list-price = Прейскурант
 next-plan-details-tax = Налоги и сборы
 next-plan-details-total-label = Всего
+# "Unused time" refers to the remaining value of the current subscription that hasn't been used yet
+purchase-details-unused-time-label = Кредит за неиспользованное время
+purchase-details-subtotal-label = Промежуточный итог
+# "Credit applied" refers to account credit used to reduce the amount due on the invoice
+purchase-details-credit-applied-label = Кредит применён
+# "Total due" is the total that the customer owes after all credits, discounts, and taxes have been applied
+purchase-details-total-due-label = Общая сумма
 next-plan-details-hide-button = Скрыть подробности
 next-plan-details-show-button = Показать подробности
 next-coupon-success = Ваш план будет автоматически продлен по прейскуранту.
@@ -227,6 +235,9 @@ upgrade-purchase-details-current-plan-label = Текущий план
 upgrade-purchase-details-new-plan-label = Новый план
 upgrade-purchase-details-promo-code = Промокод
 upgrade-purchase-details-tax-label = Налоги и сборы
+# "Credit issued to account" refers to credit that will be added to the account balance that will be used toward future invoices
+upgrade-purchase-details-credit-to-account = Кредит на аккаунт выдан
+upgrade-purchase-details-credit-will-be-applied = Кредит будет применен к вашему аккаунту и использован для оплаты будущих счетов.
 
 ## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences

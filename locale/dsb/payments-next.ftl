@@ -152,10 +152,12 @@ next-plan-details-list-price = Lisćinowa płaśizna
 next-plan-details-tax = Danki a płaśonki
 next-plan-details-total-label = Dogromady
 # "Unused time" refers to the remaining value of the current subscription that hasn't been used yet
-purchase-details-unused-time-label = Kontowy plus z njewužytego casa
+purchase-details-unused-time-label = Pśipisanje z njewužytego casa na konto
 purchase-details-subtotal-label = Mjazyrezultat
 # "Credit applied" refers to account credit used to reduce the amount due on the invoice
-purchase-details-credit-applied-label = Kontowy plus jo nałožony
+purchase-details-credit-applied-label = Pśipisanje na konto jo nałožone
+# "Total due" is the total that the customer owes after all credits, discounts, and taxes have been applied
+purchase-details-total-due-label = Dogromady musy se płaśiś
 next-plan-details-hide-button = Drobnostki schowaś
 next-plan-details-show-button = Drobnostki pokazaś
 next-coupon-success = Waš plan se awtomatiski za lisćinowu płaśiznu wótnowja.
@@ -236,6 +238,9 @@ upgrade-purchase-details-current-plan-label = Aktualny plan
 upgrade-purchase-details-new-plan-label = Nowy plan
 upgrade-purchase-details-promo-code = Akciski kod
 upgrade-purchase-details-tax-label = Danki a płaśonki
+# "Credit issued to account" refers to credit that will be added to the account balance that will be used toward future invoices
+upgrade-purchase-details-credit-to-account = Za konto wudane pśipisanje na konto
+upgrade-purchase-details-credit-will-be-applied = Pśipisanje na konto se na wašo konto nałožujo a za pśiduce zliceńki wužywa.
 
 ## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences

@@ -142,6 +142,10 @@ next-new-user-card-title = נא להכניס את פרטי הכרטיס שלך
 next-plan-details-header = פרטי מוצר
 next-plan-details-tax = מיסים ועמלות
 next-plan-details-total-label = סה״כ
+# "Credit applied" refers to account credit used to reduce the amount due on the invoice
+purchase-details-credit-applied-label = זיכוי שהוחל
+# "Total due" is the total that the customer owes after all credits, discounts, and taxes have been applied
+purchase-details-total-due-label = סכום לתשלום
 next-plan-details-hide-button = הסתרת פרטים
 next-plan-details-show-button = הצגת פרטים
 next-coupon-success = התוכנית שלך תתחדש אוטומטית עם המחיר המוצע.
@@ -220,6 +224,9 @@ upgrade-purchase-details-current-plan-label = תוכנית נוכחית
 upgrade-purchase-details-new-plan-label = תוכנית חדשה
 upgrade-purchase-details-promo-code = קוד קופון
 upgrade-purchase-details-tax-label = מיסים ועמלות
+# "Credit issued to account" refers to credit that will be added to the account balance that will be used toward future invoices
+upgrade-purchase-details-credit-to-account = זיכוי שהונפק לחשבון
+upgrade-purchase-details-credit-will-be-applied = הזיכוי יוחל על החשבון שלך וישמש לחשבוניות עתידיות.
 
 ## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences

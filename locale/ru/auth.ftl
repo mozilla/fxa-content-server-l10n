@@ -230,6 +230,7 @@ subscriptionCharges-content-tax = Налоги и сборы: { $invoiceTaxAmoun
 ##  $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
 ##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
 
+subscriptionFirstInvoice-content-total-due = Оплачено { $invoiceAmountDue } { $invoiceDateOnly }
 subscriptionFirstInvoice-content-credit = Вы получили кредит аккаунта в размере { $invoiceTotal }, который будет применяться к вашим будущим счётам.
 
 ##
@@ -690,6 +691,7 @@ subscriptionUpgrade-upgrade-info-2 = Вы успешно перешли на { $
 ## $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
+subscriptionUpgrade-content-charge-prorated-1 = С вас была взята разовая плата в размере { $invoiceAmountDue }, чтобы компенсировать более высокую цену вашей подписки за оставшуюся часть этого платёжного периода ({ $productPaymentCycleOld }).
 subscriptionUpgrade-content-charge-credit = Вы получили кредит аккаунта в размере { $paymentProrated }.
 subscriptionUpgrade-content-starting = Начиная со следующего периода оплаты, ваш платёж составит { $paymentAmountNew } в { $productPaymentCycleNew } вместо { $paymentAmountOld } в { $productPaymentCycleOld }.
 # Variables:
