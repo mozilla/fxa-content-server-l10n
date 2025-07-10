@@ -226,6 +226,7 @@ subscriptionCharges-content-tax = 税费：{ $invoiceTaxAmount }
 ##  $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
 ##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
 
+subscriptionFirstInvoice-content-total-due = 已于 { $invoiceDateOnly } 收取 { $invoiceAmountDue }
 subscriptionFirstInvoice-content-credit = 您已收到 { $invoiceTotal } 账户余额，将于以后付款时抵用。
 
 ##

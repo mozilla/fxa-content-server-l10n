@@ -230,6 +230,7 @@ subscriptionCharges-content-tax = Jehepyme’ẽrã: { $invoiceTaxAmount }
 ##  $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
 ##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
 
+subscriptionFirstInvoice-content-total-due = Omyanyhẽva { $invoiceAmountDue } pe { $invoiceDateOnly }
 subscriptionFirstInvoice-content-credit = Og̃uahẽ ndéve peteĩ crédito ne mba’ete { $invoiceTotal }-guápe, oñemboguapýtava kuatia ñemure tenonde g̃uarãvape.
 
 ##
