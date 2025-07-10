@@ -49,6 +49,7 @@ intent-expired-card-error = Het lijkt erop dat uw creditcard is verlopen. Probee
 intent-payment-error-try-again = Hmm. Er is een probleem opgetreden bij het autoriseren van uw betaling. Probeer het opnieuw of neem contact op met uw kaartverstrekker.
 intent-payment-error-get-in-touch = Hmm. Er is een probleem opgetreden bij het autoriseren van uw betaling. Neem contact op met uw kaartverstrekker.
 intent-payment-error-generic = Er is een onverwachte fout opgetreden tijdens het verwerken van uw betaling, probeer het opnieuw.
+intent-payment-error-insufficient-funds = Het lijkt erop dat uw kaart onvoldoende saldo heeft. Probeer een andere kaart.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -147,6 +148,7 @@ next-plan-details-header = Productdetails
 next-plan-details-list-price = Normale prijs
 next-plan-details-tax = Belastingen en heffingen
 next-plan-details-total-label = Totaal
+purchase-details-subtotal-label = Subtotaal
 next-plan-details-hide-button = Details verbergen
 next-plan-details-show-button = Details tonen
 next-coupon-success = Uw abonnement wordt automatisch verlengd tegen de normale prijs.

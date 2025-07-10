@@ -147,6 +147,7 @@ next-plan-details-header = Λεπτομέρειες προιόντος
 next-plan-details-list-price = Τιμή καταλόγου
 next-plan-details-tax = Φόροι και τέλη
 next-plan-details-total-label = Σύνολο
+purchase-details-subtotal-label = Υποσύνολο
 next-plan-details-hide-button = Απόκρυψη λεπτομερειών
 next-plan-details-show-button = Εμφάνιση λεπτομερειών
 next-coupon-success = Το πρόγραμμά σας θα ανανεωθεί αυτόματα στην τιμή καταλόγου.
