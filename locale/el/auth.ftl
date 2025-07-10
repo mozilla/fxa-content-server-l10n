@@ -230,6 +230,7 @@ subscriptionCharges-content-tax = Φόροι και τέλη: { $invoiceTaxAmoun
 ##  $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
 ##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
 
+subscriptionFirstInvoice-content-total-due = Χρεώθηκαν { $invoiceAmountDue } στις { $invoiceDateOnly }
 subscriptionFirstInvoice-content-credit = Έχετε λάβει μια πίστωση λογαριασμού των { $invoiceTotal }, η οποία θα εφαρμοστεί στα μελλοντικά σας παραστατικά.
 
 ##
@@ -691,6 +692,7 @@ subscriptionUpgrade-upgrade-info-2 = Κάνατε επιτυχώς αναβάθ�
 ## $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
+subscriptionUpgrade-content-charge-prorated-1 = Έχετε χρεωθεί εφάπαξ το ποσό των { $invoiceAmountDue }, που αντικατοπτρίζει την υψηλότερη τιμή της συνδρομής σας για το υπόλοιπο αυτής της περιόδου χρέωσης ({ $productPaymentCycleOld }).
 subscriptionUpgrade-content-charge-credit = Έχετε λάβει ως πίστωση λογαριασμού το ποσό των { $paymentProrated }.
 subscriptionUpgrade-content-starting = Ξεκινώντας από τον επόμενο λογαριασμό σας, η χρέωσή σας θα αλλάξει από { $paymentAmountOld } ανά { $productPaymentCycleOld } σε { $paymentAmountNew } ανά { $productPaymentCycleNew }.
 # Variables:

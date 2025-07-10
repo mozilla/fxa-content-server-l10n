@@ -152,7 +152,9 @@ next-plan-details-total-label = Σύνολο
 purchase-details-unused-time-label = Πίστωση από μη χρησιμοποιημένο χρόνο
 purchase-details-subtotal-label = Υποσύνολο
 # "Credit applied" refers to account credit used to reduce the amount due on the invoice
-purchase-details-credit-applied-label = Η πίστωση εφαρμόστηκε
+purchase-details-credit-applied-label = Εφαρμοσμένη πίστωση
+# "Total due" is the total that the customer owes after all credits, discounts, and taxes have been applied
+purchase-details-total-due-label = Συνολική χρέωση
 next-plan-details-hide-button = Απόκρυψη λεπτομερειών
 next-plan-details-show-button = Εμφάνιση λεπτομερειών
 next-coupon-success = Το πρόγραμμά σας θα ανανεωθεί αυτόματα στην τιμή καταλόγου.
@@ -233,6 +235,9 @@ upgrade-purchase-details-current-plan-label = Τρέχον πρόγραμμα
 upgrade-purchase-details-new-plan-label = Νέο πρόγραμμα
 upgrade-purchase-details-promo-code = Κωδικός προσφοράς
 upgrade-purchase-details-tax-label = Φόροι και τέλη
+# "Credit issued to account" refers to credit that will be added to the account balance that will be used toward future invoices
+upgrade-purchase-details-credit-to-account = Πίστωση που εκδόθηκε για τον λογαριασμό
+upgrade-purchase-details-credit-will-be-applied = Η πίστωση θα εφαρμοστεί στον λογαριασμό σας και θα χρησιμοποιηθεί σε μελλοντικά παραστατικά.
 
 ## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences

@@ -499,6 +499,7 @@ pay-update-manage-btn = Διαχείριση
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Επόμενη χρέωση στις { $date }
+sub-next-bill-due-date = Προθεσμία επόμενου λογαριασμού: { $date }
 sub-expires-on = Λήγει στις { $date }
 
 ## Routes - Subscription - PaymentUpdate
