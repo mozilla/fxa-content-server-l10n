@@ -149,12 +149,12 @@ next-plan-details-list-price = Prix courant
 next-plan-details-tax = Taxes et frais
 next-plan-details-total-label = Total
 # "Unused time" refers to the remaining value of the current subscription that hasn't been used yet
-purchase-details-unused-time-label = crédit pour le temps non utilisé
+purchase-details-unused-time-label = Avoir pour le temps non utilisé
 purchase-details-subtotal-label = Sous-total
 # "Credit applied" refers to account credit used to reduce the amount due on the invoice
 purchase-details-credit-applied-label = Avoir appliqué
 # "Total due" is the total that the customer owes after all credits, discounts, and taxes have been applied
-purchase-details-total-due-label = Total dû
+purchase-details-total-due-label = Total
 next-plan-details-hide-button = Masquer les détails
 next-plan-details-show-button = Afficher les détails
 next-coupon-success = Votre forfait sera automatiquement renouvelé au prix courant.
