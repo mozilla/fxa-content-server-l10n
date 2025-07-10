@@ -148,7 +148,13 @@ next-plan-details-header = Productdetails
 next-plan-details-list-price = Normale prijs
 next-plan-details-tax = Belastingen en heffingen
 next-plan-details-total-label = Totaal
+# "Unused time" refers to the remaining value of the current subscription that hasn't been used yet
+purchase-details-unused-time-label = Tegoed van ongebruikte tijd
 purchase-details-subtotal-label = Subtotaal
+# "Credit applied" refers to account credit used to reduce the amount due on the invoice
+purchase-details-credit-applied-label = Tegoed toegepast
+# "Total due" is the total that the customer owes after all credits, discounts, and taxes have been applied
+purchase-details-total-due-label = Totaal verschuldigd
 next-plan-details-hide-button = Details verbergen
 next-plan-details-show-button = Details tonen
 next-coupon-success = Uw abonnement wordt automatisch verlengd tegen de normale prijs.
@@ -229,6 +235,9 @@ upgrade-purchase-details-current-plan-label = Huidig abonnement
 upgrade-purchase-details-new-plan-label = Nieuw abonnement
 upgrade-purchase-details-promo-code = Promotiecode
 upgrade-purchase-details-tax-label = Belastingen en heffingen
+# "Credit issued to account" refers to credit that will be added to the account balance that will be used toward future invoices
+upgrade-purchase-details-credit-to-account = Tegoed op account bijgeschreven
+upgrade-purchase-details-credit-will-be-applied = Het tegoed wordt op uw account bijgeschreven en gebruikt voor toekomstige facturen.
 
 ## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences

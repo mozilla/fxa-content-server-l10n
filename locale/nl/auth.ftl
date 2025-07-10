@@ -230,6 +230,7 @@ subscriptionCharges-content-tax = Belastingen en toeslagen: { $invoiceTaxAmount 
 ##  $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
 ##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
 
+subscriptionFirstInvoice-content-total-due = { $invoiceAmountDue } in rekening gebracht op { $invoiceDateOnly }
 subscriptionFirstInvoice-content-credit = U hebt een accounttegoed van { $invoiceTotal } ontvangen. Dit tegoed wordt op uw toekomstige facturen toegepast.
 
 ##
@@ -689,6 +690,7 @@ subscriptionUpgrade-upgrade-info-2 = U bent met succes geüpgraded naar { $produ
 ## $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
+subscriptionUpgrade-content-charge-prorated-1 = Er is een eenmalige vergoeding van { $invoiceAmountDue } in rekening gebracht om de hogere prijs van uw abonnement voor de rest van deze factureringsperiode ({ $productPaymentCycleOld }) te weerspiegelen.
 subscriptionUpgrade-content-charge-credit = U hebt een accounttegoed ontvangen voor een bedrag van { $paymentProrated }.
 subscriptionUpgrade-content-starting = Vanaf uw volgende factuur wijzigen uw kosten van { $paymentAmountOld } per { $productPaymentCycleOld } naar { $paymentAmountNew } per { $productPaymentCycleNew }.
 # Variables:
