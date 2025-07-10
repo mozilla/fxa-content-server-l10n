@@ -49,6 +49,7 @@ intent-expired-card-error = It liket derop dat jo creditkaart ferrûn is. Probea
 intent-payment-error-try-again = Hmm. Der wie in probleem by it autorisearjen fan jo betelling. Probearje it opnij of nim kontakt mei jo kaartferstrekker.
 intent-payment-error-get-in-touch = Hmm. Der wie in probleem by it autorisearjen fan jo betelling. Nim kontakt mei jo kaartferstrekker.
 intent-payment-error-generic = Der is in ûnferwachte flater bard by it ferwurkjen fan jo betelling, probearje it opnij.
+intent-payment-error-insufficient-funds = It liket derop dat jo kaart net genôch saldo hat. Probearje in oare kaart.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -147,6 +148,13 @@ next-plan-details-header = Produktdetails
 next-plan-details-list-price = Normale priis
 next-plan-details-tax = Belestingen en heffingen
 next-plan-details-total-label = Totaal
+# "Unused time" refers to the remaining value of the current subscription that hasn't been used yet
+purchase-details-unused-time-label = Tegoed fan net-brûkte tiid
+purchase-details-subtotal-label = Subtotaal
+# "Credit applied" refers to account credit used to reduce the amount due on the invoice
+purchase-details-credit-applied-label = Tegoed tapast
+# "Total due" is the total that the customer owes after all credits, discounts, and taxes have been applied
+purchase-details-total-due-label = Totaal te beteljen
 next-plan-details-hide-button = Details ferstopje
 next-plan-details-show-button = Details toane
 next-coupon-success = Jo abonnemint wurdt automatysk ferlinge tsjin de normale priis.
@@ -227,6 +235,9 @@ upgrade-purchase-details-current-plan-label = Aktuele abonnemint
 upgrade-purchase-details-new-plan-label = Nij abonnemint
 upgrade-purchase-details-promo-code = Promoasjekoade
 upgrade-purchase-details-tax-label = Belestingen en heffingen
+# "Credit issued to account" refers to credit that will be added to the account balance that will be used toward future invoices
+upgrade-purchase-details-credit-to-account = Tegoed op account byskreaun
+upgrade-purchase-details-credit-will-be-applied = It tegoed wurdt op jo account byskreaun en brûkt foar takomstige faktueren.
 
 ## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
