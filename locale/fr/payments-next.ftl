@@ -236,8 +236,8 @@ upgrade-purchase-details-new-plan-label = Nouveau forfait
 upgrade-purchase-details-promo-code = Code promo
 upgrade-purchase-details-tax-label = Taxes et frais
 # "Credit issued to account" refers to credit that will be added to the account balance that will be used toward future invoices
-upgrade-purchase-details-credit-to-account = crédit affecté au compte
-upgrade-purchase-details-credit-will-be-applied = Le crédit sera appliqué à votre compte et utilisé pour vos prochaines factures.
+upgrade-purchase-details-credit-to-account = Avoir crédité au compte
+upgrade-purchase-details-credit-will-be-applied = L’avoir sera crédité à votre compte et utilisé pour vos prochaines factures.
 
 ## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
