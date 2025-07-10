@@ -49,6 +49,7 @@ intent-expired-card-error = Il pare que tu carta de credito ha expirate. Prova u
 intent-payment-error-try-again = Hmm. Il habeva un problema durante le autorisation de tu pagamento. Reproba o contacta tu emissor de carta.
 intent-payment-error-get-in-touch = Hmm. Il habeva un problema durante le autorisation de tu pagamento. Contacta tu emissor de carta.
 intent-payment-error-generic = Un error impreviste ha occurrite durante le elaboration de tu pagamento, reproba.
+intent-payment-error-insufficient-funds = Il pare que tu carta ha credito insufficiente. Prova un altere carta.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -147,6 +148,9 @@ next-plan-details-header = Detalios del producto
 next-plan-details-list-price = Lista precio
 next-plan-details-tax = Taxas e oneres
 next-plan-details-total-label = Total
+# "Unused time" refers to the remaining value of the current subscription that hasn't been used yet
+purchase-details-unused-time-label = Credito de tempore inutilisate
+purchase-details-subtotal-label = Subtotal
 next-plan-details-hide-button = Celar le detalios
 next-plan-details-show-button = Monstrar le detalios
 next-coupon-success = Tu plan automaticamente se renovara al lista precio.
