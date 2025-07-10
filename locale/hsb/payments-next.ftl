@@ -52,6 +52,7 @@ intent-expired-card-error = Zda so, kaž by waša kreditna karta spadnyła. Spyt
 intent-payment-error-try-again = Hmm. Při awtorizowanju wašeho płaćenja je problem nastał. Spytajće hišće raz abo stajće so z wudawaćelom swojeje karty do zwiska.
 intent-payment-error-get-in-touch = Hmm. Při awtorizowanju wašeho płaćenja je problem nastał. Stajće so z wudawaćelom swojeje karty do zwiska.
 intent-payment-error-generic = Při předźěłowanju wašeho płaćenja je njewočakowany zmylk nastał, prošu spytajće hišće raz.
+intent-payment-error-insufficient-funds = Zda so, kaž by waša karta njedosahace dobroměće měła. Spytajće druhu kartu.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -150,6 +151,13 @@ next-plan-details-header = Produktowe podrobnosće
 next-plan-details-list-price = Lisćinowa płaćizna
 next-plan-details-tax = Dawki a popłatki
 next-plan-details-total-label = Dohromady
+# "Unused time" refers to the remaining value of the current subscription that hasn't been used yet
+purchase-details-unused-time-label = Dobropis za njezwužity čas
+purchase-details-subtotal-label = Mjezywuslědk
+# "Credit applied" refers to account credit used to reduce the amount due on the invoice
+purchase-details-credit-applied-label = Dobropis je nałoženy
+# "Total due" is the total that the customer owes after all credits, discounts, and taxes have been applied
+purchase-details-total-due-label = Dohromady płaćomny
 next-plan-details-hide-button = Podrobnosće schować
 next-plan-details-show-button = Podrobnosće pokazać
 next-coupon-success = Waš plan so awtomatisce za lisćinowu płaćiznu wobnowja.
@@ -230,6 +238,9 @@ upgrade-purchase-details-current-plan-label = Aktualny plan
 upgrade-purchase-details-new-plan-label = Nowy plan
 upgrade-purchase-details-promo-code = Akciski kod
 upgrade-purchase-details-tax-label = Dawki a popłatki
+# "Credit issued to account" refers to credit that will be added to the account balance that will be used toward future invoices
+upgrade-purchase-details-credit-to-account = Za konto wudaty dobropis
+upgrade-purchase-details-credit-will-be-applied = Dobropis so na waše konto nałožuje a za přichodne zličbowanki wužiwa.
 
 ## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
