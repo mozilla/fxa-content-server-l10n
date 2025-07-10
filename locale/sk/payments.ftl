@@ -520,6 +520,7 @@ pay-update-manage-btn = Spravovať
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Ďalšia fakturácia dňa { $date }
+sub-next-bill-due-date = Ďalšia faktúra je splatná dňa { $date }
 sub-expires-on = Vyprší dňa { $date }
 
 ## Routes - Subscription - PaymentUpdate
