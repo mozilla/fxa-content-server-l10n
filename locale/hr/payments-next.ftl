@@ -201,7 +201,6 @@ upgrade-purchase-details-new-plan-weekly = { $productName } (tjedno)
 upgrade-purchase-details-new-plan-monthly = { $productName } (mjesečno)
 upgrade-purchase-details-new-plan-halfyearly = { $productName } (6 mjeseci)
 upgrade-purchase-details-new-plan-yearly = { $productName } (godišnje)
-upgrade-purchase-details-prorated-credits = Prikazani negativni saldo će se primijeniti kao krediti na tvoj račun i koristit će se za buduće račune.
 
 ## Page Metadata Information
 ## $productTitle (String) - The name of the product to create subscription, e.g. Mozilla VPN

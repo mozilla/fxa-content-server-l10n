@@ -208,7 +208,6 @@ upgrade-purchase-details-current-plan-label = Nykyinen tilaustyyppi
 upgrade-purchase-details-new-plan-label = Uusi tilaustyyppi
 upgrade-purchase-details-promo-code = Tarjouskoodi
 upgrade-purchase-details-tax-label = Verot ja maksut
-upgrade-purchase-details-new-total-label = Uusi summa
 
 ## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences

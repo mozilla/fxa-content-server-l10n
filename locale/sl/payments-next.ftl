@@ -227,8 +227,6 @@ upgrade-purchase-details-current-plan-label = Trenutni naročniški paket
 upgrade-purchase-details-new-plan-label = Novi paket
 upgrade-purchase-details-promo-code = Promocijska koda
 upgrade-purchase-details-tax-label = Davki in pristojbine
-upgrade-purchase-details-new-total-label = Novi znesek
-upgrade-purchase-details-prorated-upgrade = Sorazmerna nadgradnja
 
 ## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
@@ -238,7 +236,6 @@ upgrade-purchase-details-new-plan-weekly = { $productName } (tedensko)
 upgrade-purchase-details-new-plan-monthly = { $productName } (mesečno)
 upgrade-purchase-details-new-plan-halfyearly = { $productName } (na 6 mesecev)
 upgrade-purchase-details-new-plan-yearly = { $productName } (letno)
-upgrade-purchase-details-prorated-credits = Prikazano negativno stanje bo knjiženo v dobroimetje na vašem računu in uporabljeno za prihodnje račune.
 
 ## Page Metadata Information
 ## $productTitle (String) - The name of the product to create subscription, e.g. Mozilla VPN

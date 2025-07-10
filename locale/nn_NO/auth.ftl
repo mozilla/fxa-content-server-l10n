@@ -228,9 +228,9 @@ subscriptionCharges-content-tax = Skattar og gebyr: { $invoiceTaxAmount }
 
 ## Variables:
 ##  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+##  $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
 ##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
 
-subscriptionFirstInvoice-content-charge = Belasta { $invoiceTotal } den { $invoiceDateOnly }
 subscriptionFirstInvoice-content-credit = Du har fått ein kontokreditt på { $invoiceTotal }, som vil bli brukt på dei framtidige fakturaane dine.
 
 ##
@@ -687,9 +687,9 @@ subscriptionUpgrade-upgrade-info-2 = Du har oppgradert til { $productName }.
 ## $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
 ## $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
 ## $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
+## $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
-subscriptionUpgrade-content-charge-prorated = Du har blitt debiterte eit eingongsgebyr på { $paymentProrated } for å reflektere den høgare prisen på abonnementet ditt for resten av denne faktureringsperioden ({ $productPaymentCycleOld }).
 subscriptionUpgrade-content-charge-credit = Du har fått ein kontokreditt på beløpet { $paymentProrated }.
 subscriptionUpgrade-content-starting = Frå og med den neste fakturaen din vil kostnaden endrast frå { $paymentAmountOld } per { $productPaymentCycleOld } til { $paymentAmountNew } per { $productPaymentCycleNew }.
 # Variables:

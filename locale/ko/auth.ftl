@@ -227,9 +227,9 @@ subscriptionCharges-content-tax = 세금 및 수수료: { $invoiceTaxAmount }
 
 ## Variables:
 ##  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+##  $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
 ##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
 
-subscriptionFirstInvoice-content-charge = { $invoiceDateOnly }에 { $invoiceTotal } 금액이 청구됩니다
 subscriptionFirstInvoice-content-credit = { $invoiceTotal }의 계정 크레딧을 받았습니다. 이는 향후 청구서에 적용됩니다.
 
 ##
@@ -675,6 +675,7 @@ subscriptionUpgrade-title = 업그레이드 해주셔서 감사합니다!
 ## $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
 ## $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
 ## $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
+## $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
 subscriptionUpgrade-auto-renew = 취소를 선택하지 않는 한 구독은 각 청구 기간을 자동으로 갱신합니다.

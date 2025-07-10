@@ -225,9 +225,9 @@ subscriptionCharges-content-tax = Davki in pristojbine: { $invoiceTaxAmount }
 
 ## Variables:
 ##  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+##  $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
 ##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
 
-subscriptionFirstInvoice-content-charge = Zaračunano { $invoiceTotal } dne { $invoiceDateOnly }
 subscriptionFirstInvoice-content-credit = Prejeli ste dobroimetje { $invoiceTotal }, ki se bo izkoristilo na prihodnjih računih.
 
 ##
@@ -686,9 +686,9 @@ subscriptionUpgrade-upgrade-info-2 = Uspešno ste nadgradili na { $productName }
 ## $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
 ## $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
 ## $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
+## $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
-subscriptionUpgrade-content-charge-prorated = Zaračunali smo vam enkraten prispevek v višini { $paymentProrated }, ki odraža višjo ceno naročnine za preostanek tega obračunskega obdobja ({ $productPaymentCycleOld }).
 subscriptionUpgrade-content-charge-credit = Na račun ste prejeli dobroimetje v višini { $paymentProrated }.
 subscriptionUpgrade-content-starting = Od naslednjega računa se bo bremenitev spremenila iz { $paymentAmountOld } na { $productPaymentCycleOld } na { $paymentAmountNew } na { $productPaymentCycleNew }.
 # Variables:

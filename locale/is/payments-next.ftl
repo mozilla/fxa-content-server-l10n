@@ -216,8 +216,6 @@ upgrade-purchase-details-current-plan-label = Núverandi áskriftarleið
 upgrade-purchase-details-new-plan-label = Ný áskriftarleið
 upgrade-purchase-details-promo-code = Kynningarkóði
 upgrade-purchase-details-tax-label = Skattar og gjöld
-upgrade-purchase-details-new-total-label = Ný heildarupphæð
-upgrade-purchase-details-prorated-upgrade = Leiðrétt uppfærsla
 
 ## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences

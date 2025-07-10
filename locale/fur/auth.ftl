@@ -227,9 +227,9 @@ subscriptionCharges-content-tax = Tassis e comissions: { $invoiceTaxAmount }
 
 ## Variables:
 ##  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+##  $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
 ##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
 
-subscriptionFirstInvoice-content-charge = Contizât { $invoiceTotal } ai { $invoiceDateOnly }
 subscriptionFirstInvoice-content-credit = Tu âs ricevût un credit di { $invoiceTotal } che al vignarà aplicât aes tôs prossimis faturis.
 
 ##
@@ -686,9 +686,9 @@ subscriptionUpgrade-upgrade-info-2 = L'inzornament a { $productName } al è stâ
 ## $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
 ## $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
 ## $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
+## $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
-subscriptionUpgrade-content-charge-prorated = Ti je stade adebitade une comission "una tantum" di { $paymentProrated } par rifleti il presit plui alt dal to abonament pal periodi di faturazion che al reste ({ $productPaymentCycleOld }).
 subscriptionUpgrade-content-charge-credit = Tu âs ricevût un credit di { $paymentProrated } sul cont.
 subscriptionUpgrade-content-starting = Scomençant de prossime fature, il to adebit al cambiarà di { $paymentAmountOld } par { $productPaymentCycleOld } a { $paymentAmountNew } par { $productPaymentCycleNew }.
 # Variables:

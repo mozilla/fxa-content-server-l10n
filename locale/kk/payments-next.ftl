@@ -191,7 +191,6 @@ upgrade-purchase-details-current-plan-label = Ағымдағы жоспар
 upgrade-purchase-details-new-plan-label = Жаңа жоспар
 upgrade-purchase-details-promo-code = Промокод
 upgrade-purchase-details-tax-label = Салықтар мен алымдар
-upgrade-purchase-details-prorated-upgrade = Пропорционалды жаңарту
 
 ## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences

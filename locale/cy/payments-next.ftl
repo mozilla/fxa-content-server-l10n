@@ -227,8 +227,6 @@ upgrade-purchase-details-current-plan-label = Cynllun cyfredol
 upgrade-purchase-details-new-plan-label = Cynllun newydd
 upgrade-purchase-details-promo-code = Cod Hyrwyddo
 upgrade-purchase-details-tax-label = Trethi a Ffioedd
-upgrade-purchase-details-new-total-label = Cyfanswm newydd
-upgrade-purchase-details-prorated-upgrade = Uwchraddio yn Ôl y Raddfa
 
 ## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
@@ -238,7 +236,6 @@ upgrade-purchase-details-new-plan-weekly = { $productName } ( Wythnosol )
 upgrade-purchase-details-new-plan-monthly = { $productName } ( Misol)
 upgrade-purchase-details-new-plan-halfyearly = { $productName } (6-mis)
 upgrade-purchase-details-new-plan-yearly = { $productName } (Blynyddol)
-upgrade-purchase-details-prorated-credits = Bydd y balans negyddol sy'n cael ei ddangos yn cael ei osod fel credydau i'ch cyfrif a'i ddefnyddio tuag at anfonebau yn y dyfodol.
 
 ## Page Metadata Information
 ## $productTitle (String) - The name of the product to create subscription, e.g. Mozilla VPN

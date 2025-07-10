@@ -555,8 +555,6 @@ pay-update-manage-btn = Zastojaś
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Pśiduca zliceńka: { $date }
-sub-next-bill-no-tax-1 = Pśiduca zliceńka { $priceAmount } ma se płaśiś { $date }
-sub-next-bill-tax-1 = Pśiduca zliceńka { $priceAmount } + dank { $taxAmount } ma se płaśiś { $date }
 sub-expires-on = Spadnjo { $date }
 
 ## Routes - Subscription - PaymentUpdate

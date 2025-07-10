@@ -174,7 +174,6 @@ terms-and-privacy-stripe-and-paypal-label = { -brand-mozilla } isseqdac { -brand
 upgrade-purchase-details-current-plan-label = Aɣawas amiran
 upgrade-purchase-details-new-plan-label = Aɣawas amaynut
 upgrade-purchase-details-promo-code = Tangalt promo
-upgrade-purchase-details-new-total-label = Asemday amaynut
 
 ## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences

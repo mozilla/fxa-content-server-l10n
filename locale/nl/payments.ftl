@@ -499,8 +499,6 @@ pay-update-manage-btn = Beheren
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Volgende incasso op { $date }
-sub-next-bill-no-tax-1 = De volgende factuur van { $priceAmount } is verschuldigd op { $date }
-sub-next-bill-tax-1 = De volgende factuur van { $priceAmount } + { $taxAmount } btw is verschuldigd op { $date }
 sub-expires-on = Vervalt op { $date }
 
 ## Routes - Subscription - PaymentUpdate

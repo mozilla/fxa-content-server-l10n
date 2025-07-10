@@ -227,8 +227,6 @@ upgrade-purchase-details-current-plan-label = Huidig abonnement
 upgrade-purchase-details-new-plan-label = Nieuw abonnement
 upgrade-purchase-details-promo-code = Promotiecode
 upgrade-purchase-details-tax-label = Belastingen en heffingen
-upgrade-purchase-details-new-total-label = Nieuw totaalbedrag
-upgrade-purchase-details-prorated-upgrade = Naar rato upgrade
 
 ## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
@@ -238,7 +236,6 @@ upgrade-purchase-details-new-plan-weekly = { $productName } (wekelijks)
 upgrade-purchase-details-new-plan-monthly = { $productName } (maandelijks)
 upgrade-purchase-details-new-plan-halfyearly = { $productName } (halfjaarlijks)
 upgrade-purchase-details-new-plan-yearly = { $productName } (jaarlijks)
-upgrade-purchase-details-prorated-credits = Het getoonde negatieve saldo wordt als tegoed op uw account bijgeschreven en gebruikt voor toekomstige facturen.
 
 ## Page Metadata Information
 ## $productTitle (String) - The name of the product to create subscription, e.g. Mozilla VPN

@@ -227,8 +227,6 @@ upgrade-purchase-details-current-plan-label = Ag̃agua tembiaporã
 upgrade-purchase-details-new-plan-label = Tembiaporã pyahu
 upgrade-purchase-details-promo-code = Ayvu ñemoherakuãgua
 upgrade-purchase-details-tax-label = Impuesto ha tása
-upgrade-purchase-details-new-total-label = Ipyahupaite
-upgrade-purchase-details-prorated-upgrade = Mbohekopyahu mboja’opyre
 
 ## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
@@ -238,7 +236,6 @@ upgrade-purchase-details-new-plan-weekly = { $productName } (Arapokõindygua)
 upgrade-purchase-details-new-plan-monthly = { $productName } (Jasygua)
 upgrade-purchase-details-new-plan-halfyearly = { $productName } (6 jasygua)
 upgrade-purchase-details-new-plan-yearly = { $productName } (Arygua)
-upgrade-purchase-details-prorated-credits = Oimeraẽ mba’e vai oikóva ojehúta crédito-ramo ne mba’etépe ha ojeporúta kuatia ñemure og̃uahẽtavape.
 
 ## Page Metadata Information
 ## $productTitle (String) - The name of the product to create subscription, e.g. Mozilla VPN

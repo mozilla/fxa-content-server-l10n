@@ -227,8 +227,6 @@ upgrade-purchase-details-current-plan-label = Gói hiện tại
 upgrade-purchase-details-new-plan-label = Gói mới
 upgrade-purchase-details-promo-code = Mã khuyến mãi
 upgrade-purchase-details-tax-label = Thuế và phí
-upgrade-purchase-details-new-total-label = Tổng mới
-upgrade-purchase-details-prorated-upgrade = Nâng cấp theo tỷ lệ
 
 ## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
@@ -238,7 +236,6 @@ upgrade-purchase-details-new-plan-weekly = { $productName } (Hàng tuần)
 upgrade-purchase-details-new-plan-monthly = { $productName } (Hàng tháng)
 upgrade-purchase-details-new-plan-halfyearly = { $productName } (6 tháng)
 upgrade-purchase-details-new-plan-yearly = { $productName } (Hàng năm)
-upgrade-purchase-details-prorated-credits = Số dư âm được hiển thị sẽ được coi là khoản tiền được ghi vào tài khoản của bạn và sẽ được dùng để thanh toán các hóa đơn sau này.
 
 ## Page Metadata Information
 ## $productTitle (String) - The name of the product to create subscription, e.g. Mozilla VPN

@@ -227,9 +227,9 @@ subscriptionCharges-content-tax = Jehepyme’ẽrã: { $invoiceTaxAmount }
 
 ## Variables:
 ##  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+##  $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
 ##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
 
-subscriptionFirstInvoice-content-charge = Hepyme’ẽmbyre { $invoiceTotal } { $invoiceDateOnly } rehegua
 subscriptionFirstInvoice-content-credit = Og̃uahẽ ndéve peteĩ crédito ne mba’ete { $invoiceTotal }-guápe, oñemboguapýtava kuatia ñemure tenonde g̃uarãvape.
 
 ##
@@ -686,9 +686,9 @@ subscriptionUpgrade-upgrade-info-2 = Oñembohekopyahúma { $productName } hekope
 ## $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
 ## $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
 ## $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
+## $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
-subscriptionUpgrade-content-charge-prorated = Ehepyme’ẽma peteĩ jeýnte { $paymentProrated } eikuaa hag̃ua ne ñemboheraguapy repykue hepyvéva ko kuatiañemure pukukue ryepýpe ({ $productPaymentCycleOld }).
 subscriptionUpgrade-content-charge-credit = Rehupyty peteĩ crédito mba’ete rehegua { $paymentProrated } repykuépe.
 subscriptionUpgrade-content-starting = Oñepyrũvo nde kuatia ñemure oúvagui, nde cargo iñambuéta { $paymentAmountOld }-gui { $productPaymentCycleOld }-pe { $paymentAmountNew }-gui { $productPaymentCycleNew }-pe.
 # Variables:

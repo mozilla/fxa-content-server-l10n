@@ -493,8 +493,6 @@ pay-update-manage-btn = จัดการ
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = จะเรียกเก็บเงินครั้งถัดไปในวันที่ { $date }
-sub-next-bill-no-tax-1 = รอบบิลถัดไปจำนวน { $priceAmount } จะครบกำหนดชำระวันที่ { $date }
-sub-next-bill-tax-1 = รอบบิลถัดไปจำนวน { $priceAmount } + { $taxAmount } จะครบกำหนดชำระวันที่ { $date }
 sub-expires-on = จะหมดอายุใน { $date }
 
 ## Routes - Subscription - PaymentUpdate

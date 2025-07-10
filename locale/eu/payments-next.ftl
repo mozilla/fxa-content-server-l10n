@@ -216,8 +216,6 @@ upgrade-purchase-details-current-plan-label = Uneko plana
 upgrade-purchase-details-new-plan-label = Plan berria
 upgrade-purchase-details-promo-code = Sustapen kodea
 upgrade-purchase-details-tax-label = Zergak eta Tasak
-upgrade-purchase-details-new-total-label = Guztira berria
-upgrade-purchase-details-prorated-upgrade = Bertsio proportzionala
 
 ## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences

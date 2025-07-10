@@ -490,8 +490,6 @@ pay-update-manage-btn = Yönet
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Bir sonraki faturalandırma: { $date }
-sub-next-bill-no-tax-1 = { $priceAmount } tutarındaki bir sonraki ödemeniz { $date } tarihinde
-sub-next-bill-tax-1 = { $priceAmount } + { $taxAmount } vergi tutarındaki bir sonraki ödemeniz { $date } tarihinde
 sub-expires-on = Son geçerlilik tarihi: { $date }
 
 ## Routes - Subscription - PaymentUpdate

@@ -227,8 +227,6 @@ upgrade-purchase-details-current-plan-label = Plan atuâl
 upgrade-purchase-details-new-plan-label = Gnûf plan
 upgrade-purchase-details-promo-code = Codiç promozionâl
 upgrade-purchase-details-tax-label = Tassis e comissions
-upgrade-purchase-details-new-total-label = Gnûf totâl
-upgrade-purchase-details-prorated-upgrade = Inzornament ripartît in mût proporzionâl
 
 ## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
@@ -238,7 +236,6 @@ upgrade-purchase-details-new-plan-weekly = { $productName } (ae setemane)
 upgrade-purchase-details-new-plan-monthly = { $productName } (al mês)
 upgrade-purchase-details-new-plan-halfyearly = { $productName } (6 mês)
 upgrade-purchase-details-new-plan-yearly = { $productName } (al an)
-upgrade-purchase-details-prorated-credits = Il salt negatîf mostrât al vignarà aplicât tant che credit sul to account e al vignarà doprât pes prossimis faturis.
 
 ## Page Metadata Information
 ## $productTitle (String) - The name of the product to create subscription, e.g. Mozilla VPN

@@ -221,8 +221,6 @@ upgrade-purchase-details-current-plan-label = Поточний тарифний 
 upgrade-purchase-details-new-plan-label = Новий тарифний план
 upgrade-purchase-details-promo-code = Промокод
 upgrade-purchase-details-tax-label = Податки та збори
-upgrade-purchase-details-new-total-label = Нова сума
-upgrade-purchase-details-prorated-upgrade = Пропорційне оновлення
 
 ## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
@@ -232,7 +230,6 @@ upgrade-purchase-details-new-plan-weekly = { $productName } (щотижня)
 upgrade-purchase-details-new-plan-monthly = { $productName } (щомісяця)
 upgrade-purchase-details-new-plan-halfyearly = { $productName } (кожні 6 місяців)
 upgrade-purchase-details-new-plan-yearly = { $productName } (щороку)
-upgrade-purchase-details-prorated-credits = Зазначений негативний баланс буде зараховано на ваш обліковий запис у вигляді кредитів, які буде використано для оплати майбутніх рахунків.
 
 ## Page Metadata Information
 ## $productTitle (String) - The name of the product to create subscription, e.g. Mozilla VPN

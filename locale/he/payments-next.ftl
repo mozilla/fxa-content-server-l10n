@@ -219,7 +219,6 @@ upgrade-purchase-details-current-plan-label = תוכנית נוכחית
 upgrade-purchase-details-new-plan-label = תוכנית חדשה
 upgrade-purchase-details-promo-code = קוד קופון
 upgrade-purchase-details-tax-label = מיסים ועמלות
-upgrade-purchase-details-new-total-label = סה״כ חדש
 
 ## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
@@ -229,7 +228,6 @@ upgrade-purchase-details-new-plan-weekly = ‏{ $productName } (שבועי)
 upgrade-purchase-details-new-plan-monthly = ‏{ $productName } (חודשי)
 upgrade-purchase-details-new-plan-halfyearly = ‏{ $productName } (6 חודשים)
 upgrade-purchase-details-new-plan-yearly = ‏{ $productName } (שנתי)
-upgrade-purchase-details-prorated-credits = יתרה שלילית המוצגת תחול כזיכוי בחשבון שלך ותשמש לחשבוניות עתידיות.
 
 ## Page Metadata Information
 ## $productTitle (String) - The name of the product to create subscription, e.g. Mozilla VPN

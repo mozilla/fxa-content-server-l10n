@@ -229,9 +229,9 @@ subscriptionCharges-content-tax = Tasse e commissioni: { $invoiceTaxAmount }
 
 ## Variables:
 ##  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+##  $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
 ##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
 
-subscriptionFirstInvoice-content-charge = Addebitato { $invoiceTotal } il { $invoiceDateOnly }
 subscriptionFirstInvoice-content-credit = Hai ricevuto un credito di { $invoiceTotal } che verrà applicato alle tue prossime fatture.
 
 ##
@@ -688,9 +688,9 @@ subscriptionUpgrade-upgrade-info-2 = L’aggiornamento a { $productName } è sta
 ## $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
 ## $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
 ## $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
+## $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
-subscriptionUpgrade-content-charge-prorated = Ti è stata addebitata una tariffa una tantum di { $paymentProrated } per riflettere il prezzo più alto del tuo abbonamento per il resto di questo periodo di fatturazione ({ $productPaymentCycleOld }).
 subscriptionUpgrade-content-charge-credit = Hai ricevuto un credito sul conto pari a { $paymentProrated }.
 subscriptionUpgrade-content-starting = A partire dalla prossima fattura, il tuo addebito cambierà da { $paymentAmountOld } per { $productPaymentCycleOld } a { $paymentAmountNew } per { $productPaymentCycleNew }.
 # Variables:

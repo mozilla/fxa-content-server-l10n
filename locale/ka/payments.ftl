@@ -499,8 +499,6 @@ pay-update-manage-btn = მართვა
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = მომდევნო ანგარიშსწორება { $date }
-sub-next-bill-no-tax-1 = მომდევნო ანგარიშსწორება { $priceAmount } თარიღისთვის { $date }
-sub-next-bill-tax-1 = მომდევნო ანგარიშსწორება { $priceAmount } + { $taxAmount } თარიღისთვის { $date }
 sub-expires-on = ბოლო ვადაა { $date }
 
 ## Routes - Subscription - PaymentUpdate

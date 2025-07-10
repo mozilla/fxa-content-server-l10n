@@ -221,8 +221,6 @@ upgrade-purchase-details-current-plan-label = 현재 구독 정보
 upgrade-purchase-details-new-plan-label = 신규 구독 정보
 upgrade-purchase-details-promo-code = 프로모션 코드
 upgrade-purchase-details-tax-label = 세금 및 수수료
-upgrade-purchase-details-new-total-label = 총
-upgrade-purchase-details-prorated-upgrade = 비례 업그레이드
 
 ## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
@@ -232,7 +230,6 @@ upgrade-purchase-details-new-plan-weekly = { $productName } (매주)
 upgrade-purchase-details-new-plan-monthly = { $productName } (월간)
 upgrade-purchase-details-new-plan-halfyearly = { $productName } (6개월)
 upgrade-purchase-details-new-plan-yearly = { $productName } (연간)
-upgrade-purchase-details-prorated-credits = 표시된 음수 잔액은 귀하의 계정에 크레딧으로 적용되고 향후 청구서 결제에 사용됩니다.
 
 ## Page Metadata Information
 ## $productTitle (String) - The name of the product to create subscription, e.g. Mozilla VPN

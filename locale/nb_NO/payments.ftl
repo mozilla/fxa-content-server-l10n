@@ -499,8 +499,6 @@ pay-update-manage-btn = Behandle
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Neste fakturering den { $date }
-sub-next-bill-no-tax-1 = Neste regning på { $priceAmount } forfaller { $date }
-sub-next-bill-tax-1 = Neste regning på { $priceAmount } + { $taxAmount } moms forfaller { $date }
 sub-expires-on = Utløper { $date }
 
 ## Routes - Subscription - PaymentUpdate

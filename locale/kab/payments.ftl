@@ -330,7 +330,6 @@ pay-update-manage-btn = Sefrek
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Afetter i d-itteddun deg { $date }
-sub-next-bill-no-tax-1 = Tafaṭurt n { $priceAmount } ad tebdu seg { $date }
 sub-expires-on = Ad yemmet deg { $date }
 
 ## Routes - Subscription - PaymentUpdate

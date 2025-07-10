@@ -399,8 +399,6 @@ pay-update-manage-btn = 관리
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = 다음 청구일: { $date }
-sub-next-bill-no-tax-1 = 다음 청구서의 { $priceAmount }은 { $date }일 까지 납부해야 합니다.
-sub-next-bill-tax-1 = 다음 청구서의 { $priceAmount } + { $taxAmount } 세금은 { $date }일 까지 납부해야 합니다.
 sub-expires-on = { $date }에 만료
 
 ## Routes - Subscription - PaymentUpdate

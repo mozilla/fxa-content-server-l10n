@@ -230,8 +230,6 @@ upgrade-purchase-details-current-plan-label = მიმდინარე გე
 upgrade-purchase-details-new-plan-label = ახალი გეგმა
 upgrade-purchase-details-promo-code = ფასდაკლების კოდი
 upgrade-purchase-details-tax-label = გადასახადები და მოსაკრებლები
-upgrade-purchase-details-new-total-label = ახალი სულ
-upgrade-purchase-details-prorated-upgrade = დანაწილების განახლება
 
 ## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
@@ -241,7 +239,6 @@ upgrade-purchase-details-new-plan-weekly = { $productName } (ყოველკ�
 upgrade-purchase-details-new-plan-monthly = { $productName } (ყოველთვიური)
 upgrade-purchase-details-new-plan-halfyearly = { $productName } (6-თვიანი)
 upgrade-purchase-details-new-plan-yearly = { $productName } (ყოველწლიური)
-upgrade-purchase-details-prorated-credits = მოცემული უარყოფითი ნაშთი აისახება თქვენს ანგარიშზე სამომავლო გადახდებისთვის.
 
 ## Page Metadata Information
 ## $productTitle (String) - The name of the product to create subscription, e.g. Mozilla VPN

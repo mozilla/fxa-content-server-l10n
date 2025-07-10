@@ -227,8 +227,6 @@ upgrade-purchase-details-current-plan-label = Τρέχον πρόγραμμα
 upgrade-purchase-details-new-plan-label = Νέο πρόγραμμα
 upgrade-purchase-details-promo-code = Κωδικός προσφοράς
 upgrade-purchase-details-tax-label = Φόροι και τέλη
-upgrade-purchase-details-new-total-label = Νέο σύνολο
-upgrade-purchase-details-prorated-upgrade = Αναλογική αναβάθμιση
 
 ## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
@@ -238,7 +236,6 @@ upgrade-purchase-details-new-plan-weekly = { $productName } (Εβδομαδια�
 upgrade-purchase-details-new-plan-monthly = { $productName } (Μηνιαία)
 upgrade-purchase-details-new-plan-halfyearly = { $productName } (εξαμηνιαίο)
 upgrade-purchase-details-new-plan-yearly = { $productName } (Ετησίως)
-upgrade-purchase-details-prorated-credits = Το αρνητικό υπόλοιπο που εμφανίζεται θα πιστωθεί στον λογαριασμό σας και θα χρησιμοποιηθεί σε μελλοντικά παραστατικά.
 
 ## Page Metadata Information
 ## $productTitle (String) - The name of the product to create subscription, e.g. Mozilla VPN

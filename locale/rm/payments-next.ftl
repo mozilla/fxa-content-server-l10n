@@ -202,8 +202,6 @@ upgrade-purchase-details-current-plan-label = Plan actual
 upgrade-purchase-details-new-plan-label = Nov plan
 upgrade-purchase-details-promo-code = Code da promoziun
 upgrade-purchase-details-tax-label = Taglias e taxas
-upgrade-purchase-details-new-total-label = Nov total
-upgrade-purchase-details-prorated-upgrade = Midada cun custs calculads proporziunalmain
 
 ## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences

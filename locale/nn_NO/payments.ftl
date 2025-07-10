@@ -501,8 +501,6 @@ pay-update-manage-btn = Handsam
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Neste fakturering den { $date }
-sub-next-bill-no-tax-1 = Neste rekning på{ $priceAmount } forfell { $date }
-sub-next-bill-tax-1 = Neste rekning på { $priceAmount } + { $taxAmount } forfell { $date }
 sub-expires-on = Går ut { $date }
 
 ## Routes - Subscription - PaymentUpdate

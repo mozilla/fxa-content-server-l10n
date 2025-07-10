@@ -497,8 +497,6 @@ pay-update-manage-btn = Administrar
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Proxima facturaziun ils { $date }
-sub-next-bill-no-tax-1 = Il proxim quint da { $priceAmount } è da pajar fin ils { $date }
-sub-next-bill-tax-1 = Il proxim quint da { $priceAmount } + { $taxAmount } taglia è da pajar en fin ils { $date }
 sub-expires-on = Scada ils { $date }
 
 ## Routes - Subscription - PaymentUpdate

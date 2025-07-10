@@ -497,8 +497,6 @@ pay-update-manage-btn = Kudeatu
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Hurrengo fakturazioa { $date }
-sub-next-bill-no-tax-1 = Hurrengo fakturazio kopurua: { $priceAmount } data: { $date }
-sub-next-bill-tax-1 = Hurrengo fakturazioa { $priceAmount } + { $taxAmount } zerga data honetan { $date }
 sub-expires-on = Iraungitze data: { $date }
 
 ## Routes - Subscription - PaymentUpdate

@@ -492,8 +492,6 @@ pay-update-manage-btn = Administrojini
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Faturimi i ardhshëm më { $date }
-sub-next-bill-no-tax-1 = Faturimi pasues prej { $priceAmount } bëhet më { $date }
-sub-next-bill-tax-1 = Faturimi pasues prej { $priceAmount } + { $taxAmount } taksa bëhet më { $date }
 sub-expires-on = Skadon më { $date }
 
 ## Routes - Subscription - PaymentUpdate

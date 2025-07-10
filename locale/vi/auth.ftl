@@ -227,9 +227,9 @@ subscriptionCharges-content-tax = Thuế & phí: { $invoiceTaxAmount }
 
 ## Variables:
 ##  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+##  $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
 ##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
 
-subscriptionFirstInvoice-content-charge = Đã tính phí { $invoiceTotal } vào { $invoiceDateOnly }
 subscriptionFirstInvoice-content-credit = Bạn đã nhận được khoản tín dụng tài khoản là { $invoiceTotal }, sẽ được áp dụng cho các thanh toán trong tương lai của bạn.
 
 ##
@@ -685,9 +685,9 @@ subscriptionUpgrade-upgrade-info-2 = Bạn đã nâng cấp thành công { $prod
 ## $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
 ## $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
 ## $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
+## $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
-subscriptionUpgrade-content-charge-prorated = Bạn đã bị tính khoản phí một lần là { $paymentProrated } để phản ánh mức giá cao hơn của gói đăng ký của bạn trong thời gian còn lại của kỳ thanh toán này ({ $productPaymentCycleOld }).
 subscriptionUpgrade-content-charge-credit = Bạn đã nhận được khoản tín dụng tài khoản với số tiền là { $paymentProrated }.
 subscriptionUpgrade-content-starting = Bắt đầu từ hóa đơn tiếp theo của bạn, khoản phí của bạn sẽ thay đổi từ { $paymentAmountOld } với { $productPaymentCycleOld } thành { $paymentAmountNew } với { $productPaymentCycleNew }.
 # Variables:

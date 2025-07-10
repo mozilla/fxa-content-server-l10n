@@ -493,8 +493,6 @@ pay-update-manage-btn = Басқару
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Келесі төлем { $date } күні
-sub-next-bill-no-tax-1 = Келесі { $priceAmount } шотының мерзімі { $date }
-sub-next-bill-tax-1 = Келесі { $priceAmount } шоты + { $taxAmount } салығы, төлеу мерзімі { $date }
 sub-expires-on = Мерзімі { $date } күні аяқталады
 
 ## Routes - Subscription - PaymentUpdate

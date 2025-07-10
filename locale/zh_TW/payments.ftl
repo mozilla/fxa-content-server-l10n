@@ -489,8 +489,6 @@ pay-update-manage-btn = 管理
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = 下次收費時間：{ $date }
-sub-next-bill-no-tax-1 = 次期帳單金額：{ $priceAmount }，將於 { $date } 到期
-sub-next-bill-tax-1 = 次期帳單金額：{ $priceAmount } + { $taxAmount } 稅金，將於 { $date } 到期
 sub-expires-on = 於 { $date } 到期
 
 ## Routes - Subscription - PaymentUpdate

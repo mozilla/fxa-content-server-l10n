@@ -637,6 +637,9 @@ flow-recovery-key-info-cancel-link = Отмена
 ## FlowSetup2faApp
 
 flow-setup-2fa-qr-heading = Подключение к вашему приложению для аутентификации
+# DEV NOTE: "2a" in the id should be "2fa". This typo is kept intentionally to
+# avoid losing existing translations; fix it when creating a new version of
+# this string.
 flow-setup-2a-qr-instruction = <strong>Шаг 1:</strong> Отсканируйте этот QR-код с помощью любого приложения для аутентификации, например,Duo или Google Authenticator.
 # Alt text for the QR-code image shown during two-step authentication setup.
 # “setup secret key” refers to the long code you can copy instead of scanning.

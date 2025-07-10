@@ -227,9 +227,9 @@ subscriptionCharges-content-tax = გადასახადები და �
 
 ## Variables:
 ##  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+##  $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
 ##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
 
-subscriptionFirstInvoice-content-charge = ჩამოიჭრა { $invoiceTotal } თარიღზე { $invoiceDateOnly }
 subscriptionFirstInvoice-content-credit = თქვენ მიიღეთ ანგარიშზე ნაშთი { $invoiceTotal }, რომელიც გათვალისწინებული იქნება მომდევნო ზედნადებების გამოწერისას.
 
 ##
@@ -686,9 +686,9 @@ subscriptionUpgrade-upgrade-info-2 = წარმატებით განა
 ## $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
 ## $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
 ## $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
+## $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
-subscriptionUpgrade-content-charge-prorated = თქვენ ერთჯერადად ჩამოგეჭრათ გადასახადი { $paymentProrated } გამოწერის უფრო მაღალი საფასურის ასახვისთვის ანგარიშსწორების დარჩენილ პერიოდში ({ $productPaymentCycleOld }).
 subscriptionUpgrade-content-charge-credit = თქვენ მიიღეთ ნაშთი ანგარიშზე ოდენობით { $paymentProrated }.
 subscriptionUpgrade-content-starting = შემდეგი გადახდიდან ჩამოსაჭრელი თანხა { $paymentAmountOld } თითოეული { $productPaymentCycleOld } მონაკვეთისთვის შეიცვლება და გახდება { $paymentAmountNew } ყოველი { $productPaymentCycleNew } შუალედისთვის.
 # Variables:

@@ -221,7 +221,6 @@ upgrade-purchase-details-current-plan-label = Plani i tanishëm
 upgrade-purchase-details-new-plan-label = Plan i ri
 upgrade-purchase-details-promo-code = Kod Promocional
 upgrade-purchase-details-tax-label = Taksa dhe Tarifa
-upgrade-purchase-details-new-total-label = Shumë e re
 
 ## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences

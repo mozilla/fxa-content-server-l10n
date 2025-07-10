@@ -225,9 +225,9 @@ subscriptionCharges-content-tax = Adók és díjak: { $invoiceTaxAmount }
 
 ## Variables:
 ##  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+##  $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
 ##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
 
-subscriptionFirstInvoice-content-charge = { $invoiceTotal } levonva ekkor: { $invoiceDateOnly }
 subscriptionFirstInvoice-content-credit = { $invoiceTotal } összegű jóváírást kapott, amely a jövőbeni számláin lesz felhasználva.
 
 ##
@@ -684,9 +684,9 @@ subscriptionUpgrade-upgrade-info-2 = Sikeresen frissített erre: { $productName 
 ## $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
 ## $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
 ## $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
+## $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
-subscriptionUpgrade-content-charge-prorated = Egy egyszeri { $paymentProrated } összegű díjat számoltunk fel, amely a számlázási időszak ({ $productPaymentCycleOld }) hátralévő részében a magasabb előfizetési díjat tükrözi.
 subscriptionUpgrade-content-charge-credit = { $paymentProrated } összegű jóváírást kapott.
 subscriptionUpgrade-content-starting = A következő számlától fogva a terhelése { $paymentAmountOld }/{ $productPaymentCycleOld } összegről erre változik: { $paymentAmountNew }/{ $productPaymentCycleNew }.
 # Variables:

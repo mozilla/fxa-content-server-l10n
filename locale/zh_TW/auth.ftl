@@ -225,9 +225,9 @@ subscriptionCharges-content-tax = 稅金與其他費用：{ $invoiceTaxAmount }
 
 ## Variables:
 ##  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+##  $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
 ##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
 
-subscriptionFirstInvoice-content-charge = 已於 { $invoiceDateOnly } 收取 { $invoiceTotal }
 subscriptionFirstInvoice-content-credit = 您已收到 { $invoiceTotal } 的儲值餘額，可在未來使用。
 
 ##
@@ -683,9 +683,9 @@ subscriptionUpgrade-upgrade-info-2 = 您已成功升級到 { $productName }。
 ## $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
 ## $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
 ## $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
+## $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
-subscriptionUpgrade-content-charge-prorated = 已向您一次收取 { $paymentProrated }，以反應目前帳務週期剩餘期間（{ $productPaymentCycleOld }）較高的價格。
 subscriptionUpgrade-content-charge-credit = 您已收到 { $paymentProrated } 的儲值餘額。
 subscriptionUpgrade-content-starting = 自下一期帳單開始，將從每 { $productPaymentCycleOld } 收費 { $paymentAmountOld }，調整為每 { $productPaymentCycleNew } 收費 { $paymentAmountNew }。
 # Variables:

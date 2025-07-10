@@ -624,6 +624,9 @@ flow-recovery-key-info-cancel-link = Hủy bỏ
 ## FlowSetup2faApp
 
 flow-setup-2fa-qr-heading = Kết nối với ứng dụng xác thực của bạn
+# DEV NOTE: "2a" in the id should be "2fa". This typo is kept intentionally to
+# avoid losing existing translations; fix it when creating a new version of
+# this string.
 flow-setup-2a-qr-instruction = <strong>Bước 1:</strong> Quét mã QR này bằng bất kỳ ứng dụng xác thực nào, như Duo hoặc Google Authenticator.
 # Alt text for the QR-code image shown during two-step authentication setup.
 # “setup secret key” refers to the long code you can copy instead of scanning.

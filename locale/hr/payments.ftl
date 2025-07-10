@@ -527,8 +527,6 @@ pay-update-manage-btn = Upravljaj
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Sljedeće naplaćivanje { $date }
-sub-next-bill-no-tax-1 = Sljedeći račun od { $priceAmount } dospijeva { $date }
-sub-next-bill-tax-1 = Sljedeći račun od { $priceAmount } + { $taxAmount } poreza dospijeva { $date }
 sub-expires-on = Isteče { $date }
 
 ## Routes - Subscription - PaymentUpdate

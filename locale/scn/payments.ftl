@@ -492,8 +492,6 @@ pay-update-manage-btn = Manija
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Pròssima fattura jornu { $date }
-sub-next-bill-no-tax-1 = A pròssima fattura di { $priceAmount } scadi jornu { $date }
-sub-next-bill-tax-1 = A pròssima fattura di { $priceAmount } + { $taxAmount } di tassi scadi jornu { $date }
 sub-expires-on = Scadi u { $date }
 
 ## Routes - Subscription - PaymentUpdate

@@ -497,8 +497,6 @@ pay-update-manage-btn = Stjórna
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Næst innheimt { $date }
-sub-next-bill-no-tax-1 = Næsti reikningur upp á { $priceAmount } er á gjalddaga { $date }
-sub-next-bill-tax-1 = Næsti reikningur upp á { $priceAmount } + { $taxAmount } skattur er á gjalddaga { $date }
 sub-expires-on = Rennur út { $date }
 
 ## Routes - Subscription - PaymentUpdate

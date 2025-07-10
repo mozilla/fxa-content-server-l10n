@@ -227,9 +227,9 @@ subscriptionCharges-content-tax = Tassi e cummissioni: { $invoiceTaxAmount }
 
 ## Variables:
 ##  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+##  $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
 ##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
 
-subscriptionFirstInvoice-content-charge = Addibbitatu { $invoiceTotal } u { $invoiceDateOnly }
 subscriptionFirstInvoice-content-credit = Ricivisti nnô cuntu un crèditu di { $invoiceTotal }, chi sarà appricatu ê pròssimi fatturi.
 
 ##
@@ -664,9 +664,9 @@ subscriptionUpgrade-upgrade-info-2 = L’attualizzu a { $productName } jìu bonu
 ## $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
 ## $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
 ## $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
+## $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
-subscriptionUpgrade-content-charge-prorated = Ti fu addibbitata na còtima una tantum di { $paymentProrated } pi appattari cû prezzu cchiù autu dû to abbunamentu pû restu di stu ciclu di fatturazzioni ({ $productPaymentCycleOld }).
 subscriptionUpgrade-content-charge-credit = Ricivisti un crèditu di { $paymentProrated } nnô to cuntu.
 subscriptionUpgrade-content-starting = Accuminciannu dâ pròssima fattura, u to addèbbitu cancia di { $paymentAmountOld } pi { $productPaymentCycleOld } a { $paymentAmountNew } pi { $productPaymentCycleNew }.
 # Variables:

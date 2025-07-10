@@ -225,9 +225,9 @@ subscriptionCharges-content-tax = Trethi a ffioedd: { $invoiceTaxAmount }
 
 ## Variables:
 ##  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+##  $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
 ##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
 
-subscriptionFirstInvoice-content-charge = Codwyd { $invoiceTotal }s ar { $invoiceDateOnly }
 subscriptionFirstInvoice-content-credit = Rydych wedi derbyn credyd cyfrif o { $invoiceTotal }, a fydd yn cael ei gyfrannu at eich anfonebau yn y dyfodol.
 
 ##
@@ -688,9 +688,9 @@ subscriptionUpgrade-upgrade-info-2 = Rydych wedi uwchraddio i { $productName } y
 ## $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
 ## $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
 ## $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
+## $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
-subscriptionUpgrade-content-charge-prorated = Codwyd ffi untro o { $paymentProrated } arnoch i adlewyrchu pris uwch eich tanysgrifiad am weddill y cyfnod bilio hwn ( { $productPaymentCycleOld }).
 subscriptionUpgrade-content-charge-credit = Rydych wedi derbyn credyd cyfrif yn y swm o { $paymentProrated }.
 subscriptionUpgrade-content-starting = Gan ddechrau gyda'ch bil nesaf, bydd eich tâl yn newid o { $paymentAmountOld } fesul { $productPaymentCycleOld } i { $paymentAmountNew } fesul { $productPaymentCycleNew }.
 # Variables:

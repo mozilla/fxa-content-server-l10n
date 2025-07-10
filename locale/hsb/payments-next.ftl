@@ -230,8 +230,6 @@ upgrade-purchase-details-current-plan-label = Aktualny plan
 upgrade-purchase-details-new-plan-label = Nowy plan
 upgrade-purchase-details-promo-code = Akciski kod
 upgrade-purchase-details-tax-label = Dawki a popłatki
-upgrade-purchase-details-new-total-label = Nowa suma
-upgrade-purchase-details-prorated-upgrade = Podźělna aktualizacija
 
 ## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
@@ -241,7 +239,6 @@ upgrade-purchase-details-new-plan-weekly = { $productName } (kóždy tydźeń)
 upgrade-purchase-details-new-plan-monthly = { $productName } (kóždy měsac)
 upgrade-purchase-details-new-plan-halfyearly = { $productName } (6-měsacny)
 upgrade-purchase-details-new-plan-yearly = { $productName } (kóžde lěto)
-upgrade-purchase-details-prorated-credits = Pokazany kontowy staw so wašemu kontu přidawa a za přichodne zličbowanki wužiwa.
 
 ## Page Metadata Information
 ## $productTitle (String) - The name of the product to create subscription, e.g. Mozilla VPN

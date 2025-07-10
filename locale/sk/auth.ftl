@@ -227,9 +227,9 @@ subscriptionCharges-content-tax = Dane a poplatky: { $invoiceTaxAmount }
 
 ## Variables:
 ##  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+##  $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
 ##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
 
-subscriptionFirstInvoice-content-charge = Účtované { $invoiceTotal } dňa { $invoiceDateOnly }
 subscriptionFirstInvoice-content-credit = Na váš účet bol pripísaný kredit vo výške { $invoiceTotal }, ktorý bude použitý na vaše budúce faktúry.
 
 ##
@@ -687,9 +687,9 @@ subscriptionUpgrade-upgrade-info-2 = Úspešne ste inovovali na { $productName }
 ## $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
 ## $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
 ## $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
+## $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
-subscriptionUpgrade-content-charge-prorated = Bol vám účtovaný jednorazový poplatok vo výške { $paymentProrated }, ktorý zodpovedá vyššej cene vášho predplatného na zvyšok tohto fakturačného obdobia ({ $productPaymentCycleOld }).
 subscriptionUpgrade-content-charge-credit = Na váš účet bol pripísaný kredit vo výške { $paymentProrated }.
 subscriptionUpgrade-content-starting = Od vašej ďalšej faktúry sa váš poplatok zmení z { $paymentAmountOld } za { $productPaymentCycleOld } na { $paymentAmountNew } za { $productPaymentCycleNew }.
 # Variables:

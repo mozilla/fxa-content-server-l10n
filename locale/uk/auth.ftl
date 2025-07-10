@@ -227,9 +227,9 @@ subscriptionCharges-content-tax = Податки та збори: { $invoiceTaxA
 
 ## Variables:
 ##  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+##  $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
 ##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
 
-subscriptionFirstInvoice-content-charge = Сплачено { $invoiceTotal }, { $invoiceDateOnly }
 subscriptionFirstInvoice-content-credit = Ви отримали кредит у розмірі { $invoiceTotal }, який буде застосовано до ваших майбутніх рахунків.
 
 ##
@@ -665,9 +665,9 @@ subscriptionUpgrade-upgrade-info-2 = Ви успішно перейшли на {
 ## $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
 ## $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
 ## $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
+## $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
-subscriptionUpgrade-content-charge-prorated = З вас стягнуто одноразову плату в розмірі { $paymentProrated }, щоб покрити вищу ціну вашої передплати на решту цього розрахункового періоду ({ $productPaymentCycleOld }).
 subscriptionUpgrade-content-charge-credit = Ви отримали кредит у розмірі { $paymentProrated }.
 subscriptionUpgrade-content-starting = Починаючи з наступного рахунку, ваша плата зміниться з { $paymentAmountOld } за { $productPaymentCycleOld } на { $paymentAmountNew } за { $productPaymentCycleNew }.
 # Variables:

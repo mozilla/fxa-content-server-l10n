@@ -227,8 +227,6 @@ upgrade-purchase-details-current-plan-label = 目前方案
 upgrade-purchase-details-new-plan-label = 新方案
 upgrade-purchase-details-promo-code = 折扣码
 upgrade-purchase-details-tax-label = 税费
-upgrade-purchase-details-new-total-label = 新方案金额
-upgrade-purchase-details-prorated-upgrade = 按比例补差价升级
 
 ## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
@@ -238,7 +236,6 @@ upgrade-purchase-details-new-plan-weekly = { $productName }（周付）
 upgrade-purchase-details-new-plan-monthly = { $productName }（月付）
 upgrade-purchase-details-new-plan-halfyearly = { $productName }（半年付）
 upgrade-purchase-details-new-plan-yearly = { $productName }（年付）
-upgrade-purchase-details-prorated-credits = 此处显示的溢余款项将以余额形式返还至您的账户，并将于以后付款时抵用。
 
 ## Page Metadata Information
 ## $productTitle (String) - The name of the product to create subscription, e.g. Mozilla VPN

@@ -264,7 +264,6 @@ pay-update-manage-btn = Kelola
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Tagihan berikutnya pada { $date }
-sub-next-bill-no-tax-1 = Tagihan berikutnya sebesar { $priceAmount } jatuh tempo { $date }
 sub-expires-on = Kedaluwarsa pada { $date }
 
 ## Routes - Subscription - PaymentUpdate

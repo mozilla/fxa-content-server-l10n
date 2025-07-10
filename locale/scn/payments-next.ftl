@@ -221,8 +221,6 @@ upgrade-purchase-details-current-plan-label = Chianu attuali
 upgrade-purchase-details-new-plan-label = Chianu novu
 upgrade-purchase-details-promo-code = Còdici prumuzziunali
 upgrade-purchase-details-tax-label = Tassi e cummissioni
-upgrade-purchase-details-new-total-label = Tutali novu
-upgrade-purchase-details-prorated-upgrade = Attualizzu carculatu prupurziunali
 
 ## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
@@ -232,7 +230,6 @@ upgrade-purchase-details-new-plan-weekly = { $productName } (â simana)
 upgrade-purchase-details-new-plan-monthly = { $productName } (ô misi)
 upgrade-purchase-details-new-plan-halfyearly = { $productName } (ogni 6 misi)
 upgrade-purchase-details-new-plan-yearly = { $productName } (a l’annu)
-upgrade-purchase-details-prorated-credits = U balanzu nigativu chi vidi veni scanciatu cu crèditi pû to cuntu, chi po' usari pi fatturi futuri.
 
 ## Page Metadata Information
 ## $productTitle (String) - The name of the product to create subscription, e.g. Mozilla VPN

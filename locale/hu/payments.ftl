@@ -499,8 +499,6 @@ pay-update-manage-btn = Kezelés
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Következő számlázás: { $date }
-sub-next-bill-no-tax-1 = A következő { $priceAmount } összegű számla esedékessége: { $date }
-sub-next-bill-tax-1 = A következő { $priceAmount } + { $taxAmount } adó összegű számla esedékessége: { $date }
 sub-expires-on = Lejár: { $date }
 
 ## Routes - Subscription - PaymentUpdate
