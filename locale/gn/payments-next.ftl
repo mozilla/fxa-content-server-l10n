@@ -49,6 +49,7 @@ intent-expired-card-error = Nde kuatia’atã ñemurã ndoikovéima. Eiporu ambu
 intent-payment-error-try-again = Épa. Oiko apañuái ehepyme’ẽnguévo. Eha’ã jey térã eñe’ẽ pya’eterei nde kuatia’atã meẽha ndive.
 intent-payment-error-get-in-touch = Épa. Oĩ apañuái ehepyme’ẽnguévo. Eñe’ẽ pya’eterei nde kuatia’atã me’ẽha ndive.
 intent-payment-error-generic = Oiko peteĩ jejavy eha’ãrõ’ỹva ehepyme’ẽnguévo. Eha’ã jey uperireve.
+intent-payment-error-insufficient-funds = Nde kuatia’atã ñemurã ndaiviruvéima. Eiporu ambue kuatia’atã.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -147,6 +148,9 @@ next-plan-details-header = Apopyre mba’emimi
 next-plan-details-list-price = Tysýi repy
 next-plan-details-tax = Impuesto ha tása
 next-plan-details-total-label = Opavavete
+# "Unused time" refers to the remaining value of the current subscription that hasn't been used yet
+purchase-details-unused-time-label = Virume’ẽ aravo eiporu’ỹvare
+purchase-details-subtotal-label = Oĩmba’ỹva
 next-plan-details-hide-button = Mba’emimi mokañy
 next-plan-details-show-button = Mba’emimi jehechauka
 next-coupon-success = Ne rembiaporã ipyahúta ijehegui tysýi repýpe.
