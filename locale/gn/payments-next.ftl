@@ -237,6 +237,7 @@ upgrade-purchase-details-promo-code = Ayvu ñemoherakuãgua
 upgrade-purchase-details-tax-label = Impuesto ha tása
 # "Credit issued to account" refers to credit that will be added to the account balance that will be used toward future invoices
 upgrade-purchase-details-credit-to-account = Virume’ẽ ohóva ne mba’etépe
+upgrade-purchase-details-credit-will-be-applied = Pe virume’ẽ oĩta ne mba’etépe ha ojeporúta nde kuatiañemure oútavape.
 
 ## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences

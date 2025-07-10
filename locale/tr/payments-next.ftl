@@ -48,6 +48,7 @@ intent-expired-card-error = Kredi kartınızın kullanım süresi dolmuş. Başk
 intent-payment-error-try-again = Ödemeniz onaylanırken bir sorun oluştu. Tekrar deneyin ya da kartınızı veren kuruluşla iletişime geçin.
 intent-payment-error-get-in-touch = Ödemeniz onaylanırken bir sorun oluştu. Kartınızı veren kuruluşla iletişime geçin.
 intent-payment-error-generic = Ödemeniz işlenirken beklenmedik bir hata oluştu, lütfen yeniden deneyin.
+intent-payment-error-insufficient-funds = Kartınızda yeterli bakiye yok gibi görünüyor. Başka bir kart deneyin.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages

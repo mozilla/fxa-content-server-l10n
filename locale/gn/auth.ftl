@@ -690,6 +690,7 @@ subscriptionUpgrade-upgrade-info-2 = Oñembohekopyahúma { $productName } hekope
 ## $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
+subscriptionUpgrade-content-charge-prorated-1 = Ehepyme’ẽma peteĩ jeýnte { $invoiceAmountDue } eikuaa hag̃ua ne ñemboheraguapy repykue hepyvéva ko kuatiañemure pukukue ryepýpe ({ $productPaymentCycleOld }).
 subscriptionUpgrade-content-charge-credit = Rehupyty peteĩ crédito mba’ete rehegua { $paymentProrated } repykuépe.
 subscriptionUpgrade-content-starting = Oñepyrũvo nde kuatia ñemure oúvagui, nde cargo iñambuéta { $paymentAmountOld }-gui { $productPaymentCycleOld }-pe { $paymentAmountNew }-gui { $productPaymentCycleNew }-pe.
 # Variables:

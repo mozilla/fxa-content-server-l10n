@@ -49,6 +49,7 @@ intent-expired-card-error = 您的信用卡似乎已过期，请改用其他卡�
 intent-payment-error-try-again = 嗯… 在授权您的付款时出现问题。请再试一次，或联系您的发卡机构。
 intent-payment-error-get-in-touch = 嗯… 在授权您的付款时出现问题，请联系您的发卡机构。
 intent-payment-error-generic = 处理付款时发生意外错误，请重试。
+intent-payment-error-insufficient-funds = 您的卡余额不足，请改用其他卡。
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -147,6 +148,11 @@ next-plan-details-header = 产品详细信息
 next-plan-details-list-price = 标价
 next-plan-details-tax = 税费
 next-plan-details-total-label = 总计
+purchase-details-subtotal-label = 小计
+# "Credit applied" refers to account credit used to reduce the amount due on the invoice
+purchase-details-credit-applied-label = 使用余额
+# "Total due" is the total that the customer owes after all credits, discounts, and taxes have been applied
+purchase-details-total-due-label = 合计应付
 next-plan-details-hide-button = 隐藏详细信息
 next-plan-details-show-button = 显示详细信息
 next-coupon-success = 您的方案将自动按标价续订。
@@ -227,6 +233,9 @@ upgrade-purchase-details-current-plan-label = 目前方案
 upgrade-purchase-details-new-plan-label = 新方案
 upgrade-purchase-details-promo-code = 折扣码
 upgrade-purchase-details-tax-label = 税费
+# "Credit issued to account" refers to credit that will be added to the account balance that will be used toward future invoices
+upgrade-purchase-details-credit-to-account = 余额已存入账户
+upgrade-purchase-details-credit-will-be-applied = 余额将返还至您的账户，并将于以后付款时抵用。
 
 ## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
