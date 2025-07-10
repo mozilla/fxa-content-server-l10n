@@ -49,6 +49,7 @@ intent-expired-card-error = Φαίνεται πως η πιστωτική σας
 intent-payment-error-try-again = Προέκυψε πρόβλημα κατά την έγκριση της πληρωμής σας. Δοκιμάστε ξανά ή επικοινωνήστε με τον εκδότη της κάρτας σας.
 intent-payment-error-get-in-touch = Προέκυψε πρόβλημα κατά την έγκριση της πληρωμής σας. Επικοινωνήστε με τον εκδότη της κάρτας σας.
 intent-payment-error-generic = Προέκυψε μη αναμενόμενο σφάλμα κατά την επεξεργασία της πληρωμής σας. Δοκιμάστε ξανά.
+intent-payment-error-insufficient-funds = Φαίνεται πως η κάρτα σας δεν διαθέτει επαρκή χρήματα. Δοκιμάστε μια άλλη κάρτα.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -147,7 +148,11 @@ next-plan-details-header = Λεπτομέρειες προιόντος
 next-plan-details-list-price = Τιμή καταλόγου
 next-plan-details-tax = Φόροι και τέλη
 next-plan-details-total-label = Σύνολο
+# "Unused time" refers to the remaining value of the current subscription that hasn't been used yet
+purchase-details-unused-time-label = Πίστωση από μη χρησιμοποιημένο χρόνο
 purchase-details-subtotal-label = Υποσύνολο
+# "Credit applied" refers to account credit used to reduce the amount due on the invoice
+purchase-details-credit-applied-label = Η πίστωση εφαρμόστηκε
 next-plan-details-hide-button = Απόκρυψη λεπτομερειών
 next-plan-details-show-button = Εμφάνιση λεπτομερειών
 next-coupon-success = Το πρόγραμμά σας θα ανανεωθεί αυτόματα στην τιμή καταλόγου.

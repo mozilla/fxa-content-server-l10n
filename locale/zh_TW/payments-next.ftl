@@ -49,6 +49,7 @@ intent-expired-card-error = 您的信用卡已經過期，請改用其他卡片�
 intent-payment-error-try-again = 取得款項授權時發生問題，請再試一次或與您的發卡單位聯繫。
 intent-payment-error-get-in-touch = 取得款項授權時發生問題，請與您的發卡單位聯繫。
 intent-payment-error-generic = 處理付款時發生未知錯誤，請再試一次。
+intent-payment-error-insufficient-funds = 您的卡片額度不足，請改用其他卡片。
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -147,6 +148,13 @@ next-plan-details-header = 產品詳細資訊
 next-plan-details-list-price = 原價
 next-plan-details-tax = 稅費
 next-plan-details-total-label = 總計
+# "Unused time" refers to the remaining value of the current subscription that hasn't been used yet
+purchase-details-unused-time-label = 未使用期間轉儲值餘額
+purchase-details-subtotal-label = 小計
+# "Credit applied" refers to account credit used to reduce the amount due on the invoice
+purchase-details-credit-applied-label = 已套用儲值餘額
+# "Total due" is the total that the customer owes after all credits, discounts, and taxes have been applied
+purchase-details-total-due-label = 應收總額
 next-plan-details-hide-button = 隱藏詳細資訊
 next-plan-details-show-button = 顯示詳細資訊
 next-coupon-success = 您的訂閱方案將以牌告原價自動續約。
@@ -227,6 +235,9 @@ upgrade-purchase-details-current-plan-label = 目前方案
 upgrade-purchase-details-new-plan-label = 新方案
 upgrade-purchase-details-promo-code = 折扣碼
 upgrade-purchase-details-tax-label = 稅費
+# "Credit issued to account" refers to credit that will be added to the account balance that will be used toward future invoices
+upgrade-purchase-details-credit-to-account = 已將餘額儲存至帳號
+upgrade-purchase-details-credit-will-be-applied = 已儲值至帳號，將於未來帳單中折抵。
 
 ## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
