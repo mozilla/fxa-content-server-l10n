@@ -49,6 +49,7 @@ intent-expired-card-error = Es sieht so aus, als sei Ihre Kreditkarte abgelaufen
 intent-payment-error-try-again = Hmm. Beim Autorisieren Ihrer Zahlung ist ein Problem aufgetreten. Versuchen Sie es erneut oder setzen Sie sich mit Ihrem Kartenaussteller in Verbindung.
 intent-payment-error-get-in-touch = Hmm. Beim Autorisieren Ihrer Zahlung ist ein Problem aufgetreten. Setzen Sie sich mit Ihrem Kartenaussteller in Verbindung.
 intent-payment-error-generic = Beim Verarbeiten Ihrer Zahlung ist ein unerwarteter Fehler aufgetreten, versuchen Sie es bitte erneut.
+intent-payment-error-insufficient-funds = Es sieht so aus, als ob Ihre Karte nicht genügend Guthaben hat. Versuchen Sie es mit einer anderen Karte.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -147,6 +148,13 @@ next-plan-details-header = Produktdetails
 next-plan-details-list-price = Listenpreis
 next-plan-details-tax = Steuern und Gebühren
 next-plan-details-total-label = Gesamt
+# "Unused time" refers to the remaining value of the current subscription that hasn't been used yet
+purchase-details-unused-time-label = Gutschrift aus nicht genutzter Zeit
+purchase-details-subtotal-label = Zwischensumme
+# "Credit applied" refers to account credit used to reduce the amount due on the invoice
+purchase-details-credit-applied-label = Guthaben angewendet
+# "Total due" is the total that the customer owes after all credits, discounts, and taxes have been applied
+purchase-details-total-due-label = Gesamt fällig
 next-plan-details-hide-button = Details ausblenden
 next-plan-details-show-button = Details anzeigen
 next-coupon-success = Ihr Plan verlängert sich automatisch zum Listenpreis.
@@ -227,6 +235,9 @@ upgrade-purchase-details-current-plan-label = Derzeitiger Plan
 upgrade-purchase-details-new-plan-label = Neuer Plan
 upgrade-purchase-details-promo-code = Aktionscode
 upgrade-purchase-details-tax-label = Steuern und Gebühren
+# "Credit issued to account" refers to credit that will be added to the account balance that will be used toward future invoices
+upgrade-purchase-details-credit-to-account = Gutschrift auf Konto
+upgrade-purchase-details-credit-will-be-applied = Die Gutschrift wird Ihrem Konto belastet und für zukünftige Rechnungen verwendet.
 
 ## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences

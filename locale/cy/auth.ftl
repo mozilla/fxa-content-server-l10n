@@ -228,6 +228,7 @@ subscriptionCharges-content-tax = Trethi a ffioedd: { $invoiceTaxAmount }
 ##  $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
 ##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
 
+subscriptionFirstInvoice-content-total-due = Codir { $invoiceAmountDue } ar { $invoiceDateOnly }
 subscriptionFirstInvoice-content-credit = Rydych wedi derbyn credyd cyfrif o { $invoiceTotal }, a fydd yn cael ei gyfrannu at eich anfonebau yn y dyfodol.
 
 ##
@@ -691,6 +692,7 @@ subscriptionUpgrade-upgrade-info-2 = Rydych wedi uwchraddio i { $productName } y
 ## $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
+subscriptionUpgrade-content-charge-prorated-1 = Codwyd ffi un-tro o { $invoiceAmountDue } arnoch i adlewyrchu pris uwch eich tanysgrifiad am weddill y cyfnod bilio hwn ( { $productPaymentCycleOld }).
 subscriptionUpgrade-content-charge-credit = Rydych wedi derbyn credyd cyfrif yn y swm o { $paymentProrated }.
 subscriptionUpgrade-content-starting = Gan ddechrau gyda'ch bil nesaf, bydd eich tâl yn newid o { $paymentAmountOld } fesul { $productPaymentCycleOld } i { $paymentAmountNew } fesul { $productPaymentCycleNew }.
 # Variables:

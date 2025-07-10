@@ -51,6 +51,7 @@ intent-expired-card-error = Úgy tűnik, hogy a bankkártya lejárt. Próbálkoz
 intent-payment-error-try-again = Hmm. Hiba történt a fizetés jóváhagyásakor. Próbálkozzon újra, vagy vegye fel a kapcsolatot a kártyakibocsátóval.
 intent-payment-error-get-in-touch = Hmm. Hiba történt a fizetés jóváhagyásakor. Vegye fel a kapcsolatot a kártyakibocsátóval.
 intent-payment-error-generic = Váratlan hiba történt a fizetése feldolgozása során, próbálja újra.
+intent-payment-error-insufficient-funds = Úgy tűnik, hogy a bankkártyán kevés a fedezet. Próbálkozzon egy másik kártyával.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -149,6 +150,13 @@ next-plan-details-header = Termék részletei
 next-plan-details-list-price = Listaár
 next-plan-details-tax = Adók és díjak
 next-plan-details-total-label = Összesen
+# "Unused time" refers to the remaining value of the current subscription that hasn't been used yet
+purchase-details-unused-time-label = Jóváírás a fel nem használt időből
+purchase-details-subtotal-label = Részösszeg
+# "Credit applied" refers to account credit used to reduce the amount due on the invoice
+purchase-details-credit-applied-label = Jóváírás alkalmazva
+# "Total due" is the total that the customer owes after all credits, discounts, and taxes have been applied
+purchase-details-total-due-label = Teljes esedékesség
 next-plan-details-hide-button = Részletek elrejtése
 next-plan-details-show-button = Részletek megjelenítése
 next-coupon-success = A csomag automatikusan megújul a listaáron.
@@ -229,6 +237,9 @@ upgrade-purchase-details-current-plan-label = Jelenlegi előfizetés
 upgrade-purchase-details-new-plan-label = Új előfizetés
 upgrade-purchase-details-promo-code = Promóciós kód
 upgrade-purchase-details-tax-label = Adók és díjak
+# "Credit issued to account" refers to credit that will be added to the account balance that will be used toward future invoices
+upgrade-purchase-details-credit-to-account = Jóváírás a számlán
+upgrade-purchase-details-credit-will-be-applied = A jóváírás a fiókjába kerül, és a jövőbeli számlák kifizetésére lesz felhasználva.
 
 ## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences

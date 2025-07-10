@@ -228,6 +228,7 @@ subscriptionCharges-content-tax = Daně a poplatky: { $invoiceTaxAmount }
 ##  $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
 ##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
 
+subscriptionFirstInvoice-content-total-due = Dne { $invoiceDateOnly } účtována částka { $invoiceAmountDue }
 subscriptionFirstInvoice-content-credit = Obdrželi jste kredit ve výši { $invoiceTotal }, který bude použit na vaše budoucí faktury.
 
 ##
@@ -689,6 +690,7 @@ subscriptionUpgrade-upgrade-info-2 = Úspěšně jste přešli na { $productName
 ## $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
+subscriptionUpgrade-content-charge-prorated-1 = Byl vám účtován jednorázový poplatek { $invoiceAmountDue }, který odráží vyšší cenu vašeho předplatného pro zbytek tohoto fakturačního období ({ $productPaymentCycleOld }).
 subscriptionUpgrade-content-charge-credit = Obdrželi jste kredit ve výši { $paymentProrated }.
 subscriptionUpgrade-content-starting = Od příštího vyúčtování se váš poplatek změní z { $paymentAmountOld } za { $productPaymentCycleOld } na { $paymentAmountNew } za { $productPaymentCycleNew }.
 # Variables:

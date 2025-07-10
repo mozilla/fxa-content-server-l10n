@@ -49,6 +49,7 @@ intent-expired-card-error = Vypadá to, že platnost vaší karty vypršela. Zku
 intent-payment-error-try-again = Autorizace vaší platby se nezdařila. Zkuste to prosím znovu nebo kontaktujte vydavatele vaší karty.
 intent-payment-error-get-in-touch = Autorizace vaší platby se nezdařila. Kontaktujte prosím vydavatele vaší karty.
 intent-payment-error-generic = Při zpracování platby došlo k neočekávané chybě, zkuste to prosím znovu.
+intent-payment-error-insufficient-funds = Vypadá to, že na vaší kartě není dostatek proštředků. Zkuste použít jinou.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -147,6 +148,13 @@ next-plan-details-header = Informace o produktu
 next-plan-details-list-price = Ceník
 next-plan-details-tax = Daně a poplatky
 next-plan-details-total-label = Celkem
+# "Unused time" refers to the remaining value of the current subscription that hasn't been used yet
+purchase-details-unused-time-label = Zápočet z nevyužitého času
+purchase-details-subtotal-label = Mezisoučet
+# "Credit applied" refers to account credit used to reduce the amount due on the invoice
+purchase-details-credit-applied-label = Poděkování bylo připsáno
+# "Total due" is the total that the customer owes after all credits, discounts, and taxes have been applied
+purchase-details-total-due-label = Celkem splaceno
 next-plan-details-hide-button = Skrýt podrobnosti
 next-plan-details-show-button = Zobrazit podrobnosti
 next-coupon-success = Váš plán se automaticky obnoví za běžnou cenu podle ceníku.
@@ -227,6 +235,9 @@ upgrade-purchase-details-current-plan-label = Stávající předplatné
 upgrade-purchase-details-new-plan-label = Nový plán
 upgrade-purchase-details-promo-code = Promo kód
 upgrade-purchase-details-tax-label = Daně a poplatky
+# "Credit issued to account" refers to credit that will be added to the account balance that will be used toward future invoices
+upgrade-purchase-details-credit-to-account = Peníze připsány na účet
+upgrade-purchase-details-credit-will-be-applied = Kredit bude připisován vašemu účtu a používán k úhradě budoucích faktur.
 
 ## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
