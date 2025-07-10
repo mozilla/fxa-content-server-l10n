@@ -231,6 +231,7 @@ subscriptionCharges-content-tax = Skatter og avgifter: { $invoiceTaxAmount }
 ##  $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
 ##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
 
+subscriptionFirstInvoice-content-total-due = Belastet { $invoiceAmountDue } den { $invoiceDateOnly }
 subscriptionFirstInvoice-content-credit = Du har mottatt en kontokreditt på { $invoiceTotal }, som vil bli brukt på dine fremtidige fakturaer.
 
 ##
@@ -690,6 +691,7 @@ subscriptionUpgrade-upgrade-info-2 = Du har oppgradert til { $productName }.
 ## $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
+subscriptionUpgrade-content-charge-prorated-1 = Du har blitt belastet med et engangsgebyr på { $invoiceAmountDue } for å gjenspeile abonnementets høyere pris for resten av denne faktureringsperioden ({ $productPaymentCycleOld }).
 subscriptionUpgrade-content-charge-credit = Du har mottatt en kontokreditt på beløpet { $paymentProrated }.
 subscriptionUpgrade-content-starting = Fra og med din neste faktura vil kostnaden endres fra { $paymentAmountOld } per { $productPaymentCycleOld } til { $paymentAmountNew } per { $productPaymentCycleNew }.
 # Variables:

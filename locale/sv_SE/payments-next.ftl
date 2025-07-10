@@ -237,6 +237,7 @@ upgrade-purchase-details-promo-code = Kampanjkod
 upgrade-purchase-details-tax-label = Skatter och avgifter
 # "Credit issued to account" refers to credit that will be added to the account balance that will be used toward future invoices
 upgrade-purchase-details-credit-to-account = Kredit utfärdad till konto
+upgrade-purchase-details-credit-will-be-applied = Kredit kommer att sättas in på ditt konto och användas för framtida fakturor.
 
 ## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences

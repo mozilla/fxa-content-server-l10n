@@ -49,6 +49,7 @@ intent-expired-card-error = Det ser ut som om at bankkortet ditt har gått ut. P
 intent-payment-error-try-again = Hmm. Det oppstod et problem med å godkjenne betalingen din. Prøv igjen eller ta kontakt med kortutstederen din.
 intent-payment-error-get-in-touch = Hmm. Det oppstod et problem med å godkjenne betalingen din. Ta kontakt med kortutstederen din.
 intent-payment-error-generic = Det oppstod en uventet feil under behandlingen av betalingen. Prøv igjen.
+intent-payment-error-insufficient-funds = Det ser ut som om kortet ditt ikke har tilstrekkelig med penger. Prøv et annet kort.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -147,6 +148,13 @@ next-plan-details-header = Produktdetaljer
 next-plan-details-list-price = Listepris
 next-plan-details-tax = Skatter og avgifter
 next-plan-details-total-label = Totalt
+# "Unused time" refers to the remaining value of the current subscription that hasn't been used yet
+purchase-details-unused-time-label = Kreditt fra ubrukt tid
+purchase-details-subtotal-label = Delsum
+# "Credit applied" refers to account credit used to reduce the amount due on the invoice
+purchase-details-credit-applied-label = Kreditt brukt
+# "Total due" is the total that the customer owes after all credits, discounts, and taxes have been applied
+purchase-details-total-due-label = Totalt utestående
 next-plan-details-hide-button = Skjul detaljer
 next-plan-details-show-button = Vis detaljer
 next-coupon-success = Planen din fornyes automatisk til listeprisen.
@@ -227,6 +235,9 @@ upgrade-purchase-details-current-plan-label = Gjeldende plan
 upgrade-purchase-details-new-plan-label = Ny plan
 upgrade-purchase-details-promo-code = Rabattkode
 upgrade-purchase-details-tax-label = Skatter og avgifter
+# "Credit issued to account" refers to credit that will be added to the account balance that will be used toward future invoices
+upgrade-purchase-details-credit-to-account = Kreditt utstedt til konto
+upgrade-purchase-details-credit-will-be-applied = Kreditten vil bli lagt til kontoen din og brukt til fremtidige fakturaer.
 
 ## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
