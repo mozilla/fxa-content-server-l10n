@@ -230,6 +230,7 @@ subscriptionCharges-content-tax = Dawki a popłatki: { $invoiceTaxAmount }
 ##  $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
 ##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
 
+subscriptionFirstInvoice-content-total-due = { $invoiceAmountDue } dnja { $invoiceDateOnly } wotknihowane
 subscriptionFirstInvoice-content-credit = Sće dobroměće { $invoiceTotal } dóstał, kotrež so z wašimi přichodnymi zličbowankami rozličujo.
 
 ##
@@ -691,6 +692,7 @@ subscriptionUpgrade-upgrade-info-2 = Sće wuspěšnje na { $productName } zaktua
 ## $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
+subscriptionUpgrade-content-charge-prorated-1 = Wam je so jónkróćny popłatk { $invoiceAmountDue } wobličił, zo by so wyša płaćizna wašeho abonementa za zbytk tuteje wotličenskeje periody wotbłyšćowała ({ $productPaymentCycleOld }).
 subscriptionUpgrade-content-charge-credit = Sće dobroměće we wysokosći { $paymentProrated } dóstał.
 subscriptionUpgrade-content-starting = Wot wašeje přichodneje zličbowanki so waš popłatk wot { $paymentAmountOld } na { $productPaymentCycleOld } do { $paymentAmountNew } na { $productPaymentCycleNew } změni.
 # Variables:
