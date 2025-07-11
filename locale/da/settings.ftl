@@ -1051,8 +1051,14 @@ tfa-enter-recovery-code-1 =
 
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
+# this message will only be shown to users eligible for a special promotion, based on their location (initially USA only)
+# $price - formatted for user locale, in the target market's currency (for launch, always USD)
+# /mo is 'per month'
+product-promo-monitor-special-promo-description = Betal { $price } per måned og spar på { -product-mozilla-vpn-short }, { -product-mozilla-monitor-short }s beskyttelse mod datamæglere, og { -product-firefox-relay-short }s ubegrænsede mailmasker.
 # Links out to the Monitor site
 product-promo-monitor-cta = Få en gratis skanning
+# Links out to the Monitor pricing site
+product-promo-monitor-special-promo-cta = Få beskyttelse året rundt
 
 ## Profile section
 
@@ -1233,6 +1239,7 @@ tfa-row-disable-modal-explain-1 =
 # Shown in an alert bar after two-step authentication is disabled
 tfa-row-disabled-2 = Totrinsgodkendelse deaktiveret
 tfa-row-cannot-disable-2 = Totrinsgodkendelse kunne ikke deaktiveres
+tfa-row-disable-cannot-verify-session = Der opstod desværre et problem med at bekræfte din session
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
@@ -1580,6 +1587,9 @@ pair-unsupported-message = Brugte du systemets kamera? Du skal parre ved hjælp 
 
 # password to complete their sign-in when they want to login to a service requiring it.
 
+set-password-heading-v2 = Opret adgangskode for at synkronisere
+# "This" refers to the heading, "Create password to sync"
+set-password-info-v2 = Dette krypterer dine data. Den skal være forskellig fra adgangskoden til din { -brand-google }- eller { -brand-apple }-konto.
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
@@ -1754,6 +1764,11 @@ signin-password-button-label = Adgangskode
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-desktop-relay = { -brand-firefox } vil forsøge at sende dig tilbage, så du kan bruge en mail-maske, når du har logget ind.
+signin-code-expired-error = Koden er udløbet. Log ind igen.
+signin-account-locked-banner-heading = Nulstil din adgangskode
+signin-account-locked-banner-description = Vi har låst din konto for at beskytte den mod mistænkelig aktivitet.
+# This link points to https://accounts.firefox.com/reset_password
+signin-account-locked-banner-link = Nulstil din adgangskode for at logge ind
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
@@ -1946,6 +1961,7 @@ confirm-signup-code-instruction-v2 = Indtast koden, der blev sendt til <email>{ 
 confirm-signup-code-input-label = Indtast sekscifret kode
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = Bekræft
+confirm-signup-code-sync-button = Start synkronisering
 confirm-signup-code-code-expired = Er koden udløbet?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Send en ny kode.
@@ -1960,7 +1976,10 @@ confirm-signup-code-desktop-relay = { -brand-firefox } vil forsøge at sende dig
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
+signup-heading-v2 = Opret en adgangskode
 signup-relay-info = En adgangskode er nødvendig for at kunne håndtere dine maskerede mailadresser sikkert og få adgang til { -brand-mozilla }s sikkerhedsværktøjer.
+signup-sync-info = Synkroniser dine adgangskoder, bogmærker og mere overalt, hvor du bruger { -brand-firefox }.
+signup-sync-info-with-payment = Synkroniser dine adgangskoder, betalingsmetoder, bogmærker og mere overalt, hvor du bruger { -brand-firefox }.
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = Hvorfor skal jeg oprette denne konto?
 # Link included in a dismissible info banner that is only displayed to Pocket clients
@@ -1975,5 +1994,9 @@ signup-change-email-link = Skift mailadresse
 signup-confirmed-sync-header = Synkronisering er slået til
 signup-confirmed-sync-success-banner = { -product-mozilla-account } bekræftet
 signup-confirmed-sync-button = Gå i gang
+# Shown when payment methods are also synced
+signup-confirmed-sync-description-with-payment-v2 = Dine adgangskoder, betalingsmetoder, adresser, bogmærker, historik og mere kan synkroniseres overalt, hvor du bruger { -brand-firefox }.
+signup-confirmed-sync-description-v2 = Dine adgangskoder, adresser, bogmærker, historik og mere kan synkroniseres overalt, hvor du bruger { -brand-firefox }.
 signup-confirmed-sync-add-device-link = Tilføj en ny enhed
 signup-confirmed-sync-manage-sync-button = Håndter synkronisering
+signup-confirmed-sync-set-password-success-banner = Adgangskode til synkronisering oprettet
