@@ -40,9 +40,16 @@ checkout-error-already-subscribed = Du abonnerer allerede på dette produkt.
 checkout-error-contact-support = Kontakt supporten, så vi kan hjælpe dig.
 cart-error-currency-not-determined = Vi var ikke i stand til at fastslå valutaen for dette køb. Prøv igen.
 checkout-processing-general-error = Der opstod en uventet fejl under behandlingen af din betaling. Prøv igen.
+cart-total-mismatch-error = Fakturabeløbet er ændret. Prøv igen.
 
 ## Error pages - Payment method failure messages
 
+intent-card-error = Din transaktion kunne ikke behandles. Bekræft oplysningerne om dit betalingskort og prøv igen.
+intent-expired-card-error = Det ser ud til, at dit betalingskort er udløbet. Prøv med et andet kort.
+intent-payment-error-try-again = Hmm. Der opstod et problem med at godkende din betaling. Prøv igen eller kontakt din kortudsteder.
+intent-payment-error-get-in-touch = Hmm. Der opstod et problem med at godkende din betaling. Kontakt din kortudsteder.
+intent-payment-error-generic = Der opstod en uventet fejl under behandlingen af din betaling. Prøv igen.
+intent-payment-error-insufficient-funds = Det ser ud til, at der ikke er penge nok på dit kort. Prøv et andet kort.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -141,6 +148,11 @@ next-plan-details-header = Produktdetaljer
 next-plan-details-list-price = Listepris
 next-plan-details-tax = Skatter og gebyrer
 next-plan-details-total-label = I alt
+# "Unused time" refers to the remaining value of the current subscription that hasn't been used yet
+purchase-details-unused-time-label = Tilgodehavende fra ubrugt tid
+purchase-details-subtotal-label = Subtotal
+# "Credit applied" refers to account credit used to reduce the amount due on the invoice
+purchase-details-credit-applied-label = Tilgodehavende anvendt
 next-plan-details-hide-button = Skjul detaljer
 next-plan-details-show-button = Vis detaljer
 next-coupon-success = Din plan fornys automatisk til listeprisen.
@@ -221,6 +233,9 @@ upgrade-purchase-details-current-plan-label = Nuværende plan
 upgrade-purchase-details-new-plan-label = Ny plan
 upgrade-purchase-details-promo-code = Rabatkode
 upgrade-purchase-details-tax-label = Skatter og gebyrer
+# "Credit issued to account" refers to credit that will be added to the account balance that will be used toward future invoices
+upgrade-purchase-details-credit-to-account = Tilgodehavende føjet til konto
+upgrade-purchase-details-credit-will-be-applied = Tilgodehavende vil blive føjet til din konto og brugt til fremtidige fakturaer.
 
 ## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
@@ -270,6 +285,7 @@ metadata-description-default = Siden, du bad om, blev ikke fundet.
 
 ## Coupon Error Messages
 
+next-coupon-error-cannot-redeem = Den indtastede kode kan ikke indløses — din konto har et tidligere abonnement på en af vores tjenester.
 next-coupon-error-expired = Den indtastede kode er udløbet.
 next-coupon-error-generic = Der opstod en fejl under behandlingen af koden. Prøv igen.
 next-coupon-error-invalid = Den indtastede kode er ugyldig.

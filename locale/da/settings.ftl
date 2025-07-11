@@ -94,6 +94,21 @@ datablock-print =
 ## Success banners for datablock actions.
 ## $count – number of codes
 
+datablock-copy-success =
+    { $count ->
+        [one] Kode kopieret
+       *[other] Koder kopieret
+    }
+datablock-download-success =
+    { $count ->
+        [one] Kode hentet
+       *[other] Koder hentet
+    }
+datablock-print-success =
+    { $count ->
+        [one] Kode udskrevet
+       *[other] Koder udskrevet
+    }
 
 ##
 
@@ -133,6 +148,7 @@ signup-new-password-label =
 signup-confirm-password-label =
     .label = Gentag adgangskode
 signup-submit-button = Opret en konto
+post-verify-set-password-submit-button = Start synkronisering
 form-reset-password-with-balloon-new-password =
     .label = Ny adgangskode
 form-reset-password-with-balloon-confirm-password =
@@ -376,10 +392,13 @@ password-strength-balloon-stay-safe-tips = Beskyt dig selv — Genbrug ikke adga
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password
 
+password-strength-long-instruction = Vælg en stærk adgangskode, du ikke har brugt på andre websteder. Sørg for, at den opfylder sikkerhedskravene:
+password-strength-short-instruction = Vælg en stærk adgangskode:
 password-strength-inline-min-length = Mindst 8 tegn
 password-strength-inline-not-email = Ikke din mailadresse
 password-strength-inline-not-common = Ikke en almindeligt brugt adgangskode
 password-strength-inline-confirmed-must-match = Bekræftelsen matcher den nye adgangskode
+password-strength-inline-passwords-match = Adgangskoderne er ens
 
 ## Notification Promo Banner component
 
@@ -635,6 +654,7 @@ flow-setup-2fa-more-info-link = Læs mere om godkendelsesapps
 flow-setup-2fa-button = Fortsæt
 flow-setup-2fa-step-2-instruction = <Strong>Trin 2:</strong> Indtast koden fra din godkendelsesapp.
 flow-setup-2fa-input-label = Indtast sekscifret kode
+flow-setup-2fa-code-error = Ugyldig eller udløbet kode. Tjek din godkendelsesapp og prøv igen.
 
 ## The step to choose the two step authentication method in the two step
 ## authentication setup flow.
@@ -763,6 +783,11 @@ tfa-enter-code-to-confirm-v2 =
 
 ## PageSetupRecoveryPhone
 
+page-2fa-setup-title = Totrinsgodkendelse
+page-2fa-setup-totpinfo-error = Der opstod en fejl under opsætningen af totrinsgodkendelse. Prøv igen senere.
+# code here refers to "backup authentication code"
+page-2fa-setup-incorrect-backup-code-error = Den kode er ikke korrekt. Prøv igen.
+page-2fa-setup-success = Totrinsgodkendelse er blevet aktiveret
 
 ## Avatar change page
 

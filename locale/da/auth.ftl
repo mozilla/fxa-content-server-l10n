@@ -230,6 +230,7 @@ subscriptionCharges-content-tax = Skatter og gebyrer: { $invoiceTaxAmount }
 ##  $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
 ##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
 
+subscriptionFirstInvoice-content-total-due = Opkrævet { $invoiceAmountDue } den { $invoiceDateOnly }
 subscriptionFirstInvoice-content-credit = Du er blevet godskrevet { $invoiceTotal }, som vil blive anvendt på dine fremtidige fakturaer.
 
 ##
@@ -251,6 +252,12 @@ subscriptionUpdateBillingTry-plaintext = Vi prøver at gennemføre din betaling 
 subscriptionUpdatePayment = <a data-l10n-name="updateBillingUrl">Opdater dine betalingsinformationer</a> så hurtigt som muligt for at undgå afbrydelse af din tjeneste.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Opdater dine betalingsinformationer så hurtigt som muligt for at undgå afbrydelse af din tjeneste:
+# Variables:
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-3 = Besøg <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a> for at få mere at vide.
+# Variables:
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-plaintext = Besøg { -brand-mozilla } Support på { $supportUrl } for at få mere at vide.
 # Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
@@ -354,6 +361,11 @@ passwordChanged-subject = Adgangskode opdateret
 passwordChanged-title = Adgangskoden blev ændret
 passwordChanged-description-2 = Adgangskoden til din { -product-mozilla-account } blev ændret fra følgende enhed:
 passwordChangeRequired-subject = Mistænkelig aktivitet konstateret
+passwordChangeRequired-preview = Skift din adgangskode med det samme
+passwordChangeRequired-title-2 = Nulstil din adgangskode
+passwordChangeRequired-sign-in-3 = For at logge ind på din konto igen skal du blot nulstille din adgangskode.
+passwordChangeRequired-action = Nulstil adgangskode
+passwordChangeRequired-action-plaintext = { passwordChangeRequired-action }:
 password-forgot-otp-subject = Glemt din adgangskode?
 password-forgot-otp-title = Glemt din adgangskode?
 password-forgot-otp-request = Vi har modtaget en anmodning om at ændre adgangskoden til din { -product-mozilla-account } fra:
@@ -408,8 +420,16 @@ postAddRecoveryPhone-how-protect = Sådan beskytter det din konto
 postAddRecoveryPhone-how-protect-plaintext = Sådan beskytter det din konto:
 postAddRecoveryPhone-enabled-device = Du har aktiveret det fra:
 postAddRecoveryPhone-action = Håndter konto
+postAddTwoStepAuthentication-subject-v3 = Totrinsgodkendelse er slået til
 postAddTwoStepAuthentication-title-2 = Du har slået totrinsgodkendelse til
+# After the colon, there is a description of the device that the user used to enable two-step authentication
+postAddTwoStepAuthentication-from-device-v2 = Du har bedt om dette fra:
 postAddTwoStepAuthentication-action = Håndter konto
+postAddTwoStepAuthentication-code-required-v3 = Du skal nu bruge din godkendelsesapp, hver gang du logger ind.
+postAddTwoStepAuthentication-recovery-method-codes = Du har også tilføjet reserve-godkendelseskoder som din genoprettelsesmetode.
+# Variables:
+#  $maskedPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
+postAddTwoStepAuthentication-recovery-method-phone = Du har også tilføjet { $maskedPhoneNumber } som dit telefonnummer til genoprettelse.
 postChangeAccountRecovery-subject = Genoprettelsesnøgle til kontoen blev ændret
 postChangeAccountRecovery-title = Du ændrede din genoprettelsesnøgle til kontoen
 postChangeAccountRecovery-body-part1 = Du har nu en ny genoprettelsesnøgle til kontoen. Din tidligere nøgle blev slettet.
@@ -667,6 +687,7 @@ subscriptionUpgrade-upgrade-info-2 = Du har opgraderet til { $productName }.
 ## $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
+subscriptionUpgrade-content-charge-prorated-1 = Du er blevet opkrævet et engangsgebyr på { $invoiceAmountDue } for at afspejle dit abonnements højere pris for resten af denne faktureringsperiode ({ $productPaymentCycleOld }).
 subscriptionUpgrade-content-charge-credit = Du er blevet godskrevet et beløb på { $paymentProrated }.
 subscriptionUpgrade-content-starting = Fra og med din næste regning vil din opkrævning blive ændret fra { $paymentAmountOld } pr. { $productPaymentCycleOld } til { $paymentAmountNew } pr. { $productPaymentCycleNew }.
 # Variables:
