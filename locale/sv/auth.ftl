@@ -227,9 +227,10 @@ subscriptionCharges-content-tax = Skatter och avgifter: { $invoiceTaxAmount }
 
 ## Variables:
 ##  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+##  $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
 ##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
 
-subscriptionFirstInvoice-content-charge = Debiterade { $invoiceTotal } den { $invoiceDateOnly }
+subscriptionFirstInvoice-content-total-due = Debiterade { $invoiceAmountDue } den { $invoiceDateOnly }
 subscriptionFirstInvoice-content-credit = Du har fått en kredit på { $invoiceTotal } som kommer att tillämpas på dina framtida fakturor.
 
 ##
@@ -686,9 +687,10 @@ subscriptionUpgrade-upgrade-info-2 = Du har uppgraderat till { $productName }.
 ## $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
 ## $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
 ## $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
+## $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
-subscriptionUpgrade-content-charge-prorated = Du har debiterats en engångsavgift på { $paymentProrated } för att återspegla ditt abonnemangs högre pris för resten av denna faktureringsperiod ({ $productPaymentCycleOld }).
+subscriptionUpgrade-content-charge-prorated-1 = Du har debiterats en engångsavgift på { $invoiceAmountDue } för att återspegla ditt abonnemangs högre pris för resten av denna faktureringsperiod ({ $productPaymentCycleOld }).
 subscriptionUpgrade-content-charge-credit = Du har fått en kredit på beloppet { $paymentProrated }.
 subscriptionUpgrade-content-starting = Från och med din nästa räkning ändras din debitering från { $paymentAmountOld } per { $productPaymentCycleOld } till { $paymentAmountNew } per { $productPaymentCycleNew }.
 # Variables:
