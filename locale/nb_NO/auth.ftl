@@ -424,15 +424,19 @@ postAddRecoveryPhone-how-protect = Slik beskytter dette kontoen din
 postAddRecoveryPhone-how-protect-plaintext = Slik beskytter dette kontoen din:
 postAddRecoveryPhone-enabled-device = Du har slått det på fra:
 postAddRecoveryPhone-action = Behandle konto
+postAddTwoStepAuthentication-preview = Kontoen din er beskyttet
 postAddTwoStepAuthentication-subject-v3 = Totrinns-verifisering er på
 postAddTwoStepAuthentication-title-2 = Du har slått på totrinns-verifisering
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postAddTwoStepAuthentication-from-device-v2 = Du ba om dette fra:
 postAddTwoStepAuthentication-action = Behandle konto
+postAddTwoStepAuthentication-code-required-v4 = Sikkerhetskoder fra autentiseringsappen din kreves nå hver gang du logger inn.
 postAddTwoStepAuthentication-recovery-method-codes = Du har også lagt til reserve-autentiseringskode som gjenopprettingsmetode.
 # Variables:
 #  $maskedPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
 postAddTwoStepAuthentication-recovery-method-phone = Du la også til { $maskedPhoneNumber } som telefonnummer for gjenoppretting.
+postAddTwoStepAuthentication-how-protects-link = Slik beskytter dette kontoen din
+postAddTwoStepAuthentication-how-protects-plaintext = Slik beskytter dette kontoen din:
 postChangeAccountRecovery-subject = Kontogjenopprettingsnøkkel endret
 postChangeAccountRecovery-title = Du endret kontogjenopprettingsnøkkelen
 postChangeAccountRecovery-body-part1 = Du har nå en ny kontogjenopprettingsnøkkel. Den forrige nøkkelen din ble slettet.
