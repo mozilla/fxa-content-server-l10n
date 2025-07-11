@@ -428,7 +428,6 @@ postAddTwoStepAuthentication-title-2 = Du slo på tostegs-autentisering
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postAddTwoStepAuthentication-from-device-v2 = Du ba om dette frå:
 postAddTwoStepAuthentication-action = Handsam kontoen
-postAddTwoStepAuthentication-code-required-v3 = Du må no bruke autentiseringsappen din kvar gong du loggar på.
 postAddTwoStepAuthentication-recovery-method-codes = Du har òg lagt til reserve-autentiseringskode som gjenopprettingsmetode.
 # Variables:
 #  $maskedPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234

@@ -426,7 +426,6 @@ postAddTwoStepAuthentication-title-2 = İki aşamalı doğrulamayı açtınız
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postAddTwoStepAuthentication-from-device-v2 = İşlemi yapan cihaz:
 postAddTwoStepAuthentication-action = Hesabı yönet
-postAddTwoStepAuthentication-code-required-v3 = Artık giriş yaparken kimlik doğrulama uygulamanızı kullanmanız gerekecek.
 postAddTwoStepAuthentication-recovery-method-codes = Ayrıca kurtarma yönteminiz olarak yedek kimlik doğrulama kodlarını da eklediniz.
 # Variables:
 #  $maskedPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234

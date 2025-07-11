@@ -428,7 +428,6 @@ postAddTwoStepAuthentication-title-2 = Du har aktiverat tvåstegsautentisering
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postAddTwoStepAuthentication-from-device-v2 = Du begärde detta från:
 postAddTwoStepAuthentication-action = Hantera konto
-postAddTwoStepAuthentication-code-required-v3 = Du måste nu använda din autentiseringsapp varje gång du loggar in.
 postAddTwoStepAuthentication-recovery-method-codes = Du har också lagt till reservautentiseringskoder som din återställningsmetod.
 # Variables:
 #  $maskedPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234

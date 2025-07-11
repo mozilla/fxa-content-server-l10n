@@ -413,7 +413,6 @@ postAddTwoStepAuthentication-title-2 = คุณเปิดการยืน�
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postAddTwoStepAuthentication-from-device-v2 = คุณขอสิ่งนี้จาก:
 postAddTwoStepAuthentication-action = จัดการบัญชี
-postAddTwoStepAuthentication-code-required-v3 = ตอนนี้คุณจะต้องใช้แอปพลิเคชันยืนยันตัวตนทุกครั้งที่คุณลงชื่อเข้าใช้
 postChangeAccountRecovery-subject = เปลี่ยนคีย์กู้คืนบัญชีแล้ว
 postChangeAccountRecovery-title = คุณเปลี่ยนคีย์กู้คืนบัญชีของคุณแล้ว
 postChangeAccountRecovery-body-part1 = ตอนนี้คุณมีคีย์กู้คืนบัญชีใหม่แล้ว คีย์ก่อนหน้าของคุณถูกลบแล้ว

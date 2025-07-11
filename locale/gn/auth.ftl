@@ -428,7 +428,6 @@ postAddTwoStepAuthentication-title-2 = Embojuruja ñemoneĩ mokõi jeku’egua
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postAddTwoStepAuthentication-from-device-v2 = Nde ejerure kóva chupe:
 postAddTwoStepAuthentication-action = Mba’ete ñangareko
-postAddTwoStepAuthentication-code-required-v3 = Ko’ág̃a eikotevẽ eiporu tembiporu’i ñemoneĩgua eike ñepyrũ vove.
 postAddTwoStepAuthentication-recovery-method-codes = Embojuaju avei ayvukuéra ñemoneĩrã jeykekogua erukua jey hag̃ua.
 # Variables:
 #  $maskedPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234

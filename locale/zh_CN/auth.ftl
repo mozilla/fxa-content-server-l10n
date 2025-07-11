@@ -423,7 +423,6 @@ postAddTwoStepAuthentication-title-2 = 您已开启两步验证
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postAddTwoStepAuthentication-from-device-v2 = 您已从以下位置请求：
 postAddTwoStepAuthentication-action = 管理账户
-postAddTwoStepAuthentication-code-required-v3 = 从现在起，您每次登录时都将需要使用身份验证应用。
 postAddTwoStepAuthentication-recovery-method-codes = 您已同时将备用验证码添加为恢复方式。
 # Variables:
 #  $maskedPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234

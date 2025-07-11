@@ -428,7 +428,6 @@ postAddTwoStepAuthentication-title-2 = Jo hawwe autentikaasje yn twa stappen yns
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postAddTwoStepAuthentication-from-device-v2 = Jo hawwe dit opfrege fan:
 postAddTwoStepAuthentication-action = Account beheare
-postAddTwoStepAuthentication-code-required-v3 = Jo moatte no jo autentikaasje-app brûke elke kear as jo jo oanmelde.
 postAddTwoStepAuthentication-recovery-method-codes = Jo hawwe ek reserve-autentikaasjekoaden tafoege as jo werstelmetoade.
 # Variables:
 #  $maskedPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234

@@ -428,7 +428,6 @@ postAddTwoStepAuthentication-title-2 = Tu activava le authentication a duo passo
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postAddTwoStepAuthentication-from-device-v2 = Tu lo ha requirite ab:
 postAddTwoStepAuthentication-action = Gerer le conto
-postAddTwoStepAuthentication-code-required-v3 = Tu ora debe usar tu app authenticator cata vice tu te connecte.
 postAddTwoStepAuthentication-recovery-method-codes = Tu alsi addeva codices de authentication de reserva como tu methodo de recuperation.
 # Variables:
 #  $maskedPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234

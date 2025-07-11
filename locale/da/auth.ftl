@@ -428,7 +428,6 @@ postAddTwoStepAuthentication-title-2 = Du har slået totrinsgodkendelse til
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postAddTwoStepAuthentication-from-device-v2 = Du har bedt om dette fra:
 postAddTwoStepAuthentication-action = Håndter konto
-postAddTwoStepAuthentication-code-required-v3 = Du skal nu bruge din godkendelsesapp, hver gang du logger ind.
 postAddTwoStepAuthentication-recovery-method-codes = Du har også tilføjet reserve-godkendelseskoder som din genoprettelsesmetode.
 # Variables:
 #  $maskedPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234

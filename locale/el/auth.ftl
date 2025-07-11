@@ -430,7 +430,6 @@ postAddTwoStepAuthentication-title-2 = Ενεργοποιήσατε την τα�
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postAddTwoStepAuthentication-from-device-v2 = Ζητήσατε αυτήν την ενέργεια από το:
 postAddTwoStepAuthentication-action = Διαχείριση λογαριασμού
-postAddTwoStepAuthentication-code-required-v3 = Θα πρέπει πλέον να χρησιμοποιείτε την εφαρμογή ελέγχου ταυτότητάς σας κάθε φορά που συνδέεστε.
 postAddTwoStepAuthentication-recovery-method-codes = Προσθέσατε επίσης τους εφεδρικούς κωδικούς ταυτοποίησης ως τη μέθοδο ανάκτησής σας.
 # Variables:
 #  $maskedPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234

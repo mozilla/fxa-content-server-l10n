@@ -426,7 +426,6 @@ postAddTwoStepAuthentication-title-2 = Bạn đã bật xác thực hai bước
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postAddTwoStepAuthentication-from-device-v2 = Bạn đã yêu cầu điều này từ:
 postAddTwoStepAuthentication-action = Quản lý tài khoản
-postAddTwoStepAuthentication-code-required-v3 = Bây giờ bạn cần phải sử dụng ứng dụng xác thực mỗi khi đăng nhập.
 postAddTwoStepAuthentication-recovery-method-codes = Bạn cũng đã thêm mã xác thực dự phòng làm phương pháp khôi phục của mình.
 # Variables:
 #  $maskedPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234

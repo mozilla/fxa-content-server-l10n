@@ -426,7 +426,6 @@ postAddTwoStepAuthentication-title-2 = 2단계 인증을 켰습니다
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postAddTwoStepAuthentication-from-device-v2 = 다음에서 요청함:
 postAddTwoStepAuthentication-action = 계정 관리
-postAddTwoStepAuthentication-code-required-v3 = 이제 로그인할 때마다 인증 앱을 사용해야 합니다.
 postAddTwoStepAuthentication-recovery-method-codes = 복구 방법으로 백업 인증 코드도 추가했습니다.
 # Variables:
 #  $maskedPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234

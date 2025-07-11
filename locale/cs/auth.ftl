@@ -428,7 +428,6 @@ postAddTwoStepAuthentication-title-2 = Zapnuli jste dvoufázové ověření
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postAddTwoStepAuthentication-from-device-v2 = Vyžádali jste si to z:
 postAddTwoStepAuthentication-action = Správa účtu
-postAddTwoStepAuthentication-code-required-v3 = Nyní je potřeba při každém přihlášení použít přihlašovací aplikaci.
 postAddTwoStepAuthentication-recovery-method-codes = Přidali jste také záložní ověřovací kódy jako metodu obnovení.
 # Variables:
 #  $maskedPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234

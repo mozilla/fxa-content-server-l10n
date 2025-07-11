@@ -426,7 +426,6 @@ postAddTwoStepAuthentication-title-2 = Bekapcsolta a kétlépcsős hitelesítés
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postAddTwoStepAuthentication-from-device-v2 = Ezt kérte a következőtől:
 postAddTwoStepAuthentication-action = Fiók kezelése
-postAddTwoStepAuthentication-code-required-v3 = Mostantól minden bejelentkezéskor a hitelesítő alkalmazást kell használnia.
 postAddTwoStepAuthentication-recovery-method-codes = Emellett tartalék hitelesítési kódokat adott meg helyreállítási módszerként.
 # Variables:
 #  $maskedPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234

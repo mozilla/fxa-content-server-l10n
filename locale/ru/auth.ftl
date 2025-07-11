@@ -429,7 +429,6 @@ postAddTwoStepAuthentication-title-2 = Вы включили двухэтапн�
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postAddTwoStepAuthentication-from-device-v2 = Вы запросили это с:
 postAddTwoStepAuthentication-action = Управление аккаунтом
-postAddTwoStepAuthentication-code-required-v3 = Теперь вам нужно использовать приложение для аутентификации каждый раз, когда вы входите в систему.
 postAddTwoStepAuthentication-recovery-method-codes = Вы также добавили резервные коды аутентификации в качестве метода восстановления.
 # Variables:
 #  $maskedPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234

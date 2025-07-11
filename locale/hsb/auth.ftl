@@ -430,7 +430,6 @@ postAddTwoStepAuthentication-title-2 = Sće dwukročelowu awtentifikaciju zmóž
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postAddTwoStepAuthentication-from-device-v2 = Sće to požadał wot:
 postAddTwoStepAuthentication-action = Konto rjadować
-postAddTwoStepAuthentication-code-required-v3 = Dyrbiće nětko swoje nałoženje za awtentifikaciju kóždy raz wužiwać, hdyž so přizjewjeće.
 postAddTwoStepAuthentication-recovery-method-codes = Sće tež kody za awtentifikaciju zawěsćenja jako swoju wobnowjensku metodu přidał.
 # Variables:
 #  $maskedPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234

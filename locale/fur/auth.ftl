@@ -427,7 +427,6 @@ postAddTwoStepAuthentication-title-2 = Tu âs ativât la autenticazion in doi pa
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postAddTwoStepAuthentication-from-device-v2 = Tu le âs domandade di:
 postAddTwoStepAuthentication-action = Gjestìs account
-postAddTwoStepAuthentication-code-required-v3 = Cumò, par jentrâ, ogni volte tu varâs di doprâ la tô aplicazion di autenticazion.
 postAddTwoStepAuthentication-recovery-method-codes = Tu âs ancje zontât i codiçs di autenticazion di backup tant che metodi di recupar.
 # Variables:
 #  $maskedPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
