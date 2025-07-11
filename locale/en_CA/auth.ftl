@@ -230,6 +230,7 @@ subscriptionCharges-content-tax = Taxes & fees: { $invoiceTaxAmount }
 ##  $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
 ##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
 
+subscriptionFirstInvoice-content-total-due = Charged { $invoiceAmountDue } on { $invoiceDateOnly }
 subscriptionFirstInvoice-content-credit = You have received an account credit of { $invoiceTotal }, which will be applied to your future invoices.
 
 ##
@@ -251,6 +252,12 @@ subscriptionUpdateBillingTry-plaintext = We’ll try your payment again over the
 subscriptionUpdatePayment = To prevent any interruption to your service, please <a data-l10n-name="updateBillingUrl">update your payment information</a> as soon as possible.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = To prevent any interruption to your service, please update your payment information as soon as possible:
+# Variables:
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-3 = For more info, visit <a data-l10n-name="supportLink">{ -brand-mozilla } Support</a>.
+# Variables:
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-plaintext = For more info, visit { -brand-mozilla } Support: { $supportUrl }.
 # Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
@@ -354,6 +361,14 @@ passwordChanged-subject = Password updated
 passwordChanged-title = Password changed successfully
 passwordChanged-description-2 = Your { -product-mozilla-account } password was successfully changed from the following device:
 passwordChangeRequired-subject = Suspicious activity detected
+passwordChangeRequired-preview = Change your password immediately
+passwordChangeRequired-title-2 = Reset your password
+passwordChangeRequired-suspicious-activity-3 = We locked your account to keep it safe from suspicious activity. You’ve been signed out of all your devices and any synced data has been deleted as a precaution.
+passwordChangeRequired-sign-in-3 = To sign back in to your account, all you need to do is reset your password.
+passwordChangeRequired-different-password-2 = <b>Important:</b> Pick a strong password that’s different from one you’ve used in the past.
+passwordChangeRequired-different-password-plaintext-2 = Important: Pick a strong password that’s different from one you’ve used in the past.
+passwordChangeRequired-action = Reset password
+passwordChangeRequired-action-plaintext = { passwordChangeRequired-action }:
 password-forgot-otp-subject = Forgot your password?
 password-forgot-otp-title = Forgot your password?
 password-forgot-otp-request = We received a request for a password change on your { -product-mozilla-account } from:
@@ -408,15 +423,19 @@ postAddRecoveryPhone-how-protect = How this protects your account
 postAddRecoveryPhone-how-protect-plaintext = How this protects your account:
 postAddRecoveryPhone-enabled-device = You enabled it from:
 postAddRecoveryPhone-action = Manage account
+postAddTwoStepAuthentication-preview = Your account is protected
 postAddTwoStepAuthentication-subject-v3 = Two-step authentication is on
 postAddTwoStepAuthentication-title-2 = You turned on two-step authentication
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postAddTwoStepAuthentication-from-device-v2 = You requested this from:
 postAddTwoStepAuthentication-action = Manage account
+postAddTwoStepAuthentication-code-required-v4 = Security codes from your authenticator app are now required every time you sign in.
 postAddTwoStepAuthentication-recovery-method-codes = You also added backup authentication codes as your recovery method.
 # Variables:
 #  $maskedPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
 postAddTwoStepAuthentication-recovery-method-phone = You also added { $maskedPhoneNumber } as your recovery phone number.
+postAddTwoStepAuthentication-how-protects-link = How this protects your account
+postAddTwoStepAuthentication-how-protects-plaintext = How this protects your account:
 postChangeAccountRecovery-subject = Account recovery key changed
 postChangeAccountRecovery-title = You changed your account recovery key
 postChangeAccountRecovery-body-part1 = You now have a new account recovery key. Your previous key was deleted.
@@ -674,6 +693,7 @@ subscriptionUpgrade-upgrade-info-2 = You have successfully upgraded to { $produc
 ## $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
+subscriptionUpgrade-content-charge-prorated-1 = You have been charged a one-time fee of { $invoiceAmountDue } to reflect your subscription’s higher price for the remainder of this billing period ({ $productPaymentCycleOld }).
 subscriptionUpgrade-content-charge-credit = You have received an account credit in the amount of { $paymentProrated }.
 subscriptionUpgrade-content-starting = Starting with your next bill, your charge will change from { $paymentAmountOld } per { $productPaymentCycleOld } to { $paymentAmountNew } per { $productPaymentCycleNew }.
 # Variables:
