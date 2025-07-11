@@ -423,15 +423,19 @@ postAddRecoveryPhone-how-protect = Kako to ščiti vaš račun
 postAddRecoveryPhone-how-protect-plaintext = Kako to ščiti vaš račun:
 postAddRecoveryPhone-enabled-device = Omogočili ste jo z naslednje naprave:
 postAddRecoveryPhone-action = Upravljanje računa
+postAddTwoStepAuthentication-preview = Vaš račun je zaščiten
 postAddTwoStepAuthentication-subject-v3 = Overitev v dveh korakih je vklopljena
 postAddTwoStepAuthentication-title-2 = Vklopili ste overitev v dveh korakih
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postAddTwoStepAuthentication-from-device-v2 = To ste zahtevali z naslednje naprave:
 postAddTwoStepAuthentication-action = Upravljanje računa
+postAddTwoStepAuthentication-code-required-v4 = Varnostne kode iz vaše aplikacije za overitev so odslej zahtevane ob vsaki prijavi.
 postAddTwoStepAuthentication-recovery-method-codes = Kot metodo za obnovitev ste dodali tudi rezervne overitvene kode.
 # Variables:
 #  $maskedPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
 postAddTwoStepAuthentication-recovery-method-phone = Kot telefonsko številko za obnovitev ste dodali tudi { $maskedPhoneNumber }.
+postAddTwoStepAuthentication-how-protects-link = Kako to ščiti vaš račun
+postAddTwoStepAuthentication-how-protects-plaintext = Kako to ščiti vaš račun:
 postChangeAccountRecovery-subject = Ključ za obnovitev računa spremenjen
 postChangeAccountRecovery-title = Spremenili ste ključ za obnovitev računa
 postChangeAccountRecovery-body-part1 = Zdaj imate nov ključ za obnovitev računa. Vaš prejšnji ključ je bil izbrisan.

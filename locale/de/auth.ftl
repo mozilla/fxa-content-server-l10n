@@ -421,15 +421,19 @@ postAddRecoveryPhone-how-protect = Wie dies Ihr Konto schützt
 postAddRecoveryPhone-how-protect-plaintext = Wie dies Ihr Konto schützt:
 postAddRecoveryPhone-enabled-device = Sie haben sie aktiviert von:
 postAddRecoveryPhone-action = Benutzerkonto verwalten
+postAddTwoStepAuthentication-preview = Ihr Konto ist geschützt
 postAddTwoStepAuthentication-subject-v3 = Zwei-Schritt-Authentifizierung ist aktiviert
 postAddTwoStepAuthentication-title-2 = Sie haben die Zwei-Schritt-Authentifizierung aktiviert
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postAddTwoStepAuthentication-from-device-v2 = Sie haben dies angefordert von:
 postAddTwoStepAuthentication-action = Benutzerkonto verwalten
+postAddTwoStepAuthentication-code-required-v4 = Sicherheitscodes aus Ihrer Authentifizierungs-App sind jetzt bei jeder Anmeldung erforderlich.
 postAddTwoStepAuthentication-recovery-method-codes = Sie haben auch Sicherungs-Authentifizierungscodes als Wiederherstellungsmethode hinzugefügt.
 # Variables:
 #  $maskedPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
 postAddTwoStepAuthentication-recovery-method-phone = Sie haben auch { $maskedPhoneNumber } als Telefonnummer zur Kontowiederherstellung hinzugefügt.
+postAddTwoStepAuthentication-how-protects-link = Wie dies Ihr Konto schützt
+postAddTwoStepAuthentication-how-protects-plaintext = Wie dies Ihr Konto schützt:
 postChangeAccountRecovery-subject = Kontowiederherstellungsschlüssel geändert
 postChangeAccountRecovery-title = Sie haben Ihren Kontowiederherstellungsschlüssel geändert
 postChangeAccountRecovery-body-part1 = Sie haben jetzt einen neuen Kontowiederherstellungsschlüssel. Ihr vorheriger Schlüssel wurde gelöscht.

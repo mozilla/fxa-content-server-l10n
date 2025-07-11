@@ -425,15 +425,19 @@ postAddRecoveryPhone-how-protect = Sut mae hyn yn diogelu eich cyfrif
 postAddRecoveryPhone-how-protect-plaintext = Sut mae hyn yn diogelu eich cyfrif:
 postAddRecoveryPhone-enabled-device = Rydych chi wedi'i alluogi o:
 postAddRecoveryPhone-action = Rheoli cyfrif
+postAddTwoStepAuthentication-preview = Mae eich cyfrif wedi'i ddiogelu
 postAddTwoStepAuthentication-subject-v3 = Mae dilysu dau gam ymlaen
 postAddTwoStepAuthentication-title-2 = Rydych chi wedi troi dilysu dau gam ymlaen
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postAddTwoStepAuthentication-from-device-v2 = Rydych wedi gofyn am hyn oddi wrth:
 postAddTwoStepAuthentication-action = Rheoli cyfrif
+postAddTwoStepAuthentication-code-required-v4 = Bellach mae angen codau diogelwch o'ch ap dilysu bob tro y byddwch chi'n mewngofnodi.
 postAddTwoStepAuthentication-recovery-method-codes = Rydych chi hefyd wedi ychwanegu codau dilysu wrth gefn fel eich dull adfer.
 # Variables:
 #  $maskedPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
 postAddTwoStepAuthentication-recovery-method-phone = Rydych hefyd wedi ychwanegu { $maskedPhoneNumber } fel eich rhif ffôn adfer.
+postAddTwoStepAuthentication-how-protects-link = Sut mae hyn yn diogelu eich cyfrif
+postAddTwoStepAuthentication-how-protects-plaintext = Sut mae hyn yn diogelu eich cyfrif:
 postChangeAccountRecovery-subject = Allwedd adfer cyfrif wedi'i newid
 postChangeAccountRecovery-title = Rydych wedi newid eich allwedd adfer cyfrif
 postChangeAccountRecovery-body-part1 = Mae gennych bellach allwedd adfer cyfrif newydd. Cafodd eich allwedd flaenorol ei dileu.

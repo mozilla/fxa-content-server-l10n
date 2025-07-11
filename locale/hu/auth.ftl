@@ -421,15 +421,19 @@ postAddRecoveryPhone-how-protect = Hogyan védi ez a fiókját
 postAddRecoveryPhone-how-protect-plaintext = Hogyan védi ez a fiókját:
 postAddRecoveryPhone-enabled-device = Innen engedélyezte:
 postAddRecoveryPhone-action = Fiók kezelése
+postAddTwoStepAuthentication-preview = A fiókja védett
 postAddTwoStepAuthentication-subject-v3 = A kétlépcsős hitelesítés be van kapcsolva
 postAddTwoStepAuthentication-title-2 = Bekapcsolta a kétlépcsős hitelesítést
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postAddTwoStepAuthentication-from-device-v2 = Ezt kérte a következőtől:
 postAddTwoStepAuthentication-action = Fiók kezelése
+postAddTwoStepAuthentication-code-required-v4 = A hitelesítő alkalmazásból származó biztonsági kódok minden bejelentkezéskor szükségesek.
 postAddTwoStepAuthentication-recovery-method-codes = Emellett tartalék hitelesítési kódokat adott meg helyreállítási módszerként.
 # Variables:
 #  $maskedPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
 postAddTwoStepAuthentication-recovery-method-phone = Ezenkívül hozzáadta a(z) { $maskedPhoneNumber } helyreállítási telefonszámot.
+postAddTwoStepAuthentication-how-protects-link = Hogyan védi ez a fiókját
+postAddTwoStepAuthentication-how-protects-plaintext = Hogyan védi ez a fiókját:
 postChangeAccountRecovery-subject = A fiók-helyreállítási kulcs megváltozott
 postChangeAccountRecovery-title = Módosította a fiók-helyreállítási kulcsát
 postChangeAccountRecovery-body-part1 = Új fiók-helyreállítási kulcsa van. Az előző kulcsát törölték.

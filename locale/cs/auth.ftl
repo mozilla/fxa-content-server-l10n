@@ -423,15 +423,19 @@ postAddRecoveryPhone-how-protect = Jak tato funkce chrání váš účet
 postAddRecoveryPhone-how-protect-plaintext = Jak tato nastavení chrání váš účet:
 postAddRecoveryPhone-enabled-device = Povolili jste ho z:
 postAddRecoveryPhone-action = Správa účtu
+postAddTwoStepAuthentication-preview = Váš účet je chráněn
 postAddTwoStepAuthentication-subject-v3 = Dvoufázové ověřování je zapnuto
 postAddTwoStepAuthentication-title-2 = Zapnuli jste dvoufázové ověření
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postAddTwoStepAuthentication-from-device-v2 = Vyžádali jste si to z:
 postAddTwoStepAuthentication-action = Správa účtu
+postAddTwoStepAuthentication-code-required-v4 = Při každém přihlášení nyní bude nutné zadat bezpečnostní kód z vaší ověřovací aplikace.
 postAddTwoStepAuthentication-recovery-method-codes = Přidali jste také záložní ověřovací kódy jako metodu obnovení.
 # Variables:
 #  $maskedPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
 postAddTwoStepAuthentication-recovery-method-phone = Také jste přidali telefonní číslo { $maskedPhoneNumber } pro obnovení.
+postAddTwoStepAuthentication-how-protects-link = Jak tato funkce chrání váš účet
+postAddTwoStepAuthentication-how-protects-plaintext = Jak tato nastavení chrání váš účet:
 postChangeAccountRecovery-subject = Obnovovací klíč k účtu byl změněn
 postChangeAccountRecovery-title = Změnili jste svůj obnovovací klíč k účtu
 postChangeAccountRecovery-body-part1 = Nyní máte nový obnovovací klíč k účtu. Váš předchozí klíč byl smazán.
