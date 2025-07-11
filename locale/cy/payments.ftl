@@ -608,7 +608,7 @@ pay-update-manage-btn = Rheoli
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Bydd y taliad nesaf ar { $date }
-sub-next-bill-due-date = Mae'r bil nesaf yn ddyledus { $date }
+sub-next-bill-due-date = Mae'r bil nesaf yn ddyledus ar { $date }
 sub-expires-on = Yn dod i ben ar: { $date }
 
 ## Routes - Subscription - PaymentUpdate

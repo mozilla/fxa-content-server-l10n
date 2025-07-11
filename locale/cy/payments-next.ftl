@@ -149,12 +149,12 @@ next-plan-details-list-price = Rhestr Prisiau
 next-plan-details-tax = Trethi a Ffioedd
 next-plan-details-total-label = Cyfanswm
 # "Unused time" refers to the remaining value of the current subscription that hasn't been used yet
-purchase-details-unused-time-label = Credyd o amser heb ei ddefnyddio
+purchase-details-unused-time-label = Credyd am amser heb ei ddefnyddio
 purchase-details-subtotal-label = Is-gyfanswm
 # "Credit applied" refers to account credit used to reduce the amount due on the invoice
-purchase-details-credit-applied-label = Credyd wedi'i gymhwyso
+purchase-details-credit-applied-label = Credyd wedi'i osod
 # "Total due" is the total that the customer owes after all credits, discounts, and taxes have been applied
-purchase-details-total-due-label = Cyfanswm sy'n ddyledus
+purchase-details-total-due-label = Y cyfanswm sy'n ddyledus
 next-plan-details-hide-button = Cuddio manylion
 next-plan-details-show-button = Dangos manylion
 next-coupon-success = Bydd eich cynllun yn adnewyddu'n awtomatig am y pris ar y rhestr.
@@ -236,8 +236,8 @@ upgrade-purchase-details-new-plan-label = Cynllun newydd
 upgrade-purchase-details-promo-code = Cod Hyrwyddo
 upgrade-purchase-details-tax-label = Trethi a Ffioedd
 # "Credit issued to account" refers to credit that will be added to the account balance that will be used toward future invoices
-upgrade-purchase-details-credit-to-account = Credyd a roddwyd i'r cyfrif
-upgrade-purchase-details-credit-will-be-applied = Bydd credyd yn cael ei gymhwyso i'ch cyfrif a'i ddefnyddio tuag at anfonebau yn y dyfodol.
+upgrade-purchase-details-credit-to-account = Credyd roddwyd i'r cyfrif
+upgrade-purchase-details-credit-will-be-applied = Bydd credyd yn cael ei osod i'ch cyfrif a'i ddefnyddio tuag at anfonebau yn y dyfodol.
 
 ## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
