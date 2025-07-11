@@ -1051,6 +1051,7 @@ tfa-enter-recovery-code-1 =
 
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
+product-promo-monitor-description-v2 = Find ud af, hvor dine private oplysninger er blevet eksponeret, og løs problemet
 # this message will only be shown to users eligible for a special promotion, based on their location (initially USA only)
 # $price - formatted for user locale, in the target market's currency (for launch, always USD)
 # /mo is 'per month'

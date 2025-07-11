@@ -153,6 +153,8 @@ purchase-details-unused-time-label = Tilgodehavende fra ubrugt tid
 purchase-details-subtotal-label = Subtotal
 # "Credit applied" refers to account credit used to reduce the amount due on the invoice
 purchase-details-credit-applied-label = Tilgodehavende anvendt
+# "Total due" is the total that the customer owes after all credits, discounts, and taxes have been applied
+purchase-details-total-due-label = Samlet udestående
 next-plan-details-hide-button = Skjul detaljer
 next-plan-details-show-button = Vis detaljer
 next-coupon-success = Din plan fornys automatisk til listeprisen.
