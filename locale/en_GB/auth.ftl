@@ -230,6 +230,7 @@ subscriptionCharges-content-tax = Taxes & fees: { $invoiceTaxAmount }
 ##  $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
 ##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
 
+subscriptionFirstInvoice-content-total-due = Charged { $invoiceAmountDue } on { $invoiceDateOnly }
 subscriptionFirstInvoice-content-credit = You have received an account credit of { $invoiceTotal }, which will be applied to your future invoices.
 
 ##
@@ -689,6 +690,7 @@ subscriptionUpgrade-upgrade-info-2 = You have successfully upgraded to { $produc
 ## $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
+subscriptionUpgrade-content-charge-prorated-1 = You have been charged a one-time fee of { $invoiceAmountDue } to reflect your subscription’s higher price for the remainder of this billing period ({ $productPaymentCycleOld }).
 subscriptionUpgrade-content-charge-credit = You have received an account credit in the amount of { $paymentProrated }.
 subscriptionUpgrade-content-starting = Starting with your next bill, your charge will change from { $paymentAmountOld } per { $productPaymentCycleOld } to { $paymentAmountNew } per { $productPaymentCycleNew }.
 # Variables:
