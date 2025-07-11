@@ -148,6 +148,8 @@ next-plan-details-header = 产品详细信息
 next-plan-details-list-price = 标价
 next-plan-details-tax = 税费
 next-plan-details-total-label = 总计
+# "Unused time" refers to the remaining value of the current subscription that hasn't been used yet
+purchase-details-unused-time-label = 转换自未使用天数的余额
 purchase-details-subtotal-label = 小计
 # "Credit applied" refers to account credit used to reduce the amount due on the invoice
 purchase-details-credit-applied-label = 使用余额
