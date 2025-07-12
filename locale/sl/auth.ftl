@@ -429,7 +429,7 @@ postAddTwoStepAuthentication-title-2 = Vklopili ste overitev v dveh korakih
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postAddTwoStepAuthentication-from-device-v2 = To ste zahtevali z naslednje naprave:
 postAddTwoStepAuthentication-action = Upravljanje računa
-postAddTwoStepAuthentication-code-required-v4 = Varnostne kode iz vaše aplikacije za overitev so odslej zahtevane ob vsaki prijavi.
+postAddTwoStepAuthentication-code-required-v4 = Varnostne kode iz vaše aplikacije za overjanje se bodo odslej zahtevale ob vsaki prijavi.
 postAddTwoStepAuthentication-recovery-method-codes = Kot metodo za obnovitev ste dodali tudi rezervne overitvene kode.
 # Variables:
 #  $maskedPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
