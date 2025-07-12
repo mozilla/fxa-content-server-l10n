@@ -423,11 +423,13 @@ postAddRecoveryPhone-how-protect = Como isto protege tu conto
 postAddRecoveryPhone-how-protect-plaintext = Como isto protege tu conto:
 postAddRecoveryPhone-enabled-device = Tu lo activava ab:
 postAddRecoveryPhone-action = Gerer le conto
+postAddTwoStepAuthentication-preview = Tu conto es protecte
 postAddTwoStepAuthentication-subject-v3 = Le authentication a duo passos es active
 postAddTwoStepAuthentication-title-2 = Tu activava le authentication a duo passos
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postAddTwoStepAuthentication-from-device-v2 = Tu lo ha requirite ab:
 postAddTwoStepAuthentication-action = Gerer le conto
+postAddTwoStepAuthentication-code-required-v4 = Le codices de securitate ab tu application de authentication es ora requirite a cata apertura de session.
 postAddTwoStepAuthentication-recovery-method-codes = Tu alsi addeva codices de authentication de reserva como tu methodo de recuperation.
 # Variables:
 #  $maskedPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
