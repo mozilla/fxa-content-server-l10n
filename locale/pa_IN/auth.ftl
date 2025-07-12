@@ -22,6 +22,16 @@ recovery-phone-signin-sms-body = { $code } ਤੁਹਾਡਾ { -brand-mozilla }
 # Messages should be limited to one segment
 # $code  - 6 digit code used to sign in with a recovery phone as backup for two-step authentication
 recovery-phone-signin-sms-short-body = { -brand-mozilla } ਕੋਡ: { $code }
+# Message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to sign in with a recovery phone as backup for account password reset
+recovery-phone-reset-password-sms-body = { $code } ਤੁਹਾਡਾ { -brand-mozilla } ਰਿਕਵਰੀ ਕੋਡ ਹੈ। ਇਸ ਦੀ ਮਿਆਦ 5 ਮਿੰਟਾਂ ਵਿੱਚ ਪੁੱਗ ਜਾਵੇਗੀ।
+# Shorter message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to sign in with a recovery phone as backup for account password reset
+recovery-phone-reset-password-short-body = { -brand-mozilla } ਕੋਡ: { $code }
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
@@ -70,6 +80,7 @@ subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = ਪਰਦੇਦਾਰੀ
 subplat-privacy-website-plaintext = { subplat-privacy }:
 account-deletion-info-block-communications = ਜੇ ਤੁਹਾਡੇ ਖਾਤੇ ਨੂੰ ਹਟਾ ਦਿੱਤਾ ਗਿਆ ਤਾਂ ਤੁਸੀਂ ਹਾਲੇ ਵੀ Mozilla Corporation ਅਤੇ Mozilla Foundation ਤੋਂ ਈਮੇਲਾਂ ਪ੍ਰਾਪਤ ਕਰਦੇ ਰਹੋਗੇ, ਜਦ ਤੱਕ ਕਿ ਤੁਸੀਂ <a data-l10n-name="unsubscribeLink">ਮੈਂਬਰੀ ਨੂੰ ਨਹੀ ਹਟਾ</a> ਦਿੰਦੇ ਹੋ।
+account-deletion-info-block-communications-plaintext = ਜੇ ਤੁਹਾਡੇ ਖਾਤੇ ਨੂੰ ਹਟਾ ਦਿੱਤਾ ਗਿਆ ਤਾਂ ਤੁਸੀਂ ਹਾਲੇ ਵੀ Mozilla Corporation ਅਤੇ Mozilla Foundation ਤੋਂ ਈਮੇਲਾਂ ਪ੍ਰਾਪਤ ਕਰਦੇ ਰਹੋਗੇ, ਜਦ ਤੱਕ ਕਿ ਤੁਸੀਂ ਮੈਂਬਰੀ ਨੂੰ ਨਹੀ ਹਟਾ ਦਿੰਦੇ ਹੋ।
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-android-badge = <img data-l10n-name="google-play-badge" alt="{ -google-play } ਉੱਤੇ { $productName } ਡਾਊਨਲੋਡ ਕਰੋ">
@@ -144,6 +155,10 @@ automated-email-reset = ਇਹ ਆਟੋਮੈਟਿਕ ਭੇਜੀ ਗਈ ਈ�
 # Variables:
 #  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
 automated-email-reset-plaintext-v2 = ਜੇ ਤੁਸੀਂ ਇਸ ਕਾਰਵਾਈ ਨੂੰ ਪਰਮਾਣਿਤ ਨਹੀਂ ਕੀਤਾ ਹੈ ਤਾਂ ਹੁਣੇ { $resetLink } ਉੱਤੇ ਜਾ ਕੇ ਆਪਣਾ ਪਾਸਵਰਡ ਬਦਲੋ
+# Followed by link to https://accounts.firefox.com/reset_password
+automated-email-reset-pwd-plaintext-v3 = ਜੇ ਤੁਸੀਂ ਇਹ ਕਾਰਵਾਈ ਨਹੀਂ ਕੀਤੀ ਤਾਂ ਫ਼ੌਰਨ ਆਪਣੇ ਪਾਸਵਰਡ ਨੂੰ ਮੁੜ-ਸੈੱਟ ਕਰੋ:
+# Followed by link to https://accounts.firefox.com/settings#two-step-authentication
+automated-email-reset-two-factor-plaintext = ਅਤੇ ਨਾਲ ਹੀ ਦੋ-ਪੜ੍ਹਾਵੀਂ ਪਰਮਾਣੀਕਰਨ ਨੂੰ ਮੁੜ-ਸੈੱਟ ਕਰੋ:
 brand-banner-message = ਕੀ ਤੁਸੀਂ ਜਾਣਦੇ ਹੋ ਕਿ ਅਸੀਂ ਆਪਣਾ ਨਾਂ { -product-firefox-accounts } ਤੋਂ ਬਦਲ ਕੇ { -product-mozilla-accounts } ਕੀਤਾ ਹੈ? <a data-l10n-name="learnMore">ਹੋਰ ਜਾਣੋ</a>
 cancellationSurvey = ਇਸ <a data-l10n-name="cancellationSurveyUrl">ਸੰਖੇਪ ਜਿਹੇ ਸਰਵੇਖਣ</a> ਨੂੰ ਪੂਰਾ ਕਰਕੇ ਸਾਨੂੰ ਸਾਡੀਆਂ ਸੇਵਾਵਾਂ ਬੇਹਤਰ ਬਣਾਉਣ ਲਈ ਸਾਡੀ ਮਦਦ ਕਰੋ।
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
@@ -219,6 +234,12 @@ subscriptionSupportContact-plaintext = { $productName } ਦੇ ਮੈਂਬਰ �
 subscriptionUpdateBillingEnsure = ਤੁਸੀਂ <a data-l10n-name="updateBillingUrl">ਇੱਥੇ</a> ਯਕੀਨੀ ਬਣਾ ਸਕਦੇ ਹੋ ਕਿ ਤੁਹਾਡਾ ਭੁਗਤਾਨ ਦਾ ਢੰਗ ਅਤੇ ਖਾਤਾ ਜਾਣਕਾਰੀ ਦਰੁਸਤ ਹੈ:
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdateBillingEnsure-plaintext = ਤੁਸੀਂ ਇੱਥੇ ਯਕੀਨੀ ਬਣਾ ਸਕਦੇ ਹੋ ਕਿ ਤੁਹਾਡਾ ਭੁਗਤਾਨ ਦਾ ਢੰਗ ਅਤੇ ਖਾਤਾ ਜਾਣਕਾਰੀ ਦਰੁਸਤ ਹੈ:
+# Variables:
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-3 = ਹੋਰ ਜਾਣਕਾਰੀ ਲਈ <a data-l10n-name="supportLink">{ -brand-mozilla } ਸਹਾਇਤਾ</a> ਨੂੰ ਵੇਖੋ।
+# Variables:
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-plaintext = ਹੋਰ ਜਾਣਕਾਰੀ ਲਈ { -brand-mozilla } ਸਹਿਯੋਗ ਨੂੰ ਵੇਖੋ: { $supportUrl }।
 # Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
