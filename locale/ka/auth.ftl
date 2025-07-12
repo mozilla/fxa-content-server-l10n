@@ -230,6 +230,7 @@ subscriptionCharges-content-tax = გადასახადები და �
 ##  $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
 ##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
 
+subscriptionFirstInvoice-content-total-due = ჩამოიჭრა { $invoiceAmountDue } თარიღზე { $invoiceDateOnly }
 subscriptionFirstInvoice-content-credit = თქვენ მიიღეთ ანგარიშზე ნაშთი { $invoiceTotal }, რომელიც გათვალისწინებული იქნება მომდევნო ზედნადებების გამოწერისას.
 
 ##
@@ -428,10 +429,13 @@ postAddTwoStepAuthentication-title-2 = ორბიჯიანი დამო�
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postAddTwoStepAuthentication-from-device-v2 = თქვენი მოთხოვნის წყარო იყო:
 postAddTwoStepAuthentication-action = ანგარიშის მართვა
+postAddTwoStepAuthentication-code-required-v4 = შესვლის დასამოწმებელი პროგრამიდან კოდები ახლა უკვე მოითხოვება ყოველი შესვლისას.
 postAddTwoStepAuthentication-recovery-method-codes = აგრეთვე დამატებული გაქვთ შესვლის სამარქაფო კოდები აღდგენის საშუალებად.
 # Variables:
 #  $maskedPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
 postAddTwoStepAuthentication-recovery-method-phone = თქვენ დაამატეთ { $maskedPhoneNumber } ნომერი თქვენს აღდგენის ტელეფონად
+postAddTwoStepAuthentication-how-protects-link = როგორ იცავს ეს თქვენს ანგარიშს
+postAddTwoStepAuthentication-how-protects-plaintext = როგორ იცავს ეს თქვენს ანგარიშს:
 postChangeAccountRecovery-subject = ანგარიშის აღდგენის გასაღები შეიცვალა
 postChangeAccountRecovery-title = თქვენ შეცვალეთ ანგარიშის აღდგენის გასაღები
 postChangeAccountRecovery-body-part1 = თქვენ უკვე გაქვთ ანგარიშის აღდგენის ახალი გასაღები. წინა გასაღები წაშლილია.
@@ -689,6 +693,7 @@ subscriptionUpgrade-upgrade-info-2 = წარმატებით განა
 ## $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
+subscriptionUpgrade-content-charge-prorated-1 = თქვენ ერთჯერადად ჩამოგეჭრათ გადასახადი { $invoiceAmountDue } გამოწერის უფრო მაღალი საფასურის ასახვისთვის ანგარიშსწორების დარჩენილ ვადაში ({ $productPaymentCycleOld }).
 subscriptionUpgrade-content-charge-credit = თქვენ მიიღეთ ნაშთი ანგარიშზე ოდენობით { $paymentProrated }.
 subscriptionUpgrade-content-starting = შემდეგი გადახდიდან ჩამოსაჭრელი თანხა { $paymentAmountOld } თითოეული { $productPaymentCycleOld } მონაკვეთისთვის შეიცვლება და გახდება { $paymentAmountNew } ყოველი { $productPaymentCycleNew } შუალედისთვის.
 # Variables:
