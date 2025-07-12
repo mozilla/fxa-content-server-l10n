@@ -432,6 +432,8 @@ postAddTwoStepAuthentication-recovery-method-codes = Tu alsi addeva codices de a
 # Variables:
 #  $maskedPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
 postAddTwoStepAuthentication-recovery-method-phone = Tu alsi addeva { $maskedPhoneNumber } como tu numero de telephono de recuperation.
+postAddTwoStepAuthentication-how-protects-link = Como isto protege tu conto
+postAddTwoStepAuthentication-how-protects-plaintext = Como isto protege tu conto:
 postChangeAccountRecovery-subject = Clave de recuperation del conto cambiate
 postChangeAccountRecovery-title = Tu cambiava tu clave de recuperation del conto
 postChangeAccountRecovery-body-part1 = Tu ora ha un nove clave de recuperation del conto.Tu clave precedente era delite.
