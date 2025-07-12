@@ -231,6 +231,7 @@ subscriptionCharges-content-tax = Skattar og gebyr: { $invoiceTaxAmount }
 ##  $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
 ##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
 
+subscriptionFirstInvoice-content-total-due = Belasta { $invoiceAmountDue } den { $invoiceDateOnly }
 subscriptionFirstInvoice-content-credit = Du har fått ein kontokreditt på { $invoiceTotal }, som vil bli brukt på dei framtidige fakturaane dine.
 
 ##
@@ -423,6 +424,7 @@ postAddRecoveryPhone-how-protect = Korleis dette vernar kontoen din
 postAddRecoveryPhone-how-protect-plaintext = Korleis dette vernar kontoen din:
 postAddRecoveryPhone-enabled-device = Du har aktivert det frå:
 postAddRecoveryPhone-action = Handsam kontoen
+postAddTwoStepAuthentication-preview = Kontoen din er beskytta
 postAddTwoStepAuthentication-subject-v3 = Tostegs-autentisering er på
 postAddTwoStepAuthentication-title-2 = Du slo på tostegs-autentisering
 # After the colon, there is a description of the device that the user used to enable two-step authentication
@@ -432,6 +434,8 @@ postAddTwoStepAuthentication-recovery-method-codes = Du har òg lagt til reserve
 # Variables:
 #  $maskedPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
 postAddTwoStepAuthentication-recovery-method-phone = Du la òg til { $maskedPhoneNumber } som telefonnummer for gjenoppretting.
+postAddTwoStepAuthentication-how-protects-link = Korleis dette vernar kontoen din
+postAddTwoStepAuthentication-how-protects-plaintext = Korleis dette vernar kontoen din:
 postChangeAccountRecovery-subject = Kontogjenopprettingsnøkkel endra
 postChangeAccountRecovery-title = Du endra kontogjenopprettingsnøkkelen
 postChangeAccountRecovery-body-part1 = Du har no ein ny kontogjenopprettingsnøkkel. Den førre nøkkelen din vart sletta.

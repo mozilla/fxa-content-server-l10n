@@ -49,6 +49,7 @@ intent-expired-card-error = Det ser ut som om at bankkortet ditt har gått ut. P
 intent-payment-error-try-again = Hmm. Det oppstod eit problem med å godkjenne betalinga di. Prøv igjen eller kontakt kortutskrivaren din.
 intent-payment-error-get-in-touch = Hmm. Det oppstod eit problem med å godkjenne betalinga di. Ta kontakt med kortutskrivaren din.
 intent-payment-error-generic = Det oppstod ein uventa feil under behandling av betalinga. Prøv igjen.
+intent-payment-error-insufficient-funds = Det ser ut som om kortet ditt ikkje har nok pengar. Prøv eit anna kort.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
