@@ -422,6 +422,7 @@ postAddRecoveryPhone-how-protect = როგორ იცავს ეს თქ
 postAddRecoveryPhone-how-protect-plaintext = როგორ იცავს ეს თქვენს ანგარიშს:
 postAddRecoveryPhone-enabled-device = ჩაირთო აქედან:
 postAddRecoveryPhone-action = ანგარიშის მართვა
+postAddTwoStepAuthentication-preview = თქვენი ანგარიში დაცულია
 postAddTwoStepAuthentication-subject-v3 = ორბიჯიანი დამოწმება ჩართულია
 postAddTwoStepAuthentication-title-2 = ორბიჯიანი დამოწმება ჩაირთო
 # After the colon, there is a description of the device that the user used to enable two-step authentication

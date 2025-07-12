@@ -52,6 +52,7 @@ intent-expired-card-error = როგორც ჩანს, თქვენი 
 intent-payment-error-try-again = ჰმ. რაღაც ხარვეზი იყო, თქვენი გადახდის დამოწმებისას. სცადეთ კვლავ ან დაუკავშირდით თქვენი ბარათის გამომშვებს.
 intent-payment-error-get-in-touch = ჰმ. რაღაც ხარვეზი იყო, გადახდის დამოწმებისას. დაუკავშირდით თქვენი ბარათის გამომშვებს.
 intent-payment-error-generic = მოულოდნელი შეცდომა წარმოიშვა გადახდის დამუშავებისას. გთხოვთ, სცადოთ ხელახლა.
+intent-payment-error-insufficient-funds = როგორც ჩანს, თქვენს საკრედიტო ბარათზე არასაკმარისი თანხაა. სცადეთ სხვა ბარათი.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -150,6 +151,10 @@ next-plan-details-header = პროდუქტის შესახებ
 next-plan-details-list-price = ფასების ნუსხა
 next-plan-details-tax = გადასახადები და მოსაკრებლები
 next-plan-details-total-label = სულ
+# "Unused time" refers to the remaining value of the current subscription that hasn't been used yet
+purchase-details-unused-time-label = დანარიცხი დროის გამოუყენებელი მონაკვეთიდან
+# "Credit applied" refers to account credit used to reduce the amount due on the invoice
+purchase-details-credit-applied-label = დანარიცხი ასახულია
 next-plan-details-hide-button = მოკლედ ჩვენება
 next-plan-details-show-button = ვრცლად ჩვენება
 next-coupon-success = თქვენი გადახდის გეგმა თავისით განახლდება ფასების ნუსხის მიხედვით.
@@ -230,6 +235,9 @@ upgrade-purchase-details-current-plan-label = მიმდინარე გე
 upgrade-purchase-details-new-plan-label = ახალი გეგმა
 upgrade-purchase-details-promo-code = ფასდაკლების კოდი
 upgrade-purchase-details-tax-label = გადასახადები და მოსაკრებლები
+# "Credit issued to account" refers to credit that will be added to the account balance that will be used toward future invoices
+upgrade-purchase-details-credit-to-account = დანარიცხი ანგარიშზე
+upgrade-purchase-details-credit-will-be-applied = დანარიცხი ანგარიშზე აისახება და გამოყენებული იქნება სამომავლო ანგარიშსწორებისთვის.
 
 ## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
