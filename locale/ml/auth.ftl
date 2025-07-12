@@ -152,6 +152,7 @@ codes-create-plaintext = { lowRecoveryCodes-action-2 }:
 # Variables:
 # $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 newDeviceLogin-subject = { $clientName } ലോട്ടുള്ള പുതിയ പ്രവേശനം
+newDeviceLogin-subjectForMozillaAccount = { -product-mozilla-account }-ലേക്കൊരു പുതിയ പ്രവേശനം
 newDeviceLogin-title-3 = താങ്ങളുടെ { -product-mozilla-account } അക്കൗണ്ടുവഴി പ്രവേശനമുണ്ടായി
 # The "Not you?" question is asking whether the recipient of the email is the
 # person who performed the action that triggered the email.
