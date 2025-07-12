@@ -153,8 +153,11 @@ next-plan-details-tax = გადასახადები და მოსა
 next-plan-details-total-label = სულ
 # "Unused time" refers to the remaining value of the current subscription that hasn't been used yet
 purchase-details-unused-time-label = დანარიცხი დროის გამოუყენებელი მონაკვეთიდან
+purchase-details-subtotal-label = შუალედური ჯამი
 # "Credit applied" refers to account credit used to reduce the amount due on the invoice
 purchase-details-credit-applied-label = დანარიცხი ასახულია
+# "Total due" is the total that the customer owes after all credits, discounts, and taxes have been applied
+purchase-details-total-due-label = სულ შესატანი
 next-plan-details-hide-button = მოკლედ ჩვენება
 next-plan-details-show-button = ვრცლად ჩვენება
 next-coupon-success = თქვენი გადახდის გეგმა თავისით განახლდება ფასების ნუსხის მიხედვით.
