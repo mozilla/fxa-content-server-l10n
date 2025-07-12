@@ -106,6 +106,8 @@ ios-download-plaintext = { $productName } را از App Store بارگیری ن�
 another-device-plaintext = { $productName } را روی دستگاه دیگری نصب نمایید:
 automated-email-change-2 = اگر این اقدام را انجام نداده‌اید، <a data-l10n-name="passwordChangeLink">گذرواژه خود را تغییر دهید</a>.
 automated-email-support = برای اطلاعات بیشتر، به <a data-l10n-name="supportLink">پشتیبانی { -brand-mozilla }</a> مراجعه کنید.
+# supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+automated-email-no-action = { automated-email-no-action-plaintext } برای اطلاعات بیشتر، به <a data-l10n-name="supportLink">{ -brand-mozilla } پشتیبانی</a> مراجعه کنید.
 change-password-plaintext = اگر شما مشکوک هستید که فرد دیگری قصد ورود به حساب‌کاربری شما را دارد، لطفا کلمه عبور خود را تغییر دهید.
 manage-account = مدیریت حساب‌کاربری
 manage-account-plaintext = { manage-account }:
