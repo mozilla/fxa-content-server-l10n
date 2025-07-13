@@ -425,15 +425,19 @@ postAddRecoveryPhone-how-protect = Πώς προστατεύεται ο λογα
 postAddRecoveryPhone-how-protect-plaintext = Πώς προστατεύεται ο λογαριασμός σας:
 postAddRecoveryPhone-enabled-device = Το ενεργοποιήσατε από:
 postAddRecoveryPhone-action = Διαχείριση λογαριασμού
+postAddTwoStepAuthentication-preview = Ο λογαριασμός σας προστατεύεται
 postAddTwoStepAuthentication-subject-v3 = Η ταυτοποίηση δύο παραγόντων είναι ενεργή
 postAddTwoStepAuthentication-title-2 = Ενεργοποιήσατε την ταυτοποίηση δύο παραγόντων
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postAddTwoStepAuthentication-from-device-v2 = Ζητήσατε αυτήν την ενέργεια από το:
 postAddTwoStepAuthentication-action = Διαχείριση λογαριασμού
+postAddTwoStepAuthentication-code-required-v4 = Απαιτούνται πλέον κωδικοί ασφαλείας από την εφαρμογή ελέγχου ταυτότητάς σας σε κάθε σύνδεση.
 postAddTwoStepAuthentication-recovery-method-codes = Προσθέσατε επίσης τους εφεδρικούς κωδικούς ταυτοποίησης ως τη μέθοδο ανάκτησής σας.
 # Variables:
 #  $maskedPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
 postAddTwoStepAuthentication-recovery-method-phone = Προσθέσατε επίσης το { $maskedPhoneNumber } ως τον αριθμό τηλεφώνου ανάκτησής σας.
+postAddTwoStepAuthentication-how-protects-link = Πώς προστατεύεται ο λογαριασμός σας
+postAddTwoStepAuthentication-how-protects-plaintext = Πώς προστατεύεται ο λογαριασμός σας:
 postChangeAccountRecovery-subject = Το κλειδί ανάκτησης λογαριασμού άλλαξε
 postChangeAccountRecovery-title = Αλλάξατε το κλειδί ανάκτησης του λογαριασμού σας
 postChangeAccountRecovery-body-part1 = Διαθέτετε πλέον ένα νέο κλειδί ανάκτησης λογαριασμού. Το προηγούμενο κλειδί σας έχει διαγραφεί.
