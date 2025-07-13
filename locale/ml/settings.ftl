@@ -749,6 +749,8 @@ oauth-error-1000 = എന്തോ പന്തികേട് സംഭവി�
 
 ## Connect Another Device page
 
+# A "success" message visible to users who verified via sign-in
+connect-another-device-signin-confirmed-banner = പ്രവേശനം തീൎച്ചപ്പെടുത്തി
 # A link for the user to sign in to the current Firefox browser, preceded by a message prompting the user to sign in so as to complete the device sync setup
 connect-another-device-signin-link = പ്രവേശിക്കുക
 # This link cancels the process of connecting another device, and takes the user back to Account Settings
@@ -904,6 +906,8 @@ reset-password-confirmed-cta = { $serviceName }-ലോട്ടു് തുട�
 
 # This is a label that precedes any error which could arise from trying to validate the user's signin
 error-label = പിഴവു്:
+# This is a message that is shown to users along with a "Loading" spinner while the site tries to check their signin
+validating-signin = പ്രവേശനം തീൎച്ചപ്പെടുത്തുന്നു…
 
 ## Signin page
 
@@ -918,6 +922,7 @@ signin-password-button-label = ഒളിവാക്കു്
 ## they can click "report it to us" if they did not attempt to sign in.
 ## This will be the page shown to users to block the sign in and report it.
 
+report-signin-header = അംഗീകൃതമല്ലാത്ത പ്രവേശനം റിപ്പോർട്ട് ചെയ്യണോ?
 back = തിരികെ
 
 ## SigninPushCode page
@@ -981,6 +986,7 @@ signin-totp-code-recovery-code-link = സങ്കേതം ഇടുന്ന�
 ## Signin Unblock Page
 ## Page shown when signin has been blocked by rate limiting (too many requests)
 
+signin-unblock-header = ഈ പ്രവേശനം അംഗീകരിക്കുക
 signin-unblock-submit-button = തുടരുക
 
 ## ConfirmSignupCode page

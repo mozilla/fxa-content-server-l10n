@@ -61,6 +61,7 @@ body-android-badge = <img data-l10n-name="google-play-badge" alt="Download { $pr
 automated-email-change-plaintext-2 = താങ്ങൾ ഈ നടപടി എടുത്തില്ലെങ്കിൽ ഉടൻ തന്നെ താങ്ങളുടെ ഒളിവാക്കു് മാറ്റുക
 #  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-support-plaintext = കൂടുതൽ വിവരത്തിനുവേണ്ടി { -brand-mozilla } പിന്തുണയിലേക്കു് ചെല്ലുക:
+automated-email-inactive-account = ഇതൊരു താനെവരുന്ന ഇ-തപാലാണു്. താങ്ങളുടെ { -product-mozilla-account } അക്കൗണ്ടിൽ ഒടുക്കത്തെ പ്രവേശനം 2 കൊല്ലം മുമ്പുണ്ടായതുകൊണ്ടാണു താങ്ങൾക്കു് ഈ ഇതപാൽ കിട്ടുന്നതു്.
 # supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-no-action = { automated-email-no-action-plaintext } കൂടുതൽ വിവരത്തിനുവേണ്ടി <a data-l10n-name="supportLink"> { -brand-mozilla } പിന്തുണയിലേക്കു് ചെല്ലുക.</a>
 # This string is shown on its own line, after automatedEmailRecoveryKey-notyou-delete-key-plaintext and its URL
@@ -234,6 +235,10 @@ unblockCode-prompt = അതെ എങ്കില്‍, ഇതാ നിങ്�
 unblockCode-report-plaintext = ഇല്ലെങ്കിൽ, അത് റിപ്പോർട്ടുചെയ്ത് നുഴഞ്ഞുകയറ്റക്കാരെ തടയാന്‍ ഞങ്ങളെ സഹായിക്കൂ.
 verificationReminderSecond-action-2 = അക്കൗണ്ടു് ഉറപ്പിക്കുക
 verify-action-2 = അക്കൗണ്ടു് ഉറപ്പിക്കുക
+verifyLogin-subject-2 = പ്രവേശനം തീൎച്ചപ്പെടുത്തുക
 verifyLogin-action = പ്രവേശനം ഉറപ്പിക്കുക
+# Variables:
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-subject-line-2 = { $serviceName }-ലോട്ടുള്ള പ്രവേശനം അനുവദിക്കുക
 verifyPrimary-action-2 = ഇതപാൽ ഉറപ്പിക്കുക
 verifySecondaryCode-action-2 = ഇതപാൽ ഉറപ്പിക്കുക
