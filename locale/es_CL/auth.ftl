@@ -230,6 +230,7 @@ subscriptionCharges-content-tax = Impuestos y cargos: { $invoiceTaxAmount }
 ##  $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
 ##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
 
+subscriptionFirstInvoice-content-total-due = Se cobró { $invoiceAmountDue } el { $invoiceDateOnly }
 subscriptionFirstInvoice-content-credit = Haz recibido un crédito en tu cuenta de { $invoiceTotal }, que se aplicará a tus futuras facturas.
 
 ##
@@ -422,15 +423,19 @@ postAddRecoveryPhone-how-protect = Cómo esto protege tu cuenta
 postAddRecoveryPhone-how-protect-plaintext = Cómo esto protege tu cuenta:
 postAddRecoveryPhone-enabled-device = Lo activaste desde:
 postAddRecoveryPhone-action = Administrar cuenta
+postAddTwoStepAuthentication-preview = Tu cuenta está protegida
 postAddTwoStepAuthentication-subject-v3 = La autenticación en dos pasos está activada
 postAddTwoStepAuthentication-title-2 = Activaste la autenticación en dos pasos
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postAddTwoStepAuthentication-from-device-v2 = Solicitaste este formulario:
 postAddTwoStepAuthentication-action = Administrar cuenta
+postAddTwoStepAuthentication-code-required-v4 = Los códigos de seguridad de tu aplicación de autenticación ahora son requeridos cada vez que te conectas.
 postAddTwoStepAuthentication-recovery-method-codes = También añadiste códigos de autenticación de respaldo como método de recuperación.
 # Variables:
 #  $maskedPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
 postAddTwoStepAuthentication-recovery-method-phone = También añadiste { $maskedPhoneNumber } como tu número de teléfono de recuperación.
+postAddTwoStepAuthentication-how-protects-link = Cómo esto protege tu cuenta
+postAddTwoStepAuthentication-how-protects-plaintext = Cómo esto protege tu cuenta:
 postChangeAccountRecovery-subject = Clave de recuperación de cuenta cambiada
 postChangeAccountRecovery-title = Cambiaste tu clave de recuperación de cuenta
 postChangeAccountRecovery-body-part1 = Ahora tienes una nueva clave de recuperación de cuenta. Tu clave anterior fue eliminada.
@@ -688,6 +693,7 @@ subscriptionUpgrade-upgrade-info-2 = Te haz actualizado exitosamente a { $produc
 ## $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
+subscriptionUpgrade-content-charge-prorated-1 = Se te cobró una tarifa única de { $invoiceAmountDue } para reflejar el precio más alto de tu suscripción por el resto de este período de facturación ({ $productPaymentCycleOld }).
 subscriptionUpgrade-content-charge-credit = Recibiste un crédito en la cuenta por la cantidad de { $paymentProrated }.
 subscriptionUpgrade-content-starting = A partir de tu próxima factura, tu cargo cambiará de { $paymentAmountOld } por { $productPaymentCycleOld } a { $paymentAmountNew } por { $productPaymentCycleNew }.
 # Variables:

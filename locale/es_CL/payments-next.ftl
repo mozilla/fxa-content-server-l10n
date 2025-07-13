@@ -49,6 +49,7 @@ intent-expired-card-error = Parece que tu tarjeta de crédito está vencida. Pru
 intent-payment-error-try-again = Hmm. Hubo un problema al autorizar tu pago. Vuelve a intentarlo o ponte en contacto con el emisor de tu tarjeta.
 intent-payment-error-get-in-touch = Hmm. Hubo un problema al autorizar tu pago. Ponte en contacto con el emisor de tu tarjeta.
 intent-payment-error-generic = Ha ocurrido un error inesperado mientras se procesaba tu pago, por favor vuelve a intentarlo.
+intent-payment-error-insufficient-funds = Parece que tu tarjeta de crédito no tiene suficientes fondos. Prueba con otra.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -147,6 +148,13 @@ next-plan-details-header = Detalles del producto
 next-plan-details-list-price = Precio de lista
 next-plan-details-tax = Impuestos y comisiones
 next-plan-details-total-label = Total
+# "Unused time" refers to the remaining value of the current subscription that hasn't been used yet
+purchase-details-unused-time-label = Crédito por tiempo no utilizado
+purchase-details-subtotal-label = Subtotal
+# "Credit applied" refers to account credit used to reduce the amount due on the invoice
+purchase-details-credit-applied-label = Crédito aplicado
+# "Total due" is the total that the customer owes after all credits, discounts, and taxes have been applied
+purchase-details-total-due-label = Total adeudado
 next-plan-details-hide-button = Ocultar detalles
 next-plan-details-show-button = Mostrar detalles
 next-coupon-success = Su plan se renovará automáticamente al precio de lista.
@@ -227,6 +235,9 @@ upgrade-purchase-details-current-plan-label = Plan actual
 upgrade-purchase-details-new-plan-label = Nuevo plan
 upgrade-purchase-details-promo-code = Código promocional
 upgrade-purchase-details-tax-label = Impuestos y comisiones
+# "Credit issued to account" refers to credit that will be added to the account balance that will be used toward future invoices
+upgrade-purchase-details-credit-to-account = Crédito emitido para la cuenta
+upgrade-purchase-details-credit-will-be-applied = Se aplicará el crédito a tu cuenta y se utilizará para futuras facturas.
 
 ## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
