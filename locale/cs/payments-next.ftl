@@ -149,12 +149,12 @@ next-plan-details-list-price = Ceník
 next-plan-details-tax = Daně a poplatky
 next-plan-details-total-label = Celkem
 # "Unused time" refers to the remaining value of the current subscription that hasn't been used yet
-purchase-details-unused-time-label = Zápočet z nevyužitého času
+purchase-details-unused-time-label = Kredit z nevyužitého času
 purchase-details-subtotal-label = Mezisoučet
 # "Credit applied" refers to account credit used to reduce the amount due on the invoice
-purchase-details-credit-applied-label = Poděkování bylo připsáno
+purchase-details-credit-applied-label = Použitý kredit
 # "Total due" is the total that the customer owes after all credits, discounts, and taxes have been applied
-purchase-details-total-due-label = Celkem splaceno
+purchase-details-total-due-label = Celková splatná částka
 next-plan-details-hide-button = Skrýt podrobnosti
 next-plan-details-show-button = Zobrazit podrobnosti
 next-coupon-success = Váš plán se automaticky obnoví za běžnou cenu podle ceníku.

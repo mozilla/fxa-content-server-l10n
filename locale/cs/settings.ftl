@@ -151,7 +151,7 @@ signup-new-password-label =
 signup-confirm-password-label =
     .label = Zopakujte heslo
 signup-submit-button = Vytvořit účet
-post-verify-set-password-submit-button = Spusťte synchronizaci
+post-verify-set-password-submit-button = Spustit synchronizaci
 form-reset-password-with-balloon-new-password =
     .label = Nové heslo
 form-reset-password-with-balloon-confirm-password =
@@ -1585,7 +1585,7 @@ pair-unsupported-message = Použili jste systémový fotoaparát? Párování je
 
 # password to complete their sign-in when they want to login to a service requiring it.
 
-set-password-heading-v2 = Vytvořit heslo pro synchronizaci
+set-password-heading-v2 = Pro potřeby synchronizace si vytvořte heslo
 # "This" refers to the heading, "Create password to sync"
 set-password-info-v2 = Vaše data budou zašifrována. Musí se lišit od hesla k účtu { -brand-google } nebo { -brand-apple }.
 
