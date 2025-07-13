@@ -421,15 +421,19 @@ postAddRecoveryPhone-how-protect = İki aşamalı kimlik doğrulama, hesabınız
 postAddRecoveryPhone-how-protect-plaintext = İki aşamalı kimlik doğrulama, hesabınızı nasıl korur?
 postAddRecoveryPhone-enabled-device = Bu cihazdan etkinleştirdiniz:
 postAddRecoveryPhone-action = Hesabı yönet
+postAddTwoStepAuthentication-preview = Hesabınız korunuyor
 postAddTwoStepAuthentication-subject-v3 = İki aşamalı doğrulama açık
 postAddTwoStepAuthentication-title-2 = İki aşamalı doğrulamayı açtınız
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postAddTwoStepAuthentication-from-device-v2 = İşlemi yapan cihaz:
 postAddTwoStepAuthentication-action = Hesabı yönet
+postAddTwoStepAuthentication-code-required-v4 = Artık her girişinizde kimlik doğrulama uygulamanızdaki güvenlik kodları gerekecektir.
 postAddTwoStepAuthentication-recovery-method-codes = Ayrıca kurtarma yönteminiz olarak yedek kimlik doğrulama kodlarını da eklediniz.
 # Variables:
 #  $maskedPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
 postAddTwoStepAuthentication-recovery-method-phone = Ayrıca { $maskedPhoneNumber } numarasını kurtarma telefon numaranız olarak eklediniz.
+postAddTwoStepAuthentication-how-protects-link = İki aşamalı kimlik doğrulama, hesabınızı nasıl korur?
+postAddTwoStepAuthentication-how-protects-plaintext = İki aşamalı kimlik doğrulama, hesabınızı nasıl korur?
 postChangeAccountRecovery-subject = Hesap kurtarma anahtarı değiştirildi
 postChangeAccountRecovery-title = Hesap kurtarma anahtarınızı değiştirdiniz
 postChangeAccountRecovery-body-part1 = Artık yeni bir hesap kurtarma anahtarınız var. Önceki anahtarınız silindi.
