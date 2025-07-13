@@ -430,6 +430,7 @@ postAddTwoStepAuthentication-title-2 = Du slo på tostegs-autentisering
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postAddTwoStepAuthentication-from-device-v2 = Du ba om dette frå:
 postAddTwoStepAuthentication-action = Handsam kontoen
+postAddTwoStepAuthentication-code-required-v4 = Tryggingskodar frå autentiseringsappen din er påkravd no kvar gong du loggar på.
 postAddTwoStepAuthentication-recovery-method-codes = Du har òg lagt til reserve-autentiseringskode som gjenopprettingsmetode.
 # Variables:
 #  $maskedPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
@@ -693,6 +694,7 @@ subscriptionUpgrade-upgrade-info-2 = Du har oppgradert til { $productName }.
 ## $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
+subscriptionUpgrade-content-charge-prorated-1 = Du har vorte belasta med eit eingongsgebyr på { $invoiceAmountDue } for å spegle den høgare prisen for abonnementet for resten av denne faktureringsperioden ({ $productPaymentCycleOld }).
 subscriptionUpgrade-content-charge-credit = Du har fått ein kontokreditt på beløpet { $paymentProrated }.
 subscriptionUpgrade-content-starting = Frå og med den neste fakturaen din vil kostnaden endrast frå { $paymentAmountOld } per { $productPaymentCycleOld } til { $paymentAmountNew } per { $productPaymentCycleNew }.
 # Variables:

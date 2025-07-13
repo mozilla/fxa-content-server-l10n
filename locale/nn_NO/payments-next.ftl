@@ -148,6 +148,13 @@ next-plan-details-header = Produktdetaljar
 next-plan-details-list-price = Listepris
 next-plan-details-tax = Skattar og avgifter
 next-plan-details-total-label = Totalt
+# "Unused time" refers to the remaining value of the current subscription that hasn't been used yet
+purchase-details-unused-time-label = Kreditt frå ubrukt tid
+purchase-details-subtotal-label = Delsum
+# "Credit applied" refers to account credit used to reduce the amount due on the invoice
+purchase-details-credit-applied-label = Kreditt brukt
+# "Total due" is the total that the customer owes after all credits, discounts, and taxes have been applied
+purchase-details-total-due-label = Totalt uteståande
 next-plan-details-hide-button = Gøym detaljar
 next-plan-details-show-button = Vis detaljar
 next-coupon-success = Planen din vert fornya automatisk til listeprisen.
