@@ -435,7 +435,7 @@ postAddTwoStepAuthentication-recovery-method-codes = Vous avez également ajout�
 #  $maskedPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
 postAddTwoStepAuthentication-recovery-method-phone = Vous avez également ajouté { $maskedPhoneNumber } comme numéro de téléphone de secours.
 postAddTwoStepAuthentication-how-protects-link = En quoi cela protège votre compte
-postAddTwoStepAuthentication-how-protects-plaintext = Comment cela protège votre compte :
+postAddTwoStepAuthentication-how-protects-plaintext = En quoi cela protège votre compte :
 postChangeAccountRecovery-subject = La clé de récupération du compte a été modifiée
 postChangeAccountRecovery-title = Vous avez modifié la clé de récupération de votre compte
 postChangeAccountRecovery-body-part1 = Vous disposez maintenant d’une nouvelle clé de récupération de compte. Votre clé précédente a été supprimée.
