@@ -1048,6 +1048,11 @@ tfa-enter-recovery-code-1 =
 
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
+product-promo-monitor-description-v2 = Dowiedz się, gdzie wyciekły Twoje dane osobowe i je odzyskaj
+# this message will only be shown to users eligible for a special promotion, based on their location (initially USA only)
+# $price - formatted for user locale, in the target market's currency (for launch, always USD)
+# /mo is 'per month'
+product-promo-monitor-special-promo-description = Za { $price } na miesiąc oszczędzaj na { -product-mozilla-vpn-short }, ochronie przed brokerami danych { -product-mozilla-monitor-short } i nieograniczonych maskach dla adresów e-mail { -product-firefox-relay-short }.
 # Links out to the Monitor site
 product-promo-monitor-cta = Przeszukaj bezpłatnie
 
@@ -1758,6 +1763,10 @@ signin-password-button-label = Hasło
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-desktop-relay = { -brand-firefox } po zalogowaniu spróbuje odesłać Cię do użycia maski dla adresu e-mail.
 signin-code-expired-error = Kod wygasł. Zaloguj się ponownie.
+signin-account-locked-banner-heading = Zmień hasło
+signin-account-locked-banner-description = Zablokowaliśmy Twoje konto, aby chronić je przed podejrzaną aktywnością.
+# This link points to https://accounts.firefox.com/reset_password
+signin-account-locked-banner-link = Zmień hasło, aby się zalogować
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
@@ -1969,6 +1978,7 @@ confirm-signup-code-desktop-relay = { -brand-firefox } po zalogowaniu spróbuje 
 signup-heading-v2 = Utwórz hasło
 signup-relay-info = Hasło jest potrzebne do bezpiecznego zarządzania zamaskowanymi adresami e-mail i do dostępu do narzędzi bezpieczeństwa { -brand-mozilla(case: "gen") }.
 signup-sync-info = Synchronizuj hasła, zakładki i inne dane wszędzie tam, gdzie używasz { -brand-firefox(case: "acc") }.
+signup-sync-info-with-payment = Synchronizuj hasła, metody płatności, zakładki i inne dane wszędzie tam, gdzie używasz { -brand-firefox(case: "acc") }.
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = Dlaczego muszę założyć to konto?
 # Link included in a dismissible info banner that is only displayed to Pocket clients
@@ -1981,11 +1991,11 @@ signup-change-email-link = Zmień adres e-mail
 ## Shown to users when they finish confirming their account through Sync
 
 signup-confirmed-sync-header = Synchronizacja jest włączona
-signup-confirmed-sync-success-banner = Potwierdzono { -product-mozilla-account(capitalization: "lower") }
+signup-confirmed-sync-success-banner = Potwierdzono { -product-mozilla-account(case: "acc", capitalization: "lower") }
 signup-confirmed-sync-button = Zacznij przeglądać Internet
 # Shown when payment methods are also synced
-signup-confirmed-sync-description-with-payment-v2 = Twoje hasła, metody płatności, adresy, zakładki, historia i inne dane mogą być synchronizowane wszędzie tam, gdzie używasz { -brand-firefox(case: "acc") }.
-signup-confirmed-sync-description-v2 = Twoje hasła, adresy, zakładki, historia i inne dane mogą być synchronizowane wszędzie tam, gdzie używasz { -brand-firefox(case: "acc") }.
-signup-confirmed-sync-add-device-link = Dodaj nowe urządzenie
+signup-confirmed-sync-description-with-payment-v2 = Twoje hasła, metody płatności, adresy, zakładki, historia i inne dane mogą być synchronizowane wszędzie tam, gdzie używasz { -brand-firefox(case: "acc") }.
+signup-confirmed-sync-description-v2 = Twoje hasła, adresy, zakładki, historia i inne dane mogą być synchronizowane wszędzie tam, gdzie używasz { -brand-firefox(case: "acc") }.
+signup-confirmed-sync-add-device-link = Dodaj następne urządzenie
 signup-confirmed-sync-manage-sync-button = Zarządzaj synchronizacją
 signup-confirmed-sync-set-password-success-banner = Utworzono hasło synchronizacji
