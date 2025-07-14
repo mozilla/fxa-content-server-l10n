@@ -40,9 +40,16 @@ checkout-error-already-subscribed = Już subskrybujesz ten produkt.
 checkout-error-contact-support = Prosimy o kontakt z zespołem wsparcia, abyśmy mogli Ci pomóc.
 cart-error-currency-not-determined = Nie możemy ustalić waluty dla tego zakupu. Spróbuj ponownie.
 checkout-processing-general-error = Wystąpił nieoczekiwany błąd podczas przetwarzania płatności, proszę spróbować ponownie.
+cart-total-mismatch-error = Kwota faktury uległa zmianie. Proszę spróbować ponownie.
 
 ## Error pages - Payment method failure messages
 
+intent-card-error = Nie można przetworzyć transakcji. Proszę sprawdzić poprawność informacji z karty płatniczej i spróbować ponownie.
+intent-expired-card-error = Wygląda na to, że karta płatnicza wygasła. Spróbuj użyć innej karty.
+intent-payment-error-try-again = Wystąpił problem z upoważnieniem płatności. Spróbuj ponownie lub skontaktuj się z wystawcą karty.
+intent-payment-error-get-in-touch = Wystąpił problem z upoważnieniem płatności. Skontaktuj się z wystawcą karty.
+intent-payment-error-generic = Wystąpił nieoczekiwany błąd podczas przetwarzania płatności, proszę spróbować ponownie.
+intent-payment-error-insufficient-funds = Wygląda na to, że na karcie są niewystarczające środki. Spróbuj użyć innej karty.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -141,6 +148,13 @@ next-plan-details-header = Informacje o produkcie
 next-plan-details-list-price = Cena katalogowa
 next-plan-details-tax = Podatki i opłaty
 next-plan-details-total-label = Razem
+# "Unused time" refers to the remaining value of the current subscription that hasn't been used yet
+purchase-details-unused-time-label = Środki za niewykorzystany czas
+purchase-details-subtotal-label = Suma częściowa
+# "Credit applied" refers to account credit used to reduce the amount due on the invoice
+purchase-details-credit-applied-label = Zastosowano środki
+# "Total due" is the total that the customer owes after all credits, discounts, and taxes have been applied
+purchase-details-total-due-label = Całkowita kwota do zapłaty
 next-plan-details-hide-button = Ukryj informacje
 next-plan-details-show-button = Wyświetl informacje
 next-coupon-success = Twój plan będzie automatycznie odnawiany po cenie katalogowej.
@@ -221,6 +235,9 @@ upgrade-purchase-details-current-plan-label = Obecny plan
 upgrade-purchase-details-new-plan-label = Nowy plan
 upgrade-purchase-details-promo-code = Kod promocyjny
 upgrade-purchase-details-tax-label = Podatki i opłaty
+# "Credit issued to account" refers to credit that will be added to the account balance that will be used toward future invoices
+upgrade-purchase-details-credit-to-account = Środki wystawione na konto
+upgrade-purchase-details-credit-will-be-applied = Środki zostaną zastosowane na koncie i użyte na poczet przyszłych faktur.
 
 ## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences

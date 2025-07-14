@@ -1454,7 +1454,7 @@ inline-totp-setup-no-qr-default-service-header-2 = Wpisz kod ręcznie, <span>aby
 # The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
 inline-totp-setup-enter-key-or-use-qr-instructions = Wpisz ten tajny klucz w aplikacji uwierzytelniającej. <toggleToQRButton>Czy zamiast tego zeskanować kod QR?</toggleToQRButton>
 # The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
-inline-totp-setup-use-qr-or-enter-key-instructions = Zeskanuj kod QR w aplikacji uwierzytelniania, a następnie wpisz podany przez nią kod uwierzytelniania. <toggleToManualModeButton>Nie możesz zeskanować kodu?</toggleToManualModeButton>
+inline-totp-setup-use-qr-or-enter-key-instructions = Zeskanuj kod QR w aplikacji uwierzytelniającej, a następnie wpisz podany przez nią kod uwierzytelniania. <toggleToManualModeButton>Nie możesz zeskanować kodu?</toggleToManualModeButton>
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-on-completion-description = Po ukończeniu zacznie tworzyć kody uwierzytelniania, które należy podać.
 # The "authentication code" here refers to the code provided by an authentication app.
@@ -1513,7 +1513,7 @@ auth-totp-heading-w-default-service = Wpisz kod uwierzytelniania, <span>aby prze
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
 auth-totp-heading-w-custom-service = Wpisz kod uwierzytelniania, <span>aby przejść do usługi { $serviceName }</span>
-auth-totp-instruction = Otwórz aplikację uwierzytelniania i wpisz podany przez nią kod uwierzytelniania.
+auth-totp-instruction = Otwórz aplikację uwierzytelniającą i wpisz podany przez nią kod uwierzytelniania.
 auth-totp-input-label = Wpisz sześciocyfrowy kod
 # Form button to confirm if the authentication code entered by the user is valid
 auth-totp-confirm-button = Potwierdź

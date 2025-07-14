@@ -435,10 +435,13 @@ postAddTwoStepAuthentication-title-2 = Włączono uwierzytelnianie dwuetapowe
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postAddTwoStepAuthentication-from-device-v2 = Zażądano z urządzenia:
 postAddTwoStepAuthentication-action = Zarządzaj kontem
+postAddTwoStepAuthentication-code-required-v4 = Od teraz podczas każdego logowania wymagane są kody zabezpieczeń z aplikacji uwierzytelniającej.
 postAddTwoStepAuthentication-recovery-method-codes = Dodano również zapasowe kody uwierzytelniania jako metodę odzyskiwania.
 # Variables:
 #  $maskedPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
 postAddTwoStepAuthentication-recovery-method-phone = Dodano również { $maskedPhoneNumber } jako numer telefonu odzyskiwania.
+postAddTwoStepAuthentication-how-protects-link = W jaki sposób chroni to Twoje konto
+postAddTwoStepAuthentication-how-protects-plaintext = W jaki sposób chroni to Twoje konto:
 postChangeAccountRecovery-subject = Zmieniono klucz odzyskiwania konta
 postChangeAccountRecovery-title = Zmieniono klucz odzyskiwania konta
 postChangeAccountRecovery-body-part1 = Masz teraz nowy klucz odzyskiwania konta. Twój poprzedni klucz został usunięty.
@@ -696,6 +699,7 @@ subscriptionUpgrade-upgrade-info-2 = Pomyślnie przełączono na { $productName 
 ## $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
+subscriptionUpgrade-content-charge-prorated-1 = Została naliczona jednorazowa opłata w wysokości { $invoiceAmountDue }, która odzwierciedla wyższą cenę subskrypcji za pozostałą część tego okresu rozliczeniowego ({ $productPaymentCycleOld }).
 subscriptionUpgrade-content-charge-credit = Otrzymano środki na koncie w wysokości { $paymentProrated }.
 subscriptionUpgrade-content-starting = Zaczynając od następnego rachunku, opłata zmieni się z { $paymentAmountOld } za { $productPaymentCycleOld } na { $paymentAmountNew } za { $productPaymentCycleNew }.
 # Variables:
