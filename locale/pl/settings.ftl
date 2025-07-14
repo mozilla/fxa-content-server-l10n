@@ -96,21 +96,18 @@ datablock-print =
 
 datablock-copy-success =
     { $count ->
-        [one] Kod skopiowany
-        [few] Kody skopiowane
-       *[many] Kodów skopiowanych
+        [one] Skopiowano kod
+       *[other] Skopiowano kody
     }
 datablock-download-success =
     { $count ->
-        [one] Kod pobrany
-        [few] Kody pobrane
-       *[many] Kodów pobranych
+        [one] Pobrano kod
+       *[other] Pobrano kody
     }
 datablock-print-success =
     { $count ->
-        [one] Kod wydrukowany
-        [few] Kody wydrukowane
-       *[many] Kodów wydrukowanych
+        [one] Wydrukowano kod
+       *[other] Wydrukowano kody
     }
 
 ##
@@ -303,7 +300,7 @@ backup-recovery-phone-image-aria-label =
 backup-authentication-codes-image-aria-label =
     .aria-label = Ekran urządzenia z kodami
 sync-clouds-image-aria-label =
-    .aria-label = Chmury z ikoną synchronizacji
+    .aria-label = Chmury z ikoną synchronizacji
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -395,7 +392,7 @@ password-strength-balloon-stay-safe-tips = Zachowaj bezpieczeństwo — każdego
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password
 
-password-strength-long-instruction = Wybierz silne hasło, którego nie używałeś na innych stronach. Upewnij się, że spełnia ono wymagania bezpieczeństwa:
+password-strength-long-instruction = Wybierz silne hasło, którego wcześniej nie używano na innych witrynach. Upewnij się, że spełnia ono wymagania bezpieczeństwa:
 password-strength-short-instruction = Wybierz silne hasło:
 password-strength-inline-min-length = Musi mieć co najmniej 8 znaków
 password-strength-inline-not-email = Nie może być Twoim adresem e-mail
@@ -657,7 +654,7 @@ flow-setup-2fa-more-info-link = Więcej informacji o aplikacjach uwierzytelniaj
 flow-setup-2fa-button = Kontynuuj
 flow-setup-2fa-step-2-instruction = <strong>2. krok:</strong> wpisz kod ze swojej aplikacji uwierzytelniającej.
 flow-setup-2fa-input-label = Wpisz sześciocyfrowy kod
-flow-setup-2fa-code-error = Nieprawidłowy lub wygasły kod. Sprawdź aplikację uwierzytelniającą i spróbuj ponownie.
+flow-setup-2fa-code-error = Nieprawidłowy lub wygasły kod. Sprawdź aplikację uwierzytelniającą i spróbuj ponownie.
 
 ## The step to choose the two step authentication method in the two step
 ## authentication setup flow.
@@ -1582,7 +1579,7 @@ pair-unsupported-message = Czy użyto aparatu systemowego? Należy powiązać z�
 
 # password to complete their sign-in when they want to login to a service requiring it.
 
-set-password-heading-v2 = Utwórz hasło do synchronizacji
+set-password-heading-v2 = Utwórz hasło, aby synchronizować
 # "This" refers to the heading, "Create password to sync"
 set-password-info-v2 = To hasło szyfruje Twoje dane. Musi być inne niż Twoje hasło do konta { -brand-google } lub { -brand-apple }.
 
@@ -1971,7 +1968,7 @@ confirm-signup-code-desktop-relay = { -brand-firefox } po zalogowaniu spróbuje 
 
 signup-heading-v2 = Utwórz hasło
 signup-relay-info = Hasło jest potrzebne do bezpiecznego zarządzania zamaskowanymi adresami e-mail i do dostępu do narzędzi bezpieczeństwa { -brand-mozilla(case: "gen") }.
-signup-sync-info = Synchronizuj hasła, zakładki i nie tylko wszędzie tam, gdzie używasz { -brand-firefox(case: "acc") }.
+signup-sync-info = Synchronizuj hasła, zakładki i inne dane wszędzie tam, gdzie używasz { -brand-firefox(case: "acc") }.
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = Dlaczego muszę założyć to konto?
 # Link included in a dismissible info banner that is only displayed to Pocket clients
