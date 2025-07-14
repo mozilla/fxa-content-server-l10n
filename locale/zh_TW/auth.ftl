@@ -420,15 +420,19 @@ postAddRecoveryPhone-how-protect = 此功能如何保護您的帳號
 postAddRecoveryPhone-how-protect-plaintext = 此功能如何保護您的帳號：
 postAddRecoveryPhone-enabled-device = 您從下列位置開啟：
 postAddRecoveryPhone-action = 管理帳號
+postAddTwoStepAuthentication-preview = 您的帳號已受保護
 postAddTwoStepAuthentication-subject-v3 = 兩階段驗證已開啟
 postAddTwoStepAuthentication-title-2 = 您已開啟兩階段驗證
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postAddTwoStepAuthentication-from-device-v2 = 您從下列位置要求：
 postAddTwoStepAuthentication-action = 管理帳號
+postAddTwoStepAuthentication-code-required-v4 = 現在起，每次登入時都會要求您輸入驗證程式中的安全碼。
 postAddTwoStepAuthentication-recovery-method-codes = 您也新增了備用驗證碼作為救援方式。
 # Variables:
 #  $maskedPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
 postAddTwoStepAuthentication-recovery-method-phone = 您也將 { $maskedPhoneNumber } 新增為救援電話號碼。
+postAddTwoStepAuthentication-how-protects-link = 此功能如何保護您的帳號
+postAddTwoStepAuthentication-how-protects-plaintext = 此功能如何保護您的帳號：
 postChangeAccountRecovery-subject = 已變更帳號救援金鑰
 postChangeAccountRecovery-title = 您已更換帳號救援金鑰
 postChangeAccountRecovery-body-part1 = 您已產生新的帳號救援金鑰，舊金鑰已刪除。
