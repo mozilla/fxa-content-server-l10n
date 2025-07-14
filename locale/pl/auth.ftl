@@ -235,6 +235,7 @@ subscriptionCharges-content-tax = Podatki i opłaty: { $invoiceTaxAmount }
 ##  $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
 ##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
 
+subscriptionFirstInvoice-content-total-due = Obciążono { $invoiceAmountDue } w dniu { $invoiceDateOnly }
 subscriptionFirstInvoice-content-credit = Otrzymano środki na koncie w wysokości { $invoiceTotal }, które zostaną zastosowane do przyszłych faktur.
 
 ##
@@ -366,8 +367,14 @@ passwordChanged-subject = Zaktualizowano hasło
 passwordChanged-title = Pomyślnie zmieniono hasło
 passwordChanged-description-2 = Pomyślnie zmieniono hasło { -product-mozilla-account(case: "gen", capitalization: "lower") } z poniższego urządzenia:
 passwordChangeRequired-subject = Wykryto podejrzane działania
+passwordChangeRequired-preview = Natychmiast zmień hasło
+passwordChangeRequired-title-2 = Zmień hasło
+passwordChangeRequired-suspicious-activity-3 = Zablokowaliśmy Twoje konto, aby chronić je przed podejrzaną aktywnością. Wylogowano ze wszystkich urządzeń, a wszelkie zsynchronizowane dane zostały usunięte w ramach środków ostrożności.
+passwordChangeRequired-sign-in-3 = Aby ponownie zalogować się na swoje konto, wystarczy zmienić hasło.
 passwordChangeRequired-different-password-2 = <b>Ważne:</b> wybierz silne hasło inne niż używane wcześniej.
 passwordChangeRequired-different-password-plaintext-2 = Ważne: wybierz silne hasło inne niż używane wcześniej.
+passwordChangeRequired-action = Zmień hasło
+passwordChangeRequired-action-plaintext = { passwordChangeRequired-action }:
 password-forgot-otp-subject = Nie pamiętasz hasła?
 password-forgot-otp-title = Nie pamiętasz hasła?
 password-forgot-otp-request = Otrzymaliśmy prośbę o zmianę hasła Twojego { -product-mozilla-account(case: "gen", capitalization: "lower") } z urządzenia:
@@ -422,6 +429,7 @@ postAddRecoveryPhone-how-protect = W jaki sposób chroni to Twoje konto
 postAddRecoveryPhone-how-protect-plaintext = W jaki sposób chroni to Twoje konto:
 postAddRecoveryPhone-enabled-device = Włączono je z urządzenia:
 postAddRecoveryPhone-action = Zarządzaj kontem
+postAddTwoStepAuthentication-preview = Twoje konto jest chronione
 postAddTwoStepAuthentication-subject-v3 = Uwierzytelnianie dwuetapowe jest włączone
 postAddTwoStepAuthentication-title-2 = Włączono uwierzytelnianie dwuetapowe
 # After the colon, there is a description of the device that the user used to enable two-step authentication
@@ -481,7 +489,7 @@ postRemoveTwoStepAuthentication-title-2 = Wyłączono uwierzytelnianie dwuetapow
 # After the colon is a description of the device the user used to disable two-step authentication
 postRemoveTwoStepAuthentication-from-device = Wyłączono je z urządzenia:
 postRemoveTwoStepAuthentication-action = Zarządzaj kontem
-postRemoveTwoStepAuthentication-not-required-2 = Nie potrzebujesz już kodów zabezpieczeń z aplikacji do uwierzytelniania podczas logowania.
+postRemoveTwoStepAuthentication-not-required-2 = Nie potrzebujesz już kodów zabezpieczeń z aplikacji uwierzytelniającej podczas logowania.
 postSigninRecoveryCode-subject = Użyto zapasowego kodu uwierzytelniania do zalogowania
 postSigninRecoveryCode-preview = Potwierdź działania na koncie
 postSigninRecoveryCode-title = Zapasowy kod uwierzytelniania został użyty do zalogowania

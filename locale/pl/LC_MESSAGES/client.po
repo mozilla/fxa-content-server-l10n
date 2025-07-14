@@ -1,18 +1,13 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-05 20:09+0000\n"
-"PO-Revision-Date: 2024-12-16 11:36+0000\n"
-"Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
-"Language-Team: Polish <community-poland@mozilla.org>\n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Pontoon\n"
+"Generated-By: Pontoon\n"
 
 #: .es5/views/confirm_reset_password.js:170
 msgid "Password reset"
@@ -1253,7 +1248,7 @@ msgstr "Włącz uwierzytelnianie dwuetapowe"
 
 #: .es5/templates/inline_totp_setup.mustache:3
 msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps</a>."
-msgstr "Dodaj warstwę zabezpieczeń do swojego konta — kody zabezpieczeń z jednej z <a %(escapedTotpSupportAttributes)s>tych aplikacji uwierzytelniania</a>."
+msgstr "Dodaj warstwę zabezpieczeń do swojego konta — kody zabezpieczeń z jednej z <a %(escapedTotpSupportAttributes)s>tych aplikacji uwierzytelniających</a>."
 
 #: .es5/templates/inline_totp_setup.mustache:7
 msgid "Scan authentication code"
@@ -1265,7 +1260,7 @@ msgstr "Wpisz kod ręcznie"
 
 #: .es5/templates/inline_totp_setup.mustache:12
 msgid "Scan the QR code in your authentication app and then enter the security code it provides."
-msgstr "Zeskanuj kod QR w aplikacji uwierzytelniania, a następnie wpisz podany przez nią kod zabezpieczeń."
+msgstr "Zeskanuj kod QR w aplikacji uwierzytelniającej, a następnie wpisz podany przez nią kod zabezpieczeń."
 
 #: .es5/templates/inline_totp_setup.mustache:13
 msgid "Can’t scan code?"
@@ -1277,7 +1272,7 @@ msgstr "Po ukończeniu zacznie tworzyć kody zabezpieczeń, które należy poda�
 
 #: .es5/templates/inline_totp_setup.mustache:16
 msgid "Type this secret key into your authentication app."
-msgstr "Wpisz ten tajny klucz w aplikacji uwierzytelniania."
+msgstr "Wpisz ten tajny klucz w aplikacji uwierzytelniającej."
 
 #: .es5/templates/inline_totp_setup.mustache:17
 msgid "Scan QR code instead?"
@@ -1463,7 +1458,7 @@ msgstr "Wpisz kod zabezpieczeń"
 
 #: .es5/templates/sign_in_totp_code.mustache:3
 msgid "Open your authentication app and enter the security code it provides."
-msgstr "Otwórz aplikację uwierzytelniania i wpisz podany przez nią kod zabezpieczeń."
+msgstr "Otwórz aplikację uwierzytelniającą i wpisz podany przez nią kod zabezpieczeń."
 
 #: .es5/templates/sign_in_totp_code.mustache:7
 msgid "Trouble entering code?"

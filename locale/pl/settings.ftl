@@ -684,7 +684,7 @@ flow-setup-2fa-backup-code-confirm-button-finish = Dokończ
 ## The backup codes download step of the setup 2 factor authentication flow
 
 flow-setup-2fa-backup-code-dl-heading = Zapisz zapasowe kody uwierzytelniania
-flow-setup-2fa-backup-code-dl-save-these-codes = Przechowuj je w miejscu, którego nie zapomnisz. Musisz wpisać jeden z nich, jeśli nie masz dostępu do aplikacji uwierzytelniania.
+flow-setup-2fa-backup-code-dl-save-these-codes = Przechowuj je w miejscu, którego nie zapomnisz. Musisz wpisać jeden z nich, jeśli nie masz dostępu do aplikacji uwierzytelniającej.
 flow-setup-2fa-backup-code-dl-button-continue = Kontynuuj
 
 ## FlowSetupPhoneConfirmCode
@@ -1022,7 +1022,7 @@ tfa-incorrect-recovery-code-1 = Niepoprawny zapasowy kod uwierzytelniania
 tfa-enabled-v2 = Uwierzytelnianie dwuetapowe zostało włączone
 tfa-scan-this-code =
     Zeskanuj ten kod QR za pomocą jednej
-    z <linkExternal>tych aplikacji uwierzytelniania</linkExternal>.
+    z <linkExternal>tych aplikacji uwierzytelniających</linkExternal>.
 # This is the image alt text for a QR code.
 # Variables:
 #   $secret (String) - a long alphanumeric string that does not require translation
@@ -1055,6 +1055,8 @@ product-promo-monitor-description-v2 = Dowiedz się, gdzie wyciekły Twoje dane 
 product-promo-monitor-special-promo-description = Za { $price } na miesiąc oszczędzaj na { -product-mozilla-vpn-short }, ochronie przed brokerami danych { -product-mozilla-monitor-short } i nieograniczonych maskach dla adresów e-mail { -product-firefox-relay-short }.
 # Links out to the Monitor site
 product-promo-monitor-cta = Przeszukaj bezpłatnie
+# Links out to the Monitor pricing site
+product-promo-monitor-special-promo-cta = Zdobądź całoroczną ochronę
 
 ## Profile section
 
@@ -1433,7 +1435,7 @@ inline-recovery-2fa-enabled-v2 = Uwierzytelnianie dwuetapowe zostało włączone
 inline-totp-setup-cancel-setup-button = Anuluj konfigurację
 inline-totp-setup-continue-button = Kontynuuj
 # <authenticationAppsLink> links to a list of security apps
-inline-totp-setup-add-security-link = Dodaj warstwę zabezpieczeń do swojego konta — kody uwierzytelniania z jednej z <authenticationAppsLink>tych aplikacji uwierzytelniania</authenticationAppsLink>.
+inline-totp-setup-add-security-link = Dodaj warstwę zabezpieczeń do swojego konta — kody uwierzytelniania z jednej z <authenticationAppsLink>tych aplikacji uwierzytelniających</authenticationAppsLink>.
 #  The <enable2StepDefaultSpan> elements are just visual separation here
 inline-totp-setup-enable-two-step-authentication-default-header-2 = Włącz uwierzytelnianie dwuetapowe, <span>aby przejść do ustawień konta</span>
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
@@ -1450,7 +1452,7 @@ inline-totp-setup-show-qr-default-service-header-2 = Zeskanuj kod uwierzytelnian
 # The <enterCodeManuallyHeaderSpan> elements are just visual separation
 inline-totp-setup-no-qr-default-service-header-2 = Wpisz kod ręcznie, <span>aby przejść do ustawień konta</span>
 # The <toggleToQRButton> allows the user to use a QR code instead of manually entering a secret key
-inline-totp-setup-enter-key-or-use-qr-instructions = Wpisz ten tajny klucz w aplikacji uwierzytelniania. <toggleToQRButton>Czy zamiast tego zeskanować kod QR?</toggleToQRButton>
+inline-totp-setup-enter-key-or-use-qr-instructions = Wpisz ten tajny klucz w aplikacji uwierzytelniającej. <toggleToQRButton>Czy zamiast tego zeskanować kod QR?</toggleToQRButton>
 # The <toggleToManualModeButton> allows the user to manually enter a secret key instead of scanning a QR code
 inline-totp-setup-use-qr-or-enter-key-instructions = Zeskanuj kod QR w aplikacji uwierzytelniania, a następnie wpisz podany przez nią kod uwierzytelniania. <toggleToManualModeButton>Nie możesz zeskanować kodu?</toggleToManualModeButton>
 # The "authentication code" here refers to the code provided by an authentication app.
