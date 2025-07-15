@@ -49,6 +49,7 @@ intent-expired-card-error = Có vẻ như thẻ tín dụng của bạn đã h�
 intent-payment-error-try-again = Hmm. Đã xảy ra sự cố khi cho phép thanh toán của bạn. Hãy thử lại hoặc liên lạc với công ty phát hành thẻ của bạn.
 intent-payment-error-get-in-touch = Hmm. Đã xảy ra sự cố khi cho phép thanh toán của bạn. Hãy liên lạc với công ty phát hành thẻ của bạn.
 intent-payment-error-generic = Đã xảy ra lỗi không mong muốn khi xử lý thanh toán của bạn, vui lòng thử lại.
+intent-payment-error-insufficient-funds = Có vẻ như thẻ của bạn không đủ tiền. Hãy thử một thẻ khác.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -147,6 +148,13 @@ next-plan-details-header = Thông tin chi tiết sản phẩm
 next-plan-details-list-price = Bảng giá
 next-plan-details-tax = Thuế và phí
 next-plan-details-total-label = Tổng
+# "Unused time" refers to the remaining value of the current subscription that hasn't been used yet
+purchase-details-unused-time-label = Tín dụng từ thời gian chưa sử dụng
+purchase-details-subtotal-label = Tổng phụ
+# "Credit applied" refers to account credit used to reduce the amount due on the invoice
+purchase-details-credit-applied-label = Tín dụng được áp dụng
+# "Total due" is the total that the customer owes after all credits, discounts, and taxes have been applied
+purchase-details-total-due-label = Tổng số tiền phải trả
 next-plan-details-hide-button = Ẩn chi tiết
 next-plan-details-show-button = Hiện chi tiết
 next-coupon-success = Gói của bạn sẽ tự động gia hạn theo giá niêm yết.
@@ -183,9 +191,6 @@ next-new-user-subscribe-product-updates-mdnplus = Tôi muốn nhận tin tức s
 next-new-user-subscribe-product-updates-mozilla = Tôi muốn nhận tin tức sản phẩm và cập nhật từ { -brand-mozilla }
 next-new-user-subscribe-product-updates-snp = Tôi muốn nhận tin tức và cập nhật về bảo mật và quyền riêng tư từ { -brand-mozilla }
 next-new-user-subscribe-product-assurance = Chúng tôi chỉ sử dụng email của bạn để tạo tài khoản cho bạn. Chúng tôi sẽ không bao giờ cung cấp nó cho bên thứ ba.
-
-## Component - PriceInterval
-
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
@@ -227,6 +232,9 @@ upgrade-purchase-details-current-plan-label = Gói hiện tại
 upgrade-purchase-details-new-plan-label = Gói mới
 upgrade-purchase-details-promo-code = Mã khuyến mãi
 upgrade-purchase-details-tax-label = Thuế và phí
+# "Credit issued to account" refers to credit that will be added to the account balance that will be used toward future invoices
+upgrade-purchase-details-credit-to-account = Tín dụng được cấp vào tài khoản
+upgrade-purchase-details-credit-will-be-applied = Số tiền sẽ được chuyển vào tài khoản của bạn và được sử dụng cho các hóa đơn trong tương lai.
 
 ## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
@@ -282,6 +290,3 @@ next-coupon-error-generic = Đã xảy ra lỗi khi xử lý mã. Vui lòng th�
 next-coupon-error-invalid = Mã bạn đã nhập không hợp lệ.
 # "Limit" refers to the maximum number of times a coupon can be redeemed.
 next-coupon-error-limit-reached = Mã bạn đã nhập đã đạt đến giới hạn.
-
-##
-

@@ -230,6 +230,7 @@ subscriptionCharges-content-tax = Thuế & phí: { $invoiceTaxAmount }
 ##  $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
 ##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
 
+subscriptionFirstInvoice-content-total-due = Đã tính phí { $invoiceAmountDue } vào { $invoiceDateOnly }
 subscriptionFirstInvoice-content-credit = Bạn đã nhận được khoản tín dụng tài khoản là { $invoiceTotal }, sẽ được áp dụng cho các thanh toán trong tương lai của bạn.
 
 ##
@@ -421,15 +422,19 @@ postAddRecoveryPhone-how-protect = Tìm hiểu cách mà nó bảo vệ tài kho
 postAddRecoveryPhone-how-protect-plaintext = Tìm hiểu cách mà nó bảo vệ tài khoản của bạn:
 postAddRecoveryPhone-enabled-device = Bạn đã bật nó từ:
 postAddRecoveryPhone-action = Quản lý tài khoản
+postAddTwoStepAuthentication-preview = Tài khoản của bạn được bảo vệ
 postAddTwoStepAuthentication-subject-v3 = Đã bật xác thực hai bước
 postAddTwoStepAuthentication-title-2 = Bạn đã bật xác thực hai bước
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postAddTwoStepAuthentication-from-device-v2 = Bạn đã yêu cầu điều này từ:
 postAddTwoStepAuthentication-action = Quản lý tài khoản
+postAddTwoStepAuthentication-code-required-v4 = Mã bảo mật từ ứng dụng xác thực của bạn hiện được yêu cầu mỗi khi bạn đăng nhập.
 postAddTwoStepAuthentication-recovery-method-codes = Bạn cũng đã thêm mã xác thực dự phòng làm phương pháp khôi phục của mình.
 # Variables:
 #  $maskedPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
 postAddTwoStepAuthentication-recovery-method-phone = Bạn cũng đã thêm { $maskedPhoneNumber } làm số điện thoại khôi phục của mình.
+postAddTwoStepAuthentication-how-protects-link = Tìm hiểu cách mà nó bảo vệ tài khoản của bạn
+postAddTwoStepAuthentication-how-protects-plaintext = Tìm hiểu cách mà nó bảo vệ tài khoản của bạn:
 postChangeAccountRecovery-subject = Khóa khôi phục tài khoản đã thay đổi
 postChangeAccountRecovery-title = Bạn đã thay đổi khóa khôi phục tài khoản của mình
 postChangeAccountRecovery-body-part1 = Bây giờ bạn đã có khóa khôi phục tài khoản mới. Khóa trước của bạn đã bị xóa.
@@ -687,6 +692,7 @@ subscriptionUpgrade-upgrade-info-2 = Bạn đã nâng cấp thành công { $prod
 ## $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
+subscriptionUpgrade-content-charge-prorated-1 = Bạn đã bị tính khoản phí một lần là { $invoiceAmountDue } để phản ánh mức giá cao hơn của gói đăng ký của bạn trong thời gian còn lại của kỳ thanh toán này ({ $productPaymentCycleOld }).
 subscriptionUpgrade-content-charge-credit = Bạn đã nhận được khoản tín dụng tài khoản với số tiền là { $paymentProrated }.
 subscriptionUpgrade-content-starting = Bắt đầu từ hóa đơn tiếp theo của bạn, khoản phí của bạn sẽ thay đổi từ { $paymentAmountOld } với { $productPaymentCycleOld } thành { $paymentAmountNew } với { $productPaymentCycleNew }.
 # Variables:

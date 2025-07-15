@@ -471,6 +471,7 @@ pay-update-manage-btn = Quản lý
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = Thanh toán tiếp theo vào { $date }
+sub-next-bill-due-date = Hoá đơn tiếp theo vào { $date }
 sub-expires-on = Hết hạn vào { $date }
 
 ## Routes - Subscription - PaymentUpdate
