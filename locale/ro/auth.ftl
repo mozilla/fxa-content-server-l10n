@@ -81,17 +81,106 @@ subplat-privacy = Confidențialitate
 subplat-privacy-website-plaintext = { subplat-privacy }:
 account-deletion-info-block-communications = Dacă ți se șterge contul, vei primi în continuare mesaje pe e-mail de la Corporația Mozilla și Fundația Mozilla, cu excepția cazului în care <a data-l10n-name="unsubscribeLink">ceri dezabonarea</a>.
 account-deletion-info-block-support = Dacă ai întrebări sau ai nevoie de asistență, nu ezita să contactezi <a data-l10n-name="supportLink">echipa noastră de asistență</a>.
+account-deletion-info-block-communications-plaintext = Dacă ți se șterge contul, vei primi în continuare mesaje pe e-mail de la Corporația Mozilla și Fundația Mozilla, cu excepția cazului în care ceri dezabonarea:
+account-deletion-info-block-support-plaintext = Dacă ai întrebări sau ai nevoie de asistență, nu ezita să contactezi echipa noastră de asistență:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-android-badge = <img data-l10n-name="google-play-badge" alt="Download { $productName } on { -google-play }">
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-ios-badge = <img data-l10n-name="apple-app-badge" alt="Download { $productName } on the { -app-store }">
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-desktop-device-2 = Instalează { $productName } pe <a data-l10n-name="anotherDeviceLink">un alt dispozitiv desktop</a>.
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-device-2 = Instalează { $productName } pe <a data-l10n-name="anotherDeviceLink">un alt dispozitiv</a>.
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+android-download-plaintext = Ia { $productName } de pe Google Play:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+ios-download-plaintext = Descarcă { $productName } din App Store:
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+another-device-plaintext = Instalează { $productName } pe un alt dispozitiv:
+automated-email-change-2 = Dacă nu ai făcut-o deja, <a data-l10n-name="passwordChangeLink">schimbă-ți parola</a> imediat.
+automated-email-support = Pentru mai multe informații, intră pe <a data-l10n-name="supportLink">{ -brand-mozilla } Asistență</a>.
+# After the colon, there's a link to https://accounts.firefox.com/settings/change_password
+automated-email-change-plaintext-2 = Dacă nu ai făcut-o deja, schimbă-ți parola imediat:
+#  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+automated-email-support-plaintext = Pentru mai multe informații, intră pe Asistență { -brand-mozilla }:
+automated-email-inactive-account = Acesta este un mesaj automat trimis pe e-mail. L-ai primit pentru că ai un cont { -product-mozilla-account } și au trecut 2 ani de la ultima conectare.
+# supportLink - https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+automated-email-no-action = { automated-email-no-action-plaintext } Pentru mai multe informații, intră pe <a data-l10n-name="supportLink">{ -brand-mozilla } Asistență</a>.
+automated-email-no-action-plaintext = Acesta este un mesaj automat trimis pe e-mail. Dacă l-ai primit din greșeală, nu trebuie să faci nimic.
+#  After the colon, there's a link to https://accounts.firefox.com/settings/change_password
+automated-email-not-authorized-plaintext = Acesta este un mesaj automat trimis pe e-mail; dacă nu ai autorizat așa ceva, te rugăm să îți schimbi parola:
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+# - $uaOSVersion - the user agent's operating system version
+automatedEmailRecoveryKey-origin-device-all = Solicitarea venit de la { $uaBrowser } pe { $uaOS } { $uaOSVersion }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+automatedEmailRecoveryKey-origin-device-browser-os = Solicitarea venit de la { $uaBrowser } pe { $uaOS }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaBrowser: the user agent's browser (e.g., Firefox Nightly)
+automatedEmailRecoveryKey-origin-device-browser-only = Solicitarea venit de la { $uaBrowser }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+# - $uaOSVersion - the user agent's operating system version
+automatedEmailRecoveryKey-origin-device-OS-version-only = Solicitarea venit de la { $uaOS } { $uaOSVersion }.
+# "This request" refers to a modification (addition, change or removal) to the account recovery key.
+# Variables:
+# - $uaOS: the user agent's operating system (e.g, MacOS)
+automatedEmailRecoveryKey-origin-device-OS-only = Solicitarea venit de la { $uaOS }.
 automatedEmailRecoveryKey-delete-key-change-pwd = Dacă nu ai fost tu, <a data-l10n-name="revokeAccountRecoveryLink">șterge noua cheie</a> și <a data-l10n-name="passwordChangeLink">schimbă-ți parola</a>.
+automatedEmailRecoveryKey-change-pwd-only = Dacă nu ai fost tu, <a data-l10n-name="passwordChangeLink">schimbă-ți parola</a>.
+automatedEmailRecoveryKey-more-info = Pentru mai multe informații, intră pe <a data-l10n-name="supportLink">{ -brand-mozilla } Asistență</a>.
+# Colon is followed by user device info on a separate line (e.g., "Firefox Nightly on Mac OSX 10.11")
+automatedEmailRecoveryKey-origin-plaintext = Această solicitare a venit de la:
+# Colon is followed by a URL to the account recovery key section of account settings
+automatedEmailRecoveryKey-notyou-delete-key-plaintext = Dacă nu ai fost tu, șterge noua cheie:
+# Colon is followed by a URL to the change password section of account settings
+automatedEmailRecoveryKey-notyou-change-pwd-only-plaintext = Dacă nu ai fost tu, schimbă-ți parola:
+# This string is shown on its own line, after automatedEmailRecoveryKey-notyou-delete-key-plaintext and its URL
+# Colon is followed by a URL to the change password section of account settings
+automatedEmailRecoveryKey-notyou-change-pwd-plaintext = și schimbă-ți parola:
+# Colon is followed by a URL to Mozilla Support's "I'm having problems with my account" page
+automatedEmailRecoveryKey-more-info-plaintext = Pentru mai multe informații, intră pe { -brand-mozilla } Asistență:
+automated-email-reset =
+    Acesta este un mesaj automat trimis pe e-mail; dacă nu ai autorizat așa ceva, atunci <a data-l10n-name="resetLink">resetează-ți parola</a>.
+    Pentru mai multe informații, te rugăm să intri pe <a data-l10n-name="supportLink">Asistență { -brand-mozilla }</a>.
+# Variables:
+#  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
+automated-email-reset-plaintext-v2 = Dacă nu ai autorizat așa ceva, resetează-ți acum parola la { $resetLink }
+brand-banner-message = Știai că ne-am schimbat numele din { -product-firefox-accounts } în { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Află mai multe</a>
+cancellationSurvey = Te rugăm să ne ajuți să ne îmbunătățim serviciile participând la acest <a data-l10n-name="cancellationSurveyUrl">scurt sondaj</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
-cancellationSurvey-plaintext = Te rugăm să ne ajuți să ne îmbunătățim serviciile efectuând acest scurt sondaj:
-change-password-plaintext = Dacă suspectezi că cineva încearcă să obțină acces la contul tău, te rugăm să îți modifici parola.
+cancellationSurvey-plaintext = Te rugăm să ne ajuți să ne îmbunătățim serviciile participând la acest scurt sondaj:
+change-password-plaintext = Dacă suspectezi că cineva încearcă să îți intre în cont, te rugăm să îți modifici parola.
 manage-account = Gestionează contul
+manage-account-plaintext = { manage-account }:
+payment-details = Detalii de plată:
+# Variables:
+#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+payment-plan-invoice-number = Număr factură: { $invoiceNumber }
+# Variables:
+#  $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+payment-plan-charged = Debitat: { $invoiceTotal } la data de { $invoiceDateOnly }
+# Variables
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+payment-plan-next-invoice = Următoarea factură: { $nextInvoiceDateOnly }
+# After the colon is how the user paid, e.g. PayPal or credit card
+payment-method = Metodă de plată:
+payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
 
 ##
 
