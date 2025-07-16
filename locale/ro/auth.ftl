@@ -45,14 +45,48 @@ moz-accounts-privacy-url-2 = { -product-mozilla-accounts(capitalization: "upperc
 moz-accounts-terms-url = { -product-mozilla-accounts(capitalization: "uppercase") } Termeni privind serviciile
 subplat-header-mozilla-logo-2 = <img data-l10n-name="subplat-mozilla-logo" alt="{ -brand-mozilla } logo">
 subplat-footer-mozilla-logo-2 = <img data-l10n-name="mozilla-logo-footer" alt="{ -brand-mozilla } logo">
-subplat-automated-email = Acesta este un e-mail automat; dacă l-ai primit din greșeală, nu este necesară nicio acțiune.
+subplat-automated-email = Acesta este un mesaj automat pe e-mail; dacă l-ai primit din greșeală, nu trebuie să faci nimic.
+subplat-privacy-notice = Notificare privind confidențialitatea
 subplat-privacy-plaintext = Notificare privind confidențialitatea:
+subplat-update-billing-plaintext = { subplat-update-billing }:
+# Variables:
+#  $email (String) - A user's primary email address
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subplat-explainer-specific-2 = Ai primit acest mesaj pe e-mail deoarece { $email } are un cont { -product-mozilla-account } și te-ai abonat la { $productName }.
+# Variables:
+#  $email (String) - A user's primary email address
+subplat-explainer-reminder-form-2 = Ai primit acest mesaj pe e-mail deoarece { $email } are un cont { -product-mozilla-account }.
+subplat-explainer-multiple-2 = Ai primit acest mesaj pe e-mail deoarece { $email } are un cont { -product-mozilla-account } și te-ai abonat la mai multe priduse.
+subplat-explainer-was-deleted-2 = Ai primit acest mesaj pe e-mail deoarece { $email } a fost înregistrat pentru un { -product-mozilla-account }.
+subplat-manage-account-2 = Gestionează-ți setările { -product-mozilla-account } intrând pe <a data-l10n-name="subplat-account-page">pagina contului</a>.
+# Variables:
+#  $accountSettingsUrl (String) - URL to Account Settings
+subplat-manage-account-plaintext-2 = Gestionează-ți setările { -product-mozilla-account } intrând pe pagina contului tău: { $accountSettingsUrl }
 subplat-terms-policy = Termeni și politica de anulare
+subplat-terms-policy-plaintext = { subplat-terms-policy }:
 subplat-cancel = Anulează abonamentul
+subplat-cancel-plaintext = { subplat-cancel }:
 subplat-reactivate = Reactivează abonamentul
+subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Actualizează informațiile de facturare
+subplat-privacy-policy = Politica de confidențialitate { -brand-mozilla }
+subplat-privacy-policy-2 = { -product-mozilla-accounts(capitalization: "uppercase") } Notificare privind confidențialitatea
+subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
+subplat-privacy-policy-plaintext-2 = { subplat-privacy-policy-2 }:
+subplat-moz-terms = { -product-mozilla-accounts(capitalization: "uppercase") } Termeni privind serviciile
+subplat-moz-terms-plaintext = { subplat-moz-terms }:
 subplat-legal = Mențiuni legale
+subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Confidențialitate
+subplat-privacy-website-plaintext = { subplat-privacy }:
+account-deletion-info-block-communications = Dacă ți se șterge contul, vei primi în continuare mesaje pe e-mail de la Corporația Mozilla și Fundația Mozilla, cu excepția cazului în care <a data-l10n-name="unsubscribeLink">ceri dezabonarea</a>.
+account-deletion-info-block-support = Dacă ai întrebări sau ai nevoie de asistență, nu ezita să contactezi <a data-l10n-name="supportLink">echipa noastră de asistență</a>.
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+body-android-badge = <img data-l10n-name="google-play-badge" alt="Download { $productName } on { -google-play }">
+# Variables:
+#  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
+body-ios-badge = <img data-l10n-name="apple-app-badge" alt="Download { $productName } on the { -app-store }">
 automatedEmailRecoveryKey-delete-key-change-pwd = Dacă nu ai fost tu, <a data-l10n-name="revokeAccountRecoveryLink">șterge noua cheie</a> și <a data-l10n-name="passwordChangeLink">schimbă-ți parola</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = Te rugăm să ne ajuți să ne îmbunătățim serviciile efectuând acest scurt sondaj:
