@@ -1,11 +1,50 @@
 ## Non-email strings
 
+session-verify-send-push-title-2 = Te conectezi la contul tău { -product-mozilla-account }?
+session-verify-send-push-body-2 = Dă clic aici ca să confirmi că ești tu
+# Message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to verify phone ownership when registering a recovery phone
+recovery-phone-setup-sms-body = { $code } este codul tău de verificare { -brand-mozilla }. Expiră în 5 minute.
+# Shorter message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to verify phone ownership when registering a recovery phone
+recovery-phone-setup-sms-short-body = Cod de verificare { -brand-mozilla }: { $code }
+# Message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to sign in with a recovery phone as backup for two-step authentication
+recovery-phone-signin-sms-body = { $code } este codul tău de recuperare { -brand-mozilla }. Expiră în 5 minute.
+# Shorter message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to sign in with a recovery phone as backup for two-step authentication
+recovery-phone-signin-sms-short-body = Cod { -brand-mozilla }: { $code }
+# Message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to sign in with a recovery phone as backup for account password reset
+recovery-phone-reset-password-sms-body = { $code } este codul tău de recuperare { -brand-mozilla }. Expiră în 5 minute.
+# Shorter message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to sign in with a recovery phone as backup for account password reset
+recovery-phone-reset-password-short-body = Cod { -brand-mozilla }: { $code }
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
 ## version. The strings are usually identical but sometimes they differ slightly.
 
+fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozilla } logo">
+fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Sync devices">
+body-devices-image = <img data-l10n-name="devices-image" alt="Devices">
 fxa-privacy-url = Politica de confidențialitate { -brand-mozilla }
+moz-accounts-privacy-url-2 = { -product-mozilla-accounts(capitalization: "uppercase") } Notificare privind confidențialitatea
+moz-accounts-terms-url = { -product-mozilla-accounts(capitalization: "uppercase") } Termeni privind serviciile
+subplat-header-mozilla-logo-2 = <img data-l10n-name="subplat-mozilla-logo" alt="{ -brand-mozilla } logo">
+subplat-footer-mozilla-logo-2 = <img data-l10n-name="mozilla-logo-footer" alt="{ -brand-mozilla } logo">
 subplat-automated-email = Acesta este un e-mail automat; dacă l-ai primit din greșeală, nu este necesară nicio acțiune.
 subplat-privacy-plaintext = Notificare privind confidențialitatea:
 subplat-terms-policy = Termeni și politica de anulare
@@ -19,12 +58,6 @@ automatedEmailRecoveryKey-delete-key-change-pwd = Dacă nu ai fost tu, <a data-l
 cancellationSurvey-plaintext = Te rugăm să ne ajuți să ne îmbunătățim serviciile efectuând acest scurt sondaj:
 change-password-plaintext = Dacă suspectezi că cineva încearcă să obțină acces la contul tău, te rugăm să îți modifici parola.
 manage-account = Gestionează contul
-
-## Variables:
-##  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
-##  $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
-##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
-
 
 ##
 
