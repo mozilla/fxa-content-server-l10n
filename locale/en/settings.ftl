@@ -763,6 +763,38 @@ flow-setup-2fa-backup-code-dl-button-continue = Continue
 
 ##
 
+flow-setup-2fa-inline-complete-success-banner = Two-step authentication enabled
+
+flow-setup-2fa-inline-complete-backup-code = Backup authentication codes
+flow-setup-2fa-inline-complete-backup-phone = Recovery phone
+
+# $count (Number) - an integer representing the number of backup
+# authentication codes remaining
+flow-setup-2fa-inline-complete-backup-code-info = { $count ->
+  [one] { $count } code remaining
+  *[other] { $count } codes remaining
+}
+
+flow-setup-2fa-inline-complete-backup-code-description = This is the safest recovery method if you can’t sign in with your mobile device or authenticator app.
+flow-setup-2fa-inline-complete-backup-phone-description = This is the easiest recovery method if you can’t sign in with your authenticator app.
+
+flow-setup-2fa-inline-complete-learn-more-link = How this protects your account
+
+# $serviceName (String) - the name of the product that the user will be
+# redirected to.
+flow-setup-2fa-inline-complete-continue-button = Continue to { $serviceName }
+
+flow-setup-2fa-prompt-heading = Set up two-step authentication
+
+# Variable { $serviceName } is the name of the product (e.g. Firefox Add-ons)
+# that requests two-step authentication setup.
+flow-setup-2fa-prompt-description = { $serviceName } requires you to set up two-step authentication to keep your account safe.
+
+# "these authenticator apps" links to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+flow-setup-2fa-prompt-use-authenticator-apps = You can use any of <authenticationAppsLink>these authenticator apps</authenticationAppsLink> to proceed.
+
+flow-setup-2fa-prompt-continue-button = Continue
+
 ## FlowSetupPhoneConfirmCode
 
 # verification code refers to a code sent by text message to confirm phone number ownership
@@ -804,6 +836,8 @@ header-menu-open = Close menu
 header-menu-closed = Site navigation menu
 header-back-to-top-link =
   .title = Back to top
+header-back-to-settings-link =
+  .title = Back to { -product-mozilla-account } settings
 header-title-2 = { -product-mozilla-account }
 header-help = Help
 
