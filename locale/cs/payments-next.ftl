@@ -49,7 +49,7 @@ intent-expired-card-error = Vypadá to, že platnost vaší karty vypršela. Zku
 intent-payment-error-try-again = Autorizace vaší platby se nezdařila. Zkuste to prosím znovu nebo kontaktujte vydavatele vaší karty.
 intent-payment-error-get-in-touch = Autorizace vaší platby se nezdařila. Kontaktujte prosím vydavatele vaší karty.
 intent-payment-error-generic = Při zpracování platby došlo k neočekávané chybě, zkuste to prosím znovu.
-intent-payment-error-insufficient-funds = Vypadá to, že na vaší kartě není dostatek proštředků. Zkuste použít jinou.
+intent-payment-error-insufficient-funds = Vypadá to, že na vaší kartě není dostatek prostředků. Zkuste použít jinou.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -192,9 +192,6 @@ next-new-user-subscribe-product-updates-mozilla = Chci dostávat produktové nov
 next-new-user-subscribe-product-updates-snp = Chci dostávat novinky a aktualizace týkající se zabezpečení a ochrany osobních údajů od { -brand-mozilla(case: "loc") }
 next-new-user-subscribe-product-assurance = Vaši e-mailovou adresu použijeme pouze k založení vašeho účtu. Nikdy ne neprodáme žádné třetí straně.
 
-## Component - PriceInterval
-
-
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
@@ -237,7 +234,7 @@ upgrade-purchase-details-promo-code = Promo kód
 upgrade-purchase-details-tax-label = Daně a poplatky
 # "Credit issued to account" refers to credit that will be added to the account balance that will be used toward future invoices
 upgrade-purchase-details-credit-to-account = Peníze připsány na účet
-upgrade-purchase-details-credit-will-be-applied = Kredit bude připisován vašemu účtu a používán k úhradě budoucích faktur.
+upgrade-purchase-details-credit-will-be-applied = Kredit bude připsán k vašemu účtu a použit k úhradě budoucích faktur.
 
 ## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
@@ -287,12 +284,9 @@ metadata-description-default = Požadovaná stránka nebyla nalezena.
 
 ## Coupon Error Messages
 
-next-coupon-error-cannot-redeem = Zadaný kód nelze uplatnit – váš účet má dříve předplacenou některou z našich služeb.
+next-coupon-error-cannot-redeem = Zadaný kód nelze uplatnit — váš účet má dříve předplacenou některou z našich služeb.
 next-coupon-error-expired = Platnost zadaného kódu vypršela.
 next-coupon-error-generic = Při zpracování kódu došlo k chybě. Zkuste to prosím znovu.
 next-coupon-error-invalid = Zadaný kód je neplatný.
 # "Limit" refers to the maximum number of times a coupon can be redeemed.
 next-coupon-error-limit-reached = Limit kódu, který jste zadali, už byl vyčerpán.
-
-##
-

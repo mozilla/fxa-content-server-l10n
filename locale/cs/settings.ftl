@@ -1057,7 +1057,7 @@ product-promo-monitor-description-v2 = Zjistěte, kde jsou vaše soukromé infor
 # this message will only be shown to users eligible for a special promotion, based on their location (initially USA only)
 # $price - formatted for user locale, in the target market's currency (for launch, always USD)
 # /mo is 'per month'
-product-promo-monitor-special-promo-description = Za { $price } měsíčně ušetříte { -product-mozilla-vpn-short }, ochrana dat od { -product-mozilla-monitor-short } a { -product-firefox-relay-short }" s neomezený počet e-mailových masek.
+product-promo-monitor-special-promo-description = Za { $price } měsíčně ušetříte na { -product-mozilla-vpn-short }, ochraně dat { -product-mozilla-monitor-short } a neomezených maskách e-mailů { -product-firefox-relay-short }.
 # Links out to the Monitor site
 product-promo-monitor-cta = Zkontrolovat
 # Links out to the Monitor pricing site
@@ -1587,7 +1587,7 @@ pair-unsupported-message = Použili jste systémový fotoaparát? Párování je
 
 set-password-heading-v2 = Pro potřeby synchronizace si vytvořte heslo
 # "This" refers to the heading, "Create password to sync"
-set-password-info-v2 = Vaše data budou zašifrována. Musí se lišit od hesla k účtu { -brand-google } nebo { -brand-apple }.
+set-password-info-v2 = Tím se vaše data zašifrují. Musí se lišit od hesla k účtu { -brand-google } nebo { -brand-apple }.
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
