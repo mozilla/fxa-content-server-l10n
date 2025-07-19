@@ -895,6 +895,7 @@ settings-recovery-phone-remove-cancel = Бас тарту
 ## PageSetupRecoveryPhone
 
 page-setup-recovery-phone-heading = Қалпына келтіру телефонын қосу
+page-change-recovery-phone = Қалпына келтіру телефонын ауыстыру
 page-setup-recovery-phone-back-button-title = Баптауларға оралу
 # Back arrow to return to step 1 of recovery phone setup flow
 page-setup-recovery-phone-step2-back-button-title = Телефон нөмірін өзгерту
@@ -1022,6 +1023,13 @@ tfa-row-backup-codes-title = Сақтық аутентификация кодт�
 # Only shown for users that have 2FA enabled and verified, but all backup authentication codes have been consumed
 # Users that have not enabled or verified 2FA will not see this
 tfa-row-backup-codes-not-available = Қолжетімді кодтар жоқ
+# $numCodesRemaining - the number of backup authentication codes that have not yet been used (generally between 1 to 5)
+# A different message is shown when no codes are available
+tfa-row-backup-codes-available-v2 =
+    { $numCodesAvailable ->
+        [one] { $numCodesAvailable } код қалды
+       *[other] { $numCodesAvailable } код қалды
+    }
 # Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
 tfa-row-backup-codes-get-new-cta-v2 = Жаңа кодтарды жасау
 # Shown to users who have no backup authentication codes
@@ -1037,6 +1045,8 @@ tfa-row-backup-phone-change-cta = Өзгерту
 tfa-row-backup-phone-add-cta = Қосу
 # Button to remove a recovery phone from the user's account
 tfa-row-backup-phone-delete-button = Өшіру
+# Shown in tooltip on delete button or delete icon
+tfa-row-backup-phone-delete-title-v2 = Қалпына келтіру телефонын өшіру
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
