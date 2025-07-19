@@ -94,6 +94,21 @@ datablock-print =
 ## Success banners for datablock actions.
 ## $count – number of codes
 
+datablock-copy-success =
+    { $count ->
+        [one] Код көшіріліп алынды
+       *[other] Кодтар көшіріліп алынды
+    }
+datablock-download-success =
+    { $count ->
+        [one] Код жүктеліп алынды
+       *[other] Кодтар жүктеліп алынды
+    }
+datablock-print-success =
+    { $count ->
+        [one] Код басып шығарылды
+       *[other] Кодтар басып шығарылды
+    }
 
 ##
 
@@ -133,6 +148,7 @@ signup-new-password-label =
 signup-confirm-password-label =
     .label = Парольді қайталау
 signup-submit-button = Тіркелгіні жасау
+post-verify-set-password-submit-button = Синхрондауды бастау
 form-reset-password-with-balloon-new-password =
     .label = Жаңа пароль
 form-reset-password-with-balloon-confirm-password =
@@ -283,6 +299,8 @@ backup-recovery-phone-image-aria-label =
     .aria-label = SMS мәтіндік хабарлама мүмкіндіктері бар мобильді құрылғы
 backup-authentication-codes-image-aria-label =
     .aria-label = Кодтары бар құрылғы экраны
+sync-clouds-image-aria-label =
+    .aria-label = Синхрондау белгішесі бар бұлттар
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -611,18 +629,28 @@ flow-recovery-key-info-cancel-link = Бас тарту
 
 ## FlowSetup2faApp
 
+flow-setup-2fa-scan-qr-instead-button = Оның орнына QR кодын сканерлеу керек пе?
 
 ## The step to choose the two step authentication method in the two step
 ## authentication setup flow.
 
+flow-setup-2fa-backup-choice-heading = Қалпына келтіру тәсілін таңдаңыз
+flow-setup-2fa-backup-choice-phone-title = Қалпына келтіру телефоны
+flow-setup-2fa-backup-choice-phone-badge = Ең оңай
+flow-setup-2fa-backup-choice-code-title = Сақтық аутентификация кодтары
+flow-setup-2fa-backup-choice-code-badge = Ең қауіпсіз
 
 ## The backup code confirm step of the setup 2 factor authentication flow,
 ## where the user confirm that they have saved their backup authentication codes
 ## by entering one of them.
 
+# Clicking on this button finishes the whole flow upon success.
+flow-setup-2fa-backup-code-confirm-button-finish = Дайын
 
 ## The backup codes download step of the setup 2 factor authentication flow
 
+flow-setup-2fa-backup-code-dl-heading = Сақтық аутентификация кодтарын сақтау
+flow-setup-2fa-backup-code-dl-button-continue = Жалғастыру
 
 ## FlowSetupPhoneConfirmCode
 
@@ -707,6 +735,10 @@ tfa-replace-code-2-2 = Қадам 2, барлығы 2
 
 ## PageSetupRecoveryPhone
 
+page-2fa-setup-title = Екі қадамды аутентификация
+# code here refers to "backup authentication code"
+page-2fa-setup-incorrect-backup-code-error = Бұл код дұрыс емес. Қайталап көріңіз.
+page-2fa-setup-success = Екі қадамды аутентификация іске қосылды
 
 ## Avatar change page
 
@@ -1422,13 +1454,6 @@ pair-wait-for-auth-heading-text = Енді сіздің <span>басқа құр�
 pair-unsupported-header = Қолданба арқылы жұптастыру
 pair-unsupported-message = Жүйелік камераны пайдаландыңыз ба? { -brand-firefox } қолданбасынан жұптастыру керек.
 
-## SetPassword page
-## Third party auth users that do not have a password set yet are prompted for a
-
-
-# password to complete their sign-in when they want to login to a service requiring it.
-
-
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
 
@@ -1528,6 +1553,15 @@ password-reset-recovery-method-code = Сақтық аутентификация 
 ## ResetPasswordRecoveryPhone page
 
 reset-password-recovery-phone-input-label = 6-цифрлық кодты енгізіңіз
+reset-password-recovery-phone-code-submit-button = Растау
+reset-password-recovery-phone-resend-code-button = Кодты қайта жіберу
+reset-password-recovery-phone-resend-success = Код жіберілді
+# links to https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+reset-password-recovery-phone-locked-out-link = Тіркелгіңіз бұғатталған ба?
+reset-password-recovery-phone-code-verification-error-heading = Кодыңызды растау кезінде мәселе туындады
+# Follows the error message (e.g, "There was a problem sending a code")
+reset-password-recovery-phone-general-error-description = Кейінірек қайталап көріңіз.
+reset-password-recovery-phone-invalid-code-error-description = Код жарамсыз немесе мерзімі өтіп кеткен.
 reset-password-with-recovery-key-verified-page-title = Пароль тастау сәтті аяқталды
 reset-password-complete-new-password-saved = Жаңа пароль сақталды!
 reset-password-complete-recovery-key-created = Тіркелгіні қалпына келтірудің жаңа кілті жасалды. Оны қазір жүктеп алыңыз және сақтаңыз.
@@ -1618,8 +1652,12 @@ signin-recovery-method-phone = Қалпына келтіру телефоны
 
 signin-recovery-code-heading = Кіру
 signin-recovery-code-sub-heading = Сақтық аутентификация кодын енгізіңіз
+# code here refers to backup authentication code
+signin-recovery-code-input-label-v2 = 10-таңбалы кодты енгізіңіз
 # Form button to confirm if the backup authentication code entered by the user is valid
 signin-recovery-code-confirm-button = Растау
+# Link to go to the page to use recovery phone instead
+signin-recovery-code-phone-link = Қалпына келтіру телефонын қолдану
 # External link for support if the user can't use two-step autentication or a backup authentication code
 # https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 signin-recovery-code-support-link = Тіркелгі бұғатталған ба?
@@ -1733,3 +1771,8 @@ signup-change-email-link = Эл. поштаны өзгерту
 ## SignupConfirmedSync page
 ## Shown to users when they finish confirming their account through Sync
 
+signup-confirmed-sync-header = Синхрондау іске қосулы
+signup-confirmed-sync-success-banner = { -product-mozilla-account } расталған
+signup-confirmed-sync-button = Шолуды бастау
+signup-confirmed-sync-add-device-link = Басқа құрылғыны қосу
+signup-confirmed-sync-set-password-success-banner = Синхрондау паролі жасалды

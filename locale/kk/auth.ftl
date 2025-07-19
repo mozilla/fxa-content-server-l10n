@@ -2,16 +2,36 @@
 
 session-verify-send-push-title-2 = { -product-mozilla-account } тіркелгіңізге кіріп жатырсыз ба?
 session-verify-send-push-body-2 = Сіз екеніңізді растау үшін осында шертіңіз
+# Message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to verify phone ownership when registering a recovery phone
+recovery-phone-setup-sms-body = { $code } — сіздің { -brand-mozilla } растау кодыңыз. Оның мерзімі 5 минуттан кейін бітеді.
 # Shorter message sent by SMS with limited character length, please test translation with the messaging segment calculator
 # https://twiliodeved.github.io/message-segment-calculator/
 # Messages should be limited to one segment
 # $code  - 6 digit code used to verify phone ownership when registering a recovery phone
 recovery-phone-setup-sms-short-body = { -brand-mozilla } растау коды: { $code }
+# Message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to sign in with a recovery phone as backup for two-step authentication
+recovery-phone-signin-sms-body = { $code } — сіздің { -brand-mozilla } қалпына келтіру кодыңыз. Оның мерзімі 5 минуттан кейін бітеді.
 # Shorter message sent by SMS with limited character length, please test translation with the messaging segment calculator
 # https://twiliodeved.github.io/message-segment-calculator/
 # Messages should be limited to one segment
 # $code  - 6 digit code used to sign in with a recovery phone as backup for two-step authentication
 recovery-phone-signin-sms-short-body = { -brand-mozilla } коды: { $code }
+# Message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to sign in with a recovery phone as backup for account password reset
+recovery-phone-reset-password-sms-body = { $code } — сіздің { -brand-mozilla } қалпына келтіру кодыңыз. Оның мерзімі 5 минуттан кейін бітеді.
+# Shorter message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to sign in with a recovery phone as backup for account password reset
+recovery-phone-reset-password-short-body = { -brand-mozilla } коды: { $code }
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
@@ -188,12 +208,6 @@ subscriptionFirstInvoiceDiscount-content-discount-repeating = { $discountDuratio
 #  $invoiceTaxAmount (String) - The amount of the tax of the subscription invoice, including currency, e.g. $2.00
 subscriptionCharges-content-tax = Салықтар мен алымдар: { $invoiceTaxAmount }
 
-## Variables:
-##  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
-##  $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
-##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
-
-
 ##
 
 subscriptionSupport = Жазылуыңыз туралы сұрақтарыңыз бар ма? Біздің <a data-l10n-name="subscriptionSupportUrl">қолдау тобы</a> сізге көмектесе алады.
@@ -299,6 +313,8 @@ passwordChanged-subject = Пароль жаңартылды
 passwordChanged-title = Пароль сәтті өзгертілді
 passwordChanged-description-2 = Сіздің { -product-mozilla-account } тіркелгісінің паролі келесі құрылғыдан сәтті өзгертілді:
 passwordChangeRequired-subject = Күдікті әрекет анықталды
+passwordChangeRequired-preview = Пароліңізді дереу өзгертіңіз
+passwordChangeRequired-title-2 = Пароліңізді қалпына келтіріңіз
 password-forgot-otp-subject = Пароліңізді ұмыттыңыз ба?
 password-forgot-otp-title = Пароліңізді ұмыттыңыз ба?
 password-forgot-otp-request = Біз сіздің { -product-mozilla-account } тіркелгіңізді паролін өзгерту туралы сұрауды алдық:
