@@ -11,7 +11,7 @@ msgstr ""
 
 #: .es5/views/confirm_reset_password.js:170
 msgid "Password reset"
-msgstr "Resetarea parolei"
+msgstr "Resetare parolă"
 
 #: .es5/views/confirm_reset_password.js:185
 msgid "Password reset successfully. Sign in to continue."
@@ -21,7 +21,7 @@ msgstr "Parolă resetată cu succes. Autentifică-te pentru a continua."
 #: .es5/views/force_auth.js:170 .es5/lib/strings.js:49 .es5/templates/connect_another_device.mustache:16 .es5/templates/force_auth.mustache:3 .es5/templates/sign_in_password.mustache:3
 #: .es5/templates/sign_in_password.mustache:10
 msgid "Sign in"
-msgstr "Autentifică-te"
+msgstr "Autentificare"
 
 #: .es5/views/index.js:154
 msgid "Account deleted successfully"
@@ -65,11 +65,11 @@ msgstr "Finalizează configurarea prin introducerea noii parole pe celelalte dis
 
 #: .es5/views/ready.js:57
 msgid "You are now ready to make changes to your Mozilla account."
-msgstr ""
+msgstr "Acum îți poți modifica contul Mozilla."
 
 #: .es5/views/ready.js:59
 msgid "Primary email confirmed"
-msgstr ""
+msgstr "Adresă de e-mail primară confirmată"
 
 #: .es5/views/ready.js:62
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
@@ -77,7 +77,7 @@ msgstr "Notificările privind contul vor fi de acum trimise și la %(secondaryEm
 
 #: .es5/views/ready.js:64 .es5/views/post_verify/verified.js:40
 msgid "Secondary email confirmed"
-msgstr ""
+msgstr "Adresă de e-mail secundară confirmată"
 
 #: .es5/views/ready.js:69 .es5/templates/connect_another_device.mustache:7 .es5/templates/push/completed.mustache:1
 msgid "Sign-in confirmed"
@@ -89,7 +89,7 @@ msgstr "Ești gata să folosești %(serviceName)s"
 
 #: .es5/views/ready.js:74
 msgid "Account confirmed"
-msgstr ""
+msgstr "Cont confirmat"
 
 #: .es5/views/ready.js:79
 msgid "Connected"
@@ -122,7 +122,7 @@ msgstr "Îți mulțumim că ai apelat la Mozilla Support legat de <b>%(escapedLo
 #. aria label for banner/tooltip dismiss button
 #: .es5/views/tooltip.js:75 .es5/templates/partial/account-suggestion.mustache:2
 msgid "Close"
-msgstr ""
+msgstr "Închide"
 
 #: .es5/views/post_verify/verified.js:37
 msgid "Account notifications will now also be sent to %(secondaryEmail)s."
@@ -170,7 +170,7 @@ msgstr "Deschide Restmail"
 
 #: .es5/views/mixins/password-mixin.js:135 .es5/views/mixins/password-mixin.js:136
 msgid "Hide password"
-msgstr ""
+msgstr "Ascunde parola"
 
 #: .es5/views/mixins/password-mixin.js:155 .es5/views/mixins/password-mixin.js:156 .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
 msgid "Show password"
@@ -178,7 +178,7 @@ msgstr "Afișează parola"
 
 #: .es5/views/mixins/recovery-codes-mixin.js:68
 msgid "Firefox Backup Authentication Codes"
-msgstr ""
+msgstr "Conturi de autentificare de rezervă pentru Firefox"
 
 #: .es5/views/mixins/recovery-codes-mixin.js:124
 msgid "Two-step authentication enabled"
@@ -186,7 +186,7 @@ msgstr "Autentificare în doi pași activată"
 
 #: .es5/views/mixins/recovery-key-mixin.js:28
 msgid "Firefox Account Recovery Key"
-msgstr ""
+msgstr "Cheie de recuperare a contului Firefox"
 
 #: .es5/views/mixins/resend-mixin.js:46
 msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
@@ -210,7 +210,7 @@ msgstr "Tipărit"
 
 #: .es5/views/behaviors/settings.js:36 .es5/models/auth_brokers/web.js:27
 msgid "Account confirmed successfully"
-msgstr ""
+msgstr "Cont confirmat cu succes"
 
 #: .es5/models/support-form.js:23
 msgid "payment & billing"
@@ -458,7 +458,7 @@ msgstr "Jetonul TOTP nu a fost găsit"
 
 #: .es5/lib/auth-errors.js:230
 msgid "Backup authentication code not found"
-msgstr ""
+msgstr "Cod de autentificare de rezervă negăsit"
 
 #: .es5/lib/auth-errors.js:234
 msgid "Unavailable device command"
@@ -466,11 +466,11 @@ msgstr "Comandă de dispozitiv indisponibilă"
 
 #: .es5/lib/auth-errors.js:238
 msgid "Account recovery key not found"
-msgstr ""
+msgstr "Cheie de recuperare a contului negăsită"
 
 #: .es5/lib/auth-errors.js:242
 msgid "Invalid account recovery key"
-msgstr ""
+msgstr "Cheie de recuperare a contului nevalidă"
 
 #: .es5/lib/auth-errors.js:246 .es5/lib/auth-errors.js:254
 msgid "This request requires two step authentication enabled on your account."
@@ -506,7 +506,7 @@ msgstr "Actualizarea a fost respinsă, te rugăm să încerci din nou"
 
 #: .es5/lib/auth-errors.js:282
 msgid "Invalid or expired confirmation code"
-msgstr ""
+msgstr "Cod de confirmare nevalid sau expirat"
 
 #: .es5/lib/auth-errors.js:286 .es5/lib/auth-errors.js:486
 msgid "Server busy, try again soon"
@@ -527,7 +527,7 @@ msgstr "Acest punct terminal nu mai este suportat"
 
 #: .es5/lib/auth-errors.js:306
 msgid "Complete account setup, please <a href=\"/reset_password\">reset password</a> to continue."
-msgstr ""
+msgstr "Configurarea contului a fost finalizată. Te rugăm să <a href=\"/reset_password\">resetezi parola</a> pentru a continua."
 
 #: .es5/lib/auth-errors.js:314
 msgid "Login attempt cancelled"
@@ -587,7 +587,7 @@ msgstr "Este necesar un URL valid"
 
 #: .es5/lib/auth-errors.js:388
 msgid "Your confirmation email was just returned. Mistyped email?"
-msgstr ""
+msgstr "Mesajul de confirmare pe e-mail tocmai a fost returnat. Ai scris corect adresa?"
 
 #: .es5/lib/auth-errors.js:396
 msgid "Enter a valid email address. firefox.com does not offer email."
@@ -595,7 +595,7 @@ msgstr "Introdu o adresă de e-mail validă. firefox.com nu oferă adrese de e-m
 
 #: .es5/lib/auth-errors.js:404
 msgid "Mozilla accounts can only be placed into an IFRAME on approved sites"
-msgstr ""
+msgstr "Conturile Mozilla pot fi plasate numai într-un IFRAME pe site-urile aprobate"
 
 #: .es5/lib/auth-errors.js:423
 msgid "Verification link damaged"
@@ -667,15 +667,15 @@ msgstr "Cod de autentificare în doi pași nevalid"
 
 #: .es5/lib/auth-errors.js:560
 msgid "Backup authentication code required"
-msgstr ""
+msgstr "Necesită cod de autentificare de rezervă"
 
 #: .es5/lib/auth-errors.js:564
 msgid "Invalid backup authentication code"
-msgstr ""
+msgstr "Cod de autentificare de rezervă nevalid"
 
 #: .es5/lib/auth-errors.js:578
 msgid "Account recovery key required"
-msgstr ""
+msgstr "Necesită cheie de recuperare a contului"
 
 #: .es5/lib/auth-errors.js:582
 msgid "Please enter verification code"
@@ -695,7 +695,7 @@ msgstr "Mărimea fișierului de imagine este prea mare și nu poate fi încărca
 
 #: .es5/lib/auth-errors.js:612
 msgid "Email masks can’t be used to create an account."
-msgstr ""
+msgstr "Măștile de e-mail nu pot fi folosite la creat conturi."
 
 #: .es5/lib/auth-errors.js:685
 msgid "Firefox Accounts can only be placed into an IFRAME on approved sites"
