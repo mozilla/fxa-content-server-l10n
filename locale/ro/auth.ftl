@@ -303,6 +303,32 @@ inactiveAccountFinalWarning-subject = Ultima șansă ca să îți păstrezi { -p
 inactiveAccountFinalWarning-title = Contul { -brand-mozilla } și datele vor fi șterse
 inactiveAccountFinalWarning-preview = Autentifică-te ca să îți păstrezi contul
 inactiveAccountFinalWarning-account-description = Contul { -product-mozilla-account } este folosit pentru acces la produse gratuite de confidențialitate și navigare, cum ar fi sincronizarea { -brand-firefox }, { -product-mozilla-monitor }, { -product-firefox-relay } și { -product-mdn }.
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+# This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
+inactiveAccountFinalWarning-impact = La data de <strong>{ $deletionDate }strong>, contul și datele personale vor fi șterse definitiv dacă nu te conectezi.
+inactiveAccountFinalWarning-action = Autentifică-te ca să îți păstrezi contul
+# followed by link to sign in
+inactiveAccountFinalWarning-action-plaintext = Autentifică-te ca să îți păstrezi contul:
+inactiveAccountFirstWarning-subject = Nu-ți pierde contul
+inactiveAccountFirstWarning-title = Vrei să îți păstrezi contul și datele { -brand-mozilla }?
+inactiveAccountFirstWarning-account-description-v2 = Contul { -product-mozilla-account } este folosit pentru acces la produse gratuite de confidențialitate și navigare, cum ar fi sincronizarea { -brand-firefox }, { -product-mozilla-monitor }, { -product-firefox-relay } și { -product-mdn }.
+inactiveAccountFirstWarning-inactive-status = Am observat că nu te-ai conectat de 2 ani.
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+# This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
+inactiveAccountFirstWarning-impact = Contul și datele personale vor fi șterse definitiv pe data de <strong>{ $deletionDate }strong> pentru că nu ai fost activ(ă).
+inactiveAccountFirstWarning-action = Autentifică-te ca să îți păstrezi contul
+inactiveAccountFirstWarning-preview = Autentifică-te ca să îți păstrezi contul
+# followed by link to sign in
+inactiveAccountFirstWarning-action-plaintext = Autentifică-te ca să îți păstrezi contul:
+inactiveAccountSecondWarning-subject = Acțiune necesară: Contul va fi șters în 7 zile
+inactiveAccountSecondWarning-title = Contul { -brand-mozilla } și datele vor fi șterse în 7 zile
+inactiveAccountSecondWarning-account-description-v2 = Contul { -product-mozilla-account } este folosit pentru acces la produse gratuite de confidențialitate și navigare, cum ar fi sincronizarea { -brand-firefox }, { -product-mozilla-monitor }, { -product-firefox-relay } și { -product-mdn }.
+# $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
+inactiveAccountSecondWarning-impact = Contul și datele personale vor fi șterse definitiv pe data de <strong>{ $deletionDate }strong> pentru că nu ai fost activ(ă).
+inactiveAccountSecondWarning-action = Autentifică-te ca să îți păstrezi contul
+inactiveAccountSecondWarning-preview = Autentifică-te ca să îți păstrezi contul
+# followed by link to sign in
+inactiveAccountSecondWarning-action-plaintext = Autentifică-te ca să îți păstrezi contul:
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title-zero = Ai epuizat codurile de autentificare de rezervă!
 codes-reminder-title-one = Ai ajuns la ultimul cod de autentificare de rezevă
@@ -319,10 +345,50 @@ lowRecoveryCodes-subject-2 =
         [one] A mai rămas doar 1 cod de autentificare de rezervă
        *[other] Au mai rămas doar { $numberRemaining } (de) coduri de autentificare de rezervă!
     }
+# Variables:
+# $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+newDeviceLogin-subject = O autentificare nouă în { $clientName }
+newDeviceLogin-subjectForMozillaAccount = O autentificare nouă în { -product-mozilla-account }
+newDeviceLogin-title-3 = Contul tău { -product-mozilla-account } a fost folosit pentru autentificare
+# The "Not you?" question is asking whether the recipient of the email is the
+# person who performed the action that triggered the email.
+newDeviceLogin-change-password = Nu ai fost tu? <a data-l10n-name="passwordChangeLink">Schimbă-ți parola</a>.
+# The "Not you?" question is asking whether the recipient of the email is the
+# person who performed the action that triggered the email.
+newDeviceLogin-change-password-plain = Nu ai fost tu? Schimbă-ți parola:
 newDeviceLogin-action = Gestionează contul
 passwordChanged-subject = Parolă actualizată
 passwordChanged-title = Parolă modificată cu succes
+passwordChanged-description-2 = Parola { -product-mozilla-account } a fost schimbată cu succes de pe acest dispozitiv:
 passwordChangeRequired-subject = Activitate suspectă detectată
+password-forgot-otp-subject = Ți-ai uitat parola?
+password-forgot-otp-title = Ți-ai uitat parola?
+password-forgot-otp-request = Am primit o solicitare de schimbare a parolei pentru contul { -product-mozilla-account } de la:
+password-forgot-otp-code-2 = Dacă ai fost tu, iată codul de confirmare ca să continui:
+password-forgot-otp-expiry-notice = Codul expiră în 10 minute.
+passwordReset-subject-2 = Parola ta a fost resetată
+passwordReset-title-2 = Parola ta a fost resetată
+# This sentence is followed by information about the device and time of the password reset
+passwordReset-description-2 = Ți-ai resetat parola { -product-mozilla-account } pe:
+passwordResetAccountRecovery-subject-2 = Parola ta a fost resetată
+passwordResetAccountRecovery-title-3 = Parola ta a fost resetată
+# Followed by details on the device and date/time of the password reset.
+passwordResetAccountRecovery-description-3 = Ți-ai folosit cheia de recuperare a contului ca să îți resetezi parola { -product-mozilla-account } pe:
+passwordResetAccountRecovery-information = Te-am deconectat de pe toate dispozitivele sincronizate. Am creat o nouă cheie de recuperare a contului în locul celei pe care ai folosit-o. O poți modifica în setările contului.
+# After the colon there is a link to account settings
+passwordResetAccountRecovery-information-txt = Te-am deconectat de pe toate dispozitivele sincronizate. Am creat o nouă cheie de recuperare a contului în locul celei pe care ai folosit-o. O poți modifica în setările contului:
+passwordResetAccountRecovery-action-4 = Gestionează contul
+passwordResetWithRecoveryKeyPrompt-subject = Parola ta a fost resetată
+passwordResetWithRecoveryKeyPrompt-title = Parola ta a fost resetată
+# Details of the device and date/time where the password was reset
+passwordResetWithRecoveryKeyPrompt-description = Ți-ai resetat parola { -product-mozilla-account } pe:
+# Text for button action to create a new account recovery key
+passwordResetWithRecoveryKeyPrompt-action = Creează o cheie de recuperare a contului
+# colon is followed by a link to create an account recovery key from the account settings page
+passwordResetWithRecoveryKeyPrompt-action-txt = Creează o cheie de recuperare a contului:
+passwordResetWithRecoveryKeyPrompt-cta-description = Va trebui să te autentifici iar pe toate dispozitivele sincronizate. Data viitoare, păstrează-ți datele în siguranță cu o cheie de recuperare a contului. Îți permite recuperarea datelor dacă uiți parola.
+postAddAccountRecovery-subject-3 = A fost creată o cheie nouă de recuperare a contului
+postAddAccountRecovery-title2 = Ai creat o cheie nouă de recuperare a contului
 postAddAccountRecovery-action = Gestionează contul
 postAddTwoStepAuthentication-action = Gestionează contul
 postChangePrimary-subject = E-mail principal actualizat
