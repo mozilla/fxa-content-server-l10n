@@ -361,6 +361,14 @@ passwordChanged-subject = Parolă actualizată
 passwordChanged-title = Parolă modificată cu succes
 passwordChanged-description-2 = Parola { -product-mozilla-account } a fost schimbată cu succes de pe acest dispozitiv:
 passwordChangeRequired-subject = Activitate suspectă detectată
+passwordChangeRequired-preview = Schimbă-ți parola imediat
+passwordChangeRequired-title-2 = Resetează-ți parola
+passwordChangeRequired-suspicious-activity-3 = Ți-am blocat contul pentru a-l proteja de activități suspecte. Ai fost deconectat de pe toate dispozitivele tale, iar toate datele sincronizate au fost șterse ca măsură de precauție.
+passwordChangeRequired-sign-in-3 = Ca să intri iar în cont, trebuie doar să îți resetezi parola.
+passwordChangeRequired-different-password-2 = <b>Important:</b> Alege o parolă puternică, diferită de cea folosită anterior.
+passwordChangeRequired-different-password-plaintext-2 = Important: Alege o parolă puternică, diferită de cea folosită anterior.
+passwordChangeRequired-action = Resetează parola
+passwordChangeRequired-action-plaintext = { passwordChangeRequired-action }:
 password-forgot-otp-subject = Ți-ai uitat parola?
 password-forgot-otp-title = Ți-ai uitat parola?
 password-forgot-otp-request = Am primit o solicitare de schimbare a parolei pentru contul { -product-mozilla-account } de la:
@@ -378,6 +386,11 @@ passwordResetAccountRecovery-information = Te-am deconectat de pe toate dispozit
 # After the colon there is a link to account settings
 passwordResetAccountRecovery-information-txt = Te-am deconectat de pe toate dispozitivele sincronizate. Am creat o nouă cheie de recuperare a contului în locul celei pe care ai folosit-o. O poți modifica în setările contului:
 passwordResetAccountRecovery-action-4 = Gestionează contul
+passwordResetRecoveryPhone-subject = Număr de telefon de recuperare folosit
+passwordResetRecoveryPhone-preview = Verifică dacă ai fost tu
+passwordResetRecoveryPhone-title = Numărul de telefon de recuperare a fost folosit pentru confirmarea resetării parolei
+passwordResetRecoveryPhone-device = Număr de telefon de recuperare folosit de pe:
+passwordResetRecoveryPhone-action = Gestionează contul
 passwordResetWithRecoveryKeyPrompt-subject = Parola ta a fost resetată
 passwordResetWithRecoveryKeyPrompt-title = Parola ta a fost resetată
 # Details of the device and date/time where the password was reset
@@ -400,8 +413,16 @@ postAddLinkedAccount-subject-2 = Cont nou asociat cu { -product-mozilla-account 
 postAddLinkedAccount-title-2 = Contul tău { $providerName } a fost asociat cu { -product-mozilla-account }
 postAddLinkedAccount-action = Gestionează contul
 postAddRecoveryPhone-subject = Număr de telefon de recuperare adăugat
+postAddRecoveryPhone-preview = Cont protejat cu autentificare în doi pași
+postAddRecoveryPhone-title-v2 = Ai adăugat un număr de telefon pentru recuperare
+# Variables:
+#  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
+postAddRecoveryPhone-description-v2 = Ai adăugat { $maskedLastFourPhoneNumber } ca număr de telefon pentru recuperare
 # Links out to a support article about two factor authentication
 postAddRecoveryPhone-how-protect = Cum îți protejează contul
+postAddRecoveryPhone-how-protect-plaintext = Cum îți protejează contul:
+postAddRecoveryPhone-enabled-device = L-ai activat de pe:
+postAddRecoveryPhone-action = Gestionează contul
 postAddTwoStepAuthentication-preview = Contul tău este protejat
 postAddTwoStepAuthentication-subject-v3 = Autentificarea în doi pași este activă
 postAddTwoStepAuthentication-title-2 = Ai activat autentificarea în doi pași
@@ -415,10 +436,22 @@ postAddTwoStepAuthentication-recovery-method-codes = Ai adăugat și coduri de a
 postAddTwoStepAuthentication-recovery-method-phone = Ai adăugat și { $maskedPhoneNumber } ca număr de telefon pentru recuperare.
 postAddTwoStepAuthentication-how-protects-link = Cum îți protejează contul
 postAddTwoStepAuthentication-how-protects-plaintext = Cum îți protejează contul
-postChangePrimary-subject = E-mail principal actualizat
-postChangePrimary-title = E-mail principal nou
+postChangeAccountRecovery-subject = Cheie de recuperare a contului modificată
+postChangeAccountRecovery-title = Ți-ai modificat cheia de recuperare a contului
+postChangeAccountRecovery-body-part1 = Acum ai o cheie nouă de recuperare a contului. Cea anterioară a fost ștearsă.
+postChangeAccountRecovery-body-part2 = Salvează cheia nouă într-un loc sigur — vei avea nevoie de ea ca să restaurezi datele de navigare criptate dacă uiți parola.
+postChangeAccountRecovery-action = Gestionează contul
+postChangePrimary-subject = Adresă de e-mail primară actualizată
+postChangePrimary-title = Adresă de e-mail primară nouă
+# Variables:
+#  $email (String) - A user's email address
+postChangePrimary-description-2 = Ai schimbat cu succes adresa de e-mail primară în { $email }. Aceasta este acum numele de utilizator ca să intri în contul { -product-mozilla-account } și pentru primirea notificărilor de securitate și a confirmărilor de conectare.
 postChangePrimary-action = Gestionează contul
+postChangeRecoveryPhone-subject = Număr de telefon de recuperare actualizat
 postChangeRecoveryPhone-preview = Cont protejat cu autentificare în doi pași
+postChangeRecoveryPhone-title = Ți-ai schimbat numărul de telefon pentru recuperare
+postChangeRecoveryPhone-description = Acum ai un nou număr de telefon pentru recuperare. Numărul anterior a fost șters.
+postChangeRecoveryPhone-requested-device = Ai făcut cererea de pe:
 postConsumeRecoveryCode-title-3 = Codul de autentificare de rezervă a fost folosit pentru a confirma resetarea parolei.
 # After the colon, there is description of the device that the backup authentication code was used on
 # E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
@@ -426,7 +459,15 @@ postConsumeRecoveryCode-description-3 = Cod utilizat din:
 postConsumeRecoveryCode-action = Gestionează contul
 postConsumeRecoveryCode-subject-v3 = Cod de autentificare de rezervă utilizat
 postConsumeRecoveryCode-preview = Verifică dacă ai fost tu
+postNewRecoveryCodes-subject-2 = Coduri noi de autentificare de rezervă create
+postNewRecoveryCodes-title-2 = Ai creat coduri noi de autentificare de rezervă
+# After the colon, there is information about the device that the authentication codes were created on
+postNewRecoveryCodes-description-2 = Au fost create pe:
 postNewRecoveryCodes-action = Gestionează contul
+postRemoveAccountRecovery-subject-2 = Cheie de recuperare a contului ștearsă
+postRemoveAccountRecovery-title-3 = Ți-ai șters cheia de recuperare a contului
+postRemoveAccountRecovery-body-part1 = Ai nevoie de cheia de recuperare a contului ca să restaurezi datele de navigare criptate dacă uiți parola.
+postRemoveAccountRecovery-body-part2 = Dacă nu ai făcut-o deja, creează o cheie nouă de recuperare a contului în setările contului pentru a preveni pierderea parolelor salvate, a marcajelor, a istoricului de navigare și a altor date.
 postRemoveAccountRecovery-action = Gestionează contul
 postRemoveRecoveryPhone-subject = Telefonul de recuperare a fost eliminat
 postRemoveRecoveryPhone-preview = Cont protejat cu autentificare în doi pași
@@ -434,9 +475,14 @@ postRemoveRecoveryPhone-title = Telefonul de recuperare a fost eliminat
 postRemoveRecoveryPhone-description-v2 = Numărul de telefon de recuperare a fost eliminat din setările pentru autentificare în doi pași.
 postRemoveRecoveryPhone-description-extra = Poți folosi în continuare codurile de autentificare de rezervă pentru conectare dacă nu poți utiliza aplicația de autentificare.
 postRemoveRecoveryPhone-requested-device = Ai făcut cererea de pe:
-postRemoveSecondary-subject = E-mail secundar eliminat
-postRemoveSecondary-title = E-mail secundar eliminat
+postRemoveSecondary-subject = Adresă de e-mail secundară eliminată
+postRemoveSecondary-title = Adresă de e-mail secundară eliminată
+# Variables:
+#  $secondaryEmail (String) - A user's email address
+postRemoveSecondary-description-2 = Ai eliminat cu succes { $secondaryEmail } ca adresă de e-mail secundară din contul tău { -product-mozilla-account }. Notificările de securitate și confirmările de autentificare nu vor mai fi trimise la această adresă.
 postRemoveSecondary-action = Gestionează contul
+postRemoveTwoStepAuthentication-subject-line-2 = Autentificare în doi pași dezactivată
+postRemoveTwoStepAuthentication-title-2 = Ai dezactivat autentificarea în doi pași
 # After the colon is a description of the device the user used to disable two-step authentication
 postRemoveTwoStepAuthentication-from-device = L-ai dezactivat de pe:
 postRemoveTwoStepAuthentication-action = Gestionează contul
