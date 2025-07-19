@@ -253,6 +253,12 @@ subscriptionUpdatePayment = Pentru a preveni orice întrerupere a serviciului, <
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Pentru a preveni orice întrerupere a serviciului, actualizează-ți informațiile de plată cât mai curând posibil:
 # Variables:
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-3 = Pentru mai multe informații, intră pe <a data-l10n-name="supportLink">{ -brand-mozilla } Asistență</a>.
+# Variables:
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-plaintext = Pentru mai multe informații, intră pe { -brand-mozilla } Asistență: { $supportUrl }.
+# Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 #  $uaOSVersion (String) - User's OS version, e.g. 10.11
@@ -274,8 +280,45 @@ cadReminderFirst-title-1 = Îți trebuie două pentru sincronizare
 cadReminderFirst-description-v2 = Ia-ți cu tine filele pe toate dispozitivele. Ia cu tine marcajele, parolele și alte date oriunde folosești { -brand-firefox }.
 cadReminderSecond-subject-2 = Nu rata! Să finalizăm setarea sincronizării
 cadReminderSecond-action = Sincronizează alt dispozitiv
+cadReminderSecond-title-2 = Nu uita să sincronizezi!
 cadReminderSecond-description-sync = Sincronizează-ți marcajele, parolele, filele deschise și multe altele — oriunde folosești { -brand-firefox }.
 cadReminderSecond-description-plus = În plus, datele tale sunt întotdeauna criptate. Numai tu și dispozitivele pe care le aprobi le puteți vedea.
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+downloadSubscription-subject = Bine ai venit la { $productName }
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+downloadSubscription-title = Bine ai venit la { $productName }
+downloadSubscription-content-2 = Hai să începem să folosim toate funcționalitățile incluse în abonamentul tău:
+downloadSubscription-link-action-2 = Începe
+fraudulentAccountDeletion-subject-2 = Contul tău { -product-mozilla-account } a fost șters
+fraudulentAccountDeletion-title = Contul tău a fost șters
+fraudulentAccountDeletion-content-part1-v2 = Recent, a fost creat un { -product-mozilla-account } și a fost facturat un abonament folosind această adresă de e-mail. Așa cum procedăm cu toate conturile noi, te-am rugat să îți confirmi contul validând mai întâi această adresă de e-mail.
+fraudulentAccountDeletion-content-part2-v2 = Vedem acum că acel cont nu a fost niciodată confirmat. Cum nu a fost finalizat acest pas, nu suntem siguri dacă a fost un abonament autorizat. Drept urmare, { -product-mozilla-account } înregistrat cu această adresă de e-mail a fost șters, iar abonamentul a fost anulat, toate taxele fiind rambursate.
+fraudulentAccountDeletion-contact = Pentru orice întrebări, contactează <a data-l10n-name="mozillaSupportUrl">echipa de asistență</a>.
+# Variables:
+#  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
+fraudulentAccountDeletion-contact-plaintext = Pentru orice întrebări, contactează echipa de asistență: { $mozillaSupportUrl }
+inactiveAccountFinalWarning-subject = Ultima șansă ca să îți păstrezi { -product-mozilla-account }
+inactiveAccountFinalWarning-title = Contul { -brand-mozilla } și datele vor fi șterse
+inactiveAccountFinalWarning-preview = Autentifică-te ca să îți păstrezi contul
+inactiveAccountFinalWarning-account-description = Contul { -product-mozilla-account } este folosit pentru acces la produse gratuite de confidențialitate și navigare, cum ar fi sincronizarea { -brand-firefox }, { -product-mozilla-monitor }, { -product-firefox-relay } și { -product-mdn }.
+# The user has a low number of valid recovery codes remaining for use
+codes-reminder-title-zero = Ai epuizat codurile de autentificare de rezervă!
+codes-reminder-title-one = Ai ajuns la ultimul cod de autentificare de rezevă
+codes-reminder-title-two = E momentul să creezi mai multe coduri de autentificare de rezervă
+codes-reminder-description-part-one = Codurile de autentificare de rezervă te ajută să îți restaurezi informațiile când uiți parola.
+codes-reminder-description-part-two = Creează coduri noi acum ca să nu îți pierzi datele mai târziu.
+codes-reminder-description-two-left = Mai ai numai două coduri rămase.
+codes-reminder-description-create-codes = Creează coduri de autentificare de rezervă nou ca să te ajute să intri din nou în cont dacă este blocat.
+lowRecoveryCodes-action-2 = Creează coduri
+codes-create-plaintext = { lowRecoveryCodes-action-2 }:
+lowRecoveryCodes-subject-2 =
+    { $numberRemaining ->
+        [0] Nu mai ai niciun cod de autentificare de rezervă
+        [one] A mai rămas doar 1 cod de autentificare de rezervă
+       *[other] Only { $numberRemaining } backup authentication codes left!
+    }
 newDeviceLogin-action = Gestionează contul
 passwordChanged-subject = Parolă actualizată
 passwordChanged-title = Parolă modificată cu succes
