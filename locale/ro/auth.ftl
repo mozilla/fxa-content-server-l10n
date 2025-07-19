@@ -317,7 +317,7 @@ lowRecoveryCodes-subject-2 =
     { $numberRemaining ->
         [0] Nu mai ai niciun cod de autentificare de rezervă
         [one] A mai rămas doar 1 cod de autentificare de rezervă
-       *[other] Only { $numberRemaining } backup authentication codes left!
+       *[other] Au mai rămas doar { $numberRemaining } (de) coduri de autentificare de rezervă!
     }
 newDeviceLogin-action = Gestionează contul
 passwordChanged-subject = Parolă actualizată
