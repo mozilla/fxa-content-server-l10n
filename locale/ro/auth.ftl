@@ -398,8 +398,13 @@ postAddLinkedAccount-subject-2 = Cont nou asociat cu { -product-mozilla-account 
 #  Variables:
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = Contul tău { $providerName } a fost asociat cu { -product-mozilla-account }
+postAddLinkedAccount-action = Gestionează contul
+postAddRecoveryPhone-subject = Număr de telefon de recuperare adăugat
+# Links out to a support article about two factor authentication
+postAddRecoveryPhone-how-protect = Cum îți protejează contul
 postAddTwoStepAuthentication-preview = Contul tău este protejat
 postAddTwoStepAuthentication-subject-v3 = Autentificarea în doi pași este activă
+postAddTwoStepAuthentication-title-2 = Ai activat autentificarea în doi pași
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postAddTwoStepAuthentication-from-device-v2 = Ai făcut cererea de pe:
 postAddTwoStepAuthentication-action = Gestionează contul
@@ -442,6 +447,12 @@ postSigninRecoveryCode-title = Codul de autentificare de rezervă a fost folosit
 postSigninRecoveryCode-description = Dacă nu ai făcut-o tu, trebuie să îți schimbi imediat parola ca să îți păstrezi contul în siguranță.
 postSigninRecoveryCode-device = Te-ai conectat de pe:
 postSigninRecoveryCode-action = Gestionează contul
+postSigninRecoveryPhone-subject = Număr de telefon de recuperare folosit pentru autentificare
+postSigninRecoveryPhone-preview = Confirmă activitatea contului
+postSigninRecoveryPhone-title = Numărul de telefon de recuperare a fost folosit pentru autentificare
+postSigninRecoveryPhone-description = Dacă nu ai făcut-o tu, trebuie să îți schimbi imediat parola ca să îți păstrezi contul în siguranță.
+postSigninRecoveryPhone-device = Te-ai conectat de pe:
+postSigninRecoveryPhone-action = Gestionează contul
 postVerify-sub-title-3 = Suntem încântați să te vedem!
 postVerify-title-2 = Vrei să vezi aceeași filă pe două dispozitive?
 postVerify-description-2 = E simplu! Instalează { -brand-firefox } pe un alt dispozitiv și autentifică-te pentru sincronizare. E ca prin magie!
@@ -534,9 +545,47 @@ subscriptionFailedPaymentsCancellation-title = Abonamentul a fost anulat
 subscriptionFailedPaymentsCancellation-content = Ți-am anulat abonamentul la { $productName } pentru că au eșuat mai multe încercări de plată. Pentru a obține iar accesul, fă-ți un abonament nou cu o metodă de plată actualizată.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoice-subject = Plată confirmată pentru { $productName }
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoice-title = Îți mulțumim că te-ai abonat la { $productName }
+subscriptionFirstInvoice-content-processing = Plata efectuată este în procesare și poate dura până la patru zile lucrătoare.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFirstInvoice-content-install-2 = Vei primi un mesaj nou pe e-mail despre cum să începi să utilizezi { $productName }.
+subscriptionFirstInvoice-content-auto-renew = Abonamentul se va reînnoi automat cu o perioadă de facturare, cu excepția cazului în care alegi să îl anulezi.
+# Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+subscriptionFirstInvoice-content-next-invoice = Următoarea factură: { $nextInvoiceDateOnly }
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-subject-1 = Cardul de credit pentru { $productName } a expirat sau va expira în curând
+subscriptionPaymentExpired-title-1 = Cardul de credit este expirat sau va expira în curând
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-content-1 = Cardul de credit pe care îl folosești ca să faci plăți pentru { $productName } este expirat sau va expira în curând.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentFailed-subject = Plata pentru { $productName } a eșuat
+subscriptionPaymentFailed-title = Ne pare rău, întâmpinăm probleme cu plata ta
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentFailed-content-problem = Am întâmpinat o problemă cu ultima ta plată pentru { $productName }.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-subject = Este necesară actualizarea informațiilor de plată pentru { $productName }
+subscriptionReplaced-subject = Abonamentul a fost actualizat ca parte a trecerii la o versiune superioară
+subscriptionReplaced-title = Abonamentul a fost actualizat
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReplaced-content-replaced = Abonamentul tău individual { $productName } a fost înlocuit și acum este inclus în noul pachet.
+subscriptionReplaced-content-credit = Vei primi un credit pentru timpul neutilizat din abonamentul anterior. Acest credit va fi aplicat automat contului tău și utilizat pentru plăți viitoare.
+subscriptionReplaced-content-no-action = Nu necesită nicio acțiune din partea ta.
 subscriptionsPaymentProviderCancelled-subject = Este necesară actualizarea informațiilor de plată pentru abonamente { -brand-mozilla }
 subscriptionUpgrade-title = Îți mulțumim că ai trecut la noua versiune!
+# Variables:
+# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
+# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-upgrade-info-2 = Ai trecut cu succes la versiunea superioară de { $productName }.
 
 ## Variables:
 ## $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
@@ -546,6 +595,12 @@ subscriptionUpgrade-title = Îți mulțumim că ai trecut la noua versiune!
 ## $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
+subscriptionUpgrade-content-charge-prorated-1 = Ți s-a perceput o taxă unică de { $invoiceAmountDue } pentru a reflecta prețul mai mare al abonamentului pentru restul acestei perioade de facturare ({ $productPaymentCycleOld }).
+subscriptionUpgrade-content-charge-credit = Ai primit un credit în cont în valoare de { $paymentProrated }.
+subscriptionUpgrade-content-starting = Începând cu următoarea factură, taxa se va modifica din { $paymentAmountOld } pe { $productPaymentCycleOld } în { $paymentAmountNew } pe { $productPaymentCycleNew }.
+# Variables:
+# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-existing = Dacă oricare dintre abonamentele tale existente se suprapune cu această trecere la o versiune superioară, le vom gestiona și îți vom trimite un mesaj separat pe e-mail cu detaliile. Dacă noul tău plan include produse care necesită instalare, îți vom trimite un mesaj separat pe e-mail cu instrucțiuni de configurare.
 subscriptionUpgrade-auto-renew = Abonamentul se va reînnoi automat cu o perioadă de facturare, cu excepția cazului în care alegi să îl anulezi.
 unblockCode-subject = Cod de autorizare al contului
 unblockCode-title = Tu ești persoana care se autentifică?
@@ -553,8 +608,36 @@ unblockCode-prompt = Dacă da, iată codul de autorizare de care ai nevoie:
 unblockCode-report-plaintext = Dacă nu, ajută-ne să blocăm intrușii și raportează-ne.
 verify-subject = Finalizează crearea contului
 verifyLogin-action = Confirmă autentificarea
+# Variables:
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-subject-line-2 = Aprobă conectarea la { $serviceName }
+# Variables:
+#  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
+verifyLoginCode-title-2 = Te-ai autentificat în { $serviceName }?
+# After the colon is a description of the device used to sign in to the service
+verifyLoginCode-safe = Ajută-ne să îți protejăm contul aprobând autentificarea în:
+verifyLoginCode-prompt-3 = Dacă da, iată codul tău de autorizare:
 verifyLoginCode-expiry-notice = Expiră în 5 minute.
+verifyPrimary-title-2 = Confirmă adresa primară de e-mail
 verifyPrimary-description = A fost trimisă o cerere de modificare a contului tău pe următorul dispozitiv:
 verifyPrimary-subject = Confirmă e-mailul principal
+verifyPrimary-action-2 = Confirmă adresa de e-mail
+verifyPrimary-action-plaintext-2 = { verifyPrimary-action-2 }:
+verifyPrimary-post-verify-2 = Odată confirmată, vor fi posibile modificări ale contului de pe acest dispozitiv, precum adăugarea unei adrese de e-mail secundare.
 verifySecondaryCode-subject = Confirmă adresa de e-mail secundară
+verifySecondaryCode-title-2 = Confirmă adresa de e-mail secundară
+verifySecondaryCode-action-2 = Confirmă adresa de e-mail
+# Variables:
+#  $email (string) A user's unverified secondary email address
+verifySecondaryCode-explainer-2 = A fost trimisă o cerere pentru a folosi { $email } ca adresă de e-mail secundară de pe următorul cont { -product-mozilla-account }:
+verifySecondaryCode-prompt-2 = Folosește acest cod de confirmare:
+verifySecondaryCode-expiry-notice-2 = Expiră în 5 minute. Odată confirmată, această adresă va începe să primească notificări de securitate și confirmări.
+# Variables:
+#  $code (Number) - e.g. 123456
+verifyShortCode-subject-3 = Confirmă contul
+verifyShortCode-preview = Folosește codul inclus pentru a-ți confirma contul { -product-mozilla-account }.
+verifyShortCode-title-3 = Intră pe internet cu { -brand-mozilla }
+# Information on the browser and device triggering this confirmation email follows below this string.
+verifyShortCode-title-subtext-2 = Confirmă-ți contul și obține maximul de la { -brand-mozilla } oriunde te autentifici, începând cu:
+verifyShortCode-prompt-3 = Folosește acest cod de confirmare:
 verifyShortCode-expiry-notice = Expiră în 5 minute.

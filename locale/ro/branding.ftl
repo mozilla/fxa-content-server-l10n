@@ -38,6 +38,15 @@
                *[lower] conturi Firefox
             }
     }
+# "account" can and should be localized, "Mozilla" must be treated as a brand. Singular "Mozilla account" should be used in most cases.
+-product-mozilla-account = Cont Mozilla
+# "accounts" can and should be localized, "Mozilla" must be treated as a brand. Plural "Mozilla accounts" is used when referring to something affecting all Mozilla accounts, not just the individual's account.
+# "accounts" should be lowercase in almost all cases. Uppercase is reserved for special use cases where headline case is necessary, for example legal document names and references.
+-product-mozilla-accounts =
+    { $capitalization ->
+        [uppercase] Conturi Mozilla
+       *[lowercase] conturi Mozilla
+    }
 # "account" should be localized and lowercase, "Firefox" must be treated as a brand.
 # This is used to refer to a user's account, e.g. "update your Firefox account ..."
 -product-firefox-account =
@@ -58,7 +67,21 @@
                *[lower] cont Firefox
             }
     }
+-product-mozilla-vpn = Mozilla VPN
+-product-mozilla-vpn-short = VPN
+-product-mozilla-hubs = Mozilla Hubs
+# Mozilla Developer Network
+-product-mdn = MDN
+-product-mdn-plus = MDN Plus
 -product-firefox-cloud = Firefox Cloud
+-product-mozilla-monitor = Mozilla Monitor
+-product-mozilla-monitor-short = Monitor
+-product-firefox-relay = Firefox Relay
+-product-firefox-relay-short = Relay
+-product-pocket = Pocket
+-brand-apple = Apple
 -brand-google = Google
+-brand-paypal = PayPal
+-brand-name-stripe = Stripe
 -app-store = App Store
 -google-play = Google Play
