@@ -225,6 +225,14 @@ subscriptionFirstInvoiceDiscount-content-discount-repeating = { $discountDuratio
 #  $invoiceTaxAmount (String) - The amount of the tax of the subscription invoice, including currency, e.g. $2.00
 subscriptionCharges-content-tax = Taxe și comisioane: { $invoiceTaxAmount }
 
+## Variables:
+##  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+##  $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
+##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
+
+subscriptionFirstInvoice-content-total-due = { $invoiceAmountDue } facturat la data de { $invoiceDateOnly }
+subscriptionFirstInvoice-content-credit = Ai primit un credit în cont de { $invoiceTotal }, care va fi aplicat în facturile viitoare.
+
 ##
 
 subscriptionSupport = Ai întrebări despre abonament? <a data-l10n-name="subscriptionSupportUrl">Echipa de asistență</a> este aici ca să te ajute.
@@ -238,10 +246,36 @@ subscriptionSupportContact-plaintext = Îți mulțumim că te-ai abonat la { $pr
 subscriptionUpdateBillingEnsure = Te poți asigura că metoda de plată și informațiile contului sunt la zi <a data-l10n-name="updateBillingUrl">aici</a>.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdateBillingEnsure-plaintext = Te poți asigura că metoda de plată și informațiile contului sunt la zi aici:
+subscriptionUpdateBillingTry = Vom încerca din nou plata în următoarele zile, dar este posibil să fie nevoie să ne ajuți să remediem problema <a data-l10n-name="updateBillingUrl">actualizând informațiile de plată</a>.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
-subscriptionUpdatePayment-plaintext = Pentru a preveni orice întrerupere a serviciului, actualizează-ți informațiile pentru plăți cât mai curând posibil:
+subscriptionUpdateBillingTry-plaintext = Vom încerca din nou plata în următoarele zile, dar este posibil să fie nevoie să ne ajuți să remediem problema actualizând informațiile de plată.
+subscriptionUpdatePayment = Pentru a preveni orice întrerupere a serviciului, <a data-l10n-name="updateBillingUrl">actualizează-ți informațiile de plată</a> cât mai curând posibil.
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
+subscriptionUpdatePayment-plaintext = Pentru a preveni orice întrerupere a serviciului, actualizează-ți informațiile de plată cât mai curând posibil:
+# Variables:
+#  $uaBrowser (String) - User's browser, e.g. Firefox
+#  $uaOS (String) - User's OS, e.g. Mac OSX
+#  $uaOSVersion (String) - User's OS version, e.g. 10.11
+device-all = { $uaBrowser } pe { $uaOS } { $uaOSVersion }
+# Variables:
+#  $uaBrowser (String) - User's browser, e.g. Firefox
+#  $uaOS (String) - User's OS, e.g. Mac OSX
+device-browser-os = { $uaBrowser } pe { $uaOS }
+view-invoice = <a data-l10n-name="invoiceLink">Vezi factura</a>.
+# Variables:
+#  $invoiceLink (String) - The link to the invoice
+# After the colon, there's a link to https://pay.stripe.com/
+view-invoice-plaintext = Vezi factura: { $invoiceLink }
+cadReminderFirst-subject-1 = Memento! Hai să sincronizăm { -brand-firefox }
 cadReminderFirst-action = Sincronizează alt dispozitiv
+cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
+# In the title of the email, "It takes two to sync", "two" refers to syncing two devices
+cadReminderFirst-title-1 = Îți trebuie două pentru sincronizare
+cadReminderFirst-description-v2 = Ia-ți cu tine filele pe toate dispozitivele. Ia cu tine marcajele, parolele și alte date oriunde folosești { -brand-firefox }.
+cadReminderSecond-subject-2 = Nu rata! Să finalizăm setarea sincronizării
 cadReminderSecond-action = Sincronizează alt dispozitiv
+cadReminderSecond-description-sync = Sincronizează-ți marcajele, parolele, filele deschise și multe altele — oriunde folosești { -brand-firefox }.
+cadReminderSecond-description-plus = În plus, datele tale sunt întotdeauna criptate. Numai tu și dispozitivele pe care le aprobi le puteți vedea.
 newDeviceLogin-action = Gestionează contul
 passwordChanged-subject = Parolă actualizată
 passwordChanged-title = Parolă modificată cu succes
@@ -272,6 +306,10 @@ subscriptionCancellation-title = Ne pare rău că pleci
 ##   $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
 
 subscriptionDowngrade-content-auto-renew = Abonamentul se va reînnoi automat cu o perioadă de facturare, cu excepția cazului în care alegi să îl anulezi.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentProviderCancelled-subject = Este necesară actualizarea informațiilor de plată pentru { $productName }
+subscriptionsPaymentProviderCancelled-subject = Este necesară actualizarea informațiilor de plată pentru abonamente { -brand-mozilla }
 subscriptionUpgrade-title = Îți mulțumim că ai trecut la noua versiune!
 
 ## Variables:

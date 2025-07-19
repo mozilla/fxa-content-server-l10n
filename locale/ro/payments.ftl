@@ -7,24 +7,16 @@
 
 settings-home = Pagina principală a contului
 
-## Component - CouponForm
-
-
 ## Component - Fields
 
 default-input-error = Acest câmp este obligatoriu
 input-error-is-required = { $label } este necesar
 
-## Component - Header
-
-
-## Component - NewUserEmailForm
-
-
 ## Component - PaymentConfirmation
 
 payment-confirmation-order-heading = Detalii comandă
 payment-confirmation-invoice-number = Factura #{ $invoiceNumber }
+payment-confirmation-details-heading-2 = Informații pentru plăți
 payment-confirmation-amount = { $amount } per { $interval }
 # $amount (Number) - The amount billed. It will be formatted as currency.
 # $intervalCount (Number) - The interval between payments, in days.
@@ -60,15 +52,9 @@ payment-confirmation-amount-year =
     }
 payment-confirmation-download-button = Continuă cu descărcarea
 
-## Component - PaymentConsentCheckbox
-
-
 ## Component - PaymentErrorView
 
 payment-error-manage-subscription-button = Gestionează abonamentul meu
-
-## Component - PaymentErrorView - IAP upgrade errors
-
 
 ## Component - PaymentForm
 
@@ -82,9 +68,6 @@ payment-update-btn = Actualizează
 payment-pay-btn = Plătește acum
 payment-validate-name-error = Te rugăm să îți introduci numele
 
-## Component - PaymentLegalBlurb
-
-
 ## Component - PaymentMethodHeader
 
 # This message is used to indicate the second step in a multi step process.
@@ -93,12 +76,6 @@ payment-method-header-second-step = 2. { payment-method-header }
 ## Component - PaymentProcessing
 
 payment-processing-message = Vă rugăm să așteptați în timp ce procesăm plata dvs. …
-
-## Component - PaymentProviderDetails
-
-
-## Component - PayPalButton
-
 
 ## Component - PlanDetails
 
@@ -110,11 +87,6 @@ plan-details-total-label = Total
 ## Component - PlanErrorDialog
 
 product-no-such-plan = Nu există un astfel de plan pentru acest produs.
-
-## Price details including tax
-## $priceAmount (Number) - The amount billed. It will be formatted as currency.
-## $taxAmount (Number) - The tax added on, not included in amount. It will be formatted as currency.
-
 
 ## Component - SubscriptionTitle
 
@@ -136,10 +108,6 @@ document =
 close-aria =
     .aria-label = Închide fereastra de dialog
 settings-subscriptions-title = Abonamente
-
-## Subscription upgrade plan details - shared by multiple components, including plan details and payment form
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
 
 ## Error messages
 
@@ -164,38 +132,20 @@ product-customer-error =
     .title = Problemă la încărcarea clientului
 product-plan-not-found = Planul nu a fost găsit
 
-## Hooks - coupons
-
-
-## Routes - Checkout - New user
-
-
 ## Routes - Product and Subscriptions
 
+sub-update-payment-title = Informații pentru plăți
 
 ## Routes - Product/AcceptedCards
 ## Used in both Routes - Checkout and Product/SubscriptionCreate
 
 pay-with-heading-card-only = Plătește cu cardul
 
-## Routes - Product - IapRoadblock
-
-
-# The following are not terms because they are not used directly in messages,
-# but rather looked up in code and passed into the message as variables.
-
-
 ## Routes - Product - Subscription upgrade
 
 sub-update-current-plan-label = Plan curent
 sub-update-new-plan-label = Plan nou
 sub-update-total-label = Total nou
-
-## Checkout line item for subscription plan change listing the product name and frequency of payment
-## For example, a Mozilla VPN subscription charged monthly would appear as: Mozilla VPN (Monthly)
-## Variables:
-##   $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
-
 
 ## Routes - Subscriptions - Cancel
 
@@ -282,6 +232,3 @@ reactivate-confirm-button = Reabonare
 reactivate-panel-copy = Vei pierde accesul la { $name } pe data de <strong>{ $date }</strong>.
 reactivate-success-copy = Îți mulțumim! Totul este gata.
 reactivate-success-button = Închide
-
-## Routes - Subscriptions - Subscription iap item
-
