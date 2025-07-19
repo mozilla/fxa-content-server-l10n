@@ -715,7 +715,7 @@ msgstr "Sigur ai scris corect adresa?"
 
 #: .es5/lib/newsletters.js:24
 msgid "Early access to test new products"
-msgstr ""
+msgstr "Acces timpuriu pentru testarea de produse noi"
 
 #: .es5/lib/newsletters.js:28
 msgid "Get the latest news about Mozilla and Firefox"
@@ -723,7 +723,7 @@ msgstr "Primește ultimele știri despre Mozilla și Firefox"
 
 #: .es5/lib/newsletters.js:32
 msgid "Help keep the internet healthy"
-msgstr ""
+msgstr "Ajută la menținerea sănătății internetului"
 
 #: .es5/lib/newsletters.js:36
 msgid "Be safer and smarter online"
@@ -731,7 +731,7 @@ msgstr "Fii mai în siguranță și mai inteligent online"
 
 #: .es5/lib/newsletters.js:40
 msgid "Security & privacy news and updates"
-msgstr ""
+msgstr "Știri și actualizări despre securitate și confidențialitate"
 
 #: .es5/lib/oauth-errors.js:27
 msgid "Unknown client"
@@ -837,7 +837,7 @@ msgstr ""
 
 #: .es5/lib/strings.js:33
 msgid "<a href=\"https://support.mozilla.org/kb/im-having-problems-my-firefox-account\">Help</a>"
-msgstr ""
+msgstr "<a href=\"https://support.mozilla.org/kb/im-having-problems-my-firefox-account\">Ajutor</a>"
 
 #: .es5/lib/strings.js:37
 msgid "Get the latest news about Mozilla and Firefox."
@@ -885,7 +885,7 @@ msgstr "Primește un link nou"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:5
 msgid "Reset password with account recovery key"
-msgstr ""
+msgstr "Resetează parola cu cheia de recuperare a contului"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:6 .es5/templates/force_auth.mustache:4 .es5/templates/index.mustache:7 .es5/templates/inline_recovery_setup.mustache:2
 #: .es5/templates/inline_recovery_setup.mustache:13 .es5/templates/inline_totp_setup.mustache:2 .es5/templates/inline_totp_setup.mustache:8 .es5/templates/inline_totp_setup.mustache:11
@@ -896,7 +896,7 @@ msgstr "Continuă cu %(serviceName)s"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:7
 msgid "Please enter the one time use account recovery key you stored in a safe place to regain access to your Mozilla account."
-msgstr ""
+msgstr "Te rugăm să introduci cheia de recuperare a contului de unică folosință pe care ai păstrat-o într-un loc sigur ca să recuperezi accesul la contul tău Mozilla."
 
 #: .es5/templates/account_recovery_confirm_key.mustache:8
 msgid "<span class=\"note\">NOTE:</span> If you reset your password and don't have account recovery key saved, some of your data will be erased (including synced server data like history and bookmarks)."
@@ -906,7 +906,7 @@ msgstr ""
 
 #: .es5/templates/account_recovery_confirm_key.mustache:9
 msgid "Enter account recovery key"
-msgstr ""
+msgstr "Introdu cheia de recuperare a contului"
 
 #: .es5/templates/account_recovery_confirm_key.mustache:10
 msgid "Confirm account recovery key"
