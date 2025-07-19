@@ -389,24 +389,79 @@ passwordResetWithRecoveryKeyPrompt-action-txt = Creează o cheie de recuperare a
 passwordResetWithRecoveryKeyPrompt-cta-description = Va trebui să te autentifici iar pe toate dispozitivele sincronizate. Data viitoare, păstrează-ți datele în siguranță cu o cheie de recuperare a contului. Îți permite recuperarea datelor dacă uiți parola.
 postAddAccountRecovery-subject-3 = A fost creată o cheie nouă de recuperare a contului
 postAddAccountRecovery-title2 = Ai creat o cheie nouă de recuperare a contului
+# Key here refers to account recovery key
+postAddAccountRecovery-body-part1 = Păstrează cheia într-un loc sigur — vei avea nevoie de ea ca să restaurezi datele de navigare criptate dacă uiți parola.
+# Key here refers to account recovery key
+postAddAccountRecovery-body-part2 = Cheia poate fi folosită o singură dată. După ce o folosești, vom crea automat una nouă pentru tine. Sau poți crea una nouă oricând din setările contului.
 postAddAccountRecovery-action = Gestionează contul
+postAddLinkedAccount-subject-2 = Cont nou asociat cu { -product-mozilla-account }
+#  Variables:
+#  $providerName (String) - The name of the provider, e.g. Apple, Google
+postAddLinkedAccount-title-2 = Contul tău { $providerName } a fost asociat cu { -product-mozilla-account }
+postAddTwoStepAuthentication-preview = Contul tău este protejat
+postAddTwoStepAuthentication-subject-v3 = Autentificarea în doi pași este activă
+# After the colon, there is a description of the device that the user used to enable two-step authentication
+postAddTwoStepAuthentication-from-device-v2 = Ai făcut cererea de pe:
 postAddTwoStepAuthentication-action = Gestionează contul
+postAddTwoStepAuthentication-code-required-v4 = Vei avea nevoie de acum încolo de codurile de securitate generate de aplicația ta de autentificare pentru fiecare autentificare.
+postAddTwoStepAuthentication-recovery-method-codes = Ai adăugat și coduri de autentificare de rezervă ca metodă de recuperare.
+# Variables:
+#  $maskedPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
+postAddTwoStepAuthentication-recovery-method-phone = Ai adăugat și { $maskedPhoneNumber } ca număr de telefon pentru recuperare.
 postChangePrimary-subject = E-mail principal actualizat
 postChangePrimary-title = E-mail principal nou
 postChangePrimary-action = Gestionează contul
+postChangeRecoveryPhone-preview = Cont protejat cu autentificare în doi pași
 postConsumeRecoveryCode-action = Gestionează contul
 postNewRecoveryCodes-action = Gestionează contul
 postRemoveAccountRecovery-action = Gestionează contul
+postRemoveRecoveryPhone-subject = Telefonul de recuperare a fost eliminat
+postRemoveRecoveryPhone-title = Telefonul de recuperare a fost eliminat
+postRemoveRecoveryPhone-requested-device = Ai făcut cererea de pe:
 postRemoveSecondary-subject = E-mail secundar eliminat
 postRemoveSecondary-title = E-mail secundar eliminat
 postRemoveSecondary-action = Gestionează contul
+# After the colon is a description of the device the user used to disable two-step authentication
+postRemoveTwoStepAuthentication-from-device = L-ai dezactivat de pe:
 postRemoveTwoStepAuthentication-action = Gestionează contul
+postRemoveTwoStepAuthentication-not-required-2 = Nu mai ai nevoie de coduri de securitate din aplicația de autentificare când te autentifici.
+postVerify-sub-title-3 = Suntem încântați să te vedem!
+postVerify-title-2 = Vrei să vezi aceeași filă pe două dispozitive?
+postVerify-description-2 = E simplu! Instalează { -brand-firefox } pe un alt dispozitiv și autentifică-te pentru sincronizare. E ca prin magie!
+postVerify-sub-description = (Psst... Înseamnă și că poți accesa marcajele, parolele și alte date { -brand-firefox } oriunde ești conectat(ă).)
+postVerify-subject-4 = Bine ai venit la { -brand-mozilla }!
+postVerify-setup-2 = Conectează un alt dispozitiv:
+postVerify-action-2 = Conectează alt dispozitiv
 postVerifySecondary-subject = E-mail secundar adăugat
 postVerifySecondary-title = E-mail secundar adăugat
+# Variables:
+#  $secondaryEmail (String) - A user's secondary email address
+postVerifySecondary-content-3 = Ai confirmat cu succes { $secondaryEmail } ca adresă de e-mail secundară pentru { -product-mozilla-account }. Notificările de securitate și confirmarea intrărilor în cont vor fi trimise acum la ambele adrese de e-mail.
 postVerifySecondary-action = Gestionează contul
 recovery-subject = Resetează-ți parola
+recovery-title-2 = Ți-ai uitat parola?
+# Information on the device, date and time of the request that triggered the email follows.
+recovery-request-origin-2 = Am primit o solicitare de schimbare a parolei pentru contul { -product-mozilla-account } de pe:
+recovery-new-password-button = Creează o parolă nouă dând clic pe butonul de mai jos. Linkul va expira într-o oră.
+recovery-copy-paste = Creează o parolă nouă prin copiere și lipire a URL-ului de mai jos în browser. Linkul va expira într-o oră.
 recovery-action = Creează o parolă nouă
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountDeletion-subject = Abonamentul { $productName } a fost anulat
 subscriptionAccountDeletion-title = Ne pare rău că pleci
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+subscriptionAccountDeletion-content-cancelled-2 = Ți-ai șters recent { -product-mozilla-account }. Prin urmare, ți-am anulat abonamentul { $productName }. Factura finală { $invoiceTotal } a fost achitată la data de { $invoiceDateOnly }.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountFinishSetup-subject = Bine ai venit la { $productName }: Setează-ți parola.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionAccountFinishSetup-title = Bine ai venit la { $productName }
+subscriptionAccountFinishSetup-content-processing = Plata este în curs de procesare și finalizarea poate dura până la patru zile lucrătoare. Abonamentul se va reînnoi automat în fiecare perioadă de facturare, cu excepția cazului în care alegi să îl anulezi.
+subscriptionAccountFinishSetup-content-create-3 = Apoi, vei crea o parolă { -product-mozilla-account } ca să începi să îți folosești abonamentul.
 subscriptionCancellation-title = Ne pare rău că pleci
 
 ## Variables
