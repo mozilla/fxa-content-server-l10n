@@ -408,15 +408,26 @@ postAddTwoStepAuthentication-recovery-method-codes = Ai adăugat și coduri de a
 # Variables:
 #  $maskedPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
 postAddTwoStepAuthentication-recovery-method-phone = Ai adăugat și { $maskedPhoneNumber } ca număr de telefon pentru recuperare.
+postAddTwoStepAuthentication-how-protects-link = Cum îți protejează contul
+postAddTwoStepAuthentication-how-protects-plaintext = Cum îți protejează contul
 postChangePrimary-subject = E-mail principal actualizat
 postChangePrimary-title = E-mail principal nou
 postChangePrimary-action = Gestionează contul
 postChangeRecoveryPhone-preview = Cont protejat cu autentificare în doi pași
+postConsumeRecoveryCode-title-3 = Codul de autentificare de rezervă a fost folosit pentru a confirma resetarea parolei.
+# After the colon, there is description of the device that the backup authentication code was used on
+# E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
+postConsumeRecoveryCode-description-3 = Cod utilizat din:
 postConsumeRecoveryCode-action = Gestionează contul
+postConsumeRecoveryCode-subject-v3 = Cod de autentificare de rezervă utilizat
+postConsumeRecoveryCode-preview = Verifică dacă ai fost tu
 postNewRecoveryCodes-action = Gestionează contul
 postRemoveAccountRecovery-action = Gestionează contul
 postRemoveRecoveryPhone-subject = Telefonul de recuperare a fost eliminat
+postRemoveRecoveryPhone-preview = Cont protejat cu autentificare în doi pași
 postRemoveRecoveryPhone-title = Telefonul de recuperare a fost eliminat
+postRemoveRecoveryPhone-description-v2 = Numărul de telefon de recuperare a fost eliminat din setările pentru autentificare în doi pași.
+postRemoveRecoveryPhone-description-extra = Poți folosi în continuare codurile de autentificare de rezervă pentru conectare dacă nu poți utiliza aplicația de autentificare.
 postRemoveRecoveryPhone-requested-device = Ai făcut cererea de pe:
 postRemoveSecondary-subject = E-mail secundar eliminat
 postRemoveSecondary-title = E-mail secundar eliminat
@@ -425,6 +436,12 @@ postRemoveSecondary-action = Gestionează contul
 postRemoveTwoStepAuthentication-from-device = L-ai dezactivat de pe:
 postRemoveTwoStepAuthentication-action = Gestionează contul
 postRemoveTwoStepAuthentication-not-required-2 = Nu mai ai nevoie de coduri de securitate din aplicația de autentificare când te autentifici.
+postSigninRecoveryCode-subject = Cod de autentificare de rezervă utilizat pentru autentificare
+postSigninRecoveryCode-preview = Confirmă activitatea contului
+postSigninRecoveryCode-title = Codul de autentificare de rezervă a fost folosit pentru autentificare
+postSigninRecoveryCode-description = Dacă nu ai făcut-o tu, trebuie să îți schimbi imediat parola ca să îți păstrezi contul în siguranță.
+postSigninRecoveryCode-device = Te-ai conectat de pe:
+postSigninRecoveryCode-action = Gestionează contul
 postVerify-sub-title-3 = Suntem încântați să te vedem!
 postVerify-title-2 = Vrei să vezi aceeași filă pe două dispozitive?
 postVerify-description-2 = E simplu! Instalează { -brand-firefox } pe un alt dispozitiv și autentifică-te pentru sincronizare. E ca prin magie!
@@ -462,6 +479,22 @@ subscriptionAccountFinishSetup-subject = Bine ai venit la { $productName }: Sete
 subscriptionAccountFinishSetup-title = Bine ai venit la { $productName }
 subscriptionAccountFinishSetup-content-processing = Plata este în curs de procesare și finalizarea poate dura până la patru zile lucrătoare. Abonamentul se va reînnoi automat în fiecare perioadă de facturare, cu excepția cazului în care alegi să îl anulezi.
 subscriptionAccountFinishSetup-content-create-3 = Apoi, vei crea o parolă { -product-mozilla-account } ca să începi să îți folosești abonamentul.
+subscriptionAccountFinishSetup-action-2 = Începe
+subscriptionAccountReminderFirst-subject = Memento: Finalizează configurarea contului
+subscriptionAccountReminderFirst-title = Încă nu poți accesa abonamentul
+subscriptionAccountReminderFirst-content-info-3 = Acum câteva zile ai creat un cont { -product-mozilla-account }, dar nu l-ai confirmat niciodată. Sperăm că vei termina configurarea contului, astfel încât să poți utiliza noul abonament.
+subscriptionAccountReminderFirst-content-select-2 = Selectează „Creează parolă” pentru a configura o parolă nouă și ca să finalizezi confirmarea contului.
+subscriptionAccountReminderFirst-action = Creează parola
+subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
+subscriptionAccountReminderSecond-subject = Ultima reamintire: Configurează contul
+subscriptionAccountReminderSecond-title-2 = Bine ai venit la { -brand-mozilla }!
+subscriptionAccountReminderSecond-content-info-3 = Acum câteva zile ai creat un cont { -product-mozilla-account }, dar nu l-ai confirmat niciodată. Sperăm că vei termina configurarea contului, astfel încât să poți utiliza noul abonament.
+subscriptionAccountReminderSecond-content-select-2 = Selectează „Creează parolă” pentru a configura o parolă nouă și ca să finalizezi confirmarea contului.
+subscriptionAccountReminderSecond-action = Creează parola
+subscriptionAccountReminderSecond-action-plaintext = { subscriptionAccountReminderSecond-action }:
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionCancellation-subject = Abonamentul la { $productName } a fost anulat
 subscriptionCancellation-title = Ne pare rău că pleci
 
 ## Variables
@@ -469,7 +502,36 @@ subscriptionCancellation-title = Ne pare rău că pleci
 ##   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 ##   $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
 
+subscriptionCancellation-content-2 = Ți-am anulat abonamentul la { $productName }. Plata finală de { $invoiceTotal } a fost efectuată pe data de { $invoiceDateOnly }.
+subscriptionCancellation-outstanding-content-2 = Ți-am anulat abonamentul la { $productName }. Plata finală de { $invoiceTotal } va fi efectuată pe data de { $invoiceDateOnly }.
+# Variables
+#   $serviceLastActiveDateOnly (String) - The date of last active service, e.g. 01/20/2016
+subscriptionCancellation-content-continue = Serviciul va continua până la sfârșitul perioadei de facturare curente, care este { $serviceLastActiveDateOnly }.
+# Variables:
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionDowngrade-subject = Ai trecut la { $productName }
+# Variables:
+# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
+# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionDowngrade-content-switch = Ai trecut cu succes de la { $productNameOld } la { $productName }.
+# Variables:
+# $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
+# $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
+# $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
+# $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
+# $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
+subscriptionDowngrade-content-charge-info = Începând cu următoarea factură, tariful se va modifica din { $paymentAmountOld } pe{ $productPaymentCycleOld } în { $paymentAmountNew } pe { $productPaymentCycleNew }. Tot atunci vei primi un credit unic de { $paymentProrated } care să reflecte tariful mai mic pentru restul acestei{ $productPaymentCycleOld }.
+# Variables:
+# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionDowngrade-content-install = Dacă trebuie să instalezi software nou ca să folosești { $productName }, vei primi un mesaj separat pe e-mail cu instrucțiunile de descărcare.
 subscriptionDowngrade-content-auto-renew = Abonamentul se va reînnoi automat cu o perioadă de facturare, cu excepția cazului în care alegi să îl anulezi.
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFailedPaymentsCancellation-subject = Abonamentul { $productName } a fost anulat
+subscriptionFailedPaymentsCancellation-title = Abonamentul a fost anulat
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionFailedPaymentsCancellation-content = Ți-am anulat abonamentul la { $productName } pentru că au eșuat mai multe încercări de plată. Pentru a obține iar accesul, fă-ți un abonament nou cu o metodă de plată actualizată.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-subject = Este necesară actualizarea informațiilor de plată pentru { $productName }
