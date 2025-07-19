@@ -617,16 +617,68 @@ subscriptionPaymentFailed-title = Ne pare rău, întâmpinăm probleme cu plata 
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-content-problem = Am întâmpinat o problemă cu ultima ta plată pentru { $productName }.
+subscriptionPaymentFailed-content-outdated = Este posibil să îți fi expirat cardul de credit sau ca metoda ta actuală de plată să nu mai fie de actualitate.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-subject = Este necesară actualizarea informațiilor de plată pentru { $productName }
+subscriptionPaymentProviderCancelled-title = Ne pare rău, întâmpinăm probleme cu metoda ta de plată
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentProviderCancelled-content-detect = Am detectat o problemă cu metoda ta de plată pentru { $productName }.
+subscriptionPaymentProviderCancelled-content-reason = Este posibil să îți fi expirat cardul de credit sau ca metoda ta actuală de plată să nu mai fie de actualitate.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-subject = Abonamentul pentru { $productName } a fost reactivat
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReactivation-title = Îți mulțumim că ți-ai reactivat abonamentul pentru { $productName }!
+# Variables:
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
+subscriptionReactivation-content = Ciclul tău de facturare și plăți va rămâne același. Următoarea sumă percepută va fi de { $invoiceTotal } la data de { $nextInvoiceDateOnly }. Abonamentul tău se va reînnoi automat la fiecare perioadă de facturare dacă nu optezi pentru anularea lui.
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionRenewalReminder-subject = Notificare de reînnoire automată a abonamentului pentru { $productName }
+subscriptionRenewalReminder-title = Abonamentul va fi reînnoit în curând
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionRenewalReminder-content-greeting = Dragă client { $productName },
+# Variables
+#   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#   $planIntervalCount (String) - The interval count of subscription plan, e.g. 2
+#   $planInterval (String) - The interval of time of the subscription plan, e.g. week
+#   $reminderLength (String) - The number of days until the current subscription is set to automatically renew, e.g. 14
+subscriptionRenewalReminder-content-current = Abonamentul tău actual este setat să se reînnoiască automat în { $reminderLength } zile. Atunci, { -brand-mozilla } îți va reînnoi abonamentul { $planIntervalCount } { $planInterval } și o taxă de { $invoiceTotal } va fi aplicată metodei de plată din contul tău.
+subscriptionRenewalReminder-content-closing = Salutări,
+# Variables
+#   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionRenewalReminder-content-signature = Echipa { $productName }
 subscriptionReplaced-subject = Abonamentul a fost actualizat ca parte a trecerii la o versiune superioară
 subscriptionReplaced-title = Abonamentul a fost actualizat
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReplaced-content-replaced = Abonamentul tău individual { $productName } a fost înlocuit și acum este inclus în noul pachet.
 subscriptionReplaced-content-credit = Vei primi un credit pentru timpul neutilizat din abonamentul anterior. Acest credit va fi aplicat automat contului tău și utilizat pentru plăți viitoare.
 subscriptionReplaced-content-no-action = Nu necesită nicio acțiune din partea ta.
-subscriptionsPaymentProviderCancelled-subject = Este necesară actualizarea informațiilor de plată pentru abonamente { -brand-mozilla }
+subscriptionsPaymentExpired-subject-1 = Cardul de credit pentru abonamente este expirat sau va expira în curând
+subscriptionsPaymentExpired-title-1 = Cardul de credit este expirat sau va expira în curând
+subscriptionsPaymentExpired-content-1 = Cardul de credit pe care îl folosești pentru plăți aferente următoarelor abonamente este expirat sau va expira în curând.
+subscriptionsPaymentProviderCancelled-subject = Este necesară actualizarea informațiilor de plată pentru abonamentele { -brand-mozilla }
+subscriptionsPaymentProviderCancelled-title = Ne pare rău, întâmpinăm probleme cu metoda ta de plată
+subscriptionsPaymentProviderCancelled-content-detected = Am detectat o problemă cu metoda ta de plată pentru următoarele abonamente.
+subscriptionsPaymentProviderCancelled-content-payment = Este posibil să îți fi expirat cardul de credit sau ca metoda ta actuală de plată să nu mai fie de actualitate.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSubsequentInvoice-subject = Plată primită pentru { $productName }
+subscriptionSubsequentInvoice-title = Îți mulțumim că te-ai abonat!
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionSubsequentInvoice-content-received = Am primit ultima plată pentru { $productName }.
+# Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
+subscriptionSubsequentInvoice-content-next-invoice = Următoarea factură: { $nextInvoiceDateOnly }
+# Variables:
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-subject = Ai trecut la o versiune superioară de { $productName }
 subscriptionUpgrade-title = Îți mulțumim că ai trecut la noua versiune!
 # Variables:
 # $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
@@ -649,14 +701,43 @@ subscriptionUpgrade-content-starting = Începând cu următoarea factură, taxa 
 subscriptionUpgrade-existing = Dacă oricare dintre abonamentele tale existente se suprapune cu această trecere la o versiune superioară, le vom gestiona și îți vom trimite un mesaj separat pe e-mail cu detaliile. Dacă noul tău plan include produse care necesită instalare, îți vom trimite un mesaj separat pe e-mail cu instrucțiuni de configurare.
 subscriptionUpgrade-auto-renew = Abonamentul se va reînnoi automat cu o perioadă de facturare, cu excepția cazului în care alegi să îl anulezi.
 unblockCode-subject = Cod de autorizare al contului
-unblockCode-title = Tu ești persoana care se autentifică?
+unblockCode-title = Tu ești încerci să te autentifici?
 unblockCode-prompt = Dacă da, iată codul de autorizare de care ai nevoie:
+# Variables:
+#  $unblockCode (String) - An alphanumeric code
+unblockCode-prompt-plaintext = Dacă da, iată codul de autorizare de care ai nevoie: { $unblockCode }
+unblockCode-report = Dacă nu, ajută-ne să ținem departe intrușii și <a data-l10n-name="reportSignInLink">raportează-ne</a>.
 unblockCode-report-plaintext = Dacă nu, ajută-ne să blocăm intrușii și raportează-ne.
+verificationReminderFinal-subject = Ultima reamintire să îți confirmi contul
+verificationReminderFinal-description-2 = Acum câteva săptămâni ai creat un cont { -product-mozilla-account }, dar nu l-ai confirmat niciodată. Pentru siguranța ta, vom șterge contul dacă nu este verificat în următoarele 24 de ore.
+confirm-account = Confirmă contul
+confirm-account-plaintext = { confirm-account }:
+verificationReminderFirst-subject-2 = Ține minte că trebuie să confirmi contul
+verificationReminderFirst-title-3 = Bine ai venit la { -brand-mozilla }!
+verificationReminderFirst-description-3 = Acum câteva zile ai creat un cont { -product-mozilla-account }, dar nu l-ai confirmat niciodată. Te rugăm să confirmi contul în următoarele 15 zile, altfel va fi șters automat.
+verificationReminderFirst-sub-description-3 = Nu rata browserul care te pune pe tine și confidențialitatea ta pe primul loc.
+confirm-email-2 = Confirmă contul
+confirm-email-plaintext-2 = { confirm-email-2 }:
+verificationReminderFirst-action-2 = Confirmă contul
+verificationReminderSecond-subject-2 = Ține minte că trebuie să confirmi contul
+verificationReminderSecond-title-3 = Nu rata { -brand-mozilla }!
+verificationReminderSecond-description-4 = Acum câteva zile ai creat un cont { -product-mozilla-account }, dar nu l-ai confirmat niciodată. Te rugăm să confirmi contul în următoarele 10 zile, altfel va fi șters automat.
+verificationReminderSecond-second-description-3 = Contul { -product-mozilla-account } îți permite să îți sincronizezi experiența { -brand-firefox } pe toate dispozitivele și deblochează accesul la mai multe produse { -brand-mozilla } care îți protejează confidențialitatea.
+verificationReminderSecond-sub-description-2 = Alătură-te misiunii noastre de a transforma internetul într-un loc deschis tuturor.
+verificationReminderSecond-action-2 = Confirmă contul
+verify-title-3 = Intră pe internet cu { -brand-mozilla }
+verify-description-2 = Confirmă-ți contul și obține maximul de la { -brand-mozilla } oriunde te autentifici, începând cu:
 verify-subject = Finalizează crearea contului
+verify-action-2 = Confirmă contul
+# Variables:
+#  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
+verifyLogin-title-2 = Te-ai autentificat în { $clientName }?
+verifyLogin-description-2 = Ajută-ne să îți protejăm contul confirmând autentificarea în:
+verifyLogin-subject-2 = Confirmă autentificarea
 verifyLogin-action = Confirmă autentificarea
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
-verifyLoginCode-subject-line-2 = Aprobă conectarea la { $serviceName }
+verifyLoginCode-subject-line-2 = Aprobă autentificarea la { $serviceName }
 # Variables:
 #  $serviceName (String) - A service the user hasn't signed into before (e.g. Firefox)
 verifyLoginCode-title-2 = Te-ai autentificat în { $serviceName }?
