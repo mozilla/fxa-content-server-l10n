@@ -94,6 +94,9 @@ datablock-print =
 ## Success banners for datablock actions.
 ## $count – number of codes
 
+datablock-copy-success = 코드 복사됨
+datablock-download-success = 코드 다운로드됨
+datablock-print-success = 코드 인쇄됨
 
 ##
 
@@ -133,6 +136,7 @@ signup-new-password-label =
 signup-confirm-password-label =
     .label = 비밀번호 재입력
 signup-submit-button = 계정 생성
+post-verify-set-password-submit-button = 동기화 시작
 form-reset-password-with-balloon-new-password =
     .label = 새 비밀번호
 form-reset-password-with-balloon-confirm-password =
@@ -283,6 +287,8 @@ backup-recovery-phone-image-aria-label =
     .aria-label = SMS 문자 메시지 기능이 있는 모바일 기기
 backup-authentication-codes-image-aria-label =
     .aria-label = 코드가 있는 기기 화면
+sync-clouds-image-aria-label =
+    .aria-label = 동기화 아이콘이 있는 구름
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -374,10 +380,13 @@ password-strength-balloon-stay-safe-tips = 안전을 위해 — 비밀번호를 
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password
 
+password-strength-long-instruction = 다른 사이트에서 사용하지 않는 강력한 비밀번호를 선택하세요. 보안 요구사항을 충족하는지 확인 하세요:
+password-strength-short-instruction = 강력한 비밀번호 사용:
 password-strength-inline-min-length = 최소 8자 이상
 password-strength-inline-not-email = 이메일 주소가 아님
 password-strength-inline-not-common = 흔히 사용되는 비밀번호가 아님
 password-strength-inline-confirmed-must-match = 새 비밀번호 확인이 새 비밀번호와 일치
+password-strength-inline-passwords-match = 비밀번호가 일치함
 
 ## Notification Promo Banner component
 
@@ -631,6 +640,7 @@ flow-setup-2fa-more-info-link = 인증 앱 자세히 알아보기
 flow-setup-2fa-button = 계속
 flow-setup-2fa-step-2-instruction = <strong>2단계:</strong> 인증 앱에서 가져온 코드를 입력하세요.
 flow-setup-2fa-input-label = 6자리 숫자 코드 입력
+flow-setup-2fa-code-error = 코드가 유효하지 않거나 만료되었습니다. 사용하는 인증 앱을 확인하고 다시 시도해 주세요.
 
 ## The step to choose the two step authentication method in the two step
 ## authentication setup flow.
@@ -660,6 +670,8 @@ flow-setup-2fa-backup-code-confirm-button-finish = 완료
 ## The backup codes download step of the setup 2 factor authentication flow
 
 flow-setup-2fa-backup-code-dl-heading = 백업 인증 코드 저장
+flow-setup-2fa-backup-code-dl-save-these-codes = 기억할 수 있는 곳에 잘 보관하세요. 인증기 앱에 접근할 수 없는 경우 로그인하기 위해 입력해야 합니다.
+flow-setup-2fa-backup-code-dl-button-continue = 계속
 
 ## FlowSetupPhoneConfirmCode
 
@@ -755,6 +767,11 @@ tfa-enter-code-to-confirm-v2 = 저장함을 확인하려면 새 백업 인증 �
 
 ## PageSetupRecoveryPhone
 
+page-2fa-setup-title = 2단계 인증
+page-2fa-setup-totpinfo-error = 2단계 인증을 설정하는 중에 오류가 발생했습니다. 나중에 다시 시도하세요.
+# code here refers to "backup authentication code"
+page-2fa-setup-incorrect-backup-code-error = 코드가 올바르지 않습니다. 다시 시도하세요.
+page-2fa-setup-success = 2단계 인증 활성화됨
 
 ## Avatar change page
 
@@ -928,6 +945,7 @@ settings-recovery-phone-remove-success = 복구 전화번호 삭제됨
 ## PageSetupRecoveryPhone
 
 page-setup-recovery-phone-heading = 복구 전화번호 추가
+page-change-recovery-phone = 복구 전화번호 변경
 page-setup-recovery-phone-back-button-title = 설정으로 돌아가기
 # Back arrow to return to step 1 of recovery phone setup flow
 page-setup-recovery-phone-step2-back-button-title = 전화번호 변경
@@ -1534,13 +1552,6 @@ pair-wait-for-auth-heading-text = 이제 <span>다른 기기</span>에서 승인
 pair-unsupported-header = 앱으로 페어링
 pair-unsupported-message = 기본 카메라를 쓰셨습니까? { -brand-firefox } 앱 안의 카메라로 페어링해야 합니다.
 
-## SetPassword page
-## Third party auth users that do not have a password set yet are prompted for a
-
-
-# password to complete their sign-in when they want to login to a service requiring it.
-
-
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
 
@@ -1862,7 +1873,3 @@ signup-pocket-info-banner = 왜 이 계정을 만들어야 하나요?
 signup-pocket-info-banner-link = 자세히 보기
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = 이메일 변경
-
-## SignupConfirmedSync page
-## Shown to users when they finish confirming their account through Sync
-
