@@ -42,7 +42,7 @@ fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Sy
 body-devices-image = <img data-l10n-name="devices-image" alt="Devices">
 fxa-privacy-url = Politica de confidențialitate { -brand-mozilla }
 moz-accounts-privacy-url-2 = { -product-mozilla-accounts(capitalization: "uppercase") } Notificare privind confidențialitatea
-moz-accounts-terms-url = { -product-mozilla-accounts(capitalization: "uppercase") } Termeni privind serviciile
+moz-accounts-terms-url = Condiții de utilizare a serviciilor { -product-mozilla-accounts(capitalization: "uppercase") }
 subplat-header-mozilla-logo-2 = <img data-l10n-name="subplat-mozilla-logo" alt="{ -brand-mozilla } logo">
 subplat-footer-mozilla-logo-2 = <img data-l10n-name="mozilla-logo-footer" alt="{ -brand-mozilla } logo">
 subplat-automated-email = Acesta este un mesaj automat pe e-mail; dacă l-ai primit din greșeală, nu trebuie să faci nimic.
@@ -73,7 +73,7 @@ subplat-privacy-policy = Politica de confidențialitate { -brand-mozilla }
 subplat-privacy-policy-2 = { -product-mozilla-accounts(capitalization: "uppercase") } Notificare privind confidențialitatea
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
 subplat-privacy-policy-plaintext-2 = { subplat-privacy-policy-2 }:
-subplat-moz-terms = { -product-mozilla-accounts(capitalization: "uppercase") } Termeni privind serviciile
+subplat-moz-terms = Condiții de utilizare a serviciilor { -product-mozilla-accounts(capitalization: "uppercase") }
 subplat-moz-terms-plaintext = { subplat-moz-terms }:
 subplat-legal = Mențiuni legale
 subplat-legal-plaintext = { subplat-legal }:

@@ -555,7 +555,7 @@ msgstr "Nu s-a putut găsi Notificarea privind confidenţialitatea"
 
 #: .es5/lib/auth-errors.js:338
 msgid "Could not get Terms of Service"
-msgstr "Nu s-au putut găsi Termenii de utilizare a serviciilor"
+msgstr "Condiții de utilizare a serviciilor negăsite"
 
 #: .es5/lib/auth-errors.js:342
 msgid "Your new password must be different"
@@ -832,7 +832,7 @@ msgstr "Jeton nevalid"
 #: .es5/lib/strings.js:26
 msgid "By proceeding, you agree to the <a id=\"service-tos\" href=\"%(termsUri)s\">Terms of Service</a> and<a id=\"service-pp\" href=\"%(privacyUri)s\">Privacy Notice</a> of %(serviceName)s (%(serviceUri)s)."
 msgstr ""
-"Continuând, ești de acord cu <a id=\"service-tos\" href=\"%(termsUri)s\">Termenii de utilizare a serviciilor</a> și <a id=\"service-pp\" href=\"%(privacyUri)s\">Notificarea privind "
+"Continuând, ești de acord cu <a id=\"service-tos\" href=\"%(termsUri)s\">Condițiile de utilizare a serviciilor</a> și <a id=\"service-pp\" href=\"%(privacyUri)s\">Notificarea privind "
 "confidenţialitatea</a> %(serviceName)s (%(serviceUri)s)."
 
 #: .es5/lib/strings.js:33
@@ -1110,8 +1110,8 @@ msgid ""
 msgstr ""
 "\n"
 "            Prin continuare, ești de acord cu:<br />\n"
-"            <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Termenii pentru servicii</a> Pocket și <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Notificarea privind confidențialitate</a><br />\n"
-"            <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Termenii pentru servicii</a> aferente conturilor Mozilla și <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Notificarea privind confidențialitatea</a>\n"
+"            <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Condițiile de utilizare a serviciilor</a> Pocket și <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Notificarea privind confidențialitatea</a><br />\n"
+"            <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Condițiile de utilizare a serviciilor</a> aferente conturilor Mozilla și <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Notificarea privind confidențialitatea</a>\n"
 "          "
 
 #: .es5/templates/force_auth.mustache:10 .es5/templates/sign_in_password.mustache:15 .es5/templates/sign_up_password.mustache:17
@@ -1124,15 +1124,15 @@ msgid ""
 msgstr ""
 "\n"
 "              Prin continuare, ești de acord cu:<br />\n"
-"              <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Termenii pentru serviciile</a> aferente abonamentelor Mozilla și <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Notificarea privind confidențialitatea</a><br />\n"
-"              <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Termenii pentru serviciile</a>aferente conturilor Mozilla și <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Notificarea privind confidențialitatea</a>\n"
+"              <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Condițiile de utilizare a serviciilor</a> aferente abonamentelor Mozilla și <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Notificarea privind confidențialitatea</a><br />\n"
+"              <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Condițiile de utilizare a serviciilor</a>aferente conturilor Mozilla și <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Notificarea privind confidențialitatea</a>\n"
 "            "
 
 #: .es5/templates/force_auth.mustache:12 .es5/templates/index.mustache:20 .es5/templates/sign_in_password.mustache:17 .es5/templates/sign_up_password.mustache:19
 #: .es5/templates/post_verify/third_party_auth/set_password.mustache:10 .es5/templates/post_verify/finish_account_setup/set_password.mustache:10
 msgid "By proceeding, you agree to the <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>."
 msgstr ""
-"Continuând, ești de acord cu <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Termenii de utilizare a serviciului</a> și <a class=\"link-grey\" id=\"fxa-pp\" "
+"Prin continuare, ești de acord cu <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Condițiile de utilizare a serviciilor</a> și <a class=\"link-grey\" id=\"fxa-pp\" "
 "href=\"/legal/privacy\">Politica de confidențialitate</a>."
 
 #: .es5/templates/force_auth.mustache:13 .es5/templates/sign_in_password.mustache:18 .es5/templates/sign_in_totp_code.mustache:6
