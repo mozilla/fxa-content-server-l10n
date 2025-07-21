@@ -1953,14 +1953,17 @@ msgid ""
 "        You are now syncing with: <span>%(deviceFamily)s on %(deviceOS)s</span>\n"
 "      "
 msgstr ""
+"\n"
+"        Acum ești sincronizat(ă) cu: <span>%(deviceFamily)s pe %(deviceOS)s</span>\n"
+"      "
 
 #: .es5/templates/pair/auth_complete.mustache:4
 msgid "Now you can access your open tabs, passwords, and bookmarks on all your devices."
-msgstr ""
+msgstr "Acum poți accesa filele deschise, parolele și marcajele pe toate dispozitivele tale."
 
 #: .es5/templates/pair/auth_complete.mustache:5
 msgid "See tabs from synced devices"
-msgstr ""
+msgstr "Vezi file de pe dispozitivele sincronizate"
 
 #: .es5/templates/pair/auth_complete.mustache:7
 msgid "Manage devices"
@@ -1968,55 +1971,55 @@ msgstr "Gestionează dispozitivele"
 
 #: .es5/templates/pair/auth_wait_for_supp.mustache:1 .es5/templates/pair/supp_wait_for_auth.mustache:1
 msgid "Approval now required <small class=\"card-subheader\">from your other device</small>"
-msgstr ""
+msgstr "Acum este necesară aprobarea <small class=\"card-subheader\">de pe celălalt dispozitiv</small>"
 
 #: .es5/templates/pair/failure.mustache:1
 msgid "Device pairing failed"
-msgstr ""
+msgstr "Asociere dispozitive eșuată"
 
 #: .es5/templates/pair/failure.mustache:2
 msgid "The setup couldn’t be completed. Please sign in with your email."
-msgstr ""
+msgstr "Configurarea nu a putut fi finalizată. Te rugăm să te autentifici cu adresa de e-mail."
 
 #: .es5/templates/pair/index.mustache:1
 msgid "Signed in successfully!"
-msgstr ""
+msgstr "Autentificare reușită!"
 
 #: .es5/templates/pair/index.mustache:8
 msgid "Sync your Firefox experience"
-msgstr ""
+msgstr "Sincronizează-ți experiența cu Firefox"
 
 #: .es5/templates/pair/index.mustache:9
 msgid "Download Firefox for mobile"
-msgstr ""
+msgstr "Descarcă Firefox pentru mobil"
 
 #: .es5/templates/pair/index.mustache:11
 msgid "View your saved passwords, tabs, browsing history and more — across all your devices."
-msgstr ""
+msgstr "Vezi parolele salvate, filele, istoricul de navigare și multe altele — pe toate dispozitivele."
 
 #: .es5/templates/pair/index.mustache:12
 msgid "Select an option to continue:"
-msgstr ""
+msgstr "Selectează o opțiune pentru a continua:"
 
 #: .es5/templates/pair/index.mustache:13
 msgid "I already have Firefox for mobile"
-msgstr ""
+msgstr "Am deja Firefox pentru mobil"
 
 #: .es5/templates/pair/index.mustache:14
 msgid "Start your sync now if you already have Firefox on your mobile device."
-msgstr ""
+msgstr "Începe sincronizarea acum dacă ai deja Firefox pe dispozitivul mobil."
 
 #: .es5/templates/pair/index.mustache:15
 msgid "I don’t have Firefox for mobile"
-msgstr ""
+msgstr "Nu am Firefox pentru mobil"
 
 #: .es5/templates/pair/index.mustache:16
 msgid "Download Firefox on your mobile device, then start your sync."
-msgstr ""
+msgstr "Descarcă Firefox pe dispozitivul mobil, apoi începe sincronizarea."
 
 #: .es5/templates/pair/index.mustache:18 .es5/templates/pair/index.mustache:24
 msgid "Not now"
-msgstr ""
+msgstr "Nu acum"
 
 #: .es5/templates/pair/index.mustache:19
 msgid "To sync Firefox on your phone or tablet, you first need to download Firefox for mobile. Here’s how:"
