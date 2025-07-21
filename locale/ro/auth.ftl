@@ -305,7 +305,7 @@ inactiveAccountFinalWarning-preview = Autentifică-te ca să îți păstrezi con
 inactiveAccountFinalWarning-account-description = Contul { -product-mozilla-account } este folosit pentru acces la produse gratuite de confidențialitate și navigare, cum ar fi sincronizarea { -brand-firefox }, { -product-mozilla-monitor }, { -product-firefox-relay } și { -product-mdn }.
 # $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
 # This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
-inactiveAccountFinalWarning-impact = La data de <strong>{ $deletionDate }strong>, contul și datele personale vor fi șterse definitiv dacă nu te conectezi.
+inactiveAccountFinalWarning-impact = La data de <strong>{ $deletionDate }</strong>, contul și datele personale vor fi șterse definitiv dacă nu te conectezi.
 inactiveAccountFinalWarning-action = Autentifică-te ca să îți păstrezi contul
 # followed by link to sign in
 inactiveAccountFinalWarning-action-plaintext = Autentifică-te ca să îți păstrezi contul:
@@ -315,7 +315,7 @@ inactiveAccountFirstWarning-account-description-v2 = Contul { -product-mozilla-a
 inactiveAccountFirstWarning-inactive-status = Am observat că nu te-ai conectat de 2 ani.
 # $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
 # This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
-inactiveAccountFirstWarning-impact = Contul și datele personale vor fi șterse definitiv pe data de <strong>{ $deletionDate }strong> pentru că nu ai fost activ(ă).
+inactiveAccountFirstWarning-impact = Contul și datele personale vor fi șterse definitiv pe data de <strong>{ $deletionDate }</strong> pentru că nu ai fost activ(ă).
 inactiveAccountFirstWarning-action = Autentifică-te ca să îți păstrezi contul
 inactiveAccountFirstWarning-preview = Autentifică-te ca să îți păstrezi contul
 # followed by link to sign in
@@ -324,7 +324,7 @@ inactiveAccountSecondWarning-subject = Acțiune necesară: Contul va fi șters �
 inactiveAccountSecondWarning-title = Contul { -brand-mozilla } și datele vor fi șterse în 7 zile
 inactiveAccountSecondWarning-account-description-v2 = Contul { -product-mozilla-account } este folosit pentru acces la produse gratuite de confidențialitate și navigare, cum ar fi sincronizarea { -brand-firefox }, { -product-mozilla-monitor }, { -product-firefox-relay } și { -product-mdn }.
 # $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
-inactiveAccountSecondWarning-impact = Contul și datele personale vor fi șterse definitiv pe data de <strong>{ $deletionDate }strong> pentru că nu ai fost activ(ă).
+inactiveAccountSecondWarning-impact = Contul și datele personale vor fi șterse definitiv pe data de <strong>{ $deletionDate }</strong> pentru că nu ai fost activ(ă).
 inactiveAccountSecondWarning-action = Autentifică-te ca să îți păstrezi contul
 inactiveAccountSecondWarning-preview = Autentifică-te ca să îți păstrezi contul
 # followed by link to sign in
