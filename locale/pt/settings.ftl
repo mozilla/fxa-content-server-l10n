@@ -650,6 +650,7 @@ flow-setup-2fa-scan-qr-instead-button = Digitalizar código QR?
 # links to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication#w_step-one
 flow-setup-2fa-more-info-link = Saber mais sobre aplicações de autenticação
 flow-setup-2fa-button = Continuar
+flow-setup-2fa-step-2-instruction = <strong>Passo 2:</strong> insira o código da sua aplicação de autenticação.
 flow-setup-2fa-input-label = Inserir código de 6 dígitos
 flow-setup-2fa-code-error = Código inválido ou expirado. Verifique a sua aplicação de autenticação e tente novamente.
 
