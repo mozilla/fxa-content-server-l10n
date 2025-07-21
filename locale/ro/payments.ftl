@@ -52,6 +52,10 @@ payment-confirmation-amount-year =
     }
 payment-confirmation-download-button = Continuă cu descărcarea
 
+## Component - PaymentConsentCheckbox
+
+payment-confirm-with-legal-links-static-3 = Autorizez { -brand-mozilla } să îmi perceapă, prin metoda mea de plată, suma afișată, conform <termsOfServiceLink>Condițiilor de utilizare a serviciilor</termsOfServiceLink> și <privacyNoticeLink>Notificarea privind confidențialitatea</privacyNoticeLink>, până ce îmi anulez abonamentul.
+
 ## Component - PaymentErrorView
 
 payment-error-manage-subscription-button = Gestionează abonamentul meu
@@ -97,7 +101,7 @@ sub-guarantee = Garanție de rambursare a banilor în 30 de zile
 
 ## Component - TermsAndPrivacy
 
-terms = Termenii de utilizare a serviciului
+terms = Condiții de utilizare a serviciilor
 privacy = Notificare privind confidențialitatea
 
 ## App-level string(s) and messages shared by multiple components or routes
@@ -124,6 +128,7 @@ instant-payouts-unsupported = Se pare că nu ai cardul de debit configurat pentr
 duplicate-transaction = Hmm. Se pare că tocmai a fost transmisă o tranzacție identică. Verifică-ți istoricul plăților.
 coupon-expired = Se pare că acest cod promoțional a expirat.
 card-error = Tranzacția nu a putut fi procesată. Te rugăm să verifici informațiile cardului de credit și încearcă din nou.
+location-unsupported = Locația ta actuală nu este acceptată conform Condițiilor noastre de utilizare a serviciilor.
 product-plan-error =
     .title = Problemă la încărcarea planurilor
 product-profile-error =

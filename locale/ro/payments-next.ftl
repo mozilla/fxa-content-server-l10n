@@ -26,6 +26,10 @@ next-payment-confirmation-details-heading-2 = Informații pentru plăți
 
 next-payment-confirmation-download-button = Continuă cu descărcarea
 
+## Component - Payment Consent Checkbox
+
+next-payment-confirm-with-legal-links-static-3 = Autorizez { -brand-mozilla } să îmi perceapă, prin metoda mea de plată, suma afișată, conform <termsOfServiceLink>Condițiilor de utilizare a serviciilor</termsOfServiceLink> și <privacyNoticeLink>Notificarea privind confidențialitatea</privacyNoticeLink>, până ce îmi anulez abonamentul.
+
 ## Checkout Form
 
 next-payment-validate-name-error = Te rugăm să îți introduci numele
@@ -46,5 +50,5 @@ next-sub-guarantee = Garanție de rambursare a banilor în 30 de zile
 
 ## Component - TermsAndPrivacy
 
-next-terms = Termenii de utilizare a serviciului
+next-terms = Condiții de utilizare a serviciilor
 next-privacy = Notificare privind confidențialitatea

@@ -1183,6 +1183,11 @@ msgid ""
 "          Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "        "
 msgstr ""
+"\n"
+"          Prin continuare, ești de acord cu:<br />\n"
+"          <a class=\"link-grey\" id=\"pocket-tos\" href=\"https://getpocket.com/tos/\">Condițiile de utilizare a serviciilor</a> Pocket și <a id=\"pocket-pp\" class=\"link-grey\" href=\"https://getpocket.com/privacy/\">Notificarea privind confidențialitatea</a><br />\n"
+"          <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Condițiile de utilizare a serviciilor</a> aferente conturilor Mozilla și <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Notificarea privind confidențialitatea</a>\n"
+"        "
 
 #: .es5/templates/index.mustache:18
 msgid ""
@@ -1192,6 +1197,11 @@ msgid ""
 "            Mozilla Accounts <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Terms of Service</a> and <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Privacy Notice</a>\n"
 "          "
 msgstr ""
+"\n"
+"               Prin continuare, ești de acord cu:<br />\n"
+"               <a class=\"link-grey\" id=\"moz-subscription-tos\" href=\"https://www.mozilla.org/about/legal/terms/subscription-services/\">Condițiile de utilizare a serviciilor</a> aferente abonamentelor Mozilla și <a class=\"link-grey\" id=\"moz-subscription-privacy\" href=\"https://www.mozilla.org/privacy/subscription-services/\">Notificarea privind confidențialitatea</a><br />\n"
+"              <a class=\"link-grey\" id=\"fxa-tos\" href=\"/legal/terms\">Condițiile de utilizare a serviciilor</a>aferente conturilor Mozilla și <a class=\"link-grey\" id=\"fxa-pp\" href=\"/legal/privacy\">Notificarea privind confidențialitatea</a>\n"
+"            "
 
 #: .es5/templates/inline_recovery_setup.mustache:1
 msgid "Save backup authentication codes"
@@ -1564,7 +1574,7 @@ msgstr "Trimite"
 
 #: .es5/templates/support.mustache:24
 msgid "Terms of Service"
-msgstr "Termenii de utilizare a serviciului"
+msgstr "Condiții de utilizare a serviciilor"
 
 #: .es5/templates/would-you-like-to-sync.mustache:1
 msgid "Would you like to sync this device to your account?"
