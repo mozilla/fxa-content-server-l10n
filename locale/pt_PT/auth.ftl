@@ -431,7 +431,7 @@ postAddTwoStepAuthentication-code-required-v4 = Os códigos de segurança da sua
 postAddTwoStepAuthentication-recovery-method-codes = Também adicionou códigos de autenticação de recuperação como o seu método de recuperação.
 # Variables:
 #  $maskedPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
-postAddTwoStepAuthentication-recovery-method-phone = Você também adicionou { $maskedLastFourPhoneNumber } como o seu número de telefone de recuperação
+postAddTwoStepAuthentication-recovery-method-phone = Você também adicionou { $maskedPhoneNumber } como o seu número de telefone de recuperação
 postAddTwoStepAuthentication-how-protects-link = Como isto protege a sua conta
 postAddTwoStepAuthentication-how-protects-plaintext = Como isto protege a sua conta:
 postChangeAccountRecovery-subject = Chave de recuperação da conta alterada
