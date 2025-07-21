@@ -429,7 +429,7 @@ postAddTwoStepAuthentication-title-2 = Ai activat autentificarea în doi pași
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postAddTwoStepAuthentication-from-device-v2 = Ai făcut cererea de pe:
 postAddTwoStepAuthentication-action = Gestionează contul
-postAddTwoStepAuthentication-code-required-v4 = Vei avea nevoie de acum încolo de codurile de securitate generate de aplicația ta de autentificare pentru fiecare autentificare.
+postAddTwoStepAuthentication-code-required-v4 = Vei avea nevoie de acum înainte de codurile de securitate generate de aplicația ta de autentificare pentru fiecare autentificare.
 postAddTwoStepAuthentication-recovery-method-codes = Ai adăugat și coduri de autentificare de rezervă ca metodă de recuperare.
 # Variables:
 #  $maskedPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
