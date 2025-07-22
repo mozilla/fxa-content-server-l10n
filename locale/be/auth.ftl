@@ -64,6 +64,7 @@ subplat-legal = Прававыя звесткі
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Прыватнасць
 subplat-privacy-website-plaintext = { subplat-privacy }:
+account-deletion-info-block-support-plaintext = Калі ў вас ёсць якія-небудзь пытанні ці вам патрэбна дапамога, не саромейцеся звяртацца ў нашу службу падтрымкі:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-android-badge = <img data-l10n-name="google-play-badge" alt="Сцягнуць { $productName } з { -google-play }">
@@ -185,12 +186,6 @@ subscriptionFirstInvoiceDiscount-content-discount-repeating = { $discountDuratio
 # Variables:
 #  $invoiceTaxAmount (String) - The amount of the tax of the subscription invoice, including currency, e.g. $2.00
 subscriptionCharges-content-tax = Падаткі і зборы: { $invoiceTaxAmount }
-
-## Variables:
-##  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
-##  $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
-##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
-
 
 ##
 
