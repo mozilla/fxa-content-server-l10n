@@ -274,7 +274,7 @@ se-cannot-refresh-email = Ne pare rău, a apărut o problemă la reîmprospătar
 se-refresh-email =
     .title = Reîmprospătează e-mailul
 # Button to make secondary email the primary
-se-make-primary = Desemnează ca e-mail principal
+se-make-primary = Setează ca e-mail principal
 se-default-content = Accesează contul dacă nu te poți autentifica în e-mailul principal.
 # Default value for the secondary email
 se-secondary-email-none = Niciunul
