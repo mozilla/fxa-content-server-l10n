@@ -26,6 +26,16 @@ upgrade-page-acknowledgment = Your plan will change immediately, and you’ll be
 auth-error-page-title = We Couldn’t Sign You In
 checkout-error-boundary-retry-button = Try again
 checkout-error-boundary-basic-error-message = Something went wrong. Please try again or <contactSupportLink>contact support.</contactSupportLink>
+amex-logo-alt-text = { -brand-amex } logo
+diners-logo-alt-text = { -brand-diner } logo
+discover-logo-alt-text = { -brand-discover } logo
+jcb-logo-alt-text = { -brand-jcb } logo
+mastercard-logo-alt-text = { -brand-mastercard } logo
+paypal-logo-alt-text = { -brand-paypal } logo
+unionpay-logo-alt-text = { -brand-unionpay } logo
+visa-logo-alt-text = { -brand-visa } logo
+# Alt text for generic payment card logo
+unbranded-logo-alt-text = Unbranded logo
 
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -80,8 +90,39 @@ next-payment-confirmation-download-button = Continue to download
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Card ending in { $last4 }
 
+## Layout - Subscription Management
+
+subscription-management-breadcrumb-account-home = Account Home
+subscription-management-breadcrumb-subscriptions = Subscriptions
+subscription-management-account-profile-picture = Account profile picture
+
 ## Page - Subscription Management
 
+subscription-management-payment-information-heading = Payment Information
+subscription-management-button-add-payment-method-aria = Add payment method
+subscription-management-button-add-payment-method = Add
+subscription-management-button-change-payment-method-aria = Change payment method
+subscription-management-button-change-payment-method = Change
+# $last4 (String) - Last four numbers of credit card
+subscription-management-card-ending-in = Card ending in { $last4 }
+# $expirationDate (Date) - Payment card's expiration date
+subscription-management-card-expires-date = Expires { $expirationDate }
+subscription-management-subscriptions-heading = Subscriptions
+subscription-management-your-subscriptions-aria = Your subscriptions
+subscription-management-no-subscriptions = You don’t have any subscriptions yet
+subscription-management-button-cancel-subscription-aria = Cancel subscription
+subscription-management-button-cancel-subscription = Cancel
+subscription-management-your-apple-iap-subscriptions-aria = Your { -brand-apple } In-App Subscriptions
+subscription-management-apple-in-app-purchase = { -brand-apple }: In-App purchase
+subscription-management-your-google-iap-subscriptions-aria = Your { -brand-google } In-App Subscriptions
+subscription-management-google-in-app-purchase = { -brand-google }: In-App purchase
+# $date (String) - Date of next bill
+subscription-management-iap-sub-next-bill = Next billed on { $date }
+# $date (String) - Date of In-App purchase expires
+subscription-management-iap-sub-expires-on = Expires on { $date }
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscription-management-button-manage-subscription-aria = Manage subscription for { $productName }
+subscription-management-button-manage-subscription = Manage
 # Page - Not Found
 page-not-found-title = Page not found
 page-not-found-description = The page you requested was not found. We’ve been notified and will fix any links that may be broken.
