@@ -693,6 +693,29 @@ flow-setup-2fa-backup-code-dl-heading = Kod za zawěsćensku awtentifikaciju sk�
 flow-setup-2fa-backup-code-dl-save-these-codes = Wobchowajće je na městnje, na kotrež so dopominaće. Jeli přistup k swojemu nałoženju awtentifikacije nimaće, dyrbiće jedyn zapodać, zo byšće so přizjewił.
 flow-setup-2fa-backup-code-dl-button-continue = Dale
 
+##
+
+flow-setup-2fa-inline-complete-success-banner = Dwukročelowa awtentifikacija zmóžnjena
+flow-setup-2fa-inline-complete-backup-code = Zawěsćenske awtentifikaciske kody
+flow-setup-2fa-inline-complete-backup-phone = Wobnowjenski telefon
+# $count (Number) - an integer representing the number of backup
+# authentication codes remaining
+flow-setup-2fa-inline-complete-backup-code-info =
+    { $count ->
+        [one] { $count } kod wyše
+        [two] { $count } kodaj wyše
+        [few] { $count } kody wyše
+       *[other] { $count } kodow wyše
+    }
+flow-setup-2fa-inline-complete-backup-code-description = To je najwěsćiša wobnowjenska metoda, jeli njemóžeće so ze swojim mobilnym gratom abo awtentifikaciske nałoženje přizjewić.
+flow-setup-2fa-inline-complete-backup-phone-description = To je najlóša wobnowjenska metoda, jeli njemóžeće so ze swojim awtentifikaciskim nałoženjom přizjewić.
+flow-setup-2fa-inline-complete-learn-more-link = Kak to waše konto škita
+# $serviceName (String) - the name of the product that the user will be
+# redirected to.
+flow-setup-2fa-inline-complete-continue-button = Dale k { $serviceName }
+flow-setup-2fa-prompt-heading = Dwukročelowu awtentifikaciju konfigurować
+flow-setup-2fa-prompt-continue-button = Dale
+
 ## FlowSetupPhoneConfirmCode
 
 # verification code refers to a code sent by text message to confirm phone number ownership
@@ -731,6 +754,8 @@ header-menu-open = Meni začinić
 header-menu-closed = Meni sydłoweje nawigacije
 header-back-to-top-link =
     .title = Wróćo horje
+header-back-to-settings-link =
+    .title = Wróćo k nastajenjam { -product-mozilla-account }
 header-title-2 = { -product-mozilla-account }
 header-help = Pomoc
 

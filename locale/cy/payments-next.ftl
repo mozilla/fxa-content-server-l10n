@@ -106,20 +106,20 @@ subscription-management-button-change-payment-method = Newid
 # $last4 (String) - Last four numbers of credit card
 subscription-management-card-ending-in = Cerdyn yn gorffen gyda { $last4 }
 # $expirationDate (Date) - Payment card's expiration date
-subscription-management-card-expires-date = Daw i ben { $expirationDate }
+subscription-management-card-expires-date = Daw i ben ar { $expirationDate }
 subscription-management-subscriptions-heading = Tanysgrifiadau
 subscription-management-your-subscriptions-aria = Eich tanysgrifiadau
 subscription-management-no-subscriptions = Does gennych chi ddim tanysgrifiadau eto
-subscription-management-button-cancel-subscription-aria = Diddymu tanysgrifiad
+subscription-management-button-cancel-subscription-aria = Diddymu'r tanysgrifiad
 subscription-management-button-cancel-subscription = Diddymu
-subscription-management-your-apple-iap-subscriptions-aria = Eich Tanysgrifiad  { -brand-apple } o Fewn yr Ap
-subscription-management-apple-in-app-purchase = { -brand-apple }: Prynu o fewn yr ap
+subscription-management-your-apple-iap-subscriptions-aria = Eich Tanysgrifiad { -brand-apple } o Fewn yr Ap
+subscription-management-apple-in-app-purchase = { -brand-apple }: Prynu o Fewn yr Ap
 subscription-management-your-google-iap-subscriptions-aria = Eich Tanysgrifiad { -brand-google } o Fewn yr Ap
 subscription-management-google-in-app-purchase = { -brand-google } : Prynu o Fewn yr Ap
 # $date (String) - Date of next bill
 subscription-management-iap-sub-next-bill = Bydd y taliad nesaf ar { $date }
 # $date (String) - Date of In-App purchase expires
-subscription-management-iap-sub-expires-on = Yn dod i ben ar: { $date }
+subscription-management-iap-sub-expires-on = Daw i ben ar { $date }
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Rheoli tanysgrifiad { $productName }
 subscription-management-button-manage-subscription = Rheoli

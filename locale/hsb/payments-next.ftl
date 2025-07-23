@@ -112,6 +112,20 @@ subscription-management-card-ending-in = Karta, kotraž so na { $last4 } kónči
 subscription-management-card-expires-date = Spadnje { $expirationDate }
 subscription-management-subscriptions-heading = Abonementy
 subscription-management-your-subscriptions-aria = Waše abonementy
+subscription-management-no-subscriptions = Hišće abonementy nimaće.
+subscription-management-button-cancel-subscription-aria = Abonement wupowědźić
+subscription-management-button-cancel-subscription = Wupowědźić
+subscription-management-your-apple-iap-subscriptions-aria = Waše abonementy w nałoženju { -brand-apple }
+subscription-management-apple-in-app-purchase = { -brand-apple }: Kup w nałoženju
+subscription-management-your-google-iap-subscriptions-aria = Waše abonementy w nałoženju { -brand-google }
+subscription-management-google-in-app-purchase = { -brand-google }: Kup w nałoženju
+# $date (String) - Date of next bill
+subscription-management-iap-sub-next-bill = Přichodna zličbowanka: { $date }
+# $date (String) - Date of In-App purchase expires
+subscription-management-iap-sub-expires-on = Spadnje { $date }
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscription-management-button-manage-subscription-aria = Abonement za { $productName } rjadować
+subscription-management-button-manage-subscription = Rjadować
 # Page - Not Found
 page-not-found-title = Strona njeje so namakała
 page-not-found-description = Strona, kotruž sće požadał, njeje so namakała. Smy powěsć dóstali a porjedźimy skóncowane wotkazy.
