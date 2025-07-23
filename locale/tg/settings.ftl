@@ -519,6 +519,7 @@ flow-setup-2fa-backup-choice-code-badge = Бехатартарин
 ## where the user confirm that they have saved their backup authentication codes
 ## by entering one of them.
 
+flow-setup-2fa-backup-code-confirm-heading = Нусхаи эҳтиётии рамзи санҷиши ҳаққониятро ворид кунед
 # Clicking on this button finishes the whole flow upon success.
 flow-setup-2fa-backup-code-confirm-button-finish = Анҷом
 
@@ -526,6 +527,10 @@ flow-setup-2fa-backup-code-confirm-button-finish = Анҷом
 
 flow-setup-2fa-backup-code-dl-heading = Нигоҳ доштани рамзҳои санҷиши ҳаққоният
 flow-setup-2fa-backup-code-dl-button-continue = Идома додан
+
+##
+
+flow-setup-2fa-inline-complete-backup-code = Нусхаи эҳтиётии рамзҳои санҷиши ҳаққоният
 
 ## FlowSetupPhoneConfirmCode
 
@@ -586,6 +591,8 @@ nav-paid-subs = Обунаҳо пардохтшуда
 
 ## Two Step Authentication - replace backup authentication code
 
+tfa-replace-code-error-3 = Ҳангоми иваз кардани нусхаи эҳтиётии рамзи санҷиши ҳаққонияти шумо мушкилӣ ба миён омад
+tfa-create-code-error = Ҳангоми эҷод кардани нусхаи эҳтиётии рамзи санҷиши ҳаққонияти шумо мушкилӣ ба миён омад
 tfa-replace-code-success-alert-4 = Нусхаи эҳтиётии рамзҳои санҷиши ҳаққоният навсозӣ шуд
 tfa-replace-code-1-2 = Қадами 1 аз 2
 tfa-replace-code-2-2 = Қадами 2 аз 2
@@ -764,10 +771,14 @@ tfa-step-3-3 = Қадами 3 аз 3
 tfa-button-continue = Идома додан
 tfa-button-cancel = Бекор кардан
 tfa-button-finish = Анҷом додан
+tfa-cannot-verify-code-4 = Ҳангоми тасдиқ кардани нусхаи эҳтиётии рамзи санҷиши ҳаққонияти шумо мушкилӣ ба миён омад
+tfa-incorrect-recovery-code-1 = Нусхаи эҳтиётии рамзи санҷиши ҳаққоният нодуруст аст
 tfa-qa-code =
     .alt = { tfa-qa-code-alt }
 tfa-input-enter-totp-v2 =
     .label = Рамзи санҷиши ҳаққониятро ворид намоед
+tfa-enter-recovery-code-1 =
+    .label = Нусхаи эҳтиётии рамзи санҷиши ҳаққониятеро ворид кунед
 
 ## Product promotion
 
@@ -806,6 +817,7 @@ security-action-create = Эҷод кардан
 
 ## SubRow component
 
+tfa-row-backup-codes-title = Нусхаи эҳтиётии рамзҳои санҷиши ҳаққоният
 # Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
 tfa-row-backup-codes-get-new-cta-v2 = Эҷод кардани рамзҳои нав
 # Shown to users who have no backup authentication codes
@@ -892,6 +904,8 @@ continue-with-apple-button = Бо «{ -brand-apple }» идома диҳед
 auth-error-102 = Ҳисоби номаълум
 auth-error-103 = Ниҳонвожаи нодуруст
 auth-error-105-2 = Рамзи тасдиқкунанда нодуруст аст
+# Error shown when the user submits an invalid backup authentication code
+auth-error-156 = Нусхаи эҳтиётии рамзи санҷиши ҳаққоният ёфт нашуд
 auth-error-214 = Рақами телефони барқарорсозӣ аллакай вуҷуд дорад
 auth-error-215 = Рақами телефони барқарорсозӣ вуҷуд надорад
 auth-error-1056 = нусхаи эҳтиётии рамзи санҷиши ҳаққонияти нодуруст
@@ -1059,6 +1073,7 @@ reset-password-complete-banner-heading = Ниҳонвожаи шумо аз на
 
 # ConfirmBackupCodeResetPassword page
 
+confirm-backup-code-reset-password-subheader = Нусхаи эҳтиётии рамзи санҷиши ҳаққониятро ворид кунед
 
 ## Confirm Reset Password With Code
 
@@ -1074,6 +1089,7 @@ confirm-reset-password-otp-different-account-link = Ҳисоби дигарер�
 ## PasswordResetConfirmTotp Page
 
 confirm-totp-reset-password-header = Барқарор кардани ниҳонвожаи худ
+confirm-totp-reset-password-trouble-code = Ҳангоми ворид кардани рамз мушкилӣ мекашед?
 confirm-totp-reset-password-confirm-button = Тасдиқ кардан
 confirm-totp-reset-password-input-label-v2 = Рамзи 6-рақамро ворид кунед
 
@@ -1097,6 +1113,8 @@ reset-password-complete-header = Ниҳонвожаи шумо аз нав ба�
 password-reset-recovery-method-header = Барқарор кардани ниҳонвожаи худ
 password-reset-recovery-method-subheader = Тарзи барқарорсозиро интихоб кунед
 password-reset-recovery-method-phone = Телефони барқарорсозӣ
+password-reset-recovery-method-code = Нусхаи эҳтиётии рамзҳои санҷиши ҳаққоният
+password-reset-recovery-method-send-code-error-description = Лутфан, баъдтар аз нав кӯшиш кунед ё аз нусхаи эҳтиётии рамзҳои санҷиши ҳаққоният истифода баред.
 
 ## ResetPasswordRecoveryPhone page
 
@@ -1112,6 +1130,7 @@ reset-password-recovery-phone-locked-out-link = Ҳисоби шумо қулф �
 reset-password-recovery-phone-send-code-error-heading = Ҳангоми фиристодани рамз мушкилӣ ба миён омад
 # Follows the error message (e.g, "There was a problem sending a code")
 reset-password-recovery-phone-general-error-description = Лутфан, баъдтар аз нав кӯшиш кунед.
+reset-password-recovery-phone-invalid-code-error-link = Ба ивази он, аз нусхаи эҳтиётии рамзҳои санҷиши ҳаққоният истифода мебаред?
 reset-password-with-recovery-key-verified-page-title = Ниҳонвожа бо муваффақият аз нав танзим карда шуд
 reset-password-complete-new-password-saved = Ниҳонвожаи нав нигоҳ дошта шуд!
 
@@ -1172,6 +1191,7 @@ signin-recovery-method-header = Ворид шудан
 signin-recovery-method-subheader = Тарзи барқарорсозиро интихоб кунед
 signin-recovery-method-phone = Телефони барқарорсозӣ
 signin-recovery-method-code-v2 = Нусхаи эҳтиётии рамзҳои санҷиши ҳаққоният
+signin-recovery-method-send-code-error-description = Лутфан, баъдтар аз нав кӯшиш кунед ё аз нусхаи эҳтиётии рамзҳои санҷиши ҳаққоният истифода баред.
 
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
@@ -1205,6 +1225,7 @@ signin-recovery-phone-locked-out-link = Ҳисоби шумо қулф шуда�
 signin-recovery-phone-send-code-error-heading = Ҳангоми фиристодани рамз мушкилӣ ба миён омад
 # Follows the error message (e.g, "There was a problem sending a code")
 signin-recovery-phone-general-error-description = Лутфан, баъдтар аз нав кӯшиш кунед.
+signin-recovery-phone-invalid-code-error-link = Ба ивази он, аз нусхаи эҳтиётии рамзҳои санҷиши ҳаққоният истифода мебаред?
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 

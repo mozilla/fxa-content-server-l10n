@@ -113,7 +113,7 @@ subscription-management-no-subscriptions = Vous n’avez aucun abonnement pour l
 subscription-management-button-cancel-subscription-aria = Annuler l’abonnement
 subscription-management-button-cancel-subscription = Annuler
 subscription-management-your-apple-iap-subscriptions-aria = Vos { -brand-apple } abonnements in-app
-subscription-management-apple-in-app-purchase = { -brand-apple } : inclut des achats intégrés
+subscription-management-apple-in-app-purchase = { -brand-apple } : achats via l’application
 subscription-management-your-google-iap-subscriptions-aria = Vos { -brand-google } abonnements in-app
 subscription-management-google-in-app-purchase = { -brand-google } : achats via l’application
 # $date (String) - Date of next bill

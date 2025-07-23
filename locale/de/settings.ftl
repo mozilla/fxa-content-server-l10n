@@ -708,7 +708,7 @@ flow-setup-2fa-prompt-heading = Zwei-Schritt-Authentifizierung einrichten
 # that requests two-step authentication setup.
 flow-setup-2fa-prompt-description = { $serviceName } erfordert, dass Sie die Zwei-Schritt-Authentifizierung einrichten, um Ihr Konto zu schützen.
 # "these authenticator apps" links to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
-flow-setup-2fa-prompt-use-authenticator-apps = Sie können eine von <authenticationAppsLink>dieser Authentifizierungs-Apps</authenticationAppsLink> verwenden, um fortzufahren.
+flow-setup-2fa-prompt-use-authenticator-apps = Sie können eine von <authenticationAppsLink>diesen Authentifizierungs-Apps</authenticationAppsLink> verwenden, um fortzufahren.
 flow-setup-2fa-prompt-continue-button = Weiter
 
 ## FlowSetupPhoneConfirmCode
@@ -750,7 +750,7 @@ header-menu-closed = Menü Seitennavigation
 header-back-to-top-link =
     .title = Zum Seitenanfang
 header-back-to-settings-link =
-    .title = Zurück zu den Einstellungen von { -product-mozilla-account }
+    .title = Zurück zu den { -product-mozilla-account }-Einstellungen
 header-title-2 = { -product-mozilla-account }
 header-help = Hilfe
 

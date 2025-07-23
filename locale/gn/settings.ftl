@@ -687,6 +687,10 @@ flow-setup-2fa-backup-code-dl-heading = Eñongatu ayvu ñemoneĩrã jeykekoha
 flow-setup-2fa-backup-code-dl-save-these-codes = Eñongatu umíva peteĩ tenda nemanduʼatahápe. Ndaikatúiramo eike ne rembiporu’i ñemoneĩrãme, eikotevẽta peteĩ eikekuaa hag̃ua.
 flow-setup-2fa-backup-code-dl-button-continue = Ku’ejey
 
+##
+
+flow-setup-2fa-prompt-continue-button = Ku’ejey
+
 ## FlowSetupPhoneConfirmCode
 
 # verification code refers to a code sent by text message to confirm phone number ownership

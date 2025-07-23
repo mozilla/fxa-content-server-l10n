@@ -362,6 +362,9 @@ postAddTwoStepAuthentication-title-2 = Шумо санҷиши ҳаққония�
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postAddTwoStepAuthentication-from-device-v2 = Шумо инро дар дастгоҳи зерин дархост кардед:
 postAddTwoStepAuthentication-action = Идоракунии ҳисоб
+# Variables:
+#  $maskedPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
+postAddTwoStepAuthentication-recovery-method-phone = Шумо, инчунин, «{ $maskedPhoneNumber }»-ро ҳамчун рақами телефони барқарорсозии худ илова кардед.
 postAddTwoStepAuthentication-how-protects-link = Ин чӣ тавр ҳисоби шуморо муҳофизат мекунад
 postAddTwoStepAuthentication-how-protects-plaintext = Ин чӣ тавр ҳисоби шуморо муҳофизат мекунад:
 postChangeAccountRecovery-subject = Калиди барқарорсозии ҳисоб иваз шуд
@@ -478,9 +481,11 @@ subscriptionPaymentExpired-title-1 = Муҳлати истифодаи корт�
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = Пардохт барои «{ $productName }» иҷро шуд
+subscriptionPaymentFailed-title = Мутаассифона, ҳангоми коркарди пардохти шумо мушкилӣ ба миён омад
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-subject = Навсозии маълумоти пардохт барои «{ $productName }» лозим аст
+subscriptionPaymentProviderCancelled-title = Мутаассифона, ҳангоми татбиқи тарзи пардохти шумо мушкилӣ ба миён омад
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-subject = Обунаи «{ $productName }» аз нав фаъол карда шуд
@@ -503,6 +508,7 @@ subscriptionReplaced-title = Обунаи шумо навсозӣ карда ш�
 subscriptionReplaced-content-no-action = Аз ҷониби шумо ягон амал талаб карда намешавад.
 subscriptionsPaymentExpired-subject-1 = Муҳлати истифодаи корти бонкӣ барои обунаи шумо ба анҷом расид ё ба наздикӣ ба анҷом мерасад
 subscriptionsPaymentExpired-title-1 = Муҳлати истифодаи корти бонкии шумо ба анҷом расид ё ба наздикӣ ба анҷом мерасад
+subscriptionsPaymentProviderCancelled-title = Мутаассифона, ҳангоми татбиқи тарзи пардохти шумо мушкилӣ ба миён омад
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-subject = Пардохт барои «{ $productName }» қабул шуд

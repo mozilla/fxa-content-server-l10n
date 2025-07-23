@@ -26,6 +26,14 @@ upgrade-page-acknowledgment = Pe tembiaporape iñambuéta ha ojehepyme’ẽta n
 auth-error-page-title = Ndaikatúikuri roike
 checkout-error-boundary-retry-button = Eha’ãjey
 checkout-error-boundary-basic-error-message = Oĩ osẽvaíva. Eha’ãjey upéi térã <contactSupportLink>eñe’ẽ pytyvõha renda ndive</contactSupportLink>.
+amex-logo-alt-text = { -brand-amex } ra’ãnga’i
+diners-logo-alt-text = { -brand-diner } ra’ãnga’i
+discover-logo-alt-text = { -brand-discover } ra’ãnga’i
+jcb-logo-alt-text = { -brand-jcb } ra’ãnga’i
+mastercard-logo-alt-text = { -brand-mastercard } ra’ãnga’i
+paypal-logo-alt-text = { -brand-paypal } ra’ãnga’i
+unionpay-logo-alt-text = { -brand-unionpay } ra’ãnga’i
+visa-logo-alt-text = { -brand-visa } ra’ãnga’i
 
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -82,6 +90,17 @@ next-payment-confirmation-cc-card-ending-in = Kuatia’atã opáva { $last4 }-pe
 
 ## Page - Subscription Management
 
+subscription-management-button-add-payment-method = Mbojuaju
+subscription-management-button-change-payment-method = Moambue
+# $last4 (String) - Last four numbers of credit card
+subscription-management-card-ending-in = Kuatia’atã opáva { $last4 }-pe
+# $expirationDate (Date) - Payment card's expiration date
+subscription-management-card-expires-date = Hu’ãta { $expirationDate }
+subscription-management-subscriptions-heading = Ñemboheraguapy
+subscription-management-your-subscriptions-aria = Ne ñemboheraguapy
+subscription-management-button-cancel-subscription-aria = Eheja mboheraguapy
+subscription-management-button-cancel-subscription = Heja
+subscription-management-button-manage-subscription = Ñangareko
 # Page - Not Found
 page-not-found-title = Kuatiarogue ojejuhu’ỹva
 page-not-found-description = Ndojejuhúi kuatiarogue ejeruréva. Og̃uahẽ ne mba’ejerure ha romoĩporãta juajuha ikatúva oñembyai.
