@@ -112,16 +112,16 @@ subscription-management-your-subscriptions-aria = Eich tanysgrifiadau
 subscription-management-no-subscriptions = Does gennych chi ddim tanysgrifiadau eto
 subscription-management-button-cancel-subscription-aria = Diddymu tanysgrifiad
 subscription-management-button-cancel-subscription = Diddymu
-subscription-management-your-apple-iap-subscriptions-aria = Eich { -brand-apple } Tanysgrifiad Mewn Ap
-subscription-management-apple-in-app-purchase = { -brand-apple } : Prynu o fewn yr ap
-subscription-management-your-google-iap-subscriptions-aria = Eich { -brand-google } Tanysgrifiad Mewn Ap
-subscription-management-google-in-app-purchase = { -brand-google } : Prynu o fewn yr ap
+subscription-management-your-apple-iap-subscriptions-aria = Eich Tanysgrifiad  { -brand-apple } o Fewn yr Ap
+subscription-management-apple-in-app-purchase = { -brand-apple }: Prynu o fewn yr ap
+subscription-management-your-google-iap-subscriptions-aria = Eich Tanysgrifiad { -brand-google } o Fewn yr Ap
+subscription-management-google-in-app-purchase = { -brand-google } : Prynu o Fewn yr Ap
 # $date (String) - Date of next bill
 subscription-management-iap-sub-next-bill = Bydd y taliad nesaf ar { $date }
 # $date (String) - Date of In-App purchase expires
 subscription-management-iap-sub-expires-on = Yn dod i ben ar: { $date }
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscription-management-button-manage-subscription-aria = Rheoli tanysgrifiad ar gyfer { $productName }
+subscription-management-button-manage-subscription-aria = Rheoli tanysgrifiad { $productName }
 subscription-management-button-manage-subscription = Rheoli
 # Page - Not Found
 page-not-found-title = Heb ganfod y dudalen

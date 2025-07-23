@@ -29,6 +29,16 @@ upgrade-page-acknowledgment =
 auth-error-page-title = Njemóžachmy was přizjewić
 checkout-error-boundary-retry-button = Hišće raz spytać
 checkout-error-boundary-basic-error-message = Něšto je so nimokuliło. Prošu spytajće hišće raz abo <contactSupportLink>stajće so z pomocu do zwiska.</contactSupportLink>
+amex-logo-alt-text = Logo { -brand-amex }
+diners-logo-alt-text = Logo { -brand-diner }
+discover-logo-alt-text = Logo { -brand-discover }
+jcb-logo-alt-text = Logo { -brand-jcb }
+mastercard-logo-alt-text = Logo { -brand-mastercard }
+paypal-logo-alt-text = Logo { -brand-paypal }
+unionpay-logo-alt-text = Logo { -brand-unionpay }
+visa-logo-alt-text = Logo { -brand-visa }
+# Alt text for generic payment card logo
+unbranded-logo-alt-text = Logo bjez marki
 
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -83,8 +93,25 @@ next-payment-confirmation-download-button = Dale k sćehnjenju
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Karta, kotraž so na { $last4 } kónči
 
+## Layout - Subscription Management
+
+subscription-management-breadcrumb-account-home = Startowa strona konta
+subscription-management-breadcrumb-subscriptions = Abonementy
+subscription-management-account-profile-picture = Kontowy profilowy wobraz
+
 ## Page - Subscription Management
 
+subscription-management-payment-information-heading = Płaćenske informacije
+subscription-management-button-add-payment-method-aria = Płaćensku metodu přidać
+subscription-management-button-add-payment-method = Přidać
+subscription-management-button-change-payment-method-aria = Płaćensku metodu změnić
+subscription-management-button-change-payment-method = Změnić
+# $last4 (String) - Last four numbers of credit card
+subscription-management-card-ending-in = Karta, kotraž so na { $last4 } kónči
+# $expirationDate (Date) - Payment card's expiration date
+subscription-management-card-expires-date = Spadnje { $expirationDate }
+subscription-management-subscriptions-heading = Abonementy
+subscription-management-your-subscriptions-aria = Waše abonementy
 # Page - Not Found
 page-not-found-title = Strona njeje so namakała
 page-not-found-description = Strona, kotruž sće požadał, njeje so namakała. Smy powěsć dóstali a porjedźimy skóncowane wotkazy.

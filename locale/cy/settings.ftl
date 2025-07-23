@@ -706,23 +706,23 @@ flow-setup-2fa-inline-complete-backup-phone = Ffôn adfer
 # authentication codes remaining
 flow-setup-2fa-inline-complete-backup-code-info =
     { $count ->
-        [one] { $count } cod yn weddill
+        [one] { $count } codau'n weddill
         [zero] { $count } cod yn weddill
-        [two] { $count } cod yn weddill
+        [two] { $count } god yn weddill
         [few] { $count } cod yn weddill
-        [many] { $count } cod yn weddill
+        [many] { $count } chod yn weddill
        *[other] { $count } cod yn weddill
     }
-flow-setup-2fa-inline-complete-backup-code-description = Dyma'r dull adfer mwyaf diogel os na allwch fewngofnodi gyda'ch dyfais symudol neu ap dilysu.
-flow-setup-2fa-inline-complete-backup-phone-description = Dyma'r dull adfer hawsaf os na allwch fewngofnodi gyda'ch app dilysu.
+flow-setup-2fa-inline-complete-backup-code-description = Dyma'r dull adfer mwyaf diogel os nad ydych yn gallu mewngofnodi gyda'ch dyfais symudol neu ap dilysu.
+flow-setup-2fa-inline-complete-backup-phone-description = Dyma'r dull adfer mwyaf diogel os nad ydych yn gallu mewngofnodi gyda'ch ap dilysu.
 flow-setup-2fa-inline-complete-learn-more-link = Sut mae hyn yn diogelu eich cyfrif
 # $serviceName (String) - the name of the product that the user will be
 # redirected to.
 flow-setup-2fa-inline-complete-continue-button = Parhau i { $serviceName }
-flow-setup-2fa-prompt-heading = Sefydlu dilysu dau gam
+flow-setup-2fa-prompt-heading = Gosod dilysu dau gam
 # Variable { $serviceName } is the name of the product (e.g. Firefox Add-ons)
 # that requests two-step authentication setup.
-flow-setup-2fa-prompt-description = Mae { $serviceName } yn gofyn i chi sefydlu dilysiad dau gam i gadw'ch cyfrif yn ddiogel.
+flow-setup-2fa-prompt-description = Mae { $serviceName } yn gofyn i chi osod dilysiad dau gam i gadw'ch cyfrif yn ddiogel.
 # "these authenticator apps" links to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
 flow-setup-2fa-prompt-use-authenticator-apps = Gallwch ddefnyddio unrhyw un o <authenticationAppsLink>yr apiau dilysu hyn</authenticationAppsLink> i symud ymlaen.
 flow-setup-2fa-prompt-continue-button = Parhau
