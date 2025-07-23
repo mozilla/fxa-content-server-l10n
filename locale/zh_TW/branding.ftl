@@ -45,5 +45,12 @@
 -brand-google = Google
 -brand-paypal = PayPal
 -brand-name-stripe = Stripe
+-brand-amex = 美國運通
+-brand-diners = 大來卡
+-brand-discover = Discover
+-brand-jcb = JCB
+-brand-mastercard = Mastercard
+-brand-unionpay = 銀聯
+-brand-visa = Visa
 -app-store = App Store
 -google-play = Google Play

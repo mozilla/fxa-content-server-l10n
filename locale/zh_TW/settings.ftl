@@ -671,6 +671,28 @@ flow-setup-2fa-backup-code-dl-heading = 儲存備用驗證碼
 flow-setup-2fa-backup-code-dl-save-these-codes = 請將驗證碼保存在您記得的地方，萬一無法再使用驗證程式，就要使用備用驗證碼才能登入。
 flow-setup-2fa-backup-code-dl-button-continue = 繼續
 
+##
+
+flow-setup-2fa-inline-complete-success-banner = 已開啟兩階段驗證
+flow-setup-2fa-inline-complete-backup-code = 備用驗證碼
+flow-setup-2fa-inline-complete-backup-phone = 救援電話號碼
+# $count (Number) - an integer representing the number of backup
+# authentication codes remaining
+flow-setup-2fa-inline-complete-backup-code-info = 還剩下 { $count } 組驗證碼
+flow-setup-2fa-inline-complete-backup-code-description = 若您無法再使用行動裝置或驗證程式登入，這是最安全的救援方法。
+flow-setup-2fa-inline-complete-backup-phone-description = 若您無法再使用驗證程式登入，這是最簡單的救援方法。
+flow-setup-2fa-inline-complete-learn-more-link = 此功能如何保護您的帳號
+# $serviceName (String) - the name of the product that the user will be
+# redirected to.
+flow-setup-2fa-inline-complete-continue-button = 繼續前往 { $serviceName }
+flow-setup-2fa-prompt-heading = 設定兩階段驗證
+# Variable { $serviceName } is the name of the product (e.g. Firefox Add-ons)
+# that requests two-step authentication setup.
+flow-setup-2fa-prompt-description = { $serviceName } 要求您設定兩階段驗證，以確保帳號安全。
+# "these authenticator apps" links to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+flow-setup-2fa-prompt-use-authenticator-apps = 您可以使用<authenticationAppsLink>下列驗證程式</authenticationAppsLink>當中的任一種來設定。
+flow-setup-2fa-prompt-continue-button = 繼續
+
 ## FlowSetupPhoneConfirmCode
 
 # verification code refers to a code sent by text message to confirm phone number ownership
@@ -709,6 +731,8 @@ header-menu-open = 關閉選單
 header-menu-closed = 網站導航選單
 header-back-to-top-link =
     .title = 回到頁面頂端
+header-back-to-settings-link =
+    .title = 回到 { -product-mozilla-account }設定
 header-title-2 = { -product-mozilla-account }
 header-help = 說明
 
@@ -1281,6 +1305,10 @@ auth-error-1067 = 打錯信箱地址？
 # Variables:
 #  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
 recovery-phone-number-ending-digits = 號碼尾碼為 { $lastFourPhoneNumber }
+# This error is shown when there is a particular kind of error at the very end of the 2FA flow
+# and the user should begin it again. A system/device clock not being synced to the internet time is
+# a common problem when using 2FA.
+two-factor-auth-setup-token-verification-error = 開啟兩階段驗證時發生錯誤，請確認您裝置時間正確並設定成自動更新時間後<a>再試一次</a>。
 oauth-error-1000 = 有些東西不對勁，請關閉此分頁再試一次。
 
 ## Cannot Create Account page

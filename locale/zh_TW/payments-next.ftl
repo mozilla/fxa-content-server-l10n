@@ -26,6 +26,16 @@ upgrade-page-acknowledgment = 您的方案內容會立刻變更，且會向您�
 auth-error-page-title = 無法讓您登入
 checkout-error-boundary-retry-button = 重試
 checkout-error-boundary-basic-error-message = 有些東西不對勁，請再試一次或<contactSupportLink>聯絡我們的技術支援團隊。</contactSupportLink>
+amex-logo-alt-text = { -brand-amex } 圖示
+diners-logo-alt-text = { -brand-diner } 圖示
+discover-logo-alt-text = { -brand-discover } 圖示
+jcb-logo-alt-text = { -brand-jcb } 圖示
+mastercard-logo-alt-text = { -brand-mastercard } 圖示
+paypal-logo-alt-text = { -brand-paypal } 圖示
+unionpay-logo-alt-text = { -brand-unionpay } 圖示
+visa-logo-alt-text = { -brand-visa } 圖示
+# Alt text for generic payment card logo
+unbranded-logo-alt-text = 無品牌圖示
 
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -80,8 +90,39 @@ next-payment-confirmation-download-button = 前往下載
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = 卡號末四碼：{ $last4 }
 
+## Layout - Subscription Management
+
+subscription-management-breadcrumb-account-home = 帳號首頁
+subscription-management-breadcrumb-subscriptions = 訂閱
+subscription-management-account-profile-picture = 帳號個人資料照片
+
 ## Page - Subscription Management
 
+subscription-management-payment-information-heading = 付款資訊
+subscription-management-button-add-payment-method-aria = 新增付款方式
+subscription-management-button-add-payment-method = 新增
+subscription-management-button-change-payment-method-aria = 更改付款方式
+subscription-management-button-change-payment-method = 變更
+# $last4 (String) - Last four numbers of credit card
+subscription-management-card-ending-in = 卡號末四碼：{ $last4 }
+# $expirationDate (Date) - Payment card's expiration date
+subscription-management-card-expires-date = 到期於 { $expirationDate }
+subscription-management-subscriptions-heading = 訂閱項目
+subscription-management-your-subscriptions-aria = 您的訂閱項目
+subscription-management-no-subscriptions = 您尚未訂閱任何項目
+subscription-management-button-cancel-subscription-aria = 取消訂閱
+subscription-management-button-cancel-subscription = 取消
+subscription-management-your-apple-iap-subscriptions-aria = 您的 { -brand-apple } 應用程式內訂閱項目
+subscription-management-apple-in-app-purchase = { -brand-apple }：應用程式內購買
+subscription-management-your-google-iap-subscriptions-aria = 您的 { -brand-google } 應用程式內訂閱項目
+subscription-management-google-in-app-purchase = { -brand-google }：應用程式內購買
+# $date (String) - Date of next bill
+subscription-management-iap-sub-next-bill = 下次收費時間：{ $date }
+# $date (String) - Date of In-App purchase expires
+subscription-management-iap-sub-expires-on = 於 { $date } 到期
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscription-management-button-manage-subscription-aria = 管理 { $productName } 訂閱
+subscription-management-button-manage-subscription = 管理
 # Page - Not Found
 page-not-found-title = 找不到頁面
 page-not-found-description = 找不到您想開啟的頁面。我們已經通知開發團隊來檢查網頁。
