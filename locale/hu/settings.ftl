@@ -714,7 +714,7 @@ flow-setup-2fa-prompt-heading = Állítsa be a kétlépcsős hitelesítést
 # that requests two-step authentication setup.
 flow-setup-2fa-prompt-description = A(z) { $serviceName } szolgáltatáshoz be kell állítania a kétlépcsős hitelesítést, hogy biztonságban tartsa a fiókját.
 # "these authenticator apps" links to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
-flow-setup-2fa-prompt-use-authenticator-apps = Használhatja bármelyik <authenticationAppsLink>ezen hitelesítő alkalmazásokat</authenticationAppsLink> a folytatáshoz.
+flow-setup-2fa-prompt-use-authenticator-apps = A folytatáshoz <authenticationAppsLink>ezen hitelesítő alkalmazások</authenticationAppsLink> bármelyikét használhatja.
 flow-setup-2fa-prompt-continue-button = Folytatás
 
 ## FlowSetupPhoneConfirmCode
@@ -1353,7 +1353,7 @@ recovery-phone-number-ending-digits = { $lastFourPhoneNumber } végű szám
 # This error is shown when there is a particular kind of error at the very end of the 2FA flow
 # and the user should begin it again. A system/device clock not being synced to the internet time is
 # a common problem when using 2FA.
-two-factor-auth-setup-token-verification-error = Hiba történt a kétlépcsős hitelesítés engedélyezésekor. Ellenőrizze, hogy az eszköz órája úgy van-e beállítva, hogy automatikusan frissítse, és <a>újrakezdje</a>.
+two-factor-auth-setup-token-verification-error = Hiba történt a kétlépcsős hitelesítés engedélyezésekor. Ellenőrizze, hogy az eszköz órája automatikus frissítésre van-e beállítva, és <a>kezdje elölről</a>.
 oauth-error-1000 = Hiba történt. Zárja be ezt a lapot, és próbálja újra.
 
 ## Cannot Create Account page
