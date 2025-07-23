@@ -688,6 +688,28 @@ flow-setup-2fa-backup-code-dl-button-continue = Continue
 ##
 
 flow-setup-2fa-inline-complete-success-banner = Autenticazion in doi passaçs ativade
+flow-setup-2fa-inline-complete-backup-code = Codiçs di autenticazion di backup
+flow-setup-2fa-inline-complete-backup-phone = Telefon pal recupar dal account
+# $count (Number) - an integer representing the number of backup
+# authentication codes remaining
+flow-setup-2fa-inline-complete-backup-code-info =
+    { $count ->
+        [one] Al reste { $count } codiç
+       *[other] A restin { $count } codiçs
+    }
+flow-setup-2fa-inline-complete-backup-code-description = Cheste e je la modalitât di recupar plui sigûr se no tu rivis a jentrâ cul to dispositîf mobil o cu ls aplicazion di autenticazion.
+flow-setup-2fa-inline-complete-backup-phone-description = Chest al è il metodi di recupar plui sempliç tal câs che no tu rivis a jentrâ cu la aplicazion di autenticazion.
+flow-setup-2fa-inline-complete-learn-more-link = Cemût che al jude a protezi il to account
+# $serviceName (String) - the name of the product that the user will be
+# redirected to.
+flow-setup-2fa-inline-complete-continue-button = Continue su { $serviceName }
+flow-setup-2fa-prompt-heading = Configure la autenticazion in doi passaçs
+# Variable { $serviceName } is the name of the product (e.g. Firefox Add-ons)
+# that requests two-step authentication setup.
+flow-setup-2fa-prompt-description = { $serviceName } al domande la configurazion de autenticazion in doi passaçs par mantignî il to account sul sigûr.
+# "these authenticator apps" links to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+flow-setup-2fa-prompt-use-authenticator-apps = Pal lâ indevant tu puedis doprâ une di <authenticationAppsLink>chestis aplicazions di autenticazion</authenticationAppsLink>.
+flow-setup-2fa-prompt-continue-button = Continue
 
 ## FlowSetupPhoneConfirmCode
 
@@ -727,6 +749,8 @@ header-menu-open = Siere menù
 header-menu-closed = Menù di navigazion dal sît
 header-back-to-top-link =
     .title = Torne sù
+header-back-to-settings-link =
+    .title = Torne aes impostazions di { -product-mozilla-account }
 header-title-2 = { -product-mozilla-account }
 header-help = Jutori
 
