@@ -110,7 +110,7 @@ subscription-management-card-ending-in = { $last4 } végződésű kártya
 # $expirationDate (Date) - Payment card's expiration date
 subscription-management-card-expires-date = Lejárat: { $expirationDate }
 subscription-management-subscriptions-heading = Előfizetések
-subscription-management-your-subscriptions-aria = Az előfizetései
+subscription-management-your-subscriptions-aria = Saját előfizetések
 subscription-management-no-subscriptions = Még nincs előfizetése
 subscription-management-button-cancel-subscription-aria = Előfizetés lemondása
 subscription-management-button-cancel-subscription = Mégse
@@ -121,7 +121,7 @@ subscription-management-google-in-app-purchase = { -brand-google }: Alkalmazáso
 # $date (String) - Date of next bill
 subscription-management-iap-sub-next-bill = Következő számlázás: { $date }
 # $date (String) - Date of In-App purchase expires
-subscription-management-iap-sub-expires-on = Lejár: { $date }
+subscription-management-iap-sub-expires-on = Lejárat: { $date }
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = { $productName } előfizetés kezelése
 subscription-management-button-manage-subscription = Kezelés
