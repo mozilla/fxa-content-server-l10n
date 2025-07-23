@@ -22,6 +22,14 @@ upgrade-page-payment-information = פרטי תשלום
 auth-error-page-title = לא הצלחנו להכניס אותך
 checkout-error-boundary-retry-button = ניסיון חוזר
 checkout-error-boundary-basic-error-message = משהו השתבש. נא לנסות שוב או <contactSupportLink>ליצור קשר עם התמיכה</contactSupportLink>.
+discover-logo-alt-text = הלוגו של { -brand-discover }
+jcb-logo-alt-text = הלוגו של { -brand-jcb }
+mastercard-logo-alt-text = הלוגו של { -brand-mastercard }
+paypal-logo-alt-text = הלוגו של { -brand-paypal }
+unionpay-logo-alt-text = הלוגו של { -brand-unionpay }
+visa-logo-alt-text = הלוגו של { -brand-visa }
+# Alt text for generic payment card logo
+unbranded-logo-alt-text = לוגו לא ממותג
 
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -45,6 +53,7 @@ intent-expired-card-error = נראה שפג תוקף הכרטיס אשראי ש�
 intent-payment-error-try-again = הממ. הייתה בעיה באישור התשלום שלך. נא לנסות שוב או ליצור קשר עם מנפיק הכרטיס שלך.
 intent-payment-error-get-in-touch = הממ. הייתה בעיה באישור התשלום שלך. נא ליצור קשר עם מנפיק הכרטיס שלך.
 intent-payment-error-generic = אירעה שגיאה לא צפויה בעת עיבוד התשלום שלך, נא לנסות שוב.
+intent-payment-error-insufficient-funds = נראה שבכרטיס שלך אין יתרה מספיקה. נא לנסות כרטיס אחר.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -75,8 +84,25 @@ next-payment-confirmation-download-button = המשך להורדה
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = כרטיס המסתיים ב־{ $last4 }
 
+## Layout - Subscription Management
+
+subscription-management-breadcrumb-subscriptions = מינויים
+subscription-management-account-profile-picture = תמונת פרופיל חשבון
+
 ## Page - Subscription Management
 
+subscription-management-payment-information-heading = פרטי תשלום
+subscription-management-button-add-payment-method-aria = הוספת אמצעי תשלום
+subscription-management-button-add-payment-method = הוספה
+subscription-management-button-change-payment-method-aria = שינוי אמצעי תשלום
+subscription-management-button-change-payment-method = שינוי
+# $last4 (String) - Last four numbers of credit card
+subscription-management-card-ending-in = כרטיס המסתיים ב־{ $last4 }
+subscription-management-subscriptions-heading = מינויים
+subscription-management-your-subscriptions-aria = המינויים שלך
+subscription-management-no-subscriptions = אין לך מינויים עדיין.
+subscription-management-button-cancel-subscription-aria = ביטול מינוי
+subscription-management-button-cancel-subscription = ביטול
 # Page - Not Found
 page-not-found-title = הדף לא נמצא
 page-not-found-description = העמוד המבוקש לא נמצא. קיבלנו את המידע הדרוש ונתקן את הקישורים שייתכן שנשברו.
