@@ -103,6 +103,14 @@ subscription-management-your-subscriptions-aria = המינויים שלך
 subscription-management-no-subscriptions = אין לך מינויים עדיין.
 subscription-management-button-cancel-subscription-aria = ביטול מינוי
 subscription-management-button-cancel-subscription = ביטול
+subscription-management-google-in-app-purchase = ‏{ -brand-google }: רכישה מתוך היישומון
+# $date (String) - Date of next bill
+subscription-management-iap-sub-next-bill = החיוב הבא בתאריך { $date }
+# $date (String) - Date of In-App purchase expires
+subscription-management-iap-sub-expires-on = יפוג בתאריך { $date }
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscription-management-button-manage-subscription-aria = ניהול מינוי עבור { $productName }
+subscription-management-button-manage-subscription = ניהול
 # Page - Not Found
 page-not-found-title = הדף לא נמצא
 page-not-found-description = העמוד המבוקש לא נמצא. קיבלנו את המידע הדרוש ונתקן את הקישורים שייתכן שנשברו.
