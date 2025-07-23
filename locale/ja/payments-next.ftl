@@ -8,9 +8,6 @@ next-payment-method-header = お支払い方法を選択してください
 payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = まず、サブスクリプションの承認が必要です。
 
-## Page - Upgrade page
-
-
 ## Authentication Error page
 
 checkout-error-boundary-retry-button = 再試行
@@ -22,9 +19,6 @@ checkout-error-boundary-basic-error-message = 問題が発生しました。も�
 next-payment-error-manage-subscription-button = サブスクリプションの管理
 next-payment-error-retry-button = 再度お試しください
 next-basic-error-message = 何か問題が発生しました。また後で試してください。
-
-## Error pages - Payment method failure messages
-
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -138,9 +132,6 @@ next-new-user-subscribe-product-updates-mozilla = { -brand-mozilla } から製�
 next-new-user-subscribe-product-updates-snp = { -brand-mozilla } からセキュリティとプライバシーに関するニュースと最新情報を受け取りたい
 next-new-user-subscribe-product-assurance = 私たちは、あなたのメールアドレスをアカウント作成にのみ使用し、この個人情報を第三者に販売しません。
 
-## Component - PriceInterval
-
-
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
@@ -165,20 +156,3 @@ next-subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capita
 next-terms = 利用規約
 next-privacy = プライバシー通知
 next-terms-download = 利用規約をダウンロード
-
-## Component - UpdatedPurchaseDetails
-
-
-## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
-## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
-
-
-## Page Metadata Information
-## $productTitle (String) - The name of the product to create subscription, e.g. Mozilla VPN
-
-
-## Coupon Error Messages
-
-
-##
-

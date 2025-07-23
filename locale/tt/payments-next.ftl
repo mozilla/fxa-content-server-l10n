@@ -2,21 +2,12 @@
 
 next-payment-method-header = Түләү ысулын сайлагыз
 
-## Page - Upgrade page
-
-
-## Authentication Error page
-
-
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages
 
 next-payment-error-manage-subscription-button = Минем язылу белән идарә итү
 next-payment-error-retry-button = Янәдән тырышып карау
 next-basic-error-message = Нидер булды. Зинһар соңрак тырышып карагыз.
-
-## Error pages - Payment method failure messages
-
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -44,9 +35,6 @@ next-payment-confirmation-download-button = Йөкләүне дәвам итү
 
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = { $last4 } белән тәмамланучы карта
-
-## Component - Payment Consent Checkbox
-
 
 ## Checkout Form
 
@@ -85,13 +73,6 @@ next-plan-details-show-button = Нечкәлекләрен күрсәтү
 next-new-user-subscribe-product-updates-mozilla = Мин { -brand-mozilla } җибәргән яңалыклардан хәбәрдар булырга телим
 next-new-user-subscribe-product-updates-snp = Мин { -brand-mozilla } җибәргән куркынычсызлык һәм хосусыйлык яңалыкларыннан һәм яңартулардан хәбәрдар булырга телим
 
-## Component - PriceInterval
-
-
-## PriceInterval - shared by multiple components, including Details and PurchaseDetails
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
-
 ## Component - SubscriptionTitle
 
 next-subscription-create-title = Язылуларыгызны көйләү
@@ -105,20 +86,3 @@ next-sub-guarantee = 30 көн эчендә акчаны кире кайтару
 next-terms = Куллану Шартлары
 next-privacy = Хосусыйлык сәясәте
 next-terms-download = Куллану шартларын йөкләп алу
-
-## Component - UpdatedPurchaseDetails
-
-
-## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
-## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
-
-
-## Page Metadata Information
-## $productTitle (String) - The name of the product to create subscription, e.g. Mozilla VPN
-
-
-## Coupon Error Messages
-
-
-##
-

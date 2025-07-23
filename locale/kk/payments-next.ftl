@@ -23,9 +23,6 @@ next-payment-error-retry-button = Қайтадан көру
 next-basic-error-message = Бірнәрсе қате кетті. Кейінірек қайталап көріңіз.
 checkout-error-contact-support-button = Қолдау қызметіне хабарласу
 
-## Error pages - Payment method failure messages
-
-
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
 
@@ -52,6 +49,9 @@ next-payment-confirmation-download-button = Жүктеп алуды жалғас
 
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = { $last4 } аяқталатын карта
+
+## Page - Subscription Management
+
 # Page - Not Found
 page-not-found-title = Бет табылмады
 page-not-found-description = Сіз сұраған бет табылмады. Ол туралы біз хабарды алдық, және қате бола алатын сілтемелерді жөндейміз.
@@ -151,9 +151,6 @@ next-new-user-subscribe-product-updates-mozilla = Мен { -brand-mozilla } өн
 next-new-user-subscribe-product-updates-snp = Мен { -brand-mozilla } ұсынған қауіпсіздік пен жекелік жаңалықтары мен жаңартуларын алғым келеді
 next-new-user-subscribe-product-assurance = Біз эл. поштаңызды тек тіркелгіңізді жасау үшін пайдаланамыз. Біз оны ешқашан үшінші тарапқа сатпаймыз.
 
-## Component - PriceInterval
-
-
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
@@ -221,6 +218,3 @@ metadata-description-default = Сіз сұраған бет табылмады.
 ## Coupon Error Messages
 
 next-coupon-error-expired = Сіз енгізген кодтың мерзімі аяқталды.
-
-##
-

@@ -33,9 +33,6 @@ checkout-error-contact-support-button = Contactar l’agid
 checkout-error-not-eligible = Ti n’has betg il dretg dad abunar quest product – contactescha per plaschair l’agid per che nus possian ta gidar.
 checkout-error-contact-support = Contactescha per plaschair l’agid per che nus possian ta gidar.
 
-## Error pages - Payment method failure messages
-
-
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
 
@@ -161,9 +158,6 @@ next-new-user-subscribe-product-updates-mozilla = Jau vi retschaiver novitads da
 next-new-user-subscribe-product-updates-snp = Jau vi retschaiver novitads davart segirezza e protecziun da datas ed autras novas da { -brand-mozilla }
 next-new-user-subscribe-product-assurance = Nus duvrain tia adressa dad e-mail mo per crear tes conto. Nus na la vendain mai a terzas partidas.
 
-## Component - PriceInterval
-
-
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
@@ -211,13 +205,3 @@ upgrade-purchase-details-new-plan-weekly = { $productName } (emnil)
 upgrade-purchase-details-new-plan-monthly = { $productName } (mensil)
 upgrade-purchase-details-new-plan-halfyearly = { $productName } (mintga 6 mais)
 upgrade-purchase-details-new-plan-yearly = { $productName } (annual)
-
-## Page Metadata Information
-## $productTitle (String) - The name of the product to create subscription, e.g. Mozilla VPN
-
-
-## Coupon Error Messages
-
-
-##
-

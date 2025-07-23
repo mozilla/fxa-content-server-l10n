@@ -3,26 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## Banner component
-
-
-## Brand Messaging component
-## Used to show in product messaging about upcoming brand changes
-
-
-## ButtonBack component
-## Allows users to click a back arrow to navigate to the previous page
-
-
-## ButtonDownloadRecoveryKeyPDF
-## Clicking on this button downloads a PDF file that contains the user's account recovery key
-## The account recovery key can be used to recover data when users forget their account password
-
-
-## ChooseNewsletters component
-## Checklist of newsletters that the user can choose to sign up to
-
-
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
@@ -31,13 +11,6 @@ datablock-copy =
     .message = Wachib'en
 datablock-print =
     .message = Tz'ajb'en
-
-## Success banners for datablock actions.
-## $count – number of codes
-
-
-##
-
 
 ## DeviceInfoBlock component
 ## The strings here are used to display information about the origin of activity happening on a user's account
@@ -78,12 +51,6 @@ form-reset-password-with-balloon-confirm-password =
 form-reset-password-with-balloon-submit-button = Titzolïx ewan tzij
 form-reset-password-with-balloon-match-error = Man nikik'äm ta ki' ri taq ewan tzij
 
-## FormPasswordInlineCriteria
-
-
-## FormVerifyCode
-
-
 ## FormVerifyTotp component
 ## Form to enter a time-based one-time-passcode (e.g., 6-digit numeric code or 8-digit alphanumeric code)
 
@@ -100,19 +67,6 @@ get-data-trio-copy-2 =
 get-data-trio-print-2 =
     .title = Titz'ajb'äx
     .aria-label = Titz'ajb'äx
-
-## Images - these are all aria labels used for illustrations
-## Aria labels are used as alternate text that can be read aloud by screen readers.
-
-
-## Images - these are all aria labels used for illustrations
-## Aria labels are used as alternate text that can be read aloud by screen readers.
-
-
-## InlineRecoveryKeySetupCreate component
-## Users see this view when we prompt them to generate an account recovery key
-## after signing in.
-
 
 ## Input Password
 
@@ -134,12 +88,6 @@ reset-pwd-link-damaged-header = Titzolïx ruwäch ri man ütz ta ruximonel ewan 
 # The user followed a link received by email, but the link was damaged.
 reset-pwd-link-damaged-message = K'a k'o na taq tz'ib' nrajo' ri ximonel xapïtz' ruma ri' toq rik'in jub'a' xq'at ruma ri ataqoya'l richin winäq. Tachajij ruwachib'enik ri ochochib'äl richin natojtob'ej chik.
 
-## LinkExpired component
-
-
-## LinkRememberPassword component
-
-
 ## LinkUsed component
 
 # The user followed a primary email confirmation link, but that link is has been used and is no longer valid
@@ -147,20 +95,6 @@ primary-email-confirmation-link-reused = Xjikib'äx yan ri nab'ey taqoya'l
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Xjikib'äx yan rutikirisaxik molojri'ïl
 confirmation-link-reused-message = Chi ri ruximonel jikib'anïk xokisäx yan, xa xe tikirel nokisäx jun mul.
-
-## PasswordInfoBalloon
-## Balloon displayed next to password input field
-
-
-## PasswordStrengthBalloon component
-
-
-## PasswordStrengthInline component
-## These strings are conditions that need to be met to qualify as a strong password
-
-
-## Notification Promo Banner component
-
 
 ## Ready component
 
@@ -173,19 +107,6 @@ ready-account-ready = ¡Ütz chik ri rub'i' ataqoya'l!
 ready-continue = Titikïr chik el
 sign-in-complete-header = Xjikib'äx rutikirisaxik molojri'ïl
 sign-up-complete-header = Xjikib'äx rub'i' taqoya'l
-
-## Users see this view when they are generating a new account recovery key
-## This screen displays the generated key and allows users to download or copy the key
-
-
-## RecoveryKeySetupHint
-## This is the final step in the account recovery key creation flow after a Sync signin or in account settings
-## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
-
-
-## ResetPasswordWarning component
-## Warning shown to sync users that reset their password without using an account recovery key
-
 
 ## Alert Bar
 
@@ -237,13 +158,6 @@ cs-refresh-button =
 cs-missing-device-help = ¿La k'a k'o taq ch'akulal nrajo' o ekamulun?
 cs-disconnect-sync-heading = Tichup pa Sync
 
-## This string is used in a modal dialog when the user starts the disconnect from
-## Sync process.
-## Variables:
-##   $device (String) - the name of a device using Mozilla accounts
-##                      (for example: "Firefox Nightly on Google Pixel 4a")
-
-
 ## The following are the options for selecting a reason for disconnecting the
 ## device
 
@@ -273,45 +187,6 @@ drop-down-menu-sign-out = Titz'apïx molojri'ïl
 ## Flow Container
 
 flow-container-back = Chi rij
-
-## FlowRecoveryKeyConfirmPwd - Second view in the PageRecoveryKeyCreate flow
-## Users see this view when they are generating a new account recovery key
-## This screen asks the user to confirm their password before generating a new key
-
-
-## FlowRecoveryKeyDownload - Third view in the PageRecoveryKeyCreate flow
-## Users see this view when they are generating a new account recovery key
-## This screen displays the generated key and allows users to download or copy the key
-
-
-## FlowRecoveryKeyHint
-## This is the fourth and final step in the account recovery key creation flow in account settings
-## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
-
-
-## FlowRecoveryKeyInfo - First view in the PageRecoveryKeyCreate flow
-
-
-## FlowSetup2faApp
-
-
-## The step to choose the two step authentication method in the two step
-## authentication setup flow.
-
-
-## The backup code confirm step of the setup 2 factor authentication flow,
-## where the user confirm that they have saved their backup authentication codes
-## by entering one of them.
-
-
-## The backup codes download step of the setup 2 factor authentication flow
-
-
-## FlowSetupPhoneConfirmCode
-
-
-## FlowSetupPhoneConfirmCode
-
 
 ## HeaderLockup component, the header in account settings
 
@@ -350,9 +225,6 @@ nav-email-comm = Tzijonem pa taqoya'l
 
 tfa-replace-code-1-2 = 1 xak richin 2
 tfa-replace-code-2-2 = 2 xak richin 2
-
-## PageSetupRecoveryPhone
-
 
 ## Avatar change page
 
@@ -442,21 +314,6 @@ cancel-display-name = Tiq'at
 display-name-update-error-2 = K'o k'ayewal toq xk'ex ri b'i'aj richin nik'ut.
 display-name-success-alert-2 = Tik'ut pe ri b'i'aj xk'ex
 
-## Recent account activity
-## All strings except title indicate an event that occurred from the user's account
-## These are displayed as a list with the date when the event occured
-
-
-## PageRecoveryKeyCreate
-
-
-## PageRecoveryPhoneRemove
-## Users reach this page from account settings when they want to remove a backup phone number.
-
-
-## PageSetupRecoveryPhone
-
-
 ## Add secondary email page
 
 add-secondary-email-step-1 = 1 xak richin 2
@@ -514,9 +371,6 @@ tfa-button-cant-scan-qr = ¿La man nitikïr ta nuq'axachib'ilij b'itz'ib'?
 # When the user cannot use a QR code.
 tfa-enter-secret-key = Titz'ib'äx re ewan ruk'u'x tzij re' pa ri achokoy  richin jikib'anem:
 
-## Product promotion
-
-
 ## Profile section
 
 profile-heading = Ruwäch b'i'aj
@@ -526,9 +380,6 @@ profile-display-name =
     .header = Tik'ut b'i'aj
 profile-primary-email =
     .header = Nab'ey taqoya'l
-
-## Progress bar
-
 
 ## Security section of Setting
 
@@ -541,9 +392,6 @@ security-password =
 security-password-created-date = Xtz'uk: { $date }
 security-not-set = Majun Runuk'ulem
 security-action-create = Titz'uk
-
-## SubRow component
-
 
 ## Switch component
 
@@ -616,14 +464,6 @@ tfa-row-disable-modal-confirm = Tichup
 tfa-row-disabled-2 = Xchup ri jikib'anem rik'in ka'i'-xaq
 tfa-row-cannot-disable-2 = Man tikirel ta nichup ri rujikib'axik pa ka'i'-xaq
 
-## TermsPrivacyAgreement
-## These terms are used in signin and signup for Firefox account
-
-
-## ThirdPartyAuth component
-## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
-
-
 ## Auth-server based errors that originate from backend service
 
 auth-error-102 = Man etaman ta ruwäch rub'i' taqoya'l
@@ -671,12 +511,6 @@ cookies-disabled-button-try-again = Titojtob'ëx chik
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
 cookies-disabled-learn-more = Tetamäx ch'aqa' chik
 
-## Index / home page
-
-
-## InlineRecoveryKeySetup page component
-
-
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
 ## in this case, they will encounter this page in the signup process (hence calling it "Inline)
@@ -718,24 +552,11 @@ legal-privacy-heading = Ichinan na'oj
 
 legal-terms-heading = Taq Rojqanem Samaj
 
-## AuthAllow page - Part of the device pairing flow
-
-
 ## PairAuthComplete page - part of the device pairing flow
 
 # Heading to confirm the successful pairing of a new device with the user's account
 # Device here is non specific (could be a laptop, tablet, phone, etc.)
 pair-auth-complete-heading = Okisan okisaxel
-
-## AuthTotp page
-## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
-## Users that have set up two-factor authentication land on this page during device pairing.
-
-
-## WaitForSupp page - Part of the devide pairing flow
-## Users see this page when they have started to pair a second (or more) device to their account
-## The pairing must be approved from both devices to succeed
-
 
 ## PairFailure - a view which displays on failure of the device pairing process
 
@@ -766,28 +587,9 @@ pair-success-message-2 = Ütz xok.
 pair-supp-allow-confirm-button = Tijikib'äx okem
 pair-supp-allow-cancel-link = Tiq'at
 
-## WaitForAuth page - Part of the devide pairing flow
-## Users see this page when they have started to pair a second (or more) device to their account
-## The pairing must be approved from both devices to succeed
-
-
 ## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
 
 pair-unsupported-message = ¿La xawokisaj relesäy wachib'äl q'inoj? K'atzinel nawokisaj jun ruchokoy { -brand-firefox }.
-
-## SetPassword page
-## Third party auth users that do not have a password set yet are prompted for a
-
-
-# password to complete their sign-in when they want to login to a service requiring it.
-
-
-## ThirdPartyAuthCallback Page
-## This page is called after a user completes the third party authentication flow from Google or Apple.
-
-
-## AccountRecoveryConfirmKey page
-
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
@@ -799,25 +601,9 @@ complete-reset-password-success-alert = Xjikib'äx ewan tzij
 # ConfirmBackupCodeResetPassword page
 
 
-## Confirm Reset Password With Code
-
-
-## PasswordResetConfirmTotp Page
-
-
-## ResetPassword start page
-
-
 ## ResetPasswordConfirmed
 
 reset-password-complete-header = Xtzolïx ri ewan atzij
-
-## Reset password recovery method page
-## This page is shown to users when they are having trouble resetting their
-
-
-# password, and they previously had set up an account recovery method.
-
 
 ## ResetPasswordRecoveryPhone page
 
@@ -846,18 +632,6 @@ signin-bounced-message = Xtzolïx ri rutaqoya'l jikib'anïk xtaq pa { $email } c
 signin-bounced-create-new-account = ¿La man awichin ta chik re taqoya'l re'? Tatz'uku' jun k'ak'a' rub'i' taqoya'l
 back = Chi rij
 
-## SigninPushCode page
-## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
-
-
-## SigninPushCodeConfirmPage
-
-
-## Signin recovery method page
-## This page is shown to users when they are having trouble signing in with
-## their password, and they previously had set up an account recovery method.
-
-
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
 ## (provided to the user when they first set up two-step authentication)
@@ -868,9 +642,6 @@ signin-recovery-code-confirm-button = Tijikib'äx
 # External link for support if the user can't use two-step autentication or a backup authentication code
 # https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 signin-recovery-code-support-link = ¿La atq'aton?
-
-## SigninRecoveryPhone page
-
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -894,10 +665,6 @@ signin-totp-code-confirm-button = Tijikib'äx
 signin-totp-code-other-account-link = Tokisäx jun chik rub'i' taqoya'l
 signin-totp-code-recovery-code-link = ¿La k'ayew xatz'ib'aj ri b'itz'ib'?
 
-## Signin Unblock Page
-## Page shown when signin has been blocked by rate limiting (too many requests)
-
-
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
 
@@ -913,7 +680,3 @@ confirm-signup-code-confirm-button = Tijikib'äx
 
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Tijal taqoya'l
-
-## SignupConfirmedSync page
-## Shown to users when they finish confirming their account through Sync
-

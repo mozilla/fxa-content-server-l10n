@@ -79,6 +79,9 @@ next-payment-confirmation-download-button = Emboguejy ehóvo
 
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Kuatia’atã opáva { $last4 }-pe
+
+## Page - Subscription Management
+
 # Page - Not Found
 page-not-found-title = Kuatiarogue ojejuhu’ỹva
 page-not-found-description = Ndojejuhúi kuatiarogue ejeruréva. Og̃uahẽ ne mba’ejerure ha romoĩporãta juajuha ikatúva oñembyai.
@@ -192,9 +195,6 @@ next-new-user-subscribe-product-updates-mozilla = Hi’ã og̃uahẽ marandu ha 
 next-new-user-subscribe-product-updates-snp = Hi’ã og̃uahẽ marandu ha ñembohekopyahu { -brand-mozilla } guive tekorosã rehegua
 next-new-user-subscribe-product-assurance = Roiporu ne ñanduti veve romoheñói hag̃ua mba’ete añónte. Araka’eve norome’ẽmo’ãi ambuépe.
 
-## Component - PriceInterval
-
-
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
@@ -293,6 +293,3 @@ next-coupon-error-generic = Oiko jejavy emomba’apóvo pe ayvu. Eha’ãjey ag�
 next-coupon-error-invalid = Pe ayvu emoingéva ndoikovéima.
 # "Limit" refers to the maximum number of times a coupon can be redeemed.
 next-coupon-error-limit-reached = Pe ayvu emoingéva og̃uahẽma hu’ãme.
-
-##
-

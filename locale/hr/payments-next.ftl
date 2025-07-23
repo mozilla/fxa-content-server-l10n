@@ -29,9 +29,6 @@ checkout-error-contact-support-button = Kontaktiraj podršku
 checkout-error-not-eligible = Ne ispunjavaš uvjete za pretplatu na ovaj proizvod – kontaktiraj podršku kako bismo ti pomogli.
 checkout-error-contact-support = Kontaktiraj podršku kako bismo ti pomogli.
 
-## Error pages - Payment method failure messages
-
-
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
 
@@ -60,6 +57,9 @@ next-payment-confirmation-download-button = Nastavi s preuzimanjem
 
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Kartica završava s { $last4 }
+
+## Page - Subscription Management
+
 # Page - Not Found
 page-not-found-title = Stranica nije pronađena
 page-not-found-back-button = Idi natrag
@@ -153,9 +153,6 @@ next-new-user-subscribe-product-updates-mozilla = Želim primati novosti { -bran
 next-new-user-subscribe-product-updates-snp = Želim primati novosti { -brand-mozilla } sigurnosti, obavijesti o privatnosti i aktualiziranja
 next-new-user-subscribe-product-assurance = Tvoju e-mail adresu koristimo samo za stvaranje tvog računa. Nikada ga nećemo prodati trećoj strani.
 
-## Component - PriceInterval
-
-
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
@@ -201,13 +198,3 @@ upgrade-purchase-details-new-plan-weekly = { $productName } (tjedno)
 upgrade-purchase-details-new-plan-monthly = { $productName } (mjesečno)
 upgrade-purchase-details-new-plan-halfyearly = { $productName } (6 mjeseci)
 upgrade-purchase-details-new-plan-yearly = { $productName } (godišnje)
-
-## Page Metadata Information
-## $productTitle (String) - The name of the product to create subscription, e.g. Mozilla VPN
-
-
-## Coupon Error Messages
-
-
-##
-

@@ -79,6 +79,9 @@ next-payment-confirmation-download-button = Συνέχεια στη λήψη
 
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Κάρτα που λήγει σε { $last4 }
+
+## Page - Subscription Management
+
 # Page - Not Found
 page-not-found-title = Η σελίδα δεν βρέθηκε
 page-not-found-description = Η σελίδα που ζητήσατε δεν βρέθηκε. Έχουμε ειδοποιηθεί και θα διορθώσουμε τυχόν συνδέσμους που ενδέχεται να μην λειτουργούν.
@@ -192,9 +195,6 @@ next-new-user-subscribe-product-updates-mozilla = Επιθυμώ να λαμβά
 next-new-user-subscribe-product-updates-snp = Επιθυμώ να λαμβάνω ειδήσεις και ενημερώσεις ασφαλείας και απορρήτου από τη { -brand-mozilla }
 next-new-user-subscribe-product-assurance = Χρησιμοποιούμε το email σας μόνο για τη δημιουργία του λογαριασμού σας. Δεν θα το πωλήσουμε ποτέ σε τρίτους.
 
-## Component - PriceInterval
-
-
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
@@ -293,6 +293,3 @@ next-coupon-error-generic = Προέκυψε σφάλμα κατά την επε
 next-coupon-error-invalid = Ο κωδικός που καταχωρήσατε δεν είναι έγκυρος.
 # "Limit" refers to the maximum number of times a coupon can be redeemed.
 next-coupon-error-limit-reached = Ο κωδικός που καταχωρήσατε έχει φτάσει το όριό του.
-
-##
-

@@ -91,13 +91,6 @@ datablock-copy =
 datablock-print =
     .message = Ispisano
 
-## Success banners for datablock actions.
-## $count – number of codes
-
-
-##
-
-
 ## DeviceInfoBlock component
 ## The strings here are used to display information about the origin of activity happening on a user's account
 ## For example, when connecting another device to the user's account
@@ -573,21 +566,6 @@ flow-recovery-key-info-cta-text-v3 = Započni
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = Odustani
 
-## FlowSetup2faApp
-
-
-## The step to choose the two step authentication method in the two step
-## authentication setup flow.
-
-
-## The backup code confirm step of the setup 2 factor authentication flow,
-## where the user confirm that they have saved their backup authentication codes
-## by entering one of them.
-
-
-## The backup codes download step of the setup 2 factor authentication flow
-
-
 ## FlowSetupPhoneConfirmCode
 
 flow-setup-phone-confirm-code-input-label = Upiši šesteroznamenkasti kod
@@ -652,9 +630,6 @@ nav-email-comm = Komunikacija e-poštom
 
 tfa-replace-code-1-2 = Korak 1 od 2
 tfa-replace-code-2-2 = Korak 2 od 2
-
-## PageSetupRecoveryPhone
-
 
 ## Avatar change page
 
@@ -1196,14 +1171,6 @@ auth-totp-input-label = Upiši šesteroznamenkasti kod
 # Form button to confirm if the authentication code entered by the user is valid
 auth-totp-confirm-button = Potvrdi
 
-## WaitForSupp page - Part of the devide pairing flow
-## Users see this page when they have started to pair a second (or more) device to their account
-## The pairing must be approved from both devices to succeed
-
-
-## PairFailure - a view which displays on failure of the device pairing process
-
-
 ## Pair index page
 
 pair-sync-header = Sinkroniziraj { -brand-firefox } na svom telefonu ili tabletu
@@ -1229,21 +1196,6 @@ pair-success-header-2 = Uređaj je povezan
 ## The pairing must be confirmed from both devices to succeed
 
 pair-supp-allow-cancel-link = Odustani
-
-## WaitForAuth page - Part of the devide pairing flow
-## Users see this page when they have started to pair a second (or more) device to their account
-## The pairing must be approved from both devices to succeed
-
-
-## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
-
-
-## SetPassword page
-## Third party auth users that do not have a password set yet are prompted for a
-
-
-# password to complete their sign-in when they want to login to a service requiring it.
-
 
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
@@ -1307,13 +1259,6 @@ password-reset-submit-button-2 = Nastavi
 
 reset-password-complete-header = Tvoja je lozinka resetirana
 
-## Reset password recovery method page
-## This page is shown to users when they are having trouble resetting their
-
-
-# password, and they previously had set up an account recovery method.
-
-
 ## ResetPasswordRecoveryPhone page
 
 reset-password-with-recovery-key-verified-page-title = Resetiranje lozinke je uspjelo
@@ -1357,10 +1302,6 @@ report-signin-support-link = Zašto se ovo događa?
 signin-bounced-message = Potvrdni e-mail koji smo poslali na { $email } je vraćen i zaključali smo tvoj račun, kako bismo zaštitili tvoje { -brand-firefox } podatke.
 back = Natrag
 
-## SigninPushCode page
-## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
-
-
 ## SigninPushCodeConfirmPage
 
 signin-push-code-confirm-instruction = Potvrdi tvoju prijavu
@@ -1393,9 +1334,6 @@ signin-recovery-phone-send-code-error-heading = Došlo je do greške prilikom sl
 signin-recovery-phone-code-verification-error-heading = Došlo je do greške prilikom provjere tvog koda
 # Follows the error message (e.g, "There was a problem sending a code")
 signin-recovery-phone-general-error-description = Pokušaj ponovo kasnije.
-
-## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
-
 
 ## SigninTokenCode page
 ## Users see this page during the signin process. In this instance, the confirmation code is
@@ -1487,7 +1425,3 @@ signup-pocket-info-banner = Zašto moram stvoriti ovaj račun?
 signup-pocket-info-banner-link = Saznaj ovdje
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Promijeni e-mail adresu
-
-## SignupConfirmedSync page
-## Shown to users when they finish confirming their account through Sync
-

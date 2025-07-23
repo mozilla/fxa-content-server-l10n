@@ -25,9 +25,6 @@ next-basic-error-message = Yella wayen ur nteddu ara akken ilaq. Ma ulac aɣilif
 checkout-error-contact-support-button = Nadi tallalt
 checkout-processing-general-error = Tuccḍa ur netturaǧu ara teḍra-d deg usesfer lexlaṣ-ik·im, ɛreḍ tikkelt-nniḍen.
 
-## Error pages - Payment method failure messages
-
-
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
 
@@ -54,13 +51,13 @@ next-payment-confirmation-download-button = Kemmel akken ad d-tsidreḍ
 
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Takarḍa ad tfakk deg { $last4 }
+
+## Page - Subscription Management
+
 # Page - Not Found
 page-not-found-title = Ulac asebter
 page-not-found-description = Asebter i d-sutreḍ ulac-it. Aqlaɣ neẓra udiɣ ad nseggem yal aseɣwen yeṛzen.
 page-not-found-back-button = Uɣal
-
-## Component - Payment Consent Checkbox
-
 
 ## Checkout Form
 
@@ -137,9 +134,6 @@ signin-form-email-input = Sekcem imayl-inek·inem
 signin-form-email-input-missing = Sekcem-d imayl-ik·im, ma ulac aɣilif
 next-new-user-subscribe-product-assurance = Nseqdac kan imayl-ik·im i wakken ad nernu amiḍan-ik·im. Urǧin ad t-nsenz i wis kraḍ.
 
-## Component - PriceInterval
-
-
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
@@ -183,13 +177,3 @@ upgrade-purchase-details-new-plan-weekly = { $productName } (i ddurt)
 upgrade-purchase-details-new-plan-monthly = { $productName } (i wayyur)
 upgrade-purchase-details-new-plan-halfyearly = { $productName } (6-wayyuren)
 upgrade-purchase-details-new-plan-yearly = { $productName } (i useggas)
-
-## Page Metadata Information
-## $productTitle (String) - The name of the product to create subscription, e.g. Mozilla VPN
-
-
-## Coupon Error Messages
-
-
-##
-

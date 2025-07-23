@@ -33,9 +33,6 @@ checkout-error-not-eligible = Et voi tilata tätä tuotetta - ota yhteys tukeemm
 checkout-error-already-subscribed = Olet jo tilannut tämän tuotteen.
 checkout-error-contact-support = Ota yhteys tukeen, jotta voimme auttaa sinua.
 
-## Error pages - Payment method failure messages
-
-
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
 
@@ -64,6 +61,9 @@ next-payment-confirmation-download-button = Jatka lataamiseen
 
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Kortti päättyen { $last4 }
+
+## Page - Subscription Management
+
 # Page - Not Found
 page-not-found-title = Sivua ei löydy
 page-not-found-description = Pyytämääsi sivua ei löytynyt. Olemme saaneet tästä tiedon ja tulemme korjaamaan rikkinäiset linkit.
@@ -166,9 +166,6 @@ next-new-user-subscribe-product-updates-mozilla = Haluan saada tuoteuutisia ja p
 next-new-user-subscribe-product-updates-snp = Haluan saada turvallisuus- ja tietosuojauutisia sekä päivityksiä { -brand-mozilla }lta
 next-new-user-subscribe-product-assurance = Käytämme sähköpostiosoitettasi vain tilin luomiseen. Emme koskaan myy sitä kolmannelle osapuolelle.
 
-## Component - PriceInterval
-
-
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
@@ -241,9 +238,3 @@ metadata-title-upgrade-needs-input = Toimenpiteitä vaaditaan | { $productTitle 
 # Default
 metadata-title-default = Sivua ei löytynyt | { $productTitle }
 metadata-description-default = Pyytämääsi sivua ei löytynyt.
-
-## Coupon Error Messages
-
-
-##
-

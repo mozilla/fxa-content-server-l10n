@@ -91,13 +91,6 @@ datablock-copy =
 datablock-print =
     .message = พิมพ์แล้ว
 
-## Success banners for datablock actions.
-## $count – number of codes
-
-
-##
-
-
 ## DeviceInfoBlock component
 ## The strings here are used to display information about the origin of activity happening on a user's account
 ## For example, when connecting another device to the user's account
@@ -597,21 +590,6 @@ flow-recovery-key-info-cta-text-v3 = เริ่ม
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = ยกเลิก
 
-## FlowSetup2faApp
-
-
-## The step to choose the two step authentication method in the two step
-## authentication setup flow.
-
-
-## The backup code confirm step of the setup 2 factor authentication flow,
-## where the user confirm that they have saved their backup authentication codes
-## by entering one of them.
-
-
-## The backup codes download step of the setup 2 factor authentication flow
-
-
 ## FlowSetupPhoneConfirmCode
 
 # verification code refers to a code sent by text message to confirm phone number ownership
@@ -690,9 +668,6 @@ tfa-replace-code-success-1 = รหัสใหม่ได้ถูกสร้
 tfa-replace-code-1-2 = ขั้นตอนที่ 1 จาก 2
 tfa-replace-code-2-2 = ขั้นตอนที่ 2 จาก 2
 tfa-enter-code-to-confirm-v2 = โปรดป้อนหนึ่งในรหัสยืนยันตัวตนสำรองใหม่ของคุณเพื่อยืนยันว่าคุณได้บันทึกรหัสเหล่านี้ไว้แล้ว รหัสยืนยันตัวตนสำรองเดิมของคุณจะถูกปิดใช้งานเมื่อดำเนินการขั้นตอนนี้เสร็จสมบูรณ์แล้ว
-
-## PageSetupRecoveryPhone
-
 
 ## Avatar change page
 
@@ -836,13 +811,6 @@ recovery-key-create-page-title = คีย์กู้คืนบัญชี
 # Tooltip text and aria label for back arrow that takes users out of the account recovery key generation flow
 # and back to account settings
 recovery-key-create-back-button-title = กลับไปยังการตั้งค่า
-
-## PageRecoveryPhoneRemove
-## Users reach this page from account settings when they want to remove a backup phone number.
-
-
-## PageSetupRecoveryPhone
-
 
 ## Add secondary email page
 
@@ -1379,13 +1347,6 @@ pair-wait-for-auth-heading-text = ตอนนี้ต้องรอการ�
 pair-unsupported-header = จับคู่โดยใช้แอป
 pair-unsupported-message = คุณใช้กล้องระบบหรือไม่? คุณต้องจับคู่จากภายในแอป { -brand-firefox }
 
-## SetPassword page
-## Third party auth users that do not have a password set yet are prompted for a
-
-
-# password to complete their sign-in when they want to login to a service requiring it.
-
-
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
 
@@ -1470,13 +1431,6 @@ password-reset-submit-button-2 = ดำเนินการต่อ
 reset-password-complete-header = ตั้งรหัสผ่านของคุณใหม่แล้ว
 # $serviceName is a product name such as Monitor, Pocket, Relay
 reset-password-confirmed-cta = ดำเนินการต่อไปยัง { $serviceName }
-
-## Reset password recovery method page
-## This page is shown to users when they are having trouble resetting their
-
-
-# password, and they previously had set up an account recovery method.
-
 
 ## ResetPasswordRecoveryPhone page
 
@@ -1576,9 +1530,6 @@ signin-recovery-code-confirm-button = ยืนยัน
 signin-recovery-code-support-link = คุณถูกล็อกใช่หรือไม่?
 # Error displayed in a tooltip when form is submitted witout a code
 signin-recovery-code-required-error = ต้องใส่รหัสยืนยันตัวตน
-
-## SigninRecoveryPhone page
-
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -1682,7 +1633,3 @@ signup-pocket-info-banner = ทำไมฉันถึงต้องสร้�
 signup-pocket-info-banner-link = หาคำตอบได้ที่นี่
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = เปลี่ยนอีเมล
-
-## SignupConfirmedSync page
-## Shown to users when they finish confirming their account through Sync
-

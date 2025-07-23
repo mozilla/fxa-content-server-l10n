@@ -81,6 +81,9 @@ next-payment-confirmation-download-button = Tovább a letöltéshez
 
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = { $last4 } végződésű kártya
+
+## Page - Subscription Management
+
 # Page - Not Found
 page-not-found-title = Az oldal nem található
 page-not-found-description = A kért oldal nem található. Értesítést kaptunk, és kijavítunk minden, esetleg hibás hivatkozást.
@@ -194,9 +197,6 @@ next-new-user-subscribe-product-updates-mozilla = Szeretnék termékhíreket és
 next-new-user-subscribe-product-updates-snp = Szeretnék biztonsági és adatvédelmi híreket kapni a { -brand-mozilla(ending: "accented") }tól
 next-new-user-subscribe-product-assurance = Csak a fiókja létrehozásához használjuk az e-mail-címét. Sosem adjuk el harmadik félnek.
 
-## Component - PriceInterval
-
-
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
@@ -295,6 +295,3 @@ next-coupon-error-generic = Hiba történt a kód feldolgozása során. Próbál
 next-coupon-error-invalid = A megadott kód érvénytelen.
 # "Limit" refers to the maximum number of times a coupon can be redeemed.
 next-coupon-error-limit-reached = A megadott kód elérte a korlátját.
-
-##
-

@@ -79,6 +79,9 @@ next-payment-confirmation-download-button = 前往下載
 
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = 卡號末四碼：{ $last4 }
+
+## Page - Subscription Management
+
 # Page - Not Found
 page-not-found-title = 找不到頁面
 page-not-found-description = 找不到您想開啟的頁面。我們已經通知開發團隊來檢查網頁。
@@ -192,9 +195,6 @@ next-new-user-subscribe-product-updates-mozilla = 我想要收到 { -brand-mozil
 next-new-user-subscribe-product-updates-snp = 我想要收到 { -brand-mozilla } 的安全性與隱私權新聞與更新資訊
 next-new-user-subscribe-product-assurance = 我們只會使用您的電子郵件地址來註冊帳號，絕對不會銷售給第三方。
 
-## Component - PriceInterval
-
-
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
@@ -293,6 +293,3 @@ next-coupon-error-generic = 處理折扣碼時發生錯誤，請再試一次。
 next-coupon-error-invalid = 您輸入的折扣碼無效。
 # "Limit" refers to the maximum number of times a coupon can be redeemed.
 next-coupon-error-limit-reached = 您輸入的折扣碼已達使用次數上限。
-
-##
-

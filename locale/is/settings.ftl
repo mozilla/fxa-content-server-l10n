@@ -91,10 +91,6 @@ datablock-copy =
 datablock-print =
     .message = Prentað
 
-## Success banners for datablock actions.
-## $count – number of codes
-
-
 ##
 
 # Tooltip notification when an account recovery key or one-time use code is copied.
@@ -729,9 +725,6 @@ tfa-replace-code-2-2 = Skref 2 af 2
 tfa-enter-code-to-confirm-v2 =
     Settu inn einn af nýju öryggisafritunar-auðkenningarkóðunum þínum til að
     staðfesta að þú hafir vistað þá. Gömlu auðkenningarkóðarnir þínir verða óvirkir þegar þessu skrefi er lokið.
-
-## PageSetupRecoveryPhone
-
 
 ## Avatar change page
 
@@ -1515,13 +1508,6 @@ pair-wait-for-auth-heading-text = Núna er krafist er samþykktar <span>frá hin
 pair-unsupported-header = Para með forriti
 pair-unsupported-message = Notaðirðu myndavél stýrikerfisins? Þú verður að para innan úr { -brand-firefox }-forritinu.
 
-## SetPassword page
-## Third party auth users that do not have a password set yet are prompted for a
-
-
-# password to complete their sign-in when they want to login to a service requiring it.
-
-
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
 
@@ -1875,7 +1861,3 @@ signup-pocket-info-banner = Af hverju þarf ég að búa til þennan reikning?
 signup-pocket-info-banner-link = Kynntu þér málið hér
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Breyta tölvupóstfangi
-
-## SignupConfirmedSync page
-## Shown to users when they finish confirming their account through Sync
-

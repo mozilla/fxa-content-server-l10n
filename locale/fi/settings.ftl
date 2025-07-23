@@ -91,10 +91,6 @@ datablock-copy =
 datablock-print =
     .message = Tulostettu
 
-## Success banners for datablock actions.
-## $count – number of codes
-
-
 ##
 
 # Tooltip notification when an account recovery key or one-time use code is copied.
@@ -593,21 +589,6 @@ flow-recovery-key-info-cta-text-v3 = Aloitetaan
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = Peruuta
 
-## FlowSetup2faApp
-
-
-## The step to choose the two step authentication method in the two step
-## authentication setup flow.
-
-
-## The backup code confirm step of the setup 2 factor authentication flow,
-## where the user confirm that they have saved their backup authentication codes
-## by entering one of them.
-
-
-## The backup codes download step of the setup 2 factor authentication flow
-
-
 ## FlowSetupPhoneConfirmCode
 
 # verification code refers to a code sent by text message to confirm phone number ownership
@@ -686,9 +667,6 @@ tfa-replace-code-success-1 =
     jos mobiililaitteesi ei ole käytettävissäsi.
 tfa-replace-code-1-2 = Vaihe 1/2
 tfa-replace-code-2-2 = Vaihe 2/2
-
-## PageSetupRecoveryPhone
-
 
 ## Avatar change page
 
@@ -1424,13 +1402,6 @@ pair-wait-for-auth-heading-text = Hyväksyntä vaaditaan nyt <span>joltain muult
 pair-unsupported-header = Muodosta pari sovelluksella
 pair-unsupported-message = Käytitkö järjestelmän kameraa? Parin muodostaminen tulee tehdä { -brand-firefox }-sovelluksesta.
 
-## SetPassword page
-## Third party auth users that do not have a password set yet are prompted for a
-
-
-# password to complete their sign-in when they want to login to a service requiring it.
-
-
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
 
@@ -1728,7 +1699,3 @@ signup-pocket-info-banner = Miksi minun pitää luoda tämä tili?
 signup-pocket-info-banner-link = Lue lisää
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Vaihda sähköpostiosoite
-
-## SignupConfirmedSync page
-## Shown to users when they finish confirming their account through Sync
-

@@ -41,9 +41,6 @@ checkout-error-contact-support = Зверніться до служби підт
 cart-error-currency-not-determined = Не вдалося визначити валюту для цієї покупки. Повторіть спробу.
 checkout-processing-general-error = Під час обробки вашого платежу сталася неочікувана помилка. Будь ласка, повторіть спробу.
 
-## Error pages - Payment method failure messages
-
-
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
 
@@ -72,6 +69,9 @@ next-payment-confirmation-download-button = Продовжити заванта�
 
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Картка, номер якої закінчується на { $last4 }
+
+## Page - Subscription Management
+
 # Page - Not Found
 page-not-found-title = Сторінку не знайдено
 page-not-found-description = Запитану вами сторінку не знайдено. Ми отримали сповіщення про цю проблему і якнайшвидше виправимо пошкоджені посилання.
@@ -178,9 +178,6 @@ next-new-user-subscribe-product-updates-mozilla = Я хочу отримуват
 next-new-user-subscribe-product-updates-snp = Я хочу отримувати новини та оновлення щодо безпеки та приватності від { -brand-mozilla }
 next-new-user-subscribe-product-assurance = Ми застосовуємо вашу електронну адресу лише для створення вашого облікового запису. Ми ніколи не продаватимемо її стороннім.
 
-## Component - PriceInterval
-
-
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
@@ -275,6 +272,3 @@ next-coupon-error-generic = Під час обробки коду сталася
 next-coupon-error-invalid = Введений вами код недійсний.
 # "Limit" refers to the maximum number of times a coupon can be redeemed.
 next-coupon-error-limit-reached = Введений вами код вичерпав свій ліміт.
-
-##
-

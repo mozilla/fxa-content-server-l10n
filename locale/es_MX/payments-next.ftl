@@ -6,9 +6,6 @@ next-payment-method-header = Elige tu método de pago
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step-next = 2. { next-payment-method-header }
 
-## Page - Upgrade page
-
-
 ## Authentication Error page
 
 checkout-error-boundary-retry-button = Intentar de nuevo
@@ -19,9 +16,6 @@ checkout-error-boundary-retry-button = Intentar de nuevo
 next-payment-error-manage-subscription-button = Administrar mi suscripción
 next-payment-error-retry-button = Intentar de nuevo
 next-basic-error-message = Algo salió mal. Por favor, inténtalo de nuevo más tarde.
-
-## Error pages - Payment method failure messages
-
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -49,9 +43,6 @@ next-payment-confirmation-download-button = Continuar para descargar
 
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Tarjeta que termina en { $last4 }
-
-## Component - Payment Consent Checkbox
-
 
 ## Checkout Form
 
@@ -119,9 +110,6 @@ next-new-user-subscribe-product-updates-mozilla = Me gustaría recibir novedades
 next-new-user-subscribe-product-updates-snp = Me gustaría recibir noticias y actualizaciones sobre seguridad y privacidad de { -brand-mozilla }
 next-new-user-subscribe-product-assurance = Utilizamos tu dirección únicamente para crear tu cuenta. Jamás la venderemos a terceros.
 
-## Component - PriceInterval
-
-
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
@@ -146,20 +134,3 @@ next-subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capita
 next-terms = Términos del servicio
 next-privacy = Aviso de privacidad
 next-terms-download = Descargar términos
-
-## Component - UpdatedPurchaseDetails
-
-
-## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
-## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
-
-
-## Page Metadata Information
-## $productTitle (String) - The name of the product to create subscription, e.g. Mozilla VPN
-
-
-## Coupon Error Messages
-
-
-##
-

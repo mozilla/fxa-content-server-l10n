@@ -2,9 +2,6 @@
 
 next-payment-method-header = روش پرداخت خود را انتخاب کنید
 
-## Page - Upgrade page
-
-
 ## Authentication Error page
 
 checkout-error-boundary-retry-button = تلاش دوباره
@@ -16,29 +13,11 @@ next-payment-error-manage-subscription-button = مدیریت اشتراک من
 next-payment-error-retry-button = تلاش دوباره
 next-basic-error-message = مشکلی پیش آمد. لطفاً بعداً دوباره امتحان کنید.
 
-## Error pages - Payment method failure messages
-
-
-## Processing page and Needs Input page - /checkout and /upgrade
-## Common strings used in multiple pages
-
-
 ## Success page - /checkout and /upgrade
 ## Common strings used in multiple checkout pages
 
 # $invoiceDate (Date) - Start date of the latest invoice
 next-payment-confirmation-invoice-date = { $invoiceDate }
-
-## Success pages (/checkout and /upgrade)
-## Common strings used in multiple checkout pages
-
-
-## Success pages (/checkout and /upgrade), Start page (/upgrade)
-## Common strings used in multiple checkout pages
-
-
-## Component - Payment Consent Checkbox
-
 
 ## Checkout Form
 
@@ -73,33 +52,6 @@ select-tax-location-edit-button = ویرایش
 select-tax-location-save-button = ذخیره
 select-tax-location-country-code-label = کشور
 
-## Component - PriceInterval
-
-
-## PriceInterval - shared by multiple components, including Details and PurchaseDetails
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
-
 ## Component - SubscriptionTitle
 
 next-sub-guarantee = با ضمانت برگشت ۳۰ روزهٔ پول
-
-## Component - TermsAndPrivacy
-
-
-## Component - UpdatedPurchaseDetails
-
-
-## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
-## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
-
-
-## Page Metadata Information
-## $productTitle (String) - The name of the product to create subscription, e.g. Mozilla VPN
-
-
-## Coupon Error Messages
-
-
-##
-

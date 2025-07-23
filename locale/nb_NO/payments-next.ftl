@@ -79,6 +79,9 @@ next-payment-confirmation-download-button = Fortsett til nedlasting
 
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Kort som slutter på { $last4 }
+
+## Page - Subscription Management
+
 # Page - Not Found
 page-not-found-title = Fant ikke siden
 page-not-found-description = Siden du ba om ble ikke funnet. Vi har blitt varslet og vil fikse eventuelle lenker som ikke virker.
@@ -192,9 +195,6 @@ next-new-user-subscribe-product-updates-mozilla = Jeg vil gjerne motta produktny
 next-new-user-subscribe-product-updates-snp = Jeg vil gjerne motta nyheter og oppdateringer om sikkerhet og personvern fra { -brand-mozilla }
 next-new-user-subscribe-product-assurance = Vi bruker kun e-postadressen din til å opprette kontoen din. Vi vil aldri selge den til en tredjepart.
 
-## Component - PriceInterval
-
-
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
@@ -293,6 +293,3 @@ next-coupon-error-generic = Det oppsto en feil under behandling av koden. Prøv 
 next-coupon-error-invalid = Koden du skrev inn er ugyldig.
 # "Limit" refers to the maximum number of times a coupon can be redeemed.
 next-coupon-error-limit-reached = Koden du skrev inn har nådd grensen.
-
-##
-

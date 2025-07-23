@@ -91,13 +91,6 @@ datablock-copy =
 datablock-print =
     .message = Stampà
 
-## Success banners for datablock actions.
-## $count – number of codes
-
-
-##
-
-
 ## DeviceInfoBlock component
 ## The strings here are used to display information about the origin of activity happening on a user's account
 ## For example, when connecting another device to the user's account
@@ -607,21 +600,6 @@ flow-recovery-key-info-cta-text-v3 = Cumenzar
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = Interrumper
 
-## FlowSetup2faApp
-
-
-## The step to choose the two step authentication method in the two step
-## authentication setup flow.
-
-
-## The backup code confirm step of the setup 2 factor authentication flow,
-## where the user confirm that they have saved their backup authentication codes
-## by entering one of them.
-
-
-## The backup codes download step of the setup 2 factor authentication flow
-
-
 ## FlowSetupPhoneConfirmCode
 
 # verification code refers to a code sent by text message to confirm phone number ownership
@@ -715,9 +693,6 @@ tfa-replace-code-2-2 = Pass 2 da 2
 tfa-enter-code-to-confirm-v2 =
     Endatescha per plaschair in da tes novs codes d’autentificaziun da backup per
     confermar che ti als has memorisà. Tes codes d’autentificaziun da backup vegls vegnan deactivads uschespert che quest pass è fatg.
-
-## PageSetupRecoveryPhone
-
 
 ## Avatar change page
 
@@ -1499,13 +1474,6 @@ pair-wait-for-auth-heading-text = I dovra ussa ina approvaziun <span>sin tes aut
 pair-unsupported-header = Associar cun agid dad ina app
 pair-unsupported-message = Has ti utilisà la camera dal sistem? Ti stos associar cun agid dad ina app da { -brand-firefox }.
 
-## SetPassword page
-## Third party auth users that do not have a password set yet are prompted for a
-
-
-# password to complete their sign-in when they want to login to a service requiring it.
-
-
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
 
@@ -1592,13 +1560,6 @@ password-reset-submit-button-2 = Cuntinuar
 reset-password-complete-header = Tes pled-clav è vegnì reinizialisà
 # $serviceName is a product name such as Monitor, Pocket, Relay
 reset-password-confirmed-cta = Cuntinuar vers { $serviceName }
-
-## Reset password recovery method page
-## This page is shown to users when they are having trouble resetting their
-
-
-# password, and they previously had set up an account recovery method.
-
 
 ## ResetPasswordRecoveryPhone page
 
@@ -1852,7 +1813,3 @@ signup-pocket-info-banner = Pertge stoss jau crear quest conto?
 signup-pocket-info-banner-link = Ve a savair quai qua
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Midar l'adressa dad e-mail
-
-## SignupConfirmedSync page
-## Shown to users when they finish confirming their account through Sync
-

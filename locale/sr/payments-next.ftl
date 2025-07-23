@@ -3,21 +3,12 @@
 next-payment-method-header = Изаберите начин плаћања
 next-payment-method-first-approve = Прво ћете морати да одобрите вашу претплату
 
-## Page - Upgrade page
-
-
-## Authentication Error page
-
-
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages
 
 next-payment-error-manage-subscription-button = Управљај претплатом
 next-payment-error-retry-button = Покушај поново
 next-basic-error-message = Нешто није у реду. Покушајте поново касније.
-
-## Error pages - Payment method failure messages
-
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -89,13 +80,6 @@ next-coupon-success-repeating = Ваш план ће се аутоматски �
 
 next-new-user-subscribe-product-assurance = Користимо само вашу е-пошту да направимо ваш налог. Никада је нећемо продати трећој страни.
 
-## Component - PriceInterval
-
-
-## PriceInterval - shared by multiple components, including Details and PurchaseDetails
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
-
 ## Component - SubscriptionTitle
 
 next-subscription-create-title = Подесите вашу претплату
@@ -109,20 +93,3 @@ next-sub-guarantee = 30-дневна гаранција поврата новц�
 next-terms = Услови коришћења
 next-privacy = Обавештење о приватности
 next-terms-download = Услови преузимања
-
-## Component - UpdatedPurchaseDetails
-
-
-## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
-## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
-
-
-## Page Metadata Information
-## $productTitle (String) - The name of the product to create subscription, e.g. Mozilla VPN
-
-
-## Coupon Error Messages
-
-
-##
-

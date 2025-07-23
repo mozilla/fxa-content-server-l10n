@@ -78,6 +78,9 @@ next-payment-confirmation-download-button = İndirmeye devam et
 
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = { $last4 } ile biten kart
+
+## Page - Subscription Management
+
 # Page - Not Found
 page-not-found-title = Sayfa bulunamadı
 page-not-found-description = İstediğiniz sayfa bulunamadı. Bozuk olabilecek bağlantıları düzeltmeleri için durumu site yöneticilerimize bildirdik.
@@ -181,9 +184,6 @@ next-new-user-subscribe-product-updates-mozilla = { -brand-mozilla }’dan ürü
 next-new-user-subscribe-product-updates-snp = { -brand-mozilla }’dan güvenlik ve gizlilik ile ilgili haberleri ve duyuruları almak istiyorum
 next-new-user-subscribe-product-assurance = E-postanızı yalnızca hesabınızı açmak için kullanıyoruz. Asla üçüncü şahıslara satmıyoruz.
 
-## Component - PriceInterval
-
-
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
@@ -278,6 +278,3 @@ next-coupon-error-generic = Kod işlenirken bir hata oluştu. Lütfen yeniden de
 next-coupon-error-invalid = Girdiğiniz kod geçersiz.
 # "Limit" refers to the maximum number of times a coupon can be redeemed.
 next-coupon-error-limit-reached = Girdiğiniz kodun kullanım limiti doldu.
-
-##
-

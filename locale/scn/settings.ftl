@@ -91,10 +91,6 @@ datablock-copy =
 datablock-print =
     .message = Stampatu
 
-## Success banners for datablock actions.
-## $count – number of codes
-
-
 ##
 
 # Tooltip notification when an account recovery key or one-time use code is copied.
@@ -752,9 +748,6 @@ tfa-replace-code-success-alert-4 = Còdici d’autinticazzioni di sicurizza attu
 tfa-replace-code-1-2 = Passu 1 di 2
 tfa-replace-code-2-2 = Passu 2 di 2
 tfa-enter-code-to-confirm-v2 = Pi favuri metti unu dî còdici d’autinticazzioni di sicurizza chi facisti novi pi cunfirmari chi i sarbasti. Na vota chi cumpleti stu cuntrollu, i to còdici vecchi sunnu sdisabbilitati.
-
-## PageSetupRecoveryPhone
-
 
 ## Avatar change page
 
@@ -1480,13 +1473,6 @@ pair-wait-for-auth-heading-text = È nicissariu chi approvi <span>di l’autru d
 pair-unsupported-header = Accucchia usannu n’app
 pair-unsupported-message = Usasti a fotucàmmira di sistema? Hâ fari l’accucchiamentu di n’app { -brand-firefox }.
 
-## SetPassword page
-## Third party auth users that do not have a password set yet are prompted for a
-
-
-# password to complete their sign-in when they want to login to a service requiring it.
-
-
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
 
@@ -1572,13 +1558,6 @@ reset-password-complete-header = A chiavi fu risittata
 # $serviceName is a product name such as Monitor, Pocket, Relay
 reset-password-confirmed-cta = Cuntinua nne { $serviceName }
 
-## Reset password recovery method page
-## This page is shown to users when they are having trouble resetting their
-
-
-# password, and they previously had set up an account recovery method.
-
-
 ## ResetPasswordRecoveryPhone page
 
 reset-password-with-recovery-key-verified-page-title = U risettu dâ chiavi jìu bonu
@@ -1637,44 +1616,6 @@ signin-bounced-message = L’e-mail di cunferma chi mannammu a { $email } turnau
 signin-bounced-help = Si chistu è nu nnirizzu di posta elittrònica vàlitu, <linkExternal>fannillu sapiri</linkExternal> e t’ajutamu a sbluccari u to cuntu.
 signin-bounced-create-new-account = Nun ài cchiù accessu a stu nnirizzu di posta elittrònica? Crìa un cuntu novu
 
-## SigninPushCode page
-## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
-
-
-## SigninPushCodeConfirmPage
-
-
-## Signin recovery method page
-## This page is shown to users when they are having trouble signing in with
-## their password, and they previously had set up an account recovery method.
-
-
-## SigninRecoveryCode page
-## Users are prompted to enter a backup authentication code
-## (provided to the user when they first set up two-step authentication)
-## when they are unable to sign in with two-step authentication (e.g., Authy, Duo, etc.)
-
-
-## SigninRecoveryPhone page
-
-
-## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
-
-
-## SigninTokenCode page
-## Users see this page during the signin process. In this instance, the confirmation code is
-## a 6-digit code that is sent to the user's email address.
-
-
-## SigninTOTPCode page
-## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
-## Users that have set up two-factor authentication land on this page during sign-in.
-
-
-## Signin Unblock Page
-## Page shown when signin has been blocked by rate limiting (too many requests)
-
-
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
 
@@ -1682,11 +1623,3 @@ signin-bounced-create-new-account = Nun ài cchiù accessu a stu nnirizzu di pos
 # and a confirmation code has been sent to their email address.
 
 confirm-signup-code-success-alert = Cunfirmasti u cuntu
-
-## Account Signup page
-## This is the second page of the sign up flow, users have already entered their email
-
-
-## SignupConfirmedSync page
-## Shown to users when they finish confirming their account through Sync
-

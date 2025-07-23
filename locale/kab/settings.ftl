@@ -61,13 +61,6 @@ datablock-copy =
 datablock-print =
     .message = Ittwasiggez
 
-## Success banners for datablock actions.
-## $count – number of codes
-
-
-##
-
-
 ## DeviceInfoBlock component
 ## The strings here are used to display information about the origin of activity happening on a user's account
 ## For example, when connecting another device to the user's account
@@ -181,10 +174,6 @@ error-icon-aria-label =
 info-icon-aria-label =
     .aria-label = Talɣut
 
-## Images - these are all aria labels used for illustrations
-## Aria labels are used as alternate text that can be read aloud by screen readers.
-
-
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
 ## after signing in.
@@ -246,10 +235,6 @@ signin-confirmation-link-reused = Tuqqna tettwasentem yakan
 confirmation-link-reused-message = Aseɣwen n usentem yettwaseqdec yakan, tzemreḍ kan ad tesqedceḍ yiwet n tikkelt.
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Yir tuttra
-
-## PasswordInfoBalloon
-## Balloon displayed next to password input field
-
 
 ## PasswordStrengthBalloon component
 
@@ -353,13 +338,6 @@ cs-refresh-button =
 cs-missing-device-help = Iferdisen ttwakksen neɣ d usligen?
 cs-disconnect-sync-heading = Ffeɣ seg Syn
 
-## This string is used in a modal dialog when the user starts the disconnect from
-## Sync process.
-## Variables:
-##   $device (String) - the name of a device using Mozilla accounts
-##                      (for example: "Firefox Nightly on Google Pixel 4a")
-
-
 ## The following are the options for selecting a reason for disconnecting the
 ## device
 
@@ -417,11 +395,6 @@ flow-recovery-key-confirm-pwd-input-label = Sekcem awal-ik uffir
 # Clicking on this button will check the password and create an account recovery key
 flow-recovery-key-confirm-pwd-submit-button = Rnu tasarut n tririt n umiḍan
 
-## FlowRecoveryKeyDownload - Third view in the PageRecoveryKeyCreate flow
-## Users see this view when they are generating a new account recovery key
-## This screen displays the generated key and allows users to download or copy the key
-
-
 ## FlowRecoveryKeyHint
 ## This is the fourth and final step in the account recovery key creation flow in account settings
 ## Prompts the user to save an (optional) storage hint about the location of their account recovery key.
@@ -435,21 +408,6 @@ flow-recovery-key-success-alert = Tasarut n tririt n umiḍan tettwarna
 flow-recovery-key-info-cta-text-v3 = Bdu
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = Sefsex
-
-## FlowSetup2faApp
-
-
-## The step to choose the two step authentication method in the two step
-## authentication setup flow.
-
-
-## The backup code confirm step of the setup 2 factor authentication flow,
-## where the user confirm that they have saved their backup authentication codes
-## by entering one of them.
-
-
-## The backup codes download step of the setup 2 factor authentication flow
-
 
 ## FlowSetupPhoneConfirmCode
 
@@ -514,9 +472,6 @@ nav-email-comm = Taywalt s yimayl
 
 tfa-replace-code-1-2 = Asurif 1 seg 2
 tfa-replace-code-2-2 = Asurif 2 seg 2
-
-## PageSetupRecoveryPhone
-
 
 ## Avatar change page
 
@@ -728,9 +683,6 @@ profile-display-name =
 profile-primary-email =
     .header = Imayl amezwaru
 
-## Progress bar
-
-
 ## Security section of Setting
 
 security-heading = Taɣellist
@@ -855,10 +807,6 @@ tfa-row-disable-modal-explain-1 =
 # Shown in an alert bar after two-step authentication is disabled
 tfa-row-disabled-2 = Asesteb s snat n tarrayin yensa
 tfa-row-cannot-disable-2 = Asesteb s snat n tarrayin ulamek ad yens
-
-## TermsPrivacyAgreement
-## These terms are used in signin and signup for Firefox account
-
 
 ## ThirdPartyAuth component
 ## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
@@ -1015,11 +963,6 @@ auth-totp-input-label = Sekcem tangalt s 6-izwilen
 # Form button to confirm if the authentication code entered by the user is valid
 auth-totp-confirm-button = Sentem
 
-## WaitForSupp page - Part of the devide pairing flow
-## Users see this page when they have started to pair a second (or more) device to their account
-## The pairing must be approved from both devices to succeed
-
-
 ## PairFailure - a view which displays on failure of the device pairing process
 
 pair-failure-header = Acuddu ur yeddi ara akken iwata
@@ -1051,25 +994,9 @@ pair-success-message-2 = Acuddu yedda akken iwata.
 pair-supp-allow-confirm-button = Sentem acuddu
 pair-supp-allow-cancel-link = Sefsex
 
-## WaitForAuth page - Part of the devide pairing flow
-## Users see this page when they have started to pair a second (or more) device to their account
-## The pairing must be approved from both devices to succeed
-
-
 ## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
 
 pair-unsupported-header = Cudd s usnas
-
-## SetPassword page
-## Third party auth users that do not have a password set yet are prompted for a
-
-
-# password to complete their sign-in when they want to login to a service requiring it.
-
-
-## ThirdPartyAuthCallback Page
-## This page is called after a user completes the third party authentication flow from Google or Apple.
-
 
 ## AccountRecoveryConfirmKey page
 
@@ -1114,13 +1041,6 @@ password-reset-submit-button-2 = Kemmel
 
 reset-password-complete-header = Awla inek uffir yettuwennez
 
-## Reset password recovery method page
-## This page is shown to users when they are having trouble resetting their
-
-
-# password, and they previously had set up an account recovery method.
-
-
 ## ResetPasswordRecoveryPhone page
 
 reset-password-with-recovery-key-verified-page-title = Awal uffir yettuwennez akken iwata
@@ -1161,10 +1081,6 @@ report-signin-submit-button = Mmel-aɣ-d armud
 report-signin-support-link = Acuɣeṛ i d-iḍerru waya?
 signin-bounced-create-new-account = Ur tesεiḍ ara imayl-agi tura? Rnu yiwen d amaynut
 back = Ɣer deffir
-
-## SigninPushCode page
-## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
-
 
 ## SigninPushCodeConfirmPage
 
@@ -1256,7 +1172,3 @@ confirm-signup-code-is-required-error = Tangalt n usentem tettwasra
 signup-pocket-info-banner = Acuɣer i ilaq ad d-snulfuɣ amiḍan-a?
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Snifel imayl
-
-## SignupConfirmedSync page
-## Shown to users when they finish confirming their account through Sync
-

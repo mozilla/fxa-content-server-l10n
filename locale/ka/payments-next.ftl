@@ -82,6 +82,9 @@ next-payment-confirmation-download-button = განაგრძეთ ჩა�
 
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = ბარათი დაბოლოებით { $last4 }
+
+## Page - Subscription Management
+
 # Page - Not Found
 page-not-found-title = გვერდი ვერ მოიძებნა
 page-not-found-description = თქვენ მიერ მოთხოვნილი გვერდი ვერ მოიძებნა. ჩვენ უკვე გვეცნობა ამის შესახებ და ყველა შესაძლო დაზიანებულ ბმულს გავასწორებთ.
@@ -195,9 +198,6 @@ next-new-user-subscribe-product-updates-mozilla = მსურს შევი�
 next-new-user-subscribe-product-updates-snp = მსურს შევიტყო, რა სიახლეებსა და ცვლილებებს გვთავაზობს პირადულობისა და უსაფრთხოებისთვის { -brand-mozilla }
 next-new-user-subscribe-product-assurance = ჩვენ ვიყენებთ მხოლოდ თქვენს ელფოსტას ანგარიშის შესაქმნელად. არასოდეს გავყიდით სხვა პირებზე.
 
-## Component - PriceInterval
-
-
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
@@ -296,6 +296,3 @@ next-coupon-error-generic = კოდის დამუშავებისა
 next-coupon-error-invalid = თქვენ მიერ შეყვანილი კოდი არამართებულია.
 # "Limit" refers to the maximum number of times a coupon can be redeemed.
 next-coupon-error-limit-reached = შეყვანილი კოდის გამოყენების რაოდენობა ამოწურულია.
-
-##
-

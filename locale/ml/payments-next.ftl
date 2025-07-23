@@ -7,9 +7,6 @@ next-payment-method-header = പണമടക്കൽമുറ തിരഞ്�
 # This message is used to indicate the second step in a multi step process.
 payment-method-header-second-step-next = 2. { next-payment-method-header }
 
-## Page - Upgrade page
-
-
 ## Authentication Error page
 
 checkout-error-boundary-retry-button = വീണ്ടും ശ്രമിയ്ക്കുക
@@ -20,13 +17,6 @@ checkout-error-boundary-basic-error-message = എന്തോ കുഴപ്പ
 
 next-payment-error-retry-button = വീണ്ടും ശ്രമിയ്ക്കുക
 next-basic-error-message = എന്തോ ഒരു കുഴപ്പമുണ്ടായി. ദയവായി പിന്നീടു് വീണ്ടും ശ്രമിച്ചു നോക്കുക
-
-## Error pages - Payment method failure messages
-
-
-## Processing page and Needs Input page - /checkout and /upgrade
-## Common strings used in multiple pages
-
 
 ## Success page - /checkout and /upgrade
 ## Common strings used in multiple checkout pages
@@ -46,9 +36,6 @@ next-payment-confirmation-download-button = ഇറക്കിവയ്ക്ക
 
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = { $last4 } അക്കങ്ങളിൽ തീരുന്ന ചീട്ടു്
-
-## Component - Payment Consent Checkbox
-
 
 ## Checkout Form
 
@@ -105,9 +92,6 @@ signin-form-email-input = താങ്ങളുടെ ഇതപാൽ നല്�
 signin-form-email-input-missing = ദയവായി താങ്ങളുടെ ഇതപാൽ നല്കുക
 signin-form-email-input-invalid = ദയവായിയൊരു സാധുവായ ഇതപാൽ നല്കുക
 
-## Component - PriceInterval
-
-
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
@@ -128,20 +112,3 @@ next-subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capita
 next-terms = സേവന നിബന്ധനകള്‍
 next-privacy = സ്വകാര്യത അറിയിപ്പ്
 next-terms-download = നിബന്ധനകൾ ഇറക്കിവയ്ക്കുക
-
-## Component - UpdatedPurchaseDetails
-
-
-## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
-## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
-
-
-## Page Metadata Information
-## $productTitle (String) - The name of the product to create subscription, e.g. Mozilla VPN
-
-
-## Coupon Error Messages
-
-
-##
-

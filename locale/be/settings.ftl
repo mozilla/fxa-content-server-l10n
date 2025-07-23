@@ -3,9 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## Banner component
-
-
 ## Brand Messaging component
 ## Used to show in product messaging about upcoming brand changes
 
@@ -79,13 +76,6 @@ datablock-copy =
     .message = Скапіявана
 datablock-print =
     .message = Надрукавана
-
-## Success banners for datablock actions.
-## $count – number of codes
-
-
-##
-
 
 ## DeviceInfoBlock component
 ## The strings here are used to display information about the origin of activity happening on a user's account
@@ -200,11 +190,6 @@ recovery-key-image-aria-label =
 lightbulb-aria-label =
     .aria-label = Ілюстрацыя, якая прадстаўляе стварэнне падказкі для сховішча.
 
-## InlineRecoveryKeySetupCreate component
-## Users see this view when we prompt them to generate an account recovery key
-## after signing in.
-
-
 ## Input Password
 
 # Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will hide the password.
@@ -272,10 +257,6 @@ password-strength-balloon-not-email = Не ваш адрас электронн�
 password-strength-balloon-not-common = Не часта выкарыстаны пароль
 password-strength-balloon-stay-safe-tips = Будзьце ў бяспецы — не выкарыстоўвайце паролі паўторна. Даведайцеся больш пра <LinkExternal>стварэнне надзейных пароляў</LinkExternal>.
 
-## PasswordStrengthInline component
-## These strings are conditions that need to be met to qualify as a strong password
-
-
 ## Notification Promo Banner component
 
 account-recovery-notification-cta = Стварыць
@@ -331,10 +312,6 @@ flow-recovery-key-hint-char-limit-error = Падказка павінна змя
 # Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
 # "Hint" refers to "storage hint"
 flow-recovery-key-hint-unsafe-char-error = Падказка не можа ўтрымліваць небяспечныя сімвалы унікода. Дапускаюцца толькі літары, лічбы, знакі прыпынку і сімвалы.
-
-## ResetPasswordWarning component
-## Warning shown to sync users that reset their password without using an account recovery key
-
 
 ## Alert Bar
 
@@ -490,21 +467,6 @@ flow-recovery-key-info-cta-text-v3 = Пачаць
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = Скасаваць
 
-## FlowSetup2faApp
-
-
-## The step to choose the two step authentication method in the two step
-## authentication setup flow.
-
-
-## The backup code confirm step of the setup 2 factor authentication flow,
-## where the user confirm that they have saved their backup authentication codes
-## by entering one of them.
-
-
-## The backup codes download step of the setup 2 factor authentication flow
-
-
 ## FlowSetupPhoneConfirmCode
 
 # verification code refers to a code sent by text message to confirm phone number ownership
@@ -516,9 +478,6 @@ flow-setup-phone-confirm-code-button = Сцвердзіць
 # followed by a button to resend a code
 flow-setup-phone-confirm-code-expired = Код пратэрмінаваны?
 flow-setup-phone-confirm-code-resend-code-button = Паўторна адправіць код
-
-## FlowSetupPhoneConfirmCode
-
 
 ## HeaderLockup component, the header in account settings
 
@@ -578,9 +537,6 @@ tfa-replace-code-success-1 =
     калі ў вас не будзе доступу да мабільнай прылады.
 tfa-replace-code-1-2 = Крок 1 з 2
 tfa-replace-code-2-2 = Крок 2 з 2
-
-## PageSetupRecoveryPhone
-
 
 ## Avatar change page
 
@@ -724,13 +680,6 @@ recovery-key-create-page-title = Ключ аднаўлення ўліковаг�
 # and back to account settings
 recovery-key-create-back-button-title = Вярнуцца да наладаў
 
-## PageRecoveryPhoneRemove
-## Users reach this page from account settings when they want to remove a backup phone number.
-
-
-## PageSetupRecoveryPhone
-
-
 ## Add secondary email page
 
 add-secondary-email-step-1 = Крок 1 з 2
@@ -803,9 +752,6 @@ tfa-save-these-codes-1 =
 tfa-enter-recovery-code-1 =
     .label = Увядзіце рэзервовы код аўтарызацыі
 
-## Product promotion
-
-
 ## Profile section
 
 profile-heading = Профіль
@@ -838,9 +784,6 @@ security-action-create = Стварыць
 security-set-password = Усталюйце пароль для сінхранізацыі і выкарыстання пэўных функцый бяспекі ўліковага запісу.
 # Link opens a list of recent account activity (e.g., login attempts, password changes, etc.)
 security-recent-activity-link = Паглядзець апошнія дзеянні ўліковага запісу
-
-## SubRow component
-
 
 ## Switch component
 
@@ -1028,12 +971,6 @@ cookies-disabled-button-try-again = Паспрабаваць зноў
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
 cookies-disabled-learn-more = Падрабязней
 
-## Index / home page
-
-
-## InlineRecoveryKeySetup page component
-
-
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
 ## in this case, they will encounter this page in the signup process (hence calling it "Inline)
@@ -1214,20 +1151,10 @@ pair-wait-for-auth-heading-text = Цяпер патрэбна пацвярджэ
 pair-unsupported-header = Спарванне з дапамогай праграмы
 pair-unsupported-message = Выкарыстоўвалі сістэмную камеру? Вы мусіце спарваць знутры праграмы { -brand-firefox }.
 
-## SetPassword page
-## Third party auth users that do not have a password set yet are prompted for a
-
-
-# password to complete their sign-in when they want to login to a service requiring it.
-
-
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
 
 third-party-auth-callback-message = Калі ласка, пачакайце, вы будзеце перанакіраваны ў аўтарызаваную праграму.
-
-## AccountRecoveryConfirmKey page
-
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
@@ -1252,9 +1179,6 @@ confirm-reset-password-otp-resend-code-button = Паўторна адправі�
 # Link to cancel the password reset and sign in with a different account
 confirm-reset-password-otp-different-account-link = Выкарыстаць іншы уліковы запіс
 
-## PasswordResetConfirmTotp Page
-
-
 ## ResetPassword start page
 
 password-reset-flow-heading = Скінуць пароль
@@ -1264,13 +1188,6 @@ password-reset-email-input =
 ## ResetPasswordConfirmed
 
 reset-password-complete-header = Ваш пароль быў скінуты
-
-## Reset password recovery method page
-## This page is shown to users when they are having trouble resetting their
-
-
-# password, and they previously had set up an account recovery method.
-
 
 ## ResetPasswordRecoveryPhone page
 
@@ -1316,18 +1233,6 @@ signin-bounced-help = Калі гэта сапраўдны адрас элект
 signin-bounced-create-new-account = Больш не валодаеце гэтым адрасам? Стварыце новы ўліковы запіс
 back = Назад
 
-## SigninPushCode page
-## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
-
-
-## SigninPushCodeConfirmPage
-
-
-## Signin recovery method page
-## This page is shown to users when they are having trouble signing in with
-## their password, and they previously had set up an account recovery method.
-
-
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
 ## (provided to the user when they first set up two-step authentication)
@@ -1340,9 +1245,6 @@ signin-recovery-code-confirm-button = Сцвердзіць
 signin-recovery-code-support-link = Вы заблакаваны?
 # Error displayed in a tooltip when form is submitted witout a code
 signin-recovery-code-required-error = Патрабуецца рэзервовы код аўтарызацыі
-
-## SigninRecoveryPhone page
-
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -1414,7 +1316,3 @@ confirm-signup-code-is-required-error = Патрабуецца код пацвя
 
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Змяніць адрас электроннай пошты
-
-## SignupConfirmedSync page
-## Shown to users when they finish confirming their account through Sync
-

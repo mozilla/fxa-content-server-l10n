@@ -41,9 +41,6 @@ checkout-error-contact-support = Pi favuri cuntatta l’assistenza p’addumanna
 cart-error-currency-not-determined = Nun pòttimu stabbiliri a valuta pi st’accàttitu, pi favuri torna a prova.
 checkout-processing-general-error = Cci fu n’erruri mentri chi prucissàvamu u to pagamentu, pi favuri torna a prova.
 
-## Error pages - Payment method failure messages
-
-
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
 
@@ -72,6 +69,9 @@ next-payment-confirmation-download-button = Cuntinua cû scarricamentu
 
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Carta chi finisci pi { $last4 }
+
+## Page - Subscription Management
+
 # Page - Not Found
 page-not-found-title = Pàggina nun truvata
 page-not-found-description = Nun attruvai a pàggina chi addumannasti. Ni fu signalijatu e circamu d’abbirsari tutti i lijami chi sfarsìjanu.
@@ -178,9 +178,6 @@ next-new-user-subscribe-product-updates-mozilla = Vogghiu aviri nutizzi e attual
 next-new-user-subscribe-product-updates-snp = Vogghiu aviri nutizzi e attualizzi di sicurizza e privatizza di { -brand-mozilla }
 next-new-user-subscribe-product-assurance = Usamu u to nnirizzu di posta elittrònica sulu pi crìari u to cuntu. Nun u vinnemu mai a nuḍḍu.
 
-## Component - PriceInterval
-
-
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
@@ -275,6 +272,3 @@ next-coupon-error-generic = Cci fu un prubblema riggistrannu u còdici. Pi favur
 next-coupon-error-invalid = U còdici chi mittisti nun è vàlitu.
 # "Limit" refers to the maximum number of times a coupon can be redeemed.
 next-coupon-error-limit-reached = U còdici chi mittisti passau u so lìmiti d’usu.
-
-##
-

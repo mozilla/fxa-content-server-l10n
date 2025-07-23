@@ -1494,10 +1494,6 @@ set-password-heading-v2 = יצירת ססמה לסנכרון
 # "This" refers to the heading, "Create password to sync"
 set-password-info-v2 = ססמה זו מצפינה את הנתונים שלך. היא צריכה להיות שונה מססמת החשבון שלך ב־{ -brand-google } או ב־{ -brand-apple }.
 
-## ThirdPartyAuthCallback Page
-## This page is called after a user completes the third party authentication flow from Google or Apple.
-
-
 ## AccountRecoveryConfirmKey page
 
 account-recovery-confirm-key-heading = נא להכניס את המפתח לשחזור החשבון שלך

@@ -8,9 +8,6 @@ next-payment-method-header = ਆਪਣਾ ਭੁਗਤਾਨ ਢੰਗ ਚੁਣ
 payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = ਪਹਿਲਾਂ ਤੁਹਾਨੂੰ ਆਪਣੀ ਮੈਂਬਰੀ ਨੂੰ ਮਨਜ਼ੂਰ ਕਰਨ ਦੀ ਲੋੜ ਹੈ
 
-## Page - Upgrade page
-
-
 ## Authentication Error page
 
 checkout-error-boundary-retry-button = ਫੇਰ ਕੋਸ਼ਿਸ਼ ਕਰੋ
@@ -21,9 +18,6 @@ checkout-error-boundary-retry-button = ਫੇਰ ਕੋਸ਼ਿਸ਼ ਕਰੋ
 next-payment-error-manage-subscription-button = ਮੇਰੀ ਮੈਂਬਰੀ ਦਾ ਇੰਤਜ਼ਾਮ ਕਰੋ
 next-payment-error-retry-button = ਮੁੜ ਕੋਸ਼ਿਸ਼ ਕਰੋ
 next-basic-error-message = ਕੁਝ ਗਲਤ ਵਾਪਰਿਆ ਹੈ। ਬਾਅਦ ਵਿੱਚ ਮੁੜ ਕੋਸ਼ਿਸ਼ ਕਰੋ।
-
-## Error pages - Payment method failure messages
-
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -121,9 +115,6 @@ next-new-user-subscribe-product-updates-mozilla = ਮੈਂ { -brand-mozilla } �
 next-new-user-subscribe-product-updates-snp = ਮੈਂ { -brand-mozilla } ਤੋਂ ਸੁਰੱਖਿਆ ਅਤੇ ਪਰਦੇਦਾਰੀ ਖ਼ਬਰਾਂ ਅਤੇ ਅੱਪਡੇਟ ਲੈਣਾ ਚਾਹੁੰਦਾ/ਚਾਹੁੰਦੀ ਹਾਂ
 next-new-user-subscribe-product-assurance = ਅਸੀਂ ਤੁਹਾਡੇ ਈਮੇਲ ਨੂੰ ਸਿਰਫ ਤੁਹਾਡਾ ਖਾਤਾ ਬਣਾਉਣ ਲਈ ਹੀ ਵਰਤਦੇ ਹਾਂ। ਅਸੀਂ ਕਦੇ ਵੀ ਇਸ ਨੂੰ ਤੀਜੀ ਧਿਰ ਨੂੰ ਨਹੀਂ ਵੇਚਾਂਗੇ।
 
-## Component - PriceInterval
-
-
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
@@ -148,20 +139,3 @@ next-subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capita
 next-terms = ਸੇਵਾ ਦੀਆਂ ਸ਼ਰਤਾਂ
 next-privacy = ਪਰਦੇਦਾਰੀ ਸੂਚਨਾ
 next-terms-download = ਡਾਊਨਲੋਡ ਕਰਨ ਦੀਆਂ ਸ਼ਰਤਾਂ
-
-## Component - UpdatedPurchaseDetails
-
-
-## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
-## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
-
-
-## Page Metadata Information
-## $productTitle (String) - The name of the product to create subscription, e.g. Mozilla VPN
-
-
-## Coupon Error Messages
-
-
-##
-

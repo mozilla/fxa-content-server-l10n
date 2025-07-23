@@ -41,9 +41,6 @@ checkout-error-contact-support = 도움을 드릴 수 있도록 지원팀에 문
 cart-error-currency-not-determined = 구매에 사용한 통화를 확인할 수 없습니다. 다시 시도하세요.
 checkout-processing-general-error = 결제를 처리하는 동안 예기치 못한 오류가 발생했습니다. 다시 시도하세요.
 
-## Error pages - Payment method failure messages
-
-
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
 
@@ -72,6 +69,9 @@ next-payment-confirmation-download-button = 다운로드 계속 하기
 
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = 끝자리가 { $last4 } 인 카드
+
+## Page - Subscription Management
+
 # Page - Not Found
 page-not-found-title = 페이지를 찾을 수 없음
 page-not-found-description = 요청하신 페이지를 찾을 수 없습니다. 알림을 받았으며 잘못된 모든 링크를 수정할 예정입니다.
@@ -178,9 +178,6 @@ next-new-user-subscribe-product-updates-mozilla = { -brand-mozilla }로부터 �
 next-new-user-subscribe-product-updates-snp = { -brand-mozilla }로부터 보안과 개인 정보에 대한 소식 및 최신 정보를 받습니다.
 next-new-user-subscribe-product-assurance = 이메일은 오직 계정을 만드는 데만 사용됩니다. 절대 제3자에게 판매하지 않습니다.
 
-## Component - PriceInterval
-
-
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
@@ -275,6 +272,3 @@ next-coupon-error-generic = 코드 처리 과정에서 오류가 발생했습니
 next-coupon-error-invalid = 입력한 코드가 유효하지 않습니다.
 # "Limit" refers to the maximum number of times a coupon can be redeemed.
 next-coupon-error-limit-reached = 입력한 코드가 제한에 도달했습니다.
-
-##
-

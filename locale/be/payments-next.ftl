@@ -3,21 +3,12 @@
 next-payment-method-header = Выберыце спосаб аплаты
 next-payment-method-first-approve = Спачатку вам трэба будзе зацвердзіць вашу падпіску
 
-## Page - Upgrade page
-
-
-## Authentication Error page
-
-
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages
 
 next-payment-error-manage-subscription-button = Кіраваць маёй падпіскай
 next-payment-error-retry-button = Паспрабаваць зноў
 next-basic-error-message = Нешта пайшло не так. Калі ласка, паспрабуйце зноў пазней.
-
-## Error pages - Payment method failure messages
-
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -96,13 +87,6 @@ next-new-user-subscribe-product-updates-mozilla = Я хачу атрымліва
 next-new-user-subscribe-product-updates-snp = Я хачу атрымліваць навіны і абнаўленні па бяспецы і прыватнасці ад { -brand-mozilla }
 next-new-user-subscribe-product-assurance = Мы выкарыстоўваем вашу электронную пошту толькі для стварэння вашага ўліковага запісу. Мы ніколі не прададзім яго староннім асобам.
 
-## Component - PriceInterval
-
-
-## PriceInterval - shared by multiple components, including Details and PurchaseDetails
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
-
 ## Component - SubscriptionTitle
 
 next-subscription-create-title = Наладзьце падпіску
@@ -119,20 +103,3 @@ next-subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capita
 next-terms = Умовы абслугоўвання
 next-privacy = Паведамленне аб прыватнасці
 next-terms-download = Умовы сцягвання
-
-## Component - UpdatedPurchaseDetails
-
-
-## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
-## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
-
-
-## Page Metadata Information
-## $productTitle (String) - The name of the product to create subscription, e.g. Mozilla VPN
-
-
-## Coupon Error Messages
-
-
-##
-

@@ -82,6 +82,9 @@ next-payment-confirmation-download-button = Dalej k ześěgnjenjeju
 
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Kórta, kótaraž se na { $last4 } kóńcy
+
+## Page - Subscription Management
+
 # Page - Not Found
 page-not-found-title = Bok njejo se namakał
 page-not-found-description = Bok, kótaryž sćo pominał, njejo se namakał. Smy powěsć dostali a pórěźamy njepłaśiwe wótkaze.
@@ -195,9 +198,6 @@ next-new-user-subscribe-product-updates-mozilla = Ja by rady dostał produktowe 
 next-new-user-subscribe-product-updates-snp = Ja by rady dostał nowosći wó wěstośe a priwatnosći a aktualizacije wót { -brand-mozilla }
 next-new-user-subscribe-product-assurance = Wužywamy jano wašu e-mailowu adresu, aby my waše konto załožyli. Tśeśemu póbitowarjeju ju nigda njepśedajomy.
 
-## Component - PriceInterval
-
-
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
@@ -296,6 +296,3 @@ next-coupon-error-generic = Pśi pśeźěłowanju koda jo zmólka nastała. Pšo
 next-coupon-error-invalid = Zapódany kod jo njepłaśiwy.
 # "Limit" refers to the maximum number of times a coupon can be redeemed.
 next-coupon-error-limit-reached = Zapódany kod jo dostał swój limit.
-
-##
-

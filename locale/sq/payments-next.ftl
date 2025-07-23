@@ -42,9 +42,6 @@ checkout-error-contact-support = Ju lutemi, lidhuni me asistencën, që të mund
 cart-error-currency-not-determined = S’qemë në gjendje të përcaktojmë monedhën për këtë blerje, ju lutemi, riprovoni.
 checkout-processing-general-error = Ndodhi një gabim i papritur teksa përpunohej pagesa juaj, ju lutemi, riprovoni.
 
-## Error pages - Payment method failure messages
-
-
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
 
@@ -73,6 +70,9 @@ next-payment-confirmation-download-button = Vazhdoni te shkarkimi
 
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Kartë që përfundon me { $last4 }
+
+## Page - Subscription Management
+
 # Page - Not Found
 page-not-found-title = S’u gjet faqe
 page-not-found-description = Faqja që kërkuat nuk u gjet. E kemi mbajtur shënim dhe do të ndreqim çfarëdo lidhje që mund të jetë e dëmtuar.
@@ -179,9 +179,6 @@ next-new-user-subscribe-product-updates-mozilla = Do të doja të merrja nga { -
 next-new-user-subscribe-product-updates-snp = Do të doja të merrja nga { -brand-mozilla } lajme mbi sigurinë dhe privatësinë
 next-new-user-subscribe-product-assurance = Email-in tuaj e përdorim vetëm për të krijuar llogarinë tuaj. S’do t’ia shesim kurrë një pale të tretë.
 
-## Component - PriceInterval
-
-
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
@@ -230,13 +227,3 @@ upgrade-purchase-details-new-plan-weekly = { $productName } (E përjavshme)
 upgrade-purchase-details-new-plan-monthly = { $productName } (E përmuajshme)
 upgrade-purchase-details-new-plan-halfyearly = { $productName } (6-muaj)
 upgrade-purchase-details-new-plan-yearly = { $productName } (E përvitshme)
-
-## Page Metadata Information
-## $productTitle (String) - The name of the product to create subscription, e.g. Mozilla VPN
-
-
-## Coupon Error Messages
-
-
-##
-

@@ -79,6 +79,9 @@ next-payment-confirmation-download-button = Continuar para descarregar
 
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Cartão que terminar em { $last4 }
+
+## Page - Subscription Management
+
 # Page - Not Found
 page-not-found-title = Página não encontrada
 page-not-found-description = A página que solicitou não foi encontrada. Fomos notificados e iremos corrigir todas as ligações que possam estar quebradas.
@@ -192,9 +195,6 @@ next-new-user-subscribe-product-updates-mozilla = Eu gostaria de receber notíci
 next-new-user-subscribe-product-updates-snp = Eu gostaria de receber notícias e atualizações sobre segurança e privacidade da { -brand-mozilla }
 next-new-user-subscribe-product-assurance = Nós apenas utilizamos o seu e-mail para criar a sua conta. Nós nunca iremos vendê-lo a terceiros.
 
-## Component - PriceInterval
-
-
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
@@ -293,6 +293,3 @@ next-coupon-error-generic = Ocorreu um erro ao processar o código. Por favor, t
 next-coupon-error-invalid = O código que introduziu é inválido.
 # "Limit" refers to the maximum number of times a coupon can be redeemed.
 next-coupon-error-limit-reached = O código que introduziu chegou ao seu limite.
-
-##
-

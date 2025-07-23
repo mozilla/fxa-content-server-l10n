@@ -41,9 +41,6 @@ checkout-error-contact-support = โปรดติดต่อฝ่ายส�
 cart-error-currency-not-determined = เราไม่สามารถระบุสกุลเงินสำหรับการสั่งซื้อครั้งนี้ได้ โปรดลองอีกครั้ง
 checkout-processing-general-error = เกิดข้อผิดพลาดที่ไม่คาดคิดขณะประมวลผลการชำระเงินของคุณ โปรดลองอีกครั้ง
 
-## Error pages - Payment method failure messages
-
-
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
 
@@ -72,6 +69,9 @@ next-payment-confirmation-download-button = ดำเนินการต่อ
 
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = หมายเลขบัตรลงท้ายด้วย { $last4 }
+
+## Page - Subscription Management
+
 # Page - Not Found
 page-not-found-title = ไม่พบหน้า
 page-not-found-description = ไม่พบหน้าที่คุณร้องขอ เราทราบเรื่องแล้วและจะแก้ไขลิงก์ที่อาจเสียหาย
@@ -166,9 +166,6 @@ next-new-user-subscribe-product-updates-mozilla = ฉันต้องการ
 next-new-user-subscribe-product-updates-snp = ฉันต้องการรับข่าวสารและข้อมูลล่าสุดเกี่ยวกับความปลอดภัยและความเป็นส่วนตัวจาก { -brand-mozilla }
 next-new-user-subscribe-product-assurance = เราใช้อีเมลของคุณเพื่อสร้างบัญชีของคุณเท่านั้น เราจะไม่ขายให้กับบุคคลที่สาม
 
-## Component - PriceInterval
-
-
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
@@ -199,17 +196,3 @@ terms-and-privacy-paypal-link = นโยบายความเป็นส่
 ## Component - UpdatedPurchaseDetails
 
 upgrade-purchase-details-tax-label = ภาษีและค่าธรรมเนียม
-
-## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
-## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
-
-
-## Page Metadata Information
-## $productTitle (String) - The name of the product to create subscription, e.g. Mozilla VPN
-
-
-## Coupon Error Messages
-
-
-##
-

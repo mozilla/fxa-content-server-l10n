@@ -79,6 +79,9 @@ next-payment-confirmation-download-button = Nadaljuj prenos
 
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Kartica, ki se končuje s { $last4 }
+
+## Page - Subscription Management
+
 # Page - Not Found
 page-not-found-title = Strani ni mogoče najti
 page-not-found-description = Zahtevane strani ni bilo mogoče najti. O tem smo obvestili skrbnike, ki bodo odpravili morebitne nedelujoče povezave.
@@ -192,9 +195,6 @@ next-new-user-subscribe-product-updates-mozilla = Želim prejemati novice in obv
 next-new-user-subscribe-product-updates-snp = Želim prejemati novice in obvestila { -brand-mozilla(sklon: "rodilnik") } o varnosti in zasebnosti
 next-new-user-subscribe-product-assurance = Vaš e-poštni naslov uporabimo samo za ustvarjanje vašega računa. Nikoli ga ne bomo prodali nikomur drugemu.
 
-## Component - PriceInterval
-
-
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
@@ -293,6 +293,3 @@ next-coupon-error-generic = Pri obdelavi kode je prišlo do napake. Poskusite zn
 next-coupon-error-invalid = Koda, ki ste jo vnesli, je neveljavna.
 # "Limit" refers to the maximum number of times a coupon can be redeemed.
 next-coupon-error-limit-reached = Koda, ki ste jo vnesli, je dosegla svojo omejitev.
-
-##
-

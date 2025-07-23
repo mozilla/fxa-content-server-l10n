@@ -78,6 +78,9 @@ next-payment-confirmation-download-button = Continue par discjariâ
 
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = La cjarte e che e finìs cun { $last4 }
+
+## Page - Subscription Management
+
 # Page - Not Found
 page-not-found-title = Pagjine no cjatade
 page-not-found-description = La pagjine domandade no je stade cjatade. Nus è rivade la segnalazion dal probleme e o comedarìn i eventuâi colegaments che no funzionin.
@@ -184,9 +187,6 @@ next-new-user-subscribe-product-updates-mozilla = O desideri ricevi di { -brand-
 next-new-user-subscribe-product-updates-snp = O desideri ricevi di { -brand-mozilla } inzornaments su sigurece e riservatece
 next-new-user-subscribe-product-assurance = O doprìn la tô e-mail dome par creâ il to account. No le vendarìn mai a tierçs.
 
-## Component - PriceInterval
-
-
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
@@ -282,6 +282,3 @@ next-coupon-error-generic = Al è capitât un erôr te elaborazion dal codiç. T
 next-coupon-error-invalid = Il codiç inserît nol è valit.
 # "Limit" refers to the maximum number of times a coupon can be redeemed.
 next-coupon-error-limit-reached = Il codiç inserît al è rivât al so limit.
-
-##
-

@@ -74,6 +74,9 @@ next-payment-confirmation-download-button = המשך להורדה
 
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = כרטיס המסתיים ב־{ $last4 }
+
+## Page - Subscription Management
+
 # Page - Not Found
 page-not-found-title = הדף לא נמצא
 page-not-found-description = העמוד המבוקש לא נמצא. קיבלנו את המידע הדרוש ונתקן את הקישורים שייתכן שנשברו.
@@ -181,9 +184,6 @@ next-new-user-subscribe-product-updates-mozilla = ברצוני לקבל חדשו
 next-new-user-subscribe-product-updates-snp = ברצוני לקבל חדשות ועדכונים על פרטיות ואבטחה מ־{ -brand-mozilla }
 next-new-user-subscribe-product-assurance = אנו משתמשים בדוא״ל שלך רק ליצירת החשבון שלך. לעולם לא נמכור אותו לצד שלישי.
 
-## Component - PriceInterval
-
-
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
@@ -282,6 +282,3 @@ next-coupon-error-generic = אירעה שגיאה בעיבוד הקוד. נא ל
 next-coupon-error-invalid = הקוד שהזנת אינו חוקי.
 # "Limit" refers to the maximum number of times a coupon can be redeemed.
 next-coupon-error-limit-reached = הקוד שהזנת הגיע למגבלה שלו.
-
-##
-

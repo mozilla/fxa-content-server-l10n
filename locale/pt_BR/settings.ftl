@@ -91,13 +91,6 @@ datablock-copy =
 datablock-print =
     .message = Impresso
 
-## Success banners for datablock actions.
-## $count – number of codes
-
-
-##
-
-
 ## DeviceInfoBlock component
 ## The strings here are used to display information about the origin of activity happening on a user's account
 ## For example, when connecting another device to the user's account
@@ -605,21 +598,6 @@ flow-recovery-key-info-cta-text-v3 = Começar
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = Cancelar
 
-## FlowSetup2faApp
-
-
-## The step to choose the two step authentication method in the two step
-## authentication setup flow.
-
-
-## The backup code confirm step of the setup 2 factor authentication flow,
-## where the user confirm that they have saved their backup authentication codes
-## by entering one of them.
-
-
-## The backup codes download step of the setup 2 factor authentication flow
-
-
 ## FlowSetupPhoneConfirmCode
 
 # verification code refers to a code sent by text message to confirm phone number ownership
@@ -708,9 +686,6 @@ tfa-replace-code-success-alert-4 = Códigos de autenticação de backup atualiza
 tfa-replace-code-1-2 = Etapa 1 de 2
 tfa-replace-code-2-2 = Etapa 2 de 2
 tfa-enter-code-to-confirm-v2 = Digite um dos seus novos códigos de autenticação de backup para confirmar que você os salvou. Seus códigos de autenticação de backup antigos serão desativados após esta etapa ser concluída.
-
-## PageSetupRecoveryPhone
-
 
 ## Avatar change page
 
@@ -1480,13 +1455,6 @@ pair-wait-for-auth-heading-text = Agora precisa aprovar <span>em seu outro dispo
 pair-unsupported-header = Conectar usando um aplicativo
 pair-unsupported-message = Você usou a câmera do sistema? Você deve conectar usando um aplicativo { -brand-firefox }.
 
-## SetPassword page
-## Third party auth users that do not have a password set yet are prompted for a
-
-
-# password to complete their sign-in when they want to login to a service requiring it.
-
-
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
 
@@ -1853,7 +1821,3 @@ signup-pocket-info-banner = Por que preciso criar esta conta?
 signup-pocket-info-banner-link = Descubra aqui
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Alterar email
-
-## SignupConfirmedSync page
-## Shown to users when they finish confirming their account through Sync
-

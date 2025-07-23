@@ -39,9 +39,6 @@ checkout-error-contact-support = Entre em contato com o suporte para receber aju
 cart-error-currency-not-determined = Não foi possível determinar a moeda para esta compra, tente novamente.
 checkout-processing-general-error = Ocorreu um erro inesperado ao processar seu pagamento, tente novamente.
 
-## Error pages - Payment method failure messages
-
-
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
 
@@ -70,6 +67,9 @@ next-payment-confirmation-download-button = Continuar para baixar
 
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Cartão com final { $last4 }
+
+## Page - Subscription Management
+
 # Page - Not Found
 page-not-found-title = Página não encontrada
 page-not-found-description = A página solicitada não foi encontrada. Fomos notificados e corrigiremos os links que podem estar quebrados.
@@ -176,9 +176,6 @@ next-new-user-subscribe-product-updates-mozilla = Quero receber notícias e novi
 next-new-user-subscribe-product-updates-snp = Quero de receber notícias e novidades da { -brand-mozilla } sobre segurança e privacidade
 next-new-user-subscribe-product-assurance = Só usamos seu email para criar sua conta. Nunca iremos vender a terceiros.
 
-## Component - PriceInterval
-
-
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
@@ -241,9 +238,3 @@ metadata-title-checkout-success = Sucesso | { $productTitle }
 metadata-description-checkout-success = Parabéns! Você concluiu sua compra com sucesso.
 # Checkout needs_input
 metadata-title-checkout-needs-input = Ação necessária | { $productTitle }
-
-## Coupon Error Messages
-
-
-##
-

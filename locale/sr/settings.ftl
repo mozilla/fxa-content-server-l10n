@@ -3,17 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## Banner component
-
-
-## Brand Messaging component
-## Used to show in product messaging about upcoming brand changes
-
-
-## ButtonBack component
-## Allows users to click a back arrow to navigate to the previous page
-
-
 ## ButtonDownloadRecoveryKeyPDF
 ## Clicking on this button downloads a PDF file that contains the user's account recovery key
 ## The account recovery key can be used to recover data when users forget their account password
@@ -24,10 +13,6 @@
 recovery-key-download-button-v3 = Преузми и настави
     .title = Преузми и настави
 
-## ChooseNewsletters component
-## Checklist of newsletters that the user can choose to sign up to
-
-
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
 datablock-download =
@@ -36,13 +21,6 @@ datablock-copy =
     .message = Копирано
 datablock-print =
     .message = Одштампано
-
-## Success banners for datablock actions.
-## $count – number of codes
-
-
-##
-
 
 ## DeviceInfoBlock component
 ## The strings here are used to display information about the origin of activity happening on a user's account
@@ -83,9 +61,6 @@ form-reset-password-with-balloon-confirm-password =
 form-reset-password-with-balloon-submit-button = Ресетуј лозинку
 form-reset-password-with-balloon-match-error = Лозинке се не подударају
 
-## FormPasswordInlineCriteria
-
-
 ## FormVerifyCode
 
 # Fallback default localized error message for empty input field
@@ -112,10 +87,6 @@ get-data-trio-print-2 =
 ## Images - these are all aria labels used for illustrations
 ## Aria labels are used as alternate text that can be read aloud by screen readers.
 
-
-## Images - these are all aria labels used for illustrations
-## Aria labels are used as alternate text that can be read aloud by screen readers.
-
 hearts-broken-image-aria-label =
     .aria-label = Рачунар и мобилни телефон, сваки са сликом сломљеног срца
 hearts-verified-image-aria-label =
@@ -135,11 +106,6 @@ recovery-key-image-aria-label =
     .aria-label = Илустрација која представља кључ за опоравак налога.
 lightbulb-aria-label =
     .aria-label = Илустрација која представља осмишљавање наговештаја за складиште.
-
-## InlineRecoveryKeySetupCreate component
-## Users see this view when we prompt them to generate an account recovery key
-## after signing in.
-
 
 ## Input Password
 
@@ -164,12 +130,6 @@ signin-link-damaged-header = Веза за потврду је оштећена
 # The user followed a link received by email, but the link was damaged.
 reset-pwd-link-damaged-message = Вези на који сте кликнули недостају знакови и могуће је да ју је оштетио ваш клијент е-поште. Пажљиво копирајте адресу и покушајте поново.
 
-## LinkExpired component
-
-
-## LinkRememberPassword component
-
-
 ## LinkUsed component
 
 # The user followed a primary email confirmation link, but that link is has been used and is no longer valid
@@ -191,13 +151,6 @@ password-strength-balloon-min-length = Најмање 8 знакова
 password-strength-balloon-not-email = Није ваша адреса е-поште
 password-strength-balloon-not-common = Није често употребљавана лозинка
 password-strength-balloon-stay-safe-tips = Будите безбедни — немојте да дуплирате лозинке. Погледајте савете за <LinkExternal>прављење јаких лозинки</LinkExternal>.
-
-## PasswordStrengthInline component
-## These strings are conditions that need to be met to qualify as a strong password
-
-
-## Notification Promo Banner component
-
 
 ## Ready component
 
@@ -249,10 +202,6 @@ flow-recovery-key-hint-char-limit-error = Наговештај мора да с�
 # Error displayed in a tooltip if the user included unsafe unicode characters in their hint.
 # "Hint" refers to "storage hint"
 flow-recovery-key-hint-unsafe-char-error = Наговештај не може да садржи небезбедне Уникод знакове. Дозвољена су само слова, бројеви, знакови интерпункције и симболи.
-
-## ResetPasswordWarning component
-## Warning shown to sync users that reset their password without using an account recovery key
-
 
 ## Alert Bar
 
@@ -393,27 +342,6 @@ flow-recovery-key-info-cta-text-v3 = Започните
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = Откажи
 
-## FlowSetup2faApp
-
-
-## The step to choose the two step authentication method in the two step
-## authentication setup flow.
-
-
-## The backup code confirm step of the setup 2 factor authentication flow,
-## where the user confirm that they have saved their backup authentication codes
-## by entering one of them.
-
-
-## The backup codes download step of the setup 2 factor authentication flow
-
-
-## FlowSetupPhoneConfirmCode
-
-
-## FlowSetupPhoneConfirmCode
-
-
 ## HeaderLockup component, the header in account settings
 
 header-menu-open = Затвори мени
@@ -469,9 +397,6 @@ tfa-replace-code-success-1 =
     ако вам мобилни уређај није доступан.
 tfa-replace-code-1-2 = Корак 1 од 2
 tfa-replace-code-2-2 = Корак 2 од 2
-
-## PageSetupRecoveryPhone
-
 
 ## Avatar change page
 
@@ -585,13 +510,6 @@ recovery-key-create-page-title = Кључ за опоравак налога
 # and back to account settings
 recovery-key-create-back-button-title = Назад на подешавања
 
-## PageRecoveryPhoneRemove
-## Users reach this page from account settings when they want to remove a backup phone number.
-
-
-## PageSetupRecoveryPhone
-
-
 ## Add secondary email page
 
 add-secondary-email-step-1 = Корак 1 од 2
@@ -664,9 +582,6 @@ tfa-save-these-codes-1 =
 tfa-enter-recovery-code-1 =
     .label = Унеси резервни приступни код
 
-## Product promotion
-
-
 ## Profile section
 
 profile-heading = Профил
@@ -697,9 +612,6 @@ security-password-created-date = Створено { $date }
 security-not-set = Није постављено
 security-action-create = Направи
 security-set-password = Поставите лозинку да омогућите синхронизацију и безбедносне функција налога.
-
-## SubRow component
-
 
 ## Switch component
 
@@ -799,10 +711,6 @@ tfa-row-disable-modal-explain-1 =
 tfa-row-disabled-2 = Аутентификација у два корака онемогућена
 tfa-row-cannot-disable-2 = Није могуће онемогућити аутентификацију у два корака
 
-## TermsPrivacyAgreement
-## These terms are used in signin and signup for Firefox account
-
-
 ## ThirdPartyAuth component
 ## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
 
@@ -876,12 +784,6 @@ cookies-disabled-header = Потребни су локално складишт�
 cookies-disabled-button-try-again = Покушај поново
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
 cookies-disabled-learn-more = Сазнај више
-
-## Index / home page
-
-
-## InlineRecoveryKeySetup page component
-
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
@@ -1063,20 +965,10 @@ pair-wait-for-auth-heading-text = Сада је потребно одобрењ�
 pair-unsupported-header = Упаривање помоћу апликације
 pair-unsupported-message = Да ли сте користили системску камеру? Морате да се упарите у оквиру { -brand-firefox } апликације.
 
-## SetPassword page
-## Third party auth users that do not have a password set yet are prompted for a
-
-
-# password to complete their sign-in when they want to login to a service requiring it.
-
-
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
 
 third-party-auth-callback-message = Сачекајте тренутак, бићете преусмерени на овлашћени програм.
-
-## AccountRecoveryConfirmKey page
-
 
 ## CompleteResetPassword component
 ## User followed a password reset link and is now prompted to create a new password
@@ -1091,25 +983,9 @@ complete-reset-password-error-alert = Жао нам је, дошло је до �
 # ConfirmBackupCodeResetPassword page
 
 
-## Confirm Reset Password With Code
-
-
-## PasswordResetConfirmTotp Page
-
-
-## ResetPassword start page
-
-
 ## ResetPasswordConfirmed
 
 reset-password-complete-header = Ваша лозинка је ресетована
-
-## Reset password recovery method page
-## This page is shown to users when they are having trouble resetting their
-
-
-# password, and they previously had set up an account recovery method.
-
 
 ## ResetPasswordRecoveryPhone page
 
@@ -1151,18 +1027,6 @@ signin-bounced-help = Ако је ово исправна адреса е-пош
 signin-bounced-create-new-account = То више није ваша адреса е-поште? Направите нови налог
 back = Назад
 
-## SigninPushCode page
-## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
-
-
-## SigninPushCodeConfirmPage
-
-
-## Signin recovery method page
-## This page is shown to users when they are having trouble signing in with
-## their password, and they previously had set up an account recovery method.
-
-
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
 ## (provided to the user when they first set up two-step authentication)
@@ -1175,9 +1039,6 @@ signin-recovery-code-confirm-button = Потврди
 signin-recovery-code-support-link = Не можете да се пријавите?
 # Error displayed in a tooltip when form is submitted witout a code
 signin-recovery-code-required-error = Потребан је резервни приступни код
-
-## SigninRecoveryPhone page
-
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -1208,10 +1069,6 @@ signin-totp-code-recovery-code-link = Проблеми с уносом кода?
 # Error displayed in a tooltip when the form is submitted without a code
 signin-totp-code-required-error = Потребан је приступни кôд
 
-## Signin Unblock Page
-## Page shown when signin has been blocked by rate limiting (too many requests)
-
-
 ## ConfirmSignupCode page
 ## Users see this page after they have initiated account sign up,
 
@@ -1235,7 +1092,3 @@ confirm-signup-code-is-required-error = Потребан је код за пот
 
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Промени е-пошту
-
-## SignupConfirmedSync page
-## Shown to users when they finish confirming their account through Sync
-

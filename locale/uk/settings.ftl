@@ -91,10 +91,6 @@ datablock-copy =
 datablock-print =
     .message = Надруковано
 
-## Success banners for datablock actions.
-## $count – number of codes
-
-
 ##
 
 # Tooltip notification when an account recovery key or one-time use code is copied.
@@ -759,9 +755,6 @@ tfa-replace-code-2-2 = Крок 2 з 2
 tfa-enter-code-to-confirm-v2 =
     Введіть один із ваших резервних кодів автентифікації,
     щоб упевнитися, що ви їх зберегли. Після завершення цього кроку ваші старі резервні коди автентифікації буде вимкнено.
-
-## PageSetupRecoveryPhone
-
 
 ## Avatar change page
 
@@ -1549,13 +1542,6 @@ pair-wait-for-auth-heading-text = Відтепер підтвердження з
 pair-unsupported-header = Створення пари за допомогою програми
 pair-unsupported-message = Ви використали системну камеру? Ви повинні створити пару через програму { -brand-firefox }.
 
-## SetPassword page
-## Third party auth users that do not have a password set yet are prompted for a
-
-
-# password to complete their sign-in when they want to login to a service requiring it.
-
-
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
 
@@ -1945,7 +1931,3 @@ signup-pocket-info-banner = Чому мені потрібно створити 
 signup-pocket-info-banner-link = Дізнайтеся тут
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Змінити адресу електронної пошти
-
-## SignupConfirmedSync page
-## Shown to users when they finish confirming their account through Sync
-

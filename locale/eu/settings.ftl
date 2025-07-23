@@ -91,13 +91,6 @@ datablock-copy =
 datablock-print =
     .message = Inprimatuta
 
-## Success banners for datablock actions.
-## $count – number of codes
-
-
-##
-
-
 ## DeviceInfoBlock component
 ## The strings here are used to display information about the origin of activity happening on a user's account
 ## For example, when connecting another device to the user's account
@@ -609,21 +602,6 @@ flow-recovery-key-info-cta-text-v3 = Hasi erabiltzen
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = Utzi
 
-## FlowSetup2faApp
-
-
-## The step to choose the two step authentication method in the two step
-## authentication setup flow.
-
-
-## The backup code confirm step of the setup 2 factor authentication flow,
-## where the user confirm that they have saved their backup authentication codes
-## by entering one of them.
-
-
-## The backup codes download step of the setup 2 factor authentication flow
-
-
 ## FlowSetupPhoneConfirmCode
 
 # verification code refers to a code sent by text message to confirm phone number ownership
@@ -715,9 +693,6 @@ tfa-replace-code-success-alert-4 = Eguneratu dira babeskopiko autentifikazio-kod
 tfa-replace-code-1-2 = 2tik 1. urratsa
 tfa-replace-code-2-2 = 2tik 2. urratsa
 tfa-enter-code-to-confirm-v2 = Mesedez, sartu zure babeskopiko autentifikazio-kode berrietako bat, gorde dituzula berresteko. Zure babeskopien autentifikazio-kode zaharrak desgaitu egingo dira urrats hau amaitutakoan.
-
-## PageSetupRecoveryPhone
-
 
 ## Avatar change page
 
@@ -1497,13 +1472,6 @@ pair-wait-for-auth-heading-text = Onarpena behar da <span>beste gailutik</span>
 pair-unsupported-header = Parekatzea aplikazioa erabiliz
 pair-unsupported-message = Sistemako kamera darabilzu? { -brand-firefox } aplikazio batetik parekatu behar duzu.
 
-## SetPassword page
-## Third party auth users that do not have a password set yet are prompted for a
-
-
-# password to complete their sign-in when they want to login to a service requiring it.
-
-
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
 
@@ -1590,13 +1558,6 @@ password-reset-submit-button-2 = Jarraitu
 reset-password-complete-header = Zure pasahitza berrezarri egin da
 # $serviceName is a product name such as Monitor, Pocket, Relay
 reset-password-confirmed-cta = Jarraitu { $serviceName } zerbitzura
-
-## Reset password recovery method page
-## This page is shown to users when they are having trouble resetting their
-
-
-# password, and they previously had set up an account recovery method.
-
 
 ## ResetPasswordRecoveryPhone page
 
@@ -1850,7 +1811,3 @@ signup-pocket-info-banner = Zergatik sortu behar dut kontu hau?
 signup-pocket-info-banner-link = Jakin hemen
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Aldatu helbide elektronikoa
-
-## SignupConfirmedSync page
-## Shown to users when they finish confirming their account through Sync
-

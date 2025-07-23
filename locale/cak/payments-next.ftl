@@ -1,21 +1,9 @@
-## Page
-
-
-## Page - Upgrade page
-
-
-## Authentication Error page
-
-
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages
 
 next-payment-error-manage-subscription-button = Tinuk'samajïx rutz'ib'axik nub'i'
 next-payment-error-retry-button = Titojtob'ëx chik
 next-basic-error-message = K'o man xel ta ütz. Tatojtob'ej chik jub'a' chik na.
-
-## Error pages - Payment method failure messages
-
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -41,9 +29,6 @@ next-payment-confirmation-download-button = K'a tiqasäx
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = K'isb'en pa { $last4 } ri tarjeta'
 
-## Component - Payment Consent Checkbox
-
-
 ## Checkout Form
 
 next-new-user-submit = Tatz'ib'aj ab'i' wakami
@@ -59,25 +44,12 @@ next-coupon-submit = Tisamajïx
 # Component - Header
 
 
-## Payment Section
-
-
 ## Component - PurchaseDetails
 
 next-plan-details-header = Rub'anikil tikojil
 next-plan-details-total-label = Ronojel
 next-plan-details-hide-button = Ke'ewäx ri taq rub'anikil
 next-plan-details-show-button = Kek'ut pe ri taq rub'anikil
-
-## Select Tax Location
-
-
-## Component - PriceInterval
-
-
-## PriceInterval - shared by multiple components, including Details and PurchaseDetails
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
 
 ## Component - SubscriptionTitle
 
@@ -91,20 +63,3 @@ next-sub-guarantee = 30-q'ij tikirel nitzolïx pwäq
 
 next-terms = Ketal Samaj
 next-privacy = Ichinan Na'oj
-
-## Component - UpdatedPurchaseDetails
-
-
-## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
-## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
-
-
-## Page Metadata Information
-## $productTitle (String) - The name of the product to create subscription, e.g. Mozilla VPN
-
-
-## Coupon Error Messages
-
-
-##
-

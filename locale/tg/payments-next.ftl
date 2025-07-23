@@ -27,9 +27,6 @@ next-basic-error-message = Чизе нодуруст иҷро шуд. Лутфа
 checkout-error-contact-support-button = Дастаи дастгирии корбарон
 checkout-error-already-subscribed = Шумо аллакай ба ин маҳсул обуна шудаед.
 
-## Error pages - Payment method failure messages
-
-
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
 
@@ -56,12 +53,12 @@ next-payment-confirmation-download-button = Идома додани боргир
 
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Корте, ки бо { $last4 } анҷом меёбад
+
+## Page - Subscription Management
+
 # Page - Not Found
 page-not-found-title = Саҳифа ёфт нашуд
 page-not-found-back-button = Бозгашт
-
-## Component - Payment Consent Checkbox
-
 
 ## Checkout Form
 
@@ -149,9 +146,6 @@ next-new-user-subscribe-product-updates-mdnplus = Ман мехоҳам, ки а
 next-new-user-subscribe-product-updates-mozilla = Ман мехоҳам, ки аз «{ -brand-mozilla }» дар бораи маҳсулот хабарҳо ва навигариҳоро қабул кунам
 next-new-user-subscribe-product-updates-snp = Ман мехоҳам, ки аз «{ -brand-mozilla }» дар бораи амният ва махфият хабарҳо ва навигариҳоро қабул кунам
 
-## Component - PriceInterval
-
-
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
@@ -215,9 +209,3 @@ metadata-title-upgrade-success = Муваффақият | { $productTitle }
 metadata-title-upgrade-needs-input = Амал лозим аст | { $productTitle }
 # Default
 metadata-title-default = Саҳифа ёфт нашуд | { $productTitle }
-
-## Coupon Error Messages
-
-
-##
-

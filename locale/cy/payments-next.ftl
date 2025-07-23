@@ -79,6 +79,9 @@ next-payment-confirmation-download-button = Parhau i lwytho i lawr
 
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Cerdyn yn gorffen gyda { $last4 }
+
+## Page - Subscription Management
+
 # Page - Not Found
 page-not-found-title = Heb ganfod y dudalen
 page-not-found-description = Heb ganfod y dudalen rydych wedi gofyn amdani. Rydym wedi cael ein hysbysu a byddwn yn trwsio unrhyw ddolenni all fod wedi'u torri.
@@ -192,9 +195,6 @@ next-new-user-subscribe-product-updates-mozilla = Hoffwn dderbyn newyddion cynny
 next-new-user-subscribe-product-updates-snp = Hoffwn dderbyn newyddion a diweddariadau diogelwch a phreifatrwydd gan { -brand-mozilla }
 next-new-user-subscribe-product-assurance = Dim ond i greu eich cyfrif rydym yn defnyddio'ch e-bost. Fyddwn ni byth yn ei werthu i drydydd parti.
 
-## Component - PriceInterval
-
-
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
@@ -293,6 +293,3 @@ next-coupon-error-generic = Bu gwall wrth brosesu'r cod. Ceisiwch eto, os gwelwc
 next-coupon-error-invalid = Mae'r cod hynny'n annilys.
 # "Limit" refers to the maximum number of times a coupon can be redeemed.
 next-coupon-error-limit-reached = Mae'r cod hynny wedi cyrraedd ei derfyn.
-
-##
-

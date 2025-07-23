@@ -79,6 +79,9 @@ next-payment-confirmation-download-button = Trochgean mei download
 
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Creditcard einigjend op { $last4 }
+
+## Page - Subscription Management
+
 # Page - Not Found
 page-not-found-title = Side net fûn
 page-not-found-description = De opfrege side is net fûn. Wy binne op de hichte en sille keppelingen dy't mooglik net wurkje werom bringe.
@@ -192,9 +195,6 @@ next-new-user-subscribe-product-updates-mozilla = Ik wol graach produktnijs en -
 next-new-user-subscribe-product-updates-snp = Ik wol graach befeiligings- en privacynijs en updates fan { -brand-mozilla } ûntfange
 next-new-user-subscribe-product-assurance = Wy brûke jo e-mailadres allinnich om jo account oan te meitsjen. Wy sille it nea oan in tredde partij ferkeapje.
 
-## Component - PriceInterval
-
-
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
@@ -293,6 +293,3 @@ next-coupon-error-generic = Der is in flater bard by it ferwurkjen fan de koade.
 next-coupon-error-invalid = De ynfierde koade is ûnjildich.
 # "Limit" refers to the maximum number of times a coupon can be redeemed.
 next-coupon-error-limit-reached = De ynfierde koade hat syn limyt berikt.
-
-##
-

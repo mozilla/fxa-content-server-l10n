@@ -41,9 +41,6 @@ checkout-error-contact-support = Mesedez, jarri harremanetan laguntzarekin lagun
 cart-error-currency-not-determined = Ezin izan dugu erosketa honen moneta zehaztu, saiatu berriro mesedez.
 checkout-processing-general-error = Ustekabeko errore bat gertatu da ordainketa prozesatzen ari zaren bitartean. Saiatu berriro.
 
-## Error pages - Payment method failure messages
-
-
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
 
@@ -72,6 +69,9 @@ next-payment-confirmation-download-button = Jarraitu deskargara
 
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = { $last4 }-z amaitzen den txartela
+
+## Page - Subscription Management
+
 # Page - Not Found
 page-not-found-title = Ez da orria aurkitu
 page-not-found-description = Eskatu duzun orria ez dago. Abisua jaso dugu eta hautsita egon daitezkeen estekak konponduko ditugu.
@@ -174,9 +174,6 @@ next-new-user-subscribe-product-updates-mozilla = { -brand-mozilla } produktuen 
 next-new-user-subscribe-product-updates-snp = { -brand-mozilla } segurtasun eta pribatutasun albisteak eta eguneraketak jaso nahi ditut.
 next-new-user-subscribe-product-assurance = Zure posta elektronikoa zure kontua sortzeko soilik erabiltzen dugu. Ez diogu inoiz hirugarren bati salduko.
 
-## Component - PriceInterval
-
-
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
@@ -225,13 +222,3 @@ upgrade-purchase-details-new-plan-weekly = { $productName } (astero)
 upgrade-purchase-details-new-plan-monthly = { $productName } (hilero)
 upgrade-purchase-details-new-plan-halfyearly = { $productName } (6-hilabete)
 upgrade-purchase-details-new-plan-yearly = { $productName } (urtero)
-
-## Page Metadata Information
-## $productTitle (String) - The name of the product to create subscription, e.g. Mozilla VPN
-
-
-## Coupon Error Messages
-
-
-##
-

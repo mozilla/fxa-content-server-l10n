@@ -79,6 +79,9 @@ next-payment-confirmation-download-button = Pokračovat ke stažení
 
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Karta končící na { $last4 }
+
+## Page - Subscription Management
+
 # Page - Not Found
 page-not-found-title = Stránka nenalezena
 page-not-found-description = Požadovaná stránka nebyla nalezena. Byli jsme upozorněni a všechny odkazy, které mohou být nefunkční, opravíme.

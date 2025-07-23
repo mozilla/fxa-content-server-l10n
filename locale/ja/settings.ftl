@@ -3,9 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## Banner component
-
-
 ## Brand Messaging component
 ## Used to show in product messaging about upcoming brand changes
 
@@ -86,13 +83,6 @@ datablock-copy =
     .message = コピー済み
 datablock-print =
     .message = 印刷済み
-
-## Success banners for datablock actions.
-## $count – number of codes
-
-
-##
-
 
 ## DeviceInfoBlock component
 ## The strings here are used to display information about the origin of activity happening on a user's account
@@ -281,9 +271,6 @@ report-signin-link-damaged-header = リンクが不完全です
 # The user followed a link received by email, but the link was damaged.
 reset-pwd-link-damaged-message = 認証リンク URL の長さが足りません。受信したメールクライアントにより、リンクが途中で切れている可能性があります。正しい URL を確認の上コピーし、再度お試しください。
 
-## LinkExpired component
-
-
 ## LinkRememberPassword component
 
 # immediately before remember-password-signin-link
@@ -314,10 +301,6 @@ password-strength-balloon-min-length = 最低 8 文字
 password-strength-balloon-not-email = メールアドレスと一致しないこと
 password-strength-balloon-not-common = よく使われるパスワードと一致しないこと
 password-strength-balloon-stay-safe-tips = 安全のため、パスワードを再利用してはいけません。<LinkExternal>強力なパスワードを作成する</LinkExternal>ためのヒントをご覧ください。
-
-## PasswordStrengthInline component
-## These strings are conditions that need to be met to qualify as a strong password
-
 
 ## Notification Promo Banner component
 
@@ -541,21 +524,6 @@ flow-recovery-key-info-cta-text-v3 = はじめる
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = キャンセル
 
-## FlowSetup2faApp
-
-
-## The step to choose the two step authentication method in the two step
-## authentication setup flow.
-
-
-## The backup code confirm step of the setup 2 factor authentication flow,
-## where the user confirm that they have saved their backup authentication codes
-## by entering one of them.
-
-
-## The backup codes download step of the setup 2 factor authentication flow
-
-
 ## FlowSetupPhoneConfirmCode
 
 # verification code refers to a code sent by text message to confirm phone number ownership
@@ -637,9 +605,6 @@ tfa-create-code-error = バックアップ認証コードの生成時に問題�
 tfa-replace-code-success-1 = 新しいバックアップ認証コードが作成されました。これらのワンタイム使用のコードは、モバイル端末を持っていない場合に備えて安全な場所に保管してください。
 tfa-replace-code-1-2 = ステップ 1/2
 tfa-replace-code-2-2 = ステップ 2/2
-
-## PageSetupRecoveryPhone
-
 
 ## Avatar change page
 
@@ -1333,13 +1298,6 @@ pair-wait-for-auth-heading-text = <span>他の端末から</span> の承認が�
 pair-unsupported-header = アプリを使用してペアリング
 pair-unsupported-message = システムカメラを使用しましたか？ { -brand-firefox } アプリ内からペアリングする必要があります。
 
-## SetPassword page
-## Third party auth users that do not have a password set yet are prompted for a
-
-
-# password to complete their sign-in when they want to login to a service requiring it.
-
-
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
 
@@ -1415,13 +1373,6 @@ reset-password-complete-header = パスワードがリセットされました
 # $serviceName is a product name such as Monitor, Pocket, Relay
 reset-password-confirmed-cta = { $serviceName } へ進む
 
-## Reset password recovery method page
-## This page is shown to users when they are having trouble resetting their
-
-
-# password, and they previously had set up an account recovery method.
-
-
 ## ResetPasswordRecoveryPhone page
 
 reset-password-with-recovery-key-verified-page-title = パスワードのリセットが完了しました
@@ -1473,13 +1424,6 @@ signin-bounced-message = { $email } へ送られた確認メールが返送さ�
 signin-bounced-help = このメールアドレスが正しい場合は、<linkExternal>ご連絡<</linkExternal> いただければロック解除をお手伝いします。
 signin-bounced-create-new-account = 既にこのアドレスをお持ちでないなら、新しいアカウントを作成してください
 back = 戻る
-
-## SigninPushCode page
-## This page is used to send a push notification to the user's device for two-factor authentication (2FA).
-
-
-## SigninPushCodeConfirmPage
-
 
 ## Signin recovery method page
 ## This page is shown to users when they are having trouble signing in with
@@ -1592,7 +1536,3 @@ confirm-signup-code-is-required-error = 確認コードが必要です
 
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = メールアドレスを変更
-
-## SignupConfirmedSync page
-## Shown to users when they finish confirming their account through Sync
-

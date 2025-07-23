@@ -350,9 +350,6 @@ signin-link-damaged-header = Пайванди тасдиқ вайрон шуд
 # but the link was damaged (for example mistyped or broken by the email client).
 report-signin-link-damaged-header = Пайванд вайрон шуд
 
-## LinkExpired component
-
-
 ## LinkRememberPassword component
 
 # link navigates to the sign in page
@@ -363,17 +360,9 @@ remember-password-signin-link = Ворид шудан
 # The user followed a primary email confirmation link, but that link is has been used and is no longer valid
 primary-email-confirmation-link-reused = Почтаи электронии асосӣ алакай тасдиқ карда шуд
 
-## PasswordInfoBalloon
-## Balloon displayed next to password input field
-
-
 ## PasswordStrengthBalloon component
 
 password-strength-balloon-heading = Талаботи ниҳонвожа
-
-## PasswordStrengthInline component
-## These strings are conditions that need to be met to qualify as a strong password
-
 
 ## Notification Promo Banner component
 
@@ -440,19 +429,9 @@ bento-menu-firefox-desktop = Браузери «{ -brand-firefox }» барои 
 bento-menu-firefox-mobile = Браузери «{ -brand-firefox }» барои дастгоҳи мобилӣ
 bento-menu-made-by-mozilla = Аз ҷониби «{ -brand-mozilla }» сохта шудааст
 
-## Connect another device promo
-
-
 ## Connected services section
 
 cs-heading = Хизматрасониҳои пайвастшуда
-
-## This string is used in a modal dialog when the user starts the disconnect from
-## Sync process.
-## Variables:
-##   $device (String) - the name of a device using Mozilla accounts
-##                      (for example: "Firefox Nightly on Google Pixel 4a")
-
 
 ## The following are the options for selecting a reason for disconnecting the
 ## device
@@ -898,10 +877,6 @@ tfa-row-action-add = Илова кардан
 tfa-row-action-disable = Ғайрифаъол кардан
 tfa-row-disable-modal-confirm = Ғайрифаъол кардан
 
-## TermsPrivacyAgreement
-## These terms are used in signin and signup for Firefox account
-
-
 ## ThirdPartyAuth component
 ## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
 
@@ -1038,14 +1013,6 @@ auth-totp-confirm-button = Тасдиқ кардан
 # Error displayed in a tooltip when the form is submitted without a code
 auth-totp-code-required-error = Рамзи санҷиши ҳаққоният лозим аст
 
-## WaitForSupp page - Part of the devide pairing flow
-## Users see this page when they have started to pair a second (or more) device to their account
-## The pairing must be approved from both devices to succeed
-
-
-## PairFailure - a view which displays on failure of the device pairing process
-
-
 ## Pair index page
 
 pair-sync-header = Ҳамоҳангсозии «{ -brand-firefox }» дар телефон ва планшет
@@ -1071,25 +1038,6 @@ pair-success-message-2 = Ҷуфтсозӣ бо муваффақият иҷро �
 ## The pairing must be confirmed from both devices to succeed
 
 pair-supp-allow-cancel-link = Бекор кардан
-
-## WaitForAuth page - Part of the devide pairing flow
-## Users see this page when they have started to pair a second (or more) device to their account
-## The pairing must be approved from both devices to succeed
-
-
-## PairUnsupported - a view which is shown when the user tries to scan the pairing QR code any way other than through a Firefox app
-
-
-## SetPassword page
-## Third party auth users that do not have a password set yet are prompted for a
-
-
-# password to complete their sign-in when they want to login to a service requiring it.
-
-
-## ThirdPartyAuthCallback Page
-## This page is called after a user completes the third party authentication flow from Google or Apple.
-
 
 ## AccountRecoveryConfirmKey page
 
@@ -1323,7 +1271,3 @@ confirm-signup-code-is-required-error = Рамзи тасдиқкунанда л
 signup-heading-v2 = Эҷод кардани ниҳонвожа
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Иваз кардани почтаи электронӣ
-
-## SignupConfirmedSync page
-## Shown to users when they finish confirming their account through Sync
-

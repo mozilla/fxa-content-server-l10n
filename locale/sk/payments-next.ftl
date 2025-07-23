@@ -79,6 +79,9 @@ next-payment-confirmation-download-button = Pokračovať na stiahnutie
 
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Karta končiaca číslicami { $last4 }
+
+## Page - Subscription Management
+
 # Page - Not Found
 page-not-found-title = Stránka sa nenašla
 page-not-found-description = Požadovaná stránka nebola nájdená. Boli sme na to upozornení a prípadné odkazy smerujúce na túto stránku opravíme.
@@ -192,9 +195,6 @@ next-new-user-subscribe-product-updates-mozilla = Chcem dostávať novinky o pro
 next-new-user-subscribe-product-updates-snp = Chcem dostávať novinky { -brand-mozilla(case: "gen") } týkajúce sa bezpečnosti a ochrany osobných údajov
 next-new-user-subscribe-product-assurance = Vašu e‑mailovú adresu použijeme iba na vytvorenie účtu. Nikdy ju nepredáme tretej strane.
 
-## Component - PriceInterval
-
-
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
@@ -293,6 +293,3 @@ next-coupon-error-generic = Pri spracovaní kódu sa vyskytla chyba. Prosím, sk
 next-coupon-error-invalid = Zadaný kód je neplatný.
 # "Limit" refers to the maximum number of times a coupon can be redeemed.
 next-coupon-error-limit-reached = Zadaný kód dosiahol svoj limit.
-
-##
-

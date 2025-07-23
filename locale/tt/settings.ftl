@@ -3,9 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## Banner component
-
-
 ## Brand Messaging component
 ## Used to show in product messaging about upcoming brand changes
 
@@ -21,10 +18,6 @@ brand-close-banner =
 # Alt text for 'm' logo in banner header
 brand-m-logo =
     .alt = { -brand-mozilla } m логотибы
-
-## ButtonBack component
-## Allows users to click a back arrow to navigate to the previous page
-
 
 ## ButtonDownloadRecoveryKeyPDF
 ## Clicking on this button downloads a PDF file that contains the user's account recovery key
@@ -67,13 +60,6 @@ datablock-copy =
     .message = Күчерелде
 datablock-print =
     .message = Бастырылды
-
-## Success banners for datablock actions.
-## $count – number of codes
-
-
-##
-
 
 ## DeviceInfoBlock component
 ## The strings here are used to display information about the origin of activity happening on a user's account
@@ -192,10 +178,6 @@ info-icon-aria-label =
 usa-flag-icon-aria-label =
     .aria-label = Америка Кушма Штатлары байрагы
 
-## Images - these are all aria labels used for illustrations
-## Aria labels are used as alternate text that can be read aloud by screen readers.
-
-
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
 ## after signing in.
@@ -245,10 +227,6 @@ primary-email-confirmation-link-reused = Беренчел эл. почта ад�
 signin-confirmation-link-reused = Керү расланды инде
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Яраксыз сорау
-
-## PasswordInfoBalloon
-## Balloon displayed next to password input field
-
 
 ## PasswordStrengthBalloon component
 
@@ -360,13 +338,6 @@ cs-refresh-button =
 cs-missing-device-help = Табылмаган яки кабатланган элементлар бармы?
 cs-disconnect-sync-heading = Синхронлауны өзү
 
-## This string is used in a modal dialog when the user starts the disconnect from
-## Sync process.
-## Variables:
-##   $device (String) - the name of a device using Mozilla accounts
-##                      (for example: "Firefox Nightly on Google Pixel 4a")
-
-
 ## The following are the options for selecting a reason for disconnecting the
 ## device
 
@@ -437,27 +408,6 @@ flow-recovery-key-info-cta-text-v3 = Башлап җибәрү
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = Баш тарту
 
-## FlowSetup2faApp
-
-
-## The step to choose the two step authentication method in the two step
-## authentication setup flow.
-
-
-## The backup code confirm step of the setup 2 factor authentication flow,
-## where the user confirm that they have saved their backup authentication codes
-## by entering one of them.
-
-
-## The backup codes download step of the setup 2 factor authentication flow
-
-
-## FlowSetupPhoneConfirmCode
-
-
-## FlowSetupPhoneConfirmCode
-
-
 ## HeaderLockup component, the header in account settings
 
 header-menu-open = Менюны ябу
@@ -503,9 +453,6 @@ nav-email-comm = Эл. почта элемтәләр
 
 tfa-replace-code-1-2 = Адым 1/2
 tfa-replace-code-2-2 = Адым 2/2
-
-## PageSetupRecoveryPhone
-
 
 ## Avatar change page
 
@@ -628,13 +575,6 @@ recovery-key-create-page-title = Хисапны коткару ачкычы
 # Tooltip text and aria label for back arrow that takes users out of the account recovery key generation flow
 # and back to account settings
 recovery-key-create-back-button-title = Көйләүләргә кире кайту
-
-## PageRecoveryPhoneRemove
-## Users reach this page from account settings when they want to remove a backup phone number.
-
-
-## PageSetupRecoveryPhone
-
 
 ## Add secondary email page
 
@@ -815,10 +755,6 @@ tfa-row-cannot-refresh =
 tfa-row-disable-modal-heading = Ике адымлы аутентификация сүндерелсенме?
 tfa-row-disable-modal-confirm = Cүндерү
 
-## TermsPrivacyAgreement
-## These terms are used in signin and signup for Firefox account
-
-
 ## ThirdPartyAuth component
 ## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
 
@@ -905,9 +841,6 @@ cookies-disabled-learn-more = Күбрәк белү
 ## Index / home page
 
 index-header = Эл. почтагызны кертегез
-
-## InlineRecoveryKeySetup page component
-
 
 ## InlineRecoverySetup page
 ## When users are creating an account, they may get pushed to setup 2FA
@@ -1019,17 +952,6 @@ pair-wait-for-auth-heading-text = Хәзер <span>бүтән җиһазыгыз
 
 pair-unsupported-header = Кушымта ярдәмендә ялгау
 
-## SetPassword page
-## Third party auth users that do not have a password set yet are prompted for a
-
-
-# password to complete their sign-in when they want to login to a service requiring it.
-
-
-## ThirdPartyAuthCallback Page
-## This page is called after a user completes the third party authentication flow from Google or Apple.
-
-
 ## AccountRecoveryConfirmKey page
 
 # Clicking this button checks if the recovery key provided by the user is correct and associated with their account
@@ -1087,13 +1009,6 @@ reset-password-complete-header = Серсүзегез алмаштырылды
 # $serviceName is a product name such as Monitor, Pocket, Relay
 reset-password-confirmed-cta = { $serviceName } хезмәтенә күчү
 
-## Reset password recovery method page
-## This page is shown to users when they are having trouble resetting their
-
-
-# password, and they previously had set up an account recovery method.
-
-
 ## ResetPasswordRecoveryPhone page
 
 reset-password-with-recovery-key-verified-page-title = Серзүз уңышлы ташлатылды
@@ -1149,11 +1064,6 @@ signin-push-code-confirm-login = Керүне раслау
 signin-push-code-confirm-wasnt-me = Бу мин түгел, серсүзне үзгәртү.
 signin-push-code-confirm-link-error = Сылтамага зыян килгән. Зинһар янәдән тырышып карагыз.
 
-## Signin recovery method page
-## This page is shown to users when they are having trouble signing in with
-## their password, and they previously had set up an account recovery method.
-
-
 ## SigninRecoveryCode page
 ## Users are prompted to enter a backup authentication code
 ## (provided to the user when they first set up two-step authentication)
@@ -1165,12 +1075,6 @@ signin-recovery-code-confirm-button = Раслау
 # External link for support if the user can't use two-step autentication or a backup authentication code
 # https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 signin-recovery-code-support-link = Хисабыгыз биклеме?
-
-## SigninRecoveryPhone page
-
-
-## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
-
 
 ## SigninTokenCode page
 ## Users see this page during the signin process. In this instance, the confirmation code is
@@ -1234,7 +1138,3 @@ confirm-signup-code-is-required-error = Раслау коды кирәк
 
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Эл. почтаны үзгәртү
-
-## SignupConfirmedSync page
-## Shown to users when they finish confirming their account through Sync
-

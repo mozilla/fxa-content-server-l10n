@@ -40,9 +40,6 @@ checkout-error-already-subscribed = Þú ert nú þegar áskrifandi að þessum 
 checkout-error-contact-support = Hafðu samband við aðstoðargáttina svo við getum hjálpað þér.
 checkout-processing-general-error = Óvænt villa kom upp við vinnslu greiðslunnar þinnar, reyndu aftur.
 
-## Error pages - Payment method failure messages
-
-
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
 
@@ -71,6 +68,9 @@ next-payment-confirmation-download-button = Halda áfram í niðurhal
 
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Kort sem endar á { $last4 }
+
+## Page - Subscription Management
+
 # Page - Not Found
 page-not-found-title = Síða fannst ekki
 page-not-found-description = Síðan sem þú baðst um fannst ekki. Við höfum fengið tilkynningu og munum fara í að lagfæra þá tengla sem eru bilaðir.
@@ -174,9 +174,6 @@ next-new-user-subscribe-product-updates-mozilla = Ég myndi vilja fá upplýsing
 next-new-user-subscribe-product-updates-snp = Ég myndi vilja fá fréttir um öryggismál og friðhelgi frá { -brand-mozilla }
 next-new-user-subscribe-product-assurance = Við notum aðeins tölvupóstfangið þitt til að búa til reikninginn þinn. Við munum aldrei selja það til utanaðkomandi aðila.
 
-## Component - PriceInterval
-
-
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
@@ -251,9 +248,3 @@ metadata-title-upgrade-success = Tókst | { $productTitle }
 metadata-title-upgrade-needs-input = Aðgerðar krafist | { $productTitle }
 # Default
 metadata-title-default = Síða fannst ekki | { $productTitle }
-
-## Coupon Error Messages
-
-
-##
-
