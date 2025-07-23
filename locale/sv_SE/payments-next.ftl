@@ -26,6 +26,16 @@ upgrade-page-acknowledgment = Din plan kommer att ändras omedelbart och du debi
 auth-error-page-title = Vi kunde inte logga in dig
 checkout-error-boundary-retry-button = Försök igen
 checkout-error-boundary-basic-error-message = Något gick fel. Försök igen eller <contactSupportLink>kontakta supporten.</contactSupportLink>
+amex-logo-alt-text = { -brand-amex } logotyp
+diners-logo-alt-text = { -brand-diner } logotyp
+discover-logo-alt-text = { -brand-discover } logotyp
+jcb-logo-alt-text = { -brand-jcb } logotyp
+mastercard-logo-alt-text = { -brand-mastercard } logotyp
+paypal-logo-alt-text = { -brand-paypal } logotyp
+unionpay-logo-alt-text = { -brand-unionpay } logotyp
+visa-logo-alt-text = { -brand-visa } logotyp
+# Alt text for generic payment card logo
+unbranded-logo-alt-text = Omärkt logotyp
 
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -80,8 +90,17 @@ next-payment-confirmation-download-button = Fortsätt till nedladdning
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Kort som slutar på { $last4 }
 
+## Layout - Subscription Management
+
+subscription-management-breadcrumb-account-home = Startsida för konton
+subscription-management-breadcrumb-subscriptions = Prenumerationer
+subscription-management-account-profile-picture = Kontots profilbild
+
 ## Page - Subscription Management
 
+subscription-management-payment-information-heading = Betalningsinformation
+subscription-management-button-add-payment-method-aria = Lägg till betalningsmetod
+subscription-management-button-add-payment-method = Lägg till
 # Page - Not Found
 page-not-found-title = Sidan hittades inte
 page-not-found-description = Sidan du begärde hittades inte. Vi har underrättats och kommer att fixa alla länkar som kan vara trasiga.

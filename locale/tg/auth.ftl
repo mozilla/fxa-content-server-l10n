@@ -362,6 +362,7 @@ postAddTwoStepAuthentication-title-2 = Шумо санҷиши ҳаққония�
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postAddTwoStepAuthentication-from-device-v2 = Шумо инро дар дастгоҳи зерин дархост кардед:
 postAddTwoStepAuthentication-action = Идоракунии ҳисоб
+postAddTwoStepAuthentication-recovery-method-codes = Шумо, инчунин, нусхаи эҳтиётии рамзҳои санҷиши ҳаққониятро ҳамчун тарзи барқарорсозии ҳисоби худ илова кардед.
 # Variables:
 #  $maskedPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
 postAddTwoStepAuthentication-recovery-method-phone = Шумо, инчунин, «{ $maskedPhoneNumber }»-ро ҳамчун рақами телефони барқарорсозии худ илова кардед.
