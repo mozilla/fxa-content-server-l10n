@@ -694,7 +694,7 @@ flow-setup-2fa-inline-complete-backup-phone = Telefonnummer zur Kontowiederherst
 # authentication codes remaining
 flow-setup-2fa-inline-complete-backup-code-info =
     { $count ->
-        [one] Code verbleibend { $count }
+        [one] { $count } Code verbleibend
        *[other] { $count } Codes verbleibend
     }
 flow-setup-2fa-inline-complete-backup-code-description = Dies ist die sicherste Wiederherstellungsmethode, wenn Sie sich mit Ihrem Mobilgerät oder der Authentifizierungs-App nicht anmelden können.
