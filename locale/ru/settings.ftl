@@ -688,6 +688,33 @@ flow-setup-2fa-backup-code-dl-heading = Сохраните резервные к
 flow-setup-2fa-backup-code-dl-save-these-codes = Храните их в месте, о котором вы будете помнить. Если у вас нет доступа к приложению для аутентификации, вам нужно ввести один из них, чтобы войти.
 flow-setup-2fa-backup-code-dl-button-continue = Продолжить
 
+##
+
+flow-setup-2fa-inline-complete-success-banner = Двухэтапная аутентификация включена
+flow-setup-2fa-inline-complete-backup-code = Резервные коды аутентификации
+flow-setup-2fa-inline-complete-backup-phone = Телефон для восстановления
+# $count (Number) - an integer representing the number of backup
+# authentication codes remaining
+flow-setup-2fa-inline-complete-backup-code-info =
+    { $count ->
+        [one] Остался { $count } код
+        [few] Осталось { $count } кода
+       *[many] Осталось { $count } кодов
+    }
+flow-setup-2fa-inline-complete-backup-code-description = Это самый безопасный метод восстановления, если вы не можете войти с помощью своего мобильного устройства или приложения для аутентификации.
+flow-setup-2fa-inline-complete-backup-phone-description = Это самый легкий способ восстановления, если вы не можете войти с помощью приложения для аутентификации.
+flow-setup-2fa-inline-complete-learn-more-link = Как это защищает ваш аккаунт
+# $serviceName (String) - the name of the product that the user will be
+# redirected to.
+flow-setup-2fa-inline-complete-continue-button = Перейти в { $serviceName }
+flow-setup-2fa-prompt-heading = Настроить двухэтапную аутентификацию
+# Variable { $serviceName } is the name of the product (e.g. Firefox Add-ons)
+# that requests two-step authentication setup.
+flow-setup-2fa-prompt-description = { $serviceName } требует настройки двухэтапной аутентификации, чтобы обеспечить безопасность вашего аккаунта.
+# "these authenticator apps" links to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+flow-setup-2fa-prompt-use-authenticator-apps = Для продолжения вы можете использовать любое из <authenticationAppsLink>этих приложений для аутентификации</authenticationAppsLink>.
+flow-setup-2fa-prompt-continue-button = Продолжить
+
 ## FlowSetupPhoneConfirmCode
 
 # verification code refers to a code sent by text message to confirm phone number ownership
@@ -726,6 +753,8 @@ header-menu-open = Закрыть меню
 header-menu-closed = Меню навигации по сайту
 header-back-to-top-link =
     .title = Наверх
+header-back-to-settings-link =
+    .title = Вернуться к настройкам { -product-mozilla-account }
 header-title-2 = { -product-mozilla-account }
 header-help = Помощь
 
@@ -1322,6 +1351,10 @@ auth-error-1067 = Опечатка в электронной почте?
 # Variables:
 #  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
 recovery-phone-number-ending-digits = Номер, заканчивающийся на { $lastFourPhoneNumber }
+# This error is shown when there is a particular kind of error at the very end of the 2FA flow
+# and the user should begin it again. A system/device clock not being synced to the internet time is
+# a common problem when using 2FA.
+two-factor-auth-setup-token-verification-error = При включении двухэтапной аутентификации произошла ошибка. Убедитесь, что часы вашего устройства настроены на автоматическое обновление, и <a>начните сначала</a>.
 oauth-error-1000 = Что-то пошло не так. Пожалуйста, закройте эту вкладку и попробуйте ещё раз.
 
 ## Cannot Create Account page

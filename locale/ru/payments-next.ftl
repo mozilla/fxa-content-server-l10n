@@ -26,6 +26,16 @@ upgrade-page-acknowledgment = Ваш план сменится сразу, и у
 auth-error-page-title = Нам не удалось вас пустить
 checkout-error-boundary-retry-button = Попробовать снова
 checkout-error-boundary-basic-error-message = Что-то пошло не так. Пожалуйста, попробуйте ещё раз или <contactSupportLink>обратитесь в службу поддержки.</contactSupportLink>
+amex-logo-alt-text = Логотип { -brand-amex }
+diners-logo-alt-text = Логотип { -brand-diner }
+discover-logo-alt-text = Логотип { -brand-discover }
+jcb-logo-alt-text = Логотип { -brand-jcb }
+mastercard-logo-alt-text = Логотип { -brand-mastercard }
+paypal-logo-alt-text = Логотип { -brand-paypal }
+unionpay-logo-alt-text = Логотип { -brand-unionpay }
+visa-logo-alt-text = Логотип { -brand-visa }
+# Alt text for generic payment card logo
+unbranded-logo-alt-text = Небрендированный логотип
 
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -80,8 +90,39 @@ next-payment-confirmation-download-button = Продолжить загрузк�
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Номер карты заканчивается на { $last4 }
 
+## Layout - Subscription Management
+
+subscription-management-breadcrumb-account-home = Домашняя страница аккаунта
+subscription-management-breadcrumb-subscriptions = Подписки
+subscription-management-account-profile-picture = Фото профиля аккаунта
+
 ## Page - Subscription Management
 
+subscription-management-payment-information-heading = Платежная информация
+subscription-management-button-add-payment-method-aria = Добавить способ оплаты
+subscription-management-button-add-payment-method = Добавить
+subscription-management-button-change-payment-method-aria = Изменить способ оплаты
+subscription-management-button-change-payment-method = Изменить
+# $last4 (String) - Last four numbers of credit card
+subscription-management-card-ending-in = Номер карты заканчивается на { $last4 }
+# $expirationDate (Date) - Payment card's expiration date
+subscription-management-card-expires-date = Срок действия истекает { $expirationDate }
+subscription-management-subscriptions-heading = Подписки
+subscription-management-your-subscriptions-aria = Ваши подписки
+subscription-management-no-subscriptions = У вас пока нет подписок
+subscription-management-button-cancel-subscription-aria = Отменить подписку
+subscription-management-button-cancel-subscription = Отменить
+subscription-management-your-apple-iap-subscriptions-aria = Ваши подписки в приложении { -brand-apple }
+subscription-management-apple-in-app-purchase = { -brand-apple }: Покупка в приложении
+subscription-management-your-google-iap-subscriptions-aria = Ваши подписки в приложении { -brand-google }
+subscription-management-google-in-app-purchase = { -brand-google }: Покупка в приложении
+# $date (String) - Date of next bill
+subscription-management-iap-sub-next-bill = Следующий платеж { $date }
+# $date (String) - Date of In-App purchase expires
+subscription-management-iap-sub-expires-on = Истекает { $date }
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscription-management-button-manage-subscription-aria = Управление подпиской на { $productName }
+subscription-management-button-manage-subscription = Управление
 # Page - Not Found
 page-not-found-title = Страница не найдена
 page-not-found-description = Запрошенная страница не найдена. Мы уже получили уведомление и исправим все возможные ошибки в ссылках.
