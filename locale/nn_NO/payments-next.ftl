@@ -88,8 +88,29 @@ next-payment-confirmation-download-button = Hald fram til nedlasting
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Kortet sluttar på { $last4 }
 
+## Layout - Subscription Management
+
+subscription-management-breadcrumb-account-home = Startside for kontoen
+subscription-management-breadcrumb-subscriptions = Abonnement
+subscription-management-account-profile-picture = Kontoprofilbilde
+
 ## Page - Subscription Management
 
+subscription-management-payment-information-heading = Betalingsinformasjon
+subscription-management-button-add-payment-method-aria = Legg til betalingsinformasjon
+subscription-management-button-add-payment-method = Legg til
+subscription-management-button-change-payment-method-aria = Endre betalingsmåte
+subscription-management-button-change-payment-method = Endre
+# $last4 (String) - Last four numbers of credit card
+subscription-management-card-ending-in = Kortet sluttar på { $last4 }
+# $expirationDate (Date) - Payment card's expiration date
+subscription-management-card-expires-date = Går ut { $expirationDate }
+subscription-management-subscriptions-heading = Abonnement
+subscription-management-your-subscriptions-aria = Ditt abonnement
+subscription-management-no-subscriptions = Du har ikkje noko abonnement enno
+subscription-management-button-cancel-subscription-aria = Avbryt abonnement
+subscription-management-button-cancel-subscription = Avbryt
+subscription-management-button-manage-subscription = Handsam
 # Page - Not Found
 page-not-found-title = Fann ikkje sida
 page-not-found-description = Fann ikkje sida du spurde etter. Vi er varsla og vil reparere lenker som ikkje fungerer.

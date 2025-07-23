@@ -687,6 +687,13 @@ flow-setup-2fa-backup-code-dl-heading = Lagre reserve-autentiseringskodar
 flow-setup-2fa-backup-code-dl-save-these-codes = Oppbevar desse på ein stad du hugsar. Om du ikkje har tilgang til autentiseringsappen din, må du oppgi ein for å logge på.
 flow-setup-2fa-backup-code-dl-button-continue = Hald fram
 
+##
+
+flow-setup-2fa-inline-complete-success-banner = Tostegs-autentisering aktivert
+flow-setup-2fa-inline-complete-backup-code = Reserve-autentiseringskodar
+flow-setup-2fa-inline-complete-backup-phone = Gjenopprettingstelefon
+flow-setup-2fa-prompt-continue-button = Hald fram
+
 ## FlowSetupPhoneConfirmCode
 
 # verification code refers to a code sent by text message to confirm phone number ownership
