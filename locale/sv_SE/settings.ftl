@@ -687,6 +687,20 @@ flow-setup-2fa-backup-code-dl-heading = Spara reservautentiseringskoder
 flow-setup-2fa-backup-code-dl-save-these-codes = Förvara dessa på en plats du kommer ihåg. Om du inte har åtkomst till din autentiseringsapp måste du ange en för att logga in.
 flow-setup-2fa-backup-code-dl-button-continue = Fortsätt
 
+##
+
+flow-setup-2fa-inline-complete-success-banner = Tvåstegsautentisering aktiverad
+flow-setup-2fa-inline-complete-backup-phone = Telefon för återställning
+flow-setup-2fa-inline-complete-learn-more-link = Hur detta skyddar ditt konto
+# $serviceName (String) - the name of the product that the user will be
+# redirected to.
+flow-setup-2fa-inline-complete-continue-button = Fortsätt till { $serviceName }
+flow-setup-2fa-prompt-heading = Ställ in tvåstegsautentisering
+# Variable { $serviceName } is the name of the product (e.g. Firefox Add-ons)
+# that requests two-step authentication setup.
+flow-setup-2fa-prompt-description = { $serviceName } kräver att du konfigurerar tvåstegsautentisering för att skydda ditt konto.
+flow-setup-2fa-prompt-continue-button = Fortsätt
+
 ## FlowSetupPhoneConfirmCode
 
 # verification code refers to a code sent by text message to confirm phone number ownership
