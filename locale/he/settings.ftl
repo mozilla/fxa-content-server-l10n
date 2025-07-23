@@ -550,6 +550,7 @@ dc-heading = איסוף ושימוש בנתונים
 dc-subheader-moz-accounts = { -product-mozilla-accounts }
 dc-subheader-ff-browser = דפדפן { -brand-firefox }
 dc-subheader-content-2 = לאפשר ל{ -product-mozilla-accounts } לשלוח נתונים טכניים אל { -brand-mozilla }.
+dc-subheader-ff-content = כדי לסקור או לעדכן את הגדרות הנתונים הטכניים והאינטראקטיביים של דפדפן ה־{ -brand-firefox } שלך, יש לפתוח את הגדרות { -brand-firefox } ולנווט אל פרטיות ואבטחה.
 dc-opt-out-success-2 = ביטול ההצטרפות הצליח. { -product-mozilla-accounts } לא ישלחו נתונים טכניים אל { -brand-mozilla }.
 dc-opt-in-success-2 = תודה! שיתוף הנתונים האלה עוזר לנו לשפר את { -product-mozilla-accounts }.
 dc-opt-in-out-error-2 = הייתה בעיה בשינוי העדפת איסוף הנתונים שלך, עמך הסליחה
@@ -662,6 +663,19 @@ flow-setup-2fa-backup-code-confirm-button-finish = סיום
 
 flow-setup-2fa-backup-code-dl-save-these-codes = יש לשמור אותם במקום שקל לזכור. אם אין לך גישה ליישומון המאמת שלך, יהיה עליך להזין אחד מהם כדי להיכנס.
 flow-setup-2fa-backup-code-dl-button-continue = המשך
+
+##
+
+flow-setup-2fa-inline-complete-success-banner = אימות דו־שלבי הופעל
+flow-setup-2fa-inline-complete-backup-phone = טלפון לשחזור
+# $count (Number) - an integer representing the number of backup
+# authentication codes remaining
+flow-setup-2fa-inline-complete-backup-code-info =
+    { $count ->
+        [one] נותר קוד אחד
+       *[other] נותרו { $count } קודים
+    }
+flow-setup-2fa-inline-complete-backup-code-description = זוהי שיטת השחזור הבטוחה ביותר אם אין באפשרותך להתחבר באמצעות המכשיר הנייד או היישומון המאמת שלך.
 
 ## FlowSetupPhoneConfirmCode
 
@@ -1240,6 +1254,10 @@ auth-error-1067 = טעות בהקלדת כתובת הדוא״ל?
 # Variables:
 #  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
 recovery-phone-number-ending-digits = מספר המסתיים ב־{ $lastFourPhoneNumber }
+# This error is shown when there is a particular kind of error at the very end of the 2FA flow
+# and the user should begin it again. A system/device clock not being synced to the internet time is
+# a common problem when using 2FA.
+two-factor-auth-setup-token-verification-error = אירעה בעיה בהפעלת אימות דו־שלבי. יש לוודא ששעון המכשיר שלך מוגדר לעדכון אוטומטי ו<a>להתחיל מחדש</a>.
 oauth-error-1000 = משהו השתבש. נא לסגור לשונית זו ולנסות שוב.
 
 ## Cannot Create Account page

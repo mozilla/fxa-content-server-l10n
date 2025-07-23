@@ -179,6 +179,7 @@ next-new-user-card-title = נא להכניס את פרטי הכרטיס שלך
 next-plan-details-header = פרטי מוצר
 next-plan-details-tax = מיסים ועמלות
 next-plan-details-total-label = סה״כ
+purchase-details-subtotal-label = סכום ביניים
 # "Credit applied" refers to account credit used to reduce the amount due on the invoice
 purchase-details-credit-applied-label = זיכוי שהוחל
 # "Total due" is the total that the customer owes after all credits, discounts, and taxes have been applied
