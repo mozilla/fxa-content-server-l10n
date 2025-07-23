@@ -112,9 +112,9 @@ subscription-management-your-subscriptions-aria = Ditt abonnement
 subscription-management-no-subscriptions = Du har ikkje noko abonnement enno
 subscription-management-button-cancel-subscription-aria = Avbryt abonnement
 subscription-management-button-cancel-subscription = Avbryt
-subscription-management-your-apple-iap-subscriptions-aria = Dine { -brand-apple }-abonnement i appen
+subscription-management-your-apple-iap-subscriptions-aria = Dine { -brand-apple } kjøp i app-abonnement
 subscription-management-apple-in-app-purchase = { -brand-apple }: Kjøp i appen
-subscription-management-your-google-iap-subscriptions-aria = Dine { -brand-google }-abonnement i appen
+subscription-management-your-google-iap-subscriptions-aria = Dine { -brand-google } kjøp i app-abonnement
 subscription-management-google-in-app-purchase = { -brand-google }: Kjøp i appen
 # $date (String) - Date of next bill
 subscription-management-iap-sub-next-bill = Neste fakturering den { $date }
