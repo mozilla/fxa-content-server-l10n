@@ -495,7 +495,7 @@ pay-update-manage-btn = Gjestìs
 
 sub-next-bill = Prossim adebit al/ai { $date }
 sub-next-bill-due-date = La prossime fature e scjât ai { $date }
-sub-expires-on = Al scjat al/ai { $date }
+sub-expires-on = Al scjât al/ai { $date }
 
 ## Routes - Subscription - PaymentUpdate
 

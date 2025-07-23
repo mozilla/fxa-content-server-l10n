@@ -118,6 +118,8 @@ subscription-management-your-google-iap-subscriptions-aria = I tiei abonaments t
 subscription-management-google-in-app-purchase = { -brand-google }: compre te aplicazion
 # $date (String) - Date of next bill
 subscription-management-iap-sub-next-bill = Prossim adebit al/ai { $date }
+# $date (String) - Date of In-App purchase expires
+subscription-management-iap-sub-expires-on = Al scjât al/ai { $date }
 # Page - Not Found
 page-not-found-title = Pagjine no cjatade
 page-not-found-description = La pagjine domandade no je stade cjatade. Nus è rivade la segnalazion dal probleme e o comedarìn i eventuâi colegaments che no funzionin.
