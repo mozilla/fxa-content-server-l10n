@@ -120,6 +120,9 @@ subscription-management-google-in-app-purchase = { -brand-google }: compre te ap
 subscription-management-iap-sub-next-bill = Prossim adebit al/ai { $date }
 # $date (String) - Date of In-App purchase expires
 subscription-management-iap-sub-expires-on = Al scjât al/ai { $date }
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscription-management-button-manage-subscription-aria = Gjestìs abonaments par { $productName }
+subscription-management-button-manage-subscription = Gjestìs
 # Page - Not Found
 page-not-found-title = Pagjine no cjatade
 page-not-found-description = La pagjine domandade no je stade cjatade. Nus è rivade la segnalazion dal probleme e o comedarìn i eventuâi colegaments che no funzionin.
@@ -189,6 +192,13 @@ next-plan-details-header = Detais dal prodot
 next-plan-details-list-price = Presit di catalic
 next-plan-details-tax = Tassis e comissions
 next-plan-details-total-label = Totâl
+# "Unused time" refers to the remaining value of the current subscription that hasn't been used yet
+purchase-details-unused-time-label = Credit dal timp che no tu âs doprât
+purchase-details-subtotal-label = Totâl parziâl
+# "Credit applied" refers to account credit used to reduce the amount due on the invoice
+purchase-details-credit-applied-label = Credit aplicât
+# "Total due" is the total that the customer owes after all credits, discounts, and taxes have been applied
+purchase-details-total-due-label = Totâl dovût
 next-plan-details-hide-button = Plate detais
 next-plan-details-show-button = Mostre detais
 next-coupon-success = Il to plan si rinovarà in automatic al presit di catalic.
@@ -266,6 +276,9 @@ upgrade-purchase-details-current-plan-label = Plan atuâl
 upgrade-purchase-details-new-plan-label = Gnûf plan
 upgrade-purchase-details-promo-code = Codiç promozionâl
 upgrade-purchase-details-tax-label = Tassis e comissions
+# "Credit issued to account" refers to credit that will be added to the account balance that will be used toward future invoices
+upgrade-purchase-details-credit-to-account = Credit emetût sul account
+upgrade-purchase-details-credit-will-be-applied = Il credit al vignarà aplicât sul to account e doprât pes prossimis faturis.
 
 ## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences

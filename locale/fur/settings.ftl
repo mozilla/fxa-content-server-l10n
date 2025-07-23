@@ -685,6 +685,10 @@ flow-setup-2fa-backup-code-dl-heading = Salve i codiçs di autenticazion di back
 flow-setup-2fa-backup-code-dl-save-these-codes = Tegniju di cont intun puest là che tu ti impensis. Se no tu rivis a doprâ la tô aplicazion di autenticazion, tu scugnarâs inserînt un jentrâ.
 flow-setup-2fa-backup-code-dl-button-continue = Continue
 
+##
+
+flow-setup-2fa-inline-complete-success-banner = Autenticazion in doi passaçs ativade
+
 ## FlowSetupPhoneConfirmCode
 
 # verification code refers to a code sent by text message to confirm phone number ownership
