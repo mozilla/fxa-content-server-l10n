@@ -29,7 +29,7 @@ msgstr "Kontoen er nå slettet"
 
 #: .es5/views/inline_totp_setup.js:128
 msgid "Use the code %(code)s to set up two-step authentication in supported applications."
-msgstr "Bruk koden %(code)s for å sette opp totrinns-verifisering i støttede apper."
+msgstr "Bruk koden %(code)s for å sette opp totrinns-autentisering i støttede apper."
 
 #: .es5/views/permissions.js:29
 msgid "%(permissionName)s (required)"
@@ -182,7 +182,7 @@ msgstr "Firefox reserve-autentiseringskoder"
 
 #: .es5/views/mixins/recovery-codes-mixin.js:124
 msgid "Two-step authentication enabled"
-msgstr "Totrinns-verifisering aktivert"
+msgstr "Totrinns-autentisering aktivert"
 
 #: .es5/views/mixins/recovery-key-mixin.js:28
 msgid "Firefox Account Recovery Key"
@@ -474,7 +474,7 @@ msgstr "Ugyldig kontogjenopprettingsnøkkel"
 
 #: .es5/lib/auth-errors.js:246 .es5/lib/auth-errors.js:254
 msgid "This request requires two step authentication enabled on your account."
-msgstr "Denne forespørselen krever totrinns-verifisering aktivert på kontoen din."
+msgstr "Denne forespørselen krever totrinns-autentisering aktivert på kontoen din."
 
 #: .es5/lib/auth-errors.js:250
 msgid "Failed due to a conflicting request, please try again."
@@ -1244,7 +1244,7 @@ msgstr "Reserve-autentiseringskode"
 
 #: .es5/templates/inline_totp_setup.mustache:1
 msgid "Enable two-step authentication"
-msgstr "Slå på totrinns-verifisering"
+msgstr "Slå på totrinns-autentisering"
 
 #: .es5/templates/inline_totp_setup.mustache:3
 msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps</a>."
@@ -1426,7 +1426,7 @@ msgstr "Skriv inn reserve-autentiseringskode"
 
 #: .es5/templates/sign_in_recovery_code.mustache:3
 msgid "Please enter a backup authentication code that was provided to you during two step authentication setup."
-msgstr "Skriv inn en reserve-autentiseringskode som du fikk under oppsettet av totrinns-verifisering."
+msgstr "Skriv inn en reserve-autentiseringskode som du fikk under oppsettet av totrinns-autentisering."
 
 #: .es5/templates/sign_in_recovery_code.mustache:4
 msgid "Enter 10-digit backup authentication code"

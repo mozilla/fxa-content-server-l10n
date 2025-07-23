@@ -169,7 +169,7 @@ automated-email-reset-pwd-two-factor =
 # Followed by link to https://accounts.firefox.com/reset_password
 automated-email-reset-pwd-plaintext-v3 = Hvis du ikke utførte dette, kan du tilbakestille passordet ditt med en gang på:
 # Followed by link to https://accounts.firefox.com/settings#two-step-authentication
-automated-email-reset-two-factor-plaintext = Tilbakestill også totrinnsautentisering på:
+automated-email-reset-two-factor-plaintext = Tilbakestill også totrinns-autentisering på:
 brand-banner-message = Visste du at vi endret navnet vårt fra { -product-firefox-accounts } til { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Les mer</a>
 cancellationSurvey = Hjelp oss med å forbedre tjenestene våre ved å være med i denne <a data-l10n-name="cancellationSurveyUrl">korte undersøkelsen</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
@@ -425,7 +425,7 @@ postAddRecoveryPhone-how-protect-plaintext = Slik beskytter dette kontoen din:
 postAddRecoveryPhone-enabled-device = Du har slått det på fra:
 postAddRecoveryPhone-action = Behandle konto
 postAddTwoStepAuthentication-preview = Kontoen din er beskyttet
-postAddTwoStepAuthentication-subject-v3 = Totrinns-verifisering er på
+postAddTwoStepAuthentication-subject-v3 = Totrinns-autentisering er på
 postAddTwoStepAuthentication-title-2 = Du har slått på totrinns-verifisering
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postAddTwoStepAuthentication-from-device-v2 = Du ba om dette fra:
@@ -449,7 +449,7 @@ postChangePrimary-title = Ny primær e-post
 postChangePrimary-description-2 = Du har endret den primære e-postadressen din til { $email }. Denne adressen benytter du som brukernavn for å logge inn på din { -product-mozilla-account }, samt for å ta imot sikkerhetsvarsler og bekreftelser på innlogginger.
 postChangePrimary-action = Behandle konto
 postChangeRecoveryPhone-subject = Gjenopprettingstelefon oppdatert
-postChangeRecoveryPhone-preview = Konto beskyttet av totrinns-verifisering
+postChangeRecoveryPhone-preview = Konto beskyttet av totrinns-autentisering
 postChangeRecoveryPhone-title = Du endret gjenopprettingstelefonen din
 postChangeRecoveryPhone-description = Du har nå et nytt telefonnummer for gjenoppretting. Det forrige telefonnummeret ditt ble slettet.
 postChangeRecoveryPhone-requested-device = Du ba om det fra:
@@ -471,9 +471,9 @@ postRemoveAccountRecovery-body-part1 = Kontogjenopprettingsnøkkelen din kreves 
 postRemoveAccountRecovery-body-part2 = Hvis du ikke allerede har gjort det, kan du opprette en ny kontogjenopprettingsnøkkel i kontoinnstillingene dine for å forhindre at du mister lagrede passord, bokmerker, nettleserhistorikk og mer.
 postRemoveAccountRecovery-action = Behandle konto
 postRemoveRecoveryPhone-subject = Gjenopprettingstelefonen er fjernet
-postRemoveRecoveryPhone-preview = Konto beskyttet av totrinns-verifisering
+postRemoveRecoveryPhone-preview = Konto beskyttet av totrinns-autentisering
 postRemoveRecoveryPhone-title = Gjenopprettingstelefonen er fjernet
-postRemoveRecoveryPhone-description-v2 = Telefonnummeret ditt for gjenoppretting er fjernet fra innstillingene for totrinns-verifisering.
+postRemoveRecoveryPhone-description-v2 = Telefonnummeret ditt for gjenoppretting er fjernet fra innstillingene for totrinns-autentisering.
 postRemoveRecoveryPhone-description-extra = Du kan fortsatt bruke reserve-autentiseringskodene dine til å logge på hvis du ikke kan bruke autentiseringsappen din.
 postRemoveRecoveryPhone-requested-device = Du ba om det fra:
 postRemoveSecondary-subject = Sekundær e-postadesse fjernet
