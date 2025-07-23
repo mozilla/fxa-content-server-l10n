@@ -1346,6 +1346,10 @@ auth-error-1067 = Błąd w adresie e-mail?
 # Variables:
 #  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
 recovery-phone-number-ending-digits = Numer kończący się na { $lastFourPhoneNumber }
+# This error is shown when there is a particular kind of error at the very end of the 2FA flow
+# and the user should begin it again. A system/device clock not being synced to the internet time is
+# a common problem when using 2FA.
+two-factor-auth-setup-token-verification-error = Wystąpił problem z włączeniem uwierzytelniania dwuetapowego. Sprawdź, czy zegar urządzenia jest ustawiony na automatyczną aktualizację i <a>rozpocznij od nowa</a>.
 oauth-error-1000 = Coś się nie powiodło. Proszę zamknąć tę kartę i spróbować ponownie.
 
 ## Cannot Create Account page

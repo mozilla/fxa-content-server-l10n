@@ -90,6 +90,7 @@ next-payment-confirmation-cc-card-ending-in = Karta kończąca się na { $last4 
 
 ## Layout - Subscription Management
 
+subscription-management-breadcrumb-account-home = Strona główna konta
 subscription-management-breadcrumb-subscriptions = Subskrypcje
 subscription-management-account-profile-picture = Zdjęcie profilowe konta
 
