@@ -692,6 +692,33 @@ flow-setup-2fa-backup-code-dl-heading = Uložit záložní ověřovací kódy
 flow-setup-2fa-backup-code-dl-save-these-codes = Uložte si je na místo, které si budete pamatovat. Pokud nemáte přístup ke své ověřovací aplikaci, budete ho muset před přihlášením zadat.
 flow-setup-2fa-backup-code-dl-button-continue = Pokračovat
 
+##
+
+flow-setup-2fa-inline-complete-success-banner = Dvoufázové ověřování je zapnuto
+flow-setup-2fa-inline-complete-backup-code = Záložní ověřovací kódy
+flow-setup-2fa-inline-complete-backup-phone = Telefon pro obnovení
+# $count (Number) - an integer representing the number of backup
+# authentication codes remaining
+flow-setup-2fa-inline-complete-backup-code-info =
+    { $count ->
+        [one] Zbývá { $count } kód
+        [few] Zbývá { $count } kódů
+       *[other] Zbývá { $count } kódů
+    }
+flow-setup-2fa-inline-complete-backup-code-description = Toto je nejbezpečnější způsob obnovení, pokud se nemůžete přihlásit pomocí svého mobilního zařízení nebo aplikace pro ověřování.
+flow-setup-2fa-inline-complete-backup-phone-description = Toto je nejjednodušší způsob obnovení, pokud se nemůžete přihlásit pomocí své ověřovací aplikace.
+flow-setup-2fa-inline-complete-learn-more-link = Jak tato funkce chrání váš účet
+# $serviceName (String) - the name of the product that the user will be
+# redirected to.
+flow-setup-2fa-inline-complete-continue-button = Pokračovat do služby { $serviceName }
+flow-setup-2fa-prompt-heading = Nastavení dvoufázového ověřování
+# Variable { $serviceName } is the name of the product (e.g. Firefox Add-ons)
+# that requests two-step authentication setup.
+flow-setup-2fa-prompt-description = { $serviceName } vyžaduje, abyste si nastavili dvoufázové ověřování, aby byl váš účet v bezpečí.
+# "these authenticator apps" links to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+flow-setup-2fa-prompt-use-authenticator-apps = Pro pokračování můžete použít kteroukoliv z <authenticationAppsLink>těchto ověřovacích aplikací</authenticationAppsLink>.
+flow-setup-2fa-prompt-continue-button = Pokračovat
+
 ## FlowSetupPhoneConfirmCode
 
 # verification code refers to a code sent by text message to confirm phone number ownership
@@ -730,6 +757,8 @@ header-menu-open = Zavřít nabídku
 header-menu-closed = Nabídka navigace na webu
 header-back-to-top-link =
     .title = Zpět nahoru
+header-back-to-settings-link =
+    .title = Zpět na nastavení aplikace { -product-mozilla-account }
 header-title-2 = { -product-mozilla-account }
 header-help = Nápověda
 
@@ -1318,6 +1347,10 @@ auth-error-1067 = Chybně zadaný e-mail?
 # Variables:
 #  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
 recovery-phone-number-ending-digits = Číslo končící na { $lastFourPhoneNumber }
+# This error is shown when there is a particular kind of error at the very end of the 2FA flow
+# and the user should begin it again. A system/device clock not being synced to the internet time is
+# a common problem when using 2FA.
+two-factor-auth-setup-token-verification-error = Nepodařilo se zapnout dvoufázové ověřování. Zkontrolujte, zda jsou hodiny na vašem zařízení nastaveny na automatickou aktualizaci, a <a>začněte znovu</a>.
 oauth-error-1000 = Nastala nespecifikovaná chyba. Zavřete prosím tento panel a zkuste to znovu.
 
 ## Cannot Create Account page

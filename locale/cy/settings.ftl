@@ -697,6 +697,36 @@ flow-setup-2fa-backup-code-dl-heading = Cadwch eich codau dilysu wrth gefn
 flow-setup-2fa-backup-code-dl-save-these-codes = Cadwch rhain mewn lle byddwch yn ei gofio. Os nad oes gennych chi fynediad i'ch ap dilysu bydd angen i chi roi un i fewngofnodi.
 flow-setup-2fa-backup-code-dl-button-continue = Parhau
 
+##
+
+flow-setup-2fa-inline-complete-success-banner = Mae dilysu dau gam wedi ei alluogi
+flow-setup-2fa-inline-complete-backup-code = Codau dilysu wrth gefn
+flow-setup-2fa-inline-complete-backup-phone = Ffôn adfer
+# $count (Number) - an integer representing the number of backup
+# authentication codes remaining
+flow-setup-2fa-inline-complete-backup-code-info =
+    { $count ->
+        [one] { $count } cod yn weddill
+        [zero] { $count } cod yn weddill
+        [two] { $count } cod yn weddill
+        [few] { $count } cod yn weddill
+        [many] { $count } cod yn weddill
+       *[other] { $count } cod yn weddill
+    }
+flow-setup-2fa-inline-complete-backup-code-description = Dyma'r dull adfer mwyaf diogel os na allwch fewngofnodi gyda'ch dyfais symudol neu ap dilysu.
+flow-setup-2fa-inline-complete-backup-phone-description = Dyma'r dull adfer hawsaf os na allwch fewngofnodi gyda'ch app dilysu.
+flow-setup-2fa-inline-complete-learn-more-link = Sut mae hyn yn diogelu eich cyfrif
+# $serviceName (String) - the name of the product that the user will be
+# redirected to.
+flow-setup-2fa-inline-complete-continue-button = Parhau i { $serviceName }
+flow-setup-2fa-prompt-heading = Sefydlu dilysu dau gam
+# Variable { $serviceName } is the name of the product (e.g. Firefox Add-ons)
+# that requests two-step authentication setup.
+flow-setup-2fa-prompt-description = Mae { $serviceName } yn gofyn i chi sefydlu dilysiad dau gam i gadw'ch cyfrif yn ddiogel.
+# "these authenticator apps" links to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+flow-setup-2fa-prompt-use-authenticator-apps = Gallwch ddefnyddio unrhyw un o <authenticationAppsLink>yr apiau dilysu hyn</authenticationAppsLink> i symud ymlaen.
+flow-setup-2fa-prompt-continue-button = Parhau
+
 ## FlowSetupPhoneConfirmCode
 
 # verification code refers to a code sent by text message to confirm phone number ownership
@@ -735,6 +765,8 @@ header-menu-open = Cau'r ddewislen
 header-menu-closed = Dewislen llywio'r wefan
 header-back-to-top-link =
     .title = Nôl i'r brig
+header-back-to-settings-link =
+    .title = Yn ôl i osodiadau { -product-mozilla-account }
 header-title-2 = { -product-mozilla-account }
 header-help = Cymorth
 
@@ -1330,6 +1362,10 @@ auth-error-1067 = Camdeipio'r e-bost?
 # Variables:
 #  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
 recovery-phone-number-ending-digits = Rhif sy'n gorffen gyda { $lastFourPhoneNumber }
+# This error is shown when there is a particular kind of error at the very end of the 2FA flow
+# and the user should begin it again. A system/device clock not being synced to the internet time is
+# a common problem when using 2FA.
+two-factor-auth-setup-token-verification-error = Bu problem wrth alluogi dilysu dau gam. Gwiriwch fod cloc eich dyfais wedi'i osod i ddiweddaru'n awtomatig a <a>cychwyn eto</a>.
 oauth-error-1000 = Aeth rhywbeth o'i le. Caewch y tab hwn a cheisio eto.
 
 ## Cannot Create Account page

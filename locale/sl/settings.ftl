@@ -693,6 +693,34 @@ flow-setup-2fa-backup-code-dl-heading = Shrani rezervne overitvene kode
 flow-setup-2fa-backup-code-dl-save-these-codes = Shranite jih na mestu, ki si jih boste zapomnili. Če nimate dostopa do aplikacije za overitev, jo boste morali za prijavo vnesti.
 flow-setup-2fa-backup-code-dl-button-continue = Nadaljuj
 
+##
+
+flow-setup-2fa-inline-complete-success-banner = Overitev v dveh korakih je omogočena
+flow-setup-2fa-inline-complete-backup-code = Rezervne overitvene kode
+flow-setup-2fa-inline-complete-backup-phone = Telefonska številka za obnovitev
+# $count (Number) - an integer representing the number of backup
+# authentication codes remaining
+flow-setup-2fa-inline-complete-backup-code-info =
+    { $count ->
+        [one] Preostala je koda { $count }
+        [two] Ostaja še { $count } kod
+        [few] Ostaja še { $count } kod
+       *[other] Ostaja še { $count } kod
+    }
+flow-setup-2fa-inline-complete-backup-code-description = To je najvarnejša metoda obnovitve, če se ne morete prijaviti z mobilno napravo ali aplikacijo za overitev.
+flow-setup-2fa-inline-complete-backup-phone-description = To je najpreprostejši način obnovitve, če se ne morete prijaviti z aplikacijo za overitev.
+flow-setup-2fa-inline-complete-learn-more-link = Kako to ščiti vaš račun
+# $serviceName (String) - the name of the product that the user will be
+# redirected to.
+flow-setup-2fa-inline-complete-continue-button = Nadaljuj na { $serviceName }
+flow-setup-2fa-prompt-heading = Nastavite overitev v dveh korakih
+# Variable { $serviceName } is the name of the product (e.g. Firefox Add-ons)
+# that requests two-step authentication setup.
+flow-setup-2fa-prompt-description = { $serviceName } zahteva, da nastavite overjanje v dveh korakih za varnost računa.
+# "these authenticator apps" links to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+flow-setup-2fa-prompt-use-authenticator-apps = Za nadaljevanje lahko uporabite katerokoli od <authenticationAppsLink>aplikacij za overitev</authenticationAppsLink>.
+flow-setup-2fa-prompt-continue-button = Nadaljuj
+
 ## FlowSetupPhoneConfirmCode
 
 # verification code refers to a code sent by text message to confirm phone number ownership
@@ -731,6 +759,8 @@ header-menu-open = Zapri meni
 header-menu-closed = Meni za krmarjenje po strani
 header-back-to-top-link =
     .title = Nazaj na vrh
+header-back-to-settings-link =
+    .title = Nazaj na nastavitve { -product-mozilla-account }
 header-title-2 = { -product-mozilla-account }
 header-help = Pomoč
 
@@ -1326,6 +1356,10 @@ auth-error-1067 = Napačen e-poštni naslov?
 # Variables:
 #  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
 recovery-phone-number-ending-digits = Številka, ki se končuje na { $lastFourPhoneNumber }
+# This error is shown when there is a particular kind of error at the very end of the 2FA flow
+# and the user should begin it again. A system/device clock not being synced to the internet time is
+# a common problem when using 2FA.
+two-factor-auth-setup-token-verification-error = Pri omogočanju overjanja v dveh korakih je prišlo do težave. Preverite, ali je ura vaše naprave nastavljena na samodejno posodabljanje in <a>začnite znova</a>.
 oauth-error-1000 = Nekaj je šlo narobe. Zaprite ta zavihek in poskusite znova.
 
 ## Cannot Create Account page

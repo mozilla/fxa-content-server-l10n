@@ -28,6 +28,16 @@ upgrade-page-acknowledgment =
 auth-error-page-title = Nem tudtuk bejelentkeztetni
 checkout-error-boundary-retry-button = Próbálja újra
 checkout-error-boundary-basic-error-message = Hiba történt. Próbálja újra, vagy <contactSupportLink>lépjen kapcsolatba a támogatással.</contactSupportLink>
+amex-logo-alt-text = { -brand-amex } logó
+diners-logo-alt-text = { -brand-diner } logó
+discover-logo-alt-text = { -brand-discover } logó
+jcb-logo-alt-text = { -brand-jcb } logó
+mastercard-logo-alt-text = { -brand-mastercard } logó
+paypal-logo-alt-text = { -brand-paypal } logó
+unionpay-logo-alt-text = { -brand-unionpay } logó
+visa-logo-alt-text = { -brand-visa } logó
+# Alt text for generic payment card logo
+unbranded-logo-alt-text = Márka nélküli logó
 
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -82,8 +92,39 @@ next-payment-confirmation-download-button = Tovább a letöltéshez
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = { $last4 } végződésű kártya
 
+## Layout - Subscription Management
+
+subscription-management-breadcrumb-account-home = Fiók kezdőlapja
+subscription-management-breadcrumb-subscriptions = Előfizetések
+subscription-management-account-profile-picture = Fiók profilképe
+
 ## Page - Subscription Management
 
+subscription-management-payment-information-heading = Fizetési információk
+subscription-management-button-add-payment-method-aria = Fizetési mód hozzáadása
+subscription-management-button-add-payment-method = Hozzáadás
+subscription-management-button-change-payment-method-aria = Fizetési mód módosítása
+subscription-management-button-change-payment-method = Módosítás
+# $last4 (String) - Last four numbers of credit card
+subscription-management-card-ending-in = { $last4 } végződésű kártya
+# $expirationDate (Date) - Payment card's expiration date
+subscription-management-card-expires-date = Lejárat: { $expirationDate }
+subscription-management-subscriptions-heading = Előfizetések
+subscription-management-your-subscriptions-aria = Az előfizetései
+subscription-management-no-subscriptions = Még nincs előfizetése
+subscription-management-button-cancel-subscription-aria = Előfizetés lemondása
+subscription-management-button-cancel-subscription = Mégse
+subscription-management-your-apple-iap-subscriptions-aria = { -brand-apple } alkalmazásbeli előfizetései
+subscription-management-apple-in-app-purchase = { -brand-apple }: Alkalmazáson belüli vásárlás
+subscription-management-your-google-iap-subscriptions-aria = { -brand-google } alkalmazásbeli előfizetései
+subscription-management-google-in-app-purchase = { -brand-google }: Alkalmazáson belüli vásárlás
+# $date (String) - Date of next bill
+subscription-management-iap-sub-next-bill = Következő számlázás: { $date }
+# $date (String) - Date of In-App purchase expires
+subscription-management-iap-sub-expires-on = Lejár: { $date }
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscription-management-button-manage-subscription-aria = { $productName } előfizetés kezelése
+subscription-management-button-manage-subscription = Kezelés
 # Page - Not Found
 page-not-found-title = Az oldal nem található
 page-not-found-description = A kért oldal nem található. Értesítést kaptunk, és kijavítunk minden, esetleg hibás hivatkozást.

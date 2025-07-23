@@ -331,6 +331,13 @@
        *[nom] Stripe
     }
     .gender = masculine
+-brand-amex = American Express
+-brand-diners = Diners Club
+-brand-discover = Discover
+-brand-jcb = JCB
+-brand-mastercard = Mastercard
+-brand-unionpay = UnionPay
+-brand-visa = Visa
 -app-store =
     { $case ->
         [gen] App Storu

@@ -26,6 +26,16 @@ upgrade-page-acknowledgment = Vaš načrt se bo takoj spremenil in danes vam bom
 auth-error-page-title = Nismo vas mogli prijaviti
 checkout-error-boundary-retry-button = Poskusi znova
 checkout-error-boundary-basic-error-message = Nekaj je šlo narobe. Poskusite znova ali <contactSupportLink>se obrnite na podporo</contactSupportLink>.
+amex-logo-alt-text = Logotip { -brand-amex }
+diners-logo-alt-text = Logotip { -brand-diner }
+discover-logo-alt-text = Logotip { -brand-discover }
+jcb-logo-alt-text = Logotip { -brand-jcb }
+mastercard-logo-alt-text = Logotip { -brand-mastercard }
+paypal-logo-alt-text = Logotip { -brand-paypal }
+unionpay-logo-alt-text = Logotip { -brand-unionpay }
+visa-logo-alt-text = Logotip { -brand-visa }
+# Alt text for generic payment card logo
+unbranded-logo-alt-text = Logotip brez blagovne znamke
 
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -80,8 +90,39 @@ next-payment-confirmation-download-button = Nadaljuj prenos
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Kartica, ki se končuje s { $last4 }
 
+## Layout - Subscription Management
+
+subscription-management-breadcrumb-account-home = Domača stran računa
+subscription-management-breadcrumb-subscriptions = Naročnine
+subscription-management-account-profile-picture = Profilna slika računa
+
 ## Page - Subscription Management
 
+subscription-management-payment-information-heading = Podatki o plačilu
+subscription-management-button-add-payment-method-aria = Dodaj način plačila
+subscription-management-button-add-payment-method = Dodaj
+subscription-management-button-change-payment-method-aria = Spremeni način plačila
+subscription-management-button-change-payment-method = Spremeni
+# $last4 (String) - Last four numbers of credit card
+subscription-management-card-ending-in = Kartica, ki se končuje s { $last4 }
+# $expirationDate (Date) - Payment card's expiration date
+subscription-management-card-expires-date = Poteče { $expirationDate }
+subscription-management-subscriptions-heading = Naročnine
+subscription-management-your-subscriptions-aria = Vaše naročnine
+subscription-management-no-subscriptions = Nimate še nobene naročnine
+subscription-management-button-cancel-subscription-aria = Prekliči naročnino
+subscription-management-button-cancel-subscription = Prekliči
+subscription-management-your-apple-iap-subscriptions-aria = Vaših { -brand-apple } naročnin
+subscription-management-apple-in-app-purchase = { -brand-apple }: Nakup v aplikaciji
+subscription-management-your-google-iap-subscriptions-aria = Vaših { -brand-google } naročnin
+subscription-management-google-in-app-purchase = { -brand-google }: Nakup v aplikaciji
+# $date (String) - Date of next bill
+subscription-management-iap-sub-next-bill = Naslednji obračun { $date }
+# $date (String) - Date of In-App purchase expires
+subscription-management-iap-sub-expires-on = Preteče { $date }
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscription-management-button-manage-subscription-aria = Upravljaj naročnino za { $productName }
+subscription-management-button-manage-subscription = Upravljaj
 # Page - Not Found
 page-not-found-title = Strani ni mogoče najti
 page-not-found-description = Zahtevane strani ni bilo mogoče najti. O tem smo obvestili skrbnike, ki bodo odpravili morebitne nedelujoče povezave.

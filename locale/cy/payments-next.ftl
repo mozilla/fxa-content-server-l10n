@@ -26,6 +26,16 @@ upgrade-page-acknowledgment = Bydd eich cynllun yn newid ar unwaith, a byddwn yn
 auth-error-page-title = Doedd Dim Modd Eich Mewngofnodi
 checkout-error-boundary-retry-button = Ceisiwch eto
 checkout-error-boundary-basic-error-message = Aeth rhywbeth o'i le. Ceisiwch eto neu <contactSupportLink>cysylltwch â'n cymorth.</contactSupportLink>
+amex-logo-alt-text = { -brand-amex } logo
+diners-logo-alt-text = { -brand-diner } logo
+discover-logo-alt-text = { -brand-discover } logo
+jcb-logo-alt-text = { -brand-jcb } logo
+mastercard-logo-alt-text = { -brand-mastercard } logo
+paypal-logo-alt-text = { -brand-paypal } logo
+unionpay-logo-alt-text = { -brand-unionpay } logo
+visa-logo-alt-text = { -brand-visa } logo
+# Alt text for generic payment card logo
+unbranded-logo-alt-text = Logo heb ei frandio
 
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -80,8 +90,39 @@ next-payment-confirmation-download-button = Parhau i lwytho i lawr
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Cerdyn yn gorffen gyda { $last4 }
 
+## Layout - Subscription Management
+
+subscription-management-breadcrumb-account-home = Cartref y Cyfrif
+subscription-management-breadcrumb-subscriptions = Tanysgrifiadau
+subscription-management-account-profile-picture = Llun proffil cyfrif
+
 ## Page - Subscription Management
 
+subscription-management-payment-information-heading = Manylion Talu
+subscription-management-button-add-payment-method-aria = Ychwanegu dull talu
+subscription-management-button-add-payment-method = Ychwanegu
+subscription-management-button-change-payment-method-aria = Newid dull talu
+subscription-management-button-change-payment-method = Newid
+# $last4 (String) - Last four numbers of credit card
+subscription-management-card-ending-in = Cerdyn yn gorffen gyda { $last4 }
+# $expirationDate (Date) - Payment card's expiration date
+subscription-management-card-expires-date = Daw i ben { $expirationDate }
+subscription-management-subscriptions-heading = Tanysgrifiadau
+subscription-management-your-subscriptions-aria = Eich tanysgrifiadau
+subscription-management-no-subscriptions = Nid oes gennych unrhyw danysgrifiadau eto
+subscription-management-button-cancel-subscription-aria = Canslo tanysgrifiad
+subscription-management-button-cancel-subscription = Diddymu
+subscription-management-your-apple-iap-subscriptions-aria = Eich { -brand-apple } Tanysgrifiad Mewn Ap
+subscription-management-apple-in-app-purchase = { -brand-apple } : Prynu o fewn yr ap
+subscription-management-your-google-iap-subscriptions-aria = Eich { -brand-google } Tanysgrifiad Mewn Ap
+subscription-management-google-in-app-purchase = { -brand-google } : Prynu o fewn yr ap
+# $date (String) - Date of next bill
+subscription-management-iap-sub-next-bill = Bydd y taliad nesaf ar { $date }
+# $date (String) - Date of In-App purchase expires
+subscription-management-iap-sub-expires-on = Yn dod i ben ar: { $date }
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscription-management-button-manage-subscription-aria = Rheoli tanysgrifiad ar gyfer { $productName }
+subscription-management-button-manage-subscription = Rheoli
 # Page - Not Found
 page-not-found-title = Heb ganfod y dudalen
 page-not-found-description = Heb ganfod y dudalen rydych wedi gofyn amdani. Rydym wedi cael ein hysbysu a byddwn yn trwsio unrhyw ddolenni all fod wedi'u torri.

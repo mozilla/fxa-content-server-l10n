@@ -68,6 +68,13 @@
 -brand-google = Google
 -brand-paypal = PayPal
 -brand-name-stripe = Stripe
+-brand-amex = American Express
+-brand-diners = Diners Club
+-brand-discover = Discover
+-brand-jcb = JCB
+-brand-mastercard = Mastercard
+-brand-unionpay = UnionPay
+-brand-visa = Visa
 -app-store =
     { $case ->
         [accusative] App Store-t

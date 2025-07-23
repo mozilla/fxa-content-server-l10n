@@ -683,6 +683,32 @@ flow-setup-2fa-backup-code-dl-heading = Salva i codici di autenticazione di back
 flow-setup-2fa-backup-code-dl-save-these-codes = Conservali in un posto facile da ricordare. Se non hai accesso alla tua app di autenticazione, dovrai inserirne uno per accedere.
 flow-setup-2fa-backup-code-dl-button-continue = Continua
 
+##
+
+flow-setup-2fa-inline-complete-success-banner = Autenticazione in due passaggi attivata
+flow-setup-2fa-inline-complete-backup-code = Codici di autenticazione di backup
+flow-setup-2fa-inline-complete-backup-phone = Telefono per il recupero dell’account
+# $count (Number) - an integer representing the number of backup
+# authentication codes remaining
+flow-setup-2fa-inline-complete-backup-code-info =
+    { $count ->
+        [one] { $count } codice rimanente
+       *[other] { $count } codici rimanenti
+    }
+flow-setup-2fa-inline-complete-backup-code-description = Questo è il metodo di recupero più sicuro se non riesci ad accedere con il tuo dispositivo mobile o l’app di autenticazione.
+flow-setup-2fa-inline-complete-backup-phone-description = Questo è il metodo di recupero più semplice se non riesci ad accedere con l’app di autenticazione.
+flow-setup-2fa-inline-complete-learn-more-link = Come aiuta a proteggere il tuo account
+# $serviceName (String) - the name of the product that the user will be
+# redirected to.
+flow-setup-2fa-inline-complete-continue-button = Continua su { $serviceName }
+flow-setup-2fa-prompt-heading = Configura l’autenticazione in due passaggi
+# Variable { $serviceName } is the name of the product (e.g. Firefox Add-ons)
+# that requests two-step authentication setup.
+flow-setup-2fa-prompt-description = { $serviceName } richiede la configurazione dell’autenticazione in due passaggi per mantenere il tuo account al sicuro.
+# "these authenticator apps" links to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+flow-setup-2fa-prompt-use-authenticator-apps = Per procedere puoi utilizzare <authenticationAppsLink>queste app di autenticazione</authenticationAppsLink>.
+flow-setup-2fa-prompt-continue-button = Continua
+
 ## FlowSetupPhoneConfirmCode
 
 # verification code refers to a code sent by text message to confirm phone number ownership
@@ -721,6 +747,8 @@ header-menu-open = Chiudi menu
 header-menu-closed = Menu di navigazione del sito
 header-back-to-top-link =
     .title = Torna su
+header-back-to-settings-link =
+    .title = Torna alle impostazioni di { -product-mozilla-account }
 header-title-2 = { -product-mozilla-account(capitalization: "uppercase") }
 header-help = Aiuto
 
@@ -1303,6 +1331,10 @@ auth-error-1067 = C’è un errore di battitura nell’indirizzo email?
 # Variables:
 #  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
 recovery-phone-number-ending-digits = Numero che termina con { $lastFourPhoneNumber }
+# This error is shown when there is a particular kind of error at the very end of the 2FA flow
+# and the user should begin it again. A system/device clock not being synced to the internet time is
+# a common problem when using 2FA.
+two-factor-auth-setup-token-verification-error = Si è verificato un problema durante l’attivazione dell’autenticazione in due passaggi. Verifica che l’orologio del dispositivo sia impostato per l’aggiornamento automatico e <a>ricomincia da capo</a>.
 oauth-error-1000 = Qualcosa è andato storto. Chiudi questa scheda e riprova.
 
 ## Cannot Create Account page

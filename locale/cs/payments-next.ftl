@@ -26,6 +26,16 @@ upgrade-page-acknowledgment = Váš tarif se okamžitě změní a po zbytek toho
 auth-error-page-title = Přihlášení se nezdařilo
 checkout-error-boundary-retry-button = Zkusit znovu
 checkout-error-boundary-basic-error-message = Něco se pokazilo. Zkuste to znovu nebo <contactSupportLink>kontaktujte podporu</contactSupportLink>.
+amex-logo-alt-text = Logo { -brand-amex }
+diners-logo-alt-text = Logo { -brand-diner }
+discover-logo-alt-text = Logo { -brand-discover }
+jcb-logo-alt-text = Logo { -brand-jcb }
+mastercard-logo-alt-text = Logo { -brand-mastercard }
+paypal-logo-alt-text = Logo { -brand-paypal }
+unionpay-logo-alt-text = Logo { -brand-unionpay }
+visa-logo-alt-text = Logo { -brand-visa }
+# Alt text for generic payment card logo
+unbranded-logo-alt-text = Nebrandové logo
 
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -80,8 +90,39 @@ next-payment-confirmation-download-button = Pokračovat ke stažení
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Karta končící na { $last4 }
 
+## Layout - Subscription Management
+
+subscription-management-breadcrumb-account-home = Domovská stránka účtu
+subscription-management-breadcrumb-subscriptions = Předplatné
+subscription-management-account-profile-picture = Profilový obrázek účtu
+
 ## Page - Subscription Management
 
+subscription-management-payment-information-heading = Informace o platbě
+subscription-management-button-add-payment-method-aria = Přidat platební metodu
+subscription-management-button-add-payment-method = Přidat
+subscription-management-button-change-payment-method-aria = Změna způsobu platby
+subscription-management-button-change-payment-method = Změnit
+# $last4 (String) - Last four numbers of credit card
+subscription-management-card-ending-in = Karta končící na { $last4 }
+# $expirationDate (Date) - Payment card's expiration date
+subscription-management-card-expires-date = Konec platnosti { $expirationDate }
+subscription-management-subscriptions-heading = Předplatné
+subscription-management-your-subscriptions-aria = Vaše odběry
+subscription-management-no-subscriptions = Zatím nemáte žádná předplatná
+subscription-management-button-cancel-subscription-aria = Zrušit předplatné
+subscription-management-button-cancel-subscription = Zrušit
+subscription-management-your-apple-iap-subscriptions-aria = Vaše { -brand-apple } předplatná v aplikaci
+subscription-management-apple-in-app-purchase = { -brand-apple }: Nákup v aplikaci
+subscription-management-your-google-iap-subscriptions-aria = Vaše { -brand-google } předplatná v aplikaci
+subscription-management-google-in-app-purchase = { -brand-google }: Nákup v aplikaci
+# $date (String) - Date of next bill
+subscription-management-iap-sub-next-bill = Další platba dne { $date }
+# $date (String) - Date of In-App purchase expires
+subscription-management-iap-sub-expires-on = Datum konce platnosti: { $date }
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscription-management-button-manage-subscription-aria = Spravovat předplatné za { $productName }
+subscription-management-button-manage-subscription = Správa
 # Page - Not Found
 page-not-found-title = Stránka nenalezena
 page-not-found-description = Požadovaná stránka nebyla nalezena. Byli jsme upozorněni a všechny odkazy, které mohou být nefunkční, opravíme.

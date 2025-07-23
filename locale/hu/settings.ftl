@@ -691,6 +691,32 @@ flow-setup-2fa-backup-code-dl-heading = Tartalék hitelesítési kódok mentése
 flow-setup-2fa-backup-code-dl-save-these-codes = Tartsa ezeket egy olyan helyen, amelyre emlékezni fog. Ha nincs hozzáférése a hitelesítő alkalmazáshoz, akkor meg kell adnia egyet a bejelentkezéshez.
 flow-setup-2fa-backup-code-dl-button-continue = Folytatás
 
+##
+
+flow-setup-2fa-inline-complete-success-banner = Kétlépcsős hitelesítés engedélyezve
+flow-setup-2fa-inline-complete-backup-code = Tartalék hitelesítési kódok
+flow-setup-2fa-inline-complete-backup-phone = Helyreállítási telefonszám
+# $count (Number) - an integer representing the number of backup
+# authentication codes remaining
+flow-setup-2fa-inline-complete-backup-code-info =
+    { $count ->
+        [one] { $count } kód maradt
+       *[other] { $count } kód maradt
+    }
+flow-setup-2fa-inline-complete-backup-code-description = Ez a legbiztonságosabb helyreállítási módszer, ha nem tud bejelentkezni mobileszközével vagy hitelesítő alkalmazással.
+flow-setup-2fa-inline-complete-backup-phone-description = Ez a legegyszerűbb helyreállítási módszer, ha nem tud bejelentkezni a hitelesítő alkalmazással.
+flow-setup-2fa-inline-complete-learn-more-link = Hogyan védi ez a fiókját
+# $serviceName (String) - the name of the product that the user will be
+# redirected to.
+flow-setup-2fa-inline-complete-continue-button = Tovább erre: { $serviceName }
+flow-setup-2fa-prompt-heading = Állítsa be a kétlépcsős hitelesítést
+# Variable { $serviceName } is the name of the product (e.g. Firefox Add-ons)
+# that requests two-step authentication setup.
+flow-setup-2fa-prompt-description = A(z) { $serviceName } szolgáltatáshoz be kell állítania a kétlépcsős hitelesítést, hogy biztonságban tartsa a fiókját.
+# "these authenticator apps" links to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+flow-setup-2fa-prompt-use-authenticator-apps = Használhatja bármelyik <authenticationAppsLink>ezen hitelesítő alkalmazásokat</authenticationAppsLink> a folytatáshoz.
+flow-setup-2fa-prompt-continue-button = Folytatás
+
 ## FlowSetupPhoneConfirmCode
 
 # verification code refers to a code sent by text message to confirm phone number ownership
@@ -729,6 +755,8 @@ header-menu-open = Menü bezárása
 header-menu-closed = Webhely navigációs menü
 header-back-to-top-link =
     .title = Vissza a tetejére
+header-back-to-settings-link =
+    .title = Vissza a(z) { -product-mozilla-account } beállításaihoz
 header-title-2 = { -product-mozilla-account }
 header-help = Súgó
 
@@ -1322,6 +1350,10 @@ auth-error-1067 = Elírta az e-mail-címet?
 # Variables:
 #  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
 recovery-phone-number-ending-digits = { $lastFourPhoneNumber } végű szám
+# This error is shown when there is a particular kind of error at the very end of the 2FA flow
+# and the user should begin it again. A system/device clock not being synced to the internet time is
+# a common problem when using 2FA.
+two-factor-auth-setup-token-verification-error = Hiba történt a kétlépcsős hitelesítés engedélyezésekor. Ellenőrizze, hogy az eszköz órája úgy van-e beállítva, hogy automatikusan frissítse, és <a>újrakezdje</a>.
 oauth-error-1000 = Hiba történt. Zárja be ezt a lapot, és próbálja újra.
 
 ## Cannot Create Account page

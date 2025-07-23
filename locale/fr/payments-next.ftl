@@ -26,6 +26,16 @@ upgrade-page-acknowledgment = Votre forfait changera immédiatement et un montan
 auth-error-page-title = Nous n’avons pas pu vous connecter
 checkout-error-boundary-retry-button = Réessayer
 checkout-error-boundary-basic-error-message = Quelque chose s’est mal passé. Veuillez réessayer ou <contactSupportLink>contacter l’assistance.</contactSupportLink>
+amex-logo-alt-text = Logo { -brand-amex }
+diners-logo-alt-text = Logo { -brand-diner }
+discover-logo-alt-text = Logo { -brand-discover }
+jcb-logo-alt-text = Logo { -brand-jcb }
+mastercard-logo-alt-text = Logo { -brand-mastercard }
+paypal-logo-alt-text = Logo { -brand-paypal }
+unionpay-logo-alt-text = Logo { -brand-unionpay }
+visa-logo-alt-text = Logo { -brand-visa }
+# Alt text for generic payment card logo
+unbranded-logo-alt-text = Logo sans marque
 
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -80,8 +90,39 @@ next-payment-confirmation-download-button = Continuer vers le téléchargement
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Carte se terminant par { $last4 }
 
+## Layout - Subscription Management
+
+subscription-management-breadcrumb-account-home = Accueil du compte
+subscription-management-breadcrumb-subscriptions = Abonnements
+subscription-management-account-profile-picture = Image de profil du compte
+
 ## Page - Subscription Management
 
+subscription-management-payment-information-heading = Informations de paiement
+subscription-management-button-add-payment-method-aria = Ajouter un mode de paiement
+subscription-management-button-add-payment-method = Ajouter
+subscription-management-button-change-payment-method-aria = Changer de mode de paiement
+subscription-management-button-change-payment-method = Modifier
+# $last4 (String) - Last four numbers of credit card
+subscription-management-card-ending-in = Carte se terminant par { $last4 }
+# $expirationDate (Date) - Payment card's expiration date
+subscription-management-card-expires-date = Expiration : { $expirationDate }
+subscription-management-subscriptions-heading = Abonnements
+subscription-management-your-subscriptions-aria = Vos abonnements
+subscription-management-no-subscriptions = Vous n'avez aucun abonnement pour l'instant
+subscription-management-button-cancel-subscription-aria = Annuler l’abonnement
+subscription-management-button-cancel-subscription = Annuler
+subscription-management-your-apple-iap-subscriptions-aria = Vos { -brand-apple } abonnements in-app
+subscription-management-apple-in-app-purchase = { -brand-apple } : inclut des achats intégrés
+subscription-management-your-google-iap-subscriptions-aria = Vos { -brand-google } abonnements in-app
+subscription-management-google-in-app-purchase = { -brand-google } : achats via l’application
+# $date (String) - Date of next bill
+subscription-management-iap-sub-next-bill = Prochaine facturation le { $date }
+# $date (String) - Date of In-App purchase expires
+subscription-management-iap-sub-expires-on = Date d’expiration : { $date }
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscription-management-button-manage-subscription-aria = Gérer l’abonnement pour { $productName }
+subscription-management-button-manage-subscription = Gérer
 # Page - Not Found
 page-not-found-title = Page introuvable
 page-not-found-description = La page demandée est introuvable. Nous en avons été informés et nous rétablirons les liens éventuellement cassés.
