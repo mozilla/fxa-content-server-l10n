@@ -109,6 +109,9 @@ subscription-management-card-ending-in = La cjarte e che e finìs cun { $last4 }
 subscription-management-card-expires-date = Al scjât al/ai { $expirationDate }
 subscription-management-subscriptions-heading = Abonaments
 subscription-management-your-subscriptions-aria = I tiei abonaments
+subscription-management-no-subscriptions = No tu âs ancjemò nissun abonament
+subscription-management-button-cancel-subscription-aria = Anule l'abonament
+subscription-management-button-cancel-subscription = Anule
 # Page - Not Found
 page-not-found-title = Pagjine no cjatade
 page-not-found-description = La pagjine domandade no je stade cjatade. Nus è rivade la segnalazion dal probleme e o comedarìn i eventuâi colegaments che no funzionin.

@@ -714,6 +714,11 @@ flow-setup-2fa-inline-complete-learn-more-link = Kak to waše konto škita
 # redirected to.
 flow-setup-2fa-inline-complete-continue-button = Dale k { $serviceName }
 flow-setup-2fa-prompt-heading = Dwukročelowu awtentifikaciju konfigurować
+# Variable { $serviceName } is the name of the product (e.g. Firefox Add-ons)
+# that requests two-step authentication setup.
+flow-setup-2fa-prompt-description = { $serviceName } žada, zo dwukročelowu awtentifikaciju konfigurujeće, zo by waše konto wěste wostało.
+# "these authenticator apps" links to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+flow-setup-2fa-prompt-use-authenticator-apps = Móžeće <authenticationAppsLink>tute awtentifikaciske nałoženja</authenticationAppsLink> wužiwać, zo byšće pokročował.
 flow-setup-2fa-prompt-continue-button = Dale
 
 ## FlowSetupPhoneConfirmCode
@@ -1351,6 +1356,10 @@ auth-error-1067 = Sće e-mejlowu adresu wopak napisał?
 # Variables:
 #  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
 recovery-phone-number-ending-digits = Čisło, kotrež so na { $lastFourPhoneNumber } kónči.
+# This error is shown when there is a particular kind of error at the very end of the 2FA flow
+# and the user should begin it again. A system/device clock not being synced to the internet time is
+# a common problem when using 2FA.
+two-factor-auth-setup-token-verification-error = Je problem při zmóžnjenju dwukročeloweje awtentifikacije. Přepruwujće, hač časnik wašeho grata so awtomatisce aktualizuje a <a>započńće znowa</a>.
 oauth-error-1000 = Něšto je so nimokuliło. Prošu začińće tutón rajtark a spytajće hišće raz.
 
 ## Cannot Create Account page

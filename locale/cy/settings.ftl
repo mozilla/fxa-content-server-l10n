@@ -724,7 +724,7 @@ flow-setup-2fa-prompt-heading = Gosod dilysu dau gam
 # that requests two-step authentication setup.
 flow-setup-2fa-prompt-description = Mae { $serviceName } yn gofyn i chi osod dilysiad dau gam i gadw'ch cyfrif yn ddiogel.
 # "these authenticator apps" links to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
-flow-setup-2fa-prompt-use-authenticator-apps = Gallwch ddefnyddio unrhyw un o <authenticationAppsLink>yr apiau dilysu hyn</authenticationAppsLink> i symud ymlaen.
+flow-setup-2fa-prompt-use-authenticator-apps = Gallwch ddefnyddio unrhyw un o'r <authenticationAppsLink>apiau dilysu hyn</authenticationAppsLink> i barhau.
 flow-setup-2fa-prompt-continue-button = Parhau
 
 ## FlowSetupPhoneConfirmCode
@@ -766,7 +766,7 @@ header-menu-closed = Dewislen llywio'r wefan
 header-back-to-top-link =
     .title = Nôl i'r brig
 header-back-to-settings-link =
-    .title = Yn ôl i osodiadau { -product-mozilla-account }
+    .title = Nôl i osodiadau { -product-mozilla-account }
 header-title-2 = { -product-mozilla-account }
 header-help = Cymorth
 
@@ -1365,7 +1365,7 @@ recovery-phone-number-ending-digits = Rhif sy'n gorffen gyda { $lastFourPhoneNum
 # This error is shown when there is a particular kind of error at the very end of the 2FA flow
 # and the user should begin it again. A system/device clock not being synced to the internet time is
 # a common problem when using 2FA.
-two-factor-auth-setup-token-verification-error = Bu problem wrth alluogi dilysu dau gam. Gwiriwch fod cloc eich dyfais wedi'i osod i ddiweddaru'n awtomatig a <a>cychwyn eto</a>.
+two-factor-auth-setup-token-verification-error = Bu problem wrth alluogi dilysu dau gam. Gwiriwch fod cloc eich dyfais wedi'i osod i ddiweddaru'n awtomatig a <a>chychwyn eto</a>.
 oauth-error-1000 = Aeth rhywbeth o'i le. Caewch y tab hwn a cheisio eto.
 
 ## Cannot Create Account page
