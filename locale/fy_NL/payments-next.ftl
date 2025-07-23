@@ -26,6 +26,16 @@ upgrade-page-acknowledgment = Jo abonnemint wiziget daliks, en der wurdt in grut
 auth-error-page-title = Wy koene jo net oanmelde
 checkout-error-boundary-retry-button = Opnij probearje
 checkout-error-boundary-basic-error-message = Der gie wat mis. Probearje it opnij of <contactSupportLink>nim kontakt op mei de stipeôfdieling.</contactSupportLink>
+amex-logo-alt-text = { -brand-amex }-logo
+diners-logo-alt-text = { -brand-diner }-logo
+discover-logo-alt-text = { -brand-discover }-logo
+jcb-logo-alt-text = { -brand-jcb }-logo
+mastercard-logo-alt-text = { -brand-mastercard }-logo
+paypal-logo-alt-text = { -brand-paypal }-logo
+unionpay-logo-alt-text = { -brand-unionpay }-logo
+visa-logo-alt-text = { -brand-visa }-logo
+# Alt text for generic payment card logo
+unbranded-logo-alt-text = Merkleas logo
 
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -79,6 +89,10 @@ next-payment-confirmation-download-button = Trochgean mei download
 
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Creditcard einigjend op { $last4 }
+
+## Layout - Subscription Management
+
+subscription-management-breadcrumb-account-home = Account-startside
 
 ## Page - Subscription Management
 

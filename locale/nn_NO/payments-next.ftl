@@ -26,6 +26,14 @@ upgrade-page-acknowledgment = Planen din vert omg[ande endra, og du vil bli bela
 auth-error-page-title = Vi klarte ikkje å logge deg inn
 checkout-error-boundary-retry-button = Prøv på nytt
 checkout-error-boundary-basic-error-message = Noko gjekk gale. Prøv på nytt eller <contactSupportLink>kontakt support.</contactSupportLink>
+amex-logo-alt-text = { -brand-amex }-logo
+diners-logo-alt-text = { -brand-diner }-logo
+discover-logo-alt-text = { -brand-discover }-logo
+jcb-logo-alt-text = { -brand-jcb }-logo
+mastercard-logo-alt-text = { -brand-mastercard }-logo
+paypal-logo-alt-text = { -brand-paypal }-logo
+unionpay-logo-alt-text = { -brand-unionpay }-logo
+visa-logo-alt-text = { -brand-visa }-logo
 
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages
