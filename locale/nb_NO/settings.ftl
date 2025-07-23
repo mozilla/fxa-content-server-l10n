@@ -685,6 +685,26 @@ flow-setup-2fa-backup-code-dl-heading = Lagre reserve-autentiseringskoder
 flow-setup-2fa-backup-code-dl-save-these-codes = Oppbevar disse på et sted du husker. Hvis du ikke har tilgang til autentiseringsappen din, må du oppgi en for å logge på.
 flow-setup-2fa-backup-code-dl-button-continue = Fortsett
 
+##
+
+flow-setup-2fa-inline-complete-success-banner = Totrinns-verifisering aktivert
+flow-setup-2fa-inline-complete-backup-code = Reserve-autentiseringskoder
+flow-setup-2fa-inline-complete-backup-phone = Gjenopprettingstelefon
+# $count (Number) - an integer representing the number of backup
+# authentication codes remaining
+flow-setup-2fa-inline-complete-backup-code-info =
+    { $count ->
+        [one] { $count } kode igjen
+       *[other] { $count } koder igjen
+    }
+flow-setup-2fa-inline-complete-backup-code-description = Dette er den sikreste gjenopprettingsmetoden hvis du ikke kan logge på med mobilenheten eller autentiseringsappen din.
+flow-setup-2fa-inline-complete-backup-phone-description = Dette er den enkleste gjenopprettingsmetoden hvis du ikke kan logge på med autentiseringsappen din.
+flow-setup-2fa-inline-complete-learn-more-link = Slik beskytter dette kontoen din
+# $serviceName (String) - the name of the product that the user will be
+# redirected to.
+flow-setup-2fa-inline-complete-continue-button = Fortsett til { $serviceName }
+flow-setup-2fa-prompt-heading = Konfigurer totrinns-verifisering
+
 ## FlowSetupPhoneConfirmCode
 
 # verification code refers to a code sent by text message to confirm phone number ownership

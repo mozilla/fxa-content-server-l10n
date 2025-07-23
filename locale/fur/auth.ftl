@@ -422,6 +422,7 @@ postAddRecoveryPhone-how-protect = Cemût che al jude a protezi il to account
 postAddRecoveryPhone-how-protect-plaintext = Cemût che al jude a protezi il to account:
 postAddRecoveryPhone-enabled-device = Tu le âs ativade di:
 postAddRecoveryPhone-action = Gjestìs account
+postAddTwoStepAuthentication-preview = Il to account al è protet
 postAddTwoStepAuthentication-subject-v3 = La autenticazion in doi passaç e je ative
 postAddTwoStepAuthentication-title-2 = Tu âs ativât la autenticazion in doi passaçs
 # After the colon, there is a description of the device that the user used to enable two-step authentication
