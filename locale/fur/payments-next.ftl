@@ -26,6 +26,16 @@ upgrade-page-acknowledgment = Il to plan al cambiarà daurman e vuê ti vignarà
 auth-error-page-title = No rivìn a fâti jentrâ
 checkout-error-boundary-retry-button = Torne prove
 checkout-error-boundary-basic-error-message = Alc al è lât strucj. Torne prove opûr <contactSupportLink>contate il supuart.</contactSupportLink>
+amex-logo-alt-text = Logo { -brand-amex }
+diners-logo-alt-text = Logo { -brand-diner }
+discover-logo-alt-text = Logo { -brand-discover }
+jcb-logo-alt-text = Logo { -brand-jcb }
+mastercard-logo-alt-text = Logo { -brand-mastercard }
+paypal-logo-alt-text = Logo { -brand-paypal }
+unionpay-logo-alt-text = Logo { -brand-unionpay }
+visa-logo-alt-text = Logo { -brand-visa }
+# Alt text for generic payment card logo
+unbranded-logo-alt-text = Logo cence marche
 
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -49,6 +59,7 @@ intent-expired-card-error = Al somee che la tô cjarte di credit e sedi scjadude
 intent-payment-error-try-again = Uhm… al è vignût fûr un probleme tal autorizâ il paiament. Torne prove o contate l’emitent de cjarte.
 intent-payment-error-get-in-touch = Uhm… al è vignût fûr un probleme tal autorizâ il paiament. Contate l’emitent de cjarte.
 intent-payment-error-generic = Al è capitât un erôr inspietât dilunc la elaborazion dal paiament, torne prove.
+intent-payment-error-insufficient-funds = Al somee che la tô cjarte no vedi credit suficient. Prove cuntune altre cjarte.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -79,8 +90,25 @@ next-payment-confirmation-download-button = Continue par discjariâ
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = La cjarte e che e finìs cun { $last4 }
 
+## Layout - Subscription Management
+
+subscription-management-breadcrumb-account-home = Pagjine principâl dal account
+subscription-management-breadcrumb-subscriptions = Abonaments
+subscription-management-account-profile-picture = Imagjin dal profîl pal account
+
 ## Page - Subscription Management
 
+subscription-management-payment-information-heading = Informazions sul paiament
+subscription-management-button-add-payment-method-aria = Zonte metodi di paiament
+subscription-management-button-add-payment-method = Zonte
+subscription-management-button-change-payment-method-aria = Cambie metodi di paiament
+subscription-management-button-change-payment-method = Modifiche
+# $last4 (String) - Last four numbers of credit card
+subscription-management-card-ending-in = La cjarte e che e finìs cun { $last4 }
+# $expirationDate (Date) - Payment card's expiration date
+subscription-management-card-expires-date = Al scjât al/ai { $expirationDate }
+subscription-management-subscriptions-heading = Abonaments
+subscription-management-your-subscriptions-aria = I tiei abonaments
 # Page - Not Found
 page-not-found-title = Pagjine no cjatade
 page-not-found-description = La pagjine domandade no je stade cjatade. Nus è rivade la segnalazion dal probleme e o comedarìn i eventuâi colegaments che no funzionin.

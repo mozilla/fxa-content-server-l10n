@@ -1239,18 +1239,18 @@ tfa-row-action-disable = Slå av
 tfa-row-button-refresh =
     .title = Oppdater totrinns-autentisering
 tfa-row-cannot-refresh = Dessverre oppstod det et problem med å oppdatere totrinns-autentisering.
-tfa-row-enabled-description = Kontoen din er beskyttet av totrinns-verifisering. Du må oppgi en engangskode fra autentiseringsappen din når du logger deg på { -product-mozilla-account }.
+tfa-row-enabled-description = Kontoen din er beskyttet av totrinns-autentisering. Du må oppgi en engangskode fra autentiseringsappen din når du logger deg på { -product-mozilla-account }.
 # "this" refers to two-step authentication
 # Link goes to https://support.mozilla.org/kb/secure-mozilla-account-two-step-authentication
 tfa-row-enabled-info-link = Slik beskytter dette kontoen din
 tfa-row-disabled-description-v2 = Bidra til å sikre kontoen din ved å bruke en tredjeparts autentiseringsapp som et andre trinn for å logge inn.
 tfa-row-cannot-verify-session-4 = Beklager, det oppsto et problem med å bekrefte økten din
-tfa-row-disable-modal-heading = Slå av totrinns-verifisering
+tfa-row-disable-modal-heading = Slå av totrinns-autentisering
 tfa-row-disable-modal-confirm = Slå av
 tfa-row-disable-modal-explain-1 = Du kan ikke angre denne handlingen. Du har også muligheten til å <linkExternal>erstatte reserve-autentiseringskodene dine</linkExternal>.
 # Shown in an alert bar after two-step authentication is disabled
-tfa-row-disabled-2 = Totrinns-verifisering deaktivert
-tfa-row-cannot-disable-2 = Totrinns-verifisering kunne ikke deaktiveres
+tfa-row-disabled-2 = Totrinns-autentisering deaktivert
+tfa-row-cannot-disable-2 = Totrinns-autentisering kunne ikke deaktiveres
 tfa-row-disable-cannot-verify-session = Beklager, det oppsto et problem med å bekrefte økten din
 
 ## TermsPrivacyAgreement
@@ -1335,7 +1335,7 @@ recovery-phone-number-ending-digits = Nummer som slutter på { $lastFourPhoneNum
 # This error is shown when there is a particular kind of error at the very end of the 2FA flow
 # and the user should begin it again. A system/device clock not being synced to the internet time is
 # a common problem when using 2FA.
-two-factor-auth-setup-token-verification-error = Det oppsto et problem med å aktivere totrinns-verifisering. Sjekk at klokken på enheten din er satt til å oppdateres automatisk, og <a>start på nytt</a>.
+two-factor-auth-setup-token-verification-error = Det oppsto et problem med å aktivere totrinns-autentisering. Sjekk at klokken på enheten din er satt til å oppdateres automatisk, og <a>start på nytt</a>.
 oauth-error-1000 = Noe gikk galt. Lukk denne fanen og prøv på nytt.
 
 ## Cannot Create Account page
@@ -1444,7 +1444,7 @@ inline-recovery-confirmation-header-default = Bekreft reserve-autentiseringskode
 # If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
 # $serviceName - the name of the service which is using Mozilla accounts to authenticate
 inline-recovery-confirmation-header = Bekreft reserve-autentiseringskoden <span>for å fortsette til { $serviceName }</span>
-inline-recovery-2fa-enabled-v2 = Totrinns-verifisering er aktivert
+inline-recovery-2fa-enabled-v2 = Totrinns-autentisering er aktivert
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
@@ -1454,9 +1454,9 @@ inline-totp-setup-continue-button = Fortsett
 # <authenticationAppsLink> links to a list of security apps
 inline-totp-setup-add-security-link = Legg til et ekstra sikkerhetslag til kontoen din ved å kreve sikkerhetskoder fra en av <authenticationAppsLink>disse godkjenningsappene</authenticationAppsLink>.
 #  The <enable2StepDefaultSpan> elements are just visual separation here
-inline-totp-setup-enable-two-step-authentication-default-header-2 = Aktiver totrinns-verifisering <span>for å fortsette til kontoinnstillingene</span>
+inline-totp-setup-enable-two-step-authentication-default-header-2 = Aktiver totrinns-autentisering <span>for å fortsette til kontoinnstillingene</span>
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <enable2StepCustomServiceSpan> elements are just visual separation
-inline-totp-setup-enable-two-step-authentication-custom-header-2 = Aktiver totrinns-verifisering <span>for å fortsette til { $serviceName }</span>
+inline-totp-setup-enable-two-step-authentication-custom-header-2 = Aktiver totrinns-autentisering <span>for å fortsette til { $serviceName }</span>
 inline-totp-setup-ready-button = Klar
 # The authentication code a user is scanning is a QR code.
 # { $serviceName } is the name of the service which the user wants to authenticate to. The <scanAuthCodeHeaderSpan> elements are just visual separation
@@ -1478,7 +1478,7 @@ inline-totp-setup-on-completion-description = Når det er ferdig, vil det begynn
 inline-totp-setup-security-code-placeholder = Autentiseringskode
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-code-required-error = Autentiseringskode kreves
-tfa-qr-code-alt = Bruk koden { $code } for å sette opp totrinns-verifisering i støttede apper.
+tfa-qr-code-alt = Bruk koden { $code } for å sette opp totrinns-autentisering i støttede apper.
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
@@ -1653,7 +1653,7 @@ complete-reset-password-desktop-relay = { -brand-firefox } vil prøve å sende d
 confirm-backup-code-reset-password-input-label = Skriv inn kode på 10 tegn
 confirm-backup-code-reset-password-confirm-button = Bekreft
 confirm-backup-code-reset-password-subheader = Skriv inn reserve-autentiseringskode
-confirm-backup-code-reset-password-instruction = Skriv inn en av engangskodene du lagret da du konfigurerte totrinns-verifisering.
+confirm-backup-code-reset-password-instruction = Skriv inn en av engangskodene du lagret da du konfigurerte totrinns-autentisering.
 # Link out to support article: https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 confirm-backup-code-reset-password-locked-out-link = Er du utestengt?
 
@@ -1853,7 +1853,7 @@ signin-recovery-method-send-code-error-description = Prøv igjen senere, eller b
 signin-recovery-code-heading = Logg inn
 signin-recovery-code-sub-heading = Skriv inn reserve-autentiseringskode
 # codes here refers to backup authentication codes
-signin-recovery-code-instruction-v3 = Skriv inn en av engangskodene du lagret da du konfigurerte totrinns-verifisering.
+signin-recovery-code-instruction-v3 = Skriv inn en av engangskodene du lagret da du konfigurerte totrinns-autentisering.
 # code here refers to backup authentication code
 signin-recovery-code-input-label-v2 = Skriv inn kode på 10 tegn
 # Form button to confirm if the backup authentication code entered by the user is valid

@@ -705,6 +705,12 @@ flow-setup-2fa-inline-complete-learn-more-link = Korleis dette vernar kontoen di
 # $serviceName (String) - the name of the product that the user will be
 # redirected to.
 flow-setup-2fa-inline-complete-continue-button = Hald fram til { $serviceName }
+flow-setup-2fa-prompt-heading = Set opp tostegs-autentisering
+# Variable { $serviceName } is the name of the product (e.g. Firefox Add-ons)
+# that requests two-step authentication setup.
+flow-setup-2fa-prompt-description = { $serviceName } krev at du konfigurerer tostegs-autentisering for å halde kontoen din trygg.
+# "these authenticator apps" links to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+flow-setup-2fa-prompt-use-authenticator-apps = Du kan bruke kven som helst av <authenticationAppsLink>desse autentiseringsappane</authenticationAppsLink> for å halde fram.
 flow-setup-2fa-prompt-continue-button = Hald fram
 
 ## FlowSetupPhoneConfirmCode
@@ -745,6 +751,8 @@ header-menu-open = Lat att meny
 header-menu-closed = Meny for nettstadnavigering
 header-back-to-top-link =
     .title = Tilbake til toppen
+header-back-to-settings-link =
+    .title = Tilbake til { -product-mozilla-account }-innstillingar
 header-title-2 = { -product-mozilla-account }
 header-help = Hjelp
 
@@ -1340,6 +1348,10 @@ auth-error-1067 = Feilksriven e-postadresse?
 # Variables:
 #  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
 recovery-phone-number-ending-digits = Nummer som sluttar på { $lastFourPhoneNumber }
+# This error is shown when there is a particular kind of error at the very end of the 2FA flow
+# and the user should begin it again. A system/device clock not being synced to the internet time is
+# a common problem when using 2FA.
+two-factor-auth-setup-token-verification-error = Det oppstod eit problem med å aktivere tostegs-autentisering. Sjekk at klokka på eininga di er sett til å bli oppdatert automatisk, og <a>start på nytt</a>.
 oauth-error-1000 = Noko gjekk gale. Lat att fana og prøv på nytt.
 
 ## Cannot Create Account page

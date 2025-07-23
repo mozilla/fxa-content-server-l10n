@@ -414,7 +414,7 @@ postAddLinkedAccount-subject-2 = Ny konto knyttet til { -product-mozilla-account
 postAddLinkedAccount-title-2 = { $providerName }-kontoen er koblet til { -product-mozilla-account }-en din
 postAddLinkedAccount-action = Behandle konto
 postAddRecoveryPhone-subject = Gjenopprettingstelefon lagt til
-postAddRecoveryPhone-preview = Konto beskyttet av totrinns-verifisering
+postAddRecoveryPhone-preview = Konto beskyttet av totrinns-autentisering
 postAddRecoveryPhone-title-v2 = Du la til et telefonnummer for gjenoppretting
 # Variables:
 #  $maskedLastFourPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
@@ -426,7 +426,7 @@ postAddRecoveryPhone-enabled-device = Du har slått det på fra:
 postAddRecoveryPhone-action = Behandle konto
 postAddTwoStepAuthentication-preview = Kontoen din er beskyttet
 postAddTwoStepAuthentication-subject-v3 = Totrinns-autentisering er på
-postAddTwoStepAuthentication-title-2 = Du har slått på totrinns-verifisering
+postAddTwoStepAuthentication-title-2 = Du har slått på totrinns-autentisering
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postAddTwoStepAuthentication-from-device-v2 = Du ba om dette fra:
 postAddTwoStepAuthentication-action = Behandle konto
@@ -482,8 +482,8 @@ postRemoveSecondary-title = Sekundær e-postadesse fjernet
 #  $secondaryEmail (String) - A user's email address
 postRemoveSecondary-description-2 = Du har slettet { $secondaryEmail } som en sekundær e-postadresse fra din { -product-mozilla-account }. Sikkerhetsmeldinger og innloggingsbekreftelser vil ikke lenger bli leverte til denne adressen.
 postRemoveSecondary-action = Behandle konto
-postRemoveTwoStepAuthentication-subject-line-2 = Totrinns-verifisering er slått av
-postRemoveTwoStepAuthentication-title-2 = Du har slått av totrinns-verifisering
+postRemoveTwoStepAuthentication-subject-line-2 = Totrinns-autentisering er slått av
+postRemoveTwoStepAuthentication-title-2 = Du har slått av totrinns-autentisering
 # After the colon is a description of the device the user used to disable two-step authentication
 postRemoveTwoStepAuthentication-from-device = Du har slått det av fra:
 postRemoveTwoStepAuthentication-action = Behandle konto
