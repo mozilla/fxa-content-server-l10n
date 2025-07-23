@@ -101,6 +101,17 @@ subscription-management-account-profile-picture = Kontots profilbild
 subscription-management-payment-information-heading = Betalningsinformation
 subscription-management-button-add-payment-method-aria = Lägg till betalningsmetod
 subscription-management-button-add-payment-method = Lägg till
+subscription-management-button-change-payment-method-aria = Ändra betalningsmetod
+subscription-management-button-change-payment-method = Ändra
+# $last4 (String) - Last four numbers of credit card
+subscription-management-card-ending-in = Kort som slutar på { $last4 }
+# $expirationDate (Date) - Payment card's expiration date
+subscription-management-card-expires-date = Upphör { $expirationDate }
+subscription-management-subscriptions-heading = Prenumerationer
+subscription-management-your-subscriptions-aria = Dina prenumerationer
+subscription-management-no-subscriptions = Du har inga prenumerationer än
+subscription-management-button-cancel-subscription-aria = Avbryt prenumeration
+subscription-management-button-cancel-subscription = Avbryt
 # Page - Not Found
 page-not-found-title = Sidan hittades inte
 page-not-found-description = Sidan du begärde hittades inte. Vi har underrättats och kommer att fixa alla länkar som kan vara trasiga.
