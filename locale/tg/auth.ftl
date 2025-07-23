@@ -156,11 +156,17 @@ automatedEmailRecoveryKey-more-info-plaintext = Барои маълумоти и
 automated-email-reset =
     Ин паёми худкори почтаи элекронӣ мебошад; агар шумо барои иҷро кардани ин амал иҷозат надодед, пас, лутфан, <a data-l10n-name="resetLink">ниҳонвожаи худро иваз намоед</a>.
     Барои гирифтани маълумоти бештар, лутфан, ба бахши <a data-l10n-name="supportLink">Дастгирии «{ -brand-mozilla }»</a> ворид шавед.
+# Variables:
+#  $resetLink (String) - Link to https://accounts.firefox.com/reset_password
+automated-email-reset-plaintext-v2 = Агар шумо барои иҷрои ин амал иҷозат надода бошед, лутфан, ниҳонвожаи худро дарҳол дар { $resetLink } аз нав танзим кунед.
+# Followed by link to https://accounts.firefox.com/reset_password
+automated-email-reset-pwd-plaintext-v3 = Агар шумо барои иҷро кардани ин амал иҷозат надодед, пас, лутфан, ниҳонвожаи худро ҳоли ҳозир аз нав танзим кунед:
 # Followed by link to https://accounts.firefox.com/settings#two-step-authentication
 automated-email-reset-two-factor-plaintext = Инчунин, санҷиши ҳаққонияти дуқадамаро аз нав танзим кунед:
 cancellationSurvey = Лутфан, ба воситаи гузаронидани ин <a data-l10n-name="cancellationSurveyUrl">саволномаи кутоҳ</a> ба мо барои беҳтар кардани хизматрасониҳои мо кумак расонед.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
 cancellationSurvey-plaintext = Лутфан, ба воситаи гузаронидани ин саволномаи кутоҳ ба мо барои беҳтар кардани хизматрасониҳои мо кумак расонед:
+change-password-plaintext = Агар шумо гумон кунед, ки касе мехоҳад ба ҳисоби шумо дастрасӣ пайдо намояд, лутфан, ниҳонвожаи худро иваз кунед.
 manage-account = Идоракунии ҳисоб
 manage-account-plaintext = { manage-account }:
 payment-details = Тафсилоти пардохт:
@@ -211,12 +217,6 @@ subscriptionFirstInvoiceDiscount-content-discount-repeating = Тахфифи { $
 # Variables:
 #  $invoiceTaxAmount (String) - The amount of the tax of the subscription invoice, including currency, e.g. $2.00
 subscriptionCharges-content-tax = Андозҳо ва ҳаққи ҳизматрасонӣ: { $invoiceTaxAmount }
-
-## Variables:
-##  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
-##  $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
-##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
-
 
 ##
 
@@ -356,11 +356,14 @@ postAddRecoveryPhone-how-protect = Ин чӣ тавр ҳисоби шуморо 
 postAddRecoveryPhone-how-protect-plaintext = Ин чӣ тавр ҳисоби шуморо муҳофизат мекунад:
 postAddRecoveryPhone-enabled-device = Шумо онро дар дастгоҳи зерин фаъол кардед:
 postAddRecoveryPhone-action = Идоракунии ҳисоб
+postAddTwoStepAuthentication-preview = Ҳисоби шумо ҳифз карда шудааст
 postAddTwoStepAuthentication-subject-v3 = Санҷиши ҳаққонияти дуқадама фаъол аст
 postAddTwoStepAuthentication-title-2 = Шумо санҷиши ҳаққонияти дуқадамаро фаъол кардед
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postAddTwoStepAuthentication-from-device-v2 = Шумо инро дар дастгоҳи зерин дархост кардед:
 postAddTwoStepAuthentication-action = Идоракунии ҳисоб
+postAddTwoStepAuthentication-how-protects-link = Ин чӣ тавр ҳисоби шуморо муҳофизат мекунад
+postAddTwoStepAuthentication-how-protects-plaintext = Ин чӣ тавр ҳисоби шуморо муҳофизат мекунад:
 postChangeAccountRecovery-subject = Калиди барқарорсозии ҳисоб иваз шуд
 postChangeAccountRecovery-title = Шумо калиди барқарорсозии ҳисоби худро иваз кардед
 postChangeAccountRecovery-action = Идоракунии ҳисоб
