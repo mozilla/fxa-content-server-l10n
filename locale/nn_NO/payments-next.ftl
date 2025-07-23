@@ -34,6 +34,8 @@ mastercard-logo-alt-text = { -brand-mastercard }-logo
 paypal-logo-alt-text = { -brand-paypal }-logo
 unionpay-logo-alt-text = { -brand-unionpay }-logo
 visa-logo-alt-text = { -brand-visa }-logo
+# Alt text for generic payment card logo
+unbranded-logo-alt-text = Umerka logo
 
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -110,6 +112,8 @@ subscription-management-your-subscriptions-aria = Ditt abonnement
 subscription-management-no-subscriptions = Du har ikkje noko abonnement enno
 subscription-management-button-cancel-subscription-aria = Avbryt abonnement
 subscription-management-button-cancel-subscription = Avbryt
+subscription-management-your-apple-iap-subscriptions-aria = Dine { -brand-apple }-abonnement i appen
+subscription-management-apple-in-app-purchase = { -brand-apple }: Kjøp i appen
 subscription-management-button-manage-subscription = Handsam
 # Page - Not Found
 page-not-found-title = Fann ikkje sida
