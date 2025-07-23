@@ -32,8 +32,8 @@ discover-logo-alt-text = { -brand-discover }-Logo
 jcb-logo-alt-text = { -brand-jcb }-Logo
 mastercard-logo-alt-text = { -brand-mastercard }-Logo
 paypal-logo-alt-text = { -brand-paypal }-Logo
-unionpay-logo-alt-text = Logo von { -brand-unionpay }
-visa-logo-alt-text = Logo von { -brand-visa }
+unionpay-logo-alt-text = { -brand-unionpay }-Logo
+visa-logo-alt-text = { -brand-visa }-Logo
 # Alt text for generic payment card logo
 unbranded-logo-alt-text = Markenloses Logo
 
@@ -106,7 +106,7 @@ subscription-management-button-change-payment-method = Ändern
 # $last4 (String) - Last four numbers of credit card
 subscription-management-card-ending-in = Karte endet auf { $last4 }
 # $expirationDate (Date) - Payment card's expiration date
-subscription-management-card-expires-date = Läuft ab im { $expirationDate }
+subscription-management-card-expires-date = Läuft ab { $expirationDate }
 subscription-management-subscriptions-heading = Abonnements
 subscription-management-your-subscriptions-aria = Ihre Abonnements
 subscription-management-no-subscriptions = Sie haben noch keine Abonnements
