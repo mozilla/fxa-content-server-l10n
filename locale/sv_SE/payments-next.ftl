@@ -112,6 +112,7 @@ subscription-management-your-subscriptions-aria = Dina prenumerationer
 subscription-management-no-subscriptions = Du har inga prenumerationer än
 subscription-management-button-cancel-subscription-aria = Avbryt prenumeration
 subscription-management-button-cancel-subscription = Avbryt
+subscription-management-apple-in-app-purchase = { -brand-apple }: Köp i appen
 # Page - Not Found
 page-not-found-title = Sidan hittades inte
 page-not-found-description = Sidan du begärde hittades inte. Vi har underrättats och kommer att fixa alla länkar som kan vara trasiga.

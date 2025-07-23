@@ -94,9 +94,20 @@ next-payment-confirmation-cc-card-ending-in = Creditcard einigjend op { $last4 }
 
 subscription-management-breadcrumb-account-home = Account-startside
 subscription-management-breadcrumb-subscriptions = Abonneminten
+subscription-management-account-profile-picture = Accountprofylôfbylding
 
 ## Page - Subscription Management
 
+subscription-management-payment-information-heading = Betellingsgegevens
+subscription-management-button-add-payment-method-aria = Betellingsmetoade tafoegje
+subscription-management-button-add-payment-method = Tafoegje
+subscription-management-button-change-payment-method-aria = Betellingsmetoade wizigje
+subscription-management-button-change-payment-method = Wizigje
+# $last4 (String) - Last four numbers of credit card
+subscription-management-card-ending-in = Creditcard einigjend op { $last4 }
+# $expirationDate (Date) - Payment card's expiration date
+subscription-management-card-expires-date = Ferrint op { $expirationDate }
+subscription-management-subscriptions-heading = Abonneminten
 subscription-management-your-subscriptions-aria = Jo abonneminten
 subscription-management-no-subscriptions = Jo hawwe noch gjin abonneminten
 subscription-management-button-cancel-subscription-aria = Abonnemint opsizze
