@@ -230,6 +230,7 @@ subscriptionCharges-content-tax = Tassis e comissions: { $invoiceTaxAmount }
 ##  $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
 ##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
 
+subscriptionFirstInvoice-content-total-due = Adebit di { $invoiceAmountDue } ai { $invoiceDateOnly }
 subscriptionFirstInvoice-content-credit = Tu âs ricevût un credit di { $invoiceTotal } che al vignarà aplicât aes tôs prossimis faturis.
 
 ##

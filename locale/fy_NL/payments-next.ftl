@@ -93,9 +93,25 @@ next-payment-confirmation-cc-card-ending-in = Creditcard einigjend op { $last4 }
 ## Layout - Subscription Management
 
 subscription-management-breadcrumb-account-home = Account-startside
+subscription-management-breadcrumb-subscriptions = Abonneminten
 
 ## Page - Subscription Management
 
+subscription-management-your-subscriptions-aria = Jo abonneminten
+subscription-management-no-subscriptions = Jo hawwe noch gjin abonneminten
+subscription-management-button-cancel-subscription-aria = Abonnemint opsizze
+subscription-management-button-cancel-subscription = Opsizze
+subscription-management-your-apple-iap-subscriptions-aria = Jo { -brand-apple }-yn-app-abonneminten
+subscription-management-apple-in-app-purchase = { -brand-apple }: yn-app-oankeap
+subscription-management-your-google-iap-subscriptions-aria = Jo { -brand-google }-yn-app-abonneminten
+subscription-management-google-in-app-purchase = { -brand-google }: yn-app-oankeap
+# $date (String) - Date of next bill
+subscription-management-iap-sub-next-bill = Folgjende ynkasso op { $date }
+# $date (String) - Date of In-App purchase expires
+subscription-management-iap-sub-expires-on = Ferrint op { $date }
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscription-management-button-manage-subscription-aria = Abonnemint foar { $productName } beheare
+subscription-management-button-manage-subscription = Beheare
 # Page - Not Found
 page-not-found-title = Side net fûn
 page-not-found-description = De opfrege side is net fûn. Wy binne op de hichte en sille keppelingen dy't mooglik net wurkje werom bringe.
