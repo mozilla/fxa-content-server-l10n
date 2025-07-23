@@ -29,6 +29,16 @@ upgrade-page-acknowledgment =
 auth-error-page-title = Njejsmy mógli was pśizjawiś
 checkout-error-boundary-retry-button = Hyšći raz wopytaś
 checkout-error-boundary-basic-error-message = Něco njejo se raźiło. Pšosym wopytajśo hyšći raz abo <contactSupportLink>stajśo se z pomocu do zwiska.</contactSupportLink>
+amex-logo-alt-text = Logo { -brand-amex }
+diners-logo-alt-text = Logo { -brand-diner }
+discover-logo-alt-text = Logo { -brand-discover }
+jcb-logo-alt-text = Logo { -brand-jcb }
+mastercard-logo-alt-text = Logo { -brand-mastercard }
+paypal-logo-alt-text = Logo { -brand-paypal }
+unionpay-logo-alt-text = Logo { -brand-unionpay }
+visa-logo-alt-text = Logo { -brand-visa }
+# Alt text for generic payment card logo
+unbranded-logo-alt-text = Logo bźez marki
 
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -83,8 +93,39 @@ next-payment-confirmation-download-button = Dalej k ześěgnjenjeju
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Kórta, kótaraž se na { $last4 } kóńcy
 
+## Layout - Subscription Management
+
+subscription-management-breadcrumb-account-home = Startowy bok konta
+subscription-management-breadcrumb-subscriptions = Abonementy
+subscription-management-account-profile-picture = Kontowy profilowy wobraz
+
 ## Page - Subscription Management
 
+subscription-management-payment-information-heading = Płaśeńske informacije
+subscription-management-button-add-payment-method-aria = Płaśeńsku metodu pśidaś
+subscription-management-button-add-payment-method = Pśidaś
+subscription-management-button-change-payment-method-aria = Płaśeńsku metodu změniś
+subscription-management-button-change-payment-method = Změniś
+# $last4 (String) - Last four numbers of credit card
+subscription-management-card-ending-in = Kórta, kótaraž se na { $last4 } kóńcy
+# $expirationDate (Date) - Payment card's expiration date
+subscription-management-card-expires-date = Spadnjo { $expirationDate }
+subscription-management-subscriptions-heading = Abonementy
+subscription-management-your-subscriptions-aria = Waše abonementy
+subscription-management-no-subscriptions = Hyšći abonementy njamaśo.
+subscription-management-button-cancel-subscription-aria = Abonement wupowěźeś
+subscription-management-button-cancel-subscription = Wupowěźeś
+subscription-management-your-apple-iap-subscriptions-aria = Waše abonementy w nałoženju { -brand-apple }
+subscription-management-apple-in-app-purchase = { -brand-apple }: Kup w nałoženju
+subscription-management-your-google-iap-subscriptions-aria = Waše abonementy w nałoženju { -brand-google }
+subscription-management-google-in-app-purchase = { -brand-google }: Kup w nałoženju
+# $date (String) - Date of next bill
+subscription-management-iap-sub-next-bill = Pśiduca zliceńka: { $date }
+# $date (String) - Date of In-App purchase expires
+subscription-management-iap-sub-expires-on = Spadnjo { $date }
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscription-management-button-manage-subscription-aria = Abonement za { $productName } zastojaś
+subscription-management-button-manage-subscription = Zastojaś
 # Page - Not Found
 page-not-found-title = Bok njejo se namakał
 page-not-found-description = Bok, kótaryž sćo pominał, njejo se namakał. Smy powěsć dostali a pórěźamy njepłaśiwe wótkaze.

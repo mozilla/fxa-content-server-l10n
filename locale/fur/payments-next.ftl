@@ -112,6 +112,12 @@ subscription-management-your-subscriptions-aria = I tiei abonaments
 subscription-management-no-subscriptions = No tu âs ancjemò nissun abonament
 subscription-management-button-cancel-subscription-aria = Anule l'abonament
 subscription-management-button-cancel-subscription = Anule
+subscription-management-your-apple-iap-subscriptions-aria = I tiei abonaments te aplicazion vie { -brand-apple }
+subscription-management-apple-in-app-purchase = { -brand-apple }: compre te aplicazion
+subscription-management-your-google-iap-subscriptions-aria = I tiei abonaments te aplicazion vie { -brand-google }
+subscription-management-google-in-app-purchase = { -brand-google }: compre te aplicazion
+# $date (String) - Date of next bill
+subscription-management-iap-sub-next-bill = Prossim adebit al/ai { $date }
 # Page - Not Found
 page-not-found-title = Pagjine no cjatade
 page-not-found-description = La pagjine domandade no je stade cjatade. Nus è rivade la segnalazion dal probleme e o comedarìn i eventuâi colegaments che no funzionin.

@@ -693,6 +693,32 @@ flow-setup-2fa-backup-code-dl-heading = Kod za zawěsćeńske awtentificěrowanj
 flow-setup-2fa-backup-code-dl-save-these-codes = Wobchowajśo je na městnje, na kótarež se dopominaśo. Jolic pśistup k swójomu nałoženjeju awtentifikacije njamaśo, musyśo jaden zapódaś, aby se pśizjawił.
 flow-setup-2fa-backup-code-dl-button-continue = Dalej
 
+##
+
+flow-setup-2fa-inline-complete-success-banner = Dwójokšacowa awtentifikacija jo se zmóžniła
+flow-setup-2fa-inline-complete-backup-code = Kody za zawěsćeńsku awtentifikaciju
+flow-setup-2fa-inline-complete-backup-phone = Wótnowjeński telefon
+# $count (Number) - an integer representing the number of backup
+# authentication codes remaining
+flow-setup-2fa-inline-complete-backup-code-info =
+    { $count ->
+        [one] { $count } kod wušej
+        [two] { $count } koda wušej
+        [few] { $count } kody wušej
+       *[other] { $count } kodow wušej
+    }
+flow-setup-2fa-inline-complete-backup-code-description = To jo nejwěsćejša wótnowjeńska metoda, jolic njamóžośo se swójim mobilnym rědom abo awtentifikaciskim nałoženim pśizjawiś.
+flow-setup-2fa-inline-complete-backup-phone-description = To jo nejlažčejša wótnowjeńska metoda, jolic njamóžośo se swójim awtentifikaciskim nałoženim pśizjawiś.
+flow-setup-2fa-inline-complete-learn-more-link = Kak to wašo konto šćita
+# $serviceName (String) - the name of the product that the user will be
+# redirected to.
+flow-setup-2fa-inline-complete-continue-button = Dalej k { $serviceName }
+flow-setup-2fa-prompt-heading = Dwójokšacowu awtentifikaciju konfigurěrowaś
+# Variable { $serviceName } is the name of the product (e.g. Firefox Add-ons)
+# that requests two-step authentication setup.
+flow-setup-2fa-prompt-description = { $serviceName } pomina, až dwójokšacowu awtentifikaciju konfigurěrujośo, aby wašo konto wěste wóstało.
+flow-setup-2fa-prompt-continue-button = Dalej
+
 ## FlowSetupPhoneConfirmCode
 
 # verification code refers to a code sent by text message to confirm phone number ownership
@@ -731,6 +757,8 @@ header-menu-open = Meni zacyniś
 header-menu-closed = Meni sedłoweje nawigacije
 header-back-to-top-link =
     .title = Slědk górjej
+header-back-to-settings-link =
+    .title = Slědk k nastajenjam { -product-mozilla-account }
 header-title-2 = { -product-mozilla-account }
 header-help = Pomoc
 
