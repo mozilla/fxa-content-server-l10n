@@ -34,6 +34,8 @@ mastercard-logo-alt-text = { -brand-mastercard }-logo
 paypal-logo-alt-text = { -brand-paypal }-logo
 unionpay-logo-alt-text = { -brand-unionpay }-logo
 visa-logo-alt-text = { -brand-visa }-logo
+# Alt text for generic payment card logo
+unbranded-logo-alt-text = Merkloos logo
 
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -99,18 +101,27 @@ subscription-management-account-profile-picture = Accountprofielafbeelding
 subscription-management-payment-information-heading = Betalingsgegevens
 subscription-management-button-add-payment-method-aria = Betalingsmethode toevoegen
 subscription-management-button-add-payment-method = Toevoegen
+subscription-management-button-change-payment-method-aria = Betalingsmethode wijzigen
 subscription-management-button-change-payment-method = Wijzigen
 # $last4 (String) - Last four numbers of credit card
 subscription-management-card-ending-in = Creditcard eindigend op { $last4 }
 # $expirationDate (Date) - Payment card's expiration date
 subscription-management-card-expires-date = Vervalt op { $expirationDate }
 subscription-management-subscriptions-heading = Abonnementen
+subscription-management-your-subscriptions-aria = Uw abonnementen
+subscription-management-no-subscriptions = U hebt nog geen abonnementen
 subscription-management-button-cancel-subscription-aria = Abonnement opzeggen
 subscription-management-button-cancel-subscription = Opzeggen
+subscription-management-your-apple-iap-subscriptions-aria = Uw { -brand-apple }-in-app-abonnementen
+subscription-management-apple-in-app-purchase = { -brand-apple }: in-app-aankoop
+subscription-management-your-google-iap-subscriptions-aria = Uw { -brand-google }-in-app-abonnementen
+subscription-management-google-in-app-purchase = { -brand-google }: in-app-aankoop
 # $date (String) - Date of next bill
 subscription-management-iap-sub-next-bill = Volgende incasso op { $date }
 # $date (String) - Date of In-App purchase expires
 subscription-management-iap-sub-expires-on = Vervalt op { $date }
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscription-management-button-manage-subscription-aria = Abonnement voor { $productName } beheren
 subscription-management-button-manage-subscription = Beheren
 # Page - Not Found
 page-not-found-title = Pagina niet gevonden

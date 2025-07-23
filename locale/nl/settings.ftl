@@ -692,10 +692,25 @@ flow-setup-2fa-backup-code-dl-button-continue = Doorgaan
 flow-setup-2fa-inline-complete-success-banner = Authenticatie in twee stappen ingeschakeld
 flow-setup-2fa-inline-complete-backup-code = Reserve-authenticatiecodes
 flow-setup-2fa-inline-complete-backup-phone = Hersteltelefoonnummer
+# $count (Number) - an integer representing the number of backup
+# authentication codes remaining
+flow-setup-2fa-inline-complete-backup-code-info =
+    { $count ->
+        [one] { $count } code resterend
+       *[other] { $count } codes resterend
+    }
+flow-setup-2fa-inline-complete-backup-code-description = Dit is de veiligste herstelmethode als u zich niet kunt aanmelden met uw mobiele apparaat of authenticator-app.
+flow-setup-2fa-inline-complete-backup-phone-description = Dit is de eenvoudigste herstelmethode als u zich niet kunt aanmelden met uw authenticator-app.
 flow-setup-2fa-inline-complete-learn-more-link = Hoe dit uw account beschermt
 # $serviceName (String) - the name of the product that the user will be
 # redirected to.
 flow-setup-2fa-inline-complete-continue-button = Doorgaan naar { $serviceName }
+flow-setup-2fa-prompt-heading = Authenticatie in twee stappen instellen
+# Variable { $serviceName } is the name of the product (e.g. Firefox Add-ons)
+# that requests two-step authentication setup.
+flow-setup-2fa-prompt-description = { $serviceName } vereist dat u authenticatie in twee stappen instelt om uw account veilig te houden.
+# "these authenticator apps" links to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+flow-setup-2fa-prompt-use-authenticator-apps = U kunt elk van <authenticationAppsLink>deze authenticator-apps</authenticationAppsLink> gebruiken om verder te gaan.
 flow-setup-2fa-prompt-continue-button = Doorgaan
 
 ## FlowSetupPhoneConfirmCode
@@ -736,6 +751,8 @@ header-menu-open = Menu sluiten
 header-menu-closed = Websitenavigatiemenu
 header-back-to-top-link =
     .title = Naar boven
+header-back-to-settings-link =
+    .title = Terug naar instellingen voor { -product-mozilla-account }
 header-title-2 = { -product-mozilla-account }
 header-help = Help
 
@@ -1333,6 +1350,10 @@ auth-error-1067 = Hebt u het e-mailadres verkeerd getypt?
 # Variables:
 #  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
 recovery-phone-number-ending-digits = Nummer eindigend op { $lastFourPhoneNumber }
+# This error is shown when there is a particular kind of error at the very end of the 2FA flow
+# and the user should begin it again. A system/device clock not being synced to the internet time is
+# a common problem when using 2FA.
+two-factor-auth-setup-token-verification-error = Er is een probleem opgetreden bij het inschakelen van authenticatie in twee stappen. Controleer of de klok van uw apparaat is ingesteld om automatisch bij te werken en <a>begin opnieuw</a>.
 oauth-error-1000 = Er is iets misgegaan. Sluit dit tabblad en probeer het opnieuw.
 
 ## Cannot Create Account page
