@@ -692,15 +692,15 @@ flow-setup-2fa-inline-complete-backup-phone = Numéro de téléphone de secours
 # authentication codes remaining
 flow-setup-2fa-inline-complete-backup-code-info =
     { $count ->
-        [one] { $count } de code restant
+        [one] { $count } code restant
        *[other] { $count } codes restants
     }
 flow-setup-2fa-inline-complete-backup-code-description = Il s’agit de la méthode de récupération la plus sûre si vous ne pouvez pas vous connecter avec votre appareil mobile ou l’application d’authentification.
-flow-setup-2fa-inline-complete-backup-phone-description = C’est la méthode de récupération la plus simple si vous ne pouvez pas vous connecter avec votre application d’authentification.
+flow-setup-2fa-inline-complete-backup-phone-description = Il s’agit de la méthode de récupération la plus simple si vous ne pouvez pas vous connecter avec votre application d’authentification.
 flow-setup-2fa-inline-complete-learn-more-link = En quoi cela protège votre compte
 # $serviceName (String) - the name of the product that the user will be
 # redirected to.
-flow-setup-2fa-inline-complete-continue-button = Continuez vers { $serviceName }
+flow-setup-2fa-inline-complete-continue-button = Continuer vers { $serviceName }
 flow-setup-2fa-prompt-heading = Configurer l’authentification en deux étapes
 # Variable { $serviceName } is the name of the product (e.g. Firefox Add-ons)
 # that requests two-step authentication setup.
@@ -748,7 +748,7 @@ header-menu-closed = Menu de navigation du site
 header-back-to-top-link =
     .title = Haut de la page
 header-back-to-settings-link =
-    .title = Retour aux paramètres de { -product-mozilla-account }
+    .title = Retour aux paramètres du { -product-mozilla-account }
 header-title-2 = { -product-mozilla-account(capitalization: "uppercase") }
 header-help = Aide
 

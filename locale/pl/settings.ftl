@@ -687,6 +687,33 @@ flow-setup-2fa-backup-code-dl-heading = Zapisz zapasowe kody uwierzytelniania
 flow-setup-2fa-backup-code-dl-save-these-codes = Przechowuj je w miejscu, którego nie zapomnisz. Musisz wpisać jeden z nich, jeśli nie masz dostępu do aplikacji uwierzytelniającej.
 flow-setup-2fa-backup-code-dl-button-continue = Kontynuuj
 
+##
+
+flow-setup-2fa-inline-complete-success-banner = Włączono uwierzytelnianie dwuetapowe
+flow-setup-2fa-inline-complete-backup-code = Zapasowe kody uwierzytelniania
+flow-setup-2fa-inline-complete-backup-phone = Telefon odzyskiwania
+# $count (Number) - an integer representing the number of backup
+# authentication codes remaining
+flow-setup-2fa-inline-complete-backup-code-info =
+    { $count ->
+        [one] Pozostał { $count } kod
+        [few] Pozostały { $count } kody
+       *[many] Pozostało { $count } kodów
+    }
+flow-setup-2fa-inline-complete-backup-code-description = To najbezpieczniejsza metoda odzyskiwania, jeśli nie możesz zalogować się za pomocą telefonu lub aplikacji uwierzytelniającej.
+flow-setup-2fa-inline-complete-backup-phone-description = To najłatwiejsza metoda odzyskiwania, jeśli nie możesz zalogować się za pomocą aplikacji uwierzytelniającej.
+flow-setup-2fa-inline-complete-learn-more-link = W jaki sposób chroni to Twoje konto
+# $serviceName (String) - the name of the product that the user will be
+# redirected to.
+flow-setup-2fa-inline-complete-continue-button = Przejdź do usługi { $serviceName }
+flow-setup-2fa-prompt-heading = Skonfiguruj uwierzytelnianie dwuetapowe
+# Variable { $serviceName } is the name of the product (e.g. Firefox Add-ons)
+# that requests two-step authentication setup.
+flow-setup-2fa-prompt-description = { $serviceName } wymaga skonfigurowania uwierzytelniania dwuetapowego w celu zapewnienia bezpieczeństwa Twojego konta.
+# "these authenticator apps" links to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+flow-setup-2fa-prompt-use-authenticator-apps = Aby kontynuować, możesz użyć dowolnej z <authenticationAppsLink>tych aplikacji uwierzytelniających</authenticationAppsLink>.
+flow-setup-2fa-prompt-continue-button = Kontynuuj
+
 ## FlowSetupPhoneConfirmCode
 
 # verification code refers to a code sent by text message to confirm phone number ownership

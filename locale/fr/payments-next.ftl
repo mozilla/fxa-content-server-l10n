@@ -99,17 +99,17 @@ subscription-management-account-profile-picture = Image de profil du compte
 ## Page - Subscription Management
 
 subscription-management-payment-information-heading = Informations de paiement
-subscription-management-button-add-payment-method-aria = Ajouter un mode de paiement
+subscription-management-button-add-payment-method-aria = Ajouter un moyen de paiement
 subscription-management-button-add-payment-method = Ajouter
-subscription-management-button-change-payment-method-aria = Changer de mode de paiement
-subscription-management-button-change-payment-method = Modifier
+subscription-management-button-change-payment-method-aria = Changer de moyen de paiement
+subscription-management-button-change-payment-method = Changer
 # $last4 (String) - Last four numbers of credit card
 subscription-management-card-ending-in = Carte se terminant par { $last4 }
 # $expirationDate (Date) - Payment card's expiration date
 subscription-management-card-expires-date = Expiration : { $expirationDate }
 subscription-management-subscriptions-heading = Abonnements
 subscription-management-your-subscriptions-aria = Vos abonnements
-subscription-management-no-subscriptions = Vous n'avez aucun abonnement pour l'instant
+subscription-management-no-subscriptions = Vous n’avez aucun abonnement pour l’instant
 subscription-management-button-cancel-subscription-aria = Annuler l’abonnement
 subscription-management-button-cancel-subscription = Annuler
 subscription-management-your-apple-iap-subscriptions-aria = Vos { -brand-apple } abonnements in-app

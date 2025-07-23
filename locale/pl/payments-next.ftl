@@ -26,6 +26,14 @@ upgrade-page-acknowledgment = Twój plan zmieni się natychmiast, a dzisiejsza 
 auth-error-page-title = Nie można się zalogować
 checkout-error-boundary-retry-button = Spróbuj ponownie
 checkout-error-boundary-basic-error-message = Coś się nie powiodło. Proszę spróbować ponownie lub <contactSupportLink>skontaktować się z zespołem wsparcia</contactSupportLink>.
+amex-logo-alt-text = Logo { -brand-amex }
+diners-logo-alt-text = Logo { -brand-diner }
+discover-logo-alt-text = Logo { -brand-discover }
+jcb-logo-alt-text = Logo { -brand-jcb }
+mastercard-logo-alt-text = Logo { -brand-mastercard }
+paypal-logo-alt-text = Logo { -brand-paypal }
+unionpay-logo-alt-text = Logo { -brand-unionpay }
+visa-logo-alt-text = Logo { -brand-visa }
 
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -80,8 +88,32 @@ next-payment-confirmation-download-button = Kontynuuj, aby pobrać
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Karta kończąca się na { $last4 }
 
+## Layout - Subscription Management
+
+subscription-management-breadcrumb-subscriptions = Subskrypcje
+subscription-management-account-profile-picture = Zdjęcie profilowe konta
+
 ## Page - Subscription Management
 
+subscription-management-payment-information-heading = Informacje o płatnościach
+subscription-management-button-add-payment-method-aria = Dodaj metodę płatności
+subscription-management-button-add-payment-method = Dodaj
+subscription-management-button-change-payment-method-aria = Zmień metodę płatności
+subscription-management-button-change-payment-method = Zmień
+# $last4 (String) - Last four numbers of credit card
+subscription-management-card-ending-in = Karta kończąca się na { $last4 }
+# $expirationDate (Date) - Payment card's expiration date
+subscription-management-card-expires-date = Wygasa { $expirationDate }
+subscription-management-subscriptions-heading = Subskrypcje
+subscription-management-your-subscriptions-aria = Twoje subskrypcje
+subscription-management-no-subscriptions = Nie masz jeszcze żadnych subskrypcji
+subscription-management-button-cancel-subscription-aria = Anuluj subskrypcję
+subscription-management-button-cancel-subscription = Anuluj
+# $date (String) - Date of next bill
+subscription-management-iap-sub-next-bill = Następna płatność: { $date }
+# $date (String) - Date of In-App purchase expires
+subscription-management-iap-sub-expires-on = Wygasa { $date }
+subscription-management-button-manage-subscription = Zarządzaj
 # Page - Not Found
 page-not-found-title = Nie odnaleziono strony
 page-not-found-description = Nie odnaleziono żądanej strony. Powiadomiono administratora, który naprawi błędne odnośniki.
