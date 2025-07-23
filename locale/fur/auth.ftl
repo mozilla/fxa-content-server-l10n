@@ -693,6 +693,7 @@ subscriptionUpgrade-upgrade-info-2 = L'inzornament a { $productName } al è stâ
 ## $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
+subscriptionUpgrade-content-charge-prorated-1 = Une tarife una tantum di { $invoiceAmountDue } e je stade contizade a ti par rifleti il presit plui alt dal to abonament pal rest di chest periodi di faturazion ({ $productPaymentCycleOld }).
 subscriptionUpgrade-content-charge-credit = Tu âs ricevût un credit di { $paymentProrated } sul cont.
 subscriptionUpgrade-content-starting = Scomençant de prossime fature, il to adebit al cambiarà di { $paymentAmountOld } par { $productPaymentCycleOld } a { $paymentAmountNew } par { $productPaymentCycleNew }.
 # Variables:

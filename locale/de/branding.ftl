@@ -49,7 +49,7 @@
 -brand-diners = Diners Club
 -brand-discover = Discover
 -brand-jcb = JCB
--brand-mastercard = MasterCard
+-brand-mastercard = Mastercard
 -brand-unionpay = UnionPay
 -brand-visa = Visa
 -app-store = App Store
