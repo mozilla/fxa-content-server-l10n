@@ -687,6 +687,17 @@ flow-setup-2fa-backup-code-dl-heading = Reserve-authenticatiecodes opslaan
 flow-setup-2fa-backup-code-dl-save-these-codes = Bewaar deze op een plek die u kunt onthouden. Als u geen toegang hebt tot uw authenticator-app, moet u een van de codes invoeren om aan te melden.
 flow-setup-2fa-backup-code-dl-button-continue = Doorgaan
 
+##
+
+flow-setup-2fa-inline-complete-success-banner = Authenticatie in twee stappen ingeschakeld
+flow-setup-2fa-inline-complete-backup-code = Reserve-authenticatiecodes
+flow-setup-2fa-inline-complete-backup-phone = Hersteltelefoonnummer
+flow-setup-2fa-inline-complete-learn-more-link = Hoe dit uw account beschermt
+# $serviceName (String) - the name of the product that the user will be
+# redirected to.
+flow-setup-2fa-inline-complete-continue-button = Doorgaan naar { $serviceName }
+flow-setup-2fa-prompt-continue-button = Doorgaan
+
 ## FlowSetupPhoneConfirmCode
 
 # verification code refers to a code sent by text message to confirm phone number ownership

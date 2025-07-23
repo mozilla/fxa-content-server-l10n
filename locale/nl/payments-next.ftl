@@ -26,6 +26,14 @@ upgrade-page-acknowledgment = Uw abonnement wijzigt direct, en er wordt een prop
 auth-error-page-title = We konden u niet aanmelden
 checkout-error-boundary-retry-button = Opnieuw proberen
 checkout-error-boundary-basic-error-message = Er is iets misgegaan. Probeer het opnieuw of <contactSupportLink>neem contact op met de ondersteuningsafdeling.</contactSupportLink>
+amex-logo-alt-text = { -brand-amex }-logo
+diners-logo-alt-text = { -brand-diner }-logo
+discover-logo-alt-text = { -brand-discover }-logo
+jcb-logo-alt-text = { -brand-jcb }-logo
+mastercard-logo-alt-text = { -brand-mastercard }-logo
+paypal-logo-alt-text = { -brand-paypal }-logo
+unionpay-logo-alt-text = { -brand-unionpay }-logo
+visa-logo-alt-text = { -brand-visa }-logo
 
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -80,8 +88,30 @@ next-payment-confirmation-download-button = Doorgaan naar download
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Creditcard eindigend op { $last4 }
 
+## Layout - Subscription Management
+
+subscription-management-breadcrumb-account-home = Account-startpagina
+subscription-management-breadcrumb-subscriptions = Abonnementen
+subscription-management-account-profile-picture = Accountprofielafbeelding
+
 ## Page - Subscription Management
 
+subscription-management-payment-information-heading = Betalingsgegevens
+subscription-management-button-add-payment-method-aria = Betalingsmethode toevoegen
+subscription-management-button-add-payment-method = Toevoegen
+subscription-management-button-change-payment-method = Wijzigen
+# $last4 (String) - Last four numbers of credit card
+subscription-management-card-ending-in = Creditcard eindigend op { $last4 }
+# $expirationDate (Date) - Payment card's expiration date
+subscription-management-card-expires-date = Vervalt op { $expirationDate }
+subscription-management-subscriptions-heading = Abonnementen
+subscription-management-button-cancel-subscription-aria = Abonnement opzeggen
+subscription-management-button-cancel-subscription = Opzeggen
+# $date (String) - Date of next bill
+subscription-management-iap-sub-next-bill = Volgende incasso op { $date }
+# $date (String) - Date of In-App purchase expires
+subscription-management-iap-sub-expires-on = Vervalt op { $date }
+subscription-management-button-manage-subscription = Beheren
 # Page - Not Found
 page-not-found-title = Pagina niet gevonden
 page-not-found-description = De opgevraagde pagina is niet gevonden. We zijn op de hoogte en zullen koppelingen die mogelijk niet werken herstellen.

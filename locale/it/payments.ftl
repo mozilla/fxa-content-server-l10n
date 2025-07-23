@@ -151,7 +151,7 @@ payment-processing-message = Attendi mentre elaboriamo il tuo pagamento…
 
 ## Component - PaymentProviderDetails
 
-payment-confirmation-cc-card-ending-in = La carta termina con { $last4 }
+payment-confirmation-cc-card-ending-in = Carta che termina con { $last4 }
 
 ## Component - PayPalButton
 

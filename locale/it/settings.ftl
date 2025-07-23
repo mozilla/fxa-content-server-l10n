@@ -706,7 +706,7 @@ flow-setup-2fa-prompt-heading = Configura l’autenticazione in due passaggi
 # that requests two-step authentication setup.
 flow-setup-2fa-prompt-description = { $serviceName } richiede la configurazione dell’autenticazione in due passaggi per mantenere il tuo account al sicuro.
 # "these authenticator apps" links to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
-flow-setup-2fa-prompt-use-authenticator-apps = Per procedere puoi utilizzare <authenticationAppsLink>queste app di autenticazione</authenticationAppsLink>.
+flow-setup-2fa-prompt-use-authenticator-apps = Per procedere puoi utilizzare una di <authenticationAppsLink>queste app di autenticazione</authenticationAppsLink>.
 flow-setup-2fa-prompt-continue-button = Continua
 
 ## FlowSetupPhoneConfirmCode
