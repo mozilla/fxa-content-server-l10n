@@ -114,6 +114,14 @@ subscription-management-button-cancel-subscription-aria = Avbryt abonnement
 subscription-management-button-cancel-subscription = Avbryt
 subscription-management-your-apple-iap-subscriptions-aria = Dine { -brand-apple }-abonnement i appen
 subscription-management-apple-in-app-purchase = { -brand-apple }: Kjøp i appen
+subscription-management-your-google-iap-subscriptions-aria = Dine { -brand-google }-abonnement i appen
+subscription-management-google-in-app-purchase = { -brand-google }: Kjøp i appen
+# $date (String) - Date of next bill
+subscription-management-iap-sub-next-bill = Neste fakturering den { $date }
+# $date (String) - Date of In-App purchase expires
+subscription-management-iap-sub-expires-on = Går ut { $date }
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscription-management-button-manage-subscription-aria = Administrer abonnement for { $productName }
 subscription-management-button-manage-subscription = Handsam
 # Page - Not Found
 page-not-found-title = Fann ikkje sida

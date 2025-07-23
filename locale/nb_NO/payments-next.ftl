@@ -26,6 +26,16 @@ upgrade-page-acknowledgment = Abonnementet ditt endres umiddelbart, og du blir b
 auth-error-page-title = Vi kunne ikke logge deg inn
 checkout-error-boundary-retry-button = Prøv igjen
 checkout-error-boundary-basic-error-message = Noe gikk galt. Prøv igjen, eller <contactSupportLink>kontakt kundestøtte.</contactSupportLink>
+amex-logo-alt-text = { -brand-amex }-logo
+diners-logo-alt-text = { -brand-diner }-logo
+discover-logo-alt-text = { -brand-discover }-logo
+jcb-logo-alt-text = { -brand-jcb }-logo
+mastercard-logo-alt-text = { -brand-mastercard }-logo
+paypal-logo-alt-text = { -brand-paypal }-logo
+unionpay-logo-alt-text = { -brand-unionpay }-logo
+visa-logo-alt-text = { -brand-visa }-logo
+# Alt text for generic payment card logo
+unbranded-logo-alt-text = Umerket logo
 
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -80,8 +90,19 @@ next-payment-confirmation-download-button = Fortsett til nedlasting
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Kort som slutter på { $last4 }
 
+## Layout - Subscription Management
+
+subscription-management-breadcrumb-account-home = Startside for kontoen
+subscription-management-breadcrumb-subscriptions = Abonnementer
+subscription-management-account-profile-picture = Kontoprofilbilde
+
 ## Page - Subscription Management
 
+subscription-management-payment-information-heading = Betalingsinformasjon
+subscription-management-button-add-payment-method-aria = Legg til betalingsmåte
+subscription-management-button-add-payment-method = Legg til
+subscription-management-button-change-payment-method-aria = Endre betalingsmåte
+subscription-management-button-change-payment-method = Endre
 # Page - Not Found
 page-not-found-title = Fant ikke siden
 page-not-found-description = Siden du ba om ble ikke funnet. Vi har blitt varslet og vil fikse eventuelle lenker som ikke virker.

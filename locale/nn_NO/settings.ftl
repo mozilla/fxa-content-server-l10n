@@ -692,6 +692,19 @@ flow-setup-2fa-backup-code-dl-button-continue = Hald fram
 flow-setup-2fa-inline-complete-success-banner = Tostegs-autentisering aktivert
 flow-setup-2fa-inline-complete-backup-code = Reserve-autentiseringskodar
 flow-setup-2fa-inline-complete-backup-phone = Gjenopprettingstelefon
+# $count (Number) - an integer representing the number of backup
+# authentication codes remaining
+flow-setup-2fa-inline-complete-backup-code-info =
+    { $count ->
+        [one] { $count } kode står att
+       *[other] { $count } kodar står att
+    }
+flow-setup-2fa-inline-complete-backup-code-description = Dette er den sikraste gjenopprettingsmetoden om du ikkje kan logge på med mobileininga eller autentiseringsappen din.
+flow-setup-2fa-inline-complete-backup-phone-description = Dette er den enklaste gjenopprettingsmetoden om du ikkje kan logge på med autentiseringsappen din.
+flow-setup-2fa-inline-complete-learn-more-link = Korleis dette vernar kontoen din
+# $serviceName (String) - the name of the product that the user will be
+# redirected to.
+flow-setup-2fa-inline-complete-continue-button = Hald fram til { $serviceName }
 flow-setup-2fa-prompt-continue-button = Hald fram
 
 ## FlowSetupPhoneConfirmCode
