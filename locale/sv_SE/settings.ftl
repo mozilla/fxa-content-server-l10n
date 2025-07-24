@@ -690,7 +690,17 @@ flow-setup-2fa-backup-code-dl-button-continue = Fortsätt
 ##
 
 flow-setup-2fa-inline-complete-success-banner = Tvåstegsautentisering aktiverad
+flow-setup-2fa-inline-complete-backup-code = Säkerhetskopiera autentiseringskoder
 flow-setup-2fa-inline-complete-backup-phone = Telefon för återställning
+# $count (Number) - an integer representing the number of backup
+# authentication codes remaining
+flow-setup-2fa-inline-complete-backup-code-info =
+    { $count ->
+        [one] { $count } kod återstår
+       *[other] { $count } koder återstår
+    }
+flow-setup-2fa-inline-complete-backup-code-description = Detta är den säkraste återställningsmetoden om du inte kan logga in med din mobila enhet eller autentiseringsapp.
+flow-setup-2fa-inline-complete-backup-phone-description = Detta är den enklaste återställningsmetoden om du inte kan logga in med din autentiseringsapp.
 flow-setup-2fa-inline-complete-learn-more-link = Hur detta skyddar ditt konto
 # $serviceName (String) - the name of the product that the user will be
 # redirected to.
@@ -699,6 +709,8 @@ flow-setup-2fa-prompt-heading = Ställ in tvåstegsautentisering
 # Variable { $serviceName } is the name of the product (e.g. Firefox Add-ons)
 # that requests two-step authentication setup.
 flow-setup-2fa-prompt-description = { $serviceName } kräver att du konfigurerar tvåstegsautentisering för att skydda ditt konto.
+# "these authenticator apps" links to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+flow-setup-2fa-prompt-use-authenticator-apps = Du kan använda någon av <authenticationAppsLink>dessa autentiseringsappar</authenticationAppsLink> för att fortsätta.
 flow-setup-2fa-prompt-continue-button = Fortsätt
 
 ## FlowSetupPhoneConfirmCode
@@ -739,6 +751,8 @@ header-menu-open = Stäng meny
 header-menu-closed = Menyn för webbplatsnavigering
 header-back-to-top-link =
     .title = Tillbaka till toppen
+header-back-to-settings-link =
+    .title = Tillbaka till inställningarna för { -product-mozilla-account }
 header-title-2 = { -product-mozilla-account }
 header-help = Hjälp
 
@@ -1338,6 +1352,10 @@ auth-error-1067 = Skrev du fel e-postadress?
 # Variables:
 #  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
 recovery-phone-number-ending-digits = Nummer som slutar på { $lastFourPhoneNumber }
+# This error is shown when there is a particular kind of error at the very end of the 2FA flow
+# and the user should begin it again. A system/device clock not being synced to the internet time is
+# a common problem when using 2FA.
+two-factor-auth-setup-token-verification-error = Det uppstod ett problem med att aktivera tvåstegsautentisering. Kontrollera att enhetens klocka är inställd för att uppdateras automatiskt och <a>börja om</a>.
 oauth-error-1000 = Något gick fel. Stäng den här fliken och försök igen.
 
 ## Cannot Create Account page

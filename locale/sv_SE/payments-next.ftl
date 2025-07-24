@@ -112,9 +112,9 @@ subscription-management-your-subscriptions-aria = Dina prenumerationer
 subscription-management-no-subscriptions = Du har inga prenumerationer än
 subscription-management-button-cancel-subscription-aria = Avbryt prenumeration
 subscription-management-button-cancel-subscription = Avbryt
-subscription-management-your-apple-iap-subscriptions-aria = Dina { -brand-apple }-prenumerationer i appen
+subscription-management-your-apple-iap-subscriptions-aria = Dina prenumerationer i { -brand-apple }-appen
 subscription-management-apple-in-app-purchase = { -brand-apple }: Köp i appen
-subscription-management-your-google-iap-subscriptions-aria = Dina { -brand-google }-prenumerationer i appen
+subscription-management-your-google-iap-subscriptions-aria = Dina prenumerationer i { -brand-google }-appen
 subscription-management-google-in-app-purchase = { -brand-google }: Köp i appen
 # $date (String) - Date of next bill
 subscription-management-iap-sub-next-bill = Nästa fakturering den { $date }
