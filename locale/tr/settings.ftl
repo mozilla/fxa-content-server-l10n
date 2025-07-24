@@ -709,6 +709,9 @@ flow-setup-2fa-prompt-heading = İki aşamalı kimlik doğrulamayı ayarla
 # Variable { $serviceName } is the name of the product (e.g. Firefox Add-ons)
 # that requests two-step authentication setup.
 flow-setup-2fa-prompt-description = { $serviceName }, hesabınızı güvende tutmak için iki aşamalı kimlik doğrulamasını ayarlamanızı gerektiriyor.
+# "these authenticator apps" links to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+flow-setup-2fa-prompt-use-authenticator-apps = Devam etmek için <authenticationAppsLink>bu kimlik doğrulama uygulamalarından</authenticationAppsLink> herhangi birini kullanabilirsiniz.
+flow-setup-2fa-prompt-continue-button = Devam et
 
 ## FlowSetupPhoneConfirmCode
 
@@ -748,6 +751,8 @@ header-menu-open = Menüyü kapat
 header-menu-closed = Site gezinti menüsü
 header-back-to-top-link =
     .title = Başa dön
+header-back-to-settings-link =
+    .title = { -product-mozilla-account } ayarlarına dön
 header-title-2 = { -product-mozilla-account }
 header-help = Yardım
 
