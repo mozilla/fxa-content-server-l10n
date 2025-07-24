@@ -193,6 +193,8 @@ next-new-user-card-title = Zapodajśo swóje kórtowe informacije
 
 next-plan-details-header = Produktowe drobnostki
 next-plan-details-list-price = Lisćinowa płaśizna
+# $productName (String) - The name of the product, e.g. Mozilla VPN
+plan-details-product-prorated-price = Późělna płaśizna za { $productName }
 next-plan-details-tax = Danki a płaśonki
 next-plan-details-total-label = Dogromady
 # "Unused time" refers to the remaining value of the current subscription that hasn't been used yet
