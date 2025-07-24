@@ -676,6 +676,14 @@ flow-setup-2fa-inline-complete-backup-code-info =
        *[other] נותרו { $count } קודים
     }
 flow-setup-2fa-inline-complete-backup-code-description = זוהי שיטת השחזור הבטוחה ביותר אם אין באפשרותך להתחבר באמצעות המכשיר הנייד או היישומון המאמת שלך.
+flow-setup-2fa-inline-complete-learn-more-link = כיצד זה מגן על החשבון שלך
+# $serviceName (String) - the name of the product that the user will be
+# redirected to.
+flow-setup-2fa-inline-complete-continue-button = המשך אל { $serviceName }
+flow-setup-2fa-prompt-heading = הגדרת אימות דו־שלבי
+# Variable { $serviceName } is the name of the product (e.g. Firefox Add-ons)
+# that requests two-step authentication setup.
+flow-setup-2fa-prompt-description = ‏{ $serviceName } דורש שיוגדר אימות דו־שלבי כדי לשמור על אבטחת החשבון שלך.
 
 ## FlowSetupPhoneConfirmCode
 

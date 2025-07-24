@@ -22,6 +22,8 @@ upgrade-page-payment-information = פרטי תשלום
 auth-error-page-title = לא הצלחנו להכניס אותך
 checkout-error-boundary-retry-button = ניסיון חוזר
 checkout-error-boundary-basic-error-message = משהו השתבש. נא לנסות שוב או <contactSupportLink>ליצור קשר עם התמיכה</contactSupportLink>.
+amex-logo-alt-text = הלוגו של { -brand-amex }
+diners-logo-alt-text = הלוגו של { -brand-diner }
 discover-logo-alt-text = הלוגו של { -brand-discover }
 jcb-logo-alt-text = הלוגו של { -brand-jcb }
 mastercard-logo-alt-text = הלוגו של { -brand-mastercard }
@@ -98,11 +100,16 @@ subscription-management-button-change-payment-method-aria = שינוי אמצע�
 subscription-management-button-change-payment-method = שינוי
 # $last4 (String) - Last four numbers of credit card
 subscription-management-card-ending-in = כרטיס המסתיים ב־{ $last4 }
+# $expirationDate (Date) - Payment card's expiration date
+subscription-management-card-expires-date = תאריך תוקף { $expirationDate }
 subscription-management-subscriptions-heading = מינויים
 subscription-management-your-subscriptions-aria = המינויים שלך
 subscription-management-no-subscriptions = אין לך מינויים עדיין.
 subscription-management-button-cancel-subscription-aria = ביטול מינוי
 subscription-management-button-cancel-subscription = ביטול
+subscription-management-your-apple-iap-subscriptions-aria = המינויים שלך מתוך היישומון ב־{ -brand-apple }
+subscription-management-apple-in-app-purchase = ‏{ -brand-apple }: רכישה מתוך היישומון
+subscription-management-your-google-iap-subscriptions-aria = המינויים שלך מתוך היישומון ב־{ -brand-google }
 subscription-management-google-in-app-purchase = ‏{ -brand-google }: רכישה מתוך היישומון
 # $date (String) - Date of next bill
 subscription-management-iap-sub-next-bill = החיוב הבא בתאריך { $date }
