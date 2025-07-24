@@ -41,9 +41,6 @@ checkout-error-contact-support = Por favor contacta con el servicio de asistenci
 cart-error-currency-not-determined = No hemos podido determinar la moneda para esta compra, por favor vuelve a intentarlo.
 checkout-processing-general-error = Ha ocurrido un error inesperado al procesar el pago, por favor prueba de nuevo.
 
-## Error pages - Payment method failure messages
-
-
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
 
@@ -72,6 +69,9 @@ next-payment-confirmation-download-button = Continuar para descargar
 
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Tarjeta que termina en { $last4 }
+
+## Page - Subscription Management
+
 # Page - Not Found
 page-not-found-title = Página no encontrada
 page-not-found-description = No se ha encontrado la página solicitada. Hemos sido notificados y arreglaremos cualquier enlace que pueda estar roto.
@@ -178,9 +178,6 @@ next-new-user-subscribe-product-updates-mozilla = Me gustaría recibir noticias 
 next-new-user-subscribe-product-updates-snp = Me gustaría recibir noticias y actualizaciones sobre seguridad y privacidad de { -brand-mozilla }
 next-new-user-subscribe-product-assurance = Utilizamos tu dirección únicamente para crear tu cuenta. Jamás la venderemos a terceros.
 
-## Component - PriceInterval
-
-
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
@@ -275,6 +272,3 @@ next-coupon-error-generic = Ha ocurrido un error procesando el código. Por favo
 next-coupon-error-invalid = El código que has introducido no es válido.
 # "Limit" refers to the maximum number of times a coupon can be redeemed.
 next-coupon-error-limit-reached = El código que has introducido ha alcanzado su límite.
-
-##
-

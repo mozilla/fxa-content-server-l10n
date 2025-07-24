@@ -202,6 +202,8 @@ next-new-user-card-title = Enter your card information
 
 next-plan-details-header = Product details
 next-plan-details-list-price = List Price
+# $productName (String) - The name of the product, e.g. Mozilla VPN
+plan-details-product-prorated-price = Prorated price for { $productName }
 next-plan-details-tax = Taxes and Fees
 next-plan-details-total-label = Total
 # "Unused time" refers to the remaining value of the current subscription that hasn't been used yet
@@ -306,7 +308,6 @@ upgrade-purchase-details-tax-label = Taxes and Fees
 # "Credit issued to account" refers to credit that will be added to the account balance that will be used toward future invoices
 upgrade-purchase-details-credit-to-account = Credit issued to account
 upgrade-purchase-details-credit-will-be-applied = Credit will be applied to your account and used towards future invoices.
-
 ## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
 upgrade-purchase-details-new-plan-daily = { $productName } (Daily)
