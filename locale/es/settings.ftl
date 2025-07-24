@@ -91,10 +91,6 @@ datablock-copy =
 datablock-print =
     .message = Imprimido
 
-## Success banners for datablock actions.
-## $count – number of codes
-
-
 ##
 
 # Tooltip notification when an account recovery key or one-time use code is copied.
@@ -759,9 +755,6 @@ tfa-replace-code-success-alert-4 = Códigos de autenticación de respaldo actual
 tfa-replace-code-1-2 = Paso 1 de 2
 tfa-replace-code-2-2 = Paso 2 de 2
 tfa-enter-code-to-confirm-v2 = Por favor, escribe uno de tus nuevos códigos de autenticación de respaldo para confirmar que los has guardado. Tus códigos de autenticación de respaldo antiguos se desactivarán una vez que completes este paso.
-
-## PageSetupRecoveryPhone
-
 
 ## Avatar change page
 
@@ -1544,13 +1537,6 @@ pair-wait-for-auth-heading-text = Se requiere aprobación <span>desde tu otro di
 pair-unsupported-header = Conectarse mediante una aplicación
 pair-unsupported-message = ¿Has usado la cámara del sistema? Tienes que conectarla desde una aplicación de { -brand-firefox }.
 
-## SetPassword page
-## Third party auth users that do not have a password set yet are prompted for a
-
-
-# password to complete their sign-in when they want to login to a service requiring it.
-
-
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
 
@@ -1940,7 +1926,3 @@ signup-pocket-info-banner = ¿Por qué necesito crear esta cuenta?
 signup-pocket-info-banner-link = Descúbrelo aquí
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = Cambiar correo
-
-## SignupConfirmedSync page
-## Shown to users when they finish confirming their account through Sync
-

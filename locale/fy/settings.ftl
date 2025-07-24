@@ -691,6 +691,32 @@ flow-setup-2fa-backup-code-dl-heading = Reserve-autentikaasjekoaden bewarje
 flow-setup-2fa-backup-code-dl-save-these-codes = Bewarje dizze op in plak dat jo ûnthâlde kinne. As jo gjin tagong hawwe ta jo autentikaasje-app, moatte jo in koade ynfiere om oan te melden.
 flow-setup-2fa-backup-code-dl-button-continue = Trochgean
 
+##
+
+flow-setup-2fa-inline-complete-success-banner = Autentikaasje yn twa stappen ynskeakele
+flow-setup-2fa-inline-complete-backup-code = Reserve-autentikaasjekoaden
+flow-setup-2fa-inline-complete-backup-phone = Wersteltelefoannûmer
+# $count (Number) - an integer representing the number of backup
+# authentication codes remaining
+flow-setup-2fa-inline-complete-backup-code-info =
+    { $count ->
+        [one] { $count } koade oer
+       *[other] { $count } koaden oer
+    }
+flow-setup-2fa-inline-complete-backup-code-description = Dit is de feilichste werstelmetoade as jo jo net oanmelde kinne mei jo mobile apparaat of autentikaasje-app.
+flow-setup-2fa-inline-complete-backup-phone-description = Dit is de ienfâldichste werstelmetoade as jo jo net oanmelde kinne mei jo autentikaasje-app.
+flow-setup-2fa-inline-complete-learn-more-link = Hoe dit jo account beskermet
+# $serviceName (String) - the name of the product that the user will be
+# redirected to.
+flow-setup-2fa-inline-complete-continue-button = Trochgean nei { $serviceName }
+flow-setup-2fa-prompt-heading = Autentikaasje yn twa stappen ynstelle
+# Variable { $serviceName } is the name of the product (e.g. Firefox Add-ons)
+# that requests two-step authentication setup.
+flow-setup-2fa-prompt-description = { $serviceName } fereasket dat jo twa-stapsautentikaasje ynstelle om jo account feilich te hâlden.
+# "these authenticator apps" links to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+flow-setup-2fa-prompt-use-authenticator-apps = Jo kinne elk fan <authenticationAppsLink>dizze autentikaasje-apps</authenticationAppsLink> brûke om troch te gean.
+flow-setup-2fa-prompt-continue-button = Trochgean
+
 ## FlowSetupPhoneConfirmCode
 
 # verification code refers to a code sent by text message to confirm phone number ownership
@@ -729,6 +755,8 @@ header-menu-open = Menu slute
 header-menu-closed = Websitenavigaasjemenu
 header-back-to-top-link =
     .title = Nei boppe
+header-back-to-settings-link =
+    .title = Tebek nei ynstellingen foar { -product-mozilla-account }
 header-title-2 = { -product-mozilla-account }
 header-help = Help
 
@@ -1326,6 +1354,10 @@ auth-error-1067 = Hawwe jo it e-mailadres ferkeard ynfierd?
 # Variables:
 #  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
 recovery-phone-number-ending-digits = Nûmer dat einiget op { $lastFourPhoneNumber }
+# This error is shown when there is a particular kind of error at the very end of the 2FA flow
+# and the user should begin it again. A system/device clock not being synced to the internet time is
+# a common problem when using 2FA.
+two-factor-auth-setup-token-verification-error = Der is in probleem bard by it ynskeakeljen fan twa-stapsautentikaasje. Kontrolearje oft de klok fan jo apparaat ynsteld is om automatysk by te wurkjen en <a>begjin opnij</a>.
 oauth-error-1000 = Der is wat misgien. Slút dit ljepblêd en probearje it opnij.
 
 ## Cannot Create Account page

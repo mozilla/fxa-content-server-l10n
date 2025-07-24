@@ -26,6 +26,16 @@ upgrade-page-acknowledgment = Jo abonnemint wiziget daliks, en der wurdt in grut
 auth-error-page-title = Wy koene jo net oanmelde
 checkout-error-boundary-retry-button = Opnij probearje
 checkout-error-boundary-basic-error-message = Der gie wat mis. Probearje it opnij of <contactSupportLink>nim kontakt op mei de stipeôfdieling.</contactSupportLink>
+amex-logo-alt-text = { -brand-amex }-logo
+diners-logo-alt-text = { -brand-diner }-logo
+discover-logo-alt-text = { -brand-discover }-logo
+jcb-logo-alt-text = { -brand-jcb }-logo
+mastercard-logo-alt-text = { -brand-mastercard }-logo
+paypal-logo-alt-text = { -brand-paypal }-logo
+unionpay-logo-alt-text = { -brand-unionpay }-logo
+visa-logo-alt-text = { -brand-visa }-logo
+# Alt text for generic payment card logo
+unbranded-logo-alt-text = Merkleas logo
 
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -79,6 +89,40 @@ next-payment-confirmation-download-button = Trochgean mei download
 
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Creditcard einigjend op { $last4 }
+
+## Layout - Subscription Management
+
+subscription-management-breadcrumb-account-home = Account-startside
+subscription-management-breadcrumb-subscriptions = Abonneminten
+subscription-management-account-profile-picture = Accountprofylôfbylding
+
+## Page - Subscription Management
+
+subscription-management-payment-information-heading = Betellingsgegevens
+subscription-management-button-add-payment-method-aria = Betellingsmetoade tafoegje
+subscription-management-button-add-payment-method = Tafoegje
+subscription-management-button-change-payment-method-aria = Betellingsmetoade wizigje
+subscription-management-button-change-payment-method = Wizigje
+# $last4 (String) - Last four numbers of credit card
+subscription-management-card-ending-in = Creditcard einigjend op { $last4 }
+# $expirationDate (Date) - Payment card's expiration date
+subscription-management-card-expires-date = Ferrint op { $expirationDate }
+subscription-management-subscriptions-heading = Abonneminten
+subscription-management-your-subscriptions-aria = Jo abonneminten
+subscription-management-no-subscriptions = Jo hawwe noch gjin abonneminten
+subscription-management-button-cancel-subscription-aria = Abonnemint opsizze
+subscription-management-button-cancel-subscription = Opsizze
+subscription-management-your-apple-iap-subscriptions-aria = Jo { -brand-apple }-yn-app-abonneminten
+subscription-management-apple-in-app-purchase = { -brand-apple }: yn-app-oankeap
+subscription-management-your-google-iap-subscriptions-aria = Jo { -brand-google }-yn-app-abonneminten
+subscription-management-google-in-app-purchase = { -brand-google }: yn-app-oankeap
+# $date (String) - Date of next bill
+subscription-management-iap-sub-next-bill = Folgjende ynkasso op { $date }
+# $date (String) - Date of In-App purchase expires
+subscription-management-iap-sub-expires-on = Ferrint op { $date }
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscription-management-button-manage-subscription-aria = Abonnemint foar { $productName } beheare
+subscription-management-button-manage-subscription = Beheare
 # Page - Not Found
 page-not-found-title = Side net fûn
 page-not-found-description = De opfrege side is net fûn. Wy binne op de hichte en sille keppelingen dy't mooglik net wurkje werom bringe.
@@ -192,9 +236,6 @@ next-new-user-subscribe-product-updates-mozilla = Ik wol graach produktnijs en -
 next-new-user-subscribe-product-updates-snp = Ik wol graach befeiligings- en privacynijs en updates fan { -brand-mozilla } ûntfange
 next-new-user-subscribe-product-assurance = Wy brûke jo e-mailadres allinnich om jo account oan te meitsjen. Wy sille it nea oan in tredde partij ferkeapje.
 
-## Component - PriceInterval
-
-
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
@@ -293,6 +334,3 @@ next-coupon-error-generic = Der is in flater bard by it ferwurkjen fan de koade.
 next-coupon-error-invalid = De ynfierde koade is ûnjildich.
 # "Limit" refers to the maximum number of times a coupon can be redeemed.
 next-coupon-error-limit-reached = De ynfierde koade hat syn limyt berikt.
-
-##
-
