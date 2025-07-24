@@ -26,6 +26,16 @@ upgrade-page-acknowledgment = Planınız hemen değişecek ve bu fatura dönemin
 auth-error-page-title = Girişinizi yapamadık
 checkout-error-boundary-retry-button = Yeniden dene
 checkout-error-boundary-basic-error-message = Bir sorun oluştu. Lütfen yeniden deneyin veya <contactSupportLink>destek ekibiyle iletişime geçin.</contactSupportLink>
+amex-logo-alt-text = { -brand-amex } logosu
+diners-logo-alt-text = { -brand-diner } logosu
+discover-logo-alt-text = { -brand-discover } logosu
+jcb-logo-alt-text = { -brand-jcb } logosu
+mastercard-logo-alt-text = { -brand-mastercard } logosu
+paypal-logo-alt-text = { -brand-paypal } logosu
+unionpay-logo-alt-text = { -brand-unionpay } logosu
+visa-logo-alt-text = { -brand-visa } logosu
+# Alt text for generic payment card logo
+unbranded-logo-alt-text = Markasız logo
 
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -40,6 +50,7 @@ checkout-error-already-subscribed = Bu ürüne zaten abonesiniz.
 checkout-error-contact-support = Size yardımcı olabilmemiz için lütfen destek ekibiyle iletişime geçin.
 cart-error-currency-not-determined = Bu satın alma işleminin para birimini belirleyemedik, lütfen yeniden deneyin.
 checkout-processing-general-error = Ödemeniz işlenirken beklenmedik bir hata oluştu, lütfen yeniden deneyin.
+cart-total-mismatch-error = Fatura tutarı değişti. Lütfen yeniden deneyin.
 
 ## Error pages - Payment method failure messages
 
@@ -79,8 +90,39 @@ next-payment-confirmation-download-button = İndirmeye devam et
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = { $last4 } ile biten kart
 
+## Layout - Subscription Management
+
+subscription-management-breadcrumb-account-home = Hesap ana sayfası
+subscription-management-breadcrumb-subscriptions = Abonelikler
+subscription-management-account-profile-picture = Hesap profil resmi
+
 ## Page - Subscription Management
 
+subscription-management-payment-information-heading = Ödeme bilgileri
+subscription-management-button-add-payment-method-aria = Ödeme yöntemi ekle
+subscription-management-button-add-payment-method = Ekle
+subscription-management-button-change-payment-method-aria = Ödeme yöntemini değiştir
+subscription-management-button-change-payment-method = Değiştir
+# $last4 (String) - Last four numbers of credit card
+subscription-management-card-ending-in = { $last4 } ile biten kart
+# $expirationDate (Date) - Payment card's expiration date
+subscription-management-card-expires-date = Son kullanım: { $expirationDate }
+subscription-management-subscriptions-heading = Abonelikler
+subscription-management-your-subscriptions-aria = Abonelikleriniz
+subscription-management-no-subscriptions = Henüz aboneliğiniz yok
+subscription-management-button-cancel-subscription-aria = Aboneliği iptal et
+subscription-management-button-cancel-subscription = İptal et
+subscription-management-your-apple-iap-subscriptions-aria = { -brand-apple } uygulama içi abonelikleriniz
+subscription-management-apple-in-app-purchase = { -brand-apple }: Uygulama içi satın alma
+subscription-management-your-google-iap-subscriptions-aria = { -brand-google } uygulama içi abonelikleriniz
+subscription-management-google-in-app-purchase = { -brand-google }: Uygulama içi satın alma
+# $date (String) - Date of next bill
+subscription-management-iap-sub-next-bill = Bir sonraki faturalandırma: { $date }
+# $date (String) - Date of In-App purchase expires
+subscription-management-iap-sub-expires-on = Son geçerlilik tarihi: { $date }
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscription-management-button-manage-subscription-aria = { $productName } aboneliğini yönet
+subscription-management-button-manage-subscription = Yönet
 # Page - Not Found
 page-not-found-title = Sayfa bulunamadı
 page-not-found-description = İstediğiniz sayfa bulunamadı. Bozuk olabilecek bağlantıları düzeltmeleri için durumu site yöneticilerimize bildirdik.

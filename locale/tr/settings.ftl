@@ -687,6 +687,29 @@ flow-setup-2fa-backup-code-dl-heading = Yedek kimlik doğrulama kodlarını kayd
 flow-setup-2fa-backup-code-dl-save-these-codes = Bunları unutmayacağınız bir yerde saklayın. Kimlik doğrulama uygulamanıza erişiminiz olmadığında giriş yapmak için bu kodlardan birini girmeniz gerekecek.
 flow-setup-2fa-backup-code-dl-button-continue = İleri
 
+##
+
+flow-setup-2fa-inline-complete-success-banner = İki aşamalı kimlik doğrulama etkinleştirildi
+flow-setup-2fa-inline-complete-backup-code = Yedek kimlik doğrulama kodları
+flow-setup-2fa-inline-complete-backup-phone = Kurtarma telefonu
+# $count (Number) - an integer representing the number of backup
+# authentication codes remaining
+flow-setup-2fa-inline-complete-backup-code-info =
+    { $count ->
+        [one] { $count } kod kaldı
+       *[other] { $count } kod kaldı
+    }
+flow-setup-2fa-inline-complete-backup-code-description = Mobil cihazınızla veya kimlik doğrulama uygulamanızla giriş yapamıyorsanız bu en güvenli kurtarma yöntemidir.
+flow-setup-2fa-inline-complete-backup-phone-description = Kimlik doğrulama uygulamanızla giriş yapamıyorsanız bu en kolay kurtarma yöntemidir.
+flow-setup-2fa-inline-complete-learn-more-link = İki aşamalı kimlik doğrulama, hesabınızı nasıl korur?
+# $serviceName (String) - the name of the product that the user will be
+# redirected to.
+flow-setup-2fa-inline-complete-continue-button = { $serviceName } hizmetine devam et
+flow-setup-2fa-prompt-heading = İki aşamalı kimlik doğrulamayı ayarla
+# Variable { $serviceName } is the name of the product (e.g. Firefox Add-ons)
+# that requests two-step authentication setup.
+flow-setup-2fa-prompt-description = { $serviceName }, hesabınızı güvende tutmak için iki aşamalı kimlik doğrulamasını ayarlamanızı gerektiriyor.
+
 ## FlowSetupPhoneConfirmCode
 
 # verification code refers to a code sent by text message to confirm phone number ownership
