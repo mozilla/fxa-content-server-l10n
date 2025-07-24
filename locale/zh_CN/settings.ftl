@@ -215,7 +215,7 @@ icon-attention-aria-label =
 icon-warning-aria-label =
     .aria-label = 警告
 authenticator-app-aria-label =
-    .aria-label = 验证器应用程序
+    .aria-label = 身份验证应用程序
 backup-codes-icon-aria-label-v2 =
     .aria-label = 已启用备用验证码
 backup-codes-disabled-icon-aria-label-v2 =
@@ -1087,7 +1087,7 @@ tfa-row-backup-codes-get-new-cta-v2 = 创建新验证码
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = 添加
 # 'This' refers to 'backup authentication codes', used as a recovery method for two-step authentication
-tfa-row-backup-codes-description-2 = 在无法使用移动设备或身份验证器应用时，这是最安全的恢复方式。
+tfa-row-backup-codes-description-2 = 在无法使用移动设备或身份验证应用时，这是最安全的恢复方式。
 # Recovery phone is a recovery method for two-step authentication
 # A recovery code can be sent to the user's phone
 tfa-row-backup-phone-title-v2 = 恢复电话号码
@@ -1103,7 +1103,7 @@ tfa-row-backup-phone-delete-button = 移除
 tfa-row-backup-phone-delete-title-v2 = 移除恢复电话号码
 tfa-row-backup-phone-delete-restriction-v2 = 若要移除恢复电话号码，请先添加备用验证码或关闭两步验证，以免无法登录账户。
 # "this" refers to recovery phone
-tfa-row-backup-phone-description-v2 = 在无法使用身份验证器应用时，这是最简易的恢复方式。
+tfa-row-backup-phone-description-v2 = 在无法使用身份验证应用时，这是最简易的恢复方式。
 # A SIM swap attack is a type of identity theft where an attacker tricks or bribes a mobile carrier
 # into transferring a victim's phone number to their own SIM card, enabling access to accounts secured
 # with SMS-based two-factor authentication.
@@ -1194,7 +1194,7 @@ tfa-row-enabled-description = 您的账户受两步验证保护。登录 { -prod
 # "this" refers to two-step authentication
 # Link goes to https://support.mozilla.org/kb/secure-mozilla-account-two-step-authentication
 tfa-row-enabled-info-link = 此举如何保护您的账户
-tfa-row-disabled-description-v2 = 将第三方身份验证器应用作为登录的附加确认手段，帮助保护账户安全。
+tfa-row-disabled-description-v2 = 将第三方身份验证应用作为登录的附加确认手段，帮助保护账户安全。
 tfa-row-cannot-verify-session-4 = 抱歉，确认您的会话时出现问题
 tfa-row-disable-modal-heading = 要禁用两步验证吗？
 tfa-row-disable-modal-confirm = 禁用
@@ -1631,7 +1631,7 @@ confirm-reset-password-otp-different-account-link = 换个账户登录
 
 confirm-totp-reset-password-header = 重置密码
 confirm-totp-reset-password-subheader-v2 = 请输入两步验证的验证码
-confirm-totp-reset-password-instruction-v2 = 请查看<strong>身份验证器应用</strong>以重置密码。
+confirm-totp-reset-password-instruction-v2 = 请查看<strong>身份验证应用</strong>以重置密码。
 confirm-totp-reset-password-trouble-code = 输入代码时遇到问题？
 confirm-totp-reset-password-confirm-button = 确认
 confirm-totp-reset-password-input-label-v2 = 请输入 6 位验证码
@@ -1870,7 +1870,7 @@ signin-token-code-instruction-desktop-relay = { -brand-firefox } 将尝试在您
 
 signin-totp-code-header = 登录
 signin-totp-code-subheader-v2 = 请输入两步验证的验证码
-signin-totp-code-instruction-v4 = 请通过<strong>身份验证器应用</strong>确认登录。
+signin-totp-code-instruction-v4 = 请通过<strong>身份验证应用</strong>确认登录。
 signin-totp-code-input-label-v4 = 请输入 6 位验证码
 # Form button to confirm if the authentication code entered by the user is valid
 signin-totp-code-confirm-button = 确认
