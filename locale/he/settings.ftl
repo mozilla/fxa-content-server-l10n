@@ -684,6 +684,9 @@ flow-setup-2fa-prompt-heading = הגדרת אימות דו־שלבי
 # Variable { $serviceName } is the name of the product (e.g. Firefox Add-ons)
 # that requests two-step authentication setup.
 flow-setup-2fa-prompt-description = ‏{ $serviceName } דורש שיוגדר אימות דו־שלבי כדי לשמור על אבטחת החשבון שלך.
+# "these authenticator apps" links to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+flow-setup-2fa-prompt-use-authenticator-apps = באפשרותך להשתמש בכל אחת מ<authenticationAppsLink>יישומוני האימות האלו</authenticationAppsLink> כדי להמשיך.
+flow-setup-2fa-prompt-continue-button = המשך
 
 ## FlowSetupPhoneConfirmCode
 
@@ -723,6 +726,8 @@ header-menu-open = סגירת תפריט
 header-menu-closed = תפריט ניווט באתר
 header-back-to-top-link =
     .title = חזרה למעלה
+header-back-to-settings-link =
+    .title = חזרה להגדרות של { -product-mozilla-account(case: "a") }
 header-title-2 = { -product-mozilla-account(case: "a") }
 header-help = עזרה
 
