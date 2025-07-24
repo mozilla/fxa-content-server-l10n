@@ -190,6 +190,8 @@ next-new-user-card-title = Zadejte informace o platební kartě
 
 next-plan-details-header = Informace o produktu
 next-plan-details-list-price = Ceník
+# $productName (String) - The name of the product, e.g. Mozilla VPN
+plan-details-product-prorated-price = Poměrná cena za { $productName }
 next-plan-details-tax = Daně a poplatky
 next-plan-details-total-label = Celkem
 # "Unused time" refers to the remaining value of the current subscription that hasn't been used yet
