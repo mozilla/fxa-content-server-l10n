@@ -26,6 +26,16 @@ upgrade-page-acknowledgment = Gói của bạn sẽ thay đổi ngay lập tức
 auth-error-page-title = Chúng tôi không thể đăng nhập cho bạn
 checkout-error-boundary-retry-button = Thử lại
 checkout-error-boundary-basic-error-message = Đã xảy ra lỗi. Vui lòng thử lại hoặc <contactSupportLink>liên hệ hỗ trợ.</contactSupportLink>
+amex-logo-alt-text = Logo { -brand-amex }
+diners-logo-alt-text = Logo { -brand-diner }
+discover-logo-alt-text = Logo { -brand-discover }
+jcb-logo-alt-text = Logo { -brand-jcb }
+mastercard-logo-alt-text = Logo { -brand-mastercard }
+paypal-logo-alt-text = Logo { -brand-paypal }
+unionpay-logo-alt-text = Logo { -brand-unionpay }
+visa-logo-alt-text = Logo { -brand-visa }
+# Alt text for generic payment card logo
+unbranded-logo-alt-text = Logo không có thương hiệu
 
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -80,8 +90,39 @@ next-payment-confirmation-download-button = Tiếp tục tải xuống
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Thẻ kết thúc bằng { $last4 }
 
+## Layout - Subscription Management
+
+subscription-management-breadcrumb-account-home = Trang chủ tài khoản
+subscription-management-breadcrumb-subscriptions = Gói đăng ký
+subscription-management-account-profile-picture = Ảnh đại diện tài khoản
+
 ## Page - Subscription Management
 
+subscription-management-payment-information-heading = Thông tin thanh toán
+subscription-management-button-add-payment-method-aria = Thêm phương thức thanh toán
+subscription-management-button-add-payment-method = Thêm
+subscription-management-button-change-payment-method-aria = Thay đổi phương thức thanh toán
+subscription-management-button-change-payment-method = Thay đổi
+# $last4 (String) - Last four numbers of credit card
+subscription-management-card-ending-in = Thẻ kết thúc bằng { $last4 }
+# $expirationDate (Date) - Payment card's expiration date
+subscription-management-card-expires-date = Hết hạn vào { $expirationDate }
+subscription-management-subscriptions-heading = Gói đăng ký
+subscription-management-your-subscriptions-aria = Gói đăng ký của tôi
+subscription-management-no-subscriptions = Bạn chưa có gói đăng ký nào
+subscription-management-button-cancel-subscription-aria = Hủy gói đăng ký
+subscription-management-button-cancel-subscription = Hủy bỏ
+subscription-management-your-apple-iap-subscriptions-aria = Gói đăng ký trong ứng dụng { -brand-apple } của bạn
+subscription-management-apple-in-app-purchase = { -brand-apple }: Mua hàng trong ứng dụng
+subscription-management-your-google-iap-subscriptions-aria = Gói đăng ký trong ứng dụng { -brand-google } của bạn
+subscription-management-google-in-app-purchase = { -brand-google }: Mua hàng trong ứng dụng
+# $date (String) - Date of next bill
+subscription-management-iap-sub-next-bill = Thanh toán tiếp theo vào { $date }
+# $date (String) - Date of In-App purchase expires
+subscription-management-iap-sub-expires-on = Hết hạn vào { $date }
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscription-management-button-manage-subscription-aria = Quản lý gói đăng ký cho { $productName }
+subscription-management-button-manage-subscription = Quản lý
 # Page - Not Found
 page-not-found-title = Không tìm thấy trang
 page-not-found-description = Không tìm thấy trang bạn yêu cầu. Chúng tôi đã để ý và sẽ sửa bất kỳ liên kết nào có thể bị hỏng.

@@ -675,6 +675,28 @@ flow-setup-2fa-backup-code-dl-heading = Lưu mã xác thực dự phòng
 flow-setup-2fa-backup-code-dl-save-these-codes = Hãy giữ chúng ở nơi bạn dễ nhớ. Nếu bạn không có quyền truy cập vào ứng dụng xác thực, bạn sẽ cần các mã đó để đăng nhập.
 flow-setup-2fa-backup-code-dl-button-continue = Tiếp tục
 
+##
+
+flow-setup-2fa-inline-complete-success-banner = Đã bật xác thực hai bước
+flow-setup-2fa-inline-complete-backup-code = Mã xác thực dự phòng
+flow-setup-2fa-inline-complete-backup-phone = Số điện thoại khôi phục
+# $count (Number) - an integer representing the number of backup
+# authentication codes remaining
+flow-setup-2fa-inline-complete-backup-code-info = { $count } mã còn lại
+flow-setup-2fa-inline-complete-backup-code-description = Đây là phương pháp khôi phục an toàn nhất nếu bạn không thể đăng nhập bằng thiết bị di động hoặc ứng dụng xác thực.
+flow-setup-2fa-inline-complete-backup-phone-description = Đây là phương pháp khôi phục dễ nhất nếu bạn không thể đăng nhập bằng ứng dụng xác thực.
+flow-setup-2fa-inline-complete-learn-more-link = Tìm hiểu cách mà nó bảo vệ tài khoản của bạn
+# $serviceName (String) - the name of the product that the user will be
+# redirected to.
+flow-setup-2fa-inline-complete-continue-button = Tiếp tục đến { $serviceName }
+flow-setup-2fa-prompt-heading = Thiết lập xác thực hai bước
+# Variable { $serviceName } is the name of the product (e.g. Firefox Add-ons)
+# that requests two-step authentication setup.
+flow-setup-2fa-prompt-description = { $serviceName } yêu cầu bạn thiết lập xác thực hai bước để giữ an toàn cho tài khoản của bạn.
+# "these authenticator apps" links to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+flow-setup-2fa-prompt-use-authenticator-apps = Bạn có thể sử dụng bất kỳ <authenticationAppsLink>ứng dụng xác thực nào</authenticationAppsLink> để tiếp tục.
+flow-setup-2fa-prompt-continue-button = Tiếp tục
+
 ## FlowSetupPhoneConfirmCode
 
 # verification code refers to a code sent by text message to confirm phone number ownership
@@ -713,6 +735,8 @@ header-menu-open = Đóng menu
 header-menu-closed = Menu dẫn hướng trang mạng
 header-back-to-top-link =
     .title = Về đầu trang
+header-back-to-settings-link =
+    .title = Quay lại cài đặt { -product-mozilla-account }
 header-title-2 = { -product-mozilla-account }
 header-help = Trợ giúp
 
@@ -1304,6 +1328,10 @@ auth-error-1067 = Nhập sai email?
 # Variables:
 #  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
 recovery-phone-number-ending-digits = Số kết thúc bằng { $lastFourPhoneNumber }
+# This error is shown when there is a particular kind of error at the very end of the 2FA flow
+# and the user should begin it again. A system/device clock not being synced to the internet time is
+# a common problem when using 2FA.
+two-factor-auth-setup-token-verification-error = Đã xảy ra sự cố khi bật xác thực hai bước. Hãy kiểm tra xem đồng hồ trên thiết bị của bạn đã được đặt tự động cập nhật chưa và <a>bắt đầu lại</a>.
 oauth-error-1000 = Đã xảy ra lỗi. Vui lòng đóng thẻ này và thử lại.
 
 ## Cannot Create Account page
