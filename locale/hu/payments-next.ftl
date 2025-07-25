@@ -193,7 +193,7 @@ next-new-user-card-title = Adja meg a kártyaadatait
 next-plan-details-header = Termék részletei
 next-plan-details-list-price = Listaár
 # $productName (String) - The name of the product, e.g. Mozilla VPN
-plan-details-product-prorated-price = Osztályos ár { $productName }ért
+plan-details-product-prorated-price = A(z) { $productName } arányos ára
 next-plan-details-tax = Adók és díjak
 next-plan-details-total-label = Összesen
 # "Unused time" refers to the remaining value of the current subscription that hasn't been used yet
