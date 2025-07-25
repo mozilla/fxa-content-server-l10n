@@ -708,11 +708,11 @@ flow-setup-2fa-inline-complete-backup-code-info =
        *[other] Ostaja še { $count } kod
     }
 flow-setup-2fa-inline-complete-backup-code-description = To je najvarnejša metoda obnovitve, če se ne morete prijaviti z mobilno napravo ali aplikacijo za overitev.
-flow-setup-2fa-inline-complete-backup-phone-description = To je najpreprostejši način obnovitve, če se ne morete prijaviti z aplikacijo za overitev.
+flow-setup-2fa-inline-complete-backup-phone-description = To je najpreprostejša metoda obnovitve, če se nimate možnosti prijaviti v aplikacijo za overjanje.
 flow-setup-2fa-inline-complete-learn-more-link = Kako to ščiti vaš račun
 # $serviceName (String) - the name of the product that the user will be
 # redirected to.
-flow-setup-2fa-inline-complete-continue-button = Nadaljuj na { $serviceName }
+flow-setup-2fa-inline-complete-continue-button = Nadaljuj v { $serviceName }
 flow-setup-2fa-prompt-heading = Nastavite overitev v dveh korakih
 # Variable { $serviceName } is the name of the product (e.g. Firefox Add-ons)
 # that requests two-step authentication setup.

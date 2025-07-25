@@ -112,16 +112,14 @@ subscription-management-your-subscriptions-aria = Vaše naročnine
 subscription-management-no-subscriptions = Nimate še nobene naročnine
 subscription-management-button-cancel-subscription-aria = Prekliči naročnino
 subscription-management-button-cancel-subscription = Prekliči
-subscription-management-your-apple-iap-subscriptions-aria = Vaših { -brand-apple } naročnin
 subscription-management-apple-in-app-purchase = { -brand-apple }: Nakup v aplikaciji
-subscription-management-your-google-iap-subscriptions-aria = Vaših { -brand-google } naročnin
 subscription-management-google-in-app-purchase = { -brand-google }: Nakup v aplikaciji
 # $date (String) - Date of next bill
 subscription-management-iap-sub-next-bill = Naslednji obračun { $date }
 # $date (String) - Date of In-App purchase expires
 subscription-management-iap-sub-expires-on = Preteče { $date }
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscription-management-button-manage-subscription-aria = Upravljaj naročnino za { $productName }
+subscription-management-button-manage-subscription-aria = Upravljanje naročnine na { $productName }
 subscription-management-button-manage-subscription = Upravljaj
 # Page - Not Found
 page-not-found-title = Strani ni mogoče najti
