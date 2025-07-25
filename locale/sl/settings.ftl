@@ -713,12 +713,12 @@ flow-setup-2fa-inline-complete-learn-more-link = Kako to ščiti vaš račun
 # $serviceName (String) - the name of the product that the user will be
 # redirected to.
 flow-setup-2fa-inline-complete-continue-button = Nadaljuj v { $serviceName }
-flow-setup-2fa-prompt-heading = Nastavite overitev v dveh korakih
+flow-setup-2fa-prompt-heading = Nastavite overjanje v dveh korakih
 # Variable { $serviceName } is the name of the product (e.g. Firefox Add-ons)
 # that requests two-step authentication setup.
-flow-setup-2fa-prompt-description = { $serviceName } zahteva, da nastavite overjanje v dveh korakih za varnost računa.
+flow-setup-2fa-prompt-description = { $serviceName } zahteva, da za varnost računa nastavite overjanje v dveh korakih.
 # "these authenticator apps" links to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
-flow-setup-2fa-prompt-use-authenticator-apps = Za nadaljevanje lahko uporabite katerokoli od <authenticationAppsLink>aplikacij za overitev</authenticationAppsLink>.
+flow-setup-2fa-prompt-use-authenticator-apps = Za nadaljevanje lahko uporabite katerokoli od <authenticationAppsLink>naslednjih aplikacij za overjanje</authenticationAppsLink>.
 flow-setup-2fa-prompt-continue-button = Nadaljuj
 
 ## FlowSetupPhoneConfirmCode
@@ -760,7 +760,7 @@ header-menu-closed = Meni za krmarjenje po strani
 header-back-to-top-link =
     .title = Nazaj na vrh
 header-back-to-settings-link =
-    .title = Nazaj na nastavitve { -product-mozilla-account }
+    .title = Nazaj na nastavitve { -product-mozilla-account(sklon: "rodilnik") }
 header-title-2 = { -product-mozilla-account }
 header-help = Pomoč
 
