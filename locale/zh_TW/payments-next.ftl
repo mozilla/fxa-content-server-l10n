@@ -190,6 +190,8 @@ next-new-user-card-title = 輸入您的卡片資訊
 
 next-plan-details-header = 產品詳細資訊
 next-plan-details-list-price = 原價
+# $productName (String) - The name of the product, e.g. Mozilla VPN
+plan-details-product-prorated-price = { $productName } 按比例破月計算的價格
 next-plan-details-tax = 稅費
 next-plan-details-total-label = 總計
 # "Unused time" refers to the remaining value of the current subscription that hasn't been used yet
