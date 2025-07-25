@@ -707,6 +707,17 @@ flow-setup-2fa-inline-complete-backup-code-info =
     }
 flow-setup-2fa-inline-complete-backup-code-description = Toto je najbezpečnejšia metóda obnovenia, ak sa nemôžete prihlásiť pomocou mobilného zariadenia alebo overovacej aplikácie.
 flow-setup-2fa-inline-complete-backup-phone-description = Toto je najjednoduchšia metóda obnovenia, ak sa nemôžete prihlásiť pomocou aplikácie na overenie totožnosti.
+flow-setup-2fa-inline-complete-learn-more-link = Ako to chráni váš účet
+# $serviceName (String) - the name of the product that the user will be
+# redirected to.
+flow-setup-2fa-inline-complete-continue-button = A pokračovať do služby { $serviceName }
+flow-setup-2fa-prompt-heading = Nastavenie dvojstupňového overenia
+# Variable { $serviceName } is the name of the product (e.g. Firefox Add-ons)
+# that requests two-step authentication setup.
+flow-setup-2fa-prompt-description = { $serviceName } vyžaduje nastavenie dvojstupňového overenia, aby bol váš účet v bezpečí.
+# "these authenticator apps" links to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+flow-setup-2fa-prompt-use-authenticator-apps = Na pokračovanie môžete použiť ktorúkoľvek z <authenticationAppsLink>týchto overovacích aplikácií</authenticationAppsLink>.
+flow-setup-2fa-prompt-continue-button = Pokračovať
 
 ## FlowSetupPhoneConfirmCode
 
@@ -746,6 +757,8 @@ header-menu-open = Zavrieť ponuku
 header-menu-closed = Navigačná ponuka stránok
 header-back-to-top-link =
     .title = Návrat hore
+header-back-to-settings-link =
+    .title = Späť na nastavenia { -product-mozilla-account(case: "gen", capitalization: "lower") }
 header-title-2 = { -product-mozilla-account }
 header-help = Pomocník
 
@@ -1340,6 +1353,10 @@ auth-error-1067 = Nesprávna e-mailová adresa?
 # Variables:
 #  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
 recovery-phone-number-ending-digits = Číslo končiace na { $lastFourPhoneNumber }
+# This error is shown when there is a particular kind of error at the very end of the 2FA flow
+# and the user should begin it again. A system/device clock not being synced to the internet time is
+# a common problem when using 2FA.
+two-factor-auth-setup-token-verification-error = Pri aktivácii dvojstupňového overenia sa vyskytol problém. Skontrolujte, či sú hodiny vášho zariadenia nastavené na automatickú aktualizáciu a <a>začnite odznova</a>.
 oauth-error-1000 = Niečo sa pokazilo. Prosím, zatvorte túto kartu a skúste to znova.
 
 ## Cannot Create Account page
