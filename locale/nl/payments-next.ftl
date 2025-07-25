@@ -190,6 +190,8 @@ next-new-user-card-title = Voer uw kaartgegevens in
 
 next-plan-details-header = Productdetails
 next-plan-details-list-price = Normale prijs
+# $productName (String) - The name of the product, e.g. Mozilla VPN
+plan-details-product-prorated-price = Pro rato-prijs voor { $productName }
 next-plan-details-tax = Belastingen en heffingen
 next-plan-details-total-label = Totaal
 # "Unused time" refers to the remaining value of the current subscription that hasn't been used yet
