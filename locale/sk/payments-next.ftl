@@ -26,6 +26,16 @@ upgrade-page-acknowledgment = Váš plán sa okamžite zmení a dnes vám bude �
 auth-error-page-title = Nepodarilo sa nám vás prihlásiť
 checkout-error-boundary-retry-button = Skúsiť znova
 checkout-error-boundary-basic-error-message = Niečo sa pokazilo. Skúste to znova alebo <contactSupportLink>kontaktujte podporu.</contactSupportLink>
+amex-logo-alt-text = Logo { -brand-amex }
+diners-logo-alt-text = Logo { -brand-diner }
+discover-logo-alt-text = Logo { -brand-discover }
+jcb-logo-alt-text = Logo { -brand-jcb }
+mastercard-logo-alt-text = Logo { -brand-mastercard }
+paypal-logo-alt-text = Logo { -brand-paypal }
+unionpay-logo-alt-text = Logo { -brand-unionpay }
+visa-logo-alt-text = Logo { -brand-visa }
+# Alt text for generic payment card logo
+unbranded-logo-alt-text = Neznačkové logo
 
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -80,8 +90,39 @@ next-payment-confirmation-download-button = Pokračovať na stiahnutie
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Karta končiaca číslicami { $last4 }
 
+## Layout - Subscription Management
+
+subscription-management-breadcrumb-account-home = Domovská stránka účtu
+subscription-management-breadcrumb-subscriptions = Predplatné
+subscription-management-account-profile-picture = Profilová fotka účtu
+
 ## Page - Subscription Management
 
+subscription-management-payment-information-heading = Informácie o platbe
+subscription-management-button-add-payment-method-aria = Pridať platobnú metódu
+subscription-management-button-add-payment-method = Pridať
+subscription-management-button-change-payment-method-aria = Zmeniť spôsob platby
+subscription-management-button-change-payment-method = Zmeniť
+# $last4 (String) - Last four numbers of credit card
+subscription-management-card-ending-in = Karta končiaca číslicami { $last4 }
+# $expirationDate (Date) - Payment card's expiration date
+subscription-management-card-expires-date = Vyprší { $expirationDate }
+subscription-management-subscriptions-heading = Predplatné
+subscription-management-your-subscriptions-aria = Vaše predplatné
+subscription-management-no-subscriptions = Zatiaľ nemáte žiadne predplatné
+subscription-management-button-cancel-subscription-aria = Zrušiť predplatné
+subscription-management-button-cancel-subscription = Zrušiť
+subscription-management-your-apple-iap-subscriptions-aria = Vaše predplatné v aplikácii { -brand-apple }
+subscription-management-apple-in-app-purchase = { -brand-apple }: Nákup v aplikácii
+subscription-management-your-google-iap-subscriptions-aria = Vaše predplatné v aplikácii { -brand-google }
+subscription-management-google-in-app-purchase = { -brand-google }: Nákup v aplikácii
+# $date (String) - Date of next bill
+subscription-management-iap-sub-next-bill = Ďalšia fakturácia dňa { $date }
+# $date (String) - Date of In-App purchase expires
+subscription-management-iap-sub-expires-on = Vyprší dňa { $date }
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscription-management-button-manage-subscription-aria = Spravovať predplatné pre { $productName }
+subscription-management-button-manage-subscription = Spravovať
 # Page - Not Found
 page-not-found-title = Stránka sa nenašla
 page-not-found-description = Požadovaná stránka nebola nájdená. Boli sme na to upozornení a prípadné odkazy smerujúce na túto stránku opravíme.
@@ -149,6 +190,8 @@ next-new-user-card-title = Zadajte informácie o svojej karte
 
 next-plan-details-header = Podrobnosti o produkte
 next-plan-details-list-price = Cenníková cena
+# $productName (String) - The name of the product, e.g. Mozilla VPN
+plan-details-product-prorated-price = Pomerná cena pre { $productName }
 next-plan-details-tax = Dane a poplatky
 next-plan-details-total-label = Celkom
 # "Unused time" refers to the remaining value of the current subscription that hasn't been used yet

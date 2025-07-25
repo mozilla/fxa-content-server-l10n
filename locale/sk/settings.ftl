@@ -691,6 +691,23 @@ flow-setup-2fa-backup-code-dl-heading = Uložte si záložné overovacie kódy
 flow-setup-2fa-backup-code-dl-save-these-codes = Uschovajte si ich na mieste, na ktoré si nezabudnete. Ak nemáte prístup k aplikácii na overenie totožnosti, budete jeden z nich musieť zadať pri prihlásení.
 flow-setup-2fa-backup-code-dl-button-continue = Pokračovať
 
+##
+
+flow-setup-2fa-inline-complete-success-banner = Dvojstupňové overenie bolo povolené
+flow-setup-2fa-inline-complete-backup-code = Záložné overovacie kódy
+flow-setup-2fa-inline-complete-backup-phone = Obnovenie pomocou telefónu
+# $count (Number) - an integer representing the number of backup
+# authentication codes remaining
+flow-setup-2fa-inline-complete-backup-code-info =
+    { $count ->
+        [one] { $count } zostávajúci kód
+        [few] { $count } zostávajúce kódy
+        [many] { $count } zostávajúcich kódov
+       *[other] { $count } zostávajúcich kódov
+    }
+flow-setup-2fa-inline-complete-backup-code-description = Toto je najbezpečnejšia metóda obnovenia, ak sa nemôžete prihlásiť pomocou mobilného zariadenia alebo overovacej aplikácie.
+flow-setup-2fa-inline-complete-backup-phone-description = Toto je najjednoduchšia metóda obnovenia, ak sa nemôžete prihlásiť pomocou aplikácie na overenie totožnosti.
+
 ## FlowSetupPhoneConfirmCode
 
 # verification code refers to a code sent by text message to confirm phone number ownership
