@@ -46,8 +46,9 @@
 -brand-paypal = PayPal
 -brand-name-stripe = Stripe
 -brand-amex = 美国运通
--brand-diners = Diners Club
--brand-discover = Discover
+-brand-diners = 大来卡（Diners Club）
+-brand-discover = 发现卡（Discover）
+-brand-jcb = JCB
 -brand-mastercard = 万事达卡
 -brand-unionpay = 银联
 -app-store = App Store
