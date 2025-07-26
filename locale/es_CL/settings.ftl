@@ -685,6 +685,26 @@ flow-setup-2fa-backup-code-dl-heading = Guardar códigos de autenticación de re
 flow-setup-2fa-backup-code-dl-save-these-codes = Guárdalos en un lugar que puedas recordar. Si no tienes acceso a tu aplicación de autenticación, necesitarás uno para conectarte.
 flow-setup-2fa-backup-code-dl-button-continue = Continuar
 
+##
+
+flow-setup-2fa-inline-complete-success-banner = Autenticación en dos pasos activada
+flow-setup-2fa-inline-complete-backup-code = Códigos de autenticación de respaldo
+flow-setup-2fa-inline-complete-backup-phone = Teléfono de recuperación
+# $count (Number) - an integer representing the number of backup
+# authentication codes remaining
+flow-setup-2fa-inline-complete-backup-code-info =
+    { $count ->
+        [one] { $count } código restante
+       *[other] { $count } códigos restantes
+    }
+flow-setup-2fa-inline-complete-backup-phone-description = Este es el método de recuperación más fácil si no puedes conectarte con tu aplicación de autenticación.
+flow-setup-2fa-inline-complete-learn-more-link = Cómo esto protege tu cuenta
+# $serviceName (String) - the name of the product that the user will be
+# redirected to.
+flow-setup-2fa-inline-complete-continue-button = Continuar con { $serviceName }
+flow-setup-2fa-prompt-heading = Establecer autenticación en dos pasos
+flow-setup-2fa-prompt-continue-button = Continuar
+
 ## FlowSetupPhoneConfirmCode
 
 # verification code refers to a code sent by text message to confirm phone number ownership
@@ -723,6 +743,8 @@ header-menu-open = Cerrar menú
 header-menu-closed = Menú de navegación del sitio
 header-back-to-top-link =
     .title = Volver arriba
+header-back-to-settings-link =
+    .title = Volver a los ajustes de { -product-mozilla-account }
 header-title-2 = { -product-mozilla-account }
 header-help = Ayuda
 

@@ -26,6 +26,16 @@ upgrade-page-acknowledgment = Tu plan cambiará de inmediato y se te cobrará ho
 auth-error-page-title = No pudimos conectarte
 checkout-error-boundary-retry-button = Volver a intentarlo
 checkout-error-boundary-basic-error-message = Algo se fue a las pailas. Por favor, vuelve a intentarlo o <contactSupportLink>contacta con el soporte técnico.</contactSupportLink>
+amex-logo-alt-text = Logo de { -brand-amex }
+diners-logo-alt-text = Logo de { -brand-diner }
+discover-logo-alt-text = Logo de { -brand-discover }
+jcb-logo-alt-text = Logo de { -brand-jcb }
+mastercard-logo-alt-text = Logo de { -brand-mastercard }
+paypal-logo-alt-text = Logo de { -brand-paypal }
+unionpay-logo-alt-text = Logo de { -brand-unionpay }
+visa-logo-alt-text = Logo de { -brand-visa }
+# Alt text for generic payment card logo
+unbranded-logo-alt-text = Logo sin marca
 
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -80,8 +90,36 @@ next-payment-confirmation-download-button = Continuar para descargar
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Tarjeta terminada en { $last4 }
 
+## Layout - Subscription Management
+
+subscription-management-breadcrumb-account-home = Inicio de la cuenta
+subscription-management-breadcrumb-subscriptions = Suscripciones
+subscription-management-account-profile-picture = Imagen de perfil de la cuenta
+
 ## Page - Subscription Management
 
+subscription-management-payment-information-heading = Información de pago
+subscription-management-button-add-payment-method-aria = Añadir método de pago
+subscription-management-button-add-payment-method = Añadir
+subscription-management-button-change-payment-method-aria = Cambiar métodos de pago
+subscription-management-button-change-payment-method = Cambiar
+# $last4 (String) - Last four numbers of credit card
+subscription-management-card-ending-in = Tarjeta terminada en { $last4 }
+# $expirationDate (Date) - Payment card's expiration date
+subscription-management-card-expires-date = Vence el { $expirationDate }
+subscription-management-subscriptions-heading = Suscripciones
+subscription-management-your-subscriptions-aria = Tus suscripciones
+subscription-management-no-subscriptions = Todavía no tienes suscripciones.
+subscription-management-button-cancel-subscription-aria = Cancelar suscripción
+subscription-management-button-cancel-subscription = Cancelar
+subscription-management-google-in-app-purchase = { -brand-google }: Compra desde la aplicación
+# $date (String) - Date of next bill
+subscription-management-iap-sub-next-bill = Próxima facturación el { $date }
+# $date (String) - Date of In-App purchase expires
+subscription-management-iap-sub-expires-on = Expira el { $date }
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscription-management-button-manage-subscription-aria = Administrar suscripción para { $productName }
+subscription-management-button-manage-subscription = Administrar
 # Page - Not Found
 page-not-found-title = Página no encontrada
 page-not-found-description = La página que solicitaste no fue encontrada. Hemos sido notificados y arreglaremos cualquier enlace que pueda estar roto.
@@ -149,6 +187,8 @@ next-new-user-card-title = Ingresa la información de tu tarjeta
 
 next-plan-details-header = Detalles del producto
 next-plan-details-list-price = Precio de lista
+# $productName (String) - The name of the product, e.g. Mozilla VPN
+plan-details-product-prorated-price = Precio prorrateado para { $productName }
 next-plan-details-tax = Impuestos y comisiones
 next-plan-details-total-label = Total
 # "Unused time" refers to the remaining value of the current subscription that hasn't been used yet
