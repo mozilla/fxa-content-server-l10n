@@ -34,6 +34,8 @@ mastercard-logo-alt-text = Λογότυπο { -brand-mastercard }
 paypal-logo-alt-text = Λογότυπο { -brand-paypal }
 unionpay-logo-alt-text = Λογότυπο { -brand-unionpay }
 visa-logo-alt-text = Λογότυπο { -brand-visa }
+# Alt text for generic payment card logo
+unbranded-logo-alt-text = Λογότυπο χωρίς εμπορικό σήμα
 
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -90,6 +92,7 @@ next-payment-confirmation-cc-card-ending-in = Κάρτα που λήγει σε 
 
 ## Layout - Subscription Management
 
+subscription-management-breadcrumb-account-home = Αρχική σελίδα λογαριασμού
 subscription-management-breadcrumb-subscriptions = Συνδρομές
 subscription-management-account-profile-picture = Εικόνα προφίλ λογαριασμού
 
@@ -100,10 +103,21 @@ subscription-management-button-add-payment-method-aria = Προσθήκη μεθ
 subscription-management-button-add-payment-method = Προσθήκη
 subscription-management-button-change-payment-method-aria = Αλλαγή μεθόδου πληρωμής
 subscription-management-button-change-payment-method = Αλλαγή
+# $last4 (String) - Last four numbers of credit card
+subscription-management-card-ending-in = Κάρτα που λήγει σε { $last4 }
+# $expirationDate (Date) - Payment card's expiration date
+subscription-management-card-expires-date = Λήγει στις { $expirationDate }
 subscription-management-subscriptions-heading = Συνδρομές
 subscription-management-your-subscriptions-aria = Οι συνδρομές σας
+subscription-management-no-subscriptions = Δεν έχετε καμία συνδρομή ακόμα
 subscription-management-button-cancel-subscription-aria = Ακύρωση συνδρομής
 subscription-management-button-cancel-subscription = Ακύρωση
+subscription-management-apple-in-app-purchase = { -brand-apple }: αγορά εντός εφαρμογής
+subscription-management-google-in-app-purchase = { -brand-google }: αγορά εντός εφαρμογής
+# $date (String) - Date of next bill
+subscription-management-iap-sub-next-bill = Επόμενη χρέωση στις { $date }
+# $date (String) - Date of In-App purchase expires
+subscription-management-iap-sub-expires-on = Λήγει στις { $date }
 subscription-management-button-manage-subscription = Διαχείριση
 # Page - Not Found
 page-not-found-title = Η σελίδα δεν βρέθηκε

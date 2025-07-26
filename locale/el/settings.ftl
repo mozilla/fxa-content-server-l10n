@@ -694,9 +694,20 @@ flow-setup-2fa-backup-code-dl-button-continue = Συνέχεια
 flow-setup-2fa-inline-complete-success-banner = Η ταυτοποίηση δύο παραγόντων ενεργοποιήθηκε
 flow-setup-2fa-inline-complete-backup-code = Εφεδρικοί κωδικοί ταυτοποίησης
 flow-setup-2fa-inline-complete-backup-phone = Τηλέφωνο ανάκτησης
+# $count (Number) - an integer representing the number of backup
+# authentication codes remaining
+flow-setup-2fa-inline-complete-backup-code-info =
+    { $count ->
+        [one] Απομένει { $count } κωδικός
+       *[other] Απομένουν { $count } κωδικοί
+    }
+flow-setup-2fa-inline-complete-backup-code-description = Αυτή είναι η πιο ασφαλής μέθοδος ανάκτησης εάν δεν μπορείτε να συνδεθείτε με την κινητή σας συσκευή ή την εφαρμογή ελέγχου ταυτότητάς σας.
+flow-setup-2fa-inline-complete-backup-phone-description = Αυτή είναι η πιο εύκολη μέθοδος ανάκτησης εάν δεν μπορείτε να συνδεθείτε με την εφαρμογή ελέγχου ταυτότητάς σας.
+flow-setup-2fa-inline-complete-learn-more-link = Πώς προστατεύεται ο λογαριασμός σας
 # $serviceName (String) - the name of the product that the user will be
 # redirected to.
 flow-setup-2fa-inline-complete-continue-button = Συνέχεια στο { $serviceName }
+flow-setup-2fa-prompt-heading = Ρύθμιση ταυτοποίησης δύο παραγόντων
 flow-setup-2fa-prompt-continue-button = Συνέχεια
 
 ## FlowSetupPhoneConfirmCode
