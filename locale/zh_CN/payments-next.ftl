@@ -26,6 +26,9 @@ upgrade-page-acknowledgment = 您的方案将立即更改，并向您收取本�
 auth-error-page-title = 无法登录
 checkout-error-boundary-retry-button = 重试
 checkout-error-boundary-basic-error-message = 出了点问题。请重试或<contactSupportLink>联系用户支持</contactSupportLink>。
+amex-logo-alt-text = { -brand-amex }徽标
+diners-logo-alt-text = { -brand-diner }徽标
+discover-logo-alt-text = { -brand-discover }徽标
 
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages

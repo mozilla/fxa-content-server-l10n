@@ -673,6 +673,22 @@ flow-setup-2fa-backup-code-dl-heading = 保存备用验证码
 flow-setup-2fa-backup-code-dl-save-these-codes = 请将这些验证码保存在您不会遗忘的地方。如果您无法使用身份验证应用，则需要输入其中一个验证码才能登录。
 flow-setup-2fa-backup-code-dl-button-continue = 继续
 
+##
+
+flow-setup-2fa-inline-complete-backup-code-description = 在无法通过移动设备或身份验证器应用登录时，这是最安全的恢复方式。
+flow-setup-2fa-inline-complete-backup-phone-description = 在无法通过身份验证器应用登录时，这是最简易的恢复方式。
+flow-setup-2fa-inline-complete-learn-more-link = 此举如何保护您的账户
+# $serviceName (String) - the name of the product that the user will be
+# redirected to.
+flow-setup-2fa-inline-complete-continue-button = 继续使用 { $serviceName }
+flow-setup-2fa-prompt-heading = 设置两步验证
+# Variable { $serviceName } is the name of the product (e.g. Firefox Add-ons)
+# that requests two-step authentication setup.
+flow-setup-2fa-prompt-description = { $serviceName } 需要您设置两步验证以保护账户安全。
+# "these authenticator apps" links to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+flow-setup-2fa-prompt-use-authenticator-apps = 您可以使用<authenticationAppsLink>此处列出的身份验证应用</authenticationAppsLink>（任选一个）来继续操作。
+flow-setup-2fa-prompt-continue-button = 继续
+
 ## FlowSetupPhoneConfirmCode
 
 # verification code refers to a code sent by text message to confirm phone number ownership
@@ -711,6 +727,8 @@ header-menu-open = 关闭菜单
 header-menu-closed = 网站导航菜单
 header-back-to-top-link =
     .title = 回到顶端
+header-back-to-settings-link =
+    .title = 返回 { -product-mozilla-account }设置
 header-title-2 = { -product-mozilla-account }
 header-help = 帮助
 
@@ -1283,6 +1301,10 @@ auth-error-1067 = 您输入的邮箱地址可能有误
 # Variables:
 #  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
 recovery-phone-number-ending-digits = 手机尾号为 { $lastFourPhoneNumber }
+# This error is shown when there is a particular kind of error at the very end of the 2FA flow
+# and the user should begin it again. A system/device clock not being synced to the internet time is
+# a common problem when using 2FA.
+two-factor-auth-setup-token-verification-error = 启用两步验证时出现问题。请确认您的设备时钟已设为自动同步，然后<a>重新启用</a>。
 oauth-error-1000 = 出了点问题。请关闭此标签页，然后再试一次。
 
 ## Cannot Create Account page
