@@ -689,6 +689,16 @@ flow-setup-2fa-backup-code-dl-heading = Αποθήκευση εφεδρικών 
 flow-setup-2fa-backup-code-dl-save-these-codes = Διατηρήστε τους σε ένα μέρος που θα θυμάστε. Σε περίπτωση που δεν έχετε πρόσβαση στην εφαρμογή ελέγχου ταυτότητάς σας, θα χρειαστεί να εισαγάγετε έναν από αυτούς τους κωδικούς για να συνδεθείτε.
 flow-setup-2fa-backup-code-dl-button-continue = Συνέχεια
 
+##
+
+flow-setup-2fa-inline-complete-success-banner = Η ταυτοποίηση δύο παραγόντων ενεργοποιήθηκε
+flow-setup-2fa-inline-complete-backup-code = Εφεδρικοί κωδικοί ταυτοποίησης
+flow-setup-2fa-inline-complete-backup-phone = Τηλέφωνο ανάκτησης
+# $serviceName (String) - the name of the product that the user will be
+# redirected to.
+flow-setup-2fa-inline-complete-continue-button = Συνέχεια στο { $serviceName }
+flow-setup-2fa-prompt-continue-button = Συνέχεια
+
 ## FlowSetupPhoneConfirmCode
 
 # verification code refers to a code sent by text message to confirm phone number ownership

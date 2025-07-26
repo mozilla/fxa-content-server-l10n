@@ -26,6 +26,14 @@ upgrade-page-acknowledgment = Το πρόγραμμά σας θα αλλάξει
 auth-error-page-title = Δεν ήταν δυνατή η σύνδεση
 checkout-error-boundary-retry-button = Δοκιμή ξανά
 checkout-error-boundary-basic-error-message = Κάτι πήγε στραβά. Δοκιμάστε ξανά ή <contactSupportLink>επικοινωνήστε με την υποστήριξη.</contactSupportLink>
+amex-logo-alt-text = Λογότυπο { -brand-amex }
+diners-logo-alt-text = Λογότυπο { -brand-diner }
+discover-logo-alt-text = Λογότυπο { -brand-discover }
+jcb-logo-alt-text = Λογότυπο { -brand-jcb }
+mastercard-logo-alt-text = Λογότυπο { -brand-mastercard }
+paypal-logo-alt-text = Λογότυπο { -brand-paypal }
+unionpay-logo-alt-text = Λογότυπο { -brand-unionpay }
+visa-logo-alt-text = Λογότυπο { -brand-visa }
 
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -80,8 +88,23 @@ next-payment-confirmation-download-button = Συνέχεια στη λήψη
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Κάρτα που λήγει σε { $last4 }
 
+## Layout - Subscription Management
+
+subscription-management-breadcrumb-subscriptions = Συνδρομές
+subscription-management-account-profile-picture = Εικόνα προφίλ λογαριασμού
+
 ## Page - Subscription Management
 
+subscription-management-payment-information-heading = Στοιχεία πληρωμής
+subscription-management-button-add-payment-method-aria = Προσθήκη μεθόδου πληρωμής
+subscription-management-button-add-payment-method = Προσθήκη
+subscription-management-button-change-payment-method-aria = Αλλαγή μεθόδου πληρωμής
+subscription-management-button-change-payment-method = Αλλαγή
+subscription-management-subscriptions-heading = Συνδρομές
+subscription-management-your-subscriptions-aria = Οι συνδρομές σας
+subscription-management-button-cancel-subscription-aria = Ακύρωση συνδρομής
+subscription-management-button-cancel-subscription = Ακύρωση
+subscription-management-button-manage-subscription = Διαχείριση
 # Page - Not Found
 page-not-found-title = Η σελίδα δεν βρέθηκε
 page-not-found-description = Η σελίδα που ζητήσατε δεν βρέθηκε. Έχουμε ειδοποιηθεί και θα διορθώσουμε τυχόν συνδέσμους που ενδέχεται να μην λειτουργούν.
@@ -149,6 +172,8 @@ next-new-user-card-title = Εισαγάγετε τα στοιχεία της κ�
 
 next-plan-details-header = Λεπτομέρειες προιόντος
 next-plan-details-list-price = Τιμή καταλόγου
+# $productName (String) - The name of the product, e.g. Mozilla VPN
+plan-details-product-prorated-price = Αναλογική τιμή για το { $productName }
 next-plan-details-tax = Φόροι και τέλη
 next-plan-details-total-label = Σύνολο
 # "Unused time" refers to the remaining value of the current subscription that hasn't been used yet
