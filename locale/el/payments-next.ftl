@@ -112,12 +112,16 @@ subscription-management-your-subscriptions-aria = Οι συνδρομές σας
 subscription-management-no-subscriptions = Δεν έχετε καμία συνδρομή ακόμα
 subscription-management-button-cancel-subscription-aria = Ακύρωση συνδρομής
 subscription-management-button-cancel-subscription = Ακύρωση
+subscription-management-your-apple-iap-subscriptions-aria = Συνδρομές εντός εφαρμογών { -brand-apple }
 subscription-management-apple-in-app-purchase = { -brand-apple }: αγορά εντός εφαρμογής
+subscription-management-your-google-iap-subscriptions-aria = Συνδρομές εντός εφαρμογών { -brand-google }
 subscription-management-google-in-app-purchase = { -brand-google }: αγορά εντός εφαρμογής
 # $date (String) - Date of next bill
 subscription-management-iap-sub-next-bill = Επόμενη χρέωση στις { $date }
 # $date (String) - Date of In-App purchase expires
 subscription-management-iap-sub-expires-on = Λήγει στις { $date }
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscription-management-button-manage-subscription-aria = Διαχείριση συνδρομής για το { $productName }
 subscription-management-button-manage-subscription = Διαχείριση
 # Page - Not Found
 page-not-found-title = Η σελίδα δεν βρέθηκε
