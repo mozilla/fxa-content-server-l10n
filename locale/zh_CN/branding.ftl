@@ -45,10 +45,10 @@
 -brand-google = Google
 -brand-paypal = PayPal
 -brand-name-stripe = Stripe
--brand-amex = 美国运通（American Express）
--brand-diners = 大来卡（Diners Club）
--brand-discover = 发现卡（Discover）
--brand-mastercard = 万事达卡（MasterCard）
--brand-unionpay = 银联（Union Pay）
+-brand-amex = 美国运通
+-brand-diners = Diners Club
+-brand-discover = Discover
+-brand-mastercard = 万事达卡
+-brand-unionpay = 银联
 -app-store = App Store
 -google-play = Google Play
