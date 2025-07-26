@@ -695,7 +695,7 @@ flow-setup-2fa-inline-complete-backup-phone = Teléfono de recuperación
 flow-setup-2fa-inline-complete-backup-code-info =
     { $count ->
         [one] { $count } código restante
-       *[other] Quedan { $count } códigos
+       *[other] { $count } códigos restantes
     }
 flow-setup-2fa-inline-complete-backup-code-description = Este es el método de recuperación más seguro si no podés iniciar sesión con tu dispositivo móvil o aplicación de autenticación.
 flow-setup-2fa-inline-complete-backup-phone-description = Este es el método de recuperación más fácil si no podés iniciar sesión con tu aplicación de autenticación.
@@ -706,7 +706,7 @@ flow-setup-2fa-inline-complete-continue-button = Continuar a { $serviceName }
 flow-setup-2fa-prompt-heading = Configurar la autenticación de dos pasos
 # Variable { $serviceName } is the name of the product (e.g. Firefox Add-ons)
 # that requests two-step authentication setup.
-flow-setup-2fa-prompt-description = { $serviceName } requiere que configures la autenticación de dos pasos para mantener tu cuenta segura.
+flow-setup-2fa-prompt-description = { $serviceName } requiere que configurés la autenticación de dos pasos para mantener tu cuenta segura.
 # "these authenticator apps" links to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
 flow-setup-2fa-prompt-use-authenticator-apps = Podés usar cualquiera de <authenticationAppsLink>estas aplicaciones de autenticación</authenticationAppsLink> para continuar.
 flow-setup-2fa-prompt-continue-button = Continuar

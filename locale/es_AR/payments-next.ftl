@@ -106,20 +106,20 @@ subscription-management-button-change-payment-method = Cambiar
 # $last4 (String) - Last four numbers of credit card
 subscription-management-card-ending-in = Tarjeta que termina en { $last4 }
 # $expirationDate (Date) - Payment card's expiration date
-subscription-management-card-expires-date = Vence { $expirationDate }
+subscription-management-card-expires-date = Vencimiento { $expirationDate }
 subscription-management-subscriptions-heading = Suscripciones
 subscription-management-your-subscriptions-aria = Tus suscripciones
-subscription-management-no-subscriptions = Todavía no tienes ninguna suscripción
+subscription-management-no-subscriptions = Todavía no tenés ninguna suscripción
 subscription-management-button-cancel-subscription-aria = Cancelar suscripción
 subscription-management-button-cancel-subscription = Cancelar
-subscription-management-your-apple-iap-subscriptions-aria = Tus { -brand-apple } suscripciones In-App
+subscription-management-your-apple-iap-subscriptions-aria = Tus suscripciones In-App de { -brand-apple }
 subscription-management-apple-in-app-purchase = { -brand-apple }: Compras integradas
-subscription-management-your-google-iap-subscriptions-aria = Tus { -brand-google } suscripciones In-App
+subscription-management-your-google-iap-subscriptions-aria = Tus suscripciones In-App de { -brand-google }
 subscription-management-google-in-app-purchase = { -brand-google }: Compras integradas
 # $date (String) - Date of next bill
 subscription-management-iap-sub-next-bill = Próxima facturación el { $date }
 # $date (String) - Date of In-App purchase expires
-subscription-management-iap-sub-expires-on = Expira el { $date }
+subscription-management-iap-sub-expires-on = Vence el { $date }
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Administrar suscripción para { $productName }
 subscription-management-button-manage-subscription = Administrar
