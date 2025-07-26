@@ -302,7 +302,7 @@ metadata-title-checkout-processing = Behandler | { $productTitle }
 metadata-description-checkout-processing = Vent litt mens vi avslutter behandlingen av din betaling.
 # Checkout error
 metadata-title-checkout-error = Feil | { $productTitle }
-metadata-description-checkout-error = Det oppsto en feil under behandling av abonnementet ditt. Hvis problemet vedvarer, kan du kontakte kundestøtte.
+metadata-description-checkout-error = Det oppstod en feil under behandling av abonnementet ditt. Hvis problemet vedvarer, kan du kontakte kundestøtte.
 # Checkout success
 metadata-title-checkout-success = Suksess | { $productTitle }
 metadata-description-checkout-success = Gratulerer! Du har fullført kjøpet.
@@ -317,7 +317,7 @@ metadata-title-upgrade-processing = Behandler | { $productTitle }
 metadata-description-upgrade-processing = Vent litt mens vi avslutter behandlingen av din betaling.
 # Upgrade error
 metadata-title-upgrade-error = Feil | { $productTitle }
-metadata-description-upgrade-error = Det oppsto en feil under behandling av oppgraderingen. Hvis problemet vedvarer, kan du kontakte kundestøtte.
+metadata-description-upgrade-error = Det oppstod en feil under behandling av oppgraderingen. Hvis problemet vedvarer, kan du kontakte kundestøtte.
 # Upgrade success
 metadata-title-upgrade-success = Suksess | { $productTitle }
 metadata-description-upgrade-success = Gratulerer! Du har fullført oppgraderingen.
@@ -332,7 +332,7 @@ metadata-description-default = Siden du ba om ble ikke funnet.
 
 next-coupon-error-cannot-redeem = Koden du skrev inn kan ikke innløses — kontoen din har et tidligere abonnement på en av tjenestene våre.
 next-coupon-error-expired = Koden du skrev inn er utløpt.
-next-coupon-error-generic = Det oppsto en feil under behandling av koden. Prøv på nytt.
+next-coupon-error-generic = Det oppstod en feil under behandling av koden. Prøv på nytt.
 next-coupon-error-invalid = Koden du skrev inn er ugyldig.
 # "Limit" refers to the maximum number of times a coupon can be redeemed.
 next-coupon-error-limit-reached = Koden du skrev inn har nådd grensen.

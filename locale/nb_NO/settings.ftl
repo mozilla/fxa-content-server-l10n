@@ -64,7 +64,7 @@ recovery-key-pdf-storage-ideas-heading = Steder å oppbevare nøkkelen din
 # Followed by a link (https://mzl.la/3bNrM1I) to get more information and support
 recovery-key-pdf-support = Les mer om kontogjenopprettingsnøkkel
 # Error message displayed in an alert bar if the PDF download failed.
-recovery-key-pdf-download-error = Beklager, det oppsto et problem da kontogjenopprettingsnøkkelen skulle lastes ned.
+recovery-key-pdf-download-error = Beklager, det oppstod et problem da kontogjenopprettingsnøkkelen skulle lastes ned.
 
 ## ChooseNewsletters component
 ## Checklist of newsletters that the user can choose to sign up to
@@ -519,7 +519,7 @@ connect-another-app-store-image-2 =
 
 cs-heading = Tilknyttede tjenester
 cs-description = Alt du bruker og er innlogget på.
-cs-cannot-refresh = Beklager, det oppsto ett problem under oppdatering av listen over tilkoblede tjenester.
+cs-cannot-refresh = Beklager, det oppstod ett problem under oppdatering av listen over tilkoblede tjenester.
 cs-cannot-disconnect = Klienten ble ikke funnet, kan ikke koble fra
 # This string is used in a notification message near the top of the page.
 # Variables:
@@ -581,7 +581,7 @@ drop-down-menu-title-2 = { -product-mozilla-account }-meny
 # Following this string on a new line will be their display name (user's name or email)
 drop-down-menu-signed-in-as-v2 = Logget inn som
 drop-down-menu-sign-out = Logg ut
-drop-down-menu-sign-out-error-2 = Beklager, det oppsto et problem med å logge deg av
+drop-down-menu-sign-out-error-2 = Beklager, det oppstod et problem med å logge deg av
 
 ## Flow Container
 
@@ -795,8 +795,8 @@ nav-email-comm = E-postkommunikasjon
 
 ## Two Step Authentication - replace backup authentication code
 
-tfa-replace-code-error-3 = Det oppsto et problem med å erstatte dine reserve-autentiseringskoder
-tfa-create-code-error = Det oppsto et problem med å opprette dine reserve-autentiseringskoder
+tfa-replace-code-error-3 = Det oppstod et problem med å erstatte dine reserve-autentiseringskoder
+tfa-create-code-error = Det oppstod et problem med å opprette dine reserve-autentiseringskoder
 tfa-replace-code-success-1 =
     Nye koder er opprettet. Oppbevar disse engangs
     reserve-autentiseringskodene på et trygt sted – du trenger dem for å få tilgang til kontoen din hvis du ikke
@@ -809,7 +809,7 @@ tfa-enter-code-to-confirm-v2 = Skriv inn en av de nye reserve-autentiseringskode
 ## PageSetupRecoveryPhone
 
 page-2fa-setup-title = Totrinns-autentisering
-page-2fa-setup-totpinfo-error = Det oppsto en feil under oppsett av totrinns-autentisering. Prøv på nytt senere.
+page-2fa-setup-totpinfo-error = Det oppstod en feil under oppsett av totrinns-autentisering. Prøv på nytt senere.
 # code here refers to "backup authentication code"
 page-2fa-setup-incorrect-backup-code-error = Den koden er ikke riktig. Prøv på nytt.
 page-2fa-setup-success = Totrinns-autentisering er aktivert
@@ -840,7 +840,7 @@ avatar-page-rotate-button =
 avatar-page-camera-error = Kunne ikke starte kameraet
 avatar-page-new-avatar =
     .alt = nytt profilbilde
-avatar-page-file-upload-error-3 = Det oppsto et problem med å laste opp profilbildet ditt.
+avatar-page-file-upload-error-3 = Det oppstod et problem med å laste opp profilbildet ditt.
 avatar-page-delete-error-3 = Det oppstod et problem med å slette profilbildet ditt
 avatar-page-image-too-large-error-2 = Bildefilen er for stor til å lastes opp
 
@@ -870,7 +870,7 @@ pw-change-success-alert-2 = Passordet er oppdatert
 pw-create-header =
     .title = Opprett passord
 pw-create-success-alert-2 = Passord satt
-pw-create-error-2 = Beklager, det oppsto et problem med å angi passordet ditt
+pw-create-error-2 = Beklager, det oppstod et problem med å angi passordet ditt
 
 ## Delete account page
 
@@ -1189,7 +1189,7 @@ rk-key-removed-2 = Kontogjenopprettingsnøkkelen er fjernet
 rk-cannot-remove-key = Kunne ikke fjerne kontogjenopprettingsnøkkelen.
 rk-refresh-key-1 = Oppdater kontogjenopprettingsnøkkelen
 rk-content-explain = Gjenopprett informasjonen din når du glemmer passordet ditt.
-rk-cannot-verify-session-4 = Beklager, det oppsto et problem med å bekrefte økten din
+rk-cannot-verify-session-4 = Beklager, det oppstod et problem med å bekrefte økten din
 rk-remove-modal-heading-1 = Fjerne kontogjenopprettingsnøkkel?
 rk-remove-modal-content-1 = Hvis du tilbakestiller passordet ditt, vil du ikke kunne bruke kontogjenopprettingsnøkkelen din til å få tilgang til dataene dine. Du kan ikke angre denne handlingen.
 rk-remove-error-2 = Kunne ikke fjerne kontogjenopprettingsnøkkelen
@@ -1200,7 +1200,7 @@ unit-row-recovery-key-delete-icon-button-title = Slett kontogjenopprettingsnøkk
 
 se-heading = Sekundær e-postadresse
     .header = Sekundær e-postadresse
-se-cannot-refresh-email = Dessverre oppsto det et problem med å oppdatere e-postadressen.
+se-cannot-refresh-email = Dessverre oppstod det et problem med å oppdatere e-postadressen.
 se-cannot-resend-code-3 = Beklager, det oppstod et problem med å sende bekreftelseskoden
 # This string is used in a notification message near the top of the page.
 # Variables:
@@ -1213,7 +1213,7 @@ se-set-primary-error-2 = Beklager, det oppstod et problem med å endre den prim�
 se-delete-email-successful-2 = { $email } er slettet
 se-delete-email-error-2 = Beklager, det oppstod et problem med å slette denne e-postadressen.
 se-verify-session-3 = Du må bekrefte din nåværende økt for å utføre denne handlingen.
-se-verify-session-error-3 = Beklager, det oppsto et problem med å bekrefte økten din
+se-verify-session-error-3 = Beklager, det oppstod et problem med å bekrefte økten din
 # Button to remove the secondary email
 se-remove-email =
     .title = Fjern e-postadresse
@@ -1244,14 +1244,14 @@ tfa-row-enabled-description = Kontoen din er beskyttet av totrinns-autentisering
 # Link goes to https://support.mozilla.org/kb/secure-mozilla-account-two-step-authentication
 tfa-row-enabled-info-link = Slik beskytter dette kontoen din
 tfa-row-disabled-description-v2 = Bidra til å sikre kontoen din ved å bruke en tredjeparts autentiseringsapp som et andre trinn for å logge inn.
-tfa-row-cannot-verify-session-4 = Beklager, det oppsto et problem med å bekrefte økten din
+tfa-row-cannot-verify-session-4 = Beklager, det oppstod et problem med å bekrefte økten din
 tfa-row-disable-modal-heading = Slå av totrinns-autentisering
 tfa-row-disable-modal-confirm = Slå av
 tfa-row-disable-modal-explain-1 = Du kan ikke angre denne handlingen. Du har også muligheten til å <linkExternal>erstatte reserve-autentiseringskodene dine</linkExternal>.
 # Shown in an alert bar after two-step authentication is disabled
 tfa-row-disabled-2 = Totrinns-autentisering deaktivert
 tfa-row-cannot-disable-2 = Totrinns-autentisering kunne ikke deaktiveres
-tfa-row-disable-cannot-verify-session = Beklager, det oppsto et problem med å bekrefte økten din
+tfa-row-disable-cannot-verify-session = Beklager, det oppstod et problem med å bekrefte økten din
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
@@ -1335,7 +1335,7 @@ recovery-phone-number-ending-digits = Nummer som slutter på { $lastFourPhoneNum
 # This error is shown when there is a particular kind of error at the very end of the 2FA flow
 # and the user should begin it again. A system/device clock not being synced to the internet time is
 # a common problem when using 2FA.
-two-factor-auth-setup-token-verification-error = Det oppsto et problem med å aktivere totrinns-autentisering. Sjekk at klokken på enheten din er satt til å oppdateres automatisk, og <a>start på nytt</a>.
+two-factor-auth-setup-token-verification-error = Det oppstod et problem med å aktivere totrinns-autentisering. Sjekk at klokken på enheten din er satt til å oppdateres automatisk, og <a>start på nytt</a>.
 oauth-error-1000 = Noe gikk galt. Lukk denne fanen og prøv på nytt.
 
 ## Cannot Create Account page
@@ -1636,7 +1636,7 @@ complete-reset-pw-header-v2 = Opprett et nytt passord
 complete-reset-password-success-alert = Passord angitt
 # An error occurred while attempting to set a new password (password reset flow)
 # Displayed in an alert bar
-complete-reset-password-error-alert = Beklager, det oppsto et problem med å angi passordet ditt
+complete-reset-password-error-alert = Beklager, det oppstod et problem med å angi passordet ditt
 # Link to go back and use an account recovery key before resetting the password
 complete-reset-pw-recovery-key-link = Bruk kontogjenopprettingsnøkkel
 # A message informing the user that the password reset was successful and reminding them to create another recovery key
@@ -1719,7 +1719,7 @@ password-reset-recovery-method-code-info =
        *[other] { $numBackupCodes } koder igjen
     }
 # Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
-password-reset-recovery-method-send-code-error-heading = Det oppsto et problem da en kode skulle sendes til gjenopprettingstelefonen din
+password-reset-recovery-method-send-code-error-heading = Det oppstod et problem da en kode skulle sendes til gjenopprettingstelefonen din
 password-reset-recovery-method-send-code-error-description = Prøv igjen senere, eller bruk reserve-autentiseringskodene dine.
 
 ## ResetPasswordRecoveryPhone page
@@ -1736,7 +1736,7 @@ reset-password-recovery-phone-resend-code-button = Send koden på nytt
 reset-password-recovery-phone-resend-success = Kode sendt
 # links to https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 reset-password-recovery-phone-locked-out-link = Er du utestengt?
-reset-password-recovery-phone-send-code-error-heading = Det oppsto et problem med å sende en kode
+reset-password-recovery-phone-send-code-error-heading = Det oppstod et problem med å sende en kode
 reset-password-recovery-phone-code-verification-error-heading = Det oppstod et problem med å bekrefte koden din.
 # Follows the error message (e.g, "There was a problem sending a code")
 reset-password-recovery-phone-general-error-description = Prøv igjen senere.
@@ -1798,7 +1798,7 @@ report-signin-header = Rapporter uautorisert innlogging?
 report-signin-body = Du har fått e-post om forsøk på å få tilgang til kontoen din. Vil du rapportere denne aktiviteten som mistenkelig?
 report-signin-submit-button = Rapporter aktivitet
 report-signin-support-link = Hvorfor skjer dette?
-report-signin-error = Beklager, det oppsto et problem under innsending av rapporten.
+report-signin-error = Beklager, det oppstod et problem under innsending av rapporten.
 signin-bounced-header = Beklager. Vi har låst kontoen din.
 # $email (string) - The user's email.
 signin-bounced-message = Bekreftelsesmeldingen vi sendte til { $email } ble returnert, og vi har låst kontoen din for å beskytte dataene dine i { -brand-firefox }.
@@ -1842,7 +1842,7 @@ signin-recovery-method-code-info-v2 =
        *[other] { $numBackupCodes } koder igjen
     }
 # Shown when a backend service fails and a code cannot be sent to the user's recovery phone.
-signin-recovery-method-send-code-error-heading = Det oppsto et problem da en kode skulle sendes til gjenopprettingstelefonen din
+signin-recovery-method-send-code-error-heading = Det oppstod et problem da en kode skulle sendes til gjenopprettingstelefonen din
 signin-recovery-method-send-code-error-description = Prøv igjen senere, eller bruk reserve-autentiseringskodene dine.
 
 ## SigninRecoveryCode page
@@ -1868,7 +1868,7 @@ signin-recovery-code-required-error = Reserve-autentiseringskode påkrevd
 # Message to user after they were redirected to the Mozilla account sign-in page in a new browser
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
-signin-recovery-code-use-phone-failure = Det oppsto et problem da en kode skulle sendes til gjenopprettingstelefonen din
+signin-recovery-code-use-phone-failure = Det oppstod et problem da en kode skulle sendes til gjenopprettingstelefonen din
 signin-recovery-code-use-phone-failure-description = Prøv igjen senere.
 
 ## SigninRecoveryPhone page
@@ -1885,7 +1885,7 @@ signin-recovery-phone-resend-code-button = Send koden på nytt
 signin-recovery-phone-resend-success = Kode sendt
 # links to https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
 signin-recovery-phone-locked-out-link = Er du utestengt?
-signin-recovery-phone-send-code-error-heading = Det oppsto et problem med å sende en kode
+signin-recovery-phone-send-code-error-heading = Det oppstod et problem med å sende en kode
 signin-recovery-phone-code-verification-error-heading = Det oppstod et problem med å bekrefte koden din.
 # Follows the error message (e.g, "There was a problem sending a code")
 signin-recovery-phone-general-error-description = Prøv igjen senere.
