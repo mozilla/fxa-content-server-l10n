@@ -14,6 +14,16 @@ upgrade-page-payment-information = Төлем ақпараты
 ## Authentication Error page
 
 checkout-error-boundary-retry-button = Қайтадан көру
+amex-logo-alt-text = { -brand-amex } логотипі
+diners-logo-alt-text = { -brand-diner } логотипі
+discover-logo-alt-text = { -brand-discover } логотипі
+jcb-logo-alt-text = { -brand-jcb } логотипі
+mastercard-logo-alt-text = { -brand-mastercard } логотипі
+paypal-logo-alt-text = { -brand-paypal } логотипі
+unionpay-logo-alt-text = { -brand-unionpay } логотипі
+visa-logo-alt-text = { -brand-visa } логотипі
+# Alt text for generic payment card logo
+unbranded-logo-alt-text = Брендсіз логотип
 
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -22,6 +32,8 @@ next-payment-error-manage-subscription-button = Менің жазылуымды 
 next-payment-error-retry-button = Қайтадан көру
 next-basic-error-message = Бірнәрсе қате кетті. Кейінірек қайталап көріңіз.
 checkout-error-contact-support-button = Қолдау қызметіне хабарласу
+checkout-error-already-subscribed = Сіз бұл өнімге жазылып қойғансыз.
+checkout-processing-general-error = Төлеміңізді өңдеу кезінде күтпеген қате орын алды, әрекетті қайталаңыз.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -49,6 +61,10 @@ next-payment-confirmation-download-button = Жүктеп алуды жалғас
 
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = { $last4 } аяқталатын карта
+
+## Layout - Subscription Management
+
+subscription-management-breadcrumb-subscriptions = Жазылулар
 
 ## Page - Subscription Management
 
