@@ -708,6 +708,11 @@ flow-setup-2fa-inline-complete-learn-more-link = Πώς προστατεύετα
 # redirected to.
 flow-setup-2fa-inline-complete-continue-button = Συνέχεια στο { $serviceName }
 flow-setup-2fa-prompt-heading = Ρύθμιση ταυτοποίησης δύο παραγόντων
+# Variable { $serviceName } is the name of the product (e.g. Firefox Add-ons)
+# that requests two-step authentication setup.
+flow-setup-2fa-prompt-description = Το { $serviceName } απαιτεί να ρυθμίσετε την ταυτοποίηση δύο παραγόντων για την προστασία του λογαριασμού σας.
+# "these authenticator apps" links to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+flow-setup-2fa-prompt-use-authenticator-apps = Μπορείτε να χρησιμοποιήσετε οποιαδήποτε από <authenticationAppsLink>αυτές τις εφαρμογές ελέγχου ταυτότητας</authenticationAppsLink> για να συνεχίσετε.
 flow-setup-2fa-prompt-continue-button = Συνέχεια
 
 ## FlowSetupPhoneConfirmCode
@@ -748,6 +753,8 @@ header-menu-open = Κλείσιμο μενού
 header-menu-closed = Μενού πλοήγησης ιστοτόπου
 header-back-to-top-link =
     .title = Επιστροφή στην κορυφή
+header-back-to-settings-link =
+    .title = Επιστροφή στις ρυθμίσεις { -product-mozilla-account(case: "gen", capitalization: "lower") }
 header-title-2 = { -product-mozilla-account(case: "nom", capitalization: "upper") }
 header-help = Βοήθεια
 
@@ -1346,6 +1353,10 @@ auth-error-1067 = Εσφαλμένο email;
 # Variables:
 #  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
 recovery-phone-number-ending-digits = Αριθμός που λήγει σε { $lastFourPhoneNumber }
+# This error is shown when there is a particular kind of error at the very end of the 2FA flow
+# and the user should begin it again. A system/device clock not being synced to the internet time is
+# a common problem when using 2FA.
+two-factor-auth-setup-token-verification-error = Προέκυψε πρόβλημα κατά την ενεργοποίηση της ταυτοποίησης δύο παραγόντων. Ελέγξτε ότι το ρολόι της συσκευής σας έχει ρυθμιστεί έτσι, ώστε να ενημερώνεται αυτόματα και <a>ξεκινήστε από την αρχή</a>.
 oauth-error-1000 = Κάτι πήγε στραβά. Κλείστε αυτήν την καρτέλα και δοκιμάστε ξανά.
 
 ## Cannot Create Account page
