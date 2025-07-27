@@ -652,6 +652,10 @@ flow-setup-2fa-backup-code-confirm-button-finish = Дайын
 flow-setup-2fa-backup-code-dl-heading = Сақтық аутентификация кодтарын сақтау
 flow-setup-2fa-backup-code-dl-button-continue = Жалғастыру
 
+##
+
+flow-setup-2fa-prompt-continue-button = Жалғастыру
+
 ## FlowSetupPhoneConfirmCode
 
 # verification code refers to a code sent by text message to confirm phone number ownership

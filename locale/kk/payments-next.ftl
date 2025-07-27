@@ -65,9 +65,24 @@ next-payment-confirmation-cc-card-ending-in = { $last4 } аяқталатын к
 ## Layout - Subscription Management
 
 subscription-management-breadcrumb-subscriptions = Жазылулар
+subscription-management-account-profile-picture = Тіркелгі профилінің суреті
 
 ## Page - Subscription Management
 
+subscription-management-payment-information-heading = Төлем ақпараты
+subscription-management-button-add-payment-method-aria = Төлем әдісін қосу
+subscription-management-button-add-payment-method = Қосу
+subscription-management-button-change-payment-method-aria = Төлем әдісін өзгерту
+subscription-management-button-change-payment-method = Өзгерту
+# $last4 (String) - Last four numbers of credit card
+subscription-management-card-ending-in = { $last4 } деп аяқталатын карта
+# $expirationDate (Date) - Payment card's expiration date
+subscription-management-card-expires-date = Мерзімі { $expirationDate } күні аяқталады
+subscription-management-subscriptions-heading = Жазылулар
+subscription-management-your-subscriptions-aria = Сіздің жазылуларыңыз
+subscription-management-button-cancel-subscription-aria = Жазылудан бас тарту
+subscription-management-button-cancel-subscription = Бас тарту
+subscription-management-button-manage-subscription = Басқару
 # Page - Not Found
 page-not-found-title = Бет табылмады
 page-not-found-description = Сіз сұраған бет табылмады. Ол туралы біз хабарды алдық, және қате бола алатын сілтемелерді жөндейміз.
@@ -137,6 +152,11 @@ next-plan-details-header = Өнім мәліметтері
 next-plan-details-list-price = Прейскурант
 next-plan-details-tax = Салықтар мен алымдар
 next-plan-details-total-label = Барлығы
+purchase-details-subtotal-label = Аралық сома
+# "Credit applied" refers to account credit used to reduce the amount due on the invoice
+purchase-details-credit-applied-label = Несие қолданылды
+# "Total due" is the total that the customer owes after all credits, discounts, and taxes have been applied
+purchase-details-total-due-label = Жалпы сома
 next-plan-details-hide-button = Мәліметтерді жасыру
 next-plan-details-show-button = Мәліметтерді көрсету
 next-coupon-success = Сіздің жоспарыңыз тізімдік баға бойынша автоматты түрде жаңартылады.
@@ -182,6 +202,7 @@ next-subscription-create-title = Жазылуыңызды реттеу
 next-subscription-success-title = Жазылуды растау
 next-subscription-processing-title = Жазылуды растау…
 next-subscription-error-title = Жазылуды растау қатесі…
+subscription-title-plan-change-heading = Өзгерісіңізді қарап шығыңыз
 next-sub-guarantee = Ақшаны қайтарудың 30-күндік кепілдігі
 
 ## Component - TermsAndPrivacy
