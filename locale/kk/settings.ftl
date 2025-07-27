@@ -683,6 +683,8 @@ header-menu-open = Мәзірді жабу
 header-menu-closed = Сайттың навигация мәзірі
 header-back-to-top-link =
     .title = Жоғарыға оралу
+header-back-to-settings-link =
+    .title = { -product-mozilla-account } баптауларына оралу
 header-title-2 = { -product-mozilla-account }
 header-help = Көмек
 
