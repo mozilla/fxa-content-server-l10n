@@ -675,6 +675,12 @@ flow-setup-2fa-backup-code-dl-button-continue = 继续
 
 ##
 
+flow-setup-2fa-inline-complete-success-banner = 已启用两步验证
+flow-setup-2fa-inline-complete-backup-code = 备用验证码
+flow-setup-2fa-inline-complete-backup-phone = 恢复电话号码
+# $count (Number) - an integer representing the number of backup
+# authentication codes remaining
+flow-setup-2fa-inline-complete-backup-code-info = 剩余 { $count } 个验证码
 flow-setup-2fa-inline-complete-backup-code-description = 在无法通过移动设备或身份验证器应用登录时，这是最安全的恢复方式。
 flow-setup-2fa-inline-complete-backup-phone-description = 在无法通过身份验证器应用登录时，这是最简易的恢复方式。
 flow-setup-2fa-inline-complete-learn-more-link = 此举如何保护您的账户

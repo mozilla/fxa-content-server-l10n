@@ -51,5 +51,6 @@
 -brand-jcb = JCB
 -brand-mastercard = 万事达卡
 -brand-unionpay = 银联
+-brand-visa = Visa
 -app-store = App Store
 -google-play = Google Play

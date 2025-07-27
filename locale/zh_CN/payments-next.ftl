@@ -29,6 +29,13 @@ checkout-error-boundary-basic-error-message = 出了点问题。请重试或<con
 amex-logo-alt-text = { -brand-amex }徽标
 diners-logo-alt-text = { -brand-diner }徽标
 discover-logo-alt-text = { -brand-discover }徽标
+jcb-logo-alt-text = { -brand-jcb } 徽标
+mastercard-logo-alt-text = { -brand-mastercard }徽标
+paypal-logo-alt-text = { -brand-paypal } 徽标
+unionpay-logo-alt-text = { -brand-unionpay }徽标
+visa-logo-alt-text = { -brand-visa } 徽标
+# Alt text for generic payment card logo
+unbranded-logo-alt-text = 未知品牌的徽标
 
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -83,8 +90,37 @@ next-payment-confirmation-download-button = 前往下载
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = 卡号末四位：{ $last4 }
 
+## Layout - Subscription Management
+
+subscription-management-breadcrumb-account-home = 账户主页
+subscription-management-breadcrumb-subscriptions = 订阅
+subscription-management-account-profile-picture = 账户头像
+
 ## Page - Subscription Management
 
+subscription-management-payment-information-heading = 付款信息
+subscription-management-button-add-payment-method-aria = 添加付款方式
+subscription-management-button-add-payment-method = 添加
+subscription-management-button-change-payment-method-aria = 更改付款方式
+subscription-management-button-change-payment-method = 更改
+# $last4 (String) - Last four numbers of credit card
+subscription-management-card-ending-in = 尾号 { $last4 } 的卡片
+subscription-management-subscriptions-heading = 订阅
+subscription-management-your-subscriptions-aria = 您的订阅
+subscription-management-no-subscriptions = 您尚未拥有订阅
+subscription-management-button-cancel-subscription-aria = 取消订阅
+subscription-management-button-cancel-subscription = 取消
+subscription-management-your-apple-iap-subscriptions-aria = 您的 { -brand-apple } 应用内订阅
+subscription-management-apple-in-app-purchase = { -brand-apple }：应用内购买
+subscription-management-your-google-iap-subscriptions-aria = 您的 { -brand-google } 应用内订阅
+subscription-management-google-in-app-purchase = { -brand-google }：应用内购买
+# $date (String) - Date of next bill
+subscription-management-iap-sub-next-bill = 下个结算日在 { $date }
+# $date (String) - Date of In-App purchase expires
+subscription-management-iap-sub-expires-on = 有效期至 { $date }
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscription-management-button-manage-subscription-aria = 管理 { $productName } 的订阅
+subscription-management-button-manage-subscription = 管理
 # Page - Not Found
 page-not-found-title = 找不到页面
 page-not-found-description = 找不到您要打开的页面。我们已获悉此问题，并将修复可能出现问题的链接。
@@ -152,6 +188,8 @@ next-new-user-card-title = 输入您的卡片信息
 
 next-plan-details-header = 产品详细信息
 next-plan-details-list-price = 标价
+# $productName (String) - The name of the product, e.g. Mozilla VPN
+plan-details-product-prorated-price = { $productName } 的差价
 next-plan-details-tax = 税费
 next-plan-details-total-label = 总计
 # "Unused time" refers to the remaining value of the current subscription that hasn't been used yet
