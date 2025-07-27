@@ -421,15 +421,19 @@ postAddRecoveryPhone-how-protect = 계정을 보호하는 방법
 postAddRecoveryPhone-how-protect-plaintext = 계정을 보호하는 방법:
 postAddRecoveryPhone-enabled-device = 다음에서 활성화했습니다:
 postAddRecoveryPhone-action = 계정 관리
+postAddTwoStepAuthentication-preview = 계정이 보호됩니다
 postAddTwoStepAuthentication-subject-v3 = 2단계 인증이 켜져 있습니다
 postAddTwoStepAuthentication-title-2 = 2단계 인증을 켰습니다
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postAddTwoStepAuthentication-from-device-v2 = 다음에서 요청함:
 postAddTwoStepAuthentication-action = 계정 관리
+postAddTwoStepAuthentication-code-required-v4 = 이제 로그인할 때마다 인증 앱의 보안 코드가 필요합니다.
 postAddTwoStepAuthentication-recovery-method-codes = 복구 방법으로 백업 인증 코드도 추가했습니다.
 # Variables:
 #  $maskedPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
 postAddTwoStepAuthentication-recovery-method-phone = 복구 전화번호로 { $maskedPhoneNumber }도 추가하였습니다.
+postAddTwoStepAuthentication-how-protects-link = 계정을 보호하는 방법
+postAddTwoStepAuthentication-how-protects-plaintext = 계정을 보호하는 방법:
 postChangeAccountRecovery-subject = 계정 복구 키 변경됨
 postChangeAccountRecovery-title = 계정 복구 키를 변경했습니다.
 postChangeAccountRecovery-body-part1 = 새로운 계정 복구 키가 생성되었습니다. 이전 키는 삭제되었습니다.
@@ -647,6 +651,10 @@ subscriptionRenewalReminder-content-closing = 진심으로,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = { $productName } 팀 드림
+subscriptionReplaced-subject = 업그레이드의 일부로 구독이 업데이트되었습니다.
+subscriptionReplaced-title = 구독 정보가 업데이트 되었습니다.
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionReplaced-content-replaced = 개별 { $productName } 구독이 대체되었으며 이제 새 번들에 포함되었습니다.
 subscriptionsPaymentExpired-subject-1 = 결제용 신용 카드 만료 혹은 만료 예정
 subscriptionsPaymentExpired-title-1 = 신용카드가 만료되었거나 곧 만료될 예정입니다.
 subscriptionsPaymentExpired-content-1 = 다음 구독에 대한 결제에 사용 중인 신용 카드가 만료되었거나 곧 만료됩니다.

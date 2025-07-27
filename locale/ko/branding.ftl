@@ -49,5 +49,9 @@
 -brand-google = Google
 -brand-paypal = PayPal
 -brand-name-stripe = Stripe
+-brand-diners = 다이너스 클럽
+-brand-discover = 디스커버 카드
+-brand-jcb = JCB
+-brand-mastercard = 마스터카드
 -app-store = App Store
 -google-play = Google Play
