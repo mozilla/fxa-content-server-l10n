@@ -26,6 +26,16 @@ upgrade-page-acknowledgment = 요금제가 즉시 변경되며, 결제 주기의
 auth-error-page-title = 로그인할 수 없습니다.
 checkout-error-boundary-retry-button = 다시 시도
 checkout-error-boundary-basic-error-message = 무언가 잘못되었습니다. 다시 시도하시거나 <contactSupportLink>지원 팀에 문의</contactSupportLink>하세요.
+amex-logo-alt-text = { -brand-amex } 로고
+diners-logo-alt-text = { -brand-diner } 로고
+discover-logo-alt-text = { -brand-discover } 로고
+jcb-logo-alt-text = { -brand-jcb } 로고
+mastercard-logo-alt-text = { -brand-mastercard } 로고
+paypal-logo-alt-text = { -brand-paypal } 로고
+unionpay-logo-alt-text = { -brand-unionpay } 로고
+visa-logo-alt-text = { -brand-visa } 로고
+# Alt text for generic payment card logo
+unbranded-logo-alt-text = 로고 없음
 
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -40,6 +50,15 @@ checkout-error-already-subscribed = 이미 이 제품을 구독하고 있습니�
 checkout-error-contact-support = 도움을 드릴 수 있도록 지원팀에 문의하세요.
 cart-error-currency-not-determined = 구매에 사용한 통화를 확인할 수 없습니다. 다시 시도하세요.
 checkout-processing-general-error = 결제를 처리하는 동안 예기치 못한 오류가 발생했습니다. 다시 시도하세요.
+cart-total-mismatch-error = 송장 금액이 변경되었습니다. 다시 시도하세요.
+
+## Error pages - Payment method failure messages
+
+intent-expired-card-error = 신용 카드 유효 기간이 만료된 것 같습니다. 다른 카드를 사용해보세요.
+intent-payment-error-try-again = 결제를 승인하는 동안 문제가 발생했습니다. 다시 시도하거나 카드사에 연락하세요.
+intent-payment-error-get-in-touch = 결제를 승인하는 동안 문제가 발생했습니다. 카드사에 연락하세요.
+intent-payment-error-generic = 결제를 처리하는 동안 예기치 않은 오류가 발생했습니다. 다시 시도하십시오.
+intent-payment-error-insufficient-funds = 카드 잔액이 부족한 것 같습니다. 다른 카드를 사용해보세요.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -70,8 +89,37 @@ next-payment-confirmation-download-button = 다운로드 계속 하기
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = 끝자리가 { $last4 } 인 카드
 
+## Layout - Subscription Management
+
+subscription-management-breadcrumb-account-home = 계정 홈
+subscription-management-breadcrumb-subscriptions = 구독
+subscription-management-account-profile-picture = 계정 프로필 사진
+
 ## Page - Subscription Management
 
+subscription-management-payment-information-heading = 결제 정보
+subscription-management-button-add-payment-method-aria = 결제 수단 추가
+subscription-management-button-add-payment-method = 추가
+subscription-management-button-change-payment-method-aria = 결제 수단 변경
+subscription-management-button-change-payment-method = 변경
+# $last4 (String) - Last four numbers of credit card
+subscription-management-card-ending-in = 끝자리가 { $last4 } 인 카드
+# $expirationDate (Date) - Payment card's expiration date
+subscription-management-card-expires-date = 만료 { $expirationDate }
+subscription-management-subscriptions-heading = 구독
+subscription-management-your-subscriptions-aria = 구독 목록
+subscription-management-no-subscriptions = 아직 구독정보가 없습니다.
+subscription-management-button-cancel-subscription-aria = 구독 취소
+subscription-management-button-cancel-subscription = 취소
+subscription-management-your-apple-iap-subscriptions-aria = { -brand-apple } 앱 내부 구독
+subscription-management-apple-in-app-purchase = { -brand-apple }: 앱 내 구매
+subscription-management-your-google-iap-subscriptions-aria = { -brand-google } 앱 내부 구독
+subscription-management-google-in-app-purchase = { -brand-google }: 앱 내 구매
+# $date (String) - Date of In-App purchase expires
+subscription-management-iap-sub-expires-on = { $date }에 만료
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscription-management-button-manage-subscription-aria = { $productName } 구독 관리
+subscription-management-button-manage-subscription = 관리
 # Page - Not Found
 page-not-found-title = 페이지를 찾을 수 없음
 page-not-found-description = 요청하신 페이지를 찾을 수 없습니다. 알림을 받았으며 잘못된 모든 링크를 수정할 예정입니다.

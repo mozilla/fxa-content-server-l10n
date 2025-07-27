@@ -53,5 +53,7 @@
 -brand-discover = 디스커버 카드
 -brand-jcb = JCB
 -brand-mastercard = 마스터카드
+-brand-unionpay = 은련페이
+-brand-visa = 비자카드
 -app-store = App Store
 -google-play = Google Play
