@@ -121,6 +121,11 @@ subscription-management-your-google-iap-subscriptions-aria = თქვენი 
 subscription-management-google-in-app-purchase = { -brand-google }: აპის შიდა შესყიდვა
 # $date (String) - Date of next bill
 subscription-management-iap-sub-next-bill = ანგარიშსწორების მომდევნო თარიღი { $date }
+# $date (String) - Date of In-App purchase expires
+subscription-management-iap-sub-expires-on = ვადის გასვლის თარიღი { $date }
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscription-management-button-manage-subscription-aria = გამოწერის მართვა – { $productName }
+subscription-management-button-manage-subscription = მართვა
 # Page - Not Found
 page-not-found-title = გვერდი ვერ მოიძებნა
 page-not-found-description = თქვენ მიერ მოთხოვნილი გვერდი ვერ მოიძებნა. ჩვენ უკვე გვეცნობა ამის შესახებ და ყველა შესაძლო დაზიანებულ ბმულს გავასწორებთ.
@@ -188,6 +193,8 @@ next-new-user-card-title = შეიყვანეთ თქვენი ბა
 
 next-plan-details-header = პროდუქტის შესახებ
 next-plan-details-list-price = ფასების ნუსხა
+# $productName (String) - The name of the product, e.g. Mozilla VPN
+plan-details-product-prorated-price = დანაწილებული ფასი – { $productName }
 next-plan-details-tax = გადასახადები და მოსაკრებლები
 next-plan-details-total-label = სულ
 # "Unused time" refers to the remaining value of the current subscription that hasn't been used yet

@@ -500,7 +500,7 @@ pay-update-manage-btn = მართვა
 
 sub-next-bill = მომდევნო ანგარიშსწორება { $date }
 sub-next-bill-due-date = ანგარიშსწორებისთვის შემდეგ შეტანის ვადაა { $date }
-sub-expires-on = ბოლო ვადაა { $date }
+sub-expires-on = ვადის გასვლის თარიღი { $date }
 
 ## Routes - Subscription - PaymentUpdate
 

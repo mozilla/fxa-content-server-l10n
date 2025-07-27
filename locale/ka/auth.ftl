@@ -305,7 +305,7 @@ inactiveAccountFinalWarning-preview = შედით, რომ შეინა
 inactiveAccountFinalWarning-account-description = თქვენი { -product-mozilla-account } გამოიყენება უფასო წვდომისთვის პირადულობისა და გვერდების მონახულებისთვის, აგრეთვე ისეთი პროდუქტებისთვის, როგორებიცაა { -brand-firefox }-სინქრონიზაცია, { -product-mozilla-monitor }, { -product-firefox-relay } და { -product-mdn }.
 # $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
 # This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
-inactiveAccountFinalWarning-impact = <strong>{ $deletionDate }</strong> თქვენი ანგარიშისა და პირადი მონაცემების სამუდამოდ წაშლის ბოლო ვადაა, ანგარიშზე თუ არ შეხვალთ.
+inactiveAccountFinalWarning-impact = <strong>{ $deletionDate }</strong> თქვენი ანგარიშისა და პირადი მონაცემების სამუდამოდ წაშლის ვადაა, ანგარიშზე თუ არ შეხვალთ.
 inactiveAccountFinalWarning-action = შედით, რომ შეინარჩუნოთ ანგარიში
 # followed by link to sign in
 inactiveAccountFinalWarning-action-plaintext = შედით, რომ შეინარჩუნოთ ანგარიში:
@@ -315,7 +315,7 @@ inactiveAccountFirstWarning-account-description-v2 = თქვენი { -produ
 inactiveAccountFirstWarning-inactive-status = შევამჩნიეთ, რომ ანგარიშზე 2 წელია არ შესულხართ.
 # $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
 # This date will already be formatted with moment.js into Thursday, Jan 9, 2025 format
-inactiveAccountFirstWarning-impact = თქვენი ანგარიშისა და პირადი მონაცემების სამუდამოდ წაშლის ბოლო ვადაა <strong>{ $deletionDate }</strong>, რადგან არ ხართ მოქმედი მომხმარებელი.
+inactiveAccountFirstWarning-impact = თქვენი ანგარიშისა და პირადი მონაცემების სამუდამოდ წაშლის ვადაა <strong>{ $deletionDate }</strong>, რადგან არ ხართ მოქმედი მომხმარებელი.
 inactiveAccountFirstWarning-action = შედით, რომ შეინარჩუნოთ ანგარიში
 inactiveAccountFirstWarning-preview = შედით, რომ შეინარჩუნოთ ანგარიში
 # followed by link to sign in
@@ -324,7 +324,7 @@ inactiveAccountSecondWarning-subject = საჭიროა მოქმედ�
 inactiveAccountSecondWarning-title = თქვენი { -brand-mozilla }-ანგარიში და მონაცემები წაიშლება 7 დღეში
 inactiveAccountSecondWarning-account-description-v2 = თქვენი { -product-mozilla-account } გამოიყენება უფასო წვდომისთვის პირადულობისა და გვერდების მონახულებისთვის, აგრეთვე ისეთი პროდუქტებისთვის, როგორებიცაა { -brand-firefox }-სინქრონიზაცია, { -product-mozilla-monitor }, { -product-firefox-relay } და { -product-mdn }.
 # $deletionDate - the date when the account will be deleted if the user does not take action to-reactivate their account
-inactiveAccountSecondWarning-impact = თქვენი ანგარიშისა და პირადი მონაცემების სამუდამოდ წაშლის ბოლო ვადაა <strong>{ $deletionDate }</strong>, რადგან არ ხართ მოქმედი მომხმარებელი.
+inactiveAccountSecondWarning-impact = თქვენი ანგარიშისა და პირადი მონაცემების სამუდამოდ წაშლის ვადაა <strong>{ $deletionDate }</strong>, რადგან არ ხართ მოქმედი მომხმარებელი.
 inactiveAccountSecondWarning-action = შედით, რომ შეინარჩუნოთ ანგარიში
 inactiveAccountSecondWarning-preview = შედით, რომ შეინარჩუნოთ ანგარიში
 # followed by link to sign in
