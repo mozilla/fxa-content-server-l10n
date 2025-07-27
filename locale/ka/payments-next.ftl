@@ -29,6 +29,16 @@ upgrade-page-acknowledgment =
 auth-error-page-title = თქვენს ანგარიშზე შესვლა ვერ მოხერხდა
 checkout-error-boundary-retry-button = ხელახლა ცდა
 checkout-error-boundary-basic-error-message = რაღაც ხარვეზი წარმოიშვა. გთხოვთ, სცადოთ ხელახლა ან <contactSupportLink>დაუკავშირდეთ მხარდაჭერის გუნდს.</contactSupportLink>
+amex-logo-alt-text = { -brand-amex }-ლოგო
+diners-logo-alt-text = { -brand-diner }-ლოგო
+discover-logo-alt-text = { -brand-discover }-ლოგო
+jcb-logo-alt-text = { -brand-jcb }-ლოგო
+mastercard-logo-alt-text = { -brand-mastercard }-ლოგო
+paypal-logo-alt-text = { -brand-paypal }-ლოგო
+unionpay-logo-alt-text = { -brand-unionpay }-ლოგო
+visa-logo-alt-text = { -brand-visa }-ლოგო
+# Alt text for generic payment card logo
+unbranded-logo-alt-text = გამოსახულების არმქონე ლოგო
 
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -83,8 +93,34 @@ next-payment-confirmation-download-button = განაგრძეთ ჩა�
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = ბარათი დაბოლოებით { $last4 }
 
+## Layout - Subscription Management
+
+subscription-management-breadcrumb-account-home = ანგარიშის მთავარი გვერდი
+subscription-management-breadcrumb-subscriptions = გამოწერები
+subscription-management-account-profile-picture = ანგარიშის პროფილის სურათი
+
 ## Page - Subscription Management
 
+subscription-management-payment-information-heading = გადახდის მონაცემები
+subscription-management-button-add-payment-method-aria = გადახდის საშუალების დამატება
+subscription-management-button-add-payment-method = დამატება
+subscription-management-button-change-payment-method-aria = გადახდის საშუალებების შეცვლა
+subscription-management-button-change-payment-method = შეცვლა
+# $last4 (String) - Last four numbers of credit card
+subscription-management-card-ending-in = ბარათი დაბოლოებით { $last4 }
+# $expirationDate (Date) - Payment card's expiration date
+subscription-management-card-expires-date = მოქმედების ვადა { $expirationDate }
+subscription-management-subscriptions-heading = გამოწერები
+subscription-management-your-subscriptions-aria = თქვენი გამოწერილები
+subscription-management-no-subscriptions = გამოწერილები ჯერ არაა
+subscription-management-button-cancel-subscription-aria = გამოწერის გაუქმება
+subscription-management-button-cancel-subscription = გაუქმება
+subscription-management-your-apple-iap-subscriptions-aria = თქვენი { -brand-apple } შიდა გამოწერებით
+subscription-management-apple-in-app-purchase = { -brand-apple }: აპის შიდა შესყიდვა
+subscription-management-your-google-iap-subscriptions-aria = თქვენი { -brand-google } შიდა გამოწერებით
+subscription-management-google-in-app-purchase = { -brand-google }: აპის შიდა შესყიდვა
+# $date (String) - Date of next bill
+subscription-management-iap-sub-next-bill = ანგარიშსწორების მომდევნო თარიღი { $date }
 # Page - Not Found
 page-not-found-title = გვერდი ვერ მოიძებნა
 page-not-found-description = თქვენ მიერ მოთხოვნილი გვერდი ვერ მოიძებნა. ჩვენ უკვე გვეცნობა ამის შესახებ და ყველა შესაძლო დაზიანებულ ბმულს გავასწორებთ.

@@ -689,6 +689,32 @@ flow-setup-2fa-backup-code-dl-heading = დამოწმების სამ
 flow-setup-2fa-backup-code-dl-save-these-codes = შეინახეთ დასამახსოვრებელ ადგილას. თუ აღარ გექნებათ წვდომა თქვენს დამმოწმებელ პროგრამასთან, ერთ-ერთი მათგანის შეყვანით შეძლებთ შესვლას.
 flow-setup-2fa-backup-code-dl-button-continue = განაგრძეთ
 
+##
+
+flow-setup-2fa-inline-complete-success-banner = ორბიჯიანი დამოწმება შესვლისას ჩართულია
+flow-setup-2fa-inline-complete-backup-code = შესვლის სამარქაფო კოდები
+flow-setup-2fa-inline-complete-backup-phone = აღდგენის ტელეფონი
+# $count (Number) - an integer representing the number of backup
+# authentication codes remaining
+flow-setup-2fa-inline-complete-backup-code-info =
+    { $count ->
+        [one] დარჩენილია { $count } კოდი
+       *[other] დარჩენილია { $count } კოდი
+    }
+flow-setup-2fa-inline-complete-backup-code-description = ესაა აღდგენის მეტად უსაფრთხო გზა, ანგარიშზე თუ ვერ შედიხართ თქვენი მობილური მოწყობილობით ან დამმოწმებელი პროგრამით.
+flow-setup-2fa-inline-complete-backup-phone-description = ესაა აღდგენის მეტად იოლი გზა, ანგარიშზე თუ ვერ შედიხართ დამმოწმებელი პროგრამით.
+flow-setup-2fa-inline-complete-learn-more-link = როგორ იცავს ეს თქვენს ანგარიშს
+# $serviceName (String) - the name of the product that the user will be
+# redirected to.
+flow-setup-2fa-inline-complete-continue-button = გაიხსნება { $serviceName }
+flow-setup-2fa-prompt-heading = ორბიჯიანი დამოწმების გამართვა
+# Variable { $serviceName } is the name of the product (e.g. Firefox Add-ons)
+# that requests two-step authentication setup.
+flow-setup-2fa-prompt-description = { $serviceName } ითხოვს ორბიჯიანი დამოწმების გამართვას შესვლისას ანგარიშის უსაფრთხოებისთვის.
+# "these authenticator apps" links to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+flow-setup-2fa-prompt-use-authenticator-apps = გასაგრძელებლად შეგიძლიათ გამოიყენოთ ნებისმიერი <authenticationAppsLink>ამ დამმოწმებელი პროგრამებიდან</authenticationAppsLink>.
+flow-setup-2fa-prompt-continue-button = განაგრძეთ
+
 ## FlowSetupPhoneConfirmCode
 
 # verification code refers to a code sent by text message to confirm phone number ownership
@@ -727,6 +753,8 @@ header-menu-open = მენიუს დახურვა
 header-menu-closed = საიტზე გადაადგილების მენიუ
 header-back-to-top-link =
     .title = დასაწყისში დაბრუნება
+header-back-to-settings-link =
+    .title = უკან { -product-mozilla-account } პარამეტრებით
 header-title-2 = { -product-mozilla-account }
 header-help = დახმარება
 
@@ -1322,6 +1350,10 @@ auth-error-1067 = მცდარბეჭდილია ელფოსტა?
 # Variables:
 #  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
 recovery-phone-number-ending-digits = ნომრის დაბოლოებაა { $lastFourPhoneNumber }
+# This error is shown when there is a particular kind of error at the very end of the 2FA flow
+# and the user should begin it again. A system/device clock not being synced to the internet time is
+# a common problem when using 2FA.
+two-factor-auth-setup-token-verification-error = ხარვეზი წარმოიშვა ორბიჯიანი დამოწმების ჩართვისას. დარწმუნდით, რომ თქვენი მოწყობილობის საათზე ჩართულია ავტომატური განახლება და <a>კვლავ სცადეთ</a>.
 oauth-error-1000 = რაღაც ხარვეზია. გთხოვთ დახუროთ ჩანართი და სცადოთ ხელახლა.
 
 ## Cannot Create Account page
