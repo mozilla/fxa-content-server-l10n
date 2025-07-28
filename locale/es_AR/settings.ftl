@@ -1346,7 +1346,7 @@ recovery-phone-number-ending-digits = Número que termina en { $lastFourPhoneNum
 # This error is shown when there is a particular kind of error at the very end of the 2FA flow
 # and the user should begin it again. A system/device clock not being synced to the internet time is
 # a common problem when using 2FA.
-two-factor-auth-setup-token-verification-error = Hubo un problema al habilitar la autenticación en dos pasos. Verificá que el reloj de tu dispositivo esté configurado para actualizarse automáticamente y <a>empezar de nuevo</a>.
+two-factor-auth-setup-token-verification-error = Hubo un problema al habilitar la autenticación en dos pasos. Verificá que el reloj de tu dispositivo esté configurado para actualizarse automáticamente y <a>empezá de nuevo</a>.
 oauth-error-1000 = Algo no funcionó. Cerrá esta pestaña y probá de nuevo.
 
 ## Cannot Create Account page
