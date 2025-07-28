@@ -152,29 +152,6 @@ verify-secondary-email-cancel-button = Encaboxar
 # Link to delete account on main Settings page
 delete-account-link = Desaniciar la cuenta
 
-## Two Step Authentication
-
-tfa-title = Autenticación en dos pasos
-tfa-step-1-3 = Pasu 1 de 3
-tfa-step-2-3 = Pasu 2 de 3
-tfa-step-3-3 = Pasu 3 de 3
-tfa-button-continue = Siguir
-tfa-button-cancel = Encaboxar
-tfa-button-finish = Finar
-tfa-incorrect-totp = El códigu de l'autenticación en dos pasos ye incorreutu
-tfa-cannot-retrieve-code = Hebo un problema al recuperar el códigu.
-tfa-scan-this-code =
-    Escania esti códigu QR con <linkExternal>estes
-    aplicaciones d'autenticación</linkExternal>.
-# This is the image alt text for a QR code.
-# Variables:
-#   $secret (String) - a long alphanumeric string that does not require translation
-# DEV NOTE: Set image alt text per fluent/react documentation, do not use the below as an example
-tfa-qa-code-alt = Usa'l códigu { $secret } pa configurar la verificación en dos pasos nes aplicaciones compatibles.
-tfa-qa-code =
-    .alt = { tfa-qa-code-alt }
-tfa-button-cant-scan-qr = ¿Nun pues escaniar el códigu?
-
 ## Profile section
 
 profile-heading = Perfil

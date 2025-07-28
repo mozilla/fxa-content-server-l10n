@@ -831,38 +831,6 @@ delete-account-link = ਖਾਤਾ ਹਟਾਓ
 # Success message displayed in alert bar after the user has successfully confirmed their account is not inactive.
 inactive-update-status-success-alert = ਕਾਮਯਾਬੀ ਨਾਲ ਸਾਈਨ ਇਨ ਕੀਤਾ। ਤੁਹਾਡਾ { -product-mozilla-account } ਅਤੇ ਡਾਟਾ ਦੋਵੇਂ ਸਰਗਰਮ ਰਹਿਣਗੇ।
 
-## Two Step Authentication
-
-tfa-title = ਦੋ-ਪੜ੍ਹਾਵੀਂ ਪਰਮਾਣੀਕਰਨ
-tfa-step-1-3 = 3 ਚੋਂ 1 ਪੜਾਅ
-tfa-step-2-3 = 3 ਚੋਂ 2 ਪੜਾਅ
-tfa-step-3-3 = 3 ਚੋਂ 3 ਪੜਾਅ
-tfa-button-continue = ਜਾਰੀ ਰੱਖੋ
-tfa-button-cancel = ਰੱਦ ਕਰੋ
-tfa-button-finish = ਮੁਕੰਮਲ
-tfa-incorrect-totp = ਗ਼ਲਤ ਦੋ-ਪੜ੍ਹਾਵੀ ਪਰਮਾਣੀਕਰਨ ਕੋਡ
-tfa-cannot-retrieve-code = ਤੁਹਾਡੇ ਕੋਡ ਨੂੰ ਪ੍ਰਾਪਤ ਕਰਨ ਦੌਰਾਨ ਸਮੱਸਿਆ ਆਈ ਸੀ।
-tfa-cannot-verify-code-4 = ਤੁਹਾਡੇ ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਤਸਦੀਕ ਕਰਨ ਦੌਰਾਨ ਸਮੱਸਿਆ ਆਈ ਸੀ
-tfa-incorrect-recovery-code-1 = ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਗਲਤ ਹੈ
-tfa-enabled-v2 = ਦੋ-ਪੜਾਵੀਂ ਪਰਮਾਣਕਿਤਾ ਨੂੰ ਸਮਰੱਥ ਕੀਤਾ ਗਿਆ ਹੈ
-tfa-scan-this-code = <linkExternal>ਇਹ ਪਰਮਾਣਕਿਤਾ ਐਪਾਂ</linkExternal> ਵਿੱਚ ਕਿਸੇ ਨਾਲ ਇਹ QR ਕੋਡ ਨੂੰ ਸਕੈਨ ਕਰੋ।
-# This is the image alt text for a QR code.
-# Variables:
-#   $secret (String) - a long alphanumeric string that does not require translation
-# DEV NOTE: Set image alt text per fluent/react documentation, do not use the below as an example
-tfa-qa-code-alt = ਸਹਾਇਕ ਐਪਲੀਕੇਸ਼ਨਾਂ ਵਿੱਚ ਦੋ-ਪੜਾਵੀਂ ਪਰਮਾਣਿਕਤਾ ਨੂੰ ਸੈੱਟਅੱਪ ਕਰਨ ਲਈ { $secret } ਕੋਡ ਦੀ ਵਰਤੋਂ ਕਰੋ।
-tfa-qa-code =
-    .alt = { tfa-qa-code-alt }
-tfa-button-cant-scan-qr = ਕੋਡ ਸਕੈਨ ਨਹੀਂ ਕਰ ਸਕਦੇ?
-# When the user cannot use a QR code.
-tfa-enter-secret-key = ਇਹ ਭੇਤ ਕੁੰਜੀ ਆਪਣੀ ਪਰਮਾਣੀਕਰਨ ਐਪ ਵਿੱਚ ਭਰੋ:
-tfa-enter-totp-v2 = ਹੁਣ ਆਪਣੀ ਪਰਮਾਣੀਕਰਨ ਐਪ ਤੋਂ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਦਿਓ
-tfa-input-enter-totp-v2 =
-    .label = ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਦਿਓ
-tfa-save-these-codes-1 = ਜਦੋਂ ਤੁਹਾਡੇ ਕੋਲ ਮੋਬਾਈਲ ਡਿਵਾਈਸ ਨਾ ਹੋਵੇ ਤਾਂ ਵਰਤਣ ਲਈ ਇਹ ਇਕਹੇਰੀ ਵਰਤੋਂਯੋਗ ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਨੂੰ ਸੁਰੱਖਿਆ ਥਾਂ ਉੱਤੇ ਸੰਭਾਲੋ।
-tfa-enter-recovery-code-1 =
-    .label = ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਦਿਓ
-
 ## Product promotion
 
 product-promo-monitor =

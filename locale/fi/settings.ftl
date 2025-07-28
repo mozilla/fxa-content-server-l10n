@@ -866,44 +866,6 @@ delete-account-link = Poista tili
 # Success message displayed in alert bar after the user has successfully confirmed their account is not inactive.
 inactive-update-status-success-alert = Kirjautuminen onnistui. { -product-mozilla-account }si ja tietosi pysyvät aktiivisina.
 
-## Two Step Authentication
-
-tfa-title = Kaksivaiheinen todennus
-tfa-step-1-3 = Vaihe 1/3
-tfa-step-2-3 = Vaihe 2/3
-tfa-step-3-3 = Vaihe 3/3
-tfa-button-continue = Jatka
-tfa-button-cancel = Peruuta
-tfa-button-finish = Viimeistele
-tfa-incorrect-totp = Virheellinen kaksivaiheisen todennuksen koodi
-tfa-cannot-retrieve-code = Koodisi noutamisessa ilmeni ongelma.
-tfa-cannot-verify-code-4 = Varatodennuskoodisi vahvistamisessa ilmeni ongelma
-tfa-incorrect-recovery-code-1 = Virheellinen varatodennuskoodi
-tfa-enabled-v2 = Kaksivaiheinen todennus on otettu käyttöön
-tfa-scan-this-code =
-    Skannaa tämä QR-koodi käyttäen jotain <linkExternal>näistä
-    todennussovelluksista</linkExternal>.
-# This is the image alt text for a QR code.
-# Variables:
-#   $secret (String) - a long alphanumeric string that does not require translation
-# DEV NOTE: Set image alt text per fluent/react documentation, do not use the below as an example
-tfa-qa-code-alt =
-    Käytä koodi { $secret } määrittääksesi kaksivaiheisen todennuksen
-    tuettuihin sovelluksiin.
-tfa-qa-code =
-    .alt = { tfa-qa-code-alt }
-tfa-button-cant-scan-qr = Etkö voi skannata QR-koodia?
-# When the user cannot use a QR code.
-tfa-enter-secret-key = Kirjoita tämä salainen avain todennussovellukseesi:
-tfa-enter-totp-v2 = Syötä nyt todennussovelluksessa näkyvä todennuskoodi.
-tfa-input-enter-totp-v2 =
-    .label = Syötä todennuskoodi
-tfa-save-these-codes-1 =
-    Tallenna nämä varatodennuskoodit turvalliseen paikkaan
-    sellaista hetkeä varten, kun sinulla ei ole mobiililaitettasi.
-tfa-enter-recovery-code-1 =
-    .label = Anna varatodennuskoodi
-
 ## Product promotion
 
 product-promo-monitor =

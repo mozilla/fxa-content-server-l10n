@@ -1039,46 +1039,6 @@ delete-account-link = Διαγραφή λογαριασμού
 # Success message displayed in alert bar after the user has successfully confirmed their account is not inactive.
 inactive-update-status-success-alert = Έγινε επιτυχής σύνδεση. Ο { -product-mozilla-account(case: "nom", capitalization: "lower") } και τα δεδομένα σας θα παραμείνουν ενεργά.
 
-## Two Step Authentication
-
-tfa-title = Ταυτοποίηση δύο παραγόντων
-tfa-step-1-3 = Βημα 1 απο 3
-tfa-step-2-3 = Βημα 2 απο 3
-tfa-step-3-3 = Βημα 3 απο 3
-tfa-button-continue = Συνέχεια
-tfa-button-cancel = Ακύρωση
-tfa-button-finish = Τέλος
-tfa-incorrect-totp = Λάθος κωδικός ταυτοποίησης δύο παραγόντων
-tfa-cannot-retrieve-code = Προέκυψε πρόβλημα κατά τη λήψη του κωδικού σας.
-tfa-cannot-verify-code-4 = Προέκυψε πρόβλημα κατά την επιβεβαίωση του εφεδρικού κωδικού ταυτοποίησής σας
-tfa-incorrect-recovery-code-1 = Εσφαλμένος εφεδρικός κωδικός ταυτοποίησης
-tfa-enabled-v2 = Η ταυτοποίηση δύο παραγόντων έχει ενεργοποιηθεί
-tfa-scan-this-code =
-    Σαρώστε τον κωδικό QR με κάποια από <linkExternal>αυτές
-    τις εφαρμογές ταυτοποίησης</linkExternal>.
-# This is the image alt text for a QR code.
-# Variables:
-#   $secret (String) - a long alphanumeric string that does not require translation
-# DEV NOTE: Set image alt text per fluent/react documentation, do not use the below as an example
-tfa-qa-code-alt =
-    Χρησιμοποιήστε τον κωδικό { $secret } για να ρυθμίσετε την ταυτοποίηση
-    δύο παραγόντων στις υποστηριζόμενες εφαρμογές.
-tfa-qa-code =
-    .alt = { tfa-qa-code-alt }
-tfa-button-cant-scan-qr = Αδυναμία σάρωσης κωδικού;
-# When the user cannot use a QR code.
-tfa-enter-secret-key = Εισαγάγετε αυτό το μυστικό κλειδί στην εφαρμογή ταυτοποίησής σας:
-tfa-enter-totp-v2 = Τώρα, εισαγάγετε τον κωδικό ταυτοποίησης από την εφαρμογή ταυτοποίησης.
-tfa-input-enter-totp-v2 =
-    .label = Εισαγάγετε κωδικό ταυτοποίησης
-tfa-save-these-codes-1 =
-    Αποθηκεύστε αυτούς τους εφεδρικούς κωδικούς ταυτοποίησης μιας χρήσης σε ένα ασφαλές μέρος,
-    σε περίπτωση που δεν έχετε πρόσβαση στην κινητή συσκευή σας.
-# codes here refers to backup authentication codes
-tfa-enter-code-to-confirm-setup = Πληκτρολογήστε έναν από τους κωδικούς σας για να επιβεβαιώσετε ότι τους έχετε αποθηκεύσει. Χωρίς αυτούς τους κωδικούς, ενδέχεται να μην μπορείτε να συνδεθείτε αν δεν έχετε την εφαρμογή ελέγχου ταυτότητάς σας.
-tfa-enter-recovery-code-1 =
-    .label = Εισαγάγετε έναν εφεδρικό κωδικό ταυτοποίησης
-
 ## Product promotion
 
 product-promo-monitor =

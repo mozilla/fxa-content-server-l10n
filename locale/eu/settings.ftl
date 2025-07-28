@@ -908,46 +908,6 @@ delete-account-link = Ezabatu kontua
 # Success message displayed in alert bar after the user has successfully confirmed their account is not inactive.
 inactive-update-status-success-alert = Behar bezala hasi da saioa. Zure { -product-mozilla-account } eta datuak aktibo egongo dira.
 
-## Two Step Authentication
-
-tfa-title = Bi urratseko autentifikazioa
-tfa-step-1-3 = 3tik 1. urratsa
-tfa-step-2-3 = 3tik 2. urratsa
-tfa-step-3-3 = 3tik 3. urratsa
-tfa-button-continue = Jarraitu
-tfa-button-cancel = Utzi
-tfa-button-finish = Amaitu
-tfa-incorrect-totp = Bi urratseko autentifikazio-kode okerra
-tfa-cannot-retrieve-code = Arazoa egon da zure kodea eskuratzen.
-tfa-cannot-verify-code-4 = Arazo bat izan da zure ordezko autentifikazio-kodea berresteko
-tfa-incorrect-recovery-code-1 = Babeskopiako autentifikazio-kode okerra
-tfa-enabled-v2 = Bi urratseko autentifikazioa gaitu da
-tfa-scan-this-code =
-    Eskaneatu QR kodea <linkExternal>hauetako autentifikazio-aplikazio
-    bat</linkExternal> erabiliz.
-# This is the image alt text for a QR code.
-# Variables:
-#   $secret (String) - a long alphanumeric string that does not require translation
-# DEV NOTE: Set image alt text per fluent/react documentation, do not use the below as an example
-tfa-qa-code-alt =
-    Erabili { $secret } kodea bi urratseko autentifikazioa konfiguratzeko
-    euskarria duten aplikazioetan.
-tfa-qa-code =
-    .alt = { tfa-qa-code-alt }
-tfa-button-cant-scan-qr = Ezin duzu kodea eskaneatu?
-# When the user cannot use a QR code.
-tfa-enter-secret-key = Idatzi gako sekretu hau zure autentifikazio-aplikazioan:
-tfa-enter-totp-v2 = Orain sartu autentifikazio-kodea autentifikazio-aplikaziotik.
-tfa-input-enter-totp-v2 =
-    .label = Sartu autentifikazio-kodea
-tfa-save-these-codes-1 =
-    Gorde behin-behineko erabilerako babeskopiko autentifikazio-kode hauek leku seguru batean
-    zure gailu mugikorra ez duzunerako.
-# codes here refers to backup authentication codes
-tfa-enter-code-to-confirm-setup = Berretsi kodeak gorde dituzula bat sartuz. Kode hauek gabe, baliteke ezin saioa hasi zure autentifikazio-aplikazioa ez baduzu.
-tfa-enter-recovery-code-1 =
-    .label = Sartu babeskopirako autentifikazio-kodea
-
 ## Product promotion
 
 product-promo-monitor =

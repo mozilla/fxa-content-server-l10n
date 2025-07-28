@@ -814,35 +814,6 @@ verify-secondary-email-success-alert-2 = E-mail adresa { $email } je uspješno d
 # Link to delete account on main Settings page
 delete-account-link = Izbriši račun
 
-## Two Step Authentication
-
-tfa-title = Dvofaktorska autentifikacija
-tfa-step-1-3 = Korak 1 od 3
-tfa-step-2-3 = Korak 2 od 3
-tfa-step-3-3 = Korak 3 od 3
-tfa-button-continue = Nastavi
-tfa-button-cancel = Odustani
-tfa-button-finish = Završi
-tfa-incorrect-totp = Neispravan kôd za dvofaktorsku autentifikaciju
-tfa-cannot-retrieve-code = Došlo je do greške prilikom dohvaćanja tvog kôda.
-tfa-scan-this-code =
-    Skeniraj ovaj QR kôd pomoću jedne od <linkExternal>ovih
-    aplikacija za provjeru autentičnosti</linkExternal>.
-# This is the image alt text for a QR code.
-# Variables:
-#   $secret (String) - a long alphanumeric string that does not require translation
-# DEV NOTE: Set image alt text per fluent/react documentation, do not use the below as an example
-tfa-qa-code-alt =
-    Koristi kôd { $secret } za postavljanje dvofaktorske autentifikacije u
-    podržanim aplikacijama.
-tfa-qa-code =
-    .alt = { tfa-qa-code-alt }
-tfa-button-cant-scan-qr = Ne možeš skenirati kôd?
-# When the user cannot use a QR code.
-tfa-enter-secret-key = Unesi ovaj tajni ključ u svoju aplikaciju za provjeru autentičnosti:
-tfa-input-enter-totp-v2 =
-    .label = Upiši kod za autentifikaciju
-
 ## Product promotion
 
 product-promo-monitor =

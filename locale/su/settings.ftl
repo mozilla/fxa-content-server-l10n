@@ -51,10 +51,6 @@ add-secondary-email-cancel-button = Bolay
 
 verify-secondary-email-cancel-button = Bolay
 
-## Two Step Authentication
-
-tfa-button-cancel = Bolay
-
 ## Account recovery key sub-section on main Settings page
 
 rk-enabled = Diaktipkeun

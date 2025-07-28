@@ -147,26 +147,6 @@ verify-secondary-email-cancel-button = Sguir dheth
 # Link to delete account on main Settings page
 delete-account-link = Sguab an cunntas às
 
-## Two Step Authentication
-
-tfa-title = Dearbhadh dà-cheumnach
-tfa-step-1-3 = Ceum 1 à 3
-tfa-step-2-3 = Ceum 2 à 3
-tfa-step-3-3 = Ceum 3 à 3
-tfa-button-continue = Lean air adhart
-tfa-button-cancel = Sguir dheth
-tfa-button-finish = Coilean
-tfa-incorrect-totp = Tha còd an dearbhaidh dhà-cheumnaich ceàrr
-tfa-cannot-retrieve-code = Bha duilgheadas againn a’ faighinn a’ chòd agad.
-# This is the image alt text for a QR code.
-# Variables:
-#   $secret (String) - a long alphanumeric string that does not require translation
-# DEV NOTE: Set image alt text per fluent/react documentation, do not use the below as an example
-tfa-qa-code-alt = Cleachd an còd { $secret } airson dearbhadh dà-cheumnach a shuidheachadh ann an aplacaidean a chuireas taic ris.
-tfa-button-cant-scan-qr = Nach urrainn dhut an còd a sganadh?
-# When the user cannot use a QR code.
-tfa-enter-secret-key = Cuir an iuchair rùin seo dhan aplacaid dearbhaidh agad:
-
 ## Profile section
 
 profile-display-name =

@@ -604,30 +604,6 @@ verify-secondary-email-success-alert-2 = { $email } уңышлы өстәлде
 # Link to delete account on main Settings page
 delete-account-link = Хисапны бетерү
 
-## Two Step Authentication
-
-tfa-title = Ике адымлы аутентификация
-tfa-step-1-3 = Адым 1/3
-tfa-step-2-3 = Адым 2/3
-tfa-step-3-3 = Адым 3/3
-tfa-button-continue = Дәвам итү
-tfa-button-cancel = Баш тарту
-tfa-button-finish = Әзер
-tfa-incorrect-totp = Ике адымлы аутентификация коды хаталы
-tfa-cannot-retrieve-code = Кодыгызны алганда хата килеп чыкты.
-# This is the image alt text for a QR code.
-# Variables:
-#   $secret (String) - a long alphanumeric string that does not require translation
-# DEV NOTE: Set image alt text per fluent/react documentation, do not use the below as an example
-tfa-qa-code-alt = Тәэмин ителгән кушымталарда ике адымлы аутентификацияне көйләү өчен { $secret } кодын кулланыгыз.
-tfa-qa-code =
-    .alt = { tfa-qa-code-alt }
-tfa-button-cant-scan-qr = Кодны сканерлый алмыйсызмы?
-# When the user cannot use a QR code.
-tfa-enter-secret-key = Бу яшерен ачкычны аутентификация кушымтагызга кертегез:
-tfa-input-enter-totp-v2 =
-    .label = Аутентификация кодын кертү
-
 ## Product promotion
 
 product-promo-monitor =

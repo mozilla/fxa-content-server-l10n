@@ -944,44 +944,6 @@ delete-account-link = Eyða reikningi
 # Success message displayed in alert bar after the user has successfully confirmed their account is not inactive.
 inactive-update-status-success-alert = Innskráning tókst. { -product-mozilla-account } og tengd gögn verða áfram virk.
 
-## Two Step Authentication
-
-tfa-title = Tveggja-þrepa auðkenning
-tfa-step-1-3 = Skref 1 af 3
-tfa-step-2-3 = Skref 2 af 3
-tfa-step-3-3 = Skref 3 af 3
-tfa-button-continue = Halda áfram
-tfa-button-cancel = Hætta við
-tfa-button-finish = Ljúka
-tfa-incorrect-totp = Rangur tveggja-þrepa auðkenningarkóði
-tfa-cannot-retrieve-code = Vandamál kom upp við að sækja kóðann þinn.
-tfa-cannot-verify-code-4 = Vandamál kom upp við að staðfesta varaauðkenningarkóðann þinn
-tfa-incorrect-recovery-code-1 = Rangur varaauðkenningarkóði
-tfa-enabled-v2 = Tveggja-þrepa auðkenning hefur verið virkjuð
-tfa-scan-this-code =
-    Skannaðu þennan QR-kóða með því að nota eitt af 
-    <linkExternal>þessum auðkenningarforritum</linkExternal>.
-# This is the image alt text for a QR code.
-# Variables:
-#   $secret (String) - a long alphanumeric string that does not require translation
-# DEV NOTE: Set image alt text per fluent/react documentation, do not use the below as an example
-tfa-qa-code-alt = Notaðu kóðann { $secret } til að setja upp tveggja-þrepa auðkenningu í þeim forritum sem styðja slíkt.
-tfa-qa-code =
-    .alt = { tfa-qa-code-alt }
-tfa-button-cant-scan-qr = Geturðu ekki skannað kóða?
-# When the user cannot use a QR code.
-tfa-enter-secret-key = Settu þennan leynilykill inn í auðkenningarforritið þitt:
-tfa-enter-totp-v2 = Settu nú inn auðkenningarkóðann úr auðkenningarforritinu.
-tfa-input-enter-totp-v2 =
-    .label = Settu inn auðkenningarkóða
-tfa-save-these-codes-1 =
-    Geymdu þessa einnota varaauðkenningarkóða á öruggum stað til að geta notað þá 
-    þegar þú ert ekki með snjalltækið þitt við hendina.
-# codes here refers to backup authentication codes
-tfa-enter-code-to-confirm-setup = Staðfestu að þú hafir vistað kóðana þína með því að slá einn inn. Án þessara kóða gætirðu ekki getað skráð þig inn ef þú ert ekki með auðkenningarforritið þitt.
-tfa-enter-recovery-code-1 =
-    .label = Settu inn varaauðkenningarkóða
-
 ## Product promotion
 
 product-promo-monitor =

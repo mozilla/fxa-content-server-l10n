@@ -133,14 +133,6 @@ add-secondary-email-save-button = Сними
 
 verify-secondary-email-cancel-button = Откажи
 
-## Two Step Authentication
-
-tfa-button-continue = Продолжи
-tfa-button-cancel = Откажи
-tfa-button-finish = Крај
-tfa-qa-code =
-    .alt = { tfa-qa-code-alt }
-
 ## Security section of Setting
 
 security-password =

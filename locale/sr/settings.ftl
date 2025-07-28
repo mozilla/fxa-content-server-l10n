@@ -545,43 +545,6 @@ verify-secondary-email-success-alert-2 = { $email } је успешно дода
 # Link to delete account on main Settings page
 delete-account-link = Обриши налог
 
-## Two Step Authentication
-
-tfa-title = Аутентификација у два корака
-tfa-step-1-3 = Корак 1 од 3
-tfa-step-2-3 = Корак 2 од 3
-tfa-step-3-3 = Корак 3 од 3
-tfa-button-continue = Настави
-tfa-button-cancel = Откажи
-tfa-button-finish = Доврши
-tfa-incorrect-totp = Неисправан код за аутентификацију у два корака
-tfa-cannot-retrieve-code = Дошло је до проблема приликом добављања вашег кода.
-tfa-cannot-verify-code-4 = Дошло је до грешке при потврђивању вашег резервног приступног кода
-tfa-incorrect-recovery-code-1 = Неисправан резервни приступни код
-tfa-scan-this-code =
-    Скенирајте овај QR код помоћу једне од <linkExternal>ових
-    апликација за аутентификацију</linkExternal>.
-# This is the image alt text for a QR code.
-# Variables:
-#   $secret (String) - a long alphanumeric string that does not require translation
-# DEV NOTE: Set image alt text per fluent/react documentation, do not use the below as an example
-tfa-qa-code-alt =
-    Искористите код { $secret } да поставите аутентификацију у два корака у
-    подржаним апликацијама.
-tfa-qa-code =
-    .alt = { tfa-qa-code-alt }
-tfa-button-cant-scan-qr = Не можете скенирати код?
-# When the user cannot use a QR code.
-tfa-enter-secret-key = Унесите овај тајни кључ у вашу апликацију за аутентификацију:
-tfa-enter-totp-v2 = Сада унесите приступни кôд из апликације за аутентификацију.
-tfa-input-enter-totp-v2 =
-    .label = Унесите приступни кôд
-tfa-save-these-codes-1 =
-    Чувајте ове једнократне кодове на сигурном месту,
-    у случају да изгубите приступ мобилном уређају.
-tfa-enter-recovery-code-1 =
-    .label = Унеси резервни приступни код
-
 ## Profile section
 
 profile-heading = Профил

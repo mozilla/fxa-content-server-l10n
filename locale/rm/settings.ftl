@@ -908,46 +908,6 @@ delete-account-link = Stizzar il conto
 # Success message displayed in alert bar after the user has successfully confirmed their account is not inactive.
 inactive-update-status-success-alert = S’annunzià cun success. Tias datas e tes { -product-mozilla-account } vegnan a restar activs.
 
-## Two Step Authentication
-
-tfa-title = Autentificaziun en dus pass
-tfa-step-1-3 = Pass 1 da 3
-tfa-step-2-3 = Pass 2 da 3
-tfa-step-3-3 = Pass 3 da 3
-tfa-button-continue = Cuntinuar
-tfa-button-cancel = Interrumper
-tfa-button-finish = Finir
-tfa-incorrect-totp = Code d'autentificaziun en dus pass nuncorrect
-tfa-cannot-retrieve-code = Igl ha dà in problem cun retschaiver tes code.
-tfa-cannot-verify-code-4 = I ha dà in problem cun confermar tes code d'autentificaziun da backup
-tfa-incorrect-recovery-code-1 = Code d'autentificaziun da backup nuncorrect
-tfa-enabled-v2 = L’autentificaziun en dus pass è vegnida activada
-tfa-scan-this-code =
-    Scannescha quest code QR cun agid dad in da <linkExternal>questas
-    apps d'autentificaziun</linkExternal>.
-# This is the image alt text for a QR code.
-# Variables:
-#   $secret (String) - a long alphanumeric string that does not require translation
-# DEV NOTE: Set image alt text per fluent/react documentation, do not use the below as an example
-tfa-qa-code-alt =
-    Utilisescha il code { $secret } per configurar l'autentificaziun
-    en dus pass en las applicaziuns sustegnidas.
-tfa-qa-code =
-    .alt = { tfa-qa-code-alt }
-tfa-button-cant-scan-qr = Betg pussaivel da scannar il code?
-# When the user cannot use a QR code.
-tfa-enter-secret-key = Endatescha questa clav secreta en tia app d'autentificaziun:
-tfa-enter-totp-v2 = Endatescha ussa il code d'autentificaziun da l'app d'autentificaziun.
-tfa-input-enter-totp-v2 =
-    .label = Endatescha il code d'autentificaziun
-tfa-save-these-codes-1 =
-    Memorisescha quests codes d'autentificaziun da backup a diever unic en in lieu segir
-    en cas che ti n'has ina giada betg access a tes apparat mobil.
-# codes here refers to backup authentication codes
-tfa-enter-code-to-confirm-setup = Conferma che ti has memorisà tes codes cun endatar in. Senza quests codes na pos ti eventualmain betg t’annunziar sche ti n’has betg tia app d’autentificaziun.
-tfa-enter-recovery-code-1 =
-    .label = Endatescha in code d'autentificaziun da backup
-
 ## Product promotion
 
 product-promo-monitor =

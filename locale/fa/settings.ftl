@@ -440,11 +440,6 @@ add-secondary-email-save-button = ذخیره
 add-secondary-email-step-2 = مرحلهٔ ۲ از ۲
 verify-secondary-email-cancel-button = لغو
 
-## Two Step Authentication
-
-tfa-button-continue = ادامه
-tfa-button-finish = پایان
-
 ## Profile section
 
 profile-heading = نمایه

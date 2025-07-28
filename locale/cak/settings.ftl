@@ -346,31 +346,6 @@ verify-secondary-email-success-alert-2 = { $email } ütz xtz'aqatisäx
 # Link to delete account on main Settings page
 delete-account-link = Tiyuj rub'i' taqoya'l
 
-## Two Step Authentication
-
-tfa-title = Jikib'anem rik'in ka'i'-xak
-tfa-step-1-3 = 1 xak richin 3
-tfa-step-2-3 = 2 xak richin 3
-tfa-step-3-3 = 3 xak richin 3
-tfa-button-continue = Titikïr chik el
-tfa-button-cancel = Tiq'at
-tfa-button-finish = Tik'is
-tfa-incorrect-totp = Man ütz ta ri rub'itz'ib' jikib'anem rik'in ka'i'-xak
-tfa-cannot-retrieve-code = Xk'ulwachitäj jun k'ayewal toq nikol ri b'itz'ib'.
-tfa-scan-this-code =
-    Tatz'ajwachib'ej re QR b'itz'ib' akuchi' nawokisaj <linkExternal>re
-    jikib'anel taq chokoy </linkExternal>.
-# This is the image alt text for a QR code.
-# Variables:
-#   $secret (String) - a long alphanumeric string that does not require translation
-# DEV NOTE: Set image alt text per fluent/react documentation, do not use the below as an example
-tfa-qa-code-alt = Tawokisaj ri bitz'ib' { $secret } richin nab'än runuk'ulem ri jikib'anem rik'in ka'i' xak pa ri taq chokoy ya'on q'ij.
-tfa-qa-code =
-    .alt = { tfa-qa-code-alt }
-tfa-button-cant-scan-qr = ¿La man nitikïr ta nuq'axachib'ilij b'itz'ib'?
-# When the user cannot use a QR code.
-tfa-enter-secret-key = Titz'ib'äx re ewan ruk'u'x tzij re' pa ri achokoy  richin jikib'anem:
-
 ## Profile section
 
 profile-heading = Ruwäch b'i'aj

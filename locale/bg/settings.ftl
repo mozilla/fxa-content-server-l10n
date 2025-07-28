@@ -104,15 +104,6 @@ add-secondary-email-step-2 = Стъпка 2 от 2
 # Link to delete account on main Settings page
 delete-account-link = Изтриване на профил
 
-## Two Step Authentication
-
-tfa-step-1-3 = Стъпка 1 от 3
-tfa-step-2-3 = Стъпка 2 от 3
-tfa-button-continue = Продължаване
-tfa-button-finish = Край
-tfa-qa-code =
-    .alt = { tfa-qa-code-alt }
-
 ## Profile section
 
 profile-display-name =

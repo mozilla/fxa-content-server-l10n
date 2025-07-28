@@ -1033,40 +1033,6 @@ delete-account-link = Hesabı sil
 # Success message displayed in alert bar after the user has successfully confirmed their account is not inactive.
 inactive-update-status-success-alert = Başarıyla giriş yapıldı. { -product-mozilla-account }nız ve verileriniz aktif kalacak.
 
-## Two Step Authentication
-
-tfa-title = İki aşamalı doğrulama
-tfa-step-1-3 = Adım 1/3
-tfa-step-2-3 = Adım 2/3
-tfa-step-3-3 = Adım 3/3
-tfa-button-continue = Devam et
-tfa-button-cancel = İptal
-tfa-button-finish = Bitir
-tfa-incorrect-totp = Yanlış iki aşamalı doğrulama kodu
-tfa-cannot-retrieve-code = Kodunuz alınırken bir sorun oluştu.
-tfa-cannot-verify-code-4 = Yedek kimlik doğrulama kodunuz onaylanırken bir sorun oluştu
-tfa-incorrect-recovery-code-1 = Yanlış yedek kimlik doğrulama kodu
-tfa-enabled-v2 = İki aşamalı kimlik doğrulama etkinleştirildi
-tfa-scan-this-code = <linkExternal>Bu kimlik doğrulama uygulamalarından</linkExternal> birini kullanarak bu QR kodunu tarayın.
-# This is the image alt text for a QR code.
-# Variables:
-#   $secret (String) - a long alphanumeric string that does not require translation
-# DEV NOTE: Set image alt text per fluent/react documentation, do not use the below as an example
-tfa-qa-code-alt = Desteklenen uygulamalarda iki aşamalı doğrulamayı kurmak için { $secret } kodunu kullanın.
-tfa-qa-code =
-    .alt = { tfa-qa-code-alt }
-tfa-button-cant-scan-qr = Kodu tarayamıyor musunuz?
-# When the user cannot use a QR code.
-tfa-enter-secret-key = Bu anahtar kodunu kimlik doğrulama uygulamanıza yazın:
-tfa-enter-totp-v2 = Şimdi kimlik doğrulama uygulamasının verdiği kimlik doğrulama kodunu yazın.
-tfa-input-enter-totp-v2 =
-    .label = Kimlik doğrulama kodunu yazın
-tfa-save-these-codes-1 = Mobil cihazınız olmadığında kullanabileceğiniz bu tek kullanımlık yedek kimlik doğrulama kodlarını güvenli bir yerde saklayın.
-# codes here refers to backup authentication codes
-tfa-enter-code-to-confirm-setup = Kodları kaydettiğinizi onaylamak için kodlardan birini yazın. Kimlik doğrulama uygulamanıza erişemediğinizde bu kodlar olmadan giriş yapamayabilirsiniz.
-tfa-enter-recovery-code-1 =
-    .label = Bir yedek kimlik doğrulama kodunu girin
-
 ## Product promotion
 
 product-promo-monitor =

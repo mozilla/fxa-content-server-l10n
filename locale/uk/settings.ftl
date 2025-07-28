@@ -974,46 +974,6 @@ delete-account-link = Видалити обліковий запис
 # Success message displayed in alert bar after the user has successfully confirmed their account is not inactive.
 inactive-update-status-success-alert = Ви успішно ввійшли в систему. Ваш { -product-mozilla-account } і дані залишаться активними.
 
-## Two Step Authentication
-
-tfa-title = Двоетапна перевірка
-tfa-step-1-3 = Крок 1 з 3
-tfa-step-2-3 = Крок 2 з 3
-tfa-step-3-3 = Крок 3 з 3
-tfa-button-continue = Продовжити
-tfa-button-cancel = Скасувати
-tfa-button-finish = Завершити
-tfa-incorrect-totp = Неправильний код двоетапної перевірки
-tfa-cannot-retrieve-code = Виникла проблема при отриманні вашого коду.
-tfa-cannot-verify-code-4 = Виникла проблема під час перевірки вашого резервного коду автентифікації
-tfa-incorrect-recovery-code-1 = Неправильний резервний код автентифікації
-tfa-enabled-v2 = Двоетапну перевірку ввімкнено
-tfa-scan-this-code =
-    Скануйте цей QR-код, використовуючи одну з  <linkExternal>цих
-    програм для двоетапної перевірки</linkExternal>.
-# This is the image alt text for a QR code.
-# Variables:
-#   $secret (String) - a long alphanumeric string that does not require translation
-# DEV NOTE: Set image alt text per fluent/react documentation, do not use the below as an example
-tfa-qa-code-alt =
-    Скористайтеся кодом { $secret } для налаштування двоетапної перевірки
-    в підтримуваних програмах.
-tfa-qa-code =
-    .alt = { tfa-qa-code-alt }
-tfa-button-cant-scan-qr = Не вдається сканувати код?
-# When the user cannot use a QR code.
-tfa-enter-secret-key = Введіть цей ключ у своїй програмі для двоетапної перевірки:
-tfa-enter-totp-v2 = Тепер уведіть код із програми для двоетапної перевірки.
-tfa-input-enter-totp-v2 =
-    .label = Введіть код автентифікації
-tfa-save-these-codes-1 =
-    Збережіть ці одноразові резервні коди автентифікації у безпечному місці
-    на випадок відсутності мобільного пристрою.
-# codes here refers to backup authentication codes
-tfa-enter-code-to-confirm-setup = Підтвердьте, що ви зберегли свої коди, ввівши один з них. Без цих кодів ви не зможете ввійти в систему, не маючи програми автентифікації.
-tfa-enter-recovery-code-1 =
-    .label = Введіть резервний код автентифікації
-
 ## Product promotion
 
 product-promo-monitor =

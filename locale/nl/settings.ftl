@@ -1036,46 +1036,6 @@ delete-account-link = Account verwijderen
 # Success message displayed in alert bar after the user has successfully confirmed their account is not inactive.
 inactive-update-status-success-alert = Met succes aangemeld. Uw { -product-mozilla-account } en gegevens blijven actief.
 
-## Two Step Authentication
-
-tfa-title = Authenticatie in twee stappen
-tfa-step-1-3 = Stap 1 van 3
-tfa-step-2-3 = Stap 2 van 3
-tfa-step-3-3 = Stap 3 van 3
-tfa-button-continue = Doorgaan
-tfa-button-cancel = Annuleren
-tfa-button-finish = Voltooien
-tfa-incorrect-totp = Onjuiste code voor authenticatie in twee stappen
-tfa-cannot-retrieve-code = Er is een probleem opgetreden bij het ophalen van uw code.
-tfa-cannot-verify-code-4 = Er is een probleem opgetreden bij het bevestigen van uw reserve-authenticatiecode
-tfa-incorrect-recovery-code-1 = Onjuiste reserve-authenticatiecode
-tfa-enabled-v2 = Authenticatie in twee stappen is ingeschakeld
-tfa-scan-this-code =
-    Scan deze QR-code met een van <linkExternal>deze
-    authenticatie-apps</linkExternal>.
-# This is the image alt text for a QR code.
-# Variables:
-#   $secret (String) - a long alphanumeric string that does not require translation
-# DEV NOTE: Set image alt text per fluent/react documentation, do not use the below as an example
-tfa-qa-code-alt =
-    Gebruik de code { $secret } om authenticatie in twee stappen in
-    ondersteunde toepassingen in te schakelen.
-tfa-qa-code =
-    .alt = { tfa-qa-code-alt }
-tfa-button-cant-scan-qr = Kunt u de code niet scannen?
-# When the user cannot use a QR code.
-tfa-enter-secret-key = Voer deze geheime sleutel in in uw app voor authenticatie:
-tfa-enter-totp-v2 = Voer nu de authenticatiecode van de authenticatie-app in.
-tfa-input-enter-totp-v2 =
-    .label = Voer authenticatiecode in
-tfa-save-these-codes-1 =
-    Bewaar deze reserve-authenticatiecodes voor eenmalig gebruik op een veilige plaats voor als
-    u uw mobiele apparaat niet hebt.
-# codes here refers to backup authentication codes
-tfa-enter-code-to-confirm-setup = Bevestig dat u uw codes hebt opgeslagen door er een in te voeren. Zonder deze codes kunt u zich mogelijk niet aanmelden als u uw authenticator-app niet hebt.
-tfa-enter-recovery-code-1 =
-    .label = Voer een reserve-authenticatiecode in
-
 ## Product promotion
 
 product-promo-monitor =

@@ -991,44 +991,6 @@ delete-account-link = 계정 삭제
 # Success message displayed in alert bar after the user has successfully confirmed their account is not inactive.
 inactive-update-status-success-alert = 성공적으로 로그인되었습니다. { -product-mozilla-account }와 데이터는 활성 상태로 유지됩니다.
 
-## Two Step Authentication
-
-tfa-title = 2단계 인증
-tfa-step-1-3 = 1/3 단계
-tfa-step-2-3 = 2/3 단계
-tfa-step-3-3 = 3/3 단계
-tfa-button-continue = 계속
-tfa-button-cancel = 취소
-tfa-button-finish = 완료
-tfa-incorrect-totp = 잘못된 2단계 인증 코드
-tfa-cannot-retrieve-code = 코드를 복원하는 데 문제가 발생했습니다.
-tfa-cannot-verify-code-4 = 백업 인증코드 확인 중에 문제가 발생했습니다.
-tfa-incorrect-recovery-code-1 = 잘못된 백업 인증 코드
-tfa-enabled-v2 = 2단계 인증 활성화됨
-tfa-scan-this-code =
-    <linkExternal>인증 앱 중 하나</linkExternal>를 사용하여
-    QR 코드를 스캔하세요.
-# This is the image alt text for a QR code.
-# Variables:
-#   $secret (String) - a long alphanumeric string that does not require translation
-# DEV NOTE: Set image alt text per fluent/react documentation, do not use the below as an example
-tfa-qa-code-alt =
-    지원되는 어플리케이션에서 2단계 인증을 설정하기 위해 { $secret } 코드를
-    사용하세요.
-tfa-qa-code =
-    .alt = { tfa-qa-code-alt }
-tfa-button-cant-scan-qr = 코드를 스캔할 수 없습니까?
-# When the user cannot use a QR code.
-tfa-enter-secret-key = 이 비밀 키를 인증 앱에 입력하세요:
-tfa-enter-totp-v2 = 이제 인증 앱에서 인증 코드를 입력하세요.
-tfa-input-enter-totp-v2 =
-    .label = 인증 코드를 입력하세요
-tfa-save-these-codes-1 = 모바일 기기가 없을 때를 대비해 일회용 백업 인증 코드를 안전한 곳에 보관하세요.
-# codes here refers to backup authentication codes
-tfa-enter-code-to-confirm-setup = 코드를 입력하여 저장되었는지 확인하세요. 이 코드가 없으면 인증 앱이 없을 때 로그인하지 못할 수 있습니다.
-tfa-enter-recovery-code-1 =
-    .label = 백업 인증 코드를 입력하세요
-
 ## Product promotion
 
 product-promo-monitor =

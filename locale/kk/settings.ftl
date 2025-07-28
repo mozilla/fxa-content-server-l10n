@@ -945,42 +945,6 @@ verify-secondary-email-success-alert-2 = { $email } сәтті қосылды
 # Link to delete account on main Settings page
 delete-account-link = Тіркелгіні өшіру
 
-## Two Step Authentication
-
-tfa-title = Екі қадамды аутентификация
-tfa-step-1-3 = Қадам 1, барлығы 3
-tfa-step-2-3 = Қадам 2, барлығы 3
-tfa-step-3-3 = Қадам 3, барлығы 3
-tfa-button-continue = Жалғастыру
-tfa-button-cancel = Бас тарту
-tfa-button-finish = Дайын
-tfa-incorrect-totp = Екі қадамды аутентификация коды жарамсыз
-tfa-cannot-retrieve-code = Кодыңызды сұрау кезінде мәселе орын алды.
-tfa-cannot-verify-code-4 = Сақтық көшірме аутентификация кодын растау кезінде мәселе орын алды
-tfa-incorrect-recovery-code-1 = Жарамсыз сақтық аутентификация коды
-tfa-enabled-v2 = Екі қадамды аутентификация іске қосылды
-tfa-scan-this-code =
-    <linkExternal>осы аутентификация қолданбаларының</linkExternal>
-    біреуін пайдаланып, осы QR кодын сканерлеңіз.
-# This is the image alt text for a QR code.
-# Variables:
-#   $secret (String) - a long alphanumeric string that does not require translation
-# DEV NOTE: Set image alt text per fluent/react documentation, do not use the below as an example
-tfa-qa-code-alt = Қолдауы бар қолданбаларда екі қадамды аутентификацияны орнату үшін { $secret } кодын пайдаланыңыз.
-tfa-qa-code =
-    .alt = { tfa-qa-code-alt }
-tfa-button-cant-scan-qr = Кодты сканерлеу мүмкін емес пе?
-# When the user cannot use a QR code.
-tfa-enter-secret-key = Осы құпия кілтті аутентификация қолданбасына енгізіңіз:
-tfa-enter-totp-v2 = Енді аутентификация қолданбасынан аутентификация кодын енгізіңіз.
-tfa-input-enter-totp-v2 =
-    .label = Аутентификация кодын енгізіңіз
-tfa-save-these-codes-1 =
-    Мобильді құрылғыңыз болмаған кездері үшін осы бір рет қолданылатын сақтық көшірме
-    аутентификация кодтарын қауіпсіз жерде сақтаңыз.
-tfa-enter-recovery-code-1 =
-    .label = Сақтық көшірме аутентификация кодын енгізіңіз
-
 ## Product promotion
 
 product-promo-monitor =

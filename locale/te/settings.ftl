@@ -245,21 +245,6 @@ verify-secondary-email-success-alert-2 = { $email } విజయవంతంగ�
 # Link to delete account on main Settings page
 delete-account-link = ఖాతాను తొలగించండి
 
-## Two Step Authentication
-
-tfa-title = రెండు-దశల ప్రమాణీకరణ
-tfa-step-1-3 = 3లో 1వ దశ
-tfa-step-2-3 = 3లో 2వ దశ
-tfa-step-3-3 = 3లో 3వ దశ
-tfa-button-continue = కొనసాగించు
-tfa-button-cancel = రద్దుచేయి
-tfa-button-finish = ముగించు
-tfa-qa-code =
-    .alt = { tfa-qa-code-alt }
-tfa-button-cant-scan-qr = కోడ్ను స్కాన్ చేయలేవా?
-# When the user cannot use a QR code.
-tfa-enter-secret-key = మీ ప్రామాణీకరణ యాప్‌లో ఈ రహస్య కీని నమోదు చేయండి:
-
 ## Profile section
 
 profile-heading = ప్రొఫైలు

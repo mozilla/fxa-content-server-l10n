@@ -989,35 +989,6 @@ delete-account-link = מחיקת חשבון
 # Success message displayed in alert bar after the user has successfully confirmed their account is not inactive.
 inactive-update-status-success-alert = התחברת בהצלחה. { -product-mozilla-account(case: "the") } שלך והנתונים שלו יישארו פעילים.
 
-## Two Step Authentication
-
-tfa-title = אימות דו־שלבי
-tfa-step-1-3 = שלב 1 מתוך 3
-tfa-step-2-3 = שלב 2 מתוך 3
-tfa-step-3-3 = שלב 3 מתוך 3
-tfa-button-continue = המשך
-tfa-button-cancel = ביטול
-tfa-button-finish = סיום
-tfa-incorrect-totp = קוד אימות דו־שלבי שגוי
-tfa-cannot-retrieve-code = אירעה שגיאה באחזור הקוד שלך.
-tfa-enabled-v2 = אימות דו־שלבי הופעל
-tfa-scan-this-code = יש לסרוק את קוד ה־QR הזה באמצעות אחד <linkExternal>מיישומוני האימות האלו</linkExternal>.
-# This is the image alt text for a QR code.
-# Variables:
-#   $secret (String) - a long alphanumeric string that does not require translation
-# DEV NOTE: Set image alt text per fluent/react documentation, do not use the below as an example
-tfa-qa-code-alt = ניתן להשתמש בקוד { $secret } כדי להגדיר אימות דו־שלבי ביישומים נתמכים.
-tfa-qa-code =
-    .alt = { tfa-qa-code-alt }
-tfa-button-cant-scan-qr = אין לך אפשרות לסרוק קוד?
-# When the user cannot use a QR code.
-tfa-enter-secret-key = נא להקליד את המפתח הסודי הזה ליישומון האימות שלך:
-tfa-enter-totp-v2 = כעת יש להכניס את קוד האימות מיישומון האימות.
-tfa-input-enter-totp-v2 =
-    .label = נא להכניס קוד אימות
-# codes here refers to backup authentication codes
-tfa-enter-code-to-confirm-setup = נא לאשר ששמרת את הקודים שלך על־ידי הזנת אחד מהם. ללא קודים אלה, ייתכן שלא יהיה באפשרותך להתחבר אם אין לך את היישומון המאמת שלך.
-
 ## Product promotion
 
 product-promo-monitor =

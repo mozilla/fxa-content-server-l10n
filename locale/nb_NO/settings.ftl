@@ -1032,42 +1032,6 @@ delete-account-link = Slett kontoen
 # Success message displayed in alert bar after the user has successfully confirmed their account is not inactive.
 inactive-update-status-success-alert = Innlogget. { -product-mozilla-account }-en og dataene dine vil forbli aktive.
 
-## Two Step Authentication
-
-tfa-title = Totrinns-autentisering
-tfa-step-1-3 = Trinn 1 av 3
-tfa-step-2-3 = Trinn 2 av 3
-tfa-step-3-3 = Trinn 3 av 3
-tfa-button-continue = Fortsett
-tfa-button-cancel = Avbryt
-tfa-button-finish = Fullfør
-tfa-incorrect-totp = Ugyldig totrinns-autentiseringskode
-tfa-cannot-retrieve-code = Det oppstod et problem med å hente koden din.
-tfa-cannot-verify-code-4 = Det oppstod et problem med å bekrefte reserve-autentiseringskoden din
-tfa-incorrect-recovery-code-1 = Feil reserve-autentiseringskode
-tfa-enabled-v2 = Totrinns-autentisering er aktivert
-tfa-scan-this-code =
-    Skann denne QR-koden med en av <linkExternal>disse
-    autentiseringsappene</linkExternal>.
-# This is the image alt text for a QR code.
-# Variables:
-#   $secret (String) - a long alphanumeric string that does not require translation
-# DEV NOTE: Set image alt text per fluent/react documentation, do not use the below as an example
-tfa-qa-code-alt = Bruk koden { $secret } for å sette opp totrinns-autentisering i støttede apper.
-tfa-qa-code =
-    .alt = { tfa-qa-code-alt }
-tfa-button-cant-scan-qr = Kan du ikke skanne koden?
-# When the user cannot use a QR code.
-tfa-enter-secret-key = Skriv inn denne hemmelige nøkkelen i autentiseringsappen din:
-tfa-enter-totp-v2 = Skriv nå inn autentiseringskoden fra autentiseringsappen.
-tfa-input-enter-totp-v2 =
-    .label = Skriv inn autentiseringskode
-tfa-save-these-codes-1 = Lagre disse reserve-autentiseringskodene på et trygt sted, i tilfelle du mister tilgang til mobilenheten din.
-# codes here refers to backup authentication codes
-tfa-enter-code-to-confirm-setup = Bekreft at du har lagret kodene dine ved å skrive inn en. Uten disse kodene kan du kanskje ikke logge på hvis du ikke har autentiseringsappen din.
-tfa-enter-recovery-code-1 =
-    .label = Skriv inn en reserve-autentiseringskode
-
 ## Product promotion
 
 product-promo-monitor =

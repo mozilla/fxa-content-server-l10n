@@ -1029,44 +1029,6 @@ delete-account-link = Eliminar conta
 # Success message displayed in alert bar after the user has successfully confirmed their account is not inactive.
 inactive-update-status-success-alert = Sessão iniciada com sucesso. A sua { -product-mozilla-account } e os respetivos dados vão manter-se ativos.
 
-## Two Step Authentication
-
-tfa-title = Autenticação de dois fatores
-tfa-step-1-3 = Passo 1 de 3
-tfa-step-2-3 = Passo 2 de 3
-tfa-step-3-3 = Passo 3 de 3
-tfa-button-continue = Continuar
-tfa-button-cancel = Cancelar
-tfa-button-finish = Concluir
-tfa-incorrect-totp = Código de autenticação de dois fatores inválido
-tfa-cannot-retrieve-code = Houve um problema ao obter o seu código.
-tfa-cannot-verify-code-4 = Ocorreu um problema ao confirmar o seu código de autenticação de recuperação
-tfa-incorrect-recovery-code-1 = Código de autenticação de recuperação incorreto
-tfa-enabled-v2 = A autenticação de dois passos foi ativada
-tfa-scan-this-code = Digitalize este código QR utilizando uma das seguintes <linkExternal>aplicações de autenticação</linkExternal>.
-# This is the image alt text for a QR code.
-# Variables:
-#   $secret (String) - a long alphanumeric string that does not require translation
-# DEV NOTE: Set image alt text per fluent/react documentation, do not use the below as an example
-tfa-qa-code-alt =
-    Utilize o código { $secret } para configurar a autenticação de dois fatores nas 
-    aplicações suportadas.
-tfa-qa-code =
-    .alt = { tfa-qa-code-alt }
-tfa-button-cant-scan-qr = Não consegue digitalizar o código?
-# When the user cannot use a QR code.
-tfa-enter-secret-key = Introduza esta chave secreta na sua aplicação de autenticação:
-tfa-enter-totp-v2 = Agora insira o código de segurança da aplicação de autenticação.
-tfa-input-enter-totp-v2 =
-    .label = Inserir código de autenticação
-tfa-save-these-codes-1 =
-    Guarde estes códigos de autenticação de recuperação de utilização única num local seguro, 
-    para quando não tiver o seu dispositivo móvel.
-# codes here refers to backup authentication codes
-tfa-enter-code-to-confirm-setup = Confirme que guardou os seus códigos ao introduzir um. Sem estes códigos, poderá não conseguir iniciar sessão se não tiver a sua aplicação de autenticação.
-tfa-enter-recovery-code-1 =
-    .label = Insira um código de autenticação de recuperação
-
 ## Product promotion
 
 product-promo-monitor =

@@ -1048,46 +1048,6 @@ delete-account-link = Dileu Cyfrif
 # Success message displayed in alert bar after the user has successfully confirmed their account is not inactive.
 inactive-update-status-success-alert = Wedi mewngofnodi'n llwyddiannus. Bydd eich cyfrif { -product-mozilla-account } a data yn aros yn weithredol.
 
-## Two Step Authentication
-
-tfa-title = Dilysu Dau Gam
-tfa-step-1-3 = Cam 1 o 2
-tfa-step-2-3 = Cam 1 o 2
-tfa-step-3-3 = Cam 3 o 3
-tfa-button-continue = Parhau
-tfa-button-cancel = Diddymu
-tfa-button-finish = Gorffen
-tfa-incorrect-totp = Cod dilysu dau gam annilys
-tfa-cannot-retrieve-code = Bu anhawster wrth adfer eich cod.
-tfa-cannot-verify-code-4 = Bu anhawster wrth gadarnhau eich cod dilysu wrth gefn
-tfa-incorrect-recovery-code-1 = Cod dilysu wrth gefn anghywir
-tfa-enabled-v2 = Mae dilysu dau gam wedi'i alluogi
-tfa-scan-this-code =
-    Sganiwch y cod QR hwn gan ddefnyddio un o'r <linkExternal>
-    apiau dilysu hyn</linkExternal>.
-# This is the image alt text for a QR code.
-# Variables:
-#   $secret (String) - a long alphanumeric string that does not require translation
-# DEV NOTE: Set image alt text per fluent/react documentation, do not use the below as an example
-tfa-qa-code-alt =
-    Defnyddiwch y cod { $secret } i osod dilysiad dau gam yn
-    rhaglenni sy'n cael eu cynnal.
-tfa-qa-code =
-    .alt = { tfa-qa-code-alt }
-tfa-button-cant-scan-qr = Methu sganio codau?
-# When the user cannot use a QR code.
-tfa-enter-secret-key = Rhowch yr allwedd gyfrinachol yma i'ch ap dilysu:
-tfa-enter-totp-v2 = Nawr rhowch y cod dilysu o'r ap dilysu.
-tfa-input-enter-totp-v2 =
-    .label = Rhowch y cod dilysu
-tfa-save-these-codes-1 =
-    Cadwch y codau defnydd unwaith hyn mewn man diogel pan nad yw eich dyfais
-    symudol gennych.
-# codes here refers to backup authentication codes
-tfa-enter-code-to-confirm-setup = Cadarnhewch eich bod wedi cadw'ch codau trwy gynnig un. Heb y codau hyn, efallai na fyddwch yn gallu mewngofnodi os nad oes gennych eich ap dilysu.
-tfa-enter-recovery-code-1 =
-    .label = Rhowch god dilysu wrth gefn
-
 ## Product promotion
 
 product-promo-monitor =

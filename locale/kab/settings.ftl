@@ -633,41 +633,6 @@ verify-secondary-email-success-alert-2 = { $email } yettwarna akken ilaq
 # Link to delete account on main Settings page
 delete-account-link = Kkes amiḍan
 
-## Two Step Authentication
-
-tfa-title = Asesteb s snat n tarrayin
-tfa-step-1-3 = Asurif 1 seg 3
-tfa-step-2-3 = Asurif 2 seg 3
-tfa-step-3-3 = Asurif 3 seg 3
-tfa-button-continue = Kemmel
-tfa-button-cancel = Sefsex
-tfa-button-finish = Fakk
-tfa-incorrect-totp = Tangalt n usesteb s snat n tarrayin d tarameɣtut
-tfa-cannot-retrieve-code = Yella wugur deg tririt n tengalt-ik·im.
-tfa-incorrect-recovery-code-1 = Tangalt n usesteb n uḥraz d tarameɣtut
-tfa-scan-this-code =
-    Smiḍen tangalt-a QR s useqdec n yiwen seg <linkExternal>
-    yisnasen-a n usesteb</linkExternal>.
-# This is the image alt text for a QR code.
-# Variables:
-#   $secret (String) - a long alphanumeric string that does not require translation
-# DEV NOTE: Set image alt text per fluent/react documentation, do not use the below as an example
-tfa-qa-code-alt =
-    Seqdec tangalt { $secret } i usbeddi n usesteb s snat n tarrayin deg
-    isnasen yettwasefraken.
-tfa-qa-code =
-    .alt = { tfa-qa-code-alt }
-tfa-button-cant-scan-qr = Ur tezmireḍ ara ad tesmiḍneḍ tangalt?
-# When the user cannot use a QR code.
-tfa-enter-secret-key = Sekcem tasarut-a tabaḍnit ɣer usnas-ik·im n usestab:
-tfa-input-enter-totp-v2 =
-    .label = Sekcem-d tangalt n usesteb
-tfa-save-these-codes-1 =
-    Sekles tingalin n usesteb n uḥraz n useqdec asuf deg umḍiq aɣelsan i wass ma yili
-    ur teḥwaǧeḍara ibenk-ik·im aziraz.
-tfa-enter-recovery-code-1 =
-    .label = Sekcem tangalt n usesteb n uḥraz
-
 ## Product promotion
 
 product-promo-monitor =

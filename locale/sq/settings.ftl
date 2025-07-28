@@ -902,44 +902,6 @@ delete-account-link = Fshijeni Llogarinë
 # Success message displayed in alert bar after the user has successfully confirmed their account is not inactive.
 inactive-update-status-success-alert = U hy me sukses. { -product-mozilla-account } dhe të dhënat tuaja do të mbesin aktive.
 
-## Two Step Authentication
-
-tfa-title = Mirëfilltësim Dyhapësh
-tfa-step-1-3 = Hapi 1 nga 3
-tfa-step-2-3 = Hapi 2 nga 3
-tfa-step-3-3 = Hapi 3 nga 3
-tfa-button-continue = Vazhdo
-tfa-button-cancel = Anuloje
-tfa-button-finish = Përfundoje
-tfa-incorrect-totp = Kod i pasaktë mirëfilltësimi dyhapësh
-tfa-cannot-retrieve-code = Pati një problem me marrjen e kodit tuaj.
-tfa-cannot-verify-code-4 = Pati një problem me ripohimin e kodit tuaj të mirëfilltësimit kopjeruajtje.
-tfa-incorrect-recovery-code-1 = Kod mirëfilltësimi kopjeruajtje i pasaktë
-tfa-enabled-v2 = Mirëfilltësimi dyhapësh u aktivizua
-tfa-scan-this-code =
-    Skanojeni këtë kod QR duke përdorur një nga <linkExternal>këto
-    aplikacione mirëfilltësimi</linkExternal>.
-# This is the image alt text for a QR code.
-# Variables:
-#   $secret (String) - a long alphanumeric string that does not require translation
-# DEV NOTE: Set image alt text per fluent/react documentation, do not use the below as an example
-tfa-qa-code-alt = Përdoreni kodin { $secret } që të rregulloni mirëfilltësim dyhapsh te aplikacione që e mbulojnë.
-tfa-qa-code =
-    .alt = { tfa-qa-code-alt }
-tfa-button-cant-scan-qr = S’e skanoni dot kodin?
-# When the user cannot use a QR code.
-tfa-enter-secret-key = Jepeni këtë kyç të fshehtë te aplikacioni juaj i mirëfilltësimeve:
-tfa-enter-totp-v2 = Tani jepni kodin e mirëfilltësimit prej aplikacionit të mirëfilltësimeve.
-tfa-input-enter-totp-v2 =
-    .label = Jepni kod mirëfilltësimi
-tfa-save-these-codes-1 =
-    Ruajini këta kode njëpërdorimsh mirëfilltësimi kopjeruajtje në një vend të sigurt, për kur
-    të mos keni pajisjen tuaj celulare.
-# codes here refers to backup authentication codes
-tfa-enter-code-to-confirm-setup = Ripohoni se i ruajtët kodet tuaj, duke dhënë një të tillë. Pa këta kode, mund të mos jeni në gjendje të bëni hyrjen, nëse s’keni aplikacionin tuaj të mirëfilltësimeve.
-tfa-enter-recovery-code-1 =
-    .label = Jepni një kod mirëfilltësimi kopjeruajtje
-
 ## Product promotion
 
 product-promo-monitor =

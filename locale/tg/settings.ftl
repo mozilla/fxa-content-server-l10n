@@ -763,23 +763,6 @@ verify-secondary-email-success-alert-2 = { $email } бо муваффақият 
 # Link to delete account on main Settings page
 delete-account-link = Нест кардани ҳисоб
 
-## Two Step Authentication
-
-tfa-step-1-3 = Қадами 1 аз 3
-tfa-step-2-3 = Қадами 2 аз 3
-tfa-step-3-3 = Қадами 3 аз 3
-tfa-button-continue = Идома додан
-tfa-button-cancel = Бекор кардан
-tfa-button-finish = Анҷом додан
-tfa-cannot-verify-code-4 = Ҳангоми тасдиқ кардани нусхаи эҳтиётии рамзи санҷиши ҳаққонияти шумо мушкилӣ ба миён омад
-tfa-incorrect-recovery-code-1 = Нусхаи эҳтиётии рамзи санҷиши ҳаққоният нодуруст аст
-tfa-qa-code =
-    .alt = { tfa-qa-code-alt }
-tfa-input-enter-totp-v2 =
-    .label = Рамзи санҷиши ҳаққониятро ворид намоед
-tfa-enter-recovery-code-1 =
-    .label = Нусхаи эҳтиётии рамзи санҷиши ҳаққониятеро ворид кунед
-
 ## Product promotion
 
 product-promo-monitor =

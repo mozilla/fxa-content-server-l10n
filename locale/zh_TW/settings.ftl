@@ -1011,40 +1011,6 @@ delete-account-link = 刪除帳號
 # Success message displayed in alert bar after the user has successfully confirmed their account is not inactive.
 inactive-update-status-success-alert = 登入成功。將繼續保留您的 { -product-mozilla-account }與資料。
 
-## Two Step Authentication
-
-tfa-title = 兩階段驗證
-tfa-step-1-3 = 第 1 步，共 3 步
-tfa-step-2-3 = 第 2 步，共 3 步
-tfa-step-3-3 = 第 3 步，共 3 步
-tfa-button-continue = 繼續
-tfa-button-cancel = 取消
-tfa-button-finish = 完成
-tfa-incorrect-totp = 兩階段驗證碼不正確
-tfa-cannot-retrieve-code = 取得您的驗證碼時發生問題。
-tfa-cannot-verify-code-4 = 確認您的備用驗證碼時發生問題
-tfa-incorrect-recovery-code-1 = 備用驗證碼不正確
-tfa-enabled-v2 = 已開啟兩階段驗證
-tfa-scan-this-code = 請使用下列任一種<linkExternal>驗證程式</linkExternal>來掃描這組 QR Code。
-# This is the image alt text for a QR code.
-# Variables:
-#   $secret (String) - a long alphanumeric string that does not require translation
-# DEV NOTE: Set image alt text per fluent/react documentation, do not use the below as an example
-tfa-qa-code-alt = 使用代碼 { $secret } 在支援的應用程式中設定兩階段驗證。
-tfa-qa-code =
-    .alt = { tfa-qa-code-alt }
-tfa-button-cant-scan-qr = 無法掃描條碼？
-# When the user cannot use a QR code.
-tfa-enter-secret-key = 請在驗證程式輸入下列安全金鑰：
-tfa-enter-totp-v2 = 現在請輸入驗證應用程式當中的驗證碼。
-tfa-input-enter-totp-v2 =
-    .label = 輸入驗證碼
-tfa-save-these-codes-1 = 請將這些單次使用的備用驗證碼儲存在安全的地方，以備行動裝置不在手邊時使用。
-# codes here refers to backup authentication codes
-tfa-enter-code-to-confirm-setup = 請輸入任一組備用驗證碼，以確認您已安全記錄下來。如果未來遺失了這些代碼，無法再使用驗證器時可能就無法再登入帳號。
-tfa-enter-recovery-code-1 =
-    .label = 請輸入備用驗證碼
-
 ## Product promotion
 
 product-promo-monitor =

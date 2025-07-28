@@ -1044,40 +1044,6 @@ delete-account-link = Konto wulašowaś
 # Success message displayed in alert bar after the user has successfully confirmed their account is not inactive.
 inactive-update-status-success-alert = Wuspěšnje pśizjawjony. Waše { -product-mozilla-account } a daty aktiwne wóstanu.
 
-## Two Step Authentication
-
-tfa-title = Dwójokšacowa awtentifikacija
-tfa-step-1-3 = Kšac 1 z 3
-tfa-step-2-3 = Kšac 2 z 3
-tfa-step-3-3 = Kšac 3 z 3
-tfa-button-continue = Dalej
-tfa-button-cancel = Pśetergnuś
-tfa-button-finish = Dokóńcyś
-tfa-incorrect-totp = Wopacny kod za dwójokšacowu awtentifikaciju
-tfa-cannot-retrieve-code = Pśi wótwołowanju wašogo koda jo problem nastał.
-tfa-cannot-verify-code-4 = Pśi wobkśuśenju wašych kodow za zawěsćeńsku awtentifikaciju jo problem nastał
-tfa-incorrect-recovery-code-1 = Wopacny kod za zawěsćeńsku awtentifikaciju
-tfa-enabled-v2 = Dwójokšacowa awtentifikacija jo se zmóžniła
-tfa-scan-this-code = Scannujśo toś ten QR-kod z pomocu jadnogo z <linkExternal>toś tych awtentifikaciskich nałoženjow</linkExternal>.
-# This is the image alt text for a QR code.
-# Variables:
-#   $secret (String) - a long alphanumeric string that does not require translation
-# DEV NOTE: Set image alt text per fluent/react documentation, do not use the below as an example
-tfa-qa-code-alt = Wužywajśo kod { $secret }, aby zarědował dwukšacowu awtentifikaciju w pódpěranych nałoženjach.
-tfa-qa-code =
-    .alt = { tfa-qa-code-alt }
-tfa-button-cant-scan-qr = Njamóžośo kod scannowaś?
-# When the user cannot use a QR code.
-tfa-enter-secret-key = Zapódajśo toś ten pótajmny kluc do swójogo awtentificěrowańskego nałoženja:
-tfa-enter-totp-v2 = Zapódajśo něnto awtentifikaciski kod z awtentifikaciskego nałoženja.
-tfa-input-enter-totp-v2 =
-    .label = Awtentificěrowański kod zapódaś
-tfa-save-these-codes-1 = Składujśo toś te kody za zawěsćeńsku awtentifikaciju za jadnorazowe wužywanje na wěstem městnje, jolic pśistup k swójomu mobilnemu rědoju njamaśo.
-# codes here refers to backup authentication codes
-tfa-enter-code-to-confirm-setup = Zapódajśo kod, aby wobkšuśił, až sćo składł swóje kody. Bźez toś tych kodow njamóžośo se snaź pśizjawiś, jolic swójo autentifikaciske nałoženje njamaśo.
-tfa-enter-recovery-code-1 =
-    .label = Zapódajśo kod za zawěsćeńsku awtentifikaciju
-
 ## Product promotion
 
 product-promo-monitor =

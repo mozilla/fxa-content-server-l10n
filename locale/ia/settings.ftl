@@ -1007,46 +1007,6 @@ delete-account-link = Deler le conto
 # Success message displayed in alert bar after the user has successfully confirmed their account is not inactive.
 inactive-update-status-success-alert = Accedite con successo. Tu { -product-mozilla-account } e tu datos stara active.
 
-## Two Step Authentication
-
-tfa-title = Authentication a duo passos
-tfa-step-1-3 = Passo 1 de 3
-tfa-step-2-3 = Passo 2 de 3
-tfa-step-3-3 = Passo 3 de 3
-tfa-button-continue = Continuar
-tfa-button-cancel = Cancellar
-tfa-button-finish = Finir
-tfa-incorrect-totp = Codice de authentication a duo passos non correcte
-tfa-cannot-retrieve-code = Il ha habite un problema a retrovar tu codice.
-tfa-cannot-verify-code-4 = Il habeva un problema al confirmation de tu codice de authentication de reserva
-tfa-incorrect-recovery-code-1 = Codice de authentication de reserva non correcte
-tfa-enabled-v2 = Authentication a duo passos activate
-tfa-scan-this-code =
-    Scanna iste codice QR usante un de <linkExternal>iste
-    applicationes de authentication</linkExternal>.
-# This is the image alt text for a QR code.
-# Variables:
-#   $secret (String) - a long alphanumeric string that does not require translation
-# DEV NOTE: Set image alt text per fluent/react documentation, do not use the below as an example
-tfa-qa-code-alt =
-    Usa le codice { $secret } pro configurar le authentication a duo passos in
-     applicationes supportate.
-tfa-qa-code =
-    .alt = { tfa-qa-code-alt }
-tfa-button-cant-scan-qr = Non pote scannar le codice?
-# When the user cannot use a QR code.
-tfa-enter-secret-key = Insere iste clave secrete in tu app de authentication:
-tfa-enter-totp-v2 = Ora insere le codice de authentication ab le application de authentication.
-tfa-input-enter-totp-v2 =
-    .label = Insere le codice de authentication
-tfa-save-these-codes-1 =
-    Salva iste codices de authentication de reserva provisori in un loco secur pro quando
-    tu non ha tu apparato mobile.
-# codes here refers to backup authentication codes
-tfa-enter-code-to-confirm-setup = Confirma que tu salvava tu codices inserente un. Sin iste codices, tu poterea non poter acceder si tu non ha tu app de authentication.
-tfa-enter-recovery-code-1 =
-    .label = Insere un codice de authentication de reserva
-
 ## Product promotion
 
 product-promo-monitor =

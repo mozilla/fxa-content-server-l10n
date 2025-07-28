@@ -1010,46 +1010,6 @@ delete-account-link = Emboguete mba’ete
 # Success message displayed in alert bar after the user has successfully confirmed their account is not inactive.
 inactive-update-status-success-alert = Emoñepyrũ porã tembiapo. Nde { -product-mozilla-account } ha ne mba’ekuaarã oĩta hendyhápe.
 
-## Two Step Authentication
-
-tfa-title = Ñemoneĩ mokõi jeku’épe
-tfa-step-1-3 = Ku’e 1 3-gui
-tfa-step-2-3 = Ku’e 2 3-gui
-tfa-step-3-3 = Ku’e 3 3-gui
-tfa-button-continue = Ku’ejey
-tfa-button-cancel = Heja
-tfa-button-finish = Mbopaha
-tfa-incorrect-totp = Ayvu ñemoneĩ mokõi jeku’épe ndoikói
-tfa-cannot-retrieve-code = Oiko peteĩ apañuái eguerukuévo ayvu.
-tfa-cannot-verify-code-4 = Oiko peteĩ apañuái emoneĩnguévo nde ayvu ñemoneĩrã jeykekoha
-tfa-incorrect-recovery-code-1 = Ayvu ñemoneĩrã jeykekoha ndoikói
-tfa-enabled-v2 = Ijurujáma mokõi jeku’épe ñemoneĩ
-tfa-scan-this-code =
-    Emoha’ãnga QR ayvu eiporúvo <linkExternal>peteĩva
-    ñemoneĩrã rembiporu’i</linkExternal>.
-# This is the image alt text for a QR code.
-# Variables:
-#   $secret (String) - a long alphanumeric string that does not require translation
-# DEV NOTE: Set image alt text per fluent/react documentation, do not use the below as an example
-tfa-qa-code-alt =
-    Eiporu { $secret } ayvu emboheko hag̃ua ñemoneĩ mokõi jeku’épe
-    tembiporu’i ojokupytývape.
-tfa-qa-code =
-    .alt = { tfa-qa-code-alt }
-tfa-button-cant-scan-qr = ¿Ndaikatúi emoha’ãnga ayvu?
-# When the user cannot use a QR code.
-tfa-enter-secret-key = Emoinge ko mba’eñemi ne rembiporu’i ñemoneĩmbýpe:
-tfa-enter-totp-v2 = Emoinge ko’ág̃a tekorosã guerujeyrã tembiporu’i guerujeyrãpe.
-tfa-input-enter-totp-v2 =
-    .label = Emoinge ayvu guerujeyrã
-tfa-save-these-codes-1 =
-    Eñongatu ko’ã ayvu ñemoneĩrã ijeporu peteĩva tenda hekorosãvévape
-    ndereguerekói jave ne pumbyry jeheguáva.
-# codes here refers to backup authentication codes
-tfa-enter-code-to-confirm-setup = Emoañete eñongatuhague ne ayvukuéra ehaívo peteĩ. Ko’ã ayvu’ỹre, ikatuhína ndereikekuaái ndereguerekóiramo ne rembiporu’i ñemoneĩrã.
-tfa-enter-recovery-code-1 =
-    .label = Emoinge ayvu ñemoneĩrã jeykekoha
-
 ## Product promotion
 
 product-promo-monitor =

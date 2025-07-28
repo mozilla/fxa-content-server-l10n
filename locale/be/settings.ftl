@@ -715,43 +715,6 @@ verify-secondary-email-success-alert-2 = { $email } паспяхова дада�
 # Link to delete account on main Settings page
 delete-account-link = Выдаліць уліковы запіс
 
-## Two Step Authentication
-
-tfa-title = Двухэтапная аўтарызацыя
-tfa-step-1-3 = Крок 1 з 3
-tfa-step-2-3 = Крок 2 з 3
-tfa-step-3-3 = Крок 3 з 3
-tfa-button-continue = Працягнуць
-tfa-button-cancel = Скасаваць
-tfa-button-finish = Гатова
-tfa-incorrect-totp = Няправільны код двухэтапнай аўтарызацыі
-tfa-cannot-retrieve-code = Узнікла праблема пры атрыманні вашага коду.
-tfa-cannot-verify-code-4 = Узнікла праблема пры пацверджанні вашага рэзервовага кода аўтэнтыфікацыі
-tfa-incorrect-recovery-code-1 = Няправільны рэзервовы код аўтэнтыфікацыі
-tfa-scan-this-code =
-    Адсканіруйце гэты QR-код, выкарыстоўваючы адзну з <linkExternal>гэтых
-    праграм для аўтэнтыфікацыі</linkExternal>.
-# This is the image alt text for a QR code.
-# Variables:
-#   $secret (String) - a long alphanumeric string that does not require translation
-# DEV NOTE: Set image alt text per fluent/react documentation, do not use the below as an example
-tfa-qa-code-alt =
-    Скарыстайцеся кодам { $secret } для настаўлення двухэтапнай аўтарызацыі
-    ў падтрыманых праграмах.
-tfa-qa-code =
-    .alt = { tfa-qa-code-alt }
-tfa-button-cant-scan-qr = Не ўдаецца сканаваць кода?
-# When the user cannot use a QR code.
-tfa-enter-secret-key = Увядзіце гэты сакрэтны ключ у праграму аўтэнтыфікацыі:
-tfa-enter-totp-v2 = Цяпер увядзіце код аўтарызацыі з праграмы для аўтэнтыфікацыі.
-tfa-input-enter-totp-v2 =
-    .label = Увядзіце код аўтарызацыі
-tfa-save-these-codes-1 =
-    Захоўвайце гэтыя аднаразовыя рэзервовыя коды аўтэнтыфікацыі ў бяспечным месцы,
-    на выпадак, калі ў вас не будзе мабільнай прылады.
-tfa-enter-recovery-code-1 =
-    .label = Увядзіце рэзервовы код аўтарызацыі
-
 ## Profile section
 
 profile-heading = Профіль

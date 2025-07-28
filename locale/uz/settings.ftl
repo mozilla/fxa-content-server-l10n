@@ -20,11 +20,3 @@ avatar-page-zoom-out-button =
     .title = Kichiklashtirish
 avatar-page-zoom-in-button =
     .title = Kattalashtirish
-
-## Two Step Authentication
-
-# This is the image alt text for a QR code.
-# Variables:
-#   $secret (String) - a long alphanumeric string that does not require translation
-# DEV NOTE: Set image alt text per fluent/react documentation, do not use the below as an example
-tfa-qa-code-alt = Qoʻllab-quvvatlanadigan ilovalarda ikki bosqichli autentifikatsiyani sozlash uchun { $secret } kodidan foydalaning.

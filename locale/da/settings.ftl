@@ -1007,46 +1007,6 @@ delete-account-link = Slet konto
 # Success message displayed in alert bar after the user has successfully confirmed their account is not inactive.
 inactive-update-status-success-alert = Logget ind. Din { -product-mozilla-account } og tilhørende data forbliver aktive.
 
-## Two Step Authentication
-
-tfa-title = Totrinsgodkendelse
-tfa-step-1-3 = Trin 1 af 3
-tfa-step-2-3 = Trin 2 af 3
-tfa-step-3-3 = Trin 3 af 3
-tfa-button-continue = Fortsæt
-tfa-button-cancel = Annuller
-tfa-button-finish = Afslut
-tfa-incorrect-totp = Forkert kode til totrinsgodkendelse
-tfa-cannot-retrieve-code = Der opstod et problem med at hente din kode.
-tfa-cannot-verify-code-4 = Der opstod et problem med at bekræfte din reserve-godkendelseskode
-tfa-incorrect-recovery-code-1 = Forkert reserve-godkendelseskode
-tfa-enabled-v2 = Totrinsgodkendelse er blevet aktiveret
-tfa-scan-this-code =
-    Skan denne QR-kode ved hjælp af en af <linkExternal>disse
-    godkendelsesapps</linkExternal>.
-# This is the image alt text for a QR code.
-# Variables:
-#   $secret (String) - a long alphanumeric string that does not require translation
-# DEV NOTE: Set image alt text per fluent/react documentation, do not use the below as an example
-tfa-qa-code-alt =
-    Brug koden { $secret } til at opsætte totrinsgodkendelse i
-    understøttede applikationer.
-tfa-qa-code =
-    .alt = { tfa-qa-code-alt }
-tfa-button-cant-scan-qr = Kan du ikke skanne koden?
-# When the user cannot use a QR code.
-tfa-enter-secret-key = Indtast denne hemmelige nøgle i din godkendelsesapp:
-tfa-enter-totp-v2 = Indtast nu godkendelseskoden fra godkendelsesappen.
-tfa-input-enter-totp-v2 =
-    .label = Indtast godkendelseskode
-tfa-save-these-codes-1 =
-    Gem disse engangs-reserve-godkendelseskoder et sikkert sted,
-    til hvis du mister adgangen til din mobile enhed.
-# codes here refers to backup authentication codes
-tfa-enter-code-to-confirm-setup = Bekræft at du har gemt dine koder ved at indtaste en af dem. Uden disse koder kan du muligvis ikke logge ind, hvis du ikke har din godkendelsesapp.
-tfa-enter-recovery-code-1 =
-    .label = Indtast en reserve-godkendelseskode
-
 ## Product promotion
 
 product-promo-monitor =

@@ -1038,46 +1038,6 @@ delete-account-link = ანგარიშის წაშლა
 # Success message displayed in alert bar after the user has successfully confirmed their account is not inactive.
 inactive-update-status-success-alert = ანგარიშზე შესვლა წარმატებით დასრულდა. თქვენი { -product-mozilla-account } და მონაცემები დარჩება მოქმედი.
 
-## Two Step Authentication
-
-tfa-title = ორბიჯიანი დამოწმება
-tfa-step-1-3 = 1-ელი ნაბიჯი 3-დან
-tfa-step-2-3 = მე-2 ნაბიჯი 3-დან
-tfa-step-3-3 = მე-3 ნაბიჯი 3-დან
-tfa-button-continue = გაგრძელება
-tfa-button-cancel = გაუქმება
-tfa-button-finish = დასრულება
-tfa-incorrect-totp = ორბიჯიანი დამოწმების კოდი არასწორია
-tfa-cannot-retrieve-code = ხარვეზი წარმოიშვა თქვენი კოდის მიღებისას.
-tfa-cannot-verify-code-4 = ხარვეზი წარმოიშვა თქვენი სამარქაფო კოდების დამოწმებისას
-tfa-incorrect-recovery-code-1 = არასწორი სამარქაფო კოდი
-tfa-enabled-v2 = ორბიჯიანი დამოწმება შესვლისას ჩართულია
-tfa-scan-this-code =
-    წააკითხეთ ეს QR-კოდი შესვლის <linkExternal>დამოწმების
-    რომელიმე ამ პროგრამას</linkExternal>.
-# This is the image alt text for a QR code.
-# Variables:
-#   $secret (String) - a long alphanumeric string that does not require translation
-# DEV NOTE: Set image alt text per fluent/react documentation, do not use the below as an example
-tfa-qa-code-alt =
-    გამოიყენეთ { $secret } კოდი, ორბიჯიანი დამოწმების გასამართად
-    მხარდაჭერილ პროგრამებში.
-tfa-qa-code =
-    .alt = { tfa-qa-code-alt }
-tfa-button-cant-scan-qr = ვერ კითხულობს კოდს?
-# When the user cannot use a QR code.
-tfa-enter-secret-key = შეიყვანეთ საიდუმლო გასაღები შესვლის დასამოწმებელ პროგრამაში:
-tfa-enter-totp-v2 = ახლა კი შეიყვანეთ უსაფრთხოების კოდი შესვლის დასამოწმებელი პროგრამიდან.
-tfa-input-enter-totp-v2 =
-    .label = შეიყვანეთ შესვლის დამოწმების კოდი
-tfa-save-these-codes-1 =
-    გადაინახეთ შესვლის ეს ერთჯერადი სამარქაფო კოდები უსაფრთხო ადგილას იმ შემთხვევებისთვის
-    როცა თან არ გექნებათ მობილური მოწყობილობა.
-# codes here refers to backup authentication codes
-tfa-enter-code-to-confirm-setup = დაადასტურეთ კოდების შენახვა ერთ-ერთის შეყვანით. ამ კოდების გარეშე შესაძლოა, ვეღარ შეხვიდეთ ანგარიშზე, თუ დაკარგავთ შესვლის დამმოწმებელ აპთან წვდომას.
-tfa-enter-recovery-code-1 =
-    .label = შეიყვანეთ შესვლის სამარქაფო კოდი
-
 ## Product promotion
 
 product-promo-monitor =

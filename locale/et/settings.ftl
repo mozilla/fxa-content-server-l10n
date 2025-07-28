@@ -370,29 +370,6 @@ verify-secondary-email-success-alert-2 = { $email } edukalt lisatud
 # Link to delete account on main Settings page
 delete-account-link = Kustuta konto
 
-## Two Step Authentication
-
-tfa-title = Kaheastmeline autentimine
-tfa-step-1-3 = Samm 1 3st
-tfa-step-2-3 = Samm 2 3st
-tfa-step-3-3 = Samm 3 3st
-tfa-button-continue = Jätka
-tfa-button-cancel = Loobu
-tfa-button-finish = Lõpeta
-tfa-incorrect-totp = Vale kaheastmelise autentimise kood
-tfa-cannot-retrieve-code = Sinu koodi hankimisel esines probleem.
-tfa-scan-this-code = Skanni see QR-kood, kasutades <linkExternal>üht neist autentimisäppidest</linkExternal>.
-# This is the image alt text for a QR code.
-# Variables:
-#   $secret (String) - a long alphanumeric string that does not require translation
-# DEV NOTE: Set image alt text per fluent/react documentation, do not use the below as an example
-tfa-qa-code-alt = Toetatud rakendustes kaheastmelise autentimise seadistamiseks kasuta koodi { $secret }.
-tfa-qa-code =
-    .alt = { tfa-qa-code-alt }
-tfa-button-cant-scan-qr = Pole võimalik koodi skannida?
-# When the user cannot use a QR code.
-tfa-enter-secret-key = Sisesta see turvakood oma autentimisäppi:
-
 ## Profile section
 
 profile-heading = Profiil

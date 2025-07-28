@@ -1042,42 +1042,6 @@ delete-account-link = Smazat účet
 # Success message displayed in alert bar after the user has successfully confirmed their account is not inactive.
 inactive-update-status-success-alert = Přihlášení bylo úspěšné. Váš { -product-mozilla-account(capitalization: "lower") } a jeho údaje zůstanou aktivní.
 
-## Two Step Authentication
-
-tfa-title = Dvoufázové ověřování
-tfa-step-1-3 = Krok 1 ze 3
-tfa-step-2-3 = Krok 2 ze 3
-tfa-step-3-3 = Krok 3 ze 3
-tfa-button-continue = Pokračovat
-tfa-button-cancel = Zrušit
-tfa-button-finish = Dokončit
-tfa-incorrect-totp = Nesprávný kód pro dvoufázové ověření
-tfa-cannot-retrieve-code = Nepodařilo se získat váš kód.
-tfa-cannot-verify-code-4 = Při potvrzení vašeho záložního ověřovacího kódu se vyskytl problém
-tfa-incorrect-recovery-code-1 = Nesprávný záložní ověřovací kód
-tfa-enabled-v2 = Bylo povoleno dvoufázové ověřování
-tfa-scan-this-code =
-    Naskenujte tento QR kód jednou z <linkExternal>těchto
-    ověřovacích aplikací</linkExternal>.
-# This is the image alt text for a QR code.
-# Variables:
-#   $secret (String) - a long alphanumeric string that does not require translation
-# DEV NOTE: Set image alt text per fluent/react documentation, do not use the below as an example
-tfa-qa-code-alt = Pro nastavení dvoufázového ověřování v podporovaných aplikacích použijte kód { $secret }.
-tfa-qa-code =
-    .alt = { tfa-qa-code-alt }
-tfa-button-cant-scan-qr = Nemůžete kód naskenovat?
-# When the user cannot use a QR code.
-tfa-enter-secret-key = Zadejte tento bezpečnostní kód do své ověřovací aplikace:
-tfa-enter-totp-v2 = Nyní zadejte ověřovací kód z ověřovací aplikace.
-tfa-input-enter-totp-v2 =
-    .label = Zadejte ověřovací kód
-tfa-save-these-codes-1 = Tyto jednorázové záložní ověřovací kódy si uložte na bezpečném místě, kam se dostanete i bez svého mobilního zařízení.
-# codes here refers to backup authentication codes
-tfa-enter-code-to-confirm-setup = Potvrďte uložení kódů zadáním jednoho z nich. Bez těchto kódů se možná nebudete moci přihlásit, pokud nemáte aplikaci pro ověření.
-tfa-enter-recovery-code-1 =
-    .label = Vložte záložní ověřovací kód
-
 ## Product promotion
 
 product-promo-monitor =

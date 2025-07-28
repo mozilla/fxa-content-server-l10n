@@ -1020,46 +1020,6 @@ delete-account-link = Xóa tài khoản
 # Success message displayed in alert bar after the user has successfully confirmed their account is not inactive.
 inactive-update-status-success-alert = Đã đăng nhập thành công. { -product-mozilla-account } và dữ liệu của bạn sẽ duy trì hoạt động.
 
-## Two Step Authentication
-
-tfa-title = Xác thực hai bước
-tfa-step-1-3 = Bước 1/3
-tfa-step-2-3 = Bước 2/3
-tfa-step-3-3 = Bước 3/3
-tfa-button-continue = Tiếp tục
-tfa-button-cancel = Hủy bỏ
-tfa-button-finish = Hoàn thành
-tfa-incorrect-totp = Mã xác thực hai bước không đúng
-tfa-cannot-retrieve-code = Có vấn đề trong khi nhận mã của bạn.
-tfa-cannot-verify-code-4 = Đã xảy ra sự cố khi xác nhận mã xác thực dự phòng của bạn
-tfa-incorrect-recovery-code-1 = Mã xác thực dự phòng không chính xác
-tfa-enabled-v2 = Xác thực hai bước đã được bật
-tfa-scan-this-code =
-    Quét mã QR này sử dụng một trong <linkExternal>những
-    ứng dụng xác thực này</linkExternal>.
-# This is the image alt text for a QR code.
-# Variables:
-#   $secret (String) - a long alphanumeric string that does not require translation
-# DEV NOTE: Set image alt text per fluent/react documentation, do not use the below as an example
-tfa-qa-code-alt =
-    Sử dụng mã { $secret } để thiết lập xác thực hai bước trong
-    các ứng dụng được hỗ trợ.
-tfa-qa-code =
-    .alt = { tfa-qa-code-alt }
-tfa-button-cant-scan-qr = Không thể quét mã?
-# When the user cannot use a QR code.
-tfa-enter-secret-key = Nhập khóa bí mật này vào ứng dụng xác thực của bạn:
-tfa-enter-totp-v2 = Bây giờ hãy nhập mã xác thực từ ứng dụng xác thực.
-tfa-input-enter-totp-v2 =
-    .label = Nhập mã xác thực
-tfa-save-these-codes-1 =
-    Lưu các mã xác thực dự phòng sử dụng một lần này ở một nơi an toàn khi
-    bạn không có thiết bị di động của mình.
-# codes here refers to backup authentication codes
-tfa-enter-code-to-confirm-setup = Xác nhận bạn đã lưu mã của bạn bằng cách nhập một. Nếu không có các mã này, bạn có thể không đăng nhập nếu bạn không có ứng dụng xác thực của mình.
-tfa-enter-recovery-code-1 =
-    .label = Nhập mã xác thực dự phòng
-
 ## Product promotion
 
 product-promo-monitor =

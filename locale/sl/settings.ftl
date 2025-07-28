@@ -1042,44 +1042,6 @@ delete-account-link = Izbriši račun
 # Success message displayed in alert bar after the user has successfully confirmed their account is not inactive.
 inactive-update-status-success-alert = Prijava uspešna. Vaš { -product-mozilla-account } in podatki bodo ostali aktivni.
 
-## Two Step Authentication
-
-tfa-title = Overitev v dveh korakih
-tfa-step-1-3 = Korak 1 od 3
-tfa-step-2-3 = Korak 2 od 3
-tfa-step-3-3 = Korak 3 od 3
-tfa-button-continue = Nadaljuj
-tfa-button-cancel = Prekliči
-tfa-button-finish = Končaj
-tfa-incorrect-totp = Nepravilna koda za overitev v dveh korakih
-tfa-cannot-retrieve-code = Prišlo je do napake pri pridobivanju vaše kode.
-tfa-cannot-verify-code-4 = Pri potrjevanju rezervne overitvene kode je prišlo do težave
-tfa-incorrect-recovery-code-1 = Nepravilna rezervna overitvena koda
-tfa-enabled-v2 = Overitev v dveh korakih je omogočena
-tfa-scan-this-code =
-    Skenirajte to kodo QR z eno od <linkExternal>naslednjih
-    aplikacij za overjanje</linkExternal>.
-# This is the image alt text for a QR code.
-# Variables:
-#   $secret (String) - a long alphanumeric string that does not require translation
-# DEV NOTE: Set image alt text per fluent/react documentation, do not use the below as an example
-tfa-qa-code-alt = Uporabite kodo { $secret } za nastavitev dvostopenjskega overjanja v podprtih programih.
-tfa-qa-code =
-    .alt = { tfa-qa-code-alt }
-tfa-button-cant-scan-qr = Ne morete prebrati kode?
-# When the user cannot use a QR code.
-tfa-enter-secret-key = Vnesite ta tajni ključ v svojo aplikacijo za overitev:
-tfa-enter-totp-v2 = Zdaj vnesite overitveno kodo iz aplikacije za overitev.
-tfa-input-enter-totp-v2 =
-    .label = Vnesite overitveno kodo
-tfa-save-these-codes-1 =
-    Shranite te rezervne overitvene kode za enkratno uporabo na varno mesto
-    za primere, ko nimate mobilne naprave.
-# codes here refers to backup authentication codes
-tfa-enter-code-to-confirm-setup = Potrdite z vnosom, da ste shranili kode. Brez teh kod se morda ne boste mogli prijaviti, če ne boste imeli aplikacije za overjanje.
-tfa-enter-recovery-code-1 =
-    .label = Vnesite rezervno overitveno kodo
-
 ## Product promotion
 
 product-promo-monitor =

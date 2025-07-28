@@ -164,19 +164,6 @@ verify-secondary-email-cancel-button = منسوخ کریں
 # Link to delete account on main Settings page
 delete-account-link = اکاؤنٹ بند کريں
 
-## Two Step Authentication
-
-tfa-title = دو-مرحلہ کی تصدیق
-tfa-step-1-3 = مرحلہ 3 میں سے 1
-tfa-step-2-3 = مرحلہ 3 میں سے 2
-tfa-step-3-3 = مرحلہ 3 میں سے 3
-tfa-button-continue = جاری رکھیں
-tfa-button-cancel = منسوخ کریں
-tfa-button-finish = ‏‏مکمل کریں
-tfa-incorrect-totp = ٹو فیکٹر اوتھینٹیکیشن کوڈ غلط ہے
-tfa-cannot-retrieve-code = آپ کے کوڈ کو بازیافت کرنے میں ایک دشواری پیدا ہوئی۔
-tfa-button-cant-scan-qr = کوڈ اسکین نہیں کر پا رہے؟
-
 ## Profile section
 
 profile-heading = پروفائل

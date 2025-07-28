@@ -198,31 +198,6 @@ verify-secondary-email-cancel-button = Anulează
 # Link to delete account on main Settings page
 delete-account-link = Șterge contul
 
-## Two Step Authentication
-
-tfa-title = Autentificare în doi pași
-tfa-step-1-3 = Pasul 1 din 3
-tfa-step-2-3 = Pasul 2 din 3
-tfa-step-3-3 = Pasul 3 din 3
-tfa-button-continue = Continuă
-tfa-button-cancel = Anulează
-tfa-button-finish = Finalizează
-tfa-incorrect-totp = Cod de autentificare în doi pași incorect
-tfa-cannot-retrieve-code = A apărut o problemă la recuperarea codului.
-tfa-scan-this-code =
-    Scanează acest cod QR folosind unul dintre <linkExternal>aceste
-    aplicații de autentificare</linkExternal>.
-# This is the image alt text for a QR code.
-# Variables:
-#   $secret (String) - a long alphanumeric string that does not require translation
-# DEV NOTE: Set image alt text per fluent/react documentation, do not use the below as an example
-tfa-qa-code-alt =
-    Folosește codul { $secret } pentru a configura autentificarea în doi pași
-    în aplicațiile suportate.
-tfa-button-cant-scan-qr = Nu poți scana codul?
-# When the user cannot use a QR code.
-tfa-enter-secret-key = Introdu această cheie secretă în aplicația de autentificare:
-
 ## Profile section
 
 profile-heading = Profil

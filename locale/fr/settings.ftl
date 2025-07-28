@@ -1030,46 +1030,6 @@ delete-account-link = Supprimer le compte
 # Success message displayed in alert bar after the user has successfully confirmed their account is not inactive.
 inactive-update-status-success-alert = Connexion réussie. Votre { -product-mozilla-account } et vos données resteront actifs.
 
-## Two Step Authentication
-
-tfa-title = Authentification en deux étapes
-tfa-step-1-3 = Étape 1 sur 3
-tfa-step-2-3 = Étape 2 sur 3
-tfa-step-3-3 = Étape 3 sur 3
-tfa-button-continue = Continuer
-tfa-button-cancel = Annuler
-tfa-button-finish = Terminer
-tfa-incorrect-totp = Code d’authentification en deux étapes incorrect
-tfa-cannot-retrieve-code = Un problème est survenu lors de la récupération de votre code.
-tfa-cannot-verify-code-4 = Un problème est survenu lors de la confirmation de vos codes d’authentification de secours
-tfa-incorrect-recovery-code-1 = Code d’authentification de secours incorrect
-tfa-enabled-v2 = L’authentification en deux étapes a été activée
-tfa-scan-this-code =
-    Scannez ce code QR en utilisant l’une de <linkExternal>ces 
-    applications d’authentification</linkExternal>.
-# This is the image alt text for a QR code.
-# Variables:
-#   $secret (String) - a long alphanumeric string that does not require translation
-# DEV NOTE: Set image alt text per fluent/react documentation, do not use the below as an example
-tfa-qa-code-alt =
-    Utilisez le code { $secret } pour configurer l’authentification en deux étapes dans
-    les applications prises en charge.
-tfa-qa-code =
-    .alt = { tfa-qa-code-alt }
-tfa-button-cant-scan-qr = Impossible de scanner le code ?
-# When the user cannot use a QR code.
-tfa-enter-secret-key = Saisissez cette clé secrète dans votre application d’authentification :
-tfa-enter-totp-v2 = Maintenant, saisissez le code d’authentification de l’application d’authentification.
-tfa-input-enter-totp-v2 =
-    .label = Saisissez le code d’authentification
-tfa-save-these-codes-1 =
-    Conservez ces codes d’authentification de secours à usage unique dans un endroit sûr pour quand
-    vous n’avez pas votre appareil mobile.
-# codes here refers to backup authentication codes
-tfa-enter-code-to-confirm-setup = Confirmez que vous avez enregistré vos codes en en saisissant un. Sans ces codes, vous ne pourrez peut-être pas vous connecter si vous ne disposez pas de votre application d’authentification.
-tfa-enter-recovery-code-1 =
-    .label = Saisissez un code d’authentification de secours
-
 ## Product promotion
 
 product-promo-monitor =

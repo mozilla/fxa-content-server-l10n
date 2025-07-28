@@ -797,42 +797,6 @@ verify-secondary-email-success-alert-2 = { $email } の追加が完了しまし�
 # Link to delete account on main Settings page
 delete-account-link = アカウントを削除
 
-## Two Step Authentication
-
-tfa-title = 2 段階認証
-tfa-step-1-3 = ステップ 1/3
-tfa-step-2-3 = ステップ 2/3
-tfa-step-3-3 = ステップ 3/3
-tfa-button-continue = 続ける
-tfa-button-cancel = キャンセル
-tfa-button-finish = 完了
-tfa-incorrect-totp = 2 段階認証コードが正しくありません
-tfa-cannot-retrieve-code = コードの取得中に問題が発生しました。
-tfa-cannot-verify-code-4 = バックアップ認証コードの確認時に問題が発生しました
-tfa-incorrect-recovery-code-1 = バックアップ認証コードが正しくありません
-tfa-enabled-v2 = 2 段階認証が有効化されました
-tfa-scan-this-code =
-    <linkExternal>認証アプリ</linkExternal> を使用して、
-    この QR コードを読み取ってください。
-# This is the image alt text for a QR code.
-# Variables:
-#   $secret (String) - a long alphanumeric string that does not require translation
-# DEV NOTE: Set image alt text per fluent/react documentation, do not use the below as an example
-tfa-qa-code-alt = コード { $secret } を使って対応アプリケーション内で 2 段階認証を設定してください。
-tfa-qa-code =
-    .alt = { tfa-qa-code-alt }
-tfa-button-cant-scan-qr = コードをスキャンできませんか？
-# When the user cannot use a QR code.
-tfa-enter-secret-key = この秘密キーを認証アプリに入力してください:
-tfa-enter-totp-v2 = 次に、認証アプリからの認証コードを入力してください。
-tfa-input-enter-totp-v2 =
-    .label = 認証コードを入力
-tfa-save-these-codes-1 = これらのワンタイム使用のバックアップ認証コードは、モバイル端末を持っていない場合に備えて安全な場所に保管してください。
-# codes here refers to backup authentication codes
-tfa-enter-code-to-confirm-setup = 保存していることを確認するためにコードを一つ入力してください。認証アプリを使用できない場合、コードがないとログインできません。
-tfa-enter-recovery-code-1 =
-    .label = バックアップ認証コードを入力してください
-
 ## Product promotion
 
 product-promo-monitor =

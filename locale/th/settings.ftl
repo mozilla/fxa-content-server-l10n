@@ -851,39 +851,6 @@ verify-secondary-email-success-alert-2 = เพิ่ม { $email } เรีย
 # Link to delete account on main Settings page
 delete-account-link = ลบบัญชี
 
-## Two Step Authentication
-
-tfa-title = การยืนยันตัวตนสองขั้นตอน
-tfa-step-1-3 = ขั้นตอนที่ 1 จาก 3
-tfa-step-2-3 = ขั้นตอนที่ 2 จาก 3
-tfa-step-3-3 = ขั้นตอนที่ 3 จาก 3
-tfa-button-continue = ดำเนินการต่อ
-tfa-button-cancel = ยกเลิก
-tfa-button-finish = เสร็จสิ้น
-tfa-incorrect-totp = รหัสยืนยันตัวตนสองขั้นตอนไม่ถูกต้อง
-tfa-cannot-retrieve-code = เกิดปัญหาในการดึงรหัสของคุณ
-tfa-cannot-verify-code-4 = มีปัญหาขณะยืนยันรหัสยืนยันตัวตนสำรองของคุณ
-tfa-incorrect-recovery-code-1 = รหัสยืนยันตัวตนสำรองไม่ถูกต้อง
-tfa-scan-this-code =
-    สแกนคิวอาร์โค้ดนี้โดยใช้หนึ่งใน<linkExternal>แอปยืนยันตัวตน
-    เหล่านี้</linkExternal>
-# This is the image alt text for a QR code.
-# Variables:
-#   $secret (String) - a long alphanumeric string that does not require translation
-# DEV NOTE: Set image alt text per fluent/react documentation, do not use the below as an example
-tfa-qa-code-alt = ใช้รหัส { $secret } ในการตั้งค่าการยืนยันตัวตนสองขั้นตอนในแอปพลิเคชันที่รองรับ
-tfa-qa-code =
-    .alt = { tfa-qa-code-alt }
-tfa-button-cant-scan-qr = ไม่สามารถสแกนรหัสได้?
-# When the user cannot use a QR code.
-tfa-enter-secret-key = ใส่คีย์ลับนี้ลงในแอปยืนยันตัวตนของคุณ:
-tfa-enter-totp-v2 = ทีนี้ ให้ใส่รหัสยืนยันตัวตนที่ได้จากแอปยืนยันตัวตน
-tfa-input-enter-totp-v2 =
-    .label = ใส่รหัสยืนยันตัวตน
-tfa-save-these-codes-1 = บันทึกรหัสยืนยันตัวตนสำรองแบบใช้ครั้งเดียวเหล่านี้ไว้ในที่ที่ปลอดภัยเพื่อใช้เมื่อคุณไม่มีอุปกรณ์มือถือ
-tfa-enter-recovery-code-1 =
-    .label = ใส่รหัสยืนยันตัวตนสำรอง
-
 ## Product promotion
 
 product-promo-monitor =

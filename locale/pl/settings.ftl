@@ -1033,44 +1033,6 @@ delete-account-link = Usuń konto
 # Success message displayed in alert bar after the user has successfully confirmed their account is not inactive.
 inactive-update-status-success-alert = Pomyślnie zalogowano. Twoje { -product-mozilla-account(case: "nom", capitalization: "lower") } i dane pozostaną aktywne.
 
-## Two Step Authentication
-
-tfa-title = Uwierzytelnianie dwuetapowe
-tfa-step-1-3 = 1. krok z 3
-tfa-step-2-3 = 2. krok z 3
-tfa-step-3-3 = 3. krok z 3
-tfa-button-continue = Kontynuuj
-tfa-button-cancel = Anuluj
-tfa-button-finish = Dokończ
-tfa-incorrect-totp = Niepoprawny kod uwierzytelniania dwuetapowego
-tfa-cannot-retrieve-code = Wystąpił problem podczas uzyskiwania kodu.
-tfa-cannot-verify-code-4 = Wystąpił problem podczas potwierdzania zapasowego kodu uwierzytelniania
-tfa-incorrect-recovery-code-1 = Niepoprawny zapasowy kod uwierzytelniania
-tfa-enabled-v2 = Uwierzytelnianie dwuetapowe zostało włączone
-tfa-scan-this-code =
-    Zeskanuj ten kod QR za pomocą jednej
-    z <linkExternal>tych aplikacji uwierzytelniających</linkExternal>.
-# This is the image alt text for a QR code.
-# Variables:
-#   $secret (String) - a long alphanumeric string that does not require translation
-# DEV NOTE: Set image alt text per fluent/react documentation, do not use the below as an example
-tfa-qa-code-alt = Użyj kodu { $secret }, aby skonfigurować uwierzytelnianie dwuetapowe w obsługiwanych aplikacjach.
-tfa-qa-code =
-    .alt = { tfa-qa-code-alt }
-tfa-button-cant-scan-qr = Nie możesz zeskanować kodu?
-# When the user cannot use a QR code.
-tfa-enter-secret-key = Wpisz ten tajny klucz do swojej aplikacji uwierzytelniającej:
-tfa-enter-totp-v2 = Wpisz teraz kod uwierzytelniania z aplikacji uwierzytelniającej.
-tfa-input-enter-totp-v2 =
-    .label = Wpisz kod uwierzytelniania
-tfa-save-these-codes-1 =
-    Przechowuj te zapasowe kody uwierzytelniania jednorazowego użytku w bezpiecznym miejscu
-    na wypadek sytuacji, w której nie masz swojego telefonu.
-# codes here refers to backup authentication codes
-tfa-enter-code-to-confirm-setup = Potwierdź zapisanie kodów, wpisując jeden z nich. Bez nich możesz nie być w stanie się zalogować, jeśli nie masz aplikacji uwierzytelniającej.
-tfa-enter-recovery-code-1 =
-    .label = Wpisz zapasowy kod uwierzytelniania
-
 ## Product promotion
 
 product-promo-monitor =

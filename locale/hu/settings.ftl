@@ -1038,44 +1038,6 @@ delete-account-link = Fiók törlése
 # Success message displayed in alert bar after the user has successfully confirmed their account is not inactive.
 inactive-update-status-success-alert = Sikeresen bejelentkezett. A { -product-mozilla-account }ja és adatai aktívak maradnak.
 
-## Two Step Authentication
-
-tfa-title = Kétlépcsős hitelesítés
-tfa-step-1-3 = 1. / 3. lépés
-tfa-step-2-3 = 2. / 3. lépés
-tfa-step-3-3 = 3. / 3. lépés
-tfa-button-continue = Folytatás
-tfa-button-cancel = Mégse
-tfa-button-finish = Befejezés
-tfa-incorrect-totp = Helytelen kétlépcsős hitelesítési kód
-tfa-cannot-retrieve-code = Hiba történt a kód lekérésekor.
-tfa-cannot-verify-code-4 = Hiba történt a tartalék hitelesítési kódok megerősítése során
-tfa-incorrect-recovery-code-1 = Érvénytelen tartalék hitelesítési kód
-tfa-enabled-v2 = A kétlépcsős hitelesítés engedélyezve lett
-tfa-scan-this-code =
-    Olvassa be ezt a QR-kódot <linkExternal>ezen
-    hitelesítő alkalmazások egyikével</linkExternal>.
-# This is the image alt text for a QR code.
-# Variables:
-#   $secret (String) - a long alphanumeric string that does not require translation
-# DEV NOTE: Set image alt text per fluent/react documentation, do not use the below as an example
-tfa-qa-code-alt = Használja a(z) { $secret } kódot a kétlépcsős hitelesítés beállításához a támogatott alkalmazásokban.
-tfa-qa-code =
-    .alt = { tfa-qa-code-alt }
-tfa-button-cant-scan-qr = Nem tudja leolvasni a kódot?
-# When the user cannot use a QR code.
-tfa-enter-secret-key = Adja meg ezt a titkos kulcsot a hitelesítő alkalmazásban:
-tfa-enter-totp-v2 = Most írja be a hitelesítési kódot a hitelesítési alkalmazásból.
-tfa-input-enter-totp-v2 =
-    .label = Adja meg a hitelesítési kódot
-tfa-save-these-codes-1 =
-    Mentse ezeket az egyszer használatos tartalék hitelesítési kódokat biztonságos
-    helyen, arra az esetre, ha nincs mobileszköze.
-# codes here refers to backup authentication codes
-tfa-enter-code-to-confirm-setup = Egy kód beírásával erősítse meg, hogy elmentette a kódokat. Ezen kódok nélkül lehet, hogy nem fog tudni bejelentkezni, ha nem rendelkezik a hitelesítő alkalmazással.
-tfa-enter-recovery-code-1 =
-    .label = Adjon meg egy tartalék hitelesítési kódot
-
 ## Product promotion
 
 product-promo-monitor =

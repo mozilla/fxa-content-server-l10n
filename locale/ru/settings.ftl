@@ -1038,46 +1038,6 @@ delete-account-link = Удалить аккаунт
 # Success message displayed in alert bar after the user has successfully confirmed their account is not inactive.
 inactive-update-status-success-alert = Вы успешно вошли. Ваш { -product-mozilla-account } и данные останутся активными.
 
-## Two Step Authentication
-
-tfa-title = Двухэтапная аутентификация
-tfa-step-1-3 = Шаг 1 из 3
-tfa-step-2-3 = Шаг 2 из 3
-tfa-step-3-3 = Шаг 3 из 3
-tfa-button-continue = Продолжить
-tfa-button-cancel = Отмена
-tfa-button-finish = Готово
-tfa-incorrect-totp = Неверный код двухэтапной аутентификации
-tfa-cannot-retrieve-code = При запрашивании вашего кода произошла ошибка.
-tfa-cannot-verify-code-4 = При подтверждении вашего резервного кода аутентификации возникла проблема
-tfa-incorrect-recovery-code-1 = Некорректный резервный код аутентификации
-tfa-enabled-v2 = Двухэтапная аутентификация включена
-tfa-scan-this-code =
-    Отсканируйте QR-код с помощью одного из <linkExternal>этих
-    приложений для аутентификации</linkExternal>.
-# This is the image alt text for a QR code.
-# Variables:
-#   $secret (String) - a long alphanumeric string that does not require translation
-# DEV NOTE: Set image alt text per fluent/react documentation, do not use the below as an example
-tfa-qa-code-alt =
-    Используйте код { $secret } для настройки двухэтапной аутентификации в
-    поддерживаемых приложениях.
-tfa-qa-code =
-    .alt = { tfa-qa-code-alt }
-tfa-button-cant-scan-qr = Не можете отсканировать код?
-# When the user cannot use a QR code.
-tfa-enter-secret-key = Введите этот секретный ключ в своё приложение для аутентификации:
-tfa-enter-totp-v2 = Теперь введите код аутентификации из приложения для аутентификации.
-tfa-input-enter-totp-v2 =
-    .label = Введите код аутентификации
-tfa-save-these-codes-1 =
-    Храните эти одноразовые резервные коды аутентификации в безопасном месте, на случай, если
-    у вас не будет доступа к мобильному устройству.
-# codes here refers to backup authentication codes
-tfa-enter-code-to-confirm-setup = Подтвердите, что вы сохранили коды, введя один из них. Без этих кодов вы не сможете войти, если у вас нет приложения для аутентификации.
-tfa-enter-recovery-code-1 =
-    .label = Введите резервный код аутентификации
-
 ## Product promotion
 
 product-promo-monitor =

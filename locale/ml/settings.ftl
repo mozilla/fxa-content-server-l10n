@@ -559,19 +559,6 @@ verify-secondary-email-verify-button-2 = ഉറപ്പിക്കുക
 # Link to delete account on main Settings page
 delete-account-link = അക്കൗണ്ട് മായ്ക്കുക
 
-## Two Step Authentication
-
-tfa-title = രണ്ടുപ്പടി അധിക്കാരികപ്പെടുത്തൽ
-tfa-step-1-3 = പടി 1/3
-tfa-step-2-3 = പടി 2/3
-tfa-step-3-3 = പടി 3/3
-tfa-button-continue = തുടരുക
-tfa-button-cancel = റദ്ദാക്കുക
-tfa-button-finish = തീൎക്കുക
-tfa-qa-code =
-    .alt = { tfa-qa-code-alt }
-tfa-button-cant-scan-qr = സങ്കേതം പരിശോധിക്കാൻ കഴിയുന്നില്ലേ?
-
 ## Profile section
 
 profile-heading = രൂപരേഖ

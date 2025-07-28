@@ -967,40 +967,6 @@ delete-account-link = Scancella cuntu
 # Success message displayed in alert bar after the user has successfully confirmed their account is not inactive.
 inactive-update-status-success-alert = Trasisti. U to { -product-mozilla-account } e i to dati arrèstanu attivi.
 
-## Two Step Authentication
-
-tfa-title = Autinticazzioni a du’ fattura
-tfa-step-1-3 = Passu 1 di 3
-tfa-step-2-3 = Passu 2 di 3
-tfa-step-3-3 = Passu 3 di 3
-tfa-button-continue = Cuntinua
-tfa-button-cancel = Sfai
-tfa-button-finish = Cumpleta
-tfa-incorrect-totp = U còdici d’autinticazzioni a du’ fattura è sbagghiatu
-tfa-cannot-retrieve-code = Cci fu un prubblema mentri chi ricupirava u to còdici.
-tfa-cannot-verify-code-4 = Cci fu un prubblema mentri chi cunfirmava u to còdici d’autinticazzioni di sicurizza
-tfa-incorrect-recovery-code-1 = U còdici d’autinticazzioni di sicurizza è sbagghiatu
-tfa-enabled-v2 = Abbilitasti l’autinticazzioni a du’ fattura
-tfa-scan-this-code = Scanziuna stu còdici QR usannu una di <linkExternal>st’app d’autinticazzioni</linkExternal>.
-# This is the image alt text for a QR code.
-# Variables:
-#   $secret (String) - a long alphanumeric string that does not require translation
-# DEV NOTE: Set image alt text per fluent/react documentation, do not use the below as an example
-tfa-qa-code-alt = Usa u còdici { $secret } pi cunfijurari l’autinticazzioni a du’ fattura nni l’applicazzioni suppurtati.
-tfa-qa-code =
-    .alt = { tfa-qa-code-alt }
-tfa-button-cant-scan-qr = Nun po’ scanziunari u còdici?
-# When the user cannot use a QR code.
-tfa-enter-secret-key = Metti stu còdici sicritu nnâ to applicazzioni d’autinticazzioni:
-tfa-enter-totp-v2 = Ora metti u còdici d’autinticazzioni chi ti duna l’applicazzioni.
-tfa-input-enter-totp-v2 =
-    .label = Metti u còdici d’autinticazzioni
-tfa-save-these-codes-1 = Sàrbati sti còdici d’autinticazzioni di sicurizza nnôn postu sicuru pi quannu nun ài u to dispusitivu mòbbili.
-# codes here refers to backup authentication codes
-tfa-enter-code-to-confirm-setup = Cunferma chi sarbasti i to còdici mittènnunni unu. Senza di sti còdici, nun po’ tràsiri nnô to cuntu senza l’app d’autinticazzioni.
-tfa-enter-recovery-code-1 =
-    .label = Metti un còdici d’autinticazzioni di sicurizza
-
 ## Product promotion
 
 product-promo-monitor =

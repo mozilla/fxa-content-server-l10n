@@ -1040,46 +1040,6 @@ delete-account-link = Odstrániť účet
 # Success message displayed in alert bar after the user has successfully confirmed their account is not inactive.
 inactive-update-status-success-alert = Úspešne ste sa prihlásili. Váš { -product-mozilla-account(capitalization: "lower") } a údaje zostanú aktívne.
 
-## Two Step Authentication
-
-tfa-title = Dvojstupňové overenie
-tfa-step-1-3 = Krok 1 z 3
-tfa-step-2-3 = Krok 2 z 3
-tfa-step-3-3 = Krok 3 z 3
-tfa-button-continue = Pokračovať
-tfa-button-cancel = Zrušiť
-tfa-button-finish = Dokončiť
-tfa-incorrect-totp = Nesprávny kód pre dvojstupňové overenie
-tfa-cannot-retrieve-code = Pri načítaní vášho kódu sa vyskytol problém.
-tfa-cannot-verify-code-4 = Pri potvrdení vášho záložného overovacieho kódu sa vyskytol problém
-tfa-incorrect-recovery-code-1 = Nesprávny záložný overovací kód
-tfa-enabled-v2 = Dvojstupňové overenie bolo povolené
-tfa-scan-this-code =
-    Naskenujte tento QR kód pomocou jednej z <linkExternal>overovacích
-    aplikácií</linkExternal>.
-# This is the image alt text for a QR code.
-# Variables:
-#   $secret (String) - a long alphanumeric string that does not require translation
-# DEV NOTE: Set image alt text per fluent/react documentation, do not use the below as an example
-tfa-qa-code-alt =
-    Pomocou kódu { $secret } nastavte dvojstupňové overenie v
-    podporovanej aplikácii.
-tfa-qa-code =
-    .alt = { tfa-qa-code-alt }
-tfa-button-cant-scan-qr = Nemôžete kód naskenovať?
-# When the user cannot use a QR code.
-tfa-enter-secret-key = Zadajte tento tajný kľúč do svojej overovacej aplikácie:
-tfa-enter-totp-v2 = Teraz zadajte overovací kód z overovacej aplikácie.
-tfa-input-enter-totp-v2 =
-    .label = Zadajte overovací kód
-tfa-save-these-codes-1 =
-    Uložte si tieto jednorazové záložné overovacie kódy na bezpečné miesto, aby ste mali k nim prístup
-    keď nebudete mať svoje mobilné zariadenie.
-# codes here refers to backup authentication codes
-tfa-enter-code-to-confirm-setup = Zadaním kódu potvrďte, že ste kódy uložili. Bez týchto kódov sa možno nebudete môcť prihlásiť, ak nemáte aplikáciu na overenie totožnosti.
-tfa-enter-recovery-code-1 =
-    .label = Zadajte záložný overovací kód
-
 ## Product promotion
 
 product-promo-monitor =
