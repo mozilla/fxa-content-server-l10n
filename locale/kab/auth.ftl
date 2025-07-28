@@ -207,12 +207,6 @@ subscriptionFirstInvoiceDiscount-content-discount-repeating = Asenqes n { $disco
 #  $invoiceTaxAmount (String) - The amount of the tax of the subscription invoice, including currency, e.g. $2.00
 subscriptionCharges-content-tax = Tabzert d usesfer: { $invoiceTaxAmount }
 
-## Variables:
-##  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
-##  $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
-##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
-
-
 ##
 
 subscriptionSupport = Isteqsiyen ɣer ujerred-ik? <a data-l10n-name="subscriptionSupportUrl">tarbeɛt-nneɣ n tallelt</a> a-tt-a da ad ak-d-efk afus.
@@ -297,6 +291,7 @@ passwordChanged-subject = Awal uffir yettuleqqem
 passwordChanged-title = Awal uffir yettusnifel akken iwata
 passwordChanged-description-2 = Awal-ik·im uffir n { -product-mozilla-account } yettwabeddel akken iwata seg yibenk-a:
 passwordChangeRequired-subject = Armud anida yella ccek yettwaf
+passwordChangeRequired-title-2 = Wennez awal uffir-ik⋅im
 password-forgot-otp-subject = Tettuḍ awal-ik n uεeddi?
 password-forgot-otp-title = Tettuḍ awal-ik n uεeddi?
 password-forgot-otp-request = Neṭṭef-d assuter n ubeddel n wawal uffir ɣqef { -product-mozilla-account }-inek·inem seg:
@@ -367,6 +362,7 @@ postRemoveTwoStepAuthentication-title-2 = Tessenseḍ asesteb s snat tarrayin
 # After the colon is a description of the device the user used to disable two-step authentication
 postRemoveTwoStepAuthentication-from-device = Tessenseḍ-t seg:
 postRemoveTwoStepAuthentication-action = Sefrek amiḍan
+postSigninRecoveryCode-preview = Sentem armud n umiḍan
 postSigninRecoveryCode-action = Sefrek amiḍan
 postSigninRecoveryPhone-preview = Sentem armud n umiḍan
 postSigninRecoveryPhone-device = Teqqneḍ-d seg:
