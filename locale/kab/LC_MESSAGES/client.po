@@ -587,7 +587,7 @@ msgstr "Tansa URL tameɣtut tettwasra"
 
 #: .es5/lib/auth-errors.js:388
 msgid "Your confirmation email was just returned. Mistyped email?"
-msgstr ""
+msgstr "Asentem n yimayl inek akken kan i d-yuɣal. Ahat mačči d ameɣtu?"
 
 #: .es5/lib/auth-errors.js:396
 msgid "Enter a valid email address. firefox.com does not offer email."
@@ -1408,7 +1408,7 @@ msgstr ""
 
 #: .es5/templates/sign_in_recovery_code.mustache:4
 msgid "Enter 10-digit backup authentication code"
-msgstr ""
+msgstr "Sekcem tangalt n usesteb n uḥraz n 10 yizwilen"
 
 #: .es5/templates/sign_in_recovery_code.mustache:7
 msgid "Are you locked out?"

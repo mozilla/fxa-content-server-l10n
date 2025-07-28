@@ -40,6 +40,7 @@ new-user-enter-email =
 new-user-confirm-email =
     .label = Sentem imayl-inek·inem
 new-user-subscribe-product-updates-mozilla = Bɣiɣ ad d-remseɣ talɣut ɣef yifarisen d yileqman seg { -brand-mozilla }
+new-user-subscribe-product-updates-hubs = Bɣiɣ ad d-remseɣ talɣut ɣef yifarisen d yileqman seg { -product-mozilla-hubs } akked { -brand-mozilla }
 new-user-subscribe-product-updates-mdnplus = Bɣiɣ ad d-remseɣ talɣut ɣef yifarisen d yileqman seg { -product-mdn-plus } akked { -brand-mozilla }
 new-user-subscribe-product-assurance = Nseqdac kan imayl-ik·im i wakken ad nernu amiḍan-ik·im. Urǧin ad t-nsenz i wis kraḍ.
 new-user-email-validate = Imayl-a d arameɣtu
@@ -92,9 +93,6 @@ payment-confirmation-amount-year =
        *[other] { $amount } yal { $intervalCount } aseggas
     }
 payment-confirmation-download-button = Kemmel akken ad d-tsidreḍ
-
-## Component - PaymentConsentCheckbox
-
 
 ## Component - PaymentErrorView
 
@@ -194,10 +192,6 @@ settings-subscriptions-title = Ajerred
 # Title of container where a user can input a coupon code to get a discount on a subscription.
 coupon-promo-code = Tangalt promo
 
-## Subscription upgrade plan details - shared by multiple components, including plan details and payment form
-## $amount (Number) - The amount billed. It will be formatted as currency.
-
-
 ## Error messages
 
 # App error dialog
@@ -230,6 +224,7 @@ product-profile-error =
 product-customer-error =
     .title = Ugur deg usali n umsaɣ
 product-plan-not-found = Ur yettwaf ara uɣawas
+product-location-unsupported-error = Adig ur yettwasefrak ara
 
 ## Hooks - coupons
 
