@@ -363,6 +363,7 @@ passwordChanged-description-2 = { -product-mozilla-account } parolanız aşağı
 passwordChangeRequired-subject = Şüpheli etkinlik algılandı
 passwordChangeRequired-preview = Parolanızı hemen değiştirin
 passwordChangeRequired-title-2 = Parolanızı sıfırlayın
+passwordChangeRequired-suspicious-activity-3 = Hesabınızı şüpheli faaliyetlerden korumak için kilitledik. Önlem olarak tüm cihazlarınızdaki oturumlarınız kapatıldı ve eşitlenmiş verileriniz silindi.
 passwordChangeRequired-sign-in-3 = Hesabınıza tekrar giriş yapmak için parolanızı sıfırlamanız yeterli.
 passwordChangeRequired-different-password-2 = <b>Önemli:</b> Geçmişte kullandığınızdan farklı ve güçlü bir parola seçin.
 passwordChangeRequired-different-password-plaintext-2 = Önemli: Geçmişte kullandığınızdan farklı ve güçlü bir parola seçin.

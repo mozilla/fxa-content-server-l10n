@@ -192,6 +192,11 @@ next-plan-details-header = Ürün ayrıntıları
 next-plan-details-list-price = Liste fiyatı
 next-plan-details-tax = Vergiler ve ücretler
 next-plan-details-total-label = Toplam
+purchase-details-subtotal-label = Ara toplam
+# "Credit applied" refers to account credit used to reduce the amount due on the invoice
+purchase-details-credit-applied-label = Uygulanan kredi
+# "Total due" is the total that the customer owes after all credits, discounts, and taxes have been applied
+purchase-details-total-due-label = Toplam tutar
 next-plan-details-hide-button = Ayrıntıları gizle
 next-plan-details-show-button = Ayrıntıları göster
 next-coupon-success = Planınız liste fiyatı üzerinden otomatik olarak yenilenecektir.
