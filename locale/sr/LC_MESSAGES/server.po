@@ -59,6 +59,8 @@ msgid ""
 "We are currently under heavy strain and are working to return\n"
 "            the system to normal as soon as possible."
 msgstr ""
+"Тренутно смо под великим оптерећењем и трудимо се да вратимо\n"
+"          систем у нормално стање што је пре могуће."
 
 #: server/templates/pages/src/index.html:2
 msgid "Loading"
@@ -66,11 +68,11 @@ msgstr "Учитавам"
 
 #: server/templates/pages/src/index.html:4
 msgid "Mozilla accounts require JavaScript."
-msgstr ""
+msgstr "Mozilla налози захтевају JavaScript."
 
 #: server/templates/pages/src/update_firefox.html:1
 msgid "Mozilla account"
-msgstr ""
+msgstr "Mozilla налог"
 
 #: server/templates/pages/src/update_firefox.html:3
 msgid "Firefox update required"
@@ -83,6 +85,10 @@ msgid ""
 "                        download and install the latest version of Firefox to\n"
 "                        continue."
 msgstr ""
+"Ваши Mozilla налог користи функције које\n"
+"                        нису подржане на вашој верзији Firefox-а. Преузмите\n"
+"                        и инсталирајте најновију верзију Firefox-а како би могли\n"
+"                        наставити."
 
 #: server/templates/pages/src/update_firefox.html:5
 msgid "Download latest"
