@@ -190,6 +190,8 @@ next-new-user-card-title = Nhập thông tin thẻ của bạn
 
 next-plan-details-header = Thông tin chi tiết sản phẩm
 next-plan-details-list-price = Bảng giá
+# $productName (String) - The name of the product, e.g. Mozilla VPN
+plan-details-product-prorated-price = Giá theo tỷ lệ cho { $productName }
 next-plan-details-tax = Thuế và phí
 next-plan-details-total-label = Tổng
 # "Unused time" refers to the remaining value of the current subscription that hasn't been used yet
