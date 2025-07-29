@@ -302,6 +302,14 @@ password-strength-balloon-not-email = メールアドレスと一致しないこ
 password-strength-balloon-not-common = よく使われるパスワードと一致しないこと
 password-strength-balloon-stay-safe-tips = 安全のため、パスワードを再利用してはいけません。<LinkExternal>強力なパスワードを作成する</LinkExternal>ためのヒントをご覧ください。
 
+## PasswordStrengthInline component
+## These strings are conditions that need to be met to qualify as a strong password
+
+password-strength-long-instruction = 他のサイトで使用したことのない強固なパスワードを選択してください。次のセキュリティ要件を満たしていることを確認してください:
+password-strength-inline-min-length = 最低 8 文字
+password-strength-inline-not-common = よく使われるパスワードと一致しないこと
+password-strength-inline-confirmed-must-match = 確認のための再入力が新しいパスワードと一致すること
+
 ## Notification Promo Banner component
 
 account-recovery-notification-cta = 作成
@@ -311,6 +319,7 @@ account-recovery-notification-header-description = アカウント回復用キ�
 ## Ready component
 
 ready-complete-set-up-instruction = 他の端末上の { -brand-firefox } でも新しいパスワードを入力して、設定を完了してください。
+manage-your-account-button = アカウント管理
 # This is a string that tells the user they can use whatever service prompted them to reset their password or to verify their email
 # Variables:
 # { $serviceName } represents a product name (e.g., Mozilla VPN) that will be passed in as a variable
