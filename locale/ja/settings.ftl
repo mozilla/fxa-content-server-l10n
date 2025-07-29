@@ -801,6 +801,7 @@ delete-account-link = アカウントを削除
 
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
+product-promo-monitor-description-v2 = 個人情報が漏えいした場所を発見してコントロールする
 # Links out to the Monitor site
 product-promo-monitor-cta = 無料でスキャン
 
