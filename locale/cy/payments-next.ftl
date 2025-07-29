@@ -191,7 +191,7 @@ next-new-user-card-title = Rhowch fanylion eich cerdyn
 next-plan-details-header = Manylion cynnyrch
 next-plan-details-list-price = Rhestr Prisiau
 # $productName (String) - The name of the product, e.g. Mozilla VPN
-plan-details-product-prorated-price = Pris prorated ar gyfer { $productName }
+plan-details-product-prorated-price = Pris yn ôl cyfradd { $productName }
 next-plan-details-tax = Trethi a Ffioedd
 next-plan-details-total-label = Cyfanswm
 # "Unused time" refers to the remaining value of the current subscription that hasn't been used yet
