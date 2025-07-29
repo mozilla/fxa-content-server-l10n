@@ -306,7 +306,9 @@ password-strength-balloon-stay-safe-tips = 安全のため、パスワードを�
 ## These strings are conditions that need to be met to qualify as a strong password
 
 password-strength-long-instruction = 他のサイトで使用したことのない強固なパスワードを選択してください。次のセキュリティ要件を満たしていることを確認してください:
+password-strength-short-instruction = 強固なパスワードを選択してください:
 password-strength-inline-min-length = 最低 8 文字
+password-strength-inline-not-email = メールアドレスと一致しないこと
 password-strength-inline-not-common = よく使われるパスワードと一致しないこと
 password-strength-inline-confirmed-must-match = 確認のための再入力が新しいパスワードと一致すること
 
