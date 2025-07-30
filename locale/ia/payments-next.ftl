@@ -115,6 +115,7 @@ subscription-management-button-cancel-subscription = Cancellar
 subscription-management-your-apple-iap-subscriptions-aria = Tu abonamentos a  { -brand-apple } via le application
 subscription-management-apple-in-app-purchase = { -brand-apple }: compras per In-App
 subscription-management-your-google-iap-subscriptions-aria = Tu abonamentos a  { -brand-google } via le application
+subscription-management-google-in-app-purchase = { -brand-google }: compras via le application
 # $date (String) - Date of next bill
 subscription-management-iap-sub-next-bill = Proxime factura le { $date }
 # $date (String) - Date of In-App purchase expires
@@ -189,6 +190,8 @@ next-new-user-card-title = Insere informationes de tu carta
 
 next-plan-details-header = Detalios del producto
 next-plan-details-list-price = Lista precio
+# $productName (String) - The name of the product, e.g. Mozilla VPN
+plan-details-product-prorated-price = Precio dividite pro rata pro { $productName }
 next-plan-details-tax = Taxas e oneres
 next-plan-details-total-label = Total
 # "Unused time" refers to the remaining value of the current subscription that hasn't been used yet
