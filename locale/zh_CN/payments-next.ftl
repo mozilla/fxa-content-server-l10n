@@ -105,6 +105,8 @@ subscription-management-button-change-payment-method-aria = 更改付款方式
 subscription-management-button-change-payment-method = 更改
 # $last4 (String) - Last four numbers of credit card
 subscription-management-card-ending-in = 尾号 { $last4 } 的卡片
+# $expirationDate (Date) - Payment card's expiration date
+subscription-management-card-expires-date = 有效期 { $expirationDate }
 subscription-management-subscriptions-heading = 订阅
 subscription-management-your-subscriptions-aria = 您的订阅
 subscription-management-no-subscriptions = 您尚未拥有订阅
