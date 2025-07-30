@@ -297,7 +297,7 @@ metadata-title-checkout-start = Na blagajni | { $productTitle }
 metadata-description-checkout-start = Za dokončanje nakupa vnesite podatke za plačilo.
 # Checkout processing
 metadata-title-checkout-processing = Obdelovanje | { $productTitle }
-metadata-description-checkout-processing = Počakajte, da končamo z obdelavo plačila.
+metadata-description-checkout-processing = Počakajte, da do konca obdelamo vaše plačilo.
 # Checkout error
 metadata-title-checkout-error = Napaka | { $productTitle }
 metadata-description-checkout-error = Pri obdelavi vaše naročnine je prišlo do napake. Če se težava ponovi, se obrnite na podporo.
