@@ -689,6 +689,29 @@ flow-setup-2fa-backup-code-dl-heading = Salvar codices de authentication de rese
 flow-setup-2fa-backup-code-dl-save-these-codes = Mantene lo in un posto que tu memorara. Si tu non ha accesso a tu app de authentication tu debera inserer un pro aperir session.
 flow-setup-2fa-backup-code-dl-button-continue = Continuar
 
+##
+
+flow-setup-2fa-inline-complete-success-banner = Authentication a duo passos activate
+flow-setup-2fa-inline-complete-backup-code = Codices de authentication de reserva
+flow-setup-2fa-inline-complete-backup-phone = Numero de telephono de recuperation
+# $count (Number) - an integer representing the number of backup
+# authentication codes remaining
+flow-setup-2fa-inline-complete-backup-code-info =
+    { $count ->
+        [one] { $count } codice restante
+       *[other] { $count } codices restante
+    }
+flow-setup-2fa-inline-complete-backup-code-description = Isto es le methodo de recuperation plus secur si tu non pote acceder con tu apparato mobile o le application de authentication.
+flow-setup-2fa-inline-complete-backup-phone-description = Isto es le methodo de recuperation plus facile si tu non pote acceder con tu application de authentication.
+flow-setup-2fa-inline-complete-learn-more-link = Como isto protege tu conto
+# $serviceName (String) - the name of the product that the user will be
+# redirected to.
+flow-setup-2fa-inline-complete-continue-button = Continuar a { $serviceName }
+flow-setup-2fa-prompt-heading = Configurar authentication a duo passos
+# Variable { $serviceName } is the name of the product (e.g. Firefox Add-ons)
+# that requests two-step authentication setup.
+flow-setup-2fa-prompt-description = { $serviceName } te require le authentication a duo passos pro tener secur tu conto.
+
 ## FlowSetupPhoneConfirmCode
 
 # verification code refers to a code sent by text message to confirm phone number ownership
@@ -727,6 +750,8 @@ header-menu-open = Clauder menu
 header-menu-closed = Menu de navigation del sito
 header-back-to-top-link =
     .title = Retornar al initio
+header-back-to-settings-link =
+    .title = Retro al parametros de { -product-mozilla-account }
 header-title-2 = { -product-mozilla-account }
 header-help = Adjuta
 
@@ -1282,6 +1307,10 @@ auth-error-1067 = Email incorrecte?
 # Variables:
 #  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
 recovery-phone-number-ending-digits = Numero finiente in { $lastFourPhoneNumber }
+# This error is shown when there is a particular kind of error at the very end of the 2FA flow
+# and the user should begin it again. A system/device clock not being synced to the internet time is
+# a common problem when using 2FA.
+two-factor-auth-setup-token-verification-error = Il habeva un problema activante le authentication a duo passos. Verifica que le horologio de tu apparato es configurate pro automaticamente actualisar e <a>reinitialisa</a>.
 oauth-error-1000 = Un error ha occurrite. Per favor claude iste scheda e retenta.
 
 ## Cannot Create Account page
