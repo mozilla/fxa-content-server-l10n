@@ -83,6 +83,7 @@ next-payment-confirmation-cc-card-ending-in = Carta que fini in { $last4 }
 ## Page - Subscription Management
 
 subscription-management-button-add-payment-method-aria = Adder methodo de pagamento
+subscription-management-your-apple-iap-subscriptions-aria = Tu abonamentos In-App per { -brand-apple }
 # Page - Not Found
 page-not-found-title = Pagina non trovate
 page-not-found-description = Le pagina que tu ha requestate non ha essite trovate. Nos ha recipite notification e va reparar qualcunque ligamines rupte.
