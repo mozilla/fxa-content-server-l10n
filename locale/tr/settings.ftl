@@ -508,12 +508,6 @@ bento-menu-made-by-mozilla = { -brand-mozilla } güvencesiyle
 
 connect-another-fx-mobile = { -brand-firefox }’u mobil cihazınıza veya tabletinize indirin
 connect-another-find-fx-mobile-2 = { -brand-firefox } tarayıcısını { -google-play } ve { -app-store }’da bulabilirsiniz.
-# Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
-# These images are used to encourage users to download Firefox on their mobile devices.
-connect-another-play-store-image =
-    .title = { -brand-firefox }’u { -google-play }’den indir
-connect-another-app-store-image-2 =
-    .title = { -brand-firefox }’u { -app-store }’dan indir
 
 ## Connected services section
 

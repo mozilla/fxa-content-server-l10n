@@ -92,8 +92,6 @@ next-payment-confirmation-cc-card-ending-in = Karta končící na { $last4 }
 
 ## Layout - Subscription Management
 
-subscription-management-breadcrumb-account-home = Domovská stránka účtu
-subscription-management-breadcrumb-subscriptions = Předplatné
 subscription-management-account-profile-picture = Profilový obrázek účtu
 
 ## Page - Subscription Management
@@ -127,6 +125,13 @@ subscription-management-button-manage-subscription = Správa
 page-not-found-title = Stránka nenalezena
 page-not-found-description = Požadovaná stránka nebyla nalezena. Byli jsme upozorněni a všechny odkazy, které mohou být nefunkční, opravíme.
 page-not-found-back-button = Zpátky
+
+## Navigation breadcrumbs
+
+# Link title - Account settings
+subscription-management-breadcrumb-account-home = Domovská stránka účtu
+# Link title - Subscriptions management
+subscription-management-breadcrumb-subscriptions = Předplatné
 
 ## Component - Payment Consent Checkbox
 

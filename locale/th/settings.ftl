@@ -467,12 +467,6 @@ bento-menu-made-by-mozilla = สร้างโดย { -brand-mozilla }
 
 connect-another-fx-mobile = รับ { -brand-firefox } บนมือถือหรือแท็บเล็ต
 connect-another-find-fx-mobile-2 = หาคำว่า { -brand-firefox } ใน { -google-play } และ { -app-store }
-# Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
-# These images are used to encourage users to download Firefox on their mobile devices.
-connect-another-play-store-image =
-    .title = ดาวน์โหลด { -brand-firefox } บน { -google-play }
-connect-another-app-store-image-2 =
-    .title = ดาวน์โหลด { -brand-firefox } บน { -app-store }
 
 ## Connected services section
 

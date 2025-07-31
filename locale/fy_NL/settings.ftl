@@ -508,12 +508,6 @@ bento-menu-made-by-mozilla = Makke troch { -brand-mozilla }
 
 connect-another-fx-mobile = Download { -brand-firefox } op mobyl of tablet
 connect-another-find-fx-mobile-2 = Sykje { -brand-firefox } yn de { -google-play } en de { -app-store }.
-# Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
-# These images are used to encourage users to download Firefox on their mobile devices.
-connect-another-play-store-image =
-    .title = Download { -brand-firefox } op { -google-play }
-connect-another-app-store-image-2 =
-    .title = Download { -brand-firefox } op { -app-store }
 
 ## Connected services section
 

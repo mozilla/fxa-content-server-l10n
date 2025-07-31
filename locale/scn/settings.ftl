@@ -485,12 +485,6 @@ bento-menu-made-by-mozilla = Fattu di { -brand-mozilla }
 
 connect-another-fx-mobile = Pìgghiari { -brand-firefox } nnô tilèfunu o nnâ tavuliḍḍa
 connect-another-find-fx-mobile-2 = Riscedi a { -brand-firefox } nne { -google-play } e { -app-store }.
-# Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
-# These images are used to encourage users to download Firefox on their mobile devices.
-connect-another-play-store-image =
-    .title = Pìgghiati { -brand-firefox } di { -google-play }
-connect-another-app-store-image-2 =
-    .title = Pìgghiati { -brand-firefox } di { -app-store }
 
 ## Connected services section
 

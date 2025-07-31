@@ -92,8 +92,6 @@ next-payment-confirmation-cc-card-ending-in = Kartica, ki se končuje s { $last4
 
 ## Layout - Subscription Management
 
-subscription-management-breadcrumb-account-home = Domača stran računa
-subscription-management-breadcrumb-subscriptions = Naročnine
 subscription-management-account-profile-picture = Profilna slika računa
 
 ## Page - Subscription Management
@@ -125,6 +123,13 @@ subscription-management-button-manage-subscription = Upravljaj
 page-not-found-title = Strani ni mogoče najti
 page-not-found-description = Zahtevane strani ni bilo mogoče najti. O tem smo obvestili skrbnike, ki bodo odpravili morebitne nedelujoče povezave.
 page-not-found-back-button = Nazaj
+
+## Navigation breadcrumbs
+
+# Link title - Account settings
+subscription-management-breadcrumb-account-home = Domača stran računa
+# Link title - Subscriptions management
+subscription-management-breadcrumb-subscriptions = Naročnine
 
 ## Component - Payment Consent Checkbox
 

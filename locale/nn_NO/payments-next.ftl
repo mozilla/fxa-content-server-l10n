@@ -92,8 +92,6 @@ next-payment-confirmation-cc-card-ending-in = Kortet sluttar på { $last4 }
 
 ## Layout - Subscription Management
 
-subscription-management-breadcrumb-account-home = Startside for kontoen
-subscription-management-breadcrumb-subscriptions = Abonnement
 subscription-management-account-profile-picture = Kontoprofilbilde
 
 ## Page - Subscription Management
@@ -127,6 +125,13 @@ subscription-management-button-manage-subscription = Handsam
 page-not-found-title = Fann ikkje sida
 page-not-found-description = Fann ikkje sida du spurde etter. Vi er varsla og vil reparere lenker som ikkje fungerer.
 page-not-found-back-button = Gå tilbake
+
+## Navigation breadcrumbs
+
+# Link title - Account settings
+subscription-management-breadcrumb-account-home = Startside for kontoen
+# Link title - Subscriptions management
+subscription-management-breadcrumb-subscriptions = Abonnement
 
 ## Component - Payment Consent Checkbox
 

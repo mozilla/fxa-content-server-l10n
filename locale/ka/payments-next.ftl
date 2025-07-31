@@ -95,8 +95,6 @@ next-payment-confirmation-cc-card-ending-in = ბარათი დაბოლ
 
 ## Layout - Subscription Management
 
-subscription-management-breadcrumb-account-home = ანგარიშის მთავარი გვერდი
-subscription-management-breadcrumb-subscriptions = გამოწერები
 subscription-management-account-profile-picture = ანგარიშის პროფილის სურათი
 
 ## Page - Subscription Management
@@ -130,6 +128,13 @@ subscription-management-button-manage-subscription = მართვა
 page-not-found-title = გვერდი ვერ მოიძებნა
 page-not-found-description = თქვენ მიერ მოთხოვნილი გვერდი ვერ მოიძებნა. ჩვენ უკვე გვეცნობა ამის შესახებ და ყველა შესაძლო დაზიანებულ ბმულს გავასწორებთ.
 page-not-found-back-button = უკან დაბრუნება
+
+## Navigation breadcrumbs
+
+# Link title - Account settings
+subscription-management-breadcrumb-account-home = ანგარიშის მთავარი გვერდი
+# Link title - Subscriptions management
+subscription-management-breadcrumb-subscriptions = გამოწერები
 
 ## Component - Payment Consent Checkbox
 

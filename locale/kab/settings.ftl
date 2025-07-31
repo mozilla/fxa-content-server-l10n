@@ -312,12 +312,6 @@ bento-menu-made-by-mozilla = Texdem-it { -brand-mozilla }
 ## Connect another device promo
 
 connect-another-fx-mobile = Awi { -brand-firefox } uziraz akked tfelwit n uselkim
-# Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
-# These images are used to encourage users to download Firefox on their mobile devices.
-connect-another-play-store-image =
-    .title = Sader-d { -brand-firefox } seg { -google-play }
-connect-another-app-store-image-2 =
-    .title = Sader-d { -brand-firefox } seg { -app-store }
 
 ## Connected services section
 

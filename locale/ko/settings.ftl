@@ -496,12 +496,6 @@ bento-menu-made-by-mozilla = { -brand-mozilla } 제작
 
 connect-another-fx-mobile = 모바일이나 태블릿에서 { -brand-firefox } 받기
 connect-another-find-fx-mobile-2 = { -google-play }와 { -app-store }에서 { -brand-firefox }를 찾으세요.
-# Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
-# These images are used to encourage users to download Firefox on their mobile devices.
-connect-another-play-store-image =
-    .title = { -google-play }에서 { -brand-firefox } 다운로드
-connect-another-app-store-image-2 =
-    .title = { -app-store }에서 { -brand-firefox } 다운로드
 
 ## Connected services section
 

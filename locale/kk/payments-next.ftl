@@ -64,7 +64,6 @@ next-payment-confirmation-cc-card-ending-in = { $last4 } аяқталатын к
 
 ## Layout - Subscription Management
 
-subscription-management-breadcrumb-subscriptions = Жазылулар
 subscription-management-account-profile-picture = Тіркелгі профилінің суреті
 
 ## Page - Subscription Management
@@ -87,6 +86,11 @@ subscription-management-button-manage-subscription = Басқару
 page-not-found-title = Бет табылмады
 page-not-found-description = Сіз сұраған бет табылмады. Ол туралы біз хабарды алдық, және қате бола алатын сілтемелерді жөндейміз.
 page-not-found-back-button = Артқа
+
+## Navigation breadcrumbs
+
+# Link title - Subscriptions management
+subscription-management-breadcrumb-subscriptions = Жазылулар
 
 ## Component - Payment Consent Checkbox
 

@@ -92,8 +92,6 @@ next-payment-confirmation-cc-card-ending-in = Tarjeta terminada en { $last4 }
 
 ## Layout - Subscription Management
 
-subscription-management-breadcrumb-account-home = Inicio de la cuenta
-subscription-management-breadcrumb-subscriptions = Suscripciones
 subscription-management-account-profile-picture = Imagen de perfil de la cuenta
 
 ## Page - Subscription Management
@@ -124,6 +122,13 @@ subscription-management-button-manage-subscription = Administrar
 page-not-found-title = Página no encontrada
 page-not-found-description = La página que solicitaste no fue encontrada. Hemos sido notificados y arreglaremos cualquier enlace que pueda estar roto.
 page-not-found-back-button = Retroceder
+
+## Navigation breadcrumbs
+
+# Link title - Account settings
+subscription-management-breadcrumb-account-home = Inicio de la cuenta
+# Link title - Subscriptions management
+subscription-management-breadcrumb-subscriptions = Suscripciones
 
 ## Component - Payment Consent Checkbox
 

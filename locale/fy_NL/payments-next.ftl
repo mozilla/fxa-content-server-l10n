@@ -92,8 +92,6 @@ next-payment-confirmation-cc-card-ending-in = Creditcard einigjend op { $last4 }
 
 ## Layout - Subscription Management
 
-subscription-management-breadcrumb-account-home = Account-startside
-subscription-management-breadcrumb-subscriptions = Abonneminten
 subscription-management-account-profile-picture = Accountprofylôfbylding
 
 ## Page - Subscription Management
@@ -127,6 +125,13 @@ subscription-management-button-manage-subscription = Beheare
 page-not-found-title = Side net fûn
 page-not-found-description = De opfrege side is net fûn. Wy binne op de hichte en sille keppelingen dy't mooglik net wurkje werom bringe.
 page-not-found-back-button = Tebek
+
+## Navigation breadcrumbs
+
+# Link title - Account settings
+subscription-management-breadcrumb-account-home = Account-startside
+# Link title - Subscriptions management
+subscription-management-breadcrumb-subscriptions = Abonneminten
 
 ## Component - Payment Consent Checkbox
 

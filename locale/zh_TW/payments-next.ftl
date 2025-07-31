@@ -92,8 +92,6 @@ next-payment-confirmation-cc-card-ending-in = 卡號末四碼：{ $last4 }
 
 ## Layout - Subscription Management
 
-subscription-management-breadcrumb-account-home = 帳號首頁
-subscription-management-breadcrumb-subscriptions = 訂閱
 subscription-management-account-profile-picture = 帳號個人資料照片
 
 ## Page - Subscription Management
@@ -127,6 +125,13 @@ subscription-management-button-manage-subscription = 管理
 page-not-found-title = 找不到頁面
 page-not-found-description = 找不到您想開啟的頁面。我們已經通知開發團隊來檢查網頁。
 page-not-found-back-button = 回上一頁
+
+## Navigation breadcrumbs
+
+# Link title - Account settings
+subscription-management-breadcrumb-account-home = 帳號首頁
+# Link title - Subscriptions management
+subscription-management-breadcrumb-subscriptions = 訂閱
 
 ## Component - Payment Consent Checkbox
 

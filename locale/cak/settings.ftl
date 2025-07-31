@@ -132,12 +132,6 @@ bento-menu-made-by-mozilla = B'anon ruma { -brand-mozilla }
 ## Connect another device promo
 
 connect-another-fx-mobile = Tak'ulu' { -brand-firefox } pan oyonib'äl o kematz'ib'
-# Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
-# These images are used to encourage users to download Firefox on their mobile devices.
-connect-another-play-store-image =
-    .title = Tiqasäx { -brand-firefox } pa { -google-play }
-connect-another-app-store-image-2 =
-    .title = Tiqasäx { -brand-firefox } pa ri { -app-store }
 
 ## Connected services section
 

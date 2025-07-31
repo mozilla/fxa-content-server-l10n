@@ -508,12 +508,6 @@ bento-menu-made-by-mozilla = { -brand-mozilla } moheñoimby
 
 connect-another-fx-mobile = Ereko { -brand-firefox } mba’e’oka térã tablétape
 connect-another-find-fx-mobile-2 = Eheka { -brand-firefox } { -google-play } ha { -app-store } ndive.
-# Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
-# These images are used to encourage users to download Firefox on their mobile devices.
-connect-another-play-store-image =
-    .title = Emboguejy { -brand-firefox } { -google-play } rupive
-connect-another-app-store-image-2 =
-    .title = Emboguejy { -brand-firefox } { -app-store } rupi
 
 ## Connected services section
 

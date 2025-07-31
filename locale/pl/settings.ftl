@@ -508,12 +508,6 @@ bento-menu-made-by-mozilla = Tworzone przez { -brand-mozilla(case: "acc") }
 
 connect-another-fx-mobile = Pobierz { -brand-firefox(case: "acc") } na telefon lub tablet
 connect-another-find-fx-mobile-2 = Znajdź { -brand-firefox(case: "acc") } w { -google-play } lub { -app-store }.
-# Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
-# These images are used to encourage users to download Firefox on their mobile devices.
-connect-another-play-store-image =
-    .title = Pobierz { -brand-firefox(case: "acc") } z { -google-play }
-connect-another-app-store-image-2 =
-    .title = Pobierz { -brand-firefox(case: "acc") } na { -app-store }
 
 ## Connected services section
 

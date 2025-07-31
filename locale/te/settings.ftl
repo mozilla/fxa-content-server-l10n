@@ -58,10 +58,6 @@ bento-menu-made-by-mozilla = { -brand-mozilla } ద్వారా తయార�
 ## Connect another device promo
 
 connect-another-fx-mobile = మొబైల్ లేదా టాబ్లెట్‌లో { -brand-firefox } ని పొందండి
-# Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
-# These images are used to encourage users to download Firefox on their mobile devices.
-connect-another-play-store-image =
-    .title = { -google-play }లో { -brand-firefox }ని డౌన్‌లోడ్ చేయండి
 
 ## Connected services section
 

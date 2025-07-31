@@ -480,12 +480,6 @@ bento-menu-made-by-mozilla = Gert af { -brand-mozilla }
 
 connect-another-fx-mobile = Fáðu þér { -brand-firefox } í farsíma eða spjaldtölvu
 connect-another-find-fx-mobile-2 = Finndu { -brand-firefox } á { -google-play } og { -app-store }.
-# Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
-# These images are used to encourage users to download Firefox on their mobile devices.
-connect-another-play-store-image =
-    .title = Sæktu { -brand-firefox } á { -google-play }
-connect-another-app-store-image-2 =
-    .title = Sæktu { -brand-firefox } í { -app-store }
 
 ## Connected services section
 

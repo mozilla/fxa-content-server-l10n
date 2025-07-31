@@ -514,12 +514,6 @@ bento-menu-made-by-mozilla = Wót { -brand-mozilla } wuwity
 
 connect-another-fx-mobile = Wobstarajśo se { -brand-firefox } za mobilny telefon abo tablet
 connect-another-find-fx-mobile-2 = { -brand-firefox } w { -google-play } a { -app-store } namakaś.
-# Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
-# These images are used to encourage users to download Firefox on their mobile devices.
-connect-another-play-store-image =
-    .title = Ześěgniśo { -brand-firefox } wót { -google-play }
-connect-another-app-store-image-2 =
-    .title = Ześěgniśo { -brand-firefox } wót { -app-store }
 
 ## Connected services section
 

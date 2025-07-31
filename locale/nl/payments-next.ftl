@@ -92,8 +92,6 @@ next-payment-confirmation-cc-card-ending-in = Creditcard eindigend op { $last4 }
 
 ## Layout - Subscription Management
 
-subscription-management-breadcrumb-account-home = Account-startpagina
-subscription-management-breadcrumb-subscriptions = Abonnementen
 subscription-management-account-profile-picture = Accountprofielafbeelding
 
 ## Page - Subscription Management
@@ -127,6 +125,13 @@ subscription-management-button-manage-subscription = Beheren
 page-not-found-title = Pagina niet gevonden
 page-not-found-description = De opgevraagde pagina is niet gevonden. We zijn op de hoogte en zullen koppelingen die mogelijk niet werken herstellen.
 page-not-found-back-button = Terug
+
+## Navigation breadcrumbs
+
+# Link title - Account settings
+subscription-management-breadcrumb-account-home = Account-startpagina
+# Link title - Subscriptions management
+subscription-management-breadcrumb-subscriptions = Abonnementen
 
 ## Component - Payment Consent Checkbox
 

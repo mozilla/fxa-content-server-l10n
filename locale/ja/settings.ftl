@@ -414,12 +414,6 @@ bento-menu-made-by-mozilla = Made by { -brand-mozilla }
 
 connect-another-fx-mobile = モバイルまたはタブレット上で { -brand-firefox } を入手する
 connect-another-find-fx-mobile-2 = { -google-play } と { -app-store } で { -brand-firefox } を見つけます。
-# Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
-# These images are used to encourage users to download Firefox on their mobile devices.
-connect-another-play-store-image =
-    .title = { -google-play } で { -brand-firefox } をダウンロード
-connect-another-app-store-image-2 =
-    .title = { -app-store } で { -brand-firefox } をダウンロード
 
 ## Connected services section
 

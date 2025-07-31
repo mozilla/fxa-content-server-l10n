@@ -496,12 +496,6 @@ bento-menu-made-by-mozilla = 由 { -brand-mozilla } 打造
 
 connect-another-fx-mobile = 下載行動裝置或平板電腦版本的 { -brand-firefox }
 connect-another-find-fx-mobile-2 = 到 { -google-play } 或 { -app-store } 尋找 { -brand-firefox }。
-# Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
-# These images are used to encourage users to download Firefox on their mobile devices.
-connect-another-play-store-image =
-    .title = 到 { -google-play } 下載 { -brand-firefox }
-connect-another-app-store-image-2 =
-    .title = 到 { -app-store } 下載 { -brand-firefox }
 
 ## Connected services section
 

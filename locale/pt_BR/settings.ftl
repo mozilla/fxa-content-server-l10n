@@ -477,12 +477,6 @@ bento-menu-made-by-mozilla = Feito pela { -brand-mozilla }
 
 connect-another-fx-mobile = Instale o { -brand-firefox } no celular ou tablet
 connect-another-find-fx-mobile-2 = Encontre o { -brand-firefox } no { -google-play } ou na { -app-store }.
-# Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
-# These images are used to encourage users to download Firefox on their mobile devices.
-connect-another-play-store-image =
-    .title = Instale o { -brand-firefox } a partir do { -google-play }
-connect-another-app-store-image-2 =
-    .title = Instale o { -brand-firefox } a partir da { -app-store }
 
 ## Connected services section
 

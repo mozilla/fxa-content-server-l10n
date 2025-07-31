@@ -88,7 +88,6 @@ next-payment-confirmation-cc-card-ending-in = כרטיס המסתיים ב־{ $l
 
 ## Layout - Subscription Management
 
-subscription-management-breadcrumb-subscriptions = מינויים
 subscription-management-account-profile-picture = תמונת פרופיל חשבון
 
 ## Page - Subscription Management
@@ -122,6 +121,11 @@ subscription-management-button-manage-subscription = ניהול
 page-not-found-title = הדף לא נמצא
 page-not-found-description = העמוד המבוקש לא נמצא. קיבלנו את המידע הדרוש ונתקן את הקישורים שייתכן שנשברו.
 page-not-found-back-button = חזרה אחורה
+
+## Navigation breadcrumbs
+
+# Link title - Subscriptions management
+subscription-management-breadcrumb-subscriptions = מינויים
 
 ## Component - Payment Consent Checkbox
 

@@ -510,12 +510,6 @@ bento-menu-made-by-mozilla = ქმნის { -brand-mozilla }
 
 connect-another-fx-mobile = მიიღეთ { -brand-firefox } მობილურზე ან ტაბლეტზე
 connect-another-find-fx-mobile-2 = მონახეთ { -brand-firefox }, გახსენით { -google-play } და { -app-store }.
-# Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
-# These images are used to encourage users to download Firefox on their mobile devices.
-connect-another-play-store-image =
-    .title = ჩამოტვირთეთ { -brand-firefox }, გამოიყენეთ { -google-play }
-connect-another-app-store-image-2 =
-    .title = ჩამოტვირთეთ { -brand-firefox } { -app-store }-იდან
 
 ## Connected services section
 

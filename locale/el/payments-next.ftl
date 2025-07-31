@@ -92,8 +92,6 @@ next-payment-confirmation-cc-card-ending-in = Κάρτα που λήγει σε 
 
 ## Layout - Subscription Management
 
-subscription-management-breadcrumb-account-home = Αρχική σελίδα λογαριασμού
-subscription-management-breadcrumb-subscriptions = Συνδρομές
 subscription-management-account-profile-picture = Εικόνα προφίλ λογαριασμού
 
 ## Page - Subscription Management
@@ -127,6 +125,13 @@ subscription-management-button-manage-subscription = Διαχείριση
 page-not-found-title = Η σελίδα δεν βρέθηκε
 page-not-found-description = Η σελίδα που ζητήσατε δεν βρέθηκε. Έχουμε ειδοποιηθεί και θα διορθώσουμε τυχόν συνδέσμους που ενδέχεται να μην λειτουργούν.
 page-not-found-back-button = Επιστροφή
+
+## Navigation breadcrumbs
+
+# Link title - Account settings
+subscription-management-breadcrumb-account-home = Αρχική σελίδα λογαριασμού
+# Link title - Subscriptions management
+subscription-management-breadcrumb-subscriptions = Συνδρομές
 
 ## Component - Payment Consent Checkbox
 

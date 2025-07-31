@@ -94,8 +94,6 @@ next-payment-confirmation-cc-card-ending-in = { $last4 } végződésű kártya
 
 ## Layout - Subscription Management
 
-subscription-management-breadcrumb-account-home = Fiók kezdőlapja
-subscription-management-breadcrumb-subscriptions = Előfizetések
 subscription-management-account-profile-picture = Fiók profilképe
 
 ## Page - Subscription Management
@@ -129,6 +127,13 @@ subscription-management-button-manage-subscription = Kezelés
 page-not-found-title = Az oldal nem található
 page-not-found-description = A kért oldal nem található. Értesítést kaptunk, és kijavítunk minden, esetleg hibás hivatkozást.
 page-not-found-back-button = Ugrás vissza
+
+## Navigation breadcrumbs
+
+# Link title - Account settings
+subscription-management-breadcrumb-account-home = Fiók kezdőlapja
+# Link title - Subscriptions management
+subscription-management-breadcrumb-subscriptions = Előfizetések
 
 ## Component - Payment Consent Checkbox
 

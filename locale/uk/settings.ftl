@@ -483,12 +483,6 @@ bento-menu-made-by-mozilla = Створено в { -brand-mozilla }
 
 connect-another-fx-mobile = Отримайте { -brand-firefox } для мобільного чи планшета
 connect-another-find-fx-mobile-2 = Знайдіть { -brand-firefox } у { -google-play } і { -app-store }.
-# Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
-# These images are used to encourage users to download Firefox on their mobile devices.
-connect-another-play-store-image =
-    .title = Завантажити { -brand-firefox } із { -google-play }
-connect-another-app-store-image-2 =
-    .title = Завантажити { -brand-firefox } з { -app-store }
 
 ## Connected services section
 

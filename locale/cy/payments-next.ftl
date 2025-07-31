@@ -92,8 +92,6 @@ next-payment-confirmation-cc-card-ending-in = Cerdyn yn gorffen gyda { $last4 }
 
 ## Layout - Subscription Management
 
-subscription-management-breadcrumb-account-home = Cartref y Cyfrif
-subscription-management-breadcrumb-subscriptions = Tanysgrifiadau
 subscription-management-account-profile-picture = Llun proffil cyfrif
 
 ## Page - Subscription Management
@@ -127,6 +125,13 @@ subscription-management-button-manage-subscription = Rheoli
 page-not-found-title = Heb ganfod y dudalen
 page-not-found-description = Heb ganfod y dudalen rydych wedi gofyn amdani. Rydym wedi cael ein hysbysu a byddwn yn trwsio unrhyw ddolenni all fod wedi'u torri.
 page-not-found-back-button = Mynd Nôl
+
+## Navigation breadcrumbs
+
+# Link title - Account settings
+subscription-management-breadcrumb-account-home = Cartref y Cyfrif
+# Link title - Subscriptions management
+subscription-management-breadcrumb-subscriptions = Tanysgrifiadau
 
 ## Component - Payment Consent Checkbox
 

@@ -508,12 +508,6 @@ bento-menu-made-by-mozilla = Fat di { -brand-mozilla }
 
 connect-another-fx-mobile = Oten { -brand-firefox } sul celulâr o sul tablet
 connect-another-find-fx-mobile-2 = Cjate { -brand-firefox } in { -google-play } e { -app-store }.
-# Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
-# These images are used to encourage users to download Firefox on their mobile devices.
-connect-another-play-store-image =
-    .title = Discjame { -brand-firefox } su { -google-play }
-connect-another-app-store-image-2 =
-    .title = Discjame { -brand-firefox } su { -app-store }
 
 ## Connected services section
 

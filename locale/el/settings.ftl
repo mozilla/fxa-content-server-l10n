@@ -508,12 +508,6 @@ bento-menu-made-by-mozilla = Από τη { -brand-mozilla }
 
 connect-another-fx-mobile = Αποκτήστε το { -brand-firefox } για κινητά ή tablet
 connect-another-find-fx-mobile-2 = Βρείτε το { -brand-firefox } στο { -google-play } και το { -app-store }.
-# Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
-# These images are used to encourage users to download Firefox on their mobile devices.
-connect-another-play-store-image =
-    .title = Λήψη του { -brand-firefox } στο { -google-play }
-connect-another-app-store-image-2 =
-    .title = Λήψη του { -brand-firefox } στο { -app-store }
 
 ## Connected services section
 

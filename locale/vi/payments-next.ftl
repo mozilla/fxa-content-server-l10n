@@ -92,8 +92,6 @@ next-payment-confirmation-cc-card-ending-in = Thẻ kết thúc bằng { $last4 
 
 ## Layout - Subscription Management
 
-subscription-management-breadcrumb-account-home = Trang chủ tài khoản
-subscription-management-breadcrumb-subscriptions = Gói đăng ký
 subscription-management-account-profile-picture = Ảnh đại diện tài khoản
 
 ## Page - Subscription Management
@@ -127,6 +125,13 @@ subscription-management-button-manage-subscription = Quản lý
 page-not-found-title = Không tìm thấy trang
 page-not-found-description = Không tìm thấy trang bạn yêu cầu. Chúng tôi đã để ý và sẽ sửa bất kỳ liên kết nào có thể bị hỏng.
 page-not-found-back-button = Quay lại
+
+## Navigation breadcrumbs
+
+# Link title - Account settings
+subscription-management-breadcrumb-account-home = Trang chủ tài khoản
+# Link title - Subscriptions management
+subscription-management-breadcrumb-subscriptions = Gói đăng ký
 
 ## Component - Payment Consent Checkbox
 

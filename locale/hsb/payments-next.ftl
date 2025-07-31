@@ -95,8 +95,6 @@ next-payment-confirmation-cc-card-ending-in = Karta, kotraž so na { $last4 } k�
 
 ## Layout - Subscription Management
 
-subscription-management-breadcrumb-account-home = Startowa strona konta
-subscription-management-breadcrumb-subscriptions = Abonementy
 subscription-management-account-profile-picture = Kontowy profilowy wobraz
 
 ## Page - Subscription Management
@@ -130,6 +128,13 @@ subscription-management-button-manage-subscription = Rjadować
 page-not-found-title = Strona njeje so namakała
 page-not-found-description = Strona, kotruž sće požadał, njeje so namakała. Smy powěsć dóstali a porjedźimy skóncowane wotkazy.
 page-not-found-back-button = Wróćo
+
+## Navigation breadcrumbs
+
+# Link title - Account settings
+subscription-management-breadcrumb-account-home = Startowa strona konta
+# Link title - Subscriptions management
+subscription-management-breadcrumb-subscriptions = Abonementy
 
 ## Component - Payment Consent Checkbox
 

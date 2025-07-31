@@ -92,8 +92,6 @@ next-payment-confirmation-cc-card-ending-in = { $last4 } ile biten kart
 
 ## Layout - Subscription Management
 
-subscription-management-breadcrumb-account-home = Hesap ana sayfası
-subscription-management-breadcrumb-subscriptions = Abonelikler
 subscription-management-account-profile-picture = Hesap profil resmi
 
 ## Page - Subscription Management
@@ -127,6 +125,13 @@ subscription-management-button-manage-subscription = Yönet
 page-not-found-title = Sayfa bulunamadı
 page-not-found-description = İstediğiniz sayfa bulunamadı. Bozuk olabilecek bağlantıları düzeltmeleri için durumu site yöneticilerimize bildirdik.
 page-not-found-back-button = Geri dön
+
+## Navigation breadcrumbs
+
+# Link title - Account settings
+subscription-management-breadcrumb-account-home = Hesap ana sayfası
+# Link title - Subscriptions management
+subscription-management-breadcrumb-subscriptions = Abonelikler
 
 ## Component - Payment Consent Checkbox
 

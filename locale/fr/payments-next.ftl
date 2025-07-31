@@ -92,8 +92,6 @@ next-payment-confirmation-cc-card-ending-in = Carte se terminant par { $last4 }
 
 ## Layout - Subscription Management
 
-subscription-management-breadcrumb-account-home = Accueil du compte
-subscription-management-breadcrumb-subscriptions = Abonnements
 subscription-management-account-profile-picture = Image de profil du compte
 
 ## Page - Subscription Management
@@ -127,6 +125,13 @@ subscription-management-button-manage-subscription = Gérer
 page-not-found-title = Page introuvable
 page-not-found-description = La page demandée est introuvable. Nous en avons été informés et nous rétablirons les liens éventuellement cassés.
 page-not-found-back-button = Retour
+
+## Navigation breadcrumbs
+
+# Link title - Account settings
+subscription-management-breadcrumb-account-home = Accueil du compte
+# Link title - Subscriptions management
+subscription-management-breadcrumb-subscriptions = Abonnements
 
 ## Component - Payment Consent Checkbox
 

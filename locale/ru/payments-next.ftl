@@ -92,8 +92,6 @@ next-payment-confirmation-cc-card-ending-in = Номер карты заканч
 
 ## Layout - Subscription Management
 
-subscription-management-breadcrumb-account-home = Домашняя страница аккаунта
-subscription-management-breadcrumb-subscriptions = Подписки
 subscription-management-account-profile-picture = Фото профиля аккаунта
 
 ## Page - Subscription Management
@@ -127,6 +125,13 @@ subscription-management-button-manage-subscription = Управление
 page-not-found-title = Страница не найдена
 page-not-found-description = Запрошенная страница не найдена. Мы уже получили уведомление и исправим все возможные ошибки в ссылках.
 page-not-found-back-button = Вернуться назад
+
+## Navigation breadcrumbs
+
+# Link title - Account settings
+subscription-management-breadcrumb-account-home = Домашняя страница аккаунта
+# Link title - Subscriptions management
+subscription-management-breadcrumb-subscriptions = Подписки
 
 ## Component - Payment Consent Checkbox
 

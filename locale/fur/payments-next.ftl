@@ -92,8 +92,6 @@ next-payment-confirmation-cc-card-ending-in = La cjarte e che e finìs cun { $la
 
 ## Layout - Subscription Management
 
-subscription-management-breadcrumb-account-home = Pagjine principâl dal account
-subscription-management-breadcrumb-subscriptions = Abonaments
 subscription-management-account-profile-picture = Imagjin dal profîl pal account
 
 ## Page - Subscription Management
@@ -127,6 +125,13 @@ subscription-management-button-manage-subscription = Gjestìs
 page-not-found-title = Pagjine no cjatade
 page-not-found-description = La pagjine domandade no je stade cjatade. Nus è rivade la segnalazion dal probleme e o comedarìn i eventuâi colegaments che no funzionin.
 page-not-found-back-button = Torne indaûr
+
+## Navigation breadcrumbs
+
+# Link title - Account settings
+subscription-management-breadcrumb-account-home = Pagjine principâl dal account
+# Link title - Subscriptions management
+subscription-management-breadcrumb-subscriptions = Abonaments
 
 ## Component - Payment Consent Checkbox
 

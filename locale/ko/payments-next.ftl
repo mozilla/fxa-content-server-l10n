@@ -91,8 +91,6 @@ next-payment-confirmation-cc-card-ending-in = 끝자리가 { $last4 } 인 카드
 
 ## Layout - Subscription Management
 
-subscription-management-breadcrumb-account-home = 계정 홈
-subscription-management-breadcrumb-subscriptions = 구독
 subscription-management-account-profile-picture = 계정 프로필 사진
 
 ## Page - Subscription Management
@@ -124,6 +122,13 @@ subscription-management-button-manage-subscription = 관리
 page-not-found-title = 페이지를 찾을 수 없음
 page-not-found-description = 요청하신 페이지를 찾을 수 없습니다. 알림을 받았으며 잘못된 모든 링크를 수정할 예정입니다.
 page-not-found-back-button = 뒤로 가기
+
+## Navigation breadcrumbs
+
+# Link title - Account settings
+subscription-management-breadcrumb-account-home = 계정 홈
+# Link title - Subscriptions management
+subscription-management-breadcrumb-subscriptions = 구독
 
 ## Component - Payment Consent Checkbox
 
