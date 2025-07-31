@@ -492,6 +492,12 @@ bento-menu-made-by-mozilla = נוצר על־ידי { -brand-mozilla }
 
 connect-another-fx-mobile = קבלת { -brand-firefox } לנייד או למחשב לוח
 connect-another-find-fx-mobile-2 = ניתן למצוא את { -brand-firefox } ב־{ -google-play } וב־{ -app-store }.
+# Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
+# These images are used to encourage users to download Firefox on their mobile devices.
+connect-another-play-store-image-2 =
+    .alt = הורדת { -brand-firefox } מה־{ -google-play }
+connect-another-app-store-image-3 =
+    .alt = הורדת { -brand-firefox } מה־{ -app-store }
 
 ## Connected services section
 
@@ -1362,6 +1368,7 @@ inline-totp-setup-security-code-placeholder = קוד אימות
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-code-required-error = נדרש קוד אימות
 tfa-qr-code-alt = ניתן להשתמש בקוד { $code } כדי להגדיר אימות דו־שלבי ביישומים נתמכים.
+inline-totp-setup-page-title = אימות דו־שלבי
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs

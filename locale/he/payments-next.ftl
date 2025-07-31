@@ -56,6 +56,7 @@ intent-payment-error-try-again = הממ. הייתה בעיה באישור התש
 intent-payment-error-get-in-touch = הממ. הייתה בעיה באישור התשלום שלך. נא ליצור קשר עם מנפיק הכרטיס שלך.
 intent-payment-error-generic = אירעה שגיאה לא צפויה בעת עיבוד התשלום שלך, נא לנסות שוב.
 intent-payment-error-insufficient-funds = נראה שבכרטיס שלך אין יתרה מספיקה. נא לנסות כרטיס אחר.
+general-paypal-error = אירעה שגיאה לא צפויה בעת עיבוד התשלום שלך, נא לנסות שוב.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -126,6 +127,8 @@ page-not-found-back-button = חזרה אחורה
 
 # Link title - Subscriptions management
 subscription-management-breadcrumb-subscriptions = מינויים
+# Link title - Payment method management
+subscription-management-breadcrumb-payment = אמצעי תשלום
 
 ## Component - Payment Consent Checkbox
 
@@ -180,6 +183,14 @@ payments-header-avatar-expanded-sign-out = התנתקות
 payments-client-loading-spinner =
     .aria-label = בטעינה…
     .alt = בטעינה…
+
+## Payment method management page - Stripe
+
+# Save button for changing which payment method will be used
+payment-method-management-save-default = הגדרה כאמצעי התשלום ברירת המחדל
+# Save button for saving a new payment method
+payment-method-management-save-method = שמירת אמצעי תשלום
+manage-stripe-payments-title = ניהול אמצעי תשלום
 
 ## Payment Section
 
