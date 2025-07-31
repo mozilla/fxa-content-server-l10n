@@ -62,6 +62,7 @@ intent-payment-error-try-again = Hmm. Hiba történt a fizetés jóváhagyásako
 intent-payment-error-get-in-touch = Hmm. Hiba történt a fizetés jóváhagyásakor. Vegye fel a kapcsolatot a kártyakibocsátóval.
 intent-payment-error-generic = Váratlan hiba történt a fizetése feldolgozása során, próbálja újra.
 intent-payment-error-insufficient-funds = Úgy tűnik, hogy a bankkártyán kevés a fedezet. Próbálkozzon egy másik kártyával.
+general-paypal-error = Váratlan hiba történt a fizetése feldolgozása során, próbálja újra.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -134,6 +135,8 @@ page-not-found-back-button = Ugrás vissza
 subscription-management-breadcrumb-account-home = Fiók kezdőlapja
 # Link title - Subscriptions management
 subscription-management-breadcrumb-subscriptions = Előfizetések
+# Link title - Payment method management
+subscription-management-breadcrumb-payment = Fizetési módok
 
 ## Component - Payment Consent Checkbox
 
@@ -188,6 +191,14 @@ payments-header-avatar-expanded-sign-out = Kijelentkezés
 payments-client-loading-spinner =
     .aria-label = Betöltés…
     .alt = Betöltés…
+
+## Payment method management page - Stripe
+
+# Save button for changing which payment method will be used
+payment-method-management-save-default = Alapértelmezett fizetési mód beállítása
+# Save button for saving a new payment method
+payment-method-management-save-method = Fizetési mód mentése
+manage-stripe-payments-title = Fizetési módok kezelése
 
 ## Payment Section
 

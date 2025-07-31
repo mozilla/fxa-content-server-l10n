@@ -60,6 +60,7 @@ intent-payment-error-try-again = Hmm. Pri avtorizaciji vašega plačila je priš
 intent-payment-error-get-in-touch = Hmm. Pri avtorizaciji vašega plačila je prišlo do težave. Obrnite se na izdajatelja kartice.
 intent-payment-error-generic = Med obdelavo vašega plačila je prišlo do nepričakovane napake, poskusite znova.
 intent-payment-error-insufficient-funds = Videti je, da na vaši kartici ni dovolj sredstev. Poskusite z drugo kartico.
+general-paypal-error = Med obdelavo vašega plačila je prišlo do nepričakovane napake, poskusite znova.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -130,6 +131,8 @@ page-not-found-back-button = Nazaj
 subscription-management-breadcrumb-account-home = Domača stran računa
 # Link title - Subscriptions management
 subscription-management-breadcrumb-subscriptions = Naročnine
+# Link title - Payment method management
+subscription-management-breadcrumb-payment = Plačilna sredstva
 
 ## Component - Payment Consent Checkbox
 
@@ -184,6 +187,14 @@ payments-header-avatar-expanded-sign-out = Odjava
 payments-client-loading-spinner =
     .aria-label = Nalaganje …
     .alt = Nalaganje …
+
+## Payment method management page - Stripe
+
+# Save button for changing which payment method will be used
+payment-method-management-save-default = Nastavi kot privzeto plačilo
+# Save button for saving a new payment method
+payment-method-management-save-method = Shrani način plačila
+manage-stripe-payments-title = Upravljanje plačilnih sredstev
 
 ## Payment Section
 

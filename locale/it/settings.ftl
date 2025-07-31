@@ -508,6 +508,12 @@ bento-menu-made-by-mozilla = Realizzato da { -brand-mozilla }
 
 connect-another-fx-mobile = Ottieni { -brand-firefox } sul cellulare o tablet
 connect-another-find-fx-mobile-2 = Trova { -brand-firefox } in { -google-play } e { -app-store }.
+# Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
+# These images are used to encourage users to download Firefox on their mobile devices.
+connect-another-play-store-image-2 =
+    .alt = Scarica { -brand-firefox } su { -google-play }
+connect-another-app-store-image-3 =
+    .alt = Scarica { -brand-firefox } su { -app-store }
 
 ## Connected services section
 
@@ -1434,6 +1440,7 @@ inline-totp-setup-security-code-placeholder = Codice di autenticazione
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-code-required-error = Codice di autenticazione richiesto
 tfa-qr-code-alt = Utilizza il codice { $code } per impostare l’autenticazione in due passaggi nelle applicazioni supportate.
+inline-totp-setup-page-title = Autenticazione in due passaggi
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs

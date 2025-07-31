@@ -60,6 +60,7 @@ intent-payment-error-try-again = Uhm… si è verificato un problema durante l�
 intent-payment-error-get-in-touch = Uhm… si è verificato un problema durante l’autorizzazione del pagamento. Contatta l’emittente della carta.
 intent-payment-error-generic = Si è verificato un errore imprevisto durante l’elaborazione del pagamento, riprova.
 intent-payment-error-insufficient-funds = Questa carta non dispone di credito sufficiente. Prova con un’altra carta di credito.
+general-paypal-error = Si è verificato un errore imprevisto durante l’elaborazione del pagamento, riprova.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -132,6 +133,8 @@ page-not-found-back-button = Torna indietro
 subscription-management-breadcrumb-account-home = Pagina principale dell’account
 # Link title - Subscriptions management
 subscription-management-breadcrumb-subscriptions = Abbonamenti
+# Link title - Payment method management
+subscription-management-breadcrumb-payment = Metodi di pagamento
 
 ## Component - Payment Consent Checkbox
 
@@ -186,6 +189,14 @@ payments-header-avatar-expanded-sign-out = Disconnetti
 payments-client-loading-spinner =
     .aria-label = Caricamento…
     .alt = Caricamento…
+
+## Payment method management page - Stripe
+
+# Save button for changing which payment method will be used
+payment-method-management-save-default = Imposta come metodo di pagamento predefinito
+# Save button for saving a new payment method
+payment-method-management-save-method = Salva metodo di pagamento
+manage-stripe-payments-title = Gestisci metodi di pagamento
 
 ## Payment Section
 

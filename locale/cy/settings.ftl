@@ -520,6 +520,12 @@ bento-menu-made-by-mozilla = Gwnaed gan { -brand-mozilla }
 
 connect-another-fx-mobile = Cael { -brand-firefox } ar ffôn symudol neu dabled
 connect-another-find-fx-mobile-2 = Dewch o hyd i { -brand-firefox } yn { -google-play } a'r { -app-store }.
+# Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
+# These images are used to encourage users to download Firefox on their mobile devices.
+connect-another-play-store-image-2 =
+    .alt = Llwytho { -brand-firefox } i lawr ar { -google-play }
+connect-another-app-store-image-3 =
+    .alt = Llwytho { -brand-firefox } i lawr ar yr { -app-store }
 
 ## Connected services section
 
@@ -1463,6 +1469,7 @@ inline-totp-setup-security-code-placeholder = Cod dilysu
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-code-required-error = Mae angen cod dilysu
 tfa-qr-code-alt = Defnyddiwch y cod { $code } i osod dilysiad dau gam mewn rhaglenni sy'n ei gefnogi.
+inline-totp-setup-page-title = Dilysu dau gam
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs

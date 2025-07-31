@@ -60,6 +60,7 @@ intent-payment-error-try-again = Hmm. Bu anhawster wrth  awdurdodi'ch taliad. Rh
 intent-payment-error-get-in-touch = Hmm. Bu anhawster wrth  awdurdodi'ch taliad. Cysylltwch â chyhoeddwr eich cerdyn.
 intent-payment-error-generic = Mae gwall annisgwyl wedi digwydd wrth brosesu'ch taliad, ceisiwch eto.
 intent-payment-error-insufficient-funds = Mae'n edrych fel nad oes gan eich cerdyn ddigon o arian wrth gefn. Rhowch gynnig ar gerdyn arall.
+general-paypal-error = Mae gwall annisgwyl wedi digwydd wrth brosesu'ch taliad, ceisiwch eto.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -132,6 +133,8 @@ page-not-found-back-button = Mynd Nôl
 subscription-management-breadcrumb-account-home = Cartref y Cyfrif
 # Link title - Subscriptions management
 subscription-management-breadcrumb-subscriptions = Tanysgrifiadau
+# Link title - Payment method management
+subscription-management-breadcrumb-payment = Dulliau Talu
 
 ## Component - Payment Consent Checkbox
 
@@ -186,6 +189,14 @@ payments-header-avatar-expanded-sign-out = Allgofnodi
 payments-client-loading-spinner =
     .aria-label = Yn Llwytho…
     .alt = Yn Llwytho…
+
+## Payment method management page - Stripe
+
+# Save button for changing which payment method will be used
+payment-method-management-save-default = Gosod fel dull talu diofyn
+# Save button for saving a new payment method
+payment-method-management-save-method = Arbed dull talu
+manage-stripe-payments-title = Rheoli dulliau talu
 
 ## Payment Section
 

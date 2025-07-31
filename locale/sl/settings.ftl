@@ -514,6 +514,12 @@ bento-menu-made-by-mozilla = Izpod rok { -brand-mozilla(sklon: "rodilnik") }
 
 connect-another-fx-mobile = Prenesite si { -brand-firefox } na telefon ali tablični računalnik
 connect-another-find-fx-mobile-2 = Poiščite { -brand-firefox } v trgovini { -google-play } in { -app-store }.
+# Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
+# These images are used to encourage users to download Firefox on their mobile devices.
+connect-another-play-store-image-2 =
+    .alt = Prenesite { -brand-firefox } iz trgovine { -google-play }
+connect-another-app-store-image-3 =
+    .alt = Prenesite { -brand-firefox } iz trgovine { -app-store }
 
 ## Connected services section
 
@@ -1459,6 +1465,7 @@ inline-totp-setup-security-code-placeholder = Overitvena koda
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-code-required-error = Zahtevana je overitvena koda
 tfa-qr-code-alt = S pomočjo kode { $code } nastavite dvostopenjsko overjanje v podprtih aplikacijah.
+inline-totp-setup-page-title = Overitev v dveh korakih
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs

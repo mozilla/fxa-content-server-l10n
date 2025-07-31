@@ -508,6 +508,12 @@ bento-menu-made-by-mozilla = A { -brand-mozilla } készítette
 
 connect-another-fx-mobile = Töltse le a { -brand-firefox }ot mobilra vagy táblagépre
 connect-another-find-fx-mobile-2 = Keresse meg a { -brand-firefox(case: "accusative") } a { -google-play(case: "inessive") } és az { -app-store(case: "inessive") }.
+# Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
+# These images are used to encourage users to download Firefox on their mobile devices.
+connect-another-play-store-image-2 =
+    .alt = A { -brand-firefox } letöltése a { -google-play(case: "elative") }
+connect-another-app-store-image-3 =
+    .alt = A { -brand-firefox } letöltése az { -app-store(case: "elative") }
 
 ## Connected services section
 
@@ -1453,6 +1459,7 @@ inline-totp-setup-security-code-placeholder = Hitelesítési kód
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-code-required-error = Hitelesítési kód szükséges
 tfa-qr-code-alt = Használja a(z) { $code } kódot a kétlépcsős hitelesítés beállításához a támogatott alkalmazásokban.
+inline-totp-setup-page-title = Kétlépcsős hitelesítés
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
