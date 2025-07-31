@@ -155,12 +155,6 @@ add-secondary-email-save-button = सहेजें
 
 verify-secondary-email-cancel-button = रद्द करें
 
-## Two Step Authentication
-
-tfa-button-cancel = रद्द करें
-tfa-qa-code =
-    .alt = { tfa-qa-code-alt }
-
 ## Product promotion
 
 product-promo-monitor =

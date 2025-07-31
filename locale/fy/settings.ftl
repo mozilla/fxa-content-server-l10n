@@ -1040,46 +1040,6 @@ delete-account-link = Account fuortsmite
 # Success message displayed in alert bar after the user has successfully confirmed their account is not inactive.
 inactive-update-status-success-alert = Mei sukses oanmeld. Jo { -product-mozilla-account } en gegevens bliuwe aktyf.
 
-## Two Step Authentication
-
-tfa-title = Autentikaasje yn twa stappen
-tfa-step-1-3 = Stap 1 fan 3
-tfa-step-2-3 = Stap 2 fan 3
-tfa-step-3-3 = Stap 3 fan 3
-tfa-button-continue = Trochgean
-tfa-button-cancel = Annulearje
-tfa-button-finish = Foltôgje
-tfa-incorrect-totp = Unjildige koade foar autentikaasje yn twa stappen
-tfa-cannot-retrieve-code = Der is in probleem bard by it opheljen fan jo koade.
-tfa-cannot-verify-code-4 = Der is in probleem bard by it befêstigjen fan jo reserve-autentikaasjekoade
-tfa-incorrect-recovery-code-1 = Ferkearde reserve-autentikaasjekoade
-tfa-enabled-v2 = Autentikaasje yn twa stappen is ynskeakele.
-tfa-scan-this-code =
-    Scan dizze QR-koade mei ien fan <linkExternal>dizze 
-    autentikaasje-apps</linkExternal>.
-# This is the image alt text for a QR code.
-# Variables:
-#   $secret (String) - a long alphanumeric string that does not require translation
-# DEV NOTE: Set image alt text per fluent/react documentation, do not use the below as an example
-tfa-qa-code-alt =
-    Brûk de koade { $secret } om autentikaasje yn twa stappen yn
-    stipe tapassingen yn te skeakeljen.
-tfa-qa-code =
-    .alt = { tfa-qa-code-alt }
-tfa-button-cant-scan-qr = Kinne jo de koade net scanne?
-# When the user cannot use a QR code.
-tfa-enter-secret-key = Fier dizze geheime kaai yn yn jo app foar autentikaasje:
-tfa-enter-totp-v2 = Fier no de autentikaasjekoade fan de autentikaasje-app yn.
-tfa-input-enter-totp-v2 =
-    .label = Fier autentikaasjekoade yn
-tfa-save-these-codes-1 =
-    Bewarje dizze reserve-autentikaasjekoaden foar ienmalich gebrûk op in feilich plak foar as
-    jo jo mobile apparaat net hawwe.
-# codes here refers to backup authentication codes
-tfa-enter-code-to-confirm-setup = Befêstigje dat jo jo koaden bewarre hawwe troch der ien yn te fieren. Sûnder dizze koaden kinne jo miskien net oanmelde as jo jo autentikaasje-app net hawwe.
-tfa-enter-recovery-code-1 =
-    .label = Fier in reserve-autentikaasjekoade yn
-
 ## Product promotion
 
 product-promo-monitor =

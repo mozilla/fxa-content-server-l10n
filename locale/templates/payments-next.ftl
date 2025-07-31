@@ -61,6 +61,7 @@ intent-payment-error-try-again = Hmm. There was a problem authorizing your payme
 intent-payment-error-get-in-touch = Hmm. There was a problem authorizing your payment. Get in touch with your card issuer.
 intent-payment-error-generic = An unexpected error has occurred while processing your payment, please try again.
 intent-payment-error-insufficient-funds = It looks like your card has insufficient funds. Try another card.
+general-paypal-error = An unexpected error has occurred while processing your payment, please try again.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -89,8 +90,6 @@ next-payment-confirmation-cc-card-ending-in = Card ending in { $last4 }
 
 ## Layout - Subscription Management
 
-subscription-management-breadcrumb-account-home = Account Home
-subscription-management-breadcrumb-subscriptions = Subscriptions
 subscription-management-account-profile-picture = Account profile picture
 
 ## Page - Subscription Management
@@ -125,6 +124,14 @@ subscription-management-button-manage-subscription = Manage
 page-not-found-title = Page not found
 page-not-found-description = The page you requested was not found. We’ve been notified and will fix any links that may be broken.
 page-not-found-back-button = Go Back
+
+## Navigation breadcrumbs
+# Link title - Account settings
+subscription-management-breadcrumb-account-home = Account Home
+# Link title - Subscriptions management
+subscription-management-breadcrumb-subscriptions = Subscriptions
+# Link title - Payment method management
+subscription-management-breadcrumb-payment = Payment Methods
 
 ## Component - Payment Consent Checkbox
 
@@ -193,6 +200,17 @@ payments-header-avatar-expanded-sign-out = Sign out
 payments-client-loading-spinner =
     .aria-label = Loading…
     .alt = Loading…
+
+## Payment method management page - Stripe
+
+# Save button for changing which payment method will be used
+payment-method-management-save-default = Set as default payment method
+# Save button for saving a new payment method
+payment-method-management-save-method = Save payment method
+
+manage-stripe-payments-title = Manage payment methods
+
+##
 
 ## Payment Section
 

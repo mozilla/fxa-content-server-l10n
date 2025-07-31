@@ -1036,46 +1036,6 @@ delete-account-link = Ta bort konto
 # Success message displayed in alert bar after the user has successfully confirmed their account is not inactive.
 inactive-update-status-success-alert = Inloggad. Ditt { -product-mozilla-account } och data förblir aktiva.
 
-## Two Step Authentication
-
-tfa-title = Tvåstegsautentisering
-tfa-step-1-3 = Steg 1 av 3
-tfa-step-2-3 = Steg 2 av 3
-tfa-step-3-3 = Steg 3 av 3
-tfa-button-continue = Fortsätt
-tfa-button-cancel = Avbryt
-tfa-button-finish = Slutför
-tfa-incorrect-totp = Felaktig tvåstegsautentiseringskod
-tfa-cannot-retrieve-code = Det gick inte att hämta din kod.
-tfa-cannot-verify-code-4 = Det uppstod ett problem med att bekräfta din reservautentiseringskod
-tfa-incorrect-recovery-code-1 = Felaktig reservautentiseringskod
-tfa-enabled-v2 = Tvåstegsautentisering har aktiverats
-tfa-scan-this-code =
-    Skanna den här QR-koden med en av dessa
-    <linkExternal>autentiseringsappar</linkExternal>.
-# This is the image alt text for a QR code.
-# Variables:
-#   $secret (String) - a long alphanumeric string that does not require translation
-# DEV NOTE: Set image alt text per fluent/react documentation, do not use the below as an example
-tfa-qa-code-alt =
-    Använd koden { $secret } för att ställa in tvåstegsautentisering i
-    applikationer som stöds.
-tfa-qa-code =
-    .alt = { tfa-qa-code-alt }
-tfa-button-cant-scan-qr = Kan du inte skanna koden?
-# When the user cannot use a QR code.
-tfa-enter-secret-key = Ange den här hemliga nyckeln i din autentiseringsapp:
-tfa-enter-totp-v2 = Ange autentiseringskoden från autentiseringsappen.
-tfa-input-enter-totp-v2 =
-    .label = Ange autentiseringskod
-tfa-save-these-codes-1 =
-    Spara dessa reservautentiseringskoder för engångsbruk på en säker plats
-    när du inte har din mobila enhet.
-# codes here refers to backup authentication codes
-tfa-enter-code-to-confirm-setup = Bekräfta att du sparat dina koder genom att ange en. Utan dessa koder kanske du inte kan logga in om du inte har din autentiseringsapp.
-tfa-enter-recovery-code-1 =
-    .label = Ange en reservautentiseringskod
-
 ## Product promotion
 
 product-promo-monitor =
