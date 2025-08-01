@@ -514,6 +514,12 @@ bento-menu-made-by-mozilla = Wót { -brand-mozilla } wuwity
 
 connect-another-fx-mobile = Wobstarajśo se { -brand-firefox } za mobilny telefon abo tablet
 connect-another-find-fx-mobile-2 = { -brand-firefox } w { -google-play } a { -app-store } namakaś.
+# Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
+# These images are used to encourage users to download Firefox on their mobile devices.
+connect-another-play-store-image-2 =
+    .alt = Ześěgniśo { -brand-firefox } wót { -google-play }
+connect-another-app-store-image-3 =
+    .alt = Ześěgniśo { -brand-firefox } wót { -app-store }
 
 ## Connected services section
 
@@ -1461,6 +1467,7 @@ inline-totp-setup-security-code-placeholder = Awtentificěrowański kod
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-code-required-error = Awtentifikaciski kod trjebny
 tfa-qr-code-alt = Wužywajśo kod { $code }, aby zarědował dwukšacowu awtentifikaciju w pódpěranych nałoženjach.
+inline-totp-setup-page-title = Dwójokšacowa awtentifikacija
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs

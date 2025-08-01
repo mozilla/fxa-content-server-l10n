@@ -63,6 +63,7 @@ intent-payment-error-try-again = Hmm. Pśi awtorizěrowanju wašogo płaśenja j
 intent-payment-error-get-in-touch = Hmm. Pśi awtorizěrowanju wašogo płaśenja jo problem nastał. Stajśo se z wudawarjom swójeje kórty do zwiska.
 intent-payment-error-generic = Pśi pśeźěłowanju wašogo płaśenja jo njewótcakana zmólka nastała, pšosym wopytajśo hyšći raz.
 intent-payment-error-insufficient-funds = Zda se, ako by waša kórta njedosegajucy kontowy plus měła. Wopytajśo drugu kórtu.
+general-paypal-error = Pśi pśeźěłowanju wašogo płaśenja jo njewótcakana zmólka nastała, pšosym wopytajśo hyšći raz.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -135,6 +136,8 @@ page-not-found-back-button = Slědk
 subscription-management-breadcrumb-account-home = Startowy bok konta
 # Link title - Subscriptions management
 subscription-management-breadcrumb-subscriptions = Abonementy
+# Link title - Payment method management
+subscription-management-breadcrumb-payment = Płaśeńske metody
 
 ## Component - Payment Consent Checkbox
 
@@ -189,6 +192,14 @@ payments-header-avatar-expanded-sign-out = Wótzjawiś
 payments-client-loading-spinner =
     .aria-label = Zacytujo se…
     .alt = Zacytujo se…
+
+## Payment method management page - Stripe
+
+# Save button for changing which payment method will be used
+payment-method-management-save-default = Ako standardnu płaśeńsku metodu nastajiś
+# Save button for saving a new payment method
+payment-method-management-save-method = Płaśeńsku metodu składowaś
+manage-stripe-payments-title = Płaśeńske metody zastojaś
 
 ## Payment Section
 
