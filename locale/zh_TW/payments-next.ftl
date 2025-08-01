@@ -60,6 +60,7 @@ intent-payment-error-try-again = 取得款項授權時發生問題，請再試�
 intent-payment-error-get-in-touch = 取得款項授權時發生問題，請與您的發卡單位聯繫。
 intent-payment-error-generic = 處理付款時發生未知錯誤，請再試一次。
 intent-payment-error-insufficient-funds = 您的卡片額度不足，請改用其他卡片。
+general-paypal-error = 處理付款時發生未知錯誤，請再試一次。
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -132,6 +133,8 @@ page-not-found-back-button = 回上一頁
 subscription-management-breadcrumb-account-home = 帳號首頁
 # Link title - Subscriptions management
 subscription-management-breadcrumb-subscriptions = 訂閱
+# Link title - Payment method management
+subscription-management-breadcrumb-payment = 付款方式
 
 ## Component - Payment Consent Checkbox
 
@@ -186,6 +189,14 @@ payments-header-avatar-expanded-sign-out = 登出
 payments-client-loading-spinner =
     .aria-label = 載入中…
     .alt = 載入中…
+
+## Payment method management page - Stripe
+
+# Save button for changing which payment method will be used
+payment-method-management-save-default = 設為預設付款方式
+# Save button for saving a new payment method
+payment-method-management-save-method = 儲存付款方式
+manage-stripe-payments-title = 管理付款方式
 
 ## Payment Section
 
