@@ -194,6 +194,9 @@ payments-client-loading-spinner =
 
 # Save button for changing which payment method will be used
 payment-method-management-save-default = Angi som standard betalingsmåte
+# Save button for saving a new payment method
+payment-method-management-save-method = Lagre betalingsmåte
+manage-stripe-payments-title = Behandle betalingsmåter
 
 ## Payment Section
 

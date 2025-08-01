@@ -508,6 +508,12 @@ bento-menu-made-by-mozilla = Utviklet av { -brand-mozilla }
 
 connect-another-fx-mobile = Få { -brand-firefox } på mobil eller nettbrett
 connect-another-find-fx-mobile-2 = Finn { -brand-firefox } i { -google-play } og { -app-store }.
+# Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
+# These images are used to encourage users to download Firefox on their mobile devices.
+connect-another-play-store-image-2 =
+    .alt = Last ned { -brand-firefox } på { -google-play }
+connect-another-app-store-image-3 =
+    .alt = Last ned { -brand-firefox } på { -app-store }
 
 ## Connected services section
 
@@ -1437,6 +1443,7 @@ inline-totp-setup-security-code-placeholder = Autentiseringskode
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-code-required-error = Autentiseringskode kreves
 tfa-qr-code-alt = Bruk koden { $code } for å sette opp totrinns-autentisering i støttede apper.
+inline-totp-setup-page-title = Totrinns-autentisering
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
@@ -1955,7 +1962,7 @@ confirm-signup-code-desktop-relay = { -brand-firefox } vil prøve å sende deg t
 signup-heading-v2 = Opprett et passord
 signup-relay-info = Et passord er nødvendig for å administrere e-postalias på en sikker måte og få tilgang til sikkerhetsverktøyene til { -brand-mozilla }.
 signup-sync-info = Synkroniser passordene, bokmerkene og mer overalt hvor du bruker { -brand-firefox }.
-signup-sync-info-with-payment = Synkroniser passordene, betalingsmetoder, bokmerkene og mer overalt hvor du bruker { -brand-firefox }.
+signup-sync-info-with-payment = Synkroniser passordene, betalingsmåter, bokmerkene og mer overalt hvor du bruker { -brand-firefox }.
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = Hvorfor må jeg opprette denne kontoen?
 # Link included in a dismissible info banner that is only displayed to Pocket clients
@@ -1971,7 +1978,7 @@ signup-confirmed-sync-header = Synkronisering er slått på
 signup-confirmed-sync-success-banner = { -product-mozilla-account } bekreftet
 signup-confirmed-sync-button = Begynn å surfe
 # Shown when payment methods are also synced
-signup-confirmed-sync-description-with-payment-v2 = Passordene dine, betalingsmetodene, adressene, bokmerkene, historikken din og mer kan synkroniseres overalt hvor du bruker { -brand-firefox }.
+signup-confirmed-sync-description-with-payment-v2 = Passordene dine, betalingsmåtene, adressene, bokmerkene, historikken din og mer kan synkroniseres overalt hvor du bruker { -brand-firefox }.
 signup-confirmed-sync-description-v2 = Passordene, adressene, bokmerkene, historikken og mer kan synkroniseres overalt hvor du bruker { -brand-firefox }.
 signup-confirmed-sync-add-device-link = Legg til en annen enhet
 signup-confirmed-sync-manage-sync-button = Behandle synkronisering
