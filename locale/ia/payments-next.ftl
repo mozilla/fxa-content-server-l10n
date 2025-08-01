@@ -60,6 +60,7 @@ intent-payment-error-try-again = Hmm. Il habeva un problema durante le autorisat
 intent-payment-error-get-in-touch = Hmm. Il habeva un problema durante le autorisation de tu pagamento. Contacta tu emissor de carta.
 intent-payment-error-generic = Un error impreviste ha occurrite durante le elaboration de tu pagamento, reproba.
 intent-payment-error-insufficient-funds = Il pare que tu carta ha credito insufficiente. Prova un altere carta.
+general-paypal-error = Un error impreviste occurreva elaborante tu pagamento, retenta.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -132,6 +133,8 @@ page-not-found-back-button = Retornar
 subscription-management-breadcrumb-account-home = Pagina principal del conto
 # Link title - Subscriptions management
 subscription-management-breadcrumb-subscriptions = Subscriptiones
+# Link title - Payment method management
+subscription-management-breadcrumb-payment = Methodos de pagamento
 
 ## Component - Payment Consent Checkbox
 
@@ -186,6 +189,14 @@ payments-header-avatar-expanded-sign-out = Clauder session
 payments-client-loading-spinner =
     .aria-label = Cargante…
     .alt = Cargante…
+
+## Payment method management page - Stripe
+
+# Save button for changing which payment method will be used
+payment-method-management-save-default = Predefinir le methodo de pagamento
+# Save button for saving a new payment method
+payment-method-management-save-method = Salvar methodo de pagamento
+manage-stripe-payments-title = Gerer methodos de pagamento
 
 ## Payment Section
 
