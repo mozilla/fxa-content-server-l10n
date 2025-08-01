@@ -193,9 +193,9 @@ payments-client-loading-spinner =
 ## Payment method management page - Stripe
 
 # Save button for changing which payment method will be used
-payment-method-management-save-default = Définir comme mode de paiement par défaut
+payment-method-management-save-default = Définir comme moyen de paiement par défaut
 # Save button for saving a new payment method
-payment-method-management-save-method = Enregistrer le mode de paiement
+payment-method-management-save-method = Enregistrer le moyen de paiement
 manage-stripe-payments-title = Gérer les moyens de paiement
 
 ## Payment Section
