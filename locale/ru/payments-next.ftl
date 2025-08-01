@@ -60,6 +60,7 @@ intent-payment-error-try-again = Хм. При авторизации плате�
 intent-payment-error-get-in-touch = Хм. При авторизации платежа произошла ошибка. Свяжитесь с издателем вашей карты.
 intent-payment-error-generic = При обработке платежа произошла непредвиденная ошибка. Повторите попытку.
 intent-payment-error-insufficient-funds = Похоже, на вашей карте недостаточно средств. Попробуйте другую карту.
+general-paypal-error = При обработке платежа произошла непредвиденная ошибка. Повторите попытку.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -132,6 +133,8 @@ page-not-found-back-button = Вернуться назад
 subscription-management-breadcrumb-account-home = Домашняя страница аккаунта
 # Link title - Subscriptions management
 subscription-management-breadcrumb-subscriptions = Подписки
+# Link title - Payment method management
+subscription-management-breadcrumb-payment = Способы оплаты
 
 ## Component - Payment Consent Checkbox
 
@@ -186,6 +189,14 @@ payments-header-avatar-expanded-sign-out = Выйти
 payments-client-loading-spinner =
     .aria-label = Загрузка…
     .alt = Загрузка…
+
+## Payment method management page - Stripe
+
+# Save button for changing which payment method will be used
+payment-method-management-save-default = Установить как способ оплаты по умолчанию
+# Save button for saving a new payment method
+payment-method-management-save-method = Сохранить способ оплаты
+manage-stripe-payments-title = Управление способами оплаты
 
 ## Payment Section
 
