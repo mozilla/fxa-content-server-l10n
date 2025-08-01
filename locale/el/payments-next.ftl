@@ -60,6 +60,7 @@ intent-payment-error-try-again = Προέκυψε πρόβλημα κατά τη
 intent-payment-error-get-in-touch = Προέκυψε πρόβλημα κατά την έγκριση της πληρωμής σας. Επικοινωνήστε με τον εκδότη της κάρτας σας.
 intent-payment-error-generic = Προέκυψε μη αναμενόμενο σφάλμα κατά την επεξεργασία της πληρωμής σας. Δοκιμάστε ξανά.
 intent-payment-error-insufficient-funds = Φαίνεται πως η κάρτα σας δεν διαθέτει επαρκή χρήματα. Δοκιμάστε μια άλλη κάρτα.
+general-paypal-error = Προέκυψε μη αναμενόμενο σφάλμα κατά την επεξεργασία της πληρωμής σας. Δοκιμάστε ξανά.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -132,6 +133,8 @@ page-not-found-back-button = Επιστροφή
 subscription-management-breadcrumb-account-home = Αρχική σελίδα λογαριασμού
 # Link title - Subscriptions management
 subscription-management-breadcrumb-subscriptions = Συνδρομές
+# Link title - Payment method management
+subscription-management-breadcrumb-payment = Μέθοδοι πληρωμής
 
 ## Component - Payment Consent Checkbox
 
@@ -186,6 +189,14 @@ payments-header-avatar-expanded-sign-out = Αποσύνδεση
 payments-client-loading-spinner =
     .aria-label = Φόρτωση…
     .alt = Φόρτωση…
+
+## Payment method management page - Stripe
+
+# Save button for changing which payment method will be used
+payment-method-management-save-default = Ορισμός ως προεπιλεγμένη μέθοδος πληρωμής
+# Save button for saving a new payment method
+payment-method-management-save-method = Αποθήκευση μεθόδου πληρωμής
+manage-stripe-payments-title = Διαχείριση μεθόδων πληρωμής
 
 ## Payment Section
 

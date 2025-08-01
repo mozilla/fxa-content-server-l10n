@@ -508,6 +508,12 @@ bento-menu-made-by-mozilla = Από τη { -brand-mozilla }
 
 connect-another-fx-mobile = Αποκτήστε το { -brand-firefox } για κινητά ή tablet
 connect-another-find-fx-mobile-2 = Βρείτε το { -brand-firefox } στο { -google-play } και το { -app-store }.
+# Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
+# These images are used to encourage users to download Firefox on their mobile devices.
+connect-another-play-store-image-2 =
+    .alt = Λήψη του { -brand-firefox } στο { -google-play }
+connect-another-app-store-image-3 =
+    .alt = Λήψη του { -brand-firefox } στο { -app-store }
 
 ## Connected services section
 
@@ -1454,6 +1460,7 @@ inline-totp-setup-security-code-placeholder = Κωδικός ταυτοποίη�
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-code-required-error = Απαιτείται κωδικός ταυτοποίησης
 tfa-qr-code-alt = Χρησιμοποιήστε τον κωδικό { $code } για να ρυθμίσετε την ταυτοποίηση δύο παραγόντων στις υποστηριζόμενες εφαρμογές.
+inline-totp-setup-page-title = Ταυτοποίηση δύο παραγόντων
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
