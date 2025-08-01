@@ -195,7 +195,7 @@ payments-client-loading-spinner =
 ## Payment method management page - Stripe
 
 # Save button for changing which payment method will be used
-payment-method-management-save-default = Alapértelmezett fizetési mód beállítása
+payment-method-management-save-default = Beállítás alapértelmezett fizetési módként
 # Save button for saving a new payment method
 payment-method-management-save-method = Fizetési mód mentése
 manage-stripe-payments-title = Fizetési módok kezelése
