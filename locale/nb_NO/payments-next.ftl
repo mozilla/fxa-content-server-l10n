@@ -60,6 +60,7 @@ intent-payment-error-try-again = Hmm. Det oppstod et problem med å godkjenne be
 intent-payment-error-get-in-touch = Hmm. Det oppstod et problem med å godkjenne betalingen din. Ta kontakt med kortutstederen din.
 intent-payment-error-generic = Det oppstod en uventet feil under behandlingen av betalingen. Prøv igjen.
 intent-payment-error-insufficient-funds = Det ser ut som om kortet ditt ikke har tilstrekkelig med penger. Prøv et annet kort.
+general-paypal-error = Det oppstod en uventet feil under behandlingen av betalingen. Prøv igjen.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -132,6 +133,8 @@ page-not-found-back-button = Gå tilbake
 subscription-management-breadcrumb-account-home = Startside for kontoen
 # Link title - Subscriptions management
 subscription-management-breadcrumb-subscriptions = Abonnementer
+# Link title - Payment method management
+subscription-management-breadcrumb-payment = Betalingsmåter
 
 ## Component - Payment Consent Checkbox
 
@@ -186,6 +189,11 @@ payments-header-avatar-expanded-sign-out = Logg ut
 payments-client-loading-spinner =
     .aria-label = Laster …
     .alt = Laster …
+
+## Payment method management page - Stripe
+
+# Save button for changing which payment method will be used
+payment-method-management-save-default = Angi som standard betalingsmåte
 
 ## Payment Section
 
