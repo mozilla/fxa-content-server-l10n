@@ -60,6 +60,7 @@ intent-payment-error-try-again = Hmm. Đã xảy ra sự cố khi cho phép than
 intent-payment-error-get-in-touch = Hmm. Đã xảy ra sự cố khi cho phép thanh toán của bạn. Hãy liên lạc với công ty phát hành thẻ của bạn.
 intent-payment-error-generic = Đã xảy ra lỗi không mong muốn khi xử lý thanh toán của bạn, vui lòng thử lại.
 intent-payment-error-insufficient-funds = Có vẻ như thẻ của bạn không đủ tiền. Hãy thử một thẻ khác.
+general-paypal-error = Đã xảy ra lỗi không mong muốn khi xử lý thanh toán của bạn, vui lòng thử lại.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -132,6 +133,8 @@ page-not-found-back-button = Quay lại
 subscription-management-breadcrumb-account-home = Trang chủ tài khoản
 # Link title - Subscriptions management
 subscription-management-breadcrumb-subscriptions = Gói đăng ký
+# Link title - Payment method management
+subscription-management-breadcrumb-payment = Phương thức thanh toán
 
 ## Component - Payment Consent Checkbox
 
@@ -186,6 +189,14 @@ payments-header-avatar-expanded-sign-out = Đăng xuất
 payments-client-loading-spinner =
     .aria-label = Đang tải…
     .alt = Đang tải…
+
+## Payment method management page - Stripe
+
+# Save button for changing which payment method will be used
+payment-method-management-save-default = Đặt làm phương thức thanh toán mặc định
+# Save button for saving a new payment method
+payment-method-management-save-method = Lưu phương thức thanh toán
+manage-stripe-payments-title = Quản lý phương thức thanh toán
 
 ## Payment Section
 

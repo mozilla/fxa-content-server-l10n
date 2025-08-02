@@ -496,6 +496,12 @@ bento-menu-made-by-mozilla = Được tạo bởi { -brand-mozilla }
 
 connect-another-fx-mobile = Tải xuống { -brand-firefox } trên điện thoại di động hoặc máy tính bảng
 connect-another-find-fx-mobile-2 = Tìm kiếm { -brand-firefox } trong { -google-play } và { -app-store }.
+# Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
+# These images are used to encourage users to download Firefox on their mobile devices.
+connect-another-play-store-image-2 =
+    .alt = Tải xuống { -brand-firefox } trên { -google-play }
+connect-another-app-store-image-3 =
+    .alt = Tải xuống { -brand-firefox } trên { -app-store }
 
 ## Connected services section
 
@@ -1429,6 +1435,7 @@ inline-totp-setup-security-code-placeholder = Mã xác thực
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-code-required-error = Yêu cầu mã xác thực
 tfa-qr-code-alt = Sử dụng mã { $code } để thiết lập xác thực hai bước trong các ứng dụng được hỗ trợ.
+inline-totp-setup-page-title = Xác thực hai bước
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
