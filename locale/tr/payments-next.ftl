@@ -60,6 +60,7 @@ intent-payment-error-try-again = Ödemeniz onaylanırken bir sorun oluştu. Tekr
 intent-payment-error-get-in-touch = Ödemeniz onaylanırken bir sorun oluştu. Kartınızı veren kuruluşla iletişime geçin.
 intent-payment-error-generic = Ödemeniz işlenirken beklenmedik bir hata oluştu, lütfen yeniden deneyin.
 intent-payment-error-insufficient-funds = Kartınızda yeterli bakiye yok gibi görünüyor. Başka bir kart deneyin.
+general-paypal-error = Ödemeniz işlenirken beklenmedik bir hata oluştu, lütfen yeniden deneyin.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -132,6 +133,8 @@ page-not-found-back-button = Geri dön
 subscription-management-breadcrumb-account-home = Hesap ana sayfası
 # Link title - Subscriptions management
 subscription-management-breadcrumb-subscriptions = Abonelikler
+# Link title - Payment method management
+subscription-management-breadcrumb-payment = Ödeme yöntemleri
 
 ## Component - Payment Consent Checkbox
 
@@ -186,6 +189,14 @@ payments-header-avatar-expanded-sign-out = Çıkış yap
 payments-client-loading-spinner =
     .aria-label = Yükleniyor…
     .alt = Yükleniyor…
+
+## Payment method management page - Stripe
+
+# Save button for changing which payment method will be used
+payment-method-management-save-default = Varsayılan ödeme yöntemi yap
+# Save button for saving a new payment method
+payment-method-management-save-method = Ödeme yöntemini kaydet
+manage-stripe-payments-title = Ödeme yöntemlerini yönet
 
 ## Payment Section
 

@@ -508,6 +508,12 @@ bento-menu-made-by-mozilla = { -brand-mozilla } güvencesiyle
 
 connect-another-fx-mobile = { -brand-firefox }’u mobil cihazınıza veya tabletinize indirin
 connect-another-find-fx-mobile-2 = { -brand-firefox } tarayıcısını { -google-play } ve { -app-store }’da bulabilirsiniz.
+# Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
+# These images are used to encourage users to download Firefox on their mobile devices.
+connect-another-play-store-image-2 =
+    .alt = { -brand-firefox }’u { -google-play }’den indir
+connect-another-app-store-image-3 =
+    .alt = { -brand-firefox }’u { -app-store }’dan indir
 
 ## Connected services section
 
@@ -1436,6 +1442,7 @@ inline-totp-setup-security-code-placeholder = Kimlik doğrulama kodu
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-code-required-error = Kimlik doğrulama kodu gerekli
 tfa-qr-code-alt = Desteklenen uygulamalarda iki aşamalı doğrulamayı kurmak için { $code } kodunu kullanın.
+inline-totp-setup-page-title = İki aşamalı doğrulama
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
