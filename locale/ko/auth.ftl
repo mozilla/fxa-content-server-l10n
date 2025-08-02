@@ -230,6 +230,7 @@ subscriptionCharges-content-tax = 세금 및 수수료: { $invoiceTaxAmount }
 ##  $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
 ##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
 
+subscriptionFirstInvoice-content-total-due = { $invoiceDateOnly }에 { $invoiceAmountDue }이 청구됩니다
 subscriptionFirstInvoice-content-credit = { $invoiceTotal }의 계정 크레딧을 받았습니다. 이는 향후 청구서에 적용됩니다.
 
 ##
@@ -655,6 +656,8 @@ subscriptionReplaced-subject = 업그레이드의 일부로 구독이 업데이�
 subscriptionReplaced-title = 구독 정보가 업데이트 되었습니다.
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReplaced-content-replaced = 개별 { $productName } 구독이 대체되었으며 이제 새 번들에 포함되었습니다.
+subscriptionReplaced-content-credit = 이전 구독에서 사용하지 않은 시간에 대한 크레딧을 받게 됩니다. 이 크레딧은 자동으로 계정에 적용되며 향후 청구에 사용됩니다.
+subscriptionReplaced-content-no-action = 별도의 조치가 필요하지 않습니다.
 subscriptionsPaymentExpired-subject-1 = 결제용 신용 카드 만료 혹은 만료 예정
 subscriptionsPaymentExpired-title-1 = 신용카드가 만료되었거나 곧 만료될 예정입니다.
 subscriptionsPaymentExpired-content-1 = 다음 구독에 대한 결제에 사용 중인 신용 카드가 만료되었거나 곧 만료됩니다.
@@ -676,6 +679,10 @@ subscriptionSubsequentInvoice-content-next-invoice = 다음 청구일자: { $nex
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = { $productName }로 업그레이드 완료
 subscriptionUpgrade-title = 업그레이드 해주셔서 감사합니다!
+# Variables:
+# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
+# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-upgrade-info-2 = { $productName }으로 성공적으로 업그레이드했습니다.
 
 ## Variables:
 ## $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
@@ -685,6 +692,9 @@ subscriptionUpgrade-title = 업그레이드 해주셔서 감사합니다!
 ## $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
+# Variables:
+# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-existing = 기존 구독이 이번 업그레이드와 중복되는 경우, 이를 처리하여 세부 사항이 담긴 별도의 이메일을 보내드립니다. 새 요금제에 설치가 필요한 제품이 포함 된 경우 설정 지침이 포함된 별도의 이메일을 보내드립니다.
 subscriptionUpgrade-auto-renew = 취소를 선택하지 않는 한 구독은 각 청구 기간을 자동으로 갱신합니다.
 unblockCode-subject = 계정 인증 코드
 unblockCode-title = 로그인하신 게 맞나요?
