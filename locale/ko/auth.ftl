@@ -692,6 +692,9 @@ subscriptionUpgrade-upgrade-info-2 = { $productName }으로 성공적으로 업�
 ## $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
+subscriptionUpgrade-content-charge-prorated-1 = 이 결제 기간의 나머지 기간 동안({ $productPaymentCycleOld }) 더 높은 구독 가격을 반영하기 위해 { $invoiceAmountDue }의 일회성 수수료가 청구되었습니다.
+subscriptionUpgrade-content-charge-credit = { $paymentProrated }의 계정 크레딧을 받았습니다.
+subscriptionUpgrade-content-starting = 다음 청구서부터 청구 금액이 { $productPaymentCycleOld } 당 { $paymentAmountOld }에서 { $productPaymentCycleNew } 당 { $paymentAmountNew }으로 변경됩니다.
 # Variables:
 # $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-existing = 기존 구독이 이번 업그레이드와 중복되는 경우, 이를 처리하여 세부 사항이 담긴 별도의 이메일을 보내드립니다. 새 요금제에 설치가 필요한 제품이 포함 된 경우 설정 지침이 포함된 별도의 이메일을 보내드립니다.

@@ -54,11 +54,13 @@ cart-total-mismatch-error = 송장 금액이 변경되었습니다. 다시 시�
 
 ## Error pages - Payment method failure messages
 
+intent-card-error = 거래를 처리할 수 없습니다. 신용 카드 정보를 확인한 후 다시 시도하세요.
 intent-expired-card-error = 신용 카드 유효 기간이 만료된 것 같습니다. 다른 카드를 사용해보세요.
 intent-payment-error-try-again = 결제를 승인하는 동안 문제가 발생했습니다. 다시 시도하거나 카드사에 연락하세요.
 intent-payment-error-get-in-touch = 결제를 승인하는 동안 문제가 발생했습니다. 카드사에 연락하세요.
 intent-payment-error-generic = 결제를 처리하는 동안 예기치 않은 오류가 발생했습니다. 다시 시도하십시오.
 intent-payment-error-insufficient-funds = 카드 잔액이 부족한 것 같습니다. 다른 카드를 사용해보세요.
+general-paypal-error = 결제를 처리하는 동안 예기치 않은 오류가 발생했습니다. 다시 시도하십시오.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -113,6 +115,8 @@ subscription-management-your-apple-iap-subscriptions-aria = { -brand-apple } 앱
 subscription-management-apple-in-app-purchase = { -brand-apple }: 앱 내 구매
 subscription-management-your-google-iap-subscriptions-aria = { -brand-google } 앱 내부 구독
 subscription-management-google-in-app-purchase = { -brand-google }: 앱 내 구매
+# $date (String) - Date of next bill
+subscription-management-iap-sub-next-bill = 다음 청구일: { $date }
 # $date (String) - Date of In-App purchase expires
 subscription-management-iap-sub-expires-on = { $date }에 만료
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -129,6 +133,8 @@ page-not-found-back-button = 뒤로 가기
 subscription-management-breadcrumb-account-home = 계정 홈
 # Link title - Subscriptions management
 subscription-management-breadcrumb-subscriptions = 구독
+# Link title - Payment method management
+subscription-management-breadcrumb-payment = 결제 방법
 
 ## Component - Payment Consent Checkbox
 
@@ -184,6 +190,13 @@ payments-client-loading-spinner =
     .aria-label = 읽는 중…
     .alt = 읽는 중…
 
+## Payment method management page - Stripe
+
+# Save button for changing which payment method will be used
+payment-method-management-save-default = 기본 결제 방법으로 설정
+# Save button for saving a new payment method
+payment-method-management-save-method = 결제 방법 저장
+
 ## Payment Section
 
 next-new-user-card-title = 카드 정보를 입력하세요.
@@ -194,6 +207,13 @@ next-plan-details-header = 제품 세부 정보
 next-plan-details-list-price = 정가
 next-plan-details-tax = 세금 및 수수료
 next-plan-details-total-label = 전체
+# "Unused time" refers to the remaining value of the current subscription that hasn't been used yet
+purchase-details-unused-time-label = 사용하지 않은 시간부터 크레딧
+purchase-details-subtotal-label = 소계
+# "Credit applied" refers to account credit used to reduce the amount due on the invoice
+purchase-details-credit-applied-label = 크레딧 적용됨
+# "Total due" is the total that the customer owes after all credits, discounts, and taxes have been applied
+purchase-details-total-due-label = 총 결제 기한
 next-plan-details-hide-button = 상세 내용 숨기기
 next-plan-details-show-button = 상세 정보 보기
 next-coupon-success = 요금제는 정가로 자동 갱신됩니다.

@@ -49,6 +49,7 @@
 -brand-google = Google
 -brand-paypal = PayPal
 -brand-name-stripe = Stripe
+-brand-amex = 아메리칸 익스프레스
 -brand-diners = 다이너스 클럽
 -brand-discover = 디스커버 카드
 -brand-jcb = JCB
