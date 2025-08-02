@@ -60,6 +60,7 @@ intent-payment-error-try-again = Hmm. Pri autorizácii vašej platby sa vyskytol
 intent-payment-error-get-in-touch = Hmm. Pri autorizácii vašej platby sa vyskytol problém. Obráťte sa na vydavateľa karty.
 intent-payment-error-generic = Počas spracovania platby došlo k neočakávanej chybe, skúste to znova.
 intent-payment-error-insufficient-funds = Zdá sa, že nemáte dostatok finančných prostriedkov. Skúste inú kartu.
+general-paypal-error = Počas spracovania platby došlo k neočakávanej chybe, skúste to znova.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -132,6 +133,8 @@ page-not-found-back-button = Prejsť naspäť
 subscription-management-breadcrumb-account-home = Domovská stránka účtu
 # Link title - Subscriptions management
 subscription-management-breadcrumb-subscriptions = Predplatné
+# Link title - Payment method management
+subscription-management-breadcrumb-payment = Spôsoby platby
 
 ## Component - Payment Consent Checkbox
 
@@ -186,6 +189,14 @@ payments-header-avatar-expanded-sign-out = Odhlásiť sa
 payments-client-loading-spinner =
     .aria-label = Načítava sa…
     .alt = Načítava sa…
+
+## Payment method management page - Stripe
+
+# Save button for changing which payment method will be used
+payment-method-management-save-default = Nastaviť ako predvolený spôsob platby
+# Save button for saving a new payment method
+payment-method-management-save-method = Uložiť spôsob platby
+manage-stripe-payments-title = Spravovať spôsoby platby
 
 ## Payment Section
 

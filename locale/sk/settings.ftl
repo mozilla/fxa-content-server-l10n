@@ -514,6 +514,12 @@ bento-menu-made-by-mozilla = Od spoločnosti { -brand-mozilla }
 
 connect-another-fx-mobile = Získajte { -brand-firefox } pre mobilné zariadenia
 connect-another-find-fx-mobile-2 = Nájdite { -brand-firefox } v { -google-play } a { -app-store }.
+# Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
+# These images are used to encourage users to download Firefox on their mobile devices.
+connect-another-play-store-image-2 =
+    .alt = Stiahnite si { -brand-firefox } na { -google-play }
+connect-another-app-store-image-3 =
+    .alt = Stiahnite si { -brand-firefox } z { -app-store }
 
 ## Connected services section
 
@@ -1454,6 +1460,7 @@ inline-totp-setup-security-code-placeholder = Overovací kód
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-code-required-error = Vyžaduje sa overovací kód
 tfa-qr-code-alt = Pomocou kódu { $code } nastavte dvojstupňové overenie v podporovaných aplikáciách.
+inline-totp-setup-page-title = Dvojstupňové overenie
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
