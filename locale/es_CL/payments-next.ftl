@@ -60,6 +60,7 @@ intent-payment-error-try-again = Hmm. Hubo un problema al autorizar tu pago. Vue
 intent-payment-error-get-in-touch = Hmm. Hubo un problema al autorizar tu pago. Ponte en contacto con el emisor de tu tarjeta.
 intent-payment-error-generic = Ha ocurrido un error inesperado mientras se procesaba tu pago, por favor vuelve a intentarlo.
 intent-payment-error-insufficient-funds = Parece que tu tarjeta de crédito no tiene suficientes fondos. Prueba con otra.
+general-paypal-error = Ha ocurrido un error inesperado mientras se procesaba tu pago, por favor vuelve a intentarlo.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -110,6 +111,9 @@ subscription-management-your-subscriptions-aria = Tus suscripciones
 subscription-management-no-subscriptions = Todavía no tienes suscripciones.
 subscription-management-button-cancel-subscription-aria = Cancelar suscripción
 subscription-management-button-cancel-subscription = Cancelar
+subscription-management-your-apple-iap-subscriptions-aria = Tus suscripciones dentro de la aplicación { -brand-apple }
+subscription-management-apple-in-app-purchase = { -brand-apple }: Compra desde la aplicación
+subscription-management-your-google-iap-subscriptions-aria = Tus suscripciones dentro de la aplicación { -brand-google }
 subscription-management-google-in-app-purchase = { -brand-google }: Compra desde la aplicación
 # $date (String) - Date of next bill
 subscription-management-iap-sub-next-bill = Próxima facturación el { $date }
@@ -129,6 +133,8 @@ page-not-found-back-button = Retroceder
 subscription-management-breadcrumb-account-home = Inicio de la cuenta
 # Link title - Subscriptions management
 subscription-management-breadcrumb-subscriptions = Suscripciones
+# Link title - Payment method management
+subscription-management-breadcrumb-payment = Métodos de pago
 
 ## Component - Payment Consent Checkbox
 
@@ -183,6 +189,14 @@ payments-header-avatar-expanded-sign-out = Salir
 payments-client-loading-spinner =
     .aria-label = Cargando…
     .alt = Cargando…
+
+## Payment method management page - Stripe
+
+# Save button for changing which payment method will be used
+payment-method-management-save-default = Establecer como método de pago predeterminado
+# Save button for saving a new payment method
+payment-method-management-save-method = Guardar método de pago
+manage-stripe-payments-title = Administrar métodos de pago
 
 ## Payment Section
 

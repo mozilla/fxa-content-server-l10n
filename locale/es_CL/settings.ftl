@@ -508,6 +508,12 @@ bento-menu-made-by-mozilla = Hecho por { -brand-mozilla }
 
 connect-another-fx-mobile = Obtener { -brand-firefox } en tu celular o tablet
 connect-another-find-fx-mobile-2 = Busca { -brand-firefox } en { -google-play } y { -app-store }.
+# Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
+# These images are used to encourage users to download Firefox on their mobile devices.
+connect-another-play-store-image-2 =
+    .alt = Descarga { -brand-firefox } en { -google-play }
+connect-another-app-store-image-3 =
+    .alt = Descarga { -brand-firefox } en { -app-store }
 
 ## Connected services section
 
@@ -691,12 +697,18 @@ flow-setup-2fa-inline-complete-backup-code-info =
         [one] { $count } código restante
        *[other] { $count } códigos restantes
     }
+flow-setup-2fa-inline-complete-backup-code-description = Este es el método de recuperación más seguro si no puedes conectarte con tu dispositivo móvil o la aplicación de autenticación.
 flow-setup-2fa-inline-complete-backup-phone-description = Este es el método de recuperación más fácil si no puedes conectarte con tu aplicación de autenticación.
 flow-setup-2fa-inline-complete-learn-more-link = Cómo esto protege tu cuenta
 # $serviceName (String) - the name of the product that the user will be
 # redirected to.
 flow-setup-2fa-inline-complete-continue-button = Continuar con { $serviceName }
 flow-setup-2fa-prompt-heading = Establecer autenticación en dos pasos
+# Variable { $serviceName } is the name of the product (e.g. Firefox Add-ons)
+# that requests two-step authentication setup.
+flow-setup-2fa-prompt-description = { $serviceName } requiere que configures la autenticación de dos pasos para mantener tu cuenta segura.
+# "these authenticator apps" links to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+flow-setup-2fa-prompt-use-authenticator-apps = Puedes utilizar cualquiera de <authenticationAppsLink>estas aplicaciones de autenticación</authenticationAppsLink> para continuar.
 flow-setup-2fa-prompt-continue-button = Continuar
 
 ## FlowSetupPhoneConfirmCode
@@ -1292,6 +1304,10 @@ auth-error-1067 = ¿Correo mal escrito?
 # Variables:
 #  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
 recovery-phone-number-ending-digits = Número que termina en { $lastFourPhoneNumber }
+# This error is shown when there is a particular kind of error at the very end of the 2FA flow
+# and the user should begin it again. A system/device clock not being synced to the internet time is
+# a common problem when using 2FA.
+two-factor-auth-setup-token-verification-error = Hubo un problema al habilitar la autenticación en dos pasos. Comprueba que el reloj de tu dispositivo esté configurado para actualizarse automáticamente y <a>vuelve a empezar</a>.
 oauth-error-1000 = Algo se fue a las pailas. Por favor, cierra esta pestaña y vuelve a intentarlo.
 
 ## Cannot Create Account page
@@ -1435,6 +1451,7 @@ inline-totp-setup-security-code-placeholder = Código de autenticación
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-code-required-error = Código de autenticación requerido
 tfa-qr-code-alt = Usa el código { $code } para configurar la autenticación en dos pasos en las aplicaciones soportadas.
+inline-totp-setup-page-title = Autenticación en dos pasos
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
