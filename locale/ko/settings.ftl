@@ -496,6 +496,12 @@ bento-menu-made-by-mozilla = { -brand-mozilla } 제작
 
 connect-another-fx-mobile = 모바일이나 태블릿에서 { -brand-firefox } 받기
 connect-another-find-fx-mobile-2 = { -google-play }와 { -app-store }에서 { -brand-firefox }를 찾으세요.
+# Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
+# These images are used to encourage users to download Firefox on their mobile devices.
+connect-another-play-store-image-2 =
+    .alt = { -google-play }에서 { -brand-firefox } 다운로드
+connect-another-app-store-image-3 =
+    .alt = { -app-store }에서 { -brand-firefox } 다운로드
 
 ## Connected services section
 
@@ -667,6 +673,28 @@ flow-setup-2fa-backup-code-dl-heading = 백업 인증 코드 저장
 flow-setup-2fa-backup-code-dl-save-these-codes = 기억할 수 있는 곳에 잘 보관하세요. 인증기 앱에 접근할 수 없는 경우 로그인하기 위해 입력해야 합니다.
 flow-setup-2fa-backup-code-dl-button-continue = 계속
 
+##
+
+flow-setup-2fa-inline-complete-success-banner = 2단계 인증 활성화됨
+flow-setup-2fa-inline-complete-backup-code = 백업 인증 코드
+flow-setup-2fa-inline-complete-backup-phone = 복구 전화번호
+# $count (Number) - an integer representing the number of backup
+# authentication codes remaining
+flow-setup-2fa-inline-complete-backup-code-info = 코드 { $count }개 남음
+flow-setup-2fa-inline-complete-backup-code-description = 모바일 기기나 인증 앱으로 로그인할 수 없는 경우에 사용하는 가장 안전한 복구 방법입니다.
+flow-setup-2fa-inline-complete-backup-phone-description = 인증 앱으로 로그인할 수 없는 경우에 사용하는 가장 쉬운 복구 방법입니다.
+flow-setup-2fa-inline-complete-learn-more-link = 사용자의 계정을 보호하는 방법
+# $serviceName (String) - the name of the product that the user will be
+# redirected to.
+flow-setup-2fa-inline-complete-continue-button = { $serviceName }로 계속
+flow-setup-2fa-prompt-heading = 2단계 인증 설정
+# Variable { $serviceName } is the name of the product (e.g. Firefox Add-ons)
+# that requests two-step authentication setup.
+flow-setup-2fa-prompt-description = { $serviceName } 서비스 계정을 안전하게 보호하기 위해 2단계 인증을 설정해야 합니다.
+# "these authenticator apps" links to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+flow-setup-2fa-prompt-use-authenticator-apps = <authenticationAppsLink>다음 인증 앱</authenticationAppsLink>을 사용하여 계속 진행할 수 있습니다.
+flow-setup-2fa-prompt-continue-button = 계속
+
 ## FlowSetupPhoneConfirmCode
 
 # verification code refers to a code sent by text message to confirm phone number ownership
@@ -705,6 +733,8 @@ header-menu-open = 메뉴 닫기
 header-menu-closed = 사이트 탐색 메뉴
 header-back-to-top-link =
     .title = 맨 위로
+header-back-to-settings-link =
+    .title = { -product-mozilla-account } 설정으로 돌아가기
 header-title-2 = { -product-mozilla-account }
 header-help = 도움말
 
@@ -989,6 +1019,7 @@ inactive-update-status-success-alert = 성공적으로 로그인되었습니다.
 
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
+product-promo-monitor-description-v2 = 개인 정보가 유출된 곳을 찾아 제어하세요.
 # Links out to the Monitor site
 product-promo-monitor-cta = 무료 검사 받기
 

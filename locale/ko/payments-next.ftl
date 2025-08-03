@@ -196,6 +196,7 @@ payments-client-loading-spinner =
 payment-method-management-save-default = 기본 결제 방법으로 설정
 # Save button for saving a new payment method
 payment-method-management-save-method = 결제 방법 저장
+manage-stripe-payments-title = 결제 방법 관리
 
 ## Payment Section
 
@@ -205,6 +206,8 @@ next-new-user-card-title = 카드 정보를 입력하세요.
 
 next-plan-details-header = 제품 세부 정보
 next-plan-details-list-price = 정가
+# $productName (String) - The name of the product, e.g. Mozilla VPN
+plan-details-product-prorated-price = { $productName }의 가격을 비례 배분함
 next-plan-details-tax = 세금 및 수수료
 next-plan-details-total-label = 전체
 # "Unused time" refers to the remaining value of the current subscription that hasn't been used yet
@@ -291,6 +294,9 @@ upgrade-purchase-details-current-plan-label = 현재 구독 정보
 upgrade-purchase-details-new-plan-label = 신규 구독 정보
 upgrade-purchase-details-promo-code = 프로모션 코드
 upgrade-purchase-details-tax-label = 세금 및 수수료
+# "Credit issued to account" refers to credit that will be added to the account balance that will be used toward future invoices
+upgrade-purchase-details-credit-to-account = 계정에 추가된 크레딧
+upgrade-purchase-details-credit-will-be-applied = 크레딧은 계정에 적용되고 향후 청구서에 사용됩니다.
 
 ## $productName (String) - Name of the upgraded product (e.g. Mozilla VPN)
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
@@ -340,6 +346,7 @@ metadata-description-default = 요청하신 페이지를 찾을 수 없습니다
 
 ## Coupon Error Messages
 
+next-coupon-error-cannot-redeem = 입력한 코드는 사용할 수 없습니다. — 이 계정은 이전에 우리 서비스 중 하나를 구독하고 있습니다.
 next-coupon-error-expired = 입력한 코드가 만료되었습니다.
 next-coupon-error-generic = 코드 처리 과정에서 오류가 발생했습니다. 다시 시도해 주세요.
 next-coupon-error-invalid = 입력한 코드가 유효하지 않습니다.
