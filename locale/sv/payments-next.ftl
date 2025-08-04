@@ -60,6 +60,7 @@ intent-payment-error-try-again = Hmm. Det gick inte att godkänna din betalning.
 intent-payment-error-get-in-touch = Hmm. Det gick inte att godkänna din betalning. Ta kontakt med din kortutgivare.
 intent-payment-error-generic = Ett oväntat fel har uppstått vid bearbetningen av din betalning. Försök igen.
 intent-payment-error-insufficient-funds = Det ser ut som att ditt kort inte har tillräckligt med pengar. Prova med ett annat kort.
+general-paypal-error = Ett oväntat fel har uppstått vid bearbetningen av din betalning. Försök igen.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -92,8 +93,6 @@ next-payment-confirmation-cc-card-ending-in = Kort som slutar på { $last4 }
 
 ## Layout - Subscription Management
 
-subscription-management-breadcrumb-account-home = Startsida för konton
-subscription-management-breadcrumb-subscriptions = Prenumerationer
 subscription-management-account-profile-picture = Kontots profilbild
 
 ## Page - Subscription Management
@@ -127,6 +126,15 @@ subscription-management-button-manage-subscription = Hantera
 page-not-found-title = Sidan hittades inte
 page-not-found-description = Sidan du begärde hittades inte. Vi har underrättats och kommer att fixa alla länkar som kan vara trasiga.
 page-not-found-back-button = Gå tillbaka
+
+## Navigation breadcrumbs
+
+# Link title - Account settings
+subscription-management-breadcrumb-account-home = Startsida för konton
+# Link title - Subscriptions management
+subscription-management-breadcrumb-subscriptions = Prenumerationer
+# Link title - Payment method management
+subscription-management-breadcrumb-payment = Betalningsmetoder
 
 ## Component - Payment Consent Checkbox
 
@@ -181,6 +189,14 @@ payments-header-avatar-expanded-sign-out = Logga ut
 payments-client-loading-spinner =
     .aria-label = Laddar…
     .alt = Laddar…
+
+## Payment method management page - Stripe
+
+# Save button for changing which payment method will be used
+payment-method-management-save-default = Ange som standardbetalningsmetod
+# Save button for saving a new payment method
+payment-method-management-save-method = Spara betalningsmetod
+manage-stripe-payments-title = Hantera betalningsmetoder
 
 ## Payment Section
 

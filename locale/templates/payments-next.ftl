@@ -94,6 +94,8 @@ subscription-management-account-profile-picture = Account profile picture
 
 ## Page - Subscription Management
 
+subscription-management-account-credit-balance-heading = Account credit balance
+subscription-management-account-credit-balance-message = Credit will be automatically applied towards future invoices
 subscription-management-payment-information-heading = Payment Information
 subscription-management-button-add-payment-method-aria = Add payment method
 subscription-management-button-add-payment-method = Add
@@ -106,8 +108,6 @@ subscription-management-card-expires-date = Expires { $expirationDate }
 subscription-management-subscriptions-heading = Subscriptions
 subscription-management-your-subscriptions-aria = Your subscriptions
 subscription-management-no-subscriptions = You don’t have any subscriptions yet
-subscription-management-button-cancel-subscription-aria = Cancel subscription
-subscription-management-button-cancel-subscription = Cancel
 subscription-management-your-apple-iap-subscriptions-aria = Your { -brand-apple } In-App Subscriptions
 subscription-management-apple-in-app-purchase = { -brand-apple }: In-App purchase
 subscription-management-your-google-iap-subscriptions-aria = Your { -brand-google } In-App Subscriptions
@@ -119,6 +119,13 @@ subscription-management-iap-sub-expires-on = Expires on { $date }
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Manage subscription for { $productName }
 subscription-management-button-manage-subscription = Manage
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
+subscription-management-page-subscription-interval-daily = { $productName } (daily)
+subscription-management-page-subscription-interval-weekly = { $productName } (weekly)
+subscription-management-page-subscription-interval-monthly = { $productName } (monthly)
+subscription-management-page-subscription-interval-halfyearly = { $productName } (6-month)
+subscription-management-page-subscription-interval-yearly = { $productName } (yearly)
 
 # Page - Not Found
 page-not-found-title = Page not found
@@ -275,6 +282,38 @@ next-new-user-subscribe-product-updates-mdnplus = I’d like to receive product 
 next-new-user-subscribe-product-updates-mozilla = I’d like to receive product news and updates from { -brand-mozilla }
 next-new-user-subscribe-product-updates-snp = I’d like to receive security and privacy news and updates from { -brand-mozilla }
 next-new-user-subscribe-product-assurance = We only use your email to create your account. We will never sell it to a third party.
+
+## SubscriptionContent
+
+## Examples of coupon applied
+## 20% OFF coupon applied: $11.20 + $0.35 tax
+## Holiday Offer 2023 coupon applied: 6,42 €
+## Cybersecurity Awareness Month 2023 coupon applied: $11.20 + $0.35 tax
+## Summer Promo VPN coupon applied: $11.20
+## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., 08/21/2025 for US locale, 21/08/25 for FR locale)
+## $invoiceTotal (Number) - The amount billed (excluding tax if tax does not exist). It will be formatted as currency.
+## $nextBillDate (Date) - The date for the next time a charge will occur (e.g., 08/21/2025 for US locale, 21/08/25 for FR locale)
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+## $promotionName (String) - The name of the promotion.
+## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
+
+subscription-content-promotion-applied-no-tax = { $promotionName } coupon applied: { $invoiceTotal }
+subscription-content-promotion-applied-with-tax = { $promotionName } coupon applied: { $invoiceTotal } + { $taxDue } tax
+subscription-content-current-with-tax = { $invoiceTotal } + { $taxDue } tax
+subscription-content-next-bill-no-tax = Next bill of { $invoiceTotal } is due { $nextBillDate }
+subscription-content-next-bill-with-tax = Next bill of { $invoiceTotal } + { $taxDue } tax is due { $nextBillDate }
+subscription-content-heading-cancel-subscription = Cancel Subscription
+subscription-content-no-longer-use-message = You will no longer be able to use { $productName } after { $currentPeriodEnd }, the last day of your billing cycle.
+subscription-content-cancel-access-message = Cancel my access and my saved information within { $productName } on { $currentPeriodEnd }
+subscription-content-button-stay-subscribed =
+  Stay Subscribed
+  .aria-label = Stay subscribed to { $productName }
+subscription-content-button-cancel-subscription =
+  Cancel Subscription
+  .aria-label = Cancel your subscription to { $productName }
+subscription-content-button-cancel =
+  Cancel
+  .aria-label = Cancel your subscription to { $productName }
 
 ## Component - PriceInterval
 
