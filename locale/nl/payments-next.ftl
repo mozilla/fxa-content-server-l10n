@@ -97,6 +97,8 @@ subscription-management-account-profile-picture = Accountprofielafbeelding
 
 ## Page - Subscription Management
 
+subscription-management-account-credit-balance-heading = Accountsaldo
+subscription-management-account-credit-balance-message = Tegoed wordt automatisch toegepast op toekomstige facturen
 subscription-management-payment-information-heading = Betalingsgegevens
 subscription-management-button-add-payment-method-aria = Betalingsmethode toevoegen
 subscription-management-button-add-payment-method = Toevoegen
@@ -273,8 +275,20 @@ next-new-user-subscribe-product-assurance = We gebruiken uw e-mailadres alleen o
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
+subscription-content-promotion-applied-no-tax = Kortingsbon voor { $promotionName } toegepast: { $invoiceTotal }
+subscription-content-promotion-applied-with-tax = Kortingsbon voor { $promotionName } toegepast: { $invoiceTotal } + { $taxDue } belasting
+subscription-content-current-with-tax = { $invoiceTotal } + { $taxDue } belasting
 subscription-content-next-bill-no-tax = De volgende factuur van { $invoiceTotal } is verschuldigd op { $nextBillDate }
+subscription-content-next-bill-with-tax = De volgende factuur van { $invoiceTotal } + { $taxDue } belasting is verschuldigd op { $nextBillDate }
 subscription-content-heading-cancel-subscription = Abonnement opzeggen
+subscription-content-no-longer-use-message = U kunt { $productName } niet meer gebruiken na { $currentPeriodEnd }, de laatste dag van uw betalingscyclus.
+subscription-content-cancel-access-message = Mijn toegang tot en opgeslagen gegevens in { $productName } op { $currentPeriodEnd } opzeggen
+subscription-content-button-stay-subscribed = Abonnement behouden
+    .aria-label = Abonnement op { $productName } behouden
+subscription-content-button-cancel-subscription = Abonnement opzeggen
+    .aria-label = Abonnement op { $productName } opzeggen
+subscription-content-button-cancel = Opzeggen
+    .aria-label = Uw abonnement op { $productName } opzeggen
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
