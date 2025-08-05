@@ -124,6 +124,11 @@ subscription-management-button-manage-subscription = Gerer
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
 
+subscription-management-page-subscription-interval-daily = { $productName } (quotidian)
+subscription-management-page-subscription-interval-weekly = { $productName } (septimanal)
+subscription-management-page-subscription-interval-monthly = { $productName } (mensual)
+subscription-management-page-subscription-interval-halfyearly = { $productName } (6 menses)
+subscription-management-page-subscription-interval-yearly = { $productName } (annual)
 # Page - Not Found
 page-not-found-title = Pagina non trovate
 page-not-found-description = Le pagina que tu ha requestate non ha essite trovate. Nos ha recipite notification e va reparar qualcunque ligamines rupte.
@@ -268,7 +273,15 @@ next-new-user-subscribe-product-assurance = Nos usa tu adresse email solo pro cr
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
+subscription-content-next-bill-no-tax = Le factura successive de { $invoiceTotal } es debite le { $nextBillDate }
+subscription-content-next-bill-with-tax = Le factura successive de { $invoiceTotal } + taxa de { $taxDue } es debite le { $nextBillDate }
 subscription-content-heading-cancel-subscription = Cancellar abonamento
+subscription-content-button-stay-subscribed = Restar abonate
+    .aria-label = Restar abonate a { $productName }
+subscription-content-button-cancel-subscription = Cancellar abonamento
+    .aria-label = Cancella tu abonamento a { $productName }
+subscription-content-button-cancel = Cancellar
+    .aria-label = Cancella tu abonamento a { $productName }
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.

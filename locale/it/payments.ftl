@@ -435,7 +435,7 @@ sub-update-prorated-upgrade-credit = Il saldo negativo visualizzato verrà appli
 
 ## Routes - Subscriptions - Cancel
 
-sub-item-cancel-sub = Annulla abbonamento
+sub-item-cancel-sub = Cancella abbonamento
 sub-item-stay-sub = Resta abbonato
 
 ## $name (String) - The name of the subscribed product.
