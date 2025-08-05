@@ -51,15 +51,6 @@ bento-menu-firefox-desktop = डेस्कटॉप के लिए { -brand-
 bento-menu-firefox-mobile = मोबाइल के लिए { -brand-firefox } ब्राउज़र
 bento-menu-made-by-mozilla = { -brand-mozilla } द्वारा निर्मित
 
-## Connect another device promo
-
-# Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
-# These images are used to encourage users to download Firefox on their mobile devices.
-connect-another-play-store-image =
-    .title = { -google-play } से { -brand-firefox } डाउनलोड करें
-connect-another-app-store-image-2 =
-    .title = { -app-store } से { -brand-firefox } डाउनलोड करें
-
 ##
 
 cs-sign-out-button = साइन आउट करें

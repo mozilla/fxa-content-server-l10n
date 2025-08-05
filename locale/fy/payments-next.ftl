@@ -60,6 +60,7 @@ intent-payment-error-try-again = Hmm. Der wie in probleem by it autorisearjen fa
 intent-payment-error-get-in-touch = Hmm. Der wie in probleem by it autorisearjen fan jo betelling. Nim kontakt mei jo kaartferstrekker.
 intent-payment-error-generic = Der is in ûnferwachte flater bard by it ferwurkjen fan jo betelling, probearje it opnij.
 intent-payment-error-insufficient-funds = It liket derop dat jo kaart net genôch saldo hat. Probearje in oare kaart.
+general-paypal-error = Der is in ûnferwachte flater bard by it ferwurkjen fan jo betelling, probearje it opnij.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -92,8 +93,6 @@ next-payment-confirmation-cc-card-ending-in = Creditcard einigjend op { $last4 }
 
 ## Layout - Subscription Management
 
-subscription-management-breadcrumb-account-home = Account-startside
-subscription-management-breadcrumb-subscriptions = Abonneminten
 subscription-management-account-profile-picture = Accountprofylôfbylding
 
 ## Page - Subscription Management
@@ -127,6 +126,15 @@ subscription-management-button-manage-subscription = Beheare
 page-not-found-title = Side net fûn
 page-not-found-description = De opfrege side is net fûn. Wy binne op de hichte en sille keppelingen dy't mooglik net wurkje werom bringe.
 page-not-found-back-button = Tebek
+
+## Navigation breadcrumbs
+
+# Link title - Account settings
+subscription-management-breadcrumb-account-home = Account-startside
+# Link title - Subscriptions management
+subscription-management-breadcrumb-subscriptions = Abonneminten
+# Link title - Payment method management
+subscription-management-breadcrumb-payment = Betellingsmetoaden
 
 ## Component - Payment Consent Checkbox
 
@@ -181,6 +189,14 @@ payments-header-avatar-expanded-sign-out = Ofmelde
 payments-client-loading-spinner =
     .aria-label = Lade…
     .alt = Lade…
+
+## Payment method management page - Stripe
+
+# Save button for changing which payment method will be used
+payment-method-management-save-default = As standert betellingsmetoade ynstelle
+# Save button for saving a new payment method
+payment-method-management-save-method = Betellingsmetoade bewarje
+manage-stripe-payments-title = Betellingsmetoaden beheare
 
 ## Payment Section
 

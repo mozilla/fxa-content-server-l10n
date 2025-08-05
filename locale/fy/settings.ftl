@@ -510,10 +510,10 @@ connect-another-fx-mobile = Download { -brand-firefox } op mobyl of tablet
 connect-another-find-fx-mobile-2 = Sykje { -brand-firefox } yn de { -google-play } en de { -app-store }.
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
-connect-another-play-store-image =
-    .title = Download { -brand-firefox } op { -google-play }
-connect-another-app-store-image-2 =
-    .title = Download { -brand-firefox } op { -app-store }
+connect-another-play-store-image-2 =
+    .alt = Download { -brand-firefox } op { -google-play }
+connect-another-app-store-image-3 =
+    .alt = Download { -brand-firefox } op { -app-store }
 
 ## Connected services section
 
@@ -1461,6 +1461,7 @@ inline-totp-setup-security-code-placeholder = Autentikaasjekoade
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-code-required-error = Autentikaasjekoade fereaske
 tfa-qr-code-alt = Brûk de koade { $code } om autentikaasje yn twa stappen yn stipe tapassingen yn te skeakeljen.
+inline-totp-setup-page-title = Autentikaasje yn twa stappen
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
