@@ -100,6 +100,8 @@ subscription-management-account-profile-picture = Kontowy profilowy wobraz
 
 ## Page - Subscription Management
 
+subscription-management-account-credit-balance-heading = Kontowe dobroměće
+subscription-management-account-credit-balance-message = Dobroměće so awtomatisce na přichodne zličbowanki nałožuje
 subscription-management-payment-information-heading = Płaćenske informacije
 subscription-management-button-add-payment-method-aria = Płaćensku metodu přidać
 subscription-management-button-add-payment-method = Přidać
@@ -276,6 +278,8 @@ next-new-user-subscribe-product-assurance = Wužiwamy jenož wašu e-mejlowu adr
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
+subscription-content-promotion-applied-no-tax = Dobropis { $promotionName } je so nałožił: { $invoiceTotal }
+subscription-content-promotion-applied-with-tax = Dobropis { $promotionName } je so nałožił: { $invoiceTotal } + { $taxDue } dawka
 subscription-content-current-with-tax = { $invoiceTotal } + { $taxDue } dawka
 subscription-content-next-bill-no-tax = Přichodna zličbowanka { $invoiceTotal } je płaćomna { $nextBillDate }
 subscription-content-next-bill-with-tax = Přichodna zličbowanka { $invoiceTotal } + { $taxDue } dawka je płaćomna { $nextBillDate }

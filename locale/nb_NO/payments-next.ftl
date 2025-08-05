@@ -124,6 +124,11 @@ subscription-management-button-manage-subscription = Behandle
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
 
+subscription-management-page-subscription-interval-daily = { $productName } (daglig)
+subscription-management-page-subscription-interval-weekly = { $productName } (ukentlig)
+subscription-management-page-subscription-interval-monthly = { $productName } (månedlig)
+subscription-management-page-subscription-interval-halfyearly = { $productName } (6 måneder)
+subscription-management-page-subscription-interval-yearly = { $productName } (årlig)
 # Page - Not Found
 page-not-found-title = Fant ikke siden
 page-not-found-description = Siden du ba om ble ikke funnet. Vi har blitt varslet og vil fikse eventuelle lenker som ikke virker.
@@ -255,6 +260,31 @@ next-new-user-subscribe-product-updates-mdnplus = Jeg vil gjerne motta produktny
 next-new-user-subscribe-product-updates-mozilla = Jeg vil gjerne motta produktnyheter og oppdateringer fra { -brand-mozilla }
 next-new-user-subscribe-product-updates-snp = Jeg vil gjerne motta nyheter og oppdateringer om sikkerhet og personvern fra { -brand-mozilla }
 next-new-user-subscribe-product-assurance = Vi bruker kun e-postadressen din til å opprette kontoen din. Vi vil aldri selge den til en tredjepart.
+
+## Examples of coupon applied
+## 20% OFF coupon applied: $11.20 + $0.35 tax
+## Holiday Offer 2023 coupon applied: 6,42 €
+## Cybersecurity Awareness Month 2023 coupon applied: $11.20 + $0.35 tax
+## Summer Promo VPN coupon applied: $11.20
+## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., 08/21/2025 for US locale, 21/08/25 for FR locale)
+## $invoiceTotal (Number) - The amount billed (excluding tax if tax does not exist). It will be formatted as currency.
+## $nextBillDate (Date) - The date for the next time a charge will occur (e.g., 08/21/2025 for US locale, 21/08/25 for FR locale)
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+## $promotionName (String) - The name of the promotion.
+## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
+
+subscription-content-current-with-tax = { $invoiceTotal } + { $taxDue } moms
+subscription-content-next-bill-no-tax = Neste regning på { $invoiceTotal } forfaller den { $nextBillDate }
+subscription-content-next-bill-with-tax = Neste regning på { $invoiceTotal } + { $taxDue } moms forfaller den { $nextBillDate }
+subscription-content-heading-cancel-subscription = Avbryt abonnement
+subscription-content-no-longer-use-message = Du vil ikke lenger kunne bruke { $productName } etter { $currentPeriodEnd }, den siste dagen i faktureringsperioden din.
+subscription-content-cancel-access-message = Avbryt tilgangen min og lagret informasjon for { $productName } den { $currentPeriodEnd }
+subscription-content-button-stay-subscribed = Fortsett abonnementet
+    .aria-label = Fortsett abonnementet på { $productName }
+subscription-content-button-cancel-subscription = Avbryt abonnementet
+    .aria-label = Avbryt abonnementet på { $productName }
+subscription-content-button-cancel = Avbryt
+    .aria-label = Avbryt abonnementet på { $productName }
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.

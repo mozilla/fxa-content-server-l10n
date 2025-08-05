@@ -100,6 +100,8 @@ subscription-management-account-profile-picture = Kontowy profilowy wobraz
 
 ## Page - Subscription Management
 
+subscription-management-account-credit-balance-heading = Kontowy plus
+subscription-management-account-credit-balance-message = Kontowy plus se awtomatiski na pśiduce zliceńki nałožujo
 subscription-management-payment-information-heading = Płaśeńske informacije
 subscription-management-button-add-payment-method-aria = Płaśeńsku metodu pśidaś
 subscription-management-button-add-payment-method = Pśidaś
@@ -127,6 +129,11 @@ subscription-management-button-manage-subscription = Zastojaś
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
 
+subscription-management-page-subscription-interval-daily = { $productName } (kuždy źeń)
+subscription-management-page-subscription-interval-weekly = { $productName } (kuždy tyźeń)
+subscription-management-page-subscription-interval-monthly = { $productName } (kuždy mjasec)
+subscription-management-page-subscription-interval-halfyearly = { $productName } (6-mjasecny)
+subscription-management-page-subscription-interval-yearly = { $productName } (kužde lěto)
 # Page - Not Found
 page-not-found-title = Bok njejo se namakał
 page-not-found-description = Bok, kótaryž sćo pominał, njejo se namakał. Smy powěsć dostali a pórěźamy njepłaśiwe wótkaze.
