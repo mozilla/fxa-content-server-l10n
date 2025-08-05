@@ -278,17 +278,17 @@ next-new-user-subscribe-product-assurance = Wir verwenden Ihre E-Mail-Adresse nu
 subscription-content-promotion-applied-no-tax = Gutschein von { $promotionName } angewendet: { $invoiceTotal }
 subscription-content-promotion-applied-with-tax = Gutschein von { $promotionName } angewendet: { $invoiceTotal } + { $taxDue } Steuern
 subscription-content-current-with-tax = { $invoiceTotal } + { $taxDue } Steuern
-subscription-content-next-bill-no-tax = Die nächste Rechnung von { $invoiceTotal } ist fällig { $nextBillDate }
-subscription-content-next-bill-with-tax = Die nächste Rechnung von { $invoiceTotal } + { $taxDue } Steuern ist fällig { $nextBillDate }
+subscription-content-next-bill-no-tax = Die nächste Rechnung von { $invoiceTotal } ist fällig am { $nextBillDate }
+subscription-content-next-bill-with-tax = Die nächste Rechnung von { $invoiceTotal } + { $taxDue } Steuern ist fällig am { $nextBillDate }
 subscription-content-heading-cancel-subscription = Dauerauftrag stornieren
-subscription-content-no-longer-use-message = Sie können { $productName } nach { $currentPeriodEnd } nicht mehr verwenden, dem letzten Tag Ihres Abrechnungszeitraums.
-subscription-content-cancel-access-message = Meinen Zugriff beenden und meine in { $productName } auf { $currentPeriodEnd } gespeicherten Daten entfernen
+subscription-content-no-longer-use-message = Sie können { $productName } nach dem { $currentPeriodEnd }, dem letzten Tag Ihres Abrechnungszeitraums, nicht mehr verwenden.
+subscription-content-cancel-access-message = Meinen Zugriff am { $currentPeriodEnd } beenden und meine in { $productName } gespeicherten Daten entfernen
 subscription-content-button-stay-subscribed = Dauerauftrag beibehalten
-    .aria-label = weiterhin { $productName } abonnieren
+    .aria-label = { $productName } weiterhin abonnieren
 subscription-content-button-cancel-subscription = Dauerauftrag stornieren
-    .aria-label = Stornieren Sie Ihren Dauerauftrag für { $productName }
+    .aria-label = Ihren Dauerauftrag für { $productName } stornieren
 subscription-content-button-cancel = Abbrechen
-    .aria-label = Stornieren Sie Ihren Dauerauftrag für { $productName }
+    .aria-label = Ihren Dauerauftrag für { $productName } stornieren
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
