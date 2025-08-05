@@ -97,6 +97,7 @@ subscription-management-account-profile-picture = Imagine de profilo del conto
 
 ## Page - Subscription Management
 
+subscription-management-account-credit-balance-heading = Saldo del conto
 subscription-management-account-credit-balance-message = Le credito sera automaticamente applicate al facturas futur
 subscription-management-payment-information-heading = Informationes de pagamento
 subscription-management-button-add-payment-method-aria = Adder methodo de pagamento
