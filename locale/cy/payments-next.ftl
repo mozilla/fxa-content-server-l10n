@@ -97,6 +97,8 @@ subscription-management-account-profile-picture = Llun proffil cyfrif
 
 ## Page - Subscription Management
 
+subscription-management-account-credit-balance-heading = Balans credyd cyfrif
+subscription-management-account-credit-balance-message = Bydd credyd yn cael ei gymhwyso'n awtomatig tuag at anfonebau yn y dyfodol
 subscription-management-payment-information-heading = Manylion Talu
 subscription-management-button-add-payment-method-aria = Ychwanegu dull talu
 subscription-management-button-add-payment-method = Ychwanegu
@@ -124,6 +126,11 @@ subscription-management-button-manage-subscription = Rheoli
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
 
+subscription-management-page-subscription-interval-daily = { $productName } (dyddiol)
+subscription-management-page-subscription-interval-weekly = { $productName } (wythnosol)
+subscription-management-page-subscription-interval-monthly = { $productName } (misol)
+subscription-management-page-subscription-interval-halfyearly = { $productName } (6-mis)
+subscription-management-page-subscription-interval-yearly = { $productName } (blynyddol)
 # Page - Not Found
 page-not-found-title = Heb ganfod y dudalen
 page-not-found-description = Heb ganfod y dudalen rydych wedi gofyn amdani. Rydym wedi cael ein hysbysu a byddwn yn trwsio unrhyw ddolenni all fod wedi'u torri.
@@ -255,6 +262,33 @@ next-new-user-subscribe-product-updates-mdnplus = Hoffwn dderbyn newyddion cynny
 next-new-user-subscribe-product-updates-mozilla = Hoffwn dderbyn newyddion cynnyrch a diweddariadau gan { -brand-mozilla }
 next-new-user-subscribe-product-updates-snp = Hoffwn dderbyn newyddion a diweddariadau diogelwch a phreifatrwydd gan { -brand-mozilla }
 next-new-user-subscribe-product-assurance = Dim ond i greu eich cyfrif rydym yn defnyddio'ch e-bost. Fyddwn ni byth yn ei werthu i drydydd parti.
+
+## Examples of coupon applied
+## 20% OFF coupon applied: $11.20 + $0.35 tax
+## Holiday Offer 2023 coupon applied: 6,42 €
+## Cybersecurity Awareness Month 2023 coupon applied: $11.20 + $0.35 tax
+## Summer Promo VPN coupon applied: $11.20
+## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., 08/21/2025 for US locale, 21/08/25 for FR locale)
+## $invoiceTotal (Number) - The amount billed (excluding tax if tax does not exist). It will be formatted as currency.
+## $nextBillDate (Date) - The date for the next time a charge will occur (e.g., 08/21/2025 for US locale, 21/08/25 for FR locale)
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+## $promotionName (String) - The name of the promotion.
+## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
+
+subscription-content-promotion-applied-no-tax = Cwpon { $promotionName } wedi'i gymhwyso: { $invoiceTotal }
+subscription-content-promotion-applied-with-tax = Cwpon { $promotionName } wedi'i gymhwyso: { $invoiceTotal } + { $taxDue } treth
+subscription-content-current-with-tax = { $invoiceTotal } + { $taxDue } treth
+subscription-content-next-bill-no-tax = Mae bil nesaf o { $invoiceTotal } yn ddyledus { $nextBillDate }
+subscription-content-next-bill-with-tax = Mae bil nesaf o { $invoiceTotal } + { $taxDue } o dreth yn ddyledus { $nextBillDate }
+subscription-content-heading-cancel-subscription = Diddymu'r Tanysgrifiad
+subscription-content-no-longer-use-message = Ni fyddwch bellach yn gallu defnyddio { $productName } ar ôl { $currentPeriodEnd }, sef diwrnod olaf eich cylch bilio.
+subscription-content-cancel-access-message = Canslo fy mynediad a fy ngwybodaeth sydd wedi'i chadw o fewn { $productName } ar { $currentPeriodEnd }
+subscription-content-button-stay-subscribed = Para Wedi Tanysgrifio
+    .aria-label = Dal i danysgrifio i { $productName }
+subscription-content-button-cancel-subscription = Diddymu'r Tanysgrifiad
+    .aria-label = Canslo'ch tanysgrifiad i { $productName }
+subscription-content-button-cancel = Diddymu
+    .aria-label = Canslo'ch tanysgrifiad i { $productName }
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.

@@ -99,6 +99,8 @@ subscription-management-account-profile-picture = Fiók profilképe
 
 ## Page - Subscription Management
 
+subscription-management-account-credit-balance-heading = Számla egyenleg
+subscription-management-account-credit-balance-message = A jóváírás automatikusan jóváírásra kerül a jövőbeli számlákon
 subscription-management-payment-information-heading = Fizetési információk
 subscription-management-button-add-payment-method-aria = Fizetési mód hozzáadása
 subscription-management-button-add-payment-method = Hozzáadás
@@ -126,6 +128,11 @@ subscription-management-button-manage-subscription = Kezelés
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
 
+subscription-management-page-subscription-interval-daily = { $productName } (napi)
+subscription-management-page-subscription-interval-weekly = { $productName } (hetente)
+subscription-management-page-subscription-interval-monthly = { $productName } (havonta)
+subscription-management-page-subscription-interval-halfyearly = { $productName } (6 hónapos)
+subscription-management-page-subscription-interval-yearly = { $productName } (évente)
 # Page - Not Found
 page-not-found-title = Az oldal nem található
 page-not-found-description = A kért oldal nem található. Értesítést kaptunk, és kijavítunk minden, esetleg hibás hivatkozást.
@@ -257,6 +264,33 @@ next-new-user-subscribe-product-updates-mdnplus = Szeretnék termékhíreket és
 next-new-user-subscribe-product-updates-mozilla = Szeretnék termékhíreket és újdonságokat kapni a { -brand-mozilla(ending: "accented") }tól
 next-new-user-subscribe-product-updates-snp = Szeretnék biztonsági és adatvédelmi híreket kapni a { -brand-mozilla(ending: "accented") }tól
 next-new-user-subscribe-product-assurance = Csak a fiókja létrehozásához használjuk az e-mail-címét. Sosem adjuk el harmadik félnek.
+
+## Examples of coupon applied
+## 20% OFF coupon applied: $11.20 + $0.35 tax
+## Holiday Offer 2023 coupon applied: 6,42 €
+## Cybersecurity Awareness Month 2023 coupon applied: $11.20 + $0.35 tax
+## Summer Promo VPN coupon applied: $11.20
+## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., 08/21/2025 for US locale, 21/08/25 for FR locale)
+## $invoiceTotal (Number) - The amount billed (excluding tax if tax does not exist). It will be formatted as currency.
+## $nextBillDate (Date) - The date for the next time a charge will occur (e.g., 08/21/2025 for US locale, 21/08/25 for FR locale)
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+## $promotionName (String) - The name of the promotion.
+## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
+
+subscription-content-promotion-applied-no-tax = { $promotionName } kupon alkalmazott: { $invoiceTotal }
+subscription-content-promotion-applied-with-tax = { $promotionName } kupon alkalmazott: { $invoiceTotal } + { $taxDue } adó
+subscription-content-current-with-tax = { $invoiceTotal } + { $taxDue } adó
+subscription-content-next-bill-no-tax = A következő { $invoiceTotal } összegű számla esedékessége: { $nextBillDate }
+subscription-content-next-bill-with-tax = A következő { $invoiceTotal } + { $taxDue } adó esedékessége: { $nextBillDate }
+subscription-content-heading-cancel-subscription = Előfizetés lemondása
+subscription-content-no-longer-use-message = A(z) { $productName } { $currentPeriodEnd } után, a számlázási időszak utolsó napján, már nem fogja tudni használni a(z) { $productName } kártyát.
+subscription-content-cancel-access-message = A hozzáférésem és a mentett információim megszüntetése { $productName }on belül ekkor: { $currentPeriodEnd }
+subscription-content-button-stay-subscribed = Előfizetés megtartása
+    .aria-label = Előfizetés a(z) { $productName } szolgáltatásra
+subscription-content-button-cancel-subscription = Előfizetés lemondása
+    .aria-label = A(z) { $productName } előfizetésének megszüntetése
+subscription-content-button-cancel = Mégse
+    .aria-label = A(z) { $productName } előfizetésének megszüntetése
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.

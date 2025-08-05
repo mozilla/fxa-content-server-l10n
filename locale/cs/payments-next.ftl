@@ -97,6 +97,8 @@ subscription-management-account-profile-picture = Profilový obrázek účtu
 
 ## Page - Subscription Management
 
+subscription-management-account-credit-balance-heading = Zůstatek na účtu
+subscription-management-account-credit-balance-message = Kredit bude automaticky použit na úhradu budoucích faktur
 subscription-management-payment-information-heading = Informace o platbě
 subscription-management-button-add-payment-method-aria = Přidat platební metodu
 subscription-management-button-add-payment-method = Přidat
@@ -124,6 +126,11 @@ subscription-management-button-manage-subscription = Správa
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
 
+subscription-management-page-subscription-interval-daily = { $productName } (denně)
+subscription-management-page-subscription-interval-weekly = { $productName } (týdně)
+subscription-management-page-subscription-interval-monthly = { $productName } (měsíčně)
+subscription-management-page-subscription-interval-halfyearly = { $productName } (6 měsíců)
+subscription-management-page-subscription-interval-yearly = { $productName } (ročně)
 # Page - Not Found
 page-not-found-title = Stránka nenalezena
 page-not-found-description = Požadovaná stránka nebyla nalezena. Byli jsme upozorněni a všechny odkazy, které mohou být nefunkční, opravíme.
@@ -255,6 +262,33 @@ next-new-user-subscribe-product-updates-mdnplus = Chci dostávat produktové nov
 next-new-user-subscribe-product-updates-mozilla = Chci dostávat produktové novinky o { -brand-mozilla(case: "loc") }
 next-new-user-subscribe-product-updates-snp = Chci dostávat novinky a aktualizace týkající se zabezpečení a ochrany osobních údajů od { -brand-mozilla(case: "loc") }
 next-new-user-subscribe-product-assurance = Vaši e-mailovou adresu použijeme pouze k založení vašeho účtu. Nikdy ne neprodáme žádné třetí straně.
+
+## Examples of coupon applied
+## 20% OFF coupon applied: $11.20 + $0.35 tax
+## Holiday Offer 2023 coupon applied: 6,42 €
+## Cybersecurity Awareness Month 2023 coupon applied: $11.20 + $0.35 tax
+## Summer Promo VPN coupon applied: $11.20
+## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., 08/21/2025 for US locale, 21/08/25 for FR locale)
+## $invoiceTotal (Number) - The amount billed (excluding tax if tax does not exist). It will be formatted as currency.
+## $nextBillDate (Date) - The date for the next time a charge will occur (e.g., 08/21/2025 for US locale, 21/08/25 for FR locale)
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+## $promotionName (String) - The name of the promotion.
+## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
+
+subscription-content-promotion-applied-no-tax = Kupón { $promotionName } byl uplatněn: { $invoiceTotal }
+subscription-content-promotion-applied-with-tax = Kupón { $promotionName } byl uplatněn: { $invoiceTotal } + { $taxDue } daň
+subscription-content-current-with-tax = { $invoiceTotal } + { $taxDue } daň
+subscription-content-next-bill-no-tax = Další platba { $invoiceTotal } je splatná { $nextBillDate }
+subscription-content-next-bill-with-tax = Další platba { $invoiceTotal } + daň { $taxDue } je splatná { $nextBillDate }
+subscription-content-heading-cancel-subscription = Zrušit předplatné
+subscription-content-no-longer-use-message = Po { $currentPeriodEnd }, posledním dni vašeho fakturačního období, nebudete moci { $productName } používat.
+subscription-content-cancel-access-message = Zrušit můj přístup a ukládání mých informací v průběhu { $productName } dne { $currentPeriodEnd }
+subscription-content-button-stay-subscribed = Zachovat předplatné
+    .aria-label = Předplaťte si { $productName }
+subscription-content-button-cancel-subscription = Zrušit předplatné
+    .aria-label = Zrušení předplatného { $productName }
+subscription-content-button-cancel = Zrušit
+    .aria-label = Zrušení předplatného { $productName }
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.

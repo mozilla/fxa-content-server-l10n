@@ -97,6 +97,8 @@ subscription-management-account-profile-picture = Foto de perfil de la cuenta
 
 ## Page - Subscription Management
 
+subscription-management-account-credit-balance-heading = Saldo de crédito de la cuenta
+subscription-management-account-credit-balance-message = El crédito se aplicará automáticamente a futuras facturas
 subscription-management-payment-information-heading = Información de pago
 subscription-management-button-add-payment-method-aria = Agregar método de pago
 subscription-management-button-add-payment-method = Agregar
@@ -124,6 +126,11 @@ subscription-management-button-manage-subscription = Administrar
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
 
+subscription-management-page-subscription-interval-daily = { $productName } (diariamente)
+subscription-management-page-subscription-interval-weekly = { $productName } (semanalmente)
+subscription-management-page-subscription-interval-monthly = { $productName } (mensual)
+subscription-management-page-subscription-interval-halfyearly = { $productName } (6 meses)
+subscription-management-page-subscription-interval-yearly = { $productName } (anual)
 # Page - Not Found
 page-not-found-title = Página no encontrada
 page-not-found-description = No se encontró la página solicitada. Hemos sido notificados y vamos a arreglar cualquier enlace que pueda estar roto.
@@ -255,6 +262,33 @@ next-new-user-subscribe-product-updates-mdnplus = Me gustaría recibir noticias 
 next-new-user-subscribe-product-updates-mozilla = Me gustaría recibir noticias y actualizaciones sobre los productos de { -brand-mozilla }
 next-new-user-subscribe-product-updates-snp = Me gustaría recibir noticias y actualizaciones sobre seguridad y privacidad de { -brand-mozilla }
 next-new-user-subscribe-product-assurance = Solo usamos tu correo electrónico para crear la cuenta. Nunca lo venderemos a terceros.
+
+## Examples of coupon applied
+## 20% OFF coupon applied: $11.20 + $0.35 tax
+## Holiday Offer 2023 coupon applied: 6,42 €
+## Cybersecurity Awareness Month 2023 coupon applied: $11.20 + $0.35 tax
+## Summer Promo VPN coupon applied: $11.20
+## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., 08/21/2025 for US locale, 21/08/25 for FR locale)
+## $invoiceTotal (Number) - The amount billed (excluding tax if tax does not exist). It will be formatted as currency.
+## $nextBillDate (Date) - The date for the next time a charge will occur (e.g., 08/21/2025 for US locale, 21/08/25 for FR locale)
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+## $promotionName (String) - The name of the promotion.
+## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
+
+subscription-content-promotion-applied-no-tax = { $promotionName } cupón aplicado: { $invoiceTotal }
+subscription-content-promotion-applied-with-tax = { $promotionName } cupón aplicado: { $invoiceTotal } + { $taxDue } impuestos
+subscription-content-current-with-tax = { $invoiceTotal } + { $taxDue } impuestos
+subscription-content-next-bill-no-tax = La próxima factura de { $invoiceTotal } vence { $nextBillDate }
+subscription-content-next-bill-with-tax = La próxima factura de { $invoiceTotal } + { $taxDue } impuestos vence { $nextBillDate }
+subscription-content-heading-cancel-subscription = Cancelar suscripción
+subscription-content-no-longer-use-message = Ya no podrás usar { $productName } después de { $currentPeriodEnd }, el último día de tu ciclo de facturación.
+subscription-content-cancel-access-message = Cancelar mi acceso y mi información guardada dentro de { $productName } el { $currentPeriodEnd }
+subscription-content-button-stay-subscribed = Mantener suscripción
+    .aria-label = Mantener la suscripción a { $productName }
+subscription-content-button-cancel-subscription = Cancelar suscripción
+    .aria-label = Cancelá tu suscripción a { $productName }
+subscription-content-button-cancel = Cancelar
+    .aria-label = Cancelá tu suscripción a { $productName }
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.

@@ -97,6 +97,8 @@ subscription-management-account-profile-picture = Profilna slika računa
 
 ## Page - Subscription Management
 
+subscription-management-account-credit-balance-heading = Dobroimetje na računu
+subscription-management-account-credit-balance-message = Dobropis se bo samodejno vpisal pri prihodnjih računih
 subscription-management-payment-information-heading = Podatki o plačilu
 subscription-management-button-add-payment-method-aria = Dodaj način plačila
 subscription-management-button-add-payment-method = Dodaj
@@ -122,6 +124,11 @@ subscription-management-button-manage-subscription = Upravljaj
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
 
+subscription-management-page-subscription-interval-daily = { $productName } (dnevno)
+subscription-management-page-subscription-interval-weekly = { $productName } (tedensko)
+subscription-management-page-subscription-interval-monthly = { $productName } (mesečno)
+subscription-management-page-subscription-interval-halfyearly = { $productName } (na 6 mesecev)
+subscription-management-page-subscription-interval-yearly = { $productName } (letno)
 # Page - Not Found
 page-not-found-title = Strani ni mogoče najti
 page-not-found-description = Zahtevane strani ni bilo mogoče najti. O tem smo obvestili skrbnike, ki bodo odpravili morebitne nedelujoče povezave.
@@ -253,6 +260,33 @@ next-new-user-subscribe-product-updates-mdnplus = Želim prejemati novice in obv
 next-new-user-subscribe-product-updates-mozilla = Želim prejemati novice in obvestila o izdelkih { -brand-mozilla(sklon: "rodilnik") }
 next-new-user-subscribe-product-updates-snp = Želim prejemati novice in obvestila { -brand-mozilla(sklon: "rodilnik") } o varnosti in zasebnosti
 next-new-user-subscribe-product-assurance = Vaš e-poštni naslov uporabimo samo za ustvarjanje vašega računa. Nikoli ga ne bomo prodali nikomur drugemu.
+
+## Examples of coupon applied
+## 20% OFF coupon applied: $11.20 + $0.35 tax
+## Holiday Offer 2023 coupon applied: 6,42 €
+## Cybersecurity Awareness Month 2023 coupon applied: $11.20 + $0.35 tax
+## Summer Promo VPN coupon applied: $11.20
+## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., 08/21/2025 for US locale, 21/08/25 for FR locale)
+## $invoiceTotal (Number) - The amount billed (excluding tax if tax does not exist). It will be formatted as currency.
+## $nextBillDate (Date) - The date for the next time a charge will occur (e.g., 08/21/2025 for US locale, 21/08/25 for FR locale)
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+## $promotionName (String) - The name of the promotion.
+## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
+
+subscription-content-promotion-applied-no-tax = Kupon za { $promotionName } uporabljen: { $invoiceTotal }
+subscription-content-promotion-applied-with-tax = Kupon { $promotionName } uporabljen: { $invoiceTotal } + { $taxDue } davek
+subscription-content-current-with-tax = { $invoiceTotal } + { $taxDue } davek
+subscription-content-next-bill-no-tax = Naslednji račun v višini { $invoiceTotal } prihaja do { $nextBillDate }
+subscription-content-next-bill-with-tax = Naslednji račun v višini { $invoiceTotal } + { $taxDue } davek zapade { $nextBillDate }
+subscription-content-heading-cancel-subscription = Prekliči naročnino
+subscription-content-no-longer-use-message = { $productName } po { $currentPeriodEnd }, zadnjem dnevu obračunskega obdobja, ne boste več mogli uporabljati.
+subscription-content-cancel-access-message = Prekliči moj dostop in moje shranjene podatke do { $productName } dne { $currentPeriodEnd }
+subscription-content-button-stay-subscribed = Ostanite naročnik
+    .aria-label = Ostanite naročeni na { $productName }
+subscription-content-button-cancel-subscription = Prekliči naročnino
+    .aria-label = Prekličite naročnino na { $productName }
+subscription-content-button-cancel = Prekliči
+    .aria-label = Prekličite naročnino na { $productName }
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
