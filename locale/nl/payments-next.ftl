@@ -124,6 +124,11 @@ subscription-management-button-manage-subscription = Beheren
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
 
+subscription-management-page-subscription-interval-daily = { $productName } (dagelijks)
+subscription-management-page-subscription-interval-weekly = { $productName } (wekelijks)
+subscription-management-page-subscription-interval-monthly = { $productName } (maandelijks)
+subscription-management-page-subscription-interval-halfyearly = { $productName } (halfjaarlijks)
+subscription-management-page-subscription-interval-yearly = { $productName } (jaarlijks)
 # Page - Not Found
 page-not-found-title = Pagina niet gevonden
 page-not-found-description = De opgevraagde pagina is niet gevonden. We zijn op de hoogte en zullen koppelingen die mogelijk niet werken herstellen.
@@ -255,6 +260,21 @@ next-new-user-subscribe-product-updates-mdnplus = Ik wil graag productnieuws en 
 next-new-user-subscribe-product-updates-mozilla = Ik wil graag productnieuws en -updates van { -brand-mozilla } ontvangen
 next-new-user-subscribe-product-updates-snp = Ik wil graag beveiligings- en privacynieuws en updates van { -brand-mozilla } ontvangen
 next-new-user-subscribe-product-assurance = We gebruiken uw e-mailadres alleen om uw account aan te maken. We zullen het nooit aan een derde partij verkopen.
+
+## Examples of coupon applied
+## 20% OFF coupon applied: $11.20 + $0.35 tax
+## Holiday Offer 2023 coupon applied: 6,42 €
+## Cybersecurity Awareness Month 2023 coupon applied: $11.20 + $0.35 tax
+## Summer Promo VPN coupon applied: $11.20
+## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., 08/21/2025 for US locale, 21/08/25 for FR locale)
+## $invoiceTotal (Number) - The amount billed (excluding tax if tax does not exist). It will be formatted as currency.
+## $nextBillDate (Date) - The date for the next time a charge will occur (e.g., 08/21/2025 for US locale, 21/08/25 for FR locale)
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+## $promotionName (String) - The name of the promotion.
+## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
+
+subscription-content-next-bill-no-tax = De volgende factuur van { $invoiceTotal } is verschuldigd op { $nextBillDate }
+subscription-content-heading-cancel-subscription = Abonnement opzeggen
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
