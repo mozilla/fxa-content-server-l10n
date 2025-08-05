@@ -97,6 +97,8 @@ subscription-management-account-profile-picture = Kontots profilbild
 
 ## Page - Subscription Management
 
+subscription-management-account-credit-balance-heading = Kontosaldo
+subscription-management-account-credit-balance-message = Kredit kommer automatiskt att tillämpas på framtida fakturor
 subscription-management-payment-information-heading = Betalningsinformation
 subscription-management-button-add-payment-method-aria = Lägg till betalningsmetod
 subscription-management-button-add-payment-method = Lägg till
@@ -124,6 +126,11 @@ subscription-management-button-manage-subscription = Hantera
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
 
+subscription-management-page-subscription-interval-daily = { $productName } (dagligen)
+subscription-management-page-subscription-interval-weekly = { $productName } (veckovis)
+subscription-management-page-subscription-interval-monthly = { $productName } (månadsvis)
+subscription-management-page-subscription-interval-halfyearly = { $productName } (6-månader)
+subscription-management-page-subscription-interval-yearly = { $productName } (årligen)
 # Page - Not Found
 page-not-found-title = Sidan hittades inte
 page-not-found-description = Sidan du begärde hittades inte. Vi har underrättats och kommer att fixa alla länkar som kan vara trasiga.
@@ -255,6 +262,33 @@ next-new-user-subscribe-product-updates-mdnplus = Jag vill få produktnyheter oc
 next-new-user-subscribe-product-updates-mozilla = Jag vill få produktnyheter och uppdateringar från { -brand-mozilla }
 next-new-user-subscribe-product-updates-snp = Jag vill få nyheter och uppdateringar om säkerhet och sekretess från { -brand-mozilla }
 next-new-user-subscribe-product-assurance = Vi använder bara din e-postadress för att skapa ditt konto. Vi kommer aldrig att sälja den till en tredje part.
+
+## Examples of coupon applied
+## 20% OFF coupon applied: $11.20 + $0.35 tax
+## Holiday Offer 2023 coupon applied: 6,42 €
+## Cybersecurity Awareness Month 2023 coupon applied: $11.20 + $0.35 tax
+## Summer Promo VPN coupon applied: $11.20
+## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., 08/21/2025 for US locale, 21/08/25 for FR locale)
+## $invoiceTotal (Number) - The amount billed (excluding tax if tax does not exist). It will be formatted as currency.
+## $nextBillDate (Date) - The date for the next time a charge will occur (e.g., 08/21/2025 for US locale, 21/08/25 for FR locale)
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+## $promotionName (String) - The name of the promotion.
+## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
+
+subscription-content-promotion-applied-no-tax = { $promotionName } kupong applicerad: { $invoiceTotal }
+subscription-content-promotion-applied-with-tax = { $promotionName } kupong applicerad: { $invoiceTotal } + { $taxDue } skatt
+subscription-content-current-with-tax = { $invoiceTotal } + { $taxDue } skatt
+subscription-content-next-bill-no-tax = Nästa räkning på { $invoiceTotal } förfaller { $nextBillDate }
+subscription-content-next-bill-with-tax = Nästa räkning på { $invoiceTotal } + { $taxDue } skatt ska betalas { $nextBillDate }
+subscription-content-heading-cancel-subscription = Avbryt prenumeration
+subscription-content-no-longer-use-message = Du kommer inte längre att kunna använda { $productName } efter { $currentPeriodEnd }, den sista dagen i din faktureringscykel.
+subscription-content-cancel-access-message = Avbryt min åtkomst och min sparade information inom { $productName } den { $currentPeriodEnd }
+subscription-content-button-stay-subscribed = Fortsätt prenumerera
+    .aria-label = Fortsätt prenumerera på { $productName }
+subscription-content-button-cancel-subscription = Avbryt prenumeration
+    .aria-label = Avbryt prenumeration på { $productName }
+subscription-content-button-cancel = Avbryt
+    .aria-label = Avbryt din prenumeration på { $productName }
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
