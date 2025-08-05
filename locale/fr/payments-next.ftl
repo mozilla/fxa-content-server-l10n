@@ -97,7 +97,7 @@ subscription-management-account-profile-picture = Image de profil du compte
 
 ## Page - Subscription Management
 
-subscription-management-account-credit-balance-heading = solde créditeur
+subscription-management-account-credit-balance-heading = Solde créditeur du compte
 subscription-management-account-credit-balance-message = Le crédit sera automatiquement appliqué à vos prochaines factures
 subscription-management-payment-information-heading = Informations de paiement
 subscription-management-button-add-payment-method-aria = Ajouter un moyen de paiement
@@ -128,7 +128,7 @@ subscription-management-button-manage-subscription = Gérer
 
 subscription-management-page-subscription-interval-daily = { $productName } (par jour)
 subscription-management-page-subscription-interval-weekly = { $productName } (par semaine)
-subscription-management-page-subscription-interval-monthly = { $productName } (mensuel)
+subscription-management-page-subscription-interval-monthly = { $productName } (par mois)
 subscription-management-page-subscription-interval-halfyearly = { $productName } (6 mois)
 subscription-management-page-subscription-interval-yearly = { $productName } (par an)
 # Page - Not Found
@@ -275,16 +275,16 @@ next-new-user-subscribe-product-assurance = Nous utilisons votre adresse e-mail 
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
-subscription-content-promotion-applied-no-tax = { $promotionName } bon de réduction appliqué : { $invoiceTotal }
-subscription-content-promotion-applied-with-tax = { $promotionName } du bon de réduction appliqué : { $invoiceTotal } + { $taxDue } de taxes
+subscription-content-promotion-applied-no-tax = Bon de réduction { $promotionName } appliqué : { $invoiceTotal }
+subscription-content-promotion-applied-with-tax = Bon de réduction { $promotionName } appliqué : { $invoiceTotal } + { $taxDue } de taxes
 subscription-content-current-with-tax = { $invoiceTotal } + { $taxDue } de taxes
 subscription-content-next-bill-no-tax = La prochaine facture de { $invoiceTotal } est due le { $nextBillDate }
-subscription-content-next-bill-with-tax = La prochaine facture de { $invoiceTotal } + { $taxDue } taxes est due { $nextBillDate }
+subscription-content-next-bill-with-tax = La prochaine facture de { $invoiceTotal } + { $taxDue } de taxes est due le { $nextBillDate }
 subscription-content-heading-cancel-subscription = Annuler l’abonnement
-subscription-content-no-longer-use-message = Vous ne pourrez plus utiliser { $productName } après { $currentPeriodEnd }, le dernier jour de votre cycle de facturation.
-subscription-content-cancel-access-message = Annuler mon accès et mes informations enregistrées dans un délai de { $productName } le { $currentPeriodEnd }
+subscription-content-no-longer-use-message = Vous ne pourrez plus utiliser { $productName } après le { $currentPeriodEnd }, le dernier jour de votre cycle de facturation.
+subscription-content-cancel-access-message = Annuler mon accès et mes informations enregistrées dans { $productName } le { $currentPeriodEnd }
 subscription-content-button-stay-subscribed = Conserver l’abonnement
-    .aria-label = Rester abonné à { $productName }
+    .aria-label = Conserver l’abonnement à { $productName }
 subscription-content-button-cancel-subscription = Annuler l’abonnement
     .aria-label = Annuler votre abonnement à { $productName }
 subscription-content-button-cancel = Annuler
