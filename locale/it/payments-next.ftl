@@ -98,7 +98,7 @@ subscription-management-account-profile-picture = Immagine del profilo per l’a
 ## Page - Subscription Management
 
 subscription-management-account-credit-balance-heading = Saldo dell’account
-subscription-management-account-credit-balance-message = Il credito verrà automaticamente applicato alle fatture future
+subscription-management-account-credit-balance-message = Il credito verrà automaticamente applicato alle prossime fatture
 subscription-management-payment-information-heading = Informazioni sul pagamento
 subscription-management-button-add-payment-method-aria = Aggiungi metodo di pagamento
 subscription-management-button-add-payment-method = Aggiungi
@@ -127,10 +127,10 @@ subscription-management-button-manage-subscription = Gestisci
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
 
 subscription-management-page-subscription-interval-daily = { $productName } (al giorno)
-subscription-management-page-subscription-interval-weekly = { $productName } (settimanale)
+subscription-management-page-subscription-interval-weekly = { $productName } (alla settimana)
 subscription-management-page-subscription-interval-monthly = { $productName } (al mese)
 subscription-management-page-subscription-interval-halfyearly = { $productName } (6 mesi)
-subscription-management-page-subscription-interval-yearly = { $productName } (annuale)
+subscription-management-page-subscription-interval-yearly = { $productName } (all’anno)
 # Page - Not Found
 page-not-found-title = Pagina non trovata
 page-not-found-description = La pagina richiesta non è stata trovata. Abbiamo ricevuto una segnalazione e risolveremo eventuali collegamenti non funzionanti.
@@ -275,20 +275,20 @@ next-new-user-subscribe-product-assurance = Utilizziamo la tua email solo per cr
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
-subscription-content-promotion-applied-no-tax = { $promotionName } coupon applicato: { $invoiceTotal }
-subscription-content-promotion-applied-with-tax = { $promotionName } coupon applicato: { $invoiceTotal } + { $taxDue } tasse
+subscription-content-promotion-applied-no-tax = Coupon { $promotionName } applicato: { $invoiceTotal }
+subscription-content-promotion-applied-with-tax = Coupon { $promotionName } applicato: { $invoiceTotal } + { $taxDue } tasse
 subscription-content-current-with-tax = { $invoiceTotal } + { $taxDue } tasse
-subscription-content-next-bill-no-tax = La prossima fattura di { $invoiceTotal } è in scadenza { $nextBillDate }
-subscription-content-next-bill-with-tax = La prossima fattura di { $invoiceTotal } + { $taxDue } tasse è in scadenza { $nextBillDate }
-subscription-content-heading-cancel-subscription = Annulla abbonamento
+subscription-content-next-bill-no-tax = La prossima fattura di { $invoiceTotal } è in scadenza il { $nextBillDate }
+subscription-content-next-bill-with-tax = La prossima fattura di { $invoiceTotal } + { $taxDue } tasse è in scadenza il { $nextBillDate }
+subscription-content-heading-cancel-subscription = Cancella abbonamento
 subscription-content-no-longer-use-message = Non potrai più utilizzare { $productName } dopo { $currentPeriodEnd }, l’ultimo giorno del ciclo di fatturazione.
-subscription-content-cancel-access-message = Annulla il mio accesso e le informazioni salvate entro { $productName } il { $currentPeriodEnd }
-subscription-content-button-stay-subscribed = Resta abbonato
+subscription-content-cancel-access-message = Disattiva il mio accesso e rimuovi le informazioni salvate in { $productName } prima di { $currentPeriodEnd }
+subscription-content-button-stay-subscribed = Rimani abbonato
     .aria-label = Rimani abbonato a { $productName }
-subscription-content-button-cancel-subscription = Annulla abbonamento
-    .aria-label = Annulla l’abbonamento a { $productName }
-subscription-content-button-cancel = Annulla
-    .aria-label = Annulla l’abbonamento a { $productName }
+subscription-content-button-cancel-subscription = Cancella abbonamento
+    .aria-label = Cancella l’abbonamento a { $productName }
+subscription-content-button-cancel = Cancella
+    .aria-label = Cancella l’abbonamento a { $productName }
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
