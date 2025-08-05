@@ -120,6 +120,11 @@ subscription-management-button-manage-subscription = ניהול
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
 
+subscription-management-page-subscription-interval-daily = ‏{ $productName } (יומי)
+subscription-management-page-subscription-interval-weekly = ‏{ $productName } (שבועי)
+subscription-management-page-subscription-interval-monthly = ‏{ $productName } (חודשי)
+subscription-management-page-subscription-interval-halfyearly = ‏{ $productName } (6 חודשים)
+subscription-management-page-subscription-interval-yearly = ‏{ $productName } (שנתי)
 # Page - Not Found
 page-not-found-title = הדף לא נמצא
 page-not-found-description = העמוד המבוקש לא נמצא. קיבלנו את המידע הדרוש ונתקן את הקישורים שייתכן שנשברו.
@@ -242,6 +247,29 @@ next-new-user-subscribe-product-updates-mdnplus = ברצוני לקבל חדשו
 next-new-user-subscribe-product-updates-mozilla = ברצוני לקבל חדשות ועדכונים על מוצרים מ־{ -brand-mozilla }
 next-new-user-subscribe-product-updates-snp = ברצוני לקבל חדשות ועדכונים על פרטיות ואבטחה מ־{ -brand-mozilla }
 next-new-user-subscribe-product-assurance = אנו משתמשים בדוא״ל שלך רק ליצירת החשבון שלך. לעולם לא נמכור אותו לצד שלישי.
+
+## Examples of coupon applied
+## 20% OFF coupon applied: $11.20 + $0.35 tax
+## Holiday Offer 2023 coupon applied: 6,42 €
+## Cybersecurity Awareness Month 2023 coupon applied: $11.20 + $0.35 tax
+## Summer Promo VPN coupon applied: $11.20
+## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., 08/21/2025 for US locale, 21/08/25 for FR locale)
+## $invoiceTotal (Number) - The amount billed (excluding tax if tax does not exist). It will be formatted as currency.
+## $nextBillDate (Date) - The date for the next time a charge will occur (e.g., 08/21/2025 for US locale, 21/08/25 for FR locale)
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+## $promotionName (String) - The name of the promotion.
+## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
+
+subscription-content-promotion-applied-no-tax = קופון של { $promotionName } הוחל: { $invoiceTotal }
+subscription-content-promotion-applied-with-tax = קופון של { $promotionName } הוחל: { $invoiceTotal } + מס בסך { $taxDue }
+subscription-content-current-with-tax = { $invoiceTotal } + מס בסך { $taxDue }
+subscription-content-heading-cancel-subscription = ביטול מינוי
+subscription-content-no-longer-use-message = לא תהיה לך עוד אפשרות להשתמש ב־{ $productName } אחרי { $currentPeriodEnd }, היום האחרון של מחזור החיוב שלך.
+subscription-content-cancel-access-message = בטלו את הגישה ואת המידע השמור שלי בתוך { $productName } בתאריך { $currentPeriodEnd }
+subscription-content-button-stay-subscribed = להישאר רשום כמינוי
+    .aria-label = להישאר רשום כמינוי ל־{ $productName }
+subscription-content-button-cancel-subscription = לבטל את המינוי
+    .aria-label = לבטל את המינוי שלך ל־{ $productName }
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
