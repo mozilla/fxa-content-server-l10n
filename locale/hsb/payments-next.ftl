@@ -127,6 +127,11 @@ subscription-management-button-manage-subscription = Rjadować
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
 
+subscription-management-page-subscription-interval-daily = { $productName } (kóždy dźeń)
+subscription-management-page-subscription-interval-weekly = { $productName } (kóždy tydźeń)
+subscription-management-page-subscription-interval-monthly = { $productName } (kóždy měsac)
+subscription-management-page-subscription-interval-halfyearly = { $productName } (6-měsacny)
+subscription-management-page-subscription-interval-yearly = { $productName } (kóžde lěto)
 # Page - Not Found
 page-not-found-title = Strona njeje so namakała
 page-not-found-description = Strona, kotruž sće požadał, njeje so namakała. Smy powěsć dóstali a porjedźimy skóncowane wotkazy.
@@ -271,7 +276,16 @@ next-new-user-subscribe-product-assurance = Wužiwamy jenož wašu e-mejlowu adr
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
+subscription-content-current-with-tax = { $invoiceTotal } + { $taxDue } dawka
+subscription-content-next-bill-no-tax = Přichodna zličbowanka { $invoiceTotal } je płaćomna { $nextBillDate }
+subscription-content-next-bill-with-tax = Přichodna zličbowanka { $invoiceTotal } + { $taxDue } dawka je płaćomna { $nextBillDate }
 subscription-content-heading-cancel-subscription = Abonement wupowědźić
+subscription-content-no-longer-use-message =
+    Po { $currentPeriodEnd }, poslednim dnju swojeho wotličenskeje periody,
+    hižo njemóžeće { $productName } wužiwać.
+subscription-content-cancel-access-message = Wotstrońće mój přistup  a moje składowane informacije w { $productName } dnja { $currentPeriodEnd }
+subscription-content-button-stay-subscribed = Dale abonować
+    .aria-label = { $productName } dale abonować
 subscription-content-button-cancel-subscription = Abonement wupowědźić
     .aria-label = Waš abonement { $productName } wupowědźić
 subscription-content-button-cancel = Wupowědźić
