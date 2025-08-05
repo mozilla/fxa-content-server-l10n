@@ -98,7 +98,7 @@ subscription-management-account-profile-picture = Foto de perfil de la cuenta
 ## Page - Subscription Management
 
 subscription-management-account-credit-balance-heading = Saldo de crédito de la cuenta
-subscription-management-account-credit-balance-message = El crédito se aplicará automáticamente a futuras facturas
+subscription-management-account-credit-balance-message = El crédito se aplicará automáticamente a facturas futuras
 subscription-management-payment-information-heading = Información de pago
 subscription-management-button-add-payment-method-aria = Agregar método de pago
 subscription-management-button-add-payment-method = Agregar
@@ -126,8 +126,8 @@ subscription-management-button-manage-subscription = Administrar
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
 
-subscription-management-page-subscription-interval-daily = { $productName } (diariamente)
-subscription-management-page-subscription-interval-weekly = { $productName } (semanalmente)
+subscription-management-page-subscription-interval-daily = { $productName } (diario)
+subscription-management-page-subscription-interval-weekly = { $productName } (semanal)
 subscription-management-page-subscription-interval-monthly = { $productName } (mensual)
 subscription-management-page-subscription-interval-halfyearly = { $productName } (6 meses)
 subscription-management-page-subscription-interval-yearly = { $productName } (anual)
@@ -275,20 +275,20 @@ next-new-user-subscribe-product-assurance = Solo usamos tu correo electrónico p
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
-subscription-content-promotion-applied-no-tax = { $promotionName } cupón aplicado: { $invoiceTotal }
-subscription-content-promotion-applied-with-tax = { $promotionName } cupón aplicado: { $invoiceTotal } + { $taxDue } impuestos
+subscription-content-promotion-applied-no-tax = Cupón { $promotionName } aplicado: { $invoiceTotal }
+subscription-content-promotion-applied-with-tax = Cupón { $promotionName } aplicado: { $invoiceTotal } + { $taxDue } impuestos
 subscription-content-current-with-tax = { $invoiceTotal } + { $taxDue } impuestos
-subscription-content-next-bill-no-tax = La próxima factura de { $invoiceTotal } vence { $nextBillDate }
-subscription-content-next-bill-with-tax = La próxima factura de { $invoiceTotal } + { $taxDue } impuestos vence { $nextBillDate }
+subscription-content-next-bill-no-tax = La próxima factura de { $invoiceTotal } vence el { $nextBillDate }
+subscription-content-next-bill-with-tax = La próxima factura de { $invoiceTotal } + { $taxDue } impuestos vence el { $nextBillDate }
 subscription-content-heading-cancel-subscription = Cancelar suscripción
-subscription-content-no-longer-use-message = Ya no podrás usar { $productName } después de { $currentPeriodEnd }, el último día de tu ciclo de facturación.
-subscription-content-cancel-access-message = Cancelar mi acceso y mi información guardada dentro de { $productName } el { $currentPeriodEnd }
+subscription-content-no-longer-use-message = No se podrá usar { $productName } después de { $currentPeriodEnd }, el último día del ciclo de facturación.
+subscription-content-cancel-access-message = Cancelar mi acceso y mi información guardada en { $productName } el { $currentPeriodEnd }
 subscription-content-button-stay-subscribed = Mantener suscripción
     .aria-label = Mantener la suscripción a { $productName }
 subscription-content-button-cancel-subscription = Cancelar suscripción
-    .aria-label = Cancelá tu suscripción a { $productName }
+    .aria-label = Cancelar la suscripción a { $productName }
 subscription-content-button-cancel = Cancelar
-    .aria-label = Cancelá tu suscripción a { $productName }
+    .aria-label = Cancelá la suscripción a { $productName }
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
