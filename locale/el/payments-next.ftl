@@ -97,6 +97,8 @@ subscription-management-account-profile-picture = Εικόνα προφίλ λο
 
 ## Page - Subscription Management
 
+subscription-management-account-credit-balance-heading = Πιστωτικό υπόλοιπο λογαριασμού
+subscription-management-account-credit-balance-message = Η πίστωση θα εφαρμόζεται αυτόματα στα μελλοντικά παραστατικά
 subscription-management-payment-information-heading = Στοιχεία πληρωμής
 subscription-management-button-add-payment-method-aria = Προσθήκη μεθόδου πληρωμής
 subscription-management-button-add-payment-method = Προσθήκη
@@ -273,7 +275,16 @@ next-new-user-subscribe-product-assurance = Χρησιμοποιούμε το em
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
+subscription-content-promotion-applied-no-tax = Εφαρμόστηκε το κουπόνι { $promotionName }: { $invoiceTotal }
+subscription-content-promotion-applied-with-tax = Εφαρμόστηκε το κουπόνι { $promotionName }: { $invoiceTotal } + { $taxDue } (φόρος)
+subscription-content-current-with-tax = { $invoiceTotal } + { $taxDue } (φόρος)
+subscription-content-next-bill-no-tax = Ο επόμενος λογαριασμός των { $invoiceTotal } λήγει στις { $nextBillDate }
+subscription-content-next-bill-with-tax = Ο επόμενος λογαριασμός των { $invoiceTotal } + { $taxDue } (φόρος) λήγει στις { $nextBillDate }
 subscription-content-heading-cancel-subscription = Ακύρωση συνδρομής
+subscription-content-no-longer-use-message = Δεν θα μπορείτε πλέον να χρησιμοποιείτε το { $productName } μετά τις { $currentPeriodEnd }, την τελευταία ημέρα του κύκλου χρέωσής σας.
+subscription-content-cancel-access-message = Ακύρωση της πρόσβασής μου και των αποθηκευμένων πληροφοριών μου εντός του { $productName } στις { $currentPeriodEnd }
+subscription-content-button-stay-subscribed = Διατήρηση συνδρομής
+    .aria-label = Παραμείνετε συνδρομητής του { $productName }
 subscription-content-button-cancel-subscription = Ακύρωση συνδρομής
     .aria-label = Ακυρώστε τη συνδρομή σας στο { $productName }
 subscription-content-button-cancel = Ακύρωση
