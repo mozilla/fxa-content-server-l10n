@@ -97,6 +97,7 @@ subscription-management-account-profile-picture = Imagine de profilo del conto
 
 ## Page - Subscription Management
 
+subscription-management-account-credit-balance-message = Le credito sera automaticamente applicate al facturas futur
 subscription-management-payment-information-heading = Informationes de pagamento
 subscription-management-button-add-payment-method-aria = Adder methodo de pagamento
 subscription-management-button-add-payment-method = Adder
@@ -273,9 +274,14 @@ next-new-user-subscribe-product-assurance = Nos usa tu adresse email solo pro cr
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
+subscription-content-promotion-applied-no-tax = { $promotionName } coupon applicate: { $invoiceTotal }
+subscription-content-promotion-applied-with-tax = { $promotionName } coupon applicate: { $invoiceTotal } + taxa de { $taxDue }
+subscription-content-current-with-tax = { $invoiceTotal } + taxa de { $taxDue }
 subscription-content-next-bill-no-tax = Le factura successive de { $invoiceTotal } es debite le { $nextBillDate }
 subscription-content-next-bill-with-tax = Le factura successive de { $invoiceTotal } + taxa de { $taxDue } es debite le { $nextBillDate }
 subscription-content-heading-cancel-subscription = Cancellar abonamento
+subscription-content-no-longer-use-message = Tu non plus potera usar { $productName } post { $currentPeriodEnd }, le ultime die de tu termino de facturation.
+subscription-content-cancel-access-message = Cancellar mi accesso e mi informationes salvate intra { $productName } in { $currentPeriodEnd }
 subscription-content-button-stay-subscribed = Restar abonate
     .aria-label = Restar abonate a { $productName }
 subscription-content-button-cancel-subscription = Cancellar abonamento
