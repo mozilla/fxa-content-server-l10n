@@ -97,6 +97,8 @@ subscription-management-account-profile-picture = Фото профиля акк
 
 ## Page - Subscription Management
 
+subscription-management-account-credit-balance-heading = Баланс кредита на аккаунте
+subscription-management-account-credit-balance-message = Кредит будет автоматически использован для оплаты будущих счетов
 subscription-management-payment-information-heading = Платежная информация
 subscription-management-button-add-payment-method-aria = Добавить способ оплаты
 subscription-management-button-add-payment-method = Добавить
@@ -124,6 +126,11 @@ subscription-management-button-manage-subscription = Управление
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
 
+subscription-management-page-subscription-interval-daily = { $productName } (ежедневно)
+subscription-management-page-subscription-interval-weekly = { $productName } (еженедельно)
+subscription-management-page-subscription-interval-monthly = { $productName } (ежемесячно)
+subscription-management-page-subscription-interval-halfyearly = { $productName } (каждые полгода)
+subscription-management-page-subscription-interval-yearly = { $productName } (ежегодно)
 # Page - Not Found
 page-not-found-title = Страница не найдена
 page-not-found-description = Запрошенная страница не найдена. Мы уже получили уведомление и исправим все возможные ошибки в ссылках.
@@ -255,6 +262,33 @@ next-new-user-subscribe-product-updates-mdnplus = Я хочу получать �
 next-new-user-subscribe-product-updates-mozilla = Я хочу получать новости о продуктах и обновления от { -brand-mozilla }
 next-new-user-subscribe-product-updates-snp = Я хочу получать новости о безопасности и конфиденциальности от { -brand-mozilla }
 next-new-user-subscribe-product-assurance = Мы используем вашу электронную почту только для создания вашего аккаунта. Мы никогда не продадим его посторонним лицам.
+
+## Examples of coupon applied
+## 20% OFF coupon applied: $11.20 + $0.35 tax
+## Holiday Offer 2023 coupon applied: 6,42 €
+## Cybersecurity Awareness Month 2023 coupon applied: $11.20 + $0.35 tax
+## Summer Promo VPN coupon applied: $11.20
+## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., 08/21/2025 for US locale, 21/08/25 for FR locale)
+## $invoiceTotal (Number) - The amount billed (excluding tax if tax does not exist). It will be formatted as currency.
+## $nextBillDate (Date) - The date for the next time a charge will occur (e.g., 08/21/2025 for US locale, 21/08/25 for FR locale)
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+## $promotionName (String) - The name of the promotion.
+## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
+
+subscription-content-promotion-applied-no-tax = Применён купон { $promotionName }: { $invoiceTotal }
+subscription-content-promotion-applied-with-tax = Применён купон { $promotionName }: { $invoiceTotal } + { $taxDue } налог
+subscription-content-current-with-tax = { $invoiceTotal } + { $taxDue } налог
+subscription-content-next-bill-no-tax = Следующий счёт на { $invoiceTotal } подлежит оплате { $nextBillDate }
+subscription-content-next-bill-with-tax = Следующий счёт в размере { $invoiceTotal } + { $taxDue } налог подлежит оплате { $nextBillDate }
+subscription-content-heading-cancel-subscription = Отменить подписку
+subscription-content-no-longer-use-message = Вы не сможете больше использовать { $productName } после { $currentPeriodEnd }, последнего дня вашего платёжного цикла.
+subscription-content-cancel-access-message = Отменить мой доступ и сохранённую информацию в { $productName } { $currentPeriodEnd }
+subscription-content-button-stay-subscribed = Оставить подписку
+    .aria-label = Оставить подписку на { $productName }
+subscription-content-button-cancel-subscription = Отменить подписку
+    .aria-label = Отменить вашу подписку на { $productName }
+subscription-content-button-cancel = Отменить
+    .aria-label = Отменить вашу подписку на { $productName }
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
