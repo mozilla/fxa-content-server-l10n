@@ -124,6 +124,11 @@ subscription-management-button-manage-subscription = Διαχείριση
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
 
+subscription-management-page-subscription-interval-daily = { $productName } (ημερήσια)
+subscription-management-page-subscription-interval-weekly = { $productName } (εβδομαδιαία)
+subscription-management-page-subscription-interval-monthly = { $productName } (μηνιαία)
+subscription-management-page-subscription-interval-halfyearly = { $productName } (εξαμηνιαία)
+subscription-management-page-subscription-interval-yearly = { $productName } (ετήσια)
 # Page - Not Found
 page-not-found-title = Η σελίδα δεν βρέθηκε
 page-not-found-description = Η σελίδα που ζητήσατε δεν βρέθηκε. Έχουμε ειδοποιηθεί και θα διορθώσουμε τυχόν συνδέσμους που ενδέχεται να μην λειτουργούν.
@@ -268,6 +273,7 @@ next-new-user-subscribe-product-assurance = Χρησιμοποιούμε το em
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
+subscription-content-heading-cancel-subscription = Ακύρωση συνδρομής
 subscription-content-button-cancel-subscription = Ακύρωση συνδρομής
     .aria-label = Ακυρώστε τη συνδρομή σας στο { $productName }
 subscription-content-button-cancel = Ακύρωση
