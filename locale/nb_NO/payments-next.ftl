@@ -275,6 +275,8 @@ next-new-user-subscribe-product-assurance = Vi bruker kun e-postadressen din til
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
+subscription-content-promotion-applied-no-tax = { $promotionName }-kupong er lagt til: { $invoiceTotal }
+subscription-content-promotion-applied-with-tax = { $promotionName }-kupong er lagt til: { $invoiceTotal } + { $taxDue } moms
 subscription-content-current-with-tax = { $invoiceTotal } + { $taxDue } moms
 subscription-content-next-bill-no-tax = Neste regning på { $invoiceTotal } forfaller den { $nextBillDate }
 subscription-content-next-bill-with-tax = Neste regning på { $invoiceTotal } + { $taxDue } moms forfaller den { $nextBillDate }
