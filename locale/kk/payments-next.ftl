@@ -79,9 +79,11 @@ subscription-management-card-ending-in = { $last4 } деп аяқталатын 
 subscription-management-card-expires-date = Мерзімі { $expirationDate } күні аяқталады
 subscription-management-subscriptions-heading = Жазылулар
 subscription-management-your-subscriptions-aria = Сіздің жазылуларыңыз
-subscription-management-button-cancel-subscription-aria = Жазылудан бас тарту
-subscription-management-button-cancel-subscription = Бас тарту
 subscription-management-button-manage-subscription = Басқару
+
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
+
 # Page - Not Found
 page-not-found-title = Бет табылмады
 page-not-found-description = Сіз сұраған бет табылмады. Ол туралы біз хабарды алдық, және қате бола алатын сілтемелерді жөндейміз.

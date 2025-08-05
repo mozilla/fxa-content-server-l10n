@@ -109,8 +109,6 @@ subscription-management-card-expires-date = 만료 { $expirationDate }
 subscription-management-subscriptions-heading = 구독
 subscription-management-your-subscriptions-aria = 구독 목록
 subscription-management-no-subscriptions = 아직 구독정보가 없습니다.
-subscription-management-button-cancel-subscription-aria = 구독 취소
-subscription-management-button-cancel-subscription = 취소
 subscription-management-your-apple-iap-subscriptions-aria = { -brand-apple } 앱 내부 구독
 subscription-management-apple-in-app-purchase = { -brand-apple }: 앱 내 구매
 subscription-management-your-google-iap-subscriptions-aria = { -brand-google } 앱 내부 구독
@@ -122,6 +120,10 @@ subscription-management-iap-sub-expires-on = { $date }에 만료
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = { $productName } 구독 관리
 subscription-management-button-manage-subscription = 관리
+
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
+
 # Page - Not Found
 page-not-found-title = 페이지를 찾을 수 없음
 page-not-found-description = 요청하신 페이지를 찾을 수 없습니다. 알림을 받았으며 잘못된 모든 링크를 수정할 예정입니다.

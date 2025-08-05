@@ -111,8 +111,6 @@ subscription-management-card-expires-date = მოქმედების ვ�
 subscription-management-subscriptions-heading = გამოწერები
 subscription-management-your-subscriptions-aria = თქვენი გამოწერილები
 subscription-management-no-subscriptions = გამოწერილები ჯერ არაა
-subscription-management-button-cancel-subscription-aria = გამოწერის გაუქმება
-subscription-management-button-cancel-subscription = გაუქმება
 subscription-management-your-apple-iap-subscriptions-aria = თქვენი { -brand-apple } შიდა გამოწერებით
 subscription-management-apple-in-app-purchase = { -brand-apple }: აპის შიდა შესყიდვა
 subscription-management-your-google-iap-subscriptions-aria = თქვენი { -brand-google } შიდა გამოწერებით
@@ -124,6 +122,10 @@ subscription-management-iap-sub-expires-on = ვადის გასვლი�
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = გამოწერის მართვა – { $productName }
 subscription-management-button-manage-subscription = მართვა
+
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
+
 # Page - Not Found
 page-not-found-title = გვერდი ვერ მოიძებნა
 page-not-found-description = თქვენ მიერ მოთხოვნილი გვერდი ვერ მოიძებნა. ჩვენ უკვე გვეცნობა ამის შესახებ და ყველა შესაძლო დაზიანებულ ბმულს გავასწორებთ.

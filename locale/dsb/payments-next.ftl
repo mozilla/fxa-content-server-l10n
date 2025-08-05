@@ -112,8 +112,6 @@ subscription-management-card-expires-date = Spadnjo { $expirationDate }
 subscription-management-subscriptions-heading = Abonementy
 subscription-management-your-subscriptions-aria = Waše abonementy
 subscription-management-no-subscriptions = Hyšći abonementy njamaśo.
-subscription-management-button-cancel-subscription-aria = Abonement wupowěźeś
-subscription-management-button-cancel-subscription = Wupowěźeś
 subscription-management-your-apple-iap-subscriptions-aria = Waše abonementy w nałoženju { -brand-apple }
 subscription-management-apple-in-app-purchase = { -brand-apple }: Kup w nałoženju
 subscription-management-your-google-iap-subscriptions-aria = Waše abonementy w nałoženju { -brand-google }
@@ -125,6 +123,10 @@ subscription-management-iap-sub-expires-on = Spadnjo { $date }
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Abonement za { $productName } zastojaś
 subscription-management-button-manage-subscription = Zastojaś
+
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
+
 # Page - Not Found
 page-not-found-title = Bok njejo se namakał
 page-not-found-description = Bok, kótaryž sćo pominał, njejo se namakał. Smy powěsć dostali a pórěźamy njepłaśiwe wótkaze.

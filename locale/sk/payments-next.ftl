@@ -109,8 +109,6 @@ subscription-management-card-expires-date = Vyprší { $expirationDate }
 subscription-management-subscriptions-heading = Predplatné
 subscription-management-your-subscriptions-aria = Vaše predplatné
 subscription-management-no-subscriptions = Zatiaľ nemáte žiadne predplatné
-subscription-management-button-cancel-subscription-aria = Zrušiť predplatné
-subscription-management-button-cancel-subscription = Zrušiť
 subscription-management-your-apple-iap-subscriptions-aria = Vaše predplatné v aplikácii { -brand-apple }
 subscription-management-apple-in-app-purchase = { -brand-apple }: Nákup v aplikácii
 subscription-management-your-google-iap-subscriptions-aria = Vaše predplatné v aplikácii { -brand-google }
@@ -122,6 +120,10 @@ subscription-management-iap-sub-expires-on = Vyprší dňa { $date }
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Spravovať predplatné pre { $productName }
 subscription-management-button-manage-subscription = Spravovať
+
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
+
 # Page - Not Found
 page-not-found-title = Stránka sa nenašla
 page-not-found-description = Požadovaná stránka nebola nájdená. Boli sme na to upozornení a prípadné odkazy smerujúce na túto stránku opravíme.

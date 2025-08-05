@@ -111,8 +111,6 @@ subscription-management-card-expires-date = Lejárat: { $expirationDate }
 subscription-management-subscriptions-heading = Előfizetések
 subscription-management-your-subscriptions-aria = Saját előfizetések
 subscription-management-no-subscriptions = Még nincs előfizetése
-subscription-management-button-cancel-subscription-aria = Előfizetés lemondása
-subscription-management-button-cancel-subscription = Mégse
 subscription-management-your-apple-iap-subscriptions-aria = { -brand-apple } alkalmazásbeli előfizetései
 subscription-management-apple-in-app-purchase = { -brand-apple }: Alkalmazáson belüli vásárlás
 subscription-management-your-google-iap-subscriptions-aria = { -brand-google } alkalmazásbeli előfizetései
@@ -124,6 +122,10 @@ subscription-management-iap-sub-expires-on = Lejárat: { $date }
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = { $productName } előfizetés kezelése
 subscription-management-button-manage-subscription = Kezelés
+
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
+
 # Page - Not Found
 page-not-found-title = Az oldal nem található
 page-not-found-description = A kért oldal nem található. Értesítést kaptunk, és kijavítunk minden, esetleg hibás hivatkozást.

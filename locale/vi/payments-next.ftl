@@ -109,8 +109,6 @@ subscription-management-card-expires-date = Hết hạn vào { $expirationDate }
 subscription-management-subscriptions-heading = Gói đăng ký
 subscription-management-your-subscriptions-aria = Gói đăng ký của tôi
 subscription-management-no-subscriptions = Bạn chưa có gói đăng ký nào
-subscription-management-button-cancel-subscription-aria = Hủy gói đăng ký
-subscription-management-button-cancel-subscription = Hủy bỏ
 subscription-management-your-apple-iap-subscriptions-aria = Gói đăng ký trong ứng dụng { -brand-apple } của bạn
 subscription-management-apple-in-app-purchase = { -brand-apple }: Mua hàng trong ứng dụng
 subscription-management-your-google-iap-subscriptions-aria = Gói đăng ký trong ứng dụng { -brand-google } của bạn
@@ -122,6 +120,10 @@ subscription-management-iap-sub-expires-on = Hết hạn vào { $date }
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Quản lý gói đăng ký cho { $productName }
 subscription-management-button-manage-subscription = Quản lý
+
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
+
 # Page - Not Found
 page-not-found-title = Không tìm thấy trang
 page-not-found-description = Không tìm thấy trang bạn yêu cầu. Chúng tôi đã để ý và sẽ sửa bất kỳ liên kết nào có thể bị hỏng.

@@ -109,8 +109,6 @@ subscription-management-card-expires-date = Poteče { $expirationDate }
 subscription-management-subscriptions-heading = Naročnine
 subscription-management-your-subscriptions-aria = Vaše naročnine
 subscription-management-no-subscriptions = Nimate še nobene naročnine
-subscription-management-button-cancel-subscription-aria = Prekliči naročnino
-subscription-management-button-cancel-subscription = Prekliči
 subscription-management-apple-in-app-purchase = { -brand-apple }: Nakup v aplikaciji
 subscription-management-google-in-app-purchase = { -brand-google }: Nakup v aplikaciji
 # $date (String) - Date of next bill
@@ -120,6 +118,10 @@ subscription-management-iap-sub-expires-on = Preteče { $date }
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Upravljanje naročnine na { $productName }
 subscription-management-button-manage-subscription = Upravljaj
+
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
+
 # Page - Not Found
 page-not-found-title = Strani ni mogoče najti
 page-not-found-description = Zahtevane strani ni bilo mogoče najti. O tem smo obvestili skrbnike, ki bodo odpravili morebitne nedelujoče povezave.

@@ -109,8 +109,6 @@ subscription-management-card-expires-date = 到期於 { $expirationDate }
 subscription-management-subscriptions-heading = 訂閱項目
 subscription-management-your-subscriptions-aria = 您的訂閱項目
 subscription-management-no-subscriptions = 您尚未訂閱任何項目
-subscription-management-button-cancel-subscription-aria = 取消訂閱
-subscription-management-button-cancel-subscription = 取消
 subscription-management-your-apple-iap-subscriptions-aria = 您的 { -brand-apple } 應用程式內訂閱項目
 subscription-management-apple-in-app-purchase = { -brand-apple }：應用程式內購買
 subscription-management-your-google-iap-subscriptions-aria = 您的 { -brand-google } 應用程式內訂閱項目
@@ -122,6 +120,10 @@ subscription-management-iap-sub-expires-on = 於 { $date } 到期
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = 管理 { $productName } 訂閱
 subscription-management-button-manage-subscription = 管理
+
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
+
 # Page - Not Found
 page-not-found-title = 找不到頁面
 page-not-found-description = 找不到您想開啟的頁面。我們已經通知開發團隊來檢查網頁。

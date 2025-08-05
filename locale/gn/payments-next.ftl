@@ -98,9 +98,11 @@ subscription-management-card-ending-in = Kuatia’atã opáva { $last4 }-pe
 subscription-management-card-expires-date = Hu’ãta { $expirationDate }
 subscription-management-subscriptions-heading = Ñemboheraguapy
 subscription-management-your-subscriptions-aria = Ne ñemboheraguapy
-subscription-management-button-cancel-subscription-aria = Eheja mboheraguapy
-subscription-management-button-cancel-subscription = Heja
 subscription-management-button-manage-subscription = Ñangareko
+
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
+
 # Page - Not Found
 page-not-found-title = Kuatiarogue ojejuhu’ỹva
 page-not-found-description = Ndojejuhúi kuatiarogue ejeruréva. Og̃uahẽ ne mba’ejerure ha romoĩporãta juajuha ikatúva oñembyai.

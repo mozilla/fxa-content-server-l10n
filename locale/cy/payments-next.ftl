@@ -109,8 +109,6 @@ subscription-management-card-expires-date = Daw i ben ar { $expirationDate }
 subscription-management-subscriptions-heading = Tanysgrifiadau
 subscription-management-your-subscriptions-aria = Eich tanysgrifiadau
 subscription-management-no-subscriptions = Does gennych chi ddim tanysgrifiadau eto
-subscription-management-button-cancel-subscription-aria = Diddymu'r tanysgrifiad
-subscription-management-button-cancel-subscription = Diddymu
 subscription-management-your-apple-iap-subscriptions-aria = Eich Tanysgrifiad { -brand-apple } o Fewn yr Ap
 subscription-management-apple-in-app-purchase = { -brand-apple }: Prynu o Fewn yr Ap
 subscription-management-your-google-iap-subscriptions-aria = Eich Tanysgrifiad { -brand-google } o Fewn yr Ap
@@ -122,6 +120,10 @@ subscription-management-iap-sub-expires-on = Daw i ben ar { $date }
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Rheoli tanysgrifiad { $productName }
 subscription-management-button-manage-subscription = Rheoli
+
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
+
 # Page - Not Found
 page-not-found-title = Heb ganfod y dudalen
 page-not-found-description = Heb ganfod y dudalen rydych wedi gofyn amdani. Rydym wedi cael ein hysbysu a byddwn yn trwsio unrhyw ddolenni all fod wedi'u torri.

@@ -109,8 +109,6 @@ subscription-management-card-expires-date = Utløper { $expirationDate }
 subscription-management-subscriptions-heading = Abonnementer
 subscription-management-your-subscriptions-aria = Dine abonnementer
 subscription-management-no-subscriptions = Du har ingen abonnementer ennå
-subscription-management-button-cancel-subscription-aria = Avbryt abonnement
-subscription-management-button-cancel-subscription = Avbryt
 subscription-management-your-apple-iap-subscriptions-aria = Dine { -brand-apple } kjøp i app-abonnement
 subscription-management-apple-in-app-purchase = { -brand-apple }: Kjøp i app
 subscription-management-your-google-iap-subscriptions-aria = Dine { -brand-google } kjøp i app-abonnementer
@@ -122,6 +120,10 @@ subscription-management-iap-sub-expires-on = Utløper { $date }
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Behandle abonnement for { $productName }
 subscription-management-button-manage-subscription = Behandle
+
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
+
 # Page - Not Found
 page-not-found-title = Fant ikke siden
 page-not-found-description = Siden du ba om ble ikke funnet. Vi har blitt varslet og vil fikse eventuelle lenker som ikke virker.

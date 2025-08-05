@@ -54,7 +54,8 @@ next-payment-confirmation-download-button = Идома додани боргир
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Корте, ки бо { $last4 } анҷом меёбад
 
-## Page - Subscription Management
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
 
 # Page - Not Found
 page-not-found-title = Саҳифа ёфт нашуд

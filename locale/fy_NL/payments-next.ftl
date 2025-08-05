@@ -109,8 +109,6 @@ subscription-management-card-expires-date = Ferrint op { $expirationDate }
 subscription-management-subscriptions-heading = Abonneminten
 subscription-management-your-subscriptions-aria = Jo abonneminten
 subscription-management-no-subscriptions = Jo hawwe noch gjin abonneminten
-subscription-management-button-cancel-subscription-aria = Abonnemint opsizze
-subscription-management-button-cancel-subscription = Opsizze
 subscription-management-your-apple-iap-subscriptions-aria = Jo { -brand-apple }-yn-app-abonneminten
 subscription-management-apple-in-app-purchase = { -brand-apple }: yn-app-oankeap
 subscription-management-your-google-iap-subscriptions-aria = Jo { -brand-google }-yn-app-abonneminten
@@ -122,6 +120,10 @@ subscription-management-iap-sub-expires-on = Ferrint op { $date }
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Abonnemint foar { $productName } beheare
 subscription-management-button-manage-subscription = Beheare
+
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
+
 # Page - Not Found
 page-not-found-title = Side net fûn
 page-not-found-description = De opfrege side is net fûn. Wy binne op de hichte en sille keppelingen dy't mooglik net wurkje werom bringe.

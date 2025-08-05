@@ -109,8 +109,6 @@ subscription-management-card-expires-date = Срок действия истек
 subscription-management-subscriptions-heading = Подписки
 subscription-management-your-subscriptions-aria = Ваши подписки
 subscription-management-no-subscriptions = У вас пока нет подписок
-subscription-management-button-cancel-subscription-aria = Отменить подписку
-subscription-management-button-cancel-subscription = Отменить
 subscription-management-your-apple-iap-subscriptions-aria = Ваши подписки в приложении { -brand-apple }
 subscription-management-apple-in-app-purchase = { -brand-apple }: Покупка в приложении
 subscription-management-your-google-iap-subscriptions-aria = Ваши подписки в приложении { -brand-google }
@@ -122,6 +120,10 @@ subscription-management-iap-sub-expires-on = Истекает { $date }
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Управление подпиской на { $productName }
 subscription-management-button-manage-subscription = Управление
+
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
+
 # Page - Not Found
 page-not-found-title = Страница не найдена
 page-not-found-description = Запрошенная страница не найдена. Мы уже получили уведомление и исправим все возможные ошибки в ссылках.

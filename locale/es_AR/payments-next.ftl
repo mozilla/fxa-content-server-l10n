@@ -109,8 +109,6 @@ subscription-management-card-expires-date = Vencimiento { $expirationDate }
 subscription-management-subscriptions-heading = Suscripciones
 subscription-management-your-subscriptions-aria = Tus suscripciones
 subscription-management-no-subscriptions = Todavía no tenés ninguna suscripción
-subscription-management-button-cancel-subscription-aria = Cancelar suscripción
-subscription-management-button-cancel-subscription = Cancelar
 subscription-management-your-apple-iap-subscriptions-aria = Tus suscripciones In-App de { -brand-apple }
 subscription-management-apple-in-app-purchase = { -brand-apple }: Compras integradas
 subscription-management-your-google-iap-subscriptions-aria = Tus suscripciones In-App de { -brand-google }
@@ -122,6 +120,10 @@ subscription-management-iap-sub-expires-on = Vence el { $date }
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Administrar suscripción para { $productName }
 subscription-management-button-manage-subscription = Administrar
+
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
+
 # Page - Not Found
 page-not-found-title = Página no encontrada
 page-not-found-description = No se encontró la página solicitada. Hemos sido notificados y vamos a arreglar cualquier enlace que pueda estar roto.

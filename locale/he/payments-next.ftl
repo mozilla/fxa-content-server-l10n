@@ -105,8 +105,6 @@ subscription-management-card-expires-date = תאריך תוקף { $expirationDat
 subscription-management-subscriptions-heading = מינויים
 subscription-management-your-subscriptions-aria = המינויים שלך
 subscription-management-no-subscriptions = אין לך מינויים עדיין.
-subscription-management-button-cancel-subscription-aria = ביטול מינוי
-subscription-management-button-cancel-subscription = ביטול
 subscription-management-your-apple-iap-subscriptions-aria = המינויים שלך מתוך היישומון ב־{ -brand-apple }
 subscription-management-apple-in-app-purchase = ‏{ -brand-apple }: רכישה מתוך היישומון
 subscription-management-your-google-iap-subscriptions-aria = המינויים שלך מתוך היישומון ב־{ -brand-google }
@@ -118,6 +116,10 @@ subscription-management-iap-sub-expires-on = יפוג בתאריך { $date }
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = ניהול מינוי עבור { $productName }
 subscription-management-button-manage-subscription = ניהול
+
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
+
 # Page - Not Found
 page-not-found-title = הדף לא נמצא
 page-not-found-description = העמוד המבוקש לא נמצא. קיבלנו את המידע הדרוש ונתקן את הקישורים שייתכן שנשברו.

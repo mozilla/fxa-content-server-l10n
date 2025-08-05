@@ -106,13 +106,15 @@ subscription-management-card-expires-date = Wygasa { $expirationDate }
 subscription-management-subscriptions-heading = Subskrypcje
 subscription-management-your-subscriptions-aria = Twoje subskrypcje
 subscription-management-no-subscriptions = Nie masz jeszcze żadnych subskrypcji
-subscription-management-button-cancel-subscription-aria = Anuluj subskrypcję
-subscription-management-button-cancel-subscription = Anuluj
 # $date (String) - Date of next bill
 subscription-management-iap-sub-next-bill = Następna płatność: { $date }
 # $date (String) - Date of In-App purchase expires
 subscription-management-iap-sub-expires-on = Wygasa { $date }
 subscription-management-button-manage-subscription = Zarządzaj
+
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
+
 # Page - Not Found
 page-not-found-title = Nie odnaleziono strony
 page-not-found-description = Nie odnaleziono żądanej strony. Powiadomiono administratora, który naprawi błędne odnośniki.

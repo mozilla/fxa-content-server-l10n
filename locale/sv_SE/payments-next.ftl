@@ -109,8 +109,6 @@ subscription-management-card-expires-date = Upphör { $expirationDate }
 subscription-management-subscriptions-heading = Prenumerationer
 subscription-management-your-subscriptions-aria = Dina prenumerationer
 subscription-management-no-subscriptions = Du har inga prenumerationer än
-subscription-management-button-cancel-subscription-aria = Avbryt prenumeration
-subscription-management-button-cancel-subscription = Avbryt
 subscription-management-your-apple-iap-subscriptions-aria = Dina prenumerationer i { -brand-apple }-appen
 subscription-management-apple-in-app-purchase = { -brand-apple }: Köp i appen
 subscription-management-your-google-iap-subscriptions-aria = Dina prenumerationer i { -brand-google }-appen
@@ -122,6 +120,10 @@ subscription-management-iap-sub-expires-on = Upphör { $date }
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Hantera prenumerationer för { $productName }
 subscription-management-button-manage-subscription = Hantera
+
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
+
 # Page - Not Found
 page-not-found-title = Sidan hittades inte
 page-not-found-description = Sidan du begärde hittades inte. Vi har underrättats och kommer att fixa alla länkar som kan vara trasiga.

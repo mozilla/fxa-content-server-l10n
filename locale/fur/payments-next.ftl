@@ -108,8 +108,6 @@ subscription-management-card-expires-date = Al scjât al/ai { $expirationDate }
 subscription-management-subscriptions-heading = Abonaments
 subscription-management-your-subscriptions-aria = I tiei abonaments
 subscription-management-no-subscriptions = No tu âs ancjemò nissun abonament
-subscription-management-button-cancel-subscription-aria = Anule l'abonament
-subscription-management-button-cancel-subscription = Anule
 subscription-management-your-apple-iap-subscriptions-aria = I tiei abonaments te aplicazion vie { -brand-apple }
 subscription-management-apple-in-app-purchase = { -brand-apple }: compre te aplicazion
 subscription-management-your-google-iap-subscriptions-aria = I tiei abonaments te aplicazion vie { -brand-google }
@@ -121,6 +119,10 @@ subscription-management-iap-sub-expires-on = Al scjât al/ai { $date }
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Gjestìs abonaments par { $productName }
 subscription-management-button-manage-subscription = Gjestìs
+
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
+
 # Page - Not Found
 page-not-found-title = Pagjine no cjatade
 page-not-found-description = La pagjine domandade no je stade cjatade. Nus è rivade la segnalazion dal probleme e o comedarìn i eventuâi colegaments che no funzionin.

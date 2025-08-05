@@ -109,8 +109,6 @@ subscription-management-card-expires-date = Son kullanım: { $expirationDate }
 subscription-management-subscriptions-heading = Abonelikler
 subscription-management-your-subscriptions-aria = Abonelikleriniz
 subscription-management-no-subscriptions = Henüz aboneliğiniz yok
-subscription-management-button-cancel-subscription-aria = Aboneliği iptal et
-subscription-management-button-cancel-subscription = İptal et
 subscription-management-your-apple-iap-subscriptions-aria = { -brand-apple } uygulama içi abonelikleriniz
 subscription-management-apple-in-app-purchase = { -brand-apple }: Uygulama içi satın alma
 subscription-management-your-google-iap-subscriptions-aria = { -brand-google } uygulama içi abonelikleriniz
@@ -122,6 +120,10 @@ subscription-management-iap-sub-expires-on = Son geçerlilik tarihi: { $date }
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = { $productName } aboneliğini yönet
 subscription-management-button-manage-subscription = Yönet
+
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
+
 # Page - Not Found
 page-not-found-title = Sayfa bulunamadı
 page-not-found-description = İstediğiniz sayfa bulunamadı. Bozuk olabilecek bağlantıları düzeltmeleri için durumu site yöneticilerimize bildirdik.
