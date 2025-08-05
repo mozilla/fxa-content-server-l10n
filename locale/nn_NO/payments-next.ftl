@@ -97,6 +97,8 @@ subscription-management-account-profile-picture = Kontoprofilbilde
 
 ## Page - Subscription Management
 
+subscription-management-account-credit-balance-heading = Kreditsaldo på kontoen
+subscription-management-account-credit-balance-message = Kreditten blir automatisk trekt frå på framtidige fakturaer
 subscription-management-payment-information-heading = Betalingsinformasjon
 subscription-management-button-add-payment-method-aria = Legg til betalingsinformasjon
 subscription-management-button-add-payment-method = Legg til
@@ -124,6 +126,7 @@ subscription-management-button-manage-subscription = Handsam
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
 
+subscription-management-page-subscription-interval-daily = { $productName } (dagleg)
 # Page - Not Found
 page-not-found-title = Fann ikkje sida
 page-not-found-description = Fann ikkje sida du spurde etter. Vi er varsla og vil reparere lenker som ikkje fungerer.
