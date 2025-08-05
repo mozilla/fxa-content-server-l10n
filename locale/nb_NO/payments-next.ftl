@@ -97,6 +97,8 @@ subscription-management-account-profile-picture = Kontoprofilbilde
 
 ## Page - Subscription Management
 
+subscription-management-account-credit-balance-heading = Kreditsaldo på kontoen
+subscription-management-account-credit-balance-message = Kreditten blir automatisk trukket fra på fremtidige fakturaer
 subscription-management-payment-information-heading = Betalingsinformasjon
 subscription-management-button-add-payment-method-aria = Legg til betalingsmåte
 subscription-management-button-add-payment-method = Legg til

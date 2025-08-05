@@ -266,6 +266,35 @@ next-new-user-subscribe-product-updates-mozilla = Ja by rady dostał produktowe 
 next-new-user-subscribe-product-updates-snp = Ja by rady dostał nowosći wó wěstośe a priwatnosći a aktualizacije wót { -brand-mozilla }
 next-new-user-subscribe-product-assurance = Wužywamy jano wašu e-mailowu adresu, aby my waše konto załožyli. Tśeśemu póbitowarjeju ju nigda njepśedajomy.
 
+## Examples of coupon applied
+## 20% OFF coupon applied: $11.20 + $0.35 tax
+## Holiday Offer 2023 coupon applied: 6,42 €
+## Cybersecurity Awareness Month 2023 coupon applied: $11.20 + $0.35 tax
+## Summer Promo VPN coupon applied: $11.20
+## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., 08/21/2025 for US locale, 21/08/25 for FR locale)
+## $invoiceTotal (Number) - The amount billed (excluding tax if tax does not exist). It will be formatted as currency.
+## $nextBillDate (Date) - The date for the next time a charge will occur (e.g., 08/21/2025 for US locale, 21/08/25 for FR locale)
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+## $promotionName (String) - The name of the promotion.
+## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
+
+subscription-content-promotion-applied-no-tax = Pśipisanje { $promotionName } jo se nałožyło: { $invoiceTotal }
+subscription-content-promotion-applied-with-tax = Pśipisanje { $promotionName } jo se nałožyło: { $invoiceTotal } + { $taxDue } danka
+subscription-content-current-with-tax = { $invoiceTotal } + { $taxDue } danka
+subscription-content-next-bill-no-tax = Pśiduca zliceńka { $invoiceTotal } ma se płaśiś { $nextBillDate }
+subscription-content-next-bill-with-tax = Pśiduca zliceńka { $invoiceTotal } + { $taxDue } danka ma se płaśiś { $nextBillDate }
+subscription-content-heading-cancel-subscription = Abonement wupowěźeś
+subscription-content-no-longer-use-message =
+    Pó { $currentPeriodEnd }, slědnem dnju swójogo wótliceńskeje periody,
+    wěcej njamóžośo { $productName } wužywaś.
+subscription-content-cancel-access-message = Wótwónoźćo mój pśistup a móje skłaźone informacije w { $productName } dnja { $currentPeriodEnd }
+subscription-content-button-stay-subscribed = Dalej aboněrowaś
+    .aria-label = { $productName } dalej aboněrowaś
+subscription-content-button-cancel-subscription = Abonement wupowěźeś
+    .aria-label = Waš { $productName } dalej aboněrowaś
+subscription-content-button-cancel = Wupowěźeś
+    .aria-label = Waš abonement { $productName } wupowěźiś
+
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
