@@ -97,6 +97,8 @@ subscription-management-account-profile-picture = 帳號個人資料照片
 
 ## Page - Subscription Management
 
+subscription-management-account-credit-balance-heading = 帳號餘額
+subscription-management-account-credit-balance-message = 未來付款時，將自動使用儲值餘額折抵應付款項
 subscription-management-payment-information-heading = 付款資訊
 subscription-management-button-add-payment-method-aria = 新增付款方式
 subscription-management-button-add-payment-method = 新增
@@ -124,6 +126,11 @@ subscription-management-button-manage-subscription = 管理
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
 
+subscription-management-page-subscription-interval-daily = { $productName }（每日收費）
+subscription-management-page-subscription-interval-weekly = { $productName }（每週收費）
+subscription-management-page-subscription-interval-monthly = { $productName }（每月收費）
+subscription-management-page-subscription-interval-halfyearly = { $productName }（每 6 個月收費）
+subscription-management-page-subscription-interval-yearly = { $productName }（每年收費）
 # Page - Not Found
 page-not-found-title = 找不到頁面
 page-not-found-description = 找不到您想開啟的頁面。我們已經通知開發團隊來檢查網頁。
@@ -255,6 +262,33 @@ next-new-user-subscribe-product-updates-mdnplus = 我想要收到 { -product-mdn
 next-new-user-subscribe-product-updates-mozilla = 我想要收到 { -brand-mozilla } 的產品新聞與更新資訊
 next-new-user-subscribe-product-updates-snp = 我想要收到 { -brand-mozilla } 的安全性與隱私權新聞與更新資訊
 next-new-user-subscribe-product-assurance = 我們只會使用您的電子郵件地址來註冊帳號，絕對不會銷售給第三方。
+
+## Examples of coupon applied
+## 20% OFF coupon applied: $11.20 + $0.35 tax
+## Holiday Offer 2023 coupon applied: 6,42 €
+## Cybersecurity Awareness Month 2023 coupon applied: $11.20 + $0.35 tax
+## Summer Promo VPN coupon applied: $11.20
+## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., 08/21/2025 for US locale, 21/08/25 for FR locale)
+## $invoiceTotal (Number) - The amount billed (excluding tax if tax does not exist). It will be formatted as currency.
+## $nextBillDate (Date) - The date for the next time a charge will occur (e.g., 08/21/2025 for US locale, 21/08/25 for FR locale)
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+## $promotionName (String) - The name of the promotion.
+## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
+
+subscription-content-promotion-applied-no-tax = 已套用 { $promotionName } 折價券：{ $invoiceTotal }
+subscription-content-promotion-applied-with-tax = 已套用 { $promotionName } 折價券：{ $invoiceTotal } + { $taxDue } 稅
+subscription-content-current-with-tax = { $invoiceTotal } + { $taxDue } 稅
+subscription-content-next-bill-no-tax = 次期帳單金額：{ $invoiceTotal }，將於 { $nextBillDate } 到期
+subscription-content-next-bill-with-tax = 次期帳單金額：{ $invoiceTotal } + { $taxDue } 稅，將於 { $nextBillDate } 到期
+subscription-content-heading-cancel-subscription = 取消訂閱
+subscription-content-no-longer-use-message = 在帳務週期最後一天（{ $currentPeriodEnd }）之後，將無法繼續使用 { $productName }。
+subscription-content-cancel-access-message = 在 { $currentPeriodEnd } 之後取消我對 { $productName } 的使用權限與儲存的所有資訊
+subscription-content-button-stay-subscribed = 保持訂閱
+    .aria-label = 保持訂閱 { $productName }
+subscription-content-button-cancel-subscription = 取消訂閱
+    .aria-label = 取消訂閱 { $productName }
+subscription-content-button-cancel = 取消
+    .aria-label = 取消訂閱 { $productName }
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
