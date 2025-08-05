@@ -97,6 +97,8 @@ subscription-management-account-profile-picture = Profilová fotka účtu
 
 ## Page - Subscription Management
 
+subscription-management-account-credit-balance-heading = Kreditný zostatok na účte
+subscription-management-account-credit-balance-message = Kredit sa automaticky použije na budúce faktúry
 subscription-management-payment-information-heading = Informácie o platbe
 subscription-management-button-add-payment-method-aria = Pridať platobnú metódu
 subscription-management-button-add-payment-method = Pridať
@@ -124,6 +126,11 @@ subscription-management-button-manage-subscription = Spravovať
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
 
+subscription-management-page-subscription-interval-daily = { $productName } (denne)
+subscription-management-page-subscription-interval-weekly = { $productName } (týždenne)
+subscription-management-page-subscription-interval-monthly = { $productName } (mesačne)
+subscription-management-page-subscription-interval-halfyearly = { $productName } (6 mesiacov)
+subscription-management-page-subscription-interval-yearly = { $productName } (ročne)
 # Page - Not Found
 page-not-found-title = Stránka sa nenašla
 page-not-found-description = Požadovaná stránka nebola nájdená. Boli sme na to upozornení a prípadné odkazy smerujúce na túto stránku opravíme.
@@ -255,6 +262,33 @@ next-new-user-subscribe-product-updates-mdnplus = Chcem dostávať novinky o pro
 next-new-user-subscribe-product-updates-mozilla = Chcem dostávať novinky o produktoch { -brand-mozilla(case: "gen") }
 next-new-user-subscribe-product-updates-snp = Chcem dostávať novinky { -brand-mozilla(case: "gen") } týkajúce sa bezpečnosti a ochrany osobných údajov
 next-new-user-subscribe-product-assurance = Vašu e‑mailovú adresu použijeme iba na vytvorenie účtu. Nikdy ju nepredáme tretej strane.
+
+## Examples of coupon applied
+## 20% OFF coupon applied: $11.20 + $0.35 tax
+## Holiday Offer 2023 coupon applied: 6,42 €
+## Cybersecurity Awareness Month 2023 coupon applied: $11.20 + $0.35 tax
+## Summer Promo VPN coupon applied: $11.20
+## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., 08/21/2025 for US locale, 21/08/25 for FR locale)
+## $invoiceTotal (Number) - The amount billed (excluding tax if tax does not exist). It will be formatted as currency.
+## $nextBillDate (Date) - The date for the next time a charge will occur (e.g., 08/21/2025 for US locale, 21/08/25 for FR locale)
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+## $promotionName (String) - The name of the promotion.
+## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
+
+subscription-content-promotion-applied-no-tax = Použitý kupón { $promotionName }: { $invoiceTotal }
+subscription-content-promotion-applied-with-tax = Použitý kupón { $promotionName }: { $invoiceTotal } + { $taxDue } daň
+subscription-content-current-with-tax = { $invoiceTotal } + { $taxDue } daň
+subscription-content-next-bill-no-tax = Ďalšia faktúra vo výške { $invoiceTotal } je splatná { $nextBillDate }
+subscription-content-next-bill-with-tax = Ďalšia faktúra vo výške { $invoiceTotal } + { $taxDue } daň je splatná { $nextBillDate }
+subscription-content-heading-cancel-subscription = Zrušiť predplatné
+subscription-content-no-longer-use-message = Po { $currentPeriodEnd }, poslednom dni vášho fakturačného cyklu, už produkt { $productName } nebudete môcť používať.
+subscription-content-cancel-access-message = Zrušiť môj prístup k produktu { $productName } a dáta v ňom uložené ku dňu { $currentPeriodEnd }
+subscription-content-button-stay-subscribed = Ponechať predplatné
+    .aria-label = Ponechať predplatné produktu { $productName }
+subscription-content-button-cancel-subscription = Zrušiť predplatné
+    .aria-label = Zrušiť predplatné produktu { $productName }
+subscription-content-button-cancel = Zrušiť
+    .aria-label = Zrušiť predplatné produktu { $productName }
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
