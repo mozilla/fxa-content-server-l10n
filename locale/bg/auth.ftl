@@ -49,6 +49,8 @@ subplat-legal = Правна информация
 subplat-legal-plaintext = { subplat-legal }:
 subplat-privacy = Поверителност
 subplat-privacy-website-plaintext = { subplat-privacy }:
+account-deletion-info-block-communications-plaintext = Ако вашият профил е изтрит, пак ще получавате имейли от Mozilla Corporation и Mozilla Foundation, освен ако не поискате да се отпишете:
+account-deletion-info-block-support-plaintext = Ако имате въпроси или се нуждаете от помощ, не се колебайте да се свържете с нашия екип за поддръжка:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-android-badge = <img data-l10n-name="google-play-badge" alt="Изтеглете { $productName } от { -google-play }">
@@ -70,6 +72,7 @@ ios-download-plaintext = Изтеглете { $productName } от App Store:
 # Variables:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 another-device-plaintext = Инсталирайте { $productName } на друго устройство:
+automated-email-change-2 = Ако не сте предприели това действие, <a data-l10n-name="passwordChangeLink">променете паролата си</a> веднага.
 #  After the colon, there's a link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
 automated-email-support-plaintext = За повече информация посетете поддръжката на { -brand-mozilla }:
 automated-email-no-action-plaintext = Това е автоматично електронно писмо. Ако сте го получили по погрешка, не е необходимо да правите нищо.
@@ -102,12 +105,6 @@ subscriptionFirstInvoiceDiscount-content-discount-one-time = Еднократн�
 # Variables:
 #  $invoiceTaxAmount (String) - The amount of the tax of the subscription invoice, including currency, e.g. $2.00
 subscriptionCharges-content-tax = Данъци и такси: { $invoiceTaxAmount }
-
-## Variables:
-##  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
-##  $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
-##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
-
 
 ##
 
