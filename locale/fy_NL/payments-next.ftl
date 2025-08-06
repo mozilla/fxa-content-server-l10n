@@ -276,8 +276,12 @@ next-new-user-subscribe-product-assurance = Wy brûke jo e-mailadres allinnich o
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
 subscription-content-promotion-applied-no-tax = Koartingsbon foar { $promotionName } tapast: { $invoiceTotal }
+subscription-content-promotion-applied-with-tax = Koartingsbon foar { $promotionName } tapast: { $invoiceTotal } + { $taxDue } belesting
+subscription-content-current-with-tax = { $invoiceTotal } + { $taxDue } belesting
 subscription-content-next-bill-no-tax = De folgjende faktuer fan { $invoiceTotal } is ferskuldige op { $nextBillDate }
+subscription-content-next-bill-with-tax = De folgjende faktuer fan { $invoiceTotal } + { $taxDue } belesting is ferskuldige op { $nextBillDate }
 subscription-content-heading-cancel-subscription = Abonnemint opsizze
+subscription-content-no-longer-use-message = Jo kinne { $productName } net mear brûke nei { $currentPeriodEnd }, de lêste dei fan jo betellingssyklus.
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
