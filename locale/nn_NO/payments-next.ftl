@@ -287,7 +287,7 @@ subscription-content-button-stay-subscribed = Fortset abonnementet
     .aria-label = Fortset abonnementet { $productName }
 subscription-content-button-cancel-subscription = Avbryt abonnementet
     .aria-label = Avbryt abonnementet på { $productName }
-subscription-content-button-cancel = Cancel
+subscription-content-button-cancel = Avbryt
     .aria-label = Avbryt abonnementet på { $productName }
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
