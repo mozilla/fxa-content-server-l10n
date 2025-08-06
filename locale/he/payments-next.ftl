@@ -270,6 +270,8 @@ subscription-content-button-stay-subscribed = להישאר רשום כמינוי
     .aria-label = להישאר רשום כמינוי ל־{ $productName }
 subscription-content-button-cancel-subscription = לבטל את המינוי
     .aria-label = לבטל את המינוי שלך ל־{ $productName }
+subscription-content-button-cancel = ביטול המינוי
+    .aria-label = ביטול המינוי שלך ל־{ $productName }
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
