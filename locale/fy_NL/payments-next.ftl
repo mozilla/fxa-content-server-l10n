@@ -97,6 +97,8 @@ subscription-management-account-profile-picture = Accountprofylôfbylding
 
 ## Page - Subscription Management
 
+subscription-management-account-credit-balance-heading = Accountsaldo
+subscription-management-account-credit-balance-message = Tegoed wurdt automatysk tapast op takomstige faktueren
 subscription-management-payment-information-heading = Betellingsgegevens
 subscription-management-button-add-payment-method-aria = Betellingsmetoade tafoegje
 subscription-management-button-add-payment-method = Tafoegje
@@ -273,6 +275,7 @@ next-new-user-subscribe-product-assurance = Wy brûke jo e-mailadres allinnich o
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
+subscription-content-promotion-applied-no-tax = Koartingsbon foar { $promotionName } tapast: { $invoiceTotal }
 subscription-content-next-bill-no-tax = De folgjende faktuer fan { $invoiceTotal } is ferskuldige op { $nextBillDate }
 subscription-content-heading-cancel-subscription = Abonnemint opsizze
 
