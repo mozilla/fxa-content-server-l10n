@@ -99,8 +99,8 @@ subscription-management-account-profile-picture = Fiók profilképe
 
 ## Page - Subscription Management
 
-subscription-management-account-credit-balance-heading = Számla egyenleg
-subscription-management-account-credit-balance-message = A jóváírás automatikusan jóváírásra kerül a jövőbeli számlákon
+subscription-management-account-credit-balance-heading = Számlaegyenleg
+subscription-management-account-credit-balance-message = A jóváírás automatikusan a jövőbeli számlákra lesz alkalmazva
 subscription-management-payment-information-heading = Fizetési információk
 subscription-management-button-add-payment-method-aria = Fizetési mód hozzáadása
 subscription-management-button-add-payment-method = Hozzáadás
@@ -128,7 +128,7 @@ subscription-management-button-manage-subscription = Kezelés
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
 
-subscription-management-page-subscription-interval-daily = { $productName } (napi)
+subscription-management-page-subscription-interval-daily = { $productName } (naponta)
 subscription-management-page-subscription-interval-weekly = { $productName } (hetente)
 subscription-management-page-subscription-interval-monthly = { $productName } (havonta)
 subscription-management-page-subscription-interval-halfyearly = { $productName } (6 hónapos)
@@ -277,8 +277,8 @@ next-new-user-subscribe-product-assurance = Csak a fiókja létrehozásához has
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
-subscription-content-promotion-applied-no-tax = { $promotionName } kupon alkalmazott: { $invoiceTotal }
-subscription-content-promotion-applied-with-tax = { $promotionName } kupon alkalmazott: { $invoiceTotal } + { $taxDue } adó
+subscription-content-promotion-applied-no-tax = { $promotionName } kupon alkalmazva: { $invoiceTotal }
+subscription-content-promotion-applied-with-tax = { $promotionName } kupon alkalmazva: { $invoiceTotal } + { $taxDue } adó
 subscription-content-current-with-tax = { $invoiceTotal } + { $taxDue } adó
 subscription-content-next-bill-no-tax = A következő { $invoiceTotal } összegű számla esedékessége: { $nextBillDate }
 subscription-content-next-bill-with-tax = A következő { $invoiceTotal } + { $taxDue } adó esedékessége: { $nextBillDate }
@@ -286,11 +286,11 @@ subscription-content-heading-cancel-subscription = Előfizetés lemondása
 subscription-content-no-longer-use-message = A(z) { $productName } { $currentPeriodEnd } után, a számlázási időszak utolsó napján, már nem fogja tudni használni a(z) { $productName } kártyát.
 subscription-content-cancel-access-message = A hozzáférésem és a mentett információim megszüntetése { $productName }on belül ekkor: { $currentPeriodEnd }
 subscription-content-button-stay-subscribed = Előfizetés megtartása
-    .aria-label = Előfizetés a(z) { $productName } szolgáltatásra
+    .aria-label = { $productName } előfizetés megtartása
 subscription-content-button-cancel-subscription = Előfizetés lemondása
-    .aria-label = A(z) { $productName } előfizetésének megszüntetése
+    .aria-label = { $productName } előfizetés megszüntetése
 subscription-content-button-cancel = Mégse
-    .aria-label = A(z) { $productName } előfizetésének megszüntetése
+    .aria-label = { $productName } előfizetés megszüntetése
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
