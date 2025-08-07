@@ -282,6 +282,13 @@ subscription-content-next-bill-no-tax = De folgjende faktuer fan { $invoiceTotal
 subscription-content-next-bill-with-tax = De folgjende faktuer fan { $invoiceTotal } + { $taxDue } belesting is ferskuldige op { $nextBillDate }
 subscription-content-heading-cancel-subscription = Abonnemint opsizze
 subscription-content-no-longer-use-message = Jo kinne { $productName } net mear brûke nei { $currentPeriodEnd }, de lêste dei fan jo betellingssyklus.
+subscription-content-cancel-access-message = Myn tagong ta en bewarre gegevens yn { $productName } op { $currentPeriodEnd } opsizze
+subscription-content-button-stay-subscribed = Abonnemint behâlde
+    .aria-label = Abonnemint op { $productName } behâlde
+subscription-content-button-cancel-subscription = Abonnemint opsizze
+    .aria-label = Abonnemint op { $productName } opsizze
+subscription-content-button-cancel = Opsizze
+    .aria-label = Jo abonnemint op { $productName } opsizze
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
