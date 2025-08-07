@@ -97,6 +97,8 @@ subscription-management-account-profile-picture = Imagen de perfil de la cuenta
 
 ## Page - Subscription Management
 
+subscription-management-account-credit-balance-heading = Saldo de crédito de la cuenta
+subscription-management-account-credit-balance-message = El crédito se aplicará automáticamente a futuras facturas.
 subscription-management-payment-information-heading = Información de pago
 subscription-management-button-add-payment-method-aria = Añadir método de pago
 subscription-management-button-add-payment-method = Añadir
@@ -274,7 +276,19 @@ next-new-user-subscribe-product-assurance = Solo usamos tu correo electrónico p
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
 subscription-content-promotion-applied-no-tax = Cupón { $promotionName } aplicado: { $invoiceTotal }
+subscription-content-promotion-applied-with-tax = Cupón { $promotionName } aplicado: { $invoiceTotal } + { $taxDue } de impuesto
+subscription-content-current-with-tax = { $invoiceTotal } + { $taxDue } de impuesto
+subscription-content-next-bill-no-tax = La próxima factura de { $invoiceTotal } vence el { $nextBillDate }
+subscription-content-next-bill-with-tax = La próxima factura de { $invoiceTotal } + { $taxDue } de impuesto vence el { $nextBillDate }
 subscription-content-heading-cancel-subscription = Cancelar suscripción
+subscription-content-no-longer-use-message = Ya no podrás usar { $productName } después del { $currentPeriodEnd }, el último día de tu ciclo de facturación.
+subscription-content-cancel-access-message = Cancelar mi acceso y mi información guardada dentro de { $productName } el { $currentPeriodEnd }
+subscription-content-button-stay-subscribed = Mantener suscripción
+    .aria-label = Mantener suscripción a { $productName }
+subscription-content-button-cancel-subscription = Cancelar suscripción
+    .aria-label = Cancelar suscripción a { $productName }
+subscription-content-button-cancel = Cancelar
+    .aria-label = Cancelar tu suscripción a { $productName }
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
