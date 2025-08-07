@@ -508,6 +508,10 @@ bento-menu-made-by-mozilla = Tworzone przez { -brand-mozilla(case: "acc") }
 
 connect-another-fx-mobile = Pobierz { -brand-firefox(case: "acc") } na telefon lub tablet
 connect-another-find-fx-mobile-2 = Znajdź { -brand-firefox(case: "acc") } w { -google-play } lub { -app-store }.
+# Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
+# These images are used to encourage users to download Firefox on their mobile devices.
+connect-another-play-store-image-2 =
+    .alt = Pobierz { -brand-firefox(case: "acc") } z { -google-play }
 
 ## Connected services section
 
@@ -1449,6 +1453,7 @@ inline-totp-setup-security-code-placeholder = Kod uwierzytelniania
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-code-required-error = Wymagany jest kod uwierzytelniania
 tfa-qr-code-alt = Użyj kodu { $code }, aby skonfigurować uwierzytelnianie dwuetapowe w obsługiwanych aplikacjach.
+inline-totp-setup-page-title = Uwierzytelnianie dwuetapowe
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
