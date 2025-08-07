@@ -100,7 +100,8 @@ subscription-management-account-profile-picture = ანგარიშის �
 
 ## Page - Subscription Management
 
-subscription-management-account-credit-balance-heading = ანგარიშის საკრედიტო ნაშთი
+subscription-management-account-credit-balance-heading = ანგარიშზე დარიცხული ნაშთი
+subscription-management-account-credit-balance-message = დანარიცხი თავისთავად იქნება გამოყენებული მომდევნო გადახდებისას
 subscription-management-payment-information-heading = გადახდის მონაცემები
 subscription-management-button-add-payment-method-aria = გადახდის საშუალების დამატება
 subscription-management-button-add-payment-method = დამატება
@@ -280,9 +281,13 @@ next-new-user-subscribe-product-assurance = ჩვენ ვიყენებ�
 subscription-content-promotion-applied-no-tax = ასახულია ფასდაკლების ბარათი { $promotionName }: { $invoiceTotal }
 subscription-content-promotion-applied-with-tax = ასახულია ფასდაკლების ბარათი { $promotionName }: { $invoiceTotal } + { $taxDue } გადასახადი
 subscription-content-current-with-tax = { $invoiceTotal } + { $taxDue } გადასახადი
+subscription-content-next-bill-no-tax = მომდევნო ანგარიშსწორება { $invoiceTotal } თარიღისთვის { $nextBillDate }
+subscription-content-next-bill-with-tax = მომდევნო ანგარიშსწორება { $invoiceTotal } + { $taxDue } გადასახადი თარიღისთვის { $nextBillDate }
 subscription-content-heading-cancel-subscription = გამოწერის გაუქმება
 subscription-content-no-longer-use-message = ვეღარ შეძლებთ გამოიყენოთ { $productName } თარიღიდან { $currentPeriodEnd }, ესაა საანგარიშო პერიოდის ბოლო დღე.
 subscription-content-cancel-access-message = გაუქმდეს წვდომა და დამახსოვრებული მონაცემები, მომსახურებისთვის { $productName } თარიღზე { $currentPeriodEnd }
+subscription-content-button-stay-subscribed = შეინარჩუნეთ გამოწერა
+    .aria-label = შეინარჩუნეთ გამოწერილი { $productName }
 subscription-content-button-cancel-subscription = გააუქმეთ გამოწერა
     .aria-label = გააუქმეთ თქვენ მიერ გამოწერილი { $productName }
 subscription-content-button-cancel = გაუქმება

@@ -510,6 +510,12 @@ bento-menu-made-by-mozilla = ქმნის { -brand-mozilla }
 
 connect-another-fx-mobile = მიიღეთ { -brand-firefox } მობილურზე ან ტაბლეტზე
 connect-another-find-fx-mobile-2 = მონახეთ { -brand-firefox }, გახსენით { -google-play } და { -app-store }.
+# Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
+# These images are used to encourage users to download Firefox on their mobile devices.
+connect-another-play-store-image-2 =
+    .alt = ჩამოტვირთეთ { -brand-firefox }, იხილეთ { -google-play }
+connect-another-app-store-image-3 =
+    .alt = ჩამოტვირთეთ { -brand-firefox }, იხილეთ { -app-store }
 
 ## Connected services section
 
@@ -1451,6 +1457,7 @@ inline-totp-setup-security-code-placeholder = შესვლის დამო
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-code-required-error = საჭიროა დამოწმების კოდი
 tfa-qr-code-alt = გამოიყენეთ კოდი { $code } ორბიჯიანი დამოწმების გასამართად მხარდაჭერილ პროგრამებში.
+inline-totp-setup-page-title = ორბიჯიანი დამოწმება
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
