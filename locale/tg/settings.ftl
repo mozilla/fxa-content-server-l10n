@@ -1097,6 +1097,8 @@ password-reset-submit-button-2 = Идома додан
 ## ResetPasswordConfirmed
 
 reset-password-complete-header = Ниҳонвожаи шумо аз нав барқарор карда шуд
+# $serviceName is a product name such as Monitor, Pocket, Relay
+reset-password-confirmed-cta = Ба «{ $serviceName }» идома диҳед
 
 ## Reset password recovery method page
 ## This page is shown to users when they are having trouble resetting their
