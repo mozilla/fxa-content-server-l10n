@@ -63,6 +63,7 @@ intent-payment-error-try-again = ჰმ. რაღაც ხარვეზი �
 intent-payment-error-get-in-touch = ჰმ. რაღაც ხარვეზი იყო, გადახდის დამოწმებისას. დაუკავშირდით თქვენი ბარათის გამომშვებს.
 intent-payment-error-generic = მოულოდნელი შეცდომა წარმოიშვა გადახდის დამუშავებისას. გთხოვთ, სცადოთ ხელახლა.
 intent-payment-error-insufficient-funds = როგორც ჩანს, თქვენს საკრედიტო ბარათზე არასაკმარისი თანხაა. სცადეთ სხვა ბარათი.
+general-paypal-error = მოულოდნელი შეცდომა წარმოიშვა თქვენი გადახდის დამუშავებისას. გთხოვთ, სცადოთ ხელახლა.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -99,6 +100,7 @@ subscription-management-account-profile-picture = ანგარიშის �
 
 ## Page - Subscription Management
 
+subscription-management-account-credit-balance-heading = ანგარიშის საკრედიტო ნაშთი
 subscription-management-payment-information-heading = გადახდის მონაცემები
 subscription-management-button-add-payment-method-aria = გადახდის საშუალების დამატება
 subscription-management-button-add-payment-method = დამატება
@@ -126,6 +128,11 @@ subscription-management-button-manage-subscription = მართვა
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
 
+subscription-management-page-subscription-interval-daily = { $productName } (ყოველდღიური)
+subscription-management-page-subscription-interval-weekly = { $productName } (ყოველკვირეული)
+subscription-management-page-subscription-interval-monthly = { $productName } (ყოველთვიური)
+subscription-management-page-subscription-interval-halfyearly = { $productName } (6-თვიანი)
+subscription-management-page-subscription-interval-yearly = { $productName } (ყოველწლიური)
 # Page - Not Found
 page-not-found-title = გვერდი ვერ მოიძებნა
 page-not-found-description = თქვენ მიერ მოთხოვნილი გვერდი ვერ მოიძებნა. ჩვენ უკვე გვეცნობა ამის შესახებ და ყველა შესაძლო დაზიანებულ ბმულს გავასწორებთ.
@@ -137,6 +144,8 @@ page-not-found-back-button = უკან დაბრუნება
 subscription-management-breadcrumb-account-home = ანგარიშის მთავარი გვერდი
 # Link title - Subscriptions management
 subscription-management-breadcrumb-subscriptions = გამოწერები
+# Link title - Payment method management
+subscription-management-breadcrumb-payment = გადახდის საშუალებები
 
 ## Component - Payment Consent Checkbox
 
@@ -191,6 +200,14 @@ payments-header-avatar-expanded-sign-out = გამოსვლა
 payments-client-loading-spinner =
     .aria-label = იტვირთება…
     .alt = იტვირთება…
+
+## Payment method management page - Stripe
+
+# Save button for changing which payment method will be used
+payment-method-management-save-default = გადახდის ნაგულისხმევ საშუალებად დაყენება
+# Save button for saving a new payment method
+payment-method-management-save-method = გადახდის საშუალების დამახსოვრება
+manage-stripe-payments-title = გადახდის საშუალებების მართვა
 
 ## Payment Section
 
@@ -247,6 +264,23 @@ next-new-user-subscribe-product-updates-mdnplus = მსურს შევი�
 next-new-user-subscribe-product-updates-mozilla = მსურს შევიტყო, რა სიახლეებსა და ცვლილებებს გვთავაზობს { -brand-mozilla }
 next-new-user-subscribe-product-updates-snp = მსურს შევიტყო, რა სიახლეებსა და ცვლილებებს გვთავაზობს პირადულობისა და უსაფრთხოებისთვის { -brand-mozilla }
 next-new-user-subscribe-product-assurance = ჩვენ ვიყენებთ მხოლოდ თქვენს ელფოსტას ანგარიშის შესაქმნელად. არასოდეს გავყიდით სხვა პირებზე.
+
+## Examples of coupon applied
+## 20% OFF coupon applied: $11.20 + $0.35 tax
+## Holiday Offer 2023 coupon applied: 6,42 €
+## Cybersecurity Awareness Month 2023 coupon applied: $11.20 + $0.35 tax
+## Summer Promo VPN coupon applied: $11.20
+## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., 08/21/2025 for US locale, 21/08/25 for FR locale)
+## $invoiceTotal (Number) - The amount billed (excluding tax if tax does not exist). It will be formatted as currency.
+## $nextBillDate (Date) - The date for the next time a charge will occur (e.g., 08/21/2025 for US locale, 21/08/25 for FR locale)
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+## $promotionName (String) - The name of the promotion.
+## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
+
+subscription-content-promotion-applied-no-tax = ასახულია ფასდაკლების ბარათი { $promotionName }: { $invoiceTotal }
+subscription-content-promotion-applied-with-tax = ასახულია ფასდაკლების ბარათი { $promotionName }: { $invoiceTotal } + { $taxDue } გადასახადი
+subscription-content-current-with-tax = { $invoiceTotal } + { $taxDue } გადასახადი
+subscription-content-heading-cancel-subscription = გამოწერის გაუქმება
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
