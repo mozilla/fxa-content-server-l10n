@@ -281,6 +281,12 @@ subscription-content-promotion-applied-no-tax = ასახულია ფა�
 subscription-content-promotion-applied-with-tax = ასახულია ფასდაკლების ბარათი { $promotionName }: { $invoiceTotal } + { $taxDue } გადასახადი
 subscription-content-current-with-tax = { $invoiceTotal } + { $taxDue } გადასახადი
 subscription-content-heading-cancel-subscription = გამოწერის გაუქმება
+subscription-content-no-longer-use-message = ვეღარ შეძლებთ გამოიყენოთ { $productName } თარიღიდან { $currentPeriodEnd }, ესაა საანგარიშო პერიოდის ბოლო დღე.
+subscription-content-cancel-access-message = გაუქმდეს წვდომა და დამახსოვრებული მონაცემები, მომსახურებისთვის { $productName } თარიღზე { $currentPeriodEnd }
+subscription-content-button-cancel-subscription = გააუქმეთ გამოწერა
+    .aria-label = გააუქმეთ თქვენ მიერ გამოწერილი { $productName }
+subscription-content-button-cancel = გაუქმება
+    .aria-label = გააუქმეთ გამოწერილი { $productName }
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
