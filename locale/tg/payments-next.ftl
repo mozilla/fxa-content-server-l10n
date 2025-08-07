@@ -17,6 +17,9 @@ upgrade-page-payment-information = Маълумоти пардохт
 ## Authentication Error page
 
 checkout-error-boundary-retry-button = Аз нав кӯшиш кардан
+amex-logo-alt-text = Тамғаи «{ -brand-amex }»
+diners-logo-alt-text = Тамғаи «{ -brand-diner }»
+discover-logo-alt-text = Тамғаи «{ -brand-discover }»
 
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages
