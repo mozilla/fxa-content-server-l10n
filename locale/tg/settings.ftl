@@ -364,6 +364,11 @@ primary-email-confirmation-link-reused = Почтаи электронии ас�
 
 password-strength-balloon-heading = Талаботи ниҳонвожа
 
+## PasswordStrengthInline component
+## These strings are conditions that need to be met to qualify as a strong password
+
+password-strength-inline-passwords-match = Ниҳонвожаҳо мувофиқат мекунанд
+
 ## Notification Promo Banner component
 
 account-recovery-notification-cta = Эҷод кардан
@@ -530,7 +535,10 @@ flow-setup-2fa-backup-code-dl-button-continue = Идома додан
 
 ##
 
+flow-setup-2fa-inline-complete-success-banner = Санҷиши ҳаққонияти дуқадама фаъол шуд
 flow-setup-2fa-inline-complete-backup-code = Нусхаи эҳтиётии рамзҳои санҷиши ҳаққоният
+flow-setup-2fa-inline-complete-backup-phone = Телефони барқарорсозӣ
+flow-setup-2fa-prompt-continue-button = Идома додан
 
 ## FlowSetupPhoneConfirmCode
 
@@ -600,6 +608,9 @@ tfa-replace-code-2-2 = Қадами 2 аз 2
 ## PageSetupRecoveryPhone
 
 page-2fa-setup-title = Санҷиши ҳаққонияти дуқадама
+# code here refers to "backup authentication code"
+page-2fa-setup-incorrect-backup-code-error = Ин рамз нодуруст аст. Аз нав кӯшиш кунед.
+page-2fa-setup-success = Санҷиши ҳаққонияти дуқадама фаъол карда шуд
 
 ## Avatar change page
 

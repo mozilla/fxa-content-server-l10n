@@ -20,6 +20,11 @@ checkout-error-boundary-retry-button = Аз нав кӯшиш кардан
 amex-logo-alt-text = Тамғаи «{ -brand-amex }»
 diners-logo-alt-text = Тамғаи «{ -brand-diner }»
 discover-logo-alt-text = Тамғаи «{ -brand-discover }»
+jcb-logo-alt-text = Тамғаи «{ -brand-jcb }»
+mastercard-logo-alt-text = Тамғаи «{ -brand-mastercard }»
+paypal-logo-alt-text = Тамғаи «{ -brand-paypal }»
+unionpay-logo-alt-text = Тамғаи «{ -brand-unionpay }»
+visa-logo-alt-text = Тамғаи «{ -brand-visa }»
 
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -57,12 +62,47 @@ next-payment-confirmation-download-button = Идома додани боргир
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Корте, ки бо { $last4 } анҷом меёбад
 
+## Layout - Subscription Management
+
+subscription-management-account-profile-picture = Расми профили ҳисоб
+
+## Page - Subscription Management
+
+subscription-management-button-add-payment-method-aria = Илова кардани тарзи пардохт
+subscription-management-button-add-payment-method = Илова кардан
+subscription-management-button-change-payment-method-aria = Иваз кардани тарзи пардохт
+subscription-management-button-change-payment-method = Тағйир додан
+# $last4 (String) - Last four numbers of credit card
+subscription-management-card-ending-in = Корте, ки бо { $last4 } анҷом меёбад
+# $expirationDate (Date) - Payment card's expiration date
+subscription-management-card-expires-date = Муҳлаташ дар { $expirationDate } ба анҷом мерасад
+subscription-management-subscriptions-heading = Обунаҳо
+subscription-management-your-subscriptions-aria = Обунаҳои шумо
+subscription-management-no-subscriptions = Шумо ҳоло ягон обуна надоред
+# $date (String) - Date of In-App purchase expires
+subscription-management-iap-sub-expires-on = Анҷоми муҳлат дар { $date }
+subscription-management-button-manage-subscription = Идоракунӣ
+
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
 
+subscription-management-page-subscription-interval-daily = { $productName } (Барои ҳар рӯз)
+subscription-management-page-subscription-interval-weekly = { $productName } (Барои ҳар ҳафта)
+subscription-management-page-subscription-interval-monthly = { $productName } (Барои ҳар моҳ)
+subscription-management-page-subscription-interval-halfyearly = { $productName } (Барои 6 моҳ)
+subscription-management-page-subscription-interval-yearly = { $productName } (Барои ҳар сол)
 # Page - Not Found
 page-not-found-title = Саҳифа ёфт нашуд
 page-not-found-back-button = Бозгашт
+
+## Navigation breadcrumbs
+
+# Link title - Account settings
+subscription-management-breadcrumb-account-home = Саҳифаи асосии ҳисоб
+# Link title - Subscriptions management
+subscription-management-breadcrumb-subscriptions = Обунаҳо
+# Link title - Payment method management
+subscription-management-breadcrumb-payment = Тарзҳои пардохт
 
 ## Checkout Form
 
@@ -112,6 +152,12 @@ payments-client-loading-spinner =
     .aria-label = Бор шуда истодааст…
     .alt = Бор шуда истодааст…
 
+## Payment method management page - Stripe
+
+# Save button for saving a new payment method
+payment-method-management-save-method = Нигоҳ доштани тарзи пардохт
+manage-stripe-payments-title = Идоракунии тарзҳои пардохт
+
 ## Payment Section
 
 next-new-user-card-title = Маълумоти корти худро ворид кунед
@@ -150,6 +196,20 @@ next-new-user-subscribe-product-updates-mdnplus = Ман мехоҳам, ки а
 next-new-user-subscribe-product-updates-mozilla = Ман мехоҳам, ки аз «{ -brand-mozilla }» дар бораи маҳсулот хабарҳо ва навигариҳоро қабул кунам
 next-new-user-subscribe-product-updates-snp = Ман мехоҳам, ки аз «{ -brand-mozilla }» дар бораи амният ва махфият хабарҳо ва навигариҳоро қабул кунам
 
+## Examples of coupon applied
+## 20% OFF coupon applied: $11.20 + $0.35 tax
+## Holiday Offer 2023 coupon applied: 6,42 €
+## Cybersecurity Awareness Month 2023 coupon applied: $11.20 + $0.35 tax
+## Summer Promo VPN coupon applied: $11.20
+## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., 08/21/2025 for US locale, 21/08/25 for FR locale)
+## $invoiceTotal (Number) - The amount billed (excluding tax if tax does not exist). It will be formatted as currency.
+## $nextBillDate (Date) - The date for the next time a charge will occur (e.g., 08/21/2025 for US locale, 21/08/25 for FR locale)
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+## $promotionName (String) - The name of the promotion.
+## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
+
+subscription-content-heading-cancel-subscription = Бекор кардани обуна
+
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
@@ -164,7 +224,9 @@ next-subscription-create-title = Обунаи худро танзим кунед
 next-subscription-success-title = Тасдиқи обуна
 next-subscription-processing-title = Дар ҳоли тасдиқи обуна…
 next-subscription-error-title = Хатои тасдиқи обуна…
+subscription-title-sub-exists = Шумо аллакай обуна шудаед
 subscription-title-plan-change-heading = Тағйироти худро аз назар гузаронед
+subscription-title-not-supported = Ин тағйироти нақшаи обуна дастгирӣ намешавад
 next-sub-guarantee = Кафолати 30-рӯза барои бозпардохти маблағи шумо
 
 ## Component - TermsAndPrivacy
