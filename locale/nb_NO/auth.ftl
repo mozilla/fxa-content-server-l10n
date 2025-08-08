@@ -268,6 +268,22 @@ device-all = { $uaBrowser } på { $uaOS } { $uaOSVersion }
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 device-browser-os = { $uaBrowser } på { $uaOS }
+# Variables:
+#  $city (String) - User's city
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-all = { $city }, { $stateCode }, { $country } (estimert)
+# Variables:
+#  $city (String) - User's city
+#  $country (String) - User's country
+location-city-country = { $city }, { $country } (estimert)
+# Variables:
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-state-country = { $stateCode }, { $country } (estimert)
+# Variables:
+#  $country (stateCode) - User's country
+location-country = { $country } (estimert)
 view-invoice = <a data-l10n-name="invoiceLink">Se fakturaen din</a>.
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
