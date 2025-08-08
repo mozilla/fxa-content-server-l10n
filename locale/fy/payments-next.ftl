@@ -97,6 +97,8 @@ subscription-management-account-profile-picture = Accountprofylôfbylding
 
 ## Page - Subscription Management
 
+subscription-management-account-credit-balance-heading = Accountsaldo
+subscription-management-account-credit-balance-message = Tegoed wurdt automatysk tapast op takomstige faktueren
 subscription-management-payment-information-heading = Betellingsgegevens
 subscription-management-button-add-payment-method-aria = Betellingsmetoade tafoegje
 subscription-management-button-add-payment-method = Tafoegje
@@ -109,8 +111,6 @@ subscription-management-card-expires-date = Ferrint op { $expirationDate }
 subscription-management-subscriptions-heading = Abonneminten
 subscription-management-your-subscriptions-aria = Jo abonneminten
 subscription-management-no-subscriptions = Jo hawwe noch gjin abonneminten
-subscription-management-button-cancel-subscription-aria = Abonnemint opsizze
-subscription-management-button-cancel-subscription = Opsizze
 subscription-management-your-apple-iap-subscriptions-aria = Jo { -brand-apple }-yn-app-abonneminten
 subscription-management-apple-in-app-purchase = { -brand-apple }: yn-app-oankeap
 subscription-management-your-google-iap-subscriptions-aria = Jo { -brand-google }-yn-app-abonneminten
@@ -122,6 +122,15 @@ subscription-management-iap-sub-expires-on = Ferrint op { $date }
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Abonnemint foar { $productName } beheare
 subscription-management-button-manage-subscription = Beheare
+
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
+
+subscription-management-page-subscription-interval-daily = { $productName } (deistich)
+subscription-management-page-subscription-interval-weekly = { $productName } (wykliks)
+subscription-management-page-subscription-interval-monthly = { $productName } (moanliks)
+subscription-management-page-subscription-interval-halfyearly = { $productName } (6 moanliks)
+subscription-management-page-subscription-interval-yearly = { $productName } (jierliks)
 # Page - Not Found
 page-not-found-title = Side net fûn
 page-not-found-description = De opfrege side is net fûn. Wy binne op de hichte en sille keppelingen dy't mooglik net wurkje werom bringe.
@@ -253,6 +262,33 @@ next-new-user-subscribe-product-updates-mdnplus = Ik wol graach produktnijs en -
 next-new-user-subscribe-product-updates-mozilla = Ik wol graach produktnijs en -updates fan { -brand-mozilla } ûntfange
 next-new-user-subscribe-product-updates-snp = Ik wol graach befeiligings- en privacynijs en updates fan { -brand-mozilla } ûntfange
 next-new-user-subscribe-product-assurance = Wy brûke jo e-mailadres allinnich om jo account oan te meitsjen. Wy sille it nea oan in tredde partij ferkeapje.
+
+## Examples of coupon applied
+## 20% OFF coupon applied: $11.20 + $0.35 tax
+## Holiday Offer 2023 coupon applied: 6,42 €
+## Cybersecurity Awareness Month 2023 coupon applied: $11.20 + $0.35 tax
+## Summer Promo VPN coupon applied: $11.20
+## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., 08/21/2025 for US locale, 21/08/25 for FR locale)
+## $invoiceTotal (Number) - The amount billed (excluding tax if tax does not exist). It will be formatted as currency.
+## $nextBillDate (Date) - The date for the next time a charge will occur (e.g., 08/21/2025 for US locale, 21/08/25 for FR locale)
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+## $promotionName (String) - The name of the promotion.
+## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
+
+subscription-content-promotion-applied-no-tax = Koartingsbon foar { $promotionName } tapast: { $invoiceTotal }
+subscription-content-promotion-applied-with-tax = Koartingsbon foar { $promotionName } tapast: { $invoiceTotal } + { $taxDue } belesting
+subscription-content-current-with-tax = { $invoiceTotal } + { $taxDue } belesting
+subscription-content-next-bill-no-tax = De folgjende faktuer fan { $invoiceTotal } is ferskuldige op { $nextBillDate }
+subscription-content-next-bill-with-tax = De folgjende faktuer fan { $invoiceTotal } + { $taxDue } belesting is ferskuldige op { $nextBillDate }
+subscription-content-heading-cancel-subscription = Abonnemint opsizze
+subscription-content-no-longer-use-message = Jo kinne { $productName } net mear brûke nei { $currentPeriodEnd }, de lêste dei fan jo betellingssyklus.
+subscription-content-cancel-access-message = Myn tagong ta en bewarre gegevens yn { $productName } op { $currentPeriodEnd } opsizze
+subscription-content-button-stay-subscribed = Abonnemint behâlde
+    .aria-label = Abonnemint op { $productName } behâlde
+subscription-content-button-cancel-subscription = Abonnemint opsizze
+    .aria-label = Abonnemint op { $productName } opsizze
+subscription-content-button-cancel = Opsizze
+    .aria-label = Jo abonnemint op { $productName } opsizze
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.

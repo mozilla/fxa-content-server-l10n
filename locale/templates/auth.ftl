@@ -191,6 +191,11 @@ automated-email-reset-pwd-plaintext-v3 = If you didnʼt take this action, then r
 # Followed by link to https://accounts.firefox.com/settings#two-step-authentication
 automated-email-reset-two-factor-plaintext = Also, reset two-step authentication at:
 
+# $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
+banner-warning-message = { -brand-firefox } add-on developers have been targeted by phishing email attacks recently. We’ll only send emails about your { -product-mozilla-account } from <a data-l10n-name="accountsEmailLink">{ $accountsEmail }</a>.
+banner-warning-message-plaintext = { -brand-firefox } add-on developers have been targeted by phishing email attacks recently. We’ll only send emails about your { -product-mozilla-account } from this email address:
+banner-warning-check = Check to make sure the device and location you signed in to is correct.
+
 brand-banner-message = Did you know we changed our name from { -product-firefox-accounts } to { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Learn more</a>
 
 cancellationSurvey = Please help us improve our services by taking this <a data-l10n-name="cancellationSurveyUrl">short survey</a>.
@@ -302,6 +307,23 @@ device-all = { $uaBrowser } on { $uaOS } { $uaOSVersion }
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 device-browser-os = { $uaBrowser } on { $uaOS }
+
+# Variables:
+#  $city (String) - User's city
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-all = { $city }, { $stateCode }, { $country } (estimated)
+# Variables:
+#  $city (String) - User's city
+#  $country (String) - User's country
+location-city-country = { $city }, { $country } (estimated)
+# Variables:
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-state-country = { $stateCode }, { $country } (estimated)
+# Variables:
+#  $country (stateCode) - User's country
+location-country = { $country } (estimated)
 
 view-invoice = <a data-l10n-name="invoiceLink">View your invoice</a>.
 # Variables:
@@ -435,7 +457,7 @@ passwordReset-description-2 = You reset your { -product-mozilla-account } passwo
 
 passwordResetAccountRecovery-subject-2 = Your password has been reset
 passwordResetAccountRecovery-title-3 = Your password has been reset
-# Followed by details on the device and date/time of the password reset.
+# Followed by details on the device, location, and date/time of the password reset.
 passwordResetAccountRecovery-description-3 = You used your account recovery key to reset your { -product-mozilla-account } password on:
 passwordResetAccountRecovery-information = We logged you out of all your synced devices. We created a new account recovery key to replace the one you used. You can change it in your account settings.
 # After the colon there is a link to account settings
@@ -589,7 +611,7 @@ postVerifySecondary-action = Manage account
 
 recovery-subject = Reset your password
 recovery-title-2 = Forgot your password?
-# Information on the device, date and time of the request that triggered the email follows.
+# Information on the device, location, and date and time of the request that triggered the email follows.
 recovery-request-origin-2 = We received a request for a password change on your { -product-mozilla-account } from:
 recovery-new-password-button = Create a new password by clicking the button below. This link will expire within the next hour.
 recovery-copy-paste = Create a new password by copying and pasting the URL below into your browser. This link will expire within the next hour.

@@ -70,7 +70,8 @@ next-payment-confirmation-download-button = Continuar para descargar
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Tarjeta que termina en { $last4 }
 
-## Page - Subscription Management
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
 
 # Page - Not Found
 page-not-found-title = Página no encontrada
