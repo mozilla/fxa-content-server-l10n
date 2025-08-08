@@ -1260,7 +1260,7 @@ msgstr "კოდი ხელით შეყვანა"
 
 #: .es5/templates/inline_totp_setup.mustache:12
 msgid "Scan the QR code in your authentication app and then enter the security code it provides."
-msgstr "წააკითხეთ QR კოდი თქვენი შესვლის დასამოწმებელ პროგრამას და შემდეგ შეიყვანეთ მოცემული უსაფრთხოების კოდი."
+msgstr "გადაუღეთ QR-კოდს თქვენი შესვლის დასამოწმებელ პროგრამიდან და შემდეგ შეიყვანეთ მოცემული უსაფრთხოების კოდი."
 
 #: .es5/templates/inline_totp_setup.mustache:13
 msgid "Can’t scan code?"
