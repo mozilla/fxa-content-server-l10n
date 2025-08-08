@@ -169,6 +169,10 @@ automated-email-reset-pwd-two-factor =
 automated-email-reset-pwd-plaintext-v3 = Om du inte vidtog den här åtgärden, återställ ditt lösenord direkt på:
 # Followed by link to https://accounts.firefox.com/settings#two-step-authentication
 automated-email-reset-two-factor-plaintext = Återställ också tvåstegsautentisering på:
+# $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
+banner-warning-message = { -brand-firefox } tilläggsutvecklare har utsatts för e-postattacker med nätfiske på senare tid. Vi skickar endast e-postmeddelanden om ditt { -product-mozilla-account } från <a data-l10n-name="accountsEmailLink">{ $accountsEmail }</a>.
+banner-warning-message-plaintext = { -brand-firefox } tilläggsutvecklare har utsatts för e-postattacker med nätfiske på senare tid. Vi skickar endast e-postmeddelanden om ditt { -product-mozilla-account } från den här e-postadressen:
+banner-warning-check = Kontrollera att enheten och platsen du loggade in på är korrekt.
 brand-banner-message = Visste du att vi ändrade vårt namn från { -product-firefox-accounts } till { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Läs mer</a>
 cancellationSurvey = Hjälp oss att förbättra våra tjänster genom att svara på denna <a data-l10n-name="cancellationSurveyUrl">korta undersökning</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
@@ -267,6 +271,22 @@ device-all = { $uaBrowser } på { $uaOS } { $uaOSVersion }
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 device-browser-os = { $uaBrowser } på { $uaOS }
+# Variables:
+#  $city (String) - User's city
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-all = { $city }, { $stateCode }, { $country } (uppskattad)
+# Variables:
+#  $city (String) - User's city
+#  $country (String) - User's country
+location-city-country = { $city }, { $country } (uppskattad)
+# Variables:
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-state-country = { $stateCode }, { $country } (uppskattad)
+# Variables:
+#  $country (stateCode) - User's country
+location-country = { $country } (uppskattad)
 view-invoice = <a data-l10n-name="invoiceLink">Visa din faktura</a>.
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
@@ -380,7 +400,7 @@ passwordReset-title-2 = Ditt lösenord har återställts
 passwordReset-description-2 = Du återställde ditt lösenord för { -product-mozilla-account } på:
 passwordResetAccountRecovery-subject-2 = Ditt lösenord har återställts
 passwordResetAccountRecovery-title-3 = Ditt lösenord har återställts
-# Followed by details on the device and date/time of the password reset.
+# Followed by details on the device, location, and date/time of the password reset.
 passwordResetAccountRecovery-description-3 = Du använde din kontoåterställningsnyckel för att återställa ditt lösenord för { -product-mozilla-account } på:
 passwordResetAccountRecovery-information = Vi loggade ut dig från alla dina synkroniserade enheter. Vi skapade en ny kontoåterställningsnyckel för att ersätta den du använde. Du kan ändra det i dina kontoinställningar.
 # After the colon there is a link to account settings
@@ -514,7 +534,7 @@ postVerifySecondary-content-3 = Du har framgångsrikt bekräftat { $secondaryEma
 postVerifySecondary-action = Hantera konto
 recovery-subject = Återställ lösenordet
 recovery-title-2 = Glömt ditt lösenord?
-# Information on the device, date and time of the request that triggered the email follows.
+# Information on the device, location, and date and time of the request that triggered the email follows.
 recovery-request-origin-2 = Vi fick en begäran om lösenordsändring på ditt { -product-mozilla-account } från:
 recovery-new-password-button = Skapa ett nytt lösenord genom att klicka på knappen nedan. Den här länken upphör att gälla inom den närmaste timmen.
 recovery-copy-paste = Skapa ett nytt lösenord genom att kopiera och klistra in webbadressen nedan i din webbläsare. Den här länken upphör att gälla inom den närmaste timmen.
