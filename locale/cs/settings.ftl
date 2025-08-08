@@ -679,7 +679,7 @@ flow-setup-2fa-inline-complete-backup-phone = Telefon pro obnovení
 flow-setup-2fa-inline-complete-backup-code-info =
     { $count ->
         [one] Zbývá { $count } kód
-        [few] Zbývá { $count } kódů
+        [few] Zbývají { $count } kódy
        *[other] Zbývá { $count } kódů
     }
 flow-setup-2fa-inline-complete-backup-code-description = Toto je nejbezpečnější způsob obnovení, pokud se nemůžete přihlásit pomocí svého mobilního zařízení nebo aplikace pro ověřování.
