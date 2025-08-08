@@ -153,6 +153,11 @@ form-password-with-inline-criteria-reset-new-password =
 form-password-with-inline-criteria-confirm-password =
     .label = Bekräfta lösenord
 form-password-with-inline-criteria-reset-submit-button = Skapa nytt lösenord
+form-password-with-inline-criteria-set-password-new-password-label =
+    .label = Lösenord
+form-password-with-inline-criteria-set-password-confirm-password-label =
+    .label = Upprepa lösenord
+form-password-with-inline-criteria-set-password-submit-button = Starta synkronisering
 form-password-with-inline-criteria-match-error = Lösenorden matchar inte
 form-password-with-inline-criteria-sr-too-short-message = Lösenord måste innehålla minst 8 tecken.
 form-password-with-inline-criteria-sr-not-email-message = Lösenord får inte innehålla din e-postadress.
@@ -1201,6 +1206,7 @@ tfa-row-disable-modal-explain-1 =
 # Shown in an alert bar after two-step authentication is disabled
 tfa-row-disabled-2 = Tvåstegsautentisering inaktiverad
 tfa-row-cannot-disable-2 = Tvåstegsautentisering kunde inte inaktiveras
+tfa-row-verify-session-info = Du måste bekräfta din nuvarande session för att ställa in tvåstegsautentisering
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account

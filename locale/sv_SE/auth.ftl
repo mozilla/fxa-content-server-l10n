@@ -169,6 +169,10 @@ automated-email-reset-pwd-two-factor =
 automated-email-reset-pwd-plaintext-v3 = Om du inte vidtog den här åtgärden, återställ ditt lösenord direkt på:
 # Followed by link to https://accounts.firefox.com/settings#two-step-authentication
 automated-email-reset-two-factor-plaintext = Återställ också tvåstegsautentisering på:
+# $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
+banner-warning-message = { -brand-firefox } tilläggsutvecklare har utsatts för e-postattacker med nätfiske på senare tid. Vi skickar endast e-postmeddelanden om ditt { -product-mozilla-account } från <a data-l10n-name="accountsEmailLink">{ $accountsEmail }</a>.
+banner-warning-message-plaintext = { -brand-firefox } tilläggsutvecklare har utsatts för e-postattacker med nätfiske på senare tid. Vi skickar endast e-postmeddelanden om ditt { -product-mozilla-account } från den här e-postadressen:
+banner-warning-check = Kontrollera att enheten och platsen du loggade in på är korrekt.
 brand-banner-message = Visste du att vi ändrade vårt namn från { -product-firefox-accounts } till { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Läs mer</a>
 cancellationSurvey = Hjälp oss att förbättra våra tjänster genom att svara på denna <a data-l10n-name="cancellationSurveyUrl">korta undersökning</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
@@ -267,6 +271,22 @@ device-all = { $uaBrowser } på { $uaOS } { $uaOSVersion }
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 device-browser-os = { $uaBrowser } på { $uaOS }
+# Variables:
+#  $city (String) - User's city
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-all = { $city }, { $stateCode }, { $country } (uppskattad)
+# Variables:
+#  $city (String) - User's city
+#  $country (String) - User's country
+location-city-country = { $city }, { $country } (uppskattad)
+# Variables:
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-state-country = { $stateCode }, { $country } (uppskattad)
+# Variables:
+#  $country (stateCode) - User's country
+location-country = { $country } (uppskattad)
 view-invoice = <a data-l10n-name="invoiceLink">Visa din faktura</a>.
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
