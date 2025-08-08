@@ -141,26 +141,6 @@ device-info-browser-os = { $browserName } op { $genericOSName }
 # The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
 device-info-ip-address = IP-adres: { $ipAddress }
 
-## FormPasswordWithBalloons
-
-signup-new-password-label =
-    .label = Wachtwurd
-signup-confirm-password-label =
-    .label = Nochris it wachtwurd
-signup-submit-button = Account oanmeitsje
-post-verify-set-password-submit-button = Begjin mei syngronisearjen
-form-reset-password-with-balloon-new-password =
-    .label = Nij wachtwurd
-form-reset-password-with-balloon-confirm-password =
-    .label = Fier wachtwurd nochris yn
-form-reset-password-with-balloon-submit-button = Wachtwurd opnij ynstelle
-form-reset-password-with-balloon-match-error = Wachtwurden binne net lyk
-form-password-sr-too-short-message = Wachtwurd moat op syn minst 8 karakters befetsje.
-form-password-sr-not-email-message = Wachtwurd mei jo e-mailadres net befetsje.
-form-password-sr-not-common-message = Wachtwurd mei gjin faaks brûkt wachtwurd wêze.
-form-password-sr-requirements-met = It ynfierde wachtwurd foldocht oan alle wachtwurdfereasken.
-form-password-sr-passwords-match = Ynfierde wachtwurden komme oerien.
-
 ## FormPasswordInlineCriteria
 
 form-password-with-inline-criteria-signup-new-password-label =
@@ -173,6 +153,11 @@ form-password-with-inline-criteria-reset-new-password =
 form-password-with-inline-criteria-confirm-password =
     .label = Befêstigje wachtwurd
 form-password-with-inline-criteria-reset-submit-button = Nij wachtwurd oanmeitsje
+form-password-with-inline-criteria-set-password-new-password-label =
+    .label = Wachtwurd
+form-password-with-inline-criteria-set-password-confirm-password-label =
+    .label = Nochris it wachtwurd
+form-password-with-inline-criteria-set-password-submit-button = Begjin mei syngronisearjen
 form-password-with-inline-criteria-match-error = Wachtwurden komme net oerien
 form-password-with-inline-criteria-sr-too-short-message = Wachtwurd moat op syn minst 8 karakters befetsje.
 form-password-with-inline-criteria-sr-not-email-message = Wachtwurd mei net jo e-mailadres befetsje.
@@ -380,14 +365,6 @@ error-bad-request = Unjildige oanfraach
 
 password-info-balloon-why-password-info = Jo hawwe dit wachtwurd nedich om tagong te krijen ta alle fersifere gegevens dy’t jo by ús bewarje.
 password-info-balloon-reset-risk-info = In nije inisjalisaasje betsjut mooglik ferlies fan gegevens, lykas wachtwurden en blêdwizers.
-
-## PasswordStrengthBalloon component
-
-password-strength-balloon-heading = Wachtwurdeasken
-password-strength-balloon-min-length = Op syn minst 8 karakters
-password-strength-balloon-not-email = Net jo e-mailadres
-password-strength-balloon-not-common = Net in faaks brûkt wachtwurd
-password-strength-balloon-stay-safe-tips = Bliuw feilich – Brûk wachtwurden net opnij. Besjoch mear tips om <LinkExternal>sterke wachtwurden te meitsjen</LinkExternal>.
 
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password
@@ -1233,7 +1210,7 @@ tfa-row-disable-modal-explain-1 =
 # Shown in an alert bar after two-step authentication is disabled
 tfa-row-disabled-2 = Twa-staps autentikaasje útskeakele
 tfa-row-cannot-disable-2 = Autentikaasje yn twa stappen koe net útskeakele wurde
-tfa-row-disable-cannot-verify-session = Sorry, der is in probleem bard by it befêstigjen fan jo sesje
+tfa-row-verify-session-info = Jo moatte jo aktuele sesje befêstigje om autentikaasje yn twa stappen yn te stellen
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account

@@ -141,26 +141,6 @@ device-info-browser-os = { $browserName } på { $genericOSName }
 # The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
 device-info-ip-address = IP-adress: { $ipAddress }
 
-## FormPasswordWithBalloons
-
-signup-new-password-label =
-    .label = Lösenord
-signup-confirm-password-label =
-    .label = Upprepa lösenord
-signup-submit-button = Skapa konto
-post-verify-set-password-submit-button = Starta synkronisering
-form-reset-password-with-balloon-new-password =
-    .label = Nytt lösenord
-form-reset-password-with-balloon-confirm-password =
-    .label = Bekräfta lösenordet
-form-reset-password-with-balloon-submit-button = Återställ lösenordet
-form-reset-password-with-balloon-match-error = Lösenorden matchar inte
-form-password-sr-too-short-message = Lösenord måste innehålla minst 8 tecken.
-form-password-sr-not-email-message = Lösenord får inte innehålla din e-postadress.
-form-password-sr-not-common-message = Lösenord får inte vara ett vanligt använt lösenord.
-form-password-sr-requirements-met = Det angivna lösenordet respekterar alla lösenordskrav.
-form-password-sr-passwords-match = Angivna lösenord matchar.
-
 ## FormPasswordInlineCriteria
 
 form-password-with-inline-criteria-signup-new-password-label =
@@ -173,6 +153,11 @@ form-password-with-inline-criteria-reset-new-password =
 form-password-with-inline-criteria-confirm-password =
     .label = Bekräfta lösenord
 form-password-with-inline-criteria-reset-submit-button = Skapa nytt lösenord
+form-password-with-inline-criteria-set-password-new-password-label =
+    .label = Lösenord
+form-password-with-inline-criteria-set-password-confirm-password-label =
+    .label = Upprepa lösenord
+form-password-with-inline-criteria-set-password-submit-button = Starta synkronisering
 form-password-with-inline-criteria-match-error = Lösenorden matchar inte
 form-password-with-inline-criteria-sr-too-short-message = Lösenord måste innehålla minst 8 tecken.
 form-password-with-inline-criteria-sr-not-email-message = Lösenord får inte innehålla din e-postadress.
@@ -380,14 +365,6 @@ error-bad-request = Felaktig begäran
 
 password-info-balloon-why-password-info = Du behöver detta lösenord för att komma åt krypterad data som du lagrar hos oss.
 password-info-balloon-reset-risk-info = En återställning innebär att data som lösenord och bokmärken kan förloras.
-
-## PasswordStrengthBalloon component
-
-password-strength-balloon-heading = Lösenordskrav
-password-strength-balloon-min-length = Minst 8 tecken
-password-strength-balloon-not-email = Inte din e-postadress
-password-strength-balloon-not-common = Inte ett vanligt använt lösenord
-password-strength-balloon-stay-safe-tips = Var säker — Återanvänd inte lösenord. Se fler tips för att <LinkExternal>skapa starka lösenord</LinkExternal>.
 
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password
@@ -1229,7 +1206,7 @@ tfa-row-disable-modal-explain-1 =
 # Shown in an alert bar after two-step authentication is disabled
 tfa-row-disabled-2 = Tvåstegsautentisering inaktiverad
 tfa-row-cannot-disable-2 = Tvåstegsautentisering kunde inte inaktiveras
-tfa-row-disable-cannot-verify-session = Tyvärr, det uppstod ett problem med att bekräfta din session
+tfa-row-verify-session-info = Du måste bekräfta din nuvarande session för att ställa in tvåstegsautentisering
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account

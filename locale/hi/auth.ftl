@@ -53,12 +53,6 @@ manage-account = खाता प्रबंधित करें
 manage-account-plaintext = { manage-account }:
 payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
 
-## Variables:
-##  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
-##  $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
-##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
-
-
 ##
 
 cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
@@ -92,12 +86,6 @@ subscriptionAccountFinishSetup-title = { $productName } में आपका �
 subscriptionAccountReminderFirst-action = पासवर्ड बनाएं
 subscriptionAccountReminderFirst-action-plaintext = { subscriptionAccountReminderFirst-action }:
 subscriptionAccountReminderSecond-title-2 = { -brand-mozilla } में आपका स्वागत है!
-
-## Variables
-##   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-##   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
-##   $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
-
 
 ## Variables:
 ## $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00

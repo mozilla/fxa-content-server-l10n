@@ -167,6 +167,10 @@ automated-email-reset-pwd-two-factor = Se não executou esta ação, <a data-l10
 automated-email-reset-pwd-plaintext-v3 = Se não executou esta ação, reponha a sua palavra-passe imediatamente em:
 # Followed by link to https://accounts.firefox.com/settings#two-step-authentication
 automated-email-reset-two-factor-plaintext = Além disso, reponha a autenticação de dois passos em:
+# $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
+banner-warning-message = { -brand-firefox } programadores de extras foram alvo de ataques de e-mail de phishing recentemente. Apenas iremos enviar e-mails acerca dos seus { -product-mozilla-account } de <a data-l10n-name="accountsEmailLink">{ $accountsEmail }</a>.
+banner-warning-message-plaintext = { -brand-firefox } programadores de extras foram alvo de ataques de e-mail de phishing recentemente. Apenas iremos enviar e-mails sobre os seus { -product-mozilla-account } a partir deste endereço de e-mail:
+banner-warning-check = Verifique se o dispositivo e a localização onde iniciou sessão estão corretos.
 brand-banner-message = Sabia que nós alterámos o nosso nome de { -product-firefox-accounts } para { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Saiba mais</a>
 cancellationSurvey = Ajude-nos a melhorar os nossos serviços preenchendo este <a data-l10n-name="cancellationSurveyUrl">pequeno questionário</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
@@ -265,6 +269,22 @@ device-all = { $uaBrowser } no { $uaOS } { $uaOSVersion }
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 device-browser-os = { $uaBrowser } no { $uaOS }
+# Variables:
+#  $city (String) - User's city
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-all = { $city }, { $stateCode }, { $country } (estimado)
+# Variables:
+#  $city (String) - User's city
+#  $country (String) - User's country
+location-city-country = { $city }, { $country } (estimado)
+# Variables:
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-state-country = { $stateCode }, { $country } (estimado)
+# Variables:
+#  $country (stateCode) - User's country
+location-country = { $country } (estimado)
 view-invoice = <a data-l10n-name="invoiceLink">Ver a sua fatura</a>.
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
@@ -378,7 +398,7 @@ passwordReset-title-2 = A sua palavra-passe foi redefinida
 passwordReset-description-2 = Redefiniu a palavra passe da sua { -product-mozilla-account } em:
 passwordResetAccountRecovery-subject-2 = A sua palavra-passe foi redefinida
 passwordResetAccountRecovery-title-3 = A sua palavra-passe foi redefinida
-# Followed by details on the device and date/time of the password reset.
+# Followed by details on the device, location, and date/time of the password reset.
 passwordResetAccountRecovery-description-3 = Utilizou a sua chave de recuperação de conta para redefinir a palavra-passe da sua { -product-mozilla-account } em:
 passwordResetAccountRecovery-information = Terminámos a sessão de todos os seus dispositivos sincronizados. Criámos uma nova chave de recuperação da conta para substituir a que utilizou. Pode alterar a mesma nas definições da sua conta.
 # After the colon there is a link to account settings
@@ -512,7 +532,7 @@ postVerifySecondary-content-3 = Confirmou { $secondaryEmail } com sucesso, como 
 postVerifySecondary-action = Gerir conta
 recovery-subject = Repor a sua palavra-passe
 recovery-title-2 = Esqueceu-se da sua palavra-passe?
-# Information on the device, date and time of the request that triggered the email follows.
+# Information on the device, location, and date and time of the request that triggered the email follows.
 recovery-request-origin-2 = Nós recebemos um pedido de alteração da palavra-passe na sua { -product-mozilla-account } de:
 recovery-new-password-button = Crie uma nova palavra-passe clicando no botão abaixo. Esta ligação irá expirar daqui a uma hora.
 recovery-copy-paste = Crie uma nova palavra-passe copiando e colando o endereço abaixo no seu navegador. Esta ligação irá expirar daqui a uma hora.
