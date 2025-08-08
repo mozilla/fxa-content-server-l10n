@@ -169,6 +169,9 @@ automated-email-reset-pwd-two-factor =
 automated-email-reset-pwd-plaintext-v3 = Hvis du ikke foretog denne handling, så nulstil din adgangskode med det samme på:
 # Followed by link to https://accounts.firefox.com/settings#two-step-authentication
 automated-email-reset-two-factor-plaintext = Nulstil også totrinsgodkendelse på:
+# $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
+banner-warning-message = Udviklere af tilføjelser til { -brand-firefox } har for nylig været mål for angreb via phishing-mails. Vi sender kun mails vedrørende din { -product-mozilla-account } fra <a data-l10n-name="accountsEmailLink">{ $accountsEmail }</a>.
+banner-warning-message-plaintext = Udviklere af tilføjelser til { -brand-firefox } har for nylig været mål for angreb via phishing-mails. Vi sender kun mails vedrørende din { -product-mozilla-account } fra denne mailadresse:
 banner-warning-check = Kontrollér, at enheden og positionen, du loggede ind fra, er korrekte.
 brand-banner-message = Vidste du, at vi har ændret vores navn fra { -product-firefox-accounts } til { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Læs mere</a>
 cancellationSurvey = Hjælp os med at forbedre vores tjenester ved at deltage i denne <a data-l10n-name="cancellationSurveyUrl">korte undersøgelse</a>.

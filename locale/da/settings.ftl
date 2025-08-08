@@ -490,7 +490,7 @@ connect-another-find-fx-mobile-2 = Find { -brand-firefox } i { -google-play } og
 connect-another-play-store-image-2 =
     .alt = Hent { -brand-firefox } på { -google-play }
 connect-another-app-store-image-3 =
-    .alt = Hent { -brand-firefox } på { -app-store }
+    .alt = Hent { -brand-firefox } i { -app-store }
 
 ## Connected services section
 
