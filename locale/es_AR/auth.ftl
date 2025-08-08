@@ -168,9 +168,9 @@ automated-email-reset-pwd-plaintext-v3 = Si no hiciste esta acción, restablecé
 # Followed by link to https://accounts.firefox.com/settings#two-step-authentication
 automated-email-reset-two-factor-plaintext = Además, restablecé la autenticación de dos pasos en:
 # $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
-banner-warning-message = Recientemente, { -brand-firefox } desarrolladores de complementos han sido blanco de ataques de phishing por correo electrónico. Solo enviaremos correos electrónicos sobre sus { -product-mozilla-account } de <a data-l10n-name="accountsEmailLink">{ $accountsEmail }</a>.
-banner-warning-message-plaintext = Recientemente, { -brand-firefox } desarrolladores de complementos han sido blanco de ataques de phishing por correo electrónico. Solo enviaremos correos electrónicos sobre tu { -product-mozilla-account } desde esta dirección de correo electrónico:
-banner-warning-check = Verifique que el dispositivo y la ubicación en los que inició sesión sean correctos.
+banner-warning-message = Recientemente, desarrolladores de complementos de { -brand-firefox } han sido blanco de ataques de phishing por correo electrónico. Solo enviaremos correos electrónicos sobre { -product-mozilla-account } desde <a data-l10n-name="accountsEmailLink">{ $accountsEmail }</a>.
+banner-warning-message-plaintext = Recientemente, desarrolladores de complementos de { -brand-firefox }han sido blanco de ataques de phishing por correo electrónico. Solo enviaremos correos electrónicos sobre { -product-mozilla-account } desde esta dirección de correo electrónico:
+banner-warning-check = Verificá que el dispositivo y la ubicación en los que iniciaste sesión sean correctos.
 brand-banner-message = ¿Sabías que cambiamos nuestro nombre de { -product-firefox-accounts } a { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Conocer más</a>
 cancellationSurvey = Ayudanos a mejorar nuestros servicios realizando esta <a data-l10n-name="cancellationSurveyUrl">breve encuesta</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
