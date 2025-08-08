@@ -141,6 +141,11 @@ form-password-with-inline-criteria-reset-new-password =
 form-password-with-inline-criteria-confirm-password =
     .label = 請再次輸入密碼
 form-password-with-inline-criteria-reset-submit-button = 建立新密碼
+form-password-with-inline-criteria-set-password-new-password-label =
+    .label = 密碼
+form-password-with-inline-criteria-set-password-confirm-password-label =
+    .label = 重複輸入密碼
+form-password-with-inline-criteria-set-password-submit-button = 開始同步
 form-password-with-inline-criteria-match-error = 密碼不符合
 form-password-with-inline-criteria-sr-too-short-message = 密碼必須包含至少 8 個字元。
 form-password-with-inline-criteria-sr-not-email-message = 密碼不得包含您的電子郵件地址。
@@ -1162,6 +1167,7 @@ tfa-row-disable-modal-explain-1 = 將無法還原此動作。您還可以<linkEx
 # Shown in an alert bar after two-step authentication is disabled
 tfa-row-disabled-2 = 已關閉兩階段驗證
 tfa-row-cannot-disable-2 = 無法停用兩階段驗證
+tfa-row-verify-session-info = 必須先驗證您目前的使用階段，才能設定兩階段驗證
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
