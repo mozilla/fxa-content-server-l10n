@@ -194,7 +194,7 @@ msgstr ""
 
 #: .es5/views/mixins/save-options-mixin.js:52
 msgid "Copied"
-msgstr "Cupiatu"
+msgstr ""
 
 #: .es5/views/mixins/save-options-mixin.js:54
 msgid "Failed to copy. Please manually copy."
