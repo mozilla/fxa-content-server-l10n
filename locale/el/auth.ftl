@@ -267,6 +267,22 @@ device-all = { $uaBrowser } σε { $uaOS } { $uaOSVersion }
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 device-browser-os = { $uaBrowser } σε { $uaOS }
+# Variables:
+#  $city (String) - User's city
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-all = { $city }, { $stateCode }, { $country } (εκτίμηση)
+# Variables:
+#  $city (String) - User's city
+#  $country (String) - User's country
+location-city-country = { $city }, { $country } (εκτίμηση)
+# Variables:
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-state-country = { $stateCode }, { $country } (εκτίμηση)
+# Variables:
+#  $country (stateCode) - User's country
+location-country = { $country } (εκτίμηση)
 view-invoice = <a data-l10n-name="invoiceLink">Δείτε το παραστατικό σας</a>.
 # Variables:
 #  $invoiceLink (String) - The link to the invoice

@@ -153,6 +153,11 @@ form-password-with-inline-criteria-reset-new-password =
 form-password-with-inline-criteria-confirm-password =
     .label = Επιβεβαίωση κωδικού πρόσβασης
 form-password-with-inline-criteria-reset-submit-button = Δημιουργία νέου κωδικού πρόσβασης
+form-password-with-inline-criteria-set-password-new-password-label =
+    .label = Κωδικός πρόσβασης
+form-password-with-inline-criteria-set-password-confirm-password-label =
+    .label = Επανάληψη κωδικού πρόσβασης
+form-password-with-inline-criteria-set-password-submit-button = Έναρξη συγχρονισμού
 form-password-with-inline-criteria-match-error = Οι κωδικοί πρόσβασης δεν ταιριάζουν
 form-password-with-inline-criteria-sr-too-short-message = Ο κωδικός πρόσβασης πρέπει να περιέχει τουλάχιστον 8 χαρακτήρες.
 form-password-with-inline-criteria-sr-not-email-message = Ο κωδικός πρόσβασης δεν πρέπει να περιέχει τη διεύθυνση email σας.
@@ -1204,6 +1209,7 @@ tfa-row-disable-modal-explain-1 =
 # Shown in an alert bar after two-step authentication is disabled
 tfa-row-disabled-2 = Η ταυτοποίηση δύο παραγόντων απενεργοποιήθηκε
 tfa-row-cannot-disable-2 = Δεν ήταν δυνατή η απενεργοποίηση της ταυτοποίησης δύο παραγόντων
+tfa-row-verify-session-info = Θα χρειαστεί να επιβεβαιώσετε την τρέχουσα συνεδρία σας για να ρυθμίσετε την ταυτοποίηση δύο παραγόντων
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
