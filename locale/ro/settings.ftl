@@ -10,6 +10,11 @@ input-password-hide = Ascunde parola
 # Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will show the password.
 input-password-show = Afișează parola
 
+## ResetPasswordWarning component
+## Warning shown to sync users that reset their password without using an account recovery key
+
+password-reset-data-may-be-saved-locally-2 = Este posibil să ai datele din browser salvate pe dispozitivul respectiv. Resetează-ți parola, apoi intră în cont pe dispozitiv ca să îți restaurezi și să îți sincronizezi datele.
+
 ## Alert Bar
 
 alert-bar-close-message = Închide mesajul
