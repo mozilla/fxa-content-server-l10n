@@ -1,6 +1,3 @@
-## Non-email strings
-
-
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
 ## version. The strings are usually identical but sometimes they differ slightly.
@@ -8,12 +5,6 @@
 fxa-privacy-url = { -brand-mozilla } गोपनीयता नीति
 change-password-plaintext = यदि तपाईंलाई सम्भावित छ कि, कसैले तपाईंको खातामा पहुँच प्राप्त गर्ने प्रयास गर्दैछ, कृपया आफ्नो पासवर्ड परिवर्तन गर्नुहोस् ।
 manage-account = खाता व्यवस्थापन गर्नुहोस्
-
-## Variables:
-##  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
-##  $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
-##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
-
 
 ##
 
@@ -33,12 +24,6 @@ postRemoveTwoStepAuthentication-action = खाता व्यवस्था�
 postVerifySecondary-subject = माध्यमिक इमेल थपियो
 postVerifySecondary-title = माध्यमिक इमेल थपियो
 postVerifySecondary-action = खाता व्यवस्थापन गर्नुहोस्
-
-## Variables
-##   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-##   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
-##   $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
-
 
 ## Variables:
 ## $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00

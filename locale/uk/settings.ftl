@@ -122,25 +122,6 @@ device-info-browser-os = { $browserName } на { $genericOSName }
 # The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
 device-info-ip-address = IP-адреса: { $ipAddress }
 
-## FormPasswordWithBalloons
-
-signup-new-password-label =
-    .label = Пароль
-signup-confirm-password-label =
-    .label = Повторити пароль
-signup-submit-button = Створити обліковий запис
-form-reset-password-with-balloon-new-password =
-    .label = Новий пароль
-form-reset-password-with-balloon-confirm-password =
-    .label = Введіть пароль ще раз
-form-reset-password-with-balloon-submit-button = Відновити пароль
-form-reset-password-with-balloon-match-error = Паролі відрізняються
-form-password-sr-too-short-message = Пароль має містити принаймні 8 символів.
-form-password-sr-not-email-message = Пароль не повинен містити вашу електронну адресу.
-form-password-sr-not-common-message = Пароль не повинен бути загальновживаним.
-form-password-sr-requirements-met = Введений пароль відповідає всім вимогам.
-form-password-sr-passwords-match = Введені паролі збігаються.
-
 ## FormPasswordInlineCriteria
 
 form-password-with-inline-criteria-signup-new-password-label =
@@ -358,14 +339,6 @@ error-bad-request = Неправильний запит
 
 password-info-balloon-why-password-info = Пароль потрібен для доступу до збережених зашифрованих даних.
 password-info-balloon-reset-risk-info = Скидання пароля може призвести до втрати даних, як-от паролів і закладок.
-
-## PasswordStrengthBalloon component
-
-password-strength-balloon-heading = Вимоги до пароля
-password-strength-balloon-min-length = Принаймні 8 символів
-password-strength-balloon-not-email = Не ваша електронна адреса
-password-strength-balloon-not-common = Не часто використовуваний пароль
-password-strength-balloon-stay-safe-tips = Убезпечте себе — не використовуйте паролі повторно. Перегляньте інші поради щодо <LinkExternal>створення надійних паролів</LinkExternal>.
 
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password

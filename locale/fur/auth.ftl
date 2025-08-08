@@ -380,7 +380,7 @@ passwordReset-title-2 = La password e je stade ristabilide
 passwordReset-description-2 = Tu âs ristabilît la password dal to { -product-mozilla-account } su:
 passwordResetAccountRecovery-subject-2 = La password e je stade ristabilide
 passwordResetAccountRecovery-title-3 = La password e je stade ristabilide
-# Followed by details on the device and date/time of the password reset.
+# Followed by details on the device, location, and date/time of the password reset.
 passwordResetAccountRecovery-description-3 = Tu âs doprade la clâf di recupar dal account par ristabilî la password di { -product-mozilla-account } su:
 passwordResetAccountRecovery-information = Ti vin disconetût/disconetude di ducj i tiei dispositîfs sincronizâts. O vin creât une gnove clâf di recupar dal account par sostituî chê che tu âs doprât. Tu puedis modificâle tes impostazions dal to account.
 # After the colon there is a link to account settings
@@ -514,7 +514,7 @@ postVerifySecondary-content-3 = Tu âs confermât cun sucès la direzion { $seco
 postVerifySecondary-action = Gjestìs account
 recovery-subject = Ristabilìs la tô password
 recovery-title-2 = Password dismenteade?
-# Information on the device, date and time of the request that triggered the email follows.
+# Information on the device, location, and date and time of the request that triggered the email follows.
 recovery-request-origin-2 = O vin ricevût une richieste di modifiche de tô password pal to { -product-mozilla-account } di:
 recovery-new-password-button = Fâs clic sul boton chi sot par creâ une gnove password. Chest colegament al scjadarà chi di une ore.
 recovery-copy-paste = Cope e tache chest URL tal to navigadôr par creâ une gnove password. Chest colegament al scjadarà chi di une ore.

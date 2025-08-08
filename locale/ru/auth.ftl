@@ -381,7 +381,7 @@ passwordReset-title-2 = Ваш пароль был сброшен
 passwordReset-description-2 = Вы сбросили свой пароль для { -product-mozilla-account } на:
 passwordResetAccountRecovery-subject-2 = Ваш пароль был сброшен
 passwordResetAccountRecovery-title-3 = Ваш пароль был сброшен
-# Followed by details on the device and date/time of the password reset.
+# Followed by details on the device, location, and date/time of the password reset.
 passwordResetAccountRecovery-description-3 = Вы использовали ключ восстановления своего аккаунта для сброса пароля { -product-mozilla-account } на:
 passwordResetAccountRecovery-information = Мы отключили вас на всех синхронизируемых устройствах. Мы создали новый ключ восстановления аккаунта, чтобы заменить тот, который вы использовали. Вы можете изменить его в настройках своего аккаунта.
 # After the colon there is a link to account settings
@@ -515,7 +515,7 @@ postVerifySecondary-content-3 = Вы успешно подтвердили { $se
 postVerifySecondary-action = Управление аккаунтом
 recovery-subject = Восстановить ваш пароль
 recovery-title-2 = Забыли свой пароль?
-# Information on the device, date and time of the request that triggered the email follows.
+# Information on the device, location, and date and time of the request that triggered the email follows.
 recovery-request-origin-2 = Мы получили запрос на смену пароля для вашего { -product-mozilla-account } от:
 recovery-new-password-button = Создайте новый пароль, щёлкнув по кнопке ниже. Срок действия этой ссылки истекает в течение следующего часа.
 recovery-copy-paste = Создайте новый пароль, скопировав и вставив приведенный ниже URL-адрес в адресную строку браузера. Срок действия этой ссылки истекает в течение следующего часа.

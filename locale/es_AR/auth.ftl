@@ -378,7 +378,7 @@ passwordReset-title-2 = Tu contraseña fue restablecida
 passwordReset-description-2 = Restableciste tu contraseña de { -product-mozilla-account } en:
 passwordResetAccountRecovery-subject-2 = Tu contraseña fue restablecida
 passwordResetAccountRecovery-title-3 = Tu contraseña fue restablecida
-# Followed by details on the device and date/time of the password reset.
+# Followed by details on the device, location, and date/time of the password reset.
 passwordResetAccountRecovery-description-3 = Usaste la clave de recuperación de cuenta para restablecer tu contraseña de { -product-mozilla-account } en:
 passwordResetAccountRecovery-information = Cerramos la sesión en todos tus dispositivos sincronizados. Creamos una nueva clave de recuperación de cuenta para reemplazar la que usaste. Podés cambiarla en la configuración de tu cuenta.
 # After the colon there is a link to account settings
@@ -512,7 +512,7 @@ postVerifySecondary-content-3 = Confirmaste correctamente { $secondaryEmail } co
 postVerifySecondary-action = Administrar cuenta
 recovery-subject = Restablecé tu contraseña
 recovery-title-2 = ¿Te olvidaste la contraseña?
-# Information on the device, date and time of the request that triggered the email follows.
+# Information on the device, location, and date and time of the request that triggered the email follows.
 recovery-request-origin-2 = Recibimos una solicitud de cambio de contraseña en tu { -product-mozilla-account } de:
 recovery-new-password-button = Creá una nueva contraseña haciendo clic en el siguiente botón. Este enlace expirará en una hora.
 recovery-copy-paste = Creá una nueva contraseña copiando y pegando la siguiente URL en un navegador. Este enlace expirará en una hora.

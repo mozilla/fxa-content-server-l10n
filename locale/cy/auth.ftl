@@ -382,7 +382,7 @@ passwordReset-title-2 = Mae eich cyfrinair wedi ei ailosod
 passwordReset-description-2 = Rydych chi wedi ailosod eich cyfrinair { -product-mozilla-account } ar:
 passwordResetAccountRecovery-subject-2 = Mae eich cyfrinair wedi'i ailosod
 passwordResetAccountRecovery-title-3 = Mae eich cyfrinair wedi ei ailosod
-# Followed by details on the device and date/time of the password reset.
+# Followed by details on the device, location, and date/time of the password reset.
 passwordResetAccountRecovery-description-3 = Fe wnaethoch chi ddefnyddio'ch allwedd adfer cyfrif i ailosod eich cyfrinair { -product-mozilla-account } ar:
 passwordResetAccountRecovery-information = Fe wnaethom eich allgofnodi o'ch holl ddyfeisiau wedi'u cydweddu. Rydym wedi creu allwedd adfer cyfrif newydd yn lle'r un a ddefnyddiwyd gennych. Gallwch ei newid yng ngosodiadau eich cyfrif.
 # After the colon there is a link to account settings
@@ -516,7 +516,7 @@ postVerifySecondary-content-3 = Rydych wedi llwyddo i gadarnhau { $secondaryEmai
 postVerifySecondary-action = Rheoli cyfrif
 recovery-subject = Ailosod eich cyfrinair
 recovery-title-2 = Wedi anghofio eich cyfrinair?
-# Information on the device, date and time of the request that triggered the email follows.
+# Information on the device, location, and date and time of the request that triggered the email follows.
 recovery-request-origin-2 = Cawsom gais am newid cyfrinair ar eich cyfrif { -product-mozilla-account } oddi wrth:
 recovery-new-password-button = Crëwch gyfrinair newydd trwy glicio ar y botwm isod. Bydd y ddolen hon yn dod i ben o fewn yr awr nesaf.
 recovery-copy-paste = Crëwch gyfrinair newydd trwy gopïo a gludo'r URL isod i'ch porwr. Bydd y ddolen hon yn dod i ben o fewn yr awr nesaf.

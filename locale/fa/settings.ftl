@@ -110,25 +110,6 @@ device-info-browser-os = { $browserName } بر روی { $genericOSName }
 # The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
 device-info-ip-address = نشانی IP: { $ipAddress }
 
-## FormPasswordWithBalloons
-
-signup-new-password-label =
-    .label = گذرواژه
-signup-confirm-password-label =
-    .label = تکرار گذرواژه
-signup-submit-button = ایجاد حساب کاربری
-form-reset-password-with-balloon-new-password =
-    .label = گذرواژه جدید
-form-reset-password-with-balloon-confirm-password =
-    .label = گذرواژه را دوباره وارد کنید
-form-reset-password-with-balloon-submit-button = بازنشانی گذرواژه
-form-reset-password-with-balloon-match-error = گذرواژه‌ها منطبق نیستند
-form-password-sr-too-short-message = گذرواژه باید حداقل حاوی ۸ نویسه باشد.
-form-password-sr-not-email-message = گذرواژه نباید حاوی نشانی رایانامه شما باشد.
-form-password-sr-not-common-message = گذرواژه نباید یک گذرواژه رایج باشد.
-form-password-sr-requirements-met = گذرواژه وارد شده همه الزامات گذرواژه را رعایت می‌کند.
-form-password-sr-passwords-match = گذرواژه‌های وارد شده با هم مطابقت دارند.
-
 ## FormPasswordInlineCriteria
 
 form-password-with-inline-criteria-signup-new-password-label =

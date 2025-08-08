@@ -8,18 +8,6 @@
 datablock-download =
     .message = Nai-download na
 
-## FormPasswordWithBalloons
-
-signup-new-password-label =
-    .label = Password
-signup-confirm-password-label =
-    .label = Ulitin ang password
-signup-submit-button = Gumawa ng account
-form-reset-password-with-balloon-new-password =
-    .label = Bagong password
-form-reset-password-with-balloon-submit-button = i-Reset ang Password
-form-reset-password-with-balloon-match-error = Hindi tugma ang passwords
-
 ## FormVerifyTotp component
 ## Form to enter a time-based one-time-passcode (e.g., 6-digit numeric code or 8-digit alphanumeric code)
 

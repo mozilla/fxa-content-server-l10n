@@ -141,26 +141,6 @@ device-info-browser-os = { $browserName } su { $genericOSName }
 # The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
 device-info-ip-address = Direzion IP: { $ipAddress }
 
-## FormPasswordWithBalloons
-
-signup-new-password-label =
-    .label = Password
-signup-confirm-password-label =
-    .label = Ripet password
-signup-submit-button = Cree un account
-post-verify-set-password-submit-button = Scomence la sincronizazion
-form-reset-password-with-balloon-new-password =
-    .label = Gnove password
-form-reset-password-with-balloon-confirm-password =
-    .label = Torne inserìs la password
-form-reset-password-with-balloon-submit-button = Ristabilìs la password
-form-reset-password-with-balloon-match-error = Lis passwords no corispuindin
-form-password-sr-too-short-message = La password e à di vê almancul 8 caratars.
-form-password-sr-not-email-message = La password no à di contignî la tô direzion e-mail.
-form-password-sr-not-common-message = La password no à di jessi une password di ûs comun.
-form-password-sr-requirements-met = La password inseride e rispiete ducj i recuisîts pes passwords.
-form-password-sr-passwords-match = Lis passwords inseridis a corispuindin.
-
 ## FormPasswordInlineCriteria
 
 form-password-with-inline-criteria-signup-new-password-label =
@@ -380,14 +360,6 @@ error-bad-request = Richieste sbaliade
 
 password-info-balloon-why-password-info = Ti covente cheste password par acedi ai dâts cifrâts che o salvìn par te.
 password-info-balloon-reset-risk-info = Un ripristinament al podarès compuartâ la pierdite di dâts come passwords e segnelibris.
-
-## PasswordStrengthBalloon component
-
-password-strength-balloon-heading = Recuisîts de password
-password-strength-balloon-min-length = Almancul 8 caratars
-password-strength-balloon-not-email = No compagne de direzion e-mail
-password-strength-balloon-not-common = No une password di ûs comun
-password-strength-balloon-stay-safe-tips = Reste al sigûr — No sta tornâ a doprâ lis passwords. Viôt altris sugjeriments par <LinkExternal>creâ passwords complessis</LinkExternal>.
 
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password
@@ -1219,7 +1191,6 @@ tfa-row-disable-modal-explain-1 =
 # Shown in an alert bar after two-step authentication is disabled
 tfa-row-disabled-2 = Autenticazion in doi passaçs disativade
 tfa-row-cannot-disable-2 = Impussibil disativâ la autenticazion in doi passaçs
-tfa-row-disable-cannot-verify-session = Nus displâs, al è vignût fûr un probleme tal confermâ la tô session
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account

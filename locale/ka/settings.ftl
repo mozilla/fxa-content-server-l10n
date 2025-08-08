@@ -143,26 +143,6 @@ device-info-browser-os = { $browserName } სისტემაზე { $generic
 # The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
 device-info-ip-address = IP-მისამართი: { $ipAddress }
 
-## FormPasswordWithBalloons
-
-signup-new-password-label =
-    .label = პაროლი
-signup-confirm-password-label =
-    .label = გაიმეორეთ პაროლი
-signup-submit-button = ანგარიშის შექმნა
-post-verify-set-password-submit-button = დასინქ. დაწყება
-form-reset-password-with-balloon-new-password =
-    .label = ახალი პაროლი
-form-reset-password-with-balloon-confirm-password =
-    .label = ხელმეორედ შეყვანა:
-form-reset-password-with-balloon-submit-button = პაროლის განულება
-form-reset-password-with-balloon-match-error = პაროლები არ ემთხვევა
-form-password-sr-too-short-message = პაროლი არანაკლებ 8 სიმბოლოსგან უნდა შედგებოდეს.
-form-password-sr-not-email-message = პაროლი არ უნდა შეიცავდეს თქვენს ელფოსტას.
-form-password-sr-not-common-message = პაროლი არ ემთხვეოდეს ხშირად გამოყენებულს.
-form-password-sr-requirements-met = შეყვანილი პაროლი აკმაყოფილებს ყველა მოთხოვნას.
-form-password-sr-passwords-match = შეყვანილი პაროლები ემთხვევა.
-
 ## FormPasswordInlineCriteria
 
 form-password-with-inline-criteria-signup-new-password-label =
@@ -382,14 +362,6 @@ error-bad-request = გაუმართავი მოთხოვნა
 
 password-info-balloon-why-password-info = პაროლი გესაჭიროებათ იმ დაშიფრულ მონაცემებთან წვდომისთვის, რომელთაც ჩვენთან ინახავთ.
 password-info-balloon-reset-risk-info = განულების შედეგად, სავარაუდოდ, დაკარგავთ შენახულ მონაცემებს, მათ შორის პაროლებსა და სანიშნებს.
-
-## PasswordStrengthBalloon component
-
-password-strength-balloon-heading = პაროლის მოთხოვნები
-password-strength-balloon-min-length = არანაკლებ 8 სიმბოლო
-password-strength-balloon-not-email = თქვენი ელფოსტის გარდა
-password-strength-balloon-not-common = ხშირად გამოყენებულის გარდა
-password-strength-balloon-stay-safe-tips = დაიცავით უსაფრთხოება – ნუ გამოიყენებთ ერთსა და იმავე პაროლებს. ვრცლად იხილეთ რჩევები <LinkExternal>ძლიერი პაროლის შესაქმნელად</LinkExternal>.
 
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password
@@ -1229,7 +1201,6 @@ tfa-row-disable-modal-explain-1 =
 # Shown in an alert bar after two-step authentication is disabled
 tfa-row-disabled-2 = ორბიჯიანი დამოწმება შესვლისას გამორთულია
 tfa-row-cannot-disable-2 = ორბიჯიანი დამოწმება ვერ გამოირთვება
-tfa-row-disable-cannot-verify-session = სამწუხაროდ, ხარვეზი წარმოიშვა თქვენი სეანსის დამოწმებისას
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account

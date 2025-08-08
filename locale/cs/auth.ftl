@@ -380,7 +380,7 @@ passwordReset-title-2 = Vaše heslo bylo obnoveno
 passwordReset-description-2 = Heslo ke svému { -product-mozilla-account(case: "dat", capitalization: "lower") } jste obnovili:
 passwordResetAccountRecovery-subject-2 = Vaše heslo bylo obnoveno
 passwordResetAccountRecovery-title-3 = Vaše heslo bylo obnoveno
-# Followed by details on the device and date/time of the password reset.
+# Followed by details on the device, location, and date/time of the password reset.
 passwordResetAccountRecovery-description-3 = Pomocí obnovovacího klíče k účtu jste obnovili heslo k { -product-mozilla-account(case: "dat", capitalization: "lower") }:
 passwordResetAccountRecovery-information = Odhlásili jsme vás ze všech vašich synchronizovaných zařízení. Vytvořili jsme nový obnovovací klíč k účtu, jako náhradu toho, který jste používali dříve. Můžete to změnit v nastavení účtu.
 # After the colon there is a link to account settings
@@ -514,7 +514,7 @@ postVerifySecondary-content-3 = Úspěšně jste potvrdili { $secondaryEmail } j
 postVerifySecondary-action = Správa účtu
 recovery-subject = Obnovit heslo
 recovery-title-2 = Zapomněli jste heslo?
-# Information on the device, date and time of the request that triggered the email follows.
+# Information on the device, location, and date and time of the request that triggered the email follows.
 recovery-request-origin-2 = Obdrželi jsme žádost o změnu hesla k vašemu { -product-mozilla-account(case: "dat") } z:
 recovery-new-password-button = Vytvořte si nové heslo klepnutím na tlačítko níže. Platnost tohoto odkazu vyprší v průběhu následující hodiny.
 recovery-copy-paste = Vytvořte si nové heslo zkopírováním a vložením adresy URL níže do vašeho prohlížeče. Platnost tohoto odkazu vyprší během následující hodiny.

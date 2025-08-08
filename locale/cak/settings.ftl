@@ -37,20 +37,6 @@ device-info-browser-os = { $browserName } pa { $genericOSName }
 # The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
 device-info-ip-address = IP ochochib'äl: { $ipAddress }
 
-## FormPasswordWithBalloons
-
-signup-new-password-label =
-    .label = Ewan tzij
-signup-confirm-password-label =
-    .label = Tikamulüx ewan tzij
-signup-submit-button = Titz'uk rub'i' taqoya'l
-form-reset-password-with-balloon-new-password =
-    .label = K'ak'a' ewan tzij
-form-reset-password-with-balloon-confirm-password =
-    .label = Titz'ib'äx chik ewan tzij
-form-reset-password-with-balloon-submit-button = Titzolïx ewan tzij
-form-reset-password-with-balloon-match-error = Man nikik'äm ta ki' ri taq ewan tzij
-
 ## FormVerifyTotp component
 ## Form to enter a time-based one-time-passcode (e.g., 6-digit numeric code or 8-digit alphanumeric code)
 

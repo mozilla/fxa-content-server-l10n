@@ -380,7 +380,7 @@ passwordReset-title-2 = Oikojeýma ne ñe’ẽñemi
 passwordReset-description-2 = Egueru jey ne ñe’ẽñemi { -product-mozilla-account } pegua amo:
 passwordResetAccountRecovery-subject-2 = Oikojeýma ne ñe’ẽñemi
 passwordResetAccountRecovery-title-3 = Oikojeýma ne ñe’ẽñemi
-# Followed by details on the device and date/time of the password reset.
+# Followed by details on the device, location, and date/time of the password reset.
 passwordResetAccountRecovery-description-3 = Eiporu mba’ete ayvu jeguerujeyrã embojevy hag̃ua ne ñe’ẽñemi { -product-mozilla-account } amo:
 passwordResetAccountRecovery-information = Romboty reikeha opaite ne mba’e’oka ojuehévape. Romoheñói mba’ete ñe’ẽñemi guerujeyrã emyengovia hag̃ua eiporuva’ekue. Emoambuekuaa ne mba’ete mbohekohápe.
 # After the colon there is a link to account settings
@@ -510,7 +510,7 @@ postVerifySecondary-content-3 = Emoneĩ hekopete { $secondaryEmail } ñanduti ve
 postVerifySecondary-action = Mba’ete ñangareko
 recovery-subject = Embojevyjey ne ñe’ẽñemi
 recovery-title-2 = ¿Nderesarái ñe’ẽñemígui?
-# Information on the device, date and time of the request that triggered the email follows.
+# Information on the device, location, and date and time of the request that triggered the email follows.
 recovery-request-origin-2 = Og̃uahẽ oréve jerure ñe’ẽñemi moambuerã nde { -product-mozilla-account }-pe:
 recovery-new-password-button = Emoheñói ñe’ẽñemi pyahu eikutúvo amo votõ. Ko juajuha hekopáta peteĩ aravo rire.
 recovery-copy-paste = Emoheñói ñe’ẽñemi pyahu embokuatia ha embojávo ko URL ne mohendahápe. Ko juajuha hekopaháta peteĩ aravo ohasa rire.

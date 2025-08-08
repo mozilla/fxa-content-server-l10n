@@ -378,7 +378,7 @@ passwordReset-title-2 = A sua palavra-passe foi redefinida
 passwordReset-description-2 = Redefiniu a palavra passe da sua { -product-mozilla-account } em:
 passwordResetAccountRecovery-subject-2 = A sua palavra-passe foi redefinida
 passwordResetAccountRecovery-title-3 = A sua palavra-passe foi redefinida
-# Followed by details on the device and date/time of the password reset.
+# Followed by details on the device, location, and date/time of the password reset.
 passwordResetAccountRecovery-description-3 = Utilizou a sua chave de recuperação de conta para redefinir a palavra-passe da sua { -product-mozilla-account } em:
 passwordResetAccountRecovery-information = Terminámos a sessão de todos os seus dispositivos sincronizados. Criámos uma nova chave de recuperação da conta para substituir a que utilizou. Pode alterar a mesma nas definições da sua conta.
 # After the colon there is a link to account settings
@@ -512,7 +512,7 @@ postVerifySecondary-content-3 = Confirmou { $secondaryEmail } com sucesso, como 
 postVerifySecondary-action = Gerir conta
 recovery-subject = Repor a sua palavra-passe
 recovery-title-2 = Esqueceu-se da sua palavra-passe?
-# Information on the device, date and time of the request that triggered the email follows.
+# Information on the device, location, and date and time of the request that triggered the email follows.
 recovery-request-origin-2 = Nós recebemos um pedido de alteração da palavra-passe na sua { -product-mozilla-account } de:
 recovery-new-password-button = Crie uma nova palavra-passe clicando no botão abaixo. Esta ligação irá expirar daqui a uma hora.
 recovery-copy-paste = Crie uma nova palavra-passe copiando e colando o endereço abaixo no seu navegador. Esta ligação irá expirar daqui a uma hora.

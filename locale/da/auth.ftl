@@ -380,7 +380,7 @@ passwordReset-title-2 = Din adgangskode er blevet nulstillet
 passwordReset-description-2 = Du nulstillede adgangskoden til din { -product-mozilla-account } på:
 passwordResetAccountRecovery-subject-2 = Din adgangskode er blevet nulstillet
 passwordResetAccountRecovery-title-3 = Din adgangskode er blevet nulstillet
-# Followed by details on the device and date/time of the password reset.
+# Followed by details on the device, location, and date/time of the password reset.
 passwordResetAccountRecovery-description-3 = Du brugte din genoprettelsesnøgle til kontoen til at nulstille adgangskoden til din { -product-mozilla-account } på:
 passwordResetAccountRecovery-information = Vi har logget dig ud af alle dine synkroniserede enheder. Vi har oprettet en ny genoprettelsesnøgle til kontoen til at erstatte den, du brugte. Du kan ændre den i dine kontoindstillinger.
 # After the colon there is a link to account settings
@@ -514,7 +514,7 @@ postVerifySecondary-content-3 = Du har bekræftet { $secondaryEmail } som sekund
 postVerifySecondary-action = Håndter konto
 recovery-subject = Nulstil din adgangskode
 recovery-title-2 = Glemt din adgangskode?
-# Information on the device, date and time of the request that triggered the email follows.
+# Information on the device, location, and date and time of the request that triggered the email follows.
 recovery-request-origin-2 = Vi har modtaget en anmodning om at ændre adgangskoden til din { -product-mozilla-account } fra:
 recovery-new-password-button = Opret en ny adgangskode ved at klikke på knappen nedenfor. Dette link udløber inden for den næste time.
 recovery-copy-paste = Opret en ny adgangskode ved at kopiere og indsætte URL'en nedenfor i din browser. Dette link udløber inden for den næste time.

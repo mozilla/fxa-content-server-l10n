@@ -141,26 +141,6 @@ device-info-browser-os = { $browserName } op { $genericOSName }
 # The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
 device-info-ip-address = IP-adres: { $ipAddress }
 
-## FormPasswordWithBalloons
-
-signup-new-password-label =
-    .label = Wachtwoord
-signup-confirm-password-label =
-    .label = Herhaal wachtwoord
-signup-submit-button = Account aanmaken
-post-verify-set-password-submit-button = Begin met synchroniseren
-form-reset-password-with-balloon-new-password =
-    .label = Nieuw wachtwoord
-form-reset-password-with-balloon-confirm-password =
-    .label = Voer wachtwoord nogmaals in
-form-reset-password-with-balloon-submit-button = Wachtwoord herinitialiseren
-form-reset-password-with-balloon-match-error = Wachtwoorden komen niet overeen
-form-password-sr-too-short-message = Wachtwoord dient ten minste 8 tekens te bevatten.
-form-password-sr-not-email-message = Wachtwoord mag niet uw e-mailadres bevatten.
-form-password-sr-not-common-message = Wachtwoord mag geen veelgebruikt wachtwoord zijn.
-form-password-sr-requirements-met = Het ingevoerde wachtwoord voldoet aan alle wachtwoordvereisten.
-form-password-sr-passwords-match = Ingevoerde wachtwoorden komen overeen.
-
 ## FormPasswordInlineCriteria
 
 form-password-with-inline-criteria-signup-new-password-label =
@@ -380,14 +360,6 @@ error-bad-request = Ongeldige aanvraag
 
 password-info-balloon-why-password-info = U hebt dit wachtwoord nodig om toegang te verkrijgen tot alle versleutelde gegevens die u bij ons opslaat.
 password-info-balloon-reset-risk-info = Een herinitialisatie betekent mogelijk verlies van gegevens, zoals wachtwoorden en bladwijzers.
-
-## PasswordStrengthBalloon component
-
-password-strength-balloon-heading = Wachtwoordvereisten
-password-strength-balloon-min-length = Ten minste 8 tekens
-password-strength-balloon-not-email = Niet uw e-mailadres
-password-strength-balloon-not-common = Geen veelgebruikt wachtwoord
-password-strength-balloon-stay-safe-tips = Blijf veilig – Gebruik wachtwoorden niet opnieuw. Meer tips om <LinkExternal>sterke wachtwoorden te maken</LinkExternal>.
 
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password
@@ -1229,7 +1201,6 @@ tfa-row-disable-modal-explain-1 =
 # Shown in an alert bar after two-step authentication is disabled
 tfa-row-disabled-2 = Authenticatie in twee stappen uitgeschakeld
 tfa-row-cannot-disable-2 = Authenticatie in twee stappen kon niet worden uitgeschakeld
-tfa-row-disable-cannot-verify-session = Sorry, er is een probleem opgetreden bij het bevestigen van uw sessie
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account

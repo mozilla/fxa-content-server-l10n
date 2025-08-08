@@ -147,26 +147,6 @@ device-info-browser-os = { $browserName } na { $genericOSName }
 # The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
 device-info-ip-address = IP-adresa: { $ipAddress }
 
-## FormPasswordWithBalloons
-
-signup-new-password-label =
-    .label = Hesło
-signup-confirm-password-label =
-    .label = Hesło wospjetować
-signup-submit-button = Konto załožić
-post-verify-set-password-submit-button = Synchronizaciju započeć
-form-reset-password-with-balloon-new-password =
-    .label = Nowe hesło
-form-reset-password-with-balloon-confirm-password =
-    .label = Hesło znowa zapodać
-form-reset-password-with-balloon-submit-button = Hesło wróćo stajić
-form-reset-password-with-balloon-match-error = Hesle jenakej njejstej
-form-password-sr-too-short-message = Hesło dyrbi znajmjeńša 8 znamješkow wobsahować.
-form-password-sr-not-email-message = Hesło njesmě wašu e-mejlowu adresu wobsahować.
-form-password-sr-not-common-message = Hesło njesmě zhromadnje wužiwane hesło być.
-form-password-sr-requirements-met = Zapodate hesło wšě žadanja na hesło respektuje.
-form-password-sr-passwords-match = Zapodate hesła su jenake.
-
 ## FormPasswordInlineCriteria
 
 form-password-with-inline-criteria-signup-new-password-label =
@@ -386,14 +366,6 @@ error-bad-request = Špatne naprašowanje
 
 password-info-balloon-why-password-info = Trjebaće tute hesło za přistup k zaklučowanym datam, kotrež pola nas składujeće.
 password-info-balloon-reset-risk-info = Wróćostajenje rěka, zo so snano daty kaž hesła a zapołožki zhubja.
-
-## PasswordStrengthBalloon component
-
-password-strength-balloon-heading = Hesłowe žadanja
-password-strength-balloon-min-length = Znajmjeńša 8 znamješkow
-password-strength-balloon-not-email = Nic waša e-mejlowa adresa
-password-strength-balloon-not-common = Nic husto wužiwane hesło
-password-strength-balloon-stay-safe-tips = Wostańće wěsty – Njewužiwajće hesła wjacekróć. Hlejće dalše pokiwy, zo byšće <LinkExternal>sylne hesła wutworił</LinkExternal>.
 
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password
@@ -1239,7 +1211,6 @@ tfa-row-disable-modal-explain-1 =
 # Shown in an alert bar after two-step authentication is disabled
 tfa-row-disabled-2 = Dwukročelowa awtentifikacija znjemóžnjena
 tfa-row-cannot-disable-2 = Dwukročelowa awtentifikacija njeda so znjemóžnić
-tfa-row-disable-cannot-verify-session = Bohužel je při přepruwowanju wašeho posedźenja problem nastał
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account

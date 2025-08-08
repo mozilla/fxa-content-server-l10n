@@ -89,12 +89,6 @@ subscriptionFirstInvoice-content-invoice-number = Rajilab'al Paktura': <b>{ $inv
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 subscriptionFirstInvoice-content-invoice-number-plaintext = Rajilab'al Paktura': { $invoiceNumber }
 
-## Variables:
-##  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
-##  $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
-##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
-
-
 ##
 
 subscriptionSupport = ¿La nak'utuj chi rij ri rutz'ib'axik ab'i'? Ri <a data-l10n-name="subscriptionSupportUrl">to'onel qamolaj</a> e k'o wawe' richin yatkito'.

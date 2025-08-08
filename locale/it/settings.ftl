@@ -141,26 +141,6 @@ device-info-browser-os = { $browserName } su { $genericOSName }
 # The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
 device-info-ip-address = Indirizzo IP: { $ipAddress }
 
-## FormPasswordWithBalloons
-
-signup-new-password-label =
-    .label = Password
-signup-confirm-password-label =
-    .label = Ripeti password
-signup-submit-button = Crea un account
-post-verify-set-password-submit-button = Inizia la sincronizzazione
-form-reset-password-with-balloon-new-password =
-    .label = Nuova password
-form-reset-password-with-balloon-confirm-password =
-    .label = Conferma password
-form-reset-password-with-balloon-submit-button = Reimposta password
-form-reset-password-with-balloon-match-error = Le password non corrispondono
-form-password-sr-too-short-message = La password deve contenere almeno 8 caratteri.
-form-password-sr-not-email-message = La password non deve contenere il tuo indirizzo email.
-form-password-sr-not-common-message = La password non deve essere una password di uso comune.
-form-password-sr-requirements-met = La password inserita rispetta tutti i requisiti per le password.
-form-password-sr-passwords-match = Le password inserite corrispondono.
-
 ## FormPasswordInlineCriteria
 
 form-password-with-inline-criteria-signup-new-password-label =
@@ -380,14 +360,6 @@ error-bad-request = Richiesta non valida
 
 password-info-balloon-why-password-info = Questa password è necessaria per accedere ai dati crittati che salviamo per te.
 password-info-balloon-reset-risk-info = Un ripristino potrebbe comportare la perdita di dati come password e segnalibri.
-
-## PasswordStrengthBalloon component
-
-password-strength-balloon-heading = Requisiti della password
-password-strength-balloon-min-length = Almeno 8 caratteri
-password-strength-balloon-not-email = Non uguale al tuo indirizzo email
-password-strength-balloon-not-common = Non una password di uso comune
-password-strength-balloon-stay-safe-tips = Rimani al sicuro: non riutilizzare le password. Scopri altri suggerimenti per <LinkExternal>generare password complesse</LinkExternal>.
 
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password
@@ -1212,7 +1184,6 @@ tfa-row-disable-modal-explain-1 =
 # Shown in an alert bar after two-step authentication is disabled
 tfa-row-disabled-2 = Autenticazione in due passaggi disattivata
 tfa-row-cannot-disable-2 = Impossibile disattivare l’autenticazione in due passaggi.
-tfa-row-disable-cannot-verify-session = Si è verificato un problema durante la conferma della sessione
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account

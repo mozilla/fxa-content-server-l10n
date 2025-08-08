@@ -116,25 +116,6 @@ device-info-browser-os = { $browserName } na { $genericOSName }
 # The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
 device-info-ip-address = IP adresa: { $ipAddress }
 
-## FormPasswordWithBalloons
-
-signup-new-password-label =
-    .label = Lozinka
-signup-confirm-password-label =
-    .label = Ponovi lozinku
-signup-submit-button = Otvori račun
-form-reset-password-with-balloon-new-password =
-    .label = Nova lozinka
-form-reset-password-with-balloon-confirm-password =
-    .label = Ponovo upiši lozinku
-form-reset-password-with-balloon-submit-button = Resetiraj lozinku
-form-reset-password-with-balloon-match-error = Lozinke se ne podudaraju
-form-password-sr-too-short-message = Lozinka mora sadržati barem 8 znakova.
-form-password-sr-not-email-message = Lozinka ne smije sadržati tvoju e-mail adresu.
-form-password-sr-not-common-message = Lozinka ne smije biti često korištena lozinka.
-form-password-sr-requirements-met = Upisana lozinka poštuje sve zahtjeve za lozinku.
-form-password-sr-passwords-match = Upisane lozinke se podudaraju.
-
 ## FormPasswordInlineCriteria
 
 form-password-with-inline-criteria-signup-new-password-label =
@@ -349,14 +330,6 @@ error-bad-request = Neispravan zahtjev
 
 password-info-balloon-why-password-info = Ovu lozinku trebaš za pristup svim šifriranim podacima koje kod nas spremaš.
 password-info-balloon-reset-risk-info = Resetiranje znači potencijalno gubljenje podataka poput lozinki i zabilješki.
-
-## PasswordStrengthBalloon component
-
-password-strength-balloon-heading = Preduvjeti za lozinku
-password-strength-balloon-min-length = Barem 8 znakova
-password-strength-balloon-not-email = Nije tvoja e-mail adresa
-password-strength-balloon-not-common = Nije često korištena lozinka
-password-strength-balloon-stay-safe-tips = Zaštiti se – nemoj koristiti već korištene lozinke. Pogledaj savjete za <LinkExternal>stvaranje jakih lozinki</LinkExternal>.
 
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password

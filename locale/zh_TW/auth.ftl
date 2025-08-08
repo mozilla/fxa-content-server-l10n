@@ -377,7 +377,7 @@ passwordReset-title-2 = 已重設您的密碼
 passwordReset-description-2 = 您已於下列裝置與時間重設 { -product-mozilla-account }密碼：
 passwordResetAccountRecovery-subject-2 = 已重設您的密碼
 passwordResetAccountRecovery-title-3 = 已重設您的密碼
-# Followed by details on the device and date/time of the password reset.
+# Followed by details on the device, location, and date/time of the password reset.
 passwordResetAccountRecovery-description-3 = 您已於下列裝置與時間使用帳號救援金鑰重設 { -product-mozilla-account }密碼：
 passwordResetAccountRecovery-information = 我們已將您從所有同步裝置登出，並產生一把新的帳號救援金鑰取代原金鑰。您可以到帳號設定中更改。
 # After the colon there is a link to account settings
@@ -511,7 +511,7 @@ postVerifySecondary-content-3 = 您已成功將 { $secondaryEmail } 加入為 { 
 postVerifySecondary-action = 管理帳號
 recovery-subject = 重設您的密碼
 recovery-title-2 = 忘記密碼了嗎？
-# Information on the device, date and time of the request that triggered the email follows.
+# Information on the device, location, and date and time of the request that triggered the email follows.
 recovery-request-origin-2 = 我們收到要更改您 { -product-mozilla-account }的密碼的請求：
 recovery-new-password-button = 請點擊下列按鈕來設定新密碼。此鏈結將於一小時後失效。
 recovery-copy-paste = 請複製下列網址，並貼到瀏覽器網址列開啟，即可設定新密碼。此鏈結將於一小時後失效。

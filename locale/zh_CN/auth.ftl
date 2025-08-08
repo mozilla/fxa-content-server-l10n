@@ -375,7 +375,7 @@ passwordReset-title-2 = 您的密码已重置
 passwordReset-description-2 = 您通过以下设备重置了 { -product-mozilla-account }密码：
 passwordResetAccountRecovery-subject-2 = 您的密码已重置
 passwordResetAccountRecovery-title-3 = 您的密码已重置
-# Followed by details on the device and date/time of the password reset.
+# Followed by details on the device, location, and date/time of the password reset.
 passwordResetAccountRecovery-description-3 = 您通过以下设备使用账户恢复密钥，重置了 { -product-mozilla-account }密码：
 passwordResetAccountRecovery-information = 我们已将您从所有同步的设备上退出登录。我们创建了新的账户恢复密钥，用以替换已使用的密钥，您可以在账户设置中进行更改。
 # After the colon there is a link to account settings
@@ -509,7 +509,7 @@ postVerifySecondary-content-3 = 已成功将 { $secondaryEmail } 设为 { -produ
 postVerifySecondary-action = 管理账户
 recovery-subject = 重置密码
 recovery-title-2 = 忘记密码？
-# Information on the device, date and time of the request that triggered the email follows.
+# Information on the device, location, and date and time of the request that triggered the email follows.
 recovery-request-origin-2 = 我们收到更改 { -product-mozilla-account }密码的请求，来自：
 recovery-new-password-button = 通过点击下面的按钮创建一个新密码。此链接将在一小时后失效。
 recovery-copy-paste = 通过复制和粘贴下面的 URL 到您的浏览器创建一个新密码。此链接将在一小时后失效。

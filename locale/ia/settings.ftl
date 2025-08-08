@@ -141,26 +141,6 @@ device-info-browser-os = { $browserName } sur { $genericOSName }
 # The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
 device-info-ip-address = Adresse IP: { $ipAddress }
 
-## FormPasswordWithBalloons
-
-signup-new-password-label =
-    .label = Contrasigno
-signup-confirm-password-label =
-    .label = Repete le contrasigno
-signup-submit-button = Crear conto
-post-verify-set-password-submit-button = Comencia a synchronisar
-form-reset-password-with-balloon-new-password =
-    .label = Nove contrasigno
-form-reset-password-with-balloon-confirm-password =
-    .label = Reinsere le contrasigno
-form-reset-password-with-balloon-submit-button = Reinitialisar le contrasigno
-form-reset-password-with-balloon-match-error = Le contrasignos non concorda
-form-password-sr-too-short-message = Le contrasigno debe continer al minus 8 characteres.
-form-password-sr-not-email-message = Le contrasigno non debe continer tu adresse email.
-form-password-sr-not-common-message = Le contrasigno debe esser communmente usate.
-form-password-sr-requirements-met = Le contrasigno inserite respecta tote le requisitos.
-form-password-sr-passwords-match = Le contrasignos inserite concorda.
-
 ## FormPasswordInlineCriteria
 
 form-password-with-inline-criteria-signup-new-password-label =
@@ -380,14 +360,6 @@ error-bad-request = Mal requesta
 
 password-info-balloon-why-password-info = Te besonia iste contrasigno pro acceder ulle datos cryptate que tu immagazina con nos.
 password-info-balloon-reset-risk-info = Un remontage significa potentialmente perder datos como contrasignos e marcapaginas.
-
-## PasswordStrengthBalloon component
-
-password-strength-balloon-heading = Requisitos del contrasigno
-password-strength-balloon-min-length = Al minus 8 characteres
-password-strength-balloon-not-email = Non tu adresse email
-password-strength-balloon-not-common = Non un contrasigno commun
-password-strength-balloon-stay-safe-tips = Remane secur, non reusa tu contrasignos. Vide plus de consilios a in <LinkExternal>crear contrasignos forte</LinkExternal>
 
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password
@@ -1229,7 +1201,6 @@ tfa-row-disable-modal-explain-1 =
 # Shown in an alert bar after two-step authentication is disabled
 tfa-row-disabled-2 = Authentication a duo passos disactivate
 tfa-row-cannot-disable-2 = Impossibile disactivar authentication a duo passos
-tfa-row-disable-cannot-verify-session = Desolate, problema a confirmar tu session
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account

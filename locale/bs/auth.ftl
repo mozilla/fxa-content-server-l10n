@@ -1,6 +1,3 @@
-## Non-email strings
-
-
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
 ## version. The strings are usually identical but sometimes they differ slightly.
@@ -9,12 +6,6 @@ fxa-privacy-url = { -brand-mozilla } polica privatnosti
 subplat-automated-email = Ovo je automatski email; ako ste ga dobili greškom, nije potrebna nikakva akcija.
 change-password-plaintext = Ako sumnjate da neko pokušava dobiti pristup vašem računu, molimo promijenite vašu lozinku.
 manage-account = Upravljanje računom
-
-## Variables:
-##  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
-##  $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
-##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
-
 
 ##
 
@@ -35,12 +26,6 @@ postVerifySecondary-subject = Dodan sekundarni email
 postVerifySecondary-title = Dodan sekundarni email
 postVerifySecondary-action = Upravljanje računom
 recovery-action = Napravite novu lozinku
-
-## Variables
-##   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-##   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
-##   $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
-
 
 ## Variables:
 ## $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00

@@ -144,26 +144,6 @@ device-info-browser-os = { $browserName } в { $genericOSName }
 # The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
 device-info-ip-address = IP-адрес: { $ipAddress }
 
-## FormPasswordWithBalloons
-
-signup-new-password-label =
-    .label = Пароль
-signup-confirm-password-label =
-    .label = Повторите пароль
-signup-submit-button = Создать аккаунт
-post-verify-set-password-submit-button = Начать синхронизацию
-form-reset-password-with-balloon-new-password =
-    .label = Новый пароль
-form-reset-password-with-balloon-confirm-password =
-    .label = Повторите ввод пароля
-form-reset-password-with-balloon-submit-button = Сбросить пароль
-form-reset-password-with-balloon-match-error = Пароли не совпадают
-form-password-sr-too-short-message = Пароль должен содержать не менее 8 символов.
-form-password-sr-not-email-message = Пароль не должен содержать ваш адрес электронной почты.
-form-password-sr-not-common-message = Пароль не должен быть часто используемым паролем.
-form-password-sr-requirements-met = Введённый пароль соответствует всем требованиям к паролям.
-form-password-sr-passwords-match = Введённые пароли совпадают.
-
 ## FormPasswordInlineCriteria
 
 form-password-with-inline-criteria-signup-new-password-label =
@@ -383,14 +363,6 @@ error-bad-request = Неверный запрос
 
 password-info-balloon-why-password-info = Вам нужен этот пароль для доступа к любым зашифрованным данным, которые вы храните у нас.
 password-info-balloon-reset-risk-info = Сброс означает потенциальную потерю данных, таких как пароли и закладки.
-
-## PasswordStrengthBalloon component
-
-password-strength-balloon-heading = Требования к паролю
-password-strength-balloon-min-length = Не менее 8 символов
-password-strength-balloon-not-email = Не ваш адрес электронной почты
-password-strength-balloon-not-common = Не часто используемый пароль
-password-strength-balloon-stay-safe-tips = Будьте в безопасности — не используйте пароли повторно. Ознакомьтесь с дополнительными советами по <LinkExternal>созданию надёжных паролей</LinkExternal>.
 
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password
@@ -1230,7 +1202,6 @@ tfa-row-disable-modal-explain-1 =
 # Shown in an alert bar after two-step authentication is disabled
 tfa-row-disabled-2 = Двухэтапная аутентификация отключена
 tfa-row-cannot-disable-2 = Двухэтапная аутентификация не может быть отключена
-tfa-row-disable-cannot-verify-session = К сожалению, при подтверждении вашей сессии возникла проблема
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account

@@ -116,25 +116,6 @@ device-info-browser-os = { $browserName } { $genericOSName }-(e)n
 # The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
 device-info-ip-address = IP helbidea: { $ipAddress }
 
-## FormPasswordWithBalloons
-
-signup-new-password-label =
-    .label = Pasahitza
-signup-confirm-password-label =
-    .label = Errepikatu pasahitza
-signup-submit-button = Sortu kontua
-form-reset-password-with-balloon-new-password =
-    .label = Pasahitz berria
-form-reset-password-with-balloon-confirm-password =
-    .label = Idatzi berriz pasahitza
-form-reset-password-with-balloon-submit-button = Berrezarri pasahitza
-form-reset-password-with-balloon-match-error = Pasahitzak ez datoz bat
-form-password-sr-too-short-message = Psahitzak gutxienez 8 karaktere izan behar ditu.
-form-password-sr-not-email-message = Pasahitzak ezin du zure posta elektronikoa izan.
-form-password-sr-not-common-message = Pasahitza ezin da ohiko pasahitz bat izan.
-form-password-sr-requirements-met = Sartutako pasahitzak betetzen ditu eskatutako baldintza guztiak.
-form-password-sr-passwords-match = Sartutako pasahitza bat datoz.
-
 ## FormPasswordInlineCriteria
 
 form-password-with-inline-criteria-signup-new-password-label =
@@ -352,14 +333,6 @@ error-bad-request = Eskaera okerra
 
 password-info-balloon-why-password-info = Pasahitz hau behar duzu gurekin gordetzen dituzun datu enkriptatuak atzitzeko.
 password-info-balloon-reset-risk-info = Berrezartze batek pasahitzak eta laster-markak bezalako datuak galdu ahal izatea esan nahi du.
-
-## PasswordStrengthBalloon component
-
-password-strength-balloon-heading = Pasahitzaren betebeharrak
-password-strength-balloon-min-length = Gutxienez 8 karaktere
-password-strength-balloon-not-email = Ezin da zure helbide elektronikoa izan
-password-strength-balloon-not-common = Ezin da askotan erabilitako pasahitza izan
-password-strength-balloon-stay-safe-tips = Egon seguru — Ez berrerabili pasahitzak. Ikusi aholku gehiago <LinkExternal>pasahitz sendoak sortzeko</LinkExternal>.
 
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password

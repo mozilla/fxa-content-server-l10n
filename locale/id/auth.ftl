@@ -206,12 +206,6 @@ subscriptionFirstInvoiceDiscount-content-discount-repeating = Diskon { $discount
 #  $invoiceTaxAmount (String) - The amount of the tax of the subscription invoice, including currency, e.g. $2.00
 subscriptionCharges-content-tax = Pajak & biaya: { $invoiceTaxAmount }
 
-## Variables:
-##  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
-##  $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
-##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
-
-
 ##
 
 subscriptionSupport = Ada pertanyaan tentang langganan Anda? <a data-l10n-name="subscriptionSupportUrl">Tim dukungan</a> kami siap membantu Anda.
@@ -344,7 +338,7 @@ passwordReset-title-2 = Sandi Anda telah disetel ulang
 passwordReset-description-2 = Anda menyetel ulang sandi { -product-mozilla-account } pada:
 passwordResetAccountRecovery-subject-2 = Sandi Anda telah diset ulang
 passwordResetAccountRecovery-title-3 = Sandi Anda telah disetel ulang
-# Followed by details on the device and date/time of the password reset.
+# Followed by details on the device, location, and date/time of the password reset.
 passwordResetAccountRecovery-description-3 = Anda menggunakan kunci pemulihan akun untuk menyetel ulang sandi { -product-mozilla-account } pada:
 passwordResetAccountRecovery-information = Kami mengeluarkan Anda dari semua perangkat yang disinkronkan. Kami membuat kunci pemulihan akun baru untuk menggantikan yang Anda gunakan. Anda dapat mengubahnya di pengaturan akun Anda.
 # After the colon there is a link to account settings
@@ -453,7 +447,7 @@ postVerifySecondary-content-3 = Anda telah berhasil mengonfirmasi { $secondaryEm
 postVerifySecondary-action = Kelola akun
 recovery-subject = Setel ulang sandi
 recovery-title-2 = Anda lupa sandi?
-# Information on the device, date and time of the request that triggered the email follows.
+# Information on the device, location, and date and time of the request that triggered the email follows.
 recovery-request-origin-2 = Kami menerima permintaan perubahan sandi pada { -product-mozilla-account } Anda dari:
 recovery-new-password-button = Buat sandi baru dengan mengklik tombol di bawah ini. Tautan ini akan kedaluwarsa dalam satu jam.
 recovery-copy-paste = Buat kata sandi baru dengan menyalin dan menempelkan URL di bawah ini ke peramban Anda. Tautan ini akan kedaluwarsa dalam satu jam.

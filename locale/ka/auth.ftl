@@ -380,7 +380,7 @@ passwordReset-title-2 = თქვენი პაროლი აღდგენ
 passwordReset-description-2 = თქვენ აღადგინეთ { -product-mozilla-account(case: "gen") } პაროლი:
 passwordResetAccountRecovery-subject-2 = თქვენი პაროლი აღდგენილია
 passwordResetAccountRecovery-title-3 = თქვენი პაროლი აღდგენილია
-# Followed by details on the device and date/time of the password reset.
+# Followed by details on the device, location, and date/time of the password reset.
 passwordResetAccountRecovery-description-3 = გამოყენებულია ანგარიშის აღდგენის გასაღები პაროლის { -product-mozilla-account(case: "gen") } აღსადგენად:
 passwordResetAccountRecovery-information = ანგარიშიდან გამოხვალთ ყველა დასინქრონებული მოწყობილობიდან. თქვენთვის შექმნილია აღდგენის ახალი გასაღები გამოყენებულის სანაცვლოდ. შეცვლა შეგიძლიათ ანგარიშის პარამეტრებიდან.
 # After the colon there is a link to account settings
@@ -514,7 +514,7 @@ postVerifySecondary-content-3 = { $secondaryEmail } დამოწმებუ�
 postVerifySecondary-action = ანგარიშის მართვა
 recovery-subject = პაროლის განულება
 recovery-title-2 = დაგავიწყდათ პაროლი?
-# Information on the device, date and time of the request that triggered the email follows.
+# Information on the device, location, and date and time of the request that triggered the email follows.
 recovery-request-origin-2 = პაროლის შეცვლის მოთხოვნა მივიღეთ თქვენს { -product-mozilla-account(case: "loc") } აქედან:
 recovery-new-password-button = შექმენით ახალი პაროლი ქვემოთ მოცემულ ღილაკზე დაჭერით. ბმულს ვადა ამოეწურება მომდევნო საათში.
 recovery-copy-paste = შექმენით ახალი პაროლი ქვემოთ მოცემული ბმულის ასლის ბრაუზერში ჩასმით. ბმულს ვადა ამოეწურება მომდევნო საათში.

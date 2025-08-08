@@ -206,12 +206,6 @@ subscriptionFirstInvoiceDiscount-content-discount-repeating = Rabat ({ $discount
 #  $invoiceTaxAmount (String) - The amount of the tax of the subscription invoice, including currency, e.g. $2.00
 subscriptionCharges-content-tax = Taglia e taxas: { $invoiceTaxAmount }
 
-## Variables:
-##  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
-##  $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
-##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
-
-
 ##
 
 subscriptionSupport = Dumondas davart tes abunament? Noss <a data-l10n-name="subscriptionSupportUrl">team d'agid</a> stat a tia disposiziun.
@@ -345,7 +339,7 @@ passwordReset-title-2 = Tes pled-clav è vegnì reinizialisà
 passwordReset-description-2 = Ti has reinizialisà tes pled-clav da { -product-mozilla-account } sin:
 passwordResetAccountRecovery-subject-2 = Tes pled-clav è vegnì reinizialisà
 passwordResetAccountRecovery-title-3 = Tes pled-clav è vegnì reinizialisà
-# Followed by details on the device and date/time of the password reset.
+# Followed by details on the device, location, and date/time of the password reset.
 passwordResetAccountRecovery-description-3 = Ti has duvrà tia clav da recuperaziun dal conto per reinizialisar tes pled-clav da { -product-mozilla-account } sin:
 passwordResetAccountRecovery-information = Nus avain ta deconnectà sin tut tes apparats sincronisads. Nus avain creà ina nova clav da recuperaziun dal conto per remplazzar quella che ti has utilisà. Ti la pos midar en ils parameters da tes conto.
 # After the colon there is a link to account settings
@@ -454,7 +448,7 @@ postVerifySecondary-content-3 = Ti has confermà cun success { $secondaryEmail }
 postVerifySecondary-action = Administrar il conto
 recovery-subject = Redefinir tes pled-clav
 recovery-title-2 = Emblidà tes pled-clav?
-# Information on the device, date and time of the request that triggered the email follows.
+# Information on the device, location, and date and time of the request that triggered the email follows.
 recovery-request-origin-2 = Nus avain retschavì ina dumonda da midar il pled-clav per tes { -product-mozilla-account } da:
 recovery-new-password-button = Creescha in nov pled-clav cun cliccar sin il buttun sutvart. Questa colliaziun vegn a scrudar en ina ura.
 recovery-copy-paste = Creescha in nov pled-clav cun copiar ed encollar l'URL sutvart en tes navigatur. Questa colliaziun vegn a scrudar en ina ura.

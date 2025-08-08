@@ -141,26 +141,6 @@ device-info-browser-os = { $browserName } w systemie { $genericOSName }
 # The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
 device-info-ip-address = Adres IP: { $ipAddress }
 
-## FormPasswordWithBalloons
-
-signup-new-password-label =
-    .label = Hasło
-signup-confirm-password-label =
-    .label = Powtórz hasło
-signup-submit-button = Utwórz konto
-post-verify-set-password-submit-button = Zacznij synchronizować
-form-reset-password-with-balloon-new-password =
-    .label = Nowe hasło
-form-reset-password-with-balloon-confirm-password =
-    .label = Wpisz hasło ponownie
-form-reset-password-with-balloon-submit-button = Zmień hasło
-form-reset-password-with-balloon-match-error = Hasła są niezgodne
-form-password-sr-too-short-message = Hasło musi mieć co najmniej 8 znaków.
-form-password-sr-not-email-message = Hasło nie może zawierać Twojego adresu e-mail.
-form-password-sr-not-common-message = Hasło nie może być często używanym hasłem.
-form-password-sr-requirements-met = Wpisane hasło spełnia wszystkie wymagania.
-form-password-sr-passwords-match = Wpisane hasła są zgodne.
-
 ## FormPasswordInlineCriteria
 
 form-password-with-inline-criteria-signup-new-password-label =
@@ -380,14 +360,6 @@ error-bad-request = Błędne żądanie
 
 password-info-balloon-why-password-info = To hasło jest potrzebne, aby uzyskać dostęp do wszystkich zaszyfrowanych danych przechowywanych u nas.
 password-info-balloon-reset-risk-info = Zmiana hasła oznacza, że możliwa jest utrata danych, takich jak hasła i zakładki.
-
-## PasswordStrengthBalloon component
-
-password-strength-balloon-heading = Wymagania względem hasła
-password-strength-balloon-min-length = Musi mieć co najmniej 8 znaków
-password-strength-balloon-not-email = Nie może być Twoim adresem e-mail
-password-strength-balloon-not-common = Nie może być często używanym hasłem
-password-strength-balloon-stay-safe-tips = Zachowaj bezpieczeństwo — każdego hasła używaj tylko w jednym miejscu. Przeczytaj o <LinkExternal>tworzeniu silnych haseł</LinkExternal>.
 
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password
@@ -1225,7 +1197,6 @@ tfa-row-disable-modal-explain-1 =
 # Shown in an alert bar after two-step authentication is disabled
 tfa-row-disabled-2 = Uwierzytelnianie dwuetapowe jest wyłączone
 tfa-row-cannot-disable-2 = Nie można wyłączyć uwierzytelniania dwuetapowego
-tfa-row-disable-cannot-verify-session = Przepraszamy, wystąpił problem podczas potwierdzania sesji
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account

@@ -1,6 +1,3 @@
-## Non-email strings
-
-
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
 ## version. The strings are usually identical but sometimes they differ slightly.
@@ -21,12 +18,6 @@ subplat-privacy-website-plaintext = { subplat-privacy }:
 cancellationSurvey-plaintext = Ayúdanos a ameyorar los nuesos servicios completando esta encuesta:
 change-password-plaintext = Si sospeches que daquién tenta d’acceder a la to cuenta, camuda la contraseña.
 manage-account = Xestionar la cuenta
-
-## Variables:
-##  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
-##  $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
-##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
-
 
 ##
 

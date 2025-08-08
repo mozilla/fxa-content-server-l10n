@@ -380,7 +380,7 @@ passwordReset-title-2 = Ditt lösenord har återställts
 passwordReset-description-2 = Du återställde ditt lösenord för { -product-mozilla-account } på:
 passwordResetAccountRecovery-subject-2 = Ditt lösenord har återställts
 passwordResetAccountRecovery-title-3 = Ditt lösenord har återställts
-# Followed by details on the device and date/time of the password reset.
+# Followed by details on the device, location, and date/time of the password reset.
 passwordResetAccountRecovery-description-3 = Du använde din kontoåterställningsnyckel för att återställa ditt lösenord för { -product-mozilla-account } på:
 passwordResetAccountRecovery-information = Vi loggade ut dig från alla dina synkroniserade enheter. Vi skapade en ny kontoåterställningsnyckel för att ersätta den du använde. Du kan ändra det i dina kontoinställningar.
 # After the colon there is a link to account settings
@@ -514,7 +514,7 @@ postVerifySecondary-content-3 = Du har framgångsrikt bekräftat { $secondaryEma
 postVerifySecondary-action = Hantera konto
 recovery-subject = Återställ lösenordet
 recovery-title-2 = Glömt ditt lösenord?
-# Information on the device, date and time of the request that triggered the email follows.
+# Information on the device, location, and date and time of the request that triggered the email follows.
 recovery-request-origin-2 = Vi fick en begäran om lösenordsändring på ditt { -product-mozilla-account } från:
 recovery-new-password-button = Skapa ett nytt lösenord genom att klicka på knappen nedan. Den här länken upphör att gälla inom den närmaste timmen.
 recovery-copy-paste = Skapa ett nytt lösenord genom att kopiera och klistra in webbadressen nedan i din webbläsare. Den här länken upphör att gälla inom den närmaste timmen.

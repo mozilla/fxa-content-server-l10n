@@ -109,25 +109,6 @@ device-info-browser-os = { $genericOSName } の { $browserName }
 # The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
 device-info-ip-address = IP アドレス: { $ipAddress }
 
-## FormPasswordWithBalloons
-
-signup-new-password-label =
-    .label = パスワード
-signup-confirm-password-label =
-    .label = パスワードを再入力してください
-signup-submit-button = アカウントを作成
-form-reset-password-with-balloon-new-password =
-    .label = 新しいパスワード
-form-reset-password-with-balloon-confirm-password =
-    .label = パスワードを再入力
-form-reset-password-with-balloon-submit-button = パスワードをリセット
-form-reset-password-with-balloon-match-error = パスワードが一致しません
-form-password-sr-too-short-message = パスワードは 8 文字以上にする必要があります。
-form-password-sr-not-email-message = パスワードにメールアドレスを含めることはできません。
-form-password-sr-not-common-message = パスワードは一般的に使用されているパスワードにしてはいけません。
-form-password-sr-requirements-met = 入力されたパスワードはすべてのパスワード要件を満たしています。
-form-password-sr-passwords-match = 入力したパスワードは一致しています。
-
 ## FormPasswordInlineCriteria
 
 form-password-with-inline-criteria-signup-new-password-label =
@@ -293,14 +274,6 @@ error-bad-request = 不正なリクエスト
 
 password-info-balloon-why-password-info = このパスワードは、格納されたアカウント情報の暗号化されたデータにアクセスするために必要です。
 password-info-balloon-reset-risk-info = リセットすることにより、パスワードやブックマークなどのデータが失われる可能性があります。
-
-## PasswordStrengthBalloon component
-
-password-strength-balloon-heading = パスワードの条件
-password-strength-balloon-min-length = 最低 8 文字
-password-strength-balloon-not-email = メールアドレスと一致しないこと
-password-strength-balloon-not-common = よく使われるパスワードと一致しないこと
-password-strength-balloon-stay-safe-tips = 安全のため、パスワードを再利用してはいけません。<LinkExternal>強力なパスワードを作成する</LinkExternal>ためのヒントをご覧ください。
 
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password

@@ -141,26 +141,6 @@ device-info-browser-os = { $browserName } på { $genericOSName }
 # The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
 device-info-ip-address = IP-adresse: { $ipAddress }
 
-## FormPasswordWithBalloons
-
-signup-new-password-label =
-    .label = Passord
-signup-confirm-password-label =
-    .label = Gjenta passord
-signup-submit-button = Opprett konto
-post-verify-set-password-submit-button = Start synkronisering
-form-reset-password-with-balloon-new-password =
-    .label = Nytt passord
-form-reset-password-with-balloon-confirm-password =
-    .label = Gjenta passord
-form-reset-password-with-balloon-submit-button = Tilbakestill passord
-form-reset-password-with-balloon-match-error = Passordene samsvarer ikke
-form-password-sr-too-short-message = Passordet må inneholde minst 8 tegn.
-form-password-sr-not-email-message = Passordet kan ikke inneholde e-postadressen din.
-form-password-sr-not-common-message = Passordet kan ikke være et typisk brukt passord.
-form-password-sr-requirements-met = Det angitte passordet følger alle passordkrav.
-form-password-sr-passwords-match = De angitte passordene samsvarer.
-
 ## FormPasswordInlineCriteria
 
 form-password-with-inline-criteria-signup-new-password-label =
@@ -380,14 +360,6 @@ error-bad-request = Ugyldig forespørsel
 
 password-info-balloon-why-password-info = Du trenger dette passordet for å få tilgang til krypterte data du lagrer hos oss.
 password-info-balloon-reset-risk-info = En tilbakestilling betyr potensielt tap av data som passord og bokmerker.
-
-## PasswordStrengthBalloon component
-
-password-strength-balloon-heading = Passordkrav
-password-strength-balloon-min-length = Minst 8 tegn
-password-strength-balloon-not-email = Ikke e-postadressen din
-password-strength-balloon-not-common = Ikke et typisk brukt passord
-password-strength-balloon-stay-safe-tips = Vær trygg — Ikke bruk passord på nytt. Se flere tips for å <LinkExternal>lage sterke passord</LinkExternal>.
 
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password
@@ -1215,7 +1187,6 @@ tfa-row-disable-modal-explain-1 = Du kan ikke angre denne handlingen. Du har ogs
 # Shown in an alert bar after two-step authentication is disabled
 tfa-row-disabled-2 = Totrinns-autentisering deaktivert
 tfa-row-cannot-disable-2 = Totrinns-autentisering kunne ikke deaktiveres
-tfa-row-disable-cannot-verify-session = Beklager, det oppstod et problem med å bekrefte økten din
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account

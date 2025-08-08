@@ -365,7 +365,7 @@ passwordReset-title-2 = Sua senha foi redefinida
 passwordReset-description-2 = Você redefiniu a senha da sua { -product-mozilla-account } em:
 passwordResetAccountRecovery-subject-2 = Sua senha foi redefinida
 passwordResetAccountRecovery-title-3 = Sua senha foi redefinida
-# Followed by details on the device and date/time of the password reset.
+# Followed by details on the device, location, and date/time of the password reset.
 passwordResetAccountRecovery-description-3 = Você usou sua chave de recuperação de conta para redefinir a senha da sua { -product-mozilla-account } em:
 passwordResetAccountRecovery-information = Desconectamos você de todos os seus dispositivos sincronizados. Criamos uma nova chave de recuperação de conta para substituir a que você usou. Você pode alterar nas configurações da sua conta.
 # After the colon there is a link to account settings
@@ -488,7 +488,7 @@ postVerifySecondary-content-3 = Você confirmou com sucesso { $secondaryEmail } 
 postVerifySecondary-action = Gerenciar conta
 recovery-subject = Redefinição de senha
 recovery-title-2 = Esqueceu sua senha?
-# Information on the device, date and time of the request that triggered the email follows.
+# Information on the device, location, and date and time of the request that triggered the email follows.
 recovery-request-origin-2 = Recebemos uma solicitação de alteração de senha de sua { -product-mozilla-account } de:
 recovery-new-password-button = Crie uma nova senha clicando no botão abaixo. Este link expirará em até uma hora.
 recovery-copy-paste = Crie uma nova senha copiando e colando a URL abaixo em seu navegador. Este link expirará em até uma hora.

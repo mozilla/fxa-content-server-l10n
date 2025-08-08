@@ -1,6 +1,3 @@
-## Non-email strings
-
-
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
 ## version. The strings are usually identical but sometimes they differ slightly.
@@ -110,12 +107,6 @@ subscriptionFirstInvoiceDiscount-content-discount-one-time = Ühekordne allahind
 #  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
 #  $discountDuration - The duration of the discount in number of months, e.g. 3 months
 subscriptionFirstInvoiceDiscount-content-discount-repeating = { $discountDuration } kuu allahindlus: -{ $invoiceDiscountAmount }
-
-## Variables:
-##  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
-##  $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
-##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
-
 
 ##
 

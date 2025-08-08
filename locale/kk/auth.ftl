@@ -328,7 +328,7 @@ passwordReset-title-2 = Пароліңіз тасталды
 passwordReset-description-2 = { -product-mozilla-account } паролін келесі жерде қалпына келтірдіңіз:
 passwordResetAccountRecovery-subject-2 = Пароліңіз тасталды
 passwordResetAccountRecovery-title-3 = Пароліңіз тасталды
-# Followed by details on the device and date/time of the password reset.
+# Followed by details on the device, location, and date/time of the password reset.
 passwordResetAccountRecovery-description-3 = Сіз өзіңіздің { -product-mozilla-account } паролін қалпына келтіру үшін тіркелгіні қалпына келтіру кілтін келесі жерде пайдаландыңыз:
 passwordResetAccountRecovery-information = Сізді барлық синхрондалған құрылғылардан жүйеден шығардық. Сіз пайдаланған кілтті ауыстыру үшін тіркелгіні қалпына келтірудің жаға кілтін жасадық. Оны тіркелгі параметрлерінде өзгертуге болады.
 # After the colon there is a link to account settings
@@ -435,7 +435,7 @@ postVerifySecondary-content-3 = Сіз { $secondaryEmail } адресін { -pro
 postVerifySecondary-action = Тіркелгіні басқару
 recovery-subject = Парольді тастау
 recovery-title-2 = Пароліңізді ұмыттыңыз ба?
-# Information on the device, date and time of the request that triggered the email follows.
+# Information on the device, location, and date and time of the request that triggered the email follows.
 recovery-request-origin-2 = Біз сіздің { -product-mozilla-account } тіркелгіңізді паролін өзгерту туралы сұрауды алдық:
 recovery-new-password-button = Төмендегі батырманы басу арқылы жаңа парольді жасаңыз. Бұл сілтеме мерзімі келесі сағат ішінде аяқталады.
 recovery-copy-paste = Төмендегі URL адресін көшіріп, браузерге кірістіру арқылы жаңа парольді жасаңыз. Бұл сілтеме мерзімі келесі сағатта аяқталады.

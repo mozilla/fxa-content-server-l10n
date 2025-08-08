@@ -141,26 +141,6 @@ device-info-browser-os = { $browserName } auf { $genericOSName }
 # The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
 device-info-ip-address = IP-Adresse: { $ipAddress }
 
-## FormPasswordWithBalloons
-
-signup-new-password-label =
-    .label = Passwort
-signup-confirm-password-label =
-    .label = Passwort wiederholen
-signup-submit-button = Konto erstellen
-post-verify-set-password-submit-button = Mit Synchronisierung beginnen
-form-reset-password-with-balloon-new-password =
-    .label = Neues Passwort
-form-reset-password-with-balloon-confirm-password =
-    .label = Passwort erneut eingeben
-form-reset-password-with-balloon-submit-button = Passwort zurücksetzen
-form-reset-password-with-balloon-match-error = Passwörter stimmen nicht überein
-form-password-sr-too-short-message = Das Passwort muss mindestens 8 Zeichen enthalten.
-form-password-sr-not-email-message = Das Passwort darf nicht Ihre E-Mail-Adresse enthalten.
-form-password-sr-not-common-message = Das Passwort darf kein häufig verwendetes Passwort sein.
-form-password-sr-requirements-met = Das eingegebene Passwort berücksichtigt alle Passwortanforderungen.
-form-password-sr-passwords-match = Eingegebene Passwörter stimmen überein.
-
 ## FormPasswordInlineCriteria
 
 form-password-with-inline-criteria-signup-new-password-label =
@@ -380,14 +360,6 @@ error-bad-request = Fehlerhafte Anfrage
 
 password-info-balloon-why-password-info = Sie benötigen dieses Passwort, um auf alle verschlüsselten Daten zuzugreifen, die Sie bei uns speichern.
 password-info-balloon-reset-risk-info = Ein Zurücksetzen bedeutet, dass möglicherweise Daten wie Passwörter und Lesezeichen verloren gehen.
-
-## PasswordStrengthBalloon component
-
-password-strength-balloon-heading = Kennwortanforderungen
-password-strength-balloon-min-length = Mindestens 8 Zeichen
-password-strength-balloon-not-email = Nicht Ihre E-Mail-Adresse
-password-strength-balloon-not-common = Kein häufig verwendetes Passwort
-password-strength-balloon-stay-safe-tips = Schützen Sie sich – verwenden Sie je ein Passwort pro Website. Hier finden Sie weitere Tipps zum <LinkExternal>Erstellen sicherer Passwörter</LinkExternal>.
 
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password
@@ -1225,7 +1197,6 @@ tfa-row-disable-modal-explain-1 =
 # Shown in an alert bar after two-step authentication is disabled
 tfa-row-disabled-2 = Zwei-Schritt-Authentifizierung deaktiviert
 tfa-row-cannot-disable-2 = Zwei-Schritt-Authentifizierung konnte nicht deaktiviert werden.
-tfa-row-disable-cannot-verify-session = Beim Bestätigen Ihrer Sitzung ist ein Fehler aufgetreten.
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account

@@ -1,6 +1,3 @@
-## Non-email strings
-
-
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
 ## version. The strings are usually identical but sometimes they differ slightly.
@@ -9,12 +6,6 @@ fxa-privacy-url = Polisi Privasi { -brand-mozilla }
 subplat-automated-email = Ini adalah emel automatik; jika anda tersilap terima, tiada tindakan diperlukan.
 change-password-plaintext = Jika anda mengesyaki bahawa seseorang sedang cuba untuk mendapatkan akses ke akaun anda, sila tukar kata laluan anda.
 manage-account = Urus akaun
-
-## Variables:
-##  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
-##  $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
-##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
-
 
 ##
 
@@ -35,12 +26,6 @@ postVerifySecondary-subject = E-mel sekunder ditambah
 postVerifySecondary-title = E-mel sekunder ditambah
 postVerifySecondary-action = Urus akaun
 recovery-action = Cipta kata laluan baru
-
-## Variables
-##   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-##   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
-##   $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
-
 
 ## Variables:
 ## $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00

@@ -382,7 +382,7 @@ passwordReset-title-2 = Waše hesło je so wróćo stajiło
 passwordReset-description-2 = Sće swoje hesło { -product-mozilla-account }  wróćo stajił:
 passwordResetAccountRecovery-subject-2 = Waše hesło je so wróćo stajiło
 passwordResetAccountRecovery-title-3 = Waše hesło je so wróćo stajiło
-# Followed by details on the device and date/time of the password reset.
+# Followed by details on the device, location, and date/time of the password reset.
 passwordResetAccountRecovery-description-3 = Sće swój kontowy wobnowjenski kluč wužił, zo byšće swoje hesło { -product-mozilla-account } wróćo stajił dnja:
 passwordResetAccountRecovery-information = Smy was ze wšěch wašich synchronizowanych gratow wotzjewili. Wutworichmy nowy kontowy wobnowjenski kluč, kotryž tón naruna, kotryž sće wužiwał. Móžeće jón w swojich kontowych nastajenjach změnić.
 # After the colon there is a link to account settings
@@ -516,7 +516,7 @@ postVerifySecondary-content-3 = Sće { $secondaryEmail } jako sekundarnu e-mejlo
 postVerifySecondary-action = Konto rjadować
 recovery-subject = Stajće swoje hesło wróćo
 recovery-title-2 = Sće swoje hesło zabył?
-# Information on the device, date and time of the request that triggered the email follows.
+# Information on the device, location, and date and time of the request that triggered the email follows.
 recovery-request-origin-2 = Smy próstwu wo změnjenje hesła za waše { -product-mozilla-account(case: "acc", capitalization: "lower") } dóstali:
 recovery-new-password-button = Klikńće na slědowace tłóčatko, zo byšće nowe hesło wutworił. Tutón wotkaz za přichodnu hodźinu spadnje.
 recovery-copy-paste = Kopěrujće slědowacy URL do swojeho wobhladowaka, zo byšće hesło wutworił. Tutón wotkaz za přichodnu hodźinu spadnje.

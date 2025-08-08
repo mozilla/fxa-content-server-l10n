@@ -144,26 +144,6 @@ device-info-browser-os = { $browserName } na { $genericOSName }
 # The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
 device-info-ip-address = IP adresa: { $ipAddress }
 
-## FormPasswordWithBalloons
-
-signup-new-password-label =
-    .label = Heslo
-signup-confirm-password-label =
-    .label = Zopakujte heslo
-signup-submit-button = Vytvořit účet
-post-verify-set-password-submit-button = Spustit synchronizaci
-form-reset-password-with-balloon-new-password =
-    .label = Nové heslo
-form-reset-password-with-balloon-confirm-password =
-    .label = Zopakujte heslo
-form-reset-password-with-balloon-submit-button = Obnovit heslo
-form-reset-password-with-balloon-match-error = Hesla se neshodují
-form-password-sr-too-short-message = Heslo musí obsahovat alespoň 8 znaků.
-form-password-sr-not-email-message = Heslo nesmí obsahovat vaši e-mailovou adresu.
-form-password-sr-not-common-message = Heslo nesmí být běžně používaným heslem.
-form-password-sr-requirements-met = Zadané heslo respektuje všechny požadavky na heslo.
-form-password-sr-passwords-match = Zadaná hesla se shodují.
-
 ## FormPasswordInlineCriteria
 
 form-password-with-inline-criteria-signup-new-password-label =
@@ -383,14 +363,6 @@ error-bad-request = Špatný požadavek
 
 password-info-balloon-why-password-info = Toto heslo potřebujete pro přístup ke všem zašifrovaným datům, která u nás ukládáte.
 password-info-balloon-reset-risk-info = Reset znamená potenciální ztrátu dat, jako jsou hesla a záložky.
-
-## PasswordStrengthBalloon component
-
-password-strength-balloon-heading = Požadavky na heslo
-password-strength-balloon-min-length = Alespoň 8 znaků
-password-strength-balloon-not-email = Není vaše e-mailová adresa
-password-strength-balloon-not-common = Není běžně používané heslo
-password-strength-balloon-stay-safe-tips = Nepřepoužívejte stejné heslo a přečtěte si další tipy pro <LinkExternal>vytváření silných hesel</LinkExternal>.
 
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password
@@ -1230,7 +1202,6 @@ tfa-row-disable-modal-explain-1 =
 # Shown in an alert bar after two-step authentication is disabled
 tfa-row-disabled-2 = Dvoufázové ověřování je vypnuto
 tfa-row-cannot-disable-2 = Dvoufázové ověřování se nepodařilo vypnout
-tfa-row-disable-cannot-verify-session = Omlouváme se, nastal problém s potvrzením vaší relace
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account

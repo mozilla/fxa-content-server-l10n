@@ -86,20 +86,6 @@ device-info-browser-os = { $browserName } ɣef { $genericOSName }
 # The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
 device-info-ip-address = Tansa IP: { $ipAddress }
 
-## FormPasswordWithBalloons
-
-signup-new-password-label =
-    .label = Awal uffir
-signup-confirm-password-label =
-    .label = Sekcem tikelt nniḍen awal uffir
-signup-submit-button = Rnu amiḍan
-form-reset-password-with-balloon-new-password =
-    .label = Awal uffir amaynut
-form-reset-password-with-balloon-confirm-password =
-    .label = Sekcem tikkelt-nniḍen awal uffir
-form-reset-password-with-balloon-submit-button = Wennez awal uffir
-form-reset-password-with-balloon-match-error = Awalen uffiren ur mṣadan ara
-
 ## FormPasswordInlineCriteria
 
 form-password-with-inline-criteria-signup-new-password-label =
@@ -235,11 +221,6 @@ signin-confirmation-link-reused = Tuqqna tettwasentem yakan
 confirmation-link-reused-message = Aseɣwen n usentem yettwaseqdec yakan, tzemreḍ kan ad tesqedceḍ yiwet n tikkelt.
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Yir tuttra
-
-## PasswordStrengthBalloon component
-
-password-strength-balloon-min-length = Ma drus 8 yisekkilen
-password-strength-balloon-not-email = Mačči d tansa-k·m n yimayl
 
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password

@@ -3,14 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## FormPasswordWithBalloons
-
-signup-new-password-label =
-    .label = Contraseña
-
-##
-
-
 # BentoMenu component
 
 bento-menu-vpn-2 = { -product-mozilla-vpn }

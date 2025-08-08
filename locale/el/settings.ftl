@@ -141,26 +141,6 @@ device-info-browser-os = { $browserName } σε { $genericOSName }
 # The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
 device-info-ip-address = Διεύθυνση IP: { $ipAddress }
 
-## FormPasswordWithBalloons
-
-signup-new-password-label =
-    .label = Κωδικός πρόσβασης
-signup-confirm-password-label =
-    .label = Επανάληψη κωδικού πρόσβασης
-signup-submit-button = Δημιουργία λογαριασμού
-post-verify-set-password-submit-button = Έναρξη συγχρονισμού
-form-reset-password-with-balloon-new-password =
-    .label = Νέος κωδικός πρόσβασης
-form-reset-password-with-balloon-confirm-password =
-    .label = Εισαγάγετε ξανά τον κωδικό πρόσβασης
-form-reset-password-with-balloon-submit-button = Επαναφορά κωδικού πρόσβασης
-form-reset-password-with-balloon-match-error = Οι κωδικοί πρόσβασης δεν ταιριάζουν
-form-password-sr-too-short-message = Ο κωδικός πρόσβασης πρέπει να έχει τουλάχιστον 8 χαρακτήρες.
-form-password-sr-not-email-message = Ο κωδικός πρόσβασης δεν πρέπει να περιέχει τη διεύθυνση email σας.
-form-password-sr-not-common-message = Ο κωδικός πρόσβασης δεν πρέπει να είναι ένας συνήθης κωδικός πρόσβασης.
-form-password-sr-requirements-met = Ο κωδικός πρόσβασης εισήχθη πληροί όλες τις απαιτήσεις κωδικού πρόσβασης.
-form-password-sr-passwords-match = Οι κωδικοί πρόσβασης που εισήχθησαν ταιριάζουν.
-
 ## FormPasswordInlineCriteria
 
 form-password-with-inline-criteria-signup-new-password-label =
@@ -380,14 +360,6 @@ error-bad-request = Εσφαλμένο αίτημα
 
 password-info-balloon-why-password-info = Χρειάζεστε αυτόν τον κωδικό πρόσβασης για την πρόσβαση σε τυχόν κρυπτογραφημένα δεδομένα που έχετε αποθηκεύσει σε εμάς.
 password-info-balloon-reset-risk-info = Η επαναφορά κωδικού πρόσβασης σημαίνει πιθανή απώλεια δεδομένων, όπως κωδικών πρόσβασης και σελιδοδεικτών.
-
-## PasswordStrengthBalloon component
-
-password-strength-balloon-heading = Απαιτήσεις κωδικού πρόσβασης
-password-strength-balloon-min-length = Τουλάχιστον 8 χαρακτήρες
-password-strength-balloon-not-email = Όχι τη διεύθυνση email σας
-password-strength-balloon-not-common = Όχι κάποιο συνήθη κωδικό πρόσβασης
-password-strength-balloon-stay-safe-tips = Για την προστασία σας, μην επαναχρησιμοποιείτε κωδικούς πρόσβασης. Δείτε περισσότερες συμβουλές για τη <LinkExternal>δημιουργία ισχυρών κωδικών πρόσβασης</LinkExternal>.
 
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password
@@ -1232,7 +1204,6 @@ tfa-row-disable-modal-explain-1 =
 # Shown in an alert bar after two-step authentication is disabled
 tfa-row-disabled-2 = Η ταυτοποίηση δύο παραγόντων απενεργοποιήθηκε
 tfa-row-cannot-disable-2 = Δεν ήταν δυνατή η απενεργοποίηση της ταυτοποίησης δύο παραγόντων
-tfa-row-disable-cannot-verify-session = Δυστυχώς, προέκυψε πρόβλημα με την επιβεβαίωση της συνεδρίας σας
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account

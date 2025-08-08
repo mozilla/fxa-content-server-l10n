@@ -382,7 +382,7 @@ passwordReset-title-2 = Wašo gronidło jo se slědk stajiło
 passwordReset-description-2 = Wašo gronidło { -product-mozilla-account } jo se slědk stajiło dnja:
 passwordResetAccountRecovery-subject-2 = Wašo gronidło jo se slědk stajiło
 passwordResetAccountRecovery-title-3 = Wašo gronidło jo se slědk stajiło
-# Followed by details on the device and date/time of the password reset.
+# Followed by details on the device, location, and date/time of the password reset.
 passwordResetAccountRecovery-description-3 = Sćo wužywał swój kontowy wótnowjeński kluc, aby slědk stajił swójo gronidło { -product-mozilla-account } dnja:
 passwordResetAccountRecovery-information = Smy wótzjawili was ze wšych wašych synchronizěrowanych rědow. Smy napórali nowy kontowy wótnowjeński kluc, kótaryž ten narownajo, kótaryž sćo wužywał. Móžośo jen w swójich kontowych nastajenjach změniś.
 # After the colon there is a link to account settings
@@ -516,7 +516,7 @@ postVerifySecondary-content-3 = Sćo wuspěšnje pśeglědał { $secondaryEmail 
 postVerifySecondary-action = Konto zastojaś
 recovery-subject = Stajśo swójo gronidło slědk
 recovery-title-2 = Sćo swójo gronidło zabył?
-# Information on the device, date and time of the request that triggered the email follows.
+# Information on the device, location, and date and time of the request that triggered the email follows.
 recovery-request-origin-2 = Smy dostali pšosbu wó změnjanje gronidła za wašo { -product-mozilla-account(case: "acc", capitalization: "lower") }:
 recovery-new-password-button = Klikniśo na slědujuce tłocašk, aby nowe gronidło napórał. Toś ten wótkaz za pśiducu góźinu spadnjo.
 recovery-copy-paste = Kopěrujśo slědujucy URL do swójogo wobglědowaka, aby gronidło napórał. Toś ten wótkaz za pśiducu góźinu spadnjo.

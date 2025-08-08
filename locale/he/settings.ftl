@@ -133,26 +133,6 @@ device-info-browser-os = ‏{ $browserName } ב־{ $genericOSName }
 # The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
 device-info-ip-address = כתובת IP:‏ { $ipAddress }
 
-## FormPasswordWithBalloons
-
-signup-new-password-label =
-    .label = ססמה
-signup-confirm-password-label =
-    .label = חזרה על הססמה
-signup-submit-button = יצירת חשבון
-post-verify-set-password-submit-button = התחלה בסנכרון
-form-reset-password-with-balloon-new-password =
-    .label = ססמה חדשה
-form-reset-password-with-balloon-confirm-password =
-    .label = הזנת הססמה מחדש
-form-reset-password-with-balloon-submit-button = איפוס ססמה
-form-reset-password-with-balloon-match-error = הססמאות אינן תואמות
-form-password-sr-too-short-message = הססמה חייבת להכיל לפחות 8 תווים.
-form-password-sr-not-email-message = הססמה אינה יכולה להכיל את כתובת הדוא״ל שלך.
-form-password-sr-not-common-message = אסור שהססמה תהיה ססמה נפוצה.
-form-password-sr-requirements-met = הססמה שהוזנה מכבדת את כל הדרישות לססמה תקינה.
-form-password-sr-passwords-match = הססמאות שהוזנו תואמות.
-
 ## FormPasswordInlineCriteria
 
 form-password-with-inline-criteria-signup-new-password-label =
@@ -364,14 +344,6 @@ error-bad-request = בקשה שגויה
 
 password-info-balloon-why-password-info = יש לך צורך בססמה זו כדי לגשת לכל מידע מוצפן שבחרת לאחסן אצלנו.
 password-info-balloon-reset-risk-info = איפוס פירושו פוטנציאל לאבד נתונים כמו ססמאות וסימניות.
-
-## PasswordStrengthBalloon component
-
-password-strength-balloon-heading = דרישות ססמה
-password-strength-balloon-min-length = לפחות 8 תווים
-password-strength-balloon-not-email = לא כתובת הדוא״ל שלך
-password-strength-balloon-not-common = לא ססמה נפוצה
-password-strength-balloon-stay-safe-tips = שמרו על עצמכם — אל תשתמשו באותה הססמה במקומות שונים. ניתן לעיין בעצות נוספות <LinkExternal>ליצירת ססמאות חזקות</LinkExternal>.
 
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password
@@ -1161,7 +1133,6 @@ tfa-row-disable-modal-confirm = השבתה
 # Shown in an alert bar after two-step authentication is disabled
 tfa-row-disabled-2 = אימות דו־שלבי הושבת
 tfa-row-cannot-disable-2 = לא ניתן היה להשבית את האימות הדו־שלבי
-tfa-row-disable-cannot-verify-session = הייתה בעיה באימות ההפעלה שלך, עמך הסליחה
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account

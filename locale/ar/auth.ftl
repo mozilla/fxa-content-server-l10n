@@ -1,6 +1,3 @@
-## Non-email strings
-
-
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
 ## version. The strings are usually identical but sometimes they differ slightly.
@@ -12,12 +9,6 @@ subplat-cancel = ألغِ الاشتراك
 subplat-update-billing = حدّث معلومات الفوترة
 change-password-plaintext = إذا كنت تظن أن شخصا أخر يحاول الوصول إلي حسابك، فرجاءً غير كلمة السرّ الخاصة بك.
 manage-account = أدِر الحساب
-
-## Variables:
-##  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
-##  $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
-##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
-
 
 ##
 
@@ -41,12 +32,6 @@ postVerifySecondary-title = أُضيفَ البريد الثانوي
 postVerifySecondary-action = أدِر الحساب
 recovery-subject = صفّر كلمة السر
 recovery-action = أنشئ كلمة سر جديدة
-
-## Variables
-##   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-##   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
-##   $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
-
 
 ## Variables:
 ## $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00

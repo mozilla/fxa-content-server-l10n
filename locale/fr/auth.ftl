@@ -380,7 +380,7 @@ passwordReset-title-2 = Votre mot de passe à été réinitialisé
 passwordReset-description-2 = Vous avez réinitialisé le mot de passe de votre { -product-mozilla-account } sur :
 passwordResetAccountRecovery-subject-2 = Votre mot de passe a été réinitialisé
 passwordResetAccountRecovery-title-3 = Votre mot de passe à été réinitialisé
-# Followed by details on the device and date/time of the password reset.
+# Followed by details on the device, location, and date/time of the password reset.
 passwordResetAccountRecovery-description-3 = Vous avez utilisé la clé de récupération de votre compte pour réinitialiser le mot de passe de votre { -product-mozilla-account } sur :
 passwordResetAccountRecovery-information = Nous vous avons déconnecté·e de tous vos appareils synchronisés. Nous avons créé une nouvelle clé de récupération de compte pour remplacer celle que vous avez utilisée. Vous pouvez la modifier dans les paramètres de votre compte.
 # After the colon there is a link to account settings
@@ -514,7 +514,7 @@ postVerifySecondary-content-3 = L’adresse e-mail secondaire { $secondaryEmail 
 postVerifySecondary-action = Gérer le compte
 recovery-subject = Réinitialiser le mot de passe
 recovery-title-2 = Mot de passe oublié ?
-# Information on the device, date and time of the request that triggered the email follows.
+# Information on the device, location, and date and time of the request that triggered the email follows.
 recovery-request-origin-2 = Nous avons reçu une demande de changement de mot de passe pour votre { -product-mozilla-account } depuis :
 recovery-new-password-button = Créez un nouveau mot de passe en cliquant sur le bouton ci-dessous. Ce lien expirera dans une heure.
 recovery-copy-paste = Créez un nouveau mot de passe en copiant et collant l’URL ci-dessous dans votre navigateur. Ce lien expirera dans une heure.

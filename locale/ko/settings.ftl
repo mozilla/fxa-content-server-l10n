@@ -129,26 +129,6 @@ device-info-browser-os = { $genericOSName }의 { $browserName }
 # The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
 device-info-ip-address = IP 주소: { $ipAddress }
 
-## FormPasswordWithBalloons
-
-signup-new-password-label =
-    .label = 비밀번호
-signup-confirm-password-label =
-    .label = 비밀번호 재입력
-signup-submit-button = 계정 생성
-post-verify-set-password-submit-button = 동기화 시작
-form-reset-password-with-balloon-new-password =
-    .label = 새 비밀번호
-form-reset-password-with-balloon-confirm-password =
-    .label = 비밀번호 재입력
-form-reset-password-with-balloon-submit-button = 비밀번호 재설정
-form-reset-password-with-balloon-match-error = 비밀번호가 일치하지 않습니다
-form-password-sr-too-short-message = 비밀번호는 적어도 8자 이상 되어야 합니다.
-form-password-sr-not-email-message = 비밀번호에 이메일 주소가 포함되어서는 안 됩니다.
-form-password-sr-not-common-message = 비밀번호는 너무 일반적인 비밀번호가 아니어야 합니다.
-form-password-sr-requirements-met = 입력한 비밀번호는 모든 요건을 충족합니다.
-form-password-sr-passwords-match = 입력한 비밀번호가 일치합니다.
-
 ## FormPasswordInlineCriteria
 
 form-password-with-inline-criteria-signup-new-password-label =
@@ -368,14 +348,6 @@ error-bad-request = 잘못된 요청
 
 password-info-balloon-why-password-info = 여기에 저장한 암호화된 데이터에 접근하려면 이 비밀번호가 필요합니다.
 password-info-balloon-reset-risk-info = 재설정은 비밀번호와 북마크 같은 데이터가 손실될 수 있음을 의미합니다.
-
-## PasswordStrengthBalloon component
-
-password-strength-balloon-heading = 비밀번호 요구 사항
-password-strength-balloon-min-length = 최소 8자 이상이어야 합니다
-password-strength-balloon-not-email = 사용자의 이메일 주소가 아니어야 합니다
-password-strength-balloon-not-common = 흔히 사용되는 비밀번호가 아니어야 합니다
-password-strength-balloon-stay-safe-tips = 안전을 위해 — 비밀번호를 재사용하지 마세요. <linkExternal>강력한 비밀번호를 생성</linkExternal>하는 방법에 대해 알아보세요.
 
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password

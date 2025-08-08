@@ -122,25 +122,6 @@ device-info-browser-os = { $browserName } alustalla { $genericOSName }
 # The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
 device-info-ip-address = IP-osoite: { $ipAddress }
 
-## FormPasswordWithBalloons
-
-signup-new-password-label =
-    .label = Salasana
-signup-confirm-password-label =
-    .label = Toista salasana
-signup-submit-button = Luo tili
-form-reset-password-with-balloon-new-password =
-    .label = Uusi salasana
-form-reset-password-with-balloon-confirm-password =
-    .label = Kirjoita salasana uudelleen
-form-reset-password-with-balloon-submit-button = Nollaa salasana
-form-reset-password-with-balloon-match-error = Salasanat eivät täsmää
-form-password-sr-too-short-message = Salasanan tulee sisältää vähintään 8 merkkiä.
-form-password-sr-not-email-message = Salasana ei saa sisältää sähköpostiosoitettasi.
-form-password-sr-not-common-message = Salasana ei saa olla yleisesti käytetty salasana.
-form-password-sr-requirements-met = Syötetty salasana noudattaa kaikkia salasanavaatimuksia.
-form-password-sr-passwords-match = Annetut salasanat vastaavat toisiaan.
-
 ## FormPasswordInlineCriteria
 
 form-password-with-inline-criteria-signup-new-password-label =
@@ -347,14 +328,6 @@ error-bad-request = Virheellinen pyyntö
 
 password-info-balloon-why-password-info = Tarvitset tämän salasanan käsitelläksesi palveluumme tallentamiasi salattuja tietojasi.
 password-info-balloon-reset-risk-info = Nollauksen seurauksena saatat menettää salasanojen ja kirjanmerkkien kaltaiset tiedot.
-
-## PasswordStrengthBalloon component
-
-password-strength-balloon-heading = Salasanan vaatimukset
-password-strength-balloon-min-length = Vähintään 8 merkkiä
-password-strength-balloon-not-email = Ei sinun sähköpostiosoite
-password-strength-balloon-not-common = Ei yleisesti käytetty salasana
-password-strength-balloon-stay-safe-tips = Pysy turvassa — älä käytä samoja salasanoja toistuvasti. Katso lisää <linkExternal>vahvojen salasanojen luontivinkkejä</linkExternal>.
 
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password

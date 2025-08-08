@@ -141,26 +141,6 @@ device-info-browser-os = { $browserName } on { $genericOSName }
 # The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
 device-info-ip-address = IP address: { $ipAddress }
 
-## FormPasswordWithBalloons
-
-signup-new-password-label =
-    .label = Password
-signup-confirm-password-label =
-    .label = Repeat password
-signup-submit-button = Create account
-post-verify-set-password-submit-button = Start syncing
-form-reset-password-with-balloon-new-password =
-    .label = New password
-form-reset-password-with-balloon-confirm-password =
-    .label = Re-enter password
-form-reset-password-with-balloon-submit-button = Reset password
-form-reset-password-with-balloon-match-error = Passwords do not match
-form-password-sr-too-short-message = Password must contain at least 8 characters.
-form-password-sr-not-email-message = Password must not contain your email address.
-form-password-sr-not-common-message = Password must not be a commonly used password.
-form-password-sr-requirements-met = The entered password respects all password requirements.
-form-password-sr-passwords-match = Entered passwords match.
-
 ## FormPasswordInlineCriteria
 
 form-password-with-inline-criteria-signup-new-password-label =
@@ -380,14 +360,6 @@ error-bad-request = Bad Request
 
 password-info-balloon-why-password-info = You need this password to access any encrypted data you store with us.
 password-info-balloon-reset-risk-info = A reset means potentially losing data like passwords and bookmarks.
-
-## PasswordStrengthBalloon component
-
-password-strength-balloon-heading = Password requirements
-password-strength-balloon-min-length = At least 8 characters
-password-strength-balloon-not-email = Not your email address
-password-strength-balloon-not-common = Not a commonly used password
-password-strength-balloon-stay-safe-tips = Stay safe — Don’t reuse passwords. See more tips to <LinkExternal>create strong passwords</LinkExternal>.
 
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password
@@ -1189,7 +1161,6 @@ tfa-row-disable-modal-explain-1 =
 # Shown in an alert bar after two-step authentication is disabled
 tfa-row-disabled-2 = Two-step authentication disabled
 tfa-row-cannot-disable-2 = Two-step authentication could not be disabled
-tfa-row-disable-cannot-verify-session = Sorry, there was a problem confirming your session
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account

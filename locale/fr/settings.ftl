@@ -141,26 +141,6 @@ device-info-browser-os = { $browserName } sur { $genericOSName }
 # The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
 device-info-ip-address = Adresse IP : { $ipAddress }
 
-## FormPasswordWithBalloons
-
-signup-new-password-label =
-    .label = Mot de passe
-signup-confirm-password-label =
-    .label = Répéter le mot de passe
-signup-submit-button = Créer un compte
-post-verify-set-password-submit-button = Démarrer la synchronisation
-form-reset-password-with-balloon-new-password =
-    .label = Nouveau mot de passe
-form-reset-password-with-balloon-confirm-password =
-    .label = Saisissez-le à nouveau
-form-reset-password-with-balloon-submit-button = Réinitialiser le mot de passe
-form-reset-password-with-balloon-match-error = Les mots de passe ne correspondent pas
-form-password-sr-too-short-message = Le mot de passe doit contenir au moins 8 caractères.
-form-password-sr-not-email-message = Le mot de passe ne doit pas contenir votre adresse email.
-form-password-sr-not-common-message = Le mot de passe ne doit pas être un mot de passe trop commun.
-form-password-sr-requirements-met = Le mot de passe saisi respecte toutes les exigences en matière de mots de passe.
-form-password-sr-passwords-match = Les mots de passe saisis correspondent.
-
 ## FormPasswordInlineCriteria
 
 form-password-with-inline-criteria-signup-new-password-label =
@@ -380,14 +360,6 @@ error-bad-request = Requête incorrecte
 
 password-info-balloon-why-password-info = Vous avez besoin de ce mot de passe pour accéder aux données chiffrées que vous stockez chez nous.
 password-info-balloon-reset-risk-info = Une réinitialisation implique potentiellement la perte de données telles que les mots de passe et les marque-pages.
-
-## PasswordStrengthBalloon component
-
-password-strength-balloon-heading = Exigences relatives aux mots de passe
-password-strength-balloon-min-length = Au moins 8 caractères
-password-strength-balloon-not-email = Pas votre adresse e-mail
-password-strength-balloon-not-common = Pas un mot de passe trop commun
-password-strength-balloon-stay-safe-tips = Protégez-vous — ne réutilisez pas vos mots de passe. Voici plus de conseils pour <LinkExternal>créer des mots de passe robustes</LinkExternal>.
 
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password
@@ -1219,7 +1191,6 @@ tfa-row-disable-modal-explain-1 =
 # Shown in an alert bar after two-step authentication is disabled
 tfa-row-disabled-2 = Authentification en deux étapes désactivée
 tfa-row-cannot-disable-2 = L’authentification en deux étapes n’a pas pu être désactivée
-tfa-row-disable-cannot-verify-session = Un problème est survenu lors de la confirmation de votre session
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account

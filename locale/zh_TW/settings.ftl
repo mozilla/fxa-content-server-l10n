@@ -129,26 +129,6 @@ device-info-browser-os = { $genericOSName } 上的 { $browserName }
 # The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
 device-info-ip-address = IP 位置：{ $ipAddress }
 
-## FormPasswordWithBalloons
-
-signup-new-password-label =
-    .label = 密碼
-signup-confirm-password-label =
-    .label = 重複輸入密碼
-signup-submit-button = 註冊帳號
-post-verify-set-password-submit-button = 開始同步
-form-reset-password-with-balloon-new-password =
-    .label = 新密碼
-form-reset-password-with-balloon-confirm-password =
-    .label = 再次輸入密碼
-form-reset-password-with-balloon-submit-button = 重設密碼
-form-reset-password-with-balloon-match-error = 密碼不符合
-form-password-sr-too-short-message = 密碼必須包含至少 8 個字元。
-form-password-sr-not-email-message = 密碼不得包含您的電子郵件地址。
-form-password-sr-not-common-message = 密碼不能是被普遍使用的密碼。
-form-password-sr-requirements-met = 輸入的密碼應符合所有要求。
-form-password-sr-passwords-match = 輸入的密碼相符。
-
 ## FormPasswordInlineCriteria
 
 form-password-with-inline-criteria-signup-new-password-label =
@@ -368,14 +348,6 @@ error-bad-request = 請求錯誤
 
 password-info-balloon-why-password-info = 需要使用此密碼才能存取所有您儲存在我們這的加密資料。
 password-info-balloon-reset-risk-info = 進行重設，可能會失去網頁密碼、書籤等資料。
-
-## PasswordStrengthBalloon component
-
-password-strength-balloon-heading = 密碼要求
-password-strength-balloon-min-length = 至少八個字元長
-password-strength-balloon-not-email = 不可以與您的電子郵件地址相同
-password-strength-balloon-not-common = 不可以是常見的密碼
-password-strength-balloon-stay-safe-tips = 確保安全 — 請勿重複使用密碼。若需有關於建立高安全性密碼的秘訣，<LinkExternal>請見此處</LinkExternal>。
 
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password
@@ -1190,7 +1162,6 @@ tfa-row-disable-modal-explain-1 = 將無法還原此動作。您還可以<linkEx
 # Shown in an alert bar after two-step authentication is disabled
 tfa-row-disabled-2 = 已關閉兩階段驗證
 tfa-row-cannot-disable-2 = 無法停用兩階段驗證
-tfa-row-disable-cannot-verify-session = 很抱歉，確認您的連線階段時發生問題
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account

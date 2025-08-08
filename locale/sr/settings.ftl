@@ -47,20 +47,6 @@ device-info-browser-os = { $browserName } на { $genericOSName }-у
 # The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
 device-info-ip-address = IP адреса: { $ipAddress }
 
-## FormPasswordWithBalloons
-
-signup-new-password-label =
-    .label = Лозинка
-signup-confirm-password-label =
-    .label = Понови лозинку
-signup-submit-button = Направи налог
-form-reset-password-with-balloon-new-password =
-    .label = Нова лозинка
-form-reset-password-with-balloon-confirm-password =
-    .label = Поново унеси лозинку
-form-reset-password-with-balloon-submit-button = Ресетуј лозинку
-form-reset-password-with-balloon-match-error = Лозинке се не подударају
-
 ## FormVerifyCode
 
 # Fallback default localized error message for empty input field
@@ -143,14 +129,6 @@ confirmation-link-reused-message = Ова веза за потврду је ве
 
 password-info-balloon-why-password-info = Потребна вам је ова лозинка да приступите вашим шифрованим подацима који се чувају код нас.
 password-info-balloon-reset-risk-info = Ресетовањем можете да изгубите податке као што су лозинке и обележивачи.
-
-## PasswordStrengthBalloon component
-
-password-strength-balloon-heading = Услови лозинке
-password-strength-balloon-min-length = Најмање 8 знакова
-password-strength-balloon-not-email = Није ваша адреса е-поште
-password-strength-balloon-not-common = Није често употребљавана лозинка
-password-strength-balloon-stay-safe-tips = Будите безбедни — немојте да дуплирате лозинке. Погледајте савете за <LinkExternal>прављење јаких лозинки</LinkExternal>.
 
 ## Ready component
 

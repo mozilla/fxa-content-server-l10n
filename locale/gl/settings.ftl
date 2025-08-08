@@ -100,25 +100,6 @@ device-info-browser-os = { $browserName } en { $genericOSName }
 # The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
 device-info-ip-address = Enderezo IP: { $ipAddress }
 
-## FormPasswordWithBalloons
-
-signup-new-password-label =
-    .label = Contrasinal
-signup-confirm-password-label =
-    .label = Repetir contrasinal
-signup-submit-button = Crear unha conta
-form-reset-password-with-balloon-new-password =
-    .label = Novo contrasinal
-form-reset-password-with-balloon-confirm-password =
-    .label = Escriba de novo o contrasinal
-form-reset-password-with-balloon-submit-button = Restablecer o contrasinal
-form-reset-password-with-balloon-match-error = Non coinciden os contrasinais
-form-password-sr-too-short-message = O contrasinal debe conter polo menos 8 caracteres.
-form-password-sr-not-email-message = O contrasinal non debe conter o seu enderezo de correo electrónico.
-form-password-sr-not-common-message = O contrasinal non debe ser un contrasinal de uso habitual.
-form-password-sr-requirements-met = O contrasinal introducido respecta todos os requisitos de contrasinal.
-form-password-sr-passwords-match = Os contrasinais introducidos coinciden.
-
 ## FormVerifyCode
 
 # Fallback default localized error message for empty input field
@@ -214,10 +195,6 @@ error-bad-request = Solicitude incorrecta
 ## Balloon displayed next to password input field
 
 password-info-balloon-why-password-info = Necesita este contrasinal para acceder aos datos cifrados que almacene connosco.
-
-## PasswordStrengthBalloon component
-
-password-strength-balloon-not-email = Non é o seu enderezo de correo electrónico
 
 ## User's avatar
 

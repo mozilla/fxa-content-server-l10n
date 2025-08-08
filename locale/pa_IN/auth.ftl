@@ -215,12 +215,6 @@ subscriptionFirstInvoiceDiscount-content-discount-repeating = { $discountDuratio
 #  $invoiceTaxAmount (String) - The amount of the tax of the subscription invoice, including currency, e.g. $2.00
 subscriptionCharges-content-tax = ਟੈਕਸ ਤੇ ਫ਼ੀਸਾਂ: { $invoiceTaxAmount }
 
-## Variables:
-##  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
-##  $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
-##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
-
-
 ##
 
 subscriptionSupport = ਤੁਹਾਡੀ ਮੈਂਬਰੀ ਬਾਰੇ ਸਵਾਲ ਹਨ? ਸਾਡੀ <a data-l10n-name="subscriptionSupportUrl">ਸਹਾਇਤਾ ਟੀਮ</a> ਤੁਹਾਡੀ ਮਦਦ ਵਾਸਤੇ ਇੱਥੇ ਮੌਜੂਦ ਹੈ।
@@ -345,7 +339,7 @@ passwordReset-title-2 = ਤੁਹਾਡੇ ਪਾਸਵਰਡ ਨੂੰ ਮੁ�
 passwordReset-description-2 = ਤੁਸੀਂ ਇਸ ਉੱਤੇ ਆਪਣਾ { -product-mozilla-account } ਮੁੜ-ਸੈੱਟ ਕੀਤਾ:
 passwordResetAccountRecovery-subject-2 = ਤੁਹਾਡੇ ਪਾਸਵਰਡ ਨੂੰ ਮੁੜ ਸੈੱਟ ਕੀਤਾ ਗਿਆ ਹੈ
 passwordResetAccountRecovery-title-3 = ਤੁਹਾਡੇ ਪਾਸਵਰਡ ਨੂੰ ਮੁੜ ਸੈੱਟ ਕੀਤਾ ਗਿਆ ਹੈ
-# Followed by details on the device and date/time of the password reset.
+# Followed by details on the device, location, and date/time of the password reset.
 passwordResetAccountRecovery-description-3 = ਤੁਸੀਂ ਆਪਣੇ { -product-mozilla-account } ਪਾਸਵਰਡ ਨੂੰ ਮੁੜ-ਸੈੱਟ ਕਰਨ ਲਈ ਆਪਣੀ ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਨੂੰ ਵਰਤਿਆ ਹੈ:
 passwordResetAccountRecovery-information = ਅਸੀਂ ਤੁਹਾਡੇ ਸਾਰੇ ਸਿੰਕ ਕੀਤੇ ਡਿਵਾਈਸਾਂ ਤੋਂ ਲਾਗ ਆਉਟ ਕਰ ਦਿੱਤਾ ਹੈ। ਅਸੀਂ ਤੁਹਾਡੇ ਵਲੋਂ ਵਰਤੀ ਗਈ ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਲਈ ਨਵੀਂ ਬਣਾਈ ਹੈ। ਤੁਸੀਂ ਆਪਣੀਆਂ ਖਾਤਾ ਸੈਟਿੰਗਾਂ ਵਿੱਚ ਇਸ ਨੂੰ ਬਦਲ ਸਕਦੇ ਹੋ।
 # After the colon there is a link to account settings
@@ -440,7 +434,7 @@ postVerifySecondary-title = ਸਹਾਇਕ ਈਮੇਲ ਜੋੜਿਆ ਗਿ�
 postVerifySecondary-action = ਖਾਤੇ ਦਾ ਇੰਤਜ਼ਾਮ ਕਰੋ
 recovery-subject = ਆਪਣਾ ਪਾਸਵਰਡ ਬਦਲੋ
 recovery-title-2 = ਆਪਣਾ ਪਾਸਵਰਡ ਭੁੱਲ ਗਏ ਹੋ?
-# Information on the device, date and time of the request that triggered the email follows.
+# Information on the device, location, and date and time of the request that triggered the email follows.
 recovery-request-origin-2 = ਸਾਨੂੰ ਤੁਹਾਡੇ { -product-mozilla-account } ਰਾਹੀਂ ਇਸ ਤੋਂ ਪਾਸਵਰਡ ਬਦਲਣ ਦੀ ਬੇਨਤੀ ਮਿਲੀ ਹੈ:
 recovery-new-password-button = ਹੇਠ ਦਿੱਤੇ ਬਟਨ ਨੂੰ ਕਲਿੱਕ ਕਰਕੇ ਨਵਾਂ ਪਾਸਵਰਡ ਬਣਾਓ। ਇਸ ਲਿੰਕ ਦੀ ਮਿਆਦ ਅਗਲੇ ਘੰਟੇ ਵਿੱਚ ਪੁੱਗ ਜਾਵੇਗੀ।
 recovery-copy-paste = ਨਵਾਂ ਪਾਸਵਰਡ ਬਣਾਉਣ ਲਈ ਹੇਠਲੇ URL ਨੂੰ ਆਪਣੇ ਬਰਾਊਜ਼ਰ ਵਿੱਚ ਕਾਪੀ ਕਰਕੇ ਚੇਪੋ। ਇਸ ਲਿੰਕ ਦੀ ਮਿਆਦ ਅਗਲੇ ਘੰਟੇ ਵਿੱਚ ਪੁੱਗ ਜਾਵੇਗੀ।

@@ -381,7 +381,7 @@ passwordReset-title-2 = Passordet ditt har blitt tilbakestilt
 passwordReset-description-2 = Du tilbakestilte { -product-mozilla-account }-passordet ditt den:
 passwordResetAccountRecovery-subject-2 = Passordet ditt er tilbakestilt
 passwordResetAccountRecovery-title-3 = Passordet ditt har blitt tilbakestilt
-# Followed by details on the device and date/time of the password reset.
+# Followed by details on the device, location, and date/time of the password reset.
 passwordResetAccountRecovery-description-3 = Du brukte kontogjenopprettingsnøkkelen din til å tilbakestille passordet ditt for { -product-mozilla-account } den:
 passwordResetAccountRecovery-information = Vi logget deg ut av alle dine synkroniserte enheter. Vi opprettet en ny kontogjenopprettingsnøkkel for å erstatte den du brukte. Du kan endre den i kontoinnstillingene dine.
 # After the colon there is a link to account settings
@@ -515,7 +515,7 @@ postVerifySecondary-content-3 = Du har bekreftet { $secondaryEmail } som en seku
 postVerifySecondary-action = Behandle konto
 recovery-subject = Tilbakestill passord
 recovery-title-2 = Glemt passord ditt?
-# Information on the device, date and time of the request that triggered the email follows.
+# Information on the device, location, and date and time of the request that triggered the email follows.
 recovery-request-origin-2 = Vi mottok en forespørsel om passordendring på din { -product-mozilla-account } fra:
 recovery-new-password-button = Opprett et nytt passord ved å klikke på knappen nedenfor. Denne lenken vil utløpe innen den neste timen.
 recovery-copy-paste = Opprett et nytt passord ved å kopiere og lime inn nettadressen nedenfor i nettleseren din. Denne lenken vil utløpe innen den neste timen.

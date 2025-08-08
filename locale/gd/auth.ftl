@@ -113,12 +113,6 @@ subscriptionFirstInvoiceDiscount-content-discount-repeating =
 #  $invoiceTaxAmount (String) - The amount of the tax of the subscription invoice, including currency, e.g. $2.00
 subscriptionCharges-content-tax = Cìsean ⁊ tàillean: { $invoiceTaxAmount }
 
-## Variables:
-##  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
-##  $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
-##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
-
-
 ##
 
 subscriptionSupport = Ceistean mun fho-sgrìobhadh agad? Cuidichidh an <a data-l10n-name="subscriptionSupportUrl">sgioba taice</a> againn thu.

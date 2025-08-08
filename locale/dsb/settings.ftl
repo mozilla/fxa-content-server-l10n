@@ -147,26 +147,6 @@ device-info-browser-os = { $browserName } na { $genericOSName }
 # The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
 device-info-ip-address = IP-adresa: { $ipAddress }
 
-## FormPasswordWithBalloons
-
-signup-new-password-label =
-    .label = Gronidło
-signup-confirm-password-label =
-    .label = Gronidło wóspjetowaś
-signup-submit-button = Konto załožyś
-post-verify-set-password-submit-button = Synchronizaciju zachopiś
-form-reset-password-with-balloon-new-password =
-    .label = Nowe gronidło
-form-reset-password-with-balloon-confirm-password =
-    .label = Gronidło znowego zapódaś
-form-reset-password-with-balloon-submit-button = Gronidło slědk stajiś
-form-reset-password-with-balloon-match-error = Gronidle njejstej jadnakej
-form-password-sr-too-short-message = Gronidło musy nanejmjenjej 8 znamuškow wopśimowaś.
-form-password-sr-not-email-message = Gronidło njesmějo wašu e-mailowu adresu wopśimowaś.
-form-password-sr-not-common-message = Gronidło njesměj zgromadnje wužywane gronidło byś.
-form-password-sr-requirements-met = Zapódane gronidło wšykne pominanja na gronidło respektěrujo.
-form-password-sr-passwords-match = Zapódane gronidła su jadnake.
-
 ## FormPasswordInlineCriteria
 
 form-password-with-inline-criteria-signup-new-password-label =
@@ -386,14 +366,6 @@ error-bad-request = Špatne napšašowanje
 
 password-info-balloon-why-password-info = Trjebaśo toś to gronidł za pśistup k skoděrowanym datam, kótarež pla nas składujośo.
 password-info-balloon-reset-risk-info = Slědkstajenje groni, až se snaź daty ako gronidła a cytańske znamjenja zgubiju.
-
-## PasswordStrengthBalloon component
-
-password-strength-balloon-heading = Gronidłowe pominanja
-password-strength-balloon-min-length = Nanejmjenjej 8 znamuškow
-password-strength-balloon-not-email = Nic waša e-mailowa adresa
-password-strength-balloon-not-common = Nic cesto wužywane gronidło
-password-strength-balloon-stay-safe-tips = Wóstańśo wěsty – njewužywajśo gronidła wěcej raz. Glejśo dalšne pokaze aby <LinkExternal>mócne gronidła napórał</LinkExternal>.
 
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password
@@ -1239,7 +1211,6 @@ tfa-row-disable-modal-explain-1 =
 # Shown in an alert bar after two-step authentication is disabled
 tfa-row-disabled-2 = Dwójokšacowa awtentifikacija jo se znjemóžniła
 tfa-row-cannot-disable-2 = Dwójokšacowa awtentifikacija njedajo se znjemóžniś
-tfa-row-disable-cannot-verify-session = Bóžko jo bastał problem pśi wobkšuśenju pósejźenja
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account

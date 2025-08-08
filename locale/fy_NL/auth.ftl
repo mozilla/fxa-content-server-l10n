@@ -380,7 +380,7 @@ passwordReset-title-2 = Jo wachtwurd is opnij ynsteld
 passwordReset-description-2 = Jo hawwe jo { -product-mozilla-account }-wachtwurd opnij ynsteld op:
 passwordResetAccountRecovery-subject-2 = Jo wachtwurd is opnij ynsteld
 passwordResetAccountRecovery-title-3 = Jo wachtwurd is opnij ynsteld
-# Followed by details on the device and date/time of the password reset.
+# Followed by details on the device, location, and date/time of the password reset.
 passwordResetAccountRecovery-description-3 = Jo hawwe jo accountwerstelkaai brûkt om jo { -product-mozilla-account }-wachtwurd opnij yn te stellen op:
 passwordResetAccountRecovery-information = Wy hawwe jo ôfmeld op al jo syngronisearre apparaten. Wy hawwe in nije accountwerstelkaai oanmakke om de brûkte kaai te ferfangen. Jo kinne dit wizigje yn jo accountynstellingen.
 # After the colon there is a link to account settings
@@ -514,7 +514,7 @@ postVerifySecondary-content-3 = Jo hawwe { $secondaryEmail } mei sukses as sekun
 postVerifySecondary-action = Account beheare
 recovery-subject = Wachtwurd werinisjalisearje
 recovery-title-2 = Jo wachtwurd ferjitten?
-# Information on the device, date and time of the request that triggered the email follows.
+# Information on the device, location, and date and time of the request that triggered the email follows.
 recovery-request-origin-2 = Wy hawwe in fersyk ûntfongen foar in wachtwurdwiziging op jo { -product-mozilla-account } fan:
 recovery-new-password-button = Meitsje in nij wachtwurd troch te klikken op de knop hjirûnder. Dizze keppeling ferrint binnen it folgjende oere.
 recovery-copy-paste = Meitsje in nij wachtwurd oan troch de URL hjirûnder te kopiearjen en yn jo browser te plakken. Dizze keppeling ferrint binnen it folgjende oere.

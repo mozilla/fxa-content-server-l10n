@@ -379,7 +379,7 @@ postVerifySecondary-content-3 = Tesnetmeḍ akken iwata { $secondaryEmail } imay
 postVerifySecondary-action = Sefrek amiḍan
 recovery-subject = Wennez awal uffir-ik
 recovery-title-2 = Tettuḍ awal inek uffir?
-# Information on the device, date and time of the request that triggered the email follows.
+# Information on the device, location, and date and time of the request that triggered the email follows.
 recovery-request-origin-2 = Neṭṭef-d assuter n ubeddel n wawal uffir ɣqef { -product-mozilla-account }-inek·inem seg:
 recovery-action = Sekcem awal uffir amaynut
 #  Variables:

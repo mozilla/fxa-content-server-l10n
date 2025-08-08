@@ -141,26 +141,6 @@ device-info-browser-os = { $browserName } { $genericOSName }-pe
 # The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
 device-info-ip-address = IP kundaharape: { $ipAddress }
 
-## FormPasswordWithBalloons
-
-signup-new-password-label =
-    .label = Ñe’ẽñemi
-signup-confirm-password-label =
-    .label = Emoingejey ñe’ẽñemi
-signup-submit-button = Emoheñói mba’ete
-post-verify-set-password-submit-button = Eñepyrũ ñembojuehe
-form-reset-password-with-balloon-new-password =
-    .label = Ñe’ẽñemi pyahu
-form-reset-password-with-balloon-confirm-password =
-    .label = Emoingejey ñe’ẽñemi
-form-reset-password-with-balloon-submit-button = Ñe’ẽñemi mbojevyjey
-form-reset-password-with-balloon-match-error = Ko’ã ñe’ẽñemi ndojojoguái
-form-password-sr-too-short-message = Pe ñe’ẽñemi oguerekova’erã michĩ’vérõ 8 tai.
-form-password-sr-not-email-message = Pe ñe’ẽñemi ani oreko ñanduti veve kundaharape.
-form-password-sr-not-common-message = Pe ñe’ẽñemi ani oreko ñe’ẽñemi ojeporumeméva.
-form-password-sr-requirements-met = Pe ñe’ẽñemi haipyre ohechapava’erã ñe’ẽñemi oikotevẽva.
-form-password-sr-passwords-match = Ko’ã ñe’ẽñemi haipyre ojuehegua.
-
 ## FormPasswordInlineCriteria
 
 form-password-with-inline-criteria-signup-new-password-label =
@@ -380,14 +360,6 @@ error-bad-request = Mba’ejerure ojavýva
 
 password-info-balloon-why-password-info = Eikotevẽ ñe’ẽñemi eike hag̃ua oimeraẽva mba’ekuaarã ipapapýva embyatýva orendive.
 password-info-balloon-reset-risk-info = Ñemoñepyrũjey he’ise okañykuaaha mba’ekuaarã ikatúva ñe’ẽñemi ha techaukaha.
-
-## PasswordStrengthBalloon component
-
-password-strength-balloon-heading = Ñe’ẽñemi oikotevẽva
-password-strength-balloon-min-length = Michĩvéramo 8 tai
-password-strength-balloon-not-email = Aníke ne ñanduti veve kundaharape
-password-strength-balloon-not-common = Ndaha’éi ñe’ẽñemi ojeporumeméva
-password-strength-balloon-stay-safe-tips = Epyta tekorosãme — ani eiporujey ñe’ẽñemi. Ehechajey ñemoñe’ẽ <LinkExternal>emoheñói ñe’ẽñemi hekorosãva</LinkExternal> peg̃uarã.
 
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password
@@ -1197,7 +1169,6 @@ tfa-row-disable-modal-explain-1 =
 # Shown in an alert bar after two-step authentication is disabled
 tfa-row-disabled-2 = Ojepe’áma ñemoneĩ mokõi jeku’egua
 tfa-row-cannot-disable-2 = Ñemoneĩrigui mokõi jeku’egua ndaikatúi eipe’a
-tfa-row-disable-cannot-verify-session = Cheñerõmi, oiko apañuái guasu emoneĩjeývo tembiapo
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account

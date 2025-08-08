@@ -116,25 +116,6 @@ device-info-browser-os = { $browserName } em { $genericOSName }
 # The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
 device-info-ip-address = Endereço IP: { $ipAddress }
 
-## FormPasswordWithBalloons
-
-signup-new-password-label =
-    .label = Senha
-signup-confirm-password-label =
-    .label = Repetir senha
-signup-submit-button = Criar conta
-form-reset-password-with-balloon-new-password =
-    .label = Nova senha
-form-reset-password-with-balloon-confirm-password =
-    .label = Confirme a nova senha
-form-reset-password-with-balloon-submit-button = Redefinir senha
-form-reset-password-with-balloon-match-error = As senhas não coincidem
-form-password-sr-too-short-message = A senha deve ter pelo menos 8 caracteres.
-form-password-sr-not-email-message = A senha não pode ter seu endereço de email
-form-password-sr-not-common-message = A senha não deve ser uma comumente usada.
-form-password-sr-requirements-met = A senha inserida respeita todos os requisitos de senha.
-form-password-sr-passwords-match = As senhas inseridas coincidem.
-
 ## FormPasswordInlineCriteria
 
 form-password-with-inline-criteria-signup-new-password-label =
@@ -352,14 +333,6 @@ error-bad-request = Requisição inválida
 
 password-info-balloon-why-password-info = Você precisa dessa senha para acessar dados criptografados armazenados conosco.
 password-info-balloon-reset-risk-info = Redefinir significa potencialmente perder dados como senhas e favoritos.
-
-## PasswordStrengthBalloon component
-
-password-strength-balloon-heading = Requisitos de senha
-password-strength-balloon-min-length = Pelo menos 8 caracteres
-password-strength-balloon-not-email = Não ser seu endereço de email
-password-strength-balloon-not-common = Não ser uma senha comumente usada
-password-strength-balloon-stay-safe-tips = Fique seguro, não reuse senhas. Veja mais dicas para <linkExternal>criar senhas fortes</linkExternal>.
 
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password

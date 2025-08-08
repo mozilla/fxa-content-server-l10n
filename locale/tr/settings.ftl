@@ -141,26 +141,6 @@ device-info-browser-os = { $browserName } - { $genericOSName }
 # The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
 device-info-ip-address = IP adresi: { $ipAddress }
 
-## FormPasswordWithBalloons
-
-signup-new-password-label =
-    .label = Parola
-signup-confirm-password-label =
-    .label = Parola tekrarı
-signup-submit-button = Hesap oluştur
-post-verify-set-password-submit-button = Eşitlemeyi başlat
-form-reset-password-with-balloon-new-password =
-    .label = Yeni parola
-form-reset-password-with-balloon-confirm-password =
-    .label = Parolayı yeniden girin
-form-reset-password-with-balloon-submit-button = Parolayı sıfırla
-form-reset-password-with-balloon-match-error = Parolalar uyuşmuyor
-form-password-sr-too-short-message = Parola en az 8 karakterden oluşmalıdır.
-form-password-sr-not-email-message = Parolanız e-posta adresinizi içeremez.
-form-password-sr-not-common-message = Parolanız yaygın olarak kullanılan bir parola olmamalıdır.
-form-password-sr-requirements-met = Girdiğiniz parola tüm parola gereksinimlerine uygun.
-form-password-sr-passwords-match = Girilen parolalar eşleşiyor.
-
 ## FormPasswordInlineCriteria
 
 form-password-with-inline-criteria-signup-new-password-label =
@@ -380,14 +360,6 @@ error-bad-request = Hatalı istek
 
 password-info-balloon-why-password-info = Bizde depolanan şifrelenmiş verilerinize erişmek için bu parolaya ihtiyacınız olacak.
 password-info-balloon-reset-risk-info = Sıfırlama yaparsanız parolalar ve yer imleri gibi verileriniz kaybolabilir.
-
-## PasswordStrengthBalloon component
-
-password-strength-balloon-heading = Parola gereksinimleri
-password-strength-balloon-min-length = En az 8 karakter
-password-strength-balloon-not-email = E-posta adresiniz olmamalı
-password-strength-balloon-not-common = Yaygın olarak kullanılan bir parola olmamalı
-password-strength-balloon-stay-safe-tips = Güvende kalın: Aynı parolaları farklı yerlerde kullanmayın. <LinkExternal>Güçlü parolalar oluşturmak</LinkExternal> için daha fazla ipucu görün.
 
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password
@@ -1218,7 +1190,6 @@ tfa-row-disable-modal-explain-1 = Bu işlemi geri alamazsınız. İsterseniz <li
 # Shown in an alert bar after two-step authentication is disabled
 tfa-row-disabled-2 = İki aşamalı kimlik doğrulama kapatıldı
 tfa-row-cannot-disable-2 = İki aşamalı doğrulama devre dışı bırakılamadı
-tfa-row-disable-cannot-verify-session = Oturumunuz onaylanırken bir sorun oluştu
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account

@@ -141,26 +141,6 @@ device-info-browser-os = { $browserName } ezen: { $genericOSName }
 # The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
 device-info-ip-address = IP-cím: { $ipAddress }
 
-## FormPasswordWithBalloons
-
-signup-new-password-label =
-    .label = Jelszó
-signup-confirm-password-label =
-    .label = Jelszó megismétlése
-signup-submit-button = Fiók létrehozása
-post-verify-set-password-submit-button = Szinkronizálás indítása
-form-reset-password-with-balloon-new-password =
-    .label = Új jelszó
-form-reset-password-with-balloon-confirm-password =
-    .label = Jelszó megerősítése
-form-reset-password-with-balloon-submit-button = Jelszó visszaállítása
-form-reset-password-with-balloon-match-error = A jelszavak nem egyeznek
-form-password-sr-too-short-message = A jelszónak legalább 8 karakterből kell állnia.
-form-password-sr-not-email-message = A jelszó nem tartalmazhatja az e-mail-címét.
-form-password-sr-not-common-message = A jelszó nem lehet gyakran használt jelszó.
-form-password-sr-requirements-met = A megadott jelszó betartja az összes jelszókövetelményt.
-form-password-sr-passwords-match = A megadott jelszavak egyeznek.
-
 ## FormPasswordInlineCriteria
 
 form-password-with-inline-criteria-signup-new-password-label =
@@ -380,14 +360,6 @@ error-bad-request = Hibás kérés
 
 password-info-balloon-why-password-info = Erre a jelszóra van szüksége a nálunk tárolt titkosított adatok eléréséhez.
 password-info-balloon-reset-risk-info = Az alaphelyzetbe állítás azt jelenti, hogy elvesztheti az adatait, például a jelszavait és könyvjelzőit.
-
-## PasswordStrengthBalloon component
-
-password-strength-balloon-heading = Jelszókövetelmények
-password-strength-balloon-min-length = Legalább 8 karakter
-password-strength-balloon-not-email = Nem az Ön e-mail-címe
-password-strength-balloon-not-common = Nem gyakran használt jelszó
-password-strength-balloon-stay-safe-tips = Maradjon biztonságban – ne használja újra a jelszavakat. Nézzen meg további tippeket az <linkExternal>erős jelszavak létrehozásához</linkExternal>.
 
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password
@@ -1231,7 +1203,6 @@ tfa-row-disable-modal-explain-1 =
 # Shown in an alert bar after two-step authentication is disabled
 tfa-row-disabled-2 = Kétlépcsős hitelesítés letiltva
 tfa-row-cannot-disable-2 = A kétlépcsős hitelesítést nem lehetett letiltani
-tfa-row-disable-cannot-verify-session = Sajnos probléma merült fel a munkamenet megerősítésekor
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account

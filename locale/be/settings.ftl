@@ -102,20 +102,6 @@ device-info-browser-os = { $browserName } на { $genericOSName }
 # The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
 device-info-ip-address = IP-адрас: { $ipAddress }
 
-## FormPasswordWithBalloons
-
-signup-new-password-label =
-    .label = Пароль
-signup-confirm-password-label =
-    .label = Паўтарыце пароль
-signup-submit-button = Стварыць уліковы запіс
-form-reset-password-with-balloon-new-password =
-    .label = Новы пароль
-form-reset-password-with-balloon-confirm-password =
-    .label = Увядзіце пароль ізноў
-form-reset-password-with-balloon-submit-button = Скінуць пароль
-form-reset-password-with-balloon-match-error = Паролі не супадаюць
-
 ## FormPasswordInlineCriteria
 
 form-password-with-inline-criteria-signup-new-password-label =
@@ -248,14 +234,6 @@ error-bad-request = Дрэнны запыт
 
 password-info-balloon-why-password-info = Вам патрэбны гэты пароль для доступу да любых зашыфраваных звестак, якія вы захоўваеце ў нас.
 password-info-balloon-reset-risk-info = Скід азначае патэнцыйную страту такіх звестак, як паролі ці закладкі.
-
-## PasswordStrengthBalloon component
-
-password-strength-balloon-heading = Патрабаванні да пароля
-password-strength-balloon-min-length = Мінімум 8 знакаў
-password-strength-balloon-not-email = Не ваш адрас электроннай пошты
-password-strength-balloon-not-common = Не часта выкарыстаны пароль
-password-strength-balloon-stay-safe-tips = Будзьце ў бяспецы — не выкарыстоўвайце паролі паўторна. Даведайцеся больш пра <LinkExternal>стварэнне надзейных пароляў</LinkExternal>.
 
 ## Notification Promo Banner component
 

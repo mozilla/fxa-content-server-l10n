@@ -153,26 +153,6 @@ device-info-browser-os = { $browserName } ar { $genericOSName }
 # The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
 device-info-ip-address = Cyfeiriad IP: { $ipAddress }
 
-## FormPasswordWithBalloons
-
-signup-new-password-label =
-    .label = Cyfrinair
-signup-confirm-password-label =
-    .label = Ailadrodd y cyfrinair
-signup-submit-button = Creu cyfrif
-post-verify-set-password-submit-button = Cychwyn cydweddu
-form-reset-password-with-balloon-new-password =
-    .label = Cyfrinair newydd
-form-reset-password-with-balloon-confirm-password =
-    .label = Ail gynnig eich cyfrinair
-form-reset-password-with-balloon-submit-button = Ailosod y cyfrinair
-form-reset-password-with-balloon-match-error = Nid yw'r cyfrineiriau'n cydweddu
-form-password-sr-too-short-message = Rhaid i'r cyfrinair gynnwys o leiaf 8 nod.
-form-password-sr-not-email-message = Peidiwch â chynnwys eich cyfeiriad e-bost yn eich cyfrinair.
-form-password-sr-not-common-message = Peidiwch â defnyddio cyfrinair cyffredin
-form-password-sr-requirements-met = Mae'r cyfrinair a gofnodwyd yn parchu'r holl ofynion cyfrinair.
-form-password-sr-passwords-match = Mae'r cyfrineiriau a roddwyd yn cyfateb.
-
 ## FormPasswordInlineCriteria
 
 form-password-with-inline-criteria-signup-new-password-label =
@@ -392,14 +372,6 @@ error-bad-request = Cais Gwael
 
 password-info-balloon-why-password-info = Mae angen y cyfrinair hwn arnoch i gael mynediad at unrhyw ddata wedi'i amgryptio rydych yn ei storio gyda ni.
 password-info-balloon-reset-risk-info = Mae ailosod yn golygu o bosibl golli data fel cyfrineiriau a nodau tudalen.
-
-## PasswordStrengthBalloon component
-
-password-strength-balloon-heading = Gofynion cyfrinair
-password-strength-balloon-min-length = O leiaf 8 nod
-password-strength-balloon-not-email = Nid eich cyfeiriad e-bost chi
-password-strength-balloon-not-common = Nid cyfrinair sy'n cael ei ddefnyddio'n arferol
-password-strength-balloon-stay-safe-tips = Cadwch yn ddiogel - Peidiwch ag ailddefnyddio cyfrineiriau. Dyma ragor o awgrymiadau i <linkExternal>greu cyfrineiriau cryf</linkExternal>.
 
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password
@@ -1241,7 +1213,6 @@ tfa-row-disable-modal-explain-1 =
 # Shown in an alert bar after two-step authentication is disabled
 tfa-row-disabled-2 = Mae dilysu dau gam wedi ei analluogi
 tfa-row-cannot-disable-2 = Nid oedd modd analluogi dilysu dau gam.
-tfa-row-disable-cannot-verify-session = Ymddiheuriadau, bu anhawster wrth gadarnhau eich sesiwn
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account

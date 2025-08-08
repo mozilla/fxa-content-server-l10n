@@ -220,12 +220,6 @@ subscriptionFirstInvoiceDiscount-content-discount-repeating = Zbritje { $discoun
 #  $invoiceTaxAmount (String) - The amount of the tax of the subscription invoice, including currency, e.g. $2.00
 subscriptionCharges-content-tax = Taksa & tarifa: { $invoiceTaxAmount }
 
-## Variables:
-##  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
-##  $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
-##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
-
-
 ##
 
 subscriptionSupport = Pyetje rreth pajtimit tuaj? <a data-l10n-name="subscriptionSupportUrl">Ekipi ynë i asistencës</a> është këtu për t’ju ndihmuar.
@@ -359,7 +353,7 @@ passwordReset-title-2 = Fjalëkalimi juaj u ricaktua
 passwordReset-description-2 = E ricaktuat fjalëkalimin tuaj për { -product-mozilla-account } më:
 passwordResetAccountRecovery-subject-2 = Fjalëkalimi juaj u ricaktua
 passwordResetAccountRecovery-title-3 = Fjalëkalimi juaj u ricaktua
-# Followed by details on the device and date/time of the password reset.
+# Followed by details on the device, location, and date/time of the password reset.
 passwordResetAccountRecovery-description-3 = Përdorët kyçin tuaj për rimarrje llogarie për të ricaktuar fjalëkalimin tuaj për { -product-mozilla-account } më:
 passwordResetAccountRecovery-information = Kemi bërë nxjerrjen tuaj nga krejt llogaritë në krejt pajisjet tuaja të njëkohësuara. Krijuam një kyç të ri rimarrjeje llogarie, për të zëvendësuar atë që përdorët. Mund ta ndryshoni që nga rregullimet e llogarisë tuaj.
 # After the colon there is a link to account settings
@@ -476,7 +470,7 @@ postVerifySecondary-content-3 = Keni ripohuar me sukses { $secondaryEmail } si n
 postVerifySecondary-action = Administroni llogarinë
 recovery-subject = Ricaktoni fjalëkalimin tuaj
 recovery-title-2 = Harruat fjalëkalimin tuaj?
-# Information on the device, date and time of the request that triggered the email follows.
+# Information on the device, location, and date and time of the request that triggered the email follows.
 recovery-request-origin-2 = Morëm një kërkesë për ndryshim fjalëkalimi në { -product-mozilla-account } tuaj nga:
 recovery-new-password-button = Krijoni një fjalëkalim të ri duke klikuar butonin më poshtë. Kjo lidhje do të skadojë brenda orës së ardhshme.
 recovery-copy-paste = Krijoni një fjalëkalim të ri duke kopjuar dhe ngjitur në shfletuesin tuaj URL-në më poshtë. Kjo lidhje do të skadojë brenda orës së ardhshme.

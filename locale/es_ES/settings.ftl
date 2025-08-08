@@ -122,25 +122,6 @@ device-info-browser-os = { $browserName } en { $genericOSName }
 # The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
 device-info-ip-address = Dirección IP: { $ipAddress }
 
-## FormPasswordWithBalloons
-
-signup-new-password-label =
-    .label = Contraseña
-signup-confirm-password-label =
-    .label = Repetir contraseña
-signup-submit-button = Crear cuenta
-form-reset-password-with-balloon-new-password =
-    .label = Nueva contraseña
-form-reset-password-with-balloon-confirm-password =
-    .label = Volver a introducir contraseña
-form-reset-password-with-balloon-submit-button = Restablecer contraseña
-form-reset-password-with-balloon-match-error = Las contraseñas no coinciden
-form-password-sr-too-short-message = La contraseña debe contener al menos 8 caracteres.
-form-password-sr-not-email-message = La contraseña no debe contener tu dirección de correo electrónico.
-form-password-sr-not-common-message = La contraseña no debe ser una contraseña de uso común.
-form-password-sr-requirements-met = La contraseña introducida respeta todos los requisitos de contraseña.
-form-password-sr-passwords-match = Las contraseñas introducidas coinciden.
-
 ## FormPasswordInlineCriteria
 
 form-password-with-inline-criteria-signup-new-password-label =
@@ -358,14 +339,6 @@ error-bad-request = Solicitud incorrecta
 
 password-info-balloon-why-password-info = Necesitas esta contraseña para acceder a los datos cifrados que almacenas con nosotros.
 password-info-balloon-reset-risk-info = Un reinicio podría ocasionar la pérdida de datos como contraseñas y marcadores.
-
-## PasswordStrengthBalloon component
-
-password-strength-balloon-heading = Requisitos de contraseña
-password-strength-balloon-min-length = Al menos 8 caracteres
-password-strength-balloon-not-email = Diferente a tu dirección de correo electrónico
-password-strength-balloon-not-common = Que no sea una contraseña de uso común
-password-strength-balloon-stay-safe-tips = Mantente seguro — no reutilices las contraseñas. Descubre más consejos para <linkExternal>crear contraseñas seguras</linkExternal>.
 
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password

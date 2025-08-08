@@ -382,7 +382,7 @@ passwordReset-title-2 = La password è stata reimpostata
 passwordReset-description-2 = Hai reimpostato la password del tuo { -product-mozilla-account } su:
 passwordResetAccountRecovery-subject-2 = La password è stata reimpostata
 passwordResetAccountRecovery-title-3 = La password è stata reimpostata
-# Followed by details on the device and date/time of the password reset.
+# Followed by details on the device, location, and date/time of the password reset.
 passwordResetAccountRecovery-description-3 = Hai utilizzato la chiave di recupero dell’account per reimpostare la password dell’{ -product-mozilla-account } su:
 passwordResetAccountRecovery-information = Ti abbiamo disconnesso da tutti i tuoi dispositivi sincronizzati. Abbiamo creato una nuova chiave di recupero dell’account per sostituire quella che hai utilizzato. Puoi modificarla nelle impostazioni del tuo account.
 # After the colon there is a link to account settings
@@ -516,7 +516,7 @@ postVerifySecondary-content-3 = L’indirizzo email { $secondaryEmail } è stato
 postVerifySecondary-action = Gestisci account
 recovery-subject = Reimposta la tua password
 recovery-title-2 = Password dimenticata?
-# Information on the device, date and time of the request that triggered the email follows.
+# Information on the device, location, and date and time of the request that triggered the email follows.
 recovery-request-origin-2 = Abbiamo ricevuto una richiesta di modifica della password per il tuo { -product-mozilla-account } da:
 recovery-new-password-button = Fai clic sul pulsante in basso per generare una nuova password. Questo link scadrà entro la prossima ora.
 recovery-copy-paste = Copia e incolla il seguente URL nel tuo browser per generare una nuova password. Questo link scadrà entro la prossima ora.

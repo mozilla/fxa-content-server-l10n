@@ -386,7 +386,7 @@ passwordReset-title-2 = Zmieniono hasło
 passwordReset-description-2 = Zmieniono hasło { -product-mozilla-account(case: "gen", capitalization: "lower") } na urządzeniu:
 passwordResetAccountRecovery-subject-2 = Zmieniono hasło
 passwordResetAccountRecovery-title-3 = Zmieniono hasło
-# Followed by details on the device and date/time of the password reset.
+# Followed by details on the device, location, and date/time of the password reset.
 passwordResetAccountRecovery-description-3 = Użyto klucza odzyskiwania konta, aby zmienić hasło { -product-mozilla-account(case: "gen", capitalization: "lower") } na urządzeniu:
 passwordResetAccountRecovery-information = Wylogowaliśmy Cię ze wszystkich synchronizowanych urządzeń. Utworzyliśmy nowy klucz odzyskiwania konta, aby zastąpić ten zużyty. Można go zmienić w ustawieniach konta.
 # After the colon there is a link to account settings
@@ -520,7 +520,7 @@ postVerifySecondary-content-3 = Pomyślnie potwierdzono { $secondaryEmail } jako
 postVerifySecondary-action = Zarządzaj kontem
 recovery-subject = Zmień hasło
 recovery-title-2 = Nie pamiętasz hasła?
-# Information on the device, date and time of the request that triggered the email follows.
+# Information on the device, location, and date and time of the request that triggered the email follows.
 recovery-request-origin-2 = Otrzymaliśmy prośbę o zmianę hasła Twojego { -product-mozilla-account(case: "gen", capitalization: "lower") } z urządzenia:
 recovery-new-password-button = Utwórz nowe hasło, klikając poniższy przycisk. Ten odnośnik wygaśnie w ciągu godziny.
 recovery-copy-paste = Utwórz nowe hasło, kopiując i wklejając poniższy adres do przeglądarki. Ten odnośnik wygaśnie w ciągu godziny.

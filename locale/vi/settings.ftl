@@ -129,26 +129,6 @@ device-info-browser-os = { $browserName } trên { $genericOSName }
 # The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
 device-info-ip-address = Địa chỉ IP: { $ipAddress }
 
-## FormPasswordWithBalloons
-
-signup-new-password-label =
-    .label = Mật khẩu
-signup-confirm-password-label =
-    .label = Nhập lại mật khẩu
-signup-submit-button = Tạo tài khoản
-post-verify-set-password-submit-button = Bắt đầu đồng bộ hóa
-form-reset-password-with-balloon-new-password =
-    .label = Mật khẩu mới
-form-reset-password-with-balloon-confirm-password =
-    .label = Nhập lại mật khẩu
-form-reset-password-with-balloon-submit-button = Đặt lại mật khẩu
-form-reset-password-with-balloon-match-error = Mật khẩu không khớp
-form-password-sr-too-short-message = Mật khẩu phải chứa ít nhất 8 ký tự.
-form-password-sr-not-email-message = Mật khẩu không được chứa địa chỉ email của bạn.
-form-password-sr-not-common-message = Mật khẩu không trùng với các mật khẩu được sử dụng phổ biến.
-form-password-sr-requirements-met = Mật khẩu đã nhập cần đáp ứng tất cả các yêu cầu về mật khẩu.
-form-password-sr-passwords-match = Mật khẩu đã nhập đã khớp.
-
 ## FormPasswordInlineCriteria
 
 form-password-with-inline-criteria-signup-new-password-label =
@@ -368,14 +348,6 @@ error-bad-request = Yêu cầu không hợp lệ
 
 password-info-balloon-why-password-info = Bạn cần mật khẩu này để truy cập mọi dữ liệu được mã hóa mà bạn lưu trữ với chúng tôi.
 password-info-balloon-reset-risk-info = Đặt lại có nghĩa là có khả năng mất dữ liệu như mật khẩu và dấu trang.
-
-## PasswordStrengthBalloon component
-
-password-strength-balloon-heading = Yêu cầu mật khẩu
-password-strength-balloon-min-length = Ít nhất 8 ký tự
-password-strength-balloon-not-email = Không phải địa chỉ email của bạn
-password-strength-balloon-not-common = Không phải mật khẩu thường được sử dụng
-password-strength-balloon-stay-safe-tips = Giữ an toàn — Không sử dụng lại mật khẩu. Xem thêm các mẹo để <LinkExternal>tạo mật khẩu mạnh</LinkExternal>.
 
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password
@@ -1207,7 +1179,6 @@ tfa-row-disable-modal-explain-1 =
 # Shown in an alert bar after two-step authentication is disabled
 tfa-row-disabled-2 = Đã tắt xác thực hai bước
 tfa-row-cannot-disable-2 = Không thể tắt xác thực hai bước
-tfa-row-disable-cannot-verify-session = Xin lỗi, đã xảy ra sự cố khi xác minh phiên của bạn
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account

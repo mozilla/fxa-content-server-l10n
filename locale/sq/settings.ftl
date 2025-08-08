@@ -116,25 +116,6 @@ device-info-browser-os = { $browserName } në { $genericOSName }
 # The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
 device-info-ip-address = Adresë IP: { $ipAddress }
 
-## FormPasswordWithBalloons
-
-signup-new-password-label =
-    .label = Fjalëkalim
-signup-confirm-password-label =
-    .label = Rijepeni fjalëkalimin
-signup-submit-button = Krijoje llogarinë
-form-reset-password-with-balloon-new-password =
-    .label = Fjalëkalim i ri
-form-reset-password-with-balloon-confirm-password =
-    .label = Rijepni fjalëkalimin
-form-reset-password-with-balloon-submit-button = Ricaktoni fjalëkalimin
-form-reset-password-with-balloon-match-error = Fjalëkalimet nuk përputhen
-form-password-sr-too-short-message = Fjalëkalimi duhet të përmbajë të paktën 8 shenja.
-form-password-sr-not-email-message = Fjalëkalimi s’duhet të përmbajë adresën tuaj email.
-form-password-sr-not-common-message = Fjalëkalimi s’duhet të jetë një fjalëkalim i përdorur rëndom.
-form-password-sr-requirements-met = Fjalëkalimi i dhënë respekton krejt domosdoshmëritë për fjalëkalim.
-form-password-sr-passwords-match = Fjalëkalimet e dhënë përputhen.
-
 ## FormPasswordInlineCriteria
 
 form-password-with-inline-criteria-signup-new-password-label =
@@ -352,14 +333,6 @@ error-bad-request = Kërkesë e Gabuar
 
 password-info-balloon-why-password-info = Ky fjalëkalim ju duhet për të hyrë në çfarëdo të dhënash të fshehtëzuara që depozitoni me ne.
 password-info-balloon-reset-risk-info = Ricaktimi do të thotë humbje potenciale të dhënash të tilla si fjalëkalime dhe faqerojtës.
-
-## PasswordStrengthBalloon component
-
-password-strength-balloon-heading = Domosdoshmëri fjalëkalimi
-password-strength-balloon-min-length = Të paktën 8 shenja
-password-strength-balloon-not-email = Jo adresën tuaj email
-password-strength-balloon-not-common = Jo një fjalëkalim të përdorur rëndom
-password-strength-balloon-stay-safe-tips = Jini të parrezik — Mos ripërdorni fjalëkalime. Shihni më tepër ndihmëza se si <LinkExternal>të krijohen fjalëkalime të fuqishëm</LinkExternal>.
 
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password

@@ -375,7 +375,7 @@ passwordReset-title-2 = Tvoja je lozinka resetirana
 passwordReset-description-2 = Resetirao/la si svoju { -product-mozilla-account } lozinku na:
 passwordResetAccountRecovery-subject-2 = Tvoja lozinka je resetirana
 passwordResetAccountRecovery-title-3 = Tvoja je lozinka resetirana
-# Followed by details on the device and date/time of the password reset.
+# Followed by details on the device, location, and date/time of the password reset.
 passwordResetAccountRecovery-description-3 = Koristio/la si svoj ključ za obnavljanje računa za resetiranje { -product-mozilla-account } lozinke na:
 passwordResetAccountRecovery-information = Odjavili smo te sa svih tvojih sinkroniziranih uređaja. Generirali smo novi ključ za obnavljanje računa koji će zamijeniti prijašnji ključ. Možeš ga promijeniti u postavkama računa.
 # After the colon there is a link to account settings
@@ -478,7 +478,7 @@ postVerifySecondary-title = Dodana je sekundarna e-mail adresa
 postVerifySecondary-action = Upravljaj računom
 recovery-subject = Resetiraj lozinku
 recovery-title-2 = Zaboravio/la si lozinku?
-# Information on the device, date and time of the request that triggered the email follows.
+# Information on the device, location, and date and time of the request that triggered the email follows.
 recovery-request-origin-2 = Primili smo zahtjev za promjenu lozinke na tvom { -product-mozilla-account } od:
 recovery-action = Stvori novu lozinku
 #  Variables:

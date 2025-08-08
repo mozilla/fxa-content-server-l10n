@@ -129,26 +129,6 @@ device-info-browser-os = { $genericOSName } 上的 { $browserName }
 # The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
 device-info-ip-address = IP 地址：{ $ipAddress }
 
-## FormPasswordWithBalloons
-
-signup-new-password-label =
-    .label = 密码
-signup-confirm-password-label =
-    .label = 再次输入密码
-signup-submit-button = 创建账户
-post-verify-set-password-submit-button = 开始同步
-form-reset-password-with-balloon-new-password =
-    .label = 新密码
-form-reset-password-with-balloon-confirm-password =
-    .label = 重新输入密码
-form-reset-password-with-balloon-submit-button = 重置密码
-form-reset-password-with-balloon-match-error = 密码不匹配
-form-password-sr-too-short-message = 密码至少需要包含 8 个字符。
-form-password-sr-not-email-message = 密码中不能包含您的邮箱地址。
-form-password-sr-not-common-message = 不能使用常见密码。
-form-password-sr-requirements-met = 输入的密码符合各项密码要求。
-form-password-sr-passwords-match = 两次输入的密码一致。
-
 ## FormPasswordInlineCriteria
 
 form-password-with-inline-criteria-signup-new-password-label =
@@ -368,14 +348,6 @@ error-bad-request = 错误请求
 
 password-info-balloon-why-password-info = 需要使用此密码才能访问您存储在我们服务器上的加密数据。
 password-info-balloon-reset-risk-info = 重置后可能会丢失密码、书签等数据。
-
-## PasswordStrengthBalloon component
-
-password-strength-balloon-heading = 密码要求
-password-strength-balloon-min-length = 至少 8 个字符
-password-strength-balloon-not-email = 不可以与邮箱地址相同
-password-strength-balloon-not-common = 不可以是常见密码
-password-strength-balloon-stay-safe-tips = 安全无小事——杜绝重复使用密码。请查看有关<LinkExternal>创建强密码</LinkExternal>的更多提示。
 
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password
@@ -1186,7 +1158,6 @@ tfa-row-disable-modal-explain-1 = 您将无法撤销此操作。您也可选择<
 # Shown in an alert bar after two-step authentication is disabled
 tfa-row-disabled-2 = 已禁用两步验证
 tfa-row-cannot-disable-2 = 无法禁用两步验证
-tfa-row-disable-cannot-verify-session = 抱歉，确认您的会话时出现问题
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account

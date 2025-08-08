@@ -61,12 +61,6 @@ payment-plan-next-invoice = Propera factura: { $nextInvoiceDateOnly }
 payment-method = Forma de pagament:
 payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
 
-## Variables:
-##  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
-##  $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
-##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
-
-
 ##
 
 subscriptionSupport = Teniu dutes sobre la subscripció? L’<a data-l10n-name="subscriptionSupportUrl">equip d’assistència</a> és aquí per a ajudar-vos.
@@ -102,12 +96,6 @@ postVerifySecondary-title = S’ha afegit l‘adreça electrònica secundària
 postVerifySecondary-action = Gestiona el compte
 recovery-subject = Reinicia la contrasenya
 recovery-action = Crea una nova contrasenya
-
-## Variables
-##   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-##   $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
-##   $invoiceDateOnly (String) - The date of the invoice, e.g. 01/20/2016
-
 
 ## Variables:
 ## $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00

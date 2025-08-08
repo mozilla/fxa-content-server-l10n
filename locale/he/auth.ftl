@@ -363,7 +363,7 @@ passwordReset-title-2 = הססמה שלך אופסה
 passwordReset-description-2 = איפסת את הססמה של { -product-mozilla-account(case: "the") } שלך ב:
 passwordResetAccountRecovery-subject-2 = הססמה שלך אופסה
 passwordResetAccountRecovery-title-3 = הססמה שלך אופסה
-# Followed by details on the device and date/time of the password reset.
+# Followed by details on the device, location, and date/time of the password reset.
 passwordResetAccountRecovery-description-3 = השתמשת במפתח לשחזור החשבון שלך כדי לאפס את הססמה של { -product-mozilla-account(case: "the") } שלך ב:
 passwordResetAccountRecovery-information = ניתקנו אותך מכל המכשירים המסונכרנים שלך. יצרנו מפתח חדש לשחזור החשבון שלך כדי להחליף את זה שהשתמשת בו. באפשרות לשנות אותו בהגדרות החשבון שלך.
 # After the colon there is a link to account settings
@@ -487,7 +487,7 @@ postVerifySecondary-content-3 = אימתת בהצלחה את { $secondaryEmail }
 postVerifySecondary-action = ניהול חשבון
 recovery-subject = איפוס הססמה שלך
 recovery-title-2 = שכחת את הססמה שלך?
-# Information on the device, date and time of the request that triggered the email follows.
+# Information on the device, location, and date and time of the request that triggered the email follows.
 recovery-request-origin-2 = קיבלנו בקשה לשינוי ססמה ב{ -product-mozilla-account(case: "the") } שלך מ:
 recovery-new-password-button = ניתן ליצור ססמה חדשה על־ידי לחיצה על הכפתור שלהלן. קישור זה יפוג בשעה הקרובה.
 recovery-copy-paste = ניתן ליצור ססמה חדשה על־ידי העתקה והדבקת הקישור שלהלן בדפדפן שלך. קישור זה יפוג בשעה הקרובה.

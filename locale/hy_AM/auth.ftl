@@ -41,12 +41,6 @@ payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
 #  $lastFour (String) - The last four digits of the credit card, e.g. 5309
 credit-card-ending-in = { $cardName } քարտը՝ ավարտվում է { $lastFour }-ով
 
-## Variables:
-##  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
-##  $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
-##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
-
-
 ##
 
 #  Variables:

@@ -141,26 +141,6 @@ device-info-browser-os = { $genericOSName } жүйесінде { $browserName }
 # The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
 device-info-ip-address = IP адресі: { $ipAddress }
 
-## FormPasswordWithBalloons
-
-signup-new-password-label =
-    .label = Пароль
-signup-confirm-password-label =
-    .label = Парольді қайталау
-signup-submit-button = Тіркелгіні жасау
-post-verify-set-password-submit-button = Синхрондауды бастау
-form-reset-password-with-balloon-new-password =
-    .label = Жаңа пароль
-form-reset-password-with-balloon-confirm-password =
-    .label = Парольді қайта енгізіңіз
-form-reset-password-with-balloon-submit-button = Парольді тастау
-form-reset-password-with-balloon-match-error = Парольдер өзара сәйкес келмейді
-form-password-sr-too-short-message = Пароль кемінде 8 таңбадан тұруы керек.
-form-password-sr-not-email-message = Пароль ішінде сіздің эл. пошта адресіңіз болмауы керек.
-form-password-sr-not-common-message = Пароль жиі қолданылатын пароль болмауы керек.
-form-password-sr-requirements-met = Енгізілген пароль парольдерге қойылатын барлық шарттарға сай келеді.
-form-password-sr-passwords-match = Енгізілген парольдер өзара сәйкес келеді.
-
 ## FormPasswordInlineCriteria
 
 form-password-with-inline-criteria-signup-new-password-label =
@@ -380,14 +360,6 @@ error-bad-request = Жарамсыз сұраным
 
 password-info-balloon-why-password-info = Бізде сақтайтын кез келген шифрленген деректерге қол жеткізу үшін сізге бұл пароль керек.
 password-info-balloon-reset-risk-info = Қалпына келтіру әрекеті парольдер мен бетбелгілер сияқты деректерді жоғалту мүмкіндігін білдіреді.
-
-## PasswordStrengthBalloon component
-
-password-strength-balloon-heading = Парольге қойылатын талаптар
-password-strength-balloon-min-length = Кемінде 8 таңба
-password-strength-balloon-not-email = Сіздің эл. пошта адресіңіз емес
-password-strength-balloon-not-common = Жиі қолданылатын пароль емес
-password-strength-balloon-stay-safe-tips = Қауіпсіз болыңыз — парольдерді қайта қолданбаңыз. <LinkExternal>Мықты парольдерді жасау</LinkExternal> бойынша қосымша кеңестерді қараңыз.
 
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password

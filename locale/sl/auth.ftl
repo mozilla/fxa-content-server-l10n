@@ -380,7 +380,7 @@ passwordReset-title-2 = Vaše geslo je bilo ponastavljeno
 passwordReset-description-2 = Ponastavili ste geslo { -product-mozilla-account(sklon: "rodilnik") } z naslednje naprave:
 passwordResetAccountRecovery-subject-2 = Vaše geslo je bilo ponastavljeno
 passwordResetAccountRecovery-title-3 = Vaše geslo je bilo ponastavljeno
-# Followed by details on the device and date/time of the password reset.
+# Followed by details on the device, location, and date/time of the password reset.
 passwordResetAccountRecovery-description-3 = Z uporabo ključa za obnovitev računa ste ponastavili geslo { -product-mozilla-account(sklon: "rodilnik") } z naslednje naprave:
 passwordResetAccountRecovery-information = Odjavili smo vas iz vseh sinhroniziranih naprav. Ustvarili smo nov ključ za obnovitev računa, ki je nadomestil uporabljenega dosedanjega. Lahko ga spremenite v nastavitvah računa.
 # After the colon there is a link to account settings
@@ -514,7 +514,7 @@ postVerifySecondary-content-3 = Uspešno ste potrdili { $secondaryEmail } kot po
 postVerifySecondary-action = Upravljanje računa
 recovery-subject = Ponastavite vaše geslo
 recovery-title-2 = Ali ste pozabili geslo?
-# Information on the device, date and time of the request that triggered the email follows.
+# Information on the device, location, and date and time of the request that triggered the email follows.
 recovery-request-origin-2 = Prejeli smo zahtevo za spremembo gesla vašega { -product-mozilla-account(sklon: "rodilnik") } z:
 recovery-new-password-button = Ustvarite novo geslo s klikom na spodnji gumb. Ta povezava bo potekla v naslednji uri.
 recovery-copy-paste = Ustvarite novo geslo na spodnjem naslovu, ki ga kopirajte in prilepite v brskalnik. Ta povezava bo potekla v naslednji uri.

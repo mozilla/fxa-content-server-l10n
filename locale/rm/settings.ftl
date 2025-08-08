@@ -116,25 +116,6 @@ device-info-browser-os = { $browserName } sin { $genericOSName }
 # The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
 device-info-ip-address = Adressa IP: { $ipAddress }
 
-## FormPasswordWithBalloons
-
-signup-new-password-label =
-    .label = Pled-clav
-signup-confirm-password-label =
-    .label = Repeter il pled-clav
-signup-submit-button = Crear in conto
-form-reset-password-with-balloon-new-password =
-    .label = Nov pled-clav
-form-reset-password-with-balloon-confirm-password =
-    .label = Reendatar il pled-clav
-form-reset-password-with-balloon-submit-button = Redefinir il pled-clav
-form-reset-password-with-balloon-match-error = Ils pleds-clav na correspundan betg
-form-password-sr-too-short-message = Il pled-clav sto cuntegnair almain 8 caracters
-form-password-sr-not-email-message = Il pled-clav na dastga betg cuntegnair tia adressa dad e-mail.
-form-password-sr-not-common-message = Il pled-clav na dastga betg esser in pled-clav frequent.
-form-password-sr-requirements-met = Il pled-clav endatà resguarda tut ils criteris per pleds-clav.
-form-password-sr-passwords-match = Ils pleds-clav endatads èn identics.
-
 ## FormPasswordInlineCriteria
 
 form-password-with-inline-criteria-signup-new-password-label =
@@ -352,14 +333,6 @@ error-bad-request = Dumonda nuncorrecta
 
 password-info-balloon-why-password-info = Ti dovras quest pled-clav per acceder a las datas criptadas che nus memorisain per tai.
 password-info-balloon-reset-risk-info = Ina reinizialisaziun po avair per consequenza che ti perdas datas sco ils pleds-clav ed ils segnapaginas.
-
-## PasswordStrengthBalloon component
-
-password-strength-balloon-heading = Criteris per in pled-clav
-password-strength-balloon-min-length = Almain 8 caracters
-password-strength-balloon-not-email = Betg tia adressa dad e-mail
-password-strength-balloon-not-common = Betg in pled-clav frequent
-password-strength-balloon-stay-safe-tips = Ta protegia – na reutilisescha nagins pleds-clav. Ulteriurs cussegls: <LinkExternal>crear ferms pleds-clav</LinkExternal>.
 
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password

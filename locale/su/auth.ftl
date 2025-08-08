@@ -178,12 +178,6 @@ subscriptionFirstInvoiceDiscount-content-discount-repeating = Diskon { $discount
 #  $invoiceTaxAmount (String) - The amount of the tax of the subscription invoice, including currency, e.g. $2.00
 subscriptionCharges-content-tax = Pajeg & waragad: { $invoiceTaxAmount }
 
-## Variables:
-##  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
-##  $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
-##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
-
-
 ##
 
 subscriptionSupport = Patalékan ngeunaan langganan anjeun?<a data-l10n-name="subscriptionSupportUrl">Tim pangdeudeul</a> urang siap ngabantuan.

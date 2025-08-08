@@ -206,12 +206,6 @@ subscriptionFirstInvoiceDiscount-content-discount-repeating = { $discountDuratio
 #  $invoiceTaxAmount (String) - The amount of the tax of the subscription invoice, including currency, e.g. $2.00
 subscriptionCharges-content-tax = Zergak eta tasak: { $invoiceTaxAmount }
 
-## Variables:
-##  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
-##  $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
-##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
-
-
 ##
 
 subscriptionSupport = Zure harpidetzari buruzko galderarik ba al duzu? Gure <a data-l10n-name="subscriptionSupportUrl"> laguntza taldea </a> zuri laguntzeko prest dago.
@@ -345,7 +339,7 @@ passwordReset-title-2 = Zure pasahitza berrezarri egin da
 passwordReset-description-2 = Zure { -product-mozilla-account } pasahitza berrezarri zenuen:
 passwordResetAccountRecovery-subject-2 = Zure pasahitza berrezarri egin da
 passwordResetAccountRecovery-title-3 = Zure pasahitza berrezarri egin da
-# Followed by details on the device and date/time of the password reset.
+# Followed by details on the device, location, and date/time of the password reset.
 passwordResetAccountRecovery-description-3 = Zure { -product-mozilla-account } kontua berreskuratzeko gakoa erabili duzu pasahitza eguneratzeko data honetan:
 passwordResetAccountRecovery-information = Sinkronizatutako gailu guztietatan amaitu dugu saioa. Kontua berreskuratzeko gako berri bat sortu dugu erabili zenuena ordezkatzeko. Zure kontuaren ezarpenetan alda dezakezu.
 # After the colon there is a link to account settings
@@ -456,7 +450,7 @@ postVerifySecondary-content-3 = Behar bezala berretsi duzu { $secondaryEmail } z
 postVerifySecondary-action = Kudeatu kontua
 recovery-subject = Berrezarri pasahitza
 recovery-title-2 = Pasahitza ahaztu duzu?
-# Information on the device, date and time of the request that triggered the email follows.
+# Information on the device, location, and date and time of the request that triggered the email follows.
 recovery-request-origin-2 = Zure { -product-mozilla-account } pasahitza aldatzeko eskaera jaso dugu hemendik:
 recovery-new-password-button = Sortu pasahitz berri bat beheko botoian klik eginez. Esteka hau hurrengo ordu batean iraungiko da.
 recovery-copy-paste = Sortu pasahitz berri bat kopiatu eta itsatsi beheko URLa zure arakatzailean. Esteka hau hurrengo ordu bete barru iraungiko da.

@@ -116,25 +116,6 @@ device-info-browser-os = { $browserName } ใน { $genericOSName }
 # The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
 device-info-ip-address = ที่อยู่ IP: { $ipAddress }
 
-## FormPasswordWithBalloons
-
-signup-new-password-label =
-    .label = รหัสผ่าน
-signup-confirm-password-label =
-    .label = ทวนรหัสผ่าน
-signup-submit-button = สร้างบัญชี
-form-reset-password-with-balloon-new-password =
-    .label = รหัสผ่านใหม่
-form-reset-password-with-balloon-confirm-password =
-    .label = ใส่รหัสผ่านอีกครั้ง
-form-reset-password-with-balloon-submit-button = ตั้งรหัสผ่านใหม่
-form-reset-password-with-balloon-match-error = รหัสผ่านไม่ตรงกัน
-form-password-sr-too-short-message = รหัสผ่านต้องมีอย่างน้อย 8 ตัวอักษร
-form-password-sr-not-email-message = รหัสผ่านต้องไม่มีที่อยู่อีเมลของคุณ
-form-password-sr-not-common-message = รหัสผ่านต้องไม่ใช่รหัสผ่านที่ใช้กันทั่วไป
-form-password-sr-requirements-met = รหัสผ่านที่ใส่เป็นไปตามเงื่อนไขทั้งหมด
-form-password-sr-passwords-match = รหัสผ่านที่ใส่ตรงกัน
-
 ## FormPasswordInlineCriteria
 
 form-password-with-inline-criteria-signup-new-password-label =
@@ -348,14 +329,6 @@ error-bad-request = คำขอไม่ถูกต้อง
 
 password-info-balloon-why-password-info = คุณต้องใช้รหัสผ่านนี้เพื่อเข้าถึงข้อมูลที่เข้ารหัสใดๆ ที่คุณเก็บไว้กับเรา
 password-info-balloon-reset-risk-info = การตั้งรหัสผ่านใหม่อาจทำให้สูญเสียข้อมูล เช่น รหัสผ่าน ที่คั่นหน้า
-
-## PasswordStrengthBalloon component
-
-password-strength-balloon-heading = ข้อกำหนดรหัสผ่าน
-password-strength-balloon-min-length = อย่างน้อย 8 ตัวอักษร
-password-strength-balloon-not-email = ไม่ใช่ที่อยู่อีเมลของคุณ
-password-strength-balloon-not-common = ไม่ใช่รหัสผ่านที่พบบ่อย
-password-strength-balloon-stay-safe-tips = รักษาความปลอดภัยด้วยการไม่ใช้รหัสผ่านซ้ำ ดูเคล็ดลับในการ<LinkExternal>สร้างรหัสผ่านที่รัดกุม</LinkExternal>เพิ่ม
 
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password

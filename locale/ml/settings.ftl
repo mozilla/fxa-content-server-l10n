@@ -99,25 +99,6 @@ device-info-browser-os = { $genericOSName }-ൽ { $browserName }
 # The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
 device-info-ip-address = ഐപി വിലാസം: { $ipAddress }
 
-## FormPasswordWithBalloons
-
-signup-new-password-label =
-    .label = ഒളിവാക്കു്
-signup-confirm-password-label =
-    .label = ഒളിവാക്ക് വീണ്ടും എഴുതുക
-signup-submit-button = അക്കൗണ്ടു് ഉണ്ടാക്കുക
-form-reset-password-with-balloon-new-password =
-    .label = പുതിയ ഒളിവാക്കു്
-form-reset-password-with-balloon-confirm-password =
-    .label = ഒളിവാക്കു് വീണ്ടും നല്കുക:
-form-reset-password-with-balloon-submit-button = ഒളിവാക്കു് പുനസജ്ജീകരിക്കുക
-form-reset-password-with-balloon-match-error = ഒളിവാക്കുകൾ പൊരുത്തപ്പെടുന്നില്ല
-form-password-sr-too-short-message = ഒളിവാക്കിൽ 8 പ്രതീകങ്ങളെങ്കിലും ഉണ്ടാവണം.
-form-password-sr-not-email-message = ഒളിവാക്കിൽ താങ്ങളുടെ ഇതപാൽവിലാസം ഉൾപ്പെടരുതു്
-form-password-sr-not-common-message = ഒളിവാക്കു് ഒരു സാധാരണമായി ഉപയോഗിക്കപ്പെട്ട ഒളിവാക്കു് ആവരുതു്
-form-password-sr-requirements-met = നല്കിയ ഒളിവാക്കു് എല്ലാ ആവശ്യങ്ങളെയും പൂൎതീകരിക്കുന്നു.
-form-password-sr-passwords-match = നല്കിയ ഒളിവാക്കുകൾ പൊരുത്തപ്പെടുന്നു
-
 ## FormPasswordInlineCriteria
 
 form-password-with-inline-criteria-signup-new-password-label =
@@ -289,13 +270,6 @@ primary-email-confirmation-link-reused = പ്രാഥമിക ഇതപാ�
 signin-confirmation-link-reused = പ്രവേശനം ഉറപ്പിച്ചു
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = കേടായ അഭ്യൎത്ഥനം
-
-## PasswordStrengthBalloon component
-
-password-strength-balloon-heading = ഒളിവാക്കു് ആവശ്യങ്ങൾ
-password-strength-balloon-min-length = 8 പ്രതീകങ്ങളെങ്കിലും
-password-strength-balloon-not-email = താങ്ങളുടെ ഇതപാൽ വിലാസമല്ല
-password-strength-balloon-not-common = സാധാരണമുപയോഗപ്പെട്ട ഒളിവാക്കല്ല
 
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password

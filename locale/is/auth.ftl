@@ -218,12 +218,6 @@ subscriptionFirstInvoiceDiscount-content-discount-repeating = { $discountDuratio
 #  $invoiceTaxAmount (String) - The amount of the tax of the subscription invoice, including currency, e.g. $2.00
 subscriptionCharges-content-tax = Skattar og gjöld: { $invoiceTaxAmount }
 
-## Variables:
-##  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
-##  $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
-##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
-
-
 ##
 
 subscriptionSupport = Spurningar varðandi áskriftina þína? <a data-l10n-name="subscriptionSupportUrl">Aðstoðarteymið</a> okkar er hér til að hjálpa þér.
@@ -357,7 +351,7 @@ passwordReset-title-2 = Lykilorðið þitt var endurstillt
 passwordReset-description-2 = Þú endurstilltir { -product-mozilla-account } lykilorðið þitt á:
 passwordResetAccountRecovery-subject-2 = Lykilorðið þitt var endurstillt
 passwordResetAccountRecovery-title-3 = Lykilorðið þitt var endurstillt
-# Followed by details on the device and date/time of the password reset.
+# Followed by details on the device, location, and date/time of the password reset.
 passwordResetAccountRecovery-description-3 = Þú notaðir endurheimtulykil reikningsins þíns til að uppfæra { -product-mozilla-account } lykilorðið þitt á:
 passwordResetAccountRecovery-information = Við skráðum þig út úr öllum samstilltu tækjunum þínum. Við bjuggum til nýjan endurheimtulykil í stað þess sem þú notaðir. Þú getur breytt þessu í reikningsstillingunum þínum.
 # After the colon there is a link to account settings
@@ -476,7 +470,7 @@ postVerifySecondary-content-3 = Þú hefur staðfest { $secondaryEmail } sem auk
 postVerifySecondary-action = Sýsla með reikning
 recovery-subject = Endurstilla lykilorð
 recovery-title-2 = Gleymt lykilorð?
-# Information on the device, date and time of the request that triggered the email follows.
+# Information on the device, location, and date and time of the request that triggered the email follows.
 recovery-request-origin-2 = Við fengum beiðni um breytingu á lykilorði á { -product-mozilla-account }-reikningnum þínum frá:
 recovery-new-password-button = Búðu til nýtt lykilorð með því að smella á hnappinn hér fyrir neðan. Þessi tengill mun renna út innan klukkustundar.
 recovery-copy-paste = Búðu til nýtt lykilorð með því að afrita og líma slóðina hér að neðan í vafrann þinn. Þessi tengill mun renna út innan klukkustundar.

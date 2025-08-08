@@ -112,25 +112,6 @@ device-info-browser-os = { $genericOSName } ਰਾਹੀਂ { $browserName }
 # The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
 device-info-ip-address = IP ਸਿਰਨਾਵਾਂ: { $ipAddress }
 
-## FormPasswordWithBalloons
-
-signup-new-password-label =
-    .label = ਪਾਸਵਰਡ
-signup-confirm-password-label =
-    .label = ਪਾਸਵਰਡ ਦੁਹਰਾਉ
-signup-submit-button = ਖਾਤਾ ਬਣਾਓ
-form-reset-password-with-balloon-new-password =
-    .label = ਨਵਾਂ ਪਾਸਵਰਡ
-form-reset-password-with-balloon-confirm-password =
-    .label = ਪਾਸਵਰਡ ਮੁੜ ਲਿਖੋ
-form-reset-password-with-balloon-submit-button = ਪਾਸਵਰਡ ਮੁੜ-ਸੈੱਟ
-form-reset-password-with-balloon-match-error = ਪਾਸਵਰਡ ਮਿਲਦੇ ਨਹੀਂ ਹਨ
-form-password-sr-too-short-message = ਪਾਸਵਰਡ ਘੱਟੋ-ਘੱਟ 8 ਅੱਖਰਾਂ ਦਾ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ।
-form-password-sr-not-email-message = ਪਾਸਵਰਡ ਤੁਹਾਡਾ ਈਮੇਲ ਸਿਰਨਾਵਾਂ ਨਹੀਂ ਰੱਖਦਾ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ।
-form-password-sr-not-common-message = ਪਾਸਵਰਡ ਆਮ ਤੌਰ ਉੱਤੇ ਵਰਤਿਆ ਪਾਸਵਰਡ ਨਹੀਂ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ।
-form-password-sr-requirements-met = ਦਿੱਤਾ ਪਾਸਵਰਡ ਸਾਰੀਆਂ ਪਾਸਵਰਡ ਸ਼ਰਤਾਂ ਨੂੰ ਪੂਰਾ ਕਰਦਾ ਹੈ।
-form-password-sr-passwords-match = ਦਿੱਤੇ ਗਏ ਪਾਸਵਰਡ ਮਿਲਦੇ ਹਨ।
-
 ## FormPasswordInlineCriteria
 
 form-password-with-inline-criteria-signup-new-password-label =
@@ -335,14 +316,6 @@ error-bad-request = ਖ਼ਰਾਬ ਬੇਨਤੀ
 
 password-info-balloon-why-password-info = ਸਾਡੇ ਕੋਲ ਸੰਭਾਲੇ ਹੋਏ ਤੁਹਾਡੇ ਕਿਸੇ ਵੀ ਇੰਕ੍ਰਿਪਟ ਹੋਏ ਡਾਟੇ ਨੂੰ ਵਰਤਣ ਲਈ ਤੁਹਾਨੂੰ ਇਹ ਪਾਸਵਰਡ ਚਾਹੀਦਾ ਹੈ।
 password-info-balloon-reset-risk-info = ਮੁੜ-ਸੈੱਟ ਕਰਨ ਦਾ ਅਰਥ ਹੈ ਕਿ ਪਾਸਵਰਡ ਤੇ ਬੁੱਕਮਾਰਕਾਂ ਵਰਗੇ ਡੇਟੇ ਨੂੰ ਸੰਭਾਵਿਤ ਤੌਰ ਉੱਤੇ ਗੁਆ ਦੇਣਾ।
-
-## PasswordStrengthBalloon component
-
-password-strength-balloon-heading = ਪਾਸਵਰਡ ਲਈ ਜ਼ਰੂਰਤਾਂ
-password-strength-balloon-min-length = ਘੱਟੋ-ਘੱਟ 8 ਅੱਖਰ
-password-strength-balloon-not-email = ਤੁਹਾਡਾ ਈਮੇਲ ਸਿਰਨਾਵਾਂ ਨਹੀਂ ਹੈ
-password-strength-balloon-not-common = ਕੋਈ ਆਮ ਵਰਤਿਆ ਪਾਸਵਰਡ ਨਹੀਂ ਹੈ
-password-strength-balloon-stay-safe-tips = ਸੁਰੱਖਿਅਤ ਰਹੋ — ਪਾਸਵਰਡ ਦੁਬਾਰਾ ਨਾ ਵਰਤੋਂ। <LinkExternal>ਮਜ਼ਬੂਤ ਪਾਸਵਰਡ ਬਣਾਓ</LinkExternal> ਨੂੰ ਹੋਰ ਸੁਝਾਆਵਾਂ ਵਾਸਤੇ ਵੇਖੋ।
 
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password

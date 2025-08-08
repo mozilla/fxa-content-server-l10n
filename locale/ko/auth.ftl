@@ -379,7 +379,7 @@ passwordReset-title-2 = 비밀번호가 재설정되었습니다
 passwordReset-description-2 = { -product-mozilla-account } 비밀번호 재설정 정보:
 passwordResetAccountRecovery-subject-2 = 비밀번호가 재설정되었습니다.
 passwordResetAccountRecovery-title-3 = 비밀번호가 재설정되었습니다
-# Followed by details on the device and date/time of the password reset.
+# Followed by details on the device, location, and date/time of the password reset.
 passwordResetAccountRecovery-description-3 = 계정 복구 키를 사용한 { -product-mozilla-account } 비밀번호 재설정 정보:
 passwordResetAccountRecovery-information = 동기화된 모든 기기에서 로그아웃되었습니다. 기존의 계정 복구 키를 대체할 새로운 계정 복구 키를 만들었습니다. 계정 설정에서 변경할 수 있습니다.
 # After the colon there is a link to account settings
@@ -513,7 +513,7 @@ postVerifySecondary-content-3 = { -product-mozilla-account }에서 { $secondaryE
 postVerifySecondary-action = 계정 관리
 recovery-subject = 비밀번호 재설정
 recovery-title-2 = 비밀번호를 잊으셨습니까?
-# Information on the device, date and time of the request that triggered the email follows.
+# Information on the device, location, and date and time of the request that triggered the email follows.
 recovery-request-origin-2 = 다음으로부터 { -product-mozilla-account } 비밀번호 변경 요청을 받았습니다:
 recovery-new-password-button = 아래의 버튼을 클릭하여, 새 비밀번호를 만드세요. 링크는 한 시간 후 만료됩니다.
 recovery-copy-paste = 아래 URL을 복사하고 브라우저에 붙여 넣어 새 비밀번호를 만드세요. 링크는 한 시간 후에 만료됩니다.

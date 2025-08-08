@@ -147,26 +147,6 @@ device-info-browser-os = { $browserName } v { $genericOSName }
 # The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
 device-info-ip-address = Naslov IP: { $ipAddress }
 
-## FormPasswordWithBalloons
-
-signup-new-password-label =
-    .label = Geslo
-signup-confirm-password-label =
-    .label = Ponovite geslo
-signup-submit-button = Ustvari račun
-post-verify-set-password-submit-button = Začni s sinhronizacijo
-form-reset-password-with-balloon-new-password =
-    .label = Novo geslo
-form-reset-password-with-balloon-confirm-password =
-    .label = Ponovno vnesite geslo
-form-reset-password-with-balloon-submit-button = Ponastavi geslo
-form-reset-password-with-balloon-match-error = Gesli se ne ujemata
-form-password-sr-too-short-message = Geslo mora vsebovati vsaj 8 znakov.
-form-password-sr-not-email-message = Geslo ne sme vsebovati vašega e-poštnega naslova.
-form-password-sr-not-common-message = Ne smete uporabiti pogosto uporabljenega gesla.
-form-password-sr-requirements-met = Vneseno geslo izpolnjuje vse zahteve.
-form-password-sr-passwords-match = Vneseni gesli se ujemata.
-
 ## FormPasswordInlineCriteria
 
 form-password-with-inline-criteria-signup-new-password-label =
@@ -386,14 +366,6 @@ error-bad-request = Zahteva z napako
 
 password-info-balloon-why-password-info = To geslo potrebujete za dostop do šifriranih podatkov, ki jih shranjujete pri nas.
 password-info-balloon-reset-risk-info = Ponastavitev lahko povzroči izgubo podatkov, kot so gesla in zaznamki.
-
-## PasswordStrengthBalloon component
-
-password-strength-balloon-heading = Zahteve za geslo
-password-strength-balloon-min-length = vsaj 8 znakov
-password-strength-balloon-not-email = ni vaš e-poštni naslov
-password-strength-balloon-not-common = ni eno od pogostih gesel
-password-strength-balloon-stay-safe-tips = Ostanite varni – ne reciklirajte gesel. Oglejte si več nasvetov za <LinkExternal>ustvarjanje močnih gesel</LinkExternal>.
 
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password
@@ -1237,7 +1209,6 @@ tfa-row-disable-modal-explain-1 =
 # Shown in an alert bar after two-step authentication is disabled
 tfa-row-disabled-2 = Overitev v dveh korakih je onemogočena
 tfa-row-cannot-disable-2 = Overitve v dveh korakih ni bilo mogoče izključiti
-tfa-row-disable-cannot-verify-session = Oprostite, prišlo je do težave pri potrjevanju vaše seje
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account

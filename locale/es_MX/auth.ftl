@@ -181,12 +181,6 @@ subscriptionFirstInvoiceDiscount-content-discount-repeating = Descuento por { $d
 #  $invoiceTaxAmount (String) - The amount of the tax of the subscription invoice, including currency, e.g. $2.00
 subscriptionCharges-content-tax = Impuestos y cargos: { $invoiceTaxAmount }
 
-## Variables:
-##  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
-##  $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
-##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
-
-
 ##
 
 subscriptionSupport = ¿Preguntas acerca de tu suscripción? Nuestro <a data-l10n-name="subscriptionSupportUrl">equipo de soporte</a> está aquí para ayudarte.
@@ -321,7 +315,7 @@ passwordReset-title-2 = Tu contraseña ha sido restablecida
 passwordReset-description-2 = Restableciste tu contraseña de { -product-mozilla-account } en:
 passwordResetAccountRecovery-subject-2 = Tu contraseña ha sido restablecida
 passwordResetAccountRecovery-title-3 = Tu contraseña ha sido restablecida
-# Followed by details on the device and date/time of the password reset.
+# Followed by details on the device, location, and date/time of the password reset.
 passwordResetAccountRecovery-description-3 = Utilizaste tu clave de recuperación de cuenta para restablecer tu contraseña { -product-mozilla-account } en:
 passwordResetAccountRecovery-information = Hemos cerrado tu sesión en todos tus dispositivos sincronizados. Hemos creado una nueva clave de recuperación de cuenta para reemplazar la que usaste. Puedes cambiarla en los ajustes de tu cuenta.
 # After the colon there is a link to account settings
@@ -426,7 +420,7 @@ postVerifySecondary-content-3 = Has confirmado correctamente { $secondaryEmail }
 postVerifySecondary-action = Administrar cuenta
 recovery-subject = Restablecer tu contraseña
 recovery-title-2 = ¿Olvidaste tu contraseña?
-# Information on the device, date and time of the request that triggered the email follows.
+# Information on the device, location, and date and time of the request that triggered the email follows.
 recovery-request-origin-2 = Recibimos una solicitud de cambio de contraseña en tu { -product-mozilla-account } de:
 recovery-new-password-button = Crea una nueva contraseña al hacer clic en el botón de abajo. Este enlace caducará en la siguiente hora.
 recovery-copy-paste = Crea una nueva contraseña al copiar y pegar la URL de abajo en tu navegador. Este enlace caducará en la siguiente hora.

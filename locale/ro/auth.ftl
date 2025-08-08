@@ -381,7 +381,7 @@ passwordReset-title-2 = Parola ta a fost resetată
 passwordReset-description-2 = Ți-ai resetat parola { -product-mozilla-account } pe:
 passwordResetAccountRecovery-subject-2 = Parola ta a fost resetată
 passwordResetAccountRecovery-title-3 = Parola ta a fost resetată
-# Followed by details on the device and date/time of the password reset.
+# Followed by details on the device, location, and date/time of the password reset.
 passwordResetAccountRecovery-description-3 = Ți-ai folosit cheia de recuperare a contului ca să îți resetezi parola { -product-mozilla-account } pe:
 passwordResetAccountRecovery-information = Te-am deconectat de pe toate dispozitivele sincronizate. Am creat o nouă cheie de recuperare a contului în locul celei pe care ai folosit-o. O poți modifica în setările contului.
 # After the colon there is a link to account settings
@@ -515,7 +515,7 @@ postVerifySecondary-content-3 = Ai confirmat cu succes { $secondaryEmail } ca ad
 postVerifySecondary-action = Gestionează contul
 recovery-subject = Resetează-ți parola
 recovery-title-2 = Ți-ai uitat parola?
-# Information on the device, date and time of the request that triggered the email follows.
+# Information on the device, location, and date and time of the request that triggered the email follows.
 recovery-request-origin-2 = Am primit o solicitare de schimbare a parolei pentru contul { -product-mozilla-account } de pe:
 recovery-new-password-button = Creează o parolă nouă dând clic pe butonul de mai jos. Linkul va expira într-o oră.
 recovery-copy-paste = Creează o parolă nouă prin copiere și lipire a URL-ului de mai jos în browser. Linkul va expira într-o oră.

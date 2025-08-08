@@ -141,26 +141,6 @@ device-info-browser-os = { $browserName } дар { $genericOSName }
 # The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
 device-info-ip-address = Нишонии «IP»: { $ipAddress }
 
-## FormPasswordWithBalloons
-
-signup-new-password-label =
-    .label = Ниҳонвожа
-signup-confirm-password-label =
-    .label = Ниҳонвожаро такрор кунед
-signup-submit-button = Эҷод кардани ҳисоб
-post-verify-set-password-submit-button = Оғози ҳамоҳангсозӣ
-form-reset-password-with-balloon-new-password =
-    .label = Ниҳонвожаи нав
-form-reset-password-with-balloon-confirm-password =
-    .label = Ниҳонвожаро аз нав ворид намоед
-form-reset-password-with-balloon-submit-button = Барқарор кардани ниҳонвожа
-form-reset-password-with-balloon-match-error = Ниҳонвожаҳо мувофиқат намекунанд
-form-password-sr-too-short-message = Ниҳонвожа бояд на камтар аз 8 аломат дошта бошад.
-form-password-sr-not-email-message = Ниҳонвожаи шумо набояд нишонии почтаи электронии шуморо дар бар гирад.
-form-password-sr-not-common-message = Ниҳонвожа набояд аз ниҳонвожаҳои маъмул истифода шавад.
-form-password-sr-requirements-met = Ниҳонвожаи воридшуда ба ҳамаи талаботи ниҳонвожаҳо мутобиқат мекунад.
-form-password-sr-passwords-match = Ниҳонвожаҳои воридшуда мувофиқат мекунанд.
-
 ## FormPasswordInlineCriteria
 
 form-password-with-inline-criteria-signup-new-password-label =
@@ -359,10 +339,6 @@ remember-password-signin-link = Ворид шудан
 
 # The user followed a primary email confirmation link, but that link is has been used and is no longer valid
 primary-email-confirmation-link-reused = Почтаи электронии асосӣ алакай тасдиқ карда шуд
-
-## PasswordStrengthBalloon component
-
-password-strength-balloon-heading = Талаботи ниҳонвожа
 
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password

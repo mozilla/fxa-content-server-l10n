@@ -122,25 +122,6 @@ device-info-browser-os = { $browserName } di { $genericOSName }
 # The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
 device-info-ip-address = Nnirizzu IP: { $ipAddress }
 
-## FormPasswordWithBalloons
-
-signup-new-password-label =
-    .label = Chiavi
-signup-confirm-password-label =
-    .label = Ripeti a chiavi
-signup-submit-button = Crìa un cuntu
-form-reset-password-with-balloon-new-password =
-    .label = Chiavi nova
-form-reset-password-with-balloon-confirm-password =
-    .label = Metti arrè a chiavi
-form-reset-password-with-balloon-submit-button = Risetta a chiavi
-form-reset-password-with-balloon-match-error = I chiavi chi mittisti nun appàttanu
-form-password-sr-too-short-message = A chiavi àv’a èssiri di armenu 8 caràttari.
-form-password-sr-not-email-message = Nnâ chiavi nun cci àv’a èssiri u to nnirizzu di posta elittrònica.
-form-password-sr-not-common-message = A chiavi nun àv’a èssiri una di chiḍḍi usati cumuni.
-form-password-sr-requirements-met = A chiavi chi mittisti rispetta tutti i riquisiti pî chiavi.
-form-password-sr-passwords-match = I chiavi chi mittisti appàttanu.
-
 ## FormPasswordInlineCriteria
 
 form-password-with-inline-criteria-signup-new-password-label =
@@ -360,14 +341,6 @@ error-bad-request = Dumanna nun vàlita
 
 password-info-balloon-why-password-info = Ti serbi sta chiavi pi accèdiri a tutti i dati crittati chi sarbi cu nuiautri.
 password-info-balloon-reset-risk-info = Risittari u cuntu veni a diri chi putissi pèrdiri dati a tipu chiavi e nzingalibbra.
-
-## PasswordStrengthBalloon component
-
-password-strength-balloon-heading = Riquisiti dî chiavi
-password-strength-balloon-min-length = Armenu 8 caràttari
-password-strength-balloon-not-email = Nun cci àv’a èssiri u to nnirizzu di posta elittrònica
-password-strength-balloon-not-common = Nun àv’a èssiri na chiavi cumuni
-password-strength-balloon-stay-safe-tips = Arresta ô sicuru — nun usare i chiavi nna cchiù assai d’un locu. Vidi i nostri cunzigghi ncapu a comu <LinkExternal>criari chiavi forti</LinkExternal>.
 
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password

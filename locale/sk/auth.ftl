@@ -381,7 +381,7 @@ passwordReset-title-2 = Vaše heslo bolo zmenené
 passwordReset-description-2 = Heslo k { -product-mozilla-account(case: "dat", capitalization: "lower") } ste zmenili na zariadení:
 passwordResetAccountRecovery-subject-2 = Vaše heslo bolo zmenené
 passwordResetAccountRecovery-title-3 = Vaše heslo bolo zmenené
-# Followed by details on the device and date/time of the password reset.
+# Followed by details on the device, location, and date/time of the password reset.
 passwordResetAccountRecovery-description-3 = Použili ste kľúč na obnovenie účtu na zmenu hesla { -product-mozilla-account(case: "dat", capitalization: "lower") } na zariadení:
 passwordResetAccountRecovery-information = Odhlásili sme vás zo všetkých vašich synchronizovaných zariadení. Vytvorili sme nový kľúč na obnovenie účtu, ktorý nahradí ten, ktorý ste používali. Môžete ho zmeniť v nastaveniach účtu.
 # After the colon there is a link to account settings
@@ -515,7 +515,7 @@ postVerifySecondary-content-3 = Úspešne ste potvrdili adresu { $secondaryEmail
 postVerifySecondary-action = Spravovať účet
 recovery-subject = Zmena hesla
 recovery-title-2 = Zabudli ste heslo?
-# Information on the device, date and time of the request that triggered the email follows.
+# Information on the device, location, and date and time of the request that triggered the email follows.
 recovery-request-origin-2 = Dostali sme žiadosť o zmenu hesla k vášmu { -product-mozilla-account(capitalization: "lower", case: "dat") } z:
 recovery-new-password-button = Vytvorte si nové heslo kliknutím na tlačidlo nižšie. Platnosť tohto odkazu vyprší v priebehu nasledujúcej hodiny.
 recovery-copy-paste = Vytvorte si nové heslo tak, že skopírujete a prilepíte adresu URL uvedenú nižšie do svojho prehliadača. Platnosť tohto odkazu vyprší v priebehu nasledujúcej hodiny.

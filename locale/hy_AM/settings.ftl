@@ -50,21 +50,6 @@ device-info-browser-os = { $browserName } { $genericOSName }-ում
 # The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
 device-info-ip-address = IP հասցե՝ { $ipAddress }
 
-## FormPasswordWithBalloons
-
-signup-new-password-label =
-    .label = Գաղտնաբառ
-signup-confirm-password-label =
-    .label = Կրկնեք գաղտնաբառը
-signup-submit-button = Ստեղծել հաշիվ
-form-reset-password-with-balloon-new-password =
-    .label = Նոր գաղտնաբառ
-form-reset-password-with-balloon-confirm-password =
-    .label = Վերամուտքագրեք գաղտնաբառը
-form-reset-password-with-balloon-submit-button = Վերակայել գաղտնաբառը
-form-reset-password-with-balloon-match-error = Գաղտնաբառերը չեն համապատասխանում
-form-password-sr-passwords-match = Մուտքագրված գաղտնաբառերը համընկնում են:
-
 ## FormVerifyTotp component
 ## Form to enter a time-based one-time-passcode (e.g., 6-digit numeric code or 8-digit alphanumeric code)
 

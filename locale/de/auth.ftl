@@ -378,7 +378,7 @@ passwordReset-title-2 = Ihr Passwort wurde zurückgesetzt.
 passwordReset-description-2 = Sie haben Ihr { -product-mozilla-account }-Passwort zurückgesetzt am:
 passwordResetAccountRecovery-subject-2 = Ihr Passwort wurde zurückgesetzt
 passwordResetAccountRecovery-title-3 = Ihr Passwort wurde zurückgesetzt.
-# Followed by details on the device and date/time of the password reset.
+# Followed by details on the device, location, and date/time of the password reset.
 passwordResetAccountRecovery-description-3 = Sie haben Ihren Kontowiederherstellungsschlüssel verwendet, um Ihr { -product-mozilla-account }-Passwort zurückzusetzen am:
 passwordResetAccountRecovery-information = Wir haben Sie von allen synchronisierten Geräten abgemeldet. Wir haben einen neuen Kontowiederherstellungsschlüssel erstellt, um den von Ihnen verwendeten zu ersetzen. Sie können dies in Ihren Kontoeinstellungen ändern.
 # After the colon there is a link to account settings
@@ -512,7 +512,7 @@ postVerifySecondary-content-3 = Sie haben { $secondaryEmail } als Zweit-E-Mail-A
 postVerifySecondary-action = Benutzerkonto verwalten
 recovery-subject = Setzen Sie Ihr Passwort zurück
 recovery-title-2 = Haben Sie Ihr Passwort vergessen?
-# Information on the device, date and time of the request that triggered the email follows.
+# Information on the device, location, and date and time of the request that triggered the email follows.
 recovery-request-origin-2 = Wir haben eine Anfrage zur Passwortänderung für Ihr { -product-mozilla-account } erhalten von:
 recovery-new-password-button = Erstellen Sie ein neues Passwort, indem Sie auf die folgende Schaltfläche klicken. Dieser Link läuft innerhalb der nächsten Stunde ab.
 recovery-copy-paste = Erstellen Sie ein neues Passwort, indem Sie die folgende URL kopieren und in Ihren Browser einfügen. Dieser Link läuft innerhalb der nächsten Stunde ab.

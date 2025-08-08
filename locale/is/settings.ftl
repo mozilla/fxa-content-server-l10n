@@ -122,25 +122,6 @@ device-info-browser-os = { $browserName } á { $genericOSName }
 # The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
 device-info-ip-address = IP-vistfang: { $ipAddress }
 
-## FormPasswordWithBalloons
-
-signup-new-password-label =
-    .label = Lykilorð
-signup-confirm-password-label =
-    .label = Endurtaka lykilorð
-signup-submit-button = Búa til reikning
-form-reset-password-with-balloon-new-password =
-    .label = Nýtt lykilorð
-form-reset-password-with-balloon-confirm-password =
-    .label = Settu aftur inn lykilorðið
-form-reset-password-with-balloon-submit-button = Endurstilla lykilorð
-form-reset-password-with-balloon-match-error = Lykilorð passa ekki
-form-password-sr-too-short-message = Lykilorð verður að innihalda að minnsta kosti 8 stafi.
-form-password-sr-not-email-message = Lykilorð má ekki innihalda tölvupóstfangið þitt.
-form-password-sr-not-common-message = Lykilorð má ekki vera algengt lykilorð.
-form-password-sr-requirements-met = Uppgefna lykilorðið uppfyllir allar kröfur um lykilorð.
-form-password-sr-passwords-match = Uppgefin lykilorð passa saman.
-
 ## FormPasswordInlineCriteria
 
 form-password-with-inline-criteria-signup-new-password-label =
@@ -358,14 +339,6 @@ error-bad-request = Röng beiðni
 
 password-info-balloon-why-password-info = Þú þarft þetta lykilorð til að fá aðgang að dulrituðu gögnum sem þú geymir hjá okkur.
 password-info-balloon-reset-risk-info = Endurstilling þýðir að mögulega tapast gögn eins og lykilorð og bókamerki.
-
-## PasswordStrengthBalloon component
-
-password-strength-balloon-heading = Kröfur um lykilorð
-password-strength-balloon-min-length = Að minnsta kosti 8 stafir
-password-strength-balloon-not-email = Ekki tölvupóstfangið þitt
-password-strength-balloon-not-common = Ekki algengt lykilorð
-password-strength-balloon-stay-safe-tips = Tryggðu öriggið - ekki endurnýta lykilorð. Sjáðu fleiri aðferðir til að <LinkExternal>búa til sterk lykilorð</LinkExternal>.
 
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password

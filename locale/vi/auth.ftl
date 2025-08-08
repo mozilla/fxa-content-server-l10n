@@ -379,7 +379,7 @@ passwordReset-title-2 = Mật khẩu của bạn đã được đặt lại
 passwordReset-description-2 = Bạn đã đặt lại mật khẩu { -product-mozilla-account } của mình trên:
 passwordResetAccountRecovery-subject-2 = Mật khẩu của bạn đã được đặt lại
 passwordResetAccountRecovery-title-3 = Mật khẩu của bạn đã được đặt lại
-# Followed by details on the device and date/time of the password reset.
+# Followed by details on the device, location, and date/time of the password reset.
 passwordResetAccountRecovery-description-3 = Bạn đã sử dụng khóa khôi phục tài khoản để đặt lại mật khẩu { -product-mozilla-account } của mình trên:
 passwordResetAccountRecovery-information = Chúng tôi đã đăng xuất bạn khỏi tất cả các thiết bị được đồng bộ hóa của bạn. Chúng tôi đã tạo khóa khôi phục tài khoản mới để thay thế khóa bạn đã sử dụng. Bạn có thể thay đổi nó trong cài đặt tài khoản của bạn.
 # After the colon there is a link to account settings
@@ -513,7 +513,7 @@ postVerifySecondary-content-3 = Bạn đã xác nhận thành công { $secondary
 postVerifySecondary-action = Quản lý tài khoản
 recovery-subject = Đặt lại mật khẩu của bạn
 recovery-title-2 = Bạn đã quên mật khẩu?
-# Information on the device, date and time of the request that triggered the email follows.
+# Information on the device, location, and date and time of the request that triggered the email follows.
 recovery-request-origin-2 = Chúng tôi đã nhận được yêu cầu thay đổi mật khẩu { -product-mozilla-account } của bạn từ:
 recovery-new-password-button = Tạo mật khẩu mới bằng cách nhấp vào nút bên dưới. Liên kết này sẽ hết hạn trong vòng một giờ tới.
 recovery-copy-paste = Tạo mật khẩu mới bằng cách sao chép và dán URL bên dưới vào trình duyệt của bạn. Liên kết này sẽ hết hạn trong vòng một giờ tới.

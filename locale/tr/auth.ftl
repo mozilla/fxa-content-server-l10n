@@ -380,7 +380,7 @@ passwordReset-title-2 = Parolanız sıfırlandı
 passwordReset-description-2 = { -product-mozilla-account } parolanızı sıfırladığınız cihaz ve tarih:
 passwordResetAccountRecovery-subject-2 = Parolanız sıfırlandı
 passwordResetAccountRecovery-title-3 = Parolanız sıfırlandı
-# Followed by details on the device and date/time of the password reset.
+# Followed by details on the device, location, and date/time of the password reset.
 passwordResetAccountRecovery-description-3 = { -product-mozilla-account } parolanızı sıfırlamak için hesap kurtarma anahtarınızı kullandığınız cihaz ve tarih:
 passwordResetAccountRecovery-information = Eşitlenen tüm cihazlarınızdaki oturumlarınızı kapattık. Biraz önce kullandığınız hesap kurtarma anahtarının yerine yeni bir tane oluşturduk. Hesap ayarlarınızdan değiştirebilirsiniz.
 # After the colon there is a link to account settings
@@ -514,7 +514,7 @@ postVerifySecondary-content-3 = { $secondaryEmail } adresini { -product-mozilla-
 postVerifySecondary-action = Hesabı yönet
 recovery-subject = Parolanızı sıfırlayın
 recovery-title-2 = Parolanızı mı unuttunuz?
-# Information on the device, date and time of the request that triggered the email follows.
+# Information on the device, location, and date and time of the request that triggered the email follows.
 recovery-request-origin-2 = { -product-mozilla-account }nız için bu cihazdan bir parola değiştirme isteği aldık:
 recovery-new-password-button = Aşağıdaki düğmeye tıklayarak yeni bir parola oluşturun. Bu bağlantının kullanım süresi bir saat sonra bitecek.
 recovery-copy-paste = Aşağıdaki adresi kopyalayıp tarayıcınıza yapıştırarak yeni bir parola oluşturun. Bu bağlantının kullanım süresi bir saat sonra bitecek.

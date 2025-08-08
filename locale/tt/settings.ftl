@@ -86,25 +86,6 @@ device-info-browser-os = { $genericOSName } системасында { $browserN
 # The IP address is a string of numbers separated by periods (e.g., 192.158.1.38)
 device-info-ip-address = IP адрес: { $ipAddress }
 
-## FormPasswordWithBalloons
-
-signup-new-password-label =
-    .label = Серсүз
-signup-confirm-password-label =
-    .label = Серсүзне кабатлагыз
-signup-submit-button = Хисап язмасы булдыру
-form-reset-password-with-balloon-new-password =
-    .label = Яңа серсүз
-form-reset-password-with-balloon-confirm-password =
-    .label = Серсүзне янәдән кертегез
-form-reset-password-with-balloon-submit-button = Серсүзне алыштыру
-form-reset-password-with-balloon-match-error = Серсүзләр туры килми
-form-password-sr-too-short-message = Серсүз кимендә 8 билге булырга тиеш.
-form-password-sr-not-email-message = Серсүз эчендә эл. почта адресыгыз булырга тиеш түгел.
-form-password-sr-not-common-message = Серсүз еш кулланыла торган серсүз булырга тиеш түгел.
-form-password-sr-requirements-met = Кертелгән серсүз барлык серсүз таләпләренә дә туры килә
-form-password-sr-passwords-match = Кертелгән серсүзләр бер-берсенә туры килә.
-
 ## FormPasswordInlineCriteria
 
 form-password-with-inline-criteria-signup-new-password-label =
@@ -227,13 +208,6 @@ primary-email-confirmation-link-reused = Беренчел эл. почта ад�
 signin-confirmation-link-reused = Керү расланды инде
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Яраксыз сорау
-
-## PasswordStrengthBalloon component
-
-password-strength-balloon-heading = Серсүз таләпләре
-password-strength-balloon-min-length = Кимендә 8 символ
-password-strength-balloon-not-email = Эл. почта адресыгыз түгел
-password-strength-balloon-not-common = Еш кулланыла торган серсүз түгел
 
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password

@@ -380,7 +380,7 @@ passwordReset-title-2 = Tu contrasigno ha essite remontate
 passwordReset-description-2 = Tu remontava tu contrasigno pro { -product-mozilla-account } sur:
 passwordResetAccountRecovery-subject-2 = Tu contrasigno ha essite remontate
 passwordResetAccountRecovery-title-3 = Tu contrasigno ha essite remontate
-# Followed by details on the device and date/time of the password reset.
+# Followed by details on the device, location, and date/time of the password reset.
 passwordResetAccountRecovery-description-3 = Tu usava tu clave recuperation del conto pro remontar tu contrasigno pro { -product-mozilla-account } sur:
 passwordResetAccountRecovery-information = Nos te disconnecteva de tote le tu apparatos synchronisate. Nos creava un nove clave recuperation del conto pro reimplaciar le sol que tu usava. Tu pote cambiar lo in parametros de tu conto.
 # After the colon there is a link to account settings
@@ -516,7 +516,7 @@ postVerifySecondary-content-3 = Tu ha confirmate con successo { $secondaryEmail 
 postVerifySecondary-action = Gerer le conto
 recovery-subject = Reinitialisa tu contrasigno
 recovery-title-2 = Contrasigno oblidate?
-# Information on the device, date and time of the request that triggered the email follows.
+# Information on the device, location, and date and time of the request that triggered the email follows.
 recovery-request-origin-2 = Nos recipeva un requesta pro un cambio de contrasigno sur tu { -product-mozilla-account } ab:
 recovery-new-password-button = Crea un nove contrasigno cliccante le button infra. Iste ligamine expirara in le proxime hora.
 recovery-copy-paste = Crea un nove contrasigno copiante e collante le URL infra in tu navigator. Iste ligamine expirara in le proxime hora.

@@ -206,12 +206,6 @@ subscriptionFirstInvoiceDiscount-content-discount-repeating = { $discountDuratio
 #  $invoiceTaxAmount (String) - The amount of the tax of the subscription invoice, including currency, e.g. $2.00
 subscriptionCharges-content-tax = Verot ja maksut: { $invoiceTaxAmount }
 
-## Variables:
-##  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
-##  $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
-##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
-
-
 ##
 
 subscriptionSupport = Kysymyksiä tilaukseesi liittyen? <a data-l10n-name="subscriptionSupportUrl">Tukitiimimme</a> auttaa sinua.
@@ -342,7 +336,7 @@ passwordReset-title-2 = Salasanasi on nollattu
 passwordReset-description-2 = Nollasit { -product-mozilla-account }-salasanasi:
 passwordResetAccountRecovery-subject-2 = Salasanasi on nollattu
 passwordResetAccountRecovery-title-3 = Salasanasi on nollattu
-# Followed by details on the device and date/time of the password reset.
+# Followed by details on the device, location, and date/time of the password reset.
 passwordResetAccountRecovery-description-3 = Käytit tilin palautusavainta { -product-mozilla-account }-salasanan nollaamiseen:
 passwordResetAccountRecovery-information = Kirjasimme sinut ulos kaikista synkronoiduista laitteistasi. Loimme uuden tilin palautusavaimen korvaamaan käyttämäsi. Voit vaihtaa sen tilisi asetuksista.
 # After the colon there is a link to account settings
@@ -431,7 +425,7 @@ postVerifySecondary-content-3 = Olet vahvistanut osoitteen { $secondaryEmail } t
 postVerifySecondary-action = Hallinnoi tiliä
 recovery-subject = Nollaa salasanasi
 recovery-title-2 = Unohditko salasanasi?
-# Information on the device, date and time of the request that triggered the email follows.
+# Information on the device, location, and date and time of the request that triggered the email follows.
 recovery-request-origin-2 = Saimme { -product-mozilla-account }n salasanan vaihtopyynnön lähteestä:
 recovery-new-password-button = Luo uusi salasana napsauttamalla alla olevaa painiketta. Tämä linkki vanhenee seuraavan tunnin sisällä.
 recovery-copy-paste = Luo uusi salasana kopioimalla ja liittämällä alla oleva URL-osoite selaimeesi. Tämä linkki vanhenee seuraavan tunnin sisällä.

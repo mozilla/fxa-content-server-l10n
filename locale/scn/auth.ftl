@@ -365,7 +365,7 @@ passwordReset-title-2 = A chiavi fu risittata
 passwordReset-description-2 = Risittasti a chiavi dû to { -product-mozilla-account } nne:
 passwordResetAccountRecovery-subject-2 = A chiavi fu risittata
 passwordResetAccountRecovery-title-3 = A chiavi fu risittata
-# Followed by details on the device and date/time of the password reset.
+# Followed by details on the device, location, and date/time of the password reset.
 passwordResetAccountRecovery-description-3 = Usasti a chiavi di ricùpiru dû cuntu pi risittari a chiavi dû to { -product-mozilla-account } nne:
 passwordResetAccountRecovery-information = Ti scullijammu di tutti i to dispusitivi sincrunizzati. Criammu na chiavi di ricùpiru dû cuntu nova pi sustituiri chiḍḍa chi usasti. A po’ canciari nnê mpustazzioni dû to cuntu.
 # After the colon there is a link to account settings
@@ -488,7 +488,7 @@ postVerifySecondary-content-3 = Cunfirmasti bonu { $secondaryEmail } comu nniriz
 postVerifySecondary-action = Manija cuntu
 recovery-subject = Risetta a to chiavi
 recovery-title-2 = Ti scurdasti a chiavi?
-# Information on the device, date and time of the request that triggered the email follows.
+# Information on the device, location, and date and time of the request that triggered the email follows.
 recovery-request-origin-2 = Ricivemmu na dumanna di canciu dâ chiavi dû to { -product-mozilla-account } di:
 recovery-new-password-button = Crìa na chiavi nova ammaccannu u buttuni appressu. Sta lijami scadi nta n’ura.
 recovery-copy-paste = Crìa na chiavi nova cupiannu e ncuḍḍannu a lijami appressu nnô to navicaturi. Sta lijami scadi nta n’ura.

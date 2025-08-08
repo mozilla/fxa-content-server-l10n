@@ -378,7 +378,7 @@ passwordReset-title-2 = A jelszó vissza lett állítva
 passwordReset-description-2 = Visszaállította a { -product-mozilla-account }ja jelszavát ekkor:
 passwordResetAccountRecovery-subject-2 = A jelszó vissza lett állítva
 passwordResetAccountRecovery-title-3 = A jelszó vissza lett állítva
-# Followed by details on the device and date/time of the password reset.
+# Followed by details on the device, location, and date/time of the password reset.
 passwordResetAccountRecovery-description-3 = A fiók-helyreállítási kulcsát használta a { -product-mozilla-account }jához tartozó jelszavának visszaállításához a következőn:
 passwordResetAccountRecovery-information = Kijelentkeztettük az összes szinkronizált eszközéről. Készítettünk egy új fiók-helyreállítási kulcsot a most használt kulcs helyett. Ezt a fiókbeállításokban módosíthatja.
 # After the colon there is a link to account settings
@@ -512,7 +512,7 @@ postVerifySecondary-content-3 = Sikeresen megerősítette a(z) { $secondaryEmail
 postVerifySecondary-action = Fiók kezelése
 recovery-subject = Jelszó visszaállítása
 recovery-title-2 = Elfelejtette a jelszavát?
-# Information on the device, date and time of the request that triggered the email follows.
+# Information on the device, location, and date and time of the request that triggered the email follows.
 recovery-request-origin-2 = A(z) { -product-mozilla-account }ja jelszavának megváltoztatására vonatkozó kérést kaptunk a következőtől:
 recovery-new-password-button = Hozzon létre egy új jelszót az alábbi gombra kattintva. Ez a hivatkozás egy órán belül lejár.
 recovery-copy-paste = Hozzon létre egy új jelszót az alábbi webcím másolásával és a böngészőbe történő beillesztésével. Ez a hivatkozás egy órán belül lejár.

@@ -366,7 +366,7 @@ passwordReset-title-2 = Ваш пароль було скинуто
 passwordReset-description-2 = Ви скинули свій пароль { -product-mozilla-account }:
 passwordResetAccountRecovery-subject-2 = Ваш пароль було скинуто
 passwordResetAccountRecovery-title-3 = Ваш пароль було скинуто
-# Followed by details on the device and date/time of the password reset.
+# Followed by details on the device, location, and date/time of the password reset.
 passwordResetAccountRecovery-description-3 = Ви використали ключ відновлення облікового запису, щоб скинути пароль { -product-mozilla-account }:
 passwordResetAccountRecovery-information = Ви вийшли з усіх ваших синхронізованих пристроїв. Ми створили новий ключ відновлення облікового запису замість використаного. Ви можете змінити його в налаштуваннях облікового запису.
 # After the colon there is a link to account settings
@@ -489,7 +489,7 @@ postVerifySecondary-content-3 = Ви успішно підтвердили до�
 postVerifySecondary-action = Керування обліковим записом
 recovery-subject = Відновити свій пароль
 recovery-title-2 = Забули свій пароль?
-# Information on the device, date and time of the request that triggered the email follows.
+# Information on the device, location, and date and time of the request that triggered the email follows.
 recovery-request-origin-2 = Ми отримали запит на зміну пароля до вашого { -product-mozilla-account(case: "gen") } від:
 recovery-new-password-button = Створіть новий пароль, натиснувши кнопку нижче. Термін дії цього посилання закінчиться протягом години.
 recovery-copy-paste = Створіть новий пароль, скопіювавши та вставивши наведену нижче URL-адресу у свій браузер. Термін дії цього посилання закінчиться протягом наступної години.
