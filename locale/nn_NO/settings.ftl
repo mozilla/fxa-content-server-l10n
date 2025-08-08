@@ -1204,6 +1204,7 @@ tfa-row-disable-modal-explain-1 =
 # Shown in an alert bar after two-step authentication is disabled
 tfa-row-disabled-2 = Tostegs-autentisering deaktivert
 tfa-row-cannot-disable-2 = Klarte ikkje å deaktivere tostegs-autentisering
+tfa-row-verify-session-info = Du må stadfeste den noverande økta di for å konfigurere tostegs-verifisering
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account

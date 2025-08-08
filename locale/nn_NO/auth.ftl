@@ -172,6 +172,8 @@ automated-email-reset-pwd-plaintext-v3 = Om du ikkje utførte dette, kan du tilb
 automated-email-reset-two-factor-plaintext = Tilbakestill også tostegs-autentisering på:
 # $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
 banner-warning-message = { -brand-firefox }-utviklarar har nyleg vorte utsette for nettfiskingsangrep (phishing) via e-post. Vi sender berre e-postar om { -product-mozilla-account }en din frå <a data-l10n-name="accountsEmailLink">{ $accountsEmail }</a>.
+banner-warning-message-plaintext = { -brand-firefox }-utviklarar har nyleg vorte utsette for nettfiskingsangrep (phishing) via e-post. Vi sender berre e-postar om { -product-mozilla-account }en frå denne e-postadressa:
+banner-warning-check = Sjekk at eininga og staden du logga på er rett.
 brand-banner-message = Visste du at vi endra namnet vårt frå { -product-firefox-accounts } til { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Les meir</a>
 cancellationSurvey = Hjelp oss med å forbetre tenestene våre ved å vere med i denne <a data-l10n-name="cancellationSurveyUrl">korte undersøkinga</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
@@ -270,6 +272,22 @@ device-all = { $uaBrowser } på { $uaOS } { $uaOSVersion }
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 device-browser-os = { $uaBrowser } på { $uaOS }
+# Variables:
+#  $city (String) - User's city
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-all = { $city }, { $stateCode }, { $country } (estimert)
+# Variables:
+#  $city (String) - User's city
+#  $country (String) - User's country
+location-city-country = { $city }, { $country } (estimert)
+# Variables:
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-state-country = { $stateCode }, { $country } (estimert)
+# Variables:
+#  $country (stateCode) - User's country
+location-country = { $country } (estimert)
 view-invoice = <a data-l10n-name="invoiceLink">Sjå fakturaen din</a>.
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
