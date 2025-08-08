@@ -153,6 +153,11 @@ form-password-with-inline-criteria-reset-new-password =
 form-password-with-inline-criteria-confirm-password =
     .label = Confirmar contrasigno
 form-password-with-inline-criteria-reset-submit-button = Crear nove contrasigno
+form-password-with-inline-criteria-set-password-new-password-label =
+    .label = Contrasigno
+form-password-with-inline-criteria-set-password-confirm-password-label =
+    .label = Repete le contrasigno
+form-password-with-inline-criteria-set-password-submit-button = Comencia a synchronisar
 form-password-with-inline-criteria-match-error = Le contrasignos non concorda
 form-password-with-inline-criteria-sr-too-short-message = Le contrasigno debe continer al minus 8 characteres.
 form-password-with-inline-criteria-sr-not-email-message = Le contrasigno non debe continer tu adresse email.
@@ -1201,6 +1206,7 @@ tfa-row-disable-modal-explain-1 =
 # Shown in an alert bar after two-step authentication is disabled
 tfa-row-disabled-2 = Authentication a duo passos disactivate
 tfa-row-cannot-disable-2 = Impossibile disactivar authentication a duo passos
+tfa-row-verify-session-info = Tu debera confirmar tu actual session pro implementar le authentication a duo passos
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
