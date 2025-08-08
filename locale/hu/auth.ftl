@@ -167,6 +167,10 @@ automated-email-reset-pwd-two-factor = Ha nem Ön végezte ezt a műveletet, akk
 automated-email-reset-pwd-plaintext-v3 = Ha nem Ön végezte ezt a műveletet, akkor azonnal állítsa vissza a jelszavát itt:
 # Followed by link to https://accounts.firefox.com/settings#two-step-authentication
 automated-email-reset-two-factor-plaintext = Állítsa vissza a kétlépcsős hitelesítést is itt:
+# $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
+banner-warning-message = { -brand-firefox } kiegészítőfejlesztő került adathalász e-mailes támadások céljára a közelmúltban. Csak a(z) { -product-mozilla-account } e-mailt küldjük innen: <a data-l10n-name="accountsEmailLink">{ $accountsEmail }</a>.
+banner-warning-message-plaintext = { -brand-firefox } kiegészítőfejlesztő került adathalász e-mailes támadások céljára a közelmúltban. Ebből az e-mail címből csak a(z) { -product-mozilla-account } e-mail címről fogunk küldeni levelet:
+banner-warning-check = Ellenőrizze, hogy az eszköz és a hely megfelelő-e, ahová bejelentkezett.
 brand-banner-message = Tudta, hogy megváltoztattuk a nevünket { -product-firefox-accounts }ról { -product-mozilla-accounts }ra? <a data-l10n-name="learnMore">További tudnivalók</a>
 cancellationSurvey = Segítsen bennünket szolgáltatásunk fejlesztésében azzal, hogy kitölti ezt a <a data-l10n-name="cancellationSurveyUrl">rövid kérdőívet</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
@@ -265,6 +269,22 @@ device-all = { $uaBrowser } ezen: { $uaOS } { $uaOSVersion }
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 device-browser-os = { $uaBrowser } ezen: { $uaOS }
+# Variables:
+#  $city (String) - User's city
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-all = { $city }, { $stateCode }, { $country } (becsült)
+# Variables:
+#  $city (String) - User's city
+#  $country (String) - User's country
+location-city-country = { $city }, { $country } (becsült)
+# Variables:
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-state-country = { $stateCode }, { $country } (becsült)
+# Variables:
+#  $country (stateCode) - User's country
+location-country = { $country } (becsült)
 view-invoice = <a data-l10n-name="invoiceLink">Díjbekérő megtekintése</a>.
 # Variables:
 #  $invoiceLink (String) - The link to the invoice

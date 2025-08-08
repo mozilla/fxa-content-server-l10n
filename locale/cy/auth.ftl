@@ -167,6 +167,10 @@ automated-email-reset-pwd-two-factor = Os na chi wnaeth hyn, yna <a data-l10n-na
 automated-email-reset-pwd-plaintext-v3 = Os nad chi wnaeth hyn, yna ailosodwch eich cyfrinair ar unwaith yn:
 # Followed by link to https://accounts.firefox.com/settings#two-step-authentication
 automated-email-reset-two-factor-plaintext = Hefyd, ailosodwch ddilysiad dau gam yn:
+# $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
+banner-warning-message = Mae { -brand-firefox } datblygwyr ychwanegion wedi cael eu targedu gan ymosodiadau e-bost potsian yn ddiweddar. Dim ond oddi wrth <a data-l10n-name="accountsEmailLink">{ $accountsEmail }</a> y byddwn yn anfon e-byst am eich { -product-mozilla-account }.
+banner-warning-message-plaintext = Mae { -brand-firefox } datblygwyr ychwanegion wedi cael eu targedu gan ymosodiadau e-bost potsian yn ddiweddar. Dim ond e-byst am eich { -product-mozilla-account } o'r cyfeiriad e-bost hwn y byddwn yn ei anfon:
+banner-warning-check = Gwiriwch i sicrhau bod y ddyfais a'r lleoliad y gwnaethoch fewngofnodi iddynt yn gywir.
 brand-banner-message = Oeddech chi'n gwybod ein bod ni wedi newid ein henw o { -product-firefox-accounts } i { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Darllen rhagor</a>
 cancellationSurvey = Helpwch ni i wella ein gwasanaethau trwy lanw'r <a data-l10n-name="cancellationSurveyUrl">arolwg byr</a> hwn.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
@@ -265,6 +269,22 @@ device-all = { $uaBrowser } ar { $uaOS } { $uaOSVersion }
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 device-browser-os = { $uaBrowser } ar { $uaOS }
+# Variables:
+#  $city (String) - User's city
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-all = { $city }, { $stateCode }, { $country } (amcan)
+# Variables:
+#  $city (String) - User's city
+#  $country (String) - User's country
+location-city-country = { $city }, { $country } (amcan)
+# Variables:
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-state-country = { $stateCode }, { $country } (amcan)
+# Variables:
+#  $country (stateCode) - User's country
+location-country = { $country } (amcan)
 view-invoice = <a data-l10n-name="invoiceLink">Gweld eich anfoneb</a>.
 # Variables:
 #  $invoiceLink (String) - The link to the invoice

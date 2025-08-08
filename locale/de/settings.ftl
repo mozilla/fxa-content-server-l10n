@@ -153,6 +153,11 @@ form-password-with-inline-criteria-reset-new-password =
 form-password-with-inline-criteria-confirm-password =
     .label = Passwort bestätigen
 form-password-with-inline-criteria-reset-submit-button = Neues Passwort erstellen
+form-password-with-inline-criteria-set-password-new-password-label =
+    .label = Passwort
+form-password-with-inline-criteria-set-password-confirm-password-label =
+    .label = Passwort wiederholen
+form-password-with-inline-criteria-set-password-submit-button = Mit Synchronisierung beginnen
 form-password-with-inline-criteria-match-error = Passwörter stimmen nicht überein
 form-password-with-inline-criteria-sr-too-short-message = Das Passwort muss mindestens 8 Zeichen enthalten.
 form-password-with-inline-criteria-sr-not-email-message = Das Passwort darf nicht Ihre E-Mail-Adresse enthalten.
@@ -1197,6 +1202,7 @@ tfa-row-disable-modal-explain-1 =
 # Shown in an alert bar after two-step authentication is disabled
 tfa-row-disabled-2 = Zwei-Schritt-Authentifizierung deaktiviert
 tfa-row-cannot-disable-2 = Zwei-Schritt-Authentifizierung konnte nicht deaktiviert werden.
+tfa-row-verify-session-info = Sie müssen Ihre aktuelle Sitzung bestätigen, um die Zwei-Schritt-Authentifizierung einzurichten
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account

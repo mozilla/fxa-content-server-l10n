@@ -153,6 +153,11 @@ form-password-with-inline-criteria-reset-new-password =
 form-password-with-inline-criteria-confirm-password =
     .label = Jelszó megerősítése
 form-password-with-inline-criteria-reset-submit-button = Új jelszó létrehozása
+form-password-with-inline-criteria-set-password-new-password-label =
+    .label = Jelszó
+form-password-with-inline-criteria-set-password-confirm-password-label =
+    .label = Jelszó megismétlése
+form-password-with-inline-criteria-set-password-submit-button = Szinkronizálás indítása
 form-password-with-inline-criteria-match-error = A jelszavak nem egyeznek
 form-password-with-inline-criteria-sr-too-short-message = A jelszónak legalább 8 karakterből kell állnia.
 form-password-with-inline-criteria-sr-not-email-message = A jelszó nem tartalmazhatja az e-mail-címét.
@@ -1203,6 +1208,7 @@ tfa-row-disable-modal-explain-1 =
 # Shown in an alert bar after two-step authentication is disabled
 tfa-row-disabled-2 = Kétlépcsős hitelesítés letiltva
 tfa-row-cannot-disable-2 = A kétlépcsős hitelesítést nem lehetett letiltani
+tfa-row-verify-session-info = A kétlépcsős hitelesítés beállításához meg kell erősítenie az aktuális munkamenetet
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account

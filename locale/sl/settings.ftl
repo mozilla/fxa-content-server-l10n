@@ -159,6 +159,11 @@ form-password-with-inline-criteria-reset-new-password =
 form-password-with-inline-criteria-confirm-password =
     .label = Potrdite geslo
 form-password-with-inline-criteria-reset-submit-button = Ustvarite novo geslo
+form-password-with-inline-criteria-set-password-new-password-label =
+    .label = Geslo
+form-password-with-inline-criteria-set-password-confirm-password-label =
+    .label = Ponovite geslo
+form-password-with-inline-criteria-set-password-submit-button = Začni s sinhronizacijo
 form-password-with-inline-criteria-match-error = Gesli se ne ujemata
 form-password-with-inline-criteria-sr-too-short-message = Geslo mora vsebovati vsaj 8 znakov.
 form-password-with-inline-criteria-sr-not-email-message = Geslo ne sme vsebovati vašega e-poštnega naslova.
@@ -1209,6 +1214,7 @@ tfa-row-disable-modal-explain-1 =
 # Shown in an alert bar after two-step authentication is disabled
 tfa-row-disabled-2 = Overitev v dveh korakih je onemogočena
 tfa-row-cannot-disable-2 = Overitve v dveh korakih ni bilo mogoče izključiti
+tfa-row-verify-session-info = Za nastavitev overjanja v dveh korakih morate potrditi svojo trenutno sejo
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account

@@ -165,6 +165,11 @@ form-password-with-inline-criteria-reset-new-password =
 form-password-with-inline-criteria-confirm-password =
     .label = Cadarnhau'r cyfrinair
 form-password-with-inline-criteria-reset-submit-button = Creu cyfrinair newydd
+form-password-with-inline-criteria-set-password-new-password-label =
+    .label = Cyfrinair
+form-password-with-inline-criteria-set-password-confirm-password-label =
+    .label = Ailadrodd y cyfrinair
+form-password-with-inline-criteria-set-password-submit-button = Cychwyn cydweddu
 form-password-with-inline-criteria-match-error = Nid yw'r cyfrineiriau'n cydweddu
 form-password-with-inline-criteria-sr-too-short-message = Rhaid i'r cyfrinair gynnwys o leiaf 8 nod.
 form-password-with-inline-criteria-sr-not-email-message = Peidiwch â chynnwys eich cyfeiriad e-bost yn eich cyfrinair.
@@ -1213,6 +1218,7 @@ tfa-row-disable-modal-explain-1 =
 # Shown in an alert bar after two-step authentication is disabled
 tfa-row-disabled-2 = Mae dilysu dau gam wedi ei analluogi
 tfa-row-cannot-disable-2 = Nid oedd modd analluogi dilysu dau gam.
+tfa-row-verify-session-info = Mae angen i chi gadarnhau eich sesiwn gyfredol i sefydlu dilysiad dau gam
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account

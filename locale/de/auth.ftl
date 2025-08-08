@@ -167,6 +167,10 @@ automated-email-reset-pwd-two-factor = Wenn Sie diese Maßnahme nicht ausgelöst
 automated-email-reset-pwd-plaintext-v3 = Wenn Sie diese Maßnahme nicht ausgelöst haben, setzen Sie Ihr Passwort unter folgender Adresse sofort zurück:
 # Followed by link to https://accounts.firefox.com/settings#two-step-authentication
 automated-email-reset-two-factor-plaintext = Setzen Sie außerdem die Zwei-Schritt-Authentifizierung unter folgender Adresse zurück:
+# $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
+banner-warning-message = kürzlich Add-on-Entwickler von { -brand-firefox } wurden Ziel von Phishing-E-Mail-Angriffen. Wir verschicken nur E-Mails zu Ihrer { -product-mozilla-account } von <a data-l10n-name="accountsEmailLink">{ $accountsEmail }</a>.
+banner-warning-message-plaintext = kürzlich Add-on-Entwickler von { -brand-firefox } wurden Ziel von Phishing-E-Mail-Angriffen. Wir schicken E-Mails zu Ihrem { -product-mozilla-account } nur von dieser E-Mail-Adresse:
+banner-warning-check = Überprüfen Sie, ob das Gerät und der Standort, mit dem Sie sich angemeldet haben, korrekt ist.
 brand-banner-message = Wussten Sie, dass wir unseren Namen von { -product-firefox-accounts } in { -product-mozilla-accounts } geändert haben? <a data-l10n-name="learnMore">Weitere Informationen</a>
 cancellationSurvey = Bitte helfen Sie uns, unsere Dienste zu verbessern, indem Sie an dieser <a data-l10n-name="cancellationSurveyUrl">kurzen Umfrage</a> teilnehmen.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
@@ -265,6 +269,22 @@ device-all = { $uaBrowser } auf { $uaOS } { $uaOSVersion }
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 device-browser-os = { $uaBrowser } auf { $uaOS }
+# Variables:
+#  $city (String) - User's city
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-all = { $city }, { $stateCode }, { $country } (geschätzt)
+# Variables:
+#  $city (String) - User's city
+#  $country (String) - User's country
+location-city-country = { $city }, { $country } (geschätzt)
+# Variables:
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-state-country = { $stateCode }, { $country } (geschätzt)
+# Variables:
+#  $country (stateCode) - User's country
+location-country = { $country } (geschätzt)
 view-invoice = <a data-l10n-name="invoiceLink">Ihre Rechnung anzeigen</a>.
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
