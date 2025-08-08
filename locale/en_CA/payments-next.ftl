@@ -111,10 +111,26 @@ subscription-management-card-expires-date = Expires { $expirationDate }
 subscription-management-subscriptions-heading = Subscriptions
 subscription-management-your-subscriptions-aria = Your subscriptions
 subscription-management-no-subscriptions = You don’t have any subscriptions yet
+subscription-management-your-apple-iap-subscriptions-aria = Your { -brand-apple } In-App Subscriptions
+subscription-management-apple-in-app-purchase = { -brand-apple }: In-App purchase
+subscription-management-your-google-iap-subscriptions-aria = Your { -brand-google } In-App Subscriptions
+subscription-management-google-in-app-purchase = { -brand-google }: In-App purchase
+# $date (String) - Date of next bill
+subscription-management-iap-sub-next-bill = Next billed on { $date }
+# $date (String) - Date of In-App purchase expires
+subscription-management-iap-sub-expires-on = Expires on { $date }
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscription-management-button-manage-subscription-aria = Manage subscription for { $productName }
+subscription-management-button-manage-subscription = Manage
 
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
 
+subscription-management-page-subscription-interval-daily = { $productName } (daily)
+subscription-management-page-subscription-interval-weekly = { $productName } (weekly)
+subscription-management-page-subscription-interval-monthly = { $productName } (monthly)
+subscription-management-page-subscription-interval-halfyearly = { $productName } (6-month)
+subscription-management-page-subscription-interval-yearly = { $productName } (yearly)
 # Page - Not Found
 page-not-found-title = Page not found
 page-not-found-description = The page you requested was not found. We’ve been notified and will fix any links that may be broken.
@@ -126,6 +142,8 @@ page-not-found-back-button = Go Back
 subscription-management-breadcrumb-account-home = Account Home
 # Link title - Subscriptions management
 subscription-management-breadcrumb-subscriptions = Subscriptions
+# Link title - Payment method management
+subscription-management-breadcrumb-payment = Payment Methods
 
 ## Component - Payment Consent Checkbox
 
@@ -181,6 +199,14 @@ payments-client-loading-spinner =
     .aria-label = Loading…
     .alt = Loading…
 
+## Payment method management page - Stripe
+
+# Save button for changing which payment method will be used
+payment-method-management-save-default = Set as default payment method
+# Save button for saving a new payment method
+payment-method-management-save-method = Save payment method
+manage-stripe-payments-title = Manage payment methods
+
 ## Payment Section
 
 next-new-user-card-title = Enter your card information
@@ -189,6 +215,8 @@ next-new-user-card-title = Enter your card information
 
 next-plan-details-header = Product details
 next-plan-details-list-price = List Price
+# $productName (String) - The name of the product, e.g. Mozilla VPN
+plan-details-product-prorated-price = Prorated price for { $productName }
 next-plan-details-tax = Taxes and Fees
 next-plan-details-total-label = Total
 # "Unused time" refers to the remaining value of the current subscription that hasn't been used yet
@@ -234,6 +262,33 @@ next-new-user-subscribe-product-updates-mdnplus = I’d like to receive product 
 next-new-user-subscribe-product-updates-mozilla = I’d like to receive product news and updates from { -brand-mozilla }
 next-new-user-subscribe-product-updates-snp = I’d like to receive security and privacy news and updates from { -brand-mozilla }
 next-new-user-subscribe-product-assurance = We only use your email to create your account. We will never sell it to a third party.
+
+## Examples of coupon applied
+## 20% OFF coupon applied: $11.20 + $0.35 tax
+## Holiday Offer 2023 coupon applied: 6,42 €
+## Cybersecurity Awareness Month 2023 coupon applied: $11.20 + $0.35 tax
+## Summer Promo VPN coupon applied: $11.20
+## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., 08/21/2025 for US locale, 21/08/25 for FR locale)
+## $invoiceTotal (Number) - The amount billed (excluding tax if tax does not exist). It will be formatted as currency.
+## $nextBillDate (Date) - The date for the next time a charge will occur (e.g., 08/21/2025 for US locale, 21/08/25 for FR locale)
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+## $promotionName (String) - The name of the promotion.
+## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
+
+subscription-content-promotion-applied-no-tax = { $promotionName } coupon applied: { $invoiceTotal }
+subscription-content-promotion-applied-with-tax = { $promotionName } coupon applied: { $invoiceTotal } + { $taxDue } tax
+subscription-content-current-with-tax = { $invoiceTotal } + { $taxDue } tax
+subscription-content-next-bill-no-tax = Next bill of { $invoiceTotal } is due { $nextBillDate }
+subscription-content-next-bill-with-tax = Next bill of { $invoiceTotal } + { $taxDue } tax is due { $nextBillDate }
+subscription-content-heading-cancel-subscription = Cancel Subscription
+subscription-content-no-longer-use-message = You will no longer be able to use { $productName } after { $currentPeriodEnd }, the last day of your billing cycle.
+subscription-content-cancel-access-message = Cancel my access and my saved information within { $productName } on { $currentPeriodEnd }
+subscription-content-button-stay-subscribed = Stay Subscribed
+    .aria-label = Stay subscribed to { $productName }
+subscription-content-button-cancel-subscription = Cancel Subscription
+    .aria-label = Cancel your subscription to { $productName }
+subscription-content-button-cancel = Cancel
+    .aria-label = Cancel your subscription to { $productName }
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.

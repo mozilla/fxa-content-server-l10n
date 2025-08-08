@@ -153,6 +153,11 @@ form-password-with-inline-criteria-reset-new-password =
 form-password-with-inline-criteria-confirm-password =
     .label = Confirm password
 form-password-with-inline-criteria-reset-submit-button = Create new password
+form-password-with-inline-criteria-set-password-new-password-label =
+    .label = Password
+form-password-with-inline-criteria-set-password-confirm-password-label =
+    .label = Repeat password
+form-password-with-inline-criteria-set-password-submit-button = Start syncing
 form-password-with-inline-criteria-match-error = Passwords do not match
 form-password-with-inline-criteria-sr-too-short-message = Password must contain at least 8 characters.
 form-password-with-inline-criteria-sr-not-email-message = Password must not contain your email address.
@@ -365,10 +370,12 @@ password-info-balloon-reset-risk-info = A reset means potentially losing data li
 ## These strings are conditions that need to be met to qualify as a strong password
 
 password-strength-long-instruction = Pick a strong password you haven’t used on other sites. Ensure it meets the security requirements:
+password-strength-short-instruction = Pick a strong password:
 password-strength-inline-min-length = At least 8 characters
 password-strength-inline-not-email = Not your email address
 password-strength-inline-not-common = Not a commonly used password
 password-strength-inline-confirmed-must-match = Confirmation matches the new password
+password-strength-inline-passwords-match = Passwords match
 
 ## Notification Promo Banner component
 
@@ -478,6 +485,12 @@ bento-menu-made-by-mozilla = Made by { -brand-mozilla }
 
 connect-another-fx-mobile = Get { -brand-firefox } on mobile or tablet
 connect-another-find-fx-mobile-2 = Find { -brand-firefox } in the { -google-play } and { -app-store }.
+# Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
+# These images are used to encourage users to download Firefox on their mobile devices.
+connect-another-play-store-image-2 =
+    .alt = Download { -brand-firefox } on { -google-play }
+connect-another-app-store-image-3 =
+    .alt = Download { -brand-firefox } on the { -app-store }
 
 ## Connected services section
 
@@ -649,6 +662,32 @@ flow-setup-2fa-backup-code-dl-heading = Save backup authentication codes
 flow-setup-2fa-backup-code-dl-save-these-codes = Keep these in a place you’ll remember. If you don’t have access to your authenticator app you’ll need to enter one to sign in.
 flow-setup-2fa-backup-code-dl-button-continue = Continue
 
+##
+
+flow-setup-2fa-inline-complete-success-banner = Two-step authentication enabled
+flow-setup-2fa-inline-complete-backup-code = Backup authentication codes
+flow-setup-2fa-inline-complete-backup-phone = Recovery phone
+# $count (Number) - an integer representing the number of backup
+# authentication codes remaining
+flow-setup-2fa-inline-complete-backup-code-info =
+    { $count ->
+        [one] { $count } code remaining
+       *[other] { $count } codes remaining
+    }
+flow-setup-2fa-inline-complete-backup-code-description = This is the safest recovery method if you can’t sign in with your mobile device or authenticator app.
+flow-setup-2fa-inline-complete-backup-phone-description = This is the easiest recovery method if you can’t sign in with your authenticator app.
+flow-setup-2fa-inline-complete-learn-more-link = How this protects your account
+# $serviceName (String) - the name of the product that the user will be
+# redirected to.
+flow-setup-2fa-inline-complete-continue-button = Continue to { $serviceName }
+flow-setup-2fa-prompt-heading = Set up two-step authentication
+# Variable { $serviceName } is the name of the product (e.g. Firefox Add-ons)
+# that requests two-step authentication setup.
+flow-setup-2fa-prompt-description = { $serviceName } requires you to set up two-step authentication to keep your account safe.
+# "these authenticator apps" links to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+flow-setup-2fa-prompt-use-authenticator-apps = You can use any of <authenticationAppsLink>these authenticator apps</authenticationAppsLink> to proceed.
+flow-setup-2fa-prompt-continue-button = Continue
+
 ## FlowSetupPhoneConfirmCode
 
 # verification code refers to a code sent by text message to confirm phone number ownership
@@ -687,6 +726,8 @@ header-menu-open = Close menu
 header-menu-closed = Site navigation menu
 header-back-to-top-link =
     .title = Back to top
+header-back-to-settings-link =
+    .title = Back to { -product-mozilla-account } settings
 header-title-2 = { -product-mozilla-account }
 header-help = Help
 
@@ -1161,6 +1202,7 @@ tfa-row-disable-modal-explain-1 =
 # Shown in an alert bar after two-step authentication is disabled
 tfa-row-disabled-2 = Two-step authentication disabled
 tfa-row-cannot-disable-2 = Two-step authentication could not be disabled
+tfa-row-verify-session-info = You need to confirm your current session to set up two-step authentication
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
