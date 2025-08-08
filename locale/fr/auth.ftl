@@ -170,8 +170,8 @@ automated-email-reset-pwd-plaintext-v3 = Si vous n’êtes pas à l’origine de
 # Followed by link to https://accounts.firefox.com/settings#two-step-authentication
 automated-email-reset-two-factor-plaintext = Réinitialisez également l’authentification en deux étapes sur :
 # $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
-banner-warning-message = { -brand-firefox } développeurs de modules ont récemment été ciblés par des attaques de phishing. Nous enverrons des courriels à propos de votre { -product-mozilla-account } uniquement depuis <a data-l10n-name="accountsEmailLink">{ $accountsEmail }</a>.
-banner-warning-message-plaintext = { -brand-firefox } développeurs de modules ont récemment été ciblés par des attaques de phishing. Nous enverrons uniquement des courriels concernant votre { -product-mozilla-account } à partir de ces adresses :
+banner-warning-message = Les développeurs de modules { -brand-firefox } ont récemment été la cible d’attaques de phishing. Nous enverrons des e-mails à propos de votre { -product-mozilla-account } uniquement depuis <a data-l10n-name="accountsEmailLink">{ $accountsEmail }</a>.
+banner-warning-message-plaintext = Les développeurs de modules { -brand-firefox } ont récemment été la cible d’attaques de phishing. Nous enverrons des e-mails à propos de votre { -product-mozilla-account } uniquement depuis l’adresse suivante :
 banner-warning-check = Vérifiez que l’appareil et l’emplacement auquel vous vous êtes connecté·e sont corrects.
 brand-banner-message = Saviez-vous que nous avons renommé les { -product-firefox-accounts } en { -product-mozilla-accounts } ? <a data-l10n-name="learnMore">En savoir plus</a>
 cancellationSurvey = Aidez-nous à améliorer nos services en répondant à <a data-l10n-name="cancellationSurveyUrl">ce court questionnaire</a>.
