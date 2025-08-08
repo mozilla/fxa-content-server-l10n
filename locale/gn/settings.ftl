@@ -1396,6 +1396,7 @@ inline-totp-setup-security-code-placeholder = Ayvu ñemoneĩgua
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-code-required-error = Ayvu ñemoneĩgua jerurepyre
 tfa-qr-code-alt = Eiporu { $code } ayvu emboheko hag̃ua ñemoneĩ mokõi jeku’épe tembiporu’i moneĩmbyre.
+inline-totp-setup-page-title = Ñemoneĩ mokõi jeku’épe
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
