@@ -169,6 +169,10 @@ automated-email-reset-pwd-two-factor =
 automated-email-reset-pwd-plaintext-v3 = As jo dizze aksje net útfierd hawwe, stel dan daliks jo wachtwurd opnij yn op:
 # Followed by link to https://accounts.firefox.com/settings#two-step-authentication
 automated-email-reset-two-factor-plaintext = Stel ek autentikaasje yn twa stappen opnij yn op:
+# $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
+banner-warning-message = Untwikkelders fan { -brand-firefox }-add-ons binne koartlyn it doel west fan phishing-oanfallen. Wy stjoere allinnich e-mailberjochten oer jo { -product-mozilla-account } fan <a data-l10n-name="accountsEmailLink">{ $accountsEmail }</a> ôf.
+banner-warning-message-plaintext = Untwikkelders fan { -brand-firefox }-add-ons binne koartlyn it doel west fan phishing-oanfallen. Wy stjoere allinnich e-mailberjochten oer jo { -product-mozilla-account } fan dit e-mailadres ôf:
+banner-warning-check = Kontrolearje oft it apparaat en de lokaasje wêr’t jo by oanmeld binne korrekt binne.
 brand-banner-message = Wisten jo dat wy ús namme wizige hawwe fan { -product-firefox-accounts } nei { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Mear ynfo</a>
 cancellationSurvey = Help ús de tsjinstferliening te ferbetterjen troch dizze <a data-l10n-name="cancellationSurveyUrl">koarte enkête</a> yn te foljen.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
