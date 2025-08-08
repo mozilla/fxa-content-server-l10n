@@ -145,6 +145,11 @@ form-password-with-inline-criteria-reset-new-password =
 form-password-with-inline-criteria-confirm-password =
     .label = אימות ססמה
 form-password-with-inline-criteria-reset-submit-button = יצירת ססמה חדשה
+form-password-with-inline-criteria-set-password-new-password-label =
+    .label = ססמה
+form-password-with-inline-criteria-set-password-confirm-password-label =
+    .label = חזרה על הססמה
+form-password-with-inline-criteria-set-password-submit-button = התחלה בסנכרון
 form-password-with-inline-criteria-match-error = הססמאות אינן תואמות
 form-password-with-inline-criteria-sr-too-short-message = הססמה חייבת להכיל לפחות 8 תווים.ת
 form-password-with-inline-criteria-sr-not-email-message = הססמה אינה יכולה להכיל את כתובת הדוא״ל שלך.
@@ -1133,6 +1138,7 @@ tfa-row-disable-modal-confirm = השבתה
 # Shown in an alert bar after two-step authentication is disabled
 tfa-row-disabled-2 = אימות דו־שלבי הושבת
 tfa-row-cannot-disable-2 = לא ניתן היה להשבית את האימות הדו־שלבי
+tfa-row-verify-session-info = עליך לאמת את ההפעלה הנוכחית שלך כדי להגדיר אימות דו־שלבי
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account

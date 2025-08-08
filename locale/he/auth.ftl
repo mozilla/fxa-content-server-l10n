@@ -166,6 +166,7 @@ automated-email-reset-two-factor-plaintext = בנוסף, יש לאפס את הא
 # $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
 banner-warning-message = מפתחי תוספות של { -brand-firefox } היו לאחרונה מטרה להתקפות דיוג בדוא״ל. אנו נשלח הודעות דוא״ל בנוגע ל{ -product-mozilla-account(case: "the") } שלך רק מ־<a data-l10n-name="accountsEmailLink">{ $accountsEmail }</a>.
 banner-warning-message-plaintext = מפתחי תוספות של { -brand-firefox } היו לאחרונה מטרה להתקפות דיוג בדוא״ל. אנו נשלח הודעות דוא״ל בנוגע ל{ -product-mozilla-account(case: "the") } שלך רק מכתובת הדוא״ל הזו:
+banner-warning-check = יש לוודא שהמכשיר והמיקום מהם התחברת נכונים.
 brand-banner-message = האם ידעת ששינינו את השם שלנו מ־{ -product-firefox-accounts } ל{ -product-mozilla-accounts }? <a data-l10n-name="learnMore">מידע נוסף</a>
 cancellationSurvey = באפשרותך לעזור לנו לשפר את השירותים שלך על־ידי מילוי <a data-l10n-name="cancellationSurveyUrl">סקר קצר</a> זה.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
@@ -266,6 +267,22 @@ device-all = ‏{ $uaBrowser } ב־{ $uaOS } { $uaOSVersion }
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 device-browser-os = ‏{ $uaBrowser } ב־{ $uaOS }
+# Variables:
+#  $city (String) - User's city
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-all = { $city }, { $stateCode }, { $country } (משוער)
+# Variables:
+#  $city (String) - User's city
+#  $country (String) - User's country
+location-city-country = ‏{ $city }, { $country } (משוער)
+# Variables:
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-state-country = ‏{ $stateCode }, { $country } (משוער)
+# Variables:
+#  $country (stateCode) - User's country
+location-country = { $country } (משוער)
 view-invoice = <a data-l10n-name="invoiceLink">הצגת החשבונית שלך</a>.
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
