@@ -155,6 +155,11 @@ form-password-with-inline-criteria-reset-new-password =
 form-password-with-inline-criteria-confirm-password =
     .label = დაადასტურეთ პაროლი
 form-password-with-inline-criteria-reset-submit-button = შეიყვანეთ ახალი პაროლი
+form-password-with-inline-criteria-set-password-new-password-label =
+    .label = პაროლი
+form-password-with-inline-criteria-set-password-confirm-password-label =
+    .label = გაიმეორეთ პაროლი
+form-password-with-inline-criteria-set-password-submit-button = დასინქ. დაწყება
 form-password-with-inline-criteria-match-error = პაროლები არ ემთხვევა
 form-password-with-inline-criteria-sr-too-short-message = პაროლი არანაკლებ 8 სიმბოლოსგან უნდა შედგებოდეს.
 form-password-with-inline-criteria-sr-not-email-message = პაროლი არ უნდა შეიცავდეს თქვენს ელფოსტას.
@@ -1201,6 +1206,7 @@ tfa-row-disable-modal-explain-1 =
 # Shown in an alert bar after two-step authentication is disabled
 tfa-row-disabled-2 = ორბიჯიანი დამოწმება შესვლისას გამორთულია
 tfa-row-cannot-disable-2 = ორბიჯიანი დამოწმება ვერ გამოირთვება
+tfa-row-verify-session-info = ორბიჯიანი შესვლის გასამართეთ თქვენი მიმდინარე სეანსის დამოწმება დაგჭირდებათ
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
