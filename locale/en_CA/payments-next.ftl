@@ -26,6 +26,16 @@ upgrade-page-acknowledgment = Your plan will change immediately, and you’ll be
 auth-error-page-title = We Couldn’t Sign You In
 checkout-error-boundary-retry-button = Try again
 checkout-error-boundary-basic-error-message = Something went wrong. Please try again or <contactSupportLink>contact support.</contactSupportLink>
+amex-logo-alt-text = { -brand-amex } logo
+diners-logo-alt-text = { -brand-diner } logo
+discover-logo-alt-text = { -brand-discover } logo
+jcb-logo-alt-text = { -brand-jcb } logo
+mastercard-logo-alt-text = { -brand-mastercard } logo
+paypal-logo-alt-text = { -brand-paypal } logo
+unionpay-logo-alt-text = { -brand-unionpay } logo
+visa-logo-alt-text = { -brand-visa } logo
+# Alt text for generic payment card logo
+unbranded-logo-alt-text = Unbranded logo
 
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -50,6 +60,7 @@ intent-payment-error-try-again = Hmm. There was a problem authorizing your payme
 intent-payment-error-get-in-touch = Hmm. There was a problem authorizing your payment. Get in touch with your card issuer.
 intent-payment-error-generic = An unexpected error has occurred while processing your payment, please try again.
 intent-payment-error-insufficient-funds = It looks like your card has insufficient funds. Try another card.
+general-paypal-error = An unexpected error has occurred while processing your payment, please try again.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -80,6 +91,27 @@ next-payment-confirmation-download-button = Continue to download
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Card ending in { $last4 }
 
+## Layout - Subscription Management
+
+subscription-management-account-profile-picture = Account profile picture
+
+## Page - Subscription Management
+
+subscription-management-account-credit-balance-heading = Account credit balance
+subscription-management-account-credit-balance-message = Credit will be automatically applied towards future invoices
+subscription-management-payment-information-heading = Payment Information
+subscription-management-button-add-payment-method-aria = Add payment method
+subscription-management-button-add-payment-method = Add
+subscription-management-button-change-payment-method-aria = Change payment method
+subscription-management-button-change-payment-method = Change
+# $last4 (String) - Last four numbers of credit card
+subscription-management-card-ending-in = Card ending in { $last4 }
+# $expirationDate (Date) - Payment card's expiration date
+subscription-management-card-expires-date = Expires { $expirationDate }
+subscription-management-subscriptions-heading = Subscriptions
+subscription-management-your-subscriptions-aria = Your subscriptions
+subscription-management-no-subscriptions = You don’t have any subscriptions yet
+
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
 
@@ -87,6 +119,13 @@ next-payment-confirmation-cc-card-ending-in = Card ending in { $last4 }
 page-not-found-title = Page not found
 page-not-found-description = The page you requested was not found. We’ve been notified and will fix any links that may be broken.
 page-not-found-back-button = Go Back
+
+## Navigation breadcrumbs
+
+# Link title - Account settings
+subscription-management-breadcrumb-account-home = Account Home
+# Link title - Subscriptions management
+subscription-management-breadcrumb-subscriptions = Subscriptions
 
 ## Component - Payment Consent Checkbox
 

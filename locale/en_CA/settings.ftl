@@ -1241,6 +1241,10 @@ auth-error-1067 = Mistyped email?
 # Variables:
 #  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
 recovery-phone-number-ending-digits = Number ending in { $lastFourPhoneNumber }
+# This error is shown when there is a particular kind of error at the very end of the 2FA flow
+# and the user should begin it again. A system/device clock not being synced to the internet time is
+# a common problem when using 2FA.
+two-factor-auth-setup-token-verification-error = There was a problem enabling two-step authentication. Check that your device’s clock is set to update automatically and <a>start over</a>.
 oauth-error-1000 = Something went wrong. Please close this tab and try again.
 
 ## Cannot Create Account page
@@ -1384,6 +1388,7 @@ inline-totp-setup-security-code-placeholder = Authentication code
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-code-required-error = Authentication code required
 tfa-qr-code-alt = Use the code { $code } to set up two-step authentication in supported applications.
+inline-totp-setup-page-title = Two-step authentication
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
@@ -1688,6 +1693,10 @@ signin-password-button-label = Password
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
 signin-desktop-relay = { -brand-firefox } will try sending you back to use an email mask after you sign in.
 signin-code-expired-error = Code expired. Please sign in again.
+signin-account-locked-banner-heading = Reset your password
+signin-account-locked-banner-description = We locked your account to keep it safe from suspicious activity.
+# This link points to https://accounts.firefox.com/reset_password
+signin-account-locked-banner-link = Reset your password to sign in
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
@@ -1898,6 +1907,7 @@ confirm-signup-code-desktop-relay = { -brand-firefox } will try sending you back
 signup-heading-v2 = Create a password
 signup-relay-info = A password is needed to securely manage your masked emails and access { -brand-mozilla }’s security tools.
 signup-sync-info = Sync your passwords, bookmarks, and more everywhere you use { -brand-firefox }.
+signup-sync-info-with-payment = Sync your passwords, payment methods, bookmarks, and more everywhere you use { -brand-firefox }.
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = Why do I need to create this account?
 # Link included in a dismissible info banner that is only displayed to Pocket clients
