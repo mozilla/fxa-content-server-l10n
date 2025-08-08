@@ -1216,6 +1216,7 @@ tfa-row-disable-modal-explain-1 =
 # Shown in an alert bar after two-step authentication is disabled
 tfa-row-disabled-2 = Dwukročelowa awtentifikacija znjemóžnjena
 tfa-row-cannot-disable-2 = Dwukročelowa awtentifikacija njeda so znjemóžnić
+tfa-row-verify-session-info = Dyrbiće swoje aktualne posedźenje wobkrućić, zo byšće dwukročelowu awtentifikaciju konfigurował
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account

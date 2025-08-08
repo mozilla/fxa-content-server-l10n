@@ -159,6 +159,11 @@ form-password-with-inline-criteria-reset-new-password =
 form-password-with-inline-criteria-confirm-password =
     .label = Gronidło wobkšuśiś
 form-password-with-inline-criteria-reset-submit-button = Nowe gronidło napóraś
+form-password-with-inline-criteria-set-password-new-password-label =
+    .label = Gronidło
+form-password-with-inline-criteria-set-password-confirm-password-label =
+    .label = Gronidło wóspjetowaś
+form-password-with-inline-criteria-set-password-submit-button = Synchronizaciju zachopiś
 form-password-with-inline-criteria-match-error = Gronidle njejstej jadnakej
 form-password-with-inline-criteria-sr-too-short-message = Gronidło musy nanejmjenjej 8 znamuškow wopśimowaś.
 form-password-with-inline-criteria-sr-not-email-message = Gronidło njesmějo wašu e-mailowu adresu wopśimowaś.
@@ -1211,6 +1216,7 @@ tfa-row-disable-modal-explain-1 =
 # Shown in an alert bar after two-step authentication is disabled
 tfa-row-disabled-2 = Dwójokšacowa awtentifikacija jo se znjemóžniła
 tfa-row-cannot-disable-2 = Dwójokšacowa awtentifikacija njedajo se znjemóžniś
+tfa-row-verify-session-info = Musyśo swójo aktualne pósejźenje wobkšuśiś, aby toś dwójokšacowu awtentifikaciju konfigurěrował
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account

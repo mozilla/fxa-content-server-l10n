@@ -172,6 +172,7 @@ automated-email-reset-two-factor-plaintext = Stajće tež dwukročelowu awtentif
 # $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
 banner-warning-message = Wuwiwarjo přidatkow { -brand-firefox } su njedawno cil e-mejlowych phishingowych nadpadow byli. Sćelemy mejlki wo wašim konće { -product-mozilla-account } jenož wot <a data-l10n-name="accountsEmailLink">{ $accountsEmail }</a>.
 banner-warning-message-plaintext = Wuwiwarjo přidatkow { -brand-firefox } su njedawno cil e-mejlowych phishingowych nadpadow byli. Sćelemy mejlki wo wašim konće { -product-mozilla-account } jenož wot tuteje e-mejloweje adresy:
+banner-warning-check = Přepruwujće, hač grat a městno, hdźež sće so přizjewił, stej korektnej.
 brand-banner-message = Sće wědźał, zo smy naše mjeno wot { -product-firefox-accounts } do { -product-mozilla-accounts } změnili? <a data-l10n-name="learnMore">Dalše informacije</a>
 cancellationSurvey = Prošu wobdźělće so na tutym <a data-l10n-name="cancellationSurveyUrl">krótkim naprašowanju</a>, zo byšće nam pomhał, naše słužby polěpšić.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
