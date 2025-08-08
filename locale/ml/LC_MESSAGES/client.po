@@ -266,7 +266,7 @@ msgstr ""
 
 #: .es5/models/reliers/browser.js:68
 msgid "Firefox"
-msgstr ""
+msgstr "Firefox"
 
 #: .es5/models/auth_brokers/base.js:88
 msgid "Primary email verified successfully"
