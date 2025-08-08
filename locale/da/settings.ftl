@@ -153,6 +153,11 @@ form-password-with-inline-criteria-reset-new-password =
 form-password-with-inline-criteria-confirm-password =
     .label = Bekræft adgangskode
 form-password-with-inline-criteria-reset-submit-button = Opret ny adgangskode
+form-password-with-inline-criteria-set-password-new-password-label =
+    .label = Adgangskode
+form-password-with-inline-criteria-set-password-confirm-password-label =
+    .label = Gentag adgangskode
+form-password-with-inline-criteria-set-password-submit-button = Start synkronisering
 form-password-with-inline-criteria-match-error = Adgangskoderne er ikke ens
 form-password-with-inline-criteria-sr-too-short-message = Adgangskoden skal indeholde mindst 8 tegn.
 form-password-with-inline-criteria-sr-not-email-message = Adgangskoden må ikke indeholde din mailadresse.
@@ -480,6 +485,12 @@ bento-menu-made-by-mozilla = Lavet af { -brand-mozilla }
 
 connect-another-fx-mobile = Få { -brand-firefox } på mobil eller tablet
 connect-another-find-fx-mobile-2 = Find { -brand-firefox } i { -google-play } og { -app-store }.
+# Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
+# These images are used to encourage users to download Firefox on their mobile devices.
+connect-another-play-store-image-2 =
+    .alt = Hent { -brand-firefox } på { -google-play }
+connect-another-app-store-image-3 =
+    .alt = Hent { -brand-firefox } på { -app-store }
 
 ## Connected services section
 
@@ -653,6 +664,32 @@ flow-setup-2fa-backup-code-dl-heading = Gem reserve-godkendelseskoder
 flow-setup-2fa-backup-code-dl-save-these-codes = Gem dem et sted, du kan huske. Du skal indtaste en kode for at logge ind, hvis du ikke har adgang til din godkendelsesapp.
 flow-setup-2fa-backup-code-dl-button-continue = Fortsæt
 
+##
+
+flow-setup-2fa-inline-complete-success-banner = Totrinsgodkendelse aktiveret
+flow-setup-2fa-inline-complete-backup-code = Reserve-godkendelseskoder
+flow-setup-2fa-inline-complete-backup-phone = Telefonnummer til genoprettelse
+# $count (Number) - an integer representing the number of backup
+# authentication codes remaining
+flow-setup-2fa-inline-complete-backup-code-info =
+    { $count ->
+        [one] { $count } kode tilbage
+       *[other] { $count } koder tilbage
+    }
+flow-setup-2fa-inline-complete-backup-code-description = Dette er den sikreste genoprettelsesmetode, hvis du ikke kan logge ind med din mobile enhed eller godkendelsesapp.
+flow-setup-2fa-inline-complete-backup-phone-description = Dette er den nemmeste genoprettelsesmetode, hvis du ikke kan logge ind med din godkendelsesapp.
+flow-setup-2fa-inline-complete-learn-more-link = Sådan beskytter det din konto
+# $serviceName (String) - the name of the product that the user will be
+# redirected to.
+flow-setup-2fa-inline-complete-continue-button = Fortsæt til { $serviceName }
+flow-setup-2fa-prompt-heading = Opsæt totrinsgodkendelse
+# Variable { $serviceName } is the name of the product (e.g. Firefox Add-ons)
+# that requests two-step authentication setup.
+flow-setup-2fa-prompt-description = { $serviceName } kræver, at du opsætter totrinsgodkendelse for at holde din konto sikker.
+# "these authenticator apps" links to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
+flow-setup-2fa-prompt-use-authenticator-apps = Du kan anvende enhver af <authenticationAppsLink>disse godkendelsesapps</authenticationAppsLink> for at fortsætte.
+flow-setup-2fa-prompt-continue-button = Fortsæt
+
 ## FlowSetupPhoneConfirmCode
 
 # verification code refers to a code sent by text message to confirm phone number ownership
@@ -691,6 +728,8 @@ header-menu-open = Luk menu
 header-menu-closed = Menu til websteds-navigation
 header-back-to-top-link =
     .title = Tilbage til toppen
+header-back-to-settings-link =
+    .title = Tilbage til { -product-mozilla-account }-indstillinger
 header-title-2 = { -product-mozilla-account }
 header-help = Hjælp
 
@@ -1166,6 +1205,7 @@ tfa-row-disable-modal-explain-1 =
 # Shown in an alert bar after two-step authentication is disabled
 tfa-row-disabled-2 = Totrinsgodkendelse deaktiveret
 tfa-row-cannot-disable-2 = Totrinsgodkendelse kunne ikke deaktiveres
+tfa-row-verify-session-info = Du skal bekræfte din nuværende session for at opsætte totrinsgodkendelse.
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
@@ -1246,6 +1286,10 @@ auth-error-1067 = Forkert indtastet mailadresse?
 # Variables:
 #  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
 recovery-phone-number-ending-digits = Nummer, der ender på { $lastFourPhoneNumber }
+# This error is shown when there is a particular kind of error at the very end of the 2FA flow
+# and the user should begin it again. A system/device clock not being synced to the internet time is
+# a common problem when using 2FA.
+two-factor-auth-setup-token-verification-error = Der opstod et problem med at aktivere totrinsgodkendelse. Kontroller at uret i din enhed er indstillet til at opdatere automatisk, og <a>start forfra</a>.
 oauth-error-1000 = Noget gik galt. Luk dette faneblad og prøv igen.
 
 ## Cannot Create Account page
@@ -1389,6 +1433,7 @@ inline-totp-setup-security-code-placeholder = Godkendelseskode
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-code-required-error = Godkendelseskode påkrævet
 tfa-qr-code-alt = Brug koden { $code } til at opsætte totrinsgodkendelse i understøttede applikationer.
+inline-totp-setup-page-title = Totrinsgodkendelse
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs

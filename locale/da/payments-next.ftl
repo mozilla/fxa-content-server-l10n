@@ -26,6 +26,16 @@ upgrade-page-acknowledgment = Din plan bliver ændret med det samme, og du vil b
 auth-error-page-title = Vi kunne ikke logge dig ind
 checkout-error-boundary-retry-button = Prøv igen
 checkout-error-boundary-basic-error-message = Noget gik galt. Prøv igen eller <contactSupportLink>kontakt support.</contactSupportLink>
+amex-logo-alt-text = { -brand-amex }-logo
+diners-logo-alt-text = { -brand-diner }-logo
+discover-logo-alt-text = { -brand-discover }-logo
+jcb-logo-alt-text = { -brand-jcb }-logo
+mastercard-logo-alt-text = { -brand-mastercard }-logo
+paypal-logo-alt-text = { -brand-paypal }-logo
+unionpay-logo-alt-text = { -brand-unionpay }-logo
+visa-logo-alt-text = { -brand-visa }-logo
+# Alt text for generic payment card logo
+unbranded-logo-alt-text = Umærket logo
 
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -50,6 +60,7 @@ intent-payment-error-try-again = Hmm. Der opstod et problem med at godkende din 
 intent-payment-error-get-in-touch = Hmm. Der opstod et problem med at godkende din betaling. Kontakt din kortudsteder.
 intent-payment-error-generic = Der opstod en uventet fejl under behandlingen af din betaling. Prøv igen.
 intent-payment-error-insufficient-funds = Det ser ud til, at der ikke er penge nok på dit kort. Prøv et andet kort.
+general-paypal-error = Der opstod en uventet fejl under behandlingen af din betaling. Prøv igen.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -80,13 +91,59 @@ next-payment-confirmation-download-button = Fortsæt til hentning
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Kort, der ender på { $last4 }
 
+## Layout - Subscription Management
+
+subscription-management-account-profile-picture = Kontoens profilbillede
+
+## Page - Subscription Management
+
+subscription-management-account-credit-balance-heading = Tilgodehavender på kontoen
+subscription-management-account-credit-balance-message = Tilgodehavende vil automatisk blive brugt til fremtidige fakturaer.
+subscription-management-payment-information-heading = Betalingsinformation
+subscription-management-button-add-payment-method-aria = Tilføj betalingsmetode
+subscription-management-button-add-payment-method = Tilføj
+subscription-management-button-change-payment-method-aria = Skift betalingsmetode
+subscription-management-button-change-payment-method = Skift
+# $last4 (String) - Last four numbers of credit card
+subscription-management-card-ending-in = Kort, der ender på { $last4 }
+# $expirationDate (Date) - Payment card's expiration date
+subscription-management-card-expires-date = Udløber { $expirationDate }
+subscription-management-subscriptions-heading = Abonnementer
+subscription-management-your-subscriptions-aria = Dine abonnementer
+subscription-management-no-subscriptions = Du har ingen abonnementer endnu.
+subscription-management-your-apple-iap-subscriptions-aria = Dine { -brand-apple }-abonnementer købt i appen
+subscription-management-apple-in-app-purchase = { -brand-apple }: Køb i appen
+subscription-management-your-google-iap-subscriptions-aria = Dine { -brand-google }-abonnementer købt i appen
+subscription-management-google-in-app-purchase = { -brand-google }: Køb i appen
+# $date (String) - Date of next bill
+subscription-management-iap-sub-next-bill = Næste fakturering den { $date }
+# $date (String) - Date of In-App purchase expires
+subscription-management-iap-sub-expires-on = Udløber den { $date }
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscription-management-button-manage-subscription-aria = Håndter abonnement på { $productName }
+subscription-management-button-manage-subscription = Håndter
+
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
 
+subscription-management-page-subscription-interval-daily = { $productName } (dagligt)
+subscription-management-page-subscription-interval-weekly = { $productName } (ugentligt)
+subscription-management-page-subscription-interval-monthly = { $productName } (månedligt)
+subscription-management-page-subscription-interval-halfyearly = { $productName } (6 måneder)
+subscription-management-page-subscription-interval-yearly = { $productName } (årligt)
 # Page - Not Found
 page-not-found-title = Siden blev ikke fundet
 page-not-found-description = Den ønskede side blev ikke fundet. Vi har fået besked og vil rette links, der ikke virker.
 page-not-found-back-button = Gå tilbage
+
+## Navigation breadcrumbs
+
+# Link title - Account settings
+subscription-management-breadcrumb-account-home = Startside for konto
+# Link title - Subscriptions management
+subscription-management-breadcrumb-subscriptions = Abonnementer
+# Link title - Payment method management
+subscription-management-breadcrumb-payment = Betalingsmetoder
 
 ## Component - Payment Consent Checkbox
 
@@ -142,6 +199,14 @@ payments-client-loading-spinner =
     .aria-label = Indlæser…
     .alt = Indlæser…
 
+## Payment method management page - Stripe
+
+# Save button for changing which payment method will be used
+payment-method-management-save-default = Angiv som standardbetalingsmetode
+# Save button for saving a new payment method
+payment-method-management-save-method = Gem betalingsmetode
+manage-stripe-payments-title = Håndter betalingsmetoder
+
 ## Payment Section
 
 next-new-user-card-title = Indtast oplysninger om dit betalingskort
@@ -150,6 +215,8 @@ next-new-user-card-title = Indtast oplysninger om dit betalingskort
 
 next-plan-details-header = Produktdetaljer
 next-plan-details-list-price = Listepris
+# $productName (String) - The name of the product, e.g. Mozilla VPN
+plan-details-product-prorated-price = Forholdsmæssig pris for { $productName }
 next-plan-details-tax = Skatter og gebyrer
 next-plan-details-total-label = I alt
 # "Unused time" refers to the remaining value of the current subscription that hasn't been used yet
@@ -195,6 +262,33 @@ next-new-user-subscribe-product-updates-mdnplus = Jeg vil gerne modtage nyheder 
 next-new-user-subscribe-product-updates-mozilla = Jeg vil gerne modtage nyheder om produkter og opdateringer fra { -brand-mozilla }
 next-new-user-subscribe-product-updates-snp = Jeg vil gerne modtage nyheder om privatlivsbeskyttelse og opdateringer fra { -brand-mozilla }
 next-new-user-subscribe-product-assurance = Vi bruger kun din mailadresse til at oprette din konto. Vi vil aldrig sælge den til en tredjepart.
+
+## Examples of coupon applied
+## 20% OFF coupon applied: $11.20 + $0.35 tax
+## Holiday Offer 2023 coupon applied: 6,42 €
+## Cybersecurity Awareness Month 2023 coupon applied: $11.20 + $0.35 tax
+## Summer Promo VPN coupon applied: $11.20
+## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., 08/21/2025 for US locale, 21/08/25 for FR locale)
+## $invoiceTotal (Number) - The amount billed (excluding tax if tax does not exist). It will be formatted as currency.
+## $nextBillDate (Date) - The date for the next time a charge will occur (e.g., 08/21/2025 for US locale, 21/08/25 for FR locale)
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+## $promotionName (String) - The name of the promotion.
+## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
+
+subscription-content-promotion-applied-no-tax = { $promotionName }-kupon anvendt: { $invoiceTotal }
+subscription-content-promotion-applied-with-tax = { $promotionName }-kupon anvendt: { $invoiceTotal } + { $taxDue } skat
+subscription-content-current-with-tax = { $invoiceTotal } + { $taxDue } skat
+subscription-content-next-bill-no-tax = Den næste regning på { $invoiceTotal } forfalder den { $nextBillDate }
+subscription-content-next-bill-with-tax = Den næste regning på{ $invoiceTotal } + { $taxDue } skat forfalder den { $nextBillDate }
+subscription-content-heading-cancel-subscription = Annuller abonnement
+subscription-content-no-longer-use-message = Du vil ikke længere kunne bruge { $productName } efter { $currentPeriodEnd }, der er den sidste dag i din faktureringsperiode.
+subscription-content-cancel-access-message = Annuller min adgang og kassér mine informationer gemt i { $productName } den { $currentPeriodEnd }
+subscription-content-button-stay-subscribed = Fortsæt abonnement
+    .aria-label = Fortsæt abonnement på { $productName }
+subscription-content-button-cancel-subscription = Annuller abonnement
+    .aria-label = Annuller abonnement på { $productName }
+subscription-content-button-cancel = Annuller
+    .aria-label = Annuller dit abonnement på { $productName }
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
