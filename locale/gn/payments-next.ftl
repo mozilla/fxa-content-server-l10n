@@ -34,6 +34,8 @@ mastercard-logo-alt-text = { -brand-mastercard } ra’ãnga’i
 paypal-logo-alt-text = { -brand-paypal } ra’ãnga’i
 unionpay-logo-alt-text = { -brand-unionpay } ra’ãnga’i
 visa-logo-alt-text = { -brand-visa } ra’ãnga’i
+# Alt text for generic payment card logo
+unbranded-logo-alt-text = Ne mba’ete oñemo’ã
 
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -58,6 +60,7 @@ intent-payment-error-try-again = Épa. Oiko apañuái ehepyme’ẽnguévo. Eha�
 intent-payment-error-get-in-touch = Épa. Oĩ apañuái ehepyme’ẽnguévo. Eñe’ẽ pya’eterei nde kuatia’atã me’ẽha ndive.
 intent-payment-error-generic = Oiko peteĩ jejavy eha’ãrõ’ỹva ehepyme’ẽnguévo. Eha’ã jey uperireve.
 intent-payment-error-insufficient-funds = Nde kuatia’atã ñemurã ndaiviruvéima. Eiporu ambue kuatia’atã.
+general-paypal-error = Oiko peteĩ jejavy eha’ãrõ’ỹva ehepyme’ẽnguévo. Ikatúpiko eha’ãjey uperire.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -88,6 +91,10 @@ next-payment-confirmation-download-button = Emboguejy ehóvo
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = Kuatia’atã opáva { $last4 }-pe
 
+## Layout - Subscription Management
+
+subscription-management-account-profile-picture = Ta’ãnga mba’etepegua
+
 ## Page - Subscription Management
 
 subscription-management-button-add-payment-method = Mbojuaju
@@ -103,10 +110,24 @@ subscription-management-button-manage-subscription = Ñangareko
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
 
+subscription-management-page-subscription-interval-daily = { $productName } (aragua)
+subscription-management-page-subscription-interval-weekly = { $productName } (arapokõindygua)
+subscription-management-page-subscription-interval-monthly = { $productName } (jasygua)
+subscription-management-page-subscription-interval-halfyearly = { $productName } (6-jasygua)
+subscription-management-page-subscription-interval-yearly = { $productName } (arygua)
 # Page - Not Found
 page-not-found-title = Kuatiarogue ojejuhu’ỹva
 page-not-found-description = Ndojejuhúi kuatiarogue ejeruréva. Og̃uahẽ ne mba’ejerure ha romoĩporãta juajuha ikatúva oñembyai.
 page-not-found-back-button = Guevijey
+
+## Navigation breadcrumbs
+
+# Link title - Account settings
+subscription-management-breadcrumb-account-home = Mba’ete Moñepyrũ
+# Link title - Subscriptions management
+subscription-management-breadcrumb-subscriptions = Ñemboheraguapy
+# Link title - Payment method management
+subscription-management-breadcrumb-payment = Mba’éicha ehepyme’ẽta
 
 ## Component - Payment Consent Checkbox
 
@@ -215,6 +236,20 @@ next-new-user-subscribe-product-updates-mdnplus = Hi’ã og̃uahẽ marandu ha 
 next-new-user-subscribe-product-updates-mozilla = Hi’ã og̃uahẽ marandu ha ñembohekopyahu { -brand-mozilla } apopyre rehegua
 next-new-user-subscribe-product-updates-snp = Hi’ã og̃uahẽ marandu ha ñembohekopyahu { -brand-mozilla } guive tekorosã rehegua
 next-new-user-subscribe-product-assurance = Roiporu ne ñanduti veve romoheñói hag̃ua mba’ete añónte. Araka’eve norome’ẽmo’ãi ambuépe.
+
+## Examples of coupon applied
+## 20% OFF coupon applied: $11.20 + $0.35 tax
+## Holiday Offer 2023 coupon applied: 6,42 €
+## Cybersecurity Awareness Month 2023 coupon applied: $11.20 + $0.35 tax
+## Summer Promo VPN coupon applied: $11.20
+## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., 08/21/2025 for US locale, 21/08/25 for FR locale)
+## $invoiceTotal (Number) - The amount billed (excluding tax if tax does not exist). It will be formatted as currency.
+## $nextBillDate (Date) - The date for the next time a charge will occur (e.g., 08/21/2025 for US locale, 21/08/25 for FR locale)
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+## $promotionName (String) - The name of the promotion.
+## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
+
+subscription-content-heading-cancel-subscription = Mboheraguapy jeheja
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
