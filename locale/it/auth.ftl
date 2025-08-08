@@ -168,9 +168,9 @@ automated-email-reset-pwd-plaintext-v3 = Se non sei stato tu a eseguire questa o
 # Followed by link to https://accounts.firefox.com/settings#two-step-authentication
 automated-email-reset-two-factor-plaintext = Reimposta l’autenticazione in due passaggi anche su:
 # $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
-banner-warning-message = Recentemente { -brand-firefox } sviluppatori di componenti aggiuntivi sono stati presi di mira da attacchi di phishing via email. Invieremo email relative al tuo { -product-mozilla-account } solo da <a data-l10n-name="accountsEmailLink">{ $accountsEmail }</a>.
-banner-warning-message-plaintext = Recentemente { -brand-firefox } sviluppatori di componenti aggiuntivi sono stati presi di mira da attacchi di phishing via email. Invieremo email relative al tuo { -product-mozilla-account } solo da questo indirizzo email:
-banner-warning-check = Verifica che il dispositivo e la posizione con cui hai effettuato l’accesso siano corretti.
+banner-warning-message = Recentemente gli sviluppatori di componenti aggiuntivi per { -brand-firefox } sono stati presi di mira da attacchi phishing via email. Ti ricordiamo che tutte le email relative al tuo { -product-mozilla-account } vengono inviate solo da <a data-l10n-name="accountsEmailLink">{ $accountsEmail }</a>.
+banner-warning-message-plaintext = Recentemente gli sviluppatori di componenti aggiuntivi per { -brand-firefox } sono stati presi di mira da attacchi phishing via email. Ti ricordiamo che tutte le email relative al tuo { -product-mozilla-account } vengono inviate solo da questo indirizzo email:
+banner-warning-check = Verifica che il dispositivo e la posizione da cui hai effettuato l’accesso siano corretti.
 brand-banner-message = Lo sapevi che abbiamo cambiato nome da { -product-firefox-accounts } ad { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Ulteriori informazioni</a>
 cancellationSurvey = Aiutaci a migliorare i nostri servizi partecipando a questo <a data-l10n-name="cancellationSurveyUrl">breve sondaggio</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
