@@ -169,7 +169,7 @@ automated-email-reset-pwd-plaintext-v3 = Ha nem Ön végezte ezt a műveletet, a
 automated-email-reset-two-factor-plaintext = Állítsa vissza a kétlépcsős hitelesítést is itt:
 # $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
 banner-warning-message = A { -brand-firefox }-kiegészítők fejlesztőit adathalász e-mailes támadások célozták a közelmúltban. Mi csak a következő címről küldünk a { -product-mozilla-account }jával kapcsolatos levelet: <a data-l10n-name="accountsEmailLink">{ $accountsEmail }</a>.
-banner-warning-message-plaintext = { -brand-firefox } kiegészítőfejlesztő került adathalász e-mailes támadások céljára a közelmúltban. Ebből az e-mail címből csak a(z) { -product-mozilla-account } e-mail címről fogunk küldeni levelet:
+banner-warning-message-plaintext = A { -brand-firefox }-kiegészítők fejlesztőit adathalász e-mailes támadások célozták a közelmúltban. Mi csak a következő címről küldünk a { -product-mozilla-account }jával kapcsolatos levelet:
 banner-warning-check = Ellenőrizze, hogy az eszköz és a hely megfelelő-e, ahová bejelentkezett.
 brand-banner-message = Tudta, hogy megváltoztattuk a nevünket { -product-firefox-accounts }ról { -product-mozilla-accounts }ra? <a data-l10n-name="learnMore">További tudnivalók</a>
 cancellationSurvey = Segítsen bennünket szolgáltatásunk fejlesztésében azzal, hogy kitölti ezt a <a data-l10n-name="cancellationSurveyUrl">rövid kérdőívet</a>.

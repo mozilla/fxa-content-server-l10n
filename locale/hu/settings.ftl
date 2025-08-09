@@ -1208,7 +1208,7 @@ tfa-row-disable-modal-explain-1 =
 # Shown in an alert bar after two-step authentication is disabled
 tfa-row-disabled-2 = Kétlépcsős hitelesítés letiltva
 tfa-row-cannot-disable-2 = A kétlépcsős hitelesítést nem lehetett letiltani
-tfa-row-verify-session-info = A kétlépcsős hitelesítés beállításához meg kell erősítenie az aktuális munkamenetet
+tfa-row-verify-session-info = A kétlépcsős hitelesítés beállításához meg kell erősítenie a jelenlegi munkamenetet
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
