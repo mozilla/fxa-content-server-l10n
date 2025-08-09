@@ -60,6 +60,7 @@ intent-payment-error-try-again = 嗯… 在授权您的付款时出现问题。�
 intent-payment-error-get-in-touch = 嗯… 在授权您的付款时出现问题，请联系您的发卡机构。
 intent-payment-error-generic = 处理付款时发生意外错误，请重试。
 intent-payment-error-insufficient-funds = 您的卡余额不足，请改用其他卡。
+general-paypal-error = 处理付款时发生意外错误，请重试。
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -96,6 +97,8 @@ subscription-management-account-profile-picture = 账户头像
 
 ## Page - Subscription Management
 
+subscription-management-account-credit-balance-heading = 账户余额
+subscription-management-account-credit-balance-message = 余额将于以后付款时自动抵用。
 subscription-management-payment-information-heading = 付款信息
 subscription-management-button-add-payment-method-aria = 添加付款方式
 subscription-management-button-add-payment-method = 添加
@@ -123,6 +126,11 @@ subscription-management-button-manage-subscription = 管理
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
 
+subscription-management-page-subscription-interval-daily = { $productName }（日付）
+subscription-management-page-subscription-interval-weekly = { $productName }（周付）
+subscription-management-page-subscription-interval-monthly = { $productName }（月付）
+subscription-management-page-subscription-interval-halfyearly = { $productName }（半年付）
+subscription-management-page-subscription-interval-yearly = { $productName }（年付）
 # Page - Not Found
 page-not-found-title = 找不到页面
 page-not-found-description = 找不到您要打开的页面。我们已获悉此问题，并将修复可能出现问题的链接。
@@ -134,6 +142,8 @@ page-not-found-back-button = 返回
 subscription-management-breadcrumb-account-home = 账户主页
 # Link title - Subscriptions management
 subscription-management-breadcrumb-subscriptions = 订阅
+# Link title - Payment method management
+subscription-management-breadcrumb-payment = 付款方式
 
 ## Component - Payment Consent Checkbox
 
@@ -188,6 +198,14 @@ payments-header-avatar-expanded-sign-out = 退出
 payments-client-loading-spinner =
     .aria-label = 正在加载…
     .alt = 正在加载…
+
+## Payment method management page - Stripe
+
+# Save button for changing which payment method will be used
+payment-method-management-save-default = 设为默认付款方式
+# Save button for saving a new payment method
+payment-method-management-save-method = 保存付款方式
+manage-stripe-payments-title = 管理付款方式
 
 ## Payment Section
 
@@ -244,6 +262,30 @@ next-new-user-subscribe-product-updates-mdnplus = 我愿意接收来自 { -produ
 next-new-user-subscribe-product-updates-mozilla = 我愿意接收来自 { -brand-mozilla } 的产品新闻和更新
 next-new-user-subscribe-product-updates-snp = 我愿意接收来自 { -brand-mozilla } 的安全和隐私新闻及更新
 next-new-user-subscribe-product-assurance = 我们只会使用您的邮箱地址来创建账户，绝不会将其出售予第三方。
+
+## Examples of coupon applied
+## 20% OFF coupon applied: $11.20 + $0.35 tax
+## Holiday Offer 2023 coupon applied: 6,42 €
+## Cybersecurity Awareness Month 2023 coupon applied: $11.20 + $0.35 tax
+## Summer Promo VPN coupon applied: $11.20
+## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., 08/21/2025 for US locale, 21/08/25 for FR locale)
+## $invoiceTotal (Number) - The amount billed (excluding tax if tax does not exist). It will be formatted as currency.
+## $nextBillDate (Date) - The date for the next time a charge will occur (e.g., 08/21/2025 for US locale, 21/08/25 for FR locale)
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+## $promotionName (String) - The name of the promotion.
+## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
+
+subscription-content-promotion-applied-no-tax = 已使用 { $promotionName } 折扣码：{ $invoiceTotal }
+subscription-content-promotion-applied-with-tax = 已使用 { $promotionName } 折扣码：{ $invoiceTotal } + 税费 { $taxDue }
+subscription-content-current-with-tax = { $invoiceTotal } + 税费 { $taxDue }
+subscription-content-no-longer-use-message = 在账单周期的最后一天（{ $currentPeriodEnd }）过后，您将无法继续使用 { $productName }。
+subscription-content-cancel-access-message = 在 { $currentPeriodEnd } 后取消我的 { $productName } 使用权，并删除保存的信息
+subscription-content-button-stay-subscribed = 继续订阅
+    .aria-label = 继续订阅 { $productName }
+subscription-content-button-cancel-subscription = 取消订阅
+    .aria-label = 取消订阅 { $productName }
+subscription-content-button-cancel = 取消
+    .aria-label = 取消订阅 { $productName }
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.

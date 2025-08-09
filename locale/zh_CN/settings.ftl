@@ -468,6 +468,12 @@ bento-menu-made-by-mozilla = { -brand-mozilla } 出品
 
 connect-another-fx-mobile = 下载适用于手机或平板电脑的 { -brand-firefox }
 connect-another-find-fx-mobile-2 = 在 { -google-play } 和 { -app-store } 上查找 { -brand-firefox }。
+# Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
+# These images are used to encourage users to download Firefox on their mobile devices.
+connect-another-play-store-image-2 =
+    .alt = 到 { -google-play } 下载 { -brand-firefox }
+connect-another-app-store-image-3 =
+    .alt = 到 { -app-store } 下载 { -brand-firefox }
 
 ## Connected services section
 
@@ -1385,6 +1391,7 @@ inline-totp-setup-security-code-placeholder = 验证码
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-code-required-error = 请输入验证码
 tfa-qr-code-alt = 使用安全码 { $code } 在支持的应用程序中设置两步验证。
+inline-totp-setup-page-title = 两步验证
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
