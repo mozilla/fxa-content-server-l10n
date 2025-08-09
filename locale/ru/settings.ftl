@@ -156,6 +156,11 @@ form-password-with-inline-criteria-reset-new-password =
 form-password-with-inline-criteria-confirm-password =
     .label = Подтвердите пароль
 form-password-with-inline-criteria-reset-submit-button = Создать новый пароль
+form-password-with-inline-criteria-set-password-new-password-label =
+    .label = Пароль
+form-password-with-inline-criteria-set-password-confirm-password-label =
+    .label = Повторите пароль
+form-password-with-inline-criteria-set-password-submit-button = Начать синхронизацию
 form-password-with-inline-criteria-match-error = Пароли не совпадают
 form-password-with-inline-criteria-sr-too-short-message = Пароль должен содержать не менее 8 символов.
 form-password-with-inline-criteria-sr-not-email-message = Пароль не должен содержать ваш адрес электронной почты.
@@ -1202,6 +1207,7 @@ tfa-row-disable-modal-explain-1 =
 # Shown in an alert bar after two-step authentication is disabled
 tfa-row-disabled-2 = Двухэтапная аутентификация отключена
 tfa-row-cannot-disable-2 = Двухэтапная аутентификация не может быть отключена
+tfa-row-verify-session-info = Вам необходимо подтвердить свою текущую сессию для настройки двухэтапной аутентификации
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account

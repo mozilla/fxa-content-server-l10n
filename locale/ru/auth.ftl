@@ -169,6 +169,10 @@ automated-email-reset-pwd-two-factor =
 automated-email-reset-pwd-plaintext-v3 = Если вы не производили это действие, немедленно сбросьте свой пароль на:
 # Followed by link to https://accounts.firefox.com/settings#two-step-authentication
 automated-email-reset-two-factor-plaintext = Также сбросьте двухэтапную аутентификацию на:
+# $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
+banner-warning-message = В последнее время разработчики дополнений { -brand-firefox } стали жертвами фишинговых атак. Мы будем отправлять электронные письма о вашем { -product-mozilla-account } только с <a data-l10n-name="accountsEmailLink">{ $accountsEmail }</a>.
+banner-warning-message-plaintext = В последнее время разработчики дополнений { -brand-firefox } стали жертвами фишинговых атак. Мы будем отправлять электронные письма о вашем { -product-mozilla-account } только с этого адреса электронной почты:
+banner-warning-check = Проверьте корректность устройства и местоположения, с которых вы вошли.
 brand-banner-message = Знаете ли вы, что мы изменили наше название с «{ -product-firefox-accounts }» на «{ -product-mozilla-accounts }»? <a data-l10n-name="learnMore">Подробнее</a>
 cancellationSurvey = Пожалуйста, помогите нам улучшить наши службы, приняв участие в этом <a data-l10n-name="cancellationSurveyUrl">кратком опросе</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
@@ -267,6 +271,22 @@ device-all = { $uaBrowser } на { $uaOS } { $uaOSVersion }
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 device-browser-os = { $uaBrowser } на { $uaOS }
+# Variables:
+#  $city (String) - User's city
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-all = { $city }, { $stateCode }, { $country } (приблизительно)
+# Variables:
+#  $city (String) - User's city
+#  $country (String) - User's country
+location-city-country = { $city }, { $country } (приблизительно)
+# Variables:
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-state-country = { $stateCode }, { $country } (приблизительно)
+# Variables:
+#  $country (stateCode) - User's country
+location-country = { $country } (приблизительно)
 view-invoice = <a data-l10n-name="invoiceLink">Просмотрите свой счёт-фактуру</a>.
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
