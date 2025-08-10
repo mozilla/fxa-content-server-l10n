@@ -1202,11 +1202,11 @@ terms-privacy-agreement-intro-2 = Ved å fortsette godtar du:
 # links to Pocket's Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-pocket-2 = { -product-pocket } <pocketTos>Tjenestevilkår</pocketTos> og <pocketPrivacy>personvernerklæring</pocketPrivacy>
 # link to Monitor's Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-monitor-3 = { -brand-mozilla } Abonnementstjenester <mozSubscriptionTosLink>tjenestevilkår</mozSubscriptionTosLink> og <mozSubscriptionPrivacyLink>personvernerklæring</mozSubscriptionPrivacyLink>
+terms-privacy-agreement-monitor-3 = { -brand-mozilla } Abonnementstjenester <mozSubscriptionTosLink>bruksvilkår</mozSubscriptionTosLink> og <mozSubscriptionPrivacyLink>personvernerklæring</mozSubscriptionPrivacyLink>
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
-terms-privacy-agreement-mozilla = { -product-mozilla-accounts(capitalization: "uppercase") } <mozillaAccountsTos>tjenestevilkår</mozillaAccountsTos> og <mozillaAccountsPrivacy>personvernerklæring</mozillaAccountsPrivacy>
+terms-privacy-agreement-mozilla = { -product-mozilla-accounts(capitalization: "uppercase") } <mozillaAccountsTos>bruksvilkår</mozillaAccountsTos> og <mozillaAccountsPrivacy>personvernerklæring</mozillaAccountsPrivacy>
 # links to Mozilla Account's Terms of Service and Privacy Notice
-terms-privacy-agreement-default-2 = Ved å fortsette godtar du <mozillaAccountsTos>tjenestevilkårene</mozillaAccountsTos> og <mozillaAccountsPrivacy>personvernerklæringen</mozillaAccountsPrivacy>.
+terms-privacy-agreement-default-2 = Ved å fortsette godtar du <mozillaAccountsTos>bruksvilkårene</mozillaAccountsTos> og <mozillaAccountsPrivacy>personvernerklæringen</mozillaAccountsPrivacy>.
 
 ## ThirdPartyAuth component
 ## This is a component that is used to display a list of third party providers (Apple, Google, etc.)

@@ -147,7 +147,7 @@ subscription-management-breadcrumb-payment = Betalingsmåter
 
 ## Component - Payment Consent Checkbox
 
-next-payment-confirm-with-legal-links-static-3 = Jeg autoriserer { -brand-mozilla }, til å belaste betalingsmåten min for beløpet som vises, i henhold til <termsOfServiceLink>Tjenestevilkår</termsOfServiceLink> og <privacyNoticeLink>Personvernerklæring</privacyNoticeLink>, inntil jeg sier opp abonnementet mitt.
+next-payment-confirm-with-legal-links-static-3 = Jeg autoriserer { -brand-mozilla }, til å belaste betalingsmåten min for beløpet som vises, i henhold til <termsOfServiceLink>bruksvilkår</termsOfServiceLink> og <privacyNoticeLink>personvernerklæring</privacyNoticeLink>, inntil jeg sier opp abonnementet mitt.
 next-payment-confirm-checkbox-error = Du må fullføre dette før du går videre
 
 ## Checkout Form
