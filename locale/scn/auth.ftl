@@ -260,6 +260,22 @@ device-all = { $uaBrowser } pi { $uaOS } { $uaOSVersion }
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 device-browser-os = { $uaBrowser } pi { $uaOS }
+# Variables:
+#  $city (String) - User's city
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-all = { $city }, { $stateCode }, { $country } (stimatu)
+# Variables:
+#  $city (String) - User's city
+#  $country (String) - User's country
+location-city-country = { $city }, { $country } (stimatu)
+# Variables:
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-state-country = { $stateCode }, { $country } (stimatu)
+# Variables:
+#  $country (stateCode) - User's country
+location-country = { $country } (stimatu)
 view-invoice = <a data-l10n-name="invoiceLink">Vidi a to fattura</a>.
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
@@ -354,6 +370,9 @@ passwordChanged-subject = Chiavi attualizzata
 passwordChanged-title = A chiavi fu canciata
 passwordChanged-description-2 = A chiavi dû { -product-mozilla-account } fu canciata di stu dispusitivu:
 passwordChangeRequired-subject = Attruvammu n’attività suspetta
+passwordChangeRequired-preview = Cancia sùbbitu a to chiavi
+passwordChangeRequired-title-2 = Risetta a to chiavi
+passwordChangeRequired-suspicious-activity-3 = Bluccammu u to cuntu pi tinìrilu ô sicuru di attività suspetti. Ti scullijammu di tutti i to dispusitivi e tutti i dati sincrunizzati foru scancillati pi pricauzzioni.
 password-forgot-otp-subject = Ti scurdasti a chiavi?
 password-forgot-otp-title = Ti scurdasti a chiavi?
 password-forgot-otp-request = Ricivemmu na dumanna di canciu dâ chiavi dû to { -product-mozilla-account } di:
