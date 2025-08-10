@@ -153,6 +153,11 @@ form-password-with-inline-criteria-reset-new-password =
 form-password-with-inline-criteria-confirm-password =
     .label = Potwierdź hasło
 form-password-with-inline-criteria-reset-submit-button = Utwórz nowe hasło
+form-password-with-inline-criteria-set-password-new-password-label =
+    .label = Hasło
+form-password-with-inline-criteria-set-password-confirm-password-label =
+    .label = Powtórz hasło
+form-password-with-inline-criteria-set-password-submit-button = Zacznij synchronizować
 form-password-with-inline-criteria-match-error = Hasła są niezgodne
 form-password-with-inline-criteria-sr-too-short-message = Hasło musi mieć co najmniej 8 znaków.
 form-password-with-inline-criteria-sr-not-email-message = Hasło nie może zawierać Twojego adresu e-mail.
@@ -484,6 +489,8 @@ connect-another-find-fx-mobile-2 = Znajdź { -brand-firefox(case: "acc") } w { 
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image-2 =
     .alt = Pobierz { -brand-firefox(case: "acc") } z { -google-play }
+connect-another-app-store-image-3 =
+    .alt = Pobierz { -brand-firefox(case: "acc") } na { -app-store }
 
 ## Connected services section
 
@@ -679,9 +686,9 @@ flow-setup-2fa-inline-complete-continue-button = Przejdź do usługi { $serviceN
 flow-setup-2fa-prompt-heading = Skonfiguruj uwierzytelnianie dwuetapowe
 # Variable { $serviceName } is the name of the product (e.g. Firefox Add-ons)
 # that requests two-step authentication setup.
-flow-setup-2fa-prompt-description = { $serviceName } wymaga skonfigurowania uwierzytelniania dwuetapowego w celu zapewnienia bezpieczeństwa Twojego konta.
+flow-setup-2fa-prompt-description = { $serviceName } wymaga skonfigurowania uwierzytelniania dwuetapowego, aby zapewnić bezpieczeństwo konta.
 # "these authenticator apps" links to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication
-flow-setup-2fa-prompt-use-authenticator-apps = Aby kontynuować, możesz użyć dowolnej z <authenticationAppsLink>tych aplikacji uwierzytelniających</authenticationAppsLink>.
+flow-setup-2fa-prompt-use-authenticator-apps = Aby kontynuować, możesz użyć jednej z <authenticationAppsLink>tych aplikacji uwierzytelniających</authenticationAppsLink>.
 flow-setup-2fa-prompt-continue-button = Kontynuuj
 
 ## FlowSetupPhoneConfirmCode
@@ -722,6 +729,8 @@ header-menu-open = Zamknij menu
 header-menu-closed = Menu nawigacji witryny
 header-back-to-top-link =
     .title = Wróć na górę
+header-back-to-settings-link =
+    .title = Wróć do ustawień { -product-mozilla-account(case: "gen", capitalization: "lower") }
 header-title-2 = { -product-mozilla-account }
 header-help = Pomoc
 
@@ -1197,6 +1206,7 @@ tfa-row-disable-modal-explain-1 =
 # Shown in an alert bar after two-step authentication is disabled
 tfa-row-disabled-2 = Uwierzytelnianie dwuetapowe jest wyłączone
 tfa-row-cannot-disable-2 = Nie można wyłączyć uwierzytelniania dwuetapowego
+tfa-row-verify-session-info = Musisz potwierdzić obecną sesję, aby skonfigurować uwierzytelnianie dwuetapowe
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
@@ -1280,7 +1290,7 @@ recovery-phone-number-ending-digits = Numer kończący się na { $lastFourPhoneN
 # This error is shown when there is a particular kind of error at the very end of the 2FA flow
 # and the user should begin it again. A system/device clock not being synced to the internet time is
 # a common problem when using 2FA.
-two-factor-auth-setup-token-verification-error = Wystąpił problem z włączeniem uwierzytelniania dwuetapowego. Sprawdź, czy zegar urządzenia jest ustawiony na automatyczną aktualizację i <a>rozpocznij od nowa</a>.
+two-factor-auth-setup-token-verification-error = Wystąpił problem podczas włączania uwierzytelniania dwuetapowego. Sprawdź, czy zegar urządzenia jest ustawiony na automatyczną aktualizację i <a>zacznij od nowa</a>.
 oauth-error-1000 = Coś się nie powiodło. Proszę zamknąć tę kartę i spróbować ponownie.
 
 ## Cannot Create Account page
