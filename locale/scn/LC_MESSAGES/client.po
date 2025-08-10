@@ -11,21 +11,21 @@ msgstr ""
 
 #: .es5/views/confirm_reset_password.js:170
 msgid "Password reset"
-msgstr ""
+msgstr "Risettu dâ chiavi"
 
 #: .es5/views/confirm_reset_password.js:185
 msgid "Password reset successfully. Sign in to continue."
-msgstr ""
+msgstr "Risittasti a chiavi. Trasi pi cuntinuari."
 
 #. submit button
 #: .es5/views/force_auth.js:170 .es5/lib/strings.js:49 .es5/templates/connect_another_device.mustache:16 .es5/templates/force_auth.mustache:3 .es5/templates/sign_in_password.mustache:3
 #: .es5/templates/sign_in_password.mustache:10
 msgid "Sign in"
-msgstr ""
+msgstr "Trasi"
 
 #: .es5/views/index.js:154
 msgid "Account deleted successfully"
-msgstr ""
+msgstr "Scancillasti u to cuntu"
 
 #: .es5/views/inline_totp_setup.js:128
 msgid "Use the code %(code)s to set up two-step authentication in supported applications."
@@ -33,23 +33,23 @@ msgstr ""
 
 #: .es5/views/permissions.js:29
 msgid "%(permissionName)s (required)"
-msgstr ""
+msgstr "%(permissionName)s (ubbligatoriu)"
 
 #: .es5/views/permissions.js:34
 msgid "Email address"
-msgstr ""
+msgstr "Nnirizzu di posta elittrònica"
 
 #: .es5/views/permissions.js:38
 msgid "Display name"
-msgstr ""
+msgstr "Nomu mustratu"
 
 #: .es5/views/permissions.js:41
 msgid "Account picture"
-msgstr ""
+msgstr "Mmàggini dû cuntu"
 
 #: .es5/views/ready.js:43
 msgid "Welcome back"
-msgstr ""
+msgstr "Bummegna"
 
 #: .es5/views/ready.js:44
 msgid "Firefox Sync will resume momentarily"
@@ -57,7 +57,7 @@ msgstr ""
 
 #: .es5/views/ready.js:48 .es5/views/ready.js:53
 msgid "Your password has been reset"
-msgstr ""
+msgstr "Risittasti a to chiavi"
 
 #: .es5/views/ready.js:49 .es5/views/ready.js:54
 msgid "Complete set-up by entering the new password on your other Firefox devices."
@@ -122,7 +122,7 @@ msgstr ""
 #. aria label for banner/tooltip dismiss button
 #: .es5/views/tooltip.js:75 .es5/templates/partial/account-suggestion.mustache:2
 msgid "Close"
-msgstr ""
+msgstr "Chiuji"
 
 #: .es5/views/post_verify/verified.js:37
 msgid "Account notifications will now also be sent to %(secondaryEmail)s."
@@ -130,7 +130,7 @@ msgstr ""
 
 #: .es5/views/post_verify/verified.js:38
 msgid "Continue to %(serviceName)s "
-msgstr ""
+msgstr "Cuntinua nne %(serviceName)s "
 
 #: .es5/views/mixins/account-reset-mixin.js:40 .es5/lib/auth-errors.js:113
 msgid "Your account has been locked for security reasons"
@@ -138,11 +138,11 @@ msgstr ""
 
 #: .es5/views/mixins/account-reset-mixin.js:40 .es5/templates/complete_reset_password.mustache:15 .es5/templates/reset_password.mustache:1
 msgid "Reset password"
-msgstr ""
+msgstr "Risetta a chiavi"
 
 #: .es5/views/mixins/last-checked-time-mixin.js:37
 msgid "none"
-msgstr ""
+msgstr "nuḍḍu"
 
 #: .es5/views/mixins/last-checked-time-mixin.js:41
 msgid "Last checked: %(lastCheckTime)s"
@@ -170,11 +170,11 @@ msgstr ""
 
 #: .es5/views/mixins/password-mixin.js:135 .es5/views/mixins/password-mixin.js:136
 msgid "Hide password"
-msgstr ""
+msgstr "Ammuccia chiavi"
 
 #: .es5/views/mixins/password-mixin.js:155 .es5/views/mixins/password-mixin.js:156 .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
 msgid "Show password"
-msgstr ""
+msgstr "Mustra chiavi"
 
 #: .es5/views/mixins/recovery-codes-mixin.js:68
 msgid "Firefox Backup Authentication Codes"
@@ -194,7 +194,7 @@ msgstr ""
 
 #: .es5/views/mixins/save-options-mixin.js:52
 msgid "Copied"
-msgstr ""
+msgstr "Cupiatu"
 
 #: .es5/views/mixins/save-options-mixin.js:54
 msgid "Failed to copy. Please manually copy."
@@ -202,15 +202,15 @@ msgstr ""
 
 #: .es5/views/mixins/save-options-mixin.js:69
 msgid "Downloaded"
-msgstr ""
+msgstr "Scarricatu"
 
 #: .es5/views/mixins/save-options-mixin.js:80
 msgid "Printed"
-msgstr ""
+msgstr "Stampatu"
 
 #: .es5/views/behaviors/settings.js:36 .es5/models/auth_brokers/web.js:27
 msgid "Account confirmed successfully"
-msgstr ""
+msgstr "Cunfirmasti u cuntu"
 
 #: .es5/models/support-form.js:23
 msgid "payment & billing"
@@ -234,19 +234,19 @@ msgstr ""
 
 #: .es5/models/sync-engines.js:46
 msgid "Bookmarks"
-msgstr ""
+msgstr "Nzingalibbra"
 
 #: .es5/models/sync-engines.js:50
 msgid "History"
-msgstr ""
+msgstr "Crunuluggìa"
 
 #: .es5/models/sync-engines.js:54
 msgid "Passwords"
-msgstr ""
+msgstr "Chiavi"
 
 #: .es5/models/sync-engines.js:58
 msgid "Add-ons"
-msgstr ""
+msgstr "Juncitini"
 
 #: .es5/models/sync-engines.js:62
 msgid "Open Tabs"
@@ -254,19 +254,19 @@ msgstr ""
 
 #: .es5/models/sync-engines.js:66
 msgid "Preferences"
-msgstr ""
+msgstr "Prifirenzi"
 
 #: .es5/models/sync-engines.js:74
 msgid "Addresses"
-msgstr ""
+msgstr "Nnirizzi"
 
 #: .es5/models/sync-engines.js:82
 msgid "Payment Methods"
-msgstr ""
+msgstr "Furmi di pagamentu"
 
 #: .es5/models/reliers/browser.js:68
 msgid "Firefox"
-msgstr ""
+msgstr "Firefox"
 
 #: .es5/models/auth_brokers/base.js:88
 msgid "Primary email verified successfully"
