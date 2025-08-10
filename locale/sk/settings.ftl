@@ -159,6 +159,11 @@ form-password-with-inline-criteria-reset-new-password =
 form-password-with-inline-criteria-confirm-password =
     .label = Potvrďte heslo
 form-password-with-inline-criteria-reset-submit-button = Vytvoriť nové heslo
+form-password-with-inline-criteria-set-password-new-password-label =
+    .label = Heslo
+form-password-with-inline-criteria-set-password-confirm-password-label =
+    .label = Zopakujte heslo
+form-password-with-inline-criteria-set-password-submit-button = Spustiť synchronizáciu
 form-password-with-inline-criteria-match-error = Heslá sa nezhodujú
 form-password-with-inline-criteria-sr-too-short-message = Heslo musí obsahovať aspoň 8 znakov.
 form-password-with-inline-criteria-sr-not-email-message = Heslo nesmie obsahovať vašu e‑mailovú adresu.
@@ -1204,6 +1209,7 @@ tfa-row-disable-modal-explain-1 =
 # Shown in an alert bar after two-step authentication is disabled
 tfa-row-disabled-2 = Dvojstupňové overenie bolo zakázané
 tfa-row-cannot-disable-2 = Dvojstupňové overenie sa nepodarilo zakázať
+tfa-row-verify-session-info = Na nastavenie dvojstupňového overenia musíte potvrdiť svoju aktuálnu reláciu.
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account

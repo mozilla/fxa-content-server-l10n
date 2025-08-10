@@ -169,6 +169,10 @@ automated-email-reset-pwd-two-factor =
 automated-email-reset-pwd-plaintext-v3 = Ak ste túto akciu nevykonali, ihneď si zmeňte heslo na adrese:
 # Followed by link to https://accounts.firefox.com/settings#two-step-authentication
 automated-email-reset-two-factor-plaintext = Taktiež obnovte dvojstupňové overenie na adrese:
+# $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
+banner-warning-message = Vývojári doplnkov pre { -brand-firefox } sa v poslednej dobe stali terčom phishingových e‑mailových útokov. E‑maily týkajúce sa vášho { -product-mozilla-account(case: "gen", capitalization: "lower") } vám budeme posielať iba z adresy <a data-l10n-name="accountsEmailLink">{ $accountsEmail }</a>.
+banner-warning-message-plaintext = Vývojári doplnkov pre { -brand-firefox } sa v poslednej dobe stali terčom phishingových e‑mailových útokov. E‑maily týkajúce sa vášho { -product-mozilla-account(case: "gen", capitalization: "lower") } vám budeme posielať iba z tejto adresy:
+banner-warning-check = Skontrolujte, či údaje o zariadení a polohe z vášho prihlásenia sú správne.
 brand-banner-message = Vedeli ste, že sme zmenili názov z { -product-firefox-accounts(case: "gen") } na { -product-mozilla-accounts(case: "acc") }? <a data-l10n-name="learnMore">Ďalšie informácie</a>
 cancellationSurvey = Vyplňte, prosím, tento <a data-l10n-name="cancellationSurveyUrl">krátky prieskum</a> a pomôžte nám zlepšiť naše služby.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
@@ -267,6 +271,22 @@ device-all = { $uaBrowser } na { $uaOS } { $uaOSVersion }
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 device-browser-os = { $uaBrowser } na { $uaOS }
+# Variables:
+#  $city (String) - User's city
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-all = { $city }, { $stateCode }, { $country } (odhad)
+# Variables:
+#  $city (String) - User's city
+#  $country (String) - User's country
+location-city-country = { $city }, { $country } (odhad)
+# Variables:
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-state-country = { $stateCode }, { $country } (odhad)
+# Variables:
+#  $country (stateCode) - User's country
+location-country = { $country } (odhad)
 view-invoice = <a data-l10n-name="invoiceLink">Zobraziť faktúru</a>.
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
