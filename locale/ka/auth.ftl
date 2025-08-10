@@ -297,7 +297,7 @@ cadReminderFirst-action = სხვა მოწყობილობის დ�
 cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = სინქრონიზაცია ორს შორისაა
-cadReminderFirst-description-v2 = წაიყოლეთ ჩანართები ყველა მოწყობილობაზე. მიიღეთ თქვენი სანიშნები, პაროლები და სხვა მონაცემები ყველგან, სადაც გიყენიათ { -brand-firefox }.
+cadReminderFirst-description-v2 = გაიყოლეთ ჩანართები ყველა მოწყობილობაზე. მიიღეთ თქვენი სანიშნები, პაროლები და სხვა მონაცემები ყველგან, სადაც კი გიყენიათ { -brand-firefox }.
 cadReminderSecond-subject-2 = არ გამოგრჩეთ! დაასრულეთ სინქრონიზაციის გამართვა
 cadReminderSecond-action = სხვა მოწყობილობის დასინქრონება
 cadReminderSecond-title-2 = არ დაგავიწყდეთ სინქრონიზაცია!
@@ -522,7 +522,7 @@ postSigninRecoveryPhone-action = ანგარიშის მართვა
 postVerify-sub-title-3 = მოხარულნი ვართ თქვენი ნახვით!
 postVerify-title-2 = გსურთ იხილოთ იგივე ჩანართი ორ მოწყობილობაზე?
 postVerify-description-2 = უადვილესია! მხოლოდ დააყენეთ { -brand-firefox } სხვა მოწყობილობაზეც და შედით ანგარიშზე სინქრონიზაციისთვის. ნამდვილი ჯადოქრობაა!
-postVerify-sub-description = (ჰეი… ეს ნიშნავს იმასაც, რომ შეგიძლიათ თან წაიყოლოთ თქვენი სანიშნები, პაროლები და სხვა { -brand-firefox }-მონაცემები ყველგან, სადაც ანგარიშს გამოიყენებთ).
+postVerify-sub-description = (ჰეი… ეს ნიშნავს იმასაც, რომ შეგიძლიათ თან გაიყოლოთ თქვენი სანიშნები, პაროლები და სხვა { -brand-firefox }-მონაცემები ყველგან, სადაც ანგარიშს გამოიყენებთ).
 postVerify-subject-4 = მოგესალმებათ { -brand-mozilla }!
 postVerify-setup-2 = სხვა მოწყობილობის დაკავშირება:
 postVerify-action-2 = სხვა მოწყობილობის დაკავშირება
