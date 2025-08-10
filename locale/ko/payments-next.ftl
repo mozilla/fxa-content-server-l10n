@@ -97,6 +97,8 @@ subscription-management-account-profile-picture = 계정 프로필 사진
 
 ## Page - Subscription Management
 
+subscription-management-account-credit-balance-heading = 계정 잔액
+subscription-management-account-credit-balance-message = 요금은 청구할 때 자동으로 적용됩니다.
 subscription-management-payment-information-heading = 결제 정보
 subscription-management-button-add-payment-method-aria = 결제 수단 추가
 subscription-management-button-add-payment-method = 추가
@@ -124,6 +126,11 @@ subscription-management-button-manage-subscription = 관리
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
 
+subscription-management-page-subscription-interval-daily = { $productName } (매일)
+subscription-management-page-subscription-interval-weekly = { $productName } (주간)
+subscription-management-page-subscription-interval-monthly = { $productName } (월간)
+subscription-management-page-subscription-interval-halfyearly = { $productName } (6개월)
+subscription-management-page-subscription-interval-yearly = { $productName } (연간)
 # Page - Not Found
 page-not-found-title = 페이지를 찾을 수 없음
 page-not-found-description = 요청하신 페이지를 찾을 수 없습니다. 알림을 받았으며 잘못된 모든 링크를 수정할 예정입니다.
