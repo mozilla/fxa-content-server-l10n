@@ -34,6 +34,8 @@ mastercard-logo-alt-text = Logo { -brand-mastercard }
 paypal-logo-alt-text = Logo { -brand-paypal }
 unionpay-logo-alt-text = Logo { -brand-unionpay }
 visa-logo-alt-text = Logo { -brand-visa }
+# Alt text for generic payment card logo
+unbranded-logo-alt-text = Logo bez marki
 
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -58,6 +60,7 @@ intent-payment-error-try-again = Wystąpił problem z upoważnieniem płatnośc
 intent-payment-error-get-in-touch = Wystąpił problem z upoważnieniem płatności. Skontaktuj się z wystawcą karty.
 intent-payment-error-generic = Wystąpił nieoczekiwany błąd podczas przetwarzania płatności, proszę spróbować ponownie.
 intent-payment-error-insufficient-funds = Wygląda na to, że na karcie są niewystarczające środki. Spróbuj użyć innej karty.
+general-paypal-error = Wystąpił nieoczekiwany błąd podczas przetwarzania płatności, proszę spróbować ponownie.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -94,6 +97,8 @@ subscription-management-account-profile-picture = Zdjęcie profilowe konta
 
 ## Page - Subscription Management
 
+subscription-management-account-credit-balance-heading = Stan konta
+subscription-management-account-credit-balance-message = Środki zostaną automatycznie zastosowane do przyszłych faktur
 subscription-management-payment-information-heading = Informacje o płatnościach
 subscription-management-button-add-payment-method-aria = Dodaj metodę płatności
 subscription-management-button-add-payment-method = Dodaj
@@ -106,15 +111,26 @@ subscription-management-card-expires-date = Wygasa { $expirationDate }
 subscription-management-subscriptions-heading = Subskrypcje
 subscription-management-your-subscriptions-aria = Twoje subskrypcje
 subscription-management-no-subscriptions = Nie masz jeszcze żadnych subskrypcji
+subscription-management-your-apple-iap-subscriptions-aria = Twoje subskrypcje w aplikacji { -brand-apple }
+subscription-management-apple-in-app-purchase = { -brand-apple }: zakup w aplikacji
+subscription-management-your-google-iap-subscriptions-aria = Twoje subskrypcje w aplikacji { -brand-google }
+subscription-management-google-in-app-purchase = { -brand-google }: zakup w aplikacji
 # $date (String) - Date of next bill
 subscription-management-iap-sub-next-bill = Następna płatność: { $date }
 # $date (String) - Date of In-App purchase expires
 subscription-management-iap-sub-expires-on = Wygasa { $date }
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscription-management-button-manage-subscription-aria = Zarządzaj subskrypcją { $productName }
 subscription-management-button-manage-subscription = Zarządzaj
 
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
 
+subscription-management-page-subscription-interval-daily = { $productName } (dziennie)
+subscription-management-page-subscription-interval-weekly = { $productName } (tygodniowo)
+subscription-management-page-subscription-interval-monthly = { $productName } (miesięcznie)
+subscription-management-page-subscription-interval-halfyearly = { $productName } (co 6 miesięcy)
+subscription-management-page-subscription-interval-yearly = { $productName } (rocznie)
 # Page - Not Found
 page-not-found-title = Nie odnaleziono strony
 page-not-found-description = Nie odnaleziono żądanej strony. Powiadomiono administratora, który naprawi błędne odnośniki.
@@ -126,6 +142,8 @@ page-not-found-back-button = Wróć do poprzedniej strony
 subscription-management-breadcrumb-account-home = Strona główna konta
 # Link title - Subscriptions management
 subscription-management-breadcrumb-subscriptions = Subskrypcje
+# Link title - Payment method management
+subscription-management-breadcrumb-payment = Metody płatności
 
 ## Component - Payment Consent Checkbox
 
@@ -181,6 +199,14 @@ payments-client-loading-spinner =
     .aria-label = Wczytywanie…
     .alt = Wczytywanie…
 
+## Payment method management page - Stripe
+
+# Save button for changing which payment method will be used
+payment-method-management-save-default = Ustaw jako domyślną metodę płatności
+# Save button for saving a new payment method
+payment-method-management-save-method = Zachowaj metodę płatności
+manage-stripe-payments-title = Zarządzaj metodami płatności
+
 ## Payment Section
 
 next-new-user-card-title = Podaj informacje o karcie
@@ -189,6 +215,8 @@ next-new-user-card-title = Podaj informacje o karcie
 
 next-plan-details-header = Informacje o produkcie
 next-plan-details-list-price = Cena katalogowa
+# $productName (String) - The name of the product, e.g. Mozilla VPN
+plan-details-product-prorated-price = Cena podzielona proporcjonalnie za { $productName }
 next-plan-details-tax = Podatki i opłaty
 next-plan-details-total-label = Razem
 # "Unused time" refers to the remaining value of the current subscription that hasn't been used yet
@@ -234,6 +262,20 @@ next-new-user-subscribe-product-updates-mdnplus = Chcę otrzymywać aktualności
 next-new-user-subscribe-product-updates-mozilla = Chcę otrzymywać aktualności i aktualizacje o produktach od { -brand-mozilla(case: "gen") }
 next-new-user-subscribe-product-updates-snp = Chcę otrzymywać aktualności i aktualizacje na temat bezpieczeństwa i prywatności od { -brand-mozilla(case: "gen") }
 next-new-user-subscribe-product-assurance = Używamy Twojego adresu e-mail wyłącznie do utworzenia konta. Nigdy nie sprzedamy go komuś innemu.
+
+## Examples of coupon applied
+## 20% OFF coupon applied: $11.20 + $0.35 tax
+## Holiday Offer 2023 coupon applied: 6,42 €
+## Cybersecurity Awareness Month 2023 coupon applied: $11.20 + $0.35 tax
+## Summer Promo VPN coupon applied: $11.20
+## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., 08/21/2025 for US locale, 21/08/25 for FR locale)
+## $invoiceTotal (Number) - The amount billed (excluding tax if tax does not exist). It will be formatted as currency.
+## $nextBillDate (Date) - The date for the next time a charge will occur (e.g., 08/21/2025 for US locale, 21/08/25 for FR locale)
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+## $promotionName (String) - The name of the promotion.
+## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
+
+subscription-content-promotion-applied-no-tax = Dodano rabat „{ $promotionName }”: { $invoiceTotal }
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
