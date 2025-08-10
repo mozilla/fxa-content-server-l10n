@@ -276,6 +276,21 @@ next-new-user-subscribe-product-assurance = Używamy Twojego adresu e-mail wył�
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
 subscription-content-promotion-applied-no-tax = Dodano rabat „{ $promotionName }”: { $invoiceTotal }
+subscription-content-promotion-applied-with-tax = Dodano rabat „{ $promotionName }”: { $invoiceTotal } + { $taxDue } podatku
+subscription-content-current-with-tax = { $invoiceTotal } + { $taxDue } podatku
+subscription-content-next-bill-no-tax = Następny rachunek na kwotę { $invoiceTotal } ma termin płatności { $nextBillDate }
+subscription-content-next-bill-with-tax = Następny rachunek na kwotę { $invoiceTotal } + { $taxDue } podatku ma termin płatności { $nextBillDate }
+subscription-content-heading-cancel-subscription = Anuluj subskrypcję
+subscription-content-no-longer-use-message =
+    Po { $currentPeriodEnd }, ostatnim dniu okresu rozliczeniowego,
+    nie będzie już można używać { $productName }.
+subscription-content-cancel-access-message = Anuluj mój dostęp i moje zachowane informacje w { $productName } w dniu { $currentPeriodEnd }
+subscription-content-button-stay-subscribed = Nie rezygnuj z subskrypcji
+    .aria-label = Nie rezygnuj z subskrypcji { $productName }
+subscription-content-button-cancel-subscription = Anuluj subskrypcję
+    .aria-label = Anuluj subskrypcję { $productName }
+subscription-content-button-cancel = Anuluj
+    .aria-label = Anuluj subskrypcję { $productName }
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
