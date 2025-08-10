@@ -8,7 +8,7 @@ app-query-parameter-err-heading = Ugyldig forespørsel: Ugyldige søkeparametere
 ## FxA React - Strings shared between multiple FxA products for application footer
 
 app-footer-mozilla-logo-label = { -brand-mozilla }-logo
-app-footer-privacy-notice = Nettstedets personvernbestemmelser
+app-footer-privacy-notice = Nettstedets personvernerklæring
 app-footer-terms-of-service = Tjenestevilkår
 
 ## FxA React - Strings shared between multiple FxA products for application page title

@@ -319,9 +319,9 @@ next-terms = Tjenestevilkår
 next-privacy = Personvernerklæring
 next-terms-download = Vilkår for nedlasting
 terms-and-privacy-stripe-label = { -brand-mozilla } bruker { -brand-name-stripe } for sikker behandling av betaling.
-terms-and-privacy-stripe-link = { -brand-name-stripe } personvernbestemmelser
+terms-and-privacy-stripe-link = { -brand-name-stripe } personvernerklæring
 terms-and-privacy-paypal-label = { -brand-mozilla } bruker { -brand-paypal } for sikker behandling av betaling.
-terms-and-privacy-paypal-link = { -brand-paypal } personvernbestemmelser
+terms-and-privacy-paypal-link = { -brand-paypal } personvernerklæring
 terms-and-privacy-stripe-and-paypal-label = { -brand-mozilla } bruker { -brand-name-stripe } og { -brand-paypal } for sikker behandling av betaling.
 
 ## Component - UpdatedPurchaseDetails

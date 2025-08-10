@@ -132,11 +132,11 @@ payment-validate-name-error = Skriv inn navnet ditt
 ## Component - PaymentLegalBlurb
 
 payment-legal-copy-stripe-and-paypal-3 = { -brand-mozilla } bruker { -brand-name-stripe } og { -brand-paypal } for sikker behandling av betaling.
-payment-legal-link-stripe-paypal-2 = <stripePrivacyLink>{ -brand-name-stripe } personvernbestemmelser</stripePrivacyLink> &nbsp; <paypalPrivacyLink>{ -brand-paypal } personvernbestemmelser</paypalPrivacyLink>
+payment-legal-link-stripe-paypal-2 = <stripePrivacyLink>{ -brand-name-stripe } personvernerklæring</stripePrivacyLink> &nbsp; <paypalPrivacyLink>{ -brand-paypal } personvernerklæring</paypalPrivacyLink>
 payment-legal-copy-paypal-2 = { -brand-mozilla } bruker { -brand-paypal } for sikker behandling av betaling.
-payment-legal-link-paypal-3 = <paypalPrivacyLink>{ -brand-paypal } personvernbestemmelser</paypalPrivacyLink>
+payment-legal-link-paypal-3 = <paypalPrivacyLink>{ -brand-paypal } personvernerklæring</paypalPrivacyLink>
 payment-legal-copy-stripe-3 = { -brand-mozilla } bruker { -brand-name-stripe } for sikker behandling av betaling.
-payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe } personvernbestemmelser</stripePrivacyLink>
+payment-legal-link-stripe-3 = <stripePrivacyLink>{ -brand-name-stripe } personvernerklæring</stripePrivacyLink>
 
 ## Component - PaymentMethodHeader
 
