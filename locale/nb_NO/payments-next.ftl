@@ -315,7 +315,7 @@ next-sub-guarantee = 30-dagers pengene-tilbake-garanti
 # "Mozilla Accounts" is capitalized in this instance for title case in English
 # This heading is followed by links to Terms of Service and Privacy Notice
 next-subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capitalization: "uppercase") }
-next-terms = Tjenestevilkår
+next-terms = Bruksvilkår
 next-privacy = Personvernerklæring
 next-terms-download = Vilkår for nedlasting
 terms-and-privacy-stripe-label = { -brand-mozilla } bruker { -brand-name-stripe } for sikker behandling av betaling.

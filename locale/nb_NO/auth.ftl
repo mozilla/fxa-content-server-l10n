@@ -41,8 +41,8 @@ fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozil
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Synkroniser enheter">
 body-devices-image = <img data-l10n-name="devices-image" alt="Enheter">
 fxa-privacy-url = { -brand-mozilla } personvernerklæring
-moz-accounts-privacy-url-2 = { -product-mozilla-accounts(capitalization: "uppercase") } Personvernerklæring
-moz-accounts-terms-url = { -product-mozilla-accounts(capitalization: "uppercase") } Bruksvilkår
+moz-accounts-privacy-url-2 = { -product-mozilla-accounts(capitalization: "uppercase") } personvernerklæring
+moz-accounts-terms-url = { -product-mozilla-accounts(capitalization: "uppercase") } bruksvilkår
 subplat-header-mozilla-logo-2 = <img data-l10n-name="subplat-mozilla-logo" alt="{ -brand-mozilla } logo">
 subplat-footer-mozilla-logo-2 = <img data-l10n-name="mozilla-logo-footer" alt="{ -brand-mozilla } logo">
 subplat-automated-email = Dette er en automatisert e-postmelding; hvis du har mottatt denne e-posten ved en feil,  trenger du ikke å gjøre noe.
@@ -70,10 +70,10 @@ subplat-reactivate = Reaktiver abonnement
 subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Oppdater faktureringsinformasjon
 subplat-privacy-policy = { -brand-mozilla } personvernerklæring
-subplat-privacy-policy-2 = { -product-mozilla-accounts(capitalization: "uppercase") } Personvernerklæring
+subplat-privacy-policy-2 = { -product-mozilla-accounts(capitalization: "uppercase") } personvernerklæring
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
 subplat-privacy-policy-plaintext-2 = { subplat-privacy-policy-2 }:
-subplat-moz-terms = { -product-mozilla-accounts(capitalization: "uppercase") } Bruksvilkår
+subplat-moz-terms = { -product-mozilla-accounts(capitalization: "uppercase") } bruksvilkår
 subplat-moz-terms-plaintext = { subplat-moz-terms }:
 subplat-legal = Juridisk
 subplat-legal-plaintext = { subplat-legal }:

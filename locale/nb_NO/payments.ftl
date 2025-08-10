@@ -100,7 +100,7 @@ payment-confirmation-download-button = Fortsett til nedlasting
 
 ## Component - PaymentConsentCheckbox
 
-payment-confirm-with-legal-links-static-3 = Jeg autoriserer { -brand-mozilla }, til å belaste betalingsmåten min for beløpet som vises, i henhold til <termsOfServiceLink>Tjenestevilkår</termsOfServiceLink> og <privacyNoticeLink>Personvernerklæring</privacyNoticeLink>, inntil jeg sier opp abonnementet mitt.
+payment-confirm-with-legal-links-static-3 = Jeg autoriserer { -brand-mozilla }, til å belaste betalingsmåten min for beløpet som vises, i henhold til <termsOfServiceLink>bruksvilkår</termsOfServiceLink> og <privacyNoticeLink>personvernerklæring</privacyNoticeLink>, inntil jeg sier opp abonnementet mitt.
 payment-confirm-checkbox-error = Du må fullføre dette før du går videre
 
 ## Component - PaymentErrorView
@@ -280,7 +280,7 @@ sub-guarantee = 30-dagers pengene-tilbake-garanti
 # "Mozilla Accounts" is capitalized in this instance for title case in English
 # This heading is followed by links to Terms of Service and Privacy Notice
 subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capitalization: "uppercase") }
-terms = Tjenestevilkår
+terms = Bruksvilkår
 privacy = Personvernerklæring
 terms-download = Vilkår for nedlasting
 
@@ -361,7 +361,7 @@ coupon-expired = Det ser ut som at kampanjekoden har gått ut.
 card-error = Transaksjonen din kunne ikke behandles. Kontroller betalingskortinformasjonen din og prøv igjen.
 country-currency-mismatch = Valutaen for dette abonnementet er ikke gyldig for landet som er knyttet til betalingen din.
 currency-currency-mismatch = Bekalger. Du kan ikke bytte mellom valutaer.
-location-unsupported = Din nåværende plassering støttes ikke i henhold til våre tjenestevilkår.
+location-unsupported = Din nåværende plassering støttes ikke i henhold til våre bruksvilkår.
 no-subscription-change = Beklager. Du kan ikke endre abonnementsplanen din.
 # $mobileAppStore (String) - "Google Play Store" or "App Store", localized when the translation is available.
 iap-already-subscribed = Du abonnerer allerede via { $mobileAppStore }.
