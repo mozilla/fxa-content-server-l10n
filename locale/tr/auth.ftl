@@ -169,6 +169,7 @@ automated-email-reset-pwd-two-factor =
 automated-email-reset-pwd-plaintext-v3 = Bu işlemi siz yapmadıysanız hemen parolanızı sıfırlayın:
 # Followed by link to https://accounts.firefox.com/settings#two-step-authentication
 automated-email-reset-two-factor-plaintext = Ayrıca iki aşamalı doğrulamayı da sıfırlayın:
+banner-warning-check = Giriş yaptığınız cihazın ve konumun doğruluğunu kontrol edin.
 brand-banner-message = { -product-firefox-accounts } adını { -product-mozilla-accounts } olarak değiştirdiğimizi biliyor muydunuz? <a data-l10n-name="learnMore">Bilgi alın</a>
 cancellationSurvey = Hizmetlerimizi iyileştirebilmemiz için bu <a data-l10n-name="cancellationSurveyUrl">kısa ankete</a> katılmanızı rica ederiz.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
@@ -267,6 +268,22 @@ device-all = { $uaBrowser } - { $uaOS } { $uaOSVersion }
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 device-browser-os = { $uaBrowser } - { $uaOS }
+# Variables:
+#  $city (String) - User's city
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-all = { $city }, { $stateCode }, { $country } (tahmini)
+# Variables:
+#  $city (String) - User's city
+#  $country (String) - User's country
+location-city-country = { $city }, { $country } (tahmini)
+# Variables:
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-state-country = { $stateCode }, { $country } (tahmini)
+# Variables:
+#  $country (stateCode) - User's country
+location-country = { $country } (tahmini)
 view-invoice = <a data-l10n-name="invoiceLink">Faturanızı görüntüleyin</a>.
 # Variables:
 #  $invoiceLink (String) - The link to the invoice

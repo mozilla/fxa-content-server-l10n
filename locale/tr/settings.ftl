@@ -153,6 +153,11 @@ form-password-with-inline-criteria-reset-new-password =
 form-password-with-inline-criteria-confirm-password =
     .label = Parolayı onaylayın
 form-password-with-inline-criteria-reset-submit-button = Yeni parola oluştur
+form-password-with-inline-criteria-set-password-new-password-label =
+    .label = Parola
+form-password-with-inline-criteria-set-password-confirm-password-label =
+    .label = Parola tekrarı
+form-password-with-inline-criteria-set-password-submit-button = Eşitlemeyi başlat
 form-password-with-inline-criteria-match-error = Parolalar uyuşmuyor
 form-password-with-inline-criteria-sr-too-short-message = Parola en az 8 karakterden oluşmalıdır.
 form-password-with-inline-criteria-sr-not-email-message = Parolanız e-posta adresinizi içeremez.
@@ -1190,6 +1195,7 @@ tfa-row-disable-modal-explain-1 = Bu işlemi geri alamazsınız. İsterseniz <li
 # Shown in an alert bar after two-step authentication is disabled
 tfa-row-disabled-2 = İki aşamalı kimlik doğrulama kapatıldı
 tfa-row-cannot-disable-2 = İki aşamalı doğrulama devre dışı bırakılamadı
+tfa-row-verify-session-info = İki aşamalı doğrulamayı ayarlamak için mevcut oturumunuzu onaylamalısınız
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
