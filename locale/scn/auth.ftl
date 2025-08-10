@@ -252,6 +252,12 @@ subscriptionUpdatePayment = Pi scanzari di firmari u sirbizzu, pi favuri <a data
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdatePayment-plaintext = Pi scanzari di firmari u sirbizzu, pi favuri attualizza i to nfurmazzioni di pagamentu prima ca poi:
 # Variables:
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-3 = P’aviri cchiù assai nfurmazzioni, vìsita <a data-l10n-name="supportLink">u situ di supportu di { -brand-mozilla }</a>.
+# Variables:
+#  $supportUrl (String) - Link to https://support.mozilla.org/kb/im-having-problems-my-firefox-account
+support-message-plaintext = P’aviri cchiù assai nfurmazzioni, vìsita u situ di supportu di { -brand-mozilla }: { $supportUrl }.
+# Variables:
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 #  $uaOSVersion (String) - User's OS version, e.g. 10.11
@@ -434,6 +440,8 @@ postAddRecoveryPhone-action = Manija cuntu
 postAddTwoStepAuthentication-preview = U to cuntu è prutettu
 postAddTwoStepAuthentication-title-2 = Abbilitasti l’autinticazzioni a du’ fattura
 postAddTwoStepAuthentication-action = Manija cuntu
+postAddTwoStepAuthentication-how-protects-link = Comu pruteggi u to cuntu
+postAddTwoStepAuthentication-how-protects-plaintext = Comu pruteggi u to cuntu:
 postChangeAccountRecovery-subject = Chiavi di ricùpiru dû cuntu canciata
 postChangeAccountRecovery-title = Canciasti a chiavi di ricùpiru dû cuntu
 postChangeAccountRecovery-body-part1 = Ora ài na chiavi di ricùpiru dû cuntu nova. Chiḍḍa vecchia fu scancillata.

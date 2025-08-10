@@ -69,7 +69,7 @@ msgstr ""
 
 #: .es5/views/ready.js:59
 msgid "Primary email confirmed"
-msgstr ""
+msgstr "Nnirizzu di posta elittrònica primariu cunfirmatu"
 
 #: .es5/views/ready.js:62
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
@@ -81,19 +81,19 @@ msgstr ""
 
 #: .es5/views/ready.js:69 .es5/templates/connect_another_device.mustache:7 .es5/templates/push/completed.mustache:1
 msgid "Sign-in confirmed"
-msgstr ""
+msgstr "Trasuta cunfirmata"
 
 #: .es5/views/ready.js:70 .es5/views/ready.js:75 .es5/views/ready.js:80 .es5/templates/ready.mustache:6 .es5/templates/ready.mustache:12
 msgid "You are now ready to use %(serviceName)s"
-msgstr ""
+msgstr "Ora po’ usari %(serviceName)s"
 
 #: .es5/views/ready.js:74
 msgid "Account confirmed"
-msgstr ""
+msgstr "Cuntu cunfirmatu"
 
 #: .es5/views/ready.js:79
 msgid "Connected"
-msgstr ""
+msgstr "Cunnessu"
 
 #: .es5/views/ready.js:177
 msgid "You are now ready to make changes to your Firefox Account."
@@ -101,15 +101,15 @@ msgstr ""
 
 #: .es5/views/reset_password.js:92
 msgid "Unknown account. <a href=\"/signup\">Sign up</a>"
-msgstr ""
+msgstr "Cuntu scanusciutu. <a href=\"/signup\">Riggìstrati</a>"
 
 #: .es5/views/sign_up_password.js:66
 msgid "Account no longer exists. Recreate it?"
-msgstr ""
+msgstr "U cuntu nun esisti cchiù. U vo’ criari arrè?"
 
 #: .es5/views/support.js:230 .es5/templates/support.mustache:10
 msgid "Other"
-msgstr ""
+msgstr "Autru"
 
 #: .es5/views/support.js:231
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as possible."
