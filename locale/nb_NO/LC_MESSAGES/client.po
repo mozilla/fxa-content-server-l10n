@@ -555,7 +555,7 @@ msgstr "Kunne ikke hente personvernerklæring"
 
 #: .es5/lib/auth-errors.js:338
 msgid "Could not get Terms of Service"
-msgstr "Kunne ikke hente vilkår for bruk"
+msgstr "Kunne ikke hente bruksvilkår"
 
 #: .es5/lib/auth-errors.js:342
 msgid "Your new password must be different"
@@ -1572,7 +1572,7 @@ msgstr "Send"
 
 #: .es5/templates/support.mustache:24
 msgid "Terms of Service"
-msgstr "Vilkår for bruk"
+msgstr "Bruksvilkår"
 
 #: .es5/templates/would-you-like-to-sync.mustache:1
 msgid "Would you like to sync this device to your account?"
