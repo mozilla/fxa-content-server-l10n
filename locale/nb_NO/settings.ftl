@@ -1427,7 +1427,7 @@ inline-totp-setup-page-title = Totrinns-autentisering
 
 legal-header = Juridisk
 # Links to our internal "Firefox Cloud" /legal/terms page
-legal-terms-of-service-link = Tjenestevilkår
+legal-terms-of-service-link = Bruksvilkår
 # Links to our internal "Firefox Cloud" /legal/terms page
 legal-privacy-link = Personvernerklæring
 
@@ -1437,7 +1437,7 @@ legal-privacy-heading = Personvernerklæring
 
 ## Legal terms of service page. Most content comes from https://github.com/mozilla/legal-docs
 
-legal-terms-heading = Tjenestevilkår
+legal-terms-heading = Bruksvilkår
 
 ## AuthAllow page - Part of the device pairing flow
 
