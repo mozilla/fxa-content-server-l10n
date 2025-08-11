@@ -282,7 +282,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:21 .es5/lib/oauth-errors.js:23 .es5/lib/pairing-channel-client-errors.js:13 .es5/lib/profile-errors.js:57 .es5/lib/profile-errors.js:65
 msgid "Unexpected error"
-msgstr ""
+msgstr "Erruri nun privistu"
 
 #: .es5/lib/auth-errors.js:22
 msgid "The link you clicked to verify your email is expired."
