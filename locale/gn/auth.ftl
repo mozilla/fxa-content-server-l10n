@@ -439,15 +439,19 @@ postAddRecoveryPhone-how-protect = Mba’éicha omo’ãta ne mba’ete
 postAddRecoveryPhone-how-protect-plaintext = Mba’éicha omo’ãta ne mba’ete:
 postAddRecoveryPhone-enabled-device = Embojuruja upe guive:
 postAddRecoveryPhone-action = Mba’ete ñangareko
+postAddTwoStepAuthentication-preview = Ne mba’ete oñemo’ãma
 postAddTwoStepAuthentication-subject-v3 = Ñemoneĩ mokõi jeku’egua hendýma
 postAddTwoStepAuthentication-title-2 = Embojuruja ñemoneĩ mokõi jeku’egua
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postAddTwoStepAuthentication-from-device-v2 = Nde ejerure kóva chupe:
 postAddTwoStepAuthentication-action = Mba’ete ñangareko
+postAddTwoStepAuthentication-code-required-v4 = Ko’ág̃a ojejeruréta ne rembiporu’i ayvu rekorosã ñemoneĩrã eñepyrũ jeývo tembiapo.
 postAddTwoStepAuthentication-recovery-method-codes = Embojuaju avei ayvukuéra ñemoneĩrã jeykekogua erukua jey hag̃ua.
 # Variables:
 #  $maskedPhoneNumber (String) - A bullet point mask with the last four digits of the user's phone number, e.g. ••••••1234
 postAddTwoStepAuthentication-recovery-method-phone = Embojuaju avei { $maskedPhoneNumber } ne pumbyry papapy guerujeyrãrõ.
+postAddTwoStepAuthentication-how-protects-link = Mba’éicha omo’ãta ne mba’ete
+postAddTwoStepAuthentication-how-protects-plaintext = Mba’éicha omo’ãta ne mba’ete:
 postChangeAccountRecovery-subject = Mba’eñemi guerujeyrã oñemoambuéma
 postChangeAccountRecovery-title = Emoambue ne mba’ete mba’eñemi guerujeyrã
 postChangeAccountRecovery-body-part1 = Eguerekóma mba’ete mba’eñemi guerujeyrã pyahu. Oguéma pe mba’eñemi tuja.
