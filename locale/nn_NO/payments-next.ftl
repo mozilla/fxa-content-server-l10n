@@ -61,6 +61,7 @@ intent-payment-error-get-in-touch = Hmm. Det oppstod eit problem med å godkjenn
 intent-payment-error-generic = Det oppstod ein uventa feil under behandling av betalinga. Prøv igjen.
 intent-payment-error-insufficient-funds = Det ser ut som om kortet ditt ikkje har nok pengar. Prøv eit anna kort.
 general-paypal-error = Det oppstod ein uventa feil under behandling av betalinga. Prøv igjen.
+paypal-active-subscription-no-billing-agreement-error = Det ser ut til at det oppstod eit problem med faktureringa av { -brand-paypal }-kontoen din. Aktiver automatisk betalingar for abonnementet ditt på nytt.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -289,6 +290,12 @@ subscription-content-button-cancel-subscription = Avbryt abonnementet
     .aria-label = Avbryt abonnementet på { $productName }
 subscription-content-button-cancel = Avbryt
     .aria-label = Avbryt abonnementet på { $productName }
+subscription-content-cancel-action-error = Det oppstod ein uventa feil. Prøv på nytt.
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+subscription-cancellation-dialog-msg = { $name }-abonnementet ditt er avslutta. Du vil framleis ha tilgang til { $name } fram til den { $date }.
+subscription-cancellation-dialog-aside = Har du spørsmål? Besøk <LinkExternal>{ -brand-mozilla }-brukarstøtte</LinkExternal>.
+dialog-close = Lat att dialogboks
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
