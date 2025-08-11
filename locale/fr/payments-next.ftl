@@ -61,6 +61,7 @@ intent-payment-error-get-in-touch = Hum, une erreur s’est produite lors de l�
 intent-payment-error-generic = Une erreur inattendue s’est produite lors du traitement de votre paiement, veuillez réessayer.
 intent-payment-error-insufficient-funds = Il semble que votre carte bancaire ne dispose pas de fonds suffisants. Essayez avec une autre carte.
 general-paypal-error = Une erreur inattendue s’est produite lors du traitement de votre paiement, veuillez réessayer.
+paypal-active-subscription-no-billing-agreement-error = Il semble qu’il y ait eu un problème lors de la facturation de votre compte { -brand-paypal }. Veuillez réactiver les paiements automatiques pour votre abonnement.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -289,6 +290,13 @@ subscription-content-button-cancel-subscription = Annuler l’abonnement
     .aria-label = Annuler votre abonnement à { $productName }
 subscription-content-button-cancel = Annuler
     .aria-label = Annuler votre abonnement à { $productName }
+subscription-content-cancel-action-error = Une erreur inattendue s’est produite. Veuillez réessayer.
+subscription-cancellation-dialog-title = C’est triste de vous voir partir…
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+subscription-cancellation-dialog-msg = Votre abonnement de { $name } a été annulé. Vous aurez encore accès à { $name } jusqu’à { $date }.
+subscription-cancellation-dialog-aside = Vous avez des questions ? Consultez <LinkExternal>l’assistance de { -brand-mozilla }</LinkExternal>.
+dialog-close = Fermer la boîte de dialogue
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.

@@ -63,6 +63,7 @@ intent-payment-error-get-in-touch = Hmm. Hiba történt a fizetés jóváhagyás
 intent-payment-error-generic = Váratlan hiba történt a fizetése feldolgozása során, próbálja újra.
 intent-payment-error-insufficient-funds = Úgy tűnik, hogy a bankkártyán kevés a fedezet. Próbálkozzon egy másik kártyával.
 general-paypal-error = Váratlan hiba történt a fizetése feldolgozása során, próbálja újra.
+paypal-active-subscription-no-billing-agreement-error = Úgy tűnik, probléma merült fel a(z) { -brand-paypal } fiókja számlázásakor. Kérjük, engedélyezze újra az automatikus fizetést az előfizetésénél.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -291,6 +292,13 @@ subscription-content-button-cancel-subscription = Előfizetés lemondása
     .aria-label = { $productName } előfizetés megszüntetése
 subscription-content-button-cancel = Mégse
     .aria-label = { $productName } előfizetés megszüntetése
+subscription-content-cancel-action-error = Váratlan hiba történt. Próbálja meg újra.
+subscription-cancellation-dialog-title = Sajnáljuk, hogy távozik
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+subscription-cancellation-dialog-msg = Lemondta a(z) { $name } előfizetését. Még mindig hozzá fog férni a(z) { $name } kiegészítőhöz, eddig: { $date }.
+subscription-cancellation-dialog-aside = Kérdése van? Keresse fel a <LinkExternal>{ -brand-mozilla } támogatást</LinkExternal>.
+dialog-close = Párbeszédablak bezárása
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.

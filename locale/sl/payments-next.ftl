@@ -61,6 +61,7 @@ intent-payment-error-get-in-touch = Hmm. Pri avtorizaciji vašega plačila je pr
 intent-payment-error-generic = Med obdelavo vašega plačila je prišlo do nepričakovane napake, poskusite znova.
 intent-payment-error-insufficient-funds = Videti je, da na vaši kartici ni dovolj sredstev. Poskusite z drugo kartico.
 general-paypal-error = Med obdelavo vašega plačila je prišlo do nepričakovane napake, poskusite znova.
+paypal-active-subscription-no-billing-agreement-error = Videti je, da je prišlo do težave pri obračunu { -brand-paypal } računa. Ponovno omogočite samodejna plačila za svojo naročnino.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -287,6 +288,13 @@ subscription-content-button-cancel-subscription = Prekliči naročnino
     .aria-label = Prekličite naročnino na { $productName }
 subscription-content-button-cancel = Prekliči
     .aria-label = Prekličite naročnino na { $productName }
+subscription-content-cancel-action-error = Prišlo je do nepričakovane napake. Prosimo, poskusite znova.
+subscription-cancellation-dialog-title = Žal nam je, da odhajate
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+subscription-cancellation-dialog-msg = Vaša naročnina za { $name } je preklicana. Dostop do { $name } boste še vedno imeli do { $date }.
+subscription-cancellation-dialog-aside = Imate vprašanja? Obiščite <LinkExternal>podporo za { -brand-mozilla }</LinkExternal>.
+dialog-close = Zapri pogovorno okno
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.

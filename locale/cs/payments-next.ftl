@@ -61,6 +61,7 @@ intent-payment-error-get-in-touch = Autorizace vaší platby se nezdařila. Kont
 intent-payment-error-generic = Při zpracování platby došlo k neočekávané chybě, zkuste to prosím znovu.
 intent-payment-error-insufficient-funds = Vypadá to, že na vaší kartě není dostatek prostředků. Zkuste použít jinou.
 general-paypal-error = Při zpracování platby došlo k neočekávané chybě, zkuste to prosím znovu.
+paypal-active-subscription-no-billing-agreement-error = Zdá se, že při fakturaci na váš účet { -brand-paypal } nastal problém. Znovu povolte automatické platby za vaše předplatné.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -289,6 +290,13 @@ subscription-content-button-cancel-subscription = Zrušit předplatné
     .aria-label = Zrušení předplatného { $productName }
 subscription-content-button-cancel = Zrušit
     .aria-label = Zrušení předplatného { $productName }
+subscription-content-cancel-action-error = Došlo k neočekávané chybě. Zkuste to prosím znovu.
+subscription-cancellation-dialog-title = Je nám líto, že odcházíte
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+subscription-cancellation-dialog-msg = Vaše předplatné { $name } bylo zrušeno. Stále vám zůstane přístup k { $name } do { $date }.
+subscription-cancellation-dialog-aside = Máte otázky? Navštivte <LinkExternal>podporu { -brand-mozilla }</LinkExternal>.
+dialog-close = Zavřít dialog
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.

@@ -61,6 +61,7 @@ intent-payment-error-get-in-touch = Hmm. Beim Autorisieren Ihrer Zahlung ist ein
 intent-payment-error-generic = Beim Verarbeiten Ihrer Zahlung ist ein unerwarteter Fehler aufgetreten, versuchen Sie es bitte erneut.
 intent-payment-error-insufficient-funds = Es sieht so aus, als ob Ihre Karte nicht genügend Guthaben hat. Versuchen Sie es mit einer anderen Karte.
 general-paypal-error = Beim Verarbeiten Ihrer Zahlung ist ein unerwarteter Fehler aufgetreten, versuchen Sie es bitte erneut.
+paypal-active-subscription-no-billing-agreement-error = Bei der Abrechnung über Ihr Konto von { -brand-paypal } ist ein Fehler aufgetreten. Bitte aktivieren Sie wieder automatische Zahlungen für Ihr Abonnement.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -289,6 +290,13 @@ subscription-content-button-cancel-subscription = Dauerauftrag stornieren
     .aria-label = Ihren Dauerauftrag für { $productName } stornieren
 subscription-content-button-cancel = Abbrechen
     .aria-label = Ihren Dauerauftrag für { $productName } stornieren
+subscription-content-cancel-action-error = Ein unerwarteter Fehler ist aufgetreten. Bitte versuchen Sie es erneut.
+subscription-cancellation-dialog-title = Es tut uns leid, dass Sie uns verlassen
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+subscription-cancellation-dialog-msg = Ihr Abonnement für { $name } wurde gekündigt. Sie haben noch bis { $date } Zugriff auf { $name }.
+subscription-cancellation-dialog-aside = Haben Sie Fragen? Besuchen Sie die <LinkExternal>{ -brand-mozilla }-Hilfe</LinkExternal>.
+dialog-close = Dialog schließen
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.

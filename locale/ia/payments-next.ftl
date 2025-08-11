@@ -61,6 +61,7 @@ intent-payment-error-get-in-touch = Hmm. Il habeva un problema durante le autori
 intent-payment-error-generic = Un error impreviste ha occurrite durante le elaboration de tu pagamento, reproba.
 intent-payment-error-insufficient-funds = Il pare que tu carta ha credito insufficiente. Prova un altere carta.
 general-paypal-error = Un error impreviste occurreva elaborante tu pagamento, retenta.
+paypal-active-subscription-no-billing-agreement-error = Il pare que il habeva un problema facturante tu conto { -brand-paypal }. Re-activa le pagamentos automatic pro tu abonamento.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -289,6 +290,15 @@ subscription-content-button-cancel-subscription = Cancellar abonamento
     .aria-label = Cancella tu abonamento a { $productName }
 subscription-content-button-cancel = Cancellar
     .aria-label = Cancella tu abonamento a { $productName }
+subscription-content-cancel-action-error = Un error impreviste occurreva, retenta.
+subscription-cancellation-dialog-title = Nos regretta de vider te ir
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+subscription-cancellation-dialog-msg =
+    Tu subscription a { $name } ha essite cancellate.
+    Tu habera ancora accesso a { $name } usque { $date }.
+subscription-cancellation-dialog-aside = Ha tu questiones? Visita le <LinkExternal>Supporto de { -brand-mozilla }</LinkExternal>.
+dialog-close = Clauder fenestra de dialogo
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.

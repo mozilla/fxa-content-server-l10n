@@ -61,6 +61,7 @@ intent-payment-error-get-in-touch = Hmm. Bu anhawster wrth  awdurdodi'ch taliad.
 intent-payment-error-generic = Mae gwall annisgwyl wedi digwydd wrth brosesu'ch taliad, ceisiwch eto.
 intent-payment-error-insufficient-funds = Mae'n edrych fel nad oes gan eich cerdyn ddigon o arian wrth gefn. Rhowch gynnig ar gerdyn arall.
 general-paypal-error = Mae gwall annisgwyl wedi digwydd wrth brosesu'ch taliad, ceisiwch eto.
+paypal-active-subscription-no-billing-agreement-error = Mae'n debyg bod problem wrth bilio'ch cyfrif { -brand-paypal }. Ail-alluogi taliadau awtomatig ar gyfer eich tanysgrifiad.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -289,6 +290,13 @@ subscription-content-button-cancel-subscription = Diddymu'r Tanysgrifiad
     .aria-label = Canslo'ch tanysgrifiad i { $productName }
 subscription-content-button-cancel = Diddymu
     .aria-label = Canslo'ch tanysgrifiad i { $productName }
+subscription-content-cancel-action-error = Digwyddodd gwall annisgwyl. Ceisiwch eto.
+subscription-cancellation-dialog-title = Mae'n ddrwg gennym eich gweld yn mynd
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+subscription-cancellation-dialog-msg = Mae eich tanysgrifiad { $name } wedi'i ganslo. Byddwch yn dal i gael mynediad i { $name } tan { $date }.
+subscription-cancellation-dialog-aside = Oes gennych chi gwestiynau? Ewch i <LinkExternal>{ -brand-mozilla } Cefnogaeth</LinkExternal>.
+dialog-close = Cau deialog
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
