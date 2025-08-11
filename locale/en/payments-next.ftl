@@ -62,6 +62,7 @@ intent-payment-error-get-in-touch = Hmm. There was a problem authorizing your pa
 intent-payment-error-generic = An unexpected error has occurred while processing your payment, please try again.
 intent-payment-error-insufficient-funds = It looks like your card has insufficient funds. Try another card.
 general-paypal-error = An unexpected error has occurred while processing your payment, please try again.
+paypal-active-subscription-no-billing-agreement-error = It looks like there was a problem billing your { -brand-paypal } account. Please re-enable automatic payments for your subscription.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -314,6 +315,17 @@ subscription-content-button-cancel-subscription =
 subscription-content-button-cancel =
   Cancel
   .aria-label = Cancel your subscription to { $productName }
+subscription-content-cancel-action-error = An unexpected error occurred. Please try again.
+
+subscription-cancellation-dialog-title = We’re sorry to see you go
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+subscription-cancellation-dialog-msg = Your { $name } subscription has been cancelled. You will still have access to { $name } until { $date }.
+subscription-cancellation-dialog-aside = Have questions? Visit <LinkExternal>{ -brand-mozilla } Support</LinkExternal>.
+
+
+
+dialog-close = Close dialog
 
 ## Component - PriceInterval
 
