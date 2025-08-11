@@ -101,6 +101,7 @@ subscription-management-account-credit-balance-heading = Crédito hembýva ne mb
 subscription-management-payment-information-heading = Jehepyme’ẽrã marandu
 subscription-management-button-add-payment-method-aria = Embojuapy mba’éicha ehepyme’ẽta
 subscription-management-button-add-payment-method = Mbojuaju
+subscription-management-button-change-payment-method-aria = Emoambue mba’éichapa ehepyme’ẽta
 subscription-management-button-change-payment-method = Moambue
 # $last4 (String) - Last four numbers of credit card
 subscription-management-card-ending-in = Kuatia’atã opáva { $last4 }-pe
@@ -108,6 +109,8 @@ subscription-management-card-ending-in = Kuatia’atã opáva { $last4 }-pe
 subscription-management-card-expires-date = Hu’ãta { $expirationDate }
 subscription-management-subscriptions-heading = Ñemboheraguapy
 subscription-management-your-subscriptions-aria = Ne ñemboheraguapy
+subscription-management-no-subscriptions = Nde nereñemboheraguapýi gueteri
+subscription-management-your-apple-iap-subscriptions-aria = Ne ñemboheraguapy tembiporu’i ryepýpe { -brand-apple }
 subscription-management-button-manage-subscription = Ñangareko
 
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
