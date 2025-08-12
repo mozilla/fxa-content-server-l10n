@@ -64,6 +64,7 @@ intent-payment-error-get-in-touch = Hmm. Pśi awtorizěrowanju wašogo płaśenj
 intent-payment-error-generic = Pśi pśeźěłowanju wašogo płaśenja jo njewótcakana zmólka nastała, pšosym wopytajśo hyšći raz.
 intent-payment-error-insufficient-funds = Zda se, ako by waša kórta njedosegajucy kontowy plus měła. Wopytajśo drugu kórtu.
 general-paypal-error = Pśi pśeźěłowanju wašogo płaśenja jo njewótcakana zmólka nastała, pšosym wopytajśo hyšći raz.
+paypal-active-subscription-no-billing-agreement-error = Zda se, ako by problem z wótlicowanim wašogo konta { -brand-paypal } był. Pšosym zmóžniśo zasej awtomatiske płaśenja za swój abonement.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -294,6 +295,13 @@ subscription-content-button-cancel-subscription = Abonement wupowěźeś
     .aria-label = Waš { $productName } dalej aboněrowaś
 subscription-content-button-cancel = Wupowěźeś
     .aria-label = Waš abonement { $productName } wupowěźiś
+subscription-content-cancel-action-error = Njewótcakana zmólka jo nastała. Pšosym wopytajśo hyšći raz.
+subscription-cancellation-dialog-title = Jo nam luto, až wótejźośo
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+subscription-cancellation-dialog-msg = Waš abonement za { $name } jo se wupowěźeł. Maśo hyšći pśistup k { $name } až do { $date }.
+subscription-cancellation-dialog-aside = Maśo pšašanja? Woglědajśo se k <LinkExternal>Pomocy { -brand-mozilla }</LinkExternal>.
+dialog-close = Dialog zacyniś
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
