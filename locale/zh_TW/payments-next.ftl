@@ -61,6 +61,7 @@ intent-payment-error-get-in-touch = 取得款項授權時發生問題，請與�
 intent-payment-error-generic = 處理付款時發生未知錯誤，請再試一次。
 intent-payment-error-insufficient-funds = 您的卡片額度不足，請改用其他卡片。
 general-paypal-error = 處理付款時發生未知錯誤，請再試一次。
+paypal-active-subscription-no-billing-agreement-error = 看來向您的 { -brand-paypal } 帳號扣款時發生問題，請為您的訂閱項目重新開啟自動付款。
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -289,6 +290,13 @@ subscription-content-button-cancel-subscription = 取消訂閱
     .aria-label = 取消訂閱 { $productName }
 subscription-content-button-cancel = 取消
     .aria-label = 取消訂閱 { $productName }
+subscription-content-cancel-action-error = 發生未知錯誤，請再試一次。
+subscription-cancellation-dialog-title = 很抱歉看到您離開
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+subscription-cancellation-dialog-msg = 已取消您對 { $name } 的訂閱，您仍可繼續使用 { $name } 到 { $date } 為止。
+subscription-cancellation-dialog-aside = 有問題嗎？請到 <LinkExternal>{ -brand-mozilla } 技術支援站</LinkExternal>。
+dialog-close = 關閉對話框
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
