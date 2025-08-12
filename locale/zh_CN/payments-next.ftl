@@ -12,7 +12,7 @@ next-payment-method-first-approve = 请先核准您的订阅
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
 location-header = 请选择您的国家/地区，并输入邮政编码<p>以继续为 { $productName } 付款</p>
 location-banner-info = 无法自动检测您的位置
-location-required-disclaimer = 我们只会将此信息用于计算税费和决定货币。
+location-required-disclaimer = 我们只会将此信息用于计算税款和决定货币。
 location-banner-currency-change = 不支持更改货币。请选择与您当前支付货币相匹配的国家/地区继续。
 
 ## Page - Upgrade page
