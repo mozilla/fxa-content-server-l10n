@@ -294,7 +294,7 @@ subscription-content-cancel-action-error = Une erreur inattendue s’est produit
 subscription-cancellation-dialog-title = C’est triste de vous voir partir…
 # $name (String) - The name of the subscribed product.
 # $date (Date) - Last day of product access
-subscription-cancellation-dialog-msg = Votre abonnement de { $name } a été annulé. Vous aurez encore accès à { $name } jusqu’à { $date }.
+subscription-cancellation-dialog-msg = Votre abonnement à { $name } a été résilié. Vous aurez encore accès à { $name } jusqu’au { $date }.
 subscription-cancellation-dialog-aside = Vous avez des questions ? Consultez <LinkExternal>l’assistance de { -brand-mozilla }</LinkExternal>.
 dialog-close = Fermer la boîte de dialogue
 
