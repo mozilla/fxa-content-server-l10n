@@ -289,6 +289,11 @@ subscription-content-button-cancel-subscription = Abonnemint opsizze
     .aria-label = Abonnemint op { $productName } opsizze
 subscription-content-button-cancel = Opsizze
     .aria-label = Jo abonnemint op { $productName } opsizze
+subscription-cancellation-dialog-title = Wy fine it spitich dat jo ús ferlitte
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+subscription-cancellation-dialog-msg = Jo abonnemint op { $name } is opsein. Jo hawwe noch oant { $date } tagong ta { $name }.
+subscription-cancellation-dialog-aside = Fragen? Besykje <LinkExternal>{ -brand-mozilla } Support</LinkExternal>.
 dialog-close = Dialoochfinster slute
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
