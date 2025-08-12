@@ -289,6 +289,9 @@ subscription-content-button-cancel-subscription = Ακύρωση συνδρομ�
     .aria-label = Ακυρώστε τη συνδρομή σας στο { $productName }
 subscription-content-button-cancel = Ακύρωση
     .aria-label = Ακυρώστε τη συνδρομή σας στο { $productName }
+subscription-cancellation-dialog-title = Λυπούμαστε που φεύγετε.
+subscription-cancellation-dialog-aside = Έχετε απορίες; Επισκεφθείτε την <LinkExternal>Υποστήριξη { -brand-mozilla }</LinkExternal>.
+dialog-close = Κλείσιμο διαλόγου
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
