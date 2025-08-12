@@ -291,6 +291,7 @@ subscription-content-button-cancel-subscription = Avbryt abonnementet
 subscription-content-button-cancel = Avbryt
     .aria-label = Avbryt abonnementet på { $productName }
 subscription-content-cancel-action-error = Det oppstod ein uventa feil. Prøv på nytt.
+subscription-cancellation-dialog-title = Det er trist å sjå at du forlèt oss.
 # $name (String) - The name of the subscribed product.
 # $date (Date) - Last day of product access
 subscription-cancellation-dialog-msg = { $name }-abonnementet ditt er avslutta. Du vil framleis ha tilgang til { $name } fram til den { $date }.
