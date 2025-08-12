@@ -61,7 +61,7 @@ intent-payment-error-get-in-touch = Hmm. Hubo un problema al autorizar el pago. 
 intent-payment-error-generic = Ocurrió un error inesperado al procesar tu pago. Intentá nuevamente.
 intent-payment-error-insufficient-funds = Parece que la tarjeta no tiene fondos suficientes. Probá otra tarjeta.
 general-paypal-error = Ocurrió un error inesperado al procesar tu pago. Intentá nuevamente.
-paypal-active-subscription-no-billing-agreement-error = Parece que hubo un problema al facturar tu cuenta de { -brand-paypal }. Vuelva a habilitar los pagos automáticos para su suscripción.
+paypal-active-subscription-no-billing-agreement-error = Parece que hubo un problema al facturar tu cuenta de { -brand-paypal }. Volvé a habilitar los pagos automáticos para tu suscripción.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -294,7 +294,7 @@ subscription-content-cancel-action-error = Ocurrió un error inesperado. Probá 
 subscription-cancellation-dialog-title = Lamentamos que te vayas
 # $name (String) - The name of the subscribed product.
 # $date (Date) - Last day of product access
-subscription-cancellation-dialog-msg = Tu suscripción de { $name } ha sido cancelada. Seguirás teniendo acceso a { $name } hasta las { $date }.
+subscription-cancellation-dialog-msg = Tu suscripción de { $name } ha sido cancelada. Seguirás teniendo acceso a { $name } hasta el { $date }.
 subscription-cancellation-dialog-aside = ¿Tenés preguntas? Visitá <linkExternal>Soporte de { -brand-mozilla }</linkExternal>.
 dialog-close = Cerrar el diálogo
 
