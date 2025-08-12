@@ -271,6 +271,13 @@ subscription-content-next-bill-no-tax = { $invoiceTotal } tutarındaki bir sonra
 subscription-content-next-bill-with-tax = { $invoiceTotal } (+ { $taxDue } vergi) tutarındaki bir sonraki ödemeniz { $nextBillDate } tarihinde
 subscription-content-heading-cancel-subscription = Aboneliği iptal et
 subscription-content-no-longer-use-message = Fatura döneminizin son günü olan { $currentPeriodEnd } tarihinden sonra { $productName } ürününü kullanamayacaksınız.
+subscription-content-cancel-action-error = Beklenmeyen bir sorun oluştu. Lütfen yeniden deneyin.
+subscription-cancellation-dialog-title = Gitmenize üzüldük
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+subscription-cancellation-dialog-msg = { $name } aboneliğiniz iptal edildi. { $date } tarihine kadar { $name } ürününe erişmeye devam edeceksiniz.
+subscription-cancellation-dialog-aside = Sorularınız mı var? <LinkExternal>{ -brand-mozilla } Destek</LinkExternal> sitesini ziyaret edin.
+dialog-close = İletişim kutusunu kapat
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
