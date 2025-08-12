@@ -57,6 +57,7 @@ intent-payment-error-get-in-touch = הממ. הייתה בעיה באישור ה�
 intent-payment-error-generic = אירעה שגיאה לא צפויה בעת עיבוד התשלום שלך, נא לנסות שוב.
 intent-payment-error-insufficient-funds = נראה שבכרטיס שלך אין יתרה מספיקה. נא לנסות כרטיס אחר.
 general-paypal-error = אירעה שגיאה לא צפויה בעת עיבוד התשלום שלך, נא לנסות שוב.
+paypal-active-subscription-no-billing-agreement-error = נראה שהייתה בעיה בחיוב חשבון ה־{ -brand-paypal } שלך. נא להפעיל מחדש תשלומים אוטומטיים עבור המינוי שלך.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -272,6 +273,7 @@ subscription-content-button-cancel-subscription = לבטל את המינוי
     .aria-label = לבטל את המינוי שלך ל־{ $productName }
 subscription-content-button-cancel = ביטול המינוי
     .aria-label = ביטול המינוי שלך ל־{ $productName }
+subscription-content-cancel-action-error = אירעה שגיאה בלתי צפויה. נא לנסות שוב.
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
