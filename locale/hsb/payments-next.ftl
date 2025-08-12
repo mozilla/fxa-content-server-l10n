@@ -64,6 +64,7 @@ intent-payment-error-get-in-touch = Hmm. Při awtorizowanju wašeho płaćenja j
 intent-payment-error-generic = Při předźěłowanju wašeho płaćenja je njewočakowany zmylk nastał, prošu spytajće hišće raz.
 intent-payment-error-insufficient-funds = Zda so, kaž by waša karta njedosahace dobroměće měła. Spytajće druhu kartu.
 general-paypal-error = Při předźěłowanju wašeho płaćenja je njewočakowany zmylk nastał, prošu spytajće hišće raz.
+paypal-active-subscription-no-billing-agreement-error = Zda so, kaž by problem z wotličowanjom wašeho konta { -brand-paypal } był. Prošu zmóžńće zaso awtomatiske płaćenja za swój abonement.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
