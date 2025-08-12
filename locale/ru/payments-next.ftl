@@ -292,6 +292,11 @@ subscription-content-button-cancel = Отменить
     .aria-label = Отменить вашу подписку на { $productName }
 subscription-content-cancel-action-error = Произошла непредвиденная ошибка. Повторите попытку.
 subscription-cancellation-dialog-title = Нам жаль, что вы уходите
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+subscription-cancellation-dialog-msg = Ваша подписка на { $name } была отменена. У вас по-прежнему будет доступ к { $name } до { $date }.
+subscription-cancellation-dialog-aside = Есть вопросы? Посетите <LinkExternal>Поддержку { -brand-mozilla }</LinkExternal>.
+dialog-close = Закрыть окно
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
