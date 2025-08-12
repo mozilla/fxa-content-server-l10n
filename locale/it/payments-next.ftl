@@ -61,7 +61,7 @@ intent-payment-error-get-in-touch = Uhm… si è verificato un problema durante 
 intent-payment-error-generic = Si è verificato un errore imprevisto durante l’elaborazione del pagamento, riprova.
 intent-payment-error-insufficient-funds = Questa carta non dispone di credito sufficiente. Prova con un’altra carta di credito.
 general-paypal-error = Si è verificato un errore imprevisto durante l’elaborazione del pagamento, riprova.
-paypal-active-subscription-no-billing-agreement-error = Sembra che si sia verificato un problema con la fatturazione del tuo account { -brand-paypal }. Riattiva i pagamenti automatici per il tuo abbonamento.
+paypal-active-subscription-no-billing-agreement-error = Sembra che si sia verificato un problema di fatturazione con il tuo account { -brand-paypal }. Riattiva i pagamenti automatici per il tuo abbonamento.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -291,11 +291,11 @@ subscription-content-button-cancel-subscription = Cancella abbonamento
 subscription-content-button-cancel = Cancella
     .aria-label = Cancella l’abbonamento a { $productName }
 subscription-content-cancel-action-error = Si è verificato un errore imprevisto. Riprova.
-subscription-cancellation-dialog-title = Ci dispiace per la tua partenza
+subscription-cancellation-dialog-title = Ci dispiace per la tua decisione
 # $name (String) - The name of the subscribed product.
 # $date (Date) - Last day of product access
 subscription-cancellation-dialog-msg = Il tuo abbonamento a { $name } è stato annullato. Potrai comunque accedere a { $name } fino al { $date }.
-subscription-cancellation-dialog-aside = Hai domande? Visita il <LinkExternal>{ -brand-mozilla }support</LinkExternal>.
+subscription-cancellation-dialog-aside = Hai una domanda? Visita il sito per il <LinkExternal>supporto { -brand-mozilla }</LinkExternal>.
 dialog-close = Chiudi finestra di dialogo
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
