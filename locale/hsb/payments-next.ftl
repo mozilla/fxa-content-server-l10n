@@ -294,6 +294,13 @@ subscription-content-button-cancel-subscription = Abonement wupowědźić
     .aria-label = Waš abonement { $productName } wupowědźić
 subscription-content-button-cancel = Wupowědźić
     .aria-label = Waš abonement { $productName } wupowědźić
+subscription-content-cancel-action-error = Njewočakowany zmylk je nastał. Prošu spytajće hišće raz.
+subscription-cancellation-dialog-title = Je nam žel, zo woteńdźeće
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+subscription-cancellation-dialog-msg = Waš abonement za { $name } je so wupowědźił. Maće hišće přistup k { $name } hač do { $date }.
+subscription-cancellation-dialog-aside = Maće prašenja? Wopytajće <LinkExternal>Pomoc { -brand-mozilla }</LinkExternal>.
+dialog-close = Dialog začinić
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
