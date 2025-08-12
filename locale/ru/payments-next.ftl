@@ -61,6 +61,7 @@ intent-payment-error-get-in-touch = Хм. При авторизации плат
 intent-payment-error-generic = При обработке платежа произошла непредвиденная ошибка. Повторите попытку.
 intent-payment-error-insufficient-funds = Похоже, на вашей карте недостаточно средств. Попробуйте другую карту.
 general-paypal-error = При обработке платежа произошла непредвиденная ошибка. Повторите попытку.
+paypal-active-subscription-no-billing-agreement-error = Похоже, при выставлении счетов на ваш аккаунт { -brand-paypal } возникла проблема. Пожалуйста, снова включите автоматические платежи для вашей подписки.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -289,6 +290,8 @@ subscription-content-button-cancel-subscription = Отменить подпис�
     .aria-label = Отменить вашу подписку на { $productName }
 subscription-content-button-cancel = Отменить
     .aria-label = Отменить вашу подписку на { $productName }
+subscription-content-cancel-action-error = Произошла непредвиденная ошибка. Повторите попытку.
+subscription-cancellation-dialog-title = Нам жаль, что вы уходите
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
