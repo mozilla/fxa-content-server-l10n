@@ -289,6 +289,7 @@ subscription-content-button-cancel-subscription = Abonnemint opsizze
     .aria-label = Abonnemint op { $productName } opsizze
 subscription-content-button-cancel = Opsizze
     .aria-label = Jo abonnemint op { $productName } opsizze
+dialog-close = Dialoochfinster slute
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
