@@ -274,6 +274,12 @@ subscription-content-button-cancel-subscription = לבטל את המינוי
 subscription-content-button-cancel = ביטול המינוי
     .aria-label = ביטול המינוי שלך ל־{ $productName }
 subscription-content-cancel-action-error = אירעה שגיאה בלתי צפויה. נא לנסות שוב.
+subscription-cancellation-dialog-title = עצוב לנו שבחרת לעזוב
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+subscription-cancellation-dialog-msg = המינוי שלך ל־{ $name } בוטל. תהיה לך עדיין גישה ל־{ $name } עד { $date }.
+subscription-cancellation-dialog-aside = יש שאלות? ניתן לבקר ב<LinkExternal>תמיכה של { -brand-mozilla }</LinkExternal>.
+dialog-close = סגירת תיבת דוח־שיח
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.

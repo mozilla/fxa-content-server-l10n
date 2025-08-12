@@ -653,6 +653,7 @@ flow-setup-2fa-inline-complete-backup-code-info =
        *[other] נותרו { $count } קודים
     }
 flow-setup-2fa-inline-complete-backup-code-description = זוהי שיטת השחזור הבטוחה ביותר אם אין באפשרותך להתחבר באמצעות המכשיר הנייד או היישומון המאמת שלך.
+flow-setup-2fa-inline-complete-backup-phone-description = זוהי שיטת השחזור הקלה ביותר אם אין באפשרותך להתחבר באמצעות היישומון המאמת שלך.
 flow-setup-2fa-inline-complete-learn-more-link = כיצד זה מגן על החשבון שלך
 # $serviceName (String) - the name of the product that the user will be
 # redirected to.

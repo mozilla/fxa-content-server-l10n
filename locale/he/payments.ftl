@@ -486,7 +486,7 @@ sub-route-idx-cancel-msg =
     המינוי שלך ל־{ $name } בוטל.
           <br />
           תהיה לך עדיין גישה ל־{ $name } עד { $date }.
-sub-route-idx-cancel-aside-2 = יש שאלות? ניתן לבקר ב<a>{ -brand-mozilla }תמיכה</a>.
+sub-route-idx-cancel-aside-2 = יש שאלות? ניתן לבקר ב<a>תמיכה של { -brand-mozilla }</a>.
 
 ## Routes - Subscriptions - Errors
 
