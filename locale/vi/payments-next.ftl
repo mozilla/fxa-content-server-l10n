@@ -61,6 +61,7 @@ intent-payment-error-get-in-touch = Hmm. Đã xảy ra sự cố khi cho phép t
 intent-payment-error-generic = Đã xảy ra lỗi không mong muốn khi xử lý thanh toán của bạn, vui lòng thử lại.
 intent-payment-error-insufficient-funds = Có vẻ như thẻ của bạn không đủ tiền. Hãy thử một thẻ khác.
 general-paypal-error = Đã xảy ra lỗi không mong muốn khi xử lý thanh toán của bạn, vui lòng thử lại.
+paypal-active-subscription-no-billing-agreement-error = Có vẻ như đã xảy ra sự cố khi thanh toán với tài khoản { -brand-paypal } của bạn. Vui lòng bật lại tính năng thanh toán tự động cho gói đăng ký của bạn.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -97,6 +98,8 @@ subscription-management-account-profile-picture = Ảnh đại diện tài kho�
 
 ## Page - Subscription Management
 
+subscription-management-account-credit-balance-heading = Số dư tín dụng tài khoản
+subscription-management-account-credit-balance-message = Tín dụng sẽ được tự động áp dụng cho các hóa đơn trong tương lai
 subscription-management-payment-information-heading = Thông tin thanh toán
 subscription-management-button-add-payment-method-aria = Thêm phương thức thanh toán
 subscription-management-button-add-payment-method = Thêm
@@ -124,6 +127,11 @@ subscription-management-button-manage-subscription = Quản lý
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
 
+subscription-management-page-subscription-interval-daily = { $productName } (hàng ngày)
+subscription-management-page-subscription-interval-weekly = { $productName } (hàng tuần)
+subscription-management-page-subscription-interval-monthly = { $productName } (hàng tháng)
+subscription-management-page-subscription-interval-halfyearly = { $productName } (6 tháng)
+subscription-management-page-subscription-interval-yearly = { $productName } (hàng năm)
 # Page - Not Found
 page-not-found-title = Không tìm thấy trang
 page-not-found-description = Không tìm thấy trang bạn yêu cầu. Chúng tôi đã để ý và sẽ sửa bất kỳ liên kết nào có thể bị hỏng.
@@ -255,6 +263,40 @@ next-new-user-subscribe-product-updates-mdnplus = Tôi muốn nhận tin tức s
 next-new-user-subscribe-product-updates-mozilla = Tôi muốn nhận tin tức sản phẩm và cập nhật từ { -brand-mozilla }
 next-new-user-subscribe-product-updates-snp = Tôi muốn nhận tin tức và cập nhật về bảo mật và quyền riêng tư từ { -brand-mozilla }
 next-new-user-subscribe-product-assurance = Chúng tôi chỉ sử dụng email của bạn để tạo tài khoản cho bạn. Chúng tôi sẽ không bao giờ cung cấp nó cho bên thứ ba.
+
+## Examples of coupon applied
+## 20% OFF coupon applied: $11.20 + $0.35 tax
+## Holiday Offer 2023 coupon applied: 6,42 €
+## Cybersecurity Awareness Month 2023 coupon applied: $11.20 + $0.35 tax
+## Summer Promo VPN coupon applied: $11.20
+## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., 08/21/2025 for US locale, 21/08/25 for FR locale)
+## $invoiceTotal (Number) - The amount billed (excluding tax if tax does not exist). It will be formatted as currency.
+## $nextBillDate (Date) - The date for the next time a charge will occur (e.g., 08/21/2025 for US locale, 21/08/25 for FR locale)
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+## $promotionName (String) - The name of the promotion.
+## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
+
+subscription-content-promotion-applied-no-tax = Phiếu giảm giá { $promotionName } đã được áp dụng: { $invoiceTotal }
+subscription-content-promotion-applied-with-tax = Phiếu giảm giá { $promotionName } đã được áp dụng: { $invoiceTotal } + { $taxDue } thuế
+subscription-content-current-with-tax = { $invoiceTotal } + { $taxDue } thuế
+subscription-content-next-bill-no-tax = Hoá đơn tiếp theo { $invoiceTotal } sẽ đến hạn vào { $nextBillDate }
+subscription-content-next-bill-with-tax = Hoá đơn tiếp theo { $invoiceTotal } + { $taxDue } thuế sẽ đến hạn vào { $nextBillDate }
+subscription-content-heading-cancel-subscription = Hủy đăng ký
+subscription-content-no-longer-use-message = Bạn sẽ không còn có thể sử dụng { $productName } sau { $currentPeriodEnd }, ngày cuối cùng của chu kỳ thanh toán của bạn.
+subscription-content-cancel-access-message = Hủy quyền truy cập và thông tin đã lưu của tôi trong { $productName } vào { $currentPeriodEnd }
+subscription-content-button-stay-subscribed = Giữ gói đăng ký
+    .aria-label = Giữ gói đăng ký { $productName }
+subscription-content-button-cancel-subscription = Huỷ gói đăng ký
+    .aria-label = Huỷ gói đăng ký { $productName } của bạn
+subscription-content-button-cancel = Huỷ gói
+    .aria-label = Huỷ gói đăng ký { $productName } của bạn
+subscription-content-cancel-action-error = Đã xảy ra lỗi không mong muốn. Vui lòng thử lại.
+subscription-cancellation-dialog-title = Chúng tôi rất tiếc khi thấy bạn rời đi
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+subscription-cancellation-dialog-msg = Gói đăng ký { $name } của bạn đã bị hủy. Bạn vẫn sẽ có quyền truy cập vào { $name } cho đến { $date }.
+subscription-cancellation-dialog-aside = Có câu hỏi? Truy cập <LinkExternal>Hỗ trợ { -brand-mozilla }</LinkExternal>.
+dialog-close = Đóng hộp thoại
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.

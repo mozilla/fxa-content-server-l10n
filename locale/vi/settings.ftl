@@ -141,6 +141,11 @@ form-password-with-inline-criteria-reset-new-password =
 form-password-with-inline-criteria-confirm-password =
     .label = Xác nhận mật khẩu
 form-password-with-inline-criteria-reset-submit-button = Tạo mật khẩu mới
+form-password-with-inline-criteria-set-password-new-password-label =
+    .label = Mật khẩu
+form-password-with-inline-criteria-set-password-confirm-password-label =
+    .label = Nhập lại mật khẩu
+form-password-with-inline-criteria-set-password-submit-button = Bắt đầu đồng bộ hóa
 form-password-with-inline-criteria-match-error = Mật khẩu không khớp
 form-password-with-inline-criteria-sr-too-short-message = Mật khẩu phải chứa ít nhất 8 ký tự.
 form-password-with-inline-criteria-sr-not-email-message = Mật khẩu không được chứa địa chỉ email của bạn.
@@ -1179,6 +1184,7 @@ tfa-row-disable-modal-explain-1 =
 # Shown in an alert bar after two-step authentication is disabled
 tfa-row-disabled-2 = Đã tắt xác thực hai bước
 tfa-row-cannot-disable-2 = Không thể tắt xác thực hai bước
+tfa-row-verify-session-info = Bạn cần xác nhận phiên hiện tại của mình để thiết lập xác thực hai bước
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
