@@ -494,9 +494,9 @@ connect-another-find-fx-mobile-2 = Poiščite { -brand-firefox } v trgovini { -g
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image-2 =
-    .alt = Prenesite { -brand-firefox } iz trgovine { -google-play }
+    .alt = Prenesite { -brand-firefox(sklon: "tozilnik") } iz trgovine { -google-play }
 connect-another-app-store-image-3 =
-    .alt = Prenesite { -brand-firefox } iz trgovine { -app-store }
+    .alt = Prenesite { -brand-firefox(sklon: "tozilnik") } iz trgovine { -app-store }
 
 ## Connected services section
 
