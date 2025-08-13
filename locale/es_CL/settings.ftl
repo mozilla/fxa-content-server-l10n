@@ -1200,6 +1200,7 @@ tfa-row-disable-modal-explain-1 =
 # Shown in an alert bar after two-step authentication is disabled
 tfa-row-disabled-2 = Autenticación en dos pasos desactivada
 tfa-row-cannot-disable-2 = La autenticación en dos pasos no pudo ser deshabilitada
+tfa-row-verify-session-info = Debes confirmar tu sesión actual para configurar la autenticación de dos pasos
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
