@@ -61,6 +61,7 @@ intent-payment-error-get-in-touch = Hmm. Er is een probleem opgetreden bij het a
 intent-payment-error-generic = Er is een onverwachte fout opgetreden tijdens het verwerken van uw betaling, probeer het opnieuw.
 intent-payment-error-insufficient-funds = Het lijkt erop dat uw kaart onvoldoende saldo heeft. Probeer een andere kaart.
 general-paypal-error = Er is een onverwachte fout opgetreden tijdens het verwerken van uw betaling, probeer het opnieuw.
+paypal-active-subscription-no-billing-agreement-error = Het lijkt erop dat er een probleem is opgetreden bij de facturering van uw { -brand-paypal }-account. Schakel automatische betalingen voor uw abonnement opnieuw in.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -289,6 +290,13 @@ subscription-content-button-cancel-subscription = Abonnement opzeggen
     .aria-label = Abonnement op { $productName } opzeggen
 subscription-content-button-cancel = Opzeggen
     .aria-label = Uw abonnement op { $productName } opzeggen
+subscription-content-cancel-action-error = Er is een onverwachte fout opgetreden. Probeer het opnieuw.
+subscription-cancellation-dialog-title = We vinden het jammer dat u weggaat
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+subscription-cancellation-dialog-msg = Uw abonnement op { $name } is opgezegd. U hebt nog tot { $date } toegang tot { $name }.
+subscription-cancellation-dialog-aside = Vragen? Bezoek <LinkExternal>{ -brand-mozilla } Support</LinkExternal>.
+dialog-close = Dialoogvenster sluiten
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
