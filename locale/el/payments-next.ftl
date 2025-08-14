@@ -61,6 +61,7 @@ intent-payment-error-get-in-touch = Προέκυψε πρόβλημα κατά �
 intent-payment-error-generic = Προέκυψε μη αναμενόμενο σφάλμα κατά την επεξεργασία της πληρωμής σας. Δοκιμάστε ξανά.
 intent-payment-error-insufficient-funds = Φαίνεται πως η κάρτα σας δεν διαθέτει επαρκή χρήματα. Δοκιμάστε μια άλλη κάρτα.
 general-paypal-error = Προέκυψε μη αναμενόμενο σφάλμα κατά την επεξεργασία της πληρωμής σας. Δοκιμάστε ξανά.
+paypal-active-subscription-no-billing-agreement-error = Φαίνεται ότι προέκυψε πρόβλημα με τη χρέωση του λογαριασμού { -brand-paypal } σας. Ενεργοποιήστε ξανά τις αυτόματες πληρωμές για τη συνδρομή σας.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -289,7 +290,11 @@ subscription-content-button-cancel-subscription = Ακύρωση συνδρομ�
     .aria-label = Ακυρώστε τη συνδρομή σας στο { $productName }
 subscription-content-button-cancel = Ακύρωση
     .aria-label = Ακυρώστε τη συνδρομή σας στο { $productName }
+subscription-content-cancel-action-error = Προέκυψε απρόσμενο σφάλμα. Δοκιμάστε ξανά.
 subscription-cancellation-dialog-title = Λυπούμαστε που φεύγετε.
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+subscription-cancellation-dialog-msg = Η συνδρομή σας στο { $name } έχει ακυρωθεί. Θα έχετε ακόμα πρόσβαση στο { $name } μέχρι τις { $date }.
 subscription-cancellation-dialog-aside = Έχετε απορίες; Επισκεφθείτε την <LinkExternal>Υποστήριξη { -brand-mozilla }</LinkExternal>.
 dialog-close = Κλείσιμο διαλόγου
 

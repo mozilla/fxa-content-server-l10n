@@ -169,6 +169,8 @@ automated-email-reset-pwd-two-factor =
 automated-email-reset-pwd-plaintext-v3 = Αν δεν εκτελέσατε εσείς αυτήν την ενέργεια, επαναφέρετε τον κωδικό πρόσβασής σας αμέσως στο:
 # Followed by link to https://accounts.firefox.com/settings#two-step-authentication
 automated-email-reset-two-factor-plaintext = Επίσης, επαναφέρετε την ταυτοποίηση δύο παραγόντων στο:
+banner-warning-message-plaintext = Οι δημιουργοί προσθέτων του { -brand-firefox } έγιναν πρόσφατα στόχοι επιθέσεων ηλεκτρονικού «ψαρέματος» μέσω ηλεκτρονικού ταχυδρομείου. Θα στέλνουμε email σχετικά με τον { -product-mozilla-account(case: "acc", capitalization: "lower") } σας από αυτήν τη διεύθυνση email:
+banner-warning-check = Βεβαιωθείτε ότι η συσκευή και η τοποθεσία όπου πραγματοποιήσατε σύνδεση είναι σωστές.
 brand-banner-message = Γνωρίζατε ότι αλλάξαμε το όνομά μας από «{ -product-firefox-accounts }» σε «{ -product-mozilla-accounts }»; <a data-l10n-name="learnMore">Μάθετε περισσότερα</a>
 cancellationSurvey = Βοηθήστε μας να βελτιώσουμε τις υπηρεσίες μας λαμβάνοντας μέρος σε αυτήν τη <a data-l10n-name="cancellationSurveyUrl">σύντομη έρευνα</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
