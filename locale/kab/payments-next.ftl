@@ -55,10 +55,16 @@ next-payment-confirmation-cc-card-ending-in = Takarḍa ad tfakk deg { $last4 }
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
 
+subscription-management-page-subscription-interval-halfyearly = { $productName } (6-wayyuren)
 # Page - Not Found
 page-not-found-title = Ulac asebter
 page-not-found-description = Asebter i d-sutreḍ ulac-it. Aqlaɣ neẓra udiɣ ad nseggem yal aseɣwen yeṛzen.
 page-not-found-back-button = Uɣal
+
+## Navigation breadcrumbs
+
+# Link title - Payment method management
+subscription-management-breadcrumb-payment = Tarrayin n uxelleṣ
 
 ## Checkout Form
 
@@ -110,6 +116,8 @@ next-new-user-card-title = Sekcem talɣut-ik·im n yimayl
 next-plan-details-header = Talqayt n ufaris
 next-plan-details-list-price = Tabdart n leswam
 next-plan-details-total-label = Asemday
+# "Credit applied" refers to account credit used to reduce the amount due on the invoice
+purchase-details-credit-applied-label = Yettwasnas usmad
 next-plan-details-hide-button = Ffer talqayt
 next-plan-details-show-button = Sken talqayt
 next-coupon-success = Aɣawas-ik·im ad ttuεawed s wudem awurman ɣer ssuma yellan tura.
