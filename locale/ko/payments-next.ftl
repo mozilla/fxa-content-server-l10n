@@ -61,6 +61,7 @@ intent-payment-error-get-in-touch = 결제를 승인하는 동안 문제가 발�
 intent-payment-error-generic = 결제를 처리하는 동안 예기치 않은 오류가 발생했습니다. 다시 시도하십시오.
 intent-payment-error-insufficient-funds = 카드 잔액이 부족한 것 같습니다. 다른 카드를 사용해보세요.
 general-paypal-error = 결제를 처리하는 동안 예기치 않은 오류가 발생했습니다. 다시 시도하십시오.
+paypal-active-subscription-no-billing-agreement-error = { -brand-paypal } 계정에서 결제에 문제가 발생한 것 같습니다. 구독에 대한 자동 결제를 다시 활성화하세요.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -262,6 +263,40 @@ next-new-user-subscribe-product-updates-mdnplus = { -product-mdn-plus } 및 { -b
 next-new-user-subscribe-product-updates-mozilla = { -brand-mozilla }로부터 제품 뉴스와 최신정보를 받습니다.
 next-new-user-subscribe-product-updates-snp = { -brand-mozilla }로부터 보안과 개인 정보에 대한 소식 및 최신 정보를 받습니다.
 next-new-user-subscribe-product-assurance = 이메일은 오직 계정을 만드는 데만 사용됩니다. 절대 제3자에게 판매하지 않습니다.
+
+## Examples of coupon applied
+## 20% OFF coupon applied: $11.20 + $0.35 tax
+## Holiday Offer 2023 coupon applied: 6,42 €
+## Cybersecurity Awareness Month 2023 coupon applied: $11.20 + $0.35 tax
+## Summer Promo VPN coupon applied: $11.20
+## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., 08/21/2025 for US locale, 21/08/25 for FR locale)
+## $invoiceTotal (Number) - The amount billed (excluding tax if tax does not exist). It will be formatted as currency.
+## $nextBillDate (Date) - The date for the next time a charge will occur (e.g., 08/21/2025 for US locale, 21/08/25 for FR locale)
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+## $promotionName (String) - The name of the promotion.
+## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
+
+subscription-content-promotion-applied-no-tax = { $promotionName } 쿠폰 적용됨: { $invoiceTotal }
+subscription-content-promotion-applied-with-tax = { $promotionName } 쿠폰 적용됨: { $invoiceTotal } + 세금 { $taxDue }
+subscription-content-current-with-tax = { $invoiceTotal } + 세금 { $taxDue }
+subscription-content-next-bill-no-tax = { $invoiceTotal }에 대한 다음 청구서는 { $nextBillDate }까지입니다.
+subscription-content-next-bill-with-tax = { $invoiceTotal } + 세금 { $taxDue } 금액에 대한 다음 청구서는 { $nextBillDate }까지 입니다.
+subscription-content-heading-cancel-subscription = 구독 취소
+subscription-content-no-longer-use-message = 결제 주기의 마지막 날인 { $currentPeriodEnd } 이후에는 더 이상 { $productName }를 사용할 수 없습니다.
+subscription-content-cancel-access-message = { $currentPeriodEnd }에 { $productName } 안의 접근과 저장된 정보를 취소
+subscription-content-button-stay-subscribed = 구독 유지
+    .aria-label = { $productName } 구독 유지
+subscription-content-button-cancel-subscription = 구독 취소
+    .aria-label = { $productName } 구독 취소
+subscription-content-button-cancel = 취소
+    .aria-label = { $productName } 구독 취소
+subscription-content-cancel-action-error = 알 수 없는 오류가 발생하였습니다. 다시 시도해 주세요.
+subscription-cancellation-dialog-title = 가신다니 아쉽습니다.
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+subscription-cancellation-dialog-msg = { $name } 구독이 취소되었습니다. { $date }까지 { $name }에 계속 접근할 수 있습니다.
+subscription-cancellation-dialog-aside = 질문이 있으신가요? <a>{ -brand-mozilla } 지원</a>을 방문하세요.
+dialog-close = 대화상자 닫기
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
