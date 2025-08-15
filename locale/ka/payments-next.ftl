@@ -64,6 +64,7 @@ intent-payment-error-get-in-touch = ჰმ. რაღაც ხარვეზ�
 intent-payment-error-generic = მოულოდნელი შეცდომა წარმოიშვა გადახდის დამუშავებისას. გთხოვთ, სცადოთ ხელახლა.
 intent-payment-error-insufficient-funds = როგორც ჩანს, თქვენს საკრედიტო ბარათზე არასაკმარისი თანხაა. სცადეთ სხვა ბარათი.
 general-paypal-error = მოულოდნელი შეცდომა წარმოიშვა თქვენი გადახდის დამუშავებისას. გთხოვთ, სცადოთ ხელახლა.
+paypal-active-subscription-no-billing-agreement-error = როგორც ჩანს, ხარვეზი წარმოიშვა, როცა ანგარიშსწორებისა გამოიყენეთ { -brand-paypal }. გთხოვთ, ხელახლა ჩართოთ ავტომატური გადახდები თქვენი გამოწერისთვის.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -292,6 +293,13 @@ subscription-content-button-cancel-subscription = გააუქმეთ გ�
     .aria-label = გააუქმეთ თქვენ მიერ გამოწერილი { $productName }
 subscription-content-button-cancel = გაუქმება
     .aria-label = გააუქმეთ გამოწერილი { $productName }
+subscription-content-cancel-action-error = მოულოდნელი შეცდომა წარმოიშვა. გთხოვთ, კვლავ სცადოთ.
+subscription-cancellation-dialog-title = სამწუხაროა, რომ გვტოვებთ.
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+subscription-cancellation-dialog-msg = თქვენ მიერ გამოწერილი { $name } გაუქმებულია. ჯერ კიდევ შეგიძლიათ გამოიყენოთ { $name } თარიღამდე { $date }.
+subscription-cancellation-dialog-aside = კითხვები გაქვთ? იხილეთ <LinkExternal>{ -brand-mozilla } – მხარდაჭერა</LinkExternal>.
+dialog-close = სარკმლის დახურვა
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
