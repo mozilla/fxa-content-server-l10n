@@ -110,18 +110,18 @@ subscription-management-card-ending-in = Karta končící na { $last4 }
 # $expirationDate (Date) - Payment card's expiration date
 subscription-management-card-expires-date = Konec platnosti { $expirationDate }
 subscription-management-subscriptions-heading = Předplatné
-subscription-management-your-subscriptions-aria = Vaše odběry
+subscription-management-your-subscriptions-aria = Vaše předplatné
 subscription-management-no-subscriptions = Zatím nemáte žádná předplatná
-subscription-management-your-apple-iap-subscriptions-aria = Vaše { -brand-apple } předplatná v aplikaci
+subscription-management-your-apple-iap-subscriptions-aria = Vaše předplatná v aplikaci { -brand-apple }
 subscription-management-apple-in-app-purchase = { -brand-apple }: Nákup v aplikaci
-subscription-management-your-google-iap-subscriptions-aria = Vaše { -brand-google } předplatná v aplikaci
+subscription-management-your-google-iap-subscriptions-aria = Vaše předplatná v aplikaci { -brand-google }
 subscription-management-google-in-app-purchase = { -brand-google }: Nákup v aplikaci
 # $date (String) - Date of next bill
 subscription-management-iap-sub-next-bill = Další platba dne { $date }
 # $date (String) - Date of In-App purchase expires
 subscription-management-iap-sub-expires-on = Datum konce platnosti: { $date }
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscription-management-button-manage-subscription-aria = Spravovat předplatné za { $productName }
+subscription-management-button-manage-subscription-aria = Spravovat předplatné pro { $productName }
 subscription-management-button-manage-subscription = Správa
 
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
