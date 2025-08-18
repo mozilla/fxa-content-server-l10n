@@ -322,6 +322,8 @@ backup-authentication-codes-image-aria-label =
   .aria-label = Device screen with codes
 sync-clouds-image-aria-label =
   .aria-label = Clouds with a sync icon
+confetti-falling-image-aria-label =
+  .aria-label = Animated falling confetti
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -855,20 +857,46 @@ nav-data-collection = Data Collection and Use
 nav-paid-subs = Paid Subscriptions
 nav-email-comm = Email Communications
 
+## Page2faChange
+
+page-2fa-change-title = Change two-step authentication
+page-2fa-change-success = Two-step authentication has been updated
+page-2fa-change-totpinfo-error = There was an error replacing your two-step authentication app. Try again later.
+page-2fa-change-qr-instruction = <strong>Step 1:</strong> Scan this QR code using any authenticator app, like Duo or Google Authenticator. This creates a new connection, any old connections won’t work anymore.
+
+##
+
 ## Two Step Authentication - replace backup authentication code
 
+# Page title
+tfa-backup-codes-page-title = Backup authentication codes
+
+# Error shown when API call fails while replacing existing backup codes
 tfa-replace-code-error-3 = There was a problem replacing your backup authentication codes
+
+# Error shown when API call fails while creating new backup codes (user had none)
 tfa-create-code-error = There was a problem creating your backup authentication codes
-tfa-replace-code-success-1 = New codes have been created. Save these one-time use
-  backup authentication codes in a safe place — you’ll need them to access your account if you don’t
-  have your mobile device.
+
+# Success message shown in alert bar after successfully replacing existing backup codes
 tfa-replace-code-success-alert-4 = Backup authentication codes updated
-tfa-replace-code-1-2 = Step 1 of 2
-tfa-replace-code-2-2 = Step 2 of 2
 
-tfa-enter-code-to-confirm-v2 = Please enter one of your new backup authentication codes to confirm that you have saved them. Your old backup authentication codes will be disabled once this step is completed.
+# Success message shown after creating backup codes for the first time
+tfa-create-code-success-alert = Backup authentication codes created
 
-## PageSetupRecoveryPhone
+# Custom messaging for users replacing existing backup codes - Download step (1 of 2)
+# On this step, the codes are not yet replaced in the database - the old codes are still valid until step 2 is completed.
+tfa-replace-code-download-description = Keep these in a place you’ll remember. Your old codes will be replaced after you finish the next step.
+
+# Custom messaging for users replacing existing backup codes - Confirm step (2 of 2)
+# Until this confirmation step is successfully completed, the old codes are still active and the new codes are not saved in the database.
+tfa-replace-code-confirm-description = Confirm you saved your codes by entering one. Your old backup authentication codes will be disabled once this step is completed.
+
+# Error shown when the entered backup code does not match any of the generated codes
+tfa-incorrect-recovery-code-1 = Incorrect backup authentication code
+
+##
+
+## Page2faSetup
 
 page-2fa-setup-title = Two-step authentication
 page-2fa-setup-totpinfo-error = There was an error setting up two-step authentication. Try again later.
@@ -1303,6 +1331,7 @@ tfa-row-enabled = Enabled
 tfa-row-disabled-status = Disabled
 tfa-row-action-add = Add
 tfa-row-action-disable = Disable
+tfa-row-action-change = Change
 
 tfa-row-button-refresh =
   .title = Refresh two-step authentication

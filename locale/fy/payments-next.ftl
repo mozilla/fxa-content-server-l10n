@@ -61,6 +61,7 @@ intent-payment-error-get-in-touch = Hmm. Der wie in probleem by it autorisearjen
 intent-payment-error-generic = Der is in ûnferwachte flater bard by it ferwurkjen fan jo betelling, probearje it opnij.
 intent-payment-error-insufficient-funds = It liket derop dat jo kaart net genôch saldo hat. Probearje in oare kaart.
 general-paypal-error = Der is in ûnferwachte flater bard by it ferwurkjen fan jo betelling, probearje it opnij.
+paypal-active-subscription-no-billing-agreement-error = It liket derop dat der in probleem wie mei it fakturearjen fan jo { -brand-paypal }-account. Skeakelje automatyske betellingen opnij yn foar jo abonnemint.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -289,6 +290,13 @@ subscription-content-button-cancel-subscription = Abonnemint opsizze
     .aria-label = Abonnemint op { $productName } opsizze
 subscription-content-button-cancel = Opsizze
     .aria-label = Jo abonnemint op { $productName } opsizze
+subscription-content-cancel-action-error = Der is in ûnferwachte flater bard, probearje it nochris.
+subscription-cancellation-dialog-title = Wy fine it spitich dat jo ús ferlitte
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+subscription-cancellation-dialog-msg = Jo abonnemint op { $name } is opsein. Jo hawwe noch oant { $date } tagong ta { $name }.
+subscription-cancellation-dialog-aside = Fragen? Besykje <LinkExternal>{ -brand-mozilla } Support</LinkExternal>.
+dialog-close = Dialoochfinster slute
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
