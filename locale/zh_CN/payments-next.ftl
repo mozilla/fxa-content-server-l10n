@@ -61,6 +61,7 @@ intent-payment-error-get-in-touch = 嗯… 在授权您的付款时出现问题�
 intent-payment-error-generic = 处理付款时发生意外错误，请重试。
 intent-payment-error-insufficient-funds = 您的卡余额不足，请改用其他卡。
 general-paypal-error = 处理付款时发生意外错误，请重试。
+paypal-active-subscription-no-billing-agreement-error = 从您的 { -brand-paypal } 账户扣款时出现问题，请为您的订阅重新启用自动付款。
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -278,6 +279,9 @@ next-new-user-subscribe-product-assurance = 我们只会使用您的邮箱地址
 subscription-content-promotion-applied-no-tax = 已使用 { $promotionName } 折扣码：{ $invoiceTotal }
 subscription-content-promotion-applied-with-tax = 已使用 { $promotionName } 折扣码：{ $invoiceTotal } + 税费 { $taxDue }
 subscription-content-current-with-tax = { $invoiceTotal } + 税费 { $taxDue }
+subscription-content-next-bill-no-tax = 下个账单日为 { $nextBillDate }，金额 { $invoiceTotal }
+subscription-content-next-bill-with-tax = 下个账单日为 { $nextBillDate }，金额 { $invoiceTotal } + 税款 { $taxDue }
+subscription-content-heading-cancel-subscription = 取消订阅
 subscription-content-no-longer-use-message = 在账单周期的最后一天（{ $currentPeriodEnd }）过后，您将无法继续使用 { $productName }。
 subscription-content-cancel-access-message = 在 { $currentPeriodEnd } 后取消我的 { $productName } 使用权，并删除保存的信息
 subscription-content-button-stay-subscribed = 继续订阅
@@ -286,6 +290,13 @@ subscription-content-button-cancel-subscription = 取消订阅
     .aria-label = 取消订阅 { $productName }
 subscription-content-button-cancel = 取消
     .aria-label = 取消订阅 { $productName }
+subscription-content-cancel-action-error = 发生意外错误，请重试。
+subscription-cancellation-dialog-title = 有缘再会
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+subscription-cancellation-dialog-msg = 您的 { $name } 订阅已取消。您仍可使用 { $name } 到 { $date }。
+subscription-cancellation-dialog-aside = 遇到问题？请访问 <LinkExternal>{ -brand-mozilla } 技术支持</LinkExternal>。
+dialog-close = 关闭对话框
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
