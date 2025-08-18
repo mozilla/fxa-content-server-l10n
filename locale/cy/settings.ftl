@@ -298,6 +298,8 @@ backup-authentication-codes-image-aria-label =
     .aria-label = Sgrin dyfais gyda chodau
 sync-clouds-image-aria-label =
     .aria-label = Cymylau gydag eicon cydweddu
+confetti-falling-image-aria-label =
+    .aria-label = Conffeti disgynnol animeiddiedig
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -786,14 +788,33 @@ nav-data-collection = Casglu a'r Defnydd o Ddata
 nav-paid-subs = Tanysgrifiadau Taledig
 nav-email-comm = Cyfathrebu Trwy E-bost
 
+## Page2faChange
+
+page-2fa-change-title = Newid dilysu dau gam
+page-2fa-change-success = Mae dilysu dau gam wedi'i ddiweddaru
+page-2fa-change-totpinfo-error = Bu gwall wrth amnewid eich ap dilysu dau gam. Ceisiwch eto yn nes ymlaen.
+page-2fa-change-qr-instruction = <strong>Cam 1:</strong> Sganiwch y cod QR hwn gan ddefnyddio unrhyw ap dilysu, fel Duo neu Google Authenticator. Mae hyn yn creu cysylltiad newydd, ni fydd unrhyw hen gysylltiadau yn gweithio mwyach.
+
 ## Two Step Authentication - replace backup authentication code
 
+# Page title
+tfa-backup-codes-page-title = Codau dilysu wrth gefn
 # Error shown when API call fails while replacing existing backup codes
 tfa-replace-code-error-3 = Bu anhawster wrth amnewid eich codau dilysu wrth gefn
 # Error shown when API call fails while creating new backup codes (user had none)
 tfa-create-code-error = Bu anhawster wrth greu eich codau dilysu wrth gefn
 # Success message shown in alert bar after successfully replacing existing backup codes
 tfa-replace-code-success-alert-4 = Codau dilysu wrth gefn wedi'u diweddaru
+# Success message shown after creating backup codes for the first time
+tfa-create-code-success-alert = Codau dilysu wrth gefn wedi'u creu
+# Custom messaging for users replacing existing backup codes - Download step (1 of 2)
+# On this step, the codes are not yet replaced in the database - the old codes are still valid until step 2 is completed.
+tfa-replace-code-download-description = Cadwch y rhain mewn man y byddwch yn ei gofio. Bydd eich hen godau yn cael eu disodli ar ôl i chi orffen y cam nesaf.
+# Custom messaging for users replacing existing backup codes - Confirm step (2 of 2)
+# Until this confirmation step is successfully completed, the old codes are still active and the new codes are not saved in the database.
+tfa-replace-code-confirm-description = Cadarnhewch eich bod wedi cadw'ch codau trwy nodi un. Bydd eich hen godau dilysu wrth gefn yn cael eu hanalluogi unwaith y bydd y cam hwn wedi'i gwblhau.
+# Error shown when the entered backup code does not match any of the generated codes
+tfa-incorrect-recovery-code-1 = Cod dilysu wrth gefn anghywir
 
 ## Page2faSetup
 
@@ -1197,6 +1218,7 @@ tfa-row-enabled = Galluogwyd
 tfa-row-disabled-status = Analluogwyd
 tfa-row-action-add = Ychwanegu
 tfa-row-action-disable = Analluogi
+tfa-row-action-change = Newid
 tfa-row-button-refresh =
     .title = Adnewyddu dilysu dau gam
 tfa-row-cannot-refresh = Ymddiheuriadau, bu anhawster wrth adnewyddu'r dilysu dau gam.

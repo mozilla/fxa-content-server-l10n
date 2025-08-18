@@ -286,6 +286,8 @@ backup-authentication-codes-image-aria-label =
     .aria-label = Écran de l’appareil avec des codes
 sync-clouds-image-aria-label =
     .aria-label = Nuages avec une icône de synchronisation
+confetti-falling-image-aria-label =
+    .aria-label = Animation de confétis qui tombent
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -768,14 +770,33 @@ nav-data-collection = Collecte et utilisation de données
 nav-paid-subs = Abonnements payants
 nav-email-comm = Communications électroniques
 
+## Page2faChange
+
+page-2fa-change-title = Modifier l’authentification en deux étapes
+page-2fa-change-success = L’authentification en deux étapes a été mise à jour
+page-2fa-change-totpinfo-error = Une erreur s’est produite lors du remplacement de votre application d’authentification en deux étapes. Réessayer plus tard.
+page-2fa-change-qr-instruction = <strong>Étape 1 :</strong> scannez ce code QR en utilisant n’importe quelle application d’authentification, comme Duo ou Google Authenticator. Ceci crée une nouvelle connexion, les anciennes connexions ne fonctionneront plus.
+
 ## Two Step Authentication - replace backup authentication code
 
+# Page title
+tfa-backup-codes-page-title = Codes d’authentification de secours
 # Error shown when API call fails while replacing existing backup codes
 tfa-replace-code-error-3 = Un problème est survenu lors du remplacement de vos codes d’authentification de secours
 # Error shown when API call fails while creating new backup codes (user had none)
 tfa-create-code-error = Un problème est survenu lors de la création de vos codes d’authentification de secours
 # Success message shown in alert bar after successfully replacing existing backup codes
 tfa-replace-code-success-alert-4 = Codes d’authentification de secours mis à jour
+# Success message shown after creating backup codes for the first time
+tfa-create-code-success-alert = Codes d’authentification de secours créés
+# Custom messaging for users replacing existing backup codes - Download step (1 of 2)
+# On this step, the codes are not yet replaced in the database - the old codes are still valid until step 2 is completed.
+tfa-replace-code-download-description = Conservez-les dans un endroit inoubliable. Vos anciens codes seront remplacés à la fin de l’étape suivante.
+# Custom messaging for users replacing existing backup codes - Confirm step (2 of 2)
+# Until this confirmation step is successfully completed, the old codes are still active and the new codes are not saved in the database.
+tfa-replace-code-confirm-description = Saisissez-en un après avoir enregistré vos codes. Vos anciens codes d’authentification de secours seront désactivés une fois cette étape terminée.
+# Error shown when the entered backup code does not match any of the generated codes
+tfa-incorrect-recovery-code-1 = Code d’authentification de secours incorrect
 
 ## Page2faSetup
 
@@ -1175,6 +1196,7 @@ tfa-row-enabled = Activée
 tfa-row-disabled-status = Désactivée
 tfa-row-action-add = Ajouter
 tfa-row-action-disable = Désactiver
+tfa-row-action-change = Modifier
 tfa-row-button-refresh =
     .title = Actualiser l’authentification en deux étapes
 tfa-row-cannot-refresh = Un problème est survenu lors de l’actualisation de l’authentification en deux étapes.

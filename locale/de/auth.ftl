@@ -470,6 +470,15 @@ postChangeRecoveryPhone-preview = Konto durch Zwei-Schritt-Authentifizierung ges
 postChangeRecoveryPhone-title = Sie haben Ihre Telefonnummer zur Kontowiederherstellung geändert
 postChangeRecoveryPhone-description = Sie haben jetzt eine neue Telefonnummer zur Kontowiederherstellung. Ihre vorherige Telefonnummer wurde gelöscht.
 postChangeRecoveryPhone-requested-device = Sie haben sie angefordert von:
+postChangeTwoStepAuthentication-preview = Ihr Konto ist geschützt
+postChangeTwoStepAuthentication-subject = Zwei-Schritt-Authentifizierung aktualisiert
+postChangeTwoStepAuthentication-title = Die Zwei-Schritt-Authentifizierung wurde aktualisiert.
+postChangeTwoStepAuthentication-use-new-account = Sie müssen jetzt den neuen Eintrag { -product-mozilla-account } in Ihrer Authentifizierungs-App verwenden. Die ältere wird nicht mehr funktionieren und Sie können sie entfernen.
+# After the colon, there is a description of the device that the user used to enable two-step authentication
+postChangeTwoStepAuthentication-from-device = Sie haben dies angefordert von:
+postChangeTwoStepAuthentication-action = Benutzerkonto verwalten
+postChangeTwoStepAuthentication-how-protects-link = Wie dies Ihr Konto schützt
+postChangeTwoStepAuthentication-how-protects-plaintext = Wie dies Ihr Konto schützt:
 postConsumeRecoveryCode-title-3 = Ihr Sicherungs-Authentifizierungscode wurde verwendet, um das Zurücksetzen des Passworts zu bestätigen
 # After the colon, there is description of the device that the backup authentication code was used on
 # E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
@@ -715,6 +724,31 @@ subscriptionUpgrade-upgrade-info-2 = Sie haben erfolgreich das Upgrade auf { $pr
 
 subscriptionUpgrade-content-charge-prorated-1 = Ihnen wurde eine einmalige Gebühr in Höhe von { $invoiceAmountDue } berechnet, um den höheren Preis Ihres Abonnements für den Rest dieses Abrechnungszeitraums widerzuspiegeln ({ $productPaymentCycleOld }).
 subscriptionUpgrade-content-charge-credit = Sie haben eine Kontogutschrift in Höhe von { $paymentProrated } erhalten.
+subscriptionUpgrade-content-subscription-next-bill-change = Ab Ihrer nächsten Rechnung ändert sich der Preis Ihres Abonnements.
+subscriptionUpgrade-content-old-price-day = Der vorherige Preis war { $paymentAmountOld } pro Tag.
+subscriptionUpgrade-content-old-price-week = Der vorherige Preis war { $paymentAmountOld } pro Woche.
+subscriptionUpgrade-content-old-price-month = Der vorherige Preis betrug { $paymentAmountOld } pro Monat.
+subscriptionUpgrade-content-old-price-halfyear = Der vorherige Satz war { $paymentAmountOld } für sechs Monate.
+subscriptionUpgrade-content-old-price-year = Der vorherige Preis war { $paymentAmountOld } pro Jahr.
+subscriptionUpgrade-content-old-price-default = Der vorherige Preis war { $paymentAmountOld } pro Abrechnungsintervall.
+subscriptionUpgrade-content-old-price-day-tax = Der vorherige Satz war { $paymentAmountOld } + { $paymentTaxOld } Steuern pro Tag.
+subscriptionUpgrade-content-old-price-week-tax = Der vorherige Satz war { $paymentAmountOld } + { $paymentTaxOld } Steuern pro Woche.
+subscriptionUpgrade-content-old-price-month-tax = Der vorherige Satz war { $paymentAmountOld } + { $paymentTaxOld } Steuern pro Monat.
+subscriptionUpgrade-content-old-price-halfyear-tax = Der vorherige Satz war { $paymentAmountOld } + { $paymentTaxOld } Steuern pro sechs Monate.
+subscriptionUpgrade-content-old-price-year-tax = Der vorherige Satz war { $paymentAmountOld } + { $paymentTaxOld } Steuern pro Jahr.
+subscriptionUpgrade-content-old-price-default-tax = Der vorherige Satz war { $paymentAmountOld } + { $paymentTaxOld } Steuern pro Abrechnungsintervall.
+subscriptionUpgrade-content-new-price-day = Ab sofort werden Ihnen { $paymentAmountNew } pro Tag berechnet, Rabatte sind nicht inbegriffen.
+subscriptionUpgrade-content-new-price-week = Ab sofort werden Ihnen { $paymentAmountNew } pro Woche berechnet, Rabatte sind nicht inbegriffen.
+subscriptionUpgrade-content-new-price-month = In Zukunft werden Ihnen { $paymentAmountNew } pro Monat in Rechnung gestellt, Rabatte sind nicht inbegriffen.
+subscriptionUpgrade-content-new-price-halfyear = In Zukunft werden Ihnen alle sechs Monate { $paymentAmountNew } in Rechnung gestellt, Rabatte nicht inbegriffen.
+subscriptionUpgrade-content-new-price-year = In Zukunft werden Ihnen { $paymentAmountNew } pro Jahr in Rechnung gestellt, Rabatte sind nicht inbegriffen.
+subscriptionUpgrade-content-new-price-default = In Zukunft werden Ihnen { $paymentAmountNew } pro Abrechnungsintervall berechnet, Rabatte sind nicht inbegriffen.
+subscriptionUpgrade-content-new-price-day-dtax = Ab sofort werden Ihnen { $paymentAmountNew } + { $paymentTaxNew } Steuern pro Tag berechnet, Rabatte nicht inbegriffen.
+subscriptionUpgrade-content-new-price-week-tax = Ab sofort werden Ihnen { $paymentAmountNew } + { $paymentTaxNew } Steuern pro Woche berechnet, Rabatte nicht inbegriffen.
+subscriptionUpgrade-content-new-price-month-tax = In Zukunft werden Ihnen { $paymentAmountNew } + { $paymentTaxNew } Steuern pro Monat (ohne Rabatte) berechnet.
+subscriptionUpgrade-content-new-price-halfyear-tax = In Zukunft werden Ihnen alle sechs Monate (ohne Rabatte) { $paymentAmountNew } + { $paymentTaxNew } Steuern berechnet.
+subscriptionUpgrade-content-new-price-year-tax = In Zukunft werden Ihnen { $paymentAmountNew } + { $paymentTaxNew } Steuern pro Jahr in Rechnung gestellt, Rabatte nicht inbegriffen.
+subscriptionUpgrade-content-new-price-default-tax = In Zukunft werden Ihnen { $paymentAmountNew } + { $paymentTaxNew } Steuern pro Abrechnungsintervall (ohne Rabatte) berechnet.
 subscriptionUpgrade-existing = Wenn sich Ihre bestehenden Abonnements bei diesem Upgrade überschneiden, bearbeiten wir diese und schicken Ihnen eine separate E-Mail mit den Details. Wenn Ihr neuer Plan Produkte enthält, die installiert werden müssen, senden wir Ihnen eine separate E-Mail mit Anweisungen zur Einrichtung.
 subscriptionUpgrade-auto-renew = Ihr Abonnement verlängert sich automatisch jeden Abrechnungszeitraum, sofern Sie nicht kündigen.
 unblockCode-subject = Konto-Autorisierungscode

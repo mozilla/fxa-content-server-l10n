@@ -289,6 +289,8 @@ backup-authentication-codes-image-aria-label =
     .aria-label = Obrazovka zařízení s kódy
 sync-clouds-image-aria-label =
     .aria-label = Mraky s ikonou synchronizace
+confetti-falling-image-aria-label =
+    .aria-label = Animované padající konfety
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -778,14 +780,33 @@ nav-data-collection = Sběr dat a jejich použití
 nav-paid-subs = Předplatné
 nav-email-comm = E-mailová sdělení
 
+## Page2faChange
+
+page-2fa-change-title = Změnit dvoufázové ověřování
+page-2fa-change-success = Dvoufázové ověřování bylo aktualizováno
+page-2fa-change-totpinfo-error = Při výměně vaší aplikace pro dvoufázové ověřování nastala chyba. Zkuste to znovu později.
+page-2fa-change-qr-instruction = <strong>Krok 1:</strong> Naskenujte tento QR kód pomocí libovolné aplikace, jako je Duo nebo Google Authenticator. Toto vytvoří nové připojení. Stará připojení nebudou nadále fungovat.
+
 ## Two Step Authentication - replace backup authentication code
 
+# Page title
+tfa-backup-codes-page-title = Záložní ověřovací kódy
 # Error shown when API call fails while replacing existing backup codes
 tfa-replace-code-error-3 = Při výměně záložních ověřovacích kódů se vyskytl problém
 # Error shown when API call fails while creating new backup codes (user had none)
 tfa-create-code-error = Při vytváření záložních ověřovacích kódů se vyskytl problém
 # Success message shown in alert bar after successfully replacing existing backup codes
 tfa-replace-code-success-alert-4 = Záložní ověřovací kódy byly aktualizovány
+# Success message shown after creating backup codes for the first time
+tfa-create-code-success-alert = Záložní ověřovací kódy byly vytvořeny
+# Custom messaging for users replacing existing backup codes - Download step (1 of 2)
+# On this step, the codes are not yet replaced in the database - the old codes are still valid until step 2 is completed.
+tfa-replace-code-download-description = Uložte si je na místo, které si budete pamatovat. Vaše staré kódy budou nahrazeny po dokončení dalšího kroku.
+# Custom messaging for users replacing existing backup codes - Confirm step (2 of 2)
+# Until this confirmation step is successfully completed, the old codes are still active and the new codes are not saved in the database.
+tfa-replace-code-confirm-description = Potvrďte uložení kódů zadáním jednoho. Vaše staré záložní ověřovací kódy budou po dokončení tohoto kroku deaktivovány.
+# Error shown when the entered backup code does not match any of the generated codes
+tfa-incorrect-recovery-code-1 = Nesprávný záložní ověřovací kód
 
 ## Page2faSetup
 
@@ -1184,6 +1205,7 @@ tfa-row-enabled = Povoleno
 tfa-row-disabled-status = Zakázáno
 tfa-row-action-add = Přidat
 tfa-row-action-disable = Vypnout
+tfa-row-action-change = Změnit
 tfa-row-button-refresh =
     .title = Obnovit nastavení dvoufázového ověřování
 tfa-row-cannot-refresh = Nepodařilo se obnovit nastavení dvoufázového ověřování.

@@ -296,6 +296,15 @@ subscription-cancellation-dialog-title = Lamentamos que te vayas
 # $date (Date) - Last day of product access
 subscription-cancellation-dialog-msg = Tu suscripción de { $name } ha sido cancelada. Seguirás teniendo acceso a { $name } hasta el { $date }.
 subscription-cancellation-dialog-aside = ¿Tenés preguntas? Visitá <linkExternal>Soporte de { -brand-mozilla }</linkExternal>.
+subscription-content-button-resubscribe = Resuscribir
+    .aria-label = Volver a suscribirse a { $productName }
+# $date (Date) - Last day of product access
+subscription-content-resubscribe = Se perderá acceso a { $name } el <strong>{ $date }</strong>.
+resubscribe-dialog-title = ¿Querés seguir usando { $name }?
+resubscribe-dialog-content = Tu acceso a { $name } continuará y tu ciclo de facturación y pago seguirán siendo los mismos. Tu próximo cargo será de { $amount } el { $endDate }.
+resubscribe-dialog-action-button = Mantener suscripción
+resubscribe-success-dialog-title = ¡Gracias! Está todo listo.
+resubscribe-success-dialog-action-button = Cerrar
 dialog-close = Cerrar el diálogo
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails

@@ -470,6 +470,15 @@ postChangeRecoveryPhone-preview = Kétlépcsős hitelesítéssel védett fiók
 postChangeRecoveryPhone-title = Módosította a helyreállítási telefonszámát
 postChangeRecoveryPhone-description = Új helyreállítási telefonszáma van. Az előző telefonszám törölve lett.
 postChangeRecoveryPhone-requested-device = Innen kérte:
+postChangeTwoStepAuthentication-preview = A fiókja védve van
+postChangeTwoStepAuthentication-subject = Kétlépcsős hitelesítés frissítve
+postChangeTwoStepAuthentication-title = A kétlépcsős hitelesítés frissítve lett
+postChangeTwoStepAuthentication-use-new-account = Most már az új { -product-mozilla-account } bejegyzést kell használnia a hitelesítő alkalmazásban. A régi már nem fog működni, és eltávolíthatja.
+# After the colon, there is a description of the device that the user used to enable two-step authentication
+postChangeTwoStepAuthentication-from-device = Ezt kérte a következőtől:
+postChangeTwoStepAuthentication-action = Fiók kezelése
+postChangeTwoStepAuthentication-how-protects-link = Hogyan védi ez a fiókját
+postChangeTwoStepAuthentication-how-protects-plaintext = Hogyan védi ez a fiókját:
 postConsumeRecoveryCode-title-3 = A tartalék hitelesítési kódját egy jelszó-visszaállítás megerősítéséhez használták
 # After the colon, there is description of the device that the backup authentication code was used on
 # E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
@@ -715,6 +724,31 @@ subscriptionUpgrade-upgrade-info-2 = Sikeresen frissített erre: { $productName 
 
 subscriptionUpgrade-content-charge-prorated-1 = Egy egyszeri { $invoiceAmountDue } összegű díjat számoltunk fel, amely a számlázási időszak ({ $productPaymentCycleOld }) hátralévő részében az előfizetés magasabb árat tükrözi.
 subscriptionUpgrade-content-charge-credit = { $paymentProrated } összegű jóváírást kapott.
+subscriptionUpgrade-content-subscription-next-bill-change = A következő számlától kezdve az előfizetés ára megváltozik.
+subscriptionUpgrade-content-old-price-day = A korábbi ár { $paymentAmountOld } naponta volt.
+subscriptionUpgrade-content-old-price-week = A korábbi ár heti { $paymentAmountOld } volt.
+subscriptionUpgrade-content-old-price-month = A korábbi díj { $paymentAmountOld } havonta volt.
+subscriptionUpgrade-content-old-price-halfyear = A korábbi díj { $paymentAmountOld } volt havonta.
+subscriptionUpgrade-content-old-price-year = A korábbi díj { $paymentAmountOld } volt évente.
+subscriptionUpgrade-content-old-price-default = A korábbi díj { $paymentAmountOld } volt számlázási intervallumonként.
+subscriptionUpgrade-content-old-price-day-tax = A korábbi kulcs { $paymentAmountOld } + { $paymentTaxOld } adó volt naponta.
+subscriptionUpgrade-content-old-price-week-tax = A korábbi kulcs { $paymentAmountOld } + { $paymentTaxOld } adó volt hetente.
+subscriptionUpgrade-content-old-price-month-tax = A korábbi kulcs { $paymentAmountOld } + { $paymentTaxOld } adó volt havonta.
+subscriptionUpgrade-content-old-price-halfyear-tax = A korábbi kulcs { $paymentAmountOld } + { $paymentTaxOld } adó volt hat hónaponként.
+subscriptionUpgrade-content-old-price-year-tax = A korábbi kulcs { $paymentAmountOld } + { $paymentTaxOld } adó volt évente.
+subscriptionUpgrade-content-old-price-default-tax = A korábbi kulcs { $paymentAmountOld } + { $paymentTaxOld } adó volt számlázási intervallumonként.
+subscriptionUpgrade-content-new-price-day = A továbbiakban naponta { $paymentAmountNew } összeget fog fizetni, kivéve a kedvezményeket.
+subscriptionUpgrade-content-new-price-week = A továbbiakban hetente { $paymentAmountNew } összeget fog fizetni, kivéve a kedvezményeket.
+subscriptionUpgrade-content-new-price-month = A továbbiakban havi { $paymentAmountNew } összeget fog fizetni, kivéve a kedvezményeket.
+subscriptionUpgrade-content-new-price-halfyear = A továbbiakban { $paymentAmountNew } összeget fog fizetni havonta, kivéve a kedvezményeket.
+subscriptionUpgrade-content-new-price-year = A továbbiakban évente { $paymentAmountNew } összeget fog fizetni, kivéve a kedvezményeket.
+subscriptionUpgrade-content-new-price-default = A továbbiakban { $paymentAmountNew } összeget fog fizetni számlázási intervallumonként, kivéve a kedvezményeket.
+subscriptionUpgrade-content-new-price-day-dtax = A jövőben { $paymentAmountNew } + { $paymentTaxNew } adó lesz levonva naponta, kivéve a kedvezményeket.
+subscriptionUpgrade-content-new-price-week-tax = A továbbiakban hetente { $paymentAmountNew } + { $paymentTaxNew } adó lesz levonva, kivéve a kedvezményeket.
+subscriptionUpgrade-content-new-price-month-tax = A továbbiakban havonta { $paymentAmountNew } + { $paymentTaxNew } adót fogunk fizetni, kivéve a kedvezményeket.
+subscriptionUpgrade-content-new-price-halfyear-tax = A továbbiakban hat hónaponként { $paymentAmountNew } + { $paymentTaxNew } adót fogunk fizetni, a kedvezményeket nem tartalmazza.
+subscriptionUpgrade-content-new-price-year-tax = A továbbiakban évente { $paymentAmountNew } + { $paymentTaxNew } adót fogunk kiszámlázni, kivéve a kedvezményeket.
+subscriptionUpgrade-content-new-price-default-tax = A jövőben { $paymentAmountNew } + { $paymentTaxNew } adó lesz levonva számlázási intervallumonként, kivéve a kedvezményeket.
 subscriptionUpgrade-existing = Ha bármelyik meglévő előfizetése fedi ezt a frissítést, akkor azt kezeljük, és külön e-mailt küldünk a részletekről. Ha az új előfizetése telepítést igénylő termékeket tartalmaz, akkor külön e-mailt küldünk a beállítási utasításokkal.
 subscriptionUpgrade-auto-renew = Előfizetése számlázási időszakonként automatikusan megújul, hacsak nem dönt úgy, hogy lemondja.
 unblockCode-subject = Fiók engedélyezési kód

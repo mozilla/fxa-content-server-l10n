@@ -292,6 +292,8 @@ backup-authentication-codes-image-aria-label =
     .aria-label = Zaslon naprave s kodami
 sync-clouds-image-aria-label =
     .aria-label = Oblaki z ikono za sinhronizacijo
+confetti-falling-image-aria-label =
+    .aria-label = Animirani padajoči konfeti
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -780,14 +782,33 @@ nav-data-collection = Zbiranje in uporaba podatkov
 nav-paid-subs = Plačljive naročnine
 nav-email-comm = E-poštno obveščanje
 
+## Page2faChange
+
+page-2fa-change-title = Spremeni overitev v dveh korakih
+page-2fa-change-success = Overitev v dveh korakih je posodobljena
+page-2fa-change-totpinfo-error = Pri menjavi aplikacije za overjanje v dveh korakih je prišlo do napake. Poskusite znova pozneje.
+page-2fa-change-qr-instruction = <strong>1. korak:</strong> skenirajte to kodo QR s katerokoli aplikacijo za overitev, kot je Duo ali Google Authenticator. To ustvari novo povezavo, vse stare povezave ne bodo več delovale.
+
 ## Two Step Authentication - replace backup authentication code
 
+# Page title
+tfa-backup-codes-page-title = Rezervne overitvene kode
 # Error shown when API call fails while replacing existing backup codes
 tfa-replace-code-error-3 = Pri menjavi rezervnih overitvenih kod je prišlo do težave
 # Error shown when API call fails while creating new backup codes (user had none)
 tfa-create-code-error = Pri ustvarjanju rezervnih overitvenih kod je prišlo do težave
 # Success message shown in alert bar after successfully replacing existing backup codes
 tfa-replace-code-success-alert-4 = Rezervne overitvene kode so posodobljene
+# Success message shown after creating backup codes for the first time
+tfa-create-code-success-alert = Rezervne overitvene kode so ustvarjene
+# Custom messaging for users replacing existing backup codes - Download step (1 of 2)
+# On this step, the codes are not yet replaced in the database - the old codes are still valid until step 2 is completed.
+tfa-replace-code-download-description = Shranite jih na mestu, ki si jih boste zapomnili. Vaše stare kode bodo zamenjane, ko dokončate naslednji korak.
+# Custom messaging for users replacing existing backup codes - Confirm step (2 of 2)
+# Until this confirmation step is successfully completed, the old codes are still active and the new codes are not saved in the database.
+tfa-replace-code-confirm-description = Z vnosom potrdite, da ste shranili kode. Vaše stare rezervne overitvene kode bodo onemogočene, ko bo ta korak zaključen.
+# Error shown when the entered backup code does not match any of the generated codes
+tfa-incorrect-recovery-code-1 = Nepravilna rezervna overitvena koda
 
 ## Page2faSetup
 
@@ -1191,6 +1212,7 @@ tfa-row-enabled = Omogočena
 tfa-row-disabled-status = Onemogočena
 tfa-row-action-add = Dodaj
 tfa-row-action-disable = Onemogoči
+tfa-row-action-change = Spremeni
 tfa-row-button-refresh =
     .title = Osveži overitev v dveh korakih
 tfa-row-cannot-refresh =

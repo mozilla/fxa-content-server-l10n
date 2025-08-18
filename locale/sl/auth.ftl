@@ -472,6 +472,15 @@ postChangeRecoveryPhone-preview = Račun je zaščiten s overjanjem v dveh korak
 postChangeRecoveryPhone-title = Spremenili ste telefonsko številko za obnovitev
 postChangeRecoveryPhone-description = Zdaj imate novo telefonsko številko za obnovitev. Prejšnja številka je bila izbrisana.
 postChangeRecoveryPhone-requested-device = To ste zahtevali z naslednje naprave:
+postChangeTwoStepAuthentication-preview = Vaš račun je zaščiten
+postChangeTwoStepAuthentication-subject = Overitev v dveh korakih je posodobljena
+postChangeTwoStepAuthentication-title = Overitev v dveh korakih je posodobljena
+postChangeTwoStepAuthentication-use-new-account = Zdaj morate uporabiti nov vnos { -product-mozilla-account } v aplikaciji za overitev. Starejši ne bo več deloval in ga lahko odstranite.
+# After the colon, there is a description of the device that the user used to enable two-step authentication
+postChangeTwoStepAuthentication-from-device = To ste zahtevali z naslednje naprave:
+postChangeTwoStepAuthentication-action = Upravljanje računa
+postChangeTwoStepAuthentication-how-protects-link = Kako to ščiti vaš račun
+postChangeTwoStepAuthentication-how-protects-plaintext = Kako to ščiti vaš račun:
 postConsumeRecoveryCode-title-3 = Za potrditev ponastavitve gesla je bila uporabljena vaša rezervna overitvena koda
 # After the colon, there is description of the device that the backup authentication code was used on
 # E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
@@ -717,6 +726,31 @@ subscriptionUpgrade-upgrade-info-2 = Uspešno ste nadgradili na { $productName }
 
 subscriptionUpgrade-content-charge-prorated-1 = Zaračunali smo vam enkraten prispevek v višini { $invoiceAmountDue }, ki odraža višjo ceno naročnine za preostanek tega obračunskega obdobja ({ $productPaymentCycleOld }).
 subscriptionUpgrade-content-charge-credit = Na račun ste prejeli dobroimetje v višini { $paymentProrated }.
+subscriptionUpgrade-content-subscription-next-bill-change = Od naslednjega računa se bo cena naročnine spreminjala.
+subscriptionUpgrade-content-old-price-day = Prejšnja cena je bila { 0 } na dan.
+subscriptionUpgrade-content-old-price-week = Prejšnja cena je bila { 0 } na teden.
+subscriptionUpgrade-content-old-price-month = Prejšnja cena je bila { 0 } na mesec.
+subscriptionUpgrade-content-old-price-halfyear = Prejšnja obrestna mera je bila { $paymentAmountOld } na šest mesecev.
+subscriptionUpgrade-content-old-price-year = Prejšnja obrestna mera je bila { 0 } na leto.
+subscriptionUpgrade-content-old-price-default = Prejšnja cena je bila { $paymentAmountOld } na obračunski interval.
+subscriptionUpgrade-content-old-price-day-tax = Prejšnja postavka je bila { $paymentAmountOld } + { $paymentTaxOld } davek na dan.
+subscriptionUpgrade-content-old-price-week-tax = Prejšnja postavka je bila { $paymentAmountOld } + { $paymentTaxOld } davek na teden.
+subscriptionUpgrade-content-old-price-month-tax = Prejšnja stopnja je bila { $paymentAmountOld } + { $paymentTaxOld } davek na mesec.
+subscriptionUpgrade-content-old-price-halfyear-tax = Prejšnja stopnja je bila { $paymentAmountOld } + { $paymentTaxOld } davek na šest mesecev.
+subscriptionUpgrade-content-old-price-year-tax = Prejšnja stopnja je bila { $paymentAmountOld } + { $paymentTaxOld } davek na leto.
+subscriptionUpgrade-content-old-price-default-tax = Prejšnja stopnja je bila { $paymentAmountOld } + { $paymentTaxOld } davek na obračunski interval.
+subscriptionUpgrade-content-new-price-day = V prihodnje vam bomo zaračunali { $paymentAmountNew } na dan brez popustov.
+subscriptionUpgrade-content-new-price-week = V prihodnje vam bomo zaračunavali { $paymentAmountNew } na teden brez popustov.
+subscriptionUpgrade-content-new-price-month = V prihodnje vam bomo zaračunavali { $paymentAmountNew } na mesec brez popustov.
+subscriptionUpgrade-content-new-price-halfyear = V prihodnje vam bomo zaračunavali { $paymentAmountNew } na šest mesecev brez popustov.
+subscriptionUpgrade-content-new-price-year = V prihodnje vam bomo zaračunali { $paymentAmountNew } na leto brez popustov.
+subscriptionUpgrade-content-new-price-default = V prihodnje vam bomo zaračunavali { $paymentAmountNew } za obračunski interval brez popustov.
+subscriptionUpgrade-content-new-price-day-dtax = V prihodnje vam bomo zaračunavali { $paymentAmountNew } + { $paymentTaxNew } davek na dan, brez popustov.
+subscriptionUpgrade-content-new-price-week-tax = V prihodnje vam bomo zaračunavali { $paymentAmountNew } + { $paymentTaxNew } davek na teden brez popustov.
+subscriptionUpgrade-content-new-price-month-tax = V prihodnje vam bomo zaračunavali { $paymentAmountNew } + { $paymentTaxNew } davek na mesec, brez popustov.
+subscriptionUpgrade-content-new-price-halfyear-tax = V prihodnje vam bomo zaračunavali { $paymentAmountNew } + { $paymentTaxNew } davek na šest mesecev, brez popustov.
+subscriptionUpgrade-content-new-price-year-tax = V prihodnje vam bomo zaračunavali { $paymentAmountNew } + { $paymentTaxNew } davek na leto, brez popustov.
+subscriptionUpgrade-content-new-price-default-tax = V prihodnje vam bomo zaračunavali { $paymentAmountNew } + { $paymentTaxNew } davek na obračunski interval brez popustov.
 subscriptionUpgrade-existing = Če se katera od vaših obstoječih naročnin prekriva s to nadgradnjo, bomo to posodobili in vam poslali ločeno e-poštno sporočilo s podrobnostmi. Če vaša nova naročnina vključuje izdelke, ki zahtevajo namestitev, vam bomo poslali ločeno e-pošto z navodili za namestitev.
 subscriptionUpgrade-auto-renew = Naročnina se bo vsako obračunsko obdobje samodejno podaljšala, razen če se odločite za preklic.
 unblockCode-subject = Overitvena koda računa

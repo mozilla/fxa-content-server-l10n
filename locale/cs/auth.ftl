@@ -472,6 +472,15 @@ postChangeRecoveryPhone-preview = Účet chráněn pomocí dvoufázového ověř
 postChangeRecoveryPhone-title = Změnili jste své telefonní číslo pro obnovení
 postChangeRecoveryPhone-description = Nyní máte nové telefonní číslo pro obnovu. Vaše předchozí telefonní číslo bylo smazáno.
 postChangeRecoveryPhone-requested-device = Vyžádali jste si ho z:
+postChangeTwoStepAuthentication-preview = Váš účet je chráněn
+postChangeTwoStepAuthentication-subject = Dvoufázové ověřování bylo aktualizováno
+postChangeTwoStepAuthentication-title = Dvoufázové ověřování bylo aktualizováno
+postChangeTwoStepAuthentication-use-new-account = Nyní je potřeba ve své autentizační aplikaci použít novou položku { -product-mozilla-account }. Starší z nich už nebude fungovat a můžete ji odebrat.
+# After the colon, there is a description of the device that the user used to enable two-step authentication
+postChangeTwoStepAuthentication-from-device = Vyžádali jste si to z:
+postChangeTwoStepAuthentication-action = Správa účtu
+postChangeTwoStepAuthentication-how-protects-link = Jak tato funkce chrání váš účet
+postChangeTwoStepAuthentication-how-protects-plaintext = Jak tato nastavení chrání váš účet:
 postConsumeRecoveryCode-title-3 = Váš záložní ověřovací kód byl použit jako potvrzení obnovení hesla
 # After the colon, there is description of the device that the backup authentication code was used on
 # E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
@@ -717,6 +726,31 @@ subscriptionUpgrade-upgrade-info-2 = Úspěšně jste přešli na { $productName
 
 subscriptionUpgrade-content-charge-prorated-1 = Byl vám účtován jednorázový poplatek { $invoiceAmountDue }, který odráží vyšší cenu vašeho předplatného pro zbytek tohoto fakturačního období ({ $productPaymentCycleOld }).
 subscriptionUpgrade-content-charge-credit = Obdrželi jste kredit ve výši { $paymentProrated }.
+subscriptionUpgrade-content-subscription-next-bill-change = Od příštího vyúčtování se cena vašeho předplatného změní.
+subscriptionUpgrade-content-old-price-day = Předchozí cena byla { $paymentAmountOld } na den.
+subscriptionUpgrade-content-old-price-week = Předchozí sazba byla { $paymentAmountOld } týdně.
+subscriptionUpgrade-content-old-price-month = Předchozí sazba byla { $paymentAmountOld } měsíčně.
+subscriptionUpgrade-content-old-price-halfyear = Předchozí sazba byla { $paymentAmountOld } za šest měsíců.
+subscriptionUpgrade-content-old-price-year = Předchozí sazba byla { $paymentAmountOld } ročně.
+subscriptionUpgrade-content-old-price-default = Předchozí sazba byla { $paymentAmountOld } za interval účtování.
+subscriptionUpgrade-content-old-price-day-tax = Předchozí sazba byla { $paymentAmountOld } + daň { $paymentTaxOld } denně.
+subscriptionUpgrade-content-old-price-week-tax = Předchozí sazba byla { $paymentAmountOld } + daň { $paymentTaxOld } týdně.
+subscriptionUpgrade-content-old-price-month-tax = Předchozí sazba byla { $paymentAmountOld } + daň { $paymentTaxOld } měsíčně.
+subscriptionUpgrade-content-old-price-halfyear-tax = Předchozí sazba byla { $paymentAmountOld } + { $paymentTaxOld } daň za šest měsíců.
+subscriptionUpgrade-content-old-price-year-tax = Předchozí sazba byla { $paymentAmountOld } + daň { $paymentTaxOld } ročně.
+subscriptionUpgrade-content-old-price-default-tax = Předchozí sazba byla { $paymentAmountOld } + { $paymentTaxOld } daň za interval účtování.
+subscriptionUpgrade-content-new-price-day = Do budoucna vám bude účtováno { $paymentAmountNew } za den bez slev.
+subscriptionUpgrade-content-new-price-week = Do budoucna vám bude účtováno { $paymentAmountNew } týdně, bez slev.
+subscriptionUpgrade-content-new-price-month = Do budoucna vám bude účtováno { $paymentAmountNew } měsíčně bez slev.
+subscriptionUpgrade-content-new-price-halfyear = Od teď vám bude účtováno { $paymentAmountNew } každých šest měsíců bez slev.
+subscriptionUpgrade-content-new-price-year = Do budoucna vám bude účtováno { $paymentAmountNew } ročně bez slev.
+subscriptionUpgrade-content-new-price-default = Do budoucna vám bude účtováno { $paymentAmountNew } za interval účtování, bez slev.
+subscriptionUpgrade-content-new-price-day-dtax = Do budoucna vám bude účtováno { $paymentAmountNew } + { $paymentTaxNew } daň denně, bez slev.
+subscriptionUpgrade-content-new-price-week-tax = Do budoucna vám bude účtováno { $paymentAmountNew } + { $paymentTaxNew } daň týdně, bez slev.
+subscriptionUpgrade-content-new-price-month-tax = Do budoucna vám bude účtováno { $paymentAmountNew } + { $paymentTaxNew } daň měsíčně, bez slev.
+subscriptionUpgrade-content-new-price-halfyear-tax = Od teď vám bude účtováno { $paymentAmountNew } + { $paymentTaxNew } daň každých šest měsíců, bez slev.
+subscriptionUpgrade-content-new-price-year-tax = Do budoucna vám bude účtováno { $paymentAmountNew } + { $paymentTaxNew } daň ročně, bez slev.
+subscriptionUpgrade-content-new-price-default-tax = Od nynějška vám bude účtováno { $paymentAmountNew } + { $paymentTaxNew } daň za každé interval účtování, bez slev.
 subscriptionUpgrade-existing = Pokud se některé z vašich stávajících předplatných překrývá s tímto upgradem, my se tím budeme zabývat a zašleme vám samostatný e-mail s podrobnostmi. Pokud váš nový plán obsahuje produkty, které vyžadují instalaci, zašleme vám samostatný e-mail s pokyny k nastavení.
 subscriptionUpgrade-auto-renew = Vaše předplatné se bude každé fakturační období automaticky obnovovat, dokud ho nezrušíte.
 unblockCode-subject = Autorizační kód účtu

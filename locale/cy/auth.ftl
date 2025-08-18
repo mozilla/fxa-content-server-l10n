@@ -474,6 +474,15 @@ postChangeRecoveryPhone-preview = Mae'r cyfrif wedi'i ddiogelu gan ddilysiad dau
 postChangeRecoveryPhone-title = Rydych wedi newid eich ffôn adfer
 postChangeRecoveryPhone-description = Mae gennych ffôn adfer newydd nawr. Cafodd eich rhif ffôn blaenorol ei ddileu.
 postChangeRecoveryPhone-requested-device = Rydych wedi gofyn amdano o:
+postChangeTwoStepAuthentication-preview = Mae eich cyfrif wedi'i ddiogelu
+postChangeTwoStepAuthentication-subject = Dilysiad dau gam wedi'i ddiweddaru
+postChangeTwoStepAuthentication-title = Mae dilysu dau gam wedi'i ddiweddaru
+postChangeTwoStepAuthentication-use-new-account = Nawr mae angen i chi ddefnyddio'r cofnod { -product-mozilla-account } newydd yn eich ap dilysu. Ni fydd yr un hynaf yn gweithio mwyach a gallwch ei dynnu.
+# After the colon, there is a description of the device that the user used to enable two-step authentication
+postChangeTwoStepAuthentication-from-device = Rydych wedi gofyn am hyn oddi wrth:
+postChangeTwoStepAuthentication-action = Rheoli cyfrif
+postChangeTwoStepAuthentication-how-protects-link = Sut mae hyn yn diogelu eich cyfrif
+postChangeTwoStepAuthentication-how-protects-plaintext = Sut mae hyn yn diogelu eich cyfrif:
 postConsumeRecoveryCode-title-3 = Defnyddiwyd eich cod dilysu wrth gefn i gadarnhau ailosod y cyfrinair
 # After the colon, there is description of the device that the backup authentication code was used on
 # E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
@@ -719,6 +728,31 @@ subscriptionUpgrade-upgrade-info-2 = Rydych wedi uwchraddio i { $productName } y
 
 subscriptionUpgrade-content-charge-prorated-1 = Codwyd ffi un-tro o { $invoiceAmountDue } arnoch i adlewyrchu pris uwch eich tanysgrifiad am weddill y cyfnod bilio hwn ( { $productPaymentCycleOld }).
 subscriptionUpgrade-content-charge-credit = Rydych wedi derbyn credyd cyfrif yn y swm o { $paymentProrated }.
+subscriptionUpgrade-content-subscription-next-bill-change = Gan ddechrau gyda'ch bil nesaf, bydd pris eich tanysgrifiad yn newid.
+subscriptionUpgrade-content-old-price-day = Y gyfradd flaenorol oedd { $paymentAmountOld } y dydd.
+subscriptionUpgrade-content-old-price-week = Y gyfradd flaenorol oedd { $paymentAmountOld } yr wythnos.
+subscriptionUpgrade-content-old-price-month = Y gyfradd flaenorol oedd { $paymentAmountOld } y mis.
+subscriptionUpgrade-content-old-price-halfyear = Y gyfradd flaenorol oedd { $paymentAmountOld } y chwe mis.
+subscriptionUpgrade-content-old-price-year = Y gyfradd flaenorol oedd { $paymentAmountOld } y flwyddyn.
+subscriptionUpgrade-content-old-price-default = Y gyfradd flaenorol oedd { $paymentAmountOld } fesul cyfnod bilio.
+subscriptionUpgrade-content-old-price-day-tax = Y gyfradd flaenorol oedd { $paymentAmountOld } + { $paymentTaxOld } treth y dydd.
+subscriptionUpgrade-content-old-price-week-tax = Y gyfradd flaenorol oedd { $paymentAmountOld } + { $paymentTaxOld } treth yr wythnos.
+subscriptionUpgrade-content-old-price-month-tax = Y gyfradd flaenorol oedd { $paymentAmountOld } + { $paymentTaxOld } treth y mis.
+subscriptionUpgrade-content-old-price-halfyear-tax = Y gyfradd flaenorol oedd { $paymentAmountOld } + { $paymentTaxOld } treth y chwe mis.
+subscriptionUpgrade-content-old-price-year-tax = Y gyfradd flaenorol oedd { $paymentAmountOld } + { $paymentTaxOld } treth y flwyddyn.
+subscriptionUpgrade-content-old-price-default-tax = Y gyfradd flaenorol oedd { $paymentAmountOld } + { $paymentTaxOld } treth fesul cyfnod bilio.
+subscriptionUpgrade-content-new-price-day = Wrth symud ymlaen, codir { $paymentAmountNew } y dydd arnoch, heb gynnwys gostyngiadau.
+subscriptionUpgrade-content-new-price-week = Wrth symud ymlaen, codir { $paymentAmountNew } yr wythnos arnoch, heb gynnwys gostyngiadau.
+subscriptionUpgrade-content-new-price-month = Wrth symud ymlaen, codir { $paymentAmountNew } y mis arnoch, heb gynnwys gostyngiadau.
+subscriptionUpgrade-content-new-price-halfyear = Wrth symud ymlaen, codir { $paymentAmountNew } arnoch bob chwe mis, heb gynnwys gostyngiadau.
+subscriptionUpgrade-content-new-price-year = Wrth symud ymlaen, codir { $paymentAmountNew } y flwyddyn arnoch, heb gynnwys gostyngiadau.
+subscriptionUpgrade-content-new-price-default = Yn y dyfodol, codir { $paymentAmountNew } arnoch fesul cyfnod bilio, heb gynnwys gostyngiadau.
+subscriptionUpgrade-content-new-price-day-dtax = Wrth symud ymlaen, codir { $paymentAmountNew } + { $paymentTaxNew } treth y dydd arnoch, heb gynnwys gostyngiadau.
+subscriptionUpgrade-content-new-price-week-tax = Wrth symud ymlaen, codir { $paymentAmountNew } + { $paymentTaxNew } treth yr wythnos arnoch, heb gynnwys gostyngiadau.
+subscriptionUpgrade-content-new-price-month-tax = Wrth symud ymlaen, codir { $paymentAmountNew } + { $paymentTaxNew } treth y mis arnoch, heb gynnwys gostyngiadau.
+subscriptionUpgrade-content-new-price-halfyear-tax = Wrth symud ymlaen, codir { $paymentAmountNew } + { $paymentTaxNew } treth arnoch bob chwe mis, heb gynnwys gostyngiadau.
+subscriptionUpgrade-content-new-price-year-tax = Wrth symud ymlaen, codir { $paymentAmountNew } + { $paymentTaxNew } treth y flwyddyn arnoch, heb gynnwys gostyngiadau.
+subscriptionUpgrade-content-new-price-default-tax = Wrth symud ymlaen, codir { $paymentAmountNew } + { $paymentTaxNew } treth arnoch fesul cyfnod bilio, heb gynnwys gostyngiadau.
 subscriptionUpgrade-existing = Os bydd unrhyw un o'ch tanysgrifiadau presennol yn gorgyffwrdd â'r uwchraddio hwn, byddwn yn eu trin ac yn anfon e-bost ar wahân atoch gyda'r manylion. Os yw eich cynllun newydd yn cynnwys cynnyrch sydd angen eu gosod, byddwn yn anfon e-bost ar wahân atoch gyda chyfarwyddiadau gosod.
 subscriptionUpgrade-auto-renew = Bydd eich tanysgrifiad yn adnewyddu pob cyfnod bilio yn awtomatig oni bai eich bod yn dewis diddymu.
 unblockCode-subject = Cod awdurdodi cyfrif

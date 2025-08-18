@@ -296,6 +296,15 @@ subscription-cancellation-dialog-title = Mae'n ddrwg gennym eich gweld yn mynd
 # $date (Date) - Last day of product access
 subscription-cancellation-dialog-msg = Mae eich tanysgrifiad { $name } wedi'i ganslo. Byddwch yn dal i gael mynediad i { $name } tan { $date }.
 subscription-cancellation-dialog-aside = Oes gennych chi gwestiynau? Ewch i <LinkExternal>{ -brand-mozilla } Cefnogaeth</LinkExternal>.
+subscription-content-button-resubscribe = Ail-danysgrifio
+    .aria-label = Ail-danysgrifio i { $productName }
+# $date (Date) - Last day of product access
+subscription-content-resubscribe = Byddwch yn colli mynediad i { $name } ar <strong>{ $date }</strong>.
+resubscribe-dialog-title = Am barhau i ddefnyddio { $name }?
+resubscribe-dialog-content = Bydd eich mynediad at { $name } yn parhau, a bydd eich cylch bilio a'ch taliad yn aros yr un peth. Eich tâl nesaf fydd { $amount } ar { $endDate }.
+resubscribe-dialog-action-button = Para Wedi Tanysgrifio
+resubscribe-success-dialog-title = Diolch! Rydych chi i gyd yn barod.
+resubscribe-success-dialog-action-button = Cau
 dialog-close = Cau deialog
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails

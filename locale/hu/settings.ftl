@@ -286,6 +286,8 @@ backup-authentication-codes-image-aria-label =
     .aria-label = Eszközképernyő kódokkal
 sync-clouds-image-aria-label =
     .aria-label = Felhők egy szinkronizálási ikonnal
+confetti-falling-image-aria-label =
+    .aria-label = Animált hulló konfetti
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -776,14 +778,33 @@ nav-data-collection = Adatgyűjtés és -felhasználás
 nav-paid-subs = Előfizetések
 nav-email-comm = E-mail kommunikáció
 
+## Page2faChange
+
+page-2fa-change-title = Módosítsa a kétlépcsős hitelesítést
+page-2fa-change-success = A kétlépcsős hitelesítés frissítve lett
+page-2fa-change-totpinfo-error = Hiba történt a kétlépcsős hitelesítő alkalmazás cseréjekor. Próbálja újra később.
+page-2fa-change-qr-instruction = <strong>1. lépés:</strong> Olvassa be ezt a QR-kódot bármely hitelesítő alkalmazással, például a Duo vagy a Google Authenticator segítségével. Ez egy új kapcsolatot hoz létre, a régi kapcsolatok nem fognak működni.
+
 ## Two Step Authentication - replace backup authentication code
 
+# Page title
+tfa-backup-codes-page-title = Tartalék hitelesítési kódok
 # Error shown when API call fails while replacing existing backup codes
 tfa-replace-code-error-3 = Hiba történt a tartalék hitelesítési kódok cseréje során
 # Error shown when API call fails while creating new backup codes (user had none)
 tfa-create-code-error = Hiba történt a tartalék hitelesítési kódok létrehozásakor
 # Success message shown in alert bar after successfully replacing existing backup codes
 tfa-replace-code-success-alert-4 = A tartalék hitelesítési kódok frissítve
+# Success message shown after creating backup codes for the first time
+tfa-create-code-success-alert = Tartalék hitelesítési kódok létrehozva
+# Custom messaging for users replacing existing backup codes - Download step (1 of 2)
+# On this step, the codes are not yet replaced in the database - the old codes are still valid until step 2 is completed.
+tfa-replace-code-download-description = Tartsa ezeket egy olyan helyen, amelyre emlékezni fog. A régi kódok lecserélésre kerülnek a következő lépés befejezése után.
+# Custom messaging for users replacing existing backup codes - Confirm step (2 of 2)
+# Until this confirmation step is successfully completed, the old codes are still active and the new codes are not saved in the database.
+tfa-replace-code-confirm-description = Erősítse meg a kódok elmentését egy beírásával. A lépés befejeztével a régi tartalék hitelesítési kódok letiltásra kerülnek.
+# Error shown when the entered backup code does not match any of the generated codes
+tfa-incorrect-recovery-code-1 = Érvénytelen tartalék hitelesítési kód
 
 ## Page2faSetup
 
@@ -1185,6 +1206,7 @@ tfa-row-enabled = Engedélyezve
 tfa-row-disabled-status = Letiltva
 tfa-row-action-add = Hozzáadás
 tfa-row-action-disable = Letiltás
+tfa-row-action-change = Módosítás
 tfa-row-button-refresh =
     .title = Kétlépcsős hitelesítés frissítése
 tfa-row-cannot-refresh =
