@@ -772,6 +772,11 @@ nav-data-collection = Datainnsamling og bruk
 nav-paid-subs = Betalte abonnement
 nav-email-comm = E-postkommunikasjon
 
+## Page2faChange
+
+page-2fa-change-title = Endre tostegs-autentisering
+page-2fa-change-success = Tostegs-autentisering er oppdatert
+
 ## Two Step Authentication - replace backup authentication code
 
 # Page title
