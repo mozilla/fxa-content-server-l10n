@@ -473,6 +473,14 @@ postChangeRecoveryPhone-preview = Kontoen er verna av tostegs-autentisering
 postChangeRecoveryPhone-title = Du endra gjenopprettingstelefon
 postChangeRecoveryPhone-description = Du har no ein ny gjenopprettingstelefon. Det førre telefon-nummeret ditt vart sletta.
 postChangeRecoveryPhone-requested-device = Du ba om det frå:
+postChangeTwoStepAuthentication-preview = Kontoen din er beskytta
+postChangeTwoStepAuthentication-subject = Tostegs-autentisering, oppdatert
+postChangeTwoStepAuthentication-title = Tostegs-autentisering er oppdatert
+# After the colon, there is a description of the device that the user used to enable two-step authentication
+postChangeTwoStepAuthentication-from-device = Du ba om dette frå:
+postChangeTwoStepAuthentication-action = Handsam kontoen
+postChangeTwoStepAuthentication-how-protects-link = Korleis dette vernar kontoen din
+postChangeTwoStepAuthentication-how-protects-plaintext = Korleis dette vernar kontoen din:
 postConsumeRecoveryCode-title-3 = Reserve-autentiseringskoden din vart brukt til å stadfeste tilbakestilling av passord
 # After the colon, there is description of the device that the backup authentication code was used on
 # E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024

@@ -774,12 +774,16 @@ nav-email-comm = E-postkommunikasjon
 
 ## Two Step Authentication - replace backup authentication code
 
+# Page title
+tfa-backup-codes-page-title = Reserve-autentiseringskodar
 # Error shown when API call fails while replacing existing backup codes
 tfa-replace-code-error-3 = Det oppstod eit problem med å erstatte reserve-autentiseringskodane dine
 # Error shown when API call fails while creating new backup codes (user had none)
 tfa-create-code-error = Det oppstod eit problem med å opprette reserve-autentiseringskodane dine
 # Success message shown in alert bar after successfully replacing existing backup codes
 tfa-replace-code-success-alert-4 = Reserve-autentiseringskodar oppdaterte
+# Error shown when the entered backup code does not match any of the generated codes
+tfa-incorrect-recovery-code-1 = Feil reserve-autentiseringskode
 
 ## Page2faSetup
 
@@ -1181,6 +1185,7 @@ tfa-row-enabled = Aktivert
 tfa-row-disabled-status = Avslått
 tfa-row-action-add = Legg til
 tfa-row-action-disable = Slå av
+tfa-row-action-change = Endre
 tfa-row-button-refresh =
     .title = Oppdater tostegs-autentisering
 tfa-row-cannot-refresh =
