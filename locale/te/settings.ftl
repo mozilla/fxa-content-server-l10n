@@ -133,11 +133,6 @@ nav-security = భద్రత
 nav-connected-services = సంధానిత సేవలు
 nav-data-collection = డేటా సేకరణ మరియు ఉపయోగం
 
-## Two Step Authentication - replace backup authentication code
-
-tfa-replace-code-1-2 = 2లో 1వ దశ
-tfa-replace-code-2-2 = 2లో 2వ దశ
-
 ## Avatar change page
 
 avatar-page-title =

@@ -778,18 +778,14 @@ nav-email-comm = E-mail kommunikáció
 
 ## Two Step Authentication - replace backup authentication code
 
+# Error shown when API call fails while replacing existing backup codes
 tfa-replace-code-error-3 = Hiba történt a tartalék hitelesítési kódok cseréje során
+# Error shown when API call fails while creating new backup codes (user had none)
 tfa-create-code-error = Hiba történt a tartalék hitelesítési kódok létrehozásakor
-tfa-replace-code-success-1 =
-    Új kódot lettek létrehozva. Mentse ezeket az egyszer használatos
-    tartalék hitelesítési kódokat egy biztonságos helyre – szüksége lesz rájuk, ha a mobileszköze
-    nélkül kell hozzáférnie a fiókjához.
+# Success message shown in alert bar after successfully replacing existing backup codes
 tfa-replace-code-success-alert-4 = A tartalék hitelesítési kódok frissítve
-tfa-replace-code-1-2 = 1. / 2. lépés
-tfa-replace-code-2-2 = 2. / 2. lépés
-tfa-enter-code-to-confirm-v2 = Adja meg az egyik új tartalék hitelesítési kódot, hogy megerősítse, hogy elmentette azokat. A lépés befejeztével a régi tartalék hitelesítési kódok letiltásra kerülnek.
 
-## PageSetupRecoveryPhone
+## Page2faSetup
 
 page-2fa-setup-title = Kétlépcsős hitelesítés
 page-2fa-setup-totpinfo-error = Hiba történt a kétlépcsős hitelesítés beállításakor. Próbálja újra később.

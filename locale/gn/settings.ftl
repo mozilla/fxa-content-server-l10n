@@ -743,18 +743,14 @@ nav-email-comm = Ñemongeta ñanduti veve rupive
 
 ## Two Step Authentication - replace backup authentication code
 
+# Error shown when API call fails while replacing existing backup codes
 tfa-replace-code-error-3 = Oiko apañuái emyengoviakuévo nde ayvu jeguerujeyrã jeykekoha
+# Error shown when API call fails while creating new backup codes (user had none)
 tfa-create-code-error = Oiko apañuái emyengoviakuévo nde ayvu jeguerujeyrã jeykekoha
-tfa-replace-code-success-1 =
-    Oñemoheñói ayvu pyahu. Eñongatu ko’ã ayvu
-    ñemoneĩrã jeykekoha tenda hekorosãvape; eikotevéta eike hag̃ua ne mba’etépe
-    ndereguerekóiramo mba’e’oka oku’éva.
+# Success message shown in alert bar after successfully replacing existing backup codes
 tfa-replace-code-success-alert-4 = Ayvu ñemoneĩrã jeykekoha hekopyahupyre
-tfa-replace-code-1-2 = Ku’e 1 2-gui
-tfa-replace-code-2-2 = Ku’e 2 2-gui
-tfa-enter-code-to-confirm-v2 = Ikatúpiko, ehai peteĩva umi ayvu ñemoneĩrã pyahu jekuaaukarã emoañete hag̃ua eñongatuhague. Nde ayvu ñemoneĩrã jeykekoha itujavéva ojeítama remohu’ã rire ko tembiaporã.
 
-## PageSetupRecoveryPhone
+## Page2faSetup
 
 page-2fa-setup-title = Ñemoneĩ mokõi jeku’épe
 page-2fa-setup-totpinfo-error = Oiko jejavy embohekokuévo ñemoneĩ mokõi jeku’egua. Eha’ãjey ag̃amieve.

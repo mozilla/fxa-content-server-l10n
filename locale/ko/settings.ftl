@@ -755,17 +755,14 @@ nav-email-comm = 이메일 설정 관리
 
 ## Two Step Authentication - replace backup authentication code
 
+# Error shown when API call fails while replacing existing backup codes
 tfa-replace-code-error-3 = 백업 인증 코드를 교체하는 중에 문제가 발생했습니다.
+# Error shown when API call fails while creating new backup codes (user had none)
 tfa-create-code-error = 백업 인증 코드를 생성하는 중에 문제가 발생했습니다.
-tfa-replace-code-success-1 =
-    새로운 코드가 생성되었습니다. 이 일회용
-    백업 인증 코드를 안전한 곳에 저장하세요. 모바일 기기가 없을 때 계정에 접근하는 데 필요합니다.
+# Success message shown in alert bar after successfully replacing existing backup codes
 tfa-replace-code-success-alert-4 = 백업 인증 코드 업데이트됨
-tfa-replace-code-1-2 = 1/2 단계
-tfa-replace-code-2-2 = 2/2 단계
-tfa-enter-code-to-confirm-v2 = 저장함을 확인하려면 새 백업 인증 코드 중 하나를 입력하세요. 이 단계가 완료되면 이전 백업 인증 코드를 사용할 수 없습니다.
 
-## PageSetupRecoveryPhone
+## Page2faSetup
 
 page-2fa-setup-title = 2단계 인증
 page-2fa-setup-totpinfo-error = 2단계 인증을 설정하는 중에 오류가 발생했습니다. 나중에 다시 시도하세요.

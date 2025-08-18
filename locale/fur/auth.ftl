@@ -688,6 +688,8 @@ subscriptionUpgrade-upgrade-info-2 = L'inzornament a { $productName } al è stâ
 ## Variables:
 ## $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
 ## $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
+## $paymentTaxOld (String) - The tax amount of the previous subscription payment, including currency, e.g. $1.00
+## $paymentTaxNew (String) - The tax amount of the new subscription payment, including currency, e.g. $1.00
 ## $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
 ## $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 ## $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
@@ -695,9 +697,6 @@ subscriptionUpgrade-upgrade-info-2 = L'inzornament a { $productName } al è stâ
 
 subscriptionUpgrade-content-charge-prorated-1 = Une tarife una tantum di { $invoiceAmountDue } e je stade contizade a ti par rifleti il presit plui alt dal to abonament pal rest di chest periodi di faturazion ({ $productPaymentCycleOld }).
 subscriptionUpgrade-content-charge-credit = Tu âs ricevût un credit di { $paymentProrated } sul cont.
-subscriptionUpgrade-content-starting = Scomençant de prossime fature, il to adebit al cambiarà di { $paymentAmountOld } par { $productPaymentCycleOld } a { $paymentAmountNew } par { $productPaymentCycleNew }.
-# Variables:
-# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-existing = Se un dai tiei abonaments esistents si sorepon cun chest inzornament, lu tratarìn e ti inviarìn une e-mail separade cui detais. Se il to gnûf plan al inclût prodots di instalâ, ti mandarìn une e-mail separade cu lis istruzions pe instalazion.
 subscriptionUpgrade-auto-renew = Il to abonament si rinovarà in automatic a ogni periodi di faturazion, gjavant il câs che no tu decidis di anulâlu.
 unblockCode-subject = Codiç di autorizazion pal account

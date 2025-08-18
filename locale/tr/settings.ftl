@@ -774,17 +774,14 @@ nav-email-comm = E-posta iletişimi
 
 ## Two Step Authentication - replace backup authentication code
 
+# Error shown when API call fails while replacing existing backup codes
 tfa-replace-code-error-3 = Yedek kimlik doğrulama kodlarınız değiştirilirken bir sorun oluştu
+# Error shown when API call fails while creating new backup codes (user had none)
 tfa-create-code-error = Yedek kimlik doğrulama kodlarınız oluşturulurken bir sorun oluştu
-tfa-replace-code-success-1 = Yeni kodlar oluşturuldu. Bu tek kullanımlık yedek kimlik doğrulama kodlarını güvenli bir yerde saklayın. Mobil cihazınıza ulaşamazsanız hesabınıza erişmek için bunlara ihtiyacınız olacak.
+# Success message shown in alert bar after successfully replacing existing backup codes
 tfa-replace-code-success-alert-4 = Yedek kimlik doğrulama kodları güncellendi
-tfa-replace-code-1-2 = Adım 1/2
-tfa-replace-code-2-2 = Adım 2/2
-tfa-enter-code-to-confirm-v2 =
-    Yeni yedek kimlik doğrulama kodlarınızı kaydettiğinizi onaylamak için lütfen kodlardan birini girin.
-    Bu adımı tamamladığınızda eski yedek kimlik doğrulama kodlarınız devre dışı bırakılacaktır.
 
-## PageSetupRecoveryPhone
+## Page2faSetup
 
 page-2fa-setup-title = İki aşamalı doğrulama
 page-2fa-setup-totpinfo-error = İki aşamalı doğrulama ayarlanırken bir hata oluştu. Daha sonra yeniden deneyin.

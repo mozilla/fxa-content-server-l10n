@@ -629,12 +629,10 @@ nav-email-comm = การติดต่อสื่อสารทางอี
 
 ## Two Step Authentication - replace backup authentication code
 
+# Error shown when API call fails while replacing existing backup codes
 tfa-replace-code-error-3 = มีปัญหาขณะแทนที่รหัสยืนยันตัวตนสำรองของคุณ
+# Error shown when API call fails while creating new backup codes (user had none)
 tfa-create-code-error = มีปัญหาขณะสร้างรหัสยืนยันตัวตนสำรองของคุณ
-tfa-replace-code-success-1 = รหัสใหม่ได้ถูกสร้างขึ้นแล้ว โปรดบันทึกรหัสยืนยันตัวตนสำรองซึ่งใช้ได้ครั้งเดียวเหล่านี้ไว้ในที่ที่ปลอดภัย เพราะคุณจะต้องใช้ในการเข้าถึงบัญชีของคุณหากคุณไม่มีอุปกรณ์มือถือ
-tfa-replace-code-1-2 = ขั้นตอนที่ 1 จาก 2
-tfa-replace-code-2-2 = ขั้นตอนที่ 2 จาก 2
-tfa-enter-code-to-confirm-v2 = โปรดป้อนหนึ่งในรหัสยืนยันตัวตนสำรองใหม่ของคุณเพื่อยืนยันว่าคุณได้บันทึกรหัสเหล่านี้ไว้แล้ว รหัสยืนยันตัวตนสำรองเดิมของคุณจะถูกปิดใช้งานเมื่อดำเนินการขั้นตอนนี้เสร็จสมบูรณ์แล้ว
 
 ## Avatar change page
 

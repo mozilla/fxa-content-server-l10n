@@ -761,18 +761,14 @@ nav-email-comm = Comunicazions vie e-mail
 
 ## Two Step Authentication - replace backup authentication code
 
+# Error shown when API call fails while replacing existing backup codes
 tfa-replace-code-error-3 = Al è vignût fûr un probleme tal sostituî i tiei codiçs di autenticazion di backup
+# Error shown when API call fails while creating new backup codes (user had none)
 tfa-create-code-error = Al è vignût fûr un probleme tal creâ i tiei codiçs di autenticazion di backup
-tfa-replace-code-success-1 =
-    I gnûfs codiçs a son stâts creâts. Salve intun puest sigûr
-    chescj codiçs di autenticazion di backup che si puedin doprâ une volte sole — ti coventaran par 
-    acedi al to account se no tu varâs il to dispositîf mobil.
+# Success message shown in alert bar after successfully replacing existing backup codes
 tfa-replace-code-success-alert-4 = Codiçs di autenticazion di backup inzornâts
-tfa-replace-code-1-2 = Passaç 1 di 2
-tfa-replace-code-2-2 = Passaç 2 di 2
-tfa-enter-code-to-confirm-v2 = Inserìs un dai gnûfs codiçs di autenticazion di backup par confermâ di vêju salvâts. I vieris codiçs di autenticazion di backup a vignaran disativâts ae fin di chest passaç.
 
-## PageSetupRecoveryPhone
+## Page2faSetup
 
 page-2fa-setup-title = Autenticazion in doi passaçs
 page-2fa-setup-totpinfo-error = Al è vignût fûr un erôr tal configurâ la autenticazion in doi passaçs. Torne prove plui tart.

@@ -706,6 +706,8 @@ subscriptionUpgrade-upgrade-info-2 = Sie haben erfolgreich das Upgrade auf { $pr
 ## Variables:
 ## $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
 ## $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
+## $paymentTaxOld (String) - The tax amount of the previous subscription payment, including currency, e.g. $1.00
+## $paymentTaxNew (String) - The tax amount of the new subscription payment, including currency, e.g. $1.00
 ## $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
 ## $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 ## $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
@@ -713,9 +715,6 @@ subscriptionUpgrade-upgrade-info-2 = Sie haben erfolgreich das Upgrade auf { $pr
 
 subscriptionUpgrade-content-charge-prorated-1 = Ihnen wurde eine einmalige Gebühr in Höhe von { $invoiceAmountDue } berechnet, um den höheren Preis Ihres Abonnements für den Rest dieses Abrechnungszeitraums widerzuspiegeln ({ $productPaymentCycleOld }).
 subscriptionUpgrade-content-charge-credit = Sie haben eine Kontogutschrift in Höhe von { $paymentProrated } erhalten.
-subscriptionUpgrade-content-starting = Ab Ihrer nächsten Rechnung ändert sich Ihre Gebühr von { $paymentAmountOld } pro { $productPaymentCycleOld } auf { $paymentAmountNew } pro { $productPaymentCycleNew }.
-# Variables:
-# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-existing = Wenn sich Ihre bestehenden Abonnements bei diesem Upgrade überschneiden, bearbeiten wir diese und schicken Ihnen eine separate E-Mail mit den Details. Wenn Ihr neuer Plan Produkte enthält, die installiert werden müssen, senden wir Ihnen eine separate E-Mail mit Anweisungen zur Einrichtung.
 subscriptionUpgrade-auto-renew = Ihr Abonnement verlängert sich automatisch jeden Abrechnungszeitraum, sofern Sie nicht kündigen.
 unblockCode-subject = Konto-Autorisierungscode

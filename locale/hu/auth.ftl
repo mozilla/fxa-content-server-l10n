@@ -706,6 +706,8 @@ subscriptionUpgrade-upgrade-info-2 = Sikeresen frissített erre: { $productName 
 ## Variables:
 ## $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
 ## $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
+## $paymentTaxOld (String) - The tax amount of the previous subscription payment, including currency, e.g. $1.00
+## $paymentTaxNew (String) - The tax amount of the new subscription payment, including currency, e.g. $1.00
 ## $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
 ## $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 ## $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
@@ -713,9 +715,6 @@ subscriptionUpgrade-upgrade-info-2 = Sikeresen frissített erre: { $productName 
 
 subscriptionUpgrade-content-charge-prorated-1 = Egy egyszeri { $invoiceAmountDue } összegű díjat számoltunk fel, amely a számlázási időszak ({ $productPaymentCycleOld }) hátralévő részében az előfizetés magasabb árat tükrözi.
 subscriptionUpgrade-content-charge-credit = { $paymentProrated } összegű jóváírást kapott.
-subscriptionUpgrade-content-starting = A következő számlától fogva a terhelése { $paymentAmountOld }/{ $productPaymentCycleOld } összegről erre változik: { $paymentAmountNew }/{ $productPaymentCycleNew }.
-# Variables:
-# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-existing = Ha bármelyik meglévő előfizetése fedi ezt a frissítést, akkor azt kezeljük, és külön e-mailt küldünk a részletekről. Ha az új előfizetése telepítést igénylő termékeket tartalmaz, akkor külön e-mailt küldünk a beállítási utasításokkal.
 subscriptionUpgrade-auto-renew = Előfizetése számlázási időszakonként automatikusan megújul, hacsak nem dönt úgy, hogy lemondja.
 unblockCode-subject = Fiók engedélyezési kód

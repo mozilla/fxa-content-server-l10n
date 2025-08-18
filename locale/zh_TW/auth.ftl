@@ -705,6 +705,8 @@ subscriptionUpgrade-upgrade-info-2 = 您已成功升級到 { $productName }。
 ## Variables:
 ## $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
 ## $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
+## $paymentTaxOld (String) - The tax amount of the previous subscription payment, including currency, e.g. $1.00
+## $paymentTaxNew (String) - The tax amount of the new subscription payment, including currency, e.g. $1.00
 ## $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
 ## $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 ## $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
@@ -712,9 +714,6 @@ subscriptionUpgrade-upgrade-info-2 = 您已成功升級到 { $productName }。
 
 subscriptionUpgrade-content-charge-prorated-1 = 已向您一次收取 { $invoiceAmountDue }，以反應目前帳務週期剩餘期間（{ $productPaymentCycleOld }）較高的價格。
 subscriptionUpgrade-content-charge-credit = 您已收到 { $paymentProrated } 的儲值餘額。
-subscriptionUpgrade-content-starting = 自下一期帳單開始，將從每 { $productPaymentCycleOld } 收費 { $paymentAmountOld }，調整為每 { $productPaymentCycleNew } 收費 { $paymentAmountNew }。
-# Variables:
-# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-existing = 若您現有的訂閱與此次升級有重疊部分，我們會用另外一封電子郵件向您說明完整處理方式；若您的新方案當中包含需要安裝軟體的產品，則也會再用另一封電子郵件向您說明如何安裝。
 subscriptionUpgrade-auto-renew = 除非您主動取消訂閱，否則將在每個帳單週期開始時自動續約並收費。
 unblockCode-subject = 帳號授權碼

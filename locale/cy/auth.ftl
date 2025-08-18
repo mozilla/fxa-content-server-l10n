@@ -710,6 +710,8 @@ subscriptionUpgrade-upgrade-info-2 = Rydych wedi uwchraddio i { $productName } y
 ## Variables:
 ## $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
 ## $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
+## $paymentTaxOld (String) - The tax amount of the previous subscription payment, including currency, e.g. $1.00
+## $paymentTaxNew (String) - The tax amount of the new subscription payment, including currency, e.g. $1.00
 ## $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
 ## $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 ## $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
@@ -717,9 +719,6 @@ subscriptionUpgrade-upgrade-info-2 = Rydych wedi uwchraddio i { $productName } y
 
 subscriptionUpgrade-content-charge-prorated-1 = Codwyd ffi un-tro o { $invoiceAmountDue } arnoch i adlewyrchu pris uwch eich tanysgrifiad am weddill y cyfnod bilio hwn ( { $productPaymentCycleOld }).
 subscriptionUpgrade-content-charge-credit = Rydych wedi derbyn credyd cyfrif yn y swm o { $paymentProrated }.
-subscriptionUpgrade-content-starting = Gan ddechrau gyda'ch bil nesaf, bydd eich tâl yn newid o { $paymentAmountOld } fesul { $productPaymentCycleOld } i { $paymentAmountNew } fesul { $productPaymentCycleNew }.
-# Variables:
-# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-existing = Os bydd unrhyw un o'ch tanysgrifiadau presennol yn gorgyffwrdd â'r uwchraddio hwn, byddwn yn eu trin ac yn anfon e-bost ar wahân atoch gyda'r manylion. Os yw eich cynllun newydd yn cynnwys cynnyrch sydd angen eu gosod, byddwn yn anfon e-bost ar wahân atoch gyda chyfarwyddiadau gosod.
 subscriptionUpgrade-auto-renew = Bydd eich tanysgrifiad yn adnewyddu pob cyfnod bilio yn awtomatig oni bai eich bod yn dewis diddymu.
 unblockCode-subject = Cod awdurdodi cyfrif

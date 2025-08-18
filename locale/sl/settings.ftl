@@ -782,18 +782,14 @@ nav-email-comm = E-poštno obveščanje
 
 ## Two Step Authentication - replace backup authentication code
 
+# Error shown when API call fails while replacing existing backup codes
 tfa-replace-code-error-3 = Pri menjavi rezervnih overitvenih kod je prišlo do težave
+# Error shown when API call fails while creating new backup codes (user had none)
 tfa-create-code-error = Pri ustvarjanju rezervnih overitvenih kod je prišlo do težave
-tfa-replace-code-success-1 =
-    Ustvarjene so bile nove kode. Te rezervne overitvene kode za
-    enkratno uporabo shranite na varno mesto – potrebovali jih boste za dostop do svojega
-    računa, če ne boste imeli mobilne naprave.
+# Success message shown in alert bar after successfully replacing existing backup codes
 tfa-replace-code-success-alert-4 = Rezervne overitvene kode so posodobljene
-tfa-replace-code-1-2 = Korak 1 od 2
-tfa-replace-code-2-2 = Korak 2 od 2
-tfa-enter-code-to-confirm-v2 = Vnesite eno izmed novih rezervnih overitvenih kod, da potrdite, da ste jih shranili. Vaše stare rezervne overitvene kode bodo prenehale veljati, ko boste zaključili ta korak.
 
-## PageSetupRecoveryPhone
+## Page2faSetup
 
 page-2fa-setup-title = Overitev v dveh korakih
 page-2fa-setup-totpinfo-error = Pri nastavljanju overjanja v dveh korakih je prišlo do napake. Poskusite znova pozneje.

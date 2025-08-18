@@ -714,6 +714,8 @@ subscriptionUpgrade-upgrade-info-2 = Pomyślnie przełączono na { $productName 
 ## Variables:
 ## $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
 ## $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
+## $paymentTaxOld (String) - The tax amount of the previous subscription payment, including currency, e.g. $1.00
+## $paymentTaxNew (String) - The tax amount of the new subscription payment, including currency, e.g. $1.00
 ## $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
 ## $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 ## $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
@@ -721,9 +723,6 @@ subscriptionUpgrade-upgrade-info-2 = Pomyślnie przełączono na { $productName 
 
 subscriptionUpgrade-content-charge-prorated-1 = Została naliczona jednorazowa opłata w wysokości { $invoiceAmountDue }, która odzwierciedla wyższą cenę subskrypcji za pozostałą część tego okresu rozliczeniowego ({ $productPaymentCycleOld }).
 subscriptionUpgrade-content-charge-credit = Otrzymano środki na koncie w wysokości { $paymentProrated }.
-subscriptionUpgrade-content-starting = Zaczynając od następnego rachunku, opłata zmieni się z { $paymentAmountOld } za { $productPaymentCycleOld } na { $paymentAmountNew } za { $productPaymentCycleNew }.
-# Variables:
-# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-existing = Jeśli któraś z istniejących subskrypcji pokrywa się z tym przełączeniem, zajmiemy się nimi i wyślemy Ci osobną wiadomość e-mail z informacjami. Jeśli nowy plan obejmuje produkty wymagające instalacji, wyślemy Ci osobną wiadomość e-mail z instrukcjami konfiguracji.
 subscriptionUpgrade-auto-renew = Subskrypcja będzie automatycznie odnawiana z każdym okresem rozliczeniowym, chyba że zdecydujesz się ją anulować.
 unblockCode-subject = Kod upoważnienia konta

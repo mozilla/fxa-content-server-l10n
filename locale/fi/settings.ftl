@@ -626,14 +626,10 @@ nav-email-comm = Sähköpostiviestintä
 
 ## Two Step Authentication - replace backup authentication code
 
+# Error shown when API call fails while replacing existing backup codes
 tfa-replace-code-error-3 = Varatodennuskoodiesi korvaamisessa ilmeni ongelma
+# Error shown when API call fails while creating new backup codes (user had none)
 tfa-create-code-error = Varatodennuskoodeja luotaessa ilmeni ongelma
-tfa-replace-code-success-1 =
-    Uudet koodit on luotu. Talleta nämä kertakäyttöiset
-    varatodennuskoodit turvalliseen paikkaan — tarvitset niitä päästäksesi tilillesi,
-    jos mobiililaitteesi ei ole käytettävissäsi.
-tfa-replace-code-1-2 = Vaihe 1/2
-tfa-replace-code-2-2 = Vaihe 2/2
 
 ## Avatar change page
 

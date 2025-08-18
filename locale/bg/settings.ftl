@@ -59,11 +59,6 @@ nav-security = Сигурност
 nav-connected-services = Свързани услуги
 nav-paid-subs = Платени абонаменти
 
-## Two Step Authentication - replace backup authentication code
-
-tfa-replace-code-1-2 = Стъпка 1 от 2
-tfa-replace-code-2-2 = Стъпка 2 от 2
-
 ## Avatar change page
 
 avatar-page-add-photo = Добавяне на снимка

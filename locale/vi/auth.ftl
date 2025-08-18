@@ -707,6 +707,8 @@ subscriptionUpgrade-upgrade-info-2 = Bạn đã nâng cấp thành công { $prod
 ## Variables:
 ## $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
 ## $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
+## $paymentTaxOld (String) - The tax amount of the previous subscription payment, including currency, e.g. $1.00
+## $paymentTaxNew (String) - The tax amount of the new subscription payment, including currency, e.g. $1.00
 ## $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
 ## $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 ## $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
@@ -714,9 +716,6 @@ subscriptionUpgrade-upgrade-info-2 = Bạn đã nâng cấp thành công { $prod
 
 subscriptionUpgrade-content-charge-prorated-1 = Bạn đã bị tính khoản phí một lần là { $invoiceAmountDue } để phản ánh mức giá cao hơn của gói đăng ký của bạn trong thời gian còn lại của kỳ thanh toán này ({ $productPaymentCycleOld }).
 subscriptionUpgrade-content-charge-credit = Bạn đã nhận được khoản tín dụng tài khoản với số tiền là { $paymentProrated }.
-subscriptionUpgrade-content-starting = Bắt đầu từ hóa đơn tiếp theo của bạn, khoản phí của bạn sẽ thay đổi từ { $paymentAmountOld } với { $productPaymentCycleOld } thành { $paymentAmountNew } với { $productPaymentCycleNew }.
-# Variables:
-# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-existing = Nếu bất kỳ gói đăng ký hiện tại nào của bạn trùng với bản nâng cấp này, chúng tôi sẽ xử lý chúng và gửi cho bạn một email riêng có thông tin chi tiết. Nếu gói mới của bạn bao gồm các sản phẩm yêu cầu cài đặt, chúng tôi sẽ gửi cho bạn một email riêng có hướng dẫn thiết lập.
 subscriptionUpgrade-auto-renew = Thuê bao của bạn sẽ tự động gia hạn mỗi kỳ thanh toán trừ khi bạn chọn hủy.
 unblockCode-subject = Mã xác minh tài khoản

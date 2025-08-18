@@ -776,17 +776,14 @@ nav-email-comm = Communicationes email
 
 ## Two Step Authentication - replace backup authentication code
 
+# Error shown when API call fails while replacing existing backup codes
 tfa-replace-code-error-3 = Il habeva un problema a reimplaciar tu codices de authentication de reserva
+# Error shown when API call fails while creating new backup codes (user had none)
 tfa-create-code-error = Il habeva un problema a crear tu codices de authentication de reserva
-tfa-replace-code-success-1 = Nove codices ha essite create. Salva iste codices de authentication de reserva provisori in un loco secur: tu besoniara de illos pro acceder a tu conto, si tu non ha tu apparato mobile.
+# Success message shown in alert bar after successfully replacing existing backup codes
 tfa-replace-code-success-alert-4 = Codice de authentication de reserva actualisate
-tfa-replace-code-1-2 = Passo 1de 2
-tfa-replace-code-2-2 = Passo 2 de 2
-tfa-enter-code-to-confirm-v2 =
-    Insere un del nove codices de authentication de reserva pro
-    confirmar que tu los salvava. Tu vetere codices de authentication de reserva sera disactivate al fin de iste message.
 
-## PageSetupRecoveryPhone
+## Page2faSetup
 
 page-2fa-setup-title = Authentication a duo passos
 page-2fa-setup-totpinfo-error = Il habeva un error configurante le authentication a duo passos. Retenta.

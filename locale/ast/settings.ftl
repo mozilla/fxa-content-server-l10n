@@ -69,11 +69,6 @@ nav-security = Seguranza
 nav-connected-services = Servicios conectaos
 nav-email-comm = Comunicaciones per corréu
 
-## Two Step Authentication - replace backup authentication code
-
-tfa-replace-code-1-2 = Pasu 1 de 2
-tfa-replace-code-2-2 = Pasu 2 de 2
-
 ## Avatar change page
 
 avatar-page-title =

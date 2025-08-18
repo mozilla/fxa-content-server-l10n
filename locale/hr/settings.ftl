@@ -593,11 +593,6 @@ nav-data-collection = Prikupljanje i uportreba podataka
 nav-paid-subs = Plaćene pretplate
 nav-email-comm = Komunikacija e-poštom
 
-## Two Step Authentication - replace backup authentication code
-
-tfa-replace-code-1-2 = Korak 1 od 2
-tfa-replace-code-2-2 = Korak 2 od 2
-
 ## Avatar change page
 
 avatar-page-title =

@@ -201,11 +201,6 @@ nav-data-collection = Kimolik Tzij chuqa' Okisaxïk
 nav-paid-subs = Rutz'ib'axik rub'i' Paid
 nav-email-comm = Tzijonem pa taqoya'l
 
-## Two Step Authentication - replace backup authentication code
-
-tfa-replace-code-1-2 = 1 xak richin 2
-tfa-replace-code-2-2 = 2 xak richin 2
-
 ## Avatar change page
 
 avatar-page-title =

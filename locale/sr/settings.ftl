@@ -361,14 +361,10 @@ nav-email-comm = Комуникација путем е-поште
 
 ## Two Step Authentication - replace backup authentication code
 
+# Error shown when API call fails while replacing existing backup codes
 tfa-replace-code-error-3 = Дошло је до грешке при мењању ваших резервних приступних кодова
+# Error shown when API call fails while creating new backup codes (user had none)
 tfa-create-code-error = Дошло је до проблема при прављењу резервног приступног кода
-tfa-replace-code-success-1 =
-    Нови кодови су направљени. Чувајте ове једнократне
-    резервне приступне кодове на безбедном — могу се користити за приступ вашем налогу
-    ако вам мобилни уређај није доступан.
-tfa-replace-code-1-2 = Корак 1 од 2
-tfa-replace-code-2-2 = Корак 2 од 2
 
 ## Avatar change page
 

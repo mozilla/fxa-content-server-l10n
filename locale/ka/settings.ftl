@@ -776,20 +776,14 @@ nav-email-comm = ელფოსტით კავშირები
 
 ## Two Step Authentication - replace backup authentication code
 
+# Error shown when API call fails while replacing existing backup codes
 tfa-replace-code-error-3 = ხარვეზი წარმოიშვა თქვენი სამარქაფო კოდების ჩანაცვლებისას
+# Error shown when API call fails while creating new backup codes (user had none)
 tfa-create-code-error = ხარვეზი წარმოიშვა თქვენი სამარქაფო კოდების შედგენისას ანგარიშის დასამოწმებლად
-tfa-replace-code-success-1 =
-    ახალი გასაღებები შეიქმნა. შეინახეთ ერთჯერადი გამოყენების
-    სამარქაფო კოდები დაცულ ადგილას — გამოგადგებათ ანგარიშთან წვდომისთვის
-    მობილური მოწყობილობის არქონისას.
+# Success message shown in alert bar after successfully replacing existing backup codes
 tfa-replace-code-success-alert-4 = შესვლის სამარქაფო კოდები განახლებულია
-tfa-replace-code-1-2 = 1-ელი ნაბიჯი 2-იდან
-tfa-replace-code-2-2 = მე-2 ნაბიჯი 2-იდან
-tfa-enter-code-to-confirm-v2 =
-    გთხოვთ, შეიყვანოთ თქვენი ერთ-ერთი ახალი სამარქაფო კოდი და
-    დაადასტუროთ, რომ მართლაც შენახული გაქვთ. თქვენი წინა სამარქაფო კოდები გაუქმდება ამ ნაბიჯის დასრულებისთანავე.
 
-## PageSetupRecoveryPhone
+## Page2faSetup
 
 page-2fa-setup-title = ორბიჯიანი დამოწმება
 page-2fa-setup-totpinfo-error = შეცდომა წარმოიშვა ორბიჯიანი დამოწმების დაყენებისას. სცადეთ მოგვიანებით.

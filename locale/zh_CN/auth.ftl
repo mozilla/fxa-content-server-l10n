@@ -703,6 +703,8 @@ subscriptionUpgrade-upgrade-info-2 = 您已成功升级至 { $productName }。
 ## Variables:
 ## $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
 ## $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
+## $paymentTaxOld (String) - The tax amount of the previous subscription payment, including currency, e.g. $1.00
+## $paymentTaxNew (String) - The tax amount of the new subscription payment, including currency, e.g. $1.00
 ## $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
 ## $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 ## $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
@@ -710,9 +712,6 @@ subscriptionUpgrade-upgrade-info-2 = 您已成功升级至 { $productName }。
 
 subscriptionUpgrade-content-charge-prorated-1 = 我们已向您一次性收取 { $invoiceAmountDue }，以补足您的订阅在本账单周期（{ $productPaymentCycleOld }）内剩余天数的差额。
 subscriptionUpgrade-content-charge-credit = 您已收到合计 { $paymentProrated } 的账户余额。
-subscriptionUpgrade-content-starting = 自下期账单起，我们将从每{ $productPaymentCycleOld }收费 { $paymentAmountOld } 调整为每{ $productPaymentCycleNew }收费 { $paymentAmountNew }。
-# Variables:
-# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-existing = 若此次的升级内容与您现有的订阅重合，我们将进行处理，并向您单独发送一封邮件说明详细信息。若您的新方案包含需要安装的产品，我们将向您单独发送一封邮件说明安装方法。
 subscriptionUpgrade-auto-renew = 除非您主动取消订阅，否则将在每个周期周期开始时自动更新订阅并收费。
 unblockCode-subject = 账户授权码

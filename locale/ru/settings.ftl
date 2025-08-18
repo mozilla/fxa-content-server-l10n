@@ -776,20 +776,14 @@ nav-email-comm = Почтовые рассылки
 
 ## Two Step Authentication - replace backup authentication code
 
+# Error shown when API call fails while replacing existing backup codes
 tfa-replace-code-error-3 = При замене ваших резервных кодов аутентификации возникла проблема
+# Error shown when API call fails while creating new backup codes (user had none)
 tfa-create-code-error = При создании ваших резервных кодов аутентификации возникла проблема
-tfa-replace-code-success-1 =
-    Созданы новые коды. Храните эти одноразовые резервные
-    коды аутентификации в безопасном месте — они понадобятся вам для доступа к вашему аккаунту,
-    если у вас не будет доступа к мобильному устройству.
+# Success message shown in alert bar after successfully replacing existing backup codes
 tfa-replace-code-success-alert-4 = Резервные коды аутентификации обновлены
-tfa-replace-code-1-2 = Шаг 1 из 2
-tfa-replace-code-2-2 = Шаг 2 из 2
-tfa-enter-code-to-confirm-v2 =
-    Пожалуйста, введите один из ваших новых резервных кодов аутентификации, чтобы
-    подтвердить, что вы сохранили их. Ваши старые резервные коды аутентификации будут отключены после завершения этого шага.
 
-## PageSetupRecoveryPhone
+## Page2faSetup
 
 page-2fa-setup-title = Двухэтапная аутентификация
 page-2fa-setup-totpinfo-error = При настройке двухэтапной аутентификации произошла ошибка. Подождите некоторое время и попробуйте снова.

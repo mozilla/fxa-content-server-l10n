@@ -689,6 +689,8 @@ subscriptionUpgrade-upgrade-info-2 = Ai trecut cu succes la versiunea superioar�
 ## Variables:
 ## $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
 ## $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
+## $paymentTaxOld (String) - The tax amount of the previous subscription payment, including currency, e.g. $1.00
+## $paymentTaxNew (String) - The tax amount of the new subscription payment, including currency, e.g. $1.00
 ## $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
 ## $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 ## $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
@@ -696,9 +698,6 @@ subscriptionUpgrade-upgrade-info-2 = Ai trecut cu succes la versiunea superioar�
 
 subscriptionUpgrade-content-charge-prorated-1 = Ți s-a perceput o taxă unică de { $invoiceAmountDue } pentru a reflecta prețul mai mare al abonamentului pentru restul acestei perioade de facturare ({ $productPaymentCycleOld }).
 subscriptionUpgrade-content-charge-credit = Ai primit un credit în cont în valoare de { $paymentProrated }.
-subscriptionUpgrade-content-starting = Începând cu următoarea factură, taxa se va modifica din { $paymentAmountOld } pe { $productPaymentCycleOld } în { $paymentAmountNew } pe { $productPaymentCycleNew }.
-# Variables:
-# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-existing = Dacă oricare dintre abonamentele tale existente se suprapune cu această trecere la o versiune superioară, le vom gestiona și îți vom trimite un mesaj separat pe e-mail cu detaliile. Dacă noul tău plan include produse care necesită instalare, îți vom trimite un mesaj separat pe e-mail cu instrucțiuni de configurare.
 subscriptionUpgrade-auto-renew = Abonamentul se va reînnoi automat cu o perioadă de facturare, cu excepția cazului în care alegi să îl anulezi.
 unblockCode-subject = Cod de autorizare al contului

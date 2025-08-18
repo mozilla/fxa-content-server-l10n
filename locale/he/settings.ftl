@@ -745,12 +745,7 @@ nav-data-collection = איסוף ושימוש בנתונים
 nav-paid-subs = מינויים בתשלום
 nav-email-comm = תקשורת בדוא״ל
 
-## Two Step Authentication - replace backup authentication code
-
-tfa-replace-code-1-2 = שלב 1 מתוך 2
-tfa-replace-code-2-2 = שלב 2 מתוך 2
-
-## PageSetupRecoveryPhone
+## Page2faSetup
 
 page-2fa-setup-title = אימות דו־שלבי
 page-2fa-setup-totpinfo-error = אירעה שגיאה בהגדרת האימות הדו־שלבי. נא לנסות שוב מאוחר יותר.

@@ -754,15 +754,14 @@ nav-email-comm = 電子郵件通訊
 
 ## Two Step Authentication - replace backup authentication code
 
+# Error shown when API call fails while replacing existing backup codes
 tfa-replace-code-error-3 = 取代您的備用驗證碼時發生問題
+# Error shown when API call fails while creating new backup codes (user had none)
 tfa-create-code-error = 建立您的備用驗證碼時發生問題
-tfa-replace-code-success-1 = 已產生新的救援碼，請將這些單次使用的備用驗證碼保存在安全的地方，當您無法再使用行動裝置時，可以使用此驗證碼登入帳號。
+# Success message shown in alert bar after successfully replacing existing backup codes
 tfa-replace-code-success-alert-4 = 已更新備用驗證碼
-tfa-replace-code-1-2 = 第 1 步，共 2 步
-tfa-replace-code-2-2 = 第 2 步，共 2 步
-tfa-enter-code-to-confirm-v2 = 請輸入您的任一組備用驗證碼，以確認您已安全地儲存它們。完成本階段之後，將停用您舊的備用驗證碼。
 
-## PageSetupRecoveryPhone
+## Page2faSetup
 
 page-2fa-setup-title = 兩階段驗證
 page-2fa-setup-totpinfo-error = 設定兩階段驗證時發生錯誤，請稍後再試。

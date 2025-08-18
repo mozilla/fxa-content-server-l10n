@@ -501,14 +501,10 @@ nav-email-comm = Зносіны па электроннай пошце
 
 ## Two Step Authentication - replace backup authentication code
 
+# Error shown when API call fails while replacing existing backup codes
 tfa-replace-code-error-3 = Узнікла праблема пры замене вашых рэзервовых кодаў аўтэнтыфікацыі
+# Error shown when API call fails while creating new backup codes (user had none)
 tfa-create-code-error = Узнікла праблема пры стварэнні вашых рэзервовых кодаў аўтэнтыфікацыі
-tfa-replace-code-success-1 =
-    Створаны новыя коды. Захоўвайце гэтыя аднаразовыя рэзервовыя
-    коды аўтэнтыфікацыі ў бяспечным месцы — яны спатрэбяцца вам для доступу да вашага ўліковага запісу,
-    калі ў вас не будзе доступу да мабільнай прылады.
-tfa-replace-code-1-2 = Крок 1 з 2
-tfa-replace-code-2-2 = Крок 2 з 2
 
 ## Avatar change page
 

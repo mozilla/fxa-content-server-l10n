@@ -780,20 +780,14 @@ nav-email-comm = E-mailová sdělení
 
 ## Two Step Authentication - replace backup authentication code
 
+# Error shown when API call fails while replacing existing backup codes
 tfa-replace-code-error-3 = Při výměně záložních ověřovacích kódů se vyskytl problém
+# Error shown when API call fails while creating new backup codes (user had none)
 tfa-create-code-error = Při vytváření záložních ověřovacích kódů se vyskytl problém
-tfa-replace-code-success-1 =
-    Byly vytvořeny nové kódy. Tyto jednorázové záložní ověřovací kódy
-    si uložte na bezpečné místo — bude je potřebovat pro přístup ke svému
-    účtu, pokud nebudete mít po ruce mobilní zařízení
+# Success message shown in alert bar after successfully replacing existing backup codes
 tfa-replace-code-success-alert-4 = Záložní ověřovací kódy byly aktualizovány
-tfa-replace-code-1-2 = Krok 1 ze 2
-tfa-replace-code-2-2 = Krok 2 ze 2
-tfa-enter-code-to-confirm-v2 =
-    Zadejte prosím jeden ze svých nových záložních ověřovacích kódů pro
-    potvrzení jejich uložení. Vaše staré záložní ověřovací kódy budou po dokončení tohoto kroku deaktivovány.
 
-## PageSetupRecoveryPhone
+## Page2faSetup
 
 page-2fa-setup-title = Dvoufázové ověřování
 page-2fa-setup-totpinfo-error = Při nastavování dvoufázového ověřování došlo k chybě. Zkuste to znovu později.

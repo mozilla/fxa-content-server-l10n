@@ -663,15 +663,14 @@ subscriptionUpgrade-upgrade-info-2 = Ви успішно перейшли на {
 ## Variables:
 ## $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
 ## $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
+## $paymentTaxOld (String) - The tax amount of the previous subscription payment, including currency, e.g. $1.00
+## $paymentTaxNew (String) - The tax amount of the new subscription payment, including currency, e.g. $1.00
 ## $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
 ## $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 ## $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
 ## $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
 
 subscriptionUpgrade-content-charge-credit = Ви отримали кредит у розмірі { $paymentProrated }.
-subscriptionUpgrade-content-starting = Починаючи з наступного рахунку, ваша плата зміниться з { $paymentAmountOld } за { $productPaymentCycleOld } на { $paymentAmountNew } за { $productPaymentCycleNew }.
-# Variables:
-# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-existing = Якщо ваші наявні передплати перетинаються з цим оновленням, ми обробимо їх і надішлемо вам окремий електронний лист із детальною інформацією. Якщо ваш новий план включає продукти, які потребують встановлення, ми надішлемо вам окремий електронний лист з інструкціями щодо налаштування.
 subscriptionUpgrade-auto-renew = Ваша передплата автоматично поновлюватиметься на кожен наступний період, доки ви не її не скасуєте.
 unblockCode-subject = Код підтвердження облікового запису

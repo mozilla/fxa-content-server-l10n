@@ -646,13 +646,12 @@ nav-email-comm = Comunicações por email
 
 ## Two Step Authentication - replace backup authentication code
 
+# Error shown when API call fails while replacing existing backup codes
 tfa-replace-code-error-3 = Houve um problema ao substituir seus códigos de autenticação de backup
+# Error shown when API call fails while creating new backup codes (user had none)
 tfa-create-code-error = Houve um problema ao criar seus códigos de autenticação de backup
-tfa-replace-code-success-1 = Novos códigos foram criados. Guarde esses códigos de autenticação de backup de uso único em um local seguro. Você precisará deles para acessar sua conta, se não estiver com seu dispositivo móvel.
+# Success message shown in alert bar after successfully replacing existing backup codes
 tfa-replace-code-success-alert-4 = Códigos de autenticação de backup atualizados
-tfa-replace-code-1-2 = Etapa 1 de 2
-tfa-replace-code-2-2 = Etapa 2 de 2
-tfa-enter-code-to-confirm-v2 = Digite um dos seus novos códigos de autenticação de backup para confirmar que você os salvou. Seus códigos de autenticação de backup antigos serão desativados após esta etapa ser concluída.
 
 ## Avatar change page
 

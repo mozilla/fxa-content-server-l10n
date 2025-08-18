@@ -774,19 +774,14 @@ nav-email-comm = Mail-kommunikation
 
 ## Two Step Authentication - replace backup authentication code
 
+# Error shown when API call fails while replacing existing backup codes
 tfa-replace-code-error-3 = Der opstod et problem med at erstatte dine reserve-godkendelseskoder
+# Error shown when API call fails while creating new backup codes (user had none)
 tfa-create-code-error = Der opstod et problem med at oprette dine reserve-godkendelseskoder
-tfa-replace-code-success-1 =
-    Nye koder er blevet oprettet. Opbevar disse engangs-reserve-godkendelseskoder
-    et sikkert sted. Du skal bruge dem, hvis mister adgangen til din mobile enhed.
+# Success message shown in alert bar after successfully replacing existing backup codes
 tfa-replace-code-success-alert-4 = Reserve-godkendelseskoder opdateret
-tfa-replace-code-1-2 = Trin 1 af 2
-tfa-replace-code-2-2 = Trin 2 af 2
-tfa-enter-code-to-confirm-v2 =
-    Indtast en af dine nye reserve-godkendelseskoder for at
-    bekræfte, at du har gemt dem. Dine gamle reserve-godkendelseskoder bliver deaktiveret, når dette trin er fuldført.
 
-## PageSetupRecoveryPhone
+## Page2faSetup
 
 page-2fa-setup-title = Totrinsgodkendelse
 page-2fa-setup-totpinfo-error = Der opstod en fejl under opsætningen af totrinsgodkendelse. Prøv igen senere.

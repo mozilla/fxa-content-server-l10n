@@ -788,18 +788,14 @@ nav-email-comm = Cyfathrebu Trwy E-bost
 
 ## Two Step Authentication - replace backup authentication code
 
+# Error shown when API call fails while replacing existing backup codes
 tfa-replace-code-error-3 = Bu anhawster wrth amnewid eich codau dilysu wrth gefn
+# Error shown when API call fails while creating new backup codes (user had none)
 tfa-create-code-error = Bu anhawster wrth greu eich codau dilysu wrth gefn
-tfa-replace-code-success-1 =
-    Mae codau newydd wedi'u creu. Cadwch y codau dilysu wrth
-    gefn defnydd un-amser hyn mewn man diogel - bydd eu hangen arnoch i gael mynediad i'ch cyfrif os nad yw
-    eich dyfais symudol gyda chi.
+# Success message shown in alert bar after successfully replacing existing backup codes
 tfa-replace-code-success-alert-4 = Codau dilysu wrth gefn wedi'u diweddaru
-tfa-replace-code-1-2 = Cam 1 o 2
-tfa-replace-code-2-2 = Cam 2 o 2
-tfa-enter-code-to-confirm-v2 = Rhowch un o'ch codau dilysu wrth gefn newydd i gadarnhau eich bod wedi eu cadw. Bydd eich hen godau dilysu wrth gefn yn cael eu hanalluogi unwaith y bydd y cam hwn wedi'i gwblhau.
 
-## PageSetupRecoveryPhone
+## Page2faSetup
 
 page-2fa-setup-title = Dilysu dau gam
 page-2fa-setup-totpinfo-error = Bu gwall wrth osod dilysiad dau gam. Ceisiwch eto yn nes ymlaen.

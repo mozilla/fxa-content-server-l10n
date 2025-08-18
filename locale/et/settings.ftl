@@ -228,11 +228,6 @@ nav-data-collection = Andmete kogumine ja kasutamine
 nav-paid-subs = Tasulised tellimused
 nav-email-comm = E-kirjavahetus
 
-## Two Step Authentication - replace backup authentication code
-
-tfa-replace-code-1-2 = Samm 1 2st
-tfa-replace-code-2-2 = Samm 2 2st
-
 ## Avatar change page
 
 avatar-page-title =

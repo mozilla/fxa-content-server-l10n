@@ -443,11 +443,6 @@ nav-data-collection = Alqaḍ d useqdec n yisefka
 nav-paid-subs = Amulteɣ s lexlaṣ
 nav-email-comm = Taywalt s yimayl
 
-## Two Step Authentication - replace backup authentication code
-
-tfa-replace-code-1-2 = Asurif 1 seg 2
-tfa-replace-code-2-2 = Asurif 2 seg 2
-
 ## Avatar change page
 
 avatar-page-title =

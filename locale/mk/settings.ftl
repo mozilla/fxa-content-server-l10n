@@ -109,11 +109,6 @@ nav-connected-services = Поврзани услуги
 nav-paid-subs = Платени претплати
 nav-email-comm = Комуникации по е-пошта
 
-## Two Step Authentication - replace backup authentication code
-
-tfa-replace-code-1-2 = Чекор 1 од 2
-tfa-replace-code-2-2 = Чекор 2 од 2
-
 ## Avatar change page
 
 avatar-page-cancel-button = Откажи

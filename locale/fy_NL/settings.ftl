@@ -778,20 +778,14 @@ nav-email-comm = E-mailkommunikaasje
 
 ## Two Step Authentication - replace backup authentication code
 
+# Error shown when API call fails while replacing existing backup codes
 tfa-replace-code-error-3 = Der is in probleem bard by it ferfangen fan jo reserve-autentikaasjekoaden
+# Error shown when API call fails while creating new backup codes (user had none)
 tfa-create-code-error = Der is in probleem bard by it oanmeitsjen fan jo reserve-autentikaasjekoaden
-tfa-replace-code-success-1 =
-    Der binne nije koaden oanmakke. Bewarje dizze reserve-autentikaasjekoaden foar ien kear gebrûk
-    op in feilich plak – jo hawwe se nedich om tagong te krijen ta jo account as jo jo
-    mobile apparaat net hawwe.
+# Success message shown in alert bar after successfully replacing existing backup codes
 tfa-replace-code-success-alert-4 = Reserve-autentikaasjekoaden bywurke
-tfa-replace-code-1-2 = Stap 1 fan 2
-tfa-replace-code-2-2 = Stap 2 fan 2
-tfa-enter-code-to-confirm-v2 =
-    Fier ien fan jo nije reserve-autentikaasjekoaden yn om te
-    befêstigjen dat jo se bewarre hawwe. Jo âlde reserve-autentikaasjekoaden wurde útskeakele sa gau dizze stap foltôge is.
 
-## PageSetupRecoveryPhone
+## Page2faSetup
 
 page-2fa-setup-title = Autentikaasje yn twa stappen
 page-2fa-setup-totpinfo-error = Der is in flater bard by it ynstellen fan twastapsautentikaasje. Probearje it letter opnij.

@@ -775,18 +775,14 @@ nav-email-comm = Ustawienia poczty
 
 ## Two Step Authentication - replace backup authentication code
 
+# Error shown when API call fails while replacing existing backup codes
 tfa-replace-code-error-3 = Wystąpił problem podczas zastępowania zapasowych kodów uwierzytelniania
+# Error shown when API call fails while creating new backup codes (user had none)
 tfa-create-code-error = Wystąpił problem podczas tworzenia zapasowych kodów uwierzytelniania
-tfa-replace-code-success-1 =
-    Utworzono nowe kody. Zachowaj te zapasowe kody uwierzytelniania
-    jednorazowego użytku w bezpiecznym miejscu — będą one potrzebne
-    do uzyskania dostępu do konta, jeśli nie masz swojego telefonu.
+# Success message shown in alert bar after successfully replacing existing backup codes
 tfa-replace-code-success-alert-4 = Zaktualizowano zapasowe kody uwierzytelniania
-tfa-replace-code-1-2 = 1. krok z 2
-tfa-replace-code-2-2 = 2. krok z 2
-tfa-enter-code-to-confirm-v2 = Proszę wpisać jeden z nowych zapasowych kodów uwierzytelniania, aby potwierdzić, że je zapisano. Po ukończeniu tego kroku poprzednie zapasowe kody uwierzytelniania zostaną wyłączone.
 
-## PageSetupRecoveryPhone
+## Page2faSetup
 
 page-2fa-setup-title = Uwierzytelnianie dwuetapowe
 page-2fa-setup-totpinfo-error = Wystąpił błąd podczas konfigurowania uwierzytelniania dwuetapowego. Spróbuj ponownie później.

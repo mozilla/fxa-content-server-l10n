@@ -780,18 +780,14 @@ nav-email-comm = E‑mailová komunikácia
 
 ## Two Step Authentication - replace backup authentication code
 
+# Error shown when API call fails while replacing existing backup codes
 tfa-replace-code-error-3 = Pri výmene záložných overovacích kódov sa vyskytol problém
+# Error shown when API call fails while creating new backup codes (user had none)
 tfa-create-code-error = Pri vytváraní záložných overovacích kódov sa vyskytol problém
-tfa-replace-code-success-1 =
-    Boli vytvorené nové kódy. Tieto jednorazové záložné overovacie kódy
-    si uložte na bezpečné miesto – budete ich potrebovať na prístup k svojmu
-    účtu, ak nemáte mobilné zariadenie.
+# Success message shown in alert bar after successfully replacing existing backup codes
 tfa-replace-code-success-alert-4 = Záložné overovacie kódy boli aktualizované
-tfa-replace-code-1-2 = Krok 1 z 2
-tfa-replace-code-2-2 = Krok 2 z 2
-tfa-enter-code-to-confirm-v2 = Zadajte jeden zo svojich nových záložných overovacích kódov, aby ste potvrdili, že ste ich uložili. Po dokončení tohto kroku budú vaše staré záložné overovacie kódy deaktivované.
 
-## PageSetupRecoveryPhone
+## Page2faSetup
 
 page-2fa-setup-title = Dvojstupňové overenie
 page-2fa-setup-totpinfo-error = Pri nastavovaní dvojstupňového overenia sa vyskytla chyba. Skúste to znova neskôr.

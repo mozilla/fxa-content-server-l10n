@@ -403,11 +403,6 @@ nav-connected-services = ബന്ധിപ്പിച്ച സേവനങ്
 nav-data-collection = ദത്ത പിരിവും ഉപയോഗവും
 nav-email-comm = ഇതപാൽ ആശയവിനിമയങ്ങൾ
 
-## Two Step Authentication - replace backup authentication code
-
-tfa-replace-code-1-2 = പടി 1/2
-tfa-replace-code-2-2 = പടി 2/2
-
 ## Avatar change page
 
 avatar-page-title =

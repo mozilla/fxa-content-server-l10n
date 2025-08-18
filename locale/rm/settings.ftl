@@ -648,18 +648,12 @@ nav-email-comm = Communicaziun via e-mail
 
 ## Two Step Authentication - replace backup authentication code
 
+# Error shown when API call fails while replacing existing backup codes
 tfa-replace-code-error-3 = Igl ha dà in problem cun remplazzar tes codes d'autentificaziun da backup
+# Error shown when API call fails while creating new backup codes (user had none)
 tfa-create-code-error = Igl ha dà in problem cun crear tes codes d'autentificaziun da backup
-tfa-replace-code-success-1 =
-    Novs codes èn vegnids creads. Memorisescha quests codes
-    d'autentificaziun da backup en in lieu segir – ti als vegns a duvrar per acceder a tes conto sche ti n'has
-    betg tes apparat mobil.
+# Success message shown in alert bar after successfully replacing existing backup codes
 tfa-replace-code-success-alert-4 = Actualisà ils codes d’autentificaziun da backup
-tfa-replace-code-1-2 = Pass 1 da 2
-tfa-replace-code-2-2 = Pass 2 da 2
-tfa-enter-code-to-confirm-v2 =
-    Endatescha per plaschair in da tes novs codes d’autentificaziun da backup per
-    confermar che ti als has memorisà. Tes codes d’autentificaziun da backup vegls vegnan deactivads uschespert che quest pass è fatg.
 
 ## Avatar change page
 

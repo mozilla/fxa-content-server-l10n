@@ -642,18 +642,12 @@ nav-email-comm = Komunikime Me Email
 
 ## Two Step Authentication - replace backup authentication code
 
+# Error shown when API call fails while replacing existing backup codes
 tfa-replace-code-error-3 = Pati një problem me zëvendësimin e kodeve tuaj të mirëfilltësimit kopjeruajtje.
+# Error shown when API call fails while creating new backup codes (user had none)
 tfa-create-code-error = Pati një problem me krijimin e kodeve tuaj të mirëfilltësimit të kopjeruajtjes.
-tfa-replace-code-success-1 =
-    U krijuan kode të reja. Ruajini këto kode njëpërdorimsh
-    mirëfilltësimi kopjeruajtje në një vend të sigurt — do t’ju duhen për të hyrë në llogarinë tuaj nëse s’keni
-    pajisjen tuaj celulare.
+# Success message shown in alert bar after successfully replacing existing backup codes
 tfa-replace-code-success-alert-4 = U përditësuan kode mirëfilltësimi kopjeruajtjeje
-tfa-replace-code-1-2 = Hapi 1 nga 2
-tfa-replace-code-2-2 = Hapi 2 nga 2
-tfa-enter-code-to-confirm-v2 =
-    Ju lutemi, jepni një nga kodet tuaj të rinj të mirëfilltësimit të kopjeruajtjeve,
-    që të ripohoni se i keni ruajtur. Kodet tuaj të vjetër të mirëfilltësimit të kopjeruajtjeve do të çaktivizohen, kur të jetë plotësuar ky hap.
 
 ## Avatar change page
 

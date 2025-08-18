@@ -708,6 +708,8 @@ subscriptionUpgrade-upgrade-info-2 = წარმატებით განა
 ## Variables:
 ## $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
 ## $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
+## $paymentTaxOld (String) - The tax amount of the previous subscription payment, including currency, e.g. $1.00
+## $paymentTaxNew (String) - The tax amount of the new subscription payment, including currency, e.g. $1.00
 ## $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
 ## $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 ## $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
@@ -715,9 +717,6 @@ subscriptionUpgrade-upgrade-info-2 = წარმატებით განა
 
 subscriptionUpgrade-content-charge-prorated-1 = თქვენ ერთჯერადად ჩამოგეჭრათ გადასახადი { $invoiceAmountDue } გამოწერის უფრო მაღალი საფასურის ასახვისთვის ანგარიშსწორების დარჩენილ ვადაში ({ $productPaymentCycleOld }).
 subscriptionUpgrade-content-charge-credit = თქვენ მიიღეთ ნაშთი ანგარიშზე ოდენობით { $paymentProrated }.
-subscriptionUpgrade-content-starting = შემდეგი გადახდიდან ჩამოსაჭრელი თანხა { $paymentAmountOld } თითოეული { $productPaymentCycleOld } მონაკვეთისთვის შეიცვლება და გახდება { $paymentAmountNew } ყოველი { $productPaymentCycleNew } შუალედისთვის.
-# Variables:
-# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-existing = თუ თქვენს რომელიმე გამოწერას ემთხვევა ეს განახლება, განვიხილავთ და ელფოსტაზე ცალკე მიიღებთ წერილს დაწვრილებით. თუ თქვენი ახალი გეგმა მოიცავს პროდუქტებს, რომლებიც საჭიროებს დაყენებას, ელფოსტაზე ცალკე მიიღებთ წერილს გამართვის მითითებებითაც.
 subscriptionUpgrade-auto-renew = თქვენი გამოწერა თავისთავად განახლდება ყოველ მომდევნო საანგარიშო პერიოდში, სანამ არ გააუქმებთ.
 unblockCode-subject = ანგარიშზე დაშვების კოდი

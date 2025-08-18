@@ -782,20 +782,14 @@ nav-email-comm = E-mejlowa komunikacija
 
 ## Two Step Authentication - replace backup authentication code
 
+# Error shown when API call fails while replacing existing backup codes
 tfa-replace-code-error-3 = Při wuměnjenju wašich kodow za zawěsćensku awtentifikaciju je problem nastał
+# Error shown when API call fails while creating new backup codes (user had none)
 tfa-create-code-error = Při wutworjenju wašich kodow za zawěsćensku awtentifikaciju je problem nastał
-tfa-replace-code-success-1 =
-    Nowe kody su so wutworili. Składujće tute kody
-    za zawěsćensku awtentifikaciju za jónkróćne wužiwanje na wěstym městnje – trjebaće je za přistup k swojemu kontu, jeli nimaće
-    swój mobilny grat.
+# Success message shown in alert bar after successfully replacing existing backup codes
 tfa-replace-code-success-alert-4 = Awtentifikaciske kody za zawěsćenje su so zaktualizowali
-tfa-replace-code-1-2 = Krok 1 z 2
-tfa-replace-code-2-2 = Krok 2 z 2
-tfa-enter-code-to-confirm-v2 =
-    Prošu zapodajće jedyn ze swojich awtentifikaciskich kodow za zawěsćenje, zo byšće
-    wobkrućił, zo sće je składował. Waše stare awtentifikaciske kody za zawěsćenje so znjemóžnja, hdyž so tutón krok dokónča.
 
-## PageSetupRecoveryPhone
+## Page2faSetup
 
 page-2fa-setup-title = Dwukročelowa awtentifikacija
 page-2fa-setup-totpinfo-error = Při konfiguraciji dwukročeloweje awtentifikacije je zmylk nastał.

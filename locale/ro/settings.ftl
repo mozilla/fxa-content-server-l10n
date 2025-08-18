@@ -105,11 +105,6 @@ nav-data-collection = Colectarea și utilizarea datelor
 nav-paid-subs = Abonamente cu plată
 nav-email-comm = Comunicări prin e-mail
 
-## Two Step Authentication - replace backup authentication code
-
-tfa-replace-code-1-2 = Pasul 1 din 2
-tfa-replace-code-2-2 = Pasul 2 din 2
-
 ## Avatar change page
 
 avatar-page-title =

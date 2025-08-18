@@ -776,21 +776,14 @@ nav-email-comm = Επικοινωνία μέσω email
 
 ## Two Step Authentication - replace backup authentication code
 
+# Error shown when API call fails while replacing existing backup codes
 tfa-replace-code-error-3 = Προέκυψε πρόβλημα κατά την αντικατάσταση των εφεδρικών κωδικών ταυτοποίησής σας
+# Error shown when API call fails while creating new backup codes (user had none)
 tfa-create-code-error = Προέκυψε πρόβλημα κατά τη δημιουργία των εφεδρικών κωδικών ταυτοποίησής σας
-tfa-replace-code-success-1 =
-    Δημιουργήθηκαν νέοι κωδικοί. Αποθηκεύστε αυτούς τους εφεδρικούς κωδικούς ταυτοποίησης
-    μιας χρήσης σε ένα ασφαλές μέρος, όπου θα έχετε πρόσβαση σε περίπτωση που δεν
-    έχετε την κινητή συσκευή σας.
+# Success message shown in alert bar after successfully replacing existing backup codes
 tfa-replace-code-success-alert-4 = Οι εφεδρικοί κωδικοί ταυτοποίησης ενημερώθηκαν
-tfa-replace-code-1-2 = Βήμα 1 από 2
-tfa-replace-code-2-2 = Βήμα 2 από 2
-tfa-enter-code-to-confirm-v2 =
-    Εισαγάγετε έναν από τους νέους σας εφεδρικούς κωδικούς ταυτοποίησης για να
-    επιβεβαιώσετε ότι τους έχετε αποθηκεύσει. Οι παλιοί σας εφεδρικοί κωδικοί ταυτοποίησης
-    θα απενεργοποιηθούν μόλις ολοκληρωθεί αυτό το βήμα.
 
-## PageSetupRecoveryPhone
+## Page2faSetup
 
 page-2fa-setup-title = Ταυτοποίηση δύο παραγόντων
 page-2fa-setup-totpinfo-error = Προέκυψε σφάλμα κατά τη ρύθμιση της ταυτοποίησης δύο παραγόντων. Δοκιμάστε ξανά αργότερα.

@@ -709,6 +709,8 @@ subscriptionUpgrade-upgrade-info-2 = Du har oppgradert til { $productName }.
 ## Variables:
 ## $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
 ## $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
+## $paymentTaxOld (String) - The tax amount of the previous subscription payment, including currency, e.g. $1.00
+## $paymentTaxNew (String) - The tax amount of the new subscription payment, including currency, e.g. $1.00
 ## $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
 ## $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 ## $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
@@ -716,9 +718,6 @@ subscriptionUpgrade-upgrade-info-2 = Du har oppgradert til { $productName }.
 
 subscriptionUpgrade-content-charge-prorated-1 = Du har blitt belastet med et engangsgebyr på { $invoiceAmountDue } for å gjenspeile abonnementets høyere pris for resten av denne faktureringsperioden ({ $productPaymentCycleOld }).
 subscriptionUpgrade-content-charge-credit = Du har mottatt en kontokreditt på beløpet { $paymentProrated }.
-subscriptionUpgrade-content-starting = Fra og med din neste faktura vil kostnaden endres fra { $paymentAmountOld } per { $productPaymentCycleOld } til { $paymentAmountNew } per { $productPaymentCycleNew }.
-# Variables:
-# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-existing = Hvis noen av dine eksisterende abonnementer overlapper med denne oppgraderingen, håndterer vi dem og sender deg en egen e-post med detaljene. Hvis den nye planen din inkluderer produkter som krever installasjon, sender vi deg en egen e-post med konfigurasjonsinstruksjoner.
 subscriptionUpgrade-auto-renew = Abonnementet ditt fornyes automatisk hver faktureringsperiode med mindre du velger å avslutte.
 unblockCode-subject = Godkjenningskode for konto

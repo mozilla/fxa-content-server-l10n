@@ -650,16 +650,12 @@ nav-email-comm = Posta bidezko komunikazioak
 
 ## Two Step Authentication - replace backup authentication code
 
+# Error shown when API call fails while replacing existing backup codes
 tfa-replace-code-error-3 = Arazoa egon da zure autentikazio-kode segurtasun kopia ordezkatzean.
+# Error shown when API call fails while creating new backup codes (user had none)
 tfa-create-code-error = Arazoa egon da zure autentikazio-kode segurtasun kopia sortzean.
-tfa-replace-code-success-1 =
-    Kode berriak sortu dira. Gorde erabilera bakarreko autentikazio
-    kode segurtasun kopia hauek toki seguruan — Gailu mugikorra ez baduzu zure kontura sartzeko
-    beharko dituzu.
+# Success message shown in alert bar after successfully replacing existing backup codes
 tfa-replace-code-success-alert-4 = Eguneratu dira babeskopiko autentifikazio-kodeak
-tfa-replace-code-1-2 = 2tik 1. urratsa
-tfa-replace-code-2-2 = 2tik 2. urratsa
-tfa-enter-code-to-confirm-v2 = Mesedez, sartu zure babeskopiko autentifikazio-kode berrietako bat, gorde dituzula berresteko. Zure babeskopien autentifikazio-kode zaharrak desgaitu egingo dira urrats hau amaitutakoan.
 
 ## Avatar change page
 

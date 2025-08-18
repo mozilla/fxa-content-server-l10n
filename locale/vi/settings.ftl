@@ -758,20 +758,14 @@ nav-email-comm = Truyền thông email
 
 ## Two Step Authentication - replace backup authentication code
 
+# Error shown when API call fails while replacing existing backup codes
 tfa-replace-code-error-3 = Đã xảy ra sự cố khi thay thế mã xác thực dự phòng của bạn
+# Error shown when API call fails while creating new backup codes (user had none)
 tfa-create-code-error = Đã xảy ra sự cố khi tạo mã xác thực dự phòng của bạn
-tfa-replace-code-success-1 =
-    Mã mới đã được tạo. Lưu các mã xác thực dự phòng một lần này
-    ở một nơi an toàn — bạn sẽ cần chúng để truy cập vào tài khoản của mình nếu không
-    có thiết bị di động của bạn.
+# Success message shown in alert bar after successfully replacing existing backup codes
 tfa-replace-code-success-alert-4 = Đã cập nhật mã xác thực dự phòng
-tfa-replace-code-1-2 = Bước 1/2
-tfa-replace-code-2-2 = Bước 2/2
-tfa-enter-code-to-confirm-v2 =
-    Vui lòng nhập một trong các mã xác thực dự phòng mới của bạn để
-    xác nhận rằng bạn đã lưu chúng. Mã xác thực dự phòng cũ của bạn sẽ bị vô hiệu hóa sau khi hoàn tất bước này.
 
-## PageSetupRecoveryPhone
+## Page2faSetup
 
 page-2fa-setup-title = Xác thực hai bước
 page-2fa-setup-totpinfo-error = Đã xảy ra lỗi khi thiết lập xác thực hai bước. Hãy thử lại sau.

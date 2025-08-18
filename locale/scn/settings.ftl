@@ -708,13 +708,12 @@ nav-email-comm = Cumunicazzioni pi posta elittrònica
 
 ## Two Step Authentication - replace backup authentication code
 
+# Error shown when API call fails while replacing existing backup codes
 tfa-replace-code-error-3 = Cci fu un prubblema mentri chi canciava i còdici d’autinticazzioni di sicurizza
+# Error shown when API call fails while creating new backup codes (user had none)
 tfa-create-code-error = Cci fu un prubblema mentri chi criava i còdici d’autinticazzioni di sicurizza
-tfa-replace-code-success-1 = Foru criati còdici novi. Sarba sti còdici d’autinticazzioni di sicurizza nnôn postu sicuru — ti sèrbinu pi tràsiri nnô to cuntu si nun ài u to dispusitivu mòbbili.
+# Success message shown in alert bar after successfully replacing existing backup codes
 tfa-replace-code-success-alert-4 = Còdici d’autinticazzioni di sicurizza attualizzati
-tfa-replace-code-1-2 = Passu 1 di 2
-tfa-replace-code-2-2 = Passu 2 di 2
-tfa-enter-code-to-confirm-v2 = Pi favuri metti unu dî còdici d’autinticazzioni di sicurizza chi facisti novi pi cunfirmari chi i sarbasti. Na vota chi cumpleti stu cuntrollu, i to còdici vecchi sunnu sdisabbilitati.
 
 ## Avatar change page
 

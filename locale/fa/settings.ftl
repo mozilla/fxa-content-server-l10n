@@ -340,11 +340,6 @@ nav-security = امنیت
 nav-connected-services = خدمات متصل
 nav-paid-subs = اشتراک‌های پولی
 
-## Two Step Authentication - replace backup authentication code
-
-tfa-replace-code-1-2 = مرحله ۱ از ۲
-tfa-replace-code-2-2 = مرحلهٔ ۲ از ۲
-
 ## Avatar change page
 
 avatar-page-title =

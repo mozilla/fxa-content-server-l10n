@@ -419,11 +419,6 @@ nav-data-collection = Мәгълүмат туплау һәм аны куллан
 nav-paid-subs = Түләүле язылулар
 nav-email-comm = Эл. почта элемтәләр
 
-## Two Step Authentication - replace backup authentication code
-
-tfa-replace-code-1-2 = Адым 1/2
-tfa-replace-code-2-2 = Адым 2/2
-
 ## Avatar change page
 
 avatar-page-title =

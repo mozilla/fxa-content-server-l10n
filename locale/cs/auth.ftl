@@ -708,6 +708,8 @@ subscriptionUpgrade-upgrade-info-2 = Úspěšně jste přešli na { $productName
 ## Variables:
 ## $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
 ## $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
+## $paymentTaxOld (String) - The tax amount of the previous subscription payment, including currency, e.g. $1.00
+## $paymentTaxNew (String) - The tax amount of the new subscription payment, including currency, e.g. $1.00
 ## $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
 ## $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 ## $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
@@ -715,9 +717,6 @@ subscriptionUpgrade-upgrade-info-2 = Úspěšně jste přešli na { $productName
 
 subscriptionUpgrade-content-charge-prorated-1 = Byl vám účtován jednorázový poplatek { $invoiceAmountDue }, který odráží vyšší cenu vašeho předplatného pro zbytek tohoto fakturačního období ({ $productPaymentCycleOld }).
 subscriptionUpgrade-content-charge-credit = Obdrželi jste kredit ve výši { $paymentProrated }.
-subscriptionUpgrade-content-starting = Od příštího vyúčtování se váš poplatek změní z { $paymentAmountOld } za { $productPaymentCycleOld } na { $paymentAmountNew } za { $productPaymentCycleNew }.
-# Variables:
-# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-existing = Pokud se některé z vašich stávajících předplatných překrývá s tímto upgradem, my se tím budeme zabývat a zašleme vám samostatný e-mail s podrobnostmi. Pokud váš nový plán obsahuje produkty, které vyžadují instalaci, zašleme vám samostatný e-mail s pokyny k nastavení.
 subscriptionUpgrade-auto-renew = Vaše předplatné se bude každé fakturační období automaticky obnovovat, dokud ho nezrušíte.
 unblockCode-subject = Autorizační kód účtu

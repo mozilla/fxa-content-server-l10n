@@ -575,13 +575,14 @@ nav-paid-subs = Обунаҳо пардохтшуда
 
 ## Two Step Authentication - replace backup authentication code
 
+# Error shown when API call fails while replacing existing backup codes
 tfa-replace-code-error-3 = Ҳангоми иваз кардани нусхаи эҳтиётии рамзи санҷиши ҳаққонияти шумо мушкилӣ ба миён омад
+# Error shown when API call fails while creating new backup codes (user had none)
 tfa-create-code-error = Ҳангоми эҷод кардани нусхаи эҳтиётии рамзи санҷиши ҳаққонияти шумо мушкилӣ ба миён омад
+# Success message shown in alert bar after successfully replacing existing backup codes
 tfa-replace-code-success-alert-4 = Нусхаи эҳтиётии рамзҳои санҷиши ҳаққоният навсозӣ шуд
-tfa-replace-code-1-2 = Қадами 1 аз 2
-tfa-replace-code-2-2 = Қадами 2 аз 2
 
-## PageSetupRecoveryPhone
+## Page2faSetup
 
 page-2fa-setup-title = Санҷиши ҳаққонияти дуқадама
 # code here refers to "backup authentication code"

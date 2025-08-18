@@ -683,15 +683,12 @@ nav-email-comm = Tölvupóstsamskipti
 
 ## Two Step Authentication - replace backup authentication code
 
+# Error shown when API call fails while replacing existing backup codes
 tfa-replace-code-error-3 = Vandamál kom upp við að skipta um varaauðkenningarkóðana þína
+# Error shown when API call fails while creating new backup codes (user had none)
 tfa-create-code-error = Vandamál kom upp við að útbúa varaauðkenningarkóðana þína
-tfa-replace-code-success-1 = Nýir kóðar hafa verið útbúnir. Vistaðu þessa eins-skiptis varaauðkenningarkóða á öruggum stað - þú þarft þá til að fá aðgang að reikningnum þínum ef þú ert ekki með farsímann þinn.
+# Success message shown in alert bar after successfully replacing existing backup codes
 tfa-replace-code-success-alert-4 = Varaauðkenningarkóðar uppfærðir
-tfa-replace-code-1-2 = Skref 1 af 2
-tfa-replace-code-2-2 = Skref 2 af 2
-tfa-enter-code-to-confirm-v2 =
-    Settu inn einn af nýju öryggisafritunar-auðkenningarkóðunum þínum til að
-    staðfesta að þú hafir vistað þá. Gömlu auðkenningarkóðarnir þínir verða óvirkir þegar þessu skrefi er lokið.
 
 ## Avatar change page
 

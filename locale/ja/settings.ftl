@@ -578,11 +578,10 @@ nav-email-comm = メールの設定管理
 
 ## Two Step Authentication - replace backup authentication code
 
+# Error shown when API call fails while replacing existing backup codes
 tfa-replace-code-error-3 = バックアップ認証コードの差し替え時に問題が発生しました
+# Error shown when API call fails while creating new backup codes (user had none)
 tfa-create-code-error = バックアップ認証コードの生成時に問題が発生しました
-tfa-replace-code-success-1 = 新しいバックアップ認証コードが作成されました。これらのワンタイム使用のコードは、モバイル端末を持っていない場合に備えて安全な場所に保管してください。
-tfa-replace-code-1-2 = ステップ 1/2
-tfa-replace-code-2-2 = ステップ 2/2
 
 ## Avatar change page
 
