@@ -474,6 +474,14 @@ postChangeRecoveryPhone-description =
     Tu ora ha un nove numero de telephono de recuperation.
     Tu previe numero de telephono ha essite delite.
 postChangeRecoveryPhone-requested-device = Tu ha requirite illo ab:
+postChangeTwoStepAuthentication-preview = Tu conto es protegite
+postChangeTwoStepAuthentication-subject = Authentication a duo passos actualisate
+postChangeTwoStepAuthentication-title = Le authentication a duo passos ha essite actualisate
+# After the colon, there is a description of the device that the user used to enable two-step authentication
+postChangeTwoStepAuthentication-from-device = Tu lo ha requirite ab:
+postChangeTwoStepAuthentication-action = Gerer le conto
+postChangeTwoStepAuthentication-how-protects-link = Como isto protege tu conto
+postChangeTwoStepAuthentication-how-protects-plaintext = Como isto protege tu conto:
 postConsumeRecoveryCode-title-3 = Tu codice de authentication de reserva era usate pro confirmar un redefinition de contrasigno
 # After the colon, there is description of the device that the backup authentication code was used on
 # E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024

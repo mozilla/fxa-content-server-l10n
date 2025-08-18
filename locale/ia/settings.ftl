@@ -774,6 +774,10 @@ nav-data-collection = Recolta e uso de datos
 nav-paid-subs = Subscriptiones pagate
 nav-email-comm = Communicationes email
 
+## Page2faChange
+
+page-2fa-change-title = Cambiar authentication a duo passos
+
 ## Two Step Authentication - replace backup authentication code
 
 # Error shown when API call fails while replacing existing backup codes

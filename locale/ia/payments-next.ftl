@@ -298,6 +298,7 @@ subscription-cancellation-dialog-msg =
     Tu subscription a { $name } ha essite cancellate.
     Tu habera ancora accesso a { $name } usque { $date }.
 subscription-cancellation-dialog-aside = Ha tu questiones? Visita le <LinkExternal>Supporto de { -brand-mozilla }</LinkExternal>.
+resubscribe-success-dialog-action-button = Clauder
 dialog-close = Clauder fenestra de dialogo
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
