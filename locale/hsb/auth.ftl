@@ -477,6 +477,7 @@ postChangeRecoveryPhone-requested-device = Sće jón požadał wot:
 postChangeTwoStepAuthentication-preview = Waše konto je škitane
 postChangeTwoStepAuthentication-subject = Dwukročelowa awtentifikacija je so zaktualizowała
 postChangeTwoStepAuthentication-title = Dwukročelowa awtentifikacija je so zaktualizowała
+postChangeTwoStepAuthentication-use-new-account = Dyrbiće nětko nowy zapisk { -product-mozilla-account } w swojim awtentifikaciskim nałoženju wužiwać. Starši hižo njebudźe fungować a móžeće jón wotstronić.
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postChangeTwoStepAuthentication-from-device = Sće to požadał wot:
 postChangeTwoStepAuthentication-action = Konto rjadować
@@ -727,6 +728,7 @@ subscriptionUpgrade-upgrade-info-2 = Sće wuspěšnje na { $productName } zaktua
 
 subscriptionUpgrade-content-charge-prorated-1 = Wam je so jónkróćny popłatk { $invoiceAmountDue } wobličił, zo by so wyša płaćizna wašeho abonementa za zbytk tuteje wotličenskeje periody wotbłyšćowała ({ $productPaymentCycleOld }).
 subscriptionUpgrade-content-charge-credit = Sće dobroměće we wysokosći { $paymentProrated } dóstał.
+subscriptionUpgrade-content-subscription-next-bill-change = Započinajo z wašej přichodnej zličbowanku, so płaćizna wašeho abonementa změni.
 subscriptionUpgrade-content-old-price-day = Předchadny popłatk je { $paymentAmountOld } na dźeń był.
 subscriptionUpgrade-content-old-price-week = Předchadny popłatk je { $paymentAmountOld } na tydźeń był.
 subscriptionUpgrade-content-old-price-month = Předchadny popłatk je { $paymentAmountOld } na měsac był.
