@@ -1210,7 +1210,7 @@ tfa-row-disable-modal-explain-1 = Du kan ikke angre denne handlingen. Du har ogs
 # Shown in an alert bar after two-step authentication is disabled
 tfa-row-disabled-2 = Totrinns-autentisering deaktivert
 tfa-row-cannot-disable-2 = Totrinns-autentisering kunne ikke deaktiveres
-tfa-row-verify-session-info = Du må bekrefte din nåværende økt for å konfigurere totrinns-verifisering
+tfa-row-verify-session-info = Du må bekrefte din nåværende økt for å konfigurere totrinns-autentisering
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account

@@ -480,7 +480,7 @@ postChangeTwoStepAuthentication-use-new-account = Vous devez maintenant utiliser
 postChangeTwoStepAuthentication-from-device = La demande a été effectuée depuis :
 postChangeTwoStepAuthentication-action = Gérer le compte
 postChangeTwoStepAuthentication-how-protects-link = En quoi cela protège votre compte
-postChangeTwoStepAuthentication-how-protects-plaintext = Comment cela protège votre compte :
+postChangeTwoStepAuthentication-how-protects-plaintext = En quoi cela protège votre compte :
 postConsumeRecoveryCode-title-3 = Votre code d’authentification de secours a été utilisé pour confirmer la réinitialisation du mot de passe
 # After the colon, there is description of the device that the backup authentication code was used on
 # E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
