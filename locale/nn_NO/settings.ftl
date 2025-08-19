@@ -791,6 +791,14 @@ tfa-replace-code-error-3 = Det oppstod eit problem med å erstatte reserve-auten
 tfa-create-code-error = Det oppstod eit problem med å opprette reserve-autentiseringskodane dine
 # Success message shown in alert bar after successfully replacing existing backup codes
 tfa-replace-code-success-alert-4 = Reserve-autentiseringskodar oppdaterte
+# Success message shown after creating backup codes for the first time
+tfa-create-code-success-alert = Reserve-autentiseringskodar oppretta
+# Custom messaging for users replacing existing backup codes - Download step (1 of 2)
+# On this step, the codes are not yet replaced in the database - the old codes are still valid until step 2 is completed.
+tfa-replace-code-download-description = Oppbevar desse på ein stad du hugsar. Dei gamle kodane dine vil bli erstatta etter at du har fullført neste steg.
+# Custom messaging for users replacing existing backup codes - Confirm step (2 of 2)
+# Until this confirmation step is successfully completed, the old codes are still active and the new codes are not saved in the database.
+tfa-replace-code-confirm-description = Stadfest at du har lagra kodane dine ved å skrive inn ein. Dei gamle reserve-autentiseringskodane dine vil bli deaktiverte når dette steget er fullført.
 # Error shown when the entered backup code does not match any of the generated codes
 tfa-incorrect-recovery-code-1 = Feil reserve-autentiseringskode
 
