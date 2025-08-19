@@ -298,6 +298,13 @@ subscription-cancellation-dialog-msg =
     Tu subscription a { $name } ha essite cancellate.
     Tu habera ancora accesso a { $name } usque { $date }.
 subscription-cancellation-dialog-aside = Ha tu questiones? Visita le <LinkExternal>Supporto de { -brand-mozilla }</LinkExternal>.
+subscription-content-button-resubscribe = Re-abonar
+    .aria-label = Re-abonar a { $productName }
+# $date (Date) - Last day of product access
+subscription-content-resubscribe = Tu perdera accesso a { $name } le <strong>{ $date }</strong>.
+resubscribe-dialog-title = Vole tu continuar usar { $name }?
+resubscribe-dialog-action-button = Resta abonate
+resubscribe-success-dialog-title = Gratias! Toto preste.
 resubscribe-success-dialog-action-button = Clauder
 dialog-close = Clauder fenestra de dialogo
 

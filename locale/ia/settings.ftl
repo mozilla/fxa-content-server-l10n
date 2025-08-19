@@ -777,6 +777,7 @@ nav-email-comm = Communicationes email
 ## Page2faChange
 
 page-2fa-change-title = Cambiar authentication a duo passos
+page-2fa-change-success = Le authentication a duo passos ha essite actualisate
 
 ## Two Step Authentication - replace backup authentication code
 
