@@ -1202,6 +1202,7 @@ tfa-row-enabled = Zmóžnjony
 tfa-row-disabled-status = Znjemóžnjony
 tfa-row-action-add = Pśidaś
 tfa-row-action-disable = Znjemóžniś
+tfa-row-action-change = Změniś
 tfa-row-button-refresh =
     .title = Dwójokšacowu awtentifikaciju aktualizěrowaś
 tfa-row-cannot-refresh =
