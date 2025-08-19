@@ -477,6 +477,7 @@ postChangeRecoveryPhone-requested-device = Sćo póžedał jen wót:
 postChangeTwoStepAuthentication-preview = Wašo konto jo šćitane
 postChangeTwoStepAuthentication-subject = Dwójokšacowa awtentifikacija jo se zaktualizěrowała
 postChangeTwoStepAuthentication-title = Dwójokšacowa awtentifikacija jo se zaktualizěrowała
+postChangeTwoStepAuthentication-use-new-account = Musyśo něnto nowy zapisk { -product-mozilla-account } w swójom awtentifikaciskem nałoženju wužywaś. Staršy wěcej njebuźo funkcioněrowaś a móžośo jen wótwónoźeś.
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postChangeTwoStepAuthentication-from-device = Sćo póžedał to wót:
 postChangeTwoStepAuthentication-action = Konto zastojaś
@@ -727,6 +728,15 @@ subscriptionUpgrade-upgrade-info-2 = Sćo wuspěšnje aktualizěrował na { $pro
 
 subscriptionUpgrade-content-charge-prorated-1 = Wam jo se jadnorazowy płaśonk { $invoiceAmountDue } woblicył, aby se wuša płaśizna wašogo abonementa za zbytk toś teje wótliceńskeje periody wótbłyšćowała ({ $productPaymentCycleOld }).
 subscriptionUpgrade-content-charge-credit = Sćo dostał kontowy plus we wusokosći { $paymentProrated }.
+subscriptionUpgrade-content-subscription-next-bill-change = Zachopinajucy z wašeju pśiduceju zliceńku, se płaśizna wašogo abonementa změnijo.
+subscriptionUpgrade-content-old-price-day = Pjerwjejšny płaśonk jo był { $paymentAmountOld } na źeń.
+subscriptionUpgrade-content-old-price-week = Pjerwjejšny płaśonk jo był { $paymentAmountOld } na tyźeń.
+subscriptionUpgrade-content-old-price-month = Pjerwjejšny płaśonk jo był { $paymentAmountOld } na mjasec.
+subscriptionUpgrade-content-old-price-halfyear = Pjerwjejšny płaśonk jo był { $paymentAmountOld } na šesć mjasecow.
+subscriptionUpgrade-content-old-price-year = Pjerwjejšny płaśonk jo był { $paymentAmountOld } na lěto.
+subscriptionUpgrade-content-old-price-default = Pjerwjejšny płaśonk jo był { $paymentAmountOld } na wótliceński interwal.
+subscriptionUpgrade-content-old-price-day-tax = Pjerwjejšny płaśonk jo był { $paymentAmountOld } + { $paymentTaxOld } danka na źeń.
+subscriptionUpgrade-content-old-price-week-tax = Pjerwjejšny płaśonk jo był { $paymentAmountOld } + { $paymentTaxOld } danka na tyźeń.
 subscriptionUpgrade-existing = Jolic se jaden z wašych eksistěrujucych abonementow z toś teju aktualizaciju prěkuju, buźomy se z nim zaběraś a wam separatnu mejlku z drobnostkami słaś. Jolic waš nowy plan produkty wopśimujo, kótarež se instalaciju pominaju, buźomy wam separatnu mejlku z instalaciskimi instrukcijami słaś.
 subscriptionUpgrade-auto-renew = Waš abonement se awtomatiski kuždy cas wótlicenja pśedlejšyjo, snaźkuli wupowěźejośo.
 unblockCode-subject = Awtorizěrowański kod konta
