@@ -1194,6 +1194,7 @@ tfa-row-enabled = Slått på
 tfa-row-disabled-status = Slått av
 tfa-row-action-add = Legg til
 tfa-row-action-disable = Slå av
+tfa-row-action-change = Endre
 tfa-row-button-refresh =
     .title = Oppdater totrinns-autentisering
 tfa-row-cannot-refresh = Dessverre oppstod det et problem med å oppdatere totrinns-autentisering.
