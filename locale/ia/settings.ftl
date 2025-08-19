@@ -781,6 +781,7 @@ nav-email-comm = Communicationes email
 page-2fa-change-title = Cambiar authentication a duo passos
 page-2fa-change-success = Le authentication a duo passos ha essite actualisate
 page-2fa-change-totpinfo-error = Il habeva un error replaciante le authentication a duo passos. Retenta.
+page-2fa-change-qr-instruction = <strong>Passo 1:</strong> Scande iste codice QR usante alcun application de authentication, como Duo o Google Authenticator. Isto crea un nove connexion, alcun vetere connexiones non functionara plus.
 
 ## Two Step Authentication - replace backup authentication code
 
@@ -794,6 +795,12 @@ tfa-create-code-error = Il habeva un problema a crear tu codices de authenticati
 tfa-replace-code-success-alert-4 = Codice de authentication de reserva actualisate
 # Success message shown after creating backup codes for the first time
 tfa-create-code-success-alert = Codice de authentication de reserva create
+# Custom messaging for users replacing existing backup codes - Download step (1 of 2)
+# On this step, the codes are not yet replaced in the database - the old codes are still valid until step 2 is completed.
+tfa-replace-code-download-description = Mantene los in un posto que tu memorara. Tu vetere codices sera reimplaciate post que tu finira le passo successive.
+# Custom messaging for users replacing existing backup codes - Confirm step (2 of 2)
+# Until this confirmation step is successfully completed, the old codes are still active and the new codes are not saved in the database.
+tfa-replace-code-confirm-description = Confirma que tu salvava tu codices inserente un. Sin iste codices, tu poterea non poter accede si tu non ha tu application de authentication.
 # Error shown when the entered backup code does not match any of the generated codes
 tfa-incorrect-recovery-code-1 = Codice de authentication de reserva non correcte
 
