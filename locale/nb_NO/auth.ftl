@@ -474,8 +474,8 @@ postChangeRecoveryPhone-title = Du endret gjenopprettingstelefonen din
 postChangeRecoveryPhone-description = Du har nå et nytt telefonnummer for gjenoppretting. Det forrige telefonnummeret ditt ble slettet.
 postChangeRecoveryPhone-requested-device = Du ba om det fra:
 postChangeTwoStepAuthentication-preview = Kontoen din er beskyttet
-postChangeTwoStepAuthentication-subject = Totrinns-verifisering oppdatert
-postChangeTwoStepAuthentication-title = Totrinns-verifisering er oppdatert
+postChangeTwoStepAuthentication-subject = Totrinns-autentisering oppdatert
+postChangeTwoStepAuthentication-title = Totrinns-autentisering er oppdatert
 postChangeTwoStepAuthentication-use-new-account = Du må nå bruke den nye { -product-mozilla-account }-oppføringen i autentiseringsappen din. Den eldre vil ikke lenger fungere, og du kan fjerne den.
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postChangeTwoStepAuthentication-from-device = Du ba om dette fra:

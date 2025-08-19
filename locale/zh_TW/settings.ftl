@@ -759,6 +759,7 @@ nav-email-comm = 電子郵件通訊
 page-2fa-change-title = 更改兩階段驗證設定
 page-2fa-change-success = 已更新兩階段驗證設定
 page-2fa-change-totpinfo-error = 取代您的兩階段驗證設定時發生錯誤，請稍後再試。
+page-2fa-change-qr-instruction = <strong>第 1 步：</strong>使用任何驗證器應用程式（例如 Duo 或 Google Authenticator）掃描此 QR Code。這會建立一筆新項目，原本的項目將無法再使用。
 
 ## Two Step Authentication - replace backup authentication code
 
@@ -772,6 +773,12 @@ tfa-create-code-error = 建立您的備用驗證碼時發生問題
 tfa-replace-code-success-alert-4 = 已更新備用驗證碼
 # Success message shown after creating backup codes for the first time
 tfa-create-code-success-alert = 已產生備用驗證碼
+# Custom messaging for users replacing existing backup codes - Download step (1 of 2)
+# On this step, the codes are not yet replaced in the database - the old codes are still valid until step 2 is completed.
+tfa-replace-code-download-description = 請將這些驗證碼保存在之後能找得到的安全位置。完成下一步之後，所有的舊代碼將被取代。
+# Custom messaging for users replacing existing backup codes - Confirm step (2 of 2)
+# Until this confirmation step is successfully completed, the old codes are still active and the new codes are not saved in the database.
+tfa-replace-code-confirm-description = 請在下面輸入任何一組代碼，以確保您已將代碼保存下來。完成這一步驟之後，將停用原先的備用驗證碼。
 # Error shown when the entered backup code does not match any of the generated codes
 tfa-incorrect-recovery-code-1 = 備用驗證碼不正確
 
@@ -1165,6 +1172,7 @@ tfa-row-enabled = 啟用
 tfa-row-disabled-status = 已停用
 tfa-row-action-add = 新增
 tfa-row-action-disable = 停用
+tfa-row-action-change = 變更
 tfa-row-button-refresh =
     .title = 重新整理兩階段驗證狀態
 tfa-row-cannot-refresh = 很抱歉，重新整理兩階段驗證狀態時發生問題。
