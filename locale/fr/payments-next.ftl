@@ -301,7 +301,7 @@ subscription-content-button-resubscribe = Se réabonner
 # $date (Date) - Last day of product access
 subscription-content-resubscribe = Vous perdrez l’accès à { $name } le <strong>{ $date }</strong>.
 resubscribe-dialog-title = Vous voulez continuer à utiliser { $name } ?
-resubscribe-dialog-content = Votre accès à { $name } continuera, et votre cycle de facturation et de paiement resteront les mêmes. Votre prochain paiement sera de { $amount } le { $endDate }.
+resubscribe-dialog-content = Vous garderez accès à { $name } et votre cycle de facturation et le paiement resteront les mêmes. Votre prochain paiement sera de { $amount } le { $endDate }.
 resubscribe-dialog-action-button = Conserver l’abonnement
 resubscribe-success-dialog-title = Merci ! Tout est prêt.
 resubscribe-success-dialog-action-button = Fermer

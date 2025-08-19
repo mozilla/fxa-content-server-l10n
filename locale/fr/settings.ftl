@@ -287,7 +287,7 @@ backup-authentication-codes-image-aria-label =
 sync-clouds-image-aria-label =
     .aria-label = Nuages avec une icône de synchronisation
 confetti-falling-image-aria-label =
-    .aria-label = Animation de confétis qui tombent
+    .aria-label = Animation de confettis qui tombent
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -774,7 +774,7 @@ nav-email-comm = Communications électroniques
 
 page-2fa-change-title = Modifier l’authentification en deux étapes
 page-2fa-change-success = L’authentification en deux étapes a été mise à jour
-page-2fa-change-totpinfo-error = Une erreur s’est produite lors du remplacement de votre application d’authentification en deux étapes. Réessayer plus tard.
+page-2fa-change-totpinfo-error = Une erreur s’est produite lors du remplacement de votre application d’authentification en deux étapes. Réessayez plus tard.
 page-2fa-change-qr-instruction = <strong>Étape 1 :</strong> scannez ce code QR en utilisant n’importe quelle application d’authentification, comme Duo ou Google Authenticator. Ceci crée une nouvelle connexion, les anciennes connexions ne fonctionneront plus.
 
 ## Two Step Authentication - replace backup authentication code
