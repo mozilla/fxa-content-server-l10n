@@ -286,6 +286,8 @@ backup-authentication-codes-image-aria-label =
     .aria-label = Schermo de apparato con codices
 sync-clouds-image-aria-label =
     .aria-label = Nubes con un icone de synchronisation
+confetti-falling-image-aria-label =
+    .aria-label = Confectos cadente animate
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -778,15 +780,22 @@ nav-email-comm = Communicationes email
 
 page-2fa-change-title = Cambiar authentication a duo passos
 page-2fa-change-success = Le authentication a duo passos ha essite actualisate
+page-2fa-change-totpinfo-error = Il habeva un error replaciante le authentication a duo passos. Retenta.
 
 ## Two Step Authentication - replace backup authentication code
 
+# Page title
+tfa-backup-codes-page-title = Codices de authentication de reserva
 # Error shown when API call fails while replacing existing backup codes
 tfa-replace-code-error-3 = Il habeva un problema a reimplaciar tu codices de authentication de reserva
 # Error shown when API call fails while creating new backup codes (user had none)
 tfa-create-code-error = Il habeva un problema a crear tu codices de authentication de reserva
 # Success message shown in alert bar after successfully replacing existing backup codes
 tfa-replace-code-success-alert-4 = Codice de authentication de reserva actualisate
+# Success message shown after creating backup codes for the first time
+tfa-create-code-success-alert = Codice de authentication de reserva create
+# Error shown when the entered backup code does not match any of the generated codes
+tfa-incorrect-recovery-code-1 = Codice de authentication de reserva non correcte
 
 ## Page2faSetup
 
@@ -1188,6 +1197,7 @@ tfa-row-enabled = Activate
 tfa-row-disabled-status = Disactivate
 tfa-row-action-add = Adder
 tfa-row-action-disable = Disactivar
+tfa-row-action-change = Cambiar
 tfa-row-button-refresh =
     .title = Actualisar authentication a duo passos
 tfa-row-cannot-refresh =
