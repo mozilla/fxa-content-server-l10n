@@ -168,8 +168,8 @@ automated-email-reset-pwd-plaintext-v3 = Os nad chi wnaeth hyn, yna ailosodwch e
 # Followed by link to https://accounts.firefox.com/settings#two-step-authentication
 automated-email-reset-two-factor-plaintext = Hefyd, ailosodwch ddilysiad dau gam yn:
 # $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
-banner-warning-message = Mae datblygwyr ychwanegion  { -brand-firefox } wedi cael eu targedu gan ymosodiadau e-bost pysgota yn ddiweddar. Dim ond oddi wrth <a data-l10n-name="accountsEmailLink">{ $accountsEmail }</a> y byddwn yn anfon e-byst am eich { -product-mozilla-account }.
-banner-warning-message-plaintext = Mae datblygwyr ychwanegion  { -brand-firefox } wedi cael eu targedu gan ymosodiadau e-bost pysgota yn ddiweddar. Dim ond e-byst am eich { -product-mozilla-account } o'r cyfeiriad e-bost hwn y byddwn yn ei anfon:
+banner-warning-message = Mae datblygwyr ychwanegion { -brand-firefox } wedi cael eu targedu gan ymosodiadau e-bost pysgota'n ddiweddar. Dim ond oddi wrth <a data-l10n-name="accountsEmailLink">{ $accountsEmail }</a> y byddwn yn anfon e-byst am eich { -product-mozilla-account }.
+banner-warning-message-plaintext = Mae datblygwyr ychwanegion { -brand-firefox } wedi cael eu targedu gan ymosodiadau e-bost pysgota'n ddiweddar. Dim ond e-byst am eich { -product-mozilla-account } o'r cyfeiriad e-bost hwn y byddwn yn ei anfon:
 banner-warning-check = Gwnewch yn siŵr bod y ddyfais a'r lleoliad rydych wedi mewngofnodi iddyn nhw'n gywir.
 brand-banner-message = Oeddech chi'n gwybod ein bod ni wedi newid ein henw o { -product-firefox-accounts } i { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Darllen rhagor</a>
 cancellationSurvey = Helpwch ni i wella ein gwasanaethau trwy lanw'r <a data-l10n-name="cancellationSurveyUrl">arolwg byr</a> hwn.
@@ -481,8 +481,8 @@ postChangeTwoStepAuthentication-use-new-account = Nawr mae angen i chi ddefnyddi
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postChangeTwoStepAuthentication-from-device = Rydych wedi gofyn am hyn oddi wrth:
 postChangeTwoStepAuthentication-action = Rheoli cyfrif
-postChangeTwoStepAuthentication-how-protects-link = Sut mae hyn yn diogelu eich cyfrif
-postChangeTwoStepAuthentication-how-protects-plaintext = Sut mae hyn yn diogelu eich cyfrif:
+postChangeTwoStepAuthentication-how-protects-link = Sut mae hyn yn diogelu'ch cyfrif
+postChangeTwoStepAuthentication-how-protects-plaintext = Sut mae hyn yn diogelu'ch cyfrif:
 postConsumeRecoveryCode-title-3 = Defnyddiwyd eich cod dilysu wrth gefn i gadarnhau ailosod y cyfrinair
 # After the colon, there is description of the device that the backup authentication code was used on
 # E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
