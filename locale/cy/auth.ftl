@@ -168,9 +168,9 @@ automated-email-reset-pwd-plaintext-v3 = Os nad chi wnaeth hyn, yna ailosodwch e
 # Followed by link to https://accounts.firefox.com/settings#two-step-authentication
 automated-email-reset-two-factor-plaintext = Hefyd, ailosodwch ddilysiad dau gam yn:
 # $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
-banner-warning-message = Mae { -brand-firefox } datblygwyr ychwanegion wedi cael eu targedu gan ymosodiadau e-bost potsian yn ddiweddar. Dim ond oddi wrth <a data-l10n-name="accountsEmailLink">{ $accountsEmail }</a> y byddwn yn anfon e-byst am eich { -product-mozilla-account }.
-banner-warning-message-plaintext = Mae { -brand-firefox } datblygwyr ychwanegion wedi cael eu targedu gan ymosodiadau e-bost potsian yn ddiweddar. Dim ond e-byst am eich { -product-mozilla-account } o'r cyfeiriad e-bost hwn y byddwn yn ei anfon:
-banner-warning-check = Gwiriwch i sicrhau bod y ddyfais a'r lleoliad y gwnaethoch fewngofnodi iddynt yn gywir.
+banner-warning-message = Mae datblygwyr ychwanegion  { -brand-firefox } wedi cael eu targedu gan ymosodiadau e-bost pysgota yn ddiweddar. Dim ond oddi wrth <a data-l10n-name="accountsEmailLink">{ $accountsEmail }</a> y byddwn yn anfon e-byst am eich { -product-mozilla-account }.
+banner-warning-message-plaintext = Mae datblygwyr ychwanegion  { -brand-firefox } wedi cael eu targedu gan ymosodiadau e-bost pysgota yn ddiweddar. Dim ond e-byst am eich { -product-mozilla-account } o'r cyfeiriad e-bost hwn y byddwn yn ei anfon:
+banner-warning-check = Gwnewch yn siŵr bod y ddyfais a'r lleoliad rydych wedi mewngofnodi iddyn nhw'n gywir.
 brand-banner-message = Oeddech chi'n gwybod ein bod ni wedi newid ein henw o { -product-firefox-accounts } i { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Darllen rhagor</a>
 cancellationSurvey = Helpwch ni i wella ein gwasanaethau trwy lanw'r <a data-l10n-name="cancellationSurveyUrl">arolwg byr</a> hwn.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
@@ -477,7 +477,7 @@ postChangeRecoveryPhone-requested-device = Rydych wedi gofyn amdano o:
 postChangeTwoStepAuthentication-preview = Mae eich cyfrif wedi'i ddiogelu
 postChangeTwoStepAuthentication-subject = Dilysiad dau gam wedi'i ddiweddaru
 postChangeTwoStepAuthentication-title = Mae dilysu dau gam wedi'i ddiweddaru
-postChangeTwoStepAuthentication-use-new-account = Nawr mae angen i chi ddefnyddio'r cofnod { -product-mozilla-account } newydd yn eich ap dilysu. Ni fydd yr un hynaf yn gweithio mwyach a gallwch ei dynnu.
+postChangeTwoStepAuthentication-use-new-account = Nawr mae angen i chi ddefnyddio'r cofnod { -product-mozilla-account } newydd yn eich ap dilysu. Bydd yr un hynaf ddim yn gweithio mwyach a gallwch ei dynnu.
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postChangeTwoStepAuthentication-from-device = Rydych wedi gofyn am hyn oddi wrth:
 postChangeTwoStepAuthentication-action = Rheoli cyfrif

@@ -282,19 +282,19 @@ subscription-content-current-with-tax = { $invoiceTotal } + { $taxDue } treth
 subscription-content-next-bill-no-tax = Mae bil nesaf o { $invoiceTotal } yn ddyledus { $nextBillDate }
 subscription-content-next-bill-with-tax = Mae bil nesaf o { $invoiceTotal } + { $taxDue } o dreth yn ddyledus { $nextBillDate }
 subscription-content-heading-cancel-subscription = Diddymu'r Tanysgrifiad
-subscription-content-no-longer-use-message = Ni fyddwch bellach yn gallu defnyddio { $productName } ar ôl { $currentPeriodEnd }, sef diwrnod olaf eich cylch bilio.
-subscription-content-cancel-access-message = Canslo fy mynediad a fy ngwybodaeth sydd wedi'i chadw o fewn { $productName } ar { $currentPeriodEnd }
-subscription-content-button-stay-subscribed = Para Wedi Tanysgrifio
-    .aria-label = Dal i danysgrifio i { $productName }
+subscription-content-no-longer-use-message = Fyddwch ni ddim bellach yn gallu defnyddio { $productName } ar ôl { $currentPeriodEnd }, sef diwrnod olaf eich cylch bilio.
+subscription-content-cancel-access-message = Diddymwch fy mynediad a fy manylion wedi'i chadw o fewn { $productName } ar { $currentPeriodEnd }
+subscription-content-button-stay-subscribed = Parhau Wedi Tanysgrifio
+    .aria-label = Parhau i danysgrifio i { $productName }
 subscription-content-button-cancel-subscription = Diddymu'r Tanysgrifiad
-    .aria-label = Canslo'ch tanysgrifiad i { $productName }
+    .aria-label = Diddymu'ch tanysgrifiad i { $productName }
 subscription-content-button-cancel = Diddymu
-    .aria-label = Canslo'ch tanysgrifiad i { $productName }
+    .aria-label = Diddymu'ch tanysgrifiad i { $productName }
 subscription-content-cancel-action-error = Digwyddodd gwall annisgwyl. Ceisiwch eto.
-subscription-cancellation-dialog-title = Mae'n ddrwg gennym eich gweld yn mynd
+subscription-cancellation-dialog-title = Mae'n ddrwg gennym eich gweld yn gadael
 # $name (String) - The name of the subscribed product.
 # $date (Date) - Last day of product access
-subscription-cancellation-dialog-msg = Mae eich tanysgrifiad { $name } wedi'i ganslo. Byddwch yn dal i gael mynediad i { $name } tan { $date }.
+subscription-cancellation-dialog-msg = Mae eich tanysgrifiad { $name } wedi'i ddiddymu. Byddwch yn dal i gael mynediad i { $name } tan { $date }.
 subscription-cancellation-dialog-aside = Oes gennych chi gwestiynau? Ewch i <LinkExternal>{ -brand-mozilla } Cefnogaeth</LinkExternal>.
 subscription-content-button-resubscribe = Ail-danysgrifio
     .aria-label = Ail-danysgrifio i { $productName }

@@ -292,6 +292,8 @@ backup-authentication-codes-image-aria-label =
     .aria-label = Rědowa wobrazowka z kodami
 sync-clouds-image-aria-label =
     .aria-label = Mroki ze symbolom synchronizacije
+confetti-falling-image-aria-label =
+    .aria-label = Animěrowany padajucy konfeti
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -784,6 +786,7 @@ nav-email-comm = E-mailowa komunikacija
 
 page-2fa-change-title = Dwójokšacowu awtentifikaciju zmeniś
 page-2fa-change-success = Dwójokšacowa awtentifikacija jo se zaktualizěrowała
+page-2fa-change-totpinfo-error = Pśi wuměnjanju nałoženja dwójokšacoweje awtentifikacije jo zmólka nastała. Wopytajśo pózdźej hyšći raz.
 
 ## Two Step Authentication - replace backup authentication code
 
