@@ -791,7 +791,7 @@ tfa-replace-code-success-alert-4 = Codes d’authentification de secours mis à 
 tfa-create-code-success-alert = Codes d’authentification de secours créés
 # Custom messaging for users replacing existing backup codes - Download step (1 of 2)
 # On this step, the codes are not yet replaced in the database - the old codes are still valid until step 2 is completed.
-tfa-replace-code-download-description = Conservez-les dans un endroit inoubliable. Vos anciens codes seront remplacés à la fin de l’étape suivante.
+tfa-replace-code-download-description = Conservez-les en lieu sûr. Vos anciens codes seront remplacés à la fin de l’étape suivante.
 # Custom messaging for users replacing existing backup codes - Confirm step (2 of 2)
 # Until this confirmation step is successfully completed, the old codes are still active and the new codes are not saved in the database.
 tfa-replace-code-confirm-description = Saisissez-en un après avoir enregistré vos codes. Vos anciens codes d’authentification de secours seront désactivés une fois cette étape terminée.
