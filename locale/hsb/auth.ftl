@@ -727,6 +727,14 @@ subscriptionUpgrade-upgrade-info-2 = Sće wuspěšnje na { $productName } zaktua
 
 subscriptionUpgrade-content-charge-prorated-1 = Wam je so jónkróćny popłatk { $invoiceAmountDue } wobličił, zo by so wyša płaćizna wašeho abonementa za zbytk tuteje wotličenskeje periody wotbłyšćowała ({ $productPaymentCycleOld }).
 subscriptionUpgrade-content-charge-credit = Sće dobroměće we wysokosći { $paymentProrated } dóstał.
+subscriptionUpgrade-content-old-price-day = Předchadny popłatk je { $paymentAmountOld } na dźeń był.
+subscriptionUpgrade-content-old-price-week = Předchadny popłatk je { $paymentAmountOld } na tydźeń był.
+subscriptionUpgrade-content-old-price-month = Předchadny popłatk je { $paymentAmountOld } na měsac był.
+subscriptionUpgrade-content-old-price-halfyear = Předchadny popłatk je { $paymentAmountOld } na šěsć měsacow był.
+subscriptionUpgrade-content-old-price-year = Předchadny popłatk je { $paymentAmountOld } na lěto był.
+subscriptionUpgrade-content-old-price-default = Předchadny popłatk je { $paymentAmountOld } na wotličenski interwal był.
+subscriptionUpgrade-content-old-price-day-tax = Předchadny popłatk je { $paymentAmountOld } + { $paymentTaxOld } dawka na dźeń był.
+subscriptionUpgrade-content-old-price-week-tax = Předchadny popłatk je { $paymentAmountOld } + { $paymentTaxOld } dawka na tydźeń był.
 subscriptionUpgrade-existing = Jeli so jedyn z wašich eksistowacych abonementow z tutej aktualizaciju překrywaja, budźemy so z nim zaběrać a wam separatnu mejlku z podrobnosćemi słać. Jeli waš nowy plan produkty wopřijima, kotrež sej instalaciju wužaduja, budźemy wam separatnu mejlku z instalaciskimi instrukcijemi słać.
 subscriptionUpgrade-auto-renew = Waš abonement so awtomatisce kóždu wotličensku dobu podlěšuje, chibazo wupowědźiće.
 unblockCode-subject = Kod kontoweje awtorizacije
