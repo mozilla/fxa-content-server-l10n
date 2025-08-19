@@ -469,6 +469,9 @@ postChangeRecoveryPhone-preview = 已透過兩階段驗證機制保護您的帳�
 postChangeRecoveryPhone-title = 您已更改救援電話號碼
 postChangeRecoveryPhone-description = 您已更新救援電話號碼，舊號碼已刪除。
 postChangeRecoveryPhone-requested-device = 您從下列位置要求：
+postChangeTwoStepAuthentication-preview = 您的帳號已受保護
+postChangeTwoStepAuthentication-subject = 已更新兩階段驗證設定
+postChangeTwoStepAuthentication-title = 已更新兩階段驗證設定
 postConsumeRecoveryCode-title-3 = 已使用您的備用驗證碼確認密碼重設
 # After the colon, there is description of the device that the backup authentication code was used on
 # E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024

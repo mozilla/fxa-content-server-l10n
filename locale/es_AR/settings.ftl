@@ -287,7 +287,7 @@ backup-authentication-codes-image-aria-label =
 sync-clouds-image-aria-label =
     .aria-label = Nubes con un ícono de sincronización
 confetti-falling-image-aria-label =
-    .aria-label = Confeti que cae animado
+    .aria-label = Papel picado que cae animado
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -776,7 +776,7 @@ nav-email-comm = Comunicaciones por correo electrónico
 
 page-2fa-change-title = Cambiar la autenticación de dos pasos
 page-2fa-change-success = Se actualizó la autenticación de dos pasos
-page-2fa-change-totpinfo-error = Hubo un error al reemplazar la aplicación de autenticación en dos pasos. Probá de nuevo más tarde.
+page-2fa-change-totpinfo-error = Hubo un error al reemplazar la aplicación de autenticación de dos pasos. Probá de nuevo más tarde.
 page-2fa-change-qr-instruction = <strong>Paso 1:</strong> Escaneá este código QR con cualquier aplicación de autenticación, como Duo o Google Authenticator. Esto crea una nueva conexión, cualquier conexión vieja no funcionará más.
 
 ## Two Step Authentication - replace backup authentication code
@@ -793,7 +793,7 @@ tfa-replace-code-success-alert-4 = Códigos de autenticación de respaldo actual
 tfa-create-code-success-alert = Códigos de autenticación de respaldo creados
 # Custom messaging for users replacing existing backup codes - Download step (1 of 2)
 # On this step, the codes are not yet replaced in the database - the old codes are still valid until step 2 is completed.
-tfa-replace-code-download-description = Guárdalos en un lugar que puedas recordar. Tus códigos antiguos serán reemplazados después de que termines el siguiente paso.
+tfa-replace-code-download-description = Guardalos en un lugar que podás recordar. Tus códigos antiguos serán reemplazados después de que terminés el siguiente paso.
 # Custom messaging for users replacing existing backup codes - Confirm step (2 of 2)
 # Until this confirmation step is successfully completed, the old codes are still active and the new codes are not saved in the database.
 tfa-replace-code-confirm-description = Confirmá que guardaste tus códigos ingresando uno. Tus viejos códigos de autenticación de respaldo se desactivarán una vez que se complete este paso.

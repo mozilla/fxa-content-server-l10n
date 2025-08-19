@@ -286,6 +286,8 @@ backup-authentication-codes-image-aria-label =
     .aria-label = Enhetsskjerm med koder
 sync-clouds-image-aria-label =
     .aria-label = Skyer med et synkroniseringsikon
+confetti-falling-image-aria-label =
+    .aria-label = Animert fallende konfetti
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -772,12 +774,16 @@ nav-email-comm = E-postkommunikasjon
 
 ## Two Step Authentication - replace backup authentication code
 
+# Page title
+tfa-backup-codes-page-title = Reserve-autentiseringskoder
 # Error shown when API call fails while replacing existing backup codes
 tfa-replace-code-error-3 = Det oppstod et problem med å erstatte dine reserve-autentiseringskoder
 # Error shown when API call fails while creating new backup codes (user had none)
 tfa-create-code-error = Det oppstod et problem med å opprette dine reserve-autentiseringskoder
 # Success message shown in alert bar after successfully replacing existing backup codes
 tfa-replace-code-success-alert-4 = Reserve-autentiseringskoder oppdatert
+# Success message shown after creating backup codes for the first time
+tfa-create-code-success-alert = Reserve-autentiseringskoder opprettet
 
 ## Page2faSetup
 

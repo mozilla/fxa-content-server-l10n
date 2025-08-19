@@ -289,6 +289,8 @@ backup-authentication-codes-image-aria-label =
     .aria-label = Экран устройства с кодами
 sync-clouds-image-aria-label =
     .aria-label = Облака со значком синхронизации
+confetti-falling-image-aria-label =
+    .aria-label = Анимированное падающее конфетти
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -774,14 +776,33 @@ nav-data-collection = Сбор и использование данных
 nav-paid-subs = Платные подписки
 nav-email-comm = Почтовые рассылки
 
+## Page2faChange
+
+page-2fa-change-title = Изменить двухэтапную аутентификацию
+page-2fa-change-success = Двухэтапная аутентификация была обновлена
+page-2fa-change-totpinfo-error = При замене вашего приложения двухэтапной аутентификации произошла ошибка. Подождите некоторое время и попробуйте снова.
+page-2fa-change-qr-instruction = <strong>Шаг 1:</strong> Отсканируйте этот QR-код с помощью любого приложения для аутентификации, например, Duo или Google Authenticator. Будет создано новое подключение, все старые подключения больше не будут работать.
+
 ## Two Step Authentication - replace backup authentication code
 
+# Page title
+tfa-backup-codes-page-title = Резервные коды аутентификации
 # Error shown when API call fails while replacing existing backup codes
 tfa-replace-code-error-3 = При замене ваших резервных кодов аутентификации возникла проблема
 # Error shown when API call fails while creating new backup codes (user had none)
 tfa-create-code-error = При создании ваших резервных кодов аутентификации возникла проблема
 # Success message shown in alert bar after successfully replacing existing backup codes
 tfa-replace-code-success-alert-4 = Резервные коды аутентификации обновлены
+# Success message shown after creating backup codes for the first time
+tfa-create-code-success-alert = Резервные коды аутентификации созданы
+# Custom messaging for users replacing existing backup codes - Download step (1 of 2)
+# On this step, the codes are not yet replaced in the database - the old codes are still valid until step 2 is completed.
+tfa-replace-code-download-description = Храните их в месте, о котором вы будете помнить. Ваши старые коды будут заменены после того, как вы совершите следующий шаг.
+# Custom messaging for users replacing existing backup codes - Confirm step (2 of 2)
+# Until this confirmation step is successfully completed, the old codes are still active and the new codes are not saved in the database.
+tfa-replace-code-confirm-description = Подтвердите, что вы сохранили коды, введя один из них. Ваши старые резервные коды аутентификации будут отключены после завершения этого шага.
+# Error shown when the entered backup code does not match any of the generated codes
+tfa-incorrect-recovery-code-1 = Некорректный резервный код аутентификации
 
 ## Page2faSetup
 
@@ -1182,6 +1203,7 @@ tfa-row-enabled = Включена
 tfa-row-disabled-status = Отключено
 tfa-row-action-add = Добавить
 tfa-row-action-disable = Отключить
+tfa-row-action-change = Изменить
 tfa-row-button-refresh =
     .title = Обновить двухэтапную аутентификацию
 tfa-row-cannot-refresh =

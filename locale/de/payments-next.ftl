@@ -297,13 +297,13 @@ subscription-cancellation-dialog-title = Es tut uns leid, dass Sie uns verlassen
 subscription-cancellation-dialog-msg = Ihr Abonnement für { $name } wurde gekündigt. Sie haben noch bis { $date } Zugriff auf { $name }.
 subscription-cancellation-dialog-aside = Haben Sie Fragen? Besuchen Sie die <LinkExternal>{ -brand-mozilla }-Hilfe</LinkExternal>.
 subscription-content-button-resubscribe = Dauerauftrag erneuern
-    .aria-label = { $productName } erneut abonnieren
+    .aria-label = Dauerauftrag für { $productName } erneuern
 # $date (Date) - Last day of product access
 subscription-content-resubscribe = Sie verlieren am <strong>{ $date }</strong> den Zugriff auf { $name }.
 resubscribe-dialog-title = Möchten Sie weiterhin { $name } verwenden?
 resubscribe-dialog-content = Ihr Zugriff auf { $name } bleibt bestehen und Ihr Abrechnungsrhythmus und Ihre Zahlung bleiben gleich. Ihre nächste Rechnung beträgt { $amount } auf { $endDate }.
 resubscribe-dialog-action-button = Dauerauftrag beibehalten
-resubscribe-success-dialog-title = Vielen Dank! Alles top! Du bist fertig!
+resubscribe-success-dialog-title = Vielen Dank! Alles top! Sie sind fertig!
 resubscribe-success-dialog-action-button = Schließen
 dialog-close = Dialog schließen
 

@@ -301,6 +301,10 @@ subscription-content-button-resubscribe = Переоформить подпис�
 # $date (Date) - Last day of product access
 subscription-content-resubscribe = Вы потеряете доступ к { $name } <strong>{ $date }</strong>.
 resubscribe-dialog-title = Хотите продолжать использовать { $name }?
+resubscribe-dialog-content = Ваш доступ к { $name } будет продолжаться, а ваш платёжный цикл и сумма оплаты останутся прежними. Ваш следующий платёж будет произведён { $endDate } на { $amount }.
+resubscribe-dialog-action-button = Оставить подписку
+resubscribe-success-dialog-title = Спасибо! Всё готово.
+resubscribe-success-dialog-action-button = Закрыть
 dialog-close = Закрыть окно
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails

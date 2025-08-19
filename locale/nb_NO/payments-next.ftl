@@ -296,6 +296,7 @@ subscription-cancellation-dialog-title = Det er leit at du forsvinner
 # $date (Date) - Last day of product access
 subscription-cancellation-dialog-msg = { $name }-abonnementet ditt er avsluttet. Du vil fortsatt ha tilgang til { $name } frem til den { $date }.
 subscription-cancellation-dialog-aside = Har du spørsmål? Besøk <LinkExternal>{ -brand-mozilla }-brukerstøtte</LinkExternal>.
+resubscribe-success-dialog-action-button = Lukk
 dialog-close = Lukk dialogvindu
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
