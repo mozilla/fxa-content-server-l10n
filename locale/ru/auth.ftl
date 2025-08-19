@@ -473,6 +473,15 @@ postChangeRecoveryPhone-preview = Аккаунт защищен двухэтап
 postChangeRecoveryPhone-title = Вы изменили свой телефон для восстановления
 postChangeRecoveryPhone-description = Теперь у вас есть новый телефон для восстановления. Ваш предыдущий номер телефона был удалён.
 postChangeRecoveryPhone-requested-device = Вы запросили его из:
+postChangeTwoStepAuthentication-preview = Ваш аккаунт защищен
+postChangeTwoStepAuthentication-subject = Двухэтапная аутентификация обновлена
+postChangeTwoStepAuthentication-title = Двухэтапная аутентификация была обновлена
+postChangeTwoStepAuthentication-use-new-account = Теперь вам нужно использовать новую запись { -product-mozilla-account } в своём приложении для аутентификации. Предыдущая больше не будет работать и вы можете удалить её.
+# After the colon, there is a description of the device that the user used to enable two-step authentication
+postChangeTwoStepAuthentication-from-device = Вы запросили это с:
+postChangeTwoStepAuthentication-action = Управление аккаунтом
+postChangeTwoStepAuthentication-how-protects-link = Как это защищает ваш аккаунт
+postChangeTwoStepAuthentication-how-protects-plaintext = Как это защищает ваш аккаунт:
 postConsumeRecoveryCode-title-3 = Ваш резервный код аутентификации был использован для подтверждения сброса пароля
 # After the colon, there is description of the device that the backup authentication code was used on
 # E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
@@ -718,6 +727,31 @@ subscriptionUpgrade-upgrade-info-2 = Вы успешно перешли на { $
 
 subscriptionUpgrade-content-charge-prorated-1 = С вас была взята разовая плата в размере { $invoiceAmountDue }, чтобы компенсировать более высокую цену вашей подписки за оставшуюся часть этого платёжного периода ({ $productPaymentCycleOld }).
 subscriptionUpgrade-content-charge-credit = Вы получили кредит аккаунта в размере { $paymentProrated }.
+subscriptionUpgrade-content-subscription-next-bill-change = Начиная со следующего платежа, цена вашей подписки изменится.
+subscriptionUpgrade-content-old-price-day = Предыдущая ставка была { $paymentAmountOld } в день.
+subscriptionUpgrade-content-old-price-week = Предыдущая ставка была { $paymentAmountOld } в неделю.
+subscriptionUpgrade-content-old-price-month = Предыдущая ставка была { $paymentAmountOld } в месяц.
+subscriptionUpgrade-content-old-price-halfyear = Предыдущая ставка была { $paymentAmountOld } в шесть месяцев.
+subscriptionUpgrade-content-old-price-year = Предыдущая ставка была { $paymentAmountOld } в год.
+subscriptionUpgrade-content-old-price-default = Предыдущая ставка была { $paymentAmountOld } за платёжный интервал.
+subscriptionUpgrade-content-old-price-day-tax = Предыдущая ставка была { $paymentAmountOld } + { $paymentTaxOld } налог в день.
+subscriptionUpgrade-content-old-price-week-tax = Предыдущая ставка была { $paymentAmountOld } + { $paymentTaxOld } налог в неделю.
+subscriptionUpgrade-content-old-price-month-tax = Предыдущая ставка была { $paymentAmountOld } + { $paymentTaxOld } налог в месяц.
+subscriptionUpgrade-content-old-price-halfyear-tax = Предыдущая ставка была { $paymentAmountOld } + { $paymentTaxOld } налог за шесть месяцев.
+subscriptionUpgrade-content-old-price-year-tax = Предыдущая ставка была { $paymentAmountOld } + { $paymentTaxOld } налог в год.
+subscriptionUpgrade-content-old-price-default-tax = Предыдущая ставка была { $paymentAmountOld } + { $paymentTaxOld } налог за платёжный интервал.
+subscriptionUpgrade-content-new-price-day = В будущем, с вас будет сниматься { $paymentAmountNew } в день, не включая скидки.
+subscriptionUpgrade-content-new-price-week = В будущем, с вас будет сниматься { $paymentAmountNew } в неделю, не включая скидки.
+subscriptionUpgrade-content-new-price-month = В будущем, с вас будет сниматься { $paymentAmountNew } в месяц, не включая скидки.
+subscriptionUpgrade-content-new-price-halfyear = В будущем, с вас будет сниматься { $paymentAmountNew } в шесть месяцев, не включая скидки.
+subscriptionUpgrade-content-new-price-year = В будущем, с вас будет сниматься { $paymentAmountNew } в год, не включая скидки.
+subscriptionUpgrade-content-new-price-default = В будущем, с вас будет сниматься { $paymentAmountNew } за каждый платёжный интервал, не включая скидки.
+subscriptionUpgrade-content-new-price-day-dtax = В будущем, с вас будет сниматься { $paymentAmountNew } + { $paymentTaxNew } налог в день, не включая скидки.
+subscriptionUpgrade-content-new-price-week-tax = В будущем, с вас будет сниматься { $paymentAmountNew } + { $paymentTaxNew } налог в неделю, не включая скидки.
+subscriptionUpgrade-content-new-price-month-tax = В будущем, с вас будет сниматься { $paymentAmountNew } + { $paymentTaxNew } налог в месяц, не включая скидки.
+subscriptionUpgrade-content-new-price-halfyear-tax = В будущем, с вас будет сниматься { $paymentAmountNew } + { $paymentTaxNew } налог каждые шесть месяцев, не включая скидки.
+subscriptionUpgrade-content-new-price-year-tax = В будущем, с вас будет сниматься { $paymentAmountNew } + { $paymentTaxNew } налог в день, не включая скидки.
+subscriptionUpgrade-content-new-price-default-tax = В будущем, с вас будет сниматься { $paymentAmountNew } + { $paymentTaxNew } налог за каждый платёжный интервал, не включая скидки.
 subscriptionUpgrade-existing = Если какая-либо из ваших существующих подписок не будет подпадать под действие этого обновления, мы разберемся с этим и отправим вам отдельное электронное письмо с подробной информацией. Если в ваш новый тарифный план включены продукты, требующие установки, мы отправим вам отдельное электронное письмо с инструкциями по настройке.
 subscriptionUpgrade-auto-renew = Ваша подписка будет автоматически продлеваться каждый платёжный период, пока вы не решите её отменить.
 unblockCode-subject = Код авторизации аккаунта

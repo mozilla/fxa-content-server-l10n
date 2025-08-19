@@ -296,7 +296,7 @@ subscription-cancellation-dialog-title = Lamentamos que te vayas
 # $date (Date) - Last day of product access
 subscription-cancellation-dialog-msg = Tu suscripción de { $name } ha sido cancelada. Seguirás teniendo acceso a { $name } hasta el { $date }.
 subscription-cancellation-dialog-aside = ¿Tenés preguntas? Visitá <linkExternal>Soporte de { -brand-mozilla }</linkExternal>.
-subscription-content-button-resubscribe = Resuscribir
+subscription-content-button-resubscribe = Resuscribirse
     .aria-label = Volver a suscribirse a { $productName }
 # $date (Date) - Last day of product access
 subscription-content-resubscribe = Se perderá acceso a { $name } el <strong>{ $date }</strong>.

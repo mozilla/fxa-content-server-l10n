@@ -296,6 +296,11 @@ subscription-cancellation-dialog-title = Нам жаль, что вы уходи
 # $date (Date) - Last day of product access
 subscription-cancellation-dialog-msg = Ваша подписка на { $name } была отменена. У вас по-прежнему будет доступ к { $name } до { $date }.
 subscription-cancellation-dialog-aside = Есть вопросы? Посетите <LinkExternal>Поддержку { -brand-mozilla }</LinkExternal>.
+subscription-content-button-resubscribe = Переоформить подписку
+    .aria-label = Переоформить подписку на { $productName }
+# $date (Date) - Last day of product access
+subscription-content-resubscribe = Вы потеряете доступ к { $name } <strong>{ $date }</strong>.
+resubscribe-dialog-title = Хотите продолжать использовать { $name }?
 dialog-close = Закрыть окно
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
