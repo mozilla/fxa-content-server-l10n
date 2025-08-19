@@ -780,14 +780,25 @@ nav-data-collection = Zběranje a wužywanje datow
 nav-paid-subs = Zapłaśone abonementy
 nav-email-comm = E-mailowa komunikacija
 
+## Page2faChange
+
+page-2fa-change-title = Dwójokšacowu awtentifikaciju zmeniś
+page-2fa-change-success = Dwójokšacowa awtentifikacija jo se zaktualizěrowała
+
 ## Two Step Authentication - replace backup authentication code
 
+# Page title
+tfa-backup-codes-page-title = Kody za zawěsćeńsku awtentifikaciju
 # Error shown when API call fails while replacing existing backup codes
 tfa-replace-code-error-3 = Pśi wuměnjanju wašych kodow za zawěsćeńsku awtentifikaciju jo problem nastał
 # Error shown when API call fails while creating new backup codes (user had none)
 tfa-create-code-error = Pśi napóranju wašych kodow za zawěsćeńsku awtentifikaciju jo problem nastał
 # Success message shown in alert bar after successfully replacing existing backup codes
 tfa-replace-code-success-alert-4 = Awtentifikaciske kody za zawěsćenje su se zaktualizěrowali
+# Success message shown after creating backup codes for the first time
+tfa-create-code-success-alert = Awtentifikaciske kody za zawěsćenje su se napórali
+# Error shown when the entered backup code does not match any of the generated codes
+tfa-incorrect-recovery-code-1 = Wopacny kod za zawěsćeńsku awtentifikaciju
 
 ## Page2faSetup
 
