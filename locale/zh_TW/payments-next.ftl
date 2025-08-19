@@ -296,6 +296,15 @@ subscription-cancellation-dialog-title = 很抱歉看到您離開
 # $date (Date) - Last day of product access
 subscription-cancellation-dialog-msg = 已取消您對 { $name } 的訂閱，您仍可繼續使用 { $name } 到 { $date } 為止。
 subscription-cancellation-dialog-aside = 有問題嗎？請到 <LinkExternal>{ -brand-mozilla } 技術支援站</LinkExternal>。
+subscription-content-button-resubscribe = 重新訂閱
+    .aria-label = 重新訂閱 { $productName }
+# $date (Date) - Last day of product access
+subscription-content-resubscribe = 在 <strong>{ $date }</strong> 之後，將無法繼續使用 { $name }。
+resubscribe-dialog-title = 想要繼續使用 { $name } 嗎？
+resubscribe-dialog-content = 您可繼續使用 { $name }，帳務週期與付款內容將保持不變。下次將於 { $endDate } 收取 { $amount }。
+resubscribe-dialog-action-button = 保持訂閱
+resubscribe-success-dialog-title = 處理完成，感謝您！
+resubscribe-success-dialog-action-button = 關閉
 dialog-close = 關閉對話框
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails

@@ -274,6 +274,8 @@ backup-authentication-codes-image-aria-label =
     .aria-label = 裝置畫面中顯示驗證碼
 sync-clouds-image-aria-label =
     .aria-label = 雲端同步圖示
+confetti-falling-image-aria-label =
+    .aria-label = 射出紙花的動畫
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -752,14 +754,26 @@ nav-data-collection = 資料收集與使用
 nav-paid-subs = 付費訂閱項目
 nav-email-comm = 電子郵件通訊
 
+## Page2faChange
+
+page-2fa-change-title = 更改兩階段驗證設定
+page-2fa-change-success = 已更新兩階段驗證設定
+page-2fa-change-totpinfo-error = 取代您的兩階段驗證設定時發生錯誤，請稍後再試。
+
 ## Two Step Authentication - replace backup authentication code
 
+# Page title
+tfa-backup-codes-page-title = 備用驗證碼
 # Error shown when API call fails while replacing existing backup codes
 tfa-replace-code-error-3 = 取代您的備用驗證碼時發生問題
 # Error shown when API call fails while creating new backup codes (user had none)
 tfa-create-code-error = 建立您的備用驗證碼時發生問題
 # Success message shown in alert bar after successfully replacing existing backup codes
 tfa-replace-code-success-alert-4 = 已更新備用驗證碼
+# Success message shown after creating backup codes for the first time
+tfa-create-code-success-alert = 已產生備用驗證碼
+# Error shown when the entered backup code does not match any of the generated codes
+tfa-incorrect-recovery-code-1 = 備用驗證碼不正確
 
 ## Page2faSetup
 

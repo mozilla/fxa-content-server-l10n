@@ -472,6 +472,12 @@ postChangeRecoveryPhone-requested-device = 您從下列位置要求：
 postChangeTwoStepAuthentication-preview = 您的帳號已受保護
 postChangeTwoStepAuthentication-subject = 已更新兩階段驗證設定
 postChangeTwoStepAuthentication-title = 已更新兩階段驗證設定
+postChangeTwoStepAuthentication-use-new-account = 現在起，您需要使用驗證程式當中新的 { -product-mozilla-account } 項目，舊的項目無法再使用，可以移除。
+# After the colon, there is a description of the device that the user used to enable two-step authentication
+postChangeTwoStepAuthentication-from-device = 您從下列位置要求：
+postChangeTwoStepAuthentication-action = 管理帳號
+postChangeTwoStepAuthentication-how-protects-link = 此功能如何保護您的帳號
+postChangeTwoStepAuthentication-how-protects-plaintext = 此功能如何保護您的帳號：
 postConsumeRecoveryCode-title-3 = 已使用您的備用驗證碼確認密碼重設
 # After the colon, there is description of the device that the backup authentication code was used on
 # E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
@@ -717,6 +723,31 @@ subscriptionUpgrade-upgrade-info-2 = 您已成功升級到 { $productName }。
 
 subscriptionUpgrade-content-charge-prorated-1 = 已向您一次收取 { $invoiceAmountDue }，以反應目前帳務週期剩餘期間（{ $productPaymentCycleOld }）較高的價格。
 subscriptionUpgrade-content-charge-credit = 您已收到 { $paymentProrated } 的儲值餘額。
+subscriptionUpgrade-content-subscription-next-bill-change = 從下個帳單週期開始，您的訂閱價格將有改變。
+subscriptionUpgrade-content-old-price-day = 原價格為每天 { $paymentAmountOld }。
+subscriptionUpgrade-content-old-price-week = 原價格為每週 { $paymentAmountOld }。
+subscriptionUpgrade-content-old-price-month = 原價格為每個月 { $paymentAmountOld }。
+subscriptionUpgrade-content-old-price-halfyear = 原價格為每六個月 { $paymentAmountOld }。
+subscriptionUpgrade-content-old-price-year = 原價格為每年 { $paymentAmountOld }。
+subscriptionUpgrade-content-old-price-default = 原價格為每期 { $paymentAmountOld }。
+subscriptionUpgrade-content-old-price-day-tax = 原價格為每天 { $paymentAmountOld } + { $paymentTaxOld } 稅。
+subscriptionUpgrade-content-old-price-week-tax = 原價格為每週 { $paymentAmountOld } + { $paymentTaxOld } 稅。
+subscriptionUpgrade-content-old-price-month-tax = 原價格為每個月 { $paymentAmountOld } + { $paymentTaxOld } 稅。
+subscriptionUpgrade-content-old-price-halfyear-tax = 原價格為每六個月 { $paymentAmountOld } + { $paymentTaxOld } 稅。
+subscriptionUpgrade-content-old-price-year-tax = 原價格為每年 { $paymentAmountOld } + { $paymentTaxOld } 稅。
+subscriptionUpgrade-content-old-price-default-tax = 原價格為每期 { $paymentAmountOld } + { $paymentTaxOld } 稅。
+subscriptionUpgrade-content-new-price-day = 未來，將收取每天 { $paymentAmountNew }，不含折扣。
+subscriptionUpgrade-content-new-price-week = 未來，將收取每週 { $paymentAmountNew }，不含折扣。
+subscriptionUpgrade-content-new-price-month = 未來，將收取每月 { $paymentAmountNew }，不含折扣。
+subscriptionUpgrade-content-new-price-halfyear = 未來，將收取每六個月 { $paymentAmountNew }，不含折扣。
+subscriptionUpgrade-content-new-price-year = 未來，將收取每年 { $paymentAmountNew }，不含折扣。
+subscriptionUpgrade-content-new-price-default = 未來，將收取每期 { $paymentAmountNew }，不含折扣。
+subscriptionUpgrade-content-new-price-day-dtax = 未來，將收取每天 { $paymentAmountNew } + { $paymentTaxNew } 稅，不含折扣。
+subscriptionUpgrade-content-new-price-week-tax = 未來，將收取每週 { $paymentAmountNew } + { $paymentTaxNew } 稅，不含折扣。
+subscriptionUpgrade-content-new-price-month-tax = 未來，將收取每月 { $paymentAmountNew } + { $paymentTaxNew } 稅，不含折扣。
+subscriptionUpgrade-content-new-price-halfyear-tax = 未來，將收取每六個月 { $paymentAmountNew } + { $paymentTaxNew } 稅，不含折扣。
+subscriptionUpgrade-content-new-price-year-tax = 未來，將收取每年 { $paymentAmountNew } + { $paymentTaxNew } 稅，不含折扣。
+subscriptionUpgrade-content-new-price-default-tax = 未來，將收取每期 { $paymentAmountNew } + { $paymentTaxNew } 稅，不含折扣。
 subscriptionUpgrade-existing = 若您現有的訂閱與此次升級有重疊部分，我們會用另外一封電子郵件向您說明完整處理方式；若您的新方案當中包含需要安裝軟體的產品，則也會再用另一封電子郵件向您說明如何安裝。
 subscriptionUpgrade-auto-renew = 除非您主動取消訂閱，否則將在每個帳單週期開始時自動續約並收費。
 unblockCode-subject = 帳號授權碼
