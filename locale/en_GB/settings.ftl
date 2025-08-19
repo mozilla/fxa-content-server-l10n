@@ -286,6 +286,8 @@ backup-authentication-codes-image-aria-label =
     .aria-label = Device screen with codes
 sync-clouds-image-aria-label =
     .aria-label = Clouds with a synchronisation icon
+confetti-falling-image-aria-label =
+    .aria-label = Animated falling confetti
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -772,8 +774,17 @@ nav-data-collection = Data Collection and Use
 nav-paid-subs = Paid Subscriptions
 nav-email-comm = Email Communications
 
+## Page2faChange
+
+page-2fa-change-title = Change two-step authentication
+page-2fa-change-success = Two-step authentication has been updated
+page-2fa-change-totpinfo-error = There was an error replacing your two-step authentication app. Try again later.
+page-2fa-change-qr-instruction = <strong>Step 1:</strong> Scan this QR code using any authenticator app, like Duo or Google Authenticator. This creates a new connection, any old connections won’t work anymore.
+
 ## Two Step Authentication - replace backup authentication code
 
+# Page title
+tfa-backup-codes-page-title = Backup authentication codes
 # Error shown when API call fails while replacing existing backup codes
 tfa-replace-code-error-3 = There was a problem replacing your backup authentication codes
 # Error shown when API call fails while creating new backup codes (user had none)
