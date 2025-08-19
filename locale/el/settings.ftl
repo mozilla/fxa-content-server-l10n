@@ -286,6 +286,8 @@ backup-authentication-codes-image-aria-label =
     .aria-label = Οθόνη συσκευής με κωδικούς
 sync-clouds-image-aria-label =
     .aria-label = Σύννεφα με εικονίδιο συγχρονισμού
+confetti-falling-image-aria-label =
+    .aria-label = Κινούμενη πτώση κομφετί
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -774,14 +776,33 @@ nav-data-collection = Συλλογή και χρήση δεδομένων
 nav-paid-subs = Συνδρομές επί πληρωμή
 nav-email-comm = Επικοινωνία μέσω email
 
+## Page2faChange
+
+page-2fa-change-title = Τροποποίηση ελέγχου ταυτότητας δύο παραγόντων
+page-2fa-change-success = Η ταυτοποίηση δύο παραγόντων έχει ενημερωθεί
+page-2fa-change-totpinfo-error = Προέκυψε σφάλμα κατά την αντικατάσταση της εφαρμογής ταυτοποίησης δύο παραγόντων. Δοκιμάστε ξανά αργότερα.
+page-2fa-change-qr-instruction = <strong>Βήμα 1:</strong> Σαρώστε τον κωδικό QR με οποιαδήποτε εφαρμογή ελέγχου ταυτότητας, όπως το Duo ή το Google Authenticator. Αυτό δημιουργεί μια νέα σύνδεση και οι παλιές συνδέσεις δεν θα λειτουργούν πλέον.
+
 ## Two Step Authentication - replace backup authentication code
 
+# Page title
+tfa-backup-codes-page-title = Εφεδρικοί κωδικοί ταυτοποίησης
 # Error shown when API call fails while replacing existing backup codes
 tfa-replace-code-error-3 = Προέκυψε πρόβλημα κατά την αντικατάσταση των εφεδρικών κωδικών ταυτοποίησής σας
 # Error shown when API call fails while creating new backup codes (user had none)
 tfa-create-code-error = Προέκυψε πρόβλημα κατά τη δημιουργία των εφεδρικών κωδικών ταυτοποίησής σας
 # Success message shown in alert bar after successfully replacing existing backup codes
 tfa-replace-code-success-alert-4 = Οι εφεδρικοί κωδικοί ταυτοποίησης ενημερώθηκαν
+# Success message shown after creating backup codes for the first time
+tfa-create-code-success-alert = Οι εφεδρικοί κωδικοί ταυτοποίησης δημιουργήθηκαν
+# Custom messaging for users replacing existing backup codes - Download step (1 of 2)
+# On this step, the codes are not yet replaced in the database - the old codes are still valid until step 2 is completed.
+tfa-replace-code-download-description = Φυλάξτε τους σε ένα μέρος που θα θυμάστε. Οι παλιοί σας κωδικοί ταυτοποίησης θα αντικατασταθούν αφού ολοκληρώσετε το επόμενο βήμα.
+# Custom messaging for users replacing existing backup codes - Confirm step (2 of 2)
+# Until this confirmation step is successfully completed, the old codes are still active and the new codes are not saved in the database.
+tfa-replace-code-confirm-description = Επιβεβαιώστε ότι έχετε αποθηκεύσει τους κωδικούς ταυτοποίησης σας εισάγοντας έναν. Οι παλιοί σας εφεδρικοί κωδικοί θα απενεργοποιηθούν μόλις ολοκληρωθεί αυτό το βήμα.
+# Error shown when the entered backup code does not match any of the generated codes
+tfa-incorrect-recovery-code-1 = Εσφαλμένος εφεδρικός κωδικός ταυτοποίησης
 
 ## Page2faSetup
 
@@ -1183,6 +1204,7 @@ tfa-row-enabled = Ενεργή
 tfa-row-disabled-status = Ανενεργή
 tfa-row-action-add = Προσθήκη
 tfa-row-action-disable = Απενεργοποίηση
+tfa-row-action-change = Αλλαγή
 tfa-row-button-refresh =
     .title = Ανανέωση ταυτοποίησης δύο παραγόντων
 tfa-row-cannot-refresh =

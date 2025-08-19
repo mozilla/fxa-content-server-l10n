@@ -474,6 +474,15 @@ postChangeRecoveryPhone-preview = Ο λογαριασμός προστατεύε
 postChangeRecoveryPhone-title = Αλλάξατε το τηλέφωνο ανάκτησής σας
 postChangeRecoveryPhone-description = Έχετε πλέον ένα νέο τηλέφωνο ανάκτησης. Ο προηγούμενος αριθμός τηλεφώνου σας διαγράφηκε.
 postChangeRecoveryPhone-requested-device = Το ζητήσατε από το:
+postChangeTwoStepAuthentication-preview = Ο λογαριασμός σας προστατεύεται
+postChangeTwoStepAuthentication-subject = Ενημερωμένη επαλήθευση δύο παραγόντων
+postChangeTwoStepAuthentication-title = Η ταυτοποίηση δύο παραγόντων ενημερώθηκε
+postChangeTwoStepAuthentication-use-new-account = Πρέπει πλέον να χρησιμοποιήσετε τη νέα καταχώρηση { -product-mozilla-account } στην εφαρμογή ελέγχου ταυτότητας. Το παλαιότερο δεν θα λειτουργεί πλέον και μπορείτε να το αφαιρέσετε.
+# After the colon, there is a description of the device that the user used to enable two-step authentication
+postChangeTwoStepAuthentication-from-device = Ζητήσατε αυτήν την ενέργεια από το:
+postChangeTwoStepAuthentication-action = Διαχείριση λογαριασμού
+postChangeTwoStepAuthentication-how-protects-link = Πώς προστατεύεται ο λογαριασμός σας
+postChangeTwoStepAuthentication-how-protects-plaintext = Πώς προστατεύεται ο λογαριασμός σας:
 postConsumeRecoveryCode-title-3 = Ο εφεδρικός κωδικός ταυτοποίησής σας χρησιμοποιήθηκε για την επιβεβαίωση μιας επαναφοράς του κωδικού πρόσβασης
 # After the colon, there is description of the device that the backup authentication code was used on
 # E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
@@ -719,6 +728,31 @@ subscriptionUpgrade-upgrade-info-2 = Κάνατε επιτυχώς αναβάθ�
 
 subscriptionUpgrade-content-charge-prorated-1 = Έχετε χρεωθεί εφάπαξ το ποσό των { $invoiceAmountDue }, που αντικατοπτρίζει την υψηλότερη τιμή της συνδρομής σας για το υπόλοιπο αυτής της περιόδου χρέωσης ({ $productPaymentCycleOld }).
 subscriptionUpgrade-content-charge-credit = Έχετε λάβει ως πίστωση λογαριασμού το ποσό των { $paymentProrated }.
+subscriptionUpgrade-content-subscription-next-bill-change = Ξεκινώντας από τον επόμενο λογαριασμό σας, η τιμή της συνδρομής σας θα τροποποιηθεί.
+subscriptionUpgrade-content-old-price-day = Η προηγούμενη τιμή ήταν { $paymentAmountOld } ανά ημέρα.
+subscriptionUpgrade-content-old-price-week = Η προηγούμενη τιμή ήταν { $paymentAmountOld } ανά εβδομάδα.
+subscriptionUpgrade-content-old-price-month = Η προηγούμενη τιμή ήταν { $paymentAmountOld } ανά μήνα.
+subscriptionUpgrade-content-old-price-halfyear = Η προηγούμενη τιμή ήταν { $paymentAmountOld } ανά εξάμηνο.
+subscriptionUpgrade-content-old-price-year = Η προηγούμενη τιμή ήταν { $paymentAmountOld } ανά έτος.
+subscriptionUpgrade-content-old-price-default = Η προηγούμενη χρέωση ήταν { $paymentAmountOld } ανά διάστημα χρέωσης.
+subscriptionUpgrade-content-old-price-day-tax = Ο προηγούμενος συντελεστής ήταν { $paymentAmountOld } + { $paymentTaxOld } φόρος ανά ημέρα.
+subscriptionUpgrade-content-old-price-week-tax = Ο προηγούμενος συντελεστής ήταν { $paymentAmountOld } + { $paymentTaxOld } φόρος ανά εβδομάδα.
+subscriptionUpgrade-content-old-price-month-tax = Ο προηγούμενος συντελεστής ήταν { $paymentAmountOld } + { $paymentTaxOld } φόρος ανά μήνα.
+subscriptionUpgrade-content-old-price-halfyear-tax = Ο προηγούμενος συντελεστής ήταν { $paymentAmountOld } + { $paymentTaxOld } φόρος ανά εξάμηνο.
+subscriptionUpgrade-content-old-price-year-tax = Ο προηγούμενος συντελεστής ήταν { $paymentAmountOld } + { $paymentTaxOld } φόρος ανά έτος.
+subscriptionUpgrade-content-old-price-default-tax = Ο προηγούμενος συντελεστής ήταν { $paymentAmountOld } + { $paymentTaxOld } φόρος ανά διάστημα χρέωσης.
+subscriptionUpgrade-content-new-price-day = Στο εξής, θα χρεώνεστε { $paymentAmountNew } ανά ημέρα, εξαιρουμένων των εκπτώσεων.
+subscriptionUpgrade-content-new-price-week = Στο εξής, θα χρεώνεστε { $paymentAmountNew } την εβδομάδα, εξαιρουμένων των εκπτώσεων.
+subscriptionUpgrade-content-new-price-month = Στο εξής, θα χρεώνεστε { $paymentAmountNew } ανά μήνα, εξαιρουμένων των εκπτώσεων.
+subscriptionUpgrade-content-new-price-halfyear = Στο εξής, θα χρεώνεστε { $paymentAmountNew } ανά εξάμηνο, εξαιρουμένων των εκπτώσεων.
+subscriptionUpgrade-content-new-price-year = Στο εξής, θα χρεώνεστε { $paymentAmountNew } ανά έτος, εξαιρουμένων των εκπτώσεων.
+subscriptionUpgrade-content-new-price-default = Στο εξής, θα χρεώνεστε { $paymentAmountNew } ανά διάστημα χρέωσης, εξαιρουμένων των εκπτώσεων.
+subscriptionUpgrade-content-new-price-day-dtax = Στο εξής, θα χρεώνεστε { $paymentAmountNew } + { $paymentTaxNew } φόρος ανά ημέρα, εξαιρουμένων των εκπτώσεων.
+subscriptionUpgrade-content-new-price-week-tax = Στο εξής, θα χρεώνεστε { $paymentAmountNew } + { $paymentTaxNew } φόρος ανά εβδομάδα, εξαιρουμένων των εκπτώσεων.
+subscriptionUpgrade-content-new-price-month-tax = Στο εξής, θα χρεώνεστε { $paymentAmountNew } + { $paymentTaxNew } φόρος ανά μήνα, εξαιρουμένων των εκπτώσεων.
+subscriptionUpgrade-content-new-price-halfyear-tax = Στο εξής, θα χρεώνεστε { $paymentAmountNew } + { $paymentTaxNew } φόρος ανά έξι μήνες, εξαιρουμένων των εκπτώσεων.
+subscriptionUpgrade-content-new-price-year-tax = Στο εξής, θα χρεώνεστε { $paymentAmountNew } + { $paymentTaxNew } φόρος ανά έτος, εξαιρουμένων των εκπτώσεων.
+subscriptionUpgrade-content-new-price-default-tax = Στο εξής, θα χρεώνεστε { $paymentAmountNew } + { $paymentTaxNew } φόρος ανά διάστημα χρέωσης, εξαιρουμένων των εκπτώσεων.
 subscriptionUpgrade-existing = Αν κάποια από τις υπάρχουσες συνδρομές σας συμπίπτει με αυτήν την αναβάθμιση, θα τη διαχειριστούμε και θα σας στείλουμε ξεχωριστό email με τις λεπτομέρειες. Αν το νέο σας πακέτο περιλαμβάνει προϊόντα που απαιτούν εγκατάσταση, θα σας στείλουμε ξεχωριστό email με τις οδηγίες.
 subscriptionUpgrade-auto-renew = Η συνδρομή σας θα ανανεώνεται αυτόματα σε κάθε περίοδο χρέωσης, εκτός αν κάνετε ακύρωση.
 unblockCode-subject = Κωδικός ταυτοποίησης λογαριασμού
