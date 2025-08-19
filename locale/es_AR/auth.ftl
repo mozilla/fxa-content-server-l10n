@@ -473,7 +473,7 @@ postChangeRecoveryPhone-requested-device = Lo pediste a:
 postChangeTwoStepAuthentication-preview = Tu cuenta está protegida
 postChangeTwoStepAuthentication-subject = Se actualizó la autenticación de dos pasos
 postChangeTwoStepAuthentication-title = Se actualizó la autenticación de dos pasos
-postChangeTwoStepAuthentication-use-new-account = Ahora necesita usar la nueva entrada { -product-mozilla-account } en su aplicación de autenticación. El antiguo ya no funcionará y podrás eliminarlo.
+postChangeTwoStepAuthentication-use-new-account = Ahora necesitás usar la nueva entrada { -product-mozilla-account } en tu aplicación de autenticación. La antigua ya no funcionará y podrás eliminarla.
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postChangeTwoStepAuthentication-from-device = Pediste esto a:
 postChangeTwoStepAuthentication-action = Administrar cuenta
