@@ -475,6 +475,8 @@ postChangeRecoveryPhone-title = Sće swój wobnowjenski telefon změnił
 postChangeRecoveryPhone-description = Maće nětko nowy wobnowjenski telefon. Waše předchadne telefonowe čisło je so zhašało.
 postChangeRecoveryPhone-requested-device = Sće jón požadał wot:
 postChangeTwoStepAuthentication-preview = Waše konto je škitane
+postChangeTwoStepAuthentication-subject = Dwukročelowa awtentifikacija je so zaktualizowała
+postChangeTwoStepAuthentication-title = Dwukročelowa awtentifikacija je so zaktualizowała
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postChangeTwoStepAuthentication-from-device = Sće to požadał wot:
 postChangeTwoStepAuthentication-action = Konto rjadować

@@ -783,15 +783,22 @@ nav-email-comm = E-mejlowa komunikacija
 ## Page2faChange
 
 page-2fa-change-title = Dwukročelowu awtentifikaciju změnić
+page-2fa-change-success = Dwukročelowa awtentifikacija je so zaktualizowała
 
 ## Two Step Authentication - replace backup authentication code
 
+# Page title
+tfa-backup-codes-page-title = Zawěsćenske awtentifikaciske kody
 # Error shown when API call fails while replacing existing backup codes
 tfa-replace-code-error-3 = Při wuměnjenju wašich kodow za zawěsćensku awtentifikaciju je problem nastał
 # Error shown when API call fails while creating new backup codes (user had none)
 tfa-create-code-error = Při wutworjenju wašich kodow za zawěsćensku awtentifikaciju je problem nastał
 # Success message shown in alert bar after successfully replacing existing backup codes
 tfa-replace-code-success-alert-4 = Awtentifikaciske kody za zawěsćenje su so zaktualizowali
+# Success message shown after creating backup codes for the first time
+tfa-create-code-success-alert = Awtentifikaciske kody za zawěsćenje su so wutworili
+# Error shown when the entered backup code does not match any of the generated codes
+tfa-incorrect-recovery-code-1 = Wopačny kod za zawěsćensku awtentifikaciju
 
 ## Page2faSetup
 
@@ -1195,6 +1202,7 @@ tfa-row-enabled = Zmóžnjeny
 tfa-row-disabled-status = Znjemóžnjeny
 tfa-row-action-add = Přidać
 tfa-row-action-disable = Znjemóžnić
+tfa-row-action-change = Změnić
 tfa-row-button-refresh =
     .title = Dwukročelowu awtentifikaciju aktualizować
 tfa-row-cannot-refresh =
