@@ -286,6 +286,8 @@ backup-authentication-codes-image-aria-label =
     .aria-label = Kodlar görünen cihaz ekranı
 sync-clouds-image-aria-label =
     .aria-label = Eşitleme simgesi olan bulutlar
+confetti-falling-image-aria-label =
+    .aria-label = Düşen konfeti animasyonu
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -772,14 +774,26 @@ nav-data-collection = Veri toplanması ve kullanımı
 nav-paid-subs = Ücretli abonelikler
 nav-email-comm = E-posta iletişimi
 
+## Page2faChange
+
+page-2fa-change-title = İki aşamalı doğrulamayı değiştir
+page-2fa-change-success = İki aşamalı kimlik doğrulama güncellendi
+page-2fa-change-totpinfo-error = İki aşamalı kimlik doğrulama uygulamanız değiştirilirken bir hata oluştu. Daha sonra yeniden deneyin.
+
 ## Two Step Authentication - replace backup authentication code
 
+# Page title
+tfa-backup-codes-page-title = Yedek kimlik doğrulama kodları
 # Error shown when API call fails while replacing existing backup codes
 tfa-replace-code-error-3 = Yedek kimlik doğrulama kodlarınız değiştirilirken bir sorun oluştu
 # Error shown when API call fails while creating new backup codes (user had none)
 tfa-create-code-error = Yedek kimlik doğrulama kodlarınız oluşturulurken bir sorun oluştu
 # Success message shown in alert bar after successfully replacing existing backup codes
 tfa-replace-code-success-alert-4 = Yedek kimlik doğrulama kodları güncellendi
+# Success message shown after creating backup codes for the first time
+tfa-create-code-success-alert = Yedek kimlik doğrulama kodları oluşturuldu
+# Error shown when the entered backup code does not match any of the generated codes
+tfa-incorrect-recovery-code-1 = Yanlış yedek kimlik doğrulama kodu
 
 ## Page2faSetup
 
@@ -1175,6 +1189,7 @@ tfa-row-enabled = Etkin
 tfa-row-disabled-status = Devre dışı
 tfa-row-action-add = Ekle
 tfa-row-action-disable = Devre dışı bırak
+tfa-row-action-change = Değiştir
 tfa-row-button-refresh =
     .title = İki aşamalı doğrulamayı yenile
 tfa-row-cannot-refresh =

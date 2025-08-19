@@ -277,6 +277,12 @@ subscription-cancellation-dialog-title = Gitmenize üzüldük
 # $date (Date) - Last day of product access
 subscription-cancellation-dialog-msg = { $name } aboneliğiniz iptal edildi. { $date } tarihine kadar { $name } ürününe erişmeye devam edeceksiniz.
 subscription-cancellation-dialog-aside = Sorularınız mı var? <LinkExternal>{ -brand-mozilla } Destek</LinkExternal> sitesini ziyaret edin.
+# $date (Date) - Last day of product access
+subscription-content-resubscribe = { $name } erişiminiz <strong>{ $date }</strong> tarihinde sona erecek.
+resubscribe-dialog-title = { $name } ürününü kullanmaya devam etmek ister misiniz?
+resubscribe-dialog-action-button = Aboneliğimi sürdür
+resubscribe-success-dialog-title = Teşekkürler! Artık hazırsınız.
+resubscribe-success-dialog-action-button = Kapat
 dialog-close = İletişim kutusunu kapat
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
