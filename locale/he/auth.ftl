@@ -454,6 +454,9 @@ postChangeRecoveryPhone-preview = החשבון מוגן באמצעות אימו�
 postChangeRecoveryPhone-title = שינית את טלפון השחזור שלך
 postChangeRecoveryPhone-description = כעת יש לך טלפון חדש לשחזור. מספר הטלפון הקודם שלך נמחק.
 postChangeRecoveryPhone-requested-device = ביקשת אותו מ:
+postChangeTwoStepAuthentication-preview = החשבון שלך מוגן
+postChangeTwoStepAuthentication-subject = אימות דו־שלבי עודכן
+postChangeTwoStepAuthentication-title = האימות הדו־שלבי עודכן
 # After the colon, there is description of the device that the backup authentication code was used on
 # E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
 postConsumeRecoveryCode-description-3 = נעשה שימוש בקוד מ:
