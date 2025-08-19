@@ -302,8 +302,8 @@ subscription-content-button-resubscribe = Ail-danysgrifio
 subscription-content-resubscribe = Byddwch yn colli mynediad i { $name } ar <strong>{ $date }</strong>.
 resubscribe-dialog-title = Am barhau i ddefnyddio { $name }?
 resubscribe-dialog-content = Bydd eich mynediad at { $name } yn parhau, a bydd eich cylch bilio a'ch taliad yn aros yr un peth. Eich tâl nesaf fydd { $amount } ar { $endDate }.
-resubscribe-dialog-action-button = Para Wedi Tanysgrifio
-resubscribe-success-dialog-title = Diolch! Rydych chi i gyd yn barod.
+resubscribe-dialog-action-button = Parhau Wedi Tanysgrifio
+resubscribe-success-dialog-title = Diolch! Rydych chi'n barod nawr.
 resubscribe-success-dialog-action-button = Cau
 dialog-close = Cau deialog
 

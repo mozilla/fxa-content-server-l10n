@@ -787,7 +787,7 @@ nav-email-comm = E-mejlowa komunikacija
 page-2fa-change-title = Dwukročelowu awtentifikaciju změnić
 page-2fa-change-success = Dwukročelowa awtentifikacija je so zaktualizowała
 page-2fa-change-totpinfo-error = Při wuměnjenju wašeho nałoženja dwukročeloweje awtentifikacije je zmylk nastał. Spytajće pozdźišo hišće raz.
-page-2fa-change-qr-instruction = <strong>Krok 1:</strong> Skenujće tutón QR-kod z pomocu awtentifikaciskim nałoženjom, na přikład Duo abo Google Authenticator. To nowy zwisk wutworja, stare zwiski njebudu hižo fungować.
+page-2fa-change-qr-instruction = <strong>Krok 1:</strong> Skenujće tutón QR-kod z pomocu awtentifikaciskeho nałoženja, na přikład Duo abo Google Authenticator. To nowy zwisk wutworja, stare zwiski njebudu hižo fungować.
 
 ## Two Step Authentication - replace backup authentication code
 

@@ -299,7 +299,7 @@ backup-authentication-codes-image-aria-label =
 sync-clouds-image-aria-label =
     .aria-label = Cymylau gydag eicon cydweddu
 confetti-falling-image-aria-label =
-    .aria-label = Conffeti disgynnol animeiddiedig
+    .aria-label = Animeiddiad conffeti'n disgyn
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -793,7 +793,7 @@ nav-email-comm = Cyfathrebu Trwy E-bost
 page-2fa-change-title = Newid dilysu dau gam
 page-2fa-change-success = Mae dilysu dau gam wedi'i ddiweddaru
 page-2fa-change-totpinfo-error = Bu gwall wrth amnewid eich ap dilysu dau gam. Ceisiwch eto yn nes ymlaen.
-page-2fa-change-qr-instruction = <strong>Cam 1:</strong> Sganiwch y cod QR hwn gan ddefnyddio unrhyw ap dilysu, fel Duo neu Google Authenticator. Mae hyn yn creu cysylltiad newydd, ni fydd unrhyw hen gysylltiadau yn gweithio mwyach.
+page-2fa-change-qr-instruction = <strong>Cam 1:</strong> Sganiwch y cod QR hwn gan ddefnyddio unrhyw ap dilysu, fel Duo neu Google Authenticator. Mae hyn yn creu cysylltiad newydd, bydd unrhyw hen gysylltiadau ddim yn gweithio mwyach.
 
 ## Two Step Authentication - replace backup authentication code
 
@@ -809,7 +809,7 @@ tfa-replace-code-success-alert-4 = Codau dilysu wrth gefn wedi'u diweddaru
 tfa-create-code-success-alert = Codau dilysu wrth gefn wedi'u creu
 # Custom messaging for users replacing existing backup codes - Download step (1 of 2)
 # On this step, the codes are not yet replaced in the database - the old codes are still valid until step 2 is completed.
-tfa-replace-code-download-description = Cadwch y rhain mewn man y byddwch yn ei gofio. Bydd eich hen godau yn cael eu disodli ar ôl i chi orffen y cam nesaf.
+tfa-replace-code-download-description = Cadwch rhain lle fyddwch yn ei gofio. Bydd eich hen godau yn cael eu disodli ar ôl i chi orffen y cam nesaf.
 # Custom messaging for users replacing existing backup codes - Confirm step (2 of 2)
 # Until this confirmation step is successfully completed, the old codes are still active and the new codes are not saved in the database.
 tfa-replace-code-confirm-description = Cadarnhewch eich bod wedi cadw'ch codau trwy nodi un. Bydd eich hen godau dilysu wrth gefn yn cael eu hanalluogi unwaith y bydd y cam hwn wedi'i gwblhau.
@@ -1236,7 +1236,7 @@ tfa-row-disable-modal-explain-1 =
 # Shown in an alert bar after two-step authentication is disabled
 tfa-row-disabled-2 = Mae dilysu dau gam wedi ei analluogi
 tfa-row-cannot-disable-2 = Nid oedd modd analluogi dilysu dau gam.
-tfa-row-verify-session-info = Mae angen i chi gadarnhau eich sesiwn gyfredol i sefydlu dilysiad dau gam
+tfa-row-verify-session-info = Mae angen i chi gadarnhau eich sesiwn gyfredol i osod dilysiad dau gam
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
