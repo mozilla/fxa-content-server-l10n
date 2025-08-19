@@ -476,6 +476,7 @@ postChangeRecoveryPhone-requested-device = Du ba om det frå:
 postChangeTwoStepAuthentication-preview = Kontoen din er beskytta
 postChangeTwoStepAuthentication-subject = Tostegs-autentisering, oppdatert
 postChangeTwoStepAuthentication-title = Tostegs-autentisering er oppdatert
+postChangeTwoStepAuthentication-use-new-account = Du må nå bruke den nye { -product-mozilla-account }-oppføringa i autentiseringsappen din. Den eldre vil ikkje lenger fungere, og du kan fjerne han.
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postChangeTwoStepAuthentication-from-device = Du ba om dette frå:
 postChangeTwoStepAuthentication-action = Handsam kontoen
@@ -726,6 +727,18 @@ subscriptionUpgrade-upgrade-info-2 = Du har oppgradert til { $productName }.
 
 subscriptionUpgrade-content-charge-prorated-1 = Du har vorte belasta med eit eingongsgebyr på { $invoiceAmountDue } for å spegle den høgare prisen for abonnementet for resten av denne faktureringsperioden ({ $productPaymentCycleOld }).
 subscriptionUpgrade-content-charge-credit = Du har fått ein kontokreditt på beløpet { $paymentProrated }.
+subscriptionUpgrade-content-subscription-next-bill-change = Frå og med neste rekning vil prisen på abonnementet ditt endrast.
+subscriptionUpgrade-content-old-price-day = Den førre prisen var { $paymentAmountOld } per dag.
+subscriptionUpgrade-content-old-price-week = Den førre prisen var { $paymentAmountOld } per veke.
+subscriptionUpgrade-content-old-price-month = Den førre prisen var { $paymentAmountOld } per månad.
+subscriptionUpgrade-content-old-price-halfyear = Den førre prisen var { $paymentAmountOld } per seks månadar.
+subscriptionUpgrade-content-old-price-year = Den førre prisen var { $paymentAmountOld } per år.
+subscriptionUpgrade-content-old-price-default = Den førre prisen var { $paymentAmountOld } per faktureringsintervall.
+subscriptionUpgrade-content-old-price-day-tax = Den førre prisen var { $paymentAmountOld } + { $paymentTaxOld } moms per dag.
+subscriptionUpgrade-content-old-price-week-tax = Den førre prisen var { $paymentAmountOld } + { $paymentTaxOld } moms per veke.
+subscriptionUpgrade-content-old-price-month-tax = Den førre prisen var { $paymentAmountOld } + { $paymentTaxOld } moms per månad.
+subscriptionUpgrade-content-old-price-halfyear-tax = Den førre prisen var { $paymentAmountOld } + { $paymentTaxOld } moms per seks månadar.
+subscriptionUpgrade-content-old-price-year-tax = Den førre prisen var { $paymentAmountOld } + { $paymentTaxOld } moms per år.
 subscriptionUpgrade-existing = Viss nokon av dei eksisterande abonnementa dine overlappar med denne oppgraderinga, handsamar vi dei og sender deg ein eigen e-post med detaljane. Dersom den nye planen din inkluderer produkt som krev installasjon, sender vi deg ein eigen e-post med konfigurasjonsinstruksjonar.
 subscriptionUpgrade-auto-renew = Abonnementet ditt vert automatisk fornya kvar faktureringsperiode med mindre du vel å avbryte.
 unblockCode-subject = Godkjenningskode for konto
