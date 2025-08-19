@@ -474,6 +474,12 @@ postChangeRecoveryPhone-preview = Konto so přez dwukročelowu awtentifikaciju �
 postChangeRecoveryPhone-title = Sće swój wobnowjenski telefon změnił
 postChangeRecoveryPhone-description = Maće nětko nowy wobnowjenski telefon. Waše předchadne telefonowe čisło je so zhašało.
 postChangeRecoveryPhone-requested-device = Sće jón požadał wot:
+postChangeTwoStepAuthentication-preview = Waše konto je škitane
+# After the colon, there is a description of the device that the user used to enable two-step authentication
+postChangeTwoStepAuthentication-from-device = Sće to požadał wot:
+postChangeTwoStepAuthentication-action = Konto rjadować
+postChangeTwoStepAuthentication-how-protects-link = Kak to waše konto škita
+postChangeTwoStepAuthentication-how-protects-plaintext = Kak to waše konto škita:
 postConsumeRecoveryCode-title-3 = Waš awtentifikaciski kod za zawěsćenje je so wobkrućenje wróćostajenja hesła wužił
 # After the colon, there is description of the device that the backup authentication code was used on
 # E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024

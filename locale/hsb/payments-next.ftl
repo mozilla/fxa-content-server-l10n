@@ -301,6 +301,15 @@ subscription-cancellation-dialog-title = Je nam žel, zo woteńdźeće
 # $date (Date) - Last day of product access
 subscription-cancellation-dialog-msg = Waš abonement za { $name } je so wupowědźił. Maće hišće přistup k { $name } hač do { $date }.
 subscription-cancellation-dialog-aside = Maće prašenja? Wopytajće <LinkExternal>Pomoc { -brand-mozilla }</LinkExternal>.
+subscription-content-button-resubscribe = Abonement wobnowić
+    .aria-label = { $productName } znowa abonować
+# $date (Date) - Last day of product access
+subscription-content-resubscribe = Zhubiće <strong>{ $date }</strong> přistup k { $name }.
+resubscribe-dialog-title = Chceće { $name } dale wužiwać?
+resubscribe-dialog-content = Waš přistup k { $name } dale wobsteji. a waš wotličenska perioda  waše plaćenje samsnej wostanjetej. Waše přichodne wotknihowanje budźe { $endDate } { $amount }.
+resubscribe-dialog-action-button = Dale abonować
+resubscribe-success-dialog-title = Wulki dźak! Sće hotowy za start.
+resubscribe-success-dialog-action-button = Začinić
 dialog-close = Dialog začinić
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
