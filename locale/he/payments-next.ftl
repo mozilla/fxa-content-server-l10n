@@ -279,6 +279,15 @@ subscription-cancellation-dialog-title = עצוב לנו שבחרת לעזוב
 # $date (Date) - Last day of product access
 subscription-cancellation-dialog-msg = המינוי שלך ל־{ $name } בוטל. תהיה לך עדיין גישה ל־{ $name } עד { $date }.
 subscription-cancellation-dialog-aside = יש שאלות? ניתן לבקר ב<LinkExternal>תמיכה של { -brand-mozilla }</LinkExternal>.
+subscription-content-button-resubscribe = חידוש מינוי
+    .aria-label = חידוש מינוי ל־{ $productName }
+# $date (Date) - Last day of product access
+subscription-content-resubscribe = הגישה שלך ל־{ $name } תאבד בתאריך <strong>{ $date }</strong>.
+resubscribe-dialog-title = רוצה להמשיך להשתמש ב־{ $name }?
+resubscribe-dialog-content = הגישה שלך ל־{ $name } תימשך, ומחזור החיוב והתשלום שלך יישארו כפי שהם. החיוב הבא שלך יהיה { $amount } בתאריך { $endDate }.
+resubscribe-dialog-action-button = להישאר רשום כמינוי
+resubscribe-success-dialog-title = תודה! הכול מוכן.
+resubscribe-success-dialog-action-button = סגירה
 dialog-close = סגירת תיבת דוח־שיח
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails

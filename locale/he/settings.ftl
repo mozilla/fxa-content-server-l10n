@@ -745,6 +745,13 @@ nav-data-collection = איסוף ושימוש בנתונים
 nav-paid-subs = מינויים בתשלום
 nav-email-comm = תקשורת בדוא״ל
 
+## Page2faChange
+
+page-2fa-change-title = שינוי אימות דו־שלבי
+page-2fa-change-success = האימות הדו־שלבי עודכן
+page-2fa-change-totpinfo-error = אירעה שגיאה בהחלפת יישומון האימות הדו־שלבי שלך. נא לנסות שוב מאוחר יותר.
+page-2fa-change-qr-instruction = <strong>שלב 1:</strong> יש לסרוק את קוד QR זה באמצעות כל יישומון מאמת, כמו Duo או Google Authenticator. פעולה זו תיצור חיבור חדש, חיבורים ישנים לא יעבדו יותר.
+
 ## Page2faSetup
 
 page-2fa-setup-title = אימות דו־שלבי

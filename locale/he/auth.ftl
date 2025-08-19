@@ -457,6 +457,12 @@ postChangeRecoveryPhone-requested-device = ביקשת אותו מ:
 postChangeTwoStepAuthentication-preview = החשבון שלך מוגן
 postChangeTwoStepAuthentication-subject = אימות דו־שלבי עודכן
 postChangeTwoStepAuthentication-title = האימות הדו־שלבי עודכן
+postChangeTwoStepAuthentication-use-new-account = כעת עליך להשתמש ברשומה החדשה של { -product-mozilla-account(case: "a") } ביישומון המאמת שלך. הרשומה הישנה לא תעבוד יותר, וניתן להסיר אותה.
+# After the colon, there is a description of the device that the user used to enable two-step authentication
+postChangeTwoStepAuthentication-from-device = ביקשת את זה מ:
+postChangeTwoStepAuthentication-action = ניהול חשבון
+postChangeTwoStepAuthentication-how-protects-link = כיצד זה מגן על החשבון שלך
+postChangeTwoStepAuthentication-how-protects-plaintext = כיצד זה מגן על החשבון שלך:
 # After the colon, there is description of the device that the backup authentication code was used on
 # E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
 postConsumeRecoveryCode-description-3 = נעשה שימוש בקוד מ:
@@ -682,6 +688,27 @@ subscriptionUpgrade-upgrade-info-2 = שודרגת בהצלחה ל־{ $productNam
 
 subscriptionUpgrade-content-charge-prorated-1 = חויבת בתשלום חד פעמי בסך { $invoiceAmountDue } כדי לשקף את המחיר הגבוה יותר של המינוי שלך למשך שארית תקופת החיוב הזו ({ $productPaymentCycleOld }).
 subscriptionUpgrade-content-charge-credit = קיבלת זיכוי בחשבון שלך בסכום של { $paymentProrated }.
+subscriptionUpgrade-content-old-price-day = התעריף הקודם היה { $paymentAmountOld } ליום.
+subscriptionUpgrade-content-old-price-week = התעריף הקודם היה { $paymentAmountOld } לשבוע.
+subscriptionUpgrade-content-old-price-month = התעריף הקודם היה { $paymentAmountOld } לחודש.
+subscriptionUpgrade-content-old-price-halfyear = התעריף הקודם היה { $paymentAmountOld } ל־6 חודשים.
+subscriptionUpgrade-content-old-price-year = התעריף הקודם היה { $paymentAmountOld } לשנה.
+subscriptionUpgrade-content-old-price-default = התעריף הקודם היה { $paymentAmountOld } לכל מרווח חיוב.
+subscriptionUpgrade-content-old-price-day-tax = התעריף הקודם היה { $paymentAmountOld } + מס בסך { $paymentTaxOld } ליום.
+subscriptionUpgrade-content-old-price-week-tax = התעריף הקודם היה { $paymentAmountOld } + מס בסך { $paymentTaxOld } לשבוע.
+subscriptionUpgrade-content-old-price-month-tax = התעריף הקודם היה { $paymentAmountOld } + מס בסך { $paymentTaxOld } לחודש.
+subscriptionUpgrade-content-old-price-halfyear-tax = התעריף הקודם היה { $paymentAmountOld } + מס בסך { $paymentTaxOld } ל־6 חודשים.
+subscriptionUpgrade-content-old-price-year-tax = התעריף הקודם היה { $paymentAmountOld } + מס בסך { $paymentTaxOld } לשנה.
+subscriptionUpgrade-content-old-price-default-tax = התעריף הקודם היה { $paymentAmountOld } + מס בסך { $paymentTaxOld } לכל מרווח חיוב.
+subscriptionUpgrade-content-new-price-day = מעתה והלאה, יבוצע חיוב של { $paymentAmountNew } ליום, לא כולל הנחות.
+subscriptionUpgrade-content-new-price-week = מעתה והלאה, יבוצע חיוב של { $paymentAmountNew } לשבוע, לא כולל הנחות.
+subscriptionUpgrade-content-new-price-month = מעתה והלאה, יבוצע חיוב של { $paymentAmountNew } לחודש, לא כולל הנחות.
+subscriptionUpgrade-content-new-price-halfyear = מעתה והלאה, יבוצע חיוב של { $paymentAmountNew } ל־6 חודשים, לא כולל הנחות.
+subscriptionUpgrade-content-new-price-year = מעתה והלאה, יבוצע חיוב של { $paymentAmountNew } לשנה, לא כולל הנחות.
+subscriptionUpgrade-content-new-price-default = מעתה והלאה, יבוצע חיוב של { $paymentAmountNew } לכל מרווח חיוב, לא כולל הנחות.
+subscriptionUpgrade-content-new-price-day-dtax = מעתה והלאה, יבוצע חיוב של { $paymentAmountNew } + מס בסך { $paymentTaxNew } ליום, לא כולל הנחות.
+subscriptionUpgrade-content-new-price-week-tax = מעתה והלאה, יבוצע חיוב של { $paymentAmountNew } + מס בסך { $paymentTaxNew } לשבוע, לא כולל הנחות.
+subscriptionUpgrade-content-new-price-month-tax = מעתה והלאה, יבוצע חיוב של { $paymentAmountNew } + מס בסך { $paymentTaxNew } לחודש, לא כולל הנחות.
 subscriptionUpgrade-existing = אם יש לך מינויים קיימים החופפים לשדרוג זה, נטפל בהם ונשלח לך הודעת דוא״ל נפרדת עם הפרטים. אם התוכנית החדשה שלך כוללת מוצרים הדורשים התקנה, נשלח לך דוא״ל נפרד עם הוראות התקנה.
 subscriptionUpgrade-auto-renew = המינוי שלך יתחדש באופן אוטומטי בכל תקופת חיוב אלא אם בחרת לבטל.
 unblockCode-subject = קוד הרשאת חשבון
