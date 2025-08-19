@@ -469,6 +469,14 @@ postChangeRecoveryPhone-preview = Hesabınız iki aşamalı doğrulamayla korunu
 postChangeRecoveryPhone-title = Kurtarma telefonunuzu değiştirdiniz
 postChangeRecoveryPhone-description = Artık yeni bir kurtarma telefonunuz var. Önceki telefon numaranız silindi.
 postChangeRecoveryPhone-requested-device = Bu cihazdan istediniz:
+postChangeTwoStepAuthentication-preview = Hesabınız korunuyor
+postChangeTwoStepAuthentication-subject = İki aşamalı kimlik doğrulama güncellendi
+postChangeTwoStepAuthentication-title = İki aşamalı kimlik doğrulama güncellendi
+# After the colon, there is a description of the device that the user used to enable two-step authentication
+postChangeTwoStepAuthentication-from-device = İşlemi yapan cihaz:
+postChangeTwoStepAuthentication-action = Hesabı yönet
+postChangeTwoStepAuthentication-how-protects-link = İki aşamalı kimlik doğrulama, hesabınızı nasıl korur?
+postChangeTwoStepAuthentication-how-protects-plaintext = İki aşamalı kimlik doğrulama, hesabınızı nasıl korur?
 postConsumeRecoveryCode-title-3 = Parola sıfırlamayı onaylamak için yedek kimlik doğrulama kodunuz kullanıldı
 # After the colon, there is description of the device that the backup authentication code was used on
 # E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
