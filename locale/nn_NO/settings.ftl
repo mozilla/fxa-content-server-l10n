@@ -286,6 +286,8 @@ backup-authentication-codes-image-aria-label =
     .aria-label = Einingsskjerm med kodar
 sync-clouds-image-aria-label =
     .aria-label = Skyer med eit synkroniseringsikon
+confetti-falling-image-aria-label =
+    .aria-label = Animert fallande konfetti
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -776,6 +778,8 @@ nav-email-comm = E-postkommunikasjon
 
 page-2fa-change-title = Endre tostegs-autentisering
 page-2fa-change-success = Tostegs-autentisering er oppdatert
+page-2fa-change-totpinfo-error = Det oppstod ein feil ved byte av tostegs-autentiseringsappen. Prøv igjen seinare.
+page-2fa-change-qr-instruction = <strong>Steg 1:</strong> Skann denne QR-koden med ein autentiseringsapp, til dømes Duo eller Google Authenticator. Dette opprettar ei ny tilkopling, og eventuelle gamle tilkoplingar vil ikkje lenger fungere.
 
 ## Two Step Authentication - replace backup authentication code
 

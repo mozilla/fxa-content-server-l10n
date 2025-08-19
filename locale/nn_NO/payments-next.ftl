@@ -301,7 +301,9 @@ subscription-content-button-resubscribe = Abonner ein gong til
 # $date (Date) - Last day of product access
 subscription-content-resubscribe = Du mistar tilgangen din til { $name } den <strong>{ $date }</strong>.
 resubscribe-dialog-title = Vil du halde fram med å bruke { $name }?
+resubscribe-dialog-content = Tilgangen din til { $name } vil halde fram, og faktureringssyklusen din og betalinga vil halde fram med å vere den same. Den neste betalinga di blir på { $amount } den { $endDate }.
 resubscribe-dialog-action-button = Hald fram abonnementet
+resubscribe-success-dialog-title = Takk! Alt er no klart.
 resubscribe-success-dialog-action-button = Lat att
 dialog-close = Lat att dialogboks
 
