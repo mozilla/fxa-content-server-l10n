@@ -727,6 +727,7 @@ subscriptionUpgrade-upgrade-info-2 = Tu era con successo promovite a { $productN
 
 subscriptionUpgrade-content-charge-prorated-1 = Te ha essite cargate un onere de un-vice de { $invoiceAmountDue } pro reflecter tu precio de abonamento superior pro le resto de iste termino de facturation ({ $productPaymentCycleOld }).
 subscriptionUpgrade-content-charge-credit = Tu ha recipite un accreditation de conto in le amonta de { $paymentProrated }.
+subscriptionUpgrade-content-old-price-default-tax = Le previe rata era { $paymentAmountOld } + taxa de { $paymentTaxOld } per intervallo de facturation.
 subscriptionUpgrade-existing = Si il ha alcun imbrication de tu abonamentos existente con iste promotion, nos los tractara e te inviara un email separate con le detalios. Si tu nove plano include productos que require installation, nos te inviara un email separate con le instructiones de installation.
 subscriptionUpgrade-auto-renew = Tu subscription sera renovate automaticamente cata termino de facturation usque tu non seligera de cancellar lo.
 unblockCode-subject = Codice de autorisation del conto
