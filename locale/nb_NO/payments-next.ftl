@@ -296,6 +296,14 @@ subscription-cancellation-dialog-title = Det er leit at du forsvinner
 # $date (Date) - Last day of product access
 subscription-cancellation-dialog-msg = { $name }-abonnementet ditt er avsluttet. Du vil fortsatt ha tilgang til { $name } frem til den { $date }.
 subscription-cancellation-dialog-aside = Har du spørsmål? Besøk <LinkExternal>{ -brand-mozilla }-brukerstøtte</LinkExternal>.
+subscription-content-button-resubscribe = Abonner på nytt
+    .aria-label = Abonner på nytt på { $productName }
+# $date (Date) - Last day of product access
+subscription-content-resubscribe = Du mister tilgangen til { $name } den <strong>{ $date }</strong>.
+resubscribe-dialog-title = Vil du fortsette å bruke { $name }?
+resubscribe-dialog-content = Din tilgang til { $name } vil fortsette, og faktureringssyklusen din og betalingen vil forbli den samme. Din neste betaling blir på { $amount } den { $endDate }.
+resubscribe-dialog-action-button = Fortsett abonnementet
+resubscribe-success-dialog-title = Takk! Alt er nå klart.
 resubscribe-success-dialog-action-button = Lukk
 dialog-close = Lukk dialogvindu
 
