@@ -787,6 +787,7 @@ nav-email-comm = E-mejlowa komunikacija
 page-2fa-change-title = Dwukročelowu awtentifikaciju změnić
 page-2fa-change-success = Dwukročelowa awtentifikacija je so zaktualizowała
 page-2fa-change-totpinfo-error = Při wuměnjenju wašeho nałoženja dwukročeloweje awtentifikacije je zmylk nastał. Spytajće pozdźišo hišće raz.
+page-2fa-change-qr-instruction = <strong>Krok 1:</strong> Skenujće tutón QR-kod z pomocu awtentifikaciskim nałoženjom, na přikład Duo abo Google Authenticator. To nowy zwisk wutworja, stare zwiski njebudu hižo fungować.
 
 ## Two Step Authentication - replace backup authentication code
 
@@ -800,6 +801,12 @@ tfa-create-code-error = Při wutworjenju wašich kodow za zawěsćensku awtentif
 tfa-replace-code-success-alert-4 = Awtentifikaciske kody za zawěsćenje su so zaktualizowali
 # Success message shown after creating backup codes for the first time
 tfa-create-code-success-alert = Awtentifikaciske kody za zawěsćenje su so wutworili
+# Custom messaging for users replacing existing backup codes - Download step (1 of 2)
+# On this step, the codes are not yet replaced in the database - the old codes are still valid until step 2 is completed.
+tfa-replace-code-download-description = Wobchowajće je na městnje, na kotrež so dopominaće. Waše stare kody so wuměnja, po tym zo sće přichodny krok dokónčił.
+# Custom messaging for users replacing existing backup codes - Confirm step (2 of 2)
+# Until this confirmation step is successfully completed, the old codes are still active and the new codes are not saved in the database.
+tfa-replace-code-confirm-description = Zapodajće kod, zo byšće wobkrućił, zo sće swoje kody składował. Waše stare zawěsćenske awtentifikaciske kody so znjemóžnja, hdyž je so tutón krok dokónčił.
 # Error shown when the entered backup code does not match any of the generated codes
 tfa-incorrect-recovery-code-1 = Wopačny kod za zawěsćensku awtentifikaciju
 
