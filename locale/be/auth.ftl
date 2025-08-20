@@ -12,11 +12,26 @@ recovery-phone-setup-sms-body = { $code } — гэта ваш код пацве�
 # Messages should be limited to one segment
 # $code  - 6 digit code used to verify phone ownership when registering a recovery phone
 recovery-phone-setup-sms-short-body = Код пацверджання { -brand-mozilla }: { $code }
+# Message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to sign in with a recovery phone as backup for two-step authentication
+recovery-phone-signin-sms-body = { $code } — гэта ваш код аднаўлення { -brand-mozilla }. Тэрмін дзеяння 5 хвілін.
 # Shorter message sent by SMS with limited character length, please test translation with the messaging segment calculator
 # https://twiliodeved.github.io/message-segment-calculator/
 # Messages should be limited to one segment
 # $code  - 6 digit code used to sign in with a recovery phone as backup for two-step authentication
 recovery-phone-signin-sms-short-body = Код { -brand-mozilla }: { $code }
+# Message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to sign in with a recovery phone as backup for account password reset
+recovery-phone-reset-password-sms-body = { $code } — гэта ваш код аднаўлення { -brand-mozilla }. Тэрмін дзеяння 5 хвілін.
+# Shorter message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to sign in with a recovery phone as backup for account password reset
+recovery-phone-reset-password-short-body = Код { -brand-mozilla }: { $code }
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
@@ -248,6 +263,9 @@ fraudulentAccountDeletion-contact = Калі ў вас ёсць пытанні, 
 fraudulentAccountDeletion-contact-plaintext = Калі ў вас ёсць пытанні, звярніцеся да нашай каманды падтрымкі: { $mozillaSupportUrl }
 inactiveAccountFinalWarning-preview = Увайдзіце ў свой уліковы запіс, каб захаваць яго
 inactiveAccountFirstWarning-action = Увайдзіце ў свой уліковы запіс, каб захаваць яго
+inactiveAccountFirstWarning-preview = Увайдзіце ў свой уліковы запіс, каб захаваць яго
+# followed by link to sign in
+inactiveAccountFirstWarning-action-plaintext = Увайдзіце ў свой уліковы запіс, каб захаваць яго
 inactiveAccountSecondWarning-action = Увайдзіце ў свой уліковы запіс, каб захаваць яго
 inactiveAccountSecondWarning-preview = Увайдзіце ў свой уліковы запіс, каб захаваць яго
 # The user has a low number of valid recovery codes remaining for use
@@ -282,6 +300,8 @@ newDeviceLogin-action = Кіраванне ўліковым запісам
 passwordChanged-subject = Пароль абноўлены
 passwordChanged-title = Пароль паспяхова зменены
 passwordChangeRequired-subject = Выяўлена падазроная актыўнасць
+passwordChangeRequired-preview = Неадкладна змяніце пароль
+passwordChangeRequired-title-2 = Скінуць пароль
 password-forgot-otp-subject = Забылі свой пароль?
 password-forgot-otp-title = Забылі свой пароль?
 password-forgot-otp-request = Мы атрымалі запыт на змену пароля для вашага { -product-mozilla-account } ад:
@@ -302,6 +322,7 @@ postAddAccountRecovery-action = Кіраванне ўліковым запіса
 #  $providerName (String) - The name of the provider, e.g. Apple, Google
 postAddLinkedAccount-title-2 = Уліковы запіс { $providerName } быў звязаны з вашым { -product-mozilla-account }
 postAddLinkedAccount-action = Кіраваць уліковым запісам
+postAddRecoveryPhone-enabled-device = Вы ўключылі яе з:
 postAddRecoveryPhone-action = Кіраванне ўліковым запісам
 postAddTwoStepAuthentication-title-2 = Вы ўключылі двухэтапную аўтэнтыфікацыю
 postAddTwoStepAuthentication-action = Кіраванне ўліковым запісам
