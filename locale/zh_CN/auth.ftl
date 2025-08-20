@@ -470,6 +470,12 @@ postChangeRecoveryPhone-requested-device = 您从下列位置请求：
 postChangeTwoStepAuthentication-preview = 您的账户已受保护
 postChangeTwoStepAuthentication-subject = 两步验证已更新
 postChangeTwoStepAuthentication-title = 两步验证已更新
+postChangeTwoStepAuthentication-use-new-account = 从现在起，您需要在身份验证应用中使用新的 { -product-mozilla-account }项。原有的项将会失效，您可以将其移除。
+# After the colon, there is a description of the device that the user used to enable two-step authentication
+postChangeTwoStepAuthentication-from-device = 您已从以下设备请求：
+postChangeTwoStepAuthentication-action = 管理账户
+postChangeTwoStepAuthentication-how-protects-link = 此举如何保护您的账户
+postChangeTwoStepAuthentication-how-protects-plaintext = 此举如何保护您的账户：
 postConsumeRecoveryCode-title-3 = 您的备用验证码已用于确认密码重设
 # After the colon, there is description of the device that the backup authentication code was used on
 # E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
@@ -715,6 +721,14 @@ subscriptionUpgrade-upgrade-info-2 = 您已成功升级至 { $productName }。
 
 subscriptionUpgrade-content-charge-prorated-1 = 我们已向您一次性收取 { $invoiceAmountDue }，以补足您的订阅在本账单周期（{ $productPaymentCycleOld }）内剩余天数的差额。
 subscriptionUpgrade-content-charge-credit = 您已收到合计 { $paymentProrated } 的账户余额。
+subscriptionUpgrade-content-subscription-next-bill-change = 自下期账单起，您的订阅价格将发生变化。
+subscriptionUpgrade-content-old-price-day = 此前的费用是每天 { $paymentAmountOld }。
+subscriptionUpgrade-content-old-price-week = 此前的费用是每周 { $paymentAmountOld }。
+subscriptionUpgrade-content-old-price-month = 此前的费用是每月 { $paymentAmountOld }。
+subscriptionUpgrade-content-new-price-month-tax = 此后，您将需要月付 { $paymentAmountNew } + 税费 { $paymentTaxNew }（未含折扣）。
+subscriptionUpgrade-content-new-price-halfyear-tax = 此后，您将需要每六个月支付 { $paymentAmountNew } + 税费 { $paymentTaxNew }（未含折扣）。
+subscriptionUpgrade-content-new-price-year-tax = 此后，您将需要年付 { $paymentAmountNew } + 税费 { $paymentTaxNew }（未含折扣）。
+subscriptionUpgrade-content-new-price-default-tax = 此后，您将需要每账单周期支付 { $paymentAmountNew } + 税费 { $paymentTaxNew }（未含折扣）。
 subscriptionUpgrade-existing = 若此次的升级内容与您现有的订阅重合，我们将进行处理，并向您单独发送一封邮件说明详细信息。若您的新方案包含需要安装的产品，我们将向您单独发送一封邮件说明安装方法。
 subscriptionUpgrade-auto-renew = 除非您主动取消订阅，否则将在每个周期周期开始时自动更新订阅并收费。
 unblockCode-subject = 账户授权码

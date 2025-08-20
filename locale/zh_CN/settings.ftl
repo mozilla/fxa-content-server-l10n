@@ -274,6 +274,8 @@ backup-authentication-codes-image-aria-label =
     .aria-label = 显示验证码的设备屏幕
 sync-clouds-image-aria-label =
     .aria-label = 带同步图标的云朵图案
+confetti-falling-image-aria-label =
+    .aria-label = 五彩纸屑飘落动画
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -754,14 +756,33 @@ nav-data-collection = 数据收集与使用
 nav-paid-subs = 付费订阅
 nav-email-comm = 新闻通讯
 
+## Page2faChange
+
+page-2fa-change-title = 更改两步验证
+page-2fa-change-success = 两步验证已更新
+page-2fa-change-totpinfo-error = 替换两步验证应用时出错，请稍后再试。
+page-2fa-change-qr-instruction = <strong>第 1 步：</strong>使用任意一款身份验证应用（例如 Duo 或 Google 身份验证器）扫描此二维码。此操作将创建新的连接，而旧连接将失效。
+
 ## Two Step Authentication - replace backup authentication code
 
+# Page title
+tfa-backup-codes-page-title = 备用验证码
 # Error shown when API call fails while replacing existing backup codes
 tfa-replace-code-error-3 = 更换您的备用验证码时出现问题
 # Error shown when API call fails while creating new backup codes (user had none)
 tfa-create-code-error = 创建备用验证码时出现问题
 # Success message shown in alert bar after successfully replacing existing backup codes
 tfa-replace-code-success-alert-4 = 备用验证码已更新
+# Success message shown after creating backup codes for the first time
+tfa-create-code-success-alert = 已创建备用验证码
+# Custom messaging for users replacing existing backup codes - Download step (1 of 2)
+# On this step, the codes are not yet replaced in the database - the old codes are still valid until step 2 is completed.
+tfa-replace-code-download-description = 请将这些验证码保存在您不会遗忘的地方。完成下一步骤后，您原有的验证码将被替代。
+# Custom messaging for users replacing existing backup codes - Confirm step (2 of 2)
+# Until this confirmation step is successfully completed, the old codes are still active and the new codes are not saved in the database.
+tfa-replace-code-confirm-description = 请输入任意一个验证码，以确认您已保存验证码。完成此步骤后，您原有的备用验证码将无法再使用。
+# Error shown when the entered backup code does not match any of the generated codes
+tfa-incorrect-recovery-code-1 = 备份验证码不正确
 
 ## Page2faSetup
 
@@ -1153,6 +1174,7 @@ tfa-row-enabled = 已启用
 tfa-row-disabled-status = 已禁用
 tfa-row-action-add = 添加
 tfa-row-action-disable = 禁用
+tfa-row-action-change = 更改
 tfa-row-button-refresh =
     .title = 刷新两步验证状态
 tfa-row-cannot-refresh = 抱歉，刷新两步验证状态时出现问题。
