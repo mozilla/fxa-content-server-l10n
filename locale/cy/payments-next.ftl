@@ -61,7 +61,7 @@ intent-payment-error-get-in-touch = Hmm. Bu anhawster wrth  awdurdodi'ch taliad.
 intent-payment-error-generic = Mae gwall annisgwyl wedi digwydd wrth brosesu'ch taliad, ceisiwch eto.
 intent-payment-error-insufficient-funds = Mae'n edrych fel nad oes gan eich cerdyn ddigon o arian wrth gefn. Rhowch gynnig ar gerdyn arall.
 general-paypal-error = Mae gwall annisgwyl wedi digwydd wrth brosesu'ch taliad, ceisiwch eto.
-paypal-active-subscription-no-billing-agreement-error = Mae'n debyg bod problem wrth bilio'ch cyfrif { -brand-paypal }. Ail-alluogi taliadau awtomatig ar gyfer eich tanysgrifiad.
+paypal-active-subscription-no-billing-agreement-error = Mae'n debyg bod problem wrth bilio'ch cyfrif { -brand-paypal }. Ail-alluogwch daliadau awtomatig ar gyfer eich tanysgrifiad.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -99,7 +99,7 @@ subscription-management-account-profile-picture = Llun proffil cyfrif
 ## Page - Subscription Management
 
 subscription-management-account-credit-balance-heading = Balans credyd cyfrif
-subscription-management-account-credit-balance-message = Bydd credyd yn cael ei gymhwyso'n awtomatig tuag at anfonebau yn y dyfodol
+subscription-management-account-credit-balance-message = Bydd credyd yn cael ei osod yn awtomatig tuag at anfonebau yn y dyfodol
 subscription-management-payment-information-heading = Manylion Talu
 subscription-management-button-add-payment-method-aria = Ychwanegu dull talu
 subscription-management-button-add-payment-method = Ychwanegu
@@ -130,7 +130,7 @@ subscription-management-button-manage-subscription = Rheoli
 subscription-management-page-subscription-interval-daily = { $productName } (dyddiol)
 subscription-management-page-subscription-interval-weekly = { $productName } (wythnosol)
 subscription-management-page-subscription-interval-monthly = { $productName } (misol)
-subscription-management-page-subscription-interval-halfyearly = { $productName } (6-mis)
+subscription-management-page-subscription-interval-halfyearly = { $productName } (6-misol)
 subscription-management-page-subscription-interval-yearly = { $productName } (blynyddol)
 # Page - Not Found
 page-not-found-title = Heb ganfod y dudalen
@@ -203,10 +203,10 @@ payments-client-loading-spinner =
 ## Payment method management page - Stripe
 
 # Save button for changing which payment method will be used
-payment-method-management-save-default = Gosod fel dull talu diofyn
+payment-method-management-save-default = Gosod fel dull talu rhagosodedig
 # Save button for saving a new payment method
-payment-method-management-save-method = Arbed dull talu
-manage-stripe-payments-title = Rheoli dulliau talu
+payment-method-management-save-method = Cadw'r dull talu
+manage-stripe-payments-title = Rheoli'r dulliau talu
 
 ## Payment Section
 
@@ -276,8 +276,8 @@ next-new-user-subscribe-product-assurance = Dim ond i greu eich cyfrif rydym yn 
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
-subscription-content-promotion-applied-no-tax = Cwpon { $promotionName } wedi'i gymhwyso: { $invoiceTotal }
-subscription-content-promotion-applied-with-tax = Cwpon { $promotionName } wedi'i gymhwyso: { $invoiceTotal } + { $taxDue } treth
+subscription-content-promotion-applied-no-tax = Cwpon { $promotionName } wedi'i osod: { $invoiceTotal }
+subscription-content-promotion-applied-with-tax = Cwpon { $promotionName } wedi'i osod: { $invoiceTotal } + { $taxDue } treth
 subscription-content-current-with-tax = { $invoiceTotal } + { $taxDue } treth
 subscription-content-next-bill-no-tax = Mae bil nesaf o { $invoiceTotal } yn ddyledus { $nextBillDate }
 subscription-content-next-bill-with-tax = Mae bil nesaf o { $invoiceTotal } + { $taxDue } o dreth yn ddyledus { $nextBillDate }
