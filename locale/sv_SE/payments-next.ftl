@@ -289,6 +289,7 @@ subscription-content-button-cancel-subscription = Avbryt prenumeration
     .aria-label = Avbryt prenumeration på { $productName }
 subscription-content-button-cancel = Avbryt
     .aria-label = Avbryt din prenumeration på { $productName }
+dialog-close = Stäng dialogrutan
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
