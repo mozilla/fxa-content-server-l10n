@@ -468,6 +468,13 @@ postChangeRecoveryPhone-preview = Mba’ete oñemo’ãva ñemoneĩ mokõi jeku�
 postChangeRecoveryPhone-title = Emoambue pumbyry jeguerujeyrã
 postChangeRecoveryPhone-description = Eguerekóma pumbyry guerujeyrã pyahu. Oguetéma pe pumbyry papapy.
 postChangeRecoveryPhone-requested-device = Ejerure upe guive:
+postChangeTwoStepAuthentication-preview = Ne mba’ete oñemo’ãma
+postChangeTwoStepAuthentication-subject = Ndoikói ñemoneĩ mokõi jeku’egua
+# After the colon, there is a description of the device that the user used to enable two-step authentication
+postChangeTwoStepAuthentication-from-device = Nde ejerure kóva chupe:
+postChangeTwoStepAuthentication-action = Mba’ete ñangareko
+postChangeTwoStepAuthentication-how-protects-link = Mba’éicha omo’ãta ne mba’ete
+postChangeTwoStepAuthentication-how-protects-plaintext = Mba’éicha omo’ãta ne mba’ete:
 postConsumeRecoveryCode-title-3 = Nde ayvu ñemoneĩrã jeykekoha ojeporu oñemoneĩ hag̃ua ñe’ẽñemi moĩporãrã
 # After the colon, there is description of the device that the backup authentication code was used on
 # E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
