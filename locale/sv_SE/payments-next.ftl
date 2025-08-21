@@ -289,6 +289,15 @@ subscription-content-button-cancel-subscription = Avbryt prenumeration
     .aria-label = Avbryt prenumeration på { $productName }
 subscription-content-button-cancel = Avbryt
     .aria-label = Avbryt din prenumeration på { $productName }
+subscription-content-button-resubscribe = Prenumerera igen
+    .aria-label = Prenumerera på { $productName } igen
+# $date (Date) - Last day of product access
+subscription-content-resubscribe = Du förlorar åtkomsten till { $name } den <strong>{ $date }</strong>.
+resubscribe-dialog-title = Vill du fortsätta använda { $name }?
+resubscribe-dialog-content = Din åtkomst till { $name } fortsätter, och din faktureringscykel och betalningscykel förblir desamma. Din nästa debitering blir { $amount } den { $endDate }.
+resubscribe-dialog-action-button = Behåll din prenumeration
+resubscribe-success-dialog-title = Tack! Du är klar.
+resubscribe-success-dialog-action-button = Stäng
 dialog-close = Stäng dialogrutan
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
