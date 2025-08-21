@@ -262,7 +262,14 @@ next-new-user-subscribe-product-assurance = Roiporu ne ñanduti veve romoheñói
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
+subscription-content-current-with-tax = { $invoiceTotal } + { $taxDue } impuesto
 subscription-content-heading-cancel-subscription = Mboheraguapy jeheja
+subscription-content-button-resubscribe = Eñemboheraguapyjey
+    .aria-label = Eñemboheraguapyjey { $productName }-pe
+resubscribe-dialog-action-button = Mboheraguapy guereko
+resubscribe-success-dialog-title = ¡Aguyjevete! Oĩmbaitéma.
+resubscribe-success-dialog-action-button = Emboty
+dialog-close = Emboty ñomongeta
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.

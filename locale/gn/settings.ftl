@@ -157,6 +157,7 @@ form-password-with-inline-criteria-set-password-new-password-label =
     .label = Ñe’ẽñemi
 form-password-with-inline-criteria-set-password-confirm-password-label =
     .label = Emoingejey ñe’ẽñemi
+form-password-with-inline-criteria-set-password-submit-button = Eñepyrũ embojuehe
 form-password-with-inline-criteria-match-error = Ko’ã ñe’ẽñemi ndojojoguái
 form-password-with-inline-criteria-sr-too-short-message = Pe ñe’ẽñemi oguerekova’erã michĩ’vérõ 8 tai.
 form-password-with-inline-criteria-sr-not-email-message = Pe ñe’ẽñemi ani oreko ne ñanduti veve kundaharape.
@@ -659,6 +660,7 @@ flow-setup-2fa-backup-code-dl-button-continue = Ku’ejey
 
 ##
 
+flow-setup-2fa-inline-complete-backup-phone = Pumbyry guerujeyrã
 flow-setup-2fa-prompt-continue-button = Ku’ejey
 
 ## FlowSetupPhoneConfirmCode
@@ -1150,6 +1152,7 @@ tfa-row-enabled = Myandypyre
 tfa-row-disabled-status = Pe’apyre
 tfa-row-action-add = Mbojuaju
 tfa-row-action-disable = Pe’a
+tfa-row-action-change = Moambue
 tfa-row-button-refresh =
     .title = Embopyahu ñemoneĩ mokõi jeku’egua
 tfa-row-cannot-refresh =
