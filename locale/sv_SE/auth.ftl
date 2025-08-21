@@ -472,6 +472,15 @@ postChangeRecoveryPhone-preview = Kontot skyddas av tvåstegsautentisering
 postChangeRecoveryPhone-title = Du har bytt återställningstelefon
 postChangeRecoveryPhone-description = Du har nu en ny återställningstelefon. Ditt tidigare telefonnummer raderades.
 postChangeRecoveryPhone-requested-device = Du har begärt det från:
+postChangeTwoStepAuthentication-preview = Ditt konto är skyddat
+postChangeTwoStepAuthentication-subject = Tvåstegsautentisering uppdaterad
+postChangeTwoStepAuthentication-title = Tvåstegsautentisering har uppdaterats
+postChangeTwoStepAuthentication-use-new-account = Du måste nu använda den nya posten { -product-mozilla-account } i din autentiseringsapp. Den äldre kommer inte längre att fungera och du kan ta bort den.
+# After the colon, there is a description of the device that the user used to enable two-step authentication
+postChangeTwoStepAuthentication-from-device = Du begärde detta från:
+postChangeTwoStepAuthentication-action = Hantera konto
+postChangeTwoStepAuthentication-how-protects-link = Hur detta skyddar ditt konto
+postChangeTwoStepAuthentication-how-protects-plaintext = Hur detta skyddar ditt konto:
 postConsumeRecoveryCode-title-3 = Din reservautentiseringskod användes för att bekräfta en lösenordsåterställning
 # After the colon, there is description of the device that the backup authentication code was used on
 # E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
@@ -717,6 +726,10 @@ subscriptionUpgrade-upgrade-info-2 = Du har uppgraderat till { $productName }.
 
 subscriptionUpgrade-content-charge-prorated-1 = Du har debiterats en engångsavgift på { $invoiceAmountDue } för att återspegla ditt abonnemangs högre pris för resten av denna faktureringsperiod ({ $productPaymentCycleOld }).
 subscriptionUpgrade-content-charge-credit = Du har fått en kredit på beloppet { $paymentProrated }.
+subscriptionUpgrade-content-subscription-next-bill-change = Från och med din nästa faktura kommer priset på din prenumeration att ändras.
+subscriptionUpgrade-content-old-price-day = Den tidigare avgiften var { $paymentAmountOld } per dag.
+subscriptionUpgrade-content-old-price-week = Den tidigare avgiften var { $paymentAmountOld } per vecka.
+subscriptionUpgrade-content-old-price-month = Den tidigare avgiften var { $paymentAmountOld } per månad.
 subscriptionUpgrade-existing = Om några av dina befintliga prenumerationer överlappar denna uppgradering, hanterar vi dem och skickar ett separat mejl med detaljerna. Om din nya plan innehåller produkter som kräver installation, skickar vi ett separat e-postmeddelande med installationsinstruktioner.
 subscriptionUpgrade-auto-renew = Din prenumeration förnyas automatiskt varje faktureringsperiod om du inte väljer att avbryta.
 unblockCode-subject = Behörighetskod för konto
