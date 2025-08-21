@@ -301,6 +301,13 @@ subscription-cancellation-dialog-msg = თქვენ მიერ გამო
 subscription-cancellation-dialog-aside = კითხვები გაქვთ? იხილეთ <LinkExternal>{ -brand-mozilla } – მხარდაჭერა</LinkExternal>.
 subscription-content-button-resubscribe = ხელახლა გამოწერა
     .aria-label = ახლიდან გამოიწერეთ { $productName }
+# $date (Date) - Last day of product access
+subscription-content-resubscribe = თქვენ ვეღარ შეძლებთ გამოიყენოთ { $name } თარიღიდან <strong>{ $date }</strong>.
+resubscribe-dialog-title = გსურთ კვლავ გამოიყენოთ { $name }?
+resubscribe-dialog-content = კვლავ შეგიძლიათ { $name } გამოიყენოთ, თქვენი საანგარიშო პერიოდი და გადახდები დარჩება იგივე. მომდევნო გადახდისას ჩამოიჭრება { $amount } თარიღზე { $endDate }.
+resubscribe-dialog-action-button = შეინარჩუნეთ გამოწერა
+resubscribe-success-dialog-title = გმადლობთ! ყველაფერი მზადაა.
+resubscribe-success-dialog-action-button = დახურვა
 dialog-close = სარკმლის დახურვა
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
