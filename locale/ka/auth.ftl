@@ -472,6 +472,15 @@ postChangeRecoveryPhone-preview = ანგარიში დაცულია
 postChangeRecoveryPhone-title = თქვენ შეცვალეთ აღდგენის ტელეფონი
 postChangeRecoveryPhone-description = თქვენ უკვე გაქვთ მითითებული აღდგენის ახალი ტელეფონი. წინა ტელეფონი წაშლილია.
 postChangeRecoveryPhone-requested-device = მოთხოვნა იყო აქედან:
+postChangeTwoStepAuthentication-preview = თქვენი ანგარიში დაცულია
+postChangeTwoStepAuthentication-subject = ორბიჯიანი დამოწმება განახლდა
+postChangeTwoStepAuthentication-title = ორბიჯიანი დამოწმება განახლებულია
+postChangeTwoStepAuthentication-use-new-account = ახლა კი საჭიროა, ახლიდან ჩაემატოს { -product-mozilla-account } თქვენს დამმოწმებელ პროგრამაში. ძველი აღარ იმუშავებს და შეგიძლიათ მოაცილოთ.
+# After the colon, there is a description of the device that the user used to enable two-step authentication
+postChangeTwoStepAuthentication-from-device = თქვენი მოთხოვნის წყარო იყო:
+postChangeTwoStepAuthentication-action = ანგარიშის მართვა
+postChangeTwoStepAuthentication-how-protects-link = როგორ იცავს ეს თქვენს ანგარიშს
+postChangeTwoStepAuthentication-how-protects-plaintext = როგორ იცავს ეს თქვენს ანგარიშს:
 postConsumeRecoveryCode-title-3 = თქვენი სამარქაფო კოდია გამოყენებული პაროლის გასანულებლად
 # After the colon, there is description of the device that the backup authentication code was used on
 # E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
