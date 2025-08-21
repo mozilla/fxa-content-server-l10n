@@ -289,6 +289,12 @@ subscription-content-button-cancel-subscription = Avbryt prenumeration
     .aria-label = Avbryt prenumeration på { $productName }
 subscription-content-button-cancel = Avbryt
     .aria-label = Avbryt din prenumeration på { $productName }
+subscription-content-cancel-action-error = Ett oväntat fel uppstod. Försök igen.
+subscription-cancellation-dialog-title = Vi tycker det är tråkigt att du lämnar oss
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+subscription-cancellation-dialog-msg = Din prenumeration på { $name } har avbrutits. Du har fortfarande åtkomst till { $name } tills { $date }.
+subscription-cancellation-dialog-aside = Har du frågor? Besök <LinkExternal>{ -brand-mozilla } Support</LinkExternal>.
 subscription-content-button-resubscribe = Prenumerera igen
     .aria-label = Prenumerera på { $productName } igen
 # $date (Date) - Last day of product access

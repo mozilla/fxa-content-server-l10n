@@ -793,6 +793,14 @@ tfa-create-code-error = Det gick inte att skapa dina reservautentiseringskoder
 tfa-replace-code-success-alert-4 = Reservautentiseringskoder uppdaterade
 # Success message shown after creating backup codes for the first time
 tfa-create-code-success-alert = Reservautentiseringskoder har skapats
+# Custom messaging for users replacing existing backup codes - Download step (1 of 2)
+# On this step, the codes are not yet replaced in the database - the old codes are still valid until step 2 is completed.
+tfa-replace-code-download-description = Förvara dessa på en plats du kommer ihåg. Dina gamla koder kommer att ersättas när du är klar med nästa steg.
+# Custom messaging for users replacing existing backup codes - Confirm step (2 of 2)
+# Until this confirmation step is successfully completed, the old codes are still active and the new codes are not saved in the database.
+tfa-replace-code-confirm-description = Bekräfta att du sparat dina koder genom att ange en. Dina gamla reservautentiseringskoder kommer att inaktiveras när detta steg är slutfört.
+# Error shown when the entered backup code does not match any of the generated codes
+tfa-incorrect-recovery-code-1 = Felaktig reservautentiseringskod
 
 ## Page2faSetup
 
@@ -1194,6 +1202,7 @@ tfa-row-enabled = Aktiverad
 tfa-row-disabled-status = Inaktiverad
 tfa-row-action-add = Lägg till
 tfa-row-action-disable = Inaktivera
+tfa-row-action-change = Ändra
 tfa-row-button-refresh =
     .title = Uppdatera tvåstegsautentisering
 tfa-row-cannot-refresh =
