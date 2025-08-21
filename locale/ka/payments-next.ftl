@@ -299,6 +299,8 @@ subscription-cancellation-dialog-title = სამწუხაროა, რო�
 # $date (Date) - Last day of product access
 subscription-cancellation-dialog-msg = თქვენ მიერ გამოწერილი { $name } გაუქმებულია. ჯერ კიდევ შეგიძლიათ გამოიყენოთ { $name } თარიღამდე { $date }.
 subscription-cancellation-dialog-aside = კითხვები გაქვთ? იხილეთ <LinkExternal>{ -brand-mozilla } – მხარდაჭერა</LinkExternal>.
+subscription-content-button-resubscribe = ხელახლა გამოწერა
+    .aria-label = ახლიდან გამოიწერეთ { $productName }
 dialog-close = სარკმლის დახურვა
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
