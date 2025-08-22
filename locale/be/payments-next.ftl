@@ -3,6 +3,10 @@
 next-payment-method-header = Выберыце спосаб аплаты
 next-payment-method-first-approve = Спачатку вам трэба будзе зацвердзіць вашу падпіску
 
+## Authentication Error page
+
+checkout-error-boundary-retry-button = Паспрабаваць зноў
+
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages
 
