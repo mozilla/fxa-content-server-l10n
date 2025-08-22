@@ -750,6 +750,7 @@ subscriptionUpgrade-content-new-price-week-tax = Från och med nu kommer du att 
 subscriptionUpgrade-content-new-price-month-tax = Från och med nu kommer du att debiteras { $paymentAmountNew } + { $paymentTaxNew } moms per månad, exklusive rabatter.
 subscriptionUpgrade-content-new-price-halfyear-tax = Från och med nu kommer du att debiteras { $paymentAmountNew } + { $paymentTaxNew } moms per halvår, exklusive rabatter.
 subscriptionUpgrade-content-new-price-year-tax = Från och med nu kommer du att debiteras { $paymentAmountNew } + { $paymentTaxNew } moms per år, exklusive rabatter.
+subscriptionUpgrade-content-new-price-default-tax = Från och med nu kommer du att debiteras { $paymentAmountNew } + { $paymentTaxNew } moms per faktureringsintervall, exklusive rabatter.
 subscriptionUpgrade-existing = Om några av dina befintliga prenumerationer överlappar denna uppgradering, hanterar vi dem och skickar ett separat mejl med detaljerna. Om din nya plan innehåller produkter som kräver installation, skickar vi ett separat e-postmeddelande med installationsinstruktioner.
 subscriptionUpgrade-auto-renew = Din prenumeration förnyas automatiskt varje faktureringsperiod om du inte väljer att avbryta.
 unblockCode-subject = Behörighetskod för konto

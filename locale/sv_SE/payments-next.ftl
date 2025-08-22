@@ -61,6 +61,7 @@ intent-payment-error-get-in-touch = Hmm. Det gick inte att godkänna din betalni
 intent-payment-error-generic = Ett oväntat fel har uppstått vid bearbetningen av din betalning. Försök igen.
 intent-payment-error-insufficient-funds = Det ser ut som att ditt kort inte har tillräckligt med pengar. Prova med ett annat kort.
 general-paypal-error = Ett oväntat fel har uppstått vid bearbetningen av din betalning. Försök igen.
+paypal-active-subscription-no-billing-agreement-error = Det ser ut som att det uppstod ett problem med faktureringen av ditt { -brand-paypal }-konto. Återaktivera automatiska betalningar för din prenumeration.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -144,6 +145,8 @@ subscription-management-breadcrumb-account-home = Startsida för konton
 subscription-management-breadcrumb-subscriptions = Prenumerationer
 # Link title - Payment method management
 subscription-management-breadcrumb-payment = Betalningsmetoder
+# $page refers to page titles used in the breadcrumb menu (e.g. Account Home, Subscriptions, Payment Methods)
+subscription-management-breadcrumb-back-aria = Gå tillbaka till { $page }
 
 ## Component - Payment Consent Checkbox
 
