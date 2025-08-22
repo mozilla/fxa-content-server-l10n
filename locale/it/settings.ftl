@@ -287,7 +287,7 @@ backup-authentication-codes-image-aria-label =
 sync-clouds-image-aria-label =
     .aria-label = Nuvole con un’icona che rappresenta la sincronizzazione
 confetti-falling-image-aria-label =
-    .aria-label = Coriandoli animati che cadono
+    .aria-label = Animazione con coriandoli che cadono
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -775,7 +775,7 @@ nav-email-comm = Comunicazioni via email
 page-2fa-change-title = Modifica l’autenticazione in due passaggi
 page-2fa-change-success = L’autenticazione in due passaggi è stata aggiornata
 page-2fa-change-totpinfo-error = Si è verificato un errore durante la sostituzione dell’app per l’autenticazione in due passaggi. Riprova più tardi.
-page-2fa-change-qr-instruction = <strong>Passaggio 1:</strong> scansiona questo codice QR utilizzando qualsiasi app di autenticazione, come Duo o Google Authenticator. Questo crea una nuova connessione, tutte le vecchie connessioni non funzioneranno più.
+page-2fa-change-qr-instruction = <strong>Passaggio 1:</strong> scansiona questo codice QR utilizzando un’app di autenticazione, come Duo o Google Authenticator. Questa operazione crea una nuova connessione; tutte le connessioni esistenti smetteranno di funzionare.
 
 ## Two Step Authentication - replace backup authentication code
 
@@ -788,10 +788,10 @@ tfa-create-code-error = Si è verificato un problema durante la generazione dei 
 # Success message shown in alert bar after successfully replacing existing backup codes
 tfa-replace-code-success-alert-4 = Codici di autenticazione di backup aggiornati
 # Success message shown after creating backup codes for the first time
-tfa-create-code-success-alert = Codici di autenticazione di backup creati
+tfa-create-code-success-alert = Codici di autenticazione di backup generati
 # Custom messaging for users replacing existing backup codes - Download step (1 of 2)
 # On this step, the codes are not yet replaced in the database - the old codes are still valid until step 2 is completed.
-tfa-replace-code-download-description = Conservali in un posto che ricorderai. I vecchi codici verranno sostituiti al termine del passaggio successivo.
+tfa-replace-code-download-description = Conservali in un posto facile da ricordare. I codici esistenti verranno sostituiti al termine del passaggio successivo.
 # Custom messaging for users replacing existing backup codes - Confirm step (2 of 2)
 # Until this confirmation step is successfully completed, the old codes are still active and the new codes are not saved in the database.
 tfa-replace-code-confirm-description = Conferma di aver salvato i codici inserendone uno. I vecchi codici di autenticazione di backup verranno disattivati al termine di questo passaggio.
