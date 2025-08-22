@@ -141,6 +141,9 @@ subscription-management-breadcrumb-subscriptions = Subscriptions
 # Link title - Payment method management
 subscription-management-breadcrumb-payment = Payment Methods
 
+# $page refers to page titles used in the breadcrumb menu (e.g. Account Home, Subscriptions, Payment Methods)
+subscription-management-breadcrumb-back-aria = Go back to { $page }
+
 ## Component - Payment Consent Checkbox
 
 next-payment-confirm-with-legal-links-static-3 = I authorize { -brand-mozilla } to charge my payment method for the amount shown, according to <termsOfServiceLink>Terms of Service</termsOfServiceLink> and <privacyNoticeLink>Privacy Notice</privacyNoticeLink>, until I cancel my subscription.

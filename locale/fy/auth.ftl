@@ -708,6 +708,8 @@ subscriptionUpgrade-upgrade-info-2 = Jo hawwe mei sukses opwurdearre nei { $prod
 ## Variables:
 ## $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
 ## $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
+## $paymentTaxOld (String) - The tax amount of the previous subscription payment, including currency, e.g. $1.00
+## $paymentTaxNew (String) - The tax amount of the new subscription payment, including currency, e.g. $1.00
 ## $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
 ## $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 ## $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
@@ -715,9 +717,6 @@ subscriptionUpgrade-upgrade-info-2 = Jo hawwe mei sukses opwurdearre nei { $prod
 
 subscriptionUpgrade-content-charge-prorated-1 = Der is ien kear in fergoeding fan { $invoiceAmountDue } yn rekkening brocht om de hegere priis fan jo abonnemint foar de rest fan dizze fakturearingsperioade ({ $productPaymentCycleOld }) wer te jaan.
 subscriptionUpgrade-content-charge-credit = Jo hawwe in accounttegoed ûntfongen foar in bedrach fan { $paymentProrated }.
-subscriptionUpgrade-content-starting = Fan jo folgjende faktuer ôf wizigje jo kosten fan { $paymentAmountOld } per { $productPaymentCycleOld } nei { $paymentAmountNew } per { $productPaymentCycleNew }.
-# Variables:
-# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-existing = As ien fan jo besteande abonneminten oerlaapje mei dizze opwurdearring, sille wy se behannelje en jo in aparte e-mailberjocht stjoere mei de details. As jo nije plan produkten omfettet dy’t ynstallaasje fereaskje, sille wy jo in apart e-mailberjocht stjoere mei ynstallaasje-ynstruksjes.
 subscriptionUpgrade-auto-renew = Jo abonnemint wurdt automatysk elke fakturearringsperioade ferlinge, útsein jo derfoar kieze om op te sizzen.
 unblockCode-subject = Accountautorisaasjekoade

@@ -774,20 +774,14 @@ nav-email-comm = E-postkommunikation
 
 ## Two Step Authentication - replace backup authentication code
 
+# Error shown when API call fails while replacing existing backup codes
 tfa-replace-code-error-3 = Det uppstod ett problem med att ersätta dina reservautentiseringskoder
+# Error shown when API call fails while creating new backup codes (user had none)
 tfa-create-code-error = Det gick inte att skapa dina reservautentiseringskoder
-tfa-replace-code-success-1 =
-    Nya koder har skapats. Spara dessa reservautentiseringskoder
-    för engångsbruk på ett säkert ställe — du behöver dem för att komma åt
-    ditt konto om du inte har din mobila enhet.
+# Success message shown in alert bar after successfully replacing existing backup codes
 tfa-replace-code-success-alert-4 = Reservautentiseringskoder uppdaterade
-tfa-replace-code-1-2 = Steg 1 av 2
-tfa-replace-code-2-2 = Steg 2 av 2
-tfa-enter-code-to-confirm-v2 =
-    Ange en av dina nya reservautentiseringskoder för att
-    bekräfta att du har sparat dem. Dina gamla reservautentiseringskoder kommer att inaktiveras när detta steg är slutfört.
 
-## PageSetupRecoveryPhone
+## Page2faSetup
 
 page-2fa-setup-title = Tvåstegsautentisering
 page-2fa-setup-totpinfo-error = Det uppstod ett fel vid inställningen av tvåstegsautentisering. Försök igen senare.

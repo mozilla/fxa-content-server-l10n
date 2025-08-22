@@ -470,6 +470,15 @@ postChangeRecoveryPhone-preview = Conta protegida por autenticação de dois pas
 postChangeRecoveryPhone-title = Você alterou o seu telefone de recuperação
 postChangeRecoveryPhone-description = Tem agora um novo telefone de recuperação. O seu número de telefone anterior foi eliminado.
 postChangeRecoveryPhone-requested-device = Solicitado de:
+postChangeTwoStepAuthentication-preview = A sua conta está protegida
+postChangeTwoStepAuthentication-subject = Autenticação de dois passos atualizada
+postChangeTwoStepAuthentication-title = A autenticação de dois passos foi atualizada
+postChangeTwoStepAuthentication-use-new-account = Agora precisa de utilizar a nova entrada { -product-mozilla-account } na sua aplicação de autenticação. O mais antigo deixará de funcionar e pode removê-lo.
+# After the colon, there is a description of the device that the user used to enable two-step authentication
+postChangeTwoStepAuthentication-from-device = Pediu isto de:
+postChangeTwoStepAuthentication-action = Gerir conta
+postChangeTwoStepAuthentication-how-protects-link = Como isto protege a sua conta
+postChangeTwoStepAuthentication-how-protects-plaintext = Como isto protege a sua conta:
 postConsumeRecoveryCode-title-3 = O seu código de autenticação de recuperação foi utilizado para confirmar uma redefinição da palavra-passe
 # After the colon, there is description of the device that the backup authentication code was used on
 # E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
@@ -706,6 +715,8 @@ subscriptionUpgrade-upgrade-info-2 = Atualizou com sucesso para { $productName }
 ## Variables:
 ## $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
 ## $paymentAmountNew (String) - The amount of the new subscription payment, including currency, e.g. $10.00
+## $paymentTaxOld (String) - The tax amount of the previous subscription payment, including currency, e.g. $1.00
+## $paymentTaxNew (String) - The tax amount of the new subscription payment, including currency, e.g. $1.00
 ## $productPaymentCycleNew (String) - The interval of time from the end of one payment statement date to the next payment statement date of the new subscription, e.g. month
 ## $productPaymentCycleOld (String) - The interval of time from the end of one payment statement date to the next payment statement date of the old subscription, e.g. month
 ## $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
@@ -713,9 +724,31 @@ subscriptionUpgrade-upgrade-info-2 = Atualizou com sucesso para { $productName }
 
 subscriptionUpgrade-content-charge-prorated-1 = Foi cobrado uma taxa única de { $invoiceAmountDue } para refletir o preço mais alto da sua subscrição para o remanescente deste período de faturação ({ $productPaymentCycleOld }).
 subscriptionUpgrade-content-charge-credit = Recebeu um crédito em conta no valor de { $paymentProrated }.
-subscriptionUpgrade-content-starting = A partir da sua próxima fatura, a cobrança será alterada de { $paymentAmountOld } por { $productPaymentCycleOld } para { $paymentAmountNew } por { $productPaymentCycleNew }.
-# Variables:
-# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-content-subscription-next-bill-change = A partir da sua próxima fatura, o preço da sua subscrição irá mudar.
+subscriptionUpgrade-content-old-price-day = A taxa anterior era de { $paymentAmountOld } por dia.
+subscriptionUpgrade-content-old-price-week = A taxa anterior era de { $paymentAmountOld } por semana.
+subscriptionUpgrade-content-old-price-month = A taxa anterior era de { $paymentAmountOld } por mês.
+subscriptionUpgrade-content-old-price-halfyear = A taxa anterior era de { $paymentAmountOld } por semestre.
+subscriptionUpgrade-content-old-price-year = A taxa anterior era de { $paymentAmountOld } por ano.
+subscriptionUpgrade-content-old-price-default = A taxa anterior era de { $paymentAmountOld } por intervalo de faturação.
+subscriptionUpgrade-content-old-price-day-tax = A taxa anterior era de { $paymentAmountOld } + { $paymentTaxOld } de impostos por dia.
+subscriptionUpgrade-content-old-price-week-tax = A taxa anterior era de { $paymentAmountOld } + { $paymentTaxOld } impostos por semana.
+subscriptionUpgrade-content-old-price-month-tax = A taxa anterior era de { $paymentAmountOld } + { $paymentTaxOld } impostos por mês.
+subscriptionUpgrade-content-old-price-halfyear-tax = A taxa anterior era de { $paymentAmountOld } + { $paymentTaxOld } impostos por semestre.
+subscriptionUpgrade-content-old-price-year-tax = A taxa anterior era de { $paymentAmountOld } + { $paymentTaxOld } impostos por ano.
+subscriptionUpgrade-content-old-price-default-tax = A taxa anterior era de { $paymentAmountOld } + { $paymentTaxOld } impostos por intervalo de faturação.
+subscriptionUpgrade-content-new-price-day = A partir de agora, será cobrado um débito de { $paymentAmountNew } por dia, excluindo cupões.
+subscriptionUpgrade-content-new-price-week = A partir de agora, irá ser cobrado { $paymentAmountNew } por semana, excluindo cupões.
+subscriptionUpgrade-content-new-price-month = A partir de agora, irá ser cobrado { $paymentAmountNew } por mês, excluindo cupões.
+subscriptionUpgrade-content-new-price-halfyear = A partir de agora, será cobrado { $paymentAmountNew } a cada seis meses, excluindo cupões.
+subscriptionUpgrade-content-new-price-year = A partir de agora, será cobrado { $paymentAmountNew } por ano, excluindo cupões.
+subscriptionUpgrade-content-new-price-default = A partir de agora, serão cobrados { $paymentAmountNew } por intervalo de faturação, excluindo extras.
+subscriptionUpgrade-content-new-price-day-dtax = A partir de agora, ser-lhe-a debitado { $paymentAmountNew } + { $paymentTaxNew } de impostos por dia, excluindo cupões.
+subscriptionUpgrade-content-new-price-week-tax = A partir de agora, ser-lhe-a debitado { $paymentAmountNew } + { $paymentTaxNew } de impostos por semana, excluindo extras.
+subscriptionUpgrade-content-new-price-month-tax = A partir de agora, ser-lhe-a debitado { $paymentAmountNew } + { $paymentTaxNew } impostos por mês, excluindo cupões.
+subscriptionUpgrade-content-new-price-halfyear-tax = A partir de agora, ser-lhe-a debitado { $paymentAmountNew } + { $paymentTaxNew } de impostos por seis meses, excluindo extras.
+subscriptionUpgrade-content-new-price-year-tax = A partir de agora, ser-lhe-a debitado { $paymentAmountNew } + { $paymentTaxNew } de impostos por ano, excluindo extras.
+subscriptionUpgrade-content-new-price-default-tax = A partir de agora, serão cobrados { $paymentAmountNew } + { $paymentTaxNew } de impostos por intervalo de faturação, excluindo extras.
 subscriptionUpgrade-existing = Se alguma das suas subscrições existentes se sobrepor a esta atualização, iremos gerir a mesma e enviar-lhe um e-mail separado com os detalhes. Se o seu novo plano incluir produtos que requeiram instalação, iremos enviar-lhe um e-mail separado com as instruções de configuração.
 subscriptionUpgrade-auto-renew = As sua subscrição irá ser renovada automaticamente em cada período de faturação, a menos que opte por cancelar.
 unblockCode-subject = Código de autorização da conta
