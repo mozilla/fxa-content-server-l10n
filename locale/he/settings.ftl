@@ -270,6 +270,8 @@ backup-authentication-codes-image-aria-label =
     .aria-label = מסך מכשיר עם קודים
 sync-clouds-image-aria-label =
     .aria-label = עננים עם סמל של סנכרון
+confetti-falling-image-aria-label =
+    .aria-label = קונפטי נופל מונפש
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key

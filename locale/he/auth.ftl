@@ -688,6 +688,7 @@ subscriptionUpgrade-upgrade-info-2 = שודרגת בהצלחה ל־{ $productNam
 
 subscriptionUpgrade-content-charge-prorated-1 = חויבת בתשלום חד פעמי בסך { $invoiceAmountDue } כדי לשקף את המחיר הגבוה יותר של המינוי שלך למשך שארית תקופת החיוב הזו ({ $productPaymentCycleOld }).
 subscriptionUpgrade-content-charge-credit = קיבלת זיכוי בחשבון שלך בסכום של { $paymentProrated }.
+subscriptionUpgrade-content-subscription-next-bill-change = החל מהחשבון הבא שלך, מחיר המינוי שלך ישתנה.
 subscriptionUpgrade-content-old-price-day = התעריף הקודם היה { $paymentAmountOld } ליום.
 subscriptionUpgrade-content-old-price-week = התעריף הקודם היה { $paymentAmountOld } לשבוע.
 subscriptionUpgrade-content-old-price-month = התעריף הקודם היה { $paymentAmountOld } לחודש.
@@ -709,6 +710,9 @@ subscriptionUpgrade-content-new-price-default = מעתה והלאה, יבוצע 
 subscriptionUpgrade-content-new-price-day-dtax = מעתה והלאה, יבוצע חיוב של { $paymentAmountNew } + מס בסך { $paymentTaxNew } ליום, לא כולל הנחות.
 subscriptionUpgrade-content-new-price-week-tax = מעתה והלאה, יבוצע חיוב של { $paymentAmountNew } + מס בסך { $paymentTaxNew } לשבוע, לא כולל הנחות.
 subscriptionUpgrade-content-new-price-month-tax = מעתה והלאה, יבוצע חיוב של { $paymentAmountNew } + מס בסך { $paymentTaxNew } לחודש, לא כולל הנחות.
+subscriptionUpgrade-content-new-price-halfyear-tax = מעתה והלאה, יבוצע חיוב של { $paymentAmountNew } + מס בסך { $paymentTaxNew } ל־6 חודשים, לא כולל הנחות.
+subscriptionUpgrade-content-new-price-year-tax = מעתה והלאה, יבוצע חיוב של { $paymentAmountNew } + מס בסך { $paymentTaxNew } לשנה, לא כולל הנחות.
+subscriptionUpgrade-content-new-price-default-tax = מעתה והלאה, יבוצע חיוב של { $paymentAmountNew } + מס בסך { $paymentTaxNew } לכל מרווח חיוב, לא כולל הנחות.
 subscriptionUpgrade-existing = אם יש לך מינויים קיימים החופפים לשדרוג זה, נטפל בהם ונשלח לך הודעת דוא״ל נפרדת עם הפרטים. אם התוכנית החדשה שלך כוללת מוצרים הדורשים התקנה, נשלח לך דוא״ל נפרד עם הוראות התקנה.
 subscriptionUpgrade-auto-renew = המינוי שלך יתחדש באופן אוטומטי בכל תקופת חיוב אלא אם בחרת לבטל.
 unblockCode-subject = קוד הרשאת חשבון

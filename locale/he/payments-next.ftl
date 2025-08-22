@@ -137,6 +137,8 @@ page-not-found-back-button = חזרה אחורה
 subscription-management-breadcrumb-subscriptions = מינויים
 # Link title - Payment method management
 subscription-management-breadcrumb-payment = אמצעי תשלום
+# $page refers to page titles used in the breadcrumb menu (e.g. Account Home, Subscriptions, Payment Methods)
+subscription-management-breadcrumb-back-aria = חזרה ל{ $page }
 
 ## Component - Payment Consent Checkbox
 
