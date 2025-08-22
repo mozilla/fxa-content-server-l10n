@@ -286,6 +286,8 @@ backup-authentication-codes-image-aria-label =
     .aria-label = Pantalla de dispositivo con códigos
 sync-clouds-image-aria-label =
     .aria-label = Nubes con un ícono de sincronización
+confetti-falling-image-aria-label =
+    .aria-label = Animación de confeti cayendo
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -770,14 +772,33 @@ nav-data-collection = Recolección de datos y uso
 nav-paid-subs = Suscripciones pagadas
 nav-email-comm = Comunicaciones por correo
 
+## Page2faChange
+
+page-2fa-change-title = Cambiar la autenticación en dos pasos
+page-2fa-change-success = La autenticación en dos pasos ha sido actualizada
+page-2fa-change-totpinfo-error = Se produjo un error al reemplazar tu aplicación de autenticación en dos pasos. Vuelve a inténtalo más tarde.
+page-2fa-change-qr-instruction = <strong>Paso 1:</strong> Escanea este código QR con cualquier aplicación de autenticación, como Duo o Google Authenticator. Esto crea una nueva conexión, cualquier conexión anterior dejará de funcionar.
+
 ## Two Step Authentication - replace backup authentication code
 
+# Page title
+tfa-backup-codes-page-title = Códigos de autenticación de respaldo
 # Error shown when API call fails while replacing existing backup codes
 tfa-replace-code-error-3 = Hubo un problema al reemplazar tus códigos de autenticación de respaldo
 # Error shown when API call fails while creating new backup codes (user had none)
 tfa-create-code-error = Hubo un problema al crear tus códigos de autenticación de respaldo
 # Success message shown in alert bar after successfully replacing existing backup codes
 tfa-replace-code-success-alert-4 = Códigos de autenticación de respaldo actualizados
+# Success message shown after creating backup codes for the first time
+tfa-create-code-success-alert = Códigos de autenticación de respaldo creados
+# Custom messaging for users replacing existing backup codes - Download step (1 of 2)
+# On this step, the codes are not yet replaced in the database - the old codes are still valid until step 2 is completed.
+tfa-replace-code-download-description = Guárdalos en un lugar que puedas recordar. Tus códigos antiguos serán reemplazados después de completar el siguiente paso.
+# Custom messaging for users replacing existing backup codes - Confirm step (2 of 2)
+# Until this confirmation step is successfully completed, the old codes are still active and the new codes are not saved in the database.
+tfa-replace-code-confirm-description = Confirma que guardaste tus códigos ingresando uno. Tus antiguos códigos de autenticación de respaldo se desactivarán una vez hayas completado este paso.
+# Error shown when the entered backup code does not match any of the generated codes
+tfa-incorrect-recovery-code-1 = Código de autenticación de respaldo incorrecto
 
 ## Page2faSetup
 
@@ -1179,6 +1200,7 @@ tfa-row-enabled = Activada
 tfa-row-disabled-status = Desactivado
 tfa-row-action-add = Añadir
 tfa-row-action-disable = Desactivar
+tfa-row-action-change = Cambiar
 tfa-row-button-refresh =
     .title = Actualizar autenticación en dos pasos
 tfa-row-cannot-refresh = Lo sentimos, hubo un problema al actualizar la autenticación en dos pasos.

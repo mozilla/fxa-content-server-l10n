@@ -473,6 +473,14 @@ postChangeRecoveryPhone-title = Cambiaste tu teléfono de recuperación
 postChangeRecoveryPhone-description = Ahora tienes un nuevo teléfono de recuperación. Se eliminó tu número de teléfono anterior.
 postChangeRecoveryPhone-requested-device = Lo solicitaste desde:
 postChangeTwoStepAuthentication-preview = Tu cuenta está protegida
+postChangeTwoStepAuthentication-subject = Autenticación en dos pasos actualizada
+postChangeTwoStepAuthentication-title = La autenticación en dos pasos ha sido actualizada
+postChangeTwoStepAuthentication-use-new-account = Ahora debes usar la nueva entrada de { -product-mozilla-account } en tu aplicación de autenticación. La anterior ya no funcionará y puedes eliminarla.
+# After the colon, there is a description of the device that the user used to enable two-step authentication
+postChangeTwoStepAuthentication-from-device = Solicitaste este formulario:
+postChangeTwoStepAuthentication-action = Administrar cuenta
+postChangeTwoStepAuthentication-how-protects-link = Cómo esto protege tu cuenta
+postChangeTwoStepAuthentication-how-protects-plaintext = Cómo esto protege tu cuenta:
 postConsumeRecoveryCode-title-3 = Tu código de autenticación de respaldo fue utilizado para confirmar un restablecimiento de contraseña
 # After the colon, there is description of the device that the backup authentication code was used on
 # E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
@@ -718,6 +726,31 @@ subscriptionUpgrade-upgrade-info-2 = Te haz actualizado exitosamente a { $produc
 
 subscriptionUpgrade-content-charge-prorated-1 = Se te cobró una tarifa única de { $invoiceAmountDue } para reflejar el precio más alto de tu suscripción por el resto de este período de facturación ({ $productPaymentCycleOld }).
 subscriptionUpgrade-content-charge-credit = Recibiste un crédito en la cuenta por la cantidad de { $paymentProrated }.
+subscriptionUpgrade-content-subscription-next-bill-change = A partir de tu próxima factura, el precio de tu suscripción cambiará.
+subscriptionUpgrade-content-old-price-day = La tarifa anterior era de { $paymentAmountOld } por día.
+subscriptionUpgrade-content-old-price-week = La tarifa anterior era de { $paymentAmountOld } por semana.
+subscriptionUpgrade-content-old-price-month = La tarifa anterior era de { $paymentAmountOld } por mes.
+subscriptionUpgrade-content-old-price-halfyear = La tarifa anterior era de { $paymentAmountOld } por semestre.
+subscriptionUpgrade-content-old-price-year = La tarifa anterior era de { $paymentAmountOld } por año.
+subscriptionUpgrade-content-old-price-default = La tarifa anterior era de { $paymentAmountOld } por intervalo de pago.
+subscriptionUpgrade-content-old-price-day-tax = La tasa anterior era de { $paymentAmountOld } + { $paymentTaxOld } de impuestos por día.
+subscriptionUpgrade-content-old-price-week-tax = La tasa anterior era de { $paymentAmountOld } + { $paymentTaxOld } de impuestos por semana.
+subscriptionUpgrade-content-old-price-month-tax = La tasa anterior era de { $paymentAmountOld } + { $paymentTaxOld } de impuestos por mes.
+subscriptionUpgrade-content-old-price-halfyear-tax = La tasa anterior era de { $paymentAmountOld } + { $paymentTaxOld } de impuestos por semestre.
+subscriptionUpgrade-content-old-price-year-tax = La tasa anterior era de { $paymentAmountOld } + { $paymentTaxOld } de impuestos por año.
+subscriptionUpgrade-content-old-price-default-tax = La tasa anterior era de { $paymentAmountOld } + { $paymentTaxOld } de impuestos por intervalo de pago.
+subscriptionUpgrade-content-new-price-day = De ahora en adelante, se te cobrará { $paymentAmountNew } por día, excluyendo descuentos.
+subscriptionUpgrade-content-new-price-week = De ahora en adelante, se te cobrará { $paymentAmountNew } por semana, excluyendo descuentos.
+subscriptionUpgrade-content-new-price-month = De ahora en adelante, se te cobrará { $paymentAmountNew } por mes, excluyendo descuentos.
+subscriptionUpgrade-content-new-price-halfyear = De ahora en adelante, se te cobrará { $paymentAmountNew } por semestre, excluyendo descuentos.
+subscriptionUpgrade-content-new-price-year = De ahora en adelante, se te cobrará { $paymentAmountNew } por año, excluyendo descuentos.
+subscriptionUpgrade-content-new-price-default = De ahora en adelante, se te cobrará { $paymentAmountNew } por intervalo de pago, excluyendo descuentos.
+subscriptionUpgrade-content-new-price-day-dtax = De ahora en adelante, se te cobrará { $paymentAmountNew } + { $paymentTaxNew } de impuestos por día, excluyendo descuentos.
+subscriptionUpgrade-content-new-price-week-tax = De ahora en adelante, se te cobrará { $paymentAmountNew } + { $paymentTaxNew } de impuestos por semana, excluyendo descuentos.
+subscriptionUpgrade-content-new-price-month-tax = De ahora en adelante, se te cobrará { $paymentAmountNew } + { $paymentTaxNew } de impuestos por mes, excluyendo descuentos.
+subscriptionUpgrade-content-new-price-halfyear-tax = De ahora en adelante, se te cobrará { $paymentAmountNew } + { $paymentTaxNew } de impuestos por semestre, excluyendo descuentos.
+subscriptionUpgrade-content-new-price-year-tax = De ahora en adelante, se te cobrará { $paymentAmountNew } + { $paymentTaxNew } de impuestos por año, excluyendo descuentos.
+subscriptionUpgrade-content-new-price-default-tax = De ahora en adelante, se te cobrará { $paymentAmountNew } + { $paymentTaxNew } de impuestos por periodo de impuesto, excluyendo descuentos.
 subscriptionUpgrade-existing = Si alguna de tus suscripciones actuales se superpone con esta actualización, nos encargaremos de ello y te enviaremos un correo electrónico aparte con los detalles. Si tu nuevo plan incluye productos que requieren instalación, te enviaremos un correo electrónico aparte con las instrucciones de configuración.
 subscriptionUpgrade-auto-renew = Tu suscripción se renovará automáticamente en cada periodo de facturación salvo que elijas cancelarlo.
 unblockCode-subject = Código de autorización de la cuenta
