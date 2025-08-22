@@ -145,6 +145,8 @@ subscription-management-breadcrumb-account-home = Trang chủ tài khoản
 subscription-management-breadcrumb-subscriptions = Gói đăng ký
 # Link title - Payment method management
 subscription-management-breadcrumb-payment = Phương thức thanh toán
+# $page refers to page titles used in the breadcrumb menu (e.g. Account Home, Subscriptions, Payment Methods)
+subscription-management-breadcrumb-back-aria = Quay lại { $page }
 
 ## Component - Payment Consent Checkbox
 
@@ -296,6 +298,15 @@ subscription-cancellation-dialog-title = Chúng tôi rất tiếc khi thấy b�
 # $date (Date) - Last day of product access
 subscription-cancellation-dialog-msg = Gói đăng ký { $name } của bạn đã bị hủy. Bạn vẫn sẽ có quyền truy cập vào { $name } cho đến { $date }.
 subscription-cancellation-dialog-aside = Có câu hỏi? Truy cập <LinkExternal>Hỗ trợ { -brand-mozilla }</LinkExternal>.
+subscription-content-button-resubscribe = Đăng ký lại
+    .aria-label = Đăng ký lại { $productName }
+# $date (Date) - Last day of product access
+subscription-content-resubscribe = Bạn sẽ mất quyền truy cập vào { $name } vào <strong>{ $date }</strong>.
+resubscribe-dialog-title = Bạn muốn tiếp tục sử dụng { $name }?
+resubscribe-dialog-content = Quyền truy cập của bạn vào { $name } sẽ tiếp tục và chu kỳ thanh toán của bạn sẽ giữ nguyên. Khoản phí tiếp theo của bạn sẽ là { $amount } vào { $endDate }.
+resubscribe-dialog-action-button = Vẫn đăng ký
+resubscribe-success-dialog-title = Cảm ơn! Bạn đã sẵn sàng.
+resubscribe-success-dialog-action-button = Đóng
 dialog-close = Đóng hộp thoại
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails

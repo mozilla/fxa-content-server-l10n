@@ -471,6 +471,15 @@ postChangeRecoveryPhone-preview = Tài khoản được bảo vệ bằng xác t
 postChangeRecoveryPhone-title = Bạn đã thay đổi số điện thoại khôi phục của mình
 postChangeRecoveryPhone-description = Bây giờ bạn có số điện thoại khôi phục mới. Số điện thoại trước đó của bạn đã bị xóa.
 postChangeRecoveryPhone-requested-device = Bạn đã yêu cầu nó từ:
+postChangeTwoStepAuthentication-preview = Tài khoản của bạn được bảo vệ
+postChangeTwoStepAuthentication-subject = Đã cập nhật xác thực hai bước
+postChangeTwoStepAuthentication-title = Xác thực hai bước đã được cập nhật
+postChangeTwoStepAuthentication-use-new-account = Bây giờ bạn cần sử dụng mục { -product-mozilla-account } mới trong ứng dụng xác thực của mình. Mục cũ sẽ không còn hoạt động nữa và bạn có thể xóa nó.
+# After the colon, there is a description of the device that the user used to enable two-step authentication
+postChangeTwoStepAuthentication-from-device = Bạn đã yêu cầu điều này từ:
+postChangeTwoStepAuthentication-action = Quản lý tài khoản
+postChangeTwoStepAuthentication-how-protects-link = Tìm hiểu cách mà nó bảo vệ tài khoản của bạn
+postChangeTwoStepAuthentication-how-protects-plaintext = Tìm hiểu cách mà nó bảo vệ tài khoản của bạn:
 postConsumeRecoveryCode-title-3 = Mã xác thực dự phòng của bạn đã được sử dụng để xác nhận đặt lại mật khẩu
 # After the colon, there is description of the device that the backup authentication code was used on
 # E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
@@ -716,6 +725,31 @@ subscriptionUpgrade-upgrade-info-2 = Bạn đã nâng cấp thành công { $prod
 
 subscriptionUpgrade-content-charge-prorated-1 = Bạn đã bị tính khoản phí một lần là { $invoiceAmountDue } để phản ánh mức giá cao hơn của gói đăng ký của bạn trong thời gian còn lại của kỳ thanh toán này ({ $productPaymentCycleOld }).
 subscriptionUpgrade-content-charge-credit = Bạn đã nhận được khoản tín dụng tài khoản với số tiền là { $paymentProrated }.
+subscriptionUpgrade-content-subscription-next-bill-change = Bắt đầu từ hóa đơn tiếp theo, giá của gói đăng ký của bạn sẽ thay đổi.
+subscriptionUpgrade-content-old-price-day = Mức giá trước đó là { $paymentAmountOld } mỗi ngày.
+subscriptionUpgrade-content-old-price-week = Mức giá trước đó là { $paymentAmountOld } mỗi tuần.
+subscriptionUpgrade-content-old-price-month = Mức giá trước đó là { $paymentAmountOld } mỗi tháng.
+subscriptionUpgrade-content-old-price-halfyear = Mức giá trước đó là { $paymentAmountOld } mỗi sáu tháng.
+subscriptionUpgrade-content-old-price-year = Mức giá trước đó là { $paymentAmountOld } mỗi năm.
+subscriptionUpgrade-content-old-price-default = Mức giá trước đó là { $paymentAmountOld } cho mỗi kỳ thanh toán.
+subscriptionUpgrade-content-old-price-day-tax = Mức giá trước đó là { $paymentAmountOld } + { $paymentTaxOld } thuế mỗi ngày.
+subscriptionUpgrade-content-old-price-week-tax = Mức giá trước đó là { $paymentAmountOld } + { $paymentTaxOld } thuế mỗi tuần.
+subscriptionUpgrade-content-old-price-month-tax = Mức giá trước đó là { $paymentAmountOld } + { $paymentTaxOld } thuế mỗi tháng.
+subscriptionUpgrade-content-old-price-halfyear-tax = Mức giá trước đó là { $paymentAmountOld } + { $paymentTaxOld } thuế mỗi sáu tháng.
+subscriptionUpgrade-content-old-price-year-tax = Mức giá trước đó là { $paymentAmountOld } + { $paymentTaxOld } thuế mỗi năm.
+subscriptionUpgrade-content-old-price-default-tax = Mức giá trước đó là { $paymentAmountOld } + { $paymentTaxOld } thuế cho mỗi kỳ thanh toán.
+subscriptionUpgrade-content-new-price-day = Từ giờ trở đi, bạn sẽ bị tính phí { $paymentAmountNew } mỗi ngày, không bao gồm chiết khấu.
+subscriptionUpgrade-content-new-price-week = Từ giờ trở đi, bạn sẽ bị tính phí { $paymentAmountNew } mỗi tuần, không bao gồm chiết khấu.
+subscriptionUpgrade-content-new-price-month = Từ giờ trở đi, bạn sẽ bị tính phí { $paymentAmountNew } mỗi tháng, không bao gồm chiết khấu.
+subscriptionUpgrade-content-new-price-halfyear = Từ giờ trở đi, bạn sẽ bị tính phí { $paymentAmountNew } mỗi sáu tháng, không bao gồm chiết khấu.
+subscriptionUpgrade-content-new-price-year = Từ giờ trở đi, bạn sẽ bị tính phí { $paymentAmountNew } mỗi năm, không bao gồm chiết khấu.
+subscriptionUpgrade-content-new-price-default = Từ giờ trở đi, bạn sẽ bị tính phí { $paymentAmountNew } cho mỗi kỳ thanh toán, không bao gồm chiết khấu.
+subscriptionUpgrade-content-new-price-day-dtax = Từ giờ trở đi, bạn sẽ phải trả { $paymentAmountNew } + { $paymentTaxNew } thuế mỗi ngày, không bao gồm chiết khấu.
+subscriptionUpgrade-content-new-price-week-tax = Từ giờ trở đi, bạn sẽ phải trả { $paymentAmountNew } + { $paymentTaxNew } thuế mỗi tuần, không bao gồm chiết khấu.
+subscriptionUpgrade-content-new-price-month-tax = Từ giờ trở đi, bạn sẽ phải trả { $paymentAmountNew } + { $paymentTaxNew } thuế mỗi tháng, không bao gồm chiết khấu.
+subscriptionUpgrade-content-new-price-halfyear-tax = Từ giờ trở đi, bạn sẽ phải trả { $paymentAmountNew } + { $paymentTaxNew } thuế mỗi sáu tháng, không bao gồm chiết khấu.
+subscriptionUpgrade-content-new-price-year-tax = Từ giờ trở đi, bạn sẽ phải trả { $paymentAmountNew } + { $paymentTaxNew } thuế mỗi năm, không bao gồm chiết khấu.
+subscriptionUpgrade-content-new-price-default-tax = Từ giờ trở đi, bạn sẽ phải trả { $paymentAmountNew } + { $paymentTaxNew } thuế cho mỗi kỳ thanh toán, không bao gồm chiết khấu.
 subscriptionUpgrade-existing = Nếu bất kỳ gói đăng ký hiện tại nào của bạn trùng với bản nâng cấp này, chúng tôi sẽ xử lý chúng và gửi cho bạn một email riêng có thông tin chi tiết. Nếu gói mới của bạn bao gồm các sản phẩm yêu cầu cài đặt, chúng tôi sẽ gửi cho bạn một email riêng có hướng dẫn thiết lập.
 subscriptionUpgrade-auto-renew = Thuê bao của bạn sẽ tự động gia hạn mỗi kỳ thanh toán trừ khi bạn chọn hủy.
 unblockCode-subject = Mã xác minh tài khoản

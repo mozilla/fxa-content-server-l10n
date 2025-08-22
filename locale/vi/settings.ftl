@@ -274,6 +274,8 @@ backup-authentication-codes-image-aria-label =
     .aria-label = Màn hình thiết bị có mã
 sync-clouds-image-aria-label =
     .aria-label = Đám mây có biểu tượng đồng bộ
+confetti-falling-image-aria-label =
+    .aria-label = Hoạt ảnh những mảnh giấy rơi
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -756,14 +758,33 @@ nav-data-collection = Thu thập và sử dụng dữ liệu
 nav-paid-subs = Thuê bao đã trả phí
 nav-email-comm = Truyền thông email
 
+## Page2faChange
+
+page-2fa-change-title = Thay đổi xác thực hai bước
+page-2fa-change-success = Xác thực hai bước đã được cập nhật
+page-2fa-change-totpinfo-error = Đã xảy ra lỗi khi thay thế ứng dụng xác thực hai bước của bạn. Vui lòng thử lại sau.
+page-2fa-change-qr-instruction = <strong>Bước 1:</strong> Quét mã QR này bằng bất kỳ ứng dụng xác thực nào, chẳng hạn như Duo hoặc Google Authenticator. Thao tác này sẽ tạo một kết nối mới, mọi kết nối cũ sẽ không còn hoạt động.
+
 ## Two Step Authentication - replace backup authentication code
 
+# Page title
+tfa-backup-codes-page-title = Mã xác thực dự phòng
 # Error shown when API call fails while replacing existing backup codes
 tfa-replace-code-error-3 = Đã xảy ra sự cố khi thay thế mã xác thực dự phòng của bạn
 # Error shown when API call fails while creating new backup codes (user had none)
 tfa-create-code-error = Đã xảy ra sự cố khi tạo mã xác thực dự phòng của bạn
 # Success message shown in alert bar after successfully replacing existing backup codes
 tfa-replace-code-success-alert-4 = Đã cập nhật mã xác thực dự phòng
+# Success message shown after creating backup codes for the first time
+tfa-create-code-success-alert = Đã tạo mã xác thực dự phòng
+# Custom messaging for users replacing existing backup codes - Download step (1 of 2)
+# On this step, the codes are not yet replaced in the database - the old codes are still valid until step 2 is completed.
+tfa-replace-code-download-description = Hãy giữ chúng ở nơi bạn dễ nhớ. Mã cũ sẽ được thay thế sau khi bạn hoàn tất bước tiếp theo.
+# Custom messaging for users replacing existing backup codes - Confirm step (2 of 2)
+# Until this confirmation step is successfully completed, the old codes are still active and the new codes are not saved in the database.
+tfa-replace-code-confirm-description = Xác nhận bạn đã lưu mã bằng cách nhập một mã. Mã xác thực dự phòng cũ của bạn sẽ bị vô hiệu hóa sau khi hoàn tất bước này.
+# Error shown when the entered backup code does not match any of the generated codes
+tfa-incorrect-recovery-code-1 = Mã xác thực dự phòng không chính xác
 
 ## Page2faSetup
 
@@ -1161,6 +1182,7 @@ tfa-row-enabled = Đã bật
 tfa-row-disabled-status = Đã tắt
 tfa-row-action-add = Thêm
 tfa-row-action-disable = Vô hiệu hóa
+tfa-row-action-change = Thay đổi
 tfa-row-button-refresh =
     .title = Làm mới xác thực hai bước
 tfa-row-cannot-refresh = Xin lỗi, đã xảy ra sự cố khi làm mới xác thực hai bước.
