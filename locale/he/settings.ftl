@@ -1135,6 +1135,7 @@ tfa-row-enabled = מופעל
 tfa-row-disabled-status = מושבת
 tfa-row-action-add = הוספה
 tfa-row-action-disable = השבתה
+tfa-row-action-change = שינוי
 tfa-row-button-refresh =
     .title = רענון אימות דו־שלבי
 tfa-row-cannot-refresh = אירעה שגיאה ברענון אימות דו־שלבי, עמך הסליחה.
