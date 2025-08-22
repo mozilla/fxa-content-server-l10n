@@ -791,10 +791,10 @@ tfa-replace-code-success-alert-4 = Codici di autenticazione di backup aggiornati
 tfa-create-code-success-alert = Codici di autenticazione di backup generati
 # Custom messaging for users replacing existing backup codes - Download step (1 of 2)
 # On this step, the codes are not yet replaced in the database - the old codes are still valid until step 2 is completed.
-tfa-replace-code-download-description = Conservali in un posto facile da ricordare. I codici esistenti verranno sostituiti al termine del passaggio successivo.
+tfa-replace-code-download-description = Conservali in un posto facile da ricordare. I codici precedenti verranno sostituiti al termine del passaggio successivo.
 # Custom messaging for users replacing existing backup codes - Confirm step (2 of 2)
 # Until this confirmation step is successfully completed, the old codes are still active and the new codes are not saved in the database.
-tfa-replace-code-confirm-description = Conferma di aver salvato i codici inserendone uno. I vecchi codici di autenticazione di backup verranno disattivati al termine di questo passaggio.
+tfa-replace-code-confirm-description = Conferma di aver salvato i codici inserendone uno. I precedenti codici di autenticazione di backup verranno disattivati al termine di questo passaggio.
 # Error shown when the entered backup code does not match any of the generated codes
 tfa-incorrect-recovery-code-1 = Codice di autenticazione di backup errato
 
