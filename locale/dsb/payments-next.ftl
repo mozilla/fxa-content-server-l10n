@@ -148,6 +148,8 @@ subscription-management-breadcrumb-account-home = Startowy bok konta
 subscription-management-breadcrumb-subscriptions = Abonementy
 # Link title - Payment method management
 subscription-management-breadcrumb-payment = Płaśeńske metody
+# $page refers to page titles used in the breadcrumb menu (e.g. Account Home, Subscriptions, Payment Methods)
+subscription-management-breadcrumb-back-aria = Slědk k { $page }
 
 ## Component - Payment Consent Checkbox
 
