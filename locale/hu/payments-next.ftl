@@ -147,6 +147,8 @@ subscription-management-breadcrumb-account-home = Fiók kezdőlapja
 subscription-management-breadcrumb-subscriptions = Előfizetések
 # Link title - Payment method management
 subscription-management-breadcrumb-payment = Fizetési módok
+# $page refers to page titles used in the breadcrumb menu (e.g. Account Home, Subscriptions, Payment Methods)
+subscription-management-breadcrumb-back-aria = Vissza ehhez: { $page }
 
 ## Component - Payment Consent Checkbox
 

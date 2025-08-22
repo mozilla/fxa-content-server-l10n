@@ -145,6 +145,8 @@ subscription-management-breadcrumb-account-home = Domovská stránka účtu
 subscription-management-breadcrumb-subscriptions = Předplatné
 # Link title - Payment method management
 subscription-management-breadcrumb-payment = Platební metody
+# $page refers to page titles used in the breadcrumb menu (e.g. Account Home, Subscriptions, Payment Methods)
+subscription-management-breadcrumb-back-aria = Přejít zpět na { $page }
 
 ## Component - Payment Consent Checkbox
 
