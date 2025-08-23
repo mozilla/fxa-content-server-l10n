@@ -470,6 +470,7 @@ postChangeRecoveryPhone-description = Eguerekóma pumbyry guerujeyrã pyahu. Ogu
 postChangeRecoveryPhone-requested-device = Ejerure upe guive:
 postChangeTwoStepAuthentication-preview = Ne mba’ete oñemo’ãma
 postChangeTwoStepAuthentication-subject = Ndoikói ñemoneĩ mokõi jeku’egua
+postChangeTwoStepAuthentication-title = Oñembohekopyahúma ñemoneĩ mokõi jeku’egua
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postChangeTwoStepAuthentication-from-device = Nde ejerure kóva chupe:
 postChangeTwoStepAuthentication-action = Mba’ete ñangareko
@@ -720,6 +721,7 @@ subscriptionUpgrade-upgrade-info-2 = Oñembohekopyahúma { $productName } hekope
 
 subscriptionUpgrade-content-charge-prorated-1 = Ehepyme’ẽma peteĩ jeýnte { $invoiceAmountDue } eikuaa hag̃ua ne ñemboheraguapy repykue hepyvéva ko kuatiañemure pukukue ryepýpe ({ $productPaymentCycleOld }).
 subscriptionUpgrade-content-charge-credit = Rehupyty peteĩ crédito mba’ete rehegua { $paymentProrated } repykuépe.
+subscriptionUpgrade-content-subscription-next-bill-change = Nde kuatiañemure tenondeguáva, ne ñemboheraguapy repy iñambuétama.
 subscriptionUpgrade-existing = Oĩramo ne ñemboheraguapy ag̃agua okañy ko ñembohekopyahu ndive, roñangarekóta hese ha romondóta ndéve ñanduti veve umi mba’emimi reheve. Ne mba’epyahu orekórõ apopyre oikotevẽrõ ñemohenda, romondóta ndéve ñanduti veve orekóva mba’éichapa embohekóta.
 subscriptionUpgrade-auto-renew = Ne ñemboheraguapy ipyahúta ijeheguiete ehepyme’ẽvo eiporuva’ekue neremoneĩriramo ndete voi.
 unblockCode-subject = Ayvu ñemoneĩva mba’ete rehegua
