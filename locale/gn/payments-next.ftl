@@ -119,6 +119,8 @@ subscription-management-google-in-app-purchase = { -brand-google }: Ojogua tembi
 subscription-management-iap-sub-next-bill = Ñemuhakuatia oĩjeýta ág̃a { $date }
 # $date (String) - Date of In-App purchase expires
 subscription-management-iap-sub-expires-on = Opáta ág̃a { $date }
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscription-management-button-manage-subscription-aria = Eñangareko teraguapy { $productName }-pe g̃uarã
 subscription-management-button-manage-subscription = Ñangareko
 
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -142,6 +144,8 @@ subscription-management-breadcrumb-account-home = Mba’ete Moñepyrũ
 subscription-management-breadcrumb-subscriptions = Ñemboheraguapy
 # Link title - Payment method management
 subscription-management-breadcrumb-payment = Mba’éicha ehepyme’ẽta
+# $page refers to page titles used in the breadcrumb menu (e.g. Account Home, Subscriptions, Payment Methods)
+subscription-management-breadcrumb-back-aria = Ejevyjey { $page }-pe
 
 ## Component - Payment Consent Checkbox
 
@@ -265,6 +269,8 @@ next-new-user-subscribe-product-assurance = Roiporu ne ñanduti veve romoheñói
 
 subscription-content-current-with-tax = { $invoiceTotal } + { $taxDue } impuesto
 subscription-content-heading-cancel-subscription = Mboheraguapy jeheja
+subscription-content-button-cancel = Heja
+    .aria-label = Eipe’a ñemboheraguapy { $productName } pegua
 subscription-content-button-resubscribe = Eñemboheraguapyjey
     .aria-label = Eñemboheraguapyjey { $productName }-pe
 resubscribe-dialog-action-button = Mboheraguapy guereko
