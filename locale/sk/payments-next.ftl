@@ -145,6 +145,8 @@ subscription-management-breadcrumb-account-home = Domovská stránka účtu
 subscription-management-breadcrumb-subscriptions = Predplatné
 # Link title - Payment method management
 subscription-management-breadcrumb-payment = Spôsoby platby
+# $page refers to page titles used in the breadcrumb menu (e.g. Account Home, Subscriptions, Payment Methods)
+subscription-management-breadcrumb-back-aria = Späť na { $page }
 
 ## Component - Payment Consent Checkbox
 
@@ -296,6 +298,15 @@ subscription-cancellation-dialog-title = Je nám ľúto, že odchádzate
 # $date (Date) - Last day of product access
 subscription-cancellation-dialog-msg = Vaše predplatné služby { $name } bolo zrušené. Prístup k službe { $name } vyprší dňa { $date }.
 subscription-cancellation-dialog-aside = Máte otázky? Navštívte stránku Podpory <LinkExternal>{ -brand-mozilla(case: "gen") }</LinkExternal>.
+subscription-content-button-resubscribe = Opätovne predplatiť
+    .aria-label = Opätovne predplatiť produkt { $productName }
+# $date (Date) - Last day of product access
+subscription-content-resubscribe = Prístup k službe { $name } stratíte <strong>{ $date }</strong>.
+resubscribe-dialog-title = Chcete aj naďalej používať { $name }?
+resubscribe-dialog-content = Váš prístup k produktu { $name } bude zachovaný a váš fakturačný cyklus a platba zostanú rovnaké. Vaša ďalšia platba bude v hodnote { $amount } a bude stiahnutá dňa { $endDate }.
+resubscribe-dialog-action-button = Ponechať predplatné
+resubscribe-success-dialog-title = Ďakujeme. Všetko je nastavené.
+resubscribe-success-dialog-action-button = Zavrieť
 dialog-close = Zavrieť dialógové okno
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
