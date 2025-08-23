@@ -148,6 +148,8 @@ subscription-management-breadcrumb-account-home = ანგარიშის �
 subscription-management-breadcrumb-subscriptions = გამოწერები
 # Link title - Payment method management
 subscription-management-breadcrumb-payment = გადახდის საშუალებები
+# $page refers to page titles used in the breadcrumb menu (e.g. Account Home, Subscriptions, Payment Methods)
+subscription-management-breadcrumb-back-aria = უკან დაბრუნება – { $page }
 
 ## Component - Payment Consent Checkbox
 
