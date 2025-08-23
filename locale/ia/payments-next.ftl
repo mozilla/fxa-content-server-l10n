@@ -372,7 +372,7 @@ metadata-title-checkout-start = Momento del pagamento | { $productTitle }
 metadata-description-checkout-start = Insere tu detalios de pagamento pro completar tu compra.
 # Checkout processing
 metadata-title-checkout-processing = Tractamento in curso | { $productTitle }
-metadata-description-checkout-processing = Attende dum nos fini le elaboration de tu pagamento.
+metadata-description-checkout-processing = Attende que nos termina le processamento de tu pagamento.
 # Checkout error
 metadata-title-checkout-error = Error | { $productTitle }
 metadata-description-checkout-error = Un error occurreva durante le elaboration de tu abonamento. Si iste problema persiste, contacta le supporto.
@@ -387,7 +387,7 @@ metadata-title-upgrade-start = Promover | { $productTitle }
 metadata-description-upgrade-start = Insere tu detalios de pagamento pro completar tu promotion.
 # Upgrade processing
 metadata-title-upgrade-processing = Tractamento in curso | { $productTitle }
-metadata-description-upgrade-processing = Attende dum nos fini le elaboration de tu pagamento.
+metadata-description-upgrade-processing = Attende que nos termina le processamento de tu pagamento.
 # Upgrade error
 metadata-title-upgrade-error = Error | { $productTitle }
 metadata-description-upgrade-error = Un error occurreva durante le elaboration de tu promotion. Si iste problema persiste, contacta le supporto.
