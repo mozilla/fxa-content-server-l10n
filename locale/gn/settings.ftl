@@ -745,6 +745,8 @@ nav-email-comm = Ñemongeta ñanduti veve rupive
 
 ## Two Step Authentication - replace backup authentication code
 
+# Page title
+tfa-backup-codes-page-title = Ayvu ñemoneĩrã jeykekoha
 # Error shown when API call fails while replacing existing backup codes
 tfa-replace-code-error-3 = Oiko apañuái emyengoviakuévo nde ayvu jeguerujeyrã jeykekoha
 # Error shown when API call fails while creating new backup codes (user had none)
