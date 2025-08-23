@@ -473,6 +473,15 @@ postChangeRecoveryPhone-preview = Účet chránený dvojstupňovou autentifikác
 postChangeRecoveryPhone-title = Zmenili ste si telefón na obnovenie účtu
 postChangeRecoveryPhone-description = Teraz máte nové telefónne číslo na obnovenie účtu. Vaše predchádzajúce telefónne číslo bolo odstránené.
 postChangeRecoveryPhone-requested-device = Požiadali ste o to z:
+postChangeTwoStepAuthentication-preview = Váš účet je chránený
+postChangeTwoStepAuthentication-subject = Dvojstupňové overenie aktualizované
+postChangeTwoStepAuthentication-title = Dvojstupňové overenie bolo aktualizované
+postChangeTwoStepAuthentication-use-new-account = Teraz musíte vo svojej overovacej aplikácii použiť nový záznam pre { -product-mozilla-account(case: "acc") }. Starší záznam už nebude fungovať a môžete ho odstrániť.
+# After the colon, there is a description of the device that the user used to enable two-step authentication
+postChangeTwoStepAuthentication-from-device = Požiadali ste o to z:
+postChangeTwoStepAuthentication-action = Spravovať účet
+postChangeTwoStepAuthentication-how-protects-link = Ako to chráni váš účet
+postChangeTwoStepAuthentication-how-protects-plaintext = Ako to chráni váš účet:
 postConsumeRecoveryCode-title-3 = Váš záložný overovací kód bol použitý na potvrdenie zmeny hesla
 # After the colon, there is description of the device that the backup authentication code was used on
 # E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
@@ -718,6 +727,27 @@ subscriptionUpgrade-upgrade-info-2 = Úspešne ste inovovali na { $productName }
 
 subscriptionUpgrade-content-charge-prorated-1 = Bol vám účtovaný jednorazový poplatok vo výške { $invoiceAmountDue }, ktorý zodpovedá vyššej cene vášho predplatného na zvyšok tohto fakturačného obdobia ({ $productPaymentCycleOld }).
 subscriptionUpgrade-content-charge-credit = Na váš účet bol pripísaný kredit vo výške { $paymentProrated }.
+subscriptionUpgrade-content-subscription-next-bill-change = Od vašej ďalšej faktúry sa cena vášho predplatného zmení.
+subscriptionUpgrade-content-old-price-day = Predchádzajúca sadzba bola { $paymentAmountOld } za deň.
+subscriptionUpgrade-content-old-price-week = Predchádzajúca sadzba bola { $paymentAmountOld } za týždeň.
+subscriptionUpgrade-content-old-price-month = Predchádzajúca sadzba bola { $paymentAmountOld } mesačne.
+subscriptionUpgrade-content-old-price-halfyear = Predchádzajúca sadzba bola { $paymentAmountOld } za šesť mesiacov.
+subscriptionUpgrade-content-old-price-year = Predchádzajúca sadzba bola { $paymentAmountOld } ročne.
+subscriptionUpgrade-content-old-price-default = Predchádzajúca sadzba bola { $paymentAmountOld } za fakturačné obdobie.
+subscriptionUpgrade-content-old-price-day-tax = Predchádzajúca sadzba bola { $paymentAmountOld } + { $paymentTaxOld } daň za deň.
+subscriptionUpgrade-content-old-price-week-tax = Predchádzajúca sadzba bola { $paymentAmountOld } + { $paymentTaxOld } daň za týždeň.
+subscriptionUpgrade-content-old-price-month-tax = Predchádzajúca sadzba bola { $paymentAmountOld } + { $paymentTaxOld } daň mesačne.
+subscriptionUpgrade-content-old-price-halfyear-tax = Predchádzajúca sadzba bola { $paymentAmountOld } + { $paymentTaxOld } daň za šesť mesiacov.
+subscriptionUpgrade-content-old-price-year-tax = Predchádzajúca sadzba bola { $paymentAmountOld } + { $paymentTaxOld } daň ročne.
+subscriptionUpgrade-content-old-price-default-tax = Predchádzajúca sadzba dane bola { $paymentAmountOld } + { $paymentTaxOld } za fakturačné obdobie.
+subscriptionUpgrade-content-new-price-day = Odteraz vám bude účtovaná suma { $paymentAmountNew } denne, bez zliav.
+subscriptionUpgrade-content-new-price-week = Odteraz vám bude účtovaná suma { $paymentAmountNew } týždenne bez zliav.
+subscriptionUpgrade-content-new-price-month = Odteraz vám bude mesačne účtovaná suma { $paymentAmountNew } bez zliav.
+subscriptionUpgrade-content-new-price-halfyear = Odteraz vám bude účtovaná suma { $paymentAmountNew } každých šesť mesiacov bez zliav.
+subscriptionUpgrade-content-new-price-year = Odteraz vám bude účtovaná suma { $paymentAmountNew } ročne bez zliav.
+subscriptionUpgrade-content-new-price-default = Odteraz vám bude účtovaná suma { $paymentAmountNew } za každé fakturačné obdobie bez zliav.
+subscriptionUpgrade-content-new-price-day-dtax = Odteraz vám bude účtovaná suma { $paymentAmountNew } + { $paymentTaxNew } daň za deň, bez zliav.
+subscriptionUpgrade-content-new-price-week-tax = Odteraz vám bude týždenne účtovaná daň { $paymentAmountNew } + { $paymentTaxNew } bez zliav.
 subscriptionUpgrade-existing = Ak sa niektoré z vašich existujúcich predplatných prekrývajú s touto inováciou, budeme sa nimi zaoberať a pošleme vám samostatný e‑mail s podrobnosťami. Ak váš nový program obsahuje produkty, ktoré vyžadujú inštaláciu, pošleme vám samostatný e‑mail s pokynmi na ich inštaláciu a nastavenie.
 subscriptionUpgrade-auto-renew = Vaše predplatné sa bude automaticky obnovovať každé fakturačné obdobie až dokým ho nezrušíte.
 unblockCode-subject = Autorizačný kód účtu
