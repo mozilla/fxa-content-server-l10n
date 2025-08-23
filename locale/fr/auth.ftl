@@ -475,7 +475,7 @@ postChangeRecoveryPhone-requested-device = La demande a été effectuée depuis�
 postChangeTwoStepAuthentication-preview = Votre compte est protégé
 postChangeTwoStepAuthentication-subject = Authentification en deux étapes mise à jour
 postChangeTwoStepAuthentication-title = L’authentification en deux étapes a été mise à jour
-postChangeTwoStepAuthentication-use-new-account = Vous devez maintenant utiliser la nouvelle entrée { -product-mozilla-account } dans votre application d’authentification. L’ancien ne fonctionnera plus et vous pouvez le supprimer.
+postChangeTwoStepAuthentication-use-new-account = Vous devez maintenant utiliser la nouvelle entrée { -product-mozilla-account } dans votre application d’authentification. L’ancienne ne fonctionnera plus et vous pouvez la supprimer.
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postChangeTwoStepAuthentication-from-device = La demande a été effectuée depuis :
 postChangeTwoStepAuthentication-action = Gérer le compte
