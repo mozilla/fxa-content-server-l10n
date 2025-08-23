@@ -98,6 +98,7 @@ subscription-management-account-profile-picture = Ta’ãnga mba’etepegua
 ## Page - Subscription Management
 
 subscription-management-account-credit-balance-heading = Crédito hembýva ne mba’etépe
+subscription-management-account-credit-balance-message = Ko’ág̃a guive, ojehepyme’ẽta { $paymentAmountNew } peteĩ aragua, oĩ’ỹhápe tepyguejy.
 subscription-management-payment-information-heading = Jehepyme’ẽrã marandu
 subscription-management-button-add-payment-method-aria = Embojuapy mba’éicha ehepyme’ẽta
 subscription-management-button-add-payment-method = Mbojuaju
