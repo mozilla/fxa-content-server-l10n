@@ -478,6 +478,8 @@ postChangeRecoveryPhone-preview = Konto chronione przez uwierzytelnianie dwuetap
 postChangeRecoveryPhone-title = Zmieniono telefon odzyskiwania
 postChangeRecoveryPhone-description = Masz teraz nowy telefon odzyskiwania. Twój poprzedni numer telefonu został usunięty.
 postChangeRecoveryPhone-requested-device = Zażądano z urządzenia:
+postChangeTwoStepAuthentication-preview = Twoje konto jest chronione
+postChangeTwoStepAuthentication-title = Uwierzytelnianie dwuetapowe zostało zaktualizowane
 postConsumeRecoveryCode-title-3 = Zapasowy kod uwierzytelniania został użyty do potwierdzenia zmiany hasła
 # After the colon, there is description of the device that the backup authentication code was used on
 # E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024

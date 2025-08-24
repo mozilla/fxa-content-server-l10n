@@ -773,14 +773,24 @@ nav-data-collection = Zbieranie i wykorzystywanie danych
 nav-paid-subs = Płatne subskrypcje
 nav-email-comm = Ustawienia poczty
 
+## Page2faChange
+
+page-2fa-change-success = Uwierzytelnianie dwuetapowe zostało zaktualizowane
+
 ## Two Step Authentication - replace backup authentication code
 
+# Page title
+tfa-backup-codes-page-title = Zapasowe kody uwierzytelniania
 # Error shown when API call fails while replacing existing backup codes
 tfa-replace-code-error-3 = Wystąpił problem podczas zastępowania zapasowych kodów uwierzytelniania
 # Error shown when API call fails while creating new backup codes (user had none)
 tfa-create-code-error = Wystąpił problem podczas tworzenia zapasowych kodów uwierzytelniania
 # Success message shown in alert bar after successfully replacing existing backup codes
 tfa-replace-code-success-alert-4 = Zaktualizowano zapasowe kody uwierzytelniania
+# Success message shown after creating backup codes for the first time
+tfa-create-code-success-alert = Utworzono zapasowe kody uwierzytelniania
+# Error shown when the entered backup code does not match any of the generated codes
+tfa-incorrect-recovery-code-1 = Niepoprawny zapasowy kod uwierzytelniania
 
 ## Page2faSetup
 
@@ -1183,6 +1193,7 @@ tfa-row-enabled = Włączone
 tfa-row-disabled-status = Wyłączone
 tfa-row-action-add = Dodaj
 tfa-row-action-disable = Wyłącz
+tfa-row-action-change = Zmień
 tfa-row-button-refresh =
     .title = Odśwież uwierzytelnianie dwuetapowe
 tfa-row-cannot-refresh =
