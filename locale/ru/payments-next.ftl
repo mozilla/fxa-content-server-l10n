@@ -145,6 +145,8 @@ subscription-management-breadcrumb-account-home = Домашняя страни�
 subscription-management-breadcrumb-subscriptions = Подписки
 # Link title - Payment method management
 subscription-management-breadcrumb-payment = Способы оплаты
+# $page refers to page titles used in the breadcrumb menu (e.g. Account Home, Subscriptions, Payment Methods)
+subscription-management-breadcrumb-back-aria = Вернуться на { $page }
 
 ## Component - Payment Consent Checkbox
 
