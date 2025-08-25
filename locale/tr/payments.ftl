@@ -431,6 +431,7 @@ sub-update-new-plan-daily = { $productName } (Günlük)
 sub-update-new-plan-weekly = { $productName } (Haftalık)
 sub-update-new-plan-monthly = { $productName } (Aylık)
 sub-update-new-plan-yearly = { $productName } (Yıllık)
+sub-update-prorated-upgrade-credit = Gördüğünüz negatif bakiye, hesabınıza alacak olarak tanımlanacak ve gelecekteki faturalardan düşülecektir.
 
 ## Routes - Subscriptions - Cancel
 
@@ -454,6 +455,7 @@ sub-item-cancel-confirm = { $name } ürününe erişimimi ve kayıtlı bilgileri
 # Cybersecurity Awareness Month 2023 coupon applied: $11.20 + $0.35 tax
 # Summer Promo VPN coupon applied: $11.20
 sub-promo-coupon-applied = { $promotion_name } kuponu uygulandı: <priceDetails></priceDetails>
+subscription-management-account-credit-balance = Bu abonelik ödemesi sonucunda hesap bakiyenize kredi eklendi: <priceDetails></priceDetails>
 
 ## Routes - Subscription
 

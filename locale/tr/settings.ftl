@@ -779,6 +779,7 @@ nav-email-comm = E-posta iletişimi
 page-2fa-change-title = İki aşamalı doğrulamayı değiştir
 page-2fa-change-success = İki aşamalı kimlik doğrulama güncellendi
 page-2fa-change-totpinfo-error = İki aşamalı kimlik doğrulama uygulamanız değiştirilirken bir hata oluştu. Daha sonra yeniden deneyin.
+page-2fa-change-qr-instruction = <strong>1. adım:</strong> Bu QR kodunu Duo veya Google Authenticator gibi bir kimlik doğrulama uygulamasıyla tarayın. Bu işlem yeni bir bağlantı oluşturur. Eski bağlantılar artık çalışmayacaktır.
 
 ## Two Step Authentication - replace backup authentication code
 
@@ -792,6 +793,12 @@ tfa-create-code-error = Yedek kimlik doğrulama kodlarınız oluşturulurken bir
 tfa-replace-code-success-alert-4 = Yedek kimlik doğrulama kodları güncellendi
 # Success message shown after creating backup codes for the first time
 tfa-create-code-success-alert = Yedek kimlik doğrulama kodları oluşturuldu
+# Custom messaging for users replacing existing backup codes - Download step (1 of 2)
+# On this step, the codes are not yet replaced in the database - the old codes are still valid until step 2 is completed.
+tfa-replace-code-download-description = Bu kodları unutmayacağınız bir yerde saklayın. Sonraki adımı tamamladığınızda eski kodlarınız iptal olacaktır.
+# Custom messaging for users replacing existing backup codes - Confirm step (2 of 2)
+# Until this confirmation step is successfully completed, the old codes are still active and the new codes are not saved in the database.
+tfa-replace-code-confirm-description = Kodlarınızı kaydettiğinizi onaylamak için kodlardan birini girin. Bu adımı tamamladığınızda eski yedek kimlik doğrulama kodlarınız devre dışı bırakılacaktır.
 # Error shown when the entered backup code does not match any of the generated codes
 tfa-incorrect-recovery-code-1 = Yanlış yedek kimlik doğrulama kodu
 
