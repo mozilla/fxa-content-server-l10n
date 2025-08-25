@@ -38,6 +38,7 @@ unionpay-logo-alt-text = { -brand-unionpay } logó
 visa-logo-alt-text = { -brand-visa } logó
 # Alt text for generic payment card logo
 unbranded-logo-alt-text = Márka nélküli logó
+link-logo-alt-text = { -brand-link } logó
 
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -114,6 +115,9 @@ subscription-management-card-expires-date = Lejárat: { $expirationDate }
 subscription-management-subscriptions-heading = Előfizetések
 subscription-management-your-subscriptions-aria = Saját előfizetések
 subscription-management-no-subscriptions = Még nincs előfizetése
+subscription-management-button-support = Segítség kérése
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscription-management-button-support-aria = Segítség { $productName } összegért
 subscription-management-your-apple-iap-subscriptions-aria = { -brand-apple } alkalmazásbeli előfizetései
 subscription-management-apple-in-app-purchase = { -brand-apple }: Alkalmazáson belüli vásárlás
 subscription-management-your-google-iap-subscriptions-aria = { -brand-google } alkalmazásbeli előfizetései
