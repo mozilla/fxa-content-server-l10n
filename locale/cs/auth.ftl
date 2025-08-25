@@ -477,10 +477,10 @@ postChangeTwoStepAuthentication-subject = Dvoufázové ověřování bylo aktual
 postChangeTwoStepAuthentication-title = Dvoufázové ověřování bylo aktualizováno
 postChangeTwoStepAuthentication-use-new-account = Nyní je potřeba ve své autentizační aplikaci použít novou položku { -product-mozilla-account }. Starší z nich už nebude fungovat a můžete ji odebrat.
 # After the colon, there is a description of the device that the user used to enable two-step authentication
-postChangeTwoStepAuthentication-from-device = Vyžádali jste si to z:
+postChangeTwoStepAuthentication-from-device = Vyžádali jste o to z:
 postChangeTwoStepAuthentication-action = Správa účtu
 postChangeTwoStepAuthentication-how-protects-link = Jak tato funkce chrání váš účet
-postChangeTwoStepAuthentication-how-protects-plaintext = Jak tato nastavení chrání váš účet:
+postChangeTwoStepAuthentication-how-protects-plaintext = Jak to chrání váš účet:
 postConsumeRecoveryCode-title-3 = Váš záložní ověřovací kód byl použit jako potvrzení obnovení hesla
 # After the colon, there is description of the device that the backup authentication code was used on
 # E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
