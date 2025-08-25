@@ -291,6 +291,12 @@ subscription-content-button-cancel-subscription = Anuluj subskrypcję
     .aria-label = Anuluj subskrypcję { $productName }
 subscription-content-button-cancel = Anuluj
     .aria-label = Anuluj subskrypcję { $productName }
+subscription-content-cancel-action-error = Wystąpił nieoczekiwany błąd. Spróbuj ponownie.
+subscription-cancellation-dialog-title = Przykro nam, że odchodzisz
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+subscription-cancellation-dialog-msg = Subskrypcja { $name } została anulowana. Będziesz mieć dostęp do { $name } do dnia { $date }.
+subscription-cancellation-dialog-aside = Masz pytania? Odwiedź <LinkExternal>pomoc { -brand-mozilla(case: "gen") }</LinkExternal>.
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.

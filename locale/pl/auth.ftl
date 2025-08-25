@@ -481,6 +481,12 @@ postChangeRecoveryPhone-requested-device = Zażądano z urządzenia:
 postChangeTwoStepAuthentication-preview = Twoje konto jest chronione
 postChangeTwoStepAuthentication-subject = Zaktualizowano uwierzytelnianie dwuetapowe
 postChangeTwoStepAuthentication-title = Uwierzytelnianie dwuetapowe zostało zaktualizowane
+postChangeTwoStepAuthentication-use-new-account = Teraz musisz używać nowego wpisu { -product-mozilla-account } w swojej aplikacji uwierzytelniającej. Stary wpis nie będzie już działał i możesz go usunąć.
+# After the colon, there is a description of the device that the user used to enable two-step authentication
+postChangeTwoStepAuthentication-from-device = Zażądano z urządzenia:
+postChangeTwoStepAuthentication-action = Zarządzaj kontem
+postChangeTwoStepAuthentication-how-protects-link = W jaki sposób chroni to Twoje konto
+postChangeTwoStepAuthentication-how-protects-plaintext = W jaki sposób chroni to Twoje konto:
 postConsumeRecoveryCode-title-3 = Zapasowy kod uwierzytelniania został użyty do potwierdzenia zmiany hasła
 # After the colon, there is description of the device that the backup authentication code was used on
 # E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
