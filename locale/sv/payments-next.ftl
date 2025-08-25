@@ -61,6 +61,7 @@ intent-payment-error-get-in-touch = Hmm. Det gick inte att godkänna din betalni
 intent-payment-error-generic = Ett oväntat fel har uppstått vid bearbetningen av din betalning. Försök igen.
 intent-payment-error-insufficient-funds = Det ser ut som att ditt kort inte har tillräckligt med pengar. Prova med ett annat kort.
 general-paypal-error = Ett oväntat fel har uppstått vid bearbetningen av din betalning. Försök igen.
+paypal-active-subscription-no-billing-agreement-error = Det ser ut som att det uppstod ett problem med faktureringen av ditt { -brand-paypal }-konto. Återaktivera automatiska betalningar för din prenumeration.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -144,6 +145,8 @@ subscription-management-breadcrumb-account-home = Startsida för konton
 subscription-management-breadcrumb-subscriptions = Prenumerationer
 # Link title - Payment method management
 subscription-management-breadcrumb-payment = Betalningsmetoder
+# $page refers to page titles used in the breadcrumb menu (e.g. Account Home, Subscriptions, Payment Methods)
+subscription-management-breadcrumb-back-aria = Gå tillbaka till { $page }
 
 ## Component - Payment Consent Checkbox
 
@@ -289,6 +292,22 @@ subscription-content-button-cancel-subscription = Avbryt prenumeration
     .aria-label = Avbryt prenumeration på { $productName }
 subscription-content-button-cancel = Avbryt
     .aria-label = Avbryt din prenumeration på { $productName }
+subscription-content-cancel-action-error = Ett oväntat fel uppstod. Försök igen.
+subscription-cancellation-dialog-title = Vi tycker det är tråkigt att du lämnar oss
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+subscription-cancellation-dialog-msg = Din prenumeration på { $name } har avbrutits. Du har fortfarande åtkomst till { $name } tills { $date }.
+subscription-cancellation-dialog-aside = Har du frågor? Besök <LinkExternal>{ -brand-mozilla } Support</LinkExternal>.
+subscription-content-button-resubscribe = Prenumerera igen
+    .aria-label = Prenumerera på { $productName } igen
+# $date (Date) - Last day of product access
+subscription-content-resubscribe = Du förlorar åtkomsten till { $name } den <strong>{ $date }</strong>.
+resubscribe-dialog-title = Vill du fortsätta använda { $name }?
+resubscribe-dialog-content = Din åtkomst till { $name } fortsätter, och din faktureringscykel och betalningscykel förblir desamma. Din nästa debitering blir { $amount } den { $endDate }.
+resubscribe-dialog-action-button = Behåll din prenumeration
+resubscribe-success-dialog-title = Tack! Du är klar.
+resubscribe-success-dialog-action-button = Stäng
+dialog-close = Stäng dialogrutan
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.

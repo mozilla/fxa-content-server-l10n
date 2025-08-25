@@ -188,7 +188,7 @@ form-verify-totp-disabled-button-title-alphanumeric = Ange en kod på { $codeLen
 
 get-data-trio-title-firefox = { -brand-firefox }
 get-data-trio-title-firefox-recovery-key = { -brand-firefox } kontoåterställningsnyckel
-get-data-trio-title-backup-verification-codes = Säkerhetskopiera autentiseringskoder
+get-data-trio-title-backup-verification-codes = Reservautentiseringskoder
 get-data-trio-download-2 =
     .title = Hämta
     .aria-label = Hämta
@@ -286,6 +286,8 @@ backup-authentication-codes-image-aria-label =
     .aria-label = Enhetens skärm med koder
 sync-clouds-image-aria-label =
     .aria-label = Moln med en synkroniseringsikon
+confetti-falling-image-aria-label =
+    .aria-label = Animerad fallande konfetti
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -772,14 +774,33 @@ nav-data-collection = Datainsamling och användning
 nav-paid-subs = Betalda prenumerationer
 nav-email-comm = E-postkommunikation
 
+## Page2faChange
+
+page-2fa-change-title = Ändra tvåstegsautentisering
+page-2fa-change-success = Tvåstegsautentisering har uppdaterats
+page-2fa-change-totpinfo-error = Det uppstod ett fel vid ersättning av din tvåstegsautentiseringsapp. Försök igen senare.
+page-2fa-change-qr-instruction = <strong>Steg 1:</strong> Skanna den här QR-koden med en autentiseringsapp, som Duo eller Google Authenticator. Detta skapar en ny anslutning, alla gamla anslutningar fungerar inte längre.
+
 ## Two Step Authentication - replace backup authentication code
 
+# Page title
+tfa-backup-codes-page-title = Säkerhetskopiera autentiseringskoder
 # Error shown when API call fails while replacing existing backup codes
 tfa-replace-code-error-3 = Det uppstod ett problem med att ersätta dina reservautentiseringskoder
 # Error shown when API call fails while creating new backup codes (user had none)
 tfa-create-code-error = Det gick inte att skapa dina reservautentiseringskoder
 # Success message shown in alert bar after successfully replacing existing backup codes
 tfa-replace-code-success-alert-4 = Reservautentiseringskoder uppdaterade
+# Success message shown after creating backup codes for the first time
+tfa-create-code-success-alert = Reservautentiseringskoder har skapats
+# Custom messaging for users replacing existing backup codes - Download step (1 of 2)
+# On this step, the codes are not yet replaced in the database - the old codes are still valid until step 2 is completed.
+tfa-replace-code-download-description = Förvara dessa på en plats du kommer ihåg. Dina gamla koder kommer att ersättas när du är klar med nästa steg.
+# Custom messaging for users replacing existing backup codes - Confirm step (2 of 2)
+# Until this confirmation step is successfully completed, the old codes are still active and the new codes are not saved in the database.
+tfa-replace-code-confirm-description = Bekräfta att du sparat dina koder genom att ange en. Dina gamla reservautentiseringskoder kommer att inaktiveras när detta steg är slutfört.
+# Error shown when the entered backup code does not match any of the generated codes
+tfa-incorrect-recovery-code-1 = Felaktig reservautentiseringskod
 
 ## Page2faSetup
 
@@ -1181,6 +1202,7 @@ tfa-row-enabled = Aktiverad
 tfa-row-disabled-status = Inaktiverad
 tfa-row-action-add = Lägg till
 tfa-row-action-disable = Inaktivera
+tfa-row-action-change = Ändra
 tfa-row-button-refresh =
     .title = Uppdatera tvåstegsautentisering
 tfa-row-cannot-refresh =
