@@ -806,12 +806,12 @@ verifyAccountChange-prompt = Os ydych, dyma eich cod awdurdodi:
 # $expirationTime (Number) - Represents the expiration time in minutes
 verifyAccountChange-expiry-notice =
     { $expirationTime ->
-        [one] Mae'n dod i ben ymhen { $expirationTime } munud.
-        [zero] Mae'n dod i ben ymhen { $expirationTime } munud.
-        [two] Mae'n dod i ben ymhen { $expirationTime } funud.
-        [few] Mae'n dod i ben ymhen { $expirationTime } munud.
-        [many] Mae'n dod i ben ymhen { $expirationTime } munud.
-       *[other] Mae'n dod i ben ymhen { $expirationTime } munud.
+        [one] Daw i ben ymhen { $expirationTime } munud.
+        [zero] Daw i ben ymhen { $expirationTime } munud.
+        [two] Daw i ben ymhen { $expirationTime } funud.
+        [few] Daw i ben ymhen { $expirationTime } munud.
+        [many] Daw i ben ymhen { $expirationTime } munud.
+       *[other] Daw i ben ymhen { $expirationTime } munud.
     }
 # Variables:
 #  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
