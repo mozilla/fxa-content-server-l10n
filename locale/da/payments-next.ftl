@@ -36,6 +36,7 @@ unionpay-logo-alt-text = { -brand-unionpay }-logo
 visa-logo-alt-text = { -brand-visa }-logo
 # Alt text for generic payment card logo
 unbranded-logo-alt-text = Umærket logo
+link-logo-alt-text = { -brand-link }-logo
 
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -61,6 +62,7 @@ intent-payment-error-get-in-touch = Hmm. Der opstod et problem med at godkende d
 intent-payment-error-generic = Der opstod en uventet fejl under behandlingen af din betaling. Prøv igen.
 intent-payment-error-insufficient-funds = Det ser ud til, at der ikke er penge nok på dit kort. Prøv et andet kort.
 general-paypal-error = Der opstod en uventet fejl under behandlingen af din betaling. Prøv igen.
+paypal-active-subscription-no-billing-agreement-error = Det ser ud til, at der var et problem med at fakturere din { -brand-paypal }-konto. Genaktivér automatiske betalinger for dit abonnement.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -111,6 +113,9 @@ subscription-management-card-expires-date = Udløber { $expirationDate }
 subscription-management-subscriptions-heading = Abonnementer
 subscription-management-your-subscriptions-aria = Dine abonnementer
 subscription-management-no-subscriptions = Du har ingen abonnementer endnu.
+subscription-management-button-support = Få hjælp
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscription-management-button-support-aria = Få hjælp til { $productName }
 subscription-management-your-apple-iap-subscriptions-aria = Dine { -brand-apple }-abonnementer købt i appen
 subscription-management-apple-in-app-purchase = { -brand-apple }: Køb i appen
 subscription-management-your-google-iap-subscriptions-aria = Dine { -brand-google }-abonnementer købt i appen
@@ -144,6 +149,8 @@ subscription-management-breadcrumb-account-home = Startside for konto
 subscription-management-breadcrumb-subscriptions = Abonnementer
 # Link title - Payment method management
 subscription-management-breadcrumb-payment = Betalingsmetoder
+# $page refers to page titles used in the breadcrumb menu (e.g. Account Home, Subscriptions, Payment Methods)
+subscription-management-breadcrumb-back-aria = Gå tilbage til { $page }
 
 ## Component - Payment Consent Checkbox
 
@@ -289,6 +296,12 @@ subscription-content-button-cancel-subscription = Annuller abonnement
     .aria-label = Annuller abonnement på { $productName }
 subscription-content-button-cancel = Annuller
     .aria-label = Annuller dit abonnement på { $productName }
+subscription-content-cancel-action-error = Der opstod en uventet fejl. Prøv igen.
+subscription-cancellation-dialog-title = Vi er kede af, at du opsiger dit abonnement
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+subscription-cancellation-dialog-msg = Dit abonnement på { $name } er blevet annulleret. Du har adgang til { $name } frem til { $date }.
+subscription-cancellation-dialog-aside = Har du spørgsmål? Besøg <LinkExternal>{ -brand-mozilla } Support</LinkExternal>.
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.

@@ -731,6 +731,15 @@ subscriptionUpgrade-content-old-price-week = Den tidligere pris var { $paymentAm
 subscriptionUpgrade-content-old-price-month = Den tidligere pris var { $paymentAmountOld } per måned.
 subscriptionUpgrade-content-old-price-year = Den tidligere pris var { $paymentAmountOld } per år.
 subscriptionUpgrade-content-old-price-default = Den tidligere pris var { $paymentAmountOld } per faktureringsperiode.
+subscriptionUpgrade-content-new-price-day = Fremover vil du blive opkrævet { $paymentAmountNew } per dag, eksklusive rabatter.
+subscriptionUpgrade-content-new-price-week = Fremover vil du blive opkrævet { $paymentAmountNew } per uge, eksklusive rabatter.
+subscriptionUpgrade-content-new-price-month = Fremover vil du blive opkrævet { $paymentAmountNew } per måned, eksklusive rabatter.
+subscriptionUpgrade-content-new-price-default = Fremover vil du blive opkrævet { $paymentAmountNew } per faktureringsperiode, eksklusive rabatter.
+subscriptionUpgrade-content-new-price-day-dtax = Fremover vil du blive opkrævet { $paymentAmountNew } + { $paymentTaxNew } per dag, eksklusive rabatter.
+subscriptionUpgrade-content-new-price-week-tax = Fremover vil du blive opkrævet { $paymentAmountNew } + { $paymentTaxNew } per uge, eksklusive rabatter.
+subscriptionUpgrade-content-new-price-month-tax = Fremover vil du blive opkrævet { $paymentAmountNew } + { $paymentTaxNew } per måned, eksklusive rabatter.
+subscriptionUpgrade-content-new-price-year-tax = Fremover vil du blive opkrævet { $paymentAmountNew } + { $paymentTaxNew } per år, eksklusive rabatter.
+subscriptionUpgrade-content-new-price-default-tax = Fremover vil du blive opkrævet { $paymentAmountNew } + { $paymentTaxNew } per faktureringsperiode, eksklusive rabatter.
 subscriptionUpgrade-existing = Hvis nogle af dine eksisterende abonnementer overlapper med denne opgradering, tager vi højde for det og sender dig en separat mail med detaljerne. Hvis din nye plan inkluderer produkter, der kræver installation, sender vi dig en separat mail med en opsætningsvejledning.
 subscriptionUpgrade-auto-renew = Dit abonnement fornys automatisk hver faktureringsperiode, medmindre du vælger at annullere.
 unblockCode-subject = Godkendelseskode til konto
@@ -762,6 +771,27 @@ verify-title-3 = Åbn internettet med { -brand-mozilla }
 verify-description-2 = Bekræft din konto og få mest muligt ud af { -brand-mozilla }, overalt hvor du logger ind:
 verify-subject = Færdiggør oprettelsen af din konto
 verify-action-2 = Bekræft konto
+# Variables:
+# $code (String) - The verification code
+verifyAccountChange-subject = Brug { $code } til at ændre din konto
+# Variables:
+# $expirationTime (Number) - Represents the expiration time in minutes
+verifyAccountChange-preview =
+    { $expirationTime ->
+        [one] Denne kode udløber om { $expirationTime } minut.
+       *[other] Denne kode udløber om { $expirationTime } minutter.
+    }
+verifyAccountChange-title = Ændrer du dine kontooplysninger?
+# After the colon is a description of the device used to sign in to the service
+verifyAccountChange-safe = Hold din konto sikker ved at godkende denne ændring på:
+verifyAccountChange-prompt = Hvis du gør det, så er din godkendelseskode her:
+# Variables:
+# $expirationTime (Number) - Represents the expiration time in minutes
+verifyAccountChange-expiry-notice =
+    { $expirationTime ->
+        [one] Den udløber om { $expirationTime } minut.
+       *[other] Den udløber om { $expirationTime } minutter.
+    }
 # Variables:
 #  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title-2 = Har du logget ind på { $clientName }?
