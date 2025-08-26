@@ -114,6 +114,8 @@ subscription-management-subscriptions-heading = 訂閱項目
 subscription-management-your-subscriptions-aria = 您的訂閱項目
 subscription-management-no-subscriptions = 您尚未訂閱任何項目
 subscription-management-button-support = 取得幫助
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscription-management-button-support-aria = 取得 { $productName } 的協助
 subscription-management-your-apple-iap-subscriptions-aria = 您的 { -brand-apple } 應用程式內訂閱項目
 subscription-management-apple-in-app-purchase = { -brand-apple }：應用程式內購買
 subscription-management-your-google-iap-subscriptions-aria = 您的 { -brand-google } 應用程式內訂閱項目
