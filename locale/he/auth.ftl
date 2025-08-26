@@ -745,6 +745,27 @@ verify-description-2 = אימות החשבון שלך יאפשר לך להפיק
 verify-subject = סיום יצירת החשבון שלך
 verify-action-2 = אימות החשבון
 # Variables:
+# $code (String) - The verification code
+verifyAccountChange-subject = יש להשתמש ב־{ $code } כדי לשנות את החשבון שלך
+# Variables:
+# $expirationTime (Number) - Represents the expiration time in minutes
+verifyAccountChange-preview =
+    { $expirationTime ->
+        [one] הקוד יפוג בעוד דקה.
+       *[other] הקוד יפוג בעוד { $expirationTime } דקות.
+    }
+verifyAccountChange-title = האם הינך בתהליך שינוי פרטי החשבון שלך?
+# After the colon is a description of the device used to sign in to the service
+verifyAccountChange-safe = באפשרותך לעזור לנו לשמור על בטיחות החשבון שלך על־ידי אישור שינוי זה במכשיר:
+verifyAccountChange-prompt = אם כן, להלן קוד האישור שלך:
+# Variables:
+# $expirationTime (Number) - Represents the expiration time in minutes
+verifyAccountChange-expiry-notice =
+    { $expirationTime ->
+        [one] הוא יפוג בעוד דקה.
+       *[other] הוא יפוג בעוד { $expirationTime } דקות.
+    }
+# Variables:
 #  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title-2 = האם התחברת ל־{ $clientName }?
 verifyLogin-description-2 = באפשרותך לעזור לנו לשמור על בטיחות החשבון שלך על־ידי אישור הכניסה שלך במכשיר:
