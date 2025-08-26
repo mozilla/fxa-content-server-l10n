@@ -786,7 +786,7 @@ verify-subject = Completa la creazione del tuo account
 verify-action-2 = Conferma account
 # Variables:
 # $code (String) - The verification code
-verifyAccountChange-subject = Utilizza { $code } per cambiare account
+verifyAccountChange-subject = Utilizza { $code } per modificare il tuo account
 # Variables:
 # $expirationTime (Number) - Represents the expiration time in minutes
 verifyAccountChange-preview =
@@ -794,7 +794,7 @@ verifyAccountChange-preview =
         [one] Questo codice scade tra { $expirationTime } minuto.
        *[other] Questo codice scade tra { $expirationTime } minuti.
     }
-verifyAccountChange-title = Stai modificando le informazioni del tuo account?
+verifyAccountChange-title = Stai modificando le informazioni relative al tuo account?
 # After the colon is a description of the device used to sign in to the service
 verifyAccountChange-safe = Aiutaci a mantenere il tuo account al sicuro approvando questa modifica:
 verifyAccountChange-prompt = In caso affermativo, questo è il tuo codice di autorizzazione:
