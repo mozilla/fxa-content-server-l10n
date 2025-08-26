@@ -302,6 +302,7 @@ subscription-cancellation-dialog-title = Vi er kede af, at du opsiger dit abonne
 # $date (Date) - Last day of product access
 subscription-cancellation-dialog-msg = Dit abonnement på { $name } er blevet annulleret. Du har adgang til { $name } frem til { $date }.
 subscription-cancellation-dialog-aside = Har du spørgsmål? Besøg <LinkExternal>{ -brand-mozilla } Support</LinkExternal>.
+dialog-close = Luk dialogboks
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.

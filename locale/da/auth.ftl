@@ -738,6 +738,7 @@ subscriptionUpgrade-content-new-price-default = Fremover vil du blive opkrævet 
 subscriptionUpgrade-content-new-price-day-dtax = Fremover vil du blive opkrævet { $paymentAmountNew } + { $paymentTaxNew } per dag, eksklusive rabatter.
 subscriptionUpgrade-content-new-price-week-tax = Fremover vil du blive opkrævet { $paymentAmountNew } + { $paymentTaxNew } per uge, eksklusive rabatter.
 subscriptionUpgrade-content-new-price-month-tax = Fremover vil du blive opkrævet { $paymentAmountNew } + { $paymentTaxNew } per måned, eksklusive rabatter.
+subscriptionUpgrade-content-new-price-halfyear-tax = Fremover vil du blive opkrævet { $paymentAmountNew } + { $paymentTaxNew } per halvår, eksklusive rabatter.
 subscriptionUpgrade-content-new-price-year-tax = Fremover vil du blive opkrævet { $paymentAmountNew } + { $paymentTaxNew } per år, eksklusive rabatter.
 subscriptionUpgrade-content-new-price-default-tax = Fremover vil du blive opkrævet { $paymentAmountNew } + { $paymentTaxNew } per faktureringsperiode, eksklusive rabatter.
 subscriptionUpgrade-existing = Hvis nogle af dine eksisterende abonnementer overlapper med denne opgradering, tager vi højde for det og sender dig en separat mail med detaljerne. Hvis din nye plan inkluderer produkter, der kræver installation, sender vi dig en separat mail med en opsætningsvejledning.
