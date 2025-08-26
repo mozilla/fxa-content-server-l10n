@@ -783,6 +783,27 @@ verify-description-2 = დაამოწმეთ თქვენი ანგ�
 verify-subject = დაასრულეთ ანგარიშის შექმნა
 verify-action-2 = ანგარიშის დადასტურება
 # Variables:
+# $code (String) - The verification code
+verifyAccountChange-subject = გამოიყენეთ { $code } ანგარიშის შესაცვლელად
+# Variables:
+# $expirationTime (Number) - Represents the expiration time in minutes
+verifyAccountChange-preview =
+    { $expirationTime ->
+        [one] კოდს ვადა ეწურება { $expirationTime } წუთში.
+       *[other] კოდს ვადა ეწურება { $expirationTime } წუთში.
+    }
+verifyAccountChange-title = ცვლით თქვენი ანგარიშის მონაცემებს?
+# After the colon is a description of the device used to sign in to the service
+verifyAccountChange-safe = დაგვეხმარეთ თქვენი ანგარიშის უსაფრთხოების უზრუნველყოფაში ამ ცვლილების დამოწმებით:
+verifyAccountChange-prompt = თუ კი, მაშინ აქაა თქვენი დასამოწმებელი კოდი:
+# Variables:
+# $expirationTime (Number) - Represents the expiration time in minutes
+verifyAccountChange-expiry-notice =
+    { $expirationTime ->
+        [one] ვადა ეწურება { $expirationTime } წუთში.
+       *[other] ვადა ეწურება { $expirationTime } წუთში.
+    }
+# Variables:
 #  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title-2 = თქვენ გამოიყენეთ ანგარიში { $clientName }?
 verifyLogin-description-2 = დაგვეხმარეთ თქვენი ანგარიშის უსაფრთხოებაში შესვლის დადასტურებით:

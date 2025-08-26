@@ -39,6 +39,7 @@ unionpay-logo-alt-text = { -brand-unionpay }-ლოგო
 visa-logo-alt-text = { -brand-visa }-ლოგო
 # Alt text for generic payment card logo
 unbranded-logo-alt-text = გამოსახულების არმქონე ლოგო
+link-logo-alt-text = { -brand-link }–ლოგო
 
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -115,6 +116,9 @@ subscription-management-card-expires-date = მოქმედების ვ�
 subscription-management-subscriptions-heading = გამოწერები
 subscription-management-your-subscriptions-aria = თქვენი გამოწერილები
 subscription-management-no-subscriptions = გამოწერილები ჯერ არაა
+subscription-management-button-support = დახმარების მიღება
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscription-management-button-support-aria = დახმარების მიღება – { $productName }
 subscription-management-your-apple-iap-subscriptions-aria = თქვენი { -brand-apple } შიდა გამოწერებით
 subscription-management-apple-in-app-purchase = { -brand-apple }: აპის შიდა შესყიდვა
 subscription-management-your-google-iap-subscriptions-aria = თქვენი { -brand-google } შიდა გამოწერებით

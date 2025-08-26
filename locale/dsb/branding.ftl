@@ -49,6 +49,8 @@
 -brand-diners = Diners Club
 -brand-discover = Discover
 -brand-jcb = JCB
+# Link payment processor (by Stripe)
+-brand-link = Wótkaz
 -brand-mastercard = Mastercard
 -brand-unionpay = UnionPay
 -brand-visa = Visa

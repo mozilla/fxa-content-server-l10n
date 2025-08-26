@@ -797,6 +797,18 @@ verifyAccountChange-preview =
        *[other] Toś ten kod za { $expirationTime } minutow spadnjo.
     }
 verifyAccountChange-title = Změnjaśo swóje kontowe informacije?
+# After the colon is a description of the device used to sign in to the service
+verifyAccountChange-safe = Pśizwólśo toś tu změnu, aby nam pomagał, wašo konto šćitaś:
+verifyAccountChange-prompt = Jolic jo, how jo waš awtorizěrowański kod:
+# Variables:
+# $expirationTime (Number) - Represents the expiration time in minutes
+verifyAccountChange-expiry-notice =
+    { $expirationTime ->
+        [one] Spadnjo za { $expirationTime } minutu.
+        [two] Spadnjo za { $expirationTime } minuśe.
+        [few] Spadnjo za { $expirationTime } minuty.
+       *[other] Spadnjo za { $expirationTime } minutow.
+    }
 # Variables:
 #  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title-2 = Sćo se pśizjawił pla { $clientName }?
