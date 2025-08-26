@@ -783,6 +783,20 @@ verify-description-2 = Bevestig uw account en haal overal waar u zich aanmeldt h
 verify-subject = Aanmaken van uw account voltooien
 verify-action-2 = Account bevestigen
 # Variables:
+# $code (String) - The verification code
+verifyAccountChange-subject = Gebruik { $code } om uw account te wijzigen
+# Variables:
+# $expirationTime (Number) - Represents the expiration time in minutes
+verifyAccountChange-preview =
+    { $expirationTime ->
+        [one] Deze code verloopt over { $expirationTime } minuut.
+       *[other] Deze code verloopt over { $expirationTime } minuten.
+    }
+verifyAccountChange-title = Wijzigt u uw accountgegevens?
+# After the colon is a description of the device used to sign in to the service
+verifyAccountChange-safe = Help ons uw account veilig te houden door deze wijziging goed te keuren op:
+verifyAccountChange-prompt = Zo ja, dan is dit uw autorisatiecode:
+# Variables:
 #  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title-2 = Hebt u zich aangemeld bij { $clientName }?
 verifyLogin-description-2 = Help ons uw account veilig te houden door te bevestigen dat u bent aangemeld op:
