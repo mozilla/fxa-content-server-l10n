@@ -39,6 +39,7 @@ unionpay-logo-alt-text = Logo { -brand-unionpay }
 visa-logo-alt-text = Logo { -brand-visa }
 # Alt text for generic payment card logo
 unbranded-logo-alt-text = Logo bjez marki
+link-logo-alt-text = Logo { -brand-link }
 
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -115,6 +116,9 @@ subscription-management-card-expires-date = Spadnje { $expirationDate }
 subscription-management-subscriptions-heading = Abonementy
 subscription-management-your-subscriptions-aria = Waše abonementy
 subscription-management-no-subscriptions = Hišće abonementy nimaće.
+subscription-management-button-support = Pomoc sej wobstarać
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscription-management-button-support-aria = Wobstarajće sej pomoc za { $productName }
 subscription-management-your-apple-iap-subscriptions-aria = Waše abonementy w nałoženju { -brand-apple }
 subscription-management-apple-in-app-purchase = { -brand-apple }: Kup w nałoženju
 subscription-management-your-google-iap-subscriptions-aria = Waše abonementy w nałoženju { -brand-google }

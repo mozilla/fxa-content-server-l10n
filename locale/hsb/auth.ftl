@@ -788,6 +788,28 @@ verify-action-2 = Konto wobkrućić
 # $code (String) - The verification code
 verifyAccountChange-subject = Wužiwajće { $code }, zo byšće swoje konto změnił
 # Variables:
+# $expirationTime (Number) - Represents the expiration time in minutes
+verifyAccountChange-preview =
+    { $expirationTime ->
+        [one] Tutón kod za { $expirationTime } mjeńšinu spadnje.
+        [two] Tutón kod za { $expirationTime } mjeńšinje spadnje.
+        [few] Tutón kod za { $expirationTime } mjeńšiny spadnje.
+       *[other] Tutón kod za { $expirationTime } mjeńšinow spadnje.
+    }
+verifyAccountChange-title = Měnjeće swoje kontowe informacije?
+# After the colon is a description of the device used to sign in to the service
+verifyAccountChange-safe = Schwalće tutu změnu, zo byšće nam pomhał, waše konto škitać:
+verifyAccountChange-prompt = Jeli haj, tu je waš awtorizowanski kod:
+# Variables:
+# $expirationTime (Number) - Represents the expiration time in minutes
+verifyAccountChange-expiry-notice =
+    { $expirationTime ->
+        [one] Spadnje za { $expirationTime } mjeńšinu.
+        [two] Spadnje za { $expirationTime } mjeńšinje.
+        [few] Spadnje za { $expirationTime } mjeńšiny.
+       *[other] Spadnje za { $expirationTime } mjeńšinow.
+    }
+# Variables:
 #  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title-2 = Sće so pola { $clientName } přizjewił?
 verifyLogin-description-2 = Wobkrućće, zo sće so přizjewił, zo byšće nam pomhał, waše konto škitać.

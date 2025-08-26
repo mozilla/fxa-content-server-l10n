@@ -785,6 +785,19 @@ verify-description-2 = Wobkšuśćo swójo konto a wuwónoźćo nejlěpše z { -
 verify-subject = Dokóńcćo załožowanje swójogo konta
 verify-action-2 = Konto wobkšuśiś
 # Variables:
+# $code (String) - The verification code
+verifyAccountChange-subject = Wužywajśo { $code }, aby swójo konto změnił
+# Variables:
+# $expirationTime (Number) - Represents the expiration time in minutes
+verifyAccountChange-preview =
+    { $expirationTime ->
+        [one] Toś ten kod za { $expirationTime } minutu spadnjo.
+        [two] Toś ten kod za { $expirationTime } minuśe spadnjo.
+        [few] Toś ten kod za { $expirationTime } minuty spadnjo.
+       *[other] Toś ten kod za { $expirationTime } minutow spadnjo.
+    }
+verifyAccountChange-title = Změnjaśo swóje kontowe informacije?
+# Variables:
 #  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title-2 = Sćo se pśizjawił pla { $clientName }?
 verifyLogin-description-2 = Wobkšuśćo, až sćo se pśizjawił, aby nam pomagał, wašo konto šćitaś.
