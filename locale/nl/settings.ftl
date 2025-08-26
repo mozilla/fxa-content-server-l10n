@@ -799,6 +799,8 @@ tfa-replace-code-download-description = Bewaar deze op een plek die u kunt ontho
 # Custom messaging for users replacing existing backup codes - Confirm step (2 of 2)
 # Until this confirmation step is successfully completed, the old codes are still active and the new codes are not saved in the database.
 tfa-replace-code-confirm-description = Bevestig dat u uw codes hebt opgeslagen door er één in te voeren. Uw oude reserve-authenticatiecodes worden uitgeschakeld zodra deze stap is voltooid.
+# Error shown when the entered backup code does not match any of the generated codes
+tfa-incorrect-recovery-code-1 = Onjuiste reserve-authenticatiecode
 
 ## Page2faSetup
 
@@ -1200,6 +1202,7 @@ tfa-row-enabled = Ingeschakeld
 tfa-row-disabled-status = Uitgeschakeld
 tfa-row-action-add = Toevoegen
 tfa-row-action-disable = Uitschakelen
+tfa-row-action-change = Wijzigen
 tfa-row-button-refresh =
     .title = Authenticatie in twee stappen vernieuwen
 tfa-row-cannot-refresh =
