@@ -36,6 +36,7 @@ unionpay-logo-alt-text = Logo { -brand-unionpay }
 visa-logo-alt-text = Logo { -brand-visa }
 # Alt text for generic payment card logo
 unbranded-logo-alt-text = Neznačkové logo
+link-logo-alt-text = Logo { -brand-link }
 
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -112,6 +113,9 @@ subscription-management-card-expires-date = Vyprší { $expirationDate }
 subscription-management-subscriptions-heading = Predplatné
 subscription-management-your-subscriptions-aria = Vaše predplatné
 subscription-management-no-subscriptions = Zatiaľ nemáte žiadne predplatné
+subscription-management-button-support = Získať pomoc
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscription-management-button-support-aria = Získajte pomoc pre { $productName }
 subscription-management-your-apple-iap-subscriptions-aria = Vaše predplatné v aplikácii { -brand-apple }
 subscription-management-apple-in-app-purchase = { -brand-apple }: Nákup v aplikácii
 subscription-management-your-google-iap-subscriptions-aria = Vaše predplatné v aplikácii { -brand-google }
