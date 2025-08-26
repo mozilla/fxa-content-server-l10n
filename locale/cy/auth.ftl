@@ -791,14 +791,14 @@ verifyAccountChange-subject = Defnyddiwch { $code } i newid eich cyfrif
 # $expirationTime (Number) - Represents the expiration time in minutes
 verifyAccountChange-preview =
     { $expirationTime ->
-        [one] Daw'r cod hwn i ben ymhen { $expirationTime } munud.
-        [zero] Mae'r cod hwn yn dod i ben mewn { $expirationTime } munud.
-        [two] Mae'r cod hwn yn dod i ben mewn { $expirationTime } munud.
-        [few] Mae'r cod hwn yn dod i ben mewn { $expirationTime } munud.
-        [many] Mae'r cod hwn yn dod i ben mewn { $expirationTime } munud.
-       *[other] Mae'r cod hwn yn dod i ben mewn { $expirationTime } munud.
+        [one] Daw'r cod hwn i ben ymhen { $expirationTime } munudau.
+        [zero] Daw'r cod hwn i ben ymhen { $expirationTime } munud.
+        [two] Daw'r cod hwn i ben ymhen { $expirationTime } funud
+        [few] Daw'r cod hwn i ben ymhen { $expirationTime } munud
+        [many] Daw'r cod hwn i ben ymhen { $expirationTime } munud
+       *[other] Daw'r cod hwn i ben ymhen { $expirationTime } munud
     }
-verifyAccountChange-title = Ydych chi'n newid gwybodaeth eich cyfrif?
+verifyAccountChange-title = Ydych chi'n newid manylion eich cyfrif?
 # After the colon is a description of the device used to sign in to the service
 verifyAccountChange-safe = Helpwch ni i gadw'ch cyfrif yn ddiogel trwy gymeradwyo'r newid hwn ar:
 verifyAccountChange-prompt = Os ydych, dyma eich cod awdurdodi:
@@ -806,12 +806,12 @@ verifyAccountChange-prompt = Os ydych, dyma eich cod awdurdodi:
 # $expirationTime (Number) - Represents the expiration time in minutes
 verifyAccountChange-expiry-notice =
     { $expirationTime ->
-        [one] Mae'n dod i ben mewn { $expirationTime } munud.
-        [zero] Mae'n dod i ben mewn { $expirationTime } munud.
-        [two] Mae'n dod i ben mewn { $expirationTime } munud.
-        [few] Mae'n dod i ben mewn { $expirationTime } munud.
-        [many] Mae'n dod i ben mewn { $expirationTime } munud.
-       *[other] Mae'n dod i ben mewn { $expirationTime } munud.
+        [one] Mae'n dod i ben ymhen { $expirationTime } munud.
+        [zero] Mae'n dod i ben ymhen { $expirationTime } munud.
+        [two] Mae'n dod i ben ymhen { $expirationTime } funud.
+        [few] Mae'n dod i ben ymhen { $expirationTime } munud.
+        [many] Mae'n dod i ben ymhen { $expirationTime } munud.
+       *[other] Mae'n dod i ben ymhen { $expirationTime } munud.
     }
 # Variables:
 #  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)

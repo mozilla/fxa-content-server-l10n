@@ -36,7 +36,7 @@ unionpay-logo-alt-text = Logo { -brand-unionpay }
 visa-logo-alt-text = Logo  { -brand-visa }
 # Alt text for generic payment card logo
 unbranded-logo-alt-text = Logo heb ei frandio
-link-logo-alt-text = { -brand-link } logo
+link-logo-alt-text = Logi { -brand-link }
 
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -115,7 +115,7 @@ subscription-management-your-subscriptions-aria = Eich tanysgrifiadau
 subscription-management-no-subscriptions = Does gennych chi ddim tanysgrifiadau eto
 subscription-management-button-support = Derbyn cymorth
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscription-management-button-support-aria = Cael help ar gyfer { $productName }
+subscription-management-button-support-aria = Derbyn cymorth ar gyfer { $productName }
 subscription-management-your-apple-iap-subscriptions-aria = Eich Tanysgrifiad { -brand-apple } o Fewn yr Ap
 subscription-management-apple-in-app-purchase = { -brand-apple }: Prynu o Fewn yr Ap
 subscription-management-your-google-iap-subscriptions-aria = Eich Tanysgrifiad { -brand-google } o Fewn yr Ap
