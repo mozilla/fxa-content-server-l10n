@@ -472,6 +472,15 @@ postChangeRecoveryPhone-preview = Account beschermd door authenticatie in twee s
 postChangeRecoveryPhone-title = U hebt uw hersteltelefoonnummer gewijzigd
 postChangeRecoveryPhone-description = U hebt nu een nieuw hersteltelefoonnummer. Uw vorige telefoonnummer is verwijderd.
 postChangeRecoveryPhone-requested-device = U hebt het opgevraagd vanaf:
+postChangeTwoStepAuthentication-preview = Uw account is beschermd
+postChangeTwoStepAuthentication-subject = Authenticatie in twee stappen bijgewerkt
+postChangeTwoStepAuthentication-title = Authenticatie in twee stappen is bijgewerkt
+postChangeTwoStepAuthentication-use-new-account = U dient nu de nieuwe vermelding voor { -product-mozilla-account } in uw authenticator-app te gebruiken. De oudere zal niet meer werken en u kunt hem verwijderen.
+# After the colon, there is a description of the device that the user used to enable two-step authentication
+postChangeTwoStepAuthentication-from-device = U hebt dit opgevraagd van:
+postChangeTwoStepAuthentication-action = Account beheren
+postChangeTwoStepAuthentication-how-protects-link = Hoe dit uw account beschermt
+postChangeTwoStepAuthentication-how-protects-plaintext = Hoe dit uw account beschermt:
 postConsumeRecoveryCode-title-3 = Uw reserve-authenticatiecode is gebruikt om een wachtwoordherinitialisatie te bevestigen
 # After the colon, there is description of the device that the backup authentication code was used on
 # E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
@@ -717,6 +726,31 @@ subscriptionUpgrade-upgrade-info-2 = U bent met succes geüpgraded naar { $produ
 
 subscriptionUpgrade-content-charge-prorated-1 = Er is een eenmalige vergoeding van { $invoiceAmountDue } in rekening gebracht om de hogere prijs van uw abonnement voor de rest van deze factureringsperiode ({ $productPaymentCycleOld }) te weerspiegelen.
 subscriptionUpgrade-content-charge-credit = U hebt een accounttegoed ontvangen voor een bedrag van { $paymentProrated }.
+subscriptionUpgrade-content-subscription-next-bill-change = Vanaf uw volgende factuur wijzigt de prijs van uw abonnement.
+subscriptionUpgrade-content-old-price-day = Het vorige tarief was { $paymentAmountOld } per dag.
+subscriptionUpgrade-content-old-price-week = Het vorige tarief was { $paymentAmountOld } per week.
+subscriptionUpgrade-content-old-price-month = Het vorige tarief was { $paymentAmountOld } per maand.
+subscriptionUpgrade-content-old-price-halfyear = Het vorige tarief was { $paymentAmountOld } per zes maanden.
+subscriptionUpgrade-content-old-price-year = Het vorige tarief was { $paymentAmountOld } per jaar.
+subscriptionUpgrade-content-old-price-default = Het vorige tarief was { $paymentAmountOld } per factureringsinterval.
+subscriptionUpgrade-content-old-price-day-tax = Het vorige tarief was { $paymentAmountOld } + { $paymentTaxOld } btw per dag.
+subscriptionUpgrade-content-old-price-week-tax = Het vorige tarief was { $paymentAmountOld } + { $paymentTaxOld } btw per week.
+subscriptionUpgrade-content-old-price-month-tax = Het vorige tarief was { $paymentAmountOld } + { $paymentTaxOld } btw per maand.
+subscriptionUpgrade-content-old-price-halfyear-tax = Het vorige tarief was { $paymentAmountOld } + { $paymentTaxOld } btw per zes maanden.
+subscriptionUpgrade-content-old-price-year-tax = Het vorige tarief was { $paymentAmountOld } + { $paymentTaxOld } btw per jaar.
+subscriptionUpgrade-content-old-price-default-tax = Het vorige tarief was { $paymentAmountOld } + { $paymentTaxOld } btw per factureringsinterval.
+subscriptionUpgrade-content-new-price-day = Vanaf nu wordt { $paymentAmountNew } per dag in rekening gebracht, exclusief kortingen.
+subscriptionUpgrade-content-new-price-week = Vanaf nu wordt { $paymentAmountNew } per week in rekening gebracht, exclusief kortingen.
+subscriptionUpgrade-content-new-price-month = Vanaf nu wordt { $paymentAmountNew } per maand in rekening gebracht, exclusief kortingen.
+subscriptionUpgrade-content-new-price-halfyear = Vanaf nu wordt { $paymentAmountNew } per zes maanden in rekening gebracht, exclusief kortingen.
+subscriptionUpgrade-content-new-price-year = Vanaf nu wordt { $paymentAmountNew } per jaar in rekening gebracht, exclusief kortingen.
+subscriptionUpgrade-content-new-price-default = Vanaf nu wordt { $paymentAmountNew } per factureringsinterval in rekening gebracht, exclusief kortingen.
+subscriptionUpgrade-content-new-price-day-dtax = Vanaf nu wordt { $paymentAmountNew } + { $paymentTaxNew } btw per dag in rekening gebracht, exclusief kortingen.
+subscriptionUpgrade-content-new-price-week-tax = Vanaf nu wordt { $paymentAmountNew } + { $paymentTaxNew } btw per week in rekening gebracht, exclusief kortingen.
+subscriptionUpgrade-content-new-price-month-tax = Vanaf nu wordt { $paymentAmountNew } + { $paymentTaxNew } btw per maand in rekening gebracht, exclusief kortingen.
+subscriptionUpgrade-content-new-price-halfyear-tax = Vanaf nu wordt { $paymentAmountNew } + { $paymentTaxNew } btw per zes maanden in rekening gebracht, exclusief kortingen.
+subscriptionUpgrade-content-new-price-year-tax = Vanaf nu wordt { $paymentAmountNew } + { $paymentTaxNew } btw per jaar in rekening gebracht, exclusief kortingen.
+subscriptionUpgrade-content-new-price-default-tax = Vanaf nu wordt { $paymentAmountNew } + { $paymentTaxNew } btw per factureringsinterval in rekening gebracht, exclusief kortingen.
 subscriptionUpgrade-existing = Als een van uw bestaande abonnementen deze upgrade overlapt, verwerken we deze en sturen we u een apart e-mailbericht met de details. Als uw nieuwe abonnement producten omvat die installatie vereisen, sturen we u een afzonderlijk e-mailbericht met installatie-instructies.
 subscriptionUpgrade-auto-renew = Uw abonnement wordt automatisch elke factureringsperiode verlengd, tenzij u ervoor kiest om op te zeggen.
 unblockCode-subject = Accountautorisatiecode
