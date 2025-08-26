@@ -472,6 +472,9 @@ postChangeRecoveryPhone-preview = Konto beskyttet af totrinsgodkendelse
 postChangeRecoveryPhone-title = Du ændrede dit telefonnummer til genoprettelse
 postChangeRecoveryPhone-description = Du har nu et nyt telefonnummer til genoprettelse. Dit tidligere telefonnummer blev slettet.
 postChangeRecoveryPhone-requested-device = Du har bedt om det fra:
+postChangeTwoStepAuthentication-preview = Din konto er beskyttet
+postChangeTwoStepAuthentication-subject = Totrinsgodkendelse opdateret
+postChangeTwoStepAuthentication-title = Totrinsgodkendelse er blevet opdateret
 postConsumeRecoveryCode-title-3 = Din reserve-godkendelseskode blev brugt til at bekræfte nulstilling af adgangskode
 # After the colon, there is description of the device that the backup authentication code was used on
 # E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
