@@ -286,6 +286,8 @@ backup-authentication-codes-image-aria-label =
     .aria-label = Apparaatscherm met codes
 sync-clouds-image-aria-label =
     .aria-label = Wolken met een synchronisatiepictogram
+confetti-falling-image-aria-label =
+    .aria-label = Geanimeerde vallende confetti
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -772,14 +774,31 @@ nav-data-collection = Gegevensverzameling en -gebruik
 nav-paid-subs = Betaalde abonnementen
 nav-email-comm = E-mailcommunicatie
 
+## Page2faChange
+
+page-2fa-change-title = Authenticatie in twee stappen wijzigen
+page-2fa-change-success = Authenticatie in twee stappen is bijgewerkt
+page-2fa-change-totpinfo-error = Er is een fout opgetreden bij het vervangen van uw app voor authenticatie in twee stappen. Probeer het later opnieuw.
+page-2fa-change-qr-instruction = <strong>Stap 1:</strong> scan deze QR-code met een authenticator-app, zoals Duo of Google Authenticator. Dit creëert een nieuwe verbinding, oude verbindingen zullen niet meer werken.
+
 ## Two Step Authentication - replace backup authentication code
 
+# Page title
+tfa-backup-codes-page-title = Reserve-authenticatiecodes
 # Error shown when API call fails while replacing existing backup codes
 tfa-replace-code-error-3 = Er is een probleem opgetreden bij het vervangen van uw reserve-authenticatiecodes
 # Error shown when API call fails while creating new backup codes (user had none)
 tfa-create-code-error = Er is een probleem opgetreden bij het aanmaken van uw reserve-authenticatiecodes
 # Success message shown in alert bar after successfully replacing existing backup codes
 tfa-replace-code-success-alert-4 = Reserve-authenticatiecodes bijgewerkt
+# Success message shown after creating backup codes for the first time
+tfa-create-code-success-alert = Reserve-authenticatiecodes aangemaakt
+# Custom messaging for users replacing existing backup codes - Download step (1 of 2)
+# On this step, the codes are not yet replaced in the database - the old codes are still valid until step 2 is completed.
+tfa-replace-code-download-description = Bewaar deze op een plek die u kunt onthouden. Uw oude codes worden vervangen nadat u de volgende stap hebt voltooid.
+# Custom messaging for users replacing existing backup codes - Confirm step (2 of 2)
+# Until this confirmation step is successfully completed, the old codes are still active and the new codes are not saved in the database.
+tfa-replace-code-confirm-description = Bevestig dat u uw codes hebt opgeslagen door er één in te voeren. Uw oude reserve-authenticatiecodes worden uitgeschakeld zodra deze stap is voltooid.
 
 ## Page2faSetup
 

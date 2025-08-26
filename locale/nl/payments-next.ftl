@@ -149,6 +149,8 @@ subscription-management-breadcrumb-account-home = Account-startpagina
 subscription-management-breadcrumb-subscriptions = Abonnementen
 # Link title - Payment method management
 subscription-management-breadcrumb-payment = Betalingsmethoden
+# $page refers to page titles used in the breadcrumb menu (e.g. Account Home, Subscriptions, Payment Methods)
+subscription-management-breadcrumb-back-aria = Terug naar { $page }
 
 ## Component - Payment Consent Checkbox
 
@@ -300,6 +302,15 @@ subscription-cancellation-dialog-title = We vinden het jammer dat u weggaat
 # $date (Date) - Last day of product access
 subscription-cancellation-dialog-msg = Uw abonnement op { $name } is opgezegd. U hebt nog tot { $date } toegang tot { $name }.
 subscription-cancellation-dialog-aside = Vragen? Bezoek <LinkExternal>{ -brand-mozilla } Support</LinkExternal>.
+subscription-content-button-resubscribe = Opnieuw abonneren
+    .aria-label = Opnieuw abonneren op { $productName }
+# $date (Date) - Last day of product access
+subscription-content-resubscribe = U verliest op <strong>{ $date }</strong> toegang tot { $name }.
+resubscribe-dialog-title = Wilt u { $name } blijven gebruiken?
+resubscribe-dialog-content = Uw toegang tot { $name } blijft bestaan, en uw betalingscyclus en betaling blijven hetzelfde. Uw volgende betaling wordt { $amount } op { $endDate }.
+resubscribe-dialog-action-button = Abonnement behouden
+resubscribe-success-dialog-title = Bedankt! U bent helemaal klaar.
+resubscribe-success-dialog-action-button = Sluiten
 dialog-close = Dialoogvenster sluiten
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
