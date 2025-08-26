@@ -36,6 +36,7 @@ unionpay-logo-alt-text = { -brand-unionpay }-logo
 visa-logo-alt-text = { -brand-visa }-logo
 # Alt text for generic payment card logo
 unbranded-logo-alt-text = Umerka logo
+link-logo-alt-text = { -brand-link }-logo
 
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -112,6 +113,9 @@ subscription-management-card-expires-date = Går ut { $expirationDate }
 subscription-management-subscriptions-heading = Abonnement
 subscription-management-your-subscriptions-aria = Ditt abonnement
 subscription-management-no-subscriptions = Du har ikkje noko abonnement enno
+subscription-management-button-support = Få hjelp
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscription-management-button-support-aria = Få hjelp med { $productName }
 subscription-management-your-apple-iap-subscriptions-aria = Dine { -brand-apple } kjøp i app-abonnement
 subscription-management-apple-in-app-purchase = { -brand-apple }: Kjøp i appen
 subscription-management-your-google-iap-subscriptions-aria = Dine { -brand-google } kjøp i app-abonnement
