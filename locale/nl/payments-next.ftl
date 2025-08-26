@@ -36,6 +36,7 @@ unionpay-logo-alt-text = { -brand-unionpay }-logo
 visa-logo-alt-text = { -brand-visa }-logo
 # Alt text for generic payment card logo
 unbranded-logo-alt-text = Merkloos logo
+link-logo-alt-text = { -brand-link }-logo
 
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -112,6 +113,9 @@ subscription-management-card-expires-date = Vervalt op { $expirationDate }
 subscription-management-subscriptions-heading = Abonnementen
 subscription-management-your-subscriptions-aria = Uw abonnementen
 subscription-management-no-subscriptions = U hebt nog geen abonnementen
+subscription-management-button-support = Hulp verkrijgen
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscription-management-button-support-aria = Hulp voor { $productName } verkrijgen
 subscription-management-your-apple-iap-subscriptions-aria = Uw { -brand-apple }-in-app-abonnementen
 subscription-management-apple-in-app-purchase = { -brand-apple }: in-app-aankoop
 subscription-management-your-google-iap-subscriptions-aria = Uw { -brand-google }-in-app-abonnementen
