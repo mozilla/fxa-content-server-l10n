@@ -36,6 +36,7 @@ unionpay-logo-alt-text = { -brand-unionpay } 圖示
 visa-logo-alt-text = { -brand-visa } 圖示
 # Alt text for generic payment card logo
 unbranded-logo-alt-text = 無品牌圖示
+link-logo-alt-text = { -brand-link } 圖示
 
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -112,6 +113,7 @@ subscription-management-card-expires-date = 到期於 { $expirationDate }
 subscription-management-subscriptions-heading = 訂閱項目
 subscription-management-your-subscriptions-aria = 您的訂閱項目
 subscription-management-no-subscriptions = 您尚未訂閱任何項目
+subscription-management-button-support = 取得幫助
 subscription-management-your-apple-iap-subscriptions-aria = 您的 { -brand-apple } 應用程式內訂閱項目
 subscription-management-apple-in-app-purchase = { -brand-apple }：應用程式內購買
 subscription-management-your-google-iap-subscriptions-aria = 您的 { -brand-google } 應用程式內訂閱項目

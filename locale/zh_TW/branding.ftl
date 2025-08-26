@@ -49,6 +49,8 @@
 -brand-diners = 大來卡
 -brand-discover = Discover
 -brand-jcb = JCB
+# Link payment processor (by Stripe)
+-brand-link = 連結
 -brand-mastercard = Mastercard
 -brand-unionpay = 銀聯
 -brand-visa = Visa
