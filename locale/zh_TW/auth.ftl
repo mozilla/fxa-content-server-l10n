@@ -783,6 +783,16 @@ verify-action-2 = 確認帳號
 # $code (String) - The verification code
 verifyAccountChange-subject = 使用 { $code } 更改帳號
 # Variables:
+# $expirationTime (Number) - Represents the expiration time in minutes
+verifyAccountChange-preview = 此代碼將於 { $expirationTime } 分鐘後失效。
+verifyAccountChange-title = 您真的要更改帳號資訊嗎？
+# After the colon is a description of the device used to sign in to the service
+verifyAccountChange-safe = 為了確保您的帳號安全，請確認此變更：
+verifyAccountChange-prompt = 是您修改的話，請使用下列授權碼：
+# Variables:
+# $expirationTime (Number) - Represents the expiration time in minutes
+verifyAccountChange-expiry-notice = 此代碼將於 { $expirationTime } 分鐘後失效。
+# Variables:
 #  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title-2 = 您是否有登入 { $clientName }？
 verifyLogin-description-2 = 請確認您下列時間的登入紀錄，幫助我們確保帳號安全：
