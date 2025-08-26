@@ -792,7 +792,7 @@ verifyAccountChange-preview =
     }
 verifyAccountChange-title = Ändern Sie Ihre Kontodaten?
 # After the colon is a description of the device used to sign in to the service
-verifyAccountChange-safe = Helfen Sie uns, Ihr Konto zu schützen, indem Sie diese Änderung am:
+verifyAccountChange-safe = Helfen Sie uns, Ihr Konto zu schützen und bestätigen Sie diese Änderung auf:
 verifyAccountChange-prompt = Wenn ja, ist hier Ihr Autorisierungscode:
 # Variables:
 # $expirationTime (Number) - Represents the expiration time in minutes
