@@ -785,6 +785,9 @@ verify-description-2 = Wobkrućće swoje konto a wućehńće najlěpše z { -bra
 verify-subject = Dokónčće załoženje swojeho konta
 verify-action-2 = Konto wobkrućić
 # Variables:
+# $code (String) - The verification code
+verifyAccountChange-subject = Wužiwajće { $code }, zo byšće swoje konto změnił
+# Variables:
 #  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title-2 = Sće so pola { $clientName } přizjewił?
 verifyLogin-description-2 = Wobkrućće, zo sće so přizjewił, zo byšće nam pomhał, waše konto škitać.
