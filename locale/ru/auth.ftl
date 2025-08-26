@@ -784,6 +784,29 @@ verify-description-2 = Подтвердите свой аккаунт и пол�
 verify-subject = Завершите создание вашего аккаунта
 verify-action-2 = Подтвердить аккаунт
 # Variables:
+# $code (String) - The verification code
+verifyAccountChange-subject = Используйте { $code } чтобы сменить свой аккаунт
+# Variables:
+# $expirationTime (Number) - Represents the expiration time in minutes
+verifyAccountChange-preview =
+    { $expirationTime ->
+        [one] Срок действия этого кода истекает через { $expirationTime } минуту.
+        [few] Срок действия этого кода истекает через { $expirationTime } минуты.
+       *[many] Срок действия этого кода истекает через { $expirationTime } минут.
+    }
+verifyAccountChange-title = Вы редактируете информацию своего аккаунта?
+# After the colon is a description of the device used to sign in to the service
+verifyAccountChange-safe = Помогите нам обеспечить безопасность вашего аккаунта, одобрив это изменение:
+verifyAccountChange-prompt = Если да, то вот ваш код авторизации:
+# Variables:
+# $expirationTime (Number) - Represents the expiration time in minutes
+verifyAccountChange-expiry-notice =
+    { $expirationTime ->
+        [one] Срок его действия истекает через { $expirationTime } минуту.
+        [few] Срок его действия истекает через { $expirationTime } минуты.
+       *[many] Срок его действия истекает через { $expirationTime } минут.
+    }
+# Variables:
 #  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title-2 = Вы входили в { $clientName }?
 verifyLogin-description-2 = Помогите нам обеспечить безопасность вашего аккаунта, подтвердив, что вы в него входили:
