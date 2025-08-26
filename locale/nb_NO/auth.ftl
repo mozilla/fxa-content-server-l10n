@@ -784,6 +784,9 @@ verify-description-2 = Bekreft kontoen din og få mest mulig ut av { -brand-mozi
 verify-subject = Fullfør oppretting av kontoen din
 verify-action-2 = Bekreft konto
 # Variables:
+# $code (String) - The verification code
+verifyAccountChange-subject = Bruk { $code } for å endre kontoen din
+# Variables:
 #  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title-2 = Logget du inn på { $clientName }?
 verifyLogin-description-2 = Hjelp oss med å holde kontoen din trygg ved å bekrefte at du er logget inn på:
