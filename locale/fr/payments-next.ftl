@@ -115,7 +115,7 @@ subscription-management-your-subscriptions-aria = Vos abonnements
 subscription-management-no-subscriptions = Vous n’avez aucun abonnement pour l’instant
 subscription-management-button-support = Obtenir de l’aide
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscription-management-button-support-aria = Obtenez de l’aide pour { $productName }
+subscription-management-button-support-aria = Obtenir de l’aide pour { $productName }
 subscription-management-your-apple-iap-subscriptions-aria = Vos abonnements { -brand-apple } via l’application
 subscription-management-apple-in-app-purchase = { -brand-apple } : achats via l’application
 subscription-management-your-google-iap-subscriptions-aria = Vos abonnements { -brand-google } via l’application
