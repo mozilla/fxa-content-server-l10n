@@ -475,6 +475,11 @@ postChangeRecoveryPhone-requested-device = Du har bedt om det fra:
 postChangeTwoStepAuthentication-preview = Din konto er beskyttet
 postChangeTwoStepAuthentication-subject = Totrinsgodkendelse opdateret
 postChangeTwoStepAuthentication-title = Totrinsgodkendelse er blevet opdateret
+# After the colon, there is a description of the device that the user used to enable two-step authentication
+postChangeTwoStepAuthentication-from-device = Du har bedt om dette fra:
+postChangeTwoStepAuthentication-action = Håndter konto
+postChangeTwoStepAuthentication-how-protects-link = Sådan beskytter det din konto
+postChangeTwoStepAuthentication-how-protects-plaintext = Sådan beskytter det din konto:
 postConsumeRecoveryCode-title-3 = Din reserve-godkendelseskode blev brugt til at bekræfte nulstilling af adgangskode
 # After the colon, there is description of the device that the backup authentication code was used on
 # E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
@@ -720,6 +725,12 @@ subscriptionUpgrade-upgrade-info-2 = Du har opgraderet til { $productName }.
 
 subscriptionUpgrade-content-charge-prorated-1 = Du er blevet opkrævet et engangsgebyr på { $invoiceAmountDue } for at afspejle dit abonnements højere pris for resten af denne faktureringsperiode ({ $productPaymentCycleOld }).
 subscriptionUpgrade-content-charge-credit = Du er blevet godskrevet et beløb på { $paymentProrated }.
+subscriptionUpgrade-content-subscription-next-bill-change = Fra og med din næste regning vil prisen på dit abonnement ændre sig.
+subscriptionUpgrade-content-old-price-day = Den tidligere pris var { $paymentAmountOld } per dag.
+subscriptionUpgrade-content-old-price-week = Den tidligere pris var { $paymentAmountOld } per uge.
+subscriptionUpgrade-content-old-price-month = Den tidligere pris var { $paymentAmountOld } per måned.
+subscriptionUpgrade-content-old-price-year = Den tidligere pris var { $paymentAmountOld } per år.
+subscriptionUpgrade-content-old-price-default = Den tidligere pris var { $paymentAmountOld } per faktureringsperiode.
 subscriptionUpgrade-existing = Hvis nogle af dine eksisterende abonnementer overlapper med denne opgradering, tager vi højde for det og sender dig en separat mail med detaljerne. Hvis din nye plan inkluderer produkter, der kræver installation, sender vi dig en separat mail med en opsætningsvejledning.
 subscriptionUpgrade-auto-renew = Dit abonnement fornys automatisk hver faktureringsperiode, medmindre du vælger at annullere.
 unblockCode-subject = Godkendelseskode til konto
