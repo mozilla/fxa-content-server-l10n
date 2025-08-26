@@ -36,7 +36,7 @@ unionpay-logo-alt-text = logo de { -brand-unionpay }
 visa-logo-alt-text = logo de { -brand-visa }
 # Alt text for generic payment card logo
 unbranded-logo-alt-text = Logo sin marca
-link-logo-alt-text = logotipo de { -brand-link }
+link-logo-alt-text = logo de { -brand-link }
 
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages
