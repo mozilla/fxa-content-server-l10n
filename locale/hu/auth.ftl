@@ -781,6 +781,27 @@ verify-description-2 = Erősítse meg fiókját, és hozza ki a lehető legtöbb
 verify-subject = A fiókja létrehozásának befejezése
 verify-action-2 = Fiók megerősítése
 # Variables:
+# $code (String) - The verification code
+verifyAccountChange-subject = Ezzel módosíthatja a fiókját: { $code }
+# Variables:
+# $expirationTime (Number) - Represents the expiration time in minutes
+verifyAccountChange-preview =
+    { $expirationTime ->
+        [one] Ez a kód { $expirationTime } perc múlva lejár.
+       *[other] Ez a kód { $expirationTime } perc múlva lejár.
+    }
+verifyAccountChange-title = Módosítja a fiókadatait?
+# After the colon is a description of the device used to sign in to the service
+verifyAccountChange-safe = Segítsen nekünk megőrizni fiókja biztonságát azzal, hogy jóváhagyja ezt a változást a következő napon:
+verifyAccountChange-prompt = Ha igen, akkor itt az engedélyezési kódja:
+# Variables:
+# $expirationTime (Number) - Represents the expiration time in minutes
+verifyAccountChange-expiry-notice =
+    { $expirationTime ->
+        [one] { $expirationTime } perc múlva lejár.
+       *[other] { $expirationTime } perc múlva lejár.
+    }
+# Variables:
 #  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title-2 = Bejelentkezett a következőbe: { $clientName }?
 verifyLogin-description-2 = Segítsen nekünk megőrizni fiókja biztonságát azzal, hogy megerősíti, hogy Ön jelentkezett be:

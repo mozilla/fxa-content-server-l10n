@@ -785,6 +785,35 @@ verify-description-2 = Cadarnhewch eich cyfrif a chael y gorau o { -brand-mozill
 verify-subject = Gorffen creu eich cyfrif
 verify-action-2 = Cadarnhewch eich cyfrif
 # Variables:
+# $code (String) - The verification code
+verifyAccountChange-subject = Defnyddiwch { $code } i newid eich cyfrif
+# Variables:
+# $expirationTime (Number) - Represents the expiration time in minutes
+verifyAccountChange-preview =
+    { $expirationTime ->
+        [one] Daw'r cod hwn i ben ymhen { $expirationTime } munud.
+        [zero] Mae'r cod hwn yn dod i ben mewn { $expirationTime } munud.
+        [two] Mae'r cod hwn yn dod i ben mewn { $expirationTime } munud.
+        [few] Mae'r cod hwn yn dod i ben mewn { $expirationTime } munud.
+        [many] Mae'r cod hwn yn dod i ben mewn { $expirationTime } munud.
+       *[other] Mae'r cod hwn yn dod i ben mewn { $expirationTime } munud.
+    }
+verifyAccountChange-title = Ydych chi'n newid gwybodaeth eich cyfrif?
+# After the colon is a description of the device used to sign in to the service
+verifyAccountChange-safe = Helpwch ni i gadw'ch cyfrif yn ddiogel trwy gymeradwyo'r newid hwn ar:
+verifyAccountChange-prompt = Os ydych, dyma eich cod awdurdodi:
+# Variables:
+# $expirationTime (Number) - Represents the expiration time in minutes
+verifyAccountChange-expiry-notice =
+    { $expirationTime ->
+        [one] Mae'n dod i ben mewn { $expirationTime } munud.
+        [zero] Mae'n dod i ben mewn { $expirationTime } munud.
+        [two] Mae'n dod i ben mewn { $expirationTime } munud.
+        [few] Mae'n dod i ben mewn { $expirationTime } munud.
+        [many] Mae'n dod i ben mewn { $expirationTime } munud.
+       *[other] Mae'n dod i ben mewn { $expirationTime } munud.
+    }
+# Variables:
 #  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title-2 = A wnaethoch chi fewngofnodi i { $clientName }?
 verifyLogin-description-2 = Helpwch ni i gadw'ch cyfrif yn ddiogel drwy gadarnhau eich bod wedi mewngofnodi ar:

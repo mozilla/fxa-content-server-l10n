@@ -785,6 +785,27 @@ verify-description-2 = Conferma il tuo account e ottieni il massimo da { -brand-
 verify-subject = Completa la creazione del tuo account
 verify-action-2 = Conferma account
 # Variables:
+# $code (String) - The verification code
+verifyAccountChange-subject = Utilizza { $code } per cambiare account
+# Variables:
+# $expirationTime (Number) - Represents the expiration time in minutes
+verifyAccountChange-preview =
+    { $expirationTime ->
+        [one] Questo codice scade tra { $expirationTime } minuto.
+       *[other] Questo codice scade tra { $expirationTime } minuti.
+    }
+verifyAccountChange-title = Stai modificando le informazioni del tuo account?
+# After the colon is a description of the device used to sign in to the service
+verifyAccountChange-safe = Aiutaci a mantenere il tuo account al sicuro approvando questa modifica:
+verifyAccountChange-prompt = In caso affermativo, questo è il tuo codice di autorizzazione:
+# Variables:
+# $expirationTime (Number) - Represents the expiration time in minutes
+verifyAccountChange-expiry-notice =
+    { $expirationTime ->
+        [one] Scade tra { $expirationTime } minuto.
+       *[other] Scade tra { $expirationTime } minuti.
+    }
+# Variables:
 #  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title-2 = Hai effettuato tu l’accesso a { $clientName }?
 verifyLogin-description-2 = Aiutaci a mantenere il tuo account al sicuro confermando di esser stato tu ad accedere:

@@ -783,6 +783,29 @@ verify-description-2 = Potvrďte svůj účet a využívejte výhody { -brand-mo
 verify-subject = Dokončit vytváření účtu
 verify-action-2 = Potvrdit účet
 # Variables:
+# $code (String) - The verification code
+verifyAccountChange-subject = Pro změnu účtu použijte { $code }
+# Variables:
+# $expirationTime (Number) - Represents the expiration time in minutes
+verifyAccountChange-preview =
+    { $expirationTime ->
+        [one] Platnost kódu vyprší za { $expirationTime } minutu.
+        [few] Platnost kódu vyprší za { $expirationTime } minut.
+       *[other] Platnost kódu vyprší za { $expirationTime } minut.
+    }
+verifyAccountChange-title = Měníte informace o svém účtu?
+# After the colon is a description of the device used to sign in to the service
+verifyAccountChange-safe = Pomozte nám udržet váš účet v bezpečí tím, že schválíte tuto změnu na:
+verifyAccountChange-prompt = Pokud ano, zde je váš autorizační kód:
+# Variables:
+# $expirationTime (Number) - Represents the expiration time in minutes
+verifyAccountChange-expiry-notice =
+    { $expirationTime ->
+        [one] Platnost vyprší za { $expirationTime } minutu.
+        [few] Platnost vyprší za { $expirationTime } minut.
+       *[other] Platnost vyprší za { $expirationTime } minut.
+    }
+# Variables:
 #  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title-2 = Přihlásili jste se do produktu { $clientName }?
 verifyLogin-description-2 = Pomozte nám udržet váš účet v bezpečí tím, že potvrdíte, že jste se přihlásili:

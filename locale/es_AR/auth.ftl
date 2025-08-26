@@ -781,6 +781,27 @@ verify-description-2 = Confirmá tu cuenta y aprovechá { -brand-mozilla } al m�
 verify-subject = Terminar de crear la cuenta
 verify-action-2 = Confirmar cuenta
 # Variables:
+# $code (String) - The verification code
+verifyAccountChange-subject = Usá { $code } para cambiar tu cuenta
+# Variables:
+# $expirationTime (Number) - Represents the expiration time in minutes
+verifyAccountChange-preview =
+    { $expirationTime ->
+        [one] Este código expira en { $expirationTime } minuto.
+       *[other] Este código expira en { $expirationTime } minutos.
+    }
+verifyAccountChange-title = ¿Está cambiando la información de su cuenta?
+# After the colon is a description of the device used to sign in to the service
+verifyAccountChange-safe = Ayúdanos a mantener tu cuenta segura aprobando este cambio en:
+verifyAccountChange-prompt = Si es así, usá este código de autorización:
+# Variables:
+# $expirationTime (Number) - Represents the expiration time in minutes
+verifyAccountChange-expiry-notice =
+    { $expirationTime ->
+        [one] Caduca en { $expirationTime } minuto.
+       *[other] Caduca en { $expirationTime } minutos.
+    }
+# Variables:
 #  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title-2 = ¿Iniciaste sesión en { $clientName }?
 verifyLogin-description-2 = Ayudanos a mantener tu cuenta segura confirmando que iniciaste sesión en:

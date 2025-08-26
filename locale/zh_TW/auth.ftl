@@ -780,6 +780,9 @@ verify-description-2 = 確認您的帳號，就可以在任何登入的裝置中
 verify-subject = 完成帳號註冊
 verify-action-2 = 確認帳號
 # Variables:
+# $code (String) - The verification code
+verifyAccountChange-subject = 使用 { $code } 更改帳號
+# Variables:
 #  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title-2 = 您是否有登入 { $clientName }？
 verifyLogin-description-2 = 請確認您下列時間的登入紀錄，幫助我們確保帳號安全：
