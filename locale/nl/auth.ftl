@@ -797,6 +797,13 @@ verifyAccountChange-title = Wijzigt u uw accountgegevens?
 verifyAccountChange-safe = Help ons uw account veilig te houden door deze wijziging goed te keuren op:
 verifyAccountChange-prompt = Zo ja, dan is dit uw autorisatiecode:
 # Variables:
+# $expirationTime (Number) - Represents the expiration time in minutes
+verifyAccountChange-expiry-notice =
+    { $expirationTime ->
+        [one] Deze verloopt over { $expirationTime } minuut.
+       *[other] Deze verloopt over { $expirationTime } minuten.
+    }
+# Variables:
 #  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title-2 = Hebt u zich aangemeld bij { $clientName }?
 verifyLogin-description-2 = Help ons uw account veilig te houden door te bevestigen dat u bent aangemeld op:
