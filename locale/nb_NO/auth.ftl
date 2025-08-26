@@ -787,6 +787,14 @@ verify-action-2 = Bekreft konto
 # $code (String) - The verification code
 verifyAccountChange-subject = Bruk { $code } for å endre kontoen din
 # Variables:
+# $expirationTime (Number) - Represents the expiration time in minutes
+verifyAccountChange-preview =
+    { $expirationTime ->
+        [one] Denne koden utløper om { $expirationTime } minutt.
+       *[other] Denne koden utløper om { $expirationTime } minutter.
+    }
+verifyAccountChange-title = Endrer du kontoinformasjonen din?
+# Variables:
 #  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title-2 = Logget du inn på { $clientName }?
 verifyLogin-description-2 = Hjelp oss med å holde kontoen din trygg ved å bekrefte at du er logget inn på:
