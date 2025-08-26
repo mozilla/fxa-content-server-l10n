@@ -794,6 +794,16 @@ verifyAccountChange-preview =
        *[other] Denne koden utløper om { $expirationTime } minutter.
     }
 verifyAccountChange-title = Endrer du kontoinformasjonen din?
+# After the colon is a description of the device used to sign in to the service
+verifyAccountChange-safe = Hjelp oss med å holde kontoen din trygg ved å godkjenne denne endringen på:
+verifyAccountChange-prompt = Hvis ja, her er autorisasjonskoden din:
+# Variables:
+# $expirationTime (Number) - Represents the expiration time in minutes
+verifyAccountChange-expiry-notice =
+    { $expirationTime ->
+        [one] Den utløper om { $expirationTime } minutt.
+       *[other] Den utløper om { $expirationTime } minutter.
+    }
 # Variables:
 #  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title-2 = Logget du inn på { $clientName }?
