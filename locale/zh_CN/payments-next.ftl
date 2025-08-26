@@ -36,6 +36,7 @@ unionpay-logo-alt-text = { -brand-unionpay }徽标
 visa-logo-alt-text = { -brand-visa } 徽标
 # Alt text for generic payment card logo
 unbranded-logo-alt-text = 未知品牌的徽标
+link-logo-alt-text = { -brand-link } 徽标
 
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -112,6 +113,9 @@ subscription-management-card-expires-date = 有效期 { $expirationDate }
 subscription-management-subscriptions-heading = 订阅
 subscription-management-your-subscriptions-aria = 您的订阅
 subscription-management-no-subscriptions = 您尚未拥有订阅
+subscription-management-button-support = 获取帮助
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscription-management-button-support-aria = 获取 { $productName } 的帮助信息
 subscription-management-your-apple-iap-subscriptions-aria = 您的 { -brand-apple } 应用内订阅
 subscription-management-apple-in-app-purchase = { -brand-apple }：应用内购买
 subscription-management-your-google-iap-subscriptions-aria = 您的 { -brand-google } 应用内订阅
