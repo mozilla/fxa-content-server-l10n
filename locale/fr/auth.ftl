@@ -784,7 +784,7 @@ verify-subject = Terminez la création de votre compte
 verify-action-2 = Confirmer le compte
 # Variables:
 # $code (String) - The verification code
-verifyAccountChange-subject = Utiliser { $code } pour modifier votre compte
+verifyAccountChange-subject = Utilisez { $code } pour modifier votre compte
 # Variables:
 # $expirationTime (Number) - Represents the expiration time in minutes
 verifyAccountChange-preview =
