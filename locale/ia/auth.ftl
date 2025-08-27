@@ -785,6 +785,9 @@ verify-description-2 = Confirma tu conto e tira le maximo de { -brand-mozilla } 
 verify-subject = Termina le creation de tu conto
 verify-action-2 = Confirmar conto
 # Variables:
+# $code (String) - The verification code
+verifyAccountChange-subject = Usa { $code } pro modificar tu conto
+# Variables:
 #  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title-2 = Habeva tu accedite a { $clientName }?
 verifyLogin-description-2 = Adjuta nos a mantener tu conto secur confirmante que tu accedeva a illo:

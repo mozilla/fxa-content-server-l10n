@@ -286,6 +286,8 @@ backup-authentication-codes-image-aria-label =
     .aria-label = Enhedsskærm med koder
 sync-clouds-image-aria-label =
     .aria-label = Skyer med et synkroniseringsikon
+confetti-falling-image-aria-label =
+    .aria-label = Animeret faldende konfetti
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -772,14 +774,33 @@ nav-data-collection = Dataindsamling og -brug
 nav-paid-subs = Betalte abonnementer
 nav-email-comm = Mail-kommunikation
 
+## Page2faChange
+
+page-2fa-change-title = Skift totrinsgodkendelse
+page-2fa-change-success = Totrinsgodkendelse er blevet opdateret
+page-2fa-change-totpinfo-error = Der opstod en fejl under udskiftningen af din godkendelsesapp til totrinsgodkendelse. Prøv igen senere.
+page-2fa-change-qr-instruction = <strong>Trin 1:</strong> Skan denne QR-kode ved hjælp af en godkendelsesapp, såsom Duo eller Google Authenticator. Dette opretter en ny forbindelse, og gamle forbindelser vil ikke længere fungere.
+
 ## Two Step Authentication - replace backup authentication code
 
+# Page title
+tfa-backup-codes-page-title = Reserve-godkendelseskoder
 # Error shown when API call fails while replacing existing backup codes
 tfa-replace-code-error-3 = Der opstod et problem med at erstatte dine reserve-godkendelseskoder
 # Error shown when API call fails while creating new backup codes (user had none)
 tfa-create-code-error = Der opstod et problem med at oprette dine reserve-godkendelseskoder
 # Success message shown in alert bar after successfully replacing existing backup codes
 tfa-replace-code-success-alert-4 = Reserve-godkendelseskoder opdateret
+# Success message shown after creating backup codes for the first time
+tfa-create-code-success-alert = Reserve-godkendelseskoder oprettet
+# Custom messaging for users replacing existing backup codes - Download step (1 of 2)
+# On this step, the codes are not yet replaced in the database - the old codes are still valid until step 2 is completed.
+tfa-replace-code-download-description = Gem dem et sted, du kan huske. Dine gamle koder vil blive erstattet, når du har gennemført næste trin.
+# Custom messaging for users replacing existing backup codes - Confirm step (2 of 2)
+# Until this confirmation step is successfully completed, the old codes are still active and the new codes are not saved in the database.
+tfa-replace-code-confirm-description = Bekræft at du har gemt dine koder ved at indtaste en af dem. Dine gamle reserve-godkendelseskoder vil blive deaktiveret, når dette trin er gennemført.
+# Error shown when the entered backup code does not match any of the generated codes
+tfa-incorrect-recovery-code-1 = Forkert reserve-godkendelseskode
 
 ## Page2faSetup
 
@@ -1181,6 +1202,7 @@ tfa-row-enabled = Aktiveret
 tfa-row-disabled-status = Deaktiveret
 tfa-row-action-add = Tilføj
 tfa-row-action-disable = Deaktiver
+tfa-row-action-change = Skift
 tfa-row-button-refresh =
     .title = Opdater totrinsgodkendelse
 tfa-row-cannot-refresh =

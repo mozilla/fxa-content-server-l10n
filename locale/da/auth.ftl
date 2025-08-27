@@ -225,6 +225,9 @@ subscriptionFirstInvoiceDiscount-content-discount-one-time = Engangsrabat: -{ $i
 #  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
 #  $discountDuration - The duration of the discount in number of months, e.g. 3 months
 subscriptionFirstInvoiceDiscount-content-discount-repeating = { $discountDuration } måneders rabat: -{ $invoiceDiscountAmount }
+# Variables:
+#  $invoiceTaxAmount (String) - The amount of the tax of the subscription invoice, including currency, e.g. $2.00
+subscriptionCharges-content-tax = Afgifter og gebyrer: { $invoiceTaxAmount }
 
 ## Variables:
 ##  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
@@ -726,12 +729,27 @@ subscriptionUpgrade-content-subscription-next-bill-change = Fra og med din næst
 subscriptionUpgrade-content-old-price-day = Den tidligere pris var { $paymentAmountOld } per dag.
 subscriptionUpgrade-content-old-price-week = Den tidligere pris var { $paymentAmountOld } per uge.
 subscriptionUpgrade-content-old-price-month = Den tidligere pris var { $paymentAmountOld } per måned.
+subscriptionUpgrade-content-old-price-halfyear = Den tidligere pris var { $paymentAmountOld } per halvår.
 subscriptionUpgrade-content-old-price-year = Den tidligere pris var { $paymentAmountOld } per år.
 subscriptionUpgrade-content-old-price-default = Den tidligere pris var { $paymentAmountOld } per faktureringsperiode.
+subscriptionUpgrade-content-old-price-day-tax = Den tidligere pris var { $paymentAmountOld } + { $paymentTaxOld } afgift per dag.
+subscriptionUpgrade-content-old-price-week-tax = Den tidligere pris var { $paymentAmountOld } + { $paymentTaxOld } afgift per uge.
+subscriptionUpgrade-content-old-price-month-tax = Den tidligere pris var { $paymentAmountOld } + { $paymentTaxOld } afgift per måned.
+subscriptionUpgrade-content-old-price-halfyear-tax = Den tidligere pris var { $paymentAmountOld } + { $paymentTaxOld } afgift per halvår.
+subscriptionUpgrade-content-old-price-year-tax = Den tidligere pris var { $paymentAmountOld } + { $paymentTaxOld } afgift per år.
+subscriptionUpgrade-content-old-price-default-tax = Den tidligere pris var { $paymentAmountOld } + { $paymentTaxOld } afgift per faktureringsperiode.
 subscriptionUpgrade-content-new-price-day = Fremover vil du blive opkrævet { $paymentAmountNew } per dag, eksklusive rabatter.
 subscriptionUpgrade-content-new-price-week = Fremover vil du blive opkrævet { $paymentAmountNew } per uge, eksklusive rabatter.
 subscriptionUpgrade-content-new-price-month = Fremover vil du blive opkrævet { $paymentAmountNew } per måned, eksklusive rabatter.
+subscriptionUpgrade-content-new-price-halfyear = Fremover vil du blive opkrævet { $paymentAmountNew } per halvår, eksklusive rabatter.
+subscriptionUpgrade-content-new-price-year = Fremover vil du blive opkrævet { $paymentAmountNew } per år, eksklusive rabatter.
 subscriptionUpgrade-content-new-price-default = Fremover vil du blive opkrævet { $paymentAmountNew } per faktureringsperiode, eksklusive rabatter.
+subscriptionUpgrade-content-new-price-day-dtax = Fremover vil du blive opkrævet { $paymentAmountNew } + { $paymentTaxNew } afgift per dag, eksklusive rabatter.
+subscriptionUpgrade-content-new-price-week-tax = Fremover vil du blive opkrævet { $paymentAmountNew } + { $paymentTaxNew } afgift per uge, eksklusive rabatter.
+subscriptionUpgrade-content-new-price-month-tax = Fremover vil du blive opkrævet { $paymentAmountNew } + { $paymentTaxNew } afgift per måned, eksklusive rabatter.
+subscriptionUpgrade-content-new-price-halfyear-tax = Fremover vil du blive opkrævet { $paymentAmountNew } + { $paymentTaxNew } afgift per halvår, eksklusive rabatter.
+subscriptionUpgrade-content-new-price-year-tax = Fremover vil du blive opkrævet { $paymentAmountNew } + { $paymentTaxNew } afgift per år, eksklusive rabatter.
+subscriptionUpgrade-content-new-price-default-tax = Fremover vil du blive opkrævet { $paymentAmountNew } + { $paymentTaxNew } afgift per faktureringsperiode, eksklusive rabatter.
 subscriptionUpgrade-existing = Hvis nogle af dine eksisterende abonnementer overlapper med denne opgradering, tager vi højde for det og sender dig en separat mail med detaljerne. Hvis din nye plan inkluderer produkter, der kræver installation, sender vi dig en separat mail med en opsætningsvejledning.
 subscriptionUpgrade-auto-renew = Dit abonnement fornys automatisk hver faktureringsperiode, medmindre du vælger at annullere.
 unblockCode-subject = Godkendelseskode til konto

@@ -12,6 +12,7 @@ next-payment-method-first-approve = Først skal du godkende dit abonnement
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
 location-header = Vælg dit land og indtast dit postnummer <p>for at fortsætte til betalingen af { $productName }</p>
 location-banner-info = Vi kunne ikke fastslå din position automatisk
+location-required-disclaimer = Vi bruger kun denne information til at beregne afgifter og valutakurser.
 location-banner-currency-change = Ændring af valuta understøttes ikke. Vælg et land, der matcher din nuværende faktureringsvaluta, for at fortsætte.
 
 ## Page - Upgrade page
@@ -223,6 +224,7 @@ next-plan-details-header = Produktdetaljer
 next-plan-details-list-price = Listepris
 # $productName (String) - The name of the product, e.g. Mozilla VPN
 plan-details-product-prorated-price = Forholdsmæssig pris for { $productName }
+next-plan-details-tax = Afgifter og gebyrer
 next-plan-details-total-label = I alt
 # "Unused time" refers to the remaining value of the current subscription that hasn't been used yet
 purchase-details-unused-time-label = Tilgodehavende fra ubrugt tid
@@ -258,6 +260,7 @@ select-tax-location-error-location-not-updated = Din position kunne ikke opdater
 #  $currencyDisplayName (String) - The display name of a currency code, e.g. US Dollar
 select-tax-location-invalid-currency-change = Din konto faktureres i { $currencyDisplayName }. Vælg et land, der bruger { $currencyDisplayName }.
 select-tax-location-invalid-currency-change-default = Vælg et land, der matcher valutaen for dine aktive abonnementer.
+select-tax-location-new-tax-rate-info = Ved at opdatere din position vil den nye afgiftssats blive anvendt på alle din kontos aktive abonnementer fra og med din næste faktureringsperiode.
 signin-form-continue-button = Fortsæt
 signin-form-email-input = Indtast din mailadresse
 signin-form-email-input-missing = Indtast din mailadresse
@@ -280,7 +283,10 @@ next-new-user-subscribe-product-assurance = Vi bruger kun din mailadresse til at
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
 subscription-content-promotion-applied-no-tax = { $promotionName }-kupon anvendt: { $invoiceTotal }
+subscription-content-promotion-applied-with-tax = { $promotionName }-kupon anvendt: { $invoiceTotal } + { $taxDue } afgift
+subscription-content-current-with-tax = { $invoiceTotal } + { $taxDue } afgift
 subscription-content-next-bill-no-tax = Den næste regning på { $invoiceTotal } forfalder den { $nextBillDate }
+subscription-content-next-bill-with-tax = Den næste regning på{ $invoiceTotal } + { $taxDue } afgift forfalder den { $nextBillDate }
 subscription-content-heading-cancel-subscription = Annuller abonnement
 subscription-content-no-longer-use-message = Du vil ikke længere kunne bruge { $productName } efter { $currentPeriodEnd }, der er den sidste dag i din faktureringsperiode.
 subscription-content-cancel-access-message = Annuller min adgang og kassér mine informationer gemt i { $productName } den { $currentPeriodEnd }
@@ -296,6 +302,13 @@ subscription-cancellation-dialog-title = Vi er kede af, at du opsiger dit abonne
 # $date (Date) - Last day of product access
 subscription-cancellation-dialog-msg = Dit abonnement på { $name } er blevet annulleret. Du har adgang til { $name } frem til { $date }.
 subscription-cancellation-dialog-aside = Har du spørgsmål? Besøg <LinkExternal>{ -brand-mozilla } Support</LinkExternal>.
+# $date (Date) - Last day of product access
+subscription-content-resubscribe = Du vil miste adgangen til { $name } den <strong>{ $date }</strong>.
+resubscribe-dialog-title = Vil du fortsætte med at bruge { $name }?
+resubscribe-dialog-content = Din adgang til { $name } vil fortsætte, og din faktureringsperiode og betaling vil forblive den samme. Din næste opkrævning er på { $amount } og vil blive trukket den { $endDate }.
+resubscribe-dialog-action-button = Fortsæt abonnement
+resubscribe-success-dialog-title = Tak! Du er klar.
+resubscribe-success-dialog-action-button = Luk
 dialog-close = Luk dialogboks
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
@@ -337,6 +350,7 @@ terms-and-privacy-stripe-and-paypal-label = { -brand-mozilla } bruger { -brand-n
 upgrade-purchase-details-current-plan-label = Nuværende plan
 upgrade-purchase-details-new-plan-label = Ny plan
 upgrade-purchase-details-promo-code = Rabatkode
+upgrade-purchase-details-tax-label = Afgifter og gebyrer
 # "Credit issued to account" refers to credit that will be added to the account balance that will be used toward future invoices
 upgrade-purchase-details-credit-to-account = Tilgodehavende føjet til konto
 upgrade-purchase-details-credit-will-be-applied = Tilgodehavende vil blive føjet til din konto og brugt til fremtidige fakturaer.
