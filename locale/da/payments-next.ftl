@@ -12,7 +12,6 @@ next-payment-method-first-approve = Først skal du godkende dit abonnement
 # $productName (String) - The name of the product to create subscription, e.g. Mozilla VPN
 location-header = Vælg dit land og indtast dit postnummer <p>for at fortsætte til betalingen af { $productName }</p>
 location-banner-info = Vi kunne ikke fastslå din position automatisk
-location-required-disclaimer = Vi bruger kun denne information til at beregne skatter og valutakurser.
 location-banner-currency-change = Ændring af valuta understøttes ikke. Vælg et land, der matcher din nuværende faktureringsvaluta, for at fortsætte.
 
 ## Page - Upgrade page
@@ -224,7 +223,6 @@ next-plan-details-header = Produktdetaljer
 next-plan-details-list-price = Listepris
 # $productName (String) - The name of the product, e.g. Mozilla VPN
 plan-details-product-prorated-price = Forholdsmæssig pris for { $productName }
-next-plan-details-tax = Skatter og gebyrer
 next-plan-details-total-label = I alt
 # "Unused time" refers to the remaining value of the current subscription that hasn't been used yet
 purchase-details-unused-time-label = Tilgodehavende fra ubrugt tid
@@ -343,7 +341,6 @@ terms-and-privacy-stripe-and-paypal-label = { -brand-mozilla } bruger { -brand-n
 upgrade-purchase-details-current-plan-label = Nuværende plan
 upgrade-purchase-details-new-plan-label = Ny plan
 upgrade-purchase-details-promo-code = Rabatkode
-upgrade-purchase-details-tax-label = Skatter og gebyrer
 # "Credit issued to account" refers to credit that will be added to the account balance that will be used toward future invoices
 upgrade-purchase-details-credit-to-account = Tilgodehavende føjet til konto
 upgrade-purchase-details-credit-will-be-applied = Tilgodehavende vil blive føjet til din konto og brugt til fremtidige fakturaer.
