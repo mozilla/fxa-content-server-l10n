@@ -258,7 +258,6 @@ select-tax-location-error-location-not-updated = Din position kunne ikke opdater
 #  $currencyDisplayName (String) - The display name of a currency code, e.g. US Dollar
 select-tax-location-invalid-currency-change = Din konto faktureres i { $currencyDisplayName }. Vælg et land, der bruger { $currencyDisplayName }.
 select-tax-location-invalid-currency-change-default = Vælg et land, der matcher valutaen for dine aktive abonnementer.
-select-tax-location-new-tax-rate-info = Ved at opdatere din position vil den nye skattesats blive anvendt på alle din kontos aktive abonnementer fra og med din næste faktureringsperiode.
 signin-form-continue-button = Fortsæt
 signin-form-email-input = Indtast din mailadresse
 signin-form-email-input-missing = Indtast din mailadresse
@@ -281,10 +280,7 @@ next-new-user-subscribe-product-assurance = Vi bruger kun din mailadresse til at
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
 subscription-content-promotion-applied-no-tax = { $promotionName }-kupon anvendt: { $invoiceTotal }
-subscription-content-promotion-applied-with-tax = { $promotionName }-kupon anvendt: { $invoiceTotal } + { $taxDue } skat
-subscription-content-current-with-tax = { $invoiceTotal } + { $taxDue } skat
 subscription-content-next-bill-no-tax = Den næste regning på { $invoiceTotal } forfalder den { $nextBillDate }
-subscription-content-next-bill-with-tax = Den næste regning på{ $invoiceTotal } + { $taxDue } skat forfalder den { $nextBillDate }
 subscription-content-heading-cancel-subscription = Annuller abonnement
 subscription-content-no-longer-use-message = Du vil ikke længere kunne bruge { $productName } efter { $currentPeriodEnd }, der er den sidste dag i din faktureringsperiode.
 subscription-content-cancel-access-message = Annuller min adgang og kassér mine informationer gemt i { $productName } den { $currentPeriodEnd }
