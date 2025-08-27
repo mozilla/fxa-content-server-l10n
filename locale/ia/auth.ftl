@@ -788,6 +788,24 @@ verify-action-2 = Confirmar conto
 # $code (String) - The verification code
 verifyAccountChange-subject = Usa { $code } pro modificar tu conto
 # Variables:
+# $expirationTime (Number) - Represents the expiration time in minutes
+verifyAccountChange-preview =
+    { $expirationTime ->
+        [one] Le codice expira in { $expirationTime } minuta.
+       *[other] Le codice expira in { $expirationTime } minutas.
+    }
+verifyAccountChange-title = Es tu qui modifica le informationes de tu conto?
+# After the colon is a description of the device used to sign in to the service
+verifyAccountChange-safe = Adjuta nos a mantener tu conto secur approbante iste modification sur:
+verifyAccountChange-prompt = Si affirmative, ecce tu codice de autorisation:
+# Variables:
+# $expirationTime (Number) - Represents the expiration time in minutes
+verifyAccountChange-expiry-notice =
+    { $expirationTime ->
+        [one] Illo expira in { $expirationTime } minuta.
+       *[other] Illo expira in { $expirationTime } minutas.
+    }
+# Variables:
 #  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title-2 = Habeva tu accedite a { $clientName }?
 verifyLogin-description-2 = Adjuta nos a mantener tu conto secur confirmante que tu accedeva a illo:
