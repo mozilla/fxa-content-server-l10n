@@ -790,7 +790,7 @@ verifyAccountChange-preview =
         [one] Este código expira en { $expirationTime } minuto.
        *[other] Este código expira en { $expirationTime } minutos.
     }
-verifyAccountChange-title = ¿Está cambiando la información de su cuenta?
+verifyAccountChange-title = ¿Estás cambiando la información de tu cuenta?
 # After the colon is a description of the device used to sign in to the service
 verifyAccountChange-safe = Ayúdanos a mantener tu cuenta segura aprobando este cambio en:
 verifyAccountChange-prompt = Si es así, usá este código de autorización:
