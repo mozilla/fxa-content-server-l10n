@@ -784,6 +784,27 @@ verify-description-2 = Stadfest kontoen din og få mest mogleg ut av { -brand-mo
 verify-subject = Fullfør opprettinga av kontoen din
 verify-action-2 = Stadfest kontoen
 # Variables:
+# $code (String) - The verification code
+verifyAccountChange-subject = Bruk { $code } for å endre kontoen din
+# Variables:
+# $expirationTime (Number) - Represents the expiration time in minutes
+verifyAccountChange-preview =
+    { $expirationTime ->
+        [one] Denne koden går ut om { $expirationTime } minutt.
+       *[other] Denne koden går ut om { $expirationTime } minutt.
+    }
+verifyAccountChange-title = Endrar du kontoinformasjonen din?
+# After the colon is a description of the device used to sign in to the service
+verifyAccountChange-safe = Hjelp oss med å halde kontoen din trygg ved å godkjenne denne endringa på:
+verifyAccountChange-prompt = Om ja, her er godkjenningskoden din:
+# Variables:
+# $expirationTime (Number) - Represents the expiration time in minutes
+verifyAccountChange-expiry-notice =
+    { $expirationTime ->
+        [one] Han går ut om { $expirationTime } minutt.
+       *[other] Han går ut om { $expirationTime } minutt.
+    }
+# Variables:
 #  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title-2 = Logga du inn på { $clientName }?
 verifyLogin-description-2 = Hjelp oss med å halde kontoen din trygg ved å stadfeste att du har logga inn på:
