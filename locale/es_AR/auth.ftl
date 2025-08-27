@@ -792,14 +792,14 @@ verifyAccountChange-preview =
     }
 verifyAccountChange-title = ¿Estás cambiando la información de tu cuenta?
 # After the colon is a description of the device used to sign in to the service
-verifyAccountChange-safe = Ayúdanos a mantener tu cuenta segura aprobando este cambio en:
+verifyAccountChange-safe = Ayudanos a mantener tu cuenta segura aprobando este cambio en:
 verifyAccountChange-prompt = Si es así, usá este código de autorización:
 # Variables:
 # $expirationTime (Number) - Represents the expiration time in minutes
 verifyAccountChange-expiry-notice =
     { $expirationTime ->
-        [one] Caduca en { $expirationTime } minuto.
-       *[other] Caduca en { $expirationTime } minutos.
+        [one] Expira en { $expirationTime } minuto.
+       *[other] Expira en { $expirationTime } minutos.
     }
 # Variables:
 #  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
