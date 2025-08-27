@@ -36,6 +36,7 @@ unionpay-logo-alt-text = Λογότυπο { -brand-unionpay }
 visa-logo-alt-text = Λογότυπο { -brand-visa }
 # Alt text for generic payment card logo
 unbranded-logo-alt-text = Λογότυπο χωρίς εμπορικό σήμα
+link-logo-alt-text = Λογότυπο { -brand-link }
 
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -112,6 +113,7 @@ subscription-management-card-expires-date = Λήγει στις { $expirationDat
 subscription-management-subscriptions-heading = Συνδρομές
 subscription-management-your-subscriptions-aria = Οι συνδρομές σας
 subscription-management-no-subscriptions = Δεν έχετε καμία συνδρομή ακόμα
+subscription-management-button-support = Λήψη βοήθειας
 subscription-management-your-apple-iap-subscriptions-aria = Συνδρομές εντός εφαρμογών { -brand-apple }
 subscription-management-apple-in-app-purchase = { -brand-apple }: αγορά εντός εφαρμογής
 subscription-management-your-google-iap-subscriptions-aria = Συνδρομές εντός εφαρμογών { -brand-google }

@@ -785,6 +785,13 @@ verify-description-2 = Επιβεβαιώστε τον λογαριασμό σα
 verify-subject = Ολοκληρώστε τη δημιουργία του λογαριασμού σας
 verify-action-2 = Επιβεβαίωση λογαριασμού
 # Variables:
+# $expirationTime (Number) - Represents the expiration time in minutes
+verifyAccountChange-expiry-notice =
+    { $expirationTime ->
+        [one] Λήγει σε { $expirationTime } λεπτό.
+       *[other] Λήγει σε { $expirationTime } λεπτά.
+    }
+# Variables:
 #  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title-2 = Συνδεθήκατε στο { $clientName };
 verifyLogin-description-2 = Βοηθήστε μας να προστατέψουμε τον λογαριασμό σας, επιβεβαιώνοντας ότι έχετε συνδεθεί στο:
