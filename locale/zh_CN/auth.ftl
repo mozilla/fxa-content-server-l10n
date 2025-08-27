@@ -778,6 +778,19 @@ verify-description-2 = 确认您的账户即可在任何登录的设备中解锁
 verify-subject = 账户创建完成
 verify-action-2 = 验证账户
 # Variables:
+# $code (String) - The verification code
+verifyAccountChange-subject = 输入 { $code } 更改您的账户
+# Variables:
+# $expirationTime (Number) - Represents the expiration time in minutes
+verifyAccountChange-preview = 此验证码 { $expirationTime } 分钟内有效。
+verifyAccountChange-title = 是您在更改账户信息吗？
+# After the colon is a description of the device used to sign in to the service
+verifyAccountChange-safe = 请确认此更改，以确保账户安全：
+verifyAccountChange-prompt = 如若是，请使用此验证码：
+# Variables:
+# $expirationTime (Number) - Represents the expiration time in minutes
+verifyAccountChange-expiry-notice = { $expirationTime } 分钟内有效。
+# Variables:
 #  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title-2 = 您是否登录了 { $clientName } ？
 verifyLogin-description-2 = 请确认您的登录记录，帮助我们确保您的账户安全：
