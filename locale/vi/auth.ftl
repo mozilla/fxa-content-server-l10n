@@ -782,6 +782,19 @@ verify-description-2 = Xác nhận tài khoản của bạn và tận dụng t�
 verify-subject = Hoàn tất việc tạo tài khoản của bạn
 verify-action-2 = Xác minh tài khoản
 # Variables:
+# $code (String) - The verification code
+verifyAccountChange-subject = Sử dụng { $code } để thay đổi tài khoản của bạn
+# Variables:
+# $expirationTime (Number) - Represents the expiration time in minutes
+verifyAccountChange-preview = Mã này sẽ hết hạn sau { $expirationTime } phút.
+verifyAccountChange-title = Bạn có đang thay đổi thông tin tài khoản của mình không?
+# After the colon is a description of the device used to sign in to the service
+verifyAccountChange-safe = Hãy giúp chúng tôi giữ an toàn cho tài khoản của bạn bằng cách chấp thuận thay đổi này trên:
+verifyAccountChange-prompt = Nếu đúng, đây là mã xác minh của bạn:
+# Variables:
+# $expirationTime (Number) - Represents the expiration time in minutes
+verifyAccountChange-expiry-notice = Nó sẽ hết hạn sau { $expirationTime } phút.
+# Variables:
 #  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title-2 = Bạn đã đăng nhập vào { $clientName } chưa?
 verifyLogin-description-2 = Giúp chúng tôi giữ an toàn cho tài khoản của bạn bằng cách xác nhận rằng bạn đã đăng nhập vào:
