@@ -475,6 +475,7 @@ postChangeRecoveryPhone-requested-device = Du har bedt om det fra:
 postChangeTwoStepAuthentication-preview = Din konto er beskyttet
 postChangeTwoStepAuthentication-subject = Totrinsgodkendelse opdateret
 postChangeTwoStepAuthentication-title = Totrinsgodkendelse er blevet opdateret
+postChangeTwoStepAuthentication-use-new-account = Du skal nu bruge den nye { -product-mozilla-account }-kode i din godkendelsesapp. Den gamle kode vil ikke længere virke, og du kan fjerne den.
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postChangeTwoStepAuthentication-from-device = Du har bedt om dette fra:
 postChangeTwoStepAuthentication-action = Håndter konto

@@ -302,6 +302,8 @@ subscription-cancellation-dialog-title = Vi er kede af, at du opsiger dit abonne
 # $date (Date) - Last day of product access
 subscription-cancellation-dialog-msg = Dit abonnement på { $name } er blevet annulleret. Du har adgang til { $name } frem til { $date }.
 subscription-cancellation-dialog-aside = Har du spørgsmål? Besøg <LinkExternal>{ -brand-mozilla } Support</LinkExternal>.
+subscription-content-button-resubscribe = Abonner igen
+    .aria-label = Abonner på { $productName } igen
 # $date (Date) - Last day of product access
 subscription-content-resubscribe = Du vil miste adgangen til { $name } den <strong>{ $date }</strong>.
 resubscribe-dialog-title = Vil du fortsætte med at bruge { $name }?
