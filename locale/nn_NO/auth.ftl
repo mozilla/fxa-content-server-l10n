@@ -636,6 +636,7 @@ subscriptionFirstInvoice-content-next-invoice = Neste faktura: { $nextInvoiceDat
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-subject-2 = Betalingsmåten for { $productName } har gått ut eller går snart ut
+subscriptionPaymentExpired-title-2 = Betalingsmetoden din har gått ut eller i ferd med å gå ut
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = Betalinga for { $productName } var mislykka

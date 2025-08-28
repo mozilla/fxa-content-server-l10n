@@ -37,6 +37,8 @@ visa-logo-alt-text = { -brand-visa }-logo
 # Alt text for generic payment card logo
 unbranded-logo-alt-text = Umerka logo
 link-logo-alt-text = { -brand-link }-logo
+apple-pay-logo-alt-text = { -brand-apple-pay }-logo
+google-pay-logo-alt-text = { -brand-google-pay }-logo
 
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages
