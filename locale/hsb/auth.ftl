@@ -636,11 +636,19 @@ subscriptionFirstInvoice-content-auto-renew = Waš abonement so awtomatisce kó�
 subscriptionFirstInvoice-content-next-invoice = Přichodna zličbowanka: { $nextInvoiceDateOnly }
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-subject-2 = Płaćenska metoda za { $productName } je spadnyła abo bórze spadnje
+subscriptionPaymentExpired-title-2 = Waša płaćenska metoda je spadnyła abo bórze spadnje
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-content-2 = Płaćenska metoda, kotruž za { $productName } wužiwaće, je spadnyła abo bórze spadnje.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = Płaćenje { $productName } je so nimokuliło
 subscriptionPaymentFailed-title = Bohužel mamy problemy z wašim płaćenjom
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-content-problem = Mějachmy problem z wašim najnowšim płaćenjom za { $productName }.
+subscriptionPaymentFailed-content-outdated-1 = Waša płaćenska metoda je snano spadnjena, abo waša aktualna płaćenska metoda je zestarjena.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-subject = Aktualizowanje płaćenskich informacijow je za { $productName } trěbne
@@ -648,6 +656,7 @@ subscriptionPaymentProviderCancelled-title = Bohužel mamy problemy z wašej pł
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-content-detect = Mějachmy problem z wašej płaćenskej metodu za { $productName }.
+subscriptionPaymentProviderCancelled-content-reason-1 = Waša płaćenska metoda je snano spadnjena, abo waša aktualna płaćenska metoda je zestarjena.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-subject = Abonement { $productName } je so zaso zaktiwizował
@@ -681,9 +690,13 @@ subscriptionReplaced-title = Waš abonement je so zaktualizował
 subscriptionReplaced-content-replaced = Waš jednotliwy abonement { $productName } je so wuměnił a je nětko we wašim pakeće wobsahowany.
 subscriptionReplaced-content-credit = Dóstanjeće dobropis za njewužity čas ze swojeho předchadneho abonementa. Tutón dobropis so awtomatisce na waše konto nałoži a za přichodne popłatki wužiwa.
 subscriptionReplaced-content-no-action = Z wašeje strony akcija trěbna njeje.
+subscriptionsPaymentExpired-subject-2 = Płaćenska metoda za swoje abonementy je spadnyła abo bórze spadnje
+subscriptionsPaymentExpired-title-2 = Waša płaćenska metoda je spadnyła abo bórze spadnje
+subscriptionsPaymentExpired-content-2 = Płaćenska metoda, z kotrejž płaćenja za slědowace abonementy přewjedźeće, je spadnyła abo bórze spadnje.
 subscriptionsPaymentProviderCancelled-subject = Aktualizowanje płaćenskich informacijow je za abonementy { -brand-mozilla } trěbne
 subscriptionsPaymentProviderCancelled-title = Bohužel mamy problemy z wašej płaćenskej metodu
 subscriptionsPaymentProviderCancelled-content-detected = Mějachmy problem z wašej płaćenskej metodu za slědowace abonementy.
+subscriptionsPaymentProviderCancelled-content-payment-1 = Waša płaćenska metoda je snano spadnjena, abo waša aktualna płaćenska metoda je zestarjena.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-subject = Płaćenje { $productName } dóstane

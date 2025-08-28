@@ -298,7 +298,13 @@ resubscribe-dialog-title = רוצה להמשיך להשתמש ב־{ $name }?
 ## $endDate (Date) - The end date of the subscription period.
 
 resubscribe-dialog-content = הגישה שלך ל־{ $name } תימשך, ומחזור החיוב והתשלום שלך יישארו כפי שהם. החיוב הבא שלך יהיה { $amount } בתאריך { $endDate }.
+resubscribe-dialog-content-with-tax = הגישה שלך ל־{ $name } תימשך, ומחזור החיוב והתשלום שלך יישארו כפי שהם. החיוב הבא שלך יהיה { $amount } + מס בסך { $tax } בתאריך { $endDate }.
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+resubscribe-dialog-action-button-resubscribe = חידוש מינוי
+    .aria-label = חידוש מינוי ל־{ $productName }
 resubscribe-success-dialog-title = תודה! הכול מוכן.
+resubscribe-success-dialog-action-button-close = סגירה
+    .aria-label = סגירת תיבת דו־שיח
 
 ##
 

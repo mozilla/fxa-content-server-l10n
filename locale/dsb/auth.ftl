@@ -636,6 +636,10 @@ subscriptionFirstInvoice-content-auto-renew = Waš abonement se awtomatiski kuž
 subscriptionFirstInvoice-content-next-invoice = Pśiduca zliceńka: { $nextInvoiceDateOnly }
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-subject-2 = Płaśeńska metoda za { $productName } jo spadnuła abo skóro spadnjo
+subscriptionPaymentExpired-title-2 = Waša płaśeńska metoda jo spadnuła abo skóro spadnjo
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = Płaśenje { $productName } njejo se raźiło
 subscriptionPaymentFailed-title = Bóžko mamy problemy z wašym płaśenim
 # Variables:
