@@ -722,11 +722,11 @@ subscriptionFirstInvoice-content-next-invoice = Next Invoice: { $nextInvoiceDate
 
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-subject-1 = Credit card for { $productName } expired or expiring soon
-subscriptionPaymentExpired-title-1 = Your credit card is expired or about to expire
+subscriptionPaymentExpired-subject-2 = Payment method for { $productName } expired or expiring soon
+subscriptionPaymentExpired-title-2 = Your payment method is expired or about to expire
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-content-1 = The credit card you’re using to make payments for { $productName } is expired or about to expire.
+subscriptionPaymentExpired-content-2 = The payment method you’re using for { $productName } is expired or about to expire.
 
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -735,7 +735,7 @@ subscriptionPaymentFailed-title = Sorry, we’re having trouble with your paymen
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-content-problem = We had a problem with your latest payment for { $productName }.
-subscriptionPaymentFailed-content-outdated = It may be that your credit card has expired, or your current payment method is out of date.
+subscriptionPaymentFailed-content-outdated-1 = It may be that your payment method has expired, or your current payment method is out-of-date.
 
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -744,7 +744,7 @@ subscriptionPaymentProviderCancelled-title = Sorry, we’re having trouble with 
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-content-detect = We have detected a problem with your payment method for { $productName }.
-subscriptionPaymentProviderCancelled-content-reason = It may be that your credit card has expired, or your current payment method is out of date.
+subscriptionPaymentProviderCancelled-content-reason-1 = It may be that your payment method has expired, or your current payment method is out-of-date.
 
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -784,14 +784,14 @@ subscriptionReplaced-content-replaced = Your individual { $productName } subscri
 subscriptionReplaced-content-credit = You’ll receive a credit for any unused time from your previous subscription. This credit will be automatically applied to your account and used toward future charges.
 subscriptionReplaced-content-no-action = No action is required on your part.
 
-subscriptionsPaymentExpired-subject-1 = Credit card for your subscriptions is expired or expiring soon
-subscriptionsPaymentExpired-title-1 = Your credit card is expired or about to expire
-subscriptionsPaymentExpired-content-1 = The credit card you’re using to make payments for the following subscriptions is expired or about to expire.
+subscriptionsPaymentExpired-subject-2 = The payment method for your subscriptions is expired or expiring soon
+subscriptionsPaymentExpired-title-2 = Your payment method is expired or about to expire
+subscriptionsPaymentExpired-content-2 = The payment method you’re using to make payments for the following subscriptions is expired or about to expire.
 
 subscriptionsPaymentProviderCancelled-subject = Payment information update required for { -brand-mozilla } subscriptions
 subscriptionsPaymentProviderCancelled-title = Sorry, we’re having trouble with your payment method
 subscriptionsPaymentProviderCancelled-content-detected = We have detected a problem with your payment method for the following subscriptions.
-subscriptionsPaymentProviderCancelled-content-payment = It may be that your credit card has expired, or your current payment method is out of date.
+subscriptionsPaymentProviderCancelled-content-payment-1 = It may be that your payment method has expired, or your current payment method is out-of-date.
 
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
