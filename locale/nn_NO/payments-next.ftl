@@ -318,7 +318,13 @@ resubscribe-dialog-title = Vil du halde fram med å bruke { $name }?
 ## $endDate (Date) - The end date of the subscription period.
 
 resubscribe-dialog-content = Tilgangen din til { $name } vil halde fram, og faktureringssyklusen din og betalinga vil halde fram med å vere den same. Den neste betalinga di blir på { $amount } den { $endDate }.
+resubscribe-dialog-content-with-tax = Tilgangen din til { $name } vil halde fram, og faktureringssyklusen din og betalinga vil halde fram med å vere den same. Di neste betaling blir på { $amount } + { $tax } moms den { $endDate }.
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+resubscribe-dialog-action-button-resubscribe = Abonner på nytt
+    .aria-label = Abonner på nytt på { $productName }
 resubscribe-success-dialog-title = Takk! Alt er no klart.
+resubscribe-success-dialog-action-button-close = Lat att
+    .aria-label = Lat att dialogvindauge
 
 ##
 
