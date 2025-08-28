@@ -752,6 +752,20 @@ verify-description-2 = Hesabınızı doğrulayın, giriş yaptığınız her yer
 verify-subject = Hesabınızı oluşturmayı tamamlayın
 verify-action-2 = Hesabı onaylayın
 # Variables:
+# $expirationTime (Number) - Represents the expiration time in minutes
+verifyAccountChange-preview =
+    { $expirationTime ->
+        [one] Bu kodun kullanım süresi { $expirationTime } dakika sonra dolacak.
+       *[other] Bu kodun kullanım süresi { $expirationTime } dakika sonra dolacak.
+    }
+# Variables:
+# $expirationTime (Number) - Represents the expiration time in minutes
+verifyAccountChange-expiry-notice =
+    { $expirationTime ->
+        [one] { $expirationTime } dakika sonra süresi dolacak.
+       *[other] { $expirationTime } dakika sonra süresi dolacak.
+    }
+# Variables:
 #  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title-2 = { $clientName } uygulamasına giriş yaptınız mı?
 verifyLogin-description-2 = Hesabınızı güvende tutabilmemiz için giriş yaptığınızı onaylayın:
