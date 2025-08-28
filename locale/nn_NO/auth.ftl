@@ -639,11 +639,15 @@ subscriptionPaymentExpired-subject-2 = Betalingsmåten for { $productName } har 
 subscriptionPaymentExpired-title-2 = Betalingsmetoden din har gått ut eller i ferd med å gå ut
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-content-2 = Betalingsmetoden du brukar for { $productName }, har gåttt ut eller er i ferd med å gå ut.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = Betalinga for { $productName } var mislykka
 subscriptionPaymentFailed-title = Beklagar, vi har problem med betalinga di
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-content-problem = Vi hadde eit problem med den siste betalinga din for { $productName }.
+subscriptionPaymentFailed-content-outdated-1 = Det kan vere at betalingsmåten din er utgått, eller at den noverande betalingsmåten din er utdatert.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-subject = Oppdatering av betalingsinformasjon er påkravd for { $productName }
@@ -651,6 +655,7 @@ subscriptionPaymentProviderCancelled-title = Beklagar, vi har problem med betali
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-content-detect = Vi har oppdaga eit problem med betalingsmåten din for { $productName }.
+subscriptionPaymentProviderCancelled-content-reason-1 = Det kan vere at betalingsmåten din er utgått, eller at den noverande betalingsmåten din er utdatert.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-subject = Abonnementet på { $productName } er aktivert på nytt
@@ -684,9 +689,13 @@ subscriptionReplaced-title = Abonnentet ditt er oppdatert
 subscriptionReplaced-content-replaced = Det individuelle { $productName }-abonnementet ditt er erstatta og er no inkludert i den nye pakken din..
 subscriptionReplaced-content-credit = Du vil motta ein kreditt for ubrukt tid frå det førre abonnement ditt. Denne kreditten vil automatisk bli lagt til kontoen din og brukast til å dekkje framtidige betalingar.
 subscriptionReplaced-content-no-action = Du treng ikkje å gjere noko.
+subscriptionsPaymentExpired-subject-2 = Betalingsmåten for abonnementa dine er utgått eller går snart ut
+subscriptionsPaymentExpired-title-2 = Betalingsmetoden din har gått ut eller i ferd med å gå ut
+subscriptionsPaymentExpired-content-2 = Betalingsmåten du brukar for å utføre betalingar for følgjande abonnement, er utgått eller går snart ut.
 subscriptionsPaymentProviderCancelled-subject = Oppdatering av betalingsinformasjon er påkravd for { -brand-mozilla }-abonnementa
 subscriptionsPaymentProviderCancelled-title = Beklagar, vi har problem med betalingsmetoden din
 subscriptionsPaymentProviderCancelled-content-detected = Vi har oppdaga eit problem med betalingsmåten din for følgjande abonnement.
+subscriptionsPaymentProviderCancelled-content-payment-1 = Det kan vere at betalingsmåten din er utgått, eller at den noverande betalingsmåten din er utdatert.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-subject = Betaling motteken for { $productName }
