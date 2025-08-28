@@ -640,11 +640,15 @@ subscriptionPaymentExpired-subject-2 = Płaśeńska metoda za { $productName } j
 subscriptionPaymentExpired-title-2 = Waša płaśeńska metoda jo spadnuła abo skóro spadnjo
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-content-2 = Płaśeńska metoda, kótaruž za { $productName } wužywaśo, jo spadnuła abo skóro spadnjo.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = Płaśenje { $productName } njejo se raźiło
 subscriptionPaymentFailed-title = Bóžko mamy problemy z wašym płaśenim
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-content-problem = Sym měli problem z wašym nejnowšym płaśenim za { $productName }.
+subscriptionPaymentFailed-content-outdated-1 = Waša płaśeńska metoda jo snaź spadnuła, abo waša aktualna płaśeńska metoda jo zestarjona.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-subject = Aktualizěrowanje płaśeńskich informacijow jo za { $productName } trjebne
@@ -652,6 +656,7 @@ subscriptionPaymentProviderCancelled-title = Bóžko mamy problemy z wašeju pł
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-content-detect = Smy měli problem z wašeju nejnowšeju płaśeńskeju metodu za { $productName }.
+subscriptionPaymentProviderCancelled-content-reason-1 = Waša płaśeńska metoda jo snaź spadnuła, abo waša aktualna płaśeńska metoda jo zestarjona.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-subject = Abonement{ $productName } jo se zasej zaktiwěrował
@@ -685,9 +690,13 @@ subscriptionReplaced-title = Waš abonement jo se zaktualizěrował
 subscriptionReplaced-content-replaced = Waš jadnotliwy abonement { $productName } jo se wuměnił a jo něnto we wašom pakeśe wopśimjony.
 subscriptionReplaced-content-credit = Dostanjośo pśipisanje za njewužyty cas ze swójogo pjerwjejšnego abonementa. Toś to pśipisanje se awtomatiski na wašo konto nałožyjo a za pśichodne płaśonki wužywa.
 subscriptionReplaced-content-no-action = Z wašogo boka akcija njejo trjebna.
+subscriptionsPaymentExpired-subject-2 = Płaśeńska metoda za swóje abonementy jo spadnuła abo skóro spadnjo
+subscriptionsPaymentExpired-title-2 = Waša płaśeńska metoda jo spadnuła abo skóro spadnjo
+subscriptionsPaymentExpired-content-2 = Płaśeńska metoda, z kótarejuž płaśenja za slědujuce abonementy pśewjeźośo, jo spadnuła abo skóro spadnjo.
 subscriptionsPaymentProviderCancelled-subject = Aktualizěrowanje płaśeńskich informacijow jo za abonementy { -brand-mozilla } trjebne
 subscriptionsPaymentProviderCancelled-title = Bóžko mamy problemy z wašeju płaśeńskeju metodu
 subscriptionsPaymentProviderCancelled-content-detected = Smy měli problem z wašeju nejnowšeju płaśeńskeju metodu za slědujuce abonementy.
+subscriptionsPaymentProviderCancelled-content-payment-1 = Waša płaśeńska metoda jo snaź spadnuła, abo waša aktualna płaśeńska metoda jo zestarjona.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-subject = Płaśenje { $productName } dostane

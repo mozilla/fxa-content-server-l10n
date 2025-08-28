@@ -322,7 +322,7 @@ resubscribe-dialog-title = Chceće { $name } dale wužiwać?
 ## $tax (Number) - The tax added on, not included in amount. It will be formatted as currency.
 ## $endDate (Date) - The end date of the subscription period.
 
-resubscribe-dialog-content = Waš přistup k { $name } dale wobsteji. a waš wotličenska perioda  waše plaćenje samsnej wostanjetej. Waše přichodne wotknihowanje budźe { $endDate } { $amount }.
+resubscribe-dialog-content = Waš přistup k { $name } dale wobsteji. a waš wotličenska perioda  waše płaćenje samsnej wostanjetej. Waše přichodne wotknihowanje budźe { $endDate } { $amount }.
 resubscribe-dialog-content-with-tax = Waš přistup k { $name } dale wobsteji. a waš wotličenska perioda  waše płaćenje samsnej wostanjetej. Waše přichodne wotknihowanje budźe { $endDate } { $amount } + { $tax } dawka.
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 resubscribe-dialog-action-button-resubscribe = Abonoment wobnowić

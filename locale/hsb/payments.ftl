@@ -587,14 +587,14 @@ reactivate-confirm-dialog-header = Chceće { $name } dale wužiwać?
 # $endDate (Date) - Last day of product access
 reactivate-confirm-copy =
     Waš přistup k { $name } dale wobsteji. a waša wotličenska perioda
-    a waše plaćenje samsnej wostanjetej. Waše přichodne wotknihowanje
+    a waše płaćenje samsnej wostanjetej. Waše přichodne wotknihowanje
     { $endDate } { $amount } wučini, za kartu, kotraž so na { $last } kónči.
 # Alternate copy used when a payment method is not available, e.g. for free trials
 # $amount (Number) - The amount billed. It will be formatted as currency.
 # $endDate (Date) - Last day of product access
 reactivate-confirm-without-payment-method-copy =
     Waš přistup k { $name } dale wobsteji. a waš wotličenska perioda
-    a waše plaćenje samsnej wostanjetej. Waše přichodne wotknihowanje
+    a waše płaćenje samsnej wostanjetej. Waše přichodne wotknihowanje
     budźe { $endDate } { $amount }.
 reactivate-confirm-button = Abonoment wobnowić
 
