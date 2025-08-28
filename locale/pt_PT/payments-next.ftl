@@ -37,6 +37,8 @@ visa-logo-alt-text = Logótipo de { -brand-visa }
 # Alt text for generic payment card logo
 unbranded-logo-alt-text = Logótipo sem marca
 link-logo-alt-text = Logótipo de { -brand-link }
+apple-pay-logo-alt-text = Logótipo de { -brand-apple-pay }
+google-pay-logo-alt-text = Logótipo de { -brand-google-pay }
 
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -316,7 +318,13 @@ resubscribe-dialog-title = Deseja continuar a usar { $name }?
 ## $endDate (Date) - The end date of the subscription period.
 
 resubscribe-dialog-content = O seu acesso a { $name } irá continuar e o seu ciclo de faturação e de pagamento irão permanecer como estão. O seu próximo débito será de { $amount } em { $endDate }.
+resubscribe-dialog-content-with-tax = O seu acesso a { $name } irá continuar e o seu ciclo de faturação e de pagamento irão permanecer como estão. O seu próximo débito será de { $amount } + { $tax } impostos em { $endDate }.
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+resubscribe-dialog-action-button-resubscribe = Resubscrever
+    .aria-label = Resubscrever a { $productName }
 resubscribe-success-dialog-title = Obrigado! Está tudo feito.
+resubscribe-success-dialog-action-button-close = Fechar
+    .aria-label = Fechar janela
 
 ##
 

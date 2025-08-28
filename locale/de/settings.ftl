@@ -362,6 +362,7 @@ confirmation-link-reused-message = Der Bestätigungslink wurde bereits verwendet
 
 ## Locale Toggle Component
 
+locale-toggle-select-label = Sprache wählen
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Fehlerhafte Anfrage
 

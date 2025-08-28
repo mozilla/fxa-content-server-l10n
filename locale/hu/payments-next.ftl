@@ -39,6 +39,8 @@ visa-logo-alt-text = { -brand-visa } logó
 # Alt text for generic payment card logo
 unbranded-logo-alt-text = Márka nélküli logó
 link-logo-alt-text = { -brand-link } logó
+apple-pay-logo-alt-text = { -brand-apple-pay } logó
+google-pay-logo-alt-text = { -brand-google-pay } logó
 
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -318,7 +320,13 @@ resubscribe-dialog-title = Továbbra is szeretné ezt használni: { $name }?
 ## $endDate (Date) - The end date of the subscription period.
 
 resubscribe-dialog-content = A(z) { $name } hozzáférése folytatódni fog, a számlázási és fizetési ciklusa is változatlan marad. A következő terhelés { $amount } lesz, ekkor: { $endDate }.
+resubscribe-dialog-content-with-tax = A(z) { $name } hozzáférése folytatódni fog, a számlázási és fizetési ciklusa is változatlan marad. A következő terhelés { $amount } + { $tax } adó lesz ekkor: { $endDate }.
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+resubscribe-dialog-action-button-resubscribe = Előfizetés újra
+    .aria-label = Iratkozzon fel újra erre: { $productName }
 resubscribe-success-dialog-title = Köszönjük! Minden készen állsz.
+resubscribe-success-dialog-action-button-close = Bezárás
+    .aria-label = Párbeszédablak bezárása
 
 ##
 

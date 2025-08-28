@@ -632,11 +632,19 @@ subscriptionFirstInvoice-content-auto-renew = As sua subscrição irá ser renov
 subscriptionFirstInvoice-content-next-invoice = Próxima fatura: { $nextInvoiceDateOnly }
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-subject-2 = O método de pagamento para { $productName } expirou ou expira em breve
+subscriptionPaymentExpired-title-2 = O seu método de pagamento expirou ou está prestes a expirar
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-content-2 = O método de pagamento que está a utilizar para { $productName } expirou ou está prestes a expirar.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = O pagamento de { $productName } falhou
 subscriptionPaymentFailed-title = Desculpe, estamos a ter problemas com o seu pagamento
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-content-problem = Tivemos um problema com o seu último pagamento para { $productName }.
+subscriptionPaymentFailed-content-outdated-1 = O seu método de pagamento pode ter expirado ou o seu método de pagamento atual está desatualizado.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-subject = É necessária uma atualização das informações de pagamento para { $productName }
@@ -644,6 +652,7 @@ subscriptionPaymentProviderCancelled-title = Desculpe, estamos a ter problemas c
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-content-detect = Detetámos um problema com o seu método de pagamento para { $productName }.
+subscriptionPaymentProviderCancelled-content-reason-1 = O seu método de pagamento pode ter expirado ou o seu método de pagamento atual está desatualizado.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-subject = Subscrição de { $productName } reativada
@@ -677,9 +686,13 @@ subscriptionReplaced-title = A sua subscrição foi atualizada
 subscriptionReplaced-content-replaced = A sua subscrição individual de { $productName } foi substituída e agora está incluída no seu novo pacote.
 subscriptionReplaced-content-credit = Irá receber um crédito por qualquer tempo não utilizado da sua subscrição anterior. Este crédito será aplicado automaticamente à sua conta e utilizado para cobranças futuras.
 subscriptionReplaced-content-no-action = Não é necessária nenhuma ação da sua parte.
+subscriptionsPaymentExpired-subject-2 = O método de pagamento para as suas subscrições expirou ou expira em breve
+subscriptionsPaymentExpired-title-2 = O seu método de pagamento expirou ou está prestes a expirar
+subscriptionsPaymentExpired-content-2 = O método de pagamento que está a utilizar para efetuar os pagamentos das seguintes subscrições expirou ou está quase a expirar.
 subscriptionsPaymentProviderCancelled-subject = É necessária uma atualização das informações de pagamento para as subscrições de { -brand-mozilla }
 subscriptionsPaymentProviderCancelled-title = Desculpe, estamos a ter problemas com o seu método de pagamento
 subscriptionsPaymentProviderCancelled-content-detected = Detetámos um problema com o seu método de pagamento para as seguintes subscrições.
+subscriptionsPaymentProviderCancelled-content-payment-1 = O seu método de pagamento pode ter expirado ou o seu método de pagamento atual está desatualizado.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-subject = O pagamento de { $productName } foi recebido

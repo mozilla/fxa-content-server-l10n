@@ -298,6 +298,7 @@
        *[nom] Apple
     }
     .gender = masculine
+-brand-apple-pay = Apple Pay
 -brand-google =
     { $case ->
         [gen] Googlu
@@ -309,6 +310,7 @@
        *[nom] Google
     }
     .gender = masculine
+-brand-google-pay = Google Pay
 -brand-paypal =
     { $case ->
         [gen] PayPalu

@@ -154,6 +154,7 @@
         [orodnik] Applom
        *[imenovalnik] Apple
     }
+-brand-apple-pay = Apple Pay
 -brand-google =
     { $sklon ->
         [rodilnik] Googla
@@ -163,6 +164,7 @@
         [orodnik] Googlom
        *[imenovalnik] Google
     }
+-brand-google-pay = Če uporabljate { -brand-name }, morate
 -brand-paypal = PayPal
 -brand-name-stripe = Stripe
 -brand-amex = American Express

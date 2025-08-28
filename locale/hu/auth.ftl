@@ -632,11 +632,19 @@ subscriptionFirstInvoice-content-auto-renew = Előfizetése számlázási idősz
 subscriptionFirstInvoice-content-next-invoice = Következő számla: { $nextInvoiceDateOnly }
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-subject-2 = A(z) { $productName } fizetési mód lejárt vagy hamarosan lejár
+subscriptionPaymentExpired-title-2 = A fizetési módja lejárt vagy hamarosan lejár
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-content-2 = A(z) { $productName } összeget használt fizetési mód lejárt vagy hamarosan lejár.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = A(z) { $productName } befizetése sikertelen
 subscriptionPaymentFailed-title = Sajnáljuk, gondok vannak a befizetésével
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-content-problem = Probléma merült fel a legutóbbi { $productName } befizetésével kapcsolatban.
+subscriptionPaymentFailed-content-outdated-1 = Előfordulhat, hogy a fizetési módja lejárt, vagy a jelenlegi fizetési módja elavult.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-subject = A fizetési információk frissítése szükséges a következőnél: { $productName }
@@ -644,6 +652,7 @@ subscriptionPaymentProviderCancelled-title = Sajnáljuk, gondok vannak a fizeté
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-content-detect = Problémát észleltünk a { $productName } termékhez tartozó fizetési módjával kapcsolatban.
+subscriptionPaymentProviderCancelled-content-reason-1 = Előfordulhat, hogy a fizetési módja lejárt, vagy a jelenlegi fizetési módja elavult.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-subject = { $productName } előfizetés újraaktiválva
@@ -677,9 +686,13 @@ subscriptionReplaced-title = Az előfizetése frissítve lett
 subscriptionReplaced-content-replaced = Az egyéni { $productName } előfizetése le lett cserélve, és most már az új csomagja része.
 subscriptionReplaced-content-credit = Az előző előfizetése során fel nem használt idő után jóváírást kap. Ez a jóváírás automatikusan jóváírásra kerül a fiókjában, és a jövőbeni terhelésekhez lesz felhasználva.
 subscriptionReplaced-content-no-action = Nincs teendője az Ön részéről.
+subscriptionsPaymentExpired-subject-2 = Az előfizetéseihez tartozó fizetési mód lejárt vagy hamarosan lejár
+subscriptionsPaymentExpired-title-2 = A fizetési módja lejárt vagy hamarosan lejár
+subscriptionsPaymentExpired-content-2 = A következő előfizetésekhez használt fizetési mód lejárt vagy hamarosan lejár.
 subscriptionsPaymentProviderCancelled-subject = A fizetési információk frissítése szükséges a { -brand-mozilla(ending: "accented") }s előfizetéseknél
 subscriptionsPaymentProviderCancelled-title = Sajnáljuk, gondok vannak a fizetési módjával
 subscriptionsPaymentProviderCancelled-content-detected = Problémát észleltünk a következő előfizetésekhez tartozó fizetési módjával kapcsolatban.
+subscriptionsPaymentProviderCancelled-content-payment-1 = Előfordulhat, hogy a fizetési módja lejárt, vagy a jelenlegi fizetési módja elavult.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-subject = A(z) { $productName } befizetése megérkezett

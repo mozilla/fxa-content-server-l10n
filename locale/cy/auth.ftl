@@ -636,11 +636,19 @@ subscriptionFirstInvoice-content-auto-renew = Bydd eich tanysgrifiad yn adnewydd
 subscriptionFirstInvoice-content-next-invoice = Anfoneb Nesaf: { $nextInvoiceDateOnly }
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-subject-2 = Mae'r dull talu ar gyfer { $productName } wedi dod i ben neu'n dod i ben yn fuan
+subscriptionPaymentExpired-title-2 = Mae eich dull talu wedi dod i ben neu ar fin dod i ben
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-content-2 = Mae'r dull talu rydych chi'n ei ddefnyddio ar gyfer { $productName } wedi dod i ben neu ar fin dod i ben.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = Methodd y taliad am { $productName }
 subscriptionPaymentFailed-title = Ymddiheuruadau, rydym yn cael trafferth gyda'ch taliad
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-content-problem = Rydym wedi cael anhawster gyda'ch taliad diweddaraf am { $productName }.
+subscriptionPaymentFailed-content-outdated-1 = Mae’n bosibl bod eich dull talu wedi dod i ben, neu fod eich dull talu presennol wedi dyddio.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-subject = Mae angen diweddaru'r manylion talu ar gyfer { $productName }
@@ -648,6 +656,7 @@ subscriptionPaymentProviderCancelled-title = Ymddiheuruadau, rydym yn cael traff
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-content-detect = Rydym wedi canfod anhawster gyda'ch dull o dalu am { $productName }.
+subscriptionPaymentProviderCancelled-content-reason-1 = Mae’n bosibl bod eich dull talu wedi dod i ben, neu fod eich dull talu presennol wedi dyddio.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-subject = Ail-gychwynnwyd tanysgrifiad { $productName }
@@ -681,9 +690,13 @@ subscriptionReplaced-title = Mae eich tanysgrifiad wedi'i ddiweddaru
 subscriptionReplaced-content-replaced = Mae eich tanysgrifiad { $productName } unigol wedi'i ddisodli ac mae bellach wedi'i gynnwys yn eich bwndel newydd.
 subscriptionReplaced-content-credit = Byddwch yn derbyn credyd am unrhyw amser na chafodd eich tanysgrifiad blaenorol wedi'i ddefnyddio. Bydd y credyd hwn yn cael ei osod yn awtomatig yn eich cyfrif a'i ddefnyddio tuag at daliadau yn y dyfodol.
 subscriptionReplaced-content-no-action = Does dim angen gweithredu ar eich rhan chi.
+subscriptionsPaymentExpired-subject-2 = Mae'r dull talu ar gyfer eich tanysgrifiadau yn dod i ben neu'n dod i ben yn fuan
+subscriptionsPaymentExpired-title-2 = Mae eich dull talu wedi dod i ben neu ar fin dod i ben
+subscriptionsPaymentExpired-content-2 = Mae'r dull talu rydych chi'n ei ddefnyddio i wneud taliadau am y tanysgrifiadau canlynol wedi dod i ben neu ar fin dod i ben.
 subscriptionsPaymentProviderCancelled-subject = Mae angen diweddaru'r manylion talu am danysgrifiadau { -brand-mozilla }
 subscriptionsPaymentProviderCancelled-title = Ymddiheuruadau, rydym yn cael trafferth gyda'ch dull o dalu
 subscriptionsPaymentProviderCancelled-content-detected = Rydym wedi canfod anhawster gyda'ch dull o dalu am y tanysgrifiadau canlynol.
+subscriptionsPaymentProviderCancelled-content-payment-1 = Mae’n bosibl bod eich dull talu wedi dod i ben, neu fod eich dull talu presennol wedi dyddio.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-subject = Derbyniwyd taliad am { $productName }

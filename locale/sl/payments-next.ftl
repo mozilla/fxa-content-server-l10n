@@ -37,6 +37,8 @@ visa-logo-alt-text = Logotip { -brand-visa }
 # Alt text for generic payment card logo
 unbranded-logo-alt-text = Logotip brez blagovne znamke
 link-logo-alt-text = Logotip { -brand-link }
+apple-pay-logo-alt-text = Logotip { -brand-apple-pay }
+google-pay-logo-alt-text = Logotip { -brand-google-pay }
 
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -314,7 +316,13 @@ resubscribe-dialog-title = Želite še naprej uporabljati { $name }?
 ## $endDate (Date) - The end date of the subscription period.
 
 resubscribe-dialog-content = Vaš dostop do { $name } se bo še nadaljeval, obračun in plačilo pa bo ostalo nespremenjeno. Naslednja bremenitev bo { $endDate } { $amount }.
+resubscribe-dialog-content-with-tax = Vaš dostop do { $name } se bo še nadaljeval, obračun in plačilo pa bo ostalo nespremenjeno. Naslednja bremenitev bo { $amount } + { $tax } davek { $endDate }.
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+resubscribe-dialog-action-button-resubscribe = Obnovi naročnino
+    .aria-label = Ponovno se naroči na { $productName }
 resubscribe-success-dialog-title = Hvala! Pripravljeni ste.
+resubscribe-success-dialog-action-button-close = Zapri
+    .aria-label = Zapri pogovorno okno
 
 ##
 
