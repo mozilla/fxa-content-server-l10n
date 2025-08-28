@@ -266,6 +266,9 @@ primary-email-confirmation-link-reused = 優先メールアドレスは既に確
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = ログインは既に確認されています
 confirmation-link-reused-message = 確認リンクは一度のみ使用でき、このリンクは既に使用されています。
+
+## Locale Toggle Component
+
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = 不正なリクエスト
 

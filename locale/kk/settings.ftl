@@ -352,6 +352,9 @@ primary-email-confirmation-link-reused = Біріншілік эл. пошта �
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Кіру расталған болып тұр
 confirmation-link-reused-message = Бұл растау сілтемесі қолданылған, және оны тек бір рет қолдануға болады.
+
+## Locale Toggle Component
+
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Жарамсыз сұраным
 

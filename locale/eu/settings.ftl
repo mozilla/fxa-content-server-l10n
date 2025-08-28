@@ -325,6 +325,9 @@ primary-email-confirmation-link-reused = Helbide elektroniko nagusia dagoeneko b
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Saio-hasiera dagoeneko berretsita
 confirmation-link-reused-message = Berrespen-lotura hori erabilita dago eta behin bakarrik erabil daiteke.
+
+## Locale Toggle Component
+
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Eskaera okerra
 

@@ -371,6 +371,9 @@ primary-email-confirmation-link-reused = Mae'r prif e-bost wedi ei ddilysu eisoe
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Mae'r mewngofnod eisoes wedi ei gadarnhau
 confirmation-link-reused-message = Mae'r ddolen cadarnhau honno wedi ei defnyddio eisoes a dim ond unwaith mae modd ie defnyddio.
+
+## Locale Toggle Component
+
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Cais Gwael
 
@@ -1317,10 +1320,6 @@ auth-error-1067 = Camdeipio'r e-bost?
 # Variables:
 #  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
 recovery-phone-number-ending-digits = Rhif sy'n gorffen gyda { $lastFourPhoneNumber }
-# This error is shown when there is a particular kind of error at the very end of the 2FA flow
-# and the user should begin it again. A system/device clock not being synced to the internet time is
-# a common problem when using 2FA.
-two-factor-auth-setup-token-verification-error = Bu problem wrth alluogi dilysu dau gam. Gwiriwch fod cloc eich dyfais wedi'i osod i ddiweddaru'n awtomatig a <a>chychwyn eto</a>.
 oauth-error-1000 = Aeth rhywbeth o'i le. Caewch y tab hwn a cheisio eto.
 
 ## Cannot Create Account page

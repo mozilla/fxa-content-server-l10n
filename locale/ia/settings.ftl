@@ -359,6 +359,9 @@ primary-email-confirmation-link-reused = Email primari ja confirmate
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Session ja confirmate
 confirmation-link-reused-message = Ille ligamine de confirmation ha ja essite usate, e pote esser usate solmente un vice.
+
+## Locale Toggle Component
+
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Mal requesta
 
@@ -1306,10 +1309,6 @@ auth-error-1067 = Email incorrecte?
 # Variables:
 #  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
 recovery-phone-number-ending-digits = Numero finiente in { $lastFourPhoneNumber }
-# This error is shown when there is a particular kind of error at the very end of the 2FA flow
-# and the user should begin it again. A system/device clock not being synced to the internet time is
-# a common problem when using 2FA.
-two-factor-auth-setup-token-verification-error = Il habeva un problema activante le authentication a duo passos. Verifica que le horologio de tu apparato es configurate pro automaticamente actualisar e <a>reinitialisa</a>.
 oauth-error-1000 = Un error ha occurrite. Per favor claude iste scheda e retenta.
 
 ## Cannot Create Account page

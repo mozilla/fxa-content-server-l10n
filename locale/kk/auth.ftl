@@ -526,19 +526,11 @@ subscriptionFirstInvoice-content-auto-renew = Бас тартуды таңдам
 subscriptionFirstInvoice-content-next-invoice = Келесі шот: { $nextInvoiceDateOnly }
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-subject-1 = { $productName } үшін несие картасының мерзімі бітті немесе жақында аяқталады
-subscriptionPaymentExpired-title-1 = Сіздің несие картаңыздың мерзімі бітті немесе аяқталуға жақын
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-content-1 = { $productName } қызметіне төлем жасау үшін пайдаланып жатқан несие картасының мерзімі бітті немесе аяқталуға жақын.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = { $productName } төлемі сәтсіз аяқталды
 subscriptionPaymentFailed-title = Кешіріңіз, төлеміңізге қатысты мәселе орын алды
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-content-problem = { $productName } үшін соңғы төлеміңізге қатысты мәселе орын алды.
-subscriptionPaymentFailed-content-outdated = Несие картаңыздың мерзімі өтіп кеткен немесе ағымдағы төлем әдісіңіз ескірген болуы мүмкін.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-subject = { $productName } үшін төлем ақпаратын жаңарту қажет
@@ -546,7 +538,6 @@ subscriptionPaymentProviderCancelled-title = Кешіріңіз, төлем әд
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-content-detect = { $productName } үшін төлем әдісіңізге қатысты мәселе анықталды.
-subscriptionPaymentProviderCancelled-content-reason = Несие картаңыздың мерзімі өтіп кеткен немесе ағымдағы төлем әдісіңіз ескірген болуы мүмкін.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-subject = { $productName } жазылуы қайта белсендірілді
@@ -574,13 +565,9 @@ subscriptionRenewalReminder-content-closing = Құрметпен,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = { $productName } командасы
-subscriptionsPaymentExpired-subject-1 = Жазылуыңыздарының несие картасының мерзімі бітті немесе жақында аяқталады
-subscriptionsPaymentExpired-title-1 = Сіздің несие картаңыздың мерзімі бітті немесе аяқталуға жақын
-subscriptionsPaymentExpired-content-1 = Келесі жазылулар үшін төлем жасау үшін пайдаланып жатқан несие картасының мерзімі бітті немесе аяқталуға жақын.
 subscriptionsPaymentProviderCancelled-subject = { -brand-mozilla } жазылулары үшін төлем ақпаратын жаңарту қажет
 subscriptionsPaymentProviderCancelled-title = Кешіріңіз, төлем әдісіңізге қатысты мәселе орын алды
 subscriptionsPaymentProviderCancelled-content-detected = Келесі жазылулар үшін төлем әдісіңізге қатысты мәселелер анықтадық.
-subscriptionsPaymentProviderCancelled-content-payment = Несие картаңыздың мерзімі өтіп кеткен немесе ағымдағы төлем әдісіңіз ескірген болуы мүмкін.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-subject = { $productName } төлемі алынды

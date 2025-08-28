@@ -357,6 +357,9 @@ primary-email-confirmation-link-reused = Ñanduti veve tuichavéva moneĩmbyre
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Tembiapo ñepyrũ moneĩmbyre
 confirmation-link-reused-message = Ojeporúma pe joajuha ñemoneĩrãva ha peteĩjeýnte ikatu eiporu.
+
+## Locale Toggle Component
+
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Mba’ejerure ojavýva
 

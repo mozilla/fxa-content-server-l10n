@@ -365,6 +365,9 @@ primary-email-confirmation-link-reused = Glavni e-poštni naslov je že potrjen
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Prijava je že potrjena
 confirmation-link-reused-message = Ta potrditvena povezava je bila že uporabljena, uporabiti pa jo je mogoče le enkrat.
+
+## Locale Toggle Component
+
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Zahteva z napako
 
@@ -1313,10 +1316,6 @@ auth-error-1067 = Napačen e-poštni naslov?
 # Variables:
 #  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
 recovery-phone-number-ending-digits = Številka, ki se končuje na { $lastFourPhoneNumber }
-# This error is shown when there is a particular kind of error at the very end of the 2FA flow
-# and the user should begin it again. A system/device clock not being synced to the internet time is
-# a common problem when using 2FA.
-two-factor-auth-setup-token-verification-error = Pri omogočanju overjanja v dveh korakih je prišlo do težave. Preverite, ali je ura vaše naprave nastavljena na samodejno posodabljanje in <a>začnite znova</a>.
 oauth-error-1000 = Nekaj je šlo narobe. Zaprite ta zavihek in poskusite znova.
 
 ## Cannot Create Account page

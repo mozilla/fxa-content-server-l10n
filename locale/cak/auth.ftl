@@ -192,8 +192,6 @@ subscriptionPaymentFailed-title = Takuyu', k'o qak'ayewal rik'in ri atojik
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-content-problem = Xk'oje' qak'ayewal rik'in ri ruk'isib'äl atojik richin { $productName }.
-subscriptionPaymentFailed-content-outdated = Rik'in jub'a' xk'is yan ruq'ijul ri atarjeta' richin kre'ito' o rik'in jub'a' man ak'exon ta ri rub'eyal atojik.
-subscriptionPaymentProviderCancelled-content-reason = Rik'in jub'a' xk'is yan ruq'ijul ri atarjeta' richin kre'ito' o rik'in jub'a' man ak'exon ta ri rub'eyal atojik.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-subject = Xtzij chik { $productName }s rutz'ib'axik ab'i'
@@ -204,7 +202,6 @@ subscriptionReactivation-title = ¡Matyox xatzïj chik rutz'ib'axik ab'i' pa { $
 #  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
 subscriptionReactivation-content = Ri retal apaktura' chuqa' atojik junam nub'än. Ri jun chik atojik ja ri pa { $invoiceTotal } pa { $nextInvoiceDateOnly }. Xtijalatäj ri rutgz'ib'axik ab'i' toq natöj ri apaktura', man keta ri' we naq'ät.
-subscriptionsPaymentProviderCancelled-content-payment = Rik'in jub'a' xk'is yan ruq'ijul ri atarjeta' richin kre'ito' o rik'in jub'a' man ak'exon ta ri rub'eyal atojik.
 subscriptionSubsequentInvoice-title = ¡Matyox xatz'ib'aj ab'i'!
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN

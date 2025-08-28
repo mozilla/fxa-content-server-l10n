@@ -359,6 +359,9 @@ primary-email-confirmation-link-reused = Το κύριο email έχει ήδη �
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Η σύνδεση έχει ήδη επιβεβαιωθεί
 confirmation-link-reused-message = Αυτός ο σύνδεσμος επιβεβαίωσης έχει ήδη χρησιμοποιηθεί και μπορεί να χρησιμοποιηθεί μόνο μία φορά.
+
+## Locale Toggle Component
+
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Εσφαλμένο αίτημα
 
@@ -1305,10 +1308,6 @@ auth-error-1067 = Εσφαλμένο email;
 # Variables:
 #  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
 recovery-phone-number-ending-digits = Αριθμός που λήγει σε { $lastFourPhoneNumber }
-# This error is shown when there is a particular kind of error at the very end of the 2FA flow
-# and the user should begin it again. A system/device clock not being synced to the internet time is
-# a common problem when using 2FA.
-two-factor-auth-setup-token-verification-error = Προέκυψε πρόβλημα κατά την ενεργοποίηση της ταυτοποίησης δύο παραγόντων. Ελέγξτε ότι το ρολόι της συσκευής σας έχει ρυθμιστεί έτσι, ώστε να ενημερώνεται αυτόματα και <a>ξεκινήστε από την αρχή</a>.
 oauth-error-1000 = Κάτι πήγε στραβά. Κλείστε αυτήν την καρτέλα και δοκιμάστε ξανά.
 
 ## Cannot Create Account page

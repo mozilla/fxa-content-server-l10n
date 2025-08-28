@@ -605,19 +605,11 @@ subscriptionFirstInvoice-content-auto-renew = Il to abonament si rinovarà in au
 subscriptionFirstInvoice-content-next-invoice = Prossime fature: { $nextInvoiceDateOnly }
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-subject-1 = La cjarte di credit par { $productName } e je scjadude opûr e je prossime ae scjadince
-subscriptionPaymentExpired-title-1 = La tô cjarte di credit e je scjadude o e sta par scjadê
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-content-1 = La cjarte di credit che tu dopris pai paiaments di { $productName } e je scjadude opûr e je prossime ae scjadince.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = Paiament par { $productName } falît
 subscriptionPaymentFailed-title = Nus displâs, o vin fastidis cul to paiament
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-content-problem = O vin vût un probleme cul to ultin paiament par { $productName }.
-subscriptionPaymentFailed-content-outdated = Al è pussibil che la cjarte di credit doprade e sedi scjadude o che il metodi di paiament selezionât nol sedi inzornât.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-subject = Inzornament des informazions di paiament necessari par { $productName }
@@ -625,7 +617,6 @@ subscriptionPaymentProviderCancelled-title = Nus displâs, o vin fastidis cul to
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-content-detect = O vin rilevât un probleme cul to metodi di paiament par { $productName }.
-subscriptionPaymentProviderCancelled-content-reason = Al è pussibil che la cjarte di credit doprade e sedi scjadude o che il metodi di paiament selezionât nol sedi inzornât.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-subject = Abonament a { $productName } riativât
@@ -659,13 +650,9 @@ subscriptionReplaced-title = Il to abonament al è stât inzornât
 subscriptionReplaced-content-replaced = Il to abonament individuâl a { $productName } al è stât sostituît e cumò al è includût tal gnûf pachet.
 subscriptionReplaced-content-credit = Tu ricevarâs un credit pe part che no tu âs doprât dal to vecjo abonament. Chest credit al vignarà aplicât in automatic al to account e al vignarà doprât pai adebits futûrs.
 subscriptionReplaced-content-no-action = No je domandade nissune azion de bande tô.
-subscriptionsPaymentExpired-subject-1 = La cjarte di credit colegade ai tiei abonaments e je scjadude o e je prossime ae scjadince
-subscriptionsPaymentExpired-title-1 = La tô cjarte di credit e je scjadude o e sta par scjadê
-subscriptionsPaymentExpired-content-1 = La cjarte di credit, che tu stâs doprant pai paiaments di chescj abonaments, e je scjadude o e sta par scjadê.
 subscriptionsPaymentProviderCancelled-subject = Inzornament des informazions di paiament necessari pai abonaments di { -brand-mozilla }
 subscriptionsPaymentProviderCancelled-title = Nus displâs, o vin fastidis cul to metodi di paiament
 subscriptionsPaymentProviderCancelled-content-detected = O vin rilevât un probleme cul metodi di paiament sielt par chescj abonaments.
-subscriptionsPaymentProviderCancelled-content-payment = Al è pussibil che la cjarte di credit doprade e sedi scjadude o che il metodi di paiament selezionât nol sedi inzornât.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-subject = Il paiament par { $productName } al è stât ricevût

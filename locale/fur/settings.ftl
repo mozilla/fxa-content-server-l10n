@@ -352,6 +352,9 @@ primary-email-confirmation-link-reused = E-mail primarie za confermade
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Acès za confermât
 confirmation-link-reused-message = Chel colegament di conferme al è za stât doprât e al è pussibil doprâlu dome une volte.
+
+## Locale Toggle Component
+
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Richieste sbaliade
 
@@ -1267,10 +1270,6 @@ auth-error-1067 = Erôrs di batidure pe e-mail?
 # Variables:
 #  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
 recovery-phone-number-ending-digits = Numar che al finìs cun { $lastFourPhoneNumber }
-# This error is shown when there is a particular kind of error at the very end of the 2FA flow
-# and the user should begin it again. A system/device clock not being synced to the internet time is
-# a common problem when using 2FA.
-two-factor-auth-setup-token-verification-error = Al è vignût fûr un probleme tal ativâ la autenticazion in doi passaçs. Verifiche che l'orloi dal dispositîf al sedi configurât par inzornâsi in automatic e <a>torne scomence dal inizi</a>.
 oauth-error-1000 = Alc al è lât strucj. Siere cheste schede e torne prove.
 
 ## Cannot Create Account page

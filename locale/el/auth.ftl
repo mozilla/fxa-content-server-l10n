@@ -636,19 +636,11 @@ subscriptionFirstInvoice-content-auto-renew = Η συνδρομή σας θα α
 subscriptionFirstInvoice-content-next-invoice = Επόμενο παραστατικό: { $nextInvoiceDateOnly }
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-subject-1 = Η πιστωτική κάρτα για το { $productName } έληξε ή λήγει σύντομα
-subscriptionPaymentExpired-title-1 = Η πιστωτική σας κάρτα έχει ή πρόκειται να λήξει
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-content-1 = Η πιστωτική κάρτα που χρησιμοποιείτε για τις πληρωμές του { $productName } έχει ή πρόκειται να λήξει.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = Η πληρωμή του { $productName } απέτυχε
 subscriptionPaymentFailed-title = Δυστυχώς, αντιμετωπίζουμε πρόβλημα με την πληρωμή σας
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-content-problem = Αντιμετωπίζουμε πρόβλημα με την τελευταία σας πληρωμή για το { $productName }.
-subscriptionPaymentFailed-content-outdated = Η πιστωτική σας κάρτα ενδέχεται να έχει λήξει ή η τρέχουσα μέθοδος πληρωμής δεν είναι ενημερωμένη.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-subject = Απαιτείται ενημέρωση των στοιχείων πληρωμής για το { $productName }
@@ -656,7 +648,6 @@ subscriptionPaymentProviderCancelled-title = Δυστυχώς, αντιμετω�
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-content-detect = Εντοπίσαμε πρόβλημα με τη μέθοδο πληρωμής σας για το { $productName }.
-subscriptionPaymentProviderCancelled-content-reason = Η πιστωτική σας κάρτα ενδέχεται να έχει λήξει ή η τρέχουσα μέθοδος πληρωμής δεν είναι ενημερωμένη.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-subject = Η συνδρομή στο { $productName } επανενεργοποιήθηκε
@@ -690,13 +681,9 @@ subscriptionReplaced-title = Η συνδρομή σας έχει ενημερω�
 subscriptionReplaced-content-replaced = Η μεμονωμένη συνδρομή σας στο { $productName } έχει αντικατασταθεί και περιλαμβάνεται στο νέο πακέτο σας.
 subscriptionReplaced-content-credit = Θα λάβετε πίστωση για τυχόν αχρησιμοποίητο χρόνο από την προηγούμενη συνδρομή σας. Αυτή η πίστωση θα προστεθεί αυτόματα στον λογαριασμό σας και θα χρησιμοποιηθεί στις μελλοντικές χρεώσεις.
 subscriptionReplaced-content-no-action = Δεν απαιτείται καμία ενέργεια από την πλευρά σας.
-subscriptionsPaymentExpired-subject-1 = Η πιστωτική κάρτα της συνδρομής σας έχει ή πρόκειται να λήξει σύντομα
-subscriptionsPaymentExpired-title-1 = Η πιστωτική σας κάρτα έχει ή πρόκειται να λήξει
-subscriptionsPaymentExpired-content-1 = Η πιστωτική κάρτα που χρησιμοποιείτε για τις πληρωμές των ακόλουθων συνδρομών έχει ή πρόκειται να λήξει.
 subscriptionsPaymentProviderCancelled-subject = Απαιτείται ενημέρωση των στοιχείων πληρωμής για τις συνδρομές { -brand-mozilla }
 subscriptionsPaymentProviderCancelled-title = Δυστυχώς, αντιμετωπίζουμε πρόβλημα με τη μέθοδο πληρωμής σας
 subscriptionsPaymentProviderCancelled-content-detected = Εντοπίσαμε πρόβλημα με τη μέθοδο πληρωμής σας για τις ακόλουθες συνδρομές.
-subscriptionsPaymentProviderCancelled-content-payment = Η πιστωτική σας κάρτα ενδέχεται να έχει λήξει ή η τρέχουσα μέθοδος πληρωμής δεν είναι ενημερωμένη.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-subject = Η πληρωμή για το { $productName } ελήφθη

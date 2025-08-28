@@ -304,13 +304,22 @@ subscription-cancellation-dialog-msg = Vaše předplatné { $name } bylo zrušen
 subscription-cancellation-dialog-aside = Máte otázky? Navštivte <LinkExternal>podporu { -brand-mozilla }</LinkExternal>.
 subscription-content-button-resubscribe = Obnovit předplatné
     .aria-label = Obnovit předplatné { $productName }
+# $name (String) - The name of the subscribed product.
 # $date (Date) - Last day of product access
 subscription-content-resubscribe = Přístup ke službě { $name } ztratíte <strong>{ $date }</strong>.
+# $name (String) - The name of the subscribed product.
 resubscribe-dialog-title = Chcete i nadále používat { $name }?
+
+## $name (String) - The name of the subscribed product.
+## $amount (Number) - The amount billed (excluding tax if tax does not exist). It will be formatted as currency.
+## $tax (Number) - The tax added on, not included in amount. It will be formatted as currency.
+## $endDate (Date) - The end date of the subscription period.
+
 resubscribe-dialog-content = Váš přístup k účtu { $name } bude pokračovat a váš fakturační cyklus a platby zůstanou beze změny. Příští platba { $amount } vám bude účtována dne { $endDate }.
-resubscribe-dialog-action-button = Zachovat předplatné
 resubscribe-success-dialog-title = Děkujeme! Vše máte nastaveno.
-resubscribe-success-dialog-action-button = Zavřít
+
+##
+
 dialog-close = Zavřít dialog
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails

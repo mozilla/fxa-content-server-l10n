@@ -535,19 +535,11 @@ subscriptionFirstInvoice-content-auto-renew = Langganan Anda akan diperpanjang s
 subscriptionFirstInvoice-content-next-invoice = Tagihan Berikutnya: { $nextInvoiceDateOnly }
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-subject-1 = Kartu kredit untuk { $productName } kedaluwarsa atau segera kedaluwarsa
-subscriptionPaymentExpired-title-1 = Kartu kredit Anda kedaluwarsa atau akan kedaluwarsa
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-content-1 = Kartu kredit yang Anda gunakan untuk melakukan pembayaran untuk { $productName } telah kedaluwarsa atau akan segera kedaluwarsa.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = Pembayaran { $productName } gagal
 subscriptionPaymentFailed-title = Maaf, kami mengalami masalah dengan pembayaran Anda
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-content-problem = Kami mengalami masalah dengan pembayaran terakhir Anda untuk { $productName }.
-subscriptionPaymentFailed-content-outdated = Mungkin kartu kredit Anda telah kedaluwarsa, atau metode pembayaran Anda saat ini kedaluwarsa.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-subject = Pembaruan informasi pembayaran diperlukan untuk { $productName }
@@ -555,7 +547,6 @@ subscriptionPaymentProviderCancelled-title = Maaf, kami mengalami masalah dengan
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-content-detect = Kami mendeteksi adanya masalah dengan metode pembayaran Anda untuk { $productName }.
-subscriptionPaymentProviderCancelled-content-reason = Mungkin kartu kredit Anda telah kedaluwarsa, atau metode pembayaran Anda saat ini kedaluwarsa.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-subject = Langganan { $productName } diaktifkan kembali
@@ -583,13 +574,9 @@ subscriptionRenewalReminder-content-closing = Hormat kami,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = Tim { $productName }
-subscriptionsPaymentExpired-subject-1 = Kartu kredit untuk langganan Anda kedaluwarsa atau segera kedaluwarsa
-subscriptionsPaymentExpired-title-1 = Kartu kredit Anda kedaluwarsa atau akan kedaluwarsa
-subscriptionsPaymentExpired-content-1 = Kartu kredit yang Anda gunakan untuk pembayaran pada langganan berikut telah kedaluwarsa atau akan segera kedaluwarsa.
 subscriptionsPaymentProviderCancelled-subject = Pembaruan informasi pembayaran diperlukan untuk langganan { -brand-mozilla }
 subscriptionsPaymentProviderCancelled-title = Maaf, kami mengalami masalah dengan metode pembayaran Anda
 subscriptionsPaymentProviderCancelled-content-detected = Kami telah mendeteksi masalah dengan metode pembayaran Anda untuk langganan berikut.
-subscriptionsPaymentProviderCancelled-content-payment = Mungkin kartu kredit Anda telah kedaluwarsa, atau metode pembayaran Anda saat ini kedaluwarsa.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-subject = Pembayaran { $productName } diterima

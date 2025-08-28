@@ -347,6 +347,9 @@ primary-email-confirmation-link-reused = Email chính đã được xác minh tr
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Đăng nhập đã được xác nhận trước đó
 confirmation-link-reused-message = Liên kết xác nhận đó đã được sử dụng và chỉ có thể được sử dụng một lần.
+
+## Locale Toggle Component
+
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Yêu cầu không hợp lệ
 
@@ -1281,10 +1284,6 @@ auth-error-1067 = Nhập sai email?
 # Variables:
 #  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
 recovery-phone-number-ending-digits = Số kết thúc bằng { $lastFourPhoneNumber }
-# This error is shown when there is a particular kind of error at the very end of the 2FA flow
-# and the user should begin it again. A system/device clock not being synced to the internet time is
-# a common problem when using 2FA.
-two-factor-auth-setup-token-verification-error = Đã xảy ra sự cố khi bật xác thực hai bước. Hãy kiểm tra xem đồng hồ trên thiết bị của bạn đã được đặt tự động cập nhật chưa và <a>bắt đầu lại</a>.
 oauth-error-1000 = Đã xảy ra lỗi. Vui lòng đóng thẻ này và thử lại.
 
 ## Cannot Create Account page

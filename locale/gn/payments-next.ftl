@@ -273,9 +273,16 @@ subscription-content-button-cancel = Heja
     .aria-label = Eipe’a ñemboheraguapy { $productName } pegua
 subscription-content-button-resubscribe = Eñemboheraguapyjey
     .aria-label = Eñemboheraguapyjey { $productName }-pe
-resubscribe-dialog-action-button = Mboheraguapy guereko
+
+## $name (String) - The name of the subscribed product.
+## $amount (Number) - The amount billed (excluding tax if tax does not exist). It will be formatted as currency.
+## $tax (Number) - The tax added on, not included in amount. It will be formatted as currency.
+## $endDate (Date) - The end date of the subscription period.
+
 resubscribe-success-dialog-title = ¡Aguyjevete! Oĩmbaitéma.
-resubscribe-success-dialog-action-button = Emboty
+
+##
+
 dialog-close = Emboty ñomongeta
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails

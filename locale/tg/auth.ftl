@@ -482,10 +482,6 @@ subscriptionFirstInvoice-title = Ташаккур барои обунашави�
 subscriptionFirstInvoice-content-next-invoice = Санади дархости пардохти навбатӣ: { $nextInvoiceDateOnly }
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-subject-1 = Муҳлати истифодаи корти бонкии шумо барои «{ $productName }» ба анҷом расид ё ба наздикӣ ба анҷом мерасад
-subscriptionPaymentExpired-title-1 = Муҳлати истифодаи корти бонкии шумо ба анҷом расид ё ба наздикӣ ба анҷом мерасад
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = Пардохт барои «{ $productName }» иҷро шуд
 subscriptionPaymentFailed-title = Мутаассифона, ҳангоми коркарди пардохти шумо мушкилӣ ба миён омад
 # Variables:
@@ -512,8 +508,6 @@ subscriptionRenewalReminder-content-signature = Дастаи «{ $productName }�
 subscriptionReplaced-subject = Обунаи шумо ҳамчун як қисми навсозии шумо нав карда шуд
 subscriptionReplaced-title = Обунаи шумо навсозӣ карда шуд
 subscriptionReplaced-content-no-action = Аз ҷониби шумо ягон амал талаб карда намешавад.
-subscriptionsPaymentExpired-subject-1 = Муҳлати истифодаи корти бонкӣ барои обунаи шумо ба анҷом расид ё ба наздикӣ ба анҷом мерасад
-subscriptionsPaymentExpired-title-1 = Муҳлати истифодаи корти бонкии шумо ба анҷом расид ё ба наздикӣ ба анҷом мерасад
 subscriptionsPaymentProviderCancelled-title = Мутаассифона, ҳангоми татбиқи тарзи пардохти шумо мушкилӣ ба миён омад
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN

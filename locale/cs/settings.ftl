@@ -362,6 +362,9 @@ primary-email-confirmation-link-reused = Hlavní adresa už byla ověřena
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Přihlášení už bylo potvrzeno
 confirmation-link-reused-message = Každý potvrzovací odkaz lze použít pouze jednou a tento už byl použit.
+
+## Locale Toggle Component
+
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Špatný požadavek
 
@@ -1304,10 +1307,6 @@ auth-error-1067 = Chybně zadaný e-mail?
 # Variables:
 #  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
 recovery-phone-number-ending-digits = Číslo končící na { $lastFourPhoneNumber }
-# This error is shown when there is a particular kind of error at the very end of the 2FA flow
-# and the user should begin it again. A system/device clock not being synced to the internet time is
-# a common problem when using 2FA.
-two-factor-auth-setup-token-verification-error = Nepodařilo se zapnout dvoufázové ověřování. Zkontrolujte, zda jsou hodiny na vašem zařízení nastaveny na automatickou aktualizaci, a <a>začněte znovu</a>.
 oauth-error-1000 = Nastala nespecifikovaná chyba. Zavřete prosím tento panel a zkuste to znovu.
 
 ## Cannot Create Account page

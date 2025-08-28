@@ -296,6 +296,9 @@ subscription-cancellation-dialog-title = 가신다니 아쉽습니다.
 # $date (Date) - Last day of product access
 subscription-cancellation-dialog-msg = { $name } 구독이 취소되었습니다. { $date }까지 { $name }에 계속 접근할 수 있습니다.
 subscription-cancellation-dialog-aside = 질문이 있으신가요? <LinkExternal>{ -brand-mozilla } 지원</LinkExternal> 을 방문하세요.
+
+##
+
 dialog-close = 대화상자 닫기
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails

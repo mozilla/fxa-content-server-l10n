@@ -513,19 +513,11 @@ subscriptionFirstInvoice-content-auto-renew = キャンセルを選択しない�
 subscriptionFirstInvoice-content-next-invoice = 次回の請求日: { $nextInvoiceDateOnly }
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-subject-1 = { $productName } のクレジットカードの有効期限が切れているか、まもなく切れます
-subscriptionPaymentExpired-title-1 = クレジットカードの有効期限が切れているか、近づいています
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-content-1 = { $productName } の支払いに使用しているクレジットカードの有効期限が切れているか、近づいています。
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = { $productName } への支払いに失敗しました
 subscriptionPaymentFailed-title = 申し訳ありませんが、お支払いに問題があります
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-content-problem = { $productName } の最新のお支払いに問題がありました。
-subscriptionPaymentFailed-content-outdated = クレジットカードの有効期限が切れているか、現在のお支払い方法が古くなっている可能性があります。
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-subject = { $productName } の支払い情報を更新してください
@@ -533,7 +525,6 @@ subscriptionPaymentProviderCancelled-title = 申し訳ありませんが、お�
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-content-detect = { $productName } の支払い方法に問題が見つかりました。
-subscriptionPaymentProviderCancelled-content-reason = クレジットカードの有効期限が切れているか、現在のお支払い方法が古くなっている可能性があります。
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-subject = { $productName } のサブスクリプションを再開しました
@@ -561,13 +552,9 @@ subscriptionRenewalReminder-content-closing = 今後とも宜しくお願い致�
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = { $productName } チームより
-subscriptionsPaymentExpired-subject-1 = サブスクリプションに使用しているクレジットカードの有効期限が切れているか、近づいています
-subscriptionsPaymentExpired-title-1 = クレジットカードの有効期限が切れているか、近づいています
-subscriptionsPaymentExpired-content-1 = 以下のサブスクリプションの支払いに使用しているクレジットカードの有効期限が切れているか、近づいています。
 subscriptionsPaymentProviderCancelled-subject = { -brand-mozilla } のサブスクリプションの支払い情報を更新してください
 subscriptionsPaymentProviderCancelled-title = 申し訳ありませんが、お支払い方法に問題があります
 subscriptionsPaymentProviderCancelled-content-detected = 次のサブスクリプションの支払い方法に問題が見つかりました。
-subscriptionsPaymentProviderCancelled-content-payment = クレジットカードの有効期限が切れているか、現在のお支払い方法が古くなっている可能性があります。
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-subject = { $productName } への支払いを受領しました

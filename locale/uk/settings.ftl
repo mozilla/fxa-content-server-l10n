@@ -331,6 +331,9 @@ primary-email-confirmation-link-reused = Основна адреса елект�
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Вхід вже підтверджений
 confirmation-link-reused-message = Це посилання для підтвердження вже було використане, і може використовуватись лише один раз.
+
+## Locale Toggle Component
+
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Неправильний запит
 

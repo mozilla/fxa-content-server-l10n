@@ -630,19 +630,11 @@ subscriptionFirstInvoice-content-auto-renew = İptal etmediğiniz sürece abonel
 subscriptionFirstInvoice-content-next-invoice = Sonraki fatura: { $nextInvoiceDateOnly }
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-subject-1 = { $productName } için kredi kartının süresi doldu veya yakında dolacak
-subscriptionPaymentExpired-title-1 = Kredi kartınızın kullanım süresi dolmuş veya dolmak üzere
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-content-1 = { $productName } için ödeme yapmak üzere kullandığınız kredi kartının kullanım süresi dolmuş veya dolmak üzere.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = { $productName } ödemesi başarısız oldu
 subscriptionPaymentFailed-title = Ödemenizle ilgili bir sorun yaşıyoruz
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-content-problem = { $productName } için son ödemenizle ilgili bir sorun yaşadık.
-subscriptionPaymentFailed-content-outdated = Kredi kartınızın kullanım süresi dolmuş veya mevcut ödeme yönteminiz güncel olmayabilir.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-subject = { $productName } için ödeme bilgilerinizi güncellemeniz gerekiyor
@@ -650,7 +642,6 @@ subscriptionPaymentProviderCancelled-title = Ödeme yönteminizle ilgili bir sor
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-content-detect = { $productName } ödeme yönteminizle ilgili bir sorun tespit ettik.
-subscriptionPaymentProviderCancelled-content-reason = Kredi kartınızın kullanım süresi dolmuş veya mevcut ödeme yönteminiz güncel olmayabilir.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-subject = { $productName } aboneliği yeniden etkinleştirildi
@@ -684,13 +675,9 @@ subscriptionReplaced-title = Aboneliğiniz güncellendi
 subscriptionReplaced-content-replaced = Paket dışı { $productName } aboneliğiniz değiştirildi ve artık yeni paketinize dahil edildi.
 subscriptionReplaced-content-credit = Önceki aboneliğinizdeki kalan kullanmadığınız süre için hesabınıza kredi eklenecektir. Bu kredi otomatik olarak tanımlanacak ve gelecekteki faturalarınızdan düşülecektir.
 subscriptionReplaced-content-no-action = Herhangi bir işlem yapmanız gerekmiyor.
-subscriptionsPaymentExpired-subject-1 = Abonelikleriniz için kullandığınız kredi kartının kullanım süresi dolmuş veya yakında dolacak
-subscriptionsPaymentExpired-title-1 = Kredi kartınızın kullanım süresi dolmuş veya dolmak üzere
-subscriptionsPaymentExpired-content-1 = Aşağıdaki abonelikler için ödeme yapmak üzere kullandığınız kredi kartının kullanım süresi dolmuş veya dolmak üzere.
 subscriptionsPaymentProviderCancelled-subject = { -brand-mozilla } abonelikleri için ödeme bilgilerinizi güncellemeniz gerekiyor
 subscriptionsPaymentProviderCancelled-title = Kusura bakmayın, ödeme yönteminizle ilgili bir sorun yaşıyoruz
 subscriptionsPaymentProviderCancelled-content-detected = Aşağıdaki abonelikler için ödeme yönteminizle ilgili bir sorun tespit ettik.
-subscriptionsPaymentProviderCancelled-content-payment = Kredi kartınızın kullanım süresi dolmuş veya mevcut ödeme yönteminiz güncel olmayabilir.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-subject = { $productName } ödemesi alındı

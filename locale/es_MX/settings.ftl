@@ -291,6 +291,9 @@ primary-email-confirmation-link-reused = El correo principal ya fue confirmado
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Inicio de sesión ya confirmado
 confirmation-link-reused-message = Ya se ha usado ese enlace de confirmación y es de un solo uso.
+
+## Locale Toggle Component
+
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Solicitud errónea
 

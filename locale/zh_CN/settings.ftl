@@ -347,6 +347,9 @@ primary-email-confirmation-link-reused = 主邮箱地址已经确认
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = 登录已确认
 confirmation-link-reused-message = 此确认链接已被使用，并只能使用一次。
+
+## Locale Toggle Component
+
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = 错误请求
 
@@ -1271,10 +1274,6 @@ auth-error-1067 = 您输入的邮箱地址可能有误
 # Variables:
 #  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
 recovery-phone-number-ending-digits = 手机尾号为 { $lastFourPhoneNumber }
-# This error is shown when there is a particular kind of error at the very end of the 2FA flow
-# and the user should begin it again. A system/device clock not being synced to the internet time is
-# a common problem when using 2FA.
-two-factor-auth-setup-token-verification-error = 启用两步验证时出现问题。请确认您的设备时钟已设为自动同步，然后<a>重新启用</a>。
 oauth-error-1000 = 出了点问题。请关闭此标签页，然后再试一次。
 
 ## Cannot Create Account page

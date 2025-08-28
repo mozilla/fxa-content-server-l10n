@@ -353,10 +353,6 @@ subscriptionFirstInvoice-title = { $productName } хәбәрләренә язы�
 # Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionFirstInvoice-content-next-invoice = Киләсе квитанция: { $nextInvoiceDateOnly }
-subscriptionPaymentExpired-title-1 = Сезнең кредит картасының вакыты чыккан яки чыгып килә
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-content-1 = { $productName } продукты өчен түләүләр өчен сез кулланган кредит картасының вакыты чыккан яки чыгып килә.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = { $productName } өчен түләү уңышсыз тәмамланды
@@ -364,7 +360,6 @@ subscriptionPaymentFailed-title = Гафу итегез, түләвегез бе
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-content-problem = { $productName } өчен соңгы түләвегез белән бер проблема килеп чыкты.
-subscriptionPaymentFailed-content-outdated = Кредит картагызның вакыты чыккан булырга, яисә хәзерге түләү ысулыгыз искергән булырга мөмкин.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-subject = { $productName } өчен түләү турындагы мәгълүматны яңарту кирәк
@@ -372,7 +367,6 @@ subscriptionPaymentProviderCancelled-title = Гафу итегез, сезнең
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-content-detect = { $productName } өчен түләү ысулыгыз белән бер проблема ачыкладык.
-subscriptionPaymentProviderCancelled-content-reason = Кредит картагызның вакыты чыккан, яисә хәзерге түләү ысулыгыз искергән булырга мөмкин.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-subject = { $productName } продуктына язылу яңадан активлаштырылды
@@ -390,11 +384,9 @@ subscriptionRenewalReminder-content-closing = Хөрмәт илә,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = { $productName } такымы
-subscriptionsPaymentExpired-title-1 = Сезнең кредит картасының вакыты чыккан яки чыгып килә
 subscriptionsPaymentProviderCancelled-subject = { -brand-mozilla } абунәләре өчен түләү турындагы мәгълүматны яңарту кирәк
 subscriptionsPaymentProviderCancelled-title = Гафу итегез, сезнең түләү ысулы белән проблема бар
 subscriptionsPaymentProviderCancelled-content-detected = Түбәндәге абунәләр өчен түләү ысулыгыз белән бер проблема ачыкладык.
-subscriptionsPaymentProviderCancelled-content-payment = Кредит картагызның вакыты чыккан булырга, яисә хәзерге түләү ысулыгыз искергән булырга мөмкин.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-subject = { $productName } өчен түләү кабул ителде

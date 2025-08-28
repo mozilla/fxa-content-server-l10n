@@ -309,13 +309,22 @@ subscription-cancellation-dialog-msg = Waš abonement za { $name } jo se wupowě
 subscription-cancellation-dialog-aside = Maśo pšašanja? Woglědajśo se k <LinkExternal>Pomocy { -brand-mozilla }</LinkExternal>.
 subscription-content-button-resubscribe = Abonement wótnowiś
     .aria-label = { $productName } znowego aboněrowaś
+# $name (String) - The name of the subscribed product.
 # $date (Date) - Last day of product access
 subscription-content-resubscribe = Zgubijośo <strong>{ $date }</strong> pśistup k { $name }.
+# $name (String) - The name of the subscribed product.
 resubscribe-dialog-title = Cośo { $name } dalej wužywaś?
+
+## $name (String) - The name of the subscribed product.
+## $amount (Number) - The amount billed (excluding tax if tax does not exist). It will be formatted as currency.
+## $tax (Number) - The tax added on, not included in amount. It will be formatted as currency.
+## $endDate (Date) - The end date of the subscription period.
+
 resubscribe-dialog-content = Waš pśistup k { $name } dalej wobstoj. a waša wótliceńska perioda a wašo plaśenje te samskej wóstanjotej. Wašo pśiduce wótpisanje buźo { $endDate } { $amount }.
-resubscribe-dialog-action-button = Dalej aboněrowaś
 resubscribe-success-dialog-title = Wjeliki źěk! Sćo gótowy za start.
-resubscribe-success-dialog-action-button = Zacyniś
+
+##
+
 dialog-close = Dialog zacyniś
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails

@@ -448,24 +448,15 @@ subscriptionFirstInvoice-content-auto-renew = Ajerred-ik ad yales s wudem awurma
 subscriptionFirstInvoice-content-next-invoice = Tafaṭurt i d-iteddun: { $nextInvoiceDateOnly }
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-subject-1 = Takarḍa n usmad i { $productName } temmut neɣ qrib ad temmet
-subscriptionPaymentExpired-title-1 = Takarḍa-k n usmad temmut neɣ qrib ad temmet
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-content-1 = Takarḍa n usmad i tesseqdaceḍ akken ad txellṣeḍ { $productName } temmut neɣ qrib ad temmet.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = Axelleṣ n { $productName } yecceḍ
 subscriptionPaymentFailed-title = Suref-aɣ, nesɛa uguren akked lexlaṣ-ik
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-content-problem = Nemmuger-d ugur akked lexlaṣ-ik aneggaru n { $productName }.
-subscriptionPaymentFailed-content-outdated = Ahat d takarḍa-k n usmad i yemmuten, neɣ tarrayt-ik tamirant n lexlaṣ iɛedda-tt wakud.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-subject = Aleqqem n telɣut n lexlaṣ tettusra i { $productName }
 subscriptionPaymentProviderCancelled-title = Suref-aɣ, nesɛa uguren s tarrayt-ik·im n lexlaṣ
-subscriptionPaymentProviderCancelled-content-reason = Ahat d takarḍa-k n usmad i yemmuten, neɣ tarrayt-ik tamirant n lexlaṣ iɛedda-tt wakud.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-subject = Ajerred n { $productName } yettwarmed
@@ -487,12 +478,9 @@ subscriptionRenewalReminder-content-closing = S tumert,
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = Tarbaεt { $productName }
 subscriptionReplaced-content-no-action = Ulac tigawt i yettwasran seg tama-k⋅m.
-subscriptionsPaymentExpired-title-1 = Takarḍa-k n usmad temmut neɣ qrib ad temmet
-subscriptionsPaymentExpired-content-1 = Takarḍa n usmad i tesseqdaceḍ i uxelleṣ deg yimultaɣen-a temmut neɣ qrib ad temmet.
 subscriptionsPaymentProviderCancelled-subject = Aleqqem n telɣut n lexlaṣ yettusra i yimultaɣ { -brand-mozilla }
 subscriptionsPaymentProviderCancelled-title = Suref-aɣ, nesɛa uguren s tarrayt-ik·im n lexlaṣ
 subscriptionsPaymentProviderCancelled-content-detected = Nemlal-d ugur akked tarrayt-ik·im n lexlaṣ i yimultaɣ-a.
-subscriptionsPaymentProviderCancelled-content-payment = Ahat d takarḍa-k n usmad i yemmuten, neɣ tarrayt-ik tamirant n lexlaṣ iɛedda-tt wakud.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-subject = Lexlaṣ n { $productName } yettwarmes

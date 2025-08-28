@@ -265,19 +265,11 @@ subscriptionFirstInvoice-content-auto-renew = Sinu tellimust uuendatakse automaa
 subscriptionFirstInvoice-content-next-invoice = Järgmine arve: { $nextInvoiceDateOnly }
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-subject-1 = Toote { $productName } jaoks kasutatav krediitkaart aegus või aegub peagi
-subscriptionPaymentExpired-title-1 = Sinu krediitkaart aegus või hakkab aeguma
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-content-1 = Toote { $productName } jaoks kasutatav krediitkaart aegus või hakkab aeguma.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = Toote { $productName } makse on ebaõnnestus
 subscriptionPaymentFailed-title = Kahjuks on meil probleeme sinu makse teostamisega
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-content-problem = Meil tekkis probleem toote { $productName } viimase maksega.
-subscriptionPaymentFailed-content-outdated = Võib juhtuda, et sinu krediitkaart või praegune makseviis on aegunud.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-subject = Vaja on uuendada toote { $productName } makseteavet
@@ -285,7 +277,6 @@ subscriptionPaymentProviderCancelled-title = Kahjuks on meil probleeme sinu maks
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-content-detect = Toote { $productName } makseviisiga tuvastati probleem.
-subscriptionPaymentProviderCancelled-content-reason = Võib juhtuda, et sinu krediitkaart või praegune makseviis on aegunud.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-subject = Teenuse { $productName } tellimus aktiveeriti uuesti
@@ -313,13 +304,9 @@ subscriptionRenewalReminder-content-closing = Lugupidamisega
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = Teenuse { $productName } tiim
-subscriptionsPaymentExpired-subject-1 = Sinu tellimusega seotud krediitkaart aegus või aegub peagi
-subscriptionsPaymentExpired-title-1 = Sinu krediitkaart aegus või hakkab aeguma
-subscriptionsPaymentExpired-content-1 = Järgnevate tellimuste eest tasumiseks kasutatav krediitkaart aegus või hakkab aeguma.
 subscriptionsPaymentProviderCancelled-subject = { -brand-mozilla } tellimuste jaoks on vajalik makseteabe uuendamine
 subscriptionsPaymentProviderCancelled-title = Kahjuks on meil probleeme sinu makseviisiga
 subscriptionsPaymentProviderCancelled-content-detected = Järgnevate tellimuste makseviisiga tuvastati probleem.
-subscriptionsPaymentProviderCancelled-content-payment = Võib juhtuda, et sinu krediitkaart või praegune makseviis on aegunud.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-subject = Toote { $productName } makse jõudis kohale

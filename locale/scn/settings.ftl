@@ -333,6 +333,9 @@ primary-email-confirmation-link-reused = U nnirizzu di posta elittrònica primar
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = A trasuta già fu cunfirmata
 confirmation-link-reused-message = Sta lijami di cunferma fu già usata, e po èssiri usata na vota sula.
+
+## Locale Toggle Component
+
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Dumanna nun vàlita
 

@@ -321,6 +321,9 @@ primary-email-confirmation-link-reused = ยืนยันอีเมลหล
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = ยืนยันการลงชื่อเข้าไปแล้ว
 confirmation-link-reused-message = ลิงก์ยืนยันนั้นถูกใช้ไปแล้ว และสามารถใช้ได้แค่ครั้งเดียว
+
+## Locale Toggle Component
+
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = คำขอไม่ถูกต้อง
 

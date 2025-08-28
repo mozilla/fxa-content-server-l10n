@@ -635,19 +635,11 @@ subscriptionFirstInvoice-content-auto-renew = Ваша подписка буде
 subscriptionFirstInvoice-content-next-invoice = Следующая оплата: { $nextInvoiceDateOnly }
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-subject-1 = Срок действия банковской карты для { $productName } истёк или в скором времени истечёт
-subscriptionPaymentExpired-title-1 = Срок действия вашей банковской карты истёк или в скором времени истечёт
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-content-1 = Срок действия банковской карты, которую вы используете для платежей за { $productName }, истёк или в скором времени истечёт.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = Платёж за { $productName } не прошёл
 subscriptionPaymentFailed-title = Извините, у нас возникли проблемы с вашим платежом
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-content-problem = У нас возникли проблемы с вашим последним платежом за { $productName }.
-subscriptionPaymentFailed-content-outdated = Возможно, срок действия вашей банковской карты истёк, или ваш текущий способ оплаты более не работает.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-subject = Необходимо обновить платежную информацию для { $productName }
@@ -655,7 +647,6 @@ subscriptionPaymentProviderCancelled-title = Извините, у нас воз�
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-content-detect = Мы обнаружили проблему с вашим способом оплаты за { $productName }.
-subscriptionPaymentProviderCancelled-content-reason = Возможно, срок действия вашей банковской карты истёк, или ваш текущий способ оплаты более не работает.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-subject = Подписка на { $productName } активирована повторно
@@ -689,13 +680,9 @@ subscriptionReplaced-title = Ваша подписка обновлена
 subscriptionReplaced-content-replaced = Ваша индивидуальная подписка на { $productName } была заменена и теперь включена в ваш новый пакет.
 subscriptionReplaced-content-credit = Вы получите компенсацию за неиспользованное время вашей предыдущей подписки. Эта сумма будет автоматически зачислена на ваш счет для оплаты будущих платежей.
 subscriptionReplaced-content-no-action = С вашей стороны не требуется никаких действий.
-subscriptionsPaymentExpired-subject-1 = Срок действия банковской карты для ваших подписок истёк или в скором времени истечёт
-subscriptionsPaymentExpired-title-1 = Срок действия вашей банковской карты истёк или в скором времени истечёт
-subscriptionsPaymentExpired-content-1 = Срок действия банковской карты, которую вы используете для платежей по следующим подпискам, истёк или в скором времени истечёт.
 subscriptionsPaymentProviderCancelled-subject = Необходимо обновить платежную информацию для подписок { -brand-mozilla }
 subscriptionsPaymentProviderCancelled-title = Извините, у нас возникли проблемы с вашим способом оплаты
 subscriptionsPaymentProviderCancelled-content-detected = Мы обнаружили проблему с вашим способом оплаты для следующих подписок.
-subscriptionsPaymentProviderCancelled-content-payment = Возможно, срок действия вашей банковской карты истёк, или ваш текущий способ оплаты более не работает.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-subject = Платёж за { $productName } получен

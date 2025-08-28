@@ -516,19 +516,11 @@ subscriptionFirstInvoice-content-auto-renew = Tilaus uusiutuu automaattisesti jo
 subscriptionFirstInvoice-content-next-invoice = Seuraava lasku: { $nextInvoiceDateOnly }
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-subject-1 = Palvelun { $productName } kanssa käytetty luottokortti vanhentui tai on vanhentumassa pian
-subscriptionPaymentExpired-title-1 = Luottokorttisi on vanhentunut tai vanhentumassa pian
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-content-1 = Luottokortti, jota käytät { $productName } -tilauksen maksujen suorittamiseen, on vanhentunut tai vanhentumassa pian.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = { $productName } -maksu epäonnistui
 subscriptionPaymentFailed-title = Valitettavasti maksusi kanssa ilmeni ongelmia
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-content-problem = Havaitsimme ongelman { $productName }:n viimeisimmän maksun kanssa.
-subscriptionPaymentFailed-content-outdated = Luottokorttisi saattaa olla vanhentunut, tai nykyinen maksutapasi ei ole ajan tasalla.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-subject = { $productName } vaatii maksutietojen päivittämisen
@@ -536,7 +528,6 @@ subscriptionPaymentProviderCancelled-title = Valitettavasti valitsemasi maksutav
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-content-detect = Havaitsimme ongelman { $productName }:n kanssa käyttämäsi maksutavan kohdalla.
-subscriptionPaymentProviderCancelled-content-reason = Luottokorttisi saattaa olla vanhentunut, tai nykyinen maksutapasi ei ole ajan tasalla.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-subject = { $productName } -tilaus aktivoitu uudelleen
@@ -564,13 +555,9 @@ subscriptionRenewalReminder-content-closing = Terveisin
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = { $productName } -tiimi
-subscriptionsPaymentExpired-subject-1 = Tilauksiin käyttämäsi luottokortti vanhentui tai on vanhentumassa pian
-subscriptionsPaymentExpired-title-1 = Luottokorttisi on vanhentunut tai vanhentumassa pian
-subscriptionsPaymentExpired-content-1 = Seuraaviin tilauksiin käyttämäsi luottokortti vanhentui tai on vanhentumassa pian.
 subscriptionsPaymentProviderCancelled-subject = Maksutietojen päivitys vaaditaan { -brand-mozilla }-tilauksiin
 subscriptionsPaymentProviderCancelled-title = Valitettavasti valitsemasi maksutavan kanssa ilmeni ongelmia
 subscriptionsPaymentProviderCancelled-content-detected = Havaitsimme ongelman seuraavien tilausten maksutavan kohdalla.
-subscriptionsPaymentProviderCancelled-content-payment = Luottokorttisi saattaa olla vanhentunut, tai nykyinen maksutapasi ei ole ajan tasalla.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-subject = { $productName } -maksu vastaanotettu

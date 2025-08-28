@@ -325,6 +325,9 @@ primary-email-confirmation-link-reused = Email-i parësor tashmë i verifikuar
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Hyrje tashmë e ripohuar
 confirmation-link-reused-message = Ajo lidhje ripohimi qe përdorur tashmë dhe mund të përdoret vetëm një herë.
+
+## Locale Toggle Component
+
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Kërkesë e Gabuar
 

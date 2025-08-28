@@ -320,6 +320,9 @@ primary-email-confirmation-link-reused = Ensisijainen sähköposti on jo vahvist
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Kirjautuminen on jo vahvistettu
 confirmation-link-reused-message = Tämä vahvistuslinkki on jo käytetty, ja linkkiä voi käyttää vain kerran.
+
+## Locale Toggle Component
+
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Virheellinen pyyntö
 

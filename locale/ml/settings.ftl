@@ -268,6 +268,9 @@ remember-password-signin-link = പ്രവേശിക്കുക
 primary-email-confirmation-link-reused = പ്രാഥമിക ഇതപാൽ മുൻപേ ഉറപ്പിച്ചതാണു്
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = പ്രവേശനം ഉറപ്പിച്ചു
+
+## Locale Toggle Component
+
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = കേടായ അഭ്യൎത്ഥനം
 

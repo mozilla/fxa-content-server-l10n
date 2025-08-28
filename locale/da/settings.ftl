@@ -359,6 +359,9 @@ primary-email-confirmation-link-reused = Primær mailadresse allerede bekræftet
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Login er allerede bekræftet
 confirmation-link-reused-message = Det bekræftelseslink er allerede blevet brugt, og det kan kun bruges én gang.
+
+## Locale Toggle Component
+
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Ugyldig forespørgsel
 
@@ -1303,10 +1306,6 @@ auth-error-1067 = Forkert indtastet mailadresse?
 # Variables:
 #  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
 recovery-phone-number-ending-digits = Nummer, der ender på { $lastFourPhoneNumber }
-# This error is shown when there is a particular kind of error at the very end of the 2FA flow
-# and the user should begin it again. A system/device clock not being synced to the internet time is
-# a common problem when using 2FA.
-two-factor-auth-setup-token-verification-error = Der opstod et problem med at aktivere totrinsgodkendelse. Kontroller at uret i din enhed er indstillet til at opdatere automatisk, og <a>start forfra</a>.
 oauth-error-1000 = Noget gik galt. Luk dette faneblad og prøv igen.
 
 ## Cannot Create Account page

@@ -365,6 +365,9 @@ primary-email-confirmation-link-reused = Primarna e-mailowa adresa jo južo wok�
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Pśizjawjenje jo se južo wobkšuśiło
 confirmation-link-reused-message = Toś ten wobkšuśeński wótkaz jo se južo wužył a dajo se jano jaden raz wužywaś.
+
+## Locale Toggle Component
+
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Špatne napšašowanje
 
@@ -1313,10 +1316,6 @@ auth-error-1067 = Sćo e-mailowu adresu wopak napisał?
 # Variables:
 #  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
 recovery-phone-number-ending-digits = Numer, kótaryž se na { $lastFourPhoneNumber } kóńcy.
-# This error is shown when there is a particular kind of error at the very end of the 2FA flow
-# and the user should begin it again. A system/device clock not being synced to the internet time is
-# a common problem when using 2FA.
-two-factor-auth-setup-token-verification-error = Dajo problem pśi zmóžnjanju dwójokšacoweje awtentifikacije. Pśeglědajśo, lěc zeger wašogo rěda se awtomatiski aktualizěrujo a <a>zachopśo znowego</a>.
 oauth-error-1000 = Něco njejo se raźiło. Pšosym zacyńśo toś ten rejtarik a wopytajśo hyšći raz.
 
 ## Cannot Create Account page

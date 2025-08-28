@@ -322,6 +322,9 @@ primary-email-confirmation-link-reused = Primarna e-mail adresa je već potvrđe
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Prijava je već potvrđena
 confirmation-link-reused-message = Ta poveznica za potvrdu već je korištena i može se koristiti samo jednom.
+
+## Locale Toggle Component
+
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Neispravan zahtjev
 

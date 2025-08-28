@@ -541,19 +541,11 @@ subscriptionFirstInvoice-content-auto-renew = Zure harpidetzak fakturazio-aldi b
 subscriptionFirstInvoice-content-next-invoice = Hurrengo faktura: { $nextInvoiceDateOnly }
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-subject-1 = { $productName }ren kreditu-txartela iraungi da edo laster iraungiko da
-subscriptionPaymentExpired-title-1 = Zure kreditu txartela iraungita dago edo iraungitzear dago
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-content-1 = { $productName }-ren ordainketak egiteko erabiltzen ari zaren kreditu-txartela iraungita dago edo iraungitzear dago.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = { $productName } ordainketak huts egin du
 subscriptionPaymentFailed-title = Barkatu, arazoak ditugu ordainketarekin
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-content-problem = Arazo bat izan dugu { $productName }-ren azken ordainketarekin.
-subscriptionPaymentFailed-content-outdated = Baliteke zure kreditu-txartela iraungita egotea edo egungo ordainketa-metodoa zaharkituta egotea.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-subject = Ordainketa-informazioa eguneratu behar da { $productName }-rako
@@ -561,7 +553,6 @@ subscriptionPaymentProviderCancelled-title = Barkatu, arazoak ditugu ordainketa-
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-content-detect = Arazo bat hauteman dugu zure ordainketa-metodoarekin: { $productName }.
-subscriptionPaymentProviderCancelled-content-reason = Baliteke zure kreditu-txartela iraungita egotea edo egungo ordainketa-metodoa zaharkituta egotea.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-subject = { $productName } harpidetza berriz aktibatua
@@ -589,13 +580,9 @@ subscriptionRenewalReminder-content-closing = Adeitasunez
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = { $productName } taldea
-subscriptionsPaymentExpired-subject-1 = Zure harpidetzen kreditu txartela iraungi edo laster iraungiko da
-subscriptionsPaymentExpired-title-1 = Zure kreditu txartela iraungita dago edo iraungitzear dago
-subscriptionsPaymentExpired-content-1 = Harpidetza hauetarako ordainketak egiteko erabiltzen ari zaren kreditu-txartela iraungita dago edo iraungitzear dago.
 subscriptionsPaymentProviderCancelled-subject = Ordainketa-informazioaren eguneratzea beharrezkoa da { -brand-mozilla } harpidetzetan
 subscriptionsPaymentProviderCancelled-title = Barkatu, arazoak ditugu ordainketa-metodoarekin
 subscriptionsPaymentProviderCancelled-content-detected = Arazo bat hauteman dugu zure ordainketa-metodoarekin hurrengo harpidetzetan.
-subscriptionsPaymentProviderCancelled-content-payment = Baliteke zure kreditu-txartela iraungita egotea edo egungo ordainketa-metodoa zaharkituta egotea.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-subject = { $productName } ordainketa jaso da

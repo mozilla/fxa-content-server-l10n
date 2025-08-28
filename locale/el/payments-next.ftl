@@ -300,16 +300,25 @@ subscription-cancellation-dialog-msg = Η συνδρομή σας στο { $name
 subscription-cancellation-dialog-aside = Έχετε απορίες; Επισκεφθείτε την <LinkExternal>Υποστήριξη { -brand-mozilla }</LinkExternal>.
 subscription-content-button-resubscribe = Επανανεγγραφή
     .aria-label = Επανανεγγραφή στο { $productName }
+# $name (String) - The name of the subscribed product.
 # $date (Date) - Last day of product access
 subscription-content-resubscribe = Θα ολοκληρωθεί η πρόσβαση στο { $name } στις <strong>{ $date }</strong>.
+# $name (String) - The name of the subscribed product.
 resubscribe-dialog-title = Θέλετε να συνεχίσετε να χρησιμοποιείτε το όνομα { $name };
+
+## $name (String) - The name of the subscribed product.
+## $amount (Number) - The amount billed (excluding tax if tax does not exist). It will be formatted as currency.
+## $tax (Number) - The tax added on, not included in amount. It will be formatted as currency.
+## $endDate (Date) - The end date of the subscription period.
+
 resubscribe-dialog-content =
     Η πρόσβασή σας στο { $name } θα συνεχιστεί, ενώ ο κύκλος χρέωσής σας
     και οι πληρωμές θα παραμείνουν ως έχουν. Η επόμενη χρέωση θα είναι
     { $amount } στις { $endDate }.
-resubscribe-dialog-action-button = Διατήρηση συνδρομής
 resubscribe-success-dialog-title = Ευχαριστούμε! Όλα είναι έτοιμα.
-resubscribe-success-dialog-action-button = Κλείσιμο
+
+##
+
 dialog-close = Κλείσιμο διαλόγου
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails

@@ -629,19 +629,11 @@ subscriptionFirstInvoice-content-auto-renew = 除非您主动取消订阅，否�
 subscriptionFirstInvoice-content-next-invoice = 下次扣款日：{ $nextInvoiceDateOnly }
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-subject-1 = 支付 { $productName } 所使用的的信用卡已过期或即将到期。
-subscriptionPaymentExpired-title-1 = 您的信用卡已过期或即将到期
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-content-1 = 您用于支付 { $productName } 的信用卡已过期或即将到期。
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = { $productName } 付款失败
 subscriptionPaymentFailed-title = 抱歉，处理付款时遇到问题
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-content-problem = 处理您最近对 { $productName } 付款时，遇到问题。
-subscriptionPaymentFailed-content-outdated = 可能是您的信用卡已过期，或目前的付款方式失效了。
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-subject = 需要更新 { $productName } 的付款信息
@@ -649,7 +641,6 @@ subscriptionPaymentProviderCancelled-title = 抱歉，处理付款时遇到问�
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-content-detect = 处理您最近为 { $productName } 的付款时遇到问题。
-subscriptionPaymentProviderCancelled-content-reason = 可能是您的信用卡已过期，或目前的付款方式失效了。
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-subject = 已重新开始订阅 { $productName }
@@ -683,13 +674,9 @@ subscriptionReplaced-title = 您的订阅已更新
 subscriptionReplaced-content-replaced = 已替换您单独的 { $productName } 订阅，其现已包含在您新的捆绑包中。
 subscriptionReplaced-content-credit = 上个订阅中未使用的天数将以余额形式返还至您的账户。余额将自动添加到您的帐户，并抵扣将来的费用。
 subscriptionReplaced-content-no-action = 您无需执行任何操作。
-subscriptionsPaymentExpired-subject-1 = 您用于支付订阅的信用卡已过期或即将到期
-subscriptionsPaymentExpired-title-1 = 您的信用卡已过期或即将到期
-subscriptionsPaymentExpired-content-1 = 您用于支付以下订阅的信用卡已过期或即将到期。
 subscriptionsPaymentProviderCancelled-subject = 需要更新 { -brand-mozilla } 产品订阅的付款信息
 subscriptionsPaymentProviderCancelled-title = 抱歉，处理付款时遇到问题
 subscriptionsPaymentProviderCancelled-content-detected = 处理您最近为下列订阅项目的付款时遇到问题。
-subscriptionsPaymentProviderCancelled-content-payment = 可能是您的信用卡已过期，或目前的付款方式失效了。
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-subject = 已收到 { $productName } 付款

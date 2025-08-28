@@ -361,6 +361,9 @@ primary-email-confirmation-link-reused = მთავარი ელფოს�
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = შესვლა უკვე დამოწმებულია
 confirmation-link-reused-message = დადასტურების ბმული უკვე გამოყენებულია, მისი გამოყენება მხოლოდ ერთხელ შეიძლება.
+
+## Locale Toggle Component
+
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = გაუმართავი მოთხოვნა
 
@@ -1303,10 +1306,6 @@ auth-error-1067 = მცდარბეჭდილია ელფოსტა?
 # Variables:
 #  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
 recovery-phone-number-ending-digits = ნომრის დაბოლოებაა { $lastFourPhoneNumber }
-# This error is shown when there is a particular kind of error at the very end of the 2FA flow
-# and the user should begin it again. A system/device clock not being synced to the internet time is
-# a common problem when using 2FA.
-two-factor-auth-setup-token-verification-error = ხარვეზი წარმოიშვა ორბიჯიანი დამოწმების ჩართვისას. დარწმუნდით, რომ თქვენი მოწყობილობის საათზე ჩართულია ავტომატური განახლება და <a>კვლავ სცადეთ</a>.
 oauth-error-1000 = რაღაც ხარვეზია. გთხოვთ დახუროთ ჩანართი და სცადოთ ხელახლა.
 
 ## Cannot Create Account page

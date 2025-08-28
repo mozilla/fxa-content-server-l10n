@@ -606,19 +606,11 @@ subscriptionFirstInvoice-content-auto-renew = Abonamentul se va reînnoi automat
 subscriptionFirstInvoice-content-next-invoice = Următoarea factură: { $nextInvoiceDateOnly }
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-subject-1 = Cardul de credit pentru { $productName } a expirat sau va expira în curând
-subscriptionPaymentExpired-title-1 = Cardul de credit este expirat sau va expira în curând
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-content-1 = Cardul de credit pe care îl folosești ca să faci plăți pentru { $productName } este expirat sau va expira în curând.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = Plata pentru { $productName } a eșuat
 subscriptionPaymentFailed-title = Ne pare rău, întâmpinăm probleme cu plata ta
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-content-problem = Am întâmpinat o problemă cu ultima ta plată pentru { $productName }.
-subscriptionPaymentFailed-content-outdated = Este posibil să îți fi expirat cardul de credit sau ca metoda ta actuală de plată să nu mai fie de actualitate.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-subject = Este necesară actualizarea informațiilor de plată pentru { $productName }
@@ -626,7 +618,6 @@ subscriptionPaymentProviderCancelled-title = Ne pare rău, întâmpinăm problem
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-content-detect = Am detectat o problemă cu metoda ta de plată pentru { $productName }.
-subscriptionPaymentProviderCancelled-content-reason = Este posibil să îți fi expirat cardul de credit sau ca metoda ta actuală de plată să nu mai fie de actualitate.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-subject = Abonamentul pentru { $productName } a fost reactivat
@@ -660,13 +651,9 @@ subscriptionReplaced-title = Abonamentul a fost actualizat
 subscriptionReplaced-content-replaced = Abonamentul tău individual { $productName } a fost înlocuit și acum este inclus în noul pachet.
 subscriptionReplaced-content-credit = Vei primi un credit pentru timpul neutilizat din abonamentul anterior. Acest credit va fi aplicat automat contului tău și utilizat pentru plăți viitoare.
 subscriptionReplaced-content-no-action = Nu necesită nicio acțiune din partea ta.
-subscriptionsPaymentExpired-subject-1 = Cardul de credit pentru abonamente este expirat sau va expira în curând
-subscriptionsPaymentExpired-title-1 = Cardul de credit este expirat sau va expira în curând
-subscriptionsPaymentExpired-content-1 = Cardul de credit pe care îl folosești pentru plăți aferente următoarelor abonamente este expirat sau va expira în curând.
 subscriptionsPaymentProviderCancelled-subject = Este necesară actualizarea informațiilor de plată pentru abonamentele { -brand-mozilla }
 subscriptionsPaymentProviderCancelled-title = Ne pare rău, întâmpinăm probleme cu metoda ta de plată
 subscriptionsPaymentProviderCancelled-content-detected = Am detectat o problemă cu metoda ta de plată pentru următoarele abonamente.
-subscriptionsPaymentProviderCancelled-content-payment = Este posibil să îți fi expirat cardul de credit sau ca metoda ta actuală de plată să nu mai fie de actualitate.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-subject = Plată primită pentru { $productName }

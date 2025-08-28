@@ -602,19 +602,11 @@ subscriptionFirstInvoice-content-auto-renew = המינוי שלך יתחדש ב�
 subscriptionFirstInvoice-content-next-invoice = החשבונית הבאה: { $nextInvoiceDateOnly }
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-subject-1 = פג תוקף כרטיס האשראי עבור { $productName }, או שהוא יפוג בקרוב
-subscriptionPaymentExpired-title-1 = פג תוקף כרטיס האשראי שלך, או שהוא יפוג בקרוב
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-content-1 = פג תוקף כרטיס האשראי המשמש אותך לביצוע תשלומים עבור { $productName }, או שהוא יפוג בקרוב.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = התשלום עבור { $productName } נכשל
 subscriptionPaymentFailed-title = נתקלנו בבעיה עם התשלום שלך, עמך הסליחה
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-content-problem = הייתה לנו בעיה עם התשלום האחרון שלך עבור { $productName }.
-subscriptionPaymentFailed-content-outdated = יכול להיות שתוקף כרטיס האשראי שלך פג, או שאמצעי התשלום הנוכחי שלך אינו מעודכן.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-subject = נדרש עדכון פרטי תשלום עבור { $productName }
@@ -622,7 +614,6 @@ subscriptionPaymentProviderCancelled-title = נתקלנו בבעיה עם שיט
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-content-detect = איתרנו בעיה באמצעי התשלום שלך עבור { $productName }.
-subscriptionPaymentProviderCancelled-content-reason = יכול להיות שתוקף כרטיס האשראי שלך פג, או שאמצעי התשלום הנוכחי שלך אינו מעודכן.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-subject = המינוי עבור { $productName } הופעל מחדש
@@ -650,13 +641,9 @@ subscriptionReplaced-title = המינוי שלך עודכן
 subscriptionReplaced-content-replaced = המינוי האישי שלך ל־{ $productName } הוחלף וכעת כלול בחבילה החדשה שלך.
 subscriptionReplaced-content-credit = יתקבל זיכוי עבור כל זמן שלא נוצל מהמינוי הקודם שלך. זיכוי זה יוחל באופן אוטומטי על החשבון שלך וישמש לחיובים עתידיים.
 subscriptionReplaced-content-no-action = לא נדרשת כל פעולה מצידך.
-subscriptionsPaymentExpired-subject-1 = פג תוקף כרטיס האשראי עבור המינויים שלך, או שהוא יפוג בקרוב
-subscriptionsPaymentExpired-title-1 = פג תוקף כרטיס האשראי שלך, או שהוא יפוג בקרוב
-subscriptionsPaymentExpired-content-1 = פג תוקף כרטיס האשראי המשמש אותך לביצוע תשלומים עבור המינויים הבאים, או שהוא יפוג בקרוב.
 subscriptionsPaymentProviderCancelled-subject = נדרש עדכון פרטי תשלום עבור מינויים של { -brand-mozilla }
 subscriptionsPaymentProviderCancelled-title = נתקלנו בבעיה עם שיטת התשלום שלך, עמך הסליחה
 subscriptionsPaymentProviderCancelled-content-detected = איתרנו בעיה באמצעי התשלום שלך עבור המינויים הבאים.
-subscriptionsPaymentProviderCancelled-content-payment = יכול להיות שתוקף כרטיס האשראי שלך פג, או שאמצעי התשלום הנוכחי שלך אינו מעודכן.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-subject = התשלום עבור { $productName } התקבל

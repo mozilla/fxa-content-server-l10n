@@ -563,19 +563,11 @@ subscriptionFirstInvoice-content-auto-renew = การสมัครสมา�
 subscriptionFirstInvoice-content-next-invoice = ใบแจ้งหนี้ถัดไป: { $nextInvoiceDateOnly }
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-subject-1 = บัตรเครดิตสำหรับ { $productName } หมดอายุแล้ว หรือกำลังจะหมดอายุ
-subscriptionPaymentExpired-title-1 = บัตรเครดิตของคุณหมดอายุแล้ว หรือกำลังจะหมดอายุ
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-content-1 = บัตรเครดิตที่คุณกำลังจะใช้ชำระเงินสำหรับ { $productName } หมดอายุไปแล้วหรือใกล้จะหมดอายุ
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = การชำระเงิน { $productName } ล้มเหลว
 subscriptionPaymentFailed-title = ขออภัย เราประสบปัญหากับการชำระเงินของคุณ
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-content-problem = เราประสบปัญหากับการชำระเงินสำหรับ { $productName } ล่าสุดของคุณ
-subscriptionPaymentFailed-content-outdated = อาจเป็นได้ว่าบัตรเครดิตของคุณหมดอายุหรือวิธีการชำระเงินปัจจุบันของคุณล้าสมัย
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-subject = จำเป็นต้องปรับปรุงข้อมูลการชำระเงินสำหรับ { $productName }
@@ -583,7 +575,6 @@ subscriptionPaymentProviderCancelled-title = ขออภัย เราปร�
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-content-detect = เราพบปัญหากับวิธีการชำระเงินสำหรับ { $productName } ของคุณ
-subscriptionPaymentProviderCancelled-content-reason = อาจเป็นได้ว่าบัตรเครดิตของคุณหมดอายุหรือวิธีการชำระเงินปัจจุบันของคุณล้าสมัย
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-subject = ต่ออายุการสมัครสมาชิก { $productName } ใหม่แล้ว
@@ -611,13 +602,9 @@ subscriptionRenewalReminder-content-closing = ขอแสดงความน�
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = ทีมงาน { $productName }
-subscriptionsPaymentExpired-subject-1 = บัตรเครดิตสำหรับการสมัครสมาชิกของคุณหมดอายุแล้ว หรือกำลังจะหมดอายุ
-subscriptionsPaymentExpired-title-1 = บัตรเครดิตของคุณหมดอายุแล้ว หรือกำลังจะหมดอายุ
-subscriptionsPaymentExpired-content-1 = บัตรเครดิตที่คุณกำลังจะใช้ชำระเงินสำหรับการสมัครสมาชิกต่อไปนี้หมดอายุแล้ว หรือกำลังจะหมดอายุ
 subscriptionsPaymentProviderCancelled-subject = จำเป็นต้องปรับปรุงข้อมูลการชำระเงินสำหรับการสมัครสมาชิก { -brand-mozilla }
 subscriptionsPaymentProviderCancelled-title = ขออภัย เราประสบปัญหากับวิธีการชำระเงินของคุณ
 subscriptionsPaymentProviderCancelled-content-detected = เราพบปัญหากับวิธีการชำระเงินของคุณสำหรับการสมัครสมาชิกต่อไปนี้
-subscriptionsPaymentProviderCancelled-content-payment = อาจเป็นได้ว่าบัตรเครดิตของคุณหมดอายุหรือวิธีการชำระเงินปัจจุบันของคุณล้าสมัย
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-subject = ได้รับการชำระเงิน { $productName } แล้ว

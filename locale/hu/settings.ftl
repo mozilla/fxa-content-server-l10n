@@ -359,6 +359,9 @@ primary-email-confirmation-link-reused = Az elsődleges e-mail már meg lett er�
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = A bejelentkezés már meg lett erősítve
 confirmation-link-reused-message = A megerősítési hivatkozás már volt használva, és csak egyszer használható.
+
+## Locale Toggle Component
+
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Hibás kérés
 
@@ -1307,10 +1310,6 @@ auth-error-1067 = Elírta az e-mail-címet?
 # Variables:
 #  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
 recovery-phone-number-ending-digits = { $lastFourPhoneNumber } végű szám
-# This error is shown when there is a particular kind of error at the very end of the 2FA flow
-# and the user should begin it again. A system/device clock not being synced to the internet time is
-# a common problem when using 2FA.
-two-factor-auth-setup-token-verification-error = Hiba történt a kétlépcsős hitelesítés engedélyezésekor. Ellenőrizze, hogy az eszköz órája automatikus frissítésre van-e beállítva, és <a>kezdje elölről</a>.
 oauth-error-1000 = Hiba történt. Zárja be ezt a lapot, és próbálja újra.
 
 ## Cannot Create Account page

@@ -561,19 +561,11 @@ subscriptionFirstInvoice-content-auto-renew = Pajtimi juaj do të rinovohet auto
 subscriptionFirstInvoice-content-next-invoice = Fatura Pasuese: { $nextInvoiceDateOnly }
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-subject-1 = Kartë krediti për { $productName } që ka skaduar ose skadon së shpejti
-subscriptionPaymentExpired-title-1 = Karta juaj e kreditit ka skaduar ose është afër skadimit
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-content-1 = Karta e kreditit që po përdorni për të bërë pagesa për { $productName } ka skaduar ose është afër skadimit.
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = Pagesa për { $productName } dështoi
 subscriptionPaymentFailed-title = Na ndjeni, po kemi probleme me pagesën tuaj
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-content-problem = Patëm një problem me pagesën tuaj të fundit për { $productName }.
-subscriptionPaymentFailed-content-outdated = Mundet që karta juaj e kreditit të ketë skaduar, ose metoda juaj e tanishme e pagesës të jetë vjetruar.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-subject = Lypset përditësim të dhënash pagese për { $productName }
@@ -581,7 +573,6 @@ subscriptionPaymentProviderCancelled-title = Na ndjeni, po kemi probleme me meto
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-content-detect = Pikasëm një problem me metodën tuaj të pagesës për { $productName }.
-subscriptionPaymentProviderCancelled-content-reason = Mundet që karta juaj e kreditit të ketë skaduar, ose metoda juaj e tanishme e pagesës të jetë vjetruar.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-subject = Pajtimi në { $productName } u riaktivizua
@@ -611,13 +602,9 @@ subscriptionRenewalReminder-content-closing = Sinqerisht,
 subscriptionRenewalReminder-content-signature = Ekipi i { $productName }-s
 subscriptionReplaced-title = Pajtimi juaj është përditësuar
 subscriptionReplaced-content-no-action = Nga ana juaj s’lypset ndonjë veprim.
-subscriptionsPaymentExpired-subject-1 = Karta e kreditit për pajtimet tuaja ka skaduar, ose skadon së shpejti
-subscriptionsPaymentExpired-title-1 = Karta juaj e kreditit ka skaduar ose është afër skadimit
-subscriptionsPaymentExpired-content-1 = Karta e kreditit që po përdorni për të bërë pagesa për pajtimet vijuese ka skaduar, ose është afër skadimit.
 subscriptionsPaymentProviderCancelled-subject = Lypset përditësim hollësish pagese për pajtime { -brand-mozilla }
 subscriptionsPaymentProviderCancelled-title = Na ndjeni, po kemi probleme me metodën tuaj të pagesave
 subscriptionsPaymentProviderCancelled-content-detected = Pikasëm një problem me metodën tuaj të pagesës për pajtimet vijuese.
-subscriptionsPaymentProviderCancelled-content-payment = Mundet që karta juaj e kreditit të ketë skaduar, ose metoda juaj e tanishme e pagesës të jetë vjetruar.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-subject = Pagesa për { $productName } u mor

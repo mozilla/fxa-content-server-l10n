@@ -331,6 +331,9 @@ primary-email-confirmation-link-reused = Aðallykilorð hefur þegar verið sta�
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Innskráning hefur þegar verið staðfest
 confirmation-link-reused-message = Þessi staðfestingartengill hefur þegar verið notaður, og er aðeins hægt að nota einu sinni.
+
+## Locale Toggle Component
+
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Röng beiðni
 

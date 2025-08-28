@@ -359,6 +359,9 @@ primary-email-confirmation-link-reused = Primary email already confirmed
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Sign-in already confirmed
 confirmation-link-reused-message = That confirmation link was already used, and can only be used once.
+
+## Locale Toggle Component
+
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Bad Request
 
@@ -1303,10 +1306,6 @@ auth-error-1067 = Mistyped email?
 # Variables:
 #  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
 recovery-phone-number-ending-digits = Number ending in { $lastFourPhoneNumber }
-# This error is shown when there is a particular kind of error at the very end of the 2FA flow
-# and the user should begin it again. A system/device clock not being synced to the internet time is
-# a common problem when using 2FA.
-two-factor-auth-setup-token-verification-error = There was a problem enabling two-step authentication. Check that your device’s clock is set to update automatically and <a>start over</a>.
 oauth-error-1000 = Something went wrong. Please close this tab and try again.
 
 ## Cannot Create Account page

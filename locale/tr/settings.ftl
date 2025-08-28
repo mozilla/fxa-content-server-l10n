@@ -359,6 +359,9 @@ primary-email-confirmation-link-reused = Ana e-posta zaten onaylanmış
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Giriş zaten onaylanmış
 confirmation-link-reused-message = Bu onay bağlantısı daha önce kullanılmış ve yeniden kullanılamaz.
+
+## Locale Toggle Component
+
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Hatalı istek
 
@@ -1295,10 +1298,6 @@ auth-error-1067 = Adresinizi yanlış mı yazdınız?
 # Variables:
 #  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
 recovery-phone-number-ending-digits = { $lastFourPhoneNumber } ile biten numara
-# This error is shown when there is a particular kind of error at the very end of the 2FA flow
-# and the user should begin it again. A system/device clock not being synced to the internet time is
-# a common problem when using 2FA.
-two-factor-auth-setup-token-verification-error = İki aşamalı doğrulama etkinleştirilirken bir sorun oluştu. Cihazınızın saat ayarlarının otomatik olarak güncellendiğini kontrol edip <a>baştan başlayın</a>.
 oauth-error-1000 = Bir şeyler yanlış gitti. Lütfen bu sekmeyi kapatıp yeniden deneyin.
 
 ## Cannot Create Account page

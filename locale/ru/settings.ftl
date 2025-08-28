@@ -362,6 +362,9 @@ primary-email-confirmation-link-reused = Основная электронная
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Вход уже подтверждён
 confirmation-link-reused-message = Эта ссылка для подтверждения уже была использована, и может использоваться только один раз.
+
+## Locale Toggle Component
+
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Неверный запрос
 
@@ -1304,10 +1307,6 @@ auth-error-1067 = Опечатка в электронной почте?
 # Variables:
 #  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
 recovery-phone-number-ending-digits = Номер, заканчивающийся на { $lastFourPhoneNumber }
-# This error is shown when there is a particular kind of error at the very end of the 2FA flow
-# and the user should begin it again. A system/device clock not being synced to the internet time is
-# a common problem when using 2FA.
-two-factor-auth-setup-token-verification-error = При включении двухэтапной аутентификации произошла ошибка. Убедитесь, что часы вашего устройства настроены на автоматическое обновление, и <a>начните сначала</a>.
 oauth-error-1000 = Что-то пошло не так. Пожалуйста, закройте эту вкладку и попробуйте ещё раз.
 
 ## Cannot Create Account page

@@ -497,10 +497,6 @@ subscriptionFirstInvoice-content-auto-renew = ਜਦ ਤੱਕ ਤੁਸੀਂ �
 subscriptionFirstInvoice-content-next-invoice = ਅਗਲਾ ਭੁਗਤਾਨ: { $nextInvoiceDateOnly }
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-subject-1 = { $productName } ਲਈ ਵਰਤੇ ਕਰੈਡਿਟ ਕਾਰਡ ਦੀ ਮਿਆਦ ਪੁੱਗ ਗਈ ਜਾਂ ਛੇਤੀ ਹੀ ਪੁੱਗਣ ਵਾਲੀ ਹੈ
-subscriptionPaymentExpired-title-1 = ਤੁਹਾਡੇ ਕਰੈਡਿਟ ਕਾਰਡ ਦੀ ਮਿਆਦ ਪੁੱਗੀ ਜਾਂ ਛੇਤੀ ਹੀ ਪੁੱਗਣ ਵਾਲੀ ਹੈ
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = { $productName } ਭੁਗਤਾਨ ਅਸਫ਼ਲ ਹੋਇਆ
 subscriptionPaymentFailed-title = ਅਫ਼ਸੋਸ ਹੈ ਕਿ ਸਾਨੂੰ ਤੁਹਾਡੇ ਭੁਗਤਾਨ ਨਾਲ ਸਮੱਸਿਆ ਆ ਰਹੀ ਹੈ
 # Variables:
@@ -524,8 +520,6 @@ subscriptionRenewalReminder-content-closing = ਤਹਿ ਦਿਲੋਂ,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = { $productName } ਟੀਮ
-subscriptionsPaymentExpired-subject-1 = ਤੁਹਾਡੀ ਮੈਂਬਰੀ ਲਈ ਵਰਤੇ ਕਰੈਡਿਟ ਕਾਰਡ ਦੀ ਮਿਆਦ ਪੁੱਗ ਗਈ ਜਾਂ ਛੇਤੀ ਹੀ ਪੁੱਗਣ ਵਾਲੀ ਹੈ
-subscriptionsPaymentExpired-title-1 = ਤੁਹਾਡੇ ਕਰੈਡਿਟ ਕਾਰਡ ਦੀ ਮਿਆਦ ਪੁੱਗੀ ਜਾਂ ਛੇਤੀ ਹੀ ਪੁੱਗਣ ਵਾਲੀ ਹੈ
 subscriptionsPaymentProviderCancelled-subject = { -brand-mozilla } ਮੈਂਬਰੀਆਂ ਲਈ ਭੁਗਤਾਨ ਜਾਣਕਾਰੀ ਅੱਪਡੇਟ ਕਰਨ ਦੀ ਲੋੜ ਹੈ
 subscriptionsPaymentProviderCancelled-title = ਅਫ਼ਸੋਸ ਹੈ ਕਿ ਸਾਨੂੰ ਤੁਹਾਡੇ ਭੁਗਤਾਨ ਢੰਗ ਨਾਲ ਸਮੱਸਿਆ ਆ ਰਹੀ ਹੈ
 # Variables:

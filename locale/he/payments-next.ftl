@@ -286,13 +286,22 @@ subscription-cancellation-dialog-msg = המינוי שלך ל־{ $name } בוט�
 subscription-cancellation-dialog-aside = יש שאלות? ניתן לבקר ב<LinkExternal>תמיכה של { -brand-mozilla }</LinkExternal>.
 subscription-content-button-resubscribe = חידוש מינוי
     .aria-label = חידוש מינוי ל־{ $productName }
+# $name (String) - The name of the subscribed product.
 # $date (Date) - Last day of product access
 subscription-content-resubscribe = הגישה שלך ל־{ $name } תאבד בתאריך <strong>{ $date }</strong>.
+# $name (String) - The name of the subscribed product.
 resubscribe-dialog-title = רוצה להמשיך להשתמש ב־{ $name }?
+
+## $name (String) - The name of the subscribed product.
+## $amount (Number) - The amount billed (excluding tax if tax does not exist). It will be formatted as currency.
+## $tax (Number) - The tax added on, not included in amount. It will be formatted as currency.
+## $endDate (Date) - The end date of the subscription period.
+
 resubscribe-dialog-content = הגישה שלך ל־{ $name } תימשך, ומחזור החיוב והתשלום שלך יישארו כפי שהם. החיוב הבא שלך יהיה { $amount } בתאריך { $endDate }.
-resubscribe-dialog-action-button = להישאר רשום כמינוי
 resubscribe-success-dialog-title = תודה! הכול מוכן.
-resubscribe-success-dialog-action-button = סגירה
+
+##
+
 dialog-close = סגירת תיבת דוח־שיח
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails

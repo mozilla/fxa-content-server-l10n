@@ -306,13 +306,22 @@ subscription-cancellation-dialog-msg = Lemondta a(z) { $name }-előfizetését. 
 subscription-cancellation-dialog-aside = Kérdése van? Keresse fel a <LinkExternal>{ -brand-mozilla } támogatást</LinkExternal>.
 subscription-content-button-resubscribe = Előfizetés újra
     .aria-label = Iratkozzon fel újra erre: { $productName }
+# $name (String) - The name of the subscribed product.
 # $date (Date) - Last day of product access
 subscription-content-resubscribe = El fogja veszíteni a hozzáférését a(z) { $name } termékhez, ekkor: <strong>{ $date }</strong>.
+# $name (String) - The name of the subscribed product.
 resubscribe-dialog-title = Továbbra is szeretné ezt használni: { $name }?
+
+## $name (String) - The name of the subscribed product.
+## $amount (Number) - The amount billed (excluding tax if tax does not exist). It will be formatted as currency.
+## $tax (Number) - The tax added on, not included in amount. It will be formatted as currency.
+## $endDate (Date) - The end date of the subscription period.
+
 resubscribe-dialog-content = A(z) { $name } hozzáférése folytatódni fog, a számlázási és fizetési ciklusa is változatlan marad. A következő terhelés { $amount } lesz, ekkor: { $endDate }.
-resubscribe-dialog-action-button = Előfizetés megtartása
 resubscribe-success-dialog-title = Köszönjük! Minden készen állsz.
-resubscribe-success-dialog-action-button = Bezárás
+
+##
+
 dialog-close = Párbeszédablak bezárása
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails

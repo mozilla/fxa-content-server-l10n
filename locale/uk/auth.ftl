@@ -580,19 +580,11 @@ subscriptionFirstInvoice-content-auto-renew = Ваша передплата ав
 subscriptionFirstInvoice-content-next-invoice = Наступний платіж: { $nextInvoiceDateOnly }
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-subject-1 = Термін дії кредитної картки для { $productName } завершився, або невдовзі завершиться
-subscriptionPaymentExpired-title-1 = Термін дії вашої кредитної картки завершився, або невдовзі завершиться
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-content-1 = Термін дії кредитної картки, якою ви користуєтеся для платежів за { $productName }, завершився, або невдовзі завершиться
-# Variables:
-#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = Не вдалося оплатити { $productName }
 subscriptionPaymentFailed-title = Перепрошуємо, але в нас виникли проблеми з вашим платежем
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-content-problem = У нас виникли проблеми з вашим останнім платежем для { $productName }.
-subscriptionPaymentFailed-content-outdated = Можливо, термін дії вашої кредитної картки закінчився, або ваш поточний спосіб оплати застарів.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-subject = Необхідно оновити платіжні дані для { $productName }
@@ -600,7 +592,6 @@ subscriptionPaymentProviderCancelled-title = Перепрошуємо, але у
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-content-detect = Ми виявили проблему з вашим способом оплати для { $productName }.
-subscriptionPaymentProviderCancelled-content-reason = Можливо, термін дії вашої кредитної картки закінчився, або ваш поточний спосіб оплати застарів.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-subject = Передплату { $productName } поновлено
@@ -634,13 +625,9 @@ subscriptionReplaced-title = Вашу передплату оновлено
 subscriptionReplaced-content-replaced = Вашу індивідуальну передплату { $productName } замінено, і тепер включено до вашого нового пакету.
 subscriptionReplaced-content-credit = Ви отримаєте кредит за невикористаний час попередньої передплати. Цей кредит буде автоматично застосовано до вашого облікового запису та використано для майбутніх платежів.
 subscriptionReplaced-content-no-action = Вам не потрібно виконувати жодних дій.
-subscriptionsPaymentExpired-subject-1 = Термін дії кредитної картки для ваших передплат завершився, або невдовзі завершиться
-subscriptionsPaymentExpired-title-1 = Термін дії вашої кредитної картки завершився, або невдовзі завершиться
-subscriptionsPaymentExpired-content-1 = Термін дії кредитної картки, якою ви користуєтеся для сплати зазначених передплат, завершився, або невдовзі завершиться.
 subscriptionsPaymentProviderCancelled-subject = Для передплат { -brand-mozilla } необхідно оновити платіжну інформацію
 subscriptionsPaymentProviderCancelled-title = Перепрошуємо, але у нас виникли проблеми з вашим способом оплати
 subscriptionsPaymentProviderCancelled-content-detected = Ми виявили проблему з вашим способом оплати для таких передплат.
-subscriptionsPaymentProviderCancelled-content-payment = Можливо, термін дії вашої кредитної картки закінчився, або ваш поточний спосіб оплати застарів.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-subject = Платіж за { $productName } отримано

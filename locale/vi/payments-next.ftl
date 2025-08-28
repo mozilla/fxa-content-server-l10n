@@ -304,13 +304,22 @@ subscription-cancellation-dialog-msg = Gói đăng ký { $name } của bạn đ�
 subscription-cancellation-dialog-aside = Có câu hỏi? Truy cập <LinkExternal>Hỗ trợ { -brand-mozilla }</LinkExternal>.
 subscription-content-button-resubscribe = Đăng ký lại
     .aria-label = Đăng ký lại { $productName }
+# $name (String) - The name of the subscribed product.
 # $date (Date) - Last day of product access
 subscription-content-resubscribe = Bạn sẽ mất quyền truy cập vào { $name } vào <strong>{ $date }</strong>.
+# $name (String) - The name of the subscribed product.
 resubscribe-dialog-title = Bạn muốn tiếp tục sử dụng { $name }?
+
+## $name (String) - The name of the subscribed product.
+## $amount (Number) - The amount billed (excluding tax if tax does not exist). It will be formatted as currency.
+## $tax (Number) - The tax added on, not included in amount. It will be formatted as currency.
+## $endDate (Date) - The end date of the subscription period.
+
 resubscribe-dialog-content = Quyền truy cập của bạn vào { $name } sẽ tiếp tục và chu kỳ thanh toán của bạn sẽ giữ nguyên. Khoản phí tiếp theo của bạn sẽ là { $amount } vào { $endDate }.
-resubscribe-dialog-action-button = Vẫn đăng ký
 resubscribe-success-dialog-title = Cảm ơn! Bạn đã sẵn sàng.
-resubscribe-success-dialog-action-button = Đóng
+
+##
+
 dialog-close = Đóng hộp thoại
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails

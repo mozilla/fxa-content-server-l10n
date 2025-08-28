@@ -344,6 +344,9 @@ primary-email-confirmation-link-reused = 기본 이메일이 이미 승인됨
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = 이 로그인은 이미 승인됨
 confirmation-link-reused-message = 이 승인 링크는 이미 사용되었고, 승인 링크는 단 한 번만 사용할 수 있습니다.
+
+## Locale Toggle Component
+
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = 잘못된 요청
 

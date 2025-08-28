@@ -359,6 +359,9 @@ primary-email-confirmation-link-reused = L’indirizzo email primario è già st
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = L’accesso è già stato confermato
 confirmation-link-reused-message = Questo link di conferma è già stato utilizzato (e può essere utilizzato una sola volta).
+
+## Locale Toggle Component
+
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Richiesta non valida
 
@@ -1291,10 +1294,6 @@ auth-error-1067 = C’è un errore di battitura nell’indirizzo email?
 # Variables:
 #  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
 recovery-phone-number-ending-digits = Numero che termina con { $lastFourPhoneNumber }
-# This error is shown when there is a particular kind of error at the very end of the 2FA flow
-# and the user should begin it again. A system/device clock not being synced to the internet time is
-# a common problem when using 2FA.
-two-factor-auth-setup-token-verification-error = Si è verificato un problema durante l’attivazione dell’autenticazione in due passaggi. Verifica che l’orologio del dispositivo sia impostato per l’aggiornamento automatico e <a>ricomincia da capo</a>.
 oauth-error-1000 = Qualcosa è andato storto. Chiudi questa scheda e riprova.
 
 ## Cannot Create Account page
