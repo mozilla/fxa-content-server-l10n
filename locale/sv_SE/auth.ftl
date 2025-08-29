@@ -646,6 +646,7 @@ subscriptionPaymentFailed-title = Tyvärr, vi har problem med din betalning
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-content-problem = Vi hade ett problem med din senaste betalning för { $productName }.
+subscriptionPaymentFailed-content-outdated-1 = Det kan vara så att din betalningsmetod har upphört att gälla eller att din nuvarande betalningsmetod är inaktuell.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-subject = Uppdatering av betalningsinformation krävs för { $productName }
@@ -653,6 +654,7 @@ subscriptionPaymentProviderCancelled-title = Tyvärr, vi har problem med din bet
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-content-detect = Vi har upptäckt ett problem med din betalningsmetod för { $productName }.
+subscriptionPaymentProviderCancelled-content-reason-1 = Det kan vara så att din betalningsmetod har upphört att gälla eller att din nuvarande betalningsmetod är inaktuell.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-subject = Prenumerationen på { $productName } har återaktiverats
@@ -686,9 +688,13 @@ subscriptionReplaced-title = Din prenumeration har uppdaterats
 subscriptionReplaced-content-replaced = Din individuella prenumeration på { $productName } har ersatts och ingår nu i ditt nya paket.
 subscriptionReplaced-content-credit = Du får en kredit för all oanvänd tid från din tidigare prenumeration. Krediten sätts automatiskt in på ditt konto och används för framtida debiteringar.
 subscriptionReplaced-content-no-action = Ingen åtgärd krävs från din sida.
+subscriptionsPaymentExpired-subject-2 = Betalningsmetoden för dina prenumerationer har upphört eller upphör att gälla snart
+subscriptionsPaymentExpired-title-2 = Din betalningsmetod har upphört eller håller på att upphöra
+subscriptionsPaymentExpired-content-2 = Den betalningsmetod du använder för att betala för följande prenumerationer har upphört eller håller på att upphöra.
 subscriptionsPaymentProviderCancelled-subject = Uppdatering av betalningsinformation krävs för prenumerationer på { -brand-mozilla }
 subscriptionsPaymentProviderCancelled-title = Tyvärr har vi problem med din betalning
 subscriptionsPaymentProviderCancelled-content-detected = Vi har upptäckt ett problem med din betalningsmetod för följande prenumerationer.
+subscriptionsPaymentProviderCancelled-content-payment-1 = Det kan vara så att din betalningsmetod har upphört att gälla eller att din nuvarande betalningsmetod är inaktuell.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-subject = Betalning mottagen för { $productName }
