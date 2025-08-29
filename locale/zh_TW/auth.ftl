@@ -631,11 +631,19 @@ subscriptionFirstInvoice-content-auto-renew = 除非您主動取消訂閱，否�
 subscriptionFirstInvoice-content-next-invoice = 下次扣款日：{ $nextInvoiceDateOnly }
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-subject-2 = 訂購 { $productName } 所使用的付款方式即將過期，或已過期
+subscriptionPaymentExpired-title-2 = 您的付款方式即將過期，或已過期
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-content-2 = 您用來訂購 { $productName } 的付款方式即將過期，或已過期。
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = { $productName } 付款失敗
 subscriptionPaymentFailed-title = 很抱歉，處理付款時遇到問題
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-content-problem = 處理您最近對 { $productName } 的付款時，遇到問題。
+subscriptionPaymentFailed-content-outdated-1 = 可能是您的付款方式過期，或已經失效了。
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-subject = 需要更新 { $productName } 的付款資訊
@@ -643,6 +651,7 @@ subscriptionPaymentProviderCancelled-title = 很抱歉，處理付款時遇到�
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-content-detect = 處理您最近對 { $productName } 的付款時，遇到問題。
+subscriptionPaymentProviderCancelled-content-reason-1 = 可能是您的付款方式過期，或已經失效了。
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-subject = 已重新開始訂閱 { $productName }
