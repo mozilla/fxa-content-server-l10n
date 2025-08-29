@@ -634,6 +634,9 @@ subscriptionFirstInvoice-content-auto-renew = Tu suscripción se renovará autom
 subscriptionFirstInvoice-content-next-invoice = Próxima facturación: { $nextInvoiceDateOnly }
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-subject-2 = Método de pago para { $productName } vencido o próximo a vencer
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = Falló el pago para { $productName }
 subscriptionPaymentFailed-title = Lo sentimos, estamos teniendo problemas con tu pago
 # Variables:
