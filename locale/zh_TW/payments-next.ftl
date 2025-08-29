@@ -38,6 +38,7 @@ visa-logo-alt-text = { -brand-visa } 圖示
 unbranded-logo-alt-text = 無品牌圖示
 link-logo-alt-text = { -brand-link } 圖示
 apple-pay-logo-alt-text = { -brand-apple-pay } 圖示
+google-pay-logo-alt-text = { -brand-google-pay } 圖示
 
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -317,7 +318,13 @@ resubscribe-dialog-title = 想要繼續使用 { $name } 嗎？
 ## $endDate (Date) - The end date of the subscription period.
 
 resubscribe-dialog-content = 您可繼續使用 { $name }，帳務週期與付款內容將保持不變。下次將於 { $endDate } 收取 { $amount }。
+resubscribe-dialog-content-with-tax = 您可繼續使用 { $name }，帳務週期與付款內容將保持不變。下次將於 { $endDate } 收取 { $amount } + { $tax } 稅。
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+resubscribe-dialog-action-button-resubscribe = 重新訂閱
+    .aria-label = 重新訂閱 { $productName }
 resubscribe-success-dialog-title = 處理完成，感謝您！
+resubscribe-success-dialog-action-button-close = 關閉
+    .aria-label = 關閉對話框
 
 ##
 
