@@ -37,6 +37,7 @@ visa-logo-alt-text = Логотип { -brand-visa }
 # Alt text for generic payment card logo
 unbranded-logo-alt-text = Небрендированный логотип
 link-logo-alt-text = Логотип { -brand-link }
+apple-pay-logo-alt-text = Логотип { -brand-apple-pay }
 
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages
