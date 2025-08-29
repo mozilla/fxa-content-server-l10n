@@ -636,6 +636,13 @@ subscriptionFirstInvoice-content-auto-renew = Tu subscription sera renovate auto
 subscriptionFirstInvoice-content-next-invoice = Proxime factura: { $nextInvoiceDateOnly }
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-subject-2 = Le methodo de pagamento pro { $productName } expirava o tosto va expirar
+subscriptionPaymentExpired-title-2 = Tu methodo de pagamento expirava o va expirar
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-content-2 = Le methodo de pagamento que tu usa pro facer pagamentos pro { $productName } expirava o tosto va expirar.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = Pagamento de { $productName } fallite
 subscriptionPaymentFailed-title = Desolate, nos ha problemas con tu pagamento
 # Variables:
@@ -681,9 +688,13 @@ subscriptionReplaced-title = Tu abonamento ha essite actualisate
 subscriptionReplaced-content-replaced = Tu abonamento individual a { $productName } ha essite substituite e ora es includite in tu nove pacchetto.
 subscriptionReplaced-content-credit = Tu recipera un credito pro ulle periodo non usate de tu previe abonamento. Iste credito sera automaticamente applicate a tu conto e usate pro debitos futur.
 subscriptionReplaced-content-no-action = Nulle action es necessari de parte tue.
+subscriptionsPaymentExpired-subject-2 = Le methodo de pagamento pro tu abonamentos expirava o tosto va expirar
+subscriptionsPaymentExpired-title-2 = Tu methodo de pagamento expirava o va expirar
+subscriptionsPaymentExpired-content-2 = Le methodo de pagamento que tu usa pro facer pagamentos pro le sequente abonamentos expirava o va tosto expirar.
 subscriptionsPaymentProviderCancelled-subject = Actualisation obligatori del informationes de pagamento pro le subscriptiones de { -brand-mozilla }
 subscriptionsPaymentProviderCancelled-title = Desolate, nos ha problemas con tu methodo de pagamento
 subscriptionsPaymentProviderCancelled-content-detected = Nos ha revelate un problemas con tu methodo de pagamento pro le sequente subscriptiones.
+subscriptionsPaymentProviderCancelled-content-payment-1 = Forsan tu methodo de pagamento ha expirate o tu actual methodo de pagamento non es actualisate.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-subject = Pagamento de { $productName } recepite
