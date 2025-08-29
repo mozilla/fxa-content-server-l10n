@@ -634,6 +634,13 @@ subscriptionFirstInvoice-content-auto-renew = Ditt abonnemang förnyas automatis
 subscriptionFirstInvoice-content-next-invoice = Nästa faktura: { $nextInvoiceDateOnly }
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-subject-2 = Betalningsmetoden för { $productName } upphörde eller upphör snart
+subscriptionPaymentExpired-title-2 = Din betalningsmetod har upphört eller håller på att upphöra
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-content-2 = Betalningsmetoden du använder för { $productName } har upphört eller håller på att upphöra.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = Betalningen av { $productName } misslyckades
 subscriptionPaymentFailed-title = Tyvärr, vi har problem med din betalning
 # Variables:
