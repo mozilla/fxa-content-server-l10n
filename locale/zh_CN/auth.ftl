@@ -629,6 +629,13 @@ subscriptionFirstInvoice-content-auto-renew = 除非您主动取消订阅，否�
 subscriptionFirstInvoice-content-next-invoice = 下次扣款日：{ $nextInvoiceDateOnly }
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-subject-2 = { $productName } 的付款方式已过期或即将到期
+subscriptionPaymentExpired-title-2 = 您的付款方式已过期或即将到期
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-content-2 = 您用于 { $productName } 的付款方式已过期或即将到期。
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = { $productName } 付款失败
 subscriptionPaymentFailed-title = 抱歉，处理付款时遇到问题
 # Variables:
@@ -674,6 +681,7 @@ subscriptionReplaced-title = 您的订阅已更新
 subscriptionReplaced-content-replaced = 已替换您单独的 { $productName } 订阅，其现已包含在您新的捆绑包中。
 subscriptionReplaced-content-credit = 上个订阅中未使用的天数将以余额形式返还至您的账户。余额将自动添加到您的帐户，并抵扣将来的费用。
 subscriptionReplaced-content-no-action = 您无需执行任何操作。
+subscriptionsPaymentExpired-title-2 = 您的付款方式已过期或即将到期
 subscriptionsPaymentProviderCancelled-subject = 需要更新 { -brand-mozilla } 产品订阅的付款信息
 subscriptionsPaymentProviderCancelled-title = 抱歉，处理付款时遇到问题
 subscriptionsPaymentProviderCancelled-content-detected = 处理您最近为下列订阅项目的付款时遇到问题。
