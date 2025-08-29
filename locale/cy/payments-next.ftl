@@ -37,8 +37,8 @@ visa-logo-alt-text = Logo  { -brand-visa }
 # Alt text for generic payment card logo
 unbranded-logo-alt-text = Logo heb ei frandio
 link-logo-alt-text = Logo { -brand-link }
-apple-pay-logo-alt-text = { -brand-apple-pay } logo
-google-pay-logo-alt-text = { -brand-google-pay } logo
+apple-pay-logo-alt-text = Logo { -brand-apple-pay }
+google-pay-logo-alt-text = Logo { -brand-google-pay }
 
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages
