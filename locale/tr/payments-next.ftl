@@ -37,6 +37,8 @@ visa-logo-alt-text = { -brand-visa } logosu
 # Alt text for generic payment card logo
 unbranded-logo-alt-text = Markasız logo
 link-logo-alt-text = { -brand-link } logosu
+apple-pay-logo-alt-text = { -brand-apple-pay } logosu
+google-pay-logo-alt-text = { -brand-google-pay } logosu
 
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -296,6 +298,8 @@ resubscribe-dialog-title = { $name } ürününü kullanmaya devam etmek ister mi
 
 resubscribe-dialog-content = { $name } ürününe erişiminiz devam edecek ve faturalandırma döngünüz ve ödemeniz aynı kalacaktır. Bir sonraki ödemeniz { $endDate } tarihinde { $amount } olacaktır.
 resubscribe-success-dialog-title = Teşekkürler! Artık hazırsınız.
+resubscribe-success-dialog-action-button-close = Kapat
+    .aria-label = Pencereyi kapat
 
 ##
 
