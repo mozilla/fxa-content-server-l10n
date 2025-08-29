@@ -37,6 +37,7 @@ visa-logo-alt-text = { -brand-visa } 圖示
 # Alt text for generic payment card logo
 unbranded-logo-alt-text = 無品牌圖示
 link-logo-alt-text = { -brand-link } 圖示
+apple-pay-logo-alt-text = { -brand-apple-pay } 圖示
 
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages

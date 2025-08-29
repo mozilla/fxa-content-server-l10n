@@ -685,9 +685,13 @@ subscriptionReplaced-title = 已更新您的訂閱內容
 subscriptionReplaced-content-replaced = 您原先的 { $productName } 單套訂閱已被取代為新套裝訂閱中的一部分。
 subscriptionReplaced-content-credit = 您將會以帳號餘額的方式，收到先前訂閱內容未使用的時間的餘額退款。此餘額會自動於您的帳號生效，可於未來付款時抵用。
 subscriptionReplaced-content-no-action = 您這邊不需要再做任何事。
+subscriptionsPaymentExpired-subject-2 = 訂購產品所使用的付款方式即將過期，或已過期
+subscriptionsPaymentExpired-title-2 = 您的付款方式即將過期，或已過期
+subscriptionsPaymentExpired-content-2 = 您用來訂閱下列項目的付款方式即將過期，或已過期。
 subscriptionsPaymentProviderCancelled-subject = 需要更新 { -brand-mozilla } 產品訂閱的付款資訊
 subscriptionsPaymentProviderCancelled-title = 很抱歉，處理付款時遇到問題
 subscriptionsPaymentProviderCancelled-content-detected = 處理您最近對下列訂閱項目的付款時，遇到問題。
+subscriptionsPaymentProviderCancelled-content-payment-1 = 可能是您的付款方式過期，或已經失效了。
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-subject = 已收到 { $productName } 付款
