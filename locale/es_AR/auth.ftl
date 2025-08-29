@@ -644,7 +644,7 @@ subscriptionPaymentFailed-title = Disculpá, tenemos problemas con tu pago.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-content-problem = Tuvimos un problema con tu último pago de { $productName }.
-subscriptionPaymentFailed-content-outdated-1 = Puede ser que tu método de pago haya expirado o que tu método de pago actual esté desactualizado.
+subscriptionPaymentFailed-content-outdated-1 = Es posible que tu método de pago haya vencido o que tu método de pago actual esté desactualizado.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-subject = Actualización de la información de pago requerida para { $productName }
@@ -652,7 +652,7 @@ subscriptionPaymentProviderCancelled-title = Lo sentimos, tenemos problemas con 
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-content-detect = Detectamos un problema con tu método de pago para { $productName }.
-subscriptionPaymentProviderCancelled-content-reason-1 = Puede ser que tu método de pago haya expirado o que tu método de pago actual esté desactualizado.
+subscriptionPaymentProviderCancelled-content-reason-1 = Es posible que tu método de pago haya vencido o que tu método de pago actual esté desactualizado.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-subject = Se reactivó la suscripción a { $productName }
@@ -686,13 +686,13 @@ subscriptionReplaced-title = Tu suscripción ha sido actualizada
 subscriptionReplaced-content-replaced = Tu suscripción individual de { $productName } fue reemplazada y ahora está incluida en tu nuevo paquete.
 subscriptionReplaced-content-credit = Recibirás un crédito por el tiempo no utilizado de tu suscripción anterior. Este crédito se aplicará automáticamente a tu cuenta y se usará para cargos futuros.
 subscriptionReplaced-content-no-action = No se requiere ninguna acción de tu parte.
-subscriptionsPaymentExpired-subject-2 = El método de pago para tus suscripciones ya caducó o expirará pronto
+subscriptionsPaymentExpired-subject-2 = El método de pago para tus suscripciones ya venció o vencerá pronto
 subscriptionsPaymentExpired-title-2 = Tu método de pago ya venció o está a punto de vencer
 subscriptionsPaymentExpired-content-2 = El método de pago que estás usando para realizar los pagos de las siguientes suscripciones ya venció o está a punto de vencer.
 subscriptionsPaymentProviderCancelled-subject = Actualización de la información de pago requerida para las suscripciones de { -brand-mozilla }.
 subscriptionsPaymentProviderCancelled-title = Lo sentimos, tenemos problemas con el método de pago
 subscriptionsPaymentProviderCancelled-content-detected = Detectamos un problema con tu método de pago para las siguientes suscripciones.
-subscriptionsPaymentProviderCancelled-content-payment-1 = Puede ser que tu método de pago haya expirado o que tu método de pago actual esté desactualizado.
+subscriptionsPaymentProviderCancelled-content-payment-1 = Es posible que tu método de pago haya vencido o que tu método de pago actual esté desactualizado.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-subject = Pago recibido de { $productName }
