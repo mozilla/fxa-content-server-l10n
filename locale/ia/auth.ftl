@@ -648,6 +648,7 @@ subscriptionPaymentFailed-title = Desolate, nos ha problemas con tu pagamento
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-content-problem = Nos ha habite problemas con tu ultime pagamento pro { $productName }.
+subscriptionPaymentFailed-content-outdated-1 = Forsan tu methodo de pagamento ha expirate o tu actual methodo de pagamento non es actualisate.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-subject = Actualisation obligatori del informationes de pagamento pro { $productName }
@@ -655,6 +656,7 @@ subscriptionPaymentProviderCancelled-title = Desolate, nos ha problemas con tu m
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-content-detect = Nos ha revelate un problemas con tu methodo de pagamento pro { $productName }.
+subscriptionPaymentProviderCancelled-content-reason-1 = Forsan tu methodo de pagamento ha expirate o tu actual methodo de pagamento non es actualisate.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-subject = Subscription a { $productName } reactivate

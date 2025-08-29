@@ -38,6 +38,7 @@ visa-logo-alt-text = Logo { -brand-visa }
 unbranded-logo-alt-text = Logo sin marca
 link-logo-alt-text = Logo de { -brand-link }
 apple-pay-logo-alt-text = Logo de { -brand-apple-pay }
+google-pay-logo-alt-text = Logo de { -brand-google-pay }
 
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -319,7 +320,13 @@ resubscribe-dialog-title = Vole tu continuar usar { $name }?
 ## $endDate (Date) - The end date of the subscription period.
 
 resubscribe-dialog-content = Tu accesso a { $name } continuara e tu cyclo de facturation e pagamento remanera identic. Tu proxime amonta sera { $amount } le { $endDate }.
+resubscribe-dialog-content-with-tax = Tu accesso a { $name } continuara e tu cyclo de facturation e pagamento remanera identic. Tu proxime amonta sera { $amount } + taxa de { $tax } le { $endDate }.
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+resubscribe-dialog-action-button-resubscribe = Re-abonar
+    .aria-label = Re-abonar a { $productName }
 resubscribe-success-dialog-title = Gratias! Toto preste.
+resubscribe-success-dialog-action-button-close = Clauder
+    .aria-label = Clauder fenestra de dalogo
 
 ##
 
