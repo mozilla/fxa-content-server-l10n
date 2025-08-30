@@ -648,6 +648,7 @@ subscriptionPaymentFailed-title = Δυστυχώς, αντιμετωπίζουμ
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-content-problem = Αντιμετωπίζουμε πρόβλημα με την τελευταία σας πληρωμή για το { $productName }.
+subscriptionPaymentFailed-content-outdated-1 = Η μέθοδος πληρωμής σας ενδέχεται να έχει λήξει ή η τρέχουσα μέθοδος πληρωμής σας δεν είναι ενημερωμένη.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-subject = Απαιτείται ενημέρωση των στοιχείων πληρωμής για το { $productName }
@@ -655,6 +656,7 @@ subscriptionPaymentProviderCancelled-title = Δυστυχώς, αντιμετω�
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-content-detect = Εντοπίσαμε πρόβλημα με τη μέθοδο πληρωμής σας για το { $productName }.
+subscriptionPaymentProviderCancelled-content-reason-1 = Η μέθοδος πληρωμής σας ενδέχεται να έχει λήξει ή η τρέχουσα μέθοδος πληρωμής σας δεν είναι ενημερωμένη.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-subject = Η συνδρομή στο { $productName } επανενεργοποιήθηκε
@@ -688,9 +690,13 @@ subscriptionReplaced-title = Η συνδρομή σας έχει ενημερω�
 subscriptionReplaced-content-replaced = Η μεμονωμένη συνδρομή σας στο { $productName } έχει αντικατασταθεί και περιλαμβάνεται στο νέο πακέτο σας.
 subscriptionReplaced-content-credit = Θα λάβετε πίστωση για τυχόν αχρησιμοποίητο χρόνο από την προηγούμενη συνδρομή σας. Αυτή η πίστωση θα προστεθεί αυτόματα στον λογαριασμό σας και θα χρησιμοποιηθεί στις μελλοντικές χρεώσεις.
 subscriptionReplaced-content-no-action = Δεν απαιτείται καμία ενέργεια από την πλευρά σας.
+subscriptionsPaymentExpired-subject-2 = Η μέθοδος πληρωμής της συνδρομής σας έχει ή πρόκειται να λήξει σύντομα
+subscriptionsPaymentExpired-title-2 = Η μέθοδος πληρωμής σας έχει ή πρόκειται να λήξει
+subscriptionsPaymentExpired-content-2 = Η μέθοδος πληρωμής που χρησιμοποιείτε για τις πληρωμές των ακόλουθων συνδρομών έχει ή πρόκειται να λήξει.
 subscriptionsPaymentProviderCancelled-subject = Απαιτείται ενημέρωση των στοιχείων πληρωμής για τις συνδρομές { -brand-mozilla }
 subscriptionsPaymentProviderCancelled-title = Δυστυχώς, αντιμετωπίζουμε πρόβλημα με τη μέθοδο πληρωμής σας
 subscriptionsPaymentProviderCancelled-content-detected = Εντοπίσαμε πρόβλημα με τη μέθοδο πληρωμής σας για τις ακόλουθες συνδρομές.
+subscriptionsPaymentProviderCancelled-content-payment-1 = Η μέθοδος πληρωμής σας ενδέχεται να έχει λήξει ή η τρέχουσα μέθοδος πληρωμής σας δεν είναι ενημερωμένη.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-subject = Η πληρωμή για το { $productName } ελήφθη
@@ -778,6 +784,20 @@ verify-title-3 = «Ανοίξτε» το διαδίκτυο με τη { -brand-m
 verify-description-2 = Επιβεβαιώστε τον λογαριασμό σας και αξιοποιήστε στο έπακρο τις υπηρεσίες της { -brand-mozilla }, όπου κι αν συνδεθείτε, ξεκινώντας με:
 verify-subject = Ολοκληρώστε τη δημιουργία του λογαριασμού σας
 verify-action-2 = Επιβεβαίωση λογαριασμού
+# Variables:
+# $code (String) - The verification code
+verifyAccountChange-subject = Χρησιμοποιήστε το { $code } για να αλλάξετε τον λογαριασμό σας
+# Variables:
+# $expirationTime (Number) - Represents the expiration time in minutes
+verifyAccountChange-preview =
+    { $expirationTime ->
+        [one] Αυτός ο κωδικός λήγει σε { $expirationTime } λεπτό.
+       *[other] Αυτός ο κωδικός λήγει σε { $expirationTime } λεπτά.
+    }
+verifyAccountChange-title = Αλλάζετε τις πληροφορίες του λογαριασμού σας;
+# After the colon is a description of the device used to sign in to the service
+verifyAccountChange-safe = Βοηθήστε μας να προστατέψουμε τον λογαριασμό σας εγκρίνοντας αυτήν την αλλαγή στο:
+verifyAccountChange-prompt = Αν ναι, ορίστε ο κωδικός ταυτοποίησής σας:
 # Variables:
 # $expirationTime (Number) - Represents the expiration time in minutes
 verifyAccountChange-expiry-notice =

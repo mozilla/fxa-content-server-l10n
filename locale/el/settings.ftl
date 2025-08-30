@@ -362,6 +362,7 @@ confirmation-link-reused-message = Αυτός ο σύνδεσμος επιβεβ
 
 ## Locale Toggle Component
 
+locale-toggle-select-label = Επιλογή γλώσσας
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Εσφαλμένο αίτημα
 

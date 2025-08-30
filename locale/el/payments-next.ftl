@@ -37,6 +37,8 @@ visa-logo-alt-text = Λογότυπο { -brand-visa }
 # Alt text for generic payment card logo
 unbranded-logo-alt-text = Λογότυπο χωρίς εμπορικό σήμα
 link-logo-alt-text = Λογότυπο { -brand-link }
+apple-pay-logo-alt-text = Λογότυπο { -brand-apple-pay }
+google-pay-logo-alt-text = Λογότυπο { -brand-google-pay }
 
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -114,6 +116,8 @@ subscription-management-subscriptions-heading = Συνδρομές
 subscription-management-your-subscriptions-aria = Οι συνδρομές σας
 subscription-management-no-subscriptions = Δεν έχετε καμία συνδρομή ακόμα
 subscription-management-button-support = Λήψη βοήθειας
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscription-management-button-support-aria = Λήψη βοήθειας για το { $productName }
 subscription-management-your-apple-iap-subscriptions-aria = Συνδρομές εντός εφαρμογών { -brand-apple }
 subscription-management-apple-in-app-purchase = { -brand-apple }: αγορά εντός εφαρμογής
 subscription-management-your-google-iap-subscriptions-aria = Συνδρομές εντός εφαρμογών { -brand-google }
@@ -147,6 +151,8 @@ subscription-management-breadcrumb-account-home = Αρχική σελίδα λο
 subscription-management-breadcrumb-subscriptions = Συνδρομές
 # Link title - Payment method management
 subscription-management-breadcrumb-payment = Μέθοδοι πληρωμής
+# $page refers to page titles used in the breadcrumb menu (e.g. Account Home, Subscriptions, Payment Methods)
+subscription-management-breadcrumb-back-aria = Επιστροφή στη σελίδα «{ $page }»
 
 ## Component - Payment Consent Checkbox
 
@@ -315,7 +321,13 @@ resubscribe-dialog-content =
     Η πρόσβασή σας στο { $name } θα συνεχιστεί, ενώ ο κύκλος χρέωσής σας
     και οι πληρωμές θα παραμείνουν ως έχουν. Η επόμενη χρέωση θα είναι
     { $amount } στις { $endDate }.
+resubscribe-dialog-content-with-tax = Η πρόσβασή σας στο { $name } θα συνεχιστεί, ενώ ο κύκλος χρέωσής σας και οι πληρωμές θα παραμείνουν ως έχουν. Η επόμενη χρέωση θα είναι { $amount } + { $tax } (φόρος) στις { $endDate }.
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+resubscribe-dialog-action-button-resubscribe = Επανεγγραφή
+    .aria-label = Επανεγγραφή στο { $productName }
 resubscribe-success-dialog-title = Ευχαριστούμε! Όλα είναι έτοιμα.
+resubscribe-success-dialog-action-button-close = Κλείσιμο
+    .aria-label = Κλείσιμο διαλόγου
 
 ##
 
