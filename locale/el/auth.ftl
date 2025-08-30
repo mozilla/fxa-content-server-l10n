@@ -636,6 +636,13 @@ subscriptionFirstInvoice-content-auto-renew = Η συνδρομή σας θα α
 subscriptionFirstInvoice-content-next-invoice = Επόμενο παραστατικό: { $nextInvoiceDateOnly }
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-subject-2 = Η μέθοδος πληρωμής για το { $productName } έληξε ή λήγει σύντομα
+subscriptionPaymentExpired-title-2 = Η μέθοδος πληρωμής σας έχει ή πρόκειται να λήξει
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-content-2 = Η μέθοδος πληρωμής που χρησιμοποιείτε για το { $productName } έχει ή πρόκειται να λήξει.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = Η πληρωμή του { $productName } απέτυχε
 subscriptionPaymentFailed-title = Δυστυχώς, αντιμετωπίζουμε πρόβλημα με την πληρωμή σας
 # Variables:
