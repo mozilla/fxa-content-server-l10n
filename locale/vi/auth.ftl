@@ -633,11 +633,19 @@ subscriptionFirstInvoice-content-auto-renew = Thuê bao của bạn sẽ tự đ
 subscriptionFirstInvoice-content-next-invoice = Hóa đơn tiếp theo: { $nextInvoiceDateOnly }
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-subject-2 = Phương thức thanh toán cho { $productName } đã hết hạn hoặc sắp hết hạn
+subscriptionPaymentExpired-title-2 = Phương thức thanh toán của bạn đã hết hạn hoặc sắp hết hạn
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-content-2 = Phương thức thanh toán bạn đang sử dụng cho { $productName } đã hết hạn hoặc sắp hết hạn.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = Thanh toán { $productName } không thành công
 subscriptionPaymentFailed-title = Xin lỗi, chúng tôi gặp sự cố với thanh toán của bạn
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-content-problem = Chúng tôi đã gặp sự cố với khoản thanh toán mới nhất của bạn cho { $productName }.
+subscriptionPaymentFailed-content-outdated-1 = Có thể phương thức thanh toán của bạn đã hết hạn hoặc phương thức thanh toán hiện tại của bạn không chính xác.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-subject = Cần cập nhật thông tin thanh toán cho { $productName }
@@ -645,6 +653,7 @@ subscriptionPaymentProviderCancelled-title = Xin lỗi, chúng tôi đang gặp 
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-content-detect = Chúng tôi đã phát hiện thấy sự cố với phương thức thanh toán của bạn cho { $productName }.
+subscriptionPaymentProviderCancelled-content-reason-1 = Có thể phương thức thanh toán của bạn đã hết hạn hoặc phương thức thanh toán hiện tại của bạn không chính xác.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-subject = Đã kích hoạt lại thuê bao { $productName }
@@ -678,9 +687,13 @@ subscriptionReplaced-title = Gói đăng ký của bạn đã được cập nh�
 subscriptionReplaced-content-replaced = Gói đăng ký cá nhân { $productName } của bạn đã được thay thế và hiện được bao gồm trong gói mới của bạn.
 subscriptionReplaced-content-credit = Bạn sẽ nhận được khoản tín dụng cho bất kỳ thời gian chưa sử dụng nào từ gói đăng ký trước đó của bạn. Khoản tín dụng này sẽ tự động được áp dụng vào tài khoản của bạn và được sử dụng cho các khoản phí trong tương lai.
 subscriptionReplaced-content-no-action = Bạn không cần phải thực hiện bất kỳ hành động nào.
+subscriptionsPaymentExpired-subject-2 = Phương thức thanh toán cho gói đăng ký của bạn đã hết hạn hoặc sắp hết hạn
+subscriptionsPaymentExpired-title-2 = Phương thức thanh toán của bạn đã hết hạn hoặc sắp hết hạn
+subscriptionsPaymentExpired-content-2 = Phương thức thanh toán bạn đang sử dụng để thanh toán cho các gói đăng ký sau đã hết hạn hoặc sắp hết hạn.
 subscriptionsPaymentProviderCancelled-subject = Cần cập nhật thông tin thanh toán cho các thuê bao { -brand-mozilla }
 subscriptionsPaymentProviderCancelled-title = Xin lỗi, chúng tôi đang gặp sự cố với phương thức thanh toán của bạn
 subscriptionsPaymentProviderCancelled-content-detected = Chúng tôi đã phát hiện ra sự cố với phương thức thanh toán của bạn cho các thuê bao sau.
+subscriptionsPaymentProviderCancelled-content-payment-1 = Có thể phương thức thanh toán của bạn đã hết hạn hoặc phương thức thanh toán hiện tại của bạn không chính xác.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-subject = Đã nhận thanh toán { $productName }
