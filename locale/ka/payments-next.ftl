@@ -40,6 +40,8 @@ visa-logo-alt-text = { -brand-visa }-ლოგო
 # Alt text for generic payment card logo
 unbranded-logo-alt-text = გამოსახულების არმქონე ლოგო
 link-logo-alt-text = { -brand-link }–ლოგო
+apple-pay-logo-alt-text = { -brand-apple-pay }-ლოგო
+google-pay-logo-alt-text = { -brand-google-pay }-ლოგო
 
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages
