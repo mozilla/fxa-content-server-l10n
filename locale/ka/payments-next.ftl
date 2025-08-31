@@ -291,7 +291,7 @@ subscription-content-promotion-applied-no-tax = ასახულია ფა�
 subscription-content-promotion-applied-with-tax = ასახულია ფასდაკლების ბარათი { $promotionName }: { $invoiceTotal } + { $taxDue } გადასახადი
 subscription-content-current-with-tax = { $invoiceTotal } + { $taxDue } გადასახადი
 subscription-content-next-bill-no-tax = მომდევნო ანგარიშსწორება { $invoiceTotal } თარიღისთვის { $nextBillDate }
-subscription-content-next-bill-with-tax = მომდევნო ანგარიშსწორება { $invoiceTotal } + { $taxDue } გადასახადი თარიღისთვის { $nextBillDate }
+subscription-content-next-bill-with-tax = მომდევნო ანგარიშსწორება { $invoiceTotal } + { $taxDue } დაბეგვრით თარიღისთვის { $nextBillDate }
 subscription-content-heading-cancel-subscription = გამოწერის გაუქმება
 subscription-content-no-longer-use-message = ვეღარ შეძლებთ გამოიყენოთ { $productName } თარიღიდან { $currentPeriodEnd }, ესაა საანგარიშო პერიოდის ბოლო დღე.
 subscription-content-cancel-access-message = გაუქმდეს წვდომა და დამახსოვრებული მონაცემები, მომსახურებისთვის { $productName } თარიღზე { $currentPeriodEnd }
@@ -308,7 +308,7 @@ subscription-cancellation-dialog-title = სამწუხაროა, რო�
 subscription-cancellation-dialog-msg = თქვენ მიერ გამოწერილი { $name } გაუქმებულია. ჯერ კიდევ შეგიძლიათ გამოიყენოთ { $name } თარიღამდე { $date }.
 subscription-cancellation-dialog-aside = კითხვები გაქვთ? იხილეთ <LinkExternal>{ -brand-mozilla } – მხარდაჭერა</LinkExternal>.
 subscription-content-button-resubscribe = ხელახლა გამოწერა
-    .aria-label = ახლიდან გამოიწერეთ { $productName }
+    .aria-label = ახლიდან გამოიწერება { $productName }
 # $name (String) - The name of the subscribed product.
 # $date (Date) - Last day of product access
 subscription-content-resubscribe = თქვენ ვეღარ შეძლებთ გამოიყენოთ { $name } თარიღიდან <strong>{ $date }</strong>.
@@ -321,7 +321,13 @@ resubscribe-dialog-title = გსურთ კვლავ გამოიყე
 ## $endDate (Date) - The end date of the subscription period.
 
 resubscribe-dialog-content = კვლავ შეგიძლიათ { $name } გამოიყენოთ, თქვენი საანგარიშო პერიოდი და გადახდები დარჩება იგივე. მომდევნო გადახდისას ჩამოიჭრება { $amount } თარიღზე { $endDate }.
+resubscribe-dialog-content-with-tax = კვლავ შეგიძლიათ გამოიყენოთ { $name }, თქვენი საანგარიშო პერიოდი და გადასახადი დარჩება იგივე. მომდევნო გადახდისას ჩამოიჭრება { $amount } + { $tax } დაბეგვრით თარიღზე { $endDate }.
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+resubscribe-dialog-action-button-resubscribe = კვლავ გამოწერა
+    .aria-label = ახლიდან გამოიწერება { $productName }
 resubscribe-success-dialog-title = გმადლობთ! ყველაფერი მზადაა.
+resubscribe-success-dialog-action-button-close = დახურვა
+    .aria-label = არე დაიხურება
 
 ##
 

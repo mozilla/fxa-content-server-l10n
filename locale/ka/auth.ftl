@@ -634,6 +634,13 @@ subscriptionFirstInvoice-content-auto-renew = თქვენი გამოწ
 subscriptionFirstInvoice-content-next-invoice = შემდეგი ზედნადები: { $nextInvoiceDateOnly }
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-subject-2 = { $productName } მომსახურებისთვის გადახდის საშუალებას ვადა გაუვიდა ან მალე გაუვა
+subscriptionPaymentExpired-title-2 = თქვენს გადახდის საშუალებას ვადა გაუვიდა ან მალე გაუვა
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-content-2 = { $productName } მომსახურებისთვის გამოყენებულ გადახდის საშუალებას ვადა გაუვიდა ან მალე გაუვა.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = { $productName } გადახდა ვერ მოხერხდა
 subscriptionPaymentFailed-title = სამწუხაროდ ხარვეზია თქვენს გადახდასთან დაკავშირებით
 # Variables:
