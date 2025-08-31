@@ -646,6 +646,7 @@ subscriptionPaymentFailed-title = სამწუხაროდ ხარვე
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-content-problem = ხარვეზი იყო, თქვენი ბოლო გადახდისას პროდუქტისთვის { $productName }
+subscriptionPaymentFailed-content-outdated-1 = სავარაუდოდ, თქვენი გადახდის საშუალება ვადაგასულია ან მოძველებულია.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-subject = გადახდის ინფორმაციის განახლებას საჭიროებს { $productName }
@@ -653,6 +654,7 @@ subscriptionPaymentProviderCancelled-title = სამწუხაროდ ხ�
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-content-detect = ხარვეზი აღმოაჩნდა თქვენი გადახდის საშუალებას პროდუქტისთვის { $productName }.
+subscriptionPaymentProviderCancelled-content-reason-1 = სავარაუდოდ, თქვენი გადახდის საშუალება ვადაგასულია ან მოძველებულია.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-subject = გამოწერილი { $productName } კვლავ ამოქმედებულია
@@ -686,9 +688,13 @@ subscriptionReplaced-title = თქვენი გამოწერა გა�
 subscriptionReplaced-content-replaced = თქვენი მიერ ცალკე გამოწერილი { $productName } ჩანაცვლებულია და ახალი კრებულის ნაწილს წარმოდგენს.
 subscriptionReplaced-content-credit = თქვენ მიიღებთ ნაშთს წინა გამოწერის დარჩენილი დროის ასანაზღაურებლად. თავისთავად აისახება ანგარიშზე და გამოყენებული იქნება სამომავლო გადახდებისას.
 subscriptionReplaced-content-no-action = საჭირო არაა, რამე მოიმოქმედოთ.
+subscriptionsPaymentExpired-subject-2 = თქვენი გამოწერების გადახდის საშუალებას ვადა გაუვიდა ან მალე გაუვა
+subscriptionsPaymentExpired-title-2 = თქვენს გადახდის საშუალებას ვადა გაუვიდა ან მალე გაუვა
+subscriptionsPaymentExpired-content-2 = გადახდის საშუალებას, რომელსაც მოცემული გამოწერების გადასახადის დასაფარად იყენებთ, ვადა გაუვიდა ან მალე გაუვა.
 subscriptionsPaymentProviderCancelled-subject = გადახდის ინფორმაციის განახლებას საჭიროებს { -brand-mozilla }-გამოწერები
 subscriptionsPaymentProviderCancelled-title = სამწუხაროდ ხარვეზია გადახდის თქვენს საშუალებასთან დაკავშირებით
 subscriptionsPaymentProviderCancelled-content-detected = ხარვეზს წავაწყდით თქვენს ბოლო გადახდაზე მოცემული გამოწერებისთვის.
+subscriptionsPaymentProviderCancelled-content-payment-1 = სავარაუდოდ, თქვენი გადახდის საშუალება ვადაგასულია ან მოძველებულია.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-subject = { $productName } გადახდა მიღებულია
