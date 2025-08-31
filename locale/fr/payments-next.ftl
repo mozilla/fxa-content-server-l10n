@@ -318,7 +318,7 @@ resubscribe-dialog-title = Vous voulez continuer à utiliser { $name } ?
 ## $endDate (Date) - The end date of the subscription period.
 
 resubscribe-dialog-content = Vous garderez accès à { $name } et votre cycle de facturation et le paiement resteront les mêmes. Votre prochain paiement sera de { $amount } le { $endDate }.
-resubscribe-dialog-content-with-tax = Votre accès à { $name } continuera, et votre cycle de facturation et de paiement resteront les mêmes. Votre prochain paiement sera de { $amount } + { $tax } de taxes sur { $endDate }.
+resubscribe-dialog-content-with-tax = Vous garderez accès à { $name } et votre cycle de facturation et le paiement resteront les mêmes. Votre prochain paiement sera de { $amount } + { $tax } de taxes le { $endDate }.
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 resubscribe-dialog-action-button-resubscribe = Se réabonner
     .aria-label = Se réabonner à { $productName }
