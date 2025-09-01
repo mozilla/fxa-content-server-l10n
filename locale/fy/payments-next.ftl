@@ -296,6 +296,9 @@ subscription-cancellation-dialog-title = Wy fine it spitich dat jo ús ferlitte
 # $date (Date) - Last day of product access
 subscription-cancellation-dialog-msg = Jo abonnemint op { $name } is opsein. Jo hawwe noch oant { $date } tagong ta { $name }.
 subscription-cancellation-dialog-aside = Fragen? Besykje <LinkExternal>{ -brand-mozilla } Support</LinkExternal>.
+
+##
+
 dialog-close = Dialoochfinster slute
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
