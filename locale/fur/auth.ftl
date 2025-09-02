@@ -690,9 +690,11 @@ subscriptionReplaced-content-credit = Tu ricevarâs un credit pe part che no tu 
 subscriptionReplaced-content-no-action = No je domandade nissune azion de bande tô.
 subscriptionsPaymentExpired-subject-2 = Il metodi di paiament pai tiei abonaments al è scjadût o al scjât ca di pôc
 subscriptionsPaymentExpired-title-2 = Il metodi di paiament al è scjadût o al sta par scjadê
+subscriptionsPaymentExpired-content-2 = Il metodi di paiament che tu stâs doprant par chescj abonaments al è scjadût o al sta par scjadê.
 subscriptionsPaymentProviderCancelled-subject = Inzornament des informazions di paiament necessari pai abonaments di { -brand-mozilla }
 subscriptionsPaymentProviderCancelled-title = Nus displâs, o vin fastidis cul to metodi di paiament
 subscriptionsPaymentProviderCancelled-content-detected = O vin rilevât un probleme cul metodi di paiament sielt par chescj abonaments.
+subscriptionsPaymentProviderCancelled-content-payment-1 = Al è pussibil che il to metodi di paiament al sedi scjadût o che il to metodi di paiament corint nol sedi inzornât.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-subject = Il paiament par { $productName } al è stât ricevût
@@ -724,6 +726,8 @@ subscriptionUpgrade-upgrade-info-2 = L'inzornament a { $productName } al è stâ
 
 subscriptionUpgrade-content-charge-prorated-1 = Une tarife una tantum di { $invoiceAmountDue } e je stade contizade a ti par rifleti il presit plui alt dal to abonament pal rest di chest periodi di faturazion ({ $productPaymentCycleOld }).
 subscriptionUpgrade-content-charge-credit = Tu âs ricevût un credit di { $paymentProrated } sul cont.
+subscriptionUpgrade-content-subscription-next-bill-change = Tacant de prossime fature, il presit dal to abonament al cambiarà.
+subscriptionUpgrade-content-old-price-day = La tarife di prime e jere di { $paymentAmountOld } al dì.
 subscriptionUpgrade-existing = Se un dai tiei abonaments esistents si sorepon cun chest inzornament, lu tratarìn e ti inviarìn une e-mail separade cui detais. Se il to gnûf plan al inclût prodots di instalâ, ti mandarìn une e-mail separade cu lis istruzions pe instalazion.
 subscriptionUpgrade-auto-renew = Il to abonament si rinovarà in automatic a ogni periodi di faturazion, gjavant il câs che no tu decidis di anulâlu.
 unblockCode-subject = Codiç di autorizazion pal account
