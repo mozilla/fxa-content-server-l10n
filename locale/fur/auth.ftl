@@ -474,6 +474,7 @@ postChangeRecoveryPhone-description = Cumò tu âs un gnûf numar di telefon pal
 postChangeRecoveryPhone-requested-device = Richieste fate di:
 postChangeTwoStepAuthentication-preview = Il to account al è protet
 postChangeTwoStepAuthentication-subject = Autenticazion in doi passaçs inzornade
+postChangeTwoStepAuthentication-title = La autenticazion in doi passaçs e je stade inzornade
 postConsumeRecoveryCode-title-3 = Il codiç di autenticazion di backup al è stât doprât par confermâ il ripristinament de password
 # After the colon, there is description of the device that the backup authentication code was used on
 # E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
