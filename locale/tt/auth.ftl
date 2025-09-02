@@ -256,6 +256,7 @@ fraudulentAccountDeletion-contact-plaintext = Сорауларыгыз булс�
 # The user has a low number of valid recovery codes remaining for use
 codes-reminder-title-zero = Резерв аутентификация кодлары калмады!
 codes-reminder-title-one = Бары тик бер резерв аутентификация коды калды
+codes-reminder-title-two = Күбрәк резерв аутентификация кодларын булдыру вакыты
 codes-reminder-description-two-left = Ике код кына калды.
 lowRecoveryCodes-action-2 = Кодлар булдыру
 codes-create-plaintext = { lowRecoveryCodes-action-2 }:
