@@ -172,6 +172,7 @@ automated-email-reset-two-factor-plaintext = Ristabilìs ancje la autenticazion 
 # $accountsEmail is the Mozilla accounts sender email address (e.g. accounts@firefox.com)
 banner-warning-message = Di resint i svilupadôrs di components adizionâi di { -brand-firefox } a son stâts cjapâts di smire di atacs di phishing vie e-mail. Nô o mandìn e-mails nome in merit al to { -product-mozilla-account } di <a data-l10n-name="accountsEmailLink">{ $accountsEmail }</a>.
 banner-warning-message-plaintext = I svilupadôrs di components adizionâi { -brand-firefox } a son stâts cjapâts di smire di atacs di phishing vie e-mail. Ti mandarìn e-mails nome in merit al to { -product-mozilla-account } che a rivin di cheste direzion di pueste eletroniche:
+banner-warning-check = Controle che il dispositîf e che la posizion di dulà che tu sês jentrât a sedin juscj.
 brand-banner-message = Savevistu che o vin cambiât non di { -product-firefox-accounts } a { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Plui informazions</a>
 cancellationSurvey = Judinus a miorâ i nestris servizis partecipant a chest <a data-l10n-name="cancellationSurveyUrl">curt sondaç</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
@@ -270,6 +271,22 @@ device-all = { $uaBrowser } su { $uaOS } { $uaOSVersion }
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 device-browser-os = { $uaBrowser } su { $uaOS }
+# Variables:
+#  $city (String) - User's city
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-all = { $city }, { $stateCode }, { $country } (stimât)
+# Variables:
+#  $city (String) - User's city
+#  $country (String) - User's country
+location-city-country = { $city }, { $country } (stimât)
+# Variables:
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-state-country = { $stateCode }, { $country } (stimât)
+# Variables:
+#  $country (stateCode) - User's country
+location-country = { $country } (stimât)
 view-invoice = <a data-l10n-name="invoiceLink">Visualize la tô fature</a>.
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
@@ -455,6 +472,8 @@ postChangeRecoveryPhone-preview = Account protet de autenticazion in doi passaç
 postChangeRecoveryPhone-title = Tu âs cambiât il numar di telefon pal recupar dal account
 postChangeRecoveryPhone-description = Cumò tu âs un gnûf numar di telefon pal recupar dal account. Il numar di telefon di prime al è stât eliminât.
 postChangeRecoveryPhone-requested-device = Richieste fate di:
+postChangeTwoStepAuthentication-preview = Il to account al è protet
+postChangeTwoStepAuthentication-subject = Autenticazion in doi passaçs inzornade
 postConsumeRecoveryCode-title-3 = Il codiç di autenticazion di backup al è stât doprât par confermâ il ripristinament de password
 # After the colon, there is description of the device that the backup authentication code was used on
 # E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
