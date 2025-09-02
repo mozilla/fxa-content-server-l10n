@@ -243,9 +243,19 @@ downloadSubscription-subject = { $productName } кушымтасына рәхи�
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-title = { $productName } кушымтасына рәхим итегез
+downloadSubscription-content-2 = Абунәгезнең барлык мөмкинлекләрен куллана башлыйк:
 downloadSubscription-link-action-2 = Башлап җибәрү
 fraudulentAccountDeletion-subject-2 = Сезнең { -product-mozilla-account } хисабыгыз бетерелде
 fraudulentAccountDeletion-title = Сезнең хисабыгыз бетерелде
+fraudulentAccountDeletion-content-part1-v2 = Күптән түгел, { -product-mozilla-account } хисабы булдырылды һәм бу эл. почта адресы аша язылу бәясе алынды. Барлык яңа хисаплар белән булган кебек, башта бу эл. почта адресын раслап, хисабыгызны раславыгызны сорадык.
+fraudulentAccountDeletion-content-part2-v2 = Хәзерге вакытта без хисапның беркайчан да расланмаганын күрәбез. Бу адым тәмамланмаганлыктан, бу вәкаләт бирелгән язылу булганмы-юкмы, без белмибез. Нәтиҗәдә, бу эл. почта адресына теркәлгән { -product-mozilla-account } хисабы бетерелде һәм барлык түләүләр кире кайтарлыып, язылуыгыз туктатылды.
+fraudulentAccountDeletion-contact = Сорауларыгыз булса, зинһар, безнең <a data-l10n-name="mozillaSupportUrl">ярдәм төркеменә</a> мөрәҗәгать итегез.
+# Variables:
+#  $mozillaSupportUrl (String) - Link to https://support.mozilla.org
+fraudulentAccountDeletion-contact-plaintext = Сорауларыгыз булса, зинһар, безнең ярдәм төркеменә мөрәҗәгать итегез: { $mozillaSupportUrl }
+# The user has a low number of valid recovery codes remaining for use
+codes-reminder-title-zero = Резерв аутентификация кодлары калмады!
+codes-reminder-title-one = Бары тик бер резерв аутентификация коды калды
 codes-reminder-description-two-left = Ике код кына калды.
 lowRecoveryCodes-action-2 = Кодлар булдыру
 codes-create-plaintext = { lowRecoveryCodes-action-2 }:
