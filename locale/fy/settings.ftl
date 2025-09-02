@@ -357,6 +357,9 @@ primary-email-confirmation-link-reused = Primêr e-mailadres al befêstige
 # The user followed a sign-in confirmation link, but that link has been used and is no longer valid
 signin-confirmation-link-reused = Oanmelding is al befêstige
 confirmation-link-reused-message = Dy befêstigingskeppeling is al brûkt en kin mar ien kear brûkt wurde.
+
+## Locale Toggle Component
+
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Unjildige oanfraach
 
@@ -1285,10 +1288,6 @@ auth-error-1067 = Hawwe jo it e-mailadres ferkeard ynfierd?
 # Variables:
 #  $lastFourPhoneNumber (Number) - The last 4 digits of the user's recovery phone number
 recovery-phone-number-ending-digits = Nûmer dat einiget op { $lastFourPhoneNumber }
-# This error is shown when there is a particular kind of error at the very end of the 2FA flow
-# and the user should begin it again. A system/device clock not being synced to the internet time is
-# a common problem when using 2FA.
-two-factor-auth-setup-token-verification-error = Der is in probleem bard by it ynskeakeljen fan twa-stapsautentikaasje. Kontrolearje oft de klok fan jo apparaat ynsteld is om automatysk by te wurkjen en <a>begjin opnij</a>.
 oauth-error-1000 = Der is wat misgien. Slút dit ljepblêd en probearje it opnij.
 
 ## Cannot Create Account page

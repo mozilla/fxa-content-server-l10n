@@ -37,6 +37,8 @@ visa-logo-alt-text = Logótipo de { -brand-visa }
 # Alt text for generic payment card logo
 unbranded-logo-alt-text = Logótipo sem marca
 link-logo-alt-text = Logótipo de { -brand-link }
+apple-pay-logo-alt-text = Logótipo de { -brand-apple-pay }
+google-pay-logo-alt-text = Logótipo de { -brand-google-pay }
 
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -304,13 +306,28 @@ subscription-cancellation-dialog-msg = A sua subscrição de { $name } foi cance
 subscription-cancellation-dialog-aside = Tem questões? Visite o Apoio <LinkExternal>{ -brand-mozilla }</LinkExternal>.
 subscription-content-button-resubscribe = Resubscrever
     .aria-label = Resubscrever a { $productName }
+# $name (String) - The name of the subscribed product.
 # $date (Date) - Last day of product access
 subscription-content-resubscribe = Você ira perder acesso a { $name } em <strong>{ $date }</strong>.
+# $name (String) - The name of the subscribed product.
 resubscribe-dialog-title = Deseja continuar a usar { $name }?
+
+## $name (String) - The name of the subscribed product.
+## $amount (Number) - The amount billed (excluding tax if tax does not exist). It will be formatted as currency.
+## $tax (Number) - The tax added on, not included in amount. It will be formatted as currency.
+## $endDate (Date) - The end date of the subscription period.
+
 resubscribe-dialog-content = O seu acesso a { $name } irá continuar e o seu ciclo de faturação e de pagamento irão permanecer como estão. O seu próximo débito será de { $amount } em { $endDate }.
-resubscribe-dialog-action-button = Manter a subscrição
+resubscribe-dialog-content-with-tax = O seu acesso a { $name } irá continuar e o seu ciclo de faturação e de pagamento irão permanecer como estão. O seu próximo débito será de { $amount } + { $tax } impostos em { $endDate }.
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+resubscribe-dialog-action-button-resubscribe = Resubscrever
+    .aria-label = Resubscrever a { $productName }
 resubscribe-success-dialog-title = Obrigado! Está tudo feito.
-resubscribe-success-dialog-action-button = Fechar
+resubscribe-success-dialog-action-button-close = Fechar
+    .aria-label = Fechar janela
+
+##
+
 dialog-close = Fechar janela
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
