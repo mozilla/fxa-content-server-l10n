@@ -475,6 +475,12 @@ postChangeRecoveryPhone-requested-device = Richieste fate di:
 postChangeTwoStepAuthentication-preview = Il to account al è protet
 postChangeTwoStepAuthentication-subject = Autenticazion in doi passaçs inzornade
 postChangeTwoStepAuthentication-title = La autenticazion in doi passaçs e je stade inzornade
+postChangeTwoStepAuthentication-use-new-account = Di cumò indevant tu varâs di doprâ la gnove vôs par { -product-mozilla-account } te tô aplicazion di autenticazion. La version di prime no funzionarà plui e tu puedis gjavâle.
+# After the colon, there is a description of the device that the user used to enable two-step authentication
+postChangeTwoStepAuthentication-from-device = Tu le âs domandade di:
+postChangeTwoStepAuthentication-action = Gjestìs account
+postChangeTwoStepAuthentication-how-protects-link = Cemût che al jude a protezi il to account
+postChangeTwoStepAuthentication-how-protects-plaintext = Cemût che al jude a protezi il to account:
 postConsumeRecoveryCode-title-3 = Il codiç di autenticazion di backup al è stât doprât par confermâ il ripristinament de password
 # After the colon, there is description of the device that the backup authentication code was used on
 # E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
@@ -628,11 +634,19 @@ subscriptionFirstInvoice-content-auto-renew = Il to abonament si rinovarà in au
 subscriptionFirstInvoice-content-next-invoice = Prossime fature: { $nextInvoiceDateOnly }
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-subject-2 = Il metodi di paiament par { $productName } al è scjadût o al sta par scjadê
+subscriptionPaymentExpired-title-2 = Il metodi di paiament al è scjadût o al sta par scjadê
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-content-2 = Il metodi di paiament che tu dopris par { $productName } al è scjadût o al sta par scjadê.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = Paiament par { $productName } falît
 subscriptionPaymentFailed-title = Nus displâs, o vin fastidis cul to paiament
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-content-problem = O vin vût un probleme cul to ultin paiament par { $productName }.
+subscriptionPaymentFailed-content-outdated-1 = Al è pussibil che il to metodi di paiament al sedi scjadût o che il to metodi di paiament corint nol sedi inzornât.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-subject = Inzornament des informazions di paiament necessari par { $productName }
@@ -640,6 +654,7 @@ subscriptionPaymentProviderCancelled-title = Nus displâs, o vin fastidis cul to
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-content-detect = O vin rilevât un probleme cul to metodi di paiament par { $productName }.
+subscriptionPaymentProviderCancelled-content-reason-1 = Al è pussibil che il to metodi di paiament al sedi scjadût o che il to metodi di paiament corint nol sedi inzornât.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-subject = Abonament a { $productName } riativât
@@ -673,6 +688,8 @@ subscriptionReplaced-title = Il to abonament al è stât inzornât
 subscriptionReplaced-content-replaced = Il to abonament individuâl a { $productName } al è stât sostituît e cumò al è includût tal gnûf pachet.
 subscriptionReplaced-content-credit = Tu ricevarâs un credit pe part che no tu âs doprât dal to vecjo abonament. Chest credit al vignarà aplicât in automatic al to account e al vignarà doprât pai adebits futûrs.
 subscriptionReplaced-content-no-action = No je domandade nissune azion de bande tô.
+subscriptionsPaymentExpired-subject-2 = Il metodi di paiament pai tiei abonaments al è scjadût o al scjât ca di pôc
+subscriptionsPaymentExpired-title-2 = Il metodi di paiament al è scjadût o al sta par scjadê
 subscriptionsPaymentProviderCancelled-subject = Inzornament des informazions di paiament necessari pai abonaments di { -brand-mozilla }
 subscriptionsPaymentProviderCancelled-title = Nus displâs, o vin fastidis cul to metodi di paiament
 subscriptionsPaymentProviderCancelled-content-detected = O vin rilevât un probleme cul metodi di paiament sielt par chescj abonaments.
