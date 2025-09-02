@@ -2,6 +2,21 @@
 
 session-verify-send-push-title-2 = { -product-mozilla-account } эченә кердегезме?
 session-verify-send-push-body-2 = Сез икәнегезне раслау өчен монда басыгыз
+# Shorter message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to verify phone ownership when registering a recovery phone
+recovery-phone-setup-sms-short-body = { -brand-mozilla } раслау коды: { $code }
+# Shorter message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to sign in with a recovery phone as backup for two-step authentication
+recovery-phone-signin-sms-short-body = { -brand-mozilla } коды: { $code }
+# Shorter message sent by SMS with limited character length, please test translation with the messaging segment calculator
+# https://twiliodeved.github.io/message-segment-calculator/
+# Messages should be limited to one segment
+# $code  - 6 digit code used to sign in with a recovery phone as backup for account password reset
+recovery-phone-reset-password-short-body = { -brand-mozilla } коды: { $code }
 
 ## Email content
 ## Emails do not contain buttons, only links. Emails have a rich HTML version and a plaintext
@@ -217,8 +232,11 @@ cadReminderFirst-action-plaintext = { cadReminderFirst-action }:
 # In the title of the email, "It takes two to sync", "two" refers to syncing two devices
 cadReminderFirst-title-1 = Синхронлау өчен 2 җиһаз кирәк
 cadReminderFirst-description-v2 = Ачык табларыгыз барлык җиһазларыгызда да булсын. Сез { -brand-firefox } кулланган һәр җирдә дә кыстыргычларыгыз, серсүзләрегез һәм башка мәгълүматларыгыз сезнең белән."
+cadReminderSecond-subject-2 = Онытмагыз! Әйдәгез синхронлауны көйләүне тәмамлыйк
 cadReminderSecond-action = Башка җиһазны синхронлау
 cadReminderSecond-title-2 = Синхронлауны онытмагыз!
+cadReminderSecond-description-sync = Кыстыргычларны, серсүзләрне, ачык табларны синхронлау — { -brand-firefox }-ны кулланган һәр җирдә.
+cadReminderSecond-description-plus = Моннан тыш, сезнең мәгълүматлар гел шифрлана. Аны Сез һәм Сез тикшергән җиһазлар гына күрә ала.
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 downloadSubscription-subject = { $productName } кушымтасына рәхим итегез
