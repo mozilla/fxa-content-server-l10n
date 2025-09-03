@@ -288,6 +288,9 @@ subscription-content-promotion-applied-no-tax = Coupon { $promotionName } aplic�
 subscription-content-promotion-applied-with-tax = Coupon { $promotionName } aplicât: { $invoiceTotal } + { $taxDue } tassis
 subscription-content-current-with-tax = { $invoiceTotal } + { $taxDue } tassis
 subscription-content-next-bill-no-tax = La prossime fature di { $invoiceTotal } e je dovude pai { $nextBillDate }
+subscription-content-next-bill-with-tax = La prossime fature di { $invoiceTotal } + { $taxDue } di tassis e je dovude pai { $nextBillDate }
+subscription-content-heading-cancel-subscription = Scancele abonament
+subscription-content-no-longer-use-message = No tu rivarâs plui a doprâ { $productName } dopo { $currentPeriodEnd }, l'ultin dì dal cicli di faturazion.
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
