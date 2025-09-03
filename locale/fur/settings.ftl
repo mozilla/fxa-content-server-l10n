@@ -796,6 +796,11 @@ tfa-create-code-success-alert = Codiçs di autenticazion di backup creâts
 # Custom messaging for users replacing existing backup codes - Download step (1 of 2)
 # On this step, the codes are not yet replaced in the database - the old codes are still valid until step 2 is completed.
 tfa-replace-code-download-description = Tegniju intun puest facil di impensâsi. I codiçs vecjos a vignaran sostituîts ae fin dal prossim passaçs.
+# Custom messaging for users replacing existing backup codes - Confirm step (2 of 2)
+# Until this confirmation step is successfully completed, the old codes are still active and the new codes are not saved in the database.
+tfa-replace-code-confirm-description = Inserint un di chei codiçs tu confermis che tu ju âs salvâts. I tiei vecjos codiçs di autenticazion di backup a vignaran disativâts une volte completât chest passaç.
+# Error shown when the entered backup code does not match any of the generated codes
+tfa-incorrect-recovery-code-1 = Codiç di autenticazion di backup sbaliât
 
 ## Page2faSetup
 
@@ -1197,6 +1202,7 @@ tfa-row-enabled = Ativade
 tfa-row-disabled-status = Disativade
 tfa-row-action-add = Zonte
 tfa-row-action-disable = Disative
+tfa-row-action-change = Modifiche
 tfa-row-button-refresh =
     .title = Ripristine la autenticazion in doi passaçs
 tfa-row-cannot-refresh =
@@ -1216,6 +1222,7 @@ tfa-row-disable-modal-explain-1 =
 # Shown in an alert bar after two-step authentication is disabled
 tfa-row-disabled-2 = Autenticazion in doi passaçs disativade
 tfa-row-cannot-disable-2 = Impussibil disativâ la autenticazion in doi passaçs
+tfa-row-verify-session-info = Tu scugnis confermâ la session corinte par configurâ la autenticaczion in doi passaçs
 
 ## TermsPrivacyAgreement
 ## These terms are used in signin and signup for Firefox account
@@ -1439,6 +1446,7 @@ inline-totp-setup-security-code-placeholder = Codiç di autenticazion
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-code-required-error = Codiç di autenticazion necessari
 tfa-qr-code-alt = Dopre il codiç { $code } par configurâ la autenticazion in doi passaçs tes aplicazions supuartadis.
+inline-totp-setup-page-title = Autenticazion in doi passaçs
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
