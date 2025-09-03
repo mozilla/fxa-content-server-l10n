@@ -783,6 +783,27 @@ verify-description-2 = Conferme il to account e tire fûr il massim di { -brand-
 verify-subject = Complete la creazion dal to account
 verify-action-2 = Conferme account
 # Variables:
+# $code (String) - The verification code
+verifyAccountChange-subject = Dopre { $code } par cambiâ il to account
+# Variables:
+# $expirationTime (Number) - Represents the expiration time in minutes
+verifyAccountChange-preview =
+    { $expirationTime ->
+        [one] Chest codiç al scjât ca di { $expirationTime } minût.
+       *[other] Chest codiç al scjât ca di { $expirationTime } minûts.
+    }
+verifyAccountChange-title = Stâstu modificant lis informazions dal to account?
+# After the colon is a description of the device used to sign in to the service
+verifyAccountChange-safe = Judinus a mantignî sigûr il to account aprovant cheste modifiche:
+verifyAccountChange-prompt = Se sì, chest al è il to codiç di autorizazion:
+# Variables:
+# $expirationTime (Number) - Represents the expiration time in minutes
+verifyAccountChange-expiry-notice =
+    { $expirationTime ->
+        [one] Al scjât ca di { $expirationTime } minût.
+       *[other] Al scjât ca di { $expirationTime } minûts.
+    }
+# Variables:
 #  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title-2 = Jeristu tu a jentrâ vie { $clientName }?
 verifyLogin-description-2 = Judinus a mantignî sigûr il to account confermant che tu jeris tu a jentrâ cun:
