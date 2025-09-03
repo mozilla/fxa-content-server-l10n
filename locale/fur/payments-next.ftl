@@ -318,6 +318,13 @@ resubscribe-dialog-title = Desideristu continuâ a doprâ { $name }?
 ## $endDate (Date) - The end date of the subscription period.
 
 resubscribe-dialog-content = Tu continuarâs a vê l'acès a { $name } e il cicli di faturazion e il paiament a restaran compagns. Il prossim adebit al sarà di { $amount } ai { $endDate }.
+resubscribe-dialog-content-with-tax = Tu continuarâs a vê l'acès a { $name } e il cicli di faturazion e il paiament a restaran compagns. Il prossim adebit al sarà di { $amount } + { $tax } di tassis ai { $endDate }.
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+resubscribe-dialog-action-button-resubscribe = Torne aboniti
+    .aria-label = Torne aboniti a { $productName }
+resubscribe-success-dialog-title = Graciis! Dut pront.
+resubscribe-success-dialog-action-button-close = Siere
+    .aria-label = Siere dialic
 
 ##
 

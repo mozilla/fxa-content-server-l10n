@@ -153,6 +153,11 @@ form-password-with-inline-criteria-reset-new-password =
 form-password-with-inline-criteria-confirm-password =
     .label = Conferme password
 form-password-with-inline-criteria-reset-submit-button = Cree gnove password
+form-password-with-inline-criteria-set-password-new-password-label =
+    .label = Password
+form-password-with-inline-criteria-set-password-confirm-password-label =
+    .label = Ripet password
+form-password-with-inline-criteria-set-password-submit-button = Scomence la sincronizazion
 form-password-with-inline-criteria-match-error = Lis passwords no corispuindin
 form-password-with-inline-criteria-sr-too-short-message = La password e à di vê almancul 8 caratars.
 form-password-with-inline-criteria-sr-not-email-message = La password no à di contignî la tô direzion e-mail.
@@ -355,6 +360,7 @@ confirmation-link-reused-message = Chel colegament di conferme al è za stât do
 
 ## Locale Toggle Component
 
+locale-toggle-select-label = Selezione lenghe
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Richieste sbaliade
 
@@ -483,6 +489,12 @@ bento-menu-made-by-mozilla = Fat di { -brand-mozilla }
 
 connect-another-fx-mobile = Oten { -brand-firefox } sul celulâr o sul tablet
 connect-another-find-fx-mobile-2 = Cjate { -brand-firefox } in { -google-play } e { -app-store }.
+# Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
+# These images are used to encourage users to download Firefox on their mobile devices.
+connect-another-play-store-image-2 =
+    .alt = Discjame { -brand-firefox } su { -google-play }
+connect-another-app-store-image-3 =
+    .alt = Discjame { -brand-firefox } su { -app-store }
 
 ## Connected services section
 
@@ -762,14 +774,28 @@ nav-data-collection = Racuelte e utilizazion dâts
 nav-paid-subs = Abonaments a paiament
 nav-email-comm = Comunicazions vie e-mail
 
+## Page2faChange
+
+page-2fa-change-title = Cambie la autenticazion in doi passaçs
+page-2fa-change-success = La autenticazion in doi passaçs e je stade inzornade
+page-2fa-change-totpinfo-error = Al è vignût fûr un erôr tal sostituî la tô aplicazion di autenticazion in doi passaçs. Torne prove plui indevant.
+page-2fa-change-qr-instruction = <strong>Passaç 1:</strong> scansione chst codiç QR doprant une aplicazion di autenticazion, come Duo o Google Authenticator. Cheste operazion e cree une gnove conession, dutis lis conessions esistentis a smetaran di funzionâ.
+
 ## Two Step Authentication - replace backup authentication code
 
+# Page title
+tfa-backup-codes-page-title = Codiçs di autenticazion di backup
 # Error shown when API call fails while replacing existing backup codes
 tfa-replace-code-error-3 = Al è vignût fûr un probleme tal sostituî i tiei codiçs di autenticazion di backup
 # Error shown when API call fails while creating new backup codes (user had none)
 tfa-create-code-error = Al è vignût fûr un probleme tal creâ i tiei codiçs di autenticazion di backup
 # Success message shown in alert bar after successfully replacing existing backup codes
 tfa-replace-code-success-alert-4 = Codiçs di autenticazion di backup inzornâts
+# Success message shown after creating backup codes for the first time
+tfa-create-code-success-alert = Codiçs di autenticazion di backup creâts
+# Custom messaging for users replacing existing backup codes - Download step (1 of 2)
+# On this step, the codes are not yet replaced in the database - the old codes are still valid until step 2 is completed.
+tfa-replace-code-download-description = Tegniju intun puest facil di impensâsi. I codiçs vecjos a vignaran sostituîts ae fin dal prossim passaçs.
 
 ## Page2faSetup
 
