@@ -36,6 +36,9 @@ unionpay-logo-alt-text = Logo { -brand-unionpay }
 visa-logo-alt-text = Logo { -brand-visa }
 # Alt text for generic payment card logo
 unbranded-logo-alt-text = Logo cence marche
+link-logo-alt-text = Logo { -brand-link }
+apple-pay-logo-alt-text = Logo di { -brand-apple-pay }
+google-pay-logo-alt-text = Logo di { -brand-google-pay }
 
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -60,6 +63,8 @@ intent-payment-error-try-again = Uhm… al è vignût fûr un probleme tal autor
 intent-payment-error-get-in-touch = Uhm… al è vignût fûr un probleme tal autorizâ il paiament. Contate l’emitent de cjarte.
 intent-payment-error-generic = Al è capitât un erôr inspietât dilunc la elaborazion dal paiament, torne prove.
 intent-payment-error-insufficient-funds = Al somee che la tô cjarte no vedi credit suficient. Prove cuntune altre cjarte.
+general-paypal-error = Al è capitât un erôr inspietât dulinvie la elaborazion dal paiament, torne prove.
+paypal-active-subscription-no-billing-agreement-error = Al somee che al sedi vignût fûr un probleme di faturazion cul to account { -brand-paypal }. Torne ative i paiaments automatics pal to abonament.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -96,6 +101,8 @@ subscription-management-account-profile-picture = Imagjin dal profîl pal accoun
 
 ## Page - Subscription Management
 
+subscription-management-account-credit-balance-heading = Salt dal account
+subscription-management-account-credit-balance-message = Il credit al vignarà aplicât in automatic tes prossimis faturis
 subscription-management-payment-information-heading = Informazions sul paiament
 subscription-management-button-add-payment-method-aria = Zonte metodi di paiament
 subscription-management-button-add-payment-method = Zonte
@@ -108,6 +115,9 @@ subscription-management-card-expires-date = Al scjât al/ai { $expirationDate }
 subscription-management-subscriptions-heading = Abonaments
 subscription-management-your-subscriptions-aria = I tiei abonaments
 subscription-management-no-subscriptions = No tu âs ancjemò nissun abonament
+subscription-management-button-support = Oten jutori
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscription-management-button-support-aria = Oten jutori par { $productName }
 subscription-management-your-apple-iap-subscriptions-aria = I tiei abonaments te aplicazion vie { -brand-apple }
 subscription-management-apple-in-app-purchase = { -brand-apple }: compre te aplicazion
 subscription-management-your-google-iap-subscriptions-aria = I tiei abonaments te aplicazion vie { -brand-google }
@@ -123,6 +133,11 @@ subscription-management-button-manage-subscription = Gjestìs
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
 
+subscription-management-page-subscription-interval-daily = { $productName } (al dì)
+subscription-management-page-subscription-interval-weekly = { $productName } (ae setemane)
+subscription-management-page-subscription-interval-monthly = { $productName } (al mês)
+subscription-management-page-subscription-interval-halfyearly = { $productName } (6 mês)
+subscription-management-page-subscription-interval-yearly = { $productName } (al an)
 # Page - Not Found
 page-not-found-title = Pagjine no cjatade
 page-not-found-description = La pagjine domandade no je stade cjatade. Nus è rivade la segnalazion dal probleme e o comedarìn i eventuâi colegaments che no funzionin.
@@ -134,6 +149,10 @@ page-not-found-back-button = Torne indaûr
 subscription-management-breadcrumb-account-home = Pagjine principâl dal account
 # Link title - Subscriptions management
 subscription-management-breadcrumb-subscriptions = Abonaments
+# Link title - Payment method management
+subscription-management-breadcrumb-payment = Metodis di paiament
+# $page refers to page titles used in the breadcrumb menu (e.g. Account Home, Subscriptions, Payment Methods)
+subscription-management-breadcrumb-back-aria = Torne a { $page }
 
 ## Component - Payment Consent Checkbox
 
@@ -188,6 +207,11 @@ payments-header-avatar-expanded-sign-out = Disconet
 payments-client-loading-spinner =
     .aria-label = Daûr a cjariâ…
     .alt = Cjariament in cors…
+
+## Payment method management page - Stripe
+
+# Save button for changing which payment method will be used
+payment-method-management-save-default = Met come metodi di paiament predefinît
 
 ## Payment Section
 
