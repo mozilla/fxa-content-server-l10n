@@ -212,6 +212,9 @@ payments-client-loading-spinner =
 
 # Save button for changing which payment method will be used
 payment-method-management-save-default = Met come metodi di paiament predefinît
+# Save button for saving a new payment method
+payment-method-management-save-method = Salve metodi di paiament
+manage-stripe-payments-title = Gjestìs metodis di paiament
 
 ## Payment Section
 
@@ -221,6 +224,8 @@ next-new-user-card-title = Inserìs lis informazions relativis ae tô cjarte di 
 
 next-plan-details-header = Detais dal prodot
 next-plan-details-list-price = Presit di catalic
+# $productName (String) - The name of the product, e.g. Mozilla VPN
+plan-details-product-prorated-price = Presit ripartît in mût proporzionâl par { $productName }
 next-plan-details-tax = Tassis e comissions
 next-plan-details-total-label = Totâl
 # "Unused time" refers to the remaining value of the current subscription that hasn't been used yet
@@ -266,6 +271,23 @@ next-new-user-subscribe-product-updates-mdnplus = O desideri ricevi di { -produc
 next-new-user-subscribe-product-updates-mozilla = O desideri ricevi di { -brand-mozilla } inzornaments e novitâts sui prodots
 next-new-user-subscribe-product-updates-snp = O desideri ricevi di { -brand-mozilla } inzornaments su sigurece e riservatece
 next-new-user-subscribe-product-assurance = O doprìn la tô e-mail dome par creâ il to account. No le vendarìn mai a tierçs.
+
+## Examples of coupon applied
+## 20% OFF coupon applied: $11.20 + $0.35 tax
+## Holiday Offer 2023 coupon applied: 6,42 €
+## Cybersecurity Awareness Month 2023 coupon applied: $11.20 + $0.35 tax
+## Summer Promo VPN coupon applied: $11.20
+## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., 08/21/2025 for US locale, 21/08/25 for FR locale)
+## $invoiceTotal (Number) - The amount billed (excluding tax if tax does not exist). It will be formatted as currency.
+## $nextBillDate (Date) - The date for the next time a charge will occur (e.g., 08/21/2025 for US locale, 21/08/25 for FR locale)
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+## $promotionName (String) - The name of the promotion.
+## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
+
+subscription-content-promotion-applied-no-tax = Coupon { $promotionName } aplicât: { $invoiceTotal }
+subscription-content-promotion-applied-with-tax = Coupon { $promotionName } aplicât: { $invoiceTotal } + { $taxDue } tassis
+subscription-content-current-with-tax = { $invoiceTotal } + { $taxDue } tassis
+subscription-content-next-bill-no-tax = La prossime fature di { $invoiceTotal } e je dovude pai { $nextBillDate }
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
