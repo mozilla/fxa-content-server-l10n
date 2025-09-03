@@ -291,6 +291,37 @@ subscription-content-next-bill-no-tax = La prossime fature di { $invoiceTotal } 
 subscription-content-next-bill-with-tax = La prossime fature di { $invoiceTotal } + { $taxDue } di tassis e je dovude pai { $nextBillDate }
 subscription-content-heading-cancel-subscription = Scancele abonament
 subscription-content-no-longer-use-message = No tu rivarâs plui a doprâ { $productName } dopo { $currentPeriodEnd }, l'ultin dì dal cicli di faturazion.
+subscription-content-cancel-access-message = Scancele il gno acès e gjave lis informazions salvadis in { $productName } prime dai { $currentPeriodEnd }
+subscription-content-button-stay-subscribed = Reste abonât
+    .aria-label = Reste abonât a { $productName }
+subscription-content-button-cancel-subscription = Cancele abonament
+    .aria-label = Cancele abonament a { $productName }
+subscription-content-button-cancel = Cancele
+    .aria-label = Cancele il to abonament a { $productName }
+subscription-content-cancel-action-error = Al è vignût fûr un erôr inspietât. Torne prove.
+subscription-cancellation-dialog-title = Nus displâs di vioditi lâ vie
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+subscription-cancellation-dialog-msg = Il to abonament a { $name } al è stât anulât. Tu podarâs distès acedi a { $name } fin ai { $date }.
+subscription-cancellation-dialog-aside = Âstu domandis? Visite il sît pal <LinkExternal>supuart di { -brand-mozilla }</LinkExternal>.
+subscription-content-button-resubscribe = Torne aboniti
+    .aria-label = Torne aboniti a { $productName }
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+subscription-content-resubscribe = Tu pierdarâs l’acès a { $name } ai <strong>{ $date }</strong>.
+# $name (String) - The name of the subscribed product.
+resubscribe-dialog-title = Desideristu continuâ a doprâ { $name }?
+
+## $name (String) - The name of the subscribed product.
+## $amount (Number) - The amount billed (excluding tax if tax does not exist). It will be formatted as currency.
+## $tax (Number) - The tax added on, not included in amount. It will be formatted as currency.
+## $endDate (Date) - The end date of the subscription period.
+
+resubscribe-dialog-content = Tu continuarâs a vê l'acès a { $name } e il cicli di faturazion e il paiament a restaran compagns. Il prossim adebit al sarà di { $amount } ai { $endDate }.
+
+##
+
+dialog-close = Siere dialic
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
