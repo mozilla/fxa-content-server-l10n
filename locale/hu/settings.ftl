@@ -761,6 +761,28 @@ modal-close-title = Bezárás
 modal-cancel-button = Mégse
 modal-default-confirm-button = Megerősítés
 
+## ModalMfaProtected
+
+modal-mfa-protected-title = Adja meg a megerősítő kódot
+modal-mfa-protected-subtitle = Segítsen nekünk megbizonyosodni, hogy megváltoztattuk-e a fiókadatait
+# This string is used to show a notification to the user for them to enter
+# email confirmation code to update their multi-factor-authentication-protected
+# account settings
+# Variables:
+#   email (String) - the user's email
+#   expirationTime (Number) - the expiration time in minutes
+modal-mfa-protected-instruction =
+    { $expirationTime ->
+        [one] Adja meg a(z) <email>{ $email }</email> címre küldött kódot { $expirationTime } percen belül.
+       *[other] Adja meg { $expirationTime } percen belül a(z) <email>{ $email }</email> címre küldött kódot.
+    }
+modal-mfa-protected-input-label = Adja meg a 6 számjegyű kódot
+modal-mfa-protected-cancel-button = Mégse
+modal-mfa-protected-confirm-button = Megerősítés
+modal-mfa-protected-code-expired = A kód lejárt?
+# Link to resend a new code to the user's email.
+modal-mfa-protected-resend-code-link = Új kód elküldése e-mailben.
+
 ## Modal Verify Session
 
 mvs-verify-your-email-2 = Erősítse meg az e-mail-címét

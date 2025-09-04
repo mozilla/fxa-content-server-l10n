@@ -771,6 +771,32 @@ modal-close-title = Cau
 modal-cancel-button = Diddymu
 modal-default-confirm-button = Cadarnhau
 
+## ModalMfaProtected
+
+modal-mfa-protected-title = Rhowch y cod dilysu
+modal-mfa-protected-subtitle = Helpwch ni i sicrhau mai chi sy'n newid gwybodaeth eich cyfrif
+# This string is used to show a notification to the user for them to enter
+# email confirmation code to update their multi-factor-authentication-protected
+# account settings
+# Variables:
+#   email (String) - the user's email
+#   expirationTime (Number) - the expiration time in minutes
+modal-mfa-protected-instruction =
+    { $expirationTime ->
+        [one] Rhowch y cod anfonwyd i <email>{ $email }</email> o fewn { $expirationTime } munud.
+        [zero] Rhowch y cod anfonwyd at <email>{ $email }</email> o fewn { $expirationTime } munud.
+        [two] Rhowch y cod anfonwyd at <email>{ $email }</email> o fewn { $expirationTime } munud.
+        [few] Rhowch y cod anfonwyd at <email>{ $email }</email> o fewn { $expirationTime } munud.
+        [many] Rhowch y cod anfonwyd at <email>{ $email }</email> o fewn { $expirationTime } munud.
+       *[other] Rhowch y cod anfonwyd at <email>{ $email }</email> o fewn { $expirationTime } munud.
+    }
+modal-mfa-protected-input-label = Rhowch y cod 6 digid
+modal-mfa-protected-cancel-button = Diddymu
+modal-mfa-protected-confirm-button = Cadarnhau
+modal-mfa-protected-code-expired = Cod wedi dod i ben?
+# Link to resend a new code to the user's email.
+modal-mfa-protected-resend-code-link = E-bostiwch cod newydd.
+
 ## Modal Verify Session
 
 mvs-verify-your-email-2 = Cadarnhewch eich e-bost

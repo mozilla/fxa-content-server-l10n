@@ -753,6 +753,28 @@ modal-close-title = Chiudi
 modal-cancel-button = Annulla
 modal-default-confirm-button = Conferma
 
+## ModalMfaProtected
+
+modal-mfa-protected-title = Inserisci il codice di conferma
+modal-mfa-protected-subtitle = Aiutaci a fare in modo che sia tu a modificare le informazioni del tuo account
+# This string is used to show a notification to the user for them to enter
+# email confirmation code to update their multi-factor-authentication-protected
+# account settings
+# Variables:
+#   email (String) - the user's email
+#   expirationTime (Number) - the expiration time in minutes
+modal-mfa-protected-instruction =
+    { $expirationTime ->
+        [one] Inserisci il codice che è stato inviato a <email>{ $email }</email> entro { $expirationTime } minuto.
+       *[other] Inserisci il codice che è stato inviato a <email>{ $email }</email> entro { $expirationTime } minuti.
+    }
+modal-mfa-protected-input-label = Inserisci il codice a 6 cifre
+modal-mfa-protected-cancel-button = Annulla
+modal-mfa-protected-confirm-button = Conferma
+modal-mfa-protected-code-expired = Codice scaduto?
+# Link to resend a new code to the user's email.
+modal-mfa-protected-resend-code-link = Invia email con nuovo codice.
+
 ## Modal Verify Session
 
 mvs-verify-your-email-2 = Conferma il tuo indirizzo email

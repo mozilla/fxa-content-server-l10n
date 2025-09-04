@@ -763,6 +763,29 @@ modal-close-title = Zavřít
 modal-cancel-button = Zrušit
 modal-default-confirm-button = Potvrdit
 
+## ModalMfaProtected
+
+modal-mfa-protected-title = Zadejte potvrzovací kód
+modal-mfa-protected-subtitle = Pomozte nám ujistit se, že je to vy, měnící informace ve svém účtu
+# This string is used to show a notification to the user for them to enter
+# email confirmation code to update their multi-factor-authentication-protected
+# account settings
+# Variables:
+#   email (String) - the user's email
+#   expirationTime (Number) - the expiration time in minutes
+modal-mfa-protected-instruction =
+    { $expirationTime ->
+        [one] Vložte kód, který vám byl během { $expirationTime } minuty zaslán na adresu <email>{ $email }</email>.
+        [few] Vložte kód, který vám byl během { $expirationTime } minut zaslán na adresu <email>{ $email }</email>.
+       *[other] Vložte kód, který vám byl během { $expirationTime } minut zaslán na adresu <email>{ $email }</email>.
+    }
+modal-mfa-protected-input-label = Zadejte šestimístný kód
+modal-mfa-protected-cancel-button = Zrušit
+modal-mfa-protected-confirm-button = Potvrdit
+modal-mfa-protected-code-expired = Platnost kódu vypršela?
+# Link to resend a new code to the user's email.
+modal-mfa-protected-resend-code-link = Zaslat e-mailem nový kód.
+
 ## Modal Verify Session
 
 mvs-verify-your-email-2 = Potvrďte svou e-mailovou adresu

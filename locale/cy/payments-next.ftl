@@ -108,6 +108,8 @@ subscription-management-button-add-payment-method-aria = Ychwanegu dull talu
 subscription-management-button-add-payment-method = Ychwanegu
 subscription-management-button-change-payment-method-aria = Newid dull talu
 subscription-management-button-change-payment-method = Newid
+subscription-management-button-manage-payment-method-aria = Rheoli dull talu
+subscription-management-button-manage-payment-method = Rheoli
 # $last4 (String) - Last four numbers of credit card
 subscription-management-card-ending-in = Cerdyn yn gorffen gyda { $last4 }
 # $expirationDate (Date) - Payment card's expiration date
@@ -138,6 +140,10 @@ subscription-management-page-subscription-interval-weekly = { $productName } (wy
 subscription-management-page-subscription-interval-monthly = { $productName } (misol)
 subscription-management-page-subscription-interval-halfyearly = { $productName } (6-misol)
 subscription-management-page-subscription-interval-yearly = { $productName } (blynyddol)
+subscription-management-page-paypal-error-banner = Gwybodaeth talu annilys; mae gwall gyda'ch cyfrif.
+subscription-management-page-paypal-error-banner-link = Rheoli
+paypal-payment-management-page-invalid-header = Manylion bilio annilys
+paypal-payment-management-page-invalid-description = Mae'n ymddangos bod gwall gyda'ch cyfrif { -brand-paypal }. Mae angen i chi gymryd y camau angenrheidiol i ddatrys y mater talu hwn.
 # Page - Not Found
 page-not-found-title = Heb ganfod y dudalen
 page-not-found-description = Heb ganfod y dudalen rydych wedi gofyn amdani. Rydym wedi cael ein hysbysu a byddwn yn trwsio unrhyw ddolenni all fod wedi'u torri.

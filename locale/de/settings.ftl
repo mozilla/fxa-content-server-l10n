@@ -755,6 +755,28 @@ modal-close-title = Schließen
 modal-cancel-button = Abbrechen
 modal-default-confirm-button = Bestätigen
 
+## ModalMfaProtected
+
+modal-mfa-protected-title = Bestätigungscode eingeben
+modal-mfa-protected-subtitle = Helfen Sie uns, sicherzustellen, dass Sie Ihre Kontodaten ändern
+# This string is used to show a notification to the user for them to enter
+# email confirmation code to update their multi-factor-authentication-protected
+# account settings
+# Variables:
+#   email (String) - the user's email
+#   expirationTime (Number) - the expiration time in minutes
+modal-mfa-protected-instruction =
+    { $expirationTime ->
+        [one] Geben Sie innerhalb von { $expirationTime } Minute den Code ein, der an <email>{ $email }</email> gesendet wurde.
+       *[other] Geben Sie innerhalb von { $expirationTime } Minuten den Code ein, der an <email>{ $email }</email> gesendet wurde.
+    }
+modal-mfa-protected-input-label = 6-stelligen Code eingeben
+modal-mfa-protected-cancel-button = Abbrechen
+modal-mfa-protected-confirm-button = Bestätigen
+modal-mfa-protected-code-expired = Code abgelaufen?
+# Link to resend a new code to the user's email.
+modal-mfa-protected-resend-code-link = Neuen Code per E-Mail senden.
+
 ## Modal Verify Session
 
 mvs-verify-your-email-2 = Ihre E-Mail-Adresse bestätigen

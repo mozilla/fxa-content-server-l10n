@@ -108,6 +108,8 @@ subscription-management-button-add-payment-method-aria = Přidat platební metod
 subscription-management-button-add-payment-method = Přidat
 subscription-management-button-change-payment-method-aria = Změna způsobu platby
 subscription-management-button-change-payment-method = Změnit
+subscription-management-button-manage-payment-method-aria = Správa platební metody
+subscription-management-button-manage-payment-method = Správa
 # $last4 (String) - Last four numbers of credit card
 subscription-management-card-ending-in = Karta končící na { $last4 }
 # $expirationDate (Date) - Payment card's expiration date
@@ -138,6 +140,10 @@ subscription-management-page-subscription-interval-weekly = { $productName } (t�
 subscription-management-page-subscription-interval-monthly = { $productName } (měsíčně)
 subscription-management-page-subscription-interval-halfyearly = { $productName } (6 měsíců)
 subscription-management-page-subscription-interval-yearly = { $productName } (ročně)
+subscription-management-page-paypal-error-banner = Neplatné platební údaje; u vašeho účtu došlo k chybě.
+subscription-management-page-paypal-error-banner-link = Správa
+paypal-payment-management-page-invalid-header = Neplatné platební údaje
+paypal-payment-management-page-invalid-description = Zdá se, že ve vašem účtu { -brand-paypal } došlo k chybě. Je potřeba, abyste podnikli nezbytné kroky k vyřešení tohoto problému s platbou.
 # Page - Not Found
 page-not-found-title = Stránka nenalezena
 page-not-found-description = Požadovaná stránka nebyla nalezena. Byli jsme upozorněni a všechny odkazy, které mohou být nefunkční, opravíme.

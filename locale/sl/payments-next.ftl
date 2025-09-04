@@ -108,6 +108,8 @@ subscription-management-button-add-payment-method-aria = Dodaj način plačila
 subscription-management-button-add-payment-method = Dodaj
 subscription-management-button-change-payment-method-aria = Spremeni način plačila
 subscription-management-button-change-payment-method = Spremeni
+subscription-management-button-manage-payment-method-aria = Upravljanje načina plačila
+subscription-management-button-manage-payment-method = Upravljaj
 # $last4 (String) - Last four numbers of credit card
 subscription-management-card-ending-in = Kartica, ki se končuje s { $last4 }
 # $expirationDate (Date) - Payment card's expiration date
@@ -136,6 +138,10 @@ subscription-management-page-subscription-interval-weekly = { $productName } (te
 subscription-management-page-subscription-interval-monthly = { $productName } (mesečno)
 subscription-management-page-subscription-interval-halfyearly = { $productName } (na 6 mesecev)
 subscription-management-page-subscription-interval-yearly = { $productName } (letno)
+subscription-management-page-paypal-error-banner = neveljavne podatke o plačilu; prišlo je do napake z vašim računom.
+subscription-management-page-paypal-error-banner-link = Upravljaj
+paypal-payment-management-page-invalid-header = Neveljavni podatki za obračun
+paypal-payment-management-page-invalid-description = Videti je, da je prišlo do napake z vašim računom { -brand-paypal }. Uresničite vse potrebne ukrepe za razrešitev težave s plačilom.
 # Page - Not Found
 page-not-found-title = Strani ni mogoče najti
 page-not-found-description = Zahtevane strani ni bilo mogoče najti. O tem smo obvestili skrbnike, ki bodo odpravili morebitne nedelujoče povezave.

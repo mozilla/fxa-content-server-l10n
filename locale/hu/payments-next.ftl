@@ -110,6 +110,8 @@ subscription-management-button-add-payment-method-aria = Fizetési mód hozzáad
 subscription-management-button-add-payment-method = Hozzáadás
 subscription-management-button-change-payment-method-aria = Fizetési mód módosítása
 subscription-management-button-change-payment-method = Módosítás
+subscription-management-button-manage-payment-method-aria = Fizetési mód kezelése
+subscription-management-button-manage-payment-method = Kezelés
 # $last4 (String) - Last four numbers of credit card
 subscription-management-card-ending-in = { $last4 } végződésű kártya
 # $expirationDate (Date) - Payment card's expiration date
@@ -140,6 +142,10 @@ subscription-management-page-subscription-interval-weekly = { $productName } (he
 subscription-management-page-subscription-interval-monthly = { $productName } (havonta)
 subscription-management-page-subscription-interval-halfyearly = { $productName } (6 hónapos)
 subscription-management-page-subscription-interval-yearly = { $productName } (évente)
+subscription-management-page-paypal-error-banner = Érvénytelen fizetési információk; hiba van a fiókjával.
+subscription-management-page-paypal-error-banner-link = Kezelés
+paypal-payment-management-page-invalid-header = Érvénytelen számlázási információk
+paypal-payment-management-page-invalid-description = Úgy tűnik, hogy hiba lépett fel a(z) { -brand-paypal } fiókjával. Meg kell tennie a szükséges lépéseket a fizetési probléma megoldásához.
 # Page - Not Found
 page-not-found-title = Az oldal nem található
 page-not-found-description = A kért oldal nem található. Értesítést kaptunk, és kijavítunk minden, esetleg hibás hivatkozást.

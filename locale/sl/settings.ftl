@@ -765,6 +765,30 @@ modal-close-title = Zapri
 modal-cancel-button = Prekliči
 modal-default-confirm-button = Potrdi
 
+## ModalMfaProtected
+
+modal-mfa-protected-title = Vnesite potrditveno kodo
+modal-mfa-protected-subtitle = Pomagajte nam preveriti, da ste vi spremenili podatke o računu
+# This string is used to show a notification to the user for them to enter
+# email confirmation code to update their multi-factor-authentication-protected
+# account settings
+# Variables:
+#   email (String) - the user's email
+#   expirationTime (Number) - the expiration time in minutes
+modal-mfa-protected-instruction =
+    { $expirationTime ->
+        [one] Vnesite kodo, ki je bila poslana na <email>{ $email }</email>, v { $expirationTime } minuti.
+        [two] Vnesite kodo, ki je bila poslana na <email>{ $email }</email>, v { $expirationTime } minutah.
+        [few] Vnesite kodo, ki je bila poslana na <email>{ $email }</email>, v { $expirationTime } minutah.
+       *[other] Vnesite kodo, ki je bila poslana na <email>{ $email }</email>, v { $expirationTime } minutah.
+    }
+modal-mfa-protected-input-label = Vnesite 6-mestno kodo
+modal-mfa-protected-cancel-button = Prekliči
+modal-mfa-protected-confirm-button = Potrdi
+modal-mfa-protected-code-expired = Je koda potekla?
+# Link to resend a new code to the user's email.
+modal-mfa-protected-resend-code-link = Pošlji novo kodo.
+
 ## Modal Verify Session
 
 mvs-verify-your-email-2 = Potrdite e-poštni naslov
