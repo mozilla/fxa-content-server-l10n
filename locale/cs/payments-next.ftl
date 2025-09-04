@@ -117,7 +117,7 @@ subscription-management-your-subscriptions-aria = Vaše předplatné
 subscription-management-no-subscriptions = Zatím nemáte žádná předplatná
 subscription-management-button-support = Získat pomoc
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscription-management-button-support-aria = Získat pomoc za { $productName }
+subscription-management-button-support-aria = Získat pomoc pro { $productName }
 subscription-management-your-apple-iap-subscriptions-aria = Vaše předplatná v aplikaci { -brand-apple }
 subscription-management-apple-in-app-purchase = { -brand-apple }: Nákup v aplikaci
 subscription-management-your-google-iap-subscriptions-aria = Vaše předplatná v aplikaci { -brand-google }
