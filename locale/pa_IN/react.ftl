@@ -2,6 +2,8 @@
 
 app-general-err-heading = ਆਮ ਐਪਲੀਕੇਸ਼ਨ ਗਲਤੀ
 app-general-err-message = ਕੁਝ ਗਲਤ ਵਾਪਰਿਆ ਹੈ। ਬਾਅਦ ਵਿੱਚ ਮੁੜ ਕੋਸ਼ਿਸ਼ ਕਰੋ।
+# Specific handling for issues when bad or missing query parameters are detected
+app-query-parameter-err-heading = ਗਲਤ ਬੇਨਤੀ: ਗ਼ੈਰ-ਵਾਜਬ ਕਿਊਰੀ ਪੈਰਾਮੀਟਰ
 
 ## FxA React - Strings shared between multiple FxA products for application footer
 

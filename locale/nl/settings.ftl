@@ -756,6 +756,27 @@ modal-close-title = Sluiten
 modal-cancel-button = Annuleren
 modal-default-confirm-button = Bevestigen
 
+## ModalMfaProtected
+
+modal-mfa-protected-title = Voer bevestigingscode in
+# This string is used to show a notification to the user for them to enter
+# email confirmation code to update their multi-factor-authentication-protected
+# account settings
+# Variables:
+#   email (String) - the user's email
+#   expirationTime (Number) - the expiration time in minutes
+modal-mfa-protected-instruction =
+    { $expirationTime ->
+        [one] Voer binnen { $expirationTime } minuut de code in die naar <email>{ $email }</email> is verzonden.
+       *[other] Voer binnen { $expirationTime } minuten de code in die naar <email>{ $email }</email> is verzonden.
+    }
+modal-mfa-protected-input-label = Voer 6-cijferige code in
+modal-mfa-protected-cancel-button = Annuleren
+modal-mfa-protected-confirm-button = Bevestigen
+modal-mfa-protected-code-expired = Code verlopen?
+# Link to resend a new code to the user's email.
+modal-mfa-protected-resend-code-link = Nieuwe code versturen per e-mail.
+
 ## Modal Verify Session
 
 mvs-verify-your-email-2 = Bevestig uw e-mailadres

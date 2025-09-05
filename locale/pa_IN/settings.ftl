@@ -87,6 +87,31 @@ datablock-copy =
 datablock-print =
     .message = ਪਰਿੰਟ ਕੀਤਾ
 
+## Success banners for datablock actions.
+## $count – number of codes
+
+datablock-copy-success =
+    { $count ->
+        [one] ਕੋਡ ਕਾਪੀ ਕੀਤਾ
+       *[other] ਕੋਡ ਕਾਪੀ ਕੀਤੇ
+    }
+datablock-download-success =
+    { $count ->
+        [one] ਕੋਡ ਡਾਊਨਲੋਡ ਕੀਤਾ
+       *[other] ਕੋਡ ਡਾਊਨਲੋਡ ਕੀਤੇ
+    }
+datablock-print-success =
+    { $count ->
+        [one] ਕੋਡ ਪਰਿੰਟ ਕੀਤਾ
+       *[other] ਕੋਡ ਪਰਿੰਟ ਕੀਤੇ
+    }
+
+##
+
+# Tooltip notification when an account recovery key or one-time use code is copied.
+datablock-inline-copy =
+    .message = ਕਾਪੀ ਕੀਤਾ
+
 ## DeviceInfoBlock component
 ## The strings here are used to display information about the origin of activity happening on a user's account
 ## For example, when connecting another device to the user's account
@@ -124,6 +149,10 @@ form-password-with-inline-criteria-reset-new-password =
 form-password-with-inline-criteria-confirm-password =
     .label = ਪਾਸਵਰਡ ਨੂੰ ਤਸਦੀਕ ਕਰੋ
 form-password-with-inline-criteria-reset-submit-button = ਨਵਾਂ ਪਾਸਵਰਡ ਬਣਾਓ
+form-password-with-inline-criteria-set-password-new-password-label =
+    .label = ਪਾਸਵਰਡ
+form-password-with-inline-criteria-set-password-confirm-password-label =
+    .label = ਪਾਸਵਰਡ ਦੁਹਰਾਓ
 form-password-with-inline-criteria-match-error = ਪਾਸਵਰਡ ਮਿਲਦੇ ਨਹੀਂ ਹਨ
 form-password-with-inline-criteria-sr-too-short-message = ਪਾਸਵਰਡ ਘੱਟੋ-ਘੱਟ 8 ਅੱਖਰਾਂ ਦਾ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ।
 form-password-with-inline-criteria-sr-not-email-message = ਪਾਸਵਰਡ ਤੁਹਾਡਾ ਈਮੇਲ ਸਿਰਨਾਵਾਂ ਨਹੀਂ ਰੱਖਦਾ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ।

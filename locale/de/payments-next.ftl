@@ -141,7 +141,6 @@ subscription-management-page-subscription-interval-monthly = { $productName } (m
 subscription-management-page-subscription-interval-halfyearly = { $productName } (sechs Monate)
 subscription-management-page-subscription-interval-yearly = { $productName } (jährlich)
 subscription-management-page-paypal-error-banner = Ungültige Zahlungsinformationen; Es gibt ein Problem mit Ihrem Konto.
-subscription-management-page-paypal-error-banner-link = Verwalten
 paypal-payment-management-page-invalid-header = Ungültige Zahlungsinformationen
 paypal-payment-management-page-invalid-description = Es scheint ein Problem mit Ihrem { -brand-paypal }-Konto zu bestehen. Sie müssen die erforderlichen Schritte ausführen, um dieses Zahlungsproblem zu lösen.
 # Page - Not Found
