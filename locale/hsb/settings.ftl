@@ -765,6 +765,29 @@ modal-close-title = Začinić
 modal-cancel-button = Přetorhnyć
 modal-default-confirm-button = Wobkrućić
 
+## ModalMfaProtected
+
+modal-mfa-protected-title = Wobkrućenski kod zapodać
+# This string is used to show a notification to the user for them to enter
+# email confirmation code to update their multi-factor-authentication-protected
+# account settings
+# Variables:
+#   email (String) - the user's email
+#   expirationTime (Number) - the expiration time in minutes
+modal-mfa-protected-instruction =
+    { $expirationTime ->
+        [one] Zapodajće kod, kotryž je so za { $expirationTime } mjeńšinu na <email>{ $email }</email> pósłał.
+        [two] Zapodajće kod, kotryž je so za { $expirationTime } mjeńšinje na <email>{ $email }</email> pósłał.
+        [few] Zapodajće kod, kotryž je so za { $expirationTime } mjeńšiny na <email>{ $email }</email> pósłał.
+       *[other] Zapodajće kod, kotryž je so za { $expirationTime } mjeńšin na <email>{ $email }</email> pósłał.
+    }
+modal-mfa-protected-input-label = 6-městnowy kod zapodać
+modal-mfa-protected-cancel-button = Přetorhnyć
+modal-mfa-protected-confirm-button = Wobkrućić
+modal-mfa-protected-code-expired = Je kod spadnył?
+# Link to resend a new code to the user's email.
+modal-mfa-protected-resend-code-link = Nowy kod přez e-mejl pósłać.
+
 ## Modal Verify Session
 
 mvs-verify-your-email-2 = Wobkrućće swoju e-mejlowu adresu

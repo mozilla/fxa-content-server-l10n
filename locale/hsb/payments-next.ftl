@@ -111,6 +111,8 @@ subscription-management-button-add-payment-method-aria = Płaćensku metodu při
 subscription-management-button-add-payment-method = Přidać
 subscription-management-button-change-payment-method-aria = Płaćensku metodu změnić
 subscription-management-button-change-payment-method = Změnić
+subscription-management-button-manage-payment-method-aria = Płaćensku metodu rjadować
+subscription-management-button-manage-payment-method = Rjadować
 # $last4 (String) - Last four numbers of credit card
 subscription-management-card-ending-in = Karta, kotraž so na { $last4 } kónči
 # $expirationDate (Date) - Payment card's expiration date
@@ -141,6 +143,10 @@ subscription-management-page-subscription-interval-weekly = { $productName } (k�
 subscription-management-page-subscription-interval-monthly = { $productName } (kóždy měsac)
 subscription-management-page-subscription-interval-halfyearly = { $productName } (6-měsacny)
 subscription-management-page-subscription-interval-yearly = { $productName } (kóžde lěto)
+subscription-management-page-paypal-error-banner = Njepłaćiwe płaćenske informacije; je zmylk z wašim kontom.
+subscription-management-page-paypal-error-banner-link = Rjadować
+paypal-payment-management-page-invalid-header = Njepłaćiwe wotličenske informacije
+paypal-payment-management-page-invalid-description = Zda so, zo je zmylk z wašim kontom { -brand-paypal }. Dyrbimy trěbne kroki přewjesć, zo bychmy tutón płaćenski problem rozrisali.
 # Page - Not Found
 page-not-found-title = Strona njeje so namakała
 page-not-found-description = Strona, kotruž sće požadał, njeje so namakała. Smy powěsć dóstali a porjedźimy skóncowane wotkazy.
