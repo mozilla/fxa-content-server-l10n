@@ -385,6 +385,9 @@ postAddTwoStepAuthentication-title-2 = ਤੁਸੀਂ ਦੋ-ਪੜ੍ਹਾਵ
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postAddTwoStepAuthentication-from-device-v2 = ਇਸ ਤੋਂ ਤੁਸੀਂ ਬੇਨਤੀ ਕੀਤੀ ਸੀ:
 postAddTwoStepAuthentication-action = ਖਾਤੇ ਦਾ ਇੰਤਜ਼ਾਮ ਕਰੋ
+postAddTwoStepAuthentication-recovery-method-codes = ਤੁਸੀਂ ਆਪਣੇ ਰਿਕਵਰੀ ਢੰਗ ਵਜੋਂ ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਨੂੰ ਵੀ ਜੋੜਿਆ ਹੈ।
+postAddTwoStepAuthentication-how-protects-link = ਇਹ ਤੁਹਾਡੇ ਖਾਤੇ ਨੂੰ ਸੁਰੱਖਿਅਤ ਕਿਵੇਂ ਕਰਦਾ ਹੈ
+postAddTwoStepAuthentication-how-protects-plaintext = ਇਹ ਤੁਹਾਡੇ ਖਾਤੇ ਨੂੰ ਸੁਰੱਖਿਅਤ ਕਿਵੇਂ ਕਰਦਾ ਹੈ:
 postChangeAccountRecovery-subject = ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਬਦਲੀ ਗਈ
 postChangeAccountRecovery-title = ਤੁਸੀਂ ਆਪਣੀ ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਨੂੰ ਬਦਲਿਆ ਹੈ
 postChangeAccountRecovery-body-part1 = ਤੁਹਾਡੇ ਕੋਲ ਨਵੀਂ ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਹੈ। ਤੁਹਾਡੀ ਪੁਰਾਣੀ ਕੁੰਜੀ ਨੂੰ ਹਟਾਇਆ ਗਿਆ ਹੈ।
@@ -398,7 +401,21 @@ postChangeRecoveryPhone-preview = ਖਾਤਾ ਦੋ-ਪੜ੍ਹਾਵੀਂ �
 postChangeRecoveryPhone-title = ਤੁਸੀਂ ਆਪਣੇ ਰਿਕਵਰੀ ਫ਼ੋਨ ਨੂੰ ਬਦਲਿਆ ਹੈ
 postChangeRecoveryPhone-description = ਤੁਹਾਡੇ ਕੋਲ ਹੁਣ ਨਵਾਂ ਰਿਕਵਰੀ ਫ਼ੋਨ ਨੰਬਰ ਹੈ। ਤੁਹਾਡਾ ਪੁਰਾਣਾ ਫ਼ੋਨ ਨੰਬਰ ਹਟਾਇਆ ਗਿਆ ਸੀ।
 postChangeRecoveryPhone-requested-device = ਤੁਸੀ ਇਸ ਨੂੰ ਇੱਥੋਂ ਬੇਨਤੀ ਕੀਤੀ ਸੀ:
+postChangeTwoStepAuthentication-preview = ਤੁਹਾਡਾ ਖਾਤਾ ਸੁਰੱਖਿਅਤ ਹੈ
+postChangeTwoStepAuthentication-subject = ਦੋ-ਪੜਾਵੀਂ ਪਰਮਾਣਕਿਤਾ ਨੂੰ ਅੱਪਡੇਟ ਕੀਤਾ ਗਿਆ
+postChangeTwoStepAuthentication-title = ਦੋ-ਪੜਾਵੀਂ ਪਰਮਾਣਕਿਤਾ ਨੂੰ ਅੱਪਡੇਟ ਕੀਤਾ ਗਿਆ ਹੈ
+# After the colon, there is a description of the device that the user used to enable two-step authentication
+postChangeTwoStepAuthentication-from-device = ਇਸ ਤੋਂ ਤੁਸੀਂ ਬੇਨਤੀ ਕੀਤੀ ਸੀ:
+postChangeTwoStepAuthentication-action = ਖਾਤੇ ਦਾ ਇੰਤਜ਼ਾਮ ਕਰੋ
+postChangeTwoStepAuthentication-how-protects-link = ਇਹ ਤੁਹਾਡੇ ਖਾਤੇ ਨੂੰ ਸੁਰੱਖਿਅਤ ਕਿਵੇਂ ਕਰਦਾ ਹੈ
+postChangeTwoStepAuthentication-how-protects-plaintext = ਇਹ ਤੁਹਾਡੇ ਖਾਤੇ ਨੂੰ ਸੁਰੱਖਿਅਤ ਕਿਵੇਂ ਕਰਦਾ ਹੈ:
+postConsumeRecoveryCode-title-3 = ਤੁਹਾਡੇ ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਨੂੰ ਪਾਸਵਰਡ ਮੁੜ-ਸੈੱਟ ਕਰਨ ਦੌਰਾਨ ਤਸਦੀਕ ਕਰਨ ਲਈ ਵਰਤਿਆ ਜਾਂਦਾ ਹੈ
+# After the colon, there is description of the device that the backup authentication code was used on
+# E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
+postConsumeRecoveryCode-description-3 = ਇਸ ਤੋਂ ਕੋਡ ਵਰਤਿਆ:
 postConsumeRecoveryCode-action = ਖਾਤੇ ਦਾ ਇੰਤਜ਼ਾਮ ਕਰੋ
+postConsumeRecoveryCode-subject-v3 = ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਵਰਤਿਆ
+postConsumeRecoveryCode-preview = ਜਾਂਚ ਕਿ ਇਹ ਤੁਸੀਂ ਹੀ ਸੀ
 postNewRecoveryCodes-subject-2 = ਨਵੇਂ ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਬਣਾਏ
 postNewRecoveryCodes-title-2 = ਤੁਸੀਂ ਨਵੇਂ ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਬਣਾਏ
 # After the colon, there is information about the device that the authentication codes were created on
@@ -454,6 +471,11 @@ recovery-action = ਨਵਾਂ ਪਾਸਵਰਡ ਬਣਾਓ
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountDeletion-subject = ਤੁਹਾਡੀ { $productName } ਮੈਂਬਰੀ ਨੂੰ ਰੱਦ ਕੀਤਾ ਜਾ ਚੁੱਕਾ ਹੈ
 subscriptionAccountDeletion-title = ਤੁਹਾਡੇ ਛੱਡਣ ਲਈ ਅਫ਼ਸੋਸ ਹੈ
+#  Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+#  $invoiceTotal (String) - The amount of the subscription invoice, including currency, e.g. $10.00
+#  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
+subscriptionAccountDeletion-content-cancelled-2 = ਤੁਸੀਂ ਆਪਣੇ { -product-mozilla-account } ਨੂੰ ਹੁਣੇ ਹਟਾਇਆ ਹੈ। ਨਤੀਜੇ ਵਜੋਂ ਅਸੀਂ ਤੁਹਾਡੀ { $productName } ਮੈਂਬਰੀ ਰੱਦ ਕਰ ਦਿੱਤੀ ਹੈ। { $invoiceTotal } ਦਾ ਤੁਹਾਡਾ ਆਖਰੀ ਭੁਗਤਾਨ { $invoiceDateOnly } ਨੂੰ ਕੀਤਾ ਗਿਆ ਸੀ।
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionAccountFinishSetup-subject = { $productName } ਲਈ ਜੀ ਆਇਆਂ ਨੂੰ: ਆਪਣਾ ਪਾਸਵਰਡ ਸੈੱਟ ਅੱਪ ਕਰੋ।
@@ -512,6 +534,9 @@ subscriptionPaymentFailed-subject = { $productName } ਭੁਗਤਾਨ ਅਸ�
 subscriptionPaymentFailed-title = ਅਫ਼ਸੋਸ ਹੈ ਕਿ ਸਾਨੂੰ ਤੁਹਾਡੇ ਭੁਗਤਾਨ ਨਾਲ ਸਮੱਸਿਆ ਆ ਰਹੀ ਹੈ
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentFailed-content-problem = ਸਾਨੂੰ { $productName } ਲਈ ਤੁਹਾਡੇ ਨਵੇਂ ਭੁਗਤਾਨ ਨਾਲ ਸਮੱਸਿਆ ਆਈ ਸੀ।
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-subject = { $productName } ਲਈ ਭੁਗਤਾਨ ਜਾਣਕਾਰੀ ਅੱਪਡੇਟ ਕਰਨ ਦੀ ਲੋੜ ਹੈ
 subscriptionPaymentProviderCancelled-title = ਅਫ਼ਸੋਸ ਹੈ ਕਿ ਸਾਨੂੰ ਤੁਹਾਡੇ ਭੁਗਤਾਨ ਢੰਗ ਨਾਲ ਸਮੱਸਿਆ ਆ ਰਹੀ ਹੈ
 # Variables:
@@ -531,6 +556,8 @@ subscriptionRenewalReminder-content-closing = ਤਹਿ ਦਿਲੋਂ,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = { $productName } ਟੀਮ
+subscriptionReplaced-title = ਤੁਹਾਡੀ ਮੈਂਬਰੀ ਨੂੰ ਅੱਪਡੇਟ ਕੀਤਾ ਜਾ ਚੁੱਕਿਆ ਹੈ
+subscriptionReplaced-content-no-action = ਤੁਹਾਡੇ ਵਲੋਂ ਕਿਸੇ ਵੀ ਕਾਰਵਾਈ ਦੀ ਲੋੜ ਨਹੀਂ ਹੈ।
 subscriptionsPaymentProviderCancelled-subject = { -brand-mozilla } ਮੈਂਬਰੀਆਂ ਲਈ ਭੁਗਤਾਨ ਜਾਣਕਾਰੀ ਅੱਪਡੇਟ ਕਰਨ ਦੀ ਲੋੜ ਹੈ
 subscriptionsPaymentProviderCancelled-title = ਅਫ਼ਸੋਸ ਹੈ ਕਿ ਸਾਨੂੰ ਤੁਹਾਡੇ ਭੁਗਤਾਨ ਢੰਗ ਨਾਲ ਸਮੱਸਿਆ ਆ ਰਹੀ ਹੈ
 # Variables:
