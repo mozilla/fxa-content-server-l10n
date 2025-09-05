@@ -760,6 +760,17 @@ modal-default-confirm-button = Stadfest
 ## ModalMfaProtected
 
 modal-mfa-protected-title = Skriv inn stadfestingskode
+# This string is used to show a notification to the user for them to enter
+# email confirmation code to update their multi-factor-authentication-protected
+# account settings
+# Variables:
+#   email (String) - the user's email
+#   expirationTime (Number) - the expiration time in minutes
+modal-mfa-protected-instruction =
+    { $expirationTime ->
+        [one] Skriv inn koden som vart sendt til <email>{ $email }</email> innan { $expirationTime } minutt.
+       *[other] Skriv inn koden som vart sendt til <email>{ $email }</email> innan { $expirationTime } minutt.
+    }
 modal-mfa-protected-input-label = Skriv inn 6-sifra kode
 modal-mfa-protected-cancel-button = Avbryt
 modal-mfa-protected-confirm-button = Stadfest
