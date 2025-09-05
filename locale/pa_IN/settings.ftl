@@ -153,6 +153,7 @@ form-password-with-inline-criteria-set-password-new-password-label =
     .label = ਪਾਸਵਰਡ
 form-password-with-inline-criteria-set-password-confirm-password-label =
     .label = ਪਾਸਵਰਡ ਦੁਹਰਾਓ
+form-password-with-inline-criteria-set-password-submit-button = ਸਿੰਕ ਕਰਨਾ ਸ਼ੁਰੂ ਕਰੋ
 form-password-with-inline-criteria-match-error = ਪਾਸਵਰਡ ਮਿਲਦੇ ਨਹੀਂ ਹਨ
 form-password-with-inline-criteria-sr-too-short-message = ਪਾਸਵਰਡ ਘੱਟੋ-ਘੱਟ 8 ਅੱਖਰਾਂ ਦਾ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ।
 form-password-with-inline-criteria-sr-not-email-message = ਪਾਸਵਰਡ ਤੁਹਾਡਾ ਈਮੇਲ ਸਿਰਨਾਵਾਂ ਨਹੀਂ ਰੱਖਦਾ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ।
@@ -265,8 +266,22 @@ security-shield-aria-label =
 # Used for an image of a single key.
 recovery-key-image-aria-label =
     .aria-label = ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਦਰਸਾਉਣ ਵਾਸਤੇ ਮਿਸਾਲ ਹੈ।
+password-image-aria-label =
+    .aria-label = ਪਾਸਵਰਡ ਲਿਖਣ ਨੂੰ ਦਰਸਾਉਂਦੀ ਹੋਈ ਉਦਾਹਰਨ ਹੈ।
+lightbulb-aria-label =
+    .aria-label = ਸਟੋਰੇਜ਼ ਸੰਕੇਤ ਬਣਾਉਣ ਨੂੰ ਦਰਸਾਉਂਦੀ ਹੋਈ ਉਦਾਹਰਨ।
+email-code-image-aria-label =
+    .aria-label = ਕੋਡ ਰੱਖਣ ਵਾਲੀ ਈਮੇਲ ਨੂੰ ਦਰਸਾਉਂਦੀ ਹੋਈ ਉਦਾਹਰਨ।
+recovery-phone-image-description =
+    .aria-label = ਮੋਬਾਈਲ ਡਿਵਾਈਸ, ਜਿਸ ਉੱਤੇ ਟੈਕਸਟ ਸੁਨੇਹੇ ਰਾਹੀਂ ਕੋਡ ਪ੍ਰਾਪਤ ਕੀਤਾ।
+recovery-phone-code-image-description =
+    .aria-label = ਮੋਬਾਈਲ ਡਿਵਾਈਸ ਉੱਤੇ ਕੋਡ ਮਿਲਿਆ।
+backup-recovery-phone-image-aria-label =
+    .aria-label = SMS ਲਿਖਤ ਸੁਨੇਹੇ ਲੈਣ ਵਾਲਾ ਮੋਬਾਈਲ ਡਿਵਾਈਸ
 backup-authentication-codes-image-aria-label =
     .aria-label = ਕੋਡਾਂ ਨਾਲ ਡਿਵਾਈਸ ਸਕਰੀਨ
+sync-clouds-image-aria-label =
+    .aria-label = ਸਿੰਕ ਆਈਕਾਨ ਨਾਲ ਕਲਾਉਡ
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -340,6 +355,7 @@ confirmation-link-reused-message = ਇਹ ਪੁਸ਼ਟੀ ਲਿੰਕ ਪਹ
 
 ## Locale Toggle Component
 
+locale-toggle-select-label = ਭਾਸ਼ਾ ਨੂੰ ਚੁਣੋ
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = ਖ਼ਰਾਬ ਬੇਨਤੀ
 
@@ -352,15 +368,21 @@ password-info-balloon-reset-risk-info = ਮੁੜ-ਸੈੱਟ ਕਰਨ ਦਾ 
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password
 
+password-strength-short-instruction = ਕੋਈ ਮਜ਼ਬੂਤ ਪਾਸਵਰਡ ਚੁਣੋ:
 password-strength-inline-min-length = ਘੱਟੋ-ਘੱਟ 8 ਅੱਖਰ
 password-strength-inline-not-email = ਤੁਹਾਡਾ ਈਮੇਲ ਸਿਰਨਾਵਾਂ ਨਹੀਂ ਹੈ
 password-strength-inline-not-common = ਕੋਈ ਆਮ ਵਰਤਿਆ ਪਾਸਵਰਡ ਨਹੀਂ ਹੈ
 password-strength-inline-confirmed-must-match = ਨਵੇਂ ਪਾਸਵਰਡ ਮਿਲਦੇ ਹੋਣ ਦੀ ਤਸਦੀਕ
+password-strength-inline-passwords-match = ਪਾਸਵਰਡ ਮਿਲਦੇ ਹਨ
 
 ## Notification Promo Banner component
 
 account-recovery-notification-cta = ਬਣਾਓ
 account-recovery-notification-header-value = ਜੇ ਤੁਸੀਂ ਆਪਣਾ ਪਾਸਵਰਡ ਭੁੱਲ ਜਾਓ ਤਾਂ ਆਪਣਾ ਡਾਟਾ ਨਾ ਗੁਆਓ
+recovery-phone-promo-cta = ਰਿਕਵਰੀ ਫ਼ੋਨ ਨੂੰ ਜੋੜੋ
+recovery-phone-promo-heading = ਰਿਕਵਰੀ ਫ਼ੋਨ ਨਾਲ ਆਪਣੇ ਖਾਤੇ ਵਿੱਚ ਵਾਧੂ ਸੁਰੱਖਿਆ ਜੋੜੋ
+promo-banner-dismiss-button =
+    .aria-label = ਬੈਨਰ ਨੂੰ ਖ਼ਾਰਜ ਕਰੋ
 
 ## Ready component
 
@@ -416,6 +438,8 @@ password-reset-chevron-expanded = ਸਮੇਟਣ ਦੀ ਚੇਤਾਵਨੀ
 password-reset-chevron-collapsed = ਫੈਲਾਓ ਦੀ ਚੇਤਾਵਨੀ
 password-reset-data-may-not-be-recovered = ਸ਼ਾਇਦ ਤੁਹਾਡੇ ਬਰਾਊਜ਼ਰ ਡਾਟੇ ਨੂੰ ਰਿਕਵਰ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਦਾ
 password-reset-previously-signed-in-device-2 = ਕੋਈ ਡਿਵਾਈਸ ਹੈ, ਜਿਸ ਉੱਤੇ ਤੁਸੀਂ ਪਹਿਲਾਂ ਸਾਈਨ ਇਨ ਕੀਤਾ ਸੀ?
+password-reset-no-old-device-2 = ਨਵਾਂ ਡਿਵਾਈਸ ਤਾਂ ਹੈ, ਪਰ ਤੁਹਾਡੇ ਕੋਲ ਕਿਸੇ ਪੁਰਾਣੇ ਲਈ ਪਹੁੰਚ ਨਹੀਂ ਹੈ?
+password-reset-encrypted-data-cannot-be-recovered-2 = ਸਾਨੂੰ ਅਫ਼ਸੋਸ ਹੈ, ਪਰ { -brand-firefox } ਸਰਵਰਾਂ ਉੱਤੇ ਤੁਹਾਡੇ ਇੰਕ੍ਰਿਪਟ ਹੋਏ ਬਰਾਊਜ਼ਰ ਡਾਟਾ ਨੂੰ ਬਹਾਲ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਦਾ ਹੈ।
 password-reset-warning-have-key = ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਹੈ?
 password-reset-warning-use-key-link = ਇਸ ਨੂੰ ਹੁਣ ਆਪਣਾ ਪਾਸਵਰਡ ਮੁੜ-ਸੈੱਟ ਕਰਨ ਅਤੇ ਆਪਣਾ ਡਾਟਾ ਰੱਖਣ ਲਈ ਵਰਤੋਂ
 
@@ -449,6 +473,12 @@ bento-menu-made-by-mozilla = { -brand-mozilla } ਵਲੋਂ ਬਣਾਏ
 
 connect-another-fx-mobile = ਮੋਬਾਈਲ ਜਾਂ ਟੈਬਲੇਟ ਲਈ { -brand-firefox } ਲਵੋ
 connect-another-find-fx-mobile-2 = { -google-play } ਅਤੇ { -app-store } ਵਿੱਚ { -brand-firefox } ਲੱਭੋ।
+# Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
+# These images are used to encourage users to download Firefox on their mobile devices.
+connect-another-play-store-image-2 =
+    .alt = { -google-play } ਤੋਂ { -brand-firefox } ਨੂੰ ਡਾਊਨਲੋਡ ਕਰੋ
+connect-another-app-store-image-3 =
+    .alt = { -app-store } ਤੋਂ { -brand-firefox } ਨੂੰ ਡਾਊਨਲੋਡ ਕਰੋ
 
 ## Connected services section
 
@@ -558,6 +588,61 @@ flow-recovery-key-info-cta-text-v3 = ਸ਼ੁਰੂ ਕਰੀਏ
 # Link to cancel account recovery key change and return to settings
 flow-recovery-key-info-cancel-link = ਰੱਦ ਕਰੋ
 
+## FlowSetup2faApp
+
+flow-setup-2fa-qr-heading = ਆਪਣੀ ਪਰਮਾਣੀਕਰਨ ਐਪ ਨਾਲ ਕਨੈਕਟ ਕਰੋ
+# DEV NOTE: "2a" in the id should be "2fa". This typo is kept intentionally to
+# avoid losing existing translations; fix it when creating a new version of
+# this string.
+flow-setup-2a-qr-instruction = <strong>ਪੜਾਅ 1:</strong> ਕਿਸੇ ਵੀ ਪਰਮਾਣੀਕਰਨ ਐਪ ਜਿਵੇਂ Duo ਜਾਂ Google Authenticator ਆਦਿ ਨਾਲ ਇਹ QR ਕੋਡ ਸਕੈਨ ਕਰੋ।
+flow-setup-2fa-cant-scan-qr-button = QR ਕੋਡ ਸਕੈਨ ਨਹੀਂ ਕਰ ਸਕਦੇ?
+flow-setup-2fa-manual-key-heading = ਖੁਦ ਕੋਡ ਭਰੋ
+flow-setup-2fa-manual-key-instruction = <strong> ਪੜਾਅ 1:</strong> ਇਹ ਕੋਡ ਨੂੰ ਆਪਣੀ ਪਸੰਦੀਦਾ ਪਰਮਾਣੀਕਰਨ ਐਪ ਵਿੱਚ ਭਰੋ।
+flow-setup-2fa-scan-qr-instead-button = ਇਸ ਬਜਾਏ QR ਕੋਡ ਸਕੈਨ ਕਰਨਾ ਹੈ?
+# links to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication#w_step-one
+flow-setup-2fa-more-info-link = ਪਰਮਾਣੀਕਰਨ ਐਪਾਂ ਬਾਰੇ ਹੋਰ ਜਾਣੋ
+flow-setup-2fa-button = ਜਾਰੀ ਰੱਖੋ
+flow-setup-2fa-step-2-instruction = <strong>ਪੜਾਅ 2:</strong> ਆਪਣੀ ਪਰਮਾਣੀਕਰਨ ਐਪ ਤੋਂ ਕੋਡ ਦਿਓ।
+flow-setup-2fa-input-label = 6-ਅੰਕ ਦਾ ਕੋਡ ਦਿਓ
+flow-setup-2fa-code-error = ਗ਼ੈਰ-ਵਾਜਬ ਜਾਂ ਮਿਆਦ ਪੁੱਗੀ ਵਾਲਾ ਕੋਡ ਹੈ। ਆਪਣੀ ਪਰਮਾਣੀਕਰਨ ਐਪ ਦੀ ਜਾਂਚ ਕਰਕੇ ਫੇਰ ਕੋਸ਼ਿਸ਼ ਕਰੋ।
+
+## The step to choose the two step authentication method in the two step
+## authentication setup flow.
+
+flow-setup-2fa-backup-choice-heading = ਕਿਸੇ ਰਿਕਵਰੀ ਢੰਗ ਨੂੰ ਚੁਣੋ
+flow-setup-2fa-backup-choice-phone-title = ਰਿਕਵਰੀ ਫ਼ੋਨ
+flow-setup-2fa-backup-choice-phone-badge = ਸਭ ਤੋਂ ਸੌਖਾ
+flow-setup-2fa-backup-choice-code-title = ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ
+flow-setup-2fa-backup-choice-code-badge = ਸਭ ਤੋਂ ਸੁਰੱਖਿਅਤ
+
+## The backup code confirm step of the setup 2 factor authentication flow,
+## where the user confirm that they have saved their backup authentication codes
+## by entering one of them.
+
+flow-setup-2fa-backup-code-confirm-heading = ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਦਿਓ
+flow-setup-2fa-backup-code-confirm-code-input = 10-ਅੰਕ ਦਾ ਕੋਡ ਦਿਓ
+# Clicking on this button finishes the whole flow upon success.
+flow-setup-2fa-backup-code-confirm-button-finish = ਮੁਕੰਮਲ
+
+## The backup codes download step of the setup 2 factor authentication flow
+
+flow-setup-2fa-backup-code-dl-heading = ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਨੂੰ ਸੰਭਾਲੋ
+flow-setup-2fa-backup-code-dl-button-continue = ਜਾਰੀ ਰੱਖੋ
+
+##
+
+flow-setup-2fa-inline-complete-success-banner = ਦੋ-ਪੜਾਵੀਂ ਪਰਮਾਣਕਿਤਾ ਸਮਰੱਥ ਹੈ
+flow-setup-2fa-inline-complete-backup-code = ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ
+flow-setup-2fa-inline-complete-backup-phone = ਰਿਕਵਰੀ ਫ਼ੋਨ
+# $count (Number) - an integer representing the number of backup
+# authentication codes remaining
+flow-setup-2fa-inline-complete-backup-code-info =
+    { $count ->
+        [one] { $count } ਕੋਡ ਬਾਕੀ ਹੈ
+       *[other] { $count } ਕੋਡ ਬਾਕੀ ਹਨ
+    }
+flow-setup-2fa-inline-complete-backup-code-description = ਜੇ ਤੁਸੀਂ ਆਪਣੇ ਮੋਬਾਈਲ ਡਿਵਾਈਸ ਜਾਂ ਪਰਮਾਣੀਕਰਨ ਐਪ ਨਾਲ ਸਾਈਨ ਇਨ ਨਹੀਂ ਕਰ ਸਕਦੇ ਤਾਂ ਇਹ ਸਭ ਤੋਂ ਸੁਰੱਖਿਅਤ ਢੰਗ ਹੈ।
+
 ## FlowSetupPhoneConfirmCode
 
 # verification code refers to a code sent by text message to confirm phone number ownership
@@ -572,7 +657,9 @@ flow-setup-phone-confirm-code-button = ਤਸਦੀਕ
 # followed by a button to resend a code
 flow-setup-phone-confirm-code-expired = ਕੋਡ ਦੀ ਮਿਆਦ ਪੁੱਗੀ?
 flow-setup-phone-confirm-code-resend-code-button = ਕੋਡ ਮੁੜ ਕੇ ਭੇਜੋ
+flow-setup-phone-confirm-code-resend-code-success = ਕੋਡ ਭੇਜਿਆ
 flow-setup-phone-confirm-code-success-message-v2 = ਰਿਕਵਰੀ ਫ਼ੋਨ ਜੋੜਿਆ ਗਿਆ
+flow-change-phone-confirm-code-success-message = ਰਿਕਵਰੀ ਫ਼ੋਨ ਨੂੰ ਬਦਲਿਆ ਗਿਆ ਹੈ
 
 ## FlowSetupPhoneConfirmCode
 
@@ -582,6 +669,7 @@ flow-setup-phone-submit-number-heading = ਆਪਣੇ ਫ਼ੋਨ ਨੰਬਰ 
 # Phone mask services (for example Relay) provide a temporary virtual number to avoid providing a real phone number.
 # Both VoIP and phone masks can be unreliable for one-time-passcode (OTP) verification
 flow-setup-phone-submit-number-info-message-v2 = ਰਿਕਵਰੀ ਫ਼ੋਨ ਸਿਰਫ਼ ਸੰਯੁਕਤ ਰਾਜ ਅਮਰੀਕਾ ਅਤੇ ਕੈਨੇਡਾ ਵਿੱਚ ਹੀ ਮੌਜੂਦ ਹੈ। voIP ਨੰਬਰ ਅਤੇ ਫ਼ੋਨ ਮਾਸਕਾਂ ਦੀ ਸਿਫ਼ਾਰਸ਼ ਨਹੀਂ ਕੀਤੀ ਜਾਂਦੀ ਹੈ।
+flow-setup-phone-submit-number-legal = ਆਪਣਾ ਨੰਬਰ ਦੇ ਕੇ ਤੁਸੀਂ ਸਾਨੂੰ ਇਹ ਸੰਭਾਲਣ ਲਈ ਸਹਿਮਤ ਹੋ ਤਾਂ ਕਿ ਅਸੀਂ ਤੁਹਾਨੂੰ ਸਿਰਫ਼ ਖਾਤੇ ਨੂੰੀ ਤਸਦੀਕ ਕਰਨ ਵਾਸਤੇ ਸੁਨੇਹਾ ਭੇਜ ਸਕੀਏ। ਸੁਨੇਹਾ ਅਤੇ ਡਾਟਾ ਖ਼ਰਚੇ ਲਾਗੂ ਹੋ ਸਕਦੇ ਹਨ।
 # cliking on the button sends a code by text message to the phone number typed in by the user
 flow-setup-phone-submit-number-button = ਕੋਡ ਭੇਜੋ
 
