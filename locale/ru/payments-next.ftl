@@ -108,6 +108,8 @@ subscription-management-button-add-payment-method-aria = Добавить спо
 subscription-management-button-add-payment-method = Добавить
 subscription-management-button-change-payment-method-aria = Изменить способ оплаты
 subscription-management-button-change-payment-method = Изменить
+subscription-management-button-manage-payment-method-aria = Управление способом оплаты
+subscription-management-button-manage-payment-method = Управление
 # $last4 (String) - Last four numbers of credit card
 subscription-management-card-ending-in = Номер карты заканчивается на { $last4 }
 # $expirationDate (Date) - Payment card's expiration date
@@ -138,6 +140,10 @@ subscription-management-page-subscription-interval-weekly = { $productName } (е
 subscription-management-page-subscription-interval-monthly = { $productName } (ежемесячно)
 subscription-management-page-subscription-interval-halfyearly = { $productName } (каждые полгода)
 subscription-management-page-subscription-interval-yearly = { $productName } (ежегодно)
+subscription-management-page-paypal-error-banner = Некорректная платежная информация; в вашем аккаунте произошла ошибка.
+subscription-management-page-paypal-error-banner-link = Управление
+paypal-payment-management-page-invalid-header = Неверная платёжная информация
+paypal-payment-management-page-invalid-description = Похоже, в вашем аккаунте { -brand-paypal } произошла ошибка. Нам нужно, чтобы вы предприняли необходимые шаги для решения этой проблемы с оплатой.
 # Page - Not Found
 page-not-found-title = Страница не найдена
 page-not-found-description = Запрошенная страница не найдена. Мы уже получили уведомление и исправим все возможные ошибки в ссылках.

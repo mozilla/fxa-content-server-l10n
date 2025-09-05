@@ -759,6 +759,29 @@ modal-close-title = Закрыть
 modal-cancel-button = Отмена
 modal-default-confirm-button = Подтвердить
 
+## ModalMfaProtected
+
+modal-mfa-protected-title = Введите код подтверждения
+modal-mfa-protected-subtitle = Помогите нам убедиться, что это вы изменяете информацию своего аккаунта
+# This string is used to show a notification to the user for them to enter
+# email confirmation code to update their multi-factor-authentication-protected
+# account settings
+# Variables:
+#   email (String) - the user's email
+#   expirationTime (Number) - the expiration time in minutes
+modal-mfa-protected-instruction =
+    { $expirationTime ->
+        [one] Введите код, отправленный на <email>{ $email }</email>, в течение { $expirationTime } минуты.
+        [few] Введите код, отправленный на <email>{ $email }</email>, в течение { $expirationTime } минут.
+       *[many] Введите код, отправленный на <email>{ $email }</email>, в течение { $expirationTime } минут.
+    }
+modal-mfa-protected-input-label = Введите код из 6 цифр
+modal-mfa-protected-cancel-button = Отмена
+modal-mfa-protected-confirm-button = Подтвердить
+modal-mfa-protected-code-expired = Срок действия кода истёк?
+# Link to resend a new code to the user's email.
+modal-mfa-protected-resend-code-link = Отправить новый код по электронной почте.
+
 ## Modal Verify Session
 
 mvs-verify-your-email-2 = Подтвердите свою электронную почту
