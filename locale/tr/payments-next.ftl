@@ -105,6 +105,8 @@ subscription-management-button-add-payment-method-aria = Ödeme yöntemi ekle
 subscription-management-button-add-payment-method = Ekle
 subscription-management-button-change-payment-method-aria = Ödeme yöntemini değiştir
 subscription-management-button-change-payment-method = Değiştir
+subscription-management-button-manage-payment-method-aria = Ödeme yöntemini yönet
+subscription-management-button-manage-payment-method = Yönet
 # $last4 (String) - Last four numbers of credit card
 subscription-management-card-ending-in = { $last4 } ile biten kart
 # $expirationDate (Date) - Payment card's expiration date
@@ -135,6 +137,9 @@ subscription-management-page-subscription-interval-weekly = { $productName } (ha
 subscription-management-page-subscription-interval-monthly = { $productName } (aylık)
 subscription-management-page-subscription-interval-halfyearly = { $productName } (6 aylık)
 subscription-management-page-subscription-interval-yearly = { $productName } (yıllık)
+subscription-management-page-paypal-error-banner = Geçersiz ödeme bilgileri: Hesabınızla ilgili bir sorun var.
+subscription-management-page-paypal-error-banner-link = Yönet
+paypal-payment-management-page-invalid-header = Geçersiz fatura bilgileri
 # Page - Not Found
 page-not-found-title = Sayfa bulunamadı
 page-not-found-description = İstediğiniz sayfa bulunamadı. Bozuk olabilecek bağlantıları düzeltmeleri için durumu site yöneticilerimize bildirdik.

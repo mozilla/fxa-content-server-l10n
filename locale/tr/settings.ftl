@@ -757,6 +757,27 @@ modal-close-title = Kapat
 modal-cancel-button = İptal
 modal-default-confirm-button = Onayla
 
+## ModalMfaProtected
+
+modal-mfa-protected-title = Onay kodunu girin
+# This string is used to show a notification to the user for them to enter
+# email confirmation code to update their multi-factor-authentication-protected
+# account settings
+# Variables:
+#   email (String) - the user's email
+#   expirationTime (Number) - the expiration time in minutes
+modal-mfa-protected-instruction =
+    { $expirationTime ->
+        [one] <email>{ $email }</email> adresine gönderdiğimiz kodu { $expirationTime } dakika içinde girin.
+       *[other] <email>{ $email }</email> adresine gönderdiğimiz kodu { $expirationTime } dakika içinde girin.
+    }
+modal-mfa-protected-input-label = 6 basamaklı kodu girin
+modal-mfa-protected-cancel-button = Vazgeç
+modal-mfa-protected-confirm-button = Onayla
+modal-mfa-protected-code-expired = Kodun süresi mi doldu?
+# Link to resend a new code to the user's email.
+modal-mfa-protected-resend-code-link = E-posta ile yeni kod gönder.
+
 ## Modal Verify Session
 
 mvs-verify-your-email-2 = E-postanızı onaylayın
