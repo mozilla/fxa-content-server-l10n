@@ -108,6 +108,8 @@ subscription-management-button-add-payment-method-aria = 新增付款方式
 subscription-management-button-add-payment-method = 新增
 subscription-management-button-change-payment-method-aria = 更改付款方式
 subscription-management-button-change-payment-method = 變更
+subscription-management-button-manage-payment-method-aria = 管理付款方式
+subscription-management-button-manage-payment-method = 管理
 # $last4 (String) - Last four numbers of credit card
 subscription-management-card-ending-in = 卡號末四碼：{ $last4 }
 # $expirationDate (Date) - Payment card's expiration date
@@ -138,6 +140,10 @@ subscription-management-page-subscription-interval-weekly = { $productName }（�
 subscription-management-page-subscription-interval-monthly = { $productName }（每月收費）
 subscription-management-page-subscription-interval-halfyearly = { $productName }（每 6 個月收費）
 subscription-management-page-subscription-interval-yearly = { $productName }（每年收費）
+subscription-management-page-paypal-error-banner = 您的帳號發生問題，付款資訊無效。
+subscription-management-page-paypal-error-banner-link = 管理
+paypal-payment-management-page-invalid-header = 帳務資訊無效
+paypal-payment-management-page-invalid-description = 您的 { -brand-paypal } 帳號似乎發生問題，請採取下列步驟處理付款問題。
 # Page - Not Found
 page-not-found-title = 找不到頁面
 page-not-found-description = 找不到您想開啟的頁面。我們已經通知開發團隊來檢查網頁。

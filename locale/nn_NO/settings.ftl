@@ -757,6 +757,16 @@ modal-close-title = Lat att
 modal-cancel-button = Avbryt
 modal-default-confirm-button = Stadfest
 
+## ModalMfaProtected
+
+modal-mfa-protected-title = Skriv inn stadfestingskode
+modal-mfa-protected-input-label = Skriv inn 6-sifra kode
+modal-mfa-protected-cancel-button = Avbryt
+modal-mfa-protected-confirm-button = Stadfest
+modal-mfa-protected-code-expired = Har koden gått ut?
+# Link to resend a new code to the user's email.
+modal-mfa-protected-resend-code-link = Send ny kode på e-post.
+
 ## Modal Verify Session
 
 mvs-verify-your-email-2 = Stadfest e-postadressa di

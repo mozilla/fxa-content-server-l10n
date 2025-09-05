@@ -108,6 +108,8 @@ subscription-management-button-add-payment-method-aria = Legg til betalingsinfor
 subscription-management-button-add-payment-method = Legg til
 subscription-management-button-change-payment-method-aria = Endre betalingsmåte
 subscription-management-button-change-payment-method = Endre
+subscription-management-button-manage-payment-method-aria = Handsam betalingsmåte
+subscription-management-button-manage-payment-method = Handsam
 # $last4 (String) - Last four numbers of credit card
 subscription-management-card-ending-in = Kortet sluttar på { $last4 }
 # $expirationDate (Date) - Payment card's expiration date
@@ -138,6 +140,9 @@ subscription-management-page-subscription-interval-weekly = { $productName } (ve
 subscription-management-page-subscription-interval-monthly = { $productName } (månadleg)
 subscription-management-page-subscription-interval-halfyearly = { $productName } (6 månadar)
 subscription-management-page-subscription-interval-yearly = { $productName } (årleg)
+subscription-management-page-paypal-error-banner = Ugyldig betalingsinformasjon. Det er ein feil med kontoen din.
+subscription-management-page-paypal-error-banner-link = Handsam
+paypal-payment-management-page-invalid-header = Ugyldig faktureringsinformasjon
 # Page - Not Found
 page-not-found-title = Fann ikkje sida
 page-not-found-description = Fann ikkje sida du spurde etter. Vi er varsla og vil reparere lenker som ikkje fungerer.

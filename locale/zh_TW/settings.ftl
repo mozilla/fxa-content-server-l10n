@@ -737,6 +737,24 @@ modal-close-title = 關閉
 modal-cancel-button = 取消
 modal-default-confirm-button = 確認
 
+## ModalMfaProtected
+
+modal-mfa-protected-title = 請輸入確認碼
+modal-mfa-protected-subtitle = 請幫助我們確認是您自己在修改帳號資訊
+# This string is used to show a notification to the user for them to enter
+# email confirmation code to update their multi-factor-authentication-protected
+# account settings
+# Variables:
+#   email (String) - the user's email
+#   expirationTime (Number) - the expiration time in minutes
+modal-mfa-protected-instruction = 請在 { $expirationTime } 分鐘內輸入寄送到 <email>{ $email }</email> 的代碼。
+modal-mfa-protected-input-label = 請輸入 6 位數的確認碼
+modal-mfa-protected-cancel-button = 取消
+modal-mfa-protected-confirm-button = 確認
+modal-mfa-protected-code-expired = 驗證碼失效？
+# Link to resend a new code to the user's email.
+modal-mfa-protected-resend-code-link = 重寄新驗證碼。
+
 ## Modal Verify Session
 
 mvs-verify-your-email-2 = 確認電子郵件信箱
