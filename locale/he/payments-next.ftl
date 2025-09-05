@@ -32,6 +32,9 @@ unionpay-logo-alt-text = הלוגו של { -brand-unionpay }
 visa-logo-alt-text = הלוגו של { -brand-visa }
 # Alt text for generic payment card logo
 unbranded-logo-alt-text = לוגו לא ממותג
+link-logo-alt-text = הלוגו של { -brand-link }
+apple-pay-logo-alt-text = הלוגו של { -brand-apple-pay }
+google-pay-logo-alt-text = הלוגו של { -brand-google-pay }
 
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -99,6 +102,8 @@ subscription-management-button-add-payment-method-aria = הוספת אמצעי �
 subscription-management-button-add-payment-method = הוספה
 subscription-management-button-change-payment-method-aria = שינוי אמצעי תשלום
 subscription-management-button-change-payment-method = שינוי
+subscription-management-button-manage-payment-method-aria = ניהול אמצעי תשלום
+subscription-management-button-manage-payment-method = ניהול
 # $last4 (String) - Last four numbers of credit card
 subscription-management-card-ending-in = כרטיס המסתיים ב־{ $last4 }
 # $expirationDate (Date) - Payment card's expiration date
@@ -129,6 +134,10 @@ subscription-management-page-subscription-interval-weekly = ‏{ $productName } 
 subscription-management-page-subscription-interval-monthly = ‏{ $productName } (חודשי)
 subscription-management-page-subscription-interval-halfyearly = ‏{ $productName } (6 חודשים)
 subscription-management-page-subscription-interval-yearly = ‏{ $productName } (שנתי)
+subscription-management-page-paypal-error-banner = פרטי חיוב שגויים; אירעה שגיאה בחשבון שלך.
+subscription-management-page-paypal-error-banner-link = ניהול
+paypal-payment-management-page-invalid-header = פרטי חיוב שגויים
+paypal-payment-management-page-invalid-description = נראה שיש שגיאה בחשבון ה־{ -brand-paypal } שלך. אנחנו צריכים שתנקוט בצעדים הדרושים כדי לפתור בעיית תשלום זו.
 # Page - Not Found
 page-not-found-title = הדף לא נמצא
 page-not-found-description = העמוד המבוקש לא נמצא. קיבלנו את המידע הדרוש ונתקן את הקישורים שייתכן שנשברו.

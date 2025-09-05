@@ -730,6 +730,28 @@ nav-linked-accounts = { la-heading }
 modal-close-title = סגירה
 modal-cancel-button = ביטול
 
+## ModalMfaProtected
+
+modal-mfa-protected-title = נא להכניס את קוד האימות
+modal-mfa-protected-subtitle = נא לסייע לנו לוודא שאתה זה שמשנה את פרטי החשבון שלך
+# This string is used to show a notification to the user for them to enter
+# email confirmation code to update their multi-factor-authentication-protected
+# account settings
+# Variables:
+#   email (String) - the user's email
+#   expirationTime (Number) - the expiration time in minutes
+modal-mfa-protected-instruction =
+    { $expirationTime ->
+        [one] נא להכניס את הקוד שנשלח אל <email>{ $email }</email> תוך דקה אחת.
+       *[other] נא להכניס את הקוד שנשלח אל <email>{ $email }</email> תוך { $expirationTime } דקות.
+    }
+modal-mfa-protected-input-label = נא להזין קוד בן 6 ספרות
+modal-mfa-protected-cancel-button = ביטול
+modal-mfa-protected-confirm-button = אישור
+modal-mfa-protected-code-expired = פג תוקף הקוד?
+# Link to resend a new code to the user's email.
+modal-mfa-protected-resend-code-link = שליחת קוד חדש בדוא״ל.
+
 ## Modal Verify Session
 
 mvs-verify-your-email-2 = אימות כתובת הדוא״ל שלך
