@@ -108,7 +108,7 @@ subscription-management-button-add-payment-method-aria = Lägg till betalningsme
 subscription-management-button-add-payment-method = Lägg till
 subscription-management-button-change-payment-method-aria = Ändra betalningsmetod
 subscription-management-button-change-payment-method = Ändra
-subscription-management-button-manage-payment-method-aria = Hantera betalningssätt
+subscription-management-button-manage-payment-method-aria = Hantera betalningsmetod
 subscription-management-button-manage-payment-method = Hantera
 # $last4 (String) - Last four numbers of credit card
 subscription-management-card-ending-in = Kort som slutar på { $last4 }
