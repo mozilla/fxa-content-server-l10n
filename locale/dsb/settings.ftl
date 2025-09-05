@@ -765,6 +765,30 @@ modal-close-title = Zacyniś
 modal-cancel-button = Pśetergnuś
 modal-default-confirm-button = Wobkšuśiś
 
+## ModalMfaProtected
+
+modal-mfa-protected-title = Wobkšuśeński kod zapódaś
+modal-mfa-protected-subtitle = Pomagajśo nam zwěsćiś, až wy sćo změnił kontowe informacije
+# This string is used to show a notification to the user for them to enter
+# email confirmation code to update their multi-factor-authentication-protected
+# account settings
+# Variables:
+#   email (String) - the user's email
+#   expirationTime (Number) - the expiration time in minutes
+modal-mfa-protected-instruction =
+    { $expirationTime ->
+        [one] Zapódajśo kod, kótaryž jo se pósłał za { $expirationTime } minutu na <email>{ $email }</email>.
+        [two] Zapódajśo kod, kótaryž jo se pósłał za { $expirationTime } minuśe na <email>{ $email }</email>.
+        [few] Zapódajśo kod, kótaryž jo se pósłał za { $expirationTime } minuty na <email>{ $email }</email>.
+       *[other] Zapódajśo kod, kótaryž jo se pósłał za { $expirationTime } minutow na <email>{ $email }</email>.
+    }
+modal-mfa-protected-input-label = 6-městnowy kod zapódaś
+modal-mfa-protected-cancel-button = Pśetergnuś
+modal-mfa-protected-confirm-button = Wobkšuśiś
+modal-mfa-protected-code-expired = Kod jo spadnuł?
+# Link to resend a new code to the user's email.
+modal-mfa-protected-resend-code-link = Nowy kod pśez e-mail pósłaś.
+
 ## Modal Verify Session
 
 mvs-verify-your-email-2 = Wašu e-mailowu adresu wobkšuśiś

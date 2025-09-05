@@ -768,6 +768,7 @@ modal-default-confirm-button = Wobkrućić
 ## ModalMfaProtected
 
 modal-mfa-protected-title = Wobkrućenski kod zapodać
+modal-mfa-protected-subtitle = Pomhajće nam zwěsćić, zo wy sće kontowe informacije změnił
 # This string is used to show a notification to the user for them to enter
 # email confirmation code to update their multi-factor-authentication-protected
 # account settings

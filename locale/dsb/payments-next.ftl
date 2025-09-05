@@ -111,6 +111,8 @@ subscription-management-button-add-payment-method-aria = Płaśeńsku metodu pś
 subscription-management-button-add-payment-method = Pśidaś
 subscription-management-button-change-payment-method-aria = Płaśeńsku metodu změniś
 subscription-management-button-change-payment-method = Změniś
+subscription-management-button-manage-payment-method-aria = Płaśeńsku metodu zastojaś
+subscription-management-button-manage-payment-method = Zastojaś
 # $last4 (String) - Last four numbers of credit card
 subscription-management-card-ending-in = Kórta, kótaraž se na { $last4 } kóńcy
 # $expirationDate (Date) - Payment card's expiration date
@@ -141,6 +143,10 @@ subscription-management-page-subscription-interval-weekly = { $productName } (ku
 subscription-management-page-subscription-interval-monthly = { $productName } (kuždy mjasec)
 subscription-management-page-subscription-interval-halfyearly = { $productName } (6-mjasecny)
 subscription-management-page-subscription-interval-yearly = { $productName } (kužde lěto)
+subscription-management-page-paypal-error-banner = Njepłaśiwe płaśeńske informacije; jo zmólka z wašym kontom.
+subscription-management-page-paypal-error-banner-link = Zastojaś
+paypal-payment-management-page-invalid-header = Njepłaśiwe wótliceńske informacije
+paypal-payment-management-page-invalid-description = Zda se, až dajo zmólka z wašym kontom { -brand-paypal }. Musymy trjebne kšace pśewjasć, aby toś ten płaśeński problem rozwězali.
 # Page - Not Found
 page-not-found-title = Bok njejo se namakał
 page-not-found-description = Bok, kótaryž sćo pominał, njejo se namakał. Smy powěsć dostali a pórěźamy njepłaśiwe wótkaze.
