@@ -813,7 +813,7 @@ verifySecondaryCode-action-2 = 验证电子邮箱
 # Variables:
 #  $email (string) A user's unverified secondary email address
 verifySecondaryCode-explainer-2 = 已请求使用 { $email } 作为下列 { -product-mozilla-account }的备用电子邮件地址：
-verifySecondaryCode-prompt-2 = 请使用此验证码：
+verifySecondaryCode-prompt-2 = 请使用此确认码：
 verifySecondaryCode-expiry-notice-2 = 验证码将于 5 分钟后失效。验证完成后，此邮箱也将开始接收安全通知和验证邮件。
 # Variables:
 #  $code (Number) - e.g. 123456
@@ -822,5 +822,5 @@ verifyShortCode-preview = 通过随附的验证码来确认 { -product-mozilla-a
 verifyShortCode-title-3 = 携手 { -brand-mozilla } 打开互联网世界
 # Information on the browser and device triggering this confirmation email follows below this string.
 verifyShortCode-title-subtext-2 = 确认您的账户后，即可在所有登录设备上解锁 { -brand-mozilla } 完整体验。体验第一站：
-verifyShortCode-prompt-3 = 请使用此验证码：
+verifyShortCode-prompt-3 = 请使用此确认码：
 verifyShortCode-expiry-notice = 5 分钟内有效。

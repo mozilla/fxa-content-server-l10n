@@ -1163,7 +1163,7 @@ se-remove-email =
 se-refresh-email =
     .title = 刷新邮箱地址
 se-unverified-2 = 未确认
-se-resend-code-2 = 需要验证账户。如果验证邮件不在您的收件箱或垃圾邮件文件夹中，请<button>重新发送验证码</button>。
+se-resend-code-2 = 需要验证账户。如果验证邮件不在您的收件箱或垃圾邮件文件夹中，请<button>重新发送确认码</button>。
 # Button to make secondary email the primary
 se-make-primary = 设为主邮箱
 se-default-content = 主邮箱不可用时，用此访问账户。
@@ -1224,7 +1224,7 @@ continue-with-apple-button = 通过 { -brand-apple } 登录
 
 auth-error-102 = 未知账户
 auth-error-103 = 密码错误
-auth-error-105-2 = 无效的验证码
+auth-error-105-2 = 确认码无效
 auth-error-110 = 无效令牌
 # Error shown to users when they have attempted a request (e.g., requesting a password reset) too many times
 # and their requests have been throttled, but the specific amount of time before they can retry is unknown.
@@ -1243,7 +1243,7 @@ auth-error-155 = 找不到 TOTP 令牌
 # Error shown when the user submits an invalid backup authentication code
 auth-error-156 = 找不到备用验证码
 auth-error-159 = 账户恢复密钥无效
-auth-error-183-2 = 验证码无效或已过期
+auth-error-183-2 = 确认码无效或已过期
 auth-error-202 = 功能未启用
 auth-error-203 = 系统不可用，请稍后再试
 auth-error-206 = 由于已经设置密码，无法再次创建密码
@@ -1850,7 +1850,7 @@ signin-token-code-code-expired = 验证码已过期？
 # Link to resend a new code to the user's email.
 signin-token-code-resend-code-link = 重新发送验证码。
 # Error displayed in a tooltip when the form is submitted without a code
-signin-token-code-required-error = 请输入验证码
+signin-token-code-required-error = 请输入确认码
 signin-token-code-resend-error = 出了点问题，无法发送新验证码。
 # Message to user after they were redirected to the Mozilla account sign-in page in a new browser
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
@@ -1902,7 +1902,7 @@ signin-unblock-desktop-relay = { -brand-firefox } 将尝试在您登录后返回
 # and a confirmation code has been sent to their email address.
 
 # Page title show in browser title bar or page tab
-confirm-signup-code-page-title = 输入验证码
+confirm-signup-code-page-title = 输入确认码
 # String within the <span> element appears on a separate line
 # If more appropriate in a locale, the string within the <span>, "for your { -product-mozilla-account }"
 # can stand alone as "{ -product-mozilla-account }"
@@ -1918,7 +1918,7 @@ confirm-signup-code-code-expired = 验证码已过期？
 confirm-signup-code-resend-code-link = 重新发送验证码。
 confirm-signup-code-success-alert = 账户已成功确认
 # Error displayed in tooltip.
-confirm-signup-code-is-required-error = 请输入验证码
+confirm-signup-code-is-required-error = 请输入确认码
 # Message to user after they were redirected to the Mozilla account sign-in page in a new browser
 # tab. Firefox will attempt to send the user back to their original tab to use an email mask after
 # they successfully sign in or sign up for a Mozilla account to receive a free email mask.
