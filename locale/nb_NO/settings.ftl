@@ -755,6 +755,28 @@ modal-close-title = Lukk
 modal-cancel-button = Avbryt
 modal-default-confirm-button = Bekreft
 
+## ModalMfaProtected
+
+modal-mfa-protected-title = Skriv inn bekreftelseskode
+modal-mfa-protected-subtitle = Hjelp oss å forsikre oss om at det er du som endrer kontoinformasjonen din
+# This string is used to show a notification to the user for them to enter
+# email confirmation code to update their multi-factor-authentication-protected
+# account settings
+# Variables:
+#   email (String) - the user's email
+#   expirationTime (Number) - the expiration time in minutes
+modal-mfa-protected-instruction =
+    { $expirationTime ->
+        [one] Skriv inn koden som ble sendt til <email>{ $email }</email> innen { $expirationTime } minutt.
+       *[other] Skriv inn koden som ble sendt til <email>{ $email }</email> innen { $expirationTime } minutter.
+    }
+modal-mfa-protected-input-label = Skriv inn 6-sifret kode
+modal-mfa-protected-cancel-button = Avbryt
+modal-mfa-protected-confirm-button = Bekreft
+modal-mfa-protected-code-expired = Har koden utløpt?
+# Link to resend a new code to the user's email.
+modal-mfa-protected-resend-code-link = Send ny kode på e-post.
+
 ## Modal Verify Session
 
 mvs-verify-your-email-2 = Bekreft e-postadressen din
