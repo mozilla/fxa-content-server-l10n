@@ -774,7 +774,7 @@ modal-default-confirm-button = Cadarnhau
 ## ModalMfaProtected
 
 modal-mfa-protected-title = Rhowch y cod dilysu
-modal-mfa-protected-subtitle = Helpwch ni i sicrhau mai chi sy'n newid gwybodaeth eich cyfrif
+modal-mfa-protected-subtitle = Helpwch ni i sicrhau mai chi sy'n newid manylion eich cyfrif
 # This string is used to show a notification to the user for them to enter
 # email confirmation code to update their multi-factor-authentication-protected
 # account settings
@@ -790,7 +790,7 @@ modal-mfa-protected-instruction =
         [many] Rhowch y cod anfonwyd at <email>{ $email }</email> o fewn { $expirationTime } munud.
        *[other] Rhowch y cod anfonwyd at <email>{ $email }</email> o fewn { $expirationTime } munud.
     }
-modal-mfa-protected-input-label = Rhowch y cod 6 digid
+modal-mfa-protected-input-label = Rhowch y cod 6 nod
 modal-mfa-protected-cancel-button = Diddymu
 modal-mfa-protected-confirm-button = Cadarnhau
 modal-mfa-protected-code-expired = Cod wedi dod i ben?
