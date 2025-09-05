@@ -642,6 +642,16 @@ flow-setup-2fa-inline-complete-backup-code-info =
        *[other] { $count } ਕੋਡ ਬਾਕੀ ਹਨ
     }
 flow-setup-2fa-inline-complete-backup-code-description = ਜੇ ਤੁਸੀਂ ਆਪਣੇ ਮੋਬਾਈਲ ਡਿਵਾਈਸ ਜਾਂ ਪਰਮਾਣੀਕਰਨ ਐਪ ਨਾਲ ਸਾਈਨ ਇਨ ਨਹੀਂ ਕਰ ਸਕਦੇ ਤਾਂ ਇਹ ਸਭ ਤੋਂ ਸੁਰੱਖਿਅਤ ਢੰਗ ਹੈ।
+flow-setup-2fa-inline-complete-backup-phone-description = ਜੇ ਤੁਸੀਂ ਆਪਣੀ ਪਰਮਾਣੀਕਰਨ ਐਪ ਨਾਲ ਸਾਈਨ ਇਨ ਨਹੀਂ ਕਰ ਸਕਦੇ ਤਾਂ ਇਹ ਸਭ ਤੋਂ ਸੌਖਾ ਰਿਕਵਰੀ ਢੰਗ ਹੈ।
+flow-setup-2fa-inline-complete-learn-more-link = ਇਹ ਤੁਹਾਡੇ ਖਾਤੇ ਨੂੰ ਸੁਰੱਖਿਅਤ ਕਿਵੇਂ ਕਰਦਾ ਹੈ
+# $serviceName (String) - the name of the product that the user will be
+# redirected to.
+flow-setup-2fa-inline-complete-continue-button = { $serviceName } ਨਾਲ ਜਾਰੀ ਰੱਖੋ
+flow-setup-2fa-prompt-heading = ਦੋ-ਪੜਾਵੀ ਪਰਮਾਣੀਕਰਨ ਨੂੰ ਸੈਟ ਅੱਪ ਕਰੋ
+# Variable { $serviceName } is the name of the product (e.g. Firefox Add-ons)
+# that requests two-step authentication setup.
+flow-setup-2fa-prompt-description = ਤੁਹਾਡੇ ਖਾਤੇ ਨੂੰ ਸੁਰੱਖਿਅਤ ਰੱਖਣ ਵਾਸਤੇ { $serviceName } ਵਲੋਂ ਤੁਹਾਨੂੰ ਦੋ-ਪੜਾਵੀਂ ਪਰਮਾਣੀਕਰਨ ਸੈਟਅੱਪ ਕਰਨਾ ਲਾਜ਼ਮੀ ਕੀਤਾ ਹੈ।
+flow-setup-2fa-prompt-continue-button = ਜਾਰੀ ਰੱਖੋ
 
 ## FlowSetupPhoneConfirmCode
 
@@ -679,6 +689,8 @@ header-menu-open = ਮੇਨੂ ਬੰਦ ਕਰੋ
 header-menu-closed = ਸਾਈਟ ਨੇਵੀਗੇਸ਼ਨ ਮੇਨੂ
 header-back-to-top-link =
     .title = ਸਿਖਰ ਉੱਤੇ ਜਾਓ
+header-back-to-settings-link =
+    .title = { -product-mozilla-account } ਸੈਟਿੰਗਾਂ ਉੱਤੇ ਵਾਪਸ ਜਾਓ
 header-title-2 = { -product-mozilla-account }
 header-help = ਮਦਦ
 
@@ -697,6 +709,16 @@ nav-linked-accounts = { la-heading }
 modal-close-title = ਬੰਦ ਕਰੋ
 modal-cancel-button = ਰੱਦ ਕਰੋ
 modal-default-confirm-button = ਤਸਦੀਕ
+
+## ModalMfaProtected
+
+modal-mfa-protected-title = ਤਸਦੀਕੀ ਕੋਡ ਦਿਓ
+modal-mfa-protected-input-label = 6-ਅੰਕ ਦਾ ਕੋਡ ਦਿਓ
+modal-mfa-protected-cancel-button = ਰੱਦ ਕਰੋ
+modal-mfa-protected-confirm-button = ਤਸਦੀਕ
+modal-mfa-protected-code-expired = ਕੋਡ ਦੀ ਮਿਆਦ ਪੁੱਗੀ?
+# Link to resend a new code to the user's email.
+modal-mfa-protected-resend-code-link = ਨਵਾਂ ਕੋਡ ਈਮੇਲ ਕਰੋ।
 
 ## Modal Verify Session
 
@@ -719,12 +741,21 @@ nav-data-collection = ਡਾਟਾ ਇਕੱਤਰਤਾ ਅਤੇ ਵਰਤੋ�
 nav-paid-subs = ਭੁਗਤਾਨ ਕੀਤੀਆਂ ਮੈਂਬਰੀਆਂ
 nav-email-comm = ਈਮੇਲ ਪੱਤਰ-ਵਿਹਾਰ
 
+## Page2faChange
+
+page-2fa-change-title = ਦੋ-ਪੜਾਵੀਂ ਪਰਮਾਣੀਕਰਨ ਨੂੰ ਬਦਲੋ
+page-2fa-change-success = ਦੋ-ਪੜਾਵੀਂ ਪਰਮਾਣਕਿਤਾ ਨੂੰ ਅੱਪਡੇਟ ਕੀਤਾ ਗਿਆ ਹੈ
+
 ## Two Step Authentication - replace backup authentication code
 
+# Page title
+tfa-backup-codes-page-title = ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ
 # Error shown when API call fails while replacing existing backup codes
 tfa-replace-code-error-3 = ਤੁਹਾਡੇ ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਬਦਲਣ ਦੌਰਾਨ ਸਮੱਸਿਆ ਆਈ ਸੀ
 # Error shown when API call fails while creating new backup codes (user had none)
 tfa-create-code-error = ਤੁਹਾਡੇ ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਬਣਾਉਣ ਦੌਰਾਨ ਸਮੱਸਿਆ ਆਈ ਸੀ
+# Success message shown in alert bar after successfully replacing existing backup codes
+tfa-replace-code-success-alert-4 = ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਅੱਪਡੇਟ ਕੀਤੇ ਗਏ
 
 ## Avatar change page
 
@@ -1393,6 +1424,14 @@ pair-wait-for-auth-heading-text = ਹੁਣ <span>ਤੁਹਾਡੇ ਹੋਰ �
 pair-unsupported-header = ਐਪ ਵਰਤ ਕੇ ਪੇਅਰ ਕਰੋ
 pair-unsupported-message = ਕੀ ਤੁਸੀਂ ਸਿਸਟਮ ਕੈਮਰਾ ਵਰਤਿਆ ਸੀ? ਤੁਹਾਨੂੰ { -brand-firefox } ਐਪ ਤੋਂ ਪੇਅਰ ਕਰਨਾ ਪਵੇਗਾ।
 
+## SetPassword page
+## Third party auth users that do not have a password set yet are prompted for a
+
+
+# password to complete their sign-in when they want to login to a service requiring it.
+
+set-password-heading-v2 = ਸਿੰਕ ਕਰਨ ਲਈ ਪਾਸਵਰਡ ਬਣਾਓ
+
 ## ThirdPartyAuthCallback Page
 ## This page is called after a user completes the third party authentication flow from Google or Apple.
 
@@ -1430,6 +1469,11 @@ reset-password-complete-banner-heading = ਤੁਹਾਡੇ ਪਾਸਵਰਡ �
 
 # ConfirmBackupCodeResetPassword page
 
+confirm-backup-code-reset-password-input-label = 10-ਅੰਕ ਦਾ ਕੋਡ ਦਿਓ
+confirm-backup-code-reset-password-confirm-button = ਤਸਦੀਕ
+confirm-backup-code-reset-password-subheader = ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਦਿਓ
+# Link out to support article: https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+confirm-backup-code-reset-password-locked-out-link = ਕੀ ਤੁਸੀਂ ਲਾਕ-ਆਉਟ ਹੋ ਚੁੱਕੇ ਹੋ?
 
 ## Confirm Reset Password With Code
 
@@ -1472,8 +1516,31 @@ reset-password-complete-header = ਤੁਹਾਡੇ ਪਾਸਵਰਡ ਨੂੰ
 # $serviceName is a product name such as Monitor, Pocket, Relay
 reset-password-confirmed-cta = { $serviceName } ਨਾਲ ਜਾਰੀ ਰੱਖੋ
 
+## Reset password recovery method page
+## This page is shown to users when they are having trouble resetting their
+
+
+# password, and they previously had set up an account recovery method.
+
+password-reset-recovery-method-header = ਆਪਣੇ ਪਾਸਵਰਡ ਨੂੰ ਮੁੜ-ਸੈੱਟ ਕਰੋ
+password-reset-recovery-method-phone = ਰਿਕਵਰੀ ਫ਼ੋਨ
+password-reset-recovery-method-code = ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ
+
 ## ResetPasswordRecoveryPhone page
 
+reset-password-recovery-phone-flow-heading = ਆਪਣੇ ਪਾਸਵਰਡ ਨੂੰ ਮੁੜ-ਸੈੱਟ ਕਰੋ
+# A recovery code in context of this page is a one time code sent to the user's phone
+reset-password-recovery-phone-heading = ਰਿਕਵਰੀ ਕੋਡ ਭਰੋ
+reset-password-recovery-phone-input-label = 6-ਅੰਕ ਦਾ ਕੋਡ ਦਿਓ
+reset-password-recovery-phone-code-submit-button = ਤਸਦੀਕ
+reset-password-recovery-phone-resend-code-button = ਕੋਡ ਮੁੜ ਕੇ ਭੇਜੋ
+reset-password-recovery-phone-resend-success = ਕੋਡ ਭੇਜਿਆ
+# links to https://support.mozilla.org/kb/what-if-im-locked-out-two-step-authentication
+reset-password-recovery-phone-locked-out-link = ਕੀ ਤੁਸੀਂ ਲਾਕ-ਆਉਟ ਹੋ ਚੁੱਕੇ ਹੋ?
+reset-password-recovery-phone-send-code-error-heading = ਕੋਡ ਭੇਜਣ ਦੌਰਾਨ ਸਮੱਸਿਆ ਆਈ ਸੀ
+reset-password-recovery-phone-code-verification-error-heading = ਤੁਹਾਡੇ ਕੋਡ ਨੂੰ ਤਸਦੀਕ ਕਰਨ ਦੌਰਾਨ ਸਮੱਸਿਆ ਆਈ ਸੀ
+# Follows the error message (e.g, "There was a problem sending a code")
+reset-password-recovery-phone-general-error-description = ਬਾਅਦ ਵਿੱਚ ਕੋਸ਼ਿਸ ਕਰੋ ਜੀ।
 reset-password-with-recovery-key-verified-page-title = ਪਾਸਵਰਡ ਮੁੜ-ਸੈਟ ਕਰਨਾ ਕਾਮਯਾਬੀ ਰਿਹਾ
 reset-password-complete-new-password-saved = ਨਵਾਂ ਪਾਸਵਰਡ ਸੰਭਾਲਿਆ!
 reset-password-complete-recovery-key-created = ਨਵੀਂ ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਬਣਾਈ ਗਈ। ਇਸ ਨੂੰ ਹੁਣੇ ਡਾਊਨਲੋਡ ਕਰਕੇ ਸੰਭਾਲੋ।
