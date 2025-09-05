@@ -108,6 +108,8 @@ subscription-management-button-add-payment-method-aria = Προσθήκη μεθ
 subscription-management-button-add-payment-method = Προσθήκη
 subscription-management-button-change-payment-method-aria = Αλλαγή μεθόδου πληρωμής
 subscription-management-button-change-payment-method = Αλλαγή
+subscription-management-button-manage-payment-method-aria = Διαχείριση μεθόδου πληρωμής
+subscription-management-button-manage-payment-method = Διαχείριση
 # $last4 (String) - Last four numbers of credit card
 subscription-management-card-ending-in = Κάρτα που λήγει σε { $last4 }
 # $expirationDate (Date) - Payment card's expiration date
@@ -138,6 +140,10 @@ subscription-management-page-subscription-interval-weekly = { $productName } (ε
 subscription-management-page-subscription-interval-monthly = { $productName } (μηνιαία)
 subscription-management-page-subscription-interval-halfyearly = { $productName } (εξαμηνιαία)
 subscription-management-page-subscription-interval-yearly = { $productName } (ετήσια)
+subscription-management-page-paypal-error-banner = Μη έγκυρα στοιχεία πληρωμής· υπάρχει σφάλμα με τον λογαριασμό σας.
+subscription-management-page-paypal-error-banner-link = Διαχείριση
+paypal-payment-management-page-invalid-header = Μη έγκυρα στοιχεία χρέωσης
+paypal-payment-management-page-invalid-description = Φαίνεται ότι υπάρχει σφάλμα με τον λογαριασμό σας στο { -brand-paypal }. Θα πρέπει να λάβετε τα απαραίτητα μέτρα για την επίλυση αυτού του προβλήματος πληρωμής.
 # Page - Not Found
 page-not-found-title = Η σελίδα δεν βρέθηκε
 page-not-found-description = Η σελίδα που ζητήσατε δεν βρέθηκε. Έχουμε ειδοποιηθεί και θα διορθώσουμε τυχόν συνδέσμους που ενδέχεται να μην λειτουργούν.

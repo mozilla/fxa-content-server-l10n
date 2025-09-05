@@ -759,6 +759,17 @@ modal-close-title = Κλείσιμο
 modal-cancel-button = Ακύρωση
 modal-default-confirm-button = Επιβεβαίωση
 
+## ModalMfaProtected
+
+modal-mfa-protected-title = Εισαγωγή κωδικού επιβεβαίωσης
+modal-mfa-protected-subtitle = Βοηθήστε μας να βεβαιωθούμε ότι εσείς αλλάζετε τα στοιχεία του λογαριασμού σας
+modal-mfa-protected-input-label = Εισαγάγετε τον εξαψήφιο κωδικό
+modal-mfa-protected-cancel-button = Ακύρωση
+modal-mfa-protected-confirm-button = Επιβεβαίωση
+modal-mfa-protected-code-expired = Έληξε ο κωδικός;
+# Link to resend a new code to the user's email.
+modal-mfa-protected-resend-code-link = Αποστολή νέου κωδικού.
+
 ## Modal Verify Session
 
 mvs-verify-your-email-2 = Επιβεβαίωση email
