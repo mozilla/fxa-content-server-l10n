@@ -143,7 +143,7 @@ subscription-management-page-subscription-interval-yearly = { $productName } (al
 subscription-management-page-paypal-error-banner = Informazioni di pagamento non valide; si è verificato un errore con il tuo account.
 subscription-management-page-paypal-error-banner-link = Gestisci
 paypal-payment-management-page-invalid-header = Informazioni di fatturazione non valide
-paypal-payment-management-page-invalid-description = Sembra che si sia verificato un errore con il tuo account { -brand-paypal }. Abbiamo bisogno che tu adotti le misure necessarie per risolvere questo problema di pagamento.
+paypal-payment-management-page-invalid-description = Sembra che si sia verificato un errore con il tuo account { -brand-paypal }. È necessario seguire i passaggi richiesti per risolvere questo problema con il pagamento.
 # Page - Not Found
 page-not-found-title = Pagina non trovata
 page-not-found-description = La pagina richiesta non è stata trovata. Abbiamo ricevuto una segnalazione e risolveremo eventuali collegamenti non funzionanti.

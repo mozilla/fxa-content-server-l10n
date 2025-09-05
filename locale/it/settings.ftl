@@ -756,7 +756,7 @@ modal-default-confirm-button = Conferma
 ## ModalMfaProtected
 
 modal-mfa-protected-title = Inserisci il codice di conferma
-modal-mfa-protected-subtitle = Aiutaci a fare in modo che sia tu a modificare le informazioni del tuo account
+modal-mfa-protected-subtitle = Aiutaci a verificare che sia davvero tu a modificare le informazioni del tuo account
 # This string is used to show a notification to the user for them to enter
 # email confirmation code to update their multi-factor-authentication-protected
 # account settings
