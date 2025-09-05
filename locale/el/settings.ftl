@@ -763,6 +763,17 @@ modal-default-confirm-button = Επιβεβαίωση
 
 modal-mfa-protected-title = Εισαγωγή κωδικού επιβεβαίωσης
 modal-mfa-protected-subtitle = Βοηθήστε μας να βεβαιωθούμε ότι εσείς αλλάζετε τα στοιχεία του λογαριασμού σας
+# This string is used to show a notification to the user for them to enter
+# email confirmation code to update their multi-factor-authentication-protected
+# account settings
+# Variables:
+#   email (String) - the user's email
+#   expirationTime (Number) - the expiration time in minutes
+modal-mfa-protected-instruction =
+    { $expirationTime ->
+        [one] Εισαγάγετε τον κωδικό που απεστάλη στο <email>{ $email }</email> εντός { $expirationTime } λεπτού.
+       *[other] Εισαγάγετε τον κωδικό που απεστάλη στο <email>{ $email }</email> εντός { $expirationTime } λεπτών.
+    }
 modal-mfa-protected-input-label = Εισαγάγετε τον εξαψήφιο κωδικό
 modal-mfa-protected-cancel-button = Ακύρωση
 modal-mfa-protected-confirm-button = Επιβεβαίωση
