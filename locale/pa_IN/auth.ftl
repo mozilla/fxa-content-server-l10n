@@ -328,6 +328,8 @@ passwordChanged-subject = ਪਾਸਵਰਡ ਅੱਪਡੇਟ ਕੀਤਾ ਗ
 passwordChanged-title = ਪਾਸਵਰਡ ਕਾਮਯਾਬੀ ਨਾਲ ਬਦਲਿਆ
 passwordChanged-description-2 = ਤੁਹਾਡਾ{ -product-mozilla-account } ਪਾਸਵਰਡ ਹੇਠ ਦਿੱਤੇ ਡਿਵਾਈਸ ਤੋਂ ਕਾਮਯਾਬੀ ਨਾਲ ਬਦਲਿਆ ਗਿਆ:
 passwordChangeRequired-subject = ਸ਼ੱਕੀ ਸਰਗਰਮੀ ਖੋਜੀ ਗਈ ਹੈ
+passwordChangeRequired-action = ਪਾਸਵਰਡ ਨੂੰ ਮੁੜ-ਸੈੱਟ
+passwordChangeRequired-action-plaintext = { passwordChangeRequired-action }
 password-forgot-otp-subject = ਆਪਣਾ ਪਾਸਵਰਡ ਭੁੱਲ ਗਏ ਹੋ?
 password-forgot-otp-title = ਆਪਣਾ ਪਾਸਵਰਡ ਭੁੱਲ ਗਏ ਹੋ?
 password-forgot-otp-request = ਸਾਨੂੰ ਤੁਹਾਡੇ { -product-mozilla-account } ਰਾਹੀਂ ਇਸ ਤੋਂ ਪਾਸਵਰਡ ਬਦਲਣ ਦੀ ਬੇਨਤੀ ਮਿਲੀ ਹੈ:
@@ -345,6 +347,10 @@ passwordResetAccountRecovery-information = ਅਸੀਂ ਤੁਹਾਡੇ ਸ�
 # After the colon there is a link to account settings
 passwordResetAccountRecovery-information-txt = ਅਸੀਂ ਤੁਹਾਡੇ ਸਾਰੇ ਸਿੰਕ ਕੀਤੇ ਡਿਵਾਈਸਾਂ ਤੋਂ ਲਾਗ ਆਉਟ ਕਰ ਦਿੱਤਾ ਹੈ। ਅਸੀਂ ਤੁਹਾਡੇ ਵਲੋਂ ਵਰਤੀ ਗਈ ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਲਈ ਨਵੀਂ ਬਣਾਈ ਹੈ। ਤੁਸੀਂ ਆਪਣੀਆਂ ਖਾਤਾ ਸੈਟਿੰਗਾਂ ਵਿੱਚ ਇਸ ਨੂੰ ਬਦਲ ਸਕਦੇ ਹੋ:
 passwordResetAccountRecovery-action-4 = ਖਾਤੇ ਦਾ ਇੰਤਜ਼ਾਮ ਕਰੋ
+passwordResetRecoveryPhone-subject = ਰਿਕਵਰੀ ਫ਼ੋਨ ਵਰਤਿਆ ਗਿਆ
+passwordResetRecoveryPhone-preview = ਜਾਂਚ ਕਿ ਇਹ ਤੁਸੀਂ ਹੀ ਸੀ
+passwordResetRecoveryPhone-device = ਇੱਥੋਂ ਰਿਕਵਰੀ ਫ਼ੋਨ ਨੂੰ ਵਰਤਿਆ ਗਿਆ:
+passwordResetRecoveryPhone-action = ਖਾਤੇ ਦਾ ਇੰਤਜ਼ਾਮ ਕਰੋ
 passwordResetWithRecoveryKeyPrompt-subject = ਤੁਹਾਡੇ ਪਾਸਵਰਡ ਨੂੰ ਮੁੜ ਸੈੱਟ ਕੀਤਾ ਗਿਆ ਹੈ
 passwordResetWithRecoveryKeyPrompt-title = ਤੁਹਾਡੇ ਪਾਸਵਰਡ ਨੂੰ ਮੁੜ ਸੈੱਟ ਕੀਤਾ ਗਿਆ ਹੈ
 # Details of the device and date/time where the password was reset
@@ -367,12 +373,17 @@ postAddLinkedAccount-title-2 = oੁਹਾਡੇ { $providerName } ਨੂੰ ਤ�
 postAddLinkedAccount-action = ਖਾਤੇ ਦਾ ਇੰਤਜ਼ਾਮ ਕਰੋ
 postAddRecoveryPhone-subject = ਰਿਕਵਰੀ ਫ਼ੋਨ ਜੋੜਿਆ ਗਿਆ
 postAddRecoveryPhone-preview = ਖਾਤਾ ਦੋ-ਪੜ੍ਹਾਵੀਂ ਪਰਮਾਣੀਕਰਨ ਨਾਲ ਸੁਰੱਖਿਅਤ ਹੈ
+postAddRecoveryPhone-title-v2 = ਤੁਸੀਂ ਰਿਕਵਰੀ ਫ਼ੋਨ ਨੰਬਰ ਜੋੜਿਆ ਸੀ
 # Links out to a support article about two factor authentication
 postAddRecoveryPhone-how-protect = ਇਹ ਤੁਹਾਡੇ ਖਾਤੇ ਨੂੰ ਸੁਰੱਖਿਅਤ ਕਿਵੇਂ ਕਰਦਾ ਹੈ
 postAddRecoveryPhone-how-protect-plaintext = ਇਹ ਤੁਹਾਡੇ ਖਾਤੇ ਨੂੰ ਸੁਰੱਖਿਅਤ ਕਿਵੇਂ ਕਰਦਾ ਹੈ:
 postAddRecoveryPhone-enabled-device = ਤੁਸੀ ਇਸ ਨੂੰ ਇੱਥੋਂ ਸਮਰੱਥ ਕੀਤਾ:
 postAddRecoveryPhone-action = ਖਾਤੇ ਦਾ ਇੰਤਜ਼ਾਮ ਕਰੋ
+postAddTwoStepAuthentication-preview = ਤੁਹਾਡਾ ਖਾਤਾ ਸੁਰੱਖਿਅਤ ਹੈ
+postAddTwoStepAuthentication-subject-v3 = ਦੋ-ਪੜ੍ਹਾਵੀਂ ਪਰਮਾਣਕਿਤਾ ਚਾਲੂ ਹੈ
 postAddTwoStepAuthentication-title-2 = ਤੁਸੀਂ ਦੋ-ਪੜ੍ਹਾਵੀਂ ਪਰਮਾਣੀਕਰਨ ਚਾਲੂ ਕੀਤੀ
+# After the colon, there is a description of the device that the user used to enable two-step authentication
+postAddTwoStepAuthentication-from-device-v2 = ਇਸ ਤੋਂ ਤੁਸੀਂ ਬੇਨਤੀ ਕੀਤੀ ਸੀ:
 postAddTwoStepAuthentication-action = ਖਾਤੇ ਦਾ ਇੰਤਜ਼ਾਮ ਕਰੋ
 postChangeAccountRecovery-subject = ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਬਦਲੀ ਗਈ
 postChangeAccountRecovery-title = ਤੁਸੀਂ ਆਪਣੀ ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਨੂੰ ਬਦਲਿਆ ਹੈ

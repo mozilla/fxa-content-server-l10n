@@ -884,6 +884,7 @@ recent-activity-account-recovery-phone-removed = ਰਿਕਵਰੀ ਫ਼ੋਨ
 recent-activity-account-recovery-codes-replaced = ਰਿਕਵਰੀ ਕੋਡਾਂ ਨੂੰ ਬਦਲਿਆ ਗਿਆ
 recent-activity-account-recovery-codes-created = ਰਿਕਵਰੀ ਕੋਡ ਬਣਾਏ ਗਏ
 recent-activity-account-recovery-codes-signin-complete = ਰਿਕਵਰੀ ਕੋਡਾਂ ਨਾਲ ਸਾਈਨ ਇਨ ਕਰਨਾ ਪੂਰਾ ਹੋਇਆ
+recent-activity-must-reset-password = ਪਾਸਵਰਡ ਮੁੜ-ਸੈੱਟ ਕਰਨ ਦੀ ਲੋੜ ਹੈ
 # Security event was recorded, but the activity details are unknown or not shown to user
 recent-activity-unknown = ਹੋਰ ਖਾਤਾ ਸਰਗਰਮੀ
 
@@ -906,7 +907,10 @@ settings-recovery-phone-remove-success = ਰਿਕਵਰੀ ਫ਼ੋਨ ਨੂ�
 ## PageSetupRecoveryPhone
 
 page-setup-recovery-phone-heading = ਰਿਕਵਰੀ ਫ਼ੋਨ ਜੋੜੋ
+page-change-recovery-phone = ਰਿਕਵਰੀ ਫ਼ੋਨ ਨੂੰ ਬਦਲੋ
 page-setup-recovery-phone-back-button-title = ਸੈਟਿੰਗਾਂ ‘ਤੇ ਵਾਪਸ ਜਾਓ
+# Back arrow to return to step 1 of recovery phone setup flow
+page-setup-recovery-phone-step2-back-button-title = ਫ਼ੋਨ ਨੰਬਰ ਨੂੰ ਬਦਲੋ
 
 ## Add secondary email page
 
@@ -953,8 +957,11 @@ inactive-update-status-success-alert = ਕਾਮਯਾਬੀ ਨਾਲ ਸਾਈ
 
 product-promo-monitor =
     .alt = { -product-mozilla-monitor }
+product-promo-monitor-description-v2 = ਪਤਾ ਕਰੋ ਕਿ ਤੁਹਾਡੀ ਨਿੱਜੀ ਜਾਣਕਾਰੀ ਕਿੱਥੇ ਦਿਸਦੀ ਹੈ, ਉਸ ਨੂੰ ਆਪਣੇ ਹੱਥ ਹੇਠ ਕਰੋ
 # Links out to the Monitor site
 product-promo-monitor-cta = ਮੁਫ਼ਤ ਸਕੈਨ ਲਵੋ
+# Links out to the Monitor pricing site
+product-promo-monitor-special-promo-cta = ਪੂਰੇ ਸਾਲ ਭਰ ਲਈ ਸੁਰੱਖਿਆ ਲਵੋ
 
 ## Profile section
 
@@ -1004,6 +1011,8 @@ tfa-row-backup-codes-available-v2 =
         [one] { $numCodesAvailable } ਕੋਡ ਬਾਕੀ ਰਹਿ ਗਿਆ ਹੈ
        *[other] { $numCodesAvailable } ਕੋਡ ਬਾਕੀ ਰਹਿ ਗਏ ਹਨ
     }
+# Shown to users who have backup authentication codes - this will allow them to generate new codes to replace the previous ones
+tfa-row-backup-codes-get-new-cta-v2 = ਨਵੇਂ ਕੋਡ ਬਣਾਓ
 # Shown to users who have no backup authentication codes
 # Button to add backup authentication codes when none are configured
 tfa-row-backup-codes-add-cta = ਜੋੜੋ
@@ -1012,6 +1021,8 @@ tfa-row-backup-codes-description-2 = ਜੇ ਤੁਸੀਂ ਆਪਣੇ ਮੋ�
 # Recovery phone is a recovery method for two-step authentication
 # A recovery code can be sent to the user's phone
 tfa-row-backup-phone-title-v2 = ਰਿਕਵਰੀ ਫ਼ੋਨ
+# Shown with an alert icon to indicate that no recovery phone is configured
+tfa-row-backup-phone-not-available-v2 = ਕੋਈ ਫ਼ੋਨ ਨੰਬਰ ਨਹੀਂ ਜੋੜਿਆ ਗਿਆ
 # button to change the configured recovery phone
 tfa-row-backup-phone-change-cta = ਬਦਲੋ
 # button to add/configure a recovery phone
@@ -1101,6 +1112,7 @@ tfa-row-enabled = ਸਮਰੱਥ ਹੈ
 tfa-row-disabled-status = ਅਸਮਰੱਥ ਹੈ
 tfa-row-action-add = ਜੋੜੋ
 tfa-row-action-disable = ਅਸਮਰੱਥ ਕਰੋ
+tfa-row-action-change = ਬਦਲੋ
 tfa-row-button-refresh =
     .title = ਦੋ-ਪੜ੍ਹਾਵੀਂ ਪਰਮਾਣੀਕਰਨ ਤਾਜ਼ਾ ਕਰੋ
 # "this" refers to two-step authentication
@@ -1177,6 +1189,8 @@ auth-error-1032 = ਸਾਇਨ ਇਨ ਕਰਨ ਲਈ ਤੁਹਾਨੂੰ ਢ
 auth-error-1054 = ਗ਼ਲਤ ਦੋ-ਪੜ੍ਹਾਵੀ ਪਰਮਾਣੀਕਰਨ ਕੋਡ
 auth-error-1056 = ਗਲਤ ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ
 auth-error-1062 = ਅਢੁੱਕਵਾਂ ਰੀ-ਡਿਰੈਕਟ
+auth-error-1066 = ਈਮੇਲ ਮਾਸਕ ਨੂੰ ਖਾਤਾ ਬਣਾਉਣ ਲਈ ਨਹੀਂ ਵਰਤਿਆ ਜਾ ਸਕਦਾ ਹੈ।
+auth-error-1067 = ਈਮੇਲ ਗਲਤ ਲਿਖੀ?
 oauth-error-1000 = ਕੁਝ ਗਲਤ ਹੋ ਗਿਆ ਹੈ। ਇਹ ਟੈਬ ਬੰਦ ਕਰੋ ਅਤੇ ਮੁੜ ਕੋਸ਼ਿਸ਼ ਕਰੋ।
 
 ## Cannot Create Account page
@@ -1229,6 +1243,8 @@ cookies-disabled-learn-more = ਹੋਰ ਜਾਣੋ
 index-header = ਆਪਣਾ ਈਮੇਲ ਦਿਓ
 index-sync-header = ਆਪਣੇ { -product-mozilla-account } ਨਾਲ ਜਾਰੀ ਰੱਖੋ
 index-sync-subheader = ਜਿੱਥੇ ਵੀ ਤੁਸੀਂ { -brand-firefox } ਵਰਤੋਂ, ਆਪਣੇ ਪਾਸਵਰਡ, ਟੈਬਾਂ ਤੇ ਬੁੱਕਮਾਰਕਾਂ ਨੂੰ ਸਿੰਕ ਕਰੋ।
+index-relay-header = ਈਮੇਲ ਮਾਸਕ ਬਣਾਓ
+index-relay-subheader = ਆਪਣੀ ਮਾਸਕ ਕੀਤੀ ਈਮੇਲ ਤੋਂ ਜਿੱਥੇ ਤੁਸੀਂ ਈਮੇਲ ਅੱਗੇ ਭੇਜਣੀਆਂ ਚਾਹੁੰਦੇ ਹੋ, ਉਹ ਈਮੇਲ ਸਿਰਨਾਵਾਂ ਦਿਓ।
 # $serviceName - the service (e.g., Pontoon) that the user is signing into with a Mozilla account
 index-subheader-with-servicename = { $serviceName } ਨਾਲ ਜਾਰੀ ਰੱਖੋ
 index-subheader-with-logo = <span>{ $serviceLogo }</span> ਨਾਲ ਜਾਰੀ ਰੱਖੋ
@@ -1237,6 +1253,10 @@ index-cta = ਸਾਈਨ ਅੱਪ ਜਾਂ ਸਾਈਨ ਇਨ ਕਰੋ
 index-account-info = { -product-mozilla-account } ਖਾਤਾ { -brand-mozilla } ਵਲੋਂ ਹੋਰ ਪਰਦੇਦਾਰੀ-ਸੁਰੱਖਿਅਤ ਖਾਤਿਆਂ ਲਈ ਪਹੁੰਚ ਵੀ ਦਿੰਦਾ ਹੈ।
 index-email-input =
     .label = ਆਪਣਾ ਈਮੇਲ ਦਿਓ
+# When users delete their Mozilla account inside account Settings, they are redirected to this page with a success message
+index-account-delete-success = ਖਾਤੇ ਨੂੰ ਠੀਕ ਤਰ੍ਹਾਂ ਹਟਾਇਆ ਗਿਆ
+# Displayed when users try to sign up for an account and their confirmation code email bounces
+index-email-bounced = ਤੁਹਾਡੀ ਤਸਦੀਕ ਈਮੇਲ ਵਾਪਿਸ ਪਰਤ ਆਈ ਹੈ। ਕੀ ਈਮੇਲ ਗਲਤ ਲਿਖਿਆ ਸੀ?
 
 ## InlineRecoveryKeySetup page component
 
@@ -1308,6 +1328,7 @@ inline-totp-setup-security-code-placeholder = ਪਰਮਾਣੀਕਰਨ ਕੋ
 # The "authentication code" here refers to the code provided by an authentication app.
 inline-totp-setup-code-required-error = ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਚਾਹੀਦਾ ਹੈ
 tfa-qr-code-alt = ਸਹਾਇਕ ਐਪਲੀਕੇਸ਼ਨਾਂ ਵਿੱਚ ਦੋ-ਪੜਾਵੀਂ ਪਰਮਾਣਿਕਤਾ ਨੂੰ ਸੈੱਟਅੱਪ ਕਰਨ ਲਈ { $code } ਕੋਡ ਦੀ ਵਰਤੋਂ ਕਰੋ।
+inline-totp-setup-page-title = ਦੋ-ਪੜ੍ਹਾਵੀਂ ਪਰਮਾਣੀਕਰਨ
 
 ## Legal page. This page contains simply a header and links to pages that display
 ## content from https://github.com/mozilla/legal-docs
@@ -1523,6 +1544,9 @@ reset-password-confirmed-cta = { $serviceName } ਨਾਲ ਜਾਰੀ ਰੱਖ
 # password, and they previously had set up an account recovery method.
 
 password-reset-recovery-method-header = ਆਪਣੇ ਪਾਸਵਰਡ ਨੂੰ ਮੁੜ-ਸੈੱਟ ਕਰੋ
+password-reset-recovery-method-subheader = ਕਿਸੇ ਰਿਕਵਰੀ ਢੰਗ ਨੂੰ ਚੁਣੋ
+# This is displayed to the user when they are choosing an alternative method to authenticate themself in the password reset process when they do not have access to their two-factor authenticator application
+password-reset-recovery-method-details = ਆਓ ਇਹ ਪੱਕਾ ਕਰੀਏ ਇਹ ਤੁਸੀਂ ਹੀ ਹੋ, ਜੋ ਆਪਣੇ ਰਿਕਵਰੀ ਢੰਗ ਵਰਤ ਰਹੇ ਹੋ।
 password-reset-recovery-method-phone = ਰਿਕਵਰੀ ਫ਼ੋਨ
 password-reset-recovery-method-code = ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ
 
@@ -1541,6 +1565,7 @@ reset-password-recovery-phone-send-code-error-heading = ਕੋਡ ਭੇਜਣ �
 reset-password-recovery-phone-code-verification-error-heading = ਤੁਹਾਡੇ ਕੋਡ ਨੂੰ ਤਸਦੀਕ ਕਰਨ ਦੌਰਾਨ ਸਮੱਸਿਆ ਆਈ ਸੀ
 # Follows the error message (e.g, "There was a problem sending a code")
 reset-password-recovery-phone-general-error-description = ਬਾਅਦ ਵਿੱਚ ਕੋਸ਼ਿਸ ਕਰੋ ਜੀ।
+reset-password-recovery-phone-invalid-code-error-description = ਕੋਡ ਗਲਤ ਹੈ ਜਾਂ ਮਿਆਦ ਪੁੱਗੀ ਹੈ।
 reset-password-with-recovery-key-verified-page-title = ਪਾਸਵਰਡ ਮੁੜ-ਸੈਟ ਕਰਨਾ ਕਾਮਯਾਬੀ ਰਿਹਾ
 reset-password-complete-new-password-saved = ਨਵਾਂ ਪਾਸਵਰਡ ਸੰਭਾਲਿਆ!
 reset-password-complete-recovery-key-created = ਨਵੀਂ ਖਾਤਾ ਰਿਕਵਰੀ ਕੁੰਜੀ ਬਣਾਈ ਗਈ। ਇਸ ਨੂੰ ਹੁਣੇ ਡਾਊਨਲੋਡ ਕਰਕੇ ਸੰਭਾਲੋ।
@@ -1573,6 +1598,11 @@ signin-header = ਸਾਈਨ ਇਨ
 signin-use-a-different-account-link = ਵੱਖਰੇ ਖਾਤੇ ਨੂੰ ਵਰਤੋਂ
 signin-forgot-password-link = ਪਾਸਵਰਡ ਭੁੱਲ ਗਏ ਹੋ?
 signin-password-button-label = ਪਾਸਵਰਡ
+signin-code-expired-error = ਕੋਡ ਦੀ ਮਿਆਦ ਪੁੱਗੀ। ਫੇਰ ਸਾਈਨ ਇਨ ਕਰੋ।
+signin-account-locked-banner-heading = ਆਪਣੇ ਪਾਸਵਰਡ ਨੂੰ ਮੁੜ-ਸੈੱਟ ਕਰੋ
+signin-account-locked-banner-description = ਤੁਹਾਡੇ ਖਾਤੇ ਨੂੰ ਸ਼ੱਕੀ ਸਰਗਰਮੀ ਤੋਂ ਸੁਰੱਖਿਅਤ ਰੱਖਣ ਵਾਸਤੇ ਅਸੀਂ ਇਸ ਨੂੰ ਲਾਕ ਕਰ ਦਿੱਤਾ ਹੈ।
+# This link points to https://accounts.firefox.com/reset_password
+signin-account-locked-banner-link = ਸਾਈਨ ਇਨ ਕਰਨ ਲਈ ਆਪਣੇ ਪਾਸਵਰਡ ਨੂੰ ਮੁੜ-ਸੈੱਟ ਕਰੋ
 
 ## ReportSignin Page
 ## When users receive an "Is this you signing in?" email with an unblock code,
@@ -1617,6 +1647,7 @@ signin-push-code-confirm-link-error = ਲਿੰਕ ਨੁਕਾਸਿਆ ਗਿ�
 
 signin-recovery-method-header = ਸਾਈਨ ਇਨ
 signin-recovery-method-subheader = ਰਿਕਵਰੀ ਢੰਗ ਚੁਣੋ
+signin-recovery-method-details = ਆਓ ਇਹ ਪੱਕਾ ਕਰੀਏ ਇਹ ਤੁਸੀਂ ਹੀ ਹੋ, ਜੋ ਆਪਣੇ ਰਿਕਵਰੀ ਢੰਗ ਵਰਤ ਰਹੇ ਹੋ।
 signin-recovery-method-phone = ਰਿਕਵਰੀ ਫ਼ੋਨ
 signin-recovery-method-code-v2 = ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ
 # Variable: $numBackupCodes (String) - The number of backup authentication codes the user has left, e.g., 4
@@ -1658,6 +1689,8 @@ signin-recovery-phone-send-code-error-heading = ਕੋਡ ਭੇਜਣ ਦੌਰ
 signin-recovery-phone-code-verification-error-heading = ਤੁਹਾਡੇ ਕੋਡ ਨੂੰ ਤਸਦੀਕ ਕਰਨ ਦੌਰਾਨ ਸਮੱਸਿਆ ਆਈ ਸੀ
 # Follows the error message (e.g, "There was a problem sending a code")
 signin-recovery-phone-general-error-description = ਬਾਅਦ ਵਿੱਚ ਕੋਸ਼ਿਸ ਕਰੋ ਜੀ।
+signin-recovery-phone-invalid-code-error-description = ਕੋਡ ਗਲਤ ਹੈ ਜਾਂ ਮਿਆਦ ਪੁੱਗੀ ਹੈ।
+signin-recovery-phone-invalid-code-error-link = ਇਸ ਦੀ ਬਜਾਏ ਬੈਕਅੱਪ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਨੂੰ ਵਰਤਣਾ ਹੈ?
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -1727,6 +1760,7 @@ confirm-signup-code-heading-2 = <span>ਆਪਣੇ { -product-mozilla-account }<
 confirm-signup-code-input-label = 6-ਅੰਕ ਦਾ ਕੋਡ ਦਿਓ
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = ਤਸਦੀਕ
+confirm-signup-code-sync-button = ਸਿੰਕ ਕਰਨਾ ਸ਼ੁਰੂ
 confirm-signup-code-code-expired = ਕੋਡ ਦੀ ਮਿਆਦ ਪੁੱਗੀ?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = ਨਵਾਂ ਕੋਡ ਈਮੇਲ ਕਰੋ।
@@ -1737,6 +1771,7 @@ confirm-signup-code-is-required-error = ਤਸਦੀਕੀਕਰਨ ਕੋਡ �
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
+signup-heading-v2 = ਪਾਸਵਰਡ ਬਣਾਓ
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = ਮੈਨੂੰ ਇਹ ਖਾਤਾ ਬਣਾਉਣ ਦੀ ਲੋੜ ਕਿਉਂ ਹੈ?
 # Link included in a dismissible info banner that is only displayed to Pocket clients
@@ -1744,3 +1779,13 @@ signup-pocket-info-banner = ਮੈਨੂੰ ਇਹ ਖਾਤਾ ਬਣਾਉਣ 
 signup-pocket-info-banner-link = ਇੱਥੇ ਹੋਰ ਲੱਭੋ
 # Clicking on this link returns the user to the beginning of the flow so they can enter a new email address
 signup-change-email-link = ਈਮੇਲ ਬਦਲੋ
+
+## SignupConfirmedSync page
+## Shown to users when they finish confirming their account through Sync
+
+signup-confirmed-sync-header = ਸਿੰਕ ਕਰਨਾ ਚਾਲੂ ਹੈ
+signup-confirmed-sync-success-banner = { -product-mozilla-account } ਤਸਦੀਕ ਕੀਤਾ
+signup-confirmed-sync-button = ਬਰਾਊਜ਼ ਕਰਨਾ ਸ਼ੁਰੂ ਕਰੋ
+signup-confirmed-sync-add-device-link = ਹੋਰ ਡਿਵਾਈਸ ਨੂੰ ਜੋੜੋ
+signup-confirmed-sync-manage-sync-button = ਸਿੰਕ ਦਾ ਇੰਤਜ਼ਾਮ
+signup-confirmed-sync-set-password-success-banner = ਸਿੰਕ ਕਰਨ ਵਾਲਾ ਪਾਸਵਰਡ ਬਣਾਇਆ
