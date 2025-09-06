@@ -36,9 +36,9 @@ unionpay-logo-alt-text = Logotip { -brand-unionpay }
 visa-logo-alt-text = Logotip { -brand-visa }
 # Alt text for generic payment card logo
 unbranded-logo-alt-text = Logotip brez blagovne znamke
-link-logo-alt-text = Logotip { -brand-link }
-apple-pay-logo-alt-text = Logotip { -brand-apple-pay }
-google-pay-logo-alt-text = Logotip { -brand-google-pay }
+link-logo-alt-text = Logotip storitve { -brand-link }
+apple-pay-logo-alt-text = Logotip storitve { -brand-apple-pay }
+google-pay-logo-alt-text = Logotip storitve { -brand-google-pay }
 
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -108,7 +108,7 @@ subscription-management-button-add-payment-method-aria = Dodaj način plačila
 subscription-management-button-add-payment-method = Dodaj
 subscription-management-button-change-payment-method-aria = Spremeni način plačila
 subscription-management-button-change-payment-method = Spremeni
-subscription-management-button-manage-payment-method-aria = Upravljanje načina plačila
+subscription-management-button-manage-payment-method-aria = Upravljanje plačilnega sredstva
 subscription-management-button-manage-payment-method = Upravljaj
 # $last4 (String) - Last four numbers of credit card
 subscription-management-card-ending-in = Kartica, ki se končuje s { $last4 }
@@ -326,7 +326,7 @@ resubscribe-dialog-content-with-tax = Vaš dostop do { $name } se bo še nadalje
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 resubscribe-dialog-action-button-resubscribe = Obnovi naročnino
     .aria-label = Ponovno se naroči na { $productName }
-resubscribe-success-dialog-title = Hvala! Pripravljeni ste.
+resubscribe-success-dialog-title = Hvala! Zdaj ste nared.
 resubscribe-success-dialog-action-button-close = Zapri
     .aria-label = Zapri pogovorno okno
 

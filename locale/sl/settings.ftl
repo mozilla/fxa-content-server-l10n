@@ -777,10 +777,10 @@ modal-mfa-protected-subtitle = Pomagajte nam preveriti, da ste vi spremenili pod
 #   expirationTime (Number) - the expiration time in minutes
 modal-mfa-protected-instruction =
     { $expirationTime ->
-        [one] Vnesite kodo, ki je bila poslana na <email>{ $email }</email>, v { $expirationTime } minuti.
-        [two] Vnesite kodo, ki je bila poslana na <email>{ $email }</email>, v { $expirationTime } minutah.
-        [few] Vnesite kodo, ki je bila poslana na <email>{ $email }</email>, v { $expirationTime } minutah.
-       *[other] Vnesite kodo, ki je bila poslana na <email>{ $email }</email>, v { $expirationTime } minutah.
+        [one] V { $expirationTime } minuti vnesite kodo, ki je bila poslana na <email>{ $email }</email>.
+        [two] V { $expirationTime } minutah vnesite kodo, ki je bila poslana na <email>{ $email }</email>.
+        [few] V { $expirationTime } minutah vnesite kodo, ki je bila poslana na <email>{ $email }</email>.
+       *[other] V { $expirationTime } minutah vnesite kodo, ki je bila poslana na <email>{ $email }</email>.
     }
 modal-mfa-protected-input-label = Vnesite 6-mestno kodo
 modal-mfa-protected-cancel-button = Prekliči
@@ -812,8 +812,8 @@ nav-email-comm = E-poštno obveščanje
 
 ## Page2faChange
 
-page-2fa-change-title = Spremeni overitev v dveh korakih
-page-2fa-change-success = Overitev v dveh korakih je posodobljena
+page-2fa-change-title = Spremeni overjanje v dveh korakih
+page-2fa-change-success = Overjanje v dveh korakih je bilo ponovno nastavljeno
 page-2fa-change-totpinfo-error = Pri menjavi aplikacije za overjanje v dveh korakih je prišlo do napake. Poskusite znova pozneje.
 page-2fa-change-qr-instruction = <strong>1. korak:</strong> skenirajte to kodo QR s katerokoli aplikacijo za overitev, kot je Duo ali Google Authenticator. To ustvari novo povezavo, vse stare povezave ne bodo več delovale.
 
@@ -831,7 +831,7 @@ tfa-replace-code-success-alert-4 = Rezervne overitvene kode so posodobljene
 tfa-create-code-success-alert = Rezervne overitvene kode so ustvarjene
 # Custom messaging for users replacing existing backup codes - Download step (1 of 2)
 # On this step, the codes are not yet replaced in the database - the old codes are still valid until step 2 is completed.
-tfa-replace-code-download-description = Shranite jih na mestu, ki si jih boste zapomnili. Vaše stare kode bodo zamenjane, ko dokončate naslednji korak.
+tfa-replace-code-download-description = Shranite jih na mesto, ki si ga boste zapomnili. Vaše stare kode bodo nadomeščene, ko dokončate naslednji korak.
 # Custom messaging for users replacing existing backup codes - Confirm step (2 of 2)
 # Until this confirmation step is successfully completed, the old codes are still active and the new codes are not saved in the database.
 tfa-replace-code-confirm-description = Z vnosom potrdite, da ste shranili kode. Vaše stare rezervne overitvene kode bodo onemogočene, ko bo ta korak zaključen.

@@ -164,7 +164,7 @@
         [orodnik] Googlom
        *[imenovalnik] Google
     }
--brand-google-pay = Če uporabljate { -brand-name }, morate
+-brand-google-pay = Google Pay
 -brand-paypal = PayPal
 -brand-name-stripe = Stripe
 -brand-amex = American Express
@@ -172,7 +172,7 @@
 -brand-discover = Discover
 -brand-jcb = JCB
 # Link payment processor (by Stripe)
--brand-link = Povezava
+-brand-link = Link
 -brand-mastercard = Mastercard
 -brand-unionpay = UnionPay
 -brand-visa = Visa

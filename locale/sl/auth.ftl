@@ -473,8 +473,8 @@ postChangeRecoveryPhone-title = Spremenili ste telefonsko številko za obnovitev
 postChangeRecoveryPhone-description = Zdaj imate novo telefonsko številko za obnovitev. Prejšnja številka je bila izbrisana.
 postChangeRecoveryPhone-requested-device = To ste zahtevali z naslednje naprave:
 postChangeTwoStepAuthentication-preview = Vaš račun je zaščiten
-postChangeTwoStepAuthentication-subject = Overitev v dveh korakih je posodobljena
-postChangeTwoStepAuthentication-title = Overitev v dveh korakih je posodobljena
+postChangeTwoStepAuthentication-subject = Overjanje v dveh korakih ponovno nastavljeno
+postChangeTwoStepAuthentication-title = Overjanje v dveh korakih je bilo ponovno nastavljeno
 postChangeTwoStepAuthentication-use-new-account = Zdaj morate uporabiti nov vnos { -product-mozilla-account } v aplikaciji za overitev. Starejši ne bo več deloval in ga lahko odstranite.
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postChangeTwoStepAuthentication-from-device = To ste zahtevali z naslednje naprave:
@@ -634,11 +634,11 @@ subscriptionFirstInvoice-content-auto-renew = Naročnina se bo samodejno obnovil
 subscriptionFirstInvoice-content-next-invoice = Naslednji račun: { $nextInvoiceDateOnly }
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-subject-2 = Način plačila za { $productName } je potekel ali bo kmalu potekel
-subscriptionPaymentExpired-title-2 = Vaše plačilno sredstvo je poteklo ali bo kmalu poteklo
+subscriptionPaymentExpired-subject-2 = Plačilnemu sredstvu za { $productName } je ali bo kmalu potekla veljavnost
+subscriptionPaymentExpired-title-2 = Vašemu plačilnemu sredstvu je ali bo kmalu potekla veljavnost
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-content-2 = Način plačila, ki ga uporabljate za { $productName }, je potekel ali bo kmalu potekel.
+subscriptionPaymentExpired-content-2 = Plačilnemu sredstvu, ki ga uporabljate za { $productName }, je potekla veljavnost ali mu bo potekla v kratkem.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = Plačilo za { $productName } neuspešno
@@ -646,7 +646,7 @@ subscriptionPaymentFailed-title = Žal imamo težave z vašim plačilom
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-content-problem = Pri zadnjem plačilu za { $productName } je prišlo do težave.
-subscriptionPaymentFailed-content-outdated-1 = Morda je vaše plačilo poteklo ali pa je trenutno način plačila zastarel.
+subscriptionPaymentFailed-content-outdated-1 = Morda je vašemu plačilnemu sredstvu potekla veljavnost ali pa je trenutni način plačila zastarel.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-subject = Potrebna je posodobitev podatkov o plačilu za { $productName }
@@ -654,7 +654,7 @@ subscriptionPaymentProviderCancelled-title = Žal imamo težave z vašim načino
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-content-detect = Zaznali smo težavo z vašim načinom plačila za { $productName }.
-subscriptionPaymentProviderCancelled-content-reason-1 = Morda je vaše plačilo poteklo ali pa je trenutno način plačila zastarel.
+subscriptionPaymentProviderCancelled-content-reason-1 = Morda je vašemu plačilnemu sredstvu potekla veljavnost ali pa je trenutni način plačila zastarel.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-subject = Naročnina na { $productName } je ponovno aktivirana
@@ -786,21 +786,21 @@ verifyAccountChange-subject = Uporabite { $code } za spremembo računa
 verifyAccountChange-preview =
     { $expirationTime ->
         [one] Ta koda poteče čez { $expirationTime } minuto.
-        [two] Ta koda poteče čez { $expirationTime } minut.
-        [few] Ta koda poteče čez { $expirationTime } minut.
+        [two] Ta koda poteče čez { $expirationTime } minuti.
+        [few] Ta koda poteče čez { $expirationTime } minute.
        *[other] Ta koda poteče čez { $expirationTime } minut.
     }
 verifyAccountChange-title = Ali spreminjate podatke o računu?
 # After the colon is a description of the device used to sign in to the service
-verifyAccountChange-safe = Pomagajte nam zaščititi vaš račun, tako da odobrite to spremembo dne:
+verifyAccountChange-safe = Pomagajte nam zaščititi vaš račun, tako da odobrite to spremembo, storjeno na naslednji napravi:
 verifyAccountChange-prompt = Če da, uporabite to overitveno kodo:
 # Variables:
 # $expirationTime (Number) - Represents the expiration time in minutes
 verifyAccountChange-expiry-notice =
     { $expirationTime ->
         [one] Poteče čez { $expirationTime } minuto.
-        [two] Poteče čez { $expirationTime } minut.
-        [few] Poteče čez { $expirationTime } minut.
+        [two] Poteče čez { $expirationTime } minuti.
+        [few] Poteče čez { $expirationTime } minute.
        *[other] Poteče čez { $expirationTime } minut.
     }
 # Variables:
