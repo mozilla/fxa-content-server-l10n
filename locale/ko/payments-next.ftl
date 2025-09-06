@@ -143,6 +143,7 @@ subscription-management-page-subscription-interval-yearly = { $productName } (�
 subscription-management-page-paypal-error-banner = 유효하지 않은 결제 정보입니다. 계정에 오류가 있습니다.
 subscription-management-page-paypal-error-banner-link = 관리
 paypal-payment-management-page-invalid-header = 유효하지 않은 결제 정보
+paypal-payment-management-page-invalid-description = { -brand-paypal } 계정에 오류가 있는 것 같습니다. 이 결제 문제를 해결하기 위해 필요한 조치를 취해 주시기 바랍니다.
 # Page - Not Found
 page-not-found-title = 페이지를 찾을 수 없음
 page-not-found-description = 요청하신 페이지를 찾을 수 없습니다. 알림을 받았으며 잘못된 모든 링크를 수정할 예정입니다.
@@ -309,6 +310,27 @@ subscription-cancellation-dialog-title = 가신다니 아쉽습니다.
 # $date (Date) - Last day of product access
 subscription-cancellation-dialog-msg = { $name } 구독이 취소되었습니다. { $date }까지 { $name }에 계속 접근할 수 있습니다.
 subscription-cancellation-dialog-aside = 질문이 있으신가요? <LinkExternal>{ -brand-mozilla } 지원</LinkExternal> 을 방문하세요.
+subscription-content-button-resubscribe = 재구독
+    .aria-label = { $productName } 재구독
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+subscription-content-resubscribe = <strong>{ $date }</strong>에 { $name }에 대한 접근 권한이 없어집니다.
+# $name (String) - The name of the subscribed product.
+resubscribe-dialog-title = { $name } 사용을 계속 하시겠습니까?
+
+## $name (String) - The name of the subscribed product.
+## $amount (Number) - The amount billed (excluding tax if tax does not exist). It will be formatted as currency.
+## $tax (Number) - The tax added on, not included in amount. It will be formatted as currency.
+## $endDate (Date) - The end date of the subscription period.
+
+resubscribe-dialog-content = { $name }에 대한 접근은 계속되며 결제 주기와 결제는 동일하게 유지됩니다. 다음 청구 금액은 { $endDate }에 { $amount }입니다.
+resubscribe-dialog-content-with-tax = { $name }에 대한 접근은 계속되며 결제 주기와 결제는 동일하게 유지됩니다. 다음 청구 금액은 { $endDate }에 { $amount } + { $tax }의 세금입니다.
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+resubscribe-dialog-action-button-resubscribe = 재구독
+    .aria-label = { $productName } 재구독
+resubscribe-success-dialog-title = 감사합니다! 모두 준비되었습니다.
+resubscribe-success-dialog-action-button-close = 닫기
+    .aria-label = 대화창 닫기
 
 ##
 
