@@ -24,6 +24,7 @@ unionpay-logo-alt-text = { -brand-unionpay } логотипі
 visa-logo-alt-text = { -brand-visa } логотипі
 # Alt text for generic payment card logo
 unbranded-logo-alt-text = Брендсіз логотип
+link-logo-alt-text = { -brand-link } логотипі
 
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -73,17 +74,24 @@ subscription-management-button-add-payment-method-aria = Төлем әдісін
 subscription-management-button-add-payment-method = Қосу
 subscription-management-button-change-payment-method-aria = Төлем әдісін өзгерту
 subscription-management-button-change-payment-method = Өзгерту
+subscription-management-button-manage-payment-method-aria = Төлем әдісін басқару
+subscription-management-button-manage-payment-method = Басқару
 # $last4 (String) - Last four numbers of credit card
 subscription-management-card-ending-in = { $last4 } деп аяқталатын карта
 # $expirationDate (Date) - Payment card's expiration date
 subscription-management-card-expires-date = Мерзімі { $expirationDate } күні аяқталады
 subscription-management-subscriptions-heading = Жазылулар
 subscription-management-your-subscriptions-aria = Сіздің жазылуларыңыз
+subscription-management-button-support = Көмек алу
+subscription-management-your-apple-iap-subscriptions-aria = Сіздің { -brand-apple } қолданбадағы жазылымдарыңыз
+subscription-management-apple-in-app-purchase = { -brand-apple }: Қолданбада сатып алу
 subscription-management-button-manage-subscription = Басқару
 
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
 
+subscription-management-page-subscription-interval-daily = { $productName } (күн сайын)
+subscription-management-page-subscription-interval-yearly = { $productName } (жыл сайын)
 subscription-management-page-paypal-error-banner-link = Басқару
 paypal-payment-management-page-invalid-header = Төлем ақпараты жарамсыз
 # Page - Not Found
@@ -93,8 +101,12 @@ page-not-found-back-button = Артқа
 
 ## Navigation breadcrumbs
 
+# Link title - Account settings
+subscription-management-breadcrumb-account-home = Тіркелгінің басты беті
 # Link title - Subscriptions management
 subscription-management-breadcrumb-subscriptions = Жазылулар
+# Link title - Payment method management
+subscription-management-breadcrumb-payment = Төлем әдістері
 
 ## Component - Payment Consent Checkbox
 

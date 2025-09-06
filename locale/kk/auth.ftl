@@ -388,8 +388,14 @@ postChangeRecoveryPhone-subject = Қалпына келтіру телефоны
 postChangeRecoveryPhone-preview = Тіркелгі екі факторлы аутентификациямен қорғалған
 postChangeRecoveryPhone-title = Сіз қалпына келтіру телефон нөмірін өзгерттіңіз
 postChangeRecoveryPhone-requested-device = Сіз оны келесі жерден сұрадыңыз:
+postChangeTwoStepAuthentication-preview = Сіздің тіркелгіңіз қорғалған
+postChangeTwoStepAuthentication-subject = Екі қадамды аутентификация жаңартылды
+postChangeTwoStepAuthentication-title = Екі қадамды аутентификация жаңартылған
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postChangeTwoStepAuthentication-from-device = Сіз мұны келесі жерден сұрадыңыз:
+postChangeTwoStepAuthentication-action = Тіркелгіні басқару
+postChangeTwoStepAuthentication-how-protects-link = Бұл сіздің тіркелгіңізді қалай қорғайды
+postChangeTwoStepAuthentication-how-protects-plaintext = Бұл сіздің тіркелгіңізді қалай қорғайды:
 postConsumeRecoveryCode-action = Тіркелгіні басқару
 postNewRecoveryCodes-subject-2 = Жаңа сақтық көшірме аутентификация кодтары жасалды
 postNewRecoveryCodes-title-2 = Сіз жаңа сақтық көшірме аутентификация кодтарын жасадыңыз
@@ -420,8 +426,10 @@ postRemoveTwoStepAuthentication-action = Тіркелгіні басқару
 postRemoveTwoStepAuthentication-not-required-2 = Сізге енді жүйеге кірген кезде аутентификация қолданбасынан қауіпсіздік кодтары керек емес.
 postSigninRecoveryCode-subject = Кіру үшін қолданылған сақтық аутентификация коды
 postSigninRecoveryCode-preview = Тіркелгі белсенділігін растау
+postSigninRecoveryCode-device = Сіз келесі жерден кірдіңіз:
 postSigninRecoveryCode-action = Тіркелгіні басқару
 postSigninRecoveryPhone-preview = Тіркелгі белсенділігін растау
+postSigninRecoveryPhone-device = Сіз келесі жерден кірдіңіз:
 postSigninRecoveryPhone-action = Тіркелгіні басқару
 postVerify-sub-title-3 = Біз сізді көруге қуаныштымыз!
 postVerify-title-2 = Бір бетті екі құрылғыда көргіңіз келе ме?
@@ -529,6 +537,10 @@ subscriptionFirstInvoice-content-auto-renew = Бас тартуды таңдам
 subscriptionFirstInvoice-content-next-invoice = Келесі шот: { $nextInvoiceDateOnly }
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-subject-2 = { $productName } үшін төлем әдісінің мерзімі бітті немесе жақында аяқталады
+subscriptionPaymentExpired-title-2 = Сіздің төлем әдісіңіздің мерзімі бітті немесе аяқталуға жақын
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = { $productName } төлемі сәтсіз аяқталды
 subscriptionPaymentFailed-title = Кешіріңіз, төлеміңізге қатысты мәселе орын алды
 # Variables:
@@ -568,6 +580,7 @@ subscriptionRenewalReminder-content-closing = Құрметпен,
 # Variables
 #   $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionRenewalReminder-content-signature = { $productName } командасы
+subscriptionReplaced-content-no-action = Сіздің тарапыңыздан ешқандай әрекет қажет емес.
 subscriptionsPaymentProviderCancelled-subject = { -brand-mozilla } жазылулары үшін төлем ақпаратын жаңарту қажет
 subscriptionsPaymentProviderCancelled-title = Кешіріңіз, төлем әдісіңізге қатысты мәселе орын алды
 subscriptionsPaymentProviderCancelled-content-detected = Келесі жазылулар үшін төлем әдісіңізге қатысты мәселелер анықтадық.
@@ -585,6 +598,10 @@ subscriptionSubsequentInvoice-content-next-invoice = Келесі шот: { $nex
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = Сіз { $productName } нұсқасына жаңартылдыңыз
 subscriptionUpgrade-title = Жаңартылғаныңыз үшін рахмет!
+# Variables:
+# $productNameOld (String) - The name of the previously subscribed product, e.g. Mozilla VPN
+# $productName (String) - The name of the new subscribed product, e.g. Mozilla VPN
+subscriptionUpgrade-upgrade-info-2 = Сіз { $productName } нұсқасына сәтті жаңартылдыңыз
 
 ## Variables:
 ## $paymentAmountOld (String) - The amount of the previous subscription payment, including currency, e.g. $10.00
