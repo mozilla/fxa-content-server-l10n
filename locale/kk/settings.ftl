@@ -375,6 +375,7 @@ password-info-balloon-reset-risk-info = Қалпына келтіру әреке
 ## PasswordStrengthInline component
 ## These strings are conditions that need to be met to qualify as a strong password
 
+password-strength-long-instruction = Басқа сайттарда пайдаланбаған күшті парольдң таңдаңыз. Оның қауіпсіздік талаптарына сәйкес келетініне көз жеткізіңіз:
 password-strength-inline-min-length = Кемінде 8 таңба
 password-strength-inline-not-email = Сіздің эл. пошта адресіңіз емес
 password-strength-inline-not-common = Жиі қолданылатын пароль емес
@@ -607,6 +608,7 @@ flow-recovery-key-info-cancel-link = Бас тарту
 ## FlowSetup2faApp
 
 flow-setup-2fa-scan-qr-instead-button = Оның орнына QR кодын сканерлеу керек пе?
+flow-setup-2fa-button = Жалғастыру
 
 ## The step to choose the two step authentication method in the two step
 ## authentication setup flow.
@@ -683,6 +685,15 @@ modal-close-title = Жабу
 modal-cancel-button = Бас тарту
 modal-default-confirm-button = Растау
 
+## ModalMfaProtected
+
+modal-mfa-protected-input-label = 6-цифрлық кодты енгізіңіз
+modal-mfa-protected-cancel-button = Бас тарту
+modal-mfa-protected-confirm-button = Растау
+modal-mfa-protected-code-expired = Кодтың мерзімі бітті ме?
+# Link to resend a new code to the user's email.
+modal-mfa-protected-resend-code-link = Жаңа кодты эл. поштамен жіберу.
+
 ## Modal Verify Session
 
 mvs-verify-your-email-2 = Эл. пошта адресіңізді растаңыз
@@ -703,6 +714,11 @@ nav-connected-services = Байланыстырылған қызметтер
 nav-data-collection = Деректерді жинау және қолдану
 nav-paid-subs = Ақылы жазылулар
 nav-email-comm = Эл. пошта хабарландырулары
+
+## Page2faChange
+
+page-2fa-change-title = Екі қадамды аутентификацияны өзгерту
+page-2fa-change-success = Екі қадамды аутентификация жаңартылды
 
 ## Two Step Authentication - replace backup authentication code
 
