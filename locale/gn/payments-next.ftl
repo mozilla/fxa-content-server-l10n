@@ -108,6 +108,7 @@ subscription-management-button-add-payment-method = Mbojuaju
 subscription-management-button-change-payment-method-aria = Emoambue mba’éichapa ehepyme’ẽta
 subscription-management-button-change-payment-method = Moambue
 subscription-management-button-manage-payment-method-aria = Eñangareko mba’éichapa ehepyme’ẽta
+subscription-management-button-manage-payment-method = Ñangareko
 # $last4 (String) - Last four numbers of credit card
 subscription-management-card-ending-in = Kuatia’atã opáva { $last4 }-pe
 # $expirationDate (Date) - Payment card's expiration date
@@ -115,6 +116,7 @@ subscription-management-card-expires-date = Hu’ãta { $expirationDate }
 subscription-management-subscriptions-heading = Ñemboheraguapy
 subscription-management-your-subscriptions-aria = Ne ñemboheraguapy
 subscription-management-no-subscriptions = Nde nereñemboheraguapýi gueteri
+subscription-management-button-support = Eipota pytyvõ
 subscription-management-your-apple-iap-subscriptions-aria = Ne ñemboheraguapy tembiporu’i ryepýpe { -brand-apple }
 subscription-management-apple-in-app-purchase = { -brand-apple }: Ojogua tembiporu’i ryepýpe
 subscription-management-your-google-iap-subscriptions-aria = Ne ñemboheraguapy { -brand-google } rembiporu’i ryepýpe
@@ -135,6 +137,8 @@ subscription-management-page-subscription-interval-weekly = { $productName } (ar
 subscription-management-page-subscription-interval-monthly = { $productName } (jasygua)
 subscription-management-page-subscription-interval-halfyearly = { $productName } (6-jasygua)
 subscription-management-page-subscription-interval-yearly = { $productName } (arygua)
+subscription-management-page-paypal-error-banner-link = Ñangareko
+paypal-payment-management-page-invalid-header = Marandu kuatiañemure oiko’ỹva
 # Page - Not Found
 page-not-found-title = Kuatiarogue ojejuhu’ỹva
 page-not-found-description = Ndojejuhúi kuatiarogue ejeruréva. Og̃uahẽ ne mba’ejerure ha romoĩporãta juajuha ikatúva oñembyai.
@@ -284,6 +288,8 @@ subscription-content-button-resubscribe = Eñemboheraguapyjey
 ## $endDate (Date) - The end date of the subscription period.
 
 resubscribe-success-dialog-title = ¡Aguyjevete! Oĩmbaitéma.
+resubscribe-success-dialog-action-button-close = Mboty
+    .aria-label = Ñomongeta mbotypyre
 
 ##
 

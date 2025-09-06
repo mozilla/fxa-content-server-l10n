@@ -286,6 +286,8 @@ backup-authentication-codes-image-aria-label =
     .aria-label = Mba’e’oka rechaha ijayvúva
 sync-clouds-image-aria-label =
     .aria-label = Arai ñembojuehe ra’ãnga’i ndive
+confetti-falling-image-aria-label =
+    .aria-label = Kuatia vore’i ho’áva vevépe
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -360,6 +362,7 @@ confirmation-link-reused-message = Ojeporúma pe joajuha ñemoneĩrãva ha pete�
 
 ## Locale Toggle Component
 
+locale-toggle-select-label = Eiporavo ñe’ẽ
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Mba’ejerure ojavýva
 
@@ -488,6 +491,12 @@ bento-menu-made-by-mozilla = { -brand-mozilla } moheñoimby
 
 connect-another-fx-mobile = Ereko { -brand-firefox } mba’e’oka térã tablétape
 connect-another-find-fx-mobile-2 = Eheka { -brand-firefox } { -google-play } ha { -app-store } ndive.
+# Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
+# These images are used to encourage users to download Firefox on their mobile devices.
+connect-another-play-store-image-2 =
+    .alt = Emboguejy { -brand-firefox } { -google-play }pe
+connect-another-app-store-image-3 =
+    .alt = Emboguejy { -brand-firefox } { -app-store } rupi
 
 ## Connected services section
 
@@ -663,6 +672,7 @@ flow-setup-2fa-backup-code-dl-button-continue = Ku’ejey
 
 ##
 
+flow-setup-2fa-inline-complete-success-banner = Ijurujáma mokõi jeku’épe ñemoneĩ
 flow-setup-2fa-inline-complete-backup-phone = Pumbyry guerujeyrã
 flow-setup-2fa-prompt-continue-button = Ku’ejey
 
