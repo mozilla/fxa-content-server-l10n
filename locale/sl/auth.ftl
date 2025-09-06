@@ -475,7 +475,7 @@ postChangeRecoveryPhone-requested-device = To ste zahtevali z naslednje naprave:
 postChangeTwoStepAuthentication-preview = Vaš račun je zaščiten
 postChangeTwoStepAuthentication-subject = Overjanje v dveh korakih ponovno nastavljeno
 postChangeTwoStepAuthentication-title = Overjanje v dveh korakih je bilo ponovno nastavljeno
-postChangeTwoStepAuthentication-use-new-account = Zdaj morate uporabiti nov vnos { -product-mozilla-account } v aplikaciji za overitev. Starejši ne bo več deloval in ga lahko odstranite.
+postChangeTwoStepAuthentication-use-new-account = Odslej morate v aplikaciji za overitev uporabljati nov vnos { -product-mozilla-account }. Dosedanji ne bo več deloval in ga lahko odstranite.
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postChangeTwoStepAuthentication-from-device = To ste zahtevali z naslednje naprave:
 postChangeTwoStepAuthentication-action = Upravljanje računa
@@ -727,7 +727,6 @@ subscriptionUpgrade-upgrade-info-2 = Uspešno ste nadgradili na { $productName }
 subscriptionUpgrade-content-charge-prorated-1 = Zaračunali smo vam enkraten prispevek v višini { $invoiceAmountDue }, ki odraža višjo ceno naročnine za preostanek tega obračunskega obdobja ({ $productPaymentCycleOld }).
 subscriptionUpgrade-content-charge-credit = Na račun ste prejeli dobroimetje v višini { $paymentProrated }.
 subscriptionUpgrade-content-subscription-next-bill-change = Od naslednjega računa se bo cena naročnine spreminjala.
-subscriptionUpgrade-content-old-price-halfyear = Prejšnja obrestna mera je bila { $paymentAmountOld } na šest mesecev.
 subscriptionUpgrade-content-old-price-default = Prejšnja cena je bila { $paymentAmountOld } na obračunski interval.
 subscriptionUpgrade-content-old-price-day-tax = Prejšnja postavka je bila { $paymentAmountOld } + { $paymentTaxOld } davek na dan.
 subscriptionUpgrade-content-old-price-week-tax = Prejšnja postavka je bila { $paymentAmountOld } + { $paymentTaxOld } davek na teden.
@@ -780,7 +779,7 @@ verify-subject = Dokončajte ustvarjanje računa
 verify-action-2 = Potrdi račun
 # Variables:
 # $code (String) - The verification code
-verifyAccountChange-subject = Uporabite { $code } za spremembo računa
+verifyAccountChange-subject = Za spremembo računa uporabite kodo { $code }
 # Variables:
 # $expirationTime (Number) - Represents the expiration time in minutes
 verifyAccountChange-preview =

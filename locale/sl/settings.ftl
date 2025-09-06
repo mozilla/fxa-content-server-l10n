@@ -834,7 +834,7 @@ tfa-create-code-success-alert = Rezervne overitvene kode so ustvarjene
 tfa-replace-code-download-description = Shranite jih na mesto, ki si ga boste zapomnili. Vaše stare kode bodo nadomeščene, ko dokončate naslednji korak.
 # Custom messaging for users replacing existing backup codes - Confirm step (2 of 2)
 # Until this confirmation step is successfully completed, the old codes are still active and the new codes are not saved in the database.
-tfa-replace-code-confirm-description = Z vnosom potrdite, da ste shranili kode. Vaše stare rezervne overitvene kode bodo onemogočene, ko bo ta korak zaključen.
+tfa-replace-code-confirm-description = Z vnosom ene izmed kod potrdite, da ste si jih shranili. Stare rezervne overitvene kode bodo po zaključku tega koraka prenehale veljati.
 # Error shown when the entered backup code does not match any of the generated codes
 tfa-incorrect-recovery-code-1 = Nepravilna rezervna overitvena koda
 

@@ -138,7 +138,7 @@ subscription-management-page-subscription-interval-weekly = { $productName } (te
 subscription-management-page-subscription-interval-monthly = { $productName } (mesečno)
 subscription-management-page-subscription-interval-halfyearly = { $productName } (na 6 mesecev)
 subscription-management-page-subscription-interval-yearly = { $productName } (letno)
-subscription-management-page-paypal-error-banner = neveljavne podatke o plačilu; prišlo je do napake z vašim računom.
+subscription-management-page-paypal-error-banner = Neveljavni podatki o plačilu; pri uporabi vašega računa je prišlo do napake.
 subscription-management-page-paypal-error-banner-link = Upravljaj
 paypal-payment-management-page-invalid-header = Neveljavni podatki za obračun
 paypal-payment-management-page-invalid-description = Videti je, da je prišlo do napake z vašim računom { -brand-paypal }. Uresničite vse potrebne ukrepe za razrešitev težave s plačilom.
@@ -302,12 +302,12 @@ subscription-content-button-cancel-subscription = Prekliči naročnino
     .aria-label = Prekličite naročnino na { $productName }
 subscription-content-button-cancel = Prekliči
     .aria-label = Prekličite naročnino na { $productName }
-subscription-content-cancel-action-error = Prišlo je do nepričakovane napake. Prosimo, poskusite znova.
-subscription-cancellation-dialog-title = Žal nam je, da odhajate
+subscription-content-cancel-action-error = Prišlo je do nepričakovane napake. Poskusite znova.
+subscription-cancellation-dialog-title = Žal nam je, da nas zapuščate
 # $name (String) - The name of the subscribed product.
 # $date (Date) - Last day of product access
-subscription-cancellation-dialog-msg = Vaša naročnina za { $name } je preklicana. Dostop do { $name } boste še vedno imeli do { $date }.
-subscription-cancellation-dialog-aside = Imate vprašanja? Obiščite <LinkExternal>podporo za { -brand-mozilla }</LinkExternal>.
+subscription-cancellation-dialog-msg = Vaša naročnina na { $name } je preklicana. { $name } boste lahko še vedno uporabljali do { $date }.
+subscription-cancellation-dialog-aside = Imate vprašanja? Obiščite <LinkExternal>podporo { -brand-mozilla }</LinkExternal>.
 subscription-content-button-resubscribe = Obnovi naročnino
     .aria-label = Ponovno se naroči na { $productName }
 # $name (String) - The name of the subscribed product.
@@ -321,7 +321,7 @@ resubscribe-dialog-title = Želite še naprej uporabljati { $name }?
 ## $tax (Number) - The tax added on, not included in amount. It will be formatted as currency.
 ## $endDate (Date) - The end date of the subscription period.
 
-resubscribe-dialog-content = Vaš dostop do { $name } se bo še nadaljeval, obračun in plačilo pa bo ostalo nespremenjeno. Naslednja bremenitev bo { $endDate } { $amount }.
+resubscribe-dialog-content = Še naprej boste imeli dostop do { $name }, obračunsko obdobje in plačilo pa bosta ostali nespremenjeni. Vaša naslednja bremenitev v vrednosti { $amount } bo opravljena dne { $endDate }.
 resubscribe-dialog-content-with-tax = Vaš dostop do { $name } se bo še nadaljeval, obračun in plačilo pa bo ostalo nespremenjeno. Naslednja bremenitev bo { $amount } + { $tax } davek { $endDate }.
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 resubscribe-dialog-action-button-resubscribe = Obnovi naročnino
