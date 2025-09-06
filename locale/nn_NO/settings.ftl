@@ -760,6 +760,7 @@ modal-default-confirm-button = Stadfest
 ## ModalMfaProtected
 
 modal-mfa-protected-title = Skriv inn stadfestingskode
+modal-mfa-protected-subtitle = Hjelp oss å forsikre oss om at det er du som endrar kontoinformasjonen din
 # This string is used to show a notification to the user for them to enter
 # email confirmation code to update their multi-factor-authentication-protected
 # account settings

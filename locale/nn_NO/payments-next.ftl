@@ -143,6 +143,7 @@ subscription-management-page-subscription-interval-yearly = { $productName } (å
 subscription-management-page-paypal-error-banner = Ugyldig betalingsinformasjon. Det er ein feil med kontoen din.
 subscription-management-page-paypal-error-banner-link = Handsam
 paypal-payment-management-page-invalid-header = Ugyldig faktureringsinformasjon
+paypal-payment-management-page-invalid-description = Det ser ut til å vere ein feil med { -brand-paypal }-kontoen din. Vi treng at du tek dei nødvendige stega for å løyse dette betalingsproblemet.
 # Page - Not Found
 page-not-found-title = Fann ikkje sida
 page-not-found-description = Fann ikkje sida du spurde etter. Vi er varsla og vil reparere lenker som ikkje fungerer.
