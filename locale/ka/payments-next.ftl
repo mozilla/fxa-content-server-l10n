@@ -111,6 +111,8 @@ subscription-management-button-add-payment-method-aria = გადახდი�
 subscription-management-button-add-payment-method = დამატება
 subscription-management-button-change-payment-method-aria = გადახდის საშუალებების შეცვლა
 subscription-management-button-change-payment-method = შეცვლა
+subscription-management-button-manage-payment-method-aria = გადახდის საშუალების მართვა
+subscription-management-button-manage-payment-method = მართვა
 # $last4 (String) - Last four numbers of credit card
 subscription-management-card-ending-in = ბარათი დაბოლოებით { $last4 }
 # $expirationDate (Date) - Payment card's expiration date
@@ -141,6 +143,9 @@ subscription-management-page-subscription-interval-weekly = { $productName } (�
 subscription-management-page-subscription-interval-monthly = { $productName } (ყოველთვიური)
 subscription-management-page-subscription-interval-halfyearly = { $productName } (6-თვიანი)
 subscription-management-page-subscription-interval-yearly = { $productName } (ყოველწლიური)
+subscription-management-page-paypal-error-banner = გადახდის არამართებული მონაცემები; შეცდომა წარმოიშვა ანგარიშთან დაკავშირებით.
+subscription-management-page-paypal-error-banner-link = მართვა
+paypal-payment-management-page-invalid-header = ანგარიშსწორების უმართებულო მონაცემები
 # Page - Not Found
 page-not-found-title = გვერდი ვერ მოიძებნა
 page-not-found-description = თქვენ მიერ მოთხოვნილი გვერდი ვერ მოიძებნა. ჩვენ უკვე გვეცნობა ამის შესახებ და ყველა შესაძლო დაზიანებულ ბმულს გავასწორებთ.

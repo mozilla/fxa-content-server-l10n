@@ -715,7 +715,7 @@ msgstr "მცდარბეჭდილია ელფოსტა?"
 
 #: .es5/lib/newsletters.js:24
 msgid "Early access to test new products"
-msgstr ""
+msgstr "ადრეული წვდომა ახალი პროდუქტების გამოსაცდელად"
 
 #: .es5/lib/newsletters.js:28
 msgid "Get the latest news about Mozilla and Firefox"
