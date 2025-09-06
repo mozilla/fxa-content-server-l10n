@@ -84,6 +84,8 @@ subscription-management-button-manage-subscription = Басқару
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
 
+subscription-management-page-paypal-error-banner-link = Басқару
+paypal-payment-management-page-invalid-header = Төлем ақпараты жарамсыз
 # Page - Not Found
 page-not-found-title = Бет табылмады
 page-not-found-description = Сіз сұраған бет табылмады. Ол туралы біз хабарды алдық, және қате бола алатын сілтемелерді жөндейміз.
@@ -148,6 +150,12 @@ payments-client-loading-spinner =
     .aria-label = Жүктелуде…
     .alt = Жүктелуде…
 
+## Payment method management page - Stripe
+
+# Save button for saving a new payment method
+payment-method-management-save-method = Төлем әдісін сақтау
+manage-stripe-payments-title = Төлем әдістерін басқару
+
 ## Payment Section
 
 next-new-user-card-title = Карта ақпаратын енгізіңіз
@@ -156,6 +164,8 @@ next-new-user-card-title = Карта ақпаратын енгізіңіз
 
 next-plan-details-header = Өнім мәліметтері
 next-plan-details-list-price = Прейскурант
+# $productName (String) - The name of the product, e.g. Mozilla VPN
+plan-details-product-prorated-price = { $productName } үшін пропорционалды баға
 next-plan-details-tax = Салықтар мен алымдар
 next-plan-details-total-label = Барлығы
 purchase-details-subtotal-label = Аралық сома
@@ -209,6 +219,7 @@ next-subscription-success-title = Жазылуды растау
 next-subscription-processing-title = Жазылуды растау…
 next-subscription-error-title = Жазылуды растау қатесі…
 subscription-title-plan-change-heading = Өзгерісіңізді қарап шығыңыз
+subscription-title-not-supported = Бұл жазылу жоспарын өзгертуге қолдау көрсетілмейді
 next-sub-guarantee = Ақшаны қайтарудың 30-күндік кепілдігі
 
 ## Component - TermsAndPrivacy
@@ -244,8 +255,13 @@ upgrade-purchase-details-new-plan-yearly = { $productName } (жыл сайын)
 ## Page Metadata Information
 ## $productTitle (String) - The name of the product to create subscription, e.g. Mozilla VPN
 
+# Checkout start
+metadata-title-checkout-start = Төлеу | { $productTitle }
 # Checkout error
 metadata-title-checkout-error = Қате | { $productTitle }
+metadata-description-checkout-error = Жазылымыңызды өңдеу кезінде қате орын алды. Бұл мәселе шешілмесе, қолдау қызметіне хабарласыңыз.
+# Checkout success
+metadata-title-checkout-success = Сәтті | { $productTitle }
 # Upgrade error
 metadata-title-upgrade-error = Қате | { $productTitle }
 metadata-description-upgrade-error = Жаңартуды өңдеу кезінде қате орын алды. Бұл мәселе шешілмесе, қолдау қызметіне хабарласыңыз.

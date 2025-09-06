@@ -388,6 +388,8 @@ postChangeRecoveryPhone-subject = Қалпына келтіру телефоны
 postChangeRecoveryPhone-preview = Тіркелгі екі факторлы аутентификациямен қорғалған
 postChangeRecoveryPhone-title = Сіз қалпына келтіру телефон нөмірін өзгерттіңіз
 postChangeRecoveryPhone-requested-device = Сіз оны келесі жерден сұрадыңыз:
+# After the colon, there is a description of the device that the user used to enable two-step authentication
+postChangeTwoStepAuthentication-from-device = Сіз мұны келесі жерден сұрадыңыз:
 postConsumeRecoveryCode-action = Тіркелгіні басқару
 postNewRecoveryCodes-subject-2 = Жаңа сақтық көшірме аутентификация кодтары жасалды
 postNewRecoveryCodes-title-2 = Сіз жаңа сақтық көшірме аутентификация кодтарын жасадыңыз
@@ -419,6 +421,7 @@ postRemoveTwoStepAuthentication-not-required-2 = Сізге енді жүйег�
 postSigninRecoveryCode-subject = Кіру үшін қолданылған сақтық аутентификация коды
 postSigninRecoveryCode-preview = Тіркелгі белсенділігін растау
 postSigninRecoveryCode-action = Тіркелгіні басқару
+postSigninRecoveryPhone-preview = Тіркелгі белсенділігін растау
 postSigninRecoveryPhone-action = Тіркелгіні басқару
 postVerify-sub-title-3 = Біз сізді көруге қуаныштымыз!
 postVerify-title-2 = Бір бетті екі құрылғыда көргіңіз келе ме?

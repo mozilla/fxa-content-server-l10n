@@ -153,6 +153,11 @@ form-password-with-inline-criteria-reset-new-password =
 form-password-with-inline-criteria-confirm-password =
     .label = Парольді растау
 form-password-with-inline-criteria-reset-submit-button = Жаңа парольді жасау
+form-password-with-inline-criteria-set-password-new-password-label =
+    .label = Пароль
+form-password-with-inline-criteria-set-password-confirm-password-label =
+    .label = Парольді қайталау
+form-password-with-inline-criteria-set-password-submit-button = Синхрондауды бастау
 form-password-with-inline-criteria-match-error = Парольдер өзара сәйкес келмейді!
 form-password-with-inline-criteria-sr-too-short-message = Пароль кемінде 8 таңбадан тұруы керек.
 form-password-with-inline-criteria-sr-not-email-message = Пароль ішінде сіздің эл. пошта адресіңіз болмауы керек.
@@ -281,6 +286,8 @@ backup-authentication-codes-image-aria-label =
     .aria-label = Кодтары бар құрылғы экраны
 sync-clouds-image-aria-label =
     .aria-label = Синхрондау белгішесі бар бұлттар
+confetti-falling-image-aria-label =
+    .aria-label = Анимациялық құлап жатқан конфетти
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -355,6 +362,7 @@ confirmation-link-reused-message = Бұл растау сілтемесі қол
 
 ## Locale Toggle Component
 
+locale-toggle-select-label = Тілді таңдау
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Жарамсыз сұраным
 
