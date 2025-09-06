@@ -36,6 +36,9 @@ unionpay-logo-alt-text = { -brand-unionpay } ra’ãnga’i
 visa-logo-alt-text = { -brand-visa } ra’ãnga’i
 # Alt text for generic payment card logo
 unbranded-logo-alt-text = Ne mba’ete oñemo’ã
+link-logo-alt-text = { -brand-link } ra’ãnga’i
+apple-pay-logo-alt-text = { -brand-apple-pay } ra’ãnga’i
+google-pay-logo-alt-text = { -brand-google-pay } ra’ãnga’i
 
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -104,6 +107,7 @@ subscription-management-button-add-payment-method-aria = Embojuapy mba’éicha 
 subscription-management-button-add-payment-method = Mbojuaju
 subscription-management-button-change-payment-method-aria = Emoambue mba’éichapa ehepyme’ẽta
 subscription-management-button-change-payment-method = Moambue
+subscription-management-button-manage-payment-method-aria = Eñangareko mba’éichapa ehepyme’ẽta
 # $last4 (String) - Last four numbers of credit card
 subscription-management-card-ending-in = Kuatia’atã opáva { $last4 }-pe
 # $expirationDate (Date) - Payment card's expiration date

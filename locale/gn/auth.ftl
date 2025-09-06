@@ -752,6 +752,17 @@ verify-description-2 = Emoneĩ ne mba’ete ha eiporuporã { -brand-mozilla } ei
 verify-subject = Emoheñoimava’erã mba’ete
 verify-action-2 = Emoneĩjey mba’ete
 # Variables:
+# $code (String) - The verification code
+verifyAccountChange-subject = Eiporu -{ $code } emoambue hag̃ua ne mba’ete
+# Variables:
+# $expirationTime (Number) - Represents the expiration time in minutes
+verifyAccountChange-preview =
+    { $expirationTime ->
+        [one] Ko ayvu hu’ãta { $expirationTime } aravo’ípe.
+       *[other] Ko ayvu hu’ãta { $expirationTime } aravo’ípe.
+    }
+verifyAccountChange-title = ¿Emoambuehína marandu ne mba’ete rehegua?
+# Variables:
 #  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title-2 = ¿Emoñepyrũ tembiapo { $clientName }-pe?
 verifyLogin-description-2 = Orepytyvõ rorekóvo ne mba’ete tekorosãme emoneĩvo tembiapo ñepyrũ amo:
