@@ -759,6 +759,28 @@ modal-close-title = დახურვა
 modal-cancel-button = გაუქმება
 modal-default-confirm-button = თანხმობა
 
+## ModalMfaProtected
+
+modal-mfa-protected-title = შეიყვანეთ დადასტურების კოდი
+modal-mfa-protected-subtitle = დაგვეხმარეთ დადასტურებაში, რომ ნამდვილად თქვენ ცდილობთ ანგარიშის მონაცემების ცვლილებას
+# This string is used to show a notification to the user for them to enter
+# email confirmation code to update their multi-factor-authentication-protected
+# account settings
+# Variables:
+#   email (String) - the user's email
+#   expirationTime (Number) - the expiration time in minutes
+modal-mfa-protected-instruction =
+    { $expirationTime ->
+        [one] შეიყვანეთ კოდი, რომელიც მოგივათ ელფოსტაზე <email>{ $email }</email> { $expirationTime } წუთის განმავლობაში.
+       *[other] შეიყვანეთ კოდი, რომელიც მოგივათ ელფოსტაზე <email>{ $email }</email> { $expirationTime } წუთის განმავლობაში.
+    }
+modal-mfa-protected-input-label = შეიყვანეთ 6-ციფრიანი კოდი
+modal-mfa-protected-cancel-button = გაუქმება
+modal-mfa-protected-confirm-button = თანხმობა
+modal-mfa-protected-code-expired = კოდი ვადაგასულია?
+# Link to resend a new code to the user's email.
+modal-mfa-protected-resend-code-link = ახალი კოდის გაგზავნა.
+
 ## Modal Verify Session
 
 mvs-verify-your-email-2 = ელფოსტის დადასტურება

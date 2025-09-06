@@ -218,7 +218,7 @@ msgstr "გადახდა და ანგარიშსწორება"
 
 #: .es5/models/support-form.js:23
 msgid "account issues"
-msgstr "ანგარიშის ხარვეზები"
+msgstr ""
 
 #: .es5/models/support-form.js:23
 msgid "technical issues"
