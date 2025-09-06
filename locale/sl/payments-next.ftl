@@ -64,7 +64,7 @@ intent-payment-error-get-in-touch = Hmm. Pri avtorizaciji vašega plačila je pr
 intent-payment-error-generic = Med obdelavo vašega plačila je prišlo do nepričakovane napake, poskusite znova.
 intent-payment-error-insufficient-funds = Videti je, da na vaši kartici ni dovolj sredstev. Poskusite z drugo kartico.
 general-paypal-error = Med obdelavo vašega plačila je prišlo do nepričakovane napake, poskusite znova.
-paypal-active-subscription-no-billing-agreement-error = Videti je, da je prišlo do težave pri obračunu { -brand-paypal } računa. Ponovno omogočite samodejna plačila za svojo naročnino.
+paypal-active-subscription-no-billing-agreement-error = Videti je, da je prišlo do težave pri bremenitvi vašega računa { -brand-paypal }. Ponovno omogočite samodejna plačila za svojo naročnino.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
