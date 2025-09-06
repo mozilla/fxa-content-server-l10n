@@ -36,6 +36,9 @@ unionpay-logo-alt-text = { -brand-unionpay } 로고
 visa-logo-alt-text = { -brand-visa } 로고
 # Alt text for generic payment card logo
 unbranded-logo-alt-text = 로고 없음
+link-logo-alt-text = { -brand-link } 로고
+apple-pay-logo-alt-text = { -brand-apple-pay } 로고
+google-pay-logo-alt-text = { -brand-google-pay } 로고
 
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -105,6 +108,8 @@ subscription-management-button-add-payment-method-aria = 결제 수단 추가
 subscription-management-button-add-payment-method = 추가
 subscription-management-button-change-payment-method-aria = 결제 수단 변경
 subscription-management-button-change-payment-method = 변경
+subscription-management-button-manage-payment-method-aria = 결제 방법 관리
+subscription-management-button-manage-payment-method = 관리
 # $last4 (String) - Last four numbers of credit card
 subscription-management-card-ending-in = 끝자리가 { $last4 } 인 카드
 # $expirationDate (Date) - Payment card's expiration date
@@ -112,6 +117,9 @@ subscription-management-card-expires-date = 만료 { $expirationDate }
 subscription-management-subscriptions-heading = 구독
 subscription-management-your-subscriptions-aria = 구독 목록
 subscription-management-no-subscriptions = 아직 구독정보가 없습니다.
+subscription-management-button-support = 도움말
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscription-management-button-support-aria = { $productName }에 대한 도움말 보기
 subscription-management-your-apple-iap-subscriptions-aria = { -brand-apple } 앱 내부 구독
 subscription-management-apple-in-app-purchase = { -brand-apple }: 앱 내 구매
 subscription-management-your-google-iap-subscriptions-aria = { -brand-google } 앱 내부 구독
@@ -132,6 +140,9 @@ subscription-management-page-subscription-interval-weekly = { $productName } (�
 subscription-management-page-subscription-interval-monthly = { $productName } (월간)
 subscription-management-page-subscription-interval-halfyearly = { $productName } (6개월)
 subscription-management-page-subscription-interval-yearly = { $productName } (연간)
+subscription-management-page-paypal-error-banner = 유효하지 않은 결제 정보입니다. 계정에 오류가 있습니다.
+subscription-management-page-paypal-error-banner-link = 관리
+paypal-payment-management-page-invalid-header = 유효하지 않은 결제 정보
 # Page - Not Found
 page-not-found-title = 페이지를 찾을 수 없음
 page-not-found-description = 요청하신 페이지를 찾을 수 없습니다. 알림을 받았으며 잘못된 모든 링크를 수정할 예정입니다.
@@ -145,6 +156,8 @@ subscription-management-breadcrumb-account-home = 계정 홈
 subscription-management-breadcrumb-subscriptions = 구독
 # Link title - Payment method management
 subscription-management-breadcrumb-payment = 결제 방법
+# $page refers to page titles used in the breadcrumb menu (e.g. Account Home, Subscriptions, Payment Methods)
+subscription-management-breadcrumb-back-aria = { $page }로 가기
 
 ## Component - Payment Consent Checkbox
 
