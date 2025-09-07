@@ -738,6 +738,11 @@ subscriptionUpgrade-content-new-price-halfyear = Ko’águi tenondévo, oñehepy
 subscriptionUpgrade-content-new-price-year = Ko’águi tenondévo, oñehepyme’ẽta { $paymentAmountNew } aryguáva, oguejy’ỹre hepy.
 subscriptionUpgrade-content-new-price-default = Ko’águi tenondévo, oñehepyme’ẽta { $paymentAmountNew } ñemure mbokuatia pa’ũme, oguejy’ỹre hepy.
 subscriptionUpgrade-content-new-price-day-dtax = Ko’águi tenondévo, oñehepyme’ẽta { $paymentAmountNew } + { $paymentTaxNew } peteĩteĩ árape, oguejy’ỹre hepy.
+subscriptionUpgrade-content-new-price-week-tax = Ko’águi tenondévo, oñehepyme’ẽta { $paymentAmountNew } + { $paymentTaxNew } arapokõindygua, oguejy’ỹre hepy.
+subscriptionUpgrade-content-new-price-month-tax = Ko’águi tenondévo, oñehepyme’ẽta { $paymentAmountNew } + { $paymentTaxNew } jasygua, oguejy’ỹre hepy.
+subscriptionUpgrade-content-new-price-halfyear-tax = Ko’águi tenondévo, oñehepyme’ẽta { $paymentAmountNew } + { $paymentTaxNew } poteĩ jasygua, oguejy’ỹre hepy.
+subscriptionUpgrade-content-new-price-year-tax = Ko’águi tenondévo, oñehepyme’ẽta { $paymentAmountNew } + { $paymentTaxNew } aryguáva, oguejy’ỹre hepy.
+subscriptionUpgrade-content-new-price-default-tax = Ko’águi tenondévo, oñehepyme’ẽta { $paymentAmountNew } + { $paymentTaxNew } ñemure mbokuatia pa’ũme, oguejy’ỹre hepy.
 subscriptionUpgrade-existing = Oĩramo ne ñemboheraguapy ag̃agua okañy ko ñembohekopyahu ndive, roñangarekóta hese ha romondóta ndéve ñanduti veve umi mba’emimi reheve. Ne mba’epyahu orekórõ apopyre oikotevẽrõ ñemohenda, romondóta ndéve ñanduti veve orekóva mba’éichapa embohekóta.
 subscriptionUpgrade-auto-renew = Ne ñemboheraguapy ipyahúta ijeheguiete ehepyme’ẽvo eiporuva’ekue neremoneĩriramo ndete voi.
 unblockCode-subject = Ayvu ñemoneĩva mba’ete rehegua
@@ -780,6 +785,9 @@ verifyAccountChange-preview =
        *[other] Ko ayvu hu’ãta { $expirationTime } aravo’ípe.
     }
 verifyAccountChange-title = ¿Emoambuehína marandu ne mba’ete rehegua?
+# After the colon is a description of the device used to sign in to the service
+verifyAccountChange-safe = Orepytyvõ rorekóvo ne mba’ete tekorosãme emoneĩvo ko ambuepyre amo:
+verifyAccountChange-prompt = Upéicharõ, eiporu ko ayvu ñemoneĩha:
 # Variables:
 #  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title-2 = ¿Emoñepyrũ tembiapo { $clientName }-pe?

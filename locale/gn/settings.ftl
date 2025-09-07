@@ -735,6 +735,11 @@ modal-close-title = Mboty
 modal-cancel-button = Heja
 modal-default-confirm-button = Moneĩ
 
+## ModalMfaProtected
+
+modal-mfa-protected-cancel-button = Heja
+modal-mfa-protected-confirm-button = Moneĩ
+
 ## Modal Verify Session
 
 mvs-verify-your-email-2 = Emoneĩ ne ñandutiveve
