@@ -627,6 +627,10 @@ subscriptionFirstInvoice-content-auto-renew = Ne ñemboheraguapy ipyahúta ijehe
 # Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionFirstInvoice-content-next-invoice = Ñemuhague oútava: { $nextInvoiceDateOnly }
+subscriptionPaymentExpired-title-2 = Nde jehepyme’ẽrã opáma térã ndoikovéi potaite
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-content-2 = Nde jehepyme’ẽrã eiporúva { $productName } rehegua opáma térã ndoikovéi potaite.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = Jejavy ehepyme’ẽkuévo { $productName }
