@@ -108,7 +108,7 @@ subscription-management-button-add-payment-method-aria = Ajouter un moyen de pai
 subscription-management-button-add-payment-method = Ajouter
 subscription-management-button-change-payment-method-aria = Changer de moyen de paiement
 subscription-management-button-change-payment-method = Changer
-subscription-management-button-manage-payment-method-aria = Gérer le mode de paiement
+subscription-management-button-manage-payment-method-aria = Gérer le moyen de paiement
 subscription-management-button-manage-payment-method = Gérer
 # $last4 (String) - Last four numbers of credit card
 subscription-management-card-ending-in = Carte se terminant par { $last4 }
@@ -143,7 +143,7 @@ subscription-management-page-subscription-interval-yearly = { $productName } (pa
 subscription-management-page-paypal-error-banner = Informations de paiement invalides ; une erreur s’est produite avec votre compte.
 subscription-management-page-paypal-error-banner-link = Gérer
 paypal-payment-management-page-invalid-header = Informations de facturation invalides
-paypal-payment-management-page-invalid-description = Il semble y avoir une erreur avec votre compte { -brand-paypal }. Nous vous demandons de prendre les mesures nécessaires pour résoudre ce problème de paiement.
+paypal-payment-management-page-invalid-description = Il semble y avoir une erreur avec votre compte { -brand-paypal }. Veuillez prendre les mesures nécessaires pour résoudre ce problème de paiement.
 # Page - Not Found
 page-not-found-title = Page introuvable
 page-not-found-description = La page demandée est introuvable. Nous en avons été informés et nous rétablirons les liens éventuellement cassés.
