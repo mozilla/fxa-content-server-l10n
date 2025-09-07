@@ -741,6 +741,24 @@ modal-close-title = Đóng
 modal-cancel-button = Huỷ bỏ
 modal-default-confirm-button = Xác nhận
 
+## ModalMfaProtected
+
+modal-mfa-protected-title = Nhập mã xác nhận
+modal-mfa-protected-subtitle = Hãy giúp chúng tôi đảm bảo rằng bạn là người thay đổi thông tin tài khoản của mình
+# This string is used to show a notification to the user for them to enter
+# email confirmation code to update their multi-factor-authentication-protected
+# account settings
+# Variables:
+#   email (String) - the user's email
+#   expirationTime (Number) - the expiration time in minutes
+modal-mfa-protected-instruction = Nhập mã đã được gửi tới <email>{ $email }</email> trong vòng { $expirationTime } phút.
+modal-mfa-protected-input-label = Nhập mã gồm 6 chữ số
+modal-mfa-protected-cancel-button = Hủy bỏ
+modal-mfa-protected-confirm-button = Xác nhận
+modal-mfa-protected-code-expired = Mã đã hết hạn?
+# Link to resend a new code to the user's email.
+modal-mfa-protected-resend-code-link = Gửi mã mới qua email.
+
 ## Modal Verify Session
 
 mvs-verify-your-email-2 = Xác minh email của bạn

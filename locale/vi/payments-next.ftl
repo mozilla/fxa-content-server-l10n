@@ -108,6 +108,8 @@ subscription-management-button-add-payment-method-aria = Thêm phương thức t
 subscription-management-button-add-payment-method = Thêm
 subscription-management-button-change-payment-method-aria = Thay đổi phương thức thanh toán
 subscription-management-button-change-payment-method = Thay đổi
+subscription-management-button-manage-payment-method-aria = Quản lý phương thức thanh toán
+subscription-management-button-manage-payment-method = Quản lý
 # $last4 (String) - Last four numbers of credit card
 subscription-management-card-ending-in = Thẻ kết thúc bằng { $last4 }
 # $expirationDate (Date) - Payment card's expiration date
@@ -138,6 +140,10 @@ subscription-management-page-subscription-interval-weekly = { $productName } (h�
 subscription-management-page-subscription-interval-monthly = { $productName } (hàng tháng)
 subscription-management-page-subscription-interval-halfyearly = { $productName } (6 tháng)
 subscription-management-page-subscription-interval-yearly = { $productName } (hàng năm)
+subscription-management-page-paypal-error-banner = Thông tin thanh toán không hợp lệ; có lỗi với tài khoản của bạn.
+subscription-management-page-paypal-error-banner-link = Quản lý
+paypal-payment-management-page-invalid-header = Thông tin thanh toán không hợp lệ
+paypal-payment-management-page-invalid-description = Có vẻ như đã xảy ra lỗi với tài khoản { -brand-paypal } của bạn, chúng tôi cần bạn thực hiện các bước cần thiết để giải quyết vấn đề thanh toán này.
 # Page - Not Found
 page-not-found-title = Không tìm thấy trang
 page-not-found-description = Không tìm thấy trang bạn yêu cầu. Chúng tôi đã để ý và sẽ sửa bất kỳ liên kết nào có thể bị hỏng.
