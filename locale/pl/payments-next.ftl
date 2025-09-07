@@ -292,7 +292,7 @@ subscription-content-button-cancel-subscription = Anuluj subskrypcję
 subscription-content-button-cancel = Anuluj
     .aria-label = Anuluj subskrypcję { $productName }
 subscription-content-cancel-action-error = Wystąpił nieoczekiwany błąd. Spróbuj ponownie.
-subscription-cancellation-dialog-title = Przykro nam, że odchodzisz
+subscription-cancellation-dialog-title = Przykro nam, że chcesz się z nami pożegnać
 # $name (String) - The name of the subscribed product.
 # $date (Date) - Last day of product access
 subscription-cancellation-dialog-msg = Subskrypcja { $name } została anulowana. Będziesz mieć dostęp do { $name } do dnia { $date }.

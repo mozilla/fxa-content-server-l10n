@@ -481,7 +481,7 @@ postChangeRecoveryPhone-requested-device = Zażądano z urządzenia:
 postChangeTwoStepAuthentication-preview = Twoje konto jest chronione
 postChangeTwoStepAuthentication-subject = Zaktualizowano uwierzytelnianie dwuetapowe
 postChangeTwoStepAuthentication-title = Uwierzytelnianie dwuetapowe zostało zaktualizowane
-postChangeTwoStepAuthentication-use-new-account = Teraz musisz używać nowego wpisu { -product-mozilla-account } w swojej aplikacji uwierzytelniającej. Stary wpis nie będzie już działał i możesz go usunąć.
+postChangeTwoStepAuthentication-use-new-account = Teraz musisz używać nowego wpisu { -product-mozilla-account(case: "gen", capitalization: "lower") } w swojej aplikacji uwierzytelniającej. Poprzedni wpis nie będzie już działał i możesz go usunąć.
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postChangeTwoStepAuthentication-from-device = Zażądano z urządzenia:
 postChangeTwoStepAuthentication-action = Zarządzaj kontem

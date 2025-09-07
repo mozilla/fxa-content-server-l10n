@@ -781,6 +781,7 @@ nav-email-comm = Ustawienia poczty
 ## Page2faChange
 
 page-2fa-change-success = Uwierzytelnianie dwuetapowe zostało zaktualizowane
+page-2fa-change-qr-instruction = <strong>1. krok:</strong> zeskanuj ten kod QR za pomocą dowolnej aplikacji uwierzytelniającej, takiej jak Duo lub Google Authenticator. Utworzy to nowe połączenie, a wszystkie poprzednie połączenia przestaną działać.
 
 ## Two Step Authentication - replace backup authentication code
 
