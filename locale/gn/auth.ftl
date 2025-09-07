@@ -638,6 +638,7 @@ subscriptionPaymentFailed-title = Rombyasy, roguereko apañuái ne ñehepyme’�
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-content-problem = Rorekókuri apañuái ne ñehepyme’ẽ paha { $productName } peguápe.
+subscriptionPaymentFailed-content-outdated-1 = Ikatuhína pe nde jehepyme’ẽrã ndoikovéima térã pe ehepyme’ẽha ko’ag̃aguáva ndahekopyahúi.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-subject = Marandu tepyme’ẽgua rekopyahu oikotevẽva { $productName }.
@@ -645,6 +646,7 @@ subscriptionPaymentProviderCancelled-title = Rombyasy, roguereko apañuái ne ñ
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-content-detect = Roguerekókuri apañuái ne ñehepyme’ẽ reko { $productName } peguápe.
+subscriptionPaymentProviderCancelled-content-reason-1 = Ikatuhína pe nde jehepyme’ẽrã ndoikovéima térã pe ehepyme’ẽha ko’ag̃aguáva ndahekopyahúi.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-subject = Mboheraguapy { $productName } hendyjeýma
@@ -678,9 +680,13 @@ subscriptionReplaced-title = Ne ñemboheraguapy oñembohekopyahu
 subscriptionReplaced-content-replaced = Ne ñembokuatia peteĩteĩva { $productName } rehegua oñemyengovia ha ko’ág̃a oike ne mba’e’oka pyahúpe.
 subscriptionReplaced-content-credit = Rehupytýta peteĩ crédito oimeraẽ aravo ndojeporúiva rehe ne ñembokuatia ymavévape. Ko crédito ojejapóta ijeheguiete nde mba’etépe ha ojeporúta umi oútavape g̃uarã.
 subscriptionReplaced-content-no-action = Noikotevẽi mba’evete ndehegui.
+subscriptionsPaymentExpired-subject-2 = Nde jehepyme’ẽrã ne mboheraguapýpe g̃uarã ndokovéitama térã potaite
+subscriptionsPaymentExpired-title-2 = Nde ehepyme’ẽha opáma térã ndoikovéi potaite
+subscriptionsPaymentExpired-content-2 = Nde jehepyme’ẽrã eiporúva ehepyme’ẽkuaa hag̃ua ko’ã ñemboheraguapy rehegua opáma térã ndoikovéi potaite.
 subscriptionsPaymentProviderCancelled-subject = Marandu tepyme’ẽgua rekopyahu oikotevẽva { -brand-mozilla } mboheraguapýpe g̃uarã.
 subscriptionsPaymentProviderCancelled-title = Rombyasy, roguereko apañuái ne ñehepyme’ẽ rekópe
 subscriptionsPaymentProviderCancelled-content-detected = Rohechakuaa peteĩ apañuái ne ñehepyme’ẽ reko rehegua mboheraguapy tenondeve g̃uarãva.
+subscriptionsPaymentProviderCancelled-content-payment-1 = Ikatuhína pe nde jehepyme’ẽrã ndoikovéima térã pe ehepyme’ẽha ko’ag̃aguáva ndahekopyahúi.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-subject = Jehepyme’ẽ oúva { $productName }-gui
@@ -713,6 +719,7 @@ subscriptionUpgrade-upgrade-info-2 = Oñembohekopyahúma { $productName } hekope
 subscriptionUpgrade-content-charge-prorated-1 = Ehepyme’ẽma peteĩ jeýnte { $invoiceAmountDue } eikuaa hag̃ua ne ñemboheraguapy repykue hepyvéva ko kuatiañemure pukukue ryepýpe ({ $productPaymentCycleOld }).
 subscriptionUpgrade-content-charge-credit = Rehupyty peteĩ crédito mba’ete rehegua { $paymentProrated } repykuépe.
 subscriptionUpgrade-content-subscription-next-bill-change = Nde kuatiañemure tenondeguáva, ne ñemboheraguapy repy iñambuétama.
+subscriptionUpgrade-content-old-price-day = Pe tása mboyveguáva ha’e { $paymentAmountOld } aragua.
 subscriptionUpgrade-content-old-price-week = Pe tása mboyveguáva ha’e { $paymentAmountOld } arapokõindygua.
 subscriptionUpgrade-content-old-price-month = Pe tása mboyveguáva ha’e { $paymentAmountOld } jasygua.
 subscriptionUpgrade-content-old-price-halfyear = Pe tása mboyveguáva ha’e { $paymentAmountOld } poteĩ jasygua.
