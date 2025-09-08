@@ -767,6 +767,19 @@ modal-default-confirm-button = Potvrdiť
 
 modal-mfa-protected-title = Zadajte potvrdzovací kód
 modal-mfa-protected-subtitle = Pomôžte nám uistiť sa, že ste to vy, kto mení informácie o vašom účte
+# This string is used to show a notification to the user for them to enter
+# email confirmation code to update their multi-factor-authentication-protected
+# account settings
+# Variables:
+#   email (String) - the user's email
+#   expirationTime (Number) - the expiration time in minutes
+modal-mfa-protected-instruction =
+    { $expirationTime ->
+        [one] V priebehu { $expirationTime } minúty zadajte kód, ktorý bol odoslaný na e‑mailovú adresu <email>{ $email }</email>.
+        [few] V priebehu { $expirationTime } minút zadajte kód, ktorý bol odoslaný na e‑mailovú adresu <email>{ $email }</email>.
+        [many] V priebehu { $expirationTime } minút zadajte kód, ktorý bol odoslaný na e‑mailovú adresu <email>{ $email }</email>.
+       *[other] V priebehu { $expirationTime } minút zadajte kód, ktorý bol odoslaný na e‑mailovú adresu <email>{ $email }</email>.
+    }
 modal-mfa-protected-input-label = Zadajte šesťmiestny kód
 modal-mfa-protected-cancel-button = Zrušiť
 modal-mfa-protected-confirm-button = Potvrdiť
