@@ -108,6 +108,8 @@ subscription-management-button-add-payment-method-aria = Adicionar método de pa
 subscription-management-button-add-payment-method = Adicionar
 subscription-management-button-change-payment-method-aria = Alterar método de pagamento
 subscription-management-button-change-payment-method = Alterar
+subscription-management-button-manage-payment-method-aria = Gerir método de pagamento
+subscription-management-button-manage-payment-method = Gerir
 # $last4 (String) - Last four numbers of credit card
 subscription-management-card-ending-in = Cartão que terminar em { $last4 }
 # $expirationDate (Date) - Payment card's expiration date
@@ -138,6 +140,10 @@ subscription-management-page-subscription-interval-weekly = { $productName } (po
 subscription-management-page-subscription-interval-monthly = { $productName } (mensal)
 subscription-management-page-subscription-interval-halfyearly = { $productName } (6-meses)
 subscription-management-page-subscription-interval-yearly = { $productName } (anualmente)
+subscription-management-page-paypal-error-banner = Informação de pagamento inválida; existe um erro com a sua conta.
+subscription-management-page-paypal-error-banner-link = Gerir
+paypal-payment-management-page-invalid-header = Informação de faturação inválida
+paypal-payment-management-page-invalid-description = Parece haver um erro com a sua conta { -brand-paypal }. Precisamos que execute os passos necessários para resolver este problema de pagamento.
 # Page - Not Found
 page-not-found-title = Página não encontrada
 page-not-found-description = A página que solicitou não foi encontrada. Fomos notificados e iremos corrigir todas as ligações que possam estar quebradas.
