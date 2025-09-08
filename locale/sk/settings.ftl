@@ -763,6 +763,17 @@ modal-close-title = Zavrieť
 modal-cancel-button = Zrušiť
 modal-default-confirm-button = Potvrdiť
 
+## ModalMfaProtected
+
+modal-mfa-protected-title = Zadajte potvrdzovací kód
+modal-mfa-protected-subtitle = Pomôžte nám uistiť sa, že ste to vy, kto mení informácie o vašom účte
+modal-mfa-protected-input-label = Zadajte šesťmiestny kód
+modal-mfa-protected-cancel-button = Zrušiť
+modal-mfa-protected-confirm-button = Potvrdiť
+modal-mfa-protected-code-expired = Platnosť kódu vypršala?
+# Link to resend a new code to the user's email.
+modal-mfa-protected-resend-code-link = Odoslať e‑mailom nový kód.
+
 ## Modal Verify Session
 
 mvs-verify-your-email-2 = Potvrďte vašu e‑mailovú adresu
