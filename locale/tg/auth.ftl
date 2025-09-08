@@ -378,11 +378,14 @@ postChangeRecoveryPhone-subject = Телефони барқарорсозӣ на
 postChangeRecoveryPhone-preview = Ҳисоб бо санҷиши ҳаққонияти дуқадама ҳифз карда шуд
 postChangeRecoveryPhone-title = Шумо телефони барқарорсозии худро иваз кардед
 postChangeRecoveryPhone-requested-device = Шумо онро дар дастгоҳи зерин дархост кардед:
+postChangeTwoStepAuthentication-preview = Ҳисоби шумо ҳифз карда шудааст
 postChangeTwoStepAuthentication-subject = Санҷиши ҳаққонияти дуқадама навсозӣ карда шуд
 postChangeTwoStepAuthentication-title = Санҷиши ҳаққонияти дуқадама навсозӣ карда шудааст
 # After the colon, there is a description of the device that the user used to enable two-step authentication
 postChangeTwoStepAuthentication-from-device = Шумо инро дар дастгоҳи зерин дархост кардед:
 postChangeTwoStepAuthentication-action = Идоракунии ҳисоб
+postChangeTwoStepAuthentication-how-protects-link = Ин чӣ тавр ҳисоби шуморо муҳофизат мекунад
+postChangeTwoStepAuthentication-how-protects-plaintext = Ин чӣ тавр ҳисоби шуморо муҳофизат мекунад:
 postConsumeRecoveryCode-title-3 = Нусхаи эҳтиётии рамзи санҷиши ҳаққонияти шумо барои тасдиқи барқарорсозии ниҳонвожа истифода шуд
 # After the colon, there is description of the device that the backup authentication code was used on
 # E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024

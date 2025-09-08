@@ -11,7 +11,7 @@ msgstr ""
 
 #: .es5/views/confirm_reset_password.js:170
 msgid "Password reset"
-msgstr ""
+msgstr "Ниҳонвожа аз нав танзим карда шуд"
 
 #: .es5/views/confirm_reset_password.js:185
 msgid "Password reset successfully. Sign in to continue."
@@ -21,7 +21,7 @@ msgstr ""
 #: .es5/views/force_auth.js:170 .es5/lib/strings.js:49 .es5/templates/connect_another_device.mustache:16 .es5/templates/force_auth.mustache:3 .es5/templates/sign_in_password.mustache:3
 #: .es5/templates/sign_in_password.mustache:10
 msgid "Sign in"
-msgstr ""
+msgstr "Ворид шудан"
 
 #: .es5/views/index.js:154
 msgid "Account deleted successfully"
