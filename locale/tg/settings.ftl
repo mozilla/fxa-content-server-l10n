@@ -879,7 +879,7 @@ auth-error-105-2 = Рамзи тасдиқкунанда нодуруст аст
 auth-error-156 = Нусхаи эҳтиётии рамзи санҷиши ҳаққоният ёфт нашуд
 auth-error-214 = Рақами телефони барқарорсозӣ аллакай вуҷуд дорад
 auth-error-215 = Рақами телефони барқарорсозӣ вуҷуд надорад
-auth-error-1056 = нусхаи эҳтиётии рамзи санҷиши ҳаққонияти нодуруст
+auth-error-1056 = Нусхаи эҳтиётии рамзи санҷиши ҳаққонияти нодуруст
 # Displayed when we want to reference a user's previously set up recovery phone
 # number, but they are not completely signed in yet. We'll only show the last 4 digits.
 # Variables:

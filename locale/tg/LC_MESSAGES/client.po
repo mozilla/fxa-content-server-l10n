@@ -25,7 +25,7 @@ msgstr "Ворид шудан"
 
 #: .es5/views/index.js:154
 msgid "Account deleted successfully"
-msgstr ""
+msgstr "Ҳисоб бо муваффақият нест карда шуд"
 
 #: .es5/views/inline_totp_setup.js:128
 msgid "Use the code %(code)s to set up two-step authentication in supported applications."
@@ -37,19 +37,19 @@ msgstr ""
 
 #: .es5/views/permissions.js:34
 msgid "Email address"
-msgstr ""
+msgstr "Нишонии почтаи электронӣ"
 
 #: .es5/views/permissions.js:38
 msgid "Display name"
-msgstr ""
+msgstr "Номи намоишӣ"
 
 #: .es5/views/permissions.js:41
 msgid "Account picture"
-msgstr ""
+msgstr "Акси ҳисоб"
 
 #: .es5/views/ready.js:43
 msgid "Welcome back"
-msgstr ""
+msgstr "Бозгаштатон муборак"
 
 #: .es5/views/ready.js:44
 msgid "Firefox Sync will resume momentarily"
@@ -69,7 +69,7 @@ msgstr ""
 
 #: .es5/views/ready.js:59
 msgid "Primary email confirmed"
-msgstr ""
+msgstr "Почтаи электронии асосӣ тасдиқ карда шуд"
 
 #: .es5/views/ready.js:62
 msgid "Account notifications will now also be sent to %(secondaryEmailVerified)s."
@@ -77,11 +77,11 @@ msgstr ""
 
 #: .es5/views/ready.js:64 .es5/views/post_verify/verified.js:40
 msgid "Secondary email confirmed"
-msgstr ""
+msgstr "Почтаи электронии иловагӣ тасдиқ карда шуд"
 
 #: .es5/views/ready.js:69 .es5/templates/connect_another_device.mustache:7 .es5/templates/push/completed.mustache:1
 msgid "Sign-in confirmed"
-msgstr ""
+msgstr "Воридшавӣ тасдиқ карда шуд"
 
 #: .es5/views/ready.js:70 .es5/views/ready.js:75 .es5/views/ready.js:80 .es5/templates/ready.mustache:6 .es5/templates/ready.mustache:12
 msgid "You are now ready to use %(serviceName)s"
@@ -89,11 +89,11 @@ msgstr ""
 
 #: .es5/views/ready.js:74
 msgid "Account confirmed"
-msgstr ""
+msgstr "Ҳисоб тасдиқ карда шуд"
 
 #: .es5/views/ready.js:79
 msgid "Connected"
-msgstr ""
+msgstr "Пайваст шуд"
 
 #: .es5/views/ready.js:177
 msgid "You are now ready to make changes to your Firefox Account."
@@ -109,7 +109,7 @@ msgstr ""
 
 #: .es5/views/support.js:230 .es5/templates/support.mustache:10
 msgid "Other"
-msgstr ""
+msgstr "Дигар"
 
 #: .es5/views/support.js:231
 msgid "Thank you for reaching out to Mozilla Support about <b>%(escapedLowercaseTopic)s</b>. We'll contact you via email as soon as possible."
@@ -122,7 +122,7 @@ msgstr ""
 #. aria label for banner/tooltip dismiss button
 #: .es5/views/tooltip.js:75 .es5/templates/partial/account-suggestion.mustache:2
 msgid "Close"
-msgstr ""
+msgstr "Пӯшидан"
 
 #: .es5/views/post_verify/verified.js:37
 msgid "Account notifications will now also be sent to %(secondaryEmail)s."
@@ -138,11 +138,11 @@ msgstr ""
 
 #: .es5/views/mixins/account-reset-mixin.js:40 .es5/templates/complete_reset_password.mustache:15 .es5/templates/reset_password.mustache:1
 msgid "Reset password"
-msgstr ""
+msgstr "Барқарор кардани ниҳонвожа"
 
 #: .es5/views/mixins/last-checked-time-mixin.js:37
 msgid "none"
-msgstr ""
+msgstr "ҳеҷ"
 
 #: .es5/views/mixins/last-checked-time-mixin.js:41
 msgid "Last checked: %(lastCheckTime)s"
@@ -150,43 +150,43 @@ msgstr ""
 
 #: .es5/views/mixins/open-webmail-mixin.js:22
 msgid "Open Gmail"
-msgstr ""
+msgstr "Кушодани «Gmail»"
 
 #: .es5/views/mixins/open-webmail-mixin.js:27
 msgid "Open Hotmail"
-msgstr ""
+msgstr "Кушодани «Hotmail»"
 
 #: .es5/views/mixins/open-webmail-mixin.js:32
 msgid "Open Yahoo"
-msgstr ""
+msgstr "Кушодани «Yahoo»"
 
 #: .es5/views/mixins/open-webmail-mixin.js:37
 msgid "Open Outlook"
-msgstr ""
+msgstr "Кушодани «Outlook»"
 
 #: .es5/views/mixins/open-webmail-mixin.js:42
 msgid "Open Restmail"
-msgstr ""
+msgstr "Кушодани «Restmail»"
 
 #: .es5/views/mixins/password-mixin.js:135 .es5/views/mixins/password-mixin.js:136
 msgid "Hide password"
-msgstr ""
+msgstr "Пинҳон кардани ниҳонвожа"
 
 #: .es5/views/mixins/password-mixin.js:155 .es5/views/mixins/password-mixin.js:156 .es5/templates/partial/show-password.mustache:1 .es5/templates/partial/show-password.mustache:2
 msgid "Show password"
-msgstr ""
+msgstr "Нишон додани ниҳонвожа"
 
 #: .es5/views/mixins/recovery-codes-mixin.js:68
 msgid "Firefox Backup Authentication Codes"
-msgstr ""
+msgstr "Нусхаҳои эҳтиётии рамзи санҷиши ҳаққонияти «Firefox»"
 
 #: .es5/views/mixins/recovery-codes-mixin.js:124
 msgid "Two-step authentication enabled"
-msgstr ""
+msgstr "Санҷиши ҳаққонияти дуқадама фаъол шуд"
 
 #: .es5/views/mixins/recovery-key-mixin.js:28
 msgid "Firefox Account Recovery Key"
-msgstr ""
+msgstr "Калиди барқарорсозии ҳисоби «Firefox»"
 
 #: .es5/views/mixins/resend-mixin.js:46
 msgid "Email resent. Add accounts@firefox.com to your contacts to ensure a smooth delivery."
@@ -278,11 +278,11 @@ msgstr ""
 
 #: .es5/models/auth_brokers/web.js:30
 msgid "Password reset successfully"
-msgstr ""
+msgstr "Ниҳонвожа бо муваффақият аз нав танзим карда шуд"
 
 #: .es5/lib/auth-errors.js:21 .es5/lib/oauth-errors.js:23 .es5/lib/pairing-channel-client-errors.js:13 .es5/lib/profile-errors.js:57 .es5/lib/profile-errors.js:65
 msgid "Unexpected error"
-msgstr ""
+msgstr "Хатои ногаҳон"
 
 #: .es5/lib/auth-errors.js:22
 msgid "The link you clicked to verify your email is expired."
@@ -310,11 +310,11 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:47 .es5/lib/auth-errors.js:162 .es5/lib/auth-errors.js:174
 msgid "Account already exists"
-msgstr ""
+msgstr "Ҳисоб аллакай вуҷуд дорад"
 
 #: .es5/lib/auth-errors.js:51
 msgid "Unknown account"
-msgstr ""
+msgstr "Ҳисоби номаълум"
 
 #: .es5/lib/auth-errors.js:55
 msgid "Incorrect email case"
@@ -322,11 +322,11 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:59
 msgid "Incorrect password"
-msgstr ""
+msgstr "Ниҳонвожаи нодуруст"
 
 #: .es5/lib/auth-errors.js:63
 msgid "Unverified account"
-msgstr ""
+msgstr "Ҳисоби тасдиқнашуда"
 
 #: .es5/lib/auth-errors.js:67
 msgid "Invalid verification code"
@@ -571,7 +571,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:354 .es5/lib/auth-errors.js:392 .es5/lib/auth-errors.js:408
 msgid "Valid email required"
-msgstr ""
+msgstr "Почтаи электронии дуруст лозим аст"
 
 #: .es5/lib/auth-errors.js:365
 msgid "A usable image was not found"
@@ -579,11 +579,11 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:369
 msgid "Could not initialize camera"
-msgstr ""
+msgstr "Камераро оғоз карда натавонист"
 
 #: .es5/lib/auth-errors.js:373
 msgid "Valid URL required"
-msgstr ""
+msgstr "Нишонии «URL»-и эътибор лозим аст"
 
 #: .es5/lib/auth-errors.js:388
 msgid "Your confirmation email was just returned. Mistyped email?"
@@ -619,7 +619,7 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:465
 msgid "Account no longer exists."
-msgstr ""
+msgstr "Ҳисоб дигар вуҷуд надорад."
 
 #: .es5/lib/auth-errors.js:469
 msgid "Invalid property in resume token: %(property)s"
@@ -647,31 +647,31 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:502
 msgid "Authorization code required"
-msgstr ""
+msgstr "Рамзи санҷиши дастрасӣ лозим аст"
 
 #: .es5/lib/auth-errors.js:510 .es5/templates/report_sign_in.mustache:1 .es5/templates/post_verify/finish_account_setup/set_password.mustache:1
 msgid "Link damaged"
-msgstr ""
+msgstr "Пайванд вайрон шуд"
 
 #: .es5/lib/auth-errors.js:533
 msgid "Phone number required"
-msgstr ""
+msgstr "Рақами телефон лозим аст"
 
 #: .es5/lib/auth-errors.js:552
 msgid "Two-step authentication code required"
-msgstr ""
+msgstr "Рамзи санҷиши ҳаққонияти дуқадама лозим аст"
 
 #: .es5/lib/auth-errors.js:556
 msgid "Invalid two-step authentication code"
-msgstr ""
+msgstr "Рамзи санҷиши ҳаққонияти дуқадама нодуруст аст"
 
 #: .es5/lib/auth-errors.js:560
 msgid "Backup authentication code required"
-msgstr ""
+msgstr "Рамзи санҷиши ҳаққоният лозим аст"
 
 #: .es5/lib/auth-errors.js:564
 msgid "Invalid backup authentication code"
-msgstr ""
+msgstr "Нусхаи эҳтиётии рамзи санҷиши ҳаққонияти нодуруст"
 
 #: .es5/lib/auth-errors.js:578
 msgid "Account recovery key required"
