@@ -756,7 +756,7 @@ modal-default-confirm-button = Confirmer
 ## ModalMfaProtected
 
 modal-mfa-protected-title = Saisissez le code de confirmation
-modal-mfa-protected-subtitle = Aidez-nous à nous assurer que c’est vous qui modifiez les informations de votre compte
+modal-mfa-protected-subtitle = Aidez-nous à nous assurer que vous êtes à l’origine de la modification des informations de votre compte
 # This string is used to show a notification to the user for them to enter
 # email confirmation code to update their multi-factor-authentication-protected
 # account settings
@@ -765,15 +765,15 @@ modal-mfa-protected-subtitle = Aidez-nous à nous assurer que c’est vous qui m
 #   expirationTime (Number) - the expiration time in minutes
 modal-mfa-protected-instruction =
     { $expirationTime ->
-        [one] Saisissez le code envoyé à <email>{ $email }</email> en moins de { $expirationTime } minute.
+        [one] Saisissez le code envoyé à <email>{ $email }</email> d’ici { $expirationTime } minute.
        *[other] Saisissez le code envoyé à <email>{ $email }</email> dans les { $expirationTime } minutes.
     }
-modal-mfa-protected-input-label = Saisissez le code à 6 chiffres
+modal-mfa-protected-input-label = Saisissez le code à 6 chiffres
 modal-mfa-protected-cancel-button = Annuler
 modal-mfa-protected-confirm-button = Confirmer
 modal-mfa-protected-code-expired = Code expiré ?
 # Link to resend a new code to the user's email.
-modal-mfa-protected-resend-code-link = Envoyer un nouveau code.
+modal-mfa-protected-resend-code-link = Envoyez un nouveau code.
 
 ## Modal Verify Session
 
