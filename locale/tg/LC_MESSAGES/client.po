@@ -675,7 +675,7 @@ msgstr "Нусхаи эҳтиётии рамзи санҷиши ҳаққония
 
 #: .es5/lib/auth-errors.js:578
 msgid "Account recovery key required"
-msgstr ""
+msgstr "Калиди барқарорсозии ҳисоб лозим аст"
 
 #: .es5/lib/auth-errors.js:582
 msgid "Please enter verification code"
@@ -715,7 +715,7 @@ msgstr ""
 
 #: .es5/lib/newsletters.js:24
 msgid "Early access to test new products"
-msgstr ""
+msgstr "Дастрасии пешакӣ барои озмоиши маҳсулоти нав"
 
 #: .es5/lib/newsletters.js:28
 msgid "Get the latest news about Mozilla and Firefox"
@@ -1185,28 +1185,28 @@ msgstr ""
 
 #: .es5/templates/inline_recovery_setup.mustache:5
 msgid "Download"
-msgstr ""
+msgstr "Боргирӣ кардан"
 
 #: .es5/templates/inline_recovery_setup.mustache:6 .es5/templates/inline_recovery_setup.mustache:8
 msgid "Copy"
-msgstr ""
+msgstr "Нусха бардоштан"
 
 #: .es5/templates/inline_recovery_setup.mustache:7
 msgid "Print"
-msgstr ""
+msgstr "Чоп кардан"
 
 #: .es5/templates/inline_recovery_setup.mustache:10 .es5/templates/inline_totp_setup.mustache:4 .es5/templates/ready.mustache:7 .es5/templates/sign_in_unblock.mustache:5
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:4 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:7 .es5/templates/pair/index.mustache:17
 msgid "Continue"
-msgstr ""
+msgstr "Идома додан"
 
 #: .es5/templates/inline_recovery_setup.mustache:11 .es5/templates/inline_recovery_setup.mustache:18 .es5/templates/inline_totp_setup.mustache:5 .es5/templates/inline_totp_setup.mustache:21
 msgid "Cancel setup"
-msgstr ""
+msgstr "Бекор кардани танзим"
 
 #: .es5/templates/inline_recovery_setup.mustache:12
 msgid "Confirm backup authentication code"
-msgstr ""
+msgstr "Нусхаи эҳтиётии рамзи санҷиши ҳаққониятро тасдиқ кунед"
 
 #: .es5/templates/inline_recovery_setup.mustache:14
 msgid "To ensure that you will be able to regain access to your account, in the event of a lost device, please enter one of your saved backup authentication codes."
@@ -1214,11 +1214,11 @@ msgstr ""
 
 #: .es5/templates/inline_recovery_setup.mustache:15
 msgid "Backup authentication code"
-msgstr ""
+msgstr "Нусхаи эҳтиётии рамзи санҷиши ҳаққоният"
 
 #: .es5/templates/inline_totp_setup.mustache:1
 msgid "Enable two-step authentication"
-msgstr ""
+msgstr "Фаъол кардани санҷиши ҳаққонияти дуқадама"
 
 #: .es5/templates/inline_totp_setup.mustache:3
 msgid "Add a layer of security to your account by requiring security codes from one of <a %(escapedTotpSupportAttributes)s>these authentication apps</a>."
@@ -1230,7 +1230,7 @@ msgstr ""
 
 #: .es5/templates/inline_totp_setup.mustache:10
 msgid "Enter code manually"
-msgstr ""
+msgstr "Рамзро ба таври дастӣ ворид намоед"
 
 #: .es5/templates/inline_totp_setup.mustache:12
 msgid "Scan the QR code in your authentication app and then enter the security code it provides."
@@ -1254,11 +1254,11 @@ msgstr ""
 
 #: .es5/templates/inline_totp_setup.mustache:19
 msgid "Security code"
-msgstr ""
+msgstr "Рамзи амниятӣ"
 
 #: .es5/templates/inline_totp_setup.mustache:20
 msgid "Ready"
-msgstr ""
+msgstr "Омода аст"
 
 #: .es5/templates/marketing_snippet.mustache:1 .es5/templates/marketing_snippet.mustache:5 .es5/templates/marketing_snippet.mustache:9
 msgid "Get the full Sync experience."
@@ -1288,19 +1288,19 @@ msgstr ""
 
 #: .es5/templates/permissions.mustache:3
 msgid "Accept"
-msgstr ""
+msgstr "Қабул кардан"
 
 #: .es5/templates/permissions.mustache:4 .es5/templates/support.mustache:22 .es5/templates/settings/account_recovery/confirm_password.mustache:5 .es5/templates/pair/supp_allow.mustache:3
 msgid "Cancel"
-msgstr ""
+msgstr "Бекор кардан"
 
 #: .es5/templates/pp.mustache:1 .es5/templates/support.mustache:25
 msgid "Privacy Notice"
-msgstr ""
+msgstr "Огоҳномаи махфият"
 
 #: .es5/templates/ready.mustache:1 .es5/templates/post_verify/verified.mustache:1
 msgid "Success"
-msgstr ""
+msgstr "Тайёр!"
 
 #: .es5/templates/ready.mustache:4
 msgid "You are now ready to use <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
@@ -1312,7 +1312,7 @@ msgstr ""
 
 #: .es5/templates/ready.mustache:14
 msgid "Your account is ready!"
-msgstr ""
+msgstr "Ҳисоби шумо омода аст!"
 
 #: .es5/templates/ready.mustache:15
 msgid "Generate a new account recovery key"
@@ -1328,11 +1328,11 @@ msgstr ""
 
 #: .es5/templates/report_sign_in.mustache:6
 msgid "Report activity"
-msgstr ""
+msgstr "Гузориш дар бораи фаъолияти шубҳанок"
 
 #: .es5/templates/report_sign_in.mustache:7 .es5/templates/sign_in_unblock.mustache:7
 msgid "Why is this happening?"
-msgstr ""
+msgstr "Чаро ин ба вуҷуд меояд?"
 
 #: .es5/templates/reset_password.mustache:3
 msgid ""
@@ -1342,7 +1342,7 @@ msgstr ""
 
 #: .es5/templates/reset_password.mustache:5 .es5/templates/partial/email-autocomplete-domains.mustache:1
 msgid "Email"
-msgstr ""
+msgstr "Почтаи электронӣ"
 
 #: .es5/templates/reset_password.mustache:6
 msgid "Begin reset"
@@ -1350,7 +1350,7 @@ msgstr ""
 
 #: .es5/templates/security_events.mustache:1
 msgid "Recent Activity"
-msgstr ""
+msgstr "Фаъолияти охирин"
 
 #: .es5/templates/security_events.mustache:2
 msgid "Security Events"
@@ -1358,11 +1358,11 @@ msgstr ""
 
 #: .es5/templates/security_events.mustache:3
 msgid "Event Name"
-msgstr ""
+msgstr "Номи чорабинӣ"
 
 #: .es5/templates/security_events.mustache:4
 msgid "Confirmed"
-msgstr ""
+msgstr "Тасдик карда шуд"
 
 #: .es5/templates/security_events.mustache:5
 msgid "Created At"
@@ -1374,7 +1374,7 @@ msgstr ""
 
 #: .es5/templates/security_events.mustache:8
 msgid "Back to settings"
-msgstr ""
+msgstr "Бозгашт ба танзимот"
 
 #: .es5/templates/sign_in_bounced.mustache:1
 msgid "Sorry. We’ve locked your&nbsp;account."
