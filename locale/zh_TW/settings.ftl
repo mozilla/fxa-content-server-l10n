@@ -351,6 +351,7 @@ confirmation-link-reused-message = 該確認鏈結只能使用一次，已經被
 ## Locale Toggle Component
 
 locale-toggle-select-label = 選擇語言
+locale-toggle-browser-default = 瀏覽器預設值
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = 請求錯誤
 
