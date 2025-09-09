@@ -369,6 +369,7 @@ confirmation-link-reused-message = Tutón wobkrućenski wotkaz je so hižo wuži
 ## Locale Toggle Component
 
 locale-toggle-select-label = Rěč wubrać
+locale-toggle-browser-default = Standard wobhladowaka
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Špatne naprašowanje
 
