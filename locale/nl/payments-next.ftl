@@ -37,6 +37,8 @@ visa-logo-alt-text = { -brand-visa }-logo
 # Alt text for generic payment card logo
 unbranded-logo-alt-text = Merkloos logo
 link-logo-alt-text = { -brand-link }-logo
+apple-pay-logo-alt-text = { -brand-apple-pay }-logo
+google-pay-logo-alt-text = { -brand-google-pay }-logo
 
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -106,6 +108,8 @@ subscription-management-button-add-payment-method-aria = Betalingsmethode toevoe
 subscription-management-button-add-payment-method = Toevoegen
 subscription-management-button-change-payment-method-aria = Betalingsmethode wijzigen
 subscription-management-button-change-payment-method = Wijzigen
+subscription-management-button-manage-payment-method-aria = Betalingsmethode beheren
+subscription-management-button-manage-payment-method = Beheren
 # $last4 (String) - Last four numbers of credit card
 subscription-management-card-ending-in = Creditcard eindigend op { $last4 }
 # $expirationDate (Date) - Payment card's expiration date
@@ -136,6 +140,10 @@ subscription-management-page-subscription-interval-weekly = { $productName } (we
 subscription-management-page-subscription-interval-monthly = { $productName } (maandelijks)
 subscription-management-page-subscription-interval-halfyearly = { $productName } (halfjaarlijks)
 subscription-management-page-subscription-interval-yearly = { $productName } (jaarlijks)
+subscription-management-page-paypal-error-banner = Ongeldige betalingsgegevens; er is een fout opgetreden met uw account.
+subscription-management-page-paypal-error-banner-link = Beheren
+paypal-payment-management-page-invalid-header = Ongeldige facturatiegegevens
+paypal-payment-management-page-invalid-description = Er lijkt een fout op te treden met uw { -brand-paypal }-account. U dient de noodzakelijke stappen te nemen om dit betalingsprobleem op te lossen.
 # Page - Not Found
 page-not-found-title = Pagina niet gevonden
 page-not-found-description = De opgevraagde pagina is niet gevonden. We zijn op de hoogte en zullen koppelingen die mogelijk niet werken herstellen.
@@ -316,7 +324,13 @@ resubscribe-dialog-title = Wilt u { $name } blijven gebruiken?
 ## $endDate (Date) - The end date of the subscription period.
 
 resubscribe-dialog-content = Uw toegang tot { $name } blijft bestaan, en uw betalingscyclus en betaling blijven hetzelfde. Uw volgende betaling wordt { $amount } op { $endDate }.
+resubscribe-dialog-content-with-tax = Uw toegang tot { $name } blijft bestaan, en uw betalingscyclus en betaling blijven hetzelfde. Uw volgende afschrijving is { $amount } + { $tax } btw op { $endDate }.
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+resubscribe-dialog-action-button-resubscribe = Opnieuw abonneren
+    .aria-label = Opnieuw abonneren op { $productName }
 resubscribe-success-dialog-title = Bedankt! U bent helemaal klaar.
+resubscribe-success-dialog-action-button-close = Sluiten
+    .aria-label = Dialoogvenster sluiten
 
 ##
 

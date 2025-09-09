@@ -362,6 +362,8 @@ confirmation-link-reused-message = Die bevestigingskoppeling is al gebruikt, en 
 
 ## Locale Toggle Component
 
+locale-toggle-select-label = Taal selecteren
+locale-toggle-browser-default = Browserstandaard
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Ongeldige aanvraag
 
@@ -759,6 +761,7 @@ modal-default-confirm-button = Bevestigen
 ## ModalMfaProtected
 
 modal-mfa-protected-title = Voer bevestigingscode in
+modal-mfa-protected-subtitle = Help ons te controleren dat u het bent die uw accountgegevens wijzigt
 # This string is used to show a notification to the user for them to enter
 # email confirmation code to update their multi-factor-authentication-protected
 # account settings
