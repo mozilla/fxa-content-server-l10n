@@ -108,6 +108,8 @@ subscription-management-button-add-payment-method-aria = Tilføj betalingsmetode
 subscription-management-button-add-payment-method = Tilføj
 subscription-management-button-change-payment-method-aria = Skift betalingsmetode
 subscription-management-button-change-payment-method = Skift
+subscription-management-button-manage-payment-method-aria = Håndter betalingsmetode
+subscription-management-button-manage-payment-method = Håndter
 # $last4 (String) - Last four numbers of credit card
 subscription-management-card-ending-in = Kort, der ender på { $last4 }
 # $expirationDate (Date) - Payment card's expiration date
@@ -138,6 +140,10 @@ subscription-management-page-subscription-interval-weekly = { $productName } (ug
 subscription-management-page-subscription-interval-monthly = { $productName } (månedligt)
 subscription-management-page-subscription-interval-halfyearly = { $productName } (6 måneder)
 subscription-management-page-subscription-interval-yearly = { $productName } (årligt)
+subscription-management-page-paypal-error-banner = Ugyldig betalingsinformation; der er en fejl med din konto.
+subscription-management-page-paypal-error-banner-link = Håndter
+paypal-payment-management-page-invalid-header = Ugyldige faktureringsoplysninger
+paypal-payment-management-page-invalid-description = Der ser ud til at være en fejl med din { -brand-paypal }-konto. Du skal udføre de nødvendige ændringer for at løse problemet.
 # Page - Not Found
 page-not-found-title = Siden blev ikke fundet
 page-not-found-description = Den ønskede side blev ikke fundet. Vi har fået besked og vil rette links, der ikke virker.
