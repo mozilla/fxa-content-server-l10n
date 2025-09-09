@@ -375,6 +375,7 @@ confirmation-link-reused-message = Mae'r ddolen cadarnhau honno wedi ei defnyddi
 ## Locale Toggle Component
 
 locale-toggle-select-label = Dewiswch iaith
+locale-toggle-browser-default = Porwr rhagosodedig
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Cais Gwael
 

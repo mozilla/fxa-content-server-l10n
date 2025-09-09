@@ -363,6 +363,7 @@ confirmation-link-reused-message = Den bekräftelselänken har redan använts oc
 ## Locale Toggle Component
 
 locale-toggle-select-label = Välj språk
+locale-toggle-browser-default = Webbläsares standard
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Felaktig begäran
 
