@@ -366,6 +366,7 @@ confirmation-link-reused-message = Эта ссылка для подтвержд
 ## Locale Toggle Component
 
 locale-toggle-select-label = Выберите язык
+locale-toggle-browser-default = Браузер по умолчанию
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Неверный запрос
 
