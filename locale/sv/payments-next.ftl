@@ -108,6 +108,8 @@ subscription-management-button-add-payment-method-aria = Lägg till betalningsme
 subscription-management-button-add-payment-method = Lägg till
 subscription-management-button-change-payment-method-aria = Ändra betalningsmetod
 subscription-management-button-change-payment-method = Ändra
+subscription-management-button-manage-payment-method-aria = Hantera betalningsmetod
+subscription-management-button-manage-payment-method = Hantera
 # $last4 (String) - Last four numbers of credit card
 subscription-management-card-ending-in = Kort som slutar på { $last4 }
 # $expirationDate (Date) - Payment card's expiration date
@@ -138,6 +140,10 @@ subscription-management-page-subscription-interval-weekly = { $productName } (ve
 subscription-management-page-subscription-interval-monthly = { $productName } (månadsvis)
 subscription-management-page-subscription-interval-halfyearly = { $productName } (6-månader)
 subscription-management-page-subscription-interval-yearly = { $productName } (årligen)
+subscription-management-page-paypal-error-banner = Ogiltig betalningsinformation; det finns ett fel med ditt konto.
+subscription-management-page-paypal-error-banner-link = Hantera
+paypal-payment-management-page-invalid-header = Ogiltig faktureringsinformation
+paypal-payment-management-page-invalid-description = Det verkar vara ett fel med ditt { -brand-paypal }-konto. Vi måste vidta nödvändiga åtgärder för att lösa det här betalningsproblemet.
 # Page - Not Found
 page-not-found-title = Sidan hittades inte
 page-not-found-description = Sidan du begärde hittades inte. Vi har underrättats och kommer att fixa alla länkar som kan vara trasiga.
