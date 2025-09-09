@@ -363,7 +363,7 @@ confirmation-link-reused-message = Questo link di conferma è già stato utilizz
 ## Locale Toggle Component
 
 locale-toggle-select-label = Scegli lingua
-locale-toggle-browser-default = Impostazione predefinita del browser
+locale-toggle-browser-default = Predefinita del browser
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Richiesta non valida
 
