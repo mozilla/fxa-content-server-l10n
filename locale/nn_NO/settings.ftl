@@ -363,6 +363,7 @@ confirmation-link-reused-message = Denne stadfestingslenka er allereie brukt, og
 ## Locale Toggle Component
 
 locale-toggle-select-label = Vel språk
+locale-toggle-browser-default = Nettlesar-standard
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Ugyldig førespurnad
 
