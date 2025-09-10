@@ -362,6 +362,8 @@ confirmation-link-reused-message = Ten odnośnik potwierdzenia został już uży
 
 ## Locale Toggle Component
 
+locale-toggle-select-label = Wybierz język
+locale-toggle-browser-default = Domyślny język przeglądarki
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Błędne żądanie
 
@@ -756,6 +758,27 @@ nav-linked-accounts = { la-heading }
 modal-close-title = Zamknij
 modal-cancel-button = Anuluj
 modal-default-confirm-button = Potwierdź
+
+## ModalMfaProtected
+
+modal-mfa-protected-title = Wpisz kod potwierdzenia
+modal-mfa-protected-subtitle = Pomóż nam upewnić się, że to Ty zmieniasz dane swojego konta
+# This string is used to show a notification to the user for them to enter
+# email confirmation code to update their multi-factor-authentication-protected
+# account settings
+# Variables:
+#   email (String) - the user's email
+#   expirationTime (Number) - the expiration time in minutes
+modal-mfa-protected-instruction =
+    { $expirationTime ->
+        [one] Wpisz kod potwierdzenia wysłany na adres <email>{ $email }</email> w ciągu { $expirationTime } minuty.
+        [few] Wpisz kod potwierdzenia wysłany na adres <email>{ $email }</email> w ciągu { $expirationTime } minut.
+       *[many] Wpisz kod potwierdzenia wysłany na adres <email>{ $email }</email> w ciągu { $expirationTime } minut.
+    }
+modal-mfa-protected-input-label = Wpisz sześciocyfrowy kod
+modal-mfa-protected-cancel-button = Anuluj
+modal-mfa-protected-confirm-button = Potwierdź
+modal-mfa-protected-code-expired = Kod wygasł?
 
 ## Modal Verify Session
 
