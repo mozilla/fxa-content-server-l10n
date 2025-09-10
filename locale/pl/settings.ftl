@@ -779,6 +779,8 @@ modal-mfa-protected-input-label = Wpisz sześciocyfrowy kod
 modal-mfa-protected-cancel-button = Anuluj
 modal-mfa-protected-confirm-button = Potwierdź
 modal-mfa-protected-code-expired = Kod wygasł?
+# Link to resend a new code to the user's email.
+modal-mfa-protected-resend-code-link = Wyślij nowy.
 
 ## Modal Verify Session
 
@@ -803,7 +805,9 @@ nav-email-comm = Ustawienia poczty
 
 ## Page2faChange
 
+page-2fa-change-title = Zmień uwierzytelnianie dwuetapowe
 page-2fa-change-success = Uwierzytelnianie dwuetapowe zostało zaktualizowane
+page-2fa-change-totpinfo-error = Wystąpił błąd podczas zmiany aplikacji do uwierzytelniania dwuetapowego. Spróbuj ponownie później.
 page-2fa-change-qr-instruction = <strong>1. krok:</strong> zeskanuj ten kod QR za pomocą dowolnej aplikacji uwierzytelniającej, takiej jak Duo lub Google Authenticator. Utworzy to nowe połączenie, a wszystkie poprzednie połączenia przestaną działać.
 
 ## Two Step Authentication - replace backup authentication code
@@ -818,6 +822,12 @@ tfa-create-code-error = Wystąpił problem podczas tworzenia zapasowych kodów u
 tfa-replace-code-success-alert-4 = Zaktualizowano zapasowe kody uwierzytelniania
 # Success message shown after creating backup codes for the first time
 tfa-create-code-success-alert = Utworzono zapasowe kody uwierzytelniania
+# Custom messaging for users replacing existing backup codes - Download step (1 of 2)
+# On this step, the codes are not yet replaced in the database - the old codes are still valid until step 2 is completed.
+tfa-replace-code-download-description = Zachowaj je w miejscu, które będziesz pamiętać. Stare kody zostaną zastąpione po wykonaniu następnego kroku.
+# Custom messaging for users replacing existing backup codes - Confirm step (2 of 2)
+# Until this confirmation step is successfully completed, the old codes are still active and the new codes are not saved in the database.
+tfa-replace-code-confirm-description = Potwierdź zapisanie kodów, wprowadzając jeden. Twoje stare zapasowe kody uwierzytelniania zostaną wyłączone po wykonaniu tego kroku.
 # Error shown when the entered backup code does not match any of the generated codes
 tfa-incorrect-recovery-code-1 = Niepoprawny zapasowy kod uwierzytelniania
 

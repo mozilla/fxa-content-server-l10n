@@ -36,6 +36,9 @@ unionpay-logo-alt-text = Logo { -brand-unionpay }
 visa-logo-alt-text = Logo { -brand-visa }
 # Alt text for generic payment card logo
 unbranded-logo-alt-text = Logo bez marki
+link-logo-alt-text = Logo { -brand-link }
+apple-pay-logo-alt-text = Logo { -brand-apple-pay }
+google-pay-logo-alt-text = Logo { -brand-google-pay }
 
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -61,6 +64,7 @@ intent-payment-error-get-in-touch = Wystąpił problem z upoważnieniem płatno
 intent-payment-error-generic = Wystąpił nieoczekiwany błąd podczas przetwarzania płatności, proszę spróbować ponownie.
 intent-payment-error-insufficient-funds = Wygląda na to, że na karcie są niewystarczające środki. Spróbuj użyć innej karty.
 general-paypal-error = Wystąpił nieoczekiwany błąd podczas przetwarzania płatności, proszę spróbować ponownie.
+paypal-active-subscription-no-billing-agreement-error = Wygląda na to, że wystąpił problem z obciążeniem Twojego konta { -brand-paypal }. Włącz ponownie automatyczne płatności za subskrypcję.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -104,6 +108,8 @@ subscription-management-button-add-payment-method-aria = Dodaj metodę płatnoś
 subscription-management-button-add-payment-method = Dodaj
 subscription-management-button-change-payment-method-aria = Zmień metodę płatności
 subscription-management-button-change-payment-method = Zmień
+subscription-management-button-manage-payment-method-aria = Zarządzaj metodą płatności
+subscription-management-button-manage-payment-method = Zarządzaj
 # $last4 (String) - Last four numbers of credit card
 subscription-management-card-ending-in = Karta kończąca się na { $last4 }
 # $expirationDate (Date) - Payment card's expiration date
@@ -111,6 +117,7 @@ subscription-management-card-expires-date = Wygasa { $expirationDate }
 subscription-management-subscriptions-heading = Subskrypcje
 subscription-management-your-subscriptions-aria = Twoje subskrypcje
 subscription-management-no-subscriptions = Nie masz jeszcze żadnych subskrypcji
+subscription-management-button-support = Pomoc
 subscription-management-your-apple-iap-subscriptions-aria = Twoje subskrypcje w aplikacji { -brand-apple }
 subscription-management-apple-in-app-purchase = { -brand-apple }: zakup w aplikacji
 subscription-management-your-google-iap-subscriptions-aria = Twoje subskrypcje w aplikacji { -brand-google }
@@ -131,6 +138,8 @@ subscription-management-page-subscription-interval-weekly = { $productName } (ty
 subscription-management-page-subscription-interval-monthly = { $productName } (miesięcznie)
 subscription-management-page-subscription-interval-halfyearly = { $productName } (co 6 miesięcy)
 subscription-management-page-subscription-interval-yearly = { $productName } (rocznie)
+subscription-management-page-paypal-error-banner-link = Zarządzaj
+paypal-payment-management-page-invalid-header = Nieprawidłowe dane płatnicze
 # Page - Not Found
 page-not-found-title = Nie odnaleziono strony
 page-not-found-description = Nie odnaleziono żądanej strony. Powiadomiono administratora, który naprawi błędne odnośniki.
@@ -297,6 +306,13 @@ subscription-cancellation-dialog-title = Przykro nam, że chcesz się z nami po
 # $date (Date) - Last day of product access
 subscription-cancellation-dialog-msg = Subskrypcja { $name } została anulowana. Będziesz mieć dostęp do { $name } do dnia { $date }.
 subscription-cancellation-dialog-aside = Masz pytania? Odwiedź <LinkExternal>pomoc { -brand-mozilla(case: "gen") }</LinkExternal>.
+
+## $name (String) - The name of the subscribed product.
+## $amount (Number) - The amount billed (excluding tax if tax does not exist). It will be formatted as currency.
+## $tax (Number) - The tax added on, not included in amount. It will be formatted as currency.
+## $endDate (Date) - The end date of the subscription period.
+
+resubscribe-success-dialog-title = Dzięki! Wszystko gotowe.
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
