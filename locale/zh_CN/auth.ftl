@@ -641,6 +641,7 @@ subscriptionPaymentFailed-title = 抱歉，处理付款时遇到问题
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-content-problem = 处理您最近对 { $productName } 付款时，遇到问题。
+subscriptionPaymentFailed-content-outdated-1 = 可能是您的付款方式已过期，或是当前的付款方式已失效。
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-subject = 需要更新 { $productName } 的付款信息
@@ -681,6 +682,7 @@ subscriptionReplaced-title = 您的订阅已更新
 subscriptionReplaced-content-replaced = 已替换您单独的 { $productName } 订阅，其现已包含在您新的捆绑包中。
 subscriptionReplaced-content-credit = 上个订阅中未使用的天数将以余额形式返还至您的账户。余额将自动添加到您的帐户，并抵扣将来的费用。
 subscriptionReplaced-content-no-action = 您无需执行任何操作。
+subscriptionsPaymentExpired-subject-2 = 您用于订阅的付款方式已过期或即将到期
 subscriptionsPaymentExpired-title-2 = 您的付款方式已过期或即将到期
 subscriptionsPaymentProviderCancelled-subject = 需要更新 { -brand-mozilla } 产品订阅的付款信息
 subscriptionsPaymentProviderCancelled-title = 抱歉，处理付款时遇到问题
