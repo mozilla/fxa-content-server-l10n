@@ -108,6 +108,8 @@ subscription-management-button-add-payment-method-aria = 添加付款方式
 subscription-management-button-add-payment-method = 添加
 subscription-management-button-change-payment-method-aria = 更改付款方式
 subscription-management-button-change-payment-method = 更改
+subscription-management-button-manage-payment-method-aria = 管理付款方式
+subscription-management-button-manage-payment-method = 管理
 # $last4 (String) - Last four numbers of credit card
 subscription-management-card-ending-in = 尾号 { $last4 } 的卡片
 # $expirationDate (Date) - Payment card's expiration date
@@ -138,6 +140,10 @@ subscription-management-page-subscription-interval-weekly = { $productName }（�
 subscription-management-page-subscription-interval-monthly = { $productName }（月付）
 subscription-management-page-subscription-interval-halfyearly = { $productName }（半年付）
 subscription-management-page-subscription-interval-yearly = { $productName }（年付）
+subscription-management-page-paypal-error-banner = 您的账户出现问题，付款信息无效。
+subscription-management-page-paypal-error-banner-link = 管理
+paypal-payment-management-page-invalid-header = 账单信息无效
+paypal-payment-management-page-invalid-description = 您的 { -brand-paypal } 账户似乎存在问题，请按下列必要步骤解决此付款问题。
 # Page - Not Found
 page-not-found-title = 找不到页面
 page-not-found-description = 找不到您要打开的页面。我们已获悉此问题，并将修复可能出现问题的链接。
@@ -318,6 +324,7 @@ resubscribe-dialog-title = 希望继续使用 { $name }？
 ## $endDate (Date) - The end date of the subscription period.
 
 resubscribe-dialog-content = 您可继续使用 { $name }，账单周期与付款信息将保持不变。下次将于 { $endDate } 收取 { $amount }。
+resubscribe-dialog-content-with-tax = 您可继续使用 { $name }，账单周期与付款信息将保持不变。下次将于 { $endDate } 收取 { $amount } + 税款 { $endDate }。
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 resubscribe-dialog-action-button-resubscribe = 重新订阅
     .aria-label = 重新订阅 { $productName }
