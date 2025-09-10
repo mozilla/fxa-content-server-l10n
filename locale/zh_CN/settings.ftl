@@ -753,9 +753,9 @@ modal-mfa-protected-instruction = 请在 { $expirationTime } 分钟内输入发�
 modal-mfa-protected-input-label = 请输入 6 位验证码
 modal-mfa-protected-cancel-button = 取消
 modal-mfa-protected-confirm-button = 确认
-modal-mfa-protected-code-expired = 验证码已过期？
+modal-mfa-protected-code-expired = 确认码已过期？
 # Link to resend a new code to the user's email.
-modal-mfa-protected-resend-code-link = 重新发送验证码
+modal-mfa-protected-resend-code-link = 重新发送确认码
 
 ## Modal Verify Session
 
