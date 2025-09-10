@@ -3,6 +3,15 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Tooltip notifications for actions performed on account recovery keys or one-time use codes
+
+datablock-download =
+    .message = Descărcat
+datablock-copy =
+    .message = Copiat
+datablock-print =
+    .message = Printat
+
 ## Input Password
 
 # Tooltip displayed on a password input visibility toggle. Expresses the toggle action, where clicking on the toggle will hide the password.
@@ -46,6 +55,7 @@ cs-description = Tot ce folosești și în care ești autentificat.
 cs-cannot-refresh =
     Ne pare rău, a apărut o problemă la actualizarea listei de servicii
     conectate.
+cs-cannot-disconnect = Clientul nu a fost găsit, imposibil de deconectat
 cs-refresh-button =
     .title = Reîmprospătează serviciile conectate
 # Link text to a support page on missing or duplicate devices
@@ -65,6 +75,8 @@ cs-disconnect-sync-opt-not-say = Prefer să nu spun
 ##
 
 cs-disconnect-advice-confirm = OK, am înțeles
+cs-disconnect-lost-advice-heading = Dispozitiv pierdut sau furat deconectat
+cs-disconnect-suspicious-advice-heading = Dispozitiv suspect deconectat
 cs-sign-out-button = Deconectează-te
 
 ## Data collection section
@@ -83,8 +95,10 @@ flow-container-back = Înapoi
 ## HeaderLockup component, the header in account settings
 
 header-menu-open = Închide meniul
+header-menu-closed = Meniu de navigare pe site
 header-back-to-top-link =
     .title = Înapoi în partea de sus
+header-help = Ajutor
 
 ## Modal - Default values for a message directed at the user where the user can typically Confirm or Cancel.
 
@@ -122,6 +136,10 @@ avatar-page-retake-photo = Refă fotografia
 avatar-page-cancel-button = Anulează
 avatar-page-save-button = Salvează
 avatar-page-saving-button = Se salvează…
+avatar-page-zoom-out-button =
+    .title = Micșorează
+avatar-page-zoom-in-button =
+    .title = Mărește
 avatar-page-rotate-button =
     .title = Rotește
 avatar-page-camera-error = Nu s-a putut inițializa camera
@@ -237,6 +255,7 @@ row-defaults-status = Niciunul
 rk-not-set = Nu este setată
 rk-action-create = Creează
 rk-action-remove = Elimină
+rk-cannot-remove-key = Cheia de recuperare a contului nu a putut fi eliminată.
 rk-refresh-key-1 = Reîmprospătează cheia de recuperare a contului
 rk-content-explain = Restaurează-ți informațiile când uiți parola.
 
@@ -245,6 +264,9 @@ rk-content-explain = Restaurează-ți informațiile când uiți parola.
 se-heading = E-mail secundar
     .header = E-mail secundar
 se-cannot-refresh-email = Ne pare rău, a apărut o problemă la reîmprospătarea acestui e-mail.
+# Button to remove the secondary email
+se-remove-email =
+    .title = Elimină adresa de e-mail
 # Button to refresh secondary email status
 se-refresh-email =
     .title = Reîmprospătează e-mailul
@@ -257,6 +279,7 @@ se-secondary-email-none = Niciunul
 ## Two Step Auth sub-section on Settings main page
 
 tfa-row-header = Autentificare în doi pași
+tfa-row-enabled = Activat
 tfa-row-action-add = Adaugă
 tfa-row-action-disable = Dezactivează
 tfa-row-button-refresh =
@@ -281,7 +304,10 @@ terms-privacy-agreement-default-2 = Prin continuare, ești de acord cu <mozillaA
 
 ## Auth-server based errors that originate from backend service
 
+auth-error-102 = Cont necunoscut
 auth-error-103 = Parolă incorectă
+auth-error-110 = Jeton nevalid
+auth-error-155 = Jetonul TOTP nu a fost găsit
 auth-error-1008 = Noua ta parolă trebuie să fie diferită
 
 ## Legal page. This page contains simply a header and links to pages that display

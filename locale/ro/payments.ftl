@@ -14,6 +14,10 @@ input-error-is-required = { $label } este necesar
 
 ## Component - PaymentConfirmation
 
+payment-confirmation-thanks-heading = Îți mulțumim!
+# $email (string) - The user's email.
+# $productName (String) - The name of the subscribed product.
+payment-confirmation-thanks-subheading = A fost trimis un e-mail de confirmare către { $email } cu detalii despre cum să începi să folosești { $product_name }.
 payment-confirmation-order-heading = Detalii comandă
 payment-confirmation-invoice-number = Factura #{ $invoiceNumber }
 payment-confirmation-details-heading-2 = Informații pentru plăți
@@ -58,6 +62,7 @@ payment-confirm-with-legal-links-static-3 = Autorizez { -brand-mozilla } să îm
 
 ## Component - PaymentErrorView
 
+payment-error-retry-button = Încearcă din nou
 payment-error-manage-subscription-button = Gestionează abonamentul meu
 
 ## Component - PaymentForm
@@ -81,6 +86,10 @@ payment-method-header-second-step = 2. { payment-method-header }
 
 payment-processing-message = Vă rugăm să așteptați în timp ce procesăm plata dvs. …
 
+## Component - PaymentProviderDetails
+
+payment-confirmation-cc-card-ending-in = Card care se termină cu { $last4 }
+
 ## Component - PlanDetails
 
 plan-details-header = Detalii produs
@@ -95,6 +104,7 @@ product-no-such-plan = Nu există un astfel de plan pentru acest produs.
 ## Component - SubscriptionTitle
 
 subscription-create-title = Configurează-ți abonamentul
+subscription-success-title = Confirmare abonament
 subscription-processing-title = Se confirmă abonamentul …
 subscription-error-title = Eroare la confirmarea abonamentului …
 sub-guarantee = Garanție de rambursare a banilor în 30 de zile
@@ -128,6 +138,8 @@ instant-payouts-unsupported = Se pare că nu ai cardul de debit configurat pentr
 duplicate-transaction = Hmm. Se pare că tocmai a fost transmisă o tranzacție identică. Verifică-ți istoricul plăților.
 coupon-expired = Se pare că acest cod promoțional a expirat.
 card-error = Tranzacția nu a putut fi procesată. Te rugăm să verifici informațiile cardului de credit și încearcă din nou.
+country-currency-mismatch = Moneda acestui abonament nu este valabilă pentru țara asociată plății tale.
+currency-currency-mismatch = Ne pare rău. Nu poți trece de la o monedă la alta.
 location-unsupported = Locația ta actuală nu este acceptată conform Condițiilor noastre de utilizare a serviciilor.
 product-plan-error =
     .title = Problemă la încărcarea planurilor

@@ -226,11 +226,11 @@ msgstr "probleme tehnice"
 
 #: .es5/models/support-form.js:23
 msgid "provide feedback / request features"
-msgstr ""
+msgstr "dă feedback / cere funcționalități"
 
 #: .es5/models/support-form.js:23
 msgid "not listed"
-msgstr ""
+msgstr "nu apare în listă"
 
 #: .es5/models/sync-engines.js:46
 msgid "Bookmarks"
@@ -394,7 +394,7 @@ msgstr "Această adresă de e-mail a fost deja verificată de alt utilizator"
 
 #: .es5/lib/auth-errors.js:154
 msgid "Unverified session"
-msgstr ""
+msgstr "Sesiune neverificată"
 
 #: .es5/lib/auth-errors.js:158
 msgid "Secondary email must be different than your account email"
@@ -1514,7 +1514,7 @@ msgstr ""
 
 #: .es5/templates/support.mustache:3
 msgid "Account Home"
-msgstr ""
+msgstr "Pagina principală a contului"
 
 #: .es5/templates/support.mustache:4
 msgid "Subscriptions"
@@ -1530,7 +1530,7 @@ msgstr "Pentru ce ne contactezi?"
 
 #: .es5/templates/support.mustache:8 .es5/templates/support.mustache:12 .es5/templates/support.mustache:19
 msgid "Please select one"
-msgstr ""
+msgstr "Te rugăm să selectezi o opțiune"
 
 #: .es5/templates/support.mustache:11
 msgid "What do you need help with?"
@@ -1558,7 +1558,7 @@ msgstr "Nelistat"
 
 #: .es5/templates/support.mustache:18
 msgid "Do you need help with a specific app or service? (optional)"
-msgstr ""
+msgstr "Ai nevoie de ajutor cu o anumită aplicație sau cu un serviciu? (opțional)"
 
 #: .es5/templates/support.mustache:20
 msgid "Subject (optional)"
