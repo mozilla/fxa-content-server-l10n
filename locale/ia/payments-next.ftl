@@ -123,6 +123,11 @@ subscription-management-button-support-aria = Obtener auxilio pro { $productName
 subscription-management-your-apple-iap-subscriptions-aria = Tu abonamentos a  { -brand-apple } via le application
 subscription-management-apple-in-app-purchase-1 = { -brand-apple }: compra in-app
 subscription-management-your-google-iap-subscriptions-aria = Tu abonamentos a  { -brand-google } via le application
+subscription-management-google-in-app-purchase-1 = { -brand-google }: compra in-app
+# $date (String) - Date of next bill
+subscription-management-iap-sub-next-bill-is-due = Le proxime factura es debite <strong>{ $date }</strong>
+# $date (String) - Date of In-App purchase expires
+subscription-management-iap-sub-will-expire-on = Tu abonamento expirara le <strong>{ $date }</strong>
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Gerer abonamento pro { $productName }
 subscription-management-button-manage-subscription = Gerer
@@ -282,7 +287,12 @@ next-new-user-subscribe-product-assurance = Nos usa tu adresse email solo pro cr
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
+subscription-content-current-invoice-billed-on-with-tax = { $invoiceTotal } + { $taxDue } <span>facturate le { $billedOnDate }</span>
+subscription-content-current-invoice-billed-on-no-tax = { $invoiceTotal } <span>facturate le { $billedOnDate }</span>
+subscription-content-credit-issued-to-your-account = <strong>{ $creditApplied }</strong> credito emittite pro tu conto
 subscription-content-coupon-applied = { $promotionName } applicate
+subscription-content-next-bill-excl-with-tax = Le proxime factura de <strong>{ $nextInvoiceTotal } + { $taxDue }</strong>, salvo discontos, es debite le <strong>{ $nextBillDate }</strong>
+subscription-content-next-bill-excl-no-tax = Le proxime factura de <strong>{ $nextInvoiceTotal }</strong>, salvo discontos, es debite le <strong>{ $nextBillDate }</strong>
 subscription-content-heading-cancel-subscription = Cancellar abonamento
 subscription-content-no-longer-use-message = Tu non plus potera usar { $productName } post { $currentPeriodEnd }, le ultime die de tu termino de facturation.
 subscription-content-cancel-access-message = Cancellar mi accesso e mi informationes salvate intra { $productName } in { $currentPeriodEnd }

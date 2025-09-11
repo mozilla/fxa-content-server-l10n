@@ -127,6 +127,10 @@ subscription-management-your-apple-iap-subscriptions-aria = Waše abonementy w n
 subscription-management-apple-in-app-purchase-1 = { -brand-apple }: kup w nałoženju
 subscription-management-your-google-iap-subscriptions-aria = Waše abonementy w nałoženju { -brand-google }
 subscription-management-google-in-app-purchase-1 = { -brand-google }: kup w nałoženju
+# $date (String) - Date of next bill
+subscription-management-iap-sub-next-bill-is-due = Přichodna zličbowanka je płaćomna <strong>{ $date }</strong>
+# $date (String) - Date of In-App purchase expires
+subscription-management-iap-sub-will-expire-on = Waš abonement <strong>{ $date }</strong> spadnje
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Abonement za { $productName } rjadować
 subscription-management-button-manage-subscription = Rjadować
@@ -286,7 +290,12 @@ next-new-user-subscribe-product-assurance = Wužiwamy jenož wašu e-mejlowu adr
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
+subscription-content-current-invoice-billed-on-with-tax = { $invoiceTotal } + { $taxDue } <span>stej so { $billedOnDate } wobličiłoj</span>
+subscription-content-current-invoice-billed-on-no-tax = { $invoiceTotal } <span>je so { $billedOnDate } wobličił</span>
+subscription-content-credit-issued-to-your-account = Dobropis <strong>{ $creditApplied }</strong> je so wašemu kontu dobropisał
 subscription-content-coupon-applied = { $promotionName } nałoženy
+subscription-content-next-bill-excl-with-tax = Přichodna zličbowanja <strong>{ $nextInvoiceTotal } + { $taxDue }</strong>, bjez rabatow, je płaćomna <strong>{ $nextBillDate }</strong>
+subscription-content-next-bill-excl-no-tax = Přichodna zličbowanja <strong>{ $nextInvoiceTotal }</strong>, bjez rabatow, je płaćomna <strong>{ $nextBillDate }</strong>
 subscription-content-heading-cancel-subscription = Abonement wupowědźić
 subscription-content-no-longer-use-message =
     Po { $currentPeriodEnd }, poslednim dnju swojeho wotličenskeje periody,
