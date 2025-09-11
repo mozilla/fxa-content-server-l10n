@@ -472,6 +472,15 @@ postChangeRecoveryPhone-preview = Account beskerme troch twa-stapsautentikaasje
 postChangeRecoveryPhone-title = Jo hawwe jo wersteltelefoannûmer wizige
 postChangeRecoveryPhone-description = Jo hawwe no in nij wersteltelefoannûmer. Jo foarige telefoannûmer is fuortsmiten.
 postChangeRecoveryPhone-requested-device = Jo hawwe it opfrege fanôf:
+postChangeTwoStepAuthentication-preview = Jo account is beskerme
+postChangeTwoStepAuthentication-subject = Twa-stapsautentikaasje bywurke
+postChangeTwoStepAuthentication-title = Twa-stapautentikaasje is bywurke
+postChangeTwoStepAuthentication-use-new-account = Jo moatte no de nije fermelding foar { -product-mozilla-account } yn jo autentikaasje-app brûke. De âldere sil net mear wurkje en jo kinne it fuortsmite.
+# After the colon, there is a description of the device that the user used to enable two-step authentication
+postChangeTwoStepAuthentication-from-device = Jo hawwe dit opfrege fan:
+postChangeTwoStepAuthentication-action = Account beheare
+postChangeTwoStepAuthentication-how-protects-link = Hoe dit jo account beskermet
+postChangeTwoStepAuthentication-how-protects-plaintext = Hoe dit jo account beskermet:
 postConsumeRecoveryCode-title-3 = Jo reserve-autentikaasjekoade is brûkt om in wachtwurdwerinisjalisaasje te befêstigjen
 # After the colon, there is description of the device that the backup authentication code was used on
 # E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
@@ -625,11 +634,19 @@ subscriptionFirstInvoice-content-auto-renew = Jo abonnemint wurdt automatysk elk
 subscriptionFirstInvoice-content-next-invoice = Folgjende faktuer: { $nextInvoiceDateOnly }
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-subject-2 = Betellingsmetoade foar { $productName } is ferrûn of ferrint ynkoarten
+subscriptionPaymentExpired-title-2 = Jo betellingsmetoade is ferrûn of ferrint ynkoarten
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-content-2 = De betellingsmetoade dy’t jo foar { $productName } brûke, is ferrûn of ferrint ynkoarten.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = Betelling foar { $productName } mislearre
 subscriptionPaymentFailed-title = Sorry, wy hawwe problemen mei jo betelling
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-content-problem = Wy hiene in probleem mei jo lêste betelling foar { $productName }.
+subscriptionPaymentFailed-content-outdated-1 = Miskien is jo betellingsmetoade ferrûn, of jo aktuele betellingsmetoade is ferâldere.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-subject = Bywurkjen fan betellingsynformaasje fereaske foar { $productName }
@@ -637,6 +654,7 @@ subscriptionPaymentProviderCancelled-title = Sorry, wy hawwe problemen mei jo be
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-content-detect = Wy hawwe in probleem mei jo betellingsmetoade foar { $productName } fêststeld.
+subscriptionPaymentProviderCancelled-content-reason-1 = Miskien is jo betellingsmetoade ferrûn, of jo aktuele betellingsmetoade is ferâldere.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-subject = Abonnemint op { $productName } opnij aktivearre
@@ -670,9 +688,13 @@ subscriptionReplaced-title = Dyn abonnemint is bywurke
 subscriptionReplaced-content-replaced = Jo yndividuele { $productName }-abonnemint is ferfongen en is no opnommen yn jo nije bondel.
 subscriptionReplaced-content-credit = Jo ûntfange in tegoed foar alle net brûkte tiid fan jo foarige abonnemint út. Dit tegoed wurdt automatysk tapast op jo account en brûkt foar takomstige kosten.
 subscriptionReplaced-content-no-action = Der is gjin aksje fan jo kant fereaske.
+subscriptionsPaymentExpired-subject-2 = De betellingsmetoade foar jo abonneminten is ferrûn of ferrint ynkoarten
+subscriptionsPaymentExpired-title-2 = Jo betellingsmetoade is ferrûn of ferrint ynkoarten
+subscriptionsPaymentExpired-content-2 = De betellingsmetoade dy’t jo brûke foar betellingen foar de folgjende abonneminten is ferrûn of ferrint ynkoarten.
 subscriptionsPaymentProviderCancelled-subject = Bywurkjen fan betellingsynformaasje fereaske foar { -brand-mozilla }-abonneminten
 subscriptionsPaymentProviderCancelled-title = Sorry, wy hawwe problemen mei jo betellingsmetoade
 subscriptionsPaymentProviderCancelled-content-detected = Wy hawwe in probleem mei jo betellingsmetoade foar de folgjende abonneminten fêststeld.
+subscriptionsPaymentProviderCancelled-content-payment-1 = Miskien is jo betellingsmetoade ferrûn, of jo aktuele betellingsmetoade is ferâldere.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-subject = Betelling foar { $productName } ûntfongen
@@ -704,6 +726,31 @@ subscriptionUpgrade-upgrade-info-2 = Jo hawwe mei sukses opwurdearre nei { $prod
 
 subscriptionUpgrade-content-charge-prorated-1 = Der is ien kear in fergoeding fan { $invoiceAmountDue } yn rekkening brocht om de hegere priis fan jo abonnemint foar de rest fan dizze fakturearingsperioade ({ $productPaymentCycleOld }) wer te jaan.
 subscriptionUpgrade-content-charge-credit = Jo hawwe in accounttegoed ûntfongen foar in bedrach fan { $paymentProrated }.
+subscriptionUpgrade-content-subscription-next-bill-change = Fan jo folgjende faktuer ôf wiziget de priis fan jo abonnemint.
+subscriptionUpgrade-content-old-price-day = It foarige taryf wie { $paymentAmountOld } per dei.
+subscriptionUpgrade-content-old-price-week = It foarige taryf wie { $paymentAmountOld } per wike.
+subscriptionUpgrade-content-old-price-month = It foarige taryf wie { $paymentAmountOld } per moanne.
+subscriptionUpgrade-content-old-price-halfyear = It foarige taryf wie { $paymentAmountOld } per seis moannen.
+subscriptionUpgrade-content-old-price-year = It foarige taryf wie { $paymentAmountOld } per jier.
+subscriptionUpgrade-content-old-price-default = It foarige taryf wie { $paymentAmountOld } per fakturearringsynterval.
+subscriptionUpgrade-content-old-price-day-tax = It foarige taryf wie { $paymentAmountOld } + { $paymentTaxOld } btw per dei.
+subscriptionUpgrade-content-old-price-week-tax = It foarige taryf wie { $paymentAmountOld } + { $paymentTaxOld } btw per wike.
+subscriptionUpgrade-content-old-price-month-tax = It foarige taryf wie { $paymentAmountOld } + { $paymentTaxOld } btw per moanne.
+subscriptionUpgrade-content-old-price-halfyear-tax = It foarige taryf wie { $paymentAmountOld } + { $paymentTaxOld } btw per seis moannen.
+subscriptionUpgrade-content-old-price-year-tax = It foarige taryf wie { $paymentAmountOld } + { $paymentTaxOld } btw per jier.
+subscriptionUpgrade-content-old-price-default-tax = It foarige taryf wie { $paymentAmountOld } + { $paymentTaxOld } btw per fakturearringsynterval.
+subscriptionUpgrade-content-new-price-day = Fan no ôf wurdt { $paymentAmountNew } per dei yn rekken brocht, eksklusyf koartingen.
+subscriptionUpgrade-content-new-price-week = Fan no ôf wurdt { $paymentAmountNew } per wike yn rekken brocht, eksklusyf koartingen.
+subscriptionUpgrade-content-new-price-month = Fan no ôf wurdt { $paymentAmountNew } per moanne yn rekken brocht, eksklusyf koartingen.
+subscriptionUpgrade-content-new-price-halfyear = Fan no ôf wurdt { $paymentAmountNew } per seis moannen yn rekken brocht, eksklusyf koartingen.
+subscriptionUpgrade-content-new-price-year = Fan no ôf wurdt { $paymentAmountNew } per jier yn rekken brocht, eksklusyf koartingen.
+subscriptionUpgrade-content-new-price-default = Fan no ôf wurdt { $paymentAmountNew } per fakturearringsynterval yn rekken brocht, eksklusyf koartingen.
+subscriptionUpgrade-content-new-price-day-dtax = Fan no ôf wurdt { $paymentAmountNew } + { $paymentTaxNew } btw per dei yn rekken brocht, eksklusyf koartingen.
+subscriptionUpgrade-content-new-price-week-tax = Fan no ôf wurdt { $paymentAmountNew } + { $paymentTaxNew } btw per wike yn rekken brocht, eksklusyf koartingen.
+subscriptionUpgrade-content-new-price-month-tax = Fan no ôf wurdt { $paymentAmountNew } + { $paymentTaxNew } btw per moanne yn rekken brocht, eksklusyf koartingen.
+subscriptionUpgrade-content-new-price-halfyear-tax = Fan no ôf wurdt { $paymentAmountNew } + { $paymentTaxNew } btw per seis moannen yn rekken brocht, eksklusyf koartingen.
+subscriptionUpgrade-content-new-price-year-tax = Fan no ôf wurdt { $paymentAmountNew } + { $paymentTaxNew } btw per jier yn rekken brocht, eksklusyf koartingen.
+subscriptionUpgrade-content-new-price-default-tax = Fan no ôf wurdt { $paymentAmountNew } + { $paymentTaxNew } btw per fakturearringsynterval yn rekken brocht, eksklusyf koartingen.
 subscriptionUpgrade-existing = As ien fan jo besteande abonneminten oerlaapje mei dizze opwurdearring, sille wy se behannelje en jo in aparte e-mailberjocht stjoere mei de details. As jo nije plan produkten omfettet dy’t ynstallaasje fereaskje, sille wy jo in apart e-mailberjocht stjoere mei ynstallaasje-ynstruksjes.
 subscriptionUpgrade-auto-renew = Jo abonnemint wurdt automatysk elke fakturearringsperioade ferlinge, útsein jo derfoar kieze om op te sizzen.
 unblockCode-subject = Accountautorisaasjekoade
@@ -735,6 +782,27 @@ verify-title-3 = Iepenje it ynternet mei { -brand-mozilla }
 verify-description-2 = Befêstigje jo account en helje oeral wêr’t jo jo oanmelde it measte út { -brand-mozilla }, te begjinnen mei:
 verify-subject = Oanmeitsjen fan jo account foltôgje
 verify-action-2 = Account befêstigje
+# Variables:
+# $code (String) - The verification code
+verifyAccountChange-subject = Brûk { $code } om jo account te wizigjen
+# Variables:
+# $expirationTime (Number) - Represents the expiration time in minutes
+verifyAccountChange-preview =
+    { $expirationTime ->
+        [one] Dizze koade ferrint oer { $expirationTime } minút.
+       *[other] Dizze koade ferrint oer { $expirationTime } minuten.
+    }
+verifyAccountChange-title = Wizigje jo jo accountgegevens?
+# After the colon is a description of the device used to sign in to the service
+verifyAccountChange-safe = Help ús jo account feilich te hâlden troch dizze wiziging goed te karren op:
+verifyAccountChange-prompt = Sa ja, dan is dit jo autentikaasjekoade:
+# Variables:
+# $expirationTime (Number) - Represents the expiration time in minutes
+verifyAccountChange-expiry-notice =
+    { $expirationTime ->
+        [one] Dizze ferrint oer { $expirationTime } minút.
+       *[other] Dizze ferrint oer { $expirationTime } minuten.
+    }
 # Variables:
 #  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title-2 = Hawwe jo oanmeld mei { $clientName }?
