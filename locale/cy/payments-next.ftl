@@ -121,7 +121,13 @@ subscription-management-button-support = Derbyn cymorth
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-support-aria = Derbyn cymorth ar gyfer { $productName }
 subscription-management-your-apple-iap-subscriptions-aria = Eich Tanysgrifiad { -brand-apple } o Fewn yr Ap
+subscription-management-apple-in-app-purchase-1 = { -brand-apple }: pryniant o fewn yr ap
 subscription-management-your-google-iap-subscriptions-aria = Eich Tanysgrifiad { -brand-google } o Fewn yr Ap
+subscription-management-google-in-app-purchase-1 = { -brand-google }: pryniant o fewn yr ap
+# $date (String) - Date of next bill
+subscription-management-iap-sub-next-bill-is-due = Mae'r bil nesaf yn ddyledus <strong>{ $date }</strong>
+# $date (String) - Date of In-App purchase expires
+subscription-management-iap-sub-will-expire-on = Bydd eich tanysgrifiad yn dod i ben ar <strong>{ $date }</strong>
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Rheoli tanysgrifiad { $productName }
 subscription-management-button-manage-subscription = Rheoli
@@ -281,6 +287,12 @@ next-new-user-subscribe-product-assurance = Dim ond i greu eich cyfrif rydym yn 
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
+subscription-content-current-invoice-billed-on-with-tax = { $invoiceTotal } + { $taxDue } <span>wedi'i filio ar { $billedOnDate }</span>
+subscription-content-current-invoice-billed-on-no-tax = { $invoiceTotal } <span>bil ar { $billedOnDate }</span>
+subscription-content-credit-issued-to-your-account = <strong>{ $creditApplied }</strong> credyd wedi'i roi i'ch cyfrif
+subscription-content-coupon-applied = { $promotionName } wedi'i gymhwyso
+subscription-content-next-bill-excl-with-tax = Mae bil nesaf <strong>{ $nextInvoiceTotal } + { $taxDue }</strong>, heb gynnwys gostyngiadau, yn ddyledus ar <strong>{ $nextBillDate }</strong>
+subscription-content-next-bill-excl-no-tax = Mae bil nesaf <strong>{ $nextInvoiceTotal }</strong>, heb gynnwys gostyngiadau, yn ddyledus ar <strong>{ $nextBillDate }</strong>
 subscription-content-heading-cancel-subscription = Diddymu'r Tanysgrifiad
 subscription-content-no-longer-use-message = Fyddwch ni ddim bellach yn gallu defnyddio { $productName } ar ôl { $currentPeriodEnd }, sef diwrnod olaf eich cylch bilio.
 subscription-content-cancel-access-message = Diddymwch fy mynediad a fy manylion wedi'i chadw o fewn { $productName } ar { $currentPeriodEnd }

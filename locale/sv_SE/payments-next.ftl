@@ -121,7 +121,13 @@ subscription-management-button-support = Få hjälp
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-support-aria = Få hjälp med { $productName }
 subscription-management-your-apple-iap-subscriptions-aria = Dina prenumerationer i { -brand-apple }-appen
+subscription-management-apple-in-app-purchase-1 = { -brand-apple }: köp i appen
 subscription-management-your-google-iap-subscriptions-aria = Dina prenumerationer i { -brand-google }-appen
+subscription-management-google-in-app-purchase-1 = { -brand-google }: köp i appen
+# $date (String) - Date of next bill
+subscription-management-iap-sub-next-bill-is-due = Nästa räkning förfaller <strong>{ $date }</strong>
+# $date (String) - Date of In-App purchase expires
+subscription-management-iap-sub-will-expire-on = Din prenumeration upphör att gälla <strong>{ $date }</strong>
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Hantera prenumerationer för { $productName }
 subscription-management-button-manage-subscription = Hantera
@@ -281,6 +287,12 @@ next-new-user-subscribe-product-assurance = Vi använder bara din e-postadress f
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
+subscription-content-current-invoice-billed-on-with-tax = { $invoiceTotal } + { $taxDue } <span>faktureras den { $billedOnDate }</span>
+subscription-content-current-invoice-billed-on-no-tax = { $invoiceTotal } <span>fakturerades den { $billedOnDate }</span>
+subscription-content-credit-issued-to-your-account = <strong>{ $creditApplied }</strong> kredit utfärdad till ditt konto
+subscription-content-coupon-applied = { $promotionName } tillämpad
+subscription-content-next-bill-excl-with-tax = Nästa räkning på <strong>{ $nextInvoiceTotal } + { $taxDue }</strong>, exklusive rabatter, förfaller den <strong>{ $nextBillDate }</strong>
+subscription-content-next-bill-excl-no-tax = Nästa räkning på <strong>{ $nextInvoiceTotal }</strong>, exklusive rabatter, förfaller den <strong>{ $nextBillDate }</strong>
 subscription-content-heading-cancel-subscription = Avbryt prenumeration
 subscription-content-no-longer-use-message = Du kommer inte längre att kunna använda { $productName } efter { $currentPeriodEnd }, den sista dagen i din faktureringscykel.
 subscription-content-cancel-access-message = Avbryt min åtkomst och min sparade information inom { $productName } den { $currentPeriodEnd }

@@ -121,7 +121,13 @@ subscription-management-button-support = Pomoč
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-support-aria = Pomoč za { $productName }
 subscription-management-your-apple-iap-subscriptions-aria = Vaše naročnine v aplikaciji za { -brand-apple }
+subscription-management-apple-in-app-purchase-1 = { -brand-apple }: nakup v aplikaciji
 subscription-management-your-google-iap-subscriptions-aria = Vaše naročnine v aplikaciji za { -brand-google }
+subscription-management-google-in-app-purchase-1 = { -brand-google }: nakup v aplikaciji
+# $date (String) - Date of next bill
+subscription-management-iap-sub-next-bill-is-due = Naslednji račun zapade do <strong>{ $date }</strong>
+# $date (String) - Date of In-App purchase expires
+subscription-management-iap-sub-will-expire-on = Vaša naročnina bo potekla <strong>{ $date }</strong>
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Upravljanje naročnine na { $productName }
 subscription-management-button-manage-subscription = Upravljaj
@@ -281,6 +287,12 @@ next-new-user-subscribe-product-assurance = Vaš e-poštni naslov uporabimo samo
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
+subscription-content-current-invoice-billed-on-with-tax = { $invoiceTotal } + { $taxDue } <span>zaračunano { $billedOnDate }</span>
+subscription-content-current-invoice-billed-on-no-tax = { $invoiceTotal } <span>obračunano { $billedOnDate }</span>
+subscription-content-credit-issued-to-your-account = <strong>{ $creditApplied }</strong> dobroimetja
+subscription-content-coupon-applied = { $promotionName } uporabljeno
+subscription-content-next-bill-excl-with-tax = Naslednji račun za <strong>{ $nextInvoiceTotal } + { $taxDue }</strong>, brez popustov, prihaja <strong>{ $nextBillDate }</strong>
+subscription-content-next-bill-excl-no-tax = Naslednji račun v višini <strong>{ $nextInvoiceTotal }</strong>, brez popustov, prihaja <strong>{ $nextBillDate }</strong>
 subscription-content-heading-cancel-subscription = Prekliči naročnino
 subscription-content-no-longer-use-message = { $productName } po { $currentPeriodEnd }, zadnjem dnevu obračunskega obdobja, ne boste več mogli uporabljati.
 subscription-content-cancel-access-message = Prekliči moj dostop in moje shranjene podatke do { $productName } dne { $currentPeriodEnd }

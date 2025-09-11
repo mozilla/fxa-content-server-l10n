@@ -121,7 +121,13 @@ subscription-management-button-support = Získat pomoc
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-support-aria = Získat pomoc pro { $productName }
 subscription-management-your-apple-iap-subscriptions-aria = Vaše předplatná v aplikaci { -brand-apple }
+subscription-management-apple-in-app-purchase-1 = { -brand-apple }: nákup v aplikaci
 subscription-management-your-google-iap-subscriptions-aria = Vaše předplatná v aplikaci { -brand-google }
+subscription-management-google-in-app-purchase-1 = { -brand-google }: nákup v aplikaci
+# $date (String) - Date of next bill
+subscription-management-iap-sub-next-bill-is-due = Další platba má splatnost <strong>{ $date }</strong>
+# $date (String) - Date of In-App purchase expires
+subscription-management-iap-sub-will-expire-on = Vaše předplatné vyprší <strong>{ $date }</strong>
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Spravovat předplatné pro { $productName }
 subscription-management-button-manage-subscription = Správa
@@ -281,6 +287,12 @@ next-new-user-subscribe-product-assurance = Vaši e-mailovou adresu použijeme p
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
+subscription-content-current-invoice-billed-on-with-tax = { $invoiceTotal } + { $taxDue } <span>zaplaceno dne { $billedOnDate }</span>
+subscription-content-current-invoice-billed-on-no-tax = { $invoiceTotal } <span>zaplaceno dne { $billedOnDate }</span>
+subscription-content-credit-issued-to-your-account = Na váš účet bude připsáno <strong>{ $creditApplied }</strong>
+subscription-content-coupon-applied = Částka { $promotionName } použita
+subscription-content-next-bill-excl-with-tax = Další platba <strong>{ $nextInvoiceTotal } + { $taxDue }</strong>, kromě slev, je splatná <strong>{ $nextBillDate }</strong>
+subscription-content-next-bill-excl-no-tax = Další platba <strong>{ $nextInvoiceTotal }</strong>, kromě diskontů, je splatná <strong>{ $nextBillDate }</strong>
 subscription-content-heading-cancel-subscription = Zrušit předplatné
 subscription-content-no-longer-use-message = Po { $currentPeriodEnd }, posledním dni vašeho fakturačního období, nebudete moci { $productName } používat.
 subscription-content-cancel-access-message = Zrušit můj přístup a ukládání mých informací v průběhu { $productName } dne { $currentPeriodEnd }

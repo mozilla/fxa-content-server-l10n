@@ -121,7 +121,13 @@ subscription-management-button-support = Obtenir de l’aide
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-support-aria = Obtenir de l’aide pour { $productName }
 subscription-management-your-apple-iap-subscriptions-aria = Vos abonnements { -brand-apple } via l’application
+subscription-management-apple-in-app-purchase-1 = { -brand-apple } : achat via l’application
 subscription-management-your-google-iap-subscriptions-aria = Vos abonnements { -brand-google } via l’application
+subscription-management-google-in-app-purchase-1 = { -brand-google } : achat via l’application
+# $date (String) - Date of next bill
+subscription-management-iap-sub-next-bill-is-due = La prochaine facture est due <strong>{ $date }</strong>
+# $date (String) - Date of In-App purchase expires
+subscription-management-iap-sub-will-expire-on = Votre abonnement expirera le <strong>{ $date }</strong>
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Gérer l’abonnement pour { $productName }
 subscription-management-button-manage-subscription = Gérer
@@ -281,6 +287,12 @@ next-new-user-subscribe-product-assurance = Nous utilisons votre adresse e-mail 
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
+subscription-content-current-invoice-billed-on-with-tax = { $invoiceTotal } + { $taxDue } <span>Facturé le { $billedOnDate }</span>
+subscription-content-current-invoice-billed-on-no-tax = { $invoiceTotal } <span>Facturé le { $billedOnDate }</span>
+subscription-content-credit-issued-to-your-account = <strong>Crédit de { $creditApplied }</strong> crédité sur votre compte
+subscription-content-coupon-applied = { $promotionName } appliqué
+subscription-content-next-bill-excl-with-tax = La prochaine facture de <strong>{ $nextInvoiceTotal } + { $taxDue }</strong>, hors remises, est due le <strong>{ $nextBillDate }</strong>
+subscription-content-next-bill-excl-no-tax = La prochaine facture de <strong>{ $nextInvoiceTotal }</strong>, remises non comprises, est due le <strong>{ $nextBillDate }</strong>
 subscription-content-heading-cancel-subscription = Annuler l’abonnement
 subscription-content-no-longer-use-message = Vous ne pourrez plus utiliser { $productName } après le { $currentPeriodEnd }, le dernier jour de votre cycle de facturation.
 subscription-content-cancel-access-message = Annuler mon accès et mes informations enregistrées dans { $productName } le { $currentPeriodEnd }

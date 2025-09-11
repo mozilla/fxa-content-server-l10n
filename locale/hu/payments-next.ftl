@@ -123,7 +123,13 @@ subscription-management-button-support = Segítség kérése
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-support-aria = Segítség { $productName } összegért
 subscription-management-your-apple-iap-subscriptions-aria = { -brand-apple } alkalmazásbeli előfizetései
+subscription-management-apple-in-app-purchase-1 = { -brand-apple }: alkalmazáson belüli vásárlás
 subscription-management-your-google-iap-subscriptions-aria = { -brand-google } alkalmazásbeli előfizetései
+subscription-management-google-in-app-purchase-1 = { -brand-google }: alkalmazáson belüli vásárlás
+# $date (String) - Date of next bill
+subscription-management-iap-sub-next-bill-is-due = A következő számla esedékessége: <strong>{ $date }</strong>
+# $date (String) - Date of In-App purchase expires
+subscription-management-iap-sub-will-expire-on = Az előfizetése a következő napon lejár: <strong>{ $date }</strong>
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = { $productName } előfizetés kezelése
 subscription-management-button-manage-subscription = Kezelés
@@ -283,6 +289,12 @@ next-new-user-subscribe-product-assurance = Csak a fiókja létrehozásához has
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
+subscription-content-current-invoice-billed-on-with-tax = { $invoiceTotal } + { $taxDue } <span>számlázva ekkor: { $billedOnDate }</span>
+subscription-content-current-invoice-billed-on-no-tax = { $invoiceTotal } <span>számlázva ekkor: { $billedOnDate }</span>
+subscription-content-credit-issued-to-your-account = <strong>{ $creditApplied }</strong> jóváírás a számlájában
+subscription-content-coupon-applied = { $promotionName } alkalmazva
+subscription-content-next-bill-excl-with-tax = A következő kedvezményeket nem tartalmazó <strong>{ $nextInvoiceTotal } + { $taxDue }</strong> összegű számla esedékessége <strong>{ $nextBillDate }</strong>
+subscription-content-next-bill-excl-no-tax = A következő kedvezményeket nem tartalmazó <strong>{ $nextInvoiceTotal }</strong> számla esedékessége <strong>{ $nextBillDate }</strong>
 subscription-content-heading-cancel-subscription = Előfizetés lemondása
 subscription-content-no-longer-use-message = Az utolsó számlázási periódusa után ({ $currentPeriodEnd }) nem fogja tudni használni a(z) { $productName } szolgáltatást,
 subscription-content-cancel-access-message = A(z) { $productName } hozzáférésének lemondása, és az abban mentett adatok törlése ekkor: { $currentPeriodEnd }
