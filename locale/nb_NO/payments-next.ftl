@@ -121,7 +121,13 @@ subscription-management-button-support = Få hjelp
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-support-aria = Få hjelp med { $productName }
 subscription-management-your-apple-iap-subscriptions-aria = Dine { -brand-apple } kjøp i app-abonnement
+subscription-management-apple-in-app-purchase-1 = { -brand-apple }: kjøp i app
 subscription-management-your-google-iap-subscriptions-aria = Dine { -brand-google } kjøp i app-abonnementer
+subscription-management-google-in-app-purchase-1 = { -brand-google }: kjøp i app
+# $date (String) - Date of next bill
+subscription-management-iap-sub-next-bill-is-due = Neste regning forfaller <strong>{ $date }</strong>
+# $date (String) - Date of In-App purchase expires
+subscription-management-iap-sub-will-expire-on = Abonnementet ditt utløper <strong>{ $date }</strong>
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Behandle abonnement for { $productName }
 subscription-management-button-manage-subscription = Behandle
@@ -281,6 +287,8 @@ next-new-user-subscribe-product-assurance = Vi bruker kun e-postadressen din til
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
+subscription-content-current-invoice-billed-on-with-tax = { $invoiceTotal } + { $taxDue } <span>fakturert den { $billedOnDate }</span>
+subscription-content-current-invoice-billed-on-no-tax = { $invoiceTotal } <span>fakturert den { $billedOnDate }</span>
 subscription-content-heading-cancel-subscription = Avbryt abonnement
 subscription-content-no-longer-use-message = Du vil ikke lenger kunne bruke { $productName } etter { $currentPeriodEnd }, den siste dagen i faktureringsperioden din.
 subscription-content-cancel-access-message = Avbryt tilgangen min og lagret informasjon for { $productName } den { $currentPeriodEnd }
