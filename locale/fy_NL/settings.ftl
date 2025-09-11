@@ -360,6 +360,8 @@ confirmation-link-reused-message = Dy befêstigingskeppeling is al brûkt en kin
 
 ## Locale Toggle Component
 
+locale-toggle-select-label = Taal selektearje
+locale-toggle-browser-default = Browserstandert
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Unjildige oanfraach
 
@@ -758,6 +760,27 @@ modal-close-title = Slute
 modal-cancel-button = Annulearje
 modal-default-confirm-button = Befêstigje
 
+## ModalMfaProtected
+
+modal-mfa-protected-title = Fier befêstigingskoade yn
+# This string is used to show a notification to the user for them to enter
+# email confirmation code to update their multi-factor-authentication-protected
+# account settings
+# Variables:
+#   email (String) - the user's email
+#   expirationTime (Number) - the expiration time in minutes
+modal-mfa-protected-instruction =
+    { $expirationTime ->
+        [one] Fier binnen { $expirationTime } minút de koade yn dy’t nei <email>{ $email }</email> is ferstjoerd.
+       *[other] Fier binnen { $expirationTime } minuten de koade yn dy’t nei <email>{ $email }</email> is ferstjoerd.
+    }
+modal-mfa-protected-input-label = Fier 6-siferige koade yn
+modal-mfa-protected-cancel-button = Annulearje
+modal-mfa-protected-confirm-button = Befêstigje
+modal-mfa-protected-code-expired = Koade ferrûn?
+# Link to resend a new code to the user's email.
+modal-mfa-protected-resend-code-link = Nije koade ferstjoere.
+
 ## Modal Verify Session
 
 mvs-verify-your-email-2 = Befêstigje jo e-mailadres
@@ -779,14 +802,26 @@ nav-data-collection = Gegevenssamling en gebrûk
 nav-paid-subs = Betelle abonneminten
 nav-email-comm = E-mailkommunikaasje
 
+## Page2faChange
+
+page-2fa-change-title = Autentikaasje yn twa stappen wizigje
+page-2fa-change-success = Twa-stapautentikaasje is bywurke
+page-2fa-change-totpinfo-error = Der is in flater bard by it ferfangen fan jo twa-stapsautentikaasje-app. Probearje it letter opnij.
+
 ## Two Step Authentication - replace backup authentication code
 
+# Page title
+tfa-backup-codes-page-title = Reserve-autentikaasjekoaden
 # Error shown when API call fails while replacing existing backup codes
 tfa-replace-code-error-3 = Der is in probleem bard by it ferfangen fan jo reserve-autentikaasjekoaden
 # Error shown when API call fails while creating new backup codes (user had none)
 tfa-create-code-error = Der is in probleem bard by it oanmeitsjen fan jo reserve-autentikaasjekoaden
 # Success message shown in alert bar after successfully replacing existing backup codes
 tfa-replace-code-success-alert-4 = Reserve-autentikaasjekoaden bywurke
+# Success message shown after creating backup codes for the first time
+tfa-create-code-success-alert = Reserve-autentikaasjekoaden oanmakke
+# Error shown when the entered backup code does not match any of the generated codes
+tfa-incorrect-recovery-code-1 = Ferkearde reserve-autentikaasjekoade
 
 ## Page2faSetup
 
@@ -1188,6 +1223,7 @@ tfa-row-enabled = Ynskeakele
 tfa-row-disabled-status = Utskeakele
 tfa-row-action-add = Tafoegje
 tfa-row-action-disable = Utskeakelje
+tfa-row-action-change = Wizigje
 tfa-row-button-refresh =
     .title = Autentikaasje yn twa stappen fernije
 tfa-row-cannot-refresh =

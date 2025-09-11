@@ -475,6 +475,11 @@ postChangeRecoveryPhone-requested-device = Jo hawwe it opfrege fanôf:
 postChangeTwoStepAuthentication-preview = Jo account is beskerme
 postChangeTwoStepAuthentication-subject = Twa-stapsautentikaasje bywurke
 postChangeTwoStepAuthentication-title = Twa-stapautentikaasje is bywurke
+# After the colon, there is a description of the device that the user used to enable two-step authentication
+postChangeTwoStepAuthentication-from-device = Jo hawwe dit opfrege fan:
+postChangeTwoStepAuthentication-action = Account beheare
+postChangeTwoStepAuthentication-how-protects-link = Hoe dit jo account beskermet
+postChangeTwoStepAuthentication-how-protects-plaintext = Hoe dit jo account beskermet:
 postConsumeRecoveryCode-title-3 = Jo reserve-autentikaasjekoade is brûkt om in wachtwurdwerinisjalisaasje te befêstigjen
 # After the colon, there is description of the device that the backup authentication code was used on
 # E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
@@ -738,6 +743,7 @@ verify-title-3 = Iepenje it ynternet mei { -brand-mozilla }
 verify-description-2 = Befêstigje jo account en helje oeral wêr’t jo jo oanmelde it measte út { -brand-mozilla }, te begjinnen mei:
 verify-subject = Oanmeitsjen fan jo account foltôgje
 verify-action-2 = Account befêstigje
+verifyAccountChange-prompt = Sa ja, dan is dit jo autentikaasjekoade:
 # Variables:
 #  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title-2 = Hawwe jo oanmeld mei { $clientName }?

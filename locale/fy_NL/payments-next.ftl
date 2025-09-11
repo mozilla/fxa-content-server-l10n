@@ -138,8 +138,10 @@ subscription-management-page-subscription-interval-weekly = { $productName } (wy
 subscription-management-page-subscription-interval-monthly = { $productName } (moanliks)
 subscription-management-page-subscription-interval-halfyearly = { $productName } (6 moanliks)
 subscription-management-page-subscription-interval-yearly = { $productName } (jierliks)
+subscription-management-page-paypal-error-banner = Ungjidige betellingsgegevens; der is in flater bard mei jo account.
 subscription-management-page-paypal-error-banner-link = Beheare
 paypal-payment-management-page-invalid-header = Ungjildige fakturaasjegegevens
+paypal-payment-management-page-invalid-description = Der liket in flater te barren mei jo { -brand-paypal }-account. Jo moatte de needsaaklike stappen nimme om dit betellingsprobleem op te lossen.
 # Page - Not Found
 page-not-found-title = Side net fûn
 page-not-found-description = De opfrege side is net fûn. Wy binne op de hichte en sille keppelingen dy't mooglik net wurkje werom bringe.
@@ -306,6 +308,21 @@ subscription-cancellation-dialog-title = Wy fine it spitich dat jo ús ferlitte
 # $date (Date) - Last day of product access
 subscription-cancellation-dialog-msg = Jo abonnemint op { $name } is opsein. Jo hawwe noch oant { $date } tagong ta { $name }.
 subscription-cancellation-dialog-aside = Fragen? Besykje <LinkExternal>{ -brand-mozilla } Support</LinkExternal>.
+subscription-content-button-resubscribe = Opnij abonnearje
+    .aria-label = Opnij abonnearje op { $productName }
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+subscription-content-resubscribe = Jo ferlieze op <strong>{ $date }</strong> tagong ta { $name }.
+# $name (String) - The name of the subscribed product.
+resubscribe-dialog-title = Wolle jo { $name } brûke bliuwe?
+
+## $name (String) - The name of the subscribed product.
+## $amount (Number) - The amount billed (excluding tax if tax does not exist). It will be formatted as currency.
+## $tax (Number) - The tax added on, not included in amount. It will be formatted as currency.
+## $endDate (Date) - The end date of the subscription period.
+
+resubscribe-success-dialog-action-button-close = Slute
+    .aria-label = Dialoochfinster slute
 
 ##
 
