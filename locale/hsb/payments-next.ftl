@@ -124,7 +124,9 @@ subscription-management-button-support = Pomoc sej wobstarać
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-support-aria = Wobstarajće sej pomoc za { $productName }
 subscription-management-your-apple-iap-subscriptions-aria = Waše abonementy w nałoženju { -brand-apple }
+subscription-management-apple-in-app-purchase-1 = { -brand-apple }: kup w nałoženju
 subscription-management-your-google-iap-subscriptions-aria = Waše abonementy w nałoženju { -brand-google }
+subscription-management-google-in-app-purchase-1 = { -brand-google }: kup w nałoženju
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Abonement za { $productName } rjadować
 subscription-management-button-manage-subscription = Rjadować
@@ -284,6 +286,7 @@ next-new-user-subscribe-product-assurance = Wužiwamy jenož wašu e-mejlowu adr
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
+subscription-content-coupon-applied = { $promotionName } nałoženy
 subscription-content-heading-cancel-subscription = Abonement wupowědźić
 subscription-content-no-longer-use-message =
     Po { $currentPeriodEnd }, poslednim dnju swojeho wotličenskeje periody,
