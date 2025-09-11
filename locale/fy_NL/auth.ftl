@@ -472,6 +472,9 @@ postChangeRecoveryPhone-preview = Account beskerme troch twa-stapsautentikaasje
 postChangeRecoveryPhone-title = Jo hawwe jo wersteltelefoannûmer wizige
 postChangeRecoveryPhone-description = Jo hawwe no in nij wersteltelefoannûmer. Jo foarige telefoannûmer is fuortsmiten.
 postChangeRecoveryPhone-requested-device = Jo hawwe it opfrege fanôf:
+postChangeTwoStepAuthentication-preview = Jo account is beskerme
+postChangeTwoStepAuthentication-subject = Twa-stapsautentikaasje bywurke
+postChangeTwoStepAuthentication-title = Twa-stapautentikaasje is bywurke
 postConsumeRecoveryCode-title-3 = Jo reserve-autentikaasjekoade is brûkt om in wachtwurdwerinisjalisaasje te befêstigjen
 # After the colon, there is description of the device that the backup authentication code was used on
 # E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
