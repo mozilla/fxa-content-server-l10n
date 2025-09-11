@@ -36,6 +36,9 @@ unionpay-logo-alt-text = { -brand-unionpay }-logo
 visa-logo-alt-text = { -brand-visa }-logo
 # Alt text for generic payment card logo
 unbranded-logo-alt-text = Merkleas logo
+link-logo-alt-text = { -brand-link }-logo
+apple-pay-logo-alt-text = { -brand-apple-pay }-logo
+google-pay-logo-alt-text = { -brand-google-pay }-logo
 
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -105,6 +108,8 @@ subscription-management-button-add-payment-method-aria = Betellingsmetoade tafoe
 subscription-management-button-add-payment-method = Tafoegje
 subscription-management-button-change-payment-method-aria = Betellingsmetoade wizigje
 subscription-management-button-change-payment-method = Wizigje
+subscription-management-button-manage-payment-method-aria = Betellingsmetoade beheare
+subscription-management-button-manage-payment-method = Beheare
 # $last4 (String) - Last four numbers of credit card
 subscription-management-card-ending-in = Creditcard einigjend op { $last4 }
 # $expirationDate (Date) - Payment card's expiration date
@@ -112,6 +117,9 @@ subscription-management-card-expires-date = Ferrint op { $expirationDate }
 subscription-management-subscriptions-heading = Abonneminten
 subscription-management-your-subscriptions-aria = Jo abonneminten
 subscription-management-no-subscriptions = Jo hawwe noch gjin abonneminten
+subscription-management-button-support = Help krije
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscription-management-button-support-aria = Help foar { $productName } krije
 subscription-management-your-apple-iap-subscriptions-aria = Jo { -brand-apple }-yn-app-abonneminten
 subscription-management-apple-in-app-purchase = { -brand-apple }: yn-app-oankeap
 subscription-management-your-google-iap-subscriptions-aria = Jo { -brand-google }-yn-app-abonneminten
@@ -132,6 +140,10 @@ subscription-management-page-subscription-interval-weekly = { $productName } (wy
 subscription-management-page-subscription-interval-monthly = { $productName } (moanliks)
 subscription-management-page-subscription-interval-halfyearly = { $productName } (6 moanliks)
 subscription-management-page-subscription-interval-yearly = { $productName } (jierliks)
+subscription-management-page-paypal-error-banner = Ungjidige betellingsgegevens; der is in flater bard mei jo account.
+subscription-management-page-paypal-error-banner-link = Beheare
+paypal-payment-management-page-invalid-header = Ungjildige fakturaasjegegevens
+paypal-payment-management-page-invalid-description = Der liket in flater te barren mei jo { -brand-paypal }-account. Jo moatte de needsaaklike stappen nimme om dit betellingsprobleem op te lossen.
 # Page - Not Found
 page-not-found-title = Side net fûn
 page-not-found-description = De opfrege side is net fûn. Wy binne op de hichte en sille keppelingen dy't mooglik net wurkje werom bringe.
@@ -145,6 +157,8 @@ subscription-management-breadcrumb-account-home = Account-startside
 subscription-management-breadcrumb-subscriptions = Abonneminten
 # Link title - Payment method management
 subscription-management-breadcrumb-payment = Betellingsmetoaden
+# $page refers to page titles used in the breadcrumb menu (e.g. Account Home, Subscriptions, Payment Methods)
+subscription-management-breadcrumb-back-aria = Tebek nei { $page }
 
 ## Component - Payment Consent Checkbox
 
@@ -296,6 +310,27 @@ subscription-cancellation-dialog-title = Wy fine it spitich dat jo ús ferlitte
 # $date (Date) - Last day of product access
 subscription-cancellation-dialog-msg = Jo abonnemint op { $name } is opsein. Jo hawwe noch oant { $date } tagong ta { $name }.
 subscription-cancellation-dialog-aside = Fragen? Besykje <LinkExternal>{ -brand-mozilla } Support</LinkExternal>.
+subscription-content-button-resubscribe = Opnij abonnearje
+    .aria-label = Opnij abonnearje op { $productName }
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+subscription-content-resubscribe = Jo ferlieze op <strong>{ $date }</strong> tagong ta { $name }.
+# $name (String) - The name of the subscribed product.
+resubscribe-dialog-title = Wolle jo { $name } brûke bliuwe?
+
+## $name (String) - The name of the subscribed product.
+## $amount (Number) - The amount billed (excluding tax if tax does not exist). It will be formatted as currency.
+## $tax (Number) - The tax added on, not included in amount. It will be formatted as currency.
+## $endDate (Date) - The end date of the subscription period.
+
+resubscribe-dialog-content = Jo tagong ta { $name } bliuwt bestean, en jo betellingssyklus en betelling bliuwe itselde. Jo folgjende betelling wurdt { $amount } op { $endDate }.
+resubscribe-dialog-content-with-tax = Jo tagong ta { $name } bliuwt bestean, en jo betellingssyklus en betelling bliuwe itselde. Jo folgjende betelling is { $amount } + { $tax } btw op { $endDate }.
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+resubscribe-dialog-action-button-resubscribe = Opnij abonnearje
+    .aria-label = Opnij abonnearje op { $productName }
+resubscribe-success-dialog-title = Tank! Jo binne hielendal klear.
+resubscribe-success-dialog-action-button-close = Slute
+    .aria-label = Dialoochfinster slute
 
 ##
 
