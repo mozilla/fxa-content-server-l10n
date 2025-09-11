@@ -79,8 +79,6 @@ subscription-management-card-expires-date = Муҳлаташ дар { $expiratio
 subscription-management-subscriptions-heading = Обунаҳо
 subscription-management-your-subscriptions-aria = Обунаҳои шумо
 subscription-management-no-subscriptions = Шумо ҳоло ягон обуна надоред
-# $date (String) - Date of In-App purchase expires
-subscription-management-iap-sub-expires-on = Анҷоми муҳлат дар { $date }
 subscription-management-button-manage-subscription = Идоракунӣ
 
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -196,14 +194,11 @@ next-new-user-subscribe-product-updates-mdnplus = Ман мехоҳам, ки а
 next-new-user-subscribe-product-updates-mozilla = Ман мехоҳам, ки аз «{ -brand-mozilla }» дар бораи маҳсулот хабарҳо ва навигариҳоро қабул кунам
 next-new-user-subscribe-product-updates-snp = Ман мехоҳам, ки аз «{ -brand-mozilla }» дар бораи амният ва махфият хабарҳо ва навигариҳоро қабул кунам
 
-## Examples of coupon applied
-## 20% OFF coupon applied: $11.20 + $0.35 tax
-## Holiday Offer 2023 coupon applied: 6,42 €
-## Cybersecurity Awareness Month 2023 coupon applied: $11.20 + $0.35 tax
-## Summer Promo VPN coupon applied: $11.20
-## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., 08/21/2025 for US locale, 21/08/25 for FR locale)
+## $billOnDate (Date) - The billing date of the current invoice (e.g., September 8, 2025)
+## $creditApplied (Number) - The amount from account credit balance used to reduce the amount due on the invoice
+## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
 ## $invoiceTotal (Number) - The amount billed (excluding tax if tax does not exist). It will be formatted as currency.
-## $nextBillDate (Date) - The date for the next time a charge will occur (e.g., 08/21/2025 for US locale, 21/08/25 for FR locale)
+## $nextBillDate (Date) - The date for the next time a charge will occur (e.g., September 8, 2025)
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.

@@ -84,7 +84,6 @@ subscription-management-subscriptions-heading = Жазылулар
 subscription-management-your-subscriptions-aria = Сіздің жазылуларыңыз
 subscription-management-button-support = Көмек алу
 subscription-management-your-apple-iap-subscriptions-aria = Сіздің { -brand-apple } қолданбадағы жазылымдарыңыз
-subscription-management-apple-in-app-purchase = { -brand-apple }: Қолданбада сатып алу
 subscription-management-button-manage-subscription = Басқару
 
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN

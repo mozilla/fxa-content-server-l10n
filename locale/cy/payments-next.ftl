@@ -121,13 +121,7 @@ subscription-management-button-support = Derbyn cymorth
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-support-aria = Derbyn cymorth ar gyfer { $productName }
 subscription-management-your-apple-iap-subscriptions-aria = Eich Tanysgrifiad { -brand-apple } o Fewn yr Ap
-subscription-management-apple-in-app-purchase = { -brand-apple }: Prynu o Fewn yr Ap
 subscription-management-your-google-iap-subscriptions-aria = Eich Tanysgrifiad { -brand-google } o Fewn yr Ap
-subscription-management-google-in-app-purchase = { -brand-google } : Prynu o Fewn yr Ap
-# $date (String) - Date of next bill
-subscription-management-iap-sub-next-bill = Bydd y taliad nesaf ar { $date }
-# $date (String) - Date of In-App purchase expires
-subscription-management-iap-sub-expires-on = Daw i ben ar { $date }
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Rheoli tanysgrifiad { $productName }
 subscription-management-button-manage-subscription = Rheoli
@@ -278,23 +272,15 @@ next-new-user-subscribe-product-updates-mozilla = Hoffwn dderbyn newyddion cynny
 next-new-user-subscribe-product-updates-snp = Hoffwn dderbyn newyddion a diweddariadau diogelwch a phreifatrwydd gan { -brand-mozilla }
 next-new-user-subscribe-product-assurance = Dim ond i greu eich cyfrif rydym yn defnyddio'ch e-bost. Fyddwn ni byth yn ei werthu i drydydd parti.
 
-## Examples of coupon applied
-## 20% OFF coupon applied: $11.20 + $0.35 tax
-## Holiday Offer 2023 coupon applied: 6,42 €
-## Cybersecurity Awareness Month 2023 coupon applied: $11.20 + $0.35 tax
-## Summer Promo VPN coupon applied: $11.20
-## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., 08/21/2025 for US locale, 21/08/25 for FR locale)
+## $billOnDate (Date) - The billing date of the current invoice (e.g., September 8, 2025)
+## $creditApplied (Number) - The amount from account credit balance used to reduce the amount due on the invoice
+## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
 ## $invoiceTotal (Number) - The amount billed (excluding tax if tax does not exist). It will be formatted as currency.
-## $nextBillDate (Date) - The date for the next time a charge will occur (e.g., 08/21/2025 for US locale, 21/08/25 for FR locale)
+## $nextBillDate (Date) - The date for the next time a charge will occur (e.g., September 8, 2025)
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
-subscription-content-promotion-applied-no-tax = Cwpon { $promotionName } wedi'i osod: { $invoiceTotal }
-subscription-content-promotion-applied-with-tax = Cwpon { $promotionName } wedi'i osod: { $invoiceTotal } + { $taxDue } treth
-subscription-content-current-with-tax = { $invoiceTotal } + { $taxDue } treth
-subscription-content-next-bill-no-tax = Mae bil nesaf o { $invoiceTotal } yn ddyledus ar { $nextBillDate }
-subscription-content-next-bill-with-tax = Mae bil nesaf o { $invoiceTotal } + { $taxDue } o dreth yn ddyledus ar { $nextBillDate }
 subscription-content-heading-cancel-subscription = Diddymu'r Tanysgrifiad
 subscription-content-no-longer-use-message = Fyddwch ni ddim bellach yn gallu defnyddio { $productName } ar ôl { $currentPeriodEnd }, sef diwrnod olaf eich cylch bilio.
 subscription-content-cancel-access-message = Diddymwch fy mynediad a fy manylion wedi'i chadw o fewn { $productName } ar { $currentPeriodEnd }

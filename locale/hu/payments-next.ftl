@@ -123,13 +123,7 @@ subscription-management-button-support = Segítség kérése
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-support-aria = Segítség { $productName } összegért
 subscription-management-your-apple-iap-subscriptions-aria = { -brand-apple } alkalmazásbeli előfizetései
-subscription-management-apple-in-app-purchase = { -brand-apple }: Alkalmazáson belüli vásárlás
 subscription-management-your-google-iap-subscriptions-aria = { -brand-google } alkalmazásbeli előfizetései
-subscription-management-google-in-app-purchase = { -brand-google }: Alkalmazáson belüli vásárlás
-# $date (String) - Date of next bill
-subscription-management-iap-sub-next-bill = Következő számlázás: { $date }
-# $date (String) - Date of In-App purchase expires
-subscription-management-iap-sub-expires-on = Lejárat: { $date }
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = { $productName } előfizetés kezelése
 subscription-management-button-manage-subscription = Kezelés
@@ -280,23 +274,15 @@ next-new-user-subscribe-product-updates-mozilla = Szeretnék termékhíreket és
 next-new-user-subscribe-product-updates-snp = Szeretnék biztonsági és adatvédelmi híreket kapni a { -brand-mozilla(ending: "accented") }tól
 next-new-user-subscribe-product-assurance = Csak a fiókja létrehozásához használjuk az e-mail-címét. Sosem adjuk el harmadik félnek.
 
-## Examples of coupon applied
-## 20% OFF coupon applied: $11.20 + $0.35 tax
-## Holiday Offer 2023 coupon applied: 6,42 €
-## Cybersecurity Awareness Month 2023 coupon applied: $11.20 + $0.35 tax
-## Summer Promo VPN coupon applied: $11.20
-## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., 08/21/2025 for US locale, 21/08/25 for FR locale)
+## $billOnDate (Date) - The billing date of the current invoice (e.g., September 8, 2025)
+## $creditApplied (Number) - The amount from account credit balance used to reduce the amount due on the invoice
+## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
 ## $invoiceTotal (Number) - The amount billed (excluding tax if tax does not exist). It will be formatted as currency.
-## $nextBillDate (Date) - The date for the next time a charge will occur (e.g., 08/21/2025 for US locale, 21/08/25 for FR locale)
+## $nextBillDate (Date) - The date for the next time a charge will occur (e.g., September 8, 2025)
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
-subscription-content-promotion-applied-no-tax = { $promotionName } kupon alkalmazva: { $invoiceTotal }
-subscription-content-promotion-applied-with-tax = { $promotionName } kupon alkalmazva: { $invoiceTotal } + { $taxDue } adó
-subscription-content-current-with-tax = { $invoiceTotal } + { $taxDue } adó
-subscription-content-next-bill-no-tax = A következő { $invoiceTotal } összegű számla esedékessége: { $nextBillDate }
-subscription-content-next-bill-with-tax = A következő { $invoiceTotal } + { $taxDue } adó esedékessége: { $nextBillDate }
 subscription-content-heading-cancel-subscription = Előfizetés lemondása
 subscription-content-no-longer-use-message = Az utolsó számlázási periódusa után ({ $currentPeriodEnd }) nem fogja tudni használni a(z) { $productName } szolgáltatást,
 subscription-content-cancel-access-message = A(z) { $productName } hozzáférésének lemondása, és az abban mentett adatok törlése ekkor: { $currentPeriodEnd }

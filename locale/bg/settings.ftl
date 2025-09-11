@@ -126,6 +126,10 @@ tfa-row-action-add = Добавяне
 ## ThirdPartyAuth component
 ## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
 
+
+# For the sign-in page, when 3rd-party auth is the only option, this string appears with a divider line between the user's avatar on top and 3rd-party authentication buttons (continue-with-google continue-with-apple buttons) on bottom.
+# This could also be translated as "Sign in with the following" or "Sign in with the below".
+
 continue-with-google-button = Напред с { -brand-google }
 continue-with-apple-button = Напред с { -brand-apple }
 

@@ -121,13 +121,7 @@ subscription-management-button-support = Λήψη βοήθειας
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-support-aria = Λήψη βοήθειας για το { $productName }
 subscription-management-your-apple-iap-subscriptions-aria = Συνδρομές εντός εφαρμογών { -brand-apple }
-subscription-management-apple-in-app-purchase = { -brand-apple }: αγορά εντός εφαρμογής
 subscription-management-your-google-iap-subscriptions-aria = Συνδρομές εντός εφαρμογών { -brand-google }
-subscription-management-google-in-app-purchase = { -brand-google }: αγορά εντός εφαρμογής
-# $date (String) - Date of next bill
-subscription-management-iap-sub-next-bill = Επόμενη χρέωση στις { $date }
-# $date (String) - Date of In-App purchase expires
-subscription-management-iap-sub-expires-on = Λήγει στις { $date }
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Διαχείριση συνδρομής για το { $productName }
 subscription-management-button-manage-subscription = Διαχείριση
@@ -278,23 +272,15 @@ next-new-user-subscribe-product-updates-mozilla = Επιθυμώ να λαμβά
 next-new-user-subscribe-product-updates-snp = Επιθυμώ να λαμβάνω ειδήσεις και ενημερώσεις ασφαλείας και απορρήτου από τη { -brand-mozilla }
 next-new-user-subscribe-product-assurance = Χρησιμοποιούμε το email σας μόνο για τη δημιουργία του λογαριασμού σας. Δεν θα το πωλήσουμε ποτέ σε τρίτους.
 
-## Examples of coupon applied
-## 20% OFF coupon applied: $11.20 + $0.35 tax
-## Holiday Offer 2023 coupon applied: 6,42 €
-## Cybersecurity Awareness Month 2023 coupon applied: $11.20 + $0.35 tax
-## Summer Promo VPN coupon applied: $11.20
-## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., 08/21/2025 for US locale, 21/08/25 for FR locale)
+## $billOnDate (Date) - The billing date of the current invoice (e.g., September 8, 2025)
+## $creditApplied (Number) - The amount from account credit balance used to reduce the amount due on the invoice
+## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
 ## $invoiceTotal (Number) - The amount billed (excluding tax if tax does not exist). It will be formatted as currency.
-## $nextBillDate (Date) - The date for the next time a charge will occur (e.g., 08/21/2025 for US locale, 21/08/25 for FR locale)
+## $nextBillDate (Date) - The date for the next time a charge will occur (e.g., September 8, 2025)
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
-subscription-content-promotion-applied-no-tax = Εφαρμόστηκε το κουπόνι { $promotionName }: { $invoiceTotal }
-subscription-content-promotion-applied-with-tax = Εφαρμόστηκε το κουπόνι { $promotionName }: { $invoiceTotal } + { $taxDue } (φόρος)
-subscription-content-current-with-tax = { $invoiceTotal } + { $taxDue } (φόρος)
-subscription-content-next-bill-no-tax = Ο επόμενος λογαριασμός των { $invoiceTotal } λήγει στις { $nextBillDate }
-subscription-content-next-bill-with-tax = Ο επόμενος λογαριασμός των { $invoiceTotal } + { $taxDue } (φόρος) λήγει στις { $nextBillDate }
 subscription-content-heading-cancel-subscription = Ακύρωση συνδρομής
 subscription-content-no-longer-use-message = Δεν θα μπορείτε πλέον να χρησιμοποιείτε το { $productName } μετά τις { $currentPeriodEnd }, την τελευταία ημέρα του κύκλου χρέωσής σας.
 subscription-content-cancel-access-message = Ακύρωση της πρόσβασής μου και των αποθηκευμένων πληροφοριών μου εντός του { $productName } στις { $currentPeriodEnd }

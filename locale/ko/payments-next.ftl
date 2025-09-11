@@ -121,13 +121,7 @@ subscription-management-button-support = 도움말
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-support-aria = { $productName }에 대한 도움말 보기
 subscription-management-your-apple-iap-subscriptions-aria = { -brand-apple } 앱 내부 구독
-subscription-management-apple-in-app-purchase = { -brand-apple }: 앱 내 구매
 subscription-management-your-google-iap-subscriptions-aria = { -brand-google } 앱 내부 구독
-subscription-management-google-in-app-purchase = { -brand-google }: 앱 내 구매
-# $date (String) - Date of next bill
-subscription-management-iap-sub-next-bill = 다음 청구일: { $date }
-# $date (String) - Date of In-App purchase expires
-subscription-management-iap-sub-expires-on = { $date }에 만료
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = { $productName } 구독 관리
 subscription-management-button-manage-subscription = 관리
@@ -278,23 +272,15 @@ next-new-user-subscribe-product-updates-mozilla = { -brand-mozilla }로부터 �
 next-new-user-subscribe-product-updates-snp = { -brand-mozilla }로부터 보안과 개인 정보에 대한 소식 및 최신 정보를 받습니다.
 next-new-user-subscribe-product-assurance = 이메일은 오직 계정을 만드는 데만 사용됩니다. 절대 제3자에게 판매하지 않습니다.
 
-## Examples of coupon applied
-## 20% OFF coupon applied: $11.20 + $0.35 tax
-## Holiday Offer 2023 coupon applied: 6,42 €
-## Cybersecurity Awareness Month 2023 coupon applied: $11.20 + $0.35 tax
-## Summer Promo VPN coupon applied: $11.20
-## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., 08/21/2025 for US locale, 21/08/25 for FR locale)
+## $billOnDate (Date) - The billing date of the current invoice (e.g., September 8, 2025)
+## $creditApplied (Number) - The amount from account credit balance used to reduce the amount due on the invoice
+## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
 ## $invoiceTotal (Number) - The amount billed (excluding tax if tax does not exist). It will be formatted as currency.
-## $nextBillDate (Date) - The date for the next time a charge will occur (e.g., 08/21/2025 for US locale, 21/08/25 for FR locale)
+## $nextBillDate (Date) - The date for the next time a charge will occur (e.g., September 8, 2025)
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
-subscription-content-promotion-applied-no-tax = { $promotionName } 쿠폰 적용됨: { $invoiceTotal }
-subscription-content-promotion-applied-with-tax = { $promotionName } 쿠폰 적용됨: { $invoiceTotal } + 세금 { $taxDue }
-subscription-content-current-with-tax = { $invoiceTotal } + 세금 { $taxDue }
-subscription-content-next-bill-no-tax = { $invoiceTotal }에 대한 다음 청구서는 { $nextBillDate }까지입니다.
-subscription-content-next-bill-with-tax = { $invoiceTotal } + 세금 { $taxDue } 금액에 대한 다음 청구서는 { $nextBillDate }까지 입니다.
 subscription-content-heading-cancel-subscription = 구독 취소
 subscription-content-no-longer-use-message = 결제 주기의 마지막 날인 { $currentPeriodEnd } 이후에는 더 이상 { $productName }를 사용할 수 없습니다.
 subscription-content-cancel-access-message = { $currentPeriodEnd }에 { $productName } 안의 접근과 저장된 정보를 취소

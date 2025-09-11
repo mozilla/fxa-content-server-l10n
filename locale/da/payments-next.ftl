@@ -121,13 +121,7 @@ subscription-management-button-support = Få hjælp
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-support-aria = Få hjælp til { $productName }
 subscription-management-your-apple-iap-subscriptions-aria = Dine { -brand-apple }-abonnementer købt i appen
-subscription-management-apple-in-app-purchase = { -brand-apple }: Køb i appen
 subscription-management-your-google-iap-subscriptions-aria = Dine { -brand-google }-abonnementer købt i appen
-subscription-management-google-in-app-purchase = { -brand-google }: Køb i appen
-# $date (String) - Date of next bill
-subscription-management-iap-sub-next-bill = Næste fakturering den { $date }
-# $date (String) - Date of In-App purchase expires
-subscription-management-iap-sub-expires-on = Udløber den { $date }
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Håndter abonnement på { $productName }
 subscription-management-button-manage-subscription = Håndter
@@ -278,23 +272,15 @@ next-new-user-subscribe-product-updates-mozilla = Jeg vil gerne modtage nyheder 
 next-new-user-subscribe-product-updates-snp = Jeg vil gerne modtage nyheder om privatlivsbeskyttelse og opdateringer fra { -brand-mozilla }
 next-new-user-subscribe-product-assurance = Vi bruger kun din mailadresse til at oprette din konto. Vi vil aldrig sælge den til en tredjepart.
 
-## Examples of coupon applied
-## 20% OFF coupon applied: $11.20 + $0.35 tax
-## Holiday Offer 2023 coupon applied: 6,42 €
-## Cybersecurity Awareness Month 2023 coupon applied: $11.20 + $0.35 tax
-## Summer Promo VPN coupon applied: $11.20
-## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., 08/21/2025 for US locale, 21/08/25 for FR locale)
+## $billOnDate (Date) - The billing date of the current invoice (e.g., September 8, 2025)
+## $creditApplied (Number) - The amount from account credit balance used to reduce the amount due on the invoice
+## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
 ## $invoiceTotal (Number) - The amount billed (excluding tax if tax does not exist). It will be formatted as currency.
-## $nextBillDate (Date) - The date for the next time a charge will occur (e.g., 08/21/2025 for US locale, 21/08/25 for FR locale)
+## $nextBillDate (Date) - The date for the next time a charge will occur (e.g., September 8, 2025)
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
-subscription-content-promotion-applied-no-tax = { $promotionName }-kupon anvendt: { $invoiceTotal }
-subscription-content-promotion-applied-with-tax = { $promotionName }-kupon anvendt: { $invoiceTotal } + { $taxDue } afgift
-subscription-content-current-with-tax = { $invoiceTotal } + { $taxDue } afgift
-subscription-content-next-bill-no-tax = Den næste regning på { $invoiceTotal } forfalder den { $nextBillDate }
-subscription-content-next-bill-with-tax = Den næste regning på{ $invoiceTotal } + { $taxDue } afgift forfalder den { $nextBillDate }
 subscription-content-heading-cancel-subscription = Annuller abonnement
 subscription-content-no-longer-use-message = Du vil ikke længere kunne bruge { $productName } efter { $currentPeriodEnd }, der er den sidste dag i din faktureringsperiode.
 subscription-content-cancel-access-message = Annuller min adgang og kassér mine informationer gemt i { $productName } den { $currentPeriodEnd }

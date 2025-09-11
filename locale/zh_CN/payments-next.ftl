@@ -121,13 +121,7 @@ subscription-management-button-support = 获取帮助
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-support-aria = 获取 { $productName } 的帮助信息
 subscription-management-your-apple-iap-subscriptions-aria = 您的 { -brand-apple } 应用内订阅
-subscription-management-apple-in-app-purchase = { -brand-apple }：应用内购买
 subscription-management-your-google-iap-subscriptions-aria = 您的 { -brand-google } 应用内订阅
-subscription-management-google-in-app-purchase = { -brand-google }：应用内购买
-# $date (String) - Date of next bill
-subscription-management-iap-sub-next-bill = 下个结算日在 { $date }
-# $date (String) - Date of In-App purchase expires
-subscription-management-iap-sub-expires-on = 有效期至 { $date }
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = 管理 { $productName } 的订阅
 subscription-management-button-manage-subscription = 管理
@@ -278,23 +272,15 @@ next-new-user-subscribe-product-updates-mozilla = 我愿意接收来自 { -brand
 next-new-user-subscribe-product-updates-snp = 我愿意接收来自 { -brand-mozilla } 的安全和隐私新闻及更新
 next-new-user-subscribe-product-assurance = 我们只会使用您的邮箱地址来创建账户，绝不会将其出售予第三方。
 
-## Examples of coupon applied
-## 20% OFF coupon applied: $11.20 + $0.35 tax
-## Holiday Offer 2023 coupon applied: 6,42 €
-## Cybersecurity Awareness Month 2023 coupon applied: $11.20 + $0.35 tax
-## Summer Promo VPN coupon applied: $11.20
-## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., 08/21/2025 for US locale, 21/08/25 for FR locale)
+## $billOnDate (Date) - The billing date of the current invoice (e.g., September 8, 2025)
+## $creditApplied (Number) - The amount from account credit balance used to reduce the amount due on the invoice
+## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
 ## $invoiceTotal (Number) - The amount billed (excluding tax if tax does not exist). It will be formatted as currency.
-## $nextBillDate (Date) - The date for the next time a charge will occur (e.g., 08/21/2025 for US locale, 21/08/25 for FR locale)
+## $nextBillDate (Date) - The date for the next time a charge will occur (e.g., September 8, 2025)
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
-subscription-content-promotion-applied-no-tax = 已使用 { $promotionName } 折扣码：{ $invoiceTotal }
-subscription-content-promotion-applied-with-tax = 已使用 { $promotionName } 折扣码：{ $invoiceTotal } + 税费 { $taxDue }
-subscription-content-current-with-tax = { $invoiceTotal } + 税费 { $taxDue }
-subscription-content-next-bill-no-tax = 下个账单日为 { $nextBillDate }，金额 { $invoiceTotal }
-subscription-content-next-bill-with-tax = 下个账单日为 { $nextBillDate }，金额 { $invoiceTotal } + 税款 { $taxDue }
 subscription-content-heading-cancel-subscription = 取消订阅
 subscription-content-no-longer-use-message = 在账单周期的最后一天（{ $currentPeriodEnd }）过后，您将无法继续使用 { $productName }。
 subscription-content-cancel-access-message = 在 { $currentPeriodEnd } 后取消我的 { $productName } 使用权，并删除保存的信息

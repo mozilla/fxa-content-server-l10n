@@ -118,13 +118,7 @@ subscription-management-your-subscriptions-aria = Ne ñemboheraguapy
 subscription-management-no-subscriptions = Nde nereñemboheraguapýi gueteri
 subscription-management-button-support = Eipota pytyvõ
 subscription-management-your-apple-iap-subscriptions-aria = Ne ñemboheraguapy tembiporu’i ryepýpe { -brand-apple }
-subscription-management-apple-in-app-purchase = { -brand-apple }: Ojogua tembiporu’i ryepýpe
 subscription-management-your-google-iap-subscriptions-aria = Ne ñemboheraguapy { -brand-google } rembiporu’i ryepýpe
-subscription-management-google-in-app-purchase = { -brand-google }: Ojogua tembiporu’i ryepýpe
-# $date (String) - Date of next bill
-subscription-management-iap-sub-next-bill = Ñemuhakuatia oĩjeýta ág̃a { $date }
-# $date (String) - Date of In-App purchase expires
-subscription-management-iap-sub-expires-on = Opáta ág̃a { $date }
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Eñangareko teraguapy { $productName }-pe g̃uarã
 subscription-management-button-manage-subscription = Ñangareko
@@ -263,19 +257,15 @@ next-new-user-subscribe-product-updates-mozilla = Hi’ã og̃uahẽ marandu ha 
 next-new-user-subscribe-product-updates-snp = Hi’ã og̃uahẽ marandu ha ñembohekopyahu { -brand-mozilla } guive tekorosã rehegua
 next-new-user-subscribe-product-assurance = Roiporu ne ñanduti veve romoheñói hag̃ua mba’ete añónte. Araka’eve norome’ẽmo’ãi ambuépe.
 
-## Examples of coupon applied
-## 20% OFF coupon applied: $11.20 + $0.35 tax
-## Holiday Offer 2023 coupon applied: 6,42 €
-## Cybersecurity Awareness Month 2023 coupon applied: $11.20 + $0.35 tax
-## Summer Promo VPN coupon applied: $11.20
-## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., 08/21/2025 for US locale, 21/08/25 for FR locale)
+## $billOnDate (Date) - The billing date of the current invoice (e.g., September 8, 2025)
+## $creditApplied (Number) - The amount from account credit balance used to reduce the amount due on the invoice
+## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
 ## $invoiceTotal (Number) - The amount billed (excluding tax if tax does not exist). It will be formatted as currency.
-## $nextBillDate (Date) - The date for the next time a charge will occur (e.g., 08/21/2025 for US locale, 21/08/25 for FR locale)
+## $nextBillDate (Date) - The date for the next time a charge will occur (e.g., September 8, 2025)
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
-subscription-content-current-with-tax = { $invoiceTotal } + { $taxDue } impuesto
 subscription-content-heading-cancel-subscription = Mboheraguapy jeheja
 subscription-content-button-cancel = Heja
     .aria-label = Eipe’a ñemboheraguapy { $productName } pegua

@@ -121,13 +121,7 @@ subscription-management-button-support = Obtener ayuda
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-support-aria = Obtené ayuda para { $productName }
 subscription-management-your-apple-iap-subscriptions-aria = Tus suscripciones In-App de { -brand-apple }
-subscription-management-apple-in-app-purchase = { -brand-apple }: Compras integradas
 subscription-management-your-google-iap-subscriptions-aria = Tus suscripciones In-App de { -brand-google }
-subscription-management-google-in-app-purchase = { -brand-google }: Compras integradas
-# $date (String) - Date of next bill
-subscription-management-iap-sub-next-bill = Próxima facturación el { $date }
-# $date (String) - Date of In-App purchase expires
-subscription-management-iap-sub-expires-on = Vence el { $date }
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Administrar suscripción para { $productName }
 subscription-management-button-manage-subscription = Administrar
@@ -278,23 +272,15 @@ next-new-user-subscribe-product-updates-mozilla = Me gustaría recibir noticias 
 next-new-user-subscribe-product-updates-snp = Me gustaría recibir noticias y actualizaciones sobre seguridad y privacidad de { -brand-mozilla }
 next-new-user-subscribe-product-assurance = Solo usamos tu correo electrónico para crear la cuenta. Nunca lo venderemos a terceros.
 
-## Examples of coupon applied
-## 20% OFF coupon applied: $11.20 + $0.35 tax
-## Holiday Offer 2023 coupon applied: 6,42 €
-## Cybersecurity Awareness Month 2023 coupon applied: $11.20 + $0.35 tax
-## Summer Promo VPN coupon applied: $11.20
-## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., 08/21/2025 for US locale, 21/08/25 for FR locale)
+## $billOnDate (Date) - The billing date of the current invoice (e.g., September 8, 2025)
+## $creditApplied (Number) - The amount from account credit balance used to reduce the amount due on the invoice
+## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
 ## $invoiceTotal (Number) - The amount billed (excluding tax if tax does not exist). It will be formatted as currency.
-## $nextBillDate (Date) - The date for the next time a charge will occur (e.g., 08/21/2025 for US locale, 21/08/25 for FR locale)
+## $nextBillDate (Date) - The date for the next time a charge will occur (e.g., September 8, 2025)
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
-subscription-content-promotion-applied-no-tax = Cupón { $promotionName } aplicado: { $invoiceTotal }
-subscription-content-promotion-applied-with-tax = Cupón { $promotionName } aplicado: { $invoiceTotal } + { $taxDue } impuestos
-subscription-content-current-with-tax = { $invoiceTotal } + { $taxDue } impuestos
-subscription-content-next-bill-no-tax = La próxima factura de { $invoiceTotal } vence el { $nextBillDate }
-subscription-content-next-bill-with-tax = La próxima factura de { $invoiceTotal } + { $taxDue } impuestos vence el { $nextBillDate }
 subscription-content-heading-cancel-subscription = Cancelar suscripción
 subscription-content-no-longer-use-message = No se podrá usar { $productName } después de { $currentPeriodEnd }, el último día del ciclo de facturación.
 subscription-content-cancel-access-message = Cancelar mi acceso y mi información guardada en { $productName } el { $currentPeriodEnd }

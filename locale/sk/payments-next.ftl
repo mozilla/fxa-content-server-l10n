@@ -121,13 +121,7 @@ subscription-management-button-support = Získať pomoc
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-support-aria = Získajte pomoc pre { $productName }
 subscription-management-your-apple-iap-subscriptions-aria = Vaše predplatné v aplikácii { -brand-apple }
-subscription-management-apple-in-app-purchase = { -brand-apple }: Nákup v aplikácii
 subscription-management-your-google-iap-subscriptions-aria = Vaše predplatné v aplikácii { -brand-google }
-subscription-management-google-in-app-purchase = { -brand-google }: Nákup v aplikácii
-# $date (String) - Date of next bill
-subscription-management-iap-sub-next-bill = Ďalšia fakturácia dňa { $date }
-# $date (String) - Date of In-App purchase expires
-subscription-management-iap-sub-expires-on = Vyprší dňa { $date }
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Spravovať predplatné pre { $productName }
 subscription-management-button-manage-subscription = Spravovať
@@ -278,23 +272,15 @@ next-new-user-subscribe-product-updates-mozilla = Chcem dostávať novinky o pro
 next-new-user-subscribe-product-updates-snp = Chcem dostávať novinky { -brand-mozilla(case: "gen") } týkajúce sa bezpečnosti a ochrany osobných údajov
 next-new-user-subscribe-product-assurance = Vašu e‑mailovú adresu použijeme iba na vytvorenie účtu. Nikdy ju nepredáme tretej strane.
 
-## Examples of coupon applied
-## 20% OFF coupon applied: $11.20 + $0.35 tax
-## Holiday Offer 2023 coupon applied: 6,42 €
-## Cybersecurity Awareness Month 2023 coupon applied: $11.20 + $0.35 tax
-## Summer Promo VPN coupon applied: $11.20
-## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., 08/21/2025 for US locale, 21/08/25 for FR locale)
+## $billOnDate (Date) - The billing date of the current invoice (e.g., September 8, 2025)
+## $creditApplied (Number) - The amount from account credit balance used to reduce the amount due on the invoice
+## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
 ## $invoiceTotal (Number) - The amount billed (excluding tax if tax does not exist). It will be formatted as currency.
-## $nextBillDate (Date) - The date for the next time a charge will occur (e.g., 08/21/2025 for US locale, 21/08/25 for FR locale)
+## $nextBillDate (Date) - The date for the next time a charge will occur (e.g., September 8, 2025)
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
-subscription-content-promotion-applied-no-tax = Použitý kupón { $promotionName }: { $invoiceTotal }
-subscription-content-promotion-applied-with-tax = Použitý kupón { $promotionName }: { $invoiceTotal } + { $taxDue } daň
-subscription-content-current-with-tax = { $invoiceTotal } + { $taxDue } daň
-subscription-content-next-bill-no-tax = Ďalšia faktúra vo výške { $invoiceTotal } je splatná { $nextBillDate }
-subscription-content-next-bill-with-tax = Ďalšia faktúra vo výške { $invoiceTotal } + { $taxDue } daň je splatná { $nextBillDate }
 subscription-content-heading-cancel-subscription = Zrušiť predplatné
 subscription-content-no-longer-use-message = Po { $currentPeriodEnd }, poslednom dni vášho fakturačného cyklu, už produkt { $productName } nebudete môcť používať.
 subscription-content-cancel-access-message = Zrušiť môj prístup k produktu { $productName } a dáta v ňom uložené ku dňu { $currentPeriodEnd }
