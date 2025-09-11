@@ -321,6 +321,11 @@ resubscribe-dialog-title = Wolle jo { $name } brûke bliuwe?
 ## $tax (Number) - The tax added on, not included in amount. It will be formatted as currency.
 ## $endDate (Date) - The end date of the subscription period.
 
+resubscribe-dialog-content-with-tax = Jo tagong ta { $name } bliuwt bestean, en jo betellingssyklus en betelling bliuwe itselde. Jo folgjende betelling is { $amount } + { $tax } btw op { $endDate }.
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+resubscribe-dialog-action-button-resubscribe = Opnij abonnearje
+    .aria-label = Opnij abonnearje op { $productName }
+resubscribe-success-dialog-title = Tank! Jo binne hielendal klear.
 resubscribe-success-dialog-action-button-close = Slute
     .aria-label = Dialoochfinster slute
 

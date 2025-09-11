@@ -286,6 +286,8 @@ backup-authentication-codes-image-aria-label =
     .aria-label = Apparaatskerm mei koaden
 sync-clouds-image-aria-label =
     .aria-label = Wolken mei in syngronisaasjepiktogram
+confetti-falling-image-aria-label =
+    .aria-label = Animearre fallende konfetti
 
 ## InlineRecoveryKeySetupCreate component
 ## Users see this view when we prompt them to generate an account recovery key
@@ -763,6 +765,7 @@ modal-default-confirm-button = Befêstigje
 ## ModalMfaProtected
 
 modal-mfa-protected-title = Fier befêstigingskoade yn
+modal-mfa-protected-subtitle = Help ús te kontrolearjen dat jo it binne dy’t jo accountgegevens wiziget
 # This string is used to show a notification to the user for them to enter
 # email confirmation code to update their multi-factor-authentication-protected
 # account settings
@@ -807,6 +810,7 @@ nav-email-comm = E-mailkommunikaasje
 page-2fa-change-title = Autentikaasje yn twa stappen wizigje
 page-2fa-change-success = Twa-stapautentikaasje is bywurke
 page-2fa-change-totpinfo-error = Der is in flater bard by it ferfangen fan jo twa-stapsautentikaasje-app. Probearje it letter opnij.
+page-2fa-change-qr-instruction = <strong>Stap 1:</strong> scan dizze QR-koade mei in autentikaasje-app, lykas Duo of Google Authenticator. Dit makket in nije ferbining, âlde ferbiningen sille net mear wurkje.
 
 ## Two Step Authentication - replace backup authentication code
 
@@ -820,6 +824,12 @@ tfa-create-code-error = Der is in probleem bard by it oanmeitsjen fan jo reserve
 tfa-replace-code-success-alert-4 = Reserve-autentikaasjekoaden bywurke
 # Success message shown after creating backup codes for the first time
 tfa-create-code-success-alert = Reserve-autentikaasjekoaden oanmakke
+# Custom messaging for users replacing existing backup codes - Download step (1 of 2)
+# On this step, the codes are not yet replaced in the database - the old codes are still valid until step 2 is completed.
+tfa-replace-code-download-description = Bewarje dizze op in plak dat jo ûnthâlde sille. Jo âlde koaden wurde ferfongen neidat jo de folgjende stap foltôge hawwe.
+# Custom messaging for users replacing existing backup codes - Confirm step (2 of 2)
+# Until this confirmation step is successfully completed, the old codes are still active and the new codes are not saved in the database.
+tfa-replace-code-confirm-description = Befêstigje dat jo jo koaden bewarre hawwe troch der ien yn te fieren. Jo âlde reserve-autentikaasjekoaden wurde útskeakele as dizze stap foltôge is.
 # Error shown when the entered backup code does not match any of the generated codes
 tfa-incorrect-recovery-code-1 = Ferkearde reserve-autentikaasjekoade
 
