@@ -738,6 +738,19 @@ subscriptionUpgrade-content-old-price-week-tax = It foarige taryf wie { $payment
 subscriptionUpgrade-content-old-price-month-tax = It foarige taryf wie { $paymentAmountOld } + { $paymentTaxOld } btw per moanne.
 subscriptionUpgrade-content-old-price-halfyear-tax = It foarige taryf wie { $paymentAmountOld } + { $paymentTaxOld } btw per seis moannen.
 subscriptionUpgrade-content-old-price-year-tax = It foarige taryf wie { $paymentAmountOld } + { $paymentTaxOld } btw per jier.
+subscriptionUpgrade-content-old-price-default-tax = It foarige taryf wie { $paymentAmountOld } + { $paymentTaxOld } btw per fakturearringsynterval.
+subscriptionUpgrade-content-new-price-day = Fan no ôf wurdt { $paymentAmountNew } per dei yn rekken brocht, eksklusyf koartingen.
+subscriptionUpgrade-content-new-price-week = Fan no ôf wurdt { $paymentAmountNew } per wike yn rekken brocht, eksklusyf koartingen.
+subscriptionUpgrade-content-new-price-month = Fan no ôf wurdt { $paymentAmountNew } per moanne yn rekken brocht, eksklusyf koartingen.
+subscriptionUpgrade-content-new-price-halfyear = Fan no ôf wurdt { $paymentAmountNew } per seis moannen yn rekken brocht, eksklusyf koartingen.
+subscriptionUpgrade-content-new-price-year = Fan no ôf wurdt { $paymentAmountNew } per jier yn rekken brocht, eksklusyf koartingen.
+subscriptionUpgrade-content-new-price-default = Fan no ôf wurdt { $paymentAmountNew } per fakturearringsynterval yn rekken brocht, eksklusyf koartingen.
+subscriptionUpgrade-content-new-price-day-dtax = Fan no ôf wurdt { $paymentAmountNew } + { $paymentTaxNew } btw per dei yn rekken brocht, eksklusyf koartingen.
+subscriptionUpgrade-content-new-price-week-tax = Fan no ôf wurdt { $paymentAmountNew } + { $paymentTaxNew } btw per wike yn rekken brocht, eksklusyf koartingen.
+subscriptionUpgrade-content-new-price-month-tax = Fan no ôf wurdt { $paymentAmountNew } + { $paymentTaxNew } btw per moanne yn rekken brocht, eksklusyf koartingen.
+subscriptionUpgrade-content-new-price-halfyear-tax = Fan no ôf wurdt { $paymentAmountNew } + { $paymentTaxNew } btw per seis moannen yn rekken brocht, eksklusyf koartingen.
+subscriptionUpgrade-content-new-price-year-tax = Fan no ôf wurdt { $paymentAmountNew } + { $paymentTaxNew } btw per jier yn rekken brocht, eksklusyf koartingen.
+subscriptionUpgrade-content-new-price-default-tax = Fan no ôf wurdt { $paymentAmountNew } + { $paymentTaxNew } btw per fakturearringsynterval yn rekken brocht, eksklusyf koartingen.
 subscriptionUpgrade-existing = As ien fan jo besteande abonneminten oerlaapje mei dizze opwurdearring, sille wy se behannelje en jo in aparte e-mailberjocht stjoere mei de details. As jo nije plan produkten omfettet dy’t ynstallaasje fereaskje, sille wy jo in apart e-mailberjocht stjoere mei ynstallaasje-ynstruksjes.
 subscriptionUpgrade-auto-renew = Jo abonnemint wurdt automatysk elke fakturearringsperioade ferlinge, útsein jo derfoar kieze om op te sizzen.
 unblockCode-subject = Accountautorisaasjekoade
@@ -769,7 +782,27 @@ verify-title-3 = Iepenje it ynternet mei { -brand-mozilla }
 verify-description-2 = Befêstigje jo account en helje oeral wêr’t jo jo oanmelde it measte út { -brand-mozilla }, te begjinnen mei:
 verify-subject = Oanmeitsjen fan jo account foltôgje
 verify-action-2 = Account befêstigje
+# Variables:
+# $code (String) - The verification code
+verifyAccountChange-subject = Brûk { $code } om jo account te wizigjen
+# Variables:
+# $expirationTime (Number) - Represents the expiration time in minutes
+verifyAccountChange-preview =
+    { $expirationTime ->
+        [one] Dizze koade ferrint oer { $expirationTime } minút.
+       *[other] Dizze koade ferrint oer { $expirationTime } minuten.
+    }
+verifyAccountChange-title = Wizigje jo jo accountgegevens?
+# After the colon is a description of the device used to sign in to the service
+verifyAccountChange-safe = Help ús jo account feilich te hâlden troch dizze wiziging goed te karren op:
 verifyAccountChange-prompt = Sa ja, dan is dit jo autentikaasjekoade:
+# Variables:
+# $expirationTime (Number) - Represents the expiration time in minutes
+verifyAccountChange-expiry-notice =
+    { $expirationTime ->
+        [one] Dizze ferrint oer { $expirationTime } minút.
+       *[other] Dizze ferrint oer { $expirationTime } minuten.
+    }
 # Variables:
 #  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title-2 = Hawwe jo oanmeld mei { $clientName }?

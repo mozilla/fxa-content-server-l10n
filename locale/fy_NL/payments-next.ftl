@@ -36,6 +36,8 @@ unionpay-logo-alt-text = { -brand-unionpay }-logo
 visa-logo-alt-text = { -brand-visa }-logo
 # Alt text for generic payment card logo
 unbranded-logo-alt-text = Merkleas logo
+link-logo-alt-text = { -brand-link }-logo
+apple-pay-logo-alt-text = { -brand-apple-pay }-logo
 google-pay-logo-alt-text = { -brand-google-pay }-logo
 
 ## Error pages - /checkout and /upgrade
@@ -321,6 +323,7 @@ resubscribe-dialog-title = Wolle jo { $name } brûke bliuwe?
 ## $tax (Number) - The tax added on, not included in amount. It will be formatted as currency.
 ## $endDate (Date) - The end date of the subscription period.
 
+resubscribe-dialog-content = Jo tagong ta { $name } bliuwt bestean, en jo betellingssyklus en betelling bliuwe itselde. Jo folgjende betelling wurdt { $amount } op { $endDate }.
 resubscribe-dialog-content-with-tax = Jo tagong ta { $name } bliuwt bestean, en jo betellingssyklus en betelling bliuwe itselde. Jo folgjende betelling is { $amount } + { $tax } btw op { $endDate }.
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 resubscribe-dialog-action-button-resubscribe = Opnij abonnearje
