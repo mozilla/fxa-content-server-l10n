@@ -278,6 +278,8 @@ next-new-user-subscribe-product-assurance = אנו משתמשים בדוא״ל �
 
 subscription-content-credit-issued-to-your-account = זיכוי בסך <strong>{ $creditApplied }</strong> הונפק לחשבון שלך
 subscription-content-coupon-applied = ‏{ $promotionName } הוחל
+subscription-content-next-bill-excl-with-tax = החשבון הבא בסך <strong>{ $nextInvoiceTotal } + { $taxDue }</strong>, למעט הנחות, יחויב בתאריך <strong>{ $nextBillDate }</strong>
+subscription-content-next-bill-excl-no-tax = החשבון הבא בסך <strong>{ $nextInvoiceTotal }</strong>, למעט הנחות, יחויב בתאריך <strong>{ $nextBillDate }</strong>
 subscription-content-heading-cancel-subscription = ביטול מינוי
 subscription-content-no-longer-use-message = לא תהיה לך עוד אפשרות להשתמש ב־{ $productName } אחרי { $currentPeriodEnd }, היום האחרון של מחזור החיוב שלך.
 subscription-content-cancel-access-message = בטלו את הגישה ואת המידע השמור שלי בתוך { $productName } בתאריך { $currentPeriodEnd }
