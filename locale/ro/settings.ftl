@@ -49,6 +49,19 @@ recovery-key-pdf-heading = Cheie de recuperare a contului
 # Date when the account recovery key was created and this file was downloaded
 # { $date }: formatted date with 'medium' dateStyle format (e.g., for 'en': Jul 31, 2023)
 recovery-key-pdf-download-date = Generată la: { $date }
+# Shown directly above recovery key value and preceeded by a key icon
+recovery-key-pdf-key-legend = Cheie de recuperare a contului
+# Instructions in the text file to prompt the user to keep this information in a secure, easy to remember location.
+# Password resets without this account recovery key can result in data loss.
+# "key" here refers to "account recovery key"
+recovery-key-pdf-instructions = Această cheie îți permite să îți recuperezi datele criptate din browser (inclusiv parole, marcaje și istoric) în cazul în care îți uiți parola. Păstreaz-o într-un loc de care îți aduci aminte.
+# This heading is shown above a list of options for storing the account recovery key
+# "key" here refers to "account recovery key"
+recovery-key-pdf-storage-ideas-heading = Unde să-ți păstrezi cheia
+# Followed by a link (https://mzl.la/3bNrM1I) to get more information and support
+recovery-key-pdf-support = Află mai multe despre cheia ta de recuperare a contului
+# Error message displayed in an alert bar if the PDF download failed.
+recovery-key-pdf-download-error = Ne pare rău, a apărut o problemă la descărcarea cheii tale de recuperare a contului
 
 ## Tooltip notifications for actions performed on account recovery keys or one-time use codes
 
