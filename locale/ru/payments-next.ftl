@@ -121,7 +121,13 @@ subscription-management-button-support = Получить помощь
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-support-aria = Получить помощь для { $productName }
 subscription-management-your-apple-iap-subscriptions-aria = Ваши подписки в приложении { -brand-apple }
+subscription-management-apple-in-app-purchase-1 = { -brand-apple }: покупка в приложении
 subscription-management-your-google-iap-subscriptions-aria = Ваши подписки в приложении { -brand-google }
+subscription-management-google-in-app-purchase-1 = { -brand-google }: покупка в приложении
+# $date (String) - Date of next bill
+subscription-management-iap-sub-next-bill-is-due = Следующий счёт подлежит оплате до <strong>{ $date }</strong>
+# $date (String) - Date of In-App purchase expires
+subscription-management-iap-sub-will-expire-on = Ваша подписка истекает <strong>{ $date }</strong>
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Управление подпиской на { $productName }
 subscription-management-button-manage-subscription = Управление
@@ -281,6 +287,10 @@ next-new-user-subscribe-product-assurance = Мы используем вашу �
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
+subscription-content-current-invoice-billed-on-with-tax = { $invoiceTotal } + { $taxDue } <span>оплачено { $illedOnDate }</span>
+subscription-content-current-invoice-billed-on-no-tax = { $invoiceTotal } <span>оплачено { $illedOnDate }</span>
+subscription-content-credit-issued-to-your-account = <strong>{ $creditApplied }</strong> кредита, выданного на ваш аккаунт
+subscription-content-coupon-applied = { $promotionName } применён
 subscription-content-heading-cancel-subscription = Отменить подписку
 subscription-content-no-longer-use-message = Вы не сможете больше использовать { $productName } после { $currentPeriodEnd }, последнего дня вашего платёжного цикла.
 subscription-content-cancel-access-message = Отменить мой доступ и сохранённую информацию в { $productName } { $currentPeriodEnd }
