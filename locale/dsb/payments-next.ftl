@@ -124,7 +124,13 @@ subscription-management-button-support = Pomoc se wobstaraś
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-support-aria = Wobstarajśo se pomoc za { $productName }
 subscription-management-your-apple-iap-subscriptions-aria = Waše abonementy w nałoženju { -brand-apple }
+subscription-management-apple-in-app-purchase-1 = { -brand-apple }: kup w nałoženju
 subscription-management-your-google-iap-subscriptions-aria = Waše abonementy w nałoženju { -brand-google }
+subscription-management-google-in-app-purchase-1 = { -brand-google }: kup w nałoženju
+# $date (String) - Date of next bill
+subscription-management-iap-sub-next-bill-is-due = Pśiduca zliceńka ma se <strong>{ $date }</strong> płaśiś
+# $date (String) - Date of In-App purchase expires
+subscription-management-iap-sub-will-expire-on = Waš abonement <strong>{ $date }</strong> spadnjo
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Abonement za { $productName } zastojaś
 subscription-management-button-manage-subscription = Zastojaś
@@ -284,6 +290,8 @@ next-new-user-subscribe-product-assurance = Wužywamy jano wašu e-mailowu adres
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
+subscription-content-current-invoice-billed-on-with-tax = { $invoiceTotal } + { $taxDue } <span>stej se woblicyłej { $billedOnDate }</span>
+subscription-content-current-invoice-billed-on-no-tax = { $invoiceTotal } <span>jo se woblicył { $billedOnDate }</span>
 subscription-content-heading-cancel-subscription = Abonement wupowěźeś
 subscription-content-no-longer-use-message =
     Pó { $currentPeriodEnd }, slědnem dnju swójogo wótliceńskeje periody,
