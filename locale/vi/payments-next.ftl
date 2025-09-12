@@ -121,7 +121,13 @@ subscription-management-button-support = Nhận trợ giúp
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-support-aria = Nhận trợ giúp cho { $productName }
 subscription-management-your-apple-iap-subscriptions-aria = Gói đăng ký trong ứng dụng { -brand-apple } của bạn
+subscription-management-apple-in-app-purchase-1 = { -brand-apple }: mua hàng trong ứng dụng
 subscription-management-your-google-iap-subscriptions-aria = Gói đăng ký trong ứng dụng { -brand-google } của bạn
+subscription-management-google-in-app-purchase-1 = { -brand-google }: mua hàng trong ứng dụng
+# $date (String) - Date of next bill
+subscription-management-iap-sub-next-bill-is-due = Hoá đơn tiếp theo sẽ đến hạn vào <strong>{ $date }</strong>
+# $date (String) - Date of In-App purchase expires
+subscription-management-iap-sub-will-expire-on = Gói đăng ký của bạn sẽ hết hạn vào <strong>{ $date }</strong>
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Quản lý gói đăng ký cho { $productName }
 subscription-management-button-manage-subscription = Quản lý
@@ -281,6 +287,12 @@ next-new-user-subscribe-product-assurance = Chúng tôi chỉ sử dụng email 
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
+subscription-content-current-invoice-billed-on-with-tax = Khoản tiền { $invoiceTotal } + { $taxDue } <span>đã được lập hoá đơn vào ngày { $billedOnDate }</span>
+subscription-content-current-invoice-billed-on-no-tax = Khoản tiền { $invoiceTotal } <span>đã được lập hoá đơn vào ngày { $billedOnDate }</span>
+subscription-content-credit-issued-to-your-account = <strong>{ $creditApplied }</strong> tín dụng được cấp vào tài khoản của bạn
+subscription-content-coupon-applied = { $promotionName } đã được áp dụng
+subscription-content-next-bill-excl-with-tax = Hoá đơn tiếp theo của <strong>{ $nextInvoiceTotal } + { $taxDue }</strong>, không bao gồm chiết khấu, sẽ đến hạn vào <strong>{ $nextBillDate }</strong>
+subscription-content-next-bill-excl-no-tax = Hoá đơn tiếp theo của <strong>{ $nextInvoiceTotal }</strong>, không bao gồm chiết khấu, sẽ đến hạn vào <strong>{ $nextBillDate }</strong>
 subscription-content-heading-cancel-subscription = Hủy đăng ký
 subscription-content-no-longer-use-message = Bạn sẽ không còn có thể sử dụng { $productName } sau { $currentPeriodEnd }, ngày cuối cùng của chu kỳ thanh toán của bạn.
 subscription-content-cancel-access-message = Hủy quyền truy cập và thông tin đã lưu của tôi trong { $productName } vào { $currentPeriodEnd }
