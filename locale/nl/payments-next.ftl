@@ -121,7 +121,13 @@ subscription-management-button-support = Hulp verkrijgen
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-support-aria = Hulp voor { $productName } verkrijgen
 subscription-management-your-apple-iap-subscriptions-aria = Uw { -brand-apple }-in-app-abonnementen
+subscription-management-apple-in-app-purchase-1 = { -brand-apple }: in-app-aankoop
 subscription-management-your-google-iap-subscriptions-aria = Uw { -brand-google }-in-app-abonnementen
+subscription-management-google-in-app-purchase-1 = { -brand-google }: in-app-aankoop
+# $date (String) - Date of next bill
+subscription-management-iap-sub-next-bill-is-due = De volgende factuur is verschuldigd op <strong>{ $date }</strong>
+# $date (String) - Date of In-App purchase expires
+subscription-management-iap-sub-will-expire-on = Uw abonnement verloopt op <strong>{ $date }</strong>
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Abonnement voor { $productName } beheren
 subscription-management-button-manage-subscription = Beheren
@@ -281,6 +287,12 @@ next-new-user-subscribe-product-assurance = We gebruiken uw e-mailadres alleen o
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
+subscription-content-current-invoice-billed-on-with-tax = { $invoiceTotal } + { $taxDue } <span>gefactureerd op { $billedOnDate }</span>
+subscription-content-current-invoice-billed-on-no-tax = { $invoiceTotal } <span>gefactureerd op { $billedOnDate }</span>
+subscription-content-credit-issued-to-your-account = <strong>{ $creditApplied }</strong> tegoed toegekend aan uw account
+subscription-content-coupon-applied = { $promotionName } toegepast
+subscription-content-next-bill-excl-with-tax = De volgende factuur van <strong>{ $nextInvoiceTotal } + { $taxDue }</strong>, exclusief kortingen, is verschuldigd op <strong>{ $nextBillDate }</strong>
+subscription-content-next-bill-excl-no-tax = De volgende factuur van <strong>{ $nextInvoiceTotal }</strong>, exclusief kortingen, is verschuldigd op <strong>{ $nextBillDate }</strong>
 subscription-content-heading-cancel-subscription = Abonnement opzeggen
 subscription-content-no-longer-use-message = U kunt { $productName } niet meer gebruiken na { $currentPeriodEnd }, de laatste dag van uw betalingscyclus.
 subscription-content-cancel-access-message = Mijn toegang tot en opgeslagen gegevens in { $productName } op { $currentPeriodEnd } opzeggen
