@@ -121,7 +121,11 @@ subscription-management-button-support = Λήψη βοήθειας
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-support-aria = Λήψη βοήθειας για το { $productName }
 subscription-management-your-apple-iap-subscriptions-aria = Συνδρομές εντός εφαρμογών { -brand-apple }
+subscription-management-apple-in-app-purchase-1 = { -brand-apple }: αγορά εντός εφαρμογής
 subscription-management-your-google-iap-subscriptions-aria = Συνδρομές εντός εφαρμογών { -brand-google }
+subscription-management-google-in-app-purchase-1 = { -brand-google }: αγορά εντός εφαρμογής
+# $date (String) - Date of next bill
+subscription-management-iap-sub-next-bill-is-due = Ο επόμενος λογαριασμός λήγει στις <strong>{ $date }</strong>
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Διαχείριση συνδρομής για το { $productName }
 subscription-management-button-manage-subscription = Διαχείριση
