@@ -751,7 +751,7 @@ modal-mfa-protected-subtitle = 请协助确认是您本人在更改账户信息
 #   email (String) - the user's email
 #   expirationTime (Number) - the expiration time in minutes
 modal-mfa-protected-instruction = 请在 { $expirationTime } 分钟内输入发送到 <email>{ $email }</email> 的验证码。
-modal-mfa-protected-input-label = 请输入 6 位验证码
+modal-mfa-protected-input-label = 请输入 6 位确认码
 modal-mfa-protected-cancel-button = 取消
 modal-mfa-protected-confirm-button = 确认
 modal-mfa-protected-code-expired = 确认码已过期？

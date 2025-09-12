@@ -724,6 +724,30 @@ subscriptionUpgrade-upgrade-info-2 = Ai trecut cu succes la versiunea superioar�
 subscriptionUpgrade-content-charge-prorated-1 = Ți s-a perceput o taxă unică de { $invoiceAmountDue } pentru a reflecta prețul mai mare al abonamentului pentru restul acestei perioade de facturare ({ $productPaymentCycleOld }).
 subscriptionUpgrade-content-charge-credit = Ai primit un credit în cont în valoare de { $paymentProrated }.
 subscriptionUpgrade-content-subscription-next-bill-change = Începând cu următoarea factură, prețul abonamentului se va schimba.
+subscriptionUpgrade-content-old-price-day = Tariful anterior era de { $paymentAmountOld } pe zi.
+subscriptionUpgrade-content-old-price-week = Tariful anterior era de { $paymentAmountOld } pe săptămână.
+subscriptionUpgrade-content-old-price-month = Tariful anterior era de { $paymentAmountOld } pe lună.
+subscriptionUpgrade-content-old-price-halfyear = Tariful anterior era de { $paymentAmountOld } pe șase luni.
+subscriptionUpgrade-content-old-price-year = Tariful anterior era de { $paymentAmountOld } pe an.
+subscriptionUpgrade-content-old-price-default = Tariful anterior era de { $paymentAmountOld } pe perioadă de facturare.
+subscriptionUpgrade-content-old-price-day-tax = Tariful anterior era de { $paymentAmountOld } + { $paymentTaxOld } taxe pe zi.
+subscriptionUpgrade-content-old-price-week-tax = Tariful anterior era de { $paymentAmountOld } + { $paymentTaxOld } taxe pe săptămână.
+subscriptionUpgrade-content-old-price-month-tax = Tariful anterior era de { $paymentAmountOld } + { $paymentTaxOld } taxe pe lună.
+subscriptionUpgrade-content-old-price-halfyear-tax = Tariful anterior era de { $paymentAmountOld } + { $paymentTaxOld } taxe pe șase luni.
+subscriptionUpgrade-content-old-price-year-tax = Tariful anterior era de { $paymentAmountOld } + { $paymentTaxOld } taxe pe an.
+subscriptionUpgrade-content-old-price-default-tax = Tariful anterior era de { $paymentAmountOld } + { $paymentTaxOld } taxe pe perioadă de facturare.
+subscriptionUpgrade-content-new-price-day = De acum înainte, ți se va factura { $paymentAmountNew } pe zi, excluzând reducerile.
+subscriptionUpgrade-content-new-price-week = De acum înainte, ți se va factura { $paymentAmountNew } pe săptămână, excluzând reducerile.
+subscriptionUpgrade-content-new-price-month = De acum înainte, ți se va factura { $paymentAmountNew } pe lună, excluzând reducerile.
+subscriptionUpgrade-content-new-price-halfyear = De acum înainte, ți se va factura { $paymentAmountNew } pe șase luni, excluzând reducerile.
+subscriptionUpgrade-content-new-price-year = De acum înainte, ți se va factura { $paymentAmountNew } pe an, excluzând reducerile.
+subscriptionUpgrade-content-new-price-default = De acum înainte, ți se va factura { $paymentAmountNew } pe perioadă de facturare, excluzând reducerile.
+subscriptionUpgrade-content-new-price-day-dtax = De acum înainte, ți se va factura { $paymentAmountNew } + { $paymentTaxNew } taxe pe zi, excluzând reducerile.
+subscriptionUpgrade-content-new-price-week-tax = De acum înainte, ți se va factura { $paymentAmountNew } + { $paymentTaxNew } taxe pe săptămână, excluzând reducerile.
+subscriptionUpgrade-content-new-price-month-tax = De acum înainte, ți se va factura { $paymentAmountNew } + { $paymentTaxNew } taxe pe lună, excluzând reducerile.
+subscriptionUpgrade-content-new-price-halfyear-tax = De acum înainte, ți se va factura { $paymentAmountNew } + { $paymentTaxNew } taxe pe șase luni, excluzând reducerile.
+subscriptionUpgrade-content-new-price-year-tax = De acum înainte, ți se va factura { $paymentAmountNew } + { $paymentTaxNew } taxe pe an, excluzând reducerile.
+subscriptionUpgrade-content-new-price-default-tax = De acum înainte, ți se va factura { $paymentAmountNew } + { $paymentTaxNew } taxe pe perioadă de facturare, excluzând reducerile.
 subscriptionUpgrade-existing = Dacă oricare dintre abonamentele tale existente se suprapune cu această trecere la o versiune superioară, le vom gestiona și îți vom trimite un mesaj separat pe e-mail cu detaliile. Dacă noul tău plan include produse care necesită instalare, îți vom trimite un mesaj separat pe e-mail cu instrucțiuni de configurare.
 subscriptionUpgrade-auto-renew = Abonamentul se va reînnoi automat cu o perioadă de facturare, cu excepția cazului în care alegi să îl anulezi.
 unblockCode-subject = Cod de autorizare al contului
@@ -755,6 +779,29 @@ verify-title-3 = Intră pe internet cu { -brand-mozilla }
 verify-description-2 = Confirmă-ți contul și obține maximul de la { -brand-mozilla } oriunde te autentifici, începând cu:
 verify-subject = Finalizează crearea contului
 verify-action-2 = Confirmă contul
+# Variables:
+# $code (String) - The verification code
+verifyAccountChange-subject = Folosește { $code } pentru a-ți schimba contul
+# Variables:
+# $expirationTime (Number) - Represents the expiration time in minutes
+verifyAccountChange-preview =
+    { $expirationTime ->
+        [one] Codul expiră în { $expirationTime } minut
+        [few] Codul expiră în { $expirationTime } minute
+       *[other] Codul expiră în { $expirationTime } de minute
+    }
+verifyAccountChange-title = Îți modifici informațiile contului?
+# After the colon is a description of the device used to sign in to the service
+verifyAccountChange-safe = Ajută-ne să îți ținem contul în siguranță aprobând autentificarea în:
+verifyAccountChange-prompt = Dacă da, iată codul tău de autorizare:
+# Variables:
+# $expirationTime (Number) - Represents the expiration time in minutes
+verifyAccountChange-expiry-notice =
+    { $expirationTime ->
+        [one] Expiră în { $expirationTime } minut
+        [few] Expiră în { $expirationTime } minute
+       *[other] Expiră în { $expirationTime } de minute
+    }
 # Variables:
 #  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title-2 = Te-ai autentificat în { $clientName }?

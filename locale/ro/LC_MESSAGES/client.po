@@ -1165,7 +1165,7 @@ msgstr "Creați o mască de e-mail"
 
 #: .es5/templates/index.mustache:9
 msgid "Please provide the email address where you’d like to forward emails from your masked email."
-msgstr ""
+msgstr "Te rugăm să ne dai adresa de e-mail la care vrei să îți redirecționezi mesajele de la adresa de e-mail mascată."
 
 #: .es5/templates/index.mustache:12
 msgid "Sign up or sign in"
@@ -1173,7 +1173,7 @@ msgstr "Înscrie-te sau autentifică-te"
 
 #: .es5/templates/index.mustache:14
 msgid "A Mozilla account also unlocks access to more privacy-protecting products from Mozilla."
-msgstr ""
+msgstr "Un cont Mozilla deblochează și accesul la mai multe produse de la Mozilla care îți protejează confidențialitatea."
 
 #: .es5/templates/index.mustache:16
 msgid ""
