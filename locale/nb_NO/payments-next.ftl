@@ -289,6 +289,10 @@ next-new-user-subscribe-product-assurance = Vi bruker kun e-postadressen din til
 
 subscription-content-current-invoice-billed-on-with-tax = { $invoiceTotal } + { $taxDue } <span>fakturert den { $billedOnDate }</span>
 subscription-content-current-invoice-billed-on-no-tax = { $invoiceTotal } <span>fakturert den { $billedOnDate }</span>
+subscription-content-credit-issued-to-your-account = <strong>{ $creditApplied }</strong> kredit utstedt til kontoen din
+subscription-content-coupon-applied = { $promotionName } ble brukt
+subscription-content-next-bill-excl-with-tax = Neste faktura på <strong>{ $nextInvoiceTotal } + { $taxDue }</strong>, uten rabatter, forfaller <strong>{ $nextBillDate }</strong>
+subscription-content-next-bill-excl-no-tax = Neste faktura på <strong>{ $nextInvoiceTotal }</strong>, uten rabatter, forfaller <strong>{ $nextBillDate }</strong>
 subscription-content-heading-cancel-subscription = Avbryt abonnement
 subscription-content-no-longer-use-message = Du vil ikke lenger kunne bruke { $productName } etter { $currentPeriodEnd }, den siste dagen i faktureringsperioden din.
 subscription-content-cancel-access-message = Avbryt tilgangen min og lagret informasjon for { $productName } den { $currentPeriodEnd }
