@@ -123,6 +123,11 @@ subscription-management-button-support-aria = 取得 { $productName } 的協助
 subscription-management-your-apple-iap-subscriptions-aria = 您的 { -brand-apple } 應用程式內訂閱項目
 subscription-management-apple-in-app-purchase-1 = { -brand-apple }：應用程式內購買
 subscription-management-your-google-iap-subscriptions-aria = 您的 { -brand-google } 應用程式內訂閱項目
+subscription-management-google-in-app-purchase-1 = { -brand-google }：應用程式內購買
+# $date (String) - Date of next bill
+subscription-management-iap-sub-next-bill-is-due = 下次出帳時間為 <strong>{ $date }</strong>
+# $date (String) - Date of In-App purchase expires
+subscription-management-iap-sub-will-expire-on = 您的訂閱將於 <strong>{ $date }</strong> 到期
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = 管理 { $productName } 訂閱
 subscription-management-button-manage-subscription = 管理
@@ -282,6 +287,10 @@ next-new-user-subscribe-product-assurance = 我們只會使用您的電子郵件
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
+subscription-content-current-invoice-billed-on-with-tax = <span>於 { $billedOnDate } 收費</span> { $invoiceTotal } + { $taxDue }
+subscription-content-current-invoice-billed-on-no-tax = <span>於 { $billedOnDate } 收費</span> { $invoiceTotal }
+subscription-content-credit-issued-to-your-account = 已發出 <strong>{ $creditApplied }</strong> 信用額度到您的帳號
+subscription-content-coupon-applied = 已套用「{ $promotionName }」折扣
 subscription-content-heading-cancel-subscription = 取消訂閱
 subscription-content-no-longer-use-message = 在帳務週期最後一天（{ $currentPeriodEnd }）之後，將無法繼續使用 { $productName }。
 subscription-content-cancel-access-message = 在 { $currentPeriodEnd } 之後取消我對 { $productName } 的使用權限與儲存的所有資訊
