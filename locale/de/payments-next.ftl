@@ -289,7 +289,7 @@ next-new-user-subscribe-product-assurance = Wir verwenden Ihre E-Mail-Adresse nu
 
 subscription-content-current-invoice-billed-on-with-tax = { $invoiceTotal } + { $taxDue } <span>abgerechnet am { $billedOnDate }</span>
 subscription-content-current-invoice-billed-on-no-tax = { $invoiceTotal } <span>abgerechnet am { $billedOnDate }</span>
-subscription-content-credit-issued-to-your-account = Ihrem Konto <strong>{ $creditApplied }</strong> Guthaben ausgestellt
+subscription-content-credit-issued-to-your-account = <strong>{ $creditApplied }</strong> Guthaben auf Ihrem Konto ausgestellt
 subscription-content-coupon-applied = { $promotionName } angewendet
 subscription-content-next-bill-excl-with-tax = Die nächste Rechnung von <strong>{ $nextInvoiceTotal } + { $taxDue }</strong> (ohne Rabatte) ist am <strong>{ $nextBillDate }</strong> fällig
 subscription-content-next-bill-excl-no-tax = Die nächste Rechnung von <strong>{ $nextInvoiceTotal }</strong> (ohne Rabatte) ist am <strong>{ $nextBillDate }</strong> . fällig
