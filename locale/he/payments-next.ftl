@@ -115,7 +115,9 @@ subscription-management-button-support = קבלת עזרה
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-support-aria = קבלת עזרה עבור { $productName }
 subscription-management-your-apple-iap-subscriptions-aria = המינויים שלך מתוך היישומון ב־{ -brand-apple }
+subscription-management-apple-in-app-purchase-1 = ‏{ -brand-apple }: רכישה מתוך היישומון
 subscription-management-your-google-iap-subscriptions-aria = המינויים שלך מתוך היישומון ב־{ -brand-google }
+subscription-management-google-in-app-purchase-1 = ‏{ -brand-google }: רכישה מתוך היישומון
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = ניהול מינוי עבור { $productName }
 subscription-management-button-manage-subscription = ניהול
