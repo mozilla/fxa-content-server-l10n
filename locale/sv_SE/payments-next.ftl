@@ -289,7 +289,7 @@ next-new-user-subscribe-product-assurance = Vi använder bara din e-postadress f
 
 subscription-content-current-invoice-billed-on-with-tax = { $invoiceTotal } + { $taxDue } <span>faktureras den { $billedOnDate }</span>
 subscription-content-current-invoice-billed-on-no-tax = { $invoiceTotal } <span>fakturerades den { $billedOnDate }</span>
-subscription-content-credit-issued-to-your-account = <strong>{ $creditApplied }</strong> kredit utfärdad till ditt konto
+subscription-content-credit-issued-to-your-account = <strong>{ $creditApplied }</strong> kredit har utfärdats till ditt konto
 subscription-content-coupon-applied = { $promotionName } tillämpad
 subscription-content-next-bill-excl-with-tax = Nästa räkning på <strong>{ $nextInvoiceTotal } + { $taxDue }</strong>, exklusive rabatter, förfaller den <strong>{ $nextBillDate }</strong>
 subscription-content-next-bill-excl-no-tax = Nästa räkning på <strong>{ $nextInvoiceTotal }</strong>, exklusive rabatter, förfaller den <strong>{ $nextBillDate }</strong>
