@@ -125,7 +125,7 @@ subscription-management-apple-in-app-purchase-1 = { -brand-apple }: In-App-Kauf
 subscription-management-your-google-iap-subscriptions-aria = Ihre { -brand-google }-In-App-Abonnements
 subscription-management-google-in-app-purchase-1 = { -brand-google }: In-App-Kauf
 # $date (String) - Date of next bill
-subscription-management-iap-sub-next-bill-is-due = Die nächste Rechnung ist fällig <strong>{ $date }</strong>
+subscription-management-iap-sub-next-bill-is-due = Die nächste Rechnung ist fällig am <strong>{ $date }</strong>
 # $date (String) - Date of In-App purchase expires
 subscription-management-iap-sub-will-expire-on = Ihr Abonnement läuft am <strong>{ $date }</strong> ab
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
