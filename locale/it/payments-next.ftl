@@ -125,7 +125,7 @@ subscription-management-apple-in-app-purchase-1 = { -brand-apple }: acquisto in-
 subscription-management-your-google-iap-subscriptions-aria = I tuoi abbonamenti in-app via { -brand-google }
 subscription-management-google-in-app-purchase-1 = { -brand-google }: acquisto in-app
 # $date (String) - Date of next bill
-subscription-management-iap-sub-next-bill-is-due = La prossima fattura è in scadenza <strong>{ $date }</strong>
+subscription-management-iap-sub-next-bill-is-due = La prossima fattura è in scadenza il <strong>{ $date }</strong>
 # $date (String) - Date of In-App purchase expires
 subscription-management-iap-sub-will-expire-on = Il tuo abbonamento scadrà il <strong>{ $date }</strong>
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -287,11 +287,11 @@ next-new-user-subscribe-product-assurance = Utilizziamo la tua email solo per cr
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
-subscription-content-current-invoice-billed-on-with-tax = { $invoiceTotal } + { $taxDue } <span>fatturati il { $billedOnDate }</span>
+subscription-content-current-invoice-billed-on-with-tax = { $invoiceTotal } + { $taxDue } <span>fatturato il { $billedOnDate }</span>
 subscription-content-current-invoice-billed-on-no-tax = { $invoiceTotal } <span>fatturato il { $billedOnDate }</span>
 subscription-content-credit-issued-to-your-account = <strong>{ $creditApplied }</strong> credito emesso sul tuo account
 subscription-content-coupon-applied = { $promotionName } applicato
-subscription-content-next-bill-excl-with-tax = La prossima fattura da <strong>{ $nextInvoiceTotal } + { $taxDue }</strong>, sconti esclusi, scadrà il <strong>{ $nextBillDate }</strong>
+subscription-content-next-bill-excl-with-tax = La prossima fattura di <strong>{ $nextInvoiceTotal } + { $taxDue }</strong>, sconti esclusi, scadrà il <strong>{ $nextBillDate }</strong>
 subscription-content-next-bill-excl-no-tax = La prossima fattura di <strong>{ $nextInvoiceTotal }</strong>, sconti esclusi, scadrà il <strong>{ $nextBillDate }</strong>
 subscription-content-heading-cancel-subscription = Cancella abbonamento
 subscription-content-no-longer-use-message = Non potrai più utilizzare { $productName } dopo { $currentPeriodEnd }, l’ultimo giorno del ciclo di fatturazione.
