@@ -509,6 +509,7 @@ pay-update-manage-btn = ניהול
 ## $date (Date) - The date for the next time a charge will occur.
 
 sub-next-bill = החיוב הבא בתאריך { $date }
+sub-next-bill-due-date = החשבון הבא לתשלום בתאריך { $date }
 sub-expires-on = יפוג בתאריך { $date }
 
 ## Routes - Subscription - PaymentUpdate

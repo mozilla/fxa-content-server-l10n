@@ -688,7 +688,7 @@ subscriptionUpgrade-upgrade-info-2 = שודרגת בהצלחה ל־{ $productNam
 
 subscriptionUpgrade-content-charge-prorated-1 = חויבת בתשלום חד פעמי בסך { $invoiceAmountDue } כדי לשקף את המחיר הגבוה יותר של המינוי שלך למשך שארית תקופת החיוב הזו ({ $productPaymentCycleOld }).
 subscriptionUpgrade-content-charge-credit = קיבלת זיכוי בחשבון שלך בסכום של { $paymentProrated }.
-subscriptionUpgrade-content-subscription-next-bill-change = החל מהחשבון הבא שלך, מחיר המינוי שלך ישתנה.
+subscriptionUpgrade-content-subscription-next-bill-change = החל מהחשבונית הבאה שלך, מחיר המינוי שלך ישתנה.
 subscriptionUpgrade-content-old-price-day = התעריף הקודם היה { $paymentAmountOld } ליום.
 subscriptionUpgrade-content-old-price-week = התעריף הקודם היה { $paymentAmountOld } לשבוע.
 subscriptionUpgrade-content-old-price-month = התעריף הקודם היה { $paymentAmountOld } לחודש.
