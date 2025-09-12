@@ -287,12 +287,12 @@ next-new-user-subscribe-product-assurance = Wir verwenden Ihre E-Mail-Adresse nu
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
-subscription-content-current-invoice-billed-on-with-tax = { $invoiceTotal } + { $taxDue } <span>abgerechnet auf { $billedOnDate }</span>
-subscription-content-current-invoice-billed-on-no-tax = { $invoiceTotal } <span>abgerechnet auf { $billedOnDate }</span>
+subscription-content-current-invoice-billed-on-with-tax = { $invoiceTotal } + { $taxDue } <span>abgerechnet am { $billedOnDate }</span>
+subscription-content-current-invoice-billed-on-no-tax = { $invoiceTotal } <span>abgerechnet am { $billedOnDate }</span>
 subscription-content-credit-issued-to-your-account = Ihrem Konto <strong>{ $creditApplied }</strong> Guthaben ausgestellt
 subscription-content-coupon-applied = { $promotionName } angewendet
-subscription-content-next-bill-excl-with-tax = Die nächste Rechnung von <strong>{ $nextInvoiceTotal } + { $taxDue }</strong> (ohne Skonto) ist fällig am <strong>{ $nextBillDate }</strong>
-subscription-content-next-bill-excl-no-tax = Die nächste Rechnung von <strong>{ $nextInvoiceTotal }</strong> (ohne Skonto) ist fällig am <strong>{ $nextBillDate }</strong>
+subscription-content-next-bill-excl-with-tax = Die nächste Rechnung von <strong>{ $nextInvoiceTotal } + { $taxDue }</strong> (ohne Rabatte) ist am <strong>{ $nextBillDate }</strong> fällig
+subscription-content-next-bill-excl-no-tax = Die nächste Rechnung von <strong>{ $nextInvoiceTotal }</strong> (ohne Rabatte) ist am <strong>{ $nextBillDate }</strong> . fällig
 subscription-content-heading-cancel-subscription = Dauerauftrag stornieren
 subscription-content-no-longer-use-message = Sie können { $productName } nach dem { $currentPeriodEnd }, dem letzten Tag Ihres Abrechnungszeitraums, nicht mehr verwenden.
 subscription-content-cancel-access-message = Meinen Zugriff am { $currentPeriodEnd } beenden und meine in { $productName } gespeicherten Daten entfernen
