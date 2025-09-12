@@ -276,6 +276,8 @@ next-new-user-subscribe-product-assurance = אנו משתמשים בדוא״ל �
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
+subscription-content-credit-issued-to-your-account = זיכוי בסך <strong>{ $creditApplied }</strong> הונפק לחשבון שלך
+subscription-content-coupon-applied = ‏{ $promotionName } הוחל
 subscription-content-heading-cancel-subscription = ביטול מינוי
 subscription-content-no-longer-use-message = לא תהיה לך עוד אפשרות להשתמש ב־{ $productName } אחרי { $currentPeriodEnd }, היום האחרון של מחזור החיוב שלך.
 subscription-content-cancel-access-message = בטלו את הגישה ואת המידע השמור שלי בתוך { $productName } בתאריך { $currentPeriodEnd }
