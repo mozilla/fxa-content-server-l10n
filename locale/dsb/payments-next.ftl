@@ -292,6 +292,10 @@ next-new-user-subscribe-product-assurance = Wužywamy jano wašu e-mailowu adres
 
 subscription-content-current-invoice-billed-on-with-tax = { $invoiceTotal } + { $taxDue } <span>stej se woblicyłej { $billedOnDate }</span>
 subscription-content-current-invoice-billed-on-no-tax = { $invoiceTotal } <span>jo se woblicył { $billedOnDate }</span>
+subscription-content-credit-issued-to-your-account = Kontowy plus <strong>{ $creditApplied }</strong> jo se pśipisał na wašo konto
+subscription-content-coupon-applied = { $promotionName } nałožony
+subscription-content-next-bill-excl-with-tax = Pśiduca zliceńka <strong>{ $nextInvoiceTotal } + { $taxDue }</strong>, bźez rabatow, ma se <strong>{ $nextBillDate }</strong> płaśiś
+subscription-content-next-bill-excl-no-tax = Pśiduca zliceńka <strong>{ $nextInvoiceTotal }</strong>, bźez rabatow, ma se <strong>{ $nextBillDate }</strong> płaśiś
 subscription-content-heading-cancel-subscription = Abonement wupowěźeś
 subscription-content-no-longer-use-message =
     Pó { $currentPeriodEnd }, slědnem dnju swójogo wótliceńskeje periody,
