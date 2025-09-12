@@ -169,6 +169,7 @@ automated-email-reset-pwd-two-factor =
 automated-email-reset-pwd-plaintext-v3 = Dacă nu tu ai făcut asta, atunci resetează-ți parola imediat pe:
 # Followed by link to https://accounts.firefox.com/settings#two-step-authentication
 automated-email-reset-two-factor-plaintext = Resetează-ți și autentificarea în doi pași pe:
+banner-warning-check = Verifică dacă dispozitivul și locația la care te-ai conectat sunt corecte.
 brand-banner-message = Știai că ne-am schimbat numele din { -product-firefox-accounts } în { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Află mai multe</a>
 cancellationSurvey = Te rugăm să ne ajuți să ne îmbunătățim serviciile participând la acest <a data-l10n-name="cancellationSurveyUrl">scurt sondaj</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
@@ -267,6 +268,22 @@ device-all = { $uaBrowser } pe { $uaOS } { $uaOSVersion }
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 device-browser-os = { $uaBrowser } pe { $uaOS }
+# Variables:
+#  $city (String) - User's city
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-all = { $city }, { $stateCode }, { $country } (estimate)
+# Variables:
+#  $city (String) - User's city
+#  $country (String) - User's country
+location-city-country = { $city }, { $country } (estimate)
+# Variables:
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-state-country = { $stateCode }, { $country } (estimate)
+# Variables:
+#  $country (stateCode) - User's country
+location-country = { $country } (estimată)
 view-invoice = <a data-l10n-name="invoiceLink">Vezi factura</a>.
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
@@ -453,6 +470,14 @@ postChangeRecoveryPhone-preview = Cont protejat cu autentificare în doi pași
 postChangeRecoveryPhone-title = Ți-ai schimbat numărul de telefon pentru recuperare
 postChangeRecoveryPhone-description = Acum ai un nou număr de telefon pentru recuperare. Numărul anterior a fost șters.
 postChangeRecoveryPhone-requested-device = Ai făcut cererea de pe:
+postChangeTwoStepAuthentication-preview = Contul tău este protejat
+postChangeTwoStepAuthentication-subject = Autentificare în doi pași actualizată
+postChangeTwoStepAuthentication-title = Autentificarea în doi pași a fost actualizată
+# After the colon, there is a description of the device that the user used to enable two-step authentication
+postChangeTwoStepAuthentication-from-device = Ai făcut cererea de pe:
+postChangeTwoStepAuthentication-action = Gestionează contul
+postChangeTwoStepAuthentication-how-protects-link = Cum îți protejează contul
+postChangeTwoStepAuthentication-how-protects-plaintext = Cum îți protejează contul:
 postConsumeRecoveryCode-title-3 = Codul de autentificare de rezervă a fost folosit pentru a confirma resetarea parolei.
 # After the colon, there is description of the device that the backup authentication code was used on
 # E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
@@ -606,11 +631,19 @@ subscriptionFirstInvoice-content-auto-renew = Abonamentul se va reînnoi automat
 subscriptionFirstInvoice-content-next-invoice = Următoarea factură: { $nextInvoiceDateOnly }
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-subject-2 = Metodă de plată pentru { $productName } expirată sau care expiră în curând
+subscriptionPaymentExpired-title-2 = Metoda ta de plată a expirat sau va expira în curând
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-content-2 = Metoda de plată pe care o folosești pentru { $productName } este expirată sau va expira în curând.
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = Plata pentru { $productName } a eșuat
 subscriptionPaymentFailed-title = Ne pare rău, întâmpinăm probleme cu plata ta
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-content-problem = Am întâmpinat o problemă cu ultima ta plată pentru { $productName }.
+subscriptionPaymentFailed-content-outdated-1 = Este posibil să îți fi expirat metoda de plată sau ca metoda de plată actuală să nu mai fie de actualitate.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-subject = Este necesară actualizarea informațiilor de plată pentru { $productName }
@@ -618,6 +651,7 @@ subscriptionPaymentProviderCancelled-title = Ne pare rău, întâmpinăm problem
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentProviderCancelled-content-detect = Am detectat o problemă cu metoda ta de plată pentru { $productName }.
+subscriptionPaymentProviderCancelled-content-reason-1 = Este posibil să îți fi expirat metoda de plată sau ca metoda de plată actuală să nu mai fie de actualitate.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionReactivation-subject = Abonamentul pentru { $productName } a fost reactivat
@@ -651,9 +685,13 @@ subscriptionReplaced-title = Abonamentul a fost actualizat
 subscriptionReplaced-content-replaced = Abonamentul tău individual { $productName } a fost înlocuit și acum este inclus în noul pachet.
 subscriptionReplaced-content-credit = Vei primi un credit pentru timpul neutilizat din abonamentul anterior. Acest credit va fi aplicat automat contului tău și utilizat pentru plăți viitoare.
 subscriptionReplaced-content-no-action = Nu necesită nicio acțiune din partea ta.
+subscriptionsPaymentExpired-subject-2 = Metoda de plată pentru abonamentele tale a expirat sau va expira în curând
+subscriptionsPaymentExpired-title-2 = Metoda ta de plată a expirat sau va expira în curând
+subscriptionsPaymentExpired-content-2 = Metoda de plată pe care o folosești pentru plățile pentru următoarele abonamente a expirat sau va expira în curând.
 subscriptionsPaymentProviderCancelled-subject = Este necesară actualizarea informațiilor de plată pentru abonamentele { -brand-mozilla }
 subscriptionsPaymentProviderCancelled-title = Ne pare rău, întâmpinăm probleme cu metoda ta de plată
 subscriptionsPaymentProviderCancelled-content-detected = Am detectat o problemă cu metoda ta de plată pentru următoarele abonamente.
+subscriptionsPaymentProviderCancelled-content-payment-1 = Este posibil să îți fi expirat metoda de plată sau ca metoda de plată actuală să nu mai fie de actualitate.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-subject = Plată primită pentru { $productName }
@@ -685,6 +723,7 @@ subscriptionUpgrade-upgrade-info-2 = Ai trecut cu succes la versiunea superioar�
 
 subscriptionUpgrade-content-charge-prorated-1 = Ți s-a perceput o taxă unică de { $invoiceAmountDue } pentru a reflecta prețul mai mare al abonamentului pentru restul acestei perioade de facturare ({ $productPaymentCycleOld }).
 subscriptionUpgrade-content-charge-credit = Ai primit un credit în cont în valoare de { $paymentProrated }.
+subscriptionUpgrade-content-subscription-next-bill-change = Începând cu următoarea factură, prețul abonamentului se va schimba.
 subscriptionUpgrade-existing = Dacă oricare dintre abonamentele tale existente se suprapune cu această trecere la o versiune superioară, le vom gestiona și îți vom trimite un mesaj separat pe e-mail cu detaliile. Dacă noul tău plan include produse care necesită instalare, îți vom trimite un mesaj separat pe e-mail cu instrucțiuni de configurare.
 subscriptionUpgrade-auto-renew = Abonamentul se va reînnoi automat cu o perioadă de facturare, cu excepția cazului în care alegi să îl anulezi.
 unblockCode-subject = Cod de autorizare al contului
