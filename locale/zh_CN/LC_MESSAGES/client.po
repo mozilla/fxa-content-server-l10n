@@ -1454,7 +1454,7 @@ msgstr "请打开您的身份验证应用，并输入其提供的安全码。"
 
 #: .es5/templates/sign_in_totp_code.mustache:7
 msgid "Trouble entering code?"
-msgstr "输入码时遇到问题？"
+msgstr "输入安全码时遇到问题？"
 
 #: .es5/templates/sign_in_unblock.mustache:1 .es5/templates/sign_in_unblock.mustache:2 .es5/templates/push/send_login.mustache:1
 msgid "Authorize this sign-in"

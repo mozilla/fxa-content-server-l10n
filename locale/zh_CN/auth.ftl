@@ -786,7 +786,7 @@ verifyAccountChange-preview = 此验证码 { $expirationTime } 分钟内有效�
 verifyAccountChange-title = 是您在更改账户信息吗？
 # After the colon is a description of the device used to sign in to the service
 verifyAccountChange-safe = 请确认此更改，以确保账户安全：
-verifyAccountChange-prompt = 如若是，请使用此验证码：
+verifyAccountChange-prompt = 如若是，请使用此授权码：
 # Variables:
 # $expirationTime (Number) - Represents the expiration time in minutes
 verifyAccountChange-expiry-notice = { $expirationTime } 分钟内有效。
@@ -804,7 +804,7 @@ verifyLoginCode-subject-line-2 = 准许登录 { $serviceName }
 verifyLoginCode-title-2 = 您是否登录了 { $serviceName }？
 # After the colon is a description of the device used to sign in to the service
 verifyLoginCode-safe = 请确认您的登录活动，以确保账户安全：
-verifyLoginCode-prompt-3 = 如若是，请使用此验证码：
+verifyLoginCode-prompt-3 = 如若是，请使用此授权码：
 verifyLoginCode-expiry-notice = 5 分钟内有效。
 verifyPrimary-title-2 = 验证主邮箱
 verifyPrimary-description = 下列设备请求了一项账户变更：
