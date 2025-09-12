@@ -118,6 +118,10 @@ subscription-management-your-apple-iap-subscriptions-aria = המינויים ש�
 subscription-management-apple-in-app-purchase-1 = ‏{ -brand-apple }: רכישה מתוך היישומון
 subscription-management-your-google-iap-subscriptions-aria = המינויים שלך מתוך היישומון ב־{ -brand-google }
 subscription-management-google-in-app-purchase-1 = ‏{ -brand-google }: רכישה מתוך היישומון
+# $date (String) - Date of next bill
+subscription-management-iap-sub-next-bill-is-due = החשבון הבא לתשלום בתאריך <strong>{ $date }</strong>
+# $date (String) - Date of In-App purchase expires
+subscription-management-iap-sub-will-expire-on = המינוי שלך יפוג בתאריך <strong>{ $date }</strong>
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = ניהול מינוי עבור { $productName }
 subscription-management-button-manage-subscription = ניהול
@@ -217,8 +221,12 @@ next-new-user-card-title = נא להכניס את פרטי הכרטיס שלך
 ## Component - PurchaseDetails
 
 next-plan-details-header = פרטי מוצר
+# $productName (String) - The name of the product, e.g. Mozilla VPN
+plan-details-product-prorated-price = מחיר יחסי עבור { $productName }
 next-plan-details-tax = מיסים ועמלות
 next-plan-details-total-label = סה״כ
+# "Unused time" refers to the remaining value of the current subscription that hasn't been used yet
+purchase-details-unused-time-label = זיכוי על זמן לא מנוצל
 purchase-details-subtotal-label = סכום ביניים
 # "Credit applied" refers to account credit used to reduce the amount due on the invoice
 purchase-details-credit-applied-label = זיכוי שהוחל
