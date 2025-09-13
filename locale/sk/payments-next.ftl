@@ -124,6 +124,10 @@ subscription-management-your-apple-iap-subscriptions-aria = Vaše predplatné v 
 subscription-management-apple-in-app-purchase-1 = { -brand-apple }: nákup v aplikácii
 subscription-management-your-google-iap-subscriptions-aria = Vaše predplatné v aplikácii { -brand-google }
 subscription-management-google-in-app-purchase-1 = { -brand-google }: nákup v aplikácii
+# $date (String) - Date of next bill
+subscription-management-iap-sub-next-bill-is-due = Ďalšia faktúra je splatná <strong>{ $date }</strong>
+# $date (String) - Date of In-App purchase expires
+subscription-management-iap-sub-will-expire-on = Vaše predplatné vyprší dňa <strong>{ $date }</strong>
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Spravovať predplatné pre { $productName }
 subscription-management-button-manage-subscription = Spravovať
@@ -283,6 +287,12 @@ next-new-user-subscribe-product-assurance = Vašu e‑mailovú adresu použijeme
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
+subscription-content-current-invoice-billed-on-with-tax = { $invoiceTotal } + { $taxDue } <span>fakturované dňa { $billedOnDate }</span>
+subscription-content-current-invoice-billed-on-no-tax = { $invoiceTotal } <span>fakturované dňa { $billedOnDate }</span>
+subscription-content-credit-issued-to-your-account = Na váš účet bol pripísaný kredit <strong>{ $creditApplied }</strong>
+subscription-content-coupon-applied = Kupón { $promotionName } bol použitý
+subscription-content-next-bill-excl-with-tax = Ďalšia faktúra vo výške <strong>{ $nextInvoiceTotal } + { $taxDue }</strong>, bez zliav, je splatná dňa <strong>{ $nextBillDate }</strong>
+subscription-content-next-bill-excl-no-tax = Ďalšia faktúra vo výške <strong>{ $nextInvoiceTotal }</strong>, bez zliav, je splatná dňa <strong>{ $nextBillDate }</strong>
 subscription-content-heading-cancel-subscription = Zrušiť predplatné
 subscription-content-no-longer-use-message = Po { $currentPeriodEnd }, poslednom dni vášho fakturačného cyklu, už produkt { $productName } nebudete môcť používať.
 subscription-content-cancel-access-message = Zrušiť môj prístup k produktu { $productName } a dáta v ňom uložené ku dňu { $currentPeriodEnd }
