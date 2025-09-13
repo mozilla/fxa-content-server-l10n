@@ -126,6 +126,8 @@ subscription-management-your-google-iap-subscriptions-aria = Συνδρομές 
 subscription-management-google-in-app-purchase-1 = { -brand-google }: αγορά εντός εφαρμογής
 # $date (String) - Date of next bill
 subscription-management-iap-sub-next-bill-is-due = Ο επόμενος λογαριασμός λήγει στις <strong>{ $date }</strong>
+# $date (String) - Date of In-App purchase expires
+subscription-management-iap-sub-will-expire-on = Η συνδρομή σας θα λήξει στις <strong>{ $date }</strong>
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Διαχείριση συνδρομής για το { $productName }
 subscription-management-button-manage-subscription = Διαχείριση
@@ -285,6 +287,12 @@ next-new-user-subscribe-product-assurance = Χρησιμοποιούμε το em
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
+subscription-content-current-invoice-billed-on-with-tax = { $invoiceTotal } + { $taxDue } <span>χρεώθηκαν στις { $billedOnDate }</span>
+subscription-content-current-invoice-billed-on-no-tax = { $invoiceTotal } <span>χρεώθηκαν στις { $billedOnDate }</span>
+subscription-content-credit-issued-to-your-account = Εκδόθηκε πίστωση <strong>{ $creditApplied }</strong> στον λογαριασμό σας
+subscription-content-coupon-applied = Εφαρμόστηκε το { $promotionName }
+subscription-content-next-bill-excl-with-tax = Ο επόμενος λογαριασμός των <strong>{ $nextInvoiceTotal } + { $taxDue }</strong>, εξαιρουμένων των εκπτώσεων, λήγει στις <strong>{ $nextBillDate }</strong>
+subscription-content-next-bill-excl-no-tax = Ο επόμενος λογαριασμός <strong>{ $nextInvoiceTotal }</strong>, εξαιρουμένων των εκπτώσεων, λήγει στις <strong>{ $nextBillDate }</strong>
 subscription-content-heading-cancel-subscription = Ακύρωση συνδρομής
 subscription-content-no-longer-use-message = Δεν θα μπορείτε πλέον να χρησιμοποιείτε το { $productName } μετά τις { $currentPeriodEnd }, την τελευταία ημέρα του κύκλου χρέωσής σας.
 subscription-content-cancel-access-message = Ακύρωση της πρόσβασής μου και των αποθηκευμένων πληροφοριών μου εντός του { $productName } στις { $currentPeriodEnd }
