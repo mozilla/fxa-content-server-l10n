@@ -118,7 +118,9 @@ subscription-management-button-support = Yardım al
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-support-aria = { $productName } için yardım alın
 subscription-management-your-apple-iap-subscriptions-aria = { -brand-apple } uygulama içi abonelikleriniz
+subscription-management-apple-in-app-purchase-1 = { -brand-apple }: uygulama içi satın alma
 subscription-management-your-google-iap-subscriptions-aria = { -brand-google } uygulama içi abonelikleriniz
+subscription-management-google-in-app-purchase-1 = { -brand-google }: uygulama içi satın alma
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = { $productName } aboneliğini yönet
 subscription-management-button-manage-subscription = Yönet

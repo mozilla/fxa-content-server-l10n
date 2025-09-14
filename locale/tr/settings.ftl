@@ -363,6 +363,7 @@ confirmation-link-reused-message = Bu onay bağlantısı daha önce kullanılmı
 ## Locale Toggle Component
 
 locale-toggle-select-label = Dil seçin
+locale-toggle-browser-default = Tarayıcı varsayılanı
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Hatalı istek
 
