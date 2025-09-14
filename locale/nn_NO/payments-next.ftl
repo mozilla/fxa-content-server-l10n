@@ -121,7 +121,9 @@ subscription-management-button-support = Få hjelp
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-support-aria = Få hjelp med { $productName }
 subscription-management-your-apple-iap-subscriptions-aria = Dine { -brand-apple } kjøp i app-abonnement
+subscription-management-apple-in-app-purchase-1 = { -brand-apple }: kjøp i app
 subscription-management-your-google-iap-subscriptions-aria = Dine { -brand-google } kjøp i app-abonnement
+subscription-management-google-in-app-purchase-1 = { -brand-google }: kjøp i app
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Administrer abonnement for { $productName }
 subscription-management-button-manage-subscription = Handsam
