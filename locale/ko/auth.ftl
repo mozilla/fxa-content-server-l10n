@@ -471,6 +471,15 @@ postChangeRecoveryPhone-preview = 2단계 인증으로 보호되는 계정
 postChangeRecoveryPhone-title = 복구 전화번호를 변경했습니다.
 postChangeRecoveryPhone-description = 새로운 계정 복구 전화번호가 생성되었습니다. 이전 전화번호는 삭제되었습니다.
 postChangeRecoveryPhone-requested-device = 다음에서 요청했습니다:
+postChangeTwoStepAuthentication-preview = 계정 보호됨
+postChangeTwoStepAuthentication-subject = 2단계 인증 업데이트됨
+postChangeTwoStepAuthentication-title = 2단계 인증 업데이트 완료
+postChangeTwoStepAuthentication-use-new-account = 이제 인증 앱에서 새로운 { -product-mozilla-account } 항목을 사용해야 합니다. 오래된 것은 더이상 작동하지 않으므로 제거하실 수 있습니다.
+# After the colon, there is a description of the device that the user used to enable two-step authentication
+postChangeTwoStepAuthentication-from-device = 다음에서 요청함:
+postChangeTwoStepAuthentication-action = 계정 관리
+postChangeTwoStepAuthentication-how-protects-link = 계정을 보호하는 방법
+postChangeTwoStepAuthentication-how-protects-plaintext = 계정을 보호하는 방법:
 postConsumeRecoveryCode-title-3 = 백업 인증 코드가 비밀번호 재설정 확인에 사용되었습니다.
 # After the colon, there is description of the device that the backup authentication code was used on
 # E.g., Firefox Nightly on Mac OSX, Thursday Sept 2, 2024
@@ -622,6 +631,9 @@ subscriptionFirstInvoice-content-auto-renew = 구독은 구독을 취소하지 �
 # Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionFirstInvoice-content-next-invoice = 다음 청구일자: { $nextInvoiceDateOnly }
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-subject-2 = { $productName }의 결제 수단이 만료되었거나 곧 만료 예정
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = { $productName } 결제 실패
