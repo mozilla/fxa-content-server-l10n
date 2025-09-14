@@ -102,7 +102,7 @@ payment-confirmation-download-button = Hald fram til nedlasting
 
 ## Component - PaymentConsentCheckbox
 
-payment-confirm-with-legal-links-static-3 = Eg autoriserer { -brand-mozilla }, til å belaste betalingsmåten min for beløpet som visest, i samsvar med <termsOfServiceLink>tenestevilkåra</termsOfServiceLink> og <privacyNoticeLink>personvernerklæringa</privacyNoticeLink>, inntil eg seier opp abonnementet mitt.
+payment-confirm-with-legal-links-static-3 = Eg autoriserer { -brand-mozilla }, til å belaste betalingsmåten min for beløpet som visest, i samsvar med <termsOfServiceLink>tenestevilkåra</termsOfServiceLink> og <privacyNoticeLink>personvernfråsegna</privacyNoticeLink>, inntil eg seier opp abonnementet mitt.
 payment-confirm-checkbox-error = Du må fullføre dette før du går vidare
 
 ## Component - PaymentErrorView
@@ -283,7 +283,7 @@ sub-guarantee = 30-dagar pengane-tilbake-garanti
 # This heading is followed by links to Terms of Service and Privacy Notice
 subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capitalization: "uppercase") }
 terms = Tenestevilkår
-privacy = Personvernerklæring
+privacy = Personvernfråsegn
 terms-download = Vilkår for nedlasting
 
 ## App-level string(s) and messages shared by multiple components or routes

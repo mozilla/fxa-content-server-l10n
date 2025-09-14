@@ -41,7 +41,7 @@ fxa-header-mozilla-logo = <img data-l10n-name="mozilla-logo" alt="{ -brand-mozil
 fxa-header-sync-devices-image = <img data-l10n-name="sync-devices-image" alt="Synkroniser einingar">3
 body-devices-image = <img data-l10n-name="devices-image" alt="Einingar">
 fxa-privacy-url = { -brand-mozilla } personvernpraksis
-moz-accounts-privacy-url-2 = { -product-mozilla-accounts(capitalization: "uppercase") } personvernerklæring
+moz-accounts-privacy-url-2 = { -product-mozilla-accounts(capitalization: "uppercase") } personvernfråsegn
 moz-accounts-terms-url = Tenestevilkår for { -product-mozilla-accounts(capitalization: "uppercase") }
 subplat-header-mozilla-logo-2 = <img data-l10n-name="subplat-mozilla-logo" alt="{ -brand-mozilla } logo">
 subplat-footer-mozilla-logo-2 = <img data-l10n-name="mozilla-logo-footer" alt="{ -brand-mozilla } logo">
@@ -70,7 +70,7 @@ subplat-reactivate = Reaktiver abonnement
 subplat-reactivate-plaintext = { subplat-reactivate }:
 subplat-update-billing = Oppdater faktureringsinformasjon
 subplat-privacy-policy = { -brand-mozilla }s personvernpraksis
-subplat-privacy-policy-2 = { -product-mozilla-accounts(capitalization: "uppercase") } personvernerklæring
+subplat-privacy-policy-2 = { -product-mozilla-accounts(capitalization: "uppercase") } personvernfråsegn
 subplat-privacy-policy-plaintext = { subplat-privacy-policy }:
 subplat-privacy-policy-plaintext-2 = { subplat-privacy-policy-2 }:
 subplat-moz-terms = Tenestevilkår for { -product-mozilla-accounts(capitalization: "uppercase") }

@@ -156,7 +156,7 @@ subscription-management-breadcrumb-back-aria = Gå tilbake til { $page }
 
 ## Component - Payment Consent Checkbox
 
-next-payment-confirm-with-legal-links-static-3 = Eg autoriserer { -brand-mozilla }, til å belaste betalingsmåten min for beløpet som visest, i samsvar med <termsOfServiceLink>tenestevilkåra</termsOfServiceLink> og <privacyNoticeLink>personvernerklæringa</privacyNoticeLink>, inntil eg seier opp abonnementet mitt.
+next-payment-confirm-with-legal-links-static-3 = Eg autoriserer { -brand-mozilla }, til å belaste betalingsmåten min for beløpet som visest, i samsvar med <termsOfServiceLink>tenestevilkåra</termsOfServiceLink> og <privacyNoticeLink>personvernfråsegna</privacyNoticeLink>, inntil eg seier opp abonnementet mitt.
 next-payment-confirm-checkbox-error = Du må fullføre dette før du går vidare
 
 ## Checkout Form
@@ -348,12 +348,12 @@ next-sub-guarantee = 30-dagar pengane-tilbake-garanti
 # This heading is followed by links to Terms of Service and Privacy Notice
 next-subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capitalization: "uppercase") }
 next-terms = Tenestevilkår
-next-privacy = Personvernerklæring
+next-privacy = Personvernfråsegn
 next-terms-download = Vilkår for nedlasting
 terms-and-privacy-stripe-label = { -brand-mozilla } brukar { -brand-name-stripe } for sikker behandling av betaling.
-terms-and-privacy-stripe-link = { -brand-name-stripe } personvernerklæring
+terms-and-privacy-stripe-link = { -brand-name-stripe } personvernfråsegn
 terms-and-privacy-paypal-label = { -brand-mozilla } brukar { -brand-paypal } for trygg betalingsbehandling.
-terms-and-privacy-paypal-link = { -brand-paypal } personvernerklæring
+terms-and-privacy-paypal-link = { -brand-paypal } personvernfråsegn
 terms-and-privacy-stripe-and-paypal-label = { -brand-mozilla } brukar { -brand-name-stripe } og { -brand-paypal } for trygg betalingsbehandling.
 
 ## Component - UpdatedPurchaseDetails

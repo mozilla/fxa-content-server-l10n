@@ -1263,7 +1263,7 @@ terms-privacy-agreement-monitor-3 = { -brand-mozilla } abonnementstenester <mozS
 # links to Mozilla Accounts Terms of Service and Privacy Notice, part of a bulleted list
 terms-privacy-agreement-mozilla = { -product-mozilla-accounts(capitalization: "uppercase") } <mozillaAccountsTos>tenestevilkår</mozillaAccountsTos> og <mozillaAccountsPrivacy>personvernfråsegn</mozillaAccountsPrivacy>
 # links to Mozilla Account's Terms of Service and Privacy Notice
-terms-privacy-agreement-default-2 = Ved å halde fram, godtek du <mozillaAccountsTos>tenestevilkåra</mozillaAccountsTos> og <mozillaAccountsPrivacy>personvernerklæringa</mozillaAccountsPrivacy>.
+terms-privacy-agreement-default-2 = Ved å halde fram, godtek du <mozillaAccountsTos>tenestevilkåra</mozillaAccountsTos> og <mozillaAccountsPrivacy>personvernfråsegna</mozillaAccountsPrivacy>.
 
 ## ThirdPartyAuth component
 ## This is a component that is used to display a list of third party providers (Apple, Google, etc.)
