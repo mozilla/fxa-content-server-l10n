@@ -169,6 +169,7 @@ automated-email-reset-pwd-two-factor =
 automated-email-reset-pwd-plaintext-v3 = Nandéiramo ejapo ko jeku’e, emoambue ne ñe’ẽñemi ko’ag̃aite amo guive:
 # Followed by link to https://accounts.firefox.com/settings#two-step-authentication
 automated-email-reset-two-factor-plaintext = Avei, erujey ñemoneĩha mokõi jeku’egua amo guive:
+banner-warning-check = Ehechajeýke pe mba’e’oka ha tendaite eñepyrũhague tembiapo toiko porã.
 brand-banner-message = ¿Eikuaa romoambueha ore réra { -product-firefox-accounts } ko’ág̃a { -product-mozilla-accounts }? <a data-l10n-name="learnMore">Eikuaave</a>
 cancellationSurvey = Orepytyvõna romoĩporãvévo mba’eporu ejapóvo ko <a data-l10n-name="cancellationSurveyUrl">ñeporandu mbykymi</a>.
 # After the colon, there's a link to https://survey.alchemer.com/s3/6534408/Privacy-Security-Product-Cancellation-of-Service-Q4-21
@@ -627,6 +628,9 @@ subscriptionFirstInvoice-content-auto-renew = Ne ñemboheraguapy ipyahúta ijehe
 # Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionFirstInvoice-content-next-invoice = Ñemuhague oútava: { $nextInvoiceDateOnly }
+# Variables:
+#  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscriptionPaymentExpired-subject-2 = Mba’éichapa ehepyme’ẽta { $productName }-pe g̃uarã ndoikói térã potaite
 subscriptionPaymentExpired-title-2 = Nde jehepyme’ẽrã opáma térã ndoikovéi potaite
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -788,6 +792,13 @@ verifyAccountChange-title = ¿Emoambuehína marandu ne mba’ete rehegua?
 # After the colon is a description of the device used to sign in to the service
 verifyAccountChange-safe = Orepytyvõ rorekóvo ne mba’ete tekorosãme emoneĩvo ko ambuepyre amo:
 verifyAccountChange-prompt = Upéicharõ, eiporu ko ayvu ñemoneĩha:
+# Variables:
+# $expirationTime (Number) - Represents the expiration time in minutes
+verifyAccountChange-expiry-notice =
+    { $expirationTime ->
+        [one] Hu’ãta { $expirationTime } aravo’ípe.
+       *[other] Hu’ãta { $expirationTime } aravo’ípe.
+    }
 # Variables:
 #  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title-2 = ¿Emoñepyrũ tembiapo { $clientName }-pe?
