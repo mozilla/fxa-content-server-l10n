@@ -117,8 +117,16 @@ subscription-management-subscriptions-heading = Ñemboheraguapy
 subscription-management-your-subscriptions-aria = Ne ñemboheraguapy
 subscription-management-no-subscriptions = Nde nereñemboheraguapýi gueteri
 subscription-management-button-support = Eipota pytyvõ
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscription-management-button-support-aria = Eñepytyvõ { $productName }-pe g̃uarã
 subscription-management-your-apple-iap-subscriptions-aria = Ne ñemboheraguapy tembiporu’i ryepýpe { -brand-apple }
+subscription-management-apple-in-app-purchase-1 = { -brand-apple }: ejogua tembiporu’i guive
 subscription-management-your-google-iap-subscriptions-aria = Ne ñemboheraguapy { -brand-google } rembiporu’i ryepýpe
+subscription-management-google-in-app-purchase-1 = { -brand-google }: ejogua tembiporu’i ryepýpe
+# $date (String) - Date of next bill
+subscription-management-iap-sub-next-bill-is-due = Kuatiañemure hu’ãta <strong>{ $date }</strong>
+# $date (String) - Date of In-App purchase expires
+subscription-management-iap-sub-will-expire-on = Ne ñemboheraguapy hu’ãta <strong>{ $date }</strong>
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Eñangareko teraguapy { $productName }-pe g̃uarã
 subscription-management-button-manage-subscription = Ñangareko
