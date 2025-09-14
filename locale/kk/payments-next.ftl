@@ -25,6 +25,8 @@ visa-logo-alt-text = { -brand-visa } логотипі
 # Alt text for generic payment card logo
 unbranded-logo-alt-text = Брендсіз логотип
 link-logo-alt-text = { -brand-link } логотипі
+apple-pay-logo-alt-text = { -brand-apple-pay } логотипі
+google-pay-logo-alt-text = { -brand-google-pay } логотипі
 
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -35,6 +37,17 @@ next-basic-error-message = Бірнәрсе қате кетті. Кейінір�
 checkout-error-contact-support-button = Қолдау қызметіне хабарласу
 checkout-error-already-subscribed = Сіз бұл өнімге жазылып қойғансыз.
 checkout-processing-general-error = Төлеміңізді өңдеу кезінде күтпеген қате орын алды, әрекетті қайталаңыз.
+cart-total-mismatch-error = Шот сомасы өзгерді. Қайталап көріңіз.
+
+## Error pages - Payment method failure messages
+
+intent-card-error = Транзакцияны өңдеу мүмкін болмады. Несие карта ақпаратын тексеріп, әрекетті қайталаңыз.
+intent-expired-card-error = Несие картаңыздың мерзімі өтіп кеткен сияқты. Басқа картаны қолданып көріңіз.
+intent-payment-error-try-again = Төлеміңізді авторизациялау кезінде мәселе орын алды. Қайталап көріңіз немесе карта шығарушысымен байланысыңыз.
+intent-payment-error-get-in-touch = Төлеміңізді авторизациялау кезінде мәселе орын алды. Карта шығарушысымен байланысыңыз.
+intent-payment-error-generic = Төлеміңізді өңдеу кезінде күтпеген қате орын алды, әрекетті қайталаңыз.
+intent-payment-error-insufficient-funds = Сіздің картаңызда қаражат жеткіліксіз сияқты. Басқа картаны қолданып көріңіз.
+general-paypal-error = Төлеміңізді өңдеу кезінде күтпеген қате орын алды, әрекетті қайталаңыз.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -90,6 +103,8 @@ subscription-management-button-manage-subscription = Басқару
 ## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
 
 subscription-management-page-subscription-interval-daily = { $productName } (күн сайын)
+subscription-management-page-subscription-interval-weekly = { $productName } (апта сайын)
+subscription-management-page-subscription-interval-monthly = { $productName } (ай сайын)
 subscription-management-page-subscription-interval-yearly = { $productName } (жыл сайын)
 subscription-management-page-paypal-error-banner-link = Басқару
 paypal-payment-management-page-invalid-header = Төлем ақпараты жарамсыз
@@ -205,6 +220,8 @@ select-tax-location-postal-code =
     .placeholder = Пошта индексіңізді енгізіңіз
 select-tax-location-error-missing-postal-code = Пошта индексіңізді енгізіңіз
 select-tax-location-error-invalid-postal-code = Жарамды пошта индексін енгізіңіз
+select-tax-location-successfully-updated = Орналасқан жеріңіз жаңартылды.
+select-tax-location-error-location-not-updated = Орналасқан жеріңізді жаңарту мүмкін болмады. Қайталап көріңіз.
 signin-form-continue-button = Жалғастыру
 signin-form-email-input = Эл. поштаны енгізіңіз
 signin-form-email-input-missing = Эл. поштаңызды енгізіңіз
