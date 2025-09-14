@@ -607,6 +607,8 @@ flow-recovery-key-info-cancel-link = Бас тарту
 
 ## FlowSetup2faApp
 
+flow-setup-2fa-cant-scan-qr-button = QR кодын сканерлеу мүмкін емес пе?
+flow-setup-2fa-manual-key-heading = Кодты қолмен енгізу
 flow-setup-2fa-scan-qr-instead-button = Оның орнына QR кодын сканерлеу керек пе?
 flow-setup-2fa-button = Жалғастыру
 
@@ -633,6 +635,14 @@ flow-setup-2fa-backup-code-dl-button-continue = Жалғастыру
 
 ##
 
+flow-setup-2fa-inline-complete-backup-phone = Қалпына келтіру телефоны
+# $count (Number) - an integer representing the number of backup
+# authentication codes remaining
+flow-setup-2fa-inline-complete-backup-code-info =
+    { $count ->
+        [one] { $count } код қалды
+       *[other] { $count } код қалды
+    }
 flow-setup-2fa-prompt-continue-button = Жалғастыру
 
 ## FlowSetupPhoneConfirmCode
@@ -687,6 +697,7 @@ modal-default-confirm-button = Растау
 
 ## ModalMfaProtected
 
+modal-mfa-protected-title = Растау кодын енгізіңіз
 modal-mfa-protected-input-label = 6-цифрлық кодты енгізіңіз
 modal-mfa-protected-cancel-button = Бас тарту
 modal-mfa-protected-confirm-button = Растау
@@ -1096,6 +1107,7 @@ tfa-row-enabled = Іске қосулы
 tfa-row-disabled-status = Сөндірілген
 tfa-row-action-add = Қосу
 tfa-row-action-disable = Сөндіру
+tfa-row-action-change = Өзгерту
 tfa-row-button-refresh =
     .title = Екі қадамды аутентификацияны жаңарту
 tfa-row-cannot-refresh =
@@ -1163,6 +1175,8 @@ auth-error-183-2 = Жарамсыз немесе мерзімі өткен ра�
 auth-error-202 = Мүмкіндік іске қосылмаған
 auth-error-203 = Жүйе бос емес, біраздан кейін қайталап көріңіз
 auth-error-206 = Парольді жасау мүмкін емес, пароль орнатылған болып тұр
+auth-error-214 = Қалпына келтіру телефон нөмірі бұрыннан бар
+auth-error-215 = Қалпына келтіру телефон нөмірі жоқ
 auth-error-999 = Күтпеген қате
 auth-error-1001 = Кіру талабынан бас тартылды
 auth-error-1002 = Сессия мерзімі бітті. Жалғастыру үшін кіріңіз.
@@ -1526,6 +1540,7 @@ password-reset-recovery-method-code = Сақтық аутентификация 
 
 ## ResetPasswordRecoveryPhone page
 
+reset-password-recovery-phone-flow-heading = Пароліңізді қалпына келтіру
 reset-password-recovery-phone-input-label = 6-цифрлық кодты енгізіңіз
 reset-password-recovery-phone-code-submit-button = Растау
 reset-password-recovery-phone-resend-code-button = Кодты қайта жіберу
@@ -1654,6 +1669,7 @@ signin-recovery-phone-send-code-error-heading = Кодты жіберу кезі
 signin-recovery-phone-code-verification-error-heading = Кодыңызды растау кезінде мәселе туындады
 # Follows the error message (e.g, "There was a problem sending a code")
 signin-recovery-phone-general-error-description = Кейінірек қайталап көріңіз.
+signin-recovery-phone-invalid-code-error-description = Код жарамсыз немесе мерзімі өтіп кеткен.
 
 ## Signin reported page: this page is shown when a user receives an email notifying them of a new account signin, and the user clicks a button indicating that the signin was not them so that we know it was someone trying to break into their account.
 
@@ -1723,6 +1739,7 @@ confirm-signup-code-heading-2 = Өзіңіздің <span>{ -product-mozilla-acco
 confirm-signup-code-input-label = 6-цифрлық кодты енгізіңіз
 # Form button to confirm if the confirmation code entered by the user is valid
 confirm-signup-code-confirm-button = Растау
+confirm-signup-code-sync-button = Синхрондауды бастау
 confirm-signup-code-code-expired = Кодтың мерзімі бітті ме?
 # Link to resend a new code to the user's email.
 confirm-signup-code-resend-code-link = Жаңа кодты эл. поштамен жіберу.
@@ -1733,6 +1750,7 @@ confirm-signup-code-is-required-error = Растау коды қажет
 ## Account Signup page
 ## This is the second page of the sign up flow, users have already entered their email
 
+signup-heading-v2 = Парольді жасау
 signup-relay-info = Маскамен жасырылған эл. пошталарды қауіпсіз басқару және { -brand-mozilla } қауіпсіздік құралдарына кіру үшін пароль керек.
 # This text is displayed in a dismissible info banner and is only displayed to Pocket clients
 signup-pocket-info-banner = Бұл тіркелгіні маған не үшін жасау керек?
@@ -1749,4 +1767,5 @@ signup-confirmed-sync-header = Синхрондау іске қосулы
 signup-confirmed-sync-success-banner = { -product-mozilla-account } расталған
 signup-confirmed-sync-button = Шолуды бастау
 signup-confirmed-sync-add-device-link = Басқа құрылғыны қосу
+signup-confirmed-sync-manage-sync-button = Синхрондауды басқару
 signup-confirmed-sync-set-password-success-banner = Синхрондау паролі жасалды

@@ -97,6 +97,7 @@ subscription-management-subscriptions-heading = Жазылулар
 subscription-management-your-subscriptions-aria = Сіздің жазылуларыңыз
 subscription-management-button-support = Көмек алу
 subscription-management-your-apple-iap-subscriptions-aria = Сіздің { -brand-apple } қолданбадағы жазылымдарыңыз
+subscription-management-google-in-app-purchase-1 = { -brand-google }: қолданбада сатып алу
 subscription-management-button-manage-subscription = Басқару
 
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
@@ -105,6 +106,7 @@ subscription-management-button-manage-subscription = Басқару
 subscription-management-page-subscription-interval-daily = { $productName } (күн сайын)
 subscription-management-page-subscription-interval-weekly = { $productName } (апта сайын)
 subscription-management-page-subscription-interval-monthly = { $productName } (ай сайын)
+subscription-management-page-subscription-interval-halfyearly = { $productName } (6 ай сайын)
 subscription-management-page-subscription-interval-yearly = { $productName } (жыл сайын)
 subscription-management-page-paypal-error-banner-link = Басқару
 paypal-payment-management-page-invalid-header = Төлем ақпараты жарамсыз
@@ -230,6 +232,13 @@ next-new-user-subscribe-product-updates-mdnplus = Мен { -product-mdn-plus } �
 next-new-user-subscribe-product-updates-mozilla = Мен { -brand-mozilla } өнім жаңалықтары мен жаңартуларын алғым келеді
 next-new-user-subscribe-product-updates-snp = Мен { -brand-mozilla } ұсынған қауіпсіздік пен жекелік жаңалықтары мен жаңартуларын алғым келеді
 next-new-user-subscribe-product-assurance = Біз эл. поштаңызды тек тіркелгіңізді жасау үшін пайдаланамыз. Біз оны ешқашан үшінші тарапқа сатпаймыз.
+
+## $name (String) - The name of the subscribed product.
+## $amount (Number) - The amount billed (excluding tax if tax does not exist). It will be formatted as currency.
+## $tax (Number) - The tax added on, not included in amount. It will be formatted as currency.
+## $endDate (Date) - The end date of the subscription period.
+
+resubscribe-success-dialog-title = Рахмет! Барлығы дайын.
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
