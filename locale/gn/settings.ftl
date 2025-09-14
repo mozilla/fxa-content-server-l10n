@@ -363,6 +363,7 @@ confirmation-link-reused-message = Ojeporúma pe joajuha ñemoneĩrãva ha pete�
 ## Locale Toggle Component
 
 locale-toggle-select-label = Eiporavo ñe’ẽ
+locale-toggle-browser-default = Kundahára ypyguáva
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Mba’ejerure ojavýva
 
@@ -673,6 +674,7 @@ flow-setup-2fa-backup-code-dl-button-continue = Ku’ejey
 ##
 
 flow-setup-2fa-inline-complete-success-banner = Ijurujáma mokõi jeku’épe ñemoneĩ
+flow-setup-2fa-inline-complete-backup-code = Ayvu ñemoneĩrã jeykekoha
 flow-setup-2fa-inline-complete-backup-phone = Pumbyry guerujeyrã
 flow-setup-2fa-prompt-continue-button = Ku’ejey
 
@@ -739,6 +741,7 @@ modal-default-confirm-button = Moneĩ
 
 modal-mfa-protected-cancel-button = Heja
 modal-mfa-protected-confirm-button = Moneĩ
+modal-mfa-protected-code-expired = ¿Hembýva ayvu?
 
 ## Modal Verify Session
 

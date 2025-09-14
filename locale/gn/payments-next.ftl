@@ -285,9 +285,12 @@ next-new-user-subscribe-product-assurance = Roiporu ne ñanduti veve romoheñói
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
+subscription-content-coupon-applied = { $promotionName } mboajepyre
 subscription-content-heading-cancel-subscription = Mboheraguapy jeheja
 subscription-content-button-stay-subscribed = Eime mboheguapýpe
     .aria-label = Eime mboheguapýpe { $productName }
+subscription-content-button-cancel-subscription = Ejheja mboheraguapy
+    .aria-label = Ejheja mboheraguapy { $productName }
 subscription-content-button-cancel = Heja
     .aria-label = Eipe’a ñemboheraguapy { $productName } pegua
 subscription-content-button-resubscribe = Eñemboheraguapyjey
@@ -298,6 +301,9 @@ subscription-content-button-resubscribe = Eñemboheraguapyjey
 ## $tax (Number) - The tax added on, not included in amount. It will be formatted as currency.
 ## $endDate (Date) - The end date of the subscription period.
 
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+resubscribe-dialog-action-button-resubscribe = Eñemboheraguapyjey
+    .aria-label = Eñemboheraguapyjey { $productName }-pe
 resubscribe-success-dialog-title = ¡Aguyjevete! Oĩmbaitéma.
 resubscribe-success-dialog-action-button-close = Mboty
     .aria-label = Ñomongeta mbotypyre
