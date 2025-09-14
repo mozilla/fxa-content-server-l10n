@@ -139,6 +139,7 @@ subscription-management-page-subscription-interval-weekly = { $productName } (ar
 subscription-management-page-subscription-interval-monthly = { $productName } (jasygua)
 subscription-management-page-subscription-interval-halfyearly = { $productName } (6-jasygua)
 subscription-management-page-subscription-interval-yearly = { $productName } (arygua)
+subscription-management-page-paypal-error-banner = Marandu jehepyme’ẽrã ndoikói; ojavy ne mba’ete. <div>Ñangareko</div>
 subscription-management-page-paypal-error-banner-link = Ñangareko
 paypal-payment-management-page-invalid-header = Marandu kuatiañemure oiko’ỹva
 # Page - Not Found
@@ -211,6 +212,14 @@ payments-client-loading-spinner =
     .aria-label = Henyhẽhína…
     .alt = Henyhẽhína…
 
+## Payment method management page - Stripe
+
+# Save button for changing which payment method will be used
+payment-method-management-save-default = Emboheko jehepyme’ẽrã ypyguárõ
+# Save button for saving a new payment method
+payment-method-management-save-method = Eñongatu mba’éichapa ehepyme’ẽta
+manage-stripe-payments-title = Eñangareko mba’éichapa ehepyme’ẽta
+
 ## Payment Section
 
 next-new-user-card-title = Emoinge marandu kuatia’atã rehegua
@@ -219,6 +228,8 @@ next-new-user-card-title = Emoinge marandu kuatia’atã rehegua
 
 next-plan-details-header = Apopyre mba’emimi
 next-plan-details-list-price = Tysýi repy
+# $productName (String) - The name of the product, e.g. Mozilla VPN
+plan-details-product-prorated-price = Hepykue mboja’opyre { $productName }-pe g̃uarã
 next-plan-details-tax = Impuesto ha tása
 next-plan-details-total-label = Opavavete
 # "Unused time" refers to the remaining value of the current subscription that hasn't been used yet
@@ -275,6 +286,8 @@ next-new-user-subscribe-product-assurance = Roiporu ne ñanduti veve romoheñói
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
 subscription-content-heading-cancel-subscription = Mboheraguapy jeheja
+subscription-content-button-stay-subscribed = Eime mboheguapýpe
+    .aria-label = Eime mboheguapýpe { $productName }
 subscription-content-button-cancel = Heja
     .aria-label = Eipe’a ñemboheraguapy { $productName } pegua
 subscription-content-button-resubscribe = Eñemboheraguapyjey
