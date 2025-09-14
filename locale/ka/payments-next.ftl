@@ -126,6 +126,11 @@ subscription-management-button-support-aria = დახმარების მ
 subscription-management-your-apple-iap-subscriptions-aria = თქვენი { -brand-apple } შიდა გამოწერებით
 subscription-management-apple-in-app-purchase-1 = { -brand-apple }: აპის შიდა შესყიდვა
 subscription-management-your-google-iap-subscriptions-aria = თქვენი { -brand-google } შიდა გამოწერებით
+subscription-management-google-in-app-purchase-1 = { -brand-google }: აპის შიდა შესყიდვა
+# $date (String) - Date of next bill
+subscription-management-iap-sub-next-bill-is-due = შემდეგი ანგარიშსწორების ვადაა <strong>{ $date }</strong>
+# $date (String) - Date of In-App purchase expires
+subscription-management-iap-sub-will-expire-on = თქვენი გამოწერის ვადაა <strong>{ $date }</strong>
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = გამოწერის მართვა – { $productName }
 subscription-management-button-manage-subscription = მართვა
@@ -285,6 +290,12 @@ next-new-user-subscribe-product-assurance = ჩვენ ვიყენებ�
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
+subscription-content-current-invoice-billed-on-with-tax = { $invoiceTotal } + { $taxDue } <span>ანგარიშსწორების თარიღია { $billedOnDate }</span>
+subscription-content-current-invoice-billed-on-no-tax = { $invoiceTotal } <span>ანგარიშსწორების თარიღია { $billedOnDate }</span>
+subscription-content-credit-issued-to-your-account = <strong>{ $creditApplied }</strong> დანარიცხია გაცემული თქვენს ანგარიშზე
+subscription-content-coupon-applied = { $promotionName } გამოყენებულია
+subscription-content-next-bill-excl-with-tax = მომდევნო ანგარიშსწორება <strong>{ $nextInvoiceTotal } + { $taxDue }</strong>, გარდა ფასდაკლებისა, იქნება თარიღით <strong>{ $nextBilDate }</strong>
+subscription-content-next-bill-excl-no-tax = მომდევნო ანგარიშსწორება <strong>{ $nextInvoiceTotal }</strong>, გარდა ფასდაკლებისა, იქნება თარიღით <strong>{ $nextBilDate }</strong>
 subscription-content-heading-cancel-subscription = გამოწერის გაუქმება
 subscription-content-no-longer-use-message = ვეღარ შეძლებთ გამოიყენოთ { $productName } თარიღიდან { $currentPeriodEnd }, ესაა საანგარიშო პერიოდის ბოლო დღე.
 subscription-content-cancel-access-message = გაუქმდეს წვდომა და დამახსოვრებული მონაცემები, მომსახურებისთვის { $productName } თარიღზე { $currentPeriodEnd }
