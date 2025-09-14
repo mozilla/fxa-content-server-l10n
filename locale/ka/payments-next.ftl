@@ -124,6 +124,7 @@ subscription-management-button-support = დახმარების მი�
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-support-aria = დახმარების მიღება – { $productName }
 subscription-management-your-apple-iap-subscriptions-aria = თქვენი { -brand-apple } შიდა გამოწერებით
+subscription-management-apple-in-app-purchase-1 = { -brand-apple }: აპის შიდა შესყიდვა
 subscription-management-your-google-iap-subscriptions-aria = თქვენი { -brand-google } შიდა გამოწერებით
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = გამოწერის მართვა – { $productName }
