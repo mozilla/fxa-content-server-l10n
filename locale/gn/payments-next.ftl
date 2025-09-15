@@ -139,7 +139,7 @@ subscription-management-page-subscription-interval-weekly = { $productName } (ar
 subscription-management-page-subscription-interval-monthly = { $productName } (jasygua)
 subscription-management-page-subscription-interval-halfyearly = { $productName } (6-jasygua)
 subscription-management-page-subscription-interval-yearly = { $productName } (arygua)
-subscription-management-page-paypal-error-banner = Marandu jehepyme’ẽrã ndoikói; ojavy ne mba’ete. <div>Ñangareko</div>
+subscription-management-page-paypal-error-banner = Marandu jehepyme’ẽrã ndoikói; ojavy ne mba’ete.
 subscription-management-page-paypal-error-banner-link = Ñangareko
 paypal-payment-management-page-invalid-header = Marandu kuatiañemure oiko’ỹva
 # Page - Not Found
