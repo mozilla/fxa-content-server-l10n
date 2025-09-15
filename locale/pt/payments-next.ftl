@@ -121,13 +121,13 @@ subscription-management-button-support = Obter ajuda
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-support-aria = Obter ajuda para { $productName }
 subscription-management-your-apple-iap-subscriptions-aria = As suas { -brand-apple } subscrições na aplicação
-subscription-management-apple-in-app-purchase = { -brand-apple }: Compra na aplicação
+subscription-management-apple-in-app-purchase-1 = { -brand-apple }: compra na aplicação
 subscription-management-your-google-iap-subscriptions-aria = As suas { -brand-google } subscrições na aplicação
-subscription-management-google-in-app-purchase = { -brand-google }: Compra na aplicação
+subscription-management-google-in-app-purchase-1 = { -brand-google }: compra na aplicação
 # $date (String) - Date of next bill
-subscription-management-iap-sub-next-bill = Próxima faturação em { $date }
+subscription-management-iap-sub-next-bill-is-due = Próxima fatura vence a <strong>{ $date }</strong>
 # $date (String) - Date of In-App purchase expires
-subscription-management-iap-sub-expires-on = Expira a { $date }
+subscription-management-iap-sub-will-expire-on = A sua subscrição irá expirar a <strong>{ $date }</strong>
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Gerir subscrição para { $productName }
 subscription-management-button-manage-subscription = Gerir
@@ -278,23 +278,21 @@ next-new-user-subscribe-product-updates-mozilla = Eu gostaria de receber notíci
 next-new-user-subscribe-product-updates-snp = Eu gostaria de receber notícias e atualizações sobre segurança e privacidade da { -brand-mozilla }
 next-new-user-subscribe-product-assurance = Nós apenas utilizamos o seu e-mail para criar a sua conta. Nós nunca iremos vendê-lo a terceiros.
 
-## Examples of coupon applied
-## 20% OFF coupon applied: $11.20 + $0.35 tax
-## Holiday Offer 2023 coupon applied: 6,42 €
-## Cybersecurity Awareness Month 2023 coupon applied: $11.20 + $0.35 tax
-## Summer Promo VPN coupon applied: $11.20
-## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., 08/21/2025 for US locale, 21/08/25 for FR locale)
+## $billOnDate (Date) - The billing date of the current invoice (e.g., September 8, 2025)
+## $creditApplied (Number) - The amount from account credit balance used to reduce the amount due on the invoice
+## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
 ## $invoiceTotal (Number) - The amount billed (excluding tax if tax does not exist). It will be formatted as currency.
-## $nextBillDate (Date) - The date for the next time a charge will occur (e.g., 08/21/2025 for US locale, 21/08/25 for FR locale)
+## $nextBillDate (Date) - The date for the next time a charge will occur (e.g., September 8, 2025)
 ## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
-subscription-content-promotion-applied-no-tax = { $promotionName } cupões aplicados: { $invoiceTotal }
-subscription-content-promotion-applied-with-tax = { $promotionName } cupões aplicados: { $invoiceTotal } + { $taxDue } impostos
-subscription-content-current-with-tax = { $invoiceTotal } + { $taxDue } impostos
-subscription-content-next-bill-no-tax = A próxima fatura de { $invoiceTotal } vence a { $nextBillDate }
-subscription-content-next-bill-with-tax = Próxima fatura de { $invoiceTotal } + { $taxDue } impostos são devidos a { $nextBillDate }
+subscription-content-current-invoice-billed-on-with-tax = { $invoiceTotal } + { $taxDue } <span>cobrado a { $billedOnDate }</span>
+subscription-content-current-invoice-billed-on-no-tax = { $invoiceTotal } <span>cobrado a { $billedOnDate }</span>
+subscription-content-credit-issued-to-your-account = <strong>{ $creditApplied }</strong> crédito emitido para a sua conta
+subscription-content-coupon-applied = { $promotionName } aplicados
+subscription-content-next-bill-excl-with-tax = A próxima fatura de <strong>{ $nextInvoiceTotal } + { $taxDue }</strong>, excluindo desconto, vence a <strong>{ $nextBillDate }</strong>
+subscription-content-next-bill-excl-no-tax = A próxima fatura de <strong>{ $nextInvoiceTotal }</strong>, excluindo desconto, vence a <strong>{ $nextBillDate }</strong>
 subscription-content-heading-cancel-subscription = Cancelar subscrição
 subscription-content-no-longer-use-message = Deixará de poder utilizar { $productName } depois de { $currentPeriodEnd }, o último dia do seu ciclo de faturação.
 subscription-content-cancel-access-message = Cancelar o meu acesso e a minha informação guardada em { $productName } em { $currentPeriodEnd }
