@@ -1684,6 +1684,9 @@ signin-recovery-code-use-phone-failure-description = ਬਾਅਦ ਵਿੱਚ �
 ## SigninRecoveryPhone page
 
 signin-recovery-phone-flow-heading = ਸਾਈਨ ਇਨ
+# A recovery code in context of this page is a one time code sent to the user's phone
+signin-recovery-phone-heading = ਰਿਕਵਰੀ ਕੋਡ ਭਰੋ
+signin-recovery-phone-input-label = 6-ਅੰਕ ਦਾ ਕੋਡ ਦਿਓ
 signin-recovery-phone-code-submit-button = ਤਸਦੀਕ
 signin-recovery-phone-resend-code-button = ਕੋਡ ਮੁੜ ਕੇ ਭੇਜੋ
 signin-recovery-phone-resend-success = ਕੋਡ ਭੇਜਿਆ

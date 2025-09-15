@@ -18,6 +18,14 @@ upgrade-page-payment-information = ਭੁਗਤਾਨ ਦੀ ਜਾਣਕਾਰ�
 
 checkout-error-boundary-retry-button = ਫੇਰ ਕੋਸ਼ਿਸ਼ ਕਰੋ
 amex-logo-alt-text = { -brand-amex } ਲੋਗੋ
+diners-logo-alt-text = { -brand-diner } ਲੋਗੋ
+discover-logo-alt-text = { -brand-discover } ਲੋਗੋ
+jcb-logo-alt-text = { -brand-jcb } ਲੋਗੋ
+mastercard-logo-alt-text = { -brand-mastercard } ਲੋਗੋ
+visa-logo-alt-text = { -brand-visa } ਲੋਗੋ
+link-logo-alt-text = { -brand-link } ਲੋਗੋ
+apple-pay-logo-alt-text = { -brand-apple-pay } ਲੋਗੋ
+google-pay-logo-alt-text = { -brand-google-pay } ਲੋਗੋ
 
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -26,6 +34,10 @@ next-payment-error-manage-subscription-button = ਮੇਰੀ ਮੈਂਬਰੀ 
 next-payment-error-retry-button = ਮੁੜ ਕੋਸ਼ਿਸ਼ ਕਰੋ
 next-basic-error-message = ਕੁਝ ਗਲਤ ਵਾਪਰਿਆ ਹੈ। ਬਾਅਦ ਵਿੱਚ ਮੁੜ ਕੋਸ਼ਿਸ਼ ਕਰੋ।
 checkout-error-contact-support-button = ਸਹਿਯੋਗ ਲਈ ਸੰਪਰਕ ਕਰੋ
+
+## Error pages - Payment method failure messages
+
+intent-expired-card-error = ਤੁਹਾਡੇ ਕਰੈਡਿਟ ਕਾਰਡ ਦੀ ਮਿਆਦ ਪੁੱਗ ਚੁੱਕੀ ਹੈ। ਹੋਰ ਕਾਰਡ ਵਰਤ ਕੇ ਵੇਖੋ।
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -54,6 +66,50 @@ next-payment-confirmation-download-button = ਡਾਉਨਲੋਡ ਕਰਨਾ �
 # $last4 (Number) - Last four numbers of credit card
 next-payment-confirmation-cc-card-ending-in = ਆਖਰੀ ਨੰਬਰ { $last4 } ਵਾਲਾ ਕਾਰਡ
 
+## Page - Subscription Management
+
+subscription-management-payment-information-heading = ਭੁਗਤਾਨ ਦੀ ਜਾਣਕਾਰੀ
+subscription-management-button-add-payment-method-aria = ਭੁਗਤਾਨ ਢੰਗ ਨੂੰ ਜੋੜੋ
+subscription-management-button-add-payment-method = ਜੋੜੋ
+subscription-management-button-change-payment-method-aria = ਭੁਗਤਾਨ ਢੰਗ ਨੂੰ ਬਦਲੋ
+subscription-management-button-change-payment-method = ਬਦਲੋ
+subscription-management-button-manage-payment-method-aria = ਭੁਗਤਾਨ ਢੰਗਾਂ ਦਾ ਇੰਤਜ਼ਾਮ
+subscription-management-button-manage-payment-method = ਬੰਦੋਬਸਤ
+# $last4 (String) - Last four numbers of credit card
+subscription-management-card-ending-in = ਆਖਰੀ ਨੰਬਰ { $last4 } ਵਾਲਾ ਕਾਰਡ
+# $expirationDate (Date) - Payment card's expiration date
+subscription-management-card-expires-date = ਮਿਆਦ { $expirationDate }
+subscription-management-subscriptions-heading = ਮੈਂਬਰੀਆਂ
+subscription-management-your-subscriptions-aria = ਤੁਹਾਡੀਆਂ ਮੈਂਬਰੀਆਂ
+subscription-management-button-support = ਮਦਦ ਲਵੋ
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscription-management-button-support-aria = { $productName } ਲਈ ਮਦਦ ਲਵੋ
+subscription-management-apple-in-app-purchase-1 = { -brand-apple }: ਐਪ-ਵਿੱਚ ਖਰੀਦੋ
+subscription-management-google-in-app-purchase-1 = { -brand-google }: ਐਪ-ਵਿੱਚ ਖਰੀਦੋ
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+subscription-management-button-manage-subscription-aria = { $productName } ਲਈ ਮੈਂਬਰੀ ਦਾ ਇੰਤਜ਼ਾਮ ਕਰੋ
+subscription-management-button-manage-subscription = ਬੰਦੋਬਸਤ
+
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+## Daily/Weekly/Monthly/Yearly refers to the subscription interval/amount of time between billing occurrences
+
+subscription-management-page-subscription-interval-daily = { $productName } (ਰੋਜ਼ਾਨਾ)
+subscription-management-page-subscription-interval-weekly = { $productName } (ਹਫ਼ਤੇਵਾਰ)
+subscription-management-page-subscription-interval-monthly = { $productName } (ਮਹੀਨੇਵਾਰ)
+subscription-management-page-subscription-interval-halfyearly = { $productName } (6-ਮਹੀਨੇ)
+subscription-management-page-subscription-interval-yearly = { $productName } (ਸਾਲਾਨਾ)
+subscription-management-page-paypal-error-banner-link = ਬੰਦੋਬਸਤ
+# Page - Not Found
+page-not-found-title = ਸਫਾ ਨਹੀ ਲੱਭਾ
+page-not-found-back-button = ਪਿੱਛੇ ਜਾਓ
+
+## Navigation breadcrumbs
+
+# Link title - Payment method management
+subscription-management-breadcrumb-payment = ਭੁਗਤਾਨ ਦੇ ਢੰਗ
+# $page refers to page titles used in the breadcrumb menu (e.g. Account Home, Subscriptions, Payment Methods)
+subscription-management-breadcrumb-back-aria = { $page } ਉੱਤੇ ਵਾਪਸ ਜਾਓ
+
 ## Component - Payment Consent Checkbox
 
 next-payment-confirm-checkbox-error = ਅੱਗੇ ਜਾਣ ਤੋਂ ਪਹਿਲਾਂ ਤੁਹਾਨੂੰ ਇਹ ਪੂਰਾ ਕਰਨ ਦੀ ਲੋੜ ਹੈ
@@ -80,6 +136,16 @@ next-coupon-submit = ਲਾਗੂ ਕਰੋ
 
 # Component - Header
 
+payments-header-help =
+    .title = ਮਦਦ
+    .aria-label = ਮਦਦ
+    .alt = ਮਦਦ
+payments-header-bento =
+    .title = { -brand-mozilla } ਉਤਪਾਦ
+    .aria-label = { -brand-mozilla } ਉਤਪਾਦ
+    .alt = { -brand-mozilla } ਲੋਗੋ
+payments-header-bento-close =
+    .alt = ਬੰਦ ਕਰੋ
 payments-client-loading-spinner =
     .aria-label = …ਲੋਡ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ
     .alt = …ਲੋਡ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ
@@ -94,6 +160,10 @@ next-plan-details-header = ਉਤਪਾਦ ਦੇ ਵੇਰਵੇ
 next-plan-details-list-price = ਭਾਅ ਸੂਚੀ
 next-plan-details-tax = ਟੈਕਸ ਅਤੇ ਫ਼ੀਸਾਂ
 next-plan-details-total-label = ਕੁੱਲ ਜੋੜ
+# "Credit applied" refers to account credit used to reduce the amount due on the invoice
+purchase-details-credit-applied-label = ਕਰੈਡਿਟ ਲਾਗੂ ਕੀਤਾ
+# "Total due" is the total that the customer owes after all credits, discounts, and taxes have been applied
+purchase-details-total-due-label = ਕੁੱਲ ਦੇਣਦਾਰੀ
 next-plan-details-hide-button = ਵੇਰਵੇ ਲੁਕਾਓ
 next-plan-details-show-button = ਵੇਰਵੇ ਦਿਖਾਓ
 
@@ -123,12 +193,50 @@ next-new-user-subscribe-product-updates-mozilla = ਮੈਂ { -brand-mozilla } �
 next-new-user-subscribe-product-updates-snp = ਮੈਂ { -brand-mozilla } ਤੋਂ ਸੁਰੱਖਿਆ ਅਤੇ ਪਰਦੇਦਾਰੀ ਖ਼ਬਰਾਂ ਅਤੇ ਅੱਪਡੇਟ ਲੈਣਾ ਚਾਹੁੰਦਾ/ਚਾਹੁੰਦੀ ਹਾਂ
 next-new-user-subscribe-product-assurance = ਅਸੀਂ ਤੁਹਾਡੇ ਈਮੇਲ ਨੂੰ ਸਿਰਫ ਤੁਹਾਡਾ ਖਾਤਾ ਬਣਾਉਣ ਲਈ ਹੀ ਵਰਤਦੇ ਹਾਂ। ਅਸੀਂ ਕਦੇ ਵੀ ਇਸ ਨੂੰ ਤੀਜੀ ਧਿਰ ਨੂੰ ਨਹੀਂ ਵੇਚਾਂਗੇ।
 
+## $billOnDate (Date) - The billing date of the current invoice (e.g., September 8, 2025)
+## $creditApplied (Number) - The amount from account credit balance used to reduce the amount due on the invoice
+## $currentPeriodEnd (Date) - The end date of the subscription's current billing period (e.g., September, 8, 2025)
+## $invoiceTotal (Number) - The amount billed (excluding tax if tax does not exist). It will be formatted as currency.
+## $nextBillDate (Date) - The date for the next time a charge will occur (e.g., September 8, 2025)
+## $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+## $promotionName (String) - The name of the promotion.
+## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
+
+subscription-content-coupon-applied = { $promotionName } ਨੂੰ ਲਾਗੂ ਕੀਤਾ
+subscription-content-heading-cancel-subscription = ਮੈਂਬਰੀ ਨੂੰ ਰੱਦ ਕਰੋ
+subscription-content-button-stay-subscribed = ਮੈਂਬਰ ਬਣੇ ਰਹੋ
+    .aria-label = { $productName } ਲਈ ਮੈਂਬਰ ਬਣੇ ਰਹੋ
+subscription-content-button-cancel-subscription = ਮੈਂਬਰੀ ਰੱਦ ਕਰੋ
+    .aria-label = { $productName } ਲਈ ਆਪਣੀ ਮੈਂਬਰੀ ਰੱਦ ਕਰੋ
+subscription-content-button-cancel = ਰੱਦ ਕਰੋ
+    .aria-label = { $productName } ਲਈ ਆਪਣੀ ਮੈਂਬਰੀ ਰੱਦ ਕਰੋ
+subscription-cancellation-dialog-title = ਸਾਨੂੰ ਅਫਸੋਸ ਹੈ ਕਿ ਤੁਸੀਂ ਛੱਡ ਰਹੇ ਹੋ
+subscription-content-button-resubscribe = ਮੁੜ-ਮੈਂਬਰ ਬਣੋ
+    .aria-label = { $productName } ਲਈ ਮੁੜ-ਮੈਂਬਰ ਬਣੋ
+
+## $name (String) - The name of the subscribed product.
+## $amount (Number) - The amount billed (excluding tax if tax does not exist). It will be formatted as currency.
+## $tax (Number) - The tax added on, not included in amount. It will be formatted as currency.
+## $endDate (Date) - The end date of the subscription period.
+
+# $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
+resubscribe-dialog-action-button-resubscribe = ਮੁੜ-ਮੈਂਬਰ ਬਣੋ
+    .aria-label = { $productName } ਲਈ ਮੁੜ-ਮੈਂਬਰ ਬਣੋ
+resubscribe-success-dialog-title = ਧੰਨਵਾਦ! ਤੁਸੀਂ ਸਭ ਕਰ ਲਿਆ ਹੈ।
+resubscribe-success-dialog-action-button-close = ਬੰਦ ਕਰੋ
+    .aria-label = ਡਾਈਲਾਗ ਨੂੰ ਬੰਦ ਕਰੋ
+
+##
+
+dialog-close = ਡਾਈਲਾਗ ਨੂੰ ਬੰਦ ਕਰੋ
+
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
 
 plan-price-interval-daily = { $amount } ਰੋਜ਼ਾਨਾ
 plan-price-interval-weekly = { $amount } ਹਫ਼ਤਾਵਰ
 plan-price-interval-monthly = { $amount } ਮਹੀਨੇਵਾਰ
+plan-price-interval-halfyearly = { $amount } ਹਰ 6 ਮਹੀਨੇ ਬਾਅਦ
 plan-price-interval-yearly = { $amount } ਸਾਲਨਾ
 
 ## Component - SubscriptionTitle
@@ -137,6 +245,7 @@ next-subscription-create-title = ਆਪਣੀ ਮੈਂਬਰੀ ਸੈਟਅੱ
 next-subscription-success-title = ਮੈਂਬਰੀ ਦੀ ਤਸਦੀਕ
 next-subscription-processing-title = ਮੈਂਬਰੀ ਤਸਦੀਕ ਕੀਤੀ ਜਾ ਰਹੀ ਹੈ…
 next-subscription-error-title = ਮੈਂਬਰੀ ਤਸਦੀ ਕਰਨ ਦੌਰਾਨ ਗ਼ਲਤੀ…
+subscription-title-plan-change-heading = ਆਪਣੀਆਂ ਤਬਦੀਲੀਆਂ ਦੀ ਪੜਤਾਲ ਕਰੋ
 next-sub-guarantee = 30-ਦਿਨ ਦੀ ਰਕਮ ਵਾਪਸੀ ਗਾਰੰਟੀ
 
 ## Component - TermsAndPrivacy
@@ -147,3 +256,12 @@ next-subplat-mozilla-accounts-legal-heading = { -product-mozilla-accounts(capita
 next-terms = ਸੇਵਾ ਦੀਆਂ ਸ਼ਰਤਾਂ
 next-privacy = ਪਰਦੇਦਾਰੀ ਸੂਚਨਾ
 next-terms-download = ਡਾਊਨਲੋਡ ਕਰਨ ਦੀਆਂ ਸ਼ਰਤਾਂ
+terms-and-privacy-stripe-label = { -brand-mozilla } ਸੁਰੱਖਿਅਤ ਭੁਗਤਾਨ ਕਾਰਵਾਈ ਲਈ { -brand-name-stripe } ਨੂੰ ਵਰਤਦਾ ਹੈ।
+terms-and-privacy-stripe-link = { -brand-name-stripe } ਪਰਦੇਦਾਰੀ ਨੀਤੀ
+terms-and-privacy-paypal-link = { -brand-paypal } ਪਰਦੇਦਾਰੀ ਨੀਤੀ
+
+## Component - UpdatedPurchaseDetails
+
+upgrade-purchase-details-current-plan-label = ਮੌਜੂਦਾ ਪਲਾਨ
+upgrade-purchase-details-new-plan-label = ਨਵਾਂ ਪਲਾਨ
+upgrade-purchase-details-promo-code = ਪਰਚਾਰ ਕੋਡ
