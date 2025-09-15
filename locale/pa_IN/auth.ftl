@@ -243,6 +243,22 @@ device-all = { $uaOS } { $uaOSVersion } ਉੱਤੇ { $uaBrowser }
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 device-browser-os = { $uaOS } ਉੱਤੇ { $uaBrowser }
+# Variables:
+#  $city (String) - User's city
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-all = { $city }, { $stateCode }, { $country } (ਅੰਦਾਜ਼ਾ)
+# Variables:
+#  $city (String) - User's city
+#  $country (String) - User's country
+location-city-country = { $city }, { $country } (ਅੰਦਾਜ਼ਾ)
+# Variables:
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-state-country = { $stateCode }, { $country } (ਅੰਦਾਜ਼ਾ)
+# Variables:
+#  $country (stateCode) - User's country
+location-country = { $country } (ਅੰਦਾਜ਼)
 view-invoice = <a data-l10n-name="invoiceLink">ਆਪਣਾ ਇਨਵਾਇਸ ਵੇਖੋ</a>।
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
@@ -328,6 +344,8 @@ passwordChanged-subject = ਪਾਸਵਰਡ ਅੱਪਡੇਟ ਕੀਤਾ ਗ
 passwordChanged-title = ਪਾਸਵਰਡ ਕਾਮਯਾਬੀ ਨਾਲ ਬਦਲਿਆ
 passwordChanged-description-2 = ਤੁਹਾਡਾ{ -product-mozilla-account } ਪਾਸਵਰਡ ਹੇਠ ਦਿੱਤੇ ਡਿਵਾਈਸ ਤੋਂ ਕਾਮਯਾਬੀ ਨਾਲ ਬਦਲਿਆ ਗਿਆ:
 passwordChangeRequired-subject = ਸ਼ੱਕੀ ਸਰਗਰਮੀ ਖੋਜੀ ਗਈ ਹੈ
+passwordChangeRequired-preview = ਆਪਣੇ ਪਾਸਵਰਡ ਨੂੰ ਫੌਰਨ ਬਦਲੋ
+passwordChangeRequired-title-2 = ਆਪਣੇ ਪਾਸਵਰਡ ਨੂੰ ਬਦਲੋ
 passwordChangeRequired-action = ਪਾਸਵਰਡ ਨੂੰ ਮੁੜ-ਸੈੱਟ
 passwordChangeRequired-action-plaintext = { passwordChangeRequired-action }
 password-forgot-otp-subject = ਆਪਣਾ ਪਾਸਵਰਡ ਭੁੱਲ ਗਏ ਹੋ?
@@ -528,6 +546,7 @@ subscriptionFirstInvoice-content-auto-renew = ਜਦ ਤੱਕ ਤੁਸੀਂ �
 # Variables:
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 subscriptionFirstInvoice-content-next-invoice = ਅਗਲਾ ਭੁਗਤਾਨ: { $nextInvoiceDateOnly }
+subscriptionPaymentExpired-title-2 = ਤੁਹਾਡੇ ਭੁਗਤਾਨ ਢੰਗ ਦੀ ਮਿਆਦ ਪੁੱਗੀ ਜਾਂ ਛੇਤੀ ਹੀ ਪੁੱਗਣ ਵਾਲੀ ਹੈ
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = { $productName } ਭੁਗਤਾਨ ਅਸਫ਼ਲ ਹੋਇਆ
@@ -612,6 +631,18 @@ verify-title-3 = { -brand-mozilla } ਨਾਲ ਇੰਟਰਨੈੱਟ ਖੋਲ
 verify-description-2 = ਆਪਣੇ ਖਾਤੇ ਨੂੰ ਤਸਦੀਕ ਕਰੋ ਅਤੇ ਹਰੇਕ ਥਾਂ ਉੱਤੇ ਸਾਇਨ ਇਨ ਕਰਨ ਲਈ { -brand-mozilla } ਤੋਂ ਵੱਧ ਤੋਂ ਵੱਧ ਫਾਇਦਾ ਲਵੋ।
 verify-subject = ਆਪਣਾ ਖਾਤਾ ਬਣਾਉਣਾ ਮੁਕੰਮਲ ਕਰੋ
 verify-action-2 = ਖਾਤੇ ਦੀ ਤਸਦੀਕ
+# Variables:
+# $code (String) - The verification code
+verifyAccountChange-subject = ਆਪਣੇ ਖਾਤੇ ਨੂੰ ਬਦਲਣ ਲਈ { $code } ਕੋਡ ਨੂੰ ਵਰਤੋਂ
+# Variables:
+# $expirationTime (Number) - Represents the expiration time in minutes
+verifyAccountChange-preview =
+    { $expirationTime ->
+        [one] ਇਹ ਕੋਡ ਦੀ ਮਿਆਦ { $expirationTime } ਮਿੰਟ ਵਿੱਚ ਪੁੱਗ ਜਾਵੇਗੀ।
+       *[other] ਇਹ ਕੋਡ ਦੀ ਮਿਆਦ { $expirationTime } ਮਿੰਟਾਂ ਵਿੱਚ ਪੁੱਗ ਜਾਵੇਗੀ।
+    }
+verifyAccountChange-title = ਕੀ ਤੁਸੀਂ ਆਪਣੇ ਖਾਤੇ ਦੀ ਜਾਣਕਾਰੀ ਨੂੰ ਬਦਲਣ ਜਾ ਰਹੇ ਹੋ?
+verifyAccountChange-prompt = ਜੇ ਹਾਂ ਤਾਂ ਇਹ ਤੁਹਾਡਾ ਪਰਮਾਣੀਕਰਨ ਕੋਡ ਹੈ:
 # Variables:
 #  $clientName (String) - A client the user hasn't signed into before (e.g. Firefox, Sync)
 verifyLogin-title-2 = ਕੀ ਤੁਸੀਂ { $clientName } ਵਿੱਚ ਸਾਈਨ ਇਨ ਕੀਤਾ ਸੀ?

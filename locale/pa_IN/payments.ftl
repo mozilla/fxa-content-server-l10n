@@ -324,9 +324,6 @@ product-customer-error =
 product-plan-not-found = ਪਲਾਨ ਨਹੀਂ ਲੱਭਿਆ
 product-location-unsupported-error = ਟਿਕਾਣਾ ਸਹਾਇਕ ਨਹੀਂ ਹੈ
 
-## Hooks - coupons
-
-
 ## Routes - Checkout - New user
 
 new-user-step-1-2 = 1. { -product-mozilla-account } ਬਣਾਓ
@@ -376,10 +373,6 @@ sub-update-new-plan-yearly = { $productName } (ਸਾਲਾਨਾ)
 sub-item-cancel-sub = ਮੈਂਬਰੀ ਰੱਦ ਕਰੋ
 sub-item-stay-sub = ਮੈਂਬਰ ਬਣੇ ਰਹੋ
 
-## $name (String) - The name of the subscribed product.
-## $period (Date) - The last day of product access
-
-
 ## Routes - Subscription
 
 sub-route-idx-reactivating = ਮੈਂਬਰ ਨੂੰ ਮੁੜ-ਐਕਟੀਵੇਟ ਕਰਨਾ ਅਸਫ਼ਲ ਹੈ
@@ -391,7 +384,10 @@ sub-route-idx-cancel-msg-title = ਸਾਨੂੰ ਅਫਸੋਸ ਹੈ ਕਿ �
 
 sub-customer-error =
     .title = ਗਾਹਕ ਨੂੰ ਲੋਡ ਕਰਨ ਵਿੱਚ ਸਮੱਸਿਆ
+sub-invoice-error =
+    .title = ਇਨਵਾਇਸ ਲੋਡ ਕਰਨ ਵਿੱਚ ਸਮੱਸਿਆ
 sub-billing-update-success = ਤੁਹਾਡੀ ਬਿੱਲ ਸਬੰਧੀ ਜਾਣਕਾਰੀ ਨੂੰ ਕਾਮਯਾਬੀ ਨਾਲ ਅੱਪਡੇਟ ਕੀਤਾ
+sub-invoice-previews-error-title = ਇਨਵਾਈਸ ਝਲਕ ਲੋਡ ਕਰਨ ਦੌਰਾਨ ਸਮੱਸਿਆ
 
 ## Routes - Subscription - ActionButton
 

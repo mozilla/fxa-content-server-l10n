@@ -1,6 +1,8 @@
 ## Page
 
 checkout-signin-or-create = 1. { -product-mozilla-account } ਨਾਲ ਸਾਈਨ ਇਨ ਕਰੋ ਜਾਂ ਬਣਾਓ
+# This string appears as a separation between the two sign-in options, "Enter your email"(signin-form-email-input) "or"(this string) "Continue with Google"(continue-signin-with-google-button) / "Continue with Apple"(continue-signin-with-apple-button)
+checkout-signin-options-or = ਜਾਂ
 continue-signin-with-google-button = { -brand-google } ਨਾਲ ਜਾਰੀ ਰੱਖੋ
 continue-signin-with-apple-button = { -brand-apple } ਨਾਲ ਜਾਰੀ ਰੱਖੋ
 next-payment-method-header = ਆਪਣਾ ਭੁਗਤਾਨ ਢੰਗ ਚੁਣੋ
@@ -8,9 +10,14 @@ next-payment-method-header = ਆਪਣਾ ਭੁਗਤਾਨ ਢੰਗ ਚੁਣ
 payment-method-header-second-step-next = 2. { next-payment-method-header }
 next-payment-method-first-approve = ਪਹਿਲਾਂ ਤੁਹਾਨੂੰ ਆਪਣੀ ਮੈਂਬਰੀ ਨੂੰ ਮਨਜ਼ੂਰ ਕਰਨ ਦੀ ਲੋੜ ਹੈ
 
+## Page - Upgrade page
+
+upgrade-page-payment-information = ਭੁਗਤਾਨ ਦੀ ਜਾਣਕਾਰੀ
+
 ## Authentication Error page
 
 checkout-error-boundary-retry-button = ਫੇਰ ਕੋਸ਼ਿਸ਼ ਕਰੋ
+amex-logo-alt-text = { -brand-amex } ਲੋਗੋ
 
 ## Error pages - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -18,6 +25,7 @@ checkout-error-boundary-retry-button = ਫੇਰ ਕੋਸ਼ਿਸ਼ ਕਰੋ
 next-payment-error-manage-subscription-button = ਮੇਰੀ ਮੈਂਬਰੀ ਦਾ ਇੰਤਜ਼ਾਮ ਕਰੋ
 next-payment-error-retry-button = ਮੁੜ ਕੋਸ਼ਿਸ਼ ਕਰੋ
 next-basic-error-message = ਕੁਝ ਗਲਤ ਵਾਪਰਿਆ ਹੈ। ਬਾਅਦ ਵਿੱਚ ਮੁੜ ਕੋਸ਼ਿਸ਼ ਕਰੋ।
+checkout-error-contact-support-button = ਸਹਿਯੋਗ ਲਈ ਸੰਪਰਕ ਕਰੋ
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
