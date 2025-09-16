@@ -365,6 +365,7 @@ confirmation-link-reused-message = დადასტურების ბმ�
 ## Locale Toggle Component
 
 locale-toggle-select-label = ენის არჩევა
+locale-toggle-browser-default = ბრაუზერის ნაგულისხმევი
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = გაუმართავი მოთხოვნა
 
@@ -1271,6 +1272,9 @@ terms-privacy-agreement-default-2 = თუ განაგრძობთ, ა�
 # Firefox account login appears on top, and third party options appear on bottom.
 # This string appears as a separation between the two, in the following order: "Enter your password" "Or"(this string) (continue-with-google-button with aria equivalent text) / (continue-with-apple-button with aria equivalent text)
 third-party-auth-options-or = ან
+# For the sign-in page, when 3rd-party auth is the only option, this string appears with a divider line between the user's avatar on top and 3rd-party authentication buttons (continue-with-google continue-with-apple buttons) on bottom.
+# This could also be translated as "Sign in with the following" or "Sign in with the below".
+third-party-auth-options-sign-in-with = შესვლისთვის
 continue-with-google-button = გამოიყენეთ { -brand-google }, რომ განაგრძოთ
 continue-with-apple-button = გამოიყენეთ { -brand-apple }, რომ განაგრძოთ
 
