@@ -1234,15 +1234,15 @@ msgstr "Anulează configurarea"
 
 #: .es5/templates/inline_recovery_setup.mustache:12
 msgid "Confirm backup authentication code"
-msgstr ""
+msgstr "Confirmă codul de autentificare de rezervă"
 
 #: .es5/templates/inline_recovery_setup.mustache:14
 msgid "To ensure that you will be able to regain access to your account, in the event of a lost device, please enter one of your saved backup authentication codes."
-msgstr ""
+msgstr "Pentru asigurarea că vei putea redobândi accesul la cont, în cazul pierderii unui dispozitiv, introdu unul dintre codurile de autentificare de rezervă salvate."
 
 #: .es5/templates/inline_recovery_setup.mustache:15
 msgid "Backup authentication code"
-msgstr ""
+msgstr "Cod de autentificare de rezervă"
 
 #: .es5/templates/inline_totp_setup.mustache:1
 msgid "Enable two-step authentication"
@@ -1332,7 +1332,7 @@ msgstr "Succes"
 
 #: .es5/templates/ready.mustache:4
 msgid "You are now ready to use <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
-msgstr ""
+msgstr "Acum ești gata să folosești <div class=\"graphic %(serviceLogo)s\">%(serviceName)s</div>"
 
 #: .es5/templates/ready.mustache:10 .es5/templates/ready.mustache:16
 msgid "Continue to my account"
@@ -1344,7 +1344,7 @@ msgstr "Contul tău este gata!"
 
 #: .es5/templates/ready.mustache:15
 msgid "Generate a new account recovery key"
-msgstr ""
+msgstr "Generează o cheie nouă de recuperare a contului"
 
 #: .es5/templates/report_sign_in.mustache:4
 msgid "Report unauthorized sign-in?"
@@ -1367,6 +1367,8 @@ msgid ""
 "<span>NOTE:</span> When you reset your password, you reset your account. You may lose some of your personal information (including history, bookmarks, and passwords). That’s because we encrypt your "
 "data with your password to protect your privacy. You’ll still keep any subscriptions you may have and Pocket data will not be affected."
 msgstr ""
+"<span>NOTĂ:</span> Când îți resetezi parola, resetezi și contul. Poți pierde o parte din informațiile personale (inclusiv istoric, marcaje și parole) deoarece îți criptăm datele cu parola pentru "
+"a-ți proteja confidențialitatea. Vei avea în continuare orice abonamente existente, iar datele din Pocket nu vor fi afectate."
 
 #: .es5/templates/reset_password.mustache:5 .es5/templates/partial/email-autocomplete-domains.mustache:1
 msgid "Email"
@@ -1390,7 +1392,7 @@ msgstr "Numele evenimentului"
 
 #: .es5/templates/security_events.mustache:4
 msgid "Confirmed"
-msgstr ""
+msgstr "Confirmat"
 
 #: .es5/templates/security_events.mustache:5
 msgid "Created At"
@@ -1422,7 +1424,7 @@ msgstr "Nu mai deții acel e-mail? Creează un cont nou"
 
 #: .es5/templates/sign_in_recovery_code.mustache:1
 msgid "Enter backup authentication code"
-msgstr ""
+msgstr "Introdu codul de autentificare de rezervă"
 
 #: .es5/templates/sign_in_recovery_code.mustache:3
 msgid "Please enter a backup authentication code that was provided to you during two step authentication setup."
