@@ -52,7 +52,7 @@
 -brand-discover = Discover
 -brand-jcb = JCB
 # Link payment processor (by Stripe)
--brand-link = 連結
+-brand-link = Link
 -brand-mastercard = Mastercard
 -brand-unionpay = 銀聯
 -brand-visa = Visa

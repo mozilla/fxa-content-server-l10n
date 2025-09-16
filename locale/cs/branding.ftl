@@ -338,7 +338,7 @@
 -brand-discover = Discover
 -brand-jcb = JCB
 # Link payment processor (by Stripe)
--brand-link = Odkaz
+-brand-link = Link
 -brand-mastercard = Mastercard
 -brand-unionpay = UnionPay
 -brand-visa = Visa

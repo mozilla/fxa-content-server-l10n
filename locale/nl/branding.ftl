@@ -52,7 +52,7 @@
 -brand-discover = Discover
 -brand-jcb = JCB
 # Link payment processor (by Stripe)
--brand-link = Koppeling
+-brand-link = Link
 -brand-mastercard = MasterCard
 -brand-unionpay = UnionPay
 -brand-visa = Visa
