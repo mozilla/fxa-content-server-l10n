@@ -121,7 +121,13 @@ subscription-management-button-support = Get help
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-support-aria = Get help for { $productName }
 subscription-management-your-apple-iap-subscriptions-aria = Your { -brand-apple } In-App Subscriptions
+subscription-management-apple-in-app-purchase-1 = { -brand-apple }: in-app purchase
 subscription-management-your-google-iap-subscriptions-aria = Your { -brand-google } In-App Subscriptions
+subscription-management-google-in-app-purchase-1 = { -brand-google }: in-app purchase
+# $date (String) - Date of next bill
+subscription-management-iap-sub-next-bill-is-due = Next bill is due <strong>{ $date }</strong>
+# $date (String) - Date of In-App purchase expires
+subscription-management-iap-sub-will-expire-on = Your subscription will expire on <strong>{ $date }</strong>
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Manage subscription for { $productName }
 subscription-management-button-manage-subscription = Manage
@@ -281,6 +287,12 @@ next-new-user-subscribe-product-assurance = We only use your email to create you
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
+subscription-content-current-invoice-billed-on-with-tax = { $invoiceTotal } + { $taxDue } <span>billed on { $billedOnDate }</span>
+subscription-content-current-invoice-billed-on-no-tax = { $invoiceTotal } <span>billed on { $billedOnDate }</span>
+subscription-content-credit-issued-to-your-account = <strong>{ $creditApplied }</strong> credit issued to your account
+subscription-content-coupon-applied = { $promotionName } applied
+subscription-content-next-bill-excl-with-tax = Next bill of <strong>{ $nextInvoiceTotal } + { $taxDue }</strong>, excluding discounts, is due on <strong>{ $nextBillDate }</strong>
+subscription-content-next-bill-excl-no-tax = Next bill of <strong>{ $nextInvoiceTotal }</strong>, excluding discounts, is due on <strong>{ $nextBillDate }</strong>
 subscription-content-heading-cancel-subscription = Cancel Subscription
 subscription-content-no-longer-use-message = You will no longer be able to use { $productName } after { $currentPeriodEnd }, the last day of your billing cycle.
 subscription-content-cancel-access-message = Cancel my access and my saved information within { $productName } on { $currentPeriodEnd }
