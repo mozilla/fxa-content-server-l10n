@@ -7,6 +7,11 @@
 
 settings-home = Pagina principală a contului
 
+## Component - CouponForm
+
+coupon-submit = Aplică
+coupon-remove = Elimină
+
 ## Component - Fields
 
 default-input-error = Acest câmp este obligatoriu
