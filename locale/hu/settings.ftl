@@ -807,10 +807,10 @@ nav-email-comm = E-mail kommunikáció
 
 ## Page2faChange
 
-page-2fa-change-title = Módosítsa a kétlépcsős hitelesítést
+page-2fa-change-title = Kétlépcsős hitelesítés módosítása
 page-2fa-change-success = A kétlépcsős hitelesítés frissítve lett
 page-2fa-change-totpinfo-error = Hiba történt a kétlépcsős hitelesítő alkalmazás cseréjekor. Próbálja újra később.
-page-2fa-change-qr-instruction = <strong>1. lépés:</strong> Olvassa be ezt a QR-kódot bármely hitelesítő alkalmazással, például a Duo vagy a Google Authenticator segítségével. Ez egy új kapcsolatot hoz létre, a régi kapcsolatok nem fognak működni.
+page-2fa-change-qr-instruction = <strong>1. lépés:</strong> Olvassa le ezt a QR-kódot bármely hitelesítő alkalmazással, például a Duo vagy a Google Hitelesítő segítségével. Ez egy új kapcsolatot hoz létre, a régi kapcsolatok nem fognak működni.
 
 ## Two Step Authentication - replace backup authentication code
 
