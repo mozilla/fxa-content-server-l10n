@@ -237,6 +237,17 @@ device-all = «{ $uaBrowser }» дар «{ $uaOS } { $uaOSVersion }»
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 device-browser-os = «{ $uaBrowser }» дар «{ $uaOS }»
+# Variables:
+#  $city (String) - User's city
+#  $country (String) - User's country
+location-city-country = { $city }, { $country } (тақрибан)
+# Variables:
+#  $stateCode (String) - User's state
+#  $country (String) - User's country
+location-state-country = { $stateCode }, { $country } (тақрибан)
+# Variables:
+#  $country (stateCode) - User's country
+location-country = { $country } (тақрибан)
 view-invoice = <a data-l10n-name="invoiceLink">Дидани санади дархости пардохти худ</a>.
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
