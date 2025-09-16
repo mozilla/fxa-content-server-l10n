@@ -121,7 +121,13 @@ subscription-management-button-support = Help krije
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-support-aria = Help foar { $productName } krije
 subscription-management-your-apple-iap-subscriptions-aria = Jo { -brand-apple }-yn-app-abonneminten
+subscription-management-apple-in-app-purchase-1 = { -brand-apple }: yn-app-oankeap
 subscription-management-your-google-iap-subscriptions-aria = Jo { -brand-google }-yn-app-abonneminten
+subscription-management-google-in-app-purchase-1 = { -brand-google }: yn-app-oankeap
+# $date (String) - Date of next bill
+subscription-management-iap-sub-next-bill-is-due = De folgjende faktuer is ferskuldige op <strong>{ $date }</strong>
+# $date (String) - Date of In-App purchase expires
+subscription-management-iap-sub-will-expire-on = Jo abonnemint ferrint op <strong>{ $date }</strong>
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = Abonnemint foar { $productName } beheare
 subscription-management-button-manage-subscription = Beheare
@@ -281,6 +287,12 @@ next-new-user-subscribe-product-assurance = Wy brûke jo e-mailadres allinnich o
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
+subscription-content-current-invoice-billed-on-with-tax = { $invoiceTotal } + { $taxDue } <span>fakturearre op { $billedOnDate }</span>
+subscription-content-current-invoice-billed-on-no-tax = { $invoiceTotal } <span>fakturearre op { $billedOnDate }</span>
+subscription-content-credit-issued-to-your-account = <strong>{ $creditApplied }</strong> tegoed takend oan jo account
+subscription-content-coupon-applied = { $promotionName } tapast
+subscription-content-next-bill-excl-with-tax = De folgjende faktuer fan <strong>{ $nextInvoiceTotal } + { $taxDue }</strong>, eksklusyf koartingen, is ferskuldige op <strong>{ $nextBillDate }</strong>
+subscription-content-next-bill-excl-no-tax = De folgjende faktuer fan <strong>{ $nextInvoiceTotal }</strong>, eksklusyf koartingen, is ferskuldige op <strong>{ $nextBillDate }</strong>
 subscription-content-heading-cancel-subscription = Abonnemint opsizze
 subscription-content-no-longer-use-message = Jo kinne { $productName } net mear brûke nei { $currentPeriodEnd }, de lêste dei fan jo betellingssyklus.
 subscription-content-cancel-access-message = Myn tagong ta en bewarre gegevens yn { $productName } op { $currentPeriodEnd } opsizze
