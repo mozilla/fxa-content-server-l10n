@@ -1275,10 +1275,6 @@ terms-privacy-agreement-default-2 = Si tu procede, tu accepta le <mozillaAccount
 # Firefox account login appears on top, and third party options appear on bottom.
 # This string appears as a separation between the two, in the following order: "Enter your password" "Or"(this string) (continue-with-google-button with aria equivalent text) / (continue-with-apple-button with aria equivalent text)
 third-party-auth-options-or = O
-
-# For the sign-in page, when 3rd-party auth is the only option, this string appears with a divider line between the user's avatar on top and 3rd-party authentication buttons (continue-with-google continue-with-apple buttons) on bottom.
-# This could also be translated as "Sign in with the following" or "Sign in with the below".
-
 continue-with-google-button = Continuar con { -brand-google }
 continue-with-apple-button = Continuar con { -brand-apple }
 
@@ -1412,40 +1408,6 @@ inline-recovery-key-setup-download-header = Protege tu conto
 inline-recovery-key-setup-download-subheader = Discarga e immagazina lo ora
 inline-recovery-key-setup-download-info = Immagazina iste clave in qualque loco que tu memorara, tu non potera revolver a iste pagina plus tarde.
 inline-recovery-key-setup-hint-header = Recommendation de securitate
-
-## InlineRecoverySetup page
-## When users are creating an account, they may get pushed to setup 2FA
-## in this case, they will encounter this page in the signup process (hence calling it "Inline)
-
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-inline-recovery-setup-header-default = Confirma le codice authentication del reserva <span>pro continuar a configurar le conto</span>
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# $serviceName - the name of the service which is using Mozilla accounts to authenticate
-inline-recovery-setup-header = Salva le codices authentication del reserva <span>pro continuar a { $serviceName }</span>
-# Message refers to the recovery codes depicted below in the view
-inline-recovery-setup-message = Reserva iste codices a uso unic in un loco secur pro le caso que tu non ha accesso a tu apparato mobile.
-# This button allows a user to copy their recovery codes to their clipboard
-# This button allows the user to cancel setup of two-factor authentication for their account
-inline-recovery-cancel-button = Cancellar
-# This button allows the user to proceed to the next step in setting up two-factor authentication for their account
-inline-recovery-continue-button = Continuar
-# This button allows user to verify one of their recovery codes to show they downloaded them
-inline-recovery-confirm-button = Confirmar
-inline-recovery-back-link = Retro
-inline-recovery-cancel-setup = Cancellar configuration
-# Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
-inline-recovery-backup-authentication-code = Codice de authentication de reserva
-inline-recovery-confirmation-description = Pro permitter que tu potera reganiar accesso a tu conto, in caso de un apparato perdite, insere un de tu codices de authentication de reserva salvate.
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-inline-recovery-confirmation-header-default = Confirma le codice authentication del reserva <span>pro continuar a configurar le conto</span>
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# $serviceName - the name of the service which is using Mozilla accounts to authenticate
-inline-recovery-confirmation-header = Confirma le codice authentication del reserva <span>pro continuar a { $serviceName }</span>
-inline-recovery-2fa-enabled-v2 = Authentication a duo passos activate
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).

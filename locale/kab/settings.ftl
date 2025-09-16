@@ -753,10 +753,6 @@ tfa-row-cannot-disable-2 = Asesteb s snat n tarrayin ulamek ad yens
 # Firefox account login appears on top, and third party options appear on bottom.
 # This string appears as a separation between the two, in the following order: "Enter your password" "Or"(this string) (continue-with-google-button with aria equivalent text) / (continue-with-apple-button with aria equivalent text)
 third-party-auth-options-or = neɣ
-
-# For the sign-in page, when 3rd-party auth is the only option, this string appears with a divider line between the user's avatar on top and 3rd-party authentication buttons (continue-with-google continue-with-apple buttons) on bottom.
-# This could also be translated as "Sign in with the following" or "Sign in with the below".
-
 continue-with-google-button = Kemmel s { -brand-google }
 continue-with-apple-button = Kemmel s { -brand-apple }
 
@@ -837,24 +833,6 @@ index-account-delete-success = Amiḍan yettwakkes akken iwata
 inline-recovery-key-setup-recovery-created = Tasarut n tririt n umiḍan tettwarna
 inline-recovery-key-setup-download-header = Seɣles amiḍan-ik
 inline-recovery-key-setup-download-subheader = Sader-it syen ḥrez-it tura
-
-## InlineRecoverySetup page
-## When users are creating an account, they may get pushed to setup 2FA
-## in this case, they will encounter this page in the signup process (hence calling it "Inline)
-
-# Message refers to the recovery codes depicted below in the view
-inline-recovery-setup-message = Ḥrez tingalin n useqdec asuf deg umḍiq aɣelsan i wass ma yili ulac yibenk-ik aziraz.
-# This button allows a user to copy their recovery codes to their clipboard
-# This button allows the user to cancel setup of two-factor authentication for their account
-inline-recovery-cancel-button = Sefsex
-# This button allows the user to proceed to the next step in setting up two-factor authentication for their account
-inline-recovery-continue-button = Kemmel
-# This button allows user to verify one of their recovery codes to show they downloaded them
-inline-recovery-confirm-button = Sentem
-inline-recovery-back-link = Ɣer deffir
-inline-recovery-cancel-setup = Sefsex asebeddi
-# Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
-inline-recovery-backup-authentication-code = Tangalt n usesteb n uḥraz
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).

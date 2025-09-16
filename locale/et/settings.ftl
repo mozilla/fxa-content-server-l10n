@@ -488,14 +488,6 @@ auth-error-1008 = Vana ja uus parool peavad erinema
 # When users delete their Mozilla account inside account Settings, they are redirected to this page with a success message
 index-account-delete-success = Konto kustutati edukalt
 
-## InlineRecoverySetup page
-## When users are creating an account, they may get pushed to setup 2FA
-## in this case, they will encounter this page in the signup process (hence calling it "Inline)
-
-# This button allows a user to copy their recovery codes to their clipboard
-# This button allows the user to cancel setup of two-factor authentication for their account
-inline-recovery-cancel-button = Loobu
-
 ## Pair index page
 
 # This initiates the pairing process, usually by directing the user to the `about:preferences` page in Firefox

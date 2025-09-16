@@ -1290,10 +1290,6 @@ terms-privacy-agreement-default-2 = Drwy barhau, rydych yn cytuno i <mozillaAcco
 # Firefox account login appears on top, and third party options appear on bottom.
 # This string appears as a separation between the two, in the following order: "Enter your password" "Or"(this string) (continue-with-google-button with aria equivalent text) / (continue-with-apple-button with aria equivalent text)
 third-party-auth-options-or = Neu
-
-# For the sign-in page, when 3rd-party auth is the only option, this string appears with a divider line between the user's avatar on top and 3rd-party authentication buttons (continue-with-google continue-with-apple buttons) on bottom.
-# This could also be translated as "Sign in with the following" or "Sign in with the below".
-
 continue-with-google-button = Parhau gyda { -brand-google }
 continue-with-apple-button = Parhau gyda { -brand-apple }
 
@@ -1427,40 +1423,6 @@ inline-recovery-key-setup-download-header = Diogelwch eich cyfrif
 inline-recovery-key-setup-download-subheader = Llwythwch ef i lawr a'i gadw
 inline-recovery-key-setup-download-info = Cadwch yr allwedd hon yn rhywle y byddwch chi'n ei gofio - fyddwch chi ddim yn gallu dychwelyd i'r dudalen hon yn nes ymlaen.
 inline-recovery-key-setup-hint-header = Argymhelliad diogelwch
-
-## InlineRecoverySetup page
-## When users are creating an account, they may get pushed to setup 2FA
-## in this case, they will encounter this page in the signup process (hence calling it "Inline)
-
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-inline-recovery-setup-header-default = Cadarnhewch y cod dilysu wrth gefn <span>i barhau i osodiadau'r cyfrif</span>
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# $serviceName - the name of the service which is using Mozilla accounts to authenticate
-inline-recovery-setup-header = Cadwch godau dilysu wrth gefn <span>i barhau i { $serviceName }</span>
-# Message refers to the recovery codes depicted below in the view
-inline-recovery-setup-message = Storiwch y codau defnydd un-amser hyn mewn man diogel pan nad oes gennych chi'ch dyfais symudol.
-# This button allows a user to copy their recovery codes to their clipboard
-# This button allows the user to cancel setup of two-factor authentication for their account
-inline-recovery-cancel-button = Diddymu
-# This button allows the user to proceed to the next step in setting up two-factor authentication for their account
-inline-recovery-continue-button = Parhau
-# This button allows user to verify one of their recovery codes to show they downloaded them
-inline-recovery-confirm-button = Cadarnhau
-inline-recovery-back-link = Nôl
-inline-recovery-cancel-setup = Diddymu'r gosod
-# Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
-inline-recovery-backup-authentication-code = Cod dilysu wrth gefn
-inline-recovery-confirmation-description = Er mwyn sicrhau y byddwch yn gallu adennill mynediad i'ch cyfrif, os bydd dyfais ar goll, rhowch un o'ch codau dilysu wrth gefn rydych wedi'u cadw.
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-inline-recovery-confirmation-header-default = Cadarnhewch y cod dilysu wrth gefn <span>i barhau i osodiadau'r cyfrif</span>
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# $serviceName - the name of the service which is using Mozilla accounts to authenticate
-inline-recovery-confirmation-header = Cadarnhewch y cod dilysu wrth gefn <span>i barhau i { $serviceName }</span>
-inline-recovery-2fa-enabled-v2 = Mae dilysu dau gam wedi'i alluogi
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).

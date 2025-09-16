@@ -959,10 +959,6 @@ terms-privacy-agreement-default-2 = 続けることにより、<mozillaAccountsT
 # Firefox account login appears on top, and third party options appear on bottom.
 # This string appears as a separation between the two, in the following order: "Enter your password" "Or"(this string) (continue-with-google-button with aria equivalent text) / (continue-with-apple-button with aria equivalent text)
 third-party-auth-options-or = または
-
-# For the sign-in page, when 3rd-party auth is the only option, this string appears with a divider line between the user's avatar on top and 3rd-party authentication buttons (continue-with-google continue-with-apple buttons) on bottom.
-# This could also be translated as "Sign in with the following" or "Sign in with the below".
-
 continue-with-google-button = { -brand-google } で続ける
 continue-with-apple-button = { -brand-apple } で続ける
 
@@ -1061,40 +1057,6 @@ index-email-input =
 
 inline-recovery-key-setup-create-error = アカウント回復用キーを生成できませんでした。また後で試してください。
 inline-recovery-key-setup-download-header = アカウントを保護してください
-
-## InlineRecoverySetup page
-## When users are creating an account, they may get pushed to setup 2FA
-## in this case, they will encounter this page in the signup process (hence calling it "Inline)
-
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-inline-recovery-setup-header-default = バックアップ認証コードを確認して <span>アカウント設定に進む</span>
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# $serviceName - the name of the service which is using Mozilla accounts to authenticate
-inline-recovery-setup-header = バックアップ認証コードを保存して <span>{ $serviceName } に進む</span>
-# Message refers to the recovery codes depicted below in the view
-inline-recovery-setup-message = これらのワンタイム使用のコードは、モバイル端末を持っていない場合に備えて安全な場所に保管してください。
-# This button allows a user to copy their recovery codes to their clipboard
-# This button allows the user to cancel setup of two-factor authentication for their account
-inline-recovery-cancel-button = キャンセル
-# This button allows the user to proceed to the next step in setting up two-factor authentication for their account
-inline-recovery-continue-button = 続ける
-# This button allows user to verify one of their recovery codes to show they downloaded them
-inline-recovery-confirm-button = 確認
-inline-recovery-back-link = 戻る
-inline-recovery-cancel-setup = セットアップをキャンセル
-# Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
-inline-recovery-backup-authentication-code = バックアップ認証コード
-inline-recovery-confirmation-description = 端末を紛失してしまった場合にアカウントへのアクセスを確実に回復できるようにするため、保存したいずれかのバックアップ認証コードを入力してください。
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-inline-recovery-confirmation-header-default = バックアップ認証コードを確認して <span>アカウント設定に進む</span>
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# $serviceName - the name of the service which is using Mozilla accounts to authenticate
-inline-recovery-confirmation-header = バックアップ認証コードを確認して <span>{ $serviceName } に進む</span>
-inline-recovery-2fa-enabled-v2 = 2 段階認証が有効化されました
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).

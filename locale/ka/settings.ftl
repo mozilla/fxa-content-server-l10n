@@ -1271,10 +1271,6 @@ terms-privacy-agreement-default-2 = თუ განაგრძობთ, ა�
 # Firefox account login appears on top, and third party options appear on bottom.
 # This string appears as a separation between the two, in the following order: "Enter your password" "Or"(this string) (continue-with-google-button with aria equivalent text) / (continue-with-apple-button with aria equivalent text)
 third-party-auth-options-or = ან
-
-# For the sign-in page, when 3rd-party auth is the only option, this string appears with a divider line between the user's avatar on top and 3rd-party authentication buttons (continue-with-google continue-with-apple buttons) on bottom.
-# This could also be translated as "Sign in with the following" or "Sign in with the below".
-
 continue-with-google-button = გამოიყენეთ { -brand-google }, რომ განაგრძოთ
 continue-with-apple-button = გამოიყენეთ { -brand-apple }, რომ განაგრძოთ
 
@@ -1408,40 +1404,6 @@ inline-recovery-key-setup-download-header = დაიცავით თქვ�
 inline-recovery-key-setup-download-subheader = ჩამოტვირთეთ და შეინახეთ ახლავე
 inline-recovery-key-setup-download-info = გადაინახეთ ეს გასაღები ადვილად მისაგნებ ადგილას — მოგვიანებით ამ გვერდზე დაბრუნება აღარ შეგეძლებათ.
 inline-recovery-key-setup-hint-header = რჩევები უსაფრთხოებისთვის
-
-## InlineRecoverySetup page
-## When users are creating an account, they may get pushed to setup 2FA
-## in this case, they will encounter this page in the signup process (hence calling it "Inline)
-
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-inline-recovery-setup-header-default = დაადასტურეთ შესვლის სამარქაფო კოდი <span>ანგარიშის პარამეტრებზე გადასასვლელად</span>
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# $serviceName - the name of the service which is using Mozilla accounts to authenticate
-inline-recovery-setup-header = შეინახეთ შესვლის სამარქაფო კოდი, <span>რომ იხილოთ { $serviceName }</span>
-# Message refers to the recovery codes depicted below in the view
-inline-recovery-setup-message = გადაინახეთ ეს ერთჯერადი კოდები უსაფრთხო ადგილას იმ შემთხვევისთვის, თუ არ გექნებათ მობილური მოწყობილობა.
-# This button allows a user to copy their recovery codes to their clipboard
-# This button allows the user to cancel setup of two-factor authentication for their account
-inline-recovery-cancel-button = გაუქმება
-# This button allows the user to proceed to the next step in setting up two-factor authentication for their account
-inline-recovery-continue-button = გაგრძელება
-# This button allows user to verify one of their recovery codes to show they downloaded them
-inline-recovery-confirm-button = თანხმობა
-inline-recovery-back-link = უკან
-inline-recovery-cancel-setup = გამართვის გაუქმება
-# Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
-inline-recovery-backup-authentication-code = შესვლის სამარქაფო კოდი
-inline-recovery-confirmation-description = იმის უზრუნველსაყოფად, რომ თქვენ შეძლებთ თქვენს ანგარიშთან წვდომის აღდგენას მოწყობილობის დაკარგვის შემთხვევაში გთხოვთ, შეიყვანოთ შესვლის შენახული სამარქაფო კოდიდან რომელიმე.
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-inline-recovery-confirmation-header-default = დაადასტურეთ შესვლის სამარქაფო კოდი <span>ანგარიშის პარამეტრებზე გადასასვლელად</span>
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# $serviceName - the name of the service which is using Mozilla accounts to authenticate
-inline-recovery-confirmation-header = დაადასტურეთ შესვლის სამარქაფო კოდი, <span>რომ იხილოთ { $serviceName }</span>
-inline-recovery-2fa-enabled-v2 = ორბიჯიანი დამოწმება შესვლისას ჩართულია
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).

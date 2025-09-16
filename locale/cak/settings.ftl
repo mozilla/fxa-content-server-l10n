@@ -461,21 +461,6 @@ cookies-disabled-button-try-again = Titojtob'ëx chik
 # An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
 cookies-disabled-learn-more = Tetamäx ch'aqa' chik
 
-## InlineRecoverySetup page
-## When users are creating an account, they may get pushed to setup 2FA
-## in this case, they will encounter this page in the signup process (hence calling it "Inline)
-
-# Message refers to the recovery codes depicted below in the view
-inline-recovery-setup-message = Ke'ayaka' re jun rokisaxik taq b'itz'ib' pa jun jikïl k'ojlib'äl richin toq man k'o ta awik'in ri awoyonib'al.
-# This button allows a user to copy their recovery codes to their clipboard
-# This button allows the user to cancel setup of two-factor authentication for their account
-inline-recovery-cancel-button = Tiq'at
-# This button allows the user to proceed to the next step in setting up two-factor authentication for their account
-inline-recovery-continue-button = Titikïr chik el
-# This button allows user to verify one of their recovery codes to show they downloaded them
-inline-recovery-confirm-button = Tijikib'äx
-inline-recovery-back-link = Chi rij
-
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
 

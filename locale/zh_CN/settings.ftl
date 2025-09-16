@@ -1236,10 +1236,6 @@ terms-privacy-agreement-default-2 = 继续操作即表示您同意<mozillaAccoun
 # Firefox account login appears on top, and third party options appear on bottom.
 # This string appears as a separation between the two, in the following order: "Enter your password" "Or"(this string) (continue-with-google-button with aria equivalent text) / (continue-with-apple-button with aria equivalent text)
 third-party-auth-options-or = 或者
-
-# For the sign-in page, when 3rd-party auth is the only option, this string appears with a divider line between the user's avatar on top and 3rd-party authentication buttons (continue-with-google continue-with-apple buttons) on bottom.
-# This could also be translated as "Sign in with the following" or "Sign in with the below".
-
 continue-with-google-button = 通过 { -brand-google } 登录
 continue-with-apple-button = 通过 { -brand-apple } 登录
 
@@ -1373,40 +1369,6 @@ inline-recovery-key-setup-download-header = 保护账户安全
 inline-recovery-key-setup-download-subheader = 立即下载并存储
 inline-recovery-key-setup-download-info = 请将此密钥存储在您会记得的位置。此后将无法再回到本页面。
 inline-recovery-key-setup-hint-header = 安全建议
-
-## InlineRecoverySetup page
-## When users are creating an account, they may get pushed to setup 2FA
-## in this case, they will encounter this page in the signup process (hence calling it "Inline)
-
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-inline-recovery-setup-header-default = 确认备用验证码以<span>继续进行账户设置</span>
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# $serviceName - the name of the service which is using Mozilla accounts to authenticate
-inline-recovery-setup-header = 保存备用验证码<span>以继续使用 { $serviceName }</span>
-# Message refers to the recovery codes depicted below in the view
-inline-recovery-setup-message = 请妥善保管下列一次性恢复码，以便在移动设备不可用时使用。
-# This button allows a user to copy their recovery codes to their clipboard
-# This button allows the user to cancel setup of two-factor authentication for their account
-inline-recovery-cancel-button = 取消
-# This button allows the user to proceed to the next step in setting up two-factor authentication for their account
-inline-recovery-continue-button = 继续
-# This button allows user to verify one of their recovery codes to show they downloaded them
-inline-recovery-confirm-button = 确认
-inline-recovery-back-link = 上一步
-inline-recovery-cancel-setup = 取消设置
-# Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
-inline-recovery-backup-authentication-code = 备用验证码
-inline-recovery-confirmation-description = 为确保您在设备丢失的情况下仍能登录您的账户，请输入此前保存的备用验证码中的任意一个。
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-inline-recovery-confirmation-header-default = 确认备用验证码以<span>继续进行账户设置</span>
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# $serviceName - the name of the service which is using Mozilla accounts to authenticate
-inline-recovery-confirmation-header = 确认备用验证码以<span>继续使用 { $serviceName }</span>
-inline-recovery-2fa-enabled-v2 = 已启用两步验证
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).

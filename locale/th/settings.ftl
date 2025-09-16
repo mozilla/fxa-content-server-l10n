@@ -993,10 +993,6 @@ terms-privacy-agreement-default-2 = เมื่อดำเนินการ�
 # Firefox account login appears on top, and third party options appear on bottom.
 # This string appears as a separation between the two, in the following order: "Enter your password" "Or"(this string) (continue-with-google-button with aria equivalent text) / (continue-with-apple-button with aria equivalent text)
 third-party-auth-options-or = หรือ
-
-# For the sign-in page, when 3rd-party auth is the only option, this string appears with a divider line between the user's avatar on top and 3rd-party authentication buttons (continue-with-google continue-with-apple buttons) on bottom.
-# This could also be translated as "Sign in with the following" or "Sign in with the below".
-
 continue-with-google-button = ดำเนินการต่อด้วย { -brand-google }
 continue-with-apple-button = ดำเนินการต่อด้วย { -brand-apple }
 
@@ -1101,39 +1097,6 @@ inline-recovery-key-setup-download-header = ปกป้องความปล
 inline-recovery-key-setup-download-subheader = ดาวน์โหลดและเก็บตอนนี้
 inline-recovery-key-setup-download-info = โปรดเก็บคีย์นี้ไว้ในที่ที่คุณสามารถจำได้ เนื่องจากคุณจะไม่สามารถกลับมาที่หน้านี้ได้อีก
 inline-recovery-key-setup-hint-header = คำแนะนำด้านความปลอดภัย
-
-## InlineRecoverySetup page
-## When users are creating an account, they may get pushed to setup 2FA
-## in this case, they will encounter this page in the signup process (hence calling it "Inline)
-
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-inline-recovery-setup-header-default = ยืนยันรหัสยืนยันตัวตนสำรอง<span>เพื่อไปยังการตั้งค่าบัญชี</span>
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# $serviceName - the name of the service which is using Mozilla accounts to authenticate
-inline-recovery-setup-header = บันทึกรหัสยืนยันตัวตนสำรอง<span>เพื่อไปยัง { $serviceName }</span>
-# Message refers to the recovery codes depicted below in the view
-inline-recovery-setup-message = เก็บรหัสแบบใช้ครั้งเดียวเหล่านี้ไว้ในที่ที่ปลอดภัยเพื่อใช้เมื่อคุณไม่มีอุปกรณ์มือถือ
-# This button allows a user to copy their recovery codes to their clipboard
-# This button allows the user to cancel setup of two-factor authentication for their account
-inline-recovery-cancel-button = ยกเลิก
-# This button allows the user to proceed to the next step in setting up two-factor authentication for their account
-inline-recovery-continue-button = ดำเนินการต่อ
-# This button allows user to verify one of their recovery codes to show they downloaded them
-inline-recovery-confirm-button = ยืนยัน
-inline-recovery-back-link = ย้อนกลับ
-inline-recovery-cancel-setup = ยกเลิกการตั้งค่า
-# Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
-inline-recovery-backup-authentication-code = รหัสยืนยันตัวตนสำรอง
-inline-recovery-confirmation-description = เพื่อให้แน่ใจว่าคุณจะสามารถเข้าถึงบัญชีของคุณในกรณีที่อุปกรณ์สูญหายได้ กรุณาใส่หนึ่งในรหัสยืนยันตัวตนสำรองที่คุณบันทึกไว้
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-inline-recovery-confirmation-header-default = ยืนยันรหัสยืนยันตัวตนสำรอง<span>เพื่อไปยังการตั้งค่าบัญชี</span>
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# $serviceName - the name of the service which is using Mozilla accounts to authenticate
-inline-recovery-confirmation-header = ยืนยันรหัสยืนยันตัวตนสำรอง<span>เพื่อไปยัง { $serviceName }</span>
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).

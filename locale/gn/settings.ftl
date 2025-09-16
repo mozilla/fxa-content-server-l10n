@@ -1217,10 +1217,6 @@ terms-privacy-agreement-default-2 = Eku’ejeývo, emoneĩ umi <mozillaAccountsT
 # Firefox account login appears on top, and third party options appear on bottom.
 # This string appears as a separation between the two, in the following order: "Enter your password" "Or"(this string) (continue-with-google-button with aria equivalent text) / (continue-with-apple-button with aria equivalent text)
 third-party-auth-options-or = Térã
-
-# For the sign-in page, when 3rd-party auth is the only option, this string appears with a divider line between the user's avatar on top and 3rd-party authentication buttons (continue-with-google continue-with-apple buttons) on bottom.
-# This could also be translated as "Sign in with the following" or "Sign in with the below".
-
 continue-with-google-button = Eku’ejey { -brand-google } ndive
 continue-with-apple-button = Eku’ejey { -brand-apple } ndive
 
@@ -1354,40 +1350,6 @@ inline-recovery-key-setup-download-header = Embojuaju ne mba’ete
 inline-recovery-key-setup-download-subheader = Emboguejy ha eñongatu
 inline-recovery-key-setup-download-info = Eñongatu ko mba’eñemi tenda nemandu’a hag̃uáme; ndaikatumo’ãi eike jey kóvape tenondeve.
 inline-recovery-key-setup-hint-header = Ñemoñe’ẽ tekorosãrã
-
-## InlineRecoverySetup page
-## When users are creating an account, they may get pushed to setup 2FA
-## in this case, they will encounter this page in the signup process (hence calling it "Inline)
-
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-inline-recovery-setup-header-default = Emoneĩ ayvu ñemoneĩrã jeykekoha <span>eku’ejey hag̃ua mba’ete ñemboheko ndive</span>
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# $serviceName - the name of the service which is using Mozilla accounts to authenticate
-inline-recovery-setup-header = Erujey ayvu jeguerujeyrã jeykekoha <span>eku’e hag̃ua { $serviceName }</span> ndive
-# Message refers to the recovery codes depicted below in the view
-inline-recovery-setup-message = Eñongatu ko’ã ayvu ijeporu peteĩva tenda hekorosãvape ndereguerekói jave ne pumbyry.
-# This button allows a user to copy their recovery codes to their clipboard
-# This button allows the user to cancel setup of two-factor authentication for their account
-inline-recovery-cancel-button = Heja
-# This button allows the user to proceed to the next step in setting up two-factor authentication for their account
-inline-recovery-continue-button = Ku’ejey
-# This button allows user to verify one of their recovery codes to show they downloaded them
-inline-recovery-confirm-button = Moneĩ
-inline-recovery-back-link = Tapykue
-inline-recovery-cancel-setup = Eheja ñemboheko
-# Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
-inline-recovery-backup-authentication-code = Ayvu ñemoneĩrã jeykekoha
-inline-recovery-confirmation-description = Eikekuaajey hag̃ua ne mba’etépe okañýramo ndehegui peteĩ mba’e’oka, emoinge peteĩva umi ayvu jeguerujeyrã jeykekogua ñongatupyre.
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-inline-recovery-confirmation-header-default = Emoneĩ ayvu ñemoneĩrã jeykekoha <span>eku’e hag̃ua mba’ete ñemboheko ndive</span>
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# $serviceName - the name of the service which is using Mozilla accounts to authenticate
-inline-recovery-confirmation-header = Erujey ayvu ñemoneĩrã jeykekoha <span>eku’e hag̃ua { $serviceName }</span> ndive
-inline-recovery-2fa-enabled-v2 = Ijurujáma mokõi jeku’epegua ñemoneĩ
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).

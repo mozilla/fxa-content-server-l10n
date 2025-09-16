@@ -1130,10 +1130,6 @@ terms-privacy-agreement-pocket-2 = <pocketTos>Tèrmini di sirbizzu</pocketTos> e
 # Firefox account login appears on top, and third party options appear on bottom.
 # This string appears as a separation between the two, in the following order: "Enter your password" "Or"(this string) (continue-with-google-button with aria equivalent text) / (continue-with-apple-button with aria equivalent text)
 third-party-auth-options-or = o puru
-
-# For the sign-in page, when 3rd-party auth is the only option, this string appears with a divider line between the user's avatar on top and 3rd-party authentication buttons (continue-with-google continue-with-apple buttons) on bottom.
-# This could also be translated as "Sign in with the following" or "Sign in with the below".
-
 continue-with-google-button = Cuntinua cu { -brand-google }
 continue-with-apple-button = Cuntinua cu { -brand-apple }
 
@@ -1266,23 +1262,6 @@ inline-recovery-key-setup-recovery-created = Criasti na chiavi di ricùpiru dû 
 inline-recovery-key-setup-download-header = Pruteggi u to cuntu
 inline-recovery-key-setup-download-subheader = Scàrricala e sàrbala ora
 inline-recovery-key-setup-hint-header = Cunzigghiu di sicurizza
-
-## InlineRecoverySetup page
-## When users are creating an account, they may get pushed to setup 2FA
-## in this case, they will encounter this page in the signup process (hence calling it "Inline)
-
-# This button allows a user to copy their recovery codes to their clipboard
-# This button allows the user to cancel setup of two-factor authentication for their account
-inline-recovery-cancel-button = Sfai
-# This button allows the user to proceed to the next step in setting up two-factor authentication for their account
-inline-recovery-continue-button = Cuntinua
-# This button allows user to verify one of their recovery codes to show they downloaded them
-inline-recovery-confirm-button = Cunferma
-inline-recovery-back-link = Nn’arrè
-inline-recovery-cancel-setup = Sfai a cunfijurazzioni
-# Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
-inline-recovery-backup-authentication-code = Còdici d’autinticazzioni di sicurizza
-inline-recovery-2fa-enabled-v2 = Abbilitasti l’autinticazzioni a du’ fattura
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).

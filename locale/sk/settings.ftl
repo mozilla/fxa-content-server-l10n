@@ -1279,10 +1279,6 @@ terms-privacy-agreement-default-2 = Pokračovaním vyjadrujete súhlas s <mozill
 # Firefox account login appears on top, and third party options appear on bottom.
 # This string appears as a separation between the two, in the following order: "Enter your password" "Or"(this string) (continue-with-google-button with aria equivalent text) / (continue-with-apple-button with aria equivalent text)
 third-party-auth-options-or = alebo
-
-# For the sign-in page, when 3rd-party auth is the only option, this string appears with a divider line between the user's avatar on top and 3rd-party authentication buttons (continue-with-google continue-with-apple buttons) on bottom.
-# This could also be translated as "Sign in with the following" or "Sign in with the below".
-
 continue-with-google-button = Pokračovať pomocou { -brand-google }
 continue-with-apple-button = Pokračovať pomocou { -brand-apple }
 
@@ -1416,40 +1412,6 @@ inline-recovery-key-setup-download-header = Zabezpečte svoj účet
 inline-recovery-key-setup-download-subheader = Stiahnuť a uložiť
 inline-recovery-key-setup-download-info = Uložte si tento kľúč niekde, kde si ho zapamätáte – neskôr sa na túto stránku už nebudete môcť vrátiť.
 inline-recovery-key-setup-hint-header = Bezpečnostné odporúčanie
-
-## InlineRecoverySetup page
-## When users are creating an account, they may get pushed to setup 2FA
-## in this case, they will encounter this page in the signup process (hence calling it "Inline)
-
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-inline-recovery-setup-header-default = Potvrďte záložný overovací kód <span>a pokračujte do nastavení účtu</span>
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# $serviceName - the name of the service which is using Mozilla accounts to authenticate
-inline-recovery-setup-header = Ak chcete <span>pokračovať do služby { $serviceName }</span>, uložte si záložné overovacie kódy
-# Message refers to the recovery codes depicted below in the view
-inline-recovery-setup-message = Tieto jednorazové kódy si uložte na bezpečné miesto, na ktoré sa dostanete aj bez svojho mobilného zariadenia.
-# This button allows a user to copy their recovery codes to their clipboard
-# This button allows the user to cancel setup of two-factor authentication for their account
-inline-recovery-cancel-button = Zrušiť
-# This button allows the user to proceed to the next step in setting up two-factor authentication for their account
-inline-recovery-continue-button = Pokračovať
-# This button allows user to verify one of their recovery codes to show they downloaded them
-inline-recovery-confirm-button = Potvrdiť
-inline-recovery-back-link = Naspäť
-inline-recovery-cancel-setup = Zrušiť nastavenie
-# Label describing a text input where the user can enter one of their new authentication codes to prove they downloaded them
-inline-recovery-backup-authentication-code = Záložný overovací kód
-inline-recovery-confirmation-description = Aby ste sa uistili, že budete môcť znova získať prístup k svojmu účtu, v prípade straty zariadenia zadajte jeden z uložených záložných overovacích kódov.
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to account settings" can stand alone as "Continue to account settings"
-inline-recovery-confirmation-header-default = Potvrďte záložný overovací kód <span>a pokračujte do nastavení účtu</span>
-# Strings within the <span> elements appear as a subheading.
-# If more appropriate in a locale, the string within the <span>, "to continue to { $serviceName }" can stand alone as "Continue to { $serviceName }"
-# $serviceName - the name of the service which is using Mozilla accounts to authenticate
-inline-recovery-confirmation-header = Potvrďte záložný overovací kód <span>a pokračujte do služby { $serviceName }</span>
-inline-recovery-2fa-enabled-v2 = Dvojstupňové overenie bolo povolené
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
