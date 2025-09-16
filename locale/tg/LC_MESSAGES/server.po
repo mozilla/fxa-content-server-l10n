@@ -11,7 +11,7 @@ msgstr ""
 
 #: server/templates/pages/src/404.html:1 server/templates/pages/src/500.html:1 server/templates/pages/src/502.html:1 server/templates/pages/src/503.html:1 server/templates/pages/src/index.html:1
 msgid "Mozilla accounts"
-msgstr ""
+msgstr "Ҳисобҳои «Mozilla»"
 
 #: server/templates/pages/src/404.html:2 server/templates/pages/src/500.html:2 server/templates/pages/src/502.html:2 server/templates/pages/src/503.html:2 server/templates/pages/src/index.html:3
 #: server/templates/pages/src/update_firefox.html:2
@@ -20,7 +20,7 @@ msgstr ""
 
 #: server/templates/pages/src/404.html:3
 msgid "Page not found"
-msgstr ""
+msgstr "Саҳифа ёфт нашуд"
 
 #: server/templates/pages/src/404.html:4
 msgid ""
@@ -30,11 +30,11 @@ msgstr ""
 
 #: server/templates/pages/src/404.html:5 server/templates/pages/src/500.html:5 server/templates/pages/src/502.html:5 server/templates/pages/src/503.html:5
 msgid "Home"
-msgstr ""
+msgstr "Саҳифаи асосӣ"
 
 #: server/templates/pages/src/500.html:3
 msgid "500 Error"
-msgstr ""
+msgstr "Хатои 500"
 
 #: server/templates/pages/src/500.html:4 server/templates/pages/src/502.html:4
 msgid ""
@@ -44,7 +44,7 @@ msgstr ""
 
 #: server/templates/pages/src/502.html:3
 msgid "502 Error"
-msgstr ""
+msgstr "Хатои 502"
 
 #: server/templates/pages/src/503.html:3
 msgid "Server busy, try again soon"
@@ -58,7 +58,7 @@ msgstr ""
 
 #: server/templates/pages/src/index.html:2
 msgid "Loading"
-msgstr ""
+msgstr "Бор шуда истодааст"
 
 #: server/templates/pages/src/index.html:4
 msgid "Mozilla accounts require JavaScript."
@@ -66,7 +66,7 @@ msgstr ""
 
 #: server/templates/pages/src/update_firefox.html:1
 msgid "Mozilla account"
-msgstr ""
+msgstr "Ҳисоби «Mozilla»"
 
 #: server/templates/pages/src/update_firefox.html:3
 msgid "Firefox update required"
