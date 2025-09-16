@@ -194,35 +194,35 @@ msgstr ""
 
 #: .es5/views/mixins/save-options-mixin.js:52
 msgid "Copied"
-msgstr ""
+msgstr "Нусха бардошта шуд"
 
 #: .es5/views/mixins/save-options-mixin.js:54
 msgid "Failed to copy. Please manually copy."
-msgstr ""
+msgstr "Нусха бардошта нашуд. Лутфан, ба таври дастӣ нусха бардоред."
 
 #: .es5/views/mixins/save-options-mixin.js:69
 msgid "Downloaded"
-msgstr ""
+msgstr "Боргиришуда"
 
 #: .es5/views/mixins/save-options-mixin.js:80
 msgid "Printed"
-msgstr ""
+msgstr "Чопшуда"
 
 #: .es5/views/behaviors/settings.js:36 .es5/models/auth_brokers/web.js:27
 msgid "Account confirmed successfully"
-msgstr ""
+msgstr "Ҳисоб бо муваффақият тасдиқ карда шуд"
 
 #: .es5/models/support-form.js:23
 msgid "payment & billing"
-msgstr ""
+msgstr "пардохт ва ҳисоббарорӣ"
 
 #: .es5/models/support-form.js:23
 msgid "account issues"
-msgstr ""
+msgstr "масъалаҳои ҳисоб"
 
 #: .es5/models/support-form.js:23
 msgid "technical issues"
-msgstr ""
+msgstr "масъалахои техникй"
 
 #: .es5/models/support-form.js:23
 msgid "provide feedback / request features"
@@ -234,47 +234,47 @@ msgstr ""
 
 #: .es5/models/sync-engines.js:46
 msgid "Bookmarks"
-msgstr ""
+msgstr "Хатбаракҳо"
 
 #: .es5/models/sync-engines.js:50
 msgid "History"
-msgstr ""
+msgstr "Таърих"
 
 #: .es5/models/sync-engines.js:54
 msgid "Passwords"
-msgstr ""
+msgstr "Ниҳонвожаҳо"
 
 #: .es5/models/sync-engines.js:58
 msgid "Add-ons"
-msgstr ""
+msgstr "Ҷузъҳои иловагӣ"
 
 #: .es5/models/sync-engines.js:62
 msgid "Open Tabs"
-msgstr ""
+msgstr "Варақаҳои кушодашуда"
 
 #: .es5/models/sync-engines.js:66
 msgid "Preferences"
-msgstr ""
+msgstr "Хусусиятҳо"
 
 #: .es5/models/sync-engines.js:74
 msgid "Addresses"
-msgstr ""
+msgstr "Нишониҳо"
 
 #: .es5/models/sync-engines.js:82
 msgid "Payment Methods"
-msgstr ""
+msgstr "Тарзҳои пардохт"
 
 #: .es5/models/reliers/browser.js:68
 msgid "Firefox"
-msgstr ""
+msgstr "Firefox"
 
 #: .es5/models/auth_brokers/base.js:88
 msgid "Primary email verified successfully"
-msgstr ""
+msgstr "Почтаи электронии асосӣ бо муваффақият тасдиқ карда шуд"
 
 #: .es5/models/auth_brokers/base.js:92
 msgid "Secondary email verified successfully"
-msgstr ""
+msgstr "Почтаи электронии иловагӣ бо муваффақият тасдиқ карда шуд"
 
 #: .es5/models/auth_brokers/web.js:30
 msgid "Password reset successfully"
@@ -486,11 +486,11 @@ msgstr ""
 
 #: .es5/lib/auth-errors.js:262
 msgid "Unknown subscription."
-msgstr ""
+msgstr "Обунаи номаълум."
 
 #: .es5/lib/auth-errors.js:266
 msgid "Unknown plan for subscription."
-msgstr ""
+msgstr "Нақшаи номаълум барои обуна."
 
 #: .es5/lib/auth-errors.js:270
 msgid "Invalid payment token for subscription."
@@ -735,7 +735,7 @@ msgstr ""
 
 #: .es5/lib/oauth-errors.js:27
 msgid "Unknown client"
-msgstr ""
+msgstr "Муштарии номаълум"
 
 #: .es5/lib/oauth-errors.js:31
 msgid "Incorrect redirect_uri"
@@ -747,11 +747,11 @@ msgstr ""
 
 #: .es5/lib/oauth-errors.js:39
 msgid "Unknown code"
-msgstr ""
+msgstr "Рамзи номаълум"
 
 #: .es5/lib/oauth-errors.js:43
 msgid "Incorrect code"
-msgstr ""
+msgstr "Рамзи нодуруст"
 
 #: .es5/lib/oauth-errors.js:47
 msgid "Expired code"
@@ -948,11 +948,11 @@ msgstr ""
 
 #: .es5/templates/complete_reset_password.mustache:13 .es5/templates/post_verify/password/force_password_change.mustache:8
 msgid "New password"
-msgstr ""
+msgstr "Ниҳонвожаи нав"
 
 #: .es5/templates/complete_reset_password.mustache:14
 msgid "Re-enter password"
-msgstr ""
+msgstr "Ниҳонвожаро аз нав ворид намоед"
 
 #: .es5/templates/complete_reset_password.mustache:16 .es5/templates/confirm_reset_password.mustache:5 .es5/templates/confirm_reset_password.mustache:7 .es5/templates/reset_password.mustache:7
 msgid "Remember password? Sign in"
@@ -984,15 +984,15 @@ msgstr ""
 
 #: .es5/templates/complete_sign_up.mustache:14
 msgid "Confirmation error"
-msgstr ""
+msgstr "Хатои тасдиқи воридшавӣ"
 
 #: .es5/templates/confirm.mustache:3
 msgid "Confirm your account"
-msgstr ""
+msgstr "Ҳисоби худро тасдиқ кунед"
 
 #: .es5/templates/confirm.mustache:5
 msgid "Confirm this sign-in"
-msgstr ""
+msgstr "Тасдиқ кардани ин воридшавӣ"
 
 #: .es5/templates/confirm.mustache:7
 msgid "Check your email for the confirmation link sent&nbsp;to %(escapedEmail)s"
@@ -1010,7 +1010,7 @@ msgstr ""
 #: .es5/templates/confirm.mustache:14 .es5/templates/inline_recovery_setup.mustache:17 .es5/templates/pp.mustache:2 .es5/templates/sign_in_bounced.mustache:6
 #: .es5/templates/sign_in_recovery_code.mustache:6 .es5/templates/pair/index.mustache:3 .es5/templates/pair/index.mustache:4
 msgid "Back"
-msgstr ""
+msgstr "Ба қафо"
 
 #: .es5/templates/confirm_reset_password.mustache:1
 msgid "Reset email sent"
@@ -1036,19 +1036,19 @@ msgstr ""
 #: .es5/templates/confirm_signup_code.mustache:4 .es5/templates/inline_recovery_setup.mustache:16 .es5/templates/sign_in_recovery_code.mustache:5 .es5/templates/sign_in_token_code.mustache:4
 #: .es5/templates/sign_in_totp_code.mustache:5 .es5/templates/post_verify/secondary_email/confirm_secondary_email.mustache:7
 msgid "Confirm"
-msgstr ""
+msgstr "Тасдиқ кардан"
 
 #: .es5/templates/confirm_signup_code.mustache:5 .es5/templates/sign_in_token_code.mustache:5
 msgid "Code expired?"
-msgstr ""
+msgstr "Муҳлати рамз ба анҷом расид?"
 
 #: .es5/templates/confirm_signup_code.mustache:6 .es5/templates/sign_in_token_code.mustache:6
 msgid "Email new code."
-msgstr ""
+msgstr "Рамзи наверо ба почтаи электронӣ ирсол намоед."
 
 #: .es5/templates/connect_another_device.mustache:1 .es5/templates/connect_another_device.mustache:23 .es5/templates/pair/index.mustache:7 .es5/templates/pair/unsupported.mustache:1
 msgid "Connect another device"
-msgstr ""
+msgstr "Пайваст кардани дастгоҳи дигар"
 
 #: .es5/templates/connect_another_device.mustache:3
 msgid "You’re signed into Firefox"
@@ -1056,7 +1056,7 @@ msgstr ""
 
 #: .es5/templates/connect_another_device.mustache:5
 msgid "Email confirmed"
-msgstr ""
+msgstr "Почтаи электронӣ тасдиқ карда шуд"
 
 #: .es5/templates/connect_another_device.mustache:10 .es5/templates/pair/unsupported.mustache:15
 msgid "Devices with hearts on their screens"
@@ -1084,7 +1084,7 @@ msgstr ""
 
 #: .es5/templates/connect_another_device.mustache:24 .es5/templates/ready.mustache:2
 msgid "Manage your account"
-msgstr ""
+msgstr "Идоракунии ҳисоби худ"
 
 #: .es5/templates/force_auth.mustache:1 .es5/templates/sign_in_password.mustache:1
 msgid "Enter your password <span class=\"card-subheader\" id=\"subheader\">for your Mozilla account</span>"
@@ -1092,7 +1092,7 @@ msgstr ""
 
 #: .es5/templates/force_auth.mustache:6 .es5/templates/sign_in_password.mustache:7 .es5/templates/sign_up_password.mustache:4 .es5/templates/post_verify/third_party_auth/set_password.mustache:3
 msgid "Password"
-msgstr ""
+msgstr "Ниҳонвожа"
 
 #: .es5/templates/force_auth.mustache:8 .es5/templates/sign_in_password.mustache:13 .es5/templates/sign_up_password.mustache:15
 msgid ""
@@ -1474,7 +1474,7 @@ msgstr ""
 
 #: .es5/templates/sign_up_password.mustache:14
 msgid "Create account"
-msgstr ""
+msgstr "Эҷод кардани ҳисоб"
 
 #: .es5/templates/support.mustache:1 .es5/templates/partial/brand-messaging.mustache:1
 msgid "Mozilla m logo"
@@ -1482,19 +1482,19 @@ msgstr ""
 
 #: .es5/templates/support.mustache:2
 msgid "Mozilla account"
-msgstr ""
+msgstr "Ҳисоби «Mozilla»"
 
 #: .es5/templates/support.mustache:3
 msgid "Account Home"
-msgstr ""
+msgstr "Саҳифаи асосии ҳисоб"
 
 #: .es5/templates/support.mustache:4
 msgid "Subscriptions"
-msgstr ""
+msgstr "Обунаҳо"
 
 #: .es5/templates/support.mustache:5 .es5/templates/support.mustache:6
 msgid "Contact Us"
-msgstr ""
+msgstr "Тамос бо мо"
 
 #: .es5/templates/support.mustache:7
 msgid "What are you contacting us about?"
@@ -1510,15 +1510,15 @@ msgstr ""
 
 #: .es5/templates/support.mustache:13
 msgid "Payment & billing"
-msgstr ""
+msgstr "Пардохт ва ҳисоббарорӣ"
 
 #: .es5/templates/support.mustache:14
 msgid "Account issues"
-msgstr ""
+msgstr "Масъалаҳои ҳисоб"
 
 #: .es5/templates/support.mustache:15
 msgid "Technical issues"
-msgstr ""
+msgstr "Масъалахои техникй"
 
 #: .es5/templates/support.mustache:16
 msgid "Provide feedback / request features"
@@ -1542,11 +1542,11 @@ msgstr ""
 
 #: .es5/templates/support.mustache:23
 msgid "Send"
-msgstr ""
+msgstr "Фиристодан"
 
 #: .es5/templates/support.mustache:24
 msgid "Terms of Service"
-msgstr ""
+msgstr "Шартҳои хизматрасонӣ"
 
 #: .es5/templates/would-you-like-to-sync.mustache:1
 msgid "Would you like to sync this device to your account?"
@@ -1566,11 +1566,11 @@ msgstr ""
 
 #: .es5/templates/settings/account_recovery/confirm_password.mustache:3
 msgid "Enter Password"
-msgstr ""
+msgstr "Ниҳонвожаро ворид намоед"
 
 #: .es5/templates/push/completed.mustache:2 .es5/templates/pair/auth_complete.mustache:2
 msgid "Successfully connected"
-msgstr ""
+msgstr "Бо муваффақият пайваст шуд"
 
 #: .es5/templates/push/completed.mustache:3
 msgid "Please close this page and continue on the other device."
@@ -1582,7 +1582,7 @@ msgstr ""
 
 #: .es5/templates/push/confirm_login.mustache:3
 msgid "Confirm sign-in"
-msgstr ""
+msgstr "Тасдиқ кардани воридшавӣ"
 
 #: .es5/templates/push/confirm_login.mustache:4
 msgid "If you suspect that someone is trying to gain access to your account, <a id=\"change-password\" href=\"/settings/change_password\">please change your password.</a>"
@@ -1598,7 +1598,7 @@ msgstr ""
 
 #: .es5/templates/push/send_login.mustache:4
 msgid "Resend tab"
-msgstr ""
+msgstr "Аз нав фиристодани варақа"
 
 #: .es5/templates/push/send_login.mustache:5
 msgid "Tab not arriving? Send an email instead"
@@ -1610,7 +1610,7 @@ msgstr ""
 
 #: .es5/templates/post_verify/third_party_auth/set_password.mustache:9 .es5/templates/post_verify/finish_account_setup/set_password.mustache:9
 msgid "Create password"
-msgstr ""
+msgstr "Эҷод кардани ниҳонвожа"
 
 #: .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:1 .es5/templates/post_verify/secondary_email/add_secondary_email.mustache:4
 msgid "Add a secondary email address"
