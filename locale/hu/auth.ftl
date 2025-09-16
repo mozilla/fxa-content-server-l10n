@@ -636,7 +636,7 @@ subscriptionPaymentExpired-subject-2 = A(z) { $productName } fizetési módja le
 subscriptionPaymentExpired-title-2 = A fizetési módja lejárt vagy hamarosan lejár
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-content-2 = A(z) { $productName } összeget használt fizetési mód lejárt vagy hamarosan lejár.
+subscriptionPaymentExpired-content-2 = A(z) { $productName } előfizetésének befizetéséhez használt fizetési módja lejárt vagy hamarosan lejár.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = A(z) { $productName } befizetése sikertelen
