@@ -632,7 +632,7 @@ subscriptionFirstInvoice-content-auto-renew = Előfizetése számlázási idősz
 subscriptionFirstInvoice-content-next-invoice = Következő számla: { $nextInvoiceDateOnly }
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
-subscriptionPaymentExpired-subject-2 = A(z) { $productName } fizetési mód lejárt vagy hamarosan lejár
+subscriptionPaymentExpired-subject-2 = A(z) { $productName } fizetési módja lejárt vagy hamarosan lejár
 subscriptionPaymentExpired-title-2 = A fizetési módja lejárt vagy hamarosan lejár
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
