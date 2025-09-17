@@ -64,7 +64,7 @@ intent-payment-error-get-in-touch = Autorizace vaší platby se nezdařila. Kont
 intent-payment-error-generic = Při zpracování platby došlo k neočekávané chybě, zkuste to prosím znovu.
 intent-payment-error-insufficient-funds = Vypadá to, že na vaší kartě není dostatek prostředků. Zkuste použít jinou.
 general-paypal-error = Při zpracování platby došlo k neočekávané chybě, zkuste to prosím znovu.
-paypal-active-subscription-no-billing-agreement-error = Zdá se, že při fakturaci na váš účet { -brand-paypal } nastal problém. Znovu povolte automatické platby za vaše předplatné.
+paypal-active-subscription-no-billing-agreement-error = Vypadá to, že došlo k problému s účtováním vašeho účtu { -brand-paypal }. Znovu prosím povolte automatické platby za předplatné.
 
 ## Processing page and Needs Input page - /checkout and /upgrade
 ## Common strings used in multiple pages
@@ -289,8 +289,8 @@ next-new-user-subscribe-product-assurance = Vaši e-mailovou adresu použijeme p
 
 subscription-content-current-invoice-billed-on-with-tax = { $invoiceTotal } + { $taxDue } <span>zaplaceno dne { $billedOnDate }</span>
 subscription-content-current-invoice-billed-on-no-tax = { $invoiceTotal } <span>zaplaceno dne { $billedOnDate }</span>
-subscription-content-credit-issued-to-your-account = Na váš účet bude připsáno <strong>{ $creditApplied }</strong>
-subscription-content-coupon-applied = Částka { $promotionName } použita
+subscription-content-credit-issued-to-your-account = Na váš účet bude připsán kredit <strong>{ $creditApplied }</strong>
+subscription-content-coupon-applied = Kupón { $promotionName } byl použit
 subscription-content-next-bill-excl-with-tax = Další platba <strong>{ $nextInvoiceTotal } + { $taxDue }</strong>, kromě slev, je splatná <strong>{ $nextBillDate }</strong>
 subscription-content-next-bill-excl-no-tax = Další platba <strong>{ $nextInvoiceTotal }</strong>, kromě diskontů, je splatná <strong>{ $nextBillDate }</strong>
 subscription-content-heading-cancel-subscription = Zrušit předplatné

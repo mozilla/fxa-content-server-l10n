@@ -366,7 +366,7 @@ confirmation-link-reused-message = Každý potvrzovací odkaz lze použít pouze
 ## Locale Toggle Component
 
 locale-toggle-select-label = Vyberte jazyk
-locale-toggle-browser-default = Výchozí prohlížeč
+locale-toggle-browser-default = Předvolený jazyk prohlížeče
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Špatný požadavek
 
@@ -498,9 +498,9 @@ connect-another-find-fx-mobile-2 = { -brand-firefox } najdete na { -google-play 
 # Alt text for Google Play and Apple App store images that will be shown if the image can't be loaded.
 # These images are used to encourage users to download Firefox on their mobile devices.
 connect-another-play-store-image-2 =
-    .alt = Stáhnout { -brand-firefox(case: "acc") } z { -google-play(case: "gen") }
+    .alt = Stáhnout { -brand-firefox } z { -google-play }
 connect-another-app-store-image-3 =
-    .alt = Stáhnout { -brand-firefox(case: "acc") } z { -app-store(case: "gen") }
+    .alt = Stáhnout { -brand-firefox } z { -app-store }
 
 ## Connected services section
 
@@ -742,7 +742,7 @@ header-menu-closed = Nabídka navigace na webu
 header-back-to-top-link =
     .title = Zpět nahoru
 header-back-to-settings-link =
-    .title = Zpět na nastavení aplikace { -product-mozilla-account }
+    .title = Zpět na nastavení { -product-mozilla-account }
 header-title-2 = { -product-mozilla-account }
 header-help = Nápověda
 
@@ -767,7 +767,7 @@ modal-default-confirm-button = Potvrdit
 ## ModalMfaProtected
 
 modal-mfa-protected-title = Zadejte potvrzovací kód
-modal-mfa-protected-subtitle = Pomozte nám ujistit se, že je to vy, měnící informace ve svém účtu
+modal-mfa-protected-subtitle = Pomozte nám ujistit se, že jste to vy, kdo mění informace o vašem účtu.
 # This string is used to show a notification to the user for them to enter
 # email confirmation code to update their multi-factor-authentication-protected
 # account settings

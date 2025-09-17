@@ -790,7 +790,7 @@ verifyAccountChange-subject = Pro změnu účtu použijte { $code }
 verifyAccountChange-preview =
     { $expirationTime ->
         [one] Platnost kódu vyprší za { $expirationTime } minutu.
-        [few] Platnost kódu vyprší za { $expirationTime } minut.
+        [few] Platnost kódu vyprší za { $expirationTime } minuty.
        *[other] Platnost kódu vyprší za { $expirationTime } minut.
     }
 verifyAccountChange-title = Měníte informace o svém účtu?
@@ -802,7 +802,7 @@ verifyAccountChange-prompt = Pokud ano, zde je váš autorizační kód:
 verifyAccountChange-expiry-notice =
     { $expirationTime ->
         [one] Platnost vyprší za { $expirationTime } minutu.
-        [few] Platnost vyprší za { $expirationTime } minut.
+        [few] Platnost vyprší za { $expirationTime } minuty.
        *[other] Platnost vyprší za { $expirationTime } minut.
     }
 # Variables:
