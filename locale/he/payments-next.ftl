@@ -16,6 +16,8 @@ location-banner-currency-change = שינוי מטבע אינו נתמך. כדי 
 ## Page - Upgrade page
 
 upgrade-page-payment-information = פרטי תשלום
+# $nextInvoiceDate (number) - The date of the next invoice
+upgrade-page-acknowledgment = התוכנית שלך תשתנה מיד, ויבוצע חיוב על סכום יחסי עבור שאר תקופת מחזור החיוב הנוכחי. החל מ־{ $nextInvoiceDate } יבוצע חיוב על הסכום המלא.
 
 ## Authentication Error page
 
@@ -97,6 +99,7 @@ subscription-management-account-profile-picture = תמונת פרופיל חשב
 
 ## Page - Subscription Management
 
+subscription-management-account-credit-balance-message = הזיכוי יחול באופן אוטומטי על חשבוניות עתידיות
 subscription-management-payment-information-heading = פרטי תשלום
 subscription-management-button-add-payment-method-aria = הוספת אמצעי תשלום
 subscription-management-button-add-payment-method = הוספה
