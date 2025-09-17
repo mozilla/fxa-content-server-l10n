@@ -121,7 +121,13 @@ subscription-management-button-support = 获取帮助
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-support-aria = 获取 { $productName } 的帮助信息
 subscription-management-your-apple-iap-subscriptions-aria = 您的 { -brand-apple } 应用内订阅
+subscription-management-apple-in-app-purchase-1 = { -brand-apple }：应用内购买
 subscription-management-your-google-iap-subscriptions-aria = 您的 { -brand-google } 应用内订阅
+subscription-management-google-in-app-purchase-1 = { -brand-google }：应用内购买
+# $date (String) - Date of next bill
+subscription-management-iap-sub-next-bill-is-due = 下个结算日为 <strong>{ $date }</strong>
+# $date (String) - Date of In-App purchase expires
+subscription-management-iap-sub-will-expire-on = 您的订阅将于 <strong>{ $date }</strong> 过期
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscription-management-button-manage-subscription-aria = 管理 { $productName } 的订阅
 subscription-management-button-manage-subscription = 管理
@@ -281,6 +287,12 @@ next-new-user-subscribe-product-assurance = 我们只会使用您的邮箱地址
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
+subscription-content-current-invoice-billed-on-with-tax = { $invoiceTotal } + { $taxDue } <span>结算日为 { $billedOnDate }</span>
+subscription-content-current-invoice-billed-on-no-tax = { $invoiceTotal } <span>结算日为 { $billedOnDate }</span>
+subscription-content-credit-issued-to-your-account = <strong>{ $creditApplied }</strong> 余额已存入您的账户
+subscription-content-coupon-applied = 已享“{ $promotionName }”优惠
+subscription-content-next-bill-excl-with-tax = 下次将于 <strong>{ $nextBillDate }</strong> 收取 <strong>{ $nextInvoiceTotal } + { $taxDue }</strong>（未含优惠）
+subscription-content-next-bill-excl-no-tax = 下次将于 <strong>{ $nextBillDate }</strong> 收取 <strong>{ $nextInvoiceTotal }</strong>（未含优惠）
 subscription-content-heading-cancel-subscription = 取消订阅
 subscription-content-no-longer-use-message = 在账单周期的最后一天（{ $currentPeriodEnd }）过后，您将无法继续使用 { $productName }。
 subscription-content-cancel-access-message = 在 { $currentPeriodEnd } 后取消我的 { $productName } 使用权，并删除保存的信息
