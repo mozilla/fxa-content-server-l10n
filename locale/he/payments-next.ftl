@@ -279,6 +279,8 @@ next-new-user-subscribe-product-assurance = אנו משתמשים בדוא״ל �
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
+subscription-content-current-invoice-billed-on-with-tax = <span>חיוב של</span> { $invoiceTotal } + { $taxDue } <span>בוצע בתאריך { $billedOnDate }</span>
+subscription-content-current-invoice-billed-on-no-tax = <span>חיוב של</span> { $invoiceTotal } <span>בוצע בתאריך { $billedOnDate }</span>
 subscription-content-credit-issued-to-your-account = זיכוי בסך <strong>{ $creditApplied }</strong> הונפק לחשבון שלך
 subscription-content-coupon-applied = ‏{ $promotionName } הוחל
 subscription-content-next-bill-excl-with-tax = החשבון הבא בסך <strong>{ $nextInvoiceTotal } + { $taxDue }</strong>, למעט הנחות, יחויב בתאריך <strong>{ $nextBillDate }</strong>
