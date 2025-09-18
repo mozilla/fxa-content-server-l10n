@@ -180,10 +180,6 @@ tfa-row-action-add = जोड़ें
 # This string appears as a separation between the two, in the following order: "Enter your password" "Or"(this string) (continue-with-google-button with aria equivalent text) / (continue-with-apple-button with aria equivalent text)
 third-party-auth-options-or = या
 
-# For the sign-in page, when 3rd-party auth is the only option, this string appears with a divider line between the user's avatar on top and 3rd-party authentication buttons (continue-with-google continue-with-apple buttons) on bottom.
-# This could also be translated as "Sign in with the following" or "Sign in with the below".
-
-
 ## Auth-server based errors that originate from backend service
 
 auth-error-102 = अज्ञात खाता
@@ -194,14 +190,6 @@ auth-error-110 = अमान्य टोकन
 
 index-email-input =
     .label = अपना ईमेल दर्ज करें
-
-## InlineRecoverySetup page
-## When users are creating an account, they may get pushed to setup 2FA
-## in this case, they will encounter this page in the signup process (hence calling it "Inline)
-
-# This button allows a user to copy their recovery codes to their clipboard
-# This button allows the user to cancel setup of two-factor authentication for their account
-inline-recovery-cancel-button = रद्द करें
 
 ## Pair index page
 
