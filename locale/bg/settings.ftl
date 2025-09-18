@@ -3,6 +3,19 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Brand Messaging component
+## Used to show in product messaging about upcoming brand changes
+
+# This is an extra link element, that directs users to a page where they can learn more about the branding changes.
+brand-learn-more = Научете повече
+
+## ButtonDownloadRecoveryKeyPDF
+## Clicking on this button downloads a PDF file that contains the user's account recovery key
+## The account recovery key can be used to recover data when users forget their account password
+
+# Followed by a link (https://mzl.la/3bNrM1I) to get more information and support
+recovery-key-pdf-support = Научете повече за ключа за възстановяване на профила
+
 ## Ready component
 
 ready-continue = Продължаване
@@ -41,6 +54,11 @@ flow-container-back = Назад
 
 # This link allows user to proceed to the next step without clicking the download button
 flow-recovery-key-download-next-link-v2 = Напред без изтегляне
+
+## FlowSetup2faApp
+
+# links to https://support.mozilla.org/kb/secure-firefox-account-two-step-authentication#w_step-one
+flow-setup-2fa-more-info-link = Научете повече за приложенията за удостоверяване
 
 ## HeaderLockup component, the header in account settings
 
@@ -138,6 +156,18 @@ continue-with-apple-button = Напред с { -brand-apple }
 #                          the prefix as required by the current locale (for example, "in 15 minutes", "dans 15 minutes").
 auth-error-114 = Твърде много опити. Опитайте отново { $retryAfter }.
 auth-error-1002 = Сесията е изтекла. Впишете се, за да продължите.
+
+## Cannot Create Account page
+## Users are redirected to this page if they attempt to create an account that does not meet age requirements.
+
+# For an external link: https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy
+cannot-create-account-learn-more-link = Научете повече
+
+## Cookies disabled page
+## Users will see this page if they have local storage or cookies disabled.
+
+# An external link going to: https://support.mozilla.org/kb/cookies-information-websites-store-on-your-computer
+cookies-disabled-learn-more = Научете повече
 
 ## InlineTotpSetup page
 ## TOTP (time-based one-time password) is a form of two-factor authentication (2FA).
