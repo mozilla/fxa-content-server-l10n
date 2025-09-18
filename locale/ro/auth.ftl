@@ -543,7 +543,7 @@ recovery-title-2 = Ți-ai uitat parola?
 # Information on the device, location, and date and time of the request that triggered the email follows.
 recovery-request-origin-2 = Am primit o solicitare de schimbare a parolei pentru contul { -product-mozilla-account } de pe:
 recovery-new-password-button = Creează o parolă nouă dând clic pe butonul de mai jos. Linkul va expira într-o oră.
-recovery-copy-paste = Creează o parolă nouă prin copiere și lipire a URL-ului de mai jos în browser. Linkul va expira într-o oră.
+recovery-copy-paste = Creează o parolă nouă prin copierea și inserarea URL-ului de mai jos în browser. Linkul va expira într-o oră.
 recovery-action = Creează o parolă nouă
 #  Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
