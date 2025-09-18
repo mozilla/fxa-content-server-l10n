@@ -826,10 +826,10 @@ tfa-replace-code-success-alert-4 = A tartalék hitelesítési kódok frissítve
 tfa-create-code-success-alert = Tartalék hitelesítési kódok létrehozva
 # Custom messaging for users replacing existing backup codes - Download step (1 of 2)
 # On this step, the codes are not yet replaced in the database - the old codes are still valid until step 2 is completed.
-tfa-replace-code-download-description = Tartsa ezeket egy olyan helyen, amelyre emlékezni fog. A régi kódok lecserélésre kerülnek a következő lépés befejezése után.
+tfa-replace-code-download-description = Tartsa ezeket egy olyan helyen, amelyre emlékezni fog. A régi kódok le lesznek cserélve a következő lépés befejezése után.
 # Custom messaging for users replacing existing backup codes - Confirm step (2 of 2)
 # Until this confirmation step is successfully completed, the old codes are still active and the new codes are not saved in the database.
-tfa-replace-code-confirm-description = Erősítse meg a kódok elmentését egy beírásával. A lépés befejeztével a régi tartalék hitelesítési kódok letiltásra kerülnek.
+tfa-replace-code-confirm-description = Erősítse meg a kódok elmentését az egyik beírásával. A lépés befejeztével a régi tartalék hitelesítési kódok le lesznek tiltva.
 # Error shown when the entered backup code does not match any of the generated codes
 tfa-incorrect-recovery-code-1 = Érvénytelen tartalék hitelesítési kód
 
@@ -1278,7 +1278,7 @@ terms-privacy-agreement-default-2 = A folytatással elfogadja a <mozillaAccounts
 third-party-auth-options-or = Vagy
 # For the sign-in page, when 3rd-party auth is the only option, this string appears with a divider line between the user's avatar on top and 3rd-party authentication buttons (continue-with-google continue-with-apple buttons) on bottom.
 # This could also be translated as "Sign in with the following" or "Sign in with the below".
-third-party-auth-options-sign-in-with = Bejelentkezés ezzel
+third-party-auth-options-sign-in-with = Bejelentkezés ezzel:
 continue-with-google-button = Folytatás a { -brand-google }-lel
 continue-with-apple-button = Folytatás az { -brand-apple }-lel
 
