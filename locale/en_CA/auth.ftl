@@ -704,6 +704,12 @@ subscriptionUpgrade-upgrade-info-2 = You have successfully upgraded to { $produc
 
 subscriptionUpgrade-content-charge-prorated-1 = You have been charged a one-time fee of { $invoiceAmountDue } to reflect your subscription’s higher price for the remainder of this billing period ({ $productPaymentCycleOld }).
 subscriptionUpgrade-content-charge-credit = You have received an account credit in the amount of { $paymentProrated }.
+subscriptionUpgrade-content-new-price-day-dtax = Going forward, you will be charged { $paymentAmountNew } + { $paymentTaxNew } tax per day, excluding discounts.
+subscriptionUpgrade-content-new-price-week-tax = Going forward, you will be charged { $paymentAmountNew } + { $paymentTaxNew } tax per week, excluding discounts.
+subscriptionUpgrade-content-new-price-month-tax = Going forward, you will be charged { $paymentAmountNew } + { $paymentTaxNew } tax per month, excluding discounts.
+subscriptionUpgrade-content-new-price-halfyear-tax = Going forward, you will be charged { $paymentAmountNew } + { $paymentTaxNew } tax per six months, excluding discounts.
+subscriptionUpgrade-content-new-price-year-tax = Going forward, you will be charged { $paymentAmountNew } + { $paymentTaxNew } tax per year, excluding discounts.
+subscriptionUpgrade-content-new-price-default-tax = Going forward, you will be charged { $paymentAmountNew } + { $paymentTaxNew } tax per billing interval, excluding discounts.
 subscriptionUpgrade-existing = If any of your existing subscriptions overlap with this upgrade, we’ll handle them and send you a separate email with the details. If your new plan includes products that require installation, we’ll send you a separate email with setup instructions.
 subscriptionUpgrade-auto-renew = Your subscription will automatically renew each billing period unless you choose to cancel.
 unblockCode-subject = Account authorization code
