@@ -369,7 +369,7 @@ confirmation-link-reused-message = Ta potrditvena povezava je bila že uporablje
 ## Locale Toggle Component
 
 locale-toggle-select-label = Izberi jezik
-locale-toggle-browser-default = Privzeti brskalnik
+locale-toggle-browser-default = Privzeti v brskalniku
 # Users will see this heading when the URL or network request is malformed, e.g. a query parameter is required and is invalid
 error-bad-request = Zahteva z napako
 
@@ -1286,7 +1286,7 @@ terms-privacy-agreement-default-2 = Z nadaljevanjem se strinjate s <mozillaAccou
 third-party-auth-options-or = ali
 # For the sign-in page, when 3rd-party auth is the only option, this string appears with a divider line between the user's avatar on top and 3rd-party authentication buttons (continue-with-google continue-with-apple buttons) on bottom.
 # This could also be translated as "Sign in with the following" or "Sign in with the below".
-third-party-auth-options-sign-in-with = Prijavite se s
+third-party-auth-options-sign-in-with = Prijava s ponudnikom
 continue-with-google-button = Nadaljuj z { -brand-google(sklon: "orodnik") }
 continue-with-apple-button = Nadaljuj z { -brand-apple(sklon: "orodnik") }
 
