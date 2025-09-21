@@ -285,6 +285,8 @@ next-new-user-subscribe-product-assurance = Roiporu ne ñanduti veve romoheñói
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
+subscription-content-current-invoice-billed-on-with-tax = { $invoiceTotal } + { $taxDue } <span>oñembokuatiáva { $billedOnDate }</span>
+subscription-content-current-invoice-billed-on-no-tax = { $invoiceTotal } <span>oñembokuatiáva { $billedOnDate }</span>
 subscription-content-coupon-applied = { $promotionName } mboajepyre
 subscription-content-heading-cancel-subscription = Mboheraguapy jeheja
 subscription-content-button-stay-subscribed = Eime mboheguapýpe
@@ -293,6 +295,11 @@ subscription-content-button-cancel-subscription = Ejheja mboheraguapy
     .aria-label = Ejheja mboheraguapy { $productName }
 subscription-content-button-cancel = Heja
     .aria-label = Eipe’a ñemboheraguapy { $productName } pegua
+subscription-content-cancel-action-error = Oiko peteĩ jejavy eha’arõ’ỹva. Eha’ãjey ag̃ave.
+subscription-cancellation-dialog-title = Ore rombyasy ehohaguére
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+subscription-cancellation-dialog-msg = Ne ñemboheraguapy { $name } pegua ojejokóma. Eikekuaáta gueteri { $name }-pe { $date } peve.
 subscription-content-button-resubscribe = Eñemboheraguapyjey
     .aria-label = Eñemboheraguapyjey { $productName }-pe
 
