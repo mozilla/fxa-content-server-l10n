@@ -676,6 +676,18 @@ flow-setup-2fa-backup-code-dl-button-continue = Ku’ejey
 flow-setup-2fa-inline-complete-success-banner = Ijurujáma mokõi jeku’épe ñemoneĩ
 flow-setup-2fa-inline-complete-backup-code = Ayvu ñemoneĩrã jeykekoha
 flow-setup-2fa-inline-complete-backup-phone = Pumbyry guerujeyrã
+# $count (Number) - an integer representing the number of backup
+# authentication codes remaining
+flow-setup-2fa-inline-complete-backup-code-info =
+    { $count ->
+        [one] { $count } ayvu hembýva
+       *[other] { $count } ayvuita hembýva
+    }
+flow-setup-2fa-inline-complete-learn-more-link = Mba’éichapa omo’ãta ne mba’ete
+# $serviceName (String) - the name of the product that the user will be
+# redirected to.
+flow-setup-2fa-inline-complete-continue-button = Eku’ejey { $serviceName } ndive
+flow-setup-2fa-prompt-heading = Emboheko ñemoneĩ mokõi jeku’épe
 flow-setup-2fa-prompt-continue-button = Ku’ejey
 
 ## FlowSetupPhoneConfirmCode
@@ -716,6 +728,8 @@ header-menu-open = Emboty poravorã
 header-menu-closed = Tenda kundahára poravorã
 header-back-to-top-link =
     .title = Ejevy yvateguápe
+header-back-to-settings-link =
+    .title = Eho { -product-mozilla-account } ñembohekópe
 header-title-2 = { -product-mozilla-account }
 header-help = Pytyvõ
 

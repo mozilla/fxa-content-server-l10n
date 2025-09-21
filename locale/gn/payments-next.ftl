@@ -287,6 +287,7 @@ next-new-user-subscribe-product-assurance = Roiporu ne ñanduti veve romoheñói
 
 subscription-content-current-invoice-billed-on-with-tax = { $invoiceTotal } + { $taxDue } <span>oñembokuatiáva { $billedOnDate }</span>
 subscription-content-current-invoice-billed-on-no-tax = { $invoiceTotal } <span>oñembokuatiáva { $billedOnDate }</span>
+subscription-content-credit-issued-to-your-account = <strong>{ $creditApplied }</strong> jedeverã og̃uahẽva ne mba’etépe
 subscription-content-coupon-applied = { $promotionName } mboajepyre
 subscription-content-heading-cancel-subscription = Mboheraguapy jeheja
 subscription-content-button-stay-subscribed = Eime mboheguapýpe
@@ -300,8 +301,14 @@ subscription-cancellation-dialog-title = Ore rombyasy ehohaguére
 # $name (String) - The name of the subscribed product.
 # $date (Date) - Last day of product access
 subscription-cancellation-dialog-msg = Ne ñemboheraguapy { $name } pegua ojejokóma. Eikekuaáta gueteri { $name }-pe { $date } peve.
+subscription-cancellation-dialog-aside = Eporandusépa. Eike <LinkExternal>{ -brand-mozilla } Pytyvõha</LinkExternal>.
 subscription-content-button-resubscribe = Eñemboheraguapyjey
     .aria-label = Eñemboheraguapyjey { $productName }-pe
+# $name (String) - The name of the subscribed product.
+# $date (Date) - Last day of product access
+subscription-content-resubscribe = Ndaikatuma’ãi eike { $name }-pe <strong>{ $date }</strong>.
+# $name (String) - The name of the subscribed product.
+resubscribe-dialog-title = ¿Eiporusépa gueteri { $name }?
 
 ## $name (String) - The name of the subscribed product.
 ## $amount (Number) - The amount billed (excluding tax if tax does not exist). It will be formatted as currency.
