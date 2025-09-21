@@ -301,6 +301,8 @@ subscription-cancellation-dialog-aside = Masz pytania? Odwiedź <LinkExternal>po
 ## $endDate (Date) - The end date of the subscription period.
 
 resubscribe-success-dialog-title = Dzięki! Wszystko gotowe.
+resubscribe-success-dialog-action-button-close = Zamknij
+    .aria-label = Zamknij okno dialogowe
 
 ## PriceInterval - shared by multiple components, including Details and PurchaseDetails
 ## $amount (Number) - The amount billed. It will be formatted as currency.
