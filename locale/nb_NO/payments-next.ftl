@@ -148,6 +148,7 @@ paypal-payment-management-page-invalid-description = Det ser ut til å være en 
 page-not-found-title = Fant ikke siden
 page-not-found-description = Siden du ba om ble ikke funnet. Vi har blitt varslet og vil fikse eventuelle lenker som ikke virker.
 page-not-found-back-button = Gå tilbake
+alert-dialog-title = Varslingsdialogboks
 
 ## Navigation breadcrumbs
 
@@ -155,6 +156,8 @@ page-not-found-back-button = Gå tilbake
 subscription-management-breadcrumb-account-home = Startside for kontoen
 # Link title - Subscriptions management
 subscription-management-breadcrumb-subscriptions = Abonnementer
+# Link title - Payment method management
+subscription-management-breadcrumb-payment-2 = Behandle betalingsmåter
 # $page refers to page titles used in the breadcrumb menu (e.g. Account Home, Subscriptions, Payment Methods)
 subscription-management-breadcrumb-back-aria = Gå tilbake til { $page }
 
@@ -285,8 +288,11 @@ next-new-user-subscribe-product-assurance = Vi bruker kun e-postadressen din til
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
+subscription-content-current-billed-on-tax = <strong>{ $invoiceTotal } + { $taxDue } moms</strong><span> fakturert den { $billedOnDate }</span>
+subscription-content-current-billed-on-no-tax = <strong>{ $invoiceTotal }</strong><span> fakturert den { $billedOnDate }</span>
 subscription-content-credit-issued-to-your-account = <strong>{ $creditApplied }</strong> kredit utstedt til kontoen din
 subscription-content-coupon-applied = { $promotionName } ble brukt
+subscription-content-next-bill-excl-disc-with-tax = Neste faktura på <strong>{ $nextInvoiceTotal } + { $taxDue } moms</strong>, uten rabatter, forfaller <strong>{ $nextBillDate }</strong>
 subscription-content-next-bill-excl-no-tax = Neste faktura på <strong>{ $nextInvoiceTotal }</strong>, uten rabatter, forfaller <strong>{ $nextBillDate }</strong>
 subscription-content-heading-cancel-subscription = Avbryt abonnement
 subscription-content-no-longer-use-message = Du vil ikke lenger kunne bruke { $productName } etter { $currentPeriodEnd }, den siste dagen i faktureringsperioden din.

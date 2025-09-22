@@ -220,6 +220,9 @@ subscription-charges-invoice-number = <b>Fakturanummer:</b> { $invoiceNumber }
 subscription-charges-invoice-number-plaintext = Fakturanummer: { $invoiceNumber }
 subscription-charges-invoice-date = <b>Dato:</b> { $invoiceDateOnly }
 subscription-charges-invoice-date-plaintext = Dato: { $invoiceDateOnly }
+subscription-charges-prorated-price = Pris justert etter bruk
+# $remainingAmountTotal (String) - The prorated amount of the subscription invoice, including currency, e.g. $4.00
+subscription-charges-prorated-price-plaintext = Pris justert etter bruk: { $remainingAmountTotal }
 subscription-charges-list-price = Listepris
 # $offeringPrice (String) - The list price of the subscription offering, including currency, e.g. $10.00
 subscription-charges-list-price-plaintext = Listepris: { $offeringPrice }

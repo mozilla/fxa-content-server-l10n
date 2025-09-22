@@ -248,6 +248,20 @@ subscription-charges-repeating-discount-plaintext =
     }
 subscription-charges-discount = Rabat
 subscription-charges-discount-plaintext = Rabat: { $invoiceDiscountAmount }
+subscription-charges-taxes = Dawki a popłatki
+# $invoiceTaxAmount (String) - The amount of the tax of the subscription invoice, including currency, e.g. $2.00
+subscriptionCharges-content-tax-plaintext = Dawki a popłatki: { $invoiceTaxAmount }
+subscription-charges-total = <b>Dohromady</b>
+# $invoiceTotal (String) - The total amount of the subscription invoice, including currency, e.g. $10.00
+subscription-charges-total-plaintext = Dohromady: { $invoiceTotal }
+subscription-charges-credit-applied = Dobroměće je nałožene
+# $creditApplied (String) - The amount of credit applied to the subscription invoice, including currency, e.g. $2.00
+subscription-charges-credit-applied-plaintext = Dobroměće nałožene: { $creditApplied }
+subscription-charges-amount-paid = <b>Suma zapłaćena</b>
+# $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied, including currency, e.g. $8.00
+subscription-charges-amount-paid-plaintext = Suma zapłaćena: { $invoiceAmountDue }
+# $creditReceived (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
+subscription-charges-credit-received = Sće dobroměće { $creditReceived } dóstał, kotrež so z wašimi přichodnymi zličbowankami rozličujo.
 
 ##
 
@@ -259,6 +273,13 @@ subscriptionSupport-plaintext = Maće prašenja wo swojim abonemenće? Naš team
 subscriptionSupportContact = Wulki dźak, zo sće { $productName } abonował. Jeli prašenja wo swojim abonemenće maće abo wjace informacijow wo { $productName } trjebaće,  <a data-l10n-name="subscriptionSupportUrl">stajće so prošu z nami do zwiska</a>.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupportContact-plaintext = Wulki dźak, zo sće { $productName } abonował. Jeli prašenja wo swojim abonemenće maće abo wjace informacijow wo { $productName }s trjebaće,  stajće so prošu z nami do zwiska.
+subscription-support-get-help = Wobstarajće sej pomoc za swój abonement
+subscription-support-manage-your-subscription = <a data-l10n-name="manageSubscriptionUrl">Rjadujće swój abonement</a>
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
+subscription-support-manage-your-subscription-plaintext = Rjadujće swój abonement
+subscription-support-contact-support = <a data-l10n-name="subscriptionSupportUrl">Pomoc skontaktować</a>
+# After the colon, there's a link to https://accounts.firefox.com/support
+subscription-support-contact-support-plaintext = Pomoc skontaktować:
 subscriptionUpdateBillingEnsure = Móžeće <a data-l10n-name="updateBillingUrl">tu</a> zawěsćić, zo waša płaćenska metoda a waše kontowe informacije su aktualne:
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdateBillingEnsure-plaintext = Móžeće tu zawěsćić, zo waša płaćenska metoda a waše kontowe informacije su aktualne:
