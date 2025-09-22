@@ -215,8 +215,39 @@ subscription-charges-invoice-number-plaintext = Čisło zličbowanki: { $invoice
 subscription-charges-invoice-date = <b>Datum:</b> { $invoiceDateOnly }
 subscription-charges-invoice-date-plaintext = Datum: { $invoiceDateOnly }
 subscription-charges-prorated-price = Podźělna płaćizna
+# $remainingAmountTotal (String) - The prorated amount of the subscription invoice, including currency, e.g. $4.00
+subscription-charges-prorated-price-plaintext = Podźělna płaćizna: { $remainingAmountTotal }
+subscription-charges-list-price = Lisćinowa płaćizna
+# $offeringPrice (String) - The list price of the subscription offering, including currency, e.g. $10.00
+subscription-charges-list-price-plaintext = LIsćinowa płaćizna: { $offeringPrice }
+subscription-charges-credit-from-unused-time = Dobropis za njezwužity čas
+# $unusedAmountTotal (String) - The credit amount from unused time of the subscription invoice, including currency, e.g. $2.00
+subscription-charges-credit-from-unused-time-plaintext = Dobroměće z njewužiteho časa: { $unusedAmountTotal }
+subscription-charges-subtotal = <b>Mjezywuslědk</b>
 # $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
 subscriptionFirstInvoiceDiscount-content-subtotal = Mjezysuma: { $invoiceSubtotal }
+
+## $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+## $discountDuration - The duration of the discount in number of months, e.g. "3" if the discount is 3-months
+
+subscription-charges-one-time-discount = Jónkróćny rabat
+subscription-charges-one-time-discount-plaintext = Jónkróćny rabat: { $invoiceDiscountAmount }
+subscription-charges-repeating-discount =
+    { $discountDuration ->
+        [one] { $discountDuration }-měsačny rabat
+        [two] { $discountDuration }-měsačny rabat
+        [few] { $discountDuration }-měsačny rabat
+       *[other] { $discountDuration }-měsačny rabat
+    }
+subscription-charges-repeating-discount-plaintext =
+    { $discountDuration ->
+        [one] { $discountDuration }-měsačny rabat: { $invoiceDiscountAmount }
+        [two] { $discountDuration }-měsačny rabat: { $invoiceDiscountAmount }
+        [few] { $discountDuration }-měsačny rabat: { $invoiceDiscountAmount }
+       *[other] { $discountDuration }-měsačny rabat: { $invoiceDiscountAmount }
+    }
+subscription-charges-discount = Rabat
+subscription-charges-discount-plaintext = Rabat: { $invoiceDiscountAmount }
 
 ##
 
