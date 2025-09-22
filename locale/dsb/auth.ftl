@@ -220,8 +220,53 @@ subscription-charges-invoice-number-plaintext = Numer zliceńki: { $invoiceNumbe
 subscription-charges-invoice-date = <b>Datum:</b> { $invoiceDateOnly }
 subscription-charges-invoice-date-plaintext = Datum: { $invoiceDateOnly }
 subscription-charges-prorated-price = Późělna płaśizna
+# $remainingAmountTotal (String) - The prorated amount of the subscription invoice, including currency, e.g. $4.00
+subscription-charges-prorated-price-plaintext = Późělna płaśizna: { $remainingAmountTotal }
+subscription-charges-list-price = Lisćinowa płaśizna
+# $offeringPrice (String) - The list price of the subscription offering, including currency, e.g. $10.00
+subscription-charges-list-price-plaintext = Lisćinowa płaśizna: { $offeringPrice }
+subscription-charges-credit-from-unused-time = Pśipisanje z njewužytego casa na konto
+# $unusedAmountTotal (String) - The credit amount from unused time of the subscription invoice, including currency, e.g. $2.00
+subscription-charges-credit-from-unused-time-plaintext = Pśipisanje z njewužytego casa na konto: { $unusedAmountTotal }
+subscription-charges-subtotal = <b>Mjazywuslědk</b>
 # $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
 subscriptionFirstInvoiceDiscount-content-subtotal = Mjazysuma: { $invoiceSubtotal }
+
+## $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+## $discountDuration - The duration of the discount in number of months, e.g. "3" if the discount is 3-months
+
+subscription-charges-one-time-discount = Jadnorazowy rabat
+subscription-charges-one-time-discount-plaintext = Jadnorazowy rabat: { $invoiceDiscountAmount }
+subscription-charges-repeating-discount =
+    { $discountDuration ->
+        [one] { $discountDuration }-mjasecny rabat
+        [two] { $discountDuration }-mjasecny rabat
+        [few] { $discountDuration }-mjaseny rabat
+       *[other] { $discountDuration }-mjasecny rabat
+    }
+subscription-charges-repeating-discount-plaintext =
+    { $discountDuration ->
+        [one] { $discountDuration }-mjasecny rabat: { $invoiceDiscountAmount }
+        [two] { $discountDuration }-mjasecny rabat: { $invoiceDiscountAmount }
+        [few] { $discountDuration }-mjasecny rabat: { $invoiceDiscountAmount }
+       *[other] { $discountDuration }-mjasecny rabat: { $invoiceDiscountAmount }
+    }
+subscription-charges-discount = Rabat
+subscription-charges-discount-plaintext = Rabat: { $invoiceDiscountAmount }
+subscription-charges-taxes = Danki a płaśonki
+# $invoiceTaxAmount (String) - The amount of the tax of the subscription invoice, including currency, e.g. $2.00
+subscriptionCharges-content-tax-plaintext = Danki a płaśonki: { $invoiceTaxAmount }
+subscription-charges-total = <b>Dogromady</b>
+# $invoiceTotal (String) - The total amount of the subscription invoice, including currency, e.g. $10.00
+subscription-charges-total-plaintext = Dogromady: { $invoiceTotal }
+subscription-charges-credit-applied = Pśipisanje na konto jo nałožone
+# $creditApplied (String) - The amount of credit applied to the subscription invoice, including currency, e.g. $2.00
+subscription-charges-credit-applied-plaintext = Pśipisanje na konto jo nałožone: { $creditApplied }
+subscription-charges-amount-paid = <b>Suma zapłaśona</b>
+# $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied, including currency, e.g. $8.00
+subscription-charges-amount-paid-plaintext = Suma zapłaśona: { $invoiceAmountDue }
+# $creditReceived (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
+subscription-charges-credit-received = Sćo dostał kontowy plus { $creditReceived }, kótaryž se do wašych pśichodnych zliceńkow zalicyjo.
 
 ##
 
@@ -233,6 +278,13 @@ subscriptionSupport-plaintext = Maśo pšašanja wó swójom abonemenśe? Naš t
 subscriptionSupportContact = Wjeliki źěk, až sćo aboněrował { $productName }. Jolic pšašanja wó swójom abonemenśe maśo abo wěcej informacijow wó { $productName }s trjebaśo,  <a data-l10n-name="subscriptionSupportUrl">stajśo se pšosym z nami do zwiska</a>.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupportContact-plaintext = Wjeliki źěk, až sćo aboněrował { $productName } Jolic pšašanja wó swójom abonemenśe maśo abo wěcej informacijow wó { $productName } trjebaśo,  stajśo se pšosym z nami do zwiska.
+subscription-support-get-help = Wobstarajśo se pomoc za swój abonement
+subscription-support-manage-your-subscription = <a data-l10n-name="manageSubscriptionUrl">Zastojśo swój abonement</a>
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
+subscription-support-manage-your-subscription-plaintext = Zastojśo swój abonement:
+subscription-support-contact-support = <a data-l10n-name="subscriptionSupportUrl">Z pomocu kontaktěrowaś</a>
+# After the colon, there's a link to https://accounts.firefox.com/support
+subscription-support-contact-support-plaintext = Z pomocu kontaktěrowaś:
 subscriptionUpdateBillingEnsure = Móžośo <a data-l10n-name="updateBillingUrl">how</a> zawěsćiś, až waša płaśeńska metoda a waše kontowe informacije su aktualne:
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdateBillingEnsure-plaintext = Móžośo how zawěsćiś, až waša płaśeńska metoda a waše kontowe informacije su aktualne:
@@ -273,6 +325,7 @@ location-state-country = { $stateCode }, { $country } (pówoblicone)
 # Variables:
 #  $country (stateCode) - User's country
 location-country = { $country } (pówoblicone)
+view-invoice-link-action = Zliceńku se woglědaś
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
 # After the colon, there's a link to https://pay.stripe.com/

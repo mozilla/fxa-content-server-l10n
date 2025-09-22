@@ -224,7 +224,7 @@ subscription-charges-prorated-price = Podźělna płaćizna
 subscription-charges-prorated-price-plaintext = Podźělna płaćizna: { $remainingAmountTotal }
 subscription-charges-list-price = Lisćinowa płaćizna
 # $offeringPrice (String) - The list price of the subscription offering, including currency, e.g. $10.00
-subscription-charges-list-price-plaintext = LIsćinowa płaćizna: { $offeringPrice }
+subscription-charges-list-price-plaintext = Lisćinowa płaćizna: { $offeringPrice }
 subscription-charges-credit-from-unused-time = Dobropis za njezwužity čas
 # $unusedAmountTotal (String) - The credit amount from unused time of the subscription invoice, including currency, e.g. $2.00
 subscription-charges-credit-from-unused-time-plaintext = Dobroměće z njewužiteho časa: { $unusedAmountTotal }
@@ -281,7 +281,7 @@ subscriptionSupportContact-plaintext = Wulki dźak, zo sće { $productName } abo
 subscription-support-get-help = Wobstarajće sej pomoc za swój abonement
 subscription-support-manage-your-subscription = <a data-l10n-name="manageSubscriptionUrl">Rjadujće swój abonement</a>
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
-subscription-support-manage-your-subscription-plaintext = Rjadujće swój abonement
+subscription-support-manage-your-subscription-plaintext = Rjadujće swój abonement:
 subscription-support-contact-support = <a data-l10n-name="subscriptionSupportUrl">Pomoc skontaktować</a>
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscription-support-contact-support-plaintext = Pomoc skontaktować:
