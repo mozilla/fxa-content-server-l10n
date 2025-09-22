@@ -148,6 +148,7 @@ paypal-payment-management-page-invalid-description = Il pare haber un error con 
 page-not-found-title = Pagina non trovate
 page-not-found-description = Le pagina que tu ha requestate non ha essite trovate. Nos ha recipite notification e va reparar qualcunque ligamines rupte.
 page-not-found-back-button = Retornar
+alert-dialog-title = Fenestra de dialogo de alerta
 
 ## Navigation breadcrumbs
 
@@ -155,6 +156,8 @@ page-not-found-back-button = Retornar
 subscription-management-breadcrumb-account-home = Pagina principal del conto
 # Link title - Subscriptions management
 subscription-management-breadcrumb-subscriptions = Subscriptiones
+# Link title - Payment method management
+subscription-management-breadcrumb-payment-2 = Gerer le methodos de pagamento
 # $page refers to page titles used in the breadcrumb menu (e.g. Account Home, Subscriptions, Payment Methods)
 subscription-management-breadcrumb-back-aria = Ir retro a { $page }
 
