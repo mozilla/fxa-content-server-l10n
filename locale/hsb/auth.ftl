@@ -192,6 +192,11 @@ payment-plan-charged = { $invoiceTotal } dnja { $invoiceDateOnly } wotknihowane
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 payment-plan-next-invoice = Přichodna zličbowanka: { $nextInvoiceDateOnly }
 
+## $paymentProviderName (String) - The brand name of the payment method, e.g. PayPal, Apple Pay, Google Pay, Link
+
+payment-method-payment-provider = <b>Płaćenska metoda:</b> { $paymentProviderName }
+payment-method-payment-provider-plaintext = Płaćenska metoda: { $paymentProviderName }
+
 ## This string displays when the type of credit card is known
 ## https://stripe.com/docs/payments/cards/supported-card-brands
 ## Variables:
@@ -320,6 +325,7 @@ location-state-country = { $stateCode }, { $country } (trochowane)
 # Variables:
 #  $country (stateCode) - User's country
 location-country = { $country } (trochowane)
+view-invoice-link-action = Zličbowanku wobhladać
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
 # After the colon, there's a link to https://pay.stripe.com/
@@ -664,6 +670,9 @@ subscriptionFirstInvoice-content-processing = Waše płaćenje so tuchwilu před
 subscriptionFirstInvoice-content-install-2 = Dóstanjeće separatnu mejlku wo tym, kak móžeće započeć { $productName } wužiwać.
 subscriptionFirstInvoice-content-auto-renew = Waš abonement so awtomatisce kóždu wotličensku dobu podlěšuje, chibazo wupowědźiće.
 # Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
+subscriptionFirstInvoice-content-your-next-invoice = Waša přichodna zličbowanka so dnja { $nextInvoiceDateOnly } wuda.
+# Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-subject-2 = Płaćenska metoda za { $productName } je spadnyła abo bórze spadnje
 subscriptionPaymentExpired-title-2 = Waša płaćenska metoda je spadnyła abo bórze spadnje
@@ -733,6 +742,9 @@ subscriptionSubsequentInvoice-title = Wulki dźak, zo sće abonent!
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-content-received = Smy waše najnowše płaćenje za { $productName } dóstali.
+# Variables:
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
+subscriptionSubsequentInvoice-content-your-next-invoice = Waša přichodna zličbowanka so dnja { $nextInvoiceDateOnly } wuda.
 # Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = Sće na { $productName } zaktualizował

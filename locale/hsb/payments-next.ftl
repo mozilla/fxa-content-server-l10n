@@ -151,6 +151,7 @@ paypal-payment-management-page-invalid-description = Zda so, zo je zmylk z waši
 page-not-found-title = Strona njeje so namakała
 page-not-found-description = Strona, kotruž sće požadał, njeje so namakała. Smy powěsć dóstali a porjedźimy skóncowane wotkazy.
 page-not-found-back-button = Wróćo
+alert-dialog-title = Warnowanski dialog
 
 ## Navigation breadcrumbs
 
@@ -158,6 +159,8 @@ page-not-found-back-button = Wróćo
 subscription-management-breadcrumb-account-home = Startowa strona konta
 # Link title - Subscriptions management
 subscription-management-breadcrumb-subscriptions = Abonementy
+# Link title - Payment method management
+subscription-management-breadcrumb-payment-2 = Płaćenske metody rjadować
 # $page refers to page titles used in the breadcrumb menu (e.g. Account Home, Subscriptions, Payment Methods)
 subscription-management-breadcrumb-back-aria = Wróćo k { $page }
 
@@ -288,8 +291,11 @@ next-new-user-subscribe-product-assurance = Wužiwamy jenož wašu e-mejlowu adr
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
+subscription-content-current-billed-on-tax = <strong>{ $invoiceTotal } + { $taxDue } dawka</strong> <span>stej so { $billedOnDate } wobličiłoj</span>
+subscription-content-current-billed-on-no-tax = <strong>{ $invoiceTotal }</strong> <span>je so { $billedOnDate } wobličił</span>
 subscription-content-credit-issued-to-your-account = Dobropis <strong>{ $creditApplied }</strong> je so wašemu kontu dobropisał
 subscription-content-coupon-applied = { $promotionName } nałoženy
+subscription-content-next-bill-excl-disc-with-tax = Přichodna zličbowanka <strong>{ $nextInvoiceTotal } + { $taxDue } dawka</strong>, bjez rabatow, je płaćomna <strong>{ $nextBillDate }</strong>
 subscription-content-next-bill-excl-no-tax = Přichodna zličbowanja <strong>{ $nextInvoiceTotal }</strong>, bjez rabatow, je płaćomna <strong>{ $nextBillDate }</strong>
 subscription-content-heading-cancel-subscription = Abonement wupowědźić
 subscription-content-no-longer-use-message =
