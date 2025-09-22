@@ -192,9 +192,34 @@ payment-plan-charged = { $invoiceTotal } dnja { $invoiceDateOnly } wópisane
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 payment-plan-next-invoice = Pśiduca zliceńka: { $nextInvoiceDateOnly }
 
+## $paymentProviderName (String) - The brand name of the payment method, e.g. PayPal, Apple Pay, Google Pay, Link
+
+payment-method-payment-provider = <b>Płaśeńska metoda:</b> { $paymentProviderName }
+payment-method-payment-provider-plaintext = Płaśeńska metoda: { $paymentProviderName }
+
+## This string displays when the type of credit card is known
+## https://stripe.com/docs/payments/cards/supported-card-brands
+## Variables:
+##  $cardName (String) - The brand name of the credit card, e.g. American Express
+##  $lastFour (String) - The last four digits of the credit card, e.g. 5309
+
+payment-provider-card-name-ending-in-plaintext = Płaśeńska metoda: { $cardName } se na { $lastFour } kóńcy
+payment-provider-card-ending-in-plaintext = Płaśeńska metoda: Kórta se na { $lastFour } kóńcy
+payment-provider-card-ending-in = <b>Płaśeńska metoda:</b> Kórta se na { $lastFour } kóńcy
+payment-provider-card-ending-in-card-name = <b>Płaśeńska metoda:</b> { $cardName } se na { $lastFour } kóńcy
+subscription-charges-invoice-summary = Zespominanje zliceńki
+
+# Variables:
+
+
 ## $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 ## $invoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
 
+subscription-charges-invoice-number = <b>Numer zliceńki:</b> { $invoiceNumber }
+subscription-charges-invoice-number-plaintext = Numer zliceńki: { $invoiceNumber }
+subscription-charges-invoice-date = <b>Datum:</b> { $invoiceDateOnly }
+subscription-charges-invoice-date-plaintext = Datum: { $invoiceDateOnly }
+subscription-charges-prorated-price = Późělna płaśizna
 # $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
 subscriptionFirstInvoiceDiscount-content-subtotal = Mjazysuma: { $invoiceSubtotal }
 
