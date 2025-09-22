@@ -148,6 +148,7 @@ paypal-payment-management-page-invalid-description = Parece haver um erro com a 
 page-not-found-title = Página não encontrada
 page-not-found-description = A página que solicitou não foi encontrada. Fomos notificados e iremos corrigir todas as ligações que possam estar quebradas.
 page-not-found-back-button = Voltar
+alert-dialog-title = Diálogo de alerta
 
 ## Navigation breadcrumbs
 
@@ -156,7 +157,7 @@ subscription-management-breadcrumb-account-home = Página inicial da conta
 # Link title - Subscriptions management
 subscription-management-breadcrumb-subscriptions = Subscrições
 # Link title - Payment method management
-subscription-management-breadcrumb-payment = Métodos de pagamento
+subscription-management-breadcrumb-payment-2 = Gerir métodos de pagamento
 # $page refers to page titles used in the breadcrumb menu (e.g. Account Home, Subscriptions, Payment Methods)
 subscription-management-breadcrumb-back-aria = Voltar para { $page }
 
@@ -287,11 +288,11 @@ next-new-user-subscribe-product-assurance = Nós apenas utilizamos o seu e-mail 
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
-subscription-content-current-invoice-billed-on-with-tax = { $invoiceTotal } + { $taxDue } <span>cobrado a { $billedOnDate }</span>
-subscription-content-current-invoice-billed-on-no-tax = { $invoiceTotal } <span>cobrado a { $billedOnDate }</span>
+subscription-content-current-billed-on-tax = <strong>{ $invoiceTotal } + { $taxDue } impostos</strong><span> faturados a { $billedOnDate }</span>
+subscription-content-current-billed-on-no-tax = <strong>{ $invoiceTotal }</strong><span> debitado a { $billedOnDate }</span>
 subscription-content-credit-issued-to-your-account = <strong>{ $creditApplied }</strong> crédito emitido para a sua conta
 subscription-content-coupon-applied = { $promotionName } aplicados
-subscription-content-next-bill-excl-with-tax = A próxima fatura de <strong>{ $nextInvoiceTotal } + { $taxDue }</strong>, excluindo desconto, vence a <strong>{ $nextBillDate }</strong>
+subscription-content-next-bill-excl-disc-with-tax = A próxima fatura de <strong>{ $nextInvoiceTotal } + { $taxDue } impostos</strong>, excluindo desconto, vence a <strong>{ $nextBillDate }</strong>
 subscription-content-next-bill-excl-no-tax = A próxima fatura de <strong>{ $nextInvoiceTotal }</strong>, excluindo desconto, vence a <strong>{ $nextBillDate }</strong>
 subscription-content-heading-cancel-subscription = Cancelar subscrição
 subscription-content-no-longer-use-message = Deixará de poder utilizar { $productName } depois de { $currentPeriodEnd }, o último dia do seu ciclo de faturação.
