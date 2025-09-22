@@ -189,51 +189,78 @@ payment-plan-charged = Debitado: { $invoiceTotal } em { $invoiceDateOnly }
 # Variables
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 payment-plan-next-invoice = Próxima Fatura: { $nextInvoiceDateOnly }
-# After the colon is how the user paid, e.g. PayPal or credit card
-payment-method = Método de pagamento:
-payment-provider-paypal-plaintext = { payment-method }{ -brand-paypal }
-# This string displays when the type of credit card is known
-# https://stripe.com/docs/payments/cards/supported-card-brands
-# Variables:
-#  $cardName (String) - The brand name of the credit card, e.g. American Express
-#  $lastFour (String) - The last four digits of the credit card, e.g. 5309
-credit-card-ending-in = Cartão { $cardName } que termina com { $lastFour }
-# This string displays when the type of credit card is not known or recognized
-# Variable: $lastFour (String) - The last four digits of the credit card, e.g. 5309
-unknown-card-ending-in = Cartão desconhecido que termina com { $lastFour }
-# Variables:
-#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
-subscriptionFirstInvoice-content-invoice-number = Número da fatura: <b>{ $invoiceNumber }</b>
-# Variables:
-#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
-subscriptionFirstInvoice-content-invoice-number-plaintext = Número da fatura: { $invoiceNumber }
-# Variables:
-#  $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
-subscriptionSubsequentInvoice-content-plan-change = Mudança de plano: { $paymentProrated }
-# Variables:
-#  $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
-subscriptionFirstInvoiceDiscount-content-subtotal = Subtotal: { $invoiceSubtotal }
-# Variables:
-#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
-subscriptionFirstInvoiceDiscount-content-discount = Desconto: -{ $invoiceDiscountAmount }
-# Variables
-#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
-subscriptionFirstInvoiceDiscount-content-discount-one-time = Desconto único: -{ $invoiceDiscountAmount }
-# Variables
-#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
-#  $discountDuration - The duration of the discount in number of months, e.g. 3 months
-subscriptionFirstInvoiceDiscount-content-discount-repeating = { $discountDuration }-Desconto mensal: -{ $invoiceDiscountAmount }
-# Variables:
-#  $invoiceTaxAmount (String) - The amount of the tax of the subscription invoice, including currency, e.g. $2.00
-subscriptionCharges-content-tax = Impostos e taxas: { $invoiceTaxAmount }
 
+## $paymentProviderName (String) - The brand name of the payment method, e.g. PayPal, Apple Pay, Google Pay, Link
+
+payment-method-payment-provider = <b>Método de pagamento:</b> { $paymentProviderName }
+payment-method-payment-provider-plaintext = Método de pagamento: { $paymentProviderName }
+
+## This string displays when the type of credit card is known
+## https://stripe.com/docs/payments/cards/supported-card-brands
 ## Variables:
-##  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
-##  $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
-##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
+##  $cardName (String) - The brand name of the credit card, e.g. American Express
+##  $lastFour (String) - The last four digits of the credit card, e.g. 5309
 
-subscriptionFirstInvoice-content-total-due = Debitado { $invoiceAmountDue } em { $invoiceDateOnly }
-subscriptionFirstInvoice-content-credit = Recebeu um crédito em conta de { $invoiceTotal }, que será aplicado às suas futuras faturas.
+payment-provider-card-name-ending-in-plaintext = Método de pagamento: { $cardName } que termina em { $lastFour }
+payment-provider-card-ending-in-plaintext = Método de pagamento: Cartão que termina em { $lastFour }
+payment-provider-card-ending-in = <b>Método de pagamento:</b> Cartão que termina em { $lastFour }
+payment-provider-card-ending-in-card-name = <b>Método de pagamento:</b> { $cardName } que termina em { $lastFour }
+subscription-charges-invoice-summary = Resumo da fatura
+
+# Variables:
+
+
+## $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+## $invoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
+
+subscription-charges-invoice-number = <b>Nº da fatura:</b> { $invoiceNumber }
+subscription-charges-invoice-number-plaintext = Número da fatura: { $invoiceNumber }
+subscription-charges-invoice-date = <b>Data:</b> { $invoiceDateOnly }
+subscription-charges-invoice-date-plaintext = Data: { $invoiceDateOnly }
+subscription-charges-prorated-price = Preço proporcional
+# $remainingAmountTotal (String) - The prorated amount of the subscription invoice, including currency, e.g. $4.00
+subscription-charges-prorated-price-plaintext = Preço proporcional: { $remainingAmountTotal }
+subscription-charges-list-price = Preço de tabela
+# $offeringPrice (String) - The list price of the subscription offering, including currency, e.g. $10.00
+subscription-charges-list-price-plaintext = Preço de tabela: { $offeringPrice }
+subscription-charges-credit-from-unused-time = Crédito de tempo não utilizado
+# $unusedAmountTotal (String) - The credit amount from unused time of the subscription invoice, including currency, e.g. $2.00
+subscription-charges-credit-from-unused-time-plaintext = Crédito de tempo não utilizado: { $unusedAmountTotal }
+subscription-charges-subtotal = <b>Subtotal</b>
+# $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
+subscriptionFirstInvoiceDiscount-content-subtotal = Subtotal: { $invoiceSubtotal }
+
+## $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
+## $discountDuration - The duration of the discount in number of months, e.g. "3" if the discount is 3-months
+
+subscription-charges-one-time-discount = Desconto único
+subscription-charges-one-time-discount-plaintext = Desconto único: { $invoiceDiscountAmount }
+subscription-charges-repeating-discount =
+    { $discountDuration ->
+        [one] { $discountDuration }-mês de desconto
+       *[other] { $discountDuration }-mês de desconto
+    }
+subscription-charges-repeating-discount-plaintext =
+    { $discountDuration ->
+        [one] Desconto no mês de { $discountDuration }: { $invoiceDiscountAmount }
+       *[other] Desconto no mês de { $discountDuration }: { $invoiceDiscountAmount }
+    }
+subscription-charges-discount = Desconto
+subscription-charges-discount-plaintext = Desconto: { $invoiceDiscountAmount }
+subscription-charges-taxes = Impostos e taxas
+# $invoiceTaxAmount (String) - The amount of the tax of the subscription invoice, including currency, e.g. $2.00
+subscriptionCharges-content-tax-plaintext = Impostos e taxas: { $invoiceTaxAmount }
+subscription-charges-total = <b>Total</b>
+# $invoiceTotal (String) - The total amount of the subscription invoice, including currency, e.g. $10.00
+subscription-charges-total-plaintext = Total: { $invoiceTotal }
+subscription-charges-credit-applied = Crédito aplicado
+# $creditApplied (String) - The amount of credit applied to the subscription invoice, including currency, e.g. $2.00
+subscription-charges-credit-applied-plaintext = Crédito aplicado: { $creditApplied }
+subscription-charges-amount-paid = <b>Montante pago</b>
+# $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied, including currency, e.g. $8.00
+subscription-charges-amount-paid-plaintext = Montante pago: { $invoiceAmountDue }
+# $creditReceived (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
+subscription-charges-credit-received = Recebeu um crédito em conta de { $creditReceived }, que será aplicado às suas futuras faturas.
 
 ##
 
@@ -245,6 +272,13 @@ subscriptionSupport-plaintext = Dúvidas sobre a sua subscrição? A nossa equip
 subscriptionSupportContact = Obrigado pela subscrição no(a) { $productName }. Se tiver dúvidas sobre a sua subscrição ou precisar de mais informações sobre o(a) { $productName }, por favor, <a data-l10n-name="subscriptionSupportUrl">contacte-nos</a>.
 # After the colon, there's a link to https://accounts.firefox.com/support
 subscriptionSupportContact-plaintext = Obrigado por subscrever para o { $productName }. Se tiver dúvidas sobre a sua subscrição ou precisar de mais informação sobre o { $productName }, por favor, contacte-nos:
+subscription-support-get-help = Obtenha ajuda com a sua subscrição
+subscription-support-manage-your-subscription = <a data-l10n-name="manageSubscriptionUrl">Gerir a sua subscrição</a>
+# After the colon, there's a link to https://accounts.firefox.com/subscriptions
+subscription-support-manage-your-subscription-plaintext = Gerir a sua subscrição:
+subscription-support-contact-support = <a data-l10n-name="subscriptionSupportUrl">Contactar o suporte</a>
+# After the colon, there's a link to https://accounts.firefox.com/support
+subscription-support-contact-support-plaintext = Contactar o suporte:
 subscriptionUpdateBillingEnsure = Pode verificar se o seu método de pagamento e a informação da conta estão atualizados <a data-l10n-name="updateBillingUrl">aqui</a>.
 # After the colon, there's a link to https://accounts.firefox.com/subscriptions
 subscriptionUpdateBillingEnsure-plaintext = Pode verificar se o seu método de pagamento e a informação da conta estão atualizados, aqui:
@@ -285,7 +319,7 @@ location-state-country = { $stateCode }, { $country } (estimado)
 # Variables:
 #  $country (stateCode) - User's country
 location-country = { $country } (estimado)
-view-invoice = <a data-l10n-name="invoiceLink">Ver a sua fatura</a>.
+view-invoice-link-action = Ver fatura
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
 # After the colon, there's a link to https://pay.stripe.com/
@@ -628,8 +662,8 @@ subscriptionFirstInvoice-content-processing = O seu pagamento está a ser proces
 subscriptionFirstInvoice-content-install-2 = Irá receber uma mensagem separada sobre como começar a utilizar o(a) { $productName }.
 subscriptionFirstInvoice-content-auto-renew = As sua subscrição irá ser renovada automaticamente em cada período de faturação, a menos que opte por cancelar.
 # Variables:
-#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
-subscriptionFirstInvoice-content-next-invoice = Próxima fatura: { $nextInvoiceDateOnly }
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
+subscriptionFirstInvoice-content-your-next-invoice = A sua próxima fatura será emitido em { $nextInvoiceDateOnly }.
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-subject-2 = O método de pagamento para { $productName } expirou ou expira em breve
@@ -701,8 +735,8 @@ subscriptionSubsequentInvoice-title = Obrigado por ser um subscritor!
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-content-received = Recebemos o seu último pagamento de { $productName }.
 # Variables:
-#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
-subscriptionSubsequentInvoice-content-next-invoice = Próxima Fatura: { $nextInvoiceDateOnly }
+#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
+subscriptionSubsequentInvoice-content-your-next-invoice = A sua próxima fatura será emitido em { $nextInvoiceDateOnly }.
 # Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = Atualizou para { $productName }
