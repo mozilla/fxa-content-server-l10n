@@ -180,43 +180,12 @@ payment-plan-charged = Пардохт шуд: { $invoiceTotal } дар { $invoic
 # Variables
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 payment-plan-next-invoice = Санади дархости пардохти навбатӣ: { $nextInvoiceDateOnly }
-# After the colon is how the user paid, e.g. PayPal or credit card
-payment-method = Тарзи пардохт:
-payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
-# This string displays when the type of credit card is known
-# https://stripe.com/docs/payments/cards/supported-card-brands
-# Variables:
-#  $cardName (String) - The brand name of the credit card, e.g. American Express
-#  $lastFour (String) - The last four digits of the credit card, e.g. 5309
-credit-card-ending-in = Корти «{ $cardName }», ки рақамаш бо { $lastFour } анҷом меёбад
-# This string displays when the type of credit card is not known or recognized
-# Variable: $lastFour (String) - The last four digits of the credit card, e.g. 5309
-unknown-card-ending-in = Корти номаълуме, ки рақамаш бо { $lastFour } анҷом меёбад
-# Variables:
-#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
-subscriptionFirstInvoice-content-invoice-number = Рақами санади дархости пардохт: <b>{ $invoiceNumber }</b>
-# Variables:
-#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
-subscriptionFirstInvoice-content-invoice-number-plaintext = Рақами санади дархости пардохт: { $invoiceNumber }
-# Variables:
-#  $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
-subscriptionSubsequentInvoice-content-plan-change = Иваз кардани нақша: { $paymentProrated }
-# Variables:
-#  $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
+
+## $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+## $invoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
+
+# $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
 subscriptionFirstInvoiceDiscount-content-subtotal = Ҷамъи миёна: { $invoiceSubtotal }
-# Variables:
-#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
-subscriptionFirstInvoiceDiscount-content-discount = Тахфиф: -{ $invoiceDiscountAmount }
-# Variables
-#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
-subscriptionFirstInvoiceDiscount-content-discount-one-time = Тахфифи яккарата: -{ $invoiceDiscountAmount }
-# Variables
-#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
-#  $discountDuration - The duration of the discount in number of months, e.g. 3 months
-subscriptionFirstInvoiceDiscount-content-discount-repeating = Тахфифи { $discountDuration }-моҳа: -{ $invoiceDiscountAmount }
-# Variables:
-#  $invoiceTaxAmount (String) - The amount of the tax of the subscription invoice, including currency, e.g. $2.00
-subscriptionCharges-content-tax = Андозҳо ва ҳаққи ҳизматрасонӣ: { $invoiceTaxAmount }
 
 ##
 
@@ -248,7 +217,6 @@ location-state-country = { $stateCode }, { $country } (тақрибан)
 # Variables:
 #  $country (stateCode) - User's country
 location-country = { $country } (тақрибан)
-view-invoice = <a data-l10n-name="invoiceLink">Дидани санади дархости пардохти худ</a>.
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
 # After the colon, there's a link to https://pay.stripe.com/
@@ -492,9 +460,6 @@ subscriptionFirstInvoice-subject = Пардохт барои «{ $productName }�
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionFirstInvoice-title = Ташаккур барои обунашавии шумо ба «{ $productName }»
 # Variables:
-#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
-subscriptionFirstInvoice-content-next-invoice = Санади дархости пардохти навбатӣ: { $nextInvoiceDateOnly }
-# Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = Пардохт барои «{ $productName }» иҷро шуд
 subscriptionPaymentFailed-title = Мутаассифона, ҳангоми коркарди пардохти шумо мушкилӣ ба миён омад
@@ -530,9 +495,6 @@ subscriptionSubsequentInvoice-title = Ташаккур ба шумо барои 
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-content-received = Мо пардохти охирини шуморо барои «{ $productName }» қабул кардем.
-# Variables:
-#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
-subscriptionSubsequentInvoice-content-next-invoice = Санади дархости пардохти навбатӣ: { $nextInvoiceDateOnly }
 # Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = Шумо ба «{ $productName }» навсозӣ кардед

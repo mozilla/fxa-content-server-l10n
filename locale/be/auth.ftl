@@ -164,43 +164,12 @@ payment-plan-charged = Спагнана: { $invoiceTotal } { $invoiceDateOnly }
 # Variables
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 payment-plan-next-invoice = Наступны рахунак-фактура: { $nextInvoiceDateOnly }
-# After the colon is how the user paid, e.g. PayPal or credit card
-payment-method = Спосаб аплаты:
-payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
-# This string displays when the type of credit card is known
-# https://stripe.com/docs/payments/cards/supported-card-brands
-# Variables:
-#  $cardName (String) - The brand name of the credit card, e.g. American Express
-#  $lastFour (String) - The last four digits of the credit card, e.g. 5309
-credit-card-ending-in = Карта { $cardName } заканчваецца на { $lastFour }
-# This string displays when the type of credit card is not known or recognized
-# Variable: $lastFour (String) - The last four digits of the credit card, e.g. 5309
-unknown-card-ending-in = Нявызначаная карта, заканчваецца на { $lastFour }
-# Variables:
-#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
-subscriptionFirstInvoice-content-invoice-number = Нумар рахунка-фактуры: <b>{ $invoiceNumber }</b>
-# Variables:
-#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
-subscriptionFirstInvoice-content-invoice-number-plaintext = Нумар рахунка-фактуры: { $invoiceNumber }
-# Variables:
-#  $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
-subscriptionSubsequentInvoice-content-plan-change = Змена плана: { $paymentProrated }
-# Variables:
-#  $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
+
+## $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+## $invoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
+
+# $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
 subscriptionFirstInvoiceDiscount-content-subtotal = Прамежкавы вынік: { $invoiceSubtotal }
-# Variables:
-#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
-subscriptionFirstInvoiceDiscount-content-discount = Зніжка: -{ $invoiceDiscountAmount }
-# Variables
-#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
-subscriptionFirstInvoiceDiscount-content-discount-one-time = Аднаразовая зніжка: -{ $invoiceDiscountAmount }
-# Variables
-#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
-#  $discountDuration - The duration of the discount in number of months, e.g. 3 months
-subscriptionFirstInvoiceDiscount-content-discount-repeating = { $discountDuration }-месячная зніжка: -{ $invoiceDiscountAmount }
-# Variables:
-#  $invoiceTaxAmount (String) - The amount of the tax of the subscription invoice, including currency, e.g. $2.00
-subscriptionCharges-content-tax = Падаткі і зборы: { $invoiceTaxAmount }
 
 ##
 
@@ -230,7 +199,6 @@ device-all = { $uaBrowser } на { $uaOS } { $uaOSVersion }
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 device-browser-os = { $uaBrowser } на { $uaOS }
-view-invoice = <a data-l10n-name="invoiceLink">Праглядзіце ваш рахунак-фактуру</a>.
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
 # After the colon, there's a link to https://pay.stripe.com/
@@ -463,9 +431,6 @@ subscriptionFirstInvoice-content-processing = Ваш плацеж зараз а�
 subscriptionFirstInvoice-content-install-2 = Вы атрымаеце асобны электронны ліст аб тым, як пачаць выкарыстоўваць { $productName }.
 subscriptionFirstInvoice-content-auto-renew = Ваша падпіска будзе аўтаматычна падаўжацца кожны плацежны перыяд, пакуль вы не вырашыце яе скасаваць.
 # Variables:
-#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
-subscriptionFirstInvoice-content-next-invoice = Наступны рахунак-фактура: { $nextInvoiceDateOnly }
-# Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = Не атрымалася аплаціць { $productName }
 subscriptionPaymentFailed-title = На жаль, у нас узнікла праблема з вашым плацяжом
@@ -516,9 +481,6 @@ subscriptionSubsequentInvoice-title = Дзякуй за падпіску!
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-content-received = Мы атрымалі ваш апошні плацеж за { $productName }.
-# Variables:
-#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
-subscriptionSubsequentInvoice-content-next-invoice = Наступны рахунак-фактура: { $nextInvoiceDateOnly }
 # Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = Вы перайшлі на { $productName }

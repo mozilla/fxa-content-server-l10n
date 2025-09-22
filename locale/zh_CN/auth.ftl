@@ -187,51 +187,12 @@ payment-plan-charged = 已于 { $invoiceDateOnly } 收取 { $invoiceTotal }
 # Variables
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 payment-plan-next-invoice = 下次扣款日：{ $nextInvoiceDateOnly }
-# After the colon is how the user paid, e.g. PayPal or credit card
-payment-method = 付款方式：
-payment-provider-paypal-plaintext = { payment-method }{ -brand-paypal }
-# This string displays when the type of credit card is known
-# https://stripe.com/docs/payments/cards/supported-card-brands
-# Variables:
-#  $cardName (String) - The brand name of the credit card, e.g. American Express
-#  $lastFour (String) - The last four digits of the credit card, e.g. 5309
-credit-card-ending-in = 尾号 { $lastFour } 的{ $cardName }卡
-# This string displays when the type of credit card is not known or recognized
-# Variable: $lastFour (String) - The last four digits of the credit card, e.g. 5309
-unknown-card-ending-in = 尾号 { $lastFour } 的未知卡片
-# Variables:
-#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
-subscriptionFirstInvoice-content-invoice-number = 发票号码：<b>{ $invoiceNumber }</b>
-# Variables:
-#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
-subscriptionFirstInvoice-content-invoice-number-plaintext = 发票号码：{ $invoiceNumber }
-# Variables:
-#  $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
-subscriptionSubsequentInvoice-content-plan-change = 方案变更：{ $paymentProrated }
-# Variables:
-#  $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
+
+## $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+## $invoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
+
+# $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
 subscriptionFirstInvoiceDiscount-content-subtotal = 小计：{ $invoiceSubtotal }
-# Variables:
-#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
-subscriptionFirstInvoiceDiscount-content-discount = 抵扣：-{ $invoiceDiscountAmount }
-# Variables
-#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
-subscriptionFirstInvoiceDiscount-content-discount-one-time = 一次性抵扣：-{ $invoiceDiscountAmount }
-# Variables
-#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
-#  $discountDuration - The duration of the discount in number of months, e.g. 3 months
-subscriptionFirstInvoiceDiscount-content-discount-repeating = { $discountDuration } 个月抵扣：-{ $invoiceDiscountAmount }
-# Variables:
-#  $invoiceTaxAmount (String) - The amount of the tax of the subscription invoice, including currency, e.g. $2.00
-subscriptionCharges-content-tax = 税费：{ $invoiceTaxAmount }
-
-## Variables:
-##  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
-##  $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
-##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
-
-subscriptionFirstInvoice-content-total-due = 已于 { $invoiceDateOnly } 收取 { $invoiceAmountDue }
-subscriptionFirstInvoice-content-credit = 您已收到 { $invoiceTotal } 账户余额，将于以后付款时抵用。
 
 ##
 
@@ -283,7 +244,6 @@ location-state-country = { $country }，{ $stateCode }（估计）
 # Variables:
 #  $country (stateCode) - User's country
 location-country = { $country }（估计）
-view-invoice = <a data-l10n-name="invoiceLink">查看您的发票</a>。
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
 # After the colon, there's a link to https://pay.stripe.com/
@@ -625,9 +585,6 @@ subscriptionFirstInvoice-content-processing = 正在处理您的款项，最多�
 subscriptionFirstInvoice-content-install-2 = 您将收到另一封电子邮件，介绍如何开始使用 { $productName }。
 subscriptionFirstInvoice-content-auto-renew = 除非您主动取消订阅，否则将在每个周期周期开始时自动更新订阅并收费。
 # Variables:
-#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
-subscriptionFirstInvoice-content-next-invoice = 下次扣款日：{ $nextInvoiceDateOnly }
-# Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-subject-2 = { $productName } 的付款方式已过期或即将到期
 subscriptionPaymentExpired-title-2 = 您的付款方式已过期或即将到期
@@ -697,9 +654,6 @@ subscriptionSubsequentInvoice-title = 感谢您成为订阅者！
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-content-received = 我们已收到您最近为 { $productName } 支付的款项。
-# Variables:
-#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
-subscriptionSubsequentInvoice-content-next-invoice = 下次扣款日：{ $nextInvoiceDateOnly }
 # Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = 您已升级至 { $productName }

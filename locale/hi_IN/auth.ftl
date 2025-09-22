@@ -51,7 +51,6 @@ body-ios-badge = <img data-l10n-name="apple-app-badge" alt="Download { $productN
 change-password-plaintext = यदि आपको संदेह है कि कोई आपके खाते तक पहुंच हासिल करने के लिए कोशिश कर रहा है, तो कृपया अपना पासवर्ड बदल लें.
 manage-account = खाता प्रबंधित करें
 manage-account-plaintext = { manage-account }:
-payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
 
 ##
 

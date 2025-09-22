@@ -82,31 +82,12 @@ payment-plan-charged = Tasu: { $invoiceTotal } kuupäeval { $invoiceDateOnly }
 # Variables
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 payment-plan-next-invoice = Järgmine arve: { $nextInvoiceDateOnly }
-# After the colon is how the user paid, e.g. PayPal or credit card
-payment-method = Makseviis:
-payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
-# Variables:
-#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
-subscriptionFirstInvoice-content-invoice-number = Arve number: <b>{ $invoiceNumber }</b>
-# Variables:
-#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
-subscriptionFirstInvoice-content-invoice-number-plaintext = Arve number: { $invoiceNumber }
-# Variables:
-#  $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
-subscriptionSubsequentInvoice-content-plan-change = Tellimuse muudatus: { $paymentProrated }
-# Variables:
-#  $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
+
+## $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+## $invoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
+
+# $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
 subscriptionFirstInvoiceDiscount-content-subtotal = Vahesumma: { $invoiceSubtotal }
-# Variables:
-#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
-subscriptionFirstInvoiceDiscount-content-discount = Allahindlus: -{ $invoiceDiscountAmount }
-# Variables
-#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
-subscriptionFirstInvoiceDiscount-content-discount-one-time = Ühekordne allahindlus: -{ $invoiceDiscountAmount }
-# Variables
-#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
-#  $discountDuration - The duration of the discount in number of months, e.g. 3 months
-subscriptionFirstInvoiceDiscount-content-discount-repeating = { $discountDuration } kuu allahindlus: -{ $invoiceDiscountAmount }
 
 ##
 
@@ -136,7 +117,6 @@ device-all = { $uaBrowser } operatsioonisüsteemis { $uaOS } { $uaOSVersion }
 #  $uaBrowser (String) - User's browser, e.g. Firefox
 #  $uaOS (String) - User's OS, e.g. Mac OSX
 device-browser-os = { $uaBrowser } operatsioonisüsteemis { $uaOS }
-view-invoice = <a data-l10n-name="invoiceLink">Vaata oma arvet</a>.
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
 # After the colon, there's a link to https://pay.stripe.com/
@@ -261,9 +241,6 @@ subscriptionFirstInvoice-content-processing = Sinu makset töödeldakse ja see v
 subscriptionFirstInvoice-content-install-2 = Saad eraldi e-kirja selle kohta, kuidas teenust { $productName } kasutama hakata.
 subscriptionFirstInvoice-content-auto-renew = Sinu tellimust uuendatakse automaatselt igal arveldusperioodil, kui sa ei otsusta tühistada.
 # Variables:
-#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
-subscriptionFirstInvoice-content-next-invoice = Järgmine arve: { $nextInvoiceDateOnly }
-# Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = Toote { $productName } makse on ebaõnnestus
 subscriptionPaymentFailed-title = Kahjuks on meil probleeme sinu makse teostamisega
@@ -314,9 +291,6 @@ subscriptionSubsequentInvoice-title = Täname, et oled tellija!
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-content-received = Saime kätte sinu viimase makse toote { $productName } eest.
-# Variables:
-#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
-subscriptionSubsequentInvoice-content-next-invoice = Järgmine arve: { $nextInvoiceDateOnly }
 # Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = Oled üle läinud tootele { $productName }

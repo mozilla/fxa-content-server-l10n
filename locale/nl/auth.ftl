@@ -191,51 +191,12 @@ payment-plan-charged = { $invoiceTotal } in rekening gebracht op { $invoiceDateO
 # Variables
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 payment-plan-next-invoice = Volgende factuur: { $nextInvoiceDateOnly }
-# After the colon is how the user paid, e.g. PayPal or credit card
-payment-method = Betalingsmethode:
-payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
-# This string displays when the type of credit card is known
-# https://stripe.com/docs/payments/cards/supported-card-brands
-# Variables:
-#  $cardName (String) - The brand name of the credit card, e.g. American Express
-#  $lastFour (String) - The last four digits of the credit card, e.g. 5309
-credit-card-ending-in = { $cardName }-kaart eindigend op { $lastFour }
-# This string displays when the type of credit card is not known or recognized
-# Variable: $lastFour (String) - The last four digits of the credit card, e.g. 5309
-unknown-card-ending-in = Onbekende kaart eindigend op { $lastFour }
-# Variables:
-#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
-subscriptionFirstInvoice-content-invoice-number = Factuurnummer: <b>{ $invoiceNumber }</b>
-# Variables:
-#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
-subscriptionFirstInvoice-content-invoice-number-plaintext = Factuurnummer: { $invoiceNumber }
-# Variables:
-#  $paymentProrated (String) - The one time fee to reflect the higher charge for the remainder of the payment cycle, including currency, e.g. $10.00
-subscriptionSubsequentInvoice-content-plan-change = Abonnementswijziging: { $paymentProrated }
-# Variables:
-#  $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
+
+## $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
+## $invoiceDateOnly (String) - The date of the next invoice, e.g. August 28, 2025
+
+# $invoiceSubtotal (String) - The amount, before discount, of the subscription invoice, including currency, e.g. $10.00
 subscriptionFirstInvoiceDiscount-content-subtotal = Subtotaal: { $invoiceSubtotal }
-# Variables:
-#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
-subscriptionFirstInvoiceDiscount-content-discount = Korting: -{ $invoiceDiscountAmount }
-# Variables
-#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
-subscriptionFirstInvoiceDiscount-content-discount-one-time = Eenmalige korting: -{ $invoiceDiscountAmount }
-# Variables
-#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
-#  $discountDuration - The duration of the discount in number of months, e.g. 3 months
-subscriptionFirstInvoiceDiscount-content-discount-repeating = Korting gedurende { $discountDuration } maanden: -{ $invoiceDiscountAmount }
-# Variables:
-#  $invoiceTaxAmount (String) - The amount of the tax of the subscription invoice, including currency, e.g. $2.00
-subscriptionCharges-content-tax = Belastingen en toeslagen: { $invoiceTaxAmount }
-
-## Variables:
-##  $invoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
-##  $invoiceAmountDue (String) - The total that the customer owes after all credits, discounts, and taxes have been applied
-##  $invoiceTotal (String) - The amount, after discount, of the subscription invoice, including currency, e.g. $8.00
-
-subscriptionFirstInvoice-content-total-due = { $invoiceAmountDue } in rekening gebracht op { $invoiceDateOnly }
-subscriptionFirstInvoice-content-credit = U hebt een accounttegoed van { $invoiceTotal } ontvangen. Dit tegoed wordt op uw toekomstige facturen toegepast.
 
 ##
 
@@ -287,7 +248,6 @@ location-state-country = { $stateCode }, { $country } (geschat)
 # Variables:
 #  $country (stateCode) - User's country
 location-country = { $country } (geschat)
-view-invoice = <a data-l10n-name="invoiceLink">Uw factuur bekijken</a>.
 # Variables:
 #  $invoiceLink (String) - The link to the invoice
 # After the colon, there's a link to https://pay.stripe.com/
@@ -630,9 +590,6 @@ subscriptionFirstInvoice-content-processing = Uw betaling wordt momenteel verwer
 subscriptionFirstInvoice-content-install-2 = U ontvangt een apart e-mailbericht over hoe u { $productName } kunt gaan gebruiken.
 subscriptionFirstInvoice-content-auto-renew = Uw abonnement wordt automatisch elke factureringsperiode verlengd, tenzij u ervoor kiest om op te zeggen.
 # Variables:
-#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
-subscriptionFirstInvoice-content-next-invoice = Volgende factuur: { $nextInvoiceDateOnly }
-# Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentExpired-subject-2 = Betalingsmethode voor { $productName } is verlopen of verloopt binnenkort
 subscriptionPaymentExpired-title-2 = Uw betalingsmethode is verlopen of verloopt binnenkort
@@ -702,9 +659,6 @@ subscriptionSubsequentInvoice-title = Bedankt dat u abonnee bent!
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-content-received = We hebben uw laatste betaling voor { $productName } ontvangen.
-# Variables:
-#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
-subscriptionSubsequentInvoice-content-next-invoice = Volgende factuur: { $nextInvoiceDateOnly }
 # Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = U hebt geüpgraded naar { $productName }

@@ -136,8 +136,6 @@ page-not-found-back-button = Go Back
 subscription-management-breadcrumb-account-home = Account Home
 # Link title - Subscriptions management
 subscription-management-breadcrumb-subscriptions = Subscriptions
-# Link title - Payment method management
-subscription-management-breadcrumb-payment = Payment Methods
 
 ## Component - Payment Consent Checkbox
 

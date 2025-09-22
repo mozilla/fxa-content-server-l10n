@@ -22,10 +22,6 @@ subplat-privacy-website-plaintext = { subplat-privacy }:
 #  $productName (String) - The name of the product to be downloaded, e.g. Mozilla VPN, or Firefox
 body-android-badge = <img data-l10n-name="google-play-badge" alt="Download { $productName } on { -google-play }">
 manage-account-plaintext = { manage-account }:
-# Variables
-#  $invoiceDiscountAmount (String) - The amount of the discount of the subscription invoice, including currency, e.g. $2.00
-#  $discountDuration - The duration of the discount in number of months, e.g. 3 months
-subscriptionFirstInvoiceDiscount-content-discount-repeating = { $discountDuration }-month Discount: -{ $invoiceDiscountAmount }
 
 ##
 

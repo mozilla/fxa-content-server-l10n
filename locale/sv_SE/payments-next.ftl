@@ -155,8 +155,6 @@ page-not-found-back-button = Gå tillbaka
 subscription-management-breadcrumb-account-home = Startsida för konton
 # Link title - Subscriptions management
 subscription-management-breadcrumb-subscriptions = Prenumerationer
-# Link title - Payment method management
-subscription-management-breadcrumb-payment = Betalningsmetoder
 # $page refers to page titles used in the breadcrumb menu (e.g. Account Home, Subscriptions, Payment Methods)
 subscription-management-breadcrumb-back-aria = Gå tillbaka till { $page }
 
@@ -287,11 +285,8 @@ next-new-user-subscribe-product-assurance = Vi använder bara din e-postadress f
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
-subscription-content-current-invoice-billed-on-with-tax = { $invoiceTotal } + { $taxDue } <span>faktureras den { $billedOnDate }</span>
-subscription-content-current-invoice-billed-on-no-tax = { $invoiceTotal } <span>fakturerades den { $billedOnDate }</span>
 subscription-content-credit-issued-to-your-account = <strong>{ $creditApplied }</strong> kredit har utfärdats till ditt konto
 subscription-content-coupon-applied = { $promotionName } tillämpad
-subscription-content-next-bill-excl-with-tax = Nästa räkning på <strong>{ $nextInvoiceTotal } + { $taxDue }</strong>, exklusive rabatter, förfaller den <strong>{ $nextBillDate }</strong>
 subscription-content-next-bill-excl-no-tax = Nästa räkning på <strong>{ $nextInvoiceTotal }</strong>, exklusive rabatter, förfaller den <strong>{ $nextBillDate }</strong>
 subscription-content-heading-cancel-subscription = Avbryt prenumeration
 subscription-content-no-longer-use-message = Du kommer inte längre att kunna använda { $productName } efter { $currentPeriodEnd }, den sista dagen i din faktureringscykel.

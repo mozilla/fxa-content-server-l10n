@@ -57,9 +57,6 @@ payment-plan-charged = Cobrat: { $invoiceTotal } el { $invoiceDateOnly }
 # Variables
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 payment-plan-next-invoice = Propera factura: { $nextInvoiceDateOnly }
-# After the colon is how the user paid, e.g. PayPal or credit card
-payment-method = Forma de pagament:
-payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
 
 ##
 

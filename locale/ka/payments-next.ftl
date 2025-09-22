@@ -158,8 +158,6 @@ page-not-found-back-button = უკან დაბრუნება
 subscription-management-breadcrumb-account-home = ანგარიშის მთავარი გვერდი
 # Link title - Subscriptions management
 subscription-management-breadcrumb-subscriptions = გამოწერები
-# Link title - Payment method management
-subscription-management-breadcrumb-payment = გადახდის საშუალებები
 # $page refers to page titles used in the breadcrumb menu (e.g. Account Home, Subscriptions, Payment Methods)
 subscription-management-breadcrumb-back-aria = უკან დაბრუნება – { $page }
 
@@ -290,11 +288,8 @@ next-new-user-subscribe-product-assurance = ჩვენ ვიყენებ�
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
-subscription-content-current-invoice-billed-on-with-tax = { $invoiceTotal } + { $taxDue } <span>ანგარიშსწორების თარიღია { $billedOnDate }</span>
-subscription-content-current-invoice-billed-on-no-tax = { $invoiceTotal } <span>ანგარიშსწორების თარიღია { $billedOnDate }</span>
 subscription-content-credit-issued-to-your-account = <strong>{ $creditApplied }</strong> დანარიცხია გაცემული თქვენს ანგარიშზე
 subscription-content-coupon-applied = { $promotionName } გამოყენებულია
-subscription-content-next-bill-excl-with-tax = მომდევნო ანგარიშსწორება <strong>{ $nextInvoiceTotal } + { $taxDue }</strong>, გარდა ფასდაკლებისა, იქნება თარიღით <strong>{ $nextBillDate }</strong>
 subscription-content-next-bill-excl-no-tax = მომდევნო ანგარიშსწორება <strong>{ $nextInvoiceTotal }</strong>, გარდა ფასდაკლებისა, იქნება თარიღით <strong>{ $nextBillDate }</strong>
 subscription-content-heading-cancel-subscription = გამოწერის გაუქმება
 subscription-content-no-longer-use-message = ვეღარ შეძლებთ გამოიყენოთ { $productName } თარიღიდან { $currentPeriodEnd }, ესაა საანგარიშო პერიოდის ბოლო დღე.

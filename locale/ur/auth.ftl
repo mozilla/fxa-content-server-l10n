@@ -18,9 +18,6 @@ subplat-legal = قانونى
 subplat-privacy = رازداری
 manage-account = اکاؤنٹ بندوبست کریں
 manage-account-plaintext = :{ manage-account }
-# After the colon is how the user paid, e.g. PayPal or credit card
-payment-method = ادائیگی کے طریقے
-payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
 
 ##
 

@@ -121,8 +121,6 @@ page-not-found-back-button = Артқа
 subscription-management-breadcrumb-account-home = Тіркелгінің басты беті
 # Link title - Subscriptions management
 subscription-management-breadcrumb-subscriptions = Жазылулар
-# Link title - Payment method management
-subscription-management-breadcrumb-payment = Төлем әдістері
 
 ## Component - Payment Consent Checkbox
 

@@ -155,8 +155,6 @@ page-not-found-back-button = Quay lại
 subscription-management-breadcrumb-account-home = Trang chủ tài khoản
 # Link title - Subscriptions management
 subscription-management-breadcrumb-subscriptions = Gói đăng ký
-# Link title - Payment method management
-subscription-management-breadcrumb-payment = Phương thức thanh toán
 # $page refers to page titles used in the breadcrumb menu (e.g. Account Home, Subscriptions, Payment Methods)
 subscription-management-breadcrumb-back-aria = Quay lại { $page }
 
@@ -287,11 +285,8 @@ next-new-user-subscribe-product-assurance = Chúng tôi chỉ sử dụng email 
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
-subscription-content-current-invoice-billed-on-with-tax = Khoản tiền { $invoiceTotal } + { $taxDue } <span>đã được lập hoá đơn vào ngày { $billedOnDate }</span>
-subscription-content-current-invoice-billed-on-no-tax = Khoản tiền { $invoiceTotal } <span>đã được lập hoá đơn vào ngày { $billedOnDate }</span>
 subscription-content-credit-issued-to-your-account = <strong>{ $creditApplied }</strong> tín dụng được cấp vào tài khoản của bạn
 subscription-content-coupon-applied = { $promotionName } đã được áp dụng
-subscription-content-next-bill-excl-with-tax = Hoá đơn tiếp theo của <strong>{ $nextInvoiceTotal } + { $taxDue }</strong>, không bao gồm chiết khấu, sẽ đến hạn vào <strong>{ $nextBillDate }</strong>
 subscription-content-next-bill-excl-no-tax = Hoá đơn tiếp theo của <strong>{ $nextInvoiceTotal }</strong>, không bao gồm chiết khấu, sẽ đến hạn vào <strong>{ $nextBillDate }</strong>
 subscription-content-heading-cancel-subscription = Hủy đăng ký
 subscription-content-no-longer-use-message = Bạn sẽ không còn có thể sử dụng { $productName } sau { $currentPeriodEnd }, ngày cuối cùng của chu kỳ thanh toán của bạn.

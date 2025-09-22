@@ -16,14 +16,6 @@ payment-details = చెల్లింపు వివరాలు:
 # Variables:
 #  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
 payment-plan-invoice-number = ఇన్వాయిస్ సంఖ్య: { $invoiceNumber }
-# After the colon is how the user paid, e.g. PayPal or credit card
-payment-method = చెల్లింపు పద్ధతి:
-# Variables:
-#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
-subscriptionFirstInvoice-content-invoice-number = ఇన్వాయిస్ సంఖ్య: <b>{ $invoiceNumber }</b>
-# Variables:
-#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
-subscriptionFirstInvoice-content-invoice-number-plaintext = ఇన్వాయిస్ సంఖ్య: { $invoiceNumber }
 
 ##
 

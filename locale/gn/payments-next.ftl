@@ -153,8 +153,6 @@ page-not-found-back-button = Guevijey
 subscription-management-breadcrumb-account-home = Mba’ete Moñepyrũ
 # Link title - Subscriptions management
 subscription-management-breadcrumb-subscriptions = Ñemboheraguapy
-# Link title - Payment method management
-subscription-management-breadcrumb-payment = Mba’éicha ehepyme’ẽta
 # $page refers to page titles used in the breadcrumb menu (e.g. Account Home, Subscriptions, Payment Methods)
 subscription-management-breadcrumb-back-aria = Ejevyjey { $page }-pe
 
@@ -285,8 +283,6 @@ next-new-user-subscribe-product-assurance = Roiporu ne ñanduti veve romoheñói
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
-subscription-content-current-invoice-billed-on-with-tax = { $invoiceTotal } + { $taxDue } <span>oñembokuatiáva { $billedOnDate }</span>
-subscription-content-current-invoice-billed-on-no-tax = { $invoiceTotal } <span>oñembokuatiáva { $billedOnDate }</span>
 subscription-content-credit-issued-to-your-account = <strong>{ $creditApplied }</strong> jedeverã og̃uahẽva ne mba’etépe
 subscription-content-coupon-applied = { $promotionName } mboajepyre
 subscription-content-heading-cancel-subscription = Mboheraguapy jeheja

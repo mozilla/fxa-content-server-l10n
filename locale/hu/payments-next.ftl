@@ -157,8 +157,6 @@ page-not-found-back-button = Ugrás vissza
 subscription-management-breadcrumb-account-home = Fiók kezdőlapja
 # Link title - Subscriptions management
 subscription-management-breadcrumb-subscriptions = Előfizetések
-# Link title - Payment method management
-subscription-management-breadcrumb-payment = Fizetési módok
 # $page refers to page titles used in the breadcrumb menu (e.g. Account Home, Subscriptions, Payment Methods)
 subscription-management-breadcrumb-back-aria = Vissza ehhez: { $page }
 
@@ -289,11 +287,8 @@ next-new-user-subscribe-product-assurance = Csak a fiókja létrehozásához has
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
-subscription-content-current-invoice-billed-on-with-tax = { $invoiceTotal } + { $taxDue } <span>számlázva ekkor: { $billedOnDate }</span>
-subscription-content-current-invoice-billed-on-no-tax = { $invoiceTotal } <span>számlázva ekkor: { $billedOnDate }</span>
 subscription-content-credit-issued-to-your-account = <strong>{ $creditApplied }</strong> jóváírás a számlájában
 subscription-content-coupon-applied = { $promotionName } alkalmazva
-subscription-content-next-bill-excl-with-tax = A következő kedvezményeket nem tartalmazó <strong>{ $nextInvoiceTotal } + { $taxDue }</strong> összegű számla esedékessége <strong>{ $nextBillDate }</strong>
 subscription-content-next-bill-excl-no-tax = A következő kedvezményeket nem tartalmazó <strong>{ $nextInvoiceTotal }</strong> számla esedékessége <strong>{ $nextBillDate }</strong>
 subscription-content-heading-cancel-subscription = Előfizetés lemondása
 subscription-content-no-longer-use-message = Az utolsó számlázási periódusa után ({ $currentPeriodEnd }) nem fogja tudni használni a(z) { $productName } szolgáltatást,

@@ -155,8 +155,6 @@ page-not-found-back-button = Voltar
 subscription-management-breadcrumb-account-home = Página inicial da conta
 # Link title - Subscriptions management
 subscription-management-breadcrumb-subscriptions = Subscrições
-# Link title - Payment method management
-subscription-management-breadcrumb-payment = Métodos de pagamento
 # $page refers to page titles used in the breadcrumb menu (e.g. Account Home, Subscriptions, Payment Methods)
 subscription-management-breadcrumb-back-aria = Voltar para { $page }
 
@@ -287,11 +285,8 @@ next-new-user-subscribe-product-assurance = Nós apenas utilizamos o seu e-mail 
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
-subscription-content-current-invoice-billed-on-with-tax = { $invoiceTotal } + { $taxDue } <span>cobrado a { $billedOnDate }</span>
-subscription-content-current-invoice-billed-on-no-tax = { $invoiceTotal } <span>cobrado a { $billedOnDate }</span>
 subscription-content-credit-issued-to-your-account = <strong>{ $creditApplied }</strong> crédito emitido para a sua conta
 subscription-content-coupon-applied = { $promotionName } aplicados
-subscription-content-next-bill-excl-with-tax = A próxima fatura de <strong>{ $nextInvoiceTotal } + { $taxDue }</strong>, excluindo desconto, vence a <strong>{ $nextBillDate }</strong>
 subscription-content-next-bill-excl-no-tax = A próxima fatura de <strong>{ $nextInvoiceTotal }</strong>, excluindo desconto, vence a <strong>{ $nextBillDate }</strong>
 subscription-content-heading-cancel-subscription = Cancelar subscrição
 subscription-content-no-longer-use-message = Deixará de poder utilizar { $productName } depois de { $currentPeriodEnd }, o último dia do seu ciclo de faturação.

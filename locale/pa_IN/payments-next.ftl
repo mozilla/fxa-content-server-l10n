@@ -105,8 +105,6 @@ page-not-found-back-button = ਪਿੱਛੇ ਜਾਓ
 
 ## Navigation breadcrumbs
 
-# Link title - Payment method management
-subscription-management-breadcrumb-payment = ਭੁਗਤਾਨ ਦੇ ਢੰਗ
 # $page refers to page titles used in the breadcrumb menu (e.g. Account Home, Subscriptions, Payment Methods)
 subscription-management-breadcrumb-back-aria = { $page } ਉੱਤੇ ਵਾਪਸ ਜਾਓ
 

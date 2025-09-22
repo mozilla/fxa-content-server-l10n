@@ -158,8 +158,6 @@ page-not-found-back-button = Slědk
 subscription-management-breadcrumb-account-home = Startowy bok konta
 # Link title - Subscriptions management
 subscription-management-breadcrumb-subscriptions = Abonementy
-# Link title - Payment method management
-subscription-management-breadcrumb-payment = Płaśeńske metody
 # $page refers to page titles used in the breadcrumb menu (e.g. Account Home, Subscriptions, Payment Methods)
 subscription-management-breadcrumb-back-aria = Slědk k { $page }
 
@@ -290,11 +288,8 @@ next-new-user-subscribe-product-assurance = Wužywamy jano wašu e-mailowu adres
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
-subscription-content-current-invoice-billed-on-with-tax = { $invoiceTotal } + { $taxDue } <span>stej se woblicyłej { $billedOnDate }</span>
-subscription-content-current-invoice-billed-on-no-tax = { $invoiceTotal } <span>jo se woblicył { $billedOnDate }</span>
 subscription-content-credit-issued-to-your-account = Kontowy plus <strong>{ $creditApplied }</strong> jo se pśipisał na wašo konto
 subscription-content-coupon-applied = { $promotionName } nałožony
-subscription-content-next-bill-excl-with-tax = Pśiduca zliceńka <strong>{ $nextInvoiceTotal } + { $taxDue }</strong>, bźez rabatow, ma se <strong>{ $nextBillDate }</strong> płaśiś
 subscription-content-next-bill-excl-no-tax = Pśiduca zliceńka <strong>{ $nextInvoiceTotal }</strong>, bźez rabatow, ma se <strong>{ $nextBillDate }</strong> płaśiś
 subscription-content-heading-cancel-subscription = Abonement wupowěźeś
 subscription-content-no-longer-use-message =

@@ -155,8 +155,6 @@ page-not-found-back-button = 返回
 subscription-management-breadcrumb-account-home = 账户主页
 # Link title - Subscriptions management
 subscription-management-breadcrumb-subscriptions = 订阅
-# Link title - Payment method management
-subscription-management-breadcrumb-payment = 付款方式
 # $page refers to page titles used in the breadcrumb menu (e.g. Account Home, Subscriptions, Payment Methods)
 subscription-management-breadcrumb-back-aria = 返回{ $page }
 
@@ -287,11 +285,8 @@ next-new-user-subscribe-product-assurance = 我们只会使用您的邮箱地址
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
-subscription-content-current-invoice-billed-on-with-tax = { $invoiceTotal } + { $taxDue } <span>结算日为 { $billedOnDate }</span>
-subscription-content-current-invoice-billed-on-no-tax = { $invoiceTotal } <span>结算日为 { $billedOnDate }</span>
 subscription-content-credit-issued-to-your-account = <strong>{ $creditApplied }</strong> 余额已存入您的账户
 subscription-content-coupon-applied = 已享“{ $promotionName }”优惠
-subscription-content-next-bill-excl-with-tax = 下次将于 <strong>{ $nextBillDate }</strong> 收取 <strong>{ $nextInvoiceTotal } + { $taxDue }</strong>（未含优惠）
 subscription-content-next-bill-excl-no-tax = 下次将于 <strong>{ $nextBillDate }</strong> 收取 <strong>{ $nextInvoiceTotal }</strong>（未含优惠）
 subscription-content-heading-cancel-subscription = 取消订阅
 subscription-content-no-longer-use-message = 在账单周期的最后一天（{ $currentPeriodEnd }）过后，您将无法继续使用 { $productName }。

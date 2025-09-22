@@ -149,8 +149,6 @@ page-not-found-back-button = Gå tilbage
 subscription-management-breadcrumb-account-home = Startside for konto
 # Link title - Subscriptions management
 subscription-management-breadcrumb-subscriptions = Abonnementer
-# Link title - Payment method management
-subscription-management-breadcrumb-payment = Betalingsmetoder
 # $page refers to page titles used in the breadcrumb menu (e.g. Account Home, Subscriptions, Payment Methods)
 subscription-management-breadcrumb-back-aria = Gå tilbage til { $page }
 

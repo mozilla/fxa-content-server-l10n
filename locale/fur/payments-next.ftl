@@ -143,8 +143,6 @@ page-not-found-back-button = Torne indaûr
 subscription-management-breadcrumb-account-home = Pagjine principâl dal account
 # Link title - Subscriptions management
 subscription-management-breadcrumb-subscriptions = Abonaments
-# Link title - Payment method management
-subscription-management-breadcrumb-payment = Metodis di paiament
 # $page refers to page titles used in the breadcrumb menu (e.g. Account Home, Subscriptions, Payment Methods)
 subscription-management-breadcrumb-back-aria = Torne a { $page }
 

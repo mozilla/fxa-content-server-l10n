@@ -155,8 +155,6 @@ page-not-found-back-button = Nazaj
 subscription-management-breadcrumb-account-home = Domača stran računa
 # Link title - Subscriptions management
 subscription-management-breadcrumb-subscriptions = Naročnine
-# Link title - Payment method management
-subscription-management-breadcrumb-payment = Plačilna sredstva
 # $page refers to page titles used in the breadcrumb menu (e.g. Account Home, Subscriptions, Payment Methods)
 subscription-management-breadcrumb-back-aria = Nazaj na { $page }
 
@@ -287,11 +285,8 @@ next-new-user-subscribe-product-assurance = Vaš e-poštni naslov uporabimo samo
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
-subscription-content-current-invoice-billed-on-with-tax = { $invoiceTotal } + { $taxDue } <span>zaračunano { $billedOnDate }</span>
-subscription-content-current-invoice-billed-on-no-tax = { $invoiceTotal } <span>obračunano { $billedOnDate }</span>
 subscription-content-credit-issued-to-your-account = <strong>{ $creditApplied }</strong> dobroimetja
 subscription-content-coupon-applied = { $promotionName } uporabljeno
-subscription-content-next-bill-excl-with-tax = Naslednji račun za <strong>{ $nextInvoiceTotal } + { $taxDue }</strong>, brez popustov, prihaja <strong>{ $nextBillDate }</strong>
 subscription-content-next-bill-excl-no-tax = Naslednji račun v višini <strong>{ $nextInvoiceTotal }</strong>, brez popustov, prihaja <strong>{ $nextBillDate }</strong>
 subscription-content-heading-cancel-subscription = Prekliči naročnino
 subscription-content-no-longer-use-message = { $productName } po { $currentPeriodEnd }, zadnjem dnevu obračunskega obdobja, ne boste več mogli uporabljati.

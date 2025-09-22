@@ -15,8 +15,6 @@ subplat-privacy = Приватност
 subplat-privacy-website-plaintext = { subplat-privacy }:
 manage-account = Уреди ја сметката
 manage-account-plaintext = { manage-account }:
-# After the colon is how the user paid, e.g. PayPal or credit card
-payment-method = Метод за плаќање:
 
 ##
 

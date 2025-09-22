@@ -61,11 +61,6 @@ page-not-found-title = Ulac asebter
 page-not-found-description = Asebter i d-sutreḍ ulac-it. Aqlaɣ neẓra udiɣ ad nseggem yal aseɣwen yeṛzen.
 page-not-found-back-button = Uɣal
 
-## Navigation breadcrumbs
-
-# Link title - Payment method management
-subscription-management-breadcrumb-payment = Tarrayin n uxelleṣ
-
 ## Checkout Form
 
 next-new-user-submit = Multeɣ tura

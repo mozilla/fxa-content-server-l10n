@@ -31,15 +31,6 @@ ios-download-plaintext = Ներբեռնեք { $productName }-ը՝ App Store-ու
 another-device-plaintext = Տեղադրեք { $productName }-ը մեկ այլ սարքում.
 change-password-plaintext = Եթե կասկածում եք, որ ինչ-որ մեկը փորձում է հասանելիություն ստանալ ձեր հաշիվ, ապա փոխեք ձեր գաղտնաբառը։
 manage-account = Կառավարել հաշիվը
-# After the colon is how the user paid, e.g. PayPal or credit card
-payment-method = Վճարման եղանակ՝
-payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
-# This string displays when the type of credit card is known
-# https://stripe.com/docs/payments/cards/supported-card-brands
-# Variables:
-#  $cardName (String) - The brand name of the credit card, e.g. American Express
-#  $lastFour (String) - The last four digits of the credit card, e.g. 5309
-credit-card-ending-in = { $cardName } քարտը՝ ավարտվում է { $lastFour }-ով
 
 ##
 

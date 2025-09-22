@@ -79,15 +79,6 @@ payment-plan-charged = Xk'ul rajil { $invoiceTotal } pa { $invoiceDateOnly }
 # Variables
 #  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
 payment-plan-next-invoice = Jun chik Rajil Paktura': { $nextInvoiceDateOnly }
-# After the colon is how the user paid, e.g. PayPal or credit card
-payment-method = Rub'eyal tojïk:
-payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
-# Variables:
-#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
-subscriptionFirstInvoice-content-invoice-number = Rajilab'al Paktura': <b>{ $invoiceNumber }</b>
-# Variables:
-#  $invoiceNumber (String) - The invoice number of the subscription invoice, e.g. 8675309
-subscriptionFirstInvoice-content-invoice-number-plaintext = Rajilab'al Paktura': { $invoiceNumber }
 
 ##
 
@@ -183,9 +174,6 @@ subscriptionFirstInvoice-title = Matyox xatz'ib'aj ab'i' pa { $productName }
 subscriptionFirstInvoice-content-processing = Nisamajïx ri atojik, ri xtuk'waj jun kaji' samaj q'ij richin xtitz'aqatisäx.
 subscriptionFirstInvoice-content-auto-renew = Xtijalatäj ri rutz'ib'axik ab'i' toq xtanojisala' paktura', man ke ta ri' we xtaq'ät.
 # Variables:
-#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 01/20/2016
-subscriptionFirstInvoice-content-next-invoice = Jun chik Rajil Paktura': { $nextInvoiceDateOnly }
-# Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionPaymentFailed-subject = Xsach rik'in rutojik { $productName }
 subscriptionPaymentFailed-title = Takuyu', k'o qak'ayewal rik'in ri atojik
@@ -206,9 +194,6 @@ subscriptionSubsequentInvoice-title = ¡Matyox xatz'ib'aj ab'i'!
 # Variables:
 #  $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionSubsequentInvoice-content-received = Xqak'ül ri ruk'isib'äl atojik richin { $productName }.
-# Variables:
-#  $nextInvoiceDateOnly (String) - The date of the next invoice, e.g. 2016/01/20
-subscriptionSubsequentInvoice-content-next-invoice = Jun chik Rajil Paktura': { $nextInvoiceDateOnly }
 # Variables:
 # $productName (String) - The name of the subscribed product, e.g. Mozilla VPN
 subscriptionUpgrade-subject = Xak'ëx pa { $productName }

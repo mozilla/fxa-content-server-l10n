@@ -111,9 +111,6 @@ automated-email-no-action = { automated-email-no-action-plaintext } برای ا�
 change-password-plaintext = اگر شما مشکوک هستید که فرد دیگری قصد ورود به حساب‌کاربری شما را دارد، لطفا کلمه عبور خود را تغییر دهید.
 manage-account = مدیریت حساب‌کاربری
 manage-account-plaintext = { manage-account }:
-# After the colon is how the user paid, e.g. PayPal or credit card
-payment-method = روش پرداخت:
-payment-provider-paypal-plaintext = { payment-method } { -brand-paypal }
 
 ##
 

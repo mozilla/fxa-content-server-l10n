@@ -155,8 +155,6 @@ page-not-found-back-button = Zpátky
 subscription-management-breadcrumb-account-home = Domovská stránka účtu
 # Link title - Subscriptions management
 subscription-management-breadcrumb-subscriptions = Předplatné
-# Link title - Payment method management
-subscription-management-breadcrumb-payment = Platební metody
 # $page refers to page titles used in the breadcrumb menu (e.g. Account Home, Subscriptions, Payment Methods)
 subscription-management-breadcrumb-back-aria = Přejít zpět na { $page }
 
@@ -287,11 +285,8 @@ next-new-user-subscribe-product-assurance = Vaši e-mailovou adresu použijeme p
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
-subscription-content-current-invoice-billed-on-with-tax = { $invoiceTotal } + { $taxDue } <span>zaplaceno dne { $billedOnDate }</span>
-subscription-content-current-invoice-billed-on-no-tax = { $invoiceTotal } <span>zaplaceno dne { $billedOnDate }</span>
 subscription-content-credit-issued-to-your-account = Na váš účet bude připsán kredit <strong>{ $creditApplied }</strong>
 subscription-content-coupon-applied = Kupón { $promotionName } byl použit
-subscription-content-next-bill-excl-with-tax = Další platba <strong>{ $nextInvoiceTotal } + { $taxDue }</strong>, kromě slev, je splatná <strong>{ $nextBillDate }</strong>
 subscription-content-next-bill-excl-no-tax = Další platba <strong>{ $nextInvoiceTotal }</strong>, kromě diskontů, je splatná <strong>{ $nextBillDate }</strong>
 subscription-content-heading-cancel-subscription = Zrušit předplatné
 subscription-content-no-longer-use-message = Po { $currentPeriodEnd }, posledním dni vašeho fakturačního období, nebudete moci { $productName } používat.

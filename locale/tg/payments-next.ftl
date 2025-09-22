@@ -99,8 +99,6 @@ page-not-found-back-button = Бозгашт
 subscription-management-breadcrumb-account-home = Саҳифаи асосии ҳисоб
 # Link title - Subscriptions management
 subscription-management-breadcrumb-subscriptions = Обунаҳо
-# Link title - Payment method management
-subscription-management-breadcrumb-payment = Тарзҳои пардохт
 
 ## Checkout Form
 

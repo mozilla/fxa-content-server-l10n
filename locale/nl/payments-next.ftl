@@ -155,8 +155,6 @@ page-not-found-back-button = Terug
 subscription-management-breadcrumb-account-home = Account-startpagina
 # Link title - Subscriptions management
 subscription-management-breadcrumb-subscriptions = Abonnementen
-# Link title - Payment method management
-subscription-management-breadcrumb-payment = Betalingsmethoden
 # $page refers to page titles used in the breadcrumb menu (e.g. Account Home, Subscriptions, Payment Methods)
 subscription-management-breadcrumb-back-aria = Terug naar { $page }
 
@@ -287,11 +285,8 @@ next-new-user-subscribe-product-assurance = We gebruiken uw e-mailadres alleen o
 ## $promotionName (String) - The name of the promotion.
 ## $taxDue (Number) - The tax added on, not included in amount. It will be formatted as currency.
 
-subscription-content-current-invoice-billed-on-with-tax = { $invoiceTotal } + { $taxDue } <span>gefactureerd op { $billedOnDate }</span>
-subscription-content-current-invoice-billed-on-no-tax = { $invoiceTotal } <span>gefactureerd op { $billedOnDate }</span>
 subscription-content-credit-issued-to-your-account = <strong>{ $creditApplied }</strong> tegoed toegekend aan uw account
 subscription-content-coupon-applied = { $promotionName } toegepast
-subscription-content-next-bill-excl-with-tax = De volgende factuur van <strong>{ $nextInvoiceTotal } + { $taxDue }</strong>, exclusief kortingen, is verschuldigd op <strong>{ $nextBillDate }</strong>
 subscription-content-next-bill-excl-no-tax = De volgende factuur van <strong>{ $nextInvoiceTotal }</strong>, exclusief kortingen, is verschuldigd op <strong>{ $nextBillDate }</strong>
 subscription-content-heading-cancel-subscription = Abonnement opzeggen
 subscription-content-no-longer-use-message = U kunt { $productName } niet meer gebruiken na { $currentPeriodEnd }, de laatste dag van uw betalingscyclus.
